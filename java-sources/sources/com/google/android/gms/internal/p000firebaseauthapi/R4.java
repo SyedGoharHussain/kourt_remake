@@ -1,0 +1,12 @@
+package com.google.android.gms.internal.p000firebaseauthapi;
+
+/* JADX INFO: loaded from: classes4.dex */
+public abstract class R4 {
+    public static int a(U4 u10, Object obj, Object obj2) {
+        throw null;
+    }
+
+    public static void b(AbstractC3769g4 abstractC3769g4, U4 u10, Object obj, Object obj2) {
+        throw null;
+    }
+}

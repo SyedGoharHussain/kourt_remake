@@ -1,0 +1,113 @@
+package com.revenuecat.purchases.ui.revenuecatui.icons;
+
+import C1.d;
+import C1.f;
+import C1.o;
+import com.revenuecat.purchases.ui.revenuecatui.helpers.ColorExtractionConstants;
+import kotlin.jvm.internal.AbstractC6116t;
+import p209o2.h;
+import p320w1.C6350o0;
+import p320w1.M0;
+import p320w1.d1;
+import p320w1.e1;
+import p320w1.f1;
+
+/* JADX INFO: loaded from: classes5.dex */
+public final class CurrencyExchangeKt {
+    private static d _Currency_exchange;
+
+    public static final d getCurrencyExchange() {
+        d dVar = _Currency_exchange;
+        if (dVar != null) {
+            AbstractC6116t.d(dVar);
+            return dVar;
+        }
+        float f10 = 24;
+        d.a aVar = new d.a("CurrencyExchange", h.k(f10), h.k(f10), 960.0f, 960.0f, 0L, 0, false, 224, null);
+        d1 d1Var = new d1(C6350o0.f62400b.a(), null);
+        int iA = e1.f62373a.a();
+        int iB = f1.f62378a.b();
+        int iB2 = M0.f62333a.b();
+        f fVar = new f();
+        fVar.i(480.0f, 920.0f);
+        fVar.k(-112.0f, 0.0f, -206.0f, -51.0f);
+        fVar.n(120.0f, 733.0f);
+        fVar.p(107.0f);
+        fVar.e(40.0f);
+        fVar.p(-240.0f);
+        fVar.f(240.0f);
+        fVar.p(80.0f);
+        fVar.f(-99.0f);
+        fVar.k(48.0f, 72.0f, 126.5f, 116.0f);
+        fVar.n(480.0f, 840.0f);
+        fVar.k(75.0f, 0.0f, 140.5f, -28.5f);
+        fVar.o(114.0f, -77.0f);
+        fVar.o(77.0f, -114.0f);
+        fVar.n(840.0f, 480.0f);
+        fVar.f(80.0f);
+        fVar.k(0.0f, 91.0f, -34.5f, 171.0f);
+        fVar.n(791.0f, 791.0f);
+        fVar.n(651.0f, 885.5f);
+        fVar.n(480.0f, 920.0f);
+        fVar.j(-36.0f, -160.0f);
+        fVar.p(-52.0f);
+        fVar.k(-47.0f, -11.0f, -76.5f, -40.5f);
+        fVar.n(324.0f, 590.0f);
+        fVar.h(66.0f, -26.0f);
+        fVar.k(12.0f, 41.0f, 37.5f, 61.5f);
+        fVar.n(486.0f, 646.0f);
+        fVar.o(56.5f, -15.5f);
+        fVar.n(566.0f, 582.0f);
+        fVar.k(0.0f, -29.0f, -24.5f, -47.0f);
+        fVar.n(454.0f, 494.0f);
+        fVar.k(-59.0f, -21.0f, -86.5f, -50.0f);
+        fVar.n(340.0f, 368.0f);
+        fVar.k(0.0f, -41.0f, 28.5f, -74.5f);
+        fVar.n(446.0f, 250.0f);
+        fVar.p(-50.0f);
+        fVar.f(70.0f);
+        fVar.p(50.0f);
+        fVar.k(36.0f, 3.0f, 65.5f, 29.0f);
+        fVar.o(40.5f, 61.0f);
+        fVar.h(-64.0f, 26.0f);
+        fVar.k(-8.0f, -23.0f, -26.0f, -38.5f);
+        fVar.n(482.0f, 312.0f);
+        fVar.k(-35.0f, 0.0f, -53.5f, 15.0f);
+        fVar.n(410.0f, 368.0f);
+        fVar.o(23.0f, 41.0f);
+        fVar.o(83.0f, 35.0f);
+        fVar.k(72.0f, 26.0f, 96.0f, 61.0f);
+        fVar.o(24.0f, 77.0f);
+        fVar.k(0.0f, 29.0f, -10.0f, 51.0f);
+        fVar.o(-26.5f, 37.5f);
+        fVar.o(-38.5f, 25.0f);
+        fVar.o(-47.0f, 14.5f);
+        fVar.p(50.0f);
+        fVar.a();
+        fVar.i(40.0f, 480.0f);
+        fVar.k(0.0f, -91.0f, 34.5f, -171.0f);
+        fVar.n(169.0f, 169.0f);
+        fVar.o(140.0f, -94.5f);
+        fVar.n(480.0f, 40.0f);
+        fVar.k(112.0f, 0.0f, 206.0f, 51.0f);
+        fVar.o(154.0f, 136.0f);
+        fVar.p(-107.0f);
+        fVar.f(80.0f);
+        fVar.p(240.0f);
+        fVar.e(680.0f);
+        fVar.p(-80.0f);
+        fVar.f(99.0f);
+        fVar.k(-48.0f, -72.0f, -126.5f, -116.0f);
+        fVar.n(480.0f, 120.0f);
+        fVar.k(-75.0f, 0.0f, -140.5f, 28.5f);
+        fVar.o(-114.0f, 77.0f);
+        fVar.o(-77.0f, 114.0f);
+        fVar.n(120.0f, 480.0f);
+        fVar.a();
+        aVar.c(fVar.d(), (14336 & 2) != 0 ? o.a() : iB2, (14336 & 4) != 0 ? "" : "", (14336 & 8) != 0 ? null : d1Var, (14336 & 16) != 0 ? 1.0f : 1.0f, (14336 & 32) == 0 ? null : null, (14336 & 64) != 0 ? 1.0f : 1.0f, (14336 & ColorExtractionConstants.MINIMUM_ALPHA_THRESHOLD) != 0 ? 0.0f : 1.0f, (14336 & 256) != 0 ? o.b() : iA, (14336 & 512) != 0 ? o.c() : iB, (14336 & 1024) != 0 ? 4.0f : 1.0f, (14336 & 2048) != 0 ? 0.0f : 0.0f, (14336 & 4096) == 0 ? 0.0f : 1.0f, (14336 & 8192) != 0 ? 0.0f : 0.0f);
+        d dVarF = aVar.f();
+        _Currency_exchange = dVarF;
+        AbstractC6116t.d(dVarF);
+        return dVarF;
+    }
+}

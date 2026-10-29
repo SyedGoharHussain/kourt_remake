@@ -1,0 +1,832 @@
+[
+  {
+    "id": "finishing.euro_step-e2febccb",
+    "category": "finishing",
+    "name": "Euro Step",
+    "tips": [
+      "Sell the move with your eyes",
+      "Try a pass fake with your step",
+      "Fully extend your arms to sell the fake"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.euro_step-e2febccb.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.euro_step-e2febccb.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.euro_step-e2febccb.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-09T06:53:35.179Z",
+    "updatedAt": "2026-09-17T06:37:13.111Z"
+  },
+  {
+    "id": "finishing.hop_step-188c34a4",
+    "category": "finishing",
+    "name": "Hop Step",
+    "tips": [
+      "Gather and hop off two feet",
+      "Land balanced and under control",
+      "Use the hop to cover ground past the defender and land on two feet so you keep both a shot and a pivot"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.hop_step-188c34a4.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.hop_step-188c34a4.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.hop_step-188c34a4.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:05:53.341Z",
+    "updatedAt": "2026-09-17T05:04:31.110Z"
+  },
+  {
+    "id": "finishing.drop_step-fe27491f",
+    "category": "finishing",
+    "name": "Drop Step",
+    "tips": [
+      "Feel the defender, then drop",
+      "Big step straight to the rim",
+      "Read which shoulder they are on and drop your opposite foot to the basket instead of turning into them"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.drop_step-fe27491f.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.drop_step-fe27491f.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.drop_step-fe27491f.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:06:12.583Z",
+    "updatedAt": "2026-09-17T04:03:44.313Z"
+  },
+  {
+    "id": "finishing.finger_roll-527e1f34",
+    "category": "finishing",
+    "name": "Finger Roll",
+    "tips": [
+      "Extend and roll it off your fingers",
+      "Soft touch, high off the glass",
+      "Reach the ball out past the shot blocker and let it roll off your fingertips so it lands soft even at full speed"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.finger_roll-527e1f34.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.finger_roll-527e1f34.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.finger_roll-527e1f34.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:06:29.535Z",
+    "updatedAt": "2026-09-17T04:16:29.821Z"
+  },
+  {
+    "id": "finishing.reverse_layup-f9d52a53",
+    "category": "finishing",
+    "name": "Reverse Layup",
+    "tips": [
+      "Cross under the rim",
+      "Use the rim as your shield",
+      "Finishing on the far side puts the backboard between you and the contest, so let the ball come back off the glass"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.reverse_layup-f9d52a53.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.reverse_layup-f9d52a53.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.reverse_layup-f9d52a53.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:06:47.874Z",
+    "updatedAt": "2026-09-17T05:19:36.838Z"
+  },
+  {
+    "id": "finishing.step_through-5b9de7d0",
+    "category": "finishing",
+    "name": "Step Through",
+    "tips": [
+      "Pivot, then step past",
+      "Keep the ball high and tight",
+      "Once the defender commits to your first move, step through the gap with your free foot without dropping the ball"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.step_through-5b9de7d0.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.step_through-5b9de7d0.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.step_through-5b9de7d0.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:07:26.342Z",
+    "updatedAt": "2026-09-17T05:03:26.422Z"
+  },
+  {
+    "id": "finishing.floater-0d7237da",
+    "category": "finishing",
+    "name": "Floater",
+    "tips": [
+      "Shoot it off one foot on the move",
+      "High arc over the big",
+      "Release it early before the shot blocker can climb, and let the arc do the work rather than powering through"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.floater-0d7237da.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.floater-0d7237da.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.floater-0d7237da.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:07:43.664Z",
+    "updatedAt": "2026-09-17T05:05:22.925Z"
+  },
+  {
+    "id": "finishing.up_and_under-97739306",
+    "category": "finishing",
+    "name": "Up and Under",
+    "tips": [
+      "Show the shot, then duck under",
+      "Stay low on the step",
+      "Sell the shot fake hard enough to lift them, then step under their arms and finish before they land"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.up_and_under-97739306.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.up_and_under-97739306.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.up_and_under-97739306.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:08:02.148Z",
+    "updatedAt": "2026-09-17T03:52:28.820Z"
+  },
+  {
+    "id": "finishing.scoop_layup-e5b46bc8",
+    "category": "finishing",
+    "name": "Scoop Layup",
+    "tips": [
+      "Scoop it up from underneath",
+      "Keep it away from the block",
+      "Coming in low and scooping upward gets the ball under a shot blocker's reach instead of into it"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.scoop_layup-e5b46bc8.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.scoop_layup-e5b46bc8.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.scoop_layup-e5b46bc8.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:08:20.009Z",
+    "updatedAt": "2026-09-17T03:10:19.371Z"
+  },
+  {
+    "id": "finishing.inside_hand_finish-b004d6e9",
+    "category": "finishing",
+    "name": "Inside Hand Finish",
+    "tips": [
+      "Finish with the hand closest to the rim",
+      "Shield with your outside shoulder",
+      "Using the inside hand keeps your body between the defender and the ball, which is how you finish through contact"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.inside_hand_finish-b004d6e9.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.inside_hand_finish-b004d6e9.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.inside_hand_finish-b004d6e9.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:08:40.891Z",
+    "updatedAt": "2026-09-17T05:02:32.774Z"
+  },
+  {
+    "id": "finishing.slow_step-63fc4193",
+    "category": "finishing",
+    "name": "Slow Step",
+    "tips": [
+      "Slow your feet, then go",
+      "Change pace, not direction",
+      "Deliberately slowing your steps invites the defender to settle, and the finish comes from the burst out of that pause"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.slow_step-63fc4193.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.slow_step-63fc4193.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.slow_step-63fc4193.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:09:02.755Z",
+    "updatedAt": "2026-09-17T05:20:23.452Z"
+  },
+  {
+    "id": "finishing.spin_move-0a02a3dd",
+    "category": "finishing",
+    "name": "Spin Move",
+    "tips": [
+      "Plant and spin into the lane",
+      "Ball tucked through the turn",
+      "Spin off your inside foot and come out of the turn already gathering so you finish before help rotates"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.spin_move-0a02a3dd.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.spin_move-0a02a3dd.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.spin_move-0a02a3dd.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:09:22.646Z",
+    "updatedAt": "2026-09-17T06:03:03.436Z"
+  },
+  {
+    "id": "finishing.double_clutch-fb10025a",
+    "category": "finishing",
+    "name": "Double Clutch",
+    "tips": [
+      "Bring it back down, then finish",
+      "Hang and wait them out",
+      "Pull the ball back into your body mid-air to let the shot blocker fall, then release once they are on the way down"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.double_clutch-fb10025a.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.double_clutch-fb10025a.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.double_clutch-fb10025a.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:09:41.648Z",
+    "updatedAt": "2026-09-17T04:03:04.739Z"
+  },
+  {
+    "id": "finishing.wrong_foot_layup-0326d29c",
+    "category": "finishing",
+    "name": "Wrong-Foot Layup",
+    "tips": [
+      "Take off from the same-side foot",
+      "Break the normal rhythm",
+      "Jumping off the unexpected foot arrives a beat early, which catches a shot blocker who timed your usual footwork"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.wrong_foot_layup-0326d29c.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.wrong_foot_layup-0326d29c.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.wrong_foot_layup-0326d29c.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:10:01.254Z",
+    "updatedAt": "2026-09-17T05:18:26.491Z"
+  },
+  {
+    "id": "finishing.cradle_layup-13f95575",
+    "category": "finishing",
+    "name": "Cradle Layup",
+    "tips": [
+      "Cradle it away from the block",
+      "Swing it across your body",
+      "Wrap the ball around the contest while you are in the air and finish on the far side of the defender's reach"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.cradle_layup-13f95575.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.cradle_layup-13f95575.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.cradle_layup-13f95575.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:10:19.813Z",
+    "updatedAt": "2026-09-17T09:46:36.670Z"
+  },
+  {
+    "id": "finishing.euro_step_finger_roll-fa1d1689",
+    "category": "finishing",
+    "name": "Euro Step Finger Roll",
+    "tips": [
+      "Two steps, then roll it in",
+      "Long strides, soft finish",
+      "Use the euro to get around the contest and the finger roll to keep the finish soft at full speed"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "finishing.euro_step-e2febccb",
+      "finishing.finger_roll-527e1f34"
+    ],
+    "repDribbles": 2,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.euro_step_finger_roll-fa1d1689.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.euro_step_finger_roll-fa1d1689.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.euro_step_finger_roll-fa1d1689.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:11:06.102Z",
+    "updatedAt": "2026-09-17T04:15:01.004Z"
+  },
+  {
+    "id": "finishing.slow_step_floater-0838a9c3",
+    "category": "finishing",
+    "name": "Slow Step Floater",
+    "tips": [
+      "Slow them down, then float it",
+      "Change pace, then rise early",
+      "The pause freezes the big and the floater goes up before they can recover their timing"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "finishing.slow_step-63fc4193",
+      "finishing.floater-0d7237da"
+    ],
+    "repDribbles": 2,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.slow_step_floater-0838a9c3.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.slow_step_floater-0838a9c3.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.slow_step_floater-0838a9c3.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:12:46.542Z",
+    "updatedAt": "2026-09-17T06:03:33.805Z"
+  },
+  {
+    "id": "finishing.layup-f8b62646",
+    "category": "finishing",
+    "name": "Layup",
+    "tips": [
+      "Inside foot, outside foot, up",
+      "Finish high off the glass",
+      "Take off from the foot opposite your shooting hand and lay it softly off the top corner of the square"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.layup-f8b62646.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.layup-f8b62646.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.layup-f8b62646.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:51:22.295Z",
+    "updatedAt": "2026-09-17T05:18:44.077Z"
+  },
+  {
+    "id": "finishing.pro_hop-7210da45",
+    "category": "finishing",
+    "name": "Pro Hop",
+    "tips": [
+      "Hop sideways off your gather",
+      "Land on two feet, still balanced",
+      "The lateral hop moves you around a shot blocker instead of into them, so read the help before you leave the floor"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.pro_hop-7210da45.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.pro_hop-7210da45.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.pro_hop-7210da45.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:51:59.798Z",
+    "updatedAt": "2026-09-17T05:19:20.768Z"
+  },
+  {
+    "id": "finishing.euro_step_floater-e0e18c33",
+    "category": "finishing",
+    "name": "Euro Step Floater",
+    "tips": [
+      "Two steps, then float it",
+      "Release it early over the big",
+      "The euro gets you around the first defender and the floater goes up before the help can climb to meet it"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "finishing.euro_step-e2febccb",
+      "finishing.floater-0d7237da"
+    ],
+    "repDribbles": 2,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.euro_step_floater-e0e18c33.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.euro_step_floater-e0e18c33.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.euro_step_floater-e0e18c33.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:53:36.426Z",
+    "updatedAt": "2026-09-17T04:15:56.072Z"
+  },
+  {
+    "id": "finishing.rebound_up_under-42eefa73",
+    "category": "finishing",
+    "name": "Rebound Up & Under",
+    "tips": [
+      "Reach high on the rebound",
+      "Sell the fake",
+      "Square your shoulders to the basket"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.rebound_up_under-42eefa73.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.rebound_up_under-42eefa73.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.rebound_up_under-42eefa73.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-17T03:44:19.430Z",
+    "updatedAt": "2026-09-17T09:47:58.677Z"
+  },
+  {
+    "id": "finishing.mikan_drill-699b167a",
+    "category": "finishing",
+    "name": "Mikan Drill",
+    "tips": [
+      "Turn your outside shoulder to the rim as you go up",
+      "Keep the ball above your chin",
+      "Raise your knee with your arm on every layup"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.mikan_drill-699b167a.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.mikan_drill-699b167a.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.mikan_drill-699b167a.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-17T04:04:45.512Z",
+    "updatedAt": "2026-09-17T09:47:35.523Z"
+  },
+  {
+    "id": "finishing.spin_into_step_through-5fb8a3b7",
+    "category": "finishing",
+    "name": "Spin Into Step Through",
+    "tips": [
+      "Keep the ball tight to your body on the spin",
+      "Sell the pump fake",
+      "Fully extension on the layup"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.spin_into_step_through-5fb8a3b7.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.spin_into_step_through-5fb8a3b7.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.spin_into_step_through-5fb8a3b7.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-17T06:02:37.073Z",
+    "updatedAt": "2026-09-17T09:48:59.389Z"
+  },
+  {
+    "id": "finishing.jump_stop_pump_fake-5f58e040",
+    "category": "finishing",
+    "name": "Jump Stop Pump Fake",
+    "tips": [
+      "Really sell the pump fake",
+      "Jump stop with power",
+      "Jump high on the finish"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.jump_stop_pump_fake-5f58e040.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.jump_stop_pump_fake-5f58e040.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.jump_stop_pump_fake-5f58e040.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-17T06:08:48.121Z",
+    "updatedAt": "2026-09-17T06:45:01.857Z"
+  },
+  {
+    "id": "finishing.board_up-eb5b0383",
+    "category": "finishing",
+    "name": "Board & Up",
+    "tips": [],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/finishing/finishing.board_up-eb5b0383.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/finishing/finishing.board_up-eb5b0383.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/finishing/finishing.board_up-eb5b0383.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-17T06:09:01.820Z",
+    "updatedAt": "2026-09-17T06:51:42.174Z"
+  }
+]

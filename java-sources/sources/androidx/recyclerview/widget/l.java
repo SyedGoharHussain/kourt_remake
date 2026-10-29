@@ -1,0 +1,37 @@
+package androidx.recyclerview.widget;
+
+import android.view.View;
+
+/* JADX INFO: loaded from: classes4.dex */
+public abstract class l {
+    public static int a(RecyclerView.A a10, i iVar, View view, View view2, RecyclerView.p pVar, boolean z10) {
+        if (pVar.O() == 0 || a10.b() == 0 || view == null || view2 == null) {
+            return 0;
+        }
+        if (!z10) {
+            return Math.abs(pVar.l0(view) - pVar.l0(view2)) + 1;
+        }
+        return Math.min(iVar.n(), iVar.d(view2) - iVar.g(view));
+    }
+
+    public static int b(RecyclerView.A a10, i iVar, View view, View view2, RecyclerView.p pVar, boolean z10, boolean z11) {
+        if (pVar.O() == 0 || a10.b() == 0 || view == null || view2 == null) {
+            return 0;
+        }
+        int iMax = z11 ? Math.max(0, (a10.b() - Math.max(pVar.l0(view), pVar.l0(view2))) - 1) : Math.max(0, Math.min(pVar.l0(view), pVar.l0(view2)));
+        if (z10) {
+            return Math.round((iMax * (Math.abs(iVar.d(view2) - iVar.g(view)) / (Math.abs(pVar.l0(view) - pVar.l0(view2)) + 1))) + (iVar.m() - iVar.g(view)));
+        }
+        return iMax;
+    }
+
+    public static int c(RecyclerView.A a10, i iVar, View view, View view2, RecyclerView.p pVar, boolean z10) {
+        if (pVar.O() == 0 || a10.b() == 0 || view == null || view2 == null) {
+            return 0;
+        }
+        if (!z10) {
+            return a10.b();
+        }
+        return (int) (((iVar.d(view2) - iVar.g(view)) / (Math.abs(pVar.l0(view) - pVar.l0(view2)) + 1)) * a10.b());
+    }
+}

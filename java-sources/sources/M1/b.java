@@ -1,0 +1,21 @@
+package M1;
+
+import java.util.concurrent.CancellationException;
+import kotlin.jvm.internal.AbstractC6108k;
+
+/* JADX INFO: loaded from: classes.dex */
+public abstract class b extends CancellationException {
+    public b(String str) {
+        super(str);
+    }
+
+    @Override // java.lang.Throwable
+    public Throwable fillInStackTrace() {
+        setStackTrace(c.f13258a);
+        return this;
+    }
+
+    public /* synthetic */ b(String str, int i10, AbstractC6108k abstractC6108k) {
+        this((i10 & 1) != 0 ? null : str);
+    }
+}

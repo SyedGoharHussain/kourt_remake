@@ -1,0 +1,37 @@
+package com.google.android.gms.internal.measurement;
+
+import java.util.logging.Level;
+
+/* JADX INFO: renamed from: com.google.android.gms.internal.measurement.o, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes4.dex */
+public abstract class AbstractC4392o {
+    public static String a(String str, String str2, boolean z10) {
+        if (str2.length() > 23) {
+            int i10 = -1;
+            for (int length = str2.length() - 1; length >= 0; length--) {
+                char cCharAt = str2.charAt(length);
+                if (cCharAt == '.' || cCharAt == '$') {
+                    i10 = length;
+                    break;
+                }
+            }
+            str2 = str2.substring(i10 + 1);
+        }
+        String strConcat = "".concat(String.valueOf(str2));
+        return strConcat.substring(0, Math.min(strConcat.length(), 23));
+    }
+
+    public static int b(Level level) {
+        int iIntValue = level.intValue();
+        if (iIntValue >= Level.SEVERE.intValue()) {
+            return 6;
+        }
+        if (iIntValue >= Level.WARNING.intValue()) {
+            return 5;
+        }
+        if (iIntValue >= Level.INFO.intValue()) {
+            return 4;
+        }
+        return iIntValue >= Level.FINE.intValue() ? 3 : 2;
+    }
+}

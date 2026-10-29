@@ -1,0 +1,111 @@
+package com.google.android.recaptcha.internal;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+/* JADX INFO: loaded from: classes4.dex */
+public abstract class zzqv extends zzqe {
+    public static final /* synthetic */ int zzb = 0;
+    private static final Logger zzc = Logger.getLogger(zzqv.class.getName());
+    private static final boolean zzd = zzvc.zzx();
+    zzqw zza;
+
+    private zzqv() {
+        throw null;
+    }
+
+    public static int zzA(int i10) {
+        return (352 - (Integer.numberOfLeadingZeros(i10) * 9)) >>> 6;
+    }
+
+    public static int zzB(long j10) {
+        return (640 - (Long.numberOfLeadingZeros(j10) * 9)) >>> 6;
+    }
+
+    @Deprecated
+    public static int zzw(int i10, zzts zztsVar, zzug zzugVar) {
+        int iZzA = zzA(i10 << 3);
+        return iZzA + iZzA + ((zzpw) zztsVar).zza(zzugVar);
+    }
+
+    public static int zzx(zzts zztsVar) {
+        int iZzo = zztsVar.zzo();
+        return zzA(iZzo) + iZzo;
+    }
+
+    public static int zzy(zzts zztsVar, zzug zzugVar) {
+        int iZza = ((zzpw) zztsVar).zza(zzugVar);
+        return zzA(iZza) + iZza;
+    }
+
+    public static int zzz(String str) {
+        int length;
+        try {
+            length = zzvf.zzc(str);
+        } catch (zzve unused) {
+            length = str.getBytes(zzsv.zza).length;
+        }
+        return zzA(length) + length;
+    }
+
+    public final void zzC() {
+        if (zza() != 0) {
+            throw new IllegalStateException("Did not write as much data as expected.");
+        }
+    }
+
+    public final void zzD(String str, zzve zzveVar) throws zzqt {
+        zzc.logp(Level.WARNING, "com.google.protobuf.CodedOutputStream", "inefficientWriteStringNoTag", "Converting ill-formed UTF-16. Your Protocol Buffer will not round trip correctly!", (Throwable) zzveVar);
+        byte[] bytes = str.getBytes(zzsv.zza);
+        try {
+            int length = bytes.length;
+            zzt(length);
+            zzl(bytes, 0, length);
+        } catch (IndexOutOfBoundsException e10) {
+            throw new zzqt(e10);
+        }
+    }
+
+    public abstract int zza();
+
+    public abstract void zzb(byte b10);
+
+    public abstract void zzd(int i10, boolean z10);
+
+    public abstract void zze(int i10, zzqm zzqmVar);
+
+    public abstract void zzf(int i10, int i11);
+
+    public abstract void zzg(int i10);
+
+    public abstract void zzh(int i10, long j10);
+
+    public abstract void zzi(long j10);
+
+    public abstract void zzj(int i10, int i11);
+
+    public abstract void zzk(int i10);
+
+    public abstract void zzl(byte[] bArr, int i10, int i11);
+
+    public abstract void zzm(int i10, zzts zztsVar, zzug zzugVar);
+
+    public abstract void zzn(int i10, zzts zztsVar);
+
+    public abstract void zzo(int i10, zzqm zzqmVar);
+
+    public abstract void zzp(int i10, String str);
+
+    public abstract void zzr(int i10, int i11);
+
+    public abstract void zzs(int i10, int i11);
+
+    public abstract void zzt(int i10);
+
+    public abstract void zzu(int i10, long j10);
+
+    public abstract void zzv(long j10);
+
+    public /* synthetic */ zzqv(zzqu zzquVar) {
+    }
+}

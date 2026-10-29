@@ -1,0 +1,3115 @@
+[
+  {
+    "id": "dribbling.crossover-b7c5d140",
+    "category": "dribbling",
+    "name": "Crossover",
+    "tips": [
+      "Keep that base low and wide",
+      "Remember to shift your weight with the ball",
+      "Keep it tight to your knees"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.crossover-b7c5d140.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.crossover-b7c5d140.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.crossover-b7c5d140.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-09T06:50:12.138Z",
+    "updatedAt": "2026-09-15T15:22:00.254Z"
+  },
+  {
+    "id": "dribbling.between_the_legs-fc3993a5",
+    "category": "dribbling",
+    "name": "Between the Legs",
+    "tips": [
+      "Keep those feet staggered",
+      "Don't lift it, push it through",
+      "Remember to keep your eyes up"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.between_the_legs-fc3993a5.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.between_the_legs-fc3993a5.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.between_the_legs-fc3993a5.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T08:53:20.513Z",
+    "updatedAt": "2026-09-15T15:17:52.141Z"
+  },
+  {
+    "id": "dribbling.behind_the_back-0437b0f3",
+    "category": "dribbling",
+    "name": "Behind the Back",
+    "tips": [
+      "Keep snapping it, don't loop it",
+      "Remember to keep it at hip height",
+      "Don't let that chest drop"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.behind_the_back-0437b0f3.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.behind_the_back-0437b0f3.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.behind_the_back-0437b0f3.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T09:00:01.657Z",
+    "updatedAt": "2026-09-15T15:16:59.906Z"
+  },
+  {
+    "id": "dribbling.pound_dribble-10479fb7",
+    "category": "dribbling",
+    "name": "Pound Dribble",
+    "tips": [
+      "Keep pounding it hip high",
+      "Don't use your palm",
+      "Remember to keep your eyes off the floor"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.pound_dribble-10479fb7.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.pound_dribble-10479fb7.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.pound_dribble-10479fb7.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T09:00:22.783Z",
+    "updatedAt": "2026-09-12T15:56:54.012Z"
+  },
+  {
+    "id": "dribbling.low_pound-29923d18",
+    "category": "dribbling",
+    "name": "Low Pound",
+    "tips": [
+      "Keep it below your knee",
+      "Stay sat down in that stance",
+      "Don't bend at your back"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.low_pound-29923d18.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.low_pound-29923d18.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.low_pound-29923d18.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T09:00:45.110Z",
+    "updatedAt": "2026-09-12T16:30:13.090Z"
+  },
+  {
+    "id": "dribbling.high_pound-5eb890dc",
+    "category": "dribbling",
+    "name": "High Pound",
+    "tips": [
+      "Keep pounding it chest high",
+      "Stay strong through your wrist",
+      "Remember to meet it at the top"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.high_pound-5eb890dc.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.high_pound-5eb890dc.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.high_pound-5eb890dc.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T09:01:04.389Z",
+    "updatedAt": "2026-09-12T14:25:36.027Z"
+  },
+  {
+    "id": "dribbling.windshield_wipers-b2e01b98",
+    "category": "dribbling",
+    "name": "Windshield Wipers",
+    "tips": [
+      "Keep it side to side on the same hand",
+      "Remember to sweep across your front foot",
+      "Don't swing your arm"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 2,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.windshield_wipers-b2e01b98.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.windshield_wipers-b2e01b98.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.windshield_wipers-b2e01b98.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T09:01:19.632Z",
+    "updatedAt": "2026-09-12T15:21:01.588Z"
+  },
+  {
+    "id": "dribbling.figure_eight-977e43aa",
+    "category": "dribbling",
+    "name": "Low Figure 8",
+    "tips": [
+      "Keep weaving it around both legs",
+      "Stay small and quick with your taps",
+      "Don't chase speed before it's smooth"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": true,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.figure_eight-977e43aa.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.figure_eight-977e43aa.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.figure_eight-977e43aa.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T09:02:18.061Z",
+    "updatedAt": "2026-09-12T14:28:04.172Z"
+  },
+  {
+    "id": "dribbling.retreat_dribble-8e57d438",
+    "category": "dribbling",
+    "name": "Retreat Dribble",
+    "tips": [
+      "Keep pushing off your front foot",
+      "Remember to drag it back with you",
+      "Don't drop your eyes"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.retreat_dribble-8e57d438.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.retreat_dribble-8e57d438.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.retreat_dribble-8e57d438.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T09:02:56.244Z",
+    "updatedAt": "2026-09-14T21:40:39.248Z"
+  },
+  {
+    "id": "dribbling.hesitation-d394b327",
+    "category": "dribbling",
+    "name": "Hesitation",
+    "tips": [
+      "Keep selling it with your body and eyes",
+      "Stay low through the pause",
+      "Keep the ball on a string"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": null,
+        "variants": []
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": null,
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T09:03:13.008Z",
+    "updatedAt": "2026-09-09T03:54:26.579Z"
+  },
+  {
+    "id": "dribbling.snatch_back-9ee83c8c",
+    "category": "dribbling",
+    "name": "Pound-Snatch",
+    "tips": [
+      "Keep yanking it back hard",
+      "Remember your feet and the ball move together",
+      "Don't land off balance"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.pound_dribble-10479fb7",
+      "dribbling.snatch-d7eb0453"
+    ],
+    "repDribbles": 2,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.snatch_back-9ee83c8c.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.snatch_back-9ee83c8c.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.snatch_back-9ee83c8c.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T09:03:46.069Z",
+    "updatedAt": "2026-09-14T18:20:32.121Z"
+  },
+  {
+    "id": "dribbling.half_spin-82dc9c7b",
+    "category": "dribbling",
+    "name": "Half Spin",
+    "tips": [
+      "Remember to sell that turn like you mean it",
+      "Keep the ball tucked to your gut",
+      "Stay on the balls of your feet"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.half_spin-82dc9c7b.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.half_spin-82dc9c7b.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.half_spin-82dc9c7b.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T09:04:16.985Z",
+    "updatedAt": "2026-09-14T17:43:48.327Z"
+  },
+  {
+    "id": "dribbling.cross_hind-cb7d52dc",
+    "category": "dribbling",
+    "name": "Cross-Hind",
+    "tips": [
+      "Don't stand up between them",
+      "Keep snapping both, don't loop them",
+      "Stay in one rhythm through both"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.crossover-b7c5d140",
+      "dribbling.behind_the_back-0437b0f3"
+    ],
+    "repDribbles": 2,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.cross_hind-cb7d52dc.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.cross_hind-cb7d52dc.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.cross_hind-cb7d52dc.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T09:06:53.333Z",
+    "updatedAt": "2026-09-12T14:17:03.226Z"
+  },
+  {
+    "id": "dribbling.cross_tween-d3778591",
+    "category": "dribbling",
+    "name": "Cross-Tween",
+    "tips": [
+      "Keep them chained in one beat",
+      "Stay low through both",
+      "Keep it tight to your body"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.crossover-b7c5d140",
+      "dribbling.between_the_legs-fc3993a5"
+    ],
+    "repDribbles": 2,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.cross_tween-d3778591.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.cross_tween-d3778591.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.cross_tween-d3778591.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T09:08:39.509Z",
+    "updatedAt": "2026-09-12T14:18:02.458Z"
+  },
+  {
+    "id": "dribbling.tween_cross-f1d29649",
+    "category": "dribbling",
+    "name": "Tween-Cross",
+    "tips": [
+      "Keep that base wide the whole way",
+      "Don't lift either one, push them",
+      "Stay quick with your feet and hands"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.between_the_legs-fc3993a5",
+      "dribbling.crossover-b7c5d140"
+    ],
+    "repDribbles": 2,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.tween_cross-f1d29649.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.tween_cross-f1d29649.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.tween_cross-f1d29649.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T09:34:42.690Z",
+    "updatedAt": "2026-09-15T04:23:42.816Z"
+  },
+  {
+    "id": "dribbling.hesi_cross-fef3ff8c",
+    "category": "dribbling",
+    "name": "Hesi-Cross",
+    "tips": [
+      "Keep selling the pause with your eyes",
+      "Don't ease out of it",
+      "Stay low the whole time"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.hesitation-d394b327",
+      "dribbling.crossover-b7c5d140"
+    ],
+    "repDribbles": 2,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.hesi_cross-fef3ff8c.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.hesi_cross-fef3ff8c.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.hesi_cross-fef3ff8c.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T09:35:06.527Z",
+    "updatedAt": "2026-09-15T06:44:39.045Z"
+  },
+  {
+    "id": "dribbling.behind_the_back_wrap-17507070",
+    "category": "dribbling",
+    "name": "Behind the Back Wrap",
+    "tips": [
+      "Keep wrapping it all the way around",
+      "Chest stays tall",
+      "Let it find your hip, not your back"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.behind_the_back_wrap-17507070.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.behind_the_back_wrap-17507070.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.behind_the_back_wrap-17507070.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:36:47.406Z",
+    "updatedAt": "2026-09-15T15:18:16.522Z"
+  },
+  {
+    "id": "dribbling.baby_crossover-06120971",
+    "category": "dribbling",
+    "name": "Low Crossover",
+    "tips": [
+      "Don't let it get wide",
+      "Keep it inside your frame",
+      "Stay as quick as you can"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.baby_crossover-06120971.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.baby_crossover-06120971.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.baby_crossover-06120971.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:37:06.542Z",
+    "updatedAt": "2026-09-12T16:46:36.390Z"
+  },
+  {
+    "id": "dribbling.wide_crossover-3a58a7ba",
+    "category": "dribbling",
+    "name": "Wide Crossover",
+    "tips": [
+      "Keep reaching it out past your knee",
+      "Stay big on the cross and low on the bounce",
+      "Don't let it climb to your waist"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.wide_crossover-3a58a7ba.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.wide_crossover-3a58a7ba.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.wide_crossover-3a58a7ba.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:37:26.018Z",
+    "updatedAt": "2026-09-12T15:20:00.875Z"
+  },
+  {
+    "id": "dribbling.ground_tap_crossover-eccd79ad",
+    "category": "dribbling",
+    "name": "Ground Tap Crossover",
+    "tips": [
+      "Keep tapping the floor each rep",
+      "Stay down there with your knees bent",
+      "Keep it low and hard"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.ground_tap_crossover-eccd79ad.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.ground_tap_crossover-eccd79ad.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.ground_tap_crossover-eccd79ad.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:38:05.607Z",
+    "updatedAt": "2026-09-15T15:23:37.559Z"
+  },
+  {
+    "id": "dribbling.spider_dribble-0fa56142",
+    "category": "dribbling",
+    "name": "Spider Dribble",
+    "tips": [
+      "Stay quick and low",
+      "Keep both hands working",
+      "Don't let it rise"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.spider_dribble-0fa56142.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.spider_dribble-0fa56142.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.spider_dribble-0fa56142.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:38:26.311Z",
+    "updatedAt": "2026-09-14T18:28:53.525Z"
+  },
+  {
+    "id": "dribbling.rip_through-e50f484c",
+    "category": "dribbling",
+    "name": "Rip Through",
+    "tips": [
+      "Keep ripping it low across you",
+      "Stay under their hands",
+      "Don't let the ball drift off your body"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": null,
+        "variants": []
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": null,
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:38:49.172Z",
+    "updatedAt": "2026-09-09T03:54:40.876Z"
+  },
+  {
+    "id": "dribbling.cross_spin-f062e931",
+    "category": "dribbling",
+    "name": "Cross-Spin",
+    "tips": [
+      "Keep the ball tucked through the turn",
+      "Stay low coming out of the cross",
+      "Don't let the spin slow you down"
+    ],
+    "tags": [],
+    "experienceLevel": "Elite",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.crossover-b7c5d140",
+      "dribbling.spin_move-be9a29c8"
+    ],
+    "repDribbles": 2,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.cross_spin-f062e931.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.cross_spin-f062e931.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.cross_spin-f062e931.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-10T10:43:50.783Z",
+    "updatedAt": "2026-09-15T06:55:20.442Z"
+  },
+  {
+    "id": "dribbling.double_crossover-243dbe71",
+    "category": "dribbling",
+    "name": "Double BTL Crossover",
+    "tips": [
+      "Keep both crosses in one rhythm",
+      "Remember to sell that first one",
+      "Stay low and wide"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.crossover-b7c5d140",
+      "dribbling.crossover-b7c5d140"
+    ],
+    "repDribbles": 2,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.double_crossover-243dbe71.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.double_crossover-243dbe71.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.double_crossover-243dbe71.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T06:45:03.838Z",
+    "updatedAt": "2026-09-14T17:18:52.645Z"
+  },
+  {
+    "id": "dribbling.cross_tween_hind-ba1651e9",
+    "category": "dribbling",
+    "name": "Cross-Tween-Hind",
+    "tips": [
+      "Stay in rhythm through all three",
+      "Never stand up in between",
+      "Keep it tight the whole chain"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.crossover-b7c5d140",
+      "dribbling.between_the_legs-fc3993a5",
+      "dribbling.behind_the_back-0437b0f3"
+    ],
+    "repDribbles": 3,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.cross_tween_hind-ba1651e9.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.cross_tween_hind-ba1651e9.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.cross_tween_hind-ba1651e9.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T07:41:50.461Z",
+    "updatedAt": "2026-09-15T15:21:27.230Z"
+  },
+  {
+    "id": "dribbling.misdirection_crossover-0407d144",
+    "category": "dribbling",
+    "name": "Misdirection Crossover",
+    "tips": [
+      "Keep your body going one way and the ball the other",
+      "Remember to jab opposite your cross",
+      "Don't let them read the ball"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.misdirection_crossover-0407d144.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.misdirection_crossover-0407d144.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.misdirection_crossover-0407d144.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T07:46:15.352Z",
+    "updatedAt": "2026-09-12T16:36:26.557Z"
+  },
+  {
+    "id": "dribbling.killer_crossover-9267122d",
+    "category": "dribbling",
+    "name": "Killer Crossover",
+    "tips": [
+      "Keep setting them up before you snap it",
+      "Don't hold back on that cross",
+      "Stay under their reach"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.killer_crossover-9267122d.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.killer_crossover-9267122d.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.killer_crossover-9267122d.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T07:46:46.564Z",
+    "updatedAt": "2026-09-12T16:38:18.793Z"
+  },
+  {
+    "id": "dribbling.control_dribble-8c56db5d",
+    "category": "dribbling",
+    "name": "Control Dribble",
+    "tips": [
+      "Keep it waist high, no higher",
+      "Don't drop that off arm",
+      "Stay between them and the ball"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.control_dribble-8c56db5d.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.control_dribble-8c56db5d.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.control_dribble-8c56db5d.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T07:47:20.682Z",
+    "updatedAt": "2026-09-16T06:26:44.702Z"
+  },
+  {
+    "id": "dribbling.cross_cross_tween-e211f005",
+    "category": "dribbling",
+    "name": "Cross-Cross-Tween",
+    "tips": [
+      "Keep all three in one rhythm",
+      "Stay low the whole way",
+      "Remember to sell that first cross"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.crossover-b7c5d140",
+      "dribbling.crossover-b7c5d140",
+      "dribbling.between_the_legs-fc3993a5"
+    ],
+    "repDribbles": 3,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.cross_cross_tween-e211f005.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.cross_cross_tween-e211f005.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.cross_cross_tween-e211f005.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T07:52:07.907Z",
+    "updatedAt": "2026-09-15T15:19:48.441Z"
+  },
+  {
+    "id": "dribbling.double_hesi-3105da14",
+    "category": "dribbling",
+    "name": "Double Hesi",
+    "tips": [
+      "Keep selling both with your eyes",
+      "Stay low through each one",
+      "Don't rush the second"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.hesitation-d394b327",
+      "dribbling.hesitation-d394b327"
+    ],
+    "repDribbles": 2,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.double_hesi-3105da14.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.double_hesi-3105da14.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.double_hesi-3105da14.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T07:53:19.752Z",
+    "updatedAt": "2026-09-14T20:29:25.427Z"
+  },
+  {
+    "id": "dribbling.double_behind_the_back-9c411e3e",
+    "category": "dribbling",
+    "name": "Double Hind",
+    "tips": [
+      "Keep both snaps quick",
+      "Remember to keep it at hip height each time",
+      "Don't hunch over"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.behind_the_back-0437b0f3",
+      "dribbling.behind_the_back-0437b0f3"
+    ],
+    "repDribbles": 2,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.double_behind_the_back-9c411e3e.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.double_behind_the_back-9c411e3e.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.double_behind_the_back-9c411e3e.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T07:53:57.492Z",
+    "updatedAt": "2026-09-12T14:23:28.832Z"
+  },
+  {
+    "id": "dribbling.double_between_the_legs-0fdb8d09",
+    "category": "dribbling",
+    "name": "Double Between the Legs",
+    "tips": [
+      "Keep pushing it through both times",
+      "Stay staggered and wide",
+      "Don't let it drift forward"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.between_the_legs-fc3993a5",
+      "dribbling.between_the_legs-fc3993a5"
+    ],
+    "repDribbles": 2,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.double_between_the_legs-0fdb8d09.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.double_between_the_legs-0fdb8d09.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.double_between_the_legs-0fdb8d09.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T07:54:33.004Z",
+    "updatedAt": "2026-09-14T17:17:42.831Z"
+  },
+  {
+    "id": "dribbling.double_pound-e8deaf5a",
+    "category": "dribbling",
+    "name": "Double Pound",
+    "tips": [
+      "Keep both pounds hard on the same hand",
+      "Remember to keep the same height both times",
+      "Keep those fingers spread on top"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.pound_dribble-10479fb7",
+      "dribbling.pound_dribble-10479fb7"
+    ],
+    "repDribbles": 2,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.double_pound-e8deaf5a.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.double_pound-e8deaf5a.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.double_pound-e8deaf5a.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T07:55:10.891Z",
+    "updatedAt": "2026-09-12T16:31:00.782Z"
+  },
+  {
+    "id": "dribbling.double_in_out-43568d28",
+    "category": "dribbling",
+    "name": "Double In & Out",
+    "tips": [
+      "Keep both fakes honest",
+      "Remember to roll your hand over each time",
+      "Don't forget your hips sell both"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.in_out-277e419c",
+      "dribbling.in_out-277e419c"
+    ],
+    "repDribbles": 2,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.double_in_out-43568d28.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.double_in_out-43568d28.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.double_in_out-43568d28.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T07:55:48.512Z",
+    "updatedAt": "2026-09-12T14:30:58.186Z"
+  },
+  {
+    "id": "dribbling.hesi_tween-62c63ee8",
+    "category": "dribbling",
+    "name": "Hesi-Tween",
+    "tips": [
+      "Keep freezing them with your eyes",
+      "Remember to push it through low",
+      "Stay in your stance"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.hesitation-d394b327",
+      "dribbling.between_the_legs-fc3993a5"
+    ],
+    "repDribbles": 2,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.hesi_tween-62c63ee8.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.hesi_tween-62c63ee8.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.hesi_tween-62c63ee8.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T07:59:13.176Z",
+    "updatedAt": "2026-09-16T06:27:23.995Z"
+  },
+  {
+    "id": "dribbling.cross_hesi-aaa52619",
+    "category": "dribbling",
+    "name": "Cross-Hesi",
+    "tips": [
+      "Keep that cross hard and low",
+      "Stay sitting down in the pause",
+      "Don't go until they plant their feet"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.crossover-b7c5d140",
+      "dribbling.hesitation-d394b327"
+    ],
+    "repDribbles": 2,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.cross_hesi-aaa52619.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.cross_hesi-aaa52619.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.cross_hesi-aaa52619.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T08:01:38.746Z",
+    "updatedAt": "2026-09-15T04:59:50.367Z"
+  },
+  {
+    "id": "dribbling.cross_pound-e3367ee3",
+    "category": "dribbling",
+    "name": "Pound-Cross",
+    "tips": [
+      "Keep your fingers on top both times",
+      "Never let it get high",
+      "Remember to change the tempo on them"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.pound_dribble-10479fb7",
+      "dribbling.crossover-b7c5d140"
+    ],
+    "repDribbles": 2,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.cross_pound-e3367ee3.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.cross_pound-e3367ee3.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.cross_pound-e3367ee3.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T08:02:46.660Z",
+    "updatedAt": "2026-09-12T16:52:38.844Z"
+  },
+  {
+    "id": "dribbling.pound_tween-e223dc1a",
+    "category": "dribbling",
+    "name": "Pound-Tween",
+    "tips": [
+      "Keep that bounce hard and the slip quick",
+      "Stay staggered through it",
+      "Don't let your hands slow underneath"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.pound_dribble-10479fb7",
+      "dribbling.between_the_legs-fc3993a5"
+    ],
+    "repDribbles": 2,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.pound_tween-e223dc1a.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.pound_tween-e223dc1a.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.pound_tween-e223dc1a.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T08:03:17.966Z",
+    "updatedAt": "2026-09-12T15:51:44.081Z"
+  },
+  {
+    "id": "dribbling.in_out_tween-8fddde40",
+    "category": "dribbling",
+    "name": "In & Out Tween",
+    "tips": [
+      "Keep faking with your hips",
+      "Remember to slip it through underneath",
+      "Don't stand up chaining it"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.in_out-277e419c",
+      "dribbling.between_the_legs-fc3993a5"
+    ],
+    "repDribbles": 2,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.in_out_tween-8fddde40.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.in_out_tween-8fddde40.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.in_out_tween-8fddde40.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T08:08:04.967Z",
+    "updatedAt": "2026-09-14T18:33:43.859Z"
+  },
+  {
+    "id": "dribbling.in_out_hind-fe8225d5",
+    "category": "dribbling",
+    "name": "In & Out Hind",
+    "tips": [
+      "Keep that hip fake honest",
+      "Remember to snap it behind your back",
+      "Stay under their hands"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.in_out-277e419c",
+      "dribbling.behind_the_back-0437b0f3"
+    ],
+    "repDribbles": 2,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.in_out_hind-fe8225d5.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.in_out_hind-fe8225d5.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.in_out_hind-fe8225d5.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T08:09:29.036Z",
+    "updatedAt": "2026-09-12T17:04:44.961Z"
+  },
+  {
+    "id": "dribbling.hind_in_out-a3ee73bf",
+    "category": "dribbling",
+    "name": "Hind-In & Out",
+    "tips": [
+      "Keep the snap and the fake quick",
+      "Remember to keep that chest tall",
+      "Don't sell them the same lie twice"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.behind_the_back-0437b0f3",
+      "dribbling.in_out-277e419c"
+    ],
+    "repDribbles": 2,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.hind_in_out-a3ee73bf.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.hind_in_out-a3ee73bf.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.hind_in_out-a3ee73bf.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T08:10:12.250Z",
+    "updatedAt": "2026-09-14T20:47:40.475Z"
+  },
+  {
+    "id": "dribbling.cross_in_out-8b54930e",
+    "category": "dribbling",
+    "name": "In & Out Cross",
+    "tips": [
+      "Keep that hand over the top",
+      "Stay wide and low",
+      "Remember both moves are lying to them"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.crossover-b7c5d140",
+      "dribbling.in_out-277e419c"
+    ],
+    "repDribbles": 2,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.cross_in_out-8b54930e.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.cross_in_out-8b54930e.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.cross_in_out-8b54930e.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T08:10:49.419Z",
+    "updatedAt": "2026-09-12T14:30:10.006Z"
+  },
+  {
+    "id": "dribbling.cross_wrap-8a8d07e8",
+    "category": "dribbling",
+    "name": "Cross-Wrap",
+    "tips": [
+      "Keep wrapping it full circle",
+      "Remember to let your hips lead",
+      "Don't soften that cross"
+    ],
+    "tags": [],
+    "experienceLevel": "Elite",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.crossover-b7c5d140",
+      "dribbling.behind_the_back_wrap-17507070"
+    ],
+    "repDribbles": 2,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.cross_wrap-8a8d07e8.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.cross_wrap-8a8d07e8.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.cross_wrap-8a8d07e8.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T08:11:22.036Z",
+    "updatedAt": "2026-09-14T17:15:49.137Z"
+  },
+  {
+    "id": "dribbling.hind_cross-44c1a759",
+    "category": "dribbling",
+    "name": "Hind-Cross",
+    "tips": [
+      "Keep that snap at hip height",
+      "Stay wide on the cross",
+      "Don't let either change slow down"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.behind_the_back-0437b0f3",
+      "dribbling.crossover-b7c5d140"
+    ],
+    "repDribbles": 2,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.hind_cross-44c1a759.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.hind_cross-44c1a759.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.hind_cross-44c1a759.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T08:18:32.512Z",
+    "updatedAt": "2026-09-12T14:26:19.228Z"
+  },
+  {
+    "id": "dribbling.hind_tween-dfec174d",
+    "category": "dribbling",
+    "name": "Hind-Tween",
+    "tips": [
+      "Keep the snap and the push quick",
+      "Stay staggered underneath",
+      "Keep them guessing"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.behind_the_back-0437b0f3",
+      "dribbling.between_the_legs-fc3993a5"
+    ],
+    "repDribbles": 2,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.hind_tween-dfec174d.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.hind_tween-dfec174d.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.hind_tween-dfec174d.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T08:19:05.863Z",
+    "updatedAt": "2026-09-12T17:12:38.351Z"
+  },
+  {
+    "id": "dribbling.cross_snatch-5a9d006f",
+    "category": "dribbling",
+    "name": "Hesi-Cross-Snatch",
+    "tips": [
+      "Keep that cross wide and the pull hard",
+      "Remember to retreat your feet with the ball",
+      "Don't pull until they lean in"
+    ],
+    "tags": [],
+    "experienceLevel": "Elite",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.hesitation-d394b327",
+      "dribbling.crossover-b7c5d140",
+      "dribbling.snatch-d7eb0453"
+    ],
+    "repDribbles": 3,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.cross_snatch-5a9d006f.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.cross_snatch-5a9d006f.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.cross_snatch-5a9d006f.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T08:20:17.504Z",
+    "updatedAt": "2026-09-15T15:24:15.643Z"
+  },
+  {
+    "id": "dribbling.hesi_cross_wrap-dbf92f2d",
+    "category": "dribbling",
+    "name": "Hesi-Cross-Wrap",
+    "tips": [
+      "Keep selling the freeze with your eyes",
+      "Stay tight through all three",
+      "Never stand up"
+    ],
+    "tags": [],
+    "experienceLevel": "Elite",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.hesitation-d394b327",
+      "dribbling.crossover-b7c5d140",
+      "dribbling.behind_the_back_wrap-17507070"
+    ],
+    "repDribbles": 3,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.hesi_cross_wrap-dbf92f2d.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.hesi_cross_wrap-dbf92f2d.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.hesi_cross_wrap-dbf92f2d.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T08:22:41.467Z",
+    "updatedAt": "2026-09-15T06:56:36.608Z"
+  },
+  {
+    "id": "dribbling.tween_cross_hind-8db7ba9e",
+    "category": "dribbling",
+    "name": "Tween-Cross-Hind",
+    "tips": [
+      "Keep all three touches without pausing",
+      "Remember to keep those knees bent",
+      "Don't loop any of them"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.between_the_legs-fc3993a5",
+      "dribbling.crossover-b7c5d140",
+      "dribbling.behind_the_back-0437b0f3"
+    ],
+    "repDribbles": 3,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.tween_cross_hind-8db7ba9e.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.tween_cross_hind-8db7ba9e.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.tween_cross_hind-8db7ba9e.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T08:23:21.908Z",
+    "updatedAt": "2026-09-12T14:59:58.827Z"
+  },
+  {
+    "id": "dribbling.cross_hind_tween-5ec945dd",
+    "category": "dribbling",
+    "name": "Cross-Hind-Tween",
+    "tips": [
+      "Keep all three chained low",
+      "Remember to keep that chest up",
+      "Stay quick with your hands"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.crossover-b7c5d140",
+      "dribbling.behind_the_back-0437b0f3",
+      "dribbling.between_the_legs-fc3993a5"
+    ],
+    "repDribbles": 3,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.cross_hind_tween-5ec945dd.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.cross_hind_tween-5ec945dd.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.cross_hind_tween-5ec945dd.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T08:24:01.507Z",
+    "updatedAt": "2026-09-14T16:44:33.041Z"
+  },
+  {
+    "id": "dribbling.pound_cross_tween-658e0f99",
+    "category": "dribbling",
+    "name": "Pound-Cross-Tween",
+    "tips": [
+      "Keep that bounce hard to open it",
+      "Remember each one gets lower",
+      "Let your fingers do the work"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.pound_dribble-10479fb7",
+      "dribbling.crossover-b7c5d140",
+      "dribbling.between_the_legs-fc3993a5"
+    ],
+    "repDribbles": 3,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.pound_cross_tween-658e0f99.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.pound_cross_tween-658e0f99.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.pound_cross_tween-658e0f99.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T08:24:37.581Z",
+    "updatedAt": "2026-09-14T18:01:56.229Z"
+  },
+  {
+    "id": "dribbling.in_out_cross_hind-e730e15c",
+    "category": "dribbling",
+    "name": "In & Out Cross Hind",
+    "tips": [
+      "Keep all three lies believable",
+      "Remember your hips sell the fake",
+      "Stay under their reach"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.in_out-277e419c",
+      "dribbling.crossover-b7c5d140",
+      "dribbling.behind_the_back-0437b0f3"
+    ],
+    "repDribbles": 3,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.in_out_cross_hind-e730e15c.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.in_out_cross_hind-e730e15c.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.in_out_cross_hind-e730e15c.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T08:25:16.111Z",
+    "updatedAt": "2026-09-15T15:27:13.285Z"
+  },
+  {
+    "id": "dribbling.hesi_cross_tween-3d665cb0",
+    "category": "dribbling",
+    "name": "Hesi-Cross-Tween",
+    "tips": [
+      "Keep them settled before you go",
+      "Stay low through all three",
+      "Don't let your hands slow after the pause"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.hesitation-d394b327",
+      "dribbling.crossover-b7c5d140",
+      "dribbling.between_the_legs-fc3993a5"
+    ],
+    "repDribbles": 3,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.hesi_cross_tween-3d665cb0.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.hesi_cross_tween-3d665cb0.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.hesi_cross_tween-3d665cb0.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T08:25:49.869Z",
+    "updatedAt": "2026-09-15T05:00:12.114Z"
+  },
+  {
+    "id": "dribbling.tween_cross_spin-0c179564",
+    "category": "dribbling",
+    "name": "Tween-Cross-Hesi",
+    "tips": [
+      "Keep selling the hesi",
+      "Stay low through the first two",
+      "Don't come out of the hesi slow"
+    ],
+    "tags": [],
+    "experienceLevel": "Elite",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.between_the_legs-fc3993a5",
+      "dribbling.crossover-b7c5d140",
+      "dribbling.hesitation-d394b327"
+    ],
+    "repDribbles": 3,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.tween_cross_spin-0c179564.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.tween_cross_spin-0c179564.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.tween_cross_spin-0c179564.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T08:26:25.905Z",
+    "updatedAt": "2026-09-15T15:31:16.968Z"
+  },
+  {
+    "id": "dribbling.pound_hesi_cross-f9388026",
+    "category": "dribbling",
+    "name": "Pound-Hesi-Cross",
+    "tips": [
+      "Keep that bounce hard and the pause real",
+      "Don't ease out of the cross",
+      "Stay down in your stance"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.pound_dribble-10479fb7",
+      "dribbling.hesitation-d394b327",
+      "dribbling.crossover-b7c5d140"
+    ],
+    "repDribbles": 3,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.pound_hesi_cross-f9388026.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.pound_hesi_cross-f9388026.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.pound_hesi_cross-f9388026.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T08:27:07.963Z",
+    "updatedAt": "2026-09-15T06:37:55.227Z"
+  },
+  {
+    "id": "dribbling.snatch_cross_tween-3173ddde",
+    "category": "dribbling",
+    "name": "Snatch-Cross-Tween",
+    "tips": [
+      "Keep ripping it back hard",
+      "Remember to land balanced and low",
+      "Don't let your hands slow after the pull"
+    ],
+    "tags": [],
+    "experienceLevel": "Elite",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.snatch-d7eb0453",
+      "dribbling.crossover-b7c5d140",
+      "dribbling.between_the_legs-fc3993a5"
+    ],
+    "repDribbles": 3,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.snatch_cross_tween-3173ddde.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.snatch_cross_tween-3173ddde.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.snatch_cross_tween-3173ddde.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-11T08:27:47.427Z",
+    "updatedAt": "2026-09-12T15:49:54.032Z"
+  },
+  {
+    "id": "dribbling.windshield_wiper_cross-a498c118",
+    "category": "dribbling",
+    "name": "Windshield Wiper - Cross",
+    "tips": [
+      "Stay low",
+      "Keep those eyes up",
+      "Remember to snap that crossover"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.windshield_wipers-b2e01b98",
+      "dribbling.crossover-b7c5d140"
+    ],
+    "repDribbles": 3,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.windshield_wiper_cross-a498c118.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.windshield_wiper_cross-a498c118.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.windshield_wiper_cross-a498c118.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-12T02:06:49.979Z",
+    "updatedAt": "2026-09-17T06:47:16.391Z"
+  },
+  {
+    "id": "dribbling.hesi_tween_wrap-1ad25f14",
+    "category": "dribbling",
+    "name": "Hesi-Tween-Wrap",
+    "tips": [
+      "Don't let that freeze look fake",
+      "Keep it tight through the push and the wrap",
+      "Never stand up"
+    ],
+    "tags": [],
+    "experienceLevel": "Elite",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.hesitation-d394b327",
+      "dribbling.between_the_legs-fc3993a5",
+      "dribbling.behind_the_back_wrap-17507070"
+    ],
+    "repDribbles": 3,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.hesi_tween_wrap-1ad25f14.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.hesi_tween_wrap-1ad25f14.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.hesi_tween_wrap-1ad25f14.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-17T04:07:55.055Z",
+    "updatedAt": "2026-09-15T06:45:30.350Z"
+  },
+  {
+    "id": "dribbling.in_out_pound-28a742c6",
+    "category": "dribbling",
+    "name": "In & Out Pound",
+    "tips": [
+      "Keep that fake sharp before the pound",
+      "Remember to roll your hand over the top",
+      "Stay low through both"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.in_out-277e419c",
+      "dribbling.pound_dribble-10479fb7"
+    ],
+    "repDribbles": 2,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.in_out_pound-28a742c6.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.in_out_pound-28a742c6.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.in_out_pound-28a742c6.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-17T04:13:46.906Z",
+    "updatedAt": "2026-09-12T16:37:01.144Z"
+  },
+  {
+    "id": "dribbling.pound_tween_cross-8ff9c8fe",
+    "category": "dribbling",
+    "name": "Pound-Tween-Cross",
+    "tips": [
+      "Keep that pound hard before the slip",
+      "Remember to keep the cross low",
+      "Stay down through all three"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.pound_dribble-10479fb7",
+      "dribbling.between_the_legs-fc3993a5",
+      "dribbling.crossover-b7c5d140"
+    ],
+    "repDribbles": 3,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.pound_tween_cross-8ff9c8fe.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.pound_tween_cross-8ff9c8fe.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.pound_tween_cross-8ff9c8fe.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-17T04:30:29.620Z",
+    "updatedAt": "2026-09-12T15:50:33.295Z"
+  },
+  {
+    "id": "dribbling.tween_pound_cross-f983ec57",
+    "category": "dribbling",
+    "name": "Tween-Pound-Cross",
+    "tips": [
+      "Keep it low through the push and the pound",
+      "Remember to snap that cross on the way out",
+      "Keep it under your hips"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.between_the_legs-fc3993a5",
+      "dribbling.pound_dribble-10479fb7",
+      "dribbling.crossover-b7c5d140"
+    ],
+    "repDribbles": 3,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.tween_pound_cross-f983ec57.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.tween_pound_cross-f983ec57.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.tween_pound_cross-f983ec57.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-17T04:36:48.675Z",
+    "updatedAt": "2026-09-15T04:38:57.046Z"
+  },
+  {
+    "id": "dribbling.hesi_pound_hind-ec15ed5a",
+    "category": "dribbling",
+    "name": "Hesi-Pound-Hind",
+    "tips": [
+      "Keep selling the hesi with your body.",
+      "Keep protecting the ball.",
+      "Remember to keep your eyes up and move quick."
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.hesitation-d394b327",
+      "dribbling.pound_dribble-10479fb7",
+      "dribbling.behind_the_back-0437b0f3"
+    ],
+    "repDribbles": 3,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.hesi_pound_hind-ec15ed5a.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.hesi_pound_hind-ec15ed5a.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.hesi_pound_hind-ec15ed5a.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-28T17:18:26.149Z",
+    "updatedAt": "2026-09-15T15:24:53.006Z"
+  },
+  {
+    "id": "dribbling.hind_tween_cross_tween-d168aaa0",
+    "category": "dribbling",
+    "name": "Hind-Tween-Cross-Tween",
+    "tips": [
+      "Keep your eyes up.",
+      "Don't get upset if you mess up.",
+      "Keep attacking quick."
+    ],
+    "tags": [],
+    "experienceLevel": "Elite",
+    "comboKind": "quadruple",
+    "componentMoveIds": [
+      "dribbling.behind_the_back-0437b0f3",
+      "dribbling.between_the_legs-fc3993a5",
+      "dribbling.crossover-b7c5d140",
+      "dribbling.between_the_legs-fc3993a5"
+    ],
+    "repDribbles": 4,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.hind_tween_cross_tween-d168aaa0.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.hind_tween_cross_tween-d168aaa0.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.hind_tween_cross_tween-d168aaa0.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-28T17:24:35.140Z",
+    "updatedAt": "2026-09-15T15:26:42.074Z"
+  },
+  {
+    "id": "dribbling.in_out_cross_in_out_tween_in_out_hind-c5016b15",
+    "category": "dribbling",
+    "name": "(In & Out-Cross)-(In & Out-Tween)-(In & Out-Hind)",
+    "tips": [
+      "Don't do any moves lazily.",
+      "Keep your base wide.",
+      "Keep driving your hand through to the ground."
+    ],
+    "tags": [],
+    "experienceLevel": "Elite",
+    "comboKind": "sextuple",
+    "componentMoveIds": [
+      "dribbling.in_out-277e419c",
+      "dribbling.crossover-b7c5d140",
+      "dribbling.in_out-277e419c",
+      "dribbling.between_the_legs-fc3993a5",
+      "dribbling.in_out-277e419c",
+      "dribbling.behind_the_back-0437b0f3"
+    ],
+    "repDribbles": 6,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.in_out_cross_in_out_tween_in_out_hind-c5016b15.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.in_out_cross_in_out_tween_in_out_hind-c5016b15.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.in_out_cross_in_out_tween_in_out_hind-c5016b15.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-28T17:39:03.253Z",
+    "updatedAt": "2026-09-15T15:17:31.225Z"
+  },
+  {
+    "id": "dribbling.in_out_in_out_pound-e90a02d4",
+    "category": "dribbling",
+    "name": "Double In & Out-Pound",
+    "tips": [
+      "Keep selling the in & outs with your body.",
+      "Remember to keep your eyes up and read the floor.",
+      "Keep guarding the ball with your off-hand."
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.in_out-277e419c",
+      "dribbling.in_out-277e419c",
+      "dribbling.pound_dribble-10479fb7"
+    ],
+    "repDribbles": 3,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.in_out_in_out_pound-e90a02d4.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.in_out_in_out_pound-e90a02d4.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.in_out_in_out_pound-e90a02d4.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-28T17:46:40.722Z",
+    "updatedAt": "2026-09-15T05:04:49.556Z"
+  },
+  {
+    "id": "dribbling.in_out_in_out_tween-00bf9635",
+    "category": "dribbling",
+    "name": "Double In & Out-Tween",
+    "tips": [
+      "Keep your base wide and your eyes up.",
+      "Stay quick and protect the ball.",
+      "Don't slow down through it."
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.in_out-277e419c",
+      "dribbling.in_out-277e419c",
+      "dribbling.between_the_legs-fc3993a5"
+    ],
+    "repDribbles": 3,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.in_out_in_out_tween-00bf9635.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.in_out_in_out_tween-00bf9635.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.in_out_in_out_tween-00bf9635.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-28T20:53:58.583Z",
+    "updatedAt": "2026-09-15T15:23:14.037Z"
+  },
+  {
+    "id": "dribbling.in_out_pound_hind-9448a0de",
+    "category": "dribbling",
+    "name": "In & Out-Pound-Hind",
+    "tips": [
+      "Keep low like you're in a chair.",
+      "Remember to keep your eyes up and your hand on top.",
+      "Stay quick, don't lag off."
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.in_out-277e419c",
+      "dribbling.pound_dribble-10479fb7",
+      "dribbling.behind_the_back-0437b0f3"
+    ],
+    "repDribbles": 3,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.in_out_pound_hind-9448a0de.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.in_out_pound_hind-9448a0de.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.in_out_pound_hind-9448a0de.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-28T21:25:43.721Z",
+    "updatedAt": "2026-09-15T15:28:40.649Z"
+  },
+  {
+    "id": "dribbling.killer_cross_tween-bbb7862f",
+    "category": "dribbling",
+    "name": "Cross-Hesi-Tween",
+    "tips": [
+      "Keep selling with your lower body.",
+      "Stay quick bursting into the tween.",
+      "Don't leave the ball unprotected."
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.crossover-b7c5d140",
+      "dribbling.hesitation-d394b327",
+      "dribbling.between_the_legs-fc3993a5"
+    ],
+    "repDribbles": 3,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.killer_cross_tween-bbb7862f.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.killer_cross_tween-bbb7862f.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.killer_cross_tween-bbb7862f.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-28T21:32:28.078Z",
+    "updatedAt": "2026-09-14T18:30:57.250Z"
+  },
+  {
+    "id": "dribbling.post_spin-3fd11090",
+    "category": "dribbling",
+    "name": "Post Spin",
+    "tips": [
+      "Stay strong with your body.",
+      "Keep rolling off them like there's a defender.",
+      "Remember to push the ball out in front as you roll."
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.post_spin-3fd11090.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.post_spin-3fd11090.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.post_spin-3fd11090.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-28T22:02:04.358Z",
+    "updatedAt": "2026-09-15T15:31:44.142Z"
+  },
+  {
+    "id": "dribbling.pound_stutter-6e292251",
+    "category": "dribbling",
+    "name": "Pound-Stutter",
+    "tips": [
+      "Keep chopping your feet.",
+      "Stay on your toes,",
+      "Stay ready to burst."
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.pound_dribble-10479fb7",
+      "dribbling.stutter_step-ebc4cb97"
+    ],
+    "repDribbles": 2,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.pound_stutter-6e292251.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.pound_stutter-6e292251.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.pound_stutter-6e292251.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-28T22:05:37.099Z",
+    "updatedAt": "2026-09-15T06:39:58.197Z"
+  },
+  {
+    "id": "dribbling.snatch_spin-400420d2",
+    "category": "dribbling",
+    "name": "Killer Cross Spin",
+    "tips": [
+      "Keep digging deep into your snatch.",
+      "Stay quick on the spin and protect the ball.",
+      "Remember to keep your eyes up and read the court."
+    ],
+    "tags": [],
+    "experienceLevel": "Elite",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.killer_crossover-9267122d",
+      "dribbling.spin_move-be9a29c8"
+    ],
+    "repDribbles": 2,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.snatch_spin-400420d2.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.snatch_spin-400420d2.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.snatch_spin-400420d2.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-28T22:08:01.831Z",
+    "updatedAt": "2026-09-15T15:29:48.152Z"
+  },
+  {
+    "id": "dribbling.wrap_wrap_retreat-be3f1d42",
+    "category": "dribbling",
+    "name": "Wrap-Wrap-Retreat",
+    "tips": [
+      "Don't push the ball out too far.",
+      "Keep everything tight.",
+      "Remember to guard with your off-hand on the retreat."
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.behind_the_back_wrap-17507070",
+      "dribbling.behind_the_back_wrap-17507070",
+      "dribbling.retreat_dribble-8e57d438"
+    ],
+    "repDribbles": 3,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.wrap_wrap_retreat-be3f1d42.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.wrap_wrap_retreat-be3f1d42.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.wrap_wrap_retreat-be3f1d42.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-28T22:14:59.353Z",
+    "updatedAt": "2026-09-15T15:30:36.154Z"
+  },
+  {
+    "id": "dribbling.control_cross-57f45f53",
+    "category": "dribbling",
+    "name": "Control-Cross",
+    "tips": [
+      "Keep your guide hand out as a shield.",
+      "Keep their hand on top of the ball.",
+      "Remember to play with your pacing."
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.control_dribble-8c56db5d",
+      "dribbling.crossover-b7c5d140"
+    ],
+    "repDribbles": 2,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.control_cross-57f45f53.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.control_cross-57f45f53.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.control_cross-57f45f53.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-28T22:26:57.077Z",
+    "updatedAt": "2026-09-15T15:19:19.218Z"
+  },
+  {
+    "id": "dribbling.pound_in_out-9d224a07",
+    "category": "dribbling",
+    "name": "Pound-In & Out",
+    "tips": [
+      "Keep it below the chest.",
+      "Keep your hand on top of the ball.",
+      "Stay quick with your feet."
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.pound_dribble-10479fb7",
+      "dribbling.in_out-277e419c"
+    ],
+    "repDribbles": 2,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.pound_in_out-9d224a07.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.pound_in_out-9d224a07.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.pound_in_out-9d224a07.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-28T22:33:59.685Z",
+    "updatedAt": "2026-09-15T04:06:23.795Z"
+  },
+  {
+    "id": "dribbling.retreat_wrap-369119f7",
+    "category": "dribbling",
+    "name": "Retreat-Wrap",
+    "tips": [
+      "Keep guarding the ball on the retreat.",
+      "Remember to wrap it tight around your hip.",
+      "Stay low the whole chain."
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.retreat_dribble-8e57d438",
+      "dribbling.behind_the_back_wrap-17507070"
+    ],
+    "repDribbles": 2,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.retreat_wrap-369119f7.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.retreat_wrap-369119f7.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.retreat_wrap-369119f7.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-28T22:45:13.561Z",
+    "updatedAt": "2026-09-14T21:39:05.616Z"
+  },
+  {
+    "id": "dribbling.snatch_killer-e682e07e",
+    "category": "dribbling",
+    "name": "Snatch-Killer",
+    "tips": [
+      "Keep snapping the snatch, don't loop it.",
+      "Don't hold back on the cross out of it.",
+      "Stay under their reach."
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.snatch-d7eb0453",
+      "dribbling.killer_crossover-9267122d"
+    ],
+    "repDribbles": 2,
+    "handChangeable": false,
+    "reversible": true,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.snatch_killer-e682e07e.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.snatch_killer-e682e07e.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.snatch_killer-e682e07e.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-08-28T22:54:46.596Z",
+    "updatedAt": "2026-09-12T15:56:15.682Z"
+  },
+  {
+    "id": "dribbling.dog_walk-d8f44aac",
+    "category": "dribbling",
+    "name": "Dog Walk",
+    "tips": [
+      "Keep riding the top of the ball",
+      "Don't let your hips come up",
+      "Stay on that same hand"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 2,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.dog_walk-d8f44aac.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.dog_walk-d8f44aac.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.dog_walk-d8f44aac.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:42:06.874Z",
+    "updatedAt": "2026-09-16T06:28:30.095Z"
+  },
+  {
+    "id": "dribbling.in_out-277e419c",
+    "category": "dribbling",
+    "name": "In & Out",
+    "tips": [
+      "Keep rolling your hand over the top",
+      "Remember to sell it with your hips and shoulders",
+      "Don't let that fake get lazy"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.in_out-277e419c.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.in_out-277e419c.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.in_out-277e419c.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:42:33.471Z",
+    "updatedAt": "2026-09-14T18:41:56.226Z"
+  },
+  {
+    "id": "dribbling.pound_hind-7a3dcbe4",
+    "category": "dribbling",
+    "name": "Pound-Hind",
+    "tips": [
+      "Keep that bounce hard before the snap",
+      "Remember to keep it at hip height",
+      "Don't stand up in between"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "double",
+    "componentMoveIds": [
+      "dribbling.pound_dribble-10479fb7",
+      "dribbling.behind_the_back-0437b0f3"
+    ],
+    "repDribbles": 2,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.pound_hind-7a3dcbe4.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.pound_hind-7a3dcbe4.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.pound_hind-7a3dcbe4.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:43:20.421Z",
+    "updatedAt": "2026-09-15T04:04:56.283Z"
+  },
+  {
+    "id": "dribbling.in_out_cross_tween-711f5f3f",
+    "category": "dribbling",
+    "name": "In & Out Cross Tween",
+    "tips": [
+      "Keep your hips selling the fake",
+      "Stay low through all three",
+      "Don't let wasted motion creep in"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.in_out-277e419c",
+      "dribbling.crossover-b7c5d140",
+      "dribbling.between_the_legs-fc3993a5"
+    ],
+    "repDribbles": 3,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.in_out_cross_tween-711f5f3f.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.in_out_cross_tween-711f5f3f.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.in_out_cross_tween-711f5f3f.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:43:51.460Z",
+    "updatedAt": "2026-09-15T15:27:48.789Z"
+  },
+  {
+    "id": "dribbling.snatch-d7eb0453",
+    "category": "dribbling",
+    "name": "Snatch",
+    "tips": [
+      "Keep ripping it back hard",
+      "Remember to land balanced and low",
+      "Don't pull until they lean in"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.snatch-d7eb0453.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.snatch-d7eb0453.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.snatch-d7eb0453.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-08T18:00:00.000Z",
+    "updatedAt": "2026-09-17T06:49:12.645Z"
+  },
+  {
+    "id": "dribbling.spin_move-be9a29c8",
+    "category": "dribbling",
+    "name": "Spin",
+    "tips": [
+      "Keep the ball tucked through the turn",
+      "Stay on the balls of your feet",
+      "Don't let the spin slow you down"
+    ],
+    "tags": [],
+    "experienceLevel": "Advanced",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": null,
+        "variants": []
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": null,
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-08T18:00:01.000Z",
+    "updatedAt": "2026-09-08T18:04:55.278Z"
+  },
+  {
+    "id": "dribbling.stutter_step-ebc4cb97",
+    "category": "dribbling",
+    "name": "Stutter",
+    "tips": [
+      "Keep chopping your feet.",
+      "Stay on your toes,",
+      "Stay ready to burst."
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": null,
+        "variants": []
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": null,
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-08T18:00:02.000Z",
+    "updatedAt": "2026-09-08T18:04:55.278Z"
+  },
+  {
+    "id": "dribbling.shoulder_shimmy-ad524432",
+    "category": "dribbling",
+    "name": "Shoulder Shimmy",
+    "tips": [
+      "Keep selling the shimmy with your shoulders.",
+      "Don't drop your eyes",
+      "Stay low, eyes up."
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": null,
+        "variants": []
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": null,
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-08T18:00:03.000Z",
+    "updatedAt": "2026-09-08T18:04:55.278Z"
+  },
+  {
+    "id": "dribbling.hesi_jab-6a8b0a48",
+    "category": "dribbling",
+    "name": "Hesi Jab",
+    "tips": [
+      "Keep selling it with your body and eyes",
+      "Remember to freeze them with the jab.",
+      "Stay low through the pause"
+    ],
+    "tags": [],
+    "experienceLevel": "Competitive",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": null,
+        "variants": []
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": null,
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-08T18:00:04.000Z",
+    "updatedAt": "2026-09-08T18:04:55.278Z"
+  },
+  {
+    "id": "dribbling.freestyle-c4e81b90",
+    "category": "dribbling",
+    "name": "Freestyle",
+    "tips": [
+      "Combo up from what you've learned",
+      "Go hard, go crazy",
+      "Break some ankles"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": null,
+        "variants": []
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": null,
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-11T21:55:00.000Z",
+    "updatedAt": "2026-09-11T21:55:00.000Z"
+  },
+  {
+    "id": "dribbling.in_out_pound_pound-96149d4d",
+    "category": "dribbling",
+    "name": "In & Out-Pound-Pound",
+    "tips": [
+      "Make sure to shift your weight side to side",
+      "Bend with your knees, not your back",
+      "Keep your eyes up"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.in_out-277e419c",
+      "dribbling.pound_dribble-10479fb7",
+      "dribbling.pound_dribble-10479fb7"
+    ],
+    "repDribbles": 3,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.in_out_pound_pound-96149d4d.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.in_out_pound_pound-96149d4d.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.in_out_pound_pound-96149d4d.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-12T14:34:11.436Z",
+    "updatedAt": "2026-09-17T06:33:38.642Z"
+  },
+  {
+    "id": "dribbling.double_in_out_cross-68655c6b",
+    "category": "dribbling",
+    "name": "Double In & Out-Tween",
+    "tips": [
+      "Keep your eyes up",
+      "Really push the ball inward on the in & outs",
+      "Bend with your knees, not your back"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "triple",
+    "componentMoveIds": [
+      "dribbling.in_out-277e419c",
+      "dribbling.in_out-277e419c",
+      "dribbling.crossover-b7c5d140"
+    ],
+    "repDribbles": 3,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.double_in_out_cross-68655c6b.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.double_in_out_cross-68655c6b.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.double_in_out_cross-68655c6b.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-12T14:55:59.345Z",
+    "updatedAt": "2026-09-17T06:32:43.126Z"
+  },
+  {
+    "id": "dribbling.tween_tween-049fe149",
+    "category": "dribbling",
+    "name": "Tween-Tween",
+    "tips": [
+      "Make sure to move your feet",
+      "Rotate your hips to sell it",
+      "Keep the ball tight to your body"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": true,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.tween_tween-049fe149.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.tween_tween-049fe149.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.tween_tween-049fe149.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-12T15:22:43.059Z",
+    "updatedAt": "2026-09-17T06:35:12.914Z"
+  },
+  {
+    "id": "dribbling.push_up-3e7d60aa",
+    "category": "dribbling",
+    "name": "Push-Up",
+    "tips": [
+      "Bring your chest to the grounc",
+      "Straight back and legs",
+      "Keep your elbows at 45 degree angles"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/dribbling/dribbling.push_up-3e7d60aa.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/dribbling/dribbling.push_up-3e7d60aa.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/dribbling/dribbling.push_up-3e7d60aa.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-17T06:54:34.724Z",
+    "updatedAt": "2026-09-17T06:54:44.596Z"
+  }
+]

@@ -1,0 +1,34 @@
+package p040c8;
+
+import F9.d;
+import F9.e;
+import android.support.v4.media.session.b;
+
+/* JADX INFO: renamed from: c8.t2, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes4.dex */
+public final class C3523t2 implements e {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final C3523t2 f38284a = new C3523t2();
+
+    static {
+        d.b bVarA = d.a("errorCode");
+        C3426l0 c3426l0 = new C3426l0();
+        c3426l0.a(1);
+        bVarA.b(c3426l0.b()).a();
+        d.b bVarA2 = d.a("isColdCall");
+        C3426l0 c3426l1 = new C3426l0();
+        c3426l1.a(2);
+        bVarA2.b(c3426l1.b()).a();
+        d.b bVarA3 = d.a("imageInfo");
+        C3426l0 c3426l2 = new C3426l0();
+        c3426l2.a(3);
+        bVarA3.b(c3426l2.b()).a();
+    }
+
+    @Override // F9.b
+    public final /* bridge */ /* synthetic */ void a(Object obj, Object obj2) {
+        b.a(obj);
+        throw null;
+    }
+}

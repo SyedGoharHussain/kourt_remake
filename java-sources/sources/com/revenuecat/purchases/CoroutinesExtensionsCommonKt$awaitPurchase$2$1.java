@@ -1,0 +1,32 @@
+package com.revenuecat.purchases;
+
+import Hc.InterfaceC1408n;
+import com.revenuecat.purchases.common.CancellableContinuationExtensionsKt;
+import com.revenuecat.purchases.models.StoreTransaction;
+import kotlin.jvm.internal.AbstractC6116t;
+import kotlin.jvm.internal.AbstractC6117u;
+import p104gc.L;
+import p303uc.p;
+
+/* JADX INFO: loaded from: classes5.dex */
+public final class CoroutinesExtensionsCommonKt$awaitPurchase$2$1 extends AbstractC6117u implements p {
+    final /* synthetic */ InterfaceC1408n $continuation;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public CoroutinesExtensionsCommonKt$awaitPurchase$2$1(InterfaceC1408n interfaceC1408n) {
+        super(2);
+        this.$continuation = interfaceC1408n;
+    }
+
+    @Override // p303uc.p
+    public /* bridge */ /* synthetic */ Object invoke(Object obj, Object obj2) {
+        invoke((StoreTransaction) obj, (CustomerInfo) obj2);
+        return L.f48730a;
+    }
+
+    public final void invoke(StoreTransaction storeTransaction, CustomerInfo customerInfo) {
+        AbstractC6116t.g(storeTransaction, "storeTransaction");
+        AbstractC6116t.g(customerInfo, "customerInfo");
+        CancellableContinuationExtensionsKt.safeResume(this.$continuation, new PurchaseResult(storeTransaction, customerInfo));
+    }
+}

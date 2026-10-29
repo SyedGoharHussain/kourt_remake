@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LaunchTheme" parent="@style/Theme.SplashScreen">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="postSplashScreenTheme">@style/NormalTheme</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/transparent_splash_icon</item>
+        <item name="windowSplashScreenBackground">@color/ball_ai_splash_background</item>
+    </style>
+</resources>

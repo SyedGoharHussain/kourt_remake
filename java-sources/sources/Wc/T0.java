@@ -1,0 +1,5 @@
+package Wc;
+
+/* JADX INFO: loaded from: classes4.dex */
+public abstract class T0 {
+}

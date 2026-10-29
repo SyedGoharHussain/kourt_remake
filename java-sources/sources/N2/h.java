@@ -1,0 +1,8 @@
+package N2;
+
+import android.app.Notification;
+
+/* JADX INFO: loaded from: classes.dex */
+public interface h {
+    Notification.Builder a();
+}
