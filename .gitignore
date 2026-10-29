@@ -1,0 +1,7 @@
+# Large APK files
+apk-files/base.apk
+*.apk
+
+# OS files
+.DS_Store
+Thumbs.db
