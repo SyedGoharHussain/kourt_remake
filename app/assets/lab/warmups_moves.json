@@ -1,0 +1,871 @@
+[
+  {
+    "id": "warmups.calf_stretch-ecab5c7e",
+    "category": "warmups",
+    "name": "Calf Stretch",
+    "tips": [
+      "Keep that back heel flat",
+      "Remember to square your hips to the wall",
+      "Don't let that back knee bend"
+    ],
+    "tags": [
+      "static stretch"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.calf_stretch-ecab5c7e.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.calf_stretch-ecab5c7e.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.calf_stretch-ecab5c7e.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:44:55.540Z",
+    "updatedAt": "2026-09-09T04:52:28.868Z"
+  },
+  {
+    "id": "warmups.standing_quad-e8eda62c",
+    "category": "warmups",
+    "name": "Standing Quad",
+    "tips": [
+      "Keep those knees together",
+      "Remember to push your hip forward",
+      "Don't let yourself lean over"
+    ],
+    "tags": [
+      "static stretch"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.standing_quad-e8eda62c.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.standing_quad-e8eda62c.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.standing_quad-e8eda62c.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:45:31.825Z",
+    "updatedAt": "2026-09-09T04:54:35.769Z"
+  },
+  {
+    "id": "warmups.standing_hamstring_reach-3512df9c",
+    "category": "warmups",
+    "name": "Standing Hamstring Reach",
+    "tips": [
+      "Make sure you aren't bending that knee",
+      "Keep reaching your chest down",
+      "Don't let that back round"
+    ],
+    "tags": [
+      "static stretch"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.standing_hamstring_reach-3512df9c.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.standing_hamstring_reach-3512df9c.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.standing_hamstring_reach-3512df9c.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:45:56.078Z",
+    "updatedAt": "2026-09-09T04:54:19.800Z"
+  },
+  {
+    "id": "warmups.butterfly_groin-20d2e405",
+    "category": "warmups",
+    "name": "Butterfly Groin",
+    "tips": [
+      "Keep those heels pulled in",
+      "Let your knees keep dropping",
+      "Remember to sit tall"
+    ],
+    "tags": [
+      "static stretch"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.butterfly_groin-20d2e405.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.butterfly_groin-20d2e405.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.butterfly_groin-20d2e405.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:46:21.123Z",
+    "updatedAt": "2026-09-09T04:51:34.922Z"
+  },
+  {
+    "id": "warmups.glute_stretch-206884ef",
+    "category": "warmups",
+    "name": "Glute Stretch",
+    "tips": [
+      "Remember to keep your back straight",
+      "Stay sitting back into it",
+      "Keep that chest up"
+    ],
+    "tags": [
+      "static stretch"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.glute_stretch-206884ef.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.glute_stretch-206884ef.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.glute_stretch-206884ef.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:46:46.602Z",
+    "updatedAt": "2026-09-09T04:52:44.766Z"
+  },
+  {
+    "id": "warmups.hip_flexor_rotations-c7c05f43",
+    "category": "warmups",
+    "name": "Hip Flexor Rotations",
+    "tips": [
+      "Keep those hips tucked under",
+      "Remember to squeeze that back glute",
+      "Don't rush those circles"
+    ],
+    "tags": [
+      "static stretch"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.hip_flexor_rotations-c7c05f43.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.hip_flexor_rotations-c7c05f43.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.hip_flexor_rotations-c7c05f43.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:47:11.605Z",
+    "updatedAt": "2026-09-09T04:53:40.929Z"
+  },
+  {
+    "id": "warmups.ankle_rocks_circles-7390c83e",
+    "category": "warmups",
+    "name": "Ankle Rocks + Circles",
+    "tips": [
+      "Keep that knee tracking over your toes",
+      "Don't let that heel lift",
+      "Stay slow through the circles"
+    ],
+    "tags": [
+      "static stretch"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.ankle_rocks_circles-7390c83e.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.ankle_rocks_circles-7390c83e.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.ankle_rocks_circles-7390c83e.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:47:36.502Z",
+    "updatedAt": "2026-09-09T04:51:21.135Z"
+  },
+  {
+    "id": "warmups.cross_body_shoulder_overhead_triceps-feb23d30",
+    "category": "warmups",
+    "name": "Cross-Body Shoulder + Overhead Triceps",
+    "tips": [
+      "Keep pulling that arm across, not down",
+      "Remember to point that elbow up",
+      "Don't let your shoulders tense up"
+    ],
+    "tags": [
+      "static stretch"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.cross_body_shoulder_overhead_triceps-feb23d30.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.cross_body_shoulder_overhead_triceps-feb23d30.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.cross_body_shoulder_overhead_triceps-feb23d30.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:48:03.439Z",
+    "updatedAt": "2026-09-09T04:55:08.968Z"
+  },
+  {
+    "id": "warmups.high_knees-e6209f43",
+    "category": "warmups",
+    "name": "High Knees",
+    "tips": [
+      "Keep driving those knees to hip height",
+      "Stay light on your feet",
+      "Don't let yourself lean back"
+    ],
+    "tags": [
+      "dynamic stretch"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.high_knees-e6209f43.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.high_knees-e6209f43.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.high_knees-e6209f43.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:48:29.501Z",
+    "updatedAt": "2026-09-07T06:39:11.684Z"
+  },
+  {
+    "id": "warmups.frankensteins-904637d4",
+    "category": "warmups",
+    "name": "Frankensteins",
+    "tips": [
+      "Keep that leg straight as it comes up",
+      "Remember to pull your toe back",
+      "Don't stop your walk"
+    ],
+    "tags": [
+      "dynamic stretch"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.frankensteins-904637d4.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.frankensteins-904637d4.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.frankensteins-904637d4.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:48:56.486Z",
+    "updatedAt": "2026-09-07T09:09:28.695Z"
+  },
+  {
+    "id": "warmups.butt_kicks-0ff8a7dd",
+    "category": "warmups",
+    "name": "Butt Kicks",
+    "tips": [
+      "Keep those heels hitting your glutes",
+      "Stay quick through the turnover",
+      "Don't let your heels drop flat"
+    ],
+    "tags": [
+      "dynamic stretch"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.butt_kicks-0ff8a7dd.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.butt_kicks-0ff8a7dd.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.butt_kicks-0ff8a7dd.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:49:21.334Z",
+    "updatedAt": "2026-09-07T09:09:59.955Z"
+  },
+  {
+    "id": "warmups.open_the_gate_close_the_gate-e58a5017",
+    "category": "warmups",
+    "name": "Open the Gate / Close the Gate",
+    "tips": [
+      "Keep driving that knee up",
+      "Remember to open the hip wide",
+      "Don't wobble off the plant leg"
+    ],
+    "tags": [
+      "dynamic stretch"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.open_the_gate_close_the_gate-e58a5017.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.open_the_gate_close_the_gate-e58a5017.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.open_the_gate_close_the_gate-e58a5017.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:49:46.388Z",
+    "updatedAt": "2026-09-07T09:10:33.496Z"
+  },
+  {
+    "id": "warmups.arm_swings_circles-94ee5f9f",
+    "category": "warmups",
+    "name": "Arm Swings + Circles",
+    "tips": [
+      "Keep those shoulders loose",
+      "Remember to stay big through the range",
+      "Don't let it get floppy"
+    ],
+    "tags": [
+      "dynamic stretch"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.arm_swings_circles-94ee5f9f.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.arm_swings_circles-94ee5f9f.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.arm_swings_circles-94ee5f9f.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:50:12.398Z",
+    "updatedAt": "2026-09-09T03:51:13.605Z"
+  },
+  {
+    "id": "warmups.knee_hug_to_lunge_with_twist-f6d95bc4",
+    "category": "warmups",
+    "name": "Knee Hug to Lunge with Twist",
+    "tips": [
+      "Keep hugging that knee in tight",
+      "Remember to twist over your front leg",
+      "Don't let that back knee ride high"
+    ],
+    "tags": [
+      "dynamic stretch"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.knee_hug_to_lunge_with_twist-f6d95bc4.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.knee_hug_to_lunge_with_twist-f6d95bc4.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.knee_hug_to_lunge_with_twist-f6d95bc4.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:50:39.659Z",
+    "updatedAt": "2026-09-07T09:11:37.374Z"
+  },
+  {
+    "id": "warmups.lateral_lunge-e9295441",
+    "category": "warmups",
+    "name": "Lateral Lunge",
+    "tips": [
+      "Remember to push those hips back",
+      "Keep that inside leg straight",
+      "Don't let your weight roll forward"
+    ],
+    "tags": [
+      "dynamic stretch"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.lateral_lunge-e9295441.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.lateral_lunge-e9295441.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.lateral_lunge-e9295441.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:51:04.652Z",
+    "updatedAt": "2026-09-07T06:39:41.496Z"
+  },
+  {
+    "id": "warmups.toe_walks_heel_walks-b8b34d63",
+    "category": "warmups",
+    "name": "Toe Walks / Heel Walks",
+    "tips": [
+      "Stay up tall on those toes",
+      "Remember to pull your toes up on the heel walk",
+      "Don't let those steps get long"
+    ],
+    "tags": [
+      "dynamic stretch"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.toe_walks_heel_walks-b8b34d63.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.toe_walks_heel_walks-b8b34d63.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.toe_walks_heel_walks-b8b34d63.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:51:31.887Z",
+    "updatedAt": "2026-09-07T09:12:11.295Z"
+  },
+  {
+    "id": "warmups.layup_skips-09e4fe82",
+    "category": "warmups",
+    "name": "Layup Skips",
+    "tips": [
+      "Keep driving that knee and  arm",
+      "Remember to explode off the ground",
+      "Don't land heavy"
+    ],
+    "tags": [
+      "dynamic stretch"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.layup_skips-09e4fe82.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.layup_skips-09e4fe82.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.layup_skips-09e4fe82.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:51:57.660Z",
+    "updatedAt": "2026-09-08T19:27:21.513Z"
+  },
+  {
+    "id": "warmups.karaoke-b16b8c8d",
+    "category": "warmups",
+    "name": "Karaoke",
+    "tips": [
+      "Keep letting your hips do the turning",
+      "Stay quick over and behind",
+      "Don't let your feet tangle"
+    ],
+    "tags": [
+      "cardio"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.karaoke-b16b8c8d.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.karaoke-b16b8c8d.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.karaoke-b16b8c8d.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:52:24.254Z",
+    "updatedAt": "2026-09-07T09:13:14.546Z"
+  },
+  {
+    "id": "warmups.jumping_jacks-8f7a2581",
+    "category": "warmups",
+    "name": "Jumping Jacks",
+    "tips": [
+      "Keep taking those arms all the way up",
+      "Remember to land soft",
+      "Don't let the rhythm break"
+    ],
+    "tags": [
+      "cardio"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.jumping_jacks-8f7a2581.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.jumping_jacks-8f7a2581.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.jumping_jacks-8f7a2581.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:52:50.351Z",
+    "updatedAt": "2026-09-09T04:53:56.712Z"
+  },
+  {
+    "id": "warmups.defensive_slides-b80cfc13",
+    "category": "warmups",
+    "name": "Defensive Slides",
+    "tips": [
+      "Keep pushing off that outside foot",
+      "Don't let those heels click",
+      "Stay down in that stance"
+    ],
+    "tags": [
+      "cardio"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.defensive_slides-b80cfc13.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.defensive_slides-b80cfc13.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.defensive_slides-b80cfc13.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:53:16.727Z",
+    "updatedAt": "2026-09-07T06:40:12.797Z"
+  },
+  {
+    "id": "warmups.line_hops-674a1d07",
+    "category": "warmups",
+    "name": "Line Hops",
+    "tips": [
+      "Stay quick off the ground",
+      "Keep those feet together",
+      "Don't let your heels touch down"
+    ],
+    "tags": [
+      "cardio"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.line_hops-674a1d07.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.line_hops-674a1d07.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.line_hops-674a1d07.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:53:42.242Z",
+    "updatedAt": "2026-09-09T04:51:56.825Z"
+  },
+  {
+    "id": "warmups.closeout_bursts-4a80f63b",
+    "category": "warmups",
+    "name": "Closeout Bursts",
+    "tips": [
+      "Keep your hands up as you arrive",
+      "Remember to break down under control",
+      "Don't let yourself fly past"
+    ],
+    "tags": [
+      "cardio"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.closeout_bursts-4a80f63b.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.closeout_bursts-4a80f63b.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.closeout_bursts-4a80f63b.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:54:07.933Z",
+    "updatedAt": "2026-09-07T09:15:06.036Z"
+  },
+  {
+    "id": "warmups.light_jog-34683fcd",
+    "category": "warmups",
+    "name": "Light Jog",
+    "tips": [
+      "Keep it easy and relaxed",
+      "Stay tall going backwards",
+      "Remember to keep your breathing steady"
+    ],
+    "tags": [
+      "cardio"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.light_jog-34683fcd.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.light_jog-34683fcd.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.light_jog-34683fcd.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:54:33.164Z",
+    "updatedAt": "2026-09-07T09:15:38.533Z"
+  },
+  {
+    "id": "warmups.build_up_sprints-d522ed58",
+    "category": "warmups",
+    "name": "Build-Up Sprints",
+    "tips": [
+      "Keep building through the gears",
+      "Remember to relax your face and hands",
+      "Don't jump straight to top speed"
+    ],
+    "tags": [
+      "cardio"
+    ],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": "lab/moves/warmups/warmups.build_up_sprints-d522ed58.mp4",
+        "variants": [
+          {
+            "path": "lab/moves/warmups/warmups.build_up_sprints-d522ed58.mp4"
+          }
+        ]
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": "lab/moves/warmups/warmups.build_up_sprints-d522ed58.mp4",
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-05T01:54:59.151Z",
+    "updatedAt": "2026-09-07T09:16:11.695Z"
+  },
+  {
+    "id": "warmups.rest-f4124464",
+    "category": "warmups",
+    "name": "Rest",
+    "tips": [
+      "Use this time to recover",
+      "Get water if you need it",
+      "Deep breaths, in and out"
+    ],
+    "tags": [],
+    "experienceLevel": "Beginner",
+    "comboKind": "single",
+    "componentMoveIds": [],
+    "repDribbles": 1,
+    "handChangeable": false,
+    "reversible": false,
+    "videos": {
+      "default": {
+        "primary": null,
+        "variants": []
+      }
+    },
+    "defaultVideoSlotId": "default",
+    "videoURL": null,
+    "extras": {},
+    "isLocallyAuthored": true,
+    "createdAt": "2026-09-09T05:34:54.834Z",
+    "updatedAt": "2026-09-09T06:31:03.097Z"
+  }
+]
