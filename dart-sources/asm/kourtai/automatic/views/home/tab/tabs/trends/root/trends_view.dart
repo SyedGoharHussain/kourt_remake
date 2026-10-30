@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart
 
 // class id: 1048962, size: 0x8
 class :: {
@@ -37,7 +37,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     //     0x97dc0c: stur            w0, [x2, #0xf]
     // 0x97dc10: mov             x1, x0
     // 0x97dc14: r0 = initState()
-    //     0x97dc14: bl              #0x989844  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::initState
+    //     0x97dc14: bl              #0x989844  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::initState
     // 0x97dc18: ldur            x2, [fp, #-8]
     // 0x97dc1c: LoadField: r0 = r2->field_13
     //     0x97dc1c: ldur            w0, [x2, #0x13]
@@ -45,7 +45,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     //     0x97dc20: add             x0, x0, HEAP, lsl #32
     // 0x97dc24: stur            x0, [fp, #-0x18]
     // 0x97dc28: r1 = Function '_onTrendsChanged@1230199379':.
-    //     0x97dc28: add             x1, PP, #0x43, lsl #12  ; [pp+0x43110] AnonymousClosure: (0x97f900), in [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_onTrendsChanged (0x97f938)
+    //     0x97dc28: add             x1, PP, #0x43, lsl #12  ; [pp+0x43110] AnonymousClosure: (0x97f900), in [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_onTrendsChanged (0x97f938)
     //     0x97dc2c: ldr             x1, [x1, #0x110]
     // 0x97dc30: r0 = AllocateClosure()
     //     0x97dc30: bl              #0xe553e0  ; AllocateClosureStub
@@ -70,7 +70,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     // 0x97dc64: ldur            x2, [fp, #-0x10]
     // 0x97dc68: stur            x0, [fp, #-8]
     // 0x97dc6c: r1 = Function '<anonymous closure>':.
-    //     0x97dc6c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43120] AnonymousClosure: (0x97dd60), in [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::initState (0x97dbdc)
+    //     0x97dc6c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43120] AnonymousClosure: (0x97dd60), in [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::initState (0x97dbdc)
     //     0x97dc70: ldr             x1, [x1, #0x120]
     // 0x97dc74: r0 = AllocateClosure()
     //     0x97dc74: bl              #0xe553e0  ; AllocateClosureStub
@@ -167,7 +167,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     //     0x97dd84: add             x0, x0, HEAP, lsl #32
     // 0x97dd88: mov             x1, x0
     // 0x97dd8c: r0 = _syncTrends()
-    //     0x97dd8c: bl              #0x97dda8  ; [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_syncTrends
+    //     0x97dd8c: bl              #0x97dda8  ; [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_syncTrends
     // 0x97dd90: r0 = Null
     //     0x97dd90: mov             x0, NULL
     // 0x97dd94: LeaveFrame
@@ -235,10 +235,10 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     // 0x97de2c: DecompressPointer r1
     //     0x97de2c: add             x1, x1, HEAP, lsl #32
     // 0x97de30: r0 = start()
-    //     0x97de30: bl              #0x97e034  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::start
+    //     0x97de30: bl              #0x97e034  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::start
     // 0x97de34: ldur            x1, [fp, #-8]
     // 0x97de38: r0 = _applyTrendsDisplayRange()
-    //     0x97de38: bl              #0x97de58  ; [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_applyTrendsDisplayRange
+    //     0x97de38: bl              #0x97de58  ; [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_applyTrendsDisplayRange
     // 0x97de3c: r0 = Null
     //     0x97de3c: mov             x0, NULL
     // 0x97de40: LeaveFrame
@@ -279,7 +279,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     //     0x97de88: add             x3, x3, HEAP, lsl #32
     // 0x97de8c: mov             x1, x0
     // 0x97de90: r0 = setDisplayRange()
-    //     0x97de90: bl              #0x97deac  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::setDisplayRange
+    //     0x97de90: bl              #0x97deac  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::setDisplayRange
     // 0x97de94: r0 = Null
     //     0x97de94: mov             x0, NULL
     // 0x97de98: LeaveFrame
@@ -306,7 +306,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     //     0x97f918: cmp             SP, x16
     //     0x97f91c: b.ls            #0x97f930
     // 0x97f920: r0 = _onTrendsChanged()
-    //     0x97f920: bl              #0x97f938  ; [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_onTrendsChanged
+    //     0x97f920: bl              #0x97f938  ; [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_onTrendsChanged
     // 0x97f924: LeaveFrame
     //     0x97f924: mov             SP, fp
     //     0x97f928: ldp             fp, lr, [SP], #0x10
@@ -405,21 +405,21 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     // 0xa7d5c0: mov             x1, x3
     // 0xa7d5c4: stur            x6, [fp, #-0x18]
     // 0xa7d5c8: r0 = chartSummaryRange()
-    //     0xa7d5c8: bl              #0xa7dd5c  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::chartSummaryRange
+    //     0xa7d5c8: bl              #0xa7dd5c  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::chartSummaryRange
     // 0xa7d5cc: ldur            x1, [fp, #-0x10]
     // 0xa7d5d0: stur            x0, [fp, #-0x40]
-    // 0xa7d5d4: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xa7d5d4: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xa7d5d4: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xa7d5d4: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xa7d5d8: r1 = "Analytics"
     //     0xa7d5d8: add             x1, PP, #0x37, lsl #12  ; [pp+0x371d8] "Analytics"
     //     0xa7d5dc: ldr             x1, [x1, #0x1d8]
     // 0xa7d5e0: stur            x0, [fp, #-0x48]
     // 0xa7d5e4: r0 = L()
-    //     0xa7d5e4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7d5e4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7d5e8: ldur            x1, [fp, #-0x10]
     // 0xa7d5ec: stur            x0, [fp, #-0x10]
-    // 0xa7d5f0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa7d5f0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa7d5f0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa7d5f0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa7d5f4: stur            x0, [fp, #-0x50]
     // 0xa7d5f8: r0 = TextStyle()
     //     0xa7d5f8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -454,11 +454,11 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     //     0xa7d644: stur            w0, [x2, #0x13]
     // 0xa7d648: ldur            x1, [fp, #-8]
     // 0xa7d64c: r0 = _rangeTitle()
-    //     0xa7d64c: bl              #0xa7dce8  ; [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_rangeTitle
+    //     0xa7d64c: bl              #0xa7dce8  ; [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_rangeTitle
     // 0xa7d650: ldur            x1, [fp, #-8]
     // 0xa7d654: stur            x0, [fp, #-0x10]
     // 0xa7d658: r0 = _canPageRange()
-    //     0xa7d658: bl              #0xa7dcbc  ; [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_canPageRange
+    //     0xa7d658: bl              #0xa7dcbc  ; [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_canPageRange
     // 0xa7d65c: mov             x2, x0
     // 0xa7d660: ldur            x0, [fp, #-8]
     // 0xa7d664: stur            x2, [fp, #-0x58]
@@ -474,7 +474,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     // 0xa7d680: b.gt            #0xa7d694
     // 0xa7d684: mov             x1, x0
     // 0xa7d688: r0 = _canNavigateForward()
-    //     0xa7d688: bl              #0xa7dc7c  ; [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_canNavigateForward
+    //     0xa7d688: bl              #0xa7dc7c  ; [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_canNavigateForward
     // 0xa7d68c: mov             x9, x0
     // 0xa7d690: b               #0xa7d698
     // 0xa7d694: r9 = false
@@ -504,7 +504,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     //     0xa7d6e0: stur            w0, [x3, #0x13]
     // 0xa7d6e4: ldur            x2, [fp, #-0x38]
     // 0xa7d6e8: r1 = Function '<anonymous closure>':.
-    //     0xa7d6e8: add             x1, PP, #0x42, lsl #12  ; [pp+0x42f78] AnonymousClosure: (0xa7e968), in [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::build (0xa7d554)
+    //     0xa7d6e8: add             x1, PP, #0x42, lsl #12  ; [pp+0x42f78] AnonymousClosure: (0xa7e968), in [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::build (0xa7d554)
     //     0xa7d6ec: ldr             x1, [x1, #0xf78]
     // 0xa7d6f0: r0 = AllocateClosure()
     //     0xa7d6f0: bl              #0xe553e0  ; AllocateClosureStub
@@ -514,7 +514,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     //     0xa7d6fc: stur            w1, [x0, #0x17]
     // 0xa7d700: ldur            x2, [fp, #-0x38]
     // 0xa7d704: r1 = Function '<anonymous closure>':.
-    //     0xa7d704: add             x1, PP, #0x42, lsl #12  ; [pp+0x42f80] AnonymousClosure: (0xa7e790), in [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::build (0xa7d554)
+    //     0xa7d704: add             x1, PP, #0x42, lsl #12  ; [pp+0x42f80] AnonymousClosure: (0xa7e790), in [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::build (0xa7d554)
     //     0xa7d708: ldr             x1, [x1, #0xf80]
     // 0xa7d70c: r0 = AllocateClosure()
     //     0xa7d70c: bl              #0xe553e0  ; AllocateClosureStub
@@ -524,7 +524,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     //     0xa7d718: stur            w1, [x0, #0x1b]
     // 0xa7d71c: ldur            x2, [fp, #-8]
     // 0xa7d720: r1 = Function '_showRangePicker@1230199379':.
-    //     0xa7d720: add             x1, PP, #0x42, lsl #12  ; [pp+0x42f88] AnonymousClosure: (0xa7e09c), in [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_showRangePicker (0xa7e0d4)
+    //     0xa7d720: add             x1, PP, #0x42, lsl #12  ; [pp+0x42f88] AnonymousClosure: (0xa7e09c), in [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_showRangePicker (0xa7e0d4)
     //     0xa7d724: ldr             x1, [x1, #0xf88]
     // 0xa7d728: r0 = AllocateClosure()
     //     0xa7d728: bl              #0xe553e0  ; AllocateClosureStub
@@ -626,11 +626,11 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     // 0xa7d818: ldur            x1, [fp, #-8]
     // 0xa7d81c: stur            x3, [fp, #-0x10]
     // 0xa7d820: r0 = _rangeTitle()
-    //     0xa7d820: bl              #0xa7dce8  ; [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_rangeTitle
+    //     0xa7d820: bl              #0xa7dce8  ; [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_rangeTitle
     // 0xa7d824: ldur            x1, [fp, #-0x30]
     // 0xa7d828: stur            x0, [fp, #-8]
     // 0xa7d82c: r0 = useMonthlyGrouping()
-    //     0xa7d82c: bl              #0xa7dc04  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::useMonthlyGrouping
+    //     0xa7d82c: bl              #0xa7dc04  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::useMonthlyGrouping
     // 0xa7d830: stur            x0, [fp, #-0x30]
     // 0xa7d834: r0 = ProgressChartView()
     //     0xa7d834: bl              #0xa63990  ; AllocateProgressChartViewStub -> ProgressChartView (size=0x34)
@@ -991,7 +991,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     //     0xa7dc9c: add             x2, x2, HEAP, lsl #32
     // 0xa7dca0: mov             x1, x0
     // 0xa7dca4: r0 = canNavigateForward()
-    //     0xa7dca4: bl              #0xa6f3d0  ; [package:ballai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::canNavigateForward
+    //     0xa7dca4: bl              #0xa6f3d0  ; [package:kourtai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::canNavigateForward
     // 0xa7dca8: LeaveFrame
     //     0xa7dca8: mov             SP, fp
     //     0xa7dcac: ldp             fp, lr, [SP], #0x10
@@ -1059,7 +1059,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     //     0xa7dd3c: add             x2, x2, HEAP, lsl #32
     // 0xa7dd40: mov             x1, x0
     // 0xa7dd44: r0 = titleFor()
-    //     0xa7dd44: bl              #0xa6fadc  ; [package:ballai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::titleFor
+    //     0xa7dd44: bl              #0xa6fadc  ; [package:kourtai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::titleFor
     // 0xa7dd48: LeaveFrame
     //     0xa7dd48: mov             SP, fp
     //     0xa7dd4c: ldp             fp, lr, [SP], #0x10
@@ -1084,7 +1084,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     //     0xa7e0b4: cmp             SP, x16
     //     0xa7e0b8: b.ls            #0xa7e0cc
     // 0xa7e0bc: r0 = _showRangePicker()
-    //     0xa7e0bc: bl              #0xa7e0d4  ; [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_showRangePicker
+    //     0xa7e0bc: bl              #0xa7e0d4  ; [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_showRangePicker
     // 0xa7e0c0: LeaveFrame
     //     0xa7e0c0: mov             SP, fp
     //     0xa7e0c4: ldp             fp, lr, [SP], #0x10
@@ -1154,7 +1154,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     // 0xa7e16c: r4 = const [0x1, 0x4, 0x4, 0x4, null]
     //     0xa7e16c: ldr             x4, [PP, #0xfc8]  ; [pp+0xfc8] List(5) [0x1, 0x4, 0x4, 0x4, Null]
     // 0xa7e170: r0 = showAnalyticsPicker()
-    //     0xa7e170: bl              #0xa71e70  ; [package:ballai/automatic/views/home/tab/tabs/you/components/analytics_sections.dart] ::showAnalyticsPicker
+    //     0xa7e170: bl              #0xa71e70  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/analytics_sections.dart] ::showAnalyticsPicker
     // 0xa7e174: mov             x1, x0
     // 0xa7e178: stur            x1, [fp, #-0x20]
     // 0xa7e17c: r0 = Await()
@@ -1400,7 +1400,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     // 0xa7e434: r0 = ReturnAsyncNotFuture()
     //     0xa7e434: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xa7e438: r1 = Function '<anonymous closure>':.
-    //     0xa7e438: add             x1, PP, #0x42, lsl #12  ; [pp+0x42fb8] AnonymousClosure: (0xa7e73c), in [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_showRangePicker (0xa7e0d4)
+    //     0xa7e438: add             x1, PP, #0x42, lsl #12  ; [pp+0x42fb8] AnonymousClosure: (0xa7e73c), in [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_showRangePicker (0xa7e0d4)
     //     0xa7e43c: ldr             x1, [x1, #0xfb8]
     // 0xa7e440: r0 = AllocateClosure()
     //     0xa7e440: bl              #0xe553e0  ; AllocateClosureStub
@@ -1410,13 +1410,13 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     //     0xa7e44c: bl              #0x6005d4  ; [package:flutter/src/widgets/framework.dart] State::setState
     // 0xa7e450: ldur            x1, [fp, #-0x10]
     // 0xa7e454: r0 = _applyTrendsDisplayRange()
-    //     0xa7e454: bl              #0x97de58  ; [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_applyTrendsDisplayRange
+    //     0xa7e454: bl              #0x97de58  ; [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_applyTrendsDisplayRange
     // 0xa7e458: r0 = Null
     //     0xa7e458: mov             x0, NULL
     // 0xa7e45c: r0 = ReturnAsyncNotFuture()
     //     0xa7e45c: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xa7e460: r1 = Function '<anonymous closure>':.
-    //     0xa7e460: add             x1, PP, #0x42, lsl #12  ; [pp+0x42fc0] AnonymousClosure: (0xa7e4a8), in [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_showRangePicker (0xa7e0d4)
+    //     0xa7e460: add             x1, PP, #0x42, lsl #12  ; [pp+0x42fc0] AnonymousClosure: (0xa7e4a8), in [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_showRangePicker (0xa7e0d4)
     //     0xa7e464: ldr             x1, [x1, #0xfc0]
     // 0xa7e468: r0 = AllocateClosure()
     //     0xa7e468: bl              #0xe553e0  ; AllocateClosureStub
@@ -1426,7 +1426,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     //     0xa7e474: bl              #0x6005d4  ; [package:flutter/src/widgets/framework.dart] State::setState
     // 0xa7e478: ldur            x1, [fp, #-0x10]
     // 0xa7e47c: r0 = _applyTrendsDisplayRange()
-    //     0xa7e47c: bl              #0x97de58  ; [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_applyTrendsDisplayRange
+    //     0xa7e47c: bl              #0x97de58  ; [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_applyTrendsDisplayRange
     // 0xa7e480: r0 = Null
     //     0xa7e480: mov             x0, NULL
     // 0xa7e484: r0 = ReturnAsyncNotFuture()
@@ -1741,7 +1741,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     // 0xa7e7bc: r2 = 1
     //     0xa7e7bc: mov             x2, #1
     // 0xa7e7c0: r0 = _changeAnchor()
-    //     0xa7e7c0: bl              #0xa7e7dc  ; [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_changeAnchor
+    //     0xa7e7c0: bl              #0xa7e7dc  ; [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_changeAnchor
     // 0xa7e7c4: r0 = Null
     //     0xa7e7c4: mov             x0, NULL
     // 0xa7e7c8: LeaveFrame
@@ -1802,7 +1802,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     // 0xa7e858: DecompressPointer r2
     //     0xa7e858: add             x2, x2, HEAP, lsl #32
     // 0xa7e85c: r0 = canNavigateForward()
-    //     0xa7e85c: bl              #0xa6f3d0  ; [package:ballai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::canNavigateForward
+    //     0xa7e85c: bl              #0xa6f3d0  ; [package:kourtai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::canNavigateForward
     // 0xa7e860: tbz             w0, #4, #0xa7e874
     // 0xa7e864: r0 = Null
     //     0xa7e864: mov             x0, NULL
@@ -1813,7 +1813,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     //     0xa7e870: ret             
     // 0xa7e874: ldur            x2, [fp, #-0x18]
     // 0xa7e878: r1 = Function '<anonymous closure>':.
-    //     0xa7e878: add             x1, PP, #0x43, lsl #12  ; [pp+0x430f8] AnonymousClosure: (0xa7e8c0), in [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_changeAnchor (0xa7e7dc)
+    //     0xa7e878: add             x1, PP, #0x43, lsl #12  ; [pp+0x430f8] AnonymousClosure: (0xa7e8c0), in [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_changeAnchor (0xa7e7dc)
     //     0xa7e87c: ldr             x1, [x1, #0xf8]
     // 0xa7e880: r0 = AllocateClosure()
     //     0xa7e880: bl              #0xe553e0  ; AllocateClosureStub
@@ -1823,7 +1823,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     //     0xa7e88c: bl              #0x6005d4  ; [package:flutter/src/widgets/framework.dart] State::setState
     // 0xa7e890: ldur            x1, [fp, #-8]
     // 0xa7e894: r0 = _applyTrendsDisplayRange()
-    //     0xa7e894: bl              #0x97de58  ; [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_applyTrendsDisplayRange
+    //     0xa7e894: bl              #0x97de58  ; [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_applyTrendsDisplayRange
     // 0xa7e898: r0 = Null
     //     0xa7e898: mov             x0, NULL
     // 0xa7e89c: LeaveFrame
@@ -1885,7 +1885,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     // 0xa7e924: mov             x1, x3
     // 0xa7e928: mov             x3, x16
     // 0xa7e92c: r0 = stepAnchor()
-    //     0xa7e92c: bl              #0xa6f490  ; [package:ballai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::stepAnchor
+    //     0xa7e92c: bl              #0xa6f490  ; [package:kourtai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::stepAnchor
     // 0xa7e930: ldur            x1, [fp, #-8]
     // 0xa7e934: StoreField: r1->field_1b = r0
     //     0xa7e934: stur            w0, [x1, #0x1b]
@@ -1928,7 +1928,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     // 0xa7e994: r2 = -1
     //     0xa7e994: mov             x2, #-1
     // 0xa7e998: r0 = _changeAnchor()
-    //     0xa7e998: bl              #0xa7e7dc  ; [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_changeAnchor
+    //     0xa7e998: bl              #0xa7e7dc  ; [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_changeAnchor
     // 0xa7e99c: r0 = Null
     //     0xa7e99c: mov             x0, NULL
     // 0xa7e9a0: LeaveFrame
@@ -1947,7 +1947,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     //     0xb5bc2c: mov             fp, SP
     // 0xb5bc30: ldr             x2, [fp, #0x10]
     // 0xb5bc34: r1 = Function 'dispose':.
-    //     0xb5bc34: add             x1, PP, #0x42, lsl #12  ; [pp+0x42f70] AnonymousClosure: (0xb5bc4c), in [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::dispose (0xb62ea8)
+    //     0xb5bc34: add             x1, PP, #0x42, lsl #12  ; [pp+0x42f70] AnonymousClosure: (0xb5bc4c), in [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::dispose (0xb62ea8)
     //     0xb5bc38: ldr             x1, [x1, #0xf70]
     // 0xb5bc3c: r0 = AllocateClosure()
     //     0xb5bc3c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1972,7 +1972,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     //     0xb5bc64: cmp             SP, x16
     //     0xb5bc68: b.ls            #0xb5bc7c
     // 0xb5bc6c: r0 = dispose()
-    //     0xb5bc6c: bl              #0xb62ea8  ; [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::dispose
+    //     0xb5bc6c: bl              #0xb62ea8  ; [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::dispose
     // 0xb5bc70: LeaveFrame
     //     0xb5bc70: mov             SP, fp
     //     0xb5bc74: ldp             fp, lr, [SP], #0x10
@@ -2003,7 +2003,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     // 0xb62ed0: mov             x2, x0
     // 0xb62ed4: stur            x3, [fp, #-8]
     // 0xb62ed8: r1 = Function '_onTrendsChanged@1230199379':.
-    //     0xb62ed8: add             x1, PP, #0x43, lsl #12  ; [pp+0x43110] AnonymousClosure: (0x97f900), in [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_onTrendsChanged (0x97f938)
+    //     0xb62ed8: add             x1, PP, #0x43, lsl #12  ; [pp+0x43110] AnonymousClosure: (0x97f900), in [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_onTrendsChanged (0x97f938)
     //     0xb62edc: ldr             x1, [x1, #0x110]
     // 0xb62ee0: r0 = AllocateClosure()
     //     0xb62ee0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2013,10 +2013,10 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     //     0xb62eec: bl              #0x8d74f0  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::removeListener
     // 0xb62ef0: ldur            x1, [fp, #-8]
     // 0xb62ef4: r0 = dispose()
-    //     0xb62ef4: bl              #0x9bd390  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::dispose
+    //     0xb62ef4: bl              #0x9bd390  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::dispose
     // 0xb62ef8: ldur            x1, [fp, #-0x10]
     // 0xb62efc: r0 = dispose()
-    //     0xb62efc: bl              #0xb63788  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
+    //     0xb62efc: bl              #0xb63788  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
     // 0xb62f00: r0 = Null
     //     0xb62f00: mov             x0, NULL
     // 0xb62f04: LeaveFrame
@@ -2050,7 +2050,7 @@ class _TrendsViewState extends __TrendsViewState&State&HomeIslandHiddenRoute {
     // 0xb74a4c: mov             x1, x0
     // 0xb74a50: stur            x0, [fp, #-0x10]
     // 0xb74a54: r0 = TrendsManager()
-    //     0xb74a54: bl              #0xb74bb0  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::TrendsManager
+    //     0xb74a54: bl              #0xb74bb0  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::TrendsManager
     // 0xb74a58: ldur            x0, [fp, #-0x10]
     // 0xb74a5c: ldur            x1, [fp, #-8]
     // 0xb74a60: StoreField: r1->field_13 = r0
@@ -2200,7 +2200,7 @@ class TrendsView extends StatefulWidget {
     // 0xb749fc: mov             x1, x0
     // 0xb74a00: stur            x0, [fp, #-8]
     // 0xb74a04: r0 = _TrendsViewState()
-    //     0xb74a04: bl              #0xb74a20  ; [package:ballai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_TrendsViewState
+    //     0xb74a04: bl              #0xb74a20  ; [package:kourtai/automatic/views/home/tab/tabs/trends/root/trends_view.dart] _TrendsViewState::_TrendsViewState
     // 0xb74a08: ldur            x0, [fp, #-8]
     // 0xb74a0c: LeaveFrame
     //     0xb74a0c: mov             SP, fp
@@ -2277,13 +2277,13 @@ class _Arrow extends StatelessWidget {
     // 0xc03660: stur            x4, [fp, #-0x18]
     // 0xc03664: tbnz            w1, #4, #0xc03678
     // 0xc03668: ldur            x1, [fp, #-0x10]
-    // 0xc0366c: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc0366c: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc0366c: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc0366c: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc03670: mov             x3, x0
     // 0xc03674: b               #0xc036b8
     // 0xc03678: ldur            x1, [fp, #-0x10]
-    // 0xc0367c: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc0367c: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc0367c: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc0367c: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc03680: r1 = LoadClassIdInstr(r0)
     //     0xc03680: ldur            x1, [x0, #-1]
     //     0xc03684: ubfx            x1, x1, #0xc, #0x14
@@ -2383,8 +2383,8 @@ class _RangeSelector extends StatelessWidget {
     //     0xc03278: cmp             SP, x16
     //     0xc0327c: b.ls            #0xc035c0
     // 0xc03280: mov             x1, x0
-    // 0xc03284: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xc03284: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xc03284: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xc03284: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xc03288: stur            x0, [fp, #-0x18]
     // 0xc0328c: r0 = Radius()
     //     0xc0328c: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -2484,8 +2484,8 @@ class _RangeSelector extends StatelessWidget {
     //     0xc03378: add             x4, x4, HEAP, lsl #32
     // 0xc0337c: ldur            x1, [fp, #-0x10]
     // 0xc03380: stur            x4, [fp, #-0x18]
-    // 0xc03384: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc03384: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc03384: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc03384: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc03388: stur            x0, [fp, #-0x10]
     // 0xc0338c: r0 = TextStyle()
     //     0xc0338c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)

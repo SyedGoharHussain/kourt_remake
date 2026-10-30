@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/stats/workouts/workout_session_summary_util.dart
+// lib: , url: package:kourtai/automatic/models/core/stats/workouts/workout_session_summary_util.dart
 
 // class id: 1048701, size: 0x8
 class :: {
@@ -199,7 +199,7 @@ class :: {
     // 0x96e390: cbz             w0, #0x96e480
     // 0x96e394: mov             x2, x3
     // 0x96e398: r1 = Function '<anonymous closure>': static.
-    //     0x96e398: add             x1, PP, #0x37, lsl #12  ; [pp+0x37620] AnonymousClosure: static (0x95f04c), in [package:ballai/video_tracking/analysis/coach/coach_session_summary_persistence.dart] CoachSessionSummaryPersistence::hasLikelySessionSummary (0x95efc0)
+    //     0x96e398: add             x1, PP, #0x37, lsl #12  ; [pp+0x37620] AnonymousClosure: static (0x95f04c), in [package:kourtai/video_tracking/analysis/coach/coach_session_summary_persistence.dart] CoachSessionSummaryPersistence::hasLikelySessionSummary (0x95efc0)
     //     0x96e39c: ldr             x1, [x1, #0x620]
     // 0x96e3a0: r0 = AllocateClosure()
     //     0x96e3a0: bl              #0xe553e0  ; AllocateClosureStub
@@ -239,7 +239,7 @@ class :: {
     // 0x96e3f8: DecompressPointer r1
     //     0x96e3f8: add             x1, x1, HEAP, lsl #32
     // 0x96e3fc: r0 = toDisplaySummaryText()
-    //     0x96e3fc: bl              #0x9608e4  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::toDisplaySummaryText
+    //     0x96e3fc: bl              #0x9608e4  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::toDisplaySummaryText
     // 0x96e400: cmp             w0, NULL
     // 0x96e404: b.eq            #0x96e41c
     // 0x96e408: LoadField: r1 = r0->field_7
@@ -257,7 +257,7 @@ class :: {
     // 0x96e428: r0 = _GrowableList._ofGrowableList()
     //     0x96e428: bl              #0x5c79a0  ; [dart:core] _GrowableList::_GrowableList._ofGrowableList
     // 0x96e42c: r1 = Function '<anonymous closure>': static.
-    //     0x96e42c: add             x1, PP, #0x37, lsl #12  ; [pp+0x37630] AnonymousClosure: static (0x96e5cc), in [package:ballai/automatic/models/core/stats/workouts/workout_session_summary_util.dart] ::latestSessionSummaryText (0x96e344)
+    //     0x96e42c: add             x1, PP, #0x37, lsl #12  ; [pp+0x37630] AnonymousClosure: static (0x96e5cc), in [package:kourtai/automatic/models/core/stats/workouts/workout_session_summary_util.dart] ::latestSessionSummaryText (0x96e344)
     //     0x96e430: ldr             x1, [x1, #0x630]
     // 0x96e434: r2 = Null
     //     0x96e434: mov             x2, NULL
@@ -278,7 +278,7 @@ class :: {
     // 0x96e45c: DecompressPointer r1
     //     0x96e45c: add             x1, x1, HEAP, lsl #32
     // 0x96e460: r0 = toDisplaySummaryText()
-    //     0x96e460: bl              #0x9608e4  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::toDisplaySummaryText
+    //     0x96e460: bl              #0x9608e4  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::toDisplaySummaryText
     // 0x96e464: cmp             w0, NULL
     // 0x96e468: b.eq            #0x96e480
     // 0x96e46c: LoadField: r1 = r0->field_7
@@ -310,7 +310,7 @@ class :: {
     //     0x96e4ac: bl              #0x5c79a0  ; [dart:core] _GrowableList::_GrowableList._ofGrowableList
     // 0x96e4b0: ldur            x2, [fp, #-0x18]
     // 0x96e4b4: r1 = Function '<anonymous closure>': static.
-    //     0x96e4b4: add             x1, PP, #0x37, lsl #12  ; [pp+0x37638] AnonymousClosure: static (0x96e514), in [package:ballai/automatic/models/core/stats/workouts/workout_session_summary_util.dart] ::latestSessionSummaryText (0x96e344)
+    //     0x96e4b4: add             x1, PP, #0x37, lsl #12  ; [pp+0x37638] AnonymousClosure: static (0x96e514), in [package:kourtai/automatic/models/core/stats/workouts/workout_session_summary_util.dart] ::latestSessionSummaryText (0x96e344)
     //     0x96e4b8: ldr             x1, [x1, #0x638]
     // 0x96e4bc: stur            x0, [fp, #-8]
     // 0x96e4c0: r0 = AllocateClosure()

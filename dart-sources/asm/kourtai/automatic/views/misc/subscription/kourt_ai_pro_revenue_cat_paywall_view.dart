@@ -1,11 +1,11 @@
-// lib: , url: package:ballai/automatic/views/misc/subscription/ball_ai_pro_revenue_cat_paywall_view.dart
+// lib: , url: package:kourtai/automatic/views/misc/subscription/kourt_ai_pro_revenue_cat_paywall_view.dart
 
 // class id: 1049052, size: 0x8
 class :: {
 }
 
 // class id: 2840, size: 0x1c, field offset: 0x14
-class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
+class _KourtAiProRevenueCatPaywallViewState extends State<dynamic> {
 
   _ didUpdateWidget(/* No info */) {
     // ** addr: 0x902cac, size: 0x13c
@@ -14,7 +14,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     //     0x902cb0: mov             fp, SP
     // 0x902cb4: AllocStack(0x20)
     //     0x902cb4: sub             SP, SP, #0x20
-    // 0x902cb8: SetupParameters(_BallAiProRevenueCatPaywallViewState this /* r1 => r4, fp-0x8 */, dynamic _ /* r2 => r3, fp-0x10 */)
+    // 0x902cb8: SetupParameters(_KourtAiProRevenueCatPaywallViewState this /* r1 => r4, fp-0x8 */, dynamic _ /* r2 => r3, fp-0x10 */)
     //     0x902cb8: mov             x4, x1
     //     0x902cbc: mov             x3, x2
     //     0x902cc0: stur            x1, [fp, #-8]
@@ -37,14 +37,14 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     //     0x902cec: ubfx            x4, x4, #0xc, #0x14
     // 0x902cf0: cmp             x4, #0xdda
     // 0x902cf4: b.eq            #0x902d0c
-    // 0x902cf8: r8 = BallAiProRevenueCatPaywallView
-    //     0x902cf8: add             x8, PP, #0x36, lsl #12  ; [pp+0x36f30] Type: BallAiProRevenueCatPaywallView
+    // 0x902cf8: r8 = KourtAiProRevenueCatPaywallView
+    //     0x902cf8: add             x8, PP, #0x36, lsl #12  ; [pp+0x36f30] Type: KourtAiProRevenueCatPaywallView
     //     0x902cfc: ldr             x8, [x8, #0xf30]
     // 0x902d00: r3 = Null
     //     0x902d00: add             x3, PP, #0x36, lsl #12  ; [pp+0x36f38] Null
     //     0x902d04: ldr             x3, [x3, #0xf38]
-    // 0x902d08: r0 = BallAiProRevenueCatPaywallView()
-    //     0x902d08: bl              #0x90436c  ; IsType_BallAiProRevenueCatPaywallView_Stub
+    // 0x902d08: r0 = KourtAiProRevenueCatPaywallView()
+    //     0x902d08: bl              #0x90436c  ; IsType_KourtAiProRevenueCatPaywallView_Stub
     // 0x902d0c: ldur            x3, [fp, #-8]
     // 0x902d10: LoadField: r2 = r3->field_7
     //     0x902d10: ldur            w2, [x3, #7]
@@ -114,7 +114,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     // 0x902dbc: tbz             w0, #4, #0x902dc8
     // 0x902dc0: ldur            x1, [fp, #-8]
     // 0x902dc4: r0 = _resolveOffering()
-    //     0x902dc4: bl              #0x902de8  ; [package:ballai/automatic/views/misc/subscription/ball_ai_pro_revenue_cat_paywall_view.dart] _BallAiProRevenueCatPaywallViewState::_resolveOffering
+    //     0x902dc4: bl              #0x902de8  ; [package:kourtai/automatic/views/misc/subscription/kourt_ai_pro_revenue_cat_paywall_view.dart] _KourtAiProRevenueCatPaywallViewState::_resolveOffering
     // 0x902dc8: r0 = Null
     //     0x902dc8: mov             x0, NULL
     // 0x902dcc: LeaveFrame
@@ -137,7 +137,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     //     0x902dec: mov             fp, SP
     // 0x902df0: AllocStack(0x40)
     //     0x902df0: sub             SP, SP, #0x40
-    // 0x902df4: SetupParameters(_BallAiProRevenueCatPaywallViewState this /* r1 => r1, fp-0x10 */)
+    // 0x902df4: SetupParameters(_KourtAiProRevenueCatPaywallViewState this /* r1 => r1, fp-0x10 */)
     //     0x902df4: stur            NULL, [fp, #-8]
     //     0x902df8: stur            x1, [fp, #-0x10]
     // 0x902dfc: CheckStackOverflow
@@ -176,7 +176,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     // 0x902e58: b.eq            #0x902e78
     // 0x902e5c: ldur            x2, [fp, #-0x18]
     // 0x902e60: r1 = Function '<anonymous closure>':.
-    //     0x902e60: add             x1, PP, #0x36, lsl #12  ; [pp+0x36f10] AnonymousClosure: (0x904344), in [package:ballai/automatic/views/misc/subscription/ball_ai_pro_revenue_cat_paywall_view.dart] _BallAiProRevenueCatPaywallViewState::_resolveOffering (0x902de8)
+    //     0x902e60: add             x1, PP, #0x36, lsl #12  ; [pp+0x36f10] AnonymousClosure: (0x904344), in [package:kourtai/automatic/views/misc/subscription/kourt_ai_pro_revenue_cat_paywall_view.dart] _KourtAiProRevenueCatPaywallViewState::_resolveOffering (0x902de8)
     //     0x902e64: ldr             x1, [x1, #0xf10]
     // 0x902e68: r0 = AllocateClosure()
     //     0x902e68: bl              #0xe553e0  ; AllocateClosureStub
@@ -202,12 +202,12 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     // 0x902e9c: mov             x1, x3
     // 0x902ea0: stur            x3, [fp, #-0x20]
     // 0x902ea4: r0 = paywallPlacementID()
-    //     0x902ea4: bl              #0x650b94  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::paywallPlacementID
+    //     0x902ea4: bl              #0x650b94  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::paywallPlacementID
     // 0x902ea8: ldur            x1, [fp, #-0x28]
     // 0x902eac: mov             x2, x0
     // 0x902eb0: ldur            x3, [fp, #-0x20]
     // 0x902eb4: r0 = syncPaywallSourceAttributes()
-    //     0x902eb4: bl              #0x903b34  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::syncPaywallSourceAttributes
+    //     0x902eb4: bl              #0x903b34  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::syncPaywallSourceAttributes
     // 0x902eb8: ldur            x0, [fp, #-0x28]
     // 0x902ebc: LoadField: r1 = r0->field_2b
     //     0x902ebc: ldur            w1, [x0, #0x2b]
@@ -217,7 +217,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     // 0x902ec8: b.ne            #0x902ee4
     // 0x902ecc: mov             x1, x0
     // 0x902ed0: r0 = refreshOfferings()
-    //     0x902ed0: bl              #0x648724  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshOfferings
+    //     0x902ed0: bl              #0x648724  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshOfferings
     // 0x902ed4: mov             x1, x0
     // 0x902ed8: stur            x1, [fp, #-0x20]
     // 0x902edc: r0 = Await()
@@ -225,7 +225,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     // 0x902ee0: b               #0x902eec
     // 0x902ee4: ldur            x1, [fp, #-0x28]
     // 0x902ee8: r0 = refreshOfferings()
-    //     0x902ee8: bl              #0x648724  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshOfferings
+    //     0x902ee8: bl              #0x648724  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshOfferings
     // 0x902eec: ldur            x0, [fp, #-0x10]
     // 0x902ef0: ldur            x3, [fp, #-0x18]
     // 0x902ef4: LoadField: r1 = r0->field_b
@@ -250,7 +250,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     //     0x902f24: add             x4, PP, #0x36, lsl #12  ; [pp+0x36f18] List(7) [0, 0x3, 0x1, 0x2, "offeringIdentifier", 0x2, Null]
     //     0x902f28: ldr             x4, [x4, #0xf18]
     // 0x902f2c: r0 = resolveOfferingForPaywall()
-    //     0x902f2c: bl              #0x6483e4  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::resolveOfferingForPaywall
+    //     0x902f2c: bl              #0x6483e4  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::resolveOfferingForPaywall
     // 0x902f30: mov             x1, x0
     // 0x902f34: stur            x1, [fp, #-0x30]
     // 0x902f38: r0 = Await()
@@ -338,7 +338,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     // 0x903034: ldur            x2, [fp, #-0x18]
     // 0x903038: ldur            x1, [fp, #-0x28]
     // 0x90303c: r0 = resolveCancelWinbackOffering()
-    //     0x90303c: bl              #0x903110  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::resolveCancelWinbackOffering
+    //     0x90303c: bl              #0x903110  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::resolveCancelWinbackOffering
     // 0x903040: mov             x1, x0
     // 0x903044: stur            x1, [fp, #-0x20]
     // 0x903048: r0 = Await()
@@ -367,7 +367,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     // 0x903090: r0 = ReturnAsyncNotFuture()
     //     0x903090: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x903094: r1 = Function '<anonymous closure>':.
-    //     0x903094: add             x1, PP, #0x36, lsl #12  ; [pp+0x36f20] AnonymousClosure: (0x903cd8), in [package:ballai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::_startPlayback (0x903d28)
+    //     0x903094: add             x1, PP, #0x36, lsl #12  ; [pp+0x36f20] AnonymousClosure: (0x903cd8), in [package:kourtai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::_startPlayback (0x903d28)
     //     0x903098: ldr             x1, [x1, #0xf20]
     // 0x90309c: r0 = AllocateClosure()
     //     0x90309c: bl              #0xe553e0  ; AllocateClosureStub
@@ -409,7 +409,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     // 0x9030f0: DecompressPointer r1
     //     0x9030f0: add             x1, x1, HEAP, lsl #32
     // 0x9030f4: r0 = paywallPlacementID()
-    //     0x9030f4: bl              #0x650b94  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::paywallPlacementID
+    //     0x9030f4: bl              #0x650b94  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::paywallPlacementID
     // 0x9030f8: LeaveFrame
     //     0x9030f8: mov             SP, fp
     //     0x9030fc: ldp             fp, lr, [SP], #0x10
@@ -450,7 +450,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     //     0x98f2c4: mov             fp, SP
     // 0x98f2c8: AllocStack(0x18)
     //     0x98f2c8: sub             SP, SP, #0x18
-    // 0x98f2cc: SetupParameters(_BallAiProRevenueCatPaywallViewState this /* r1 => r1, fp-0x8 */)
+    // 0x98f2cc: SetupParameters(_KourtAiProRevenueCatPaywallViewState this /* r1 => r1, fp-0x8 */)
     //     0x98f2cc: stur            x1, [fp, #-8]
     // 0x98f2d0: CheckStackOverflow
     //     0x98f2d0: ldr             x16, [THR, #0x38]  ; THR::stack_limit
@@ -481,7 +481,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     // 0x98f314: mov             x2, x1
     // 0x98f318: stur            x0, [fp, #-8]
     // 0x98f31c: r1 = Function '<anonymous closure>':.
-    //     0x98f31c: add             x1, PP, #0x36, lsl #12  ; [pp+0x36f58] AnonymousClosure: (0x98f3f0), in [package:ballai/automatic/views/misc/subscription/ball_ai_pro_revenue_cat_paywall_view.dart] _BallAiProRevenueCatPaywallViewState::initState (0x98f2c0)
+    //     0x98f31c: add             x1, PP, #0x36, lsl #12  ; [pp+0x36f58] AnonymousClosure: (0x98f3f0), in [package:kourtai/automatic/views/misc/subscription/kourt_ai_pro_revenue_cat_paywall_view.dart] _KourtAiProRevenueCatPaywallViewState::initState (0x98f2c0)
     //     0x98f320: ldr             x1, [x1, #0xf58]
     // 0x98f324: r0 = AllocateClosure()
     //     0x98f324: bl              #0xe553e0  ; AllocateClosureStub
@@ -578,7 +578,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     //     0x98f414: add             x0, x0, HEAP, lsl #32
     // 0x98f418: mov             x1, x0
     // 0x98f41c: r0 = _resolveOffering()
-    //     0x98f41c: bl              #0x902de8  ; [package:ballai/automatic/views/misc/subscription/ball_ai_pro_revenue_cat_paywall_view.dart] _BallAiProRevenueCatPaywallViewState::_resolveOffering
+    //     0x98f41c: bl              #0x902de8  ; [package:kourtai/automatic/views/misc/subscription/kourt_ai_pro_revenue_cat_paywall_view.dart] _KourtAiProRevenueCatPaywallViewState::_resolveOffering
     // 0x98f420: r0 = Null
     //     0x98f420: mov             x0, NULL
     // 0x98f424: LeaveFrame
@@ -597,7 +597,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     //     0xaac97c: mov             fp, SP
     // 0xaac980: AllocStack(0x48)
     //     0xaac980: sub             SP, SP, #0x48
-    // 0xaac984: SetupParameters(_BallAiProRevenueCatPaywallViewState this /* r1 => r0, fp-0x8 */, dynamic _ /* r2 => r1, fp-0x10 */)
+    // 0xaac984: SetupParameters(_KourtAiProRevenueCatPaywallViewState this /* r1 => r0, fp-0x8 */, dynamic _ /* r2 => r1, fp-0x10 */)
     //     0xaac984: mov             x0, x1
     //     0xaac988: stur            x1, [fp, #-8]
     //     0xaac98c: mov             x1, x2
@@ -631,7 +631,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     //     0xaac9d8: add             x1, PP, #0x36, lsl #12  ; [pp+0x36ea0] "Subscriptions are not configured yet."
     //     0xaac9dc: ldr             x1, [x1, #0xea0]
     // 0xaac9e0: r0 = L()
-    //     0xaac9e0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaac9e0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaac9e4: stur            x0, [fp, #-0x18]
     // 0xaac9e8: r0 = _PaywallMessage()
     //     0xaac9e8: bl              #0xaacd7c  ; Allocate_PaywallMessageStub -> _PaywallMessage (size=0x1c)
@@ -651,12 +651,12 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     //     0xaaca0c: add             x1, x1, HEAP, lsl #32
     // 0xaaca10: tbz             w1, #4, #0xaaca94
     // 0xaaca14: ldur            x1, [fp, #-0x10]
-    // 0xaaca18: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xaaca18: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xaaca18: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xaaca18: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xaaca1c: ldur            x1, [fp, #-0x10]
     // 0xaaca20: stur            x0, [fp, #-0x10]
-    // 0xaaca24: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xaaca24: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xaaca24: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xaaca24: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xaaca28: stur            x0, [fp, #-0x18]
     // 0xaaca2c: r0 = CircularProgressIndicator()
     //     0xaaca2c: bl              #0xa15a28  ; AllocateCircularProgressIndicatorStub -> CircularProgressIndicator (size=0x44)
@@ -736,7 +736,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     //     0xaacaf4: add             x3, x3, HEAP, lsl #32
     // 0xaacaf8: mov             x1, x3
     // 0xaacafc: r0 = isDiscountRequestPaywallSource()
-    //     0xaacafc: bl              #0x650b58  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isDiscountRequestPaywallSource
+    //     0xaacafc: bl              #0x650b58  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isDiscountRequestPaywallSource
     // 0xaacb00: mov             x1, x0
     // 0xaacb04: b               #0xaacb0c
     // 0xaacb08: r1 = false
@@ -760,7 +760,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     //     0xaacb3c: add             x1, PP, #0x20, lsl #12  ; [pp+0x206b0] "This offer isn\'t available right now."
     //     0xaacb40: ldr             x1, [x1, #0x6b0]
     // 0xaacb44: r0 = L()
-    //     0xaacb44: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaacb44: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaacb48: r1 = Null
     //     0xaacb48: mov             x1, NULL
     // 0xaacb4c: r2 = 4
@@ -814,7 +814,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     //     0xaacbd4: stur            w0, [x3, #0xf]
     // 0xaacbd8: ldur            x2, [fp, #-0x28]
     // 0xaacbdc: r1 = Function '<anonymous closure>':.
-    //     0xaacbdc: add             x1, PP, #0x36, lsl #12  ; [pp+0x36eb0] AnonymousClosure: (0xaad73c), in [package:ballai/automatic/views/misc/subscription/ball_ai_pro_revenue_cat_paywall_view.dart] _BallAiProRevenueCatPaywallViewState::build (0xaac978)
+    //     0xaacbdc: add             x1, PP, #0x36, lsl #12  ; [pp+0x36eb0] AnonymousClosure: (0xaad73c), in [package:kourtai/automatic/views/misc/subscription/kourt_ai_pro_revenue_cat_paywall_view.dart] _KourtAiProRevenueCatPaywallViewState::build (0xaac978)
     //     0xaacbe0: ldr             x1, [x1, #0xeb0]
     // 0xaacbe4: r0 = AllocateClosure()
     //     0xaacbe4: bl              #0xe553e0  ; AllocateClosureStub
@@ -850,7 +850,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     //     0xaacc30: stur            w16, [x0, #0xf]
     // 0xaacc34: ldur            x1, [fp, #-8]
     // 0xaacc38: r0 = _placementID()
-    //     0xaacc38: bl              #0x9030c8  ; [package:ballai/automatic/views/misc/subscription/ball_ai_pro_revenue_cat_paywall_view.dart] _BallAiProRevenueCatPaywallViewState::_placementID
+    //     0xaacc38: bl              #0x9030c8  ; [package:kourtai/automatic/views/misc/subscription/kourt_ai_pro_revenue_cat_paywall_view.dart] _KourtAiProRevenueCatPaywallViewState::_placementID
     // 0xaacc3c: stur            x0, [fp, #-0x18]
     // 0xaacc40: r0 = StringCustomVariableValue()
     //     0xaacc40: bl              #0xaacd50  ; AllocateStringCustomVariableValueStub -> StringCustomVariableValue (size=0xc)
@@ -907,7 +907,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     //     0xaaccd8: stur            w0, [x3, #0x13]
     // 0xaaccdc: ldur            x2, [fp, #-0x28]
     // 0xaacce0: r1 = Function '<anonymous closure>':.
-    //     0xaacce0: add             x1, PP, #0x36, lsl #12  ; [pp+0x36ec0] AnonymousClosure: (0xaad528), in [package:ballai/automatic/views/misc/subscription/ball_ai_pro_revenue_cat_paywall_view.dart] _BallAiProRevenueCatPaywallViewState::build (0xaac978)
+    //     0xaacce0: add             x1, PP, #0x36, lsl #12  ; [pp+0x36ec0] AnonymousClosure: (0xaad528), in [package:kourtai/automatic/views/misc/subscription/kourt_ai_pro_revenue_cat_paywall_view.dart] _KourtAiProRevenueCatPaywallViewState::build (0xaac978)
     //     0xaacce4: ldr             x1, [x1, #0xec0]
     // 0xaacce8: r0 = AllocateClosure()
     //     0xaacce8: bl              #0xe553e0  ; AllocateClosureStub
@@ -917,7 +917,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     //     0xaaccf4: stur            w1, [x0, #0x1f]
     // 0xaaccf8: ldur            x2, [fp, #-0x28]
     // 0xaaccfc: r1 = Function '<anonymous closure>':.
-    //     0xaaccfc: add             x1, PP, #0x36, lsl #12  ; [pp+0x36ec8] AnonymousClosure: (0xaacd88), in [package:ballai/automatic/views/misc/subscription/ball_ai_pro_revenue_cat_paywall_view.dart] _BallAiProRevenueCatPaywallViewState::build (0xaac978)
+    //     0xaaccfc: add             x1, PP, #0x36, lsl #12  ; [pp+0x36ec8] AnonymousClosure: (0xaacd88), in [package:kourtai/automatic/views/misc/subscription/kourt_ai_pro_revenue_cat_paywall_view.dart] _KourtAiProRevenueCatPaywallViewState::build (0xaac978)
     //     0xaacd00: ldr             x1, [x1, #0xec8]
     // 0xaacd04: r0 = AllocateClosure()
     //     0xaacd04: bl              #0xe553e0  ; AllocateClosureStub
@@ -987,10 +987,10 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     // 0xaacde4: mov             x1, x0
     // 0xaacde8: ldr             x2, [fp, #0x10]
     // 0xaacdec: r0 = notifyPurchaseCompleted()
-    //     0xaacdec: bl              #0xaacedc  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::notifyPurchaseCompleted
+    //     0xaacdec: bl              #0xaacedc  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::notifyPurchaseCompleted
     // 0xaacdf0: ldur            x1, [fp, #-8]
-    // 0xaacdf4: r0 = hasPaidMonthlyOrYearlyBallAiPro()
-    //     0xaacdf4: bl              #0xaace64  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasPaidMonthlyOrYearlyBallAiPro
+    // 0xaacdf4: r0 = hasPaidMonthlyOrYearlyKourtAiPro()
+    //     0xaacdf4: bl              #0xaace64  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasPaidMonthlyOrYearlyKourtAiPro
     // 0xaacdf8: tbnz            w0, #4, #0xaace3c
     // 0xaacdfc: ldur            x0, [fp, #-0x10]
     // 0xaace00: LoadField: r1 = r0->field_f
@@ -1074,7 +1074,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     // 0xaad584: mov             x1, x0
     // 0xaad588: ldr             x2, [fp, #0x18]
     // 0xaad58c: r0 = notifyPurchaseCompleted()
-    //     0xaad58c: bl              #0xaacedc  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::notifyPurchaseCompleted
+    //     0xaad58c: bl              #0xaacedc  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::notifyPurchaseCompleted
     // 0xaad590: ldur            x0, [fp, #-0x10]
     // 0xaad594: LoadField: r1 = r0->field_f
     //     0xaad594: ldur            w1, [x0, #0xf]
@@ -1154,14 +1154,14 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     // 0xaad66c: DecompressPointer r1
     //     0xaad66c: add             x1, x1, HEAP, lsl #32
     // 0xaad670: r0 = isDiscountRequestPaywallSource()
-    //     0xaad670: bl              #0x650b58  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isDiscountRequestPaywallSource
+    //     0xaad670: bl              #0x650b58  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isDiscountRequestPaywallSource
     // 0xaad674: tbnz            w0, #4, #0xaad680
     // 0xaad678: ldur            x1, [fp, #-8]
     // 0xaad67c: r0 = markCancelWinbackPromoRedeemed()
-    //     0xaad67c: bl              #0xaacf90  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::markCancelWinbackPromoRedeemed
+    //     0xaad67c: bl              #0xaacf90  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::markCancelWinbackPromoRedeemed
     // 0xaad680: ldur            x0, [fp, #-0x10]
     // 0xaad684: r0 = handleProWelcomeAfterPurchase()
-    //     0xaad684: bl              #0xaad6f8  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::handleProWelcomeAfterPurchase
+    //     0xaad684: bl              #0xaad6f8  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::handleProWelcomeAfterPurchase
     // 0xaad688: ldur            x0, [fp, #-0x10]
     // 0xaad68c: LoadField: r1 = r0->field_f
     //     0xaad68c: ldur            w1, [x0, #0xf]
@@ -1228,7 +1228,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
     //     0xaad760: add             x0, x0, HEAP, lsl #32
     // 0xaad764: mov             x1, x0
     // 0xaad768: r0 = _resolveOffering()
-    //     0xaad768: bl              #0x902de8  ; [package:ballai/automatic/views/misc/subscription/ball_ai_pro_revenue_cat_paywall_view.dart] _BallAiProRevenueCatPaywallViewState::_resolveOffering
+    //     0xaad768: bl              #0x902de8  ; [package:kourtai/automatic/views/misc/subscription/kourt_ai_pro_revenue_cat_paywall_view.dart] _KourtAiProRevenueCatPaywallViewState::_resolveOffering
     // 0xaad76c: r0 = Null
     //     0xaad76c: mov             x0, NULL
     // 0xaad770: LeaveFrame
@@ -1244,7 +1244,7 @@ class _BallAiProRevenueCatPaywallViewState extends State<dynamic> {
 
 // class id: 3546, size: 0x20, field offset: 0xc
 //   const constructor, 
-class BallAiProRevenueCatPaywallView extends StatefulWidget {
+class KourtAiProRevenueCatPaywallView extends StatefulWidget {
 
   _ createState(/* No info */) {
     // ** addr: 0xb75cf8, size: 0x2c
@@ -1252,11 +1252,11 @@ class BallAiProRevenueCatPaywallView extends StatefulWidget {
     //     0xb75cf8: stp             fp, lr, [SP, #-0x10]!
     //     0xb75cfc: mov             fp, SP
     // 0xb75d00: mov             x0, x1
-    // 0xb75d04: r1 = <BallAiProRevenueCatPaywallView>
-    //     0xb75d04: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c2d0] TypeArguments: <BallAiProRevenueCatPaywallView>
+    // 0xb75d04: r1 = <KourtAiProRevenueCatPaywallView>
+    //     0xb75d04: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c2d0] TypeArguments: <KourtAiProRevenueCatPaywallView>
     //     0xb75d08: ldr             x1, [x1, #0x2d0]
-    // 0xb75d0c: r0 = _BallAiProRevenueCatPaywallViewState()
-    //     0xb75d0c: bl              #0xb75d24  ; Allocate_BallAiProRevenueCatPaywallViewStateStub -> _BallAiProRevenueCatPaywallViewState (size=0x1c)
+    // 0xb75d0c: r0 = _KourtAiProRevenueCatPaywallViewState()
+    //     0xb75d0c: bl              #0xb75d24  ; Allocate_KourtAiProRevenueCatPaywallViewStateStub -> _KourtAiProRevenueCatPaywallViewState (size=0x1c)
     // 0xb75d10: r1 = false
     //     0xb75d10: add             x1, NULL, #0x30  ; false
     // 0xb75d14: ArrayStore: r0[0] = r1  ; List_4
@@ -1299,11 +1299,11 @@ class _PaywallMessage extends StatelessWidget {
     // 0xc25f40: StoreField: r2->field_f = r0
     //     0xc25f40: stur            w0, [x2, #0xf]
     // 0xc25f44: ldur            x1, [fp, #-0x10]
-    // 0xc25f48: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xc25f48: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xc25f48: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xc25f48: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xc25f4c: ldur            x2, [fp, #-0x18]
     // 0xc25f50: r1 = Function '<anonymous closure>':.
-    //     0xc25f50: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b810] AnonymousClosure: (0xc25fa8), in [package:ballai/automatic/views/misc/subscription/ball_ai_pro_revenue_cat_paywall_view.dart] _PaywallMessage::build (0xc25f04)
+    //     0xc25f50: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b810] AnonymousClosure: (0xc25fa8), in [package:kourtai/automatic/views/misc/subscription/kourt_ai_pro_revenue_cat_paywall_view.dart] _PaywallMessage::build (0xc25f04)
     //     0xc25f54: ldr             x1, [x1, #0x810]
     // 0xc25f58: stur            x0, [fp, #-8]
     // 0xc25f5c: r0 = AllocateClosure()
@@ -1381,8 +1381,8 @@ class _PaywallMessage extends StatelessWidget {
     //     0xc2600c: add             x3, x3, HEAP, lsl #32
     // 0xc26010: ldr             x1, [fp, #0x18]
     // 0xc26014: stur            x3, [fp, #-0x10]
-    // 0xc26018: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc26018: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc26018: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc26018: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc2601c: stur            x0, [fp, #-0x20]
     // 0xc26020: r0 = TextStyle()
     //     0xc26020: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1456,8 +1456,8 @@ class _PaywallMessage extends StatelessWidget {
     // 0xc260cc: cmp             w3, NULL
     // 0xc260d0: b.eq            #0xc2616c
     // 0xc260d4: ldr             x1, [fp, #0x18]
-    // 0xc260d8: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc260d8: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc260d8: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc260d8: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc260dc: stur            x0, [fp, #-0x28]
     // 0xc260e0: r0 = TextStyle()
     //     0xc260e0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1540,7 +1540,7 @@ class _PaywallMessage extends StatelessWidget {
     //     0xc261a4: add             x1, PP, #0x16, lsl #12  ; [pp+0x16aa0] "Try again"
     //     0xc261a8: ldr             x1, [x1, #0xaa0]
     // 0xc261ac: r0 = L()
-    //     0xc261ac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc261ac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc261b0: stur            x0, [fp, #-0x30]
     // 0xc261b4: r0 = Text()
     //     0xc261b4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1632,7 +1632,7 @@ class _PaywallMessage extends StatelessWidget {
     //     0xc26290: add             x1, PP, #0x20, lsl #12  ; [pp+0x206c0] "Close"
     //     0xc26294: ldr             x1, [x1, #0x6c0]
     // 0xc26298: r0 = L()
-    //     0xc26298: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc26298: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc2629c: stur            x0, [fp, #-0x28]
     // 0xc262a0: r0 = Text()
     //     0xc262a0: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)

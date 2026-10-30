@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/analysis/coach/bally_breakdown_feedback_persistence.dart
+// lib: , url: package:kourtai/video_tracking/analysis/coach/bally_breakdown_feedback_persistence.dart
 
 // class id: 1049070, size: 0x8
 class :: {
@@ -82,7 +82,7 @@ abstract class BallyBreakdownFeedbackPersistence extends Object {
     //     0x6d27a0: stur            w0, [x2, #0xf]
     // 0x6d27a4: ldur            x1, [fp, #-0x88]
     // 0x6d27a8: r0 = feedbackCollection()
-    //     0x6d27a8: bl              #0x6d29ac  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_feedback_persistence.dart] BallyBreakdownFeedbackPersistence::feedbackCollection
+    //     0x6d27a8: bl              #0x6d29ac  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_feedback_persistence.dart] BallyBreakdownFeedbackPersistence::feedbackCollection
     // 0x6d27ac: mov             x1, x0
     // 0x6d27b0: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x6d27b0: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
@@ -91,7 +91,7 @@ abstract class BallyBreakdownFeedbackPersistence extends Object {
     // 0x6d27b8: ldur            x1, [fp, #-0x98]
     // 0x6d27bc: stur            x0, [fp, #-0x78]
     // 0x6d27c0: r0 = toMap()
-    //     0x6d27c0: bl              #0x6d287c  ; [package:ballai/automatic/models/core/stats/workouts/ai_feedback_entry.dart] AiFeedbackEntry::toMap
+    //     0x6d27c0: bl              #0x6d287c  ; [package:kourtai/automatic/models/core/stats/workouts/ai_feedback_entry.dart] AiFeedbackEntry::toMap
     // 0x6d27c4: ldur            x1, [fp, #-0x78]
     // 0x6d27c8: mov             x2, x0
     // 0x6d27cc: r4 = const [0, 0x2, 0, 0x2, null]
@@ -250,7 +250,7 @@ abstract class BallyBreakdownFeedbackPersistence extends Object {
     // 0x8f9c50: DecompressPointer r1
     //     0x8f9c50: add             x1, x1, HEAP, lsl #32
     // 0x8f9c54: r0 = fetchPrimaryEntries()
-    //     0x8f9c54: bl              #0x8f9e78  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_feedback_persistence.dart] BallyBreakdownFeedbackPersistence::fetchPrimaryEntries
+    //     0x8f9c54: bl              #0x8f9e78  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_feedback_persistence.dart] BallyBreakdownFeedbackPersistence::fetchPrimaryEntries
     // 0x8f9c58: mov             x1, x0
     // 0x8f9c5c: stur            x1, [fp, #-0x18]
     // 0x8f9c60: r0 = Await()
@@ -281,7 +281,7 @@ abstract class BallyBreakdownFeedbackPersistence extends Object {
     //     0x8f9ca8: add             x1, PP, #0x28, lsl #12  ; [pp+0x28690] List<AiFeedbackEntry>(0)
     //     0x8f9cac: ldr             x1, [x1, #0x690]
     // 0x8f9cb0: r0 = sorted()
-    //     0x8f9cb0: bl              #0x8f9cc0  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_feedback_persistence.dart] BallyBreakdownFeedbackPersistence::sorted
+    //     0x8f9cb0: bl              #0x8f9cc0  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_feedback_persistence.dart] BallyBreakdownFeedbackPersistence::sorted
     // 0x8f9cb4: r0 = ReturnAsyncNotFuture()
     //     0x8f9cb4: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x8f9cb8: r0 = StackOverflowSharedWithoutFPURegs()
@@ -309,7 +309,7 @@ abstract class BallyBreakdownFeedbackPersistence extends Object {
     // 0x8f9ce8: r0 = List.from()
     //     0x8f9ce8: bl              #0x5f9020  ; [dart:core] List::List.from
     // 0x8f9cec: r1 = Function '<anonymous closure>': static.
-    //     0x8f9cec: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e0b0] AnonymousClosure: static (0x8f9d28), in [package:ballai/video_tracking/analysis/coach/bally_breakdown_feedback_persistence.dart] BallyBreakdownFeedbackPersistence::sorted (0x8f9cc0)
+    //     0x8f9cec: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e0b0] AnonymousClosure: static (0x8f9d28), in [package:kourtai/video_tracking/analysis/coach/bally_breakdown_feedback_persistence.dart] BallyBreakdownFeedbackPersistence::sorted (0x8f9cc0)
     //     0x8f9cf0: ldr             x1, [x1, #0xb0]
     // 0x8f9cf4: r2 = Null
     //     0x8f9cf4: mov             x2, NULL
@@ -481,7 +481,7 @@ abstract class BallyBreakdownFeedbackPersistence extends Object {
     //     0x8f9eb8: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x8f9ebc: mov             x1, x0
     // 0x8f9ec0: r0 = feedbackCollection()
-    //     0x8f9ec0: bl              #0x6d29ac  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_feedback_persistence.dart] BallyBreakdownFeedbackPersistence::feedbackCollection
+    //     0x8f9ec0: bl              #0x6d29ac  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_feedback_persistence.dart] BallyBreakdownFeedbackPersistence::feedbackCollection
     // 0x8f9ec4: r16 = false
     //     0x8f9ec4: add             x16, NULL, #0x30  ; false
     // 0x8f9ec8: str             x16, [SP]
@@ -586,7 +586,7 @@ abstract class BallyBreakdownFeedbackPersistence extends Object {
     // 0x8f9fe0: b.eq            #0x8fa174
     // 0x8f9fe4: mov             x1, x0
     // 0x8f9fe8: r0 = fromMap()
-    //     0x8f9fe8: bl              #0x744174  ; [package:ballai/automatic/models/core/stats/workouts/ai_feedback_entry.dart] AiFeedbackEntry::fromMap
+    //     0x8f9fe8: bl              #0x744174  ; [package:kourtai/automatic/models/core/stats/workouts/ai_feedback_entry.dart] AiFeedbackEntry::fromMap
     // 0x8f9fec: stur            x0, [fp, #-0xa8]
     // 0x8f9ff0: cmp             w0, NULL
     // 0x8f9ff4: b.eq            #0x8fa078
@@ -645,7 +645,7 @@ abstract class BallyBreakdownFeedbackPersistence extends Object {
     //     0x8fa098: stur            NULL, [x0, #0x1f]
     // 0x8fa09c: mov             x1, x2
     // 0x8fa0a0: r0 = sorted()
-    //     0x8fa0a0: bl              #0x8f9cc0  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_feedback_persistence.dart] BallyBreakdownFeedbackPersistence::sorted
+    //     0x8fa0a0: bl              #0x8f9cc0  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_feedback_persistence.dart] BallyBreakdownFeedbackPersistence::sorted
     // 0x8fa0a4: r0 = ReturnAsyncNotFuture()
     //     0x8fa0a4: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x8fa0a8: sub             SP, fp, #0xb0

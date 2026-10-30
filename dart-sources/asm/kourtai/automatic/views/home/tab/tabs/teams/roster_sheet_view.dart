@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart
 
 // class id: 1048955, size: 0x8
 class :: {
@@ -72,7 +72,7 @@ class _RosterSheetViewState extends State<dynamic> {
     // 0x97bcd0: mov             x1, x2
     // 0x97bcd4: mov             x2, x0
     // 0x97bcd8: r0 = setRosterTeam()
-    //     0x97bcd8: bl              #0x97535c  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::setRosterTeam
+    //     0x97bcd8: bl              #0x97535c  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::setRosterTeam
     // 0x97bcdc: r0 = Null
     //     0x97bcdc: mov             x0, NULL
     // 0x97bce0: LeaveFrame
@@ -185,7 +185,7 @@ class _RosterSheetViewState extends State<dynamic> {
     // 0xa759e0: mov             x2, x1
     // 0xa759e4: ldur            x1, [fp, #-0x10]
     // 0xa759e8: r0 = canManageTeam()
-    //     0xa759e8: bl              #0x97d580  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::canManageTeam
+    //     0xa759e8: bl              #0x97d580  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::canManageTeam
     // 0xa759ec: mov             x3, x0
     // 0xa759f0: ldur            x2, [fp, #-8]
     // 0xa759f4: stur            x3, [fp, #-0x20]
@@ -211,7 +211,7 @@ class _RosterSheetViewState extends State<dynamic> {
     //     0xa75a30: bl              #0xe547fc  ; WriteBarrierWrappersStub
     // 0xa75a34: ldur            x1, [fp, #-0x10]
     // 0xa75a38: r0 = currentTeams()
-    //     0xa75a38: bl              #0x651818  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeams
+    //     0xa75a38: bl              #0x651818  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeams
     // 0xa75a3c: mov             x1, x0
     // 0xa75a40: stur            x1, [fp, #-0x40]
     // 0xa75a44: LoadField: r0 = r1->field_b
@@ -290,7 +290,7 @@ class _RosterSheetViewState extends State<dynamic> {
     //     0xa75b18: add             x2, x2, HEAP, lsl #32
     // 0xa75b1c: ldur            x1, [fp, #-0x10]
     // 0xa75b20: r0 = pendingInvitedUsers()
-    //     0xa75b20: bl              #0xa7671c  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::pendingInvitedUsers
+    //     0xa75b20: bl              #0xa7671c  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::pendingInvitedUsers
     // 0xa75b24: mov             x3, x0
     // 0xa75b28: ldur            x0, [fp, #-0x20]
     // 0xa75b2c: stur            x3, [fp, #-0x48]
@@ -326,7 +326,7 @@ class _RosterSheetViewState extends State<dynamic> {
     // 0xa75b80: tbnz            w6, #4, #0xa75bb8
     // 0xa75b84: mov             x2, x4
     // 0xa75b88: r1 = Function '_matches@1218270215':.
-    //     0xa75b88: add             x1, PP, #0x43, lsl #12  ; [pp+0x43aa0] AnonymousClosure: (0xa7700c), in [package:ballai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::_matches (0xa77048)
+    //     0xa75b88: add             x1, PP, #0x43, lsl #12  ; [pp+0x43aa0] AnonymousClosure: (0xa7700c), in [package:kourtai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::_matches (0xa77048)
     //     0xa75b8c: ldr             x1, [x1, #0xaa0]
     // 0xa75b90: r0 = AllocateClosure()
     //     0xa75b90: bl              #0xe553e0  ; AllocateClosureStub
@@ -345,10 +345,10 @@ class _RosterSheetViewState extends State<dynamic> {
     // 0xa75bb4: b               #0xa75bf4
     // 0xa75bb8: ldur            x1, [fp, #-0x10]
     // 0xa75bbc: r0 = rosterPlayers()
-    //     0xa75bbc: bl              #0x9752f8  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::rosterPlayers
+    //     0xa75bbc: bl              #0x9752f8  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::rosterPlayers
     // 0xa75bc0: ldur            x2, [fp, #-8]
     // 0xa75bc4: r1 = Function '_matches@1218270215':.
-    //     0xa75bc4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43aa0] AnonymousClosure: (0xa7700c), in [package:ballai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::_matches (0xa77048)
+    //     0xa75bc4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43aa0] AnonymousClosure: (0xa7700c), in [package:kourtai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::_matches (0xa77048)
     //     0xa75bc8: ldr             x1, [x1, #0xaa0]
     // 0xa75bcc: stur            x0, [fp, #-0x48]
     // 0xa75bd0: r0 = AllocateClosure()
@@ -369,7 +369,7 @@ class _RosterSheetViewState extends State<dynamic> {
     // 0xa75bf8: ldur            x2, [fp, #-0x18]
     // 0xa75bfc: stur            x3, [fp, #-0x48]
     // 0xa75c00: r1 = Function '<anonymous closure>':.
-    //     0xa75c00: add             x1, PP, #0x43, lsl #12  ; [pp+0x43aa8] AnonymousClosure: (0xa76f9c), in [package:ballai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::build (0xa758fc)
+    //     0xa75c00: add             x1, PP, #0x43, lsl #12  ; [pp+0x43aa8] AnonymousClosure: (0xa76f9c), in [package:kourtai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::build (0xa758fc)
     //     0xa75c04: ldr             x1, [x1, #0xaa8]
     // 0xa75c08: r0 = AllocateClosure()
     //     0xa75c08: bl              #0xe553e0  ; AllocateClosureStub
@@ -386,7 +386,7 @@ class _RosterSheetViewState extends State<dynamic> {
     //     0xa75c24: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0xa75c28: ldur            x2, [fp, #-0x18]
     // 0xa75c2c: r1 = Function '<anonymous closure>':.
-    //     0xa75c2c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43ab0] AnonymousClosure: (0xa76c88), in [package:ballai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::build (0xa758fc)
+    //     0xa75c2c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43ab0] AnonymousClosure: (0xa76c88), in [package:kourtai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::build (0xa758fc)
     //     0xa75c30: ldr             x1, [x1, #0xab0]
     // 0xa75c34: stur            x0, [fp, #-0x50]
     // 0xa75c38: r0 = AllocateClosure()
@@ -415,7 +415,7 @@ class _RosterSheetViewState extends State<dynamic> {
     // 0xa75c74: tbnz            w0, #4, #0xa75db4
     // 0xa75c78: ldur            x2, [fp, #-0x18]
     // 0xa75c7c: r1 = Function '<anonymous closure>':.
-    //     0xa75c7c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43ab8] AnonymousClosure: (0xa769e4), in [package:ballai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::build (0xa758fc)
+    //     0xa75c7c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43ab8] AnonymousClosure: (0xa769e4), in [package:kourtai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::build (0xa758fc)
     //     0xa75c80: ldr             x1, [x1, #0xab8]
     // 0xa75c84: r0 = AllocateClosure()
     //     0xa75c84: bl              #0xe553e0  ; AllocateClosureStub
@@ -543,7 +543,7 @@ class _RosterSheetViewState extends State<dynamic> {
     //     0xa75dcc: add             x1, PP, #0x43, lsl #12  ; [pp+0x43670] "Search by name or ball tag"
     //     0xa75dd0: ldr             x1, [x1, #0x670]
     // 0xa75dd4: r0 = L()
-    //     0xa75dd4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa75dd4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa75dd8: ldur            x2, [fp, #-0x18]
     // 0xa75ddc: stur            x0, [fp, #-0x68]
     // 0xa75de0: LoadField: r1 = r2->field_13
@@ -675,7 +675,7 @@ class _RosterSheetViewState extends State<dynamic> {
     //     0xa75f04: stur            w0, [x3, #0x67]
     // 0xa75f08: ldur            x2, [fp, #-0x18]
     // 0xa75f0c: r1 = Function '<anonymous closure>':.
-    //     0xa75f0c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43ac8] AnonymousClosure: (0xa76960), in [package:ballai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::build (0xa758fc)
+    //     0xa75f0c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43ac8] AnonymousClosure: (0xa76960), in [package:kourtai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::build (0xa758fc)
     //     0xa75f10: ldr             x1, [x1, #0xac8]
     // 0xa75f14: r0 = AllocateClosure()
     //     0xa75f14: bl              #0xe553e0  ; AllocateClosureStub
@@ -806,7 +806,7 @@ class _RosterSheetViewState extends State<dynamic> {
     //     0xa7605c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43ad0] "Invite players"
     //     0xa76060: ldr             x1, [x1, #0xad0]
     // 0xa76064: r0 = L()
-    //     0xa76064: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa76064: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa76068: stur            x0, [fp, #-0x20]
     // 0xa7606c: r0 = Text()
     //     0xa7606c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -829,7 +829,7 @@ class _RosterSheetViewState extends State<dynamic> {
     //     0xa7609c: bl              #0x657de4  ; [package:flutter/src/material/filled_button.dart] FilledButton::styleFrom
     // 0xa760a0: ldur            x2, [fp, #-0x18]
     // 0xa760a4: r1 = Function '<anonymous closure>':.
-    //     0xa760a4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43ae0] AnonymousClosure: (0xa7687c), in [package:ballai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::build (0xa758fc)
+    //     0xa760a4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43ae0] AnonymousClosure: (0xa7687c), in [package:kourtai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::build (0xa758fc)
     //     0xa760a8: ldr             x1, [x1, #0xae0]
     // 0xa760ac: stur            x0, [fp, #-0x20]
     // 0xa760b0: r0 = AllocateClosure()
@@ -943,7 +943,7 @@ class _RosterSheetViewState extends State<dynamic> {
     //     0xa761e8: add             x1, PP, #0x43, lsl #12  ; [pp+0x43af0] "No pending invites"
     //     0xa761ec: ldr             x1, [x1, #0xaf0]
     // 0xa761f0: r0 = L()
-    //     0xa761f0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa761f0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa761f4: b               #0xa7622c
     // 0xa761f8: ldur            x0, [fp, #-8]
     // 0xa761fc: LoadField: r1 = r0->field_1b
@@ -959,21 +959,21 @@ class _RosterSheetViewState extends State<dynamic> {
     //     0xa76210: add             x1, PP, #0x43, lsl #12  ; [pp+0x43af8] "No roster members yet."
     //     0xa76214: ldr             x1, [x1, #0xaf8]
     // 0xa76218: r0 = L()
-    //     0xa76218: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa76218: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7621c: b               #0xa7622c
     // 0xa76220: r1 = "No players match your search"
     //     0xa76220: add             x1, PP, #0x43, lsl #12  ; [pp+0x436a8] "No players match your search"
     //     0xa76224: ldr             x1, [x1, #0x6a8]
     // 0xa76228: r0 = L()
-    //     0xa76228: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa76228: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7622c: ldur            x2, [fp, #-0x18]
     // 0xa76230: stur            x0, [fp, #-8]
     // 0xa76234: LoadField: r1 = r2->field_13
     //     0xa76234: ldur            w1, [x2, #0x13]
     // 0xa76238: DecompressPointer r1
     //     0xa76238: add             x1, x1, HEAP, lsl #32
-    // 0xa7623c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa7623c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa7623c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa7623c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa76240: stur            x0, [fp, #-0x10]
     // 0xa76244: r0 = TextStyle()
     //     0xa76244: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1023,7 +1023,7 @@ class _RosterSheetViewState extends State<dynamic> {
     //     0xa762bc: add             x1, PP, #0x43, lsl #12  ; [pp+0x43b00] "Invited"
     //     0xa762c0: ldr             x1, [x1, #0xb00]
     // 0xa762c4: r0 = L()
-    //     0xa762c4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa762c4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa762c8: stur            x0, [fp, #-0x10]
     // 0xa762cc: r0 = _SectionHeader()
     //     0xa762cc: bl              #0xa76710  ; Allocate_SectionHeaderStub -> _SectionHeader (size=0x10)
@@ -1058,7 +1058,7 @@ class _RosterSheetViewState extends State<dynamic> {
     //     0xa76318: stur            w0, [x3, #0xb]
     // 0xa7631c: ldur            x2, [fp, #-0x18]
     // 0xa76320: r1 = Function '<anonymous closure>':.
-    //     0xa76320: add             x1, PP, #0x43, lsl #12  ; [pp+0x43b08] AnonymousClosure: (0xa76828), in [package:ballai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::build (0xa758fc)
+    //     0xa76320: add             x1, PP, #0x43, lsl #12  ; [pp+0x43b08] AnonymousClosure: (0xa76828), in [package:kourtai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::build (0xa758fc)
     //     0xa76324: ldr             x1, [x1, #0xb08]
     // 0xa76328: r0 = AllocateClosure()
     //     0xa76328: bl              #0xe553e0  ; AllocateClosureStub
@@ -1099,7 +1099,7 @@ class _RosterSheetViewState extends State<dynamic> {
     //     0xa76388: add             x1, PP, #0x43, lsl #12  ; [pp+0x43b10] "Coaches"
     //     0xa7638c: ldr             x1, [x1, #0xb10]
     // 0xa76390: r0 = L()
-    //     0xa76390: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa76390: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa76394: stur            x0, [fp, #-0x20]
     // 0xa76398: r0 = _SectionHeader()
     //     0xa76398: bl              #0xa76710  ; Allocate_SectionHeaderStub -> _SectionHeader (size=0x10)
@@ -1134,7 +1134,7 @@ class _RosterSheetViewState extends State<dynamic> {
     //     0xa763e4: stur            w0, [x3, #0xb]
     // 0xa763e8: ldur            x2, [fp, #-0x18]
     // 0xa763ec: r1 = Function '<anonymous closure>':.
-    //     0xa763ec: add             x1, PP, #0x43, lsl #12  ; [pp+0x43b18] AnonymousClosure: (0xa767c8), in [package:ballai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::build (0xa758fc)
+    //     0xa763ec: add             x1, PP, #0x43, lsl #12  ; [pp+0x43b18] AnonymousClosure: (0xa767c8), in [package:kourtai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::build (0xa758fc)
     //     0xa763f0: ldr             x1, [x1, #0xb18]
     // 0xa763f4: r0 = AllocateClosure()
     //     0xa763f4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1163,7 +1163,7 @@ class _RosterSheetViewState extends State<dynamic> {
     //     0xa76434: add             x1, PP, #0x43, lsl #12  ; [pp+0x43b20] "Players"
     //     0xa76438: ldr             x1, [x1, #0xb20]
     // 0xa7643c: r0 = L()
-    //     0xa7643c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7643c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa76440: stur            x0, [fp, #-0x20]
     // 0xa76444: r0 = _SectionHeader()
     //     0xa76444: bl              #0xa76710  ; Allocate_SectionHeaderStub -> _SectionHeader (size=0x10)
@@ -1198,7 +1198,7 @@ class _RosterSheetViewState extends State<dynamic> {
     //     0xa76490: stur            w0, [x3, #0xb]
     // 0xa76494: ldur            x2, [fp, #-0x18]
     // 0xa76498: r1 = Function '<anonymous closure>':.
-    //     0xa76498: add             x1, PP, #0x43, lsl #12  ; [pp+0x43b28] AnonymousClosure: (0xa767c8), in [package:ballai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::build (0xa758fc)
+    //     0xa76498: add             x1, PP, #0x43, lsl #12  ; [pp+0x43b28] AnonymousClosure: (0xa767c8), in [package:kourtai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::build (0xa758fc)
     //     0xa7649c: ldr             x1, [x1, #0xb28]
     // 0xa764a0: r0 = AllocateClosure()
     //     0xa764a0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1356,7 +1356,7 @@ class _RosterSheetViewState extends State<dynamic> {
     //     0xa7663c: add             x1, PP, #0x37, lsl #12  ; [pp+0x371f0] "Roster"
     //     0xa76640: ldr             x1, [x1, #0x1f0]
     // 0xa76644: r0 = L()
-    //     0xa76644: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa76644: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa76648: stur            x0, [fp, #-0x20]
     // 0xa7664c: r0 = Text()
     //     0xa7664c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1539,7 +1539,7 @@ class _RosterSheetViewState extends State<dynamic> {
     //     0xa768b0: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa768b4: ldur            x2, [fp, #-8]
     // 0xa768b8: r1 = Function '<anonymous closure>':.
-    //     0xa768b8: add             x1, PP, #0x43, lsl #12  ; [pp+0x43b30] AnonymousClosure: (0xa7691c), in [package:ballai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::build (0xa758fc)
+    //     0xa768b8: add             x1, PP, #0x43, lsl #12  ; [pp+0x43b30] AnonymousClosure: (0xa7691c), in [package:kourtai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::build (0xa758fc)
     //     0xa768bc: ldr             x1, [x1, #0xb30]
     // 0xa768c0: stur            x0, [fp, #-8]
     // 0xa768c4: r0 = AllocateClosure()
@@ -1642,7 +1642,7 @@ class _RosterSheetViewState extends State<dynamic> {
     // 0xa769ac: mov             x2, x1
     // 0xa769b0: stur            x3, [fp, #-0x10]
     // 0xa769b4: r1 = Function '<anonymous closure>':.
-    //     0xa769b4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43b38] AnonymousClosure: (0xa36cd4), in [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::build (0xab7290)
+    //     0xa769b4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43b38] AnonymousClosure: (0xa36cd4), in [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::build (0xab7290)
     //     0xa769b8: ldr             x1, [x1, #0xb38]
     // 0xa769bc: r0 = AllocateClosure()
     //     0xa769bc: bl              #0xe553e0  ; AllocateClosureStub
@@ -1749,7 +1749,7 @@ class _RosterSheetViewState extends State<dynamic> {
     //     0xa76ac8: stur            w0, [x3, #0x1b]
     // 0xa76acc: ldur            x2, [fp, #-0x18]
     // 0xa76ad0: r1 = Function '<anonymous closure>':.
-    //     0xa76ad0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43b40] AnonymousClosure: (0xa76b48), in [package:ballai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::build (0xa758fc)
+    //     0xa76ad0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43b40] AnonymousClosure: (0xa76b48), in [package:kourtai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::build (0xa758fc)
     //     0xa76ad4: ldr             x1, [x1, #0xb40]
     // 0xa76ad8: r0 = AllocateClosure()
     //     0xa76ad8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1823,7 +1823,7 @@ class _RosterSheetViewState extends State<dynamic> {
     //     0xa76b78: add             x3, x3, HEAP, lsl #32
     // 0xa76b7c: stur            x3, [fp, #-8]
     // 0xa76b80: r1 = Function '<anonymous closure>':.
-    //     0xa76b80: add             x1, PP, #0x43, lsl #12  ; [pp+0x43b48] AnonymousClosure: (0xa76bb0), in [package:ballai/video_tracking/views/drills/drill_library_view.dart] _DrillLibraryViewState::build (0xac1dac)
+    //     0xa76b80: add             x1, PP, #0x43, lsl #12  ; [pp+0x43b48] AnonymousClosure: (0xa76bb0), in [package:kourtai/video_tracking/views/drills/drill_library_view.dart] _DrillLibraryViewState::build (0xac1dac)
     //     0xa76b84: ldr             x1, [x1, #0xb48]
     // 0xa76b88: r0 = AllocateClosure()
     //     0xa76b88: bl              #0xe553e0  ; AllocateClosureStub
@@ -1877,10 +1877,10 @@ class _RosterSheetViewState extends State<dynamic> {
     // 0xa76cd0: mov             x3, x1
     // 0xa76cd4: mov             x1, x0
     // 0xa76cd8: r0 = roleFor()
-    //     0xa76cd8: bl              #0xa76d00  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::roleFor
+    //     0xa76cd8: bl              #0xa76d00  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::roleFor
     // 0xa76cdc: mov             x1, x0
     // 0xa76ce0: r0 = isCoachRole()
-    //     0xa76ce0: bl              #0x974be4  ; [package:ballai/automatic/models/core/team/team_model.dart] TeamModel::isCoachRole
+    //     0xa76ce0: bl              #0x974be4  ; [package:kourtai/automatic/models/core/team/team_model.dart] TeamModel::isCoachRole
     // 0xa76ce4: eor             x1, x0, #0x10
     // 0xa76ce8: mov             x0, x1
     // 0xa76cec: LeaveFrame
@@ -1927,10 +1927,10 @@ class _RosterSheetViewState extends State<dynamic> {
     // 0xa76fe4: mov             x3, x1
     // 0xa76fe8: mov             x1, x0
     // 0xa76fec: r0 = roleFor()
-    //     0xa76fec: bl              #0xa76d00  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::roleFor
+    //     0xa76fec: bl              #0xa76d00  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::roleFor
     // 0xa76ff0: mov             x1, x0
     // 0xa76ff4: r0 = isCoachRole()
-    //     0xa76ff4: bl              #0x974be4  ; [package:ballai/automatic/models/core/team/team_model.dart] TeamModel::isCoachRole
+    //     0xa76ff4: bl              #0x974be4  ; [package:kourtai/automatic/models/core/team/team_model.dart] TeamModel::isCoachRole
     // 0xa76ff8: LeaveFrame
     //     0xa76ff8: mov             SP, fp
     //     0xa76ffc: ldp             fp, lr, [SP], #0x10
@@ -1956,7 +1956,7 @@ class _RosterSheetViewState extends State<dynamic> {
     //     0xa77028: b.ls            #0xa77040
     // 0xa7702c: ldr             x2, [fp, #0x10]
     // 0xa77030: r0 = _matches()
-    //     0xa77030: bl              #0xa77048  ; [package:ballai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::_matches
+    //     0xa77030: bl              #0xa77048  ; [package:kourtai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::_matches
     // 0xa77034: LeaveFrame
     //     0xa77034: mov             SP, fp
     //     0xa77038: ldp             fp, lr, [SP], #0x10
@@ -2096,7 +2096,7 @@ class _RosterSheetViewState extends State<dynamic> {
     //     0xb5bb18: mov             fp, SP
     // 0xb5bb1c: ldr             x2, [fp, #0x10]
     // 0xb5bb20: r1 = Function 'dispose':.
-    //     0xb5bb20: add             x1, PP, #0x43, lsl #12  ; [pp+0x43a90] AnonymousClosure: (0xb5bb38), in [package:ballai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::dispose (0xb62d5c)
+    //     0xb5bb20: add             x1, PP, #0x43, lsl #12  ; [pp+0x43a90] AnonymousClosure: (0xb5bb38), in [package:kourtai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::dispose (0xb62d5c)
     //     0xb5bb24: ldr             x1, [x1, #0xa90]
     // 0xb5bb28: r0 = AllocateClosure()
     //     0xb5bb28: bl              #0xe553e0  ; AllocateClosureStub
@@ -2121,7 +2121,7 @@ class _RosterSheetViewState extends State<dynamic> {
     //     0xb5bb50: cmp             SP, x16
     //     0xb5bb54: b.ls            #0xb5bb68
     // 0xb5bb58: r0 = dispose()
-    //     0xb5bb58: bl              #0xb62d5c  ; [package:ballai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::dispose
+    //     0xb5bb58: bl              #0xb62d5c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::dispose
     // 0xb5bb5c: LeaveFrame
     //     0xb5bb5c: mov             SP, fp
     //     0xb5bb60: ldp             fp, lr, [SP], #0x10
@@ -2156,7 +2156,7 @@ class _RosterSheetViewState extends State<dynamic> {
     // 0xb62d90: r2 = Null
     //     0xb62d90: mov             x2, NULL
     // 0xb62d94: r0 = setRosterTeam()
-    //     0xb62d94: bl              #0x97535c  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::setRosterTeam
+    //     0xb62d94: bl              #0x97535c  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::setRosterTeam
     // 0xb62d98: ldur            x0, [fp, #-8]
     // 0xb62d9c: LoadField: r1 = r0->field_13
     //     0xb62d9c: ldur            w1, [x0, #0x13]
@@ -2262,7 +2262,7 @@ class RosterSheetView extends StatefulWidget {
     // 0xb74658: mov             x1, x0
     // 0xb7465c: stur            x0, [fp, #-8]
     // 0xb74660: r0 = _RosterSheetViewState()
-    //     0xb74660: bl              #0xb7467c  ; [package:ballai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::_RosterSheetViewState
+    //     0xb74660: bl              #0xb7467c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterSheetViewState::_RosterSheetViewState
     // 0xb74664: ldur            x0, [fp, #-8]
     // 0xb74668: LeaveFrame
     //     0xb74668: mov             SP, fp
@@ -2343,10 +2343,10 @@ class _RosterRow extends StatelessWidget {
     // 0xc013e4: mov             x2, x3
     // 0xc013e8: mov             x3, x16
     // 0xc013ec: r0 = roleFor()
-    //     0xc013ec: bl              #0xa76d00  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::roleFor
+    //     0xc013ec: bl              #0xa76d00  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::roleFor
     // 0xc013f0: mov             x1, x0
     // 0xc013f4: r0 = isCoachRole()
-    //     0xc013f4: bl              #0x974be4  ; [package:ballai/automatic/models/core/team/team_model.dart] TeamModel::isCoachRole
+    //     0xc013f4: bl              #0x974be4  ; [package:kourtai/automatic/models/core/team/team_model.dart] TeamModel::isCoachRole
     // 0xc013f8: tbnz            w0, #4, #0xc01408
     // 0xc013fc: r0 = "Coach"
     //     0xc013fc: add             x0, PP, #0x1a, lsl #12  ; [pp+0x1a5d0] "Coach"
@@ -2359,8 +2359,8 @@ class _RosterRow extends StatelessWidget {
     // 0xc01414: ldur            x0, [fp, #-8]
     // 0xc01418: ldur            x1, [fp, #-0x10]
     // 0xc0141c: stur            x2, [fp, #-0x28]
-    // 0xc01420: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xc01420: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xc01420: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xc01420: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xc01424: stur            x0, [fp, #-0x10]
     // 0xc01428: r0 = Radius()
     //     0xc01428: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -2838,7 +2838,7 @@ class _RosterRow extends StatelessWidget {
     //     0xc018fc: stur            w0, [x3, #0xb]
     // 0xc01900: ldur            x2, [fp, #-0x18]
     // 0xc01904: r1 = Function '<anonymous closure>':.
-    //     0xc01904: add             x1, PP, #0x49, lsl #12  ; [pp+0x493f0] AnonymousClosure: (0xc019e0), in [package:ballai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterRow::build (0xc01348)
+    //     0xc01904: add             x1, PP, #0x49, lsl #12  ; [pp+0x493f0] AnonymousClosure: (0xc019e0), in [package:kourtai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterRow::build (0xc01348)
     //     0xc01908: ldr             x1, [x1, #0x3f0]
     // 0xc0190c: r0 = AllocateClosure()
     //     0xc0190c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2957,7 +2957,7 @@ class _RosterRow extends StatelessWidget {
     //     0xc01a14: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xc01a18: ldur            x2, [fp, #-8]
     // 0xc01a1c: r1 = Function '<anonymous closure>':.
-    //     0xc01a1c: add             x1, PP, #0x49, lsl #12  ; [pp+0x493f8] AnonymousClosure: (0xc01a80), in [package:ballai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterRow::build (0xc01348)
+    //     0xc01a1c: add             x1, PP, #0x49, lsl #12  ; [pp+0x493f8] AnonymousClosure: (0xc01a80), in [package:kourtai/automatic/views/home/tab/tabs/teams/roster_sheet_view.dart] _RosterRow::build (0xc01348)
     //     0xc01a20: ldr             x1, [x1, #0x3f8]
     // 0xc01a24: stur            x0, [fp, #-8]
     // 0xc01a28: r0 = AllocateClosure()
@@ -3055,8 +3055,8 @@ class _SectionHeader extends StatelessWidget {
     // 0xc012bc: DecompressPointer r2
     //     0xc012bc: add             x2, x2, HEAP, lsl #32
     // 0xc012c0: stur            x2, [fp, #-8]
-    // 0xc012c4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc012c4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc012c4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc012c4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc012c8: stur            x0, [fp, #-0x10]
     // 0xc012cc: r0 = TextStyle()
     //     0xc012cc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)

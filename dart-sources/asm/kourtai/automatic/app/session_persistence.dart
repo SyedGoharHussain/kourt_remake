@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/session_persistence.dart
+// lib: , url: package:kourtai/automatic/app/session_persistence.dart
 
 // class id: 1048665, size: 0x8
 class :: {
@@ -33,8 +33,8 @@ abstract class SessionPersistence extends Object {
     //     0x93e968: bl              #0x60ad4c  ; AwaitStub
     // 0x93e96c: mov             x1, x0
     // 0x93e970: ldur            x3, [fp, #-0x10]
-    // 0x93e974: r2 = "ballai_last_authenticated_uid"
-    //     0x93e974: add             x2, PP, #0x12, lsl #12  ; [pp+0x12d18] "ballai_last_authenticated_uid"
+    // 0x93e974: r2 = "kourtai_last_authenticated_uid"
+    //     0x93e974: add             x2, PP, #0x12, lsl #12  ; [pp+0x12d18] "kourtai_last_authenticated_uid"
     //     0x93e978: ldr             x2, [x2, #0xd18]
     // 0x93e97c: r0 = setString()
     //     0x93e97c: bl              #0x74a098  ; [package:shared_preferences/src/shared_preferences_legacy.dart] SharedPreferences::setString
@@ -73,8 +73,8 @@ abstract class SessionPersistence extends Object {
     // 0x9cc3d4: r0 = Await()
     //     0x9cc3d4: bl              #0x60ad4c  ; AwaitStub
     // 0x9cc3d8: mov             x1, x0
-    // 0x9cc3dc: r2 = "ballai_last_authenticated_uid"
-    //     0x9cc3dc: add             x2, PP, #0x12, lsl #12  ; [pp+0x12d18] "ballai_last_authenticated_uid"
+    // 0x9cc3dc: r2 = "kourtai_last_authenticated_uid"
+    //     0x9cc3dc: add             x2, PP, #0x12, lsl #12  ; [pp+0x12d18] "kourtai_last_authenticated_uid"
     //     0x9cc3e0: ldr             x2, [x2, #0xd18]
     // 0x9cc3e4: r0 = remove()
     //     0x9cc3e4: bl              #0x6572f8  ; [package:shared_preferences/src/shared_preferences_legacy.dart] SharedPreferences::remove

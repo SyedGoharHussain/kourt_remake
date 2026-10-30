@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart
 
 // class id: 1048640, size: 0x8
 class :: {
@@ -35,10 +35,10 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     //     0x9631b4: stur            w2, [x0, #0x4b]
     // 0x9631b8: mov             x1, x0
     // 0x9631bc: r0 = _resetProgress()
-    //     0x9631bc: bl              #0x963ec8  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_resetProgress
+    //     0x9631bc: bl              #0x963ec8  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_resetProgress
     // 0x9631c0: ldur            x1, [fp, #-8]
     // 0x9631c4: r0 = stopListening()
-    //     0x9631c4: bl              #0x963e58  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::stopListening
+    //     0x9631c4: bl              #0x963e58  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::stopListening
     // 0x9631c8: ldur            x1, [fp, #-8]
     // 0x9631cc: r0 = notifyListeners()
     //     0x9631cc: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -51,7 +51,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     //     0x9631dc: ret             
     // 0x9631e0: ldur            x1, [fp, #-8]
     // 0x9631e4: r0 = _attachExportListener()
-    //     0x9631e4: bl              #0x963200  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_attachExportListener
+    //     0x9631e4: bl              #0x963200  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_attachExportListener
     // 0x9631e8: r0 = Null
     //     0x9631e8: mov             x0, NULL
     // 0x9631ec: LeaveFrame
@@ -114,10 +114,10 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     //     0x963274: stur            w1, [x0, #0x4b]
     // 0x963278: mov             x1, x0
     // 0x96327c: r0 = _resetProgress()
-    //     0x96327c: bl              #0x963ec8  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_resetProgress
+    //     0x96327c: bl              #0x963ec8  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_resetProgress
     // 0x963280: ldur            x2, [fp, #-0x10]
     // 0x963284: r1 = Function '<anonymous closure>':.
-    //     0x963284: add             x1, PP, #0x44, lsl #12  ; [pp+0x44810] AnonymousClosure: (0x963dc8), in [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_attachExportListener (0x963200)
+    //     0x963284: add             x1, PP, #0x44, lsl #12  ; [pp+0x44810] AnonymousClosure: (0x963dc8), in [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_attachExportListener (0x963200)
     //     0x963288: ldr             x1, [x1, #0x810]
     // 0x96328c: r0 = AllocateClosure()
     //     0x96328c: bl              #0xe553e0  ; AllocateClosureStub
@@ -140,11 +140,11 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     //     0x9632c0: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x9632c4: mov             x1, x2
     // 0x9632c8: r0 = _exportsCollection()
-    //     0x9632c8: bl              #0x9633e4  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_exportsCollection
+    //     0x9632c8: bl              #0x9633e4  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_exportsCollection
     // 0x9632cc: ldur            x1, [fp, #-8]
     // 0x9632d0: stur            x0, [fp, #-0x18]
     // 0x9632d4: r0 = _exportDocId()
-    //     0x9632d4: bl              #0x963368  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_exportDocId
+    //     0x9632d4: bl              #0x963368  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_exportDocId
     // 0x9632d8: str             x0, [SP]
     // 0x9632dc: ldur            x1, [fp, #-0x18]
     // 0x9632e0: r4 = const [0, 0x2, 0x1, 0x2, null]
@@ -156,14 +156,14 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     //     0x9632ec: bl              #0x5f43f0  ; [package:cloud_firestore/cloud_firestore.dart] _JsonDocumentReference::snapshots
     // 0x9632f0: ldur            x2, [fp, #-0x10]
     // 0x9632f4: r1 = Function '<anonymous closure>':.
-    //     0x9632f4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44820] AnonymousClosure: (0x963530), in [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_attachExportListener (0x963200)
+    //     0x9632f4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44820] AnonymousClosure: (0x963530), in [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_attachExportListener (0x963200)
     //     0x9632f8: ldr             x1, [x1, #0x820]
     // 0x9632fc: stur            x0, [fp, #-0x18]
     // 0x963300: r0 = AllocateClosure()
     //     0x963300: bl              #0xe553e0  ; AllocateClosureStub
     // 0x963304: ldur            x2, [fp, #-0x10]
     // 0x963308: r1 = Function '<anonymous closure>':.
-    //     0x963308: add             x1, PP, #0x44, lsl #12  ; [pp+0x44828] AnonymousClosure: (0x96346c), in [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_attachExportListener (0x963200)
+    //     0x963308: add             x1, PP, #0x44, lsl #12  ; [pp+0x44828] AnonymousClosure: (0x96346c), in [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_attachExportListener (0x963200)
     //     0x96330c: ldr             x1, [x1, #0x828]
     // 0x963310: stur            x0, [fp, #-0x10]
     // 0x963314: r0 = AllocateClosure()
@@ -364,7 +364,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     // 0x963500: StoreField: r1->field_63 = rNULL
     //     0x963500: stur            NULL, [x1, #0x63]
     // 0x963504: r0 = _resetProgress()
-    //     0x963504: bl              #0x963ec8  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_resetProgress
+    //     0x963504: bl              #0x963ec8  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_resetProgress
     // 0x963508: ldur            x0, [fp, #-8]
     // 0x96350c: LoadField: r1 = r0->field_f
     //     0x96350c: ldur            w1, [x0, #0xf]
@@ -455,7 +455,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     //     0x9635e4: stur            NULL, [x2, #0x63]
     // 0x9635e8: mov             x1, x2
     // 0x9635ec: r0 = _resetProgress()
-    //     0x9635ec: bl              #0x963ec8  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_resetProgress
+    //     0x9635ec: bl              #0x963ec8  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_resetProgress
     // 0x9635f0: ldur            x0, [fp, #-8]
     // 0x9635f4: LoadField: r1 = r0->field_f
     //     0x9635f4: ldur            w1, [x0, #0xf]
@@ -489,7 +489,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     // 0x963640: ldur            x1, [fp, #-0x10]
     // 0x963644: mov             x2, x0
     // 0x963648: r0 = _applyExportSnapshot()
-    //     0x963648: bl              #0x963668  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_applyExportSnapshot
+    //     0x963648: bl              #0x963668  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_applyExportSnapshot
     // 0x96364c: r0 = Null
     //     0x96364c: mov             x0, NULL
     // 0x963650: LeaveFrame
@@ -577,7 +577,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     //     0x963724: stur            NULL, [x0, #0x63]
     // 0x963728: mov             x1, x0
     // 0x96372c: r0 = _stopProgressTimer()
-    //     0x96372c: bl              #0x963d6c  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_stopProgressTimer
+    //     0x96372c: bl              #0x963d6c  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_stopProgressTimer
     // 0x963730: ldur            x1, [fp, #-8]
     // 0x963734: d0 = 1.000000
     //     0x963734: fmov            d0, #1.00000000
@@ -611,7 +611,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     //     0x963784: stur            w1, [x0, #0x27]
     // 0x963788: ldur            x1, [fp, #-0x10]
     // 0x96378c: r0 = _parseProgress()
-    //     0x96378c: bl              #0x963c98  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_parseProgress
+    //     0x96378c: bl              #0x963c98  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_parseProgress
     // 0x963790: ldur            x0, [fp, #-8]
     // 0x963794: StoreField: r0->field_5b = d0
     //     0x963794: stur            d0, [x0, #0x5b]
@@ -646,7 +646,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     // 0x9637e8: r1 = Null
     //     0x9637e8: mov             x1, NULL
     // 0x9637ec: r0 = _readTimestamp()
-    //     0x9637ec: bl              #0x963c40  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_readTimestamp
+    //     0x9637ec: bl              #0x963c40  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_readTimestamp
     // 0x9637f0: cmp             w0, NULL
     // 0x9637f4: b.ne            #0x96382c
     // 0x9637f8: ldur            x0, [fp, #-0x10]
@@ -667,7 +667,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     // 0x963824: r1 = Null
     //     0x963824: mov             x1, NULL
     // 0x963828: r0 = _readTimestamp()
-    //     0x963828: bl              #0x963c40  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_readTimestamp
+    //     0x963828: bl              #0x963c40  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_readTimestamp
     // 0x96382c: ldur            x2, [fp, #-8]
     // 0x963830: StoreField: r2->field_63 = r0
     //     0x963830: stur            w0, [x2, #0x63]
@@ -681,7 +681,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     // 0x963850: mov             x2, x0
     // 0x963854: mov             x1, x2
     // 0x963858: r0 = _startProgressTimerIfNeeded()
-    //     0x963858: bl              #0x9638d4  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_startProgressTimerIfNeeded
+    //     0x963858: bl              #0x9638d4  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_startProgressTimerIfNeeded
     // 0x96385c: b               #0x9638b4
     // 0x963860: r16 = "failed"
     //     0x963860: add             x16, PP, #0x28, lsl #12  ; [pp+0x28d90] "failed"
@@ -701,7 +701,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     //     0x963888: stur            NULL, [x0, #0x63]
     // 0x96388c: mov             x1, x0
     // 0x963890: r0 = _resetProgress()
-    //     0x963890: bl              #0x963ec8  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_resetProgress
+    //     0x963890: bl              #0x963ec8  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_resetProgress
     // 0x963894: b               #0x9638b4
     // 0x963898: ldur            x0, [fp, #-8]
     // 0x96389c: r1 = Instance_WorkoutOverlayExportState
@@ -713,7 +713,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     //     0x9638a8: stur            NULL, [x0, #0x63]
     // 0x9638ac: mov             x1, x0
     // 0x9638b0: r0 = _resetProgress()
-    //     0x9638b0: bl              #0x963ec8  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_resetProgress
+    //     0x9638b0: bl              #0x963ec8  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_resetProgress
     // 0x9638b4: ldur            x1, [fp, #-8]
     // 0x9638b8: r0 = notifyListeners()
     //     0x9638b8: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -757,7 +757,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     // 0x963910: b.ne            #0x963958
     // 0x963914: mov             x2, x1
     // 0x963918: r1 = Function '<anonymous closure>':.
-    //     0x963918: add             x1, PP, #0x44, lsl #12  ; [pp+0x447a0] AnonymousClosure: (0x963970), in [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_startProgressTimerIfNeeded (0x9638d4)
+    //     0x963918: add             x1, PP, #0x44, lsl #12  ; [pp+0x447a0] AnonymousClosure: (0x963970), in [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_startProgressTimerIfNeeded (0x9638d4)
     //     0x96391c: ldr             x1, [x1, #0x7a0]
     // 0x963920: r0 = AllocateClosure()
     //     0x963920: bl              #0xe553e0  ; AllocateClosureStub
@@ -824,7 +824,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     // 0x9639c0: cmp             w0, w16
     // 0x9639c4: b.eq            #0x9639dc
     // 0x9639c8: r0 = _stopProgressTimer()
-    //     0x9639c8: bl              #0x963d6c  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_stopProgressTimer
+    //     0x9639c8: bl              #0x963d6c  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_stopProgressTimer
     // 0x9639cc: r0 = Null
     //     0x9639cc: mov             x0, NULL
     // 0x9639d0: LeaveFrame
@@ -833,7 +833,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     // 0x9639d8: ret
     //     0x9639d8: ret             
     // 0x9639dc: r0 = _displayProgressTarget()
-    //     0x9639dc: bl              #0x963adc  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_displayProgressTarget
+    //     0x9639dc: bl              #0x963adc  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_displayProgressTarget
     // 0x9639e0: ldur            x0, [fp, #-8]
     // 0x9639e4: LoadField: r4 = r0->field_f
     //     0x9639e4: ldur            w4, [x0, #0xf]
@@ -1263,7 +1263,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     // 0x963e28: StoreField: r1->field_63 = rNULL
     //     0x963e28: stur            NULL, [x1, #0x63]
     // 0x963e2c: r0 = _resetProgress()
-    //     0x963e2c: bl              #0x963ec8  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_resetProgress
+    //     0x963e2c: bl              #0x963ec8  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_resetProgress
     // 0x963e30: ldur            x0, [fp, #-8]
     // 0x963e34: LoadField: r1 = r0->field_f
     //     0x963e34: ldur            w1, [x0, #0xf]
@@ -1317,7 +1317,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     //     0x963ea4: bl              #0x5ce814  ; [dart:isolate] _Timer::cancel
     // 0x963ea8: ldur            x1, [fp, #-8]
     // 0x963eac: r0 = _stopProgressTimer()
-    //     0x963eac: bl              #0x963d6c  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_stopProgressTimer
+    //     0x963eac: bl              #0x963d6c  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_stopProgressTimer
     // 0x963eb0: r0 = Null
     //     0x963eb0: mov             x0, NULL
     // 0x963eb4: LeaveFrame
@@ -1345,7 +1345,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     //     0x963ee4: b.ls            #0x963f0c
     // 0x963ee8: mov             x1, x0
     // 0x963eec: r0 = _stopProgressTimer()
-    //     0x963eec: bl              #0x963d6c  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_stopProgressTimer
+    //     0x963eec: bl              #0x963d6c  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_stopProgressTimer
     // 0x963ef0: ldur            x1, [fp, #-8]
     // 0x963ef4: StoreField: r1->field_5b = rZR
     //     0x963ef4: stur            xzr, [x1, #0x5b]
@@ -1453,10 +1453,10 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     //     0x964008: stur            NULL, [x2, #0x63]
     // 0x96400c: mov             x1, x2
     // 0x964010: r0 = _resetProgress()
-    //     0x964010: bl              #0x963ec8  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_resetProgress
+    //     0x964010: bl              #0x963ec8  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_resetProgress
     // 0x964014: ldur            x1, [fp, #-8]
     // 0x964018: r0 = _attachExportListener()
-    //     0x964018: bl              #0x963200  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_attachExportListener
+    //     0x964018: bl              #0x963200  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_attachExportListener
     // 0x96401c: r0 = Null
     //     0x96401c: mov             x0, NULL
     // 0x964020: LeaveFrame
@@ -1600,7 +1600,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     // 0x964714: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x964714: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x964718: r0 = requestOverlayVideoExport()
-    //     0x964718: bl              #0x96473c  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::requestOverlayVideoExport
+    //     0x964718: bl              #0x96473c  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::requestOverlayVideoExport
     // 0x96471c: ldur            x1, [fp, #-8]
     // 0x964720: r0 = notifyListeners()
     //     0x964720: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -1666,7 +1666,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     // 0x9647c8: mov             x1, x2
     // 0x9647cc: stur            x2, [fp, #-0xa8]
     // 0x9647d0: r0 = isLive()
-    //     0x9647d0: bl              #0x8ec3f8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isLive
+    //     0x9647d0: bl              #0x8ec3f8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isLive
     // 0x9647d4: tbnz            w0, #4, #0x9647e8
     // 0x9647d8: ldur            x1, [fp, #-0x98]
     // 0x9647dc: r0 = notifyListeners()
@@ -1707,7 +1707,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     //     0x964830: stur            xzr, [x2, #0x2b]
     // 0x964834: mov             x1, x2
     // 0x964838: r0 = _startProgressTimerIfNeeded()
-    //     0x964838: bl              #0x9638d4  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_startProgressTimerIfNeeded
+    //     0x964838: bl              #0x9638d4  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_startProgressTimerIfNeeded
     // 0x96483c: ldur            x1, [fp, #-0x98]
     // 0x964840: r0 = notifyListeners()
     //     0x964840: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -1728,7 +1728,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     // 0x96486c: mov             x5, x6
     // 0x964870: stur            x6, [fp, #-0xb0]
     // 0x964874: r0 = requestWorkoutOverlayExport()
-    //     0x964874: bl              #0x964934  ; [package:ballai/automatic/lib/firebase/functions/root/firebase_functions.dart] BallAiFirebaseFunctions::requestWorkoutOverlayExport
+    //     0x964874: bl              #0x964934  ; [package:kourtai/automatic/lib/firebase/functions/root/firebase_functions.dart] KourtAiFirebaseFunctions::requestWorkoutOverlayExport
     // 0x964878: mov             x1, x0
     // 0x96487c: stur            x1, [fp, #-0xa8]
     // 0x964880: r0 = Await()
@@ -1964,7 +1964,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     // 0x968734: b               #0x9686a4
     // 0x968738: ldur            x1, [fp, #-0x10]
     // 0x96873c: r0 = _downloadFinishedExport()
-    //     0x96873c: bl              #0x96876c  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_downloadFinishedExport
+    //     0x96873c: bl              #0x96876c  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_downloadFinishedExport
     // 0x968740: mov             x1, x0
     // 0x968744: stur            x1, [fp, #-0x10]
     // 0x968748: r0 = Await()
@@ -2020,11 +2020,11 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     //     0x9687b8: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
     // 0x9687bc: ldur            x1, [fp, #-0x98]
     // 0x9687c0: r0 = _exportsCollection()
-    //     0x9687c0: bl              #0x9633e4  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_exportsCollection
+    //     0x9687c0: bl              #0x9633e4  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_exportsCollection
     // 0x9687c4: ldur            x1, [fp, #-0x98]
     // 0x9687c8: stur            x0, [fp, #-0xa0]
     // 0x9687cc: r0 = _exportDocId()
-    //     0x9687cc: bl              #0x963368  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_exportDocId
+    //     0x9687cc: bl              #0x963368  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_exportDocId
     // 0x9687d0: str             x0, [SP]
     // 0x9687d4: ldur            x1, [fp, #-0xa0]
     // 0x9687d8: r4 = const [0, 0x2, 0x1, 0x2, null]
@@ -2485,7 +2485,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     //     0x9b55cc: mov             fp, SP
     // 0x9b55d0: ldr             x2, [fp, #0x10]
     // 0x9b55d4: r1 = Function 'dispose':.
-    //     0x9b55d4: add             x1, PP, #0x4b, lsl #12  ; [pp+0x4bd20] AnonymousClosure: (0x9b55ec), in [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::dispose (0x9ba8dc)
+    //     0x9b55d4: add             x1, PP, #0x4b, lsl #12  ; [pp+0x4bd20] AnonymousClosure: (0x9b55ec), in [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::dispose (0x9ba8dc)
     //     0x9b55d8: ldr             x1, [x1, #0xd20]
     // 0x9b55dc: r0 = AllocateClosure()
     //     0x9b55dc: bl              #0xe553e0  ; AllocateClosureStub
@@ -2510,7 +2510,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     //     0x9b5604: cmp             SP, x16
     //     0x9b5608: b.ls            #0x9b561c
     // 0x9b560c: r0 = dispose()
-    //     0x9b560c: bl              #0x9ba8dc  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::dispose
+    //     0x9b560c: bl              #0x9ba8dc  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::dispose
     // 0x9b5610: LeaveFrame
     //     0x9b5610: mov             SP, fp
     //     0x9b5614: ldp             fp, lr, [SP], #0x10
@@ -2536,7 +2536,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     //     0x9ba8f8: b.ls            #0x9ba91c
     // 0x9ba8fc: mov             x1, x0
     // 0x9ba900: r0 = stopListening()
-    //     0x9ba900: bl              #0x963e58  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::stopListening
+    //     0x9ba900: bl              #0x963e58  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::stopListening
     // 0x9ba904: ldur            x1, [fp, #-8]
     // 0x9ba908: r0 = dispose()
     //     0x9ba908: bl              #0xb7893c  ; [package:flutter/src/widgets/shortcuts.dart] _ShortcutManager&Object&Diagnosticable&ChangeNotifier::dispose
@@ -2738,7 +2738,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     //     0xa468a0: add             x4, PP, #0x29, lsl #12  ; [pp+0x29348] List(7) [0, 0x3, 0x1, 0x2, "force", 0x2, Null]
     //     0xa468a4: ldr             x4, [x4, #0x348]
     // 0xa468a8: r0 = requestOverlayVideoExport()
-    //     0xa468a8: bl              #0x96473c  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::requestOverlayVideoExport
+    //     0xa468a8: bl              #0x96473c  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::requestOverlayVideoExport
     // 0xa468ac: LeaveFrame
     //     0xa468ac: mov             SP, fp
     //     0xa468b0: ldp             fp, lr, [SP], #0x10
@@ -2767,7 +2767,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     //     0xa46944: bl              #0x60afc8  ; InitAsyncStub
     // 0xa46948: ldur            x1, [fp, #-0x10]
     // 0xa4694c: r0 = _downloadFinishedExport()
-    //     0xa4694c: bl              #0x96876c  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_downloadFinishedExport
+    //     0xa4694c: bl              #0x96876c  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::_downloadFinishedExport
     // 0xa46950: mov             x1, x0
     // 0xa46954: stur            x1, [fp, #-0x10]
     // 0xa46958: r0 = Await()
@@ -2795,7 +2795,7 @@ class WorkoutOverlayExportHandler extends ChangeNotifier {
     //     0xa46984: cmp             SP, x16
     //     0xa46988: b.ls            #0xa4699c
     // 0xa4698c: r0 = dismissExportOverlay()
-    //     0xa4698c: bl              #0xa469a4  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::dismissExportOverlay
+    //     0xa4698c: bl              #0xa469a4  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::dismissExportOverlay
     // 0xa46990: LeaveFrame
     //     0xa46990: mov             SP, fp
     //     0xa46994: ldp             fp, lr, [SP], #0x10

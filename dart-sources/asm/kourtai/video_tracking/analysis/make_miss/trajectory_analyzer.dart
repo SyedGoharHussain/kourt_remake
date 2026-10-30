@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart
+// lib: , url: package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart
 
 // class id: 1049108, size: 0x8
 class :: {
@@ -76,7 +76,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x718490: ldur            d1, [x2, #0xf]
     // 0x718494: fcmp            d1, d0
     // 0x718498: b.le            #0x7184e4
-    // 0x71849c: r0 = InitLateStaticField(0x107c) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
+    // 0x71849c: r0 = InitLateStaticField(0x107c) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
     //     0x71849c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x7184a0: ldr             x0, [x0, #0x20f8]
     //     0x7184a4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -104,9 +104,9 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x7184f0: ldur            x1, [fp, #-0x10]
     // 0x7184f4: ldur            x2, [fp, #-0x20]
     // 0x7184f8: r0 = _recordRimAreaSample()
-    //     0x7184f8: bl              #0x76e688  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_recordRimAreaSample
+    //     0x7184f8: bl              #0x76e688  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_recordRimAreaSample
     // 0x7184fc: r1 = Function '<anonymous closure>': static.
-    //     0x7184fc: add             x1, PP, #0x31, lsl #12  ; [pp+0x31d90] AnonymousClosure: (0x76e960), in [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
+    //     0x7184fc: add             x1, PP, #0x31, lsl #12  ; [pp+0x31d90] AnonymousClosure: (0x76e960), in [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
     //     0x718500: ldr             x1, [x1, #0xd90]
     // 0x718504: r2 = Null
     //     0x718504: mov             x2, NULL
@@ -126,7 +126,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x718528: LoadField: r1 = r0->field_b
     //     0x718528: ldur            w1, [x0, #0xb]
     // 0x71852c: cbz             w1, #0x718550
-    // 0x718530: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x718530: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x718530: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x718534: ldr             x0, [x0, #0x20e0]
     //     0x718538: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -142,7 +142,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x718558: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x71855c: cmp             SP, x16
     //     0x718560: b.ls            #0x718948
-    // 0x718564: r0 = InitLateStaticField(0x1080) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
+    // 0x718564: r0 = InitLateStaticField(0x1080) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
     //     0x718564: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x718568: ldr             x0, [x0, #0x2100]
     //     0x71856c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -237,11 +237,11 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x71866c: mov             x1, x0
     // 0x718670: stur            x0, [fp, #-0x40]
     // 0x718674: r0 = isBall()
-    //     0x718674: bl              #0x76e524  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::isBall
+    //     0x718674: bl              #0x76e524  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::isBall
     // 0x718678: tbnz            w0, #4, #0x7186d8
     // 0x71867c: ldur            x0, [fp, #-0x40]
     // 0x718680: r1 = Function '<anonymous closure>': static.
-    //     0x718680: add             x1, PP, #0x31, lsl #12  ; [pp+0x31d98] AnonymousClosure: static (0x76e914), in [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::processFrame (0x718434)
+    //     0x718680: add             x1, PP, #0x31, lsl #12  ; [pp+0x31d98] AnonymousClosure: static (0x76e914), in [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::processFrame (0x718434)
     //     0x718684: ldr             x1, [x1, #0xd98]
     // 0x718688: r2 = Null
     //     0x718688: mov             x2, NULL
@@ -260,7 +260,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x7186ac: tbz             w0, #4, #0x7186d8
     // 0x7186b0: ldur            x2, [fp, #-0x18]
     // 0x7186b4: r0 = _assign()
-    //     0x7186b4: bl              #0x76cc3c  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_assign
+    //     0x7186b4: bl              #0x76cc3c  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_assign
     // 0x7186b8: ldur            x1, [fp, #-0x30]
     // 0x7186bc: mov             x2, x0
     // 0x7186c0: stur            x0, [fp, #-0x40]
@@ -278,21 +278,21 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x7186e8: ldur            x2, [fp, #-0x18]
     // 0x7186ec: ldur            x3, [fp, #-0x20]
     // 0x7186f0: r0 = _extrapolateGapsForActiveTrajectories()
-    //     0x7186f0: bl              #0x76ae24  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_extrapolateGapsForActiveTrajectories
+    //     0x7186f0: bl              #0x76ae24  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_extrapolateGapsForActiveTrajectories
     // 0x7186f4: ldur            x1, [fp, #-0x10]
     // 0x7186f8: ldur            x2, [fp, #-0x20]
     // 0x7186fc: r0 = _noteLiveRimOccupancy()
-    //     0x7186fc: bl              #0x7666dc  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_noteLiveRimOccupancy
+    //     0x7186fc: bl              #0x7666dc  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_noteLiveRimOccupancy
     // 0x718700: r0 = _scoreTrajectoriesIfNeeded()
-    //     0x718700: bl              #0x7661c4  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoreTrajectoriesIfNeeded
+    //     0x718700: bl              #0x7661c4  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoreTrajectoriesIfNeeded
     // 0x718704: ldur            x1, [fp, #-0x18]
     // 0x718708: r0 = _pruneOldDetections()
-    //     0x718708: bl              #0x765d6c  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_pruneOldDetections
+    //     0x718708: bl              #0x765d6c  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_pruneOldDetections
     // 0x71870c: r0 = _pruneTrajectories()
-    //     0x71870c: bl              #0x7194d8  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_pruneTrajectories
+    //     0x71870c: bl              #0x7194d8  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_pruneTrajectories
     // 0x718710: ldur            x1, [fp, #-0x20]
     // 0x718714: r0 = _maybeReleaseHoopAttemptLock()
-    //     0x718714: bl              #0x718960  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_maybeReleaseHoopAttemptLock
+    //     0x718714: bl              #0x718960  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_maybeReleaseHoopAttemptLock
     // 0x718718: ldur            x3, [fp, #-8]
     // 0x71871c: LoadField: r4 = r3->field_7
     //     0x71871c: ldur            w4, [x3, #7]
@@ -421,7 +421,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x718884: ldur            x5, [fp, #-0x48]
     // 0x718888: b               #0x718740
     // 0x71888c: mov             x0, x7
-    // 0x718890: r0 = InitLateStaticField(0x107c) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
+    // 0x718890: r0 = InitLateStaticField(0x107c) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
     //     0x718890: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x718894: ldr             x0, [x0, #0x20f8]
     //     0x718898: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -453,7 +453,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x7188ec: b.eq            #0x7188f4
     //     0x7188f0: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0x7188f4: r1 = Function '<anonymous closure>': static.
-    //     0x7188f4: add             x1, PP, #0x31, lsl #12  ; [pp+0x31db8] AnonymousClosure: static (0x76e8f8), in [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::processFrame (0x718434)
+    //     0x7188f4: add             x1, PP, #0x31, lsl #12  ; [pp+0x31db8] AnonymousClosure: static (0x76e8f8), in [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::processFrame (0x718434)
     //     0x7188f8: ldr             x1, [x1, #0xdb8]
     // 0x7188fc: r2 = Null
     //     0x7188fc: mov             x2, NULL
@@ -517,7 +517,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x718990: ret
     //     0x718990: ret             
     // 0x718994: r0 = _isBallClearOfHoop()
-    //     0x718994: bl              #0x718cc4  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_isBallClearOfHoop
+    //     0x718994: bl              #0x718cc4  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_isBallClearOfHoop
     // 0x718998: tbz             w0, #4, #0x7189ac
     // 0x71899c: r0 = Null
     //     0x71899c: mov             x0, NULL
@@ -543,7 +543,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x7189d0: ldur            x0, [fp, #-8]
     // 0x7189d4: StoreField: r0->field_b = r1
     //     0x7189d4: stur            x1, [x0, #0xb]
-    // 0x7189d8: r0 = InitLateStaticField(0x1080) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
+    // 0x7189d8: r0 = InitLateStaticField(0x1080) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
     //     0x7189d8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x7189dc: ldr             x0, [x0, #0x2100]
     //     0x7189e0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -611,7 +611,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x718a90: ldr             x3, [x3, #0xdc0]
     // 0x718a94: blr             x9
     // 0x718a98: ldur            x0, [fp, #-0x18]
-    // 0x718a9c: r0 = InitLateStaticField(0x1088) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_consumedTrajectoryIds
+    // 0x718a9c: r0 = InitLateStaticField(0x1088) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_consumedTrajectoryIds
     //     0x718a9c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x718aa0: ldr             x0, [x0, #0x2110]
     //     0x718aa4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -698,7 +698,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x718b98: ldur            x4, [fp, #-0x28]
     // 0x718b9c: ldur            x5, [fp, #-0x20]
     // 0x718ba0: b               #0x718a1c
-    // 0x718ba4: r0 = InitLateStaticField(0x1088) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_consumedTrajectoryIds
+    // 0x718ba4: r0 = InitLateStaticField(0x1088) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_consumedTrajectoryIds
     //     0x718ba4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x718ba8: ldr             x0, [x0, #0x2110]
     //     0x718bac: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -715,7 +715,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x718bd0: StoreStaticField(0x1084, r0)
     //     0x718bd0: ldr             x1, [THR, #0x68]  ; THR::field_table_values
     //     0x718bd4: str             x0, [x1, #0x2108]
-    // 0x718bd8: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x718bd8: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x718bd8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x718bdc: ldr             x0, [x0, #0x20e0]
     //     0x718be0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -815,7 +815,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x718cdc: cmp             SP, x16
     //     0x718ce0: b.ls            #0x7191b8
     // 0x718ce4: r0 = _scoringHoop()
-    //     0x718ce4: bl              #0x719450  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringHoop
+    //     0x718ce4: bl              #0x719450  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringHoop
     // 0x718ce8: cmp             w0, NULL
     // 0x718cec: b.ne            #0x718d00
     // 0x718cf0: r0 = false
@@ -828,7 +828,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x718d00: mov             x1, x0
     // 0x718d04: ldur            x2, [fp, #-8]
     // 0x718d08: r0 = pixelBoundingBox()
-    //     0x718d08: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x718d08: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x718d0c: stur            x0, [fp, #-0x10]
     // 0x718d10: ArrayLoad: d0 = r0[0]  ; List_8
     //     0x718d10: ldur            d0, [x0, #0x17]
@@ -847,7 +847,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x718d34: ldp             fp, lr, [SP], #0x10
     // 0x718d38: ret
     //     0x718d38: ret             
-    // 0x718d3c: r0 = InitLateStaticField(0x1080) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
+    // 0x718d3c: r0 = InitLateStaticField(0x1080) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
     //     0x718d3c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x718d40: ldr             x0, [x0, #0x2100]
     //     0x718d44: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1101,12 +1101,12 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x719010: mov             x1, x0
     // 0x719014: ldur            x2, [fp, #-8]
     // 0x719018: r0 = pixelCenter()
-    //     0x719018: bl              #0x7157cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
+    //     0x719018: bl              #0x7157cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
     // 0x71901c: mov             x1, x0
     // 0x719020: ldur            x2, [fp, #-0x10]
     // 0x719024: stur            x0, [fp, #-0x20]
     // 0x719028: r0 = _distanceToRect()
-    //     0x719028: bl              #0x7191dc  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_distanceToRect
+    //     0x719028: bl              #0x7191dc  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_distanceToRect
     // 0x71902c: mov             v2.16b, v0.16b
     // 0x719030: ldur            d0, [fp, #-0x50]
     // 0x719034: d1 = 1.250000
@@ -1212,7 +1212,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x719154: add             x1, x1, HEAP, lsl #32
     // 0x719158: ldur            x2, [fp, #-8]
     // 0x71915c: r0 = pixelCenter()
-    //     0x71915c: bl              #0x7157cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
+    //     0x71915c: bl              #0x7157cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
     // 0x719160: LoadField: d0 = r0->field_f
     //     0x719160: ldur            d0, [x0, #0xf]
     // 0x719164: d1 = 2.000000
@@ -1479,7 +1479,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x719458: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x71945c: cmp             SP, x16
     //     0x719460: b.ls            #0x719498
-    // 0x719464: r0 = InitLateStaticField(0x107c) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
+    // 0x719464: r0 = InitLateStaticField(0x107c) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
     //     0x719464: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x719468: ldr             x0, [x0, #0x20f8]
     //     0x71946c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1490,7 +1490,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x719480: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x719484: mov             x1, x0
     // 0x719488: r0 = effectiveSelectedHoop()
-    //     0x719488: bl              #0x779264  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
+    //     0x719488: bl              #0x779264  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
     // 0x71948c: LeaveFrame
     //     0x71948c: mov             SP, fp
     //     0x719490: ldp             fp, lr, [SP], #0x10
@@ -1529,7 +1529,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x719518: stur            x1, [fp, #-0x10]
     // 0x71951c: StoreField: r0->field_b = r1
     //     0x71951c: stur            x1, [x0, #0xb]
-    // 0x719520: r0 = InitLateStaticField(0x107c) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
+    // 0x719520: r0 = InitLateStaticField(0x107c) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
     //     0x719520: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x719524: ldr             x0, [x0, #0x20f8]
     //     0x719528: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1545,7 +1545,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x71954c: DecompressPointer r2
     //     0x71954c: add             x2, x2, HEAP, lsl #32
     // 0x719550: stur            x2, [fp, #-0x18]
-    // 0x719554: r0 = InitLateStaticField(0x1080) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
+    // 0x719554: r0 = InitLateStaticField(0x1080) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
     //     0x719554: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x719558: ldr             x0, [x0, #0x2100]
     //     0x71955c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1876,7 +1876,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x71994c: movk            x17, #0x26, lsl #16
     // 0x719950: cmp             x4, x17
     // 0x719954: b.lt            #0x719bbc
-    // 0x719958: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x719958: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x719958: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71995c: ldr             x0, [x0, #0x20e0]
     //     0x719960: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2076,7 +2076,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x719be8: mov             x1, x3
     // 0x719bec: ldur            x2, [fp, #-0x18]
     // 0x719bf0: r0 = _captureHoopSnapshotIfNeeded()
-    //     0x719bf0: bl              #0x765924  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_captureHoopSnapshotIfNeeded
+    //     0x719bf0: bl              #0x765924  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_captureHoopSnapshotIfNeeded
     // 0x719bf4: ldur            x5, [fp, #-0x40]
     // 0x719bf8: LoadField: r0 = r5->field_f
     //     0x719bf8: ldur            w0, [x5, #0xf]
@@ -2111,7 +2111,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x719c44: b.ne            #0x719c58
     // 0x719c48: ldur            x1, [fp, #-0x20]
     // 0x719c4c: r0 = effectiveSelectedHoop()
-    //     0x719c4c: bl              #0x779264  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
+    //     0x719c4c: bl              #0x779264  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
     // 0x719c50: mov             x4, x0
     // 0x719c54: b               #0x719c5c
     // 0x719c58: mov             x4, x0
@@ -2120,7 +2120,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x719c64: b.ne            #0x719ed4
     // 0x719c68: ldur            x5, [fp, #-0x40]
     // 0x719c6c: ldur            x1, [fp, #-0x38]
-    // 0x719c70: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x719c70: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x719c70: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x719c74: ldr             x0, [x0, #0x20e0]
     //     0x719c78: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2333,7 +2333,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x719f20: r4 = const [0, 0x3, 0, 0x3, null]
     //     0x719f20: ldr             x4, [PP, #0x8a0]  ; [pp+0x8a0] List(5) [0, 0x3, 0, 0x3, Null]
     // 0x719f24: r0 = _isRimVisitAndDeparture()
-    //     0x719f24: bl              #0x7654a4  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_isRimVisitAndDeparture
+    //     0x719f24: bl              #0x7654a4  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_isRimVisitAndDeparture
     // 0x719f28: mov             x4, x0
     // 0x719f2c: ldur            x5, [fp, #-0x40]
     // 0x719f30: stur            x4, [fp, #-0x28]
@@ -2367,7 +2367,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x719f7c: r4 = const [0, 0x3, 0, 0x3, null]
     //     0x719f7c: ldr             x4, [PP, #0x8a0]  ; [pp+0x8a0] List(5) [0, 0x3, 0, 0x3, Null]
     // 0x719f80: r0 = _hasGoneBelowRim()
-    //     0x719f80: bl              #0x765250  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_hasGoneBelowRim
+    //     0x719f80: bl              #0x765250  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_hasGoneBelowRim
     // 0x719f84: mov             x4, x0
     // 0x719f88: ldur            x5, [fp, #-0x40]
     // 0x719f8c: stur            x4, [fp, #-0x50]
@@ -2399,7 +2399,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x719fd0: ldur            x2, [fp, #-0x18]
     // 0x719fd4: ldur            x3, [fp, #-0x70]
     // 0x719fd8: r0 = _hasTouchedBounceSideExitCorridor()
-    //     0x719fd8: bl              #0x764b98  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_hasTouchedBounceSideExitCorridor
+    //     0x719fd8: bl              #0x764b98  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_hasTouchedBounceSideExitCorridor
     // 0x719fdc: tbnz            w0, #4, #0x719fe8
     // 0x719fe0: ldur            x4, [fp, #-0x28]
     // 0x719fe4: b               #0x719ff0
@@ -2437,7 +2437,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x71a03c: ldur            x2, [fp, #-0x18]
     // 0x71a040: ldur            x3, [fp, #-0x70]
     // 0x71a044: r0 = _trajectoryHasEnteredHoopRegion()
-    //     0x71a044: bl              #0x764958  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectoryHasEnteredHoopRegion
+    //     0x71a044: bl              #0x764958  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectoryHasEnteredHoopRegion
     // 0x71a048: mov             x2, x0
     // 0x71a04c: ldur            d0, [fp, #-0x98]
     // 0x71a050: d1 = 0.000000
@@ -2489,7 +2489,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x71a0d0: movk            x17, #0x26, lsl #16
     // 0x71a0d4: cmp             x0, x17
     // 0x71a0d8: b.ge            #0x71a114
-    // 0x71a0dc: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x71a0dc: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x71a0dc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71a0e0: ldr             x0, [x0, #0x20e0]
     //     0x71a0e4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2551,7 +2551,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x71a18c: cmp             x4, #2
     // 0x71a190: b.lt            #0x71a2b8
     // 0x71a194: r0 = realDetectionCount()
-    //     0x71a194: bl              #0x7648dc  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_gap_interpolator.dart] TrajectoryGapInterpolator::realDetectionCount
+    //     0x71a194: bl              #0x7648dc  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_gap_interpolator.dart] TrajectoryGapInterpolator::realDetectionCount
     // 0x71a198: cmp             x0, #5
     // 0x71a19c: b.lt            #0x71a1a8
     // 0x71a1a0: d0 = 40.000000
@@ -2560,7 +2560,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x71a1a8: ldur            x1, [fp, #-0x88]
     // 0x71a1ac: ldur            x2, [fp, #-0x18]
     // 0x71a1b0: r0 = _totalPathPx()
-    //     0x71a1b0: bl              #0x76475c  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_totalPathPx
+    //     0x71a1b0: bl              #0x76475c  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_totalPathPx
     // 0x71a1b4: mov             v1.16b, v0.16b
     // 0x71a1b8: d0 = 40.000000
     //     0x71a1b8: ldr             d0, [PP, #0x5a68]  ; [pp+0x5a68] IMM: double(40) from 0x4044000000000000
@@ -2580,7 +2580,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x71a1e4: ldur            x2, [fp, #-0x18]
     // 0x71a1e8: ldur            x3, [fp, #-0x70]
     // 0x71a1ec: r0 = _resolveBounceBeforeScoring()
-    //     0x71a1ec: bl              #0x763a00  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_resolveBounceBeforeScoring
+    //     0x71a1ec: bl              #0x763a00  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_resolveBounceBeforeScoring
     // 0x71a1f0: ldur            x0, [fp, #-0x28]
     // 0x71a1f4: tbz             w0, #4, #0x71a200
     // 0x71a1f8: ldur            x0, [fp, #-0x50]
@@ -2624,7 +2624,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x71a260: r4 = const [0, 0x4, 0, 0x4, null]
     //     0x71a260: ldr             x4, [PP, #0xc08]  ; [pp+0xc08] List(5) [0, 0x4, 0, 0x4, Null]
     // 0x71a264: r0 = _isSideExitMiss()
-    //     0x71a264: bl              #0x76282c  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_isSideExitMiss
+    //     0x71a264: bl              #0x76282c  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_isSideExitMiss
     // 0x71a268: tbnz            w0, #4, #0x71a278
     // 0x71a26c: r0 = Instance_ShotScoreTrigger
     //     0x71a26c: add             x0, PP, #0x31, lsl #12  ; [pp+0x31e50] Obj!ShotScoreTrigger@d391a1
@@ -2650,11 +2650,11 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x71a2a8: add             x4, PP, #0x31, lsl #12  ; [pp+0x31e60] List(7) [0, 0x4, 0x1, 0x3, "scoredAt", 0x3, Null]
     //     0x71a2ac: ldr             x4, [x4, #0xe60]
     // 0x71a2b0: r0 = _completeTrajectoryScore()
-    //     0x71a2b0: bl              #0x71a6cc  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_completeTrajectoryScore
+    //     0x71a2b0: bl              #0x71a6cc  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_completeTrajectoryScore
     // 0x71a2b4: b               #0x71a520
     // 0x71a2b8: ldur            x5, [fp, #-0x40]
     // 0x71a2bc: ldur            x1, [fp, #-0x38]
-    // 0x71a2c0: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x71a2c0: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x71a2c0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71a2c4: ldr             x0, [x0, #0x20e0]
     //     0x71a2c8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2983,7 +2983,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x71a684: add             x0, x0, HEAP, lsl #32
     // 0x71a688: cmp             w0, NULL
     // 0x71a68c: b.ne            #0x71a6b8
-    // 0x71a690: r0 = InitLateStaticField(0x107c) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
+    // 0x71a690: r0 = InitLateStaticField(0x107c) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
     //     0x71a690: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71a694: ldr             x0, [x0, #0x20f8]
     //     0x71a698: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2994,7 +2994,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x71a6ac: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x71a6b0: mov             x1, x0
     // 0x71a6b4: r0 = effectiveSelectedHoop()
-    //     0x71a6b4: bl              #0x779264  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
+    //     0x71a6b4: bl              #0x779264  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
     // 0x71a6b8: LeaveFrame
     //     0x71a6b8: mov             SP, fp
     //     0x71a6bc: ldp             fp, lr, [SP], #0x10
@@ -3059,7 +3059,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x71a784: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x71a788: cmp             SP, x16
     //     0x71a78c: b.ls            #0x71ab3c
-    // 0x71a790: r0 = InitLateStaticField(0x1080) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
+    // 0x71a790: r0 = InitLateStaticField(0x1080) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
     //     0x71a790: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71a794: ldr             x0, [x0, #0x2100]
     //     0x71a798: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3090,7 +3090,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x71a7e4: mov             x1, x3
     // 0x71a7e8: stur            x3, [fp, #-0x30]
     // 0x71a7ec: r0 = _scoringHoopFor()
-    //     0x71a7ec: bl              #0x71a66c  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringHoopFor
+    //     0x71a7ec: bl              #0x71a66c  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringHoopFor
     // 0x71a7f0: stur            x0, [fp, #-0x38]
     // 0x71a7f4: cmp             w0, NULL
     // 0x71a7f8: b.eq            #0x71a814
@@ -3099,7 +3099,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x71a804: ldur            x3, [fp, #-0x20]
     // 0x71a808: mov             x5, x0
     // 0x71a80c: r0 = _bouncedUpOffRim()
-    //     0x71a80c: bl              #0x761d90  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_bouncedUpOffRim
+    //     0x71a80c: bl              #0x761d90  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_bouncedUpOffRim
     // 0x71a810: b               #0x71a818
     // 0x71a814: r0 = false
     //     0x71a814: add             x0, NULL, #0x30  ; false
@@ -3134,9 +3134,9 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x71a870: add             x4, PP, #0x31, lsl #12  ; [pp+0x31e98] List(7) [0, 0x4, 0x1, 0x3, "densified", 0x3, Null]
     //     0x71a874: ldr             x4, [x4, #0xe98]
     // 0x71a878: r0 = _hasGoneBelowRim()
-    //     0x71a878: bl              #0x765250  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_hasGoneBelowRim
+    //     0x71a878: bl              #0x765250  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_hasGoneBelowRim
     // 0x71a87c: tbz             w0, #4, #0x71a8b0
-    // 0x71a880: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x71a880: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x71a880: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71a884: ldr             x0, [x0, #0x20e0]
     //     0x71a888: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3178,10 +3178,10 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x71a8f4: ldur            x1, [fp, #-0x30]
     // 0x71a8f8: stur            x2, [fp, #-8]
     // 0x71a8fc: r0 = _shouldSuppressAsSameAttempt()
-    //     0x71a8fc: bl              #0x761d18  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_shouldSuppressAsSameAttempt
+    //     0x71a8fc: bl              #0x761d18  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_shouldSuppressAsSameAttempt
     // 0x71a900: tbnz            w0, #4, #0x71a978
     // 0x71a904: ldur            x1, [fp, #-0x30]
-    // 0x71a908: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x71a908: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x71a908: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71a90c: ldr             x0, [x0, #0x20e0]
     //     0x71a910: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3193,8 +3193,8 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x71a928: ldur            x1, [fp, #-0x30]
     // 0x71a92c: ldur            x2, [fp, #-8]
     // 0x71a930: r0 = _markTrajectoryScored()
-    //     0x71a930: bl              #0x718c38  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_markTrajectoryScored
-    // 0x71a934: r0 = InitLateStaticField(0x1088) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_consumedTrajectoryIds
+    //     0x71a930: bl              #0x718c38  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_markTrajectoryScored
+    // 0x71a934: r0 = InitLateStaticField(0x1088) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_consumedTrajectoryIds
     //     0x71a934: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71a938: ldr             x0, [x0, #0x2110]
     //     0x71a93c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3225,7 +3225,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x71a980: add             x0, x0, HEAP, lsl #32
     // 0x71a984: cmp             w0, NULL
     // 0x71a988: b.ne            #0x71a9dc
-    // 0x71a98c: r0 = InitLateStaticField(0x1078) // [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::instance
+    // 0x71a98c: r0 = InitLateStaticField(0x1078) // [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::instance
     //     0x71a98c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71a990: ldr             x0, [x0, #0x20f0]
     //     0x71a994: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3253,7 +3253,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x71a9e0: mov             x1, x0
     // 0x71a9e4: ldur            x0, [fp, #-0x10]
     // 0x71a9e8: stur            x1, [fp, #-0x38]
-    // 0x71a9ec: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x71a9ec: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x71a9ec: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71a9f0: ldr             x0, [x0, #0x20e0]
     //     0x71a9f4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3273,12 +3273,12 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x71aa24: mov             x1, x0
     // 0x71aa28: stur            x2, [fp, #-0x40]
     // 0x71aa2c: r0 = _scoringHoopFor()
-    //     0x71aa2c: bl              #0x71a66c  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringHoopFor
+    //     0x71aa2c: bl              #0x71a66c  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringHoopFor
     // 0x71aa30: ldur            x1, [fp, #-0x40]
     // 0x71aa34: ldur            x2, [fp, #-0x20]
     // 0x71aa38: mov             x3, x0
     // 0x71aa3c: r0 = densify()
-    //     0x71aa3c: bl              #0x75dd60  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_gap_interpolator.dart] TrajectoryGapInterpolator::densify
+    //     0x71aa3c: bl              #0x75dd60  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_gap_interpolator.dart] TrajectoryGapInterpolator::densify
     // 0x71aa40: ldur            x2, [fp, #-0x38]
     // 0x71aa44: stur            x0, [fp, #-0x10]
     // 0x71aa48: cmp             w2, NULL
@@ -3314,7 +3314,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x71aaa4: ldur            x3, [fp, #-0x30]
     // 0x71aaa8: ldur            x4, [fp, #-0x20]
     // 0x71aaac: r0 = _robustRimAreaReferencePx2()
-    //     0x71aaac: bl              #0x75dc40  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_robustRimAreaReferencePx2
+    //     0x71aaac: bl              #0x75dc40  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_robustRimAreaReferencePx2
     // 0x71aab0: mov             x1, x0
     // 0x71aab4: ldur            x0, [fp, #-0x30]
     // 0x71aab8: LoadField: r3 = r0->field_3b
@@ -3330,7 +3330,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x71aad4: ldur            x2, [fp, #-0x38]
     // 0x71aad8: ldur            x6, [fp, #-0x28]
     // 0x71aadc: r0 = handleCompletedShot()
-    //     0x71aadc: bl              #0x71ae84  ; [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::handleCompletedShot
+    //     0x71aadc: bl              #0x71ae84  ; [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::handleCompletedShot
     // 0x71aae0: r0 = LoadStaticField(0x108c)
     //     0x71aae0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71aae4: ldr             x0, [x0, #0x2118]
@@ -3351,11 +3351,11 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x71ab14: ldur            x1, [fp, #-0x30]
     // 0x71ab18: ldur            x2, [fp, #-8]
     // 0x71ab1c: r0 = _markTrajectoryScored()
-    //     0x71ab1c: bl              #0x718c38  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_markTrajectoryScored
+    //     0x71ab1c: bl              #0x718c38  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_markTrajectoryScored
     // 0x71ab20: ldur            x1, [fp, #-0x18]
     // 0x71ab24: ldur            x2, [fp, #-0x20]
     // 0x71ab28: r0 = _lockHoopAttempt()
-    //     0x71ab28: bl              #0x71ab64  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_lockHoopAttempt
+    //     0x71ab28: bl              #0x71ab64  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_lockHoopAttempt
     // 0x71ab2c: r0 = true
     //     0x71ab2c: add             x0, NULL, #0x20  ; true
     // 0x71ab30: LeaveFrame
@@ -3398,7 +3398,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x71ab88: ldr             x3, [THR, #0x68]  ; THR::field_table_values
     //     0x71ab8c: str             x0, [x3, #0x2108]
     // 0x71ab90: tbnz            x1, #0x3f, #0x71ac38
-    // 0x71ab94: r0 = InitLateStaticField(0x1080) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
+    // 0x71ab94: r0 = InitLateStaticField(0x1080) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
     //     0x71ab94: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71ab98: ldr             x0, [x0, #0x2100]
     //     0x71ab9c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3415,7 +3415,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x71abc0: ldur            x1, [fp, #-8]
     // 0x71abc4: cmp             x1, x2
     // 0x71abc8: b.ge            #0x71ac38
-    // 0x71abcc: r0 = InitLateStaticField(0x1088) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_consumedTrajectoryIds
+    // 0x71abcc: r0 = InitLateStaticField(0x1088) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_consumedTrajectoryIds
     //     0x71abcc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71abd0: ldr             x0, [x0, #0x2110]
     //     0x71abd4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3452,7 +3452,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x71ac30: mov             x2, x0
     // 0x71ac34: r0 = add()
     //     0x71ac34: bl              #0xdb26c4  ; [dart:_compact_hash] __Set&_HashVMBase&SetMixin&_HashBase&_OperatorEqualsAndHashCode&_LinkedHashSetMixin::add
-    // 0x71ac38: r0 = InitLateStaticField(0x1080) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
+    // 0x71ac38: r0 = InitLateStaticField(0x1080) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
     //     0x71ac38: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71ac3c: ldr             x0, [x0, #0x2100]
     //     0x71ac40: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3538,7 +3538,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x71ad20: add             x2, x2, HEAP, lsl #32
     // 0x71ad24: cmp             w2, NULL
     // 0x71ad28: b.ne            #0x71ad60
-    // 0x71ad2c: r0 = InitLateStaticField(0x107c) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
+    // 0x71ad2c: r0 = InitLateStaticField(0x107c) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
     //     0x71ad2c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71ad30: ldr             x0, [x0, #0x20f8]
     //     0x71ad34: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3549,7 +3549,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x71ad48: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x71ad4c: mov             x1, x0
     // 0x71ad50: r0 = effectiveSelectedHoop()
-    //     0x71ad50: bl              #0x779264  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
+    //     0x71ad50: bl              #0x779264  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
     // 0x71ad54: mov             x1, x0
     // 0x71ad58: mov             x0, x1
     // 0x71ad5c: b               #0x71ad64
@@ -3572,16 +3572,16 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x71ad90: ldur            x2, [fp, #-0x10]
     // 0x71ad94: mov             x3, x0
     // 0x71ad98: r0 = _hasTouchedBounceSideExitCorridor()
-    //     0x71ad98: bl              #0x764b98  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_hasTouchedBounceSideExitCorridor
+    //     0x71ad98: bl              #0x764b98  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_hasTouchedBounceSideExitCorridor
     // 0x71ad9c: tbz             w0, #4, #0x71adb4
     // 0x71ada0: ldur            x1, [fp, #-0x18]
     // 0x71ada4: ldur            x2, [fp, #-0x10]
     // 0x71ada8: ldur            x3, [fp, #-0x38]
     // 0x71adac: r0 = _trajectoryHasEnteredHoopRegion()
-    //     0x71adac: bl              #0x764958  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectoryHasEnteredHoopRegion
+    //     0x71adac: bl              #0x764958  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectoryHasEnteredHoopRegion
     // 0x71adb0: tbnz            w0, #4, #0x71ae0c
     // 0x71adb4: ldur            x0, [fp, #-0x18]
-    // 0x71adb8: r0 = InitLateStaticField(0x1088) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_consumedTrajectoryIds
+    // 0x71adb8: r0 = InitLateStaticField(0x1088) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_consumedTrajectoryIds
     //     0x71adb8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71adbc: ldr             x0, [x0, #0x2110]
     //     0x71adc0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3612,7 +3612,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x71ae14: ldur            x4, [fp, #-0x28]
     // 0x71ae18: ldur            x5, [fp, #-0x20]
     // 0x71ae1c: b               #0x71ac7c
-    // 0x71ae20: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x71ae20: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x71ae20: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71ae24: ldr             x0, [x0, #0x20e0]
     //     0x71ae28: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3657,7 +3657,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x731ec8: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x731ecc: cmp             SP, x16
     //     0x731ed0: b.ls            #0x731fb8
-    // 0x731ed4: r0 = InitLateStaticField(0x1080) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
+    // 0x731ed4: r0 = InitLateStaticField(0x1080) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
     //     0x731ed4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x731ed8: ldr             x0, [x0, #0x2100]
     //     0x731edc: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3669,7 +3669,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x731ef4: mov             x1, x0
     // 0x731ef8: r0 = clear()
     //     0x731ef8: bl              #0x6103e0  ; [dart:core] _GrowableList::clear
-    // 0x731efc: r0 = InitLateStaticField(0x1094) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_recentRimAreasPx2
+    // 0x731efc: r0 = InitLateStaticField(0x1094) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_recentRimAreasPx2
     //     0x731efc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x731f00: ldr             x0, [x0, #0x2128]
     //     0x731f04: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3691,7 +3691,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x731f34: StoreStaticField(0x1084, r1)
     //     0x731f34: ldr             x2, [THR, #0x68]  ; THR::field_table_values
     //     0x731f38: str             x1, [x2, #0x2108]
-    // 0x731f3c: r0 = InitLateStaticField(0x1088) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_consumedTrajectoryIds
+    // 0x731f3c: r0 = InitLateStaticField(0x1088) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_consumedTrajectoryIds
     //     0x731f3c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x731f40: ldr             x0, [x0, #0x2110]
     //     0x731f44: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3709,8 +3709,8 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x731f68: ldr             x1, [THR, #0x68]  ; THR::field_table_values
     //     0x731f6c: str             x0, [x1, #0x2118]
     // 0x731f70: r0 = _clearLogState()
-    //     0x731f70: bl              #0x732000  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_clearLogState
-    // 0x731f74: r0 = InitLateStaticField(0x1078) // [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::instance
+    //     0x731f70: bl              #0x732000  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_clearLogState
+    // 0x731f74: r0 = InitLateStaticField(0x1078) // [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::instance
     //     0x731f74: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x731f78: ldr             x0, [x0, #0x20f0]
     //     0x731f7c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3721,9 +3721,9 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x731f90: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x731f94: mov             x1, x0
     // 0x731f98: r0 = reset()
-    //     0x731f98: bl              #0x714dd0  ; [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::reset
+    //     0x731f98: bl              #0x714dd0  ; [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::reset
     // 0x731f9c: r0 = reset()
-    //     0x731f9c: bl              #0x731fc0  ; [package:ballai/video_tracking/analysis/make_miss/rim_net_motion_tracker.dart] RimNetMotionTracker::reset
+    //     0x731f9c: bl              #0x731fc0  ; [package:kourtai/video_tracking/analysis/make_miss/rim_net_motion_tracker.dart] RimNetMotionTracker::reset
     // 0x731fa0: r0 = Null
     //     0x731fa0: mov             x0, NULL
     // 0x731fa4: StoreStaticField(0x1054, r0)
@@ -3747,7 +3747,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x732008: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x73200c: cmp             SP, x16
     //     0x732010: b.ls            #0x73204c
-    // 0x732014: r0 = InitLateStaticField(0x1098) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_logStateByTrajectoryId
+    // 0x732014: r0 = InitLateStaticField(0x1098) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_logStateByTrajectoryId
     //     0x732014: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x732018: ldr             x0, [x0, #0x2130]
     //     0x73201c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3835,7 +3835,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x75dc54: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x75dc58: cmp             SP, x16
     //     0x75dc5c: b.ls            #0x75dd44
-    // 0x75dc60: r0 = InitLateStaticField(0x1094) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_recentRimAreasPx2
+    // 0x75dc60: r0 = InitLateStaticField(0x1094) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_recentRimAreasPx2
     //     0x75dc60: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x75dc64: ldr             x0, [x0, #0x2128]
     //     0x75dc68: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3948,7 +3948,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x761d40: r0 = true
     //     0x761d40: add             x0, NULL, #0x20  ; true
     // 0x761d44: b               #0x761d7c
-    // 0x761d48: r0 = InitLateStaticField(0x1088) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_consumedTrajectoryIds
+    // 0x761d48: r0 = InitLateStaticField(0x1088) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_consumedTrajectoryIds
     //     0x761d48: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x761d4c: ldr             x0, [x0, #0x2110]
     //     0x761d50: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3996,7 +3996,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x761dc4: mov             x1, x0
     // 0x761dc8: mov             x2, x3
     // 0x761dcc: r0 = pixelBoundingBox()
-    //     0x761dcc: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x761dcc: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x761dd0: LoadField: d0 = r0->field_1f
     //     0x761dd0: ldur            d0, [x0, #0x1f]
     // 0x761dd4: LoadField: d1 = r0->field_f
@@ -4166,7 +4166,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x761fa8: mov             x1, x0
     // 0x761fac: ldur            x2, [fp, #-0x18]
     // 0x761fb0: r0 = pixelCenter()
-    //     0x761fb0: bl              #0x7157cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
+    //     0x761fb0: bl              #0x7157cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
     // 0x761fb4: mov             x3, x0
     // 0x761fb8: ldur            x2, [fp, #-0x48]
     // 0x761fbc: stur            x3, [fp, #-0x30]
@@ -4190,7 +4190,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x761fec: add             x1, x1, HEAP, lsl #32
     // 0x761ff0: ldur            x2, [fp, #-0x18]
     // 0x761ff4: r0 = pixelCenter()
-    //     0x761ff4: bl              #0x7157cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
+    //     0x761ff4: bl              #0x7157cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
     // 0x761ff8: mov             x1, x0
     // 0x761ffc: ldur            x0, [fp, #-0x30]
     // 0x762000: LoadField: d0 = r0->field_f
@@ -4218,7 +4218,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x762040: ldur            x2, [fp, #-0x18]
     // 0x762044: ldur            x3, [fp, #-0x20]
     // 0x762048: r0 = centerCrossedTopAndBottom()
-    //     0x762048: bl              #0x76209c  ; [package:ballai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::centerCrossedTopAndBottom
+    //     0x762048: bl              #0x76209c  ; [package:kourtai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::centerCrossedTopAndBottom
     // 0x76204c: LeaveFrame
     //     0x76204c: mov             SP, fp
     //     0x762050: ldp             fp, lr, [SP], #0x10
@@ -4320,7 +4320,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76290c: DecompressPointer r1
     //     0x76290c: add             x1, x1, HEAP, lsl #32
     // 0x762910: r0 = realDetectionCount()
-    //     0x762910: bl              #0x7648dc  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_gap_interpolator.dart] TrajectoryGapInterpolator::realDetectionCount
+    //     0x762910: bl              #0x7648dc  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_gap_interpolator.dart] TrajectoryGapInterpolator::realDetectionCount
     // 0x762914: cmp             x0, #6
     // 0x762918: b.ge            #0x76292c
     // 0x76291c: r0 = false
@@ -4345,7 +4345,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76294c: add             x2, x2, HEAP, lsl #32
     // 0x762950: ldur            x3, [fp, #-0x28]
     // 0x762954: r0 = densify()
-    //     0x762954: bl              #0x75dd60  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_gap_interpolator.dart] TrajectoryGapInterpolator::densify
+    //     0x762954: bl              #0x75dd60  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_gap_interpolator.dart] TrajectoryGapInterpolator::densify
     // 0x762958: mov             x3, x0
     // 0x76295c: b               #0x762964
     // 0x762960: mov             x3, x0
@@ -4361,7 +4361,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76297c: add             x2, x2, HEAP, lsl #32
     // 0x762980: ldur            x1, [fp, #-0x28]
     // 0x762984: r0 = bounceSideExitCorridor()
-    //     0x762984: bl              #0x763428  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::bounceSideExitCorridor
+    //     0x762984: bl              #0x763428  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::bounceSideExitCorridor
     // 0x762988: stur            x0, [fp, #-0x20]
     // 0x76298c: cmp             w0, NULL
     // 0x762990: b.ne            #0x7629a4
@@ -4375,7 +4375,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x7629a4: ldur            x3, [fp, #-0x38]
     // 0x7629a8: mov             x2, x0
     // 0x7629ac: r1 = Function 'contains':.
-    //     0x7629ac: add             x1, PP, #0x32, lsl #12  ; [pp+0x32d30] AnonymousClosure: (0x763918), in [package:ballai/video_tracking/models/object_detection.dart] BounceSideExitCorridor::contains (0x763954)
+    //     0x7629ac: add             x1, PP, #0x32, lsl #12  ; [pp+0x32d30] AnonymousClosure: (0x763918), in [package:kourtai/video_tracking/models/object_detection.dart] BounceSideExitCorridor::contains (0x763954)
     //     0x7629b0: ldr             x1, [x1, #0xd30]
     // 0x7629b4: r0 = AllocateClosure()
     //     0x7629b4: bl              #0xe553e0  ; AllocateClosureStub
@@ -4390,7 +4390,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x7629d4: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x7629d8: ldur            x2, [fp, #-0x20]
     // 0x7629dc: r1 = Function 'isLateralExit':.
-    //     0x7629dc: add             x1, PP, #0x32, lsl #12  ; [pp+0x32d38] AnonymousClosure: (0x763690), in [package:ballai/video_tracking/models/object_detection.dart] BounceSideExitCorridor::isLateralExit (0x7636cc)
+    //     0x7629dc: add             x1, PP, #0x32, lsl #12  ; [pp+0x32d38] AnonymousClosure: (0x763690), in [package:kourtai/video_tracking/models/object_detection.dart] BounceSideExitCorridor::isLateralExit (0x7636cc)
     //     0x7629e0: ldr             x1, [x1, #0xd38]
     // 0x7629e4: r0 = AllocateClosure()
     //     0x7629e4: bl              #0xe553e0  ; AllocateClosureStub
@@ -4401,7 +4401,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x7629f0: add             x2, x2, HEAP, lsl #32
     // 0x7629f4: ldur            x1, [fp, #-0x28]
     // 0x7629f8: r0 = hoopRegionRect()
-    //     0x7629f8: bl              #0x75d7dc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::hoopRegionRect
+    //     0x7629f8: bl              #0x75d7dc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::hoopRegionRect
     // 0x7629fc: mov             x1, x0
     // 0x762a00: ldur            x2, [fp, #-0x38]
     // 0x762a04: ArrayStore: r2[0] = r0  ; List_4
@@ -4436,14 +4436,14 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x762a60: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x762a64: mov             x2, x3
     // 0x762a68: r1 = Function '<anonymous closure>': static.
-    //     0x762a68: add             x1, PP, #0x32, lsl #12  ; [pp+0x32d40] AnonymousClosure: static (0x763630), in [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_isSideExitMiss (0x76282c)
+    //     0x762a68: add             x1, PP, #0x32, lsl #12  ; [pp+0x32d40] AnonymousClosure: static (0x763630), in [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_isSideExitMiss (0x76282c)
     //     0x762a6c: ldr             x1, [x1, #0xd40]
     // 0x762a70: r0 = AllocateClosure()
     //     0x762a70: bl              #0xe553e0  ; AllocateClosureStub
     // 0x762a74: ldur            x2, [fp, #-0x38]
     // 0x762a78: stur            x0, [fp, #-0x20]
     // 0x762a7c: r1 = Function '<anonymous closure>': static.
-    //     0x762a7c: add             x1, PP, #0x32, lsl #12  ; [pp+0x32d48] AnonymousClosure: static (0x7635c4), in [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_isSideExitMiss (0x76282c)
+    //     0x762a7c: add             x1, PP, #0x32, lsl #12  ; [pp+0x32d48] AnonymousClosure: static (0x7635c4), in [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_isSideExitMiss (0x76282c)
     //     0x762a80: ldr             x1, [x1, #0xd48]
     // 0x762a84: r0 = AllocateClosure()
     //     0x762a84: bl              #0xe553e0  ; AllocateClosureStub
@@ -4474,7 +4474,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x762acc: ldur            x2, [fp, #-0x10]
     // 0x762ad0: ldur            x5, [fp, #-0x28]
     // 0x762ad4: r0 = _isScorable()
-    //     0x762ad4: bl              #0x762ef4  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_isScorable
+    //     0x762ad4: bl              #0x762ef4  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_isScorable
     // 0x762ad8: tbnz            w0, #4, #0x762af4
     // 0x762adc: b               #0x762ae4
     // 0x762ae0: tbnz            w1, #4, #0x762af4
@@ -4512,7 +4512,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x762b30: add             x3, x3, HEAP, lsl #32
     // 0x762b34: mov             x1, x4
     // 0x762b38: r0 = _lastInsideDetectionIndex()
-    //     0x762b38: bl              #0x762dc8  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_lastInsideDetectionIndex
+    //     0x762b38: bl              #0x762dc8  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_lastInsideDetectionIndex
     // 0x762b3c: mov             x2, x0
     // 0x762b40: ldur            x3, [fp, #-0x40]
     // 0x762b44: cmp             x2, x3
@@ -4562,7 +4562,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x762bc4: DecompressPointer r2
     //     0x762bc4: add             x2, x2, HEAP, lsl #32
     // 0x762bc8: r0 = pixelCenter()
-    //     0x762bc8: bl              #0x7157cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
+    //     0x762bc8: bl              #0x7157cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
     // 0x762bcc: ldur            x16, [fp, #-0x20]
     // 0x762bd0: stp             x0, x16, [SP]
     // 0x762bd4: ldur            x0, [fp, #-0x20]
@@ -4588,7 +4588,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x762c08: add             x2, x2, HEAP, lsl #32
     // 0x762c0c: ldur            x1, [fp, #-0x28]
     // 0x762c10: r0 = rimHeight()
-    //     0x762c10: bl              #0x75d9cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::rimHeight
+    //     0x762c10: bl              #0x75d9cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::rimHeight
     // 0x762c14: stur            x0, [fp, #-0x18]
     // 0x762c18: cmp             w0, NULL
     // 0x762c1c: b.eq            #0x762c8c
@@ -4599,7 +4599,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x762c28: add             x2, x2, HEAP, lsl #32
     // 0x762c2c: ldur            x1, [fp, #-8]
     // 0x762c30: r0 = pixelCenter()
-    //     0x762c30: bl              #0x7157cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
+    //     0x762c30: bl              #0x7157cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
     // 0x762c34: mov             x3, x0
     // 0x762c38: ldur            x0, [fp, #-0x38]
     // 0x762c3c: stur            x3, [fp, #-0x20]
@@ -4609,7 +4609,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x762c44: add             x2, x2, HEAP, lsl #32
     // 0x762c48: ldur            x1, [fp, #-8]
     // 0x762c4c: r0 = pixelSize()
-    //     0x762c4c: bl              #0x75d48c  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelSize
+    //     0x762c4c: bl              #0x75d48c  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelSize
     // 0x762c50: mov             x1, x0
     // 0x762c54: ldur            x0, [fp, #-0x20]
     // 0x762c58: LoadField: d0 = r0->field_f
@@ -4648,7 +4648,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x762cb0: DecompressPointer r2
     //     0x762cb0: add             x2, x2, HEAP, lsl #32
     // 0x762cb4: r0 = pixelCenter()
-    //     0x762cb4: bl              #0x7157cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
+    //     0x762cb4: bl              #0x7157cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
     // 0x762cb8: ldur            x16, [fp, #-8]
     // 0x762cbc: stp             x0, x16, [SP]
     // 0x762cc0: ldur            x0, [fp, #-8]
@@ -4700,7 +4700,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x762d3c: add             x0, x0, HEAP, lsl #32
     // 0x762d40: mov             x2, x0
     // 0x762d44: r0 = pixelCenter()
-    //     0x762d44: bl              #0x7157cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
+    //     0x762d44: bl              #0x7157cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
     // 0x762d48: ldur            x16, [fp, #-8]
     // 0x762d4c: stp             x0, x16, [SP]
     // 0x762d50: ldur            x0, [fp, #-8]
@@ -4797,7 +4797,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x762e40: add             x1, x1, HEAP, lsl #32
     // 0x762e44: mov             x2, x4
     // 0x762e48: r0 = pixelBoundingBox()
-    //     0x762e48: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x762e48: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x762e4c: mov             x1, x0
     // 0x762e50: stur            x0, [fp, #-0x28]
     // 0x762e54: r0 = center()
@@ -4868,7 +4868,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x762f00: cmp             SP, x16
     //     0x762f04: b.ls            #0x762f2c
     // 0x762f08: r0 = _scoringCrossing()
-    //     0x762f08: bl              #0x762f34  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringCrossing
+    //     0x762f08: bl              #0x762f34  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringCrossing
     // 0x762f0c: cmp             w0, NULL
     // 0x762f10: r16 = true
     //     0x762f10: add             x16, NULL, #0x20  ; true
@@ -4910,7 +4910,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x762f6c: add             x4, x4, HEAP, lsl #32
     // 0x762f70: mov             x1, x4
     // 0x762f74: r0 = realDetectionCount()
-    //     0x762f74: bl              #0x7648dc  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_gap_interpolator.dart] TrajectoryGapInterpolator::realDetectionCount
+    //     0x762f74: bl              #0x7648dc  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_gap_interpolator.dart] TrajectoryGapInterpolator::realDetectionCount
     // 0x762f78: cmp             x0, #3
     // 0x762f7c: b.ge            #0x762f90
     // 0x762f80: r0 = Null
@@ -4923,17 +4923,17 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x762f90: ldur            x1, [fp, #-0x18]
     // 0x762f94: ldur            x2, [fp, #-0x10]
     // 0x762f98: r0 = hoopRegionRect()
-    //     0x762f98: bl              #0x75d7dc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::hoopRegionRect
+    //     0x762f98: bl              #0x75d7dc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::hoopRegionRect
     // 0x762f9c: ldur            x1, [fp, #-0x18]
     // 0x762fa0: ldur            x2, [fp, #-0x10]
     // 0x762fa4: stur            x0, [fp, #-0x20]
     // 0x762fa8: r0 = rimHeight()
-    //     0x762fa8: bl              #0x75d9cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::rimHeight
+    //     0x762fa8: bl              #0x75d9cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::rimHeight
     // 0x762fac: ldur            x1, [fp, #-0x18]
     // 0x762fb0: ldur            x2, [fp, #-0x10]
     // 0x762fb4: stur            x0, [fp, #-0x18]
     // 0x762fb8: r0 = effectiveRimScoringHeight()
-    //     0x762fb8: bl              #0x763264  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::effectiveRimScoringHeight
+    //     0x762fb8: bl              #0x763264  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::effectiveRimScoringHeight
     // 0x762fbc: mov             x1, x0
     // 0x762fc0: ldur            x0, [fp, #-0x20]
     // 0x762fc4: cmp             w0, NULL
@@ -5014,7 +5014,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x7630a0: ldur            x2, [fp, #-0x10]
     // 0x7630a4: stur            x0, [fp, #-0x18]
     // 0x7630a8: r0 = pixelBoundingBox()
-    //     0x7630a8: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x7630a8: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x7630ac: mov             x1, x0
     // 0x7630b0: stur            x0, [fp, #-0x38]
     // 0x7630b4: r0 = center()
@@ -5031,7 +5031,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x7630d0: ldur            x2, [fp, #-0x10]
     // 0x7630d4: stur            d0, [fp, #-0x78]
     // 0x7630d8: r0 = pixelBoundingBox()
-    //     0x7630d8: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x7630d8: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x7630dc: LoadField: d0 = r0->field_1f
     //     0x7630dc: ldur            d0, [x0, #0x1f]
     // 0x7630e0: LoadField: d1 = r0->field_f
@@ -5046,7 +5046,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x7630fc: ldur            x2, [fp, #-0x10]
     // 0x763100: stur            d3, [fp, #-0x80]
     // 0x763104: r0 = pixelBoundingBox()
-    //     0x763104: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x763104: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x763108: mov             x1, x0
     // 0x76310c: stur            x0, [fp, #-0x20]
     // 0x763110: r0 = center()
@@ -5060,7 +5060,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x763124: ldur            x2, [fp, #-0x10]
     // 0x763128: stur            d0, [fp, #-0x88]
     // 0x76312c: r0 = pixelBoundingBox()
-    //     0x76312c: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x76312c: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x763130: LoadField: d0 = r0->field_1f
     //     0x763130: ldur            d0, [x0, #0x1f]
     // 0x763134: LoadField: d1 = r0->field_f
@@ -5176,7 +5176,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x7635f8: add             x2, x2, HEAP, lsl #32
     // 0x7635fc: ldr             x1, [fp, #0x10]
     // 0x763600: r0 = pixelCenter()
-    //     0x763600: bl              #0x7157cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
+    //     0x763600: bl              #0x7157cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
     // 0x763604: ldur            x16, [fp, #-8]
     // 0x763608: stp             x0, x16, [SP]
     // 0x76360c: ldur            x0, [fp, #-8]
@@ -5249,7 +5249,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x763a1c: cmp             SP, x16
     //     0x763a20: b.ls            #0x763bc0
     // 0x763a24: tbnz            x1, #0x3f, #0x763a64
-    // 0x763a28: r0 = InitLateStaticField(0x1080) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
+    // 0x763a28: r0 = InitLateStaticField(0x1080) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
     //     0x763a28: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x763a2c: ldr             x0, [x0, #0x2100]
     //     0x763a30: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -5304,7 +5304,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x763ab8: ldur            x2, [fp, #-0x10]
     // 0x763abc: ldur            x3, [fp, #-0x18]
     // 0x763ac0: r0 = _detectBouncePivotInCompletedTrajectory()
-    //     0x763ac0: bl              #0x763bd0  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_detectBouncePivotInCompletedTrajectory
+    //     0x763ac0: bl              #0x763bd0  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_detectBouncePivotInCompletedTrajectory
     // 0x763ac4: mov             x3, x0
     // 0x763ac8: ldur            x2, [fp, #-0x20]
     // 0x763acc: LoadField: r0 = r2->field_b
@@ -5379,7 +5379,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x763b88: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x763b8c: StoreField: r2->field_33 = r3
     //     0x763b8c: stur            x3, [x2, #0x33]
-    // 0x763b90: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x763b90: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x763b90: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x763b94: ldr             x0, [x0, #0x20e0]
     //     0x763b98: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -5463,7 +5463,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x763c70: mov             x1, x3
     // 0x763c74: mov             x2, x4
     // 0x763c78: r0 = bounceZoneGeometry()
-    //     0x763c78: bl              #0x76444c  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::bounceZoneGeometry
+    //     0x763c78: bl              #0x76444c  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::bounceZoneGeometry
     // 0x763c7c: stur            x0, [fp, #-0x38]
     // 0x763c80: cmp             w0, NULL
     // 0x763c84: b.ne            #0x763cc4
@@ -5494,7 +5494,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x763ccc: ldur            x1, [fp, #-0x30]
     // 0x763cd0: ldur            x2, [fp, #-0x28]
     // 0x763cd4: r0 = pixelBoundingBox()
-    //     0x763cd4: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x763cd4: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x763cd8: mov             x4, x0
     // 0x763cdc: ldur            x3, [fp, #-0x18]
     // 0x763ce0: stur            x4, [fp, #-0x58]
@@ -5570,7 +5570,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x763db8: add             x1, x1, HEAP, lsl #32
     // 0x763dbc: ldur            x2, [fp, #-0x28]
     // 0x763dc0: r0 = pixelBoundingBox()
-    //     0x763dc0: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x763dc0: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x763dc4: mov             x1, x0
     // 0x763dc8: stur            x0, [fp, #-0x38]
     // 0x763dcc: r0 = center()
@@ -5705,7 +5705,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x763f50: add             x1, x1, HEAP, lsl #32
     // 0x763f54: ldur            x2, [fp, #-0x28]
     // 0x763f58: r0 = pixelBoundingBox()
-    //     0x763f58: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x763f58: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x763f5c: mov             x1, x0
     // 0x763f60: stur            x0, [fp, #-0x68]
     // 0x763f64: r0 = center()
@@ -5804,7 +5804,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x764080: add             x1, x1, HEAP, lsl #32
     // 0x764084: ldur            x2, [fp, #-0x28]
     // 0x764088: r0 = pixelBoundingBox()
-    //     0x764088: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x764088: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x76408c: mov             x1, x0
     // 0x764090: stur            x0, [fp, #-0x68]
     // 0x764094: r0 = center()
@@ -6122,7 +6122,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x7647ec: mov             x1, x5
     // 0x7647f0: mov             x2, x0
     // 0x7647f4: r0 = pixelBoundingBox()
-    //     0x7647f4: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x7647f4: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x7647f8: mov             x1, x0
     // 0x7647fc: stur            x0, [fp, #-0x20]
     // 0x764800: r0 = center()
@@ -6157,7 +6157,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76484c: add             x1, x1, HEAP, lsl #32
     // 0x764850: ldur            x2, [fp, #-0x18]
     // 0x764854: r0 = pixelBoundingBox()
-    //     0x764854: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x764854: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x764858: mov             x1, x0
     // 0x76485c: stur            x0, [fp, #-0x20]
     // 0x764860: r0 = center()
@@ -6222,12 +6222,12 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x764988: mov             x1, x0
     // 0x76498c: mov             x2, x3
     // 0x764990: r0 = hoopRegionRect()
-    //     0x764990: bl              #0x75d7dc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::hoopRegionRect
+    //     0x764990: bl              #0x75d7dc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::hoopRegionRect
     // 0x764994: ldur            x1, [fp, #-0x18]
     // 0x764998: ldur            x2, [fp, #-0x10]
     // 0x76499c: stur            x0, [fp, #-0x18]
     // 0x7649a0: r0 = rimHeight()
-    //     0x7649a0: bl              #0x75d9cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::rimHeight
+    //     0x7649a0: bl              #0x75d9cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::rimHeight
     // 0x7649a4: mov             x1, x0
     // 0x7649a8: ldur            x0, [fp, #-0x18]
     // 0x7649ac: cmp             w0, NULL
@@ -6296,7 +6296,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x764a58: ldur            x2, [fp, #-0x10]
     // 0x764a5c: stur            x6, [fp, #-0x20]
     // 0x764a60: r0 = pixelBoundingBox()
-    //     0x764a60: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x764a60: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x764a64: mov             x1, x0
     // 0x764a68: stur            x0, [fp, #-0x18]
     // 0x764a6c: r0 = center()
@@ -6313,7 +6313,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x764a88: ldur            x2, [fp, #-0x10]
     // 0x764a8c: stur            d0, [fp, #-0x68]
     // 0x764a90: r0 = pixelBoundingBox()
-    //     0x764a90: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x764a90: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x764a94: LoadField: d0 = r0->field_1f
     //     0x764a94: ldur            d0, [x0, #0x1f]
     // 0x764a98: LoadField: d1 = r0->field_f
@@ -6414,7 +6414,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x764bc4: b.ls            #0x764d80
     // 0x764bc8: mov             x2, x0
     // 0x764bcc: r0 = bounceSideExitCorridor()
-    //     0x764bcc: bl              #0x763428  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::bounceSideExitCorridor
+    //     0x764bcc: bl              #0x763428  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::bounceSideExitCorridor
     // 0x764bd0: stur            x0, [fp, #-0x28]
     // 0x764bd4: cmp             w0, NULL
     // 0x764bd8: b.ne            #0x764bec
@@ -6468,7 +6468,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x764c54: mov             x1, x2
     // 0x764c58: ldur            x2, [fp, #-0x10]
     // 0x764c5c: r0 = pixelBoundingBox()
-    //     0x764c5c: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x764c5c: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x764c60: mov             x1, x0
     // 0x764c64: stur            x0, [fp, #-0x30]
     // 0x764c68: r0 = center()
@@ -6518,7 +6518,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x764cf4: mov             v0.16b, v1.16b
     // 0x764cf8: stur            d6, [fp, #-0x50]
     // 0x764cfc: r0 = halfWidthAt()
-    //     0x764cfc: bl              #0x763844  ; [package:ballai/video_tracking/models/object_detection.dart] BounceSideExitCorridor::halfWidthAt
+    //     0x764cfc: bl              #0x763844  ; [package:kourtai/video_tracking/models/object_detection.dart] BounceSideExitCorridor::halfWidthAt
     // 0x764d00: mov             v1.16b, v0.16b
     // 0x764d04: ldur            d0, [fp, #-0x50]
     // 0x764d08: fcmp            d1, d0
@@ -6529,7 +6529,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x764d1c: ldur            x1, [fp, #-0x28]
     // 0x764d20: ldur            x3, [fp, #-0x30]
     // 0x764d24: r0 = intersectsSegment()
-    //     0x764d24: bl              #0x764d90  ; [package:ballai/video_tracking/models/object_detection.dart] BounceSideExitCorridor::intersectsSegment
+    //     0x764d24: bl              #0x764d90  ; [package:kourtai/video_tracking/models/object_detection.dart] BounceSideExitCorridor::intersectsSegment
     // 0x764d28: tbnz            w0, #4, #0x764d3c
     // 0x764d2c: r0 = true
     //     0x764d2c: add             x0, NULL, #0x20  ; true
@@ -6611,7 +6611,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x7652bc: b.ls            #0x765494
     // 0x7652c0: mov             x2, x0
     // 0x7652c4: r0 = pixelBoundingBox()
-    //     0x7652c4: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x7652c4: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x7652c8: LoadField: d0 = r0->field_1f
     //     0x7652c8: ldur            d0, [x0, #0x1f]
     // 0x7652cc: stur            d0, [fp, #-0x40]
@@ -6723,7 +6723,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76540c: ldur            d0, [fp, #-0x40]
     // 0x765410: ldur            x2, [fp, #-0x18]
     // 0x765414: r0 = pixelBoundingBox()
-    //     0x765414: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x765414: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x765418: mov             x1, x0
     // 0x76541c: stur            x0, [fp, #-0x38]
     // 0x765420: r0 = center()
@@ -6812,7 +6812,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x765514: DecompressPointer r1
     //     0x765514: add             x1, x1, HEAP, lsl #32
     // 0x765518: r0 = realDetectionCount()
-    //     0x765518: bl              #0x7648dc  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_gap_interpolator.dart] TrajectoryGapInterpolator::realDetectionCount
+    //     0x765518: bl              #0x7648dc  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_gap_interpolator.dart] TrajectoryGapInterpolator::realDetectionCount
     // 0x76551c: cmp             x0, #4
     // 0x765520: b.ge            #0x765534
     // 0x765524: r0 = false
@@ -6825,7 +6825,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x765534: ldur            x1, [fp, #-0x20]
     // 0x765538: ldur            x2, [fp, #-0x18]
     // 0x76553c: r0 = pixelBoundingBox()
-    //     0x76553c: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x76553c: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x765540: stur            x0, [fp, #-0x28]
     // 0x765544: ArrayLoad: d0 = r0[0]  ; List_8
     //     0x765544: ldur            d0, [x0, #0x17]
@@ -6863,7 +6863,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x7655a0: ldur            x2, [fp, #-0x18]
     // 0x7655a4: ldur            x3, [fp, #-0x20]
     // 0x7655a8: r0 = densify()
-    //     0x7655a8: bl              #0x75dd60  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_gap_interpolator.dart] TrajectoryGapInterpolator::densify
+    //     0x7655a8: bl              #0x75dd60  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_gap_interpolator.dart] TrajectoryGapInterpolator::densify
     // 0x7655ac: b               #0x7655b4
     // 0x7655b0: mov             x0, x1
     // 0x7655b4: stur            x0, [fp, #-8]
@@ -6953,7 +6953,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x7656a0: mov             x1, x2
     // 0x7656a4: ldur            x2, [fp, #-0x18]
     // 0x7656a8: r0 = pixelBoundingBox()
-    //     0x7656a8: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x7656a8: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x7656ac: mov             x1, x0
     // 0x7656b0: stur            x0, [fp, #-0x20]
     // 0x7656b4: r0 = center()
@@ -6978,7 +6978,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x7656e4: mov             x1, x0
     // 0x7656e8: ldur            x2, [fp, #-0x28]
     // 0x7656ec: r0 = _distanceToRect()
-    //     0x7656ec: bl              #0x7191dc  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_distanceToRect
+    //     0x7656ec: bl              #0x7191dc  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_distanceToRect
     // 0x7656f0: r2 = inline_Allocate_Double()
     //     0x7656f0: ldp             x2, x0, [THR, #0x50]  ; THR::top
     //     0x7656f4: add             x2, x2, #0x10
@@ -7186,7 +7186,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x765948: ldur            x0, [x1, #7]
     // 0x76594c: stur            x0, [fp, #-8]
     // 0x765950: tbnz            x0, #0x3f, #0x765990
-    // 0x765954: r0 = InitLateStaticField(0x1080) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
+    // 0x765954: r0 = InitLateStaticField(0x1080) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
     //     0x765954: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x765958: ldr             x0, [x0, #0x2100]
     //     0x76595c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -7237,7 +7237,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x7659dc: ldp             fp, lr, [SP], #0x10
     // 0x7659e0: ret
     //     0x7659e0: ret             
-    // 0x7659e4: r0 = InitLateStaticField(0x107c) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
+    // 0x7659e4: r0 = InitLateStaticField(0x107c) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
     //     0x7659e4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x7659e8: ldr             x0, [x0, #0x20f8]
     //     0x7659ec: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -7248,7 +7248,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x765a00: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x765a04: mov             x1, x0
     // 0x765a08: r0 = effectiveSelectedHoop()
-    //     0x765a08: bl              #0x779264  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
+    //     0x765a08: bl              #0x779264  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
     // 0x765a0c: stur            x0, [fp, #-0x20]
     // 0x765a10: cmp             w0, NULL
     // 0x765a14: b.ne            #0x765a28
@@ -7262,12 +7262,12 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x765a28: mov             x1, x0
     // 0x765a2c: ldur            x2, [fp, #-0x10]
     // 0x765a30: r0 = hoopRegionRect()
-    //     0x765a30: bl              #0x75d7dc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::hoopRegionRect
+    //     0x765a30: bl              #0x75d7dc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::hoopRegionRect
     // 0x765a34: ldur            x1, [fp, #-0x20]
     // 0x765a38: ldur            x2, [fp, #-0x10]
     // 0x765a3c: stur            x0, [fp, #-0x28]
     // 0x765a40: r0 = rimHeight()
-    //     0x765a40: bl              #0x75d9cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::rimHeight
+    //     0x765a40: bl              #0x75d9cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::rimHeight
     // 0x765a44: mov             x3, x0
     // 0x765a48: ldur            x2, [fp, #-0x28]
     // 0x765a4c: cmp             w2, NULL
@@ -7355,7 +7355,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x765b2c: ldur            x2, [fp, #-0x10]
     // 0x765b30: stur            x8, [fp, #-0x30]
     // 0x765b34: r0 = pixelBoundingBox()
-    //     0x765b34: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x765b34: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x765b38: mov             x1, x0
     // 0x765b3c: stur            x0, [fp, #-0x48]
     // 0x765b40: r0 = center()
@@ -7372,7 +7372,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x765b5c: ldur            x2, [fp, #-0x10]
     // 0x765b60: stur            d0, [fp, #-0x88]
     // 0x765b64: r0 = pixelBoundingBox()
-    //     0x765b64: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x765b64: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x765b68: LoadField: d0 = r0->field_1f
     //     0x765b68: ldur            d0, [x0, #0x1f]
     // 0x765b6c: LoadField: d1 = r0->field_f
@@ -7457,7 +7457,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x765c68: r4 = const [0, 0x4, 0, 0x4, null]
     //     0x765c68: ldr             x4, [PP, #0xc08]  ; [pp+0xc08] List(5) [0, 0x4, 0, 0x4, Null]
     // 0x765c6c: r0 = ObjectDetection()
-    //     0x765c6c: bl              #0x715118  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::ObjectDetection
+    //     0x765c6c: bl              #0x715118  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::ObjectDetection
     // 0x765c70: ldur            x0, [fp, #-0x28]
     // 0x765c74: ldur            x1, [fp, #-0x50]
     // 0x765c78: StoreField: r1->field_43 = r0
@@ -7572,7 +7572,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x765dc0: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x765dc4: cmp             SP, x16
     //     0x765dc8: b.ls            #0x765f24
-    // 0x765dcc: r0 = InitLateStaticField(0x1080) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
+    // 0x765dcc: r0 = InitLateStaticField(0x1080) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
     //     0x765dcc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x765dd0: ldr             x0, [x0, #0x2100]
     //     0x765dd4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -7608,7 +7608,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x765e28: ldur            x2, [fp, #-0x18]
     // 0x765e2c: stur            x5, [fp, #-8]
     // 0x765e30: r1 = Function '<anonymous closure>': static.
-    //     0x765e30: add             x1, PP, #0x32, lsl #12  ; [pp+0x32d88] AnonymousClosure: static (0x766164), in [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_pruneOldDetections (0x765d6c)
+    //     0x765e30: add             x1, PP, #0x32, lsl #12  ; [pp+0x32d88] AnonymousClosure: static (0x766164), in [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_pruneOldDetections (0x765d6c)
     //     0x765e34: ldr             x1, [x1, #0xd88]
     // 0x765e38: r0 = AllocateClosure()
     //     0x765e38: bl              #0xe553e0  ; AllocateClosureStub
@@ -7747,7 +7747,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x7661d0: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x7661d4: cmp             SP, x16
     //     0x7661d8: b.ls            #0x7666a8
-    // 0x7661dc: r0 = InitLateStaticField(0x107c) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
+    // 0x7661dc: r0 = InitLateStaticField(0x107c) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
     //     0x7661dc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x7661e0: ldr             x0, [x0, #0x20f8]
     //     0x7661e4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -7770,7 +7770,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x766218: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x76621c: cmp             SP, x16
     //     0x766220: b.ls            #0x7666b0
-    // 0x766224: r0 = InitLateStaticField(0x1080) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
+    // 0x766224: r0 = InitLateStaticField(0x1080) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
     //     0x766224: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x766228: ldr             x0, [x0, #0x2100]
     //     0x76622c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -7814,7 +7814,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76629c: ldur            x1, [fp, #-0x20]
     // 0x7662a0: ldur            x2, [fp, #-0x10]
     // 0x7662a4: r0 = _captureHoopSnapshotIfNeeded()
-    //     0x7662a4: bl              #0x765924  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_captureHoopSnapshotIfNeeded
+    //     0x7662a4: bl              #0x765924  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_captureHoopSnapshotIfNeeded
     // 0x7662a8: ldur            x2, [fp, #-0x28]
     // 0x7662ac: LoadField: r0 = r2->field_b
     //     0x7662ac: ldur            w0, [x2, #0xb]
@@ -7842,7 +7842,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x7662e8: b.ne            #0x7662fc
     // 0x7662ec: ldur            x1, [fp, #-0x18]
     // 0x7662f0: r0 = effectiveSelectedHoop()
-    //     0x7662f0: bl              #0x779264  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
+    //     0x7662f0: bl              #0x779264  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
     // 0x7662f4: mov             x4, x0
     // 0x7662f8: b               #0x766300
     // 0x7662fc: mov             x4, x0
@@ -7871,7 +7871,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x766340: ldur            x2, [fp, #-0x10]
     // 0x766344: mov             x3, x4
     // 0x766348: r0 = _hasTouchedBounceSideExitCorridor()
-    //     0x766348: bl              #0x764b98  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_hasTouchedBounceSideExitCorridor
+    //     0x766348: bl              #0x764b98  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_hasTouchedBounceSideExitCorridor
     // 0x76634c: tbz             w0, #4, #0x766394
     // 0x766350: ldur            x5, [fp, #-8]
     // 0x766354: ldur            x4, [fp, #-0x28]
@@ -7895,7 +7895,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x766384: ldur            x2, [fp, #-0x10]
     // 0x766388: ldur            x3, [fp, #-0x20]
     // 0x76638c: r0 = _trajectoryHasEnteredHoopRegion()
-    //     0x76638c: bl              #0x764958  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectoryHasEnteredHoopRegion
+    //     0x76638c: bl              #0x764958  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectoryHasEnteredHoopRegion
     // 0x766390: tbnz            w0, #4, #0x766680
     // 0x766394: ldur            x4, [fp, #-8]
     // 0x766398: ldur            x0, [fp, #-0x28]
@@ -7903,7 +7903,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x7663a0: ldur            x2, [fp, #-0x10]
     // 0x7663a4: ldur            x3, [fp, #-0x20]
     // 0x7663a8: r0 = _resolveBounceBeforeScoring()
-    //     0x7663a8: bl              #0x763a00  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_resolveBounceBeforeScoring
+    //     0x7663a8: bl              #0x763a00  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_resolveBounceBeforeScoring
     // 0x7663ac: ldur            x4, [fp, #-0x28]
     // 0x7663b0: LoadField: r0 = r4->field_b
     //     0x7663b0: ldur            w0, [x4, #0xb]
@@ -7931,7 +7931,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x7663ec: ldur            x2, [fp, #-0x10]
     // 0x7663f0: ldur            x3, [fp, #-0x20]
     // 0x7663f4: r0 = densify()
-    //     0x7663f4: bl              #0x75dd60  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_gap_interpolator.dart] TrajectoryGapInterpolator::densify
+    //     0x7663f4: bl              #0x75dd60  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_gap_interpolator.dart] TrajectoryGapInterpolator::densify
     // 0x7663f8: mov             x6, x0
     // 0x7663fc: ldur            x4, [fp, #-0x28]
     // 0x766400: stur            x6, [fp, #-0x30]
@@ -7957,7 +7957,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x766438: ldur            x3, [fp, #-0x10]
     // 0x76643c: ldur            x5, [fp, #-0x20]
     // 0x766440: r0 = _scoringCrossing()
-    //     0x766440: bl              #0x762f34  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringCrossing
+    //     0x766440: bl              #0x762f34  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringCrossing
     // 0x766444: cmp             w0, NULL
     // 0x766448: b.eq            #0x766474
     // 0x76644c: ldur            x16, [fp, #-0x30]
@@ -7971,13 +7971,13 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x766464: add             x4, PP, #0x31, lsl #12  ; [pp+0x31e98] List(7) [0, 0x4, 0x1, 0x3, "densified", 0x3, Null]
     //     0x766468: ldr             x4, [x4, #0xe98]
     // 0x76646c: r0 = _completeTrajectoryScore()
-    //     0x76646c: bl              #0x71a6cc  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_completeTrajectoryScore
+    //     0x76646c: bl              #0x71a6cc  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_completeTrajectoryScore
     // 0x766470: tbz             w0, #4, #0x766680
     // 0x766474: ldur            x1, [fp, #-0x30]
     // 0x766478: ldur            x2, [fp, #-0x10]
     // 0x76647c: ldur            x3, [fp, #-0x20]
     // 0x766480: r0 = centerCrossedTopAndBottom()
-    //     0x766480: bl              #0x76209c  ; [package:ballai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::centerCrossedTopAndBottom
+    //     0x766480: bl              #0x76209c  ; [package:kourtai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::centerCrossedTopAndBottom
     // 0x766484: tbnz            w0, #4, #0x7664b0
     // 0x766488: ldur            x16, [fp, #-0x30]
     // 0x76648c: str             x16, [SP]
@@ -7990,7 +7990,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x7664a0: add             x4, PP, #0x31, lsl #12  ; [pp+0x31e98] List(7) [0, 0x4, 0x1, 0x3, "densified", 0x3, Null]
     //     0x7664a4: ldr             x4, [x4, #0xe98]
     // 0x7664a8: r0 = _completeTrajectoryScore()
-    //     0x7664a8: bl              #0x71a6cc  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_completeTrajectoryScore
+    //     0x7664a8: bl              #0x71a6cc  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_completeTrajectoryScore
     // 0x7664ac: tbz             w0, #4, #0x766680
     // 0x7664b0: ldur            x6, [fp, #-8]
     // 0x7664b4: ldur            x4, [fp, #-0x28]
@@ -8015,7 +8015,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x7664e8: ldur            x3, [fp, #-0x10]
     // 0x7664ec: ldur            x5, [fp, #-0x20]
     // 0x7664f0: r0 = _bouncedUpOffRim()
-    //     0x7664f0: bl              #0x761d90  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_bouncedUpOffRim
+    //     0x7664f0: bl              #0x761d90  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_bouncedUpOffRim
     // 0x7664f4: tbnz            w0, #4, #0x766520
     // 0x7664f8: ldur            x16, [fp, #-0x30]
     // 0x7664fc: str             x16, [SP]
@@ -8028,7 +8028,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x766510: add             x4, PP, #0x31, lsl #12  ; [pp+0x31e98] List(7) [0, 0x4, 0x1, 0x3, "densified", 0x3, Null]
     //     0x766514: ldr             x4, [x4, #0xe98]
     // 0x766518: r0 = _completeTrajectoryScore()
-    //     0x766518: bl              #0x71a6cc  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_completeTrajectoryScore
+    //     0x766518: bl              #0x71a6cc  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_completeTrajectoryScore
     // 0x76651c: tbz             w0, #4, #0x766680
     // 0x766520: ldur            x6, [fp, #-8]
     // 0x766524: ldur            x4, [fp, #-0x28]
@@ -8063,7 +8063,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x766570: add             x4, PP, #0x32, lsl #12  ; [pp+0x32d98] List(9) [0, 0x6, 0x2, 0x4, "densified", 0x4, "isScorable", 0x5, Null]
     //     0x766574: ldr             x4, [x4, #0xd98]
     // 0x766578: r0 = _isSideExitMiss()
-    //     0x766578: bl              #0x76282c  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_isSideExitMiss
+    //     0x766578: bl              #0x76282c  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_isSideExitMiss
     // 0x76657c: tbnz            w0, #4, #0x766608
     // 0x766580: ldur            x5, [fp, #-8]
     // 0x766584: ldur            x4, [fp, #-0x28]
@@ -8100,9 +8100,9 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x7665d8: add             x4, PP, #0x31, lsl #12  ; [pp+0x31e98] List(7) [0, 0x4, 0x1, 0x3, "densified", 0x3, Null]
     //     0x7665dc: ldr             x4, [x4, #0xe98]
     // 0x7665e0: r0 = _completeTrajectoryScore()
-    //     0x7665e0: bl              #0x71a6cc  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_completeTrajectoryScore
+    //     0x7665e0: bl              #0x71a6cc  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_completeTrajectoryScore
     // 0x7665e4: tbz             w0, #4, #0x766680
-    // 0x7665e8: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x7665e8: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x7665e8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x7665ec: ldr             x0, [x0, #0x20e0]
     //     0x7665f0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -8138,7 +8138,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76664c: add             x4, PP, #0x31, lsl #12  ; [pp+0x31e98] List(7) [0, 0x4, 0x1, 0x3, "densified", 0x3, Null]
     //     0x766650: ldr             x4, [x4, #0xe98]
     // 0x766654: r0 = _isRimVisitAndDeparture()
-    //     0x766654: bl              #0x7654a4  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_isRimVisitAndDeparture
+    //     0x766654: bl              #0x7654a4  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_isRimVisitAndDeparture
     // 0x766658: tbnz            w0, #4, #0x766680
     // 0x76665c: ldur            x16, [fp, #-0x30]
     // 0x766660: str             x16, [SP]
@@ -8151,7 +8151,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x766674: add             x4, PP, #0x31, lsl #12  ; [pp+0x31e98] List(7) [0, 0x4, 0x1, 0x3, "densified", 0x3, Null]
     //     0x766678: ldr             x4, [x4, #0xe98]
     // 0x76667c: r0 = _completeTrajectoryScore()
-    //     0x76667c: bl              #0x71a6cc  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_completeTrajectoryScore
+    //     0x76667c: bl              #0x71a6cc  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_completeTrajectoryScore
     // 0x766680: ldur            x1, [fp, #-8]
     // 0x766684: add             x0, x1, #1
     // 0x766688: mov             x1, x0
@@ -8205,10 +8205,10 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x7666f4: cmp             SP, x16
     //     0x7666f8: b.ls            #0x766a94
     // 0x7666fc: r0 = _scoringHoop()
-    //     0x7666fc: bl              #0x719450  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringHoop
+    //     0x7666fc: bl              #0x719450  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringHoop
     // 0x766700: cmp             w0, NULL
     // 0x766704: b.ne            #0x766730
-    // 0x766708: r0 = InitLateStaticField(0x107c) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
+    // 0x766708: r0 = InitLateStaticField(0x107c) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
     //     0x766708: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76670c: ldr             x0, [x0, #0x20f8]
     //     0x766710: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -8219,7 +8219,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x766724: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x766728: mov             x1, x0
     // 0x76672c: r0 = effectiveSelectedHoop()
-    //     0x76672c: bl              #0x779264  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
+    //     0x76672c: bl              #0x779264  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
     // 0x766730: stur            x0, [fp, #-0x18]
     // 0x766734: cmp             w0, NULL
     // 0x766738: b.ne            #0x76674c
@@ -8233,7 +8233,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76674c: mov             x1, x0
     // 0x766750: ldur            x2, [fp, #-0x10]
     // 0x766754: r0 = pixelBoundingBox()
-    //     0x766754: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x766754: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x766758: mov             x2, x0
     // 0x76675c: stur            x2, [fp, #-0x20]
     // 0x766760: ArrayLoad: d0 = r2[0]  ; List_8
@@ -8299,7 +8299,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x766814: mov             x1, x0
     // 0x766818: stur            x0, [fp, #-0x28]
     // 0x76681c: r0 = isBall()
-    //     0x76681c: bl              #0x76e524  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::isBall
+    //     0x76681c: bl              #0x76e524  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::isBall
     // 0x766820: tbnz            w0, #4, #0x76689c
     // 0x766824: ldur            x1, [fp, #-0x28]
     // 0x766828: ArrayLoad: r2 = r1[0]  ; List_4
@@ -8308,7 +8308,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76682c: add             x2, x2, HEAP, lsl #32
     // 0x766830: ldur            x3, [fp, #-0x10]
     // 0x766834: r0 = _pixelRect()
-    //     0x766834: bl              #0x71586c  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::_pixelRect
+    //     0x766834: bl              #0x71586c  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::_pixelRect
     // 0x766838: ArrayLoad: d0 = r0[0]  ; List_8
     //     0x766838: ldur            d0, [x0, #0x17]
     // 0x76683c: LoadField: d1 = r0->field_7
@@ -8339,7 +8339,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76688c: mov             x1, x0
     // 0x766890: ldur            x2, [fp, #-0x20]
     // 0x766894: r0 = _isDeepInRim()
-    //     0x766894: bl              #0x75d044  ; [package:ballai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::_isDeepInRim
+    //     0x766894: bl              #0x75d044  ; [package:kourtai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::_isDeepInRim
     // 0x766898: tbz             w0, #4, #0x7668a4
     // 0x76689c: ldur            x2, [fp, #-8]
     // 0x7668a0: b               #0x7667c8
@@ -8349,7 +8349,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x7668ac: r0 = false
     //     0x7668ac: add             x0, NULL, #0x30  ; false
     // 0x7668b0: tbz             w0, #4, #0x766a58
-    // 0x7668b4: r0 = InitLateStaticField(0x1080) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
+    // 0x7668b4: r0 = InitLateStaticField(0x1080) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
     //     0x7668b4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x7668b8: ldr             x0, [x0, #0x2100]
     //     0x7668bc: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -8447,7 +8447,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x7669bc: add             x1, x1, HEAP, lsl #32
     // 0x7669c0: ldur            x2, [fp, #-0x10]
     // 0x7669c4: r0 = positionsAfterLastUpwardMove()
-    //     0x7669c4: bl              #0x75d318  ; [package:ballai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::positionsAfterLastUpwardMove
+    //     0x7669c4: bl              #0x75d318  ; [package:kourtai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::positionsAfterLastUpwardMove
     // 0x7669c8: mov             x2, x0
     // 0x7669cc: stur            x2, [fp, #-0x40]
     // 0x7669d0: r0 = LoadClassIdInstr(r2)
@@ -8472,7 +8472,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x766a0c: ldur            x2, [fp, #-0x10]
     // 0x766a10: stur            x0, [fp, #-8]
     // 0x766a14: r0 = lastMoveWasUpward()
-    //     0x766a14: bl              #0x75d1e0  ; [package:ballai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::lastMoveWasUpward
+    //     0x766a14: bl              #0x75d1e0  ; [package:kourtai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::lastMoveWasUpward
     // 0x766a18: tbz             w0, #4, #0x766a34
     // 0x766a1c: ldur            x1, [fp, #-8]
     // 0x766a20: ldur            x2, [fp, #-0x10]
@@ -8480,7 +8480,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x766a28: r4 = const [0, 0x3, 0, 0x3, null]
     //     0x766a28: ldr             x4, [PP, #0x8a0]  ; [pp+0x8a0] List(5) [0, 0x3, 0, 0x3, Null]
     // 0x766a2c: r0 = ballOccupiedRimBox()
-    //     0x766a2c: bl              #0x75cd68  ; [package:ballai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::ballOccupiedRimBox
+    //     0x766a2c: bl              #0x75cd68  ; [package:kourtai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::ballOccupiedRimBox
     // 0x766a30: tbz             w0, #4, #0x766a58
     // 0x766a34: ldur            x0, [fp, #-0x30]
     // 0x766a38: ldur            x3, [fp, #-0x28]
@@ -8495,11 +8495,11 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x766a54: ret
     //     0x766a54: ret             
     // 0x766a58: r0 = pulseHighlight()
-    //     0x766a58: bl              #0x75ccf8  ; [package:ballai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::pulseHighlight
+    //     0x766a58: bl              #0x75ccf8  ; [package:kourtai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::pulseHighlight
     // 0x766a5c: r0 = _markTrackingRimOccupancy()
-    //     0x766a5c: bl              #0x76aca4  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_markTrackingRimOccupancy
+    //     0x766a5c: bl              #0x76aca4  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_markTrackingRimOccupancy
     // 0x766a60: r0 = tryUpgradeBounceMissToMake()
-    //     0x766a60: bl              #0x766aac  ; [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::tryUpgradeBounceMissToMake
+    //     0x766a60: bl              #0x766aac  ; [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::tryUpgradeBounceMissToMake
     // 0x766a64: r0 = Null
     //     0x766a64: mov             x0, NULL
     // 0x766a68: LeaveFrame
@@ -8539,7 +8539,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76acb0: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x76acb4: cmp             SP, x16
     //     0x76acb8: b.ls            #0x76ae14
-    // 0x76acbc: r0 = InitLateStaticField(0x1080) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
+    // 0x76acbc: r0 = InitLateStaticField(0x1080) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
     //     0x76acbc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76acc0: ldr             x0, [x0, #0x2100]
     //     0x76acc4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -8723,7 +8723,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76aeb0: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x76aeb4: cmp             SP, x16
     //     0x76aeb8: b.ls            #0x76b418
-    // 0x76aebc: r0 = InitLateStaticField(0x1080) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
+    // 0x76aebc: r0 = InitLateStaticField(0x1080) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
     //     0x76aebc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76aec0: ldr             x0, [x0, #0x2100]
     //     0x76aec4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -8820,7 +8820,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76afc4: add             x1, x1, HEAP, lsl #32
     // 0x76afc8: ldur            x2, [fp, #-0x18]
     // 0x76afcc: r0 = _shouldExtrapolateTrajectory()
-    //     0x76afcc: bl              #0x76ca70  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_shouldExtrapolateTrajectory
+    //     0x76afcc: bl              #0x76ca70  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_shouldExtrapolateTrajectory
     // 0x76afd0: tbnz            w0, #4, #0x76b39c
     // 0x76afd4: ldur            x5, [fp, #-8]
     // 0x76afd8: ldur            x2, [fp, #-0x20]
@@ -8869,7 +8869,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76b040: add             x6, x6, HEAP, lsl #32
     // 0x76b044: cmp             w6, NULL
     // 0x76b048: b.ne            #0x76b07c
-    // 0x76b04c: r0 = InitLateStaticField(0x107c) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
+    // 0x76b04c: r0 = InitLateStaticField(0x107c) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
     //     0x76b04c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76b050: ldr             x0, [x0, #0x20f8]
     //     0x76b054: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -8880,7 +8880,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76b068: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x76b06c: mov             x1, x0
     // 0x76b070: r0 = effectiveSelectedHoop()
-    //     0x76b070: bl              #0x779264  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
+    //     0x76b070: bl              #0x779264  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
     // 0x76b074: mov             x5, x0
     // 0x76b078: b               #0x76b080
     // 0x76b07c: mov             x5, x6
@@ -8893,7 +8893,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76b094: ldur            x1, [fp, #-0x40]
     // 0x76b098: ldur            x3, [fp, #-0x18]
     // 0x76b09c: r0 = extrapolateToFrame()
-    //     0x76b09c: bl              #0x76c520  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_gap_interpolator.dart] TrajectoryGapInterpolator::extrapolateToFrame
+    //     0x76b09c: bl              #0x76c520  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_gap_interpolator.dart] TrajectoryGapInterpolator::extrapolateToFrame
     // 0x76b0a0: mov             x2, x0
     // 0x76b0a4: ldur            x5, [fp, #-8]
     // 0x76b0a8: stur            x2, [fp, #-0x30]
@@ -9087,7 +9087,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76b2d8: DecompressPointer r1
     //     0x76b2d8: add             x1, x1, HEAP, lsl #32
     // 0x76b2dc: r0 = _updateTrajectoryDerivedMetrics()
-    //     0x76b2dc: bl              #0x76b978  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_updateTrajectoryDerivedMetrics
+    //     0x76b2dc: bl              #0x76b978  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_updateTrajectoryDerivedMetrics
     // 0x76b2e0: ldur            x5, [fp, #-8]
     // 0x76b2e4: LoadField: r0 = r5->field_f
     //     0x76b2e4: ldur            w0, [x5, #0xf]
@@ -9144,8 +9144,8 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76b374: r1 = true
     //     0x76b374: add             x1, NULL, #0x20  ; true
     // 0x76b378: r0 = _logBallRegionEvents()
-    //     0x76b378: bl              #0x76b584  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_logBallRegionEvents
-    // 0x76b37c: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    //     0x76b378: bl              #0x76b584  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_logBallRegionEvents
+    // 0x76b37c: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x76b37c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76b380: ldr             x0, [x0, #0x20e0]
     //     0x76b384: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -9230,7 +9230,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76b5a8: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x76b5ac: cmp             SP, x16
     //     0x76b5b0: b.ls            #0x76b8cc
-    // 0x76b5b4: r0 = InitLateStaticField(0x107c) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
+    // 0x76b5b4: r0 = InitLateStaticField(0x107c) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
     //     0x76b5b4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76b5b8: ldr             x0, [x0, #0x20f8]
     //     0x76b5bc: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -9241,7 +9241,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76b5d0: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x76b5d4: stur            x0, [fp, #-0x20]
     // 0x76b5d8: r0 = _scoringHoop()
-    //     0x76b5d8: bl              #0x719450  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringHoop
+    //     0x76b5d8: bl              #0x719450  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringHoop
     // 0x76b5dc: mov             x3, x0
     // 0x76b5e0: ldur            x0, [fp, #-0x20]
     // 0x76b5e4: stur            x3, [fp, #-0x30]
@@ -9265,7 +9265,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76b618: b.lt            #0x76b654
     // 0x76b61c: cmp             w3, NULL
     // 0x76b620: b.ne            #0x76b644
-    // 0x76b624: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x76b624: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x76b624: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76b628: ldr             x0, [x0, #0x20e0]
     //     0x76b62c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -9284,12 +9284,12 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76b654: mov             x1, x3
     // 0x76b658: mov             x2, x4
     // 0x76b65c: r0 = hoopRegionRect()
-    //     0x76b65c: bl              #0x75d7dc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::hoopRegionRect
+    //     0x76b65c: bl              #0x75d7dc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::hoopRegionRect
     // 0x76b660: ldur            x1, [fp, #-0x30]
     // 0x76b664: ldur            x2, [fp, #-0x28]
     // 0x76b668: stur            x0, [fp, #-0x20]
     // 0x76b66c: r0 = rimHeight()
-    //     0x76b66c: bl              #0x75d9cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::rimHeight
+    //     0x76b66c: bl              #0x75d9cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::rimHeight
     // 0x76b670: mov             x3, x0
     // 0x76b674: ldur            x0, [fp, #-0x20]
     // 0x76b678: stur            x3, [fp, #-0x30]
@@ -9309,12 +9309,12 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76b6a4: ldur            x1, [fp, #-0x10]
     // 0x76b6a8: ldur            x2, [fp, #-0x28]
     // 0x76b6ac: r0 = pixelCenter()
-    //     0x76b6ac: bl              #0x7157cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
+    //     0x76b6ac: bl              #0x7157cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
     // 0x76b6b0: ldur            x1, [fp, #-0x10]
     // 0x76b6b4: ldur            x2, [fp, #-0x28]
     // 0x76b6b8: stur            x0, [fp, #-0x10]
     // 0x76b6bc: r0 = pixelSize()
-    //     0x76b6bc: bl              #0x75d48c  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelSize
+    //     0x76b6bc: bl              #0x75d48c  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelSize
     // 0x76b6c0: mov             x1, x0
     // 0x76b6c4: ldur            x0, [fp, #-0x10]
     // 0x76b6c8: LoadField: d0 = r0->field_f
@@ -9338,7 +9338,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76b6fc: ldur            x1, [fp, #-0x18]
     // 0x76b700: stur            d0, [fp, #-0x40]
     // 0x76b704: r0 = _logStateFor()
-    //     0x76b704: bl              #0x76b8d4  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_logStateFor
+    //     0x76b704: bl              #0x76b8d4  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_logStateFor
     // 0x76b708: mov             x3, x0
     // 0x76b70c: ldur            x0, [fp, #-0x18]
     // 0x76b710: stur            x3, [fp, #-0x30]
@@ -9357,7 +9357,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76b72c: bl              #0x5cfc10  ; [dart:core] _StringBase::substring
     // 0x76b730: ldur            x0, [fp, #-8]
     // 0x76b734: tbnz            w0, #4, #0x76b758
-    // 0x76b738: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x76b738: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x76b738: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76b73c: ldr             x0, [x0, #0x20e0]
     //     0x76b740: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -9378,7 +9378,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76b770: add             x2, NULL, #0x20  ; true
     // 0x76b774: StoreField: r1->field_7 = r2
     //     0x76b774: stur            w2, [x1, #7]
-    // 0x76b778: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x76b778: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x76b778: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76b77c: ldr             x0, [x0, #0x20e0]
     //     0x76b780: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -9403,7 +9403,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76b7c0: add             x2, NULL, #0x20  ; true
     // 0x76b7c4: StoreField: r1->field_b = r2
     //     0x76b7c4: stur            w2, [x1, #0xb]
-    // 0x76b7c8: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x76b7c8: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x76b7c8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76b7cc: ldr             x0, [x0, #0x20e0]
     //     0x76b7d0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -9431,7 +9431,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76b814: add             x1, NULL, #0x20  ; true
     // 0x76b818: StoreField: r0->field_f = r1
     //     0x76b818: stur            w1, [x0, #0xf]
-    // 0x76b81c: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x76b81c: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x76b81c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76b820: ldr             x0, [x0, #0x20e0]
     //     0x76b824: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -9474,7 +9474,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76b890: ldur            d1, [x3, #0xf]
     // 0x76b894: fcmp            d1, d0
     // 0x76b898: b.gt            #0x76b89c
-    // 0x76b89c: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x76b89c: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x76b89c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76b8a0: ldr             x0, [x0, #0x20e0]
     //     0x76b8a4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -9507,7 +9507,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76b8e4: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x76b8e8: cmp             SP, x16
     //     0x76b8ec: b.ls            #0x76b938
-    // 0x76b8f0: r0 = InitLateStaticField(0x1098) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_logStateByTrajectoryId
+    // 0x76b8f0: r0 = InitLateStaticField(0x1098) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_logStateByTrajectoryId
     //     0x76b8f0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76b8f4: ldr             x0, [x0, #0x2130]
     //     0x76b8f8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -9553,7 +9553,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76b998: ldur            x0, [x1, #7]
     // 0x76b99c: stur            x0, [fp, #-8]
     // 0x76b9a0: tbnz            x0, #0x3f, #0x76b9dc
-    // 0x76b9a4: r0 = InitLateStaticField(0x1080) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
+    // 0x76b9a4: r0 = InitLateStaticField(0x1080) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
     //     0x76b9a4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76b9a8: ldr             x0, [x0, #0x2100]
     //     0x76b9ac: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -9577,7 +9577,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76b9e4: ldp             fp, lr, [SP], #0x10
     // 0x76b9e8: ret
     //     0x76b9e8: ret             
-    // 0x76b9ec: r0 = InitLateStaticField(0x107c) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
+    // 0x76b9ec: r0 = InitLateStaticField(0x107c) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
     //     0x76b9ec: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76b9f0: ldr             x0, [x0, #0x20f8]
     //     0x76b9f4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -9698,12 +9698,12 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76bb48: ldur            x2, [fp, #-0x38]
     // 0x76bb4c: stur            x0, [fp, #-0x28]
     // 0x76bb50: r0 = pixelCenter()
-    //     0x76bb50: bl              #0x7157cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
+    //     0x76bb50: bl              #0x7157cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
     // 0x76bb54: ldur            x1, [fp, #-0x20]
     // 0x76bb58: ldur            x2, [fp, #-0x38]
     // 0x76bb5c: stur            x0, [fp, #-0x40]
     // 0x76bb60: r0 = pixelCenter()
-    //     0x76bb60: bl              #0x7157cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
+    //     0x76bb60: bl              #0x7157cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
     // 0x76bb64: mov             x3, x0
     // 0x76bb68: ldur            x2, [fp, #-0x10]
     // 0x76bb6c: LoadField: r0 = r2->field_b
@@ -9801,7 +9801,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76bc88: ret
     //     0x76bc88: ret             
     // 0x76bc8c: r0 = _scoringHoopFor()
-    //     0x76bc8c: bl              #0x71a66c  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringHoopFor
+    //     0x76bc8c: bl              #0x71a66c  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringHoopFor
     // 0x76bc90: mov             x2, x0
     // 0x76bc94: stur            x2, [fp, #-0x48]
     // 0x76bc98: cmp             w2, NULL
@@ -9899,7 +9899,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76bda4: ldur            x2, [fp, #-0x38]
     // 0x76bda8: stur            x0, [fp, #-0x28]
     // 0x76bdac: r0 = pixelCenter()
-    //     0x76bdac: bl              #0x7157cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
+    //     0x76bdac: bl              #0x7157cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
     // 0x76bdb0: LoadField: d0 = r0->field_f
     //     0x76bdb0: ldur            d0, [x0, #0xf]
     // 0x76bdb4: ldur            d1, [fp, #-0x68]
@@ -9963,7 +9963,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76be6c: ldur            x3, [fp, #-0x48]
     // 0x76be70: stur            x4, [fp, #-0x28]
     // 0x76be74: r0 = _recentVPivotPoint()
-    //     0x76be74: bl              #0x76c134  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_recentVPivotPoint
+    //     0x76be74: bl              #0x76c134  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_recentVPivotPoint
     // 0x76be78: mov             x3, x0
     // 0x76be7c: ldur            x0, [fp, #-0x50]
     // 0x76be80: stur            x3, [fp, #-0x30]
@@ -9983,19 +9983,19 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76beac: ldur            x1, [fp, #-0x48]
     // 0x76beb0: ldur            x2, [fp, #-0x38]
     // 0x76beb4: r0 = bounceZoneGeometry()
-    //     0x76beb4: bl              #0x76444c  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::bounceZoneGeometry
+    //     0x76beb4: bl              #0x76444c  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::bounceZoneGeometry
     // 0x76beb8: ldur            x1, [fp, #-0x20]
     // 0x76bebc: ldur            x2, [fp, #-0x38]
     // 0x76bec0: stur            x0, [fp, #-0x20]
     // 0x76bec4: r0 = pixelCenter()
-    //     0x76bec4: bl              #0x7157cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
+    //     0x76bec4: bl              #0x7157cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
     // 0x76bec8: ldur            x1, [fp, #-0x20]
     // 0x76becc: stur            x0, [fp, #-0x58]
     // 0x76bed0: cmp             w1, NULL
     // 0x76bed4: b.eq            #0x76bee4
     // 0x76bed8: mov             x2, x0
     // 0x76bedc: r0 = contains()
-    //     0x76bedc: bl              #0x76438c  ; [package:ballai/video_tracking/models/object_detection.dart] BounceZoneGeometry::contains
+    //     0x76bedc: bl              #0x76438c  ; [package:kourtai/video_tracking/models/object_detection.dart] BounceZoneGeometry::contains
     // 0x76bee0: tbz             w0, #4, #0x76bf34
     // 0x76bee4: ldur            x3, [fp, #-0x10]
     // 0x76bee8: ldur            x4, [fp, #-8]
@@ -10033,11 +10033,11 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76bf3c: ldur            x1, [fp, #-0x48]
     // 0x76bf40: ldur            x2, [fp, #-0x38]
     // 0x76bf44: r0 = pixelBoundingBox()
-    //     0x76bf44: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x76bf44: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x76bf48: ldur            x1, [fp, #-0x58]
     // 0x76bf4c: mov             x2, x0
     // 0x76bf50: r0 = _isDeepInHoopBox()
-    //     0x76bf50: bl              #0x7642c4  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_isDeepInHoopBox
+    //     0x76bf50: bl              #0x7642c4  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_isDeepInHoopBox
     // 0x76bf54: tbnz            w0, #4, #0x76bfa8
     // 0x76bf58: ldur            x2, [fp, #-0x10]
     // 0x76bf5c: ldur            x3, [fp, #-8]
@@ -10141,7 +10141,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76c074: tst             x16, HEAP, lsr #32
     //     0x76c078: b.eq            #0x76c080
     //     0x76c07c: bl              #0xe5479c  ; WriteBarrierWrappersStub
-    // 0x76c080: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x76c080: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x76c080: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76c084: ldr             x0, [x0, #0x20e0]
     //     0x76c088: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -10244,7 +10244,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76c198: mov             x1, x3
     // 0x76c19c: mov             x2, x4
     // 0x76c1a0: r0 = bounceZoneGeometry()
-    //     0x76c1a0: bl              #0x76444c  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::bounceZoneGeometry
+    //     0x76c1a0: bl              #0x76444c  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::bounceZoneGeometry
     // 0x76c1a4: stur            x0, [fp, #-0x28]
     // 0x76c1a8: cmp             w0, NULL
     // 0x76c1ac: b.ne            #0x76c1c0
@@ -10260,7 +10260,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76c1c8: ldur            x1, [fp, #-0x20]
     // 0x76c1cc: ldur            x2, [fp, #-0x18]
     // 0x76c1d0: r0 = pixelBoundingBox()
-    //     0x76c1d0: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x76c1d0: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x76c1d4: mov             x4, x0
     // 0x76c1d8: ldur            x3, [fp, #-0x10]
     // 0x76c1dc: stur            x4, [fp, #-0x20]
@@ -10317,7 +10317,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76c270: add             x1, x1, HEAP, lsl #32
     // 0x76c274: ldur            x2, [fp, #-0x18]
     // 0x76c278: r0 = pixelBoundingBox()
-    //     0x76c278: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x76c278: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x76c27c: mov             x1, x0
     // 0x76c280: stur            x0, [fp, #-0x40]
     // 0x76c284: r0 = center()
@@ -10343,7 +10343,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76c2b8: ldur            x1, [fp, #-0x28]
     // 0x76c2bc: mov             x2, x0
     // 0x76c2c0: r0 = contains()
-    //     0x76c2c0: bl              #0x76438c  ; [package:ballai/video_tracking/models/object_detection.dart] BounceZoneGeometry::contains
+    //     0x76c2c0: bl              #0x76438c  ; [package:kourtai/video_tracking/models/object_detection.dart] BounceZoneGeometry::contains
     // 0x76c2c4: tbz             w0, #4, #0x76c2d0
     // 0x76c2c8: d2 = 3.000000
     //     0x76c2c8: fmov            d2, #3.00000000
@@ -10407,7 +10407,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76c388: add             x1, x1, HEAP, lsl #32
     // 0x76c38c: ldur            x2, [fp, #-0x18]
     // 0x76c390: r0 = pixelBoundingBox()
-    //     0x76c390: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x76c390: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x76c394: mov             x1, x0
     // 0x76c398: stur            x0, [fp, #-0x50]
     // 0x76c39c: r0 = center()
@@ -10470,7 +10470,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76c450: add             x1, x1, HEAP, lsl #32
     // 0x76c454: ldur            x2, [fp, #-0x18]
     // 0x76c458: r0 = pixelBoundingBox()
-    //     0x76c458: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x76c458: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x76c45c: mov             x1, x0
     // 0x76c460: stur            x0, [fp, #-0x50]
     // 0x76c464: r0 = center()
@@ -10571,7 +10571,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76cab8: ret
     //     0x76cab8: ret             
     // 0x76cabc: r0 = realDetectionCount()
-    //     0x76cabc: bl              #0x7648dc  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_gap_interpolator.dart] TrajectoryGapInterpolator::realDetectionCount
+    //     0x76cabc: bl              #0x7648dc  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_gap_interpolator.dart] TrajectoryGapInterpolator::realDetectionCount
     // 0x76cac0: cmp             x0, #2
     // 0x76cac4: b.ge            #0x76cad8
     // 0x76cac8: r0 = false
@@ -10581,7 +10581,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76cad0: ldp             fp, lr, [SP], #0x10
     // 0x76cad4: ret
     //     0x76cad4: ret             
-    // 0x76cad8: r0 = InitLateStaticField(0x107c) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
+    // 0x76cad8: r0 = InitLateStaticField(0x107c) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
     //     0x76cad8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76cadc: ldr             x0, [x0, #0x20f8]
     //     0x76cae0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -10591,7 +10591,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76caf0: ldr             x2, [x2, #0xd88]
     //     0x76caf4: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x76caf8: r0 = _scoringHoop()
-    //     0x76caf8: bl              #0x719450  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringHoop
+    //     0x76caf8: bl              #0x719450  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringHoop
     // 0x76cafc: stur            x0, [fp, #-0x18]
     // 0x76cb00: cmp             w0, NULL
     // 0x76cb04: b.eq            #0x76cb2c
@@ -10599,7 +10599,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76cb0c: ldur            x2, [fp, #-0x10]
     // 0x76cb10: mov             x3, x0
     // 0x76cb14: r0 = _trajectoryHasEnteredHoopRegion()
-    //     0x76cb14: bl              #0x764958  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectoryHasEnteredHoopRegion
+    //     0x76cb14: bl              #0x764958  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectoryHasEnteredHoopRegion
     // 0x76cb18: tbnz            w0, #4, #0x76cb2c
     // 0x76cb1c: r0 = true
     //     0x76cb1c: add             x0, NULL, #0x20  ; true
@@ -10637,7 +10637,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76cb74: b.eq            #0x76cc04
     // 0x76cb78: ldur            x2, [fp, #-0x10]
     // 0x76cb7c: r0 = rimHeight()
-    //     0x76cb7c: bl              #0x75d9cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::rimHeight
+    //     0x76cb7c: bl              #0x75d9cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::rimHeight
     // 0x76cb80: stur            x0, [fp, #-0x18]
     // 0x76cb84: cmp             w0, NULL
     // 0x76cb88: b.eq            #0x76cc04
@@ -10655,14 +10655,14 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76cba8: ldur            x2, [fp, #-0x10]
     // 0x76cbac: stur            x0, [fp, #-0x20]
     // 0x76cbb0: r0 = pixelCenter()
-    //     0x76cbb0: bl              #0x7157cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
+    //     0x76cbb0: bl              #0x7157cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
     // 0x76cbb4: LoadField: d0 = r0->field_f
     //     0x76cbb4: ldur            d0, [x0, #0xf]
     // 0x76cbb8: ldur            x1, [fp, #-0x20]
     // 0x76cbbc: ldur            x2, [fp, #-0x10]
     // 0x76cbc0: stur            d0, [fp, #-0x28]
     // 0x76cbc4: r0 = pixelSize()
-    //     0x76cbc4: bl              #0x75d48c  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelSize
+    //     0x76cbc4: bl              #0x75d48c  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelSize
     // 0x76cbc8: LoadField: d0 = r0->field_f
     //     0x76cbc8: ldur            d0, [x0, #0xf]
     // 0x76cbcc: d1 = 0.500000
@@ -10691,7 +10691,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76cc0c: DecompressPointer r1
     //     0x76cc0c: add             x1, x1, HEAP, lsl #32
     // 0x76cc10: r0 = realDetectionCount()
-    //     0x76cc10: bl              #0x7648dc  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_gap_interpolator.dart] TrajectoryGapInterpolator::realDetectionCount
+    //     0x76cc10: bl              #0x7648dc  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_gap_interpolator.dart] TrajectoryGapInterpolator::realDetectionCount
     // 0x76cc14: cmp             x0, #3
     // 0x76cc18: r16 = true
     //     0x76cc18: add             x16, NULL, #0x20  ; true
@@ -10734,9 +10734,9 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76cc78: add             x4, PP, #0x32, lsl #12  ; [pp+0x32e00] List(7) [0, 0x2, 0x1, 0x1, "frame", 0x1, Null]
     //     0x76cc7c: ldr             x4, [x4, #0xe00]
     // 0x76cc80: r0 = copyWith()
-    //     0x76cc80: bl              #0x716528  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::copyWith
+    //     0x76cc80: bl              #0x716528  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::copyWith
     // 0x76cc84: stur            x0, [fp, #-0x10]
-    // 0x76cc88: r0 = InitLateStaticField(0x1080) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
+    // 0x76cc88: r0 = InitLateStaticField(0x1080) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
     //     0x76cc88: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76cc8c: ldr             x0, [x0, #0x2100]
     //     0x76cc90: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -10752,7 +10752,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76ccb4: ldur            x1, [fp, #-0x10]
     // 0x76ccb8: ldur            x2, [fp, #-8]
     // 0x76ccbc: r0 = _startNewTrajectory()
-    //     0x76ccbc: bl              #0x76da40  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_startNewTrajectory
+    //     0x76ccbc: bl              #0x76da40  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_startNewTrajectory
     // 0x76ccc0: r0 = 0
     //     0x76ccc0: mov             x0, #0
     // 0x76ccc4: LeaveFrame
@@ -10762,12 +10762,12 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76cccc: ret             
     // 0x76ccd0: ldur            x1, [fp, #-0x10]
     // 0x76ccd4: r0 = _findBestTrajectory()
-    //     0x76ccd4: bl              #0x76d498  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_findBestTrajectory
+    //     0x76ccd4: bl              #0x76d498  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_findBestTrajectory
     // 0x76ccd8: mov             x2, x0
     // 0x76ccdc: stur            x2, [fp, #-0x28]
     // 0x76cce0: mov             x3, x1
     // 0x76cce4: stur            x3, [fp, #-0x20]
-    // 0x76cce8: r0 = InitLateStaticField(0x107c) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
+    // 0x76cce8: r0 = InitLateStaticField(0x107c) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
     //     0x76cce8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76ccec: ldr             x0, [x0, #0x20f8]
     //     0x76ccf0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -10778,7 +10778,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76cd04: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x76cd08: stur            x0, [fp, #-0x30]
     // 0x76cd0c: r0 = _scoringHoop()
-    //     0x76cd0c: bl              #0x719450  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringHoop
+    //     0x76cd0c: bl              #0x719450  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringHoop
     // 0x76cd10: mov             x5, x0
     // 0x76cd14: ldur            x4, [fp, #-0x18]
     // 0x76cd18: stur            x5, [fp, #-0x50]
@@ -10829,7 +10829,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76cd98: mov             x2, x9
     // 0x76cd9c: mov             x3, x5
     // 0x76cda0: r0 = _trajectoryHasEnteredHoopRegion()
-    //     0x76cda0: bl              #0x764958  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectoryHasEnteredHoopRegion
+    //     0x76cda0: bl              #0x764958  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectoryHasEnteredHoopRegion
     // 0x76cda4: tbnz            w0, #4, #0x76cdb4
     // 0x76cda8: d0 = 102400.000000
     //     0x76cda8: add             x17, PP, #0x32, lsl #12  ; [pp+0x32e08] IMM: double(102400) from 0x40f9000000000000
@@ -10855,17 +10855,17 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76cde8: ldur            x2, [fp, #-0x38]
     // 0x76cdec: mov             x3, x0
     // 0x76cdf0: r0 = _trajectoryHasEnteredHoopRegion()
-    //     0x76cdf0: bl              #0x764958  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectoryHasEnteredHoopRegion
+    //     0x76cdf0: bl              #0x764958  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectoryHasEnteredHoopRegion
     // 0x76cdf4: tbnz            w0, #4, #0x76ce24
     // 0x76cdf8: ldur            x1, [fp, #-0x10]
     // 0x76cdfc: ldur            x2, [fp, #-0x38]
     // 0x76ce00: r0 = pixelCenter()
-    //     0x76ce00: bl              #0x7157cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
+    //     0x76ce00: bl              #0x7157cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
     // 0x76ce04: mov             x1, x0
     // 0x76ce08: ldur            x2, [fp, #-0x50]
     // 0x76ce0c: ldur            x3, [fp, #-0x38]
     // 0x76ce10: r0 = _isNearRimPixel()
-    //     0x76ce10: bl              #0x76d330  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_isNearRimPixel
+    //     0x76ce10: bl              #0x76d330  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_isNearRimPixel
     // 0x76ce14: tbnz            w0, #4, #0x76ce24
     // 0x76ce18: d0 = 230400.000000
     //     0x76ce18: add             x17, PP, #0x32, lsl #12  ; [pp+0x32e18] IMM: double(230400) from 0x410c200000000000
@@ -10899,7 +10899,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76ce6c: add             x1, x1, HEAP, lsl #32
     // 0x76ce70: ldur            x2, [fp, #-0x10]
     // 0x76ce74: r0 = addBall()
-    //     0x76ce74: bl              #0x76b43c  ; [package:ballai/video_tracking/models/shot_trajectory.dart] ShotTrajectory::addBall
+    //     0x76ce74: bl              #0x76b43c  ; [package:kourtai/video_tracking/models/shot_trajectory.dart] ShotTrajectory::addBall
     // 0x76ce78: ldur            x0, [fp, #-0x30]
     // 0x76ce7c: r17 = 323
     //     0x76ce7c: mov             x17, #0x143
@@ -10908,13 +10908,13 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76ce84: add             x2, x2, HEAP, lsl #32
     // 0x76ce88: ldur            x1, [fp, #-0x28]
     // 0x76ce8c: r0 = _captureHoopSnapshotIfNeeded()
-    //     0x76ce8c: bl              #0x765924  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_captureHoopSnapshotIfNeeded
+    //     0x76ce8c: bl              #0x765924  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_captureHoopSnapshotIfNeeded
     // 0x76ce90: ldur            x1, [fp, #-0x28]
     // 0x76ce94: r0 = _updateShotCandidateArming()
-    //     0x76ce94: bl              #0x76cf5c  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_updateShotCandidateArming
+    //     0x76ce94: bl              #0x76cf5c  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_updateShotCandidateArming
     // 0x76ce98: ldur            x1, [fp, #-0x28]
     // 0x76ce9c: r0 = _updateTrajectoryDerivedMetrics()
-    //     0x76ce9c: bl              #0x76b978  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_updateTrajectoryDerivedMetrics
+    //     0x76ce9c: bl              #0x76b978  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_updateTrajectoryDerivedMetrics
     // 0x76cea0: ldur            x2, [fp, #-0x18]
     // 0x76cea4: LoadField: r0 = r2->field_b
     //     0x76cea4: ldur            w0, [x2, #0xb]
@@ -10940,7 +10940,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76cee0: r1 = true
     //     0x76cee0: add             x1, NULL, #0x20  ; true
     // 0x76cee4: r0 = _logBallRegionEvents()
-    //     0x76cee4: bl              #0x76b584  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_logBallRegionEvents
+    //     0x76cee4: bl              #0x76b584  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_logBallRegionEvents
     // 0x76cee8: ldur            x0, [fp, #-0x28]
     // 0x76ceec: LeaveFrame
     //     0x76ceec: mov             SP, fp
@@ -10948,7 +10948,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76cef4: ret
     //     0x76cef4: ret             
     // 0x76cef8: ldur            x2, [fp, #-0x18]
-    // 0x76cefc: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x76cefc: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x76cefc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76cf00: ldr             x0, [x0, #0x20e0]
     //     0x76cf04: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -10960,7 +10960,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76cf1c: ldur            x1, [fp, #-0x10]
     // 0x76cf20: ldur            x2, [fp, #-8]
     // 0x76cf24: r0 = _startNewTrajectory()
-    //     0x76cf24: bl              #0x76da40  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_startNewTrajectory
+    //     0x76cf24: bl              #0x76da40  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_startNewTrajectory
     // 0x76cf28: ldur            x1, [fp, #-0x18]
     // 0x76cf2c: LoadField: r2 = r1->field_b
     //     0x76cf2c: ldur            w2, [x1, #0xb]
@@ -11000,7 +11000,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76cf7c: ldur            x0, [x1, #7]
     // 0x76cf80: stur            x0, [fp, #-8]
     // 0x76cf84: tbnz            x0, #0x3f, #0x76cfc0
-    // 0x76cf88: r0 = InitLateStaticField(0x1080) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
+    // 0x76cf88: r0 = InitLateStaticField(0x1080) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
     //     0x76cf88: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76cf8c: ldr             x0, [x0, #0x2100]
     //     0x76cf90: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -11058,7 +11058,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76d020: ldp             fp, lr, [SP], #0x10
     // 0x76d024: ret
     //     0x76d024: ret             
-    // 0x76d028: r0 = InitLateStaticField(0x107c) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
+    // 0x76d028: r0 = InitLateStaticField(0x107c) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
     //     0x76d028: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76d02c: ldr             x0, [x0, #0x20f8]
     //     0x76d030: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -11095,7 +11095,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76d088: ret             
     // 0x76d08c: mov             x1, x0
     // 0x76d090: r0 = effectiveSelectedHoop()
-    //     0x76d090: bl              #0x779264  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
+    //     0x76d090: bl              #0x779264  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
     // 0x76d094: stur            x0, [fp, #-0x28]
     // 0x76d098: cmp             w0, NULL
     // 0x76d09c: b.ne            #0x76d0b0
@@ -11110,7 +11110,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76d0b4: mov             x1, x0
     // 0x76d0b8: ldur            x2, [fp, #-0x20]
     // 0x76d0bc: r0 = bounceSideExitCorridor()
-    //     0x76d0bc: bl              #0x763428  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::bounceSideExitCorridor
+    //     0x76d0bc: bl              #0x763428  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::bounceSideExitCorridor
     // 0x76d0c0: mov             x1, x0
     // 0x76d0c4: ldur            x3, [fp, #-0x18]
     // 0x76d0c8: ArrayStore: r3[0] = r0  ; List_4
@@ -11138,7 +11138,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76d108: mov             x2, x3
     // 0x76d10c: stur            x4, [fp, #-0x30]
     // 0x76d110: r1 = Function '<anonymous closure>': static.
-    //     0x76d110: add             x1, PP, #0x32, lsl #12  ; [pp+0x32e20] AnonymousClosure: static (0x76d2b4), in [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_updateShotCandidateArming (0x76cf5c)
+    //     0x76d110: add             x1, PP, #0x32, lsl #12  ; [pp+0x32e20] AnonymousClosure: static (0x76d2b4), in [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_updateShotCandidateArming (0x76cf5c)
     //     0x76d114: ldr             x1, [x1, #0xe20]
     // 0x76d118: r0 = AllocateClosure()
     //     0x76d118: bl              #0xe553e0  ; AllocateClosureStub
@@ -11151,13 +11151,13 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76d130: ldur            x2, [fp, #-0x20]
     // 0x76d134: ldur            x3, [fp, #-0x28]
     // 0x76d138: r0 = _hasTouchedBounceSideExitCorridor()
-    //     0x76d138: bl              #0x764b98  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_hasTouchedBounceSideExitCorridor
+    //     0x76d138: bl              #0x764b98  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_hasTouchedBounceSideExitCorridor
     // 0x76d13c: tbz             w0, #4, #0x76d164
     // 0x76d140: ldur            x1, [fp, #-0x10]
     // 0x76d144: ldur            x2, [fp, #-0x20]
     // 0x76d148: ldur            x3, [fp, #-0x28]
     // 0x76d14c: r0 = _trajectoryHasEnteredHoopRegion()
-    //     0x76d14c: bl              #0x764958  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectoryHasEnteredHoopRegion
+    //     0x76d14c: bl              #0x764958  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectoryHasEnteredHoopRegion
     // 0x76d150: tbz             w0, #4, #0x76d164
     // 0x76d154: r0 = Null
     //     0x76d154: mov             x0, NULL
@@ -11172,7 +11172,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76d16c: add             x2, NULL, #0x20  ; true
     // 0x76d170: StoreField: r1->field_3f = r2
     //     0x76d170: stur            w2, [x1, #0x3f]
-    // 0x76d174: r0 = InitLateStaticField(0x1078) // [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::instance
+    // 0x76d174: r0 = InitLateStaticField(0x1078) // [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::instance
     //     0x76d174: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76d178: ldr             x0, [x0, #0x20f0]
     //     0x76d17c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -11232,7 +11232,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76d230: tst             x16, HEAP, lsr #32
     //     0x76d234: b.eq            #0x76d23c
     //     0x76d238: bl              #0xe547bc  ; WriteBarrierWrappersStub
-    // 0x76d23c: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x76d23c: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x76d23c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76d240: ldr             x0, [x0, #0x20e0]
     //     0x76d244: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -11242,7 +11242,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76d254: ldr             x2, [x2, #0x30]
     //     0x76d258: bl              #0xe5425c  ; InitLateStaticFieldStub
     // 0x76d25c: b               #0x76d280
-    // 0x76d260: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x76d260: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x76d260: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76d264: ldr             x0, [x0, #0x20e0]
     //     0x76d268: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -11297,7 +11297,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76d2e0: add             x2, x2, HEAP, lsl #32
     // 0x76d2e4: ldr             x1, [fp, #0x10]
     // 0x76d2e8: r0 = pixelCenter()
-    //     0x76d2e8: bl              #0x7157cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
+    //     0x76d2e8: bl              #0x7157cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
     // 0x76d2ec: LoadField: d0 = r0->field_f
     //     0x76d2ec: ldur            d0, [x0, #0xf]
     // 0x76d2f0: ldur            x1, [fp, #-8]
@@ -11343,7 +11343,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76d350: cmp             SP, x16
     //     0x76d354: b.ls            #0x76d454
     // 0x76d358: r0 = pixelBoundingBox()
-    //     0x76d358: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x76d358: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x76d35c: ArrayLoad: d0 = r0[0]  ; List_8
     //     0x76d35c: ldur            d0, [x0, #0x17]
     // 0x76d360: LoadField: d1 = r0->field_7
@@ -11364,7 +11364,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76d388: ldur            x1, [fp, #-8]
     // 0x76d38c: mov             x2, x0
     // 0x76d390: r0 = _distanceToRect()
-    //     0x76d390: bl              #0x7191dc  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_distanceToRect
+    //     0x76d390: bl              #0x7191dc  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_distanceToRect
     // 0x76d394: mov             v2.16b, v0.16b
     // 0x76d398: ldur            d0, [fp, #-0x10]
     // 0x76d39c: d1 = 1.500000
@@ -11473,7 +11473,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76d4c4: stur            x1, [fp, #-0x10]
     // 0x76d4c8: StoreField: r1->field_f = r0
     //     0x76d4c8: stur            w0, [x1, #0xf]
-    // 0x76d4cc: r0 = InitLateStaticField(0x107c) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
+    // 0x76d4cc: r0 = InitLateStaticField(0x107c) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
     //     0x76d4cc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76d4d0: ldr             x0, [x0, #0x20f8]
     //     0x76d4d4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -11495,10 +11495,10 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76d504: add             x1, x1, HEAP, lsl #32
     // 0x76d508: mov             x2, x3
     // 0x76d50c: r0 = pixelCenter()
-    //     0x76d50c: bl              #0x7157cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
+    //     0x76d50c: bl              #0x7157cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
     // 0x76d510: stur            x0, [fp, #-0x18]
     // 0x76d514: r0 = _scoringHoop()
-    //     0x76d514: bl              #0x719450  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringHoop
+    //     0x76d514: bl              #0x719450  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringHoop
     // 0x76d518: stur            x0, [fp, #-0x20]
     // 0x76d51c: cmp             w0, NULL
     // 0x76d520: b.ne            #0x76d52c
@@ -11508,7 +11508,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76d52c: mov             x1, x0
     // 0x76d530: ldur            x2, [fp, #-8]
     // 0x76d534: r0 = rimHeight()
-    //     0x76d534: bl              #0x75d9cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::rimHeight
+    //     0x76d534: bl              #0x75d9cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::rimHeight
     // 0x76d538: mov             x3, x0
     // 0x76d53c: ldur            x0, [fp, #-0x20]
     // 0x76d540: stur            x3, [fp, #-0x28]
@@ -11520,7 +11520,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76d554: mov             x1, x0
     // 0x76d558: ldur            x2, [fp, #-8]
     // 0x76d55c: r0 = hoopRegionRect()
-    //     0x76d55c: bl              #0x75d7dc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::hoopRegionRect
+    //     0x76d55c: bl              #0x75d7dc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::hoopRegionRect
     // 0x76d560: mov             x2, x0
     // 0x76d564: ldur            x1, [fp, #-0x10]
     // 0x76d568: ldur            x0, [fp, #-0x18]
@@ -11560,7 +11560,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76d5c8: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x76d5cc: cmp             SP, x16
     //     0x76d5d0: b.ls            #0x76da18
-    // 0x76d5d4: r0 = InitLateStaticField(0x1080) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
+    // 0x76d5d4: r0 = InitLateStaticField(0x1080) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
     //     0x76d5d4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76d5d8: ldr             x0, [x0, #0x2100]
     //     0x76d5dc: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -11619,7 +11619,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76d674: add             x0, NULL, #0x20  ; true
     // 0x76d678: b               #0x76d6e4
     // 0x76d67c: ldur            x1, [fp, #-0x18]
-    // 0x76d680: r0 = InitLateStaticField(0x1088) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_consumedTrajectoryIds
+    // 0x76d680: r0 = InitLateStaticField(0x1088) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_consumedTrajectoryIds
     //     0x76d680: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76d684: ldr             x0, [x0, #0x2110]
     //     0x76d688: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -11699,7 +11699,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76d76c: ldur            x0, [fp, #-0x28]
     // 0x76d770: ldur            x2, [fp, #-8]
     // 0x76d774: r0 = pixelBoundingBox()
-    //     0x76d774: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x76d774: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x76d778: mov             x1, x0
     // 0x76d77c: stur            x0, [fp, #-0x48]
     // 0x76d780: r0 = center()
@@ -11797,9 +11797,9 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76d89c: ldur            x2, [fp, #-8]
     // 0x76d8a0: mov             x3, x5
     // 0x76d8a4: r0 = _trajectoryHasEnteredHoopRegion()
-    //     0x76d8a4: bl              #0x764958  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectoryHasEnteredHoopRegion
+    //     0x76d8a4: bl              #0x764958  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectoryHasEnteredHoopRegion
     // 0x76d8a8: tbz             w0, #4, #0x76d8e4
-    // 0x76d8ac: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x76d8ac: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x76d8ac: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76d8b0: ldr             x0, [x0, #0x20e0]
     //     0x76d8b4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -11972,8 +11972,8 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76dab8: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x76dab8: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x76dabc: r0 = ShotTrajectory()
-    //     0x76dabc: bl              #0x76de58  ; [package:ballai/video_tracking/models/shot_trajectory.dart] ShotTrajectory::ShotTrajectory
-    // 0x76dac0: r0 = InitLateStaticField(0x107c) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
+    //     0x76dabc: bl              #0x76de58  ; [package:kourtai/video_tracking/models/shot_trajectory.dart] ShotTrajectory::ShotTrajectory
+    // 0x76dac0: r0 = InitLateStaticField(0x107c) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
     //     0x76dac0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76dac4: ldr             x0, [x0, #0x20f8]
     //     0x76dac8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -11984,7 +11984,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76dadc: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x76dae0: stur            x0, [fp, #-0x20]
     // 0x76dae4: r0 = _scoringHoop()
-    //     0x76dae4: bl              #0x719450  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringHoop
+    //     0x76dae4: bl              #0x719450  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_scoringHoop
     // 0x76dae8: cmp             w0, NULL
     // 0x76daec: b.eq            #0x76db90
     // 0x76daf0: ldur            x1, [fp, #-0x20]
@@ -12006,7 +12006,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76db1c: ldur            x3, [fp, #-0x18]
     // 0x76db20: mov             x1, x0
     // 0x76db24: r0 = pixelSize()
-    //     0x76db24: bl              #0x75d48c  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelSize
+    //     0x76db24: bl              #0x75d48c  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelSize
     // 0x76db28: LoadField: d0 = r0->field_7
     //     0x76db28: ldur            d0, [x0, #7]
     // 0x76db2c: LoadField: d1 = r0->field_f
@@ -12039,7 +12039,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76db88: ldur            x1, [fp, #-0x18]
     // 0x76db8c: b               #0x76db94
     // 0x76db90: ldur            x1, [fp, #-0x18]
-    // 0x76db94: r0 = InitLateStaticField(0x1078) // [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::instance
+    // 0x76db94: r0 = InitLateStaticField(0x1078) // [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::instance
     //     0x76db94: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76db98: ldr             x0, [x0, #0x20f0]
     //     0x76db9c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -12114,7 +12114,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76dc74: tst             x16, HEAP, lsr #32
     //     0x76dc78: b.eq            #0x76dc80
     //     0x76dc7c: bl              #0xe5479c  ; WriteBarrierWrappersStub
-    // 0x76dc80: r0 = InitLateStaticField(0x1080) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
+    // 0x76dc80: r0 = InitLateStaticField(0x1080) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
     //     0x76dc80: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76dc84: ldr             x0, [x0, #0x2100]
     //     0x76dc88: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -12192,7 +12192,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76dd58: ldr             x0, [x0, #0x2108]
     // 0x76dd5c: tbnz            w0, #4, #0x76dd98
     // 0x76dd60: ldur            x5, [fp, #-0x18]
-    // 0x76dd64: r0 = InitLateStaticField(0x1088) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_consumedTrajectoryIds
+    // 0x76dd64: r0 = InitLateStaticField(0x1088) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_consumedTrajectoryIds
     //     0x76dd64: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76dd68: ldr             x0, [x0, #0x2110]
     //     0x76dd6c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -12218,7 +12218,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76dda8: lsl             x2, x1, #1
     // 0x76ddac: mov             x1, x2
     // 0x76ddb0: r0 = _updateShotCandidateArming()
-    //     0x76ddb0: bl              #0x76cf5c  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_updateShotCandidateArming
+    //     0x76ddb0: bl              #0x76cf5c  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_updateShotCandidateArming
     // 0x76ddb4: ldur            x0, [fp, #-0x20]
     // 0x76ddb8: LoadField: r1 = r0->field_b
     //     0x76ddb8: ldur            w1, [x0, #0xb]
@@ -12228,8 +12228,8 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76ddc4: lsl             x2, x1, #1
     // 0x76ddc8: mov             x1, x2
     // 0x76ddcc: r0 = _updateTrajectoryDerivedMetrics()
-    //     0x76ddcc: bl              #0x76b978  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_updateTrajectoryDerivedMetrics
-    // 0x76ddd0: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    //     0x76ddcc: bl              #0x76b978  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_updateTrajectoryDerivedMetrics
+    // 0x76ddd0: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x76ddd0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76ddd4: ldr             x0, [x0, #0x20e0]
     //     0x76ddd8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -12251,7 +12251,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76de10: r1 = false
     //     0x76de10: add             x1, NULL, #0x30  ; false
     // 0x76de14: r0 = _logBallRegionEvents()
-    //     0x76de14: bl              #0x76b584  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_logBallRegionEvents
+    //     0x76de14: bl              #0x76b584  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_logBallRegionEvents
     // 0x76de18: r0 = Null
     //     0x76de18: mov             x0, NULL
     // 0x76de1c: LeaveFrame
@@ -12345,7 +12345,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76e734: mov             x1, x0
     // 0x76e738: stur            x0, [fp, #-0x18]
     // 0x76e73c: r0 = isHoop()
-    //     0x76e73c: bl              #0x7153ac  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::isHoop
+    //     0x76e73c: bl              #0x7153ac  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::isHoop
     // 0x76e740: tbz             w0, #4, #0x76e74c
     // 0x76e744: ldur            x2, [fp, #-0x10]
     // 0x76e748: b               #0x76e6f0
@@ -12355,7 +12355,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76e754: mov             x0, NULL
     // 0x76e758: cmp             w0, NULL
     // 0x76e75c: b.ne            #0x76e790
-    // 0x76e760: r0 = InitLateStaticField(0x107c) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
+    // 0x76e760: r0 = InitLateStaticField(0x107c) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_manager
     //     0x76e760: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76e764: ldr             x0, [x0, #0x20f8]
     //     0x76e768: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -12366,7 +12366,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76e77c: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x76e780: mov             x1, x0
     // 0x76e784: r0 = effectiveSelectedHoop()
-    //     0x76e784: bl              #0x779264  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
+    //     0x76e784: bl              #0x779264  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
     // 0x76e788: mov             x1, x0
     // 0x76e78c: b               #0x76e794
     // 0x76e790: mov             x1, x0
@@ -12381,7 +12381,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76e7a8: ret             
     // 0x76e7ac: ldur            x2, [fp, #-8]
     // 0x76e7b0: r0 = pixelSize()
-    //     0x76e7b0: bl              #0x75d48c  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelSize
+    //     0x76e7b0: bl              #0x75d48c  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelSize
     // 0x76e7b4: LoadField: d0 = r0->field_7
     //     0x76e7b4: ldur            d0, [x0, #7]
     // 0x76e7b8: LoadField: d1 = r0->field_f
@@ -12399,7 +12399,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76e7d8: ldp             fp, lr, [SP], #0x10
     // 0x76e7dc: ret
     //     0x76e7dc: ret             
-    // 0x76e7e0: r0 = InitLateStaticField(0x1094) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_recentRimAreasPx2
+    // 0x76e7e0: r0 = InitLateStaticField(0x1094) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_recentRimAreasPx2
     //     0x76e7e0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76e7e4: ldr             x0, [x0, #0x2128]
     //     0x76e7e8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -12519,7 +12519,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76e924: b.ls            #0x76e958
     // 0x76e928: ldr             x1, [fp, #0x10]
     // 0x76e92c: r0 = isBall()
-    //     0x76e92c: bl              #0x76e524  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::isBall
+    //     0x76e92c: bl              #0x76e524  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::isBall
     // 0x76e930: tbnz            w0, #4, #0x76e948
     // 0x76e934: ldr             x1, [fp, #0x10]
     // 0x76e938: LoadField: r2 = r1->field_23
@@ -12580,7 +12580,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76f2d0: ldr             x0, [x0, #0x2120]
     // 0x76f2d4: cmp             w0, NULL
     // 0x76f2d8: b.ne            #0x76f33c
-    // 0x76f2dc: r0 = InitLateStaticField(0x1080) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
+    // 0x76f2dc: r0 = InitLateStaticField(0x1080) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
     //     0x76f2dc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76f2e0: ldr             x0, [x0, #0x2100]
     //     0x76f2e4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -12635,7 +12635,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x76f374: stur            x1, [fp, #-0x10]
     // 0x76f378: StoreField: r1->field_f = r0
     //     0x76f378: stur            w0, [x1, #0xf]
-    // 0x76f37c: r0 = InitLateStaticField(0x1080) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
+    // 0x76f37c: r0 = InitLateStaticField(0x1080) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
     //     0x76f37c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76f380: ldr             x0, [x0, #0x2100]
     //     0x76f384: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -12646,7 +12646,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76f398: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x76f39c: ldur            x2, [fp, #-0x10]
     // 0x76f3a0: r1 = Function '<anonymous closure>': static.
-    //     0x76f3a0: add             x1, PP, #0x32, lsl #12  ; [pp+0x32eb0] AnonymousClosure: static (0x76f40c), in [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::getActiveTrajectories (0x76f2b4)
+    //     0x76f3a0: add             x1, PP, #0x32, lsl #12  ; [pp+0x32eb0] AnonymousClosure: static (0x76f40c), in [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::getActiveTrajectories (0x76f2b4)
     //     0x76f3a4: ldr             x1, [x1, #0xeb0]
     // 0x76f3a8: stur            x0, [fp, #-8]
     // 0x76f3ac: r0 = AllocateClosure()
@@ -12709,7 +12709,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76f438: add             x3, x3, HEAP, lsl #32
     // 0x76f43c: stur            x3, [fp, #-8]
     // 0x76f440: r1 = Function '<anonymous closure>': static.
-    //     0x76f440: add             x1, PP, #0x32, lsl #12  ; [pp+0x32eb8] AnonymousClosure: static (0x76f664), in [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::getActiveTrajectories (0x76f2b4)
+    //     0x76f440: add             x1, PP, #0x32, lsl #12  ; [pp+0x32eb8] AnonymousClosure: static (0x76f664), in [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::getActiveTrajectories (0x76f2b4)
     //     0x76f444: ldr             x1, [x1, #0xeb8]
     // 0x76f448: r0 = AllocateClosure()
     //     0x76f448: bl              #0xe553e0  ; AllocateClosureStub
@@ -12860,7 +12860,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76f5e4: add             x4, PP, #0x32, lsl #12  ; [pp+0x32ec0] List(29) [0, 0xe, 0xc, 0x2, "bounceLatchFramesRemaining", 0xb, "createdAt", 0x3, "frozenHoopGeometry", 0x7, "hasBounced", 0xc, "id", 0xd, "lastDetectionIndexAtScore", 0x8, "lastUpdatedAt", 0x4, "rimAreaAtCreationPx2", 0x6, "scoredAt", 0x5, "status", 0x2, "velocityPxPerFrame", 0x9, "yVelocityPxPerFrame", 0xa, Null]
     //     0x76f5e8: ldr             x4, [x4, #0xec0]
     // 0x76f5ec: r0 = ShotTrajectory()
-    //     0x76f5ec: bl              #0x76de58  ; [package:ballai/video_tracking/models/shot_trajectory.dart] ShotTrajectory::ShotTrajectory
+    //     0x76f5ec: bl              #0x76de58  ; [package:kourtai/video_tracking/models/shot_trajectory.dart] ShotTrajectory::ShotTrajectory
     // 0x76f5f0: ldr             x1, [fp, #0x10]
     // 0x76f5f4: LoadField: r2 = r1->field_3f
     //     0x76f5f4: ldur            w2, [x1, #0x3f]
@@ -12972,7 +12972,7 @@ abstract class TrajectoryAnalyzer extends Object {
     //     0x76ffc0: ldp             fp, lr, [SP], #0x10
     // 0x76ffc4: ret
     //     0x76ffc4: ret             
-    // 0x76ffc8: r0 = InitLateStaticField(0x1080) // [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
+    // 0x76ffc8: r0 = InitLateStaticField(0x1080) // [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::_trajectories
     //     0x76ffc8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x76ffcc: ldr             x0, [x0, #0x2100]
     //     0x76ffd0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -13133,7 +13133,7 @@ abstract class TrajectoryAnalyzer extends Object {
     // 0x77019c: mov             x1, x0
     // 0x7701a0: ldur            x2, [fp, #-8]
     // 0x7701a4: r0 = pixelCenter()
-    //     0x7701a4: bl              #0x7157cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
+    //     0x7701a4: bl              #0x7157cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
     // 0x7701a8: LeaveFrame
     //     0x7701a8: mov             SP, fp
     //     0x7701ac: ldp             fp, lr, [SP], #0x10

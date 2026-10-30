@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/location/location_text_formatter.dart
+// lib: , url: package:kourtai/automatic/utility/location/location_text_formatter.dart
 
 // class id: 1048731, size: 0x8
 class :: {

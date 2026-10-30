@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_user_destructive_actions_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_user_destructive_actions_view.dart
 
 // class id: 1048881, size: 0x8
 class :: {
@@ -38,16 +38,16 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdab18: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ace8] "Sign out"
     //     0xbdab1c: ldr             x1, [x1, #0xce8]
     // 0xbdab20: r0 = L()
-    //     0xbdab20: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdab20: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdab24: r1 = "Sign Out"
     //     0xbdab24: add             x1, PP, #0x49, lsl #12  ; [pp+0x49d78] "Sign Out"
     //     0xbdab28: ldr             x1, [x1, #0xd78]
     // 0xbdab2c: stur            x0, [fp, #-8]
     // 0xbdab30: r0 = L()
-    //     0xbdab30: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdab30: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdab34: stur            x0, [fp, #-0x10]
-    // 0xbdab38: r0 = BallAiDestructiveSettingsRow()
-    //     0xbdab38: bl              #0xbdaca0  ; AllocateBallAiDestructiveSettingsRowStub -> BallAiDestructiveSettingsRow (size=0x18)
+    // 0xbdab38: r0 = KourtAiDestructiveSettingsRow()
+    //     0xbdab38: bl              #0xbdaca0  ; AllocateKourtAiDestructiveSettingsRowStub -> KourtAiDestructiveSettingsRow (size=0x18)
     // 0xbdab3c: mov             x3, x0
     // 0xbdab40: ldur            x0, [fp, #-0x10]
     // 0xbdab44: stur            x3, [fp, #-0x20]
@@ -60,7 +60,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdab54: stur            w0, [x3, #0xf]
     // 0xbdab58: ldur            x2, [fp, #-0x18]
     // 0xbdab5c: r1 = Function '<anonymous closure>':.
-    //     0xbdab5c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49d88] AnonymousClosure: (0xbdb710), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_user_destructive_actions_view.dart] AccountUserDestructiveActionsView::build (0xbdaad8)
+    //     0xbdab5c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49d88] AnonymousClosure: (0xbdb710), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_user_destructive_actions_view.dart] AccountUserDestructiveActionsView::build (0xbdaad8)
     //     0xbdab60: ldr             x1, [x1, #0xd88]
     // 0xbdab64: r0 = AllocateClosure()
     //     0xbdab64: bl              #0xe553e0  ; AllocateClosureStub
@@ -90,16 +90,16 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdaba4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49d90] "Delete account"
     //     0xbdaba8: ldr             x1, [x1, #0xd90]
     // 0xbdabac: r0 = L()
-    //     0xbdabac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdabac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdabb0: r1 = "Delete Account"
     //     0xbdabb0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49d98] "Delete Account"
     //     0xbdabb4: ldr             x1, [x1, #0xd98]
     // 0xbdabb8: stur            x0, [fp, #-8]
     // 0xbdabbc: r0 = L()
-    //     0xbdabbc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdabbc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdabc0: stur            x0, [fp, #-0x20]
-    // 0xbdabc4: r0 = BallAiDestructiveSettingsRow()
-    //     0xbdabc4: bl              #0xbdaca0  ; AllocateBallAiDestructiveSettingsRowStub -> BallAiDestructiveSettingsRow (size=0x18)
+    // 0xbdabc4: r0 = KourtAiDestructiveSettingsRow()
+    //     0xbdabc4: bl              #0xbdaca0  ; AllocateKourtAiDestructiveSettingsRowStub -> KourtAiDestructiveSettingsRow (size=0x18)
     // 0xbdabc8: mov             x3, x0
     // 0xbdabcc: ldur            x0, [fp, #-0x20]
     // 0xbdabd0: stur            x3, [fp, #-0x28]
@@ -112,7 +112,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdabe0: stur            w0, [x3, #0xf]
     // 0xbdabe4: ldur            x2, [fp, #-0x18]
     // 0xbdabe8: r1 = Function '<anonymous closure>':.
-    //     0xbdabe8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49da0] AnonymousClosure: (0xbdacac), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_user_destructive_actions_view.dart] AccountUserDestructiveActionsView::build (0xbdaad8)
+    //     0xbdabe8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49da0] AnonymousClosure: (0xbdacac), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_user_destructive_actions_view.dart] AccountUserDestructiveActionsView::build (0xbdaad8)
     //     0xbdabec: ldr             x1, [x1, #0xda0]
     // 0xbdabf0: r0 = AllocateClosure()
     //     0xbdabf0: bl              #0xe553e0  ; AllocateClosureStub
@@ -149,8 +149,8 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     // 0xbdac44: stur            x2, [fp, #-8]
     // 0xbdac48: StoreField: r2->field_f = r0
     //     0xbdac48: stur            w0, [x2, #0xf]
-    // 0xbdac4c: r16 = Instance_BallAiSettingsDivider
-    //     0xbdac4c: add             x16, PP, #0x44, lsl #12  ; [pp+0x44ea8] Obj!BallAiSettingsDivider@d25ae1
+    // 0xbdac4c: r16 = Instance_KourtAiSettingsDivider
+    //     0xbdac4c: add             x16, PP, #0x44, lsl #12  ; [pp+0x44ea8] Obj!KourtAiSettingsDivider@d25ae1
     //     0xbdac50: ldr             x16, [x16, #0xea8]
     // 0xbdac54: StoreField: r2->field_13 = r16
     //     0xbdac54: stur            w16, [x2, #0x13]
@@ -170,8 +170,8 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdac78: mov             x0, #6
     // 0xbdac7c: StoreField: r1->field_b = r0
     //     0xbdac7c: stur            w0, [x1, #0xb]
-    // 0xbdac80: r0 = BallAiSettingsSection()
-    //     0xbdac80: bl              #0xbd7ff4  ; AllocateBallAiSettingsSectionStub -> BallAiSettingsSection (size=0x10)
+    // 0xbdac80: r0 = KourtAiSettingsSection()
+    //     0xbdac80: bl              #0xbd7ff4  ; AllocateKourtAiSettingsSectionStub -> KourtAiSettingsSection (size=0x10)
     // 0xbdac84: ldur            x1, [fp, #-0x10]
     // 0xbdac88: StoreField: r0->field_b = r1
     //     0xbdac88: stur            w1, [x0, #0xb]
@@ -208,7 +208,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdacd8: add             x2, x2, HEAP, lsl #32
     // 0xbdacdc: mov             x1, x0
     // 0xbdace0: r0 = _confirmDeleteAccount()
-    //     0xbdace0: bl              #0xbdacf8  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_user_destructive_actions_view.dart] AccountUserDestructiveActionsView::_confirmDeleteAccount
+    //     0xbdace0: bl              #0xbdacf8  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_user_destructive_actions_view.dart] AccountUserDestructiveActionsView::_confirmDeleteAccount
     // 0xbdace4: LeaveFrame
     //     0xbdace4: mov             SP, fp
     //     0xbdace8: ldp             fp, lr, [SP], #0x10
@@ -240,7 +240,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdad28: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0xbdad2c: bl              #0x60afc8  ; InitAsyncStub
     // 0xbdad30: r1 = Function '<anonymous closure>':.
-    //     0xbdad30: add             x1, PP, #0x49, lsl #12  ; [pp+0x49da8] AnonymousClosure: (0xbdb500), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_user_destructive_actions_view.dart] AccountUserDestructiveActionsView::_confirmDeleteAccount (0xbdacf8)
+    //     0xbdad30: add             x1, PP, #0x49, lsl #12  ; [pp+0x49da8] AnonymousClosure: (0xbdb500), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_user_destructive_actions_view.dart] AccountUserDestructiveActionsView::_confirmDeleteAccount (0xbdacf8)
     //     0xbdad34: ldr             x1, [x1, #0xda8]
     // 0xbdad38: r2 = Null
     //     0xbdad38: mov             x2, NULL
@@ -302,7 +302,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdadd0: bl              #0x5ff5d4  ; [package:provider/src/provider.dart] ::ReadContext.read
     // 0xbdadd4: mov             x1, x0
     // 0xbdadd8: r0 = deleteAccount()
-    //     0xbdadd8: bl              #0xbdaeb4  ; [package:ballai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::deleteAccount
+    //     0xbdadd8: bl              #0xbdaeb4  ; [package:kourtai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::deleteAccount
     // 0xbdaddc: mov             x1, x0
     // 0xbdade0: stur            x1, [fp, #-0x98]
     // 0xbdade4: r0 = Await()
@@ -319,7 +319,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     // 0xbdae00: cmp             w1, NULL
     // 0xbdae04: b.eq            #0xbdaea4
     // 0xbdae08: r1 = Function '<anonymous closure>':.
-    //     0xbdae08: add             x1, PP, #0x49, lsl #12  ; [pp+0x49db0] AnonymousClosure: (0xbdb398), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_user_destructive_actions_view.dart] AccountUserDestructiveActionsView::_confirmDeleteAccount (0xbdacf8)
+    //     0xbdae08: add             x1, PP, #0x49, lsl #12  ; [pp+0x49db0] AnonymousClosure: (0xbdb398), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_user_destructive_actions_view.dart] AccountUserDestructiveActionsView::_confirmDeleteAccount (0xbdacf8)
     //     0xbdae0c: ldr             x1, [x1, #0xdb0]
     // 0xbdae10: r2 = Null
     //     0xbdae10: mov             x2, NULL
@@ -346,7 +346,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdae4c: add             x2, PP, #0x49, lsl #12  ; [pp+0x49db8] "Unable to delete account. Please try again."
     //     0xbdae50: ldr             x2, [x2, #0xdb8]
     // 0xbdae54: r0 = userFacingError()
-    //     0xbdae54: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0xbdae54: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0xbdae58: stur            x0, [fp, #-0x90]
     // 0xbdae5c: r0 = Text()
     //     0xbdae5c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -415,7 +415,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdb3e0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49dc0] "Reauthentication Required"
     //     0xbdb3e4: ldr             x1, [x1, #0xdc0]
     // 0xbdb3e8: r0 = L()
-    //     0xbdb3e8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdb3e8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdb3ec: stur            x0, [fp, #-8]
     // 0xbdb3f0: r0 = Text()
     //     0xbdb3f0: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -428,7 +428,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdb404: add             x1, PP, #0x49, lsl #12  ; [pp+0x49dc8] "Please sign out and sign back in, then try deleting your account again."
     //     0xbdb408: ldr             x1, [x1, #0xdc8]
     // 0xbdb40c: r0 = L()
-    //     0xbdb40c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdb40c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdb410: stur            x0, [fp, #-8]
     // 0xbdb414: r0 = Text()
     //     0xbdb414: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -441,7 +441,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdb428: add             x1, PP, #0x20, lsl #12  ; [pp+0x20360] "OK"
     //     0xbdb42c: ldr             x1, [x1, #0x360]
     // 0xbdb430: r0 = L()
-    //     0xbdb430: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdb430: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdb434: stur            x0, [fp, #-8]
     // 0xbdb438: r0 = Text()
     //     0xbdb438: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -452,7 +452,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdb448: stur            w0, [x3, #0xb]
     // 0xbdb44c: ldur            x2, [fp, #-0x10]
     // 0xbdb450: r1 = Function '<anonymous closure>':.
-    //     0xbdb450: add             x1, PP, #0x49, lsl #12  ; [pp+0x49dd0] AnonymousClosure: (0x986ed0), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
+    //     0xbdb450: add             x1, PP, #0x49, lsl #12  ; [pp+0x49dd0] AnonymousClosure: (0x986ed0), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
     //     0xbdb454: ldr             x1, [x1, #0xdd0]
     // 0xbdb458: r0 = AllocateClosure()
     //     0xbdb458: bl              #0xe553e0  ; AllocateClosureStub
@@ -555,7 +555,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdb548: add             x1, PP, #0x49, lsl #12  ; [pp+0x49dd8] "Are you sure you want to delete your account\?"
     //     0xbdb54c: ldr             x1, [x1, #0xdd8]
     // 0xbdb550: r0 = L()
-    //     0xbdb550: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdb550: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdb554: stur            x0, [fp, #-8]
     // 0xbdb558: r0 = Text()
     //     0xbdb558: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -568,7 +568,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdb56c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49de0] "This action cannot be undone and will permanently delete all data associated with your account."
     //     0xbdb570: ldr             x1, [x1, #0xde0]
     // 0xbdb574: r0 = L()
-    //     0xbdb574: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdb574: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdb578: stur            x0, [fp, #-8]
     // 0xbdb57c: r0 = Text()
     //     0xbdb57c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -581,7 +581,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdb590: add             x1, PP, #0x27, lsl #12  ; [pp+0x27668] "Cancel"
     //     0xbdb594: ldr             x1, [x1, #0x668]
     // 0xbdb598: r0 = L()
-    //     0xbdb598: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdb598: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdb59c: stur            x0, [fp, #-8]
     // 0xbdb5a0: r0 = Text()
     //     0xbdb5a0: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -592,7 +592,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdb5b0: stur            w0, [x3, #0xb]
     // 0xbdb5b4: ldur            x2, [fp, #-0x10]
     // 0xbdb5b8: r1 = Function '<anonymous closure>':.
-    //     0xbdb5b8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49de8] AnonymousClosure: (0x658b4c), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible (0x658ea8)
+    //     0xbdb5b8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49de8] AnonymousClosure: (0x658b4c), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible (0x658ea8)
     //     0xbdb5bc: ldr             x1, [x1, #0xde8]
     // 0xbdb5c0: r0 = AllocateClosure()
     //     0xbdb5c0: bl              #0xe553e0  ; AllocateClosureStub
@@ -629,7 +629,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdb610: ldr             x1, [x1, #0xdf0]
     // 0xbdb614: stur            x0, [fp, #-8]
     // 0xbdb618: r0 = L()
-    //     0xbdb618: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdb618: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdb61c: stur            x0, [fp, #-0x28]
     // 0xbdb620: r0 = Text()
     //     0xbdb620: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -649,7 +649,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdb648: stur            w0, [x3, #0x3b]
     // 0xbdb64c: ldur            x2, [fp, #-0x10]
     // 0xbdb650: r1 = Function '<anonymous closure>':.
-    //     0xbdb650: add             x1, PP, #0x49, lsl #12  ; [pp+0x49df8] AnonymousClosure: (0x6587e8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentTrialExitReturnOfferAlertIfEligible (0x6148dc)
+    //     0xbdb650: add             x1, PP, #0x49, lsl #12  ; [pp+0x49df8] AnonymousClosure: (0x6587e8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentTrialExitReturnOfferAlertIfEligible (0x6148dc)
     //     0xbdb654: ldr             x1, [x1, #0xdf8]
     // 0xbdb658: r0 = AllocateClosure()
     //     0xbdb658: bl              #0xe553e0  ; AllocateClosureStub
@@ -751,7 +751,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdb73c: add             x2, x2, HEAP, lsl #32
     // 0xbdb740: mov             x1, x0
     // 0xbdb744: r0 = _confirmSignOut()
-    //     0xbdb744: bl              #0xbdb75c  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_user_destructive_actions_view.dart] AccountUserDestructiveActionsView::_confirmSignOut
+    //     0xbdb744: bl              #0xbdb75c  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_user_destructive_actions_view.dart] AccountUserDestructiveActionsView::_confirmSignOut
     // 0xbdb748: LeaveFrame
     //     0xbdb748: mov             SP, fp
     //     0xbdb74c: ldp             fp, lr, [SP], #0x10
@@ -780,7 +780,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdb780: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0xbdb784: bl              #0x60afc8  ; InitAsyncStub
     // 0xbdb788: r1 = Function '<anonymous closure>':.
-    //     0xbdb788: add             x1, PP, #0x49, lsl #12  ; [pp+0x49e30] AnonymousClosure: (0xbdb844), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_user_destructive_actions_view.dart] AccountUserDestructiveActionsView::_confirmSignOut (0xbdb75c)
+    //     0xbdb788: add             x1, PP, #0x49, lsl #12  ; [pp+0x49e30] AnonymousClosure: (0xbdb844), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_user_destructive_actions_view.dart] AccountUserDestructiveActionsView::_confirmSignOut (0xbdb75c)
     //     0xbdb78c: ldr             x1, [x1, #0xe30]
     // 0xbdb790: r2 = Null
     //     0xbdb790: mov             x2, NULL
@@ -838,7 +838,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdb81c: bl              #0x5ff5d4  ; [package:provider/src/provider.dart] ::ReadContext.read
     // 0xbdb820: mov             x1, x0
     // 0xbdb824: r0 = signOut()
-    //     0xbdb824: bl              #0x9cbb58  ; [package:ballai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::signOut
+    //     0xbdb824: bl              #0x9cbb58  ; [package:kourtai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::signOut
     // 0xbdb828: mov             x1, x0
     // 0xbdb82c: stur            x1, [fp, #-0x10]
     // 0xbdb830: r0 = Await()
@@ -883,7 +883,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdb88c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49e38] "Are you sure you want to sign out\?"
     //     0xbdb890: ldr             x1, [x1, #0xe38]
     // 0xbdb894: r0 = L()
-    //     0xbdb894: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdb894: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdb898: stur            x0, [fp, #-8]
     // 0xbdb89c: r0 = Text()
     //     0xbdb89c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -896,7 +896,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdb8b0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49e40] "This action cannot be undone."
     //     0xbdb8b4: ldr             x1, [x1, #0xe40]
     // 0xbdb8b8: r0 = L()
-    //     0xbdb8b8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdb8b8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdb8bc: stur            x0, [fp, #-8]
     // 0xbdb8c0: r0 = Text()
     //     0xbdb8c0: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -909,7 +909,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdb8d4: add             x1, PP, #0x27, lsl #12  ; [pp+0x27668] "Cancel"
     //     0xbdb8d8: ldr             x1, [x1, #0x668]
     // 0xbdb8dc: r0 = L()
-    //     0xbdb8dc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdb8dc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdb8e0: stur            x0, [fp, #-8]
     // 0xbdb8e4: r0 = Text()
     //     0xbdb8e4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -920,7 +920,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdb8f4: stur            w0, [x3, #0xb]
     // 0xbdb8f8: ldur            x2, [fp, #-0x10]
     // 0xbdb8fc: r1 = Function '<anonymous closure>':.
-    //     0xbdb8fc: add             x1, PP, #0x49, lsl #12  ; [pp+0x49e48] AnonymousClosure: (0x658b4c), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible (0x658ea8)
+    //     0xbdb8fc: add             x1, PP, #0x49, lsl #12  ; [pp+0x49e48] AnonymousClosure: (0x658b4c), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible (0x658ea8)
     //     0xbdb900: ldr             x1, [x1, #0xe48]
     // 0xbdb904: r0 = AllocateClosure()
     //     0xbdb904: bl              #0xe553e0  ; AllocateClosureStub
@@ -957,7 +957,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdb954: ldr             x1, [x1, #0xe50]
     // 0xbdb958: stur            x0, [fp, #-8]
     // 0xbdb95c: r0 = L()
-    //     0xbdb95c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdb95c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdb960: stur            x0, [fp, #-0x28]
     // 0xbdb964: r0 = Text()
     //     0xbdb964: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -977,7 +977,7 @@ class AccountUserDestructiveActionsView extends StatelessWidget {
     //     0xbdb98c: stur            w0, [x3, #0x3b]
     // 0xbdb990: ldur            x2, [fp, #-0x10]
     // 0xbdb994: r1 = Function '<anonymous closure>':.
-    //     0xbdb994: add             x1, PP, #0x49, lsl #12  ; [pp+0x49e58] AnonymousClosure: (0x6587e8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentTrialExitReturnOfferAlertIfEligible (0x6148dc)
+    //     0xbdb994: add             x1, PP, #0x49, lsl #12  ; [pp+0x49e58] AnonymousClosure: (0x6587e8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentTrialExitReturnOfferAlertIfEligible (0x6148dc)
     //     0xbdb998: ldr             x1, [x1, #0xe58]
     // 0xbdb99c: r0 = AllocateClosure()
     //     0xbdb99c: bl              #0xe553e0  ; AllocateClosureStub

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart
 
 // class id: 1048872, size: 0x8
 class :: {
@@ -32,7 +32,7 @@ class :: {
     //     0xa294d4: add             x1, PP, #0x27, lsl #12  ; [pp+0x27338] "Jan"
     //     0xa294d8: ldr             x1, [x1, #0x338]
     // 0xa294dc: r0 = L()
-    //     0xa294dc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa294dc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa294e0: ldur            x1, [fp, #-0x10]
     // 0xa294e4: ArrayStore: r1[1] = r0  ; List_4
     //     0xa294e4: add             x25, x1, #0x13
@@ -53,7 +53,7 @@ class :: {
     //     0xa29514: add             x1, PP, #0x27, lsl #12  ; [pp+0x27340] "Feb"
     //     0xa29518: ldr             x1, [x1, #0x340]
     // 0xa2951c: r0 = L()
-    //     0xa2951c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2951c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa29520: ldur            x1, [fp, #-0x10]
     // 0xa29524: ArrayStore: r1[3] = r0  ; List_4
     //     0xa29524: add             x25, x1, #0x1b
@@ -74,7 +74,7 @@ class :: {
     //     0xa29554: add             x1, PP, #0x27, lsl #12  ; [pp+0x27348] "Mar"
     //     0xa29558: ldr             x1, [x1, #0x348]
     // 0xa2955c: r0 = L()
-    //     0xa2955c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2955c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa29560: ldur            x1, [fp, #-0x10]
     // 0xa29564: ArrayStore: r1[5] = r0  ; List_4
     //     0xa29564: add             x25, x1, #0x23
@@ -95,7 +95,7 @@ class :: {
     //     0xa29594: add             x1, PP, #0x27, lsl #12  ; [pp+0x27350] "Apr"
     //     0xa29598: ldr             x1, [x1, #0x350]
     // 0xa2959c: r0 = L()
-    //     0xa2959c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2959c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa295a0: ldur            x1, [fp, #-0x10]
     // 0xa295a4: ArrayStore: r1[7] = r0  ; List_4
     //     0xa295a4: add             x25, x1, #0x2b
@@ -116,7 +116,7 @@ class :: {
     //     0xa295d4: add             x1, PP, #0x27, lsl #12  ; [pp+0x27358] "May"
     //     0xa295d8: ldr             x1, [x1, #0x358]
     // 0xa295dc: r0 = L()
-    //     0xa295dc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa295dc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa295e0: ldur            x1, [fp, #-0x10]
     // 0xa295e4: ArrayStore: r1[9] = r0  ; List_4
     //     0xa295e4: add             x25, x1, #0x33
@@ -137,7 +137,7 @@ class :: {
     //     0xa29614: add             x1, PP, #0x27, lsl #12  ; [pp+0x27360] "Jun"
     //     0xa29618: ldr             x1, [x1, #0x360]
     // 0xa2961c: r0 = L()
-    //     0xa2961c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2961c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa29620: ldur            x1, [fp, #-0x10]
     // 0xa29624: ArrayStore: r1[11] = r0  ; List_4
     //     0xa29624: add             x25, x1, #0x3b
@@ -158,7 +158,7 @@ class :: {
     //     0xa29654: add             x1, PP, #0x27, lsl #12  ; [pp+0x27368] "Jul"
     //     0xa29658: ldr             x1, [x1, #0x368]
     // 0xa2965c: r0 = L()
-    //     0xa2965c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2965c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa29660: ldur            x1, [fp, #-0x10]
     // 0xa29664: ArrayStore: r1[13] = r0  ; List_4
     //     0xa29664: add             x25, x1, #0x43
@@ -179,7 +179,7 @@ class :: {
     //     0xa29694: add             x1, PP, #0x27, lsl #12  ; [pp+0x27370] "Aug"
     //     0xa29698: ldr             x1, [x1, #0x370]
     // 0xa2969c: r0 = L()
-    //     0xa2969c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2969c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa296a0: ldur            x1, [fp, #-0x10]
     // 0xa296a4: ArrayStore: r1[15] = r0  ; List_4
     //     0xa296a4: add             x25, x1, #0x4b
@@ -200,7 +200,7 @@ class :: {
     //     0xa296d4: add             x1, PP, #0x27, lsl #12  ; [pp+0x27378] "Sep"
     //     0xa296d8: ldr             x1, [x1, #0x378]
     // 0xa296dc: r0 = L()
-    //     0xa296dc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa296dc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa296e0: ldur            x1, [fp, #-0x10]
     // 0xa296e4: ArrayStore: r1[17] = r0  ; List_4
     //     0xa296e4: add             x25, x1, #0x53
@@ -221,7 +221,7 @@ class :: {
     //     0xa29714: add             x1, PP, #0x27, lsl #12  ; [pp+0x27380] "Oct"
     //     0xa29718: ldr             x1, [x1, #0x380]
     // 0xa2971c: r0 = L()
-    //     0xa2971c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2971c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa29720: ldur            x1, [fp, #-0x10]
     // 0xa29724: ArrayStore: r1[19] = r0  ; List_4
     //     0xa29724: add             x25, x1, #0x5b
@@ -242,7 +242,7 @@ class :: {
     //     0xa29754: add             x1, PP, #0x27, lsl #12  ; [pp+0x27388] "Nov"
     //     0xa29758: ldr             x1, [x1, #0x388]
     // 0xa2975c: r0 = L()
-    //     0xa2975c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2975c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa29760: ldur            x1, [fp, #-0x10]
     // 0xa29764: ArrayStore: r1[21] = r0  ; List_4
     //     0xa29764: add             x25, x1, #0x63
@@ -263,7 +263,7 @@ class :: {
     //     0xa29794: add             x1, PP, #0x27, lsl #12  ; [pp+0x27390] "Dec"
     //     0xa29798: ldr             x1, [x1, #0x390]
     // 0xa2979c: r0 = L()
-    //     0xa2979c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2979c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa297a0: ldur            x1, [fp, #-0x10]
     // 0xa297a4: ArrayStore: r1[23] = r0  ; List_4
     //     0xa297a4: add             x25, x1, #0x6b
@@ -829,13 +829,13 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0x954d1c: b.ls            #0x954da4
     // 0x954d20: mov             x1, x0
     // 0x954d24: r0 = initState()
-    //     0x954d24: bl              #0x989844  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::initState
+    //     0x954d24: bl              #0x989844  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::initState
     // 0x954d28: r0 = ProfileViewModel()
     //     0x954d28: bl              #0x955d00  ; AllocateProfileViewModelStub -> ProfileViewModel (size=0xa8)
     // 0x954d2c: mov             x1, x0
     // 0x954d30: stur            x0, [fp, #-0x10]
     // 0x954d34: r0 = ProfileViewModel()
-    //     0x954d34: bl              #0x954dd0  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::ProfileViewModel
+    //     0x954d34: bl              #0x954dd0  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::ProfileViewModel
     // 0x954d38: ldur            x1, [fp, #-8]
     // 0x954d3c: LoadField: r0 = r1->field_1b
     //     0x954d3c: ldur            w0, [x1, #0x1b]
@@ -939,7 +939,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0x9c1268: cmp             w1, w16
     // 0x9c126c: b.eq            #0x9c12d4
     // 0x9c1270: r0 = hydrateFromUser()
-    //     0x9c1270: bl              #0x9c12e4  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::hydrateFromUser
+    //     0x9c1270: bl              #0x9c12e4  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::hydrateFromUser
     // 0x9c1274: ldur            x0, [fp, #-8]
     // 0x9c1278: LoadField: r1 = r0->field_27
     //     0x9c1278: ldur            w1, [x0, #0x27]
@@ -966,7 +966,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0x9c12ac: bl              #0x5ff5d4  ; [package:provider/src/provider.dart] ::ReadContext.read
     // 0x9c12b0: mov             x1, x0
     // 0x9c12b4: r0 = fetchProfileImageForCurrentUser()
-    //     0x9c12b4: bl              #0x93d6fc  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::fetchProfileImageForCurrentUser
+    //     0x9c12b4: bl              #0x93d6fc  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::fetchProfileImageForCurrentUser
     // 0x9c12b8: r0 = Null
     //     0x9c12b8: mov             x0, NULL
     // 0x9c12bc: LeaveFrame
@@ -1030,13 +1030,13 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa14128: b.eq            #0xa14130
     //     0xa1412c: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xa14130: ldur            x1, [fp, #-0x10]
-    // 0xa14134: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xa14134: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xa14134: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xa14134: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xa14138: ldur            x1, [fp, #-8]
     // 0xa1413c: ldur            x2, [fp, #-0x10]
     // 0xa14140: stur            x0, [fp, #-0x10]
     // 0xa14144: r0 = _buildAppBar()
-    //     0xa14144: bl              #0xa141f8  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_buildAppBar
+    //     0xa14144: bl              #0xa141f8  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_buildAppBar
     // 0xa14148: mov             x3, x0
     // 0xa1414c: ldur            x0, [fp, #-8]
     // 0xa14150: stur            x3, [fp, #-0x28]
@@ -1051,7 +1051,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa14168: ldur            x2, [fp, #-0x18]
     // 0xa1416c: stur            x4, [fp, #-0x20]
     // 0xa14170: r1 = Function '<anonymous closure>':.
-    //     0xa14170: add             x1, PP, #0x45, lsl #12  ; [pp+0x45128] AnonymousClosure: (0xa230a8), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::build (0xa140bc)
+    //     0xa14170: add             x1, PP, #0x45, lsl #12  ; [pp+0x45128] AnonymousClosure: (0xa230a8), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::build (0xa140bc)
     //     0xa14174: ldr             x1, [x1, #0x128]
     // 0xa14178: r0 = AllocateClosure()
     //     0xa14178: bl              #0xe553e0  ; AllocateClosureStub
@@ -1123,18 +1123,18 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa14218: cmp             SP, x16
     //     0xa1421c: b.ls            #0xa144e4
     // 0xa14220: mov             x1, x0
-    // 0xa14224: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xa14224: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xa14224: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xa14224: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xa14228: r1 = "Edit Profile"
     //     0xa14228: add             x1, PP, #0x45, lsl #12  ; [pp+0x45488] "Edit Profile"
     //     0xa1422c: ldr             x1, [x1, #0x488]
     // 0xa14230: stur            x0, [fp, #-0x18]
     // 0xa14234: r0 = L()
-    //     0xa14234: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa14234: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa14238: ldur            x1, [fp, #-0x10]
     // 0xa1423c: stur            x0, [fp, #-0x20]
-    // 0xa14240: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa14240: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa14240: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa14240: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa14244: stur            x0, [fp, #-0x28]
     // 0xa14248: r0 = TextStyle()
     //     0xa14248: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1252,11 +1252,11 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa14368: b               #0xa14438
     // 0xa1436c: mov             x1, x0
     // 0xa14370: r0 = canSave()
-    //     0xa14370: bl              #0xa159b4  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::canSave
+    //     0xa14370: bl              #0xa159b4  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::canSave
     // 0xa14374: tbnz            w0, #4, #0xa1438c
     // 0xa14378: ldur            x2, [fp, #-8]
     // 0xa1437c: r1 = Function '_save@1125148869':.
-    //     0xa1437c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45490] AnonymousClosure: (0xa15a34), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_save (0xa15a6c)
+    //     0xa1437c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45490] AnonymousClosure: (0xa15a34), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_save (0xa15a6c)
     //     0xa14380: ldr             x1, [x1, #0x490]
     // 0xa14384: r0 = AllocateClosure()
     //     0xa14384: bl              #0xe553e0  ; AllocateClosureStub
@@ -1265,8 +1265,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa1438c: mov             x0, NULL
     // 0xa14390: ldur            x1, [fp, #-0x10]
     // 0xa14394: stur            x0, [fp, #-8]
-    // 0xa14398: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa14398: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa14398: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa14398: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa1439c: stur            x0, [fp, #-0x10]
     // 0xa143a0: r0 = TextStyle()
     //     0xa143a0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1297,7 +1297,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa143e0: ldr             x1, [x1, #0x450]
     // 0xa143e4: stur            x0, [fp, #-0x10]
     // 0xa143e8: r0 = L()
-    //     0xa143e8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa143e8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa143ec: stur            x0, [fp, #-0x20]
     // 0xa143f0: r0 = Text()
     //     0xa143f0: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1414,7 +1414,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa15a4c: cmp             SP, x16
     //     0xa15a50: b.ls            #0xa15a64
     // 0xa15a54: r0 = _save()
-    //     0xa15a54: bl              #0xa15a6c  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_save
+    //     0xa15a54: bl              #0xa15a6c  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_save
     // 0xa15a58: LeaveFrame
     //     0xa15a58: mov             SP, fp
     //     0xa15a5c: ldp             fp, lr, [SP], #0x10
@@ -1457,7 +1457,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa15ab4: cmp             w2, NULL
     // 0xa15ab8: b.eq            #0xa15b20
     // 0xa15abc: r0 = save()
-    //     0xa15abc: bl              #0xa15b24  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::save
+    //     0xa15abc: bl              #0xa15b24  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::save
     // 0xa15ac0: mov             x1, x0
     // 0xa15ac4: stur            x1, [fp, #-0x18]
     // 0xa15ac8: r0 = Await()
@@ -1531,7 +1531,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa230ec: mov             x2, x4
     // 0xa230f0: stur            x4, [fp, #-8]
     // 0xa230f4: r0 = _buildPhotoHeader()
-    //     0xa230f4: bl              #0xa2a8bc  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_buildPhotoHeader
+    //     0xa230f4: bl              #0xa2a8bc  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_buildPhotoHeader
     // 0xa230f8: r1 = <Widget>
     //     0xa230f8: ldr             x1, [PP, #0x4f10]  ; [pp+0x4f10] TypeArguments: <Widget>
     // 0xa230fc: r2 = 32
@@ -1571,7 +1571,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa2315c: add             x2, PP, #0x2d, lsl #12  ; [pp+0x2d2a0] "Basic info"
     //     0xa23160: ldr             x2, [x2, #0x2a0]
     // 0xa23164: r0 = _sectionLabel()
-    //     0xa23164: bl              #0xa2a7e4  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_sectionLabel
+    //     0xa23164: bl              #0xa2a7e4  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_sectionLabel
     // 0xa23168: ldur            x1, [fp, #-0x28]
     // 0xa2316c: ArrayStore: r1[2] = r0  ; List_4
     //     0xa2316c: add             x25, x1, #0x17
@@ -1609,7 +1609,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa231c8: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b828] "Name"
     //     0xa231cc: ldr             x1, [x1, #0x828]
     // 0xa231d0: r0 = L()
-    //     0xa231d0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa231d0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa231d4: mov             x1, x0
     // 0xa231d8: ldur            x0, [fp, #-0x18]
     // 0xa231dc: LoadField: r2 = r0->field_f
@@ -1620,7 +1620,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa231e8: mov             x1, x2
     // 0xa231ec: ldur            x2, [fp, #-0x20]
     // 0xa231f0: r0 = _plainTextField()
-    //     0xa231f0: bl              #0xa2a5d8  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_plainTextField
+    //     0xa231f0: bl              #0xa2a5d8  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_plainTextField
     // 0xa231f4: r1 = Null
     //     0xa231f4: mov             x1, NULL
     // 0xa231f8: r2 = 2
@@ -1696,7 +1696,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa232a8: DecompressPointer r1
     //     0xa232a8: add             x1, x1, HEAP, lsl #32
     // 0xa232ac: r0 = _divider()
-    //     0xa232ac: bl              #0xa2a500  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
+    //     0xa232ac: bl              #0xa2a500  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
     // 0xa232b0: mov             x1, x0
     // 0xa232b4: ldur            x0, [fp, #-0x18]
     // 0xa232b8: stur            x1, [fp, #-0x38]
@@ -1740,7 +1740,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa23314: b.eq            #0xa24ffc
     // 0xa23318: ldur            x1, [fp, #-0x30]
     // 0xa2331c: r0 = _readonlyLabeledRow()
-    //     0xa2331c: bl              #0xa2a2f0  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_readonlyLabeledRow
+    //     0xa2331c: bl              #0xa2a2f0  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_readonlyLabeledRow
     // 0xa23320: r1 = Null
     //     0xa23320: mov             x1, NULL
     // 0xa23324: r2 = 4
@@ -1779,7 +1779,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa2337c: DecompressPointer r1
     //     0xa2337c: add             x1, x1, HEAP, lsl #32
     // 0xa23380: r0 = _divider()
-    //     0xa23380: bl              #0xa2a500  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
+    //     0xa23380: bl              #0xa2a500  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
     // 0xa23384: mov             x2, x0
     // 0xa23388: ldur            x0, [fp, #-0x20]
     // 0xa2338c: stur            x2, [fp, #-0x30]
@@ -1866,7 +1866,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa23470: stur            w0, [x3, #0xf]
     // 0xa23474: ldur            x2, [fp, #-0x40]
     // 0xa23478: r1 = Function 'setPhoneCountry':.
-    //     0xa23478: add             x1, PP, #0x45, lsl #12  ; [pp+0x45138] AnonymousClosure: (0xa2b444), in [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setPhoneCountry (0xa2b480)
+    //     0xa23478: add             x1, PP, #0x45, lsl #12  ; [pp+0x45138] AnonymousClosure: (0xa2b444), in [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setPhoneCountry (0xa2b480)
     //     0xa2347c: ldr             x1, [x1, #0x138]
     // 0xa23480: r0 = AllocateClosure()
     //     0xa23480: bl              #0xe553e0  ; AllocateClosureStub
@@ -1917,7 +1917,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa23508: DecompressPointer r1
     //     0xa23508: add             x1, x1, HEAP, lsl #32
     // 0xa2350c: r0 = _divider()
-    //     0xa2350c: bl              #0xa2a500  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
+    //     0xa2350c: bl              #0xa2a500  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
     // 0xa23510: mov             x2, x0
     // 0xa23514: ldur            x0, [fp, #-0x20]
     // 0xa23518: stur            x2, [fp, #-0x30]
@@ -1967,7 +1967,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa23598: DecompressPointer r1
     //     0xa23598: add             x1, x1, HEAP, lsl #32
     // 0xa2359c: r0 = _dateOfBirthRow()
-    //     0xa2359c: bl              #0xa28f60  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_dateOfBirthRow
+    //     0xa2359c: bl              #0xa28f60  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_dateOfBirthRow
     // 0xa235a0: mov             x2, x0
     // 0xa235a4: ldur            x0, [fp, #-0x20]
     // 0xa235a8: stur            x2, [fp, #-0x30]
@@ -2017,7 +2017,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa23628: DecompressPointer r1
     //     0xa23628: add             x1, x1, HEAP, lsl #32
     // 0xa2362c: r0 = _divider()
-    //     0xa2362c: bl              #0xa2a500  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
+    //     0xa2362c: bl              #0xa2a500  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
     // 0xa23630: mov             x2, x0
     // 0xa23634: ldur            x0, [fp, #-0x20]
     // 0xa23638: stur            x2, [fp, #-0x30]
@@ -2067,7 +2067,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa236b8: DecompressPointer r1
     //     0xa236b8: add             x1, x1, HEAP, lsl #32
     // 0xa236bc: r0 = _genderRow()
-    //     0xa236bc: bl              #0xa28b44  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_genderRow
+    //     0xa236bc: bl              #0xa28b44  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_genderRow
     // 0xa236c0: mov             x2, x0
     // 0xa236c4: ldur            x0, [fp, #-0x20]
     // 0xa236c8: stur            x2, [fp, #-0x30]
@@ -2118,7 +2118,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa2374c: DecompressPointer r1
     //     0xa2374c: add             x1, x1, HEAP, lsl #32
     // 0xa23750: r0 = _roundedSection()
-    //     0xa23750: bl              #0xa28a08  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_roundedSection
+    //     0xa23750: bl              #0xa28a08  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_roundedSection
     // 0xa23754: ldur            x1, [fp, #-0x28]
     // 0xa23758: ArrayStore: r1[3] = r0  ; List_4
     //     0xa23758: add             x25, x1, #0x1b
@@ -2145,7 +2145,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa23798: add             x2, PP, #0x3b, lsl #12  ; [pp+0x3b9b8] "Profile"
     //     0xa2379c: ldr             x2, [x2, #0x9b8]
     // 0xa237a0: r0 = _sectionLabel()
-    //     0xa237a0: bl              #0xa2a7e4  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_sectionLabel
+    //     0xa237a0: bl              #0xa2a7e4  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_sectionLabel
     // 0xa237a4: ldur            x1, [fp, #-0x28]
     // 0xa237a8: ArrayStore: r1[5] = r0  ; List_4
     //     0xa237a8: add             x25, x1, #0x23
@@ -2163,7 +2163,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa237d4: DecompressPointer r1
     //     0xa237d4: add             x1, x1, HEAP, lsl #32
     // 0xa237d8: r0 = _ballTagBlock()
-    //     0xa237d8: bl              #0xa28530  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_ballTagBlock
+    //     0xa237d8: bl              #0xa28530  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_ballTagBlock
     // 0xa237dc: mov             x2, x0
     // 0xa237e0: ldur            x0, [fp, #-0x18]
     // 0xa237e4: stur            x2, [fp, #-0x20]
@@ -2172,7 +2172,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa237ec: DecompressPointer r1
     //     0xa237ec: add             x1, x1, HEAP, lsl #32
     // 0xa237f0: r0 = _divider()
-    //     0xa237f0: bl              #0xa2a500  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
+    //     0xa237f0: bl              #0xa2a500  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
     // 0xa237f4: mov             x2, x0
     // 0xa237f8: ldur            x0, [fp, #-0x18]
     // 0xa237fc: stur            x2, [fp, #-0x30]
@@ -2181,7 +2181,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa23804: DecompressPointer r1
     //     0xa23804: add             x1, x1, HEAP, lsl #32
     // 0xa23808: r0 = _bioBlock()
-    //     0xa23808: bl              #0xa27fdc  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_bioBlock
+    //     0xa23808: bl              #0xa27fdc  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_bioBlock
     // 0xa2380c: mov             x2, x0
     // 0xa23810: ldur            x0, [fp, #-0x18]
     // 0xa23814: stur            x2, [fp, #-0x38]
@@ -2190,7 +2190,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa2381c: DecompressPointer r1
     //     0xa2381c: add             x1, x1, HEAP, lsl #32
     // 0xa23820: r0 = _divider()
-    //     0xa23820: bl              #0xa2a500  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
+    //     0xa23820: bl              #0xa2a500  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
     // 0xa23824: mov             x3, x0
     // 0xa23828: ldur            x0, [fp, #-0x18]
     // 0xa2382c: stur            x3, [fp, #-0x40]
@@ -2200,7 +2200,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa23834: add             x1, x1, HEAP, lsl #32
     // 0xa23838: ldr             x2, [fp, #0x18]
     // 0xa2383c: r0 = _locationBlock()
-    //     0xa2383c: bl              #0xa264c8  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_locationBlock
+    //     0xa2383c: bl              #0xa264c8  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_locationBlock
     // 0xa23840: mov             x2, x0
     // 0xa23844: ldur            x0, [fp, #-0x18]
     // 0xa23848: stur            x2, [fp, #-0x50]
@@ -2209,7 +2209,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa23850: DecompressPointer r1
     //     0xa23850: add             x1, x1, HEAP, lsl #32
     // 0xa23854: r0 = _divider()
-    //     0xa23854: bl              #0xa2a500  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
+    //     0xa23854: bl              #0xa2a500  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
     // 0xa23858: mov             x2, x0
     // 0xa2385c: ldur            x0, [fp, #-0x18]
     // 0xa23860: stur            x2, [fp, #-0x60]
@@ -2218,7 +2218,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa23868: DecompressPointer r1
     //     0xa23868: add             x1, x1, HEAP, lsl #32
     // 0xa2386c: r0 = _profileVisibilityRow()
-    //     0xa2386c: bl              #0xa25f14  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_profileVisibilityRow
+    //     0xa2386c: bl              #0xa25f14  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_profileVisibilityRow
     // 0xa23870: r1 = Null
     //     0xa23870: mov             x1, NULL
     // 0xa23874: r2 = 14
@@ -2270,7 +2270,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa238ec: mov             x1, x2
     // 0xa238f0: mov             x2, x16
     // 0xa238f4: r0 = _roundedSection()
-    //     0xa238f4: bl              #0xa28a08  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_roundedSection
+    //     0xa238f4: bl              #0xa28a08  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_roundedSection
     // 0xa238f8: ldur            x1, [fp, #-0x28]
     // 0xa238fc: ArrayStore: r1[6] = r0  ; List_4
     //     0xa238fc: add             x25, x1, #0x27
@@ -2311,7 +2311,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa2396c: add             x2, PP, #0x3b, lsl #12  ; [pp+0x3b840] "Basketball"
     //     0xa23970: ldr             x2, [x2, #0x840]
     // 0xa23974: r0 = _sectionLabel()
-    //     0xa23974: bl              #0xa2a7e4  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_sectionLabel
+    //     0xa23974: bl              #0xa2a7e4  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_sectionLabel
     // 0xa23978: ldur            x1, [fp, #-0x28]
     // 0xa2397c: ArrayStore: r1[8] = r0  ; List_4
     //     0xa2397c: add             x25, x1, #0x2f
@@ -2327,7 +2327,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa239a0: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d268] "Position"
     //     0xa239a4: ldr             x1, [x1, #0x268]
     // 0xa239a8: r0 = L()
-    //     0xa239a8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa239a8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa239ac: mov             x3, x0
     // 0xa239b0: ldur            x0, [fp, #-0x18]
     // 0xa239b4: stur            x3, [fp, #-0x30]
@@ -2349,7 +2349,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa239d8: add             x4, x4, HEAP, lsl #32
     // 0xa239dc: stur            x4, [fp, #-0x20]
     // 0xa239e0: r1 = Function '<anonymous closure>':.
-    //     0xa239e0: add             x1, PP, #0x45, lsl #12  ; [pp+0x45140] AnonymousClosure: (0xa2b3f8), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::build (0xa140bc)
+    //     0xa239e0: add             x1, PP, #0x45, lsl #12  ; [pp+0x45140] AnonymousClosure: (0xa2b3f8), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::build (0xa140bc)
     //     0xa239e4: ldr             x1, [x1, #0x140]
     // 0xa239e8: r2 = Null
     //     0xa239e8: mov             x2, NULL
@@ -2391,7 +2391,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa23a44: cmp             w2, w16
     // 0xa23a48: b.eq            #0xa25024
     // 0xa23a4c: r1 = Function 'setPosition':.
-    //     0xa23a4c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45150] AnonymousClosure: (0xa2b36c), in [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setPosition (0xa2b3a8)
+    //     0xa23a4c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45150] AnonymousClosure: (0xa2b36c), in [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setPosition (0xa2b3a8)
     //     0xa23a50: ldr             x1, [x1, #0x150]
     // 0xa23a54: r0 = AllocateClosure()
     //     0xa23a54: bl              #0xe553e0  ; AllocateClosureStub
@@ -2408,7 +2408,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa23a78: add             x4, PP, #0x19, lsl #12  ; [pp+0x19e48] List(5) [0x1, 0x5, 0x5, 0x5, Null]
     //     0xa23a7c: ldr             x4, [x4, #0xe48]
     // 0xa23a80: r0 = _menuPickerRow()
-    //     0xa23a80: bl              #0xa258c4  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_menuPickerRow
+    //     0xa23a80: bl              #0xa258c4  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_menuPickerRow
     // 0xa23a84: mov             x2, x0
     // 0xa23a88: ldur            x0, [fp, #-0x18]
     // 0xa23a8c: stur            x2, [fp, #-0x20]
@@ -2417,13 +2417,13 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa23a94: DecompressPointer r1
     //     0xa23a94: add             x1, x1, HEAP, lsl #32
     // 0xa23a98: r0 = _divider()
-    //     0xa23a98: bl              #0xa2a500  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
+    //     0xa23a98: bl              #0xa2a500  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
     // 0xa23a9c: r1 = "Skill level"
     //     0xa23a9c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b850] "Skill level"
     //     0xa23aa0: ldr             x1, [x1, #0x850]
     // 0xa23aa4: stur            x0, [fp, #-0x30]
     // 0xa23aa8: r0 = L()
-    //     0xa23aa8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa23aa8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa23aac: mov             x3, x0
     // 0xa23ab0: ldur            x0, [fp, #-0x18]
     // 0xa23ab4: stur            x3, [fp, #-0x40]
@@ -2445,7 +2445,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa23ad8: add             x4, x4, HEAP, lsl #32
     // 0xa23adc: stur            x4, [fp, #-0x38]
     // 0xa23ae0: r1 = Function '<anonymous closure>':.
-    //     0xa23ae0: add             x1, PP, #0x45, lsl #12  ; [pp+0x45158] AnonymousClosure: (0xa2b330), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::build (0xa140bc)
+    //     0xa23ae0: add             x1, PP, #0x45, lsl #12  ; [pp+0x45158] AnonymousClosure: (0xa2b330), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::build (0xa140bc)
     //     0xa23ae4: ldr             x1, [x1, #0x158]
     // 0xa23ae8: r2 = Null
     //     0xa23ae8: mov             x2, NULL
@@ -2487,7 +2487,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa23b44: cmp             w2, w16
     // 0xa23b48: b.eq            #0xa2503c
     // 0xa23b4c: r1 = Function 'setLevelOfPlay':.
-    //     0xa23b4c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45168] AnonymousClosure: (0xa2b2a4), in [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setLevelOfPlay (0xa2b2e0)
+    //     0xa23b4c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45168] AnonymousClosure: (0xa2b2a4), in [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setLevelOfPlay (0xa2b2e0)
     //     0xa23b50: ldr             x1, [x1, #0x168]
     // 0xa23b54: r0 = AllocateClosure()
     //     0xa23b54: bl              #0xe553e0  ; AllocateClosureStub
@@ -2504,7 +2504,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa23b78: add             x4, PP, #0x19, lsl #12  ; [pp+0x19e48] List(5) [0x1, 0x5, 0x5, 0x5, Null]
     //     0xa23b7c: ldr             x4, [x4, #0xe48]
     // 0xa23b80: r0 = _menuPickerRow()
-    //     0xa23b80: bl              #0xa258c4  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_menuPickerRow
+    //     0xa23b80: bl              #0xa258c4  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_menuPickerRow
     // 0xa23b84: mov             x2, x0
     // 0xa23b88: ldur            x0, [fp, #-0x18]
     // 0xa23b8c: stur            x2, [fp, #-0x38]
@@ -2513,13 +2513,13 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa23b94: DecompressPointer r1
     //     0xa23b94: add             x1, x1, HEAP, lsl #32
     // 0xa23b98: r0 = _divider()
-    //     0xa23b98: bl              #0xa2a500  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
+    //     0xa23b98: bl              #0xa2a500  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
     // 0xa23b9c: r1 = "Shooting hand"
     //     0xa23b9c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b848] "Shooting hand"
     //     0xa23ba0: ldr             x1, [x1, #0x848]
     // 0xa23ba4: stur            x0, [fp, #-0x40]
     // 0xa23ba8: r0 = L()
-    //     0xa23ba8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa23ba8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa23bac: mov             x3, x0
     // 0xa23bb0: ldur            x0, [fp, #-0x18]
     // 0xa23bb4: stur            x3, [fp, #-0x60]
@@ -2541,7 +2541,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa23bd8: add             x4, x4, HEAP, lsl #32
     // 0xa23bdc: stur            x4, [fp, #-0x50]
     // 0xa23be0: r1 = Function '<anonymous closure>':.
-    //     0xa23be0: add             x1, PP, #0x45, lsl #12  ; [pp+0x45170] AnonymousClosure: (0xa2b1f8), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::build (0xa140bc)
+    //     0xa23be0: add             x1, PP, #0x45, lsl #12  ; [pp+0x45170] AnonymousClosure: (0xa2b1f8), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::build (0xa140bc)
     //     0xa23be4: ldr             x1, [x1, #0x170]
     // 0xa23be8: r2 = Null
     //     0xa23be8: mov             x2, NULL
@@ -2583,7 +2583,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa23c44: cmp             w2, w16
     // 0xa23c48: b.eq            #0xa25054
     // 0xa23c4c: r1 = Function 'setShootingHand':.
-    //     0xa23c4c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45180] AnonymousClosure: (0xa2b16c), in [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setShootingHand (0xa2b1a8)
+    //     0xa23c4c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45180] AnonymousClosure: (0xa2b16c), in [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setShootingHand (0xa2b1a8)
     //     0xa23c50: ldr             x1, [x1, #0x180]
     // 0xa23c54: r0 = AllocateClosure()
     //     0xa23c54: bl              #0xe553e0  ; AllocateClosureStub
@@ -2600,7 +2600,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa23c78: add             x4, PP, #0x19, lsl #12  ; [pp+0x19e48] List(5) [0x1, 0x5, 0x5, 0x5, Null]
     //     0xa23c7c: ldr             x4, [x4, #0xe48]
     // 0xa23c80: r0 = _menuPickerRow()
-    //     0xa23c80: bl              #0xa258c4  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_menuPickerRow
+    //     0xa23c80: bl              #0xa258c4  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_menuPickerRow
     // 0xa23c84: r1 = Null
     //     0xa23c84: mov             x1, NULL
     // 0xa23c88: r2 = 10
@@ -2646,7 +2646,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa23cf0: mov             x1, x2
     // 0xa23cf4: mov             x2, x16
     // 0xa23cf8: r0 = _roundedSection()
-    //     0xa23cf8: bl              #0xa28a08  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_roundedSection
+    //     0xa23cf8: bl              #0xa28a08  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_roundedSection
     // 0xa23cfc: ldur            x1, [fp, #-0x28]
     // 0xa23d00: ArrayStore: r1[9] = r0  ; List_4
     //     0xa23d00: add             x25, x1, #0x33
@@ -2673,7 +2673,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa23d40: add             x2, PP, #0x45, lsl #12  ; [pp+0x45188] "Physicals"
     //     0xa23d44: ldr             x2, [x2, #0x188]
     // 0xa23d48: r0 = _sectionLabel()
-    //     0xa23d48: bl              #0xa2a7e4  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_sectionLabel
+    //     0xa23d48: bl              #0xa2a7e4  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_sectionLabel
     // 0xa23d4c: ldur            x1, [fp, #-0x28]
     // 0xa23d50: ArrayStore: r1[11] = r0  ; List_4
     //     0xa23d50: add             x25, x1, #0x3b
@@ -2693,7 +2693,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa23d80: ldr             x2, [fp, #0x18]
     // 0xa23d84: ldur            x3, [fp, #-8]
     // 0xa23d88: r0 = _measurementUnitsRow()
-    //     0xa23d88: bl              #0xa25240  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_measurementUnitsRow
+    //     0xa23d88: bl              #0xa25240  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_measurementUnitsRow
     // 0xa23d8c: mov             x2, x0
     // 0xa23d90: ldur            x0, [fp, #-0x18]
     // 0xa23d94: stur            x2, [fp, #-8]
@@ -2702,7 +2702,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa23d9c: DecompressPointer r1
     //     0xa23d9c: add             x1, x1, HEAP, lsl #32
     // 0xa23da0: r0 = _divider()
-    //     0xa23da0: bl              #0xa2a500  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
+    //     0xa23da0: bl              #0xa2a500  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
     // 0xa23da4: r1 = Null
     //     0xa23da4: mov             x1, NULL
     // 0xa23da8: r2 = 4
@@ -2753,7 +2753,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa23e18: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d278] "Height"
     //     0xa23e1c: ldr             x1, [x1, #0x278]
     // 0xa23e20: r0 = L()
-    //     0xa23e20: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa23e20: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa23e24: mov             x3, x0
     // 0xa23e28: ldur            x0, [fp, #-0x18]
     // 0xa23e2c: stur            x3, [fp, #-0x20]
@@ -2884,7 +2884,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa23f8c: stur            x2, [x0, #7]
     // 0xa23f90: mov             x2, x6
     // 0xa23f94: r1 = Function 'setHeightCm':.
-    //     0xa23f94: add             x1, PP, #0x45, lsl #12  ; [pp+0x451b8] AnonymousClosure: (0xa2b084), in [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setHeightCm (0xa2b0c0)
+    //     0xa23f94: add             x1, PP, #0x45, lsl #12  ; [pp+0x451b8] AnonymousClosure: (0xa2b084), in [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setHeightCm (0xa2b0c0)
     //     0xa23f98: ldr             x1, [x1, #0x1b8]
     // 0xa23f9c: stur            x0, [fp, #-0x30]
     // 0xa23fa0: r0 = AllocateClosure()
@@ -2902,7 +2902,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa23fc4: add             x4, PP, #0x19, lsl #12  ; [pp+0x19e48] List(5) [0x1, 0x5, 0x5, 0x5, Null]
     //     0xa23fc8: ldr             x4, [x4, #0xe48]
     // 0xa23fcc: r0 = _menuPickerRow()
-    //     0xa23fcc: bl              #0xa258c4  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_menuPickerRow
+    //     0xa23fcc: bl              #0xa258c4  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_menuPickerRow
     // 0xa23fd0: mov             x2, x0
     // 0xa23fd4: ldur            x0, [fp, #-0x18]
     // 0xa23fd8: stur            x2, [fp, #-0x20]
@@ -2911,13 +2911,13 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa23fe0: DecompressPointer r1
     //     0xa23fe0: add             x1, x1, HEAP, lsl #32
     // 0xa23fe4: r0 = _divider()
-    //     0xa23fe4: bl              #0xa2a500  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
+    //     0xa23fe4: bl              #0xa2a500  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
     // 0xa23fe8: r1 = "Weight"
     //     0xa23fe8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d280] "Weight"
     //     0xa23fec: ldr             x1, [x1, #0x280]
     // 0xa23ff0: stur            x0, [fp, #-0x30]
     // 0xa23ff4: r0 = L()
-    //     0xa23ff4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa23ff4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa23ff8: mov             x1, x0
     // 0xa23ffc: ldur            x0, [fp, #-0x18]
     // 0xa24000: stur            x1, [fp, #-0x38]
@@ -3088,7 +3088,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa241cc: bl              #0xe56334  ; AllocateMintSharedWithoutFPURegsStub
     //     0xa241d0: stur            x5, [x0, #7]
     // 0xa241d4: r1 = Function 'setWeightKg':.
-    //     0xa241d4: add             x1, PP, #0x45, lsl #12  ; [pp+0x451e0] AnonymousClosure: (0xa2b008), in [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setWeightKg (0xa2b044)
+    //     0xa241d4: add             x1, PP, #0x45, lsl #12  ; [pp+0x451e0] AnonymousClosure: (0xa2b008), in [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setWeightKg (0xa2b044)
     //     0xa241d8: ldr             x1, [x1, #0x1e0]
     // 0xa241dc: stur            x0, [fp, #-0x50]
     // 0xa241e0: r0 = AllocateClosure()
@@ -3106,7 +3106,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa24204: add             x4, PP, #0x19, lsl #12  ; [pp+0x19e48] List(5) [0x1, 0x5, 0x5, 0x5, Null]
     //     0xa24208: ldr             x4, [x4, #0xe48]
     // 0xa2420c: r0 = _menuPickerRow()
-    //     0xa2420c: bl              #0xa258c4  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_menuPickerRow
+    //     0xa2420c: bl              #0xa258c4  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_menuPickerRow
     // 0xa24210: r1 = Null
     //     0xa24210: mov             x1, NULL
     // 0xa24214: r2 = 6
@@ -3150,7 +3150,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa24274: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d278] "Height"
     //     0xa24278: ldr             x1, [x1, #0x278]
     // 0xa2427c: r0 = L()
-    //     0xa2427c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2427c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa24280: mov             x3, x0
     // 0xa24284: ldur            x0, [fp, #-0x18]
     // 0xa24288: stur            x3, [fp, #-0x20]
@@ -3280,7 +3280,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa243e4: stur            x2, [x0, #7]
     // 0xa243e8: mov             x2, x6
     // 0xa243ec: r1 = Function 'setHeightFeet':.
-    //     0xa243ec: add             x1, PP, #0x45, lsl #12  ; [pp+0x451f8] AnonymousClosure: (0xa2af8c), in [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setHeightFeet (0xa2afc8)
+    //     0xa243ec: add             x1, PP, #0x45, lsl #12  ; [pp+0x451f8] AnonymousClosure: (0xa2af8c), in [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setHeightFeet (0xa2afc8)
     //     0xa243f0: ldr             x1, [x1, #0x1f8]
     // 0xa243f4: stur            x0, [fp, #-0x30]
     // 0xa243f8: r0 = AllocateClosure()
@@ -3298,7 +3298,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa2441c: add             x4, PP, #0x19, lsl #12  ; [pp+0x19e48] List(5) [0x1, 0x5, 0x5, 0x5, Null]
     //     0xa24420: ldr             x4, [x4, #0xe48]
     // 0xa24424: r0 = _menuPickerRow()
-    //     0xa24424: bl              #0xa258c4  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_menuPickerRow
+    //     0xa24424: bl              #0xa258c4  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_menuPickerRow
     // 0xa24428: r1 = <FlexParentData>
     //     0xa24428: add             x1, PP, #0x18, lsl #12  ; [pp+0x183e0] TypeArguments: <FlexParentData>
     //     0xa2442c: ldr             x1, [x1, #0x3e0]
@@ -3332,7 +3332,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa24474: add             x1, PP, #0x45, lsl #12  ; [pp+0x45200] "Inches"
     //     0xa24478: ldr             x1, [x1, #0x200]
     // 0xa2447c: r0 = L()
-    //     0xa2447c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2447c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa24480: mov             x3, x0
     // 0xa24484: ldur            x0, [fp, #-0x18]
     // 0xa24488: stur            x3, [fp, #-0x38]
@@ -3464,7 +3464,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa245ec: stur            x2, [x0, #7]
     // 0xa245f0: mov             x2, x8
     // 0xa245f4: r1 = Function 'setHeightInches':.
-    //     0xa245f4: add             x1, PP, #0x45, lsl #12  ; [pp+0x45218] AnonymousClosure: (0xa2af10), in [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setHeightInches (0xa2af4c)
+    //     0xa245f4: add             x1, PP, #0x45, lsl #12  ; [pp+0x45218] AnonymousClosure: (0xa2af10), in [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setHeightInches (0xa2af4c)
     //     0xa245f8: ldr             x1, [x1, #0x218]
     // 0xa245fc: stur            x0, [fp, #-0x40]
     // 0xa24600: r0 = AllocateClosure()
@@ -3482,7 +3482,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa24624: add             x4, PP, #0x19, lsl #12  ; [pp+0x19e48] List(5) [0x1, 0x5, 0x5, 0x5, Null]
     //     0xa24628: ldr             x4, [x4, #0xe48]
     // 0xa2462c: r0 = _menuPickerRow()
-    //     0xa2462c: bl              #0xa258c4  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_menuPickerRow
+    //     0xa2462c: bl              #0xa258c4  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_menuPickerRow
     // 0xa24630: r1 = <FlexParentData>
     //     0xa24630: add             x1, PP, #0x18, lsl #12  ; [pp+0x183e0] TypeArguments: <FlexParentData>
     //     0xa24634: ldr             x1, [x1, #0x3e0]
@@ -3577,13 +3577,13 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa24714: DecompressPointer r1
     //     0xa24714: add             x1, x1, HEAP, lsl #32
     // 0xa24718: r0 = _divider()
-    //     0xa24718: bl              #0xa2a500  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
+    //     0xa24718: bl              #0xa2a500  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
     // 0xa2471c: r1 = "Weight"
     //     0xa2471c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d280] "Weight"
     //     0xa24720: ldr             x1, [x1, #0x280]
     // 0xa24724: stur            x0, [fp, #-0x20]
     // 0xa24728: r0 = L()
-    //     0xa24728: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa24728: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2472c: mov             x1, x0
     // 0xa24730: ldur            x0, [fp, #-0x18]
     // 0xa24734: stur            x1, [fp, #-0x38]
@@ -3754,7 +3754,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa24900: bl              #0xe56334  ; AllocateMintSharedWithoutFPURegsStub
     //     0xa24904: stur            x5, [x0, #7]
     // 0xa24908: r1 = Function 'setWeight':.
-    //     0xa24908: add             x1, PP, #0x45, lsl #12  ; [pp+0x45230] AnonymousClosure: (0xa2ae94), in [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setWeight (0xa2aed0)
+    //     0xa24908: add             x1, PP, #0x45, lsl #12  ; [pp+0x45230] AnonymousClosure: (0xa2ae94), in [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setWeight (0xa2aed0)
     //     0xa2490c: ldr             x1, [x1, #0x230]
     // 0xa24910: stur            x0, [fp, #-0x50]
     // 0xa24914: r0 = AllocateClosure()
@@ -3772,7 +3772,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa24938: add             x4, PP, #0x19, lsl #12  ; [pp+0x19e48] List(5) [0x1, 0x5, 0x5, 0x5, Null]
     //     0xa2493c: ldr             x4, [x4, #0xe48]
     // 0xa24940: r0 = _menuPickerRow()
-    //     0xa24940: bl              #0xa258c4  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_menuPickerRow
+    //     0xa24940: bl              #0xa258c4  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_menuPickerRow
     // 0xa24944: r1 = Null
     //     0xa24944: mov             x1, NULL
     // 0xa24948: r2 = 6
@@ -3815,7 +3815,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa249a8: add             x1, x1, HEAP, lsl #32
     // 0xa249ac: ldur            x2, [fp, #-8]
     // 0xa249b0: r0 = _roundedSection()
-    //     0xa249b0: bl              #0xa28a08  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_roundedSection
+    //     0xa249b0: bl              #0xa28a08  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_roundedSection
     // 0xa249b4: ldur            x1, [fp, #-0x28]
     // 0xa249b8: ArrayStore: r1[12] = r0  ; List_4
     //     0xa249b8: add             x25, x1, #0x3f
@@ -3842,7 +3842,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa249f8: add             x2, PP, #0x45, lsl #12  ; [pp+0x45238] "Social"
     //     0xa249fc: ldr             x2, [x2, #0x238]
     // 0xa24a00: r0 = _sectionLabel()
-    //     0xa24a00: bl              #0xa2a7e4  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_sectionLabel
+    //     0xa24a00: bl              #0xa2a7e4  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_sectionLabel
     // 0xa24a04: ldur            x1, [fp, #-0x28]
     // 0xa24a08: ArrayStore: r1[14] = r0  ; List_4
     //     0xa24a08: add             x25, x1, #0x47
@@ -3884,7 +3884,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa24a6c: add             x2, PP, #0x27, lsl #12  ; [pp+0x27810] Obj!SocialPlatform@d3ace1
     //     0xa24a70: ldr             x2, [x2, #0x810]
     // 0xa24a74: r0 = _socialField()
-    //     0xa24a74: bl              #0xa251e0  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_socialField
+    //     0xa24a74: bl              #0xa251e0  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_socialField
     // 0xa24a78: r1 = <Widget>
     //     0xa24a78: ldr             x1, [PP, #0x4f10]  ; [pp+0x4f10] TypeArguments: <Widget>
     // 0xa24a7c: r2 = 30
@@ -3903,7 +3903,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa24aa0: DecompressPointer r1
     //     0xa24aa0: add             x1, x1, HEAP, lsl #32
     // 0xa24aa4: r0 = _divider()
-    //     0xa24aa4: bl              #0xa2a500  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
+    //     0xa24aa4: bl              #0xa2a500  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
     // 0xa24aa8: ldur            x1, [fp, #-0x30]
     // 0xa24aac: ArrayStore: r1[1] = r0  ; List_4
     //     0xa24aac: add             x25, x1, #0x13
@@ -3940,7 +3940,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa24b04: add             x2, PP, #0x45, lsl #12  ; [pp+0x45240] Obj!SocialPlatform@d3acc1
     //     0xa24b08: ldr             x2, [x2, #0x240]
     // 0xa24b0c: r0 = _socialField()
-    //     0xa24b0c: bl              #0xa251e0  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_socialField
+    //     0xa24b0c: bl              #0xa251e0  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_socialField
     // 0xa24b10: ldur            x1, [fp, #-0x30]
     // 0xa24b14: ArrayStore: r1[2] = r0  ; List_4
     //     0xa24b14: add             x25, x1, #0x17
@@ -3958,7 +3958,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa24b40: DecompressPointer r1
     //     0xa24b40: add             x1, x1, HEAP, lsl #32
     // 0xa24b44: r0 = _divider()
-    //     0xa24b44: bl              #0xa2a500  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
+    //     0xa24b44: bl              #0xa2a500  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
     // 0xa24b48: ldur            x1, [fp, #-0x30]
     // 0xa24b4c: ArrayStore: r1[3] = r0  ; List_4
     //     0xa24b4c: add             x25, x1, #0x1b
@@ -3995,7 +3995,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa24ba4: add             x2, PP, #0x27, lsl #12  ; [pp+0x277f8] Obj!SocialPlatform@d3aca1
     //     0xa24ba8: ldr             x2, [x2, #0x7f8]
     // 0xa24bac: r0 = _socialField()
-    //     0xa24bac: bl              #0xa251e0  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_socialField
+    //     0xa24bac: bl              #0xa251e0  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_socialField
     // 0xa24bb0: ldur            x1, [fp, #-0x30]
     // 0xa24bb4: ArrayStore: r1[4] = r0  ; List_4
     //     0xa24bb4: add             x25, x1, #0x1f
@@ -4013,7 +4013,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa24be0: DecompressPointer r1
     //     0xa24be0: add             x1, x1, HEAP, lsl #32
     // 0xa24be4: r0 = _divider()
-    //     0xa24be4: bl              #0xa2a500  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
+    //     0xa24be4: bl              #0xa2a500  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
     // 0xa24be8: ldur            x1, [fp, #-0x30]
     // 0xa24bec: ArrayStore: r1[5] = r0  ; List_4
     //     0xa24bec: add             x25, x1, #0x23
@@ -4050,7 +4050,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa24c44: add             x2, PP, #0x27, lsl #12  ; [pp+0x27800] Obj!SocialPlatform@d3ac81
     //     0xa24c48: ldr             x2, [x2, #0x800]
     // 0xa24c4c: r0 = _socialField()
-    //     0xa24c4c: bl              #0xa251e0  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_socialField
+    //     0xa24c4c: bl              #0xa251e0  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_socialField
     // 0xa24c50: ldur            x1, [fp, #-0x30]
     // 0xa24c54: ArrayStore: r1[6] = r0  ; List_4
     //     0xa24c54: add             x25, x1, #0x27
@@ -4068,7 +4068,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa24c80: DecompressPointer r1
     //     0xa24c80: add             x1, x1, HEAP, lsl #32
     // 0xa24c84: r0 = _divider()
-    //     0xa24c84: bl              #0xa2a500  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
+    //     0xa24c84: bl              #0xa2a500  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
     // 0xa24c88: ldur            x1, [fp, #-0x30]
     // 0xa24c8c: ArrayStore: r1[7] = r0  ; List_4
     //     0xa24c8c: add             x25, x1, #0x2b
@@ -4105,7 +4105,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa24ce4: add             x2, PP, #0x45, lsl #12  ; [pp+0x45248] Obj!SocialPlatform@d3ac61
     //     0xa24ce8: ldr             x2, [x2, #0x248]
     // 0xa24cec: r0 = _socialField()
-    //     0xa24cec: bl              #0xa251e0  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_socialField
+    //     0xa24cec: bl              #0xa251e0  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_socialField
     // 0xa24cf0: ldur            x1, [fp, #-0x30]
     // 0xa24cf4: ArrayStore: r1[8] = r0  ; List_4
     //     0xa24cf4: add             x25, x1, #0x2f
@@ -4123,7 +4123,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa24d20: DecompressPointer r1
     //     0xa24d20: add             x1, x1, HEAP, lsl #32
     // 0xa24d24: r0 = _divider()
-    //     0xa24d24: bl              #0xa2a500  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
+    //     0xa24d24: bl              #0xa2a500  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
     // 0xa24d28: ldur            x1, [fp, #-0x30]
     // 0xa24d2c: ArrayStore: r1[9] = r0  ; List_4
     //     0xa24d2c: add             x25, x1, #0x33
@@ -4160,7 +4160,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa24d84: add             x2, PP, #0x45, lsl #12  ; [pp+0x45250] Obj!SocialPlatform@d3ac41
     //     0xa24d88: ldr             x2, [x2, #0x250]
     // 0xa24d8c: r0 = _socialField()
-    //     0xa24d8c: bl              #0xa251e0  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_socialField
+    //     0xa24d8c: bl              #0xa251e0  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_socialField
     // 0xa24d90: ldur            x1, [fp, #-0x30]
     // 0xa24d94: ArrayStore: r1[10] = r0  ; List_4
     //     0xa24d94: add             x25, x1, #0x37
@@ -4178,7 +4178,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa24dc0: DecompressPointer r1
     //     0xa24dc0: add             x1, x1, HEAP, lsl #32
     // 0xa24dc4: r0 = _divider()
-    //     0xa24dc4: bl              #0xa2a500  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
+    //     0xa24dc4: bl              #0xa2a500  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
     // 0xa24dc8: ldur            x1, [fp, #-0x30]
     // 0xa24dcc: ArrayStore: r1[11] = r0  ; List_4
     //     0xa24dcc: add             x25, x1, #0x3b
@@ -4215,7 +4215,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa24e24: add             x2, PP, #0x45, lsl #12  ; [pp+0x45258] Obj!SocialPlatform@d3ac21
     //     0xa24e28: ldr             x2, [x2, #0x258]
     // 0xa24e2c: r0 = _socialField()
-    //     0xa24e2c: bl              #0xa251e0  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_socialField
+    //     0xa24e2c: bl              #0xa251e0  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_socialField
     // 0xa24e30: ldur            x1, [fp, #-0x30]
     // 0xa24e34: ArrayStore: r1[12] = r0  ; List_4
     //     0xa24e34: add             x25, x1, #0x3f
@@ -4233,7 +4233,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa24e60: DecompressPointer r1
     //     0xa24e60: add             x1, x1, HEAP, lsl #32
     // 0xa24e64: r0 = _divider()
-    //     0xa24e64: bl              #0xa2a500  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
+    //     0xa24e64: bl              #0xa2a500  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_divider
     // 0xa24e68: ldur            x1, [fp, #-0x30]
     // 0xa24e6c: ArrayStore: r1[13] = r0  ; List_4
     //     0xa24e6c: add             x25, x1, #0x43
@@ -4270,7 +4270,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa24ec4: add             x2, PP, #0x27, lsl #12  ; [pp+0x27818] Obj!SocialPlatform@d3ac01
     //     0xa24ec8: ldr             x2, [x2, #0x818]
     // 0xa24ecc: r0 = _socialField()
-    //     0xa24ecc: bl              #0xa251e0  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_socialField
+    //     0xa24ecc: bl              #0xa251e0  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_socialField
     // 0xa24ed0: ldur            x1, [fp, #-0x30]
     // 0xa24ed4: ArrayStore: r1[14] = r0  ; List_4
     //     0xa24ed4: add             x25, x1, #0x47
@@ -4303,7 +4303,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa24f24: mov             x1, x2
     // 0xa24f28: mov             x2, x16
     // 0xa24f2c: r0 = _roundedSection()
-    //     0xa24f2c: bl              #0xa28a08  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_roundedSection
+    //     0xa24f2c: bl              #0xa28a08  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_roundedSection
     // 0xa24f30: stur            x0, [fp, #-0x18]
     // 0xa24f34: r0 = KeyedSubtree()
     //     0xa24f34: bl              #0x91b6c0  ; AllocateKeyedSubtreeStub -> KeyedSubtree (size=0x10)
@@ -4664,11 +4664,11 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa252b4: add             x1, PP, #0x45, lsl #12  ; [pp+0x452b8] "Units"
     //     0xa252b8: ldr             x1, [x1, #0x2b8]
     // 0xa252bc: r0 = L()
-    //     0xa252bc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa252bc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa252c0: ldur            x1, [fp, #-0x10]
     // 0xa252c4: stur            x0, [fp, #-0x10]
-    // 0xa252c8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa252c8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa252c8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa252c8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa252cc: stur            x0, [fp, #-0x28]
     // 0xa252d0: r0 = TextStyle()
     //     0xa252d0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -4708,7 +4708,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa25328: add             x1, PP, #0x45, lsl #12  ; [pp+0x452c0] "Imperial"
     //     0xa2532c: ldr             x1, [x1, #0x2c0]
     // 0xa25330: r0 = L()
-    //     0xa25330: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa25330: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa25334: stur            x0, [fp, #-0x30]
     // 0xa25338: r0 = Text()
     //     0xa25338: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -4738,7 +4738,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa25374: add             x1, PP, #0x45, lsl #12  ; [pp+0x452c8] "Metric"
     //     0xa25378: ldr             x1, [x1, #0x2c8]
     // 0xa2537c: r0 = L()
-    //     0xa2537c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2537c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa25380: stur            x0, [fp, #-0x38]
     // 0xa25384: r0 = Text()
     //     0xa25384: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -4834,7 +4834,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa25468: b               #0xa25480
     // 0xa2546c: ldur            x2, [fp, #-0x20]
     // 0xa25470: r1 = Function '<anonymous closure>':.
-    //     0xa25470: add             x1, PP, #0x45, lsl #12  ; [pp+0x452d8] AnonymousClosure: (0xa25608), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_measurementUnitsRow (0xa25240)
+    //     0xa25470: add             x1, PP, #0x45, lsl #12  ; [pp+0x452d8] AnonymousClosure: (0xa25608), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_measurementUnitsRow (0xa25240)
     //     0xa25474: ldr             x1, [x1, #0x2d8]
     // 0xa25478: r0 = AllocateClosure()
     //     0xa25478: bl              #0xe553e0  ; AllocateClosureStub
@@ -5032,7 +5032,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa25688: mov             x1, x2
     // 0xa2568c: mov             x2, x16
     // 0xa25690: r0 = setUseMetricUnits()
-    //     0xa25690: bl              #0xa256b8  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setUseMetricUnits
+    //     0xa25690: bl              #0xa256b8  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setUseMetricUnits
     // 0xa25694: r0 = Null
     //     0xa25694: mov             x0, NULL
     // 0xa25698: LeaveFrame
@@ -5091,8 +5091,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa25930: add             x1, x1, HEAP, lsl #32
     // 0xa25934: cmp             w1, NULL
     // 0xa25938: b.eq            #0xa25c50
-    // 0xa2593c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa2593c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa2593c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa2593c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa25940: stur            x0, [fp, #-0x18]
     // 0xa25944: r0 = TextStyle()
     //     0xa25944: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -5155,8 +5155,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa259d4: add             x1, x1, HEAP, lsl #32
     // 0xa259d8: cmp             w1, NULL
     // 0xa259dc: b.eq            #0xa25c54
-    // 0xa259e0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa259e0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa259e0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa259e0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa259e4: stur            x0, [fp, #-0x18]
     // 0xa259e8: r0 = Icon()
     //     0xa259e8: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -5182,8 +5182,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa25a1c: add             x1, x1, HEAP, lsl #32
     // 0xa25a20: cmp             w1, NULL
     // 0xa25a24: b.eq            #0xa25c58
-    // 0xa25a28: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa25a28: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa25a28: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa25a28: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa25a2c: stur            x0, [fp, #-0x18]
     // 0xa25a30: r0 = TextStyle()
     //     0xa25a30: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -5208,8 +5208,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa25a60: add             x1, x1, HEAP, lsl #32
     // 0xa25a64: cmp             w1, NULL
     // 0xa25a68: b.eq            #0xa25c5c
-    // 0xa25a6c: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xa25a6c: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xa25a6c: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xa25a6c: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xa25a70: ldur            x1, [fp, #-8]
     // 0xa25a74: r2 = Null
     //     0xa25a74: mov             x2, NULL
@@ -5224,7 +5224,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa25a8c: blr             lr
     // 0xa25a90: ldur            x2, [fp, #-0x10]
     // 0xa25a94: r1 = Function '<anonymous closure>':.
-    //     0xa25a94: add             x1, PP, #0x45, lsl #12  ; [pp+0x45300] AnonymousClosure: (0xa25e14), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_menuPickerRow (0xa258c4)
+    //     0xa25a94: add             x1, PP, #0x45, lsl #12  ; [pp+0x45300] AnonymousClosure: (0xa25e14), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_menuPickerRow (0xa258c4)
     //     0xa25a98: ldr             x1, [x1, #0x300]
     // 0xa25a9c: stur            x0, [fp, #-0x38]
     // 0xa25aa0: r0 = AllocateClosure()
@@ -5249,7 +5249,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa25ad0: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0xa25ad4: ldur            x2, [fp, #-0x10]
     // 0xa25ad8: r1 = Function '<anonymous closure>':.
-    //     0xa25ad8: add             x1, PP, #0x45, lsl #12  ; [pp+0x45308] AnonymousClosure: (0xa25db0), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_menuPickerRow (0xa258c4)
+    //     0xa25ad8: add             x1, PP, #0x45, lsl #12  ; [pp+0x45308] AnonymousClosure: (0xa25db0), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_menuPickerRow (0xa258c4)
     //     0xa25adc: ldr             x1, [x1, #0x308]
     // 0xa25ae0: stur            x0, [fp, #-0x10]
     // 0xa25ae4: r0 = AllocateClosure()
@@ -5481,8 +5481,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa25e6c: add             x1, x1, HEAP, lsl #32
     // 0xa25e70: cmp             w1, NULL
     // 0xa25e74: b.eq            #0xa25f04
-    // 0xa25e78: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa25e78: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa25e78: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa25e78: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa25e7c: stur            x0, [fp, #-0x20]
     // 0xa25e80: r0 = TextStyle()
     //     0xa25e80: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -5565,7 +5565,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa25f48: add             x1, PP, #0x45, lsl #12  ; [pp+0x45320] "Profile visibility"
     //     0xa25f4c: ldr             x1, [x1, #0x320]
     // 0xa25f50: r0 = L()
-    //     0xa25f50: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa25f50: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa25f54: mov             x2, x0
     // 0xa25f58: ldur            x0, [fp, #-8]
     // 0xa25f5c: stur            x2, [fp, #-0x18]
@@ -5575,8 +5575,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa25f64: add             x1, x1, HEAP, lsl #32
     // 0xa25f68: cmp             w1, NULL
     // 0xa25f6c: b.eq            #0xa26280
-    // 0xa25f70: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa25f70: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa25f70: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa25f70: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa25f74: stur            x0, [fp, #-0x20]
     // 0xa25f78: r0 = TextStyle()
     //     0xa25f78: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -5652,8 +5652,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa26028: add             x1, x1, HEAP, lsl #32
     // 0xa2602c: cmp             w1, NULL
     // 0xa26030: b.eq            #0xa26290
-    // 0xa26034: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa26034: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa26034: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa26034: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa26038: stur            x0, [fp, #-0x20]
     // 0xa2603c: r0 = Icon()
     //     0xa2603c: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -5679,8 +5679,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa26070: add             x1, x1, HEAP, lsl #32
     // 0xa26074: cmp             w1, NULL
     // 0xa26078: b.eq            #0xa26294
-    // 0xa2607c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa2607c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa2607c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa2607c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa26080: stur            x0, [fp, #-0x20]
     // 0xa26084: r0 = TextStyle()
     //     0xa26084: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -5705,11 +5705,11 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa260b4: add             x1, x1, HEAP, lsl #32
     // 0xa260b8: cmp             w1, NULL
     // 0xa260bc: b.eq            #0xa26298
-    // 0xa260c0: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xa260c0: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xa260c0: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xa260c0: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xa260c4: ldur            x2, [fp, #-0x10]
     // 0xa260c8: r1 = Function '<anonymous closure>':.
-    //     0xa260c8: add             x1, PP, #0x45, lsl #12  ; [pp+0x45328] AnonymousClosure: (0xa263ec), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_profileVisibilityRow (0xa25f14)
+    //     0xa260c8: add             x1, PP, #0x45, lsl #12  ; [pp+0x45328] AnonymousClosure: (0xa263ec), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_profileVisibilityRow (0xa25f14)
     //     0xa260cc: ldr             x1, [x1, #0x328]
     // 0xa260d0: stur            x0, [fp, #-8]
     // 0xa260d4: r0 = AllocateClosure()
@@ -5735,7 +5735,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa26104: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0xa26108: ldur            x2, [fp, #-0x10]
     // 0xa2610c: r1 = Function '<anonymous closure>':.
-    //     0xa2610c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45340] AnonymousClosure: (0xa2629c), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_profileVisibilityRow (0xa25f14)
+    //     0xa2610c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45340] AnonymousClosure: (0xa2629c), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_profileVisibilityRow (0xa25f14)
     //     0xa26110: ldr             x1, [x1, #0x340]
     // 0xa26114: stur            x0, [fp, #-0x10]
     // 0xa26118: r0 = AllocateClosure()
@@ -5921,7 +5921,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa262dc: cmp             w1, w16
     // 0xa262e0: b.eq            #0xa26300
     // 0xa262e4: r0 = setProfileVisibility()
-    //     0xa262e4: bl              #0xa2630c  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setProfileVisibility
+    //     0xa262e4: bl              #0xa2630c  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setProfileVisibility
     // 0xa262e8: r0 = Null
     //     0xa262e8: mov             x0, NULL
     // 0xa262ec: LeaveFrame
@@ -5974,8 +5974,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa26438: add             x1, x1, HEAP, lsl #32
     // 0xa2643c: cmp             w1, NULL
     // 0xa26440: b.eq            #0xa264c4
-    // 0xa26444: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa26444: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa26444: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa26444: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa26448: stur            x0, [fp, #-0x18]
     // 0xa2644c: r0 = TextStyle()
     //     0xa2644c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -6073,8 +6073,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa26530: cmp             w4, w16
     // 0xa26534: b.eq            #0xa26ac0
     // 0xa26538: stur            x4, [fp, #-0x18]
-    // 0xa2653c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa2653c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa2653c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa2653c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa26540: stur            x0, [fp, #-0x10]
     // 0xa26544: r0 = TextStyle()
     //     0xa26544: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -6096,15 +6096,15 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa2656c: add             x1, PP, #0x37, lsl #12  ; [pp+0x37338] "Location"
     //     0xa26570: ldr             x1, [x1, #0x338]
     // 0xa26574: r0 = L()
-    //     0xa26574: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa26574: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa26578: ldur            x2, [fp, #-0x20]
     // 0xa2657c: stur            x0, [fp, #-0x10]
     // 0xa26580: LoadField: r1 = r2->field_13
     //     0xa26580: ldur            w1, [x2, #0x13]
     // 0xa26584: DecompressPointer r1
     //     0xa26584: add             x1, x1, HEAP, lsl #32
-    // 0xa26588: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa26588: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa26588: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa26588: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa2658c: stur            x0, [fp, #-0x30]
     // 0xa26590: r0 = TextStyle()
     //     0xa26590: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -6260,7 +6260,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa266f4: mov             x5, NULL
     // 0xa266f8: b               #0xa26710
     // 0xa266fc: r1 = Function '_useCurrentLocation@1125148869':.
-    //     0xa266fc: add             x1, PP, #0x45, lsl #12  ; [pp+0x45348] AnonymousClosure: (0xa27b24), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_useCurrentLocation (0xa27b5c)
+    //     0xa266fc: add             x1, PP, #0x45, lsl #12  ; [pp+0x45348] AnonymousClosure: (0xa27b24), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_useCurrentLocation (0xa27b5c)
     //     0xa26700: ldr             x1, [x1, #0x348]
     // 0xa26704: r0 = AllocateClosure()
     //     0xa26704: bl              #0xe553e0  ; AllocateClosureStub
@@ -6321,7 +6321,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa2679c: add             x1, PP, #0x37, lsl #12  ; [pp+0x37350] "Current location"
     //     0xa267a0: ldr             x1, [x1, #0x350]
     // 0xa267a4: r0 = L()
-    //     0xa267a4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa267a4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa267a8: stur            x0, [fp, #-0x18]
     // 0xa267ac: r0 = Text()
     //     0xa267ac: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -6371,7 +6371,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa26828: add             x1, PP, #0x37, lsl #12  ; [pp+0x37370] "Search"
     //     0xa2682c: ldr             x1, [x1, #0x370]
     // 0xa26830: r0 = L()
-    //     0xa26830: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa26830: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa26834: stur            x0, [fp, #-0x18]
     // 0xa26838: r0 = Text()
     //     0xa26838: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -6394,7 +6394,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa26868: bl              #0xa26c68  ; [package:flutter/src/material/outlined_button.dart] OutlinedButton::styleFrom
     // 0xa2686c: ldur            x2, [fp, #-0x20]
     // 0xa26870: r1 = Function '<anonymous closure>':.
-    //     0xa26870: add             x1, PP, #0x45, lsl #12  ; [pp+0x45360] AnonymousClosure: (0xa278b0), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_locationBlock (0xa264c8)
+    //     0xa26870: add             x1, PP, #0x45, lsl #12  ; [pp+0x45360] AnonymousClosure: (0xa278b0), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_locationBlock (0xa264c8)
     //     0xa26874: ldr             x1, [x1, #0x360]
     // 0xa26878: stur            x0, [fp, #-0x18]
     // 0xa2687c: r0 = AllocateClosure()
@@ -6491,7 +6491,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa26960: add             x1, PP, #0x45, lsl #12  ; [pp+0x45368] "City, state, country — optional."
     //     0xa26964: ldr             x1, [x1, #0x368]
     // 0xa26968: r0 = L()
-    //     0xa26968: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa26968: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2696c: mov             x2, x0
     // 0xa26970: ldur            x0, [fp, #-0x20]
     // 0xa26974: stur            x2, [fp, #-0x18]
@@ -6499,8 +6499,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa26978: ldur            w1, [x0, #0x13]
     // 0xa2697c: DecompressPointer r1
     //     0xa2697c: add             x1, x1, HEAP, lsl #32
-    // 0xa26980: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa26980: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa26980: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa26980: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa26984: stur            x0, [fp, #-0x20]
     // 0xa26988: r0 = TextStyle()
     //     0xa26988: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -6654,7 +6654,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa278d8: add             x0, x0, HEAP, lsl #32
     // 0xa278dc: stur            x0, [fp, #-8]
     // 0xa278e0: r1 = Function '<anonymous closure>':.
-    //     0xa278e0: add             x1, PP, #0x45, lsl #12  ; [pp+0x45378] AnonymousClosure: (0xa27924), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_locationBlock (0xa264c8)
+    //     0xa278e0: add             x1, PP, #0x45, lsl #12  ; [pp+0x45378] AnonymousClosure: (0xa27924), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_locationBlock (0xa264c8)
     //     0xa278e4: ldr             x1, [x1, #0x378]
     // 0xa278e8: r0 = AllocateClosure()
     //     0xa278e8: bl              #0xe553e0  ; AllocateClosureStub
@@ -6747,7 +6747,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa279bc: mov             x2, x1
     // 0xa279c0: stur            x4, [fp, #-8]
     // 0xa279c4: r1 = Function 'applyLocation':.
-    //     0xa279c4: add             x1, PP, #0x45, lsl #12  ; [pp+0x45380] AnonymousClosure: (0xa27a3c), in [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::applyLocation (0xa27a78)
+    //     0xa279c4: add             x1, PP, #0x45, lsl #12  ; [pp+0x45380] AnonymousClosure: (0xa27a3c), in [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::applyLocation (0xa27a78)
     //     0xa279c8: ldr             x1, [x1, #0x380]
     // 0xa279cc: r0 = AllocateClosure()
     //     0xa279cc: bl              #0xe553e0  ; AllocateClosureStub
@@ -6804,7 +6804,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa27b3c: cmp             SP, x16
     //     0xa27b40: b.ls            #0xa27b54
     // 0xa27b44: r0 = _useCurrentLocation()
-    //     0xa27b44: bl              #0xa27b5c  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_useCurrentLocation
+    //     0xa27b44: bl              #0xa27b5c  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_useCurrentLocation
     // 0xa27b48: LeaveFrame
     //     0xa27b48: mov             SP, fp
     //     0xa27b4c: ldp             fp, lr, [SP], #0x10
@@ -6852,7 +6852,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa27bb0: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xa27bb4: ldur            x2, [fp, #-0x18]
     // 0xa27bb8: r1 = Function '<anonymous closure>':.
-    //     0xa27bb8: add             x1, PP, #0x45, lsl #12  ; [pp+0x45388] AnonymousClosure: (0x94a784), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded (0x94a7a4)
+    //     0xa27bb8: add             x1, PP, #0x45, lsl #12  ; [pp+0x45388] AnonymousClosure: (0x94a784), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded (0x94a7a4)
     //     0xa27bbc: ldr             x1, [x1, #0x388]
     // 0xa27bc0: r0 = AllocateClosure()
     //     0xa27bc0: bl              #0xe553e0  ; AllocateClosureStub
@@ -6868,7 +6868,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa27bdc: mov             x1, x2
     // 0xa27be0: stur            x2, [fp, #-0x20]
     // 0xa27be4: r0 = requestLocationText()
-    //     0xa27be4: bl              #0xa27cfc  ; [package:ballai/automatic/utility/location/profile_location_support.dart] CurrentProfileLocationResolver::requestLocationText
+    //     0xa27be4: bl              #0xa27cfc  ; [package:kourtai/automatic/utility/location/profile_location_support.dart] CurrentProfileLocationResolver::requestLocationText
     // 0xa27be8: mov             x1, x0
     // 0xa27bec: stur            x1, [fp, #-0x28]
     // 0xa27bf0: r0 = Await()
@@ -6888,7 +6888,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa27c14: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xa27c18: ldur            x2, [fp, #-0x18]
     // 0xa27c1c: r1 = Function '<anonymous closure>':.
-    //     0xa27c1c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45390] AnonymousClosure: (0x94a9d8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded (0x94a7a4)
+    //     0xa27c1c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45390] AnonymousClosure: (0x94a9d8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded (0x94a7a4)
     //     0xa27c20: ldr             x1, [x1, #0x390]
     // 0xa27c24: r0 = AllocateClosure()
     //     0xa27c24: bl              #0xe553e0  ; AllocateClosureStub
@@ -6909,7 +6909,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa27c50: cmp             w1, w16
     // 0xa27c54: b.eq            #0xa27cf0
     // 0xa27c58: r0 = applyLocation()
-    //     0xa27c58: bl              #0xa27a78  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::applyLocation
+    //     0xa27c58: bl              #0xa27a78  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::applyLocation
     // 0xa27c5c: r0 = Null
     //     0xa27c5c: mov             x0, NULL
     // 0xa27c60: r0 = ReturnAsyncNotFuture()
@@ -6990,7 +6990,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa27ffc: add             x1, PP, #0x45, lsl #12  ; [pp+0x453c8] "Bio"
     //     0xa28000: ldr             x1, [x1, #0x3c8]
     // 0xa28004: r0 = L()
-    //     0xa28004: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa28004: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa28008: mov             x2, x0
     // 0xa2800c: ldur            x0, [fp, #-8]
     // 0xa28010: stur            x2, [fp, #-0x10]
@@ -7000,8 +7000,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa28018: add             x1, x1, HEAP, lsl #32
     // 0xa2801c: cmp             w1, NULL
     // 0xa28020: b.eq            #0xa284fc
-    // 0xa28024: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa28024: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa28024: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa28024: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa28028: stur            x0, [fp, #-0x18]
     // 0xa2802c: r0 = TextStyle()
     //     0xa2802c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -7053,8 +7053,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa280a4: add             x1, x1, HEAP, lsl #32
     // 0xa280a8: cmp             w1, NULL
     // 0xa280ac: b.eq            #0xa28518
-    // 0xa280b0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa280b0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa280b0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa280b0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa280b4: stur            x0, [fp, #-0x20]
     // 0xa280b8: r0 = TextStyle()
     //     0xa280b8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -7215,7 +7215,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa28224: add             x1, PP, #0x45, lsl #12  ; [pp+0x453d0] "150 characters max."
     //     0xa28228: ldr             x1, [x1, #0x3d0]
     // 0xa2822c: r0 = L()
-    //     0xa2822c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2822c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa28230: mov             x2, x0
     // 0xa28234: ldur            x0, [fp, #-8]
     // 0xa28238: stur            x2, [fp, #-0x20]
@@ -7225,8 +7225,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa28240: add             x1, x1, HEAP, lsl #32
     // 0xa28244: cmp             w1, NULL
     // 0xa28248: b.eq            #0xa2851c
-    // 0xa2824c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa2824c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa2824c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa2824c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa28250: stur            x0, [fp, #-0x28]
     // 0xa28254: r0 = TextStyle()
     //     0xa28254: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -7308,8 +7308,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa28310: add             x1, x1, HEAP, lsl #32
     // 0xa28314: cmp             w1, NULL
     // 0xa28318: b.eq            #0xa2852c
-    // 0xa2831c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa2831c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa2831c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa2831c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa28320: stur            x0, [fp, #-8]
     // 0xa28324: r0 = TextStyle()
     //     0xa28324: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -7545,8 +7545,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa28554: add             x1, x1, HEAP, lsl #32
     // 0xa28558: cmp             w1, NULL
     // 0xa2855c: b.eq            #0xa289e0
-    // 0xa28560: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa28560: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa28560: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa28560: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa28564: stur            x0, [fp, #-0x10]
     // 0xa28568: r0 = TextStyle()
     //     0xa28568: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -7600,8 +7600,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa285e4: add             x1, x1, HEAP, lsl #32
     // 0xa285e8: cmp             w1, NULL
     // 0xa285ec: b.eq            #0xa289fc
-    // 0xa285f0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa285f0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa285f0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa285f0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa285f4: stur            x0, [fp, #-0x18]
     // 0xa285f8: r0 = TextStyle()
     //     0xa285f8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -7623,7 +7623,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa28620: add             x1, PP, #0x45, lsl #12  ; [pp+0x453e0] "Ball Tag"
     //     0xa28624: ldr             x1, [x1, #0x3e0]
     // 0xa28628: r0 = L()
-    //     0xa28628: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa28628: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2862c: mov             x2, x0
     // 0xa28630: ldur            x0, [fp, #-8]
     // 0xa28634: stur            x2, [fp, #-0x18]
@@ -7633,8 +7633,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa2863c: add             x1, x1, HEAP, lsl #32
     // 0xa28640: cmp             w1, NULL
     // 0xa28644: b.eq            #0xa28a00
-    // 0xa28648: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa28648: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa28648: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa28648: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa2864c: stur            x0, [fp, #-0x30]
     // 0xa28650: r0 = TextStyle()
     //     0xa28650: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -7874,11 +7874,11 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa28884: stur            x2, [fp, #-0x10]
     // 0xa28888: StoreField: r2->field_13 = r0
     //     0xa28888: stur            w0, [x2, #0x13]
-    // 0xa2888c: r1 = "Your unique Ball AI username. 30 characters max. Letters, numbers, . and _ only."
-    //     0xa2888c: add             x1, PP, #0x45, lsl #12  ; [pp+0x453e8] "Your unique Ball AI username. 30 characters max. Letters, numbers, . and _ only."
+    // 0xa2888c: r1 = "Your unique Kourt AI username. 30 characters max. Letters, numbers, . and _ only."
+    //     0xa2888c: add             x1, PP, #0x45, lsl #12  ; [pp+0x453e8] "Your unique Kourt AI username. 30 characters max. Letters, numbers, . and _ only."
     //     0xa28890: ldr             x1, [x1, #0x3e8]
     // 0xa28894: r0 = L()
-    //     0xa28894: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa28894: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa28898: mov             x2, x0
     // 0xa2889c: ldur            x0, [fp, #-8]
     // 0xa288a0: stur            x2, [fp, #-0x20]
@@ -7888,8 +7888,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa288a8: add             x1, x1, HEAP, lsl #32
     // 0xa288ac: cmp             w1, NULL
     // 0xa288b0: b.eq            #0xa28a04
-    // 0xa288b4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa288b4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa288b4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa288b4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa288b8: stur            x0, [fp, #-8]
     // 0xa288bc: r0 = TextStyle()
     //     0xa288bc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -8047,8 +8047,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa28a2c: cmp             w0, NULL
     // 0xa28a30: b.eq            #0xa28b40
     // 0xa28a34: mov             x1, x0
-    // 0xa28a38: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xa28a38: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xa28a38: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xa28a38: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xa28a3c: stur            x0, [fp, #-0x10]
     // 0xa28a40: r0 = Radius()
     //     0xa28a40: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -8179,7 +8179,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa28b78: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b838] "Gender"
     //     0xa28b7c: ldr             x1, [x1, #0x838]
     // 0xa28b80: r0 = L()
-    //     0xa28b80: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa28b80: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa28b84: mov             x2, x0
     // 0xa28b88: ldur            x0, [fp, #-8]
     // 0xa28b8c: stur            x2, [fp, #-0x18]
@@ -8189,8 +8189,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa28b94: add             x1, x1, HEAP, lsl #32
     // 0xa28b98: cmp             w1, NULL
     // 0xa28b9c: b.eq            #0xa28e84
-    // 0xa28ba0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa28ba0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa28ba0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa28ba0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa28ba4: stur            x0, [fp, #-0x20]
     // 0xa28ba8: r0 = TextStyle()
     //     0xa28ba8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -8238,8 +8238,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa28c14: add             x1, x1, HEAP, lsl #32
     // 0xa28c18: cmp             w1, NULL
     // 0xa28c1c: b.eq            #0xa28e94
-    // 0xa28c20: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa28c20: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa28c20: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa28c20: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa28c24: stur            x0, [fp, #-0x28]
     // 0xa28c28: r0 = Icon()
     //     0xa28c28: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -8265,8 +8265,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa28c5c: add             x1, x1, HEAP, lsl #32
     // 0xa28c60: cmp             w1, NULL
     // 0xa28c64: b.eq            #0xa28e98
-    // 0xa28c68: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa28c68: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa28c68: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa28c68: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa28c6c: stur            x0, [fp, #-0x28]
     // 0xa28c70: r0 = TextStyle()
     //     0xa28c70: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -8296,11 +8296,11 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa28cac: add             x1, x1, HEAP, lsl #32
     // 0xa28cb0: cmp             w1, NULL
     // 0xa28cb4: b.eq            #0xa28e9c
-    // 0xa28cb8: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xa28cb8: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xa28cb8: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xa28cb8: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xa28cbc: ldur            x2, [fp, #-0x10]
     // 0xa28cc0: r1 = Function '<anonymous closure>':.
-    //     0xa28cc0: add             x1, PP, #0x45, lsl #12  ; [pp+0x453f8] AnonymousClosure: (0xa263ec), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_profileVisibilityRow (0xa25f14)
+    //     0xa28cc0: add             x1, PP, #0x45, lsl #12  ; [pp+0x453f8] AnonymousClosure: (0xa263ec), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_profileVisibilityRow (0xa25f14)
     //     0xa28cc4: ldr             x1, [x1, #0x3f8]
     // 0xa28cc8: stur            x0, [fp, #-8]
     // 0xa28ccc: r0 = AllocateClosure()
@@ -8326,7 +8326,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa28cfc: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0xa28d00: ldur            x2, [fp, #-0x10]
     // 0xa28d04: r1 = Function '<anonymous closure>':.
-    //     0xa28d04: add             x1, PP, #0x45, lsl #12  ; [pp+0x45408] AnonymousClosure: (0xa28ea0), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_genderRow (0xa28b44)
+    //     0xa28d04: add             x1, PP, #0x45, lsl #12  ; [pp+0x45408] AnonymousClosure: (0xa28ea0), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_genderRow (0xa28b44)
     //     0xa28d08: ldr             x1, [x1, #0x408]
     // 0xa28d0c: stur            x0, [fp, #-0x10]
     // 0xa28d10: r0 = AllocateClosure()
@@ -8517,7 +8517,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa28ee0: cmp             w1, w16
     // 0xa28ee4: b.eq            #0xa28f04
     // 0xa28ee8: r0 = setGender()
-    //     0xa28ee8: bl              #0xa28f10  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setGender
+    //     0xa28ee8: bl              #0xa28f10  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setGender
     // 0xa28eec: r0 = Null
     //     0xa28eec: mov             x0, NULL
     // 0xa28ef0: LeaveFrame
@@ -8561,13 +8561,13 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa28f98: DecompressPointer r1
     //     0xa28f98: add             x1, x1, HEAP, lsl #32
     // 0xa28f9c: r0 = _ageInYears()
-    //     0xa28f9c: bl              #0xa29950  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] ::_ageInYears
+    //     0xa28f9c: bl              #0xa29950  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] ::_ageInYears
     // 0xa28fa0: r1 = "Date of birth"
     //     0xa28fa0: add             x1, PP, #0x45, lsl #12  ; [pp+0x45410] "Date of birth"
     //     0xa28fa4: ldr             x1, [x1, #0x410]
     // 0xa28fa8: stur            x0, [fp, #-0x10]
     // 0xa28fac: r0 = L()
-    //     0xa28fac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa28fac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa28fb0: ldur            x2, [fp, #-8]
     // 0xa28fb4: stur            x0, [fp, #-0x18]
     // 0xa28fb8: LoadField: r1 = r2->field_f
@@ -8576,8 +8576,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa28fbc: add             x1, x1, HEAP, lsl #32
     // 0xa28fc0: cmp             w1, NULL
     // 0xa28fc4: b.eq            #0xa2948c
-    // 0xa28fc8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa28fc8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa28fc8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa28fc8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa28fcc: stur            x0, [fp, #-0x20]
     // 0xa28fd0: r0 = TextStyle()
     //     0xa28fd0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -8660,7 +8660,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa2909c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45418] "Age: %d"
     //     0xa290a0: ldr             x1, [x1, #0x418]
     // 0xa290a4: r0 = LF()
-    //     0xa290a4: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xa290a4: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xa290a8: ldur            x2, [fp, #-8]
     // 0xa290ac: stur            x0, [fp, #-0x10]
     // 0xa290b0: LoadField: r1 = r2->field_f
@@ -8669,8 +8669,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa290b4: add             x1, x1, HEAP, lsl #32
     // 0xa290b8: cmp             w1, NULL
     // 0xa290bc: b.eq            #0xa29490
-    // 0xa290c0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa290c0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa290c0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa290c0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa290c4: stur            x0, [fp, #-0x18]
     // 0xa290c8: r0 = TextStyle()
     //     0xa290c8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -8817,8 +8817,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa29228: add             x1, x1, HEAP, lsl #32
     // 0xa2922c: cmp             w1, NULL
     // 0xa29230: b.eq            #0xa29494
-    // 0xa29234: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xa29234: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xa29234: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xa29234: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xa29238: stur            x0, [fp, #-0x10]
     // 0xa2923c: r0 = Radius()
     //     0xa2923c: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -8868,7 +8868,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa292a8: add             x4, x4, HEAP, lsl #32
     // 0xa292ac: mov             x1, x4
     // 0xa292b0: r0 = _formatMediumDate()
-    //     0xa292b0: bl              #0xa2949c  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] ::_formatMediumDate
+    //     0xa292b0: bl              #0xa2949c  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] ::_formatMediumDate
     // 0xa292b4: ldur            x2, [fp, #-8]
     // 0xa292b8: stur            x0, [fp, #-0x10]
     // 0xa292bc: LoadField: r1 = r2->field_f
@@ -8877,8 +8877,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa292c0: add             x1, x1, HEAP, lsl #32
     // 0xa292c4: cmp             w1, NULL
     // 0xa292c8: b.eq            #0xa29498
-    // 0xa292cc: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa292cc: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa292cc: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa292cc: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa292d0: stur            x0, [fp, #-0x30]
     // 0xa292d4: r0 = TextStyle()
     //     0xa292d4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -8936,7 +8936,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa29364: stur            w0, [x3, #0xb]
     // 0xa29368: ldur            x2, [fp, #-8]
     // 0xa2936c: r1 = Function '_pickDob@1125148869':.
-    //     0xa2936c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45420] AnonymousClosure: (0xa29da4), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_pickDob (0xa29ddc)
+    //     0xa2936c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45420] AnonymousClosure: (0xa29da4), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_pickDob (0xa29ddc)
     //     0xa29370: ldr             x1, [x1, #0x420]
     // 0xa29374: r0 = AllocateClosure()
     //     0xa29374: bl              #0xe553e0  ; AllocateClosureStub
@@ -9078,7 +9078,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa29dbc: cmp             SP, x16
     //     0xa29dc0: b.ls            #0xa29dd4
     // 0xa29dc4: r0 = _pickDob()
-    //     0xa29dc4: bl              #0xa29ddc  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_pickDob
+    //     0xa29dc4: bl              #0xa29ddc  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_pickDob
     // 0xa29dc8: LeaveFrame
     //     0xa29dc8: mov             SP, fp
     //     0xa29dcc: ldp             fp, lr, [SP], #0x10
@@ -9172,7 +9172,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa29eb0: mov             x1, x2
     // 0xa29eb4: mov             x2, x0
     // 0xa29eb8: r0 = setDateOfBirth()
-    //     0xa29eb8: bl              #0xa29edc  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setDateOfBirth
+    //     0xa29eb8: bl              #0xa29edc  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setDateOfBirth
     // 0xa29ebc: r0 = Null
     //     0xa29ebc: mov             x0, NULL
     // 0xa29ec0: r0 = ReturnAsyncNotFuture()
@@ -9209,8 +9209,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa2a318: add             x1, x1, HEAP, lsl #32
     // 0xa2a31c: cmp             w1, NULL
     // 0xa2a320: b.eq            #0xa2a4f8
-    // 0xa2a324: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa2a324: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa2a324: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa2a324: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa2a328: stur            x0, [fp, #-0x18]
     // 0xa2a32c: r0 = TextStyle()
     //     0xa2a32c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -9247,8 +9247,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa2a37c: add             x1, x1, HEAP, lsl #32
     // 0xa2a380: cmp             w1, NULL
     // 0xa2a384: b.eq            #0xa2a4fc
-    // 0xa2a388: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa2a388: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa2a388: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa2a388: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa2a38c: stur            x0, [fp, #-8]
     // 0xa2a390: r0 = TextStyle()
     //     0xa2a390: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -9419,7 +9419,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa2a520: cmp             w2, NULL
     // 0xa2a524: b.eq            #0xa2a55c
     // 0xa2a528: r0 = _dividerColor()
-    //     0xa2a528: bl              #0xa2a560  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_dividerColor
+    //     0xa2a528: bl              #0xa2a560  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_dividerColor
     // 0xa2a52c: stur            x0, [fp, #-8]
     // 0xa2a530: r0 = Divider()
     //     0xa2a530: bl              #0x5eee88  ; AllocateDividerStub -> Divider (size=0x24)
@@ -9471,8 +9471,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa2a598: cmp             w0, NULL
     // 0xa2a59c: b.ne            #0xa2a5c4
     // 0xa2a5a0: ldur            x1, [fp, #-8]
-    // 0xa2a5a4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa2a5a4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa2a5a4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa2a5a4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa2a5a8: r16 = 0.250000
     //     0xa2a5a8: add             x16, PP, #0xc, lsl #12  ; [pp+0xcbb8] 0.25
     //     0xa2a5ac: ldr             x16, [x16, #0xbb8]
@@ -9514,8 +9514,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa2a604: add             x1, x1, HEAP, lsl #32
     // 0xa2a608: cmp             w1, NULL
     // 0xa2a60c: b.eq            #0xa2a7dc
-    // 0xa2a610: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa2a610: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa2a610: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa2a610: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa2a614: stur            x0, [fp, #-0x20]
     // 0xa2a618: r0 = TextStyle()
     //     0xa2a618: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -9541,8 +9541,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa2a64c: cmp             w3, NULL
     // 0xa2a650: b.eq            #0xa2a7e0
     // 0xa2a654: mov             x1, x3
-    // 0xa2a658: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa2a658: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa2a658: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa2a658: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa2a65c: stur            x0, [fp, #-8]
     // 0xa2a660: r0 = TextStyle()
     //     0xa2a660: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -9730,8 +9730,8 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xa2a808: cmp             w0, NULL
     // 0xa2a80c: b.eq            #0xa2a8b8
     // 0xa2a810: mov             x1, x0
-    // 0xa2a814: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa2a814: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa2a814: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa2a814: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa2a818: stur            x0, [fp, #-0x10]
     // 0xa2a81c: r0 = TextStyle()
     //     0xa2a81c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -9992,7 +9992,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa2aab0: stur            w0, [x3, #0xb]
     // 0xa2aab4: ldur            x2, [fp, #-0x20]
     // 0xa2aab8: r1 = Function '_pickPhoto@1125148869':.
-    //     0xa2aab8: add             x1, PP, #0x45, lsl #12  ; [pp+0x45460] AnonymousClosure: (0xa2acd8), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_pickPhoto (0xa2ad10)
+    //     0xa2aab8: add             x1, PP, #0x45, lsl #12  ; [pp+0x45460] AnonymousClosure: (0xa2acd8), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_pickPhoto (0xa2ad10)
     //     0xa2aabc: ldr             x1, [x1, #0x460]
     // 0xa2aac0: r0 = AllocateClosure()
     //     0xa2aac0: bl              #0xe553e0  ; AllocateClosureStub
@@ -10223,7 +10223,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa2acf0: cmp             SP, x16
     //     0xa2acf4: b.ls            #0xa2ad08
     // 0xa2acf8: r0 = _pickPhoto()
-    //     0xa2acf8: bl              #0xa2ad10  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_pickPhoto
+    //     0xa2acf8: bl              #0xa2ad10  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_pickPhoto
     // 0xa2acfc: LeaveFrame
     //     0xa2acfc: mov             SP, fp
     //     0xa2ad00: ldp             fp, lr, [SP], #0x10
@@ -10331,7 +10331,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa2ae1c: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xa2ae20: ldur            x1, [fp, #-0x18]
     // 0xa2ae24: r0 = setPickedProfileImage()
-    //     0xa2ae24: bl              #0xa2ae44  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setPickedProfileImage
+    //     0xa2ae24: bl              #0xa2ae44  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setPickedProfileImage
     // 0xa2ae28: r0 = Null
     //     0xa2ae28: mov             x0, NULL
     // 0xa2ae2c: r0 = ReturnAsyncNotFuture()
@@ -10358,11 +10358,11 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa2b20c: b.ls            #0xa2b23c
     // 0xa2b210: ldr             x1, [fp, #0x10]
     // 0xa2b214: r0 = handAbbreviation()
-    //     0xa2b214: bl              #0xa2b244  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::handAbbreviation
+    //     0xa2b214: bl              #0xa2b244  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::handAbbreviation
     // 0xa2b218: ldr             x1, [fp, #0x10]
     // 0xa2b21c: stur            x0, [fp, #-8]
     // 0xa2b220: r0 = L()
-    //     0xa2b220: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2b220: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2b224: ldur            x2, [fp, #-8]
     // 0xa2b228: mov             x3, x0
     // 0xa2b22c: r0 = AllocateRecord2()
@@ -10387,7 +10387,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa2b340: b.ls            #0xa2b364
     // 0xa2b344: ldr             x1, [fp, #0x10]
     // 0xa2b348: r0 = L()
-    //     0xa2b348: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2b348: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2b34c: ldr             x2, [fp, #0x10]
     // 0xa2b350: mov             x3, x0
     // 0xa2b354: r0 = AllocateRecord2()
@@ -10414,11 +10414,11 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xa2b40c: b.ls            #0xa2b43c
     // 0xa2b410: ldr             x1, [fp, #0x10]
     // 0xa2b414: r0 = positionAbbreviation()
-    //     0xa2b414: bl              #0x9c428c  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::positionAbbreviation
+    //     0xa2b414: bl              #0x9c428c  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::positionAbbreviation
     // 0xa2b418: ldr             x1, [fp, #0x10]
     // 0xa2b41c: stur            x0, [fp, #-8]
     // 0xa2b420: r0 = L()
-    //     0xa2b420: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2b420: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2b424: ldur            x2, [fp, #-8]
     // 0xa2b428: mov             x3, x0
     // 0xa2b42c: r0 = AllocateRecord2()
@@ -10439,7 +10439,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xb5ae04: mov             fp, SP
     // 0xb5ae08: ldr             x2, [fp, #0x10]
     // 0xb5ae0c: r1 = Function 'dispose':.
-    //     0xb5ae0c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45120] AnonymousClosure: (0xb5ae24), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::dispose (0xb61c64)
+    //     0xb5ae0c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45120] AnonymousClosure: (0xb5ae24), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::dispose (0xb61c64)
     //     0xb5ae10: ldr             x1, [x1, #0x120]
     // 0xb5ae14: r0 = AllocateClosure()
     //     0xb5ae14: bl              #0xe553e0  ; AllocateClosureStub
@@ -10464,7 +10464,7 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     //     0xb5ae3c: cmp             SP, x16
     //     0xb5ae40: b.ls            #0xb5ae54
     // 0xb5ae44: r0 = dispose()
-    //     0xb5ae44: bl              #0xb61c64  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::dispose
+    //     0xb5ae44: bl              #0xb61c64  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::dispose
     // 0xb5ae48: LeaveFrame
     //     0xb5ae48: mov             SP, fp
     //     0xb5ae4c: ldp             fp, lr, [SP], #0x10
@@ -10504,10 +10504,10 @@ class _EditProfileViewState extends __EditProfileViewState&State&HomeIslandHidde
     // 0xb61ca0: cmp             w1, w16
     // 0xb61ca4: b.eq            #0xb61ccc
     // 0xb61ca8: r0 = dispose()
-    //     0xb61ca8: bl              #0x9bdea4  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::dispose
+    //     0xb61ca8: bl              #0x9bdea4  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::dispose
     // 0xb61cac: ldur            x1, [fp, #-8]
     // 0xb61cb0: r0 = dispose()
-    //     0xb61cb0: bl              #0xb63788  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
+    //     0xb61cb0: bl              #0xb63788  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
     // 0xb61cb4: r0 = Null
     //     0xb61cb4: mov             x0, NULL
     // 0xb61cb8: LeaveFrame
@@ -10628,7 +10628,7 @@ class EditProfileView extends StatefulWidget {
     // 0xb730bc: mov             x1, x0
     // 0xb730c0: stur            x0, [fp, #-8]
     // 0xb730c4: r0 = _EditProfileViewState()
-    //     0xb730c4: bl              #0xb730e0  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_EditProfileViewState
+    //     0xb730c4: bl              #0xb730e0  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/edit_profile_view.dart] _EditProfileViewState::_EditProfileViewState
     // 0xb730c8: ldur            x0, [fp, #-8]
     // 0xb730cc: LeaveFrame
     //     0xb730cc: mov             SP, fp

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/defaults/defaultsstorage/defaults_post_setup_permissions.dart
+// lib: , url: package:kourtai/automatic/utility/defaults/defaultsstorage/defaults_post_setup_permissions.dart
 
 // class id: 1048722, size: 0x8
 class :: {
@@ -33,7 +33,7 @@ abstract class DefaultsPostSetupPermissions extends Object {
     // 0x900e5c: ldur            x1, [fp, #-0x10]
     // 0x900e60: stur            x0, [fp, #-0x10]
     // 0x900e64: r0 = _completedKey()
-    //     0x900e64: bl              #0x900e94  ; [package:ballai/automatic/utility/defaults/defaultsstorage/defaults_post_setup_permissions.dart] DefaultsPostSetupPermissions::_completedKey
+    //     0x900e64: bl              #0x900e94  ; [package:kourtai/automatic/utility/defaults/defaultsstorage/defaults_post_setup_permissions.dart] DefaultsPostSetupPermissions::_completedKey
     // 0x900e68: ldur            x1, [fp, #-0x10]
     // 0x900e6c: mov             x2, x0
     // 0x900e70: r3 = true
@@ -119,7 +119,7 @@ abstract class DefaultsPostSetupPermissions extends Object {
     // 0x9307a8: ldur            x1, [fp, #-0x10]
     // 0x9307ac: stur            x0, [fp, #-0x20]
     // 0x9307b0: r0 = _migrationKey()
-    //     0x9307b0: bl              #0x930848  ; [package:ballai/automatic/utility/defaults/defaultsstorage/defaults_post_setup_permissions.dart] DefaultsPostSetupPermissions::_migrationKey
+    //     0x9307b0: bl              #0x930848  ; [package:kourtai/automatic/utility/defaults/defaultsstorage/defaults_post_setup_permissions.dart] DefaultsPostSetupPermissions::_migrationKey
     // 0x9307b4: ldur            x1, [fp, #-0x20]
     // 0x9307b8: mov             x2, x0
     // 0x9307bc: stur            x0, [fp, #-0x28]
@@ -143,7 +143,7 @@ abstract class DefaultsPostSetupPermissions extends Object {
     // 0x9307f4: tbnz            w0, #4, #0x93081c
     // 0x9307f8: ldur            x1, [fp, #-0x10]
     // 0x9307fc: r0 = _completedKey()
-    //     0x9307fc: bl              #0x900e94  ; [package:ballai/automatic/utility/defaults/defaultsstorage/defaults_post_setup_permissions.dart] DefaultsPostSetupPermissions::_completedKey
+    //     0x9307fc: bl              #0x900e94  ; [package:kourtai/automatic/utility/defaults/defaultsstorage/defaults_post_setup_permissions.dart] DefaultsPostSetupPermissions::_completedKey
     // 0x930800: ldur            x1, [fp, #-0x20]
     // 0x930804: mov             x2, x0
     // 0x930808: r3 = true
@@ -156,7 +156,7 @@ abstract class DefaultsPostSetupPermissions extends Object {
     //     0x930818: bl              #0x60ad4c  ; AwaitStub
     // 0x93081c: ldur            x1, [fp, #-0x10]
     // 0x930820: r0 = _completedKey()
-    //     0x930820: bl              #0x900e94  ; [package:ballai/automatic/utility/defaults/defaultsstorage/defaults_post_setup_permissions.dart] DefaultsPostSetupPermissions::_completedKey
+    //     0x930820: bl              #0x900e94  ; [package:kourtai/automatic/utility/defaults/defaultsstorage/defaults_post_setup_permissions.dart] DefaultsPostSetupPermissions::_completedKey
     // 0x930824: ldur            x1, [fp, #-0x20]
     // 0x930828: mov             x2, x0
     // 0x93082c: r0 = getBool()

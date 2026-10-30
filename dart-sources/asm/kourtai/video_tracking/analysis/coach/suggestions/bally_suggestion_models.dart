@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart
+// lib: , url: package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart
 
 // class id: 1049089, size: 0x8
 class :: {
@@ -302,7 +302,7 @@ class BallySuggestionPhase extends Object {
     // 0x74f720: mov             x2, x0
     // 0x74f724: stur            x4, [fp, #-8]
     // 0x74f728: r0 = isValidFor()
-    //     0x74f728: bl              #0x74fcb0  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionMetric::isValidFor
+    //     0x74f728: bl              #0x74fcb0  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionMetric::isValidFor
     // 0x74f72c: tbnz            w0, #4, #0x74f738
     // 0x74f730: ldur            x3, [fp, #-8]
     // 0x74f734: b               #0x74f764
@@ -504,7 +504,7 @@ class BallySuggestionPhase extends Object {
     // 0x74f984: DecompressPointer r1
     //     0x74f984: add             x1, x1, HEAP, lsl #32
     // 0x74f988: r0 = _sanitizedTips()
-    //     0x74f988: bl              #0x74f9f4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::_sanitizedTips
+    //     0x74f988: bl              #0x74f9f4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::_sanitizedTips
     // 0x74f98c: mov             x1, x0
     // 0x74f990: ldur            x0, [fp, #-0x18]
     // 0x74f994: stur            x1, [fp, #-0x10]
@@ -528,7 +528,7 @@ class BallySuggestionPhase extends Object {
     //     0x74f9d0: add             x4, PP, #0x32, lsl #12  ; [pp+0x321f8] List(7) [0, 0x7, 0x1, 0x6, "id", 0x6, Null]
     //     0x74f9d4: ldr             x4, [x4, #0x1f8]
     // 0x74f9d8: r0 = BallySuggestionPhase()
-    //     0x74f9d8: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x74f9d8: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x74f9dc: ldur            x0, [fp, #-0x18]
     // 0x74f9e0: LeaveFrame
     //     0x74f9e0: mov             SP, fp
@@ -1155,7 +1155,7 @@ class BallySuggestionPhase extends Object {
     //     0x752404: bl              #0x5c96cc  ; IsType_String?_Stub
     // 0x752408: ldur            x1, [fp, #-0x28]
     // 0x75240c: r0 = fromRaw()
-    //     0x75240c: bl              #0x7525e0  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionMetric::fromRaw
+    //     0x75240c: bl              #0x7525e0  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionMetric::fromRaw
     // 0x752410: cmp             w0, NULL
     // 0x752414: b.ne            #0x752424
     // 0x752418: r3 = Instance_BallySuggestionMetric
@@ -1302,7 +1302,7 @@ class BallySuggestionPhase extends Object {
     //     0x7525bc: add             x4, PP, #0x32, lsl #12  ; [pp+0x321f8] List(7) [0, 0x7, 0x1, 0x6, "id", 0x6, Null]
     //     0x7525c0: ldr             x4, [x4, #0x1f8]
     // 0x7525c4: r0 = BallySuggestionPhase()
-    //     0x7525c4: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x7525c4: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x7525c8: ldur            x0, [fp, #-0x38]
     // 0x7525cc: LeaveFrame
     //     0x7525cc: mov             SP, fp

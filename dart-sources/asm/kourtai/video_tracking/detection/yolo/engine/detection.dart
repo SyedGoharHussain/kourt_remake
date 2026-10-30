@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/detection/yolo/engine/detection.dart
+// lib: , url: package:kourtai/video_tracking/detection/yolo/engine/detection.dart
 
 // class id: 1049131, size: 0x8
 class :: {

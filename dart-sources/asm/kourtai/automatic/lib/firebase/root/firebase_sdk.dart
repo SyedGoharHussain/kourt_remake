@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/lib/firebase/root/firebase_sdk.dart
+// lib: , url: package:kourtai/automatic/lib/firebase/root/firebase_sdk.dart
 
 // class id: 1048670, size: 0x8
 class :: {

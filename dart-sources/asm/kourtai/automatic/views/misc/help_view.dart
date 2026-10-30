@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/misc/help_view.dart
+// lib: , url: package:kourtai/automatic/views/misc/help_view.dart
 
 // class id: 1049051, size: 0x8
 class :: {
@@ -108,7 +108,7 @@ class _LinkifiedText extends StatelessWidget {
     // 0xc2576c: r0 = toList()
     //     0xc2576c: bl              #0x8b24b4  ; [dart:_compact_hash] __Set&_HashVMBase&SetMixin::toList
     // 0xc25770: r1 = Function '<anonymous closure>':.
-    //     0xc25770: add             x1, PP, #0x5a, lsl #12  ; [pp+0x5a1f8] AnonymousClosure: (0xc25ec0), in [package:ballai/automatic/views/misc/help_view.dart] _LinkifiedText::build (0xc25668)
+    //     0xc25770: add             x1, PP, #0x5a, lsl #12  ; [pp+0x5a1f8] AnonymousClosure: (0xc25ec0), in [package:kourtai/automatic/views/misc/help_view.dart] _LinkifiedText::build (0xc25668)
     //     0xc25774: ldr             x1, [x1, #0x1f8]
     // 0xc25778: r2 = Null
     //     0xc25778: mov             x2, NULL
@@ -426,7 +426,7 @@ class _LinkifiedText extends StatelessWidget {
     //     0xc25b38: bl              #0x81bdc0  ; [package:flutter/src/gestures/tap.dart] BaseTapGestureRecognizer::BaseTapGestureRecognizer
     // 0xc25b3c: ldur            x2, [fp, #-0x90]
     // 0xc25b40: r1 = Function '<anonymous closure>':.
-    //     0xc25b40: add             x1, PP, #0x5a, lsl #12  ; [pp+0x5a210] AnonymousClosure: (0xc25db0), in [package:ballai/automatic/views/misc/help_view.dart] _LinkifiedText::build (0xc25668)
+    //     0xc25b40: add             x1, PP, #0x5a, lsl #12  ; [pp+0x5a210] AnonymousClosure: (0xc25db0), in [package:kourtai/automatic/views/misc/help_view.dart] _LinkifiedText::build (0xc25668)
     //     0xc25b44: ldr             x1, [x1, #0x210]
     // 0xc25b48: r0 = AllocateClosure()
     //     0xc25b48: bl              #0xe553e0  ; AllocateClosureStub
@@ -729,7 +729,7 @@ class _LinkifiedText extends StatelessWidget {
     // 0xc25e98: mov             x1, x2
     // 0xc25e9c: mov             x2, x0
     // 0xc25ea0: r0 = _openUrl()
-    //     0xc25ea0: bl              #0xc25500  ; [package:ballai/automatic/views/misc/help_view.dart] _HelpScrollContent::_openUrl
+    //     0xc25ea0: bl              #0xc25500  ; [package:kourtai/automatic/views/misc/help_view.dart] _HelpScrollContent::_openUrl
     // 0xc25ea4: mov             x1, x0
     // 0xc25ea8: stur            x1, [fp, #-0x18]
     // 0xc25eac: r0 = Await()
@@ -807,7 +807,7 @@ class _HelpScrollContent extends StatelessWidget {
     // 0xc24f50: mov             x1, x3
     // 0xc24f54: stur            x3, [fp, #-0x10]
     // 0xc24f58: r0 = _detectLinks()
-    //     0xc24f58: bl              #0xc25228  ; [package:ballai/automatic/views/misc/help_view.dart] HelpView::_detectLinks
+    //     0xc24f58: bl              #0xc25228  ; [package:kourtai/automatic/views/misc/help_view.dart] HelpView::_detectLinks
     // 0xc24f5c: ldur            x2, [fp, #-0x18]
     // 0xc24f60: stur            x0, [fp, #-8]
     // 0xc24f64: LoadField: r1 = r2->field_f
@@ -828,8 +828,8 @@ class _HelpScrollContent extends StatelessWidget {
     // 0xc24f84: r4 = const [0, 0, 0, 0, null]
     //     0xc24f84: add             x4, PP, #0xc, lsl #12  ; [pp+0xc818] List(5) [0, 0, 0, 0, Null]
     //     0xc24f88: ldr             x4, [x4, #0x818]
-    // 0xc24f8c: r0 = ballAiSupportMailtoUri()
-    //     0xc24f8c: bl              #0xaa1f28  ; [package:ballai/automatic/utility/feedback/ball_ai_beta_feedback.dart] ::ballAiSupportMailtoUri
+    // 0xc24f8c: r0 = kourtAiSupportMailtoUri()
+    //     0xc24f8c: bl              #0xaa1f28  ; [package:kourtai/automatic/utility/feedback/kourt_ai_beta_feedback.dart] ::kourtAiSupportMailtoUri
     // 0xc24f90: ldur            x2, [fp, #-0x18]
     // 0xc24f94: StoreField: r2->field_13 = r0
     //     0xc24f94: stur            w0, [x2, #0x13]
@@ -843,8 +843,8 @@ class _HelpScrollContent extends StatelessWidget {
     //     0xc24fb0: ldur            w1, [x2, #0xf]
     // 0xc24fb4: DecompressPointer r1
     //     0xc24fb4: add             x1, x1, HEAP, lsl #32
-    // 0xc24fb8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc24fb8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc24fb8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc24fb8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc24fbc: stur            x0, [fp, #-0x28]
     // 0xc24fc0: r0 = TextStyle()
     //     0xc24fc0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -892,8 +892,8 @@ class _HelpScrollContent extends StatelessWidget {
     //     0xc2502c: ldur            w1, [x3, #0xf]
     // 0xc25030: DecompressPointer r1
     //     0xc25030: add             x1, x1, HEAP, lsl #32
-    // 0xc25034: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc25034: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc25034: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc25034: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc25038: stur            x0, [fp, #-8]
     // 0xc2503c: r0 = TextStyle()
     //     0xc2503c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -930,7 +930,7 @@ class _HelpScrollContent extends StatelessWidget {
     //     0xc25088: stur            w16, [x0, #0xf]
     // 0xc2508c: ldur            x2, [fp, #-0x18]
     // 0xc25090: r1 = Function '<anonymous closure>':.
-    //     0xc25090: add             x1, PP, #0x58, lsl #12  ; [pp+0x586b0] AnonymousClosure: (0xc254b4), in [package:ballai/automatic/views/misc/help_view.dart] _HelpScrollContent::build (0xc24f0c)
+    //     0xc25090: add             x1, PP, #0x58, lsl #12  ; [pp+0x586b0] AnonymousClosure: (0xc254b4), in [package:kourtai/automatic/views/misc/help_view.dart] _HelpScrollContent::build (0xc24f0c)
     //     0xc25094: ldr             x1, [x1, #0x6b0]
     // 0xc25098: r0 = AllocateClosure()
     //     0xc25098: bl              #0xe553e0  ; AllocateClosureStub
@@ -1116,7 +1116,7 @@ class _HelpScrollContent extends StatelessWidget {
     //     0xc254e0: add             x2, x2, HEAP, lsl #32
     // 0xc254e4: mov             x1, x0
     // 0xc254e8: r0 = _openUrl()
-    //     0xc254e8: bl              #0xc25500  ; [package:ballai/automatic/views/misc/help_view.dart] _HelpScrollContent::_openUrl
+    //     0xc254e8: bl              #0xc25500  ; [package:kourtai/automatic/views/misc/help_view.dart] _HelpScrollContent::_openUrl
     // 0xc254ec: LeaveFrame
     //     0xc254ec: mov             SP, fp
     //     0xc254f0: ldp             fp, lr, [SP], #0x10
@@ -1296,7 +1296,7 @@ class HelpView extends StatelessWidget {
     //     0xbf39f8: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xbf39fc: ldur            x2, [fp, #-0x20]
     // 0xbf3a00: r1 = Function '<anonymous closure>': static.
-    //     0xbf3a00: add             x1, PP, #0x55, lsl #12  ; [pp+0x555e8] AnonymousClosure: static (0xbf3a6c), in [package:ballai/automatic/views/misc/help_view.dart] HelpView::show (0xbf39ac)
+    //     0xbf3a00: add             x1, PP, #0x55, lsl #12  ; [pp+0x555e8] AnonymousClosure: static (0xbf3a6c), in [package:kourtai/automatic/views/misc/help_view.dart] HelpView::show (0xbf39ac)
     //     0xbf3a04: ldr             x1, [x1, #0x5e8]
     // 0xbf3a08: stur            x0, [fp, #-8]
     // 0xbf3a0c: r0 = AllocateClosure()
@@ -1370,8 +1370,8 @@ class HelpView extends StatelessWidget {
     //     0xbf3ab4: ldr             x1, [x1, #0x5f0]
     // 0xbf3ab8: StoreField: r0->field_13 = r1
     //     0xbf3ab8: stur            w1, [x0, #0x13]
-    // 0xbf3abc: r1 = "shashwat@ballai.app"
-    //     0xbf3abc: add             x1, PP, #0x55, lsl #12  ; [pp+0x555f8] "shashwat@ballai.app"
+    // 0xbf3abc: r1 = "shashwat@kourtai.app"
+    //     0xbf3abc: add             x1, PP, #0x55, lsl #12  ; [pp+0x555f8] "shashwat@kourtai.app"
     //     0xbf3ac0: ldr             x1, [x1, #0x5f8]
     // 0xbf3ac4: ArrayStore: r0[0] = r1  ; List_4
     //     0xbf3ac4: stur            w1, [x0, #0x17]
@@ -1444,8 +1444,8 @@ class HelpView extends StatelessWidget {
     //     0xc24d74: ldur            w1, [x4, #0xf]
     // 0xc24d78: DecompressPointer r1
     //     0xc24d78: add             x1, x1, HEAP, lsl #32
-    // 0xc24d7c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc24d7c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc24d7c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc24d7c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc24d80: stur            x0, [fp, #-0x30]
     // 0xc24d84: r0 = TextStyle()
     //     0xc24d84: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1482,7 +1482,7 @@ class HelpView extends StatelessWidget {
     //     0xc24dd4: bl              #0xa3d19c  ; AllocateToolbarBackLeadingStub -> ToolbarBackLeading (size=0x14)
     // 0xc24dd8: ldur            x2, [fp, #-0x18]
     // 0xc24ddc: r1 = Function '<anonymous closure>':.
-    //     0xc24ddc: add             x1, PP, #0x57, lsl #12  ; [pp+0x574e0] AnonymousClosure: (0x953eb0), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
+    //     0xc24ddc: add             x1, PP, #0x57, lsl #12  ; [pp+0x574e0] AnonymousClosure: (0x953eb0), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
     //     0xc24de0: ldr             x1, [x1, #0x4e0]
     // 0xc24de4: stur            x0, [fp, #-0x18]
     // 0xc24de8: r0 = AllocateClosure()
@@ -1528,8 +1528,8 @@ class HelpView extends StatelessWidget {
     // 0xc24e58: stur            x1, [fp, #-0x28]
     // 0xc24e5c: StoreField: r1->field_b = r0
     //     0xc24e5c: stur            w0, [x1, #0xb]
-    // 0xc24e60: r2 = "shashwat@ballai.app"
-    //     0xc24e60: add             x2, PP, #0x55, lsl #12  ; [pp+0x555f8] "shashwat@ballai.app"
+    // 0xc24e60: r2 = "shashwat@kourtai.app"
+    //     0xc24e60: add             x2, PP, #0x55, lsl #12  ; [pp+0x555f8] "shashwat@kourtai.app"
     //     0xc24e64: ldr             x2, [x2, #0x5f8]
     // 0xc24e68: StoreField: r1->field_f = r2
     //     0xc24e68: stur            w2, [x1, #0xf]
@@ -1567,8 +1567,8 @@ class HelpView extends StatelessWidget {
     // 0xc24eb8: ret
     //     0xc24eb8: ret             
     // 0xc24ebc: mov             x0, x2
-    // 0xc24ec0: r2 = "shashwat@ballai.app"
-    //     0xc24ec0: add             x2, PP, #0x55, lsl #12  ; [pp+0x555f8] "shashwat@ballai.app"
+    // 0xc24ec0: r2 = "shashwat@kourtai.app"
+    //     0xc24ec0: add             x2, PP, #0x55, lsl #12  ; [pp+0x555f8] "shashwat@kourtai.app"
     //     0xc24ec4: ldr             x2, [x2, #0x5f8]
     // 0xc24ec8: LoadField: r1 = r0->field_f
     //     0xc24ec8: ldur            w1, [x0, #0xf]
@@ -1580,8 +1580,8 @@ class HelpView extends StatelessWidget {
     // 0xc24ed8: ldur            x1, [fp, #-0x10]
     // 0xc24edc: StoreField: r0->field_b = r1
     //     0xc24edc: stur            w1, [x0, #0xb]
-    // 0xc24ee0: r1 = "shashwat@ballai.app"
-    //     0xc24ee0: add             x1, PP, #0x55, lsl #12  ; [pp+0x555f8] "shashwat@ballai.app"
+    // 0xc24ee0: r1 = "shashwat@kourtai.app"
+    //     0xc24ee0: add             x1, PP, #0x55, lsl #12  ; [pp+0x555f8] "shashwat@kourtai.app"
     //     0xc24ee4: ldr             x1, [x1, #0x5f8]
     // 0xc24ee8: StoreField: r0->field_f = r1
     //     0xc24ee8: stur            w1, [x0, #0xf]

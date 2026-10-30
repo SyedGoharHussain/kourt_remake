@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/health/sections/health_metric_vs_workout_time_chart_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/health/sections/health_metric_vs_workout_time_chart_view.dart
 
 // class id: 1048967, size: 0x8
 class :: {
@@ -43,8 +43,8 @@ class HealthMetricVsWorkoutTimeChartView extends StatelessWidget {
     // 0xc04018: r0 = _interpolate()
     //     0xc04018: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0xc0401c: stur            x0, [fp, #-8]
-    // 0xc04020: r0 = BallAiComingSoonBanner()
-    //     0xc04020: bl              #0xc037bc  ; AllocateBallAiComingSoonBannerStub -> BallAiComingSoonBanner (size=0x10)
+    // 0xc04020: r0 = KourtAiComingSoonBanner()
+    //     0xc04020: bl              #0xc037bc  ; AllocateKourtAiComingSoonBannerStub -> KourtAiComingSoonBanner (size=0x10)
     // 0xc04024: ldur            x1, [fp, #-8]
     // 0xc04028: StoreField: r0->field_b = r1
     //     0xc04028: stur            w1, [x0, #0xb]

@@ -223,7 +223,7 @@ class AutofillGroupState extends _AutofillGroupState&State&AutofillScopeMixin {
     //     0x91f170: bl              #0x91f57c  ; [package:flutter/src/material/text_field.dart] _TextFieldState::autofillId
     // 0x91f174: ldur            x2, [fp, #-0x20]
     // 0x91f178: r1 = Function '<anonymous closure>':.
-    //     0x91f178: add             x1, PP, #0x47, lsl #12  ; [pp+0x47100] AnonymousClosure: static (0x91f1b0), in [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::letsHoopSpotlightDrills (0x91f1c8)
+    //     0x91f178: add             x1, PP, #0x47, lsl #12  ; [pp+0x47100] AnonymousClosure: static (0x91f1b0), in [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::letsHoopSpotlightDrills (0x91f1c8)
     //     0x91f17c: ldr             x1, [x1, #0x100]
     // 0x91f180: stur            x0, [fp, #-8]
     // 0x91f184: r0 = AllocateClosure()

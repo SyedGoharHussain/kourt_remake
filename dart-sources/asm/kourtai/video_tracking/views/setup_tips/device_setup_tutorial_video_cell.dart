@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/setup_tips/device_setup_tutorial_video_cell.dart
+// lib: , url: package:kourtai/video_tracking/views/setup_tips/device_setup_tutorial_video_cell.dart
 
 // class id: 1049235, size: 0x8
 class :: {
@@ -88,7 +88,7 @@ class _DeviceSetupTutorialVideoCellState extends State<dynamic> {
     // 0x909cbc: b.eq            #0x909cc8
     // 0x909cc0: mov             x1, x0
     // 0x909cc4: r0 = _load()
-    //     0x909cc4: bl              #0x909ce4  ; [package:ballai/video_tracking/views/setup_tips/device_setup_tutorial_video_cell.dart] _DeviceSetupTutorialVideoCellState::_load
+    //     0x909cc4: bl              #0x909ce4  ; [package:kourtai/video_tracking/views/setup_tips/device_setup_tutorial_video_cell.dart] _DeviceSetupTutorialVideoCellState::_load
     // 0x909cc8: r0 = Null
     //     0x909cc8: mov             x0, NULL
     // 0x909ccc: LeaveFrame
@@ -144,7 +144,7 @@ class _DeviceSetupTutorialVideoCellState extends State<dynamic> {
     //     0x909d44: add             x4, PP, #0x3a, lsl #12  ; [pp+0x3a978] List(7) [0, 0x1, 0x1, 0, "mount", 0, Null]
     //     0x909d48: ldr             x4, [x4, #0x978]
     // 0x909d4c: r0 = resolve()
-    //     0x909d4c: bl              #0x90a314  ; [package:ballai/video_tracking/views/setup_tips/setup_tips_tutorial_media.dart] SetupTipsTutorialMediaResolver::resolve
+    //     0x909d4c: bl              #0x90a314  ; [package:kourtai/video_tracking/views/setup_tips/setup_tips_tutorial_media.dart] SetupTipsTutorialMediaResolver::resolve
     // 0x909d50: LoadField: r1 = r0->field_7
     //     0x909d50: ldur            w1, [x0, #7]
     // 0x909d54: DecompressPointer r1
@@ -178,7 +178,7 @@ class _DeviceSetupTutorialVideoCellState extends State<dynamic> {
     // 0x909da8: ldur            x0, [fp, #-0x20]
     // 0x909dac: mov             x1, x3
     // 0x909db0: r0 = _disposeController()
-    //     0x909db0: bl              #0x90a2a4  ; [package:ballai/video_tracking/views/setup_tips/device_setup_tutorial_video_cell.dart] _DeviceSetupTutorialVideoCellState::_disposeController
+    //     0x909db0: bl              #0x90a2a4  ; [package:kourtai/video_tracking/views/setup_tips/device_setup_tutorial_video_cell.dart] _DeviceSetupTutorialVideoCellState::_disposeController
     // 0x909db4: mov             x1, x0
     // 0x909db8: stur            x1, [fp, #-0x28]
     // 0x909dbc: r0 = Await()
@@ -216,7 +216,7 @@ class _DeviceSetupTutorialVideoCellState extends State<dynamic> {
     //     0x909e08: add             x4, PP, #9, lsl #12  ; [pp+0x9ad8] List(7) [0, 0x3, 0x1, 0x2, "autoPlay", 0x2, Null]
     //     0x909e0c: ldr             x4, [x4, #0xad8]
     // 0x909e10: r0 = loadBundledLoopVideo()
-    //     0x909e10: bl              #0x909eb8  ; [package:ballai/automatic/utility/video/bundled_loop_video_loader.dart] ::loadBundledLoopVideo
+    //     0x909e10: bl              #0x909eb8  ; [package:kourtai/automatic/utility/video/bundled_loop_video_loader.dart] ::loadBundledLoopVideo
     // 0x909e14: mov             x1, x0
     // 0x909e18: stur            x1, [fp, #-0x20]
     // 0x909e1c: r0 = Await()
@@ -257,7 +257,7 @@ class _DeviceSetupTutorialVideoCellState extends State<dynamic> {
     //     0x909e84: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x909e88: ldur            x2, [fp, #-0x18]
     // 0x909e8c: r1 = Function '<anonymous closure>':.
-    //     0x909e8c: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a988] AnonymousClosure: (0x90a40c), in [package:ballai/video_tracking/views/setup_tips/device_setup_tutorial_video_cell.dart] _DeviceSetupTutorialVideoCellState::_load (0x909ce4)
+    //     0x909e8c: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a988] AnonymousClosure: (0x90a40c), in [package:kourtai/video_tracking/views/setup_tips/device_setup_tutorial_video_cell.dart] _DeviceSetupTutorialVideoCellState::_load (0x909ce4)
     //     0x909e90: ldr             x1, [x1, #0x988]
     // 0x909e94: r0 = AllocateClosure()
     //     0x909e94: bl              #0xe553e0  ; AllocateClosureStub
@@ -377,7 +377,7 @@ class _DeviceSetupTutorialVideoCellState extends State<dynamic> {
     //     0x993ecc: cmp             SP, x16
     //     0x993ed0: b.ls            #0x993ee8
     // 0x993ed4: r0 = _load()
-    //     0x993ed4: bl              #0x909ce4  ; [package:ballai/video_tracking/views/setup_tips/device_setup_tutorial_video_cell.dart] _DeviceSetupTutorialVideoCellState::_load
+    //     0x993ed4: bl              #0x909ce4  ; [package:kourtai/video_tracking/views/setup_tips/device_setup_tutorial_video_cell.dart] _DeviceSetupTutorialVideoCellState::_load
     // 0x993ed8: r0 = Null
     //     0x993ed8: mov             x0, NULL
     // 0x993edc: LeaveFrame
@@ -720,7 +720,7 @@ class _DeviceSetupTutorialVideoCellState extends State<dynamic> {
     //     0xb5cb28: mov             fp, SP
     // 0xb5cb2c: ldr             x2, [fp, #0x10]
     // 0xb5cb30: r1 = Function 'dispose':.
-    //     0xb5cb30: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a948] AnonymousClosure: (0xb5cb48), in [package:ballai/video_tracking/views/setup_tips/device_setup_tutorial_video_cell.dart] _DeviceSetupTutorialVideoCellState::dispose (0xb642cc)
+    //     0xb5cb30: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a948] AnonymousClosure: (0xb5cb48), in [package:kourtai/video_tracking/views/setup_tips/device_setup_tutorial_video_cell.dart] _DeviceSetupTutorialVideoCellState::dispose (0xb642cc)
     //     0xb5cb34: ldr             x1, [x1, #0x948]
     // 0xb5cb38: r0 = AllocateClosure()
     //     0xb5cb38: bl              #0xe553e0  ; AllocateClosureStub
@@ -745,7 +745,7 @@ class _DeviceSetupTutorialVideoCellState extends State<dynamic> {
     //     0xb5cb60: cmp             SP, x16
     //     0xb5cb64: b.ls            #0xb5cb78
     // 0xb5cb68: r0 = dispose()
-    //     0xb5cb68: bl              #0xb642cc  ; [package:ballai/video_tracking/views/setup_tips/device_setup_tutorial_video_cell.dart] _DeviceSetupTutorialVideoCellState::dispose
+    //     0xb5cb68: bl              #0xb642cc  ; [package:kourtai/video_tracking/views/setup_tips/device_setup_tutorial_video_cell.dart] _DeviceSetupTutorialVideoCellState::dispose
     // 0xb5cb6c: LeaveFrame
     //     0xb5cb6c: mov             SP, fp
     //     0xb5cb70: ldp             fp, lr, [SP], #0x10
@@ -765,7 +765,7 @@ class _DeviceSetupTutorialVideoCellState extends State<dynamic> {
     //     0xb642d8: cmp             SP, x16
     //     0xb642dc: b.ls            #0xb642f4
     // 0xb642e0: r0 = _disposeController()
-    //     0xb642e0: bl              #0x90a2a4  ; [package:ballai/video_tracking/views/setup_tips/device_setup_tutorial_video_cell.dart] _DeviceSetupTutorialVideoCellState::_disposeController
+    //     0xb642e0: bl              #0x90a2a4  ; [package:kourtai/video_tracking/views/setup_tips/device_setup_tutorial_video_cell.dart] _DeviceSetupTutorialVideoCellState::_disposeController
     // 0xb642e4: r0 = Null
     //     0xb642e4: mov             x0, NULL
     // 0xb642e8: LeaveFrame

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_why_parity_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_why_parity_view.dart
 
 // class id: 1048852, size: 0x8
 class :: {
@@ -220,8 +220,8 @@ class _ComparisonRow extends StatelessWidget {
     //     0xbd2ed8: cmp             SP, x16
     //     0xbd2edc: b.ls            #0xbd30c0
     // 0xbd2ee0: mov             x1, x0
-    // 0xbd2ee4: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbd2ee4: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbd2ee4: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbd2ee4: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbd2ee8: mov             x2, x0
     // 0xbd2eec: ldur            x0, [fp, #-8]
     // 0xbd2ef0: stur            x2, [fp, #-0x20]
@@ -236,8 +236,8 @@ class _ComparisonRow extends StatelessWidget {
     //     0xbd2f04: add             x0, x0, HEAP, lsl #32
     // 0xbd2f08: ldur            x1, [fp, #-0x10]
     // 0xbd2f0c: stur            x0, [fp, #-8]
-    // 0xbd2f10: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbd2f10: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbd2f10: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbd2f10: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbd2f14: stur            x0, [fp, #-0x28]
     // 0xbd2f18: r0 = _SideCell()
     //     0xbd2f18: bl              #0xbd30c8  ; Allocate_SideCellStub -> _SideCell (size=0x20)
@@ -288,8 +288,8 @@ class _ComparisonRow extends StatelessWidget {
     //     0xbd2f8c: add             x4, x4, HEAP, lsl #32
     // 0xbd2f90: ldur            x1, [fp, #-0x10]
     // 0xbd2f94: stur            x4, [fp, #-8]
-    // 0xbd2f98: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbd2f98: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbd2f98: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbd2f98: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbd2f9c: stur            x0, [fp, #-0x10]
     // 0xbd2fa0: r0 = _SideCell()
     //     0xbd2fa0: bl              #0xbd30c8  ; Allocate_SideCellStub -> _SideCell (size=0x20)
@@ -432,15 +432,15 @@ class _WhyHeader extends StatelessWidget {
     //     0xbd2cdc: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xbd2ce0: cmp             SP, x16
     //     0xbd2ce4: b.ls            #0xbd2eb0
-    // 0xbd2ce8: r1 = "WITH BALL AI"
-    //     0xbd2ce8: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cb48] "WITH BALL AI"
+    // 0xbd2ce8: r1 = "WITH KOURT AI"
+    //     0xbd2ce8: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cb48] "WITH KOURT AI"
     //     0xbd2cec: ldr             x1, [x1, #0xb48]
     // 0xbd2cf0: r0 = L()
-    //     0xbd2cf0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd2cf0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd2cf4: ldur            x1, [fp, #-8]
     // 0xbd2cf8: stur            x0, [fp, #-8]
-    // 0xbd2cfc: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbd2cfc: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbd2cfc: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbd2cfc: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbd2d00: stur            x0, [fp, #-0x10]
     // 0xbd2d04: r0 = TextStyle()
     //     0xbd2d04: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -505,7 +505,7 @@ class _WhyHeader extends StatelessWidget {
     //     0xbd2d98: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cb50] "Anything else"
     //     0xbd2d9c: ldr             x1, [x1, #0xb50]
     // 0xbd2da0: r0 = L()
-    //     0xbd2da0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd2da0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd2da4: stur            x0, [fp, #-0x10]
     // 0xbd2da8: r0 = Text()
     //     0xbd2da8: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -646,7 +646,7 @@ class AccountSetupWhyParityView extends StatelessWidget {
     //     0xbd23b8: stur            w0, [x1, #0xf]
     // 0xbd23bc: mov             x2, x1
     // 0xbd23c0: r1 = Function '<anonymous closure>':.
-    //     0xbd23c0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a6e0] AnonymousClosure: (0xbd2420), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_why_parity_view.dart] AccountSetupWhyParityView::build (0xbd2398)
+    //     0xbd23c0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a6e0] AnonymousClosure: (0xbd2420), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_why_parity_view.dart] AccountSetupWhyParityView::build (0xbd2398)
     //     0xbd23c4: ldr             x1, [x1, #0x6e0]
     // 0xbd23c8: r0 = AllocateClosure()
     //     0xbd23c8: bl              #0xe553e0  ; AllocateClosureStub
@@ -661,8 +661,8 @@ class AccountSetupWhyParityView extends StatelessWidget {
     // 0xbd23e4: stur            x1, [fp, #-0x10]
     // 0xbd23e8: StoreField: r1->field_f = r0
     //     0xbd23e8: stur            w0, [x1, #0xf]
-    // 0xbd23ec: r0 = BallAiLiquidGlassCard()
-    //     0xbd23ec: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xbd23ec: r0 = KourtAiLiquidGlassCard()
+    //     0xbd23ec: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xbd23f0: ldur            x1, [fp, #-0x10]
     // 0xbd23f4: StoreField: r0->field_b = r1
     //     0xbd23f4: stur            w1, [x0, #0xb]
@@ -783,8 +783,8 @@ class AccountSetupWhyParityView extends StatelessWidget {
     // 0xbd2528: StoreField: r2->field_13 = r0
     //     0xbd2528: stur            w0, [x2, #0x13]
     // 0xbd252c: ldr             x1, [fp, #0x18]
-    // 0xbd2530: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbd2530: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbd2530: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbd2530: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbd2534: r16 = 0.350000
     //     0xbd2534: add             x16, PP, #0x15, lsl #12  ; [pp+0x151b0] 0.35
     //     0xbd2538: ldr             x16, [x16, #0x1b0]
@@ -850,7 +850,7 @@ class AccountSetupWhyParityView extends StatelessWidget {
     //     0xbd25d4: cmp             SP, x16
     //     0xbd25d8: b.ls            #0xbd2a90
     // 0xbd25dc: r0 = _rows()
-    //     0xbd25dc: bl              #0xbd2aac  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_why_parity_view.dart] AccountSetupWhyParityView::_rows
+    //     0xbd25dc: bl              #0xbd2aac  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_why_parity_view.dart] AccountSetupWhyParityView::_rows
     // 0xbd25e0: LoadField: r1 = r0->field_b
     //     0xbd25e0: ldur            w1, [x0, #0xb]
     // 0xbd25e4: r0 = LoadInt32Instr(r1)
@@ -885,7 +885,7 @@ class AccountSetupWhyParityView extends StatelessWidget {
     // 0xbd2640: add             x3, x2, #1
     // 0xbd2644: stur            x3, [fp, #-0x40]
     // 0xbd2648: r0 = _rows()
-    //     0xbd2648: bl              #0xbd2aac  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_why_parity_view.dart] AccountSetupWhyParityView::_rows
+    //     0xbd2648: bl              #0xbd2aac  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_why_parity_view.dart] AccountSetupWhyParityView::_rows
     // 0xbd264c: mov             x2, x0
     // 0xbd2650: LoadField: r0 = r2->field_b
     //     0xbd2650: ldur            w0, [x2, #0xb]
@@ -993,7 +993,7 @@ class AccountSetupWhyParityView extends StatelessWidget {
     // 0xbd2770: add             x0, x1, #1
     // 0xbd2774: stur            x0, [fp, #-0x40]
     // 0xbd2778: r0 = _rows()
-    //     0xbd2778: bl              #0xbd2aac  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_why_parity_view.dart] AccountSetupWhyParityView::_rows
+    //     0xbd2778: bl              #0xbd2aac  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_why_parity_view.dart] AccountSetupWhyParityView::_rows
     // 0xbd277c: mov             x2, x0
     // 0xbd2780: LoadField: r0 = r2->field_b
     //     0xbd2780: ldur            w0, [x2, #0xb]
@@ -1090,7 +1090,7 @@ class AccountSetupWhyParityView extends StatelessWidget {
     //     0xbd2880: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xbd2884: ldur            x0, [fp, #-0x38]
     // 0xbd2888: r0 = _rows()
-    //     0xbd2888: bl              #0xbd2aac  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_why_parity_view.dart] AccountSetupWhyParityView::_rows
+    //     0xbd2888: bl              #0xbd2aac  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_why_parity_view.dart] AccountSetupWhyParityView::_rows
     // 0xbd288c: LoadField: r1 = r0->field_b
     //     0xbd288c: ldur            w1, [x0, #0xb]
     // 0xbd2890: r0 = LoadInt32Instr(r1)
@@ -1103,8 +1103,8 @@ class AccountSetupWhyParityView extends StatelessWidget {
     // 0xbd28a8: add             x3, x0, #1
     // 0xbd28ac: ldr             x1, [fp, #0x18]
     // 0xbd28b0: stur            x3, [fp, #-0x40]
-    // 0xbd28b4: r0 = BallAiThemeContext.ballAi()
-    //     0xbd28b4: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xbd28b4: r0 = KourtAiThemeContext.kourtAi()
+    //     0xbd28b4: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xbd28b8: LoadField: r1 = r0->field_1b
     //     0xbd28b8: ldur            w1, [x0, #0x1b]
     // 0xbd28bc: DecompressPointer r1
@@ -1305,97 +1305,97 @@ class AccountSetupWhyParityView extends StatelessWidget {
     //     0xbd2ac4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a6f8] "Real-time AI coaching"
     //     0xbd2ac8: ldr             x1, [x1, #0x6f8]
     // 0xbd2acc: r0 = L()
-    //     0xbd2acc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd2acc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd2ad0: r1 = "No feedback"
     //     0xbd2ad0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a700] "No feedback"
     //     0xbd2ad4: ldr             x1, [x1, #0x700]
     // 0xbd2ad8: stur            x0, [fp, #-8]
     // 0xbd2adc: r0 = L()
-    //     0xbd2adc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd2adc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd2ae0: r1 = "Progress you can see"
     //     0xbd2ae0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a708] "Progress you can see"
     //     0xbd2ae4: ldr             x1, [x1, #0x708]
     // 0xbd2ae8: stur            x0, [fp, #-0x10]
     // 0xbd2aec: r0 = L()
-    //     0xbd2aec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd2aec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd2af0: r1 = "Stuck at same level"
     //     0xbd2af0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a710] "Stuck at same level"
     //     0xbd2af4: ldr             x1, [x1, #0x710]
     // 0xbd2af8: stur            x0, [fp, #-0x18]
     // 0xbd2afc: r0 = L()
-    //     0xbd2afc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd2afc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd2b00: r1 = "Every rep tracked"
     //     0xbd2b00: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a718] "Every rep tracked"
     //     0xbd2b04: ldr             x1, [x1, #0x718]
     // 0xbd2b08: stur            x0, [fp, #-0x20]
     // 0xbd2b0c: r0 = L()
-    //     0xbd2b0c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd2b0c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd2b10: r1 = "Random reps"
     //     0xbd2b10: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a720] "Random reps"
     //     0xbd2b14: ldr             x1, [x1, #0x720]
     // 0xbd2b18: stur            x0, [fp, #-0x28]
     // 0xbd2b1c: r0 = L()
-    //     0xbd2b1c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd2b1c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd2b20: r1 = "Instant form feedback"
     //     0xbd2b20: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a728] "Instant form feedback"
     //     0xbd2b24: ldr             x1, [x1, #0x728]
     // 0xbd2b28: stur            x0, [fp, #-0x30]
     // 0xbd2b2c: r0 = L()
-    //     0xbd2b2c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd2b2c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd2b30: r1 = "Bad habits"
     //     0xbd2b30: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a730] "Bad habits"
     //     0xbd2b34: ldr             x1, [x1, #0x730]
     // 0xbd2b38: stur            x0, [fp, #-0x38]
     // 0xbd2b3c: r0 = L()
-    //     0xbd2b3c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd2b3c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd2b40: r1 = "Drills built for you"
     //     0xbd2b40: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a738] "Drills built for you"
     //     0xbd2b44: ldr             x1, [x1, #0x738]
     // 0xbd2b48: stur            x0, [fp, #-0x40]
     // 0xbd2b4c: r0 = L()
-    //     0xbd2b4c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd2b4c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd2b50: r1 = "Guessing drills"
     //     0xbd2b50: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a740] "Guessing drills"
     //     0xbd2b54: ldr             x1, [x1, #0x740]
     // 0xbd2b58: stur            x0, [fp, #-0x48]
     // 0xbd2b5c: r0 = L()
-    //     0xbd2b5c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd2b5c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd2b60: r1 = "A coach 24/7"
     //     0xbd2b60: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a748] "A coach 24/7"
     //     0xbd2b64: ldr             x1, [x1, #0x748]
     // 0xbd2b68: stur            x0, [fp, #-0x50]
     // 0xbd2b6c: r0 = L()
-    //     0xbd2b6c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd2b6c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd2b70: r1 = "Training alone"
     //     0xbd2b70: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a750] "Training alone"
     //     0xbd2b74: ldr             x1, [x1, #0x750]
     // 0xbd2b78: stur            x0, [fp, #-0x58]
     // 0xbd2b7c: r0 = L()
-    //     0xbd2b7c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd2b7c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd2b80: r1 = "Pro coaching, way cheaper"
     //     0xbd2b80: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a758] "Pro coaching, way cheaper"
     //     0xbd2b84: ldr             x1, [x1, #0x758]
     // 0xbd2b88: stur            x0, [fp, #-0x60]
     // 0xbd2b8c: r0 = L()
-    //     0xbd2b8c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd2b8c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd2b90: r1 = "$$$ private trainers"
     //     0xbd2b90: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a760] "$$$ private trainers"
     //     0xbd2b94: ldr             x1, [x1, #0x760]
     // 0xbd2b98: stur            x0, [fp, #-0x68]
     // 0xbd2b9c: r0 = L()
-    //     0xbd2b9c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd2b9c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd2ba0: r1 = "Squads & leaderboards"
     //     0xbd2ba0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a768] "Squads & leaderboards"
     //     0xbd2ba4: ldr             x1, [x1, #0x768]
     // 0xbd2ba8: stur            x0, [fp, #-0x70]
     // 0xbd2bac: r0 = L()
-    //     0xbd2bac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd2bac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd2bb0: r1 = "No squad to push you"
     //     0xbd2bb0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a770] "No squad to push you"
     //     0xbd2bb4: ldr             x1, [x1, #0x770]
     // 0xbd2bb8: stur            x0, [fp, #-0x78]
     // 0xbd2bbc: r0 = L()
-    //     0xbd2bbc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd2bbc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd2bc0: ldur            x2, [fp, #-8]
     // 0xbd2bc4: ldur            x3, [fp, #-0x10]
     // 0xbd2bc8: stur            x0, [fp, #-8]

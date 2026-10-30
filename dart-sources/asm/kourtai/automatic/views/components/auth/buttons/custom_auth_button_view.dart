@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/auth/buttons/custom_auth_button_view.dart
+// lib: , url: package:kourtai/automatic/views/components/auth/buttons/custom_auth_button_view.dart
 
 // class id: 1048788, size: 0x8
 class :: {
@@ -47,7 +47,7 @@ class CustomAuthButtonView extends StatelessWidget {
     // 0xbaf1f8: tbnz            w3, #4, #0xbaf214
     // 0xbaf1fc: mov             x2, x1
     // 0xbaf200: r1 = Function '<anonymous closure>':.
-    //     0xbaf200: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e5c8] AnonymousClosure: (0xbaf638), in [package:ballai/automatic/views/components/auth/buttons/custom_auth_button_view.dart] CustomAuthButtonView::build (0xbaf1a0)
+    //     0xbaf200: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e5c8] AnonymousClosure: (0xbaf638), in [package:kourtai/automatic/views/components/auth/buttons/custom_auth_button_view.dart] CustomAuthButtonView::build (0xbaf1a0)
     //     0xbaf204: ldr             x1, [x1, #0x5c8]
     // 0xbaf208: r0 = AllocateClosure()
     //     0xbaf208: bl              #0xe553e0  ; AllocateClosureStub

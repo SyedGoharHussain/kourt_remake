@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/metrics/sections/shot_metrics_details_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/metrics/sections/shot_metrics_details_view.dart
 
 // class id: 1048969, size: 0x8
 class :: {
@@ -45,7 +45,7 @@ class _ShotMetricsDetailsViewState extends State<dynamic> {
     // 0xa7ea08: r0 = _GrowableList.of()
     //     0xa7ea08: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0xa7ea0c: r1 = Function '<anonymous closure>':.
-    //     0xa7ea0c: add             x1, PP, #0x53, lsl #12  ; [pp+0x536d8] AnonymousClosure: (0x8f6a60), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
+    //     0xa7ea0c: add             x1, PP, #0x53, lsl #12  ; [pp+0x536d8] AnonymousClosure: (0x8f6a60), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
     //     0xa7ea10: ldr             x1, [x1, #0x6d8]
     // 0xa7ea14: r2 = Null
     //     0xa7ea14: mov             x2, NULL
@@ -62,7 +62,7 @@ class _ShotMetricsDetailsViewState extends State<dynamic> {
     //     0xa7ea30: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dac8] "Shot metrics"
     //     0xa7ea34: ldr             x1, [x1, #0xac8]
     // 0xa7ea38: r0 = L()
-    //     0xa7ea38: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7ea38: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7ea3c: mov             x1, x0
     // 0xa7ea40: ldur            x0, [fp, #-8]
     // 0xa7ea44: stur            x1, [fp, #-0x28]
@@ -80,7 +80,7 @@ class _ShotMetricsDetailsViewState extends State<dynamic> {
     //     0xa7ea64: stur            w0, [x3, #0xb]
     // 0xa7ea68: ldur            x2, [fp, #-0x10]
     // 0xa7ea6c: r1 = Function '<anonymous closure>':.
-    //     0xa7ea6c: add             x1, PP, #0x53, lsl #12  ; [pp+0x536e0] AnonymousClosure: (0xa7ede4), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/metrics/sections/shot_metrics_details_view.dart] _ShotMetricsDetailsViewState::build (0xa7e9b4)
+    //     0xa7ea6c: add             x1, PP, #0x53, lsl #12  ; [pp+0x536e0] AnonymousClosure: (0xa7ede4), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/metrics/sections/shot_metrics_details_view.dart] _ShotMetricsDetailsViewState::build (0xa7e9b4)
     //     0xa7ea70: ldr             x1, [x1, #0x6e0]
     // 0xa7ea74: r0 = AllocateClosure()
     //     0xa7ea74: bl              #0xe553e0  ; AllocateClosureStub
@@ -145,10 +145,10 @@ class _ShotMetricsDetailsViewState extends State<dynamic> {
     //     0xa7eb1c: add             x1, PP, #0x53, lsl #12  ; [pp+0x536f0] "No shots in this period yet."
     //     0xa7eb20: ldr             x1, [x1, #0x6f0]
     // 0xa7eb24: r0 = L()
-    //     0xa7eb24: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7eb24: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7eb28: stur            x0, [fp, #-0x20]
-    // 0xa7eb2c: r0 = BallAiEmptyState()
-    //     0xa7eb2c: bl              #0xa63934  ; AllocateBallAiEmptyStateStub -> BallAiEmptyState (size=0x14)
+    // 0xa7eb2c: r0 = KourtAiEmptyState()
+    //     0xa7eb2c: bl              #0xa63934  ; AllocateKourtAiEmptyStateStub -> KourtAiEmptyState (size=0x14)
     // 0xa7eb30: mov             x1, x0
     // 0xa7eb34: ldur            x0, [fp, #-0x20]
     // 0xa7eb38: StoreField: r1->field_b = r0
@@ -188,8 +188,8 @@ class _ShotMetricsDetailsViewState extends State<dynamic> {
     // 0xa7eb90: ldur            x1, [fp, #-8]
     // 0xa7eb94: ldur            x2, [fp, #-0x10]
     // 0xa7eb98: stur            x3, [fp, #-0x20]
-    // 0xa7eb9c: r0 = BallAiAnalyticsCard()
-    //     0xa7eb9c: bl              #0xa63928  ; AllocateBallAiAnalyticsCardStub -> BallAiAnalyticsCard (size=0x20)
+    // 0xa7eb9c: r0 = KourtAiAnalyticsCard()
+    //     0xa7eb9c: bl              #0xa63928  ; AllocateKourtAiAnalyticsCardStub -> KourtAiAnalyticsCard (size=0x20)
     // 0xa7eba0: mov             x3, x0
     // 0xa7eba4: ldur            x0, [fp, #-0x10]
     // 0xa7eba8: stur            x3, [fp, #-0x40]
@@ -271,8 +271,8 @@ class _ShotMetricsDetailsViewState extends State<dynamic> {
     //     0xa7ec7c: ldr             d0, [x17, #0xeb0]
     // 0xa7ec80: StoreField: r1->field_13 = d0
     //     0xa7ec80: stur            d0, [x1, #0x13]
-    // 0xa7ec84: r0 = BallAiAnalyticsCard()
-    //     0xa7ec84: bl              #0xa63928  ; AllocateBallAiAnalyticsCardStub -> BallAiAnalyticsCard (size=0x20)
+    // 0xa7ec84: r0 = KourtAiAnalyticsCard()
+    //     0xa7ec84: bl              #0xa63928  ; AllocateKourtAiAnalyticsCardStub -> KourtAiAnalyticsCard (size=0x20)
     // 0xa7ec88: mov             x3, x0
     // 0xa7ec8c: ldur            x0, [fp, #-0x20]
     // 0xa7ec90: stur            x3, [fp, #-0x10]
@@ -362,8 +362,8 @@ class _ShotMetricsDetailsViewState extends State<dynamic> {
     // 0xa7ed60: ldur            x0, [fp, #-0x10]
     // 0xa7ed64: StoreField: r1->field_b = r0
     //     0xa7ed64: stur            w0, [x1, #0xb]
-    // 0xa7ed68: r0 = BallAiSectionScaffold()
-    //     0xa7ed68: bl              #0xa7edb4  ; AllocateBallAiSectionScaffoldStub -> BallAiSectionScaffold (size=0x18)
+    // 0xa7ed68: r0 = KourtAiSectionScaffold()
+    //     0xa7ed68: bl              #0xa7edb4  ; AllocateKourtAiSectionScaffoldStub -> KourtAiSectionScaffold (size=0x18)
     // 0xa7ed6c: ldur            x1, [fp, #-0x28]
     // 0xa7ed70: StoreField: r0->field_b = r1
     //     0xa7ed70: stur            w1, [x0, #0xb]
@@ -415,7 +415,7 @@ class _ShotMetricsDetailsViewState extends State<dynamic> {
     // 0xa7ee30: mov             x2, x1
     // 0xa7ee34: stur            x3, [fp, #-0x10]
     // 0xa7ee38: r1 = Function '<anonymous closure>':.
-    //     0xa7ee38: add             x1, PP, #0x53, lsl #12  ; [pp+0x53700] AnonymousClosure: (0x990690), in [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
+    //     0xa7ee38: add             x1, PP, #0x53, lsl #12  ; [pp+0x53700] AnonymousClosure: (0x990690), in [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
     //     0xa7ee3c: ldr             x1, [x1, #0x700]
     // 0xa7ee40: r0 = AllocateClosure()
     //     0xa7ee40: bl              #0xe553e0  ; AllocateClosureStub
@@ -496,8 +496,8 @@ class _MetricSegmented extends StatelessWidget {
     // 0xc04310: ldur            x1, [fp, #-0x10]
     // 0xc04314: StoreField: r2->field_13 = r1
     //     0xc04314: stur            w1, [x2, #0x13]
-    // 0xc04318: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xc04318: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xc04318: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xc04318: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xc0431c: stur            x0, [fp, #-8]
     // 0xc04320: r0 = Radius()
     //     0xc04320: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -539,7 +539,7 @@ class _MetricSegmented extends StatelessWidget {
     //     0xc0437c: stur            w0, [x3, #0x23]
     // 0xc04380: ldur            x2, [fp, #-0x18]
     // 0xc04384: r1 = Function '<anonymous closure>':.
-    //     0xc04384: add             x1, PP, #0x55, lsl #12  ; [pp+0x552b8] AnonymousClosure: (0xc04468), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/metrics/sections/shot_metrics_details_view.dart] _MetricSegmented::build (0xc042d0)
+    //     0xc04384: add             x1, PP, #0x55, lsl #12  ; [pp+0x552b8] AnonymousClosure: (0xc04468), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/metrics/sections/shot_metrics_details_view.dart] _MetricSegmented::build (0xc042d0)
     //     0xc04388: ldr             x1, [x1, #0x2b8]
     // 0xc0438c: r0 = AllocateClosure()
     //     0xc0438c: bl              #0xe553e0  ; AllocateClosureStub
@@ -700,8 +700,8 @@ class _MetricSegmented extends StatelessWidget {
     //     0xc04518: ldur            w1, [x3, #0x13]
     // 0xc0451c: DecompressPointer r1
     //     0xc0451c: add             x1, x1, HEAP, lsl #32
-    // 0xc04520: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xc04520: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xc04520: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xc04520: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xc04524: mov             x1, x0
     // 0xc04528: b               #0xc04534
     // 0xc0452c: r1 = Instance_Color
@@ -774,8 +774,8 @@ class _MetricSegmented extends StatelessWidget {
     // 0xc045e8: DecompressPointer r4
     //     0xc045e8: add             x4, x4, HEAP, lsl #32
     // 0xc045ec: mov             x1, x4
-    // 0xc045f0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc045f0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc045f0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc045f0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc045f4: mov             x2, x0
     // 0xc045f8: b               #0xc04614
     // 0xc045fc: ldur            x1, [fp, #-8]
@@ -784,8 +784,8 @@ class _MetricSegmented extends StatelessWidget {
     // 0xc04604: DecompressPointer r0
     //     0xc04604: add             x0, x0, HEAP, lsl #32
     // 0xc04608: mov             x1, x0
-    // 0xc0460c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc0460c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc0460c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc0460c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc04610: mov             x2, x0
     // 0xc04614: ldur            x1, [fp, #-0x28]
     // 0xc04618: ldur            x0, [fp, #-0x20]
@@ -858,7 +858,7 @@ class _MetricSegmented extends StatelessWidget {
     //     0xc046cc: stur            w0, [x3, #0xb]
     // 0xc046d0: ldur            x2, [fp, #-0x18]
     // 0xc046d4: r1 = Function '<anonymous closure>':.
-    //     0xc046d4: add             x1, PP, #0x55, lsl #12  ; [pp+0x552d0] AnonymousClosure: (0xc04758), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/metrics/sections/shot_metrics_details_view.dart] _MetricSegmented::build (0xc042d0)
+    //     0xc046d4: add             x1, PP, #0x55, lsl #12  ; [pp+0x552d0] AnonymousClosure: (0xc04758), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/metrics/sections/shot_metrics_details_view.dart] _MetricSegmented::build (0xc042d0)
     //     0xc046d8: ldr             x1, [x1, #0x2d0]
     // 0xc046dc: r0 = AllocateClosure()
     //     0xc046dc: bl              #0xe553e0  ; AllocateClosureStub

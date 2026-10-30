@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/message/direct_message_availability.dart
+// lib: , url: package:kourtai/automatic/models/core/message/direct_message_availability.dart
 
 // class id: 1048687, size: 0x8
 class :: {

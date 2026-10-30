@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/session/guards/ball_visibility_guard_handler.dart
+// lib: , url: package:kourtai/video_tracking/session/guards/ball_visibility_guard_handler.dart
 
 // class id: 1049176, size: 0x8
 class :: {
@@ -42,7 +42,7 @@ abstract class BallVisibilityGuardHandler extends Object {
     //     0x74d7c4: ldr             x2, [THR, #0x68]  ; THR::field_table_values
     //     0x74d7c8: str             x0, [x2, #0x21a8]
     // 0x74d7cc: r0 = _clearOwnedGuardWarning()
-    //     0x74d7cc: bl              #0x74d7e8  ; [package:ballai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::_clearOwnedGuardWarning
+    //     0x74d7cc: bl              #0x74d7e8  ; [package:kourtai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::_clearOwnedGuardWarning
     // 0x74d7d0: r0 = Null
     //     0x74d7d0: mov             x0, NULL
     // 0x74d7d4: LeaveFrame
@@ -79,7 +79,7 @@ abstract class BallVisibilityGuardHandler extends Object {
     // 0x74d81c: StoreStaticField(0x10d8, r0)
     //     0x74d81c: ldr             x1, [THR, #0x68]  ; THR::field_table_values
     //     0x74d820: str             x0, [x1, #0x21b0]
-    // 0x74d824: r0 = InitLateStaticField(0x10c8) // [package:ballai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::_manager
+    // 0x74d824: r0 = InitLateStaticField(0x10c8) // [package:kourtai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::_manager
     //     0x74d824: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x74d828: ldr             x0, [x0, #0x2190]
     //     0x74d82c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -90,7 +90,7 @@ abstract class BallVisibilityGuardHandler extends Object {
     //     0x74d840: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x74d844: mov             x1, x0
     // 0x74d848: r0 = clearGuardWarning()
-    //     0x74d848: bl              #0x714d10  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::clearGuardWarning
+    //     0x74d848: bl              #0x714d10  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::clearGuardWarning
     // 0x74d84c: r0 = Null
     //     0x74d84c: mov             x0, NULL
     // 0x74d850: LeaveFrame
@@ -113,7 +113,7 @@ abstract class BallVisibilityGuardHandler extends Object {
     //     0x774464: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x774468: cmp             SP, x16
     //     0x77446c: b.ls            #0x774524
-    // 0x774470: r0 = InitLateStaticField(0x10c8) // [package:ballai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::_manager
+    // 0x774470: r0 = InitLateStaticField(0x10c8) // [package:kourtai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::_manager
     //     0x774470: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x774474: ldr             x0, [x0, #0x2190]
     //     0x774478: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -130,7 +130,7 @@ abstract class BallVisibilityGuardHandler extends Object {
     // 0x77449c: tbnz            w1, #4, #0x7744bc
     // 0x7744a0: mov             x1, x0
     // 0x7744a4: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x7744a4: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x7744a4: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x7744a8: tbnz            w0, #4, #0x7744bc
     // 0x7744ac: ldur            x0, [fp, #-8]
     // 0x7744b0: LoadField: r1 = r0->field_2b
@@ -171,7 +171,7 @@ abstract class BallVisibilityGuardHandler extends Object {
     //     0x774508: ldr             x1, [THR, #0x68]  ; THR::field_table_values
     //     0x77450c: str             x0, [x1, #0x2198]
     // 0x774510: r0 = _check()
-    //     0x774510: bl              #0x77452c  ; [package:ballai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::_check
+    //     0x774510: bl              #0x77452c  ; [package:kourtai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::_check
     // 0x774514: r0 = Null
     //     0x774514: mov             x0, NULL
     // 0x774518: LeaveFrame
@@ -194,7 +194,7 @@ abstract class BallVisibilityGuardHandler extends Object {
     //     0x774538: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x77453c: cmp             SP, x16
     //     0x774540: b.ls            #0x7746dc
-    // 0x774544: r0 = InitLateStaticField(0x10c8) // [package:ballai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::_manager
+    // 0x774544: r0 = InitLateStaticField(0x10c8) // [package:kourtai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::_manager
     //     0x774544: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x774548: ldr             x0, [x0, #0x2190]
     //     0x77454c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -211,7 +211,7 @@ abstract class BallVisibilityGuardHandler extends Object {
     // 0x774570: tbnz            w1, #4, #0x7745ac
     // 0x774574: mov             x1, x0
     // 0x774578: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x774578: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x774578: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x77457c: tbnz            w0, #4, #0x7745ac
     // 0x774580: ldur            x1, [fp, #-8]
     // 0x774584: LoadField: r0 = r1->field_2b
@@ -280,7 +280,7 @@ abstract class BallVisibilityGuardHandler extends Object {
     //     0x774628: ldr             x1, [THR, #0x68]  ; THR::field_table_values
     //     0x77462c: str             x0, [x1, #0x21b0]
     // 0x774630: r1 = Function '<anonymous closure>': static.
-    //     0x774630: add             x1, PP, #0x33, lsl #12  ; [pp+0x33098] AnonymousClosure: static (0x7749f8), in [package:ballai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::_check (0x77452c)
+    //     0x774630: add             x1, PP, #0x33, lsl #12  ; [pp+0x33098] AnonymousClosure: static (0x7749f8), in [package:kourtai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::_check (0x77452c)
     //     0x774634: ldr             x1, [x1, #0x98]
     // 0x774638: r2 = Null
     //     0x774638: mov             x2, NULL
@@ -292,8 +292,8 @@ abstract class BallVisibilityGuardHandler extends Object {
     //     0x774648: add             x2, PP, #0x33, lsl #12  ; [pp+0x330a0] "I can\'t see the ball. Keep it in the frame."
     //     0x77464c: ldr             x2, [x2, #0xa0]
     // 0x774650: r0 = presentGuardWarning()
-    //     0x774650: bl              #0x774974  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::presentGuardWarning
-    // 0x774654: r0 = InitLateStaticField(0xeec) // [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
+    //     0x774650: bl              #0x774974  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::presentGuardWarning
+    // 0x774654: r0 = InitLateStaticField(0xeec) // [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
     //     0x774654: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x774658: ldr             x0, [x0, #0x1dd8]
     //     0x77465c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -313,7 +313,7 @@ abstract class BallVisibilityGuardHandler extends Object {
     //     0x774688: add             x4, PP, #0x32, lsl #12  ; [pp+0x32fb8] List(7) [0, 0x3, 0x1, 0x2, "showText", 0x2, Null]
     //     0x77468c: ldr             x4, [x4, #0xfb8]
     // 0x774690: r0 = speak()
-    //     0x774690: bl              #0x6d2cd4  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
+    //     0x774690: bl              #0x6d2cd4  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
     // 0x774694: r0 = LoadStaticField(0x10d4)
     //     0x774694: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x774698: ldr             x0, [x0, #0x21a8]
@@ -323,7 +323,7 @@ abstract class BallVisibilityGuardHandler extends Object {
     //     0x7746a4: add             x2, PP, #0x33, lsl #12  ; [pp+0x330a8] "The camera lost sight of the ball for 5 seconds."
     //     0x7746a8: ldr             x2, [x2, #0xa8]
     // 0x7746ac: r0 = recordGuardAlert()
-    //     0x7746ac: bl              #0x7746e8  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::recordGuardAlert
+    //     0x7746ac: bl              #0x7746e8  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::recordGuardAlert
     // 0x7746b0: r1 = true
     //     0x7746b0: add             x1, NULL, #0x20  ; true
     // 0x7746b4: StoreStaticField(0x10d4, r1)
@@ -419,7 +419,7 @@ abstract class BallVisibilityGuardHandler extends Object {
     //     0x774a94: ldr             x2, [THR, #0x68]  ; THR::field_table_values
     //     0x774a98: str             x0, [x2, #0x21a0]
     // 0x774a9c: r0 = _clearOwnedGuardWarning()
-    //     0x774a9c: bl              #0x74d7e8  ; [package:ballai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::_clearOwnedGuardWarning
+    //     0x774a9c: bl              #0x74d7e8  ; [package:kourtai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::_clearOwnedGuardWarning
     // 0x774aa0: r0 = Null
     //     0x774aa0: mov             x0, NULL
     // 0x774aa4: LeaveFrame
@@ -440,7 +440,7 @@ abstract class BallVisibilityGuardHandler extends Object {
     //     0x99ada8: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x99adac: cmp             SP, x16
     //     0x99adb0: b.ls            #0x99ae64
-    // 0x99adb4: r0 = InitLateStaticField(0x10c8) // [package:ballai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::_manager
+    // 0x99adb4: r0 = InitLateStaticField(0x10c8) // [package:kourtai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::_manager
     //     0x99adb4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x99adb8: ldr             x0, [x0, #0x2190]
     //     0x99adbc: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -451,10 +451,10 @@ abstract class BallVisibilityGuardHandler extends Object {
     //     0x99add0: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x99add4: mov             x1, x0
     // 0x99add8: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x99add8: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x99add8: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x99addc: tbz             w0, #4, #0x99adf4
     // 0x99ade0: r0 = stop()
-    //     0x99ade0: bl              #0x74d77c  ; [package:ballai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::stop
+    //     0x99ade0: bl              #0x74d77c  ; [package:kourtai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::stop
     // 0x99ade4: r0 = Null
     //     0x99ade4: mov             x0, NULL
     // 0x99ade8: LeaveFrame
@@ -476,7 +476,7 @@ abstract class BallVisibilityGuardHandler extends Object {
     //     0x99ae0c: ldr             x1, [THR, #0x68]  ; THR::field_table_values
     //     0x99ae10: str             x0, [x1, #0x21a8]
     // 0x99ae14: r0 = _clearOwnedGuardWarning()
-    //     0x99ae14: bl              #0x74d7e8  ; [package:ballai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::_clearOwnedGuardWarning
+    //     0x99ae14: bl              #0x74d7e8  ; [package:kourtai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::_clearOwnedGuardWarning
     // 0x99ae18: r1 = LoadStaticField(0x10dc)
     //     0x99ae18: ldr             x1, [THR, #0x68]  ; THR::field_table_values
     //     0x99ae1c: ldr             x1, [x1, #0x21b8]
@@ -485,7 +485,7 @@ abstract class BallVisibilityGuardHandler extends Object {
     // 0x99ae28: r0 = cancel()
     //     0x99ae28: bl              #0x5ce814  ; [dart:isolate] _Timer::cancel
     // 0x99ae2c: r1 = Function '<anonymous closure>': static.
-    //     0x99ae2c: add             x1, PP, #0x40, lsl #12  ; [pp+0x40dd8] AnonymousClosure: static (0x99ae6c), in [package:ballai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::start (0x99ada0)
+    //     0x99ae2c: add             x1, PP, #0x40, lsl #12  ; [pp+0x40dd8] AnonymousClosure: static (0x99ae6c), in [package:kourtai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::start (0x99ada0)
     //     0x99ae30: ldr             x1, [x1, #0xdd8]
     // 0x99ae34: r2 = Null
     //     0x99ae34: mov             x2, NULL
@@ -522,7 +522,7 @@ abstract class BallVisibilityGuardHandler extends Object {
     //     0x99ae78: cmp             SP, x16
     //     0x99ae7c: b.ls            #0x99ae94
     // 0x99ae80: r0 = _check()
-    //     0x99ae80: bl              #0x77452c  ; [package:ballai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::_check
+    //     0x99ae80: bl              #0x77452c  ; [package:kourtai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::_check
     // 0x99ae84: r0 = Null
     //     0x99ae84: mov             x0, NULL
     // 0x99ae88: LeaveFrame

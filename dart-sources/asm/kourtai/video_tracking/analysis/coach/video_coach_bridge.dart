@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/analysis/coach/video_coach_bridge.dart
+// lib: , url: package:kourtai/video_tracking/analysis/coach/video_coach_bridge.dart
 
 // class id: 1049091, size: 0x8
 class :: {
@@ -56,7 +56,7 @@ class VideoCoachBridge extends Object {
     //     0x6cef68: add             x3, PP, #0x30, lsl #12  ; [pp+0x30248] Obj!PoseLandmarkType@d326e1
     //     0x6cef6c: ldr             x3, [x3, #0x248]
     // 0x6cef70: r0 = calculateJointAngle()
-    //     0x6cef70: bl              #0x6cf464  ; [package:ballai/video_tracking/analysis/coach/biomechanics_analyzer.dart] BiomechanicsAnalyzer::calculateJointAngle
+    //     0x6cef70: bl              #0x6cf464  ; [package:kourtai/video_tracking/analysis/coach/biomechanics_analyzer.dart] BiomechanicsAnalyzer::calculateJointAngle
     // 0x6cef74: mov             v2.16b, v0.16b
     // 0x6cef78: b               #0x6cef80
     // 0x6cef7c: d2 = 180.000000
@@ -69,7 +69,7 @@ class VideoCoachBridge extends Object {
     //     0x6cef90: add             x1, PP, #0x30, lsl #12  ; [pp+0x30250] Obj!PoseLandmarkType@d328a1
     //     0x6cef94: ldr             x1, [x1, #0x250]
     // 0x6cef98: r0 = calculateElbowFlare()
-    //     0x6cef98: bl              #0x6cf348  ; [package:ballai/video_tracking/analysis/coach/biomechanics_analyzer.dart] BiomechanicsAnalyzer::calculateElbowFlare
+    //     0x6cef98: bl              #0x6cf348  ; [package:kourtai/video_tracking/analysis/coach/biomechanics_analyzer.dart] BiomechanicsAnalyzer::calculateElbowFlare
     // 0x6cef9c: b               #0x6cefa4
     // 0x6cefa0: d0 = 0.000000
     //     0x6cefa0: eor             v0.16b, v0.16b, v0.16b
@@ -95,7 +95,7 @@ class VideoCoachBridge extends Object {
     // 0x6cefdc: ldur            d2, [fp, #-0x30]
     // 0x6cefe0: ldur            x3, [fp, #-0x18]
     // 0x6cefe4: r0 = feedTemporalFrame()
-    //     0x6cefe4: bl              #0x6cf000  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::feedTemporalFrame
+    //     0x6cefe4: bl              #0x6cf000  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::feedTemporalFrame
     // 0x6cefe8: r0 = Null
     //     0x6cefe8: mov             x0, NULL
     // 0x6cefec: LeaveFrame
@@ -130,7 +130,7 @@ class VideoCoachBridge extends Object {
     // 0x6cf768: ldur            x2, [fp, #-8]
     // 0x6cf76c: stur            x0, [fp, #-8]
     // 0x6cf770: r0 = CoachDataExtractor()
-    //     0x6cf770: bl              #0x6cf78c  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::CoachDataExtractor
+    //     0x6cf770: bl              #0x6cf78c  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::CoachDataExtractor
     // 0x6cf774: ldur            x0, [fp, #-8]
     // 0x6cf778: LeaveFrame
     //     0x6cf778: mov             SP, fp
@@ -187,11 +187,11 @@ class VideoCoachBridge extends Object {
     //     0x6d0da0: bl              #0xe540b0  ; InitLateFinalInstanceFieldStub
     // 0x6d0da4: mov             x1, x0
     // 0x6d0da8: r0 = extractFramesRetroactively()
-    //     0x6d0da8: bl              #0x703958  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::extractFramesRetroactively
+    //     0x6d0da8: bl              #0x703958  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::extractFramesRetroactively
     // 0x6d0dac: ldur            x1, [fp, #-0x10]
     // 0x6d0db0: ldur            x2, [fp, #-8]
     // 0x6d0db4: r0 = handleShotCompleted()
-    //     0x6d0db4: bl              #0x6d0dd0  ; [package:ballai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::handleShotCompleted
+    //     0x6d0db4: bl              #0x6d0dd0  ; [package:kourtai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::handleShotCompleted
     // 0x6d0db8: r0 = Null
     //     0x6d0db8: mov             x0, NULL
     // 0x6d0dbc: LeaveFrame
@@ -277,7 +277,7 @@ class VideoCoachBridge extends Object {
     // 0x6d0e90: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x6d0e90: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x6d0e94: r0 = suppressed()
-    //     0x6d0e94: bl              #0x7037e8  ; [package:ballai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::suppressed
+    //     0x6d0e94: bl              #0x7037e8  ; [package:kourtai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::suppressed
     // 0x6d0e98: r0 = Null
     //     0x6d0e98: mov             x0, NULL
     // 0x6d0e9c: LeaveFrame
@@ -302,7 +302,7 @@ class VideoCoachBridge extends Object {
     // 0x6d0ecc: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x6d0ecc: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x6d0ed0: r0 = suppressed()
-    //     0x6d0ed0: bl              #0x7037e8  ; [package:ballai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::suppressed
+    //     0x6d0ed0: bl              #0x7037e8  ; [package:kourtai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::suppressed
     // 0x6d0ed4: r0 = Null
     //     0x6d0ed4: mov             x0, NULL
     // 0x6d0ed8: LeaveFrame
@@ -316,7 +316,7 @@ class VideoCoachBridge extends Object {
     // 0x6d0eec: mov             x1, x4
     // 0x6d0ef0: stur            x4, [fp, #-0x28]
     // 0x6d0ef4: r0 = getPose()
-    //     0x6d0ef4: bl              #0x703344  ; [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::getPose
+    //     0x6d0ef4: bl              #0x703344  ; [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::getPose
     // 0x6d0ef8: cmp             w0, NULL
     // 0x6d0efc: b.eq            #0x6d0f24
     // 0x6d0f00: ldur            x2, [fp, #-0x30]
@@ -392,7 +392,7 @@ class VideoCoachBridge extends Object {
     // 0x6d0fc8: mov             x5, x4
     // 0x6d0fcc: stur            x6, [fp, #-0x38]
     // 0x6d0fd0: r0 = recordShotAndCheckGatekeeper()
-    //     0x6d0fd0: bl              #0x7018c0  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::recordShotAndCheckGatekeeper
+    //     0x6d0fd0: bl              #0x7018c0  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::recordShotAndCheckGatekeeper
     // 0x6d0fd4: stur            x0, [fp, #-0x50]
     // 0x6d0fd8: cmp             w0, NULL
     // 0x6d0fdc: b.ne            #0x6d0ff0
@@ -470,7 +470,7 @@ class VideoCoachBridge extends Object {
     // 0x6d1094: DecompressPointer r1
     //     0x6d1094: add             x1, x1, HEAP, lsl #32
     // 0x6d1098: r0 = coachDecisionStateForCurrentShot()
-    //     0x6d1098: bl              #0x701828  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::coachDecisionStateForCurrentShot
+    //     0x6d1098: bl              #0x701828  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::coachDecisionStateForCurrentShot
     // 0x6d109c: mov             x2, x0
     // 0x6d10a0: ldur            x0, [fp, #-0x30]
     // 0x6d10a4: stur            x2, [fp, #-0x68]
@@ -492,7 +492,7 @@ class VideoCoachBridge extends Object {
     // 0x6d10d0: DecompressPointer r1
     //     0x6d10d0: add             x1, x1, HEAP, lsl #32
     // 0x6d10d4: r0 = coachSessionTotalShots()
-    //     0x6d10d4: bl              #0x701810  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::coachSessionTotalShots
+    //     0x6d10d4: bl              #0x701810  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::coachSessionTotalShots
     // 0x6d10d8: mov             x1, x0
     // 0x6d10dc: ldur            x0, [fp, #-0x60]
     // 0x6d10e0: r5 = LoadInt32Instr(r0)
@@ -507,7 +507,7 @@ class VideoCoachBridge extends Object {
     // 0x6d1100: ldur            x6, [fp, #-0x58]
     // 0x6d1104: ldur            x7, [fp, #-0x40]
     // 0x6d1108: r0 = decide()
-    //     0x6d1108: bl              #0x70108c  ; [package:ballai/video_tracking/analysis/coach/coach_decision_engine.dart] CoachDecisionEngine::decide
+    //     0x6d1108: bl              #0x70108c  ; [package:kourtai/video_tracking/analysis/coach/coach_decision_engine.dart] CoachDecisionEngine::decide
     // 0x6d110c: r1 = Null
     //     0x6d110c: mov             x1, NULL
     // 0x6d1110: r2 = 16
@@ -643,7 +643,7 @@ class VideoCoachBridge extends Object {
     //     0x6d1260: add             x4, PP, #0x30, lsl #12  ; [pp+0x302e0] List(7) [0, 0x3, 0x1, 0x2, "eventType", 0x2, Null]
     //     0x6d1264: ldr             x4, [x4, #0x2e0]
     // 0x6d1268: r0 = suppressed()
-    //     0x6d1268: bl              #0x7037e8  ; [package:ballai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::suppressed
+    //     0x6d1268: bl              #0x7037e8  ; [package:kourtai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::suppressed
     // 0x6d126c: ldur            x0, [fp, #-0x10]
     // 0x6d1270: LoadField: r1 = r0->field_b
     //     0x6d1270: ldur            w1, [x0, #0xb]
@@ -666,7 +666,7 @@ class VideoCoachBridge extends Object {
     //     0x6d12a0: add             x4, PP, #0x30, lsl #12  ; [pp+0x302e8] List(7) [0, 0x7, 0x1, 0x6, "shotIndex", 0x6, Null]
     //     0x6d12a4: ldr             x4, [x4, #0x2e8]
     // 0x6d12a8: r0 = logCoachConsoleBlock()
-    //     0x6d12a8: bl              #0x700ce8  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::logCoachConsoleBlock
+    //     0x6d12a8: bl              #0x700ce8  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::logCoachConsoleBlock
     // 0x6d12ac: r0 = Null
     //     0x6d12ac: mov             x0, NULL
     // 0x6d12b0: LeaveFrame
@@ -730,7 +730,7 @@ class VideoCoachBridge extends Object {
     // 0x6d1360: ldur            x5, [fp, #-0x50]
     // 0x6d1364: mov             x1, x4
     // 0x6d1368: r0 = _visibilityMessage()
-    //     0x6d1368: bl              #0x700c44  ; [package:ballai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::_visibilityMessage
+    //     0x6d1368: bl              #0x700c44  ; [package:kourtai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::_visibilityMessage
     // 0x6d136c: mov             x4, x0
     // 0x6d1370: ldur            x0, [fp, #-0x10]
     // 0x6d1374: stur            x4, [fp, #-0x48]
@@ -741,7 +741,7 @@ class VideoCoachBridge extends Object {
     // 0x6d1380: ldur            x2, [fp, #-8]
     // 0x6d1384: mov             x3, x4
     // 0x6d1388: r0 = speakVisibilityCoachLine()
-    //     0x6d1388: bl              #0x700c04  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::speakVisibilityCoachLine
+    //     0x6d1388: bl              #0x700c04  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::speakVisibilityCoachLine
     // 0x6d138c: ldur            x0, [fp, #-0x20]
     // 0x6d1390: ldur            x1, [fp, #-0x30]
     // 0x6d1394: r17 = 371
@@ -776,7 +776,7 @@ class VideoCoachBridge extends Object {
     //     0x6d13e8: add             x4, PP, #0x30, lsl #12  ; [pp+0x302e8] List(7) [0, 0x7, 0x1, 0x6, "shotIndex", 0x6, Null]
     //     0x6d13ec: ldr             x4, [x4, #0x2e8]
     // 0x6d13f0: r0 = logCoachConsoleBlock()
-    //     0x6d13f0: bl              #0x700ce8  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::logCoachConsoleBlock
+    //     0x6d13f0: bl              #0x700ce8  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::logCoachConsoleBlock
     // 0x6d13f4: b               #0x6d1460
     // 0x6d13f8: ldur            x0, [fp, #-0x10]
     // 0x6d13fc: ldur            x3, [fp, #-0x50]
@@ -790,7 +790,7 @@ class VideoCoachBridge extends Object {
     //     0x6d1414: add             x4, PP, #0x30, lsl #12  ; [pp+0x302e0] List(7) [0, 0x3, 0x1, 0x2, "eventType", 0x2, Null]
     //     0x6d1418: ldr             x4, [x4, #0x2e0]
     // 0x6d141c: r0 = suppressed()
-    //     0x6d141c: bl              #0x7037e8  ; [package:ballai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::suppressed
+    //     0x6d141c: bl              #0x7037e8  ; [package:kourtai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::suppressed
     // 0x6d1420: ldur            x0, [fp, #-0x10]
     // 0x6d1424: LoadField: r1 = r0->field_b
     //     0x6d1424: ldur            w1, [x0, #0xb]
@@ -813,7 +813,7 @@ class VideoCoachBridge extends Object {
     //     0x6d1454: add             x4, PP, #0x30, lsl #12  ; [pp+0x302e8] List(7) [0, 0x7, 0x1, 0x6, "shotIndex", 0x6, Null]
     //     0x6d1458: ldr             x4, [x4, #0x2e8]
     // 0x6d145c: r0 = logCoachConsoleBlock()
-    //     0x6d145c: bl              #0x700ce8  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::logCoachConsoleBlock
+    //     0x6d145c: bl              #0x700ce8  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::logCoachConsoleBlock
     // 0x6d1460: r0 = Null
     //     0x6d1460: mov             x0, NULL
     // 0x6d1464: LeaveFrame
@@ -857,7 +857,7 @@ class VideoCoachBridge extends Object {
     //     0x6d14d8: add             x4, PP, #0x30, lsl #12  ; [pp+0x302e0] List(7) [0, 0x3, 0x1, 0x2, "eventType", 0x2, Null]
     //     0x6d14dc: ldr             x4, [x4, #0x2e0]
     // 0x6d14e0: r0 = suppressed()
-    //     0x6d14e0: bl              #0x7037e8  ; [package:ballai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::suppressed
+    //     0x6d14e0: bl              #0x7037e8  ; [package:kourtai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::suppressed
     // 0x6d14e4: ldur            x0, [fp, #-0x10]
     // 0x6d14e8: LoadField: r1 = r0->field_b
     //     0x6d14e8: ldur            w1, [x0, #0xb]
@@ -880,7 +880,7 @@ class VideoCoachBridge extends Object {
     //     0x6d1518: add             x4, PP, #0x30, lsl #12  ; [pp+0x302e8] List(7) [0, 0x7, 0x1, 0x6, "shotIndex", 0x6, Null]
     //     0x6d151c: ldr             x4, [x4, #0x2e8]
     // 0x6d1520: r0 = logCoachConsoleBlock()
-    //     0x6d1520: bl              #0x700ce8  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::logCoachConsoleBlock
+    //     0x6d1520: bl              #0x700ce8  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::logCoachConsoleBlock
     // 0x6d1524: r0 = Null
     //     0x6d1524: mov             x0, NULL
     // 0x6d1528: LeaveFrame
@@ -913,7 +913,7 @@ class VideoCoachBridge extends Object {
     // 0x6d156c: mov             x3, x5
     // 0x6d1570: ldur            x5, [fp, #-0x58]
     // 0x6d1574: r0 = callCoachAI()
-    //     0x6d1574: bl              #0x6d1598  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::callCoachAI
+    //     0x6d1574: bl              #0x6d1598  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::callCoachAI
     // 0x6d1578: r0 = Null
     //     0x6d1578: mov             x0, NULL
     // 0x6d157c: LeaveFrame
@@ -1022,7 +1022,7 @@ class VideoCoachBridge extends Object {
     //     0x712e68: bl              #0xe540b0  ; InitLateFinalInstanceFieldStub
     // 0x712e6c: mov             x1, x0
     // 0x712e70: r0 = resetTemporalBufferForNewShot()
-    //     0x712e70: bl              #0x712e8c  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::resetTemporalBufferForNewShot
+    //     0x712e70: bl              #0x712e8c  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::resetTemporalBufferForNewShot
     // 0x712e74: r0 = Null
     //     0x712e74: mov             x0, NULL
     // 0x712e78: LeaveFrame
@@ -1058,7 +1058,7 @@ class VideoCoachBridge extends Object {
     // 0x725e74: b.eq            #0x725e80
     // 0x725e78: mov             x1, x2
     // 0x725e7c: r0 = firePendingCoachEventIfNeeded()
-    //     0x725e7c: bl              #0x6d0d38  ; [package:ballai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::firePendingCoachEventIfNeeded
+    //     0x725e7c: bl              #0x6d0d38  ; [package:kourtai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::firePendingCoachEventIfNeeded
     // 0x725e80: ldur            x1, [fp, #-8]
     // 0x725e84: ldur            x0, [fp, #-0x10]
     // 0x725e88: ArrayStore: r1[0] = r0  ; List_4
@@ -1133,7 +1133,7 @@ class VideoCoachBridge extends Object {
     // 0x726118: stur            x1, [fp, #-0x10]
     // 0x72611c: cmp             w1, NULL
     // 0x726120: b.ne            #0x72617c
-    // 0x726124: r0 = InitLateStaticField(0xeec) // [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
+    // 0x726124: r0 = InitLateStaticField(0xeec) // [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
     //     0x726124: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x726128: ldr             x0, [x0, #0x1dd8]
     //     0x72612c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1155,7 +1155,7 @@ class VideoCoachBridge extends Object {
     // 0x726164: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x726164: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x726168: r0 = speak()
-    //     0x726168: bl              #0x6d2cd4  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
+    //     0x726168: bl              #0x6d2cd4  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
     // 0x72616c: r0 = Null
     //     0x72616c: mov             x0, NULL
     // 0x726170: LeaveFrame
@@ -1163,7 +1163,7 @@ class VideoCoachBridge extends Object {
     //     0x726174: ldp             fp, lr, [SP], #0x10
     // 0x726178: ret
     //     0x726178: ret             
-    // 0x72617c: r0 = InitLateStaticField(0xc3c) // [package:ballai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::_cached
+    // 0x72617c: r0 = InitLateStaticField(0xc3c) // [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::_cached
     //     0x72617c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x726180: ldr             x0, [x0, #0x1878]
     //     0x726184: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1217,7 +1217,7 @@ class VideoCoachBridge extends Object {
     // 0x72620c: mov             x1, x0
     // 0x726210: stur            x3, [fp, #-0x18]
     // 0x726214: r0 = lastShot()
-    //     0x726214: bl              #0x726870  ; [package:ballai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::lastShot
+    //     0x726214: bl              #0x726870  ; [package:kourtai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::lastShot
     // 0x726218: cmp             w0, NULL
     // 0x72621c: b.ne            #0x726228
     // 0x726220: r1 = Null
@@ -1285,7 +1285,7 @@ class VideoCoachBridge extends Object {
     // 0x7262c8: str             x16, [SP]
     // 0x7262cc: ldur            x2, [fp, #-8]
     // 0x7262d0: r0 = speechText()
-    //     0x7262d0: bl              #0x726348  ; [package:ballai/video_tracking/models/workout_setup/video_workout_callout_type.dart] VideoWorkoutCalloutType::speechText
+    //     0x7262d0: bl              #0x726348  ; [package:kourtai/video_tracking/models/workout_setup/video_workout_callout_type.dart] VideoWorkoutCalloutType::speechText
     // 0x7262d4: stur            x0, [fp, #-8]
     // 0x7262d8: LoadField: r1 = r0->field_7
     //     0x7262d8: ldur            w1, [x0, #7]
@@ -1297,7 +1297,7 @@ class VideoCoachBridge extends Object {
     //     0x7262e8: ldp             fp, lr, [SP], #0x10
     // 0x7262ec: ret
     //     0x7262ec: ret             
-    // 0x7262f0: r0 = InitLateStaticField(0xeec) // [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
+    // 0x7262f0: r0 = InitLateStaticField(0xeec) // [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
     //     0x7262f0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x7262f4: ldr             x0, [x0, #0x1dd8]
     //     0x7262f8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1311,7 +1311,7 @@ class VideoCoachBridge extends Object {
     // 0x726318: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x726318: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x72631c: r0 = speak()
-    //     0x72631c: bl              #0x6d2cd4  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
+    //     0x72631c: bl              #0x6d2cd4  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
     // 0x726320: r0 = Null
     //     0x726320: mov             x0, NULL
     // 0x726324: LeaveFrame
@@ -1401,14 +1401,14 @@ class VideoCoachBridge extends Object {
     //     0x732fc4: b.eq            #0x732fcc
     //     0x732fc8: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0x732fcc: r0 = userHasActiveSubscription()
-    //     0x732fcc: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0x732fcc: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0x732fd0: tbnz            w0, #4, #0x732fdc
     // 0x732fd4: r1 = true
     //     0x732fd4: add             x1, NULL, #0x20  ; true
     // 0x732fd8: b               #0x732fe8
     // 0x732fdc: ldur            x1, [fp, #-0xc0]
     // 0x732fe0: r0 = isAnalyzerWorkout()
-    //     0x732fe0: bl              #0x73e3e8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
+    //     0x732fe0: bl              #0x73e3e8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
     // 0x732fe4: mov             x1, x0
     // 0x732fe8: ldur            x0, [fp, #-0xb0]
     // 0x732fec: stur            x1, [fp, #-0xc8]
@@ -1470,7 +1470,7 @@ class VideoCoachBridge extends Object {
     //     0x733088: ldr             x4, [PP, #0x830]  ; [pp+0x830] List(7) [0, 0x2, 0x1, 0x1, "wrapWidth", 0x1, Null]
     // 0x73308c: r0 = debugPrintThrottled()
     //     0x73308c: bl              #0x5c96fc  ; [package:flutter/src/foundation/print.dart] ::debugPrintThrottled
-    // 0x733090: r0 = InitLateStaticField(0xf2c) // [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::instance
+    // 0x733090: r0 = InitLateStaticField(0xf2c) // [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::instance
     //     0x733090: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x733094: ldr             x0, [x0, #0x1e58]
     //     0x733098: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1509,7 +1509,7 @@ class VideoCoachBridge extends Object {
     //     0x733108: add             x4, PP, #0x28, lsl #12  ; [pp+0x28258] List(9) [0, 0x4, 0x2, 0x2, "drillTemplate", 0x3, "shots", 0x2, Null]
     //     0x73310c: ldr             x4, [x4, #0x258]
     // 0x733110: r0 = generateFull()
-    //     0x733110: bl              #0x73a814  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::generateFull
+    //     0x733110: bl              #0x73a814  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::generateFull
     // 0x733114: mov             x1, x0
     // 0x733118: stur            x1, [fp, #-0xc8]
     // 0x73311c: r0 = Await()
@@ -1530,7 +1530,7 @@ class VideoCoachBridge extends Object {
     //     0x733148: add             x4, PP, #0x28, lsl #12  ; [pp+0x28260] List(7) [0, 0x4, 0x1, 0x3, "drillTemplate", 0x3, Null]
     //     0x73314c: ldr             x4, [x4, #0x260]
     // 0x733150: r0 = generateTeaser()
-    //     0x733150: bl              #0x7331bc  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::generateTeaser
+    //     0x733150: bl              #0x7331bc  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::generateTeaser
     // 0x733154: mov             x1, x0
     // 0x733158: stur            x1, [fp, #-0xd0]
     // 0x73315c: r0 = Await()
@@ -1593,7 +1593,7 @@ class VideoCoachBridge extends Object {
     //     0x74d6c0: bl              #0xe540b0  ; InitLateFinalInstanceFieldStub
     // 0x74d6c4: mov             x1, x0
     // 0x74d6c8: r0 = disable()
-    //     0x74d6c8: bl              #0x74d714  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::disable
+    //     0x74d6c8: bl              #0x74d714  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::disable
     // 0x74d6cc: r0 = InitLateStaticField(0x62c) // [package:flutter/src/foundation/print.dart] ::debugPrint
     //     0x74d6cc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x74d6d0: ldr             x0, [x0, #0xc58]
@@ -1704,7 +1704,7 @@ class VideoCoachBridge extends Object {
     //     0x779618: bl              #0xe540b0  ; InitLateFinalInstanceFieldStub
     // 0x77961c: ldur            x2, [fp, #-0x18]
     // 0x779620: r1 = Function 'revertCommitIfShotWasSilent':.
-    //     0x779620: add             x1, PP, #0x28, lsl #12  ; [pp+0x28210] AnonymousClosure: (0x6d2528), in [package:ballai/video_tracking/analysis/coach/coach_decision_engine.dart] CoachDecisionEngine::revertCommitIfShotWasSilent (0x6d4e7c)
+    //     0x779620: add             x1, PP, #0x28, lsl #12  ; [pp+0x28210] AnonymousClosure: (0x6d2528), in [package:kourtai/video_tracking/analysis/coach/coach_decision_engine.dart] CoachDecisionEngine::revertCommitIfShotWasSilent (0x6d4e7c)
     //     0x779624: ldr             x1, [x1, #0x210]
     // 0x779628: stur            x0, [fp, #-8]
     // 0x77962c: r0 = AllocateClosure()
@@ -1764,7 +1764,7 @@ class VideoCoachBridge extends Object {
     // 0x95f3c4: mov             x1, x0
     // 0x95f3c8: ldur            x2, [fp, #-0x18]
     // 0x95f3cc: r0 = generateSessionReport()
-    //     0x95f3cc: bl              #0x95f3dc  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::generateSessionReport
+    //     0x95f3cc: bl              #0x95f3dc  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::generateSessionReport
     // 0x95f3d0: r0 = ReturnAsync()
     //     0x95f3d0: b               #0x5f1e3c  ; ReturnAsyncStub
     // 0x95f3d4: r0 = StackOverflowSharedWithoutFPURegs()
@@ -1806,7 +1806,7 @@ class VideoCoachBridge extends Object {
     // 0x9601a0: mov             x1, x0
     // 0x9601a4: ldur            x2, [fp, #-0x18]
     // 0x9601a8: r0 = generateBallyBreakdown()
-    //     0x9601a8: bl              #0x9601b8  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::generateBallyBreakdown
+    //     0x9601a8: bl              #0x9601b8  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::generateBallyBreakdown
     // 0x9601ac: r0 = ReturnAsync()
     //     0x9601ac: b               #0x5f1e3c  ; ReturnAsyncStub
     // 0x9601b0: r0 = StackOverflowSharedWithoutFPURegs()
@@ -1823,7 +1823,7 @@ class VideoCoachBridge extends Object {
     //     0x99a7d0: cmp             SP, x16
     //     0x99a7d4: b.ls            #0x99a7ec
     // 0x99a7d8: r0 = _enableInternal()
-    //     0x99a7d8: bl              #0x99a7f4  ; [package:ballai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::_enableInternal
+    //     0x99a7d8: bl              #0x99a7f4  ; [package:kourtai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::_enableInternal
     // 0x99a7dc: r0 = Null
     //     0x99a7dc: mov             x0, NULL
     // 0x99a7e0: LeaveFrame
@@ -1854,7 +1854,7 @@ class VideoCoachBridge extends Object {
     //     0x99a818: bl              #0x60afc8  ; InitAsyncStub
     // 0x99a81c: ldur            x1, [fp, #-0x10]
     // 0x99a820: r0 = refreshCoachAccess()
-    //     0x99a820: bl              #0x99acc4  ; [package:ballai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::refreshCoachAccess
+    //     0x99a820: bl              #0x99acc4  ; [package:kourtai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::refreshCoachAccess
     // 0x99a824: mov             x1, x0
     // 0x99a828: stur            x1, [fp, #-0x18]
     // 0x99a82c: r0 = Await()
@@ -1892,7 +1892,7 @@ class VideoCoachBridge extends Object {
     // 0x99a880: ArrayStore: r0[0] = r16  ; List_4
     //     0x99a880: stur            w16, [x0, #0x17]
     // 0x99a884: r0 = userHasActiveSubscription()
-    //     0x99a884: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0x99a884: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0x99a888: mov             x1, x0
     // 0x99a88c: ldur            x0, [fp, #-0x18]
     // 0x99a890: StoreField: r0->field_1b = r1
@@ -1923,7 +1923,7 @@ class VideoCoachBridge extends Object {
     // 0x99a8cc: DecompressPointer r1
     //     0x99a8cc: add             x1, x1, HEAP, lsl #32
     // 0x99a8d0: r0 = resetSession()
-    //     0x99a8d0: bl              #0x99ac80  ; [package:ballai/video_tracking/analysis/coach/coach_decision_engine.dart] CoachDecisionEngine::resetSession
+    //     0x99a8d0: bl              #0x99ac80  ; [package:kourtai/video_tracking/analysis/coach/coach_decision_engine.dart] CoachDecisionEngine::resetSession
     // 0x99a8d4: ldur            x0, [fp, #-0x10]
     // 0x99a8d8: LoadField: r1 = r0->field_7
     //     0x99a8d8: ldur            w1, [x0, #7]
@@ -1959,10 +1959,10 @@ class VideoCoachBridge extends Object {
     //     0x99a924: bl              #0xe540b0  ; InitLateFinalInstanceFieldStub
     // 0x99a928: mov             x1, x0
     // 0x99a92c: r0 = enable()
-    //     0x99a92c: bl              #0x99ab24  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::enable
+    //     0x99a92c: bl              #0x99ab24  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::enable
     // 0x99a930: ldur            x1, [fp, #-0x10]
     // 0x99a934: r0 = _refreshAudioFeedbackFrequency()
-    //     0x99a934: bl              #0x99a99c  ; [package:ballai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::_refreshAudioFeedbackFrequency
+    //     0x99a934: bl              #0x99a99c  ; [package:kourtai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::_refreshAudioFeedbackFrequency
     // 0x99a938: mov             x1, x0
     // 0x99a93c: stur            x1, [fp, #-0x18]
     // 0x99a940: r0 = Await()
@@ -2024,7 +2024,7 @@ class VideoCoachBridge extends Object {
     //     0x99a9bc: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x99a9c0: bl              #0x60afc8  ; InitAsyncStub
     // 0x99a9c4: r0 = load()
-    //     0x99a9c4: bl              #0x99aa04  ; [package:ballai/video_tracking/models/audio_feedback_frequency.dart] AudioFeedbackFrequency::load
+    //     0x99a9c4: bl              #0x99aa04  ; [package:kourtai/video_tracking/models/audio_feedback_frequency.dart] AudioFeedbackFrequency::load
     // 0x99a9c8: mov             x1, x0
     // 0x99a9cc: stur            x1, [fp, #-0x18]
     // 0x99a9d0: r0 = Await()
@@ -2064,13 +2064,13 @@ class VideoCoachBridge extends Object {
     //     0x99ace4: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x99ace8: bl              #0x60afc8  ; InitAsyncStub
     // 0x99acec: r0 = warmCache()
-    //     0x99acec: bl              #0x99ad28  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_ai_coach.dart] DefaultsVideoWorkoutAICoach::warmCache
+    //     0x99acec: bl              #0x99ad28  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_ai_coach.dart] DefaultsVideoWorkoutAICoach::warmCache
     // 0x99acf0: mov             x1, x0
     // 0x99acf4: stur            x1, [fp, #-0x18]
     // 0x99acf8: r0 = Await()
     //     0x99acf8: bl              #0x60ad4c  ; AwaitStub
     // 0x99acfc: r0 = userHasActiveSubscription()
-    //     0x99acfc: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0x99acfc: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0x99ad00: tbnz            w0, #4, #0x99ad0c
     // 0x99ad04: r2 = true
     //     0x99ad04: add             x2, NULL, #0x20  ; true
@@ -2107,7 +2107,7 @@ class VideoCoachBridge extends Object {
     //     0xadd67c: bl              #0x60afc8  ; InitAsyncStub
     // 0xadd680: ldur            x1, [fp, #-0x10]
     // 0xadd684: r0 = _refreshAudioFeedbackFrequency()
-    //     0xadd684: bl              #0x99a99c  ; [package:ballai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::_refreshAudioFeedbackFrequency
+    //     0xadd684: bl              #0x99a99c  ; [package:kourtai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::_refreshAudioFeedbackFrequency
     // 0xadd688: mov             x1, x0
     // 0xadd68c: stur            x1, [fp, #-0x10]
     // 0xadd690: r0 = Await()

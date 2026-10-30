@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart
+// lib: , url: package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart
 
 // class id: 1048799, size: 0x8
 class :: {
@@ -44,7 +44,7 @@ class :: {
     // 0x9910f4: ldur            x2, [fp, #-0x28]
     // 0x9910f8: stur            x3, [fp, #-0x10]
     // 0x9910fc: r1 = Function '<anonymous closure>': static.
-    //     0x9910fc: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a418] AnonymousClosure: static (0x991154), in [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] ::showActivityWeekPickerSheet (0x991094)
+    //     0x9910fc: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a418] AnonymousClosure: static (0x991154), in [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] ::showActivityWeekPickerSheet (0x991094)
     //     0x991100: ldr             x1, [x1, #0x418]
     // 0x991104: r0 = AllocateClosure()
     //     0x991104: bl              #0xe553e0  ; AllocateClosureStub
@@ -302,7 +302,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x942240: bl              #0x5fac30  ; [dart:core] DateTime::DateTime
     // 0x942244: ldur            x1, [fp, #-0x10]
     // 0x942248: r0 = DateTimeWeekRange.getWeekStartAndEnd()
-    //     0x942248: bl              #0x5fb6d0  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
+    //     0x942248: bl              #0x5fb6d0  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
     // 0x94224c: mov             x2, x0
     // 0x942250: mov             x0, x2
     // 0x942254: ldur            x2, [fp, #-8]
@@ -441,7 +441,7 @@ class _WeekPickerViewState extends State<dynamic> {
     // 0x9d501c: cmp             w1, w16
     // 0x9d5020: b.eq            #0x9d5bc8
     // 0x9d5024: r0 = _monthYearLabel()
-    //     0x9d5024: bl              #0x9d6254  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_monthYearLabel
+    //     0x9d5024: bl              #0x9d6254  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_monthYearLabel
     // 0x9d5028: ldur            x2, [fp, #-0x18]
     // 0x9d502c: stur            x0, [fp, #-0x10]
     // 0x9d5030: LoadField: r1 = r2->field_13
@@ -464,8 +464,8 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d5054: ldur            w1, [x2, #0x13]
     // 0x9d5058: DecompressPointer r1
     //     0x9d5058: add             x1, x1, HEAP, lsl #32
-    // 0x9d505c: r0 = BallAiThemeContext.ballAiBackButtonFill()
-    //     0x9d505c: bl              #0x9d6208  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiBackButtonFill
+    // 0x9d505c: r0 = KourtAiThemeContext.kourtAiBackButtonFill()
+    //     0x9d505c: bl              #0x9d6208  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiBackButtonFill
     // 0x9d5060: stur            x0, [fp, #-0x28]
     // 0x9d5064: r0 = Color()
     //     0x9d5064: bl              #0x5edc90  ; AllocateColorStub -> Color (size=0x2c)
@@ -504,8 +504,8 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d50b0: ldur            w1, [x2, #0x13]
     // 0x9d50b4: DecompressPointer r1
     //     0x9d50b4: add             x1, x1, HEAP, lsl #32
-    // 0x9d50b8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0x9d50b8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0x9d50b8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0x9d50b8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0x9d50bc: stur            x0, [fp, #-0x40]
     // 0x9d50c0: r0 = Icon()
     //     0x9d50c0: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -543,7 +543,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d5118: stur            w0, [x3, #0xb]
     // 0x9d511c: ldur            x2, [fp, #-0x18]
     // 0x9d5120: r1 = Function '<anonymous closure>':.
-    //     0x9d5120: add             x1, PP, #0x38, lsl #12  ; [pp+0x38498] AnonymousClosure: (0x9d7480), in [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
+    //     0x9d5120: add             x1, PP, #0x38, lsl #12  ; [pp+0x38498] AnonymousClosure: (0x9d7480), in [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
     //     0x9d5124: ldr             x1, [x1, #0x498]
     // 0x9d5128: r0 = AllocateClosure()
     //     0x9d5128: bl              #0xe553e0  ; AllocateClosureStub
@@ -636,15 +636,15 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d51f8: add             x1, PP, #0x38, lsl #12  ; [pp+0x384a0] "Select a week"
     //     0x9d51fc: ldr             x1, [x1, #0x4a0]
     // 0x9d5200: r0 = L()
-    //     0x9d5200: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9d5200: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9d5204: ldur            x2, [fp, #-0x18]
     // 0x9d5208: stur            x0, [fp, #-0x30]
     // 0x9d520c: LoadField: r1 = r2->field_13
     //     0x9d520c: ldur            w1, [x2, #0x13]
     // 0x9d5210: DecompressPointer r1
     //     0x9d5210: add             x1, x1, HEAP, lsl #32
-    // 0x9d5214: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0x9d5214: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0x9d5214: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0x9d5214: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0x9d5218: stur            x0, [fp, #-0x38]
     // 0x9d521c: r0 = TextStyle()
     //     0x9d521c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -903,7 +903,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d549c: stur            w0, [x3, #0xb]
     // 0x9d54a0: ldur            x2, [fp, #-8]
     // 0x9d54a4: r1 = Function '_openMonthYearPicker@1005132464':.
-    //     0x9d54a4: add             x1, PP, #0x38, lsl #12  ; [pp+0x384b8] AnonymousClosure: (0x9d70f4), in [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_openMonthYearPicker (0x9d712c)
+    //     0x9d54a4: add             x1, PP, #0x38, lsl #12  ; [pp+0x384b8] AnonymousClosure: (0x9d70f4), in [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_openMonthYearPicker (0x9d712c)
     //     0x9d54a8: ldr             x1, [x1, #0x4b8]
     // 0x9d54ac: r0 = AllocateClosure()
     //     0x9d54ac: bl              #0xe553e0  ; AllocateClosureStub
@@ -972,11 +972,11 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d5540: stur            w4, [x2, #0x13]
     // 0x9d5544: ldur            x1, [fp, #-8]
     // 0x9d5548: r0 = _canGoPrevMonth()
-    //     0x9d5548: bl              #0x9d5dd0  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_canGoPrevMonth
+    //     0x9d5548: bl              #0x9d5dd0  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_canGoPrevMonth
     // 0x9d554c: tbnz            w0, #4, #0x9d5564
     // 0x9d5550: ldur            x2, [fp, #-0x18]
     // 0x9d5554: r1 = Function '<anonymous closure>':.
-    //     0x9d5554: add             x1, PP, #0x38, lsl #12  ; [pp+0x384c0] AnonymousClosure: (0x9d70a8), in [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::build (0x9d4fd0)
+    //     0x9d5554: add             x1, PP, #0x38, lsl #12  ; [pp+0x384c0] AnonymousClosure: (0x9d70a8), in [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::build (0x9d4fd0)
     //     0x9d5558: ldr             x1, [x1, #0x4c0]
     // 0x9d555c: r0 = AllocateClosure()
     //     0x9d555c: bl              #0xe553e0  ; AllocateClosureStub
@@ -986,7 +986,7 @@ class _WeekPickerViewState extends State<dynamic> {
     // 0x9d5568: ldur            x1, [fp, #-8]
     // 0x9d556c: stur            x0, [fp, #-0x30]
     // 0x9d5570: r0 = _canGoPrevMonth()
-    //     0x9d5570: bl              #0x9d5dd0  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_canGoPrevMonth
+    //     0x9d5570: bl              #0x9d5dd0  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_canGoPrevMonth
     // 0x9d5574: tbnz            w0, #4, #0x9d5584
     // 0x9d5578: r1 = Instance_Color
     //     0x9d5578: add             x1, PP, #0x15, lsl #12  ; [pp+0x151c0] Obj!Color@d2a0d1
@@ -1040,11 +1040,11 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d55f8: stur            w4, [x2, #0x6b]
     // 0x9d55fc: ldur            x1, [fp, #-8]
     // 0x9d5600: r0 = _canGoNextMonth()
-    //     0x9d5600: bl              #0x9d5be8  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_canGoNextMonth
+    //     0x9d5600: bl              #0x9d5be8  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_canGoNextMonth
     // 0x9d5604: tbnz            w0, #4, #0x9d561c
     // 0x9d5608: ldur            x2, [fp, #-0x18]
     // 0x9d560c: r1 = Function '<anonymous closure>':.
-    //     0x9d560c: add             x1, PP, #0x38, lsl #12  ; [pp+0x384d0] AnonymousClosure: (0x9d6e30), in [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::build (0x9d4fd0)
+    //     0x9d560c: add             x1, PP, #0x38, lsl #12  ; [pp+0x384d0] AnonymousClosure: (0x9d6e30), in [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::build (0x9d4fd0)
     //     0x9d5610: ldr             x1, [x1, #0x4d0]
     // 0x9d5614: r0 = AllocateClosure()
     //     0x9d5614: bl              #0xe553e0  ; AllocateClosureStub
@@ -1054,7 +1054,7 @@ class _WeekPickerViewState extends State<dynamic> {
     // 0x9d5620: ldur            x1, [fp, #-8]
     // 0x9d5624: stur            x0, [fp, #-0x30]
     // 0x9d5628: r0 = _canGoNextMonth()
-    //     0x9d5628: bl              #0x9d5be8  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_canGoNextMonth
+    //     0x9d5628: bl              #0x9d5be8  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_canGoNextMonth
     // 0x9d562c: tbnz            w0, #4, #0x9d563c
     // 0x9d5630: r3 = Instance_Color
     //     0x9d5630: add             x3, PP, #0x15, lsl #12  ; [pp+0x151c0] Obj!Color@d2a0d1
@@ -1437,7 +1437,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d5a08: stur            w0, [x3, #0xb]
     // 0x9d5a0c: ldur            x2, [fp, #-0x18]
     // 0x9d5a10: r1 = Function '<anonymous closure>':.
-    //     0x9d5a10: add             x1, PP, #0x38, lsl #12  ; [pp+0x384f0] AnonymousClosure: (0x9d65c0), in [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::build (0x9d4fd0)
+    //     0x9d5a10: add             x1, PP, #0x38, lsl #12  ; [pp+0x384f0] AnonymousClosure: (0x9d65c0), in [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::build (0x9d4fd0)
     //     0x9d5a14: ldr             x1, [x1, #0x4f0]
     // 0x9d5a18: r0 = AllocateClosure()
     //     0x9d5a18: bl              #0xe553e0  ; AllocateClosureStub
@@ -1867,7 +1867,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d5e7c: bl              #0x5fac30  ; [dart:core] DateTime::DateTime
     // 0x9d5e80: ldur            x1, [fp, #-8]
     // 0x9d5e84: r0 = _earliestMonth()
-    //     0x9d5e84: bl              #0x9d5ebc  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_earliestMonth
+    //     0x9d5e84: bl              #0x9d5ebc  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_earliestMonth
     // 0x9d5e88: ldur            x1, [fp, #-0x20]
     // 0x9d5e8c: mov             x2, x0
     // 0x9d5e90: r0 = isBefore()
@@ -1904,7 +1904,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d5ed8: b.ls            #0x9d5f94
     // 0x9d5edc: mov             x1, x0
     // 0x9d5ee0: r0 = _earliestDay()
-    //     0x9d5ee0: bl              #0x9d5fa4  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_earliestDay
+    //     0x9d5ee0: bl              #0x9d5fa4  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_earliestDay
     // 0x9d5ee4: mov             x1, x0
     // 0x9d5ee8: r0 = _parts()
     //     0x9d5ee8: bl              #0x5fa07c  ; [dart:core] DateTime::_parts
@@ -1925,7 +1925,7 @@ class _WeekPickerViewState extends State<dynamic> {
     // 0x9d5f10: ldur            x1, [fp, #-8]
     // 0x9d5f14: stur            x0, [fp, #-0x10]
     // 0x9d5f18: r0 = _earliestDay()
-    //     0x9d5f18: bl              #0x9d5fa4  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_earliestDay
+    //     0x9d5f18: bl              #0x9d5fa4  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_earliestDay
     // 0x9d5f1c: mov             x1, x0
     // 0x9d5f20: r0 = _parts()
     //     0x9d5f20: bl              #0x5fa07c  ; [dart:core] DateTime::_parts
@@ -2110,7 +2110,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d60fc: bl              #0x5fac30  ; [dart:core] DateTime::DateTime
     // 0x9d6100: ldur            x1, [fp, #-0x20]
     // 0x9d6104: r0 = DateTimeWeekRange.activityWeekStart()
-    //     0x9d6104: bl              #0x5fab38  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
+    //     0x9d6104: bl              #0x5fab38  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
     // 0x9d6108: LeaveFrame
     //     0x9d6108: mov             SP, fp
     //     0x9d610c: ldp             fp, lr, [SP], #0x10
@@ -2176,7 +2176,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d61cc: bl              #0x5fac30  ; [dart:core] DateTime::DateTime
     // 0x9d61d0: ldur            x1, [fp, #-0x20]
     // 0x9d61d4: r0 = DateTimeWeekRange.activityWeekStart()
-    //     0x9d61d4: bl              #0x5fab38  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
+    //     0x9d61d4: bl              #0x5fab38  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
     // 0x9d61d8: LeaveFrame
     //     0x9d61d8: mov             SP, fp
     //     0x9d61dc: ldp             fp, lr, [SP], #0x10
@@ -2212,7 +2212,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d6274: add             x1, PP, #0x27, lsl #12  ; [pp+0x27338] "Jan"
     //     0x9d6278: ldr             x1, [x1, #0x338]
     // 0x9d627c: r0 = L()
-    //     0x9d627c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9d627c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9d6280: r1 = <String>
     //     0x9d6280: ldr             x1, [PP, #0x850]  ; [pp+0x850] TypeArguments: <String>
     // 0x9d6284: r2 = 24
@@ -2229,7 +2229,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d62a0: add             x1, PP, #0x27, lsl #12  ; [pp+0x27340] "Feb"
     //     0x9d62a4: ldr             x1, [x1, #0x340]
     // 0x9d62a8: r0 = L()
-    //     0x9d62a8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9d62a8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9d62ac: ldur            x1, [fp, #-0x18]
     // 0x9d62b0: ArrayStore: r1[1] = r0  ; List_4
     //     0x9d62b0: add             x25, x1, #0x13
@@ -2245,7 +2245,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d62d4: add             x1, PP, #0x27, lsl #12  ; [pp+0x27348] "Mar"
     //     0x9d62d8: ldr             x1, [x1, #0x348]
     // 0x9d62dc: r0 = L()
-    //     0x9d62dc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9d62dc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9d62e0: ldur            x1, [fp, #-0x18]
     // 0x9d62e4: ArrayStore: r1[2] = r0  ; List_4
     //     0x9d62e4: add             x25, x1, #0x17
@@ -2261,7 +2261,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d6308: add             x1, PP, #0x27, lsl #12  ; [pp+0x27350] "Apr"
     //     0x9d630c: ldr             x1, [x1, #0x350]
     // 0x9d6310: r0 = L()
-    //     0x9d6310: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9d6310: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9d6314: ldur            x1, [fp, #-0x18]
     // 0x9d6318: ArrayStore: r1[3] = r0  ; List_4
     //     0x9d6318: add             x25, x1, #0x1b
@@ -2277,7 +2277,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d633c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27358] "May"
     //     0x9d6340: ldr             x1, [x1, #0x358]
     // 0x9d6344: r0 = L()
-    //     0x9d6344: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9d6344: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9d6348: ldur            x1, [fp, #-0x18]
     // 0x9d634c: ArrayStore: r1[4] = r0  ; List_4
     //     0x9d634c: add             x25, x1, #0x1f
@@ -2293,7 +2293,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d6370: add             x1, PP, #0x27, lsl #12  ; [pp+0x27360] "Jun"
     //     0x9d6374: ldr             x1, [x1, #0x360]
     // 0x9d6378: r0 = L()
-    //     0x9d6378: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9d6378: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9d637c: ldur            x1, [fp, #-0x18]
     // 0x9d6380: ArrayStore: r1[5] = r0  ; List_4
     //     0x9d6380: add             x25, x1, #0x23
@@ -2309,7 +2309,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d63a4: add             x1, PP, #0x27, lsl #12  ; [pp+0x27368] "Jul"
     //     0x9d63a8: ldr             x1, [x1, #0x368]
     // 0x9d63ac: r0 = L()
-    //     0x9d63ac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9d63ac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9d63b0: ldur            x1, [fp, #-0x18]
     // 0x9d63b4: ArrayStore: r1[6] = r0  ; List_4
     //     0x9d63b4: add             x25, x1, #0x27
@@ -2325,7 +2325,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d63d8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27370] "Aug"
     //     0x9d63dc: ldr             x1, [x1, #0x370]
     // 0x9d63e0: r0 = L()
-    //     0x9d63e0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9d63e0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9d63e4: ldur            x1, [fp, #-0x18]
     // 0x9d63e8: ArrayStore: r1[7] = r0  ; List_4
     //     0x9d63e8: add             x25, x1, #0x2b
@@ -2341,7 +2341,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d640c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27378] "Sep"
     //     0x9d6410: ldr             x1, [x1, #0x378]
     // 0x9d6414: r0 = L()
-    //     0x9d6414: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9d6414: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9d6418: ldur            x1, [fp, #-0x18]
     // 0x9d641c: ArrayStore: r1[8] = r0  ; List_4
     //     0x9d641c: add             x25, x1, #0x2f
@@ -2357,7 +2357,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d6440: add             x1, PP, #0x27, lsl #12  ; [pp+0x27380] "Oct"
     //     0x9d6444: ldr             x1, [x1, #0x380]
     // 0x9d6448: r0 = L()
-    //     0x9d6448: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9d6448: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9d644c: ldur            x1, [fp, #-0x18]
     // 0x9d6450: ArrayStore: r1[9] = r0  ; List_4
     //     0x9d6450: add             x25, x1, #0x33
@@ -2373,7 +2373,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d6474: add             x1, PP, #0x27, lsl #12  ; [pp+0x27388] "Nov"
     //     0x9d6478: ldr             x1, [x1, #0x388]
     // 0x9d647c: r0 = L()
-    //     0x9d647c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9d647c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9d6480: ldur            x1, [fp, #-0x18]
     // 0x9d6484: ArrayStore: r1[10] = r0  ; List_4
     //     0x9d6484: add             x25, x1, #0x37
@@ -2389,7 +2389,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d64a8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27390] "Dec"
     //     0x9d64ac: ldr             x1, [x1, #0x390]
     // 0x9d64b0: r0 = L()
-    //     0x9d64b0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9d64b0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9d64b4: ldur            x1, [fp, #-0x18]
     // 0x9d64b8: ArrayStore: r1[11] = r0  ; List_4
     //     0x9d64b8: add             x25, x1, #0x3b
@@ -2522,7 +2522,7 @@ class _WeekPickerViewState extends State<dynamic> {
     // 0x9d6624: b.eq            #0x9d66e0
     // 0x9d6628: stur            x0, [fp, #-8]
     // 0x9d662c: r0 = _todayDate()
-    //     0x9d662c: bl              #0x9d66f8  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_todayDate
+    //     0x9d662c: bl              #0x9d66f8  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_todayDate
     // 0x9d6630: mov             x2, x0
     // 0x9d6634: ldur            x0, [fp, #-0x10]
     // 0x9d6638: stur            x2, [fp, #-0x18]
@@ -2531,7 +2531,7 @@ class _WeekPickerViewState extends State<dynamic> {
     // 0x9d6640: DecompressPointer r1
     //     0x9d6640: add             x1, x1, HEAP, lsl #32
     // 0x9d6644: r0 = _earliestDay()
-    //     0x9d6644: bl              #0x9d5fa4  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_earliestDay
+    //     0x9d6644: bl              #0x9d5fa4  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_earliestDay
     // 0x9d6648: mov             x1, x0
     // 0x9d664c: ldur            x0, [fp, #-0x10]
     // 0x9d6650: stur            x1, [fp, #-0x28]
@@ -2555,7 +2555,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d6680: stur            w0, [x3, #0x13]
     // 0x9d6684: ldur            x2, [fp, #-0x20]
     // 0x9d6688: r1 = Function '_isInSelectedWeek@1005132464':.
-    //     0x9d6688: add             x1, PP, #0x38, lsl #12  ; [pp+0x38508] AnonymousClosure: (0x9d6b3c), in [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_isInSelectedWeek (0x9d6b78)
+    //     0x9d6688: add             x1, PP, #0x38, lsl #12  ; [pp+0x38508] AnonymousClosure: (0x9d6b3c), in [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_isInSelectedWeek (0x9d6b78)
     //     0x9d668c: ldr             x1, [x1, #0x508]
     // 0x9d6690: r0 = AllocateClosure()
     //     0x9d6690: bl              #0xe553e0  ; AllocateClosureStub
@@ -2565,7 +2565,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d669c: stur            w1, [x0, #0x17]
     // 0x9d66a0: ldur            x2, [fp, #-0x20]
     // 0x9d66a4: r1 = Function '_onDayTapped@1005132464':.
-    //     0x9d66a4: add             x1, PP, #0x38, lsl #12  ; [pp+0x38510] AnonymousClosure: (0x9d6880), in [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_onDayTapped (0x9d68bc)
+    //     0x9d66a4: add             x1, PP, #0x38, lsl #12  ; [pp+0x38510] AnonymousClosure: (0x9d6880), in [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_onDayTapped (0x9d68bc)
     //     0x9d66a8: ldr             x1, [x1, #0x510]
     // 0x9d66ac: r0 = AllocateClosure()
     //     0x9d66ac: bl              #0xe553e0  ; AllocateClosureStub
@@ -2759,7 +2759,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d689c: b.ls            #0x9d68b4
     // 0x9d68a0: ldr             x2, [fp, #0x10]
     // 0x9d68a4: r0 = _onDayTapped()
-    //     0x9d68a4: bl              #0x9d68bc  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_onDayTapped
+    //     0x9d68a4: bl              #0x9d68bc  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_onDayTapped
     // 0x9d68a8: LeaveFrame
     //     0x9d68a8: mov             SP, fp
     //     0x9d68ac: ldp             fp, lr, [SP], #0x10
@@ -2844,7 +2844,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d6998: bl              #0x5fac30  ; [dart:core] DateTime::DateTime
     // 0x9d699c: ldur            x1, [fp, #-8]
     // 0x9d69a0: r0 = _todayDate()
-    //     0x9d69a0: bl              #0x9d66f8  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_todayDate
+    //     0x9d69a0: bl              #0x9d66f8  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_todayDate
     // 0x9d69a4: ldur            x1, [fp, #-0x30]
     // 0x9d69a8: mov             x2, x0
     // 0x9d69ac: r0 = isAfter()
@@ -2852,7 +2852,7 @@ class _WeekPickerViewState extends State<dynamic> {
     // 0x9d69b0: tbz             w0, #4, #0x9d69cc
     // 0x9d69b4: ldur            x1, [fp, #-8]
     // 0x9d69b8: r0 = _earliestDay()
-    //     0x9d69b8: bl              #0x9d5fa4  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_earliestDay
+    //     0x9d69b8: bl              #0x9d5fa4  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_earliestDay
     // 0x9d69bc: ldur            x1, [fp, #-0x30]
     // 0x9d69c0: mov             x2, x0
     // 0x9d69c4: r0 = isBefore()
@@ -2868,7 +2868,7 @@ class _WeekPickerViewState extends State<dynamic> {
     // 0x9d69dc: ldur            x0, [fp, #-8]
     // 0x9d69e0: ldur            x1, [fp, #-0x30]
     // 0x9d69e4: r0 = DateTimeWeekRange.getWeekStartAndEnd()
-    //     0x9d69e4: bl              #0x5fb6d0  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
+    //     0x9d69e4: bl              #0x5fb6d0  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
     // 0x9d69e8: mov             x2, x0
     // 0x9d69ec: stur            x2, [fp, #-0x28]
     // 0x9d69f0: mov             x3, x1
@@ -3000,7 +3000,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d6b58: b.ls            #0x9d6b70
     // 0x9d6b5c: ldr             x2, [fp, #0x10]
     // 0x9d6b60: r0 = _isInSelectedWeek()
-    //     0x9d6b60: bl              #0x9d6b78  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_isInSelectedWeek
+    //     0x9d6b60: bl              #0x9d6b78  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_isInSelectedWeek
     // 0x9d6b64: LeaveFrame
     //     0x9d6b64: mov             SP, fp
     //     0x9d6b68: ldp             fp, lr, [SP], #0x10
@@ -3085,7 +3085,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d6c54: bl              #0x5fac30  ; [dart:core] DateTime::DateTime
     // 0x9d6c58: ldur            x1, [fp, #-0x30]
     // 0x9d6c5c: r0 = DateTimeWeekRange.getWeekStartAndEnd()
-    //     0x9d6c5c: bl              #0x5fb6d0  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
+    //     0x9d6c5c: bl              #0x5fb6d0  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
     // 0x9d6c60: mov             x2, x0
     // 0x9d6c64: stur            x2, [fp, #-0x10]
     // 0x9d6c68: r0 = LoadClassIdInstr(r2)
@@ -3260,7 +3260,7 @@ class _WeekPickerViewState extends State<dynamic> {
     // 0x9d6e5c: r2 = 1
     //     0x9d6e5c: mov             x2, #1
     // 0x9d6e60: r0 = _goMonth()
-    //     0x9d6e60: bl              #0x9d6e7c  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_goMonth
+    //     0x9d6e60: bl              #0x9d6e7c  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_goMonth
     // 0x9d6e64: r0 = Null
     //     0x9d6e64: mov             x0, NULL
     // 0x9d6e68: LeaveFrame
@@ -3307,7 +3307,7 @@ class _WeekPickerViewState extends State<dynamic> {
     // 0x9d6ed0: tbz             x4, #0x3f, #0x9d6ef0
     // 0x9d6ed4: mov             x1, x2
     // 0x9d6ed8: r0 = _canGoPrevMonth()
-    //     0x9d6ed8: bl              #0x9d5dd0  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_canGoPrevMonth
+    //     0x9d6ed8: bl              #0x9d5dd0  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_canGoPrevMonth
     // 0x9d6edc: tbz             w0, #4, #0x9d6ef0
     // 0x9d6ee0: r0 = Null
     //     0x9d6ee0: mov             x0, NULL
@@ -3329,7 +3329,7 @@ class _WeekPickerViewState extends State<dynamic> {
     // 0x9d6f0c: b.le            #0x9d6f2c
     // 0x9d6f10: ldur            x1, [fp, #-8]
     // 0x9d6f14: r0 = _canGoNextMonth()
-    //     0x9d6f14: bl              #0x9d5be8  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_canGoNextMonth
+    //     0x9d6f14: bl              #0x9d5be8  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_canGoNextMonth
     // 0x9d6f18: tbz             w0, #4, #0x9d6f2c
     // 0x9d6f1c: r0 = Null
     //     0x9d6f1c: mov             x0, NULL
@@ -3340,7 +3340,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d6f28: ret             
     // 0x9d6f2c: ldur            x2, [fp, #-0x18]
     // 0x9d6f30: r1 = Function '<anonymous closure>':.
-    //     0x9d6f30: add             x1, PP, #0x38, lsl #12  ; [pp+0x38520] AnonymousClosure: (0x9d6f60), in [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_goMonth (0x9d6e7c)
+    //     0x9d6f30: add             x1, PP, #0x38, lsl #12  ; [pp+0x38520] AnonymousClosure: (0x9d6f60), in [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_goMonth (0x9d6e7c)
     //     0x9d6f34: ldr             x1, [x1, #0x520]
     // 0x9d6f38: r0 = AllocateClosure()
     //     0x9d6f38: bl              #0xe553e0  ; AllocateClosureStub
@@ -3501,7 +3501,7 @@ class _WeekPickerViewState extends State<dynamic> {
     // 0x9d70d4: r2 = -1
     //     0x9d70d4: mov             x2, #-1
     // 0x9d70d8: r0 = _goMonth()
-    //     0x9d70d8: bl              #0x9d6e7c  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_goMonth
+    //     0x9d70d8: bl              #0x9d6e7c  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_goMonth
     // 0x9d70dc: r0 = Null
     //     0x9d70dc: mov             x0, NULL
     // 0x9d70e0: LeaveFrame
@@ -3528,7 +3528,7 @@ class _WeekPickerViewState extends State<dynamic> {
     //     0x9d710c: cmp             SP, x16
     //     0x9d7110: b.ls            #0x9d7124
     // 0x9d7114: r0 = _openMonthYearPicker()
-    //     0x9d7114: bl              #0x9d712c  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_openMonthYearPicker
+    //     0x9d7114: bl              #0x9d712c  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_openMonthYearPicker
     // 0x9d7118: LeaveFrame
     //     0x9d7118: mov             SP, fp
     //     0x9d711c: ldp             fp, lr, [SP], #0x10
@@ -3583,7 +3583,7 @@ class _WeekPickerViewState extends State<dynamic> {
     // 0x9d7198: mov             x1, x0
     // 0x9d719c: stur            x3, [fp, #-0x20]
     // 0x9d71a0: r0 = _earliestMonth()
-    //     0x9d71a0: bl              #0x9d5ebc  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_earliestMonth
+    //     0x9d71a0: bl              #0x9d5ebc  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_earliestMonth
     // 0x9d71a4: stur            x0, [fp, #-0x30]
     // 0x9d71a8: r0 = DateTime()
     //     0x9d71a8: bl              #0x5feb08  ; AllocateDateTimeStub -> DateTime (size=0x18)
@@ -3679,7 +3679,7 @@ class _WeekPickerViewState extends State<dynamic> {
     // 0x9d72a0: ldur            x3, [fp, #-0x20]
     // 0x9d72a4: ldur            x5, [fp, #-0x38]
     // 0x9d72a8: r0 = showActivityMonthYearPickerSheet()
-    //     0x9d72a8: bl              #0x9d7344  ; [package:ballai/automatic/views/components/home/activity/input/activity_month_year_picker_sheet.dart] ::showActivityMonthYearPickerSheet
+    //     0x9d72a8: bl              #0x9d7344  ; [package:kourtai/automatic/views/components/home/activity/input/activity_month_year_picker_sheet.dart] ::showActivityMonthYearPickerSheet
     // 0x9d72ac: mov             x1, x0
     // 0x9d72b0: stur            x1, [fp, #-0x20]
     // 0x9d72b4: r0 = Await()
@@ -3709,7 +3709,7 @@ class _WeekPickerViewState extends State<dynamic> {
     // 0x9d7300: r0 = ReturnAsyncNotFuture()
     //     0x9d7300: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x9d7304: r1 = Function '<anonymous closure>':.
-    //     0x9d7304: add             x1, PP, #0x38, lsl #12  ; [pp+0x38528] AnonymousClosure: (0x8e5cc8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
+    //     0x9d7304: add             x1, PP, #0x38, lsl #12  ; [pp+0x38528] AnonymousClosure: (0x8e5cc8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
     //     0x9d7308: ldr             x1, [x1, #0x528]
     // 0x9d730c: r0 = AllocateClosure()
     //     0x9d730c: bl              #0xe553e0  ; AllocateClosureStub
@@ -3795,7 +3795,7 @@ class _MonthGrid extends StatelessWidget {
     //     0xbb1f34: stur            w0, [x2, #0xf]
     // 0xbb1f38: mov             x1, x0
     // 0xbb1f3c: r0 = _gridDates()
-    //     0xbb1f3c: bl              #0xbb2164  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _MonthGrid::_gridDates
+    //     0xbb1f3c: bl              #0xbb2164  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _MonthGrid::_gridDates
     // 0xbb1f40: mov             x5, x0
     // 0xbb1f44: ldur            x4, [fp, #-0x10]
     // 0xbb1f48: stur            x5, [fp, #-0x18]
@@ -3922,7 +3922,7 @@ class _MonthGrid extends StatelessWidget {
     // 0xbb20b4: ldur            x2, [fp, #-0x10]
     // 0xbb20b8: stur            x5, [fp, #-0x20]
     // 0xbb20bc: r1 = Function '<anonymous closure>':.
-    //     0xbb20bc: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cbc8] AnonymousClosure: (0xbb2358), in [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _MonthGrid::build (0xbb1f04)
+    //     0xbb20bc: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cbc8] AnonymousClosure: (0xbb2358), in [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _MonthGrid::build (0xbb1f04)
     //     0xbb20c0: ldr             x1, [x1, #0xbc8]
     // 0xbb20c4: r0 = AllocateClosure()
     //     0xbb20c4: bl              #0xe553e0  ; AllocateClosureStub
@@ -4301,7 +4301,7 @@ class _MonthGrid extends StatelessWidget {
     //     0xbb24d0: add             x1, x1, HEAP, lsl #32
     // 0xbb24d4: ldur            x2, [fp, #-0x10]
     // 0xbb24d8: r0 = _isInSelectedWeek()
-    //     0xbb24d8: bl              #0x9d6b78  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_isInSelectedWeek
+    //     0xbb24d8: bl              #0x9d6b78  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_isInSelectedWeek
     // 0xbb24dc: mov             x3, x0
     // 0xbb24e0: ldur            x2, [fp, #-0x10]
     // 0xbb24e4: stur            x3, [fp, #-0x40]
@@ -4449,8 +4449,8 @@ class _MonthGrid extends StatelessWidget {
     // 0xbb2674: stur            x2, [fp, #-0x48]
     // 0xbb2678: tbz             w0, #4, #0xbb26a8
     // 0xbb267c: ldr             x1, [fp, #0x18]
-    // 0xbb2680: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb2680: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb2680: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb2680: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb2684: r16 = 0.350000
     //     0xbb2684: add             x16, PP, #0x15, lsl #12  ; [pp+0x151b0] 0.35
     //     0xbb2688: ldr             x16, [x16, #0x1b0]
@@ -4470,8 +4470,8 @@ class _MonthGrid extends StatelessWidget {
     // 0xbb26b8: ldur            x2, [fp, #-0x38]
     // 0xbb26bc: tbnz            w2, #4, #0xbb26cc
     // 0xbb26c0: ldr             x1, [fp, #0x18]
-    // 0xbb26c4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb26c4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb26c4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb26c4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb26c8: b               #0xbb26e8
     // 0xbb26cc: ldur            x0, [fp, #-0x40]
     // 0xbb26d0: tbnz            w0, #4, #0xbb26e0
@@ -4480,8 +4480,8 @@ class _MonthGrid extends StatelessWidget {
     //     0xbb26d8: ldr             x0, [x0, #0x1c0]
     // 0xbb26dc: b               #0xbb26e8
     // 0xbb26e0: ldr             x1, [fp, #0x18]
-    // 0xbb26e4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb26e4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb26e4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb26e4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb26e8: mov             x3, x0
     // 0xbb26ec: ldur            x0, [fp, #-0x28]
     // 0xbb26f0: stur            x3, [fp, #-0x50]
@@ -4500,7 +4500,7 @@ class _MonthGrid extends StatelessWidget {
     // 0xbb2720: b               #0xbb2738
     // 0xbb2724: ldur            x2, [fp, #-0x18]
     // 0xbb2728: r1 = Function '<anonymous closure>':.
-    //     0xbb2728: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cbd8] AnonymousClosure: (0xbb29b0), in [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _MonthGrid::build (0xbb1f04)
+    //     0xbb2728: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cbd8] AnonymousClosure: (0xbb29b0), in [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _MonthGrid::build (0xbb1f04)
     //     0xbb272c: ldr             x1, [x1, #0xbd8]
     // 0xbb2730: r0 = AllocateClosure()
     //     0xbb2730: bl              #0xe553e0  ; AllocateClosureStub
@@ -4765,7 +4765,7 @@ class _MonthGrid extends StatelessWidget {
     // 0xbb29f4: DecompressPointer r1
     //     0xbb29f4: add             x1, x1, HEAP, lsl #32
     // 0xbb29f8: r0 = _onDayTapped()
-    //     0xbb29f8: bl              #0x9d68bc  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_onDayTapped
+    //     0xbb29f8: bl              #0x9d68bc  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] _WeekPickerViewState::_onDayTapped
     // 0xbb29fc: r0 = Null
     //     0xbb29fc: mov             x0, NULL
     // 0xbb2a00: LeaveFrame

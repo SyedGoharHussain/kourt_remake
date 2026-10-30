@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/client/whats_new/whats_new_content.dart
+// lib: , url: package:kourtai/automatic/models/client/whats_new/whats_new_content.dart
 
 // class id: 1048679, size: 0x8
 class :: {

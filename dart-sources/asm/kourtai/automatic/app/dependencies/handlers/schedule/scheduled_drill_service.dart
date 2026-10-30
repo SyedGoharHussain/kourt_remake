@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/handlers/schedule/scheduled_drill_service.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/handlers/schedule/scheduled_drill_service.dart
 
 // class id: 1048639, size: 0x8
 class :: {
@@ -25,7 +25,7 @@ abstract class ScheduledDrillService extends Object {
     //     0xa7a0d8: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0xa7a0dc: bl              #0x60afc8  ; InitAsyncStub
     // 0xa7a0e0: r0 = _collection()
-    //     0xa7a0e0: bl              #0xa7a348  ; [package:ballai/automatic/app/dependencies/handlers/schedule/scheduled_drill_service.dart] ScheduledDrillService::_collection
+    //     0xa7a0e0: bl              #0xa7a348  ; [package:kourtai/automatic/app/dependencies/handlers/schedule/scheduled_drill_service.dart] ScheduledDrillService::_collection
     // 0xa7a0e4: mov             x1, x0
     // 0xa7a0e8: ldur            x0, [fp, #-0x10]
     // 0xa7a0ec: LoadField: r2 = r0->field_7
@@ -40,7 +40,7 @@ abstract class ScheduledDrillService extends Object {
     // 0xa7a100: ldur            x1, [fp, #-0x10]
     // 0xa7a104: stur            x0, [fp, #-0x10]
     // 0xa7a108: r0 = toFirestoreMap()
-    //     0xa7a108: bl              #0xa7a138  ; [package:ballai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::toFirestoreMap
+    //     0xa7a108: bl              #0xa7a138  ; [package:kourtai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::toFirestoreMap
     // 0xa7a10c: ldur            x1, [fp, #-0x10]
     // 0xa7a110: mov             x2, x0
     // 0xa7a114: r4 = const [0, 0x2, 0, 0x2, null]

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart
+// lib: , url: package:kourtai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart
 
 // class id: 1048699, size: 0x8
 class :: {
@@ -45,7 +45,7 @@ abstract class WorkoutSessionGradeCalculator extends Object {
     // 0xa4124c: r0 = _GrowableList._ofArray()
     //     0xa4124c: bl              #0x5c7848  ; [dart:core] _GrowableList::_GrowableList._ofArray
     // 0xa41250: r1 = Function '<anonymous closure>': static.
-    //     0xa41250: add             x1, PP, #0x44, lsl #12  ; [pp+0x449e8] AnonymousClosure: static (0xa4143c), in [package:ballai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::progressToNextGrade (0xa411f0)
+    //     0xa41250: add             x1, PP, #0x44, lsl #12  ; [pp+0x449e8] AnonymousClosure: static (0xa4143c), in [package:kourtai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::progressToNextGrade (0xa411f0)
     //     0xa41254: ldr             x1, [x1, #0x9e8]
     // 0xa41258: r2 = Null
     //     0xa41258: mov             x2, NULL
@@ -60,7 +60,7 @@ abstract class WorkoutSessionGradeCalculator extends Object {
     //     0xa41270: bl              #0x7ac5ec  ; [dart:collection] ListBase::sort
     // 0xa41274: ldur            x2, [fp, #-0x10]
     // 0xa41278: r1 = Function '<anonymous closure>': static.
-    //     0xa41278: add             x1, PP, #0x44, lsl #12  ; [pp+0x449f0] AnonymousClosure: static (0xa413dc), in [package:ballai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::progressToNextGrade (0xa411f0)
+    //     0xa41278: add             x1, PP, #0x44, lsl #12  ; [pp+0x449f0] AnonymousClosure: static (0xa413dc), in [package:kourtai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::progressToNextGrade (0xa411f0)
     //     0xa4127c: ldr             x1, [x1, #0x9f0]
     // 0xa41280: r0 = AllocateClosure()
     //     0xa41280: bl              #0xe553e0  ; AllocateClosureStub
@@ -286,18 +286,18 @@ abstract class WorkoutSessionGradeCalculator extends Object {
     // 0xa414e8: mov             x1, x0
     // 0xa414ec: stur            d0, [fp, #-0x20]
     // 0xa414f0: r0 = _goalCompletionScore()
-    //     0xa414f0: bl              #0xa41e20  ; [package:ballai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::_goalCompletionScore
+    //     0xa414f0: bl              #0xa41e20  ; [package:kourtai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::_goalCompletionScore
     // 0xa414f4: ldur            x1, [fp, #-0x18]
     // 0xa414f8: stur            x0, [fp, #-0x18]
     // 0xa414fc: r0 = _effectiveWeights()
-    //     0xa414fc: bl              #0xa41cd4  ; [package:ballai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::_effectiveWeights
+    //     0xa414fc: bl              #0xa41cd4  ; [package:kourtai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::_effectiveWeights
     // 0xa41500: ldur            d0, [fp, #-0x20]
     // 0xa41504: ldur            x1, [fp, #-0x18]
     // 0xa41508: ldur            x2, [fp, #-8]
     // 0xa4150c: ldur            x3, [fp, #-0x10]
     // 0xa41510: mov             x5, x0
     // 0xa41514: r0 = grade()
-    //     0xa41514: bl              #0xa4152c  ; [package:ballai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::grade
+    //     0xa41514: bl              #0xa4152c  ; [package:kourtai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::grade
     // 0xa41518: LeaveFrame
     //     0xa41518: mov             SP, fp
     //     0xa4151c: ldp             fp, lr, [SP], #0x10
@@ -363,7 +363,7 @@ abstract class WorkoutSessionGradeCalculator extends Object {
     //     0xa415c8: add             x2, PP, #0x44, lsl #12  ; [pp+0x449f8] Obj!WorkoutSessionGradeComponent@d3b581
     //     0xa415cc: ldr             x2, [x2, #0x9f8]
     // 0xa415d0: r0 = normalizedWeight()
-    //     0xa415d0: bl              #0xa41b94  ; [package:ballai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeWeights::normalizedWeight
+    //     0xa415d0: bl              #0xa41b94  ; [package:kourtai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeWeights::normalizedWeight
     // 0xa415d4: stur            d0, [fp, #-0x70]
     // 0xa415d8: r0 = WorkoutSessionGradeBreakdown()
     //     0xa415d8: bl              #0xa41b64  ; AllocateWorkoutSessionGradeBreakdownStub -> WorkoutSessionGradeBreakdown (size=0x18)
@@ -379,14 +379,14 @@ abstract class WorkoutSessionGradeCalculator extends Object {
     //     0xa415f4: add             x17, PP, #0x44, lsl #12  ; [pp+0x44a00] IMM: double(1500) from 0x4097700000000000
     //     0xa415f8: ldr             d1, [x17, #0xa00]
     // 0xa415fc: r0 = _softRatioScore()
-    //     0xa415fc: bl              #0xa41a10  ; [package:ballai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::_softRatioScore
+    //     0xa415fc: bl              #0xa41a10  ; [package:kourtai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::_softRatioScore
     // 0xa41600: ldur            x1, [fp, #-0x18]
     // 0xa41604: r2 = Instance_WorkoutSessionGradeComponent
     //     0xa41604: add             x2, PP, #0x44, lsl #12  ; [pp+0x44a08] Obj!WorkoutSessionGradeComponent@d3b561
     //     0xa41608: ldr             x2, [x2, #0xa08]
     // 0xa4160c: stur            d0, [fp, #-0x58]
     // 0xa41610: r0 = normalizedWeight()
-    //     0xa41610: bl              #0xa41b94  ; [package:ballai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeWeights::normalizedWeight
+    //     0xa41610: bl              #0xa41b94  ; [package:kourtai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeWeights::normalizedWeight
     // 0xa41614: stur            d0, [fp, #-0x68]
     // 0xa41618: r0 = WorkoutSessionGradeBreakdown()
     //     0xa41618: bl              #0xa41b64  ; AllocateWorkoutSessionGradeBreakdownStub -> WorkoutSessionGradeBreakdown (size=0x18)
@@ -401,14 +401,14 @@ abstract class WorkoutSessionGradeCalculator extends Object {
     // 0xa41634: d1 = 3.500000
     //     0xa41634: fmov            d1, #3.50000000
     // 0xa41638: r0 = _softRatioScore()
-    //     0xa41638: bl              #0xa41a10  ; [package:ballai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::_softRatioScore
+    //     0xa41638: bl              #0xa41a10  ; [package:kourtai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::_softRatioScore
     // 0xa4163c: ldur            x1, [fp, #-0x18]
     // 0xa41640: r2 = Instance_WorkoutSessionGradeComponent
     //     0xa41640: add             x2, PP, #0x44, lsl #12  ; [pp+0x44a10] Obj!WorkoutSessionGradeComponent@d3b541
     //     0xa41644: ldr             x2, [x2, #0xa10]
     // 0xa41648: stur            d0, [fp, #-0x58]
     // 0xa4164c: r0 = normalizedWeight()
-    //     0xa4164c: bl              #0xa41b94  ; [package:ballai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeWeights::normalizedWeight
+    //     0xa4164c: bl              #0xa41b94  ; [package:kourtai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeWeights::normalizedWeight
     // 0xa41650: stur            d0, [fp, #-0x60]
     // 0xa41654: r0 = WorkoutSessionGradeBreakdown()
     //     0xa41654: bl              #0xa41b64  ; AllocateWorkoutSessionGradeBreakdownStub -> WorkoutSessionGradeBreakdown (size=0x18)
@@ -440,14 +440,14 @@ abstract class WorkoutSessionGradeCalculator extends Object {
     // 0xa416a4: d1 = 22.000000
     //     0xa416a4: fmov            d1, #22.00000000
     // 0xa416a8: r0 = _softRatioScore()
-    //     0xa416a8: bl              #0xa41a10  ; [package:ballai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::_softRatioScore
+    //     0xa416a8: bl              #0xa41a10  ; [package:kourtai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::_softRatioScore
     // 0xa416ac: ldur            x1, [fp, #-0x18]
     // 0xa416b0: r2 = Instance_WorkoutSessionGradeComponent
     //     0xa416b0: add             x2, PP, #0x44, lsl #12  ; [pp+0x44a18] Obj!WorkoutSessionGradeComponent@d3b521
     //     0xa416b4: ldr             x2, [x2, #0xa18]
     // 0xa416b8: stur            d0, [fp, #-0x58]
     // 0xa416bc: r0 = normalizedWeight()
-    //     0xa416bc: bl              #0xa41b94  ; [package:ballai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeWeights::normalizedWeight
+    //     0xa416bc: bl              #0xa41b94  ; [package:kourtai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeWeights::normalizedWeight
     // 0xa416c0: stur            d0, [fp, #-0x60]
     // 0xa416c4: r0 = WorkoutSessionGradeBreakdown()
     //     0xa416c4: bl              #0xa41b64  ; AllocateWorkoutSessionGradeBreakdownStub -> WorkoutSessionGradeBreakdown (size=0x18)
@@ -500,7 +500,7 @@ abstract class WorkoutSessionGradeCalculator extends Object {
     //     0xa41744: add             x2, PP, #0x44, lsl #12  ; [pp+0x44a28] Obj!WorkoutSessionGradeComponent@d3b501
     //     0xa41748: ldr             x2, [x2, #0xa28]
     // 0xa4174c: r0 = normalizedWeight()
-    //     0xa4174c: bl              #0xa41b94  ; [package:ballai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeWeights::normalizedWeight
+    //     0xa4174c: bl              #0xa41b94  ; [package:kourtai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeWeights::normalizedWeight
     // 0xa41750: ldur            x0, [fp, #-8]
     // 0xa41754: stur            d0, [fp, #-0x60]
     // 0xa41758: LoadField: d1 = r0->field_7
@@ -557,7 +557,7 @@ abstract class WorkoutSessionGradeCalculator extends Object {
     //     0xa417e8: b.eq            #0xa417f0
     //     0xa417ec: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xa417f0: r1 = Function '<anonymous closure>': static.
-    //     0xa417f0: add             x1, PP, #0x44, lsl #12  ; [pp+0x44a30] AnonymousClosure: static (0xa41c6c), in [package:ballai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::grade (0xa4152c)
+    //     0xa417f0: add             x1, PP, #0x44, lsl #12  ; [pp+0x44a30] AnonymousClosure: static (0xa41c6c), in [package:kourtai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::grade (0xa4152c)
     //     0xa417f4: ldr             x1, [x1, #0xa30]
     // 0xa417f8: r2 = Null
     //     0xa417f8: mov             x2, NULL
@@ -621,7 +621,7 @@ abstract class WorkoutSessionGradeCalculator extends Object {
     // 0xa418b0: r0 = _GrowableList._ofArray()
     //     0xa418b0: bl              #0x5c7848  ; [dart:core] _GrowableList::_GrowableList._ofArray
     // 0xa418b4: r1 = Function '<anonymous closure>': static.
-    //     0xa418b4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44a38] AnonymousClosure: static (0xa4143c), in [package:ballai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::progressToNextGrade (0xa411f0)
+    //     0xa418b4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44a38] AnonymousClosure: static (0xa4143c), in [package:kourtai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::progressToNextGrade (0xa411f0)
     //     0xa418b8: ldr             x1, [x1, #0xa38]
     // 0xa418bc: r2 = Null
     //     0xa418bc: mov             x2, NULL
@@ -909,7 +909,7 @@ abstract class WorkoutSessionGradeCalculator extends Object {
     //     0xa41ce0: cmp             SP, x16
     //     0xa41ce4: b.ls            #0xa41d64
     // 0xa41ce8: r0 = _hasScoredGoal()
-    //     0xa41ce8: bl              #0xa41d78  ; [package:ballai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::_hasScoredGoal
+    //     0xa41ce8: bl              #0xa41d78  ; [package:kourtai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::_hasScoredGoal
     // 0xa41cec: tbz             w0, #4, #0xa41d04
     // 0xa41cf0: r0 = Instance_WorkoutSessionGradeWeights
     //     0xa41cf0: add             x0, PP, #0x44, lsl #12  ; [pp+0x44a58] Obj!WorkoutSessionGradeWeights@d26dc1
@@ -1045,7 +1045,7 @@ abstract class WorkoutSessionGradeCalculator extends Object {
     //     0xa41e3c: b.ls            #0xa42038
     // 0xa41e40: mov             x1, x0
     // 0xa41e44: r0 = _hasScoredGoal()
-    //     0xa41e44: bl              #0xa41d78  ; [package:ballai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::_hasScoredGoal
+    //     0xa41e44: bl              #0xa41d78  ; [package:kourtai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::_hasScoredGoal
     // 0xa41e48: tbz             w0, #4, #0xa41e5c
     // 0xa41e4c: r0 = Null
     //     0xa41e4c: mov             x0, NULL
@@ -1087,7 +1087,7 @@ abstract class WorkoutSessionGradeCalculator extends Object {
     //     0xa41eb4: ret             
     // 0xa41eb8: mov             x1, x2
     // 0xa41ebc: r0 = goalProgress()
-    //     0xa41ebc: bl              #0x74da78  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::goalProgress
+    //     0xa41ebc: bl              #0x74da78  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::goalProgress
     // 0xa41ec0: mov             v1.16b, v0.16b
     // 0xa41ec4: d0 = 0.000000
     //     0xa41ec4: eor             v0.16b, v0.16b, v0.16b
@@ -1165,7 +1165,7 @@ abstract class WorkoutSessionGradeCalculator extends Object {
     // 0xa41fa4: fcmp            d1, d0
     // 0xa41fa8: b.le            #0xa41fe4
     // 0xa41fac: r0 = _softRatioScore()
-    //     0xa41fac: bl              #0xa41a10  ; [package:ballai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::_softRatioScore
+    //     0xa41fac: bl              #0xa41a10  ; [package:kourtai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::_softRatioScore
     // 0xa41fb0: r0 = inline_Allocate_Double()
     //     0xa41fb0: ldp             x0, x1, [THR, #0x50]  ; THR::top
     //     0xa41fb4: add             x0, x0, #0x10
@@ -1196,7 +1196,7 @@ abstract class WorkoutSessionGradeCalculator extends Object {
     // 0xa41ffc: LoadField: d1 = r1->field_7
     //     0xa41ffc: ldur            d1, [x1, #7]
     // 0xa42000: r0 = _softRatioScore()
-    //     0xa42000: bl              #0xa41a10  ; [package:ballai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::_softRatioScore
+    //     0xa42000: bl              #0xa41a10  ; [package:kourtai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeCalculator::_softRatioScore
     // 0xa42004: r0 = inline_Allocate_Double()
     //     0xa42004: ldp             x0, x1, [THR, #0x50]  ; THR::top
     //     0xa42008: add             x0, x0, #0x10
@@ -1307,7 +1307,7 @@ class WorkoutSessionGradeWeights extends Object {
     //     0xa41bd8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44a58] Obj!WorkoutSessionGradeWeights@d26dc1
     //     0xa41bdc: ldr             x1, [x1, #0xa58]
     // 0xa41be0: r0 = normalizedWeight()
-    //     0xa41be0: bl              #0xa41b94  ; [package:ballai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeWeights::normalizedWeight
+    //     0xa41be0: bl              #0xa41b94  ; [package:kourtai/automatic/models/core/stats/workouts/workout_session_grade_calculator.dart] WorkoutSessionGradeWeights::normalizedWeight
     // 0xa41be4: LeaveFrame
     //     0xa41be4: mov             SP, fp
     //     0xa41be8: ldp             fp, lr, [SP], #0x10

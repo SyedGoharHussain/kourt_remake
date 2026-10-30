@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/settings/ball_ai_settings_rows.dart
+// lib: , url: package:kourtai/automatic/views/components/settings/kourt_ai_settings_rows.dart
 
 // class id: 1048824, size: 0x8
 class :: {
@@ -6,7 +6,7 @@ class :: {
 
 // class id: 4215, size: 0xc, field offset: 0xc
 //   const constructor, 
-class BallAiSettingsDivider extends StatelessWidget {
+class KourtAiSettingsDivider extends StatelessWidget {
 
   _ build(/* No info */) {
     // ** addr: 0xbc22f0, size: 0x84
@@ -15,15 +15,15 @@ class BallAiSettingsDivider extends StatelessWidget {
     //     0xbc22f4: mov             fp, SP
     // 0xbc22f8: AllocStack(0x10)
     //     0xbc22f8: sub             SP, SP, #0x10
-    // 0xbc22fc: SetupParameters(BallAiSettingsDivider this /* r1 => r0 */, dynamic _ /* r2 => r1 */)
+    // 0xbc22fc: SetupParameters(KourtAiSettingsDivider this /* r1 => r0 */, dynamic _ /* r2 => r1 */)
     //     0xbc22fc: mov             x0, x1
     //     0xbc2300: mov             x1, x2
     // 0xbc2304: CheckStackOverflow
     //     0xbc2304: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xbc2308: cmp             SP, x16
     //     0xbc230c: b.ls            #0xbc236c
-    // 0xbc2310: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbc2310: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbc2310: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbc2310: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbc2314: r16 = 0.220000
     //     0xbc2314: add             x16, PP, #0x24, lsl #12  ; [pp+0x24ec0] 0.22
     //     0xbc2318: ldr             x16, [x16, #0xec0]
@@ -68,7 +68,7 @@ class BallAiSettingsDivider extends StatelessWidget {
 
 // class id: 4216, size: 0x18, field offset: 0xc
 //   const constructor, 
-class BallAiDestructiveSettingsRow extends StatelessWidget {
+class KourtAiDestructiveSettingsRow extends StatelessWidget {
 
   _ build(/* No info */) {
     // ** addr: 0xbc20c4, size: 0x22c
@@ -77,7 +77,7 @@ class BallAiDestructiveSettingsRow extends StatelessWidget {
     //     0xbc20c8: mov             fp, SP
     // 0xbc20cc: AllocStack(0x30)
     //     0xbc20cc: sub             SP, SP, #0x30
-    // 0xbc20d0: SetupParameters(BallAiDestructiveSettingsRow this /* r1 => r0, fp-0x18 */, dynamic _ /* r2 => r1, fp-0x20 */)
+    // 0xbc20d0: SetupParameters(KourtAiDestructiveSettingsRow this /* r1 => r0, fp-0x18 */, dynamic _ /* r2 => r1, fp-0x20 */)
     //     0xbc20d0: mov             x0, x1
     //     0xbc20d4: stur            x1, [fp, #-0x18]
     //     0xbc20d8: mov             x1, x2
@@ -124,14 +124,14 @@ class BallAiDestructiveSettingsRow extends StatelessWidget {
     //     0xbc2144: ldr             x16, [x16, #0x1c8]
     // 0xbc2148: str             x16, [SP]
     // 0xbc214c: ldur            x1, [fp, #-0x20]
-    // 0xbc2150: r2 = Instance_BallAiTextScale
-    //     0xbc2150: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bf28] Obj!BallAiTextScale@d3b081
+    // 0xbc2150: r2 = Instance_KourtAiTextScale
+    //     0xbc2150: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bf28] Obj!KourtAiTextScale@d3b081
     //     0xbc2154: ldr             x2, [x2, #0xf28]
     // 0xbc2158: r4 = const [0, 0x3, 0x1, 0x2, color, 0x2, null]
     //     0xbc2158: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf60] List(7) [0, 0x3, 0x1, 0x2, "color", 0x2, Null]
     //     0xbc215c: ldr             x4, [x4, #0xf60]
-    // 0xbc2160: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xbc2160: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xbc2160: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xbc2160: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xbc2164: stur            x0, [fp, #-0x18]
     // 0xbc2168: r0 = Text()
     //     0xbc2168: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -296,7 +296,7 @@ class BallAiDestructiveSettingsRow extends StatelessWidget {
 
 // class id: 4217, size: 0x18, field offset: 0xc
 //   const constructor, 
-class BallAiSettingsActionRow extends StatelessWidget {
+class KourtAiSettingsActionRow extends StatelessWidget {
 
   _ build(/* No info */) {
     // ** addr: 0xbc1f80, size: 0x144
@@ -305,7 +305,7 @@ class BallAiSettingsActionRow extends StatelessWidget {
     //     0xbc1f84: mov             fp, SP
     // 0xbc1f88: AllocStack(0x30)
     //     0xbc1f88: sub             SP, SP, #0x30
-    // 0xbc1f8c: SetupParameters(BallAiSettingsActionRow this /* r1 => r2, fp-0x8 */, dynamic _ /* r2 => r0, fp-0x10 */)
+    // 0xbc1f8c: SetupParameters(KourtAiSettingsActionRow this /* r1 => r2, fp-0x8 */, dynamic _ /* r2 => r0, fp-0x10 */)
     //     0xbc1f8c: mov             x0, x2
     //     0xbc1f90: stur            x2, [fp, #-0x10]
     //     0xbc1f94: mov             x2, x1
@@ -315,8 +315,8 @@ class BallAiSettingsActionRow extends StatelessWidget {
     //     0xbc1fa0: cmp             SP, x16
     //     0xbc1fa4: b.ls            #0xbc20bc
     // 0xbc1fa8: mov             x1, x0
-    // 0xbc1fac: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbc1fac: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbc1fac: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbc1fac: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbc1fb0: mov             x1, x0
     // 0xbc1fb4: ldur            x0, [fp, #-8]
     // 0xbc1fb8: LoadField: r3 = r0->field_f
@@ -334,14 +334,14 @@ class BallAiSettingsActionRow extends StatelessWidget {
     //     0xbc1fd4: ldr             x16, [x16, #0xf8]
     // 0xbc1fd8: stp             x16, x1, [SP]
     // 0xbc1fdc: ldur            x1, [fp, #-0x10]
-    // 0xbc1fe0: r2 = Instance_BallAiTextScale
-    //     0xbc1fe0: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bf28] Obj!BallAiTextScale@d3b081
+    // 0xbc1fe0: r2 = Instance_KourtAiTextScale
+    //     0xbc1fe0: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bf28] Obj!KourtAiTextScale@d3b081
     //     0xbc1fe4: ldr             x2, [x2, #0xf28]
     // 0xbc1fe8: r4 = const [0, 0x4, 0x2, 0x2, color, 0x2, weight, 0x3, null]
     //     0xbc1fe8: add             x4, PP, #0x4a, lsl #12  ; [pp+0x4a120] List(9) [0, 0x4, 0x2, 0x2, "color", 0x2, "weight", 0x3, Null]
     //     0xbc1fec: ldr             x4, [x4, #0x120]
-    // 0xbc1ff0: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xbc1ff0: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xbc1ff0: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xbc1ff0: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xbc1ff4: stur            x0, [fp, #-8]
     // 0xbc1ff8: r0 = Text()
     //     0xbc1ff8: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -429,7 +429,7 @@ class BallAiSettingsActionRow extends StatelessWidget {
 
 // class id: 4218, size: 0x1c, field offset: 0xc
 //   const constructor, 
-class BallAiSettingsValueRow extends StatelessWidget {
+class KourtAiSettingsValueRow extends StatelessWidget {
 
   _ build(/* No info */) {
     // ** addr: 0xbc1cc8, size: 0x2b8
@@ -438,7 +438,7 @@ class BallAiSettingsValueRow extends StatelessWidget {
     //     0xbc1ccc: mov             fp, SP
     // 0xbc1cd0: AllocStack(0x38)
     //     0xbc1cd0: sub             SP, SP, #0x38
-    // 0xbc1cd4: SetupParameters(BallAiSettingsValueRow this /* r1 => r3, fp-0x18 */, dynamic _ /* r2 => r0, fp-0x20 */)
+    // 0xbc1cd4: SetupParameters(KourtAiSettingsValueRow this /* r1 => r3, fp-0x18 */, dynamic _ /* r2 => r0, fp-0x20 */)
     //     0xbc1cd4: mov             x3, x1
     //     0xbc1cd8: mov             x0, x2
     //     0xbc1cdc: stur            x1, [fp, #-0x18]
@@ -458,13 +458,13 @@ class BallAiSettingsValueRow extends StatelessWidget {
     //     0xbc1d00: add             x5, x5, HEAP, lsl #32
     // 0xbc1d04: mov             x1, x0
     // 0xbc1d08: stur            x5, [fp, #-8]
-    // 0xbc1d0c: r2 = Instance_BallAiTextScale
-    //     0xbc1d0c: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bf28] Obj!BallAiTextScale@d3b081
+    // 0xbc1d0c: r2 = Instance_KourtAiTextScale
+    //     0xbc1d0c: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bf28] Obj!KourtAiTextScale@d3b081
     //     0xbc1d10: ldr             x2, [x2, #0xf28]
     // 0xbc1d14: r4 = const [0, 0x2, 0, 0x2, null]
     //     0xbc1d14: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
-    // 0xbc1d18: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xbc1d18: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xbc1d18: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xbc1d18: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xbc1d1c: stur            x0, [fp, #-0x28]
     // 0xbc1d20: r0 = Text()
     //     0xbc1d20: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -502,18 +502,18 @@ class BallAiSettingsValueRow extends StatelessWidget {
     //     0xbc1d74: add             x3, x3, HEAP, lsl #32
     // 0xbc1d78: ldur            x1, [fp, #-0x20]
     // 0xbc1d7c: stur            x3, [fp, #-8]
-    // 0xbc1d80: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbc1d80: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbc1d80: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbc1d80: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbc1d84: str             x0, [SP]
     // 0xbc1d88: ldur            x1, [fp, #-0x20]
-    // 0xbc1d8c: r2 = Instance_BallAiTextScale
-    //     0xbc1d8c: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bf28] Obj!BallAiTextScale@d3b081
+    // 0xbc1d8c: r2 = Instance_KourtAiTextScale
+    //     0xbc1d8c: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bf28] Obj!KourtAiTextScale@d3b081
     //     0xbc1d90: ldr             x2, [x2, #0xf28]
     // 0xbc1d94: r4 = const [0, 0x3, 0x1, 0x2, color, 0x2, null]
     //     0xbc1d94: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf60] List(7) [0, 0x3, 0x1, 0x2, "color", 0x2, Null]
     //     0xbc1d98: ldr             x4, [x4, #0xf60]
-    // 0xbc1d9c: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xbc1d9c: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xbc1d9c: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xbc1d9c: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xbc1da0: stur            x0, [fp, #-0x18]
     // 0xbc1da4: r0 = Text()
     //     0xbc1da4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -554,8 +554,8 @@ class BallAiSettingsValueRow extends StatelessWidget {
     // 0xbc1e00: StoreField: r2->field_b = r0
     //     0xbc1e00: stur            w0, [x2, #0xb]
     // 0xbc1e04: ldur            x1, [fp, #-0x20]
-    // 0xbc1e08: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbc1e08: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbc1e08: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbc1e08: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbc1e0c: stur            x0, [fp, #-0x18]
     // 0xbc1e10: r0 = Icon()
     //     0xbc1e10: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -711,7 +711,7 @@ class BallAiSettingsValueRow extends StatelessWidget {
 
 // class id: 4219, size: 0x20, field offset: 0xc
 //   const constructor, 
-class BallAiSettingsNavigationRow extends StatelessWidget {
+class KourtAiSettingsNavigationRow extends StatelessWidget {
 
   _ build(/* No info */) {
     // ** addr: 0xbc1a00, size: 0x2c8
@@ -720,7 +720,7 @@ class BallAiSettingsNavigationRow extends StatelessWidget {
     //     0xbc1a04: mov             fp, SP
     // 0xbc1a08: AllocStack(0x40)
     //     0xbc1a08: sub             SP, SP, #0x40
-    // 0xbc1a0c: SetupParameters(BallAiSettingsNavigationRow this /* r1 => r2, fp-0x10 */, dynamic _ /* r2 => r0, fp-0x18 */)
+    // 0xbc1a0c: SetupParameters(KourtAiSettingsNavigationRow this /* r1 => r2, fp-0x10 */, dynamic _ /* r2 => r0, fp-0x18 */)
     //     0xbc1a0c: mov             x0, x2
     //     0xbc1a10: stur            x2, [fp, #-0x18]
     //     0xbc1a14: mov             x2, x1
@@ -736,13 +736,13 @@ class BallAiSettingsNavigationRow extends StatelessWidget {
     // 0xbc1a30: stur            x3, [fp, #-8]
     // 0xbc1a34: tbnz            w3, #4, #0xbc1a48
     // 0xbc1a38: mov             x1, x0
-    // 0xbc1a3c: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbc1a3c: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbc1a3c: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbc1a3c: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbc1a40: mov             x2, x0
     // 0xbc1a44: b               #0xbc1a54
     // 0xbc1a48: ldur            x1, [fp, #-0x18]
-    // 0xbc1a4c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbc1a4c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbc1a4c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbc1a4c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbc1a50: mov             x2, x0
     // 0xbc1a54: ldur            x0, [fp, #-0x10]
     // 0xbc1a58: ldur            x1, [fp, #-8]
@@ -766,14 +766,14 @@ class BallAiSettingsNavigationRow extends StatelessWidget {
     //     0xbc1a88: ldr             x0, [x0, #0xf8]
     // 0xbc1a8c: stp             x0, x2, [SP]
     // 0xbc1a90: ldur            x1, [fp, #-0x18]
-    // 0xbc1a94: r2 = Instance_BallAiTextScale
-    //     0xbc1a94: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bf28] Obj!BallAiTextScale@d3b081
+    // 0xbc1a94: r2 = Instance_KourtAiTextScale
+    //     0xbc1a94: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bf28] Obj!KourtAiTextScale@d3b081
     //     0xbc1a98: ldr             x2, [x2, #0xf28]
     // 0xbc1a9c: r4 = const [0, 0x4, 0x2, 0x2, color, 0x2, weight, 0x3, null]
     //     0xbc1a9c: add             x4, PP, #0x4a, lsl #12  ; [pp+0x4a120] List(9) [0, 0x4, 0x2, 0x2, "color", 0x2, "weight", 0x3, Null]
     //     0xbc1aa0: ldr             x4, [x4, #0x120]
-    // 0xbc1aa4: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xbc1aa4: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xbc1aa4: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xbc1aa4: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xbc1aa8: stur            x0, [fp, #-8]
     // 0xbc1aac: r0 = Text()
     //     0xbc1aac: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -829,8 +829,8 @@ class BallAiSettingsNavigationRow extends StatelessWidget {
     // 0xbc1b30: StoreField: r2->field_b = r0
     //     0xbc1b30: stur            w0, [x2, #0xb]
     // 0xbc1b34: ldur            x1, [fp, #-0x18]
-    // 0xbc1b38: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbc1b38: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbc1b38: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbc1b38: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbc1b3c: stur            x0, [fp, #-0x10]
     // 0xbc1b40: r0 = Icon()
     //     0xbc1b40: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -988,7 +988,7 @@ class BallAiSettingsNavigationRow extends StatelessWidget {
 
 // class id: 4220, size: 0x10, field offset: 0xc
 //   const constructor, 
-class BallAiSettingsSection extends StatelessWidget {
+class KourtAiSettingsSection extends StatelessWidget {
 
   _ build(/* No info */) {
     // ** addr: 0xbc18c4, size: 0x13c
@@ -997,7 +997,7 @@ class BallAiSettingsSection extends StatelessWidget {
     //     0xbc18c8: mov             fp, SP
     // 0xbc18cc: AllocStack(0x38)
     //     0xbc18cc: sub             SP, SP, #0x38
-    // 0xbc18d0: SetupParameters(BallAiSettingsSection this /* r1 => r0, fp-0x8 */, dynamic _ /* r2 => r1 */)
+    // 0xbc18d0: SetupParameters(KourtAiSettingsSection this /* r1 => r0, fp-0x8 */, dynamic _ /* r2 => r1 */)
     //     0xbc18d0: mov             x0, x1
     //     0xbc18d4: stur            x1, [fp, #-8]
     //     0xbc18d8: mov             x1, x2
@@ -1005,8 +1005,8 @@ class BallAiSettingsSection extends StatelessWidget {
     //     0xbc18dc: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xbc18e0: cmp             SP, x16
     //     0xbc18e4: b.ls            #0xbc19f8
-    // 0xbc18e8: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xbc18e8: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xbc18e8: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xbc18e8: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xbc18ec: stur            x0, [fp, #-0x10]
     // 0xbc18f0: r0 = Radius()
     //     0xbc18f0: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)

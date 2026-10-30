@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/analysis/make_miss/simple_shot_detector.dart
+// lib: , url: package:kourtai/video_tracking/analysis/make_miss/simple_shot_detector.dart
 
 // class id: 1049105, size: 0x8
 class :: {
@@ -18,7 +18,7 @@ class SimpleShotDetector extends Object {
     //     0x99afa4: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x99afa8: cmp             SP, x16
     //     0x99afac: b.ls            #0x99afe8
-    // 0x99afb0: r0 = InitLateStaticField(0x1074) // [package:ballai/video_tracking/analysis/make_miss/simple_shot_detector.dart] SimpleShotDetector::instance
+    // 0x99afb0: r0 = InitLateStaticField(0x1074) // [package:kourtai/video_tracking/analysis/make_miss/simple_shot_detector.dart] SimpleShotDetector::instance
     //     0x99afb0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x99afb4: ldr             x0, [x0, #0x20e8]
     //     0x99afb8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -29,7 +29,7 @@ class SimpleShotDetector extends Object {
     //     0x99afcc: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x99afd0: mov             x1, x0
     // 0x99afd4: r0 = resetState()
-    //     0x99afd4: bl              #0x99aff0  ; [package:ballai/video_tracking/analysis/make_miss/simple_shot_detector.dart] SimpleShotDetector::resetState
+    //     0x99afd4: bl              #0x99aff0  ; [package:kourtai/video_tracking/analysis/make_miss/simple_shot_detector.dart] SimpleShotDetector::resetState
     // 0x99afd8: r0 = Null
     //     0x99afd8: mov             x0, NULL
     // 0x99afdc: LeaveFrame
@@ -152,7 +152,7 @@ class SimpleShotDetector extends Object {
     // 0x99b100: mov             x1, x0
     // 0x99b104: stur            x0, [fp, #-8]
     // 0x99b108: r0 = SimpleShotDetector()
-    //     0x99b108: bl              #0x99b124  ; [package:ballai/video_tracking/analysis/make_miss/simple_shot_detector.dart] SimpleShotDetector::SimpleShotDetector
+    //     0x99b108: bl              #0x99b124  ; [package:kourtai/video_tracking/analysis/make_miss/simple_shot_detector.dart] SimpleShotDetector::SimpleShotDetector
     // 0x99b10c: ldur            x0, [fp, #-8]
     // 0x99b110: LeaveFrame
     //     0x99b110: mov             SP, fp

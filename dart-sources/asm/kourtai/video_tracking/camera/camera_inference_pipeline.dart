@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/camera/camera_inference_pipeline.dart
+// lib: , url: package:kourtai/video_tracking/camera/camera_inference_pipeline.dart
 
 // class id: 1049114, size: 0x8
 class :: {

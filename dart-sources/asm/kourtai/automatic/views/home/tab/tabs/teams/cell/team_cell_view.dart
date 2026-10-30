@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/cell/team_cell_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/cell/team_cell_view.dart
 
 // class id: 1048925, size: 0x8
 class :: {
@@ -30,8 +30,8 @@ class _Pill extends StatelessWidget {
     //     0xbfa1c0: add             x1, x1, HEAP, lsl #32
     // 0xbfa1c4: tbnz            w1, #4, #0xbfa20c
     // 0xbfa1c8: mov             x1, x0
-    // 0xbfa1cc: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbfa1cc: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbfa1cc: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbfa1cc: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbfa1d0: r1 = LoadClassIdInstr(r0)
     //     0xbfa1d0: ldur            x1, [x0, #-1]
     //     0xbfa1d4: ubfx            x1, x1, #0xc, #0x14
@@ -126,8 +126,8 @@ class _Pill extends StatelessWidget {
     // 0xbfa2c4: cmp             w3, NULL
     // 0xbfa2c8: b.eq            #0xbfa350
     // 0xbfa2cc: ldur            x1, [fp, #-0x10]
-    // 0xbfa2d0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbfa2d0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbfa2d0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbfa2d0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbfa2d4: stur            x0, [fp, #-0x30]
     // 0xbfa2d8: r0 = Icon()
     //     0xbfa2d8: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -184,8 +184,8 @@ class _Pill extends StatelessWidget {
     //     0xbfa35c: add             x3, x3, HEAP, lsl #32
     // 0xbfa360: ldur            x1, [fp, #-0x10]
     // 0xbfa364: stur            x3, [fp, #-0x18]
-    // 0xbfa368: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbfa368: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbfa368: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbfa368: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbfa36c: stur            x0, [fp, #-8]
     // 0xbfa370: r0 = TextStyle()
     //     0xbfa370: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -355,11 +355,11 @@ class TeamCellView extends StatelessWidget {
     // 0xbf9654: DecompressPointer r1
     //     0xbf9654: add             x1, x1, HEAP, lsl #32
     // 0xbf9658: r0 = fromString()
-    //     0xbf9658: bl              #0x768108  ; [package:ballai/automatic/models/core/team/team_visibility.dart] TeamVisibility::fromString
+    //     0xbf9658: bl              #0x768108  ; [package:kourtai/automatic/models/core/team/team_visibility.dart] TeamVisibility::fromString
     // 0xbf965c: ldur            x1, [fp, #-0x10]
     // 0xbf9660: stur            x0, [fp, #-0x20]
     // 0xbf9664: r0 = _roleDisplay()
-    //     0xbf9664: bl              #0xbfa0fc  ; [package:ballai/automatic/views/home/tab/tabs/teams/cell/team_cell_view.dart] TeamCellView::_roleDisplay
+    //     0xbf9664: bl              #0xbfa0fc  ; [package:kourtai/automatic/views/home/tab/tabs/teams/cell/team_cell_view.dart] TeamCellView::_roleDisplay
     // 0xbf9668: mov             x2, x0
     // 0xbf966c: ldur            x0, [fp, #-0x10]
     // 0xbf9670: stur            x2, [fp, #-0x28]
@@ -368,7 +368,7 @@ class TeamCellView extends StatelessWidget {
     // 0xbf9678: DecompressPointer r1
     //     0xbf9678: add             x1, x1, HEAP, lsl #32
     // 0xbf967c: r0 = isCoachRole()
-    //     0xbf967c: bl              #0x974be4  ; [package:ballai/automatic/models/core/team/team_model.dart] TeamModel::isCoachRole
+    //     0xbf967c: bl              #0x974be4  ; [package:kourtai/automatic/models/core/team/team_model.dart] TeamModel::isCoachRole
     // 0xbf9680: stur            x0, [fp, #-0x30]
     // 0xbf9684: r0 = Radius()
     //     0xbf9684: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -445,8 +445,8 @@ class TeamCellView extends StatelessWidget {
     // 0xbf9734: StoreField: r2->field_37 = d1
     //     0xbf9734: stur            d1, [x2, #0x37]
     // 0xbf9738: ldur            x1, [fp, #-0x18]
-    // 0xbf973c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbf973c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbf973c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbf973c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbf9740: stur            x0, [fp, #-0x38]
     // 0xbf9744: r0 = TextStyle()
     //     0xbf9744: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -528,8 +528,8 @@ class TeamCellView extends StatelessWidget {
     // 0xbf9808: cbz             w1, #0xbf98ac
     // 0xbf980c: ldur            x0, [fp, #-0x38]
     // 0xbf9810: ldur            x1, [fp, #-0x18]
-    // 0xbf9814: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbf9814: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbf9814: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbf9814: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbf9818: stur            x0, [fp, #-0x40]
     // 0xbf981c: r0 = TextStyle()
     //     0xbf981c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -604,8 +604,8 @@ class TeamCellView extends StatelessWidget {
     // 0xbf98d0: cbz             w1, #0xbf9988
     // 0xbf98d4: ldur            x0, [fp, #-0x38]
     // 0xbf98d8: ldur            x1, [fp, #-0x18]
-    // 0xbf98dc: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbf98dc: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbf98dc: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbf98dc: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbf98e0: stur            x0, [fp, #-8]
     // 0xbf98e4: r0 = TextStyle()
     //     0xbf98e4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -876,11 +876,11 @@ class TeamCellView extends StatelessWidget {
     //     0xbf9bcc: tbz             w0, #0, #0xbf9bd4
     //     0xbf9bd0: ldur            x1, [x0, #7]
     // 0xbf9bd4: r0 = localizedMemberCount()
-    //     0xbf9bd4: bl              #0xbfa044  ; [package:ballai/automatic/views/home/tab/tabs/teams/cell/team_cell_view.dart] TeamCellView::localizedMemberCount
+    //     0xbf9bd4: bl              #0xbfa044  ; [package:kourtai/automatic/views/home/tab/tabs/teams/cell/team_cell_view.dart] TeamCellView::localizedMemberCount
     // 0xbf9bd8: ldur            x1, [fp, #-0x18]
     // 0xbf9bdc: stur            x0, [fp, #-0x10]
-    // 0xbf9be0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbf9be0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbf9be0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbf9be0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbf9be4: stur            x0, [fp, #-0x20]
     // 0xbf9be8: r0 = TextStyle()
     //     0xbf9be8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1090,8 +1090,8 @@ class TeamCellView extends StatelessWidget {
     // 0xbf9e0c: StoreField: r2->field_b = r0
     //     0xbf9e0c: stur            w0, [x2, #0xb]
     // 0xbf9e10: ldur            x1, [fp, #-0x18]
-    // 0xbf9e14: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbf9e14: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbf9e14: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbf9e14: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbf9e18: r16 = 0.600000
     //     0xbf9e18: add             x16, PP, #0x2b, lsl #12  ; [pp+0x2ba08] 0.6
     //     0xbf9e1c: ldr             x16, [x16, #0xa08]
@@ -1274,8 +1274,8 @@ class TeamCellView extends StatelessWidget {
     // 0xbf9fdc: ldur            x0, [fp, #-8]
     // 0xbf9fe0: StoreField: r1->field_b = r0
     //     0xbf9fe0: stur            w0, [x1, #0xb]
-    // 0xbf9fe4: r0 = BallAiLiquidGlassCard()
-    //     0xbf9fe4: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xbf9fe4: r0 = KourtAiLiquidGlassCard()
+    //     0xbf9fe4: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xbf9fe8: mov             x1, x0
     // 0xbf9fec: ldur            x0, [fp, #-0x10]
     // 0xbf9ff0: stur            x1, [fp, #-8]
@@ -1334,7 +1334,7 @@ class TeamCellView extends StatelessWidget {
     //     0xbfa068: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c648] "1 member"
     //     0xbfa06c: ldr             x1, [x1, #0x648]
     // 0xbfa070: r0 = L()
-    //     0xbfa070: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfa070: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfa074: b               #0xbfa0dc
     // 0xbfa078: r3 = 2
     //     0xbfa078: mov             x3, #2
@@ -1372,7 +1372,7 @@ class TeamCellView extends StatelessWidget {
     //     0xbfa0d0: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c650] "%lld members"
     //     0xbfa0d4: ldr             x1, [x1, #0x650]
     // 0xbfa0d8: r0 = LF()
-    //     0xbfa0d8: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xbfa0d8: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xbfa0dc: LeaveFrame
     //     0xbfa0dc: mov             SP, fp
     //     0xbfa0e0: ldp             fp, lr, [SP], #0x10
@@ -1417,13 +1417,13 @@ class TeamCellView extends StatelessWidget {
     // 0xbfa150: ret
     //     0xbfa150: ret             
     // 0xbfa154: r0 = isCoachRole()
-    //     0xbfa154: bl              #0x974be4  ; [package:ballai/automatic/models/core/team/team_model.dart] TeamModel::isCoachRole
+    //     0xbfa154: bl              #0x974be4  ; [package:kourtai/automatic/models/core/team/team_model.dart] TeamModel::isCoachRole
     // 0xbfa158: tbnz            w0, #4, #0xbfa174
     // 0xbfa15c: r1 = "Coach"
     //     0xbfa15c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a5d0] "Coach"
     //     0xbfa160: ldr             x1, [x1, #0x5d0]
     // 0xbfa164: r0 = L()
-    //     0xbfa164: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfa164: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfa168: LeaveFrame
     //     0xbfa168: mov             SP, fp
     //     0xbfa16c: ldp             fp, lr, [SP], #0x10
@@ -1433,7 +1433,7 @@ class TeamCellView extends StatelessWidget {
     //     0xbfa174: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c658] "Member"
     //     0xbfa178: ldr             x1, [x1, #0x658]
     // 0xbfa17c: r0 = L()
-    //     0xbfa17c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfa17c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfa180: LeaveFrame
     //     0xbfa180: mov             SP, fp
     //     0xbfa184: ldp             fp, lr, [SP], #0x10

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_language_settings_section_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_language_settings_section_view.dart
 
 // class id: 1048879, size: 0x8
 class :: {
@@ -20,9 +20,9 @@ class AccountLanguagePickerView extends StatelessWidget {
     //     0xbd98a0: cmp             SP, x16
     //     0xbd98a4: b.ls            #0xbd98e4
     // 0xbd98a8: r0 = instance()
-    //     0xbd98a8: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0xbd98a8: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0xbd98ac: r1 = Function '<anonymous closure>':.
-    //     0xbd98ac: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4ec88] AnonymousClosure: (0xbd98ec), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_language_settings_section_view.dart] AccountLanguagePickerView::build (0xbd9890)
+    //     0xbd98ac: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4ec88] AnonymousClosure: (0xbd98ec), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_language_settings_section_view.dart] AccountLanguagePickerView::build (0xbd9890)
     //     0xbd98b0: ldr             x1, [x1, #0xc88]
     // 0xbd98b4: r2 = Null
     //     0xbd98b4: mov             x2, NULL
@@ -73,10 +73,10 @@ class AccountLanguagePickerView extends StatelessWidget {
     // 0xbd9928: StoreField: r1->field_b = r0
     //     0xbd9928: stur            w0, [x1, #0xb]
     // 0xbd992c: r0 = instance()
-    //     0xbd992c: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0xbd992c: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0xbd9930: mov             x1, x0
     // 0xbd9934: r0 = effectiveLanguageCode()
-    //     0xbd9934: bl              #0x5ede90  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
+    //     0xbd9934: bl              #0x5ede90  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
     // 0xbd9938: ldur            x2, [fp, #-0x10]
     // 0xbd993c: StoreField: r2->field_f = r0
     //     0xbd993c: stur            w0, [x2, #0xf]
@@ -87,22 +87,22 @@ class AccountLanguagePickerView extends StatelessWidget {
     //     0xbd9950: b.eq            #0xbd9958
     //     0xbd9954: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xbd9958: ldr             x1, [fp, #0x18]
-    // 0xbd995c: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xbd995c: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xbd995c: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xbd995c: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xbd9960: ldr             x1, [fp, #0x18]
     // 0xbd9964: stur            x0, [fp, #-8]
-    // 0xbd9968: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xbd9968: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xbd9968: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xbd9968: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xbd996c: r1 = "Language"
     //     0xbd996c: add             x1, PP, #0x24, lsl #12  ; [pp+0x24ec8] "Language"
     //     0xbd9970: ldr             x1, [x1, #0xec8]
     // 0xbd9974: stur            x0, [fp, #-0x18]
     // 0xbd9978: r0 = L()
-    //     0xbd9978: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd9978: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd997c: ldr             x1, [fp, #0x18]
     // 0xbd9980: stur            x0, [fp, #-0x20]
-    // 0xbd9984: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbd9984: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbd9984: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbd9984: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbd9988: stur            x0, [fp, #-0x28]
     // 0xbd998c: r0 = TextStyle()
     //     0xbd998c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -166,7 +166,7 @@ class AccountLanguagePickerView extends StatelessWidget {
     // 0xbd9a2c: r0 = AppBar()
     //     0xbd9a2c: bl              #0xa144f8  ; [package:flutter/src/material/app_bar.dart] AppBar::AppBar
     // 0xbd9a30: r1 = Function '<anonymous closure>':.
-    //     0xbd9a30: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4ec90] AnonymousClosure: (0xbda010), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_language_settings_section_view.dart] AccountLanguagePickerView::build (0xbd9890)
+    //     0xbd9a30: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4ec90] AnonymousClosure: (0xbda010), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_language_settings_section_view.dart] AccountLanguagePickerView::build (0xbd9890)
     //     0xbd9a34: ldr             x1, [x1, #0xc90]
     // 0xbd9a38: r2 = Null
     //     0xbd9a38: mov             x2, NULL
@@ -174,7 +174,7 @@ class AccountLanguagePickerView extends StatelessWidget {
     //     0xbd9a3c: bl              #0xe553e0  ; AllocateClosureStub
     // 0xbd9a40: ldur            x2, [fp, #-0x10]
     // 0xbd9a44: r1 = Function '<anonymous closure>':.
-    //     0xbd9a44: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4ec98] AnonymousClosure: (0xbd9ad8), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_language_settings_section_view.dart] AccountLanguagePickerView::build (0xbd9890)
+    //     0xbd9a44: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4ec98] AnonymousClosure: (0xbd9ad8), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_language_settings_section_view.dart] AccountLanguagePickerView::build (0xbd9890)
     //     0xbd9a48: ldr             x1, [x1, #0xc98]
     // 0xbd9a4c: stur            x0, [fp, #-0x10]
     // 0xbd9a50: r0 = AllocateClosure()
@@ -232,7 +232,7 @@ class AccountLanguagePickerView extends StatelessWidget {
     //     0xbd9ad0: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0xbd9ad4: b               #0xbd9914
   }
-  [closure] BallAiSettingsSection <anonymous closure>(dynamic, BuildContext, int) {
+  [closure] KourtAiSettingsSection <anonymous closure>(dynamic, BuildContext, int) {
     // ** addr: 0xbd9ad8, size: 0x370
     // 0xbd9ad8: EnterFrame
     //     0xbd9ad8: stp             fp, lr, [SP, #-0x10]!
@@ -291,15 +291,15 @@ class AccountLanguagePickerView extends StatelessWidget {
     // 0xbd9b6c: ldur            x1, [fp, #-0x10]
     // 0xbd9b70: stur            x0, [fp, #-8]
     // 0xbd9b74: r0 = displayName()
-    //     0xbd9b74: bl              #0xbbcbe8  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::displayName
+    //     0xbd9b74: bl              #0xbbcbe8  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::displayName
     // 0xbd9b78: ldur            x2, [fp, #-0x18]
     // 0xbd9b7c: stur            x0, [fp, #-0x10]
     // 0xbd9b80: LoadField: r1 = r2->field_f
     //     0xbd9b80: ldur            w1, [x2, #0xf]
     // 0xbd9b84: DecompressPointer r1
     //     0xbd9b84: add             x1, x1, HEAP, lsl #32
-    // 0xbd9b88: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbd9b88: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbd9b88: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbd9b88: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbd9b8c: stur            x0, [fp, #-0x20]
     // 0xbd9b90: r0 = TextStyle()
     //     0xbd9b90: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -377,8 +377,8 @@ class AccountLanguagePickerView extends StatelessWidget {
     //     0xbd9c4c: ldur            w1, [x3, #0xf]
     // 0xbd9c50: DecompressPointer r1
     //     0xbd9c50: add             x1, x1, HEAP, lsl #32
-    // 0xbd9c54: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbd9c54: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbd9c54: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbd9c54: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbd9c58: stur            x0, [fp, #-8]
     // 0xbd9c5c: r0 = Icon()
     //     0xbd9c5c: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -504,7 +504,7 @@ class AccountLanguagePickerView extends StatelessWidget {
     //     0xbd9da0: stur            w0, [x3, #0xb]
     // 0xbd9da4: ldur            x2, [fp, #-0x18]
     // 0xbd9da8: r1 = Function '<anonymous closure>':.
-    //     0xbd9da8: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4eca8] AnonymousClosure: (0xbd9e48), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_language_settings_section_view.dart] AccountLanguagePickerView::build (0xbd9890)
+    //     0xbd9da8: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4eca8] AnonymousClosure: (0xbd9e48), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_language_settings_section_view.dart] AccountLanguagePickerView::build (0xbd9890)
     //     0xbd9dac: ldr             x1, [x1, #0xca8]
     // 0xbd9db0: r0 = AllocateClosure()
     //     0xbd9db0: bl              #0xe553e0  ; AllocateClosureStub
@@ -555,8 +555,8 @@ class AccountLanguagePickerView extends StatelessWidget {
     //     0xbd9e1c: mov             x0, #2
     // 0xbd9e20: StoreField: r1->field_b = r0
     //     0xbd9e20: stur            w0, [x1, #0xb]
-    // 0xbd9e24: r0 = BallAiSettingsSection()
-    //     0xbd9e24: bl              #0xbd7ff4  ; AllocateBallAiSettingsSectionStub -> BallAiSettingsSection (size=0x10)
+    // 0xbd9e24: r0 = KourtAiSettingsSection()
+    //     0xbd9e24: bl              #0xbd7ff4  ; AllocateKourtAiSettingsSectionStub -> KourtAiSettingsSection (size=0x10)
     // 0xbd9e28: ldur            x1, [fp, #-0x10]
     // 0xbd9e2c: StoreField: r0->field_b = r1
     //     0xbd9e2c: stur            w1, [x0, #0xb]
@@ -594,7 +594,7 @@ class AccountLanguagePickerView extends StatelessWidget {
     //     0xbd9e7c: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0xbd9e80: bl              #0x60afc8  ; InitAsyncStub
     // 0xbd9e84: r0 = instance()
-    //     0xbd9e84: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0xbd9e84: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0xbd9e88: mov             x1, x0
     // 0xbd9e8c: ldur            x0, [fp, #-0x10]
     // 0xbd9e90: LoadField: r3 = r0->field_13
@@ -604,7 +604,7 @@ class AccountLanguagePickerView extends StatelessWidget {
     // 0xbd9e98: mov             x2, x3
     // 0xbd9e9c: stur            x3, [fp, #-0x18]
     // 0xbd9ea0: r0 = setOverrideCode()
-    //     0xbd9ea0: bl              #0xbbcd18  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::setOverrideCode
+    //     0xbd9ea0: bl              #0xbbcd18  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::setOverrideCode
     // 0xbd9ea4: mov             x1, x0
     // 0xbd9ea8: stur            x1, [fp, #-0x20]
     // 0xbd9eac: r0 = Await()
@@ -635,7 +635,7 @@ class AccountLanguagePickerView extends StatelessWidget {
     // 0xbd9ee8: mov             x1, x0
     // 0xbd9eec: ldur            x2, [fp, #-0x18]
     // 0xbd9ef0: r0 = syncAppLanguagePreferenceToProfile()
-    //     0xbd9ef0: bl              #0xbd9f10  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::syncAppLanguagePreferenceToProfile
+    //     0xbd9ef0: bl              #0xbd9f10  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::syncAppLanguagePreferenceToProfile
     // 0xbd9ef4: mov             x1, x0
     // 0xbd9ef8: stur            x1, [fp, #-0x18]
     // 0xbd9efc: r0 = Await()
@@ -685,23 +685,23 @@ class AccountLanguageSettingsSectionView extends StatelessWidget {
     // 0xbd9700: StoreField: r1->field_f = r0
     //     0xbd9700: stur            w0, [x1, #0xf]
     // 0xbd9704: r0 = instance()
-    //     0xbd9704: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0xbd9704: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0xbd9708: mov             x1, x0
     // 0xbd970c: r0 = effectiveLanguageCode()
-    //     0xbd970c: bl              #0x5ede90  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
+    //     0xbd970c: bl              #0x5ede90  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
     // 0xbd9710: r1 = "Language"
     //     0xbd9710: add             x1, PP, #0x24, lsl #12  ; [pp+0x24ec8] "Language"
     //     0xbd9714: ldr             x1, [x1, #0xec8]
     // 0xbd9718: stur            x0, [fp, #-8]
     // 0xbd971c: r0 = L()
-    //     0xbd971c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd971c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd9720: ldur            x1, [fp, #-8]
     // 0xbd9724: stur            x0, [fp, #-8]
     // 0xbd9728: r0 = displayName()
-    //     0xbd9728: bl              #0xbbcbe8  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::displayName
+    //     0xbd9728: bl              #0xbbcbe8  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::displayName
     // 0xbd972c: stur            x0, [fp, #-0x18]
-    // 0xbd9730: r0 = BallAiSettingsValueRow()
-    //     0xbd9730: bl              #0xbd97d8  ; AllocateBallAiSettingsValueRowStub -> BallAiSettingsValueRow (size=0x1c)
+    // 0xbd9730: r0 = KourtAiSettingsValueRow()
+    //     0xbd9730: bl              #0xbd97d8  ; AllocateKourtAiSettingsValueRowStub -> KourtAiSettingsValueRow (size=0x1c)
     // 0xbd9734: mov             x3, x0
     // 0xbd9738: ldur            x0, [fp, #-8]
     // 0xbd973c: stur            x3, [fp, #-0x20]
@@ -712,7 +712,7 @@ class AccountLanguageSettingsSectionView extends StatelessWidget {
     //     0xbd9748: stur            w0, [x3, #0xf]
     // 0xbd974c: ldur            x2, [fp, #-0x10]
     // 0xbd9750: r1 = Function '<anonymous closure>':.
-    //     0xbd9750: add             x1, PP, #0x49, lsl #12  ; [pp+0x49ee0] AnonymousClosure: (0xbd97e4), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_language_settings_section_view.dart] AccountLanguageSettingsSectionView::build (0xbd96d0)
+    //     0xbd9750: add             x1, PP, #0x49, lsl #12  ; [pp+0x49ee0] AnonymousClosure: (0xbd97e4), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_language_settings_section_view.dart] AccountLanguageSettingsSectionView::build (0xbd96d0)
     //     0xbd9754: ldr             x1, [x1, #0xee0]
     // 0xbd9758: r0 = AllocateClosure()
     //     0xbd9758: bl              #0xe553e0  ; AllocateClosureStub
@@ -753,8 +753,8 @@ class AccountLanguageSettingsSectionView extends StatelessWidget {
     //     0xbd97b0: mov             x0, #2
     // 0xbd97b4: StoreField: r1->field_b = r0
     //     0xbd97b4: stur            w0, [x1, #0xb]
-    // 0xbd97b8: r0 = BallAiSettingsSection()
-    //     0xbd97b8: bl              #0xbd7ff4  ; AllocateBallAiSettingsSectionStub -> BallAiSettingsSection (size=0x10)
+    // 0xbd97b8: r0 = KourtAiSettingsSection()
+    //     0xbd97b8: bl              #0xbd7ff4  ; AllocateKourtAiSettingsSectionStub -> KourtAiSettingsSection (size=0x10)
     // 0xbd97bc: ldur            x1, [fp, #-0x10]
     // 0xbd97c0: StoreField: r0->field_b = r1
     //     0xbd97c0: stur            w1, [x0, #0xb]
@@ -792,7 +792,7 @@ class AccountLanguageSettingsSectionView extends StatelessWidget {
     // 0xbd9818: r0 = of()
     //     0xbd9818: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xbd981c: r1 = Function '<anonymous closure>':.
-    //     0xbd981c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49ef0] AnonymousClosure: (0xbd9884), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_language_settings_section_view.dart] AccountLanguageSettingsSectionView::build (0xbd96d0)
+    //     0xbd981c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49ef0] AnonymousClosure: (0xbd9884), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_language_settings_section_view.dart] AccountLanguageSettingsSectionView::build (0xbd96d0)
     //     0xbd9820: ldr             x1, [x1, #0xef0]
     // 0xbd9824: r2 = Null
     //     0xbd9824: mov             x2, NULL

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/ui/home_island_scroll_padding.dart
+// lib: , url: package:kourtai/automatic/utility/ui/home_island_scroll_padding.dart
 
 // class id: 1048747, size: 0x8
 class :: {

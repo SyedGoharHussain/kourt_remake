@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/extensions/date/week_range.dart
+// lib: , url: package:kourtai/automatic/utility/extensions/date/week_range.dart
 
 // class id: 1048726, size: 0x8
 class :: {
@@ -15,7 +15,7 @@ class :: {
     //     0x5fab48: cmp             SP, x16
     //     0x5fab4c: b.ls            #0x5fac28
     // 0x5fab50: r0 = DateTimeWeekRange.getWeekStartAndEnd()
-    //     0x5fab50: bl              #0x5fb6d0  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
+    //     0x5fab50: bl              #0x5fb6d0  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
     // 0x5fab54: mov             x2, x0
     // 0x5fab58: stur            x2, [fp, #-8]
     // 0x5fab5c: r0 = LoadClassIdInstr(r2)
@@ -249,7 +249,7 @@ class :: {
     //     0xa2d9dc: cmp             SP, x16
     //     0xa2d9e0: b.ls            #0xa2e07c
     // 0xa2d9e4: r0 = DateTimeWeekRange.getWeekStartAndEnd()
-    //     0xa2d9e4: bl              #0x5fb6d0  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
+    //     0xa2d9e4: bl              #0x5fb6d0  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
     // 0xa2d9e8: mov             x2, x0
     // 0xa2d9ec: stur            x2, [fp, #-0x18]
     // 0xa2d9f0: mov             x3, x1
@@ -258,7 +258,7 @@ class :: {
     //     0xa2d9f8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27338] "Jan"
     //     0xa2d9fc: ldr             x1, [x1, #0x338]
     // 0xa2da00: r0 = L()
-    //     0xa2da00: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2da00: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2da04: r1 = <String>
     //     0xa2da04: ldr             x1, [PP, #0x850]  ; [pp+0x850] TypeArguments: <String>
     // 0xa2da08: r2 = 24
@@ -275,7 +275,7 @@ class :: {
     //     0xa2da24: add             x1, PP, #0x27, lsl #12  ; [pp+0x27340] "Feb"
     //     0xa2da28: ldr             x1, [x1, #0x340]
     // 0xa2da2c: r0 = L()
-    //     0xa2da2c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2da2c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2da30: ldur            x1, [fp, #-0x28]
     // 0xa2da34: ArrayStore: r1[1] = r0  ; List_4
     //     0xa2da34: add             x25, x1, #0x13
@@ -291,7 +291,7 @@ class :: {
     //     0xa2da58: add             x1, PP, #0x27, lsl #12  ; [pp+0x27348] "Mar"
     //     0xa2da5c: ldr             x1, [x1, #0x348]
     // 0xa2da60: r0 = L()
-    //     0xa2da60: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2da60: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2da64: ldur            x1, [fp, #-0x28]
     // 0xa2da68: ArrayStore: r1[2] = r0  ; List_4
     //     0xa2da68: add             x25, x1, #0x17
@@ -307,7 +307,7 @@ class :: {
     //     0xa2da8c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27350] "Apr"
     //     0xa2da90: ldr             x1, [x1, #0x350]
     // 0xa2da94: r0 = L()
-    //     0xa2da94: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2da94: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2da98: ldur            x1, [fp, #-0x28]
     // 0xa2da9c: ArrayStore: r1[3] = r0  ; List_4
     //     0xa2da9c: add             x25, x1, #0x1b
@@ -323,7 +323,7 @@ class :: {
     //     0xa2dac0: add             x1, PP, #0x27, lsl #12  ; [pp+0x27358] "May"
     //     0xa2dac4: ldr             x1, [x1, #0x358]
     // 0xa2dac8: r0 = L()
-    //     0xa2dac8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2dac8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2dacc: ldur            x1, [fp, #-0x28]
     // 0xa2dad0: ArrayStore: r1[4] = r0  ; List_4
     //     0xa2dad0: add             x25, x1, #0x1f
@@ -339,7 +339,7 @@ class :: {
     //     0xa2daf4: add             x1, PP, #0x27, lsl #12  ; [pp+0x27360] "Jun"
     //     0xa2daf8: ldr             x1, [x1, #0x360]
     // 0xa2dafc: r0 = L()
-    //     0xa2dafc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2dafc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2db00: ldur            x1, [fp, #-0x28]
     // 0xa2db04: ArrayStore: r1[5] = r0  ; List_4
     //     0xa2db04: add             x25, x1, #0x23
@@ -355,7 +355,7 @@ class :: {
     //     0xa2db28: add             x1, PP, #0x27, lsl #12  ; [pp+0x27368] "Jul"
     //     0xa2db2c: ldr             x1, [x1, #0x368]
     // 0xa2db30: r0 = L()
-    //     0xa2db30: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2db30: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2db34: ldur            x1, [fp, #-0x28]
     // 0xa2db38: ArrayStore: r1[6] = r0  ; List_4
     //     0xa2db38: add             x25, x1, #0x27
@@ -371,7 +371,7 @@ class :: {
     //     0xa2db5c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27370] "Aug"
     //     0xa2db60: ldr             x1, [x1, #0x370]
     // 0xa2db64: r0 = L()
-    //     0xa2db64: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2db64: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2db68: ldur            x1, [fp, #-0x28]
     // 0xa2db6c: ArrayStore: r1[7] = r0  ; List_4
     //     0xa2db6c: add             x25, x1, #0x2b
@@ -387,7 +387,7 @@ class :: {
     //     0xa2db90: add             x1, PP, #0x27, lsl #12  ; [pp+0x27378] "Sep"
     //     0xa2db94: ldr             x1, [x1, #0x378]
     // 0xa2db98: r0 = L()
-    //     0xa2db98: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2db98: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2db9c: ldur            x1, [fp, #-0x28]
     // 0xa2dba0: ArrayStore: r1[8] = r0  ; List_4
     //     0xa2dba0: add             x25, x1, #0x2f
@@ -403,7 +403,7 @@ class :: {
     //     0xa2dbc4: add             x1, PP, #0x27, lsl #12  ; [pp+0x27380] "Oct"
     //     0xa2dbc8: ldr             x1, [x1, #0x380]
     // 0xa2dbcc: r0 = L()
-    //     0xa2dbcc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2dbcc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2dbd0: ldur            x1, [fp, #-0x28]
     // 0xa2dbd4: ArrayStore: r1[9] = r0  ; List_4
     //     0xa2dbd4: add             x25, x1, #0x33
@@ -419,7 +419,7 @@ class :: {
     //     0xa2dbf8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27388] "Nov"
     //     0xa2dbfc: ldr             x1, [x1, #0x388]
     // 0xa2dc00: r0 = L()
-    //     0xa2dc00: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2dc00: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2dc04: ldur            x1, [fp, #-0x28]
     // 0xa2dc08: ArrayStore: r1[10] = r0  ; List_4
     //     0xa2dc08: add             x25, x1, #0x37
@@ -435,7 +435,7 @@ class :: {
     //     0xa2dc2c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27390] "Dec"
     //     0xa2dc30: ldr             x1, [x1, #0x390]
     // 0xa2dc34: r0 = L()
-    //     0xa2dc34: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2dc34: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2dc38: ldur            x1, [fp, #-0x28]
     // 0xa2dc3c: ArrayStore: r1[11] = r0  ; List_4
     //     0xa2dc3c: add             x25, x1, #0x3b

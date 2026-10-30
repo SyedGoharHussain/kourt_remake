@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_logo_step_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_logo_step_view.dart
 
 // class id: 1048932, size: 0x8
 class :: {
@@ -26,7 +26,7 @@ class TeamLogoStepView extends StatelessWidget {
     //     0xbfb540: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c490] "Banner"
     //     0xbfb544: ldr             x1, [x1, #0x490]
     // 0xbfb548: r0 = L()
-    //     0xbfb548: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfb548: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfb54c: stur            x0, [fp, #-0x10]
     // 0xbfb550: r0 = TextStyle()
     //     0xbfb550: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -246,7 +246,7 @@ class TeamLogoStepView extends StatelessWidget {
     //     0xbfb788: stur            w0, [x3, #0xb]
     // 0xbfb78c: ldur            x2, [fp, #-0x10]
     // 0xbfb790: r1 = Function 'pickBanner':.
-    //     0xbfb790: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c4b8] AnonymousClosure: (0xbfbcec), in [package:ballai/automatic/viewmodels/home/teams/create_team_view_model.dart] CreateTeamViewModel::pickBanner (0xbfbd24)
+    //     0xbfb790: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c4b8] AnonymousClosure: (0xbfbcec), in [package:kourtai/automatic/viewmodels/home/teams/create_team_view_model.dart] CreateTeamViewModel::pickBanner (0xbfbd24)
     //     0xbfb794: ldr             x1, [x1, #0x4b8]
     // 0xbfb798: r0 = AllocateClosure()
     //     0xbfb798: bl              #0xe553e0  ; AllocateClosureStub
@@ -289,7 +289,7 @@ class TeamLogoStepView extends StatelessWidget {
     //     0xbfb7f0: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c4c0] "Logo"
     //     0xbfb7f4: ldr             x1, [x1, #0x4c0]
     // 0xbfb7f8: r0 = L()
-    //     0xbfb7f8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfb7f8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfb7fc: stur            x0, [fp, #-0x18]
     // 0xbfb800: r0 = TextStyle()
     //     0xbfb800: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -560,7 +560,7 @@ class TeamLogoStepView extends StatelessWidget {
     //     0xbfbacc: stur            w0, [x3, #0xb]
     // 0xbfbad0: ldur            x2, [fp, #-0x10]
     // 0xbfbad4: r1 = Function 'pickLogo':.
-    //     0xbfbad4: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c4d8] AnonymousClosure: (0xbfbc08), in [package:ballai/automatic/viewmodels/home/teams/create_team_view_model.dart] CreateTeamViewModel::pickLogo (0xbfbc40)
+    //     0xbfbad4: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c4d8] AnonymousClosure: (0xbfbc08), in [package:kourtai/automatic/viewmodels/home/teams/create_team_view_model.dart] CreateTeamViewModel::pickLogo (0xbfbc40)
     //     0xbfbad8: ldr             x1, [x1, #0x4d8]
     // 0xbfbadc: r0 = AllocateClosure()
     //     0xbfbadc: bl              #0xe553e0  ; AllocateClosureStub

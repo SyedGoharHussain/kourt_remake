@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart
+// lib: , url: package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart
 
 // class id: 1049187, size: 0x8
 class :: {
@@ -190,7 +190,7 @@ class WorkoutHLSRecorder extends Object {
     //     0x73ebe4: stur            w0, [x1, #0x17]
     // 0x73ebe8: ldur            d0, [fp, #-0x18]
     // 0x73ebec: r0 = _finishImpl()
-    //     0x73ebec: bl              #0x73ebfc  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_finishImpl
+    //     0x73ebec: bl              #0x73ebfc  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_finishImpl
     // 0x73ebf0: r0 = ReturnAsync()
     //     0x73ebf0: b               #0x5f1e3c  ; ReturnAsyncStub
     // 0x73ebf4: r0 = StackOverflowSharedWithFPURegs()
@@ -218,7 +218,7 @@ class WorkoutHLSRecorder extends Object {
     //     0x73ec28: bl              #0x60afc8  ; InitAsyncStub
     // 0x73ec2c: ldur            x1, [fp, #-0x88]
     // 0x73ec30: r0 = _stopNativeFeed()
-    //     0x73ec30: bl              #0x73fab0  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_stopNativeFeed
+    //     0x73ec30: bl              #0x73fab0  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_stopNativeFeed
     // 0x73ec34: mov             x1, x0
     // 0x73ec38: stur            x1, [fp, #-0x90]
     // 0x73ec3c: r0 = Await()
@@ -242,7 +242,7 @@ class WorkoutHLSRecorder extends Object {
     // 0x73ec6c: ldur            x1, [fp, #-0x88]
     // 0x73ec70: stur            x0, [fp, #-0x90]
     // 0x73ec74: r0 = _drainUploadChain()
-    //     0x73ec74: bl              #0x73f944  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_drainUploadChain
+    //     0x73ec74: bl              #0x73f944  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_drainUploadChain
     // 0x73ec78: mov             x1, x0
     // 0x73ec7c: stur            x1, [fp, #-0x98]
     // 0x73ec80: r0 = Await()
@@ -250,7 +250,7 @@ class WorkoutHLSRecorder extends Object {
     // 0x73ec84: ldur            x1, [fp, #-0x88]
     // 0x73ec88: ldur            x2, [fp, #-0x90]
     // 0x73ec8c: r0 = _snapshotFromNative()
-    //     0x73ec8c: bl              #0x73f500  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_snapshotFromNative
+    //     0x73ec8c: bl              #0x73f500  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_snapshotFromNative
     // 0x73ec90: b               #0x73ed68
     // 0x73ec94: sub             SP, fp, #0xc8
     // 0x73ec98: stur            x0, [fp, #-0x90]
@@ -326,7 +326,7 @@ class WorkoutHLSRecorder extends Object {
     //     0x73ed54: add             x3, x3, HEAP, lsl #32
     // 0x73ed58: mov             x1, x3
     // 0x73ed5c: r0 = recordHLSError()
-    //     0x73ed5c: bl              #0x73f2b8  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::recordHLSError
+    //     0x73ed5c: bl              #0x73f2b8  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::recordHLSError
     // 0x73ed60: r0 = Instance_WorkoutRecordingSnapshot
     //     0x73ed60: add             x0, PP, #0x29, lsl #12  ; [pp+0x29120] Obj!WorkoutRecordingSnapshot@d25f91
     //     0x73ed64: ldr             x0, [x0, #0x120]
@@ -334,7 +334,7 @@ class WorkoutHLSRecorder extends Object {
     // 0x73ed6c: ldur            d0, [fp, #-0xb0]
     // 0x73ed70: stur            x0, [fp, #-0xa0]
     // 0x73ed74: r0 = isCompleteFor()
-    //     0x73ed74: bl              #0x73f1b8  ; [package:ballai/video_tracking/session/video_storage/workout_recording_integrity.dart] WorkoutRecordingSnapshot::isCompleteFor
+    //     0x73ed74: bl              #0x73f1b8  ; [package:kourtai/video_tracking/session/video_storage/workout_recording_integrity.dart] WorkoutRecordingSnapshot::isCompleteFor
     // 0x73ed78: tbz             w0, #4, #0x73efec
     // 0x73ed7c: ldur            x3, [fp, #-0x88]
     // 0x73ed80: ldur            d0, [fp, #-0xb0]
@@ -552,10 +552,10 @@ class WorkoutHLSRecorder extends Object {
     // 0x73efe0: mov             x1, x2
     // 0x73efe4: ldur            x2, [fp, #-0xa8]
     // 0x73efe8: r0 = recordHLSError()
-    //     0x73efe8: bl              #0x73f2b8  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::recordHLSError
+    //     0x73efe8: bl              #0x73f2b8  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::recordHLSError
     // 0x73efec: ldur            x1, [fp, #-0x88]
     // 0x73eff0: r0 = _reset()
-    //     0x73eff0: bl              #0x73f09c  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_reset
+    //     0x73eff0: bl              #0x73f09c  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_reset
     // 0x73eff4: mov             x1, x0
     // 0x73eff8: stur            x1, [fp, #-0x88]
     // 0x73effc: r0 = Await()
@@ -1243,7 +1243,7 @@ class WorkoutHLSRecorder extends Object {
     //     0x73faf0: add             x2, NULL, #0x30  ; false
     // 0x73faf4: StoreField: r0->field_43 = r2
     //     0x73faf4: stur            w2, [x0, #0x43]
-    // 0x73faf8: r0 = InitLateStaticField(0x1104) // [package:ballai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::instance
+    // 0x73faf8: r0 = InitLateStaticField(0x1104) // [package:kourtai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::instance
     //     0x73faf8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x73fafc: ldr             x0, [x0, #0x2208]
     //     0x73fb00: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1256,7 +1256,7 @@ class WorkoutHLSRecorder extends Object {
     // 0x73fb1c: r2 = false
     //     0x73fb1c: add             x2, NULL, #0x30  ; false
     // 0x73fb20: r0 = setRecording()
-    //     0x73fb20: bl              #0x73fb40  ; [package:ballai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::setRecording
+    //     0x73fb20: bl              #0x73fb40  ; [package:kourtai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::setRecording
     // 0x73fb24: mov             x1, x0
     // 0x73fb28: stur            x1, [fp, #-0x10]
     // 0x73fb2c: r0 = Await()
@@ -1326,7 +1326,7 @@ class WorkoutHLSRecorder extends Object {
     // 0x779810: r4 = const [0x1, 0x1, 0x1, 0x1, null]
     //     0x779810: ldr             x4, [PP, #0x1048]  ; [pp+0x1048] List(5) [0x1, 0x1, 0x1, 0x1, Null]
     // 0x779814: r0 = _extension#0.firstOrNull()
-    //     0x779814: bl              #0x779b00  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] ::_extension#0.firstOrNull
+    //     0x779814: bl              #0x779b00  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] ::_extension#0.firstOrNull
     // 0x779818: stur            x0, [fp, #-0x28]
     // 0x77981c: cmp             w0, NULL
     // 0x779820: b.ne            #0x779834
@@ -1540,7 +1540,7 @@ class WorkoutHLSRecorder extends Object {
     // 0x779a98: r0 = invokeMethod()
     //     0x779a98: bl              #0xddec38  ; [package:flutter/src/services/platform_channel.dart] MethodChannel::invokeMethod
     // 0x779a9c: r1 = Function '<anonymous closure>':.
-    //     0x779a9c: add             x1, PP, #0x33, lsl #12  ; [pp+0x332b8] AnonymousClosure: (0x779b70), in [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::append (0x77978c)
+    //     0x779a9c: add             x1, PP, #0x33, lsl #12  ; [pp+0x332b8] AnonymousClosure: (0x779b70), in [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::append (0x77978c)
     //     0x779aa0: ldr             x1, [x1, #0x2b8]
     // 0x779aa4: r2 = Null
     //     0x779aa4: mov             x2, NULL
@@ -1671,7 +1671,7 @@ class WorkoutHLSRecorder extends Object {
     //     0x99b47c: bl              #0x60afc8  ; InitAsyncStub
     // 0x99b480: ldur            x1, [fp, #-0x90]
     // 0x99b484: r0 = _reset()
-    //     0x99b484: bl              #0x73f09c  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_reset
+    //     0x99b484: bl              #0x73f09c  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_reset
     // 0x99b488: mov             x1, x0
     // 0x99b48c: stur            x1, [fp, #-0xb0]
     // 0x99b490: r0 = Await()
@@ -1728,14 +1728,14 @@ class WorkoutHLSRecorder extends Object {
     //     0x99b520: bl              #0x5f5268  ; [package:flutter/src/services/platform_channel.dart] EventChannel::receiveBroadcastStream
     // 0x99b524: ldur            x2, [fp, #-0x90]
     // 0x99b528: r1 = Function '_handleNativeEvent@1411419063':.
-    //     0x99b528: add             x1, PP, #0x40, lsl #12  ; [pp+0x40e18] AnonymousClosure: (0x99b8b4), in [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_handleNativeEvent (0x99b8f0)
+    //     0x99b528: add             x1, PP, #0x40, lsl #12  ; [pp+0x40e18] AnonymousClosure: (0x99b8b4), in [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_handleNativeEvent (0x99b8f0)
     //     0x99b52c: ldr             x1, [x1, #0xe18]
     // 0x99b530: stur            x0, [fp, #-0x98]
     // 0x99b534: r0 = AllocateClosure()
     //     0x99b534: bl              #0xe553e0  ; AllocateClosureStub
     // 0x99b538: ldur            x2, [fp, #-0xa8]
     // 0x99b53c: r1 = Function '<anonymous closure>':.
-    //     0x99b53c: add             x1, PP, #0x40, lsl #12  ; [pp+0x40e20] AnonymousClosure: (0x99b7a0), in [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::start (0x99b428)
+    //     0x99b53c: add             x1, PP, #0x40, lsl #12  ; [pp+0x40e20] AnonymousClosure: (0x99b7a0), in [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::start (0x99b428)
     //     0x99b540: ldr             x1, [x1, #0xe20]
     // 0x99b544: stur            x0, [fp, #-0xb0]
     // 0x99b548: r0 = AllocateClosure()
@@ -1795,7 +1795,7 @@ class WorkoutHLSRecorder extends Object {
     // 0x99b5dc: stur            x1, [fp, #-0x98]
     // 0x99b5e0: r0 = Await()
     //     0x99b5e0: bl              #0x60ad4c  ; AwaitStub
-    // 0x99b5e4: r0 = InitLateStaticField(0x1104) // [package:ballai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::instance
+    // 0x99b5e4: r0 = InitLateStaticField(0x1104) // [package:kourtai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::instance
     //     0x99b5e4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x99b5e8: ldr             x0, [x0, #0x2208]
     //     0x99b5ec: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1808,7 +1808,7 @@ class WorkoutHLSRecorder extends Object {
     // 0x99b608: r2 = true
     //     0x99b608: add             x2, NULL, #0x20  ; true
     // 0x99b60c: r0 = setRecording()
-    //     0x99b60c: bl              #0x73fb40  ; [package:ballai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::setRecording
+    //     0x99b60c: bl              #0x73fb40  ; [package:kourtai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::setRecording
     // 0x99b610: mov             x1, x0
     // 0x99b614: stur            x1, [fp, #-0x98]
     // 0x99b618: r0 = Await()
@@ -1945,7 +1945,7 @@ class WorkoutHLSRecorder extends Object {
     //     0x99b774: add             x0, x0, HEAP, lsl #32
     // 0x99b778: mov             x1, x0
     // 0x99b77c: r0 = recordHLSError()
-    //     0x99b77c: bl              #0x73f2b8  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::recordHLSError
+    //     0x99b77c: bl              #0x73f2b8  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::recordHLSError
     // 0x99b780: r0 = Null
     //     0x99b780: mov             x0, NULL
     // 0x99b784: r0 = ReturnAsyncNotFuture()
@@ -2052,7 +2052,7 @@ class WorkoutHLSRecorder extends Object {
     // 0x99b890: mov             x1, x2
     // 0x99b894: mov             x2, x16
     // 0x99b898: r0 = recordHLSError()
-    //     0x99b898: bl              #0x73f2b8  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::recordHLSError
+    //     0x99b898: bl              #0x73f2b8  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::recordHLSError
     // 0x99b89c: r0 = Null
     //     0x99b89c: mov             x0, NULL
     // 0x99b8a0: LeaveFrame
@@ -2080,7 +2080,7 @@ class WorkoutHLSRecorder extends Object {
     //     0x99b8d0: b.ls            #0x99b8e8
     // 0x99b8d4: ldr             x2, [fp, #0x10]
     // 0x99b8d8: r0 = _handleNativeEvent()
-    //     0x99b8d8: bl              #0x99b8f0  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_handleNativeEvent
+    //     0x99b8d8: bl              #0x99b8f0  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_handleNativeEvent
     // 0x99b8dc: LeaveFrame
     //     0x99b8dc: mov             SP, fp
     //     0x99b8e0: ldp             fp, lr, [SP], #0x10
@@ -2360,7 +2360,7 @@ class WorkoutHLSRecorder extends Object {
     //     0x99bbe8: add             x1, x1, HEAP, lsl #32
     // 0x99bbec: ldur            x2, [fp, #-0x28]
     // 0x99bbf0: r0 = recordHLSError()
-    //     0x99bbf0: bl              #0x73f2b8  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::recordHLSError
+    //     0x99bbf0: bl              #0x73f2b8  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::recordHLSError
     // 0x99bbf4: r0 = Null
     //     0x99bbf4: mov             x0, NULL
     // 0x99bbf8: LeaveFrame
@@ -2531,7 +2531,7 @@ class WorkoutHLSRecorder extends Object {
     // 0x99bde0: ldur            x1, [fp, #-8]
     // 0x99bde4: mov             x2, x0
     // 0x99bde8: r0 = _bytesFromEvent()
-    //     0x99bde8: bl              #0x99c070  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_bytesFromEvent
+    //     0x99bde8: bl              #0x99c070  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_bytesFromEvent
     // 0x99bdec: mov             x1, x0
     // 0x99bdf0: ldur            x2, [fp, #-0x18]
     // 0x99bdf4: stur            x1, [fp, #-0x40]
@@ -2710,7 +2710,7 @@ class WorkoutHLSRecorder extends Object {
     // 0x99bfe8: ldur            x2, [fp, #-0x18]
     // 0x99bfec: stur            x3, [fp, #-0x10]
     // 0x99bff0: r1 = Function '<anonymous closure>':.
-    //     0x99bff0: add             x1, PP, #0x40, lsl #12  ; [pp+0x40eb0] AnonymousClosure: (0x99c328), in [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_handleNativeEvent (0x99b8f0)
+    //     0x99bff0: add             x1, PP, #0x40, lsl #12  ; [pp+0x40eb0] AnonymousClosure: (0x99c328), in [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_handleNativeEvent (0x99b8f0)
     //     0x99bff4: ldr             x1, [x1, #0xeb0]
     // 0x99bff8: r0 = AllocateClosure()
     //     0x99bff8: bl              #0xe553e0  ; AllocateClosureStub
@@ -2725,7 +2725,7 @@ class WorkoutHLSRecorder extends Object {
     //     0x99c010: bl              #0xd8925c  ; [dart:async] _Future::then
     // 0x99c014: ldur            x2, [fp, #-0x18]
     // 0x99c018: r1 = Function '<anonymous closure>':.
-    //     0x99c018: add             x1, PP, #0x40, lsl #12  ; [pp+0x40eb8] AnonymousClosure: (0x99c214), in [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_handleNativeEvent (0x99b8f0)
+    //     0x99c018: add             x1, PP, #0x40, lsl #12  ; [pp+0x40eb8] AnonymousClosure: (0x99c214), in [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_handleNativeEvent (0x99b8f0)
     //     0x99c01c: ldr             x1, [x1, #0xeb8]
     // 0x99c020: stur            x0, [fp, #-0x10]
     // 0x99c024: r0 = AllocateClosure()
@@ -2998,7 +2998,7 @@ class WorkoutHLSRecorder extends Object {
     // 0x99c304: mov             x1, x2
     // 0x99c308: mov             x2, x16
     // 0x99c30c: r0 = recordHLSError()
-    //     0x99c30c: bl              #0x73f2b8  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::recordHLSError
+    //     0x99c30c: bl              #0x73f2b8  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::recordHLSError
     // 0x99c310: r0 = Null
     //     0x99c310: mov             x0, NULL
     // 0x99c314: LeaveFrame
@@ -3050,7 +3050,7 @@ class WorkoutHLSRecorder extends Object {
     // 0x99c384: DecompressPointer r5
     //     0x99c384: add             x5, x5, HEAP, lsl #32
     // 0x99c388: r0 = _uploadFragment()
-    //     0x99c388: bl              #0x99c3c0  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_uploadFragment
+    //     0x99c388: bl              #0x99c3c0  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_uploadFragment
     // 0x99c38c: mov             x1, x0
     // 0x99c390: stur            x1, [fp, #-0x18]
     // 0x99c394: r0 = Await()
@@ -3148,7 +3148,7 @@ class WorkoutHLSRecorder extends Object {
     // 0x99c480: ldur            x1, [fp, #-0x80]
     // 0x99c484: ldur            x2, [fp, #-0x90]
     // 0x99c488: r0 = _metadataFor()
-    //     0x99c488: bl              #0x99db34  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_metadataFor
+    //     0x99c488: bl              #0x99db34  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_metadataFor
     // 0x99c48c: ldur            x1, [fp, #-0xa0]
     // 0x99c490: ldur            x2, [fp, #-0x88]
     // 0x99c494: mov             x3, x0
@@ -3263,7 +3263,7 @@ class WorkoutHLSRecorder extends Object {
     // 0x99c5cc: ldur            x2, [fp, #-0x88]
     // 0x99c5d0: ldur            x3, [fp, #-0x98]
     // 0x99c5d4: r0 = _uploadSignedPlaylistIfFinal()
-    //     0x99c5d4: bl              #0x99c6d8  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_uploadSignedPlaylistIfFinal
+    //     0x99c5d4: bl              #0x99c6d8  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_uploadSignedPlaylistIfFinal
     // 0x99c5d8: mov             x1, x0
     // 0x99c5dc: stur            x1, [fp, #-0x80]
     // 0x99c5e0: r0 = Await()
@@ -3413,7 +3413,7 @@ class WorkoutHLSRecorder extends Object {
     // 0x99c758: ldur            x2, [fp, #-0x18]
     // 0x99c75c: mov             x3, x0
     // 0x99c760: r0 = _rewritePlaylistWithDownloadUrls()
-    //     0x99c760: bl              #0x99cdb8  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_rewritePlaylistWithDownloadUrls
+    //     0x99c760: bl              #0x99cdb8  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_rewritePlaylistWithDownloadUrls
     // 0x99c764: mov             x1, x0
     // 0x99c768: stur            x1, [fp, #-0x18]
     // 0x99c76c: r0 = Await()
@@ -3469,7 +3469,7 @@ class WorkoutHLSRecorder extends Object {
     //     0x99c7ec: ldr             x2, [x2, #0xef8]
     // 0x99c7f0: stur            x0, [fp, #-0x10]
     // 0x99c7f4: r0 = _metadataFor()
-    //     0x99c7f4: bl              #0x99db34  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_metadataFor
+    //     0x99c7f4: bl              #0x99db34  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_metadataFor
     // 0x99c7f8: ldur            x1, [fp, #-0x10]
     // 0x99c7fc: ldur            x2, [fp, #-0x18]
     // 0x99c800: mov             x3, x0
@@ -3577,7 +3577,7 @@ class WorkoutHLSRecorder extends Object {
     //     0x99ce58: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x99ce5c: mov             x2, x3
     // 0x99ce60: r1 = Function 'downloadUrlFor':.
-    //     0x99ce60: add             x1, PP, #0x40, lsl #12  ; [pp+0x40f40] AnonymousClosure: (0x99d4c8), in [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_rewritePlaylistWithDownloadUrls (0x99cdb8)
+    //     0x99ce60: add             x1, PP, #0x40, lsl #12  ; [pp+0x40f40] AnonymousClosure: (0x99d4c8), in [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_rewritePlaylistWithDownloadUrls (0x99cdb8)
     //     0x99ce64: ldr             x1, [x1, #0xf40]
     // 0x99ce68: r0 = AllocateClosure()
     //     0x99ce68: bl              #0xe553e0  ; AllocateClosureStub
@@ -3860,7 +3860,7 @@ class WorkoutHLSRecorder extends Object {
     // 0x99d198: ldur            x1, [fp, #-0x10]
     // 0x99d19c: ldur            x2, [fp, #-0x30]
     // 0x99d1a0: r0 = _isHlsMediaLine()
-    //     0x99d1a0: bl              #0x99d3cc  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_isHlsMediaLine
+    //     0x99d1a0: bl              #0x99d3cc  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_isHlsMediaLine
     // 0x99d1a4: tbnz            w0, #4, #0x99d258
     // 0x99d1a8: ldur            x1, [fp, #-0x58]
     // 0x99d1ac: ldur            x16, [fp, #-0x20]
@@ -4081,7 +4081,7 @@ class WorkoutHLSRecorder extends Object {
     // 0x99d414: ldur            x1, [fp, #-0x10]
     // 0x99d418: ldur            x2, [fp, #-0x18]
     // 0x99d41c: r0 = _isAbsoluteUri()
-    //     0x99d41c: bl              #0x99d350  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_isAbsoluteUri
+    //     0x99d41c: bl              #0x99d350  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_isAbsoluteUri
     // 0x99d420: tbnz            w0, #4, #0x99d434
     // 0x99d424: r0 = false
     //     0x99d424: add             x0, NULL, #0x30  ; false
@@ -4279,12 +4279,12 @@ class WorkoutHLSRecorder extends Object {
     // 0x99db5c: mov             x1, x3
     // 0x99db60: mov             x2, x0
     // 0x99db64: r0 = _contentTypeFor()
-    //     0x99db64: bl              #0x99dc9c  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_contentTypeFor
+    //     0x99db64: bl              #0x99dc9c  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_contentTypeFor
     // 0x99db68: ldur            x1, [fp, #-8]
     // 0x99db6c: ldur            x2, [fp, #-0x10]
     // 0x99db70: stur            x0, [fp, #-8]
     // 0x99db74: r0 = _cacheControlFor()
-    //     0x99db74: bl              #0x99dc2c  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_cacheControlFor
+    //     0x99db74: bl              #0x99dc2c  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::_cacheControlFor
     // 0x99db78: mov             x1, x0
     // 0x99db7c: ldur            x0, [fp, #-0x10]
     // 0x99db80: stur            x1, [fp, #-0x18]

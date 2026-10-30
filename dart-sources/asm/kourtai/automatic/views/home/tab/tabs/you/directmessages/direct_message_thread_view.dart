@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart
 
 // class id: 1049015, size: 0x8
 class :: {
@@ -106,10 +106,10 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     // 0x980374: ldur            x6, [fp, #-0x20]
     // 0x980378: ldur            x7, [fp, #-0x18]
     // 0x98037c: r0 = DirectMessageThreadViewModel()
-    //     0x98037c: bl              #0x982f7c  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::DirectMessageThreadViewModel
+    //     0x98037c: bl              #0x982f7c  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::DirectMessageThreadViewModel
     // 0x980380: ldur            x2, [fp, #-8]
     // 0x980384: r1 = Function '_onVmChanged@1107093217':.
-    //     0x980384: add             x1, PP, #0x27, lsl #12  ; [pp+0x273e8] AnonymousClosure: (0x983314), in [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_onVmChanged (0x98334c)
+    //     0x980384: add             x1, PP, #0x27, lsl #12  ; [pp+0x273e8] AnonymousClosure: (0x983314), in [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_onVmChanged (0x98334c)
     //     0x980388: ldr             x1, [x1, #0x3e8]
     // 0x98038c: r0 = AllocateClosure()
     //     0x98038c: bl              #0xe553e0  ; AllocateClosureStub
@@ -137,7 +137,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     //     0x9803d0: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0x9803d4: ldur            x1, [fp, #-0x50]
     // 0x9803d8: r0 = start()
-    //     0x9803d8: bl              #0x980414  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::start
+    //     0x9803d8: bl              #0x980414  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::start
     // 0x9803dc: r0 = Null
     //     0x9803dc: mov             x0, NULL
     // 0x9803e0: LeaveFrame
@@ -177,7 +177,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     //     0x98332c: cmp             SP, x16
     //     0x983330: b.ls            #0x983344
     // 0x983334: r0 = _onVmChanged()
-    //     0x983334: bl              #0x98334c  ; [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_onVmChanged
+    //     0x983334: bl              #0x98334c  ; [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_onVmChanged
     // 0x983338: LeaveFrame
     //     0x983338: mov             SP, fp
     //     0x98333c: ldp             fp, lr, [SP], #0x10
@@ -258,7 +258,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     // 0x9833f4: mov             x2, x3
     // 0x9833f8: stur            x5, [fp, #-0x10]
     // 0x9833fc: r1 = Function '<anonymous closure>':.
-    //     0x9833fc: add             x1, PP, #0x27, lsl #12  ; [pp+0x273f0] AnonymousClosure: (0x9836d8), in [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_onVmChanged (0x98334c)
+    //     0x9833fc: add             x1, PP, #0x27, lsl #12  ; [pp+0x273f0] AnonymousClosure: (0x9836d8), in [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_onVmChanged (0x98334c)
     //     0x983400: ldr             x1, [x1, #0x3f0]
     // 0x983404: r0 = AllocateClosure()
     //     0x983404: bl              #0xe553e0  ; AllocateClosureStub
@@ -363,7 +363,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     // 0x983514: ldur            x2, [fp, #-0x20]
     // 0x983518: stur            x0, [fp, #-8]
     // 0x98351c: r1 = Function '<anonymous closure>':.
-    //     0x98351c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27410] AnonymousClosure: (0x983600), in [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_onVmChanged (0x98334c)
+    //     0x98351c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27410] AnonymousClosure: (0x983600), in [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_onVmChanged (0x98334c)
     //     0x983520: ldr             x1, [x1, #0x410]
     // 0x983524: r0 = AllocateClosure()
     //     0x983524: bl              #0xe553e0  ; AllocateClosureStub
@@ -467,7 +467,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     //     0x983624: add             x0, x0, HEAP, lsl #32
     // 0x983628: mov             x1, x0
     // 0x98362c: r0 = _scrollToBottom()
-    //     0x98362c: bl              #0x983648  ; [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_scrollToBottom
+    //     0x98362c: bl              #0x983648  ; [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_scrollToBottom
     // 0x983630: r0 = Null
     //     0x983630: mov             x0, NULL
     // 0x983634: LeaveFrame
@@ -626,7 +626,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     // 0x9837a8: b.eq            #0x9837cc
     // 0x9837ac: mov             x1, x0
     // 0x9837b0: r0 = clearError()
-    //     0x9837b0: bl              #0x9837d8  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::clearError
+    //     0x9837b0: bl              #0x9837d8  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::clearError
     // 0x9837b4: r0 = Null
     //     0x9837b4: mov             x0, NULL
     // 0x9837b8: LeaveFrame
@@ -694,7 +694,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     // 0xa8f6e4: DecompressPointer r1
     //     0xa8f6e4: add             x1, x1, HEAP, lsl #32
     // 0xa8f6e8: r0 = homeIslandScrollBottomPadding()
-    //     0xa8f6e8: bl              #0xa3cf84  ; [package:ballai/automatic/utility/ui/home_island_scroll_padding.dart] ::homeIslandScrollBottomPadding
+    //     0xa8f6e8: bl              #0xa3cf84  ; [package:kourtai/automatic/utility/ui/home_island_scroll_padding.dart] ::homeIslandScrollBottomPadding
     // 0xa8f6ec: ldur            x0, [fp, #-8]
     // 0xa8f6f0: ldur            x2, [fp, #-0x18]
     // 0xa8f6f4: stur            d0, [fp, #-0x48]
@@ -731,15 +731,15 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     // 0xa8f73c: cmp             w1, w16
     // 0xa8f740: b.eq            #0xa8fc80
     // 0xa8f744: r0 = navigationTitle()
-    //     0xa8f744: bl              #0xa932ec  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::navigationTitle
+    //     0xa8f744: bl              #0xa932ec  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::navigationTitle
     // 0xa8f748: ldur            x2, [fp, #-0x18]
     // 0xa8f74c: stur            x0, [fp, #-0x28]
     // 0xa8f750: LoadField: r1 = r2->field_13
     //     0xa8f750: ldur            w1, [x2, #0x13]
     // 0xa8f754: DecompressPointer r1
     //     0xa8f754: add             x1, x1, HEAP, lsl #32
-    // 0xa8f758: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa8f758: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa8f758: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa8f758: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa8f75c: stur            x0, [fp, #-0x30]
     // 0xa8f760: r0 = TextStyle()
     //     0xa8f760: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -777,16 +777,16 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     //     0xa8f7b4: ldur            w1, [x0, #0x13]
     // 0xa8f7b8: DecompressPointer r1
     //     0xa8f7b8: add             x1, x1, HEAP, lsl #32
-    // 0xa8f7bc: r0 = BallAiThemeContext.ballAiBackButtonFill()
-    //     0xa8f7bc: bl              #0x9d6208  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiBackButtonFill
+    // 0xa8f7bc: r0 = KourtAiThemeContext.kourtAiBackButtonFill()
+    //     0xa8f7bc: bl              #0x9d6208  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiBackButtonFill
     // 0xa8f7c0: ldur            x2, [fp, #-0x18]
     // 0xa8f7c4: stur            x0, [fp, #-0x28]
     // 0xa8f7c8: LoadField: r1 = r2->field_13
     //     0xa8f7c8: ldur            w1, [x2, #0x13]
     // 0xa8f7cc: DecompressPointer r1
     //     0xa8f7cc: add             x1, x1, HEAP, lsl #32
-    // 0xa8f7d0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa8f7d0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa8f7d0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa8f7d0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa8f7d4: stur            x0, [fp, #-0x38]
     // 0xa8f7d8: r0 = Icon()
     //     0xa8f7d8: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -814,7 +814,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     //     0xa8f814: stur            w0, [x3, #0xb]
     // 0xa8f818: ldur            x2, [fp, #-0x18]
     // 0xa8f81c: r1 = Function '<anonymous closure>':.
-    //     0xa8f81c: add             x1, PP, #0x26, lsl #12  ; [pp+0x26c80] AnonymousClosure: (0x9d7480), in [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
+    //     0xa8f81c: add             x1, PP, #0x26, lsl #12  ; [pp+0x26c80] AnonymousClosure: (0x9d7480), in [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
     //     0xa8f820: ldr             x1, [x1, #0xc80]
     // 0xa8f824: r0 = AllocateClosure()
     //     0xa8f824: bl              #0xe553e0  ; AllocateClosureStub
@@ -929,7 +929,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     //     0xa8f934: bl              #0xa144f8  ; [package:flutter/src/material/app_bar.dart] AppBar::AppBar
     // 0xa8f938: ldur            x1, [fp, #-8]
     // 0xa8f93c: r0 = _buildMessageList()
-    //     0xa8f93c: bl              #0xa901f4  ; [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_buildMessageList
+    //     0xa8f93c: bl              #0xa901f4  ; [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_buildMessageList
     // 0xa8f940: r1 = <FlexParentData>
     //     0xa8f940: add             x1, PP, #0x18, lsl #12  ; [pp+0x183e0] TypeArguments: <FlexParentData>
     //     0xa8f944: ldr             x1, [x1, #0x3e0]
@@ -968,7 +968,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     //     0xa8f994: stur            d0, [x0, #0x1f]
     // 0xa8f998: ldur            x1, [fp, #-8]
     // 0xa8f99c: r0 = _buildComposerField()
-    //     0xa8f99c: bl              #0xa8fc90  ; [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_buildComposerField
+    //     0xa8f99c: bl              #0xa8fc90  ; [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_buildComposerField
     // 0xa8f9a0: r1 = <FlexParentData>
     //     0xa8f9a0: add             x1, PP, #0x18, lsl #12  ; [pp+0x183e0] TypeArguments: <FlexParentData>
     //     0xa8f9a4: ldr             x1, [x1, #0x3e0]
@@ -1011,7 +1011,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     // 0xa8fa04: b               #0xa8fa20
     // 0xa8fa08: ldur            x2, [fp, #-0x18]
     // 0xa8fa0c: r1 = Function '<anonymous closure>':.
-    //     0xa8fa0c: add             x1, PP, #0x26, lsl #12  ; [pp+0x26ca0] AnonymousClosure: (0xa9342c), in [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::build (0xa8f66c)
+    //     0xa8fa0c: add             x1, PP, #0x26, lsl #12  ; [pp+0x26ca0] AnonymousClosure: (0xa9342c), in [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::build (0xa8f66c)
     //     0xa8fa10: ldr             x1, [x1, #0xca0]
     // 0xa8fa14: r0 = AllocateClosure()
     //     0xa8fa14: bl              #0xe553e0  ; AllocateClosureStub
@@ -1380,8 +1380,8 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     //     0xa8fda8: add             x1, x1, HEAP, lsl #32
     // 0xa8fdac: cmp             w1, NULL
     // 0xa8fdb0: b.eq            #0xa900dc
-    // 0xa8fdb4: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xa8fdb4: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xa8fdb4: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xa8fdb4: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xa8fdb8: stur            x0, [fp, #-0x20]
     // 0xa8fdbc: r0 = Radius()
     //     0xa8fdbc: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -1412,8 +1412,8 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     //     0xa8fdf8: add             x1, x1, HEAP, lsl #32
     // 0xa8fdfc: cmp             w1, NULL
     // 0xa8fe00: b.eq            #0xa900e0
-    // 0xa8fe04: r0 = BallAiThemeContext.ballAi()
-    //     0xa8fe04: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xa8fe04: r0 = KourtAiThemeContext.kourtAi()
+    //     0xa8fe04: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xa8fe08: LoadField: r2 = r0->field_1f
     //     0xa8fe08: ldur            w2, [x0, #0x1f]
     // 0xa8fe0c: DecompressPointer r2
@@ -1460,8 +1460,8 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     //     0xa8fe70: add             x1, x1, HEAP, lsl #32
     // 0xa8fe74: cmp             w1, NULL
     // 0xa8fe78: b.eq            #0xa900e4
-    // 0xa8fe7c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa8fe7c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa8fe7c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa8fe7c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa8fe80: stur            x0, [fp, #-0x30]
     // 0xa8fe84: r0 = TextStyle()
     //     0xa8fe84: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1478,7 +1478,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     //     0xa8fea0: add             x1, PP, #0x27, lsl #12  ; [pp+0x27030] "Message"
     //     0xa8fea4: ldr             x1, [x1, #0x30]
     // 0xa8fea8: r0 = L()
-    //     0xa8fea8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8fea8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8feac: mov             x2, x0
     // 0xa8feb0: ldur            x0, [fp, #-8]
     // 0xa8feb4: stur            x2, [fp, #-0x30]
@@ -1488,8 +1488,8 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     //     0xa8febc: add             x1, x1, HEAP, lsl #32
     // 0xa8fec0: cmp             w1, NULL
     // 0xa8fec4: b.eq            #0xa900e8
-    // 0xa8fec8: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa8fec8: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa8fec8: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa8fec8: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa8fecc: stur            x0, [fp, #-8]
     // 0xa8fed0: r0 = TextStyle()
     //     0xa8fed0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1598,7 +1598,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     //     0xa8ffc0: stur            w0, [x3, #0x67]
     // 0xa8ffc4: ldur            x2, [fp, #-0x28]
     // 0xa8ffc8: r1 = Function 'setComposerText':.
-    //     0xa8ffc8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27050] AnonymousClosure: (0xa90168), in [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::setComposerText (0xa901a4)
+    //     0xa8ffc8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27050] AnonymousClosure: (0xa90168), in [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::setComposerText (0xa901a4)
     //     0xa8ffcc: ldr             x1, [x1, #0x50]
     // 0xa8ffd0: r0 = AllocateClosure()
     //     0xa8ffd0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1608,7 +1608,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     //     0xa8ffdc: stur            w1, [x0, #0x7f]
     // 0xa8ffe0: ldur            x2, [fp, #-0x18]
     // 0xa8ffe4: r1 = Function '<anonymous closure>':.
-    //     0xa8ffe4: add             x1, PP, #0x27, lsl #12  ; [pp+0x27058] AnonymousClosure: (0xa900ec), in [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_buildComposerField (0xa8fc90)
+    //     0xa8ffe4: add             x1, PP, #0x27, lsl #12  ; [pp+0x27058] AnonymousClosure: (0xa900ec), in [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_buildComposerField (0xa8fc90)
     //     0xa8ffe8: ldr             x1, [x1, #0x58]
     // 0xa8ffec: r0 = AllocateClosure()
     //     0xa8ffec: bl              #0xe553e0  ; AllocateClosureStub
@@ -1753,7 +1753,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     //     0xa90138: add             x0, x0, HEAP, lsl #32
     // 0xa9013c: tbz             w0, #4, #0xa90144
     // 0xa90140: r0 = sendMessage()
-    //     0xa90140: bl              #0x71e3c8  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage
+    //     0xa90140: bl              #0x71e3c8  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage
     // 0xa90144: r0 = Null
     //     0xa90144: mov             x0, NULL
     // 0xa90148: LeaveFrame
@@ -1861,8 +1861,8 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     //     0xa902c8: add             x1, x1, HEAP, lsl #32
     // 0xa902cc: cmp             w1, NULL
     // 0xa902d0: b.eq            #0xa9052c
-    // 0xa902d4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa902d4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa902d4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa902d4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa902d8: stur            x0, [fp, #-0x10]
     // 0xa902dc: r0 = Icon()
     //     0xa902dc: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -1887,7 +1887,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     // 0xa90310: DecompressPointer r1
     //     0xa90310: add             x1, x1, HEAP, lsl #32
     // 0xa90314: r0 = emptyStateCopy()
-    //     0xa90314: bl              #0xa90a04  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::emptyStateCopy
+    //     0xa90314: bl              #0xa90a04  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::emptyStateCopy
     // 0xa90318: mov             x2, x0
     // 0xa9031c: ldur            x0, [fp, #-8]
     // 0xa90320: stur            x2, [fp, #-0x10]
@@ -1897,8 +1897,8 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     //     0xa90328: add             x1, x1, HEAP, lsl #32
     // 0xa9032c: cmp             w1, NULL
     // 0xa90330: b.eq            #0xa90530
-    // 0xa90334: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa90334: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa90334: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa90334: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa90338: stur            x0, [fp, #-0x20]
     // 0xa9033c: r0 = TextStyle()
     //     0xa9033c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2031,7 +2031,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     //     0xa9047c: ret             
     // 0xa90480: mov             x1, x4
     // 0xa90484: r0 = group()
-    //     0xa90484: bl              #0xa90534  ; [package:ballai/automatic/utility/messaging/message_grouping.dart] MessageGrouping::group
+    //     0xa90484: bl              #0xa90534  ; [package:kourtai/automatic/utility/messaging/message_grouping.dart] MessageGrouping::group
     // 0xa90488: mov             x1, x0
     // 0xa9048c: ldur            x2, [fp, #-0x30]
     // 0xa90490: StoreField: r2->field_13 = r0
@@ -2054,7 +2054,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     //     0xa904c0: sbfx            x4, x0, #1, #0x1f
     // 0xa904c4: stur            x4, [fp, #-0x38]
     // 0xa904c8: r1 = Function '<anonymous closure>':.
-    //     0xa904c8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27228] AnonymousClosure: (0xa90a70), in [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_buildMessageList (0xa901f4)
+    //     0xa904c8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27228] AnonymousClosure: (0xa90a70), in [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_buildMessageList (0xa901f4)
     //     0xa904cc: ldr             x1, [x1, #0x228]
     // 0xa904d0: r0 = AllocateClosure()
     //     0xa904d0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2156,15 +2156,15 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     // 0xa90b08: DecompressPointer r1
     //     0xa90b08: add             x1, x1, HEAP, lsl #32
     // 0xa90b0c: r0 = headerString()
-    //     0xa90b0c: bl              #0xa90d88  ; [package:ballai/automatic/utility/messaging/message_grouping.dart] MessageGrouping::headerString
+    //     0xa90b0c: bl              #0xa90d88  ; [package:kourtai/automatic/utility/messaging/message_grouping.dart] MessageGrouping::headerString
     // 0xa90b10: ldur            x2, [fp, #-0x10]
     // 0xa90b14: stur            x0, [fp, #-0x18]
     // 0xa90b18: LoadField: r1 = r2->field_f
     //     0xa90b18: ldur            w1, [x2, #0xf]
     // 0xa90b1c: DecompressPointer r1
     //     0xa90b1c: add             x1, x1, HEAP, lsl #32
-    // 0xa90b20: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa90b20: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa90b20: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa90b20: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa90b24: stur            x0, [fp, #-0x20]
     // 0xa90b28: r0 = TextStyle()
     //     0xa90b28: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2243,7 +2243,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     // 0xa90be4: ldur            x2, [fp, #-0x10]
     // 0xa90be8: stur            x0, [fp, #-8]
     // 0xa90bec: r1 = Function '<anonymous closure>':.
-    //     0xa90bec: add             x1, PP, #0x27, lsl #12  ; [pp+0x27248] AnonymousClosure: (0xa91974), in [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_buildMessageList (0xa901f4)
+    //     0xa90bec: add             x1, PP, #0x27, lsl #12  ; [pp+0x27248] AnonymousClosure: (0xa91974), in [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_buildMessageList (0xa901f4)
     //     0xa90bf0: ldr             x1, [x1, #0x248]
     // 0xa90bf4: r0 = AllocateClosure()
     //     0xa90bf4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2529,7 +2529,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     // 0xa91ad4: b.eq            #0xa92370
     // 0xa91ad8: mov             x1, x4
     // 0xa91adc: r0 = conversationType()
-    //     0xa91adc: bl              #0x7259c0  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationType
+    //     0xa91adc: bl              #0x7259c0  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationType
     // 0xa91ae0: r16 = Instance_ConversationType
     //     0xa91ae0: add             x16, PP, #0x11, lsl #12  ; [pp+0x11b20] Obj!ConversationType@d3b721
     //     0xa91ae4: ldr             x16, [x16, #0xb20]
@@ -2553,7 +2553,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     // 0xa91b18: mov             x1, x2
     // 0xa91b1c: ldur            x2, [fp, #-0x18]
     // 0xa91b20: r0 = senderDisplayName()
-    //     0xa91b20: bl              #0xa92690  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::senderDisplayName
+    //     0xa91b20: bl              #0xa92690  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::senderDisplayName
     // 0xa91b24: mov             x3, x0
     // 0xa91b28: b               #0xa91b30
     // 0xa91b2c: r3 = Null
@@ -2793,8 +2793,8 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     // 0xa91dc4: DecompressPointer r3
     //     0xa91dc4: add             x3, x3, HEAP, lsl #32
     // 0xa91dc8: mov             x1, x3
-    // 0xa91dcc: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa91dcc: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa91dcc: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa91dcc: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa91dd0: stur            x0, [fp, #-8]
     // 0xa91dd4: r0 = TextStyle()
     //     0xa91dd4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2903,7 +2903,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     // 0xa91ef8: mov             x1, x2
     // 0xa91efc: mov             x2, x6
     // 0xa91f00: r0 = isPendingOutgoing()
-    //     0xa91f00: bl              #0xa9264c  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::isPendingOutgoing
+    //     0xa91f00: bl              #0xa9264c  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::isPendingOutgoing
     // 0xa91f04: mov             x3, x0
     // 0xa91f08: ldur            x0, [fp, #-0x10]
     // 0xa91f0c: stur            x3, [fp, #-8]
@@ -2922,7 +2922,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     // 0xa91f2c: mov             x1, x2
     // 0xa91f30: ldur            x2, [fp, #-0x20]
     // 0xa91f34: r0 = isMessageLiked()
-    //     0xa91f34: bl              #0xa924e0  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::isMessageLiked
+    //     0xa91f34: bl              #0xa924e0  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::isMessageLiked
     // 0xa91f38: mov             x3, x0
     // 0xa91f3c: ldur            x0, [fp, #-0x10]
     // 0xa91f40: stur            x3, [fp, #-0x18]
@@ -2941,7 +2941,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     // 0xa91f60: mov             x1, x2
     // 0xa91f64: ldur            x2, [fp, #-0x20]
     // 0xa91f68: r0 = effectiveLikeCount()
-    //     0xa91f68: bl              #0xa92428  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::effectiveLikeCount
+    //     0xa91f68: bl              #0xa92428  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::effectiveLikeCount
     // 0xa91f6c: mov             x3, x0
     // 0xa91f70: ldur            x0, [fp, #-0x10]
     // 0xa91f74: stur            x3, [fp, #-0x28]
@@ -2960,7 +2960,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     // 0xa91f94: mov             x1, x2
     // 0xa91f98: ldur            x2, [fp, #-0x20]
     // 0xa91f9c: r0 = isLikeUpdating()
-    //     0xa91f9c: bl              #0xa923e4  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::isLikeUpdating
+    //     0xa91f9c: bl              #0xa923e4  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::isLikeUpdating
     // 0xa91fa0: stur            x0, [fp, #-0x60]
     // 0xa91fa4: r0 = _DirectMessageBubble()
     //     0xa91fa4: bl              #0xa923d8  ; Allocate_DirectMessageBubbleStub -> _DirectMessageBubble (size=0x30)
@@ -2989,7 +2989,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     //     0xa91fe4: stur            w1, [x3, #0x27]
     // 0xa91fe8: ldur            x2, [fp, #-0x38]
     // 0xa91fec: r1 = Function '<anonymous closure>':.
-    //     0xa91fec: add             x1, PP, #0x27, lsl #12  ; [pp+0x27288] AnonymousClosure: (0xa9279c), in [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_buildMessageList (0xa901f4)
+    //     0xa91fec: add             x1, PP, #0x27, lsl #12  ; [pp+0x27288] AnonymousClosure: (0xa9279c), in [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_buildMessageList (0xa901f4)
     //     0xa91ff0: ldr             x1, [x1, #0x288]
     // 0xa91ff4: r0 = AllocateClosure()
     //     0xa91ff4: bl              #0xe553e0  ; AllocateClosureStub
@@ -3413,7 +3413,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     // 0xa927f0: mov             x1, x2
     // 0xa927f4: mov             x2, x0
     // 0xa927f8: r0 = toggleLike()
-    //     0xa927f8: bl              #0xa9281c  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::toggleLike
+    //     0xa927f8: bl              #0xa9281c  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::toggleLike
     // 0xa927fc: LeaveFrame
     //     0xa927fc: mov             SP, fp
     //     0xa92800: ldp             fp, lr, [SP], #0x10
@@ -3455,7 +3455,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     // 0xa93460: cmp             w1, w16
     // 0xa93464: b.eq            #0xa93480
     // 0xa93468: r0 = sendMessage()
-    //     0xa93468: bl              #0x71e3c8  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage
+    //     0xa93468: bl              #0x71e3c8  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage
     // 0xa9346c: LeaveFrame
     //     0xa9346c: mov             SP, fp
     //     0xa93470: ldp             fp, lr, [SP], #0x10
@@ -3477,7 +3477,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     //     0xb5bef0: mov             fp, SP
     // 0xb5bef4: ldr             x2, [fp, #0x10]
     // 0xb5bef8: r1 = Function 'dispose':.
-    //     0xb5bef8: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c178] AnonymousClosure: (0xb5bf10), in [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::dispose (0xb62fe4)
+    //     0xb5bef8: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c178] AnonymousClosure: (0xb5bf10), in [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::dispose (0xb62fe4)
     //     0xb5befc: ldr             x1, [x1, #0x178]
     // 0xb5bf00: r0 = AllocateClosure()
     //     0xb5bf00: bl              #0xe553e0  ; AllocateClosureStub
@@ -3502,7 +3502,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     //     0xb5bf28: cmp             SP, x16
     //     0xb5bf2c: b.ls            #0xb5bf40
     // 0xb5bf30: r0 = dispose()
-    //     0xb5bf30: bl              #0xb62fe4  ; [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::dispose
+    //     0xb5bf30: bl              #0xb62fe4  ; [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::dispose
     // 0xb5bf34: LeaveFrame
     //     0xb5bf34: mov             SP, fp
     //     0xb5bf38: ldp             fp, lr, [SP], #0x10
@@ -3537,7 +3537,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     // 0xb63018: mov             x2, x0
     // 0xb6301c: stur            x3, [fp, #-8]
     // 0xb63020: r1 = Function '_onVmChanged@1107093217':.
-    //     0xb63020: add             x1, PP, #0x27, lsl #12  ; [pp+0x273e8] AnonymousClosure: (0x983314), in [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_onVmChanged (0x98334c)
+    //     0xb63020: add             x1, PP, #0x27, lsl #12  ; [pp+0x273e8] AnonymousClosure: (0x983314), in [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_onVmChanged (0x98334c)
     //     0xb63024: ldr             x1, [x1, #0x3e8]
     // 0xb63028: r0 = AllocateClosure()
     //     0xb63028: bl              #0xe553e0  ; AllocateClosureStub
@@ -3551,7 +3551,7 @@ class _DirectMessageThreadViewState extends State<dynamic> {
     // 0xb63040: DecompressPointer r1
     //     0xb63040: add             x1, x1, HEAP, lsl #32
     // 0xb63044: r0 = stop()
-    //     0xb63044: bl              #0xb6309c  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::stop
+    //     0xb63044: bl              #0xb6309c  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::stop
     // 0xb63048: ldur            x0, [fp, #-0x10]
     // 0xb6304c: LoadField: r1 = r0->field_13
     //     0xb6304c: ldur            w1, [x0, #0x13]
@@ -3725,7 +3725,7 @@ class DirectMessageThreadView extends StatefulWidget {
     // 0xb7525c: mov             x1, x0
     // 0xb75260: stur            x0, [fp, #-8]
     // 0xb75264: r0 = _DirectMessageThreadViewState()
-    //     0xb75264: bl              #0xb75280  ; [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_DirectMessageThreadViewState
+    //     0xb75264: bl              #0xb75280  ; [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageThreadViewState::_DirectMessageThreadViewState
     // 0xb75268: ldur            x0, [fp, #-8]
     // 0xb7526c: LeaveFrame
     //     0xb7526c: mov             SP, fp
@@ -3817,14 +3817,14 @@ class _DirectMessageBubble extends StatelessWidget {
     //     0xc16344: ldr             x2, [x2, #0x1c0]
     // 0xc16348: b               #0xc1635c
     // 0xc1634c: ldur            x1, [fp, #-0x28]
-    // 0xc16350: r0 = BallAiThemeContext.ballAiSelectionCardFill()
-    //     0xc16350: bl              #0x9d464c  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSelectionCardFill
+    // 0xc16350: r0 = KourtAiThemeContext.kourtAiSelectionCardFill()
+    //     0xc16350: bl              #0x9d464c  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSelectionCardFill
     // 0xc16354: mov             x2, x0
     // 0xc16358: ldur            x0, [fp, #-0x18]
     // 0xc1635c: ldur            x1, [fp, #-0x20]
     // 0xc16360: stur            x2, [fp, #-0x38]
     // 0xc16364: r0 = _bubbleRadius()
-    //     0xc16364: bl              #0xc16c3c  ; [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageBubble::_bubbleRadius
+    //     0xc16364: bl              #0xc16c3c  ; [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] _DirectMessageBubble::_bubbleRadius
     // 0xc16368: mov             x2, x0
     // 0xc1636c: ldur            x0, [fp, #-0x18]
     // 0xc16370: stur            x2, [fp, #-0x40]
@@ -3834,8 +3834,8 @@ class _DirectMessageBubble extends StatelessWidget {
     //     0xc1637c: mov             x4, NULL
     // 0xc16380: b               #0xc163ac
     // 0xc16384: ldur            x1, [fp, #-0x28]
-    // 0xc16388: r0 = BallAiThemeContext.ballAi()
-    //     0xc16388: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xc16388: r0 = KourtAiThemeContext.kourtAi()
+    //     0xc16388: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xc1638c: LoadField: r2 = r0->field_1f
     //     0xc1638c: ldur            w2, [x0, #0x1f]
     // 0xc16390: DecompressPointer r2
@@ -3887,8 +3887,8 @@ class _DirectMessageBubble extends StatelessWidget {
     //     0xc1640c: ldr             x2, [PP, #0x5178]  ; [pp+0x5178] Obj!Color@d2a0a1
     // 0xc16410: b               #0xc16424
     // 0xc16414: ldur            x1, [fp, #-0x28]
-    // 0xc16418: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc16418: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc16418: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc16418: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc1641c: mov             x2, x0
     // 0xc16420: ldur            x0, [fp, #-0x38]
     // 0xc16424: ldur            x1, [fp, #-8]
@@ -3991,7 +3991,7 @@ class _DirectMessageBubble extends StatelessWidget {
     //     0xc16528: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c9f0] "Sending…"
     //     0xc1652c: ldr             x1, [x1, #0x9f0]
     // 0xc16530: r0 = L()
-    //     0xc16530: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc16530: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc16534: r1 = _ConstMap len:12
     //     0xc16534: ldr             x1, [PP, #0x5428]  ; [pp+0x5428] Map<int, Color>(12)
     // 0xc16538: r2 = 1200

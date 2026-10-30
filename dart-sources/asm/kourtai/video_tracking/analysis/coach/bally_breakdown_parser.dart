@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart
+// lib: , url: package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart
 
 // class id: 1049072, size: 0x8
 class :: {
@@ -169,14 +169,14 @@ abstract class BallyBreakdownParser extends Object {
     //     0x95fdf4: ret             
     // 0x95fdf8: mov             x1, x0
     // 0x95fdfc: r0 = _stripMarkdownCodeFences()
-    //     0x95fdfc: bl              #0x71c91c  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stripMarkdownCodeFences
+    //     0x95fdfc: bl              #0x71c91c  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stripMarkdownCodeFences
     // 0x95fe00: stur            x0, [fp, #-0x58]
     // 0x95fe04: mov             x1, x0
     // 0x95fe08: r0 = jsonDecode()
     //     0x95fe08: bl              #0x65f7e0  ; [dart:convert] ::jsonDecode
     // 0x95fe0c: mov             x1, x0
     // 0x95fe10: r0 = _extractSummary()
-    //     0x95fe10: bl              #0x95fef0  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_extractSummary
+    //     0x95fe10: bl              #0x95fef0  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_extractSummary
     // 0x95fe14: LeaveFrame
     //     0x95fe14: mov             SP, fp
     //     0x95fe18: ldp             fp, lr, [SP], #0x10
@@ -185,7 +185,7 @@ abstract class BallyBreakdownParser extends Object {
     // 0x95fe20: sub             SP, fp, #0x60
     // 0x95fe24: ldur            x1, [fp, #-0x50]
     // 0x95fe28: r0 = _looksLikeJson()
-    //     0x95fe28: bl              #0x95fe88  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_looksLikeJson
+    //     0x95fe28: bl              #0x95fe88  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_looksLikeJson
     // 0x95fe2c: tbnz            w0, #4, #0x95fe70
     // 0x95fe30: r0 = InitLateStaticField(0x62c) // [package:flutter/src/foundation/print.dart] ::debugPrint
     //     0x95fe30: ldr             x0, [THR, #0x68]  ; THR::field_table_values
@@ -413,7 +413,7 @@ abstract class BallyBreakdownParser extends Object {
     //     0x960088: blr             lr
     // 0x96008c: mov             x1, x0
     // 0x960090: r0 = _stringField()
-    //     0x960090: bl              #0x73e174  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
+    //     0x960090: bl              #0x73e174  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
     // 0x960094: mov             x3, x0
     // 0x960098: stur            x3, [fp, #-0x10]
     // 0x96009c: cmp             w3, NULL
@@ -438,7 +438,7 @@ abstract class BallyBreakdownParser extends Object {
     //     0x9600d0: blr             lr
     // 0x9600d4: mov             x1, x0
     // 0x9600d8: r0 = _stringField()
-    //     0x9600d8: bl              #0x73e174  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
+    //     0x9600d8: bl              #0x73e174  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
     // 0x9600dc: stur            x0, [fp, #-8]
     // 0x9600e0: cmp             w0, NULL
     // 0x9600e4: b.eq            #0x960138
@@ -509,7 +509,7 @@ abstract class BallyBreakdownParser extends Object {
     //     0x960918: ret             
     // 0x96091c: mov             x1, x0
     // 0x960920: r0 = toPersistedSummaryText()
-    //     0x960920: bl              #0x95fdc0  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::toPersistedSummaryText
+    //     0x960920: bl              #0x95fdc0  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::toPersistedSummaryText
     // 0x960924: cmp             w0, NULL
     // 0x960928: b.eq            #0x960938
     // 0x96092c: LeaveFrame
@@ -519,7 +519,7 @@ abstract class BallyBreakdownParser extends Object {
     //     0x960934: ret             
     // 0x960938: ldur            x1, [fp, #-8]
     // 0x96093c: r0 = _looksLikeJson()
-    //     0x96093c: bl              #0x95fe88  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_looksLikeJson
+    //     0x96093c: bl              #0x95fe88  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_looksLikeJson
     // 0x960940: tbnz            w0, #4, #0x960954
     // 0x960944: r0 = Null
     //     0x960944: mov             x0, NULL

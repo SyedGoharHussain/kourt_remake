@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/home/activity/ring/charts/custom_trends_activity_ring_view.dart
+// lib: , url: package:kourtai/automatic/views/components/home/activity/ring/charts/custom_trends_activity_ring_view.dart
 
 // class id: 1048803, size: 0x8
 class :: {
@@ -146,8 +146,8 @@ class CustomTrendsActivityRingView extends StatelessWidget {
     //     0xbb5780: add             x3, x3, HEAP, lsl #32
     // 0xbb5784: ldur            x1, [fp, #-0x10]
     // 0xbb5788: stur            x3, [fp, #-0x18]
-    // 0xbb578c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb578c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb578c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb578c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb5790: stur            x0, [fp, #-8]
     // 0xbb5794: r0 = TextStyle()
     //     0xbb5794: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)

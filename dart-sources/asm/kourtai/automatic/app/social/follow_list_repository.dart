@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/social/follow_list_repository.dart
+// lib: , url: package:kourtai/automatic/app/social/follow_list_repository.dart
 
 // class id: 1048666, size: 0x8
 class :: {
@@ -163,7 +163,7 @@ class FollowListRepository extends Object {
     // 0x8fd460: r1 = Null
     //     0x8fd460: mov             x1, NULL
     // 0x8fd464: r0 = FollowModel.fromFirestore()
-    //     0x8fd464: bl              #0x8fd630  ; [package:ballai/automatic/models/core/follow/follow_model.dart] FollowModel::FollowModel.fromFirestore
+    //     0x8fd464: bl              #0x8fd630  ; [package:kourtai/automatic/models/core/follow/follow_model.dart] FollowModel::FollowModel.fromFirestore
     // 0x8fd468: LoadField: r1 = r0->field_f
     //     0x8fd468: ldur            w1, [x0, #0xf]
     // 0x8fd46c: DecompressPointer r1
@@ -236,7 +236,7 @@ class FollowListRepository extends Object {
     // 0x8fd538: ldur            x1, [fp, #-0x18]
     // 0x8fd53c: mov             x2, x3
     // 0x8fd540: r0 = fetchUsersByIds()
-    //     0x8fd540: bl              #0x8fe07c  ; [package:ballai/automatic/app/social/follow_list_repository.dart] FollowListRepository::fetchUsersByIds
+    //     0x8fd540: bl              #0x8fe07c  ; [package:kourtai/automatic/app/social/follow_list_repository.dart] FollowListRepository::fetchUsersByIds
     // 0x8fd544: mov             x1, x0
     // 0x8fd548: stur            x1, [fp, #-0x18]
     // 0x8fd54c: r0 = Await()
@@ -252,7 +252,7 @@ class FollowListRepository extends Object {
     //     0x8fd56c: b.eq            #0x8fd574
     //     0x8fd570: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x8fd574: r1 = Function '<anonymous closure>':.
-    //     0x8fd574: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d478] AnonymousClosure: (0x8fd9cc), in [package:ballai/automatic/app/social/follow_list_repository.dart] FollowListRepository::fetchFollowersPage (0x8fd2b4)
+    //     0x8fd574: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d478] AnonymousClosure: (0x8fd9cc), in [package:kourtai/automatic/app/social/follow_list_repository.dart] FollowListRepository::fetchFollowersPage (0x8fd2b4)
     //     0x8fd578: ldr             x1, [x1, #0x478]
     // 0x8fd57c: r0 = AllocateClosure()
     //     0x8fd57c: bl              #0xe553e0  ; AllocateClosureStub
@@ -512,7 +512,7 @@ class FollowListRepository extends Object {
     // 0x8fdc68: r1 = Null
     //     0x8fdc68: mov             x1, NULL
     // 0x8fdc6c: r0 = FollowModel.fromFirestore()
-    //     0x8fdc6c: bl              #0x8fd630  ; [package:ballai/automatic/models/core/follow/follow_model.dart] FollowModel::FollowModel.fromFirestore
+    //     0x8fdc6c: bl              #0x8fd630  ; [package:kourtai/automatic/models/core/follow/follow_model.dart] FollowModel::FollowModel.fromFirestore
     // 0x8fdc70: LoadField: r2 = r0->field_b
     //     0x8fdc70: ldur            w2, [x0, #0xb]
     // 0x8fdc74: DecompressPointer r2
@@ -632,7 +632,7 @@ class FollowListRepository extends Object {
     // 0x8fddb8: ldur            x1, [fp, #-0x18]
     // 0x8fddbc: mov             x2, x0
     // 0x8fddc0: r0 = fetchUsersByIds()
-    //     0x8fddc0: bl              #0x8fe07c  ; [package:ballai/automatic/app/social/follow_list_repository.dart] FollowListRepository::fetchUsersByIds
+    //     0x8fddc0: bl              #0x8fe07c  ; [package:kourtai/automatic/app/social/follow_list_repository.dart] FollowListRepository::fetchUsersByIds
     // 0x8fddc4: mov             x1, x0
     // 0x8fddc8: stur            x1, [fp, #-0x18]
     // 0x8fddcc: r0 = Await()
@@ -1095,7 +1095,7 @@ class FollowListRepository extends Object {
     //     0x8fe36c: mov             x1, NULL
     // 0x8fe370: stur            x0, [fp, #-0xf0]
     // 0x8fe374: r0 = UserModel.fromFirestore()
-    //     0x8fe374: bl              #0x8fe49c  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
+    //     0x8fe374: bl              #0x8fe49c  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
     // 0x8fe378: ldur            x1, [fp, #-0xc0]
     // 0x8fe37c: ldur            x2, [fp, #-0xf0]
     // 0x8fe380: stur            x0, [fp, #-0xf8]
@@ -1286,7 +1286,7 @@ class FollowListRepository extends Object {
     // 0x985adc: r1 = Null
     //     0x985adc: mov             x1, NULL
     // 0x985ae0: r0 = FollowModel.fromFirestore()
-    //     0x985ae0: bl              #0x8fd630  ; [package:ballai/automatic/models/core/follow/follow_model.dart] FollowModel::FollowModel.fromFirestore
+    //     0x985ae0: bl              #0x8fd630  ; [package:kourtai/automatic/models/core/follow/follow_model.dart] FollowModel::FollowModel.fromFirestore
     // 0x985ae4: LoadField: r1 = r0->field_f
     //     0x985ae4: ldur            w1, [x0, #0xf]
     // 0x985ae8: DecompressPointer r1
@@ -1359,7 +1359,7 @@ class FollowListRepository extends Object {
     // 0x985bb4: ldur            x1, [fp, #-0x10]
     // 0x985bb8: mov             x2, x3
     // 0x985bbc: r0 = fetchUsersByIds()
-    //     0x985bbc: bl              #0x8fe07c  ; [package:ballai/automatic/app/social/follow_list_repository.dart] FollowListRepository::fetchUsersByIds
+    //     0x985bbc: bl              #0x8fe07c  ; [package:kourtai/automatic/app/social/follow_list_repository.dart] FollowListRepository::fetchUsersByIds
     // 0x985bc0: mov             x1, x0
     // 0x985bc4: stur            x1, [fp, #-0x10]
     // 0x985bc8: r0 = Await()
@@ -1375,7 +1375,7 @@ class FollowListRepository extends Object {
     //     0x985be8: b.eq            #0x985bf0
     //     0x985bec: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x985bf0: r1 = Function '<anonymous closure>':.
-    //     0x985bf0: add             x1, PP, #0x55, lsl #12  ; [pp+0x550d8] AnonymousClosure: (0x8fd9cc), in [package:ballai/automatic/app/social/follow_list_repository.dart] FollowListRepository::fetchFollowersPage (0x8fd2b4)
+    //     0x985bf0: add             x1, PP, #0x55, lsl #12  ; [pp+0x550d8] AnonymousClosure: (0x8fd9cc), in [package:kourtai/automatic/app/social/follow_list_repository.dart] FollowListRepository::fetchFollowersPage (0x8fd2b4)
     //     0x985bf4: ldr             x1, [x1, #0xd8]
     // 0x985bf8: r0 = AllocateClosure()
     //     0x985bf8: bl              #0xe553e0  ; AllocateClosureStub

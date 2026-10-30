@@ -1812,8 +1812,8 @@ class _WidgetsAppState extends __WidgetsAppState&State&WidgetsBindingObserver {
     // 0xb456c4: r0 = Title()
     //     0xb456c4: bl              #0xb45aa4  ; AllocateTitleStub -> Title (size=0x18)
     // 0xb456c8: mov             x1, x0
-    // 0xb456cc: r0 = "Ball AI"
-    //     0xb456cc: add             x0, PP, #0x11, lsl #12  ; [pp+0x11250] "Ball AI"
+    // 0xb456cc: r0 = "Kourt AI"
+    //     0xb456cc: add             x0, PP, #0x11, lsl #12  ; [pp+0x11250] "Kourt AI"
     //     0xb456d0: ldr             x0, [x0, #0x250]
     // 0xb456d4: StoreField: r1->field_b = r0
     //     0xb456d4: stur            w0, [x1, #0xb]
@@ -2644,8 +2644,8 @@ class WidgetsApp extends StatefulWidget {
     // 0xaf5ce8: r10 = _ConstMap len:0
     //     0xaf5ce8: add             x10, PP, #0x11, lsl #12  ; [pp+0x11240] Map<String, (dynamic this, BuildContext) => Widget>(0)
     //     0xaf5cec: ldr             x10, [x10, #0x240]
-    // 0xaf5cf0: r9 = "Ball AI"
-    //     0xaf5cf0: add             x9, PP, #0x11, lsl #12  ; [pp+0x11250] "Ball AI"
+    // 0xaf5cf0: r9 = "Kourt AI"
+    //     0xaf5cf0: add             x9, PP, #0x11, lsl #12  ; [pp+0x11250] "Kourt AI"
     //     0xaf5cf4: ldr             x9, [x9, #0x250]
     // 0xaf5cf8: r8 = Instance_TextStyle
     //     0xaf5cf8: add             x8, PP, #0x18, lsl #12  ; [pp+0x18b70] Obj!TextStyle@d1d421

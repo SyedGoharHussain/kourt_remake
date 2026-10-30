@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/health/root/health_data_trends_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/health/root/health_data_trends_view.dart
 
 // class id: 1048964, size: 0x8
 class :: {
@@ -36,8 +36,8 @@ class HealthDataTrendsView extends StatelessWidget {
     // 0xc03808: ldur            x1, [fp, #-0x10]
     // 0xc0380c: StoreField: r2->field_13 = r1
     //     0xc0380c: stur            w1, [x2, #0x13]
-    // 0xc03810: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xc03810: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xc03810: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xc03810: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xc03814: stur            x0, [fp, #-8]
     // 0xc03818: r0 = Radius()
     //     0xc03818: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -88,15 +88,15 @@ class HealthDataTrendsView extends StatelessWidget {
     //     0xc03888: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bcb8] "Health"
     //     0xc0388c: ldr             x1, [x1, #0xcb8]
     // 0xc03890: r0 = L()
-    //     0xc03890: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc03890: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc03894: ldur            x2, [fp, #-0x18]
     // 0xc03898: stur            x0, [fp, #-0x20]
     // 0xc0389c: LoadField: r1 = r2->field_13
     //     0xc0389c: ldur            w1, [x2, #0x13]
     // 0xc038a0: DecompressPointer r1
     //     0xc038a0: add             x1, x1, HEAP, lsl #32
-    // 0xc038a4: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc038a4: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc038a4: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc038a4: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc038a8: stur            x0, [fp, #-0x28]
     // 0xc038ac: r0 = TextStyle()
     //     0xc038ac: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -246,8 +246,8 @@ class HealthDataTrendsView extends StatelessWidget {
     //     0xc03a14: ldur            w1, [x0, #0xf]
     // 0xc03a18: DecompressPointer r1
     //     0xc03a18: add             x1, x1, HEAP, lsl #32
-    // 0xc03a1c: r16 = Instance_BallAiComingSoonBanner
-    //     0xc03a1c: add             x16, PP, #0x49, lsl #12  ; [pp+0x49288] Obj!BallAiComingSoonBanner@d25ad1
+    // 0xc03a1c: r16 = Instance_KourtAiComingSoonBanner
+    //     0xc03a1c: add             x16, PP, #0x49, lsl #12  ; [pp+0x49288] Obj!KourtAiComingSoonBanner@d25ad1
     //     0xc03a20: ldr             x16, [x16, #0x288]
     // 0xc03a24: ArrayStore: r1[0] = r16  ; List_4
     //     0xc03a24: stur            w16, [x1, #0x17]
@@ -275,7 +275,7 @@ class HealthDataTrendsView extends StatelessWidget {
     //     0xc03a5c: stur            w16, [x3, #0x1b]
     // 0xc03a60: ldur            x2, [fp, #-0x18]
     // 0xc03a64: r1 = Function '<anonymous closure>':.
-    //     0xc03a64: add             x1, PP, #0x49, lsl #12  ; [pp+0x49290] AnonymousClosure: (0xc03bc0), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/health/root/health_data_trends_view.dart] HealthDataTrendsView::build (0xc037c8)
+    //     0xc03a64: add             x1, PP, #0x49, lsl #12  ; [pp+0x49290] AnonymousClosure: (0xc03bc0), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/health/root/health_data_trends_view.dart] HealthDataTrendsView::build (0xc037c8)
     //     0xc03a68: ldr             x1, [x1, #0x290]
     // 0xc03a6c: r0 = AllocateClosure()
     //     0xc03a6c: bl              #0xe553e0  ; AllocateClosureStub
@@ -425,7 +425,7 @@ class HealthDataTrendsView extends StatelessWidget {
     //     0xc03bf4: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xc03bf8: ldur            x2, [fp, #-8]
     // 0xc03bfc: r1 = Function '<anonymous closure>':.
-    //     0xc03bfc: add             x1, PP, #0x49, lsl #12  ; [pp+0x49298] AnonymousClosure: (0xc03c5c), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/health/root/health_data_trends_view.dart] HealthDataTrendsView::build (0xc037c8)
+    //     0xc03bfc: add             x1, PP, #0x49, lsl #12  ; [pp+0x49298] AnonymousClosure: (0xc03c5c), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/health/root/health_data_trends_view.dart] HealthDataTrendsView::build (0xc037c8)
     //     0xc03c00: ldr             x1, [x1, #0x298]
     // 0xc03c04: stur            x0, [fp, #-8]
     // 0xc03c08: r0 = AllocateClosure()

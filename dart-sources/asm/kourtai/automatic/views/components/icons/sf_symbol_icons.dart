@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/icons/sf_symbol_icons.dart
+// lib: , url: package:kourtai/automatic/views/components/icons/sf_symbol_icons.dart
 
 // class id: 1048812, size: 0x8
 class :: {

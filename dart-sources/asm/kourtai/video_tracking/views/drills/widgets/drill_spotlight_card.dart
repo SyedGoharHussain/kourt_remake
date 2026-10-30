@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/drills/widgets/drill_spotlight_card.dart
+// lib: , url: package:kourtai/video_tracking/views/drills/widgets/drill_spotlight_card.dart
 
 // class id: 1049226, size: 0x8
 class :: {
@@ -544,7 +544,7 @@ class DrillSpotlightCard extends StatelessWidget {
     //     0xc37f44: stur            w0, [x3, #0xb]
     // 0xc37f48: ldur            x2, [fp, #-0x28]
     // 0xc37f4c: r1 = Function '<anonymous closure>':.
-    //     0xc37f4c: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bff0] AnonymousClosure: (0xc38048), in [package:ballai/video_tracking/views/drills/widgets/drill_spotlight_card.dart] DrillSpotlightCard::build (0xc379e4)
+    //     0xc37f4c: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bff0] AnonymousClosure: (0xc38048), in [package:kourtai/video_tracking/views/drills/widgets/drill_spotlight_card.dart] DrillSpotlightCard::build (0xc379e4)
     //     0xc37f50: ldr             x1, [x1, #0xff0]
     // 0xc37f54: r0 = AllocateClosure()
     //     0xc37f54: bl              #0xe553e0  ; AllocateClosureStub

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/home/activity/ring/root/ring_view.dart
+// lib: , url: package:kourtai/automatic/views/components/home/activity/ring/root/ring_view.dart
 
 // class id: 1048804, size: 0x8
 class :: {
@@ -34,7 +34,7 @@ class RingView extends StatelessWidget {
     // 0xbb58f0: b               #0xbb58fc
     // 0xbb58f4: mov             x1, x2
     // 0xbb58f8: r0 = combinedProgressFormatted()
-    //     0xbb58f8: bl              #0xbb5bd0  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgressFormatted
+    //     0xbb58f8: bl              #0xbb5bd0  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgressFormatted
     // 0xbb58fc: cmp             w0, NULL
     // 0xbb5900: b.ne            #0xbb5910
     // 0xbb5904: r2 = "--%"
@@ -45,8 +45,8 @@ class RingView extends StatelessWidget {
     // 0xbb5914: ldur            x0, [fp, #-8]
     // 0xbb5918: ldur            x1, [fp, #-0x10]
     // 0xbb591c: stur            x2, [fp, #-0x18]
-    // 0xbb5920: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb5920: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb5920: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb5920: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb5924: stur            x0, [fp, #-0x10]
     // 0xbb5928: r0 = TextStyle()
     //     0xbb5928: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)

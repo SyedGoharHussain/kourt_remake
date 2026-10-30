@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/subscription/subscription_gate.dart
+// lib: , url: package:kourtai/automatic/utility/subscription/subscription_gate.dart
 
 // class id: 1048746, size: 0x8
 class :: {
@@ -29,7 +29,7 @@ class :: {
     //     0x659f40: ret             
     // 0x659f44: mov             x1, x0
     // 0x659f48: r0 = isPaywallExemptUser()
-    //     0x659f48: bl              #0x651a14  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPaywallExemptUser
+    //     0x659f48: bl              #0x651a14  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPaywallExemptUser
     // 0x659f4c: tbnz            w0, #4, #0x659f60
     // 0x659f50: r0 = false
     //     0x659f50: add             x0, NULL, #0x30  ; false
@@ -46,7 +46,7 @@ class :: {
     // 0x659f6c: cmp             w1, NULL
     // 0x659f70: b.eq            #0x659f90
     // 0x659f74: r0 = hasActiveManualProAccess()
-    //     0x659f74: bl              #0x651548  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::hasActiveManualProAccess
+    //     0x659f74: bl              #0x651548  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::hasActiveManualProAccess
     // 0x659f78: tbnz            w0, #4, #0x659f8c
     // 0x659f7c: r0 = false
     //     0x659f7c: add             x0, NULL, #0x30  ; false
@@ -71,7 +71,7 @@ class :: {
     //     0x659fac: add             x2, x2, HEAP, lsl #32
     // 0x659fb0: mov             x1, x2
     // 0x659fb4: r0 = isUTrainEmail()
-    //     0x659fb4: bl              #0x651710  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::isUTrainEmail
+    //     0x659fb4: bl              #0x651710  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::isUTrainEmail
     // 0x659fb8: tbz             w0, #4, #0x659fe4
     // 0x659fbc: ldur            x0, [fp, #-8]
     // 0x659fc0: LoadField: r1 = r0->field_27
@@ -80,12 +80,12 @@ class :: {
     //     0x659fc4: add             x1, x1, HEAP, lsl #32
     // 0x659fc8: cmp             w1, NULL
     // 0x659fcc: b.eq            #0x659fd8
-    // 0x659fd0: r0 = isBallAIOrgMember()
-    //     0x659fd0: bl              #0x651600  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::isBallAIOrgMember
+    // 0x659fd0: r0 = isKourtAIOrgMember()
+    //     0x659fd0: bl              #0x651600  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::isKourtAIOrgMember
     // 0x659fd4: tbz             w0, #4, #0x659fe4
     // 0x659fd8: ldur            x1, [fp, #-8]
     // 0x659fdc: r0 = isOnPayingTeam()
-    //     0x659fdc: bl              #0x651798  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isOnPayingTeam
+    //     0x659fdc: bl              #0x651798  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isOnPayingTeam
     // 0x659fe0: tbnz            w0, #4, #0x659ff4
     // 0x659fe4: r0 = false
     //     0x659fe4: add             x0, NULL, #0x30  ; false
@@ -108,7 +108,7 @@ class :: {
     // 0x65a010: ret
     //     0x65a010: ret             
     // 0x65a014: r0 = isPayingSubscriber()
-    //     0x65a014: bl              #0x651314  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
+    //     0x65a014: bl              #0x651314  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
     // 0x65a018: eor             x1, x0, #0x10
     // 0x65a01c: mov             x0, x1
     // 0x65a020: LeaveFrame
@@ -135,7 +135,7 @@ class :: {
     // 0x726068: cmp             w1, NULL
     // 0x72606c: b.eq            #0x726080
     // 0x726070: r0 = isPayingSubscriber()
-    //     0x726070: bl              #0x651314  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
+    //     0x726070: bl              #0x651314  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
     // 0x726074: LeaveFrame
     //     0x726074: mov             SP, fp
     //     0x726078: ldp             fp, lr, [SP], #0x10
@@ -186,7 +186,7 @@ class :: {
     // 0x9388e8: ret
     //     0x9388e8: ret             
     // 0x9388ec: r0 = isPayingSubscriber()
-    //     0x9388ec: bl              #0x651314  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
+    //     0x9388ec: bl              #0x651314  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
     // 0x9388f0: LeaveFrame
     //     0x9388f0: mov             SP, fp
     //     0x9388f4: ldp             fp, lr, [SP], #0x10
@@ -213,7 +213,7 @@ class :: {
     //     0xaad714: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0xaad718: bl              #0x60afc8  ; InitAsyncStub
     // 0xaad71c: r0 = userHasActiveSubscription()
-    //     0xaad71c: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0xaad71c: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0xaad720: tbz             w0, #4, #0xaad72c
     // 0xaad724: r0 = Null
     //     0xaad724: mov             x0, NULL

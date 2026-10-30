@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart
 
 // class id: 1048637, size: 0x8
 class :: {
@@ -50,7 +50,7 @@ abstract class LocalNotificationScheduler extends Object {
     //     0x65bd9c: add             x4, PP, #0x20, lsl #12  ; [pp+0x20480] List(7) [0, 0x7, 0x1, 0x6, "allowImmediateShowPath", 0x6, Null]
     //     0x65bda0: ldr             x4, [x4, #0x480]
     // 0x65bda4: r0 = scheduleDelayed()
-    //     0x65bda4: bl              #0x65bdc4  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::scheduleDelayed
+    //     0x65bda4: bl              #0x65bdc4  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::scheduleDelayed
     // 0x65bda8: mov             x1, x0
     // 0x65bdac: stur            x1, [fp, #-0x10]
     // 0x65bdb0: r0 = Await()
@@ -131,7 +131,7 @@ abstract class LocalNotificationScheduler extends Object {
     //     0x65be8c: add             x4, PP, #0xc, lsl #12  ; [pp+0xc818] List(5) [0, 0, 0, 0, Null]
     //     0x65be90: ldr             x4, [x4, #0x818]
     // 0x65be94: r0 = ensureInitialized()
-    //     0x65be94: bl              #0x65d554  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::ensureInitialized
+    //     0x65be94: bl              #0x65d554  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::ensureInitialized
     // 0x65be98: mov             x1, x0
     // 0x65be9c: stur            x1, [fp, #-0xd0]
     // 0x65bea0: r0 = Await()
@@ -179,7 +179,7 @@ abstract class LocalNotificationScheduler extends Object {
     // 0x65bf24: DecompressPointer r1
     //     0x65bf24: add             x1, x1, HEAP, lsl #32
     // 0x65bf28: r0 = _details()
-    //     0x65bf28: bl              #0x65d3c0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_details
+    //     0x65bf28: bl              #0x65d3c0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_details
     // 0x65bf2c: mov             x3, x0
     // 0x65bf30: ldur            x2, [fp, #-0x100]
     // 0x65bf34: stur            x3, [fp, #-0xe0]
@@ -228,7 +228,7 @@ abstract class LocalNotificationScheduler extends Object {
     // 0x65bfc0: tbnz            w5, #4, #0x65bfe8
     // 0x65bfc4: mov             x2, x3
     // 0x65bfc8: r1 = Function '<anonymous closure>': static.
-    //     0x65bfc8: add             x1, PP, #0x14, lsl #12  ; [pp+0x145d8] AnonymousClosure: static (0x65fcf0), in [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::scheduleDelayed (0x65bdc4)
+    //     0x65bfc8: add             x1, PP, #0x14, lsl #12  ; [pp+0x145d8] AnonymousClosure: static (0x65fcf0), in [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::scheduleDelayed (0x65bdc4)
     //     0x65bfcc: ldr             x1, [x1, #0x5d8]
     // 0x65bfd0: r0 = AllocateClosure()
     //     0x65bfd0: bl              #0xe553e0  ; AllocateClosureStub
@@ -242,7 +242,7 @@ abstract class LocalNotificationScheduler extends Object {
     //     0x65bfe4: bl              #0x62c6c8  ; [dart:async] Future::Future.delayed
     // 0x65bfe8: ldur            x2, [fp, #-0x100]
     // 0x65bfec: ldur            x0, [fp, #-0xd0]
-    // 0x65bff0: r0 = InitLateStaticField(0xc98) // [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_plugin
+    // 0x65bff0: r0 = InitLateStaticField(0xc98) // [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_plugin
     //     0x65bff0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x65bff4: ldr             x0, [x0, #0x1930]
     //     0x65bff8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -392,7 +392,7 @@ abstract class LocalNotificationScheduler extends Object {
     // 0x65c188: tbz             w0, #4, #0x65c1b0
     // 0x65c18c: ldur            x2, [fp, #-0x100]
     // 0x65c190: r1 = Function '<anonymous closure>': static.
-    //     0x65c190: add             x1, PP, #0x14, lsl #12  ; [pp+0x14600] AnonymousClosure: static (0x65f834), in [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::scheduleDelayed (0x65bdc4)
+    //     0x65c190: add             x1, PP, #0x14, lsl #12  ; [pp+0x14600] AnonymousClosure: static (0x65f834), in [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::scheduleDelayed (0x65bdc4)
     //     0x65c194: ldr             x1, [x1, #0x600]
     // 0x65c198: r0 = AllocateClosure()
     //     0x65c198: bl              #0xe553e0  ; AllocateClosureStub
@@ -424,14 +424,14 @@ abstract class LocalNotificationScheduler extends Object {
     // 0x65d3d0: r0 = AndroidNotificationDetails()
     //     0x65d3d0: bl              #0x65d4d4  ; AllocateAndroidNotificationDetailsStub -> AndroidNotificationDetails (size=0xd0)
     // 0x65d3d4: mov             x1, x0
-    // 0x65d3d8: r0 = "ballai_funnels"
-    //     0x65d3d8: add             x0, PP, #0x14, lsl #12  ; [pp+0x147d8] "ballai_funnels"
+    // 0x65d3d8: r0 = "kourtai_funnels"
+    //     0x65d3d8: add             x0, PP, #0x14, lsl #12  ; [pp+0x147d8] "kourtai_funnels"
     //     0x65d3dc: ldr             x0, [x0, #0x7d8]
     // 0x65d3e0: stur            x1, [fp, #-0x10]
     // 0x65d3e4: StoreField: r1->field_b = r0
     //     0x65d3e4: stur            w0, [x1, #0xb]
-    // 0x65d3e8: r0 = "Ball AI Offers"
-    //     0x65d3e8: add             x0, PP, #0x14, lsl #12  ; [pp+0x147e0] "Ball AI Offers"
+    // 0x65d3e8: r0 = "Kourt AI Offers"
+    //     0x65d3e8: add             x0, PP, #0x14, lsl #12  ; [pp+0x147e0] "Kourt AI Offers"
     //     0x65d3ec: ldr             x0, [x0, #0x7e0]
     // 0x65d3f0: StoreField: r1->field_f = r0
     //     0x65d3f0: stur            w0, [x1, #0xf]
@@ -591,7 +591,7 @@ abstract class LocalNotificationScheduler extends Object {
     // 0x65d604: StoreStaticField(0xcb0, r0)
     //     0x65d604: ldr             x1, [THR, #0x68]  ; THR::field_table_values
     //     0x65d608: str             x0, [x1, #0x1960]
-    // 0x65d60c: r0 = InitLateStaticField(0xc98) // [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_plugin
+    // 0x65d60c: r0 = InitLateStaticField(0xc98) // [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_plugin
     //     0x65d60c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x65d610: ldr             x0, [x0, #0x1930]
     //     0x65d614: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -676,7 +676,7 @@ abstract class LocalNotificationScheduler extends Object {
     //     0x65dd6c: b.ls            #0x65dd84
     // 0x65dd70: ldr             x1, [fp, #0x10]
     // 0x65dd74: r0 = _onTap()
-    //     0x65dd74: bl              #0x65de34  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_onTap
+    //     0x65dd74: bl              #0x65de34  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_onTap
     // 0x65dd78: LeaveFrame
     //     0x65dd78: mov             SP, fp
     //     0x65dd7c: ldp             fp, lr, [SP], #0x10
@@ -766,7 +766,7 @@ abstract class LocalNotificationScheduler extends Object {
     // 0x65df04: mov             x1, x0
     // 0x65df08: ldur            x2, [fp, #-0x60]
     // 0x65df0c: r0 = handleRemoteMessage()
-    //     0x65df0c: bl              #0x65df88  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::handleRemoteMessage
+    //     0x65df0c: bl              #0x65df88  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::handleRemoteMessage
     // 0x65df10: b               #0x65df70
     // 0x65df14: sub             SP, fp, #0x68
     // 0x65df18: stur            x0, [fp, #-0x58]
@@ -835,7 +835,7 @@ abstract class LocalNotificationScheduler extends Object {
     //     0x65f868: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x65f86c: bl              #0x60afc8  ; InitAsyncStub
     // 0x65f870: ldur            x0, [fp, #-0x50]
-    // 0x65f874: r0 = InitLateStaticField(0xc98) // [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_plugin
+    // 0x65f874: r0 = InitLateStaticField(0xc98) // [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_plugin
     //     0x65f874: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x65f878: ldr             x0, [x0, #0x1930]
     //     0x65f87c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1044,7 +1044,7 @@ abstract class LocalNotificationScheduler extends Object {
     // 0x65fdc0: r0 = ReturnAsyncNotFuture()
     //     0x65fdc0: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x65fdc4: ldur            x1, [fp, #-0x58]
-    // 0x65fdc8: r0 = InitLateStaticField(0xc98) // [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_plugin
+    // 0x65fdc8: r0 = InitLateStaticField(0xc98) // [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_plugin
     //     0x65fdc8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x65fdcc: ldr             x0, [x0, #0x1930]
     //     0x65fdd0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1228,14 +1228,14 @@ abstract class LocalNotificationScheduler extends Object {
     //     0x6bf000: add             x4, PP, #0xc, lsl #12  ; [pp+0xc818] List(5) [0, 0, 0, 0, Null]
     //     0x6bf004: ldr             x4, [x4, #0x818]
     // 0x6bf008: r0 = ensureInitialized()
-    //     0x6bf008: bl              #0x65d554  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::ensureInitialized
+    //     0x6bf008: bl              #0x65d554  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::ensureInitialized
     // 0x6bf00c: mov             x1, x0
     // 0x6bf010: stur            x1, [fp, #-0x20]
     // 0x6bf014: r0 = Await()
     //     0x6bf014: bl              #0x60ad4c  ; AwaitStub
     // 0x6bf018: ldur            x3, [fp, #-0x10]
     // 0x6bf01c: ldur            x2, [fp, #-0x18]
-    // 0x6bf020: r0 = InitLateStaticField(0xc98) // [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_plugin
+    // 0x6bf020: r0 = InitLateStaticField(0xc98) // [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_plugin
     //     0x6bf020: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x6bf024: ldr             x0, [x0, #0x1930]
     //     0x6bf028: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1362,7 +1362,7 @@ abstract class LocalNotificationScheduler extends Object {
     //     0x73b7f8: mov             x0, NULL
     // 0x73b7fc: r0 = ReturnAsyncNotFuture()
     //     0x73b7fc: b               #0x60af9c  ; ReturnAsyncNotFutureStub
-    // 0x73b800: r0 = InitLateStaticField(0xca4) // [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_shownBreakdownReady
+    // 0x73b800: r0 = InitLateStaticField(0xca4) // [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_shownBreakdownReady
     //     0x73b800: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x73b804: ldr             x0, [x0, #0x1948]
     //     0x73b808: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1443,7 +1443,7 @@ abstract class LocalNotificationScheduler extends Object {
     //     0x73b8e0: add             x5, PP, #0x21, lsl #12  ; [pp+0x21398] "Yo, it\'s Bally"
     //     0x73b8e4: ldr             x5, [x5, #0x398]
     // 0x73b8e8: r0 = showNow()
-    //     0x73b8e8: bl              #0x73b910  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::showNow
+    //     0x73b8e8: bl              #0x73b910  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::showNow
     // 0x73b8ec: mov             x1, x0
     // 0x73b8f0: stur            x1, [fp, #-0x10]
     // 0x73b8f4: r0 = Await()
@@ -1488,7 +1488,7 @@ abstract class LocalNotificationScheduler extends Object {
     //     0x73b95c: add             x4, PP, #0xc, lsl #12  ; [pp+0xc818] List(5) [0, 0, 0, 0, Null]
     //     0x73b960: ldr             x4, [x4, #0x818]
     // 0x73b964: r0 = ensureInitialized()
-    //     0x73b964: bl              #0x65d554  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::ensureInitialized
+    //     0x73b964: bl              #0x65d554  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::ensureInitialized
     // 0x73b968: mov             x1, x0
     // 0x73b96c: stur            x1, [fp, #-0xb0]
     // 0x73b970: r0 = Await()
@@ -1496,14 +1496,14 @@ abstract class LocalNotificationScheduler extends Object {
     // 0x73b974: r0 = AndroidNotificationDetails()
     //     0x73b974: bl              #0x65d4d4  ; AllocateAndroidNotificationDetailsStub -> AndroidNotificationDetails (size=0xd0)
     // 0x73b978: mov             x1, x0
-    // 0x73b97c: r0 = "ballai_alerts"
-    //     0x73b97c: add             x0, PP, #0x21, lsl #12  ; [pp+0x21370] "ballai_alerts"
+    // 0x73b97c: r0 = "kourtai_alerts"
+    //     0x73b97c: add             x0, PP, #0x21, lsl #12  ; [pp+0x21370] "kourtai_alerts"
     //     0x73b980: ldr             x0, [x0, #0x370]
     // 0x73b984: stur            x1, [fp, #-0xb0]
     // 0x73b988: StoreField: r1->field_b = r0
     //     0x73b988: stur            w0, [x1, #0xb]
-    // 0x73b98c: r0 = "Ball AI"
-    //     0x73b98c: add             x0, PP, #0x11, lsl #12  ; [pp+0x11250] "Ball AI"
+    // 0x73b98c: r0 = "Kourt AI"
+    //     0x73b98c: add             x0, PP, #0x11, lsl #12  ; [pp+0x11250] "Kourt AI"
     //     0x73b990: ldr             x0, [x0, #0x250]
     // 0x73b994: StoreField: r1->field_f = r0
     //     0x73b994: stur            w0, [x1, #0xf]
@@ -1591,7 +1591,7 @@ abstract class LocalNotificationScheduler extends Object {
     // 0x73ba4c: stur            x1, [fp, #-0xb8]
     // 0x73ba50: StoreField: r1->field_7 = r0
     //     0x73ba50: stur            w0, [x1, #7]
-    // 0x73ba54: r0 = InitLateStaticField(0xc98) // [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_plugin
+    // 0x73ba54: r0 = InitLateStaticField(0xc98) // [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_plugin
     //     0x73ba54: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x73ba58: ldr             x0, [x0, #0x1930]
     //     0x73ba5c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1684,7 +1684,7 @@ abstract class LocalNotificationScheduler extends Object {
     //     0x744aac: add             x4, PP, #0xc, lsl #12  ; [pp+0xc818] List(5) [0, 0, 0, 0, Null]
     //     0x744ab0: ldr             x4, [x4, #0x818]
     // 0x744ab4: r0 = ensureInitialized()
-    //     0x744ab4: bl              #0x65d554  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::ensureInitialized
+    //     0x744ab4: bl              #0x65d554  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::ensureInitialized
     // 0x744ab8: mov             x1, x0
     // 0x744abc: stur            x1, [fp, #-0x18]
     // 0x744ac0: r0 = Await()
@@ -1753,7 +1753,7 @@ abstract class LocalNotificationScheduler extends Object {
     // 0x744b74: mov             x2, x1
     // 0x744b78: ldur            x1, [fp, #-0x18]
     // 0x744b7c: r0 = cancel()
-    //     0x744b7c: bl              #0x6befc4  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::cancel
+    //     0x744b7c: bl              #0x6befc4  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::cancel
     // 0x744b80: mov             x1, x0
     // 0x744b84: stur            x1, [fp, #-0x38]
     // 0x744b88: r0 = Await()
@@ -1807,12 +1807,12 @@ abstract class LocalNotificationScheduler extends Object {
     //     0xc2bf7c: add             x4, PP, #0xc, lsl #12  ; [pp+0xc818] List(5) [0, 0, 0, 0, Null]
     //     0xc2bf80: ldr             x4, [x4, #0x818]
     // 0xc2bf84: r0 = ensureInitialized()
-    //     0xc2bf84: bl              #0x65d554  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::ensureInitialized
+    //     0xc2bf84: bl              #0x65d554  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::ensureInitialized
     // 0xc2bf88: mov             x1, x0
     // 0xc2bf8c: stur            x1, [fp, #-0x10]
     // 0xc2bf90: r0 = Await()
     //     0xc2bf90: bl              #0x60ad4c  ; AwaitStub
-    // 0xc2bf94: r0 = InitLateStaticField(0xc98) // [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_plugin
+    // 0xc2bf94: r0 = InitLateStaticField(0xc98) // [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_plugin
     //     0xc2bf94: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xc2bf98: ldr             x0, [x0, #0x1930]
     //     0xc2bf9c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1846,7 +1846,7 @@ abstract class LocalNotificationScheduler extends Object {
     // 0xc2bfec: cmp             w1, NULL
     // 0xc2bff0: b.eq            #0xc2bff8
     // 0xc2bff4: r0 = _onTap()
-    //     0xc2bff4: bl              #0x65de34  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_onTap
+    //     0xc2bff4: bl              #0x65de34  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_onTap
     // 0xc2bff8: r0 = Null
     //     0xc2bff8: mov             x0, NULL
     // 0xc2bffc: r0 = ReturnAsyncNotFuture()

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/leaderboard/leaderboard_row.dart
+// lib: , url: package:kourtai/automatic/views/components/leaderboard/leaderboard_row.dart
 
 // class id: 1048818, size: 0x8
 class :: {
@@ -25,8 +25,8 @@ class LeaderboardRow extends StatelessWidget {
     //     0xbbf2f0: cmp             SP, x16
     //     0xbbf2f4: b.ls            #0xbbf68c
     // 0xbbf2f8: mov             x1, x0
-    // 0xbbf2fc: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbbf2fc: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbbf2fc: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbbf2fc: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbbf300: mov             x1, x0
     // 0xbbf304: ldur            x0, [fp, #-8]
     // 0xbbf308: stur            x1, [fp, #-0x20]
@@ -76,8 +76,8 @@ class LeaderboardRow extends StatelessWidget {
     // 0xbbf37c: StoreField: r2->field_1f = r1
     //     0xbbf37c: stur            w1, [x2, #0x1f]
     // 0xbbf380: ldur            x1, [fp, #-0x10]
-    // 0xbbf384: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbbf384: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbbf384: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbbf384: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbbf388: stur            x0, [fp, #-0x10]
     // 0xbbf38c: r0 = TextStyle()
     //     0xbbf38c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)

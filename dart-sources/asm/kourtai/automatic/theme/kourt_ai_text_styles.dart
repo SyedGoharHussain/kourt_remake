@@ -1,9 +1,9 @@
-// lib: , url: package:ballai/automatic/theme/ball_ai_text_styles.dart
+// lib: , url: package:kourtai/automatic/theme/kourt_ai_text_styles.dart
 
 // class id: 1048713, size: 0x8
 class :: {
 
-  static _ BallAiTextStyleContext.ballAiTextStyle(/* No info */) {
+  static _ KourtAiTextStyleContext.kourtAiTextStyle(/* No info */) {
     // ** addr: 0xa8a184, size: 0x1bc
     // 0xa8a184: EnterFrame
     //     0xa8a184: stp             fp, lr, [SP, #-0x10]!
@@ -80,8 +80,8 @@ class :: {
     // 0xa8a290: stur            d0, [fp, #-0x20]
     // 0xa8a294: cmp             w5, NULL
     // 0xa8a298: b.ne            #0xa8a2a8
-    // 0xa8a29c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa8a29c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa8a29c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa8a29c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa8a2a0: mov             x2, x0
     // 0xa8a2a4: b               #0xa8a2ac
     // 0xa8a2a8: mov             x2, x5
@@ -143,7 +143,7 @@ class :: {
 }
 
 // class id: 6713, size: 0x1c, field offset: 0x14
-enum BallAiTextScale extends _Enum {
+enum KourtAiTextScale extends _Enum {
 
   _Mint field_8;
   _OneByteString field_10;
@@ -156,7 +156,7 @@ enum BallAiTextScale extends _Enum {
     //     0xcd9460: mov             fp, SP
     // 0xcd9464: AllocStack(0x10)
     //     0xcd9464: sub             SP, SP, #0x10
-    // 0xcd9468: SetupParameters(BallAiTextScale this /* r1 => r0, fp-0x8 */)
+    // 0xcd9468: SetupParameters(KourtAiTextScale this /* r1 => r0, fp-0x8 */)
     //     0xcd9468: mov             x0, x1
     //     0xcd946c: stur            x1, [fp, #-8]
     // 0xcd9470: CheckStackOverflow
@@ -169,8 +169,8 @@ enum BallAiTextScale extends _Enum {
     //     0xcd9480: mov             x2, #4
     // 0xcd9484: r0 = AllocateArray()
     //     0xcd9484: bl              #0xe560ac  ; AllocateArrayStub
-    // 0xcd9488: r16 = "BallAiTextScale."
-    //     0xcd9488: add             x16, PP, #0x2e, lsl #12  ; [pp+0x2e920] "BallAiTextScale."
+    // 0xcd9488: r16 = "KourtAiTextScale."
+    //     0xcd9488: add             x16, PP, #0x2e, lsl #12  ; [pp+0x2e920] "KourtAiTextScale."
     //     0xcd948c: ldr             x16, [x16, #0x920]
     // 0xcd9490: StoreField: r0->field_f = r16
     //     0xcd9490: stur            w16, [x0, #0xf]

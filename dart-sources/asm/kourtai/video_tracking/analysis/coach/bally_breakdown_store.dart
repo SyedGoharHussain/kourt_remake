@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart
+// lib: , url: package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart
 
 // class id: 1049073, size: 0x8
 class :: {
@@ -260,12 +260,12 @@ class BallyBreakdownStore extends ChangeNotifier {
     // 0x733300: mov             x1, x2
     // 0x733304: stur            x4, [fp, #-0xf0]
     // 0x733308: r0 = isDribblingWorkout()
-    //     0x733308: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0x733308: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0x73330c: ldur            x1, [fp, #-0xf0]
     // 0x733310: ldur            x2, [fp, #-0xf8]
     // 0x733314: mov             x3, x0
     // 0x733318: r0 = resolve()
-    //     0x733318: bl              #0x73a164  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyBreakdownKind::resolve
+    //     0x733318: bl              #0x73a164  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyBreakdownKind::resolve
     // 0x73331c: ldur            x1, [fp, #-0xd8]
     // 0x733320: ldur            x2, [fp, #-0xe0]
     // 0x733324: stur            x0, [fp, #-0xf0]
@@ -275,7 +275,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     // 0x733330: r1 = Null
     //     0x733330: mov             x1, NULL
     // 0x733334: r0 = BallyBreakdownState.analyzing()
-    //     0x733334: bl              #0x73a108  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownState::BallyBreakdownState.analyzing
+    //     0x733334: bl              #0x73a108  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownState::BallyBreakdownState.analyzing
     // 0x733338: ldur            x1, [fp, #-0xe8]
     // 0x73333c: ldur            x2, [fp, #-0xe0]
     // 0x733340: mov             x3, x0
@@ -294,7 +294,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     //     0x733364: add             x4, PP, #0x28, lsl #12  ; [pp+0x28260] List(7) [0, 0x4, 0x1, 0x3, "drillTemplate", 0x3, Null]
     //     0x733368: ldr             x4, [x4, #0x260]
     // 0x73336c: r0 = generatePayloadFromShots()
-    //     0x73336c: bl              #0x7339e4  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart] BallyBreakdownAnalyzer::generatePayloadFromShots
+    //     0x73336c: bl              #0x7339e4  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart] BallyBreakdownAnalyzer::generatePayloadFromShots
     // 0x733370: mov             x1, x0
     // 0x733374: stur            x1, [fp, #-0xf8]
     // 0x733378: r0 = Await()
@@ -368,7 +368,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     // 0x733448: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x733448: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x73344c: r0 = _requestServerBreakdown()
-    //     0x73344c: bl              #0x733564  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::_requestServerBreakdown
+    //     0x73344c: bl              #0x733564  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::_requestServerBreakdown
     // 0x733450: mov             x1, x0
     // 0x733454: stur            x1, [fp, #-0xf8]
     // 0x733458: r0 = Await()
@@ -512,7 +512,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     //     0x7335f0: bl              #0x60afc8  ; InitAsyncStub
     // 0x7335f4: ldur            x1, [fp, #-0xc0]
     // 0x7335f8: r0 = ensureWorkoutDocument()
-    //     0x7335f8: bl              #0x73fd38  ; [package:ballai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::ensureWorkoutDocument
+    //     0x7335f8: bl              #0x73fd38  ; [package:kourtai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::ensureWorkoutDocument
     // 0x7335fc: mov             x1, x0
     // 0x733600: stur            x1, [fp, #-0xd0]
     // 0x733604: r0 = Await()
@@ -547,7 +547,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     //     0x733654: ldr             lr, [x21, lr, lsl #3]
     //     0x733658: blr             lr
     // 0x73365c: r0 = storageBucketName()
-    //     0x73365c: bl              #0x733900  ; [package:ballai/shared/app/firebase/firebase_config.dart] FirebaseConfig::storageBucketName
+    //     0x73365c: bl              #0x733900  ; [package:kourtai/shared/app/firebase/firebase_config.dart] FirebaseConfig::storageBucketName
     // 0x733660: ldur            x4, [fp, #-0xd0]
     // 0x733664: r1 = LoadClassIdInstr(r4)
     //     0x733664: ldur            x1, [x4, #-1]
@@ -588,7 +588,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     //     0x7336d0: ldr             lr, [x21, lr, lsl #3]
     //     0x7336d4: blr             lr
     // 0x7336d8: r1 = Function '<anonymous closure>':.
-    //     0x7336d8: add             x1, PP, #0x28, lsl #12  ; [pp+0x28298] AnonymousClosure: (0x733940), in [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::_requestServerBreakdown (0x733564)
+    //     0x7336d8: add             x1, PP, #0x28, lsl #12  ; [pp+0x28298] AnonymousClosure: (0x733940), in [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::_requestServerBreakdown (0x733564)
     //     0x7336dc: ldr             x1, [x1, #0x298]
     // 0x7336e0: r2 = Null
     //     0x7336e0: mov             x2, NULL
@@ -628,10 +628,10 @@ class BallyBreakdownStore extends ChangeNotifier {
     //     0x733748: ldr             lr, [x21, lr, lsl #3]
     //     0x73374c: blr             lr
     // 0x733750: r0 = instance()
-    //     0x733750: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0x733750: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0x733754: mov             x1, x0
     // 0x733758: r0 = effectiveLanguageCode()
-    //     0x733758: bl              #0x5ede90  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
+    //     0x733758: bl              #0x5ede90  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
     // 0x73375c: ldur            x1, [fp, #-0xd0]
     // 0x733760: mov             x3, x0
     // 0x733764: r2 = "appLanguageCode"
@@ -660,7 +660,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     //     0x7337a4: add             x2, PP, #0x28, lsl #12  ; [pp+0x282a8] "requestBallyBreakdown"
     //     0x7337a8: ldr             x2, [x2, #0x2a8]
     // 0x7337ac: r0 = callFunction()
-    //     0x7337ac: bl              #0x5f1c10  ; [package:ballai/automatic/lib/firebase/functions/root/firebase_functions.dart] BallAiFirebaseFunctions::callFunction
+    //     0x7337ac: bl              #0x5f1c10  ; [package:kourtai/automatic/lib/firebase/functions/root/firebase_functions.dart] KourtAiFirebaseFunctions::callFunction
     // 0x7337b0: mov             x1, x0
     // 0x7337b4: stur            x1, [fp, #-0xa0]
     // 0x7337b8: r0 = Await()
@@ -736,7 +736,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     //     0x73387c: bl              #0x5c96fc  ; [package:flutter/src/foundation/print.dart] ::debugPrintThrottled
     // 0x733880: ldur            x1, [fp, #-0xc0]
     // 0x733884: r0 = ensureWorkoutDocument()
-    //     0x733884: bl              #0x73fd38  ; [package:ballai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::ensureWorkoutDocument
+    //     0x733884: bl              #0x73fd38  ; [package:kourtai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::ensureWorkoutDocument
     // 0x733888: mov             x1, x0
     // 0x73388c: stur            x1, [fp, #-0xb0]
     // 0x733890: r0 = Await()
@@ -759,7 +759,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     //     0x7338b8: add             x2, PP, #0x28, lsl #12  ; [pp+0x282a8] "requestBallyBreakdown"
     //     0x7338bc: ldr             x2, [x2, #0x2a8]
     // 0x7338c0: r0 = callFunction()
-    //     0x7338c0: bl              #0x5f1c10  ; [package:ballai/automatic/lib/firebase/functions/root/firebase_functions.dart] BallAiFirebaseFunctions::callFunction
+    //     0x7338c0: bl              #0x5f1c10  ; [package:kourtai/automatic/lib/firebase/functions/root/firebase_functions.dart] KourtAiFirebaseFunctions::callFunction
     // 0x7338c4: mov             x1, x0
     // 0x7338c8: stur            x1, [fp, #-0xb0]
     // 0x7338cc: r0 = Await()
@@ -1031,12 +1031,12 @@ class BallyBreakdownStore extends ChangeNotifier {
     // 0x73aa1c: mov             x1, x2
     // 0x73aa20: stur            x4, [fp, #-0xf8]
     // 0x73aa24: r0 = isDribblingWorkout()
-    //     0x73aa24: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0x73aa24: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0x73aa28: ldur            x1, [fp, #-0xf8]
     // 0x73aa2c: ldur            x2, [fp, #-0x100]
     // 0x73aa30: mov             x3, x0
     // 0x73aa34: r0 = resolve()
-    //     0x73aa34: bl              #0x73a164  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyBreakdownKind::resolve
+    //     0x73aa34: bl              #0x73a164  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyBreakdownKind::resolve
     // 0x73aa38: ldur            x1, [fp, #-0xe8]
     // 0x73aa3c: ldur            x2, [fp, #-0xf0]
     // 0x73aa40: stur            x0, [fp, #-0xf8]
@@ -1070,7 +1070,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     // 0x73aa8c: ldur            x1, [fp, #-0xd8]
     // 0x73aa90: ldur            x2, [fp, #-0xf0]
     // 0x73aa94: r0 = startListening()
-    //     0x73aa94: bl              #0x73b164  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::startListening
+    //     0x73aa94: bl              #0x73b164  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::startListening
     // 0x73aa98: ldur            x1, [fp, #-0xd8]
     // 0x73aa9c: r0 = notifyListeners()
     //     0x73aa9c: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -1084,7 +1084,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     //     0x73aab4: add             x4, PP, #0x28, lsl #12  ; [pp+0x28260] List(7) [0, 0x4, 0x1, 0x3, "drillTemplate", 0x3, Null]
     //     0x73aab8: ldr             x4, [x4, #0x260]
     // 0x73aabc: r0 = generatePayloadFromShots()
-    //     0x73aabc: bl              #0x7339e4  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart] BallyBreakdownAnalyzer::generatePayloadFromShots
+    //     0x73aabc: bl              #0x7339e4  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart] BallyBreakdownAnalyzer::generatePayloadFromShots
     // 0x73aac0: mov             x1, x0
     // 0x73aac4: stur            x1, [fp, #-0x100]
     // 0x73aac8: r0 = Await()
@@ -1206,7 +1206,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     // 0x73ac28: cbz             w1, #0x73accc
     // 0x73ac2c: ldur            x1, [fp, #-0xe0]
     // 0x73ac30: r0 = isAnalyzerWorkout()
-    //     0x73ac30: bl              #0x73e3e8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
+    //     0x73ac30: bl              #0x73e3e8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
     // 0x73ac34: tbnz            w0, #4, #0x73accc
     // 0x73ac38: ldur            x6, [fp, #-0xe0]
     // 0x73ac3c: ArrayLoad: r0 = r6[0]  ; List_8
@@ -1305,7 +1305,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     //     0x73ad54: add             x4, PP, #0x28, lsl #12  ; [pp+0x28d60] List(7) [0, 0x7, 0x1, 0x6, "force", 0x6, Null]
     //     0x73ad58: ldr             x4, [x4, #0xd60]
     // 0x73ad5c: r0 = _requestServerBreakdown()
-    //     0x73ad5c: bl              #0x733564  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::_requestServerBreakdown
+    //     0x73ad5c: bl              #0x733564  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::_requestServerBreakdown
     // 0x73ad60: mov             x1, x0
     // 0x73ad64: stur            x1, [fp, #-0x100]
     // 0x73ad68: r0 = Await()
@@ -1366,7 +1366,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     //     0x73adfc: add             x1, PP, #0x28, lsl #12  ; [pp+0x28d70] "Couldn\'t read that one. Run it back."
     //     0x73ae00: ldr             x1, [x1, #0xd70]
     // 0x73ae04: r0 = L()
-    //     0x73ae04: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x73ae04: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x73ae08: ldur            x16, [fp, #-0xf8]
     // 0x73ae0c: str             x16, [SP]
     // 0x73ae10: ldur            x1, [fp, #-0xd8]
@@ -1379,7 +1379,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     //     0x73ae24: add             x4, PP, #0x28, lsl #12  ; [pp+0x28d80] List(7) [0, 0x5, 0x1, 0x4, "kind", 0x4, Null]
     //     0x73ae28: ldr             x4, [x4, #0xd80]
     // 0x73ae2c: r0 = setFailed()
-    //     0x73ae2c: bl              #0x73ae7c  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::setFailed
+    //     0x73ae2c: bl              #0x73ae7c  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::setFailed
     // 0x73ae30: ldur            x1, [fp, #-0xe8]
     // 0x73ae34: ldur            x2, [fp, #-0xf0]
     // 0x73ae38: r0 = remove()
@@ -1462,7 +1462,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     // 0x73af20: r1 = Null
     //     0x73af20: mov             x1, NULL
     // 0x73af24: r0 = BallyBreakdownState.failed()
-    //     0x73af24: bl              #0x73b124  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownState::BallyBreakdownState.failed
+    //     0x73af24: bl              #0x73b124  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownState::BallyBreakdownState.failed
     // 0x73af28: ldur            x1, [fp, #-8]
     // 0x73af2c: ldur            x2, [fp, #-0x30]
     // 0x73af30: mov             x3, x0
@@ -1802,14 +1802,14 @@ class BallyBreakdownStore extends ChangeNotifier {
     //     0x73b2f0: bl              #0x5f43f0  ; [package:cloud_firestore/cloud_firestore.dart] _JsonDocumentReference::snapshots
     // 0x73b2f4: ldur            x2, [fp, #-0x20]
     // 0x73b2f8: r1 = Function '<anonymous closure>':.
-    //     0x73b2f8: add             x1, PP, #0x28, lsl #12  ; [pp+0x28dc8] AnonymousClosure: (0x73e2c0), in [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::startListening (0x73b164)
+    //     0x73b2f8: add             x1, PP, #0x28, lsl #12  ; [pp+0x28dc8] AnonymousClosure: (0x73e2c0), in [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::startListening (0x73b164)
     //     0x73b2fc: ldr             x1, [x1, #0xdc8]
     // 0x73b300: stur            x0, [fp, #-0x18]
     // 0x73b304: r0 = AllocateClosure()
     //     0x73b304: bl              #0xe553e0  ; AllocateClosureStub
     // 0x73b308: ldur            x2, [fp, #-0x20]
     // 0x73b30c: r1 = Function '<anonymous closure>':.
-    //     0x73b30c: add             x1, PP, #0x28, lsl #12  ; [pp+0x28dd0] AnonymousClosure: (0x73e1d8), in [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::startListening (0x73b164)
+    //     0x73b30c: add             x1, PP, #0x28, lsl #12  ; [pp+0x28dd0] AnonymousClosure: (0x73e1d8), in [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::startListening (0x73b164)
     //     0x73b310: ldr             x1, [x1, #0xdd0]
     // 0x73b314: stur            x0, [fp, #-0x30]
     // 0x73b318: r0 = AllocateClosure()
@@ -1829,7 +1829,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     //     0x73b340: bl              #0xda3398  ; [dart:_compact_hash] __Map&_HashVMBase&MapMixin&_HashBase&_OperatorEqualsAndHashCode&_LinkedHashMapMixin::[]=
     // 0x73b344: ldur            x2, [fp, #-0x20]
     // 0x73b348: r1 = Function '<anonymous closure>':.
-    //     0x73b348: add             x1, PP, #0x28, lsl #12  ; [pp+0x28dd8] AnonymousClosure: (0x73b37c), in [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::startListening (0x73b164)
+    //     0x73b348: add             x1, PP, #0x28, lsl #12  ; [pp+0x28dd8] AnonymousClosure: (0x73b37c), in [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::startListening (0x73b164)
     //     0x73b34c: ldr             x1, [x1, #0xdd8]
     // 0x73b350: r0 = AllocateClosure()
     //     0x73b350: bl              #0xe553e0  ; AllocateClosureStub
@@ -1877,7 +1877,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     // 0x73b3c0: DecompressPointer r1
     //     0x73b3c0: add             x1, x1, HEAP, lsl #32
     // 0x73b3c4: r0 = fetch()
-    //     0x73b3c4: bl              #0x73be68  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownDocReader::fetch
+    //     0x73b3c4: bl              #0x73be68  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownDocReader::fetch
     // 0x73b3c8: mov             x1, x0
     // 0x73b3cc: stur            x1, [fp, #-0x18]
     // 0x73b3d0: r0 = Await()
@@ -1923,7 +1923,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     //     0x73b438: add             x3, x3, HEAP, lsl #32
     // 0x73b43c: ldur            x2, [fp, #-0x20]
     // 0x73b440: r0 = applyDocument()
-    //     0x73b440: bl              #0x73b49c  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::applyDocument
+    //     0x73b440: bl              #0x73b49c  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::applyDocument
     // 0x73b444: b               #0x73b48c
     // 0x73b448: ldur            x0, [fp, #-0x10]
     // 0x73b44c: b               #0x73b454
@@ -2020,7 +2020,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     // 0x73b538: DecompressPointer r1
     //     0x73b538: add             x1, x1, HEAP, lsl #32
     // 0x73b53c: r0 = fromRaw()
-    //     0x73b53c: bl              #0x73bd40  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyBreakdownKind::fromRaw
+    //     0x73b53c: bl              #0x73bd40  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyBreakdownKind::fromRaw
     // 0x73b540: ldur            x1, [fp, #-0x10]
     // 0x73b544: stur            x0, [fp, #-0x38]
     // 0x73b548: LoadField: r2 = r1->field_7
@@ -2064,7 +2064,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     // 0x73b5b4: mov             x1, x0
     // 0x73b5b8: stur            x2, [fp, #-0x40]
     // 0x73b5bc: r0 = displaySummaryText()
-    //     0x73b5bc: bl              #0x73bbb4  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownSummarySnapshot::displaySummaryText
+    //     0x73b5bc: bl              #0x73bbb4  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownSummarySnapshot::displaySummaryText
     // 0x73b5c0: cmp             w0, NULL
     // 0x73b5c4: b.ne            #0x73b5d0
     // 0x73b5c8: r6 = ""
@@ -2081,7 +2081,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     // 0x73b5e8: r1 = Null
     //     0x73b5e8: mov             x1, NULL
     // 0x73b5ec: r0 = BallyBreakdownState.teaser()
-    //     0x73b5ec: bl              #0x73bb5c  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownState::BallyBreakdownState.teaser
+    //     0x73b5ec: bl              #0x73bb5c  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownState::BallyBreakdownState.teaser
     // 0x73b5f0: ldur            x1, [fp, #-0x20]
     // 0x73b5f4: ldur            x2, [fp, #-0x18]
     // 0x73b5f8: mov             x3, x0
@@ -2109,7 +2109,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     // 0x73b63c: r1 = Null
     //     0x73b63c: mov             x1, NULL
     // 0x73b640: r0 = BallyBreakdownState.scored()
-    //     0x73b640: bl              #0x73bb1c  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownState::BallyBreakdownState.scored
+    //     0x73b640: bl              #0x73bb1c  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownState::BallyBreakdownState.scored
     // 0x73b644: ldur            x1, [fp, #-0x20]
     // 0x73b648: ldur            x2, [fp, #-0x18]
     // 0x73b64c: mov             x3, x0
@@ -2138,7 +2138,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     // 0x73b688: tbnz            w0, #4, #0x73b78c
     // 0x73b68c: ldur            x1, [fp, #-0x18]
     // 0x73b690: r0 = showBreakdownReadyOnce()
-    //     0x73b690: bl              #0x73b7c0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::showBreakdownReadyOnce
+    //     0x73b690: bl              #0x73b7c0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::showBreakdownReadyOnce
     // 0x73b694: b               #0x73b78c
     // 0x73b698: LoadField: r2 = r0->field_f
     //     0x73b698: ldur            w2, [x0, #0xf]
@@ -2147,7 +2147,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     // 0x73b6a0: mov             x1, x0
     // 0x73b6a4: stur            x2, [fp, #-0x28]
     // 0x73b6a8: r0 = displaySummaryText()
-    //     0x73b6a8: bl              #0x73bbb4  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownSummarySnapshot::displaySummaryText
+    //     0x73b6a8: bl              #0x73bbb4  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownSummarySnapshot::displaySummaryText
     // 0x73b6ac: cmp             w0, NULL
     // 0x73b6b0: b.ne            #0x73b6bc
     // 0x73b6b4: r6 = ""
@@ -2164,7 +2164,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     // 0x73b6d4: r1 = Null
     //     0x73b6d4: mov             x1, NULL
     // 0x73b6d8: r0 = BallyBreakdownState.teaser()
-    //     0x73b6d8: bl              #0x73bb5c  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownState::BallyBreakdownState.teaser
+    //     0x73b6d8: bl              #0x73bb5c  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownState::BallyBreakdownState.teaser
     // 0x73b6dc: ldur            x1, [fp, #-0x20]
     // 0x73b6e0: ldur            x2, [fp, #-0x18]
     // 0x73b6e4: mov             x3, x0
@@ -2188,7 +2188,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     // 0x73b718: cmp             w0, NULL
     // 0x73b71c: b.ne            #0x73b72c
     // 0x73b720: r0 = displaySummaryText()
-    //     0x73b720: bl              #0x73bbb4  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownSummarySnapshot::displaySummaryText
+    //     0x73b720: bl              #0x73bbb4  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownSummarySnapshot::displaySummaryText
     // 0x73b724: mov             x1, x0
     // 0x73b728: b               #0x73b730
     // 0x73b72c: mov             x1, x0
@@ -2201,11 +2201,11 @@ class BallyBreakdownStore extends ChangeNotifier {
     //     0x73b740: add             x1, PP, #0x28, lsl #12  ; [pp+0x28d70] "Couldn\'t read that one. Run it back."
     //     0x73b744: ldr             x1, [x1, #0xd70]
     // 0x73b748: r0 = L()
-    //     0x73b748: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x73b748: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x73b74c: mov             x1, x0
     // 0x73b750: b               #0x73b75c
     // 0x73b754: r0 = L()
-    //     0x73b754: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x73b754: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x73b758: mov             x1, x0
     // 0x73b75c: ldur            x0, [fp, #-0x38]
     // 0x73b760: stur            x1, [fp, #-0x10]
@@ -2426,7 +2426,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     // 0x73e3a4: b.eq            #0x73e3e4
     // 0x73e3a8: mov             x1, x0
     // 0x73e3ac: r0 = fromMap()
-    //     0x73e3ac: bl              #0x73c004  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownDocReader::fromMap
+    //     0x73e3ac: bl              #0x73c004  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownDocReader::fromMap
     // 0x73e3b0: mov             x1, x0
     // 0x73e3b4: ldur            x0, [fp, #-8]
     // 0x73e3b8: LoadField: r3 = r0->field_13
@@ -2436,7 +2436,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     // 0x73e3c0: mov             x2, x1
     // 0x73e3c4: ldur            x1, [fp, #-0x10]
     // 0x73e3c8: r0 = applyDocument()
-    //     0x73e3c8: bl              #0x73b49c  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::applyDocument
+    //     0x73e3c8: bl              #0x73b49c  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::applyDocument
     // 0x73e3cc: r0 = Null
     //     0x73e3cc: mov             x0, NULL
     // 0x73e3d0: LeaveFrame
@@ -2466,7 +2466,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     // 0x73e578: mov             x1, x0
     // 0x73e57c: stur            x0, [fp, #-8]
     // 0x73e580: r0 = BallyBreakdownStore._()
-    //     0x73e580: bl              #0x73e59c  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::BallyBreakdownStore._
+    //     0x73e580: bl              #0x73e59c  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::BallyBreakdownStore._
     // 0x73e584: ldur            x0, [fp, #-8]
     // 0x73e588: LeaveFrame
     //     0x73e588: mov             SP, fp
@@ -2869,7 +2869,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     // 0x7416c0: r1 = Null
     //     0x7416c0: mov             x1, NULL
     // 0x7416c4: r0 = WorkoutModel.fromFirestore()
-    //     0x7416c4: bl              #0x7417a0  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::WorkoutModel.fromFirestore
+    //     0x7416c4: bl              #0x7417a0  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::WorkoutModel.fromFirestore
     // 0x7416c8: mov             x2, x0
     // 0x7416cc: b               #0x74172c
     // 0x7416d0: ldur            x0, [fp, #-0x28]
@@ -2910,7 +2910,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     //     0x741734: add             x1, PP, #0x28, lsl #12  ; [pp+0x28d70] "Couldn\'t read that one. Run it back."
     //     0x741738: ldr             x1, [x1, #0xd70]
     // 0x74173c: r0 = L()
-    //     0x74173c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x74173c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x741740: ldur            x1, [fp, #-0x10]
     // 0x741744: mov             x2, x0
     // 0x741748: ldur            x5, [fp, #-0x18]
@@ -2920,7 +2920,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     // 0x741754: r4 = const [0, 0x4, 0, 0x4, null]
     //     0x741754: ldr             x4, [PP, #0xc08]  ; [pp+0xc08] List(5) [0, 0x4, 0, 0x4, Null]
     // 0x741758: r0 = setFailed()
-    //     0x741758: bl              #0x73ae7c  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::setFailed
+    //     0x741758: bl              #0x73ae7c  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::setFailed
     // 0x74175c: r0 = Null
     //     0x74175c: mov             x0, NULL
     // 0x741760: r0 = ReturnAsyncNotFuture()
@@ -2933,7 +2933,7 @@ class BallyBreakdownStore extends ChangeNotifier {
     //     0x741770: add             x4, PP, #0x29, lsl #12  ; [pp+0x29348] List(7) [0, 0x3, 0x1, 0x2, "force", 0x2, Null]
     //     0x741774: ldr             x4, [x4, #0x348]
     // 0x741778: r0 = generateFull()
-    //     0x741778: bl              #0x73a814  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::generateFull
+    //     0x741778: bl              #0x73a814  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::generateFull
     // 0x74177c: mov             x1, x0
     // 0x741780: stur            x1, [fp, #-0x10]
     // 0x741784: r0 = Await()

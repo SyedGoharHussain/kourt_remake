@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/export_progress_overlay.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/export_progress_overlay.dart
 
 // class id: 1048910, size: 0x8
 class :: {

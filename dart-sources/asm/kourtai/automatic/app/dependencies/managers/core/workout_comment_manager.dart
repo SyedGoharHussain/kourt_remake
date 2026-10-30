@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart
 
 // class id: 1048654, size: 0x8
 class :: {
@@ -30,15 +30,15 @@ class WorkoutCommentManager extends Object {
     //     0x9d83b4: bl              #0x60afc8  ; InitAsyncStub
     // 0x9d83b8: ldur            x1, [fp, #-0x10]
     // 0x9d83bc: r0 = _currentUserId()
-    //     0x9d83bc: bl              #0x9d8acc  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_currentUserId
+    //     0x9d83bc: bl              #0x9d8acc  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_currentUserId
     // 0x9d83c0: ldur            x1, [fp, #-0x10]
     // 0x9d83c4: ldur            x2, [fp, #-0x18]
     // 0x9d83c8: stur            x0, [fp, #-0x18]
     // 0x9d83cc: r0 = _normalized()
-    //     0x9d83cc: bl              #0x9d8a64  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_normalized
+    //     0x9d83cc: bl              #0x9d8a64  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_normalized
     // 0x9d83d0: stur            x0, [fp, #-0x30]
     // 0x9d83d4: r0 = makeId()
-    //     0x9d83d4: bl              #0x9d8b44  ; [package:ballai/automatic/models/core/comment/workout_comment_model.dart] WorkoutCommentModel::makeId
+    //     0x9d83d4: bl              #0x9d8b44  ; [package:kourtai/automatic/models/core/comment/workout_comment_model.dart] WorkoutCommentModel::makeId
     // 0x9d83d8: stur            x0, [fp, #-0x38]
     // 0x9d83dc: r0 = WorkoutCommentModel()
     //     0x9d83dc: bl              #0x9d8b38  ; AllocateWorkoutCommentModelStub -> WorkoutCommentModel (size=0x30)
@@ -94,7 +94,7 @@ class WorkoutCommentManager extends Object {
     //     0x9d8460: add             x4, PP, #0x57, lsl #12  ; [pp+0x57768] List(7) [0, 0x2, 0x1, 0x1, "forCreate", 0x1, Null]
     //     0x9d8464: ldr             x4, [x4, #0x768]
     // 0x9d8468: r0 = toFirestore()
-    //     0x9d8468: bl              #0x9d87d4  ; [package:ballai/automatic/models/core/comment/workout_comment_model.dart] WorkoutCommentModel::toFirestore
+    //     0x9d8468: bl              #0x9d87d4  ; [package:kourtai/automatic/models/core/comment/workout_comment_model.dart] WorkoutCommentModel::toFirestore
     // 0x9d846c: ldur            x1, [fp, #-0x10]
     // 0x9d8470: mov             x2, x0
     // 0x9d8474: r4 = const [0, 0x2, 0, 0x2, null]
@@ -146,7 +146,7 @@ class WorkoutCommentManager extends Object {
     //     0x9d84ec: add             x4, PP, #0x57, lsl #12  ; [pp+0x57770] List(9) [0, 0x3, 0x2, 0x1, "createDate", 0x1, "updateDate", 0x2, Null]
     //     0x9d84f0: ldr             x4, [x4, #0x770]
     // 0x9d84f4: r0 = copyWith()
-    //     0x9d84f4: bl              #0x9d8528  ; [package:ballai/automatic/models/core/comment/workout_comment_model.dart] WorkoutCommentModel::copyWith
+    //     0x9d84f4: bl              #0x9d8528  ; [package:kourtai/automatic/models/core/comment/workout_comment_model.dart] WorkoutCommentModel::copyWith
     // 0x9d84f8: r0 = ReturnAsyncNotFuture()
     //     0x9d84f8: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x9d84fc: r0 = StackOverflowSharedWithoutFPURegs()
@@ -572,7 +572,7 @@ class WorkoutCommentManager extends Object {
     // 0x9da238: r1 = Null
     //     0x9da238: mov             x1, NULL
     // 0x9da23c: r0 = WorkoutCommentModel.fromFirestore()
-    //     0x9da23c: bl              #0x9da418  ; [package:ballai/automatic/models/core/comment/workout_comment_model.dart] WorkoutCommentModel::WorkoutCommentModel.fromFirestore
+    //     0x9da23c: bl              #0x9da418  ; [package:kourtai/automatic/models/core/comment/workout_comment_model.dart] WorkoutCommentModel::WorkoutCommentModel.fromFirestore
     // 0x9da240: stur            x0, [fp, #-0x60]
     // 0x9da244: LoadField: r1 = r0->field_2b
     //     0x9da244: ldur            w1, [x0, #0x2b]
@@ -768,15 +768,15 @@ class WorkoutCommentManager extends Object {
     //     0x9dd3cc: bl              #0x60afc8  ; InitAsyncStub
     // 0x9dd3d0: ldur            x1, [fp, #-0x10]
     // 0x9dd3d4: r0 = _currentUserId()
-    //     0x9dd3d4: bl              #0x9d8acc  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_currentUserId
+    //     0x9dd3d4: bl              #0x9d8acc  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_currentUserId
     // 0x9dd3d8: ldur            x1, [fp, #-0x10]
     // 0x9dd3dc: ldur            x2, [fp, #-0x20]
     // 0x9dd3e0: stur            x0, [fp, #-0x20]
     // 0x9dd3e4: r0 = _normalized()
-    //     0x9dd3e4: bl              #0x9d8a64  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_normalized
+    //     0x9dd3e4: bl              #0x9d8a64  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_normalized
     // 0x9dd3e8: stur            x0, [fp, #-0x38]
     // 0x9dd3ec: r0 = makeId()
-    //     0x9dd3ec: bl              #0x9dde1c  ; [package:ballai/automatic/models/core/comment/workout_comment_reply_model.dart] WorkoutCommentReplyModel::makeId
+    //     0x9dd3ec: bl              #0x9dde1c  ; [package:kourtai/automatic/models/core/comment/workout_comment_reply_model.dart] WorkoutCommentReplyModel::makeId
     // 0x9dd3f0: stur            x0, [fp, #-0x40]
     // 0x9dd3f4: r0 = WorkoutCommentReplyModel()
     //     0x9dd3f4: bl              #0x9dde10  ; AllocateWorkoutCommentReplyModelStub -> WorkoutCommentReplyModel (size=0x30)
@@ -809,7 +809,7 @@ class WorkoutCommentManager extends Object {
     // 0x9dd43c: ldur            x1, [fp, #-0x10]
     // 0x9dd440: mov             x2, x4
     // 0x9dd444: r0 = _replies()
-    //     0x9dd444: bl              #0x9ddb6c  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_replies
+    //     0x9dd444: bl              #0x9ddb6c  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_replies
     // 0x9dd448: ldur            x16, [fp, #-0x40]
     // 0x9dd44c: str             x16, [SP]
     // 0x9dd450: mov             x1, x0
@@ -826,7 +826,7 @@ class WorkoutCommentManager extends Object {
     //     0x9dd46c: add             x4, PP, #0x57, lsl #12  ; [pp+0x57768] List(7) [0, 0x2, 0x1, 0x1, "forCreate", 0x1, Null]
     //     0x9dd470: ldr             x4, [x4, #0x768]
     // 0x9dd474: r0 = toFirestore()
-    //     0x9dd474: bl              #0x9dd918  ; [package:ballai/automatic/models/core/comment/workout_comment_reply_model.dart] WorkoutCommentReplyModel::toFirestore
+    //     0x9dd474: bl              #0x9dd918  ; [package:kourtai/automatic/models/core/comment/workout_comment_reply_model.dart] WorkoutCommentReplyModel::toFirestore
     // 0x9dd478: ldur            x1, [fp, #-0x20]
     // 0x9dd47c: mov             x2, x0
     // 0x9dd480: r4 = const [0, 0x2, 0, 0x2, null]
@@ -967,7 +967,7 @@ class WorkoutCommentManager extends Object {
     //     0x9dd5f4: add             x4, PP, #0x57, lsl #12  ; [pp+0x57770] List(9) [0, 0x3, 0x2, 0x1, "createDate", 0x1, "updateDate", 0x2, Null]
     //     0x9dd5f8: ldr             x4, [x4, #0x770]
     // 0x9dd5fc: r0 = copyWith()
-    //     0x9dd5fc: bl              #0x9dd60c  ; [package:ballai/automatic/models/core/comment/workout_comment_reply_model.dart] WorkoutCommentReplyModel::copyWith
+    //     0x9dd5fc: bl              #0x9dd60c  ; [package:kourtai/automatic/models/core/comment/workout_comment_reply_model.dart] WorkoutCommentReplyModel::copyWith
     // 0x9dd600: r0 = ReturnAsyncNotFuture()
     //     0x9dd600: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x9dd604: r0 = StackOverflowSharedWithoutFPURegs()
@@ -1056,14 +1056,14 @@ class WorkoutCommentManager extends Object {
     //     0x9de384: add             x2, x2, HEAP, lsl #32
     // 0x9de388: ldur            x1, [fp, #-0x10]
     // 0x9de38c: r0 = _normalized()
-    //     0x9de38c: bl              #0x9d8a64  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_normalized
+    //     0x9de38c: bl              #0x9d8a64  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_normalized
     // 0x9de390: str             x0, [SP]
     // 0x9de394: ldur            x1, [fp, #-0x18]
     // 0x9de398: r4 = const [0, 0x2, 0x1, 0x1, text, 0x1, null]
     //     0x9de398: add             x4, PP, #0x27, lsl #12  ; [pp+0x27108] List(7) [0, 0x2, 0x1, 0x1, "text", 0x1, Null]
     //     0x9de39c: ldr             x4, [x4, #0x108]
     // 0x9de3a0: r0 = copyWith()
-    //     0x9de3a0: bl              #0x9dd60c  ; [package:ballai/automatic/models/core/comment/workout_comment_reply_model.dart] WorkoutCommentReplyModel::copyWith
+    //     0x9de3a0: bl              #0x9dd60c  ; [package:kourtai/automatic/models/core/comment/workout_comment_reply_model.dart] WorkoutCommentReplyModel::copyWith
     // 0x9de3a4: b               #0x9de3ac
     // 0x9de3a8: ldur            x0, [fp, #-0x18]
     // 0x9de3ac: stur            x0, [fp, #-0x18]
@@ -1073,7 +1073,7 @@ class WorkoutCommentManager extends Object {
     //     0x9de3b4: add             x2, x2, HEAP, lsl #32
     // 0x9de3b8: ldur            x1, [fp, #-0x10]
     // 0x9de3bc: r0 = _replies()
-    //     0x9de3bc: bl              #0x9ddb6c  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_replies
+    //     0x9de3bc: bl              #0x9ddb6c  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_replies
     // 0x9de3c0: mov             x1, x0
     // 0x9de3c4: ldur            x0, [fp, #-0x18]
     // 0x9de3c8: LoadField: r2 = r0->field_7
@@ -1090,7 +1090,7 @@ class WorkoutCommentManager extends Object {
     // 0x9de3e4: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x9de3e4: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x9de3e8: r0 = toFirestore()
-    //     0x9de3e8: bl              #0x9dd918  ; [package:ballai/automatic/models/core/comment/workout_comment_reply_model.dart] WorkoutCommentReplyModel::toFirestore
+    //     0x9de3e8: bl              #0x9dd918  ; [package:kourtai/automatic/models/core/comment/workout_comment_reply_model.dart] WorkoutCommentReplyModel::toFirestore
     // 0x9de3ec: stur            x0, [fp, #-0x20]
     // 0x9de3f0: r0 = SetOptions()
     //     0x9de3f0: bl              #0x662250  ; AllocateSetOptionsStub -> SetOptions (size=0x10)
@@ -1133,7 +1133,7 @@ class WorkoutCommentManager extends Object {
     //     0x9de454: add             x4, PP, #0x37, lsl #12  ; [pp+0x377f8] List(7) [0, 0x2, 0x1, 0x1, "updateDate", 0x1, Null]
     //     0x9de458: ldr             x4, [x4, #0x7f8]
     // 0x9de45c: r0 = copyWith()
-    //     0x9de45c: bl              #0x9dd60c  ; [package:ballai/automatic/models/core/comment/workout_comment_reply_model.dart] WorkoutCommentReplyModel::copyWith
+    //     0x9de45c: bl              #0x9dd60c  ; [package:kourtai/automatic/models/core/comment/workout_comment_reply_model.dart] WorkoutCommentReplyModel::copyWith
     // 0x9de460: r0 = ReturnAsyncNotFuture()
     //     0x9de460: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x9de464: r0 = StackOverflowSharedWithoutFPURegs()
@@ -1169,7 +1169,7 @@ class WorkoutCommentManager extends Object {
     //     0x9de748: add             x3, x3, HEAP, lsl #32
     // 0x9de74c: ldur            x1, [fp, #-0x10]
     // 0x9de750: r0 = _canDelete()
-    //     0x9de750: bl              #0x9defa4  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_canDelete
+    //     0x9de750: bl              #0x9defa4  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_canDelete
     // 0x9de754: tbnz            w0, #4, #0x9de8cc
     // 0x9de758: ldur            x3, [fp, #-0x10]
     // 0x9de75c: ldur            x0, [fp, #-0x18]
@@ -1181,7 +1181,7 @@ class WorkoutCommentManager extends Object {
     // 0x9de76c: mov             x2, x4
     // 0x9de770: stur            x4, [fp, #-0x20]
     // 0x9de774: r0 = _deleteAllLikesForCommentId()
-    //     0x9de774: bl              #0x9deb5c  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_deleteAllLikesForCommentId
+    //     0x9de774: bl              #0x9deb5c  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_deleteAllLikesForCommentId
     // 0x9de778: mov             x1, x0
     // 0x9de77c: stur            x1, [fp, #-0x28]
     // 0x9de780: r0 = Await()
@@ -1195,7 +1195,7 @@ class WorkoutCommentManager extends Object {
     // 0x9de794: mov             x2, x3
     // 0x9de798: stur            x3, [fp, #-0x28]
     // 0x9de79c: r0 = _replies()
-    //     0x9de79c: bl              #0x9ddb6c  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_replies
+    //     0x9de79c: bl              #0x9ddb6c  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_replies
     // 0x9de7a0: ldur            x16, [fp, #-0x20]
     // 0x9de7a4: str             x16, [SP]
     // 0x9de7a8: mov             x1, x0
@@ -2015,7 +2015,7 @@ class WorkoutCommentManager extends Object {
     // 0x9e0298: r1 = Null
     //     0x9e0298: mov             x1, NULL
     // 0x9e029c: r0 = WorkoutCommentReplyModel.fromFirestore()
-    //     0x9e029c: bl              #0x9e0478  ; [package:ballai/automatic/models/core/comment/workout_comment_reply_model.dart] WorkoutCommentReplyModel::WorkoutCommentReplyModel.fromFirestore
+    //     0x9e029c: bl              #0x9e0478  ; [package:kourtai/automatic/models/core/comment/workout_comment_reply_model.dart] WorkoutCommentReplyModel::WorkoutCommentReplyModel.fromFirestore
     // 0x9e02a0: stur            x0, [fp, #-0x60]
     // 0x9e02a4: LoadField: r1 = r0->field_2b
     //     0x9e02a4: ldur            w1, [x0, #0x2b]
@@ -2217,14 +2217,14 @@ class WorkoutCommentManager extends Object {
     //     0x9e0e30: add             x2, x2, HEAP, lsl #32
     // 0x9e0e34: ldur            x1, [fp, #-0x10]
     // 0x9e0e38: r0 = _normalized()
-    //     0x9e0e38: bl              #0x9d8a64  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_normalized
+    //     0x9e0e38: bl              #0x9d8a64  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_normalized
     // 0x9e0e3c: str             x0, [SP]
     // 0x9e0e40: ldur            x1, [fp, #-0x18]
     // 0x9e0e44: r4 = const [0, 0x2, 0x1, 0x1, text, 0x1, null]
     //     0x9e0e44: add             x4, PP, #0x27, lsl #12  ; [pp+0x27108] List(7) [0, 0x2, 0x1, 0x1, "text", 0x1, Null]
     //     0x9e0e48: ldr             x4, [x4, #0x108]
     // 0x9e0e4c: r0 = copyWith()
-    //     0x9e0e4c: bl              #0x9d8528  ; [package:ballai/automatic/models/core/comment/workout_comment_model.dart] WorkoutCommentModel::copyWith
+    //     0x9e0e4c: bl              #0x9d8528  ; [package:kourtai/automatic/models/core/comment/workout_comment_model.dart] WorkoutCommentModel::copyWith
     // 0x9e0e50: mov             x3, x0
     // 0x9e0e54: b               #0x9e0e5c
     // 0x9e0e58: ldur            x3, [fp, #-0x18]
@@ -2255,7 +2255,7 @@ class WorkoutCommentManager extends Object {
     // 0x9e0e9c: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x9e0e9c: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x9e0ea0: r0 = toFirestore()
-    //     0x9e0ea0: bl              #0x9d87d4  ; [package:ballai/automatic/models/core/comment/workout_comment_model.dart] WorkoutCommentModel::toFirestore
+    //     0x9e0ea0: bl              #0x9d87d4  ; [package:kourtai/automatic/models/core/comment/workout_comment_model.dart] WorkoutCommentModel::toFirestore
     // 0x9e0ea4: stur            x0, [fp, #-0x20]
     // 0x9e0ea8: r0 = SetOptions()
     //     0x9e0ea8: bl              #0x662250  ; AllocateSetOptionsStub -> SetOptions (size=0x10)
@@ -2298,7 +2298,7 @@ class WorkoutCommentManager extends Object {
     //     0x9e0f0c: add             x4, PP, #0x37, lsl #12  ; [pp+0x377f8] List(7) [0, 0x2, 0x1, 0x1, "updateDate", 0x1, Null]
     //     0x9e0f10: ldr             x4, [x4, #0x7f8]
     // 0x9e0f14: r0 = copyWith()
-    //     0x9e0f14: bl              #0x9d8528  ; [package:ballai/automatic/models/core/comment/workout_comment_model.dart] WorkoutCommentModel::copyWith
+    //     0x9e0f14: bl              #0x9d8528  ; [package:kourtai/automatic/models/core/comment/workout_comment_model.dart] WorkoutCommentModel::copyWith
     // 0x9e0f18: r0 = ReturnAsyncNotFuture()
     //     0x9e0f18: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x9e0f1c: r0 = StackOverflowSharedWithoutFPURegs()
@@ -2334,7 +2334,7 @@ class WorkoutCommentManager extends Object {
     //     0x9e1254: add             x3, x3, HEAP, lsl #32
     // 0x9e1258: ldur            x1, [fp, #-0x10]
     // 0x9e125c: r0 = _canDelete()
-    //     0x9e125c: bl              #0x9defa4  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_canDelete
+    //     0x9e125c: bl              #0x9defa4  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_canDelete
     // 0x9e1260: tbnz            w0, #4, #0x9e12f0
     // 0x9e1264: ldur            x3, [fp, #-0x10]
     // 0x9e1268: ldur            x0, [fp, #-0x18]
@@ -2346,7 +2346,7 @@ class WorkoutCommentManager extends Object {
     // 0x9e1278: mov             x2, x4
     // 0x9e127c: stur            x4, [fp, #-0x20]
     // 0x9e1280: r0 = _deleteAllRepliesUnderParent()
-    //     0x9e1280: bl              #0x9e1318  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_deleteAllRepliesUnderParent
+    //     0x9e1280: bl              #0x9e1318  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_deleteAllRepliesUnderParent
     // 0x9e1284: mov             x1, x0
     // 0x9e1288: stur            x1, [fp, #-0x28]
     // 0x9e128c: r0 = Await()
@@ -2354,7 +2354,7 @@ class WorkoutCommentManager extends Object {
     // 0x9e1290: ldur            x1, [fp, #-0x10]
     // 0x9e1294: ldur            x2, [fp, #-0x20]
     // 0x9e1298: r0 = _deleteAllLikesForCommentId()
-    //     0x9e1298: bl              #0x9deb5c  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_deleteAllLikesForCommentId
+    //     0x9e1298: bl              #0x9deb5c  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_deleteAllLikesForCommentId
     // 0x9e129c: mov             x1, x0
     // 0x9e12a0: stur            x1, [fp, #-0x28]
     // 0x9e12a4: r0 = Await()
@@ -2424,7 +2424,7 @@ class WorkoutCommentManager extends Object {
     // 0x9e1344: ldur            x1, [fp, #-0x10]
     // 0x9e1348: ldur            x2, [fp, #-0x18]
     // 0x9e134c: r0 = _replies()
-    //     0x9e134c: bl              #0x9ddb6c  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_replies
+    //     0x9e134c: bl              #0x9ddb6c  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_replies
     // 0x9e1350: stur            x0, [fp, #-0x18]
     // 0x9e1354: CheckStackOverflow
     //     0x9e1354: ldr             x16, [THR, #0x38]  ; THR::stack_limit
@@ -2627,7 +2627,7 @@ class WorkoutCommentManager extends Object {
     // 0x9e155c: ldur            x1, [fp, #-0x10]
     // 0x9e1560: mov             x2, x0
     // 0x9e1564: r0 = _deleteAllLikesForCommentId()
-    //     0x9e1564: bl              #0x9deb5c  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_deleteAllLikesForCommentId
+    //     0x9e1564: bl              #0x9deb5c  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::_deleteAllLikesForCommentId
     // 0x9e1568: mov             x1, x0
     // 0x9e156c: stur            x1, [fp, #-0x50]
     // 0x9e1570: r0 = Await()

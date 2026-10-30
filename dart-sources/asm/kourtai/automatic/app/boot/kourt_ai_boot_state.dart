@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/boot/ball_ai_boot_state.dart
+// lib: , url: package:kourtai/automatic/app/boot/kourt_ai_boot_state.dart
 
 // class id: 1048630, size: 0x8
 class :: {
@@ -6,11 +6,11 @@ class :: {
 
 // class id: 5307, size: 0x18, field offset: 0x8
 //   const constructor, 
-class BallAiBootResult extends Object {
+class KourtAiBootResult extends Object {
 }
 
 // class id: 6735, size: 0x14, field offset: 0x14
-enum BallAiBootState extends _Enum {
+enum KourtAiBootState extends _Enum {
 
   _Mint field_8;
   _OneByteString field_10;
@@ -22,7 +22,7 @@ enum BallAiBootState extends _Enum {
     //     0xcd8bc8: mov             fp, SP
     // 0xcd8bcc: AllocStack(0x10)
     //     0xcd8bcc: sub             SP, SP, #0x10
-    // 0xcd8bd0: SetupParameters(BallAiBootState this /* r1 => r0, fp-0x8 */)
+    // 0xcd8bd0: SetupParameters(KourtAiBootState this /* r1 => r0, fp-0x8 */)
     //     0xcd8bd0: mov             x0, x1
     //     0xcd8bd4: stur            x1, [fp, #-8]
     // 0xcd8bd8: CheckStackOverflow
@@ -35,8 +35,8 @@ enum BallAiBootState extends _Enum {
     //     0xcd8be8: mov             x2, #4
     // 0xcd8bec: r0 = AllocateArray()
     //     0xcd8bec: bl              #0xe560ac  ; AllocateArrayStub
-    // 0xcd8bf0: r16 = "BallAiBootState."
-    //     0xcd8bf0: add             x16, PP, #0xf, lsl #12  ; [pp+0xfd28] "BallAiBootState."
+    // 0xcd8bf0: r16 = "KourtAiBootState."
+    //     0xcd8bf0: add             x16, PP, #0xf, lsl #12  ; [pp+0xfd28] "KourtAiBootState."
     //     0xcd8bf4: ldr             x16, [x16, #0xd28]
     // 0xcd8bf8: StoreField: r0->field_f = r16
     //     0xcd8bf8: stur            w16, [x0, #0xf]

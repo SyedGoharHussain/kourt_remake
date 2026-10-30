@@ -1,6 +1,6 @@
 package p229p8;
 
-import ballai.app.R;
+import kourtai.app.R;
 
 /* JADX INFO: loaded from: classes4.dex */
 public abstract class j {

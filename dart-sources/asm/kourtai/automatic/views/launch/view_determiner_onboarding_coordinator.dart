@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/launch/view_determiner_onboarding_coordinator.dart
+// lib: , url: package:kourtai/automatic/views/launch/view_determiner_onboarding_coordinator.dart
 
 // class id: 1049046, size: 0x8
 class :: {
@@ -89,11 +89,11 @@ class ViewDeterminerOnboardingCoordinator extends ChangeNotifier {
     // 0x938740: ret
     //     0x938740: ret             
     // 0x938744: r0 = isCoachOrTrainer()
-    //     0x938744: bl              #0x9387f8  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::isCoachOrTrainer
+    //     0x938744: bl              #0x9387f8  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::isCoachOrTrainer
     // 0x938748: tbnz            w0, #4, #0x938770
     // 0x93874c: ldur            x1, [fp, #-8]
     // 0x938750: r0 = currentTeamIds()
-    //     0x938750: bl              #0x938788  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeamIds
+    //     0x938750: bl              #0x938788  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeamIds
     // 0x938754: LoadField: r1 = r0->field_b
     //     0x938754: ldur            w1, [x0, #0xb]
     // 0x938758: cbz             w1, #0x938764

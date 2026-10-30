@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart
 
 // class id: 1048892, size: 0x8
 class :: {
@@ -181,7 +181,7 @@ class WorkoutVideoController extends ChangeNotifier {
     // 0x8ed564: ldur            x2, [fp, #-8]
     // 0x8ed568: stur            x0, [fp, #-8]
     // 0x8ed56c: r0 = WorkoutVideoController._legacy()
-    //     0x8ed56c: bl              #0x8ed588  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::WorkoutVideoController._legacy
+    //     0x8ed56c: bl              #0x8ed588  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::WorkoutVideoController._legacy
     // 0x8ed570: ldur            x0, [fp, #-8]
     // 0x8ed574: LeaveFrame
     //     0x8ed574: mov             SP, fp
@@ -247,7 +247,7 @@ class WorkoutVideoController extends ChangeNotifier {
     //     0x8ed620: b.eq            #0x8ed628
     //     0x8ed624: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x8ed628: r1 = Function '_onLegacyTick@1148469106':.
-    //     0x8ed628: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e6a0] AnonymousClosure: (0x8ed658), of [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController
+    //     0x8ed628: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e6a0] AnonymousClosure: (0x8ed658), of [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController
     //     0x8ed62c: ldr             x1, [x1, #0x6a0]
     // 0x8ed630: r0 = AllocateClosure()
     //     0x8ed630: bl              #0xe553e0  ; AllocateClosureStub
@@ -281,7 +281,7 @@ class WorkoutVideoController extends ChangeNotifier {
     //     0x8ed670: cmp             SP, x16
     //     0x8ed674: b.ls            #0x8ed68c
     // 0x8ed678: r0 = _notifyIfAlive()
-    //     0x8ed678: bl              #0x8ed694  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::_notifyIfAlive
+    //     0x8ed678: bl              #0x8ed694  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::_notifyIfAlive
     // 0x8ed67c: r0 = Null
     //     0x8ed67c: mov             x0, NULL
     // 0x8ed680: LeaveFrame
@@ -378,7 +378,7 @@ class WorkoutVideoController extends ChangeNotifier {
     //     0x9b5edc: mov             fp, SP
     // 0x9b5ee0: ldr             x2, [fp, #0x10]
     // 0x9b5ee4: r1 = Function 'dispose':.
-    //     0x9b5ee4: add             x1, PP, #0x53, lsl #12  ; [pp+0x53a18] AnonymousClosure: (0x9b5efc), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::dispose (0x9be898)
+    //     0x9b5ee4: add             x1, PP, #0x53, lsl #12  ; [pp+0x53a18] AnonymousClosure: (0x9b5efc), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::dispose (0x9be898)
     //     0x9b5ee8: ldr             x1, [x1, #0xa18]
     // 0x9b5eec: r0 = AllocateClosure()
     //     0x9b5eec: bl              #0xe553e0  ; AllocateClosureStub
@@ -403,7 +403,7 @@ class WorkoutVideoController extends ChangeNotifier {
     //     0x9b5f14: cmp             SP, x16
     //     0x9b5f18: b.ls            #0x9b5f2c
     // 0x9b5f1c: r0 = dispose()
-    //     0x9b5f1c: bl              #0x9be898  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::dispose
+    //     0x9b5f1c: bl              #0x9be898  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::dispose
     // 0x9b5f20: LeaveFrame
     //     0x9b5f20: mov             SP, fp
     //     0x9b5f24: ldp             fp, lr, [SP], #0x10
@@ -437,7 +437,7 @@ class WorkoutVideoController extends ChangeNotifier {
     // 0x9be8c8: mov             x2, x3
     // 0x9be8cc: stur            x0, [fp, #-8]
     // 0x9be8d0: r1 = Function '_onLegacyTick@1148469106':.
-    //     0x9be8d0: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e6a0] AnonymousClosure: (0x8ed658), of [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController
+    //     0x9be8d0: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e6a0] AnonymousClosure: (0x8ed658), of [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController
     //     0x9be8d4: ldr             x1, [x1, #0x6a0]
     // 0x9be8d8: r0 = AllocateClosure()
     //     0x9be8d8: bl              #0xe553e0  ; AllocateClosureStub

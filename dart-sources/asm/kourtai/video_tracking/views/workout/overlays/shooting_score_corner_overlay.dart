@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/overlays/shooting_score_corner_overlay.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/overlays/shooting_score_corner_overlay.dart
 
 // class id: 1049256, size: 0x8
 class :: {
@@ -830,7 +830,7 @@ class ShootingScoreCornerOverlay extends StatelessWidget {
     //     0xc41714: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xc41718: cmp             SP, x16
     //     0xc4171c: b.ls            #0xc418a0
-    // 0xc41720: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0xc41720: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0xc41720: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xc41724: ldr             x0, [x0, #0x1cf0]
     //     0xc41728: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -852,7 +852,7 @@ class ShootingScoreCornerOverlay extends StatelessWidget {
     // 0xc41758: tbz             w1, #4, #0xc41768
     // 0xc4175c: mov             x1, x0
     // 0xc41760: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0xc41760: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0xc41760: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0xc41764: tbnz            w0, #4, #0xc41778
     // 0xc41768: r0 = Instance_SizedBox
     //     0xc41768: ldr             x0, [PP, #0x4b10]  ; [pp+0x4b10] Obj!SizedBox@d21791
@@ -868,7 +868,7 @@ class ShootingScoreCornerOverlay extends StatelessWidget {
     // 0xc41784: ldur            x1, [fp, #-0x10]
     // 0xc41788: stur            x0, [fp, #-8]
     // 0xc4178c: r0 = VideoWorkoutManagerDribble.activeMakeMissScoreHandler()
-    //     0xc4178c: bl              #0x74dfe0  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.activeMakeMissScoreHandler
+    //     0xc4178c: bl              #0x74dfe0  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.activeMakeMissScoreHandler
     // 0xc41790: stur            x0, [fp, #-0x18]
     // 0xc41794: r1 = 1
     //     0xc41794: mov             x1, #1
@@ -893,7 +893,7 @@ class ShootingScoreCornerOverlay extends StatelessWidget {
     // 0xc417c8: mov             x2, x1
     // 0xc417cc: stur            d3, [fp, #-0x20]
     // 0xc417d0: r1 = Function '<anonymous closure>':.
-    //     0xc417d0: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a870] AnonymousClosure: (0xc418dc), in [package:ballai/video_tracking/views/workout/overlays/shooting_score_corner_overlay.dart] ShootingScoreCornerOverlay::build (0xc416fc)
+    //     0xc417d0: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a870] AnonymousClosure: (0xc418dc), in [package:kourtai/video_tracking/views/workout/overlays/shooting_score_corner_overlay.dart] ShootingScoreCornerOverlay::build (0xc416fc)
     //     0xc417d4: ldr             x1, [x1, #0x870]
     // 0xc417d8: r0 = AllocateClosure()
     //     0xc417d8: bl              #0xe553e0  ; AllocateClosureStub

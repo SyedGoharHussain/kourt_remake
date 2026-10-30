@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/schedule/scheduled_drill_model.dart
+// lib: , url: package:kourtai/automatic/models/schedule/scheduled_drill_model.dart
 
 // class id: 1048712, size: 0x8
 class :: {
@@ -19,7 +19,7 @@ class ScheduledDrillModel extends Object {
     //     0x97cb10: b.ls            #0x97cb28
     // 0x97cb14: ldr             x1, [fp, #0x10]
     // 0x97cb18: r0 = fromFirestore()
-    //     0x97cb18: bl              #0x97cb30  ; [package:ballai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::fromFirestore
+    //     0x97cb18: bl              #0x97cb30  ; [package:kourtai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::fromFirestore
     // 0x97cb1c: LeaveFrame
     //     0x97cb1c: mov             SP, fp
     //     0x97cb20: ldp             fp, lr, [SP], #0x10

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/analysis/video_analysis_coordinator.dart
+// lib: , url: package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart
 
 // class id: 1049113, size: 0x8
 class :: {
@@ -37,7 +37,7 @@ class VideoAnalysisCoordinator extends Object {
     //     0x6ce028: ldur            x3, [x0, #0x33]
     // 0x6ce02c: mov             x1, x4
     // 0x6ce030: r0 = feedVideoStorageIfNeeded()
-    //     0x6ce030: bl              #0x7796a4  ; [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::feedVideoStorageIfNeeded
+    //     0x6ce030: bl              #0x7796a4  ; [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::feedVideoStorageIfNeeded
     // 0x6ce034: ldur            x0, [fp, #-0x18]
     // 0x6ce038: LoadField: r3 = r0->field_7
     //     0x6ce038: ldur            w3, [x0, #7]
@@ -70,7 +70,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6ce074: ldur            x1, [fp, #-0x10]
     // 0x6ce078: ldur            x7, [fp, #-8]
     // 0x6ce07c: r0 = processFrame()
-    //     0x6ce07c: bl              #0x6ce098  ; [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame
+    //     0x6ce07c: bl              #0x6ce098  ; [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame
     // 0x6ce080: r0 = Null
     //     0x6ce080: mov             x0, NULL
     // 0x6ce084: LeaveFrame
@@ -131,13 +131,13 @@ class VideoAnalysisCoordinator extends Object {
     //     0x6ce114: ret             
     // 0x6ce118: mov             x1, x7
     // 0x6ce11c: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x6ce11c: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x6ce11c: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x6ce120: tbz             w0, #4, #0x6ce134
     // 0x6ce124: ldur            x1, [fp, #-0x10]
     // 0x6ce128: ldur            x2, [fp, #-0x18]
     // 0x6ce12c: ldur            x3, [fp, #-0x38]
     // 0x6ce130: r0 = _updateCourtLocationCapture()
-    //     0x6ce130: bl              #0x779334  ; [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::_updateCourtLocationCapture
+    //     0x6ce130: bl              #0x779334  ; [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::_updateCourtLocationCapture
     // 0x6ce134: ldur            x2, [fp, #-8]
     // 0x6ce138: r3 = Instance_Size
     //     0x6ce138: add             x3, PP, #9, lsl #12  ; [pp+0x9948] Obj!Size@d2dfd1
@@ -209,7 +209,7 @@ class VideoAnalysisCoordinator extends Object {
     //     0x6ce1f8: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x6ce1fc: mov             x1, x2
     // 0x6ce200: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x6ce200: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x6ce200: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x6ce204: mov             x3, x0
     // 0x6ce208: ldur            x0, [fp, #-8]
     // 0x6ce20c: stur            x3, [fp, #-0x68]
@@ -279,7 +279,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6ce2bc: stur            x7, [fp, #-0x48]
     // 0x6ce2c0: tbnz            w3, #4, #0x6ce2f4
     // 0x6ce2c4: r1 = Function '<anonymous closure>':.
-    //     0x6ce2c4: add             x1, PP, #0x30, lsl #12  ; [pp+0x301a8] AnonymousClosure: (0x779464), in [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
+    //     0x6ce2c4: add             x1, PP, #0x30, lsl #12  ; [pp+0x301a8] AnonymousClosure: (0x779464), in [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
     //     0x6ce2c8: ldr             x1, [x1, #0x1a8]
     // 0x6ce2cc: r2 = Null
     //     0x6ce2cc: mov             x2, NULL
@@ -300,7 +300,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6ce2f4: ldur            x0, [fp, #-0x20]
     // 0x6ce2f8: stur            x0, [fp, #-0x70]
     // 0x6ce2fc: r1 = Function '<anonymous closure>':.
-    //     0x6ce2fc: add             x1, PP, #0x30, lsl #12  ; [pp+0x301b0] AnonymousClosure: (0x76e960), in [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
+    //     0x6ce2fc: add             x1, PP, #0x30, lsl #12  ; [pp+0x301b0] AnonymousClosure: (0x76e960), in [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
     //     0x6ce300: ldr             x1, [x1, #0x1b0]
     // 0x6ce304: r2 = Null
     //     0x6ce304: mov             x2, NULL
@@ -314,7 +314,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6ce31c: r0 = length()
     //     0x6ce31c: bl              #0x8ac6cc  ; [dart:core] Iterable::length
     // 0x6ce320: r1 = Function '<anonymous closure>':.
-    //     0x6ce320: add             x1, PP, #0x30, lsl #12  ; [pp+0x301b8] AnonymousClosure: (0x71537c), in [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
+    //     0x6ce320: add             x1, PP, #0x30, lsl #12  ; [pp+0x301b8] AnonymousClosure: (0x71537c), in [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
     //     0x6ce324: ldr             x1, [x1, #0x1b8]
     // 0x6ce328: r2 = Null
     //     0x6ce328: mov             x2, NULL
@@ -351,7 +351,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6ce390: b.lt            #0x6ce3b8
     // 0x6ce394: StoreField: r5->field_b = r4
     //     0x6ce394: stur            x4, [x5, #0xb]
-    // 0x6ce398: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x6ce398: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x6ce398: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x6ce39c: ldr             x0, [x0, #0x20e0]
     //     0x6ce3a0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -367,7 +367,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6ce3c8: b.le            #0x6ce418
     // 0x6ce3cc: ldur            x1, [fp, #-8]
     // 0x6ce3d0: r0 = effectiveSelectedHoop()
-    //     0x6ce3d0: bl              #0x779264  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
+    //     0x6ce3d0: bl              #0x779264  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
     // 0x6ce3d4: cmp             w0, NULL
     // 0x6ce3d8: b.ne            #0x6ce418
     // 0x6ce3dc: ldur            x1, [fp, #-0x10]
@@ -379,7 +379,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6ce3f0: b.lt            #0x6ce418
     // 0x6ce3f4: StoreField: r1->field_b = r2
     //     0x6ce3f4: stur            x2, [x1, #0xb]
-    // 0x6ce3f8: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x6ce3f8: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x6ce3f8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x6ce3fc: ldr             x0, [x0, #0x20e0]
     //     0x6ce400: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -401,7 +401,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6ce43c: ldur            x1, [fp, #-0x10]
     // 0x6ce440: ldr             x2, [fp, #0x10]
     // 0x6ce444: r0 = _decimatedPoses()
-    //     0x6ce444: bl              #0x779200  ; [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::_decimatedPoses
+    //     0x6ce444: bl              #0x779200  ; [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::_decimatedPoses
     // 0x6ce448: mov             x2, x0
     // 0x6ce44c: stur            x2, [fp, #-0x78]
     // 0x6ce450: r0 = LoadClassIdInstr(r2)
@@ -446,7 +446,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6ce4d0: ldr             x5, [fp, #0x10]
     // 0x6ce4d4: ldur            x6, [fp, #-0x78]
     // 0x6ce4d8: r0 = _processDribbleFrame()
-    //     0x6ce4d8: bl              #0x7728dc  ; [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::_processDribbleFrame
+    //     0x6ce4d8: bl              #0x7728dc  ; [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::_processDribbleFrame
     // 0x6ce4dc: b               #0x6ce4f8
     // 0x6ce4e0: ldur            x0, [fp, #-0x68]
     // 0x6ce4e4: tbz             w0, #4, #0x6ce4f8
@@ -456,7 +456,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6ce4f0: DecompressPointer r1
     //     0x6ce4f0: add             x1, x1, HEAP, lsl #32
     // 0x6ce4f4: r0 = reset()
-    //     0x6ce4f4: bl              #0x7727f0  ; [package:ballai/video_tracking/analysis/dribble/dribble_pipeline.dart] DribblePipeline::reset
+    //     0x6ce4f4: bl              #0x7727f0  ; [package:kourtai/video_tracking/analysis/dribble/dribble_pipeline.dart] DribblePipeline::reset
     // 0x6ce4f8: ldur            x2, [fp, #-0x60]
     // 0x6ce4fc: tbnz            w2, #4, #0x6ce558
     // 0x6ce500: ldur            x3, [fp, #-0x78]
@@ -483,7 +483,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6ce544: ldur            x1, [fp, #-0x30]
     // 0x6ce548: mov             x2, x0
     // 0x6ce54c: r0 = inputs()
-    //     0x6ce54c: bl              #0x7722b8  ; [package:ballai/video_tracking/analysis/shooting_state_manager.dart] ShootingStateManager::inputs
+    //     0x6ce54c: bl              #0x7722b8  ; [package:kourtai/video_tracking/analysis/shooting_state_manager.dart] ShootingStateManager::inputs
     // 0x6ce550: mov             x2, x0
     // 0x6ce554: b               #0x6ce55c
     // 0x6ce558: r2 = Null
@@ -517,7 +517,7 @@ class VideoAnalysisCoordinator extends Object {
     //     0x6ce5a4: ldr             x4, [x4, #0x2068]
     // 0x6ce5a8: stur            x4, [fp, #-0x90]
     // 0x6ce5ac: r1 = Function '<anonymous closure>':.
-    //     0x6ce5ac: add             x1, PP, #0x30, lsl #12  ; [pp+0x301c0] AnonymousClosure: (0x71537c), in [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
+    //     0x6ce5ac: add             x1, PP, #0x30, lsl #12  ; [pp+0x301c0] AnonymousClosure: (0x71537c), in [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
     //     0x6ce5b0: ldr             x1, [x1, #0x1c0]
     // 0x6ce5b4: r2 = Null
     //     0x6ce5b4: mov             x2, NULL
@@ -539,7 +539,7 @@ class VideoAnalysisCoordinator extends Object {
     //     0x6ce5dc: ldur            w1, [x0, #0xb]
     // 0x6ce5e0: cbz             w1, #0x6ce62c
     // 0x6ce5e4: ldur            x1, [fp, #-8]
-    // 0x6ce5e8: r0 = InitLateStaticField(0x1078) // [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::instance
+    // 0x6ce5e8: r0 = InitLateStaticField(0x1078) // [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::instance
     //     0x6ce5e8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x6ce5ec: ldr             x0, [x0, #0x20f0]
     //     0x6ce5f0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -559,13 +559,13 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6ce620: ldur            x3, [fp, #-0x30]
     // 0x6ce624: ldur            x5, [fp, #-0xa0]
     // 0x6ce628: r0 = update()
-    //     0x6ce628: bl              #0x7701e4  ; [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::update
+    //     0x6ce628: bl              #0x7701e4  ; [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::update
     // 0x6ce62c: ldur            x0, [fp, #-8]
     // 0x6ce630: ldur            x1, [fp, #-0x10]
     // 0x6ce634: ldur            x2, [fp, #-0x20]
     // 0x6ce638: ldur            x3, [fp, #-0x30]
     // 0x6ce63c: r0 = _collapseForTracking()
-    //     0x6ce63c: bl              #0x76f6c4  ; [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::_collapseForTracking
+    //     0x6ce63c: bl              #0x76f6c4  ; [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::_collapseForTracking
     // 0x6ce640: mov             x2, x0
     // 0x6ce644: ldur            x1, [fp, #-8]
     // 0x6ce648: stur            x2, [fp, #-0xa0]
@@ -580,15 +580,15 @@ class VideoAnalysisCoordinator extends Object {
     //     0x6ce664: b.eq            #0x6ce66c
     //     0x6ce668: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0x6ce66c: r0 = getActiveTrajectories()
-    //     0x6ce66c: bl              #0x76f2b4  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::getActiveTrajectories
+    //     0x6ce66c: bl              #0x76f2b4  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::getActiveTrajectories
     // 0x6ce670: ldur            x1, [fp, #-8]
     // 0x6ce674: ldur            x2, [fp, #-0x30]
     // 0x6ce678: ldur            x3, [fp, #-0x78]
     // 0x6ce67c: mov             x5, x0
     // 0x6ce680: r0 = refreshSelectedHoop()
-    //     0x6ce680: bl              #0x76e9c8  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::refreshSelectedHoop
+    //     0x6ce680: bl              #0x76e9c8  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::refreshSelectedHoop
     // 0x6ce684: r1 = Function '<anonymous closure>':.
-    //     0x6ce684: add             x1, PP, #0x30, lsl #12  ; [pp+0x301c8] AnonymousClosure: (0x76e960), in [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
+    //     0x6ce684: add             x1, PP, #0x30, lsl #12  ; [pp+0x301c8] AnonymousClosure: (0x76e960), in [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
     //     0x6ce688: ldr             x1, [x1, #0x1c8]
     // 0x6ce68c: r2 = Null
     //     0x6ce68c: mov             x2, NULL
@@ -602,7 +602,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6ce6a4: r0 = length()
     //     0x6ce6a4: bl              #0x8ac6cc  ; [dart:core] Iterable::length
     // 0x6ce6a8: r1 = Function '<anonymous closure>':.
-    //     0x6ce6a8: add             x1, PP, #0x30, lsl #12  ; [pp+0x301d0] AnonymousClosure: (0x71537c), in [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
+    //     0x6ce6a8: add             x1, PP, #0x30, lsl #12  ; [pp+0x301d0] AnonymousClosure: (0x71537c), in [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
     //     0x6ce6ac: ldr             x1, [x1, #0x1d0]
     // 0x6ce6b0: r2 = Null
     //     0x6ce6b0: mov             x2, NULL
@@ -616,7 +616,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6ce6c8: r0 = length()
     //     0x6ce6c8: bl              #0x8ac6cc  ; [dart:core] Iterable::length
     // 0x6ce6cc: r1 = Function '<anonymous closure>':.
-    //     0x6ce6cc: add             x1, PP, #0x30, lsl #12  ; [pp+0x301d8] AnonymousClosure: (0x76e960), in [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
+    //     0x6ce6cc: add             x1, PP, #0x30, lsl #12  ; [pp+0x301d8] AnonymousClosure: (0x76e960), in [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
     //     0x6ce6d0: ldr             x1, [x1, #0x1d8]
     // 0x6ce6d4: r2 = Null
     //     0x6ce6d4: mov             x2, NULL
@@ -644,7 +644,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6ce718: b.lt            #0x6ce740
     // 0x6ce71c: StoreField: r1->field_b = r2
     //     0x6ce71c: stur            x2, [x1, #0xb]
-    // 0x6ce720: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x6ce720: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x6ce720: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x6ce724: ldr             x0, [x0, #0x20e0]
     //     0x6ce728: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -662,12 +662,12 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6ce754: ldur            x1, [fp, #-0xa0]
     // 0x6ce758: ldur            x3, [fp, #-0x30]
     // 0x6ce75c: r0 = processFrame()
-    //     0x6ce75c: bl              #0x718434  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::processFrame
+    //     0x6ce75c: bl              #0x718434  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::processFrame
     // 0x6ce760: ldur            x1, [fp, #-8]
     // 0x6ce764: r0 = effectiveSelectedHoop()
-    //     0x6ce764: bl              #0x779264  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
+    //     0x6ce764: bl              #0x779264  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
     // 0x6ce768: r1 = Function '<anonymous closure>':.
-    //     0x6ce768: add             x1, PP, #0x30, lsl #12  ; [pp+0x301e0] AnonymousClosure: (0x76e960), in [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
+    //     0x6ce768: add             x1, PP, #0x30, lsl #12  ; [pp+0x301e0] AnonymousClosure: (0x76e960), in [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
     //     0x6ce76c: ldr             x1, [x1, #0x1e0]
     // 0x6ce770: r2 = Null
     //     0x6ce770: mov             x2, NULL
@@ -709,11 +709,11 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6ce7d4: ldr             x5, [fp, #0x20]
     // 0x6ce7d8: ldr             x6, [fp, #0x18]
     // 0x6ce7dc: r0 = ingest()
-    //     0x6ce7dc: bl              #0x717b0c  ; [package:ballai/video_tracking/analysis/make_miss/rim_net_motion_tracker.dart] RimNetMotionTracker::ingest
+    //     0x6ce7dc: bl              #0x717b0c  ; [package:kourtai/video_tracking/analysis/make_miss/rim_net_motion_tracker.dart] RimNetMotionTracker::ingest
     // 0x6ce7e0: ldur            x1, [fp, #-0x30]
     // 0x6ce7e4: ldur            x2, [fp, #-0x78]
     // 0x6ce7e8: r0 = updateShotState()
-    //     0x6ce7e8: bl              #0x716f28  ; [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::updateShotState
+    //     0x6ce7e8: bl              #0x716f28  ; [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::updateShotState
     // 0x6ce7ec: ldur            x2, [fp, #-8]
     // 0x6ce7f0: r17 = 431
     //     0x6ce7f0: mov             x17, #0x1af
@@ -749,20 +749,20 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6ce850: ldur            x1, [fp, #-8]
     // 0x6ce854: stur            x3, [fp, #-0x90]
     // 0x6ce858: r0 = selectedHoop()
-    //     0x6ce858: bl              #0x716014  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::selectedHoop
+    //     0x6ce858: bl              #0x716014  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::selectedHoop
     // 0x6ce85c: ldur            x1, [fp, #-8]
     // 0x6ce860: ldur            x2, [fp, #-0x30]
     // 0x6ce864: ldur            x3, [fp, #-0x90]
     // 0x6ce868: mov             x5, x0
     // 0x6ce86c: r0 = VideoWorkoutManagerWorkout.updateEstimatedPhonePosition()
-    //     0x6ce86c: bl              #0x7155f0  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.updateEstimatedPhonePosition
+    //     0x6ce86c: bl              #0x7155f0  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.updateEstimatedPhonePosition
     // 0x6ce870: ldur            x1, [fp, #-8]
     // 0x6ce874: r0 = VideoWorkoutManagerWorkout.maybeLockCourtPhonePosition()
-    //     0x6ce874: bl              #0x715504  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.maybeLockCourtPhonePosition
+    //     0x6ce874: bl              #0x715504  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.maybeLockCourtPhonePosition
     // 0x6ce878: ldur            x0, [fp, #-0x48]
     // 0x6ce87c: tbnz            w0, #4, #0x6ce888
     // 0x6ce880: r0 = getActiveTrajectories()
-    //     0x6ce880: bl              #0x76f2b4  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::getActiveTrajectories
+    //     0x6ce880: bl              #0x76f2b4  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::getActiveTrajectories
     // 0x6ce884: b               #0x6ce890
     // 0x6ce888: r0 = const []
     //     0x6ce888: add             x0, PP, #0x30, lsl #12  ; [pp+0x301e8] List<ShotTrajectory>(0)
@@ -852,12 +852,12 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6ce9a0: ldur            x2, [fp, #-0x70]
     // 0x6ce9a4: ldur            x3, [fp, #-0x30]
     // 0x6ce9a8: r0 = _collapseForTracking()
-    //     0x6ce9a8: bl              #0x76f6c4  ; [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::_collapseForTracking
+    //     0x6ce9a8: bl              #0x76f6c4  ; [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::_collapseForTracking
     // 0x6ce9ac: b               #0x6ce9bc
     // 0x6ce9b0: ldur            x1, [fp, #-0x10]
     // 0x6ce9b4: ldur            x2, [fp, #-0x70]
     // 0x6ce9b8: r0 = _withHeldHoop()
-    //     0x6ce9b8: bl              #0x714e44  ; [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::_withHeldHoop
+    //     0x6ce9b8: bl              #0x714e44  ; [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::_withHeldHoop
     // 0x6ce9bc: ldur            x2, [fp, #-8]
     // 0x6ce9c0: ldur            x1, [fp, #-0x68]
     // 0x6ce9c4: r17 = 315
@@ -873,8 +873,8 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6ce9e4: tbnz            w1, #4, #0x6cea1c
     // 0x6ce9e8: mov             x1, x2
     // 0x6ce9ec: r0 = clearSelectedHoopCache()
-    //     0x6ce9ec: bl              #0x714e1c  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::clearSelectedHoopCache
-    // 0x6ce9f0: r0 = InitLateStaticField(0x1078) // [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::instance
+    //     0x6ce9ec: bl              #0x714e1c  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::clearSelectedHoopCache
+    // 0x6ce9f0: r0 = InitLateStaticField(0x1078) // [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::instance
     //     0x6ce9f0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x6ce9f4: ldr             x0, [x0, #0x20f0]
     //     0x6ce9f8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -885,16 +885,16 @@ class VideoAnalysisCoordinator extends Object {
     //     0x6cea0c: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x6cea10: mov             x1, x0
     // 0x6cea14: r0 = reset()
-    //     0x6cea14: bl              #0x714dd0  ; [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::reset
+    //     0x6cea14: bl              #0x714dd0  ; [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::reset
     // 0x6cea18: b               #0x6ceab0
     // 0x6cea1c: ldur            x0, [fp, #-0x60]
     // 0x6cea20: ldur            x1, [fp, #-8]
     // 0x6cea24: r0 = selectedHoop()
-    //     0x6cea24: bl              #0x716014  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::selectedHoop
+    //     0x6cea24: bl              #0x716014  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::selectedHoop
     // 0x6cea28: ldur            x0, [fp, #-0x60]
     // 0x6cea2c: tbz             w0, #4, #0x6ceab0
     // 0x6cea30: r1 = Function '<anonymous closure>':.
-    //     0x6cea30: add             x1, PP, #0x30, lsl #12  ; [pp+0x301f0] AnonymousClosure: (0x71537c), in [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
+    //     0x6cea30: add             x1, PP, #0x30, lsl #12  ; [pp+0x301f0] AnonymousClosure: (0x71537c), in [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
     //     0x6cea34: ldr             x1, [x1, #0x1f0]
     // 0x6cea38: r2 = Null
     //     0x6cea38: mov             x2, NULL
@@ -916,7 +916,7 @@ class VideoAnalysisCoordinator extends Object {
     //     0x6cea60: ldur            w1, [x0, #0xb]
     // 0x6cea64: cbz             w1, #0x6ceab0
     // 0x6cea68: ldur            x1, [fp, #-8]
-    // 0x6cea6c: r0 = InitLateStaticField(0x1078) // [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::instance
+    // 0x6cea6c: r0 = InitLateStaticField(0x1078) // [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::instance
     //     0x6cea6c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x6cea70: ldr             x0, [x0, #0x20f0]
     //     0x6cea74: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -936,11 +936,11 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6ceaa4: ldur            x3, [fp, #-0x30]
     // 0x6ceaa8: ldur            x5, [fp, #-0x68]
     // 0x6ceaac: r0 = update()
-    //     0x6ceaac: bl              #0x7701e4  ; [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::update
+    //     0x6ceaac: bl              #0x7701e4  ; [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::update
     // 0x6ceab0: ldur            x0, [fp, #-0x60]
     // 0x6ceab4: tbnz            w0, #4, #0x6cedd8
     // 0x6ceab8: r1 = Function '<anonymous closure>':.
-    //     0x6ceab8: add             x1, PP, #0x30, lsl #12  ; [pp+0x301f8] AnonymousClosure: (0x71537c), in [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
+    //     0x6ceab8: add             x1, PP, #0x30, lsl #12  ; [pp+0x301f8] AnonymousClosure: (0x71537c), in [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
     //     0x6ceabc: ldr             x1, [x1, #0x1f8]
     // 0x6ceac0: r2 = Null
     //     0x6ceac0: mov             x2, NULL
@@ -952,14 +952,14 @@ class VideoAnalysisCoordinator extends Object {
     //     0x6cead0: bl              #0x8b37d4  ; [dart:collection] ListBase::any
     // 0x6cead4: tbnz            w0, #4, #0x6ceadc
     // 0x6cead8: r0 = recordRimDetection()
-    //     0x6cead8: bl              #0x714c20  ; [package:ballai/video_tracking/session/guards/rim_visibility_guard_handler.dart] RimVisibilityGuardHandler::recordRimDetection
+    //     0x6cead8: bl              #0x714c20  ; [package:kourtai/video_tracking/session/guards/rim_visibility_guard_handler.dart] RimVisibilityGuardHandler::recordRimDetection
     // 0x6ceadc: ldur            x1, [fp, #-8]
     // 0x6ceae0: r0 = selectedHoop()
-    //     0x6ceae0: bl              #0x716014  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::selectedHoop
+    //     0x6ceae0: bl              #0x716014  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::selectedHoop
     // 0x6ceae4: cmp             w0, NULL
     // 0x6ceae8: b.eq            #0x6ceb08
     // 0x6ceaec: r1 = Function '<anonymous closure>':.
-    //     0x6ceaec: add             x1, PP, #0x30, lsl #12  ; [pp+0x30200] AnonymousClosure: (0x71537c), in [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
+    //     0x6ceaec: add             x1, PP, #0x30, lsl #12  ; [pp+0x30200] AnonymousClosure: (0x71537c), in [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
     //     0x6ceaf0: ldr             x1, [x1, #0x200]
     // 0x6ceaf4: r2 = Null
     //     0x6ceaf4: mov             x2, NULL
@@ -1059,7 +1059,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6cec00: LoadField: d0 = r7->field_7
     //     0x6cec00: ldur            d0, [x7, #7]
     // 0x6cec04: r0 = updatePhase()
-    //     0x6cec04: bl              #0x712f70  ; [package:ballai/video_tracking/analysis/shooting_state_manager.dart] ShootingStateManager::updatePhase
+    //     0x6cec04: bl              #0x712f70  ; [package:kourtai/video_tracking/analysis/shooting_state_manager.dart] ShootingStateManager::updatePhase
     // 0x6cec08: mov             x3, x0
     // 0x6cec0c: ldur            x2, [fp, #-8]
     // 0x6cec10: stur            x3, [fp, #-0x30]
@@ -1092,7 +1092,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6cec68: DecompressPointer r1
     //     0x6cec68: add             x1, x1, HEAP, lsl #32
     // 0x6cec6c: r0 = resetTemporalBufferForNewShot()
-    //     0x6cec6c: bl              #0x712e1c  ; [package:ballai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::resetTemporalBufferForNewShot
+    //     0x6cec6c: bl              #0x712e1c  ; [package:kourtai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::resetTemporalBufferForNewShot
     // 0x6cec70: ldur            x0, [fp, #-0x98]
     // 0x6cec74: tbnz            w0, #4, #0x6cecb4
     // 0x6cec78: ldur            x4, [fp, #-0x30]
@@ -1111,7 +1111,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6ceca8: ldur            x2, [fp, #-0x18]
     // 0x6cecac: ldur            x3, [fp, #-0x38]
     // 0x6cecb0: r0 = _updateCoachCapture()
-    //     0x6cecb0: bl              #0x712460  ; [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::_updateCoachCapture
+    //     0x6cecb0: bl              #0x712460  ; [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::_updateCoachCapture
     // 0x6cecb4: ldur            x0, [fp, #-0x98]
     // 0x6cecb8: tbnz            w0, #4, #0x6ced20
     // 0x6cecbc: ldur            x1, [fp, #-0x20]
@@ -1145,7 +1145,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6ced18: DecompressPointer r1
     //     0x6ced18: add             x1, x1, HEAP, lsl #32
     // 0x6ced1c: r0 = firePendingCoachEventIfNeeded()
-    //     0x6ced1c: bl              #0x6d0d38  ; [package:ballai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::firePendingCoachEventIfNeeded
+    //     0x6ced1c: bl              #0x6d0d38  ; [package:kourtai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::firePendingCoachEventIfNeeded
     // 0x6ced20: ldur            x0, [fp, #-0x98]
     // 0x6ced24: tbnz            w0, #4, #0x6cedd0
     // 0x6ced28: r0 = LoadStaticField(0x1034)
@@ -1204,7 +1204,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x6cedc4: ldur            x1, [fp, #-0x18]
     // 0x6cedc8: ldur            x3, [fp, #-0x30]
     // 0x6cedcc: r0 = feedTemporalFrame()
-    //     0x6cedcc: bl              #0x6ceef0  ; [package:ballai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::feedTemporalFrame
+    //     0x6cedcc: bl              #0x6ceef0  ; [package:kourtai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::feedTemporalFrame
     // 0x6cedd0: ldur            x1, [fp, #-8]
     // 0x6cedd4: b               #0x6ceec4
     // 0x6cedd8: ldur            x0, [fp, #-0x58]
@@ -1655,7 +1655,7 @@ class VideoAnalysisCoordinator extends Object {
     //     0x7124e8: ldp             fp, lr, [SP], #0x10
     // 0x7124ec: ret
     //     0x7124ec: ret             
-    // 0x7124f0: r0 = InitLateStaticField(0x10ac) // [package:ballai/video_tracking/camera/native/native_jpeg_frame_cache.dart] NativeJpegFrameCache::instance
+    // 0x7124f0: r0 = InitLateStaticField(0x10ac) // [package:kourtai/video_tracking/camera/native/native_jpeg_frame_cache.dart] NativeJpegFrameCache::instance
     //     0x7124f0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x7124f4: ldr             x0, [x0, #0x2158]
     //     0x7124f8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1669,7 +1669,7 @@ class VideoAnalysisCoordinator extends Object {
     //     0x712514: mov             x2, #0x96
     // 0x712518: stur            x0, [fp, #-8]
     // 0x71251c: r0 = requestRefresh()
-    //     0x71251c: bl              #0x712590  ; [package:ballai/video_tracking/camera/native/native_jpeg_frame_cache.dart] NativeJpegFrameCache::requestRefresh
+    //     0x71251c: bl              #0x712590  ; [package:kourtai/video_tracking/camera/native/native_jpeg_frame_cache.dart] NativeJpegFrameCache::requestRefresh
     // 0x712520: ldur            x0, [fp, #-8]
     // 0x712524: LoadField: r1 = r0->field_7
     //     0x712524: ldur            w1, [x0, #7]
@@ -1728,7 +1728,7 @@ class VideoAnalysisCoordinator extends Object {
     //     0x714e64: cmp             SP, x16
     //     0x714e68: b.ls            #0x714f6c
     // 0x714e6c: r1 = Function '<anonymous closure>':.
-    //     0x714e6c: add             x1, PP, #0x31, lsl #12  ; [pp+0x31c90] AnonymousClosure: (0x71537c), in [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
+    //     0x714e6c: add             x1, PP, #0x31, lsl #12  ; [pp+0x31c90] AnonymousClosure: (0x71537c), in [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
     //     0x714e70: ldr             x1, [x1, #0xc90]
     // 0x714e74: r2 = Null
     //     0x714e74: mov             x2, NULL
@@ -1756,7 +1756,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x714eb0: DecompressPointer r2
     //     0x714eb0: add             x2, x2, HEAP, lsl #32
     // 0x714eb4: r0 = _heldHoop()
-    //     0x714eb4: bl              #0x714f74  ; [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::_heldHoop
+    //     0x714eb4: bl              #0x714f74  ; [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::_heldHoop
     // 0x714eb8: stur            x0, [fp, #-8]
     // 0x714ebc: cmp             w0, NULL
     // 0x714ec0: b.ne            #0x714ed4
@@ -1846,7 +1846,7 @@ class VideoAnalysisCoordinator extends Object {
     //     0x714fa4: ldur            d1, [x2, #0xf]
     // 0x714fa8: fcmp            d1, d0
     // 0x714fac: b.le            #0x714ff4
-    // 0x714fb0: r0 = InitLateStaticField(0x1078) // [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::instance
+    // 0x714fb0: r0 = InitLateStaticField(0x1078) // [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::instance
     //     0x714fb0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x714fb4: ldr             x0, [x0, #0x20f0]
     //     0x714fb8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1863,7 +1863,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x714fdc: b.eq            #0x714ff4
     // 0x714fe0: ldur            x2, [fp, #-0x10]
     // 0x714fe4: r0 = asObjectDetection()
-    //     0x714fe4: bl              #0x715018  ; [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopGeometry::asObjectDetection
+    //     0x714fe4: bl              #0x715018  ; [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopGeometry::asObjectDetection
     // 0x714fe8: LeaveFrame
     //     0x714fe8: mov             SP, fp
     //     0x714fec: ldp             fp, lr, [SP], #0x10
@@ -1875,7 +1875,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x714ffc: DecompressPointer r1
     //     0x714ffc: add             x1, x1, HEAP, lsl #32
     // 0x715000: r0 = effectiveSelectedHoop()
-    //     0x715000: bl              #0x779264  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
+    //     0x715000: bl              #0x779264  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
     // 0x715004: LeaveFrame
     //     0x715004: mov             SP, fp
     //     0x715008: ldp             fp, lr, [SP], #0x10
@@ -1896,7 +1896,7 @@ class VideoAnalysisCoordinator extends Object {
     //     0x71538c: b.ls            #0x7153a4
     // 0x715390: ldr             x1, [fp, #0x10]
     // 0x715394: r0 = isHoop()
-    //     0x715394: bl              #0x7153ac  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::isHoop
+    //     0x715394: bl              #0x7153ac  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::isHoop
     // 0x715398: LeaveFrame
     //     0x715398: mov             SP, fp
     //     0x71539c: ldp             fp, lr, [SP], #0x10
@@ -1917,7 +1917,7 @@ class VideoAnalysisCoordinator extends Object {
     //     0x76e970: b.ls            #0x76e988
     // 0x76e974: ldr             x1, [fp, #0x10]
     // 0x76e978: r0 = isBall()
-    //     0x76e978: bl              #0x76e524  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::isBall
+    //     0x76e978: bl              #0x76e524  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::isBall
     // 0x76e97c: LeaveFrame
     //     0x76e97c: mov             SP, fp
     //     0x76e980: ldp             fp, lr, [SP], #0x10
@@ -1946,7 +1946,7 @@ class VideoAnalysisCoordinator extends Object {
     //     0x76f6ec: b.ls            #0x76f814
     // 0x76f6f0: mov             x1, x0
     // 0x76f6f4: r0 = activeTrackingBallCenterPx()
-    //     0x76f6f4: bl              #0x76ff7c  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::activeTrackingBallCenterPx
+    //     0x76f6f4: bl              #0x76ff7c  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::activeTrackingBallCenterPx
     // 0x76f6f8: mov             x1, x0
     // 0x76f6fc: ldur            x0, [fp, #-8]
     // 0x76f700: LoadField: r2 = r0->field_7
@@ -1961,9 +1961,9 @@ class VideoAnalysisCoordinator extends Object {
     // 0x76f714: ldur            x2, [fp, #-0x10]
     // 0x76f718: ldur            x3, [fp, #-0x18]
     // 0x76f71c: r0 = collapse()
-    //     0x76f71c: bl              #0x76f81c  ; [package:ballai/video_tracking/analysis/make_miss/shooting_detection_filter.dart] ShootingDetectionFilter::collapse
+    //     0x76f71c: bl              #0x76f81c  ; [package:kourtai/video_tracking/analysis/make_miss/shooting_detection_filter.dart] ShootingDetectionFilter::collapse
     // 0x76f720: r1 = Function '<anonymous closure>':.
-    //     0x76f720: add             x1, PP, #0x32, lsl #12  ; [pp+0x32ec8] AnonymousClosure: (0x71537c), in [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
+    //     0x76f720: add             x1, PP, #0x32, lsl #12  ; [pp+0x32ec8] AnonymousClosure: (0x71537c), in [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
     //     0x76f724: ldr             x1, [x1, #0xec8]
     // 0x76f728: r2 = Null
     //     0x76f728: mov             x2, NULL
@@ -1984,7 +1984,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x76f754: ldur            x1, [fp, #-8]
     // 0x76f758: ldur            x2, [fp, #-0x18]
     // 0x76f75c: r0 = _heldHoop()
-    //     0x76f75c: bl              #0x714f74  ; [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::_heldHoop
+    //     0x76f75c: bl              #0x714f74  ; [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::_heldHoop
     // 0x76f760: stur            x0, [fp, #-8]
     // 0x76f764: cmp             w0, NULL
     // 0x76f768: b.ne            #0x76f77c
@@ -2086,13 +2086,13 @@ class VideoAnalysisCoordinator extends Object {
     // 0x772938: ldur            x1, [fp, #-0x10]
     // 0x77293c: stur            d2, [fp, #-0x40]
     // 0x772940: r0 = _bestDribbleBallCenter()
-    //     0x772940: bl              #0x7790ec  ; [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::_bestDribbleBallCenter
+    //     0x772940: bl              #0x7790ec  ; [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::_bestDribbleBallCenter
     // 0x772944: mov             x1, x0
     // 0x772948: ldur            x2, [fp, #-0x18]
     // 0x77294c: ldur            x3, [fp, #-0x28]
     // 0x772950: ldur            d0, [fp, #-0x40]
     // 0x772954: r0 = makeFrame()
-    //     0x772954: bl              #0x778814  ; [package:ballai/video_tracking/analysis/dribble/dribble_pose_frame_builder.dart] DribblePoseFrameBuilder::makeFrame
+    //     0x772954: bl              #0x778814  ; [package:kourtai/video_tracking/analysis/dribble/dribble_pose_frame_builder.dart] DribblePoseFrameBuilder::makeFrame
     // 0x772958: mov             x1, x0
     // 0x77295c: ldur            x0, [fp, #-8]
     // 0x772960: LoadField: r4 = r0->field_7
@@ -2109,7 +2109,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x77297c: ldur            x2, [fp, #-0x10]
     // 0x772980: ldur            d0, [fp, #-0x40]
     // 0x772984: r0 = processFrame()
-    //     0x772984: bl              #0x774fa8  ; [package:ballai/video_tracking/analysis/dribble/dribble_pipeline.dart] DribblePipeline::processFrame
+    //     0x772984: bl              #0x774fa8  ; [package:kourtai/video_tracking/analysis/dribble/dribble_pipeline.dart] DribblePipeline::processFrame
     // 0x772988: LoadField: r1 = r0->field_7
     //     0x772988: ldur            w1, [x0, #7]
     // 0x77298c: DecompressPointer r1
@@ -2166,13 +2166,13 @@ class VideoAnalysisCoordinator extends Object {
     // 0x772a20: ldur            x1, [fp, #-0x18]
     // 0x772a24: ldur            x2, [fp, #-0x20]
     // 0x772a28: r0 = bothAnklesInFrame()
-    //     0x772a28: bl              #0x774e08  ; [package:ballai/video_tracking/analysis/dribble/dribble_pose_frame_builder.dart] DribblePoseFrameBuilder::bothAnklesInFrame
+    //     0x772a28: bl              #0x774e08  ; [package:kourtai/video_tracking/analysis/dribble/dribble_pose_frame_builder.dart] DribblePoseFrameBuilder::bothAnklesInFrame
     // 0x772a2c: tbnz            w0, #4, #0x772a38
     // 0x772a30: r0 = recordAnkleDetection()
-    //     0x772a30: bl              #0x774dc0  ; [package:ballai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::recordAnkleDetection
+    //     0x772a30: bl              #0x774dc0  ; [package:kourtai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::recordAnkleDetection
     // 0x772a34: b               #0x772a3c
     // 0x772a38: r0 = recordMissingAnkles()
-    //     0x772a38: bl              #0x774ab8  ; [package:ballai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::recordMissingAnkles
+    //     0x772a38: bl              #0x774ab8  ; [package:kourtai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::recordMissingAnkles
     // 0x772a3c: ldur            x0, [fp, #-0x38]
     // 0x772a40: LoadField: r1 = r0->field_13
     //     0x772a40: ldur            w1, [x0, #0x13]
@@ -2181,16 +2181,16 @@ class VideoAnalysisCoordinator extends Object {
     // 0x772a48: cmp             w1, NULL
     // 0x772a4c: b.eq            #0x772a58
     // 0x772a50: r0 = recordBallSeen()
-    //     0x772a50: bl              #0x774a70  ; [package:ballai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::recordBallSeen
+    //     0x772a50: bl              #0x774a70  ; [package:kourtai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::recordBallSeen
     // 0x772a54: b               #0x772a5c
     // 0x772a58: r0 = recordBallMissing()
-    //     0x772a58: bl              #0x774458  ; [package:ballai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::recordBallMissing
+    //     0x772a58: bl              #0x774458  ; [package:kourtai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::recordBallMissing
     // 0x772a5c: ldur            x2, [fp, #-0x10]
     // 0x772a60: cmp             w2, NULL
     // 0x772a64: b.eq            #0x772a70
     // 0x772a68: ldur            x1, [fp, #-0x28]
     // 0x772a6c: r0 = VideoWorkoutManagerDribble.applyDribbleEvent()
-    //     0x772a6c: bl              #0x772a88  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.applyDribbleEvent
+    //     0x772a6c: bl              #0x772a88  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.applyDribbleEvent
     // 0x772a70: r0 = Null
     //     0x772a70: mov             x0, NULL
     // 0x772a74: LeaveFrame
@@ -2251,7 +2251,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x779170: mov             x1, x0
     // 0x779174: stur            x0, [fp, #-0x18]
     // 0x779178: r0 = isBall()
-    //     0x779178: bl              #0x76e524  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::isBall
+    //     0x779178: bl              #0x76e524  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::isBall
     // 0x77917c: tbz             w0, #4, #0x779188
     // 0x779180: ldur            x3, [fp, #-8]
     // 0x779184: b               #0x7791b8
@@ -2283,7 +2283,7 @@ class VideoAnalysisCoordinator extends Object {
     //     0x7791d8: ret             
     // 0x7791dc: mov             x1, x0
     // 0x7791e0: r0 = centerInTopLeftNormalized()
-    //     0x7791e0: bl              #0x71688c  ; [package:ballai/video_tracking/models/object_detection.dart] ::centerInTopLeftNormalized
+    //     0x7791e0: bl              #0x71688c  ; [package:kourtai/video_tracking/models/object_detection.dart] ::centerInTopLeftNormalized
     // 0x7791e4: LeaveFrame
     //     0x7791e4: mov             SP, fp
     //     0x7791e8: ldp             fp, lr, [SP], #0x10
@@ -2387,7 +2387,7 @@ class VideoAnalysisCoordinator extends Object {
     //     0x7793bc: ldp             fp, lr, [SP], #0x10
     // 0x7793c0: ret
     //     0x7793c0: ret             
-    // 0x7793c4: r0 = InitLateStaticField(0x10ac) // [package:ballai/video_tracking/camera/native/native_jpeg_frame_cache.dart] NativeJpegFrameCache::instance
+    // 0x7793c4: r0 = InitLateStaticField(0x10ac) // [package:kourtai/video_tracking/camera/native/native_jpeg_frame_cache.dart] NativeJpegFrameCache::instance
     //     0x7793c4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x7793c8: ldr             x0, [x0, #0x2158]
     //     0x7793cc: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2401,7 +2401,7 @@ class VideoAnalysisCoordinator extends Object {
     //     0x7793e8: mov             x2, #0x1f4
     // 0x7793ec: stur            x0, [fp, #-8]
     // 0x7793f0: r0 = requestRefresh()
-    //     0x7793f0: bl              #0x712590  ; [package:ballai/video_tracking/camera/native/native_jpeg_frame_cache.dart] NativeJpegFrameCache::requestRefresh
+    //     0x7793f0: bl              #0x712590  ; [package:kourtai/video_tracking/camera/native/native_jpeg_frame_cache.dart] NativeJpegFrameCache::requestRefresh
     // 0x7793f4: ldur            x0, [fp, #-8]
     // 0x7793f8: LoadField: r1 = r0->field_7
     //     0x7793f8: ldur            w1, [x0, #7]
@@ -2454,7 +2454,7 @@ class VideoAnalysisCoordinator extends Object {
     //     0x779474: b.ls            #0x779494
     // 0x779478: ldr             x1, [fp, #0x10]
     // 0x77947c: r0 = isHoop()
-    //     0x77947c: bl              #0x7153ac  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::isHoop
+    //     0x77947c: bl              #0x7153ac  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::isHoop
     // 0x779480: eor             x1, x0, #0x10
     // 0x779484: mov             x0, x1
     // 0x779488: LeaveFrame
@@ -2545,7 +2545,7 @@ class VideoAnalysisCoordinator extends Object {
     // 0x779768: ldur            x2, [fp, #-0x18]
     // 0x77976c: ldur            x5, [fp, #-0x20]
     // 0x779770: r0 = append()
-    //     0x779770: bl              #0x77978c  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::append
+    //     0x779770: bl              #0x77978c  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::append
     // 0x779774: r0 = Null
     //     0x779774: mov             x0, NULL
     // 0x779778: LeaveFrame

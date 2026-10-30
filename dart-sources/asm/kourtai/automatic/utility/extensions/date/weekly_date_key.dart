@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/extensions/date/weekly_date_key.dart
+// lib: , url: package:kourtai/automatic/utility/extensions/date/weekly_date_key.dart
 
 // class id: 1048727, size: 0x8
 class :: {
@@ -15,7 +15,7 @@ class :: {
     //     0x5fa93c: cmp             SP, x16
     //     0x5fa940: b.ls            #0x5fab24
     // 0x5fa944: r0 = DateTimeWeekRange.activityWeekStart()
-    //     0x5fa944: bl              #0x5fab38  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
+    //     0x5fa944: bl              #0x5fab38  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
     // 0x5fa948: mov             x1, x0
     // 0x5fa94c: stur            x0, [fp, #-8]
     // 0x5fa950: r0 = _parts()
@@ -215,7 +215,7 @@ class :: {
     //     0x9315d4: cmp             SP, x16
     //     0x9315d8: b.ls            #0x931630
     // 0x9315dc: r0 = sundayWeekParts()
-    //     0x9315dc: bl              #0x931638  ; [package:ballai/automatic/utility/extensions/date/weekly_date_key.dart] ::sundayWeekParts
+    //     0x9315dc: bl              #0x931638  ; [package:kourtai/automatic/utility/extensions/date/weekly_date_key.dart] ::sundayWeekParts
     // 0x9315e0: mov             x3, x0
     // 0x9315e4: stur            x3, [fp, #-0x10]
     // 0x9315e8: mov             x4, x1
@@ -262,7 +262,7 @@ class :: {
     //     0x931648: cmp             SP, x16
     //     0x93164c: b.ls            #0x931844
     // 0x931650: r0 = DateTimeWeekRange.activityWeekStart()
-    //     0x931650: bl              #0x5fab38  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
+    //     0x931650: bl              #0x5fab38  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
     // 0x931654: mov             x1, x0
     // 0x931658: stur            x0, [fp, #-8]
     // 0x93165c: r0 = _parts()
@@ -483,7 +483,7 @@ class :: {
     //     0xa31698: stur            x1, [x0, #0xb]
     // 0xa3169c: mov             x1, x0
     // 0xa316a0: r0 = DateTimeWeekRange.getWeekStartAndEnd()
-    //     0xa316a0: bl              #0x5fb6d0  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
+    //     0xa316a0: bl              #0x5fb6d0  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
     // 0xa316a4: mov             x2, x0
     // 0xa316a8: ldur            x1, [fp, #-8]
     // 0xa316ac: stur            x2, [fp, #-0x10]
@@ -669,7 +669,7 @@ class :: {
     //     0xa31e9c: stur            x1, [x0, #0xb]
     // 0xa31ea0: mov             x1, x0
     // 0xa31ea4: r0 = DateTimeWeekRange.activityWeekStart()
-    //     0xa31ea4: bl              #0x5fab38  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
+    //     0xa31ea4: bl              #0x5fab38  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
     // 0xa31ea8: mov             x3, x0
     // 0xa31eac: ldur            x2, [fp, #-8]
     // 0xa31eb0: stur            x3, [fp, #-0x18]
@@ -735,7 +735,7 @@ class :: {
     //     0xa31f74: bl              #0x5fac30  ; [dart:core] DateTime::DateTime
     // 0xa31f78: ldur            x1, [fp, #-0x38]
     // 0xa31f7c: r0 = DateTimeWeekRange.activityWeekStart()
-    //     0xa31f7c: bl              #0x5fab38  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
+    //     0xa31f7c: bl              #0x5fab38  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
     // 0xa31f80: b               #0xa32050
     // 0xa31f84: ldur            x1, [fp, #-0x10]
     // 0xa31f88: r0 = _parts()
@@ -810,7 +810,7 @@ class :: {
     //     0xa32044: bl              #0x5fac30  ; [dart:core] DateTime::DateTime
     // 0xa32048: ldur            x1, [fp, #-0x30]
     // 0xa3204c: r0 = DateTimeWeekRange.activityWeekStart()
-    //     0xa3204c: bl              #0x5fab38  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
+    //     0xa3204c: bl              #0x5fab38  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
     // 0xa32050: mov             x1, x0
     // 0xa32054: ldur            x2, [fp, #-0x18]
     // 0xa32058: stur            x0, [fp, #-8]

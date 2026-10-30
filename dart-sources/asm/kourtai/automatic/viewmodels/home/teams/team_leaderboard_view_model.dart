@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/home/teams/team_leaderboard_view_model.dart
+// lib: , url: package:kourtai/automatic/viewmodels/home/teams/team_leaderboard_view_model.dart
 
 // class id: 1048772, size: 0x8
 class :: {
@@ -197,7 +197,7 @@ class TeamLeaderboardViewModel extends ChangeNotifier {
     // 0x97a640: DecompressPointer r2
     //     0x97a640: add             x2, x2, HEAP, lsl #32
     // 0x97a644: r0 = rangeFor()
-    //     0x97a644: bl              #0x8f7348  ; [package:ballai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::rangeFor
+    //     0x97a644: bl              #0x8f7348  ; [package:kourtai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::rangeFor
     // 0x97a648: mov             x1, x0
     // 0x97a64c: ldur            x0, [fp, #-8]
     // 0x97a650: LoadField: r3 = r0->field_23
@@ -227,7 +227,7 @@ class TeamLeaderboardViewModel extends ChangeNotifier {
     // 0x97a690: ldur            x1, [fp, #-0x18]
     // 0x97a694: ldur            x6, [fp, #-0x10]
     // 0x97a698: r0 = startLeaderboardListener()
-    //     0x97a698: bl              #0x97a6b4  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::startLeaderboardListener
+    //     0x97a698: bl              #0x97a6b4  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::startLeaderboardListener
     // 0x97a69c: r0 = Null
     //     0x97a69c: mov             x0, NULL
     // 0x97a6a0: LeaveFrame
@@ -507,7 +507,7 @@ class TeamLeaderboardViewModel extends ChangeNotifier {
     //     0xa6f3b0: add             x2, x2, HEAP, lsl #32
     // 0xa6f3b4: mov             x1, x0
     // 0xa6f3b8: r0 = canNavigateForward()
-    //     0xa6f3b8: bl              #0xa6f3d0  ; [package:ballai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::canNavigateForward
+    //     0xa6f3b8: bl              #0xa6f3d0  ; [package:kourtai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::canNavigateForward
     // 0xa6f3bc: LeaveFrame
     //     0xa6f3bc: mov             SP, fp
     //     0xa6f3c0: ldp             fp, lr, [SP], #0x10
@@ -605,13 +605,13 @@ class TeamLeaderboardViewModel extends ChangeNotifier {
     // 0xa6f908: tbnz            w2, #4, #0xa6f91c
     // 0xa6f90c: ldur            x1, [fp, #-8]
     // 0xa6f910: r0 = _shortMonthDay()
-    //     0xa6f910: bl              #0xa70544  ; [package:ballai/automatic/viewmodels/home/teams/team_leaderboard_view_model.dart] TeamLeaderboardViewModel::_shortMonthDay
+    //     0xa6f910: bl              #0xa70544  ; [package:kourtai/automatic/viewmodels/home/teams/team_leaderboard_view_model.dart] TeamLeaderboardViewModel::_shortMonthDay
     // 0xa6f914: mov             x2, x0
     // 0xa6f918: b               #0xa6f9b8
     // 0xa6f91c: ldur            x0, [fp, #-8]
     // 0xa6f920: mov             x1, x0
     // 0xa6f924: r0 = _shortMonthDay()
-    //     0xa6f924: bl              #0xa70544  ; [package:ballai/automatic/viewmodels/home/teams/team_leaderboard_view_model.dart] TeamLeaderboardViewModel::_shortMonthDay
+    //     0xa6f924: bl              #0xa70544  ; [package:kourtai/automatic/viewmodels/home/teams/team_leaderboard_view_model.dart] TeamLeaderboardViewModel::_shortMonthDay
     // 0xa6f928: r1 = Null
     //     0xa6f928: mov             x1, NULL
     // 0xa6f92c: r2 = 6
@@ -664,13 +664,13 @@ class TeamLeaderboardViewModel extends ChangeNotifier {
     // 0xa6f9c0: tbnz            w0, #4, #0xa6f9d4
     // 0xa6f9c4: ldur            x1, [fp, #-0x18]
     // 0xa6f9c8: r0 = _shortMonthDay()
-    //     0xa6f9c8: bl              #0xa70544  ; [package:ballai/automatic/viewmodels/home/teams/team_leaderboard_view_model.dart] TeamLeaderboardViewModel::_shortMonthDay
+    //     0xa6f9c8: bl              #0xa70544  ; [package:kourtai/automatic/viewmodels/home/teams/team_leaderboard_view_model.dart] TeamLeaderboardViewModel::_shortMonthDay
     // 0xa6f9cc: mov             x3, x0
     // 0xa6f9d0: b               #0xa6fa70
     // 0xa6f9d4: ldur            x0, [fp, #-0x18]
     // 0xa6f9d8: mov             x1, x0
     // 0xa6f9dc: r0 = _shortMonthDay()
-    //     0xa6f9dc: bl              #0xa70544  ; [package:ballai/automatic/viewmodels/home/teams/team_leaderboard_view_model.dart] TeamLeaderboardViewModel::_shortMonthDay
+    //     0xa6f9dc: bl              #0xa70544  ; [package:kourtai/automatic/viewmodels/home/teams/team_leaderboard_view_model.dart] TeamLeaderboardViewModel::_shortMonthDay
     // 0xa6f9e0: r1 = Null
     //     0xa6f9e0: mov             x1, NULL
     // 0xa6f9e4: r2 = 6
@@ -752,7 +752,7 @@ class TeamLeaderboardViewModel extends ChangeNotifier {
     //     0xa6fabc: add             x2, x2, HEAP, lsl #32
     // 0xa6fac0: mov             x1, x0
     // 0xa6fac4: r0 = titleFor()
-    //     0xa6fac4: bl              #0xa6fadc  ; [package:ballai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::titleFor
+    //     0xa6fac4: bl              #0xa6fadc  ; [package:kourtai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::titleFor
     // 0xa6fac8: LeaveFrame
     //     0xa6fac8: mov             SP, fp
     //     0xa6facc: ldp             fp, lr, [SP], #0x10
@@ -791,7 +791,7 @@ class TeamLeaderboardViewModel extends ChangeNotifier {
     //     0xa7057c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27338] "Jan"
     //     0xa70580: ldr             x1, [x1, #0x338]
     // 0xa70584: r0 = L()
-    //     0xa70584: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa70584: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa70588: ldur            x1, [fp, #-0x10]
     // 0xa7058c: ArrayStore: r1[1] = r0  ; List_4
     //     0xa7058c: add             x25, x1, #0x13
@@ -807,7 +807,7 @@ class TeamLeaderboardViewModel extends ChangeNotifier {
     //     0xa705b0: add             x1, PP, #0x27, lsl #12  ; [pp+0x27340] "Feb"
     //     0xa705b4: ldr             x1, [x1, #0x340]
     // 0xa705b8: r0 = L()
-    //     0xa705b8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa705b8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa705bc: ldur            x1, [fp, #-0x10]
     // 0xa705c0: ArrayStore: r1[2] = r0  ; List_4
     //     0xa705c0: add             x25, x1, #0x17
@@ -823,7 +823,7 @@ class TeamLeaderboardViewModel extends ChangeNotifier {
     //     0xa705e4: add             x1, PP, #0x27, lsl #12  ; [pp+0x27348] "Mar"
     //     0xa705e8: ldr             x1, [x1, #0x348]
     // 0xa705ec: r0 = L()
-    //     0xa705ec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa705ec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa705f0: ldur            x1, [fp, #-0x10]
     // 0xa705f4: ArrayStore: r1[3] = r0  ; List_4
     //     0xa705f4: add             x25, x1, #0x1b
@@ -839,7 +839,7 @@ class TeamLeaderboardViewModel extends ChangeNotifier {
     //     0xa70618: add             x1, PP, #0x27, lsl #12  ; [pp+0x27350] "Apr"
     //     0xa7061c: ldr             x1, [x1, #0x350]
     // 0xa70620: r0 = L()
-    //     0xa70620: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa70620: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa70624: ldur            x1, [fp, #-0x10]
     // 0xa70628: ArrayStore: r1[4] = r0  ; List_4
     //     0xa70628: add             x25, x1, #0x1f
@@ -855,7 +855,7 @@ class TeamLeaderboardViewModel extends ChangeNotifier {
     //     0xa7064c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27358] "May"
     //     0xa70650: ldr             x1, [x1, #0x358]
     // 0xa70654: r0 = L()
-    //     0xa70654: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa70654: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa70658: ldur            x1, [fp, #-0x10]
     // 0xa7065c: ArrayStore: r1[5] = r0  ; List_4
     //     0xa7065c: add             x25, x1, #0x23
@@ -871,7 +871,7 @@ class TeamLeaderboardViewModel extends ChangeNotifier {
     //     0xa70680: add             x1, PP, #0x27, lsl #12  ; [pp+0x27360] "Jun"
     //     0xa70684: ldr             x1, [x1, #0x360]
     // 0xa70688: r0 = L()
-    //     0xa70688: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa70688: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7068c: ldur            x1, [fp, #-0x10]
     // 0xa70690: ArrayStore: r1[6] = r0  ; List_4
     //     0xa70690: add             x25, x1, #0x27
@@ -887,7 +887,7 @@ class TeamLeaderboardViewModel extends ChangeNotifier {
     //     0xa706b4: add             x1, PP, #0x27, lsl #12  ; [pp+0x27368] "Jul"
     //     0xa706b8: ldr             x1, [x1, #0x368]
     // 0xa706bc: r0 = L()
-    //     0xa706bc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa706bc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa706c0: ldur            x1, [fp, #-0x10]
     // 0xa706c4: ArrayStore: r1[7] = r0  ; List_4
     //     0xa706c4: add             x25, x1, #0x2b
@@ -903,7 +903,7 @@ class TeamLeaderboardViewModel extends ChangeNotifier {
     //     0xa706e8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27370] "Aug"
     //     0xa706ec: ldr             x1, [x1, #0x370]
     // 0xa706f0: r0 = L()
-    //     0xa706f0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa706f0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa706f4: ldur            x1, [fp, #-0x10]
     // 0xa706f8: ArrayStore: r1[8] = r0  ; List_4
     //     0xa706f8: add             x25, x1, #0x2f
@@ -919,7 +919,7 @@ class TeamLeaderboardViewModel extends ChangeNotifier {
     //     0xa7071c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27378] "Sep"
     //     0xa70720: ldr             x1, [x1, #0x378]
     // 0xa70724: r0 = L()
-    //     0xa70724: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa70724: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa70728: ldur            x1, [fp, #-0x10]
     // 0xa7072c: ArrayStore: r1[9] = r0  ; List_4
     //     0xa7072c: add             x25, x1, #0x33
@@ -935,7 +935,7 @@ class TeamLeaderboardViewModel extends ChangeNotifier {
     //     0xa70750: add             x1, PP, #0x27, lsl #12  ; [pp+0x27380] "Oct"
     //     0xa70754: ldr             x1, [x1, #0x380]
     // 0xa70758: r0 = L()
-    //     0xa70758: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa70758: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7075c: ldur            x1, [fp, #-0x10]
     // 0xa70760: ArrayStore: r1[10] = r0  ; List_4
     //     0xa70760: add             x25, x1, #0x37
@@ -951,7 +951,7 @@ class TeamLeaderboardViewModel extends ChangeNotifier {
     //     0xa70784: add             x1, PP, #0x27, lsl #12  ; [pp+0x27388] "Nov"
     //     0xa70788: ldr             x1, [x1, #0x388]
     // 0xa7078c: r0 = L()
-    //     0xa7078c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7078c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa70790: ldur            x1, [fp, #-0x10]
     // 0xa70794: ArrayStore: r1[11] = r0  ; List_4
     //     0xa70794: add             x25, x1, #0x3b
@@ -967,7 +967,7 @@ class TeamLeaderboardViewModel extends ChangeNotifier {
     //     0xa707b8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27390] "Dec"
     //     0xa707bc: ldr             x1, [x1, #0x390]
     // 0xa707c0: r0 = L()
-    //     0xa707c0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa707c0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa707c4: ldur            x1, [fp, #-0x10]
     // 0xa707c8: ArrayStore: r1[12] = r0  ; List_4
     //     0xa707c8: add             x25, x1, #0x3f
@@ -1343,7 +1343,7 @@ class TeamLeaderboardViewModel extends ChangeNotifier {
     // 0xa72774: ldur            x2, [fp, #-0x20]
     // 0xa72778: ldur            x3, [fp, #-0x28]
     // 0xa7277c: r0 = refreshLeaderboard()
-    //     0xa7277c: bl              #0x97a5fc  ; [package:ballai/automatic/viewmodels/home/teams/team_leaderboard_view_model.dart] TeamLeaderboardViewModel::refreshLeaderboard
+    //     0xa7277c: bl              #0x97a5fc  ; [package:kourtai/automatic/viewmodels/home/teams/team_leaderboard_view_model.dart] TeamLeaderboardViewModel::refreshLeaderboard
     // 0xa72780: r0 = Null
     //     0xa72780: mov             x0, NULL
     // 0xa72784: LeaveFrame
@@ -1400,7 +1400,7 @@ class TeamLeaderboardViewModel extends ChangeNotifier {
     // 0xa72aa0: DecompressPointer r2
     //     0xa72aa0: add             x2, x2, HEAP, lsl #32
     // 0xa72aa4: r0 = canNavigateForward()
-    //     0xa72aa4: bl              #0xa6f3d0  ; [package:ballai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::canNavigateForward
+    //     0xa72aa4: bl              #0xa6f3d0  ; [package:kourtai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::canNavigateForward
     // 0xa72aa8: tbz             w0, #4, #0xa72abc
     // 0xa72aac: r0 = Null
     //     0xa72aac: mov             x0, NULL
@@ -1420,7 +1420,7 @@ class TeamLeaderboardViewModel extends ChangeNotifier {
     //     0xa72acc: add             x2, x2, HEAP, lsl #32
     // 0xa72ad0: ldur            x3, [fp, #-0x10]
     // 0xa72ad4: r0 = stepAnchor()
-    //     0xa72ad4: bl              #0xa6f490  ; [package:ballai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::stepAnchor
+    //     0xa72ad4: bl              #0xa6f490  ; [package:kourtai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::stepAnchor
     // 0xa72ad8: ldur            x2, [fp, #-8]
     // 0xa72adc: StoreField: r2->field_2b = r0
     //     0xa72adc: stur            w0, [x2, #0x2b]
@@ -1437,7 +1437,7 @@ class TeamLeaderboardViewModel extends ChangeNotifier {
     // 0xa72b04: ldur            x2, [fp, #-0x18]
     // 0xa72b08: ldur            x3, [fp, #-0x20]
     // 0xa72b0c: r0 = refreshLeaderboard()
-    //     0xa72b0c: bl              #0x97a5fc  ; [package:ballai/automatic/viewmodels/home/teams/team_leaderboard_view_model.dart] TeamLeaderboardViewModel::refreshLeaderboard
+    //     0xa72b0c: bl              #0x97a5fc  ; [package:kourtai/automatic/viewmodels/home/teams/team_leaderboard_view_model.dart] TeamLeaderboardViewModel::refreshLeaderboard
     // 0xa72b10: r0 = Null
     //     0xa72b10: mov             x0, NULL
     // 0xa72b14: LeaveFrame

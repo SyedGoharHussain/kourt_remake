@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart
 
 // class id: 1048896, size: 0x8
 class :: {
@@ -39,7 +39,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x95cfa4: stur            w0, [x2, #0xf]
     // 0x95cfa8: mov             x1, x0
     // 0x95cfac: r0 = initState()
-    //     0x95cfac: bl              #0x989844  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::initState
+    //     0x95cfac: bl              #0x989844  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::initState
     // 0x95cfb0: ldur            x2, [fp, #-8]
     // 0x95cfb4: LoadField: r0 = r2->field_b
     //     0x95cfb4: ldur            w0, [x2, #0xb]
@@ -58,10 +58,10 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95cfd8: ldur            x2, [fp, #-0x18]
     // 0x95cfdc: stur            x0, [fp, #-0x18]
     // 0x95cfe0: r0 = WorkoutDetailDataViewModel()
-    //     0x95cfe0: bl              #0x95dda0  ; [package:ballai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::WorkoutDetailDataViewModel
+    //     0x95cfe0: bl              #0x95dda0  ; [package:kourtai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::WorkoutDetailDataViewModel
     // 0x95cfe4: ldur            x1, [fp, #-0x18]
     // 0x95cfe8: r0 = start()
-    //     0x95cfe8: bl              #0x95d408  ; [package:ballai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::start
+    //     0x95cfe8: bl              #0x95d408  ; [package:kourtai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::start
     // 0x95cfec: ldur            x3, [fp, #-8]
     // 0x95cff0: LoadField: r0 = r3->field_13
     //     0x95cff0: ldur            w0, [x3, #0x13]
@@ -87,7 +87,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95d02c: mov             x2, x3
     // 0x95d030: stur            x0, [fp, #-0x18]
     // 0x95d034: r1 = Function '_onBreakdownStore@1145129441':.
-    //     0x95d034: add             x1, PP, #0x37, lsl #12  ; [pp+0x37650] AnonymousClosure: (0x961d50), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_onBreakdownStore (0x961d88)
+    //     0x95d034: add             x1, PP, #0x37, lsl #12  ; [pp+0x37650] AnonymousClosure: (0x961d50), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_onBreakdownStore (0x961d88)
     //     0x95d038: ldr             x1, [x1, #0x650]
     // 0x95d03c: r0 = AllocateClosure()
     //     0x95d03c: bl              #0xe553e0  ; AllocateClosureStub
@@ -113,10 +113,10 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95d070: mov             x2, x1
     // 0x95d074: ldur            x1, [fp, #-0x18]
     // 0x95d078: r0 = startListening()
-    //     0x95d078: bl              #0x73b164  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::startListening
+    //     0x95d078: bl              #0x73b164  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::startListening
     // 0x95d07c: ldur            x1, [fp, #-8]
     // 0x95d080: r0 = _loadOwnerLocationIfNeeded()
-    //     0x95d080: bl              #0x95d1cc  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_loadOwnerLocationIfNeeded
+    //     0x95d080: bl              #0x95d1cc  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_loadOwnerLocationIfNeeded
     // 0x95d084: r0 = LoadStaticField(0x8b4)
     //     0x95d084: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x95d088: ldr             x0, [x0, #0x1168]
@@ -134,7 +134,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95d0a8: ldur            x2, [fp, #-0x10]
     // 0x95d0ac: stur            x0, [fp, #-0x18]
     // 0x95d0b0: r1 = Function '<anonymous closure>':.
-    //     0x95d0b0: add             x1, PP, #0x37, lsl #12  ; [pp+0x37668] AnonymousClosure: (0x95de6c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::initState (0x95cf74)
+    //     0x95d0b0: add             x1, PP, #0x37, lsl #12  ; [pp+0x37668] AnonymousClosure: (0x95de6c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::initState (0x95cf74)
     //     0x95d0b4: ldr             x1, [x1, #0x668]
     // 0x95d0b8: r0 = AllocateClosure()
     //     0x95d0b8: bl              #0xe553e0  ; AllocateClosureStub
@@ -206,7 +206,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95d174: mov             x2, x3
     // 0x95d178: stur            x0, [fp, #-0x10]
     // 0x95d17c: r1 = Function '_onViewModelChanged@1145129441':.
-    //     0x95d17c: add             x1, PP, #0x37, lsl #12  ; [pp+0x37658] AnonymousClosure: (0x961cb0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_onViewModelChanged (0x961ce8)
+    //     0x95d17c: add             x1, PP, #0x37, lsl #12  ; [pp+0x37658] AnonymousClosure: (0x961cb0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_onViewModelChanged (0x961ce8)
     //     0x95d180: ldr             x1, [x1, #0x658]
     // 0x95d184: r0 = AllocateClosure()
     //     0x95d184: bl              #0xe553e0  ; AllocateClosureStub
@@ -281,7 +281,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95d230: DecompressPointer r1
     //     0x95d230: add             x1, x1, HEAP, lsl #32
     // 0x95d234: r0 = _normalizeRedeemCode()
-    //     0x95d234: bl              #0x65eb8c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
+    //     0x95d234: bl              #0x65eb8c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
     // 0x95d238: cmp             w0, NULL
     // 0x95d23c: b.eq            #0x95d248
     // 0x95d240: r0 = Null
@@ -355,7 +355,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95d2f8: r1 = Null
     //     0x95d2f8: mov             x1, NULL
     // 0x95d2fc: r0 = UserModel.fromFirestore()
-    //     0x95d2fc: bl              #0x8fe49c  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
+    //     0x95d2fc: bl              #0x8fe49c  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
     // 0x95d300: mov             x1, x0
     // 0x95d304: stur            x1, [fp, #-0xa0]
     // 0x95d308: LoadField: r0 = r1->field_7
@@ -383,7 +383,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95d348: DecompressPointer r1
     //     0x95d348: add             x1, x1, HEAP, lsl #32
     // 0x95d34c: r0 = _normalizeRedeemCode()
-    //     0x95d34c: bl              #0x65eb8c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
+    //     0x95d34c: bl              #0x65eb8c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
     // 0x95d350: mov             x1, x0
     // 0x95d354: ldur            x3, [fp, #-0x80]
     // 0x95d358: StoreField: r3->field_13 = r0
@@ -402,7 +402,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x95d380: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x95d384: mov             x2, x3
     // 0x95d388: r1 = Function '<anonymous closure>':.
-    //     0x95d388: add             x1, PP, #0x37, lsl #12  ; [pp+0x37698] AnonymousClosure: (0x95d3bc), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_loadOwnerLocationIfNeeded (0x95d1cc)
+    //     0x95d388: add             x1, PP, #0x37, lsl #12  ; [pp+0x37698] AnonymousClosure: (0x95d3bc), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_loadOwnerLocationIfNeeded (0x95d1cc)
     //     0x95d38c: ldr             x1, [x1, #0x698]
     // 0x95d390: r0 = AllocateClosure()
     //     0x95d390: bl              #0xe553e0  ; AllocateClosureStub
@@ -480,7 +480,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95deb0: DecompressPointer r1
     //     0x95deb0: add             x1, x1, HEAP, lsl #32
     // 0x95deb4: r0 = _loadBallyBreakdownDocIfNeeded()
-    //     0x95deb4: bl              #0x961aec  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_loadBallyBreakdownDocIfNeeded
+    //     0x95deb4: bl              #0x961aec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_loadBallyBreakdownDocIfNeeded
     // 0x95deb8: mov             x1, x0
     // 0x95debc: stur            x1, [fp, #-0x18]
     // 0x95dec0: r0 = Await()
@@ -501,14 +501,14 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95dee4: r0 = ReturnAsyncNotFuture()
     //     0x95dee4: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x95dee8: r0 = _autoGenerateSessionSummaryIfNeeded()
-    //     0x95dee8: bl              #0x95e420  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_autoGenerateSessionSummaryIfNeeded
+    //     0x95dee8: bl              #0x95e420  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_autoGenerateSessionSummaryIfNeeded
     // 0x95deec: ldur            x0, [fp, #-0x10]
     // 0x95def0: LoadField: r1 = r0->field_f
     //     0x95def0: ldur            w1, [x0, #0xf]
     // 0x95def4: DecompressPointer r1
     //     0x95def4: add             x1, x1, HEAP, lsl #32
     // 0x95def8: r0 = _maybeAutoOpenBreakdownReport()
-    //     0x95def8: bl              #0x95df0c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_maybeAutoOpenBreakdownReport
+    //     0x95def8: bl              #0x95df0c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_maybeAutoOpenBreakdownReport
     // 0x95defc: r0 = Null
     //     0x95defc: mov             x0, NULL
     // 0x95df00: r0 = ReturnAsyncNotFuture()
@@ -568,7 +568,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x95df7c: add             x3, x3, HEAP, lsl #32
     // 0x95df80: mov             x1, x3
     // 0x95df84: r0 = isAnalyzerWorkout()
-    //     0x95df84: bl              #0x73e3e8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
+    //     0x95df84: bl              #0x73e3e8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
     // 0x95df88: tbz             w0, #4, #0x95df9c
     // 0x95df8c: r0 = Null
     //     0x95df8c: mov             x0, NULL
@@ -584,7 +584,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95dfa8: StoreField: r0->field_33 = r1
     //     0x95dfa8: stur            w1, [x0, #0x33]
     // 0x95dfac: r0 = userHasActiveSubscription()
-    //     0x95dfac: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0x95dfac: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0x95dfb0: ldur            x2, [fp, #-0x10]
     // 0x95dfb4: StoreField: r2->field_13 = r0
     //     0x95dfb4: stur            w0, [x2, #0x13]
@@ -601,7 +601,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x95dfd0: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0x95dfd4: ldur            x2, [fp, #-0x10]
     // 0x95dfd8: r1 = Function '<anonymous closure>':.
-    //     0x95dfd8: add             x1, PP, #0x37, lsl #12  ; [pp+0x37688] AnonymousClosure: (0x95e044), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_maybeAutoOpenBreakdownReport (0x95df0c)
+    //     0x95dfd8: add             x1, PP, #0x37, lsl #12  ; [pp+0x37688] AnonymousClosure: (0x95e044), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_maybeAutoOpenBreakdownReport (0x95df0c)
     //     0x95dfdc: ldr             x1, [x1, #0x688]
     // 0x95dfe0: stur            x0, [fp, #-8]
     // 0x95dfe4: r0 = AllocateClosure()
@@ -704,7 +704,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x95e0d4: add             x0, x0, HEAP, lsl #32
     // 0x95e0d8: mov             x1, x0
     // 0x95e0dc: r0 = isAnalyzerWorkout()
-    //     0x95e0dc: bl              #0x73e3e8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
+    //     0x95e0dc: bl              #0x73e3e8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
     // 0x95e0e0: ldur            x2, [fp, #-0x10]
     // 0x95e0e4: stur            x0, [fp, #-0x18]
     // 0x95e0e8: LoadField: r1 = r2->field_f
@@ -722,7 +722,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95e104: b               #0x95e118
     // 0x95e108: mov             x1, x3
     // 0x95e10c: r0 = displaySummaryText()
-    //     0x95e10c: bl              #0x73bbb4  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownSummarySnapshot::displaySummaryText
+    //     0x95e10c: bl              #0x73bbb4  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownSummarySnapshot::displaySummaryText
     // 0x95e110: mov             x2, x0
     // 0x95e114: ldur            x0, [fp, #-0x18]
     // 0x95e118: ldur            x1, [fp, #-8]
@@ -739,7 +739,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x95e138: stur            w0, [x3, #0xf]
     // 0x95e13c: ldur            x2, [fp, #-0x10]
     // 0x95e140: r1 = Function '<anonymous closure>':.
-    //     0x95e140: add             x1, PP, #0x37, lsl #12  ; [pp+0x37690] AnonymousClosure: (0x95e1b8), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_maybeAutoOpenBreakdownReport (0x95df0c)
+    //     0x95e140: add             x1, PP, #0x37, lsl #12  ; [pp+0x37690] AnonymousClosure: (0x95e1b8), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_maybeAutoOpenBreakdownReport (0x95df0c)
     //     0x95e144: ldr             x1, [x1, #0x690]
     // 0x95e148: r0 = AllocateClosure()
     //     0x95e148: bl              #0xe553e0  ; AllocateClosureStub
@@ -796,7 +796,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95e1ec: b.eq            #0x95e20c
     // 0x95e1f0: mov             x1, x0
     // 0x95e1f4: r0 = _openSessionSummaryPaywall()
-    //     0x95e1f4: bl              #0x95e210  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_openSessionSummaryPaywall
+    //     0x95e1f4: bl              #0x95e210  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_openSessionSummaryPaywall
     // 0x95e1f8: LeaveFrame
     //     0x95e1f8: mov             SP, fp
     //     0x95e1fc: ldp             fp, lr, [SP], #0x10
@@ -827,7 +827,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x95e234: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x95e238: bl              #0x60afc8  ; InitAsyncStub
     // 0x95e23c: r1 = Function '<anonymous closure>':.
-    //     0x95e23c: add             x1, PP, #0x37, lsl #12  ; [pp+0x375c8] AnonymousClosure: (0x95e294), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_openSessionSummaryPaywall (0x95e210)
+    //     0x95e23c: add             x1, PP, #0x37, lsl #12  ; [pp+0x375c8] AnonymousClosure: (0x95e294), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_openSessionSummaryPaywall (0x95e210)
     //     0x95e240: ldr             x1, [x1, #0x5c8]
     // 0x95e244: r2 = Null
     //     0x95e244: mov             x2, NULL
@@ -1035,7 +1035,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95e4b0: mov             x1, x2
     // 0x95e4b4: stur            x2, [fp, #-0xd0]
     // 0x95e4b8: r0 = isLive()
-    //     0x95e4b8: bl              #0x8ec3f8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isLive
+    //     0x95e4b8: bl              #0x8ec3f8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isLive
     // 0x95e4bc: tbnz            w0, #4, #0x95e4c8
     // 0x95e4c0: r0 = Null
     //     0x95e4c0: mov             x0, NULL
@@ -1044,7 +1044,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95e4c8: ldur            x1, [fp, #-0xc0]
     // 0x95e4cc: ldur            x2, [fp, #-0xd0]
     // 0x95e4d0: r0 = _latestStrictSessionSummaryText()
-    //     0x95e4d0: bl              #0x9607e4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_latestStrictSessionSummaryText
+    //     0x95e4d0: bl              #0x9607e4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_latestStrictSessionSummaryText
     // 0x95e4d4: cmp             w0, NULL
     // 0x95e4d8: b.eq            #0x95e4e4
     // 0x95e4dc: r0 = Null
@@ -1059,7 +1059,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95e4f0: cmp             w1, NULL
     // 0x95e4f4: b.eq            #0x95e50c
     // 0x95e4f8: r0 = hasDisplayableContent()
-    //     0x95e4f8: bl              #0x960724  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownSummarySnapshot::hasDisplayableContent
+    //     0x95e4f8: bl              #0x960724  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownSummarySnapshot::hasDisplayableContent
     // 0x95e4fc: tbnz            w0, #4, #0x95e508
     // 0x95e500: r0 = Null
     //     0x95e500: mov             x0, NULL
@@ -1080,7 +1080,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95e528: mov             x2, x5
     // 0x95e52c: stur            x5, [fp, #-0xd8]
     // 0x95e530: r0 = stateFor()
-    //     0x95e530: bl              #0x9606cc  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::stateFor
+    //     0x95e530: bl              #0x9606cc  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::stateFor
     // 0x95e534: r1 = LoadClassIdInstr(r0)
     //     0x95e534: ldur            x1, [x0, #-1]
     //     0x95e538: ubfx            x1, x1, #0xc, #0x14
@@ -1105,7 +1105,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95e570: b.eq            #0x95e590
     // 0x95e574: ldur            x2, [fp, #-0xc8]
     // 0x95e578: r1 = Function '<anonymous closure>':.
-    //     0x95e578: add             x1, PP, #0x37, lsl #12  ; [pp+0x374a8] AnonymousClosure: (0x94a784), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded (0x94a7a4)
+    //     0x95e578: add             x1, PP, #0x37, lsl #12  ; [pp+0x374a8] AnonymousClosure: (0x94a784), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded (0x94a7a4)
     //     0x95e57c: ldr             x1, [x1, #0x4a8]
     // 0x95e580: r0 = AllocateClosure()
     //     0x95e580: bl              #0xe553e0  ; AllocateClosureStub
@@ -1163,7 +1163,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95e608: mov             x3, x4
     // 0x95e60c: stur            x4, [fp, #-0xe8]
     // 0x95e610: r0 = _canGenerateSessionSummary()
-    //     0x95e610: bl              #0x960474  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_canGenerateSessionSummary
+    //     0x95e610: bl              #0x960474  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_canGenerateSessionSummary
     // 0x95e614: tbz             w0, #4, #0x95e650
     // 0x95e618: ldur            x0, [fp, #-0xc0]
     // 0x95e61c: LoadField: r1 = r0->field_f
@@ -1174,7 +1174,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95e628: b.eq            #0x95e648
     // 0x95e62c: ldur            x2, [fp, #-0xc8]
     // 0x95e630: r1 = Function '<anonymous closure>':.
-    //     0x95e630: add             x1, PP, #0x37, lsl #12  ; [pp+0x374b0] AnonymousClosure: (0x94a784), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded (0x94a7a4)
+    //     0x95e630: add             x1, PP, #0x37, lsl #12  ; [pp+0x374b0] AnonymousClosure: (0x94a784), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded (0x94a7a4)
     //     0x95e634: ldr             x1, [x1, #0x4b0]
     // 0x95e638: r0 = AllocateClosure()
     //     0x95e638: bl              #0xe553e0  ; AllocateClosureStub
@@ -1196,7 +1196,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x95e660: mov             x0, NULL
     // 0x95e664: r0 = ReturnAsyncNotFuture()
     //     0x95e664: b               #0x60af9c  ; ReturnAsyncNotFutureStub
-    // 0x95e668: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0x95e668: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0x95e668: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x95e66c: ldr             x0, [x0, #0x1cf0]
     //     0x95e670: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1226,7 +1226,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x95e6c0: mov             x0, NULL
     // 0x95e6c4: r0 = ReturnAsyncNotFuture()
     //     0x95e6c4: b               #0x60af9c  ; ReturnAsyncNotFutureStub
-    // 0x95e6c8: r0 = InitLateStaticField(0xde8) // [package:ballai/automatic/models/core/stats/workouts/session_summary_autogen_lock.dart] SessionSummaryAutogenLock::shared
+    // 0x95e6c8: r0 = InitLateStaticField(0xde8) // [package:kourtai/automatic/models/core/stats/workouts/session_summary_autogen_lock.dart] SessionSummaryAutogenLock::shared
     //     0x95e6c8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x95e6cc: ldr             x0, [x0, #0x1bd0]
     //     0x95e6d0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1239,7 +1239,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95e6ec: ldur            x2, [fp, #-0xd8]
     // 0x95e6f0: stur            x0, [fp, #-0xf8]
     // 0x95e6f4: r0 = acquire()
-    //     0x95e6f4: bl              #0x96043c  ; [package:ballai/automatic/models/core/stats/workouts/session_summary_autogen_lock.dart] SessionSummaryAutogenLock::acquire
+    //     0x95e6f4: bl              #0x96043c  ; [package:kourtai/automatic/models/core/stats/workouts/session_summary_autogen_lock.dart] SessionSummaryAutogenLock::acquire
     // 0x95e6f8: tbz             w0, #4, #0x95e704
     // 0x95e6fc: r0 = Null
     //     0x95e6fc: mov             x0, NULL
@@ -1247,7 +1247,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x95e700: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x95e704: ldur            x2, [fp, #-0xc8]
     // 0x95e708: r1 = Function '<anonymous closure>':.
-    //     0x95e708: add             x1, PP, #0x37, lsl #12  ; [pp+0x374c0] AnonymousClosure: (0x954b60), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onWhatsNewRequested (0x954adc)
+    //     0x95e708: add             x1, PP, #0x37, lsl #12  ; [pp+0x374c0] AnonymousClosure: (0x954b60), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onWhatsNewRequested (0x954adc)
     //     0x95e70c: ldr             x1, [x1, #0x4c0]
     // 0x95e710: r0 = AllocateClosure()
     //     0x95e710: bl              #0xe553e0  ; AllocateClosureStub
@@ -1256,12 +1256,12 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95e71c: r0 = setState()
     //     0x95e71c: bl              #0x6005d4  ; [package:flutter/src/widgets/framework.dart] State::setState
     // 0x95e720: r0 = userHasActiveSubscription()
-    //     0x95e720: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0x95e720: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0x95e724: stur            x0, [fp, #-0x100]
     // 0x95e728: tbz             w0, #4, #0x95e738
     // 0x95e72c: ldur            x1, [fp, #-0xd0]
     // 0x95e730: r0 = isAnalyzerWorkout()
-    //     0x95e730: bl              #0x73e3e8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
+    //     0x95e730: bl              #0x73e3e8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
     // 0x95e734: tbnz            w0, #4, #0x95e768
     // 0x95e738: ldur            x16, [fp, #-0xe8]
     // 0x95e73c: str             x16, [SP]
@@ -1271,7 +1271,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x95e748: add             x4, PP, #0x37, lsl #12  ; [pp+0x374c8] List(7) [0, 0x3, 0x1, 0x2, "shots", 0x2, Null]
     //     0x95e74c: ldr             x4, [x4, #0x4c8]
     // 0x95e750: r0 = generateFull()
-    //     0x95e750: bl              #0x73a814  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::generateFull
+    //     0x95e750: bl              #0x73a814  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::generateFull
     // 0x95e754: mov             x1, x0
     // 0x95e758: r17 = -264
     //     0x95e758: mov             x17, #-0x108
@@ -1285,7 +1285,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95e774: r4 = const [0, 0x3, 0, 0x3, null]
     //     0x95e774: ldr             x4, [PP, #0x8a0]  ; [pp+0x8a0] List(5) [0, 0x3, 0, 0x3, Null]
     // 0x95e778: r0 = generateTeaser()
-    //     0x95e778: bl              #0x7331bc  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::generateTeaser
+    //     0x95e778: bl              #0x7331bc  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::generateTeaser
     // 0x95e77c: mov             x1, x0
     // 0x95e780: stur            x1, [fp, #-0xe0]
     // 0x95e784: r0 = Await()
@@ -1298,7 +1298,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95e79c: r4 = const [0, 0x3, 0, 0x3, null]
     //     0x95e79c: ldr             x4, [PP, #0x8a0]  ; [pp+0x8a0] List(5) [0, 0x3, 0, 0x3, Null]
     // 0x95e7a0: r0 = generatePayloadFromShots()
-    //     0x95e7a0: bl              #0x7339e4  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart] BallyBreakdownAnalyzer::generatePayloadFromShots
+    //     0x95e7a0: bl              #0x7339e4  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart] BallyBreakdownAnalyzer::generatePayloadFromShots
     // 0x95e7a4: mov             x1, x0
     // 0x95e7a8: stur            x1, [fp, #-0xe0]
     // 0x95e7ac: r0 = Await()
@@ -1327,7 +1327,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95e7f0: ldur            x3, [fp, #-0xe0]
     // 0x95e7f4: ldur            x5, [fp, #-0xd8]
     // 0x95e7f8: r0 = requestAndSaveBallyBreakdown()
-    //     0x95e7f8: bl              #0x95e924  ; [package:ballai/video_tracking/analysis/coach/coach_session_summary_persistence.dart] CoachSessionSummaryPersistence::requestAndSaveBallyBreakdown
+    //     0x95e7f8: bl              #0x95e924  ; [package:kourtai/video_tracking/analysis/coach/coach_session_summary_persistence.dart] CoachSessionSummaryPersistence::requestAndSaveBallyBreakdown
     // 0x95e7fc: mov             x1, x0
     // 0x95e800: stur            x1, [fp, #-0xe0]
     // 0x95e804: r0 = Await()
@@ -1354,7 +1354,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95e848: b.eq            #0x95e868
     // 0x95e84c: mov             x2, x3
     // 0x95e850: r1 = Function '<anonymous closure>':.
-    //     0x95e850: add             x1, PP, #0x37, lsl #12  ; [pp+0x374d0] AnonymousClosure: (0x961a28), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_autoGenerateSessionSummaryIfNeeded (0x95e420)
+    //     0x95e850: add             x1, PP, #0x37, lsl #12  ; [pp+0x374d0] AnonymousClosure: (0x961a28), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_autoGenerateSessionSummaryIfNeeded (0x95e420)
     //     0x95e854: ldr             x1, [x1, #0x4d0]
     // 0x95e858: r0 = AllocateClosure()
     //     0x95e858: bl              #0xe553e0  ; AllocateClosureStub
@@ -1372,14 +1372,14 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95e87c: ldur            x1, [fp, #-0xf8]
     // 0x95e880: ldur            x2, [fp, #-0xd8]
     // 0x95e884: r0 = release()
-    //     0x95e884: bl              #0x95e8ec  ; [package:ballai/automatic/models/core/stats/workouts/session_summary_autogen_lock.dart] SessionSummaryAutogenLock::release
+    //     0x95e884: bl              #0x95e8ec  ; [package:kourtai/automatic/models/core/stats/workouts/session_summary_autogen_lock.dart] SessionSummaryAutogenLock::release
     // 0x95e888: r0 = Null
     //     0x95e888: mov             x0, NULL
     // 0x95e88c: r0 = ReturnAsyncNotFuture()
     //     0x95e88c: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x95e890: ldur            x2, [fp, #-0xc8]
     // 0x95e894: r1 = Function '<anonymous closure>':.
-    //     0x95e894: add             x1, PP, #0x37, lsl #12  ; [pp+0x374d8] AnonymousClosure: (0x9619fc), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_autoGenerateSessionSummaryIfNeeded (0x95e420)
+    //     0x95e894: add             x1, PP, #0x37, lsl #12  ; [pp+0x374d8] AnonymousClosure: (0x9619fc), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_autoGenerateSessionSummaryIfNeeded (0x95e420)
     //     0x95e898: ldr             x1, [x1, #0x4d8]
     // 0x95e89c: r0 = AllocateClosure()
     //     0x95e89c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1390,10 +1390,10 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x95e8ac: ldur            x1, [fp, #-0xf8]
     // 0x95e8b0: ldur            x2, [fp, #-0xd8]
     // 0x95e8b4: r0 = release()
-    //     0x95e8b4: bl              #0x95e8ec  ; [package:ballai/automatic/models/core/stats/workouts/session_summary_autogen_lock.dart] SessionSummaryAutogenLock::release
+    //     0x95e8b4: bl              #0x95e8ec  ; [package:kourtai/automatic/models/core/stats/workouts/session_summary_autogen_lock.dart] SessionSummaryAutogenLock::release
     // 0x95e8b8: ldur            x1, [fp, #-0xc0]
     // 0x95e8bc: r0 = _loadBallyBreakdownDocIfNeeded()
-    //     0x95e8bc: bl              #0x961aec  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_loadBallyBreakdownDocIfNeeded
+    //     0x95e8bc: bl              #0x961aec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_loadBallyBreakdownDocIfNeeded
     // 0x95e8c0: r0 = Null
     //     0x95e8c0: mov             x0, NULL
     // 0x95e8c4: r0 = ReturnAsyncNotFuture()
@@ -1502,7 +1502,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x960550: add             x2, x2, HEAP, lsl #32
     // 0x960554: mov             x1, x2
     // 0x960558: r0 = isDribblingWorkout()
-    //     0x960558: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0x960558: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0x96055c: tbnz            w0, #4, #0x96066c
     // 0x960560: ldur            x0, [fp, #-8]
     // 0x960564: LoadField: r1 = r0->field_27
@@ -1678,7 +1678,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x96083c: ret             
     // 0x960840: mov             x2, x1
     // 0x960844: r1 = Function '<anonymous closure>':.
-    //     0x960844: add             x1, PP, #0x37, lsl #12  ; [pp+0x37640] AnonymousClosure: static (0x95f04c), in [package:ballai/video_tracking/analysis/coach/coach_session_summary_persistence.dart] CoachSessionSummaryPersistence::hasLikelySessionSummary (0x95efc0)
+    //     0x960844: add             x1, PP, #0x37, lsl #12  ; [pp+0x37640] AnonymousClosure: static (0x95f04c), in [package:kourtai/video_tracking/analysis/coach/coach_session_summary_persistence.dart] CoachSessionSummaryPersistence::hasLikelySessionSummary (0x95efc0)
     //     0x960848: ldr             x1, [x1, #0x640]
     // 0x96084c: r0 = AllocateClosure()
     //     0x96084c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1725,7 +1725,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x9608b4: DecompressPointer r1
     //     0x9608b4: add             x1, x1, HEAP, lsl #32
     // 0x9608b8: r0 = toDisplaySummaryText()
-    //     0x9608b8: bl              #0x9608e4  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::toDisplaySummaryText
+    //     0x9608b8: bl              #0x9608e4  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::toDisplaySummaryText
     // 0x9608bc: cmp             w0, NULL
     // 0x9608c0: b.eq            #0x9608cc
     // 0x9608c4: LoadField: r1 = r0->field_7
@@ -1846,7 +1846,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x961b64: mov             x1, x2
     // 0x961b68: stur            x2, [fp, #-0x20]
     // 0x961b6c: r0 = isLive()
-    //     0x961b6c: bl              #0x8ec3f8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isLive
+    //     0x961b6c: bl              #0x8ec3f8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isLive
     // 0x961b70: tbnz            w0, #4, #0x961b7c
     // 0x961b74: r0 = Null
     //     0x961b74: mov             x0, NULL
@@ -1864,7 +1864,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x961b90: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x961b94: ldur            x1, [fp, #-0x20]
     // 0x961b98: r0 = isDribblingWorkout()
-    //     0x961b98: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0x961b98: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0x961b9c: tbz             w0, #4, #0x961bbc
     // 0x961ba0: ldur            x0, [fp, #-0x10]
     // 0x961ba4: LoadField: r1 = r0->field_2b
@@ -1890,7 +1890,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x961bd4: add             x3, x3, HEAP, lsl #32
     // 0x961bd8: mov             x1, x3
     // 0x961bdc: r0 = fetch()
-    //     0x961bdc: bl              #0x73be68  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownDocReader::fetch
+    //     0x961bdc: bl              #0x73be68  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownDocReader::fetch
     // 0x961be0: mov             x1, x0
     // 0x961be4: stur            x1, [fp, #-0x20]
     // 0x961be8: r0 = Await()
@@ -1917,7 +1917,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0x961c28: r0 = ReturnAsyncNotFuture()
     //     0x961c28: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x961c2c: r1 = Function '<anonymous closure>':.
-    //     0x961c2c: add             x1, PP, #0x37, lsl #12  ; [pp+0x374e0] AnonymousClosure: (0x961c60), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_loadBallyBreakdownDocIfNeeded (0x961aec)
+    //     0x961c2c: add             x1, PP, #0x37, lsl #12  ; [pp+0x374e0] AnonymousClosure: (0x961c60), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_loadBallyBreakdownDocIfNeeded (0x961aec)
     //     0x961c30: ldr             x1, [x1, #0x4e0]
     // 0x961c34: r0 = AllocateClosure()
     //     0x961c34: bl              #0xe553e0  ; AllocateClosureStub
@@ -1987,7 +1987,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x961cc8: cmp             SP, x16
     //     0x961ccc: b.ls            #0x961ce0
     // 0x961cd0: r0 = _onViewModelChanged()
-    //     0x961cd0: bl              #0x961ce8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_onViewModelChanged
+    //     0x961cd0: bl              #0x961ce8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_onViewModelChanged
     // 0x961cd4: LeaveFrame
     //     0x961cd4: mov             SP, fp
     //     0x961cd8: ldp             fp, lr, [SP], #0x10
@@ -2026,10 +2026,10 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x961d24: ret             
     // 0x961d28: mov             x1, x0
     // 0x961d2c: r0 = _loadBallyBreakdownDocIfNeeded()
-    //     0x961d2c: bl              #0x961aec  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_loadBallyBreakdownDocIfNeeded
+    //     0x961d2c: bl              #0x961aec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_loadBallyBreakdownDocIfNeeded
     // 0x961d30: ldur            x1, [fp, #-8]
     // 0x961d34: r0 = _autoGenerateSessionSummaryIfNeeded()
-    //     0x961d34: bl              #0x95e420  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_autoGenerateSessionSummaryIfNeeded
+    //     0x961d34: bl              #0x95e420  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_autoGenerateSessionSummaryIfNeeded
     // 0x961d38: r0 = Null
     //     0x961d38: mov             x0, NULL
     // 0x961d3c: LeaveFrame
@@ -2056,7 +2056,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x961d68: cmp             SP, x16
     //     0x961d6c: b.ls            #0x961d80
     // 0x961d70: r0 = _onBreakdownStore()
-    //     0x961d70: bl              #0x961d88  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_onBreakdownStore
+    //     0x961d70: bl              #0x961d88  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_onBreakdownStore
     // 0x961d74: LeaveFrame
     //     0x961d74: mov             SP, fp
     //     0x961d78: ldp             fp, lr, [SP], #0x10
@@ -2126,43 +2126,43 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x96cdd0: add             x1, PP, #0x37, lsl #12  ; [pp+0x375e8] "Mon"
     //     0x96cdd4: ldr             x1, [x1, #0x5e8]
     // 0x96cdd8: r0 = L()
-    //     0x96cdd8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96cdd8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96cddc: r1 = "Tue"
     //     0x96cddc: add             x1, PP, #0x37, lsl #12  ; [pp+0x375f0] "Tue"
     //     0x96cde0: ldr             x1, [x1, #0x5f0]
     // 0x96cde4: stur            x0, [fp, #-0x10]
     // 0x96cde8: r0 = L()
-    //     0x96cde8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96cde8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96cdec: r1 = "Wed"
     //     0x96cdec: add             x1, PP, #0x37, lsl #12  ; [pp+0x375f8] "Wed"
     //     0x96cdf0: ldr             x1, [x1, #0x5f8]
     // 0x96cdf4: stur            x0, [fp, #-0x18]
     // 0x96cdf8: r0 = L()
-    //     0x96cdf8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96cdf8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96cdfc: r1 = "Thu"
     //     0x96cdfc: add             x1, PP, #0x37, lsl #12  ; [pp+0x37600] "Thu"
     //     0x96ce00: ldr             x1, [x1, #0x600]
     // 0x96ce04: stur            x0, [fp, #-0x20]
     // 0x96ce08: r0 = L()
-    //     0x96ce08: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96ce08: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96ce0c: r1 = "Fri"
     //     0x96ce0c: add             x1, PP, #0x37, lsl #12  ; [pp+0x37608] "Fri"
     //     0x96ce10: ldr             x1, [x1, #0x608]
     // 0x96ce14: stur            x0, [fp, #-0x28]
     // 0x96ce18: r0 = L()
-    //     0x96ce18: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96ce18: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96ce1c: r1 = "Sat"
     //     0x96ce1c: add             x1, PP, #0x37, lsl #12  ; [pp+0x37610] "Sat"
     //     0x96ce20: ldr             x1, [x1, #0x610]
     // 0x96ce24: stur            x0, [fp, #-0x30]
     // 0x96ce28: r0 = L()
-    //     0x96ce28: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96ce28: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96ce2c: r1 = "Sun"
     //     0x96ce2c: add             x1, PP, #0x37, lsl #12  ; [pp+0x37618] "Sun"
     //     0x96ce30: ldr             x1, [x1, #0x618]
     // 0x96ce34: stur            x0, [fp, #-0x38]
     // 0x96ce38: r0 = L()
-    //     0x96ce38: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96ce38: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96ce3c: r1 = Null
     //     0x96ce3c: mov             x1, NULL
     // 0x96ce40: r2 = 14
@@ -2197,7 +2197,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x96ce8c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27338] "Jan"
     //     0x96ce90: ldr             x1, [x1, #0x338]
     // 0x96ce94: r0 = L()
-    //     0x96ce94: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96ce94: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96ce98: r1 = <String>
     //     0x96ce98: ldr             x1, [PP, #0x850]  ; [pp+0x850] TypeArguments: <String>
     // 0x96ce9c: r2 = 24
@@ -2214,7 +2214,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x96ceb8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27340] "Feb"
     //     0x96cebc: ldr             x1, [x1, #0x340]
     // 0x96cec0: r0 = L()
-    //     0x96cec0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96cec0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96cec4: ldur            x1, [fp, #-0x18]
     // 0x96cec8: ArrayStore: r1[1] = r0  ; List_4
     //     0x96cec8: add             x25, x1, #0x13
@@ -2230,7 +2230,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x96ceec: add             x1, PP, #0x27, lsl #12  ; [pp+0x27348] "Mar"
     //     0x96cef0: ldr             x1, [x1, #0x348]
     // 0x96cef4: r0 = L()
-    //     0x96cef4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96cef4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96cef8: ldur            x1, [fp, #-0x18]
     // 0x96cefc: ArrayStore: r1[2] = r0  ; List_4
     //     0x96cefc: add             x25, x1, #0x17
@@ -2246,7 +2246,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x96cf20: add             x1, PP, #0x27, lsl #12  ; [pp+0x27350] "Apr"
     //     0x96cf24: ldr             x1, [x1, #0x350]
     // 0x96cf28: r0 = L()
-    //     0x96cf28: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96cf28: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96cf2c: ldur            x1, [fp, #-0x18]
     // 0x96cf30: ArrayStore: r1[3] = r0  ; List_4
     //     0x96cf30: add             x25, x1, #0x1b
@@ -2262,7 +2262,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x96cf54: add             x1, PP, #0x27, lsl #12  ; [pp+0x27358] "May"
     //     0x96cf58: ldr             x1, [x1, #0x358]
     // 0x96cf5c: r0 = L()
-    //     0x96cf5c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96cf5c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96cf60: ldur            x1, [fp, #-0x18]
     // 0x96cf64: ArrayStore: r1[4] = r0  ; List_4
     //     0x96cf64: add             x25, x1, #0x1f
@@ -2278,7 +2278,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x96cf88: add             x1, PP, #0x27, lsl #12  ; [pp+0x27360] "Jun"
     //     0x96cf8c: ldr             x1, [x1, #0x360]
     // 0x96cf90: r0 = L()
-    //     0x96cf90: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96cf90: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96cf94: ldur            x1, [fp, #-0x18]
     // 0x96cf98: ArrayStore: r1[5] = r0  ; List_4
     //     0x96cf98: add             x25, x1, #0x23
@@ -2294,7 +2294,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x96cfbc: add             x1, PP, #0x27, lsl #12  ; [pp+0x27368] "Jul"
     //     0x96cfc0: ldr             x1, [x1, #0x368]
     // 0x96cfc4: r0 = L()
-    //     0x96cfc4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96cfc4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96cfc8: ldur            x1, [fp, #-0x18]
     // 0x96cfcc: ArrayStore: r1[6] = r0  ; List_4
     //     0x96cfcc: add             x25, x1, #0x27
@@ -2310,7 +2310,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x96cff0: add             x1, PP, #0x27, lsl #12  ; [pp+0x27370] "Aug"
     //     0x96cff4: ldr             x1, [x1, #0x370]
     // 0x96cff8: r0 = L()
-    //     0x96cff8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96cff8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96cffc: ldur            x1, [fp, #-0x18]
     // 0x96d000: ArrayStore: r1[7] = r0  ; List_4
     //     0x96d000: add             x25, x1, #0x2b
@@ -2326,7 +2326,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x96d024: add             x1, PP, #0x27, lsl #12  ; [pp+0x27378] "Sep"
     //     0x96d028: ldr             x1, [x1, #0x378]
     // 0x96d02c: r0 = L()
-    //     0x96d02c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96d02c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96d030: ldur            x1, [fp, #-0x18]
     // 0x96d034: ArrayStore: r1[8] = r0  ; List_4
     //     0x96d034: add             x25, x1, #0x2f
@@ -2342,7 +2342,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x96d058: add             x1, PP, #0x27, lsl #12  ; [pp+0x27380] "Oct"
     //     0x96d05c: ldr             x1, [x1, #0x380]
     // 0x96d060: r0 = L()
-    //     0x96d060: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96d060: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96d064: ldur            x1, [fp, #-0x18]
     // 0x96d068: ArrayStore: r1[9] = r0  ; List_4
     //     0x96d068: add             x25, x1, #0x33
@@ -2358,7 +2358,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x96d08c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27388] "Nov"
     //     0x96d090: ldr             x1, [x1, #0x388]
     // 0x96d094: r0 = L()
-    //     0x96d094: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96d094: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96d098: ldur            x1, [fp, #-0x18]
     // 0x96d09c: ArrayStore: r1[10] = r0  ; List_4
     //     0x96d09c: add             x25, x1, #0x37
@@ -2374,7 +2374,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0x96d0c0: add             x1, PP, #0x27, lsl #12  ; [pp+0x27390] "Dec"
     //     0x96d0c4: ldr             x1, [x1, #0x390]
     // 0x96d0c8: r0 = L()
-    //     0x96d0c8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96d0c8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96d0cc: ldur            x1, [fp, #-0x18]
     // 0x96d0d0: ArrayStore: r1[11] = r0  ; List_4
     //     0x96d0d0: add             x25, x1, #0x3b
@@ -2674,7 +2674,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0xa3bfd0: mov             x2, x1
     // 0xa3bfd4: stur            x3, [fp, #-0x10]
     // 0xa3bfd8: r1 = Function '<anonymous closure>':.
-    //     0xa3bfd8: add             x1, PP, #0x37, lsl #12  ; [pp+0x37468] AnonymousClosure: (0xa3c014), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::build (0xa3bf98)
+    //     0xa3bfd8: add             x1, PP, #0x37, lsl #12  ; [pp+0x37468] AnonymousClosure: (0xa3c014), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::build (0xa3bf98)
     //     0xa3bfdc: ldr             x1, [x1, #0x468]
     // 0xa3bfe0: r0 = AllocateClosure()
     //     0xa3bfe0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2826,7 +2826,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0xa3c160: ldur            x0, [fp, #-8]
     // 0xa3c164: stur            x1, [fp, #-0x30]
     // 0xa3c168: r0 = userHasActiveSubscription()
-    //     0xa3c168: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0xa3c168: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0xa3c16c: mov             x3, x0
     // 0xa3c170: ldur            x0, [fp, #-8]
     // 0xa3c174: stur            x3, [fp, #-0x38]
@@ -2836,12 +2836,12 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0xa3c17c: add             x1, x1, HEAP, lsl #32
     // 0xa3c180: ldur            x2, [fp, #-0x20]
     // 0xa3c184: r0 = _latestStrictSessionSummaryText()
-    //     0xa3c184: bl              #0x9607e4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_latestStrictSessionSummaryText
+    //     0xa3c184: bl              #0x9607e4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_latestStrictSessionSummaryText
     // 0xa3c188: cmp             w0, NULL
     // 0xa3c18c: b.ne            #0xa3c1a0
     // 0xa3c190: ldur            x1, [fp, #-0x20]
     // 0xa3c194: r0 = latestSessionSummaryText()
-    //     0xa3c194: bl              #0x96e344  ; [package:ballai/automatic/models/core/stats/workouts/workout_session_summary_util.dart] ::latestSessionSummaryText
+    //     0xa3c194: bl              #0x96e344  ; [package:kourtai/automatic/models/core/stats/workouts/workout_session_summary_util.dart] ::latestSessionSummaryText
     // 0xa3c198: mov             x4, x0
     // 0xa3c19c: b               #0xa3c1a4
     // 0xa3c1a0: mov             x4, x0
@@ -2864,7 +2864,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0xa3c1cc: mov             x2, x5
     // 0xa3c1d0: stur            x5, [fp, #-0x40]
     // 0xa3c1d4: r0 = stateFor()
-    //     0xa3c1d4: bl              #0x9606cc  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::stateFor
+    //     0xa3c1d4: bl              #0x9606cc  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::stateFor
     // 0xa3c1d8: r2 = LoadClassIdInstr(r0)
     //     0xa3c1d8: ldur            x2, [x0, #-1]
     //     0xa3c1dc: ubfx            x2, x2, #0xc, #0x14
@@ -2942,7 +2942,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0xa3c2a4: b               #0xa3c2b8
     // 0xa3c2a8: mov             x1, x4
     // 0xa3c2ac: r0 = displaySummaryText()
-    //     0xa3c2ac: bl              #0x73bbb4  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownSummarySnapshot::displaySummaryText
+    //     0xa3c2ac: bl              #0x73bbb4  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownSummarySnapshot::displaySummaryText
     // 0xa3c2b0: b               #0xa3c2b8
     // 0xa3c2b4: mov             x0, x1
     // 0xa3c2b8: cmp             w0, NULL
@@ -3001,7 +3001,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0xa3c354: ldur            x2, [fp, #-0x28]
     // 0xa3c358: ldur            x3, [fp, #-0x18]
     // 0xa3c35c: r0 = _canGenerateSessionSummary()
-    //     0xa3c35c: bl              #0x960474  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_canGenerateSessionSummary
+    //     0xa3c35c: bl              #0x960474  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_canGenerateSessionSummary
     // 0xa3c360: tbnz            w0, #4, #0xa3c390
     // 0xa3c364: ldur            x0, [fp, #-0x50]
     // 0xa3c368: tbz             w0, #4, #0xa3c388
@@ -3023,7 +3023,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0xa3c398: r2 = false
     //     0xa3c398: add             x2, NULL, #0x30  ; false
     // 0xa3c39c: stur            x2, [fp, #-0x68]
-    // 0xa3c3a0: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0xa3c3a0: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0xa3c3a0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xa3c3a4: ldr             x0, [x0, #0x1cf0]
     //     0xa3c3a8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3079,7 +3079,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0xa3c438: b.eq            #0xa3c454
     // 0xa3c43c: mov             x1, x2
     // 0xa3c440: r0 = isAnalyzing()
-    //     0xa3c440: bl              #0xa3d1a8  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownSummarySnapshot::isAnalyzing
+    //     0xa3c440: bl              #0xa3d1a8  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownSummarySnapshot::isAnalyzing
     // 0xa3c444: tbnz            w0, #4, #0xa3c450
     // 0xa3c448: r4 = true
     //     0xa3c448: add             x4, NULL, #0x20  ; true
@@ -3099,7 +3099,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0xa3c470: ldur            x2, [fp, #-0x28]
     // 0xa3c474: ldur            x3, [fp, #-0x18]
     // 0xa3c478: r0 = _canGenerateSessionSummary()
-    //     0xa3c478: bl              #0x960474  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_canGenerateSessionSummary
+    //     0xa3c478: bl              #0x960474  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_canGenerateSessionSummary
     // 0xa3c47c: mov             x4, x0
     // 0xa3c480: b               #0xa3c488
     // 0xa3c484: r4 = false
@@ -3113,7 +3113,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0xa3c49c: DecompressPointer r1
     //     0xa3c49c: add             x1, x1, HEAP, lsl #32
     // 0xa3c4a0: r0 = isVideoTrackedWorkout()
-    //     0xa3c4a0: bl              #0x736e2c  ; [package:ballai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
+    //     0xa3c4a0: bl              #0x736e2c  ; [package:kourtai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
     // 0xa3c4a4: ldur            x2, [fp, #-0x10]
     // 0xa3c4a8: stur            x0, [fp, #-0x40]
     // 0xa3c4ac: LoadField: r1 = r2->field_f
@@ -3178,7 +3178,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0xa3c544: DecompressPointer r1
     //     0xa3c544: add             x1, x1, HEAP, lsl #32
     // 0xa3c548: r0 = _dayMonth()
-    //     0xa3c548: bl              #0x96cdb0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_dayMonth
+    //     0xa3c548: bl              #0x96cdb0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_dayMonth
     // 0xa3c54c: stur            x0, [fp, #-0x78]
     // 0xa3c550: r0 = TextStyle()
     //     0xa3c550: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -3215,15 +3215,15 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0xa3c5a0: add             x1, x1, HEAP, lsl #32
     // 0xa3c5a4: ldur            x2, [fp, #-0x20]
     // 0xa3c5a8: r0 = _navSubtitle()
-    //     0xa3c5a8: bl              #0xa3cff4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_navSubtitle
+    //     0xa3c5a8: bl              #0xa3cff4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_navSubtitle
     // 0xa3c5ac: ldur            x2, [fp, #-0x10]
     // 0xa3c5b0: stur            x0, [fp, #-0x78]
     // 0xa3c5b4: LoadField: r1 = r2->field_f
     //     0xa3c5b4: ldur            w1, [x2, #0xf]
     // 0xa3c5b8: DecompressPointer r1
     //     0xa3c5b8: add             x1, x1, HEAP, lsl #32
-    // 0xa3c5bc: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa3c5bc: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa3c5bc: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa3c5bc: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa3c5c0: stur            x0, [fp, #-0x90]
     // 0xa3c5c4: r0 = TextStyle()
     //     0xa3c5c4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -3326,7 +3326,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0xa3c6bc: tbnz            w5, #4, #0xa3c6d8
     // 0xa3c6c0: mov             x2, x4
     // 0xa3c6c4: r1 = Function '_openEditWorkout@1145129441':.
-    //     0xa3c6c4: add             x1, PP, #0x37, lsl #12  ; [pp+0x37478] AnonymousClosure: (0xa3d404), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_openEditWorkout (0xa3d43c)
+    //     0xa3c6c4: add             x1, PP, #0x37, lsl #12  ; [pp+0x37478] AnonymousClosure: (0xa3d404), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_openEditWorkout (0xa3d43c)
     //     0xa3c6c8: ldr             x1, [x1, #0x478]
     // 0xa3c6cc: r0 = AllocateClosure()
     //     0xa3c6cc: bl              #0xe553e0  ; AllocateClosureStub
@@ -3355,7 +3355,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0xa3c710: stur            w5, [x3, #0x13]
     // 0xa3c714: ldur            x2, [fp, #-0x78]
     // 0xa3c718: r1 = Function '_openShareComposer@1145129441':.
-    //     0xa3c718: add             x1, PP, #0x37, lsl #12  ; [pp+0x37480] AnonymousClosure: (0xa3d2a4), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_openShareComposer (0xa3d2dc)
+    //     0xa3c718: add             x1, PP, #0x37, lsl #12  ; [pp+0x37480] AnonymousClosure: (0xa3d2a4), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_openShareComposer (0xa3d2dc)
     //     0xa3c71c: ldr             x1, [x1, #0x480]
     // 0xa3c720: r0 = AllocateClosure()
     //     0xa3c720: bl              #0xe553e0  ; AllocateClosureStub
@@ -3427,7 +3427,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0xa3c7d4: DecompressPointer r1
     //     0xa3c7d4: add             x1, x1, HEAP, lsl #32
     // 0xa3c7d8: r0 = homeIslandScrollBottomPadding()
-    //     0xa3c7d8: bl              #0xa3cf84  ; [package:ballai/automatic/utility/ui/home_island_scroll_padding.dart] ::homeIslandScrollBottomPadding
+    //     0xa3c7d8: bl              #0xa3cf84  ; [package:kourtai/automatic/utility/ui/home_island_scroll_padding.dart] ::homeIslandScrollBottomPadding
     // 0xa3c7dc: stur            d0, [fp, #-0xb0]
     // 0xa3c7e0: r0 = EdgeInsets()
     //     0xa3c7e0: bl              #0x60095c  ; AllocateEdgeInsetsStub -> EdgeInsets (size=0x28)
@@ -3455,10 +3455,10 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0xa3c818: DecompressPointer r1
     //     0xa3c818: add             x1, x1, HEAP, lsl #32
     // 0xa3c81c: r0 = _sessionSummaryWorkout()
-    //     0xa3c81c: bl              #0xa3cf34  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_sessionSummaryWorkout
+    //     0xa3c81c: bl              #0xa3cf34  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_sessionSummaryWorkout
     // 0xa3c820: mov             x1, x0
     // 0xa3c824: r0 = isDribblingWorkout()
-    //     0xa3c824: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0xa3c824: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0xa3c828: tbnz            w0, #4, #0xa3c88c
     // 0xa3c82c: ldur            x0, [fp, #-0x88]
     // 0xa3c830: LoadField: r1 = r0->field_b
@@ -3565,7 +3565,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0xa3c948: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xa3c94c: ldur            x1, [fp, #-0x20]
     // 0xa3c950: r0 = isLive()
-    //     0xa3c950: bl              #0x8ec3f8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isLive
+    //     0xa3c950: bl              #0x8ec3f8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isLive
     // 0xa3c954: tbz             w0, #4, #0xa3ca80
     // 0xa3c958: ldur            x0, [fp, #-0x28]
     // 0xa3c95c: tbnz            w0, #4, #0xa3c970
@@ -3603,7 +3603,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0xa3c9c0: stur            w1, [x3, #0x1f]
     // 0xa3c9c4: ldur            x2, [fp, #-0x10]
     // 0xa3c9c8: r1 = Function '<anonymous closure>':.
-    //     0xa3c9c8: add             x1, PP, #0x37, lsl #12  ; [pp+0x37498] AnonymousClosure: (0xa3d24c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::build (0xa3bf98)
+    //     0xa3c9c8: add             x1, PP, #0x37, lsl #12  ; [pp+0x37498] AnonymousClosure: (0xa3d24c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::build (0xa3bf98)
     //     0xa3c9cc: ldr             x1, [x1, #0x498]
     // 0xa3c9d0: r0 = AllocateClosure()
     //     0xa3c9d0: bl              #0xe553e0  ; AllocateClosureStub
@@ -3613,7 +3613,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0xa3c9dc: stur            w1, [x0, #0x23]
     // 0xa3c9e0: ldur            x2, [fp, #-0x10]
     // 0xa3c9e4: r1 = Function '<anonymous closure>':.
-    //     0xa3c9e4: add             x1, PP, #0x37, lsl #12  ; [pp+0x374a0] AnonymousClosure: (0xa3d200), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::build (0xa3bf98)
+    //     0xa3c9e4: add             x1, PP, #0x37, lsl #12  ; [pp+0x374a0] AnonymousClosure: (0xa3d200), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::build (0xa3bf98)
     //     0xa3c9e8: ldr             x1, [x1, #0x4a0]
     // 0xa3c9ec: r0 = AllocateClosure()
     //     0xa3c9ec: bl              #0xe553e0  ; AllocateClosureStub
@@ -3851,7 +3851,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0xa3cca0: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xa3cca4: ldur            x1, [fp, #-0x20]
     // 0xa3cca8: r0 = isDribblingWorkout()
-    //     0xa3cca8: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0xa3cca8: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0xa3ccac: tbz             w0, #4, #0xa3cd48
     // 0xa3ccb0: ldur            x1, [fp, #-0x88]
     // 0xa3ccb4: ldur            x0, [fp, #-0x18]
@@ -4169,7 +4169,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0xa3d100: DecompressPointer r1
     //     0xa3d100: add             x1, x1, HEAP, lsl #32
     // 0xa3d104: r0 = _ampm()
-    //     0xa3d104: bl              #0x83f224  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_ampm
+    //     0xa3d104: bl              #0x83f224  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_ampm
     // 0xa3d108: r1 = Null
     //     0xa3d108: mov             x1, NULL
     // 0xa3d10c: r2 = 6
@@ -4188,7 +4188,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0xa3d12c: stur            w16, [x2, #0x13]
     // 0xa3d130: ldur            x1, [fp, #-8]
     // 0xa3d134: r0 = _ampm()
-    //     0xa3d134: bl              #0x83f224  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_ampm
+    //     0xa3d134: bl              #0x83f224  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_ampm
     // 0xa3d138: ldur            x1, [fp, #-0x20]
     // 0xa3d13c: ArrayStore: r1[2] = r0  ; List_4
     //     0xa3d13c: add             x25, x1, #0x17
@@ -4248,7 +4248,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0xa3d22c: DecompressPointer r1
     //     0xa3d22c: add             x1, x1, HEAP, lsl #32
     // 0xa3d230: r0 = _autoGenerateSessionSummaryIfNeeded()
-    //     0xa3d230: bl              #0x95e420  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_autoGenerateSessionSummaryIfNeeded
+    //     0xa3d230: bl              #0x95e420  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_autoGenerateSessionSummaryIfNeeded
     // 0xa3d234: r0 = Null
     //     0xa3d234: mov             x0, NULL
     // 0xa3d238: LeaveFrame
@@ -4289,7 +4289,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0xa3d284: mov             x1, x2
     // 0xa3d288: mov             x2, x0
     // 0xa3d28c: r0 = _openSessionSummaryPaywall()
-    //     0xa3d28c: bl              #0x95e210  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_openSessionSummaryPaywall
+    //     0xa3d28c: bl              #0x95e210  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_openSessionSummaryPaywall
     // 0xa3d290: LeaveFrame
     //     0xa3d290: mov             SP, fp
     //     0xa3d294: ldp             fp, lr, [SP], #0x10
@@ -4314,7 +4314,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0xa3d2bc: cmp             SP, x16
     //     0xa3d2c0: b.ls            #0xa3d2d4
     // 0xa3d2c4: r0 = _openShareComposer()
-    //     0xa3d2c4: bl              #0xa3d2dc  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_openShareComposer
+    //     0xa3d2c4: bl              #0xa3d2dc  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_openShareComposer
     // 0xa3d2c8: LeaveFrame
     //     0xa3d2c8: mov             SP, fp
     //     0xa3d2cc: ldp             fp, lr, [SP], #0x10
@@ -4358,7 +4358,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0xa3d324: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa3d328: ldur            x2, [fp, #-0x10]
     // 0xa3d32c: r1 = Function '<anonymous closure>':.
-    //     0xa3d32c: add             x1, PP, #0x37, lsl #12  ; [pp+0x375d8] AnonymousClosure: (0xa3d394), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_openShareComposer (0xa3d2dc)
+    //     0xa3d32c: add             x1, PP, #0x37, lsl #12  ; [pp+0x375d8] AnonymousClosure: (0xa3d394), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_openShareComposer (0xa3d2dc)
     //     0xa3d330: ldr             x1, [x1, #0x5d8]
     // 0xa3d334: stur            x0, [fp, #-8]
     // 0xa3d338: r0 = AllocateClosure()
@@ -4457,7 +4457,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0xa3d41c: cmp             SP, x16
     //     0xa3d420: b.ls            #0xa3d434
     // 0xa3d424: r0 = _openEditWorkout()
-    //     0xa3d424: bl              #0xa3d43c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_openEditWorkout
+    //     0xa3d424: bl              #0xa3d43c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_openEditWorkout
     // 0xa3d428: LeaveFrame
     //     0xa3d428: mov             SP, fp
     //     0xa3d42c: ldp             fp, lr, [SP], #0x10
@@ -4501,7 +4501,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0xa3d484: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa3d488: ldur            x2, [fp, #-0x10]
     // 0xa3d48c: r1 = Function '<anonymous closure>':.
-    //     0xa3d48c: add             x1, PP, #0x37, lsl #12  ; [pp+0x375e0] AnonymousClosure: (0xa3d4f4), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_openEditWorkout (0xa3d43c)
+    //     0xa3d48c: add             x1, PP, #0x37, lsl #12  ; [pp+0x375e0] AnonymousClosure: (0xa3d4f4), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_openEditWorkout (0xa3d43c)
     //     0xa3d490: ldr             x1, [x1, #0x5e0]
     // 0xa3d494: stur            x0, [fp, #-8]
     // 0xa3d498: r0 = AllocateClosure()
@@ -4592,7 +4592,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0xb5b1f8: mov             fp, SP
     // 0xb5b1fc: ldr             x2, [fp, #0x10]
     // 0xb5b200: r1 = Function 'dispose':.
-    //     0xb5b200: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bd38] AnonymousClosure: (0xb5b218), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::dispose (0xb6204c)
+    //     0xb5b200: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bd38] AnonymousClosure: (0xb5b218), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::dispose (0xb6204c)
     //     0xb5b204: ldr             x1, [x1, #0xd38]
     // 0xb5b208: r0 = AllocateClosure()
     //     0xb5b208: bl              #0xe553e0  ; AllocateClosureStub
@@ -4617,7 +4617,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     //     0xb5b230: cmp             SP, x16
     //     0xb5b234: b.ls            #0xb5b248
     // 0xb5b238: r0 = dispose()
-    //     0xb5b238: bl              #0xb6204c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::dispose
+    //     0xb5b238: bl              #0xb6204c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::dispose
     // 0xb5b23c: LeaveFrame
     //     0xb5b23c: mov             SP, fp
     //     0xb5b240: ldp             fp, lr, [SP], #0x10
@@ -4648,7 +4648,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0xb62074: mov             x2, x0
     // 0xb62078: stur            x3, [fp, #-8]
     // 0xb6207c: r1 = Function '_onBreakdownStore@1145129441':.
-    //     0xb6207c: add             x1, PP, #0x37, lsl #12  ; [pp+0x37650] AnonymousClosure: (0x961d50), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_onBreakdownStore (0x961d88)
+    //     0xb6207c: add             x1, PP, #0x37, lsl #12  ; [pp+0x37650] AnonymousClosure: (0x961d50), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_onBreakdownStore (0x961d88)
     //     0xb62080: ldr             x1, [x1, #0x650]
     // 0xb62084: r0 = AllocateClosure()
     //     0xb62084: bl              #0xe553e0  ; AllocateClosureStub
@@ -4674,7 +4674,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0xb620b8: mov             x2, x1
     // 0xb620bc: ldur            x1, [fp, #-8]
     // 0xb620c0: r0 = stopListening()
-    //     0xb620c0: bl              #0x8ec590  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::stopListening
+    //     0xb620c0: bl              #0x8ec590  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::stopListening
     // 0xb620c4: ldur            x0, [fp, #-0x10]
     // 0xb620c8: LoadField: r3 = r0->field_13
     //     0xb620c8: ldur            w3, [x0, #0x13]
@@ -4687,7 +4687,7 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0xb620dc: mov             x2, x0
     // 0xb620e0: stur            x3, [fp, #-8]
     // 0xb620e4: r1 = Function '_onViewModelChanged@1145129441':.
-    //     0xb620e4: add             x1, PP, #0x37, lsl #12  ; [pp+0x37658] AnonymousClosure: (0x961cb0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_onViewModelChanged (0x961ce8)
+    //     0xb620e4: add             x1, PP, #0x37, lsl #12  ; [pp+0x37658] AnonymousClosure: (0x961cb0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_onViewModelChanged (0x961ce8)
     //     0xb620e8: ldr             x1, [x1, #0x658]
     // 0xb620ec: r0 = AllocateClosure()
     //     0xb620ec: bl              #0xe553e0  ; AllocateClosureStub
@@ -4701,10 +4701,10 @@ class _WorkoutViewState extends __WorkoutViewState&State&HomeIslandHiddenRoute {
     // 0xb62104: DecompressPointer r1
     //     0xb62104: add             x1, x1, HEAP, lsl #32
     // 0xb62108: r0 = dispose()
-    //     0xb62108: bl              #0x9be57c  ; [package:ballai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::dispose
+    //     0xb62108: bl              #0x9be57c  ; [package:kourtai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::dispose
     // 0xb6210c: ldur            x1, [fp, #-0x10]
     // 0xb62110: r0 = dispose()
-    //     0xb62110: bl              #0xb63788  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
+    //     0xb62110: bl              #0xb63788  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
     // 0xb62114: r0 = Null
     //     0xb62114: mov             x0, NULL
     // 0xb62118: LeaveFrame
@@ -4761,7 +4761,7 @@ class WorkoutView extends StatefulWidget {
     //     0xb735a8: stur            w0, [x1, #0x2f]
     // 0xb735ac: StoreField: r1->field_33 = r0
     //     0xb735ac: stur            w0, [x1, #0x33]
-    // 0xb735b0: r0 = InitLateStaticField(0xf2c) // [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::instance
+    // 0xb735b0: r0 = InitLateStaticField(0xf2c) // [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::instance
     //     0xb735b0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb735b4: ldr             x0, [x0, #0x1e58]
     //     0xb735b8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel

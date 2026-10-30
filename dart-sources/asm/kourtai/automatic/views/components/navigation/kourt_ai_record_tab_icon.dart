@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/navigation/ball_ai_record_tab_icon.dart
+// lib: , url: package:kourtai/automatic/views/components/navigation/kourt_ai_record_tab_icon.dart
 
 // class id: 1048823, size: 0x8
 class :: {
@@ -6,7 +6,7 @@ class :: {
 
 // class id: 4221, size: 0x14, field offset: 0xc
 //   const constructor, 
-class BallAiRecordTabIcon extends StatelessWidget {
+class KourtAiRecordTabIcon extends StatelessWidget {
 
   _ build(/* No info */) {
     // ** addr: 0xbc157c, size: 0x348
@@ -15,7 +15,7 @@ class BallAiRecordTabIcon extends StatelessWidget {
     //     0xbc1580: mov             fp, SP
     // 0xbc1584: AllocStack(0x58)
     //     0xbc1584: sub             SP, SP, #0x58
-    // 0xbc1588: SetupParameters(BallAiRecordTabIcon this /* r1 => r2, fp-0x8 */, dynamic _ /* r2 => r0, fp-0x10 */)
+    // 0xbc1588: SetupParameters(KourtAiRecordTabIcon this /* r1 => r2, fp-0x8 */, dynamic _ /* r2 => r0, fp-0x10 */)
     //     0xbc1588: mov             x0, x2
     //     0xbc158c: stur            x2, [fp, #-0x10]
     //     0xbc1590: mov             x2, x1
@@ -37,14 +37,14 @@ class BallAiRecordTabIcon extends StatelessWidget {
     //     0xbc15b8: add             x0, x0, HEAP, lsl #32
     // 0xbc15bc: ldur            x1, [fp, #-0x10]
     // 0xbc15c0: stur            x0, [fp, #-0x18]
-    // 0xbc15c4: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbc15c4: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbc15c4: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbc15c4: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbc15c8: r1 = "Record"
     //     0xbc15c8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2aa48] "Record"
     //     0xbc15cc: ldr             x1, [x1, #0xa48]
     // 0xbc15d0: stur            x0, [fp, #-0x10]
     // 0xbc15d4: r0 = L()
-    //     0xbc15d4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbc15d4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbc15d8: mov             x2, x0
     // 0xbc15dc: ldur            x0, [fp, #-8]
     // 0xbc15e0: stur            x2, [fp, #-0x30]
@@ -187,15 +187,15 @@ class BallAiRecordTabIcon extends StatelessWidget {
     // 0xbc1750: ldur            x0, [fp, #-0x10]
     // 0xbc1754: StoreField: r1->field_b = r0
     //     0xbc1754: stur            w0, [x1, #0xb]
-    // 0xbc1758: r0 = BallAiNavigationGlass()
-    //     0xbc1758: bl              #0xbc08e0  ; AllocateBallAiNavigationGlassStub -> BallAiNavigationGlass (size=0x20)
+    // 0xbc1758: r0 = KourtAiNavigationGlass()
+    //     0xbc1758: bl              #0xbc08e0  ; AllocateKourtAiNavigationGlassStub -> KourtAiNavigationGlass (size=0x20)
     // 0xbc175c: mov             x1, x0
     // 0xbc1760: ldur            x0, [fp, #-0x18]
     // 0xbc1764: stur            x1, [fp, #-0x10]
     // 0xbc1768: StoreField: r1->field_b = r0
     //     0xbc1768: stur            w0, [x1, #0xb]
-    // 0xbc176c: r0 = Instance_BallAiNavigationGlassShape
-    //     0xbc176c: add             x0, PP, #0x2a, lsl #12  ; [pp+0x2aa80] Obj!BallAiNavigationGlassShape@d3a4a1
+    // 0xbc176c: r0 = Instance_KourtAiNavigationGlassShape
+    //     0xbc176c: add             x0, PP, #0x2a, lsl #12  ; [pp+0x2aa80] Obj!KourtAiNavigationGlassShape@d3a4a1
     //     0xbc1770: ldr             x0, [x0, #0xa80]
     // 0xbc1774: StoreField: r1->field_f = r0
     //     0xbc1774: stur            w0, [x1, #0xf]

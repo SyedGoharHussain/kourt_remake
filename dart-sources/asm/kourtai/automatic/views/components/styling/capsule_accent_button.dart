@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/styling/capsule_accent_button.dart
+// lib: , url: package:kourtai/automatic/views/components/styling/capsule_accent_button.dart
 
 // class id: 1048826, size: 0x8
 class :: {
@@ -46,8 +46,8 @@ class CapsuleAccentButton extends StatelessWidget {
     //     0xbc23d0: add             x1, PP, #0x15, lsl #12  ; [pp+0x151c0] Obj!Color@d2a0d1
     //     0xbc23d4: ldr             x1, [x1, #0x1c0]
     // 0xbc23d8: b               #0xbc23e8
-    // 0xbc23dc: r0 = BallAiThemeContext.ballAiDisabledButtonFill()
-    //     0xbc23dc: bl              #0xa0ed2c  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiDisabledButtonFill
+    // 0xbc23dc: r0 = KourtAiThemeContext.kourtAiDisabledButtonFill()
+    //     0xbc23dc: bl              #0xa0ed2c  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiDisabledButtonFill
     // 0xbc23e0: mov             x1, x0
     // 0xbc23e4: ldur            x0, [fp, #-8]
     // 0xbc23e8: stur            x1, [fp, #-0x20]

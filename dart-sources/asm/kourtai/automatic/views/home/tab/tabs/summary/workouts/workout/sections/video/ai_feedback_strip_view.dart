@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart
 
 // class id: 1048909, size: 0x8
 class :: {
@@ -98,7 +98,7 @@ class _AIFeedbackStripViewState extends State<dynamic> {
     // 0x8f8694: b.eq            #0x8f86a0
     // 0x8f8698: mov             x1, x2
     // 0x8f869c: r0 = _resolveAndRebuild()
-    //     0x8f869c: bl              #0x8f86bc  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_resolveAndRebuild
+    //     0x8f869c: bl              #0x8f86bc  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_resolveAndRebuild
     // 0x8f86a0: r0 = Null
     //     0x8f86a0: mov             x0, NULL
     // 0x8f86a4: LeaveFrame
@@ -142,7 +142,7 @@ class _AIFeedbackStripViewState extends State<dynamic> {
     //     0x8f86fc: add             x2, x2, HEAP, lsl #32
     // 0x8f8700: mov             x1, x2
     // 0x8f8704: r0 = resolvedEntries()
-    //     0x8f8704: bl              #0x8f9c1c  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_feedback_persistence.dart] BallyBreakdownFeedbackPersistence::resolvedEntries
+    //     0x8f8704: bl              #0x8f9c1c  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_feedback_persistence.dart] BallyBreakdownFeedbackPersistence::resolvedEntries
     // 0x8f8708: mov             x1, x0
     // 0x8f870c: stur            x1, [fp, #-0x18]
     // 0x8f8710: r0 = Await()
@@ -167,7 +167,7 @@ class _AIFeedbackStripViewState extends State<dynamic> {
     //     0x8f8744: b.eq            #0x8f874c
     //     0x8f8748: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0x8f874c: r0 = _rebuildBlocks()
-    //     0x8f874c: bl              #0x8f8764  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_rebuildBlocks
+    //     0x8f874c: bl              #0x8f8764  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_rebuildBlocks
     // 0x8f8750: r0 = Null
     //     0x8f8750: mov             x0, NULL
     // 0x8f8754: r0 = ReturnAsyncNotFuture()
@@ -1075,7 +1075,7 @@ class _AIFeedbackStripViewState extends State<dynamic> {
     // 0x8f9200: ldur            x0, [fp, #-0x18]
     // 0x8f9204: ldur            x3, [fp, #-0x20]
     // 0x8f9208: r1 = Function '<anonymous closure>':.
-    //     0x8f9208: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e060] AnonymousClosure: (0x8f9ad4), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_rebuildBlocks (0x8f8764)
+    //     0x8f9208: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e060] AnonymousClosure: (0x8f9ad4), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_rebuildBlocks (0x8f8764)
     //     0x8f920c: ldr             x1, [x1, #0x60]
     // 0x8f9210: r2 = Null
     //     0x8f9210: mov             x2, NULL
@@ -1489,7 +1489,7 @@ class _AIFeedbackStripViewState extends State<dynamic> {
     // 0x8f9680: StoreField: r3->field_b = r0
     //     0x8f9680: stur            w0, [x3, #0xb]
     // 0x8f9684: r1 = Function '<anonymous closure>':.
-    //     0x8f9684: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e098] AnonymousClosure: (0x8f9a60), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_rebuildBlocks (0x8f8764)
+    //     0x8f9684: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e098] AnonymousClosure: (0x8f9a60), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_rebuildBlocks (0x8f8764)
     //     0x8f9688: ldr             x1, [x1, #0x98]
     // 0x8f968c: r2 = Null
     //     0x8f968c: mov             x2, NULL
@@ -1661,7 +1661,7 @@ class _AIFeedbackStripViewState extends State<dynamic> {
     // 0x8f9868: b               #0x8f9264
     // 0x8f986c: ldur            x2, [fp, #-0x18]
     // 0x8f9870: r1 = Function '<anonymous closure>':.
-    //     0x8f9870: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e0a0] AnonymousClosure: (0x8f9a14), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_rebuildBlocks (0x8f8764)
+    //     0x8f9870: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e0a0] AnonymousClosure: (0x8f9a14), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_rebuildBlocks (0x8f8764)
     //     0x8f9874: ldr             x1, [x1, #0xa0]
     // 0x8f9878: r0 = AllocateClosure()
     //     0x8f9878: bl              #0xe553e0  ; AllocateClosureStub
@@ -1939,10 +1939,10 @@ class _AIFeedbackStripViewState extends State<dynamic> {
     //     0x962334: stur            w0, [x2, #0xf]
     // 0x962338: mov             x1, x0
     // 0x96233c: r0 = _resolveAndRebuild()
-    //     0x96233c: bl              #0x8f86bc  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_resolveAndRebuild
+    //     0x96233c: bl              #0x8f86bc  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_resolveAndRebuild
     // 0x962340: ldur            x2, [fp, #-0x10]
     // 0x962344: r1 = Function '<anonymous closure>':.
-    //     0x962344: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e0c0] AnonymousClosure: (0x96239c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::initState (0x962304)
+    //     0x962344: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e0c0] AnonymousClosure: (0x96239c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::initState (0x962304)
     //     0x962348: ldr             x1, [x1, #0xc0]
     // 0x96234c: r0 = AllocateClosure()
     //     0x96234c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1994,7 +1994,7 @@ class _AIFeedbackStripViewState extends State<dynamic> {
     //     0x9623c0: add             x0, x0, HEAP, lsl #32
     // 0x9623c4: mov             x1, x0
     // 0x9623c8: r0 = _tick()
-    //     0x9623c8: bl              #0x9623e4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_tick
+    //     0x9623c8: bl              #0x9623e4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_tick
     // 0x9623cc: r0 = Null
     //     0x9623cc: mov             x0, NULL
     // 0x9623d0: LeaveFrame
@@ -2233,7 +2233,7 @@ class _AIFeedbackStripViewState extends State<dynamic> {
     // 0x962664: b.eq            #0x962684
     // 0x962668: ldur            x2, [fp, #-0x28]
     // 0x96266c: r1 = Function '<anonymous closure>':.
-    //     0x96266c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e0c8] AnonymousClosure: (0x659600), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
+    //     0x96266c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e0c8] AnonymousClosure: (0x659600), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
     //     0x962670: ldr             x1, [x1, #0xc8]
     // 0x962674: r0 = AllocateClosure()
     //     0x962674: bl              #0xe553e0  ; AllocateClosureStub
@@ -2313,7 +2313,7 @@ class _AIFeedbackStripViewState extends State<dynamic> {
     //     0x962760: stur            x0, [x3, #7]
     // 0x962764: ldur            x2, [fp, #-0x28]
     // 0x962768: r1 = Function '<anonymous closure>':.
-    //     0x962768: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e0d8] AnonymousClosure: (0x962c34), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_tick (0x9623e4)
+    //     0x962768: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e0d8] AnonymousClosure: (0x962c34), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_tick (0x9623e4)
     //     0x96276c: ldr             x1, [x1, #0xd8]
     // 0x962770: r0 = AllocateClosure()
     //     0x962770: bl              #0xe553e0  ; AllocateClosureStub
@@ -2365,7 +2365,7 @@ class _AIFeedbackStripViewState extends State<dynamic> {
     //     0x9627f8: add             x2, x2, HEAP, lsl #32
     // 0x9627fc: ldur            x1, [fp, #-8]
     // 0x962800: r0 = _startTypewriter()
-    //     0x962800: bl              #0x962864  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_startTypewriter
+    //     0x962800: bl              #0x962864  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_startTypewriter
     // 0x962804: r0 = Null
     //     0x962804: mov             x0, NULL
     // 0x962808: LeaveFrame
@@ -2451,7 +2451,7 @@ class _AIFeedbackStripViewState extends State<dynamic> {
     // 0x9628c8: b.eq            #0x9628e8
     // 0x9628cc: mov             x2, x3
     // 0x9628d0: r1 = Function '<anonymous closure>':.
-    //     0x9628d0: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e0e8] AnonymousClosure: (0x962ba8), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_startTypewriter (0x962864)
+    //     0x9628d0: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e0e8] AnonymousClosure: (0x962ba8), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_startTypewriter (0x962864)
     //     0x9628d4: ldr             x1, [x1, #0xe8]
     // 0x9628d8: r0 = AllocateClosure()
     //     0x9628d8: bl              #0xe553e0  ; AllocateClosureStub
@@ -2479,7 +2479,7 @@ class _AIFeedbackStripViewState extends State<dynamic> {
     // 0x962918: ldur            x3, [fp, #-0x18]
     // 0x96291c: mov             x2, x3
     // 0x962920: r1 = Function 'step':.
-    //     0x962920: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e0f0] AnonymousClosure: (0x96299c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_startTypewriter (0x962864)
+    //     0x962920: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e0f0] AnonymousClosure: (0x96299c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_startTypewriter (0x962864)
     //     0x962924: ldr             x1, [x1, #0xf0]
     // 0x962928: r0 = AllocateClosure()
     //     0x962928: bl              #0xe553e0  ; AllocateClosureStub
@@ -2582,7 +2582,7 @@ class _AIFeedbackStripViewState extends State<dynamic> {
     //     0x962a28: ret             
     // 0x962a2c: mov             x2, x3
     // 0x962a30: r1 = Function '<anonymous closure>':.
-    //     0x962a30: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e0f8] AnonymousClosure: (0x962af4), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_startTypewriter (0x962864)
+    //     0x962a30: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e0f8] AnonymousClosure: (0x962af4), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::_startTypewriter (0x962864)
     //     0x962a34: ldr             x1, [x1, #0xf8]
     // 0x962a38: r0 = AllocateClosure()
     //     0x962a38: bl              #0xe553e0  ; AllocateClosureStub
@@ -2799,7 +2799,7 @@ class _AIFeedbackStripViewState extends State<dynamic> {
     // 0x962c6c: cmp             w1, NULL
     // 0x962c70: b.eq            #0x962c8c
     // 0x962c74: r1 = Function '<anonymous closure>':.
-    //     0x962c74: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e0e0] AnonymousClosure: (0x659600), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
+    //     0x962c74: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e0e0] AnonymousClosure: (0x659600), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
     //     0x962c78: ldr             x1, [x1, #0xe0]
     // 0x962c7c: r0 = AllocateClosure()
     //     0x962c7c: bl              #0xe553e0  ; AllocateClosureStub
@@ -3249,7 +3249,7 @@ class _AIFeedbackStripViewState extends State<dynamic> {
     //     0xb5b368: mov             fp, SP
     // 0xb5b36c: ldr             x2, [fp, #0x10]
     // 0xb5b370: r1 = Function 'dispose':.
-    //     0xb5b370: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dfc8] AnonymousClosure: (0xb5b388), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::dispose (0xb62228)
+    //     0xb5b370: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dfc8] AnonymousClosure: (0xb5b388), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::dispose (0xb62228)
     //     0xb5b374: ldr             x1, [x1, #0xfc8]
     // 0xb5b378: r0 = AllocateClosure()
     //     0xb5b378: bl              #0xe553e0  ; AllocateClosureStub
@@ -3274,7 +3274,7 @@ class _AIFeedbackStripViewState extends State<dynamic> {
     //     0xb5b3a0: cmp             SP, x16
     //     0xb5b3a4: b.ls            #0xb5b3b8
     // 0xb5b3a8: r0 = dispose()
-    //     0xb5b3a8: bl              #0xb62228  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::dispose
+    //     0xb5b3a8: bl              #0xb62228  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/ai_feedback_strip_view.dart] _AIFeedbackStripViewState::dispose
     // 0xb5b3ac: LeaveFrame
     //     0xb5b3ac: mov             SP, fp
     //     0xb5b3b0: ldp             fp, lr, [SP], #0x10

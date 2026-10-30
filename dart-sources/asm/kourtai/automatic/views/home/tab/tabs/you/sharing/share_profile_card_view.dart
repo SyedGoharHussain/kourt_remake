@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_view.dart
 
 // class id: 1049039, size: 0x8
 class :: {
@@ -215,7 +215,7 @@ class _HeaderFollowRow extends StatelessWidget {
     //     0xc1e874: cmp             SP, x16
     //     0xc1e878: b.ls            #0xc1eb38
     // 0xc1e87c: r1 = Function 'stat':.
-    //     0xc1e87c: add             x1, PP, #0x54, lsl #12  ; [pp+0x54ed8] AnonymousClosure: (0xc1eb40), in [package:ballai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_view.dart] _HeaderFollowRow::build (0xc1e85c)
+    //     0xc1e87c: add             x1, PP, #0x54, lsl #12  ; [pp+0x54ed8] AnonymousClosure: (0xc1eb40), in [package:kourtai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_view.dart] _HeaderFollowRow::build (0xc1e85c)
     //     0xc1e880: ldr             x1, [x1, #0xed8]
     // 0xc1e884: r2 = Null
     //     0xc1e884: mov             x2, NULL
@@ -236,7 +236,7 @@ class _HeaderFollowRow extends StatelessWidget {
     //     0xc1e8ac: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c710] "Workouts"
     //     0xc1e8b0: ldr             x1, [x1, #0x710]
     // 0xc1e8b4: r0 = L()
-    //     0xc1e8b4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1e8b4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1e8b8: mov             x3, x0
     // 0xc1e8bc: ldur            x2, [fp, #-0x10]
     // 0xc1e8c0: r0 = BoxInt64Instr(r2)
@@ -303,7 +303,7 @@ class _HeaderFollowRow extends StatelessWidget {
     //     0xc1e970: add             x1, PP, #0x54, lsl #12  ; [pp+0x54ee0] "Followers"
     //     0xc1e974: ldr             x1, [x1, #0xee0]
     // 0xc1e978: r0 = L()
-    //     0xc1e978: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1e978: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1e97c: mov             x3, x0
     // 0xc1e980: ldur            x2, [fp, #-0x10]
     // 0xc1e984: r0 = BoxInt64Instr(r2)
@@ -370,7 +370,7 @@ class _HeaderFollowRow extends StatelessWidget {
     //     0xc1ea34: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b950] "Following"
     //     0xc1ea38: ldr             x1, [x1, #0x950]
     // 0xc1ea3c: r0 = L()
-    //     0xc1ea3c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1ea3c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1ea40: mov             x3, x0
     // 0xc1ea44: ldur            x2, [fp, #-0x10]
     // 0xc1ea48: r0 = BoxInt64Instr(r2)
@@ -486,7 +486,7 @@ class _HeaderFollowRow extends StatelessWidget {
     //     0xc1eb60: tbz             w0, #0, #0xc1eb68
     //     0xc1eb64: ldur            x1, [x0, #7]
     // 0xc1eb68: r0 = formatLargeNumber()
-    //     0xc1eb68: bl              #0xc1e0e4  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_view.dart] ShareProfileCardView::formatLargeNumber
+    //     0xc1eb68: bl              #0xc1e0e4  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_view.dart] ShareProfileCardView::formatLargeNumber
     // 0xc1eb6c: stur            x0, [fp, #-8]
     // 0xc1eb70: r0 = Text()
     //     0xc1eb70: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1413,7 +1413,7 @@ class _ContentPanel extends StatelessWidget {
     //     0xc1dc8c: add             x1, PP, #0x44, lsl #12  ; [pp+0x442a8] "FG%"
     //     0xc1dc90: ldr             x1, [x1, #0x2a8]
     // 0xc1dc94: r0 = L()
-    //     0xc1dc94: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1dc94: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1dc98: stur            x0, [fp, #-0x38]
     // 0xc1dc9c: r16 = 0.850000
     //     0xc1dc9c: add             x16, PP, #0x1f, lsl #12  ; [pp+0x1f4c8] 0.85
@@ -1543,14 +1543,14 @@ class _ContentPanel extends StatelessWidget {
     //     0xc1ddd4: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d1e0] "SHOTS"
     //     0xc1ddd8: ldr             x1, [x1, #0x1e0]
     // 0xc1dddc: r0 = L()
-    //     0xc1dddc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1dddc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1dde0: mov             x2, x0
     // 0xc1dde4: ldur            x0, [fp, #-0x10]
     // 0xc1dde8: stur            x2, [fp, #-0x38]
     // 0xc1ddec: LoadField: r1 = r0->field_1f
     //     0xc1ddec: ldur            x1, [x0, #0x1f]
     // 0xc1ddf0: r0 = formatLargeNumber()
-    //     0xc1ddf0: bl              #0xc1e0e4  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_view.dart] ShareProfileCardView::formatLargeNumber
+    //     0xc1ddf0: bl              #0xc1e0e4  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_view.dart] ShareProfileCardView::formatLargeNumber
     // 0xc1ddf4: stur            x0, [fp, #-0x40]
     // 0xc1ddf8: r0 = _MiniStat()
     //     0xc1ddf8: bl              #0xc1e0d8  ; Allocate_MiniStatStub -> _MiniStat (size=0x14)
@@ -1566,14 +1566,14 @@ class _ContentPanel extends StatelessWidget {
     //     0xc1de14: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d1e8] "MAKES"
     //     0xc1de18: ldr             x1, [x1, #0x1e8]
     // 0xc1de1c: r0 = L()
-    //     0xc1de1c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1de1c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1de20: mov             x2, x0
     // 0xc1de24: ldur            x0, [fp, #-0x10]
     // 0xc1de28: stur            x2, [fp, #-0x38]
     // 0xc1de2c: LoadField: r1 = r0->field_27
     //     0xc1de2c: ldur            x1, [x0, #0x27]
     // 0xc1de30: r0 = formatLargeNumber()
-    //     0xc1de30: bl              #0xc1e0e4  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_view.dart] ShareProfileCardView::formatLargeNumber
+    //     0xc1de30: bl              #0xc1e0e4  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_view.dart] ShareProfileCardView::formatLargeNumber
     // 0xc1de34: stur            x0, [fp, #-0x40]
     // 0xc1de38: r0 = _MiniStat()
     //     0xc1de38: bl              #0xc1e0d8  ; Allocate_MiniStatStub -> _MiniStat (size=0x14)
@@ -1589,14 +1589,14 @@ class _ContentPanel extends StatelessWidget {
     //     0xc1de54: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d1f0] "WORKOUTS"
     //     0xc1de58: ldr             x1, [x1, #0x1f0]
     // 0xc1de5c: r0 = L()
-    //     0xc1de5c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1de5c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1de60: mov             x2, x0
     // 0xc1de64: ldur            x0, [fp, #-0x10]
     // 0xc1de68: stur            x2, [fp, #-0x38]
     // 0xc1de6c: LoadField: r1 = r0->field_33
     //     0xc1de6c: ldur            x1, [x0, #0x33]
     // 0xc1de70: r0 = formatLargeNumber()
-    //     0xc1de70: bl              #0xc1e0e4  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_view.dart] ShareProfileCardView::formatLargeNumber
+    //     0xc1de70: bl              #0xc1e0e4  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_view.dart] ShareProfileCardView::formatLargeNumber
     // 0xc1de74: stur            x0, [fp, #-0x40]
     // 0xc1de78: r0 = _MiniStat()
     //     0xc1de78: bl              #0xc1e0d8  ; Allocate_MiniStatStub -> _MiniStat (size=0x14)
@@ -1612,7 +1612,7 @@ class _ContentPanel extends StatelessWidget {
     //     0xc1de94: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d1f8] "TIME"
     //     0xc1de98: ldr             x1, [x1, #0x1f8]
     // 0xc1de9c: r0 = L()
-    //     0xc1de9c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1de9c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1dea0: mov             x1, x0
     // 0xc1dea4: ldur            x0, [fp, #-0x10]
     // 0xc1dea8: stur            x1, [fp, #-0x40]
@@ -1859,7 +1859,7 @@ class _TopBrandLayer extends StatelessWidget {
     // 0xc1d6d0: r0 = Image()
     //     0xc1d6d0: bl              #0x9d20b4  ; AllocateImageStub -> Image (size=0x58)
     // 0xc1d6d4: r1 = Function '<anonymous closure>':.
-    //     0xc1d6d4: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d1a8] AnonymousClosure: (0xc1d754), in [package:ballai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_view.dart] _TopBrandLayer::build (0xc1d6b8)
+    //     0xc1d6d4: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d1a8] AnonymousClosure: (0xc1d754), in [package:kourtai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_view.dart] _TopBrandLayer::build (0xc1d6b8)
     //     0xc1d6d8: ldr             x1, [x1, #0x1a8]
     // 0xc1d6dc: r2 = Null
     //     0xc1d6dc: mov             x2, NULL
@@ -1992,7 +1992,7 @@ class _TopBrandLayer extends StatelessWidget {
     //     0xc1d81c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d1c0] "Powered by"
     //     0xc1d820: ldr             x1, [x1, #0x1c0]
     // 0xc1d824: r0 = L()
-    //     0xc1d824: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1d824: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1d828: stur            x0, [fp, #-0x18]
     // 0xc1d82c: r16 = 0.920000
     //     0xc1d82c: add             x16, PP, #0x41, lsl #12  ; [pp+0x412d8] 0.92
@@ -2041,11 +2041,11 @@ class _TopBrandLayer extends StatelessWidget {
     // 0xc1d89c: ldur            x0, [fp, #-0x28]
     // 0xc1d8a0: StoreField: r2->field_13 = r0
     //     0xc1d8a0: stur            w0, [x2, #0x13]
-    // 0xc1d8a4: r1 = "BALL AI"
-    //     0xc1d8a4: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d1c8] "BALL AI"
+    // 0xc1d8a4: r1 = "KOURT AI"
+    //     0xc1d8a4: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d1c8] "KOURT AI"
     //     0xc1d8a8: ldr             x1, [x1, #0x1c8]
     // 0xc1d8ac: r0 = L()
-    //     0xc1d8ac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1d8ac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1d8b0: stur            x0, [fp, #-0x18]
     // 0xc1d8b4: r0 = TextStyle()
     //     0xc1d8b4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)

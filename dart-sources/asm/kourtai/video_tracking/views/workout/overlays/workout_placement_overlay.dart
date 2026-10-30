@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/overlays/workout_placement_overlay.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/overlays/workout_placement_overlay.dart
 
 // class id: 1049260, size: 0x8
 class :: {
@@ -22,7 +22,7 @@ class _WorkoutPlacementOverlayState extends State<dynamic> {
     //     0x997b14: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x997b18: cmp             SP, x16
     //     0x997b1c: b.ls            #0x997b8c
-    // 0x997b20: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0x997b20: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0x997b20: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x997b24: ldr             x0, [x0, #0x1cf0]
     //     0x997b28: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -33,7 +33,7 @@ class _WorkoutPlacementOverlayState extends State<dynamic> {
     //     0x997b3c: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x997b40: mov             x1, x0
     // 0x997b44: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x997b44: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x997b44: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x997b48: mov             x1, x0
     // 0x997b4c: ldur            x0, [fp, #-8]
     // 0x997b50: LoadField: r2 = r0->field_13

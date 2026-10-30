@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/playground/playground_camera_screen.dart
+// lib: , url: package:kourtai/video_tracking/playground/playground_camera_screen.dart
 
 // class id: 1049156, size: 0x8
 class :: {
@@ -42,7 +42,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x6bf2ac: tbnz            w1, #4, #0x6bf2c8
     // 0x6bf2b0: mov             x1, x0
     // 0x6bf2b4: r0 = _retryCameraIfGranted()
-    //     0x6bf2b4: bl              #0x78c76c  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_retryCameraIfGranted
+    //     0x6bf2b4: bl              #0x78c76c  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_retryCameraIfGranted
     // 0x6bf2b8: r0 = Null
     //     0x6bf2b8: mov             x0, NULL
     // 0x6bf2bc: LeaveFrame
@@ -113,7 +113,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x6bf364: cmp             w2, w16
     // 0x6bf368: b.ne            #0x6bf370
     // 0x6bf36c: r0 = _startStream()
-    //     0x6bf36c: bl              #0x6bf3a8  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_startStream
+    //     0x6bf36c: bl              #0x6bf3a8  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_startStream
     // 0x6bf370: r0 = Null
     //     0x6bf370: mov             x0, NULL
     // 0x6bf374: LeaveFrame
@@ -178,7 +178,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x6bf424: bl              #0x60ad4c  ; AwaitStub
     // 0x6bf428: ldur            x2, [fp, #-0x10]
     // 0x6bf42c: r1 = Function '_onCameraFrame@1421409368':.
-    //     0x6bf42c: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fff8] AnonymousClosure: (0x78c5c8), in [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onCameraFrame (0x6c0084)
+    //     0x6bf42c: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fff8] AnonymousClosure: (0x78c5c8), in [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onCameraFrame (0x6c0084)
     //     0x6bf430: ldr             x1, [x1, #0xff8]
     // 0x6bf434: r0 = AllocateClosure()
     //     0x6bf434: bl              #0xe553e0  ; AllocateClosureStub
@@ -246,7 +246,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x6c00f4: add             x1, x1, HEAP, lsl #32
     // 0x6c00f8: mov             x2, x0
     // 0x6c00fc: r0 = _onCameraFrame()
-    //     0x6c00fc: bl              #0x77b22c  ; [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_onCameraFrame
+    //     0x6c00fc: bl              #0x77b22c  ; [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_onCameraFrame
     // 0x6c0100: ldur            x0, [fp, #-0x10]
     // 0x6c0104: LoadField: r3 = r0->field_27
     //     0x6c0104: ldur            w3, [x0, #0x27]
@@ -281,20 +281,20 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x6c014c: mov             x1, x2
     // 0x6c0150: mov             x2, x5
     // 0x6c0154: r0 = cameraRotationDegrees()
-    //     0x6c0154: bl              #0x77b144  ; [package:ballai/video_tracking/playground/camera_input_image.dart] ::cameraRotationDegrees
+    //     0x6c0154: bl              #0x77b144  ; [package:kourtai/video_tracking/playground/camera_input_image.dart] ::cameraRotationDegrees
     // 0x6c0158: ldur            x2, [fp, #-0x18]
     // 0x6c015c: mov             x3, x0
     // 0x6c0160: r1 = Null
     //     0x6c0160: mov             x1, NULL
     // 0x6c0164: r0 = CameraFrameSnapshot.from()
-    //     0x6c0164: bl              #0x77ad00  ; [package:ballai/video_tracking/detection/yolo/engine/camera_frame.dart] CameraFrameSnapshot::CameraFrameSnapshot.from
+    //     0x6c0164: bl              #0x77ad00  ; [package:kourtai/video_tracking/detection/yolo/engine/camera_frame.dart] CameraFrameSnapshot::CameraFrameSnapshot.from
     // 0x6c0168: ldur            x1, [fp, #-0x20]
     // 0x6c016c: mov             x2, x0
     // 0x6c0170: r0 = submitFrame()
-    //     0x6c0170: bl              #0x6c22cc  ; [package:ballai/video_tracking/detection/yolo/engine/yolo_camera_worker.dart] YoloCameraWorker::submitFrame
+    //     0x6c0170: bl              #0x6c22cc  ; [package:kourtai/video_tracking/detection/yolo/engine/yolo_camera_worker.dart] YoloCameraWorker::submitFrame
     // 0x6c0174: ldur            x1, [fp, #-0x10]
     // 0x6c0178: r0 = _shouldRunPose()
-    //     0x6c0178: bl              #0x6c1ff8  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_shouldRunPose
+    //     0x6c0178: bl              #0x6c1ff8  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_shouldRunPose
     // 0x6c017c: tbnz            w0, #4, #0x6c0258
     // 0x6c0180: ldur            x2, [fp, #-0x10]
     // 0x6c0184: ldur            x3, [fp, #-8]
@@ -323,7 +323,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x6c01c8: mov             x2, x0
     // 0x6c01cc: ldur            x3, [fp, #-0x18]
     // 0x6c01d0: r0 = inputImageFromCameraImage()
-    //     0x6c01d0: bl              #0x6c132c  ; [package:ballai/video_tracking/playground/camera_input_image.dart] ::inputImageFromCameraImage
+    //     0x6c01d0: bl              #0x6c132c  ; [package:kourtai/video_tracking/playground/camera_input_image.dart] ::inputImageFromCameraImage
     // 0x6c01d4: stur            x0, [fp, #-8]
     // 0x6c01d8: cmp             w0, NULL
     // 0x6c01dc: b.eq            #0x6c0258
@@ -366,7 +366,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x6c024c: mov             x1, x2
     // 0x6c0250: ldur            x2, [fp, #-8]
     // 0x6c0254: r0 = _processPose()
-    //     0x6c0254: bl              #0x6c02d4  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_processPose
+    //     0x6c0254: bl              #0x6c02d4  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_processPose
     // 0x6c0258: r0 = Null
     //     0x6c0258: mov             x0, NULL
     // 0x6c025c: LeaveFrame
@@ -402,7 +402,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x6c02fc: bl              #0x60afc8  ; InitAsyncStub
     // 0x6c0300: ldur            x1, [fp, #-0x78]
     // 0x6c0304: r0 = _ensurePoseService()
-    //     0x6c0304: bl              #0x6c10e0  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_ensurePoseService
+    //     0x6c0304: bl              #0x6c10e0  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_ensurePoseService
     // 0x6c0308: mov             x1, x0
     // 0x6c030c: stur            x1, [fp, #-0x88]
     // 0x6c0310: r0 = Await()
@@ -411,7 +411,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x6c0318: ldur            x2, [fp, #-0x80]
     // 0x6c031c: stur            x0, [fp, #-0x88]
     // 0x6c0320: r0 = detect()
-    //     0x6c0320: bl              #0x6c0528  ; [package:ballai/video_tracking/playground/pose_analysis_service.dart] PoseAnalysisService::detect
+    //     0x6c0320: bl              #0x6c0528  ; [package:kourtai/video_tracking/playground/pose_analysis_service.dart] PoseAnalysisService::detect
     // 0x6c0324: mov             x1, x0
     // 0x6c0328: stur            x1, [fp, #-0x90]
     // 0x6c032c: r0 = Await()
@@ -423,7 +423,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x6c0338: add             x3, x3, HEAP, lsl #32
     // 0x6c033c: stur            x3, [fp, #-0x90]
     // 0x6c0340: r1 = Function '<anonymous closure>':.
-    //     0x6c0340: add             x1, PP, #0x30, lsl #12  ; [pp+0x30000] AnonymousClosure: (0x6c1250), in [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_processPose (0x6c02d4)
+    //     0x6c0340: add             x1, PP, #0x30, lsl #12  ; [pp+0x30000] AnonymousClosure: (0x6c1250), in [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_processPose (0x6c02d4)
     //     0x6c0344: ldr             x1, [x1]
     // 0x6c0348: r2 = Null
     //     0x6c0348: mov             x2, NULL
@@ -632,7 +632,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x6c1124: mov             x1, x0
     // 0x6c1128: stur            x0, [fp, #-0x18]
     // 0x6c112c: r0 = PoseAnalysisService()
-    //     0x6c112c: bl              #0x6c116c  ; [package:ballai/video_tracking/playground/pose_analysis_service.dart] PoseAnalysisService::PoseAnalysisService
+    //     0x6c112c: bl              #0x6c116c  ; [package:kourtai/video_tracking/playground/pose_analysis_service.dart] PoseAnalysisService::PoseAnalysisService
     // 0x6c1130: ldur            x0, [fp, #-0x18]
     // 0x6c1134: ldur            x2, [fp, #-0x10]
     // 0x6c1138: StoreField: r2->field_2b = r0
@@ -695,7 +695,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x6c12b4: StoreField: r3->field_b = r0
     //     0x6c12b4: stur            w0, [x3, #0xb]
     // 0x6c12b8: r1 = Function '<anonymous closure>':.
-    //     0x6c12b8: add             x1, PP, #0x30, lsl #12  ; [pp+0x30010] AnonymousClosure: (0x6c130c), in [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_processPose (0x6c02d4)
+    //     0x6c12b8: add             x1, PP, #0x30, lsl #12  ; [pp+0x30010] AnonymousClosure: (0x6c130c), in [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_processPose (0x6c02d4)
     //     0x6c12bc: ldr             x1, [x1, #0x10]
     // 0x6c12c0: r2 = Null
     //     0x6c12c0: mov             x2, NULL
@@ -788,7 +788,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x6c2058: ret             
     // 0x6c205c: mov             x1, x2
     // 0x6c2060: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x6c2060: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x6c2060: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x6c2064: tst             x0, #0x10
     // 0x6c2068: cset            x1, ne
     // 0x6c206c: sub             x1, x1, #1
@@ -828,7 +828,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x6c20d4: r1 = LoadInt32Instr(r0)
     //     0x6c20d4: sbfx            x1, x0, #1, #0x1f
     // 0x6c20d8: r0 = yoloCaptureIntervalForFps()
-    //     0x6c20d8: bl              #0x6c21b0  ; [package:ballai/video_tracking/detection/yolo/yolo_types.dart] ::yoloCaptureIntervalForFps
+    //     0x6c20d8: bl              #0x6c21b0  ; [package:kourtai/video_tracking/detection/yolo/yolo_types.dart] ::yoloCaptureIntervalForFps
     // 0x6c20dc: LoadField: r1 = r0->field_7
     //     0x6c20dc: ldur            x1, [x0, #7]
     // 0x6c20e0: r0 = 1000
@@ -858,7 +858,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x6c2120: ret
     //     0x6c2120: ret             
     // 0x6c2124: r0 = VideoWorkoutManagerDribble.needsPoseForDribbleSetup()
-    //     0x6c2124: bl              #0x6c213c  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.needsPoseForDribbleSetup
+    //     0x6c2124: bl              #0x6c213c  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.needsPoseForDribbleSetup
     // 0x6c2128: LeaveFrame
     //     0x6c2128: mov             SP, fp
     //     0x6c212c: ldp             fp, lr, [SP], #0x10
@@ -884,7 +884,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x6cdcfc: b.ls            #0x6cdd14
     // 0x6cdd00: ldr             x2, [fp, #0x10]
     // 0x6cdd04: r0 = _onDetections()
-    //     0x6cdd04: bl              #0x6cdd1c  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onDetections
+    //     0x6cdd04: bl              #0x6cdd1c  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onDetections
     // 0x6cdd08: LeaveFrame
     //     0x6cdd08: mov             SP, fp
     //     0x6cdd0c: ldp             fp, lr, [SP], #0x10
@@ -918,7 +918,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x6cdd50: mov             x2, x4
     // 0x6cdd54: stur            x4, [fp, #-8]
     // 0x6cdd58: r0 = _publishOverlay()
-    //     0x6cdd58: bl              #0x77a320  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_publishOverlay
+    //     0x6cdd58: bl              #0x77a320  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_publishOverlay
     // 0x6cdd5c: ldur            x0, [fp, #-0x18]
     // 0x6cdd60: LoadField: r2 = r0->field_23
     //     0x6cdd60: ldur            x2, [x0, #0x23]
@@ -985,7 +985,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x6cde14: add             x4, PP, #0x30, lsl #12  ; [pp+0x301a0] List(7) [0, 0x2, 0x1, 0x1, "analysisSize", 0x1, Null]
     //     0x6cde18: ldr             x4, [x4, #0x1a0]
     // 0x6cde1c: r0 = update()
-    //     0x6cde1c: bl              #0x77a0cc  ; [package:ballai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::update
+    //     0x6cde1c: bl              #0x77a0cc  ; [package:kourtai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::update
     // 0x6cde20: ldur            x0, [fp, #-0x10]
     // 0x6cde24: LoadField: r1 = r0->field_b
     //     0x6cde24: ldur            w1, [x0, #0xb]
@@ -1021,7 +1021,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x6cde6c: add             x4, x4, HEAP, lsl #32
     // 0x6cde70: mov             x2, x4
     // 0x6cde74: r0 = cameraRotationDegrees()
-    //     0x6cde74: bl              #0x77b144  ; [package:ballai/video_tracking/playground/camera_input_image.dart] ::cameraRotationDegrees
+    //     0x6cde74: bl              #0x77b144  ; [package:kourtai/video_tracking/playground/camera_input_image.dart] ::cameraRotationDegrees
     // 0x6cde78: mov             x5, x0
     // 0x6cde7c: ldur            x0, [fp, #-0x10]
     // 0x6cde80: ldur            x3, [fp, #-0x28]
@@ -1034,7 +1034,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x6cde94: stur            x2, [x0, #0x3b]
     // 0x6cde98: ldur            x1, [fp, #-8]
     // 0x6cde9c: r0 = objectDetectionsFromPlayground()
-    //     0x6cde9c: bl              #0x779c34  ; [package:ballai/video_tracking/playground/playground_detection_mapper.dart] ::objectDetectionsFromPlayground
+    //     0x6cde9c: bl              #0x779c34  ; [package:kourtai/video_tracking/playground/playground_detection_mapper.dart] ::objectDetectionsFromPlayground
     // 0x6cdea0: mov             x3, x0
     // 0x6cdea4: ldur            x0, [fp, #-0x10]
     // 0x6cdea8: stur            x3, [fp, #-8]
@@ -1100,7 +1100,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x6cdf44: mov             x1, x2
     // 0x6cdf48: mov             x2, x16
     // 0x6cdf4c: r0 = _onFrameProcessed()
-    //     0x6cdf4c: bl              #0x6cdfac  ; [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_onFrameProcessed
+    //     0x6cdf4c: bl              #0x6cdfac  ; [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_onFrameProcessed
     // 0x6cdf50: r0 = Null
     //     0x6cdf50: mov             x0, NULL
     // 0x6cdf54: LeaveFrame
@@ -1135,7 +1135,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x77a348: mov             x1, x3
     // 0x77a34c: mov             x2, x0
     // 0x77a350: r0 = _rememberRim()
-    //     0x77a350: bl              #0x77aa98  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_rememberRim
+    //     0x77a350: bl              #0x77aa98  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_rememberRim
     // 0x77a354: ldur            x0, [fp, #-8]
     // 0x77a358: LoadField: r2 = r0->field_13
     //     0x77a358: ldur            w2, [x0, #0x13]
@@ -1144,7 +1144,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x77a360: mov             x1, x2
     // 0x77a364: stur            x2, [fp, #-0x18]
     // 0x77a368: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x77a368: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x77a368: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x77a36c: eor             x2, x0, #0x10
     // 0x77a370: ldur            x0, [fp, #-8]
     // 0x77a374: stur            x2, [fp, #-0x28]
@@ -1160,7 +1160,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x77a38c: add             x4, x4, HEAP, lsl #32
     // 0x77a390: tbz             w4, #4, #0x77a3a4
     // 0x77a394: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x77a394: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x77a394: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x77a398: eor             x1, x0, #0x10
     // 0x77a39c: mov             x3, x1
     // 0x77a3a0: b               #0x77a3a8
@@ -1179,7 +1179,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x77a3c4: mov             x2, NULL
     // 0x77a3c8: ldur            x1, [fp, #-0x10]
     // 0x77a3cc: r0 = overlayDetections()
-    //     0x77a3cc: bl              #0x77a3f4  ; [package:ballai/video_tracking/playground/detection_overlay.dart] ::overlayDetections
+    //     0x77a3cc: bl              #0x77a3f4  ; [package:kourtai/video_tracking/playground/detection_overlay.dart] ::overlayDetections
     // 0x77a3d0: ldur            x1, [fp, #-0x20]
     // 0x77a3d4: mov             x2, x0
     // 0x77a3d8: r0 = value=()
@@ -1413,7 +1413,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x78c5e4: b.ls            #0x78c5fc
     // 0x78c5e8: ldr             x2, [fp, #0x10]
     // 0x78c5ec: r0 = _onCameraFrame()
-    //     0x78c5ec: bl              #0x6c0084  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onCameraFrame
+    //     0x78c5ec: bl              #0x6c0084  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onCameraFrame
     // 0x78c5f0: LeaveFrame
     //     0x78c5f0: mov             SP, fp
     //     0x78c5f4: ldp             fp, lr, [SP], #0x10
@@ -1441,7 +1441,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x78c78c: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x78c790: bl              #0x60afc8  ; InitAsyncStub
     // 0x78c794: r0 = ensure()
-    //     0x78c794: bl              #0x796fb4  ; [package:ballai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::ensure
+    //     0x78c794: bl              #0x796fb4  ; [package:kourtai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::ensure
     // 0x78c798: mov             x1, x0
     // 0x78c79c: stur            x1, [fp, #-0x18]
     // 0x78c7a0: r0 = Await()
@@ -1467,7 +1467,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x78c7d4: r0 = ReturnAsyncNotFuture()
     //     0x78c7d4: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x78c7d8: r0 = _retryCameraAfterPermission()
-    //     0x78c7d8: bl              #0x78c7f8  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_retryCameraAfterPermission
+    //     0x78c7d8: bl              #0x78c7f8  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_retryCameraAfterPermission
     // 0x78c7dc: mov             x1, x0
     // 0x78c7e0: stur            x1, [fp, #-0x10]
     // 0x78c7e4: r0 = Await()
@@ -1523,7 +1523,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x78c858: bl              #0x6005d4  ; [package:flutter/src/widgets/framework.dart] State::setState
     // 0x78c85c: ldur            x1, [fp, #-0x10]
     // 0x78c860: r0 = _beginCamera()
-    //     0x78c860: bl              #0x78c874  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_beginCamera
+    //     0x78c860: bl              #0x78c874  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_beginCamera
     // 0x78c864: r0 = Null
     //     0x78c864: mov             x0, NULL
     // 0x78c868: r0 = ReturnAsyncNotFuture()
@@ -1558,7 +1558,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x78c8a8: StoreField: r1->field_4b = r0
     //     0x78c8a8: stur            w0, [x1, #0x4b]
     // 0x78c8ac: r0 = _beginCameraAfterPermission()
-    //     0x78c8ac: bl              #0x78c8c8  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_beginCameraAfterPermission
+    //     0x78c8ac: bl              #0x78c8c8  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_beginCameraAfterPermission
     // 0x78c8b0: r0 = Null
     //     0x78c8b0: mov             x0, NULL
     // 0x78c8b4: LeaveFrame
@@ -1588,7 +1588,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x78c8e8: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x78c8ec: bl              #0x60afc8  ; InitAsyncStub
     // 0x78c8f0: r0 = ensure()
-    //     0x78c8f0: bl              #0x796fb4  ; [package:ballai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::ensure
+    //     0x78c8f0: bl              #0x796fb4  ; [package:kourtai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::ensure
     // 0x78c8f4: mov             x1, x0
     // 0x78c8f8: stur            x1, [fp, #-0x18]
     // 0x78c8fc: r0 = Await()
@@ -1633,7 +1633,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x78c960: cmp             w1, NULL
     // 0x78c964: b.eq            #0x78ca14
     // 0x78c968: r0 = presentDeniedDialog()
-    //     0x78c968: bl              #0x796a3c  ; [package:ballai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::presentDeniedDialog
+    //     0x78c968: bl              #0x796a3c  ; [package:kourtai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::presentDeniedDialog
     // 0x78c96c: mov             x1, x0
     // 0x78c970: stur            x1, [fp, #-0x18]
     // 0x78c974: r0 = Await()
@@ -1647,7 +1647,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x78c984: DecompressPointer r1
     //     0x78c984: add             x1, x1, HEAP, lsl #32
     // 0x78c988: r0 = VideoWorkoutManagerSession.resolveSessionEntryPermissions()
-    //     0x78c988: bl              #0x795544  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.resolveSessionEntryPermissions
+    //     0x78c988: bl              #0x795544  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.resolveSessionEntryPermissions
     // 0x78c98c: mov             x1, x0
     // 0x78c990: stur            x1, [fp, #-0x18]
     // 0x78c994: r0 = Await()
@@ -1680,7 +1680,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x78c9d8: tbnz            w0, #4, #0x78c9f4
     // 0x78c9dc: ldur            x1, [fp, #-0x10]
     // 0x78c9e0: r0 = _initNative()
-    //     0x78c9e0: bl              #0x7907e8  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_initNative
+    //     0x78c9e0: bl              #0x7907e8  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_initNative
     // 0x78c9e4: mov             x1, x0
     // 0x78c9e8: stur            x1, [fp, #-0x18]
     // 0x78c9ec: r0 = Await()
@@ -1688,10 +1688,10 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x78c9f0: b               #0x78ca04
     // 0x78c9f4: ldur            x1, [fp, #-0x10]
     // 0x78c9f8: r0 = _initCamera()
-    //     0x78c9f8: bl              #0x78d29c  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_initCamera
+    //     0x78c9f8: bl              #0x78d29c  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_initCamera
     // 0x78c9fc: ldur            x1, [fp, #-0x10]
     // 0x78ca00: r0 = _ensureWorker()
-    //     0x78ca00: bl              #0x78ca18  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_ensureWorker
+    //     0x78ca00: bl              #0x78ca18  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_ensureWorker
     // 0x78ca04: r0 = Null
     //     0x78ca04: mov             x0, NULL
     // 0x78ca08: r0 = ReturnAsyncNotFuture()
@@ -1742,7 +1742,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x78ca74: mov             x1, NULL
     // 0x78ca78: b               #0x78ca84
     // 0x78ca7c: r0 = stop()
-    //     0x78ca7c: bl              #0x78d140  ; [package:ballai/video_tracking/detection/yolo/engine/yolo_camera_worker.dart] YoloCameraWorker::stop
+    //     0x78ca7c: bl              #0x78d140  ; [package:kourtai/video_tracking/detection/yolo/engine/yolo_camera_worker.dart] YoloCameraWorker::stop
     // 0x78ca80: mov             x1, x0
     // 0x78ca84: mov             x0, x1
     // 0x78ca88: stur            x1, [fp, #-0x88]
@@ -1762,7 +1762,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x78caa8: stur            w0, [x3, #0x13]
     // 0x78caac: ldur            x2, [fp, #-0x80]
     // 0x78cab0: r1 = Function '_onDetections@1421409368':.
-    //     0x78cab0: add             x1, PP, #0x41, lsl #12  ; [pp+0x41768] AnonymousClosure: (0x6cdce0), in [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onDetections (0x6cdd1c)
+    //     0x78cab0: add             x1, PP, #0x41, lsl #12  ; [pp+0x41768] AnonymousClosure: (0x6cdce0), in [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onDetections (0x6cdd1c)
     //     0x78cab4: ldr             x1, [x1, #0x768]
     // 0x78cab8: r0 = AllocateClosure()
     //     0x78cab8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1776,7 +1776,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x78cacc: add             x2, x2, HEAP, lsl #32
     // 0x78cad0: cmp             w2, NULL
     // 0x78cad4: b.eq            #0x78cdbc
-    // 0x78cad8: r0 = InitLateStaticField(0x1134) // [package:ballai/video_tracking/detection/yolo/yolo_model_spec.dart] ::kActiveYoloModelSpec
+    // 0x78cad8: r0 = InitLateStaticField(0x1134) // [package:kourtai/video_tracking/detection/yolo/yolo_model_spec.dart] ::kActiveYoloModelSpec
     //     0x78cad8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x78cadc: ldr             x0, [x0, #0x2268]
     //     0x78cae0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1789,7 +1789,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x78caf8: add             x1, PP, #0x17, lsl #12  ; [pp+0x17790] "assets/models/yolo26n_full_int8_416.tflite"
     //     0x78cafc: ldr             x1, [x1, #0x790]
     // 0x78cb00: r0 = forAsset()
-    //     0x78cb00: bl              #0x78d09c  ; [package:ballai/video_tracking/detection/yolo/yolo_model_spec.dart] YoloModelSpec::forAsset
+    //     0x78cb00: bl              #0x78d09c  ; [package:kourtai/video_tracking/detection/yolo/yolo_model_spec.dart] YoloModelSpec::forAsset
     // 0x78cb04: cmp             w0, NULL
     // 0x78cb08: b.ne            #0x78cb14
     // 0x78cb0c: r3 = Instance_YoloModelSpec
@@ -1896,7 +1896,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x78cc2c: add             x2, PP, #0x17, lsl #12  ; [pp+0x17790] "assets/models/yolo26n_full_int8_416.tflite"
     //     0x78cc30: ldr             x2, [x2, #0x790]
     // 0x78cc34: r0 = start()
-    //     0x78cc34: bl              #0x78cdc0  ; [package:ballai/video_tracking/detection/yolo/engine/yolo_camera_worker.dart] YoloCameraWorker::start
+    //     0x78cc34: bl              #0x78cdc0  ; [package:kourtai/video_tracking/detection/yolo/engine/yolo_camera_worker.dart] YoloCameraWorker::start
     // 0x78cc38: mov             x1, x0
     // 0x78cc3c: stur            x1, [fp, #-0x98]
     // 0x78cc40: r0 = Await()
@@ -1922,7 +1922,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x78cc78: add             x4, PP, #0x41, lsl #12  ; [pp+0x41780] List(7) [0, 0x2, 0x1, 0x1, "yoloLoaded", 0x1, Null]
     //     0x78cc7c: ldr             x4, [x4, #0x780]
     // 0x78cc80: r0 = update()
-    //     0x78cc80: bl              #0x77a0cc  ; [package:ballai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::update
+    //     0x78cc80: bl              #0x77a0cc  ; [package:kourtai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::update
     // 0x78cc84: ldur            x0, [fp, #-0x80]
     // 0x78cc88: LoadField: r1 = r0->field_1b
     //     0x78cc88: ldur            w1, [x0, #0x1b]
@@ -1963,7 +1963,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x78cce8: tbz             w1, #4, #0x78cdac
     // 0x78ccec: mov             x1, x0
     // 0x78ccf0: r0 = _startStream()
-    //     0x78ccf0: bl              #0x6bf3a8  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_startStream
+    //     0x78ccf0: bl              #0x6bf3a8  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_startStream
     // 0x78ccf4: mov             x1, x0
     // 0x78ccf8: stur            x1, [fp, #-0x90]
     // 0x78ccfc: r0 = Await()
@@ -2013,7 +2013,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x78cd74: bl              #0x5c96fc  ; [package:flutter/src/foundation/print.dart] ::debugPrintThrottled
     // 0x78cd78: ldur            x1, [fp, #-0x88]
     // 0x78cd7c: r0 = stop()
-    //     0x78cd7c: bl              #0x78d140  ; [package:ballai/video_tracking/detection/yolo/engine/yolo_camera_worker.dart] YoloCameraWorker::stop
+    //     0x78cd7c: bl              #0x78d140  ; [package:kourtai/video_tracking/detection/yolo/engine/yolo_camera_worker.dart] YoloCameraWorker::stop
     // 0x78cd80: mov             x1, x0
     // 0x78cd84: stur            x1, [fp, #-0x88]
     // 0x78cd88: r0 = Await()
@@ -2030,7 +2030,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x78cda0: add             x4, PP, #0x41, lsl #12  ; [pp+0x41780] List(7) [0, 0x2, 0x1, 0x1, "yoloLoaded", 0x1, Null]
     //     0x78cda4: ldr             x4, [x4, #0x780]
     // 0x78cda8: r0 = update()
-    //     0x78cda8: bl              #0x77a0cc  ; [package:ballai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::update
+    //     0x78cda8: bl              #0x77a0cc  ; [package:kourtai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::update
     // 0x78cdac: r0 = Null
     //     0x78cdac: mov             x0, NULL
     // 0x78cdb0: r0 = ReturnAsyncNotFuture()
@@ -2068,7 +2068,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x78d2d4: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x78d2d8: bl              #0x60afc8  ; InitAsyncStub
     // 0x78d2dc: ldur            x2, [fp, #-0xc0]
-    // 0x78d2e0: r0 = InitLateStaticField(0xc58) // [package:ballai/video_tracking/utility/defaults/defaults_video_workout_capture_quality.dart] DefaultsVideoWorkoutCaptureQuality::_cached
+    // 0x78d2e0: r0 = InitLateStaticField(0xc58) // [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_capture_quality.dart] DefaultsVideoWorkoutCaptureQuality::_cached
     //     0x78d2e0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x78d2e4: ldr             x0, [x0, #0x18b0]
     //     0x78d2e8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2144,13 +2144,13 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x78d3bc: ldr             x0, [PP, #0x15a0]  ; [pp+0x15a0] Closure: (String?, {int? wrapWidth}) => void from Function 'debugPrintThrottled': static. (0x1068ad650)
     // 0x78d3c0: ldur            x2, [fp, #-0xc0]
     // 0x78d3c4: r1 = Function '<anonymous closure>':.
-    //     0x78d3c4: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2ff98] AnonymousClosure: (0x790720), in [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_initCamera (0x78d29c)
+    //     0x78d3c4: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2ff98] AnonymousClosure: (0x790720), in [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_initCamera (0x78d29c)
     //     0x78d3c8: ldr             x1, [x1, #0xf98]
     // 0x78d3cc: r0 = AllocateClosure()
     //     0x78d3cc: bl              #0xe553e0  ; AllocateClosureStub
     // 0x78d3d0: ldur            x2, [fp, #-0xc0]
     // 0x78d3d4: r1 = Function '<anonymous closure>':.
-    //     0x78d3d4: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2ffa0] AnonymousClosure: (0x7906c0), in [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_initCamera (0x78d29c)
+    //     0x78d3d4: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2ffa0] AnonymousClosure: (0x7906c0), in [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_initCamera (0x78d29c)
     //     0x78d3d8: ldr             x1, [x1, #0xfa0]
     // 0x78d3dc: stur            x0, [fp, #-0xe0]
     // 0x78d3e0: r0 = AllocateClosure()
@@ -2334,7 +2334,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x78d5d8: mov             x1, x3
     // 0x78d5dc: stur            x9, [fp, #-0xe8]
     // 0x78d5e0: r0 = logicalOverlaySize()
-    //     0x78d5e0: bl              #0x78da74  ; [package:ballai/video_tracking/camera/camera_inference_pipeline.dart] ::logicalOverlaySize
+    //     0x78d5e0: bl              #0x78da74  ; [package:kourtai/video_tracking/camera/camera_inference_pipeline.dart] ::logicalOverlaySize
     // 0x78d5e4: r17 = -264
     //     0x78d5e4: mov             x17, #-0x108
     // 0x78d5e8: str             x0, [fp, x17]
@@ -2572,7 +2572,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x78d8b0: add             x4, PP, #0x2f, lsl #12  ; [pp+0x2ffe0] List(11) [0, 0x4, 0x3, 0x1, "analysisSize", 0x2, "controller", 0x1, "isFrontCamera", 0x3, Null]
     //     0x78d8b4: ldr             x4, [x4, #0xfe0]
     // 0x78d8b8: r0 = update()
-    //     0x78d8b8: bl              #0x77a0cc  ; [package:ballai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::update
+    //     0x78d8b8: bl              #0x77a0cc  ; [package:kourtai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::update
     // 0x78d8bc: ldur            x0, [fp, #-0xb8]
     // 0x78d8c0: LoadField: r1 = r0->field_27
     //     0x78d8c0: ldur            w1, [x0, #0x27]
@@ -2587,7 +2587,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x78d8d8: tbnz            w2, #4, #0x78d8f0
     // 0x78d8dc: mov             x1, x0
     // 0x78d8e0: r0 = _startStream()
-    //     0x78d8e0: bl              #0x6bf3a8  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_startStream
+    //     0x78d8e0: bl              #0x6bf3a8  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_startStream
     // 0x78d8e4: mov             x1, x0
     // 0x78d8e8: stur            x1, [fp, #-0xc8]
     // 0x78d8ec: r0 = Await()
@@ -2858,7 +2858,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x79080c: InitAsync() -> Future<void?>
     //     0x79080c: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x790810: bl              #0x60afc8  ; InitAsyncStub
-    // 0x790814: r0 = InitLateStaticField(0xc58) // [package:ballai/video_tracking/utility/defaults/defaults_video_workout_capture_quality.dart] DefaultsVideoWorkoutCaptureQuality::_cached
+    // 0x790814: r0 = InitLateStaticField(0xc58) // [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_capture_quality.dart] DefaultsVideoWorkoutCaptureQuality::_cached
     //     0x790814: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x790818: ldr             x0, [x0, #0x18b0]
     //     0x79081c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2898,7 +2898,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x790888: add             x1, x1, HEAP, lsl #32
     // 0x79088c: cmp             w1, NULL
     // 0x790890: b.eq            #0x790c9c
-    // 0x790894: r0 = InitLateStaticField(0x1134) // [package:ballai/video_tracking/detection/yolo/yolo_model_spec.dart] ::kActiveYoloModelSpec
+    // 0x790894: r0 = InitLateStaticField(0x1134) // [package:kourtai/video_tracking/detection/yolo/yolo_model_spec.dart] ::kActiveYoloModelSpec
     //     0x790894: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x790898: ldr             x0, [x0, #0x2268]
     //     0x79089c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2920,7 +2920,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x7908cc: mov             x2, x0
     // 0x7908d0: stur            x4, [fp, #-0x20]
     // 0x7908d4: r1 = Function '_onNativePreviewSize@1421409368':.
-    //     0x7908d4: add             x1, PP, #0x41, lsl #12  ; [pp+0x41738] AnonymousClosure: (0x79550c), in [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onNativePreviewSize (0x790ef4)
+    //     0x7908d4: add             x1, PP, #0x41, lsl #12  ; [pp+0x41738] AnonymousClosure: (0x79550c), in [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onNativePreviewSize (0x790ef4)
     //     0x7908d8: ldr             x1, [x1, #0x738]
     // 0x7908dc: r0 = AllocateClosure()
     //     0x7908dc: bl              #0xe553e0  ; AllocateClosureStub
@@ -2930,10 +2930,10 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x7908e8: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0x7908ec: ldur            x1, [fp, #-0x28]
     // 0x7908f0: r0 = frames()
-    //     0x7908f0: bl              #0x795040  ; [package:ballai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::frames
+    //     0x7908f0: bl              #0x795040  ; [package:kourtai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::frames
     // 0x7908f4: ldur            x2, [fp, #-0x10]
     // 0x7908f8: r1 = Function '_onNativeFrame@1421409368':.
-    //     0x7908f8: add             x1, PP, #0x41, lsl #12  ; [pp+0x41800] AnonymousClosure: (0x795078), in [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onNativeFrame (0x7950b4)
+    //     0x7908f8: add             x1, PP, #0x41, lsl #12  ; [pp+0x41800] AnonymousClosure: (0x795078), in [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onNativeFrame (0x7950b4)
     //     0x7908fc: ldr             x1, [x1, #0x800]
     // 0x790900: stur            x0, [fp, #-0x20]
     // 0x790904: r0 = AllocateClosure()
@@ -2960,7 +2960,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x790940: mov             x1, x0
     // 0x790944: stur            x0, [fp, #-0x20]
     // 0x790948: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x790948: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x790948: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x79094c: tst             x0, #0x10
     // 0x790950: cset            x2, ne
     // 0x790954: sub             x2, x2, #1
@@ -3026,7 +3026,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x790a0c: add             x2, PP, #0x17, lsl #12  ; [pp+0x17790] "assets/models/yolo26n_full_int8_416.tflite"
     //     0x790a10: ldr             x2, [x2, #0x790]
     // 0x790a14: r0 = start()
-    //     0x790a14: bl              #0x7919e8  ; [package:ballai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::start
+    //     0x790a14: bl              #0x7919e8  ; [package:kourtai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::start
     // 0x790a18: mov             x1, x0
     // 0x790a1c: stur            x1, [fp, #-0x30]
     // 0x790a20: r0 = Await()
@@ -3053,7 +3053,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x790a5c: bl              #0x5c96fc  ; [package:flutter/src/foundation/print.dart] ::debugPrintThrottled
     // 0x790a60: ldur            x1, [fp, #-0x10]
     // 0x790a64: r0 = _fallbackToFlutterCamera()
-    //     0x790a64: bl              #0x791704  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_fallbackToFlutterCamera
+    //     0x790a64: bl              #0x791704  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_fallbackToFlutterCamera
     // 0x790a68: mov             x1, x0
     // 0x790a6c: stur            x1, [fp, #-0x30]
     // 0x790a70: r0 = Await()
@@ -3070,7 +3070,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x790a88: stur            x1, [x0, #0x63]
     // 0x790a8c: mov             x1, x2
     // 0x790a90: r0 = refreshPreviewSize()
-    //     0x790a90: bl              #0x791048  ; [package:ballai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::refreshPreviewSize
+    //     0x790a90: bl              #0x791048  ; [package:kourtai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::refreshPreviewSize
     // 0x790a94: mov             x1, x0
     // 0x790a98: stur            x1, [fp, #-0x30]
     // 0x790a9c: r0 = Await()
@@ -3111,7 +3111,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x790b04: bl              #0x5c96fc  ; [package:flutter/src/foundation/print.dart] ::debugPrintThrottled
     // 0x790b08: ldur            x1, [fp, #-0x10]
     // 0x790b0c: r0 = _fallbackToFlutterCamera()
-    //     0x790b0c: bl              #0x791704  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_fallbackToFlutterCamera
+    //     0x790b0c: bl              #0x791704  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_fallbackToFlutterCamera
     // 0x790b10: mov             x1, x0
     // 0x790b14: stur            x1, [fp, #-0x30]
     // 0x790b18: r0 = Await()
@@ -3144,7 +3144,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x790b68: b               #0x790b94
     // 0x790b6c: ldur            x3, [fp, #-0x10]
     // 0x790b70: r0 = _displayPreviewSize()
-    //     0x790b70: bl              #0x790fd4  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_displayPreviewSize
+    //     0x790b70: bl              #0x790fd4  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_displayPreviewSize
     // 0x790b74: ldur            x2, [fp, #-0x10]
     // 0x790b78: StoreField: r2->field_5f = r0
     //     0x790b78: stur            w0, [x2, #0x5f]
@@ -3157,7 +3157,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x790b94: ldur            x0, [fp, #-0x20]
     // 0x790b98: mov             x1, x2
     // 0x790b9c: r0 = _onNativePreviewSize()
-    //     0x790b9c: bl              #0x790ef4  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onNativePreviewSize
+    //     0x790b9c: bl              #0x790ef4  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onNativePreviewSize
     // 0x790ba0: ldur            x0, [fp, #-0x10]
     // 0x790ba4: LoadField: r1 = r0->field_37
     //     0x790ba4: ldur            w1, [x0, #0x37]
@@ -3176,25 +3176,25 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x790bc8: StoreField: r1->field_57 = r2
     //     0x790bc8: stur            w2, [x1, #0x57]
     // 0x790bcc: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x790bcc: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x790bcc: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x790bd0: tbnz            w0, #4, #0x790c10
     // 0x790bd4: ldur            x1, [fp, #-0x28]
     // 0x790bd8: r0 = setPoseEnabled()
-    //     0x790bd8: bl              #0x790e7c  ; [package:ballai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::setPoseEnabled
+    //     0x790bd8: bl              #0x790e7c  ; [package:kourtai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::setPoseEnabled
     // 0x790bdc: mov             x1, x0
     // 0x790be0: stur            x1, [fp, #-0x18]
     // 0x790be4: r0 = Await()
     //     0x790be4: bl              #0x60ad4c  ; AwaitStub
     // 0x790be8: ldur            x1, [fp, #-0x28]
     // 0x790bec: r0 = setPoseFps()
-    //     0x790bec: bl              #0x790e00  ; [package:ballai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::setPoseFps
+    //     0x790bec: bl              #0x790e00  ; [package:kourtai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::setPoseFps
     // 0x790bf0: mov             x1, x0
     // 0x790bf4: stur            x1, [fp, #-0x18]
     // 0x790bf8: r0 = Await()
     //     0x790bf8: bl              #0x60ad4c  ; AwaitStub
     // 0x790bfc: ldur            x1, [fp, #-0x28]
     // 0x790c00: r0 = setTargetFps()
-    //     0x790c00: bl              #0x790cf8  ; [package:ballai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::setTargetFps
+    //     0x790c00: bl              #0x790cf8  ; [package:kourtai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::setTargetFps
     // 0x790c04: mov             x1, x0
     // 0x790c08: stur            x1, [fp, #-0x18]
     // 0x790c0c: r0 = Await()
@@ -3229,7 +3229,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x790c50: add             x4, PP, #0x41, lsl #12  ; [pp+0x41818] List(11) [0, 0x4, 0x3, 0x1, "analysisSize", 0x2, "isFrontCamera", 0x3, "yoloLoaded", 0x1, Null]
     //     0x790c54: ldr             x4, [x4, #0x818]
     // 0x790c58: r0 = update()
-    //     0x790c58: bl              #0x77a0cc  ; [package:ballai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::update
+    //     0x790c58: bl              #0x77a0cc  ; [package:kourtai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::update
     // 0x790c5c: ldur            x0, [fp, #-0x10]
     // 0x790c60: LoadField: r1 = r0->field_f
     //     0x790c60: ldur            w1, [x0, #0xf]
@@ -3316,7 +3316,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x790f20: add             x2, x2, HEAP, lsl #32
     // 0x790f24: mov             x1, x2
     // 0x790f28: r0 = _displayPreviewSize()
-    //     0x790f28: bl              #0x790fd4  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_displayPreviewSize
+    //     0x790f28: bl              #0x790fd4  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_displayPreviewSize
     // 0x790f2c: LoadField: d0 = r0->field_7
     //     0x790f2c: ldur            d0, [x0, #7]
     // 0x790f30: d1 = 0.000000
@@ -3458,7 +3458,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x791748: mov             x2, x0
     // 0x79174c: stur            x4, [fp, #-0x18]
     // 0x791750: r1 = Function '_onNativePreviewSize@1421409368':.
-    //     0x791750: add             x1, PP, #0x41, lsl #12  ; [pp+0x41738] AnonymousClosure: (0x79550c), in [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onNativePreviewSize (0x790ef4)
+    //     0x791750: add             x1, PP, #0x41, lsl #12  ; [pp+0x41738] AnonymousClosure: (0x79550c), in [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onNativePreviewSize (0x790ef4)
     //     0x791754: ldr             x1, [x1, #0x738]
     // 0x791758: r0 = AllocateClosure()
     //     0x791758: bl              #0xe553e0  ; AllocateClosureStub
@@ -3495,7 +3495,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x7917b4: stur            NULL, [x0, #0x5b]
     // 0x7917b8: ldur            x1, [fp, #-0x20]
     // 0x7917bc: r0 = stop()
-    //     0x7917bc: bl              #0x791870  ; [package:ballai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::stop
+    //     0x7917bc: bl              #0x791870  ; [package:kourtai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::stop
     // 0x7917c0: mov             x1, x0
     // 0x7917c4: stur            x1, [fp, #-0x18]
     // 0x7917c8: r0 = Await()
@@ -3525,7 +3525,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x7917fc: add             x4, PP, #0x41, lsl #12  ; [pp+0x41780] List(7) [0, 0x2, 0x1, 0x1, "yoloLoaded", 0x1, Null]
     //     0x791800: ldr             x4, [x4, #0x780]
     // 0x791804: r0 = update()
-    //     0x791804: bl              #0x77a0cc  ; [package:ballai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::update
+    //     0x791804: bl              #0x77a0cc  ; [package:kourtai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::update
     // 0x791808: ldur            x0, [fp, #-0x10]
     // 0x79180c: LoadField: r1 = r0->field_f
     //     0x79180c: ldur            w1, [x0, #0xf]
@@ -3546,14 +3546,14 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x791834: bl              #0x6005d4  ; [package:flutter/src/widgets/framework.dart] State::setState
     // 0x791838: ldur            x1, [fp, #-0x10]
     // 0x79183c: r0 = _initCamera()
-    //     0x79183c: bl              #0x78d29c  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_initCamera
+    //     0x79183c: bl              #0x78d29c  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_initCamera
     // 0x791840: mov             x1, x0
     // 0x791844: stur            x1, [fp, #-0x18]
     // 0x791848: r0 = Await()
     //     0x791848: bl              #0x60ad4c  ; AwaitStub
     // 0x79184c: ldur            x1, [fp, #-0x10]
     // 0x791850: r0 = _ensureWorker()
-    //     0x791850: bl              #0x78ca18  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_ensureWorker
+    //     0x791850: bl              #0x78ca18  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_ensureWorker
     // 0x791854: mov             x1, x0
     // 0x791858: stur            x1, [fp, #-0x10]
     // 0x79185c: r0 = Await()
@@ -3582,7 +3582,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x795094: b.ls            #0x7950ac
     // 0x795098: ldr             x2, [fp, #0x10]
     // 0x79509c: r0 = _onNativeFrame()
-    //     0x79509c: bl              #0x7950b4  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onNativeFrame
+    //     0x79509c: bl              #0x7950b4  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onNativeFrame
     // 0x7950a0: LeaveFrame
     //     0x7950a0: mov             SP, fp
     //     0x7950a4: ldp             fp, lr, [SP], #0x10
@@ -3616,7 +3616,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x7950e8: mov             x2, x4
     // 0x7950ec: stur            x4, [fp, #-8]
     // 0x7950f0: r0 = _publishOverlay()
-    //     0x7950f0: bl              #0x77a320  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_publishOverlay
+    //     0x7950f0: bl              #0x77a320  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_publishOverlay
     // 0x7950f4: ldur            x0, [fp, #-0x18]
     // 0x7950f8: LoadField: r2 = r0->field_f
     //     0x7950f8: ldur            w2, [x0, #0xf]
@@ -3639,7 +3639,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x795124: add             x4, PP, #0x30, lsl #12  ; [pp+0x301a0] List(7) [0, 0x2, 0x1, 0x1, "analysisSize", 0x1, Null]
     //     0x795128: ldr             x4, [x4, #0x1a0]
     // 0x79512c: r0 = update()
-    //     0x79512c: bl              #0x77a0cc  ; [package:ballai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::update
+    //     0x79512c: bl              #0x77a0cc  ; [package:kourtai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::update
     // 0x795130: ldur            x0, [fp, #-0x18]
     // 0x795134: d0 = 0.000000
     //     0x795134: eor             v0.16b, v0.16b, v0.16b
@@ -3653,7 +3653,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x795148: b.gt            #0x795150
     // 0x79514c: ldur            x1, [fp, #-0x20]
     // 0x795150: r0 = _displayPreviewSize()
-    //     0x795150: bl              #0x790fd4  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_displayPreviewSize
+    //     0x795150: bl              #0x790fd4  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_displayPreviewSize
     // 0x795154: LoadField: d0 = r0->field_7
     //     0x795154: ldur            d0, [x0, #7]
     // 0x795158: d1 = 0.000000
@@ -3711,7 +3711,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x7951e8: DecompressPointer r1
     //     0x7951e8: add             x1, x1, HEAP, lsl #32
     // 0x7951ec: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x7951ec: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x7951ec: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x7951f0: tbnz            w0, #4, #0x795224
     // 0x7951f4: ldur            x0, [fp, #-0x10]
     // 0x7951f8: r2 = true
@@ -3725,13 +3725,13 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x795208: mov             x1, x3
     // 0x79520c: stur            x3, [fp, #-0x28]
     // 0x795210: r0 = setPoseEnabled()
-    //     0x795210: bl              #0x790e7c  ; [package:ballai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::setPoseEnabled
+    //     0x795210: bl              #0x790e7c  ; [package:kourtai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::setPoseEnabled
     // 0x795214: ldur            x1, [fp, #-0x28]
     // 0x795218: r0 = setPoseFps()
-    //     0x795218: bl              #0x790e00  ; [package:ballai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::setPoseFps
+    //     0x795218: bl              #0x790e00  ; [package:kourtai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::setPoseFps
     // 0x79521c: ldur            x1, [fp, #-0x28]
     // 0x795220: r0 = setTargetFps()
-    //     0x795220: bl              #0x790cf8  ; [package:ballai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::setTargetFps
+    //     0x795220: bl              #0x790cf8  ; [package:kourtai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::setTargetFps
     // 0x795224: ldur            x0, [fp, #-0x18]
     // 0x795228: LoadField: r1 = r0->field_1f
     //     0x795228: ldur            w1, [x0, #0x1f]
@@ -3744,7 +3744,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x795238: add             x3, x3, HEAP, lsl #32
     // 0x79523c: stur            x3, [fp, #-0x28]
     // 0x795240: r1 = Function '<anonymous closure>':.
-    //     0x795240: add             x1, PP, #0x41, lsl #12  ; [pp+0x41830] AnonymousClosure: (0x795450), in [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onNativeFrame (0x7950b4)
+    //     0x795240: add             x1, PP, #0x41, lsl #12  ; [pp+0x41830] AnonymousClosure: (0x795450), in [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onNativeFrame (0x7950b4)
     //     0x795244: ldr             x1, [x1, #0x830]
     // 0x795248: r2 = Null
     //     0x795248: mov             x2, NULL
@@ -3846,7 +3846,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x795354: stur            x2, [x0, #0x3b]
     // 0x795358: ldur            x1, [fp, #-8]
     // 0x79535c: r0 = objectDetectionsFromPlayground()
-    //     0x79535c: bl              #0x779c34  ; [package:ballai/video_tracking/playground/playground_detection_mapper.dart] ::objectDetectionsFromPlayground
+    //     0x79535c: bl              #0x779c34  ; [package:kourtai/video_tracking/playground/playground_detection_mapper.dart] ::objectDetectionsFromPlayground
     // 0x795360: mov             x3, x0
     // 0x795364: ldur            x0, [fp, #-0x10]
     // 0x795368: stur            x3, [fp, #-8]
@@ -3924,7 +3924,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x795424: mov             x1, x2
     // 0x795428: mov             x2, x16
     // 0x79542c: r0 = _onFrameProcessed()
-    //     0x79542c: bl              #0x6cdfac  ; [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_onFrameProcessed
+    //     0x79542c: bl              #0x6cdfac  ; [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_onFrameProcessed
     // 0x795430: r0 = Null
     //     0x795430: mov             x0, NULL
     // 0x795434: LeaveFrame
@@ -3983,7 +3983,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x7954b4: StoreField: r3->field_b = r0
     //     0x7954b4: stur            w0, [x3, #0xb]
     // 0x7954b8: r1 = Function '<anonymous closure>':.
-    //     0x7954b8: add             x1, PP, #0x41, lsl #12  ; [pp+0x41838] AnonymousClosure: (0x6c130c), in [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_processPose (0x6c02d4)
+    //     0x7954b8: add             x1, PP, #0x41, lsl #12  ; [pp+0x41838] AnonymousClosure: (0x6c130c), in [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_processPose (0x6c02d4)
     //     0x7954bc: ldr             x1, [x1, #0x838]
     // 0x7954c0: r2 = Null
     //     0x7954c0: mov             x2, NULL
@@ -4030,7 +4030,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x795524: cmp             SP, x16
     //     0x795528: b.ls            #0x79553c
     // 0x79552c: r0 = _onNativePreviewSize()
-    //     0x79552c: bl              #0x790ef4  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onNativePreviewSize
+    //     0x79552c: bl              #0x790ef4  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onNativePreviewSize
     // 0x795530: LeaveFrame
     //     0x795530: mov             SP, fp
     //     0x795534: ldp             fp, lr, [SP], #0x10
@@ -4152,7 +4152,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x98ff88: ldur            x2, [fp, #-0x18]
     // 0x98ff8c: stur            x0, [fp, #-8]
     // 0x98ff90: r1 = Function '<anonymous closure>':.
-    //     0x98ff90: add             x1, PP, #0x41, lsl #12  ; [pp+0x41c00] AnonymousClosure: (0x990104), in [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::initState (0x98fe64)
+    //     0x98ff90: add             x1, PP, #0x41, lsl #12  ; [pp+0x41c00] AnonymousClosure: (0x990104), in [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::initState (0x98fe64)
     //     0x98ff94: ldr             x1, [x1, #0xc00]
     // 0x98ff98: r0 = AllocateClosure()
     //     0x98ff98: bl              #0xe553e0  ; AllocateClosureStub
@@ -4218,7 +4218,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x990044: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0x990048: ldur            x2, [fp, #-0x18]
     // 0x99004c: r1 = Function '<anonymous closure>':.
-    //     0x99004c: add             x1, PP, #0x41, lsl #12  ; [pp+0x41c18] AnonymousClosure: (0x990090), in [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::initState (0x98fe64)
+    //     0x99004c: add             x1, PP, #0x41, lsl #12  ; [pp+0x41c18] AnonymousClosure: (0x990090), in [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::initState (0x98fe64)
     //     0x990050: ldr             x1, [x1, #0xc18]
     // 0x990054: r0 = AllocateClosure()
     //     0x990054: bl              #0xe553e0  ; AllocateClosureStub
@@ -4285,7 +4285,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x9900e0: ret             
     // 0x9900e4: mov             x1, x0
     // 0x9900e8: r0 = _beginCamera()
-    //     0x9900e8: bl              #0x78c874  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_beginCamera
+    //     0x9900e8: bl              #0x78c874  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_beginCamera
     // 0x9900ec: r0 = Null
     //     0x9900ec: mov             x0, NULL
     // 0x9900f0: LeaveFrame
@@ -4317,7 +4317,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x990128: add             x0, x0, HEAP, lsl #32
     // 0x99012c: mov             x1, x0
     // 0x990130: r0 = _tryStartCamera()
-    //     0x990130: bl              #0x99014c  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_tryStartCamera
+    //     0x990130: bl              #0x99014c  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_tryStartCamera
     // 0x990134: r0 = Null
     //     0x990134: mov             x0, NULL
     // 0x990138: LeaveFrame
@@ -4412,7 +4412,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0x990214: ret
     //     0x990214: ret             
     // 0x990218: r0 = _beginCamera()
-    //     0x990218: bl              #0x78c874  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_beginCamera
+    //     0x990218: bl              #0x78c874  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_beginCamera
     // 0x99021c: r0 = Null
     //     0x99021c: mov             x0, NULL
     // 0x990220: LeaveFrame
@@ -4434,7 +4434,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0x9c6080: cmp             SP, x16
     //     0x9c6084: b.ls            #0x9c609c
     // 0x9c6088: r0 = _tryStartCamera()
-    //     0x9c6088: bl              #0x99014c  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_tryStartCamera
+    //     0x9c6088: bl              #0x99014c  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_tryStartCamera
     // 0x9c608c: r0 = Null
     //     0x9c608c: mov             x0, NULL
     // 0x9c6090: LeaveFrame
@@ -4469,7 +4469,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0xab1b80: add             x1, PP, #0x29, lsl #12  ; [pp+0x29ba0] "Enable camera access"
     //     0xab1b84: ldr             x1, [x1, #0xba0]
     // 0xab1b88: r0 = L()
-    //     0xab1b88: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xab1b88: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xab1b8c: stur            x0, [fp, #-8]
     // 0xab1b90: r0 = Text()
     //     0xab1b90: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -4487,11 +4487,11 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0xab1bb0: ldr             x0, [PP, #0x47a8]  ; [pp+0x47a8] Obj!TextAlign@d3c101
     // 0xab1bb4: StoreField: r2->field_1b = r0
     //     0xab1bb4: stur            w0, [x2, #0x1b]
-    // 0xab1bb8: r1 = "Ball AI needs camera access to track your workout. Please enable camera access in Settings."
-    //     0xab1bb8: add             x1, PP, #0x29, lsl #12  ; [pp+0x29b98] "Ball AI needs camera access to track your workout. Please enable camera access in Settings."
+    // 0xab1bb8: r1 = "Kourt AI needs camera access to track your workout. Please enable camera access in Settings."
+    //     0xab1bb8: add             x1, PP, #0x29, lsl #12  ; [pp+0x29b98] "Kourt AI needs camera access to track your workout. Please enable camera access in Settings."
     //     0xab1bbc: ldr             x1, [x1, #0xb98]
     // 0xab1bc0: r0 = L()
-    //     0xab1bc0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xab1bc0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xab1bc4: stur            x0, [fp, #-8]
     // 0xab1bc8: r0 = Text()
     //     0xab1bc8: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -4513,7 +4513,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0xab1bf0: add             x1, PP, #0x29, lsl #12  ; [pp+0x29b90] "Open settings"
     //     0xab1bf4: ldr             x1, [x1, #0xb90]
     // 0xab1bf8: r0 = L()
-    //     0xab1bf8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xab1bf8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xab1bfc: stur            x0, [fp, #-8]
     // 0xab1c00: r0 = Text()
     //     0xab1c00: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -4523,7 +4523,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0xab1c10: StoreField: r3->field_b = r0
     //     0xab1c10: stur            w0, [x3, #0xb]
     // 0xab1c14: r1 = Function '<anonymous closure>':.
-    //     0xab1c14: add             x1, PP, #0x41, lsl #12  ; [pp+0x416c8] AnonymousClosure: (0xab3154), in [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::build (0xab1b54)
+    //     0xab1c14: add             x1, PP, #0x41, lsl #12  ; [pp+0x416c8] AnonymousClosure: (0xab3154), in [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::build (0xab1b54)
     //     0xab1c18: ldr             x1, [x1, #0x6c8]
     // 0xab1c1c: r2 = Null
     //     0xab1c1c: mov             x2, NULL
@@ -4552,7 +4552,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0xab1c54: add             x1, PP, #0x20, lsl #12  ; [pp+0x20620] "Not now"
     //     0xab1c58: ldr             x1, [x1, #0x620]
     // 0xab1c5c: r0 = L()
-    //     0xab1c5c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xab1c5c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xab1c60: stur            x0, [fp, #-8]
     // 0xab1c64: r0 = Text()
     //     0xab1c64: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -4725,7 +4725,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0xab1e0c: tbnz            w0, #4, #0xab1e24
     // 0xab1e10: ldur            x1, [fp, #-0x38]
     // 0xab1e14: r0 = _buildNative()
-    //     0xab1e14: bl              #0xab2e40  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_buildNative
+    //     0xab1e14: bl              #0xab2e40  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_buildNative
     // 0xab1e18: LeaveFrame
     //     0xab1e18: mov             SP, fp
     //     0xab1e1c: ldp             fp, lr, [SP], #0x10
@@ -4751,7 +4751,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0xab1e50: mov             x1, x0
     // 0xab1e54: mov             x2, x3
     // 0xab1e58: r0 = _previewSize()
-    //     0xab1e58: bl              #0xab2cd8  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_previewSize
+    //     0xab1e58: bl              #0xab2cd8  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_previewSize
     // 0xab1e5c: ldur            x1, [fp, #-0x38]
     // 0xab1e60: stur            x0, [fp, #-0x10]
     // 0xab1e64: LoadField: r0 = r1->field_37
@@ -4788,7 +4788,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0xab1eb8: ldur            x2, [fp, #-0x18]
     // 0xab1ebc: ldur            x5, [fp, #-0x10]
     // 0xab1ec0: r0 = _buildPreviewStack()
-    //     0xab1ec0: bl              #0xab1eec  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_buildPreviewStack
+    //     0xab1ec0: bl              #0xab1eec  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_buildPreviewStack
     // 0xab1ec4: LeaveFrame
     //     0xab1ec4: mov             SP, fp
     //     0xab1ec8: ldp             fp, lr, [SP], #0x10
@@ -4837,7 +4837,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0xab1f30: stur            w0, [x1, #0x1b]
     // 0xab1f34: mov             x2, x1
     // 0xab1f38: r1 = Function '<anonymous closure>':.
-    //     0xab1f38: add             x1, PP, #0x41, lsl #12  ; [pp+0x416e0] AnonymousClosure: (0xab1f84), in [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_buildPreviewStack (0xab1eec)
+    //     0xab1f38: add             x1, PP, #0x41, lsl #12  ; [pp+0x416e0] AnonymousClosure: (0xab1f84), in [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_buildPreviewStack (0xab1eec)
     //     0xab1f3c: ldr             x1, [x1, #0x6e0]
     // 0xab1f40: r0 = AllocateClosure()
     //     0xab1f40: bl              #0xe553e0  ; AllocateClosureStub
@@ -5087,7 +5087,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0xab21e0: stur            w0, [x3, #7]
     // 0xab21e4: ldur            x2, [fp, #-0x28]
     // 0xab21e8: r1 = Function '<anonymous closure>':.
-    //     0xab21e8: add             x1, PP, #0x41, lsl #12  ; [pp+0x416f0] AnonymousClosure: (0xab2394), in [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_buildPreviewStack (0xab1eec)
+    //     0xab21e8: add             x1, PP, #0x41, lsl #12  ; [pp+0x416f0] AnonymousClosure: (0xab2394), in [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_buildPreviewStack (0xab1eec)
     //     0xab21ec: ldr             x1, [x1, #0x6f0]
     // 0xab21f0: r0 = AllocateClosure()
     //     0xab21f0: bl              #0xe553e0  ; AllocateClosureStub
@@ -5281,7 +5281,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0xab23e8: stur            w0, [x3, #0xf]
     // 0xab23ec: ldur            x2, [fp, #-0x18]
     // 0xab23f0: r1 = Function '<anonymous closure>':.
-    //     0xab23f0: add             x1, PP, #0x41, lsl #12  ; [pp+0x416f8] AnonymousClosure: (0xab2bac), in [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_buildPreviewStack (0xab1eec)
+    //     0xab23f0: add             x1, PP, #0x41, lsl #12  ; [pp+0x416f8] AnonymousClosure: (0xab2bac), in [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_buildPreviewStack (0xab1eec)
     //     0xab23f4: ldr             x1, [x1, #0x6f8]
     // 0xab23f8: r0 = AllocateClosure()
     //     0xab23f8: bl              #0xe553e0  ; AllocateClosureStub
@@ -5307,7 +5307,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0xab2430: stur            w0, [x3, #0xf]
     // 0xab2434: ldur            x2, [fp, #-0x18]
     // 0xab2438: r1 = Function '<anonymous closure>':.
-    //     0xab2438: add             x1, PP, #0x41, lsl #12  ; [pp+0x41700] AnonymousClosure: (0xab24d0), in [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_buildPreviewStack (0xab1eec)
+    //     0xab2438: add             x1, PP, #0x41, lsl #12  ; [pp+0x41700] AnonymousClosure: (0xab24d0), in [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_buildPreviewStack (0xab1eec)
     //     0xab243c: ldr             x1, [x1, #0x700]
     // 0xab2440: r0 = AllocateClosure()
     //     0xab2440: bl              #0xe553e0  ; AllocateClosureStub
@@ -5400,7 +5400,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0xab2514: r1 = Null
     //     0xab2514: mov             x1, NULL
     // 0xab2518: r0 = TrackingOverlayVisibility.live()
-    //     0xab2518: bl              #0xab2a1c  ; [package:ballai/video_tracking/views/workout/tracking_overlay_visibility.dart] TrackingOverlayVisibility::TrackingOverlayVisibility.live
+    //     0xab2518: bl              #0xab2a1c  ; [package:kourtai/video_tracking/views/workout/tracking_overlay_visibility.dart] TrackingOverlayVisibility::TrackingOverlayVisibility.live
     // 0xab251c: r1 = Function '<anonymous closure>':.
     //     0xab251c: add             x1, PP, #0x41, lsl #12  ; [pp+0x41708] Function: [dart:ui] Image::_image (0xca4b50)
     //     0xab2520: ldr             x1, [x1, #0x708]
@@ -5418,7 +5418,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0xab2544: r4 = const [0x1, 0x3, 0x3, 0x3, null]
     //     0xab2544: ldr             x4, [PP, #0x720]  ; [pp+0x720] List(5) [0x1, 0x3, 0x3, 0x3, Null]
     // 0xab2548: r0 = selectDetections()
-    //     0xab2548: bl              #0xab2600  ; [package:ballai/video_tracking/views/workout/tracking_overlay_visibility.dart] TrackingOverlayVisibility::selectDetections
+    //     0xab2548: bl              #0xab2600  ; [package:kourtai/video_tracking/views/workout/tracking_overlay_visibility.dart] TrackingOverlayVisibility::selectDetections
     // 0xab254c: stur            x0, [fp, #-0x20]
     // 0xab2550: LoadField: r1 = r0->field_b
     //     0xab2550: ldur            w1, [x0, #0xb]
@@ -5520,10 +5520,10 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0xab2bf0: r1 = Null
     //     0xab2bf0: mov             x1, NULL
     // 0xab2bf4: r0 = TrackingOverlayVisibility.live()
-    //     0xab2bf4: bl              #0xab2a1c  ; [package:ballai/video_tracking/views/workout/tracking_overlay_visibility.dart] TrackingOverlayVisibility::TrackingOverlayVisibility.live
+    //     0xab2bf4: bl              #0xab2a1c  ; [package:kourtai/video_tracking/views/workout/tracking_overlay_visibility.dart] TrackingOverlayVisibility::TrackingOverlayVisibility.live
     // 0xab2bf8: mov             x1, x0
     // 0xab2bfc: r0 = showPose()
-    //     0xab2bfc: bl              #0xab29d0  ; [package:ballai/video_tracking/views/workout/tracking_overlay_visibility.dart] TrackingOverlayVisibility::showPose
+    //     0xab2bfc: bl              #0xab29d0  ; [package:kourtai/video_tracking/views/workout/tracking_overlay_visibility.dart] TrackingOverlayVisibility::showPose
     // 0xab2c00: tbnz            w0, #4, #0xab2c2c
     // 0xab2c04: ldr             x2, [fp, #0x18]
     // 0xab2c08: LoadField: r1 = r2->field_7
@@ -5838,7 +5838,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0xab2f3c: StoreField: r3->field_f = r0
     //     0xab2f3c: stur            w0, [x3, #0xf]
     // 0xab2f40: r1 = Function '<anonymous closure>':.
-    //     0xab2f40: add             x1, PP, #0x41, lsl #12  ; [pp+0x41730] AnonymousClosure: (0xab2f90), in [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_buildNative (0xab2e40)
+    //     0xab2f40: add             x1, PP, #0x41, lsl #12  ; [pp+0x41730] AnonymousClosure: (0xab2f90), in [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_buildNative (0xab2e40)
     //     0xab2f44: ldr             x1, [x1, #0x730]
     // 0xab2f48: r2 = Null
     //     0xab2f48: mov             x2, NULL
@@ -5854,7 +5854,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0xab2f64: ldur            x2, [fp, #-0x30]
     // 0xab2f68: ldur            x5, [fp, #-0x10]
     // 0xab2f6c: r0 = _buildPreviewStack()
-    //     0xab2f6c: bl              #0xab1eec  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_buildPreviewStack
+    //     0xab2f6c: bl              #0xab1eec  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_buildPreviewStack
     // 0xab2f70: LeaveFrame
     //     0xab2f70: mov             SP, fp
     //     0xab2f74: ldp             fp, lr, [SP], #0x10
@@ -5878,7 +5878,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0xab2fac: b.eq            #0xab2fcc
     // 0xab2fb0: ldr             x1, [fp, #0x18]
     // 0xab2fb4: r0 = _orientPreview()
-    //     0xab2fb4: bl              #0xab2fd0  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_orientPreview
+    //     0xab2fb4: bl              #0xab2fd0  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_orientPreview
     // 0xab2fb8: LeaveFrame
     //     0xab2fb8: mov             SP, fp
     //     0xab2fbc: ldp             fp, lr, [SP], #0x10
@@ -5970,7 +5970,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0xab3160: cmp             SP, x16
     //     0xab3164: b.ls            #0xab317c
     // 0xab3168: r0 = openSettings()
-    //     0xab3168: bl              #0x796af4  ; [package:ballai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::openSettings
+    //     0xab3168: bl              #0x796af4  ; [package:kourtai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::openSettings
     // 0xab316c: r0 = Null
     //     0xab316c: mov             x0, NULL
     // 0xab3170: LeaveFrame
@@ -6082,7 +6082,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0xad70b4: stur            NULL, [x0, #0x6f]
     // 0xad70b8: ldur            x1, [fp, #-0x28]
     // 0xad70bc: r0 = clearSelectedHoopCache()
-    //     0xad70bc: bl              #0x714e1c  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::clearSelectedHoopCache
+    //     0xad70bc: bl              #0x714e1c  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::clearSelectedHoopCache
     // 0xad70c0: ldur            x1, [fp, #-0x10]
     // 0xad70c4: LoadField: r0 = r1->field_57
     //     0xad70c4: ldur            w0, [x1, #0x57]
@@ -6107,7 +6107,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0xad70f8: ldur            x2, [fp, #-0x18]
     // 0xad70fc: stur            x3, [fp, #-0x28]
     // 0xad7100: r0 = switchLens()
-    //     0xad7100: bl              #0x794ef0  ; [package:ballai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::switchLens
+    //     0xad7100: bl              #0x794ef0  ; [package:kourtai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::switchLens
     // 0xad7104: mov             x1, x0
     // 0xad7108: stur            x1, [fp, #-0x18]
     // 0xad710c: r0 = Await()
@@ -6119,7 +6119,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0xad711c: StoreField: r2->field_63 = r0
     //     0xad711c: stur            x0, [x2, #0x63]
     // 0xad7120: r0 = refreshPreviewSize()
-    //     0xad7120: bl              #0x791048  ; [package:ballai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::refreshPreviewSize
+    //     0xad7120: bl              #0x791048  ; [package:kourtai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::refreshPreviewSize
     // 0xad7124: mov             x1, x0
     // 0xad7128: stur            x1, [fp, #-0x18]
     // 0xad712c: r0 = Await()
@@ -6133,7 +6133,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0xad7140: b.eq            #0xad7160
     // 0xad7144: ldur            x2, [fp, #-0x20]
     // 0xad7148: r1 = Function '<anonymous closure>':.
-    //     0xad7148: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2ff80] AnonymousClosure: (0xad7258), in [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::setLensDirection (0xad6fb0)
+    //     0xad7148: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2ff80] AnonymousClosure: (0xad7258), in [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::setLensDirection (0xad6fb0)
     //     0xad714c: ldr             x1, [x1, #0xf80]
     // 0xad7150: r0 = AllocateClosure()
     //     0xad7150: bl              #0xe553e0  ; AllocateClosureStub
@@ -6147,14 +6147,14 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0xad7164: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xad7168: ldur            x1, [fp, #-0x10]
     // 0xad716c: r0 = _stopCamera()
-    //     0xad716c: bl              #0xad71a0  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_stopCamera
+    //     0xad716c: bl              #0xad71a0  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_stopCamera
     // 0xad7170: mov             x1, x0
     // 0xad7174: stur            x1, [fp, #-0x18]
     // 0xad7178: r0 = Await()
     //     0xad7178: bl              #0x60ad4c  ; AwaitStub
     // 0xad717c: ldur            x1, [fp, #-0x10]
     // 0xad7180: r0 = _initCamera()
-    //     0xad7180: bl              #0x78d29c  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_initCamera
+    //     0xad7180: bl              #0x78d29c  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_initCamera
     // 0xad7184: mov             x1, x0
     // 0xad7188: stur            x1, [fp, #-0x10]
     // 0xad718c: r0 = Await()
@@ -6232,7 +6232,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0xad723c: add             x4, PP, #0x34, lsl #12  ; [pp+0x34c48] List(7) [0, 0x2, 0x1, 0x1, "controller", 0x1, Null]
     //     0xad7240: ldr             x4, [x4, #0xc48]
     // 0xad7244: r0 = update()
-    //     0xad7244: bl              #0x77a0cc  ; [package:ballai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::update
+    //     0xad7244: bl              #0x77a0cc  ; [package:kourtai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::update
     // 0xad7248: r0 = Null
     //     0xad7248: mov             x0, NULL
     // 0xad724c: r0 = ReturnAsyncNotFuture()
@@ -6294,11 +6294,11 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0xada748: bl              #0x60afc8  ; InitAsyncStub
     // 0xada74c: ldur            x1, [fp, #-0x10]
     // 0xada750: r0 = _isFrontCamera()
-    //     0xada750: bl              #0xada77c  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_isFrontCamera
+    //     0xada750: bl              #0xada77c  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_isFrontCamera
     // 0xada754: eor             x2, x0, #0x10
     // 0xada758: ldur            x1, [fp, #-0x10]
     // 0xada75c: r0 = setLensDirection()
-    //     0xada75c: bl              #0xad6fb0  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::setLensDirection
+    //     0xada75c: bl              #0xad6fb0  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::setLensDirection
     // 0xada760: mov             x1, x0
     // 0xada764: stur            x1, [fp, #-0x10]
     // 0xada768: r0 = Await()
@@ -6359,7 +6359,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0xb5c67c: mov             fp, SP
     // 0xb5c680: ldr             x2, [fp, #0x10]
     // 0xb5c684: r1 = Function 'dispose':.
-    //     0xb5c684: add             x1, PP, #0x41, lsl #12  ; [pp+0x416b0] AnonymousClosure: (0xb5c69c), in [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::dispose (0xb63b74)
+    //     0xb5c684: add             x1, PP, #0x41, lsl #12  ; [pp+0x416b0] AnonymousClosure: (0xb5c69c), in [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::dispose (0xb63b74)
     //     0xb5c688: ldr             x1, [x1, #0x6b0]
     // 0xb5c68c: r0 = AllocateClosure()
     //     0xb5c68c: bl              #0xe553e0  ; AllocateClosureStub
@@ -6384,7 +6384,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0xb5c6b4: cmp             SP, x16
     //     0xb5c6b8: b.ls            #0xb5c6cc
     // 0xb5c6bc: r0 = dispose()
-    //     0xb5c6bc: bl              #0xb63b74  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::dispose
+    //     0xb5c6bc: bl              #0xb63b74  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::dispose
     // 0xb5c6c0: LeaveFrame
     //     0xb5c6c0: mov             SP, fp
     //     0xb5c6c4: ldp             fp, lr, [SP], #0x10
@@ -6458,7 +6458,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0xb63c0c: mov             x2, x0
     // 0xb63c10: stur            x4, [fp, #-0x10]
     // 0xb63c14: r1 = Function '_onNativePreviewSize@1421409368':.
-    //     0xb63c14: add             x1, PP, #0x41, lsl #12  ; [pp+0x41738] AnonymousClosure: (0x79550c), in [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onNativePreviewSize (0x790ef4)
+    //     0xb63c14: add             x1, PP, #0x41, lsl #12  ; [pp+0x41738] AnonymousClosure: (0x79550c), in [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onNativePreviewSize (0x790ef4)
     //     0xb63c18: ldr             x1, [x1, #0x738]
     // 0xb63c1c: r0 = AllocateClosure()
     //     0xb63c1c: bl              #0xe553e0  ; AllocateClosureStub
@@ -6480,7 +6480,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0xb63c48: sub             lr, x0, #0xab3
     //     0xb63c4c: ldr             lr, [x21, lr, lsl #3]
     //     0xb63c50: blr             lr
-    // 0xb63c54: r0 = InitLateStaticField(0x10ac) // [package:ballai/video_tracking/camera/native/native_jpeg_frame_cache.dart] NativeJpegFrameCache::instance
+    // 0xb63c54: r0 = InitLateStaticField(0x10ac) // [package:kourtai/video_tracking/camera/native/native_jpeg_frame_cache.dart] NativeJpegFrameCache::instance
     //     0xb63c54: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb63c58: ldr             x0, [x0, #0x2158]
     //     0xb63c5c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -6491,10 +6491,10 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0xb63c70: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0xb63c74: mov             x1, x0
     // 0xb63c78: r0 = clear()
-    //     0xb63c78: bl              #0xb63e00  ; [package:ballai/video_tracking/camera/native/native_jpeg_frame_cache.dart] NativeJpegFrameCache::clear
+    //     0xb63c78: bl              #0xb63e00  ; [package:kourtai/video_tracking/camera/native/native_jpeg_frame_cache.dart] NativeJpegFrameCache::clear
     // 0xb63c7c: ldur            x1, [fp, #-0x18]
     // 0xb63c80: r0 = stop()
-    //     0xb63c80: bl              #0x791870  ; [package:ballai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::stop
+    //     0xb63c80: bl              #0x791870  ; [package:kourtai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::stop
     // 0xb63c84: b               #0xb63cc0
     // 0xb63c88: ldur            x0, [fp, #-8]
     // 0xb63c8c: LoadField: r1 = r0->field_27
@@ -6504,7 +6504,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0xb63c94: cmp             w1, NULL
     // 0xb63c98: b.eq            #0xb63ca4
     // 0xb63c9c: r0 = stop()
-    //     0xb63c9c: bl              #0x78d140  ; [package:ballai/video_tracking/detection/yolo/engine/yolo_camera_worker.dart] YoloCameraWorker::stop
+    //     0xb63c9c: bl              #0x78d140  ; [package:kourtai/video_tracking/detection/yolo/engine/yolo_camera_worker.dart] YoloCameraWorker::stop
     // 0xb63ca0: ldur            x0, [fp, #-8]
     // 0xb63ca4: LoadField: r1 = r0->field_2b
     //     0xb63ca4: ldur            w1, [x0, #0x2b]
@@ -6513,17 +6513,17 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     // 0xb63cac: cmp             w1, NULL
     // 0xb63cb0: b.eq            #0xb63cb8
     // 0xb63cb4: r0 = dispose()
-    //     0xb63cb4: bl              #0xb63d38  ; [package:ballai/video_tracking/playground/pose_analysis_service.dart] PoseAnalysisService::dispose
+    //     0xb63cb4: bl              #0xb63d38  ; [package:kourtai/video_tracking/playground/pose_analysis_service.dart] PoseAnalysisService::dispose
     // 0xb63cb8: ldur            x1, [fp, #-8]
     // 0xb63cbc: r0 = _stopCamera()
-    //     0xb63cbc: bl              #0xad71a0  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_stopCamera
+    //     0xb63cbc: bl              #0xad71a0  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_stopCamera
     // 0xb63cc0: ldur            x0, [fp, #-8]
     // 0xb63cc4: ArrayLoad: r1 = r0[0]  ; List_4
     //     0xb63cc4: ldur            w1, [x0, #0x17]
     // 0xb63cc8: DecompressPointer r1
     //     0xb63cc8: add             x1, x1, HEAP, lsl #32
     // 0xb63ccc: r0 = clear()
-    //     0xb63ccc: bl              #0xb63cec  ; [package:ballai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::clear
+    //     0xb63ccc: bl              #0xb63cec  ; [package:kourtai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::clear
     // 0xb63cd0: r0 = Null
     //     0xb63cd0: mov             x0, NULL
     // 0xb63cd4: LeaveFrame
@@ -6577,7 +6577,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0xb75fd0: stur            w0, [x1, #0x5f]
     // 0xb75fd4: StoreField: r1->field_6b = r4
     //     0xb75fd4: stur            w4, [x1, #0x6b]
-    // 0xb75fd8: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0xb75fd8: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0xb75fd8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb75fdc: ldr             x0, [x0, #0x1cf0]
     //     0xb75fe0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -6595,7 +6595,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0xb7600c: tst             x16, HEAP, lsr #32
     //     0xb76010: b.eq            #0xb76018
     //     0xb76014: bl              #0xe5479c  ; WriteBarrierWrappersStub
-    // 0xb76018: r0 = InitLateStaticField(0x1160) // [package:ballai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::instance
+    // 0xb76018: r0 = InitLateStaticField(0x1160) // [package:kourtai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::instance
     //     0xb76018: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb7601c: ldr             x0, [x0, #0x22c0]
     //     0xb76020: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -6683,7 +6683,7 @@ class PlaygroundCameraScreenState extends _PlaygroundCameraScreenState&State&Wid
     //     0xb76118: tst             x16, HEAP, lsr #32
     //     0xb7611c: b.eq            #0xb76124
     //     0xb76120: bl              #0xe5479c  ; WriteBarrierWrappersStub
-    // 0xb76124: r0 = InitLateStaticField(0x1104) // [package:ballai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::instance
+    // 0xb76124: r0 = InitLateStaticField(0x1104) // [package:kourtai/video_tracking/camera/native/native_camera_controller.dart] NativeCameraController::instance
     //     0xb76124: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb76128: ldr             x0, [x0, #0x2208]
     //     0xb7612c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -6741,7 +6741,7 @@ class PlaygroundCameraScreen extends StatefulWidget {
     // 0xb75f5c: mov             x1, x0
     // 0xb75f60: stur            x0, [fp, #-8]
     // 0xb75f64: r0 = PlaygroundCameraScreenState()
-    //     0xb75f64: bl              #0xb75f80  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::PlaygroundCameraScreenState
+    //     0xb75f64: bl              #0xb75f80  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::PlaygroundCameraScreenState
     // 0xb75f68: ldur            x0, [fp, #-8]
     // 0xb75f6c: LeaveFrame
     //     0xb75f6c: mov             SP, fp

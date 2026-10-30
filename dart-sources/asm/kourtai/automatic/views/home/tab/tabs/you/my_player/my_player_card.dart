@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/my_player/my_player_card.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/my_player/my_player_card.dart
 
 // class id: 1049023, size: 0x8
 class :: {
@@ -45,7 +45,7 @@ class _MyPlayerCardState extends State<dynamic> {
     // 0x987d5c: mov             x2, x1
     // 0x987d60: stur            x0, [fp, #-8]
     // 0x987d64: r1 = Function '<anonymous closure>':.
-    //     0x987d64: add             x1, PP, #0x48, lsl #12  ; [pp+0x48f30] AnonymousClosure: (0x987e58), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/my_player_card.dart] _MyPlayerCardState::initState (0x987d08)
+    //     0x987d64: add             x1, PP, #0x48, lsl #12  ; [pp+0x48f30] AnonymousClosure: (0x987e58), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/my_player_card.dart] _MyPlayerCardState::initState (0x987d08)
     //     0x987d68: ldr             x1, [x1, #0xf30]
     // 0x987d6c: r0 = AllocateClosure()
     //     0x987d6c: bl              #0xe553e0  ; AllocateClosureStub
@@ -142,7 +142,7 @@ class _MyPlayerCardState extends State<dynamic> {
     //     0x987e7c: add             x0, x0, HEAP, lsl #32
     // 0x987e80: mov             x1, x0
     // 0x987e84: r0 = _maybeAutoAdvance()
-    //     0x987e84: bl              #0x987ea0  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/my_player_card.dart] _MyPlayerCardState::_maybeAutoAdvance
+    //     0x987e84: bl              #0x987ea0  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/my_player_card.dart] _MyPlayerCardState::_maybeAutoAdvance
     // 0x987e88: r0 = Null
     //     0x987e88: mov             x0, NULL
     // 0x987e8c: LeaveFrame
@@ -288,14 +288,14 @@ class _MyPlayerCardState extends State<dynamic> {
     //     0xaa0770: add             x1, PP, #0x48, lsl #12  ; [pp+0x48f00] "My Attributes"
     //     0xaa0774: ldr             x1, [x1, #0xf00]
     // 0xaa0778: r0 = L()
-    //     0xaa0778: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa0778: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa077c: mov             x2, x0
     // 0xaa0780: b               #0xaa0794
     // 0xaa0784: r1 = "Attributes"
     //     0xaa0784: add             x1, PP, #0x48, lsl #12  ; [pp+0x48f08] "Attributes"
     //     0xaa0788: ldr             x1, [x1, #0xf08]
     // 0xaa078c: r0 = L()
-    //     0xaa078c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa078c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa0790: mov             x2, x0
     // 0xaa0794: ldur            x0, [fp, #-8]
     // 0xaa0798: stur            x2, [fp, #-0x18]
@@ -314,13 +314,13 @@ class _MyPlayerCardState extends State<dynamic> {
     //     0xaa07b8: add             x1, PP, #0x48, lsl #12  ; [pp+0x48f10] "My Potential"
     //     0xaa07bc: ldr             x1, [x1, #0xf10]
     // 0xaa07c0: r0 = L()
-    //     0xaa07c0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa07c0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa07c4: b               #0xaa07d4
     // 0xaa07c8: r1 = "Potential"
     //     0xaa07c8: add             x1, PP, #0x48, lsl #12  ; [pp+0x48f18] "Potential"
     //     0xaa07cc: ldr             x1, [x1, #0xf18]
     // 0xaa07d0: r0 = L()
-    //     0xaa07d0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa07d0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa07d4: ldur            x1, [fp, #-8]
     // 0xaa07d8: stur            x0, [fp, #-0x48]
     // 0xaa07dc: LoadField: r3 = r1->field_13
@@ -492,7 +492,7 @@ class _MyPlayerCardState extends State<dynamic> {
     //     0xaa0988: stur            w0, [x3, #0xb]
     // 0xaa098c: ldur            x2, [fp, #-0x10]
     // 0xaa0990: r1 = Function '<anonymous closure>':.
-    //     0xaa0990: add             x1, PP, #0x48, lsl #12  ; [pp+0x48f20] AnonymousClosure: (0xaa0bcc), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/my_player_card.dart] _MyPlayerCardState::build (0xaa0720)
+    //     0xaa0990: add             x1, PP, #0x48, lsl #12  ; [pp+0x48f20] AnonymousClosure: (0xaa0bcc), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/my_player_card.dart] _MyPlayerCardState::build (0xaa0720)
     //     0xaa0994: ldr             x1, [x1, #0xf20]
     // 0xaa0998: r0 = AllocateClosure()
     //     0xaa0998: bl              #0xe553e0  ; AllocateClosureStub
@@ -511,7 +511,7 @@ class _MyPlayerCardState extends State<dynamic> {
     //     0xaa09c0: ldur            x0, [x1, #0x17]
     // 0xaa09c4: stur            x0, [fp, #-0x70]
     // 0xaa09c8: r0 = _primaryTint()
-    //     0xaa09c8: bl              #0xaa0acc  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/my_player_card.dart] _MyPlayerCardState::_primaryTint
+    //     0xaa09c8: bl              #0xaa0acc  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/my_player_card.dart] _MyPlayerCardState::_primaryTint
     // 0xaa09cc: stur            x0, [fp, #-8]
     // 0xaa09d0: r0 = _PageDots()
     //     0xaa09d0: bl              #0xaa0ac0  ; Allocate_PageDotsStub -> _PageDots (size=0x18)
@@ -639,7 +639,7 @@ class _MyPlayerCardState extends State<dynamic> {
     // 0xaa0b0c: b               #0xaa0b14
     // 0xaa0b10: mov             x1, x0
     // 0xaa0b14: r0 = fromRaw()
-    //     0xaa0b14: bl              #0x90005c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
+    //     0xaa0b14: bl              #0x90005c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
     // 0xaa0b18: cmp             w0, NULL
     // 0xaa0b1c: b.ne            #0xaa0b28
     // 0xaa0b20: r1 = Null
@@ -735,7 +735,7 @@ class _MyPlayerCardState extends State<dynamic> {
     // 0xaa0c2c: mov             x2, x1
     // 0xaa0c30: stur            x3, [fp, #-0x10]
     // 0xaa0c34: r1 = Function '<anonymous closure>':.
-    //     0xaa0c34: add             x1, PP, #0x48, lsl #12  ; [pp+0x48f28] AnonymousClosure: (0x9d28f0), in [package:ballai/automatic/views/components/foreground/promo_card.dart] _PromoCardTabViewState::build (0x9d2390)
+    //     0xaa0c34: add             x1, PP, #0x48, lsl #12  ; [pp+0x48f28] AnonymousClosure: (0x9d28f0), in [package:kourtai/automatic/views/components/foreground/promo_card.dart] _PromoCardTabViewState::build (0x9d2390)
     //     0xaa0c38: ldr             x1, [x1, #0xf28]
     // 0xaa0c3c: r0 = AllocateClosure()
     //     0xaa0c3c: bl              #0xe553e0  ; AllocateClosureStub
@@ -761,7 +761,7 @@ class _MyPlayerCardState extends State<dynamic> {
     //     0xb5c1d0: mov             fp, SP
     // 0xb5c1d4: ldr             x2, [fp, #0x10]
     // 0xb5c1d8: r1 = Function 'dispose':.
-    //     0xb5c1d8: add             x1, PP, #0x48, lsl #12  ; [pp+0x48ef8] AnonymousClosure: (0xb5c1f0), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/my_player_card.dart] _MyPlayerCardState::dispose (0xb634dc)
+    //     0xb5c1d8: add             x1, PP, #0x48, lsl #12  ; [pp+0x48ef8] AnonymousClosure: (0xb5c1f0), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/my_player_card.dart] _MyPlayerCardState::dispose (0xb634dc)
     //     0xb5c1dc: ldr             x1, [x1, #0xef8]
     // 0xb5c1e0: r0 = AllocateClosure()
     //     0xb5c1e0: bl              #0xe553e0  ; AllocateClosureStub
@@ -786,7 +786,7 @@ class _MyPlayerCardState extends State<dynamic> {
     //     0xb5c208: cmp             SP, x16
     //     0xb5c20c: b.ls            #0xb5c220
     // 0xb5c210: r0 = dispose()
-    //     0xb5c210: bl              #0xb634dc  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/my_player_card.dart] _MyPlayerCardState::dispose
+    //     0xb5c210: bl              #0xb634dc  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/my_player_card.dart] _MyPlayerCardState::dispose
     // 0xb5c214: LeaveFrame
     //     0xb5c214: mov             SP, fp
     //     0xb5c218: ldp             fp, lr, [SP], #0x10
@@ -905,7 +905,7 @@ class MyPlayerCard extends StatefulWidget {
     // 0xb75640: mov             x1, x0
     // 0xb75644: stur            x0, [fp, #-8]
     // 0xb75648: r0 = _MyPlayerCardState()
-    //     0xb75648: bl              #0xb75664  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/my_player_card.dart] _MyPlayerCardState::_MyPlayerCardState
+    //     0xb75648: bl              #0xb75664  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/my_player_card.dart] _MyPlayerCardState::_MyPlayerCardState
     // 0xb7564c: ldur            x0, [fp, #-8]
     // 0xb75650: LeaveFrame
     //     0xb75650: mov             SP, fp
@@ -960,13 +960,13 @@ class _PotentialPage extends StatelessWidget {
     // 0xc1b1c4: mov             x3, x7
     // 0xc1b1c8: stur            x7, [fp, #-8]
     // 0xc1b1cc: r0 = resolve()
-    //     0xc1b1cc: bl              #0x9fe4c4  ; [package:ballai/automatic/models/core/my_player/nba_comparison_resolver.dart] NbaComparisonResolver::resolve
+    //     0xc1b1cc: bl              #0x9fe4c4  ; [package:kourtai/automatic/models/core/my_player/nba_comparison_resolver.dart] NbaComparisonResolver::resolve
     // 0xc1b1d0: ldur            x1, [fp, #-0x10]
     // 0xc1b1d4: ldur            x2, [fp, #-0x18]
     // 0xc1b1d8: ldur            x3, [fp, #-8]
     // 0xc1b1dc: stur            x0, [fp, #-0x30]
     // 0xc1b1e0: r0 = resolve()
-    //     0xc1b1e0: bl              #0x9fd8cc  ; [package:ballai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::resolve
+    //     0xc1b1e0: bl              #0x9fd8cc  ; [package:kourtai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::resolve
     // 0xc1b1e4: mov             x4, x0
     // 0xc1b1e8: ldur            x0, [fp, #-0x20]
     // 0xc1b1ec: stur            x4, [fp, #-0x38]
@@ -997,7 +997,7 @@ class _PotentialPage extends StatelessWidget {
     // 0xc1b238: ldur            x3, [fp, #-0x18]
     // 0xc1b23c: ldur            x5, [fp, #-8]
     // 0xc1b240: r0 = resolvedCaps()
-    //     0xc1b240: bl              #0xbd3a40  ; [package:ballai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerRatings::resolvedCaps
+    //     0xc1b240: bl              #0xbd3a40  ; [package:kourtai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerRatings::resolvedCaps
     // 0xc1b244: ldur            x1, [fp, #-0x30]
     // 0xc1b248: stur            x0, [fp, #-0x20]
     // 0xc1b24c: ArrayLoad: r2 = r1[0]  ; List_4
@@ -1011,7 +1011,7 @@ class _PotentialPage extends StatelessWidget {
     //     0xc1b25c: add             x3, x3, HEAP, lsl #32
     // 0xc1b260: stur            x3, [fp, #-8]
     // 0xc1b264: r0 = assetPath()
-    //     0xc1b264: bl              #0x9fd71c  ; [package:ballai/automatic/models/core/my_player/nba_comparison_resolver.dart] NbaComparison::assetPath
+    //     0xc1b264: bl              #0x9fd71c  ; [package:kourtai/automatic/models/core/my_player/nba_comparison_resolver.dart] NbaComparison::assetPath
     // 0xc1b268: mov             x2, x0
     // 0xc1b26c: ldur            x0, [fp, #-0x38]
     // 0xc1b270: stur            x2, [fp, #-0x48]
@@ -1028,7 +1028,7 @@ class _PotentialPage extends StatelessWidget {
     // 0xc1b28c: ldur            x1, [fp, #-0x20]
     // 0xc1b290: stur            x4, [fp, #-0x30]
     // 0xc1b294: r0 = topPills()
-    //     0xc1b294: bl              #0xc1a9b0  ; [package:ballai/automatic/models/core/my_player/my_player_nba_content.dart] MyPlayerNbaContent::topPills
+    //     0xc1b294: bl              #0xc1a9b0  ; [package:kourtai/automatic/models/core/my_player/my_player_nba_content.dart] MyPlayerNbaContent::topPills
     // 0xc1b298: r1 = <String>
     //     0xc1b298: ldr             x1, [PP, #0x850]  ; [pp+0x850] TypeArguments: <String>
     // 0xc1b29c: r2 = 0
@@ -1052,7 +1052,7 @@ class _PotentialPage extends StatelessWidget {
     // 0xc1b2d4: b.eq            #0xc1b440
     // 0xc1b2d8: mov             x1, x0
     // 0xc1b2dc: r0 = fromRaw()
-    //     0xc1b2dc: bl              #0x90005c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
+    //     0xc1b2dc: bl              #0x90005c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
     // 0xc1b2e0: cmp             w0, NULL
     // 0xc1b2e4: b.ne            #0xc1b2f0
     // 0xc1b2e8: r0 = Null
@@ -1060,7 +1060,7 @@ class _PotentialPage extends StatelessWidget {
     // 0xc1b2ec: b               #0xc1b2f8
     // 0xc1b2f0: mov             x1, x0
     // 0xc1b2f4: r0 = displayTitle()
-    //     0xc1b2f4: bl              #0x9efc10  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::displayTitle
+    //     0xc1b2f4: bl              #0x9efc10  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::displayTitle
     // 0xc1b2f8: cmp             w0, NULL
     // 0xc1b2fc: b.ne            #0xc1b308
     // 0xc1b300: r2 = ""
@@ -1214,8 +1214,8 @@ class _IdentityAvatar extends StatelessWidget {
     //     0xc1aeb8: add             x3, x3, HEAP, lsl #32
     // 0xc1aebc: tbz             w3, #4, #0xc1b0e8
     // 0xc1aec0: mov             x1, x0
-    // 0xc1aec4: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xc1aec4: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xc1aec4: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xc1aec4: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xc1aec8: stur            x0, [fp, #-0x10]
     // 0xc1aecc: r16 = 0.080000
     //     0xc1aecc: add             x16, PP, #0x24, lsl #12  ; [pp+0x24f28] 0.08
@@ -1252,8 +1252,8 @@ class _IdentityAvatar extends StatelessWidget {
     // 0xc1af20: StoreField: r2->field_23 = r0
     //     0xc1af20: stur            w0, [x2, #0x23]
     // 0xc1af24: ldur            x1, [fp, #-8]
-    // 0xc1af28: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc1af28: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc1af28: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc1af28: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc1af2c: stur            x0, [fp, #-0x10]
     // 0xc1af30: r0 = Icon()
     //     0xc1af30: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -1285,7 +1285,7 @@ class _IdentityAvatar extends StatelessWidget {
     //     0xc1af74: add             x1, PP, #0x53, lsl #12  ; [pp+0x534c8] "Add pic"
     //     0xc1af78: ldr             x1, [x1, #0x4c8]
     // 0xc1af7c: r0 = L()
-    //     0xc1af7c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1af7c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1af80: r1 = 15.120000
     //     0xc1af80: add             x1, PP, #0x53, lsl #12  ; [pp+0x534d0] 15.12
     //     0xc1af84: ldr             x1, [x1, #0x4d0]
@@ -1299,8 +1299,8 @@ class _IdentityAvatar extends StatelessWidget {
     //     0xc1af98: bl              #0xe53418  ; [dart:core] _Double::clamp
     // 0xc1af9c: ldur            x1, [fp, #-8]
     // 0xc1afa0: stur            x0, [fp, #-8]
-    // 0xc1afa4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc1afa4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc1afa4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc1afa4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc1afa8: stur            x0, [fp, #-0x30]
     // 0xc1afac: r0 = TextStyle()
     //     0xc1afac: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1550,7 +1550,7 @@ class _IdentityPage extends StatelessWidget {
     // 0xc19290: b               #0xc19298
     // 0xc19294: mov             x1, x5
     // 0xc19298: r0 = fromRaw()
-    //     0xc19298: bl              #0x90005c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
+    //     0xc19298: bl              #0x90005c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
     // 0xc1929c: mov             x4, x0
     // 0xc192a0: ldur            x0, [fp, #-0x20]
     // 0xc192a4: stur            x4, [fp, #-0x48]
@@ -1568,7 +1568,7 @@ class _IdentityPage extends StatelessWidget {
     // 0xc192c4: mov             x3, x6
     // 0xc192c8: stur            x6, [fp, #-0x38]
     // 0xc192cc: r0 = resolve()
-    //     0xc192cc: bl              #0x9fd8cc  ; [package:ballai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::resolve
+    //     0xc192cc: bl              #0x9fd8cc  ; [package:kourtai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::resolve
     // 0xc192d0: mov             x2, x0
     // 0xc192d4: ldur            x0, [fp, #-0x40]
     // 0xc192d8: stur            x2, [fp, #-0x50]
@@ -1770,13 +1770,13 @@ class _IdentityPage extends StatelessWidget {
     // 0xc19520: ldur            x3, [fp, #-0x40]
     // 0xc19524: ldur            x5, [fp, #-0x38]
     // 0xc19528: r0 = resolvedCaps()
-    //     0xc19528: bl              #0xbd3a40  ; [package:ballai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerRatings::resolvedCaps
+    //     0xc19528: bl              #0xbd3a40  ; [package:kourtai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerRatings::resolvedCaps
     // 0xc1952c: mov             x1, x0
     // 0xc19530: r0 = startingCurrents()
-    //     0xc19530: bl              #0xc1ad10  ; [package:ballai/automatic/models/core/my_player/my_player_nba_content.dart] MyPlayerNbaContent::startingCurrents
+    //     0xc19530: bl              #0xc1ad10  ; [package:kourtai/automatic/models/core/my_player/my_player_nba_content.dart] MyPlayerNbaContent::startingCurrents
     // 0xc19534: mov             x1, x0
     // 0xc19538: r0 = topPills()
-    //     0xc19538: bl              #0xc1a9b0  ; [package:ballai/automatic/models/core/my_player/my_player_nba_content.dart] MyPlayerNbaContent::topPills
+    //     0xc19538: bl              #0xc1a9b0  ; [package:kourtai/automatic/models/core/my_player/my_player_nba_content.dart] MyPlayerNbaContent::topPills
     // 0xc1953c: stur            x0, [fp, #-0x18]
     // 0xc19540: r0 = Radius()
     //     0xc19540: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -2072,7 +2072,7 @@ class _IdentityPage extends StatelessWidget {
     //     0xc1983c: ldr             x1, [x1, #0x898]
     // 0xc19840: ldur            x3, [fp, #-0x78]
     // 0xc19844: r0 = L()
-    //     0xc19844: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc19844: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc19848: r1 = LoadClassIdInstr(r0)
     //     0xc19848: ldur            x1, [x0, #-1]
     //     0xc1984c: ubfx            x1, x1, #0xc, #0x14
@@ -2084,8 +2084,8 @@ class _IdentityPage extends StatelessWidget {
     //     0xc19860: blr             lr
     // 0xc19864: ldur            x1, [fp, #-0x10]
     // 0xc19868: stur            x0, [fp, #-0x40]
-    // 0xc1986c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc1986c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc1986c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc1986c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc19870: stur            x0, [fp, #-0xb0]
     // 0xc19874: r0 = TextStyle()
     //     0xc19874: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2179,11 +2179,11 @@ class _IdentityPage extends StatelessWidget {
     //     0xc19958: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b980] "OVR"
     //     0xc1995c: ldr             x1, [x1, #0x980]
     // 0xc19960: r0 = L()
-    //     0xc19960: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc19960: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc19964: ldur            x1, [fp, #-0x10]
     // 0xc19968: stur            x0, [fp, #-0x10]
-    // 0xc1996c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc1996c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc1996c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc1996c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc19970: stur            x0, [fp, #-0xb8]
     // 0xc19974: r0 = TextStyle()
     //     0xc19974: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -3790,8 +3790,8 @@ class _PageDots extends StatelessWidget {
     //     0xc18da4: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xc18da8: cmp             SP, x16
     //     0xc18dac: b.ls            #0xc191c4
-    // 0xc18db0: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xc18db0: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xc18db0: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xc18db0: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xc18db4: stur            x0, [fp, #-0x10]
     // 0xc18db8: r0 = Radius()
     //     0xc18db8: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)

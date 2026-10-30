@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/home/you/you_connections_view_model.dart
+// lib: , url: package:kourtai/automatic/viewmodels/home/you/you_connections_view_model.dart
 
 // class id: 1048784, size: 0x8
 class :: {
@@ -102,7 +102,7 @@ class YouConnectionsViewModel extends ChangeNotifier {
     // 0x8fc820: ldur            x3, [fp, #-0x20]
     // 0x8fc824: ldur            x5, [fp, #-0x28]
     // 0x8fc828: r0 = loadPreview()
-    //     0x8fc828: bl              #0x8fc848  ; [package:ballai/automatic/viewmodels/home/you/you_connections_view_model.dart] YouConnectionsViewModel::loadPreview
+    //     0x8fc828: bl              #0x8fc848  ; [package:kourtai/automatic/viewmodels/home/you/you_connections_view_model.dart] YouConnectionsViewModel::loadPreview
     // 0x8fc82c: mov             x1, x0
     // 0x8fc830: stur            x1, [fp, #-0x10]
     // 0x8fc834: r0 = Await()
@@ -163,7 +163,7 @@ class YouConnectionsViewModel extends ChangeNotifier {
     //     0x8fc8c0: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x8fc8c4: ldur            x2, [fp, #-0xd8]
     // 0x8fc8c8: r1 = Function '<anonymous closure>':.
-    //     0x8fc8c8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d430] AnonymousClosure: static (0x8ffdbc), in [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::remainingAttributeForDoubleDown (0x8ffe28)
+    //     0x8fc8c8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d430] AnonymousClosure: static (0x8ffdbc), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::remainingAttributeForDoubleDown (0x8ffe28)
     //     0x8fc8cc: ldr             x1, [x1, #0x430]
     // 0x8fc8d0: stur            x0, [fp, #-0xc8]
     // 0x8fc8d4: r0 = AllocateClosure()
@@ -186,7 +186,7 @@ class YouConnectionsViewModel extends ChangeNotifier {
     //     0x8fc908: bl              #0x5c8034  ; [dart:core] _GrowableList::addAll
     // 0x8fc90c: ldur            x2, [fp, #-0xd8]
     // 0x8fc910: r1 = Function '<anonymous closure>':.
-    //     0x8fc910: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d438] AnonymousClosure: (0x8ffd44), in [package:ballai/automatic/viewmodels/home/you/you_connections_view_model.dart] YouConnectionsViewModel::loadPreview (0x8fc848)
+    //     0x8fc910: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d438] AnonymousClosure: (0x8ffd44), in [package:kourtai/automatic/viewmodels/home/you/you_connections_view_model.dart] YouConnectionsViewModel::loadPreview (0x8fc848)
     //     0x8fc914: ldr             x1, [x1, #0x438]
     // 0x8fc918: r0 = AllocateClosure()
     //     0x8fc918: bl              #0xe553e0  ; AllocateClosureStub
@@ -221,7 +221,7 @@ class YouConnectionsViewModel extends ChangeNotifier {
     //     0x8fc968: add             x1, x1, HEAP, lsl #32
     // 0x8fc96c: mov             x2, x0
     // 0x8fc970: r0 = fetchUsersByIds()
-    //     0x8fc970: bl              #0x8fe07c  ; [package:ballai/automatic/app/social/follow_list_repository.dart] FollowListRepository::fetchUsersByIds
+    //     0x8fc970: bl              #0x8fe07c  ; [package:kourtai/automatic/app/social/follow_list_repository.dart] FollowListRepository::fetchUsersByIds
     // 0x8fc974: mov             x1, x0
     // 0x8fc978: stur            x1, [fp, #-0xc8]
     // 0x8fc97c: r0 = Await()
@@ -238,7 +238,7 @@ class YouConnectionsViewModel extends ChangeNotifier {
     //     0x8fc9a0: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x8fc9a4: mov             x2, x3
     // 0x8fc9a8: r1 = Function '<anonymous closure>':.
-    //     0x8fc9a8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d440] AnonymousClosure: (0x8ffce4), in [package:ballai/automatic/viewmodels/home/you/you_connections_view_model.dart] YouConnectionsViewModel::loadPreview (0x8fc848)
+    //     0x8fc9a8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d440] AnonymousClosure: (0x8ffce4), in [package:kourtai/automatic/viewmodels/home/you/you_connections_view_model.dart] YouConnectionsViewModel::loadPreview (0x8fc848)
     //     0x8fc9ac: ldr             x1, [x1, #0x440]
     // 0x8fc9b0: r0 = AllocateClosure()
     //     0x8fc9b0: bl              #0xe553e0  ; AllocateClosureStub
@@ -353,7 +353,7 @@ class YouConnectionsViewModel extends ChangeNotifier {
     // 0x8fcad0: r4 = const [0, 0x3, 0, 0x3, null]
     //     0x8fcad0: ldr             x4, [PP, #0x8a0]  ; [pp+0x8a0] List(5) [0, 0x3, 0, 0x3, Null]
     // 0x8fcad4: r0 = fetchFollowingPage()
-    //     0x8fcad4: bl              #0x8fdac8  ; [package:ballai/automatic/app/social/follow_list_repository.dart] FollowListRepository::fetchFollowingPage
+    //     0x8fcad4: bl              #0x8fdac8  ; [package:kourtai/automatic/app/social/follow_list_repository.dart] FollowListRepository::fetchFollowingPage
     // 0x8fcad8: mov             x1, x0
     // 0x8fcadc: stur            x1, [fp, #-0xe0]
     // 0x8fcae0: r0 = Await()
@@ -492,7 +492,7 @@ class YouConnectionsViewModel extends ChangeNotifier {
     //     0x8fcc60: mov             x17, #-0x110
     // 0x8fcc64: ldr             x1, [fp, x17]
     // 0x8fcc68: r0 = firstName()
-    //     0x8fcc68: bl              #0x749b68  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::firstName
+    //     0x8fcc68: bl              #0x749b68  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::firstName
     // 0x8fcc6c: mov             x1, x0
     // 0x8fcc70: r0 = trim()
     //     0x8fcc70: bl              #0x5ed854  ; [dart:core] _StringBase::trim
@@ -624,7 +624,7 @@ class YouConnectionsViewModel extends ChangeNotifier {
     // 0x8fcdcc: r4 = const [0, 0x3, 0, 0x3, null]
     //     0x8fcdcc: ldr             x4, [PP, #0x8a0]  ; [pp+0x8a0] List(5) [0, 0x3, 0, 0x3, Null]
     // 0x8fcdd0: r0 = fetchFollowersPage()
-    //     0x8fcdd0: bl              #0x8fd2b4  ; [package:ballai/automatic/app/social/follow_list_repository.dart] FollowListRepository::fetchFollowersPage
+    //     0x8fcdd0: bl              #0x8fd2b4  ; [package:kourtai/automatic/app/social/follow_list_repository.dart] FollowListRepository::fetchFollowersPage
     // 0x8fcdd4: mov             x1, x0
     // 0x8fcdd8: stur            x1, [fp, #-0xc8]
     // 0x8fcddc: r0 = Await()
@@ -760,7 +760,7 @@ class YouConnectionsViewModel extends ChangeNotifier {
     //     0x8fcf54: mov             x17, #-0x108
     // 0x8fcf58: ldr             x1, [fp, x17]
     // 0x8fcf5c: r0 = firstName()
-    //     0x8fcf5c: bl              #0x749b68  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::firstName
+    //     0x8fcf5c: bl              #0x749b68  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::firstName
     // 0x8fcf60: mov             x1, x0
     // 0x8fcf64: r0 = trim()
     //     0x8fcf64: bl              #0x5ed854  ; [dart:core] _StringBase::trim
@@ -993,7 +993,7 @@ class YouConnectionsViewModel extends ChangeNotifier {
     //     0x8fd1e8: b.ls            #0x8fd258
     // 0x8fd1ec: mov             x1, x0
     // 0x8fd1f0: r0 = firstName()
-    //     0x8fd1f0: bl              #0x749b68  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::firstName
+    //     0x8fd1f0: bl              #0x749b68  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::firstName
     // 0x8fd1f4: mov             x1, x0
     // 0x8fd1f8: r0 = trim()
     //     0x8fd1f8: bl              #0x5ed854  ; [dart:core] _StringBase::trim
@@ -1048,7 +1048,7 @@ class YouConnectionsViewModel extends ChangeNotifier {
     //     0x8fd270: b.ls            #0x8fd288
     // 0x8fd274: ldr             x1, [fp, #0x10]
     // 0x8fd278: r0 = _makeItem()
-    //     0x8fd278: bl              #0x8fd1cc  ; [package:ballai/automatic/viewmodels/home/you/you_connections_view_model.dart] YouConnectionsViewModel::_makeItem
+    //     0x8fd278: bl              #0x8fd1cc  ; [package:kourtai/automatic/viewmodels/home/you/you_connections_view_model.dart] YouConnectionsViewModel::_makeItem
     // 0x8fd27c: LeaveFrame
     //     0x8fd27c: mov             SP, fp
     //     0x8fd280: ldp             fp, lr, [SP], #0x10

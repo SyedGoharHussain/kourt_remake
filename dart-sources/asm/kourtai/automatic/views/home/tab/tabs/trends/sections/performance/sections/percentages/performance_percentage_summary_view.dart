@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/performance/sections/percentages/performance_percentage_summary_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/performance/sections/percentages/performance_percentage_summary_view.dart
 
 // class id: 1048975, size: 0x8
 class :: {
@@ -95,7 +95,7 @@ class PerformancePercentageSummaryView extends StatelessWidget {
     //     0xc05e88: add             x0, x0, HEAP, lsl #32
     // 0xc05e8c: stur            x0, [fp, #-8]
     // 0xc05e90: r1 = Function '<anonymous closure>':.
-    //     0xc05e90: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d600] AnonymousClosure: (0xc05afc), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/performance/sections/percentages/performance_percentage_summary_view.dart] PerformancePercentageSummaryView::build (0xc05e6c)
+    //     0xc05e90: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d600] AnonymousClosure: (0xc05afc), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/performance/sections/percentages/performance_percentage_summary_view.dart] PerformancePercentageSummaryView::build (0xc05e6c)
     //     0xc05e94: ldr             x1, [x1, #0x600]
     // 0xc05e98: r2 = Null
     //     0xc05e98: mov             x2, NULL
@@ -120,10 +120,10 @@ class PerformancePercentageSummaryView extends StatelessWidget {
     //     0xc05ec8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d608] "No shooting workouts in this period."
     //     0xc05ecc: ldr             x1, [x1, #0x608]
     // 0xc05ed0: r0 = L()
-    //     0xc05ed0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc05ed0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc05ed4: stur            x0, [fp, #-8]
-    // 0xc05ed8: r0 = BallAiEmptyState()
-    //     0xc05ed8: bl              #0xa63934  ; AllocateBallAiEmptyStateStub -> BallAiEmptyState (size=0x14)
+    // 0xc05ed8: r0 = KourtAiEmptyState()
+    //     0xc05ed8: bl              #0xa63934  ; AllocateKourtAiEmptyStateStub -> KourtAiEmptyState (size=0x14)
     // 0xc05edc: mov             x1, x0
     // 0xc05ee0: ldur            x0, [fp, #-8]
     // 0xc05ee4: StoreField: r1->field_b = r0
@@ -140,7 +140,7 @@ class PerformancePercentageSummaryView extends StatelessWidget {
     // 0xc05f00: ret
     //     0xc05f00: ret             
     // 0xc05f04: r1 = Function '<anonymous closure>':.
-    //     0xc05f04: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d610] AnonymousClosure: static (0x98c270), in [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
+    //     0xc05f04: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d610] AnonymousClosure: static (0x98c270), in [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
     //     0xc05f08: ldr             x1, [x1, #0x610]
     // 0xc05f0c: r2 = Null
     //     0xc05f0c: mov             x2, NULL
@@ -156,7 +156,7 @@ class PerformancePercentageSummaryView extends StatelessWidget {
     // 0xc05f28: r0 = fold()
     //     0xc05f28: bl              #0x8b192c  ; [dart:collection] ListBase::fold
     // 0xc05f2c: r1 = Function '<anonymous closure>':.
-    //     0xc05f2c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d618] AnonymousClosure: static (0x98c22c), in [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
+    //     0xc05f2c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d618] AnonymousClosure: static (0x98c22c), in [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
     //     0xc05f30: ldr             x1, [x1, #0x618]
     // 0xc05f34: r2 = Null
     //     0xc05f34: mov             x2, NULL
@@ -196,7 +196,7 @@ class PerformancePercentageSummaryView extends StatelessWidget {
     //     0xc05f9c: eor             v0.16b, v0.16b, v0.16b
     // 0xc05fa0: stur            d0, [fp, #-0x30]
     // 0xc05fa4: r1 = Function '<anonymous closure>':.
-    //     0xc05fa4: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d620] AnonymousClosure: (0xc05a7c), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/performance/sections/percentages/performance_percentage_summary_view.dart] PerformancePercentageSummaryView::build (0xc05e6c)
+    //     0xc05fa4: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d620] AnonymousClosure: (0xc05a7c), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/performance/sections/percentages/performance_percentage_summary_view.dart] PerformancePercentageSummaryView::build (0xc05e6c)
     //     0xc05fa8: ldr             x1, [x1, #0x620]
     // 0xc05fac: r2 = Null
     //     0xc05fac: mov             x2, NULL
@@ -219,7 +219,7 @@ class PerformancePercentageSummaryView extends StatelessWidget {
     // 0xc05fd8: r0 = _GrowableList.of()
     //     0xc05fd8: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0xc05fdc: r1 = Function '<anonymous closure>':.
-    //     0xc05fdc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d628] AnonymousClosure: (0x74b9d8), in [package:ballai/video_tracking/analysis/dribble/dribble_models.dart] DribbleTimelineBuffer::pendingChunks (0x74b5c8)
+    //     0xc05fdc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d628] AnonymousClosure: (0x74b9d8), in [package:kourtai/video_tracking/analysis/dribble/dribble_models.dart] DribbleTimelineBuffer::pendingChunks (0x74b5c8)
     //     0xc05fe0: ldr             x1, [x1, #0x628]
     // 0xc05fe4: r2 = Null
     //     0xc05fe4: mov             x2, NULL
@@ -231,7 +231,7 @@ class PerformancePercentageSummaryView extends StatelessWidget {
     // 0xc05ff8: r0 = reduce()
     //     0xc05ff8: bl              #0x716abc  ; [dart:collection] ListBase::reduce
     // 0xc05ffc: r1 = Function '<anonymous closure>':.
-    //     0xc05ffc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d630] AnonymousClosure: static (0x713694), in [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
+    //     0xc05ffc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d630] AnonymousClosure: static (0x713694), in [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
     //     0xc06000: ldr             x1, [x1, #0x630]
     // 0xc06004: r2 = Null
     //     0xc06004: mov             x2, NULL
@@ -298,7 +298,7 @@ class PerformancePercentageSummaryView extends StatelessWidget {
     //     0xc060c0: ldr             x1, [x1, #0x638]
     // 0xc060c4: stur            x0, [fp, #-8]
     // 0xc060c8: r0 = L()
-    //     0xc060c8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc060c8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc060cc: stur            x0, [fp, #-0x18]
     // 0xc060d0: r0 = _Stat()
     //     0xc060d0: bl              #0xc06384  ; Allocate_StatStub -> _Stat (size=0x14)
@@ -357,7 +357,7 @@ class PerformancePercentageSummaryView extends StatelessWidget {
     //     0xc06174: ldr             x1, [x1, #0x640]
     // 0xc06178: stur            x0, [fp, #-8]
     // 0xc0617c: r0 = L()
-    //     0xc0617c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0617c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc06180: stur            x0, [fp, #-0x10]
     // 0xc06184: r0 = _Stat()
     //     0xc06184: bl              #0xc06384  ; Allocate_StatStub -> _Stat (size=0x14)
@@ -414,7 +414,7 @@ class PerformancePercentageSummaryView extends StatelessWidget {
     //     0xc06224: ldr             x1, [x1, #0x648]
     // 0xc06228: stur            x0, [fp, #-8]
     // 0xc0622c: r0 = L()
-    //     0xc0622c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0622c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc06230: stur            x0, [fp, #-0x10]
     // 0xc06234: r0 = _Stat()
     //     0xc06234: bl              #0xc06384  ; Allocate_StatStub -> _Stat (size=0x14)

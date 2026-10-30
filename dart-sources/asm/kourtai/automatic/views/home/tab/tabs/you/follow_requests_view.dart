@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/follow_requests_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/follow_requests_view.dart
 
 // class id: 1049019, size: 0x8
 class :: {
@@ -61,10 +61,10 @@ class _FollowRequestsViewState extends State<dynamic> {
     // 0x985eac: ldur            x3, [fp, #-0x18]
     // 0x985eb0: stur            x0, [fp, #-0x10]
     // 0x985eb4: r0 = FindFriendsViewModel()
-    //     0x985eb4: bl              #0x985310  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::FindFriendsViewModel
+    //     0x985eb4: bl              #0x985310  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::FindFriendsViewModel
     // 0x985eb8: ldur            x2, [fp, #-8]
     // 0x985ebc: r1 = Function '_onVm@1281448119':.
-    //     0x985ebc: add             x1, PP, #0x58, lsl #12  ; [pp+0x58698] AnonymousClosure: (0x985f68), in [package:ballai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::_onVm (0x985fa0)
+    //     0x985ebc: add             x1, PP, #0x58, lsl #12  ; [pp+0x58698] AnonymousClosure: (0x985f68), in [package:kourtai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::_onVm (0x985fa0)
     //     0x985ec0: ldr             x1, [x1, #0x698]
     // 0x985ec4: r0 = AllocateClosure()
     //     0x985ec4: bl              #0xe553e0  ; AllocateClosureStub
@@ -92,7 +92,7 @@ class _FollowRequestsViewState extends State<dynamic> {
     //     0x985f08: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0x985f0c: ldur            x1, [fp, #-0x10]
     // 0x985f10: r0 = loadIncomingFollowRequests()
-    //     0x985f10: bl              #0x985758  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::loadIncomingFollowRequests
+    //     0x985f10: bl              #0x985758  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::loadIncomingFollowRequests
     // 0x985f14: r0 = Null
     //     0x985f14: mov             x0, NULL
     // 0x985f18: LeaveFrame
@@ -130,7 +130,7 @@ class _FollowRequestsViewState extends State<dynamic> {
     //     0x985f80: cmp             SP, x16
     //     0x985f84: b.ls            #0x985f98
     // 0x985f88: r0 = _onVm()
-    //     0x985f88: bl              #0x985fa0  ; [package:ballai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::_onVm
+    //     0x985f88: bl              #0x985fa0  ; [package:kourtai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::_onVm
     // 0x985f8c: LeaveFrame
     //     0x985f8c: mov             SP, fp
     //     0x985f90: ldp             fp, lr, [SP], #0x10
@@ -218,7 +218,7 @@ class _FollowRequestsViewState extends State<dynamic> {
     // 0x986060: DecompressPointer r1
     //     0x986060: add             x1, x1, HEAP, lsl #32
     // 0x986064: r0 = clearError()
-    //     0x986064: bl              #0x985df8  ; [package:ballai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::clearError
+    //     0x986064: bl              #0x985df8  ; [package:kourtai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::clearError
     // 0x986068: r1 = Function '<anonymous closure>':.
     //     0x986068: add             x1, PP, #0x58, lsl #12  ; [pp+0x586a0] Function: [dart:ui] _NativeScene::_NativeScene._ (0xe4f314)
     //     0x98606c: ldr             x1, [x1, #0x6a0]
@@ -330,7 +330,7 @@ class _FollowRequestsViewState extends State<dynamic> {
     // 0xa98ce0: mov             x2, x1
     // 0xa98ce4: stur            x0, [fp, #-0x10]
     // 0xa98ce8: r1 = Function '<anonymous closure>':.
-    //     0xa98ce8: add             x1, PP, #0x58, lsl #12  ; [pp+0x58620] AnonymousClosure: (0xa98db4), in [package:ballai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::build (0xa98c18)
+    //     0xa98ce8: add             x1, PP, #0x58, lsl #12  ; [pp+0x58620] AnonymousClosure: (0xa98db4), in [package:kourtai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::build (0xa98c18)
     //     0xa98cec: ldr             x1, [x1, #0x620]
     // 0xa98cf0: r0 = AllocateClosure()
     //     0xa98cf0: bl              #0xe553e0  ; AllocateClosureStub
@@ -365,7 +365,7 @@ class _FollowRequestsViewState extends State<dynamic> {
     //     0xa98d40: stur            xzr, [x3, #0x17]
     // 0xa98d44: ldur            x2, [fp, #-0x18]
     // 0xa98d48: r1 = Function 'refresh':.
-    //     0xa98d48: add             x1, PP, #0x55, lsl #12  ; [pp+0x55010] AnonymousClosure: (0xa965c8), in [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::refresh (0xa96600)
+    //     0xa98d48: add             x1, PP, #0x55, lsl #12  ; [pp+0x55010] AnonymousClosure: (0xa965c8), in [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::refresh (0xa96600)
     //     0xa98d4c: ldr             x1, [x1, #0x10]
     // 0xa98d50: r0 = AllocateClosure()
     //     0xa98d50: bl              #0xe553e0  ; AllocateClosureStub
@@ -498,11 +498,11 @@ class _FollowRequestsViewState extends State<dynamic> {
     // 0xa98e88: DecompressPointer r2
     //     0xa98e88: add             x2, x2, HEAP, lsl #32
     // 0xa98e8c: r0 = buildSubtitle()
-    //     0xa98e8c: bl              #0xa998d8  ; [package:ballai/automatic/views/home/tab/tabs/you/components/social_user_cell_view.dart] SocialUserCellView::buildSubtitle
+    //     0xa98e8c: bl              #0xa998d8  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/social_user_cell_view.dart] SocialUserCellView::buildSubtitle
     // 0xa98e90: ldur            x1, [fp, #-0x20]
     // 0xa98e94: stur            x0, [fp, #-0x20]
     // 0xa98e98: r0 = activityToolbarAvatarAbbreviation()
-    //     0xa98e98: bl              #0xa98fdc  ; [package:ballai/automatic/utility/user/user_avatar_text.dart] ::activityToolbarAvatarAbbreviation
+    //     0xa98e98: bl              #0xa98fdc  ; [package:kourtai/automatic/utility/user/user_avatar_text.dart] ::activityToolbarAvatarAbbreviation
     // 0xa98e9c: mov             x3, x0
     // 0xa98ea0: ldur            x0, [fp, #-8]
     // 0xa98ea4: stur            x3, [fp, #-0x30]
@@ -521,13 +521,13 @@ class _FollowRequestsViewState extends State<dynamic> {
     // 0xa98ec4: mov             x1, x0
     // 0xa98ec8: ldur            x2, [fp, #-0x18]
     // 0xa98ecc: r0 = isInFlight()
-    //     0xa98ecc: bl              #0xa95a14  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::isInFlight
+    //     0xa98ecc: bl              #0xa95a14  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::isInFlight
     // 0xa98ed0: r1 = "Accept"
     //     0xa98ed0: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b9c8] "Accept"
     //     0xa98ed4: ldr             x1, [x1, #0x9c8]
     // 0xa98ed8: stur            x0, [fp, #-8]
     // 0xa98edc: r0 = L()
-    //     0xa98edc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa98edc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa98ee0: stur            x0, [fp, #-0x38]
     // 0xa98ee4: r0 = SocialUserCellView()
     //     0xa98ee4: bl              #0xa95a90  ; AllocateSocialUserCellViewStub -> SocialUserCellView (size=0x48)
@@ -568,7 +568,7 @@ class _FollowRequestsViewState extends State<dynamic> {
     //     0xa98f3c: stur            w0, [x3, #0x3f]
     // 0xa98f40: ldur            x2, [fp, #-0x28]
     // 0xa98f44: r1 = Function '<anonymous closure>':.
-    //     0xa98f44: add             x1, PP, #0x58, lsl #12  ; [pp+0x58630] AnonymousClosure: (0xa9a12c), in [package:ballai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::build (0xa98c18)
+    //     0xa98f44: add             x1, PP, #0x58, lsl #12  ; [pp+0x58630] AnonymousClosure: (0xa9a12c), in [package:kourtai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::build (0xa98c18)
     //     0xa98f48: ldr             x1, [x1, #0x630]
     // 0xa98f4c: r0 = AllocateClosure()
     //     0xa98f4c: bl              #0xe553e0  ; AllocateClosureStub
@@ -578,7 +578,7 @@ class _FollowRequestsViewState extends State<dynamic> {
     //     0xa98f58: stur            w1, [x0, #0x2f]
     // 0xa98f5c: ldur            x2, [fp, #-0x28]
     // 0xa98f60: r1 = Function '<anonymous closure>':.
-    //     0xa98f60: add             x1, PP, #0x58, lsl #12  ; [pp+0x58638] AnonymousClosure: (0xa99a8c), in [package:ballai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::build (0xa98c18)
+    //     0xa98f60: add             x1, PP, #0x58, lsl #12  ; [pp+0x58638] AnonymousClosure: (0xa99a8c), in [package:kourtai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::build (0xa98c18)
     //     0xa98f64: ldr             x1, [x1, #0x638]
     // 0xa98f68: r0 = AllocateClosure()
     //     0xa98f68: bl              #0xe553e0  ; AllocateClosureStub
@@ -588,7 +588,7 @@ class _FollowRequestsViewState extends State<dynamic> {
     //     0xa98f74: stur            w1, [x0, #0x33]
     // 0xa98f78: ldur            x2, [fp, #-0x28]
     // 0xa98f7c: r1 = Function '<anonymous closure>':.
-    //     0xa98f7c: add             x1, PP, #0x58, lsl #12  ; [pp+0x58640] AnonymousClosure: (0xa999a0), in [package:ballai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::build (0xa98c18)
+    //     0xa98f7c: add             x1, PP, #0x58, lsl #12  ; [pp+0x58640] AnonymousClosure: (0xa999a0), in [package:kourtai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::build (0xa98c18)
     //     0xa98f80: ldr             x1, [x1, #0x640]
     // 0xa98f84: r0 = AllocateClosure()
     //     0xa98f84: bl              #0xe553e0  ; AllocateClosureStub
@@ -653,7 +653,7 @@ class _FollowRequestsViewState extends State<dynamic> {
     //     0xa999d4: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa999d8: ldur            x2, [fp, #-8]
     // 0xa999dc: r1 = Function '<anonymous closure>':.
-    //     0xa999dc: add             x1, PP, #0x58, lsl #12  ; [pp+0x58648] AnonymousClosure: (0xa99a40), in [package:ballai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::build (0xa98c18)
+    //     0xa999dc: add             x1, PP, #0x58, lsl #12  ; [pp+0x58648] AnonymousClosure: (0xa99a40), in [package:kourtai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::build (0xa98c18)
     //     0xa999e0: ldr             x1, [x1, #0x648]
     // 0xa999e4: stur            x0, [fp, #-8]
     // 0xa999e8: r0 = AllocateClosure()
@@ -755,7 +755,7 @@ class _FollowRequestsViewState extends State<dynamic> {
     // 0xa99ac4: mov             x1, x2
     // 0xa99ac8: mov             x2, x0
     // 0xa99acc: r0 = _confirmDecline()
-    //     0xa99acc: bl              #0xa99ae8  ; [package:ballai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::_confirmDecline
+    //     0xa99acc: bl              #0xa99ae8  ; [package:kourtai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::_confirmDecline
     // 0xa99ad0: r0 = Null
     //     0xa99ad0: mov             x0, NULL
     // 0xa99ad4: LeaveFrame
@@ -804,7 +804,7 @@ class _FollowRequestsViewState extends State<dynamic> {
     // 0xa99b40: b.eq            #0xa99bf4
     // 0xa99b44: ldur            x2, [fp, #-0x20]
     // 0xa99b48: r1 = Function '<anonymous closure>':.
-    //     0xa99b48: add             x1, PP, #0x58, lsl #12  ; [pp+0x58650] AnonymousClosure: (0xa99ee0), in [package:ballai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::_confirmDecline (0xa99ae8)
+    //     0xa99b48: add             x1, PP, #0x58, lsl #12  ; [pp+0x58650] AnonymousClosure: (0xa99ee0), in [package:kourtai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::_confirmDecline (0xa99ae8)
     //     0xa99b4c: ldr             x1, [x1, #0x650]
     // 0xa99b50: r0 = AllocateClosure()
     //     0xa99b50: bl              #0xe553e0  ; AllocateClosureStub
@@ -855,7 +855,7 @@ class _FollowRequestsViewState extends State<dynamic> {
     // 0xa99bd0: DecompressPointer r2
     //     0xa99bd0: add             x2, x2, HEAP, lsl #32
     // 0xa99bd4: r0 = declineFollowRequest()
-    //     0xa99bd4: bl              #0xa99c04  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::declineFollowRequest
+    //     0xa99bd4: bl              #0xa99c04  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::declineFollowRequest
     // 0xa99bd8: mov             x1, x0
     // 0xa99bdc: stur            x1, [fp, #-0x10]
     // 0xa99be0: r0 = Await()
@@ -907,7 +907,7 @@ class _FollowRequestsViewState extends State<dynamic> {
     //     0xa99f28: add             x1, PP, #0x58, lsl #12  ; [pp+0x58658] "Decline follow request\?"
     //     0xa99f2c: ldr             x1, [x1, #0x658]
     // 0xa99f30: r0 = L()
-    //     0xa99f30: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa99f30: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa99f34: stur            x0, [fp, #-0x18]
     // 0xa99f38: r0 = Text()
     //     0xa99f38: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -954,7 +954,7 @@ class _FollowRequestsViewState extends State<dynamic> {
     //     0xa99fa0: add             x1, PP, #0x58, lsl #12  ; [pp+0x58660] "%@ will not be able to follow you unless they request again."
     //     0xa99fa4: ldr             x1, [x1, #0x660]
     // 0xa99fa8: r0 = LF()
-    //     0xa99fa8: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xa99fa8: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xa99fac: stur            x0, [fp, #-8]
     // 0xa99fb0: r0 = Text()
     //     0xa99fb0: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -967,7 +967,7 @@ class _FollowRequestsViewState extends State<dynamic> {
     //     0xa99fc4: add             x1, PP, #0x27, lsl #12  ; [pp+0x27668] "Cancel"
     //     0xa99fc8: ldr             x1, [x1, #0x668]
     // 0xa99fcc: r0 = L()
-    //     0xa99fcc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa99fcc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa99fd0: stur            x0, [fp, #-8]
     // 0xa99fd4: r0 = Text()
     //     0xa99fd4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -978,7 +978,7 @@ class _FollowRequestsViewState extends State<dynamic> {
     //     0xa99fe4: stur            w0, [x3, #0xb]
     // 0xa99fe8: ldur            x2, [fp, #-0x10]
     // 0xa99fec: r1 = Function '<anonymous closure>':.
-    //     0xa99fec: add             x1, PP, #0x58, lsl #12  ; [pp+0x58668] AnonymousClosure: (0x658b4c), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible (0x658ea8)
+    //     0xa99fec: add             x1, PP, #0x58, lsl #12  ; [pp+0x58668] AnonymousClosure: (0x658b4c), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible (0x658ea8)
     //     0xa99ff0: ldr             x1, [x1, #0x668]
     // 0xa99ff4: r0 = AllocateClosure()
     //     0xa99ff4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1015,7 +1015,7 @@ class _FollowRequestsViewState extends State<dynamic> {
     //     0xa9a044: ldr             x1, [x1, #0xb18]
     // 0xa9a048: stur            x0, [fp, #-8]
     // 0xa9a04c: r0 = L()
-    //     0xa9a04c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa9a04c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa9a050: stur            x0, [fp, #-0x28]
     // 0xa9a054: r0 = Text()
     //     0xa9a054: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1026,7 +1026,7 @@ class _FollowRequestsViewState extends State<dynamic> {
     //     0xa9a064: stur            w0, [x3, #0xb]
     // 0xa9a068: ldur            x2, [fp, #-0x10]
     // 0xa9a06c: r1 = Function '<anonymous closure>':.
-    //     0xa9a06c: add             x1, PP, #0x58, lsl #12  ; [pp+0x58670] AnonymousClosure: (0x6587e8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentTrialExitReturnOfferAlertIfEligible (0x6148dc)
+    //     0xa9a06c: add             x1, PP, #0x58, lsl #12  ; [pp+0x58670] AnonymousClosure: (0x6587e8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentTrialExitReturnOfferAlertIfEligible (0x6148dc)
     //     0xa9a070: ldr             x1, [x1, #0x670]
     // 0xa9a074: r0 = AllocateClosure()
     //     0xa9a074: bl              #0xe553e0  ; AllocateClosureStub
@@ -1143,7 +1143,7 @@ class _FollowRequestsViewState extends State<dynamic> {
     // 0xa9a184: DecompressPointer r2
     //     0xa9a184: add             x2, x2, HEAP, lsl #32
     // 0xa9a188: r0 = acceptFollowRequest()
-    //     0xa9a188: bl              #0xa9a1b0  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::acceptFollowRequest
+    //     0xa9a188: bl              #0xa9a1b0  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::acceptFollowRequest
     // 0xa9a18c: r0 = Null
     //     0xa9a18c: mov             x0, NULL
     // 0xa9a190: LeaveFrame
@@ -1167,7 +1167,7 @@ class _FollowRequestsViewState extends State<dynamic> {
     //     0xb5c004: mov             fp, SP
     // 0xb5c008: ldr             x2, [fp, #0x10]
     // 0xb5c00c: r1 = Function 'dispose':.
-    //     0xb5c00c: add             x1, PP, #0x58, lsl #12  ; [pp+0x58608] AnonymousClosure: (0xb5c024), in [package:ballai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::dispose (0xb63200)
+    //     0xb5c00c: add             x1, PP, #0x58, lsl #12  ; [pp+0x58608] AnonymousClosure: (0xb5c024), in [package:kourtai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::dispose (0xb63200)
     //     0xb5c010: ldr             x1, [x1, #0x608]
     // 0xb5c014: r0 = AllocateClosure()
     //     0xb5c014: bl              #0xe553e0  ; AllocateClosureStub
@@ -1192,7 +1192,7 @@ class _FollowRequestsViewState extends State<dynamic> {
     //     0xb5c03c: cmp             SP, x16
     //     0xb5c040: b.ls            #0xb5c054
     // 0xb5c044: r0 = dispose()
-    //     0xb5c044: bl              #0xb63200  ; [package:ballai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::dispose
+    //     0xb5c044: bl              #0xb63200  ; [package:kourtai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::dispose
     // 0xb5c048: LeaveFrame
     //     0xb5c048: mov             SP, fp
     //     0xb5c04c: ldp             fp, lr, [SP], #0x10
@@ -1227,7 +1227,7 @@ class _FollowRequestsViewState extends State<dynamic> {
     // 0xb63234: mov             x2, x0
     // 0xb63238: stur            x3, [fp, #-8]
     // 0xb6323c: r1 = Function '_onVm@1281448119':.
-    //     0xb6323c: add             x1, PP, #0x58, lsl #12  ; [pp+0x58698] AnonymousClosure: (0x985f68), in [package:ballai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::_onVm (0x985fa0)
+    //     0xb6323c: add             x1, PP, #0x58, lsl #12  ; [pp+0x58698] AnonymousClosure: (0x985f68), in [package:kourtai/automatic/views/home/tab/tabs/you/follow_requests_view.dart] _FollowRequestsViewState::_onVm (0x985fa0)
     //     0xb63240: ldr             x1, [x1, #0x698]
     // 0xb63244: r0 = AllocateClosure()
     //     0xb63244: bl              #0xe553e0  ; AllocateClosureStub
@@ -1241,7 +1241,7 @@ class _FollowRequestsViewState extends State<dynamic> {
     // 0xb6325c: DecompressPointer r1
     //     0xb6325c: add             x1, x1, HEAP, lsl #32
     // 0xb63260: r0 = dispose()
-    //     0xb63260: bl              #0x9be6f0  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::dispose
+    //     0xb63260: bl              #0x9be6f0  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::dispose
     // 0xb63264: r0 = Null
     //     0xb63264: mov             x0, NULL
     // 0xb63268: LeaveFrame
@@ -1306,8 +1306,8 @@ class _RequestsEmpty extends StatelessWidget {
     //     0xc18734: cmp             SP, x16
     //     0xc18738: b.ls            #0xc188c8
     // 0xc1873c: mov             x1, x0
-    // 0xc18740: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc18740: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc18740: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc18740: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc18744: r16 = 0.700000
     //     0xc18744: add             x16, PP, #0x2d, lsl #12  ; [pp+0x2d4e0] 0.7
     //     0xc18748: ldr             x16, [x16, #0x4e0]
@@ -1340,11 +1340,11 @@ class _RequestsEmpty extends StatelessWidget {
     //     0xc18790: add             x1, PP, #0x5a, lsl #12  ; [pp+0x5a1b8] "No pending follow requests."
     //     0xc18794: ldr             x1, [x1, #0x1b8]
     // 0xc18798: r0 = L()
-    //     0xc18798: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc18798: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1879c: ldur            x1, [fp, #-8]
     // 0xc187a0: stur            x0, [fp, #-8]
-    // 0xc187a4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc187a4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc187a4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc187a4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc187a8: stur            x0, [fp, #-0x10]
     // 0xc187ac: r0 = TextStyle()
     //     0xc187ac: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)

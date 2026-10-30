@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_data.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_data.dart
 
 // class id: 1049036, size: 0x8
 class :: {
@@ -26,7 +26,7 @@ class ShareProfileCardData extends Object {
     //     0x98ba90: cmp             SP, x16
     //     0x98ba94: b.ls            #0x98bce0
     // 0x98ba98: r1 = Function '<anonymous closure>': static.
-    //     0x98ba98: add             x1, PP, #0x42, lsl #12  ; [pp+0x42d38] AnonymousClosure: static (0x98c270), in [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
+    //     0x98ba98: add             x1, PP, #0x42, lsl #12  ; [pp+0x42d38] AnonymousClosure: static (0x98c270), in [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
     //     0x98ba9c: ldr             x1, [x1, #0xd38]
     // 0x98baa0: r2 = Null
     //     0x98baa0: mov             x2, NULL
@@ -42,7 +42,7 @@ class ShareProfileCardData extends Object {
     // 0x98babc: r0 = fold()
     //     0x98babc: bl              #0x8b192c  ; [dart:collection] ListBase::fold
     // 0x98bac0: r1 = Function '<anonymous closure>': static.
-    //     0x98bac0: add             x1, PP, #0x42, lsl #12  ; [pp+0x42d40] AnonymousClosure: static (0x98c22c), in [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
+    //     0x98bac0: add             x1, PP, #0x42, lsl #12  ; [pp+0x42d40] AnonymousClosure: static (0x98c22c), in [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
     //     0x98bac4: ldr             x1, [x1, #0xd40]
     // 0x98bac8: r2 = Null
     //     0x98bac8: mov             x2, NULL
@@ -131,7 +131,7 @@ class ShareProfileCardData extends Object {
     // 0x98bbd4: ldur            x3, [fp, #-0x30]
     // 0x98bbd8: stur            x8, [fp, #-0x28]
     // 0x98bbdc: r1 = Function '<anonymous closure>': static.
-    //     0x98bbdc: add             x1, PP, #0x42, lsl #12  ; [pp+0x42d50] AnonymousClosure: static (0x98bf84), in [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
+    //     0x98bbdc: add             x1, PP, #0x42, lsl #12  ; [pp+0x42d50] AnonymousClosure: static (0x98bf84), in [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
     //     0x98bbe0: ldr             x1, [x1, #0xd50]
     // 0x98bbe4: r2 = Null
     //     0x98bbe4: mov             x2, NULL
@@ -178,10 +178,10 @@ class ShareProfileCardData extends Object {
     // 0x98bc5c: LoadField: d0 = r0->field_7
     //     0x98bc5c: ldur            d0, [x0, #7]
     // 0x98bc60: r0 = _formatElapsed()
-    //     0x98bc60: bl              #0x98bd84  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_formatElapsed
+    //     0x98bc60: bl              #0x98bd84  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_formatElapsed
     // 0x98bc64: stur            x0, [fp, #-0x20]
     // 0x98bc68: r0 = profileShareStatsSectionTitle()
-    //     0x98bc68: bl              #0x98bd10  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_data.dart] ShareProfileCardData::profileShareStatsSectionTitle
+    //     0x98bc68: bl              #0x98bd10  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_data.dart] ShareProfileCardData::profileShareStatsSectionTitle
     // 0x98bc6c: stur            x0, [fp, #-0x50]
     // 0x98bc70: r0 = ShareProfileCardData()
     //     0x98bc70: bl              #0x98bd04  ; AllocateShareProfileCardDataStub -> ShareProfileCardData (size=0x44)
@@ -282,7 +282,7 @@ class ShareProfileCardData extends Object {
     //     0x98bd64: add             x1, PP, #0x42, lsl #12  ; [pp+0x42d58] "Last %d weeks"
     //     0x98bd68: ldr             x1, [x1, #0xd58]
     // 0x98bd6c: r0 = LF()
-    //     0x98bd6c: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x98bd6c: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x98bd70: LeaveFrame
     //     0x98bd70: mov             SP, fp
     //     0x98bd74: ldp             fp, lr, [SP], #0x10

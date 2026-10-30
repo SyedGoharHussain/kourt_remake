@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/profile_header_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/profile_header_view.dart
 
 // class id: 1048882, size: 0x8
 class :: {
@@ -70,11 +70,11 @@ class _StaffCapsule extends StatelessWidget {
     //     0xbdc368: ldr             x0, [x0, #0xc8]
     // 0xbdc36c: StoreField: r2->field_23 = r0
     //     0xbdc36c: stur            w0, [x2, #0x23]
-    // 0xbdc370: r1 = "Ball AI Staff"
-    //     0xbdc370: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4ec70] "Ball AI Staff"
+    // 0xbdc370: r1 = "Kourt AI Staff"
+    //     0xbdc370: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4ec70] "Kourt AI Staff"
     //     0xbdc374: ldr             x1, [x1, #0xc70]
     // 0xbdc378: r0 = L()
-    //     0xbdc378: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdc378: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdc37c: stur            x0, [fp, #-8]
     // 0xbdc380: r0 = Text()
     //     0xbdc380: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -217,12 +217,12 @@ class ProfileHeaderView extends StatelessWidget {
     // 0xbdba90: StoreField: r2->field_f = r0
     //     0xbdba90: stur            w0, [x2, #0xf]
     // 0xbdba94: mov             x1, x0
-    // 0xbdba98: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbdba98: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbdba98: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbdba98: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbdba9c: ldur            x1, [fp, #-0x10]
     // 0xbdbaa0: stur            x0, [fp, #-0x20]
-    // 0xbdbaa4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbdbaa4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbdbaa4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbdbaa4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbdbaa8: mov             x2, x0
     // 0xbdbaac: ldur            x0, [fp, #-8]
     // 0xbdbab0: stur            x2, [fp, #-0x30]
@@ -247,12 +247,12 @@ class ProfileHeaderView extends StatelessWidget {
     // 0xbdbae4: ldur            x0, [fp, #-0x28]
     // 0xbdbae8: mov             x1, x0
     // 0xbdbaec: stur            x2, [fp, #-8]
-    // 0xbdbaf0: r0 = isBallAIOrgMember()
-    //     0xbdbaf0: bl              #0x651600  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::isBallAIOrgMember
+    // 0xbdbaf0: r0 = isKourtAIOrgMember()
+    //     0xbdbaf0: bl              #0x651600  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::isKourtAIOrgMember
     // 0xbdbaf4: ldur            x1, [fp, #-0x10]
     // 0xbdbaf8: stur            x0, [fp, #-0x10]
-    // 0xbdbafc: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xbdbafc: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xbdbafc: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xbdbafc: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xbdbb00: stur            x0, [fp, #-0x38]
     // 0xbdbb04: r0 = Radius()
     //     0xbdbb04: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -884,7 +884,7 @@ class ProfileHeaderView extends StatelessWidget {
     //     0xbdc17c: stur            w0, [x3, #0xb]
     // 0xbdc180: ldur            x2, [fp, #-0x18]
     // 0xbdc184: r1 = Function '<anonymous closure>':.
-    //     0xbdc184: add             x1, PP, #0x49, lsl #12  ; [pp+0x49d68] AnonymousClosure: (0xbdc234), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/profile_header_view.dart] ProfileHeaderView::build (0xbdba54)
+    //     0xbdc184: add             x1, PP, #0x49, lsl #12  ; [pp+0x49d68] AnonymousClosure: (0xbdc234), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/profile_header_view.dart] ProfileHeaderView::build (0xbdba54)
     //     0xbdc188: ldr             x1, [x1, #0xd68]
     // 0xbdc18c: r0 = AllocateClosure()
     //     0xbdc18c: bl              #0xe553e0  ; AllocateClosureStub
@@ -984,7 +984,7 @@ class ProfileHeaderView extends StatelessWidget {
     // 0xbdc268: r0 = of()
     //     0xbdc268: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xbdc26c: r1 = Function '<anonymous closure>':.
-    //     0xbdc26c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49d70] AnonymousClosure: (0xa8d0e0), in [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openPictureSheet (0xa8d294)
+    //     0xbdc26c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49d70] AnonymousClosure: (0xa8d0e0), in [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openPictureSheet (0xa8d294)
     //     0xbdc270: ldr             x1, [x1, #0xd70]
     // 0xbdc274: r2 = Null
     //     0xbdc274: mov             x2, NULL

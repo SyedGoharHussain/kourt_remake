@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart
+// lib: , url: package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart
 
 // class id: 1048669, size: 0x8
 class :: {
@@ -47,7 +47,7 @@ class :: {
     // 0x6614e0: ldr             x16, [fp, #0x10]
     // 0x6614e4: str             x16, [SP]
     // 0x6614e8: r0 = firebaseMessagingBackgroundHandler()
-    //     0x6614e8: bl              #0x66036c  ; [package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart] ::firebaseMessagingBackgroundHandler
+    //     0x6614e8: bl              #0x66036c  ; [package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart] ::firebaseMessagingBackgroundHandler
     // 0x6614ec: LeaveFrame
     //     0x6614ec: mov             SP, fp
     //     0x6614f0: ldp             fp, lr, [SP], #0x10
@@ -60,7 +60,7 @@ class :: {
 }
 
 // class id: 5135, size: 0x8, field offset: 0x8
-abstract class BallAiFirebaseMessaging extends Object {
+abstract class KourtAiFirebaseMessaging extends Object {
 
   static _ syncTokenForUser(/* No info */) async {
     // ** addr: 0x660320, size: 0x4c
@@ -81,7 +81,7 @@ abstract class BallAiFirebaseMessaging extends Object {
     //     0x660344: bl              #0x60afc8  ; InitAsyncStub
     // 0x660348: ldur            x1, [fp, #-0x10]
     // 0x66034c: r0 = _syncTokenForCurrentUser()
-    //     0x66034c: bl              #0x661524  ; [package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart] BallAiFirebaseMessaging::_syncTokenForCurrentUser
+    //     0x66034c: bl              #0x661524  ; [package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart] KourtAiFirebaseMessaging::_syncTokenForCurrentUser
     // 0x660350: mov             x1, x0
     // 0x660354: stur            x1, [fp, #-0x10]
     // 0x660358: r0 = Await()
@@ -111,9 +111,9 @@ abstract class BallAiFirebaseMessaging extends Object {
     // 0x661544: cmp             w0, NULL
     // 0x661548: b.ne            #0x661578
     // 0x66154c: r0 = _syncTokenWithRetry()
-    //     0x66154c: bl              #0x66158c  ; [package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart] BallAiFirebaseMessaging::_syncTokenWithRetry
+    //     0x66154c: bl              #0x66158c  ; [package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart] KourtAiFirebaseMessaging::_syncTokenWithRetry
     // 0x661550: r1 = Function '<anonymous closure>': static.
-    //     0x661550: add             x1, PP, #0x20, lsl #12  ; [pp+0x20498] AnonymousClosure: static (0x6be2f8), in [package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart] BallAiFirebaseMessaging::_syncTokenForCurrentUser (0x661524)
+    //     0x661550: add             x1, PP, #0x20, lsl #12  ; [pp+0x20498] AnonymousClosure: static (0x6be2f8), in [package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart] KourtAiFirebaseMessaging::_syncTokenForCurrentUser (0x661524)
     //     0x661554: ldr             x1, [x1, #0x498]
     // 0x661558: r2 = Null
     //     0x661558: mov             x2, NULL
@@ -250,7 +250,7 @@ abstract class BallAiFirebaseMessaging extends Object {
     // 0x6616c0: ldur            x2, [fp, #-0x68]
     // 0x6616c4: stur            x0, [fp, #-0x80]
     // 0x6616c8: r0 = _persistToken()
-    //     0x6616c8: bl              #0x661758  ; [package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart] BallAiFirebaseMessaging::_persistToken
+    //     0x6616c8: bl              #0x661758  ; [package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart] KourtAiFirebaseMessaging::_persistToken
     // 0x6616cc: mov             x1, x0
     // 0x6616d0: stur            x1, [fp, #-0x88]
     // 0x6616d4: r0 = Await()
@@ -382,13 +382,13 @@ abstract class BallAiFirebaseMessaging extends Object {
     //     0x661824: add             x4, PP, #0x20, lsl #12  ; [pp+0x204b0] List(7) [0, 0x2, 0x1, 0x1, "fcmToken", 0x1, Null]
     //     0x661828: ldr             x4, [x4, #0x4b0]
     // 0x66182c: r0 = copyWith()
-    //     0x66182c: bl              #0x663774  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::copyWith
+    //     0x66182c: bl              #0x663774  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::copyWith
     // 0x661830: ldur            x1, [fp, #-0x88]
     // 0x661834: mov             x2, x0
     // 0x661838: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x661838: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x66183c: r0 = updateUser()
-    //     0x66183c: bl              #0x6618fc  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::updateUser
+    //     0x66183c: bl              #0x6618fc  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::updateUser
     // 0x661840: mov             x1, x0
     // 0x661844: stur            x1, [fp, #-0x98]
     // 0x661848: r0 = Await()
@@ -413,7 +413,7 @@ abstract class BallAiFirebaseMessaging extends Object {
     //     0x661880: add             x4, PP, #0x1b, lsl #12  ; [pp+0x1b150] List(7) [0, 0x3, 0x1, 0x2, "fcmToken", 0x2, Null]
     //     0x661884: ldr             x4, [x4, #0x150]
     // 0x661888: r0 = syncSubscriberAttributes()
-    //     0x661888: bl              #0x65a918  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::syncSubscriberAttributes
+    //     0x661888: bl              #0x65a918  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::syncSubscriberAttributes
     // 0x66188c: b               #0x6618ec
     // 0x661890: sub             SP, fp, #0xa8
     // 0x661894: stur            x0, [fp, #-0x80]
@@ -494,16 +494,16 @@ abstract class BallAiFirebaseMessaging extends Object {
     // 0x950270: tbnz            w0, #4, #0x95029c
     // 0x950274: ldur            x1, [fp, #-0x68]
     // 0x950278: r0 = _registerUserListener()
-    //     0x950278: bl              #0x95143c  ; [package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart] BallAiFirebaseMessaging::_registerUserListener
+    //     0x950278: bl              #0x95143c  ; [package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart] KourtAiFirebaseMessaging::_registerUserListener
     // 0x95027c: ldur            x1, [fp, #-0x68]
     // 0x950280: r0 = _syncTokenForCurrentUser()
-    //     0x950280: bl              #0x661524  ; [package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart] BallAiFirebaseMessaging::_syncTokenForCurrentUser
+    //     0x950280: bl              #0x661524  ; [package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart] KourtAiFirebaseMessaging::_syncTokenForCurrentUser
     // 0x950284: mov             x1, x0
     // 0x950288: stur            x1, [fp, #-0x70]
     // 0x95028c: r0 = Await()
     //     0x95028c: bl              #0x60ad4c  ; AwaitStub
     // 0x950290: r0 = _wireNotificationOpenHandlers()
-    //     0x950290: bl              #0x951038  ; [package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart] BallAiFirebaseMessaging::_wireNotificationOpenHandlers
+    //     0x950290: bl              #0x951038  ; [package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart] KourtAiFirebaseMessaging::_wireNotificationOpenHandlers
     // 0x950294: r0 = Null
     //     0x950294: mov             x0, NULL
     // 0x950298: r0 = ReturnAsyncNotFuture()
@@ -515,7 +515,7 @@ abstract class BallAiFirebaseMessaging extends Object {
     //     0x9502a4: str             x0, [x1, #0x1808]
     // 0x9502a8: ldur            x1, [fp, #-0x68]
     // 0x9502ac: r0 = _registerUserListener()
-    //     0x9502ac: bl              #0x95143c  ; [package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart] BallAiFirebaseMessaging::_registerUserListener
+    //     0x9502ac: bl              #0x95143c  ; [package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart] KourtAiFirebaseMessaging::_registerUserListener
     // 0x9502b0: r4 = const [0, 0, 0, 0, null]
     //     0x9502b0: add             x4, PP, #0xc, lsl #12  ; [pp+0xc818] List(5) [0, 0, 0, 0, Null]
     //     0x9502b4: ldr             x4, [x4, #0x818]
@@ -629,7 +629,7 @@ abstract class BallAiFirebaseMessaging extends Object {
     // 0x9503e8: r0 = onTokenRefresh()
     //     0x9503e8: bl              #0x950508  ; [package:firebase_messaging/firebase_messaging.dart] FirebaseMessaging::onTokenRefresh
     // 0x9503ec: r1 = Function '<anonymous closure>': static.
-    //     0x9503ec: add             x1, PP, #0x21, lsl #12  ; [pp+0x21348] AnonymousClosure: static (0x951938), in [package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart] BallAiFirebaseMessaging::ensureStarted (0x950230)
+    //     0x9503ec: add             x1, PP, #0x21, lsl #12  ; [pp+0x21348] AnonymousClosure: static (0x951938), in [package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart] KourtAiFirebaseMessaging::ensureStarted (0x950230)
     //     0x9503f0: ldr             x1, [x1, #0x348]
     // 0x9503f4: r2 = Null
     //     0x9503f4: mov             x2, NULL
@@ -637,7 +637,7 @@ abstract class BallAiFirebaseMessaging extends Object {
     // 0x9503fc: r0 = AllocateClosure()
     //     0x9503fc: bl              #0xe553e0  ; AllocateClosureStub
     // 0x950400: r1 = Function '<anonymous closure>': static.
-    //     0x950400: add             x1, PP, #0x21, lsl #12  ; [pp+0x21350] AnonymousClosure: static (0x9518b4), in [package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart] BallAiFirebaseMessaging::ensureStarted (0x950230)
+    //     0x950400: add             x1, PP, #0x21, lsl #12  ; [pp+0x21350] AnonymousClosure: static (0x9518b4), in [package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart] KourtAiFirebaseMessaging::ensureStarted (0x950230)
     //     0x950404: ldr             x1, [x1, #0x350]
     // 0x950408: r2 = Null
     //     0x950408: mov             x2, NULL
@@ -670,7 +670,7 @@ abstract class BallAiFirebaseMessaging extends Object {
     // 0x950458: r0 = onMessage()
     //     0x950458: bl              #0x9504a4  ; [package:firebase_messaging/firebase_messaging.dart] FirebaseMessaging::onMessage
     // 0x95045c: r1 = Function '<anonymous closure>': static.
-    //     0x95045c: add             x1, PP, #0x21, lsl #12  ; [pp+0x21358] AnonymousClosure: static (0x951544), in [package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart] BallAiFirebaseMessaging::ensureStarted (0x950230)
+    //     0x95045c: add             x1, PP, #0x21, lsl #12  ; [pp+0x21358] AnonymousClosure: static (0x951544), in [package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart] KourtAiFirebaseMessaging::ensureStarted (0x950230)
     //     0x950460: ldr             x1, [x1, #0x358]
     // 0x950464: r2 = Null
     //     0x950464: mov             x2, NULL
@@ -688,9 +688,9 @@ abstract class BallAiFirebaseMessaging extends Object {
     //     0x950484: str             x0, [x1, #0x1818]
     // 0x950488: ldur            x1, [fp, #-0x68]
     // 0x95048c: r0 = _syncTokenForCurrentUser()
-    //     0x95048c: bl              #0x661524  ; [package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart] BallAiFirebaseMessaging::_syncTokenForCurrentUser
+    //     0x95048c: bl              #0x661524  ; [package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart] KourtAiFirebaseMessaging::_syncTokenForCurrentUser
     // 0x950490: r0 = _wireNotificationOpenHandlers()
-    //     0x950490: bl              #0x951038  ; [package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart] BallAiFirebaseMessaging::_wireNotificationOpenHandlers
+    //     0x950490: bl              #0x951038  ; [package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart] KourtAiFirebaseMessaging::_wireNotificationOpenHandlers
     // 0x950494: r0 = Null
     //     0x950494: mov             x0, NULL
     // 0x950498: r0 = ReturnAsyncNotFuture()
@@ -725,7 +725,7 @@ abstract class BallAiFirebaseMessaging extends Object {
     // 0x951074: r0 = onMessageOpenedApp()
     //     0x951074: bl              #0x95126c  ; [package:firebase_messaging/firebase_messaging.dart] FirebaseMessaging::onMessageOpenedApp
     // 0x951078: r1 = Function '<anonymous closure>': static.
-    //     0x951078: add             x1, PP, #0x21, lsl #12  ; [pp+0x21478] AnonymousClosure: static (0x951394), in [package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart] BallAiFirebaseMessaging::_wireNotificationOpenHandlers (0x951038)
+    //     0x951078: add             x1, PP, #0x21, lsl #12  ; [pp+0x21478] AnonymousClosure: static (0x951394), in [package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart] KourtAiFirebaseMessaging::_wireNotificationOpenHandlers (0x951038)
     //     0x95107c: ldr             x1, [x1, #0x478]
     // 0x951080: r2 = Null
     //     0x951080: mov             x2, NULL
@@ -755,7 +755,7 @@ abstract class BallAiFirebaseMessaging extends Object {
     // 0x9510c0: r0 = getInitialMessage()
     //     0x9510c0: bl              #0x951108  ; [package:firebase_messaging/firebase_messaging.dart] FirebaseMessaging::getInitialMessage
     // 0x9510c4: r1 = Function '<anonymous closure>': static.
-    //     0x9510c4: add             x1, PP, #0x21, lsl #12  ; [pp+0x21480] AnonymousClosure: static (0x9512d0), in [package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart] BallAiFirebaseMessaging::_wireNotificationOpenHandlers (0x951038)
+    //     0x9510c4: add             x1, PP, #0x21, lsl #12  ; [pp+0x21480] AnonymousClosure: static (0x9512d0), in [package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart] KourtAiFirebaseMessaging::_wireNotificationOpenHandlers (0x951038)
     //     0x9510c8: ldr             x1, [x1, #0x480]
     // 0x9510cc: r2 = Null
     //     0x9510cc: mov             x2, NULL
@@ -846,7 +846,7 @@ abstract class BallAiFirebaseMessaging extends Object {
     // 0x951370: b.eq            #0x95137c
     // 0x951374: ldur            x2, [fp, #-8]
     // 0x951378: r0 = handleRemoteMessage()
-    //     0x951378: bl              #0x65df88  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::handleRemoteMessage
+    //     0x951378: bl              #0x65df88  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::handleRemoteMessage
     // 0x95137c: r0 = Null
     //     0x95137c: mov             x0, NULL
     // 0x951380: LeaveFrame
@@ -912,7 +912,7 @@ abstract class BallAiFirebaseMessaging extends Object {
     // 0x951418: b.eq            #0x951424
     // 0x95141c: ldur            x2, [fp, #-8]
     // 0x951420: r0 = handleRemoteMessage()
-    //     0x951420: bl              #0x65df88  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::handleRemoteMessage
+    //     0x951420: bl              #0x65df88  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::handleRemoteMessage
     // 0x951424: r0 = Null
     //     0x951424: mov             x0, NULL
     // 0x951428: LeaveFrame
@@ -989,7 +989,7 @@ abstract class BallAiFirebaseMessaging extends Object {
     //     0x9514d4: cmp             SP, x16
     //     0x9514d8: b.ls            #0x9514ec
     // 0x9514dc: r0 = _onUserManagerUpdate()
-    //     0x9514dc: bl              #0x9514f4  ; [package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart] BallAiFirebaseMessaging::_onUserManagerUpdate
+    //     0x9514dc: bl              #0x9514f4  ; [package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart] KourtAiFirebaseMessaging::_onUserManagerUpdate
     // 0x9514e0: LeaveFrame
     //     0x9514e0: mov             SP, fp
     //     0x9514e4: ldp             fp, lr, [SP], #0x10
@@ -1021,7 +1021,7 @@ abstract class BallAiFirebaseMessaging extends Object {
     // 0x951524: ret
     //     0x951524: ret             
     // 0x951528: r0 = _syncTokenForCurrentUser()
-    //     0x951528: bl              #0x661524  ; [package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart] BallAiFirebaseMessaging::_syncTokenForCurrentUser
+    //     0x951528: bl              #0x661524  ; [package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart] KourtAiFirebaseMessaging::_syncTokenForCurrentUser
     // 0x95152c: r0 = Null
     //     0x95152c: mov             x0, NULL
     // 0x951530: LeaveFrame
@@ -1169,7 +1169,7 @@ abstract class BallAiFirebaseMessaging extends Object {
     //     0x9516a8: ldur            w0, [x1, #7]
     // 0x9516ac: cbz             w0, #0x9516c4
     // 0x9516b0: r0 = showBreakdownReadyOnce()
-    //     0x9516b0: bl              #0x73b7c0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::showBreakdownReadyOnce
+    //     0x9516b0: bl              #0x73b7c0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::showBreakdownReadyOnce
     // 0x9516b4: r0 = Null
     //     0x9516b4: mov             x0, NULL
     // 0x9516b8: LeaveFrame
@@ -1309,8 +1309,8 @@ abstract class BallAiFirebaseMessaging extends Object {
     // 0x951854: b.lt            #0x9518ac
     // 0x951858: stur            x3, [fp, #-0x30]
     // 0x95185c: cbnz            w0, #0x95186c
-    // 0x951860: r5 = "Ball AI"
-    //     0x951860: add             x5, PP, #0x11, lsl #12  ; [pp+0x11250] "Ball AI"
+    // 0x951860: r5 = "Kourt AI"
+    //     0x951860: add             x5, PP, #0x11, lsl #12  ; [pp+0x11250] "Kourt AI"
     //     0x951864: ldr             x5, [x5, #0x250]
     // 0x951868: b               #0x951870
     // 0x95186c: ldur            x5, [fp, #-0x20]
@@ -1325,7 +1325,7 @@ abstract class BallAiFirebaseMessaging extends Object {
     // 0x951888: mov             x3, x0
     // 0x95188c: ldur            x5, [fp, #-0x10]
     // 0x951890: r0 = showNow()
-    //     0x951890: bl              #0x73b910  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::showNow
+    //     0x951890: bl              #0x73b910  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::showNow
     // 0x951894: r0 = Null
     //     0x951894: mov             x0, NULL
     // 0x951898: LeaveFrame
@@ -1408,7 +1408,7 @@ abstract class BallAiFirebaseMessaging extends Object {
     // 0x951958: b.eq            #0x951964
     // 0x95195c: ldr             x1, [fp, #0x10]
     // 0x951960: r0 = _persistToken()
-    //     0x951960: bl              #0x661758  ; [package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart] BallAiFirebaseMessaging::_persistToken
+    //     0x951960: bl              #0x661758  ; [package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart] KourtAiFirebaseMessaging::_persistToken
     // 0x951964: r0 = Null
     //     0x951964: mov             x0, NULL
     // 0x951968: LeaveFrame

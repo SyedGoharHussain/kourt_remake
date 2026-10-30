@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/managers/misc/deep_link_params.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/managers/misc/deep_link_params.dart
 
 // class id: 1048657, size: 0x8
 class :: {
@@ -156,11 +156,11 @@ class DeepLinkParams extends Object {
     //     0xc2d80c: b.ls            #0xc2d88c
     // 0xc2d810: mov             x1, x0
     // 0xc2d814: r0 = shouldCaptureCppAttribution()
-    //     0xc2d814: bl              #0xc2db48  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::shouldCaptureCppAttribution
+    //     0xc2d814: bl              #0xc2db48  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::shouldCaptureCppAttribution
     // 0xc2d818: tbnz            w0, #4, #0xc2d830
     // 0xc2d81c: ldur            x1, [fp, #-8]
     // 0xc2d820: r0 = cppSourceTag()
-    //     0xc2d820: bl              #0xc2d9f4  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::cppSourceTag
+    //     0xc2d820: bl              #0xc2d9f4  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::cppSourceTag
     // 0xc2d824: LeaveFrame
     //     0xc2d824: mov             SP, fp
     //     0xc2d828: ldp             fp, lr, [SP], #0x10
@@ -168,7 +168,7 @@ class DeepLinkParams extends Object {
     //     0xc2d82c: ret             
     // 0xc2d830: ldur            x1, [fp, #-8]
     // 0xc2d834: r0 = sub1IsTypedValue()
-    //     0xc2d834: bl              #0xc2d6a0  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::sub1IsTypedValue
+    //     0xc2d834: bl              #0xc2d6a0  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::sub1IsTypedValue
     // 0xc2d838: tbnz            w0, #4, #0xc2d858
     // 0xc2d83c: ldur            x0, [fp, #-8]
     // 0xc2d840: LoadField: r1 = r0->field_f
@@ -176,7 +176,7 @@ class DeepLinkParams extends Object {
     // 0xc2d844: DecompressPointer r1
     //     0xc2d844: add             x1, x1, HEAP, lsl #32
     // 0xc2d848: r0 = _normalizedCampaignTag()
-    //     0xc2d848: bl              #0xc2d894  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::_normalizedCampaignTag
+    //     0xc2d848: bl              #0xc2d894  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::_normalizedCampaignTag
     // 0xc2d84c: LeaveFrame
     //     0xc2d84c: mov             SP, fp
     //     0xc2d850: ldp             fp, lr, [SP], #0x10
@@ -188,7 +188,7 @@ class DeepLinkParams extends Object {
     // 0xc2d860: DecompressPointer r1
     //     0xc2d860: add             x1, x1, HEAP, lsl #32
     // 0xc2d864: r0 = _normalizedCampaignTag()
-    //     0xc2d864: bl              #0xc2d894  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::_normalizedCampaignTag
+    //     0xc2d864: bl              #0xc2d894  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::_normalizedCampaignTag
     // 0xc2d868: cmp             w0, NULL
     // 0xc2d86c: b.ne            #0xc2d880
     // 0xc2d870: ldur            x0, [fp, #-8]
@@ -197,7 +197,7 @@ class DeepLinkParams extends Object {
     // 0xc2d878: DecompressPointer r1
     //     0xc2d878: add             x1, x1, HEAP, lsl #32
     // 0xc2d87c: r0 = _normalizedCampaignTag()
-    //     0xc2d87c: bl              #0xc2d894  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::_normalizedCampaignTag
+    //     0xc2d87c: bl              #0xc2d894  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::_normalizedCampaignTag
     // 0xc2d880: LeaveFrame
     //     0xc2d880: mov             SP, fp
     //     0xc2d884: ldp             fp, lr, [SP], #0x10
@@ -262,7 +262,7 @@ class DeepLinkParams extends Object {
     //     0xc2d928: ldp             fp, lr, [SP], #0x10
     // 0xc2d92c: ret
     //     0xc2d92c: ret             
-    // 0xc2d930: r0 = InitLateStaticField(0xd58) // [package:ballai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::_campaignTagPattern
+    // 0xc2d930: r0 = InitLateStaticField(0xd58) // [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::_campaignTagPattern
     //     0xc2d930: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xc2d934: ldr             x0, [x0, #0x1ab0]
     //     0xc2d938: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -410,7 +410,7 @@ class DeepLinkParams extends Object {
     // 0xc2dab4: tbnz            w0, #4, #0xc2dadc
     // 0xc2dab8: ldur            x1, [fp, #-8]
     // 0xc2dabc: r0 = _normalizedCampaignTag()
-    //     0xc2dabc: bl              #0xc2d894  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::_normalizedCampaignTag
+    //     0xc2dabc: bl              #0xc2d894  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::_normalizedCampaignTag
     // 0xc2dac0: cmp             w0, NULL
     // 0xc2dac4: b.ne            #0xc2dad0
     // 0xc2dac8: r0 = "cpp_lets_hoop"
@@ -436,7 +436,7 @@ class DeepLinkParams extends Object {
     // 0xc2db04: tbnz            w0, #4, #0xc2db2c
     // 0xc2db08: ldur            x1, [fp, #-0x10]
     // 0xc2db0c: r0 = _normalizedCampaignTag()
-    //     0xc2db0c: bl              #0xc2d894  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::_normalizedCampaignTag
+    //     0xc2db0c: bl              #0xc2d894  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::_normalizedCampaignTag
     // 0xc2db10: cmp             w0, NULL
     // 0xc2db14: b.ne            #0xc2db20
     // 0xc2db18: r0 = "cpp_lets_hoop"
@@ -607,7 +607,7 @@ class DeepLinkParams extends Object {
     //     0xc2de70: blr             lr
     // 0xc2de74: mov             x1, x0
     // 0xc2de78: r0 = _fromQuery()
-    //     0xc2de78: bl              #0xc2e0e4  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::_fromQuery
+    //     0xc2de78: bl              #0xc2e0e4  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::_fromQuery
     // 0xc2de7c: cmp             w0, NULL
     // 0xc2de80: b.eq            #0xc2de90
     // 0xc2de84: LeaveFrame
@@ -630,7 +630,7 @@ class DeepLinkParams extends Object {
     //     0xc2deb4: blr             lr
     // 0xc2deb8: mov             x1, x0
     // 0xc2debc: r0 = _fromRaw()
-    //     0xc2debc: bl              #0xc2ded4  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::_fromRaw
+    //     0xc2debc: bl              #0xc2ded4  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::_fromRaw
     // 0xc2dec0: LeaveFrame
     //     0xc2dec0: mov             SP, fp
     //     0xc2dec4: ldp             fp, lr, [SP], #0x10
@@ -659,7 +659,7 @@ class DeepLinkParams extends Object {
     //     0xc2def8: add             x1, PP, #0x13, lsl #12  ; [pp+0x13ad8] "deep_link_value"
     //     0xc2defc: ldr             x1, [x1, #0xad8]
     // 0xc2df00: r0 = _extractNamed()
-    //     0xc2df00: bl              #0xc2df84  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::_extractNamed
+    //     0xc2df00: bl              #0xc2df84  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::_extractNamed
     // 0xc2df04: stur            x0, [fp, #-0x10]
     // 0xc2df08: cmp             w0, NULL
     // 0xc2df0c: b.ne            #0xc2df20
@@ -675,14 +675,14 @@ class DeepLinkParams extends Object {
     //     0xc2df24: add             x1, PP, #0x13, lsl #12  ; [pp+0x134e0] "deep_link_sub1"
     //     0xc2df28: ldr             x1, [x1, #0x4e0]
     // 0xc2df2c: r0 = _extractNamed()
-    //     0xc2df2c: bl              #0xc2df84  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::_extractNamed
+    //     0xc2df2c: bl              #0xc2df84  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::_extractNamed
     // 0xc2df30: ldur            x2, [fp, #-8]
     // 0xc2df34: r1 = "deep_link_sub2"
     //     0xc2df34: add             x1, PP, #0x13, lsl #12  ; [pp+0x13ae0] "deep_link_sub2"
     //     0xc2df38: ldr             x1, [x1, #0xae0]
     // 0xc2df3c: stur            x0, [fp, #-8]
     // 0xc2df40: r0 = _extractNamed()
-    //     0xc2df40: bl              #0xc2df84  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::_extractNamed
+    //     0xc2df40: bl              #0xc2df84  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::_extractNamed
     // 0xc2df44: stur            x0, [fp, #-0x18]
     // 0xc2df48: r0 = DeepLinkParams()
     //     0xc2df48: bl              #0xc2df78  ; AllocateDeepLinkParamsStub -> DeepLinkParams (size=0x14)
@@ -825,7 +825,7 @@ class DeepLinkParams extends Object {
     //     0xc2e0c4: bl              #0x72dfa8  ; [dart:core] Uri::decodeComponent
     // 0xc2e0c8: mov             x1, x0
     // 0xc2e0cc: r0 = _normalizeRedeemCode()
-    //     0xc2e0cc: bl              #0x65eb8c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
+    //     0xc2e0cc: bl              #0x65eb8c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
     // 0xc2e0d0: LeaveFrame
     //     0xc2e0d0: mov             SP, fp
     //     0xc2e0d4: ldp             fp, lr, [SP], #0x10
@@ -862,7 +862,7 @@ class DeepLinkParams extends Object {
     //     0xc2e120: blr             lr
     // 0xc2e124: mov             x1, x0
     // 0xc2e128: r0 = _normalizeRedeemCode()
-    //     0xc2e128: bl              #0x65eb8c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
+    //     0xc2e128: bl              #0x65eb8c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
     // 0xc2e12c: cmp             w0, NULL
     // 0xc2e130: b.ne            #0xc2e15c
     // 0xc2e134: ldur            x3, [fp, #-8]
@@ -878,7 +878,7 @@ class DeepLinkParams extends Object {
     //     0xc2e150: blr             lr
     // 0xc2e154: mov             x1, x0
     // 0xc2e158: r0 = _normalizeRedeemCode()
-    //     0xc2e158: bl              #0x65eb8c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
+    //     0xc2e158: bl              #0x65eb8c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
     // 0xc2e15c: cmp             w0, NULL
     // 0xc2e160: b.ne            #0xc2e198
     // 0xc2e164: ldur            x3, [fp, #-8]
@@ -895,7 +895,7 @@ class DeepLinkParams extends Object {
     //     0xc2e184: blr             lr
     // 0xc2e188: mov             x1, x0
     // 0xc2e18c: r0 = _normalizeRedeemCode()
-    //     0xc2e18c: bl              #0x65eb8c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
+    //     0xc2e18c: bl              #0x65eb8c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
     // 0xc2e190: mov             x3, x0
     // 0xc2e194: b               #0xc2e19c
     // 0xc2e198: mov             x3, x0
@@ -923,7 +923,7 @@ class DeepLinkParams extends Object {
     //     0xc2e1d8: blr             lr
     // 0xc2e1dc: mov             x1, x0
     // 0xc2e1e0: r0 = _normalizeRedeemCode()
-    //     0xc2e1e0: bl              #0x65eb8c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
+    //     0xc2e1e0: bl              #0x65eb8c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
     // 0xc2e1e4: cmp             w0, NULL
     // 0xc2e1e8: b.ne            #0xc2e21c
     // 0xc2e1ec: ldur            x3, [fp, #-8]
@@ -939,7 +939,7 @@ class DeepLinkParams extends Object {
     //     0xc2e208: blr             lr
     // 0xc2e20c: mov             x1, x0
     // 0xc2e210: r0 = _normalizeRedeemCode()
-    //     0xc2e210: bl              #0x65eb8c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
+    //     0xc2e210: bl              #0x65eb8c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
     // 0xc2e214: mov             x4, x0
     // 0xc2e218: b               #0xc2e220
     // 0xc2e21c: mov             x4, x0
@@ -958,7 +958,7 @@ class DeepLinkParams extends Object {
     //     0xc2e244: blr             lr
     // 0xc2e248: mov             x1, x0
     // 0xc2e24c: r0 = _normalizeRedeemCode()
-    //     0xc2e24c: bl              #0x65eb8c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
+    //     0xc2e24c: bl              #0x65eb8c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
     // 0xc2e250: cmp             w0, NULL
     // 0xc2e254: b.ne            #0xc2e288
     // 0xc2e258: ldur            x1, [fp, #-8]
@@ -974,7 +974,7 @@ class DeepLinkParams extends Object {
     //     0xc2e274: blr             lr
     // 0xc2e278: mov             x1, x0
     // 0xc2e27c: r0 = _normalizeRedeemCode()
-    //     0xc2e27c: bl              #0x65eb8c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
+    //     0xc2e27c: bl              #0x65eb8c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
     // 0xc2e280: mov             x2, x0
     // 0xc2e284: b               #0xc2e28c
     // 0xc2e288: mov             x2, x0

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/discovery/discover_suggested_team.dart
+// lib: , url: package:kourtai/automatic/models/core/discovery/discover_suggested_team.dart
 
 // class id: 1048683, size: 0x8
 class :: {

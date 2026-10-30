@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/workout/tracking_medium.dart
+// lib: , url: package:kourtai/automatic/utility/workout/tracking_medium.dart
 
 // class id: 1048757, size: 0x8
 class :: {

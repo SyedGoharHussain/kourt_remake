@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/home/teams/create_team_view_model.dart
+// lib: , url: package:kourtai/automatic/viewmodels/home/teams/create_team_view_model.dart
 
 // class id: 1048767, size: 0x8
 class :: {
@@ -211,7 +211,7 @@ class CreateTeamViewModel extends ChangeNotifier {
     //     0xa519d8: add             x1, PP, #0x20, lsl #12  ; [pp+0x201d8] "Create team"
     //     0xa519dc: ldr             x1, [x1, #0x1d8]
     // 0xa519e0: r0 = L()
-    //     0xa519e0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa519e0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa519e4: LeaveFrame
     //     0xa519e4: mov             SP, fp
     //     0xa519e8: ldp             fp, lr, [SP], #0x10
@@ -221,7 +221,7 @@ class CreateTeamViewModel extends ChangeNotifier {
     //     0xa519f0: add             x1, PP, #0x21, lsl #12  ; [pp+0x215c0] "Next"
     //     0xa519f4: ldr             x1, [x1, #0x5c0]
     // 0xa519f8: r0 = L()
-    //     0xa519f8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa519f8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa519fc: LeaveFrame
     //     0xa519fc: mov             SP, fp
     //     0xa51a00: ldp             fp, lr, [SP], #0x10
@@ -276,13 +276,13 @@ class CreateTeamViewModel extends ChangeNotifier {
     //     0xa51c88: b.ls            #0xa51d50
     // 0xa51c8c: mov             x1, x2
     // 0xa51c90: r0 = currentStepModel()
-    //     0xa51c90: bl              #0xa51d58  ; [package:ballai/automatic/viewmodels/home/teams/create_team_view_model.dart] CreateTeamViewModel::currentStepModel
+    //     0xa51c90: bl              #0xa51d58  ; [package:kourtai/automatic/viewmodels/home/teams/create_team_view_model.dart] CreateTeamViewModel::currentStepModel
     // 0xa51c94: LoadField: r1 = r0->field_f
     //     0xa51c94: ldur            w1, [x0, #0xf]
     // 0xa51c98: DecompressPointer r1
     //     0xa51c98: add             x1, x1, HEAP, lsl #32
     // 0xa51c9c: r0 = L()
-    //     0xa51c9c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa51c9c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa51ca0: ldur            x1, [fp, #-0x10]
     // 0xa51ca4: stur            x0, [fp, #-0x18]
     // 0xa51ca8: cmp             w1, NULL
@@ -291,7 +291,7 @@ class CreateTeamViewModel extends ChangeNotifier {
     //     0xa51cb0: mov             x0, NULL
     // 0xa51cb4: b               #0xa51cc4
     // 0xa51cb8: r0 = firstName()
-    //     0xa51cb8: bl              #0x749b68  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::firstName
+    //     0xa51cb8: bl              #0x749b68  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::firstName
     // 0xa51cbc: mov             x1, x0
     // 0xa51cc0: r0 = trim()
     //     0xa51cc0: bl              #0x5ed854  ; [dart:core] _StringBase::trim
@@ -306,7 +306,7 @@ class CreateTeamViewModel extends ChangeNotifier {
     //     0xa51cd8: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a630] "hooper"
     //     0xa51cdc: ldr             x1, [x1, #0x630]
     // 0xa51ce0: r0 = L()
-    //     0xa51ce0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa51ce0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa51ce4: mov             x3, x0
     // 0xa51ce8: b               #0xa51cf0
     // 0xa51cec: mov             x3, x0
@@ -325,7 +325,7 @@ class CreateTeamViewModel extends ChangeNotifier {
     //     0xa51d0c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27c10] "your team"
     //     0xa51d10: ldr             x1, [x1, #0xc10]
     // 0xa51d14: r0 = L()
-    //     0xa51d14: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa51d14: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa51d18: ldur            x1, [fp, #-0x18]
     // 0xa51d1c: ldur            x3, [fp, #-0x10]
     // 0xa51d20: stur            x0, [fp, #-8]
@@ -460,7 +460,7 @@ class CreateTeamViewModel extends ChangeNotifier {
     //     0xa51e70: add             x6, x6, HEAP, lsl #32
     // 0xa51e74: mov             x2, x0
     // 0xa51e78: r0 = firstInvalidTeamSocialInput()
-    //     0xa51e78: bl              #0xa51f70  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::firstInvalidTeamSocialInput
+    //     0xa51e78: bl              #0xa51f70  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::firstInvalidTeamSocialInput
     // 0xa51e7c: cmp             w0, NULL
     // 0xa51e80: r16 = true
     //     0xa51e80: add             x16, NULL, #0x20  ; true
@@ -570,7 +570,7 @@ class CreateTeamViewModel extends ChangeNotifier {
     // 0xa52218: cmp             x0, #8
     // 0xa5221c: b.lt            #0xa52234
     // 0xa52220: r0 = finalizeTeamCreation()
-    //     0xa52220: bl              #0xa52258  ; [package:ballai/automatic/viewmodels/home/teams/create_team_view_model.dart] CreateTeamViewModel::finalizeTeamCreation
+    //     0xa52220: bl              #0xa52258  ; [package:kourtai/automatic/viewmodels/home/teams/create_team_view_model.dart] CreateTeamViewModel::finalizeTeamCreation
     // 0xa52224: r0 = Null
     //     0xa52224: mov             x0, NULL
     // 0xa52228: LeaveFrame
@@ -658,13 +658,13 @@ class CreateTeamViewModel extends ChangeNotifier {
     // 0xa522e4: DecompressPointer r6
     //     0xa522e4: add             x6, x6, HEAP, lsl #32
     // 0xa522e8: r0 = firstInvalidTeamSocialInput()
-    //     0xa522e8: bl              #0xa51f70  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::firstInvalidTeamSocialInput
+    //     0xa522e8: bl              #0xa51f70  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::firstInvalidTeamSocialInput
     // 0xa522ec: cmp             w0, NULL
     // 0xa522f0: b.eq            #0xa52338
     // 0xa522f4: ldur            x2, [fp, #-0xe0]
     // 0xa522f8: mov             x1, x0
     // 0xa522fc: r0 = invalidMessage()
-    //     0xa522fc: bl              #0xa229a8  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialPlatform::invalidMessage
+    //     0xa522fc: bl              #0xa229a8  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialPlatform::invalidMessage
     // 0xa52300: ldur            x2, [fp, #-0xe0]
     // 0xa52304: StoreField: r2->field_77 = r0
     //     0xa52304: stur            w0, [x2, #0x77]
@@ -711,7 +711,7 @@ class CreateTeamViewModel extends ChangeNotifier {
     // 0xa52374: DecompressPointer r1
     //     0xa52374: add             x1, x1, HEAP, lsl #32
     // 0xa52378: r0 = fromString()
-    //     0xa52378: bl              #0x768108  ; [package:ballai/automatic/models/core/team/team_visibility.dart] TeamVisibility::fromString
+    //     0xa52378: bl              #0x768108  ; [package:kourtai/automatic/models/core/team/team_visibility.dart] TeamVisibility::fromString
     // 0xa5237c: mov             x3, x0
     // 0xa52380: ldur            x0, [fp, #-0xe0]
     // 0xa52384: r17 = -264
@@ -740,7 +740,7 @@ class CreateTeamViewModel extends ChangeNotifier {
     //     0xa523c0: add             x2, PP, #0x27, lsl #12  ; [pp+0x277f8] Obj!SocialPlatform@d3aca1
     //     0xa523c4: ldr             x2, [x2, #0x7f8]
     // 0xa523c8: r0 = normalizedLink()
-    //     0xa523c8: bl              #0x9c1ca4  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
+    //     0xa523c8: bl              #0x9c1ca4  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
     // 0xa523cc: mov             x3, x0
     // 0xa523d0: ldur            x0, [fp, #-0xe0]
     // 0xa523d4: r17 = -272
@@ -754,7 +754,7 @@ class CreateTeamViewModel extends ChangeNotifier {
     //     0xa523e4: add             x2, PP, #0x27, lsl #12  ; [pp+0x27800] Obj!SocialPlatform@d3ac81
     //     0xa523e8: ldr             x2, [x2, #0x800]
     // 0xa523ec: r0 = normalizedLink()
-    //     0xa523ec: bl              #0x9c1ca4  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
+    //     0xa523ec: bl              #0x9c1ca4  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
     // 0xa523f0: mov             x3, x0
     // 0xa523f4: ldur            x0, [fp, #-0xe0]
     // 0xa523f8: r17 = -280
@@ -768,7 +768,7 @@ class CreateTeamViewModel extends ChangeNotifier {
     //     0xa52408: add             x2, PP, #0x27, lsl #12  ; [pp+0x27808] Obj!SocialPlatform@d3ad01
     //     0xa5240c: ldr             x2, [x2, #0x808]
     // 0xa52410: r0 = normalizedLink()
-    //     0xa52410: bl              #0x9c1ca4  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
+    //     0xa52410: bl              #0x9c1ca4  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
     // 0xa52414: mov             x3, x0
     // 0xa52418: ldur            x0, [fp, #-0xe0]
     // 0xa5241c: r17 = -288
@@ -782,7 +782,7 @@ class CreateTeamViewModel extends ChangeNotifier {
     //     0xa5242c: add             x2, PP, #0x27, lsl #12  ; [pp+0x27810] Obj!SocialPlatform@d3ace1
     //     0xa52430: ldr             x2, [x2, #0x810]
     // 0xa52434: r0 = normalizedLink()
-    //     0xa52434: bl              #0x9c1ca4  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
+    //     0xa52434: bl              #0x9c1ca4  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
     // 0xa52438: mov             x3, x0
     // 0xa5243c: ldur            x0, [fp, #-0xe0]
     // 0xa52440: r17 = -296
@@ -796,7 +796,7 @@ class CreateTeamViewModel extends ChangeNotifier {
     //     0xa52450: add             x2, PP, #0x27, lsl #12  ; [pp+0x27818] Obj!SocialPlatform@d3ac01
     //     0xa52454: ldr             x2, [x2, #0x818]
     // 0xa52458: r0 = normalizedLink()
-    //     0xa52458: bl              #0x9c1ca4  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
+    //     0xa52458: bl              #0x9c1ca4  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
     // 0xa5245c: mov             x3, x0
     // 0xa52460: ldur            x0, [fp, #-0xf8]
     // 0xa52464: r17 = -304
@@ -873,7 +873,7 @@ class CreateTeamViewModel extends ChangeNotifier {
     // 0xa5252c: ldr             x6, [fp, x17]
     // 0xa52530: mov             x7, x8
     // 0xa52534: r0 = createTeam()
-    //     0xa52534: bl              #0xa52a0c  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::createTeam
+    //     0xa52534: bl              #0xa52a0c  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::createTeam
     // 0xa52538: mov             x1, x0
     // 0xa5253c: r17 = -328
     //     0xa5253c: mov             x17, #-0x148
@@ -889,7 +889,7 @@ class CreateTeamViewModel extends ChangeNotifier {
     //     0xa52554: add             x2, x2, HEAP, lsl #32
     // 0xa52558: ldur            x1, [fp, #-0xe0]
     // 0xa5255c: r0 = _uploadBrandingIfNeeded()
-    //     0xa5255c: bl              #0xa52668  ; [package:ballai/automatic/viewmodels/home/teams/create_team_view_model.dart] CreateTeamViewModel::_uploadBrandingIfNeeded
+    //     0xa5255c: bl              #0xa52668  ; [package:kourtai/automatic/viewmodels/home/teams/create_team_view_model.dart] CreateTeamViewModel::_uploadBrandingIfNeeded
     // 0xa52560: mov             x1, x0
     // 0xa52564: r17 = -336
     //     0xa52564: mov             x17, #-0x150
@@ -939,7 +939,7 @@ class CreateTeamViewModel extends ChangeNotifier {
     //     0xa525e4: add             x1, PP, #0x27, lsl #12  ; [pp+0x27820] "We couldn\'t create your team. Please check your connection and try again."
     //     0xa525e8: ldr             x1, [x1, #0x820]
     // 0xa525ec: r0 = L()
-    //     0xa525ec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa525ec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa525f0: ldur            x2, [fp, #-0xe0]
     // 0xa525f4: StoreField: r2->field_77 = r0
     //     0xa525f4: stur            w0, [x2, #0x77]
@@ -1234,7 +1234,7 @@ class CreateTeamViewModel extends ChangeNotifier {
     //     0xbfbc20: cmp             SP, x16
     //     0xbfbc24: b.ls            #0xbfbc38
     // 0xbfbc28: r0 = pickLogo()
-    //     0xbfbc28: bl              #0xbfbc40  ; [package:ballai/automatic/viewmodels/home/teams/create_team_view_model.dart] CreateTeamViewModel::pickLogo
+    //     0xbfbc28: bl              #0xbfbc40  ; [package:kourtai/automatic/viewmodels/home/teams/create_team_view_model.dart] CreateTeamViewModel::pickLogo
     // 0xbfbc2c: LeaveFrame
     //     0xbfbc2c: mov             SP, fp
     //     0xbfbc30: ldp             fp, lr, [SP], #0x10
@@ -1324,7 +1324,7 @@ class CreateTeamViewModel extends ChangeNotifier {
     //     0xbfbd04: cmp             SP, x16
     //     0xbfbd08: b.ls            #0xbfbd1c
     // 0xbfbd0c: r0 = pickBanner()
-    //     0xbfbd0c: bl              #0xbfbd24  ; [package:ballai/automatic/viewmodels/home/teams/create_team_view_model.dart] CreateTeamViewModel::pickBanner
+    //     0xbfbd0c: bl              #0xbfbd24  ; [package:kourtai/automatic/viewmodels/home/teams/create_team_view_model.dart] CreateTeamViewModel::pickBanner
     // 0xbfbd10: LeaveFrame
     //     0xbfbd10: mov             SP, fp
     //     0xbfbd14: ldp             fp, lr, [SP], #0x10

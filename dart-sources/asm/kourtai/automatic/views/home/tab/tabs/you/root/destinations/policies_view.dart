@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart
 
 // class id: 1049026, size: 0x8
 class :: {
@@ -20,8 +20,8 @@ class :: {
     // 0xaa1f08: r4 = const [0, 0, 0, 0, null]
     //     0xaa1f08: add             x4, PP, #0xc, lsl #12  ; [pp+0xc818] List(5) [0, 0, 0, 0, Null]
     //     0xaa1f0c: ldr             x4, [x4, #0x818]
-    // 0xaa1f10: r0 = ballAiSupportMailtoUri()
-    //     0xaa1f10: bl              #0xaa1f28  ; [package:ballai/automatic/utility/feedback/ball_ai_beta_feedback.dart] ::ballAiSupportMailtoUri
+    // 0xaa1f10: r0 = kourtAiSupportMailtoUri()
+    //     0xaa1f10: bl              #0xaa1f28  ; [package:kourtai/automatic/utility/feedback/kourt_ai_beta_feedback.dart] ::kourtAiSupportMailtoUri
     // 0xaa1f14: LeaveFrame
     //     0xaa1f14: mov             SP, fp
     //     0xaa1f18: ldp             fp, lr, [SP], #0x10
@@ -40,8 +40,8 @@ class :: {
     //     0xaa2344: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xaa2348: cmp             SP, x16
     //     0xaa234c: b.ls            #0xaa236c
-    // 0xaa2350: r1 = "https://www.ballai.app/terms-of-use"
-    //     0xaa2350: add             x1, PP, #0x53, lsl #12  ; [pp+0x53ab0] "https://www.ballai.app/terms-of-use"
+    // 0xaa2350: r1 = "https://www.kourtai.app/terms-of-use"
+    //     0xaa2350: add             x1, PP, #0x53, lsl #12  ; [pp+0x53ab0] "https://www.kourtai.app/terms-of-use"
     //     0xaa2354: ldr             x1, [x1, #0xab0]
     // 0xaa2358: r4 = const [0, 0x1, 0, 0x1, null]
     //     0xaa2358: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
@@ -90,8 +90,8 @@ class :: {
     //     0xaa24b4: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xaa24b8: cmp             SP, x16
     //     0xaa24bc: b.ls            #0xaa24dc
-    // 0xaa24c0: r1 = "https://www.ballai.app/privacy-policy"
-    //     0xaa24c0: add             x1, PP, #0x53, lsl #12  ; [pp+0x53ad0] "https://www.ballai.app/privacy-policy"
+    // 0xaa24c0: r1 = "https://www.kourtai.app/privacy-policy"
+    //     0xaa24c0: add             x1, PP, #0x53, lsl #12  ; [pp+0x53ad0] "https://www.kourtai.app/privacy-policy"
     //     0xaa24c4: ldr             x1, [x1, #0xad0]
     // 0xaa24c8: r4 = const [0, 0x1, 0, 0x1, null]
     //     0xaa24c8: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
@@ -120,7 +120,7 @@ abstract class __PoliciesViewState&State&HomeIslandHiddenRoute extends State<dyn
     //     0xb5c288: mov             fp, SP
     // 0xb5c28c: ldr             x2, [fp, #0x10]
     // 0xb5c290: r1 = Function 'dispose':.
-    //     0xb5c290: add             x1, PP, #0x53, lsl #12  ; [pp+0x53a40] AnonymousClosure: (0xb5c2a8), in [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose (0xb63788)
+    //     0xb5c290: add             x1, PP, #0x53, lsl #12  ; [pp+0x53a40] AnonymousClosure: (0xb5c2a8), in [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose (0xb63788)
     //     0xb5c294: ldr             x1, [x1, #0xa40]
     // 0xb5c298: r0 = AllocateClosure()
     //     0xb5c298: bl              #0xe553e0  ; AllocateClosureStub
@@ -145,7 +145,7 @@ abstract class __PoliciesViewState&State&HomeIslandHiddenRoute extends State<dyn
     //     0xb5c2c0: cmp             SP, x16
     //     0xb5c2c4: b.ls            #0xb5c2d8
     // 0xb5c2c8: r0 = dispose()
-    //     0xb5c2c8: bl              #0xb63788  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
+    //     0xb5c2c8: bl              #0xb63788  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
     // 0xb5c2cc: LeaveFrame
     //     0xb5c2cc: mov             SP, fp
     //     0xb5c2d0: ldp             fp, lr, [SP], #0x10
@@ -188,30 +188,30 @@ class _PoliciesViewState extends __PoliciesViewState&State&HomeIslandHiddenRoute
     // 0xaa17c8: ldur            x1, [fp, #-0x10]
     // 0xaa17cc: StoreField: r2->field_13 = r1
     //     0xaa17cc: stur            w1, [x2, #0x13]
-    // 0xaa17d0: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xaa17d0: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xaa17d0: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xaa17d0: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xaa17d4: ldur            x2, [fp, #-0x18]
     // 0xaa17d8: stur            x0, [fp, #-8]
     // 0xaa17dc: LoadField: r1 = r2->field_13
     //     0xaa17dc: ldur            w1, [x2, #0x13]
     // 0xaa17e0: DecompressPointer r1
     //     0xaa17e0: add             x1, x1, HEAP, lsl #32
-    // 0xaa17e4: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xaa17e4: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xaa17e4: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xaa17e4: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xaa17e8: r1 = "Our policies"
     //     0xaa17e8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49fa8] "Our policies"
     //     0xaa17ec: ldr             x1, [x1, #0xfa8]
     // 0xaa17f0: stur            x0, [fp, #-0x10]
     // 0xaa17f4: r0 = L()
-    //     0xaa17f4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa17f4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa17f8: ldur            x2, [fp, #-0x18]
     // 0xaa17fc: stur            x0, [fp, #-0x20]
     // 0xaa1800: LoadField: r1 = r2->field_13
     //     0xaa1800: ldur            w1, [x2, #0x13]
     // 0xaa1804: DecompressPointer r1
     //     0xaa1804: add             x1, x1, HEAP, lsl #32
-    // 0xaa1808: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xaa1808: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xaa1808: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xaa1808: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xaa180c: stur            x0, [fp, #-0x28]
     // 0xaa1810: r0 = TextStyle()
     //     0xaa1810: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -278,8 +278,8 @@ class _PoliciesViewState extends __PoliciesViewState&State&HomeIslandHiddenRoute
     //     0xaa18b4: ldur            w1, [x2, #0x13]
     // 0xaa18b8: DecompressPointer r1
     //     0xaa18b8: add             x1, x1, HEAP, lsl #32
-    // 0xaa18bc: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xaa18bc: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xaa18bc: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xaa18bc: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xaa18c0: stur            x0, [fp, #-0x10]
     // 0xaa18c4: r0 = Radius()
     //     0xaa18c4: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -322,7 +322,7 @@ class _PoliciesViewState extends __PoliciesViewState&State&HomeIslandHiddenRoute
     //     0xaa1920: add             x1, PP, #0x53, lsl #12  ; [pp+0x53a50] "Privacy Policy"
     //     0xaa1924: ldr             x1, [x1, #0xa50]
     // 0xaa1928: r0 = L()
-    //     0xaa1928: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa1928: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa192c: stur            x0, [fp, #-0x10]
     // 0xaa1930: r0 = _PolicyRow()
     //     0xaa1930: bl              #0xaa1d6c  ; Allocate_PolicyRowStub -> _PolicyRow (size=0x14)
@@ -333,7 +333,7 @@ class _PoliciesViewState extends __PoliciesViewState&State&HomeIslandHiddenRoute
     //     0xaa1940: stur            w0, [x3, #0xb]
     // 0xaa1944: ldur            x2, [fp, #-0x18]
     // 0xaa1948: r1 = Function '<anonymous closure>':.
-    //     0xaa1948: add             x1, PP, #0x53, lsl #12  ; [pp+0x53a58] AnonymousClosure: (0xaa242c), in [package:ballai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] _PoliciesViewState::build (0xaa1788)
+    //     0xaa1948: add             x1, PP, #0x53, lsl #12  ; [pp+0x53a58] AnonymousClosure: (0xaa242c), in [package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] _PoliciesViewState::build (0xaa1788)
     //     0xaa194c: ldr             x1, [x1, #0xa58]
     // 0xaa1950: r0 = AllocateClosure()
     //     0xaa1950: bl              #0xe553e0  ; AllocateClosureStub
@@ -345,7 +345,7 @@ class _PoliciesViewState extends __PoliciesViewState&State&HomeIslandHiddenRoute
     //     0xaa1960: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c820] "Regional policy"
     //     0xaa1964: ldr             x1, [x1, #0x820]
     // 0xaa1968: r0 = L()
-    //     0xaa1968: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa1968: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa196c: stur            x0, [fp, #-0x10]
     // 0xaa1970: r0 = _PolicyRow()
     //     0xaa1970: bl              #0xaa1d6c  ; Allocate_PolicyRowStub -> _PolicyRow (size=0x14)
@@ -356,7 +356,7 @@ class _PoliciesViewState extends __PoliciesViewState&State&HomeIslandHiddenRoute
     //     0xaa1980: stur            w0, [x3, #0xb]
     // 0xaa1984: ldur            x2, [fp, #-0x18]
     // 0xaa1988: r1 = Function '<anonymous closure>':.
-    //     0xaa1988: add             x1, PP, #0x53, lsl #12  ; [pp+0x53a60] AnonymousClosure: (0xaa2374), in [package:ballai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] _PoliciesViewState::build (0xaa1788)
+    //     0xaa1988: add             x1, PP, #0x53, lsl #12  ; [pp+0x53a60] AnonymousClosure: (0xaa2374), in [package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] _PoliciesViewState::build (0xaa1788)
     //     0xaa198c: ldr             x1, [x1, #0xa60]
     // 0xaa1990: r0 = AllocateClosure()
     //     0xaa1990: bl              #0xe553e0  ; AllocateClosureStub
@@ -368,7 +368,7 @@ class _PoliciesViewState extends __PoliciesViewState&State&HomeIslandHiddenRoute
     //     0xaa19a0: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c800] "Terms of use"
     //     0xaa19a4: ldr             x1, [x1, #0x800]
     // 0xaa19a8: r0 = L()
-    //     0xaa19a8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa19a8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa19ac: stur            x0, [fp, #-0x10]
     // 0xaa19b0: r0 = _PolicyRow()
     //     0xaa19b0: bl              #0xaa1d6c  ; Allocate_PolicyRowStub -> _PolicyRow (size=0x14)
@@ -379,7 +379,7 @@ class _PoliciesViewState extends __PoliciesViewState&State&HomeIslandHiddenRoute
     //     0xaa19c0: stur            w0, [x3, #0xb]
     // 0xaa19c4: ldur            x2, [fp, #-0x18]
     // 0xaa19c8: r1 = Function '<anonymous closure>':.
-    //     0xaa19c8: add             x1, PP, #0x53, lsl #12  ; [pp+0x53a68] AnonymousClosure: (0xaa22bc), in [package:ballai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] _PoliciesViewState::build (0xaa1788)
+    //     0xaa19c8: add             x1, PP, #0x53, lsl #12  ; [pp+0x53a68] AnonymousClosure: (0xaa22bc), in [package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] _PoliciesViewState::build (0xaa1788)
     //     0xaa19cc: ldr             x1, [x1, #0xa68]
     // 0xaa19d0: r0 = AllocateClosure()
     //     0xaa19d0: bl              #0xe553e0  ; AllocateClosureStub
@@ -484,8 +484,8 @@ class _PoliciesViewState extends __PoliciesViewState&State&HomeIslandHiddenRoute
     //     0xaa1ad0: ldur            w1, [x2, #0x13]
     // 0xaa1ad4: DecompressPointer r1
     //     0xaa1ad4: add             x1, x1, HEAP, lsl #32
-    // 0xaa1ad8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xaa1ad8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xaa1ad8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xaa1ad8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xaa1adc: stur            x0, [fp, #-0x10]
     // 0xaa1ae0: r0 = TextStyle()
     //     0xaa1ae0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -508,8 +508,8 @@ class _PoliciesViewState extends __PoliciesViewState&State&HomeIslandHiddenRoute
     //     0xaa1b0c: ldur            w1, [x3, #0x13]
     // 0xaa1b10: DecompressPointer r1
     //     0xaa1b10: add             x1, x1, HEAP, lsl #32
-    // 0xaa1b14: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xaa1b14: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xaa1b14: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xaa1b14: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xaa1b18: stur            x0, [fp, #-0x10]
     // 0xaa1b1c: r0 = TextStyle()
     //     0xaa1b1c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -541,7 +541,7 @@ class _PoliciesViewState extends __PoliciesViewState&State&HomeIslandHiddenRoute
     //     0xaa1b60: bl              #0x81bdc0  ; [package:flutter/src/gestures/tap.dart] BaseTapGestureRecognizer::BaseTapGestureRecognizer
     // 0xaa1b64: ldur            x2, [fp, #-0x18]
     // 0xaa1b68: r1 = Function '<anonymous closure>':.
-    //     0xaa1b68: add             x1, PP, #0x53, lsl #12  ; [pp+0x53a70] AnonymousClosure: (0xaa1d78), in [package:ballai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] _PoliciesViewState::build (0xaa1788)
+    //     0xaa1b68: add             x1, PP, #0x53, lsl #12  ; [pp+0x53a70] AnonymousClosure: (0xaa1d78), in [package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] _PoliciesViewState::build (0xaa1788)
     //     0xaa1b6c: ldr             x1, [x1, #0xa70]
     // 0xaa1b70: r0 = AllocateClosure()
     //     0xaa1b70: bl              #0xe553e0  ; AllocateClosureStub
@@ -749,7 +749,7 @@ class _PoliciesViewState extends __PoliciesViewState&State&HomeIslandHiddenRoute
     // 0xaa1dac: DecompressPointer r2
     //     0xaa1dac: add             x2, x2, HEAP, lsl #32
     // 0xaa1db0: stur            x2, [fp, #-8]
-    // 0xaa1db4: r0 = InitLateStaticField(0xf20) // [package:ballai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] ::_supportEmailUrl
+    // 0xaa1db4: r0 = InitLateStaticField(0xf20) // [package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] ::_supportEmailUrl
     //     0xaa1db4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xaa1db8: ldr             x0, [x0, #0x1e40]
     //     0xaa1dbc: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -762,7 +762,7 @@ class _PoliciesViewState extends __PoliciesViewState&State&HomeIslandHiddenRoute
     // 0xaa1dd8: ldur            x2, [fp, #-8]
     // 0xaa1ddc: mov             x3, x0
     // 0xaa1de0: r0 = _openUrl()
-    //     0xaa1de0: bl              #0xaa1df8  ; [package:ballai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] _PoliciesViewState::_openUrl
+    //     0xaa1de0: bl              #0xaa1df8  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] _PoliciesViewState::_openUrl
     // 0xaa1de4: LeaveFrame
     //     0xaa1de4: mov             SP, fp
     //     0xaa1de8: ldp             fp, lr, [SP], #0x10
@@ -830,7 +830,7 @@ class _PoliciesViewState extends __PoliciesViewState&State&HomeIslandHiddenRoute
     //     0xaa1e8c: ldr             x1, [x1, #0xaa0]
     // 0xaa1e90: stur            x0, [fp, #-0x10]
     // 0xaa1e94: r0 = L()
-    //     0xaa1e94: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa1e94: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa1e98: stur            x0, [fp, #-0x18]
     // 0xaa1e9c: r0 = Text()
     //     0xaa1e9c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -892,7 +892,7 @@ class _PoliciesViewState extends __PoliciesViewState&State&HomeIslandHiddenRoute
     // 0xaa22f0: DecompressPointer r2
     //     0xaa22f0: add             x2, x2, HEAP, lsl #32
     // 0xaa22f4: stur            x2, [fp, #-8]
-    // 0xaa22f8: r0 = InitLateStaticField(0xf14) // [package:ballai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] ::_termsOfUseUrl
+    // 0xaa22f8: r0 = InitLateStaticField(0xf14) // [package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] ::_termsOfUseUrl
     //     0xaa22f8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xaa22fc: ldr             x0, [x0, #0x1e28]
     //     0xaa2300: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -905,7 +905,7 @@ class _PoliciesViewState extends __PoliciesViewState&State&HomeIslandHiddenRoute
     // 0xaa231c: ldur            x2, [fp, #-8]
     // 0xaa2320: mov             x3, x0
     // 0xaa2324: r0 = _openUrl()
-    //     0xaa2324: bl              #0xaa1df8  ; [package:ballai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] _PoliciesViewState::_openUrl
+    //     0xaa2324: bl              #0xaa1df8  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] _PoliciesViewState::_openUrl
     // 0xaa2328: LeaveFrame
     //     0xaa2328: mov             SP, fp
     //     0xaa232c: ldp             fp, lr, [SP], #0x10
@@ -940,7 +940,7 @@ class _PoliciesViewState extends __PoliciesViewState&State&HomeIslandHiddenRoute
     // 0xaa23a8: DecompressPointer r2
     //     0xaa23a8: add             x2, x2, HEAP, lsl #32
     // 0xaa23ac: stur            x2, [fp, #-8]
-    // 0xaa23b0: r0 = InitLateStaticField(0xf1c) // [package:ballai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] ::_regionalPolicyUrl
+    // 0xaa23b0: r0 = InitLateStaticField(0xf1c) // [package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] ::_regionalPolicyUrl
     //     0xaa23b0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xaa23b4: ldr             x0, [x0, #0x1e38]
     //     0xaa23b8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -953,7 +953,7 @@ class _PoliciesViewState extends __PoliciesViewState&State&HomeIslandHiddenRoute
     // 0xaa23d4: ldur            x2, [fp, #-8]
     // 0xaa23d8: mov             x3, x0
     // 0xaa23dc: r0 = _openUrl()
-    //     0xaa23dc: bl              #0xaa1df8  ; [package:ballai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] _PoliciesViewState::_openUrl
+    //     0xaa23dc: bl              #0xaa1df8  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] _PoliciesViewState::_openUrl
     // 0xaa23e0: LeaveFrame
     //     0xaa23e0: mov             SP, fp
     //     0xaa23e4: ldp             fp, lr, [SP], #0x10
@@ -988,7 +988,7 @@ class _PoliciesViewState extends __PoliciesViewState&State&HomeIslandHiddenRoute
     // 0xaa2460: DecompressPointer r2
     //     0xaa2460: add             x2, x2, HEAP, lsl #32
     // 0xaa2464: stur            x2, [fp, #-8]
-    // 0xaa2468: r0 = InitLateStaticField(0xf18) // [package:ballai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] ::_privacyPolicyUrl
+    // 0xaa2468: r0 = InitLateStaticField(0xf18) // [package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] ::_privacyPolicyUrl
     //     0xaa2468: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xaa246c: ldr             x0, [x0, #0x1e30]
     //     0xaa2470: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1001,7 +1001,7 @@ class _PoliciesViewState extends __PoliciesViewState&State&HomeIslandHiddenRoute
     // 0xaa248c: ldur            x2, [fp, #-8]
     // 0xaa2490: mov             x3, x0
     // 0xaa2494: r0 = _openUrl()
-    //     0xaa2494: bl              #0xaa1df8  ; [package:ballai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] _PoliciesViewState::_openUrl
+    //     0xaa2494: bl              #0xaa1df8  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/policies_view.dart] _PoliciesViewState::_openUrl
     // 0xaa2498: LeaveFrame
     //     0xaa2498: mov             SP, fp
     //     0xaa249c: ldp             fp, lr, [SP], #0x10
@@ -1054,8 +1054,8 @@ class _Line extends StatelessWidget {
     //     0xc1c274: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xc1c278: cmp             SP, x16
     //     0xc1c27c: b.ls            #0xc1c2e8
-    // 0xc1c280: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc1c280: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc1c280: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc1c280: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc1c284: r16 = 0.250000
     //     0xc1c284: add             x16, PP, #0xc, lsl #12  ; [pp+0xcbb8] 0.25
     //     0xc1c288: ldr             x16, [x16, #0xbb8]
@@ -1155,8 +1155,8 @@ class _PolicyRow extends StatelessWidget {
     //     0xc1c0bc: add             x3, x3, HEAP, lsl #32
     // 0xc1c0c0: ldur            x1, [fp, #-0x18]
     // 0xc1c0c4: stur            x3, [fp, #-0x20]
-    // 0xc1c0c8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc1c0c8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc1c0c8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc1c0c8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc1c0cc: stur            x0, [fp, #-0x10]
     // 0xc1c0d0: r0 = TextStyle()
     //     0xc1c0d0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)

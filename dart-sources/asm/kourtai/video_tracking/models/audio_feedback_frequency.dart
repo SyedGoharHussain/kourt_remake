@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/models/audio_feedback_frequency.dart
+// lib: , url: package:kourtai/video_tracking/models/audio_feedback_frequency.dart
 
 // class id: 1049146, size: 0x8
 class :: {
@@ -42,7 +42,7 @@ enum AudioFeedbackFrequency extends _Enum {
     //     0x99aa48: bl              #0x72fe6c  ; [package:shared_preferences/src/shared_preferences_legacy.dart] SharedPreferences::getString
     // 0x99aa4c: mov             x1, x0
     // 0x99aa50: r0 = fromRaw()
-    //     0x99aa50: bl              #0x99aa60  ; [package:ballai/video_tracking/models/audio_feedback_frequency.dart] AudioFeedbackFrequency::fromRaw
+    //     0x99aa50: bl              #0x99aa60  ; [package:kourtai/video_tracking/models/audio_feedback_frequency.dart] AudioFeedbackFrequency::fromRaw
     // 0x99aa54: r0 = ReturnAsyncNotFuture()
     //     0x99aa54: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x99aa58: r0 = StackOverflowSharedWithoutFPURegs()

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/session/firestore/video_workout_firestore_handler.dart
+// lib: , url: package:kourtai/video_tracking/session/firestore/video_workout_firestore_handler.dart
 
 // class id: 1049172, size: 0x8
 class :: {
@@ -25,7 +25,7 @@ abstract class VideoWorkoutFirestoreHandler extends Object {
     //     0x71d2b4: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x71d2b8: bl              #0x60afc8  ; InitAsyncStub
     // 0x71d2bc: r0 = _uid()
-    //     0x71d2bc: bl              #0x71d908  ; [package:ballai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::_uid
+    //     0x71d2bc: bl              #0x71d908  ; [package:kourtai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::_uid
     // 0x71d2c0: cmp             w0, NULL
     // 0x71d2c4: b.eq            #0x71d380
     // 0x71d2c8: ldur            x1, [fp, #-0x10]
@@ -71,7 +71,7 @@ abstract class VideoWorkoutFirestoreHandler extends Object {
     // 0x71d338: ldur            x1, [fp, #-0x10]
     // 0x71d33c: stur            x0, [fp, #-0x10]
     // 0x71d340: r0 = toFirestoreMap()
-    //     0x71d340: bl              #0x71d3a8  ; [package:ballai/shared/models/core/shot_model.dart] ShotModel::toFirestoreMap
+    //     0x71d340: bl              #0x71d3a8  ; [package:kourtai/shared/models/core/shot_model.dart] ShotModel::toFirestoreMap
     // 0x71d344: stur            x0, [fp, #-0x18]
     // 0x71d348: r0 = SetOptions()
     //     0x71d348: bl              #0x662250  ; AllocateSetOptionsStub -> SetOptions (size=0x10)
@@ -455,7 +455,7 @@ abstract class VideoWorkoutFirestoreHandler extends Object {
     // 0x73fd7c: r0 = ReturnAsyncNotFuture()
     //     0x73fd7c: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x73fd80: r0 = _uid()
-    //     0x73fd80: bl              #0x71d908  ; [package:ballai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::_uid
+    //     0x73fd80: bl              #0x71d908  ; [package:kourtai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::_uid
     // 0x73fd84: cmp             w0, NULL
     // 0x73fd88: b.eq            #0x73fd94
     // 0x73fd8c: LoadField: r1 = r0->field_7
@@ -527,7 +527,7 @@ abstract class VideoWorkoutFirestoreHandler extends Object {
     // 0x73fe3c: ldur            x1, [fp, #-0x68]
     // 0x73fe40: stur            x0, [fp, #-0x78]
     // 0x73fe44: r0 = toFirestoreMap()
-    //     0x73fe44: bl              #0x740044  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::toFirestoreMap
+    //     0x73fe44: bl              #0x740044  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::toFirestoreMap
     // 0x73fe48: stur            x0, [fp, #-0x80]
     // 0x73fe4c: r0 = SetOptions()
     //     0x73fe4c: bl              #0x662250  ; AllocateSetOptionsStub -> SetOptions (size=0x10)
@@ -733,7 +733,7 @@ abstract class VideoWorkoutFirestoreHandler extends Object {
     //     0x74bdf8: ldr             x0, [PP, #0x19b0]  ; [pp+0x19b0] TypeArguments: <bool>
     //     0x74bdfc: bl              #0x60afc8  ; InitAsyncStub
     // 0x74be00: r0 = _uid()
-    //     0x74be00: bl              #0x71d908  ; [package:ballai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::_uid
+    //     0x74be00: bl              #0x71d908  ; [package:kourtai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::_uid
     // 0x74be04: cmp             w0, NULL
     // 0x74be08: b.eq            #0x74be14
     // 0x74be0c: LoadField: r1 = r0->field_7
@@ -781,7 +781,7 @@ abstract class VideoWorkoutFirestoreHandler extends Object {
     // 0x74be7c: LoadField: r1 = r0->field_b
     //     0x74be7c: ldur            x1, [x0, #0xb]
     // 0x74be80: r0 = dribbleTimelineChunkId()
-    //     0x74be80: bl              #0x74c68c  ; [package:ballai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::dribbleTimelineChunkId
+    //     0x74be80: bl              #0x74c68c  ; [package:kourtai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::dribbleTimelineChunkId
     // 0x74be84: str             x0, [SP]
     // 0x74be88: ldur            x1, [fp, #-0x70]
     // 0x74be8c: r4 = const [0, 0x2, 0x1, 0x2, null]
@@ -791,7 +791,7 @@ abstract class VideoWorkoutFirestoreHandler extends Object {
     // 0x74be94: ldur            x1, [fp, #-0x68]
     // 0x74be98: stur            x0, [fp, #-0x70]
     // 0x74be9c: r0 = toMap()
-    //     0x74be9c: bl              #0x74bf90  ; [package:ballai/video_tracking/analysis/dribble/dribble_models.dart] DribbleTimelineChunkDocument::toMap
+    //     0x74be9c: bl              #0x74bf90  ; [package:kourtai/video_tracking/analysis/dribble/dribble_models.dart] DribbleTimelineChunkDocument::toMap
     // 0x74bea0: stur            x0, [fp, #-0x78]
     // 0x74bea4: r0 = SetOptions()
     //     0x74bea4: bl              #0x662250  ; AllocateSetOptionsStub -> SetOptions (size=0x10)
@@ -989,7 +989,7 @@ abstract class VideoWorkoutFirestoreHandler extends Object {
     //     0x74de6c: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x74de70: bl              #0x60afc8  ; InitAsyncStub
     // 0x74de74: r0 = _uid()
-    //     0x74de74: bl              #0x71d908  ; [package:ballai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::_uid
+    //     0x74de74: bl              #0x71d908  ; [package:kourtai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::_uid
     // 0x74de78: cmp             w0, NULL
     // 0x74de7c: b.eq            #0x74df40
     // 0x74de80: LoadField: r1 = r0->field_7
@@ -1101,7 +1101,7 @@ abstract class VideoWorkoutFirestoreHandler extends Object {
     //     0x74e358: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x74e35c: bl              #0x60afc8  ; InitAsyncStub
     // 0x74e360: r0 = _uid()
-    //     0x74e360: bl              #0x71d908  ; [package:ballai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::_uid
+    //     0x74e360: bl              #0x71d908  ; [package:kourtai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::_uid
     // 0x74e364: cmp             w0, NULL
     // 0x74e368: b.eq            #0x74e40c
     // 0x74e36c: ldur            x1, [fp, #-0x10]
@@ -1147,7 +1147,7 @@ abstract class VideoWorkoutFirestoreHandler extends Object {
     // 0x74e3dc: ldur            x1, [fp, #-0x10]
     // 0x74e3e0: stur            x0, [fp, #-0x10]
     // 0x74e3e4: r0 = toFirestoreMap()
-    //     0x74e3e4: bl              #0x71d3a8  ; [package:ballai/shared/models/core/shot_model.dart] ShotModel::toFirestoreMap
+    //     0x74e3e4: bl              #0x71d3a8  ; [package:kourtai/shared/models/core/shot_model.dart] ShotModel::toFirestoreMap
     // 0x74e3e8: ldur            x1, [fp, #-0x10]
     // 0x74e3ec: mov             x2, x0
     // 0x74e3f0: r4 = const [0, 0x2, 0, 0x2, null]
@@ -1237,7 +1237,7 @@ abstract class VideoWorkoutFirestoreHandler extends Object {
     //     0x95ee24: stur            w16, [x0, #0xf]
     // 0x95ee28: ldur            x1, [fp, #-0x28]
     // 0x95ee2c: r0 = toMap()
-    //     0x95ee2c: bl              #0x6d287c  ; [package:ballai/automatic/models/core/stats/workouts/ai_feedback_entry.dart] AiFeedbackEntry::toMap
+    //     0x95ee2c: bl              #0x6d287c  ; [package:kourtai/automatic/models/core/stats/workouts/ai_feedback_entry.dart] AiFeedbackEntry::toMap
     // 0x95ee30: r1 = Null
     //     0x95ee30: mov             x1, NULL
     // 0x95ee34: r2 = 2
@@ -1285,7 +1285,7 @@ abstract class VideoWorkoutFirestoreHandler extends Object {
     // 0x95eeac: mov             x1, x0
     // 0x95eeb0: ldur            x2, [fp, #-0x18]
     // 0x95eeb4: r0 = updateWorkoutFields()
-    //     0x95eeb4: bl              #0x74de48  ; [package:ballai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::updateWorkoutFields
+    //     0x95eeb4: bl              #0x74de48  ; [package:kourtai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::updateWorkoutFields
     // 0x95eeb8: mov             x1, x0
     // 0x95eebc: stur            x1, [fp, #-0x10]
     // 0x95eec0: r0 = Await()
@@ -1362,7 +1362,7 @@ abstract class VideoWorkoutFirestoreHandler extends Object {
     //     0x99e068: ldr             x0, [x0, #0xe70]
     //     0x99e06c: bl              #0x60afc8  ; InitAsyncStub
     // 0x99e070: r0 = _uid()
-    //     0x99e070: bl              #0x71d908  ; [package:ballai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::_uid
+    //     0x99e070: bl              #0x71d908  ; [package:kourtai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::_uid
     // 0x99e074: mov             x2, x0
     // 0x99e078: r17 = -328
     //     0x99e078: mov             x17, #-0x148
@@ -1397,7 +1397,7 @@ abstract class VideoWorkoutFirestoreHandler extends Object {
     //     0x99e0c8: mov             x17, #-0x148
     // 0x99e0cc: ldr             x2, [fp, x17]
     // 0x99e0d0: r0 = newUuidString()
-    //     0x99e0d0: bl              #0x99e578  ; [package:ballai/shared/utility/uuid_string.dart] ::newUuidString
+    //     0x99e0d0: bl              #0x99e578  ; [package:kourtai/shared/utility/uuid_string.dart] ::newUuidString
     // 0x99e0d4: r17 = -432
     //     0x99e0d4: mov             x17, #-0x1b0
     // 0x99e0d8: str             x0, [fp, x17]
@@ -1769,7 +1769,7 @@ abstract class VideoWorkoutFirestoreHandler extends Object {
     //     0x99e490: mov             x17, #-0x148
     // 0x99e494: str             x0, [fp, x17]
     // 0x99e498: r0 = toFirestoreMap()
-    //     0x99e498: bl              #0x740044  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::toFirestoreMap
+    //     0x99e498: bl              #0x740044  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::toFirestoreMap
     // 0x99e49c: r17 = -328
     //     0x99e49c: mov             x17, #-0x148
     // 0x99e4a0: ldr             x1, [fp, x17]

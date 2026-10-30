@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/foreground/indicator/checkmark_view.dart
+// lib: , url: package:kourtai/automatic/views/components/foreground/indicator/checkmark_view.dart
 
 // class id: 1048789, size: 0x8
 class :: {

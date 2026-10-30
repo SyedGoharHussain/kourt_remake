@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/detection/yolo/engine/quantization_utils.dart
+// lib: , url: package:kourtai/video_tracking/detection/yolo/engine/quantization_utils.dart
 
 // class id: 1049133, size: 0x8
 class :: {
@@ -241,7 +241,7 @@ class ModelQuantization extends Object {
     // 0x6c7abc: ArrayLoad: r2 = r0[0]  ; List_8
     //     0x6c7abc: ldur            x2, [x0, #0x17]
     // 0x6c7ac0: r0 = quantizeChannel()
-    //     0x6c7ac0: bl              #0x6c7ad8  ; [package:ballai/video_tracking/detection/yolo/engine/quantization_utils.dart] ::quantizeChannel
+    //     0x6c7ac0: bl              #0x6c7ad8  ; [package:kourtai/video_tracking/detection/yolo/engine/quantization_utils.dart] ::quantizeChannel
     // 0x6c7ac4: LeaveFrame
     //     0x6c7ac4: mov             SP, fp
     //     0x6c7ac8: ldp             fp, lr, [SP], #0x10
@@ -532,7 +532,7 @@ class ModelQuantization extends Object {
     // 0x6cb830: r1 = 114
     //     0x6cb830: mov             x1, #0x72
     // 0x6cb834: r0 = quantizeChannel()
-    //     0x6cb834: bl              #0x6c7ad8  ; [package:ballai/video_tracking/detection/yolo/engine/quantization_utils.dart] ::quantizeChannel
+    //     0x6cb834: bl              #0x6c7ad8  ; [package:kourtai/video_tracking/detection/yolo/engine/quantization_utils.dart] ::quantizeChannel
     // 0x6cb838: mov             x5, x0
     // 0x6cb83c: ldur            x1, [fp, #-8]
     // 0x6cb840: ldur            x0, [fp, #-0x30]

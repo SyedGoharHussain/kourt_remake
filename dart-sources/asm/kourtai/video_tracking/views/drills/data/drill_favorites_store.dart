@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/drills/data/drill_favorites_store.dart
+// lib: , url: package:kourtai/video_tracking/views/drills/data/drill_favorites_store.dart
 
 // class id: 1049205, size: 0x8
 class :: {
@@ -440,7 +440,7 @@ class DrillFavoritesStore extends ChangeNotifier {
     //     0xabd074: bl              #0x60afc8  ; InitAsyncStub
     // 0xabd078: ldur            x1, [fp, #-0x10]
     // 0xabd07c: r0 = ensureLoaded()
-    //     0xabd07c: bl              #0x991ee8  ; [package:ballai/video_tracking/views/drills/data/drill_favorites_store.dart] DrillFavoritesStore::ensureLoaded
+    //     0xabd07c: bl              #0x991ee8  ; [package:kourtai/video_tracking/views/drills/data/drill_favorites_store.dart] DrillFavoritesStore::ensureLoaded
     // 0xabd080: mov             x1, x0
     // 0xabd084: stur            x1, [fp, #-0x20]
     // 0xabd088: r0 = Await()
@@ -534,7 +534,7 @@ class DrillFavoritesStore extends ChangeNotifier {
     //     0xc35304: cmp             SP, x16
     //     0xc35308: b.ls            #0xc35324
     // 0xc3530c: r0 = visibleFavoriteDrills()
-    //     0xc3530c: bl              #0xab6aac  ; [package:ballai/video_tracking/views/drills/data/drill_favorites_store.dart] DrillFavoritesStore::visibleFavoriteDrills
+    //     0xc3530c: bl              #0xab6aac  ; [package:kourtai/video_tracking/views/drills/data/drill_favorites_store.dart] DrillFavoritesStore::visibleFavoriteDrills
     // 0xc35310: LoadField: r1 = r0->field_b
     //     0xc35310: ldur            w1, [x0, #0xb]
     // 0xc35314: r0 = LoadInt32Instr(r1)

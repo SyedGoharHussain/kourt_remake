@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart
 
 // class id: 1048862, size: 0x8
 class :: {
@@ -22,11 +22,11 @@ abstract class AccountSetupSkillRoadmapSupport extends Object {
     //     0x8eb2d8: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x8eb2dc: cmp             SP, x16
     //     0x8eb2e0: b.ls            #0x8eb2fc
-    // 0x8eb2e4: r1 = "Before using Ball AI"
-    //     0x8eb2e4: add             x1, PP, #0x38, lsl #12  ; [pp+0x38030] "Before using Ball AI"
+    // 0x8eb2e4: r1 = "Before using Kourt AI"
+    //     0x8eb2e4: add             x1, PP, #0x38, lsl #12  ; [pp+0x38030] "Before using Kourt AI"
     //     0x8eb2e8: ldr             x1, [x1, #0x30]
     // 0x8eb2ec: r0 = L()
-    //     0x8eb2ec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x8eb2ec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x8eb2f0: LeaveFrame
     //     0x8eb2f0: mov             SP, fp
     //     0x8eb2f4: ldp             fp, lr, [SP], #0x10
@@ -48,7 +48,7 @@ abstract class AccountSetupSkillRoadmapSupport extends Object {
     // 0x8eb318: r1 = 0
     //     0x8eb318: mov             x1, #0
     // 0x8eb31c: r0 = levelBadgeLabel()
-    //     0x8eb31c: bl              #0x8eb334  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::levelBadgeLabel
+    //     0x8eb31c: bl              #0x8eb334  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::levelBadgeLabel
     // 0x8eb320: LeaveFrame
     //     0x8eb320: mov             SP, fp
     //     0x8eb324: ldp             fp, lr, [SP], #0x10
@@ -100,7 +100,7 @@ abstract class AccountSetupSkillRoadmapSupport extends Object {
     //     0x8eb394: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a848] "Lvl %lld"
     //     0x8eb398: ldr             x1, [x1, #0x848]
     // 0x8eb39c: r0 = LF()
-    //     0x8eb39c: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x8eb39c: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x8eb3a0: LeaveFrame
     //     0x8eb3a0: mov             SP, fp
     //     0x8eb3a4: ldp             fp, lr, [SP], #0x10
@@ -122,30 +122,30 @@ abstract class AccountSetupSkillRoadmapSupport extends Object {
     //     0x9f6c50: cmp             SP, x16
     //     0x9f6c54: b.ls            #0x9f6e80
     // 0x9f6c58: r0 = currentTierIndex()
-    //     0x9f6c58: bl              #0x9f7088  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::currentTierIndex
+    //     0x9f6c58: bl              #0x9f7088  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::currentTierIndex
     // 0x9f6c5c: r1 = "Weeks 1–2"
     //     0x9f6c5c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a7a8] "Weeks 1–2"
     //     0x9f6c60: ldr             x1, [x1, #0x7a8]
     // 0x9f6c64: stur            x0, [fp, #-8]
     // 0x9f6c68: r0 = L()
-    //     0x9f6c68: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f6c68: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f6c6c: r1 = "Build your foundation"
     //     0x9f6c6c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a7b0] "Build your foundation"
     //     0x9f6c70: ldr             x1, [x1, #0x7b0]
     // 0x9f6c74: stur            x0, [fp, #-0x10]
     // 0x9f6c78: r0 = L()
-    //     0x9f6c78: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f6c78: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f6c7c: r1 = "This is where your game starts — lock in the fundamentals and track every rep"
     //     0x9f6c7c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a7b8] "This is where your game starts — lock in the fundamentals and track every rep"
     //     0x9f6c80: ldr             x1, [x1, #0x7b8]
     // 0x9f6c84: stur            x0, [fp, #-0x18]
     // 0x9f6c88: r0 = L()
-    //     0x9f6c88: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f6c88: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f6c8c: r1 = 1
     //     0x9f6c8c: mov             x1, #1
     // 0x9f6c90: stur            x0, [fp, #-0x20]
     // 0x9f6c94: r0 = levelBadgeLabel()
-    //     0x9f6c94: bl              #0x8eb334  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::levelBadgeLabel
+    //     0x9f6c94: bl              #0x8eb334  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::levelBadgeLabel
     // 0x9f6c98: stur            x0, [fp, #-0x28]
     // 0x9f6c9c: r0 = AccountSetupSkillRoadmapPhase()
     //     0x9f6c9c: bl              #0x9f7058  ; AllocateAccountSetupSkillRoadmapPhaseStub -> AccountSetupSkillRoadmapPhase (size=0x1c)
@@ -172,24 +172,24 @@ abstract class AccountSetupSkillRoadmapSupport extends Object {
     //     0x9f6cd4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a7c8] "Month 1"
     //     0x9f6cd8: ldr             x1, [x1, #0x7c8]
     // 0x9f6cdc: r0 = L()
-    //     0x9f6cdc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f6cdc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f6ce0: r1 = "Find your rhythm"
     //     0x9f6ce0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a7d0] "Find your rhythm"
     //     0x9f6ce4: ldr             x1, [x1, #0x7d0]
     // 0x9f6ce8: stur            x0, [fp, #-0x10]
     // 0x9f6cec: r0 = L()
-    //     0x9f6cec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f6cec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f6cf0: r1 = "The reps stack here — train with me every session and build your streak"
     //     0x9f6cf0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a7d8] "The reps stack here — train with me every session and build your streak"
     //     0x9f6cf4: ldr             x1, [x1, #0x7d8]
     // 0x9f6cf8: stur            x0, [fp, #-0x18]
     // 0x9f6cfc: r0 = L()
-    //     0x9f6cfc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f6cfc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f6d00: r1 = 2
     //     0x9f6d00: mov             x1, #2
     // 0x9f6d04: stur            x0, [fp, #-0x20]
     // 0x9f6d08: r0 = levelBadgeLabel()
-    //     0x9f6d08: bl              #0x8eb334  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::levelBadgeLabel
+    //     0x9f6d08: bl              #0x8eb334  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::levelBadgeLabel
     // 0x9f6d0c: stur            x0, [fp, #-0x28]
     // 0x9f6d10: r0 = AccountSetupSkillRoadmapPhase()
     //     0x9f6d10: bl              #0x9f7058  ; AllocateAccountSetupSkillRoadmapPhaseStub -> AccountSetupSkillRoadmapPhase (size=0x1c)
@@ -216,22 +216,22 @@ abstract class AccountSetupSkillRoadmapSupport extends Object {
     //     0x9f6d48: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a7e8] "Month 2"
     //     0x9f6d4c: ldr             x1, [x1, #0x7e8]
     // 0x9f6d50: r0 = L()
-    //     0x9f6d50: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f6d50: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f6d54: ldur            x1, [fp, #-8]
     // 0x9f6d58: stur            x0, [fp, #-0x10]
     // 0x9f6d5c: r0 = _levelUpTitle()
-    //     0x9f6d5c: bl              #0x9f6f80  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::_levelUpTitle
+    //     0x9f6d5c: bl              #0x9f6f80  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::_levelUpTitle
     // 0x9f6d60: r1 = "Break through to the next level — your game starts showing on the court"
     //     0x9f6d60: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a7f0] "Break through to the next level — your game starts showing on the court"
     //     0x9f6d64: ldr             x1, [x1, #0x7f0]
     // 0x9f6d68: stur            x0, [fp, #-0x18]
     // 0x9f6d6c: r0 = L()
-    //     0x9f6d6c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f6d6c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f6d70: r1 = 3
     //     0x9f6d70: mov             x1, #3
     // 0x9f6d74: stur            x0, [fp, #-0x20]
     // 0x9f6d78: r0 = levelBadgeLabel()
-    //     0x9f6d78: bl              #0x8eb334  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::levelBadgeLabel
+    //     0x9f6d78: bl              #0x8eb334  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::levelBadgeLabel
     // 0x9f6d7c: stur            x0, [fp, #-0x28]
     // 0x9f6d80: r0 = AccountSetupSkillRoadmapPhase()
     //     0x9f6d80: bl              #0x9f7058  ; AllocateAccountSetupSkillRoadmapPhaseStub -> AccountSetupSkillRoadmapPhase (size=0x1c)
@@ -258,20 +258,20 @@ abstract class AccountSetupSkillRoadmapSupport extends Object {
     //     0x9f6db8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a800] "Month 3"
     //     0x9f6dbc: ldr             x1, [x1, #0x800]
     // 0x9f6dc0: r0 = L()
-    //     0x9f6dc0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f6dc0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f6dc4: ldur            x1, [fp, #-8]
     // 0x9f6dc8: stur            x0, [fp, #-0x10]
     // 0x9f6dcc: r0 = _summitTitle()
-    //     0x9f6dcc: bl              #0x9f6edc  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::_summitTitle
+    //     0x9f6dcc: bl              #0x9f6edc  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::_summitTitle
     // 0x9f6dd0: ldur            x1, [fp, #-8]
     // 0x9f6dd4: stur            x0, [fp, #-0x18]
     // 0x9f6dd8: r0 = _summitDetail()
-    //     0x9f6dd8: bl              #0x9f6e88  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::_summitDetail
+    //     0x9f6dd8: bl              #0x9f6e88  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::_summitDetail
     // 0x9f6ddc: r1 = 4
     //     0x9f6ddc: mov             x1, #4
     // 0x9f6de0: stur            x0, [fp, #-0x20]
     // 0x9f6de4: r0 = levelBadgeLabel()
-    //     0x9f6de4: bl              #0x8eb334  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::levelBadgeLabel
+    //     0x9f6de4: bl              #0x8eb334  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::levelBadgeLabel
     // 0x9f6de8: stur            x0, [fp, #-0x28]
     // 0x9f6dec: r0 = AccountSetupSkillRoadmapPhase()
     //     0x9f6dec: bl              #0x9f7058  ; AllocateAccountSetupSkillRoadmapPhaseStub -> AccountSetupSkillRoadmapPhase (size=0x1c)
@@ -350,7 +350,7 @@ abstract class AccountSetupSkillRoadmapSupport extends Object {
     //     0x9f6ea4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a818] "Refine your game, own your edge, and stay ahead of the competition"
     //     0x9f6ea8: ldr             x1, [x1, #0x818]
     // 0x9f6eac: r0 = L()
-    //     0x9f6eac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f6eac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f6eb0: LeaveFrame
     //     0x9f6eb0: mov             SP, fp
     //     0x9f6eb4: ldp             fp, lr, [SP], #0x10
@@ -360,7 +360,7 @@ abstract class AccountSetupSkillRoadmapSupport extends Object {
     //     0x9f6ebc: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a820] "All gas, no brakes — this is where that grind takes your game"
     //     0x9f6ec0: ldr             x1, [x1, #0x820]
     // 0x9f6ec4: r0 = L()
-    //     0x9f6ec4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f6ec4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f6ec8: LeaveFrame
     //     0x9f6ec8: mov             SP, fp
     //     0x9f6ecc: ldp             fp, lr, [SP], #0x10
@@ -387,7 +387,7 @@ abstract class AccountSetupSkillRoadmapSupport extends Object {
     //     0x9f6efc: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a828] "Peak performance"
     //     0x9f6f00: ldr             x1, [x1, #0x828]
     // 0x9f6f04: r0 = L()
-    //     0x9f6f04: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f6f04: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f6f08: LeaveFrame
     //     0x9f6f08: mov             SP, fp
     //     0x9f6f0c: ldp             fp, lr, [SP], #0x10
@@ -397,7 +397,7 @@ abstract class AccountSetupSkillRoadmapSupport extends Object {
     //     0x9f6f14: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a8c8] "Elite"
     //     0x9f6f18: ldr             x1, [x1, #0x8c8]
     // 0x9f6f1c: r0 = L()
-    //     0x9f6f1c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f6f1c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f6f20: r1 = Null
     //     0x9f6f20: mov             x1, NULL
     // 0x9f6f24: r2 = 2
@@ -427,7 +427,7 @@ abstract class AccountSetupSkillRoadmapSupport extends Object {
     //     0x9f6f60: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a830] "Reach %@"
     //     0x9f6f64: ldr             x1, [x1, #0x830]
     // 0x9f6f68: r0 = LF()
-    //     0x9f6f68: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x9f6f68: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x9f6f6c: LeaveFrame
     //     0x9f6f6c: mov             SP, fp
     //     0x9f6f70: ldp             fp, lr, [SP], #0x10
@@ -480,7 +480,7 @@ abstract class AccountSetupSkillRoadmapSupport extends Object {
     // 0x9f6fec: DecompressPointer r1
     //     0x9f6fec: add             x1, x1, HEAP, lsl #32
     // 0x9f6ff0: r0 = L()
-    //     0x9f6ff0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f6ff0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f6ff4: r1 = Null
     //     0x9f6ff4: mov             x1, NULL
     // 0x9f6ff8: r2 = 2
@@ -510,7 +510,7 @@ abstract class AccountSetupSkillRoadmapSupport extends Object {
     //     0x9f7034: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a840] "Push toward %@"
     //     0x9f7038: ldr             x1, [x1, #0x840]
     // 0x9f703c: r0 = LF()
-    //     0x9f703c: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x9f703c: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x9f7040: LeaveFrame
     //     0x9f7040: mov             SP, fp
     //     0x9f7044: ldp             fp, lr, [SP], #0x10
@@ -532,7 +532,7 @@ abstract class AccountSetupSkillRoadmapSupport extends Object {
     //     0x9f7094: cmp             SP, x16
     //     0x9f7098: b.ls            #0x9f70c8
     // 0x9f709c: r0 = canonicalLevelKey()
-    //     0x9f709c: bl              #0x931f74  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::canonicalLevelKey
+    //     0x9f709c: bl              #0x931f74  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::canonicalLevelKey
     // 0x9f70a0: mov             x2, x0
     // 0x9f70a4: r1 = const [Beginner, Competitive, Advanced, Elite]
     //     0x9f70a4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a838] List<String>(4)

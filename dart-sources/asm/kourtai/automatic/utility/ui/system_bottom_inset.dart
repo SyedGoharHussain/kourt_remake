@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/ui/system_bottom_inset.dart
+// lib: , url: package:kourtai/automatic/utility/ui/system_bottom_inset.dart
 
 // class id: 1048750, size: 0x8
 class :: {

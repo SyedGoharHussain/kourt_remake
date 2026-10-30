@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/lib/firebase/storage/image_uploader.dart
+// lib: , url: package:kourtai/automatic/lib/firebase/storage/image_uploader.dart
 
 // class id: 1048671, size: 0x8
 class :: {
@@ -56,7 +56,7 @@ class ImageUploader extends Object {
     // 0xa173d4: ldur            x1, [fp, #-0x10]
     // 0xa173d8: ldur            x2, [fp, #-0x18]
     // 0xa173dc: r0 = jpegBytesFromFile()
-    //     0xa173dc: bl              #0xa17728  ; [package:ballai/automatic/lib/firebase/storage/image_uploader.dart] ImageUploader::jpegBytesFromFile
+    //     0xa173dc: bl              #0xa17728  ; [package:kourtai/automatic/lib/firebase/storage/image_uploader.dart] ImageUploader::jpegBytesFromFile
     // 0xa173e0: mov             x1, x0
     // 0xa173e4: stur            x1, [fp, #-0x18]
     // 0xa173e8: r0 = Await()
@@ -71,12 +71,12 @@ class ImageUploader extends Object {
     // 0xa17400: ldur            x1, [fp, #-0x20]
     // 0xa17404: mov             x2, x0
     // 0xa17408: r0 = applyProfileImageBytes()
-    //     0xa17408: bl              #0xa176cc  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::applyProfileImageBytes
+    //     0xa17408: bl              #0xa176cc  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::applyProfileImageBytes
     // 0xa1740c: ldur            x1, [fp, #-0x10]
     // 0xa17410: ldur            x2, [fp, #-0x18]
     // 0xa17414: ldur            x3, [fp, #-0x28]
     // 0xa17418: r0 = uploadProfileImageBytes()
-    //     0xa17418: bl              #0xa17428  ; [package:ballai/automatic/lib/firebase/storage/image_uploader.dart] ImageUploader::uploadProfileImageBytes
+    //     0xa17418: bl              #0xa17428  ; [package:kourtai/automatic/lib/firebase/storage/image_uploader.dart] ImageUploader::uploadProfileImageBytes
     // 0xa1741c: r0 = ReturnAsync()
     //     0xa1741c: b               #0x5f1e3c  ; ReturnAsyncStub
     // 0xa17420: r0 = StackOverflowSharedWithoutFPURegs()
@@ -119,7 +119,7 @@ class ImageUploader extends Object {
     //     0xa1747c: add             x4, PP, #0x14, lsl #12  ; [pp+0x14510] List(7) [0, 0x1, 0x1, 0, "userId", 0, Null]
     //     0xa17480: ldr             x4, [x4, #0x510]
     // 0xa17484: r0 = getProfileImagePath()
-    //     0xa17484: bl              #0x769710  ; [package:ballai/shared/app/firebase/cloudstorage/cloud_storage.dart] CloudStorage::getProfileImagePath
+    //     0xa17484: bl              #0x769710  ; [package:kourtai/shared/app/firebase/cloudstorage/cloud_storage.dart] CloudStorage::getProfileImagePath
     // 0xa17488: stur            x0, [fp, #-0x78]
     // 0xa1748c: r4 = const [0, 0, 0, 0, null]
     //     0xa1748c: add             x4, PP, #0xc, lsl #12  ; [pp+0xc818] List(5) [0, 0, 0, 0, Null]
@@ -163,10 +163,10 @@ class ImageUploader extends Object {
     //     0xa174f8: bl              #0x60ad4c  ; AwaitStub
     // 0xa174fc: ldur            x1, [fp, #-0x78]
     // 0xa17500: r0 = invalidatePath()
-    //     0xa17500: bl              #0xa17610  ; [package:ballai/shared/app/firebase/cloudstorage/cloud_storage.dart] CloudStorage::invalidatePath
+    //     0xa17500: bl              #0xa17610  ; [package:kourtai/shared/app/firebase/cloudstorage/cloud_storage.dart] CloudStorage::invalidatePath
     // 0xa17504: ldur            x1, [fp, #-0x78]
     // 0xa17508: r0 = fetchImageBytes()
-    //     0xa17508: bl              #0x93d958  ; [package:ballai/shared/app/firebase/cloudstorage/cloud_storage.dart] CloudStorage::fetchImageBytes
+    //     0xa17508: bl              #0x93d958  ; [package:kourtai/shared/app/firebase/cloudstorage/cloud_storage.dart] CloudStorage::fetchImageBytes
     // 0xa1750c: mov             x1, x0
     // 0xa17510: stur            x1, [fp, #-0x88]
     // 0xa17514: r0 = Await()

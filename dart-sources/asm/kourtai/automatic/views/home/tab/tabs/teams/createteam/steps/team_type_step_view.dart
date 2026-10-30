@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_type_step_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_type_step_view.dart
 
 // class id: 1048935, size: 0x8
 class :: {
@@ -31,7 +31,7 @@ class TeamTypeStepView extends StatelessWidget {
     //     0xbfbdfc: stur            w0, [x1, #0xf]
     // 0xbfbe00: mov             x2, x1
     // 0xbfbe04: r1 = Function '<anonymous closure>':.
-    //     0xbfbe04: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c3d0] AnonymousClosure: (0xbfbef0), in [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_type_step_view.dart] TeamTypeStepView::build (0xbfbdd0)
+    //     0xbfbe04: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c3d0] AnonymousClosure: (0xbfbef0), in [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_type_step_view.dart] TeamTypeStepView::build (0xbfbdd0)
     //     0xbfbe08: ldr             x1, [x1, #0x3d0]
     // 0xbfbe0c: r0 = AllocateClosure()
     //     0xbfbe0c: bl              #0xe553e0  ; AllocateClosureStub
@@ -310,7 +310,7 @@ class TeamTypeStepView extends StatelessWidget {
     //     0xbfc108: stur            w0, [x3, #0x13]
     // 0xbfc10c: ldur            x2, [fp, #-0x20]
     // 0xbfc110: r1 = Function '<anonymous closure>':.
-    //     0xbfc110: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c478] AnonymousClosure: (0xbfc13c), in [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_type_step_view.dart] TeamTypeStepView::build (0xbfbdd0)
+    //     0xbfc110: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c478] AnonymousClosure: (0xbfc13c), in [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_type_step_view.dart] TeamTypeStepView::build (0xbfbdd0)
     //     0xbfc114: ldr             x1, [x1, #0x478]
     // 0xbfc118: r0 = AllocateClosure()
     //     0xbfc118: bl              #0xe553e0  ; AllocateClosureStub

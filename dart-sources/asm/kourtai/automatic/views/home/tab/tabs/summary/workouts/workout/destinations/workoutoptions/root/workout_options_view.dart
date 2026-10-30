@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart
 
 // class id: 1048894, size: 0x8
 class :: {
@@ -31,7 +31,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0x95cef4: b.ls            #0x95cf48
     // 0x95cef8: mov             x1, x0
     // 0x95cefc: r0 = initState()
-    //     0x95cefc: bl              #0x989844  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::initState
+    //     0x95cefc: bl              #0x989844  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::initState
     // 0x95cf00: ldur            x1, [fp, #-8]
     // 0x95cf04: LoadField: r2 = r1->field_b
     //     0x95cf04: ldur            w2, [x1, #0xb]
@@ -150,7 +150,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3a3bc: add             x1, PP, #0x44, lsl #12  ; [pp+0x44c90] "Edit workout"
     //     0xa3a3c0: ldr             x1, [x1, #0xc90]
     // 0xa3a3c4: r0 = L()
-    //     0xa3a3c4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3a3c4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa3a3c8: stur            x0, [fp, #-0x38]
     // 0xa3a3cc: r0 = TextStyle()
     //     0xa3a3cc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -250,7 +250,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3a4c4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44cb0] "This workout doesn\'t belong to you."
     //     0xa3a4c8: ldr             x1, [x1, #0xcb0]
     // 0xa3a4cc: r0 = L()
-    //     0xa3a4cc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3a4cc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa3a4d0: stur            x0, [fp, #-0x48]
     // 0xa3a4d4: r0 = Color()
     //     0xa3a4d4: bl              #0x5edc90  ; AllocateColorStub -> Color (size=0x2c)
@@ -410,7 +410,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3a67c: stur            w0, [x3, #0x13]
     // 0xa3a680: ldur            x2, [fp, #-8]
     // 0xa3a684: r1 = Function '_toggleFavorite@1155509221':.
-    //     0xa3a684: add             x1, PP, #0x44, lsl #12  ; [pp+0x44ce0] AnonymousClosure: (0xa3bc7c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_toggleFavorite (0xa3bcb4)
+    //     0xa3a684: add             x1, PP, #0x44, lsl #12  ; [pp+0x44ce0] AnonymousClosure: (0xa3bc7c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_toggleFavorite (0xa3bcb4)
     //     0xa3a688: ldr             x1, [x1, #0xce0]
     // 0xa3a68c: r0 = AllocateClosure()
     //     0xa3a68c: bl              #0xe553e0  ; AllocateClosureStub
@@ -443,7 +443,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     // 0xa3a6d8: b               #0xa3a6f8
     // 0xa3a6dc: mov             x2, x4
     // 0xa3a6e0: r1 = Function '_showRenameDialog@1155509221':.
-    //     0xa3a6e0: add             x1, PP, #0x44, lsl #12  ; [pp+0x44cf8] AnonymousClosure: (0xa3b34c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_showRenameDialog (0xa3b384)
+    //     0xa3a6e0: add             x1, PP, #0x44, lsl #12  ; [pp+0x44cf8] AnonymousClosure: (0xa3b34c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_showRenameDialog (0xa3b384)
     //     0xa3a6e4: ldr             x1, [x1, #0xcf8]
     // 0xa3a6e8: r0 = AllocateClosure()
     //     0xa3a6e8: bl              #0xe553e0  ; AllocateClosureStub
@@ -508,7 +508,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3a784: stur            w0, [x2, #0xb]
     // 0xa3a788: ldur            x1, [fp, #-8]
     // 0xa3a78c: r0 = _isVideoTracked()
-    //     0xa3a78c: bl              #0xa3ac2c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_isVideoTracked
+    //     0xa3a78c: bl              #0xa3ac2c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_isVideoTracked
     // 0xa3a790: tbnz            w0, #4, #0xa3a858
     // 0xa3a794: ldur            x0, [fp, #-0x20]
     // 0xa3a798: r0 = SizedBox()
@@ -524,7 +524,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3a7b0: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d00] "Fix shots"
     //     0xa3a7b4: ldr             x1, [x1, #0xd00]
     // 0xa3a7b8: r0 = L()
-    //     0xa3a7b8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3a7b8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa3a7bc: stur            x0, [fp, #-0x48]
     // 0xa3a7c0: r0 = _PillButton()
     //     0xa3a7c0: bl              #0xa3ac80  ; Allocate_PillButtonStub -> _PillButton (size=0x20)
@@ -543,7 +543,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3a7e4: stur            w0, [x3, #0x13]
     // 0xa3a7e8: ldur            x2, [fp, #-8]
     // 0xa3a7ec: r1 = Function '_openEditShots@1155509221':.
-    //     0xa3a7ec: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d10] AnonymousClosure: (0xa3b1ec), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_openEditShots (0xa3b224)
+    //     0xa3a7ec: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d10] AnonymousClosure: (0xa3b1ec), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_openEditShots (0xa3b224)
     //     0xa3a7f0: ldr             x1, [x1, #0xd10]
     // 0xa3a7f4: r0 = AllocateClosure()
     //     0xa3a7f4: bl              #0xe553e0  ; AllocateClosureStub
@@ -642,14 +642,14 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     // 0xa3a8f4: DecompressPointer r1
     //     0xa3a8f4: add             x1, x1, HEAP, lsl #32
     // 0xa3a8f8: r0 = isLive()
-    //     0xa3a8f8: bl              #0x8ec3f8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isLive
+    //     0xa3a8f8: bl              #0x8ec3f8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isLive
     // 0xa3a8fc: tbz             w0, #4, #0xa3aa0c
     // 0xa3a900: ldur            x2, [fp, #-8]
     // 0xa3a904: r1 = "Delete Workout"
     //     0xa3a904: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d18] "Delete Workout"
     //     0xa3a908: ldr             x1, [x1, #0xd18]
     // 0xa3a90c: r0 = L()
-    //     0xa3a90c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3a90c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa3a910: ldur            x2, [fp, #-8]
     // 0xa3a914: stur            x0, [fp, #-0x20]
     // 0xa3a918: ArrayLoad: r3 = r2[0]  ; List_4
@@ -663,7 +663,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3a92c: mov             x3, NULL
     // 0xa3a930: b               #0xa3a94c
     // 0xa3a934: r1 = Function '_confirmDelete@1155509221':.
-    //     0xa3a934: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d20] AnonymousClosure: (0xa3ac8c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_confirmDelete (0xa3acc4)
+    //     0xa3a934: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d20] AnonymousClosure: (0xa3ac8c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_confirmDelete (0xa3acc4)
     //     0xa3a938: ldr             x1, [x1, #0xd20]
     // 0xa3a93c: r0 = AllocateClosure()
     //     0xa3a93c: bl              #0xe553e0  ; AllocateClosureStub
@@ -742,7 +742,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3aa10: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d30] "You can delete this workout once it has finished. End the session from your watch or in-progress recording first."
     //     0xa3aa14: ldr             x1, [x1, #0xd30]
     // 0xa3aa18: r0 = L()
-    //     0xa3aa18: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3aa18: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa3aa1c: r1 = _ConstMap len:12
     //     0xa3aa1c: ldr             x1, [PP, #0x5428]  ; [pp+0x5428] Map<int, Color>(12)
     // 0xa3aa20: r2 = 1400
@@ -931,7 +931,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     // 0xa3ac58: DecompressPointer r1
     //     0xa3ac58: add             x1, x1, HEAP, lsl #32
     // 0xa3ac5c: r0 = isVideoTrackedWorkout()
-    //     0xa3ac5c: bl              #0x736e2c  ; [package:ballai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
+    //     0xa3ac5c: bl              #0x736e2c  ; [package:kourtai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
     // 0xa3ac60: LeaveFrame
     //     0xa3ac60: mov             SP, fp
     //     0xa3ac64: ldp             fp, lr, [SP], #0x10
@@ -961,7 +961,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3aca4: cmp             SP, x16
     //     0xa3aca8: b.ls            #0xa3acbc
     // 0xa3acac: r0 = _confirmDelete()
-    //     0xa3acac: bl              #0xa3acc4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_confirmDelete
+    //     0xa3acac: bl              #0xa3acc4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_confirmDelete
     // 0xa3acb0: LeaveFrame
     //     0xa3acb0: mov             SP, fp
     //     0xa3acb4: ldp             fp, lr, [SP], #0x10
@@ -1006,7 +1006,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     // 0xa3ad14: cmp             w3, NULL
     // 0xa3ad18: b.eq            #0xa3aefc
     // 0xa3ad1c: r1 = Function '<anonymous closure>':.
-    //     0xa3ad1c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d48] AnonymousClosure: (0xa3aff4), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_confirmDelete (0xa3acc4)
+    //     0xa3ad1c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d48] AnonymousClosure: (0xa3aff4), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_confirmDelete (0xa3acc4)
     //     0xa3ad20: ldr             x1, [x1, #0xd48]
     // 0xa3ad24: r2 = Null
     //     0xa3ad24: mov             x2, NULL
@@ -1048,7 +1048,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     // 0xa3ad88: ldur            x3, [fp, #-0x18]
     // 0xa3ad8c: mov             x2, x3
     // 0xa3ad90: r1 = Function '<anonymous closure>':.
-    //     0xa3ad90: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d50] AnonymousClosure: (0x900cc0), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
+    //     0xa3ad90: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d50] AnonymousClosure: (0x900cc0), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
     //     0xa3ad94: ldr             x1, [x1, #0xd50]
     // 0xa3ad98: r0 = AllocateClosure()
     //     0xa3ad98: bl              #0xe553e0  ; AllocateClosureStub
@@ -1066,7 +1066,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     // 0xa3adb8: cmp             w1, w16
     // 0xa3adbc: b.eq            #0xa3af00
     // 0xa3adc0: r0 = deleteWorkout()
-    //     0xa3adc0: bl              #0xa3af14  ; [package:ballai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::deleteWorkout
+    //     0xa3adc0: bl              #0xa3af14  ; [package:kourtai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::deleteWorkout
     // 0xa3adc4: mov             x1, x0
     // 0xa3adc8: stur            x1, [fp, #-0x20]
     // 0xa3adcc: r0 = Await()
@@ -1095,7 +1095,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     // 0xa3ae14: r0 = ReturnAsyncNotFuture()
     //     0xa3ae14: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xa3ae18: r1 = Function '<anonymous closure>':.
-    //     0xa3ae18: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d58] AnonymousClosure: (0xa3afc4), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_confirmDelete (0xa3acc4)
+    //     0xa3ae18: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d58] AnonymousClosure: (0xa3afc4), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_confirmDelete (0xa3acc4)
     //     0xa3ae1c: ldr             x1, [x1, #0xd58]
     // 0xa3ae20: r0 = AllocateClosure()
     //     0xa3ae20: bl              #0xe553e0  ; AllocateClosureStub
@@ -1117,7 +1117,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     // 0xa3ae50: r0 = of()
     //     0xa3ae50: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa3ae54: r1 = Function '<anonymous closure>':.
-    //     0xa3ae54: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d60] AnonymousClosure: static (0x940b24), in [package:ballai/automatic/app/app_nav.dart] ::popAuthFunnelToRoot (0x940b54)
+    //     0xa3ae54: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d60] AnonymousClosure: static (0x940b24), in [package:kourtai/automatic/app/app_nav.dart] ::popAuthFunnelToRoot (0x940b54)
     //     0xa3ae58: ldr             x1, [x1, #0xd60]
     // 0xa3ae5c: r2 = Null
     //     0xa3ae5c: mov             x2, NULL
@@ -1143,7 +1143,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3ae94: ldr             x1, [x1, #0xd68]
     // 0xa3ae98: stur            x0, [fp, #-0x10]
     // 0xa3ae9c: r0 = L()
-    //     0xa3ae9c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3ae9c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa3aea0: stur            x0, [fp, #-0x18]
     // 0xa3aea4: r0 = Text()
     //     0xa3aea4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1249,7 +1249,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3b03c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d70] "Delete this workout\?"
     //     0xa3b040: ldr             x1, [x1, #0xd70]
     // 0xa3b044: r0 = L()
-    //     0xa3b044: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3b044: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa3b048: stur            x0, [fp, #-8]
     // 0xa3b04c: r0 = Text()
     //     0xa3b04c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1262,7 +1262,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3b060: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d78] "This will permanently remove the workout, its shots, and any associated stats."
     //     0xa3b064: ldr             x1, [x1, #0xd78]
     // 0xa3b068: r0 = L()
-    //     0xa3b068: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3b068: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa3b06c: stur            x0, [fp, #-8]
     // 0xa3b070: r0 = Text()
     //     0xa3b070: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1275,7 +1275,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3b084: add             x1, PP, #0x27, lsl #12  ; [pp+0x27668] "Cancel"
     //     0xa3b088: ldr             x1, [x1, #0x668]
     // 0xa3b08c: r0 = L()
-    //     0xa3b08c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3b08c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa3b090: stur            x0, [fp, #-8]
     // 0xa3b094: r0 = Text()
     //     0xa3b094: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1286,7 +1286,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3b0a4: stur            w0, [x3, #0xb]
     // 0xa3b0a8: ldur            x2, [fp, #-0x10]
     // 0xa3b0ac: r1 = Function '<anonymous closure>':.
-    //     0xa3b0ac: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d80] AnonymousClosure: static (0x796f4c), in [package:ballai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::presentDeniedDialog (0x796a3c)
+    //     0xa3b0ac: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d80] AnonymousClosure: static (0x796f4c), in [package:kourtai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::presentDeniedDialog (0x796a3c)
     //     0xa3b0b0: ldr             x1, [x1, #0xd80]
     // 0xa3b0b4: r0 = AllocateClosure()
     //     0xa3b0b4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1323,7 +1323,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3b104: ldr             x1, [x1, #0xd18]
     // 0xa3b108: stur            x0, [fp, #-8]
     // 0xa3b10c: r0 = L()
-    //     0xa3b10c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3b10c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa3b110: stur            x0, [fp, #-0x28]
     // 0xa3b114: r0 = Text()
     //     0xa3b114: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1334,7 +1334,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3b124: stur            w0, [x3, #0xb]
     // 0xa3b128: ldur            x2, [fp, #-0x10]
     // 0xa3b12c: r1 = Function '<anonymous closure>':.
-    //     0xa3b12c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d88] AnonymousClosure: static (0x796ee4), in [package:ballai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::presentDeniedDialog (0x796a3c)
+    //     0xa3b12c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d88] AnonymousClosure: static (0x796ee4), in [package:kourtai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::presentDeniedDialog (0x796a3c)
     //     0xa3b130: ldr             x1, [x1, #0xd88]
     // 0xa3b134: r0 = AllocateClosure()
     //     0xa3b134: bl              #0xe553e0  ; AllocateClosureStub
@@ -1426,7 +1426,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3b204: cmp             SP, x16
     //     0xa3b208: b.ls            #0xa3b21c
     // 0xa3b20c: r0 = _openEditShots()
-    //     0xa3b20c: bl              #0xa3b224  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_openEditShots
+    //     0xa3b20c: bl              #0xa3b224  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_openEditShots
     // 0xa3b210: LeaveFrame
     //     0xa3b210: mov             SP, fp
     //     0xa3b214: ldp             fp, lr, [SP], #0x10
@@ -1473,7 +1473,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3b274: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa3b278: ldur            x2, [fp, #-0x10]
     // 0xa3b27c: r1 = Function '<anonymous closure>':.
-    //     0xa3b27c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d90] AnonymousClosure: (0xa3b2e4), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_openEditShots (0xa3b224)
+    //     0xa3b27c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d90] AnonymousClosure: (0xa3b2e4), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_openEditShots (0xa3b224)
     //     0xa3b280: ldr             x1, [x1, #0xd90]
     // 0xa3b284: stur            x0, [fp, #-8]
     // 0xa3b288: r0 = AllocateClosure()
@@ -1568,7 +1568,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3b364: cmp             SP, x16
     //     0xa3b368: b.ls            #0xa3b37c
     // 0xa3b36c: r0 = _showRenameDialog()
-    //     0xa3b36c: bl              #0xa3b384  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_showRenameDialog
+    //     0xa3b36c: bl              #0xa3b384  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_showRenameDialog
     // 0xa3b370: LeaveFrame
     //     0xa3b370: mov             SP, fp
     //     0xa3b374: ldp             fp, lr, [SP], #0x10
@@ -1653,7 +1653,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     // 0xa3b448: b.eq            #0xa3b600
     // 0xa3b44c: mov             x2, x3
     // 0xa3b450: r1 = Function '<anonymous closure>':.
-    //     0xa3b450: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d98] AnonymousClosure: (0xa3b808), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_showRenameDialog (0xa3b384)
+    //     0xa3b450: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d98] AnonymousClosure: (0xa3b808), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_showRenameDialog (0xa3b384)
     //     0xa3b454: ldr             x1, [x1, #0xd98]
     // 0xa3b458: r0 = AllocateClosure()
     //     0xa3b458: bl              #0xe553e0  ; AllocateClosureStub
@@ -1693,7 +1693,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3b4c0: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xa3b4c4: mov             x2, x3
     // 0xa3b4c8: r1 = Function '<anonymous closure>':.
-    //     0xa3b4c8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44da0] AnonymousClosure: (0xa3b750), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_showRenameDialog (0xa3b384)
+    //     0xa3b4c8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44da0] AnonymousClosure: (0xa3b750), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_showRenameDialog (0xa3b384)
     //     0xa3b4cc: ldr             x1, [x1, #0xda0]
     // 0xa3b4d0: r0 = AllocateClosure()
     //     0xa3b4d0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1708,7 +1708,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3b4e8: add             x1, x1, HEAP, lsl #32
     // 0xa3b4ec: ldur            x2, [fp, #-0x80]
     // 0xa3b4f0: r0 = updateName()
-    //     0xa3b4f0: bl              #0xa3b604  ; [package:ballai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::updateName
+    //     0xa3b4f0: bl              #0xa3b604  ; [package:kourtai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::updateName
     // 0xa3b4f4: mov             x1, x0
     // 0xa3b4f8: stur            x1, [fp, #-0x80]
     // 0xa3b4fc: r0 = Await()
@@ -1725,7 +1725,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     // 0xa3b518: ldur            x0, [fp, #-0x70]
     // 0xa3b51c: ldur            x2, [fp, #-0x78]
     // 0xa3b520: r1 = Function '<anonymous closure>':.
-    //     0xa3b520: add             x1, PP, #0x44, lsl #12  ; [pp+0x44da8] AnonymousClosure: (0xa3b6d0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_showRenameDialog (0xa3b384)
+    //     0xa3b520: add             x1, PP, #0x44, lsl #12  ; [pp+0x44da8] AnonymousClosure: (0xa3b6d0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_showRenameDialog (0xa3b384)
     //     0xa3b524: ldr             x1, [x1, #0xda8]
     // 0xa3b528: r0 = AllocateClosure()
     //     0xa3b528: bl              #0xe553e0  ; AllocateClosureStub
@@ -1768,7 +1768,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     // 0xa3b598: ldur            x0, [fp, #-0x70]
     // 0xa3b59c: ldur            x2, [fp, #-0x78]
     // 0xa3b5a0: r1 = Function '<anonymous closure>':.
-    //     0xa3b5a0: add             x1, PP, #0x44, lsl #12  ; [pp+0x44da8] AnonymousClosure: (0xa3b6d0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_showRenameDialog (0xa3b384)
+    //     0xa3b5a0: add             x1, PP, #0x44, lsl #12  ; [pp+0x44da8] AnonymousClosure: (0xa3b6d0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_showRenameDialog (0xa3b384)
     //     0xa3b5a4: ldr             x1, [x1, #0xda8]
     // 0xa3b5a8: r0 = AllocateClosure()
     //     0xa3b5a8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1838,7 +1838,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     // 0xa3b71c: ret
     //     0xa3b71c: ret             
     // 0xa3b720: r1 = Function '<anonymous closure>':.
-    //     0xa3b720: add             x1, PP, #0x44, lsl #12  ; [pp+0x44db0] AnonymousClosure: (0x8e76f0), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_dismissWhatsNewSheet (0x8e7710)
+    //     0xa3b720: add             x1, PP, #0x44, lsl #12  ; [pp+0x44db0] AnonymousClosure: (0x8e76f0), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_dismissWhatsNewSheet (0x8e7710)
     //     0xa3b724: ldr             x1, [x1, #0xdb0]
     // 0xa3b728: r0 = AllocateClosure()
     //     0xa3b728: bl              #0xe553e0  ; AllocateClosureStub
@@ -1895,7 +1895,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3b7a4: add             x4, PP, #0x44, lsl #12  ; [pp+0x44db8] List(7) [0, 0x2, 0x1, 0x1, "name", 0x1, Null]
     //     0xa3b7a8: ldr             x4, [x4, #0xdb8]
     // 0xa3b7ac: r0 = copyWith()
-    //     0xa3b7ac: bl              #0x74c780  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::copyWith
+    //     0xa3b7ac: bl              #0x74c780  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::copyWith
     // 0xa3b7b0: ldur            x1, [fp, #-8]
     // 0xa3b7b4: StoreField: r1->field_13 = r0
     //     0xa3b7b4: stur            w0, [x1, #0x13]
@@ -1962,7 +1962,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3b850: add             x1, PP, #0x44, lsl #12  ; [pp+0x44cf0] "Edit Name"
     //     0xa3b854: ldr             x1, [x1, #0xcf0]
     // 0xa3b858: r0 = L()
-    //     0xa3b858: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3b858: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa3b85c: stur            x0, [fp, #-0x18]
     // 0xa3b860: r0 = Text()
     //     0xa3b860: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1975,7 +1975,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3b874: add             x1, PP, #0x44, lsl #12  ; [pp+0x44dc0] "Edit the name for the workout."
     //     0xa3b878: ldr             x1, [x1, #0xdc0]
     // 0xa3b87c: r0 = L()
-    //     0xa3b87c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3b87c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa3b880: stur            x0, [fp, #-0x18]
     // 0xa3b884: r0 = Text()
     //     0xa3b884: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2205,7 +2205,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3ba9c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27668] "Cancel"
     //     0xa3baa0: ldr             x1, [x1, #0x668]
     // 0xa3baa4: r0 = L()
-    //     0xa3baa4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3baa4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa3baa8: stur            x0, [fp, #-8]
     // 0xa3baac: r0 = Text()
     //     0xa3baac: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2216,7 +2216,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3babc: stur            w0, [x3, #0xb]
     // 0xa3bac0: ldur            x2, [fp, #-0x10]
     // 0xa3bac4: r1 = Function '<anonymous closure>':.
-    //     0xa3bac4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44dc8] AnonymousClosure: (0xa2c5e0), in [package:ballai/automatic/views/home/tab/tabs/teams/root/teams_view.dart] _TeamsViewState::_showJoinError (0xa2c7a4)
+    //     0xa3bac4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44dc8] AnonymousClosure: (0xa2c5e0), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/teams_view.dart] _TeamsViewState::_showJoinError (0xa2c7a4)
     //     0xa3bac8: ldr             x1, [x1, #0xdc8]
     // 0xa3bacc: r0 = AllocateClosure()
     //     0xa3bacc: bl              #0xe553e0  ; AllocateClosureStub
@@ -2243,7 +2243,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3bb00: add             x1, PP, #0x44, lsl #12  ; [pp+0x44dd0] "Submit"
     //     0xa3bb04: ldr             x1, [x1, #0xdd0]
     // 0xa3bb08: r0 = L()
-    //     0xa3bb08: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3bb08: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa3bb0c: stur            x0, [fp, #-8]
     // 0xa3bb10: r0 = Text()
     //     0xa3bb10: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2254,7 +2254,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3bb20: stur            w0, [x3, #0xb]
     // 0xa3bb24: ldur            x2, [fp, #-0x10]
     // 0xa3bb28: r1 = Function '<anonymous closure>':.
-    //     0xa3bb28: add             x1, PP, #0x44, lsl #12  ; [pp+0x44dd8] AnonymousClosure: (0xa3bbe0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_showRenameDialog (0xa3b384)
+    //     0xa3bb28: add             x1, PP, #0x44, lsl #12  ; [pp+0x44dd8] AnonymousClosure: (0xa3bbe0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_showRenameDialog (0xa3b384)
     //     0xa3bb2c: ldr             x1, [x1, #0xdd8]
     // 0xa3bb30: r0 = AllocateClosure()
     //     0xa3bb30: bl              #0xe553e0  ; AllocateClosureStub
@@ -2409,7 +2409,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3bc94: cmp             SP, x16
     //     0xa3bc98: b.ls            #0xa3bcac
     // 0xa3bc9c: r0 = _toggleFavorite()
-    //     0xa3bc9c: bl              #0xa3bcb4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_toggleFavorite
+    //     0xa3bc9c: bl              #0xa3bcb4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_toggleFavorite
     // 0xa3bca0: LeaveFrame
     //     0xa3bca0: mov             SP, fp
     //     0xa3bca4: ldp             fp, lr, [SP], #0x10
@@ -2467,7 +2467,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3bd24: stur            w3, [x4, #0x13]
     // 0xa3bd28: mov             x2, x4
     // 0xa3bd2c: r1 = Function '<anonymous closure>':.
-    //     0xa3bd2c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44de8] AnonymousClosure: (0xa3bef0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_toggleFavorite (0xa3bcb4)
+    //     0xa3bd2c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44de8] AnonymousClosure: (0xa3bef0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_toggleFavorite (0xa3bcb4)
     //     0xa3bd30: ldr             x1, [x1, #0xde8]
     // 0xa3bd34: r0 = AllocateClosure()
     //     0xa3bd34: bl              #0xe553e0  ; AllocateClosureStub
@@ -2482,7 +2482,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3bd4c: add             x1, x1, HEAP, lsl #32
     // 0xa3bd50: ldur            x2, [fp, #-0x70]
     // 0xa3bd54: r0 = toggleFavorited()
-    //     0xa3bd54: bl              #0xa3bdc0  ; [package:ballai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::toggleFavorited
+    //     0xa3bd54: bl              #0xa3bdc0  ; [package:kourtai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::toggleFavorited
     // 0xa3bd58: mov             x1, x0
     // 0xa3bd5c: stur            x1, [fp, #-0x70]
     // 0xa3bd60: r0 = Await()
@@ -2502,7 +2502,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3bd84: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xa3bd88: ldur            x2, [fp, #-0x68]
     // 0xa3bd8c: r1 = Function '<anonymous closure>':.
-    //     0xa3bd8c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44df0] AnonymousClosure: (0xa3be44), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_toggleFavorite (0xa3bcb4)
+    //     0xa3bd8c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44df0] AnonymousClosure: (0xa3be44), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::_toggleFavorite (0xa3bcb4)
     //     0xa3bd90: ldr             x1, [x1, #0xdf0]
     // 0xa3bd94: r0 = AllocateClosure()
     //     0xa3bd94: bl              #0xe553e0  ; AllocateClosureStub
@@ -2562,7 +2562,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3be9c: add             x4, PP, #0x44, lsl #12  ; [pp+0x44df8] List(7) [0, 0x2, 0x1, 0x1, "isFavorited", 0x1, Null]
     //     0xa3bea0: ldr             x4, [x4, #0xdf8]
     // 0xa3bea4: r0 = copyWith()
-    //     0xa3bea4: bl              #0x74c780  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::copyWith
+    //     0xa3bea4: bl              #0x74c780  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::copyWith
     // 0xa3bea8: mov             x2, x0
     // 0xa3beac: ldur            x1, [fp, #-8]
     // 0xa3beb0: StoreField: r1->field_13 = r0
@@ -2626,7 +2626,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xa3bf44: add             x4, PP, #0x44, lsl #12  ; [pp+0x44df8] List(7) [0, 0x2, 0x1, 0x1, "isFavorited", 0x1, Null]
     //     0xa3bf48: ldr             x4, [x4, #0xdf8]
     // 0xa3bf4c: r0 = copyWith()
-    //     0xa3bf4c: bl              #0x74c780  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::copyWith
+    //     0xa3bf4c: bl              #0x74c780  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::copyWith
     // 0xa3bf50: mov             x2, x0
     // 0xa3bf54: ldur            x1, [fp, #-8]
     // 0xa3bf58: StoreField: r1->field_13 = r0
@@ -2659,7 +2659,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xb5b19c: mov             fp, SP
     // 0xb5b1a0: ldr             x2, [fp, #0x10]
     // 0xb5b1a4: r1 = Function 'dispose':.
-    //     0xb5b1a4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44ca0] AnonymousClosure: (0xb5b1bc), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::dispose (0xb61ff8)
+    //     0xb5b1a4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44ca0] AnonymousClosure: (0xb5b1bc), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::dispose (0xb61ff8)
     //     0xb5b1a8: ldr             x1, [x1, #0xca0]
     // 0xb5b1ac: r0 = AllocateClosure()
     //     0xb5b1ac: bl              #0xe553e0  ; AllocateClosureStub
@@ -2684,7 +2684,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xb5b1d4: cmp             SP, x16
     //     0xb5b1d8: b.ls            #0xb5b1ec
     // 0xb5b1dc: r0 = dispose()
-    //     0xb5b1dc: bl              #0xb61ff8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::dispose
+    //     0xb5b1dc: bl              #0xb61ff8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/root/workout_options_view.dart] _WorkoutOptionsViewState::dispose
     // 0xb5b1e0: LeaveFrame
     //     0xb5b1e0: mov             SP, fp
     //     0xb5b1e4: ldp             fp, lr, [SP], #0x10
@@ -2718,7 +2718,7 @@ class _WorkoutOptionsViewState extends __WorkoutOptionsViewState&State&HomeIslan
     //     0xb62028: bl              #0x5ce814  ; [dart:isolate] _Timer::cancel
     // 0xb6202c: ldur            x1, [fp, #-8]
     // 0xb62030: r0 = dispose()
-    //     0xb62030: bl              #0xb63788  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
+    //     0xb62030: bl              #0xb63788  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
     // 0xb62034: r0 = Null
     //     0xb62034: mov             x0, NULL
     // 0xb62038: LeaveFrame

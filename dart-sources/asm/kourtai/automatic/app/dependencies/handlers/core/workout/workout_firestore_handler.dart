@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart
 
 // class id: 1048633, size: 0x8
 class :: {
@@ -215,7 +215,7 @@ abstract class WorkoutFirestoreHandler extends Object {
     // 0xa384bc: mov             x1, x0
     // 0xa384c0: ldur            x2, [fp, #-0x18]
     // 0xa384c4: r0 = updateWorkoutFields()
-    //     0xa384c4: bl              #0xa38524  ; [package:ballai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::updateWorkoutFields
+    //     0xa384c4: bl              #0xa38524  ; [package:kourtai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::updateWorkoutFields
     // 0xa384c8: mov             x1, x0
     // 0xa384cc: stur            x1, [fp, #-0x10]
     // 0xa384d0: r0 = Await()
@@ -275,7 +275,7 @@ abstract class WorkoutFirestoreHandler extends Object {
     //     0xa38558: bl              #0x60afc8  ; InitAsyncStub
     // 0xa3855c: ldur            x1, [fp, #-0x18]
     // 0xa38560: r0 = _ownerMatches()
-    //     0xa38560: bl              #0xa38650  ; [package:ballai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::_ownerMatches
+    //     0xa38560: bl              #0xa38650  ; [package:kourtai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::_ownerMatches
     // 0xa38564: tbnz            w0, #4, #0xa38620
     // 0xa38568: ldur            x0, [fp, #-0x18]
     // 0xa3856c: r4 = const [0, 0, 0, 0, null]
@@ -885,7 +885,7 @@ abstract class WorkoutFirestoreHandler extends Object {
     // 0xa39de8: b.eq            #0xa39e20
     // 0xa39dec: ldur            x2, [fp, #-0x28]
     // 0xa39df0: r0 = toMap()
-    //     0xa39df0: bl              #0x71d80c  ; [package:ballai/shared/models/core/shot_model.dart] ShotCourtLocation::toMap
+    //     0xa39df0: bl              #0x71d80c  ; [package:kourtai/shared/models/core/shot_model.dart] ShotCourtLocation::toMap
     // 0xa39df4: ldur            x4, [fp, #-0x28]
     // 0xa39df8: r1 = LoadClassIdInstr(r4)
     //     0xa39df8: ldur            x1, [x4, #-1]
@@ -993,7 +993,7 @@ abstract class WorkoutFirestoreHandler extends Object {
     // 0xa39f20: mov             x1, x0
     // 0xa39f24: ldur            x2, [fp, #-0x18]
     // 0xa39f28: r0 = updateWorkoutFields()
-    //     0xa39f28: bl              #0xa38524  ; [package:ballai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::updateWorkoutFields
+    //     0xa39f28: bl              #0xa38524  ; [package:kourtai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::updateWorkoutFields
     // 0xa39f2c: mov             x1, x0
     // 0xa39f30: stur            x1, [fp, #-0x10]
     // 0xa39f34: r0 = Await()
@@ -1037,7 +1037,7 @@ abstract class WorkoutFirestoreHandler extends Object {
     //     0xa3af38: bl              #0x60afc8  ; InitAsyncStub
     // 0xa3af3c: ldur            x1, [fp, #-0x50]
     // 0xa3af40: r0 = _ownerMatches()
-    //     0xa3af40: bl              #0xa38650  ; [package:ballai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::_ownerMatches
+    //     0xa3af40: bl              #0xa38650  ; [package:kourtai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::_ownerMatches
     // 0xa3af44: tbz             w0, #4, #0xa3af50
     // 0xa3af48: r0 = false
     //     0xa3af48: add             x0, NULL, #0x30  ; false
@@ -1157,7 +1157,7 @@ abstract class WorkoutFirestoreHandler extends Object {
     // 0xa3b6a8: mov             x1, x0
     // 0xa3b6ac: ldur            x2, [fp, #-0x10]
     // 0xa3b6b0: r0 = updateWorkoutFields()
-    //     0xa3b6b0: bl              #0xa38524  ; [package:ballai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::updateWorkoutFields
+    //     0xa3b6b0: bl              #0xa38524  ; [package:kourtai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::updateWorkoutFields
     // 0xa3b6b4: mov             x1, x0
     // 0xa3b6b8: stur            x1, [fp, #-0x10]
     // 0xa3b6bc: r0 = Await()
@@ -1211,7 +1211,7 @@ abstract class WorkoutFirestoreHandler extends Object {
     // 0xa3be1c: mov             x1, x0
     // 0xa3be20: ldur            x2, [fp, #-0x10]
     // 0xa3be24: r0 = updateWorkoutFields()
-    //     0xa3be24: bl              #0xa38524  ; [package:ballai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::updateWorkoutFields
+    //     0xa3be24: bl              #0xa38524  ; [package:kourtai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::updateWorkoutFields
     // 0xa3be28: mov             x1, x0
     // 0xa3be2c: stur            x1, [fp, #-0x10]
     // 0xa3be30: r0 = Await()

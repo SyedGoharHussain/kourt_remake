@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/camera/shot_frame_capture.dart
+// lib: , url: package:kourtai/video_tracking/camera/shot_frame_capture.dart
 
 // class id: 1049121, size: 0x8
 class :: {

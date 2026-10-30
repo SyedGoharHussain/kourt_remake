@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/overlays/basic_stats_overlay.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/overlays/basic_stats_overlay.dart
 
 // class id: 1049246, size: 0x8
 class :: {
@@ -37,7 +37,7 @@ class _BasicStatsOverlayState extends State<dynamic> {
     // 0x994800: mov             x2, x0
     // 0x994804: stur            x4, [fp, #-0x10]
     // 0x994808: r1 = Function '_onManagerChanged@1471037486':.
-    //     0x994808: add             x1, PP, #0x41, lsl #12  ; [pp+0x413c8] AnonymousClosure: (0x99490c), in [package:ballai/video_tracking/views/workout/overlays/basic_stats_overlay.dart] _BasicStatsOverlayState::_onManagerChanged (0x994944)
+    //     0x994808: add             x1, PP, #0x41, lsl #12  ; [pp+0x413c8] AnonymousClosure: (0x99490c), in [package:kourtai/video_tracking/views/workout/overlays/basic_stats_overlay.dart] _BasicStatsOverlayState::_onManagerChanged (0x994944)
     //     0x99480c: ldr             x1, [x1, #0x3c8]
     // 0x994810: r0 = AllocateClosure()
     //     0x994810: bl              #0xe553e0  ; AllocateClosureStub
@@ -47,7 +47,7 @@ class _BasicStatsOverlayState extends State<dynamic> {
     //     0x99481c: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0x994820: ldur            x2, [fp, #-0x18]
     // 0x994824: r1 = Function '<anonymous closure>':.
-    //     0x994824: add             x1, PP, #0x41, lsl #12  ; [pp+0x413d8] AnonymousClosure: (0x994898), in [package:ballai/video_tracking/views/workout/overlays/basic_stats_overlay.dart] _BasicStatsOverlayState::initState (0x9947c0)
+    //     0x994824: add             x1, PP, #0x41, lsl #12  ; [pp+0x413d8] AnonymousClosure: (0x994898), in [package:kourtai/video_tracking/views/workout/overlays/basic_stats_overlay.dart] _BasicStatsOverlayState::initState (0x9947c0)
     //     0x994828: ldr             x1, [x1, #0x3d8]
     // 0x99482c: r0 = AllocateClosure()
     //     0x99482c: bl              #0xe553e0  ; AllocateClosureStub
@@ -141,7 +141,7 @@ class _BasicStatsOverlayState extends State<dynamic> {
     //     0x994924: cmp             SP, x16
     //     0x994928: b.ls            #0x99493c
     // 0x99492c: r0 = _onManagerChanged()
-    //     0x99492c: bl              #0x994944  ; [package:ballai/video_tracking/views/workout/overlays/basic_stats_overlay.dart] _BasicStatsOverlayState::_onManagerChanged
+    //     0x99492c: bl              #0x994944  ; [package:kourtai/video_tracking/views/workout/overlays/basic_stats_overlay.dart] _BasicStatsOverlayState::_onManagerChanged
     // 0x994930: LeaveFrame
     //     0x994930: mov             SP, fp
     //     0x994934: ldp             fp, lr, [SP], #0x10
@@ -270,10 +270,10 @@ class _BasicStatsOverlayState extends State<dynamic> {
     // 0xad0e80: ldur            x1, [fp, #-0x18]
     // 0xad0e84: stur            x3, [fp, #-8]
     // 0xad0e88: r0 = _elapsedSeconds()
-    //     0xad0e88: bl              #0xad158c  ; [package:ballai/video_tracking/views/workout/overlays/basic_stats_overlay.dart] _BasicStatsOverlayState::_elapsedSeconds
+    //     0xad0e88: bl              #0xad158c  ; [package:kourtai/video_tracking/views/workout/overlays/basic_stats_overlay.dart] _BasicStatsOverlayState::_elapsedSeconds
     // 0xad0e8c: ldur            x1, [fp, #-0x18]
     // 0xad0e90: r0 = _formatElapsed()
-    //     0xad0e90: bl              #0xad1224  ; [package:ballai/video_tracking/views/workout/overlays/basic_stats_overlay.dart] _BasicStatsOverlayState::_formatElapsed
+    //     0xad0e90: bl              #0xad1224  ; [package:kourtai/video_tracking/views/workout/overlays/basic_stats_overlay.dart] _BasicStatsOverlayState::_formatElapsed
     // 0xad0e94: mov             x3, x0
     // 0xad0e98: ldur            x0, [fp, #-0x10]
     // 0xad0e9c: stur            x3, [fp, #-0x30]
@@ -283,7 +283,7 @@ class _BasicStatsOverlayState extends State<dynamic> {
     //     0xad0ea4: add             x2, x2, HEAP, lsl #32
     // 0xad0ea8: ldur            x1, [fp, #-0x18]
     // 0xad0eac: r0 = _lastShotMetrics()
-    //     0xad0eac: bl              #0xad1114  ; [package:ballai/video_tracking/views/workout/overlays/basic_stats_overlay.dart] _BasicStatsOverlayState::_lastShotMetrics
+    //     0xad0eac: bl              #0xad1114  ; [package:kourtai/video_tracking/views/workout/overlays/basic_stats_overlay.dart] _BasicStatsOverlayState::_lastShotMetrics
     // 0xad0eb0: ldur            x1, [fp, #-0x20]
     // 0xad0eb4: stur            x0, [fp, #-0x10]
     // 0xad0eb8: r0 = paddingOf()
@@ -1086,7 +1086,7 @@ class _BasicStatsOverlayState extends State<dynamic> {
     //     0xb5cd50: mov             fp, SP
     // 0xb5cd54: ldr             x2, [fp, #0x10]
     // 0xb5cd58: r1 = Function 'dispose':.
-    //     0xb5cd58: add             x1, PP, #0x41, lsl #12  ; [pp+0x41388] AnonymousClosure: (0xb5cd70), in [package:ballai/video_tracking/views/workout/overlays/basic_stats_overlay.dart] _BasicStatsOverlayState::dispose (0xb6487c)
+    //     0xb5cd58: add             x1, PP, #0x41, lsl #12  ; [pp+0x41388] AnonymousClosure: (0xb5cd70), in [package:kourtai/video_tracking/views/workout/overlays/basic_stats_overlay.dart] _BasicStatsOverlayState::dispose (0xb6487c)
     //     0xb5cd5c: ldr             x1, [x1, #0x388]
     // 0xb5cd60: r0 = AllocateClosure()
     //     0xb5cd60: bl              #0xe553e0  ; AllocateClosureStub
@@ -1111,7 +1111,7 @@ class _BasicStatsOverlayState extends State<dynamic> {
     //     0xb5cd88: cmp             SP, x16
     //     0xb5cd8c: b.ls            #0xb5cda0
     // 0xb5cd90: r0 = dispose()
-    //     0xb5cd90: bl              #0xb6487c  ; [package:ballai/video_tracking/views/workout/overlays/basic_stats_overlay.dart] _BasicStatsOverlayState::dispose
+    //     0xb5cd90: bl              #0xb6487c  ; [package:kourtai/video_tracking/views/workout/overlays/basic_stats_overlay.dart] _BasicStatsOverlayState::dispose
     // 0xb5cd94: LeaveFrame
     //     0xb5cd94: mov             SP, fp
     //     0xb5cd98: ldp             fp, lr, [SP], #0x10
@@ -1150,7 +1150,7 @@ class _BasicStatsOverlayState extends State<dynamic> {
     //     0xb648b8: add             x0, x0, HEAP, lsl #32
     // 0xb648bc: stur            x0, [fp, #-0x10]
     // 0xb648c0: r1 = Function '_onManagerChanged@1471037486':.
-    //     0xb648c0: add             x1, PP, #0x41, lsl #12  ; [pp+0x413c8] AnonymousClosure: (0x99490c), in [package:ballai/video_tracking/views/workout/overlays/basic_stats_overlay.dart] _BasicStatsOverlayState::_onManagerChanged (0x994944)
+    //     0xb648c0: add             x1, PP, #0x41, lsl #12  ; [pp+0x413c8] AnonymousClosure: (0x99490c), in [package:kourtai/video_tracking/views/workout/overlays/basic_stats_overlay.dart] _BasicStatsOverlayState::_onManagerChanged (0x994944)
     //     0xb648c4: ldr             x1, [x1, #0x3c8]
     // 0xb648c8: r0 = AllocateClosure()
     //     0xb648c8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1186,7 +1186,7 @@ class BasicStatsOverlay extends StatefulWidget {
     //     0xb77238: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xb7723c: cmp             SP, x16
     //     0xb77240: b.ls            #0xb77288
-    // 0xb77244: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0xb77244: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0xb77244: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb77248: ldr             x0, [x0, #0x1cf0]
     //     0xb7724c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel

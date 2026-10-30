@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/drills/widgets/drill_glass_card.dart
+// lib: , url: package:kourtai/video_tracking/views/drills/widgets/drill_glass_card.dart
 
 // class id: 1049219, size: 0x8
 class :: {
@@ -20,8 +20,8 @@ class DrillGlassCard extends StatelessWidget {
     // 0xc348c4: DecompressPointer r0
     //     0xc348c4: add             x0, x0, HEAP, lsl #32
     // 0xc348c8: stur            x0, [fp, #-8]
-    // 0xc348cc: r0 = BallAiLiquidGlassCard()
-    //     0xc348cc: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xc348cc: r0 = KourtAiLiquidGlassCard()
+    //     0xc348cc: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xc348d0: ldur            x1, [fp, #-8]
     // 0xc348d4: StoreField: r0->field_b = r1
     //     0xc348d4: stur            w1, [x0, #0xb]

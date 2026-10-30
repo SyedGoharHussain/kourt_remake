@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/components/player_activity_sections.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/components/player_activity_sections.dart
 
 // class id: 1049000, size: 0x8
 class :: {
@@ -102,9 +102,9 @@ class PlayerActivitySections extends StatelessWidget {
     // 0xc0d2b8: ldur            x1, [fp, #-0x18]
     // 0xc0d2bc: ldur            x2, [fp, #-0x20]
     // 0xc0d2c0: r0 = statsForMonth()
-    //     0xc0d2c0: bl              #0xc0d71c  ; [package:ballai/automatic/utility/analytics/streak_calendar_helper.dart] StreakCalendarHelper::statsForMonth
+    //     0xc0d2c0: bl              #0xc0d71c  ; [package:kourtai/automatic/utility/analytics/streak_calendar_helper.dart] StreakCalendarHelper::statsForMonth
     // 0xc0d2c4: r1 = Function '<anonymous closure>':.
-    //     0xc0d2c4: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b9e0] AnonymousClosure: static (0x98c270), in [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
+    //     0xc0d2c4: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b9e0] AnonymousClosure: static (0x98c270), in [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
     //     0xc0d2c8: ldr             x1, [x1, #0x9e0]
     // 0xc0d2cc: r2 = Null
     //     0xc0d2cc: mov             x2, NULL
@@ -121,7 +121,7 @@ class PlayerActivitySections extends StatelessWidget {
     // 0xc0d2ec: r0 = fold()
     //     0xc0d2ec: bl              #0x8b192c  ; [dart:collection] ListBase::fold
     // 0xc0d2f0: r1 = Function '<anonymous closure>':.
-    //     0xc0d2f0: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b9e8] AnonymousClosure: static (0x98bf84), in [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
+    //     0xc0d2f0: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b9e8] AnonymousClosure: static (0x98bf84), in [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
     //     0xc0d2f4: ldr             x1, [x1, #0x9e8]
     // 0xc0d2f8: r2 = Null
     //     0xc0d2f8: mov             x2, NULL
@@ -283,14 +283,14 @@ class PlayerActivitySections extends StatelessWidget {
     // 0xc0d4a4: mov             x1, x0
     // 0xc0d4a8: ldur            x0, [fp, #-0x10]
     // 0xc0d4ac: r0 = dailyStreakLabel()
-    //     0xc0d4ac: bl              #0xc0d694  ; [package:ballai/automatic/utility/analytics/streak_calendar_helper.dart] StreakCalendarHelper::dailyStreakLabel
+    //     0xc0d4ac: bl              #0xc0d694  ; [package:kourtai/automatic/utility/analytics/streak_calendar_helper.dart] StreakCalendarHelper::dailyStreakLabel
     // 0xc0d4b0: mov             x2, x0
     // 0xc0d4b4: ldur            x0, [fp, #-0x10]
     // 0xc0d4b8: stur            x2, [fp, #-8]
     // 0xc0d4bc: LoadField: r1 = r0->field_7
     //     0xc0d4bc: ldur            x1, [x0, #7]
     // 0xc0d4c0: r0 = weeklyStreakLabel()
-    //     0xc0d4c0: bl              #0xc0d60c  ; [package:ballai/automatic/utility/analytics/streak_calendar_helper.dart] StreakCalendarHelper::weeklyStreakLabel
+    //     0xc0d4c0: bl              #0xc0d60c  ; [package:kourtai/automatic/utility/analytics/streak_calendar_helper.dart] StreakCalendarHelper::weeklyStreakLabel
     // 0xc0d4c4: mov             x1, x0
     // 0xc0d4c8: ldur            x0, [fp, #-0x10]
     // 0xc0d4cc: stur            x1, [fp, #-0x30]

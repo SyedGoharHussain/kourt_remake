@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/splash_brand_looping_video_view.dart
+// lib: , url: package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart
 
 // class id: 1048825, size: 0x8
 class :: {
@@ -85,7 +85,7 @@ class _SplashBrandLoopingVideoViewState extends State<dynamic> {
     //     0x9c0bb4: cmp             SP, x16
     //     0x9c0bb8: b.ls            #0x9c0bd0
     // 0x9c0bbc: r0 = _ensureVideoForTheme()
-    //     0x9c0bbc: bl              #0x9c0bf8  ; [package:ballai/automatic/views/components/splash_brand_looping_video_view.dart] _SplashBrandLoopingVideoViewState::_ensureVideoForTheme
+    //     0x9c0bbc: bl              #0x9c0bf8  ; [package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart] _SplashBrandLoopingVideoViewState::_ensureVideoForTheme
     // 0x9c0bc0: r0 = Null
     //     0x9c0bc0: mov             x0, NULL
     // 0x9c0bc4: LeaveFrame
@@ -154,7 +154,7 @@ class _SplashBrandLoopingVideoViewState extends State<dynamic> {
     //     0x9c0c7c: add             x4, PP, #0x25, lsl #12  ; [pp+0x25210] List(7) [0, 0x1, 0x1, 0, "brightness", 0, Null]
     //     0x9c0c80: ldr             x4, [x4, #0x210]
     // 0x9c0c84: r0 = ensurePrepared()
-    //     0x9c0c84: bl              #0x98d208  ; [package:ballai/automatic/views/components/splash_brand_looping_video_view.dart] BrandVideoCache::ensurePrepared
+    //     0x9c0c84: bl              #0x98d208  ; [package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart] BrandVideoCache::ensurePrepared
     // 0x9c0c88: mov             x1, x0
     // 0x9c0c8c: stur            x1, [fp, #-0x20]
     // 0x9c0c90: r0 = Await()
@@ -197,7 +197,7 @@ class _SplashBrandLoopingVideoViewState extends State<dynamic> {
     //     0x9c0cf4: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x9c0cf8: mov             x1, x0
     // 0x9c0cfc: r0 = _attachController()
-    //     0x9c0cfc: bl              #0x9c0e50  ; [package:ballai/automatic/views/components/splash_brand_looping_video_view.dart] _SplashBrandLoopingVideoViewState::_attachController
+    //     0x9c0cfc: bl              #0x9c0e50  ; [package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart] _SplashBrandLoopingVideoViewState::_attachController
     // 0x9c0d00: r0 = Null
     //     0x9c0d00: mov             x0, NULL
     // 0x9c0d04: r0 = ReturnAsyncNotFuture()
@@ -222,7 +222,7 @@ class _SplashBrandLoopingVideoViewState extends State<dynamic> {
     // 0x9c0d3c: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x9c0d3c: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x9c0d40: r0 = loadBundledLoopVideo()
-    //     0x9c0d40: bl              #0x909eb8  ; [package:ballai/automatic/utility/video/bundled_loop_video_loader.dart] ::loadBundledLoopVideo
+    //     0x9c0d40: bl              #0x909eb8  ; [package:kourtai/automatic/utility/video/bundled_loop_video_loader.dart] ::loadBundledLoopVideo
     // 0x9c0d44: mov             x1, x0
     // 0x9c0d48: stur            x1, [fp, #-0x20]
     // 0x9c0d4c: r0 = Await()
@@ -306,7 +306,7 @@ class _SplashBrandLoopingVideoViewState extends State<dynamic> {
     // 0x9c0e24: mov             x2, x1
     // 0x9c0e28: mov             x1, x0
     // 0x9c0e2c: r0 = _attachController()
-    //     0x9c0e2c: bl              #0x9c0e50  ; [package:ballai/automatic/views/components/splash_brand_looping_video_view.dart] _SplashBrandLoopingVideoViewState::_attachController
+    //     0x9c0e2c: bl              #0x9c0e50  ; [package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart] _SplashBrandLoopingVideoViewState::_attachController
     // 0x9c0e30: ldur            x1, [fp, #-0x10]
     // 0x9c0e34: r2 = true
     //     0x9c0e34: add             x2, NULL, #0x20  ; true
@@ -377,7 +377,7 @@ class _SplashBrandLoopingVideoViewState extends State<dynamic> {
     //     0x9c0ed0: ret             
     // 0x9c0ed4: mov             x1, x3
     // 0x9c0ed8: r0 = _detachController()
-    //     0x9c0ed8: bl              #0x9c0fa0  ; [package:ballai/automatic/views/components/splash_brand_looping_video_view.dart] _SplashBrandLoopingVideoViewState::_detachController
+    //     0x9c0ed8: bl              #0x9c0fa0  ; [package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart] _SplashBrandLoopingVideoViewState::_detachController
     // 0x9c0edc: ldur            x0, [fp, #-0x10]
     // 0x9c0ee0: ldur            x3, [fp, #-8]
     // 0x9c0ee4: StoreField: r3->field_13 = r0
@@ -403,7 +403,7 @@ class _SplashBrandLoopingVideoViewState extends State<dynamic> {
     //     0x9c0f24: stur            w0, [x3, #0x1b]
     // 0x9c0f28: mov             x2, x3
     // 0x9c0f2c: r1 = Function '_onControllerUpdate@634220538':.
-    //     0x9c0f2c: add             x1, PP, #0x25, lsl #12  ; [pp+0x25200] AnonymousClosure: (0x9c1074), in [package:ballai/automatic/views/components/splash_brand_looping_video_view.dart] _SplashBrandLoopingVideoViewState::_onControllerUpdate (0x9c10ac)
+    //     0x9c0f2c: add             x1, PP, #0x25, lsl #12  ; [pp+0x25200] AnonymousClosure: (0x9c1074), in [package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart] _SplashBrandLoopingVideoViewState::_onControllerUpdate (0x9c10ac)
     //     0x9c0f30: ldr             x1, [x1, #0x200]
     // 0x9c0f34: r0 = AllocateClosure()
     //     0x9c0f34: bl              #0xe553e0  ; AllocateClosureStub
@@ -480,7 +480,7 @@ class _SplashBrandLoopingVideoViewState extends State<dynamic> {
     //     0x9c0fe0: ret             
     // 0x9c0fe4: mov             x2, x0
     // 0x9c0fe8: r1 = Function '_onControllerUpdate@634220538':.
-    //     0x9c0fe8: add             x1, PP, #0x25, lsl #12  ; [pp+0x25200] AnonymousClosure: (0x9c1074), in [package:ballai/automatic/views/components/splash_brand_looping_video_view.dart] _SplashBrandLoopingVideoViewState::_onControllerUpdate (0x9c10ac)
+    //     0x9c0fe8: add             x1, PP, #0x25, lsl #12  ; [pp+0x25200] AnonymousClosure: (0x9c1074), in [package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart] _SplashBrandLoopingVideoViewState::_onControllerUpdate (0x9c10ac)
     //     0x9c0fec: ldr             x1, [x1, #0x200]
     // 0x9c0ff0: r0 = AllocateClosure()
     //     0x9c0ff0: bl              #0xe553e0  ; AllocateClosureStub
@@ -552,7 +552,7 @@ class _SplashBrandLoopingVideoViewState extends State<dynamic> {
     //     0x9c108c: cmp             SP, x16
     //     0x9c1090: b.ls            #0x9c10a4
     // 0x9c1094: r0 = _onControllerUpdate()
-    //     0x9c1094: bl              #0x9c10ac  ; [package:ballai/automatic/views/components/splash_brand_looping_video_view.dart] _SplashBrandLoopingVideoViewState::_onControllerUpdate
+    //     0x9c1094: bl              #0x9c10ac  ; [package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart] _SplashBrandLoopingVideoViewState::_onControllerUpdate
     // 0x9c1098: LeaveFrame
     //     0x9c1098: mov             SP, fp
     //     0x9c109c: ldp             fp, lr, [SP], #0x10
@@ -943,7 +943,7 @@ class _SplashBrandLoopingVideoViewState extends State<dynamic> {
     //     0xb5a61c: mov             fp, SP
     // 0xb5a620: ldr             x2, [fp, #0x10]
     // 0xb5a624: r1 = Function 'dispose':.
-    //     0xb5a624: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d600] AnonymousClosure: (0xb5a63c), in [package:ballai/automatic/views/components/splash_brand_looping_video_view.dart] _SplashBrandLoopingVideoViewState::dispose (0xb602bc)
+    //     0xb5a624: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d600] AnonymousClosure: (0xb5a63c), in [package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart] _SplashBrandLoopingVideoViewState::dispose (0xb602bc)
     //     0xb5a628: ldr             x1, [x1, #0x600]
     // 0xb5a62c: r0 = AllocateClosure()
     //     0xb5a62c: bl              #0xe553e0  ; AllocateClosureStub
@@ -968,7 +968,7 @@ class _SplashBrandLoopingVideoViewState extends State<dynamic> {
     //     0xb5a654: cmp             SP, x16
     //     0xb5a658: b.ls            #0xb5a66c
     // 0xb5a65c: r0 = dispose()
-    //     0xb5a65c: bl              #0xb602bc  ; [package:ballai/automatic/views/components/splash_brand_looping_video_view.dart] _SplashBrandLoopingVideoViewState::dispose
+    //     0xb5a65c: bl              #0xb602bc  ; [package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart] _SplashBrandLoopingVideoViewState::dispose
     // 0xb5a660: LeaveFrame
     //     0xb5a660: mov             SP, fp
     //     0xb5a664: ldp             fp, lr, [SP], #0x10
@@ -988,7 +988,7 @@ class _SplashBrandLoopingVideoViewState extends State<dynamic> {
     //     0xb602c8: cmp             SP, x16
     //     0xb602cc: b.ls            #0xb602e4
     // 0xb602d0: r0 = _detachController()
-    //     0xb602d0: bl              #0x9c0fa0  ; [package:ballai/automatic/views/components/splash_brand_looping_video_view.dart] _SplashBrandLoopingVideoViewState::_detachController
+    //     0xb602d0: bl              #0x9c0fa0  ; [package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart] _SplashBrandLoopingVideoViewState::_detachController
     // 0xb602d4: r0 = Null
     //     0xb602d4: mov             x0, NULL
     // 0xb602d8: LeaveFrame
@@ -1179,7 +1179,7 @@ abstract class BrandVideoCache extends Object {
     //     0x98d140: add             x4, PP, #0xc, lsl #12  ; [pp+0xc818] List(5) [0, 0, 0, 0, Null]
     //     0x98d144: ldr             x4, [x4, #0x818]
     // 0x98d148: r0 = ensurePrepared()
-    //     0x98d148: bl              #0x98d208  ; [package:ballai/automatic/views/components/splash_brand_looping_video_view.dart] BrandVideoCache::ensurePrepared
+    //     0x98d148: bl              #0x98d208  ; [package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart] BrandVideoCache::ensurePrepared
     // 0x98d14c: mov             x1, x0
     // 0x98d150: stur            x1, [fp, #-0x10]
     // 0x98d154: r0 = Await()
@@ -1217,7 +1217,7 @@ abstract class BrandVideoCache extends Object {
     //     0x98d1a4: add             x4, PP, #9, lsl #12  ; [pp+0x9ad8] List(7) [0, 0x3, 0x1, 0x2, "autoPlay", 0x2, Null]
     //     0x98d1a8: ldr             x4, [x4, #0xad8]
     // 0x98d1ac: r0 = loadBundledLoopVideo()
-    //     0x98d1ac: bl              #0x909eb8  ; [package:ballai/automatic/utility/video/bundled_loop_video_loader.dart] ::loadBundledLoopVideo
+    //     0x98d1ac: bl              #0x909eb8  ; [package:kourtai/automatic/utility/video/bundled_loop_video_loader.dart] ::loadBundledLoopVideo
     // 0x98d1b0: mov             x1, x0
     // 0x98d1b4: stur            x1, [fp, #-0x10]
     // 0x98d1b8: r0 = Await()
@@ -1226,7 +1226,7 @@ abstract class BrandVideoCache extends Object {
     //     0x98d1bc: ldr             x1, [THR, #0x68]  ; THR::field_table_values
     //     0x98d1c0: str             x0, [x1, #0x1860]
     // 0x98d1c4: r0 = isTitleReady()
-    //     0x98d1c4: bl              #0x98d1d8  ; [package:ballai/automatic/views/components/splash_brand_looping_video_view.dart] BrandVideoCache::isTitleReady
+    //     0x98d1c4: bl              #0x98d1d8  ; [package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart] BrandVideoCache::isTitleReady
     // 0x98d1c8: r0 = Null
     //     0x98d1c8: mov             x0, NULL
     // 0x98d1cc: r0 = ReturnAsyncNotFuture()
@@ -1295,7 +1295,7 @@ abstract class BrandVideoCache extends Object {
     //     0x98d260: ldr             x1, [THR, #0x68]  ; THR::field_table_values
     //     0x98d264: ldr             x1, [x1, #0x1870]
     // 0x98d268: r0 = prepareForLaunch()
-    //     0x98d268: bl              #0x98d280  ; [package:ballai/automatic/views/components/splash_brand_looping_video_view.dart] BrandVideoCache::prepareForLaunch
+    //     0x98d268: bl              #0x98d280  ; [package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart] BrandVideoCache::prepareForLaunch
     // 0x98d26c: LeaveFrame
     //     0x98d26c: mov             SP, fp
     //     0x98d270: ldp             fp, lr, [SP], #0x10
@@ -1347,7 +1347,7 @@ abstract class BrandVideoCache extends Object {
     // 0x98d2ec: cmp             w0, NULL
     // 0x98d2f0: b.ne            #0x98d300
     // 0x98d2f4: r0 = _prepare()
-    //     0x98d2f4: bl              #0x98d318  ; [package:ballai/automatic/views/components/splash_brand_looping_video_view.dart] BrandVideoCache::_prepare
+    //     0x98d2f4: bl              #0x98d318  ; [package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart] BrandVideoCache::_prepare
     // 0x98d2f8: StoreStaticField(0xc34, r0)
     //     0x98d2f8: ldr             x1, [THR, #0x68]  ; THR::field_table_values
     //     0x98d2fc: str             x0, [x1, #0x1868]
@@ -1421,7 +1421,7 @@ abstract class BrandVideoCache extends Object {
     //     0x98d3ac: add             x4, PP, #9, lsl #12  ; [pp+0x9ad8] List(7) [0, 0x3, 0x1, 0x2, "autoPlay", 0x2, Null]
     //     0x98d3b0: ldr             x4, [x4, #0xad8]
     // 0x98d3b4: r0 = loadBundledLoopVideo()
-    //     0x98d3b4: bl              #0x909eb8  ; [package:ballai/automatic/utility/video/bundled_loop_video_loader.dart] ::loadBundledLoopVideo
+    //     0x98d3b4: bl              #0x909eb8  ; [package:kourtai/automatic/utility/video/bundled_loop_video_loader.dart] ::loadBundledLoopVideo
     // 0x98d3b8: stur            x0, [fp, #-0x18]
     // 0x98d3bc: r16 = false
     //     0x98d3bc: add             x16, NULL, #0x30  ; false
@@ -1436,7 +1436,7 @@ abstract class BrandVideoCache extends Object {
     //     0x98d3d4: add             x4, PP, #9, lsl #12  ; [pp+0x9ad8] List(7) [0, 0x3, 0x1, 0x2, "autoPlay", 0x2, Null]
     //     0x98d3d8: ldr             x4, [x4, #0xad8]
     // 0x98d3dc: r0 = loadBundledLoopVideo()
-    //     0x98d3dc: bl              #0x909eb8  ; [package:ballai/automatic/utility/video/bundled_loop_video_loader.dart] ::loadBundledLoopVideo
+    //     0x98d3dc: bl              #0x909eb8  ; [package:kourtai/automatic/utility/video/bundled_loop_video_loader.dart] ::loadBundledLoopVideo
     // 0x98d3e0: r1 = Null
     //     0x98d3e0: mov             x1, NULL
     // 0x98d3e4: r2 = 4
@@ -1542,10 +1542,10 @@ abstract class BrandVideoCache extends Object {
     //     0x98d508: str             x0, [x1, #0x1860]
     // 0x98d50c: ldur            x1, [fp, #-0x10]
     // 0x98d510: r0 = isSplashReady()
-    //     0x98d510: bl              #0x98d544  ; [package:ballai/automatic/views/components/splash_brand_looping_video_view.dart] BrandVideoCache::isSplashReady
+    //     0x98d510: bl              #0x98d544  ; [package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart] BrandVideoCache::isSplashReady
     // 0x98d514: ldur            x2, [fp, #-0x20]
     // 0x98d518: r1 = Function '<anonymous closure>': static.
-    //     0x98d518: add             x1, PP, #9, lsl #12  ; [pp+0x9b08] AnonymousClosure: static (0x98d58c), in [package:ballai/automatic/views/components/splash_brand_looping_video_view.dart] BrandVideoCache::_prepare (0x98d318)
+    //     0x98d518: add             x1, PP, #9, lsl #12  ; [pp+0x9b08] AnonymousClosure: static (0x98d58c), in [package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart] BrandVideoCache::_prepare (0x98d318)
     //     0x98d51c: ldr             x1, [x1, #0xb08]
     // 0x98d520: r0 = AllocateClosure()
     //     0x98d520: bl              #0xe553e0  ; AllocateClosureStub
@@ -1641,7 +1641,7 @@ abstract class BrandVideoCache extends Object {
     //     0x98d608: add             x4, PP, #9, lsl #12  ; [pp+0x9ad8] List(7) [0, 0x3, 0x1, 0x2, "autoPlay", 0x2, Null]
     //     0x98d60c: ldr             x4, [x4, #0xad8]
     // 0x98d610: r0 = loadBundledLoopVideo()
-    //     0x98d610: bl              #0x909eb8  ; [package:ballai/automatic/utility/video/bundled_loop_video_loader.dart] ::loadBundledLoopVideo
+    //     0x98d610: bl              #0x909eb8  ; [package:kourtai/automatic/utility/video/bundled_loop_video_loader.dart] ::loadBundledLoopVideo
     // 0x98d614: mov             x1, x0
     // 0x98d618: stur            x1, [fp, #-0x20]
     // 0x98d61c: r0 = Await()

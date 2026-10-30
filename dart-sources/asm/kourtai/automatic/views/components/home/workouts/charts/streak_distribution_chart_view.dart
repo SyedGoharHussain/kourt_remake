@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/home/workouts/charts/streak_distribution_chart_view.dart
+// lib: , url: package:kourtai/automatic/views/components/home/workouts/charts/streak_distribution_chart_view.dart
 
 // class id: 1048809, size: 0x8
 class :: {
@@ -61,13 +61,13 @@ class _StreakDistributionChartViewState extends State<dynamic> {
     // 0x9e1cfc: ldur            x0, [fp, #-8]
     // 0x9e1d00: mov             x1, x0
     // 0x9e1d04: r0 = _data()
-    //     0x9e1d04: bl              #0x9e2050  ; [package:ballai/automatic/views/components/home/workouts/charts/streak_distribution_chart_view.dart] _StreakDistributionChartViewState::_data
+    //     0x9e1d04: bl              #0x9e2050  ; [package:kourtai/automatic/views/components/home/workouts/charts/streak_distribution_chart_view.dart] _StreakDistributionChartViewState::_data
     // 0x9e1d08: r1 = "Streak Distribution"
     //     0x9e1d08: add             x1, PP, #0x55, lsl #12  ; [pp+0x55600] "Streak Distribution"
     //     0x9e1d0c: ldr             x1, [x1, #0x600]
     // 0x9e1d10: stur            x0, [fp, #-0x20]
     // 0x9e1d14: r0 = L()
-    //     0x9e1d14: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9e1d14: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9e1d18: mov             x1, x0
     // 0x9e1d1c: ldur            x0, [fp, #-8]
     // 0x9e1d20: stur            x1, [fp, #-0x30]
@@ -85,7 +85,7 @@ class _StreakDistributionChartViewState extends State<dynamic> {
     //     0x9e1d40: stur            w0, [x3, #0xb]
     // 0x9e1d44: ldur            x2, [fp, #-0x18]
     // 0x9e1d48: r1 = Function '<anonymous closure>':.
-    //     0x9e1d48: add             x1, PP, #0x55, lsl #12  ; [pp+0x55608] AnonymousClosure: (0x9e2a04), in [package:ballai/automatic/views/components/home/workouts/charts/streak_distribution_chart_view.dart] _StreakDistributionChartViewState::build (0x9e1c78)
+    //     0x9e1d48: add             x1, PP, #0x55, lsl #12  ; [pp+0x55608] AnonymousClosure: (0x9e2a04), in [package:kourtai/automatic/views/components/home/workouts/charts/streak_distribution_chart_view.dart] _StreakDistributionChartViewState::build (0x9e1c78)
     //     0x9e1d4c: ldr             x1, [x1, #0x608]
     // 0x9e1d50: r0 = AllocateClosure()
     //     0x9e1d50: bl              #0xe553e0  ; AllocateClosureStub
@@ -139,8 +139,8 @@ class _StreakDistributionChartViewState extends State<dynamic> {
     //     0x9e1dd8: ldr             x0, [x0, #0x620]
     // 0x9e1ddc: ldur            x1, [fp, #-0x10]
     // 0x9e1de0: stur            x0, [fp, #-0x28]
-    // 0x9e1de4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9e1de4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9e1de4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9e1de4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9e1de8: stur            x0, [fp, #-0x30]
     // 0x9e1dec: r0 = TextStyle()
     //     0x9e1dec: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -196,12 +196,12 @@ class _StreakDistributionChartViewState extends State<dynamic> {
     // 0x9e1e74: ldur            x0, [fp, #-0x20]
     // 0x9e1e78: ldur            x1, [fp, #-0x10]
     // 0x9e1e7c: stur            x2, [fp, #-8]
-    // 0x9e1e80: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9e1e80: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9e1e80: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9e1e80: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9e1e84: ldur            x1, [fp, #-0x10]
     // 0x9e1e88: stur            x0, [fp, #-0x10]
-    // 0x9e1e8c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9e1e8c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9e1e8c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9e1e8c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9e1e90: r16 = 0.150000
     //     0x9e1e90: add             x16, PP, #0x20, lsl #12  ; [pp+0x200f0] 0.15
     //     0x9e1e94: ldr             x16, [x16, #0xf0]
@@ -387,7 +387,7 @@ class _StreakDistributionChartViewState extends State<dynamic> {
     // 0x9e20a4: mov             x3, x1
     // 0x9e20a8: mov             x1, x0
     // 0x9e20ac: r0 = calculateStreakDistribution()
-    //     0x9e20ac: bl              #0x9e20c8  ; [package:ballai/automatic/viewmodels/components/home/workout/charts/basic_stats/streak_distribution_chart_view_model.dart] StreakDistributionChartViewModel::calculateStreakDistribution
+    //     0x9e20ac: bl              #0x9e20c8  ; [package:kourtai/automatic/viewmodels/components/home/workout/charts/basic_stats/streak_distribution_chart_view_model.dart] StreakDistributionChartViewModel::calculateStreakDistribution
     // 0x9e20b0: LeaveFrame
     //     0x9e20b0: mov             SP, fp
     //     0x9e20b4: ldp             fp, lr, [SP], #0x10
@@ -433,7 +433,7 @@ class _StreakDistributionChartViewState extends State<dynamic> {
     // 0x9e2a50: mov             x2, x1
     // 0x9e2a54: stur            x3, [fp, #-0x10]
     // 0x9e2a58: r1 = Function '<anonymous closure>':.
-    //     0x9e2a58: add             x1, PP, #0x55, lsl #12  ; [pp+0x55630] AnonymousClosure: (0x8ea1e0), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_scheduleExtentCheck (0x8e9ee4)
+    //     0x9e2a58: add             x1, PP, #0x55, lsl #12  ; [pp+0x55630] AnonymousClosure: (0x8ea1e0), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_scheduleExtentCheck (0x8e9ee4)
     //     0x9e2a5c: ldr             x1, [x1, #0x630]
     // 0x9e2a60: r0 = AllocateClosure()
     //     0x9e2a60: bl              #0xe553e0  ; AllocateClosureStub
@@ -522,8 +522,8 @@ class _MakeMissToggle extends StatelessWidget {
     // 0xbba530: StoreField: r2->field_f = r0
     //     0xbba530: stur            w0, [x2, #0xf]
     // 0xbba534: ldur            x1, [fp, #-0x10]
-    // 0xbba538: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xbba538: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xbba538: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xbba538: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xbba53c: stur            x0, [fp, #-0x20]
     // 0xbba540: r0 = Radius()
     //     0xbba540: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -570,7 +570,7 @@ class _MakeMissToggle extends StatelessWidget {
     // 0xbba5a8: ldur            x2, [fp, #-0x18]
     // 0xbba5ac: stur            x6, [fp, #-0x20]
     // 0xbba5b0: r1 = Function '<anonymous closure>':.
-    //     0xbba5b0: add             x1, PP, #0x57, lsl #12  ; [pp+0x57690] AnonymousClosure: (0xbba9d0), in [package:ballai/automatic/views/components/home/workouts/charts/streak_distribution_chart_view.dart] _MakeMissToggle::build (0xbba4f4)
+    //     0xbba5b0: add             x1, PP, #0x57, lsl #12  ; [pp+0x57690] AnonymousClosure: (0xbba9d0), in [package:kourtai/automatic/views/components/home/workouts/charts/streak_distribution_chart_view.dart] _MakeMissToggle::build (0xbba4f4)
     //     0xbba5b4: ldr             x1, [x1, #0x690]
     // 0xbba5b8: r0 = AllocateClosure()
     //     0xbba5b8: bl              #0xe553e0  ; AllocateClosureStub
@@ -582,7 +582,7 @@ class _MakeMissToggle extends StatelessWidget {
     //     0xbba5cc: add             x3, PP, #0x29, lsl #12  ; [pp+0x29420] "Make"
     //     0xbba5d0: ldr             x3, [x3, #0x420]
     // 0xbba5d4: r0 = _segment()
-    //     0xbba5d4: bl              #0xbba704  ; [package:ballai/automatic/views/components/home/workouts/charts/streak_distribution_chart_view.dart] _MakeMissToggle::_segment
+    //     0xbba5d4: bl              #0xbba704  ; [package:kourtai/automatic/views/components/home/workouts/charts/streak_distribution_chart_view.dart] _MakeMissToggle::_segment
     // 0xbba5d8: mov             x3, x0
     // 0xbba5dc: ldur            x0, [fp, #-0x20]
     // 0xbba5e0: stur            x3, [fp, #-0x38]
@@ -590,7 +590,7 @@ class _MakeMissToggle extends StatelessWidget {
     // 0xbba5e8: ldur            x2, [fp, #-0x18]
     // 0xbba5ec: stur            x6, [fp, #-0x30]
     // 0xbba5f0: r1 = Function '<anonymous closure>':.
-    //     0xbba5f0: add             x1, PP, #0x57, lsl #12  ; [pp+0x57698] AnonymousClosure: (0xbba96c), in [package:ballai/automatic/views/components/home/workouts/charts/streak_distribution_chart_view.dart] _MakeMissToggle::build (0xbba4f4)
+    //     0xbba5f0: add             x1, PP, #0x57, lsl #12  ; [pp+0x57698] AnonymousClosure: (0xbba96c), in [package:kourtai/automatic/views/components/home/workouts/charts/streak_distribution_chart_view.dart] _MakeMissToggle::build (0xbba4f4)
     //     0xbba5f4: ldr             x1, [x1, #0x698]
     // 0xbba5f8: r0 = AllocateClosure()
     //     0xbba5f8: bl              #0xe553e0  ; AllocateClosureStub
@@ -602,7 +602,7 @@ class _MakeMissToggle extends StatelessWidget {
     //     0xbba60c: add             x3, PP, #0x31, lsl #12  ; [pp+0x31ed8] "Miss"
     //     0xbba610: ldr             x3, [x3, #0xed8]
     // 0xbba614: r0 = _segment()
-    //     0xbba614: bl              #0xbba704  ; [package:ballai/automatic/views/components/home/workouts/charts/streak_distribution_chart_view.dart] _MakeMissToggle::_segment
+    //     0xbba614: bl              #0xbba704  ; [package:kourtai/automatic/views/components/home/workouts/charts/streak_distribution_chart_view.dart] _MakeMissToggle::_segment
     // 0xbba618: r1 = Null
     //     0xbba618: mov             x1, NULL
     // 0xbba61c: r2 = 4
@@ -714,8 +714,8 @@ class _MakeMissToggle extends StatelessWidget {
     //     0xbba72c: b.ls            #0xbba964
     // 0xbba730: tbnz            w6, #4, #0xbba744
     // 0xbba734: mov             x1, x0
-    // 0xbba738: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xbba738: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xbba738: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xbba738: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xbba73c: mov             x1, x0
     // 0xbba740: b               #0xbba74c
     // 0xbba744: r1 = Instance_Color
@@ -833,13 +833,13 @@ class _MakeMissToggle extends StatelessWidget {
     // 0xbba868: ldur            x0, [fp, #-0x20]
     // 0xbba86c: tbnz            w0, #4, #0xbba880
     // 0xbba870: ldur            x1, [fp, #-8]
-    // 0xbba874: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbba874: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbba874: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbba874: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbba878: mov             x1, x0
     // 0xbba87c: b               #0xbba88c
     // 0xbba880: ldur            x1, [fp, #-8]
-    // 0xbba884: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbba884: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbba884: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbba884: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbba888: mov             x1, x0
     // 0xbba88c: ldur            x0, [fp, #-0x10]
     // 0xbba890: stur            x1, [fp, #-8]
@@ -1727,7 +1727,7 @@ class _StreakDistributionPainter extends CustomPainter {
     //     0x836470: add             x4, PP, #0x57, lsl #12  ; [pp+0x576c8] List(7) [0, 0x7, 0x1, 0x6, "maxWidth", 0x6, Null]
     //     0x836474: ldr             x4, [x4, #0x6c8]
     // 0x836478: r0 = _drawText()
-    //     0x836478: bl              #0x8365d4  ; [package:ballai/automatic/views/components/home/workouts/charts/streak_distribution_chart_view.dart] _StreakDistributionPainter::_drawText
+    //     0x836478: bl              #0x8365d4  ; [package:kourtai/automatic/views/components/home/workouts/charts/streak_distribution_chart_view.dart] _StreakDistributionPainter::_drawText
     // 0x83647c: ldur            d3, [fp, #-0x78]
     // 0x836480: ldur            d0, [fp, #-0x98]
     // 0x836484: ldur            d1, [fp, #-0x90]
@@ -1811,7 +1811,7 @@ class _StreakDistributionPainter extends CustomPainter {
     //     0x836578: add             x4, PP, #0x57, lsl #12  ; [pp+0x576d0] List(7) [0, 0x7, 0x1, 0x6, "valignTop", 0x6, Null]
     //     0x83657c: ldr             x4, [x4, #0x6d0]
     // 0x836580: r0 = _drawText()
-    //     0x836580: bl              #0x8365d4  ; [package:ballai/automatic/views/components/home/workouts/charts/streak_distribution_chart_view.dart] _StreakDistributionPainter::_drawText
+    //     0x836580: bl              #0x8365d4  ; [package:kourtai/automatic/views/components/home/workouts/charts/streak_distribution_chart_view.dart] _StreakDistributionPainter::_drawText
     // 0x836584: ldur            x1, [fp, #-0x30]
     // 0x836588: add             x3, x1, #1
     // 0x83658c: ldur            d3, [fp, #-0x78]

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/analysis/coach/shot_frame_buffer.dart
+// lib: , url: package:kourtai/video_tracking/analysis/coach/shot_frame_buffer.dart
 
 // class id: 1049087, size: 0x8
 class :: {

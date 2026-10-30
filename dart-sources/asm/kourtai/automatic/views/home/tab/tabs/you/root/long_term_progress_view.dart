@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/root/long_term_progress_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/root/long_term_progress_view.dart
 
 // class id: 1049028, size: 0x8
 class :: {

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_mini_court_overlay_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_mini_court_overlay_view.dart
 
 // class id: 1048913, size: 0x8
 class :: {
@@ -312,7 +312,7 @@ class WorkoutMiniCourtOverlayView extends StatelessWidget {
     //     0xbee200: stur            w0, [x2, #0xf]
     // 0xbee204: mov             x1, x0
     // 0xbee208: r0 = _resolvedSize()
-    //     0xbee208: bl              #0xbee7f4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_mini_court_overlay_view.dart] WorkoutMiniCourtOverlayView::_resolvedSize
+    //     0xbee208: bl              #0xbee7f4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_mini_court_overlay_view.dart] WorkoutMiniCourtOverlayView::_resolvedSize
     // 0xbee20c: mov             x3, x0
     // 0xbee210: ldur            x2, [fp, #-0x10]
     // 0xbee214: stur            x3, [fp, #-0x18]
@@ -326,7 +326,7 @@ class WorkoutMiniCourtOverlayView extends StatelessWidget {
     //     0xbee230: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xbee234: ldur            x1, [fp, #-8]
     // 0xbee238: r0 = _shotsToShow()
-    //     0xbee238: bl              #0xbee568  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_mini_court_overlay_view.dart] WorkoutMiniCourtOverlayView::_shotsToShow
+    //     0xbee238: bl              #0xbee568  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_mini_court_overlay_view.dart] WorkoutMiniCourtOverlayView::_shotsToShow
     // 0xbee23c: mov             x2, x0
     // 0xbee240: ldur            x1, [fp, #-0x18]
     // 0xbee244: stur            x2, [fp, #-8]
@@ -517,7 +517,7 @@ class WorkoutMiniCourtOverlayView extends StatelessWidget {
     //     0xbee448: stur            w0, [x3, #0xb]
     // 0xbee44c: ldur            x2, [fp, #-0x10]
     // 0xbee450: r1 = Function '<anonymous closure>':.
-    //     0xbee450: add             x1, PP, #0x49, lsl #12  ; [pp+0x49ce8] AnonymousClosure: (0xbee86c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_mini_court_overlay_view.dart] WorkoutMiniCourtOverlayView::build (0xbee1d0)
+    //     0xbee450: add             x1, PP, #0x49, lsl #12  ; [pp+0x49ce8] AnonymousClosure: (0xbee86c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_mini_court_overlay_view.dart] WorkoutMiniCourtOverlayView::build (0xbee1d0)
     //     0xbee454: ldr             x1, [x1, #0xce8]
     // 0xbee458: r0 = AllocateClosure()
     //     0xbee458: bl              #0xe553e0  ; AllocateClosureStub
@@ -653,7 +653,7 @@ class WorkoutMiniCourtOverlayView extends StatelessWidget {
     // 0xbee5ac: r0 = _GrowableList.of()
     //     0xbee5ac: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0xbee5b0: r1 = Function '<anonymous closure>':.
-    //     0xbee5b0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49cf0] AnonymousClosure: (0x8f6a60), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
+    //     0xbee5b0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49cf0] AnonymousClosure: (0x8f6a60), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
     //     0xbee5b4: ldr             x1, [x1, #0xcf0]
     // 0xbee5b8: r2 = Null
     //     0xbee5b8: mov             x2, NULL
@@ -667,7 +667,7 @@ class WorkoutMiniCourtOverlayView extends StatelessWidget {
     // 0xbee5d0: r0 = sort()
     //     0xbee5d0: bl              #0x7ac5ec  ; [dart:collection] ListBase::sort
     // 0xbee5d4: r1 = Function '<anonymous closure>':.
-    //     0xbee5d4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49cf8] AnonymousClosure: (0xa37b80), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shotmap/workout_shot_map_section_view.dart] WorkoutShotMapSectionView::build (0xbeb780)
+    //     0xbee5d4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49cf8] AnonymousClosure: (0xa37b80), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shotmap/workout_shot_map_section_view.dart] WorkoutShotMapSectionView::build (0xbeb780)
     //     0xbee5d8: ldr             x1, [x1, #0xcf8]
     // 0xbee5dc: r2 = Null
     //     0xbee5dc: mov             x2, NULL
@@ -707,7 +707,7 @@ class WorkoutMiniCourtOverlayView extends StatelessWidget {
     // 0xbee644: b               #0xbee6a0
     // 0xbee648: mov             x2, x4
     // 0xbee64c: r1 = Function '<anonymous closure>':.
-    //     0xbee64c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49d00] AnonymousClosure: (0xbee77c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_mini_court_overlay_view.dart] WorkoutMiniCourtOverlayView::_shotsToShow (0xbee568)
+    //     0xbee64c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49d00] AnonymousClosure: (0xbee77c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_mini_court_overlay_view.dart] WorkoutMiniCourtOverlayView::_shotsToShow (0xbee568)
     //     0xbee650: ldr             x1, [x1, #0xd00]
     // 0xbee654: r0 = AllocateClosure()
     //     0xbee654: bl              #0xe553e0  ; AllocateClosureStub
@@ -738,7 +738,7 @@ class WorkoutMiniCourtOverlayView extends StatelessWidget {
     // 0xbee6a0: ldur            x2, [fp, #-0x10]
     // 0xbee6a4: stur            x0, [fp, #-8]
     // 0xbee6a8: r1 = Function '<anonymous closure>':.
-    //     0xbee6a8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49d08] AnonymousClosure: (0xbee708), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_mini_court_overlay_view.dart] WorkoutMiniCourtOverlayView::_shotsToShow (0xbee568)
+    //     0xbee6a8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49d08] AnonymousClosure: (0xbee708), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_mini_court_overlay_view.dart] WorkoutMiniCourtOverlayView::_shotsToShow (0xbee568)
     //     0xbee6ac: ldr             x1, [x1, #0xd08]
     // 0xbee6b0: r0 = AllocateClosure()
     //     0xbee6b0: bl              #0xe553e0  ; AllocateClosureStub
@@ -797,7 +797,7 @@ class WorkoutMiniCourtOverlayView extends StatelessWidget {
     // 0xbee730: mov             x1, x0
     // 0xbee734: ldr             x2, [fp, #0x10]
     // 0xbee738: r0 = _shotCourtPixel()
-    //     0xbee738: bl              #0xa37828  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_shotCourtPixel
+    //     0xbee738: bl              #0xa37828  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_shotCourtPixel
     // 0xbee73c: cmp             w0, NULL
     // 0xbee740: b.ne            #0xbee754
     // 0xbee744: r0 = Null

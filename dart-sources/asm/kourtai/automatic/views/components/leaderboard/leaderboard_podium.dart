@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart
+// lib: , url: package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart
 
 // class id: 1048816, size: 0x8
 class :: {
@@ -425,7 +425,7 @@ abstract class __LeaderboardPodiumState&State&TickerProviderStateMixin extends S
     // 0x7b6908: b.ne            #0x7b6914
     // 0x7b690c: mov             x1, x0
     // 0x7b6910: r0 = _updateTickerModeNotifier()
-    //     0x7b6910: bl              #0x7b6abc  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] __LeaderboardPodiumState&State&TickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x7b6910: bl              #0x7b6abc  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] __LeaderboardPodiumState&State&TickerProviderStateMixin::_updateTickerModeNotifier
     // 0x7b6914: ldur            x0, [fp, #-8]
     // 0x7b6918: LoadField: r1 = r0->field_13
     //     0x7b6918: ldur            w1, [x0, #0x13]
@@ -563,7 +563,7 @@ abstract class __LeaderboardPodiumState&State&TickerProviderStateMixin extends S
     // 0x7b6b24: b.eq            #0x7b6b68
     // 0x7b6b28: mov             x2, x0
     // 0x7b6b2c: r1 = Function '_updateTickers@394311458':.
-    //     0x7b6b2c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45d78] AnonymousClosure: (0x7b6c68), in [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] __LeaderboardPodiumState&State&TickerProviderStateMixin::_updateTickers (0x7b6ca0)
+    //     0x7b6b2c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45d78] AnonymousClosure: (0x7b6c68), in [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] __LeaderboardPodiumState&State&TickerProviderStateMixin::_updateTickers (0x7b6ca0)
     //     0x7b6b30: ldr             x1, [x1, #0xd78]
     // 0x7b6b34: r0 = AllocateClosure()
     //     0x7b6b34: bl              #0xe553e0  ; AllocateClosureStub
@@ -583,7 +583,7 @@ abstract class __LeaderboardPodiumState&State&TickerProviderStateMixin extends S
     // 0x7b6b64: ldur            x3, [fp, #-0x18]
     // 0x7b6b68: mov             x2, x0
     // 0x7b6b6c: r1 = Function '_updateTickers@394311458':.
-    //     0x7b6b6c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45d78] AnonymousClosure: (0x7b6c68), in [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] __LeaderboardPodiumState&State&TickerProviderStateMixin::_updateTickers (0x7b6ca0)
+    //     0x7b6b6c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45d78] AnonymousClosure: (0x7b6c68), in [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] __LeaderboardPodiumState&State&TickerProviderStateMixin::_updateTickers (0x7b6ca0)
     //     0x7b6b70: ldr             x1, [x1, #0xd78]
     // 0x7b6b74: r0 = AllocateClosure()
     //     0x7b6b74: bl              #0xe553e0  ; AllocateClosureStub
@@ -637,7 +637,7 @@ abstract class __LeaderboardPodiumState&State&TickerProviderStateMixin extends S
     //     0x7b6c80: cmp             SP, x16
     //     0x7b6c84: b.ls            #0x7b6c98
     // 0x7b6c88: r0 = _updateTickers()
-    //     0x7b6c88: bl              #0x7b6ca0  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] __LeaderboardPodiumState&State&TickerProviderStateMixin::_updateTickers
+    //     0x7b6c88: bl              #0x7b6ca0  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] __LeaderboardPodiumState&State&TickerProviderStateMixin::_updateTickers
     // 0x7b6c8c: LeaveFrame
     //     0x7b6c8c: mov             SP, fp
     //     0x7b6c90: ldp             fp, lr, [SP], #0x10
@@ -791,10 +791,10 @@ abstract class __LeaderboardPodiumState&State&TickerProviderStateMixin extends S
     //     0x8e4070: b.ls            #0x8e4094
     // 0x8e4074: mov             x1, x0
     // 0x8e4078: r0 = _updateTickerModeNotifier()
-    //     0x8e4078: bl              #0x7b6abc  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] __LeaderboardPodiumState&State&TickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x8e4078: bl              #0x7b6abc  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] __LeaderboardPodiumState&State&TickerProviderStateMixin::_updateTickerModeNotifier
     // 0x8e407c: ldur            x1, [fp, #-8]
     // 0x8e4080: r0 = _updateTickers()
-    //     0x8e4080: bl              #0x7b6ca0  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] __LeaderboardPodiumState&State&TickerProviderStateMixin::_updateTickers
+    //     0x8e4080: bl              #0x7b6ca0  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] __LeaderboardPodiumState&State&TickerProviderStateMixin::_updateTickers
     // 0x8e4084: r0 = Null
     //     0x8e4084: mov             x0, NULL
     // 0x8e4088: LeaveFrame
@@ -831,7 +831,7 @@ abstract class __LeaderboardPodiumState&State&TickerProviderStateMixin extends S
     // 0xb60228: b               #0xb60268
     // 0xb6022c: mov             x2, x0
     // 0xb60230: r1 = Function '_updateTickers@394311458':.
-    //     0xb60230: add             x1, PP, #0x45, lsl #12  ; [pp+0x45d78] AnonymousClosure: (0x7b6c68), in [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] __LeaderboardPodiumState&State&TickerProviderStateMixin::_updateTickers (0x7b6ca0)
+    //     0xb60230: add             x1, PP, #0x45, lsl #12  ; [pp+0x45d78] AnonymousClosure: (0x7b6c68), in [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] __LeaderboardPodiumState&State&TickerProviderStateMixin::_updateTickers (0x7b6ca0)
     //     0xb60234: ldr             x1, [x1, #0xd78]
     // 0xb60238: r0 = AllocateClosure()
     //     0xb60238: bl              #0xe553e0  ; AllocateClosureStub
@@ -876,7 +876,7 @@ abstract class __LeaderboardPodiumState&State&TickerProviderStateMixin extends S
     //     0xb6029c: cmp             SP, x16
     //     0xb602a0: b.ls            #0xb602b4
     // 0xb602a4: r0 = dispose()
-    //     0xb602a4: bl              #0xb601f0  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] __LeaderboardPodiumState&State&TickerProviderStateMixin::dispose
+    //     0xb602a4: bl              #0xb601f0  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] __LeaderboardPodiumState&State&TickerProviderStateMixin::dispose
     // 0xb602a8: LeaveFrame
     //     0xb602a8: mov             SP, fp
     //     0xb602ac: ldp             fp, lr, [SP], #0x10
@@ -957,7 +957,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     // 0x8e6028: blr             x9
     // 0x8e602c: ldur            x1, [fp, #-8]
     // 0x8e6030: r0 = _startIfReady()
-    //     0x8e6030: bl              #0x8e604c  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_startIfReady
+    //     0x8e6030: bl              #0x8e604c  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_startIfReady
     // 0x8e6034: r0 = Null
     //     0x8e6034: mov             x0, NULL
     // 0x8e6038: LeaveFrame
@@ -1127,7 +1127,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     // 0x8e61e0: StoreField: r1->field_33 = r2
     //     0x8e61e0: stur            x2, [x1, #0x33]
     // 0x8e61e4: r0 = _runReveal()
-    //     0x8e61e4: bl              #0x8e623c  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_runReveal
+    //     0x8e61e4: bl              #0x8e623c  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_runReveal
     // 0x8e61e8: r0 = Null
     //     0x8e61e8: mov             x0, NULL
     // 0x8e61ec: LeaveFrame
@@ -1196,7 +1196,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     // 0x8e6288: ldur            x1, [fp, #-0x10]
     // 0x8e628c: ldur            x2, [fp, #-0x18]
     // 0x8e6290: r0 = _alive()
-    //     0x8e6290: bl              #0x8e6c40  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_alive
+    //     0x8e6290: bl              #0x8e6c40  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_alive
     // 0x8e6294: tbz             w0, #4, #0x8e62a0
     // 0x8e6298: r0 = Null
     //     0x8e6298: mov             x0, NULL
@@ -1542,7 +1542,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     // 0x8e6630: ldur            x1, [fp, #-0x10]
     // 0x8e6634: ldur            x2, [fp, #-0x18]
     // 0x8e6638: r0 = _alive()
-    //     0x8e6638: bl              #0x8e6c40  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_alive
+    //     0x8e6638: bl              #0x8e6c40  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_alive
     // 0x8e663c: tbz             w0, #4, #0x8e6648
     // 0x8e6640: r0 = Null
     //     0x8e6640: mov             x0, NULL
@@ -1553,14 +1553,14 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     //     0x8e664c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45cf0] Obj!_PodiumHaptic@d3a4c1
     //     0x8e6650: ldr             x1, [x1, #0xcf0]
     // 0x8e6654: r0 = _haptic()
-    //     0x8e6654: bl              #0x8e68f4  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] ::_haptic
+    //     0x8e6654: bl              #0x8e68f4  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] ::_haptic
     // 0x8e6658: d0 = 0.400000
     //     0x8e6658: ldr             d0, [PP, #0x64f8]  ; [pp+0x64f8] IMM: double(0.4) from 0x3fd999999999999a
     // 0x8e665c: d1 = 0.340000
     //     0x8e665c: add             x17, PP, #0x3c, lsl #12  ; [pp+0x3c680] IMM: double(0.34) from 0x3fd5c28f5c28f5c3
     //     0x8e6660: ldr             d1, [x17, #0x680]
     // 0x8e6664: r0 = _iosSpring()
-    //     0x8e6664: bl              #0x8e68a0  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] ::_iosSpring
+    //     0x8e6664: bl              #0x8e68a0  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] ::_iosSpring
     // 0x8e6668: ldur            x1, [fp, #-0x10]
     // 0x8e666c: stur            x0, [fp, #-0x28]
     // 0x8e6670: LoadField: r2 = r1->field_1f
@@ -1608,7 +1608,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     // 0x8e66dc: ldur            x1, [fp, #-0x10]
     // 0x8e66e0: ldur            x2, [fp, #-0x18]
     // 0x8e66e4: r0 = _alive()
-    //     0x8e66e4: bl              #0x8e6c40  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_alive
+    //     0x8e66e4: bl              #0x8e6c40  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_alive
     // 0x8e66e8: tbz             w0, #4, #0x8e66f4
     // 0x8e66ec: r0 = Null
     //     0x8e66ec: mov             x0, NULL
@@ -1622,7 +1622,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     //     0x8e6700: add             x17, PP, #0x3c, lsl #12  ; [pp+0x3cbc0] IMM: double(0.44) from 0x3fdc28f5c28f5c29
     //     0x8e6704: ldr             d1, [x17, #0xbc0]
     // 0x8e6708: r0 = _iosSpring()
-    //     0x8e6708: bl              #0x8e68a0  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] ::_iosSpring
+    //     0x8e6708: bl              #0x8e68a0  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] ::_iosSpring
     // 0x8e670c: mov             x1, x0
     // 0x8e6710: ldur            x0, [fp, #-0x10]
     // 0x8e6714: stur            x1, [fp, #-0x28]
@@ -1833,7 +1833,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     // 0x9424c4: DecompressPointer r2
     //     0x9424c4: add             x2, x2, HEAP, lsl #32
     // 0x9424c8: r1 = Function '_onTick@1028273831':.
-    //     0x9424c8: add             x1, PP, #0x45, lsl #12  ; [pp+0x45c48] AnonymousClosure: (0x94323c), in [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_onTick (0x943274)
+    //     0x9424c8: add             x1, PP, #0x45, lsl #12  ; [pp+0x45c48] AnonymousClosure: (0x94323c), in [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_onTick (0x943274)
     //     0x9424cc: ldr             x1, [x1, #0xc48]
     // 0x9424d0: r0 = AllocateClosure()
     //     0x9424d0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1913,7 +1913,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     //     0x9425b4: bl              #0x691760  ; [package:flutter/src/animation/animation_controller.dart] AnimationController::AnimationController
     // 0x9425b8: ldur            x2, [fp, #-8]
     // 0x9425bc: r1 = Function '_onTick@1028273831':.
-    //     0x9425bc: add             x1, PP, #0x45, lsl #12  ; [pp+0x45c48] AnonymousClosure: (0x94323c), in [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_onTick (0x943274)
+    //     0x9425bc: add             x1, PP, #0x45, lsl #12  ; [pp+0x45c48] AnonymousClosure: (0x94323c), in [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_onTick (0x943274)
     //     0x9425c0: ldr             x1, [x1, #0xc48]
     // 0x9425c4: r0 = AllocateClosure()
     //     0x9425c4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1962,7 +1962,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     //     0x94263c: add             x3, x3, HEAP, lsl #32
     // 0x942640: tbnz            w3, #4, #0x94264c
     // 0x942644: r0 = _scheduleVisibilityCheck()
-    //     0x942644: bl              #0x9427b8  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_scheduleVisibilityCheck
+    //     0x942644: bl              #0x9427b8  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_scheduleVisibilityCheck
     // 0x942648: b               #0x942734
     // 0x94264c: StoreField: r1->field_27 = r0
     //     0x94264c: stur            w0, [x1, #0x27]
@@ -1983,7 +1983,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     // 0x942674: ldur            x2, [fp, #-0x18]
     // 0x942678: stur            x0, [fp, #-8]
     // 0x94267c: r1 = Function '<anonymous closure>':.
-    //     0x94267c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45d08] AnonymousClosure: (0x9431f4), in [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::initState (0x942388)
+    //     0x94267c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45d08] AnonymousClosure: (0x9431f4), in [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::initState (0x942388)
     //     0x942680: ldr             x1, [x1, #0xd08]
     // 0x942684: r0 = AllocateClosure()
     //     0x942684: bl              #0xe553e0  ; AllocateClosureStub
@@ -2158,7 +2158,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     // 0x94283c: mov             x2, x1
     // 0x942840: stur            x0, [fp, #-8]
     // 0x942844: r1 = Function '<anonymous closure>':.
-    //     0x942844: add             x1, PP, #0x45, lsl #12  ; [pp+0x45d30] AnonymousClosure: (0x942918), in [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_scheduleVisibilityCheck (0x9427b8)
+    //     0x942844: add             x1, PP, #0x45, lsl #12  ; [pp+0x45d30] AnonymousClosure: (0x942918), in [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_scheduleVisibilityCheck (0x9427b8)
     //     0x942848: ldr             x1, [x1, #0xd30]
     // 0x94284c: r0 = AllocateClosure()
     //     0x94284c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2278,7 +2278,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     // 0x942978: ret
     //     0x942978: ret             
     // 0x94297c: r0 = _noteVisibility()
-    //     0x94297c: bl              #0x9429b4  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_noteVisibility
+    //     0x94297c: bl              #0x9429b4  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_noteVisibility
     // 0x942980: ldur            x0, [fp, #-8]
     // 0x942984: LoadField: r1 = r0->field_f
     //     0x942984: ldur            w1, [x0, #0xf]
@@ -2290,7 +2290,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     //     0x942990: add             x0, x0, HEAP, lsl #32
     // 0x942994: tbz             w0, #4, #0x94299c
     // 0x942998: r0 = _scheduleVisibilityCheck()
-    //     0x942998: bl              #0x9427b8  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_scheduleVisibilityCheck
+    //     0x942998: bl              #0x9427b8  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_scheduleVisibilityCheck
     // 0x94299c: r0 = Null
     //     0x94299c: mov             x0, NULL
     // 0x9429a0: LeaveFrame
@@ -2352,7 +2352,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     //     0x942a2c: ret             
     // 0x942a30: mov             x1, x0
     // 0x942a34: r0 = _podiumIsPainted()
-    //     0x942a34: bl              #0x942ffc  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] ::_podiumIsPainted
+    //     0x942a34: bl              #0x942ffc  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] ::_podiumIsPainted
     // 0x942a38: tbz             w0, #4, #0x942a4c
     // 0x942a3c: r0 = Null
     //     0x942a3c: mov             x0, NULL
@@ -2434,7 +2434,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     // 0x942b14: StoreField: r1->field_27 = r0
     //     0x942b14: stur            w0, [x1, #0x27]
     // 0x942b18: r0 = _startIfReady()
-    //     0x942b18: bl              #0x8e604c  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_startIfReady
+    //     0x942b18: bl              #0x8e604c  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_startIfReady
     // 0x942b1c: r0 = Null
     //     0x942b1c: mov             x0, NULL
     // 0x942b20: LeaveFrame
@@ -2512,7 +2512,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     // 0x942c08: b.le            #0x942c14
     // 0x942c0c: ldur            x1, [fp, #-8]
     // 0x942c10: r0 = _armWatchdog()
-    //     0x942c10: bl              #0x942c90  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_armWatchdog
+    //     0x942c10: bl              #0x942c90  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_armWatchdog
     // 0x942c14: r0 = Null
     //     0x942c14: mov             x0, NULL
     // 0x942c18: LeaveFrame
@@ -2610,7 +2610,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     // 0x942cfc: StoreField: r2->field_13 = r0
     //     0x942cfc: stur            w0, [x2, #0x13]
     // 0x942d00: r1 = Function '<anonymous closure>':.
-    //     0x942d00: add             x1, PP, #0x45, lsl #12  ; [pp+0x45d48] AnonymousClosure: (0x942d3c), in [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_armWatchdog (0x942c90)
+    //     0x942d00: add             x1, PP, #0x45, lsl #12  ; [pp+0x45d48] AnonymousClosure: (0x942d3c), in [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_armWatchdog (0x942c90)
     //     0x942d04: ldr             x1, [x1, #0xd48]
     // 0x942d08: r0 = AllocateClosure()
     //     0x942d08: bl              #0xe553e0  ; AllocateClosureStub
@@ -2715,7 +2715,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     //     0x942e00: ret             
     // 0x942e04: mov             x1, x0
     // 0x942e08: r0 = _podiumIsPainted()
-    //     0x942e08: bl              #0x942ffc  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] ::_podiumIsPainted
+    //     0x942e08: bl              #0x942ffc  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] ::_podiumIsPainted
     // 0x942e0c: tbz             w0, #4, #0x942e20
     // 0x942e10: r0 = Null
     //     0x942e10: mov             x0, NULL
@@ -2849,7 +2849,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     //     0x942f88: stur            w1, [x2, #0x27]
     // 0x942f8c: mov             x1, x2
     // 0x942f90: r0 = _startIfReady()
-    //     0x942f90: bl              #0x8e604c  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_startIfReady
+    //     0x942f90: bl              #0x8e604c  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_startIfReady
     // 0x942f94: r0 = Null
     //     0x942f94: mov             x0, NULL
     // 0x942f98: LeaveFrame
@@ -2911,7 +2911,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     //     0x943218: add             x0, x0, HEAP, lsl #32
     // 0x94321c: mov             x1, x0
     // 0x943220: r0 = _startIfReady()
-    //     0x943220: bl              #0x8e604c  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_startIfReady
+    //     0x943220: bl              #0x8e604c  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_startIfReady
     // 0x943224: r0 = Null
     //     0x943224: mov             x0, NULL
     // 0x943228: LeaveFrame
@@ -2938,7 +2938,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     //     0x943254: cmp             SP, x16
     //     0x943258: b.ls            #0x94326c
     // 0x94325c: r0 = _onTick()
-    //     0x94325c: bl              #0x943274  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_onTick
+    //     0x94325c: bl              #0x943274  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_onTick
     // 0x943260: LeaveFrame
     //     0x943260: mov             SP, fp
     //     0x943264: ldp             fp, lr, [SP], #0x10
@@ -3024,7 +3024,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     // 0x9e3928: ret
     //     0x9e3928: ret             
     // 0x9e392c: r0 = _slots()
-    //     0x9e392c: bl              #0x9e3c3c  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] LeaderboardPodium::_slots
+    //     0x9e392c: bl              #0x9e3c3c  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] LeaderboardPodium::_slots
     // 0x9e3930: r1 = <Widget>
     //     0x9e3930: ldr             x1, [PP, #0x4f10]  ; [pp+0x4f10] TypeArguments: <Widget>
     // 0x9e3934: r2 = 0
@@ -3321,7 +3321,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     //     0xb5a5c0: mov             fp, SP
     // 0xb5a5c4: ldr             x2, [fp, #0x10]
     // 0xb5a5c8: r1 = Function 'dispose':.
-    //     0xb5a5c8: add             x1, PP, #0x45, lsl #12  ; [pp+0x45c00] AnonymousClosure: (0xb5a5e0), in [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::dispose (0xb60070)
+    //     0xb5a5c8: add             x1, PP, #0x45, lsl #12  ; [pp+0x45c00] AnonymousClosure: (0xb5a5e0), in [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::dispose (0xb60070)
     //     0xb5a5cc: ldr             x1, [x1, #0xc00]
     // 0xb5a5d0: r0 = AllocateClosure()
     //     0xb5a5d0: bl              #0xe553e0  ; AllocateClosureStub
@@ -3346,7 +3346,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     //     0xb5a5f8: cmp             SP, x16
     //     0xb5a5fc: b.ls            #0xb5a610
     // 0xb5a600: r0 = dispose()
-    //     0xb5a600: bl              #0xb60070  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::dispose
+    //     0xb5a600: bl              #0xb60070  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::dispose
     // 0xb5a604: LeaveFrame
     //     0xb5a604: mov             SP, fp
     //     0xb5a608: ldp             fp, lr, [SP], #0x10
@@ -3391,7 +3391,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     // 0xb600bc: mov             x2, x0
     // 0xb600c0: stur            x4, [fp, #-8]
     // 0xb600c4: r1 = Function '_onTick@1028273831':.
-    //     0xb600c4: add             x1, PP, #0x45, lsl #12  ; [pp+0x45c48] AnonymousClosure: (0x94323c), in [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_onTick (0x943274)
+    //     0xb600c4: add             x1, PP, #0x45, lsl #12  ; [pp+0x45c48] AnonymousClosure: (0x94323c), in [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_onTick (0x943274)
     //     0xb600c8: ldr             x1, [x1, #0xc48]
     // 0xb600cc: r0 = AllocateClosure()
     //     0xb600cc: bl              #0xe553e0  ; AllocateClosureStub
@@ -3449,7 +3449,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     // 0xb60160: mov             x2, x0
     // 0xb60164: stur            x3, [fp, #-0x28]
     // 0xb60168: r1 = Function '_onTick@1028273831':.
-    //     0xb60168: add             x1, PP, #0x45, lsl #12  ; [pp+0x45c48] AnonymousClosure: (0x94323c), in [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_onTick (0x943274)
+    //     0xb60168: add             x1, PP, #0x45, lsl #12  ; [pp+0x45c48] AnonymousClosure: (0x94323c), in [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] _LeaderboardPodiumState::_onTick (0x943274)
     //     0xb6016c: ldr             x1, [x1, #0xc48]
     // 0xb60170: r0 = AllocateClosure()
     //     0xb60170: bl              #0xe553e0  ; AllocateClosureStub
@@ -3466,7 +3466,7 @@ class _LeaderboardPodiumState extends __LeaderboardPodiumState&State&TickerProvi
     //     0xb6018c: bl              #0x809c40  ; [package:flutter/src/animation/animation_controller.dart] AnimationController::dispose
     // 0xb60190: ldur            x1, [fp, #-0x18]
     // 0xb60194: r0 = dispose()
-    //     0xb60194: bl              #0xb601f0  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] __LeaderboardPodiumState&State&TickerProviderStateMixin::dispose
+    //     0xb60194: bl              #0xb601f0  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] __LeaderboardPodiumState&State&TickerProviderStateMixin::dispose
     // 0xb60198: r0 = Null
     //     0xb60198: mov             x0, NULL
     // 0xb6019c: LeaveFrame
@@ -3532,7 +3532,7 @@ class LeaderboardPodium extends StatefulWidget {
     // 0x9e3c6c: r0 = _GrowableList._ofGrowableList()
     //     0x9e3c6c: bl              #0x5c79a0  ; [dart:core] _GrowableList::_GrowableList._ofGrowableList
     // 0x9e3c70: r1 = Function '<anonymous closure>':.
-    //     0x9e3c70: add             x1, PP, #0x45, lsl #12  ; [pp+0x45c28] AnonymousClosure: (0x9e3f54), in [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] LeaderboardPodium::_slots (0x9e3c3c)
+    //     0x9e3c70: add             x1, PP, #0x45, lsl #12  ; [pp+0x45c28] AnonymousClosure: (0x9e3f54), in [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] LeaderboardPodium::_slots (0x9e3c3c)
     //     0x9e3c74: ldr             x1, [x1, #0xc28]
     // 0x9e3c78: r2 = Null
     //     0x9e3c78: mov             x2, NULL
@@ -3566,7 +3566,7 @@ class LeaderboardPodium extends StatefulWidget {
     //     0x9e3cc0: stur            w0, [x1, #0xf]
     // 0x9e3cc4: mov             x2, x1
     // 0x9e3cc8: r1 = Function 'entryForRank':.
-    //     0x9e3cc8: add             x1, PP, #0x45, lsl #12  ; [pp+0x45c30] AnonymousClosure: (0x9e3e14), in [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] LeaderboardPodium::_slots (0x9e3c3c)
+    //     0x9e3cc8: add             x1, PP, #0x45, lsl #12  ; [pp+0x45c30] AnonymousClosure: (0x9e3e14), in [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] LeaderboardPodium::_slots (0x9e3c3c)
     //     0x9e3ccc: ldr             x1, [x1, #0xc30]
     // 0x9e3cd0: r0 = AllocateClosure()
     //     0x9e3cd0: bl              #0xe553e0  ; AllocateClosureStub
@@ -3706,7 +3706,7 @@ class LeaderboardPodium extends StatefulWidget {
     // 0x9e3e64: mov             x2, x3
     // 0x9e3e68: stur            x4, [fp, #-0x10]
     // 0x9e3e6c: r1 = Function '<anonymous closure>':.
-    //     0x9e3e6c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45c40] AnonymousClosure: (0x9e3f18), in [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] LeaderboardPodium::_slots (0x9e3c3c)
+    //     0x9e3e6c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45c40] AnonymousClosure: (0x9e3f18), in [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] LeaderboardPodium::_slots (0x9e3c3c)
     //     0x9e3e70: ldr             x1, [x1, #0xc40]
     // 0x9e3e74: r0 = AllocateClosure()
     //     0x9e3e74: bl              #0xe553e0  ; AllocateClosureStub
@@ -3872,7 +3872,7 @@ class LeaderboardPodium extends StatefulWidget {
     //     0xac3fa4: stur            w0, [x3, #0xf]
     // 0xac3fa8: mov             x2, x3
     // 0xac3fac: r1 = Function '<anonymous closure>': static.
-    //     0xac3fac: add             x1, PP, #0x34, lsl #12  ; [pp+0x34de8] AnonymousClosure: static (0xac41bc), in [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] LeaderboardPodium::LeaderboardPodium.drillScore (0xac3f50)
+    //     0xac3fac: add             x1, PP, #0x34, lsl #12  ; [pp+0x34de8] AnonymousClosure: static (0xac41bc), in [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] LeaderboardPodium::LeaderboardPodium.drillScore (0xac3f50)
     //     0xac3fb0: ldr             x1, [x1, #0xde8]
     // 0xac3fb4: r0 = AllocateClosure()
     //     0xac3fb4: bl              #0xe553e0  ; AllocateClosureStub
@@ -3908,7 +3908,7 @@ class LeaderboardPodium extends StatefulWidget {
     // 0xac4010: b               #0xac4090
     // 0xac4014: ldur            x2, [fp, #-0x30]
     // 0xac4018: r1 = Function '<anonymous closure>': static.
-    //     0xac4018: add             x1, PP, #0x34, lsl #12  ; [pp+0x34df8] AnonymousClosure: (0x71e360), in [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage (0x71e3c8)
+    //     0xac4018: add             x1, PP, #0x34, lsl #12  ; [pp+0x34df8] AnonymousClosure: (0x71e360), in [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage (0x71e3c8)
     //     0xac401c: ldr             x1, [x1, #0xdf8]
     // 0xac4020: r0 = AllocateClosure()
     //     0xac4020: bl              #0xe553e0  ; AllocateClosureStub
@@ -3951,7 +3951,7 @@ class LeaderboardPodium extends StatefulWidget {
     // 0xac4090: ldur            x2, [fp, #-0x30]
     // 0xac4094: stur            x3, [fp, #-0x38]
     // 0xac4098: r1 = Function '<anonymous closure>': static.
-    //     0xac4098: add             x1, PP, #0x34, lsl #12  ; [pp+0x34e00] AnonymousClosure: (0x71e360), in [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage (0x71e3c8)
+    //     0xac4098: add             x1, PP, #0x34, lsl #12  ; [pp+0x34e00] AnonymousClosure: (0x71e360), in [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage (0x71e3c8)
     //     0xac409c: ldr             x1, [x1, #0xe00]
     // 0xac40a0: r0 = AllocateClosure()
     //     0xac40a0: bl              #0xe553e0  ; AllocateClosureStub
@@ -3980,7 +3980,7 @@ class LeaderboardPodium extends StatefulWidget {
     // 0xac40e4: r1 = Null
     //     0xac40e4: mov             x1, NULL
     // 0xac40e8: r0 = LeaderboardPodiumEntry.drillViewer()
-    //     0xac40e8: bl              #0x5f0664  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] LeaderboardPodiumEntry::LeaderboardPodiumEntry.drillViewer
+    //     0xac40e8: bl              #0x5f0664  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] LeaderboardPodiumEntry::LeaderboardPodiumEntry.drillViewer
     // 0xac40ec: mov             x3, x0
     // 0xac40f0: r0 = true
     //     0xac40f0: add             x0, NULL, #0x20  ; true
@@ -4086,7 +4086,7 @@ class LeaderboardPodium extends StatefulWidget {
     // 0xac41e8: r1 = Null
     //     0xac41e8: mov             x1, NULL
     // 0xac41ec: r0 = LeaderboardPodiumEntry.fromDrill()
-    //     0xac41ec: bl              #0x5ed380  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] LeaderboardPodiumEntry::LeaderboardPodiumEntry.fromDrill
+    //     0xac41ec: bl              #0x5ed380  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] LeaderboardPodiumEntry::LeaderboardPodiumEntry.fromDrill
     // 0xac41f0: LeaveFrame
     //     0xac41f0: mov             SP, fp
     //     0xac41f4: ldp             fp, lr, [SP], #0x10
@@ -4151,8 +4151,8 @@ class _PodiumSkeleton extends StatelessWidget {
     //     0xbbedbc: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xbbedc0: cmp             SP, x16
     //     0xbbedc4: b.ls            #0xbbf084
-    // 0xbbedc8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbbedc8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbbedc8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbbedc8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbbedcc: r16 = 0.080000
     //     0xbbedcc: add             x16, PP, #0x24, lsl #12  ; [pp+0x24f28] 0.08
     //     0xbbedd0: ldr             x16, [x16, #0xf28]
@@ -4451,13 +4451,13 @@ class _ScorePill extends StatelessWidget {
     // 0xbbeb40: DecompressPointer r3
     //     0xbbeb40: add             x3, x3, HEAP, lsl #32
     // 0xbbeb44: stur            x3, [fp, #-8]
-    // 0xbbeb48: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbbeb48: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbbeb48: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbbeb48: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbbeb4c: ldur            x1, [fp, #-0x10]
     // 0xbbeb50: ldur            x2, [fp, #-8]
     // 0xbbeb54: mov             x3, x0
     // 0xbbeb58: r0 = _medalGradient()
-    //     0xbbeb58: bl              #0xbbe9c4  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] ::_medalGradient
+    //     0xbbeb58: bl              #0xbbe9c4  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] ::_medalGradient
     // 0xbbeb5c: mov             x2, x0
     // 0xbbeb60: ldur            x0, [fp, #-0x10]
     // 0xbbeb64: stur            x2, [fp, #-8]
@@ -4710,13 +4710,13 @@ class _RankChip extends StatelessWidget {
     //     0xbbe7c0: add             x4, x4, HEAP, lsl #32
     // 0xbbe7c4: mov             x1, x0
     // 0xbbe7c8: stur            x4, [fp, #-8]
-    // 0xbbe7cc: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbbe7cc: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbbe7cc: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbbe7cc: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbbe7d0: ldur            x1, [fp, #-0x10]
     // 0xbbe7d4: ldur            x2, [fp, #-8]
     // 0xbbe7d8: mov             x3, x0
     // 0xbbe7dc: r0 = _medalGradient()
-    //     0xbbe7dc: bl              #0xbbe9c4  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] ::_medalGradient
+    //     0xbbe7dc: bl              #0xbbe9c4  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] ::_medalGradient
     // 0xbbe7e0: mov             x2, x0
     // 0xbbe7e4: ldur            x0, [fp, #-0x10]
     // 0xbbe7e8: stur            x2, [fp, #-8]
@@ -4786,8 +4786,8 @@ class _RankChip extends StatelessWidget {
     // 0xbbe894: StoreField: r2->field_7 = r0
     //     0xbbe894: stur            w0, [x2, #7]
     // 0xbbe898: ldur            x1, [fp, #-0x20]
-    // 0xbbe89c: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xbbe89c: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xbbe89c: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xbbe89c: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xbbe8a0: r16 = 2.000000
     //     0xbbe8a0: add             x16, PP, #0x25, lsl #12  ; [pp+0x25998] 2
     //     0xbbe8a4: ldr             x16, [x16, #0x998]
@@ -4929,8 +4929,8 @@ class _RingAvatar extends StatelessWidget {
     //     0xbbe560: add             x4, x4, HEAP, lsl #32
     // 0xbbe564: mov             x1, x0
     // 0xbbe568: stur            x4, [fp, #-8]
-    // 0xbbe56c: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbbe56c: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbbe56c: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbbe56c: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbbe570: mov             x3, x0
     // 0xbbe574: ldur            x2, [fp, #-0x10]
     // 0xbbe578: cmp             x2, #2
@@ -5012,7 +5012,7 @@ class _RingAvatar extends StatelessWidget {
     // 0xbbe660: DecompressPointer r1
     //     0xbbe660: add             x1, x1, HEAP, lsl #32
     // 0xbbe664: r0 = displayNameAbbreviationIosParity()
-    //     0xbbe664: bl              #0xa95bec  ; [package:ballai/automatic/utility/user/user_avatar_text.dart] ::displayNameAbbreviationIosParity
+    //     0xbbe664: bl              #0xa95bec  ; [package:kourtai/automatic/utility/user/user_avatar_text.dart] ::displayNameAbbreviationIosParity
     // 0xbbe668: ldur            d1, [fp, #-0x38]
     // 0xbbe66c: d0 = 8.000000
     //     0xbbe66c: fmov            d0, #8.00000000
@@ -5020,8 +5020,8 @@ class _RingAvatar extends StatelessWidget {
     // 0xbbe674: fsub            d2, d1, d0
     // 0xbbe678: ldur            x1, [fp, #-0x20]
     // 0xbbe67c: stur            d2, [fp, #-0x40]
-    // 0xbbe680: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbbe680: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbbe680: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbbe680: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbbe684: stur            x0, [fp, #-0x20]
     // 0xbbe688: r0 = LazyProfileImageView()
     //     0xbbe688: bl              #0xa2accc  ; AllocateLazyProfileImageViewStub -> LazyProfileImageView (size=0x24)
@@ -5138,8 +5138,8 @@ class _EmptySlot extends StatelessWidget {
     //     0xbbe2a4: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xbbe2a8: cmp             SP, x16
     //     0xbbe2ac: b.ls            #0xbbe50c
-    // 0xbbe2b0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbbe2b0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbbe2b0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbbe2b0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbbe2b4: mov             x1, x0
     // 0xbbe2b8: ldur            x0, [fp, #-8]
     // 0xbbe2bc: LoadField: d0 = r0->field_13
@@ -5199,7 +5199,7 @@ class _EmptySlot extends StatelessWidget {
     //     0xbbe35c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4ee50] "N/A"
     //     0xbbe360: ldr             x1, [x1, #0xe50]
     // 0xbbe364: r0 = L()
-    //     0xbbe364: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbbe364: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbbe368: mov             x1, x0
     // 0xbbe36c: ldur            x0, [fp, #-8]
     // 0xbbe370: stur            x1, [fp, #-0x10]
@@ -5557,7 +5557,7 @@ class _PodiumSlot extends StatelessWidget {
     //     0xbbdc34: add             x1, PP, #0x34, lsl #12  ; [pp+0x34da0] "#%lld"
     //     0xbbdc38: ldr             x1, [x1, #0xda0]
     // 0xbbdc3c: r0 = LF()
-    //     0xbbdc3c: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xbbdc3c: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xbbdc40: mov             x1, x0
     // 0xbbdc44: ldur            x0, [fp, #-0x30]
     // 0xbbdc48: stur            x1, [fp, #-0x18]
@@ -5869,7 +5869,7 @@ class _PodiumSlot extends StatelessWidget {
     //     0xbbdf60: add             x1, PP, #0x34, lsl #12  ; [pp+0x34da0] "#%lld"
     //     0xbbdf64: ldr             x1, [x1, #0xda0]
     // 0xbbdf68: r0 = LF()
-    //     0xbbdf68: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xbbdf68: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xbbdf6c: mov             x4, x0
     // 0xbbdf70: b               #0xbbdf7c
     // 0xbbdf74: r4 = "–"
@@ -6003,7 +6003,7 @@ class _PodiumSlot extends StatelessWidget {
     //     0xbbe0e0: add             x1, PP, #0x34, lsl #12  ; [pp+0x34da8] "Unranked"
     //     0xbbe0e4: ldr             x1, [x1, #0xda8]
     // 0xbbe0e8: r0 = L()
-    //     0xbbe0e8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbbe0e8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbbe0ec: mov             x4, x0
     // 0xbbe0f0: b               #0xbbe104
     // 0xbbe0f4: ldur            x0, [fp, #-0x30]

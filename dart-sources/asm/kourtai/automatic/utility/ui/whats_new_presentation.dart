@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/ui/whats_new_presentation.dart
+// lib: , url: package:kourtai/automatic/utility/ui/whats_new_presentation.dart
 
 // class id: 1048751, size: 0x8
 class :: {
@@ -18,7 +18,7 @@ abstract class WhatsNewPresentation extends Object {
     //     0xbda728: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xbda72c: cmp             SP, x16
     //     0xbda730: b.ls            #0xbda7a0
-    // 0xbda734: r0 = InitLateStaticField(0xe34) // [package:ballai/automatic/utility/ui/whats_new_presentation.dart] WhatsNewPresentation::requestToken
+    // 0xbda734: r0 = InitLateStaticField(0xe34) // [package:kourtai/automatic/utility/ui/whats_new_presentation.dart] WhatsNewPresentation::requestToken
     //     0xbda734: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xbda738: ldr             x0, [x0, #0x1c68]
     //     0xbda73c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel

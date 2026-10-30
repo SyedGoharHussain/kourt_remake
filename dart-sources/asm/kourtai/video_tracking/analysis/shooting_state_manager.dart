@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/analysis/shooting_state_manager.dart
+// lib: , url: package:kourtai/video_tracking/analysis/shooting_state_manager.dart
 
 // class id: 1049112, size: 0x8
 class :: {
@@ -348,7 +348,7 @@ class ShootingStateManager extends Object {
     // 0x7132ac: ldur            x3, [fp, #-0x10]
     // 0x7132b0: ldur            x0, [fp, #-0x20]
     // 0x7132b4: r1 = Function '<anonymous closure>':.
-    //     0x7132b4: add             x1, PP, #0x31, lsl #12  ; [pp+0x31c70] AnonymousClosure: static (0x713694), in [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
+    //     0x7132b4: add             x1, PP, #0x31, lsl #12  ; [pp+0x31c70] AnonymousClosure: static (0x713694), in [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
     //     0x7132b8: ldr             x1, [x1, #0xc70]
     // 0x7132bc: r2 = Null
     //     0x7132bc: mov             x2, NULL
@@ -381,7 +381,7 @@ class ShootingStateManager extends Object {
     // 0x713304: fdiv            d2, d1, d0
     // 0x713308: stur            d2, [fp, #-0x28]
     // 0x71330c: r1 = Function '<anonymous closure>':.
-    //     0x71330c: add             x1, PP, #0x31, lsl #12  ; [pp+0x31c78] AnonymousClosure: static (0x713694), in [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
+    //     0x71330c: add             x1, PP, #0x31, lsl #12  ; [pp+0x31c78] AnonymousClosure: static (0x713694), in [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
     //     0x713310: ldr             x1, [x1, #0xc78]
     // 0x713314: r2 = Null
     //     0x713314: mov             x2, NULL
@@ -820,12 +820,12 @@ class ShootingStateManager extends Object {
     //     0x77239c: ret             
     // 0x7723a0: ldur            x2, [fp, #-0x10]
     // 0x7723a4: r0 = _normalizedYDownPositive()
-    //     0x7723a4: bl              #0x7727b4  ; [package:ballai/video_tracking/analysis/shooting_state_manager.dart] ShootingStateManager::_normalizedYDownPositive
+    //     0x7723a4: bl              #0x7727b4  ; [package:kourtai/video_tracking/analysis/shooting_state_manager.dart] ShootingStateManager::_normalizedYDownPositive
     // 0x7723a8: ldur            x1, [fp, #-8]
     // 0x7723ac: ldur            x2, [fp, #-0x10]
     // 0x7723b0: stur            d0, [fp, #-0x28]
     // 0x7723b4: r0 = _normalizedYDownPositive()
-    //     0x7723b4: bl              #0x7727b4  ; [package:ballai/video_tracking/analysis/shooting_state_manager.dart] ShootingStateManager::_normalizedYDownPositive
+    //     0x7723b4: bl              #0x7727b4  ; [package:kourtai/video_tracking/analysis/shooting_state_manager.dart] ShootingStateManager::_normalizedYDownPositive
     // 0x7723b8: ldur            x3, [fp, #-0x18]
     // 0x7723bc: r1 = Instance_PoseLandmarkType
     //     0x7723bc: add             x1, PP, #0x30, lsl #12  ; [pp+0x30250] Obj!PoseLandmarkType@d328a1
@@ -835,7 +835,7 @@ class ShootingStateManager extends Object {
     //     0x7723c8: ldr             x2, [x2, #0x850]
     // 0x7723cc: stur            d0, [fp, #-0x30]
     // 0x7723d0: r0 = calculateJointAngle()
-    //     0x7723d0: bl              #0x7724dc  ; [package:ballai/video_tracking/analysis/shooting_state_manager.dart] ShootingStateManager::calculateJointAngle
+    //     0x7723d0: bl              #0x7724dc  ; [package:kourtai/video_tracking/analysis/shooting_state_manager.dart] ShootingStateManager::calculateJointAngle
     // 0x7723d4: mov             v1.16b, v0.16b
     // 0x7723d8: d0 = 180.000000
     //     0x7723d8: ldr             d0, [PP, #0x5a70]  ; [pp+0x5a70] IMM: double(180) from 0x4066800000000000

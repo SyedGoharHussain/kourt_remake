@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart
+// lib: , url: package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart
 
 // class id: 1048765, size: 0x8
 class :: {
@@ -14,7 +14,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     //     0x9b5b7c: mov             fp, SP
     // 0x9b5b80: ldr             x2, [fp, #0x10]
     // 0x9b5b84: r1 = Function 'dispose':.
-    //     0x9b5b84: add             x1, PP, #0x55, lsl #12  ; [pp+0x55750] AnonymousClosure: (0x9b5bc0), in [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::dispose (0x9be2c4)
+    //     0x9b5b84: add             x1, PP, #0x55, lsl #12  ; [pp+0x55750] AnonymousClosure: (0x9b5bc0), in [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::dispose (0x9be2c4)
     //     0x9b5b88: ldr             x1, [x1, #0x750]
     // 0x9b5b8c: r0 = AllocateClosure()
     //     0x9b5b8c: bl              #0xe553e0  ; AllocateClosureStub
@@ -39,7 +39,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     //     0x9b5bd8: cmp             SP, x16
     //     0x9b5bdc: b.ls            #0x9b5bf0
     // 0x9b5be0: r0 = dispose()
-    //     0x9b5be0: bl              #0x9be2c4  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::dispose
+    //     0x9b5be0: bl              #0x9be2c4  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::dispose
     // 0x9b5be4: LeaveFrame
     //     0x9b5be4: mov             SP, fp
     //     0x9b5be8: ldp             fp, lr, [SP], #0x10
@@ -70,7 +70,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9be2ec: mov             x2, x0
     // 0x9be2f0: stur            x3, [fp, #-8]
     // 0x9be2f4: r1 = Function '_onLikeStateChanged@957324816':.
-    //     0x9be2f4: add             x1, PP, #0x53, lsl #12  ; [pp+0x53e80] AnonymousClosure: (0x955ca0), of [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel
+    //     0x9be2f4: add             x1, PP, #0x53, lsl #12  ; [pp+0x53e80] AnonymousClosure: (0x955ca0), of [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel
     //     0x9be2f8: ldr             x1, [x1, #0xe80]
     // 0x9be2fc: r0 = AllocateClosure()
     //     0x9be2fc: bl              #0xe553e0  ; AllocateClosureStub
@@ -150,7 +150,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9d7ff8: r0 = notifyListeners()
     //     0x9d7ff8: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
     // 0x9d7ffc: r0 = makeId()
-    //     0x9d7ffc: bl              #0x9d8b44  ; [package:ballai/automatic/models/core/comment/workout_comment_model.dart] WorkoutCommentModel::makeId
+    //     0x9d7ffc: bl              #0x9d8b44  ; [package:kourtai/automatic/models/core/comment/workout_comment_model.dart] WorkoutCommentModel::makeId
     // 0x9d8000: ldur            x1, [fp, #-0xb0]
     // 0x9d8004: stur            x0, [fp, #-0xe0]
     // 0x9d8008: LoadField: r3 = r1->field_23
@@ -279,7 +279,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9d8148: ldur            x5, [fp, #-0xd0]
     // 0x9d814c: stur            x4, [fp, #-0xc8]
     // 0x9d8150: r0 = createComment()
-    //     0x9d8150: bl              #0x9d8380  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::createComment
+    //     0x9d8150: bl              #0x9d8380  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::createComment
     // 0x9d8154: mov             x1, x0
     // 0x9d8158: stur            x1, [fp, #-0xf0]
     // 0x9d815c: r0 = Await()
@@ -289,7 +289,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9d8168: mov             x3, x0
     // 0x9d816c: stur            x0, [fp, #-0xe0]
     // 0x9d8170: r0 = _replaceComment()
-    //     0x9d8170: bl              #0x9d8230  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_replaceComment
+    //     0x9d8170: bl              #0x9d8230  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_replaceComment
     // 0x9d8174: b               #0x9d81d4
     // 0x9d8178: sub             SP, fp, #0x100
     // 0x9d817c: ldur            x2, [fp, #-0xe8]
@@ -298,7 +298,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9d8188: mov             x0, x1
     // 0x9d818c: stur            x1, [fp, #-0xc8]
     // 0x9d8190: r1 = Function '<anonymous closure>':.
-    //     0x9d8190: add             x1, PP, #0x57, lsl #12  ; [pp+0x57748] AnonymousClosure: static (0x759154), in [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createShot (0x74e04c)
+    //     0x9d8190: add             x1, PP, #0x57, lsl #12  ; [pp+0x57748] AnonymousClosure: static (0x759154), in [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createShot (0x74e04c)
     //     0x9d8194: ldr             x1, [x1, #0x748]
     // 0x9d8198: r0 = AllocateClosure()
     //     0x9d8198: bl              #0xe553e0  ; AllocateClosureStub
@@ -388,7 +388,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9d8278: mov             x2, x1
     // 0x9d827c: stur            x3, [fp, #-0x10]
     // 0x9d8280: r1 = Function '<anonymous closure>':.
-    //     0x9d8280: add             x1, PP, #0x57, lsl #12  ; [pp+0x57750] AnonymousClosure: (0x71e360), in [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage (0x71e3c8)
+    //     0x9d8280: add             x1, PP, #0x57, lsl #12  ; [pp+0x57750] AnonymousClosure: (0x71e360), in [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage (0x71e3c8)
     //     0x9d8284: ldr             x1, [x1, #0x750]
     // 0x9d8288: r0 = AllocateClosure()
     //     0x9d8288: bl              #0xe553e0  ; AllocateClosureStub
@@ -530,7 +530,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     //     0x9d97b8: bl              #0x60afc8  ; InitAsyncStub
     // 0x9d97bc: ldur            x1, [fp, #-0x80]
     // 0x9d97c0: r0 = canLoadMoreComments()
-    //     0x9d97c0: bl              #0x9daa9c  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::canLoadMoreComments
+    //     0x9d97c0: bl              #0x9daa9c  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::canLoadMoreComments
     // 0x9d97c4: tbnz            w0, #4, #0x9d97dc
     // 0x9d97c8: ldur            x0, [fp, #-0x80]
     // 0x9d97cc: LoadField: r1 = r0->field_5f
@@ -573,7 +573,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     //     0x9d9828: add             x4, PP, #0x57, lsl #12  ; [pp+0x577d0] List(7) [0, 0x3, 0x1, 0x2, "after", 0x2, Null]
     //     0x9d982c: ldr             x4, [x4, #0x7d0]
     // 0x9d9830: r0 = fetchCommentsPage()
-    //     0x9d9830: bl              #0x9d9e90  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::fetchCommentsPage
+    //     0x9d9830: bl              #0x9d9e90  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::fetchCommentsPage
     // 0x9d9834: mov             x1, x0
     // 0x9d9838: stur            x1, [fp, #-0xa0]
     // 0x9d983c: r0 = Await()
@@ -650,7 +650,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9d98fc: ldur            x1, [fp, #-0x80]
     // 0x9d9900: mov             x2, x0
     // 0x9d9904: r0 = _loadUsersIfNeeded()
-    //     0x9d9904: bl              #0x9d99ac  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_loadUsersIfNeeded
+    //     0x9d9904: bl              #0x9d99ac  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_loadUsersIfNeeded
     // 0x9d9908: mov             x1, x0
     // 0x9d990c: stur            x1, [fp, #-0x90]
     // 0x9d9910: r0 = Await()
@@ -740,7 +740,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     //     0x9d99f4: bl              #0x60afc8  ; InitAsyncStub
     // 0x9d99f8: ldur            x2, [fp, #-0xb0]
     // 0x9d99fc: r1 = Function '<anonymous closure>':.
-    //     0x9d99fc: add             x1, PP, #0x53, lsl #12  ; [pp+0x53d78] AnonymousClosure: (0x9d9e3c), in [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_loadUsersIfNeeded (0x9d99ac)
+    //     0x9d99fc: add             x1, PP, #0x53, lsl #12  ; [pp+0x53d78] AnonymousClosure: (0x9d9e3c), in [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_loadUsersIfNeeded (0x9d99ac)
     //     0x9d9a00: ldr             x1, [x1, #0xd78]
     // 0x9d9a04: r0 = AllocateClosure()
     //     0x9d9a04: bl              #0xe553e0  ; AllocateClosureStub
@@ -1001,7 +1001,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9d9ce4: r1 = Null
     //     0x9d9ce4: mov             x1, NULL
     // 0x9d9ce8: r0 = UserModel.fromFirestore()
-    //     0x9d9ce8: bl              #0x8fe49c  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
+    //     0x9d9ce8: bl              #0x8fe49c  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
     // 0x9d9cec: r17 = -272
     //     0x9d9cec: mov             x17, #-0x110
     // 0x9d9cf0: str             x0, [fp, x17]
@@ -1341,7 +1341,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     //     0x9dca2c: add             x1, x1, HEAP, lsl #32
     // 0x9dca30: ldur            x2, [fp, #-0x18]
     // 0x9dca34: r0 = isLiked()
-    //     0x9dca34: bl              #0x9dbe84  ; [package:ballai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::isLiked
+    //     0x9dca34: bl              #0x9dbe84  ; [package:kourtai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::isLiked
     // 0x9dca38: LeaveFrame
     //     0x9dca38: mov             SP, fp
     //     0x9dca3c: ldp             fp, lr, [SP], #0x10
@@ -1639,7 +1639,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9dcf18: r0 = add()
     //     0x9dcf18: bl              #0xdb26c4  ; [dart:_compact_hash] __Set&_HashVMBase&SetMixin&_HashBase&_OperatorEqualsAndHashCode&_LinkedHashSetMixin::add
     // 0x9dcf1c: r0 = makeId()
-    //     0x9dcf1c: bl              #0x9dde1c  ; [package:ballai/automatic/models/core/comment/workout_comment_reply_model.dart] WorkoutCommentReplyModel::makeId
+    //     0x9dcf1c: bl              #0x9dde1c  ; [package:kourtai/automatic/models/core/comment/workout_comment_reply_model.dart] WorkoutCommentReplyModel::makeId
     // 0x9dcf20: ldur            x1, [fp, #-0xc0]
     // 0x9dcf24: stur            x0, [fp, #-0x100]
     // 0x9dcf28: LoadField: r5 = r1->field_23
@@ -1768,7 +1768,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     //     0x9dd058: add             x3, x3, HEAP, lsl #32
     // 0x9dd05c: stur            x3, [fp, #-0xd8]
     // 0x9dd060: r1 = Function '<anonymous closure>':.
-    //     0x9dd060: add             x1, PP, #0x57, lsl #12  ; [pp+0x578c8] AnonymousClosure: (0x9ddf1c), in [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::submitReply (0x9dce7c)
+    //     0x9dd060: add             x1, PP, #0x57, lsl #12  ; [pp+0x578c8] AnonymousClosure: (0x9ddf1c), in [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::submitReply (0x9dce7c)
     //     0x9dd064: ldr             x1, [x1, #0x8c8]
     // 0x9dd068: r2 = Null
     //     0x9dd068: mov             x2, NULL
@@ -1798,7 +1798,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9dd0b4: r3 = 1
     //     0x9dd0b4: mov             x3, #1
     // 0x9dd0b8: r0 = _adjustReplyCount()
-    //     0x9dd0b8: bl              #0x9ddbdc  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_adjustReplyCount
+    //     0x9dd0b8: bl              #0x9ddbdc  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_adjustReplyCount
     // 0x9dd0bc: ldur            x1, [fp, #-0xc0]
     // 0x9dd0c0: r0 = notifyListeners()
     //     0x9dd0c0: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -1814,7 +1814,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9dd0e0: ldur            x6, [fp, #-0xf0]
     // 0x9dd0e4: stur            x4, [fp, #-0xe8]
     // 0x9dd0e8: r0 = createReply()
-    //     0x9dd0e8: bl              #0x9dd37c  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::createReply
+    //     0x9dd0e8: bl              #0x9dd37c  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::createReply
     // 0x9dd0ec: mov             x1, x0
     // 0x9dd0f0: r17 = -272
     //     0x9dd0f0: mov             x17, #-0x110
@@ -1827,7 +1827,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9dd108: mov             x5, x0
     // 0x9dd10c: stur            x0, [fp, #-0x100]
     // 0x9dd110: r0 = _replaceReply()
-    //     0x9dd110: bl              #0x9dd230  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_replaceReply
+    //     0x9dd110: bl              #0x9dd230  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_replaceReply
     // 0x9dd114: b               #0x9dd1ec
     // 0x9dd118: sub             SP, fp, #0x128
     // 0x9dd11c: ldur            x3, [fp, #-0xd8]
@@ -1858,7 +1858,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     //     0x9dd16c: mov             x17, #-0x108
     // 0x9dd170: ldr             x2, [fp, x17]
     // 0x9dd174: r1 = Function '<anonymous closure>':.
-    //     0x9dd174: add             x1, PP, #0x57, lsl #12  ; [pp+0x578d0] AnonymousClosure: static (0x759154), in [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createShot (0x74e04c)
+    //     0x9dd174: add             x1, PP, #0x57, lsl #12  ; [pp+0x578d0] AnonymousClosure: static (0x759154), in [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createShot (0x74e04c)
     //     0x9dd178: ldr             x1, [x1, #0x8d0]
     // 0x9dd17c: r0 = AllocateClosure()
     //     0x9dd17c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1881,7 +1881,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9dd1b8: r3 = -1
     //     0x9dd1b8: mov             x3, #-1
     // 0x9dd1bc: r0 = _adjustReplyCount()
-    //     0x9dd1bc: bl              #0x9ddbdc  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_adjustReplyCount
+    //     0x9dd1bc: bl              #0x9ddbdc  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_adjustReplyCount
     // 0x9dd1c0: ldur            x1, [fp, #-0xe0]
     // 0x9dd1c4: r0 = 60
     //     0x9dd1c4: mov             x0, #0x3c
@@ -1981,7 +1981,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     //     0x9dd2c8: ret             
     // 0x9dd2cc: ldur            x2, [fp, #-0x28]
     // 0x9dd2d0: r1 = Function '<anonymous closure>':.
-    //     0x9dd2d0: add             x1, PP, #0x57, lsl #12  ; [pp+0x578e0] AnonymousClosure: (0x71e360), in [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage (0x71e3c8)
+    //     0x9dd2d0: add             x1, PP, #0x57, lsl #12  ; [pp+0x578e0] AnonymousClosure: (0x71e360), in [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage (0x71e3c8)
     //     0x9dd2d4: ldr             x1, [x1, #0x8e0]
     // 0x9dd2d8: r0 = AllocateClosure()
     //     0x9dd2d8: bl              #0xe553e0  ; AllocateClosureStub
@@ -2070,7 +2070,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9ddc20: mov             x2, x1
     // 0x9ddc24: stur            x3, [fp, #-0x10]
     // 0x9ddc28: r1 = Function '<anonymous closure>':.
-    //     0x9ddc28: add             x1, PP, #0x57, lsl #12  ; [pp+0x578f0] AnonymousClosure: (0x71e360), in [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage (0x71e3c8)
+    //     0x9ddc28: add             x1, PP, #0x57, lsl #12  ; [pp+0x578f0] AnonymousClosure: (0x71e360), in [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage (0x71e3c8)
     //     0x9ddc2c: ldr             x1, [x1, #0x8f0]
     // 0x9ddc30: r0 = AllocateClosure()
     //     0x9ddc30: bl              #0xe553e0  ; AllocateClosureStub
@@ -2177,7 +2177,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     //     0x9ddd50: add             x4, PP, #0x57, lsl #12  ; [pp+0x578f8] List(7) [0, 0x2, 0x1, 0x1, "replyCount", 0x1, Null]
     //     0x9ddd54: ldr             x4, [x4, #0x8f8]
     // 0x9ddd58: r0 = copyWith()
-    //     0x9ddd58: bl              #0x9d8528  ; [package:ballai/automatic/models/core/comment/workout_comment_model.dart] WorkoutCommentModel::copyWith
+    //     0x9ddd58: bl              #0x9d8528  ; [package:kourtai/automatic/models/core/comment/workout_comment_model.dart] WorkoutCommentModel::copyWith
     // 0x9ddd5c: mov             x4, x0
     // 0x9ddd60: ldur            x3, [fp, #-0x10]
     // 0x9ddd64: stur            x4, [fp, #-8]
@@ -2349,7 +2349,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     //     0x9de1f0: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x9de1f4: ldur            x2, [fp, #-0xa0]
     // 0x9de1f8: r1 = Function '<anonymous closure>':.
-    //     0x9de1f8: add             x1, PP, #0x57, lsl #12  ; [pp+0x57928] AnonymousClosure: static (0x759154), in [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createShot (0x74e04c)
+    //     0x9de1f8: add             x1, PP, #0x57, lsl #12  ; [pp+0x57928] AnonymousClosure: static (0x759154), in [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createShot (0x74e04c)
     //     0x9de1fc: ldr             x1, [x1, #0x928]
     // 0x9de200: r0 = AllocateClosure()
     //     0x9de200: bl              #0xe553e0  ; AllocateClosureStub
@@ -2392,11 +2392,11 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     //     0x9de26c: add             x4, PP, #0x27, lsl #12  ; [pp+0x27108] List(7) [0, 0x2, 0x1, 0x1, "text", 0x1, Null]
     //     0x9de270: ldr             x4, [x4, #0x108]
     // 0x9de274: r0 = copyWith()
-    //     0x9de274: bl              #0x9dd60c  ; [package:ballai/automatic/models/core/comment/workout_comment_reply_model.dart] WorkoutCommentReplyModel::copyWith
+    //     0x9de274: bl              #0x9dd60c  ; [package:kourtai/automatic/models/core/comment/workout_comment_reply_model.dart] WorkoutCommentReplyModel::copyWith
     // 0x9de278: ldur            x1, [fp, #-0xa8]
     // 0x9de27c: mov             x2, x0
     // 0x9de280: r0 = updateReply()
-    //     0x9de280: bl              #0x9de32c  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::updateReply
+    //     0x9de280: bl              #0x9de32c  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::updateReply
     // 0x9de284: mov             x1, x0
     // 0x9de288: stur            x1, [fp, #-0xa8]
     // 0x9de28c: r0 = Await()
@@ -2492,7 +2492,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     //     0x9de518: add             x2, x2, HEAP, lsl #32
     // 0x9de51c: ldur            x1, [fp, #-0x88]
     // 0x9de520: r0 = canCurrentUserDelete()
-    //     0x9de520: bl              #0x9dca4c  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::canCurrentUserDelete
+    //     0x9de520: bl              #0x9dca4c  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::canCurrentUserDelete
     // 0x9de524: tbz             w0, #4, #0x9de530
     // 0x9de528: r0 = Null
     //     0x9de528: mov             x0, NULL
@@ -2537,7 +2537,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     //     0x9de590: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x9de594: ldur            x2, [fp, #-0x98]
     // 0x9de598: r1 = Function '<anonymous closure>':.
-    //     0x9de598: add             x1, PP, #0x57, lsl #12  ; [pp+0x57930] AnonymousClosure: static (0x759154), in [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createShot (0x74e04c)
+    //     0x9de598: add             x1, PP, #0x57, lsl #12  ; [pp+0x57930] AnonymousClosure: static (0x759154), in [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createShot (0x74e04c)
     //     0x9de59c: ldr             x1, [x1, #0x930]
     // 0x9de5a0: r0 = AllocateClosure()
     //     0x9de5a0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2591,7 +2591,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9de634: r3 = -1
     //     0x9de634: mov             x3, #-1
     // 0x9de638: r0 = _adjustReplyCount()
-    //     0x9de638: bl              #0x9ddbdc  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_adjustReplyCount
+    //     0x9de638: bl              #0x9ddbdc  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_adjustReplyCount
     // 0x9de63c: ldur            x1, [fp, #-0x88]
     // 0x9de640: r0 = notifyListeners()
     //     0x9de640: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -2602,7 +2602,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     //     0x9de64c: add             x1, x1, HEAP, lsl #32
     // 0x9de650: ldur            x2, [fp, #-0xa8]
     // 0x9de654: r0 = deleteReply()
-    //     0x9de654: bl              #0x9de70c  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::deleteReply
+    //     0x9de654: bl              #0x9de70c  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::deleteReply
     // 0x9de658: mov             x1, x0
     // 0x9de65c: stur            x1, [fp, #-0xb0]
     // 0x9de660: r0 = Await()
@@ -2638,7 +2638,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9de6bc: r3 = 1
     //     0x9de6bc: mov             x3, #1
     // 0x9de6c0: r0 = _adjustReplyCount()
-    //     0x9de6c0: bl              #0x9ddbdc  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_adjustReplyCount
+    //     0x9de6c0: bl              #0x9ddbdc  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_adjustReplyCount
     // 0x9de6c4: ldur            x0, [fp, #-0xb0]
     // 0x9de6c8: r1 = 60
     //     0x9de6c8: mov             x1, #0x3c
@@ -2703,14 +2703,14 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9df28c: ldur            x1, [fp, #-0x10]
     // 0x9df290: stur            x0, [fp, #-0x20]
     // 0x9df294: r0 = effectiveLikeCountForComment()
-    //     0x9df294: bl              #0x9dc8d8  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::effectiveLikeCountForComment
+    //     0x9df294: bl              #0x9dc8d8  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::effectiveLikeCountForComment
     // 0x9df298: ldur            x1, [fp, #-0x10]
     // 0x9df29c: ldur            x2, [fp, #-0x20]
     // 0x9df2a0: ldur            x3, [fp, #-0x30]
     // 0x9df2a4: mov             x5, x0
     // 0x9df2a8: ldur            x6, [fp, #-0x28]
     // 0x9df2ac: r0 = _toggleLike()
-    //     0x9df2ac: bl              #0x9df2cc  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_toggleLike
+    //     0x9df2ac: bl              #0x9df2cc  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_toggleLike
     // 0x9df2b0: mov             x1, x0
     // 0x9df2b4: stur            x1, [fp, #-0x10]
     // 0x9df2b8: r0 = Await()
@@ -2768,7 +2768,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9df344: ldur            x1, [fp, #-0xc8]
     // 0x9df348: ldur            x2, [fp, #-0xd8]
     // 0x9df34c: r0 = isCommentLiked()
-    //     0x9df34c: bl              #0x9dc9b8  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::isCommentLiked
+    //     0x9df34c: bl              #0x9dc9b8  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::isCommentLiked
     // 0x9df350: eor             x4, x0, #0x10
     // 0x9df354: stur            x4, [fp, #-0xf8]
     // 0x9df358: tbnz            w4, #4, #0x9df364
@@ -2860,7 +2860,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9df44c: mov             x7, x9
     // 0x9df450: stur            x9, [fp, #-0xf8]
     // 0x9df454: r0 = like()
-    //     0x9df454: bl              #0x9df978  ; [package:ballai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::like
+    //     0x9df454: bl              #0x9df978  ; [package:kourtai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::like
     // 0x9df458: mov             x1, x0
     // 0x9df45c: r17 = -296
     //     0x9df45c: mov             x17, #-0x128
@@ -2875,7 +2875,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     //     0x9df474: add             x1, x1, HEAP, lsl #32
     // 0x9df478: ldur            x2, [fp, #-0xd8]
     // 0x9df47c: r0 = unlike()
-    //     0x9df47c: bl              #0x9df898  ; [package:ballai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::unlike
+    //     0x9df47c: bl              #0x9df898  ; [package:kourtai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::unlike
     // 0x9df480: mov             x1, x0
     // 0x9df484: stur            x1, [fp, #-0xd0]
     // 0x9df488: r0 = Await()
@@ -2891,7 +2891,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9df4a4: ldur            x2, [fp, #-0xd8]
     // 0x9df4a8: ldur            x3, [fp, #-0xe8]
     // 0x9df4ac: r0 = _applyLocalLikeCount()
-    //     0x9df4ac: bl              #0x9df588  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_applyLocalLikeCount
+    //     0x9df4ac: bl              #0x9df588  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_applyLocalLikeCount
     // 0x9df4b0: ldur            x1, [fp, #-0x100]
     // 0x9df4b4: ldur            x2, [fp, #-0xd8]
     // 0x9df4b8: r0 = remove()
@@ -3029,7 +3029,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     //     0x9df630: ret             
     // 0x9df634: ldur            x2, [fp, #-0x28]
     // 0x9df638: r1 = Function '<anonymous closure>':.
-    //     0x9df638: add             x1, PP, #0x57, lsl #12  ; [pp+0x57970] AnonymousClosure: (0x71e360), in [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage (0x71e3c8)
+    //     0x9df638: add             x1, PP, #0x57, lsl #12  ; [pp+0x57970] AnonymousClosure: (0x71e360), in [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage (0x71e3c8)
     //     0x9df63c: ldr             x1, [x1, #0x970]
     // 0x9df640: r0 = AllocateClosure()
     //     0x9df640: bl              #0xe553e0  ; AllocateClosureStub
@@ -3090,7 +3090,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     //     0x9df6f0: add             x4, PP, #0x57, lsl #12  ; [pp+0x57978] List(7) [0, 0x2, 0x1, 0x1, "likeCount", 0x1, Null]
     //     0x9df6f4: ldr             x4, [x4, #0x978]
     // 0x9df6f8: r0 = copyWith()
-    //     0x9df6f8: bl              #0x9dd60c  ; [package:ballai/automatic/models/core/comment/workout_comment_reply_model.dart] WorkoutCommentReplyModel::copyWith
+    //     0x9df6f8: bl              #0x9dd60c  ; [package:kourtai/automatic/models/core/comment/workout_comment_reply_model.dart] WorkoutCommentReplyModel::copyWith
     // 0x9df6fc: mov             x1, x0
     // 0x9df700: ldur            x0, [fp, #-0x10]
     // 0x9df704: r2 = LoadClassIdInstr(r0)
@@ -3121,7 +3121,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9df74c: ldur            x2, [fp, #-0x28]
     // 0x9df750: stur            x4, [fp, #-0x10]
     // 0x9df754: r1 = Function '<anonymous closure>':.
-    //     0x9df754: add             x1, PP, #0x57, lsl #12  ; [pp+0x57980] AnonymousClosure: (0x71e360), in [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage (0x71e3c8)
+    //     0x9df754: add             x1, PP, #0x57, lsl #12  ; [pp+0x57980] AnonymousClosure: (0x71e360), in [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage (0x71e3c8)
     //     0x9df758: ldr             x1, [x1, #0x980]
     // 0x9df75c: r0 = AllocateClosure()
     //     0x9df75c: bl              #0xe553e0  ; AllocateClosureStub
@@ -3172,7 +3172,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     //     0x9df7dc: add             x4, PP, #0x57, lsl #12  ; [pp+0x57978] List(7) [0, 0x2, 0x1, 0x1, "likeCount", 0x1, Null]
     //     0x9df7e0: ldr             x4, [x4, #0x978]
     // 0x9df7e4: r0 = copyWith()
-    //     0x9df7e4: bl              #0x9d8528  ; [package:ballai/automatic/models/core/comment/workout_comment_model.dart] WorkoutCommentModel::copyWith
+    //     0x9df7e4: bl              #0x9d8528  ; [package:kourtai/automatic/models/core/comment/workout_comment_model.dart] WorkoutCommentModel::copyWith
     // 0x9df7e8: mov             x4, x0
     // 0x9df7ec: ldur            x3, [fp, #-0x10]
     // 0x9df7f0: stur            x4, [fp, #-8]
@@ -3293,7 +3293,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9dfd4c: ldur            x1, [fp, #-0x10]
     // 0x9dfd50: ldur            x2, [fp, #-0x20]
     // 0x9dfd54: r0 = _loadRepliesIfNeeded()
-    //     0x9dfd54: bl              #0x9dfd74  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_loadRepliesIfNeeded
+    //     0x9dfd54: bl              #0x9dfd74  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_loadRepliesIfNeeded
     // 0x9dfd58: mov             x1, x0
     // 0x9dfd5c: stur            x1, [fp, #-0x10]
     // 0x9dfd60: r0 = Await()
@@ -3359,7 +3359,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     //     0x9dfdf4: add             x1, x1, HEAP, lsl #32
     // 0x9dfdf8: ldur            x2, [fp, #-0x70]
     // 0x9dfdfc: r0 = fetchRepliesPage()
-    //     0x9dfdfc: bl              #0x9dff2c  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::fetchRepliesPage
+    //     0x9dfdfc: bl              #0x9dff2c  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::fetchRepliesPage
     // 0x9dfe00: mov             x1, x0
     // 0x9dfe04: stur            x1, [fp, #-0x88]
     // 0x9dfe08: r0 = Await()
@@ -3410,7 +3410,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9dfe7c: ldur            x1, [fp, #-0x68]
     // 0x9dfe80: mov             x2, x0
     // 0x9dfe84: r0 = _loadUsersIfNeeded()
-    //     0x9dfe84: bl              #0x9d99ac  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_loadUsersIfNeeded
+    //     0x9dfe84: bl              #0x9d99ac  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_loadUsersIfNeeded
     // 0x9dfe88: mov             x1, x0
     // 0x9dfe8c: stur            x1, [fp, #-0x78]
     // 0x9dfe90: r0 = Await()
@@ -3516,7 +3516,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9e0c6c: ldur            x2, [fp, #-0x98]
     // 0x9e0c70: stur            x4, [fp, #-0x88]
     // 0x9e0c74: r1 = Function '<anonymous closure>':.
-    //     0x9e0c74: add             x1, PP, #0x57, lsl #12  ; [pp+0x57a68] AnonymousClosure: static (0x759154), in [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createShot (0x74e04c)
+    //     0x9e0c74: add             x1, PP, #0x57, lsl #12  ; [pp+0x57a68] AnonymousClosure: static (0x759154), in [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createShot (0x74e04c)
     //     0x9e0c78: ldr             x1, [x1, #0xa68]
     // 0x9e0c7c: r0 = AllocateClosure()
     //     0x9e0c7c: bl              #0xe553e0  ; AllocateClosureStub
@@ -3550,11 +3550,11 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     //     0x9e0cc8: add             x4, PP, #0x27, lsl #12  ; [pp+0x27108] List(7) [0, 0x2, 0x1, 0x1, "text", 0x1, Null]
     //     0x9e0ccc: ldr             x4, [x4, #0x108]
     // 0x9e0cd0: r0 = copyWith()
-    //     0x9e0cd0: bl              #0x9d8528  ; [package:ballai/automatic/models/core/comment/workout_comment_model.dart] WorkoutCommentModel::copyWith
+    //     0x9e0cd0: bl              #0x9d8528  ; [package:kourtai/automatic/models/core/comment/workout_comment_model.dart] WorkoutCommentModel::copyWith
     // 0x9e0cd4: ldur            x1, [fp, #-0xa0]
     // 0x9e0cd8: mov             x2, x0
     // 0x9e0cdc: r0 = updateComment()
-    //     0x9e0cdc: bl              #0x9e0dd8  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::updateComment
+    //     0x9e0cdc: bl              #0x9e0dd8  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::updateComment
     // 0x9e0ce0: mov             x1, x0
     // 0x9e0ce4: stur            x1, [fp, #-0xa0]
     // 0x9e0ce8: r0 = Await()
@@ -3681,7 +3681,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     //     0x9e0fc4: add             x2, x2, HEAP, lsl #32
     // 0x9e0fc8: ldur            x1, [fp, #-0xa0]
     // 0x9e0fcc: r0 = canCurrentUserDelete()
-    //     0x9e0fcc: bl              #0x9dca4c  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::canCurrentUserDelete
+    //     0x9e0fcc: bl              #0x9dca4c  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::canCurrentUserDelete
     // 0x9e0fd0: tbz             w0, #4, #0x9e0fdc
     // 0x9e0fd4: r0 = Null
     //     0x9e0fd4: mov             x0, NULL
@@ -3695,7 +3695,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9e0fe8: ldur            x2, [fp, #-0xb0]
     // 0x9e0fec: stur            x3, [fp, #-0xa8]
     // 0x9e0ff0: r1 = Function '<anonymous closure>':.
-    //     0x9e0ff0: add             x1, PP, #0x57, lsl #12  ; [pp+0x57a80] AnonymousClosure: static (0x759154), in [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createShot (0x74e04c)
+    //     0x9e0ff0: add             x1, PP, #0x57, lsl #12  ; [pp+0x57a80] AnonymousClosure: static (0x759154), in [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createShot (0x74e04c)
     //     0x9e0ff4: ldr             x1, [x1, #0xa80]
     // 0x9e0ff8: r0 = AllocateClosure()
     //     0x9e0ff8: bl              #0xe553e0  ; AllocateClosureStub
@@ -3832,7 +3832,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9e1150: DecompressPointer r2
     //     0x9e1150: add             x2, x2, HEAP, lsl #32
     // 0x9e1154: r0 = deleteComment()
-    //     0x9e1154: bl              #0x9e1218  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::deleteComment
+    //     0x9e1154: bl              #0x9e1218  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::deleteComment
     // 0x9e1158: mov             x1, x0
     // 0x9e115c: stur            x1, [fp, #-0xe0]
     // 0x9e1160: r0 = Await()
@@ -3931,7 +3931,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9e1830: ldur            x1, [fp, #-0x10]
     // 0x9e1834: stur            x0, [fp, #-0x20]
     // 0x9e1838: r0 = effectiveLikeCountForComment()
-    //     0x9e1838: bl              #0x9dc8d8  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::effectiveLikeCountForComment
+    //     0x9e1838: bl              #0x9dc8d8  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::effectiveLikeCountForComment
     // 0x9e183c: ldur            x1, [fp, #-0x10]
     // 0x9e1840: ldur            x2, [fp, #-0x20]
     // 0x9e1844: ldur            x3, [fp, #-0x28]
@@ -3939,7 +3939,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0x9e184c: r6 = Null
     //     0x9e184c: mov             x6, NULL
     // 0x9e1850: r0 = _toggleLike()
-    //     0x9e1850: bl              #0x9df2cc  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_toggleLike
+    //     0x9e1850: bl              #0x9df2cc  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_toggleLike
     // 0x9e1854: mov             x1, x0
     // 0x9e1858: stur            x1, [fp, #-0x10]
     // 0x9e185c: r0 = Await()
@@ -3984,7 +3984,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0xbb6624: StoreField: r1->field_67 = r0
     //     0xbb6624: stur            w0, [x1, #0x67]
     // 0xbb6628: r0 = loadFirstPage()
-    //     0xbb6628: bl              #0xbb6648  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::loadFirstPage
+    //     0xbb6628: bl              #0xbb6648  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::loadFirstPage
     // 0xbb662c: mov             x1, x0
     // 0xbb6630: stur            x1, [fp, #-0x10]
     // 0xbb6634: r0 = Await()
@@ -4038,7 +4038,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0xbb66a8: r4 = const [0, 0x2, 0, 0x2, null]
     //     0xbb66a8: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0xbb66ac: r0 = fetchCommentsPage()
-    //     0xbb66ac: bl              #0x9d9e90  ; [package:ballai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::fetchCommentsPage
+    //     0xbb66ac: bl              #0x9d9e90  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_comment_manager.dart] WorkoutCommentManager::fetchCommentsPage
     // 0xbb66b0: mov             x1, x0
     // 0xbb66b4: stur            x1, [fp, #-0x90]
     // 0xbb66b8: r0 = Await()
@@ -4121,7 +4121,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     // 0xbb678c: ldur            x1, [fp, #-0x78]
     // 0xbb6790: mov             x2, x0
     // 0xbb6794: r0 = _loadUsersIfNeeded()
-    //     0xbb6794: bl              #0x9d99ac  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_loadUsersIfNeeded
+    //     0xbb6794: bl              #0x9d99ac  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::_loadUsersIfNeeded
     // 0xbb6798: mov             x1, x0
     // 0xbb679c: stur            x1, [fp, #-0x88]
     // 0xbb67a0: r0 = Await()
@@ -4510,7 +4510,7 @@ class WorkoutCommentsSheetViewModel extends ChangeNotifier {
     //     0xbb6bf4: bl              #0xda3398  ; [dart:_compact_hash] __Map&_HashVMBase&MapMixin&_HashBase&_OperatorEqualsAndHashCode&_LinkedHashMapMixin::[]=
     // 0xbb6bf8: ldur            x2, [fp, #-8]
     // 0xbb6bfc: r1 = Function '_onLikeStateChanged@957324816':.
-    //     0xbb6bfc: add             x1, PP, #0x53, lsl #12  ; [pp+0x53e80] AnonymousClosure: (0x955ca0), of [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel
+    //     0xbb6bfc: add             x1, PP, #0x53, lsl #12  ; [pp+0x53e80] AnonymousClosure: (0x955ca0), of [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel
     //     0xbb6c00: ldr             x1, [x1, #0xe80]
     // 0xbb6c04: r0 = AllocateClosure()
     //     0xbb6c04: bl              #0xe553e0  ; AllocateClosureStub

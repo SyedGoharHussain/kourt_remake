@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart
+// lib: , url: package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart
 
 // class id: 1049210, size: 0x8
 class :: {
@@ -52,7 +52,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0x992244: b.eq            #0x99224c
     //     0x992248: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0x99224c: r0 = _refresh()
-    //     0x99224c: bl              #0x99229c  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_refresh
+    //     0x99224c: bl              #0x99229c  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_refresh
     // 0x992250: r0 = Null
     //     0x992250: mov             x0, NULL
     // 0x992254: LeaveFrame
@@ -110,7 +110,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0x9922f4: add             x2, x2, HEAP, lsl #32
     // 0x9922f8: mov             x1, x2
     // 0x9922fc: r0 = resolvedGoalTypes()
-    //     0x9922fc: bl              #0x992c9c  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::resolvedGoalTypes
+    //     0x9922fc: bl              #0x992c9c  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::resolvedGoalTypes
     // 0x992300: mov             x1, x0
     // 0x992304: stur            x1, [fp, #-0x20]
     // 0x992308: r0 = Await()
@@ -154,7 +154,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0x992374: add             x3, x3, HEAP, lsl #32
     // 0x992378: mov             x1, x3
     // 0x99237c: r0 = resolvedSelectedGoalTypeName()
-    //     0x99237c: bl              #0x9083d4  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::resolvedSelectedGoalTypeName
+    //     0x99237c: bl              #0x9083d4  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::resolvedSelectedGoalTypeName
     // 0x992380: mov             x1, x0
     // 0x992384: stur            x1, [fp, #-0x20]
     // 0x992388: r0 = Await()
@@ -187,7 +187,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0x9923dc: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x9923e0: mov             x2, x3
     // 0x9923e4: r1 = Function '<anonymous closure>':.
-    //     0x9923e4: add             x1, PP, #0x35, lsl #12  ; [pp+0x35298] AnonymousClosure: (0x992e68), in [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_refresh (0x99229c)
+    //     0x9923e4: add             x1, PP, #0x35, lsl #12  ; [pp+0x35298] AnonymousClosure: (0x992e68), in [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_refresh (0x99229c)
     //     0x9923e8: ldr             x1, [x1, #0x298]
     // 0x9923ec: r0 = AllocateClosure()
     //     0x9923ec: bl              #0xe553e0  ; AllocateClosureStub
@@ -198,7 +198,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0x9923fc: ldur            x1, [fp, #-0x10]
     // 0x992400: ldur            x2, [fp, #-0x20]
     // 0x992404: r0 = _initializeFromCurrent()
-    //     0x992404: bl              #0x99242c  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_initializeFromCurrent
+    //     0x992404: bl              #0x99242c  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_initializeFromCurrent
     // 0x992408: mov             x1, x0
     // 0x99240c: stur            x1, [fp, #-0x10]
     // 0x992410: r0 = Await()
@@ -265,7 +265,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0x9924a4: mov             x1, x2
     // 0x9924a8: mov             x2, x16
     // 0x9924ac: r0 = resolvedGoalType()
-    //     0x9924ac: bl              #0x906aa0  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::resolvedGoalType
+    //     0x9924ac: bl              #0x906aa0  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::resolvedGoalType
     // 0x9924b0: mov             x1, x0
     // 0x9924b4: stur            x1, [fp, #-0x18]
     // 0x9924b8: r0 = Await()
@@ -274,7 +274,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0x9924c0: b.ne            #0x9924d4
     // 0x9924c4: ldur            x1, [fp, #-0x10]
     // 0x9924c8: r0 = _selectedGoalTemplate()
-    //     0x9924c8: bl              #0x992674  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_selectedGoalTemplate
+    //     0x9924c8: bl              #0x992674  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_selectedGoalTemplate
     // 0x9924cc: mov             x1, x0
     // 0x9924d0: b               #0x9924d8
     // 0x9924d4: mov             x1, x0
@@ -315,7 +315,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0x992540: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x992544: mov             x2, x4
     // 0x992548: r1 = Function '<anonymous closure>':.
-    //     0x992548: add             x1, PP, #0x35, lsl #12  ; [pp+0x35230] AnonymousClosure: (0x9927c0), in [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_initializeFromCurrent (0x99242c)
+    //     0x992548: add             x1, PP, #0x35, lsl #12  ; [pp+0x35230] AnonymousClosure: (0x9927c0), in [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_initializeFromCurrent (0x99242c)
     //     0x99254c: ldr             x1, [x1, #0x230]
     // 0x992550: r0 = AllocateClosure()
     //     0x992550: bl              #0xe553e0  ; AllocateClosureStub
@@ -324,7 +324,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0x99255c: r0 = setState()
     //     0x99255c: bl              #0x6005d4  ; [package:flutter/src/widgets/framework.dart] State::setState
     // 0x992560: r0 = userHasActiveSubscription()
-    //     0x992560: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0x992560: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0x992564: tbnz            w0, #4, #0x9925f8
     // 0x992568: ldur            x0, [fp, #-0x10]
     // 0x99256c: ldur            x3, [fp, #-0x20]
@@ -347,7 +347,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0x992594: DecompressPointer r2
     //     0x992594: add             x2, x2, HEAP, lsl #32
     // 0x992598: r0 = hasUserOverride()
-    //     0x992598: bl              #0x992610  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::hasUserOverride
+    //     0x992598: bl              #0x992610  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::hasUserOverride
     // 0x99259c: mov             x1, x0
     // 0x9925a0: stur            x1, [fp, #-0x18]
     // 0x9925a4: r0 = Await()
@@ -370,7 +370,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0x9925d8: cmp             w1, NULL
     // 0x9925dc: b.eq            #0x9925f8
     // 0x9925e0: r1 = Function '<anonymous closure>':.
-    //     0x9925e0: add             x1, PP, #0x35, lsl #12  ; [pp+0x35238] AnonymousClosure: (0x99279c), in [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_initializeFromCurrent (0x99242c)
+    //     0x9925e0: add             x1, PP, #0x35, lsl #12  ; [pp+0x35238] AnonymousClosure: (0x99279c), in [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_initializeFromCurrent (0x99242c)
     //     0x9925e4: ldr             x1, [x1, #0x238]
     // 0x9925e8: r0 = AllocateClosure()
     //     0x9925e8: bl              #0xe553e0  ; AllocateClosureStub
@@ -794,7 +794,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0x992ad0: b.eq            #0x992b28
     // 0x992ad4: stur            x3, [fp, #-0x10]
     // 0x992ad8: r0 = recordFormatGoalNumber()
-    //     0x992ad8: bl              #0x992b34  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordFormatGoalNumber
+    //     0x992ad8: bl              #0x992b34  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordFormatGoalNumber
     // 0x992adc: ldur            x1, [fp, #-0x10]
     // 0x992ae0: mov             x2, x0
     // 0x992ae4: r0 = text=()
@@ -909,7 +909,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xabdf08: stur            w0, [x2, #0xf]
     // 0xabdf0c: mov             x1, x0
     // 0xabdf10: r0 = _drillDefault()
-    //     0xabdf10: bl              #0xac0de8  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_drillDefault
+    //     0xabdf10: bl              #0xac0de8  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_drillDefault
     // 0xabdf14: ldur            x1, [fp, #-8]
     // 0xabdf18: stur            x0, [fp, #-0x20]
     // 0xabdf1c: r0 = build()
@@ -980,8 +980,8 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xabdfc8: add             x0, x0, HEAP, lsl #32
     // 0xabdfcc: ldur            x1, [fp, #-0x10]
     // 0xabdfd0: stur            x0, [fp, #-0x38]
-    // 0xabdfd4: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xabdfd4: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xabdfd4: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xabdfd4: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xabdfd8: stur            x0, [fp, #-0x10]
     // 0xabdfdc: r0 = TextStyle()
     //     0xabdfdc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1032,7 +1032,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xabe054: DecompressPointer r1
     //     0xabe054: add             x1, x1, HEAP, lsl #32
     // 0xabe058: r0 = recordGoalColor()
-    //     0xabe058: bl              #0xac0cbc  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
+    //     0xabe058: bl              #0xac0cbc  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
     // 0xabe05c: stur            x0, [fp, #-0x28]
     // 0xabe060: r0 = Icon()
     //     0xabe060: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -1048,7 +1048,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xabe07c: stur            w0, [x3, #0x23]
     // 0xabe080: ldur            x2, [fp, #-0x18]
     // 0xabe084: r1 = Function '<anonymous closure>':.
-    //     0xabe084: add             x1, PP, #0x35, lsl #12  ; [pp+0x35030] AnonymousClosure: (0xac1d64), in [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::build (0xabdecc)
+    //     0xabe084: add             x1, PP, #0x35, lsl #12  ; [pp+0x35030] AnonymousClosure: (0xac1d64), in [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::build (0xabdecc)
     //     0xabe088: ldr             x1, [x1, #0x30]
     // 0xabe08c: r0 = AllocateClosure()
     //     0xabe08c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1165,7 +1165,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xabe1c4: b               #0xabe9fc
     // 0xabe1c8: mov             x1, x0
     // 0xabe1cc: r0 = _buildGoalTypePicker()
-    //     0xabe1cc: bl              #0xac02bc  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildGoalTypePicker
+    //     0xabe1cc: bl              #0xac02bc  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildGoalTypePicker
     // 0xabe1d0: r1 = Null
     //     0xabe1d0: mov             x1, NULL
     // 0xabe1d4: r2 = 2
@@ -1193,13 +1193,13 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xabe20c: stur            w0, [x2, #0xb]
     // 0xabe210: ldur            x1, [fp, #-8]
     // 0xabe214: r0 = _isGoalLocked()
-    //     0xabe214: bl              #0xac025c  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_isGoalLocked
+    //     0xabe214: bl              #0xac025c  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_isGoalLocked
     // 0xabe218: tbnz            w0, #4, #0xabe2f8
     // 0xabe21c: r1 = "Goal is fixed for this drill."
     //     0xabe21c: add             x1, PP, #0x29, lsl #12  ; [pp+0x29ec0] "Goal is fixed for this drill."
     //     0xabe220: ldr             x1, [x1, #0xec0]
     // 0xabe224: r0 = L()
-    //     0xabe224: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xabe224: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xabe228: r1 = _ConstMap len:12
     //     0xabe228: ldr             x1, [PP, #0x5428]  ; [pp+0x5428] Map<int, Color>(12)
     // 0xabe22c: r2 = 1200
@@ -1320,7 +1320,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xabe358: tbnz            w0, #4, #0xabe3b8
     // 0xabe35c: ldur            x1, [fp, #-8]
     // 0xabe360: r0 = _buildTimeControls()
-    //     0xabe360: bl              #0xabf728  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildTimeControls
+    //     0xabe360: bl              #0xabf728  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildTimeControls
     // 0xabe364: r1 = Null
     //     0xabe364: mov             x1, NULL
     // 0xabe368: r2 = 4
@@ -1373,7 +1373,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xabe3e8: tbz             w0, #4, #0xabe444
     // 0xabe3ec: ldur            x1, [fp, #-8]
     // 0xabe3f0: r0 = _buildNumericControls()
-    //     0xabe3f0: bl              #0xabed44  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildNumericControls
+    //     0xabe3f0: bl              #0xabed44  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildNumericControls
     // 0xabe3f4: r1 = Null
     //     0xabe3f4: mov             x1, NULL
     // 0xabe3f8: r2 = 4
@@ -1425,7 +1425,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xabe474: tbz             w0, #4, #0xabe4d0
     // 0xabe478: ldur            x1, [fp, #-8]
     // 0xabe47c: r0 = _buildDropDeadToggle()
-    //     0xabe47c: bl              #0xabeb14  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildDropDeadToggle
+    //     0xabe47c: bl              #0xabeb14  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildDropDeadToggle
     // 0xabe480: r1 = Null
     //     0xabe480: mov             x1, NULL
     // 0xabe484: r2 = 4
@@ -1495,7 +1495,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xabe528: stur            w16, [x3, #0xf]
     // 0xabe52c: ldur            x1, [fp, #-8]
     // 0xabe530: r0 = _accent()
-    //     0xabe530: bl              #0xabeadc  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_accent
+    //     0xabe530: bl              #0xabeadc  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_accent
     // 0xabe534: stur            x0, [fp, #-0x40]
     // 0xabe538: r0 = Radius()
     //     0xabe538: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -1552,7 +1552,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xabe5b4: stur            w0, [x3, #0xb]
     // 0xabe5b8: ldur            x2, [fp, #-0x18]
     // 0xabe5bc: r1 = Function '<anonymous closure>':.
-    //     0xabe5bc: add             x1, PP, #0x35, lsl #12  ; [pp+0x35058] AnonymousClosure: (0xac1930), in [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::build (0xabdecc)
+    //     0xabe5bc: add             x1, PP, #0x35, lsl #12  ; [pp+0x35058] AnonymousClosure: (0xac1930), in [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::build (0xabdecc)
     //     0xabe5c0: ldr             x1, [x1, #0x58]
     // 0xabe5c4: r0 = AllocateClosure()
     //     0xabe5c4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1697,7 +1697,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xabe730: ldur            x2, [x1, #7]
     // 0xabe734: ldur            x1, [fp, #-8]
     // 0xabe738: r0 = _suggestedGoalPhrase()
-    //     0xabe738: bl              #0xabea64  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_suggestedGoalPhrase
+    //     0xabe738: bl              #0xabea64  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_suggestedGoalPhrase
     // 0xabe73c: ldur            x1, [fp, #-0x48]
     // 0xabe740: ArrayStore: r1[1] = r0  ; List_4
     //     0xabe740: add             x25, x1, #0x13
@@ -1841,7 +1841,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xabe8b0: stur            w0, [x3, #0x13]
     // 0xabe8b4: ldur            x2, [fp, #-0x18]
     // 0xabe8b8: r1 = Function '<anonymous closure>':.
-    //     0xabe8b8: add             x1, PP, #0x35, lsl #12  ; [pp+0x35070] AnonymousClosure: (0xac1044), in [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::build (0xabdecc)
+    //     0xabe8b8: add             x1, PP, #0x35, lsl #12  ; [pp+0x35070] AnonymousClosure: (0xac1044), in [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::build (0xabdecc)
     //     0xabe8bc: ldr             x1, [x1, #0x70]
     // 0xabe8c0: r0 = AllocateClosure()
     //     0xabe8c0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2055,7 +2055,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xabeabc: stur            w0, [x2, #0xf]
     // 0xabeac0: mov             x1, x2
     // 0xabeac4: r0 = formattedValue()
-    //     0xabeac4: bl              #0x998844  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::formattedValue
+    //     0xabeac4: bl              #0x998844  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::formattedValue
     // 0xabeac8: LeaveFrame
     //     0xabeac8: mov             SP, fp
     //     0xabeacc: ldp             fp, lr, [SP], #0x10
@@ -2080,7 +2080,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xabeaf4: add             x0, x0, HEAP, lsl #32
     // 0xabeaf8: mov             x1, x0
     // 0xabeafc: r0 = recordGoalColor()
-    //     0xabeafc: bl              #0xac0cbc  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
+    //     0xabeafc: bl              #0xac0cbc  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
     // 0xabeb00: LeaveFrame
     //     0xabeb00: mov             SP, fp
     //     0xabeb04: ldp             fp, lr, [SP], #0x10
@@ -2122,7 +2122,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xabeb58: DecompressPointer r1
     //     0xabeb58: add             x1, x1, HEAP, lsl #32
     // 0xabeb5c: r0 = recordGoalColor()
-    //     0xabeb5c: bl              #0xac0cbc  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
+    //     0xabeb5c: bl              #0xac0cbc  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
     // 0xabeb60: mov             x2, x0
     // 0xabeb64: ldur            x0, [fp, #-8]
     // 0xabeb68: stur            x2, [fp, #-0x20]
@@ -2131,7 +2131,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xabeb70: DecompressPointer r1
     //     0xabeb70: add             x1, x1, HEAP, lsl #32
     // 0xabeb74: r0 = recordGoalColor()
-    //     0xabeb74: bl              #0xac0cbc  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
+    //     0xabeb74: bl              #0xac0cbc  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
     // 0xabeb78: r16 = 0.450000
     //     0xabeb78: add             x16, PP, #0x20, lsl #12  ; [pp+0x20e20] 0.45
     //     0xabeb7c: ldr             x16, [x16, #0xe20]
@@ -2150,7 +2150,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xabeba4: DecompressPointer r1
     //     0xabeba4: add             x1, x1, HEAP, lsl #32
     // 0xabeba8: r0 = recordGoalColor()
-    //     0xabeba8: bl              #0xac0cbc  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
+    //     0xabeba8: bl              #0xac0cbc  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
     // 0xabebac: stur            x0, [fp, #-8]
     // 0xabebb0: r0 = TextStyle()
     //     0xabebb0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2189,7 +2189,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xabec08: stur            w0, [x3, #0xb]
     // 0xabec0c: ldur            x2, [fp, #-0x18]
     // 0xabec10: r1 = Function '<anonymous closure>':.
-    //     0xabec10: add             x1, PP, #0x35, lsl #12  ; [pp+0x350a0] AnonymousClosure: (0xabec94), in [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildDropDeadToggle (0xabeb14)
+    //     0xabec10: add             x1, PP, #0x35, lsl #12  ; [pp+0x350a0] AnonymousClosure: (0xabec94), in [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildDropDeadToggle (0xabeb14)
     //     0xabec14: ldr             x1, [x1, #0xa0]
     // 0xabec18: r0 = AllocateClosure()
     //     0xabec18: bl              #0xe553e0  ; AllocateClosureStub
@@ -2273,7 +2273,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xabece0: mov             x2, x1
     // 0xabece4: stur            x3, [fp, #-0x10]
     // 0xabece8: r1 = Function '<anonymous closure>':.
-    //     0xabece8: add             x1, PP, #0x35, lsl #12  ; [pp+0x350b0] AnonymousClosure: (0xabed18), in [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildDropDeadToggle (0xabeb14)
+    //     0xabece8: add             x1, PP, #0x35, lsl #12  ; [pp+0x350b0] AnonymousClosure: (0xabed18), in [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildDropDeadToggle (0xabeb14)
     //     0xabecec: ldr             x1, [x1, #0xb0]
     // 0xabecf0: r0 = AllocateClosure()
     //     0xabecf0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2344,8 +2344,8 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xabed7c: add             x1, x1, HEAP, lsl #32
     // 0xabed80: cmp             w1, NULL
     // 0xabed84: b.eq            #0xabf33c
-    // 0xabed88: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xabed88: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xabed88: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xabed88: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xabed8c: r16 = 0.060000
     //     0xabed8c: add             x16, PP, #0x2b, lsl #12  ; [pp+0x2bfc0] 0.06
     //     0xabed90: ldr             x16, [x16, #0xfc0]
@@ -2386,8 +2386,8 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xabede8: add             x1, x1, HEAP, lsl #32
     // 0xabedec: cmp             w1, NULL
     // 0xabedf0: b.eq            #0xabf340
-    // 0xabedf4: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xabedf4: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xabedf4: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xabedf4: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xabedf8: r16 = 0.280000
     //     0xabedf8: add             x16, PP, #0x2e, lsl #12  ; [pp+0x2e188] 0.28
     //     0xabedfc: ldr             x16, [x16, #0x188]
@@ -2431,8 +2431,8 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xabee60: add             x1, x1, HEAP, lsl #32
     // 0xabee64: cmp             w1, NULL
     // 0xabee68: b.eq            #0xabf344
-    // 0xabee6c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xabee6c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xabee6c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xabee6c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xabee70: stur            x0, [fp, #-0x18]
     // 0xabee74: r0 = TextStyle()
     //     0xabee74: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2577,7 +2577,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xabefc8: stur            w0, [x3, #0x67]
     // 0xabefcc: ldur            x2, [fp, #-0x10]
     // 0xabefd0: r1 = Function '<anonymous closure>':.
-    //     0xabefd0: add             x1, PP, #0x35, lsl #12  ; [pp+0x350d0] AnonymousClosure: (0xabf660), in [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildNumericControls (0xabed44)
+    //     0xabefd0: add             x1, PP, #0x35, lsl #12  ; [pp+0x350d0] AnonymousClosure: (0xabf660), in [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildNumericControls (0xabed44)
     //     0xabefd4: ldr             x1, [x1, #0xd0]
     // 0xabefd8: r0 = AllocateClosure()
     //     0xabefd8: bl              #0xe553e0  ; AllocateClosureStub
@@ -2686,7 +2686,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xabf0e0: DecompressPointer r1
     //     0xabf0e0: add             x1, x1, HEAP, lsl #32
     // 0xabf0e4: r0 = recordGoalColor()
-    //     0xabf0e4: bl              #0xac0cbc  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
+    //     0xabf0e4: bl              #0xac0cbc  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
     // 0xabf0e8: mov             x2, x0
     // 0xabf0ec: ldur            x0, [fp, #-8]
     // 0xabf0f0: stur            x2, [fp, #-0x28]
@@ -2695,7 +2695,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xabf0f8: DecompressPointer r1
     //     0xabf0f8: add             x1, x1, HEAP, lsl #32
     // 0xabf0fc: r0 = recordGoalColor()
-    //     0xabf0fc: bl              #0xac0cbc  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
+    //     0xabf0fc: bl              #0xac0cbc  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
     // 0xabf100: r16 = 0.250000
     //     0xabf100: add             x16, PP, #0xc, lsl #12  ; [pp+0xcbb8] 0.25
     //     0xabf104: ldr             x16, [x16, #0xbb8]
@@ -2714,7 +2714,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xabf12c: DecompressPointer r1
     //     0xabf12c: add             x1, x1, HEAP, lsl #32
     // 0xabf130: r0 = recordGoalColor()
-    //     0xabf130: bl              #0xac0cbc  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
+    //     0xabf130: bl              #0xac0cbc  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
     // 0xabf134: r16 = 0.160000
     //     0xabf134: add             x16, PP, #0x2d, lsl #12  ; [pp+0x2de68] 0.16
     //     0xabf138: ldr             x16, [x16, #0xe68]
@@ -2779,7 +2779,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xabf1e8: LoadField: r1 = r0->field_2b
     //     0xabf1e8: ldur            x1, [x0, #0x2b]
     // 0xabf1ec: r0 = recordFormatGoalNumber()
-    //     0xabf1ec: bl              #0x992b34  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordFormatGoalNumber
+    //     0xabf1ec: bl              #0x992b34  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordFormatGoalNumber
     // 0xabf1f0: mov             x1, x0
     // 0xabf1f4: ldur            x0, [fp, #-0x28]
     // 0xabf1f8: stur            x1, [fp, #-8]
@@ -2794,7 +2794,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xabf210: stur            d0, [x0, #0xb]
     // 0xabf214: ldur            x2, [fp, #-0x10]
     // 0xabf218: r1 = Function '<anonymous closure>':.
-    //     0xabf218: add             x1, PP, #0x35, lsl #12  ; [pp+0x350f8] AnonymousClosure: (0xabf364), in [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildNumericControls (0xabed44)
+    //     0xabf218: add             x1, PP, #0x35, lsl #12  ; [pp+0x350f8] AnonymousClosure: (0xabf364), in [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildNumericControls (0xabed44)
     //     0xabf21c: ldr             x1, [x1, #0xf8]
     // 0xabf220: r0 = AllocateClosure()
     //     0xabf220: bl              #0xe553e0  ; AllocateClosureStub
@@ -2977,7 +2977,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xabf3f4: ldur            x2, [x0, #7]
     // 0xabf3f8: ldur            x1, [fp, #-8]
     // 0xabf3fc: r0 = _setSelectedValue()
-    //     0xabf3fc: bl              #0xabf434  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_setSelectedValue
+    //     0xabf3fc: bl              #0xabf434  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_setSelectedValue
     // 0xabf400: r0 = Null
     //     0xabf400: mov             x0, NULL
     // 0xabf404: LeaveFrame
@@ -3046,7 +3046,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xabf4a8: StoreField: r2->field_13 = r0
     //     0xabf4a8: stur            w0, [x2, #0x13]
     // 0xabf4ac: r1 = Function '<anonymous closure>':.
-    //     0xabf4ac: add             x1, PP, #0x35, lsl #12  ; [pp+0x35118] AnonymousClosure: (0xabf4dc), in [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_setSelectedValue (0xabf434)
+    //     0xabf4ac: add             x1, PP, #0x35, lsl #12  ; [pp+0x35118] AnonymousClosure: (0xabf4dc), in [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_setSelectedValue (0xabf434)
     //     0xabf4b0: ldr             x1, [x1, #0x118]
     // 0xabf4b4: r0 = AllocateClosure()
     //     0xabf4b4: bl              #0xe553e0  ; AllocateClosureStub
@@ -3097,7 +3097,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xabf520: stur            x3, [x0, #0x2b]
     // 0xabf524: mov             x1, x3
     // 0xabf528: r0 = recordFormatGoalNumber()
-    //     0xabf528: bl              #0x992b34  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordFormatGoalNumber
+    //     0xabf528: bl              #0x992b34  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordFormatGoalNumber
     // 0xabf52c: mov             x2, x0
     // 0xabf530: ldur            x1, [fp, #-8]
     // 0xabf534: stur            x2, [fp, #-0x10]
@@ -3290,7 +3290,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xabf704: mov             x1, x2
     // 0xabf708: mov             x2, x16
     // 0xabf70c: r0 = _setSelectedValue()
-    //     0xabf70c: bl              #0xabf434  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_setSelectedValue
+    //     0xabf70c: bl              #0xabf434  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_setSelectedValue
     // 0xabf710: r0 = Null
     //     0xabf710: mov             x0, NULL
     // 0xabf714: LeaveFrame
@@ -3371,7 +3371,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xabf7dc: DecompressPointer r1
     //     0xabf7dc: add             x1, x1, HEAP, lsl #32
     // 0xabf7e0: r0 = recordGoalColor()
-    //     0xabf7e0: bl              #0xac0cbc  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
+    //     0xabf7e0: bl              #0xac0cbc  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
     // 0xabf7e4: stur            x0, [fp, #-0x20]
     // 0xabf7e8: r0 = TextStyle()
     //     0xabf7e8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -3423,7 +3423,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xabf864: ldur            x2, [fp, #-0x10]
     // 0xabf868: stur            x3, [fp, #-0x38]
     // 0xabf86c: r1 = Function '<anonymous closure>':.
-    //     0xabf86c: add             x1, PP, #0x35, lsl #12  ; [pp+0x351d8] AnonymousClosure: (0xac00f8), in [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildTimeControls (0xabf728)
+    //     0xabf86c: add             x1, PP, #0x35, lsl #12  ; [pp+0x351d8] AnonymousClosure: (0xac00f8), in [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildTimeControls (0xabf728)
     //     0xabf870: ldr             x1, [x1, #0x1d8]
     // 0xabf874: r0 = AllocateClosure()
     //     0xabf874: bl              #0xe553e0  ; AllocateClosureStub
@@ -3480,7 +3480,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xabf8f0: stur            d2, [x3, #0x47]
     // 0xabf8f4: ldur            x2, [fp, #-0x10]
     // 0xabf8f8: r1 = Function '<anonymous closure>':.
-    //     0xabf8f8: add             x1, PP, #0x35, lsl #12  ; [pp+0x351e8] AnonymousClosure: (0xabffdc), in [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildTimeControls (0xabf728)
+    //     0xabf8f8: add             x1, PP, #0x35, lsl #12  ; [pp+0x351e8] AnonymousClosure: (0xabffdc), in [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildTimeControls (0xabf728)
     //     0xabf8fc: ldr             x1, [x1, #0x1e8]
     // 0xabf900: r0 = AllocateClosure()
     //     0xabf900: bl              #0xe553e0  ; AllocateClosureStub
@@ -3616,7 +3616,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xabfa44: DecompressPointer r1
     //     0xabfa44: add             x1, x1, HEAP, lsl #32
     // 0xabfa48: r0 = recordGoalColor()
-    //     0xabfa48: bl              #0xac0cbc  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
+    //     0xabfa48: bl              #0xac0cbc  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
     // 0xabfa4c: stur            x0, [fp, #-0x18]
     // 0xabfa50: r0 = TextStyle()
     //     0xabfa50: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -3664,7 +3664,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xabfac0: bl              #0x688f5c  ; [package:flutter/src/widgets/scroll_controller.dart] ScrollController::ScrollController
     // 0xabfac4: ldur            x2, [fp, #-0x10]
     // 0xabfac8: r1 = Function '<anonymous closure>':.
-    //     0xabfac8: add             x1, PP, #0x35, lsl #12  ; [pp+0x351f8] AnonymousClosure: (0xabfeb8), in [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildTimeControls (0xabf728)
+    //     0xabfac8: add             x1, PP, #0x35, lsl #12  ; [pp+0x351f8] AnonymousClosure: (0xabfeb8), in [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildTimeControls (0xabf728)
     //     0xabfacc: ldr             x1, [x1, #0x1f8]
     // 0xabfad0: r0 = AllocateClosure()
     //     0xabfad0: bl              #0xe553e0  ; AllocateClosureStub
@@ -3722,7 +3722,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xabfb4c: stur            d0, [x3, #0x47]
     // 0xabfb50: ldur            x2, [fp, #-0x10]
     // 0xabfb54: r1 = Function '<anonymous closure>':.
-    //     0xabfb54: add             x1, PP, #0x35, lsl #12  ; [pp+0x35200] AnonymousClosure: (0xabfde4), in [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildTimeControls (0xabf728)
+    //     0xabfb54: add             x1, PP, #0x35, lsl #12  ; [pp+0x35200] AnonymousClosure: (0xabfde4), in [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildTimeControls (0xabf728)
     //     0xabfb58: ldr             x1, [x1, #0x200]
     // 0xabfb5c: r0 = AllocateClosure()
     //     0xabfb5c: bl              #0xe553e0  ; AllocateClosureStub
@@ -4023,7 +4023,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xabfe30: mov             x2, x1
     // 0xabfe34: stur            x3, [fp, #-0x10]
     // 0xabfe38: r1 = Function '<anonymous closure>':.
-    //     0xabfe38: add             x1, PP, #0x35, lsl #12  ; [pp+0x35208] AnonymousClosure: (0xabfe68), in [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildTimeControls (0xabf728)
+    //     0xabfe38: add             x1, PP, #0x35, lsl #12  ; [pp+0x35208] AnonymousClosure: (0xabfe68), in [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildTimeControls (0xabf728)
     //     0xabfe3c: ldr             x1, [x1, #0x208]
     // 0xabfe40: r0 = AllocateClosure()
     //     0xabfe40: bl              #0xe553e0  ; AllocateClosureStub
@@ -4140,7 +4140,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xabff50: add             x0, x0, HEAP, lsl #32
     // 0xabff54: mov             x1, x0
     // 0xabff58: r0 = recordGoalColor()
-    //     0xabff58: bl              #0xac0cbc  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
+    //     0xabff58: bl              #0xac0cbc  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
     // 0xabff5c: stur            x0, [fp, #-8]
     // 0xabff60: r0 = TextStyle()
     //     0xabff60: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -4226,7 +4226,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xac0028: mov             x2, x1
     // 0xac002c: stur            x3, [fp, #-0x10]
     // 0xac0030: r1 = Function '<anonymous closure>':.
-    //     0xac0030: add             x1, PP, #0x35, lsl #12  ; [pp+0x35210] AnonymousClosure: (0xac0060), in [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildTimeControls (0xabf728)
+    //     0xac0030: add             x1, PP, #0x35, lsl #12  ; [pp+0x35210] AnonymousClosure: (0xac0060), in [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildTimeControls (0xabf728)
     //     0xac0034: ldr             x1, [x1, #0x210]
     // 0xac0038: r0 = AllocateClosure()
     //     0xac0038: bl              #0xe553e0  ; AllocateClosureStub
@@ -4396,7 +4396,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xac01cc: add             x0, x0, HEAP, lsl #32
     // 0xac01d0: mov             x1, x0
     // 0xac01d4: r0 = recordGoalColor()
-    //     0xac01d4: bl              #0xac0cbc  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
+    //     0xac01d4: bl              #0xac0cbc  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
     // 0xac01d8: stur            x0, [fp, #-8]
     // 0xac01dc: r0 = TextStyle()
     //     0xac01dc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -4516,7 +4516,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xac02ec: stur            w0, [x2, #0xf]
     // 0xac02f0: mov             x1, x0
     // 0xac02f4: r0 = _previewGoal()
-    //     0xac02f4: bl              #0xac0790  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_previewGoal
+    //     0xac02f4: bl              #0xac0790  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_previewGoal
     // 0xac02f8: mov             x2, x0
     // 0xac02fc: ldur            x0, [fp, #-8]
     // 0xac0300: stur            x2, [fp, #-0x18]
@@ -4525,7 +4525,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xac0308: DecompressPointer r1
     //     0xac0308: add             x1, x1, HEAP, lsl #32
     // 0xac030c: r0 = recordGoalColor()
-    //     0xac030c: bl              #0xac0cbc  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
+    //     0xac030c: bl              #0xac0cbc  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
     // 0xac0310: r16 = 0.160000
     //     0xac0310: add             x16, PP, #0x2d, lsl #12  ; [pp+0x2de68] 0.16
     //     0xac0314: ldr             x16, [x16, #0xe68]
@@ -4580,7 +4580,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xac0394: DecompressPointer r1
     //     0xac0394: add             x1, x1, HEAP, lsl #32
     // 0xac0398: r0 = recordGoalIcon()
-    //     0xac0398: bl              #0xac0628  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalIcon
+    //     0xac0398: bl              #0xac0628  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalIcon
     // 0xac039c: mov             x2, x0
     // 0xac03a0: ldur            x0, [fp, #-8]
     // 0xac03a4: stur            x2, [fp, #-0x20]
@@ -4589,7 +4589,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xac03ac: DecompressPointer r1
     //     0xac03ac: add             x1, x1, HEAP, lsl #32
     // 0xac03b0: r0 = recordGoalColor()
-    //     0xac03b0: bl              #0xac0cbc  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
+    //     0xac03b0: bl              #0xac0cbc  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
     // 0xac03b4: stur            x0, [fp, #-0x30]
     // 0xac03b8: r0 = Icon()
     //     0xac03b8: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -4608,7 +4608,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xac03dc: stur            w0, [x2, #0x23]
     // 0xac03e0: ldur            x1, [fp, #-0x18]
     // 0xac03e4: r0 = formattedDrillGoalCellLine()
-    //     0xac03e4: bl              #0xabadac  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::formattedDrillGoalCellLine
+    //     0xac03e4: bl              #0xabadac  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::formattedDrillGoalCellLine
     // 0xac03e8: mov             x2, x0
     // 0xac03ec: ldur            x0, [fp, #-8]
     // 0xac03f0: stur            x2, [fp, #-0x18]
@@ -4617,7 +4617,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xac03f8: DecompressPointer r1
     //     0xac03f8: add             x1, x1, HEAP, lsl #32
     // 0xac03fc: r0 = recordGoalColor()
-    //     0xac03fc: bl              #0xac0cbc  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
+    //     0xac03fc: bl              #0xac0cbc  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
     // 0xac0400: stur            x0, [fp, #-0x20]
     // 0xac0404: r0 = TextStyle()
     //     0xac0404: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -4765,7 +4765,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xac0570: bl              #0xaba64c  ; [package:flutter/src/material/ink_decoration.dart] Ink::Ink
     // 0xac0574: ldur            x1, [fp, #-8]
     // 0xac0578: r0 = _isGoalLocked()
-    //     0xac0578: bl              #0xac025c  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_isGoalLocked
+    //     0xac0578: bl              #0xac025c  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_isGoalLocked
     // 0xac057c: tbnz            w0, #4, #0xac0590
     // 0xac0580: ldur            x0, [fp, #-0x20]
     // 0xac0584: LeaveFrame
@@ -4776,7 +4776,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xac0590: ldur            x0, [fp, #-0x20]
     // 0xac0594: ldur            x2, [fp, #-0x10]
     // 0xac0598: r1 = Function '<anonymous closure>':.
-    //     0xac0598: add             x1, PP, #0x35, lsl #12  ; [pp+0x35218] AnonymousClosure: (0xac0a24), in [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildGoalTypePicker (0xac02bc)
+    //     0xac0598: add             x1, PP, #0x35, lsl #12  ; [pp+0x35218] AnonymousClosure: (0xac0a24), in [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildGoalTypePicker (0xac02bc)
     //     0xac059c: ldr             x1, [x1, #0x218]
     // 0xac05a0: r0 = AllocateClosure()
     //     0xac05a0: bl              #0xe553e0  ; AllocateClosureStub
@@ -4792,7 +4792,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xac05bc: stur            w0, [x3, #0xf]
     // 0xac05c0: ldur            x2, [fp, #-0x10]
     // 0xac05c4: r1 = Function '<anonymous closure>':.
-    //     0xac05c4: add             x1, PP, #0x35, lsl #12  ; [pp+0x35220] AnonymousClosure: (0xac08f0), in [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildGoalTypePicker (0xac02bc)
+    //     0xac05c4: add             x1, PP, #0x35, lsl #12  ; [pp+0x35220] AnonymousClosure: (0xac08f0), in [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_buildGoalTypePicker (0xac02bc)
     //     0xac05c8: ldr             x1, [x1, #0x220]
     // 0xac05cc: r0 = AllocateClosure()
     //     0xac05cc: bl              #0xe553e0  ; AllocateClosureStub
@@ -4850,7 +4850,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xac07ac: b.ls            #0xac08e8
     // 0xac07b0: mov             x1, x0
     // 0xac07b4: r0 = _selectedGoalTemplate()
-    //     0xac07b4: bl              #0x992674  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_selectedGoalTemplate
+    //     0xac07b4: bl              #0x992674  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_selectedGoalTemplate
     // 0xac07b8: mov             x2, x0
     // 0xac07bc: ldur            x1, [fp, #-8]
     // 0xac07c0: stur            x2, [fp, #-0x10]
@@ -4880,7 +4880,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xac0804: add             x4, PP, #0x35, lsl #12  ; [pp+0x35270] List(9) [0, 0x3, 0x2, 0x1, "clearPreferenceValue", 0x1, "isDropDead", 0x2, Null]
     //     0xac0808: ldr             x4, [x4, #0x270]
     // 0xac080c: r0 = copyWith()
-    //     0xac080c: bl              #0x907cdc  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::copyWith
+    //     0xac080c: bl              #0x907cdc  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::copyWith
     // 0xac0810: LeaveFrame
     //     0xac0810: mov             SP, fp
     //     0xac0814: ldp             fp, lr, [SP], #0x10
@@ -4928,7 +4928,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xac088c: add             x4, PP, #0x29, lsl #12  ; [pp+0x29d88] List(9) [0, 0x3, 0x2, 0x1, "isDropDead", 0x2, "preferenceValue", 0x1, Null]
     //     0xac0890: ldr             x4, [x4, #0xd88]
     // 0xac0894: r0 = copyWith()
-    //     0xac0894: bl              #0x907cdc  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::copyWith
+    //     0xac0894: bl              #0x907cdc  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::copyWith
     // 0xac0898: LeaveFrame
     //     0xac0898: mov             SP, fp
     //     0xac089c: ldp             fp, lr, [SP], #0x10
@@ -4953,7 +4953,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xac08d0: add             x4, PP, #0x29, lsl #12  ; [pp+0x29d88] List(9) [0, 0x3, 0x2, 0x1, "isDropDead", 0x2, "preferenceValue", 0x1, Null]
     //     0xac08d4: ldr             x4, [x4, #0xd88]
     // 0xac08d8: r0 = copyWith()
-    //     0xac08d8: bl              #0x907cdc  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::copyWith
+    //     0xac08d8: bl              #0x907cdc  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::copyWith
     // 0xac08dc: LeaveFrame
     //     0xac08dc: mov             SP, fp
     //     0xac08e0: ldp             fp, lr, [SP], #0x10
@@ -4988,7 +4988,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xac0924: add             x1, x1, HEAP, lsl #32
     // 0xac0928: ldr             x2, [fp, #0x10]
     // 0xac092c: r0 = _selectGoalType()
-    //     0xac092c: bl              #0xac0948  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_selectGoalType
+    //     0xac092c: bl              #0xac0948  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_selectGoalType
     // 0xac0930: r0 = Null
     //     0xac0930: mov             x0, NULL
     // 0xac0934: LeaveFrame
@@ -5056,7 +5056,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xac09d4: ldur            x0, [fp, #-0x20]
     // 0xac09d8: mov             x2, x0
     // 0xac09dc: r1 = Function '<anonymous closure>':.
-    //     0xac09dc: add             x1, PP, #0x35, lsl #12  ; [pp+0x35228] AnonymousClosure: (0x98dcf8), in [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_advance (0x98dd44)
+    //     0xac09dc: add             x1, PP, #0x35, lsl #12  ; [pp+0x35228] AnonymousClosure: (0x98dcf8), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_advance (0x98dd44)
     //     0xac09e0: ldr             x1, [x1, #0x228]
     // 0xac09e4: r0 = AllocateClosure()
     //     0xac09e4: bl              #0xe553e0  ; AllocateClosureStub
@@ -5071,7 +5071,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xac09fc: add             x2, x2, HEAP, lsl #32
     // 0xac0a00: ldur            x1, [fp, #-0x10]
     // 0xac0a04: r0 = _initializeFromCurrent()
-    //     0xac0a04: bl              #0x99242c  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_initializeFromCurrent
+    //     0xac0a04: bl              #0x99242c  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_initializeFromCurrent
     // 0xac0a08: mov             x1, x0
     // 0xac0a0c: stur            x1, [fp, #-0x10]
     // 0xac0a10: r0 = Await()
@@ -5340,7 +5340,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xac0eb4: ldur            x0, [fp, #-8]
     // 0xac0eb8: mov             x1, x0
     // 0xac0ebc: r0 = preferenceValue()
-    //     0xac0ebc: bl              #0x906fe4  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillDefaultGoalConfig::preferenceValue
+    //     0xac0ebc: bl              #0x906fe4  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillDefaultGoalConfig::preferenceValue
     // 0xac0ec0: mov             x1, x0
     // 0xac0ec4: ldur            x0, [fp, #-8]
     // 0xac0ec8: stur            x1, [fp, #-0x20]
@@ -5437,7 +5437,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xac0fc4: add             x0, x0, HEAP, lsl #32
     // 0xac0fc8: mov             x1, x0
     // 0xac0fcc: r0 = isFreestyleDribblingDrill()
-    //     0xac0fcc: bl              #0x906edc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isFreestyleDribblingDrill
+    //     0xac0fcc: bl              #0x906edc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isFreestyleDribblingDrill
     // 0xac0fd0: tbnz            w0, #4, #0xac1018
     // 0xac0fd4: ldur            x0, [fp, #-8]
     // 0xac0fd8: cmp             w0, NULL
@@ -5503,7 +5503,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xac1068: add             x0, x0, HEAP, lsl #32
     // 0xac106c: mov             x1, x0
     // 0xac1070: r0 = _clearOverride()
-    //     0xac1070: bl              #0xac108c  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_clearOverride
+    //     0xac1070: bl              #0xac108c  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_clearOverride
     // 0xac1074: r0 = Null
     //     0xac1074: mov             x0, NULL
     // 0xac1078: LeaveFrame
@@ -5564,11 +5564,11 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xac10fc: r0 = ReturnAsyncNotFuture()
     //     0xac10fc: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xac1100: r0 = userHasActiveSubscription()
-    //     0xac1100: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0xac1100: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0xac1104: tbz             w0, #4, #0xac1124
     // 0xac1108: ldur            x1, [fp, #-0x10]
     // 0xac110c: r0 = _showPaywall()
-    //     0xac110c: bl              #0xac1834  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_showPaywall
+    //     0xac110c: bl              #0xac1834  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_showPaywall
     // 0xac1110: mov             x1, x0
     // 0xac1114: stur            x1, [fp, #-0x18]
     // 0xac1118: r0 = Await()
@@ -5603,7 +5603,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xac1160: mov             x3, x6
     // 0xac1164: stur            x6, [fp, #-0x18]
     // 0xac1168: r0 = clearPreference()
-    //     0xac1168: bl              #0xac1384  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::clearPreference
+    //     0xac1168: bl              #0xac1384  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::clearPreference
     // 0xac116c: mov             x1, x0
     // 0xac1170: stur            x1, [fp, #-0x30]
     // 0xac1174: r0 = Await()
@@ -5631,7 +5631,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xac11a8: mov             x1, x2
     // 0xac11ac: mov             x2, x16
     // 0xac11b0: r0 = setSelectedGoalType()
-    //     0xac11b0: bl              #0xac1218  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::setSelectedGoalType
+    //     0xac11b0: bl              #0xac1218  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::setSelectedGoalType
     // 0xac11b4: mov             x1, x0
     // 0xac11b8: stur            x1, [fp, #-0x18]
     // 0xac11bc: r0 = Await()
@@ -5708,7 +5708,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xac187c: r0 = of()
     //     0xac187c: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xac1880: r1 = Function '<anonymous closure>':.
-    //     0xac1880: add             x1, PP, #0x35, lsl #12  ; [pp+0x35088] AnonymousClosure: (0xac18ec), in [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_showPaywall (0xac1834)
+    //     0xac1880: add             x1, PP, #0x35, lsl #12  ; [pp+0x35088] AnonymousClosure: (0xac18ec), in [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_showPaywall (0xac1834)
     //     0xac1884: ldr             x1, [x1, #0x88]
     // 0xac1888: r2 = Null
     //     0xac1888: mov             x2, NULL
@@ -5807,7 +5807,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xac1964: DecompressPointer r1
     //     0xac1964: add             x1, x1, HEAP, lsl #32
     // 0xac1968: r0 = _persistAndClose()
-    //     0xac1968: bl              #0xac1984  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_persistAndClose
+    //     0xac1968: bl              #0xac1984  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_persistAndClose
     // 0xac196c: r0 = Null
     //     0xac196c: mov             x0, NULL
     // 0xac1970: LeaveFrame
@@ -5868,11 +5868,11 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xac19f4: r0 = ReturnAsyncNotFuture()
     //     0xac19f4: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xac19f8: r0 = userHasActiveSubscription()
-    //     0xac19f8: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0xac19f8: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0xac19fc: tbz             w0, #4, #0xac1a1c
     // 0xac1a00: ldur            x1, [fp, #-0x10]
     // 0xac1a04: r0 = _showPaywall()
-    //     0xac1a04: bl              #0xac1834  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_showPaywall
+    //     0xac1a04: bl              #0xac1834  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_showPaywall
     // 0xac1a08: mov             x1, x0
     // 0xac1a0c: stur            x1, [fp, #-0x18]
     // 0xac1a10: r0 = Await()
@@ -5964,7 +5964,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xac1b00: mov             x5, x8
     // 0xac1b04: stur            x8, [fp, #-0x18]
     // 0xac1b08: r0 = setPreference()
-    //     0xac1b08: bl              #0xac1bb8  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::setPreference
+    //     0xac1b08: bl              #0xac1bb8  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::setPreference
     // 0xac1b0c: mov             x1, x0
     // 0xac1b10: stur            x1, [fp, #-0x30]
     // 0xac1b14: r0 = Await()
@@ -5992,7 +5992,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     // 0xac1b48: mov             x1, x2
     // 0xac1b4c: mov             x2, x16
     // 0xac1b50: r0 = setSelectedGoalType()
-    //     0xac1b50: bl              #0xac1218  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::setSelectedGoalType
+    //     0xac1b50: bl              #0xac1218  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::setSelectedGoalType
     // 0xac1b54: mov             x1, x0
     // 0xac1b58: stur            x1, [fp, #-0x18]
     // 0xac1b5c: r0 = Await()
@@ -6056,7 +6056,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xac1d88: add             x0, x0, HEAP, lsl #32
     // 0xac1d8c: mov             x1, x0
     // 0xac1d90: r0 = _clearOverride()
-    //     0xac1d90: bl              #0xac108c  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_clearOverride
+    //     0xac1d90: bl              #0xac108c  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_clearOverride
     // 0xac1d94: r0 = Null
     //     0xac1d94: mov             x0, NULL
     // 0xac1d98: LeaveFrame
@@ -6075,7 +6075,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xb5c900: mov             fp, SP
     // 0xb5c904: ldr             x2, [fp, #0x10]
     // 0xb5c908: r1 = Function 'dispose':.
-    //     0xb5c908: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3ab70] AnonymousClosure: (0xb5c920), in [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::dispose (0xb63fc4)
+    //     0xb5c908: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3ab70] AnonymousClosure: (0xb5c920), in [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::dispose (0xb63fc4)
     //     0xb5c90c: ldr             x1, [x1, #0xb70]
     // 0xb5c910: r0 = AllocateClosure()
     //     0xb5c910: bl              #0xe553e0  ; AllocateClosureStub
@@ -6100,7 +6100,7 @@ class _DrillGoalEditScreenState extends State<dynamic> {
     //     0xb5c938: cmp             SP, x16
     //     0xb5c93c: b.ls            #0xb5c950
     // 0xb5c940: r0 = dispose()
-    //     0xb5c940: bl              #0xb63fc4  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::dispose
+    //     0xb5c940: bl              #0xb63fc4  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::dispose
     // 0xb5c944: LeaveFrame
     //     0xb5c944: mov             SP, fp
     //     0xb5c948: ldp             fp, lr, [SP], #0x10
@@ -6238,7 +6238,7 @@ class DrillGoalEditScreen extends StatefulWidget {
     // 0xb76670: mov             x1, x0
     // 0xb76674: stur            x0, [fp, #-8]
     // 0xb76678: r0 = _DrillGoalEditScreenState()
-    //     0xb76678: bl              #0xb76694  ; [package:ballai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_DrillGoalEditScreenState
+    //     0xb76678: bl              #0xb76694  ; [package:kourtai/video_tracking/views/drills/drill_goal_edit_screen.dart] _DrillGoalEditScreenState::_DrillGoalEditScreenState
     // 0xb7667c: ldur            x0, [fp, #-8]
     // 0xb76680: LeaveFrame
     //     0xb76680: mov             SP, fp

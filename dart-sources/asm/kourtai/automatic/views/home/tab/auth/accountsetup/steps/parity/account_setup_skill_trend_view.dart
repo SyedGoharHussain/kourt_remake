@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart
 
 // class id: 1048850, size: 0x8
 class :: {
@@ -45,7 +45,7 @@ abstract class __AccountSetupSkillTrendViewState&State&SingleTickerProviderState
     //     0x7b8a08: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x7b8a0c: mov             x1, x2
     // 0x7b8a10: r0 = _updateTickerModeNotifier()
-    //     0x7b8a10: bl              #0x7b8a68  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart] __AccountSetupSkillTrendViewState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x7b8a10: bl              #0x7b8a68  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart] __AccountSetupSkillTrendViewState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x7b8a14: ldur            x1, [fp, #-8]
     // 0x7b8a18: r0 = _updateTicker()
     //     0x7b8a18: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -210,7 +210,7 @@ abstract class __AccountSetupSkillTrendViewState&State&SingleTickerProviderState
     //     0x8e4388: b.ls            #0x8e43ac
     // 0x8e438c: mov             x1, x0
     // 0x8e4390: r0 = _updateTickerModeNotifier()
-    //     0x8e4390: bl              #0x7b8a68  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart] __AccountSetupSkillTrendViewState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x8e4390: bl              #0x7b8a68  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart] __AccountSetupSkillTrendViewState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x8e4394: ldur            x1, [fp, #-8]
     // 0x8e4398: r0 = _updateTicker()
     //     0x8e4398: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -295,7 +295,7 @@ abstract class __AccountSetupSkillTrendViewState&State&SingleTickerProviderState
     //     0xb61894: cmp             SP, x16
     //     0xb61898: b.ls            #0xb618ac
     // 0xb6189c: r0 = dispose()
-    //     0xb6189c: bl              #0xb617e8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart] __AccountSetupSkillTrendViewState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb6189c: bl              #0xb617e8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart] __AccountSetupSkillTrendViewState&State&SingleTickerProviderStateMixin::dispose
     // 0xb618a0: LeaveFrame
     //     0xb618a0: mov             SP, fp
     //     0xb618a4: ldp             fp, lr, [SP], #0x10
@@ -354,7 +354,7 @@ class _AccountSetupSkillTrendViewState extends __AccountSetupSkillTrendViewState
     //     0xa08d10: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cb68] "Skill trend"
     //     0xa08d14: ldr             x1, [x1, #0xb68]
     // 0xa08d18: r0 = L()
-    //     0xa08d18: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa08d18: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa08d1c: mov             x3, x0
     // 0xa08d20: ldur            x0, [fp, #-8]
     // 0xa08d24: ldur            x2, [fp, #-0x18]
@@ -363,8 +363,8 @@ class _AccountSetupSkillTrendViewState extends __AccountSetupSkillTrendViewState
     //     0xa08d2c: ldur            w1, [x2, #0x13]
     // 0xa08d30: DecompressPointer r1
     //     0xa08d30: add             x1, x1, HEAP, lsl #32
-    // 0xa08d34: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa08d34: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa08d34: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa08d34: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa08d38: stur            x0, [fp, #-0x20]
     // 0xa08d3c: r0 = TextStyle()
     //     0xa08d3c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -413,7 +413,7 @@ class _AccountSetupSkillTrendViewState extends __AccountSetupSkillTrendViewState
     //     0xa08dac: bl              #0xe540b0  ; InitLateFinalInstanceFieldStub
     // 0xa08db0: ldur            x2, [fp, #-0x18]
     // 0xa08db4: r1 = Function '<anonymous closure>':.
-    //     0xa08db4: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cb78] AnonymousClosure: (0xa093fc), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart] _AccountSetupSkillTrendViewState::build (0xa08cb0)
+    //     0xa08db4: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cb78] AnonymousClosure: (0xa093fc), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart] _AccountSetupSkillTrendViewState::build (0xa08cb0)
     //     0xa08db8: ldr             x1, [x1, #0xb78]
     // 0xa08dbc: stur            x0, [fp, #-0x10]
     // 0xa08dc0: r0 = AllocateClosure()
@@ -451,14 +451,14 @@ class _AccountSetupSkillTrendViewState extends __AccountSetupSkillTrendViewState
     //     0xa08e14: ldur            w1, [x0, #0x13]
     // 0xa08e18: DecompressPointer r1
     //     0xa08e18: add             x1, x1, HEAP, lsl #32
-    // 0xa08e1c: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa08e1c: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
-    // 0xa08e20: r1 = "With Ball AI"
-    //     0xa08e20: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cb88] "With Ball AI"
+    // 0xa08e1c: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa08e1c: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
+    // 0xa08e20: r1 = "With Kourt AI"
+    //     0xa08e20: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cb88] "With Kourt AI"
     //     0xa08e24: ldr             x1, [x1, #0xb88]
     // 0xa08e28: stur            x0, [fp, #-0x28]
     // 0xa08e2c: r0 = L()
-    //     0xa08e2c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa08e2c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa08e30: stur            x0, [fp, #-0x30]
     // 0xa08e34: r0 = _LegendSwatch()
     //     0xa08e34: bl              #0xa093f0  ; Allocate_LegendSwatchStub -> _LegendSwatch (size=0x18)
@@ -487,7 +487,7 @@ class _AccountSetupSkillTrendViewState extends __AccountSetupSkillTrendViewState
     //     0xa08e70: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cb50] "Anything else"
     //     0xa08e74: ldr             x1, [x1, #0xb50]
     // 0xa08e78: r0 = L()
-    //     0xa08e78: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa08e78: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa08e7c: stur            x0, [fp, #-0x30]
     // 0xa08e80: r0 = _LegendSwatch()
     //     0xa08e80: bl              #0xa093f0  ; Allocate_LegendSwatchStub -> _LegendSwatch (size=0x18)
@@ -630,8 +630,8 @@ class _AccountSetupSkillTrendViewState extends __AccountSetupSkillTrendViewState
     //     0xa08fd8: ldur            w1, [x0, #0x13]
     // 0xa08fdc: DecompressPointer r1
     //     0xa08fdc: add             x1, x1, HEAP, lsl #32
-    // 0xa08fe0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa08fe0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa08fe0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa08fe0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa08fe4: r16 = 0.350000
     //     0xa08fe4: add             x16, PP, #0x15, lsl #12  ; [pp+0x151b0] 0.35
     //     0xa08fe8: ldr             x16, [x16, #0x1b0]
@@ -726,31 +726,31 @@ class _AccountSetupSkillTrendViewState extends __AccountSetupSkillTrendViewState
     // 0xa090d0: StoreField: r1->field_23 = r3
     //     0xa090d0: stur            w3, [x1, #0x23]
     // 0xa090d4: r0 = instance()
-    //     0xa090d4: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0xa090d4: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0xa090d8: mov             x1, x0
     // 0xa090dc: r2 = "acct_setup_progress_personalized"
     //     0xa090dc: add             x2, PP, #0x2c, lsl #12  ; [pp+0x2cb90] "acct_setup_progress_personalized"
     //     0xa090e0: ldr             x2, [x2, #0xb90]
     // 0xa090e4: r0 = localizedString()
-    //     0xa090e4: bl              #0x5edd18  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
+    //     0xa090e4: bl              #0x5edd18  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
     // 0xa090e8: stur            x0, [fp, #-8]
     // 0xa090ec: r0 = instance()
-    //     0xa090ec: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0xa090ec: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0xa090f0: mov             x1, x0
     // 0xa090f4: r2 = "acct_setup_progress_bullet_elite"
     //     0xa090f4: add             x2, PP, #0x2c, lsl #12  ; [pp+0x2cb98] "acct_setup_progress_bullet_elite"
     //     0xa090f8: ldr             x2, [x2, #0xb98]
     // 0xa090fc: r0 = localizedString()
-    //     0xa090fc: bl              #0x5edd18  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
+    //     0xa090fc: bl              #0x5edd18  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
     // 0xa09100: stur            x0, [fp, #-0x30]
     // 0xa09104: r0 = instance()
-    //     0xa09104: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0xa09104: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0xa09108: mov             x1, x0
     // 0xa0910c: r2 = "acct_setup_progress_bullet_ai_coaching"
     //     0xa0910c: add             x2, PP, #0x2c, lsl #12  ; [pp+0x2cba0] "acct_setup_progress_bullet_ai_coaching"
     //     0xa09110: ldr             x2, [x2, #0xba0]
     // 0xa09114: r0 = localizedString()
-    //     0xa09114: bl              #0x5edd18  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
+    //     0xa09114: bl              #0x5edd18  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
     // 0xa09118: r1 = Null
     //     0xa09118: mov             x1, NULL
     // 0xa0911c: r2 = 6
@@ -780,8 +780,8 @@ class _AccountSetupSkillTrendViewState extends __AccountSetupSkillTrendViewState
     //     0xa0915c: ldur            w1, [x3, #0x13]
     // 0xa09160: DecompressPointer r1
     //     0xa09160: add             x1, x1, HEAP, lsl #32
-    // 0xa09164: r0 = BallAiThemeContext.ballAi()
-    //     0xa09164: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xa09164: r0 = KourtAiThemeContext.kourtAi()
+    //     0xa09164: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xa09168: ArrayLoad: r1 = r0[0]  ; List_4
     //     0xa09168: ldur            w1, [x0, #0x17]
     // 0xa0916c: DecompressPointer r1
@@ -1007,8 +1007,8 @@ class _AccountSetupSkillTrendViewState extends __AccountSetupSkillTrendViewState
     // 0xa0939c: ldur            x0, [fp, #-0x10]
     // 0xa093a0: StoreField: r1->field_b = r0
     //     0xa093a0: stur            w0, [x1, #0xb]
-    // 0xa093a4: r0 = BallAiLiquidGlassCard()
-    //     0xa093a4: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xa093a4: r0 = KourtAiLiquidGlassCard()
+    //     0xa093a4: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xa093a8: ldur            x1, [fp, #-8]
     // 0xa093ac: StoreField: r0->field_b = r1
     //     0xa093ac: stur            w1, [x0, #0xb]
@@ -1095,8 +1095,8 @@ class _AccountSetupSkillTrendViewState extends __AccountSetupSkillTrendViewState
     //     0xa09478: ldur            w1, [x0, #0x13]
     // 0xa0947c: DecompressPointer r1
     //     0xa0947c: add             x1, x1, HEAP, lsl #32
-    // 0xa09480: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa09480: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa09480: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa09480: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa09484: mov             x2, x0
     // 0xa09488: ldur            x0, [fp, #-8]
     // 0xa0948c: stur            x2, [fp, #-0x10]
@@ -1104,20 +1104,20 @@ class _AccountSetupSkillTrendViewState extends __AccountSetupSkillTrendViewState
     //     0xa09490: ldur            w1, [x0, #0x13]
     // 0xa09494: DecompressPointer r1
     //     0xa09494: add             x1, x1, HEAP, lsl #32
-    // 0xa09498: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa09498: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa09498: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa09498: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa0949c: r1 = "Month 1"
     //     0xa0949c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a7c8] "Month 1"
     //     0xa094a0: ldr             x1, [x1, #0x7c8]
     // 0xa094a4: stur            x0, [fp, #-8]
     // 0xa094a8: r0 = L()
-    //     0xa094a8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa094a8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa094ac: r1 = "Month 3"
     //     0xa094ac: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a800] "Month 3"
     //     0xa094b0: ldr             x1, [x1, #0x800]
     // 0xa094b4: stur            x0, [fp, #-0x18]
     // 0xa094b8: r0 = L()
-    //     0xa094b8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa094b8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa094bc: stur            x0, [fp, #-0x20]
     // 0xa094c0: r0 = _SkillTrendPainter()
     //     0xa094c0: bl              #0xa0953c  ; Allocate_SkillTrendPainterStub -> _SkillTrendPainter (size=0x28)
@@ -1220,7 +1220,7 @@ class _AccountSetupSkillTrendViewState extends __AccountSetupSkillTrendViewState
     //     0xb5ac38: mov             fp, SP
     // 0xb5ac3c: ldr             x2, [fp, #0x10]
     // 0xb5ac40: r1 = Function 'dispose':.
-    //     0xb5ac40: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c648] AnonymousClosure: (0xb5ac58), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart] _AccountSetupSkillTrendViewState::dispose (0xb6177c)
+    //     0xb5ac40: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c648] AnonymousClosure: (0xb5ac58), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart] _AccountSetupSkillTrendViewState::dispose (0xb6177c)
     //     0xb5ac44: ldr             x1, [x1, #0x648]
     // 0xb5ac48: r0 = AllocateClosure()
     //     0xb5ac48: bl              #0xe553e0  ; AllocateClosureStub
@@ -1245,7 +1245,7 @@ class _AccountSetupSkillTrendViewState extends __AccountSetupSkillTrendViewState
     //     0xb5ac70: cmp             SP, x16
     //     0xb5ac74: b.ls            #0xb5ac88
     // 0xb5ac78: r0 = dispose()
-    //     0xb5ac78: bl              #0xb6177c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart] _AccountSetupSkillTrendViewState::dispose
+    //     0xb5ac78: bl              #0xb6177c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart] _AccountSetupSkillTrendViewState::dispose
     // 0xb5ac7c: LeaveFrame
     //     0xb5ac7c: mov             SP, fp
     //     0xb5ac80: ldp             fp, lr, [SP], #0x10
@@ -1288,7 +1288,7 @@ class _AccountSetupSkillTrendViewState extends __AccountSetupSkillTrendViewState
     //     0xb617c4: bl              #0x809c40  ; [package:flutter/src/animation/animation_controller.dart] AnimationController::dispose
     // 0xb617c8: ldur            x1, [fp, #-8]
     // 0xb617cc: r0 = dispose()
-    //     0xb617cc: bl              #0xb617e8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart] __AccountSetupSkillTrendViewState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb617cc: bl              #0xb617e8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart] __AccountSetupSkillTrendViewState&State&SingleTickerProviderStateMixin::dispose
     // 0xb617d0: r0 = Null
     //     0xb617d0: mov             x0, NULL
     // 0xb617d4: LeaveFrame
@@ -1396,8 +1396,8 @@ class _LegendSwatch extends StatelessWidget {
     //     0xbd2204: add             x3, x3, HEAP, lsl #32
     // 0xbd2208: ldur            x1, [fp, #-0x20]
     // 0xbd220c: stur            x3, [fp, #-8]
-    // 0xbd2210: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbd2210: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbd2210: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbd2210: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbd2214: stur            x0, [fp, #-0x18]
     // 0xbd2218: r0 = TextStyle()
     //     0xbd2218: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1765,7 +1765,7 @@ class _SkillTrendPainter extends CustomPainter {
     //     0x83b1c4: add             x2, PP, #0x37, lsl #12  ; [pp+0x37eb8] List<double>(8)
     //     0x83b1c8: ldr             x2, [x2, #0xeb8]
     // 0x83b1cc: r0 = _points()
-    //     0x83b1cc: bl              #0x83cd5c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart] _SkillTrendPainter::_points
+    //     0x83b1cc: bl              #0x83cd5c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart] _SkillTrendPainter::_points
     // 0x83b1d0: ldur            x1, [fp, #-8]
     // 0x83b1d4: ldur            d0, [fp, #-0xa8]
     // 0x83b1d8: ldur            d1, [fp, #-0x98]
@@ -1774,17 +1774,17 @@ class _SkillTrendPainter extends CustomPainter {
     //     0x83b1e0: ldr             x2, [x2, #0xec0]
     // 0x83b1e4: stur            x0, [fp, #-0x18]
     // 0x83b1e8: r0 = _points()
-    //     0x83b1e8: bl              #0x83cd5c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart] _SkillTrendPainter::_points
+    //     0x83b1e8: bl              #0x83cd5c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart] _SkillTrendPainter::_points
     // 0x83b1ec: ldur            x1, [fp, #-8]
     // 0x83b1f0: ldur            x2, [fp, #-0x18]
     // 0x83b1f4: stur            x0, [fp, #-0x28]
     // 0x83b1f8: r0 = _smoothPath()
-    //     0x83b1f8: bl              #0x83ca90  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart] _SkillTrendPainter::_smoothPath
+    //     0x83b1f8: bl              #0x83ca90  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart] _SkillTrendPainter::_smoothPath
     // 0x83b1fc: ldur            x1, [fp, #-8]
     // 0x83b200: ldur            x2, [fp, #-0x28]
     // 0x83b204: stur            x0, [fp, #-0x38]
     // 0x83b208: r0 = _smoothPath()
-    //     0x83b208: bl              #0x83ca90  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart] _SkillTrendPainter::_smoothPath
+    //     0x83b208: bl              #0x83ca90  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_skill_trend_view.dart] _SkillTrendPainter::_smoothPath
     // 0x83b20c: mov             x2, x0
     // 0x83b210: ldur            x0, [fp, #-0x10]
     // 0x83b214: stur            x2, [fp, #-0x48]

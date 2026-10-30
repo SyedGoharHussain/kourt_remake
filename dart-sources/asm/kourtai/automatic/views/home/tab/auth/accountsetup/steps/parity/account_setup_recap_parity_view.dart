@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart
 
 // class id: 1048846, size: 0x8
 class :: {
@@ -107,7 +107,7 @@ class _RecapScrollRevealState extends State<dynamic> {
     // 0x8ea490: ldur            x2, [fp, #-0x18]
     // 0x8ea494: stur            x0, [fp, #-8]
     // 0x8ea498: r1 = Function '<anonymous closure>':.
-    //     0x8ea498: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c778] AnonymousClosure: (0x8ea570), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _RecapScrollRevealState::build (0xa055ec)
+    //     0x8ea498: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c778] AnonymousClosure: (0x8ea570), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _RecapScrollRevealState::build (0xa055ec)
     //     0x8ea49c: ldr             x1, [x1, #0x778]
     // 0x8ea4a0: r0 = AllocateClosure()
     //     0x8ea4a0: bl              #0xe553e0  ; AllocateClosureStub
@@ -206,7 +206,7 @@ class _RecapScrollRevealState extends State<dynamic> {
     //     0x8ea594: add             x0, x0, HEAP, lsl #32
     // 0x8ea598: mov             x1, x0
     // 0x8ea59c: r0 = _check()
-    //     0x8ea59c: bl              #0x8ea5b8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _RecapScrollRevealState::_check
+    //     0x8ea59c: bl              #0x8ea5b8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _RecapScrollRevealState::_check
     // 0x8ea5a0: r0 = Null
     //     0x8ea5a0: mov             x0, NULL
     // 0x8ea5a4: LeaveFrame
@@ -396,7 +396,7 @@ class _RecapScrollRevealState extends State<dynamic> {
     // 0x94e080: mov             x2, x1
     // 0x94e084: stur            x0, [fp, #-8]
     // 0x94e088: r1 = Function '<anonymous closure>':.
-    //     0x94e088: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c790] AnonymousClosure: (0x8ea570), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _RecapScrollRevealState::build (0xa055ec)
+    //     0x94e088: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c790] AnonymousClosure: (0x8ea570), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _RecapScrollRevealState::build (0xa055ec)
     //     0x94e08c: ldr             x1, [x1, #0x790]
     // 0x94e090: r0 = AllocateClosure()
     //     0x94e090: bl              #0xe553e0  ; AllocateClosureStub
@@ -511,7 +511,7 @@ class _RecapScrollRevealState extends State<dynamic> {
     // 0xa05640: mov             x2, x1
     // 0xa05644: stur            x4, [fp, #-0x10]
     // 0xa05648: r1 = Function '<anonymous closure>':.
-    //     0xa05648: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c738] AnonymousClosure: (0x8ea570), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _RecapScrollRevealState::build (0xa055ec)
+    //     0xa05648: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c738] AnonymousClosure: (0x8ea570), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _RecapScrollRevealState::build (0xa055ec)
     //     0xa0564c: ldr             x1, [x1, #0x738]
     // 0xa05650: r0 = AllocateClosure()
     //     0xa05650: bl              #0xe553e0  ; AllocateClosureStub
@@ -656,7 +656,7 @@ abstract class __AccountSetupRecapParityViewState&State&SingleTickerProviderStat
     //     0x7b7fbc: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x7b7fc0: mov             x1, x2
     // 0x7b7fc4: r0 = _updateTickerModeNotifier()
-    //     0x7b7fc4: bl              #0x7b801c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] __AccountSetupRecapParityViewState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x7b7fc4: bl              #0x7b801c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] __AccountSetupRecapParityViewState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x7b7fc8: ldur            x1, [fp, #-8]
     // 0x7b7fcc: r0 = _updateTicker()
     //     0x7b7fcc: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -821,7 +821,7 @@ abstract class __AccountSetupRecapParityViewState&State&SingleTickerProviderStat
     //     0x8e4268: b.ls            #0x8e428c
     // 0x8e426c: mov             x1, x0
     // 0x8e4270: r0 = _updateTickerModeNotifier()
-    //     0x8e4270: bl              #0x7b801c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] __AccountSetupRecapParityViewState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x8e4270: bl              #0x7b801c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] __AccountSetupRecapParityViewState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x8e4274: ldur            x1, [fp, #-8]
     // 0x8e4278: r0 = _updateTicker()
     //     0x8e4278: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -906,7 +906,7 @@ abstract class __AccountSetupRecapParityViewState&State&SingleTickerProviderStat
     //     0xb612a8: cmp             SP, x16
     //     0xb612ac: b.ls            #0xb612c0
     // 0xb612b0: r0 = dispose()
-    //     0xb612b0: bl              #0xb611fc  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] __AccountSetupRecapParityViewState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb612b0: bl              #0xb611fc  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] __AccountSetupRecapParityViewState&State&SingleTickerProviderStateMixin::dispose
     // 0xb612b4: LeaveFrame
     //     0xb612b4: mov             SP, fp
     //     0xb612b8: ldp             fp, lr, [SP], #0x10
@@ -986,7 +986,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x94a808: tbnz            w0, #4, #0x94a838
     // 0x94a80c: ldur            x2, [fp, #-0x10]
     // 0x94a810: r1 = Function '<anonymous closure>':.
-    //     0x94a810: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d218] AnonymousClosure: (0x94a784), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded (0x94a7a4)
+    //     0x94a810: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d218] AnonymousClosure: (0x94a784), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded (0x94a7a4)
     //     0x94a814: ldr             x1, [x1, #0x218]
     // 0x94a818: r0 = AllocateClosure()
     //     0x94a818: bl              #0xe553e0  ; AllocateClosureStub
@@ -1003,7 +1003,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x94a834: ret             
     // 0x94a838: ldur            x2, [fp, #-0x10]
     // 0x94a83c: r1 = Function '<anonymous closure>':.
-    //     0x94a83c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d220] AnonymousClosure: (0x94a9d8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded (0x94a7a4)
+    //     0x94a83c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d220] AnonymousClosure: (0x94a9d8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded (0x94a7a4)
     //     0x94a840: ldr             x1, [x1, #0x220]
     // 0x94a844: r0 = AllocateClosure()
     //     0x94a844: bl              #0xe553e0  ; AllocateClosureStub
@@ -1028,7 +1028,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x94a878: ldur            x2, [fp, #-0x10]
     // 0x94a87c: stur            x0, [fp, #-8]
     // 0x94a880: r1 = Function '<anonymous closure>':.
-    //     0x94a880: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d228] AnonymousClosure: (0x94a958), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded (0x94a7a4)
+    //     0x94a880: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d228] AnonymousClosure: (0x94a958), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded (0x94a7a4)
     //     0x94a884: ldr             x1, [x1, #0x228]
     // 0x94a888: r0 = AllocateClosure()
     //     0x94a888: bl              #0xe553e0  ; AllocateClosureStub
@@ -1141,7 +1141,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x94a9a4: ret
     //     0x94a9a4: ret             
     // 0x94a9a8: r1 = Function '<anonymous closure>':.
-    //     0x94a9a8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d240] AnonymousClosure: (0x94a784), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded (0x94a7a4)
+    //     0x94a9a8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d240] AnonymousClosure: (0x94a784), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded (0x94a7a4)
     //     0x94a9ac: ldr             x1, [x1, #0x240]
     // 0x94a9b0: r0 = AllocateClosure()
     //     0x94a9b0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1238,7 +1238,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x94be1c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a618] Obj!ShotEventSoundKind@d38c01
     //     0x94be20: ldr             x1, [x1, #0x618]
     // 0x94be24: r0 = soundIdSync()
-    //     0x94be24: bl              #0x72ffd8  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::soundIdSync
+    //     0x94be24: bl              #0x72ffd8  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::soundIdSync
     // 0x94be28: mov             x2, x0
     // 0x94be2c: ldur            x1, [fp, #-8]
     // 0x94be30: StoreField: r1->field_73 = r0
@@ -1257,7 +1257,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x94be58: ldr             x0, [x0, #0x5f8]
     // 0x94be5c: StoreField: r1->field_73 = r0
     //     0x94be5c: stur            w0, [x1, #0x73]
-    // 0x94be60: r0 = InitLateStaticField(0xc3c) // [package:ballai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::_cached
+    // 0x94be60: r0 = InitLateStaticField(0xc3c) // [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::_cached
     //     0x94be60: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x94be64: ldr             x0, [x0, #0x1878]
     //     0x94be68: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1292,7 +1292,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x94bec4: ldur            x2, [fp, #-0x10]
     // 0x94bec8: stur            x0, [fp, #-8]
     // 0x94becc: r1 = Function '<anonymous closure>':.
-    //     0x94becc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dc10] AnonymousClosure: (0x94bfb4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::initState (0x94bd84)
+    //     0x94becc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dc10] AnonymousClosure: (0x94bfb4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::initState (0x94bd84)
     //     0x94bed0: ldr             x1, [x1, #0xc10]
     // 0x94bed4: r0 = AllocateClosure()
     //     0x94bed4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1410,28 +1410,28 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x94c000: ret
     //     0x94c000: ret             
     // 0x94c004: r0 = _restoreRecapPresentationState()
-    //     0x94c004: bl              #0x94d08c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_restoreRecapPresentationState
+    //     0x94c004: bl              #0x94d08c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_restoreRecapPresentationState
     // 0x94c008: ldur            x0, [fp, #-8]
     // 0x94c00c: LoadField: r1 = r0->field_f
     //     0x94c00c: ldur            w1, [x0, #0xf]
     // 0x94c010: DecompressPointer r1
     //     0x94c010: add             x1, x1, HEAP, lsl #32
     // 0x94c014: r0 = _restoreSelectedCallout()
-    //     0x94c014: bl              #0x94c994  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_restoreSelectedCallout
+    //     0x94c014: bl              #0x94c994  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_restoreSelectedCallout
     // 0x94c018: ldur            x0, [fp, #-8]
     // 0x94c01c: LoadField: r1 = r0->field_f
     //     0x94c01c: ldur            w1, [x0, #0xf]
     // 0x94c020: DecompressPointer r1
     //     0x94c020: add             x1, x1, HEAP, lsl #32
     // 0x94c024: r0 = _loadDrillCatalog()
-    //     0x94c024: bl              #0x94c1c4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_loadDrillCatalog
+    //     0x94c024: bl              #0x94c1c4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_loadDrillCatalog
     // 0x94c028: ldur            x0, [fp, #-8]
     // 0x94c02c: LoadField: r1 = r0->field_f
     //     0x94c02c: ldur            w1, [x0, #0xf]
     // 0x94c030: DecompressPointer r1
     //     0x94c030: add             x1, x1, HEAP, lsl #32
     // 0x94c034: r0 = _loadGreenSoundCatalog()
-    //     0x94c034: bl              #0x94c050  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_loadGreenSoundCatalog
+    //     0x94c034: bl              #0x94c050  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_loadGreenSoundCatalog
     // 0x94c038: r0 = Null
     //     0x94c038: mov             x0, NULL
     // 0x94c03c: LeaveFrame
@@ -1461,7 +1461,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x94c074: InitAsync() -> Future<void?>
     //     0x94c074: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x94c078: bl              #0x60afc8  ; InitAsyncStub
-    // 0x94c07c: r0 = InitLateStaticField(0xee0) // [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
+    // 0x94c07c: r0 = InitLateStaticField(0xee0) // [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
     //     0x94c07c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x94c080: ldr             x0, [x0, #0x1dc0]
     //     0x94c084: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1472,7 +1472,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x94c098: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x94c09c: ldur            x2, [fp, #-0x10]
     // 0x94c0a0: r1 = Function '_onGreenCatalog@1066120196':.
-    //     0x94c0a0: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dbf0] AnonymousClosure: (0x94c118), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_onGreenCatalog (0x94c150)
+    //     0x94c0a0: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dbf0] AnonymousClosure: (0x94c118), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_onGreenCatalog (0x94c150)
     //     0x94c0a4: ldr             x1, [x1, #0xbf0]
     // 0x94c0a8: stur            x0, [fp, #-0x18]
     // 0x94c0ac: r0 = AllocateClosure()
@@ -1483,7 +1483,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x94c0b8: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0x94c0bc: ldur            x1, [fp, #-0x18]
     // 0x94c0c0: r0 = refresh()
-    //     0x94c0c0: bl              #0x947b4c  ; [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::refresh
+    //     0x94c0c0: bl              #0x947b4c  ; [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::refresh
     // 0x94c0c4: mov             x1, x0
     // 0x94c0c8: stur            x1, [fp, #-0x18]
     // 0x94c0cc: r0 = Await()
@@ -1533,7 +1533,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x94c130: cmp             SP, x16
     //     0x94c134: b.ls            #0x94c148
     // 0x94c138: r0 = _onGreenCatalog()
-    //     0x94c138: bl              #0x94c150  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_onGreenCatalog
+    //     0x94c138: bl              #0x94c150  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_onGreenCatalog
     // 0x94c13c: LeaveFrame
     //     0x94c13c: mov             SP, fp
     //     0x94c140: ldp             fp, lr, [SP], #0x10
@@ -1625,7 +1625,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x94c210: StoreField: r2->field_13 = r0
     //     0x94c210: stur            w0, [x2, #0x13]
     // 0x94c214: r0 = fetchPublishedDrills()
-    //     0x94c214: bl              #0x94c2ac  ; [package:ballai/video_tracking/views/drills/data/drill_catalog_repository.dart] DrillCatalogRepository::fetchPublishedDrills
+    //     0x94c214: bl              #0x94c2ac  ; [package:kourtai/video_tracking/views/drills/data/drill_catalog_repository.dart] DrillCatalogRepository::fetchPublishedDrills
     // 0x94c218: mov             x1, x0
     // 0x94c21c: stur            x1, [fp, #-0x70]
     // 0x94c220: r0 = Await()
@@ -1663,7 +1663,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x94c280: r0 = ReturnAsyncNotFuture()
     //     0x94c280: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x94c284: r1 = Function '<anonymous closure>':.
-    //     0x94c284: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dc38] AnonymousClosure: (0x94c944), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_loadDrillCatalog (0x94c1c4)
+    //     0x94c284: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dc38] AnonymousClosure: (0x94c944), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_loadDrillCatalog (0x94c1c4)
     //     0x94c288: ldr             x1, [x1, #0xc38]
     // 0x94c28c: r0 = AllocateClosure()
     //     0x94c28c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1740,7 +1740,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x94c9cc: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x94c9d0: bl              #0x60afc8  ; InitAsyncStub
     // 0x94c9d4: r0 = get()
-    //     0x94c9d4: bl              #0x94ca4c  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::get
+    //     0x94c9d4: bl              #0x94ca4c  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::get
     // 0x94c9d8: mov             x1, x0
     // 0x94c9dc: stur            x1, [fp, #-0x20]
     // 0x94c9e0: r0 = Await()
@@ -1767,7 +1767,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x94ca20: r0 = ReturnAsyncNotFuture()
     //     0x94ca20: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x94ca24: r1 = Function '<anonymous closure>':.
-    //     0x94ca24: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dc40] AnonymousClosure: (0x94cc10), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_selectCallout (0x94cc5c)
+    //     0x94ca24: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dc40] AnonymousClosure: (0x94cc10), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_selectCallout (0x94cc5c)
     //     0x94ca28: ldr             x1, [x1, #0xc40]
     // 0x94ca2c: r0 = AllocateClosure()
     //     0x94ca2c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1859,7 +1859,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x94ccc8: bl              #0x600ca8  ; [package:flutter/src/services/haptic_feedback.dart] HapticFeedback::lightImpact
     // 0x94cccc: ldur            x2, [fp, #-0x20]
     // 0x94ccd0: r1 = Function '<anonymous closure>':.
-    //     0x94ccd0: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d3f8] AnonymousClosure: (0x94cc10), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_selectCallout (0x94cc5c)
+    //     0x94ccd0: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d3f8] AnonymousClosure: (0x94cc10), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_selectCallout (0x94cc5c)
     //     0x94ccd4: ldr             x1, [x1, #0x3f8]
     // 0x94ccd8: r0 = AllocateClosure()
     //     0x94ccd8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1873,7 +1873,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x94ccf0: DecompressPointer r1
     //     0x94ccf0: add             x1, x1, HEAP, lsl #32
     // 0x94ccf4: r0 = set()
-    //     0x94ccf4: bl              #0x94cfd0  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::set
+    //     0x94ccf4: bl              #0x94cfd0  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::set
     // 0x94ccf8: mov             x1, x0
     // 0x94ccfc: stur            x1, [fp, #-0x10]
     // 0x94cd00: r0 = Await()
@@ -1884,7 +1884,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x94cd0c: DecompressPointer r1
     //     0x94cd0c: add             x1, x1, HEAP, lsl #32
     // 0x94cd10: r0 = example()
-    //     0x94cd10: bl              #0x94cd84  ; [package:ballai/video_tracking/models/workout_setup/video_workout_callout_type.dart] VideoWorkoutCalloutType::example
+    //     0x94cd10: bl              #0x94cd84  ; [package:kourtai/video_tracking/models/workout_setup/video_workout_callout_type.dart] VideoWorkoutCalloutType::example
     // 0x94cd14: stur            x0, [fp, #-0x10]
     // 0x94cd18: LoadField: r1 = r0->field_7
     //     0x94cd18: ldur            w1, [x0, #7]
@@ -1893,7 +1893,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x94cd20: mov             x0, NULL
     // 0x94cd24: r0 = ReturnAsyncNotFuture()
     //     0x94cd24: b               #0x60af9c  ; ReturnAsyncNotFutureStub
-    // 0x94cd28: r0 = InitLateStaticField(0xeec) // [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
+    // 0x94cd28: r0 = InitLateStaticField(0xeec) // [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
     //     0x94cd28: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x94cd2c: ldr             x0, [x0, #0x1dd8]
     //     0x94cd30: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1905,7 +1905,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x94cd48: mov             x1, x0
     // 0x94cd4c: stur            x0, [fp, #-0x18]
     // 0x94cd50: r0 = stopSpeakingImmediate()
-    //     0x94cd50: bl              #0x6d4278  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::stopSpeakingImmediate
+    //     0x94cd50: bl              #0x6d4278  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::stopSpeakingImmediate
     // 0x94cd54: r16 = true
     //     0x94cd54: add             x16, NULL, #0x20  ; true
     // 0x94cd58: r30 = false
@@ -1917,7 +1917,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x94cd68: add             x4, PP, #0x2d, lsl #12  ; [pp+0x2d400] List(9) [0, 0x4, 0x2, 0x2, "showText", 0x3, "subException", 0x2, Null]
     //     0x94cd6c: ldr             x4, [x4, #0x400]
     // 0x94cd70: r0 = speak()
-    //     0x94cd70: bl              #0x6d2cd4  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
+    //     0x94cd70: bl              #0x6d2cd4  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
     // 0x94cd74: r0 = Null
     //     0x94cd74: mov             x0, NULL
     // 0x94cd78: r0 = ReturnAsyncNotFuture()
@@ -1967,7 +1967,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x94d0e8: ldr             x2, [x2, #0x608]
     // 0x94d0ec: stur            x0, [fp, #-0x18]
     // 0x94d0f0: r0 = shouldStreamCoachLine()
-    //     0x94d0f0: bl              #0x94d394  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::shouldStreamCoachLine
+    //     0x94d0f0: bl              #0x94d394  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::shouldStreamCoachLine
     // 0x94d0f4: eor             x3, x0, #0x10
     // 0x94d0f8: ldur            x0, [fp, #-0x10]
     // 0x94d0fc: stur            x3, [fp, #-0x20]
@@ -1975,7 +1975,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x94d100: stur            w3, [x0, #0x13]
     // 0x94d104: mov             x2, x0
     // 0x94d108: r1 = Function '<anonymous closure>':.
-    //     0x94d108: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dc48] AnonymousClosure: (0x94dfdc), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_restoreRecapPresentationState (0x94d08c)
+    //     0x94d108: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dc48] AnonymousClosure: (0x94dfdc), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_restoreRecapPresentationState (0x94d08c)
     //     0x94d10c: ldr             x1, [x1, #0xc48]
     // 0x94d110: r0 = AllocateClosure()
     //     0x94d110: bl              #0xe553e0  ; AllocateClosureStub
@@ -2018,7 +2018,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x94d17c: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x94d17c: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x94d180: r0 = setRecapPlanContentRevealed()
-    //     0x94d180: bl              #0x94d304  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setRecapPlanContentRevealed
+    //     0x94d180: bl              #0x94d304  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setRecapPlanContentRevealed
     // 0x94d184: ldur            x0, [fp, #-0x20]
     // 0x94d188: tbnz            w0, #4, #0x94d280
     // 0x94d18c: ldur            x1, [fp, #-0x18]
@@ -2026,7 +2026,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x94d190: add             x2, PP, #0x1a, lsl #12  ; [pp+0x1a608] "recap"
     //     0x94d194: ldr             x2, [x2, #0x608]
     // 0x94d198: r0 = markCoachLineStreamed()
-    //     0x94d198: bl              #0x94d2b0  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::markCoachLineStreamed
+    //     0x94d198: bl              #0x94d2b0  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::markCoachLineStreamed
     // 0x94d19c: r0 = LoadStaticField(0x8b4)
     //     0x94d19c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x94d1a0: ldr             x0, [x0, #0x1168]
@@ -2044,7 +2044,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x94d1c0: ldur            x2, [fp, #-0x10]
     // 0x94d1c4: stur            x0, [fp, #-8]
     // 0x94d1c8: r1 = Function '<anonymous closure>':.
-    //     0x94d1c8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dc50] AnonymousClosure: (0x94d3f0), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_restoreRecapPresentationState (0x94d08c)
+    //     0x94d1c8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dc50] AnonymousClosure: (0x94d3f0), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_restoreRecapPresentationState (0x94d08c)
     //     0x94d1cc: ldr             x1, [x1, #0xc50]
     // 0x94d1d0: r0 = AllocateClosure()
     //     0x94d1d0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2164,14 +2164,14 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x94d43c: ret
     //     0x94d43c: ret             
     // 0x94d440: r0 = _maybeAutoAdvanceArchetypeCard()
-    //     0x94d440: bl              #0x94d730  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_maybeAutoAdvanceArchetypeCard
+    //     0x94d440: bl              #0x94d730  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_maybeAutoAdvanceArchetypeCard
     // 0x94d444: ldur            x0, [fp, #-8]
     // 0x94d448: LoadField: r1 = r0->field_f
     //     0x94d448: ldur            w1, [x0, #0xf]
     // 0x94d44c: DecompressPointer r1
     //     0x94d44c: add             x1, x1, HEAP, lsl #32
     // 0x94d450: r0 = _armRecapAutoScroll()
-    //     0x94d450: bl              #0x94d46c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_armRecapAutoScroll
+    //     0x94d450: bl              #0x94d46c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_armRecapAutoScroll
     // 0x94d454: r0 = Null
     //     0x94d454: mov             x0, NULL
     // 0x94d458: LeaveFrame
@@ -2221,7 +2221,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x94d4c0: mov             x2, x1
     // 0x94d4c4: stur            x0, [fp, #-8]
     // 0x94d4c8: r1 = Function '<anonymous closure>':.
-    //     0x94d4c8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d1f0] AnonymousClosure: (0x94d59c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_armRecapAutoScroll (0x94d46c)
+    //     0x94d4c8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d1f0] AnonymousClosure: (0x94d59c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_armRecapAutoScroll (0x94d46c)
     //     0x94d4cc: ldr             x1, [x1, #0x1f0]
     // 0x94d4d0: r0 = AllocateClosure()
     //     0x94d4d0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2353,7 +2353,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x94d614: ldur            w0, [x3, #0xb]
     // 0x94d618: cbnz            w0, #0x94d630
     // 0x94d61c: r0 = _retryRecapExtent()
-    //     0x94d61c: bl              #0x94d6bc  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_retryRecapExtent
+    //     0x94d61c: bl              #0x94d6bc  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_retryRecapExtent
     // 0x94d620: r0 = Null
     //     0x94d620: mov             x0, NULL
     // 0x94d624: LeaveFrame
@@ -2382,7 +2382,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x94d660: DecompressPointer r1
     //     0x94d660: add             x1, x1, HEAP, lsl #32
     // 0x94d664: r0 = _retryRecapExtent()
-    //     0x94d664: bl              #0x94d6bc  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_retryRecapExtent
+    //     0x94d664: bl              #0x94d6bc  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_retryRecapExtent
     // 0x94d668: r0 = Null
     //     0x94d668: mov             x0, NULL
     // 0x94d66c: LeaveFrame
@@ -2397,7 +2397,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x94d680: add             x0, x0, HEAP, lsl #32
     // 0x94d684: stur            x0, [fp, #-0x10]
     // 0x94d688: r1 = Function '<anonymous closure>':.
-    //     0x94d688: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d208] AnonymousClosure: (0x94d710), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_armRecapAutoScroll (0x94d46c)
+    //     0x94d688: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d208] AnonymousClosure: (0x94d710), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_armRecapAutoScroll (0x94d46c)
     //     0x94d68c: ldr             x1, [x1, #0x208]
     // 0x94d690: r0 = AllocateClosure()
     //     0x94d690: bl              #0xe553e0  ; AllocateClosureStub
@@ -2442,7 +2442,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x94d6f0: StoreField: r1->field_7f = r2
     //     0x94d6f0: stur            x2, [x1, #0x7f]
     // 0x94d6f4: r0 = _armRecapAutoScroll()
-    //     0x94d6f4: bl              #0x94d46c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_armRecapAutoScroll
+    //     0x94d6f4: bl              #0x94d46c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_armRecapAutoScroll
     // 0x94d6f8: r0 = Null
     //     0x94d6f8: mov             x0, NULL
     // 0x94d6fc: LeaveFrame
@@ -2535,7 +2535,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x94d7c8: tbz             w1, #4, #0x94d81c
     // 0x94d7cc: mov             x1, x0
     // 0x94d7d0: r0 = _updateArchetypeCardVisibility()
-    //     0x94d7d0: bl              #0x94dc48  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_updateArchetypeCardVisibility
+    //     0x94d7d0: bl              #0x94dc48  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_updateArchetypeCardVisibility
     // 0x94d7d4: ldur            x0, [fp, #-0x10]
     // 0x94d7d8: LoadField: r1 = r0->field_6f
     //     0x94d7d8: ldur            w1, [x0, #0x6f]
@@ -2606,7 +2606,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x94d87c: bl              #0x94db20  ; [package:flutter/src/widgets/page_view.dart] PageController::jumpToPage
     // 0x94d880: ldur            x2, [fp, #-0x18]
     // 0x94d884: r1 = Function '<anonymous closure>':.
-    //     0x94d884: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d120] AnonymousClosure: (0x94dfb8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_maybeAutoAdvanceArchetypeCard (0x94d730)
+    //     0x94d884: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d120] AnonymousClosure: (0x94dfb8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_maybeAutoAdvanceArchetypeCard (0x94d730)
     //     0x94d888: ldr             x1, [x1, #0x120]
     // 0x94d88c: r0 = AllocateClosure()
     //     0x94d88c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2646,7 +2646,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x94d8e4: b.eq            #0x94d904
     // 0x94d8e8: ldur            x2, [fp, #-0x18]
     // 0x94d8ec: r1 = Function '<anonymous closure>':.
-    //     0x94d8ec: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d138] AnonymousClosure: (0x94dfb8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_maybeAutoAdvanceArchetypeCard (0x94d730)
+    //     0x94d8ec: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d138] AnonymousClosure: (0x94dfb8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_maybeAutoAdvanceArchetypeCard (0x94d730)
     //     0x94d8f0: ldr             x1, [x1, #0x138]
     // 0x94d8f4: r0 = AllocateClosure()
     //     0x94d8f4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2902,7 +2902,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x94dee0: cmp             w1, w3
     // 0x94dee4: b.eq            #0x94df00
     // 0x94dee8: r1 = Function '<anonymous closure>':.
-    //     0x94dee8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d158] AnonymousClosure: (0x94df94), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_updateArchetypeCardVisibility (0x94dc48)
+    //     0x94dee8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d158] AnonymousClosure: (0x94df94), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_updateArchetypeCardVisibility (0x94dc48)
     //     0x94deec: ldr             x1, [x1, #0x158]
     // 0x94def0: r0 = AllocateClosure()
     //     0x94def0: bl              #0xe553e0  ; AllocateClosureStub
@@ -3149,7 +3149,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f6230: mov             x1, x0
     // 0x9f6234: mov             x2, x3
     // 0x9f6238: r0 = _recapCoachLine()
-    //     0x9f6238: bl              #0xa0414c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_recapCoachLine
+    //     0x9f6238: bl              #0xa0414c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_recapCoachLine
     // 0x9f623c: mov             x3, x0
     // 0x9f6240: b               #0x9f6248
     // 0x9f6244: mov             x3, x2
@@ -3172,7 +3172,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f6274: add             x2, PP, #0x1a, lsl #12  ; [pp+0x1a608] "recap"
     //     0x9f6278: ldr             x2, [x2, #0x608]
     // 0x9f627c: r0 = shouldStreamCoachLine()
-    //     0x9f627c: bl              #0x94d394  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::shouldStreamCoachLine
+    //     0x9f627c: bl              #0x94d394  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::shouldStreamCoachLine
     // 0x9f6280: mov             x4, x0
     // 0x9f6284: b               #0x9f628c
     // 0x9f6288: r4 = false
@@ -3194,7 +3194,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f62b0: stur            w16, [x0, #0xf]
     // 0x9f62b4: ldur            x1, [fp, #-0x20]
     // 0x9f62b8: r0 = visibleBallyBuild()
-    //     0x9f62b8: bl              #0x9e62c8  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::visibleBallyBuild
+    //     0x9f62b8: bl              #0x9e62c8  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::visibleBallyBuild
     // 0x9f62bc: ArrayLoad: r2 = r0[0]  ; List_4
     //     0x9f62bc: ldur            w2, [x0, #0x17]
     // 0x9f62c0: DecompressPointer r2
@@ -3202,7 +3202,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f62c4: r1 = ""
     //     0x9f62c4: ldr             x1, [PP, #0x880]  ; [pp+0x880] ""
     // 0x9f62c8: r0 = fullBodyPose()
-    //     0x9f62c8: bl              #0x9e60fc  ; [package:ballai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::fullBodyPose
+    //     0x9f62c8: bl              #0x9e60fc  ; [package:kourtai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::fullBodyPose
     // 0x9f62cc: ldur            x1, [fp, #-0x38]
     // 0x9f62d0: ArrayStore: r1[1] = r0  ; List_4
     //     0x9f62d0: add             x25, x1, #0x13
@@ -3253,7 +3253,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f635c: stur            w0, [x2, #0xb]
     // 0x9f6360: ldur            x1, [fp, #-0x20]
     // 0x9f6364: r0 = visibleBallyBuild()
-    //     0x9f6364: bl              #0x9e62c8  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::visibleBallyBuild
+    //     0x9f6364: bl              #0x9e62c8  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::visibleBallyBuild
     // 0x9f6368: ArrayLoad: r2 = r0[0]  ; List_4
     //     0x9f6368: ldur            w2, [x0, #0x17]
     // 0x9f636c: DecompressPointer r2
@@ -3261,7 +3261,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f6370: r1 = ""
     //     0x9f6370: ldr             x1, [PP, #0x880]  ; [pp+0x880] ""
     // 0x9f6374: r0 = fullBodyPose()
-    //     0x9f6374: bl              #0x9e60fc  ; [package:ballai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::fullBodyPose
+    //     0x9f6374: bl              #0x9e60fc  ; [package:kourtai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::fullBodyPose
     // 0x9f6378: stur            x0, [fp, #-0x38]
     // 0x9f637c: r0 = BallySpeechBubble()
     //     0x9f637c: bl              #0x9e60f0  ; AllocateBallySpeechBubbleStub -> BallySpeechBubble (size=0x28)
@@ -3275,7 +3275,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f6394: stur            w0, [x3, #0xf]
     // 0x9f6398: ldur            x2, [fp, #-8]
     // 0x9f639c: r1 = Function '_onStreamComplete@1066120196':.
-    //     0x9f639c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d0b0] AnonymousClosure: (0xa05338), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_onStreamComplete (0xa05370)
+    //     0x9f639c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d0b0] AnonymousClosure: (0xa05338), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_onStreamComplete (0xa05370)
     //     0x9f63a0: ldr             x1, [x1, #0xb0]
     // 0x9f63a4: r0 = AllocateClosure()
     //     0x9f63a4: bl              #0xe553e0  ; AllocateClosureStub
@@ -3354,7 +3354,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f646c: ldur            x2, [fp, #-0x20]
     // 0x9f6470: stur            x4, [fp, #-0x10]
     // 0x9f6474: r0 = _buildWeeklyGoals()
-    //     0x9f6474: bl              #0xa039e0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildWeeklyGoals
+    //     0x9f6474: bl              #0xa039e0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildWeeklyGoals
     // 0x9f6478: r1 = <Widget>
     //     0x9f6478: ldr             x1, [PP, #0x4f10]  ; [pp+0x4f10] TypeArguments: <Widget>
     // 0x9f647c: r2 = 50
@@ -3375,7 +3375,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f64a4: ldur            x1, [fp, #-8]
     // 0x9f64a8: ldur            x2, [fp, #-0x20]
     // 0x9f64ac: r0 = _buildPersonalizedDrills()
-    //     0x9f64ac: bl              #0x9fe9f4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildPersonalizedDrills
+    //     0x9f64ac: bl              #0x9fe9f4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildPersonalizedDrills
     // 0x9f64b0: ldur            x1, [fp, #-0x48]
     // 0x9f64b4: ArrayStore: r1[2] = r0  ; List_4
     //     0x9f64b4: add             x25, x1, #0x17
@@ -3396,7 +3396,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f64e8: ldur            x1, [fp, #-8]
     // 0x9f64ec: ldur            x2, [fp, #-0x20]
     // 0x9f64f0: r0 = _buildArchetypeBuild()
-    //     0x9f64f0: bl              #0x9fcb38  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildArchetypeBuild
+    //     0x9f64f0: bl              #0x9fcb38  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildArchetypeBuild
     // 0x9f64f4: ldur            x1, [fp, #-0x48]
     // 0x9f64f8: ArrayStore: r1[4] = r0  ; List_4
     //     0x9f64f8: add             x25, x1, #0x1f
@@ -3420,7 +3420,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f6534: mov             x1, x2
     // 0x9f6538: stur            x3, [fp, #-0x50]
     // 0x9f653c: r0 = _buildGreenSounds()
-    //     0x9f653c: bl              #0x9fc010  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildGreenSounds
+    //     0x9f653c: bl              #0x9fc010  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildGreenSounds
     // 0x9f6540: stur            x0, [fp, #-0x40]
     // 0x9f6544: r0 = _RecapScrollReveal()
     //     0x9f6544: bl              #0x9fc004  ; Allocate_RecapScrollRevealStub -> _RecapScrollReveal (size=0x1c)
@@ -3431,7 +3431,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f6554: stur            x0, [x3, #0xb]
     // 0x9f6558: ldur            x2, [fp, #-8]
     // 0x9f655c: r1 = Function '_runGreenSoundsReveal@1066120196':.
-    //     0x9f655c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d0c8] AnonymousClosure: (0xa050a4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runGreenSoundsReveal (0xa050dc)
+    //     0x9f655c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d0c8] AnonymousClosure: (0xa050a4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runGreenSoundsReveal (0xa050dc)
     //     0x9f6560: ldr             x1, [x1, #0xc8]
     // 0x9f6564: r0 = AllocateClosure()
     //     0x9f6564: bl              #0xe553e0  ; AllocateClosureStub
@@ -3465,7 +3465,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f65bc: mov             x1, x2
     // 0x9f65c0: stur            x3, [fp, #-0x50]
     // 0x9f65c4: r0 = _buildStreakChallenge()
-    //     0x9f65c4: bl              #0x9faa50  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStreakChallenge
+    //     0x9f65c4: bl              #0x9faa50  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStreakChallenge
     // 0x9f65c8: stur            x0, [fp, #-0x40]
     // 0x9f65cc: r0 = _RecapScrollReveal()
     //     0x9f65cc: bl              #0x9fc004  ; Allocate_RecapScrollRevealStub -> _RecapScrollReveal (size=0x1c)
@@ -3476,7 +3476,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f65dc: stur            x0, [x3, #0xb]
     // 0x9f65e0: ldur            x2, [fp, #-8]
     // 0x9f65e4: r1 = Function '_runStreakAnimation@1066120196':.
-    //     0x9f65e4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d0d0] AnonymousClosure: (0xa04a6c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runStreakAnimation (0xa04aa4)
+    //     0x9f65e4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d0d0] AnonymousClosure: (0xa04a6c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runStreakAnimation (0xa04aa4)
     //     0x9f65e8: ldr             x1, [x1, #0xd0]
     // 0x9f65ec: r0 = AllocateClosure()
     //     0x9f65ec: bl              #0xe553e0  ; AllocateClosureStub
@@ -3506,7 +3506,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f6638: stur            w16, [x0, #0x33]
     // 0x9f663c: ldur            x1, [fp, #-8]
     // 0x9f6640: r0 = _buildAiBreakdown()
-    //     0x9f6640: bl              #0x9f92c0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildAiBreakdown
+    //     0x9f6640: bl              #0x9f92c0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildAiBreakdown
     // 0x9f6644: ldur            x1, [fp, #-0x48]
     // 0x9f6648: ArrayStore: r1[10] = r0  ; List_4
     //     0x9f6648: add             x25, x1, #0x37
@@ -3526,7 +3526,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f6678: stur            w16, [x0, #0x3b]
     // 0x9f667c: ldur            x1, [fp, #-8]
     // 0x9f6680: r0 = _buildStatCallouts()
-    //     0x9f6680: bl              #0x9f8a28  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStatCallouts
+    //     0x9f6680: bl              #0x9f8a28  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStatCallouts
     // 0x9f6684: ldur            x1, [fp, #-0x48]
     // 0x9f6688: ArrayStore: r1[12] = r0  ; List_4
     //     0x9f6688: add             x25, x1, #0x3f
@@ -3546,7 +3546,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f66b8: stur            w16, [x0, #0x43]
     // 0x9f66bc: ldur            x1, [fp, #-8]
     // 0x9f66c0: r0 = _buildProAnalytics()
-    //     0x9f66c0: bl              #0x9f7e70  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildProAnalytics
+    //     0x9f66c0: bl              #0x9f7e70  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildProAnalytics
     // 0x9f66c4: ldur            x1, [fp, #-0x48]
     // 0x9f66c8: ArrayStore: r1[14] = r0  ; List_4
     //     0x9f66c8: add             x25, x1, #0x47
@@ -3581,7 +3581,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f672c: ldur            x1, [fp, #-8]
     // 0x9f6730: ldur            x2, [fp, #-0x20]
     // 0x9f6734: r0 = _buildBasicInfo()
-    //     0x9f6734: bl              #0x9f70dc  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildBasicInfo
+    //     0x9f6734: bl              #0x9f70dc  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildBasicInfo
     // 0x9f6738: ldur            x1, [fp, #-0x48]
     // 0x9f673c: ArrayStore: r1[16] = r0  ; List_4
     //     0x9f673c: add             x25, x1, #0x4f
@@ -3603,7 +3603,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f6770: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d0d8] "Your 3 month evolution"
     //     0x9f6774: ldr             x1, [x1, #0xd8]
     // 0x9f6778: r0 = L()
-    //     0x9f6778: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f6778: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f677c: stur            x0, [fp, #-0x40]
     // 0x9f6780: r0 = AccountSetupSkillTrendView()
     //     0x9f6780: bl              #0x9f70d0  ; AllocateAccountSetupSkillTrendViewStub -> AccountSetupSkillTrendView (size=0x14)
@@ -3636,7 +3636,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f67d4: ldur            x1, [fp, #-8]
     // 0x9f67d8: ldur            x2, [fp, #-0x20]
     // 0x9f67dc: r0 = _buildEliteJourney()
-    //     0x9f67dc: bl              #0x9f6a98  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildEliteJourney
+    //     0x9f67dc: bl              #0x9f6a98  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildEliteJourney
     // 0x9f67e0: ldur            x1, [fp, #-0x48]
     // 0x9f67e4: ArrayStore: r1[20] = r0  ; List_4
     //     0x9f67e4: add             x25, x1, #0x5f
@@ -3727,7 +3727,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f68d8: stur            w0, [x3, #0xf]
     // 0x9f68dc: ldur            x2, [fp, #-0x18]
     // 0x9f68e0: r1 = Function '<anonymous closure>':.
-    //     0x9f68e0: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d100] AnonymousClosure: (0xa049d0), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::build (0x9f61b0)
+    //     0x9f68e0: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d100] AnonymousClosure: (0xa049d0), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::build (0x9f61b0)
     //     0x9f68e4: ldr             x1, [x1, #0x100]
     // 0x9f68e8: r0 = AllocateClosure()
     //     0x9f68e8: bl              #0xe553e0  ; AllocateClosureStub
@@ -3740,7 +3740,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f68fc: stur            w1, [x0, #0x17]
     // 0x9f6900: ldur            x2, [fp, #-0x18]
     // 0x9f6904: r1 = Function '<anonymous closure>':.
-    //     0x9f6904: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d108] AnonymousClosure: (0xa04850), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::build (0x9f61b0)
+    //     0x9f6904: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d108] AnonymousClosure: (0xa04850), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::build (0x9f61b0)
     //     0x9f6908: ldr             x1, [x1, #0x108]
     // 0x9f690c: r0 = AllocateClosure()
     //     0x9f690c: bl              #0xe553e0  ; AllocateClosureStub
@@ -3913,13 +3913,13 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f6abc: DecompressPointer r1
     //     0x9f6abc: add             x1, x1, HEAP, lsl #32
     // 0x9f6ac0: r0 = phasesFor()
-    //     0x9f6ac0: bl              #0x9f6c40  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::phasesFor
+    //     0x9f6ac0: bl              #0x9f6c40  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::phasesFor
     // 0x9f6ac4: r1 = "Your elite journey"
     //     0x9f6ac4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d248] "Your elite journey"
     //     0x9f6ac8: ldr             x1, [x1, #0x248]
     // 0x9f6acc: stur            x0, [fp, #-0x10]
     // 0x9f6ad0: r0 = L()
-    //     0x9f6ad0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f6ad0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f6ad4: stur            x0, [fp, #-0x18]
     // 0x9f6ad8: r0 = _SectionTitle()
     //     0x9f6ad8: bl              #0x9f6c34  ; Allocate_SectionTitleStub -> _SectionTitle (size=0x14)
@@ -4031,8 +4031,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f6be4: ldur            x0, [fp, #-0x10]
     // 0x9f6be8: StoreField: r1->field_b = r0
     //     0x9f6be8: stur            w0, [x1, #0xb]
-    // 0x9f6bec: r0 = BallAiLiquidGlassCard()
-    //     0x9f6bec: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0x9f6bec: r0 = KourtAiLiquidGlassCard()
+    //     0x9f6bec: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0x9f6bf0: ldur            x1, [fp, #-8]
     // 0x9f6bf4: StoreField: r0->field_b = r1
     //     0x9f6bf4: stur            w1, [x0, #0xb]
@@ -4106,13 +4106,13 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f7154: DecompressPointer r1
     //     0x9f7154: add             x1, x1, HEAP, lsl #32
     // 0x9f7158: r0 = levelIcon()
-    //     0x9f7158: bl              #0x9f7d88  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::levelIcon
+    //     0x9f7158: bl              #0x9f7d88  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::levelIcon
     // 0x9f715c: r1 = "Level"
     //     0x9f715c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d260] "Level"
     //     0x9f7160: ldr             x1, [x1, #0x260]
     // 0x9f7164: stur            x0, [fp, #-0x28]
     // 0x9f7168: r0 = L()
-    //     0x9f7168: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f7168: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f716c: mov             x2, x0
     // 0x9f7170: ldur            x0, [fp, #-0x20]
     // 0x9f7174: stur            x2, [fp, #-0x30]
@@ -4121,13 +4121,13 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f717c: DecompressPointer r1
     //     0x9f717c: add             x1, x1, HEAP, lsl #32
     // 0x9f7180: r0 = localizedLevel()
-    //     0x9f7180: bl              #0x9f7d54  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::localizedLevel
+    //     0x9f7180: bl              #0x9f7d54  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::localizedLevel
     // 0x9f7184: r1 = "Position"
     //     0x9f7184: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d268] "Position"
     //     0x9f7188: ldr             x1, [x1, #0x268]
     // 0x9f718c: stur            x0, [fp, #-0x38]
     // 0x9f7190: r0 = L()
-    //     0x9f7190: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f7190: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f7194: mov             x2, x0
     // 0x9f7198: ldur            x0, [fp, #-0x20]
     // 0x9f719c: stur            x2, [fp, #-0x40]
@@ -4136,7 +4136,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f71a4: DecompressPointer r1
     //     0x9f71a4: add             x1, x1, HEAP, lsl #32
     // 0x9f71a8: r0 = localizedPosition()
-    //     0x9f71a8: bl              #0x9f7acc  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::localizedPosition
+    //     0x9f71a8: bl              #0x9f7acc  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::localizedPosition
     // 0x9f71ac: mov             x1, x0
     // 0x9f71b0: ldur            x0, [fp, #-0x20]
     // 0x9f71b4: stur            x1, [fp, #-0x50]
@@ -4202,7 +4202,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f7264: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d270] "Weekly frequency"
     //     0x9f7268: ldr             x1, [x1, #0x270]
     // 0x9f726c: r0 = L()
-    //     0x9f726c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f726c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f7270: mov             x2, x0
     // 0x9f7274: ldur            x0, [fp, #-0x20]
     // 0x9f7278: stur            x2, [fp, #-0x58]
@@ -4211,23 +4211,23 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f7280: DecompressPointer r1
     //     0x9f7280: add             x1, x1, HEAP, lsl #32
     // 0x9f7284: r0 = localizedTrainingFrequency()
-    //     0x9f7284: bl              #0x9f78a8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::localizedTrainingFrequency
+    //     0x9f7284: bl              #0x9f78a8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::localizedTrainingFrequency
     // 0x9f7288: r1 = "Height"
     //     0x9f7288: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d278] "Height"
     //     0x9f728c: ldr             x1, [x1, #0x278]
     // 0x9f7290: stur            x0, [fp, #-0x20]
     // 0x9f7294: r0 = L()
-    //     0x9f7294: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f7294: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f7298: ldur            x1, [fp, #-0x10]
     // 0x9f729c: stur            x0, [fp, #-0x60]
     // 0x9f72a0: r0 = heightLabel()
-    //     0x9f72a0: bl              #0x9f7800  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_physicals_support.dart] AccountSetupPhysicalsSupport::heightLabel
+    //     0x9f72a0: bl              #0x9f7800  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_physicals_support.dart] AccountSetupPhysicalsSupport::heightLabel
     // 0x9f72a4: r1 = "Weight"
     //     0x9f72a4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d280] "Weight"
     //     0x9f72a8: ldr             x1, [x1, #0x280]
     // 0x9f72ac: stur            x0, [fp, #-0x68]
     // 0x9f72b0: r0 = L()
-    //     0x9f72b0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f72b0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f72b4: mov             x3, x0
     // 0x9f72b8: ldur            x2, [fp, #-8]
     // 0x9f72bc: stur            x3, [fp, #-0x78]
@@ -4266,7 +4266,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f7314: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d288] "%@ lbs"
     //     0x9f7318: ldr             x1, [x1, #0x288]
     // 0x9f731c: r0 = LF()
-    //     0x9f731c: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x9f731c: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x9f7320: ldur            x2, [fp, #-0x28]
     // 0x9f7324: ldur            x3, [fp, #-0x30]
     // 0x9f7328: ldur            x4, [fp, #-0x38]
@@ -4331,7 +4331,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f73d0: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d2a0] "Basic info"
     //     0x9f73d4: ldr             x1, [x1, #0x2a0]
     // 0x9f73d8: r0 = L()
-    //     0x9f73d8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f73d8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f73dc: stur            x0, [fp, #-0x20]
     // 0x9f73e0: r0 = _SectionTitle()
     //     0x9f73e0: bl              #0x9f6c34  ; Allocate_SectionTitleStub -> _SectionTitle (size=0x14)
@@ -4420,8 +4420,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f74bc: add             x1, x1, HEAP, lsl #32
     // 0x9f74c0: cmp             w1, NULL
     // 0x9f74c4: b.eq            #0x9f77f4
-    // 0x9f74c8: r0 = BallAiThemeContext.ballAi()
-    //     0x9f74c8: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0x9f74c8: r0 = KourtAiThemeContext.kourtAi()
+    //     0x9f74c8: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0x9f74cc: ArrayLoad: r1 = r0[0]  ; List_4
     //     0x9f74cc: ldur            w1, [x0, #0x17]
     // 0x9f74d0: DecompressPointer r1
@@ -4502,8 +4502,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f7598: add             x1, x1, HEAP, lsl #32
     // 0x9f759c: cmp             w1, NULL
     // 0x9f75a0: b.eq            #0x9f77fc
-    // 0x9f75a4: r0 = BallAiThemeContext.ballAi()
-    //     0x9f75a4: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0x9f75a4: r0 = KourtAiThemeContext.kourtAi()
+    //     0x9f75a4: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0x9f75a8: ArrayLoad: r1 = r0[0]  ; List_4
     //     0x9f75a8: ldur            w1, [x0, #0x17]
     // 0x9f75ac: DecompressPointer r1
@@ -4709,8 +4709,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f77a8: ldur            x0, [fp, #-0x30]
     // 0x9f77ac: StoreField: r1->field_b = r0
     //     0x9f77ac: stur            w0, [x1, #0xb]
-    // 0x9f77b0: r0 = BallAiLiquidGlassCard()
-    //     0x9f77b0: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0x9f77b0: r0 = KourtAiLiquidGlassCard()
+    //     0x9f77b0: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0x9f77b4: ldur            x1, [fp, #-0x18]
     // 0x9f77b8: StoreField: r0->field_b = r1
     //     0x9f77b8: stur            w1, [x0, #0xb]
@@ -4771,7 +4771,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f7ea4: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c708] "Make %"
     //     0x9f7ea8: ldr             x1, [x1, #0x708]
     // 0x9f7eac: r0 = L()
-    //     0x9f7eac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f7eac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f7eb0: stur            x0, [fp, #-0x18]
     // 0x9f7eb4: r1 = 8
     //     0x9f7eb4: mov             x1, #8
@@ -4801,7 +4801,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f7ef0: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d2f0] "Release Angle"
     //     0x9f7ef4: ldr             x1, [x1, #0x2f0]
     // 0x9f7ef8: r0 = L()
-    //     0x9f7ef8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f7ef8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f7efc: stur            x0, [fp, #-0x18]
     // 0x9f7f00: r1 = 8
     //     0x9f7f00: mov             x1, #8
@@ -4831,7 +4831,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f7f3c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d310] "Release Time"
     //     0x9f7f40: ldr             x1, [x1, #0x310]
     // 0x9f7f44: r0 = L()
-    //     0x9f7f44: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f7f44: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f7f48: stur            x0, [fp, #-0x18]
     // 0x9f7f4c: r1 = 8
     //     0x9f7f4c: mov             x1, #8
@@ -4861,7 +4861,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f7f88: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d328] "Arc"
     //     0x9f7f8c: ldr             x1, [x1, #0x328]
     // 0x9f7f90: r0 = L()
-    //     0x9f7f90: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f7f90: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f7f94: stur            x0, [fp, #-0x18]
     // 0x9f7f98: r1 = 8
     //     0x9f7f98: mov             x1, #8
@@ -4911,7 +4911,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f8008: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d348] "Pro-level analytics"
     //     0x9f800c: ldr             x1, [x1, #0x348]
     // 0x9f8010: r0 = L()
-    //     0x9f8010: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f8010: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f8014: stur            x0, [fp, #-0x20]
     // 0x9f8018: r0 = _SectionTitle()
     //     0x9f8018: bl              #0x9f6c34  ; Allocate_SectionTitleStub -> _SectionTitle (size=0x14)
@@ -4950,7 +4950,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f8068: bl              #0x9d20b4  ; AllocateImageStub -> Image (size=0x58)
     // 0x9f806c: ldur            x2, [fp, #-0x10]
     // 0x9f8070: r1 = Function '<anonymous closure>':.
-    //     0x9f8070: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d350] AnonymousClosure: (0x9f89b4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildProAnalytics (0x9f7e70)
+    //     0x9f8070: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d350] AnonymousClosure: (0x9f89b4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildProAnalytics (0x9f7e70)
     //     0x9f8074: ldr             x1, [x1, #0x350]
     // 0x9f8078: stur            x0, [fp, #-0x10]
     // 0x9f807c: r0 = AllocateClosure()
@@ -5120,8 +5120,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f822c: add             x1, x1, HEAP, lsl #32
     // 0x9f8230: cmp             w1, NULL
     // 0x9f8234: b.eq            #0x9f88dc
-    // 0x9f8238: r0 = BallAiThemeContext.ballAi()
-    //     0x9f8238: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0x9f8238: r0 = KourtAiThemeContext.kourtAi()
+    //     0x9f8238: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0x9f823c: ArrayLoad: r1 = r0[0]  ; List_4
     //     0x9f823c: ldur            w1, [x0, #0x17]
     // 0x9f8240: DecompressPointer r1
@@ -5340,8 +5340,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f845c: add             x1, x1, HEAP, lsl #32
     // 0x9f8460: cmp             w1, NULL
     // 0x9f8464: b.eq            #0x9f88e0
-    // 0x9f8468: r0 = BallAiThemeContext.ballAi()
-    //     0x9f8468: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0x9f8468: r0 = KourtAiThemeContext.kourtAi()
+    //     0x9f8468: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0x9f846c: ArrayLoad: r1 = r0[0]  ; List_4
     //     0x9f846c: ldur            w1, [x0, #0x17]
     // 0x9f8470: DecompressPointer r1
@@ -5396,8 +5396,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f84ec: add             x1, x1, HEAP, lsl #32
     // 0x9f84f0: cmp             w1, NULL
     // 0x9f84f4: b.eq            #0x9f88e4
-    // 0x9f84f8: r0 = BallAiThemeContext.ballAi()
-    //     0x9f84f8: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0x9f84f8: r0 = KourtAiThemeContext.kourtAi()
+    //     0x9f84f8: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0x9f84fc: LoadField: r1 = r0->field_1b
     //     0x9f84fc: ldur            w1, [x0, #0x1b]
     // 0x9f8500: DecompressPointer r1
@@ -5760,8 +5760,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f8890: ldur            x0, [fp, #-8]
     // 0x9f8894: StoreField: r1->field_b = r0
     //     0x9f8894: stur            w0, [x1, #0xb]
-    // 0x9f8898: r0 = BallAiLiquidGlassCard()
-    //     0x9f8898: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0x9f8898: r0 = KourtAiLiquidGlassCard()
+    //     0x9f8898: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0x9f889c: ldur            x1, [fp, #-0x10]
     // 0x9f88a0: StoreField: r0->field_b = r1
     //     0x9f88a0: stur            w1, [x0, #0xb]
@@ -5821,8 +5821,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f89e4: add             x1, x1, HEAP, lsl #32
     // 0x9f89e8: cmp             w1, NULL
     // 0x9f89ec: b.eq            #0x9f8a18
-    // 0x9f89f0: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0x9f89f0: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0x9f89f0: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0x9f89f0: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0x9f89f4: stur            x0, [fp, #-8]
     // 0x9f89f8: r0 = ColoredBox()
     //     0x9f89f8: bl              #0x9f8a1c  ; AllocateColoredBoxStub -> ColoredBox (size=0x14)
@@ -5866,7 +5866,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f8a5c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d3a8] "Real-time stat callouts"
     //     0x9f8a60: ldr             x1, [x1, #0x3a8]
     // 0x9f8a64: r0 = L()
-    //     0x9f8a64: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f8a64: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f8a68: stur            x0, [fp, #-8]
     // 0x9f8a6c: r0 = _SectionTitle()
     //     0x9f8a6c: bl              #0x9f6c34  ; Allocate_SectionTitleStub -> _SectionTitle (size=0x14)
@@ -5880,7 +5880,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f8a84: StoreField: r3->field_f = r0
     //     0x9f8a84: stur            w0, [x3, #0xf]
     // 0x9f8a88: r1 = Function '<anonymous closure>':.
-    //     0x9f8a88: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d3b0] AnonymousClosure: (0x9f92b4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStatCallouts (0x9f8a28)
+    //     0x9f8a88: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d3b0] AnonymousClosure: (0x9f92b4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStatCallouts (0x9f8a28)
     //     0x9f8a8c: ldr             x1, [x1, #0x3b0]
     // 0x9f8a90: r2 = Null
     //     0x9f8a90: mov             x2, NULL
@@ -5888,7 +5888,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f8a94: bl              #0xe553e0  ; AllocateClosureStub
     // 0x9f8a98: ldur            x2, [fp, #-0x10]
     // 0x9f8a9c: r1 = Function '<anonymous closure>':.
-    //     0x9f8a9c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d3b8] AnonymousClosure: (0x9f8bd8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStatCallouts (0x9f8a28)
+    //     0x9f8a9c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d3b8] AnonymousClosure: (0x9f8bd8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStatCallouts (0x9f8a28)
     //     0x9f8aa0: ldr             x1, [x1, #0x3b8]
     // 0x9f8aa4: stur            x0, [fp, #-8]
     // 0x9f8aa8: r0 = AllocateClosure()
@@ -5987,8 +5987,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f8b94: ldur            x0, [fp, #-8]
     // 0x9f8b98: StoreField: r1->field_b = r0
     //     0x9f8b98: stur            w0, [x1, #0xb]
-    // 0x9f8b9c: r0 = BallAiLiquidGlassCard()
-    //     0x9f8b9c: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0x9f8b9c: r0 = KourtAiLiquidGlassCard()
+    //     0x9f8b9c: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0x9f8ba0: ldur            x1, [fp, #-0x10]
     // 0x9f8ba4: StoreField: r0->field_b = r1
     //     0x9f8ba4: stur            w1, [x0, #0xb]
@@ -6104,8 +6104,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f8cb8: StoreField: r2->field_13 = r0
     //     0x9f8cb8: stur            w0, [x2, #0x13]
     // 0x9f8cbc: ldr             x1, [fp, #0x18]
-    // 0x9f8cc0: r0 = BallAiThemeContext.ballAiAccent()
-    //     0x9f8cc0: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0x9f8cc0: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0x9f8cc0: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0x9f8cc4: ldur            x2, [fp, #-8]
     // 0x9f8cc8: tbnz            w2, #4, #0x9f8cd8
     // 0x9f8ccc: d0 = 0.130000
@@ -6166,8 +6166,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f8d68: ldur            x0, [fp, #-8]
     // 0x9f8d6c: tbnz            w0, #4, #0x9f8d80
     // 0x9f8d70: ldr             x1, [fp, #0x18]
-    // 0x9f8d74: r0 = BallAiThemeContext.ballAiAccent()
-    //     0x9f8d74: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0x9f8d74: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0x9f8d74: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0x9f8d78: mov             x2, x0
     // 0x9f8d7c: b               #0x9f8d88
     // 0x9f8d80: r2 = Instance_Color
@@ -6209,13 +6209,13 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f8de4: ldur            x3, [fp, #-8]
     // 0x9f8de8: tbnz            w3, #4, #0x9f8dfc
     // 0x9f8dec: ldr             x1, [fp, #0x18]
-    // 0x9f8df0: r0 = BallAiThemeContext.ballAiAccent()
-    //     0x9f8df0: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0x9f8df0: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0x9f8df0: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0x9f8df4: mov             x1, x0
     // 0x9f8df8: b               #0x9f8e3c
     // 0x9f8dfc: ldr             x1, [fp, #0x18]
-    // 0x9f8e00: r0 = BallAiThemeContext.ballAiAccent()
-    //     0x9f8e00: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0x9f8e00: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0x9f8e00: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0x9f8e04: r1 = LoadClassIdInstr(r0)
     //     0x9f8e04: ldur            x1, [x0, #-1]
     //     0x9f8e08: ubfx            x1, x1, #0xc, #0x14
@@ -6266,8 +6266,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f8e90: ldr             x2, [PP, #0x5178]  ; [pp+0x5178] Obj!Color@d2a0a1
     // 0x9f8e94: b               #0x9f8ea8
     // 0x9f8e98: ldr             x1, [fp, #0x18]
-    // 0x9f8e9c: r0 = BallAiThemeContext.ballAiAccent()
-    //     0x9f8e9c: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0x9f8e9c: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0x9f8e9c: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0x9f8ea0: mov             x2, x0
     // 0x9f8ea4: ldur            x0, [fp, #-0x18]
     // 0x9f8ea8: ldur            x1, [fp, #-0x30]
@@ -6308,11 +6308,11 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f8f0c: bl              #0x5eeec4  ; [package:flutter/src/widgets/container.dart] Container::Container
     // 0x9f8f10: ldur            x1, [fp, #-0x10]
     // 0x9f8f14: r0 = localizedTitle()
-    //     0x9f8f14: bl              #0x9f9140  ; [package:ballai/video_tracking/models/workout_setup/video_workout_callout_type.dart] VideoWorkoutCalloutType::localizedTitle
+    //     0x9f8f14: bl              #0x9f9140  ; [package:kourtai/video_tracking/models/workout_setup/video_workout_callout_type.dart] VideoWorkoutCalloutType::localizedTitle
     // 0x9f8f18: ldr             x1, [fp, #0x18]
     // 0x9f8f1c: stur            x0, [fp, #-0x10]
-    // 0x9f8f20: r0 = BallAiThemeContext.ballAiAccent()
-    //     0x9f8f20: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0x9f8f20: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0x9f8f20: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0x9f8f24: stur            x0, [fp, #-0x18]
     // 0x9f8f28: r0 = TextStyle()
     //     0x9f8f28: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -6443,7 +6443,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f906c: stur            w0, [x3, #0xb]
     // 0x9f9070: ldur            x2, [fp, #-0x20]
     // 0x9f9074: r1 = Function '<anonymous closure>':.
-    //     0x9f9074: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d3f0] AnonymousClosure: (0x9f9258), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStatCallouts (0x9f8a28)
+    //     0x9f9074: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d3f0] AnonymousClosure: (0x9f9258), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStatCallouts (0x9f8a28)
     //     0x9f9078: ldr             x1, [x1, #0x3f0]
     // 0x9f907c: r0 = AllocateClosure()
     //     0x9f907c: bl              #0xe553e0  ; AllocateClosureStub
@@ -6558,7 +6558,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f9290: mov             x1, x2
     // 0x9f9294: mov             x2, x0
     // 0x9f9298: r0 = _selectCallout()
-    //     0x9f9298: bl              #0x94cc5c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_selectCallout
+    //     0x9f9298: bl              #0x94cc5c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_selectCallout
     // 0x9f929c: r0 = Null
     //     0x9f929c: mov             x0, NULL
     // 0x9f92a0: LeaveFrame
@@ -6604,25 +6604,25 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f92f4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d450] "Mechanics"
     //     0x9f92f8: ldr             x1, [x1, #0x450]
     // 0x9f92fc: r0 = L()
-    //     0x9f92fc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f92fc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f9300: r1 = "Arc"
     //     0x9f9300: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d328] "Arc"
     //     0x9f9304: ldr             x1, [x1, #0x328]
     // 0x9f9308: stur            x0, [fp, #-0x18]
     // 0x9f930c: r0 = L()
-    //     0x9f930c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f930c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f9310: r1 = "Consistency"
     //     0x9f9310: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d458] "Consistency"
     //     0x9f9314: ldr             x1, [x1, #0x458]
     // 0x9f9318: stur            x0, [fp, #-0x20]
     // 0x9f931c: r0 = L()
-    //     0x9f931c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f931c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f9320: r1 = "Footwork"
     //     0x9f9320: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d460] "Footwork"
     //     0x9f9324: ldr             x1, [x1, #0x460]
     // 0x9f9328: stur            x0, [fp, #-0x28]
     // 0x9f932c: r0 = L()
-    //     0x9f932c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f932c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f9330: ldur            x2, [fp, #-0x18]
     // 0x9f9334: r3 = 8.100000
     //     0x9f9334: add             x3, PP, #0x2d, lsl #12  ; [pp+0x2d468] 8.1
@@ -6676,13 +6676,13 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f93b8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d480] "You showed great effort and kept solid mechanics and arc on your shot. I noticed your release point varied a bit, which made your makes and misses cluster in the same spot. Focus on a consistent release point on your next reps..."
     //     0x9f93bc: ldr             x1, [x1, #0x480]
     // 0x9f93c0: r0 = L()
-    //     0x9f93c0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f93c0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f93c4: r1 = "Advanced AI breakdowns"
     //     0x9f93c4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d488] "Advanced AI breakdowns"
     //     0x9f93c8: ldr             x1, [x1, #0x488]
     // 0x9f93cc: stur            x0, [fp, #-0x18]
     // 0x9f93d0: r0 = L()
-    //     0x9f93d0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f93d0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f93d4: stur            x0, [fp, #-0x20]
     // 0x9f93d8: r0 = _SectionTitle()
     //     0x9f93d8: bl              #0x9f6c34  ; Allocate_SectionTitleStub -> _SectionTitle (size=0x14)
@@ -6720,8 +6720,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f9428: add             x1, x1, HEAP, lsl #32
     // 0x9f942c: cmp             w1, NULL
     // 0x9f9430: b.eq            #0x9fa4a4
-    // 0x9f9434: r0 = BallAiThemeContext.ballAiAccent()
-    //     0x9f9434: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0x9f9434: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0x9f9434: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0x9f9438: r1 = LoadClassIdInstr(r0)
     //     0x9f9438: ldur            x1, [x0, #-1]
     //     0x9f943c: ubfx            x1, x1, #0xc, #0x14
@@ -6782,7 +6782,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f94d0: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d498] "Example"
     //     0x9f94d4: ldr             x1, [x1, #0x498]
     // 0x9f94d8: r0 = L()
-    //     0x9f94d8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f94d8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f94dc: mov             x2, x0
     // 0x9f94e0: ldur            x0, [fp, #-8]
     // 0x9f94e4: stur            x2, [fp, #-0x28]
@@ -6792,8 +6792,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f94ec: add             x1, x1, HEAP, lsl #32
     // 0x9f94f0: cmp             w1, NULL
     // 0x9f94f4: b.eq            #0x9fa4a8
-    // 0x9f94f8: r0 = BallAiThemeContext.ballAiAccent()
-    //     0x9f94f8: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0x9f94f8: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0x9f94f8: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0x9f94fc: stur            x0, [fp, #-0x40]
     // 0x9f9500: r0 = TextStyle()
     //     0x9f9500: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -6937,7 +6937,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f965c: bl              #0x9d20b4  ; AllocateImageStub -> Image (size=0x58)
     // 0x9f9660: ldur            x2, [fp, #-0x10]
     // 0x9f9664: r1 = Function '<anonymous closure>':.
-    //     0x9f9664: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d4a8] AnonymousClosure: (0x9f89b4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildProAnalytics (0x9f7e70)
+    //     0x9f9664: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d4a8] AnonymousClosure: (0x9f89b4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildProAnalytics (0x9f7e70)
     //     0x9f9668: ldr             x1, [x1, #0x4a8]
     // 0x9f966c: stur            x0, [fp, #-0x10]
     // 0x9f9670: r0 = AllocateClosure()
@@ -7089,7 +7089,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f97e8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d4d8] "Overall rating"
     //     0x9f97ec: ldr             x1, [x1, #0x4d8]
     // 0x9f97f0: r0 = L()
-    //     0x9f97f0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f97f0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f97f4: stur            x0, [fp, #-0x40]
     // 0x9f97f8: r16 = 0.700000
     //     0x9f97f8: add             x16, PP, #0x2d, lsl #12  ; [pp+0x2d4e0] 0.7
@@ -7354,7 +7354,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f9aa0: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d530] "Now"
     //     0x9f9aa4: ldr             x1, [x1, #0x530]
     // 0x9f9aa8: r0 = L()
-    //     0x9f9aa8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f9aa8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f9aac: stur            x0, [fp, #-0x58]
     // 0x9f9ab0: r16 = 0.700000
     //     0x9f9ab0: add             x16, PP, #0x2d, lsl #12  ; [pp+0x2d4e0] 0.7
@@ -7435,7 +7435,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f9b70: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d540] "Potential %@"
     //     0x9f9b74: ldr             x1, [x1, #0x540]
     // 0x9f9b78: r0 = LF()
-    //     0x9f9b78: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x9f9b78: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x9f9b7c: mov             x2, x0
     // 0x9f9b80: ldur            x0, [fp, #-8]
     // 0x9f9b84: stur            x2, [fp, #-0x58]
@@ -7445,8 +7445,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f9b8c: add             x1, x1, HEAP, lsl #32
     // 0x9f9b90: cmp             w1, NULL
     // 0x9f9b94: b.eq            #0x9fa4ac
-    // 0x9f9b98: r0 = BallAiThemeContext.ballAiAccent()
-    //     0x9f9b98: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0x9f9b98: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0x9f9b98: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0x9f9b9c: stur            x0, [fp, #-0x68]
     // 0x9f9ba0: r0 = TextStyle()
     //     0x9f9ba0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -7550,7 +7550,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9f9c98: StoreField: r3->field_b = r1
     //     0x9f9c98: stur            w1, [x3, #0xb]
     // 0x9f9c9c: r1 = Function '<anonymous closure>':.
-    //     0x9f9c9c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d548] AnonymousClosure: (0x9fa58c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildAiBreakdown (0x9f92c0)
+    //     0x9f9c9c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d548] AnonymousClosure: (0x9fa58c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildAiBreakdown (0x9f92c0)
     //     0x9f9ca0: ldr             x1, [x1, #0x548]
     // 0x9f9ca4: r2 = Null
     //     0x9f9ca4: mov             x2, NULL
@@ -7886,8 +7886,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9f9ff8: add             x1, x1, HEAP, lsl #32
     // 0x9f9ffc: cmp             w1, NULL
     // 0x9fa000: b.eq            #0x9fa4b8
-    // 0x9fa004: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0x9fa004: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0x9fa004: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0x9fa004: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0x9fa008: r16 = 0.050000
     //     0x9fa008: ldr             x16, [PP, #0x4d10]  ; [pp+0x4d10] 0.05
     // 0x9fa00c: str             x16, [SP]
@@ -7952,7 +7952,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fa0a4: bl              #0x5ff63c  ; [package:provider/src/provider.dart] Provider::of
     // 0x9fa0a8: mov             x1, x0
     // 0x9fa0ac: r0 = visibleBallyBuild()
-    //     0x9fa0ac: bl              #0x9e62c8  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::visibleBallyBuild
+    //     0x9fa0ac: bl              #0x9e62c8  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::visibleBallyBuild
     // 0x9fa0b0: ArrayLoad: r2 = r0[0]  ; List_4
     //     0x9fa0b0: ldur            w2, [x0, #0x17]
     // 0x9fa0b4: DecompressPointer r2
@@ -7960,7 +7960,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9fa0b8: r1 = ""
     //     0x9fa0b8: ldr             x1, [PP, #0x880]  ; [pp+0x880] ""
     // 0x9fa0bc: r0 = headPose()
-    //     0x9fa0bc: bl              #0x9fa504  ; [package:ballai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::headPose
+    //     0x9fa0bc: bl              #0x9fa504  ; [package:kourtai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::headPose
     // 0x9fa0c0: stur            x0, [fp, #-0x10]
     // 0x9fa0c4: r0 = BallyPortrait()
     //     0x9fa0c4: bl              #0x9e4b7c  ; AllocateBallyPortraitStub -> BallyPortrait (size=0x30)
@@ -7995,7 +7995,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fa10c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d568] "Bally\'s breakdown"
     //     0x9fa110: ldr             x1, [x1, #0x568]
     // 0x9fa114: r0 = L()
-    //     0x9fa114: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9fa114: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9fa118: mov             x2, x0
     // 0x9fa11c: ldur            x0, [fp, #-8]
     // 0x9fa120: stur            x2, [fp, #-0x38]
@@ -8005,8 +8005,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fa128: add             x1, x1, HEAP, lsl #32
     // 0x9fa12c: cmp             w1, NULL
     // 0x9fa130: b.eq            #0x9fa4c0
-    // 0x9fa134: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0x9fa134: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0x9fa134: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0x9fa134: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0x9fa138: stur            x0, [fp, #-0x40]
     // 0x9fa13c: r0 = TextStyle()
     //     0x9fa13c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -8115,8 +8115,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9fa240: cmp             w6, NULL
     // 0x9fa244: b.eq            #0x9fa4c4
     // 0x9fa248: mov             x1, x6
-    // 0x9fa24c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9fa24c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9fa24c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9fa24c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9fa250: stur            x0, [fp, #-8]
     // 0x9fa254: r0 = TextStyle()
     //     0x9fa254: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -8322,8 +8322,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9fa460: ldur            x0, [fp, #-0x28]
     // 0x9fa464: StoreField: r1->field_b = r0
     //     0x9fa464: stur            w0, [x1, #0xb]
-    // 0x9fa468: r0 = BallAiLiquidGlassCard()
-    //     0x9fa468: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0x9fa468: r0 = KourtAiLiquidGlassCard()
+    //     0x9fa468: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0x9fa46c: ldur            x1, [fp, #-8]
     // 0x9fa470: StoreField: r0->field_b = r1
     //     0x9fa470: stur            w1, [x0, #0xb]
@@ -8475,8 +8475,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9fa6a8: fmul            d2, d1, d0
     // 0x9fa6ac: ldr             x1, [fp, #0x18]
     // 0x9fa6b0: stur            d2, [fp, #-0x38]
-    // 0x9fa6b4: r0 = BallAiThemeContext.ballAiAccent()
-    //     0x9fa6b4: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0x9fa6b4: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0x9fa6b4: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0x9fa6b8: r1 = LoadClassIdInstr(r0)
     //     0x9fa6b8: ldur            x1, [x0, #-1]
     //     0x9fa6bc: ubfx            x1, x1, #0xc, #0x14
@@ -8800,7 +8800,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9faa84: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d588] "Shoot for 30 days in a row"
     //     0x9faa88: ldr             x1, [x1, #0x588]
     // 0x9faa8c: r0 = L()
-    //     0x9faa8c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9faa8c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9faa90: stur            x0, [fp, #-8]
     // 0x9faa94: r0 = _SectionTitle()
     //     0x9faa94: bl              #0x9f6c34  ; Allocate_SectionTitleStub -> _SectionTitle (size=0x14)
@@ -8815,7 +8815,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9faaac: stur            w0, [x3, #0xf]
     // 0x9faab0: ldur            x2, [fp, #-0x10]
     // 0x9faab4: r1 = Function '<anonymous closure>':.
-    //     0x9faab4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d590] AnonymousClosure: (0x9fabdc), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStreakChallenge (0x9faa50)
+    //     0x9faab4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d590] AnonymousClosure: (0x9fabdc), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStreakChallenge (0x9faa50)
     //     0x9faab8: ldr             x1, [x1, #0x590]
     // 0x9faabc: r0 = AllocateClosure()
     //     0x9faabc: bl              #0xe553e0  ; AllocateClosureStub
@@ -8907,8 +8907,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9fab98: ldur            x0, [fp, #-8]
     // 0x9fab9c: StoreField: r1->field_b = r0
     //     0x9fab9c: stur            w0, [x1, #0xb]
-    // 0x9faba0: r0 = BallAiLiquidGlassCard()
-    //     0x9faba0: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0x9faba0: r0 = KourtAiLiquidGlassCard()
+    //     0x9faba0: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0x9faba4: ldur            x1, [fp, #-0x10]
     // 0x9faba8: StoreField: r0->field_b = r1
     //     0x9faba8: stur            w1, [x0, #0xb]
@@ -9025,8 +9025,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9faccc: ldur            d0, [x0, #7]
     // 0x9facd0: ldr             x1, [fp, #0x18]
     // 0x9facd4: stur            d0, [fp, #-0x50]
-    // 0x9facd8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0x9facd8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0x9facd8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0x9facd8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0x9facdc: r16 = 0.100000
     //     0x9facdc: add             x16, PP, #0x25, lsl #12  ; [pp+0x250a0] 0.1
     //     0x9face0: ldr             x16, [x16, #0xa0]
@@ -9352,7 +9352,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9fb040: b.ge            #0x9fb16c
     // 0x9fb044: mov             x2, x5
     // 0x9fb048: r1 = Function '<anonymous closure>':.
-    //     0x9fb048: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d5c0] AnonymousClosure: (0x9fb21c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStreakChallenge (0x9faa50)
+    //     0x9fb048: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d5c0] AnonymousClosure: (0x9fb21c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStreakChallenge (0x9faa50)
     //     0x9fb04c: ldr             x1, [x1, #0x5c0]
     // 0x9fb050: r0 = AllocateClosure()
     //     0x9fb050: bl              #0xe553e0  ; AllocateClosureStub
@@ -9749,7 +9749,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9fb494: ldur            x2, [fp, #-0x38]
     // 0x9fb498: stur            x5, [fp, #-0x30]
     // 0x9fb49c: r1 = Function '<anonymous closure>':.
-    //     0x9fb49c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d5c8] AnonymousClosure: (0x9fbe1c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStreakChallenge (0x9faa50)
+    //     0x9fb49c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d5c8] AnonymousClosure: (0x9fbe1c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStreakChallenge (0x9faa50)
     //     0x9fb4a0: ldr             x1, [x1, #0x5c8]
     // 0x9fb4a4: r0 = AllocateClosure()
     //     0x9fb4a4: bl              #0xe553e0  ; AllocateClosureStub
@@ -9823,8 +9823,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fb570: mov             x1, NULL
     // 0x9fb574: b               #0x9fb5a4
     // 0x9fb578: ldr             x1, [fp, #0x10]
-    // 0x9fb57c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0x9fb57c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0x9fb57c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0x9fb57c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0x9fb580: r16 = 0.080000
     //     0x9fb580: add             x16, PP, #0x24, lsl #12  ; [pp+0x24f28] 0.08
     //     0x9fb584: ldr             x16, [x16, #0xf28]
@@ -10002,8 +10002,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fb774: ldr             x0, [PP, #0x5178]  ; [pp+0x5178] Obj!Color@d2a0a1
     // 0x9fb778: b               #0x9fb788
     // 0x9fb77c: ldr             x1, [fp, #0x10]
-    // 0x9fb780: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9fb780: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9fb780: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9fb780: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9fb784: ldur            d0, [fp, #-0x80]
     // 0x9fb788: ldur            x1, [fp, #-0x40]
     // 0x9fb78c: stur            x0, [fp, #-0x30]
@@ -10142,7 +10142,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fb904: stur            w1, [x3, #0xb]
     // 0x9fb908: ldur            x2, [fp, #-0x38]
     // 0x9fb90c: r1 = Function '<anonymous closure>':.
-    //     0x9fb90c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d5d8] AnonymousClosure: (0x9fbd54), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStreakChallenge (0x9faa50)
+    //     0x9fb90c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d5d8] AnonymousClosure: (0x9fbd54), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStreakChallenge (0x9faa50)
     //     0x9fb910: ldr             x1, [x1, #0x5d8]
     // 0x9fb914: r0 = AllocateClosure()
     //     0x9fb914: bl              #0xe553e0  ; AllocateClosureStub
@@ -10204,13 +10204,13 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fb9b8: ldr             x0, [x0, #0x1c8]
     // 0x9fb9bc: b               #0x9fb9c8
     // 0x9fb9c0: ldr             x1, [fp, #0x10]
-    // 0x9fb9c4: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0x9fb9c4: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0x9fb9c4: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0x9fb9c4: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0x9fb9c8: mov             x1, x0
     // 0x9fb9cc: b               #0x9fb9dc
     // 0x9fb9d0: ldr             x1, [fp, #0x10]
-    // 0x9fb9d4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9fb9d4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9fb9d4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9fb9d4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9fb9d8: mov             x1, x0
     // 0x9fb9dc: ldur            x0, [fp, #-0x20]
     // 0x9fb9e0: stur            x1, [fp, #-0x10]
@@ -10806,7 +10806,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fc040: stur            w0, [x2, #0xf]
     // 0x9fc044: mov             x1, x0
     // 0x9fc048: r0 = _recapGreenSounds()
-    //     0x9fc048: bl              #0x9fc290  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_recapGreenSounds
+    //     0x9fc048: bl              #0x9fc290  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_recapGreenSounds
     // 0x9fc04c: mov             x3, x0
     // 0x9fc050: ldur            x2, [fp, #-0x10]
     // 0x9fc054: stur            x3, [fp, #-0x18]
@@ -10822,7 +10822,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fc074: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d610] "IRL green sounds"
     //     0x9fc078: ldr             x1, [x1, #0x610]
     // 0x9fc07c: r0 = L()
-    //     0x9fc07c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9fc07c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9fc080: stur            x0, [fp, #-0x20]
     // 0x9fc084: r0 = _SectionTitle()
     //     0x9fc084: bl              #0x9f6c34  ; Allocate_SectionTitleStub -> _SectionTitle (size=0x14)
@@ -10841,7 +10841,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9fc0a8: DecompressPointer r2
     //     0x9fc0a8: add             x2, x2, HEAP, lsl #32
     // 0x9fc0ac: tbnz            w2, #4, #0x9fc0e0
-    // 0x9fc0b0: r0 = InitLateStaticField(0xee0) // [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
+    // 0x9fc0b0: r0 = InitLateStaticField(0xee0) // [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
     //     0x9fc0b0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x9fc0b4: ldr             x0, [x0, #0x1dc0]
     //     0x9fc0b8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -10873,7 +10873,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fc104: sbfx            x5, x1, #1, #0x1f
     // 0x9fc108: stur            x5, [fp, #-0x30]
     // 0x9fc10c: r1 = Function '<anonymous closure>':.
-    //     0x9fc10c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d618] AnonymousClosure: (0x9f92b4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStatCallouts (0x9f8a28)
+    //     0x9fc10c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d618] AnonymousClosure: (0x9f92b4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStatCallouts (0x9f8a28)
     //     0x9fc110: ldr             x1, [x1, #0x618]
     // 0x9fc114: r2 = Null
     //     0x9fc114: mov             x2, NULL
@@ -10881,7 +10881,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fc118: bl              #0xe553e0  ; AllocateClosureStub
     // 0x9fc11c: ldur            x2, [fp, #-0x10]
     // 0x9fc120: r1 = Function '<anonymous closure>':.
-    //     0x9fc120: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d620] AnonymousClosure: (0x9fc334), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildGreenSounds (0x9fc010)
+    //     0x9fc120: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d620] AnonymousClosure: (0x9fc334), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildGreenSounds (0x9fc010)
     //     0x9fc124: ldr             x1, [x1, #0x620]
     // 0x9fc128: stur            x0, [fp, #-8]
     // 0x9fc12c: r0 = AllocateClosure()
@@ -10993,8 +10993,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9fc240: ldur            x0, [fp, #-0x10]
     // 0x9fc244: StoreField: r1->field_b = r0
     //     0x9fc244: stur            w0, [x1, #0xb]
-    // 0x9fc248: r0 = BallAiLiquidGlassCard()
-    //     0x9fc248: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0x9fc248: r0 = KourtAiLiquidGlassCard()
+    //     0x9fc248: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0x9fc24c: ldur            x1, [fp, #-8]
     // 0x9fc250: StoreField: r0->field_b = r1
     //     0x9fc250: stur            w1, [x0, #0xb]
@@ -11029,7 +11029,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fc298: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x9fc29c: cmp             SP, x16
     //     0x9fc2a0: b.ls            #0x9fc32c
-    // 0x9fc2a4: r0 = InitLateStaticField(0xee0) // [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
+    // 0x9fc2a4: r0 = InitLateStaticField(0xee0) // [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
     //     0x9fc2a4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x9fc2a8: ldr             x0, [x0, #0x1dc0]
     //     0x9fc2ac: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -11053,7 +11053,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fc2e0: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a618] Obj!ShotEventSoundKind@d38c01
     //     0x9fc2e4: ldr             x1, [x1, #0x618]
     // 0x9fc2e8: r0 = availableSounds()
-    //     0x9fc2e8: bl              #0x72ecd8  ; [package:ballai/video_tracking/session/feedback/event_sound.dart] EventSoundCatalog::availableSounds
+    //     0x9fc2e8: bl              #0x72ecd8  ; [package:kourtai/video_tracking/session/feedback/event_sound.dart] EventSoundCatalog::availableSounds
     // 0x9fc2ec: LeaveFrame
     //     0x9fc2ec: mov             SP, fp
     //     0x9fc2f0: ldp             fp, lr, [SP], #0x10
@@ -11061,7 +11061,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fc2f4: ret             
     // 0x9fc2f8: mov             x1, x0
     // 0x9fc2fc: r0 = fullLibrary()
-    //     0x9fc2fc: bl              #0x72f18c  ; [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::fullLibrary
+    //     0x9fc2fc: bl              #0x72f18c  ; [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::fullLibrary
     // 0x9fc300: LoadField: r1 = r0->field_b
     //     0x9fc300: ldur            w1, [x0, #0xb]
     // 0x9fc304: cbnz            w1, #0x9fc320
@@ -11069,7 +11069,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fc308: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a618] Obj!ShotEventSoundKind@d38c01
     //     0x9fc30c: ldr             x1, [x1, #0x618]
     // 0x9fc310: r0 = availableSounds()
-    //     0x9fc310: bl              #0x72ecd8  ; [package:ballai/video_tracking/session/feedback/event_sound.dart] EventSoundCatalog::availableSounds
+    //     0x9fc310: bl              #0x72ecd8  ; [package:kourtai/video_tracking/session/feedback/event_sound.dart] EventSoundCatalog::availableSounds
     // 0x9fc314: LeaveFrame
     //     0x9fc314: mov             SP, fp
     //     0x9fc318: ldp             fp, lr, [SP], #0x10
@@ -11428,14 +11428,14 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fc6f4: bl              #0x5eeec4  ; [package:flutter/src/widgets/container.dart] Container::Container
     // 0x9fc6f8: ldur            x1, [fp, #-0x10]
     // 0x9fc6fc: r0 = title()
-    //     0x9fc6fc: bl              #0x72f6e0  ; [package:ballai/video_tracking/session/feedback/event_sound.dart] EventSound::title
+    //     0x9fc6fc: bl              #0x72f6e0  ; [package:kourtai/video_tracking/session/feedback/event_sound.dart] EventSound::title
     // 0x9fc700: mov             x1, x0
     // 0x9fc704: r0 = L()
-    //     0x9fc704: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9fc704: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9fc708: ldr             x1, [fp, #0x18]
     // 0x9fc70c: stur            x0, [fp, #-0x10]
-    // 0x9fc710: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0x9fc710: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0x9fc710: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0x9fc710: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0x9fc714: stur            x0, [fp, #-0x48]
     // 0x9fc718: r0 = TextStyle()
     //     0x9fc718: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -11566,7 +11566,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fc85c: stur            w0, [x3, #0xb]
     // 0x9fc860: ldur            x2, [fp, #-0x20]
     // 0x9fc864: r1 = Function '<anonymous closure>':.
-    //     0x9fc864: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d650] AnonymousClosure: (0x9fc998), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildGreenSounds (0x9fc010)
+    //     0x9fc864: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d650] AnonymousClosure: (0x9fc998), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildGreenSounds (0x9fc010)
     //     0x9fc868: ldr             x1, [x1, #0x650]
     // 0x9fc86c: r0 = AllocateClosure()
     //     0x9fc86c: bl              #0xe553e0  ; AllocateClosureStub
@@ -11721,7 +11721,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9fc9d0: mov             x1, x2
     // 0x9fc9d4: mov             x2, x0
     // 0x9fc9d8: r0 = _selectSound()
-    //     0x9fc9d8: bl              #0x9fc9f4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_selectSound
+    //     0x9fc9d8: bl              #0x9fc9f4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_selectSound
     // 0x9fc9dc: r0 = Null
     //     0x9fc9dc: mov             x0, NULL
     // 0x9fc9e0: LeaveFrame
@@ -11767,7 +11767,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fca40: bl              #0x658e44  ; [package:flutter/src/services/haptic_feedback.dart] HapticFeedback::heavyImpact
     // 0x9fca44: ldur            x2, [fp, #-0x20]
     // 0x9fca48: r1 = Function '<anonymous closure>':.
-    //     0x9fca48: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d658] AnonymousClosure: (0x9fcae4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_selectSound (0x9fc9f4)
+    //     0x9fca48: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d658] AnonymousClosure: (0x9fcae4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_selectSound (0x9fc9f4)
     //     0x9fca4c: ldr             x1, [x1, #0x658]
     // 0x9fca50: r0 = AllocateClosure()
     //     0x9fca50: bl              #0xe553e0  ; AllocateClosureStub
@@ -11786,12 +11786,12 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fca70: add             x2, x2, HEAP, lsl #32
     // 0x9fca74: mov             x1, x2
     // 0x9fca78: r0 = setSoundId()
-    //     0x9fca78: bl              #0x9f1208  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::setSoundId
+    //     0x9fca78: bl              #0x9f1208  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::setSoundId
     // 0x9fca7c: mov             x1, x0
     // 0x9fca80: stur            x1, [fp, #-0x10]
     // 0x9fca84: r0 = Await()
     //     0x9fca84: bl              #0x60ad4c  ; AwaitStub
-    // 0x9fca88: r0 = InitLateStaticField(0xed4) // [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
+    // 0x9fca88: r0 = InitLateStaticField(0xed4) // [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
     //     0x9fca88: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x9fca8c: ldr             x0, [x0, #0x1da8]
     //     0x9fca90: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -11812,7 +11812,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fcabc: add             x3, x3, HEAP, lsl #32
     // 0x9fcac0: mov             x2, x3
     // 0x9fcac4: r0 = previewDuringOnboarding()
-    //     0x9fcac4: bl              #0x9f0f90  ; [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::previewDuringOnboarding
+    //     0x9fcac4: bl              #0x9f0f90  ; [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::previewDuringOnboarding
     // 0x9fcac8: mov             x1, x0
     // 0x9fcacc: stur            x1, [fp, #-0x10]
     // 0x9fcad0: r0 = Await()
@@ -11888,7 +11888,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9fcb74: DecompressPointer r3
     //     0x9fcb74: add             x3, x3, HEAP, lsl #32
     // 0x9fcb78: r0 = resolve()
-    //     0x9fcb78: bl              #0x9fe4c4  ; [package:ballai/automatic/models/core/my_player/nba_comparison_resolver.dart] NbaComparisonResolver::resolve
+    //     0x9fcb78: bl              #0x9fe4c4  ; [package:kourtai/automatic/models/core/my_player/nba_comparison_resolver.dart] NbaComparisonResolver::resolve
     // 0x9fcb7c: mov             x4, x0
     // 0x9fcb80: ldur            x0, [fp, #-0x10]
     // 0x9fcb84: stur            x4, [fp, #-0x18]
@@ -11905,7 +11905,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9fcb9c: DecompressPointer r3
     //     0x9fcb9c: add             x3, x3, HEAP, lsl #32
     // 0x9fcba0: r0 = resolve()
-    //     0x9fcba0: bl              #0x9fd8cc  ; [package:ballai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::resolve
+    //     0x9fcba0: bl              #0x9fd8cc  ; [package:kourtai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::resolve
     // 0x9fcba4: mov             x2, x0
     // 0x9fcba8: ldur            x0, [fp, #-8]
     // 0x9fcbac: stur            x2, [fp, #-0x20]
@@ -11926,7 +11926,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fcbd4: add             x2, x2, HEAP, lsl #32
     // 0x9fcbd8: ldur            x1, [fp, #-8]
     // 0x9fcbdc: r0 = _focusColor()
-    //     0x9fcbdc: bl              #0x9fd7a4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_focusColor
+    //     0x9fcbdc: bl              #0x9fd7a4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_focusColor
     // 0x9fcbe0: mov             x3, x0
     // 0x9fcbe4: ldur            x0, [fp, #-0x10]
     // 0x9fcbe8: stur            x3, [fp, #-0x30]
@@ -11936,13 +11936,13 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fcbf0: add             x2, x2, HEAP, lsl #32
     // 0x9fcbf4: ldur            x1, [fp, #-8]
     // 0x9fcbf8: r0 = _focusColor()
-    //     0x9fcbf8: bl              #0x9fd7a4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_focusColor
+    //     0x9fcbf8: bl              #0x9fd7a4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_focusColor
     // 0x9fcbfc: r1 = "Your archetype build"
     //     0x9fcbfc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d660] "Your archetype build"
     //     0x9fcc00: ldr             x1, [x1, #0x660]
     // 0x9fcc04: stur            x0, [fp, #-0x38]
     // 0x9fcc08: r0 = L()
-    //     0x9fcc08: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9fcc08: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9fcc0c: stur            x0, [fp, #-0x40]
     // 0x9fcc10: r0 = _SectionTitle()
     //     0x9fcc10: bl              #0x9f6c34  ; Allocate_SectionTitleStub -> _SectionTitle (size=0x14)
@@ -12004,7 +12004,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fcc9c: add             x6, x6, HEAP, lsl #32
     // 0x9fcca0: stur            x6, [fp, #-0x50]
     // 0x9fcca4: r0 = assetPath()
-    //     0x9fcca4: bl              #0x9fd71c  ; [package:ballai/automatic/models/core/my_player/nba_comparison_resolver.dart] NbaComparison::assetPath
+    //     0x9fcca4: bl              #0x9fd71c  ; [package:kourtai/automatic/models/core/my_player/nba_comparison_resolver.dart] NbaComparison::assetPath
     // 0x9fcca8: mov             x2, x0
     // 0x9fccac: ldur            x0, [fp, #-0x20]
     // 0x9fccb0: stur            x2, [fp, #-0x18]
@@ -12013,12 +12013,12 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9fccb8: DecompressPointer r1
     //     0x9fccb8: add             x1, x1, HEAP, lsl #32
     // 0x9fccbc: r0 = L()
-    //     0x9fccbc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9fccbc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9fccc0: ldur            x1, [fp, #-8]
     // 0x9fccc4: ldur            x2, [fp, #-0x10]
     // 0x9fccc8: stur            x0, [fp, #-0x20]
     // 0x9fcccc: r0 = _skillTags()
-    //     0x9fcccc: bl              #0x9fd554  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_skillTags
+    //     0x9fcccc: bl              #0x9fd554  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_skillTags
     // 0x9fccd0: mov             x1, x0
     // 0x9fccd4: ldur            x0, [fp, #-0x28]
     // 0x9fccd8: stur            x1, [fp, #-0x80]
@@ -12195,7 +12195,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fceac: stur            w0, [x3, #0xb]
     // 0x9fceb0: ldur            x2, [fp, #-8]
     // 0x9fceb4: r1 = Function '_onArchetypePageChanged@1066120196':.
-    //     0x9fceb4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d670] AnonymousClosure: (0x9fe900), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_onArchetypePageChanged (0x9fe93c)
+    //     0x9fceb4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d670] AnonymousClosure: (0x9fe900), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_onArchetypePageChanged (0x9fe93c)
     //     0x9fceb8: ldr             x1, [x1, #0x670]
     // 0x9fcebc: r0 = AllocateClosure()
     //     0x9fcebc: bl              #0xe553e0  ; AllocateClosureStub
@@ -12338,7 +12338,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fd024: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d680] "Primary focus"
     //     0x9fd028: ldr             x1, [x1, #0x680]
     // 0x9fd02c: r0 = L()
-    //     0x9fd02c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9fd02c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9fd030: mov             x3, x0
     // 0x9fd034: ldur            x0, [fp, #-0x10]
     // 0x9fd038: stur            x3, [fp, #-0x28]
@@ -12350,7 +12350,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9fd048: mov             x2, x4
     // 0x9fd04c: stur            x4, [fp, #-0x18]
     // 0x9fd050: r0 = _focusIcon()
-    //     0x9fd050: bl              #0x9fd314  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_focusIcon
+    //     0x9fd050: bl              #0x9fd314  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_focusIcon
     // 0x9fd054: mov             x3, x0
     // 0x9fd058: ldur            x0, [fp, #-0x10]
     // 0x9fd05c: stur            x3, [fp, #-0x40]
@@ -12360,7 +12360,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fd064: add             x2, x2, HEAP, lsl #32
     // 0x9fd068: ldur            x1, [fp, #-8]
     // 0x9fd06c: r0 = _attributeSummary()
-    //     0x9fd06c: bl              #0x9fd240  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_attributeSummary
+    //     0x9fd06c: bl              #0x9fd240  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_attributeSummary
     // 0x9fd070: stur            x0, [fp, #-0x50]
     // 0x9fd074: r0 = _FocusRecapCard()
     //     0x9fd074: bl              #0x9fd234  ; Allocate_FocusRecapCardStub -> _FocusRecapCard (size=0x20)
@@ -12385,7 +12385,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fd0a8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d688] "Secondary focus"
     //     0x9fd0ac: ldr             x1, [x1, #0x688]
     // 0x9fd0b0: r0 = L()
-    //     0x9fd0b0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9fd0b0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9fd0b4: mov             x3, x0
     // 0x9fd0b8: ldur            x0, [fp, #-0x10]
     // 0x9fd0bc: stur            x3, [fp, #-0x28]
@@ -12397,7 +12397,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9fd0cc: mov             x2, x4
     // 0x9fd0d0: stur            x4, [fp, #-0x18]
     // 0x9fd0d4: r0 = _focusIcon()
-    //     0x9fd0d4: bl              #0x9fd314  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_focusIcon
+    //     0x9fd0d4: bl              #0x9fd314  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_focusIcon
     // 0x9fd0d8: mov             x3, x0
     // 0x9fd0dc: ldur            x0, [fp, #-0x10]
     // 0x9fd0e0: stur            x3, [fp, #-0x30]
@@ -12407,7 +12407,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fd0e8: add             x2, x2, HEAP, lsl #32
     // 0x9fd0ec: ldur            x1, [fp, #-8]
     // 0x9fd0f0: r0 = _attributeSummary()
-    //     0x9fd0f0: bl              #0x9fd240  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_attributeSummary
+    //     0x9fd0f0: bl              #0x9fd240  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_attributeSummary
     // 0x9fd0f4: stur            x0, [fp, #-8]
     // 0x9fd0f8: r0 = _FocusRecapCard()
     //     0x9fd0f8: bl              #0x9fd234  ; Allocate_FocusRecapCardStub -> _FocusRecapCard (size=0x20)
@@ -12509,8 +12509,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9fd1ec: ldur            x0, [fp, #-0x10]
     // 0x9fd1f0: StoreField: r1->field_b = r0
     //     0x9fd1f0: stur            w0, [x1, #0xb]
-    // 0x9fd1f4: r0 = BallAiLiquidGlassCard()
-    //     0x9fd1f4: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0x9fd1f4: r0 = KourtAiLiquidGlassCard()
+    //     0x9fd1f4: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0x9fd1f8: ldur            x1, [fp, #-8]
     // 0x9fd1fc: StoreField: r0->field_b = r1
     //     0x9fd1fc: stur            w1, [x0, #0xb]
@@ -12570,7 +12570,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9fd288: r0 = whereType()
     //     0x9fd288: bl              #0x8d7274  ; [dart:_compact_hash] __Set&_HashVMBase&SetMixin::whereType
     // 0x9fd28c: r1 = Function '<anonymous closure>':.
-    //     0x9fd28c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d6a0] AnonymousClosure: (0x9fd2e4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_attributeSummary (0x9fd240)
+    //     0x9fd28c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d6a0] AnonymousClosure: (0x9fd2e4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_attributeSummary (0x9fd240)
     //     0x9fd290: ldr             x1, [x1, #0x6a0]
     // 0x9fd294: r2 = Null
     //     0x9fd294: mov             x2, NULL
@@ -12615,7 +12615,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fd2f4: b.ls            #0x9fd30c
     // 0x9fd2f8: ldr             x1, [fp, #0x10]
     // 0x9fd2fc: r0 = displayTitle()
-    //     0x9fd2fc: bl              #0x9ef9ac  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::displayTitle
+    //     0x9fd2fc: bl              #0x9ef9ac  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::displayTitle
     // 0x9fd300: LeaveFrame
     //     0x9fd300: mov             SP, fp
     //     0x9fd304: ldp             fp, lr, [SP], #0x10
@@ -12757,13 +12757,13 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9fd590: DecompressPointer r1
     //     0x9fd590: add             x1, x1, HEAP, lsl #32
     // 0x9fd594: r0 = fromRaw()
-    //     0x9fd594: bl              #0x90005c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
+    //     0x9fd594: bl              #0x90005c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
     // 0x9fd598: cmp             w0, NULL
     // 0x9fd59c: b.eq            #0x9fd630
     // 0x9fd5a0: ldur            x2, [fp, #-0x10]
     // 0x9fd5a4: mov             x1, x0
     // 0x9fd5a8: r0 = displayTitle()
-    //     0x9fd5a8: bl              #0x9efc10  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::displayTitle
+    //     0x9fd5a8: bl              #0x9efc10  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::displayTitle
     // 0x9fd5ac: mov             x2, x0
     // 0x9fd5b0: ldur            x0, [fp, #-0x10]
     // 0x9fd5b4: stur            x2, [fp, #-0x20]
@@ -12815,13 +12815,13 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9fd63c: DecompressPointer r1
     //     0x9fd63c: add             x1, x1, HEAP, lsl #32
     // 0x9fd640: r0 = fromRaw()
-    //     0x9fd640: bl              #0x90005c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
+    //     0x9fd640: bl              #0x90005c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
     // 0x9fd644: stur            x0, [fp, #-8]
     // 0x9fd648: cmp             w0, NULL
     // 0x9fd64c: b.eq            #0x9fd700
     // 0x9fd650: mov             x1, x0
     // 0x9fd654: r0 = displayTitle()
-    //     0x9fd654: bl              #0x9efc10  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::displayTitle
+    //     0x9fd654: bl              #0x9efc10  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::displayTitle
     // 0x9fd658: ldur            x1, [fp, #-0x10]
     // 0x9fd65c: mov             x2, x0
     // 0x9fd660: r0 = contains()
@@ -12830,7 +12830,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9fd668: ldur            x0, [fp, #-0x10]
     // 0x9fd66c: ldur            x1, [fp, #-8]
     // 0x9fd670: r0 = displayTitle()
-    //     0x9fd670: bl              #0x9efc10  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::displayTitle
+    //     0x9fd670: bl              #0x9efc10  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::displayTitle
     // 0x9fd674: mov             x2, x0
     // 0x9fd678: ldur            x0, [fp, #-0x10]
     // 0x9fd67c: stur            x2, [fp, #-8]
@@ -12988,8 +12988,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fd8a4: add             x1, x1, HEAP, lsl #32
     // 0x9fd8a8: cmp             w1, NULL
     // 0x9fd8ac: b.eq            #0x9fd8c8
-    // 0x9fd8b0: r0 = BallAiThemeContext.ballAiAccent()
-    //     0x9fd8b0: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0x9fd8b0: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0x9fd8b0: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0x9fd8b4: LeaveFrame
     //     0x9fd8b4: mov             SP, fp
     //     0x9fd8b8: ldp             fp, lr, [SP], #0x10
@@ -13017,7 +13017,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fe91c: b.ls            #0x9fe934
     // 0x9fe920: ldr             x2, [fp, #0x10]
     // 0x9fe924: r0 = _onArchetypePageChanged()
-    //     0x9fe924: bl              #0x9fe93c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_onArchetypePageChanged
+    //     0x9fe924: bl              #0x9fe93c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_onArchetypePageChanged
     // 0x9fe928: LeaveFrame
     //     0x9fe928: mov             SP, fp
     //     0x9fe92c: ldp             fp, lr, [SP], #0x10
@@ -13056,7 +13056,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fe978: bl              #0x600ca8  ; [package:flutter/src/services/haptic_feedback.dart] HapticFeedback::lightImpact
     // 0x9fe97c: ldur            x2, [fp, #-0x18]
     // 0x9fe980: r1 = Function '<anonymous closure>':.
-    //     0x9fe980: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d698] AnonymousClosure: (0x9fe9b0), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_onArchetypePageChanged (0x9fe93c)
+    //     0x9fe980: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d698] AnonymousClosure: (0x9fe9b0), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_onArchetypePageChanged (0x9fe93c)
     //     0x9fe984: ldr             x1, [x1, #0x698]
     // 0x9fe988: r0 = AllocateClosure()
     //     0x9fe988: bl              #0xe553e0  ; AllocateClosureStub
@@ -13152,7 +13152,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9fea4c: str             x8, [SP]
     // 0x9fea50: mov             x2, x4
     // 0x9fea54: r0 = drillsForPlan()
-    //     0x9fea54: bl              #0x9fec6c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::drillsForPlan
+    //     0x9fea54: bl              #0x9fec6c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::drillsForPlan
     // 0x9fea58: stur            x0, [fp, #-0x10]
     // 0x9fea5c: r1 = 1
     //     0x9fea5c: mov             x1, #1
@@ -13167,7 +13167,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9fea74: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d7e8] "Personalized drills for you"
     //     0x9fea78: ldr             x1, [x1, #0x7e8]
     // 0x9fea7c: r0 = L()
-    //     0x9fea7c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9fea7c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9fea80: stur            x0, [fp, #-0x20]
     // 0x9fea84: r0 = _SectionTitle()
     //     0x9fea84: bl              #0x9f6c34  ; Allocate_SectionTitleStub -> _SectionTitle (size=0x14)
@@ -13208,7 +13208,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9feae0: add             x0, x1, #1
     // 0x9feae4: stur            x0, [fp, #-0x28]
     // 0x9feae8: r1 = Function '<anonymous closure>':.
-    //     0x9feae8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d7f0] AnonymousClosure: (0x9f92b4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStatCallouts (0x9f8a28)
+    //     0x9feae8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d7f0] AnonymousClosure: (0x9f92b4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStatCallouts (0x9f8a28)
     //     0x9feaec: ldr             x1, [x1, #0x7f0]
     // 0x9feaf0: r2 = Null
     //     0x9feaf0: mov             x2, NULL
@@ -13216,7 +13216,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0x9feaf4: bl              #0xe553e0  ; AllocateClosureStub
     // 0x9feaf8: ldur            x2, [fp, #-0x18]
     // 0x9feafc: r1 = Function '<anonymous closure>':.
-    //     0x9feafc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d7f8] AnonymousClosure: (0xa03944), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildPersonalizedDrills (0x9fe9f4)
+    //     0x9feafc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d7f8] AnonymousClosure: (0xa03944), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildPersonalizedDrills (0x9fe9f4)
     //     0x9feb00: ldr             x1, [x1, #0x7f8]
     // 0x9feb04: stur            x0, [fp, #-8]
     // 0x9feb08: r0 = AllocateClosure()
@@ -13332,8 +13332,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0x9fec28: ldur            x0, [fp, #-0x10]
     // 0x9fec2c: StoreField: r1->field_b = r0
     //     0x9fec2c: stur            w0, [x1, #0xb]
-    // 0x9fec30: r0 = BallAiLiquidGlassCard()
-    //     0x9fec30: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0x9fec30: r0 = KourtAiLiquidGlassCard()
+    //     0x9fec30: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0x9fec34: ldur            x1, [fp, #-8]
     // 0x9fec38: StoreField: r0->field_b = r1
     //     0x9fec38: stur            w1, [x0, #0xb]
@@ -13493,7 +13493,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa03ab4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2db90] "Recommended weekly goals"
     //     0xa03ab8: ldr             x1, [x1, #0xb90]
     // 0xa03abc: r0 = L()
-    //     0xa03abc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa03abc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa03ac0: stur            x0, [fp, #-0x28]
     // 0xa03ac4: r0 = _SectionTitle()
     //     0xa03ac4: bl              #0x9f6c34  ; Allocate_SectionTitleStub -> _SectionTitle (size=0x14)
@@ -13532,8 +13532,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa03b18: add             x1, x1, HEAP, lsl #32
     // 0xa03b1c: cmp             w1, NULL
     // 0xa03b20: b.eq            #0xa03ff0
-    // 0xa03b24: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa03b24: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa03b24: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa03b24: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa03b28: r16 = 0.080000
     //     0xa03b28: add             x16, PP, #0x24, lsl #12  ; [pp+0x24f28] 0.08
     //     0xa03b2c: ldr             x16, [x16, #0xf28]
@@ -13564,8 +13564,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa03b70: add             x1, x1, HEAP, lsl #32
     // 0xa03b74: cmp             w1, NULL
     // 0xa03b78: b.eq            #0xa03ff4
-    // 0xa03b7c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa03b7c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa03b7c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa03b7c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa03b80: stur            x0, [fp, #-0x30]
     // 0xa03b84: r0 = Icon()
     //     0xa03b84: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -13607,7 +13607,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa03be8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dba0] "Edit goals"
     //     0xa03bec: ldr             x1, [x1, #0xba0]
     // 0xa03bf0: r0 = L()
-    //     0xa03bf0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa03bf0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa03bf4: stur            x0, [fp, #-0x38]
     // 0xa03bf8: r0 = IconButton()
     //     0xa03bf8: bl              #0x9d5dc4  ; AllocateIconButtonStub -> IconButton (size=0x70)
@@ -13624,7 +13624,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa03c14: stur            w0, [x3, #0x13]
     // 0xa03c18: ldur            x2, [fp, #-0x18]
     // 0xa03c1c: r1 = Function '<anonymous closure>':.
-    //     0xa03c1c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dbb0] AnonymousClosure: (0xa04004), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildWeeklyGoals (0xa039e0)
+    //     0xa03c1c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dbb0] AnonymousClosure: (0xa04004), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildWeeklyGoals (0xa039e0)
     //     0xa03c20: ldr             x1, [x1, #0xbb0]
     // 0xa03c24: r0 = AllocateClosure()
     //     0xa03c24: bl              #0xe553e0  ; AllocateClosureStub
@@ -13729,7 +13729,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa03d18: add             x1, PP, #0x11, lsl #12  ; [pp+0x11e80] "Shots"
     //     0xa03d1c: ldr             x1, [x1, #0xe80]
     // 0xa03d20: r0 = L()
-    //     0xa03d20: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa03d20: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa03d24: mov             x3, x0
     // 0xa03d28: ldur            x2, [fp, #-0x10]
     // 0xa03d2c: stur            x3, [fp, #-0x30]
@@ -13787,7 +13787,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa03db8: add             x1, PP, #0x29, lsl #12  ; [pp+0x29418] "Makes"
     //     0xa03dbc: ldr             x1, [x1, #0x418]
     // 0xa03dc0: r0 = L()
-    //     0xa03dc0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa03dc0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa03dc4: mov             x2, x0
     // 0xa03dc8: ldur            x0, [fp, #-0x10]
     // 0xa03dcc: stur            x2, [fp, #-0x38]
@@ -13845,7 +13845,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa03e58: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c6a8] "Time (H)"
     //     0xa03e5c: ldr             x1, [x1, #0x6a8]
     // 0xa03e60: r0 = L()
-    //     0xa03e60: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa03e60: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa03e64: mov             x1, x0
     // 0xa03e68: ldur            x0, [fp, #-8]
     // 0xa03e6c: stur            x1, [fp, #-0x40]
@@ -13956,8 +13956,8 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0xa03f74: ldur            x0, [fp, #-8]
     // 0xa03f78: StoreField: r1->field_b = r0
     //     0xa03f78: stur            w0, [x1, #0xb]
-    // 0xa03f7c: r0 = BallAiLiquidGlassCard()
-    //     0xa03f7c: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xa03f7c: r0 = KourtAiLiquidGlassCard()
+    //     0xa03f7c: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xa03f80: ldur            x1, [fp, #-0x10]
     // 0xa03f84: StoreField: r0->field_b = r1
     //     0xa03f84: stur            w1, [x0, #0xb]
@@ -14029,7 +14029,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa04028: add             x0, x0, HEAP, lsl #32
     // 0xa0402c: mov             x1, x0
     // 0xa04030: r0 = _openGoalsEditor()
-    //     0xa04030: bl              #0xa0404c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_openGoalsEditor
+    //     0xa04030: bl              #0xa0404c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_openGoalsEditor
     // 0xa04034: r0 = Null
     //     0xa04034: mov             x0, NULL
     // 0xa04038: LeaveFrame
@@ -14068,7 +14068,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0xa04084: cmp             w1, NULL
     // 0xa04088: b.eq            #0xa040ac
     // 0xa0408c: r0 = showAccountSetupWeeklyGoalsEditor()
-    //     0xa0408c: bl              #0xa040b0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] ::showAccountSetupWeeklyGoalsEditor
+    //     0xa0408c: bl              #0xa040b0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] ::showAccountSetupWeeklyGoalsEditor
     // 0xa04090: mov             x1, x0
     // 0xa04094: stur            x1, [fp, #-0x10]
     // 0xa04098: r0 = Await()
@@ -14101,7 +14101,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa04170: b.ls            #0xa04270
     // 0xa04174: mov             x1, x0
     // 0xa04178: r0 = coachFirstName()
-    //     0xa04178: bl              #0x936898  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::coachFirstName
+    //     0xa04178: bl              #0x936898  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::coachFirstName
     // 0xa0417c: mov             x1, x0
     // 0xa04180: r0 = trim()
     //     0xa04180: bl              #0x5ed854  ; [dart:core] _StringBase::trim
@@ -14112,12 +14112,12 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa0418c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a630] "hooper"
     //     0xa04190: ldr             x1, [x1, #0x630]
     // 0xa04194: r0 = L()
-    //     0xa04194: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa04194: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa04198: mov             x3, x0
     // 0xa0419c: b               #0xa041b4
     // 0xa041a0: ldur            x1, [fp, #-0x10]
     // 0xa041a4: r0 = coachFirstName()
-    //     0xa041a4: bl              #0x936898  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::coachFirstName
+    //     0xa041a4: bl              #0x936898  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::coachFirstName
     // 0xa041a8: mov             x1, x0
     // 0xa041ac: r0 = trim()
     //     0xa041ac: bl              #0x5ed854  ; [dart:core] _StringBase::trim
@@ -14128,10 +14128,10 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa041bc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dbe8] "{name}, your plan is ready — here\'s how you\'ll become an ELITE %@ by %@."
     //     0xa041c0: ldr             x1, [x1, #0xbe8]
     // 0xa041c4: r0 = L()
-    //     0xa041c4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa041c4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa041c8: stur            x0, [fp, #-0x20]
     // 0xa041cc: r0 = instance()
-    //     0xa041cc: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0xa041cc: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0xa041d0: ldur            x1, [fp, #-0x20]
     // 0xa041d4: ldur            x3, [fp, #-0x18]
     // 0xa041d8: r2 = "{name}"
@@ -14149,11 +14149,11 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa041f8: add             x2, x2, HEAP, lsl #32
     // 0xa041fc: ldur            x1, [fp, #-8]
     // 0xa04200: r0 = _eliteRole()
-    //     0xa04200: bl              #0xa04728  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_eliteRole
+    //     0xa04200: bl              #0xa04728  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_eliteRole
     // 0xa04204: ldur            x1, [fp, #-8]
     // 0xa04208: stur            x0, [fp, #-8]
     // 0xa0420c: r0 = _datePlus3Months()
-    //     0xa0420c: bl              #0xa04278  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_datePlus3Months
+    //     0xa0420c: bl              #0xa04278  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_datePlus3Months
     // 0xa04210: r1 = Null
     //     0xa04210: mov             x1, NULL
     // 0xa04214: r2 = 4
@@ -14185,7 +14185,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0xa04258: ldur            x1, [fp, #-0x18]
     // 0xa0425c: ldur            x2, [fp, #-0x20]
     // 0xa04260: r0 = localizedFormat()
-    //     0xa04260: bl              #0x5ef9e0  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedFormat
+    //     0xa04260: bl              #0x5ef9e0  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedFormat
     // 0xa04264: LeaveFrame
     //     0xa04264: mov             SP, fp
     //     0xa04268: ldp             fp, lr, [SP], #0x10
@@ -14312,7 +14312,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa043b0: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be10] "January"
     //     0xa043b4: ldr             x1, [x1, #0xe10]
     // 0xa043b8: r0 = L()
-    //     0xa043b8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa043b8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa043bc: r1 = <String>
     //     0xa043bc: ldr             x1, [PP, #0x850]  ; [pp+0x850] TypeArguments: <String>
     // 0xa043c0: r2 = 24
@@ -14329,7 +14329,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa043dc: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be18] "February"
     //     0xa043e0: ldr             x1, [x1, #0xe18]
     // 0xa043e4: r0 = L()
-    //     0xa043e4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa043e4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa043e8: ldur            x1, [fp, #-0x28]
     // 0xa043ec: ArrayStore: r1[1] = r0  ; List_4
     //     0xa043ec: add             x25, x1, #0x13
@@ -14345,7 +14345,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa04410: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be20] "March"
     //     0xa04414: ldr             x1, [x1, #0xe20]
     // 0xa04418: r0 = L()
-    //     0xa04418: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa04418: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa0441c: ldur            x1, [fp, #-0x28]
     // 0xa04420: ArrayStore: r1[2] = r0  ; List_4
     //     0xa04420: add             x25, x1, #0x17
@@ -14361,7 +14361,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa04444: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be28] "April"
     //     0xa04448: ldr             x1, [x1, #0xe28]
     // 0xa0444c: r0 = L()
-    //     0xa0444c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa0444c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa04450: ldur            x1, [fp, #-0x28]
     // 0xa04454: ArrayStore: r1[3] = r0  ; List_4
     //     0xa04454: add             x25, x1, #0x1b
@@ -14377,7 +14377,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa04478: add             x1, PP, #0x27, lsl #12  ; [pp+0x27358] "May"
     //     0xa0447c: ldr             x1, [x1, #0x358]
     // 0xa04480: r0 = L()
-    //     0xa04480: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa04480: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa04484: ldur            x1, [fp, #-0x28]
     // 0xa04488: ArrayStore: r1[4] = r0  ; List_4
     //     0xa04488: add             x25, x1, #0x1f
@@ -14393,7 +14393,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa044ac: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be30] "June"
     //     0xa044b0: ldr             x1, [x1, #0xe30]
     // 0xa044b4: r0 = L()
-    //     0xa044b4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa044b4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa044b8: ldur            x1, [fp, #-0x28]
     // 0xa044bc: ArrayStore: r1[5] = r0  ; List_4
     //     0xa044bc: add             x25, x1, #0x23
@@ -14409,7 +14409,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa044e0: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be38] "July"
     //     0xa044e4: ldr             x1, [x1, #0xe38]
     // 0xa044e8: r0 = L()
-    //     0xa044e8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa044e8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa044ec: ldur            x1, [fp, #-0x28]
     // 0xa044f0: ArrayStore: r1[6] = r0  ; List_4
     //     0xa044f0: add             x25, x1, #0x27
@@ -14425,7 +14425,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa04514: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be40] "August"
     //     0xa04518: ldr             x1, [x1, #0xe40]
     // 0xa0451c: r0 = L()
-    //     0xa0451c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa0451c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa04520: ldur            x1, [fp, #-0x28]
     // 0xa04524: ArrayStore: r1[7] = r0  ; List_4
     //     0xa04524: add             x25, x1, #0x2b
@@ -14441,7 +14441,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa04548: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be48] "September"
     //     0xa0454c: ldr             x1, [x1, #0xe48]
     // 0xa04550: r0 = L()
-    //     0xa04550: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa04550: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa04554: ldur            x1, [fp, #-0x28]
     // 0xa04558: ArrayStore: r1[8] = r0  ; List_4
     //     0xa04558: add             x25, x1, #0x2f
@@ -14457,7 +14457,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa0457c: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be50] "October"
     //     0xa04580: ldr             x1, [x1, #0xe50]
     // 0xa04584: r0 = L()
-    //     0xa04584: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa04584: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa04588: ldur            x1, [fp, #-0x28]
     // 0xa0458c: ArrayStore: r1[9] = r0  ; List_4
     //     0xa0458c: add             x25, x1, #0x33
@@ -14473,7 +14473,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa045b0: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be58] "November"
     //     0xa045b4: ldr             x1, [x1, #0xe58]
     // 0xa045b8: r0 = L()
-    //     0xa045b8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa045b8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa045bc: ldur            x1, [fp, #-0x28]
     // 0xa045c0: ArrayStore: r1[10] = r0  ; List_4
     //     0xa045c0: add             x25, x1, #0x37
@@ -14489,7 +14489,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa045e4: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be60] "December"
     //     0xa045e8: ldr             x1, [x1, #0xe60]
     // 0xa045ec: r0 = L()
-    //     0xa045ec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa045ec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa045f0: ldur            x1, [fp, #-0x28]
     // 0xa045f4: ArrayStore: r1[11] = r0  ; List_4
     //     0xa045f4: add             x25, x1, #0x3b
@@ -14627,7 +14627,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa04758: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be68] "shooter"
     //     0xa0475c: ldr             x1, [x1, #0xe68]
     // 0xa04760: r0 = L()
-    //     0xa04760: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa04760: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa04764: LeaveFrame
     //     0xa04764: mov             SP, fp
     //     0xa04768: ldp             fp, lr, [SP], #0x10
@@ -14645,7 +14645,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa04788: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be70] "playmaker"
     //     0xa0478c: ldr             x1, [x1, #0xe70]
     // 0xa04790: r0 = L()
-    //     0xa04790: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa04790: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa04794: LeaveFrame
     //     0xa04794: mov             SP, fp
     //     0xa04798: ldp             fp, lr, [SP], #0x10
@@ -14663,7 +14663,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa047b8: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be78] "finisher"
     //     0xa047bc: ldr             x1, [x1, #0xe78]
     // 0xa047c0: r0 = L()
-    //     0xa047c0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa047c0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa047c4: LeaveFrame
     //     0xa047c4: mov             SP, fp
     //     0xa047c8: ldp             fp, lr, [SP], #0x10
@@ -14681,7 +14681,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa047e8: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be80] "defender"
     //     0xa047ec: ldr             x1, [x1, #0xe80]
     // 0xa047f0: r0 = L()
-    //     0xa047f0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa047f0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa047f4: LeaveFrame
     //     0xa047f4: mov             SP, fp
     //     0xa047f8: ldp             fp, lr, [SP], #0x10
@@ -14699,7 +14699,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa04818: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be88] "athlete"
     //     0xa0481c: ldr             x1, [x1, #0xe88]
     // 0xa04820: r0 = L()
-    //     0xa04820: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa04820: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa04824: LeaveFrame
     //     0xa04824: mov             SP, fp
     //     0xa04828: ldp             fp, lr, [SP], #0x10
@@ -14709,7 +14709,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa04830: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a630] "hooper"
     //     0xa04834: ldr             x1, [x1, #0x630]
     // 0xa04838: r0 = L()
-    //     0xa04838: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa04838: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa0483c: LeaveFrame
     //     0xa0483c: mov             SP, fp
     //     0xa04840: ldp             fp, lr, [SP], #0x10
@@ -14798,7 +14798,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa04924: bl              #0xe547fc  ; WriteBarrierWrappersStub
     // 0xa04928: mov             x2, x3
     // 0xa0492c: r1 = Function '<anonymous closure>':.
-    //     0xa0492c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d118] AnonymousClosure: (0xa04988), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::build (0x9f61b0)
+    //     0xa0492c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d118] AnonymousClosure: (0xa04988), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::build (0x9f61b0)
     //     0xa04930: ldr             x1, [x1, #0x118]
     // 0xa04934: r0 = AllocateClosure()
     //     0xa04934: bl              #0xe553e0  ; AllocateClosureStub
@@ -14812,7 +14812,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0xa0494c: DecompressPointer r1
     //     0xa0494c: add             x1, x1, HEAP, lsl #32
     // 0xa04950: r0 = _updateArchetypeCardVisibility()
-    //     0xa04950: bl              #0x94dc48  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_updateArchetypeCardVisibility
+    //     0xa04950: bl              #0x94dc48  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_updateArchetypeCardVisibility
     // 0xa04954: ldur            x0, [fp, #-8]
     // 0xa04958: LoadField: r1 = r0->field_f
     //     0xa04958: ldur            w1, [x0, #0xf]
@@ -14824,7 +14824,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa04964: add             x0, x0, HEAP, lsl #32
     // 0xa04968: tbnz            w0, #4, #0xa04970
     // 0xa0496c: r0 = _maybeAutoAdvanceArchetypeCard()
-    //     0xa0496c: bl              #0x94d730  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_maybeAutoAdvanceArchetypeCard
+    //     0xa0496c: bl              #0x94d730  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_maybeAutoAdvanceArchetypeCard
     // 0xa04970: r0 = false
     //     0xa04970: add             x0, NULL, #0x30  ; false
     // 0xa04974: LeaveFrame
@@ -14898,7 +14898,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0xa04a18: ret
     //     0xa04a18: ret             
     // 0xa04a1c: r1 = Function '<anonymous closure>':.
-    //     0xa04a1c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d160] AnonymousClosure: (0xa04a4c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::build (0x9f61b0)
+    //     0xa04a1c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d160] AnonymousClosure: (0xa04a4c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::build (0x9f61b0)
     //     0xa04a20: ldr             x1, [x1, #0x160]
     // 0xa04a24: r0 = AllocateClosure()
     //     0xa04a24: bl              #0xe553e0  ; AllocateClosureStub
@@ -14950,7 +14950,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa04a84: cmp             SP, x16
     //     0xa04a88: b.ls            #0xa04a9c
     // 0xa04a8c: r0 = _runStreakAnimation()
-    //     0xa04a8c: bl              #0xa04aa4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runStreakAnimation
+    //     0xa04a8c: bl              #0xa04aa4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runStreakAnimation
     // 0xa04a90: LeaveFrame
     //     0xa04a90: mov             SP, fp
     //     0xa04a94: ldp             fp, lr, [SP], #0x10
@@ -15093,7 +15093,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0xa04c04: tbnz            w0, #4, #0xa04c34
     // 0xa04c08: ldur            x2, [fp, #-0x30]
     // 0xa04c0c: r1 = Function '<anonymous closure>':.
-    //     0xa04c0c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d168] AnonymousClosure: (0xa05074), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runStreakAnimation (0xa04aa4)
+    //     0xa04c0c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d168] AnonymousClosure: (0xa05074), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runStreakAnimation (0xa04aa4)
     //     0xa04c10: ldr             x1, [x1, #0x168]
     // 0xa04c14: r0 = AllocateClosure()
     //     0xa04c14: bl              #0xe553e0  ; AllocateClosureStub
@@ -15111,7 +15111,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0xa04c34: ldur            x0, [fp, #-0x30]
     // 0xa04c38: mov             x2, x0
     // 0xa04c3c: r1 = Function '<anonymous closure>':.
-    //     0xa04c3c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d170] AnonymousClosure: (0xa05044), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runStreakAnimation (0xa04aa4)
+    //     0xa04c3c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d170] AnonymousClosure: (0xa05044), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runStreakAnimation (0xa04aa4)
     //     0xa04c40: ldr             x1, [x1, #0x170]
     // 0xa04c44: r0 = AllocateClosure()
     //     0xa04c44: bl              #0xe553e0  ; AllocateClosureStub
@@ -15156,7 +15156,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa04cb4: stur            x0, [x3, #7]
     // 0xa04cb8: ldur            x2, [fp, #-8]
     // 0xa04cbc: r1 = Function '<anonymous closure>':.
-    //     0xa04cbc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d178] AnonymousClosure: (0xa04e78), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runStreakAnimation (0xa04aa4)
+    //     0xa04cbc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d178] AnonymousClosure: (0xa04e78), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runStreakAnimation (0xa04aa4)
     //     0xa04cc0: ldr             x1, [x1, #0x178]
     // 0xa04cc4: r0 = AllocateClosure()
     //     0xa04cc4: bl              #0xe553e0  ; AllocateClosureStub
@@ -15347,7 +15347,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa04ed4: ret             
     // 0xa04ed8: mov             x2, x3
     // 0xa04edc: r1 = Function '<anonymous closure>':.
-    //     0xa04edc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d180] AnonymousClosure: (0xa04fe4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runStreakAnimation (0xa04aa4)
+    //     0xa04edc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d180] AnonymousClosure: (0xa04fe4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runStreakAnimation (0xa04aa4)
     //     0xa04ee0: ldr             x1, [x1, #0x180]
     // 0xa04ee4: r0 = AllocateClosure()
     //     0xa04ee4: bl              #0xe553e0  ; AllocateClosureStub
@@ -15377,7 +15377,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0xa04f28: ldur            x2, [fp, #-0x18]
     // 0xa04f2c: stur            x3, [fp, #-8]
     // 0xa04f30: r1 = Function '<anonymous closure>':.
-    //     0xa04f30: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d188] AnonymousClosure: (0xa04fbc), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runStreakAnimation (0xa04aa4)
+    //     0xa04f30: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d188] AnonymousClosure: (0xa04fbc), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runStreakAnimation (0xa04aa4)
     //     0xa04f34: ldr             x1, [x1, #0x188]
     // 0xa04f38: r0 = AllocateClosure()
     //     0xa04f38: bl              #0xe553e0  ; AllocateClosureStub
@@ -15558,7 +15558,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa050bc: cmp             SP, x16
     //     0xa050c0: b.ls            #0xa050d4
     // 0xa050c4: r0 = _runGreenSoundsReveal()
-    //     0xa050c4: bl              #0xa050dc  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runGreenSoundsReveal
+    //     0xa050c4: bl              #0xa050dc  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runGreenSoundsReveal
     // 0xa050c8: LeaveFrame
     //     0xa050c8: mov             SP, fp
     //     0xa050cc: ldp             fp, lr, [SP], #0x10
@@ -15617,7 +15617,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0xa05148: tbnz            w0, #4, #0xa05178
     // 0xa0514c: ldur            x2, [fp, #-0x10]
     // 0xa05150: r1 = Function '<anonymous closure>':.
-    //     0xa05150: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d198] AnonymousClosure: (0xa05318), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runGreenSoundsReveal (0xa050dc)
+    //     0xa05150: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d198] AnonymousClosure: (0xa05318), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runGreenSoundsReveal (0xa050dc)
     //     0xa05154: ldr             x1, [x1, #0x198]
     // 0xa05158: r0 = AllocateClosure()
     //     0xa05158: bl              #0xe553e0  ; AllocateClosureStub
@@ -15634,7 +15634,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa05174: ret             
     // 0xa05178: ldur            x2, [fp, #-0x10]
     // 0xa0517c: r1 = Function '<anonymous closure>':.
-    //     0xa0517c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d1a0] AnonymousClosure: (0x9ccf08), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_tryEndLaunchSplash (0x9ccca8)
+    //     0xa0517c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d1a0] AnonymousClosure: (0x9ccf08), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_tryEndLaunchSplash (0x9ccca8)
     //     0xa05180: ldr             x1, [x1, #0x1a0]
     // 0xa05184: r0 = AllocateClosure()
     //     0xa05184: bl              #0xe553e0  ; AllocateClosureStub
@@ -15659,7 +15659,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0xa051b8: ldur            x2, [fp, #-0x10]
     // 0xa051bc: stur            x0, [fp, #-8]
     // 0xa051c0: r1 = Function '<anonymous closure>':.
-    //     0xa051c0: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d1a8] AnonymousClosure: (0xa05298), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runGreenSoundsReveal (0xa050dc)
+    //     0xa051c0: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d1a8] AnonymousClosure: (0xa05298), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runGreenSoundsReveal (0xa050dc)
     //     0xa051c4: ldr             x1, [x1, #0x1a8]
     // 0xa051c8: r0 = AllocateClosure()
     //     0xa051c8: bl              #0xe553e0  ; AllocateClosureStub
@@ -15772,7 +15772,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0xa052e4: ret
     //     0xa052e4: ret             
     // 0xa052e8: r1 = Function '<anonymous closure>':.
-    //     0xa052e8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d1c0] AnonymousClosure: (0xa05318), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runGreenSoundsReveal (0xa050dc)
+    //     0xa052e8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d1c0] AnonymousClosure: (0xa05318), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runGreenSoundsReveal (0xa050dc)
     //     0xa052ec: ldr             x1, [x1, #0x1c0]
     // 0xa052f0: r0 = AllocateClosure()
     //     0xa052f0: bl              #0xe553e0  ; AllocateClosureStub
@@ -15824,7 +15824,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa05350: cmp             SP, x16
     //     0xa05354: b.ls            #0xa05368
     // 0xa05358: r0 = _onStreamComplete()
-    //     0xa05358: bl              #0xa05370  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_onStreamComplete
+    //     0xa05358: bl              #0xa05370  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_onStreamComplete
     // 0xa0535c: LeaveFrame
     //     0xa0535c: mov             SP, fp
     //     0xa05360: ldp             fp, lr, [SP], #0x10
@@ -15875,7 +15875,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa053cc: ldr             x2, [x2, #0x608]
     // 0xa053d0: stur            x0, [fp, #-0x18]
     // 0xa053d4: r0 = markCoachLineStreamed()
-    //     0xa053d4: bl              #0x94d2b0  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::markCoachLineStreamed
+    //     0xa053d4: bl              #0x94d2b0  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::markCoachLineStreamed
     // 0xa053d8: ldur            x0, [fp, #-8]
     // 0xa053dc: LoadField: r1 = r0->field_f
     //     0xa053dc: ldur            w1, [x0, #0xf]
@@ -15898,7 +15898,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0xa05408: tbnz            w2, #4, #0xa05514
     // 0xa0540c: ldur            x2, [fp, #-0x10]
     // 0xa05410: r1 = Function '<anonymous closure>':.
-    //     0xa05410: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d1c8] AnonymousClosure: (0x954b60), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onWhatsNewRequested (0x954adc)
+    //     0xa05410: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d1c8] AnonymousClosure: (0x954b60), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onWhatsNewRequested (0x954adc)
     //     0xa05414: ldr             x1, [x1, #0x1c8]
     // 0xa05418: r0 = AllocateClosure()
     //     0xa05418: bl              #0xe553e0  ; AllocateClosureStub
@@ -15908,7 +15908,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa05424: bl              #0x6005d4  ; [package:flutter/src/widgets/framework.dart] State::setState
     // 0xa05428: ldur            x1, [fp, #-8]
     // 0xa0542c: r0 = _animateGoalBarsIfNeeded()
-    //     0xa0542c: bl              #0x94a7a4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded
+    //     0xa0542c: bl              #0x94a7a4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded
     // 0xa05430: r0 = LoadStaticField(0x8b4)
     //     0xa05430: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xa05434: ldr             x0, [x0, #0x1168]
@@ -15926,7 +15926,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0xa05454: ldur            x2, [fp, #-0x10]
     // 0xa05458: stur            x0, [fp, #-8]
     // 0xa0545c: r1 = Function '<anonymous closure>':.
-    //     0xa0545c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d1d0] AnonymousClosure: (0xa05544), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_onStreamComplete (0xa05370)
+    //     0xa0545c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d1d0] AnonymousClosure: (0xa05544), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_onStreamComplete (0xa05370)
     //     0xa05460: ldr             x1, [x1, #0x1d0]
     // 0xa05464: r0 = AllocateClosure()
     //     0xa05464: bl              #0xe553e0  ; AllocateClosureStub
@@ -15996,7 +15996,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0xa0551c: r4 = const [0, 0x2, 0, 0x2, null]
     //     0xa0551c: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0xa05520: r0 = setRecapPlanContentRevealed()
-    //     0xa05520: bl              #0x94d304  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setRecapPlanContentRevealed
+    //     0xa05520: bl              #0x94d304  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setRecapPlanContentRevealed
     // 0xa05524: r0 = Null
     //     0xa05524: mov             x0, NULL
     // 0xa05528: LeaveFrame
@@ -16048,7 +16048,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xa05594: ret             
     // 0xa05598: mov             x2, x3
     // 0xa0559c: r1 = Function '<anonymous closure>':.
-    //     0xa0559c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d1e8] AnonymousClosure: (0xa04988), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::build (0x9f61b0)
+    //     0xa0559c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d1e8] AnonymousClosure: (0xa04988), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::build (0x9f61b0)
     //     0xa055a0: ldr             x1, [x1, #0x1e8]
     // 0xa055a4: r0 = AllocateClosure()
     //     0xa055a4: bl              #0xe553e0  ; AllocateClosureStub
@@ -16062,14 +16062,14 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     // 0xa055bc: DecompressPointer r1
     //     0xa055bc: add             x1, x1, HEAP, lsl #32
     // 0xa055c0: r0 = _maybeAutoAdvanceArchetypeCard()
-    //     0xa055c0: bl              #0x94d730  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_maybeAutoAdvanceArchetypeCard
+    //     0xa055c0: bl              #0x94d730  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_maybeAutoAdvanceArchetypeCard
     // 0xa055c4: ldur            x0, [fp, #-0x10]
     // 0xa055c8: LoadField: r1 = r0->field_f
     //     0xa055c8: ldur            w1, [x0, #0xf]
     // 0xa055cc: DecompressPointer r1
     //     0xa055cc: add             x1, x1, HEAP, lsl #32
     // 0xa055d0: r0 = _armRecapAutoScroll()
-    //     0xa055d0: bl              #0x94d46c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_armRecapAutoScroll
+    //     0xa055d0: bl              #0x94d46c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_armRecapAutoScroll
     // 0xa055d4: r0 = Null
     //     0xa055d4: mov             x0, NULL
     // 0xa055d8: LeaveFrame
@@ -16088,7 +16088,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xb5aa6c: mov             fp, SP
     // 0xb5aa70: ldr             x2, [fp, #0x10]
     // 0xb5aa74: r1 = Function 'dispose':.
-    //     0xb5aa74: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c730] AnonymousClosure: (0xb5aa8c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::dispose (0xb60fe4)
+    //     0xb5aa74: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c730] AnonymousClosure: (0xb5aa8c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::dispose (0xb60fe4)
     //     0xb5aa78: ldr             x1, [x1, #0x730]
     // 0xb5aa7c: r0 = AllocateClosure()
     //     0xb5aa7c: bl              #0xe553e0  ; AllocateClosureStub
@@ -16113,7 +16113,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xb5aaa4: cmp             SP, x16
     //     0xb5aaa8: b.ls            #0xb5aabc
     // 0xb5aaac: r0 = dispose()
-    //     0xb5aaac: bl              #0xb60fe4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::dispose
+    //     0xb5aaac: bl              #0xb60fe4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::dispose
     // 0xb5aab0: LeaveFrame
     //     0xb5aab0: mov             SP, fp
     //     0xb5aab4: ldp             fp, lr, [SP], #0x10
@@ -16254,7 +16254,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xb61138: add             x1, x1, HEAP, lsl #32
     // 0xb6113c: r0 = dispose()
     //     0xb6113c: bl              #0x9bf870  ; [package:flutter/src/widgets/scroll_controller.dart] ScrollController::dispose
-    // 0xb61140: r0 = InitLateStaticField(0xee0) // [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
+    // 0xb61140: r0 = InitLateStaticField(0xee0) // [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
     //     0xb61140: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb61144: ldr             x0, [x0, #0x1dc0]
     //     0xb61148: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -16265,7 +16265,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xb6115c: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0xb61160: ldur            x2, [fp, #-0x28]
     // 0xb61164: r1 = Function '_onGreenCatalog@1066120196':.
-    //     0xb61164: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dbf0] AnonymousClosure: (0x94c118), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_onGreenCatalog (0x94c150)
+    //     0xb61164: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dbf0] AnonymousClosure: (0x94c118), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_onGreenCatalog (0x94c150)
     //     0xb61168: ldr             x1, [x1, #0xbf0]
     // 0xb6116c: stur            x0, [fp, #-0x10]
     // 0xb61170: r0 = AllocateClosure()
@@ -16290,10 +16290,10 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xb611a0: add             x4, PP, #0x2d, lsl #12  ; [pp+0x2dbf8] List(7) [0, 0x3, 0x1, 0x2, "notify", 0x2, Null]
     //     0xb611a4: ldr             x4, [x4, #0xbf8]
     // 0xb611a8: r0 = setRecapPlanContentRevealed()
-    //     0xb611a8: bl              #0x94d304  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setRecapPlanContentRevealed
+    //     0xb611a8: bl              #0x94d304  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setRecapPlanContentRevealed
     // 0xb611ac: ldur            x1, [fp, #-0x28]
     // 0xb611b0: r0 = dispose()
-    //     0xb611b0: bl              #0xb611fc  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] __AccountSetupRecapParityViewState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb611b0: bl              #0xb611fc  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] __AccountSetupRecapParityViewState&State&SingleTickerProviderStateMixin::dispose
     // 0xb611b4: r0 = Null
     //     0xb611b4: mov             x0, NULL
     // 0xb611b8: LeaveFrame
@@ -16478,7 +16478,7 @@ class _AccountSetupRecapParityViewState extends __AccountSetupRecapParityViewSta
     //     0xb72898: tst             x16, HEAP, lsr #32
     //     0xb7289c: b.eq            #0xb728a4
     //     0xb728a0: bl              #0xe5479c  ; WriteBarrierWrappersStub
-    // 0xb728a4: r0 = InitLateStaticField(0xc3c) // [package:ballai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::_cached
+    // 0xb728a4: r0 = InitLateStaticField(0xc3c) // [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::_cached
     //     0xb728a4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb728a8: ldr             x0, [x0, #0x1878]
     //     0xb728ac: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -16587,7 +16587,7 @@ class AccountSetupRecapParityView extends StatefulWidget {
     // 0xb726e4: mov             x1, x0
     // 0xb726e8: stur            x0, [fp, #-8]
     // 0xb726ec: r0 = _AccountSetupRecapParityViewState()
-    //     0xb726ec: bl              #0xb72708  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_AccountSetupRecapParityViewState
+    //     0xb726ec: bl              #0xb72708  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_AccountSetupRecapParityViewState
     // 0xb726f0: ldur            x0, [fp, #-8]
     // 0xb726f4: LeaveFrame
     //     0xb726f4: mov             SP, fp
@@ -16671,8 +16671,8 @@ class _MetricScoreCard extends StatelessWidget {
     // 0xbcfcf0: StoreField: r2->field_13 = r3
     //     0xbcfcf0: stur            w3, [x2, #0x13]
     // 0xbcfcf4: ldur            x1, [fp, #-0x10]
-    // 0xbcfcf8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbcfcf8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbcfcf8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbcfcf8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbcfcfc: r16 = 0.050000
     //     0xbcfcfc: ldr             x16, [PP, #0x4d10]  ; [pp+0x4d10] 0.05
     // 0xbcfd00: str             x16, [SP]
@@ -16727,8 +16727,8 @@ class _MetricScoreCard extends StatelessWidget {
     //     0xbcfd7c: add             x3, x3, HEAP, lsl #32
     // 0xbcfd80: ldur            x1, [fp, #-0x10]
     // 0xbcfd84: stur            x3, [fp, #-0x28]
-    // 0xbcfd88: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbcfd88: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbcfd88: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbcfd88: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbcfd8c: stur            x0, [fp, #-8]
     // 0xbcfd90: r0 = TextStyle()
     //     0xbcfd90: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -16887,7 +16887,7 @@ class _MetricScoreCard extends StatelessWidget {
     //     0xbcff1c: stur            w1, [x3, #0xb]
     // 0xbcff20: ldur            x2, [fp, #-0x20]
     // 0xbcff24: r1 = Function '<anonymous closure>':.
-    //     0xbcff24: add             x1, PP, #0x38, lsl #12  ; [pp+0x381d0] AnonymousClosure: (0xbd0060), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _MetricScoreCard::build (0xbcfc3c)
+    //     0xbcff24: add             x1, PP, #0x38, lsl #12  ; [pp+0x381d0] AnonymousClosure: (0xbd0060), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _MetricScoreCard::build (0xbcfc3c)
     //     0xbcff28: ldr             x1, [x1, #0x1d0]
     // 0xbcff2c: r0 = AllocateClosure()
     //     0xbcff2c: bl              #0xe553e0  ; AllocateClosureStub
@@ -17031,8 +17031,8 @@ class _MetricScoreCard extends StatelessWidget {
     //     0xbd008c: ldur            d0, [x0, #0xf]
     // 0xbd0090: ldr             x1, [fp, #0x18]
     // 0xbd0094: stur            d0, [fp, #-0x30]
-    // 0xbd0098: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbd0098: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbd0098: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbd0098: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbd009c: r16 = 0.100000
     //     0xbd009c: add             x16, PP, #0x25, lsl #12  ; [pp+0x250a0] 0.1
     //     0xbd00a0: ldr             x16, [x16, #0xa0]
@@ -17333,7 +17333,7 @@ class _FocusRecapCard extends StatelessWidget {
     // 0xbcf668: DecompressPointer r1
     //     0xbcf668: add             x1, x1, HEAP, lsl #32
     // 0xbcf66c: r0 = fromRaw()
-    //     0xbcf66c: bl              #0x90005c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
+    //     0xbcf66c: bl              #0x90005c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
     // 0xbcf670: mov             x3, x0
     // 0xbcf674: ldur            x2, [fp, #-8]
     // 0xbcf678: stur            x3, [fp, #-0x18]
@@ -17573,14 +17573,14 @@ class _FocusRecapCard extends StatelessWidget {
     //     0xbcf8f0: mov             x0, NULL
     // 0xbcf8f4: b               #0xbcf8fc
     // 0xbcf8f8: r0 = displayTitle()
-    //     0xbcf8f8: bl              #0x9efc10  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::displayTitle
+    //     0xbcf8f8: bl              #0x9efc10  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::displayTitle
     // 0xbcf8fc: cmp             w0, NULL
     // 0xbcf900: b.ne            #0xbcf918
     // 0xbcf904: r1 = "Not selected"
     //     0xbcf904: add             x1, PP, #0x38, lsl #12  ; [pp+0x38128] "Not selected"
     //     0xbcf908: ldr             x1, [x1, #0x128]
     // 0xbcf90c: r0 = L()
-    //     0xbcf90c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbcf90c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbcf910: mov             x3, x0
     // 0xbcf914: b               #0xbcf91c
     // 0xbcf918: mov             x3, x0
@@ -17920,8 +17920,8 @@ class _MoreDrillsCard extends StatelessWidget {
     //     0xbcf2fc: cmp             SP, x16
     //     0xbcf300: b.ls            #0xbcf63c
     // 0xbcf304: mov             x1, x0
-    // 0xbcf308: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbcf308: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbcf308: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbcf308: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbcf30c: r1 = LoadClassIdInstr(r0)
     //     0xbcf30c: ldur            x1, [x0, #-1]
     //     0xbcf310: ubfx            x1, x1, #0xc, #0x14
@@ -17963,8 +17963,8 @@ class _MoreDrillsCard extends StatelessWidget {
     // 0xbcf374: StoreField: r2->field_13 = r0
     //     0xbcf374: stur            w0, [x2, #0x13]
     // 0xbcf378: ldur            x1, [fp, #-8]
-    // 0xbcf37c: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbcf37c: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbcf37c: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbcf37c: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbcf380: r1 = LoadClassIdInstr(r0)
     //     0xbcf380: ldur            x1, [x0, #-1]
     //     0xbcf384: ubfx            x1, x1, #0xc, #0x14
@@ -18009,8 +18009,8 @@ class _MoreDrillsCard extends StatelessWidget {
     // 0xbcf3f4: StoreField: r2->field_23 = r0
     //     0xbcf3f4: stur            w0, [x2, #0x23]
     // 0xbcf3f8: ldur            x1, [fp, #-8]
-    // 0xbcf3fc: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbcf3fc: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbcf3fc: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbcf3fc: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbcf400: stur            x0, [fp, #-0x10]
     // 0xbcf404: r0 = Icon()
     //     0xbcf404: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -18041,11 +18041,11 @@ class _MoreDrillsCard extends StatelessWidget {
     //     0xbcf444: add             x1, PP, #0x38, lsl #12  ; [pp+0x38188] "50+ more drills"
     //     0xbcf448: ldr             x1, [x1, #0x188]
     // 0xbcf44c: r0 = L()
-    //     0xbcf44c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbcf44c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbcf450: ldur            x1, [fp, #-8]
     // 0xbcf454: stur            x0, [fp, #-0x20]
-    // 0xbcf458: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbcf458: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbcf458: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbcf458: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbcf45c: stur            x0, [fp, #-0x30]
     // 0xbcf460: r0 = TextStyle()
     //     0xbcf460: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -18091,11 +18091,11 @@ class _MoreDrillsCard extends StatelessWidget {
     //     0xbcf4c8: add             x1, PP, #0x38, lsl #12  ; [pp+0x38190] "Your full training library, built around your game."
     //     0xbcf4cc: ldr             x1, [x1, #0x190]
     // 0xbcf4d0: r0 = L()
-    //     0xbcf4d0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbcf4d0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbcf4d4: ldur            x1, [fp, #-8]
     // 0xbcf4d8: stur            x0, [fp, #-8]
-    // 0xbcf4dc: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbcf4dc: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbcf4dc: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbcf4dc: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbcf4e0: stur            x0, [fp, #-0x38]
     // 0xbcf4e4: r0 = TextStyle()
     //     0xbcf4e4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -18279,8 +18279,8 @@ class _FunnelDrillCard extends StatelessWidget {
     // 0xbcef94: StoreField: r2->field_13 = r0
     //     0xbcef94: stur            w0, [x2, #0x13]
     // 0xbcef98: ldur            x1, [fp, #-0x10]
-    // 0xbcef9c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbcef9c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbcef9c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbcef9c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbcefa0: r16 = 0.080000
     //     0xbcefa0: add             x16, PP, #0x24, lsl #12  ; [pp+0x24f28] 0.08
     //     0xbcefa4: ldr             x16, [x16, #0xf28]
@@ -18781,7 +18781,7 @@ class _TheatricalGoalBar extends StatelessWidget {
     //     0xbcea2c: stur            w1, [x3, #0xb]
     // 0xbcea30: ldur            x2, [fp, #-0x20]
     // 0xbcea34: r1 = Function '<anonymous closure>':.
-    //     0xbcea34: add             x1, PP, #0x38, lsl #12  ; [pp+0x381c0] AnonymousClosure: (0xbceb10), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _TheatricalGoalBar::build (0xbce888)
+    //     0xbcea34: add             x1, PP, #0x38, lsl #12  ; [pp+0x381c0] AnonymousClosure: (0xbceb10), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _TheatricalGoalBar::build (0xbce888)
     //     0xbcea38: ldr             x1, [x1, #0x1c0]
     // 0xbcea3c: r0 = AllocateClosure()
     //     0xbcea3c: bl              #0xe553e0  ; AllocateClosureStub
@@ -18961,7 +18961,7 @@ class _TheatricalGoalBar extends StatelessWidget {
     //     0xbcebfc: stur            w0, [x3, #0x1b]
     // 0xbcec00: ldur            x2, [fp, #-0x18]
     // 0xbcec04: r1 = Function '<anonymous closure>':.
-    //     0xbcec04: add             x1, PP, #0x38, lsl #12  ; [pp+0x381c8] AnonymousClosure: (0xbcec54), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _TheatricalGoalBar::build (0xbce888)
+    //     0xbcec04: add             x1, PP, #0x38, lsl #12  ; [pp+0x381c8] AnonymousClosure: (0xbcec54), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _TheatricalGoalBar::build (0xbce888)
     //     0xbcec08: ldr             x1, [x1, #0x1c8]
     // 0xbcec0c: r0 = AllocateClosure()
     //     0xbcec0c: bl              #0xe553e0  ; AllocateClosureStub
@@ -19848,8 +19848,8 @@ class _SectionTitle extends StatelessWidget {
     //     0xbce274: add             x2, x2, HEAP, lsl #32
     // 0xbce278: ldur            x1, [fp, #-0x10]
     // 0xbce27c: stur            x2, [fp, #-0x18]
-    // 0xbce280: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbce280: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbce280: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbce280: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbce284: stur            x0, [fp, #-8]
     // 0xbce288: r0 = TextStyle()
     //     0xbce288: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)

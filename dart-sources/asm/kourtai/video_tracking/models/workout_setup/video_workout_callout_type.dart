@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/models/workout_setup/video_workout_callout_type.dart
+// lib: , url: package:kourtai/video_tracking/models/workout_setup/video_workout_callout_type.dart
 
 // class id: 1049151, size: 0x8
 class :: {
@@ -80,7 +80,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0x726404: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d408] "%lld for %lld"
     //     0x726408: ldr             x1, [x1, #0x408]
     // 0x72640c: r0 = LF()
-    //     0x72640c: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x72640c: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x726410: LeaveFrame
     //     0x726410: mov             SP, fp
     //     0x726414: ldp             fp, lr, [SP], #0x10
@@ -163,7 +163,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0x726504: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d410] "%lld%%"
     //     0x726508: ldr             x1, [x1, #0x410]
     // 0x72650c: r0 = LF()
-    //     0x72650c: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x72650c: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x726510: LeaveFrame
     //     0x726510: mov             SP, fp
     //     0x726514: ldp             fp, lr, [SP], #0x10
@@ -204,7 +204,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0x726570: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d418] "%lld degrees"
     //     0x726574: ldr             x1, [x1, #0x418]
     // 0x726578: r0 = LF()
-    //     0x726578: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x726578: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x72657c: LeaveFrame
     //     0x72657c: mov             SP, fp
     //     0x726580: ldp             fp, lr, [SP], #0x10
@@ -248,7 +248,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0x7265e8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d408] "%lld for %lld"
     //     0x7265ec: ldr             x1, [x1, #0x408]
     // 0x7265f0: r0 = LF()
-    //     0x7265f0: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x7265f0: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x7265f4: LeaveFrame
     //     0x7265f4: mov             SP, fp
     //     0x7265f8: ldp             fp, lr, [SP], #0x10
@@ -290,7 +290,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0x726654: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d428] "%@ seconds"
     //     0x726658: ldr             x1, [x1, #0x428]
     // 0x72665c: r0 = LF()
-    //     0x72665c: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x72665c: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x726660: LeaveFrame
     //     0x726660: mov             SP, fp
     //     0x726664: ldp             fp, lr, [SP], #0x10
@@ -334,7 +334,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0x7266cc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d408] "%lld for %lld"
     //     0x7266d0: ldr             x1, [x1, #0x408]
     // 0x7266d4: r0 = LF()
-    //     0x7266d4: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x7266d4: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x7266d8: LeaveFrame
     //     0x7266d8: mov             SP, fp
     //     0x7266dc: ldp             fp, lr, [SP], #0x10
@@ -355,7 +355,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0x726708: add             x1, PP, #0x31, lsl #12  ; [pp+0x31ed8] "Miss"
     //     0x72670c: ldr             x1, [x1, #0xed8]
     // 0x726710: r0 = L()
-    //     0x726710: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x726710: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x726714: LeaveFrame
     //     0x726714: mov             SP, fp
     //     0x726718: ldp             fp, lr, [SP], #0x10
@@ -404,7 +404,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0x72678c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d430] "%lld in a row"
     //     0x726790: ldr             x1, [x1, #0x430]
     // 0x726794: r0 = LF()
-    //     0x726794: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x726794: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x726798: LeaveFrame
     //     0x726798: mov             SP, fp
     //     0x72679c: ldp             fp, lr, [SP], #0x10
@@ -440,7 +440,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     // 0x7267f8: ldur            x6, [fp, #-0x40]
     // 0x7267fc: ldur            x7, [fp, #-0x10]
     // 0x726800: r0 = speechText()
-    //     0x726800: bl              #0x726348  ; [package:ballai/video_tracking/models/workout_setup/video_workout_callout_type.dart] VideoWorkoutCalloutType::speechText
+    //     0x726800: bl              #0x726348  ; [package:kourtai/video_tracking/models/workout_setup/video_workout_callout_type.dart] VideoWorkoutCalloutType::speechText
     // 0x726804: LeaveFrame
     //     0x726804: mov             SP, fp
     //     0x726808: ldp             fp, lr, [SP], #0x10
@@ -598,7 +598,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0x94cdfc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d408] "%lld for %lld"
     //     0x94ce00: ldr             x1, [x1, #0x408]
     // 0x94ce04: r0 = LF()
-    //     0x94ce04: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x94ce04: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x94ce08: LeaveFrame
     //     0x94ce08: mov             SP, fp
     //     0x94ce0c: ldp             fp, lr, [SP], #0x10
@@ -633,7 +633,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0x94ce50: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d410] "%lld%%"
     //     0x94ce54: ldr             x1, [x1, #0x410]
     // 0x94ce58: r0 = LF()
-    //     0x94ce58: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x94ce58: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x94ce5c: LeaveFrame
     //     0x94ce5c: mov             SP, fp
     //     0x94ce60: ldp             fp, lr, [SP], #0x10
@@ -670,7 +670,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0x94ceac: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d418] "%lld degrees"
     //     0x94ceb0: ldr             x1, [x1, #0x418]
     // 0x94ceb4: r0 = LF()
-    //     0x94ceb4: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x94ceb4: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x94ceb8: LeaveFrame
     //     0x94ceb8: mov             SP, fp
     //     0x94cebc: ldp             fp, lr, [SP], #0x10
@@ -705,7 +705,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0x94cf04: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d428] "%@ seconds"
     //     0x94cf08: ldr             x1, [x1, #0x428]
     // 0x94cf0c: r0 = LF()
-    //     0x94cf0c: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x94cf0c: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x94cf10: LeaveFrame
     //     0x94cf10: mov             SP, fp
     //     0x94cf14: ldp             fp, lr, [SP], #0x10
@@ -721,7 +721,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0x94cf30: add             x1, PP, #0x29, lsl #12  ; [pp+0x29420] "Make"
     //     0x94cf34: ldr             x1, [x1, #0x420]
     // 0x94cf38: r0 = L()
-    //     0x94cf38: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x94cf38: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x94cf3c: LeaveFrame
     //     0x94cf3c: mov             SP, fp
     //     0x94cf40: ldp             fp, lr, [SP], #0x10
@@ -754,7 +754,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0x94cf80: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d430] "%lld in a row"
     //     0x94cf84: ldr             x1, [x1, #0x430]
     // 0x94cf88: r0 = LF()
-    //     0x94cf88: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x94cf88: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x94cf8c: LeaveFrame
     //     0x94cf8c: mov             SP, fp
     //     0x94cf90: ldp             fp, lr, [SP], #0x10
@@ -766,7 +766,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0x94cfa0: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cbe0] "Random"
     //     0x94cfa4: ldr             x1, [x1, #0xbe0]
     // 0x94cfa8: r0 = L()
-    //     0x94cfa8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x94cfa8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x94cfac: LeaveFrame
     //     0x94cfac: mov             SP, fp
     //     0x94cfb0: ldp             fp, lr, [SP], #0x10
@@ -804,7 +804,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0x9f9170: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d438] "Basic Stats"
     //     0x9f9174: ldr             x1, [x1, #0x438]
     // 0x9f9178: r0 = L()
-    //     0x9f9178: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f9178: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f917c: LeaveFrame
     //     0x9f917c: mov             SP, fp
     //     0x9f9180: ldp             fp, lr, [SP], #0x10
@@ -814,7 +814,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0x9f9188: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c708] "Make %"
     //     0x9f918c: ldr             x1, [x1, #0x708]
     // 0x9f9190: r0 = L()
-    //     0x9f9190: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f9190: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f9194: LeaveFrame
     //     0x9f9194: mov             SP, fp
     //     0x9f9198: ldp             fp, lr, [SP], #0x10
@@ -826,7 +826,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0x9f91a8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d2f0] "Release Angle"
     //     0x9f91ac: ldr             x1, [x1, #0x2f0]
     // 0x9f91b0: r0 = L()
-    //     0x9f91b0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f91b0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f91b4: LeaveFrame
     //     0x9f91b4: mov             SP, fp
     //     0x9f91b8: ldp             fp, lr, [SP], #0x10
@@ -836,7 +836,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0x9f91c0: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d310] "Release Time"
     //     0x9f91c4: ldr             x1, [x1, #0x310]
     // 0x9f91c8: r0 = L()
-    //     0x9f91c8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f91c8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f91cc: LeaveFrame
     //     0x9f91cc: mov             SP, fp
     //     0x9f91d0: ldp             fp, lr, [SP], #0x10
@@ -850,7 +850,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0x9f91e8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d440] "Make Miss"
     //     0x9f91ec: ldr             x1, [x1, #0x440]
     // 0x9f91f0: r0 = L()
-    //     0x9f91f0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f91f0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f91f4: LeaveFrame
     //     0x9f91f4: mov             SP, fp
     //     0x9f91f8: ldp             fp, lr, [SP], #0x10
@@ -860,7 +860,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0x9f9200: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d448] "Make Streak"
     //     0x9f9204: ldr             x1, [x1, #0x448]
     // 0x9f9208: r0 = L()
-    //     0x9f9208: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f9208: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f920c: LeaveFrame
     //     0x9f920c: mov             SP, fp
     //     0x9f9210: ldp             fp, lr, [SP], #0x10
@@ -872,7 +872,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0x9f9220: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cbe0] "Random"
     //     0x9f9224: ldr             x1, [x1, #0xbe0]
     // 0x9f9228: r0 = L()
-    //     0x9f9228: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f9228: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f922c: LeaveFrame
     //     0x9f922c: mov             SP, fp
     //     0x9f9230: ldp             fp, lr, [SP], #0x10
@@ -882,7 +882,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0x9f9238: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cbc8] "None"
     //     0x9f923c: ldr             x1, [x1, #0xbc8]
     // 0x9f9240: r0 = L()
-    //     0x9f9240: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f9240: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f9244: LeaveFrame
     //     0x9f9244: mov             SP, fp
     //     0x9f9248: ldp             fp, lr, [SP], #0x10
@@ -913,7 +913,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0xae01e0: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cf30] "Hear your workout\'s total makes & shots."
     //     0xae01e4: ldr             x1, [x1, #0xf30]
     // 0xae01e8: r0 = L()
-    //     0xae01e8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xae01e8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xae01ec: LeaveFrame
     //     0xae01ec: mov             SP, fp
     //     0xae01f0: ldp             fp, lr, [SP], #0x10
@@ -923,7 +923,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0xae01f8: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cf38] "Get your shooting percentage in real time."
     //     0xae01fc: ldr             x1, [x1, #0xf38]
     // 0xae0200: r0 = L()
-    //     0xae0200: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xae0200: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xae0204: LeaveFrame
     //     0xae0204: mov             SP, fp
     //     0xae0208: ldp             fp, lr, [SP], #0x10
@@ -935,7 +935,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0xae0218: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cf40] "Learn your shot release angle in degrees."
     //     0xae021c: ldr             x1, [x1, #0xf40]
     // 0xae0220: r0 = L()
-    //     0xae0220: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xae0220: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xae0224: LeaveFrame
     //     0xae0224: mov             SP, fp
     //     0xae0228: ldp             fp, lr, [SP], #0x10
@@ -945,7 +945,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0xae0230: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cf48] "Time from shot start to release in seconds."
     //     0xae0234: ldr             x1, [x1, #0xf48]
     // 0xae0238: r0 = L()
-    //     0xae0238: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xae0238: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xae023c: LeaveFrame
     //     0xae023c: mov             SP, fp
     //     0xae0240: ldp             fp, lr, [SP], #0x10
@@ -959,7 +959,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0xae0258: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cf50] "Hear if the last shot was a make or miss."
     //     0xae025c: ldr             x1, [x1, #0xf50]
     // 0xae0260: r0 = L()
-    //     0xae0260: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xae0260: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xae0264: LeaveFrame
     //     0xae0264: mov             SP, fp
     //     0xae0268: ldp             fp, lr, [SP], #0x10
@@ -969,7 +969,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0xae0270: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cf58] "Hear how many makes you\'ve hit in a row."
     //     0xae0274: ldr             x1, [x1, #0xf58]
     // 0xae0278: r0 = L()
-    //     0xae0278: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xae0278: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xae027c: LeaveFrame
     //     0xae027c: mov             SP, fp
     //     0xae0280: ldp             fp, lr, [SP], #0x10
@@ -981,7 +981,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0xae0290: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cf60] "Mix it up with a random callout each shot."
     //     0xae0294: ldr             x1, [x1, #0xf60]
     // 0xae0298: r0 = L()
-    //     0xae0298: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xae0298: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xae029c: LeaveFrame
     //     0xae029c: mov             SP, fp
     //     0xae02a0: ldp             fp, lr, [SP], #0x10
@@ -991,7 +991,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0xae02a8: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cf68] "No spoken callouts during your workout."
     //     0xae02ac: ldr             x1, [x1, #0xf68]
     // 0xae02b0: r0 = L()
-    //     0xae02b0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xae02b0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xae02b4: LeaveFrame
     //     0xae02b4: mov             SP, fp
     //     0xae02b8: ldp             fp, lr, [SP], #0x10
@@ -1022,7 +1022,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0xc45084: add             x1, PP, #0x51, lsl #12  ; [pp+0x51b90] "BASIC STATS"
     //     0xc45088: ldr             x1, [x1, #0xb90]
     // 0xc4508c: r0 = L()
-    //     0xc4508c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc4508c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc45090: LeaveFrame
     //     0xc45090: mov             SP, fp
     //     0xc45094: ldp             fp, lr, [SP], #0x10
@@ -1032,7 +1032,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0xc4509c: add             x1, PP, #0x51, lsl #12  ; [pp+0x51b98] "MAKE PERCENT"
     //     0xc450a0: ldr             x1, [x1, #0xb98]
     // 0xc450a4: r0 = L()
-    //     0xc450a4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc450a4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc450a8: LeaveFrame
     //     0xc450a8: mov             SP, fp
     //     0xc450ac: ldp             fp, lr, [SP], #0x10
@@ -1044,7 +1044,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0xc450bc: add             x1, PP, #0x51, lsl #12  ; [pp+0x51ba0] "RELEASE ANGLE"
     //     0xc450c0: ldr             x1, [x1, #0xba0]
     // 0xc450c4: r0 = L()
-    //     0xc450c4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc450c4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc450c8: LeaveFrame
     //     0xc450c8: mov             SP, fp
     //     0xc450cc: ldp             fp, lr, [SP], #0x10
@@ -1054,7 +1054,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0xc450d4: add             x1, PP, #0x51, lsl #12  ; [pp+0x51ba8] "RELEASE TIME"
     //     0xc450d8: ldr             x1, [x1, #0xba8]
     // 0xc450dc: r0 = L()
-    //     0xc450dc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc450dc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc450e0: LeaveFrame
     //     0xc450e0: mov             SP, fp
     //     0xc450e4: ldp             fp, lr, [SP], #0x10
@@ -1068,7 +1068,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0xc450fc: add             x1, PP, #0x51, lsl #12  ; [pp+0x51bb0] "videoWorkout.callout.makeMiss.title"
     //     0xc45100: ldr             x1, [x1, #0xbb0]
     // 0xc45104: r0 = L()
-    //     0xc45104: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc45104: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc45108: LeaveFrame
     //     0xc45108: mov             SP, fp
     //     0xc4510c: ldp             fp, lr, [SP], #0x10
@@ -1078,7 +1078,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0xc45114: add             x1, PP, #0x51, lsl #12  ; [pp+0x51bb8] "MAKE STREAK"
     //     0xc45118: ldr             x1, [x1, #0xbb8]
     // 0xc4511c: r0 = L()
-    //     0xc4511c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc4511c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc45120: LeaveFrame
     //     0xc45120: mov             SP, fp
     //     0xc45124: ldp             fp, lr, [SP], #0x10
@@ -1090,7 +1090,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0xc45134: add             x1, PP, #0x51, lsl #12  ; [pp+0x51bc0] "RANDOM"
     //     0xc45138: ldr             x1, [x1, #0xbc0]
     // 0xc4513c: r0 = L()
-    //     0xc4513c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc4513c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc45140: LeaveFrame
     //     0xc45140: mov             SP, fp
     //     0xc45144: ldp             fp, lr, [SP], #0x10
@@ -1100,7 +1100,7 @@ enum VideoWorkoutCalloutType extends _Enum {
     //     0xc4514c: add             x1, PP, #0x51, lsl #12  ; [pp+0x51bc8] "NONE"
     //     0xc45150: ldr             x1, [x1, #0xbc8]
     // 0xc45154: r0 = L()
-    //     0xc45154: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc45154: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc45158: LeaveFrame
     //     0xc45158: mov             SP, fp
     //     0xc4515c: ldp             fp, lr, [SP], #0x10

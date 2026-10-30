@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/utility/defaults/defaults_lets_hoop_setup_tutorial_strip.dart
+// lib: , url: package:kourtai/video_tracking/utility/defaults/defaults_lets_hoop_setup_tutorial_strip.dart
 
 // class id: 1049190, size: 0x8
 class :: {

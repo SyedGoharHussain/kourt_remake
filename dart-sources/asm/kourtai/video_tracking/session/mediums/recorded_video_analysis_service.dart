@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/session/mediums/recorded_video_analysis_service.dart
+// lib: , url: package:kourtai/video_tracking/session/mediums/recorded_video_analysis_service.dart
 
 // class id: 1049182, size: 0x8
 class :: {
@@ -25,7 +25,7 @@ class RecordedVideoAnalysisService extends ChangeNotifier {
     // 0xb77a7c: mov             x1, x0
     // 0xb77a80: stur            x0, [fp, #-8]
     // 0xb77a84: r0 = RecordedVideoAnalysisService._()
-    //     0xb77a84: bl              #0xb77aa0  ; [package:ballai/video_tracking/session/mediums/recorded_video_analysis_service.dart] RecordedVideoAnalysisService::RecordedVideoAnalysisService._
+    //     0xb77a84: bl              #0xb77aa0  ; [package:kourtai/video_tracking/session/mediums/recorded_video_analysis_service.dart] RecordedVideoAnalysisService::RecordedVideoAnalysisService._
     // 0xb77a88: ldur            x0, [fp, #-8]
     // 0xb77a8c: LeaveFrame
     //     0xb77a8c: mov             SP, fp
@@ -63,12 +63,12 @@ class RecordedVideoAnalysisService extends ChangeNotifier {
     //     0xb77ad4: bl              #0x77b584  ; AllocateYoloServiceStub -> YoloService (size=0x1c)
     // 0xb77ad8: mov             x1, x0
     // 0xb77adc: r0 = YoloService()
-    //     0xb77adc: bl              #0x77b4d8  ; [package:ballai/video_tracking/detection/yolo/yolo_service.dart] YoloService::YoloService
+    //     0xb77adc: bl              #0x77b4d8  ; [package:kourtai/video_tracking/detection/yolo/yolo_service.dart] YoloService::YoloService
     // 0xb77ae0: r0 = PoseSmoother()
     //     0xb77ae0: bl              #0x77b4cc  ; AllocatePoseSmootherStub -> PoseSmoother (size=0x10)
     // 0xb77ae4: mov             x1, x0
     // 0xb77ae8: r0 = PoseSmoother()
-    //     0xb77ae8: bl              #0x77b3f8  ; [package:ballai/video_tracking/camera/pose_overlay.dart] PoseSmoother::PoseSmoother
+    //     0xb77ae8: bl              #0x77b3f8  ; [package:kourtai/video_tracking/camera/pose_overlay.dart] PoseSmoother::PoseSmoother
     // 0xb77aec: ldur            x0, [fp, #-8]
     // 0xb77af0: StoreField: r0->field_7 = rZR
     //     0xb77af0: stur            xzr, [x0, #7]

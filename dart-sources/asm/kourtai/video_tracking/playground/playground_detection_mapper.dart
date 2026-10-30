@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/playground/playground_detection_mapper.dart
+// lib: , url: package:kourtai/video_tracking/playground/playground_detection_mapper.dart
 
 // class id: 1049158, size: 0x8
 class :: {
@@ -65,7 +65,7 @@ class :: {
     // 0x779ce0: mov             x1, x0
     // 0x779ce4: ldur            x2, [fp, #-0x10]
     // 0x779ce8: r0 = _tryFromPlayground()
-    //     0x779ce8: bl              #0x779da8  ; [package:ballai/video_tracking/playground/playground_detection_mapper.dart] ::_tryFromPlayground
+    //     0x779ce8: bl              #0x779da8  ; [package:kourtai/video_tracking/playground/playground_detection_mapper.dart] ::_tryFromPlayground
     // 0x779cec: stur            x0, [fp, #-0x28]
     // 0x779cf0: cmp             w0, NULL
     // 0x779cf4: b.eq            #0x779d74
@@ -298,7 +298,7 @@ class :: {
     // 0x779f90: mov             x1, x0
     // 0x779f94: stur            x0, [fp, #-0x38]
     // 0x779f98: r0 = _isHoopLabel()
-    //     0x779f98: bl              #0x77a094  ; [package:ballai/video_tracking/playground/playground_detection_mapper.dart] ::_isHoopLabel
+    //     0x779f98: bl              #0x77a094  ; [package:kourtai/video_tracking/playground/playground_detection_mapper.dart] ::_isHoopLabel
     // 0x779f9c: tbnz            w0, #4, #0x779fc4
     // 0x779fa0: ldur            x0, [fp, #-8]
     // 0x779fa4: d0 = 0.200000
@@ -365,7 +365,7 @@ class :: {
     //     0x77a054: add             x4, PP, #0x33, lsl #12  ; [pp+0x332c8] List(9) [0, 0x6, 0x2, 0x4, "frame", 0x4, "isFreshInference", 0x5, Null]
     //     0x77a058: ldr             x4, [x4, #0x2c8]
     // 0x77a05c: r0 = ObjectDetection()
-    //     0x77a05c: bl              #0x715118  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::ObjectDetection
+    //     0x77a05c: bl              #0x715118  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::ObjectDetection
     // 0x77a060: ldur            x0, [fp, #-0x38]
     // 0x77a064: LeaveFrame
     //     0x77a064: mov             SP, fp

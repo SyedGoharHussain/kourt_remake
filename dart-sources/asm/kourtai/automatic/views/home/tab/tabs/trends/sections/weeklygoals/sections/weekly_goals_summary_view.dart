@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/weeklygoals/sections/weekly_goals_summary_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/weeklygoals/sections/weekly_goals_summary_view.dart
 
 // class id: 1048987, size: 0x8
 class :: {
@@ -21,8 +21,8 @@ class _SummaryDivider extends StatelessWidget {
     //     0xc09154: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xc09158: cmp             SP, x16
     //     0xc0915c: b.ls            #0xc091c4
-    // 0xc09160: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc09160: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc09160: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc09160: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc09164: r16 = 0.080000
     //     0xc09164: add             x16, PP, #0x24, lsl #12  ; [pp+0x24f28] 0.08
     //     0xc09168: ldr             x16, [x16, #0xf28]
@@ -89,8 +89,8 @@ class _SummaryStat extends StatelessWidget {
     //     0xc08f80: add             x3, x3, HEAP, lsl #32
     // 0xc08f84: mov             x1, x0
     // 0xc08f88: stur            x3, [fp, #-8]
-    // 0xc08f8c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc08f8c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc08f8c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc08f8c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc08f90: stur            x0, [fp, #-0x20]
     // 0xc08f94: r0 = TextStyle()
     //     0xc08f94: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -130,8 +130,8 @@ class _SummaryStat extends StatelessWidget {
     //     0xc08fec: add             x3, x3, HEAP, lsl #32
     // 0xc08ff0: ldur            x1, [fp, #-0x18]
     // 0xc08ff4: stur            x3, [fp, #-8]
-    // 0xc08ff8: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc08ff8: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc08ff8: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc08ff8: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc08ffc: stur            x0, [fp, #-0x10]
     // 0xc09000: r0 = TextStyle()
     //     0xc09000: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -311,10 +311,10 @@ class WeeklyGoalsSummaryView extends StatelessWidget {
     //     0xc08acc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4da48] "No weekly goals this period"
     //     0xc08ad0: ldr             x1, [x1, #0xa48]
     // 0xc08ad4: r0 = L()
-    //     0xc08ad4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc08ad4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc08ad8: stur            x0, [fp, #-8]
-    // 0xc08adc: r0 = BallAiEmptyState()
-    //     0xc08adc: bl              #0xa63934  ; AllocateBallAiEmptyStateStub -> BallAiEmptyState (size=0x14)
+    // 0xc08adc: r0 = KourtAiEmptyState()
+    //     0xc08adc: bl              #0xa63934  ; AllocateKourtAiEmptyStateStub -> KourtAiEmptyState (size=0x14)
     // 0xc08ae0: mov             x1, x0
     // 0xc08ae4: ldur            x0, [fp, #-8]
     // 0xc08ae8: StoreField: r1->field_b = r0
@@ -333,7 +333,7 @@ class WeeklyGoalsSummaryView extends StatelessWidget {
     // 0xc08b08: ldur            x0, [fp, #-0x10]
     // 0xc08b0c: ldur            x2, [fp, #-0x18]
     // 0xc08b10: r1 = Function '<anonymous closure>':.
-    //     0xc08b10: add             x1, PP, #0x53, lsl #12  ; [pp+0x53620] AnonymousClosure: (0xc08eb8), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/weeklygoals/sections/weekly_goals_summary_view.dart] WeeklyGoalsSummaryView::build (0xc08a6c)
+    //     0xc08b10: add             x1, PP, #0x53, lsl #12  ; [pp+0x53620] AnonymousClosure: (0xc08eb8), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/weeklygoals/sections/weekly_goals_summary_view.dart] WeeklyGoalsSummaryView::build (0xc08a6c)
     //     0xc08b14: ldr             x1, [x1, #0x620]
     // 0xc08b18: r0 = AllocateClosure()
     //     0xc08b18: bl              #0xe553e0  ; AllocateClosureStub
@@ -354,7 +354,7 @@ class WeeklyGoalsSummaryView extends StatelessWidget {
     // 0xc08b40: r0 = _GrowableList.of()
     //     0xc08b40: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0xc08b44: r1 = Function '<anonymous closure>':.
-    //     0xc08b44: add             x1, PP, #0x53, lsl #12  ; [pp+0x53628] AnonymousClosure: static (0x8472cc), in [package:ballai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance (0x847318)
+    //     0xc08b44: add             x1, PP, #0x53, lsl #12  ; [pp+0x53628] AnonymousClosure: static (0x8472cc), in [package:kourtai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance (0x847318)
     //     0xc08b48: ldr             x1, [x1, #0x628]
     // 0xc08b4c: r2 = Null
     //     0xc08b4c: mov             x2, NULL
@@ -380,7 +380,7 @@ class WeeklyGoalsSummaryView extends StatelessWidget {
     // 0xc08b88: fdiv            d2, d0, d1
     // 0xc08b8c: stur            d2, [fp, #-0x38]
     // 0xc08b90: r1 = Function '<anonymous closure>':.
-    //     0xc08b90: add             x1, PP, #0x53, lsl #12  ; [pp+0x53630] AnonymousClosure: (0x842104), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::build (0xa8aaf4)
+    //     0xc08b90: add             x1, PP, #0x53, lsl #12  ; [pp+0x53630] AnonymousClosure: (0x842104), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::build (0xa8aaf4)
     //     0xc08b94: ldr             x1, [x1, #0x630]
     // 0xc08b98: r2 = Null
     //     0xc08b98: mov             x2, NULL
@@ -391,7 +391,7 @@ class WeeklyGoalsSummaryView extends StatelessWidget {
     // 0xc08ba8: r0 = reduce()
     //     0xc08ba8: bl              #0x716abc  ; [dart:collection] ListBase::reduce
     // 0xc08bac: r1 = Function '<anonymous closure>':.
-    //     0xc08bac: add             x1, PP, #0x53, lsl #12  ; [pp+0x53638] AnonymousClosure: (0xc08e94), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/weeklygoals/sections/weekly_goals_summary_view.dart] WeeklyGoalsSummaryView::build (0xc08a6c)
+    //     0xc08bac: add             x1, PP, #0x53, lsl #12  ; [pp+0x53638] AnonymousClosure: (0xc08e94), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/weeklygoals/sections/weekly_goals_summary_view.dart] WeeklyGoalsSummaryView::build (0xc08a6c)
     //     0xc08bb0: ldr             x1, [x1, #0x638]
     // 0xc08bb4: r2 = Null
     //     0xc08bb4: mov             x2, NULL
@@ -451,7 +451,7 @@ class WeeklyGoalsSummaryView extends StatelessWidget {
     //     0xc08c5c: ldr             x1, [x1, #0x640]
     // 0xc08c60: stur            x0, [fp, #-0x20]
     // 0xc08c64: r0 = L()
-    //     0xc08c64: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc08c64: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc08c68: stur            x0, [fp, #-0x28]
     // 0xc08c6c: r0 = _SummaryStat()
     //     0xc08c6c: bl              #0xc08e88  ; Allocate_SummaryStatStub -> _SummaryStat (size=0x14)
@@ -485,7 +485,7 @@ class WeeklyGoalsSummaryView extends StatelessWidget {
     //     0xc08cb4: ldr             x1, [x1, #0x648]
     // 0xc08cb8: stur            x0, [fp, #-0x18]
     // 0xc08cbc: r0 = L()
-    //     0xc08cbc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc08cbc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc08cc0: stur            x0, [fp, #-0x20]
     // 0xc08cc4: r0 = _SummaryStat()
     //     0xc08cc4: bl              #0xc08e88  ; Allocate_SummaryStatStub -> _SummaryStat (size=0x14)
@@ -543,7 +543,7 @@ class WeeklyGoalsSummaryView extends StatelessWidget {
     //     0xc08d60: ldr             x1, [x1, #0x650]
     // 0xc08d64: stur            x0, [fp, #-8]
     // 0xc08d68: r0 = L()
-    //     0xc08d68: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc08d68: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc08d6c: stur            x0, [fp, #-0x10]
     // 0xc08d70: r0 = _SummaryStat()
     //     0xc08d70: bl              #0xc08e88  ; Allocate_SummaryStatStub -> _SummaryStat (size=0x14)
@@ -694,10 +694,10 @@ class WeeklyGoalsSummaryView extends StatelessWidget {
     //     0xc08ee4: add             x2, x2, HEAP, lsl #32
     // 0xc08ee8: ldr             x1, [fp, #0x10]
     // 0xc08eec: r0 = resolvedGoal()
-    //     0xc08eec: bl              #0xa321dc  ; [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::resolvedGoal
+    //     0xc08eec: bl              #0xa321dc  ; [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::resolvedGoal
     // 0xc08ef0: mov             x1, x0
     // 0xc08ef4: r0 = combinedProgress()
-    //     0xc08ef4: bl              #0xa6cc28  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgress
+    //     0xc08ef4: bl              #0xa6cc28  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgress
     // 0xc08ef8: mov             v1.16b, v0.16b
     // 0xc08efc: d0 = 100.000000
     //     0xc08efc: ldr             d0, [PP, #0x5948]  ; [pp+0x5948] IMM: double(100) from 0x4059000000000000

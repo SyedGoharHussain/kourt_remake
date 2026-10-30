@@ -57,20 +57,20 @@ public final class C6215d implements j.c {
         @Override // a4.D.d
         public void G(int i10) {
             if (i10 == 4) {
-                Log.d("BallAiSfx", "completed");
+                Log.d("KourtAiSfx", "completed");
             }
         }
 
         @Override // a4.D.d
         public void Q(B error) {
             AbstractC6116t.g(error, "error");
-            Log.e("BallAiSfx", "exo error code=" + error.f26995a + " msg=" + error.getMessage(), error);
+            Log.e("KourtAiSfx", "exo error code=" + error.f26995a + " msg=" + error.getMessage(), error);
         }
 
         @Override // a4.D.d
         public void s0(boolean z10) {
             if (z10) {
-                Log.d("BallAiSfx", "playing");
+                Log.d("KourtAiSfx", "playing");
             }
         }
     }
@@ -130,7 +130,7 @@ public final class C6215d implements j.c {
         }
         File file = new File(str);
         if (!file.isFile() || file.length() <= 0) {
-            Log.e("BallAiSfx", "missing/empty path=" + str);
+            Log.e("KourtAiSfx", "missing/empty path=" + str);
             return;
         }
         try {
@@ -142,9 +142,9 @@ public final class C6215d implements j.c {
             exoPlayerF.m(v.b(Uri.fromFile(file)));
             exoPlayerF.a();
             exoPlayerF.u(true);
-            Log.d("BallAiSfx", "prepared path=" + str + " gen=" + i10);
+            Log.d("KourtAiSfx", "prepared path=" + str + " gen=" + i10);
         } catch (Exception e10) {
-            Log.e("BallAiSfx", "play failed path=" + str, e10);
+            Log.e("KourtAiSfx", "play failed path=" + str, e10);
             j();
         }
     }
@@ -162,7 +162,7 @@ public final class C6215d implements j.c {
         try {
             exoPlayer.release();
         } catch (Exception e10) {
-            Log.e("BallAiSfx", "release failed", e10);
+            Log.e("KourtAiSfx", "release failed", e10);
         }
     }
 
@@ -179,7 +179,7 @@ public final class C6215d implements j.c {
                 j();
             }
         } catch (Exception e10) {
-            Log.e("BallAiSfx", "stop failed", e10);
+            Log.e("KourtAiSfx", "stop failed", e10);
             j();
         }
     }

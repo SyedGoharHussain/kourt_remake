@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/models/workout_setup/video_workout_camera_mount.dart
+// lib: , url: package:kourtai/video_tracking/models/workout_setup/video_workout_camera_mount.dart
 
 // class id: 1049152, size: 0x8
 class :: {
@@ -103,7 +103,7 @@ enum VideoWorkoutCameraMount extends _Enum {
     //     0xaca6d4: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d158] "Tripod"
     //     0xaca6d8: ldr             x1, [x1, #0x158]
     // 0xaca6dc: r0 = L()
-    //     0xaca6dc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaca6dc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaca6e0: LeaveFrame
     //     0xaca6e0: mov             SP, fp
     //     0xaca6e4: ldp             fp, lr, [SP], #0x10
@@ -113,7 +113,7 @@ enum VideoWorkoutCameraMount extends _Enum {
     //     0xaca6ec: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d160] "Ground"
     //     0xaca6f0: ldr             x1, [x1, #0x160]
     // 0xaca6f4: r0 = L()
-    //     0xaca6f4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaca6f4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaca6f8: LeaveFrame
     //     0xaca6f8: mov             SP, fp
     //     0xaca6fc: ldp             fp, lr, [SP], #0x10
@@ -140,7 +140,7 @@ enum VideoWorkoutCameraMount extends _Enum {
     //     0xc3be2c: add             x1, PP, #0x54, lsl #12  ; [pp+0x54730] "3-5 ft high · Most accurate"
     //     0xc3be30: ldr             x1, [x1, #0x730]
     // 0xc3be34: r0 = L()
-    //     0xc3be34: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc3be34: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3be38: LeaveFrame
     //     0xc3be38: mov             SP, fp
     //     0xc3be3c: ldp             fp, lr, [SP], #0x10
@@ -151,13 +151,13 @@ enum VideoWorkoutCameraMount extends _Enum {
     //     0xc3be48: add             x1, PP, #0x54, lsl #12  ; [pp+0x54738] "Leaning & facing you"
     //     0xc3be4c: ldr             x1, [x1, #0x738]
     // 0xc3be50: r0 = L()
-    //     0xc3be50: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc3be50: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3be54: b               #0xc3be64
     // 0xc3be58: r1 = "Leaning & facing hoop"
     //     0xc3be58: add             x1, PP, #0x54, lsl #12  ; [pp+0x54740] "Leaning & facing hoop"
     //     0xc3be5c: ldr             x1, [x1, #0x740]
     // 0xc3be60: r0 = L()
-    //     0xc3be60: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc3be60: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3be64: LeaveFrame
     //     0xc3be64: mov             SP, fp
     //     0xc3be68: ldp             fp, lr, [SP], #0x10
@@ -184,7 +184,7 @@ enum VideoWorkoutCameraMount extends _Enum {
     //     0xc3be98: add             x1, PP, #0x54, lsl #12  ; [pp+0x54748] "Tripod Mode"
     //     0xc3be9c: ldr             x1, [x1, #0x748]
     // 0xc3bea0: r0 = L()
-    //     0xc3bea0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc3bea0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3bea4: LeaveFrame
     //     0xc3bea4: mov             SP, fp
     //     0xc3bea8: ldp             fp, lr, [SP], #0x10
@@ -194,7 +194,7 @@ enum VideoWorkoutCameraMount extends _Enum {
     //     0xc3beb0: add             x1, PP, #0x54, lsl #12  ; [pp+0x54750] "Ground Mode"
     //     0xc3beb4: ldr             x1, [x1, #0x750]
     // 0xc3beb8: r0 = L()
-    //     0xc3beb8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc3beb8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3bebc: LeaveFrame
     //     0xc3bebc: mov             SP, fp
     //     0xc3bec0: ldp             fp, lr, [SP], #0x10

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/weeklygoals/sections/activity_ring_trends_chart_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/weeklygoals/sections/activity_ring_trends_chart_view.dart
 
 // class id: 1048984, size: 0x8
 class :: {

@@ -969,7 +969,7 @@ abstract class Gradient extends Object {
     // 0xdbcd60: b               #0xdbcd78
     // 0xdbcd64: mov             x1, x0
     // 0xdbcd68: r0 = transform()
-    //     0xdbcd68: bl              #0xdbcd8c  ; [package:ballai/video_tracking/views/drills/widgets/drill_loading_skeletons.dart] _SlideGradient::transform
+    //     0xdbcd68: bl              #0xdbcd8c  ; [package:kourtai/video_tracking/views/drills/widgets/drill_loading_skeletons.dart] _SlideGradient::transform
     // 0xdbcd6c: LoadField: r1 = r0->field_7
     //     0xdbcd6c: ldur            w1, [x0, #7]
     // 0xdbcd70: DecompressPointer r1

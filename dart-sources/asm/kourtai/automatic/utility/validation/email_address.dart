@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/validation/email_address.dart
+// lib: , url: package:kourtai/automatic/utility/validation/email_address.dart
 
 // class id: 1048753, size: 0x8
 class :: {
@@ -22,7 +22,7 @@ abstract class EmailAddress extends Object {
     //     0x9ebedc: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x9ebee0: cmp             SP, x16
     //     0x9ebee4: b.ls            #0x9ebf44
-    // 0x9ebee8: r0 = InitLateStaticField(0xcf4) // [package:ballai/automatic/utility/validation/email_address.dart] EmailAddress::pattern
+    // 0x9ebee8: r0 = InitLateStaticField(0xcf4) // [package:kourtai/automatic/utility/validation/email_address.dart] EmailAddress::pattern
     //     0x9ebee8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x9ebeec: ldr             x0, [x0, #0x19e8]
     //     0x9ebef0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -110,7 +110,7 @@ abstract class EmailAddress extends Object {
     // 0xa0ee38: cbz             w1, #0xa0ee48
     // 0xa0ee3c: mov             x1, x0
     // 0xa0ee40: r0 = isValid()
-    //     0xa0ee40: bl              #0x9ebecc  ; [package:ballai/automatic/utility/validation/email_address.dart] EmailAddress::isValid
+    //     0xa0ee40: bl              #0x9ebecc  ; [package:kourtai/automatic/utility/validation/email_address.dart] EmailAddress::isValid
     // 0xa0ee44: tbnz            w0, #4, #0xa0ee58
     // 0xa0ee48: r0 = Null
     //     0xa0ee48: mov             x0, NULL
@@ -142,7 +142,7 @@ abstract class EmailAddress extends Object {
     //     0xaa2f80: b.ls            #0xaa2fa0
     // 0xaa2f84: tbz             w2, #4, #0xaa2f90
     // 0xaa2f88: r0 = isValid()
-    //     0xaa2f88: bl              #0x9ebecc  ; [package:ballai/automatic/utility/validation/email_address.dart] EmailAddress::isValid
+    //     0xaa2f88: bl              #0x9ebecc  ; [package:kourtai/automatic/utility/validation/email_address.dart] EmailAddress::isValid
     // 0xaa2f8c: b               #0xaa2f94
     // 0xaa2f90: r0 = false
     //     0xaa2f90: add             x0, NULL, #0x30  ; false

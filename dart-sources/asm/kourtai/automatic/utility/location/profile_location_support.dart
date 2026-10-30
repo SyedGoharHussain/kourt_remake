@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/location/profile_location_support.dart
+// lib: , url: package:kourtai/automatic/utility/location/profile_location_support.dart
 
 // class id: 1048732, size: 0x8
 class :: {
@@ -178,7 +178,7 @@ class CurrentProfileLocationResolver extends Object {
     // 0xa27ebc: mov             x3, x4
     // 0xa27ec0: stur            x6, [fp, #-0xb8]
     // 0xa27ec4: r0 = cityStateCountry()
-    //     0xa27ec4: bl              #0x79596c  ; [package:ballai/automatic/utility/location/location_text_formatter.dart] LocationTextFormatter::cityStateCountry
+    //     0xa27ec4: bl              #0x79596c  ; [package:kourtai/automatic/utility/location/location_text_formatter.dart] LocationTextFormatter::cityStateCountry
     // 0xa27ec8: cmp             w0, NULL
     // 0xa27ecc: b.ne            #0xa27ee8
     // 0xa27ed0: ldur            x2, [fp, #-0xb0]
@@ -309,7 +309,7 @@ abstract class ProfileLocationGeocoder extends Object {
     //     0xa2260c: bl              #0x60afc8  ; InitAsyncStub
     // 0xa22610: ldur            x1, [fp, #-0x70]
     // 0xa22614: r0 = _normalizeRedeemCode()
-    //     0xa22614: bl              #0x65eb8c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
+    //     0xa22614: bl              #0x65eb8c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
     // 0xa22618: stur            x0, [fp, #-0x70]
     // 0xa2261c: cmp             w0, NULL
     // 0xa22620: b.ne            #0xa2262c
@@ -457,7 +457,7 @@ class ProfileLocationSearchViewModel extends ChangeNotifier {
     // 0x955ef0: ldur            x1, [fp, #-8]
     // 0x955ef4: ldur            x2, [fp, #-0x10]
     // 0x955ef8: r0 = _scheduleSearch()
-    //     0x955ef8: bl              #0x955f50  ; [package:ballai/automatic/utility/location/profile_location_support.dart] ProfileLocationSearchViewModel::_scheduleSearch
+    //     0x955ef8: bl              #0x955f50  ; [package:kourtai/automatic/utility/location/profile_location_support.dart] ProfileLocationSearchViewModel::_scheduleSearch
     // 0x955efc: r0 = Null
     //     0x955efc: mov             x0, NULL
     // 0x955f00: LeaveFrame
@@ -485,7 +485,7 @@ class ProfileLocationSearchViewModel extends ChangeNotifier {
     //     0x955f30: b.ls            #0x955f48
     // 0x955f34: ldr             x2, [fp, #0x10]
     // 0x955f38: r0 = updateQuery()
-    //     0x955f38: bl              #0x955ea4  ; [package:ballai/automatic/utility/location/profile_location_support.dart] ProfileLocationSearchViewModel::updateQuery
+    //     0x955f38: bl              #0x955ea4  ; [package:kourtai/automatic/utility/location/profile_location_support.dart] ProfileLocationSearchViewModel::updateQuery
     // 0x955f3c: LeaveFrame
     //     0x955f3c: mov             SP, fp
     //     0x955f40: ldp             fp, lr, [SP], #0x10
@@ -588,7 +588,7 @@ class ProfileLocationSearchViewModel extends ChangeNotifier {
     //     0x956044: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
     // 0x956048: ldur            x2, [fp, #-0x18]
     // 0x95604c: r1 = Function '<anonymous closure>':.
-    //     0x95604c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44fe0] AnonymousClosure: (0x956088), in [package:ballai/automatic/utility/location/profile_location_support.dart] ProfileLocationSearchViewModel::_scheduleSearch (0x955f50)
+    //     0x95604c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44fe0] AnonymousClosure: (0x956088), in [package:kourtai/automatic/utility/location/profile_location_support.dart] ProfileLocationSearchViewModel::_scheduleSearch (0x955f50)
     //     0x956050: ldr             x1, [x1, #0xfe0]
     // 0x956054: r0 = AllocateClosure()
     //     0x956054: bl              #0xe553e0  ; AllocateClosureStub
@@ -665,7 +665,7 @@ class ProfileLocationSearchViewModel extends ChangeNotifier {
     // 0x956108: mov             x2, x16
     // 0x95610c: mov             x3, x4
     // 0x956110: r0 = _runSearch()
-    //     0x956110: bl              #0x956130  ; [package:ballai/automatic/utility/location/profile_location_support.dart] ProfileLocationSearchViewModel::_runSearch
+    //     0x956110: bl              #0x956130  ; [package:kourtai/automatic/utility/location/profile_location_support.dart] ProfileLocationSearchViewModel::_runSearch
     // 0x956114: mov             x1, x0
     // 0x956118: stur            x1, [fp, #-0x18]
     // 0x95611c: r0 = Await()
@@ -956,7 +956,7 @@ class ProfileLocationSearchViewModel extends ChangeNotifier {
     //     0x95642c: mov             x17, #-0x120
     // 0x956430: str             x6, [fp, x17]
     // 0x956434: r0 = cityStateCountry()
-    //     0x956434: bl              #0x79596c  ; [package:ballai/automatic/utility/location/location_text_formatter.dart] LocationTextFormatter::cityStateCountry
+    //     0x956434: bl              #0x79596c  ; [package:kourtai/automatic/utility/location/location_text_formatter.dart] LocationTextFormatter::cityStateCountry
     // 0x956438: r17 = -328
     //     0x956438: mov             x17, #-0x148
     // 0x95643c: str             x0, [fp, x17]
@@ -1852,7 +1852,7 @@ class ProfileLocationSearchViewModel extends ChangeNotifier {
     //     0x9b5ac4: mov             fp, SP
     // 0x9b5ac8: ldr             x2, [fp, #0x10]
     // 0x9b5acc: r1 = Function 'dispose':.
-    //     0x9b5acc: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a578] AnonymousClosure: (0x9b5ae4), in [package:ballai/automatic/utility/location/profile_location_support.dart] ProfileLocationSearchViewModel::dispose (0x9bde68)
+    //     0x9b5acc: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a578] AnonymousClosure: (0x9b5ae4), in [package:kourtai/automatic/utility/location/profile_location_support.dart] ProfileLocationSearchViewModel::dispose (0x9bde68)
     //     0x9b5ad0: ldr             x1, [x1, #0x578]
     // 0x9b5ad4: r0 = AllocateClosure()
     //     0x9b5ad4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1877,7 +1877,7 @@ class ProfileLocationSearchViewModel extends ChangeNotifier {
     //     0x9b5afc: cmp             SP, x16
     //     0x9b5b00: b.ls            #0x9b5b14
     // 0x9b5b04: r0 = dispose()
-    //     0x9b5b04: bl              #0x9bde68  ; [package:ballai/automatic/utility/location/profile_location_support.dart] ProfileLocationSearchViewModel::dispose
+    //     0x9b5b04: bl              #0x9bde68  ; [package:kourtai/automatic/utility/location/profile_location_support.dart] ProfileLocationSearchViewModel::dispose
     // 0x9b5b08: LeaveFrame
     //     0x9b5b08: mov             SP, fp
     //     0x9b5b0c: ldp             fp, lr, [SP], #0x10

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/my_player/overall_tier.dart
+// lib: , url: package:kourtai/automatic/models/core/my_player/overall_tier.dart
 
 // class id: 1048693, size: 0x8
 class :: {
@@ -287,13 +287,13 @@ enum OverallTier extends _Enum {
     //     0xc1bfb4: add             x1, PP, #0x54, lsl #12  ; [pp+0x54f08] "Placement"
     //     0xc1bfb8: ldr             x1, [x1, #0xf08]
     // 0xc1bfbc: r0 = L()
-    //     0xc1bfbc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1bfbc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1bfc0: b               #0xc1c038
     // 0xc1bfc4: r1 = "Bronze"
     //     0xc1bfc4: add             x1, PP, #0x54, lsl #12  ; [pp+0x54f10] "Bronze"
     //     0xc1bfc8: ldr             x1, [x1, #0xf10]
     // 0xc1bfcc: r0 = L()
-    //     0xc1bfcc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1bfcc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1bfd0: b               #0xc1c038
     // 0xc1bfd4: cmp             x0, #2
     // 0xc1bfd8: b.gt            #0xc1bfec
@@ -301,13 +301,13 @@ enum OverallTier extends _Enum {
     //     0xc1bfdc: add             x1, PP, #0x54, lsl #12  ; [pp+0x54f18] "Silver"
     //     0xc1bfe0: ldr             x1, [x1, #0xf18]
     // 0xc1bfe4: r0 = L()
-    //     0xc1bfe4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1bfe4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1bfe8: b               #0xc1c038
     // 0xc1bfec: r1 = "Gold"
     //     0xc1bfec: add             x1, PP, #0x54, lsl #12  ; [pp+0x54f20] "Gold"
     //     0xc1bff0: ldr             x1, [x1, #0xf20]
     // 0xc1bff4: r0 = L()
-    //     0xc1bff4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1bff4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1bff8: b               #0xc1c038
     // 0xc1bffc: cmp             x0, #5
     // 0xc1c000: b.gt            #0xc1c02c
@@ -317,19 +317,19 @@ enum OverallTier extends _Enum {
     //     0xc1c00c: add             x1, PP, #0x54, lsl #12  ; [pp+0x54f28] "Diamond"
     //     0xc1c010: ldr             x1, [x1, #0xf28]
     // 0xc1c014: r0 = L()
-    //     0xc1c014: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1c014: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1c018: b               #0xc1c038
     // 0xc1c01c: r1 = "Hall of Fame"
     //     0xc1c01c: add             x1, PP, #0x54, lsl #12  ; [pp+0x54f30] "Hall of Fame"
     //     0xc1c020: ldr             x1, [x1, #0xf30]
     // 0xc1c024: r0 = L()
-    //     0xc1c024: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1c024: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1c028: b               #0xc1c038
     // 0xc1c02c: r1 = "Legend"
     //     0xc1c02c: add             x1, PP, #0x54, lsl #12  ; [pp+0x54f38] "Legend"
     //     0xc1c030: ldr             x1, [x1, #0xf38]
     // 0xc1c034: r0 = L()
-    //     0xc1c034: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1c034: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1c038: LeaveFrame
     //     0xc1c038: mov             SP, fp
     //     0xc1c03c: ldp             fp, lr, [SP], #0x10

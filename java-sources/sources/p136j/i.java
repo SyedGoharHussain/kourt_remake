@@ -1,6 +1,6 @@
 package p136j;
 
-import ballai.app.R;
+import kourtai.app.R;
 
 /* JADX INFO: loaded from: classes.dex */
 public abstract class i {

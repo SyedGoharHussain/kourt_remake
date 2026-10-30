@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/team/leaderboard_entry.dart
+// lib: , url: package:kourtai/automatic/models/core/team/leaderboard_entry.dart
 
 // class id: 1048704, size: 0x8
 class :: {

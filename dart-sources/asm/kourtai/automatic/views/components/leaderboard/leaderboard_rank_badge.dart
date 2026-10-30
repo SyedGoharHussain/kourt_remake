@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/leaderboard/leaderboard_rank_badge.dart
+// lib: , url: package:kourtai/automatic/views/components/leaderboard/leaderboard_rank_badge.dart
 
 // class id: 1048817, size: 0x8
 class :: {
@@ -162,8 +162,8 @@ class LeaderboardRankBadge extends StatelessWidget {
     //     0xbbf238: bl              #0x607410  ; [dart:core] _StringBase::_interpolateSingle
     // 0xbbf23c: ldur            x1, [fp, #-0x30]
     // 0xbbf240: stur            x0, [fp, #-8]
-    // 0xbbf244: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbbf244: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbbf244: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbbf244: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbbf248: stur            x0, [fp, #-0x10]
     // 0xbbf24c: r0 = TextStyle()
     //     0xbbf24c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)

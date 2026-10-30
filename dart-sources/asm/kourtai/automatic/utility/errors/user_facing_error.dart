@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/errors/user_facing_error.dart
+// lib: , url: package:kourtai/automatic/utility/errors/user_facing_error.dart
 
 // class id: 1048724, size: 0x8
 class :: {
@@ -31,8 +31,8 @@ class :: {
     //     0x71e990: mov             x2, #4
     // 0x71e994: r0 = AllocateArray()
     //     0x71e994: bl              #0xe560ac  ; AllocateArrayStub
-    // 0x71e998: r16 = "[BallAI] "
-    //     0x71e998: add             x16, PP, #0x1a, lsl #12  ; [pp+0x1ae18] "[BallAI] "
+    // 0x71e998: r16 = "[KourtAI] "
+    //     0x71e998: add             x16, PP, #0x1a, lsl #12  ; [pp+0x1ae18] "[KourtAI] "
     //     0x71e99c: ldr             x16, [x16, #0xe18]
     // 0x71e9a0: StoreField: r0->field_f = r16
     //     0x71e9a0: stur            w16, [x0, #0xf]
@@ -162,7 +162,7 @@ class :: {
     // 0x71eaec: ldur            x1, [fp, #-8]
     // 0x71eaf0: ldur            x2, [fp, #-0x10]
     // 0x71eaf4: r0 = _releaseMessage()
-    //     0x71eaf4: bl              #0x71eb0c  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::_releaseMessage
+    //     0x71eaf4: bl              #0x71eb0c  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::_releaseMessage
     // 0x71eaf8: LeaveFrame
     //     0x71eaf8: mov             SP, fp
     //     0x71eafc: ldp             fp, lr, [SP], #0x10
@@ -217,7 +217,7 @@ class :: {
     // 0x71eb78: cbz             w1, #0x71eb98
     // 0x71eb7c: mov             x1, x0
     // 0x71eb80: r0 = _isTechnicalMessage()
-    //     0x71eb80: bl              #0x71ebb0  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::_isTechnicalMessage
+    //     0x71eb80: bl              #0x71ebb0  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::_isTechnicalMessage
     // 0x71eb84: tbz             w0, #4, #0x71eb98
     // 0x71eb88: ldur            x0, [fp, #-0x10]
     // 0x71eb8c: LeaveFrame

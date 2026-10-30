@@ -1,11 +1,11 @@
-// lib: , url: package:ballai/automatic/views/components/navigation/ball_ai_navigation_glass.dart
+// lib: , url: package:kourtai/automatic/views/components/navigation/kourt_ai_navigation_glass.dart
 
 // class id: 1048822, size: 0x8
 class :: {
 }
 
 // class id: 2999, size: 0x18, field offset: 0x14
-class _BallAiNavigationGlassState extends State<dynamic> {
+class _KourtAiNavigationGlassState extends State<dynamic> {
 
   late final Future<bool> _shadersAvailable; // offset: 0x14
 
@@ -16,7 +16,7 @@ class _BallAiNavigationGlassState extends State<dynamic> {
     //     0x9e3fd0: mov             fp, SP
     // 0x9e3fd4: AllocStack(0x18)
     //     0x9e3fd4: sub             SP, SP, #0x18
-    // 0x9e3fd8: SetupParameters(_BallAiNavigationGlassState this /* r1 => r1, fp-0x8 */)
+    // 0x9e3fd8: SetupParameters(_KourtAiNavigationGlassState this /* r1 => r1, fp-0x8 */)
     //     0x9e3fd8: stur            x1, [fp, #-8]
     // 0x9e3fdc: CheckStackOverflow
     //     0x9e3fdc: ldr             x16, [THR, #0x38]  ; THR::stack_limit
@@ -39,7 +39,7 @@ class _BallAiNavigationGlassState extends State<dynamic> {
     // 0x9e4008: cmp             w0, w16
     // 0x9e400c: b.ne            #0x9e401c
     // 0x9e4010: r2 = _shadersAvailable
-    //     0x9e4010: add             x2, PP, #0x2e, lsl #12  ; [pp+0x2e300] Field <_BallAiNavigationGlassState@1034401593._shadersAvailable@1034401593>: late final (offset: 0x14)
+    //     0x9e4010: add             x2, PP, #0x2e, lsl #12  ; [pp+0x2e300] Field <_KourtAiNavigationGlassState@1034401593._shadersAvailable@1034401593>: late final (offset: 0x14)
     //     0x9e4014: ldr             x2, [x2, #0x300]
     // 0x9e4018: r0 = InitLateFinalInstanceField()
     //     0x9e4018: bl              #0xe540b0  ; InitLateFinalInstanceFieldStub
@@ -55,7 +55,7 @@ class _BallAiNavigationGlassState extends State<dynamic> {
     //     0x9e4034: stur            w0, [x3, #0xf]
     // 0x9e4038: ldur            x2, [fp, #-0x10]
     // 0x9e403c: r1 = Function '<anonymous closure>':.
-    //     0x9e403c: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e308] AnonymousClosure: (0x9e4094), in [package:ballai/automatic/views/components/navigation/ball_ai_navigation_glass.dart] _BallAiNavigationGlassState::build (0x9e3fcc)
+    //     0x9e403c: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e308] AnonymousClosure: (0x9e4094), in [package:kourtai/automatic/views/components/navigation/kourt_ai_navigation_glass.dart] _KourtAiNavigationGlassState::build (0x9e3fcc)
     //     0x9e4040: ldr             x1, [x1, #0x308]
     // 0x9e4044: r0 = AllocateClosure()
     //     0x9e4044: bl              #0xe553e0  ; AllocateClosureStub
@@ -165,7 +165,7 @@ class _BallAiNavigationGlassState extends State<dynamic> {
     // 0x9e417c: r0 = NullCastErrorSharedWithoutFPURegs()
     //     0x9e417c: bl              #0xe5683c  ; NullCastErrorSharedWithoutFPURegsStub
   }
-  Future<bool> _shadersAvailable(_BallAiNavigationGlassState) {
+  Future<bool> _shadersAvailable(_KourtAiNavigationGlassState) {
     // ** addr: 0x9e418c, size: 0x2c
     // 0x9e418c: EnterFrame
     //     0x9e418c: stp             fp, lr, [SP, #-0x10]!
@@ -175,7 +175,7 @@ class _BallAiNavigationGlassState extends State<dynamic> {
     //     0x9e4198: cmp             SP, x16
     //     0x9e419c: b.ls            #0x9e41b0
     // 0x9e41a0: r0 = _checkShaders()
-    //     0x9e41a0: bl              #0x9e41b8  ; [package:ballai/automatic/views/components/navigation/ball_ai_navigation_glass.dart] _BallAiNavigationGlassState::_checkShaders
+    //     0x9e41a0: bl              #0x9e41b8  ; [package:kourtai/automatic/views/components/navigation/kourt_ai_navigation_glass.dart] _KourtAiNavigationGlassState::_checkShaders
     // 0x9e41a4: LeaveFrame
     //     0x9e41a4: mov             SP, fp
     //     0x9e41a8: ldp             fp, lr, [SP], #0x10
@@ -303,10 +303,10 @@ class _BallAiNavigationGlassState extends State<dynamic> {
 
 // class id: 3672, size: 0x20, field offset: 0xc
 //   const constructor, 
-class BallAiNavigationGlass extends StatefulWidget {
+class KourtAiNavigationGlass extends StatefulWidget {
 
   SizedBox field_c;
-  BallAiNavigationGlassShape field_10;
+  KourtAiNavigationGlassShape field_10;
   _Double field_14;
 
   _ createState(/* No info */) {
@@ -315,11 +315,11 @@ class BallAiNavigationGlass extends StatefulWidget {
     //     0xb720b4: stp             fp, lr, [SP, #-0x10]!
     //     0xb720b8: mov             fp, SP
     // 0xb720bc: mov             x0, x1
-    // 0xb720c0: r1 = <BallAiNavigationGlass>
-    //     0xb720c0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2aa90] TypeArguments: <BallAiNavigationGlass>
+    // 0xb720c0: r1 = <KourtAiNavigationGlass>
+    //     0xb720c0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2aa90] TypeArguments: <KourtAiNavigationGlass>
     //     0xb720c4: ldr             x1, [x1, #0xa90]
-    // 0xb720c8: r0 = _BallAiNavigationGlassState()
-    //     0xb720c8: bl              #0xb720e0  ; Allocate_BallAiNavigationGlassStateStub -> _BallAiNavigationGlassState (size=0x18)
+    // 0xb720c8: r0 = _KourtAiNavigationGlassState()
+    //     0xb720c8: bl              #0xb720e0  ; Allocate_KourtAiNavigationGlassStateStub -> _KourtAiNavigationGlassState (size=0x18)
     // 0xb720cc: r1 = Sentinel
     //     0xb720cc: ldr             x1, [PP, #0x40]  ; [pp+0x40] Sentinel
     // 0xb720d0: StoreField: r0->field_13 = r1
@@ -996,7 +996,7 @@ class _GlassBody extends StatelessWidget {
 }
 
 // class id: 6692, size: 0x14, field offset: 0x14
-enum BallAiNavigationGlassShape extends _Enum {
+enum KourtAiNavigationGlassShape extends _Enum {
 
   _Mint field_8;
   _OneByteString field_10;
@@ -1008,7 +1008,7 @@ enum BallAiNavigationGlassShape extends _Enum {
     //     0xcd9c30: mov             fp, SP
     // 0xcd9c34: AllocStack(0x10)
     //     0xcd9c34: sub             SP, SP, #0x10
-    // 0xcd9c38: SetupParameters(BallAiNavigationGlassShape this /* r1 => r0, fp-0x8 */)
+    // 0xcd9c38: SetupParameters(KourtAiNavigationGlassShape this /* r1 => r0, fp-0x8 */)
     //     0xcd9c38: mov             x0, x1
     //     0xcd9c3c: stur            x1, [fp, #-8]
     // 0xcd9c40: CheckStackOverflow
@@ -1021,8 +1021,8 @@ enum BallAiNavigationGlassShape extends _Enum {
     //     0xcd9c50: mov             x2, #4
     // 0xcd9c54: r0 = AllocateArray()
     //     0xcd9c54: bl              #0xe560ac  ; AllocateArrayStub
-    // 0xcd9c58: r16 = "BallAiNavigationGlassShape."
-    //     0xcd9c58: add             x16, PP, #0x2a, lsl #12  ; [pp+0x2aa98] "BallAiNavigationGlassShape."
+    // 0xcd9c58: r16 = "KourtAiNavigationGlassShape."
+    //     0xcd9c58: add             x16, PP, #0x2a, lsl #12  ; [pp+0x2aa98] "KourtAiNavigationGlassShape."
     //     0xcd9c5c: ldr             x16, [x16, #0xa98]
     // 0xcd9c60: StoreField: r0->field_f = r16
     //     0xcd9c60: stur            w16, [x0, #0xf]

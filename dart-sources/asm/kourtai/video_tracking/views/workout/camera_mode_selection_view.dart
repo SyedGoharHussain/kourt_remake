@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart
 
 // class id: 1049239, size: 0x8
 class :: {
@@ -17,7 +17,7 @@ class _SetupTutorialPlayerPageState extends State<dynamic> {
     //     0x9943ec: cmp             SP, x16
     //     0x9943f0: b.ls            #0x994408
     // 0x9943f4: r0 = _init()
-    //     0x9943f4: bl              #0x994430  ; [package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart] _SetupTutorialPlayerPageState::_init
+    //     0x9943f4: bl              #0x994430  ; [package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart] _SetupTutorialPlayerPageState::_init
     // 0x9943f8: r0 = Null
     //     0x9943f8: mov             x0, NULL
     // 0x9943fc: LeaveFrame
@@ -133,7 +133,7 @@ class _SetupTutorialPlayerPageState extends State<dynamic> {
     //     0x994544: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x994548: ldur            x2, [fp, #-0x68]
     // 0x99454c: r1 = Function '<anonymous closure>':.
-    //     0x99454c: add             x1, PP, #0x54, lsl #12  ; [pp+0x54768] AnonymousClosure: (0x8e5cc8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
+    //     0x99454c: add             x1, PP, #0x54, lsl #12  ; [pp+0x54768] AnonymousClosure: (0x8e5cc8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
     //     0x994550: ldr             x1, [x1, #0x768]
     // 0x994554: r0 = AllocateClosure()
     //     0x994554: bl              #0xe553e0  ; AllocateClosureStub
@@ -377,7 +377,7 @@ class _SetupTutorialPlayerPageState extends State<dynamic> {
     //     0xacaf70: stur            w0, [x3, #0xb]
     // 0xacaf74: ldur            x2, [fp, #-0x18]
     // 0xacaf78: r1 = Function '<anonymous closure>':.
-    //     0xacaf78: add             x1, PP, #0x54, lsl #12  ; [pp+0x54760] AnonymousClosure: static (0x796ee4), in [package:ballai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::presentDeniedDialog (0x796a3c)
+    //     0xacaf78: add             x1, PP, #0x54, lsl #12  ; [pp+0x54760] AnonymousClosure: static (0x796ee4), in [package:kourtai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::presentDeniedDialog (0x796a3c)
     //     0xacaf7c: ldr             x1, [x1, #0x760]
     // 0xacaf80: r0 = AllocateClosure()
     //     0xacaf80: bl              #0xe553e0  ; AllocateClosureStub
@@ -570,7 +570,7 @@ class _SetupTutorialPlayerPageState extends State<dynamic> {
     //     0xb5cc3c: mov             fp, SP
     // 0xb5cc40: ldr             x2, [fp, #0x10]
     // 0xb5cc44: r1 = Function 'dispose':.
-    //     0xb5cc44: add             x1, PP, #0x54, lsl #12  ; [pp+0x54758] AnonymousClosure: (0xb5cc5c), in [package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart] _SetupTutorialPlayerPageState::dispose (0xb64408)
+    //     0xb5cc44: add             x1, PP, #0x54, lsl #12  ; [pp+0x54758] AnonymousClosure: (0xb5cc5c), in [package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart] _SetupTutorialPlayerPageState::dispose (0xb64408)
     //     0xb5cc48: ldr             x1, [x1, #0x758]
     // 0xb5cc4c: r0 = AllocateClosure()
     //     0xb5cc4c: bl              #0xe553e0  ; AllocateClosureStub
@@ -595,7 +595,7 @@ class _SetupTutorialPlayerPageState extends State<dynamic> {
     //     0xb5cc74: cmp             SP, x16
     //     0xb5cc78: b.ls            #0xb5cc8c
     // 0xb5cc7c: r0 = dispose()
-    //     0xb5cc7c: bl              #0xb64408  ; [package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart] _SetupTutorialPlayerPageState::dispose
+    //     0xb5cc7c: bl              #0xb64408  ; [package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart] _SetupTutorialPlayerPageState::dispose
     // 0xb5cc80: LeaveFrame
     //     0xb5cc80: mov             SP, fp
     //     0xb5cc84: ldp             fp, lr, [SP], #0x10
@@ -687,7 +687,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0x993f58: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x993f5c: ldr             x0, [x0, #0x1898]
     // 0x993f60: tbnz            w0, #4, #0x993fa4
-    // 0x993f64: r0 = InitLateStaticField(0xc48) // [package:ballai/video_tracking/utility/defaults/defaults_video_workout_camera_mount.dart] DefaultsVideoWorkoutCameraMount::_cached
+    // 0x993f64: r0 = InitLateStaticField(0xc48) // [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_camera_mount.dart] DefaultsVideoWorkoutCameraMount::_cached
     //     0x993f64: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x993f68: ldr             x0, [x0, #0x1890]
     //     0x993f6c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -705,7 +705,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0x993f98: tst             x16, HEAP, lsr #32
     //     0x993f9c: b.eq            #0x993fa4
     //     0x993fa0: bl              #0xe5479c  ; WriteBarrierWrappersStub
-    // 0x993fa4: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0x993fa4: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0x993fa4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x993fa8: ldr             x0, [x0, #0x1cf0]
     //     0x993fac: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -716,7 +716,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0x993fc0: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x993fc4: mov             x1, x0
     // 0x993fc8: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x993fc8: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x993fc8: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x993fcc: tbnz            w0, #4, #0x993fd8
     // 0x993fd0: r0 = true
     //     0x993fd0: add             x0, NULL, #0x20  ; true
@@ -731,7 +731,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     // 0x993fec: DecompressPointer r2
     //     0x993fec: add             x2, x2, HEAP, lsl #32
     // 0x993ff0: r0 = _loadPreview()
-    //     0x993ff0: bl              #0x9940f0  ; [package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_loadPreview
+    //     0x993ff0: bl              #0x9940f0  ; [package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_loadPreview
     // 0x993ff4: r0 = Null
     //     0x993ff4: mov             x0, NULL
     // 0x993ff8: LeaveFrame
@@ -752,7 +752,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0x994014: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x994018: cmp             SP, x16
     //     0x99401c: b.ls            #0x994064
-    // 0x994020: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0x994020: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0x994020: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x994024: ldr             x0, [x0, #0x1cf0]
     //     0x994028: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -763,7 +763,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0x99403c: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x994040: mov             x1, x0
     // 0x994044: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x994044: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x994044: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x994048: tbnz            w0, #4, #0x994054
     // 0x99404c: r0 = true
     //     0x99404c: add             x0, NULL, #0x20  ; true
@@ -788,7 +788,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0x994094: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x994098: cmp             SP, x16
     //     0x99409c: b.ls            #0x9940e8
-    // 0x9940a0: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0x9940a0: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0x9940a0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x9940a4: ldr             x0, [x0, #0x1cf0]
     //     0x9940a8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -799,7 +799,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0x9940bc: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x9940c0: mov             x1, x0
     // 0x9940c4: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x9940c4: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x9940c4: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x9940c8: tbnz            w0, #4, #0x9940d4
     // 0x9940cc: r1 = true
     //     0x9940cc: add             x1, NULL, #0x20  ; true
@@ -895,7 +895,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     // 0x9941cc: ldur            x2, [fp, #-0x80]
     // 0x9941d0: mov             x1, x0
     // 0x9941d4: r0 = _disposePreview()
-    //     0x9941d4: bl              #0x9942fc  ; [package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_disposePreview
+    //     0x9941d4: bl              #0x9942fc  ; [package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_disposePreview
     // 0x9941d8: mov             x1, x0
     // 0x9941dc: stur            x1, [fp, #-0x88]
     // 0x9941e0: r0 = Await()
@@ -975,7 +975,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0x9942b0: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x9942b4: ldur            x2, [fp, #-0x80]
     // 0x9942b8: r1 = Function '<anonymous closure>':.
-    //     0x9942b8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d148] AnonymousClosure: (0x99436c), in [package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_loadPreview (0x9940f0)
+    //     0x9942b8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d148] AnonymousClosure: (0x99436c), in [package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_loadPreview (0x9940f0)
     //     0x9942bc: ldr             x1, [x1, #0x148]
     // 0x9942c0: r0 = AllocateClosure()
     //     0x9942c0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1150,7 +1150,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     // 0xac9cfc: DecompressPointer r1
     //     0xac9cfc: add             x1, x1, HEAP, lsl #32
     // 0xac9d00: r0 = localizedTitle()
-    //     0xac9d00: bl              #0xaca6b4  ; [package:ballai/video_tracking/models/workout_setup/video_workout_camera_mount.dart] VideoWorkoutCameraMount::localizedTitle
+    //     0xac9d00: bl              #0xaca6b4  ; [package:kourtai/video_tracking/models/workout_setup/video_workout_camera_mount.dart] VideoWorkoutCameraMount::localizedTitle
     // 0xac9d04: r1 = Null
     //     0xac9d04: mov             x1, NULL
     // 0xac9d08: r2 = 2
@@ -1180,7 +1180,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0xac9d44: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d110] "Learn how to setup with %@ mode"
     //     0xac9d48: ldr             x1, [x1, #0x110]
     // 0xac9d4c: r0 = LF()
-    //     0xac9d4c: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xac9d4c: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xac9d50: mov             x1, x0
     // 0xac9d54: ldur            x0, [fp, #-0x10]
     // 0xac9d58: stur            x1, [fp, #-0x28]
@@ -1307,7 +1307,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0xac9ea0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d118] "Device setup"
     //     0xac9ea4: ldr             x1, [x1, #0x118]
     // 0xac9ea8: r0 = L()
-    //     0xac9ea8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xac9ea8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xac9eac: mov             x1, x0
     // 0xac9eb0: ldur            x0, [fp, #-0x20]
     // 0xac9eb4: stur            x1, [fp, #-0x38]
@@ -1455,7 +1455,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0xaca038: stur            w0, [x2, #0x13]
     // 0xaca03c: ldur            x1, [fp, #-8]
     // 0xaca040: r0 = _showsTutorialPreview()
-    //     0xaca040: bl              #0x99408c  ; [package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_showsTutorialPreview
+    //     0xaca040: bl              #0x99408c  ; [package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_showsTutorialPreview
     // 0xaca044: tbnz            w0, #4, #0xaca2ac
     // 0xaca048: ldur            x1, [fp, #-8]
     // 0xaca04c: LoadField: r0 = r1->field_13
@@ -1463,7 +1463,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     // 0xaca050: DecompressPointer r0
     //     0xaca050: add             x0, x0, HEAP, lsl #32
     // 0xaca054: stur            x0, [fp, #-0x30]
-    // 0xaca058: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0xaca058: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0xaca058: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xaca05c: ldr             x0, [x0, #0x1cf0]
     //     0xaca060: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1474,7 +1474,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0xaca074: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0xaca078: mov             x1, x0
     // 0xaca07c: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0xaca07c: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0xaca07c: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0xaca080: tbnz            w0, #4, #0xaca08c
     // 0xaca084: r2 = true
     //     0xaca084: add             x2, NULL, #0x20  ; true
@@ -1500,7 +1500,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0xaca0c0: stur            w0, [x3, #0x13]
     // 0xaca0c4: ldur            x2, [fp, #-0x18]
     // 0xaca0c8: r1 = Function '<anonymous closure>':.
-    //     0xaca0c8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d120] AnonymousClosure: (0xacaa18), in [package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::build (0xac9c64)
+    //     0xaca0c8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d120] AnonymousClosure: (0xacaa18), in [package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::build (0xac9c64)
     //     0xaca0cc: ldr             x1, [x1, #0x120]
     // 0xaca0d0: r0 = AllocateClosure()
     //     0xaca0d0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1579,7 +1579,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0xaca1b0: stur            w0, [x3, #0xf]
     // 0xaca1b4: ldur            x2, [fp, #-0x18]
     // 0xaca1b8: r1 = Function '<anonymous closure>':.
-    //     0xaca1b8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d128] AnonymousClosure: (0xacab34), in [package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::build (0xac9c64)
+    //     0xaca1b8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d128] AnonymousClosure: (0xacab34), in [package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::build (0xac9c64)
     //     0xaca1bc: ldr             x1, [x1, #0x128]
     // 0xaca1c0: r0 = AllocateClosure()
     //     0xaca1c0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1711,7 +1711,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0xaca300: add             x2, x2, HEAP, lsl #32
     // 0xaca304: stur            x2, [fp, #-0x28]
     // 0xaca308: r0 = _isDribbleSession()
-    //     0xaca308: bl              #0x99400c  ; [package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_isDribbleSession
+    //     0xaca308: bl              #0x99400c  ; [package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_isDribbleSession
     // 0xaca30c: stur            x0, [fp, #-8]
     // 0xaca310: r0 = _OptionsColumn()
     //     0xaca310: bl              #0xaca6a8  ; Allocate_OptionsColumnStub -> _OptionsColumn (size=0x1c)
@@ -1728,7 +1728,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0xaca330: stur            w0, [x3, #0x13]
     // 0xaca334: ldur            x2, [fp, #-0x18]
     // 0xaca338: r1 = Function '<anonymous closure>':.
-    //     0xaca338: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d130] AnonymousClosure: (0xacaa18), in [package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::build (0xac9c64)
+    //     0xaca338: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d130] AnonymousClosure: (0xacaa18), in [package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::build (0xac9c64)
     //     0xaca33c: ldr             x1, [x1, #0x130]
     // 0xaca340: r0 = AllocateClosure()
     //     0xaca340: bl              #0xe553e0  ; AllocateClosureStub
@@ -1831,7 +1831,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0xaca440: ldr             x1, [x1, #0x5c0]
     // 0xaca444: stur            x0, [fp, #-8]
     // 0xaca448: r0 = L()
-    //     0xaca448: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaca448: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaca44c: stur            x0, [fp, #-0x28]
     // 0xaca450: r0 = Text()
     //     0xaca450: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1856,7 +1856,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0xaca484: stur            w0, [x3, #0x3b]
     // 0xaca488: ldur            x2, [fp, #-0x18]
     // 0xaca48c: r1 = Function '<anonymous closure>':.
-    //     0xaca48c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d138] AnonymousClosure: (0xaca70c), in [package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::build (0xac9c64)
+    //     0xaca48c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d138] AnonymousClosure: (0xaca70c), in [package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::build (0xac9c64)
     //     0xaca490: ldr             x1, [x1, #0x138]
     // 0xaca494: r0 = AllocateClosure()
     //     0xaca494: bl              #0xe553e0  ; AllocateClosureStub
@@ -2088,7 +2088,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0xaca730: add             x0, x0, HEAP, lsl #32
     // 0xaca734: mov             x1, x0
     // 0xaca738: r0 = _persistAndContinue()
-    //     0xaca738: bl              #0xaca754  ; [package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_persistAndContinue
+    //     0xaca738: bl              #0xaca754  ; [package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_persistAndContinue
     // 0xaca73c: r0 = Null
     //     0xaca73c: mov             x0, NULL
     // 0xaca740: LeaveFrame
@@ -2125,7 +2125,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     // 0xaca788: DecompressPointer r1
     //     0xaca788: add             x1, x1, HEAP, lsl #32
     // 0xaca78c: r0 = set()
-    //     0xaca78c: bl              #0xaca95c  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_camera_mount.dart] DefaultsVideoWorkoutCameraMount::set
+    //     0xaca78c: bl              #0xaca95c  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_camera_mount.dart] DefaultsVideoWorkoutCameraMount::set
     // 0xaca790: mov             x1, x0
     // 0xaca794: stur            x1, [fp, #-0x18]
     // 0xaca798: r0 = Await()
@@ -2156,7 +2156,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     // 0xaca7d4: DecompressPointer r1
     //     0xaca7d4: add             x1, x1, HEAP, lsl #32
     // 0xaca7d8: r0 = _advanceFromCamera()
-    //     0xaca7d8: bl              #0xaca828  ; [package:ballai/video_tracking/views/workout/pre_workout_setup_flow_view.dart] _PreWorkoutSetupFlowViewState::_advanceFromCamera
+    //     0xaca7d8: bl              #0xaca828  ; [package:kourtai/video_tracking/views/workout/pre_workout_setup_flow_view.dart] _PreWorkoutSetupFlowViewState::_advanceFromCamera
     // 0xaca7dc: r0 = Null
     //     0xaca7dc: mov             x0, NULL
     // 0xaca7e0: r0 = ReturnAsyncNotFuture()
@@ -2188,7 +2188,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     // 0xacaa40: mov             x1, x0
     // 0xacaa44: ldr             x2, [fp, #0x10]
     // 0xacaa48: r0 = _select()
-    //     0xacaa48: bl              #0xacaa64  ; [package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_select
+    //     0xacaa48: bl              #0xacaa64  ; [package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_select
     // 0xacaa4c: r0 = Null
     //     0xacaa4c: mov             x0, NULL
     // 0xacaa50: LeaveFrame
@@ -2234,7 +2234,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0xacaab0: bl              #0x600ca8  ; [package:flutter/src/services/haptic_feedback.dart] HapticFeedback::lightImpact
     // 0xacaab4: ldur            x2, [fp, #-0x20]
     // 0xacaab8: r1 = Function '<anonymous closure>':.
-    //     0xacaab8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d140] AnonymousClosure: (0x8e5cc8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
+    //     0xacaab8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d140] AnonymousClosure: (0x8e5cc8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
     //     0xacaabc: ldr             x1, [x1, #0x140]
     // 0xacaac0: r0 = AllocateClosure()
     //     0xacaac0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2242,7 +2242,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     // 0xacaac8: mov             x2, x0
     // 0xacaacc: r0 = setState()
     //     0xacaacc: bl              #0x6005d4  ; [package:flutter/src/widgets/framework.dart] State::setState
-    // 0xacaad0: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0xacaad0: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0xacaad0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xacaad4: ldr             x0, [x0, #0x1cf0]
     //     0xacaad8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2253,7 +2253,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0xacaaec: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0xacaaf0: mov             x1, x0
     // 0xacaaf4: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0xacaaf4: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0xacaaf4: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0xacaaf8: tbnz            w0, #4, #0xacab04
     // 0xacaafc: r0 = true
     //     0xacaafc: add             x0, NULL, #0x20  ; true
@@ -2269,7 +2269,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0xacab18: add             x2, x2, HEAP, lsl #32
     // 0xacab1c: ldur            x1, [fp, #-0x10]
     // 0xacab20: r0 = _loadPreview()
-    //     0xacab20: bl              #0x9940f0  ; [package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_loadPreview
+    //     0xacab20: bl              #0x9940f0  ; [package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_loadPreview
     // 0xacab24: r0 = Null
     //     0xacab24: mov             x0, NULL
     // 0xacab28: r0 = ReturnAsyncNotFuture()
@@ -2298,7 +2298,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0xacab58: add             x0, x0, HEAP, lsl #32
     // 0xacab5c: mov             x1, x0
     // 0xacab60: r0 = _openTutorialFullscreen()
-    //     0xacab60: bl              #0xacab7c  ; [package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_openTutorialFullscreen
+    //     0xacab60: bl              #0xacab7c  ; [package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_openTutorialFullscreen
     // 0xacab64: r0 = Null
     //     0xacab64: mov             x0, NULL
     // 0xacab68: LeaveFrame
@@ -2339,7 +2339,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     // 0xacabbc: r0 = lightImpact()
     //     0xacabbc: bl              #0x600ca8  ; [package:flutter/src/services/haptic_feedback.dart] HapticFeedback::lightImpact
     // 0xacabc0: r0 = setWatched()
-    //     0xacabc0: bl              #0xa39340  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_setup_tutorial.dart] DefaultsVideoWorkoutSetupTutorial::setWatched
+    //     0xacabc0: bl              #0xa39340  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_setup_tutorial.dart] DefaultsVideoWorkoutSetupTutorial::setWatched
     // 0xacabc4: ldur            x0, [fp, #-0x10]
     // 0xacabc8: LoadField: r1 = r0->field_f
     //     0xacabc8: ldur            w1, [x0, #0xf]
@@ -2353,7 +2353,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0xacabdc: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xacabe0: ldur            x2, [fp, #-0x18]
     // 0xacabe4: r1 = Function '<anonymous closure>':.
-    //     0xacabe4: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d150] AnonymousClosure: (0xacacb8), in [package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_openTutorialFullscreen (0xacab7c)
+    //     0xacabe4: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d150] AnonymousClosure: (0xacacb8), in [package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_openTutorialFullscreen (0xacab7c)
     //     0xacabe8: ldr             x1, [x1, #0x150]
     // 0xacabec: stur            x0, [fp, #-0x20]
     // 0xacabf0: r0 = AllocateClosure()
@@ -2390,7 +2390,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0xacac44: bl              #0x60ad4c  ; AwaitStub
     // 0xacac48: stur            x0, [fp, #-0x20]
     // 0xacac4c: r0 = setWatched()
-    //     0xacac4c: bl              #0xa39340  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_setup_tutorial.dart] DefaultsVideoWorkoutSetupTutorial::setWatched
+    //     0xacac4c: bl              #0xa39340  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_setup_tutorial.dart] DefaultsVideoWorkoutSetupTutorial::setWatched
     // 0xacac50: ldur            x0, [fp, #-0x20]
     // 0xacac54: r1 = 60
     //     0xacac54: mov             x1, #0x3c
@@ -2415,7 +2415,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     // 0xacac8c: cmp             w0, NULL
     // 0xacac90: b.eq            #0xacaca4
     // 0xacac94: r0 = _persistAndContinue()
-    //     0xacac94: bl              #0xaca754  ; [package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_persistAndContinue
+    //     0xacac94: bl              #0xaca754  ; [package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_persistAndContinue
     // 0xacac98: mov             x1, x0
     // 0xacac9c: stur            x1, [fp, #-0x10]
     // 0xacaca0: r0 = Await()
@@ -2479,7 +2479,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0xb5cbe0: mov             fp, SP
     // 0xb5cbe4: ldr             x2, [fp, #0x10]
     // 0xb5cbe8: r1 = Function 'dispose':.
-    //     0xb5cbe8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d0f8] AnonymousClosure: (0xb5cc00), in [package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::dispose (0xb643d8)
+    //     0xb5cbe8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d0f8] AnonymousClosure: (0xb5cc00), in [package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::dispose (0xb643d8)
     //     0xb5cbec: ldr             x1, [x1, #0xf8]
     // 0xb5cbf0: r0 = AllocateClosure()
     //     0xb5cbf0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2504,7 +2504,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0xb5cc18: cmp             SP, x16
     //     0xb5cc1c: b.ls            #0xb5cc30
     // 0xb5cc20: r0 = dispose()
-    //     0xb5cc20: bl              #0xb643d8  ; [package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::dispose
+    //     0xb5cc20: bl              #0xb643d8  ; [package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::dispose
     // 0xb5cc24: LeaveFrame
     //     0xb5cc24: mov             SP, fp
     //     0xb5cc28: ldp             fp, lr, [SP], #0x10
@@ -2524,7 +2524,7 @@ class _CameraModeSelectionViewState extends State<dynamic> {
     //     0xb643e4: cmp             SP, x16
     //     0xb643e8: b.ls            #0xb64400
     // 0xb643ec: r0 = _disposePreview()
-    //     0xb643ec: bl              #0x9942fc  ; [package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_disposePreview
+    //     0xb643ec: bl              #0x9942fc  ; [package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_disposePreview
     // 0xb643f0: r0 = Null
     //     0xb643f0: mov             x0, NULL
     // 0xb643f4: LeaveFrame
@@ -3315,7 +3315,7 @@ class _MountOptionCard extends StatelessWidget {
     // 0xc3ba74: mov             x1, x4
     // 0xc3ba78: stur            x4, [fp, #-0x38]
     // 0xc3ba7c: r0 = localizedModeTitle()
-    //     0xc3ba7c: bl              #0xc3be78  ; [package:ballai/video_tracking/models/workout_setup/video_workout_camera_mount.dart] VideoWorkoutCameraMount::localizedModeTitle
+    //     0xc3ba7c: bl              #0xc3be78  ; [package:kourtai/video_tracking/models/workout_setup/video_workout_camera_mount.dart] VideoWorkoutCameraMount::localizedModeTitle
     // 0xc3ba80: stur            x0, [fp, #-0x40]
     // 0xc3ba84: r0 = Text()
     //     0xc3ba84: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -3365,7 +3365,7 @@ class _MountOptionCard extends StatelessWidget {
     //     0xc3bb08: add             x2, x2, HEAP, lsl #32
     // 0xc3bb0c: ldur            x1, [fp, #-0x38]
     // 0xc3bb10: r0 = localizedModeSubtitle()
-    //     0xc3bb10: bl              #0xc3be0c  ; [package:ballai/video_tracking/models/workout_setup/video_workout_camera_mount.dart] VideoWorkoutCameraMount::localizedModeSubtitle
+    //     0xc3bb10: bl              #0xc3be0c  ; [package:kourtai/video_tracking/models/workout_setup/video_workout_camera_mount.dart] VideoWorkoutCameraMount::localizedModeSubtitle
     // 0xc3bb14: stur            x0, [fp, #-8]
     // 0xc3bb18: r16 = 0.550000
     //     0xc3bb18: add             x16, PP, #0x25, lsl #12  ; [pp+0x25078] 0.55
@@ -3872,7 +3872,7 @@ class _OptionsColumn extends StatelessWidget {
     //     0xc3b740: stur            w4, [x3, #0x17]
     // 0xc3b744: ldur            x2, [fp, #-0x40]
     // 0xc3b748: r1 = Function '<anonymous closure>':.
-    //     0xc3b748: add             x1, PP, #0x51, lsl #12  ; [pp+0x51bf8] AnonymousClosure: (0xc3b8a0), in [package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart] _OptionsColumn::build (0xc3b50c)
+    //     0xc3b748: add             x1, PP, #0x51, lsl #12  ; [pp+0x51bf8] AnonymousClosure: (0xc3b8a0), in [package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart] _OptionsColumn::build (0xc3b50c)
     //     0xc3b74c: ldr             x1, [x1, #0xbf8]
     // 0xc3b750: r0 = AllocateClosure()
     //     0xc3b750: bl              #0xe553e0  ; AllocateClosureStub

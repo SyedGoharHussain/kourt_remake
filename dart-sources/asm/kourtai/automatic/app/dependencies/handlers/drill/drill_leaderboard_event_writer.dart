@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_event_writer.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_event_writer.dart
 
 // class id: 1048634, size: 0x8
 class :: {
@@ -77,7 +77,7 @@ abstract class DrillLeaderboardEventWriter extends Object {
     // 0x74a28c: ldur            x2, [fp, #-0x90]
     // 0x74a290: mov             x1, x0
     // 0x74a294: r0 = isEnabled()
-    //     0x74a294: bl              #0x74a860  ; [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_availability.dart] DrillLeaderboardAvailability::isEnabled
+    //     0x74a294: bl              #0x74a860  ; [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_availability.dart] DrillLeaderboardAvailability::isEnabled
     // 0x74a298: tbz             w0, #4, #0x74a334
     // 0x74a29c: ldur            x0, [fp, #-0x78]
     // 0x74a2a0: ldur            x1, [fp, #-0x90]
@@ -258,7 +258,7 @@ abstract class DrillLeaderboardEventWriter extends Object {
     //     0x74a46c: add             x17, NULL, #0x30  ; false
     // 0x74a470: csel            x1, x16, x17, ne
     // 0x74a474: r0 = writeSequence()
-    //     0x74a474: bl              #0x74a758  ; [package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_event_writer.dart] DrillLeaderboardEventWriter::writeSequence
+    //     0x74a474: bl              #0x74a758  ; [package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_event_writer.dart] DrillLeaderboardEventWriter::writeSequence
     // 0x74a478: r16 = ","
     //     0x74a478: add             x16, PP, #0xc, lsl #12  ; [pp+0xc7e8] ","
     //     0x74a47c: ldr             x16, [x16, #0x7e8]

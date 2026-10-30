@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/shared/models/workout/scene_context.dart
+// lib: , url: package:kourtai/shared/models/workout/scene_context.dart
 
 // class id: 1049063, size: 0x8
 class :: {
@@ -404,7 +404,7 @@ class SceneContext extends Object {
     //     0x744028: stur            w0, [x2, #0x1b]
     // 0x74402c: mov             x1, x2
     // 0x744030: r0 = isEmpty()
-    //     0x744030: bl              #0x744058  ; [package:ballai/shared/models/workout/scene_context.dart] SceneContext::isEmpty
+    //     0x744030: bl              #0x744058  ; [package:kourtai/shared/models/workout/scene_context.dart] SceneContext::isEmpty
     // 0x744034: tbnz            w0, #4, #0x744040
     // 0x744038: r0 = Null
     //     0x744038: mov             x0, NULL

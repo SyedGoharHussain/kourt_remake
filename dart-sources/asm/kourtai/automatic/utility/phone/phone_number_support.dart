@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/phone/phone_number_support.dart
+// lib: , url: package:kourtai/automatic/utility/phone/phone_number_support.dart
 
 // class id: 1048737, size: 0x8
 class :: {
@@ -128,7 +128,7 @@ abstract class PhoneNumberSupport extends Object {
     // 0x9c47d0: r0 = List.from()
     //     0x9c47d0: bl              #0x5f9020  ; [dart:core] List::List.from
     // 0x9c47d4: r1 = Function '<anonymous closure>': static.
-    //     0x9c47d4: add             x1, PP, #0x45, lsl #12  ; [pp+0x458e0] AnonymousClosure: static (0x9c4a20), in [package:ballai/automatic/utility/phone/phone_number_support.dart] PhoneNumberSupport::parseStored (0x9c46a4)
+    //     0x9c47d4: add             x1, PP, #0x45, lsl #12  ; [pp+0x458e0] AnonymousClosure: static (0x9c4a20), in [package:kourtai/automatic/utility/phone/phone_number_support.dart] PhoneNumberSupport::parseStored (0x9c46a4)
     //     0x9c47d8: ldr             x1, [x1, #0x8e0]
     // 0x9c47dc: r2 = Null
     //     0x9c47dc: mov             x2, NULL

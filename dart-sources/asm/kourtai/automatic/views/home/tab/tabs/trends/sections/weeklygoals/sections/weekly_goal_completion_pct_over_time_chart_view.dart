@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/weeklygoals/sections/weekly_goal_completion_pct_over_time_chart_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/weeklygoals/sections/weekly_goal_completion_pct_over_time_chart_view.dart
 
 // class id: 1048986, size: 0x8
 class :: {
@@ -52,10 +52,10 @@ class WeeklyGoalCompletionPctOverTimeChartView extends StatelessWidget {
     //     0xc08834: add             x1, PP, #0x53, lsl #12  ; [pp+0x53658] "Weekly goal completion will appear once goals are tracked."
     //     0xc08838: ldr             x1, [x1, #0x658]
     // 0xc0883c: r0 = L()
-    //     0xc0883c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0883c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc08840: stur            x0, [fp, #-8]
-    // 0xc08844: r0 = BallAiEmptyState()
-    //     0xc08844: bl              #0xa63934  ; AllocateBallAiEmptyStateStub -> BallAiEmptyState (size=0x14)
+    // 0xc08844: r0 = KourtAiEmptyState()
+    //     0xc08844: bl              #0xa63934  ; AllocateKourtAiEmptyStateStub -> KourtAiEmptyState (size=0x14)
     // 0xc08848: mov             x1, x0
     // 0xc0884c: ldur            x0, [fp, #-8]
     // 0xc08850: StoreField: r1->field_b = r0
@@ -78,7 +78,7 @@ class WeeklyGoalCompletionPctOverTimeChartView extends StatelessWidget {
     // 0xc0887c: r0 = _GrowableList.of()
     //     0xc0887c: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0xc08880: r1 = Function '<anonymous closure>':.
-    //     0xc08880: add             x1, PP, #0x53, lsl #12  ; [pp+0x53660] AnonymousClosure: (0x8f7e2c), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
+    //     0xc08880: add             x1, PP, #0x53, lsl #12  ; [pp+0x53660] AnonymousClosure: (0x8f7e2c), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
     //     0xc08884: ldr             x1, [x1, #0x660]
     // 0xc08888: r2 = Null
     //     0xc08888: mov             x2, NULL
@@ -93,7 +93,7 @@ class WeeklyGoalCompletionPctOverTimeChartView extends StatelessWidget {
     //     0xc088a0: bl              #0x7ac5ec  ; [dart:collection] ListBase::sort
     // 0xc088a4: ldur            x2, [fp, #-0x20]
     // 0xc088a8: r1 = Function '<anonymous closure>':.
-    //     0xc088a8: add             x1, PP, #0x53, lsl #12  ; [pp+0x53668] AnonymousClosure: (0xc089c4), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/weeklygoals/sections/weekly_goal_completion_pct_over_time_chart_view.dart] WeeklyGoalCompletionPctOverTimeChartView::build (0xc087c8)
+    //     0xc088a8: add             x1, PP, #0x53, lsl #12  ; [pp+0x53668] AnonymousClosure: (0xc089c4), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/weeklygoals/sections/weekly_goal_completion_pct_over_time_chart_view.dart] WeeklyGoalCompletionPctOverTimeChartView::build (0xc087c8)
     //     0xc088ac: ldr             x1, [x1, #0x668]
     // 0xc088b0: r0 = AllocateClosure()
     //     0xc088b0: bl              #0xe553e0  ; AllocateClosureStub
@@ -126,12 +126,12 @@ class WeeklyGoalCompletionPctOverTimeChartView extends StatelessWidget {
     // 0xc088f4: StoreField: r0->field_f = d0
     //     0xc088f4: stur            d0, [x0, #0xf]
     // 0xc088f8: ldur            x1, [fp, #-0x10]
-    // 0xc088fc: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc088fc: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc088fc: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc088fc: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc08900: ldur            x1, [fp, #-0x10]
     // 0xc08904: stur            x0, [fp, #-0x20]
-    // 0xc08908: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc08908: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc08908: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc08908: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc0890c: r16 = 0.180000
     //     0xc0890c: add             x16, PP, #0x2d, lsl #12  ; [pp+0x2dde0] 0.18
     //     0xc08910: ldr             x16, [x16, #0xde0]
@@ -144,8 +144,8 @@ class WeeklyGoalCompletionPctOverTimeChartView extends StatelessWidget {
     //     0xc08924: bl              #0xd9bb78  ; [dart:ui] Color::withValues
     // 0xc08928: ldur            x1, [fp, #-0x10]
     // 0xc0892c: stur            x0, [fp, #-0x10]
-    // 0xc08930: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc08930: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc08930: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc08930: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc08934: stur            x0, [fp, #-0x28]
     // 0xc08938: r0 = _CompletionLinePainter()
     //     0xc08938: bl              #0xc089b8  ; Allocate_CompletionLinePainterStub -> _CompletionLinePainter (size=0x1c)
@@ -223,10 +223,10 @@ class WeeklyGoalCompletionPctOverTimeChartView extends StatelessWidget {
     //     0xc089f4: add             x2, x2, HEAP, lsl #32
     // 0xc089f8: ldr             x1, [fp, #0x10]
     // 0xc089fc: r0 = resolvedGoal()
-    //     0xc089fc: bl              #0xa321dc  ; [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::resolvedGoal
+    //     0xc089fc: bl              #0xa321dc  ; [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::resolvedGoal
     // 0xc08a00: mov             x1, x0
     // 0xc08a04: r0 = combinedProgress()
-    //     0xc08a04: bl              #0xa6cc28  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgress
+    //     0xc08a04: bl              #0xa6cc28  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgress
     // 0xc08a08: mov             v1.16b, v0.16b
     // 0xc08a0c: d0 = 100.000000
     //     0xc08a0c: ldr             d0, [PP, #0x5948]  ; [pp+0x5948] IMM: double(100) from 0x4059000000000000
@@ -299,7 +299,7 @@ class _CompletionLinePainter extends CustomPainter {
     //     0x8421ec: add             x5, x5, HEAP, lsl #32
     // 0x8421f0: stur            x5, [fp, #-8]
     // 0x8421f4: r1 = Function '<anonymous closure>':.
-    //     0x8421f4: add             x1, PP, #0x55, lsl #12  ; [pp+0x55218] AnonymousClosure: (0x8428f0), in [package:ballai/automatic/views/home/tab/tabs/you/components/analytics_sections.dart] _AnalyticsWeeklyGoalsSectionState::build (0xa80718)
+    //     0x8421f4: add             x1, PP, #0x55, lsl #12  ; [pp+0x55218] AnonymousClosure: (0x8428f0), in [package:kourtai/automatic/views/home/tab/tabs/you/components/analytics_sections.dart] _AnalyticsWeeklyGoalsSectionState::build (0xa80718)
     //     0x8421f8: ldr             x1, [x1, #0x218]
     // 0x8421fc: r2 = Null
     //     0x8421fc: mov             x2, NULL

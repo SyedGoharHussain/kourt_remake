@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/performance/sections/streaks/performance_streaks_details_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/performance/sections/streaks/performance_streaks_details_view.dart
 
 // class id: 1048979, size: 0x8
 class :: {
@@ -26,13 +26,13 @@ class PerformanceStreaksDetailsView extends StatelessWidget {
     //     0xc06a58: add             x1, PP, #0x49, lsl #12  ; [pp+0x49248] "Streaks"
     //     0xc06a5c: ldr             x1, [x1, #0x248]
     // 0xc06a60: r0 = L()
-    //     0xc06a60: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc06a60: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc06a64: r1 = "Summary"
     //     0xc06a64: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d588] "Summary"
     //     0xc06a68: ldr             x1, [x1, #0x588]
     // 0xc06a6c: stur            x0, [fp, #-0x10]
     // 0xc06a70: r0 = L()
-    //     0xc06a70: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc06a70: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc06a74: mov             x1, x0
     // 0xc06a78: ldur            x0, [fp, #-8]
     // 0xc06a7c: stur            x1, [fp, #-0x20]
@@ -48,8 +48,8 @@ class PerformanceStreaksDetailsView extends StatelessWidget {
     // 0xc06a98: stur            x1, [fp, #-8]
     // 0xc06a9c: StoreField: r1->field_b = r0
     //     0xc06a9c: stur            w0, [x1, #0xb]
-    // 0xc06aa0: r0 = BallAiAnalyticsCard()
-    //     0xc06aa0: bl              #0xa63928  ; AllocateBallAiAnalyticsCardStub -> BallAiAnalyticsCard (size=0x20)
+    // 0xc06aa0: r0 = KourtAiAnalyticsCard()
+    //     0xc06aa0: bl              #0xa63928  ; AllocateKourtAiAnalyticsCardStub -> KourtAiAnalyticsCard (size=0x20)
     // 0xc06aa4: mov             x1, x0
     // 0xc06aa8: ldur            x0, [fp, #-0x20]
     // 0xc06aac: stur            x1, [fp, #-0x28]
@@ -76,7 +76,7 @@ class PerformanceStreaksDetailsView extends StatelessWidget {
     //     0xc06ae0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d5e0] "Streak distribution"
     //     0xc06ae4: ldr             x1, [x1, #0x5e0]
     // 0xc06ae8: r0 = L()
-    //     0xc06ae8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc06ae8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc06aec: stur            x0, [fp, #-0x20]
     // 0xc06af0: r0 = PerformanceStreakDistributionChartView()
     //     0xc06af0: bl              #0xc06c88  ; AllocatePerformanceStreakDistributionChartViewStub -> PerformanceStreakDistributionChartView (size=0x10)
@@ -85,8 +85,8 @@ class PerformanceStreaksDetailsView extends StatelessWidget {
     // 0xc06afc: stur            x1, [fp, #-0x30]
     // 0xc06b00: StoreField: r1->field_b = r0
     //     0xc06b00: stur            w0, [x1, #0xb]
-    // 0xc06b04: r0 = BallAiAnalyticsCard()
-    //     0xc06b04: bl              #0xa63928  ; AllocateBallAiAnalyticsCardStub -> BallAiAnalyticsCard (size=0x20)
+    // 0xc06b04: r0 = KourtAiAnalyticsCard()
+    //     0xc06b04: bl              #0xa63928  ; AllocateKourtAiAnalyticsCardStub -> KourtAiAnalyticsCard (size=0x20)
     // 0xc06b08: mov             x1, x0
     // 0xc06b0c: ldur            x0, [fp, #-0x20]
     // 0xc06b10: stur            x1, [fp, #-0x38]
@@ -113,7 +113,7 @@ class PerformanceStreaksDetailsView extends StatelessWidget {
     //     0xc06b44: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d5e8] "Run lengths"
     //     0xc06b48: ldr             x1, [x1, #0x5e8]
     // 0xc06b4c: r0 = L()
-    //     0xc06b4c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc06b4c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc06b50: stur            x0, [fp, #-0x30]
     // 0xc06b54: r0 = PerformanceStreaksScatterPlotView()
     //     0xc06b54: bl              #0xc06c7c  ; AllocatePerformanceStreaksScatterPlotViewStub -> PerformanceStreaksScatterPlotView (size=0x18)
@@ -127,8 +127,8 @@ class PerformanceStreaksDetailsView extends StatelessWidget {
     //     0xc06b6c: ldr             d0, [x17, #0xee8]
     // 0xc06b70: StoreField: r1->field_f = d0
     //     0xc06b70: stur            d0, [x1, #0xf]
-    // 0xc06b74: r0 = BallAiAnalyticsCard()
-    //     0xc06b74: bl              #0xa63928  ; AllocateBallAiAnalyticsCardStub -> BallAiAnalyticsCard (size=0x20)
+    // 0xc06b74: r0 = KourtAiAnalyticsCard()
+    //     0xc06b74: bl              #0xa63928  ; AllocateKourtAiAnalyticsCardStub -> KourtAiAnalyticsCard (size=0x20)
     // 0xc06b78: mov             x3, x0
     // 0xc06b7c: ldur            x0, [fp, #-0x30]
     // 0xc06b80: stur            x3, [fp, #-0x18]
@@ -216,8 +216,8 @@ class PerformanceStreaksDetailsView extends StatelessWidget {
     // 0xc06c4c: ldur            x0, [fp, #-8]
     // 0xc06c50: StoreField: r1->field_b = r0
     //     0xc06c50: stur            w0, [x1, #0xb]
-    // 0xc06c54: r0 = BallAiSectionScaffold()
-    //     0xc06c54: bl              #0xa7edb4  ; AllocateBallAiSectionScaffoldStub -> BallAiSectionScaffold (size=0x18)
+    // 0xc06c54: r0 = KourtAiSectionScaffold()
+    //     0xc06c54: bl              #0xa7edb4  ; AllocateKourtAiSectionScaffoldStub -> KourtAiSectionScaffold (size=0x18)
     // 0xc06c58: ldur            x1, [fp, #-0x10]
     // 0xc06c5c: StoreField: r0->field_b = r1
     //     0xc06c5c: stur            w1, [x0, #0xb]

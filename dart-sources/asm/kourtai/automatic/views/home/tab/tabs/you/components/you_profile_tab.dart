@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/components/you_profile_tab.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/components/you_profile_tab.dart
 
 // class id: 1049012, size: 0x8
 class :: {
@@ -29,7 +29,7 @@ enum YouProfileTab extends _Enum {
     //     0xc159c4: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b8e8] "Progress"
     //     0xc159c8: ldr             x1, [x1, #0x8e8]
     // 0xc159cc: r0 = L()
-    //     0xc159cc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc159cc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc159d0: LeaveFrame
     //     0xc159d0: mov             SP, fp
     //     0xc159d4: ldp             fp, lr, [SP], #0x10
@@ -39,7 +39,7 @@ enum YouProfileTab extends _Enum {
     //     0xc159dc: add             x1, PP, #0x26, lsl #12  ; [pp+0x26970] "Teams"
     //     0xc159e0: ldr             x1, [x1, #0x970]
     // 0xc159e4: r0 = L()
-    //     0xc159e4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc159e4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc159e8: LeaveFrame
     //     0xc159e8: mov             SP, fp
     //     0xc159ec: ldp             fp, lr, [SP], #0x10
@@ -49,7 +49,7 @@ enum YouProfileTab extends _Enum {
     //     0xc159f4: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b8f0] "My Player"
     //     0xc159f8: ldr             x1, [x1, #0x8f0]
     // 0xc159fc: r0 = L()
-    //     0xc159fc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc159fc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc15a00: LeaveFrame
     //     0xc15a00: mov             SP, fp
     //     0xc15a04: ldp             fp, lr, [SP], #0x10

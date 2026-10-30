@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/misc/pro_only_badge.dart
+// lib: , url: package:kourtai/automatic/views/components/misc/pro_only_badge.dart
 
 // class id: 1048820, size: 0x8
 class :: {
@@ -24,8 +24,8 @@ class ProOnlyBadge extends StatelessWidget {
     //     0xbc0150: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xbc0154: cmp             SP, x16
     //     0xbc0158: b.ls            #0xbc038c
-    // 0xbc015c: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbc015c: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbc015c: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbc015c: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbc0160: stur            x0, [fp, #-8]
     // 0xbc0164: r0 = Radius()
     //     0xbc0164: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -100,7 +100,7 @@ class ProOnlyBadge extends StatelessWidget {
     //     0xbc0218: ldr             x1, [x1, #0xe20]
     // 0xbc021c: stur            x0, [fp, #-0x10]
     // 0xbc0220: r0 = L()
-    //     0xbc0220: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbc0220: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbc0224: stur            x0, [fp, #-0x18]
     // 0xbc0228: r0 = TextStyle()
     //     0xbc0228: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)

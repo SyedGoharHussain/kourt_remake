@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/my_player/my_player_nba_content.dart
+// lib: , url: package:kourtai/automatic/models/core/my_player/my_player_nba_content.dart
 
 // class id: 1048690, size: 0x8
 class :: {
@@ -47,7 +47,7 @@ abstract class MyPlayerNbaContent extends Object {
     // 0xc1aa0c: r0 = _GrowableList._ofEfficientLengthIterable()
     //     0xc1aa0c: bl              #0x5c7610  ; [dart:core] _GrowableList::_GrowableList._ofEfficientLengthIterable
     // 0xc1aa10: r1 = Function '<anonymous closure>': static.
-    //     0xc1aa10: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d220] AnonymousClosure: static (0xc1ac24), in [package:ballai/automatic/models/core/my_player/my_player_nba_content.dart] MyPlayerNbaContent::topPills (0xc1a9b0)
+    //     0xc1aa10: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d220] AnonymousClosure: static (0xc1ac24), in [package:kourtai/automatic/models/core/my_player/my_player_nba_content.dart] MyPlayerNbaContent::topPills (0xc1a9b0)
     //     0xc1aa14: ldr             x1, [x1, #0x220]
     // 0xc1aa18: r2 = Null
     //     0xc1aa18: mov             x2, NULL
@@ -66,7 +66,7 @@ abstract class MyPlayerNbaContent extends Object {
     // 0xc1aa3c: r0 = take()
     //     0xc1aa3c: bl              #0x8a76b4  ; [dart:collection] ListBase::take
     // 0xc1aa40: r1 = Function '<anonymous closure>': static.
-    //     0xc1aa40: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d228] AnonymousClosure: static (0xc1aa94), in [package:ballai/automatic/models/core/my_player/my_player_nba_content.dart] MyPlayerNbaContent::topPills (0xc1a9b0)
+    //     0xc1aa40: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d228] AnonymousClosure: static (0xc1aa94), in [package:kourtai/automatic/models/core/my_player/my_player_nba_content.dart] MyPlayerNbaContent::topPills (0xc1a9b0)
     //     0xc1aa44: ldr             x1, [x1, #0x228]
     // 0xc1aa48: r2 = Null
     //     0xc1aa48: mov             x2, NULL

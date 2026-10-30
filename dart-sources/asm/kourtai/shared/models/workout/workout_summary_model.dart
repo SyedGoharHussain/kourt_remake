@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/shared/models/workout/workout_summary_model.dart
+// lib: , url: package:kourtai/shared/models/workout/workout_summary_model.dart
 
 // class id: 1049065, size: 0x8
 class :: {

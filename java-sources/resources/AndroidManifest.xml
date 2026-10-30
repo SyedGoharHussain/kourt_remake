@@ -6,7 +6,7 @@
     android:compileSdkVersionCodename="16"
     android:requiredSplitTypes="base__abi,base__density"
     android:splitTypes=""
-    package="ballai.app"
+    package="kourtai.app"
     platformBuildVersionCode="36"
     platformBuildVersionName="16">
     <uses-sdk
@@ -70,12 +70,12 @@
     <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID"/>
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
     <permission
-        android:name="ballai.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="kourtai.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature"/>
-    <uses-permission android:name="ballai.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="kourtai.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     <application
-        android:label="Ball AI"
+        android:label="Kourt AI"
         android:icon="@mipmap/ic_launcher"
         android:name="com.pairip.application.Application"
         android:extractNativeLibs="false"
@@ -83,7 +83,7 @@
         android:requestLegacyExternalStorage="true">
         <activity
             android:theme="@style/LaunchTheme"
-            android:name="ball_ai.android.MainActivity"
+            android:name="kourt_ai.android.MainActivity"
             android:exported="true"
             android:taskAffinity=""
             android:launchMode="singleTop"
@@ -102,8 +102,8 @@
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
                 <data android:scheme="https"/>
-                <data android:host="ballai.app"/>
-                <data android:host="www.ballai.app"/>
+                <data android:host="kourtai.app"/>
+                <data android:host="www.kourtai.app"/>
             </intent-filter>
         </activity>
         <meta-data
@@ -218,7 +218,7 @@
         <provider
             android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
             android:exported="false"
-            android:authorities="ballai.app.flutter.image_provider"
+            android:authorities="kourtai.app.flutter.image_provider"
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
@@ -238,7 +238,7 @@
         <provider
             android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
             android:exported="false"
-            android:authorities="ballai.app.flutter.share_provider"
+            android:authorities="kourtai.app.flutter.share_provider"
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
@@ -293,7 +293,7 @@
         <provider
             android:name="com.google.mlkit.common.internal.MlKitInitProvider"
             android:exported="false"
-            android:authorities="ballai.app.mlkitinitprovider"
+            android:authorities="kourtai.app.mlkitinitprovider"
             android:initOrder="99"/>
         <service
             android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
@@ -317,7 +317,7 @@
         <provider
             android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
             android:exported="false"
-            android:authorities="ballai.app.flutterfirebasemessaginginitprovider"
+            android:authorities="kourtai.app.flutterfirebasemessaginginitprovider"
             android:initOrder="99"/>
         <activity
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
@@ -456,7 +456,7 @@
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
             android:exported="false"
-            android:authorities="ballai.app.firebaseinitprovider"
+            android:authorities="kourtai.app.firebaseinitprovider"
             android:initOrder="100"
             android:directBootAware="true"/>
         <service
@@ -465,7 +465,7 @@
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:exported="false"
-            android:authorities="ballai.app.androidx-startup">
+            android:authorities="kourtai.app.androidx-startup">
             <meta-data
                 android:name="androidx.work.WorkManagerInitializer"
                 android:value="androidx.startup"/>

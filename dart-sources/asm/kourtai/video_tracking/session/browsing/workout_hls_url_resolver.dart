@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart
+// lib: , url: package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart
 
 // class id: 1049164, size: 0x8
 class :: {
@@ -86,7 +86,7 @@ abstract class WorkoutHlsUrlResolver extends Object {
     //     0x73460c: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0x734610: mov             x2, x0
     // 0x734614: stur            x2, [fp, #-0xa0]
-    // 0x734618: r0 = InitLateStaticField(0xe58) // [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_resolvedUrlCache
+    // 0x734618: r0 = InitLateStaticField(0xe58) // [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_resolvedUrlCache
     //     0x734618: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x73461c: ldr             x0, [x0, #0x1cb0]
     //     0x734620: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -116,7 +116,7 @@ abstract class WorkoutHlsUrlResolver extends Object {
     // 0x73466c: cbz             w2, #0x734674
     // 0x734670: r0 = ReturnAsync()
     //     0x734670: b               #0x5f1e3c  ; ReturnAsyncStub
-    // 0x734674: r0 = InitLateStaticField(0xe5c) // [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_inFlight
+    // 0x734674: r0 = InitLateStaticField(0xe5c) // [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_inFlight
     //     0x734674: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x734678: ldr             x0, [x0, #0x1cb8]
     //     0x73467c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -148,7 +148,7 @@ abstract class WorkoutHlsUrlResolver extends Object {
     // 0x7346d0: ldur            x1, [fp, #-0x98]
     // 0x7346d4: ldur            x2, [fp, #-0x90]
     // 0x7346d8: r0 = _resolveVodPlaylistUrlUncached()
-    //     0x7346d8: bl              #0x734768  ; [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_resolveVodPlaylistUrlUncached
+    //     0x7346d8: bl              #0x734768  ; [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_resolveVodPlaylistUrlUncached
     // 0x7346dc: ldur            x1, [fp, #-0xb0]
     // 0x7346e0: ldur            x2, [fp, #-0xa0]
     // 0x7346e4: mov             x3, x0
@@ -238,7 +238,7 @@ abstract class WorkoutHlsUrlResolver extends Object {
     //     0x7347d8: add             x2, x2, HEAP, lsl #32
     // 0x7347dc: mov             x1, x0
     // 0x7347e0: r0 = resolveVariantPlaylistUrl()
-    //     0x7347e0: bl              #0x734f18  ; [package:ballai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistService::resolveVariantPlaylistUrl
+    //     0x7347e0: bl              #0x734f18  ; [package:kourtai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistService::resolveVariantPlaylistUrl
     // 0x7347e4: mov             x1, x0
     // 0x7347e8: stur            x1, [fp, #-0x10]
     // 0x7347ec: r0 = Await()
@@ -313,11 +313,11 @@ abstract class WorkoutHlsUrlResolver extends Object {
     // 0x7348ac: DecompressPointer r1
     //     0x7348ac: add             x1, x1, HEAP, lsl #32
     // 0x7348b0: r0 = vodApiUrl()
-    //     0x7348b0: bl              #0x734e6c  ; [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::vodApiUrl
+    //     0x7348b0: bl              #0x734e6c  ; [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::vodApiUrl
     // 0x7348b4: mov             x1, x0
     // 0x7348b8: stur            x0, [fp, #-0x10]
     // 0x7348bc: r0 = _apiPlaylistExists()
-    //     0x7348bc: bl              #0x734acc  ; [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_apiPlaylistExists
+    //     0x7348bc: bl              #0x734acc  ; [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_apiPlaylistExists
     // 0x7348c0: mov             x1, x0
     // 0x7348c4: stur            x1, [fp, #-0x18]
     // 0x7348c8: r0 = Await()
@@ -363,7 +363,7 @@ abstract class WorkoutHlsUrlResolver extends Object {
     //     0x734934: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x734938: ldur            x2, [fp, #-0x20]
     // 0x73493c: r1 = Function 'derived': static.
-    //     0x73493c: add             x1, PP, #0x28, lsl #12  ; [pp+0x283e8] AnonymousClosure: static (0x7367d4), in [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_resolveVodPlaylistUrlUncached (0x734768)
+    //     0x73493c: add             x1, PP, #0x28, lsl #12  ; [pp+0x283e8] AnonymousClosure: static (0x7367d4), in [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_resolveVodPlaylistUrlUncached (0x734768)
     //     0x734940: ldr             x1, [x1, #0x3e8]
     // 0x734944: r0 = AllocateClosure()
     //     0x734944: bl              #0xe553e0  ; AllocateClosureStub
@@ -381,7 +381,7 @@ abstract class WorkoutHlsUrlResolver extends Object {
     //     0x734964: stur            w0, [x3, #0xf]
     // 0x734968: ldur            x2, [fp, #-0x20]
     // 0x73496c: r1 = Function 'signedPlaylist': static.
-    //     0x73496c: add             x1, PP, #0x28, lsl #12  ; [pp+0x283f0] AnonymousClosure: static (0x736604), in [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_resolveVodPlaylistUrlUncached (0x734768)
+    //     0x73496c: add             x1, PP, #0x28, lsl #12  ; [pp+0x283f0] AnonymousClosure: static (0x736604), in [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_resolveVodPlaylistUrlUncached (0x734768)
     //     0x734970: ldr             x1, [x1, #0x3f0]
     // 0x734974: r0 = AllocateClosure()
     //     0x734974: bl              #0xe553e0  ; AllocateClosureStub
@@ -391,7 +391,7 @@ abstract class WorkoutHlsUrlResolver extends Object {
     //     0x734980: stur            w1, [x0, #0x13]
     // 0x734984: ldur            x2, [fp, #-0x20]
     // 0x734988: r1 = Function 'mediaPlaylist': static.
-    //     0x734988: add             x1, PP, #0x28, lsl #12  ; [pp+0x283f8] AnonymousClosure: static (0x736434), in [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_resolveVodPlaylistUrlUncached (0x734768)
+    //     0x734988: add             x1, PP, #0x28, lsl #12  ; [pp+0x283f8] AnonymousClosure: static (0x736434), in [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_resolveVodPlaylistUrlUncached (0x734768)
     //     0x73498c: ldr             x1, [x1, #0x3f8]
     // 0x734990: r0 = AllocateClosure()
     //     0x734990: bl              #0xe553e0  ; AllocateClosureStub
@@ -666,8 +666,8 @@ abstract class WorkoutHlsUrlResolver extends Object {
     // 0x734e90: stur            x0, [fp, #-8]
     // 0x734e94: r0 = AllocateArray()
     //     0x734e94: bl              #0xe560ac  ; AllocateArrayStub
-    // 0x734e98: r16 = "https://ballai.app/api/workouts/"
-    //     0x734e98: add             x16, PP, #0x28, lsl #12  ; [pp+0x28530] "https://ballai.app/api/workouts/"
+    // 0x734e98: r16 = "https://kourtai.app/api/workouts/"
+    //     0x734e98: add             x16, PP, #0x28, lsl #12  ; [pp+0x28530] "https://kourtai.app/api/workouts/"
     //     0x734e9c: ldr             x16, [x16, #0x530]
     // 0x734ea0: StoreField: r0->field_f = r16
     //     0x734ea0: stur            w16, [x0, #0xf]
@@ -876,7 +876,7 @@ abstract class WorkoutHlsUrlResolver extends Object {
     //     0x736468: ldr             x0, [PP, #0xf20]  ; [pp+0xf20] TypeArguments: <String?>
     //     0x73646c: bl              #0x60afc8  ; InitAsyncStub
     // 0x736470: r0 = _storageBuckets()
-    //     0x736470: bl              #0x735538  ; [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_storageBuckets
+    //     0x736470: bl              #0x735538  ; [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_storageBuckets
     // 0x736474: mov             x1, x0
     // 0x736478: r0 = iterator()
     //     0x736478: bl              #0x85e7e4  ; [dart:async] _SyncStarIterable::iterator
@@ -1043,7 +1043,7 @@ abstract class WorkoutHlsUrlResolver extends Object {
     //     0x736638: ldr             x0, [PP, #0xf20]  ; [pp+0xf20] TypeArguments: <String?>
     //     0x73663c: bl              #0x60afc8  ; InitAsyncStub
     // 0x736640: r0 = _storageBuckets()
-    //     0x736640: bl              #0x735538  ; [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_storageBuckets
+    //     0x736640: bl              #0x735538  ; [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_storageBuckets
     // 0x736644: mov             x1, x0
     // 0x736648: r0 = iterator()
     //     0x736648: bl              #0x85e7e4  ; [dart:async] _SyncStarIterable::iterator
@@ -1210,7 +1210,7 @@ abstract class WorkoutHlsUrlResolver extends Object {
     //     0x736808: ldr             x0, [PP, #0xf20]  ; [pp+0xf20] TypeArguments: <String?>
     //     0x73680c: bl              #0x60afc8  ; InitAsyncStub
     // 0x736810: r0 = _storageBuckets()
-    //     0x736810: bl              #0x735538  ; [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_storageBuckets
+    //     0x736810: bl              #0x735538  ; [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_storageBuckets
     // 0x736814: mov             x1, x0
     // 0x736818: r0 = iterator()
     //     0x736818: bl              #0x85e7e4  ; [dart:async] _SyncStarIterable::iterator
@@ -1803,7 +1803,7 @@ abstract class WorkoutHlsUrlResolver extends Object {
     // 0x8efe9c: r0 = Await()
     //     0x8efe9c: bl              #0x60ad4c  ; AwaitStub
     // 0x8efea0: r0 = _storageBuckets()
-    //     0x8efea0: bl              #0x735538  ; [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_storageBuckets
+    //     0x8efea0: bl              #0x735538  ; [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_storageBuckets
     // 0x8efea4: stur            x0, [fp, #-0x90]
     // 0x8efea8: LoadField: r2 = r0->field_7
     //     0x8efea8: ldur            w2, [x0, #7]
@@ -2124,7 +2124,7 @@ abstract class WorkoutHlsUrlResolver extends Object {
     // 0x8f2300: r0 = Await()
     //     0x8f2300: bl              #0x60ad4c  ; AwaitStub
     // 0x8f2304: r0 = _storageBuckets()
-    //     0x8f2304: bl              #0x735538  ; [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_storageBuckets
+    //     0x8f2304: bl              #0x735538  ; [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_storageBuckets
     // 0x8f2308: mov             x1, x0
     // 0x8f230c: r0 = iterator()
     //     0x8f230c: bl              #0x85e7e4  ; [dart:async] _SyncStarIterable::iterator
@@ -2287,7 +2287,7 @@ abstract class WorkoutHlsUrlResolver extends Object {
     // 0x8f24d0: r0 = _GrowableList.of()
     //     0x8f24d0: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x8f24d4: r1 = Function '<anonymous closure>': static.
-    //     0x8f24d4: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e7b8] AnonymousClosure: static (0x8f3438), in [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::resolveAndroidSegmentUrls (0x8f2258)
+    //     0x8f24d4: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e7b8] AnonymousClosure: static (0x8f3438), in [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::resolveAndroidSegmentUrls (0x8f2258)
     //     0x8f24d8: ldr             x1, [x1, #0x7b8]
     // 0x8f24dc: r2 = Null
     //     0x8f24dc: mov             x2, NULL
@@ -2318,7 +2318,7 @@ abstract class WorkoutHlsUrlResolver extends Object {
     // 0x8f2528: r0 = _GrowableList.of()
     //     0x8f2528: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x8f252c: r1 = Function '<anonymous closure>': static.
-    //     0x8f252c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e7c0] AnonymousClosure: static (0x8f3368), in [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::resolveAndroidSegmentUrls (0x8f2258)
+    //     0x8f252c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e7c0] AnonymousClosure: static (0x8f3368), in [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::resolveAndroidSegmentUrls (0x8f2258)
     //     0x8f2530: ldr             x1, [x1, #0x7c0]
     // 0x8f2534: r2 = Null
     //     0x8f2534: mov             x2, NULL

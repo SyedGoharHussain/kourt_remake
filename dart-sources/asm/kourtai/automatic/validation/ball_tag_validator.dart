@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/validation/ball_tag_validator.dart
+// lib: , url: package:kourtai/automatic/validation/ball_tag_validator.dart
 
 // class id: 1048758, size: 0x8
 class :: {
@@ -47,7 +47,7 @@ abstract class BallTagValidator extends Object {
     //     0x955be8: ldr             lr, [x21, lr, lsl #3]
     //     0x955bec: blr             lr
     // 0x955bf0: r1 = Function '<anonymous closure>': static.
-    //     0x955bf0: add             x1, PP, #0x45, lsl #12  ; [pp+0x457d0] AnonymousClosure: static (0x955c64), in [package:ballai/automatic/validation/ball_tag_validator.dart] BallTagValidator::normalized (0x955b88)
+    //     0x955bf0: add             x1, PP, #0x45, lsl #12  ; [pp+0x457d0] AnonymousClosure: static (0x955c64), in [package:kourtai/automatic/validation/ball_tag_validator.dart] BallTagValidator::normalized (0x955b88)
     //     0x955bf4: ldr             x1, [x1, #0x7d0]
     // 0x955bf8: r2 = Null
     //     0x955bf8: mov             x2, NULL
@@ -129,7 +129,7 @@ abstract class BallTagValidator extends Object {
     //     0xa97db4: cmp             SP, x16
     //     0xa97db8: b.ls            #0xa97df4
     // 0xa97dbc: r0 = normalized()
-    //     0xa97dbc: bl              #0x955b88  ; [package:ballai/automatic/validation/ball_tag_validator.dart] BallTagValidator::normalized
+    //     0xa97dbc: bl              #0x955b88  ; [package:kourtai/automatic/validation/ball_tag_validator.dart] BallTagValidator::normalized
     // 0xa97dc0: LoadField: r1 = r0->field_7
     //     0xa97dc0: ldur            w1, [x0, #7]
     // 0xa97dc4: cbz             w1, #0xa97de4

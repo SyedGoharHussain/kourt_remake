@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/pre_workout_setup_flow_view.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/pre_workout_setup_flow_view.dart
 
 // class id: 1049263, size: 0x8
 class :: {
@@ -18,7 +18,7 @@ class _PreWorkoutSetupFlowViewState extends State<dynamic> {
     //     0x99f854: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x99f858: cmp             SP, x16
     //     0x99f85c: b.ls            #0x99f8ac
-    // 0x99f860: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0x99f860: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0x99f860: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x99f864: ldr             x0, [x0, #0x1cf0]
     //     0x99f868: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -30,7 +30,7 @@ class _PreWorkoutSetupFlowViewState extends State<dynamic> {
     // 0x99f880: mov             x1, x0
     // 0x99f884: stur            x0, [fp, #-8]
     // 0x99f888: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x99f888: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x99f888: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x99f88c: tbnz            w0, #4, #0x99f89c
     // 0x99f890: ldur            x1, [fp, #-8]
     // 0x99f894: r2 = true
@@ -63,7 +63,7 @@ class _PreWorkoutSetupFlowViewState extends State<dynamic> {
     //     0xaca808: cmp             SP, x16
     //     0xaca80c: b.ls            #0xaca820
     // 0xaca810: r0 = _advanceFromCamera()
-    //     0xaca810: bl              #0xaca828  ; [package:ballai/video_tracking/views/workout/pre_workout_setup_flow_view.dart] _PreWorkoutSetupFlowViewState::_advanceFromCamera
+    //     0xaca810: bl              #0xaca828  ; [package:kourtai/video_tracking/views/workout/pre_workout_setup_flow_view.dart] _PreWorkoutSetupFlowViewState::_advanceFromCamera
     // 0xaca814: LeaveFrame
     //     0xaca814: mov             SP, fp
     //     0xaca818: ldp             fp, lr, [SP], #0x10
@@ -96,7 +96,7 @@ class _PreWorkoutSetupFlowViewState extends State<dynamic> {
     //     0xaca854: stur            w0, [x1, #0xf]
     // 0xaca858: mov             x2, x1
     // 0xaca85c: r1 = Function '<anonymous closure>':.
-    //     0xaca85c: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c00] AnonymousClosure: (0xaca88c), in [package:ballai/video_tracking/views/workout/pre_workout_setup_flow_view.dart] _PreWorkoutSetupFlowViewState::_advanceFromCamera (0xaca828)
+    //     0xaca85c: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c00] AnonymousClosure: (0xaca88c), in [package:kourtai/video_tracking/views/workout/pre_workout_setup_flow_view.dart] _PreWorkoutSetupFlowViewState::_advanceFromCamera (0xaca828)
     //     0xaca860: ldr             x1, [x1, #0xc00]
     // 0xaca864: r0 = AllocateClosure()
     //     0xaca864: bl              #0xe553e0  ; AllocateClosureStub
@@ -137,7 +137,7 @@ class _PreWorkoutSetupFlowViewState extends State<dynamic> {
     // 0xaca8b8: mov             x1, x0
     // 0xaca8bc: stur            x0, [fp, #-8]
     // 0xaca8c0: r0 = _needsAudioStep()
-    //     0xaca8c0: bl              #0xaca914  ; [package:ballai/video_tracking/views/workout/pre_workout_setup_flow_view.dart] _PreWorkoutSetupFlowViewState::_needsAudioStep
+    //     0xaca8c0: bl              #0xaca914  ; [package:kourtai/video_tracking/views/workout/pre_workout_setup_flow_view.dart] _PreWorkoutSetupFlowViewState::_needsAudioStep
     // 0xaca8c4: tbnz            w0, #4, #0xaca8d4
     // 0xaca8c8: r0 = Instance__FlowAnchor
     //     0xaca8c8: add             x0, PP, #0x40, lsl #12  ; [pp+0x40c08] Obj!_FlowAnchor@d385e1
@@ -176,7 +176,7 @@ class _PreWorkoutSetupFlowViewState extends State<dynamic> {
     //     0xaca920: cmp             SP, x16
     //     0xaca924: b.ls            #0xaca954
     // 0xaca928: r0 = _isDribbleSession()
-    //     0xaca928: bl              #0x99400c  ; [package:ballai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_isDribbleSession
+    //     0xaca928: bl              #0x99400c  ; [package:kourtai/video_tracking/views/workout/camera_mode_selection_view.dart] _CameraModeSelectionViewState::_isDribbleSession
     // 0xaca92c: tbz             w0, #4, #0xaca944
     // 0xaca930: r1 = LoadStaticField(0xc40)
     //     0xaca930: ldr             x1, [THR, #0x68]  ; THR::field_table_values
@@ -219,7 +219,7 @@ class _PreWorkoutSetupFlowViewState extends State<dynamic> {
     //     0xad937c: stur            w0, [x2, #0xf]
     // 0xad9380: mov             x1, x0
     // 0xad9384: r0 = _resolvedAnchor()
-    //     0xad9384: bl              #0xad94c8  ; [package:ballai/video_tracking/views/workout/pre_workout_setup_flow_view.dart] _PreWorkoutSetupFlowViewState::_resolvedAnchor
+    //     0xad9384: bl              #0xad94c8  ; [package:kourtai/video_tracking/views/workout/pre_workout_setup_flow_view.dart] _PreWorkoutSetupFlowViewState::_resolvedAnchor
     // 0xad9388: LoadField: r1 = r0->field_7
     //     0xad9388: ldur            x1, [x0, #7]
     // 0xad938c: cmp             x1, #1
@@ -239,7 +239,7 @@ class _PreWorkoutSetupFlowViewState extends State<dynamic> {
     //     0xad93b4: add             x3, x3, HEAP, lsl #32
     // 0xad93b8: stur            x3, [fp, #-0x18]
     // 0xad93bc: r1 = Function '_advanceFromCamera@1487146140':.
-    //     0xad93bc: add             x1, PP, #0x40, lsl #12  ; [pp+0x40be0] AnonymousClosure: (0xaca7f0), in [package:ballai/video_tracking/views/workout/pre_workout_setup_flow_view.dart] _PreWorkoutSetupFlowViewState::_advanceFromCamera (0xaca828)
+    //     0xad93bc: add             x1, PP, #0x40, lsl #12  ; [pp+0x40be0] AnonymousClosure: (0xaca7f0), in [package:kourtai/video_tracking/views/workout/pre_workout_setup_flow_view.dart] _PreWorkoutSetupFlowViewState::_advanceFromCamera (0xaca828)
     //     0xad93c0: ldr             x1, [x1, #0xbe0]
     // 0xad93c4: r0 = AllocateClosure()
     //     0xad93c4: bl              #0xe553e0  ; AllocateClosureStub
@@ -273,7 +273,7 @@ class _PreWorkoutSetupFlowViewState extends State<dynamic> {
     // 0xad9410: ldur            x2, [fp, #-0x10]
     // 0xad9414: stur            x3, [fp, #-0x18]
     // 0xad9418: r1 = Function '<anonymous closure>':.
-    //     0xad9418: add             x1, PP, #0x40, lsl #12  ; [pp+0x40be8] AnonymousClosure: (0xad95ac), in [package:ballai/video_tracking/views/workout/pre_workout_setup_flow_view.dart] _PreWorkoutSetupFlowViewState::build (0xad934c)
+    //     0xad9418: add             x1, PP, #0x40, lsl #12  ; [pp+0x40be8] AnonymousClosure: (0xad95ac), in [package:kourtai/video_tracking/views/workout/pre_workout_setup_flow_view.dart] _PreWorkoutSetupFlowViewState::build (0xad934c)
     //     0xad941c: ldr             x1, [x1, #0xbe8]
     // 0xad9420: r0 = AllocateClosure()
     //     0xad9420: bl              #0xe553e0  ; AllocateClosureStub
@@ -363,7 +363,7 @@ class _PreWorkoutSetupFlowViewState extends State<dynamic> {
     //     0xad9514: ldp             fp, lr, [SP], #0x10
     // 0xad9518: ret
     //     0xad9518: ret             
-    // 0xad951c: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0xad951c: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0xad951c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xad9520: ldr             x0, [x0, #0x1cf0]
     //     0xad9524: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -375,7 +375,7 @@ class _PreWorkoutSetupFlowViewState extends State<dynamic> {
     // 0xad953c: mov             x1, x0
     // 0xad9540: stur            x0, [fp, #-8]
     // 0xad9544: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0xad9544: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0xad9544: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0xad9548: tbnz            w0, #4, #0xad9560
     // 0xad954c: r0 = Instance__FlowAnchor
     //     0xad954c: add             x0, PP, #0x40, lsl #12  ; [pp+0x40bf8] Obj!_FlowAnchor@d38601
@@ -387,7 +387,7 @@ class _PreWorkoutSetupFlowViewState extends State<dynamic> {
     //     0xad955c: ret             
     // 0xad9560: ldur            x1, [fp, #-8]
     // 0xad9564: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0xad9564: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0xad9564: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0xad9568: tbz             w0, #4, #0xad9590
     // 0xad956c: r1 = LoadStaticField(0xc40)
     //     0xad956c: ldr             x1, [THR, #0x68]  ; THR::field_table_values
@@ -435,7 +435,7 @@ class _PreWorkoutSetupFlowViewState extends State<dynamic> {
     //     0xad95d4: add             x0, x0, HEAP, lsl #32
     // 0xad95d8: stur            x0, [fp, #-8]
     // 0xad95dc: r1 = Function '<anonymous closure>':.
-    //     0xad95dc: add             x1, PP, #0x40, lsl #12  ; [pp+0x40bf0] AnonymousClosure: (0xad960c), in [package:ballai/video_tracking/views/workout/pre_workout_setup_flow_view.dart] _PreWorkoutSetupFlowViewState::build (0xad934c)
+    //     0xad95dc: add             x1, PP, #0x40, lsl #12  ; [pp+0x40bf0] AnonymousClosure: (0xad960c), in [package:kourtai/video_tracking/views/workout/pre_workout_setup_flow_view.dart] _PreWorkoutSetupFlowViewState::build (0xad934c)
     //     0xad95e0: ldr             x1, [x1, #0xbf0]
     // 0xad95e4: r0 = AllocateClosure()
     //     0xad95e4: bl              #0xe553e0  ; AllocateClosureStub

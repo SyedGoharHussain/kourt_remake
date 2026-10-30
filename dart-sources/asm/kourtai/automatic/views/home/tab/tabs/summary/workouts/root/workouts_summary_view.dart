@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/root/workouts_summary_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/root/workouts_summary_view.dart
 
 // class id: 1048889, size: 0x8
 class :: {
@@ -33,7 +33,7 @@ class WorkoutsSummaryView extends StatelessWidget {
     //     0xbe25f4: stur            w0, [x2, #0xf]
     // 0xbe25f8: ldur            x1, [fp, #-8]
     // 0xbe25fc: r0 = _sortedWorkouts()
-    //     0xbe25fc: bl              #0xbe2a20  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/root/workouts_summary_view.dart] WorkoutsSummaryView::_sortedWorkouts
+    //     0xbe25fc: bl              #0xbe2a20  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/root/workouts_summary_view.dart] WorkoutsSummaryView::_sortedWorkouts
     // 0xbe2600: mov             x1, x0
     // 0xbe2604: ldur            x3, [fp, #-0x18]
     // 0xbe2608: StoreField: r3->field_13 = r0
@@ -222,7 +222,7 @@ class WorkoutsSummaryView extends StatelessWidget {
     //     0xbe27f0: stur            w0, [x3, #0xb]
     // 0xbe27f4: ldur            x2, [fp, #-0x18]
     // 0xbe27f8: r1 = Function '<anonymous closure>':.
-    //     0xbe27f8: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c688] AnonymousClosure: (0xbe2b3c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/root/workouts_summary_view.dart] WorkoutsSummaryView::build (0xbe25c0)
+    //     0xbe27f8: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c688] AnonymousClosure: (0xbe2b3c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/root/workouts_summary_view.dart] WorkoutsSummaryView::build (0xbe25c0)
     //     0xbe27fc: ldr             x1, [x1, #0x688]
     // 0xbe2800: r0 = AllocateClosure()
     //     0xbe2800: bl              #0xe553e0  ; AllocateClosureStub
@@ -447,7 +447,7 @@ class WorkoutsSummaryView extends StatelessWidget {
     // 0xbe2a4c: r0 = List.from()
     //     0xbe2a4c: bl              #0x5f9020  ; [dart:core] List::List.from
     // 0xbe2a50: r1 = Function '<anonymous closure>':.
-    //     0xbe2a50: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c6a0] AnonymousClosure: (0xbe2a8c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/root/workouts_summary_view.dart] WorkoutsSummaryView::_sortedWorkouts (0xbe2a20)
+    //     0xbe2a50: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c6a0] AnonymousClosure: (0xbe2a8c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/root/workouts_summary_view.dart] WorkoutsSummaryView::_sortedWorkouts (0xbe2a20)
     //     0xbe2a54: ldr             x1, [x1, #0x6a0]
     // 0xbe2a58: r2 = Null
     //     0xbe2a58: mov             x2, NULL
@@ -567,7 +567,7 @@ class WorkoutsSummaryView extends StatelessWidget {
     //     0xbe2b78: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xbe2b7c: ldur            x2, [fp, #-8]
     // 0xbe2b80: r1 = Function '<anonymous closure>':.
-    //     0xbe2b80: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c698] AnonymousClosure: (0xbe2be4), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/root/workouts_summary_view.dart] WorkoutsSummaryView::build (0xbe25c0)
+    //     0xbe2b80: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c698] AnonymousClosure: (0xbe2be4), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/root/workouts_summary_view.dart] WorkoutsSummaryView::build (0xbe25c0)
     //     0xbe2b84: ldr             x1, [x1, #0x698]
     // 0xbe2b88: stur            x0, [fp, #-8]
     // 0xbe2b8c: r0 = AllocateClosure()

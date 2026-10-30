@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart
+// lib: , url: package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart
 
 // class id: 1048770, size: 0x8
 class :: {
@@ -40,7 +40,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     // 0x975da0: r0 = ReturnAsyncNotFuture()
     //     0x975da0: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x975da4: r0 = loadFirstPage()
-    //     0x975da4: bl              #0x975dc4  ; [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::loadFirstPage
+    //     0x975da4: bl              #0x975dc4  ; [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::loadFirstPage
     // 0x975da8: mov             x1, x0
     // 0x975dac: stur            x1, [fp, #-0x10]
     // 0x975db0: r0 = Await()
@@ -83,7 +83,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     // 0x975e04: ldur            x0, [fp, #-0x70]
     // 0x975e08: mov             x1, x0
     // 0x975e0c: r0 = _fetchMemberIds()
-    //     0x975e0c: bl              #0x977eb0  ; [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_fetchMemberIds
+    //     0x975e0c: bl              #0x977eb0  ; [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_fetchMemberIds
     // 0x975e10: mov             x1, x0
     // 0x975e14: stur            x1, [fp, #-0x78]
     // 0x975e18: r0 = Await()
@@ -92,7 +92,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     // 0x975e20: mov             x2, x0
     // 0x975e24: stur            x0, [fp, #-0x78]
     // 0x975e28: r0 = _buildUserIdChunks()
-    //     0x975e28: bl              #0x977cd4  ; [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_buildUserIdChunks
+    //     0x975e28: bl              #0x977cd4  ; [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_buildUserIdChunks
     // 0x975e2c: ldur            x2, [fp, #-0x70]
     // 0x975e30: StoreField: r2->field_43 = r0
     //     0x975e30: stur            w0, [x2, #0x43]
@@ -180,14 +180,14 @@ class TeamFeedViewModel extends ChangeNotifier {
     //     0x975efc: add             x3, NULL, #0x30  ; false
     // 0x975f00: mov             x1, x2
     // 0x975f04: r0 = _seedCandidateItemsIfNeeded()
-    //     0x975f04: bl              #0x977b04  ; [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_seedCandidateItemsIfNeeded
+    //     0x975f04: bl              #0x977b04  ; [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_seedCandidateItemsIfNeeded
     // 0x975f08: mov             x1, x0
     // 0x975f0c: stur            x1, [fp, #-0x78]
     // 0x975f10: r0 = Await()
     //     0x975f10: bl              #0x60ad4c  ; AwaitStub
     // 0x975f14: ldur            x1, [fp, #-0x70]
     // 0x975f18: r0 = _loadMoreInternal()
-    //     0x975f18: bl              #0x976318  ; [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_loadMoreInternal
+    //     0x975f18: bl              #0x976318  ; [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_loadMoreInternal
     // 0x975f1c: mov             x1, x0
     // 0x975f20: stur            x1, [fp, #-0x78]
     // 0x975f24: r0 = Await()
@@ -209,7 +209,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     //     0x975f48: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
     // 0x975f4c: ldur            x1, [fp, #-0x70]
     // 0x975f50: r0 = _prewarmTopFeedVideoUrls()
-    //     0x975f50: bl              #0x9760a8  ; [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_prewarmTopFeedVideoUrls
+    //     0x975f50: bl              #0x9760a8  ; [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_prewarmTopFeedVideoUrls
     // 0x975f54: ldur            x2, [fp, #-0x70]
     // 0x975f58: r0 = true
     //     0x975f58: add             x0, NULL, #0x20  ; true
@@ -272,7 +272,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     //     0x975ff4: add             x2, PP, #0x43, lsl #12  ; [pp+0x439a8] "Couldn\'t load the team feed. Please try again."
     //     0x975ff8: ldr             x2, [x2, #0x9a8]
     // 0x975ffc: r0 = userFacingError()
-    //     0x975ffc: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0x975ffc: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0x976000: ldur            x3, [fp, #-0x70]
     // 0x976004: StoreField: r3->field_37 = r0
     //     0x976004: stur            w0, [x3, #0x37]
@@ -365,7 +365,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     // 0x9760f4: ldur            x2, [fp, #-0x18]
     // 0x9760f8: stur            x3, [fp, #-0x20]
     // 0x9760fc: r1 = Function '<anonymous closure>':.
-    //     0x9760fc: add             x1, PP, #0x43, lsl #12  ; [pp+0x438d0] AnonymousClosure: (0x976260), in [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_prewarmTopFeedVideoUrls (0x9760a8)
+    //     0x9760fc: add             x1, PP, #0x43, lsl #12  ; [pp+0x438d0] AnonymousClosure: (0x976260), in [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_prewarmTopFeedVideoUrls (0x9760a8)
     //     0x976100: ldr             x1, [x1, #0x8d0]
     // 0x976104: r0 = AllocateClosure()
     //     0x976104: bl              #0xe553e0  ; AllocateClosureStub
@@ -474,7 +474,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     // 0x97621c: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x97621c: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x976220: r0 = resolveVodPlaylistUrl()
-    //     0x976220: bl              #0x73453c  ; [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::resolveVodPlaylistUrl
+    //     0x976220: bl              #0x73453c  ; [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::resolveVodPlaylistUrl
     // 0x976224: ldur            x0, [fp, #-0x30]
     // 0x976228: ldur            x4, [fp, #-0x18]
     // 0x97622c: ldur            x5, [fp, #-0x10]
@@ -524,7 +524,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     // 0x97629c: DecompressPointer r1
     //     0x97629c: add             x1, x1, HEAP, lsl #32
     // 0x9762a0: r0 = isVideoTrackedWorkout()
-    //     0x9762a0: bl              #0x736e2c  ; [package:ballai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
+    //     0x9762a0: bl              #0x736e2c  ; [package:kourtai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
     // 0x9762a4: tbnz            w0, #4, #0x9762dc
     // 0x9762a8: ldur            x0, [fp, #-0x10]
     // 0x9762ac: ldur            x1, [fp, #-8]
@@ -576,7 +576,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     //     0x97633c: bl              #0x60afc8  ; InitAsyncStub
     // 0x976340: ldur            x1, [fp, #-0x10]
     // 0x976344: r0 = _seedCandidateItemsIfNeeded()
-    //     0x976344: bl              #0x977b04  ; [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_seedCandidateItemsIfNeeded
+    //     0x976344: bl              #0x977b04  ; [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_seedCandidateItemsIfNeeded
     // 0x976348: mov             x1, x0
     // 0x97634c: stur            x1, [fp, #-0x18]
     // 0x976350: r0 = Await()
@@ -649,7 +649,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     // 0x9763f4: b.ge            #0x9766b4
     // 0x9763f8: mov             x1, x3
     // 0x9763fc: r0 = _nextCandidateChunkIndex()
-    //     0x9763fc: bl              #0x9778c4  ; [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_nextCandidateChunkIndex
+    //     0x9763fc: bl              #0x9778c4  ; [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_nextCandidateChunkIndex
     // 0x976400: stur            x0, [fp, #-0x48]
     // 0x976404: cmp             w0, NULL
     // 0x976408: b.eq            #0x9766b4
@@ -790,7 +790,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     //     0x9765a0: bl              #0xe4d1cc  ; [dart:_compact_hash] __Map&_HashVMBase&MapMixin&_HashBase&_OperatorEqualsAndHashCode&_LinkedHashMapMixin::_set
     // 0x9765a4: ldur            x2, [fp, #-0x60]
     // 0x9765a8: r1 = Function '<anonymous closure>':.
-    //     0x9765a8: add             x1, PP, #0x43, lsl #12  ; [pp+0x43910] AnonymousClosure: (0x977a84), in [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_loadMoreInternal (0x976318)
+    //     0x9765a8: add             x1, PP, #0x43, lsl #12  ; [pp+0x43910] AnonymousClosure: (0x977a84), in [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_loadMoreInternal (0x976318)
     //     0x9765ac: ldr             x1, [x1, #0x910]
     // 0x9765b0: r0 = AllocateClosure()
     //     0x9765b0: bl              #0xe553e0  ; AllocateClosureStub
@@ -881,7 +881,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     // 0x9766b4: ldur            x3, [fp, #-0x10]
     // 0x9766b8: ldur            x0, [fp, #-0x40]
     // 0x9766bc: r1 = Function '<anonymous closure>':.
-    //     0x9766bc: add             x1, PP, #0x43, lsl #12  ; [pp+0x43928] AnonymousClosure: (0x976cb0), in [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_loadMoreInternal (0x976318)
+    //     0x9766bc: add             x1, PP, #0x43, lsl #12  ; [pp+0x43928] AnonymousClosure: (0x976cb0), in [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_loadMoreInternal (0x976318)
     //     0x9766c0: ldr             x1, [x1, #0x928]
     // 0x9766c4: r2 = Null
     //     0x9766c4: mov             x2, NULL
@@ -921,7 +921,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     // 0x976724: ldur            x1, [fp, #-0x10]
     // 0x976728: mov             x2, x0
     // 0x97672c: r0 = _refillCandidateItems()
-    //     0x97672c: bl              #0x976754  ; [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_refillCandidateItems
+    //     0x97672c: bl              #0x976754  ; [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_refillCandidateItems
     // 0x976730: mov             x1, x0
     // 0x976734: stur            x1, [fp, #-0x10]
     // 0x976738: r0 = Await()
@@ -968,7 +968,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     //     0x97679c: bl              #0x60afc8  ; InitAsyncStub
     // 0x9767a0: ldur            x2, [fp, #-0x20]
     // 0x9767a4: r1 = Function '<anonymous closure>':.
-    //     0x9767a4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43930] AnonymousClosure: (0x9777f4), in [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_refillCandidateItems (0x976754)
+    //     0x9767a4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43930] AnonymousClosure: (0x9777f4), in [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_refillCandidateItems (0x976754)
     //     0x9767a8: ldr             x1, [x1, #0x930]
     // 0x9767ac: r0 = AllocateClosure()
     //     0x9767ac: bl              #0xe553e0  ; AllocateClosureStub
@@ -988,7 +988,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     // 0x9767d4: r3 = 6
     //     0x9767d4: mov             x3, #6
     // 0x9767d8: r0 = _fetchNextItemsForChunks()
-    //     0x9767d8: bl              #0x9767f8  ; [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_fetchNextItemsForChunks
+    //     0x9767d8: bl              #0x9767f8  ; [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_fetchNextItemsForChunks
     // 0x9767dc: mov             x1, x0
     // 0x9767e0: stur            x1, [fp, #-0x10]
     // 0x9767e4: r0 = Await()
@@ -1072,7 +1072,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     //     0x9768b8: bl              #0xe547fc  ; WriteBarrierWrappersStub
     // 0x9768bc: mov             x2, x4
     // 0x9768c0: r1 = Function '<anonymous closure>':.
-    //     0x9768c0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43938] AnonymousClosure: (0x976d6c), in [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_fetchNextItemsForChunks (0x9767f8)
+    //     0x9768c0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43938] AnonymousClosure: (0x976d6c), in [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_fetchNextItemsForChunks (0x9767f8)
     //     0x9768c4: ldr             x1, [x1, #0x938]
     // 0x9768c8: r0 = AllocateClosure()
     //     0x9768c8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1136,7 +1136,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     // 0x976978: ldur            x1, [fp, #-0x10]
     // 0x97697c: mov             x2, x0
     // 0x976980: r0 = _applyChunkFetchResult()
-    //     0x976980: bl              #0x9769a4  ; [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_applyChunkFetchResult
+    //     0x976980: bl              #0x9769a4  ; [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_applyChunkFetchResult
     // 0x976984: ldur            x2, [fp, #-0x18]
     // 0x976988: b               #0x976934
     // 0x97698c: r0 = Null
@@ -1254,7 +1254,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     // 0x976abc: r0 = addAll()
     //     0x976abc: bl              #0x5c8034  ; [dart:core] _GrowableList::addAll
     // 0x976ac0: r1 = Function '<anonymous closure>':.
-    //     0x976ac0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43980] AnonymousClosure: (0x976cb0), in [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_loadMoreInternal (0x976318)
+    //     0x976ac0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43980] AnonymousClosure: (0x976cb0), in [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_loadMoreInternal (0x976318)
     //     0x976ac4: ldr             x1, [x1, #0x980]
     // 0x976ac8: r2 = Null
     //     0x976ac8: mov             x2, NULL
@@ -1402,7 +1402,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     // 0x976c64: r0 = addAll()
     //     0x976c64: bl              #0x5c8034  ; [dart:core] _GrowableList::addAll
     // 0x976c68: r1 = Function '<anonymous closure>':.
-    //     0x976c68: add             x1, PP, #0x43, lsl #12  ; [pp+0x43988] AnonymousClosure: (0x976cb0), in [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_loadMoreInternal (0x976318)
+    //     0x976c68: add             x1, PP, #0x43, lsl #12  ; [pp+0x43988] AnonymousClosure: (0x976cb0), in [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_loadMoreInternal (0x976318)
     //     0x976c6c: ldr             x1, [x1, #0x988]
     // 0x976c70: r2 = Null
     //     0x976c70: mov             x2, NULL
@@ -1539,7 +1539,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     // 0x976dc4: mov             x1, x0
     // 0x976dc8: mov             x2, x4
     // 0x976dcc: r0 = _fetchChunkPage()
-    //     0x976dcc: bl              #0x976de4  ; [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_fetchChunkPage
+    //     0x976dcc: bl              #0x976de4  ; [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_fetchChunkPage
     // 0x976dd0: LeaveFrame
     //     0x976dd0: mov             SP, fp
     //     0x976dd4: ldp             fp, lr, [SP], #0x10
@@ -2042,7 +2042,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     // 0x97732c: r1 = Null
     //     0x97732c: mov             x1, NULL
     // 0x977330: r0 = WorkoutModel.fromMap()
-    //     0x977330: bl              #0x74186c  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::WorkoutModel.fromMap
+    //     0x977330: bl              #0x74186c  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::WorkoutModel.fromMap
     // 0x977334: mov             x1, x0
     // 0x977338: stur            x1, [fp, #-0x98]
     // 0x97733c: LoadField: r2 = r1->field_4f
@@ -2099,7 +2099,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     //     0x9773dc: add             x2, x2, HEAP, lsl #32
     // 0x9773e0: ldur            x1, [fp, #-0x10]
     // 0x9773e4: r0 = _userForId()
-    //     0x9773e4: bl              #0x9776e0  ; [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_userForId
+    //     0x9773e4: bl              #0x9776e0  ; [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_userForId
     // 0x9773e8: mov             x1, x0
     // 0x9773ec: stur            x1, [fp, #-0xa0]
     // 0x9773f0: r0 = Await()
@@ -2446,7 +2446,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     // 0x9777c8: r1 = Null
     //     0x9777c8: mov             x1, NULL
     // 0x9777cc: r0 = UserModel.fromFirestore()
-    //     0x9777cc: bl              #0x8fe49c  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
+    //     0x9777cc: bl              #0x8fe49c  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
     // 0x9777d0: ldur            x1, [fp, #-0x20]
     // 0x9777d4: ldur            x2, [fp, #-0x18]
     // 0x9777d8: mov             x3, x0
@@ -2905,7 +2905,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     // 0x977ca8: r3 = 2
     //     0x977ca8: mov             x3, #2
     // 0x977cac: r0 = _fetchNextItemsForChunks()
-    //     0x977cac: bl              #0x9767f8  ; [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_fetchNextItemsForChunks
+    //     0x977cac: bl              #0x9767f8  ; [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_fetchNextItemsForChunks
     // 0x977cb0: mov             x1, x0
     // 0x977cb4: stur            x1, [fp, #-0x10]
     // 0x977cb8: r0 = Await()
@@ -3620,7 +3620,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     //     0xa6af7c: bl              #0x60afc8  ; InitAsyncStub
     // 0xa6af80: ldur            x1, [fp, #-0x60]
     // 0xa6af84: r0 = canLoadMore()
-    //     0xa6af84: bl              #0xa6ae4c  ; [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::canLoadMore
+    //     0xa6af84: bl              #0xa6ae4c  ; [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::canLoadMore
     // 0xa6af88: tbz             w0, #4, #0xa6af94
     // 0xa6af8c: r0 = Null
     //     0xa6af8c: mov             x0, NULL
@@ -3636,14 +3636,14 @@ class TeamFeedViewModel extends ChangeNotifier {
     //     0xa6afa4: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
     // 0xa6afa8: ldur            x1, [fp, #-0x60]
     // 0xa6afac: r0 = _loadMoreInternal()
-    //     0xa6afac: bl              #0x976318  ; [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_loadMoreInternal
+    //     0xa6afac: bl              #0x976318  ; [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_loadMoreInternal
     // 0xa6afb0: mov             x1, x0
     // 0xa6afb4: stur            x1, [fp, #-0x68]
     // 0xa6afb8: r0 = Await()
     //     0xa6afb8: bl              #0x60ad4c  ; AwaitStub
     // 0xa6afbc: ldur            x1, [fp, #-0x60]
     // 0xa6afc0: r0 = _prewarmTopFeedVideoUrls()
-    //     0xa6afc0: bl              #0x9760a8  ; [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_prewarmTopFeedVideoUrls
+    //     0xa6afc0: bl              #0x9760a8  ; [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::_prewarmTopFeedVideoUrls
     // 0xa6afc4: ldur            x2, [fp, #-0x60]
     // 0xa6afc8: b               #0xa6b018
     // 0xa6afcc: sub             SP, fp, #0x70
@@ -3658,7 +3658,7 @@ class TeamFeedViewModel extends ChangeNotifier {
     //     0xa6afec: add             x2, PP, #0x43, lsl #12  ; [pp+0x438c8] "Couldn\'t load more workouts. Please try again."
     //     0xa6aff0: ldr             x2, [x2, #0x8c8]
     // 0xa6aff4: r0 = userFacingError()
-    //     0xa6aff4: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0xa6aff4: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0xa6aff8: ldur            x2, [fp, #-0x60]
     // 0xa6affc: StoreField: r2->field_37 = r0
     //     0xa6affc: stur            w0, [x2, #0x37]

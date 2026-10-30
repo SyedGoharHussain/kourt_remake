@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/health/root/avg_health_metric_over_time_chart_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/health/root/avg_health_metric_over_time_chart_view.dart
 
 // class id: 1048963, size: 0x8
 class :: {
@@ -43,8 +43,8 @@ class AvgHealthMetricOverTimeChartView extends StatelessWidget {
     // 0xc03794: r0 = _interpolate()
     //     0xc03794: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0xc03798: stur            x0, [fp, #-8]
-    // 0xc0379c: r0 = BallAiComingSoonBanner()
-    //     0xc0379c: bl              #0xc037bc  ; AllocateBallAiComingSoonBannerStub -> BallAiComingSoonBanner (size=0x10)
+    // 0xc0379c: r0 = KourtAiComingSoonBanner()
+    //     0xc0379c: bl              #0xc037bc  ; AllocateKourtAiComingSoonBannerStub -> KourtAiComingSoonBanner (size=0x10)
     // 0xc037a0: ldur            x1, [fp, #-8]
     // 0xc037a4: StoreField: r0->field_b = r1
     //     0xc037a4: stur            w1, [x0, #0xb]

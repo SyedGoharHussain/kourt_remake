@@ -1826,7 +1826,7 @@
         <item name="android:windowFullscreen">false</item>
         <item name="postSplashScreenTheme">@style/NormalTheme</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/transparent_splash_icon</item>
-        <item name="windowSplashScreenBackground">@color/ball_ai_splash_background</item>
+        <item name="windowSplashScreenBackground">@color/kourt_ai_splash_background</item>
     </style>
     <style name="MaterialAlertDialog.MaterialComponents" parent="@style/AlertDialog.AppCompat">
         <item name="android:layout">@layout/mtrl_alert_dialog</item>
@@ -1857,7 +1857,7 @@
         <item name="android:textAlignment">viewStart</item>
     </style>
     <style name="NormalTheme" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
-        <item name="android:windowBackground">@color/ball_ai_splash_background</item>
+        <item name="android:windowBackground">@color/kourt_ai_splash_background</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>

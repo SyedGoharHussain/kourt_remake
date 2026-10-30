@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/launch/title_view_model.dart
+// lib: , url: package:kourtai/automatic/viewmodels/launch/title_view_model.dart
 
 // class id: 1048785, size: 0x8
 class :: {
@@ -22,13 +22,13 @@ class TitleViewModel extends Object {
     //     0x98ca0c: add             x1, PP, #0x20, lsl #12  ; [pp+0x208b0] "Perfect your craft."
     //     0x98ca10: ldr             x1, [x1, #0x8b0]
     // 0x98ca14: r0 = L()
-    //     0x98ca14: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
-    // 0x98ca18: r1 = "Ball AI lets you track progress & improve right from your iPhone."
-    //     0x98ca18: add             x1, PP, #0x20, lsl #12  ; [pp+0x208b8] "Ball AI lets you track progress & improve right from your iPhone."
+    //     0x98ca14: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
+    // 0x98ca18: r1 = "Kourt AI lets you track progress & improve right from your iPhone."
+    //     0x98ca18: add             x1, PP, #0x20, lsl #12  ; [pp+0x208b8] "Kourt AI lets you track progress & improve right from your iPhone."
     //     0x98ca1c: ldr             x1, [x1, #0x8b8]
     // 0x98ca20: stur            x0, [fp, #-8]
     // 0x98ca24: r0 = L()
-    //     0x98ca24: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x98ca24: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x98ca28: stur            x0, [fp, #-0x10]
     // 0x98ca2c: r0 = TitleStep()
     //     0x98ca2c: bl              #0x98cb1c  ; AllocateTitleStepStub -> TitleStep (size=0x10)
@@ -44,13 +44,13 @@ class TitleViewModel extends Object {
     //     0x98ca48: add             x1, PP, #0x20, lsl #12  ; [pp+0x208c0] "Elevate your game."
     //     0x98ca4c: ldr             x1, [x1, #0x8c0]
     // 0x98ca50: r0 = L()
-    //     0x98ca50: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x98ca50: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x98ca54: r1 = "Track every rep so that you can make adjustments & improve."
     //     0x98ca54: add             x1, PP, #0x20, lsl #12  ; [pp+0x208c8] "Track every rep so that you can make adjustments & improve."
     //     0x98ca58: ldr             x1, [x1, #0x8c8]
     // 0x98ca5c: stur            x0, [fp, #-8]
     // 0x98ca60: r0 = L()
-    //     0x98ca60: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x98ca60: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x98ca64: stur            x0, [fp, #-0x10]
     // 0x98ca68: r0 = TitleStep()
     //     0x98ca68: bl              #0x98cb1c  ; AllocateTitleStepStub -> TitleStep (size=0x10)
@@ -66,13 +66,13 @@ class TitleViewModel extends Object {
     //     0x98ca84: add             x1, PP, #0x20, lsl #12  ; [pp+0x208d0] "Hoop with AI."
     //     0x98ca88: ldr             x1, [x1, #0x8d0]
     // 0x98ca8c: r0 = L()
-    //     0x98ca8c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x98ca8c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x98ca90: r1 = "Get real-time form tips, build personalized workouts & custom training plans."
     //     0x98ca90: add             x1, PP, #0x20, lsl #12  ; [pp+0x208d8] "Get real-time form tips, build personalized workouts & custom training plans."
     //     0x98ca94: ldr             x1, [x1, #0x8d8]
     // 0x98ca98: stur            x0, [fp, #-8]
     // 0x98ca9c: r0 = L()
-    //     0x98ca9c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x98ca9c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x98caa0: stur            x0, [fp, #-0x10]
     // 0x98caa4: r0 = TitleStep()
     //     0x98caa4: bl              #0x98cb1c  ; AllocateTitleStepStub -> TitleStep (size=0x10)

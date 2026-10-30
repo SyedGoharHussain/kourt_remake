@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/workouts/sections/goals/workout_trends_goal_chart_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/workouts/sections/goals/workout_trends_goal_chart_view.dart
 
 // class id: 1048989, size: 0x8
 class :: {
@@ -28,7 +28,7 @@ class WorkoutTrendsGoalChartView extends StatelessWidget {
     //     0xc09518: add             x3, x3, HEAP, lsl #32
     // 0xc0951c: stur            x3, [fp, #-8]
     // 0xc09520: r1 = Function '<anonymous closure>':.
-    //     0xc09520: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d538] AnonymousClosure: (0xc09b34), in [package:ballai/automatic/views/home/tab/tabs/you/components/analytics_sections.dart] AnalyticsWorkoutBreakdownSection::build (0xc0ab78)
+    //     0xc09520: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d538] AnonymousClosure: (0xc09b34), in [package:kourtai/automatic/views/home/tab/tabs/you/components/analytics_sections.dart] AnalyticsWorkoutBreakdownSection::build (0xc0ab78)
     //     0xc09524: ldr             x1, [x1, #0x538]
     // 0xc09528: r2 = Null
     //     0xc09528: mov             x2, NULL
@@ -53,10 +53,10 @@ class WorkoutTrendsGoalChartView extends StatelessWidget {
     //     0xc09558: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d540] "No goal-based workouts in this period yet."
     //     0xc0955c: ldr             x1, [x1, #0x540]
     // 0xc09560: r0 = L()
-    //     0xc09560: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc09560: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc09564: stur            x0, [fp, #-8]
-    // 0xc09568: r0 = BallAiEmptyState()
-    //     0xc09568: bl              #0xa63934  ; AllocateBallAiEmptyStateStub -> BallAiEmptyState (size=0x14)
+    // 0xc09568: r0 = KourtAiEmptyState()
+    //     0xc09568: bl              #0xa63934  ; AllocateKourtAiEmptyStateStub -> KourtAiEmptyState (size=0x14)
     // 0xc0956c: mov             x1, x0
     // 0xc09570: ldur            x0, [fp, #-8]
     // 0xc09574: StoreField: r1->field_b = r0
@@ -199,7 +199,7 @@ class WorkoutTrendsGoalChartView extends StatelessWidget {
     //     0xc096f4: ldr             d0, [PP, #0x5948]  ; [pp+0x5948] IMM: double(100) from 0x4059000000000000
     // 0xc096f8: b               #0xc0971c
     // 0xc096fc: r0 = goalProgress()
-    //     0xc096fc: bl              #0x74da78  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::goalProgress
+    //     0xc096fc: bl              #0x74da78  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::goalProgress
     // 0xc09700: ldur            x0, [fp, #-0x58]
     // 0xc09704: scvtf           d1, x0
     // 0xc09708: fdiv            d2, d0, d1
@@ -322,7 +322,7 @@ class WorkoutTrendsGoalChartView extends StatelessWidget {
     //     0xc0987c: stur            w0, [x3, #0xb]
     // 0xc09880: ldur            x2, [fp, #-0x48]
     // 0xc09884: r1 = Function '<anonymous closure>':.
-    //     0xc09884: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d558] AnonymousClosure: (0xc09a2c), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/workouts/sections/goals/workout_trends_goal_chart_view.dart] WorkoutTrendsGoalChartView::build (0xc094f4)
+    //     0xc09884: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d558] AnonymousClosure: (0xc09a2c), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/workouts/sections/goals/workout_trends_goal_chart_view.dart] WorkoutTrendsGoalChartView::build (0xc094f4)
     //     0xc09888: ldr             x1, [x1, #0x558]
     // 0xc0988c: r0 = AllocateClosure()
     //     0xc0988c: bl              #0xe553e0  ; AllocateClosureStub
@@ -344,7 +344,7 @@ class WorkoutTrendsGoalChartView extends StatelessWidget {
     // 0xc098b8: r0 = _GrowableList.of()
     //     0xc098b8: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0xc098bc: r1 = Function '<anonymous closure>':.
-    //     0xc098bc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d568] AnonymousClosure: (0xc099e0), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/workouts/sections/goals/workout_trends_goal_chart_view.dart] WorkoutTrendsGoalChartView::build (0xc094f4)
+    //     0xc098bc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d568] AnonymousClosure: (0xc099e0), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/workouts/sections/goals/workout_trends_goal_chart_view.dart] WorkoutTrendsGoalChartView::build (0xc094f4)
     //     0xc098c0: ldr             x1, [x1, #0x568]
     // 0xc098c4: r2 = Null
     //     0xc098c4: mov             x2, NULL
@@ -369,12 +369,12 @@ class WorkoutTrendsGoalChartView extends StatelessWidget {
     // 0xc098f4: StoreField: r0->field_f = d0
     //     0xc098f4: stur            d0, [x0, #0xf]
     // 0xc098f8: ldur            x1, [fp, #-0x10]
-    // 0xc098fc: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc098fc: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc098fc: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc098fc: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc09900: ldur            x1, [fp, #-0x10]
     // 0xc09904: stur            x0, [fp, #-0x10]
-    // 0xc09908: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc09908: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc09908: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc09908: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc0990c: stur            x0, [fp, #-0x30]
     // 0xc09910: r0 = _GoalBarPainter()
     //     0xc09910: bl              #0xc099d4  ; Allocate_GoalBarPainterStub -> _GoalBarPainter (size=0x18)
@@ -647,7 +647,7 @@ class _GoalBarPainter extends CustomPainter {
     // 0x842a14: fsub            d1, d4, d0
     // 0x842a18: stur            d1, [fp, #-0x58]
     // 0x842a1c: r1 = Function '<anonymous closure>':.
-    //     0x842a1c: add             x1, PP, #0x53, lsl #12  ; [pp+0x53610] AnonymousClosure: (0x8430d8), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/workouts/sections/goals/workout_trends_goal_chart_view.dart] _GoalBarPainter::paint (0x842978)
+    //     0x842a1c: add             x1, PP, #0x53, lsl #12  ; [pp+0x53610] AnonymousClosure: (0x8430d8), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/workouts/sections/goals/workout_trends_goal_chart_view.dart] _GoalBarPainter::paint (0x842978)
     //     0x842a20: ldr             x1, [x1, #0x610]
     // 0x842a24: r2 = Null
     //     0x842a24: mov             x2, NULL

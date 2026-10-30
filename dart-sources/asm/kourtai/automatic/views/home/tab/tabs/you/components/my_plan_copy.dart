@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/components/my_plan_copy.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/components/my_plan_copy.dart
 
 // class id: 1048998, size: 0x8
 class :: {
@@ -21,13 +21,13 @@ abstract class MyPlanCopy extends Object {
     //     0xc116b4: cmp             SP, x16
     //     0xc116b8: b.ls            #0xc11760
     // 0xc116bc: r0 = instance()
-    //     0xc116bc: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0xc116bc: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0xc116c0: r1 = "Become an elite %@ by %@"
     //     0xc116c0: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be08] "Become an elite %@ by %@"
     //     0xc116c4: ldr             x1, [x1, #0xe08]
     // 0xc116c8: stur            x0, [fp, #-0x10]
     // 0xc116cc: r0 = L()
-    //     0xc116cc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc116cc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc116d0: mov             x2, x0
     // 0xc116d4: ldur            x0, [fp, #-8]
     // 0xc116d8: stur            x2, [fp, #-0x18]
@@ -36,7 +36,7 @@ abstract class MyPlanCopy extends Object {
     // 0xc116e0: DecompressPointer r1
     //     0xc116e0: add             x1, x1, HEAP, lsl #32
     // 0xc116e4: r0 = eliteRole()
-    //     0xc116e4: bl              #0xc11bec  ; [package:ballai/automatic/views/home/tab/tabs/you/components/my_plan_copy.dart] MyPlanCopy::eliteRole
+    //     0xc116e4: bl              #0xc11bec  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/my_plan_copy.dart] MyPlanCopy::eliteRole
     // 0xc116e8: mov             x2, x0
     // 0xc116ec: ldur            x0, [fp, #-8]
     // 0xc116f0: stur            x2, [fp, #-0x20]
@@ -45,7 +45,7 @@ abstract class MyPlanCopy extends Object {
     // 0xc116f8: DecompressPointer r1
     //     0xc116f8: add             x1, x1, HEAP, lsl #32
     // 0xc116fc: r0 = eliteGoalDateString()
-    //     0xc116fc: bl              #0xc11768  ; [package:ballai/automatic/views/home/tab/tabs/you/components/my_plan_copy.dart] MyPlanCopy::eliteGoalDateString
+    //     0xc116fc: bl              #0xc11768  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/my_plan_copy.dart] MyPlanCopy::eliteGoalDateString
     // 0xc11700: r1 = Null
     //     0xc11700: mov             x1, NULL
     // 0xc11704: r2 = 4
@@ -77,7 +77,7 @@ abstract class MyPlanCopy extends Object {
     // 0xc11748: ldur            x1, [fp, #-0x10]
     // 0xc1174c: ldur            x2, [fp, #-0x18]
     // 0xc11750: r0 = localizedFormat()
-    //     0xc11750: bl              #0x5ef9e0  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedFormat
+    //     0xc11750: bl              #0x5ef9e0  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedFormat
     // 0xc11754: LeaveFrame
     //     0xc11754: mov             SP, fp
     //     0xc11758: ldp             fp, lr, [SP], #0x10
@@ -183,7 +183,7 @@ abstract class MyPlanCopy extends Object {
     //     0xc11880: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be10] "January"
     //     0xc11884: ldr             x1, [x1, #0xe10]
     // 0xc11888: r0 = L()
-    //     0xc11888: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc11888: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1188c: r1 = <String>
     //     0xc1188c: ldr             x1, [PP, #0x850]  ; [pp+0x850] TypeArguments: <String>
     // 0xc11890: r2 = 24
@@ -200,7 +200,7 @@ abstract class MyPlanCopy extends Object {
     //     0xc118ac: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be18] "February"
     //     0xc118b0: ldr             x1, [x1, #0xe18]
     // 0xc118b4: r0 = L()
-    //     0xc118b4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc118b4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc118b8: ldur            x1, [fp, #-0x20]
     // 0xc118bc: ArrayStore: r1[1] = r0  ; List_4
     //     0xc118bc: add             x25, x1, #0x13
@@ -216,7 +216,7 @@ abstract class MyPlanCopy extends Object {
     //     0xc118e0: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be20] "March"
     //     0xc118e4: ldr             x1, [x1, #0xe20]
     // 0xc118e8: r0 = L()
-    //     0xc118e8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc118e8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc118ec: ldur            x1, [fp, #-0x20]
     // 0xc118f0: ArrayStore: r1[2] = r0  ; List_4
     //     0xc118f0: add             x25, x1, #0x17
@@ -232,7 +232,7 @@ abstract class MyPlanCopy extends Object {
     //     0xc11914: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be28] "April"
     //     0xc11918: ldr             x1, [x1, #0xe28]
     // 0xc1191c: r0 = L()
-    //     0xc1191c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1191c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc11920: ldur            x1, [fp, #-0x20]
     // 0xc11924: ArrayStore: r1[3] = r0  ; List_4
     //     0xc11924: add             x25, x1, #0x1b
@@ -248,7 +248,7 @@ abstract class MyPlanCopy extends Object {
     //     0xc11948: add             x1, PP, #0x27, lsl #12  ; [pp+0x27358] "May"
     //     0xc1194c: ldr             x1, [x1, #0x358]
     // 0xc11950: r0 = L()
-    //     0xc11950: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc11950: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc11954: ldur            x1, [fp, #-0x20]
     // 0xc11958: ArrayStore: r1[4] = r0  ; List_4
     //     0xc11958: add             x25, x1, #0x1f
@@ -264,7 +264,7 @@ abstract class MyPlanCopy extends Object {
     //     0xc1197c: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be30] "June"
     //     0xc11980: ldr             x1, [x1, #0xe30]
     // 0xc11984: r0 = L()
-    //     0xc11984: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc11984: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc11988: ldur            x1, [fp, #-0x20]
     // 0xc1198c: ArrayStore: r1[5] = r0  ; List_4
     //     0xc1198c: add             x25, x1, #0x23
@@ -280,7 +280,7 @@ abstract class MyPlanCopy extends Object {
     //     0xc119b0: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be38] "July"
     //     0xc119b4: ldr             x1, [x1, #0xe38]
     // 0xc119b8: r0 = L()
-    //     0xc119b8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc119b8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc119bc: ldur            x1, [fp, #-0x20]
     // 0xc119c0: ArrayStore: r1[6] = r0  ; List_4
     //     0xc119c0: add             x25, x1, #0x27
@@ -296,7 +296,7 @@ abstract class MyPlanCopy extends Object {
     //     0xc119e4: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be40] "August"
     //     0xc119e8: ldr             x1, [x1, #0xe40]
     // 0xc119ec: r0 = L()
-    //     0xc119ec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc119ec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc119f0: ldur            x1, [fp, #-0x20]
     // 0xc119f4: ArrayStore: r1[7] = r0  ; List_4
     //     0xc119f4: add             x25, x1, #0x2b
@@ -312,7 +312,7 @@ abstract class MyPlanCopy extends Object {
     //     0xc11a18: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be48] "September"
     //     0xc11a1c: ldr             x1, [x1, #0xe48]
     // 0xc11a20: r0 = L()
-    //     0xc11a20: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc11a20: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc11a24: ldur            x1, [fp, #-0x20]
     // 0xc11a28: ArrayStore: r1[8] = r0  ; List_4
     //     0xc11a28: add             x25, x1, #0x2f
@@ -328,7 +328,7 @@ abstract class MyPlanCopy extends Object {
     //     0xc11a4c: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be50] "October"
     //     0xc11a50: ldr             x1, [x1, #0xe50]
     // 0xc11a54: r0 = L()
-    //     0xc11a54: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc11a54: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc11a58: ldur            x1, [fp, #-0x20]
     // 0xc11a5c: ArrayStore: r1[9] = r0  ; List_4
     //     0xc11a5c: add             x25, x1, #0x33
@@ -344,7 +344,7 @@ abstract class MyPlanCopy extends Object {
     //     0xc11a80: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be58] "November"
     //     0xc11a84: ldr             x1, [x1, #0xe58]
     // 0xc11a88: r0 = L()
-    //     0xc11a88: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc11a88: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc11a8c: ldur            x1, [fp, #-0x20]
     // 0xc11a90: ArrayStore: r1[10] = r0  ; List_4
     //     0xc11a90: add             x25, x1, #0x37
@@ -360,7 +360,7 @@ abstract class MyPlanCopy extends Object {
     //     0xc11ab4: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be60] "December"
     //     0xc11ab8: ldr             x1, [x1, #0xe60]
     // 0xc11abc: r0 = L()
-    //     0xc11abc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc11abc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc11ac0: ldur            x1, [fp, #-0x20]
     // 0xc11ac4: ArrayStore: r1[11] = r0  ; List_4
     //     0xc11ac4: add             x25, x1, #0x3b
@@ -482,7 +482,7 @@ abstract class MyPlanCopy extends Object {
     // 0xc11c08: r1 = ""
     //     0xc11c08: ldr             x1, [PP, #0x880]  ; [pp+0x880] ""
     // 0xc11c0c: r0 = fromRaw()
-    //     0xc11c0c: bl              #0x90005c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
+    //     0xc11c0c: bl              #0x90005c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
     // 0xc11c10: r16 = Instance_AccountSetupFocus
     //     0xc11c10: add             x16, PP, #0x1d, lsl #12  ; [pp+0x1d050] Obj!AccountSetupFocus@d3a281
     //     0xc11c14: ldr             x16, [x16, #0x50]
@@ -492,7 +492,7 @@ abstract class MyPlanCopy extends Object {
     //     0xc11c20: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be68] "shooter"
     //     0xc11c24: ldr             x1, [x1, #0xe68]
     // 0xc11c28: r0 = L()
-    //     0xc11c28: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc11c28: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc11c2c: LeaveFrame
     //     0xc11c2c: mov             SP, fp
     //     0xc11c30: ldp             fp, lr, [SP], #0x10
@@ -507,7 +507,7 @@ abstract class MyPlanCopy extends Object {
     //     0xc11c48: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be70] "playmaker"
     //     0xc11c4c: ldr             x1, [x1, #0xe70]
     // 0xc11c50: r0 = L()
-    //     0xc11c50: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc11c50: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc11c54: LeaveFrame
     //     0xc11c54: mov             SP, fp
     //     0xc11c58: ldp             fp, lr, [SP], #0x10
@@ -522,7 +522,7 @@ abstract class MyPlanCopy extends Object {
     //     0xc11c70: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be78] "finisher"
     //     0xc11c74: ldr             x1, [x1, #0xe78]
     // 0xc11c78: r0 = L()
-    //     0xc11c78: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc11c78: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc11c7c: LeaveFrame
     //     0xc11c7c: mov             SP, fp
     //     0xc11c80: ldp             fp, lr, [SP], #0x10
@@ -537,7 +537,7 @@ abstract class MyPlanCopy extends Object {
     //     0xc11c98: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be80] "defender"
     //     0xc11c9c: ldr             x1, [x1, #0xe80]
     // 0xc11ca0: r0 = L()
-    //     0xc11ca0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc11ca0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc11ca4: LeaveFrame
     //     0xc11ca4: mov             SP, fp
     //     0xc11ca8: ldp             fp, lr, [SP], #0x10
@@ -552,7 +552,7 @@ abstract class MyPlanCopy extends Object {
     //     0xc11cc0: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be88] "athlete"
     //     0xc11cc4: ldr             x1, [x1, #0xe88]
     // 0xc11cc8: r0 = L()
-    //     0xc11cc8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc11cc8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc11ccc: LeaveFrame
     //     0xc11ccc: mov             SP, fp
     //     0xc11cd0: ldp             fp, lr, [SP], #0x10
@@ -564,7 +564,7 @@ abstract class MyPlanCopy extends Object {
     //     0xc11ce0: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a630] "hooper"
     //     0xc11ce4: ldr             x1, [x1, #0x630]
     // 0xc11ce8: r0 = L()
-    //     0xc11ce8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc11ce8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc11cec: LeaveFrame
     //     0xc11cec: mov             SP, fp
     //     0xc11cf0: ldp             fp, lr, [SP], #0x10

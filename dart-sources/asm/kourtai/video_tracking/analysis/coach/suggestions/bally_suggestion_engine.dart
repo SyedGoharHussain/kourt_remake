@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart
+// lib: , url: package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart
 
 // class id: 1049088, size: 0x8
 class :: {
@@ -83,7 +83,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x6d4068: mov             x1, x0
     // 0x6d406c: stur            x0, [fp, #-0x18]
     // 0x6d4070: r0 = CoachAIClient()
-    //     0x6d4070: bl              #0x6cf920  ; [package:ballai/video_tracking/analysis/coach/coach_ai_client.dart] CoachAIClient::CoachAIClient
+    //     0x6d4070: bl              #0x6cf920  ; [package:kourtai/video_tracking/analysis/coach/coach_ai_client.dart] CoachAIClient::CoachAIClient
     // 0x6d4074: ldur            x0, [fp, #-0x18]
     // 0x6d4078: ldur            x3, [fp, #-8]
     // 0x6d407c: StoreField: r3->field_27 = r0
@@ -200,7 +200,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x74a958: bl              #0x5c96fc  ; [package:flutter/src/foundation/print.dart] ::debugPrintThrottled
     // 0x74a95c: ldur            x1, [fp, #-8]
     // 0x74a960: r0 = reset()
-    //     0x74a960: bl              #0x74a97c  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::reset
+    //     0x74a960: bl              #0x74a97c  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::reset
     // 0x74a964: r0 = Null
     //     0x74a964: mov             x0, NULL
     // 0x74a968: LeaveFrame
@@ -315,7 +315,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x74aa54: stur            NULL, [x0, #0xbf]
     // 0x74aa58: mov             x1, x0
     // 0x74aa5c: r0 = _invalidatePrefetch()
-    //     0x74aa5c: bl              #0x74aa8c  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_invalidatePrefetch
+    //     0x74aa5c: bl              #0x74aa8c  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_invalidatePrefetch
     // 0x74aa60: ldur            x1, [fp, #-8]
     // 0x74aa64: r0 = false
     //     0x74aa64: add             x0, NULL, #0x30  ; false
@@ -398,7 +398,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x74e498: StoreField: r1->field_b7 = r3
     //     0x74e498: stur            x3, [x1, #0xb7]
     // 0x74e49c: r0 = _recomputeProgress()
-    //     0x74e49c: bl              #0x74e4b8  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_recomputeProgress
+    //     0x74e49c: bl              #0x74e4b8  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_recomputeProgress
     // 0x74e4a0: r0 = Null
     //     0x74e4a0: mov             x0, NULL
     // 0x74e4a4: LeaveFrame
@@ -433,7 +433,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x74e4e8: b.eq            #0x74e4f8
     // 0x74e4ec: mov             x1, x0
     // 0x74e4f0: r0 = _canCountProgress()
-    //     0x74e4f0: bl              #0x758d18  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_canCountProgress
+    //     0x74e4f0: bl              #0x758d18  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_canCountProgress
     // 0x74e4f4: tbz             w0, #4, #0x74e508
     // 0x74e4f8: r0 = Null
     //     0x74e4f8: mov             x0, NULL
@@ -627,12 +627,12 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x74e71c: ldur            x3, [fp, #-0x28]
     // 0x74e720: ldur            x1, [fp, #-0x10]
     // 0x74e724: r0 = _deliverFollowUpTipsIfNeeded()
-    //     0x74e724: bl              #0x758a3c  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_deliverFollowUpTipsIfNeeded
+    //     0x74e724: bl              #0x758a3c  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_deliverFollowUpTipsIfNeeded
     // 0x74e728: ldur            x1, [fp, #-0x10]
     // 0x74e72c: ldur            x2, [fp, #-8]
     // 0x74e730: ldur            x3, [fp, #-0x28]
     // 0x74e734: r0 = _maybePrefetchNextPhase()
-    //     0x74e734: bl              #0x7583e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_maybePrefetchNextPhase
+    //     0x74e734: bl              #0x7583e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_maybePrefetchNextPhase
     // 0x74e738: ldur            x2, [fp, #-8]
     // 0x74e73c: LoadField: r0 = r2->field_1b
     //     0x74e73c: ldur            x0, [x2, #0x1b]
@@ -646,7 +646,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x74e754: add             x0, x0, HEAP, lsl #32
     // 0x74e758: tbz             w0, #4, #0x74e760
     // 0x74e75c: r0 = _advance()
-    //     0x74e75c: bl              #0x74e778  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_advance
+    //     0x74e75c: bl              #0x74e778  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_advance
     // 0x74e760: r0 = Null
     //     0x74e760: mov             x0, NULL
     // 0x74e764: LeaveFrame
@@ -990,17 +990,17 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x74eaf0: ldur            x1, [fp, #-0x10]
     // 0x74eaf4: ldur            x2, [fp, #-0x18]
     // 0x74eaf8: r0 = _consumePrefetchedPhase()
-    //     0x74eaf8: bl              #0x758328  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_consumePrefetchedPhase
+    //     0x74eaf8: bl              #0x758328  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_consumePrefetchedPhase
     // 0x74eafc: cmp             w0, NULL
     // 0x74eb00: b.eq            #0x74eb14
     // 0x74eb04: ldur            x1, [fp, #-0x10]
     // 0x74eb08: mov             x2, x0
     // 0x74eb0c: r0 = _applyNewPhase()
-    //     0x74eb0c: bl              #0x75744c  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_applyNewPhase
+    //     0x74eb0c: bl              #0x75744c  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_applyNewPhase
     // 0x74eb10: b               #0x74eb1c
     // 0x74eb14: ldur            x1, [fp, #-0x10]
     // 0x74eb18: r0 = _requestNextPhase()
-    //     0x74eb18: bl              #0x74eb34  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_requestNextPhase
+    //     0x74eb18: bl              #0x74eb34  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_requestNextPhase
     // 0x74eb1c: r0 = Null
     //     0x74eb1c: mov             x0, NULL
     // 0x74eb20: LeaveFrame
@@ -1051,7 +1051,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x74eb88: ret             
     // 0x74eb8c: mov             x1, x0
     // 0x74eb90: r0 = _invalidatePrefetch()
-    //     0x74eb90: bl              #0x74aa8c  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_invalidatePrefetch
+    //     0x74eb90: bl              #0x74aa8c  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_invalidatePrefetch
     // 0x74eb94: ldur            x2, [fp, #-8]
     // 0x74eb98: LoadField: r0 = r2->field_77
     //     0x74eb98: ldur            x0, [x2, #0x77]
@@ -1085,7 +1085,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x74ebec: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
     // 0x74ebf0: ldur            x2, [fp, #-0x10]
     // 0x74ebf4: r1 = Function '<anonymous closure>':.
-    //     0x74ebf4: add             x1, PP, #0x32, lsl #12  ; [pp+0x32168] AnonymousClosure: (0x74ec28), in [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_requestNextPhase (0x74eb34)
+    //     0x74ebf4: add             x1, PP, #0x32, lsl #12  ; [pp+0x32168] AnonymousClosure: (0x74ec28), in [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_requestNextPhase (0x74eb34)
     //     0x74ebf8: ldr             x1, [x1, #0x168]
     // 0x74ebfc: r0 = AllocateClosure()
     //     0x74ebfc: bl              #0xe553e0  ; AllocateClosureStub
@@ -1150,7 +1150,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x74ec98: b               #0x74ecac
     // 0x74ec9c: mov             x1, x2
     // 0x74eca0: r0 = ensureLoaded()
-    //     0x74eca0: bl              #0x753d30  ; [package:ballai/video_tracking/analysis/coach/suggestions/lab_handles_phase_source.dart] LabHandlesPhaseSource::ensureLoaded
+    //     0x74eca0: bl              #0x753d30  ; [package:kourtai/video_tracking/analysis/coach/suggestions/lab_handles_phase_source.dart] LabHandlesPhaseSource::ensureLoaded
     // 0x74eca4: mov             x2, x0
     // 0x74eca8: ldur            x1, [fp, #-0x78]
     // 0x74ecac: mov             x0, x2
@@ -1189,7 +1189,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x74ed04: mov             x2, x4
     // 0x74ed08: stur            x4, [fp, #-0x80]
     // 0x74ed0c: r0 = next()
-    //     0x74ed0c: bl              #0x752958  ; [package:ballai/video_tracking/analysis/coach/suggestions/lab_handles_phase_source.dart] LabHandlesPhaseSource::next
+    //     0x74ed0c: bl              #0x752958  ; [package:kourtai/video_tracking/analysis/coach/suggestions/lab_handles_phase_source.dart] LabHandlesPhaseSource::next
     // 0x74ed10: mov             x3, x0
     // 0x74ed14: ldur            x0, [fp, #-0x78]
     // 0x74ed18: stur            x3, [fp, #-0x80]
@@ -1234,7 +1234,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x74ed78: mov             x1, x2
     // 0x74ed7c: mov             x2, x3
     // 0x74ed80: r0 = _applyNewPhase()
-    //     0x74ed80: bl              #0x75744c  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_applyNewPhase
+    //     0x74ed80: bl              #0x75744c  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_applyNewPhase
     // 0x74ed84: r0 = Null
     //     0x74ed84: mov             x0, NULL
     // 0x74ed88: r0 = ReturnAsyncNotFuture()
@@ -1244,9 +1244,9 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x74ed90: DecompressPointer r2
     //     0x74ed90: add             x2, x2, HEAP, lsl #32
     // 0x74ed94: r0 = _fetchPhaseWithTimeout()
-    //     0x74ed94: bl              #0x75101c  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_fetchPhaseWithTimeout
+    //     0x74ed94: bl              #0x75101c  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_fetchPhaseWithTimeout
     // 0x74ed98: r1 = Function '<anonymous closure>':.
-    //     0x74ed98: add             x1, PP, #0x32, lsl #12  ; [pp+0x32170] AnonymousClosure: (0x757424), in [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_requestNextPhase (0x74eb34)
+    //     0x74ed98: add             x1, PP, #0x32, lsl #12  ; [pp+0x32170] AnonymousClosure: (0x757424), in [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_requestNextPhase (0x74eb34)
     //     0x74ed9c: ldr             x1, [x1, #0x170]
     // 0x74eda0: r2 = Null
     //     0x74eda0: mov             x2, NULL
@@ -1299,7 +1299,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x74ee20: mov             x1, x2
     // 0x74ee24: mov             x2, x3
     // 0x74ee28: r0 = _applyNewPhase()
-    //     0x74ee28: bl              #0x75744c  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_applyNewPhase
+    //     0x74ee28: bl              #0x75744c  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_applyNewPhase
     // 0x74ee2c: b               #0x74efa8
     // 0x74ee30: sub             SP, fp, #0xa8
     // 0x74ee34: ldur            x2, [fp, #-0x78]
@@ -1442,11 +1442,11 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x74ef90: add             x2, x2, HEAP, lsl #32
     // 0x74ef94: ldur            x3, [fp, #-0x90]
     // 0x74ef98: r0 = _fallbackPhase()
-    //     0x74ef98: bl              #0x74efb8  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_fallbackPhase
+    //     0x74ef98: bl              #0x74efb8  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_fallbackPhase
     // 0x74ef9c: ldur            x1, [fp, #-0x88]
     // 0x74efa0: mov             x2, x0
     // 0x74efa4: r0 = _applyNewPhase()
-    //     0x74efa4: bl              #0x75744c  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_applyNewPhase
+    //     0x74efa4: bl              #0x75744c  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_applyNewPhase
     // 0x74efa8: r0 = Null
     //     0x74efa8: mov             x0, NULL
     // 0x74efac: r0 = ReturnAsyncNotFuture()
@@ -1507,7 +1507,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x74f040: mov             x2, #3
     // 0x74f044: ldur            x1, [fp, #-8]
     // 0x74f048: r0 = _fallbackPool()
-    //     0x74f048: bl              #0x74fd54  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_fallbackPool
+    //     0x74f048: bl              #0x74fd54  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_fallbackPool
     // 0x74f04c: mov             x2, x0
     // 0x74f050: stur            x2, [fp, #-0x38]
     // 0x74f054: LoadField: r0 = r2->field_b
@@ -1667,7 +1667,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x74f214: ldur            x1, [fp, #-0x20]
     // 0x74f218: ldur            x2, [fp, #-8]
     // 0x74f21c: r0 = sanitized()
-    //     0x74f21c: bl              #0x74f6ec  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::sanitized
+    //     0x74f21c: bl              #0x74f6ec  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::sanitized
     // 0x74f220: LeaveFrame
     //     0x74f220: mov             SP, fp
     //     0x74f224: ldp             fp, lr, [SP], #0x10
@@ -1749,11 +1749,11 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x74f2fc: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x74f2fc: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x74f300: r0 = BallySuggestionPhase()
-    //     0x74f300: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x74f300: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x74f304: ldur            x1, [fp, #-0x18]
     // 0x74f308: ldur            x2, [fp, #-8]
     // 0x74f30c: r0 = sanitized()
-    //     0x74f30c: bl              #0x74f6ec  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::sanitized
+    //     0x74f30c: bl              #0x74f6ec  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::sanitized
     // 0x74f310: LeaveFrame
     //     0x74f310: mov             SP, fp
     //     0x74f314: ldp             fp, lr, [SP], #0x10
@@ -1919,7 +1919,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x74f4c4: b.ls            #0x74f4dc
     // 0x74f4c8: ldr             x1, [fp, #0x10]
     // 0x74f4cc: r0 = _normalized()
-    //     0x74f4cc: bl              #0x74f3a8  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_normalized
+    //     0x74f4cc: bl              #0x74f3a8  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_normalized
     // 0x74f4d0: LeaveFrame
     //     0x74f4d0: mov             SP, fp
     //     0x74f4d4: ldp             fp, lr, [SP], #0x10
@@ -1947,21 +1947,21 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x74fd7c: cmp             x2, #0
     // 0x74fd80: b.gt            #0x74fd94
     // 0x74fd84: r0 = _dribblingFallbackPool()
-    //     0x74fd84: bl              #0x750b44  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_dribblingFallbackPool
+    //     0x74fd84: bl              #0x750b44  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_dribblingFallbackPool
     // 0x74fd88: LeaveFrame
     //     0x74fd88: mov             SP, fp
     //     0x74fd8c: ldp             fp, lr, [SP], #0x10
     // 0x74fd90: ret
     //     0x74fd90: ret             
     // 0x74fd94: r0 = _shootingFallbackPool()
-    //     0x74fd94: bl              #0x750520  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_shootingFallbackPool
+    //     0x74fd94: bl              #0x750520  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_shootingFallbackPool
     // 0x74fd98: LeaveFrame
     //     0x74fd98: mov             SP, fp
     //     0x74fd9c: ldp             fp, lr, [SP], #0x10
     // 0x74fda0: ret
     //     0x74fda0: ret             
     // 0x74fda4: r0 = _finishingFallbackPool()
-    //     0x74fda4: bl              #0x74fdbc  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_finishingFallbackPool
+    //     0x74fda4: bl              #0x74fdbc  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_finishingFallbackPool
     // 0x74fda8: LeaveFrame
     //     0x74fda8: mov             SP, fp
     //     0x74fdac: ldp             fp, lr, [SP], #0x10
@@ -2005,7 +2005,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x74fe08: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x74fe08: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x74fe0c: r0 = BallySuggestionPhase()
-    //     0x74fe0c: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x74fe0c: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x74fe10: r0 = BallySuggestionPhase()
     //     0x74fe10: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x74fe14: mov             x1, x0
@@ -2027,7 +2027,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x74fe40: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x74fe40: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x74fe44: r0 = BallySuggestionPhase()
-    //     0x74fe44: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x74fe44: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x74fe48: r0 = BallySuggestionPhase()
     //     0x74fe48: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x74fe4c: mov             x1, x0
@@ -2049,7 +2049,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x74fe78: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x74fe78: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x74fe7c: r0 = BallySuggestionPhase()
-    //     0x74fe7c: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x74fe7c: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x74fe80: r0 = BallySuggestionPhase()
     //     0x74fe80: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x74fe84: mov             x1, x0
@@ -2071,7 +2071,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x74feb0: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x74feb0: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x74feb4: r0 = BallySuggestionPhase()
-    //     0x74feb4: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x74feb4: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x74feb8: r0 = BallySuggestionPhase()
     //     0x74feb8: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x74febc: mov             x1, x0
@@ -2093,7 +2093,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x74fee8: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x74fee8: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x74feec: r0 = BallySuggestionPhase()
-    //     0x74feec: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x74feec: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x74fef0: r0 = BallySuggestionPhase()
     //     0x74fef0: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x74fef4: mov             x1, x0
@@ -2115,7 +2115,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x74ff20: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x74ff20: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x74ff24: r0 = BallySuggestionPhase()
-    //     0x74ff24: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x74ff24: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x74ff28: r0 = BallySuggestionPhase()
     //     0x74ff28: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x74ff2c: mov             x1, x0
@@ -2137,7 +2137,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x74ff58: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x74ff58: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x74ff5c: r0 = BallySuggestionPhase()
-    //     0x74ff5c: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x74ff5c: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x74ff60: r0 = BallySuggestionPhase()
     //     0x74ff60: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x74ff64: mov             x1, x0
@@ -2159,7 +2159,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x74ff90: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x74ff90: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x74ff94: r0 = BallySuggestionPhase()
-    //     0x74ff94: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x74ff94: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x74ff98: r1 = Null
     //     0x74ff98: mov             x1, NULL
     // 0x74ff9c: r2 = 16
@@ -2227,7 +2227,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750040: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750040: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750044: r0 = BallySuggestionPhase()
-    //     0x750044: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750044: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750048: r0 = BallySuggestionPhase()
     //     0x750048: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x75004c: mov             x1, x0
@@ -2249,7 +2249,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750078: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750078: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x75007c: r0 = BallySuggestionPhase()
-    //     0x75007c: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x75007c: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750080: r0 = BallySuggestionPhase()
     //     0x750080: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x750084: mov             x1, x0
@@ -2271,7 +2271,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x7500b0: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x7500b0: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x7500b4: r0 = BallySuggestionPhase()
-    //     0x7500b4: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x7500b4: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x7500b8: r0 = BallySuggestionPhase()
     //     0x7500b8: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x7500bc: mov             x1, x0
@@ -2293,7 +2293,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x7500e8: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x7500e8: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x7500ec: r0 = BallySuggestionPhase()
-    //     0x7500ec: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x7500ec: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x7500f0: r0 = BallySuggestionPhase()
     //     0x7500f0: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x7500f4: mov             x1, x0
@@ -2315,7 +2315,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750120: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750120: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750124: r0 = BallySuggestionPhase()
-    //     0x750124: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750124: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750128: r0 = BallySuggestionPhase()
     //     0x750128: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x75012c: mov             x1, x0
@@ -2337,7 +2337,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750158: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750158: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x75015c: r0 = BallySuggestionPhase()
-    //     0x75015c: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x75015c: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750160: r1 = Null
     //     0x750160: mov             x1, NULL
     // 0x750164: r2 = 12
@@ -2399,7 +2399,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x7501f8: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x7501f8: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x7501fc: r0 = BallySuggestionPhase()
-    //     0x7501fc: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x7501fc: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750200: r0 = BallySuggestionPhase()
     //     0x750200: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x750204: mov             x1, x0
@@ -2421,7 +2421,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750230: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750230: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750234: r0 = BallySuggestionPhase()
-    //     0x750234: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750234: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750238: r0 = BallySuggestionPhase()
     //     0x750238: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x75023c: mov             x1, x0
@@ -2443,7 +2443,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750268: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750268: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x75026c: r0 = BallySuggestionPhase()
-    //     0x75026c: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x75026c: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750270: r0 = BallySuggestionPhase()
     //     0x750270: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x750274: mov             x1, x0
@@ -2465,7 +2465,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x7502a0: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x7502a0: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x7502a4: r0 = BallySuggestionPhase()
-    //     0x7502a4: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x7502a4: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x7502a8: r0 = BallySuggestionPhase()
     //     0x7502a8: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x7502ac: mov             x1, x0
@@ -2487,7 +2487,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x7502d8: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x7502d8: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x7502dc: r0 = BallySuggestionPhase()
-    //     0x7502dc: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x7502dc: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x7502e0: r1 = Null
     //     0x7502e0: mov             x1, NULL
     // 0x7502e4: r2 = 10
@@ -2546,7 +2546,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750370: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750370: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750374: r0 = BallySuggestionPhase()
-    //     0x750374: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750374: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750378: r0 = BallySuggestionPhase()
     //     0x750378: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x75037c: mov             x1, x0
@@ -2568,7 +2568,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x7503a8: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x7503a8: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x7503ac: r0 = BallySuggestionPhase()
-    //     0x7503ac: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x7503ac: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x7503b0: r0 = BallySuggestionPhase()
     //     0x7503b0: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x7503b4: mov             x1, x0
@@ -2590,7 +2590,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x7503e0: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x7503e0: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x7503e4: r0 = BallySuggestionPhase()
-    //     0x7503e4: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x7503e4: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x7503e8: r1 = Null
     //     0x7503e8: mov             x1, NULL
     // 0x7503ec: r2 = 6
@@ -2736,7 +2736,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x75056c: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x75056c: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750570: r0 = BallySuggestionPhase()
-    //     0x750570: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750570: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750574: r0 = BallySuggestionPhase()
     //     0x750574: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x750578: mov             x1, x0
@@ -2758,7 +2758,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x7505a4: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x7505a4: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x7505a8: r0 = BallySuggestionPhase()
-    //     0x7505a8: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x7505a8: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x7505ac: r0 = BallySuggestionPhase()
     //     0x7505ac: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x7505b0: mov             x1, x0
@@ -2780,7 +2780,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x7505dc: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x7505dc: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x7505e0: r0 = BallySuggestionPhase()
-    //     0x7505e0: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x7505e0: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x7505e4: r0 = BallySuggestionPhase()
     //     0x7505e4: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x7505e8: mov             x1, x0
@@ -2802,7 +2802,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750614: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750614: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750618: r0 = BallySuggestionPhase()
-    //     0x750618: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750618: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x75061c: r0 = BallySuggestionPhase()
     //     0x75061c: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x750620: mov             x1, x0
@@ -2824,7 +2824,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x75064c: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x75064c: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750650: r0 = BallySuggestionPhase()
-    //     0x750650: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750650: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750654: r0 = BallySuggestionPhase()
     //     0x750654: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x750658: mov             x1, x0
@@ -2846,7 +2846,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750684: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750684: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750688: r0 = BallySuggestionPhase()
-    //     0x750688: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750688: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x75068c: r0 = BallySuggestionPhase()
     //     0x75068c: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x750690: mov             x1, x0
@@ -2868,7 +2868,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x7506bc: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x7506bc: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x7506c0: r0 = BallySuggestionPhase()
-    //     0x7506c0: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x7506c0: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x7506c4: r0 = BallySuggestionPhase()
     //     0x7506c4: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x7506c8: mov             x1, x0
@@ -2890,7 +2890,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x7506f4: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x7506f4: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x7506f8: r0 = BallySuggestionPhase()
-    //     0x7506f8: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x7506f8: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x7506fc: r1 = Null
     //     0x7506fc: mov             x1, NULL
     // 0x750700: r2 = 16
@@ -2958,7 +2958,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x7507a4: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x7507a4: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x7507a8: r0 = BallySuggestionPhase()
-    //     0x7507a8: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x7507a8: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x7507ac: r0 = BallySuggestionPhase()
     //     0x7507ac: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x7507b0: mov             x1, x0
@@ -2980,7 +2980,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x7507dc: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x7507dc: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x7507e0: r0 = BallySuggestionPhase()
-    //     0x7507e0: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x7507e0: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x7507e4: r0 = BallySuggestionPhase()
     //     0x7507e4: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x7507e8: mov             x1, x0
@@ -3002,7 +3002,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750814: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750814: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750818: r0 = BallySuggestionPhase()
-    //     0x750818: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750818: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x75081c: r0 = BallySuggestionPhase()
     //     0x75081c: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x750820: mov             x1, x0
@@ -3024,7 +3024,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x75084c: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x75084c: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750850: r0 = BallySuggestionPhase()
-    //     0x750850: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750850: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750854: r1 = Null
     //     0x750854: mov             x1, NULL
     // 0x750858: r2 = 8
@@ -3080,7 +3080,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x7508dc: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x7508dc: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x7508e0: r0 = BallySuggestionPhase()
-    //     0x7508e0: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x7508e0: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x7508e4: r0 = BallySuggestionPhase()
     //     0x7508e4: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x7508e8: mov             x1, x0
@@ -3102,7 +3102,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750914: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750914: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750918: r0 = BallySuggestionPhase()
-    //     0x750918: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750918: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x75091c: r0 = BallySuggestionPhase()
     //     0x75091c: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x750920: mov             x1, x0
@@ -3124,7 +3124,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x75094c: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x75094c: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750950: r0 = BallySuggestionPhase()
-    //     0x750950: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750950: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750954: r1 = Null
     //     0x750954: mov             x1, NULL
     // 0x750958: r2 = 6
@@ -3177,7 +3177,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x7509d4: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x7509d4: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x7509d8: r0 = BallySuggestionPhase()
-    //     0x7509d8: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x7509d8: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x7509dc: r0 = BallySuggestionPhase()
     //     0x7509dc: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x7509e0: mov             x1, x0
@@ -3199,7 +3199,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750a0c: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750a0c: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750a10: r0 = BallySuggestionPhase()
-    //     0x750a10: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750a10: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750a14: r1 = Null
     //     0x750a14: mov             x1, NULL
     // 0x750a18: r2 = 4
@@ -3342,7 +3342,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750b90: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750b90: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750b94: r0 = BallySuggestionPhase()
-    //     0x750b94: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750b94: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750b98: r0 = BallySuggestionPhase()
     //     0x750b98: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x750b9c: mov             x1, x0
@@ -3364,7 +3364,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750bc8: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750bc8: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750bcc: r0 = BallySuggestionPhase()
-    //     0x750bcc: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750bcc: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750bd0: r0 = BallySuggestionPhase()
     //     0x750bd0: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x750bd4: mov             x1, x0
@@ -3386,7 +3386,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750c00: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750c00: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750c04: r0 = BallySuggestionPhase()
-    //     0x750c04: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750c04: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750c08: r0 = BallySuggestionPhase()
     //     0x750c08: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x750c0c: mov             x1, x0
@@ -3408,7 +3408,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750c38: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750c38: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750c3c: r0 = BallySuggestionPhase()
-    //     0x750c3c: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750c3c: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750c40: r0 = BallySuggestionPhase()
     //     0x750c40: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x750c44: mov             x1, x0
@@ -3430,7 +3430,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750c70: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750c70: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750c74: r0 = BallySuggestionPhase()
-    //     0x750c74: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750c74: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750c78: r0 = BallySuggestionPhase()
     //     0x750c78: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x750c7c: mov             x1, x0
@@ -3452,7 +3452,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750ca8: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750ca8: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750cac: r0 = BallySuggestionPhase()
-    //     0x750cac: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750cac: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750cb0: r0 = BallySuggestionPhase()
     //     0x750cb0: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x750cb4: mov             x1, x0
@@ -3474,7 +3474,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750ce0: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750ce0: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750ce4: r0 = BallySuggestionPhase()
-    //     0x750ce4: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750ce4: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750ce8: r1 = Null
     //     0x750ce8: mov             x1, NULL
     // 0x750cec: r2 = 14
@@ -3539,7 +3539,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750d88: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750d88: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750d8c: r0 = BallySuggestionPhase()
-    //     0x750d8c: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750d8c: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750d90: r0 = BallySuggestionPhase()
     //     0x750d90: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x750d94: mov             x1, x0
@@ -3561,7 +3561,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750dc0: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750dc0: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750dc4: r0 = BallySuggestionPhase()
-    //     0x750dc4: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750dc4: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750dc8: r0 = BallySuggestionPhase()
     //     0x750dc8: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x750dcc: mov             x1, x0
@@ -3583,7 +3583,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750df8: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750df8: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750dfc: r0 = BallySuggestionPhase()
-    //     0x750dfc: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750dfc: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750e00: r0 = BallySuggestionPhase()
     //     0x750e00: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x750e04: mov             x1, x0
@@ -3605,7 +3605,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750e30: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750e30: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750e34: r0 = BallySuggestionPhase()
-    //     0x750e34: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750e34: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750e38: r1 = Null
     //     0x750e38: mov             x1, NULL
     // 0x750e3c: r2 = 8
@@ -3661,7 +3661,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750ec0: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750ec0: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750ec4: r0 = BallySuggestionPhase()
-    //     0x750ec4: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750ec4: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750ec8: r0 = BallySuggestionPhase()
     //     0x750ec8: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x750ecc: mov             x1, x0
@@ -3683,7 +3683,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750ef8: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750ef8: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750efc: r0 = BallySuggestionPhase()
-    //     0x750efc: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750efc: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750f00: r0 = BallySuggestionPhase()
     //     0x750f00: bl              #0x74f6e0  ; AllocateBallySuggestionPhaseStub -> BallySuggestionPhase (size=0x24)
     // 0x750f04: mov             x1, x0
@@ -3705,7 +3705,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x750f30: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x750f30: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x750f34: r0 = BallySuggestionPhase()
-    //     0x750f34: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x750f34: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x750f38: r1 = Null
     //     0x750f38: mov             x1, NULL
     // 0x750f3c: r2 = 6
@@ -3811,7 +3811,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x75104c: bl              #0x60afc8  ; InitAsyncStub
     // 0x751050: ldur            x1, [fp, #-0xc8]
     // 0x751054: r0 = _resolvedHands()
-    //     0x751054: bl              #0x75269c  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_resolvedHands
+    //     0x751054: bl              #0x75269c  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_resolvedHands
     // 0x751058: mov             x2, x0
     // 0x75105c: mov             x3, x1
     // 0x751060: r0 = AllocateRecord2()
@@ -3858,7 +3858,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x7510c8: ldr             x3, [x3, #0x6e8]
     // 0x7510cc: b               #0x751114
     // 0x7510d0: r1 = Function '<anonymous closure>':.
-    //     0x7510d0: add             x1, PP, #0x32, lsl #12  ; [pp+0x326f0] AnonymousClosure: (0x75284c), in [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_fetchPhaseWithTimeout (0x75101c)
+    //     0x7510d0: add             x1, PP, #0x32, lsl #12  ; [pp+0x326f0] AnonymousClosure: (0x75284c), in [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_fetchPhaseWithTimeout (0x75101c)
     //     0x7510d4: ldr             x1, [x1, #0x6f0]
     // 0x7510d8: r2 = Null
     //     0x7510d8: mov             x2, NULL
@@ -3917,7 +3917,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x751164: r0 = _GrowableList.of()
     //     0x751164: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x751168: r1 = Function '<anonymous closure>':.
-    //     0x751168: add             x1, PP, #0x32, lsl #12  ; [pp+0x32700] AnonymousClosure: (0x752834), in [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_fetchPhaseWithTimeout (0x75101c)
+    //     0x751168: add             x1, PP, #0x32, lsl #12  ; [pp+0x32700] AnonymousClosure: (0x752834), in [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_fetchPhaseWithTimeout (0x75101c)
     //     0x75116c: ldr             x1, [x1, #0x700]
     // 0x751170: r2 = Null
     //     0x751170: mov             x2, NULL
@@ -4042,7 +4042,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x7512b8: ldr             x6, [fp, x17]
     // 0x7512bc: ldur            x7, [fp, #-0xf8]
     // 0x7512c0: r0 = generateSuggestionPhase()
-    //     0x7512c0: bl              #0x7518f0  ; [package:ballai/video_tracking/analysis/coach/coach_ai_client.dart] CoachAIClient::generateSuggestionPhase
+    //     0x7512c0: bl              #0x7518f0  ; [package:kourtai/video_tracking/analysis/coach/coach_ai_client.dart] CoachAIClient::generateSuggestionPhase
     // 0x7512c4: mov             x1, x0
     // 0x7512c8: r17 = -320
     //     0x7512c8: mov             x17, #-0x140
@@ -4092,7 +4092,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x751348: ldur            x5, [fp, #-0xe0]
     // 0x75134c: stur            x0, [fp, #-0xd8]
     // 0x751350: r0 = _sanitizeAfterAI()
-    //     0x751350: bl              #0x75142c  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_sanitizeAfterAI
+    //     0x751350: bl              #0x75142c  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_sanitizeAfterAI
     // 0x751354: r0 = ReturnAsyncNotFuture()
     //     0x751354: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x751358: sub             SP, fp, #0x168
@@ -4169,7 +4169,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x751414: ldur            x2, [fp, #-0xd0]
     // 0x751418: ldur            x3, [fp, #-0xe0]
     // 0x75141c: r0 = _fallbackPhase()
-    //     0x75141c: bl              #0x74efb8  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_fallbackPhase
+    //     0x75141c: bl              #0x74efb8  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_fallbackPhase
     // 0x751420: r0 = ReturnAsyncNotFuture()
     //     0x751420: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x751424: r0 = StackOverflowSharedWithoutFPURegs()
@@ -4196,12 +4196,12 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x751458: b.ls            #0x7515c8
     // 0x75145c: mov             x2, x0
     // 0x751460: r0 = sanitized()
-    //     0x751460: bl              #0x74f6ec  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::sanitized
+    //     0x751460: bl              #0x74f6ec  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::sanitized
     // 0x751464: mov             x1, x0
     // 0x751468: ldur            x2, [fp, #-0x10]
     // 0x75146c: stur            x0, [fp, #-0x20]
     // 0x751470: r0 = _shouldRejectAIPhase()
-    //     0x751470: bl              #0x7515d0  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_shouldRejectAIPhase
+    //     0x751470: bl              #0x7515d0  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_shouldRejectAIPhase
     // 0x751474: tbnz            w0, #4, #0x7515b4
     // 0x751478: ldur            x2, [fp, #-0x10]
     // 0x75147c: ldur            x0, [fp, #-0x20]
@@ -4313,7 +4313,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x75159c: ldur            x2, [fp, #-0x10]
     // 0x7515a0: ldur            x3, [fp, #-0x18]
     // 0x7515a4: r0 = _fallbackPhase()
-    //     0x7515a4: bl              #0x74efb8  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_fallbackPhase
+    //     0x7515a4: bl              #0x74efb8  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_fallbackPhase
     // 0x7515a8: LeaveFrame
     //     0x7515a8: mov             SP, fp
     //     0x7515ac: ldp             fp, lr, [SP], #0x10
@@ -4347,7 +4347,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x7515f0: b.ls            #0x7516c4
     // 0x7515f4: mov             x1, x0
     // 0x7515f8: r0 = _phaseSkillText()
-    //     0x7515f8: bl              #0x7517c8  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_phaseSkillText
+    //     0x7515f8: bl              #0x7517c8  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_phaseSkillText
     // 0x7515fc: ldur            x2, [fp, #-0x10]
     // 0x751600: stur            x0, [fp, #-0x18]
     // 0x751604: LoadField: r1 = r2->field_7
@@ -4358,7 +4358,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x751614: b.gt            #0x751660
     // 0x751618: mov             x1, x0
     // 0x75161c: r0 = _mentionsTwoBall()
-    //     0x75161c: bl              #0x751794  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_mentionsTwoBall
+    //     0x75161c: bl              #0x751794  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_mentionsTwoBall
     // 0x751620: tbnz            w0, #4, #0x751634
     // 0x751624: r0 = true
     //     0x751624: add             x0, NULL, #0x20  ; true
@@ -4369,7 +4369,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x751630: ret             
     // 0x751634: ldur            x1, [fp, #-0x18]
     // 0x751638: r0 = _mentionsShootingCourtTerms()
-    //     0x751638: bl              #0x751760  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_mentionsShootingCourtTerms
+    //     0x751638: bl              #0x751760  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_mentionsShootingCourtTerms
     // 0x75163c: tbnz            w0, #4, #0x751650
     // 0x751640: r0 = true
     //     0x751640: add             x0, NULL, #0x20  ; true
@@ -4394,7 +4394,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x75166c: ret             
     // 0x751670: ldur            x1, [fp, #-0x18]
     // 0x751674: r0 = _mentionsDunk()
-    //     0x751674: bl              #0x7516cc  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_mentionsDunk
+    //     0x751674: bl              #0x7516cc  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_mentionsDunk
     // 0x751678: tbnz            w0, #4, #0x75168c
     // 0x75167c: r0 = true
     //     0x75167c: add             x0, NULL, #0x20  ; true
@@ -4410,7 +4410,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x751694: add             x1, x1, HEAP, lsl #32
     // 0x751698: ldur            x2, [fp, #-0x10]
     // 0x75169c: r0 = isValidFor()
-    //     0x75169c: bl              #0x74fcb0  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionMetric::isValidFor
+    //     0x75169c: bl              #0x74fcb0  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionMetric::isValidFor
     // 0x7516a0: tbz             w0, #4, #0x7516b4
     // 0x7516a4: r0 = true
     //     0x7516a4: add             x0, NULL, #0x20  ; true
@@ -4443,7 +4443,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x7516e0: add             x2, PP, #0x32, lsl #12  ; [pp+0x32750] List<String>(7)
     //     0x7516e4: ldr             x2, [x2, #0x750]
     // 0x7516e8: r0 = _matchesAny()
-    //     0x7516e8: bl              #0x751700  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_matchesAny
+    //     0x7516e8: bl              #0x751700  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_matchesAny
     // 0x7516ec: LeaveFrame
     //     0x7516ec: mov             SP, fp
     //     0x7516f0: ldp             fp, lr, [SP], #0x10
@@ -4503,7 +4503,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x751774: add             x2, PP, #0x32, lsl #12  ; [pp+0x32758] List<String>(26)
     //     0x751778: ldr             x2, [x2, #0x758]
     // 0x75177c: r0 = _matchesAny()
-    //     0x75177c: bl              #0x751700  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_matchesAny
+    //     0x75177c: bl              #0x751700  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_matchesAny
     // 0x751780: LeaveFrame
     //     0x751780: mov             SP, fp
     //     0x751784: ldp             fp, lr, [SP], #0x10
@@ -4526,7 +4526,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x7517a8: add             x2, PP, #0x32, lsl #12  ; [pp+0x32760] List<String>(16)
     //     0x7517ac: ldr             x2, [x2, #0x760]
     // 0x7517b0: r0 = _matchesAny()
-    //     0x7517b0: bl              #0x751700  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_matchesAny
+    //     0x7517b0: bl              #0x751700  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_matchesAny
     // 0x7517b4: LeaveFrame
     //     0x7517b4: mov             SP, fp
     //     0x7517b8: ldp             fp, lr, [SP], #0x10
@@ -4605,7 +4605,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x75186c: bl              #0x8a784c  ; [dart:core] _GrowableList::join
     // 0x751870: mov             x1, x0
     // 0x751874: r0 = _normalizedSkillText()
-    //     0x751874: bl              #0x75188c  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_normalizedSkillText
+    //     0x751874: bl              #0x75188c  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_normalizedSkillText
     // 0x751878: LeaveFrame
     //     0x751878: mov             SP, fp
     //     0x75187c: ldp             fp, lr, [SP], #0x10
@@ -4668,13 +4668,13 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x7526a8: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x7526ac: cmp             SP, x16
     //     0x7526b0: b.ls            #0x75282c
-    // 0x7526b4: r0 = InitLateStaticField(0xbf0) // [package:ballai/automatic/app/app_nav.dart] ::ballAiRootNavigatorKey
+    // 0x7526b4: r0 = InitLateStaticField(0xbf0) // [package:kourtai/automatic/app/app_nav.dart] ::kourtAiRootNavigatorKey
     //     0x7526b4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x7526b8: ldr             x0, [x0, #0x17e0]
     //     0x7526bc: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
     //     0x7526c0: cmp             w0, w16
     //     0x7526c4: b.ne            #0x7526d4
-    //     0x7526c8: add             x2, PP, #0x12, lsl #12  ; [pp+0x12440] Field <::.ballAiRootNavigatorKey>: static late final (offset: 0xbf0)
+    //     0x7526c8: add             x2, PP, #0x12, lsl #12  ; [pp+0x12440] Field <::.kourtAiRootNavigatorKey>: static late final (offset: 0xbf0)
     //     0x7526cc: ldr             x2, [x2, #0x440]
     //     0x7526d0: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x7526d4: mov             x1, x0
@@ -4828,7 +4828,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x75285c: b.ls            #0x752874
     // 0x752860: ldr             x1, [fp, #0x10]
     // 0x752864: r0 = logLine()
-    //     0x752864: bl              #0x75287c  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionCompletedRecord::logLine
+    //     0x752864: bl              #0x75287c  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionCompletedRecord::logLine
     // 0x752868: LeaveFrame
     //     0x752868: mov             SP, fp
     //     0x75286c: ldp             fp, lr, [SP], #0x10
@@ -4885,11 +4885,11 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x75748c: ret
     //     0x75748c: ret             
     // 0x757490: r0 = sanitized()
-    //     0x757490: bl              #0x74f6ec  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::sanitized
+    //     0x757490: bl              #0x74f6ec  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::sanitized
     // 0x757494: ldur            x1, [fp, #-8]
     // 0x757498: mov             x2, x0
     // 0x75749c: r0 = _personalizedHandLabels()
-    //     0x75749c: bl              #0x757f48  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_personalizedHandLabels
+    //     0x75749c: bl              #0x757f48  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_personalizedHandLabels
     // 0x7574a0: mov             x3, x0
     // 0x7574a4: ldur            x2, [fp, #-8]
     // 0x7574a8: stur            x3, [fp, #-0x10]
@@ -4911,7 +4911,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x7574d4: stur            xzr, [x2, #0x57]
     // 0x7574d8: mov             x1, x3
     // 0x7574dc: r0 = _followUpTipTargets()
-    //     0x7574dc: bl              #0x757d20  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_followUpTipTargets
+    //     0x7574dc: bl              #0x757d20  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_followUpTipTargets
     // 0x7574e0: ldur            x2, [fp, #-8]
     // 0x7574e4: StoreField: r2->field_cf = r0
     //     0x7574e4: stur            w0, [x2, #0xcf]
@@ -4942,7 +4942,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x75752c: tbnz            w0, #4, #0x757538
     // 0x757530: ldur            x2, [fp, #-0x10]
     // 0x757534: r0 = _announceFirstPhase()
-    //     0x757534: bl              #0x757cb8  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_announceFirstPhase
+    //     0x757534: bl              #0x757cb8  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_announceFirstPhase
     // 0x757538: r0 = Null
     //     0x757538: mov             x0, NULL
     // 0x75753c: LeaveFrame
@@ -4952,7 +4952,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x757544: ret             
     // 0x757548: ldur            x2, [fp, #-0x10]
     // 0x75754c: r0 = _revealCalloutAfterSpeaking()
-    //     0x75754c: bl              #0x757568  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_revealCalloutAfterSpeaking
+    //     0x75754c: bl              #0x757568  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_revealCalloutAfterSpeaking
     // 0x757550: r0 = Null
     //     0x757550: mov             x0, NULL
     // 0x757554: LeaveFrame
@@ -5005,7 +5005,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x7575c0: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
     // 0x7575c4: ldur            x2, [fp, #-0x18]
     // 0x7575c8: r1 = Function 'startProgressCounting':.
-    //     0x7575c8: add             x1, PP, #0x32, lsl #12  ; [pp+0x329d8] AnonymousClosure: (0x757ae0), in [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_revealCalloutAfterSpeaking (0x757568)
+    //     0x7575c8: add             x1, PP, #0x32, lsl #12  ; [pp+0x329d8] AnonymousClosure: (0x757ae0), in [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_revealCalloutAfterSpeaking (0x757568)
     //     0x7575cc: ldr             x1, [x1, #0x9d8]
     // 0x7575d0: r0 = AllocateClosure()
     //     0x7575d0: bl              #0xe553e0  ; AllocateClosureStub
@@ -5117,7 +5117,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x7576f0: add             x1, x1, HEAP, lsl #32
     // 0x7576f4: ldur            x2, [fp, #-0x20]
     // 0x7576f8: r0 = appendAIFeedback()
-    //     0x7576f8: bl              #0x6d2614  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::appendAIFeedback
+    //     0x7576f8: bl              #0x6d2614  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::appendAIFeedback
     // 0x7576fc: r0 = Null
     //     0x7576fc: mov             x0, NULL
     // 0x757700: LeaveFrame
@@ -5125,7 +5125,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x757704: ldp             fp, lr, [SP], #0x10
     // 0x757708: ret
     //     0x757708: ret             
-    // 0x75770c: r0 = InitLateStaticField(0xeec) // [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
+    // 0x75770c: r0 = InitLateStaticField(0xeec) // [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
     //     0x75770c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x757710: ldr             x0, [x0, #0x1dd8]
     //     0x757714: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -5136,7 +5136,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x757728: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x75772c: ldur            x2, [fp, #-0x18]
     // 0x757730: r1 = Function '<anonymous closure>':.
-    //     0x757730: add             x1, PP, #0x32, lsl #12  ; [pp+0x329e0] AnonymousClosure: (0x757774), in [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_revealCalloutAfterSpeaking (0x757568)
+    //     0x757730: add             x1, PP, #0x32, lsl #12  ; [pp+0x329e0] AnonymousClosure: (0x757774), in [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_revealCalloutAfterSpeaking (0x757568)
     //     0x757734: ldr             x1, [x1, #0x9e0]
     // 0x757738: stur            x0, [fp, #-8]
     // 0x75773c: r0 = AllocateClosure()
@@ -5150,7 +5150,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x757750: add             x4, PP, #0x32, lsl #12  ; [pp+0x329e8] List(9) [0, 0x4, 0x2, 0x2, "isBally", 0x2, "onComplete", 0x3, Null]
     //     0x757754: ldr             x4, [x4, #0x9e8]
     // 0x757758: r0 = speak()
-    //     0x757758: bl              #0x6d2cd4  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
+    //     0x757758: bl              #0x6d2cd4  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
     // 0x75775c: r0 = Null
     //     0x75775c: mov             x0, NULL
     // 0x757760: LeaveFrame
@@ -5289,7 +5289,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x7578a8: mov             x1, x2
     // 0x7578ac: mov             x2, x16
     // 0x7578b0: r0 = appendAIFeedback()
-    //     0x7578b0: bl              #0x6d2614  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::appendAIFeedback
+    //     0x7578b0: bl              #0x6d2614  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::appendAIFeedback
     // 0x7578b4: ldur            x2, [fp, #-8]
     // 0x7578b8: LoadField: r0 = r2->field_13
     //     0x7578b8: ldur            w0, [x2, #0x13]
@@ -5362,7 +5362,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x757970: add             x1, x1, HEAP, lsl #32
     // 0x757974: tbnz            w1, #4, #0x75799c
     // 0x757978: r1 = Function '<anonymous closure>':.
-    //     0x757978: add             x1, PP, #0x32, lsl #12  ; [pp+0x329f0] AnonymousClosure: (0x7579b4), in [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_revealCalloutAfterSpeaking (0x757568)
+    //     0x757978: add             x1, PP, #0x32, lsl #12  ; [pp+0x329f0] AnonymousClosure: (0x7579b4), in [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_revealCalloutAfterSpeaking (0x757568)
     //     0x75797c: ldr             x1, [x1, #0x9f0]
     // 0x757980: r0 = AllocateClosure()
     //     0x757980: bl              #0xe553e0  ; AllocateClosureStub
@@ -5452,7 +5452,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x757a50: ret             
     // 0x757a54: ldur            x0, [fp, #-0x10]
     // 0x757a58: ldur            x1, [fp, #-8]
-    // 0x757a5c: r0 = InitLateStaticField(0xeec) // [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
+    // 0x757a5c: r0 = InitLateStaticField(0xeec) // [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
     //     0x757a5c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x757a60: ldr             x0, [x0, #0x1dd8]
     //     0x757a64: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -5476,7 +5476,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x757a9c: add             x4, PP, #0x32, lsl #12  ; [pp+0x329f8] List(7) [0, 0x3, 0x1, 0x2, "isBally", 0x2, Null]
     //     0x757aa0: ldr             x4, [x4, #0x9f8]
     // 0x757aa4: r0 = speak()
-    //     0x757aa4: bl              #0x6d2cd4  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
+    //     0x757aa4: bl              #0x6d2cd4  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
     // 0x757aa8: ldur            x0, [fp, #-8]
     // 0x757aac: LoadField: r1 = r0->field_f
     //     0x757aac: ldur            w1, [x0, #0xf]
@@ -5489,7 +5489,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x757abc: mov             x1, x0
     // 0x757ac0: ldur            x2, [fp, #-0x18]
     // 0x757ac4: r0 = appendAIFeedback()
-    //     0x757ac4: bl              #0x6d2614  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::appendAIFeedback
+    //     0x757ac4: bl              #0x6d2614  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::appendAIFeedback
     // 0x757ac8: r0 = Null
     //     0x757ac8: mov             x0, NULL
     // 0x757acc: LeaveFrame
@@ -5616,7 +5616,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x757c08: DecompressPointer r1
     //     0x757c08: add             x1, x1, HEAP, lsl #32
     // 0x757c0c: r0 = _snapBaselines()
-    //     0x757c0c: bl              #0x757c90  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_snapBaselines
+    //     0x757c0c: bl              #0x757c90  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_snapBaselines
     // 0x757c10: ldur            x0, [fp, #-0x10]
     // 0x757c14: LoadField: r1 = r0->field_f
     //     0x757c14: ldur            w1, [x0, #0xf]
@@ -5657,7 +5657,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x757c78: StoreField: r1->field_c3 = rNULL
     //     0x757c78: stur            NULL, [x1, #0xc3]
     // 0x757c7c: r0 = _recomputeProgress()
-    //     0x757c7c: bl              #0x74e4b8  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_recomputeProgress
+    //     0x757c7c: bl              #0x74e4b8  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_recomputeProgress
     // 0x757c80: r0 = Null
     //     0x757c80: mov             x0, NULL
     // 0x757c84: r0 = ReturnAsyncNotFuture()
@@ -5706,7 +5706,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x757cd8: b.ls            #0x757d08
     // 0x757cdc: mov             x1, x0
     // 0x757ce0: r0 = _clearAnnouncePendingFlag()
-    //     0x757ce0: bl              #0x757d10  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_clearAnnouncePendingFlag
+    //     0x757ce0: bl              #0x757d10  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_clearAnnouncePendingFlag
     // 0x757ce4: ldur            x1, [fp, #-8]
     // 0x757ce8: r0 = true
     //     0x757ce8: add             x0, NULL, #0x20  ; true
@@ -5714,7 +5714,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x757cec: stur            w0, [x1, #0x4f]
     // 0x757cf0: ldur            x2, [fp, #-0x10]
     // 0x757cf4: r0 = _revealCalloutAfterSpeaking()
-    //     0x757cf4: bl              #0x757568  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_revealCalloutAfterSpeaking
+    //     0x757cf4: bl              #0x757568  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_revealCalloutAfterSpeaking
     // 0x757cf8: r0 = Null
     //     0x757cf8: mov             x0, NULL
     // 0x757cfc: LeaveFrame
@@ -5951,7 +5951,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x757f98: ret
     //     0x757f98: ret             
     // 0x757f9c: r0 = _resolvedHands()
-    //     0x757f9c: bl              #0x75269c  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_resolvedHands
+    //     0x757f9c: bl              #0x75269c  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_resolvedHands
     // 0x757fa0: mov             x2, x0
     // 0x757fa4: stur            x2, [fp, #-0x18]
     // 0x757fa8: mov             x3, x1
@@ -5980,7 +5980,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x757fec: ldur            x0, [fp, #-8]
     // 0x757ff0: mov             x2, x1
     // 0x757ff4: r1 = Function 'replaceLabels':.
-    //     0x757ff4: add             x1, PP, #0x32, lsl #12  ; [pp+0x32a08] AnonymousClosure: (0x758108), in [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_personalizedHandLabels (0x757f48)
+    //     0x757ff4: add             x1, PP, #0x32, lsl #12  ; [pp+0x32a08] AnonymousClosure: (0x758108), in [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_personalizedHandLabels (0x757f48)
     //     0x757ff8: ldr             x1, [x1, #0xa08]
     // 0x757ffc: r0 = AllocateClosure()
     //     0x757ffc: bl              #0xe553e0  ; AllocateClosureStub
@@ -6065,7 +6065,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x7580e4: add             x4, PP, #0x32, lsl #12  ; [pp+0x321f8] List(7) [0, 0x7, 0x1, 0x6, "id", 0x6, Null]
     //     0x7580e8: ldr             x4, [x4, #0x1f8]
     // 0x7580ec: r0 = BallySuggestionPhase()
-    //     0x7580ec: bl              #0x74f4e4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
+    //     0x7580ec: bl              #0x74f4e4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_models.dart] BallySuggestionPhase::BallySuggestionPhase
     // 0x7580f0: ldur            x0, [fp, #-8]
     // 0x7580f4: LeaveFrame
     //     0x7580f4: mov             SP, fp
@@ -6566,7 +6566,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x758620: StoreField: r3->field_e3 = r4
     //     0x758620: stur            w4, [x3, #0xe3]
     // 0x758624: r1 = Function '<anonymous closure>':.
-    //     0x758624: add             x1, PP, #0x32, lsl #12  ; [pp+0x32a40] AnonymousClosure: (0x75868c), in [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_maybePrefetchNextPhase (0x7583e4)
+    //     0x758624: add             x1, PP, #0x32, lsl #12  ; [pp+0x32a40] AnonymousClosure: (0x75868c), in [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_maybePrefetchNextPhase (0x7583e4)
     //     0x758628: ldr             x1, [x1, #0xa40]
     // 0x75862c: r0 = AllocateClosure()
     //     0x75862c: bl              #0xe553e0  ; AllocateClosureStub
@@ -6652,7 +6652,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x7586fc: b               #0x758710
     // 0x758700: mov             x1, x2
     // 0x758704: r0 = ensureLoaded()
-    //     0x758704: bl              #0x753d30  ; [package:ballai/video_tracking/analysis/coach/suggestions/lab_handles_phase_source.dart] LabHandlesPhaseSource::ensureLoaded
+    //     0x758704: bl              #0x753d30  ; [package:kourtai/video_tracking/analysis/coach/suggestions/lab_handles_phase_source.dart] LabHandlesPhaseSource::ensureLoaded
     // 0x758708: mov             x2, x0
     // 0x75870c: ldur            x1, [fp, #-0x88]
     // 0x758710: mov             x0, x2
@@ -6691,7 +6691,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x758768: mov             x2, x4
     // 0x75876c: stur            x4, [fp, #-0x90]
     // 0x758770: r0 = next()
-    //     0x758770: bl              #0x752958  ; [package:ballai/video_tracking/analysis/coach/suggestions/lab_handles_phase_source.dart] LabHandlesPhaseSource::next
+    //     0x758770: bl              #0x752958  ; [package:kourtai/video_tracking/analysis/coach/suggestions/lab_handles_phase_source.dart] LabHandlesPhaseSource::next
     // 0x758774: cmp             w0, NULL
     // 0x758778: b.ne            #0x7587b8
     // 0x75877c: ldur            x3, [fp, #-0x88]
@@ -6826,7 +6826,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x7588d8: mov             x1, x5
     // 0x7588dc: ldur            x3, [fp, #-0xa8]
     // 0x7588e0: r0 = _fallbackPhase()
-    //     0x7588e0: bl              #0x74efb8  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_fallbackPhase
+    //     0x7588e0: bl              #0x74efb8  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_fallbackPhase
     // 0x7588e4: mov             x2, x0
     // 0x7588e8: ldur            x1, [fp, #-0x88]
     // 0x7588ec: stur            x2, [fp, #-0x90]
@@ -6982,7 +6982,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x758a6c: b.eq            #0x758a7c
     // 0x758a70: mov             x1, x0
     // 0x758a74: r0 = _canCountProgress()
-    //     0x758a74: bl              #0x758d18  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_canCountProgress
+    //     0x758a74: bl              #0x758d18  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_canCountProgress
     // 0x758a78: tbz             w0, #4, #0x758a8c
     // 0x758a7c: r0 = Null
     //     0x758a7c: mov             x0, NULL
@@ -7180,7 +7180,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x758cb0: DecompressPointer r1
     //     0x758cb0: add             x1, x1, HEAP, lsl #32
     // 0x758cb4: tbnz            w1, #4, #0x758d00
-    // 0x758cb8: r0 = InitLateStaticField(0xeec) // [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
+    // 0x758cb8: r0 = InitLateStaticField(0xeec) // [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
     //     0x758cb8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x758cbc: ldr             x0, [x0, #0x1dd8]
     //     0x758cc0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -7198,11 +7198,11 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x758ce8: add             x4, PP, #0x32, lsl #12  ; [pp+0x329f8] List(7) [0, 0x3, 0x1, 0x2, "isBally", 0x2, Null]
     //     0x758cec: ldr             x4, [x4, #0x9f8]
     // 0x758cf0: r0 = speak()
-    //     0x758cf0: bl              #0x6d2cd4  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
+    //     0x758cf0: bl              #0x6d2cd4  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
     // 0x758cf4: ldur            x1, [fp, #-8]
     // 0x758cf8: ldur            x2, [fp, #-0x18]
     // 0x758cfc: r0 = appendAIFeedback()
-    //     0x758cfc: bl              #0x6d2614  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::appendAIFeedback
+    //     0x758cfc: bl              #0x6d2614  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::appendAIFeedback
     // 0x758d00: r0 = Null
     //     0x758d00: mov             x0, NULL
     // 0x758d04: LeaveFrame
@@ -7330,7 +7330,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x773bf4: StoreField: r1->field_a7 = r3
     //     0x773bf4: stur            x3, [x1, #0xa7]
     // 0x773bf8: r0 = _recomputeProgress()
-    //     0x773bf8: bl              #0x74e4b8  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_recomputeProgress
+    //     0x773bf8: bl              #0x74e4b8  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_recomputeProgress
     // 0x773bfc: r0 = Null
     //     0x773bfc: mov             x0, NULL
     // 0x773c00: LeaveFrame
@@ -7374,7 +7374,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x999720: stur            w0, [x2, #0xf]
     // 0x999724: mov             x1, x0
     // 0x999728: r0 = reset()
-    //     0x999728: bl              #0x74a97c  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::reset
+    //     0x999728: bl              #0x74a97c  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::reset
     // 0x99972c: ldur            x0, [fp, #-0x20]
     // 0x999730: ldur            x1, [fp, #-8]
     // 0x999734: StoreField: r1->field_37 = r0
@@ -7435,7 +7435,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x9997e4: mov             x1, x0
     // 0x9997e8: stur            x0, [fp, #-0x10]
     // 0x9997ec: r0 = LabHandlesPhaseSource()
-    //     0x9997ec: bl              #0x999970  ; [package:ballai/video_tracking/analysis/coach/suggestions/lab_handles_phase_source.dart] LabHandlesPhaseSource::LabHandlesPhaseSource
+    //     0x9997ec: bl              #0x999970  ; [package:kourtai/video_tracking/analysis/coach/suggestions/lab_handles_phase_source.dart] LabHandlesPhaseSource::LabHandlesPhaseSource
     // 0x9997f0: ldur            x0, [fp, #-0x10]
     // 0x9997f4: b               #0x9997fc
     // 0x9997f8: r0 = Null
@@ -7517,7 +7517,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x9998c0: bl              #0x5c96fc  ; [package:flutter/src/foundation/print.dart] ::debugPrintThrottled
     // 0x9998c4: ldur            x2, [fp, #-0x30]
     // 0x9998c8: r1 = Function '<anonymous closure>':.
-    //     0x9998c8: add             x1, PP, #0x40, lsl #12  ; [pp+0x40d48] AnonymousClosure: (0x999b6c), in [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::start (0x9996d0)
+    //     0x9998c8: add             x1, PP, #0x40, lsl #12  ; [pp+0x40d48] AnonymousClosure: (0x999b6c), in [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::start (0x9996d0)
     //     0x9998cc: ldr             x1, [x1, #0xd48]
     // 0x9998d0: r0 = AllocateClosure()
     //     0x9998d0: bl              #0xe553e0  ; AllocateClosureStub
@@ -7553,7 +7553,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x99992c: b.eq            #0x999934
     //     0x999930: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x999934: r1 = Function '<anonymous closure>':.
-    //     0x999934: add             x1, PP, #0x40, lsl #12  ; [pp+0x40d50] AnonymousClosure: (0x999a5c), in [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::start (0x9996d0)
+    //     0x999934: add             x1, PP, #0x40, lsl #12  ; [pp+0x40d50] AnonymousClosure: (0x999a5c), in [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::start (0x9996d0)
     //     0x999938: ldr             x1, [x1, #0xd50]
     // 0x99993c: r0 = AllocateClosure()
     //     0x99993c: bl              #0xe553e0  ; AllocateClosureStub
@@ -7564,7 +7564,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x99994c: blr             x2
     // 0x999950: b               #0x999958
     // 0x999954: r0 = _requestNextPhase()
-    //     0x999954: bl              #0x74eb34  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_requestNextPhase
+    //     0x999954: bl              #0x74eb34  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_requestNextPhase
     // 0x999958: r0 = Null
     //     0x999958: mov             x0, NULL
     // 0x99995c: LeaveFrame
@@ -7604,7 +7604,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x999aa0: DecompressPointer r1
     //     0x999aa0: add             x1, x1, HEAP, lsl #32
     // 0x999aa4: r0 = ensureLoaded()
-    //     0x999aa4: bl              #0x753d30  ; [package:ballai/video_tracking/analysis/coach/suggestions/lab_handles_phase_source.dart] LabHandlesPhaseSource::ensureLoaded
+    //     0x999aa4: bl              #0x753d30  ; [package:kourtai/video_tracking/analysis/coach/suggestions/lab_handles_phase_source.dart] LabHandlesPhaseSource::ensureLoaded
     // 0x999aa8: mov             x1, x0
     // 0x999aac: stur            x1, [fp, #-0x68]
     // 0x999ab0: r0 = Await()
@@ -7673,7 +7673,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x999b54: r0 = ReturnAsyncNotFuture()
     //     0x999b54: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x999b58: r0 = _requestNextPhase()
-    //     0x999b58: bl              #0x74eb34  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_requestNextPhase
+    //     0x999b58: bl              #0x74eb34  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_requestNextPhase
     // 0x999b5c: r0 = Null
     //     0x999b5c: mov             x0, NULL
     // 0x999b60: r0 = ReturnAsyncNotFuture()
@@ -7702,7 +7702,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     //     0x999b90: add             x0, x0, HEAP, lsl #32
     // 0x999b94: mov             x1, x0
     // 0x999b98: r0 = tick()
-    //     0x999b98: bl              #0x999bb4  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::tick
+    //     0x999b98: bl              #0x999bb4  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::tick
     // 0x999b9c: r0 = Null
     //     0x999b9c: mov             x0, NULL
     // 0x999ba0: LeaveFrame
@@ -7767,7 +7767,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x999c2c: ret
     //     0x999c2c: ret             
     // 0x999c30: r0 = _recomputeProgress()
-    //     0x999c30: bl              #0x74e4b8  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_recomputeProgress
+    //     0x999c30: bl              #0x74e4b8  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_recomputeProgress
     // 0x999c34: r0 = Null
     //     0x999c34: mov             x0, NULL
     // 0x999c38: LeaveFrame
@@ -7816,7 +7816,7 @@ class BallySuggestionEngine extends ChangeNotifier {
     // 0x999e0c: cmp             w2, NULL
     // 0x999e10: b.eq            #0x999e18
     // 0x999e14: r0 = _announceFirstPhase()
-    //     0x999e14: bl              #0x757cb8  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_announceFirstPhase
+    //     0x999e14: bl              #0x757cb8  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::_announceFirstPhase
     // 0x999e18: r0 = Null
     //     0x999e18: mov             x0, NULL
     // 0x999e1c: LeaveFrame

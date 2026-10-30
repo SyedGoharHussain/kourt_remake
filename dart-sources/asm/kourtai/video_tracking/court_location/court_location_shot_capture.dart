@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/court_location/court_location_shot_capture.dart
+// lib: , url: package:kourtai/video_tracking/court_location/court_location_shot_capture.dart
 
 // class id: 1049127, size: 0x8
 class :: {
@@ -54,7 +54,7 @@ abstract class CourtLocationShotCapture extends Object {
     //     0x71cca8: ret             
     // 0x71ccac: mov             x1, x0
     // 0x71ccb0: r0 = _bgraFromCameraImage()
-    //     0x71ccb0: bl              #0x7120f4  ; [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::_bgraFromCameraImage
+    //     0x71ccb0: bl              #0x7120f4  ; [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::_bgraFromCameraImage
     // 0x71ccb4: cmp             w0, NULL
     // 0x71ccb8: b.ne            #0x71cccc
     // 0x71ccbc: r0 = Null
@@ -75,7 +75,7 @@ abstract class CourtLocationShotCapture extends Object {
     // 0x71cce0: r3 = 30
     //     0x71cce0: mov             x3, #0x1e
     // 0x71cce4: r0 = bgraToVertexJpeg()
-    //     0x71cce4: bl              #0x703b30  ; [package:ballai/video_tracking/analysis/coach/coach_frame_encoder.dart] ::bgraToVertexJpeg
+    //     0x71cce4: bl              #0x703b30  ; [package:kourtai/video_tracking/analysis/coach/coach_frame_encoder.dart] ::bgraToVertexJpeg
     // 0x71cce8: LeaveFrame
     //     0x71cce8: mov             SP, fp
     //     0x71ccec: ldp             fp, lr, [SP], #0x10

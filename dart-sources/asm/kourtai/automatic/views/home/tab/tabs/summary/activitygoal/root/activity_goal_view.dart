@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/root/activity_goal_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/root/activity_goal_view.dart
 
 // class id: 1048884, size: 0x8
 class :: {
@@ -16,7 +16,7 @@ abstract class __ActivityGoalViewState&State&HomeIslandHiddenRoute extends State
     //     0xb5af74: mov             fp, SP
     // 0xb5af78: ldr             x2, [fp, #0x10]
     // 0xb5af7c: r1 = Function 'dispose':.
-    //     0xb5af7c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3be50] AnonymousClosure: (0xb5af94), in [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose (0xb63788)
+    //     0xb5af7c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3be50] AnonymousClosure: (0xb5af94), in [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose (0xb63788)
     //     0xb5af80: ldr             x1, [x1, #0xe50]
     // 0xb5af84: r0 = AllocateClosure()
     //     0xb5af84: bl              #0xe553e0  ; AllocateClosureStub
@@ -41,7 +41,7 @@ abstract class __ActivityGoalViewState&State&HomeIslandHiddenRoute extends State
     //     0xb5afac: cmp             SP, x16
     //     0xb5afb0: b.ls            #0xb5afc4
     // 0xb5afb4: r0 = dispose()
-    //     0xb5afb4: bl              #0xb63788  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
+    //     0xb5afb4: bl              #0xb63788  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
     // 0xb5afb8: LeaveFrame
     //     0xb5afb8: mov             SP, fp
     //     0xb5afbc: ldp             fp, lr, [SP], #0x10
@@ -74,7 +74,7 @@ class _ActivityGoalViewState extends __ActivityGoalViewState&State&HomeIslandHid
     //     0x957bcc: b.ls            #0x957e40
     // 0x957bd0: mov             x1, x0
     // 0x957bd4: r0 = initState()
-    //     0x957bd4: bl              #0x989844  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::initState
+    //     0x957bd4: bl              #0x989844  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::initState
     // 0x957bd8: ldur            x0, [fp, #-8]
     // 0x957bdc: LoadField: r1 = r0->field_f
     //     0x957bdc: ldur            w1, [x0, #0xf]
@@ -103,7 +103,7 @@ class _ActivityGoalViewState extends __ActivityGoalViewState&State&HomeIslandHid
     //     0x957c18: add             x2, x2, HEAP, lsl #32
     // 0x957c1c: mov             x1, x2
     // 0x957c20: r0 = DateTimeWeekRange.getWeekStartAndEnd()
-    //     0x957c20: bl              #0x5fb6d0  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
+    //     0x957c20: bl              #0x5fb6d0  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
     // 0x957c24: mov             x2, x0
     // 0x957c28: stur            x2, [fp, #-0x10]
     // 0x957c2c: r0 = LoadClassIdInstr(r2)
@@ -195,7 +195,7 @@ class _ActivityGoalViewState extends __ActivityGoalViewState&State&HomeIslandHid
     //     0x957d3c: stur            x1, [x0, #0xb]
     // 0x957d40: mov             x1, x0
     // 0x957d44: r0 = DateTimeWeekRange.getWeekStartAndEnd()
-    //     0x957d44: bl              #0x5fb6d0  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
+    //     0x957d44: bl              #0x5fb6d0  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
     // 0x957d48: mov             x2, x0
     // 0x957d4c: stur            x2, [fp, #-0x10]
     // 0x957d50: r0 = LoadClassIdInstr(r2)
@@ -322,15 +322,15 @@ class _ActivityGoalViewState extends __ActivityGoalViewState&State&HomeIslandHid
     //     0xa2f840: add             x2, x2, HEAP, lsl #32
     // 0xa2f844: stur            x2, [fp, #-0x20]
     // 0xa2f848: r0 = currentWorkouts()
-    //     0xa2f848: bl              #0x900b60  ; [package:ballai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::currentWorkouts
+    //     0xa2f848: bl              #0x900b60  ; [package:kourtai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::currentWorkouts
     // 0xa2f84c: ldur            x1, [fp, #-0x10]
     // 0xa2f850: stur            x0, [fp, #-0x18]
-    // 0xa2f854: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xa2f854: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xa2f854: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xa2f854: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xa2f858: ldur            x1, [fp, #-0x10]
     // 0xa2f85c: stur            x0, [fp, #-0x28]
-    // 0xa2f860: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xa2f860: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xa2f860: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xa2f860: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xa2f864: ldur            x2, [fp, #-8]
     // 0xa2f868: stur            x0, [fp, #-0x30]
     // 0xa2f86c: LoadField: r1 = r2->field_13
@@ -348,11 +348,11 @@ class _ActivityGoalViewState extends __ActivityGoalViewState&State&HomeIslandHid
     //     0xa2f888: add             x4, PP, #0x3b, lsl #12  ; [pp+0x3bde0] List(7) [0, 0x2, 0x1, 0x1, "includeYear", 0x1, Null]
     //     0xa2f88c: ldr             x4, [x4, #0xde0]
     // 0xa2f890: r0 = DateTimeWeekRange.formattedWeekRange()
-    //     0xa2f890: bl              #0xa2d990  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.formattedWeekRange
+    //     0xa2f890: bl              #0xa2d990  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.formattedWeekRange
     // 0xa2f894: ldur            x1, [fp, #-0x10]
     // 0xa2f898: stur            x0, [fp, #-0x38]
-    // 0xa2f89c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa2f89c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa2f89c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa2f89c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa2f8a0: stur            x0, [fp, #-0x40]
     // 0xa2f8a4: r0 = TextStyle()
     //     0xa2f8a4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -389,11 +389,11 @@ class _ActivityGoalViewState extends __ActivityGoalViewState&State&HomeIslandHid
     //     0xa2f8f4: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bde8] "Choose week"
     //     0xa2f8f8: ldr             x1, [x1, #0xde8]
     // 0xa2f8fc: r0 = L()
-    //     0xa2f8fc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2f8fc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2f900: ldur            x1, [fp, #-0x10]
     // 0xa2f904: stur            x0, [fp, #-0x10]
-    // 0xa2f908: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa2f908: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa2f908: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa2f908: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa2f90c: stur            x0, [fp, #-0x38]
     // 0xa2f910: r0 = Icon()
     //     0xa2f910: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -409,7 +409,7 @@ class _ActivityGoalViewState extends __ActivityGoalViewState&State&HomeIslandHid
     //     0xa2f92c: stur            w0, [x3, #0x23]
     // 0xa2f930: ldur            x2, [fp, #-8]
     // 0xa2f934: r1 = Function '_openWeekPicker@1140168782':.
-    //     0xa2f934: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bdf0] AnonymousClosure: (0xa2fbf4), in [package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/root/activity_goal_view.dart] _ActivityGoalViewState::_openWeekPicker (0xa2fc2c)
+    //     0xa2f934: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bdf0] AnonymousClosure: (0xa2fbf4), in [package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/root/activity_goal_view.dart] _ActivityGoalViewState::_openWeekPicker (0xa2fc2c)
     //     0xa2f938: ldr             x1, [x1, #0xdf0]
     // 0xa2f93c: r0 = AllocateClosure()
     //     0xa2f93c: bl              #0xe553e0  ; AllocateClosureStub
@@ -704,7 +704,7 @@ class _ActivityGoalViewState extends __ActivityGoalViewState&State&HomeIslandHid
     //     0xa2fc0c: cmp             SP, x16
     //     0xa2fc10: b.ls            #0xa2fc24
     // 0xa2fc14: r0 = _openWeekPicker()
-    //     0xa2fc14: bl              #0xa2fc2c  ; [package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/root/activity_goal_view.dart] _ActivityGoalViewState::_openWeekPicker
+    //     0xa2fc14: bl              #0xa2fc2c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/root/activity_goal_view.dart] _ActivityGoalViewState::_openWeekPicker
     // 0xa2fc18: LeaveFrame
     //     0xa2fc18: mov             SP, fp
     //     0xa2fc1c: ldp             fp, lr, [SP], #0x10
@@ -789,7 +789,7 @@ class _ActivityGoalViewState extends __ActivityGoalViewState&State&HomeIslandHid
     // 0xa2fce8: ldur            x2, [fp, #-0x18]
     // 0xa2fcec: stur            x5, [fp, #-0x20]
     // 0xa2fcf0: r1 = Function '<anonymous closure>':.
-    //     0xa2fcf0: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3be18] AnonymousClosure: (0xa2fd40), in [package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/root/activity_goal_view.dart] _ActivityGoalViewState::_openWeekPicker (0xa2fc2c)
+    //     0xa2fcf0: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3be18] AnonymousClosure: (0xa2fd40), in [package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/root/activity_goal_view.dart] _ActivityGoalViewState::_openWeekPicker (0xa2fc2c)
     //     0xa2fcf4: ldr             x1, [x1, #0xe18]
     // 0xa2fcf8: r0 = AllocateClosure()
     //     0xa2fcf8: bl              #0xe553e0  ; AllocateClosureStub
@@ -798,7 +798,7 @@ class _ActivityGoalViewState extends __ActivityGoalViewState&State&HomeIslandHid
     // 0xa2fd04: ldur            x3, [fp, #-0x30]
     // 0xa2fd08: mov             x5, x0
     // 0xa2fd0c: r0 = showActivityWeekPickerSheet()
-    //     0xa2fd0c: bl              #0x991094  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] ::showActivityWeekPickerSheet
+    //     0xa2fd0c: bl              #0x991094  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] ::showActivityWeekPickerSheet
     // 0xa2fd10: mov             x1, x0
     // 0xa2fd14: stur            x1, [fp, #-0x10]
     // 0xa2fd18: r0 = Await()
@@ -916,7 +916,7 @@ class _ActivityGoalViewState extends __ActivityGoalViewState&State&HomeIslandHid
     //     0xa2fe60: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xa2fe64: ldur            x1, [fp, #-0x38]
     // 0xa2fe68: r0 = _canAccessSummaryWeek()
-    //     0xa2fe68: bl              #0xa2ffc0  ; [package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/root/activity_goal_view.dart] _ActivityGoalViewState::_canAccessSummaryWeek
+    //     0xa2fe68: bl              #0xa2ffc0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/root/activity_goal_view.dart] _ActivityGoalViewState::_canAccessSummaryWeek
     // 0xa2fe6c: tbz             w0, #4, #0xa2ff64
     // 0xa2fe70: r0 = LoadStaticField(0x8b4)
     //     0xa2fe70: ldr             x0, [THR, #0x68]  ; THR::field_table_values
@@ -935,7 +935,7 @@ class _ActivityGoalViewState extends __ActivityGoalViewState&State&HomeIslandHid
     // 0xa2fe94: ldur            x2, [fp, #-0x10]
     // 0xa2fe98: stur            x0, [fp, #-0x28]
     // 0xa2fe9c: r1 = Function '<anonymous closure>':.
-    //     0xa2fe9c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3be20] AnonymousClosure: (0xa30330), in [package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/root/activity_goal_view.dart] _ActivityGoalViewState::_openWeekPicker (0xa2fc2c)
+    //     0xa2fe9c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3be20] AnonymousClosure: (0xa30330), in [package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/root/activity_goal_view.dart] _ActivityGoalViewState::_openWeekPicker (0xa2fc2c)
     //     0xa2fea0: ldr             x1, [x1, #0xe20]
     // 0xa2fea4: r0 = AllocateClosure()
     //     0xa2fea4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1014,7 +1014,7 @@ class _ActivityGoalViewState extends __ActivityGoalViewState&State&HomeIslandHid
     // 0xa2ff70: ldur            x2, [fp, #-0x10]
     // 0xa2ff74: stur            x3, [fp, #-0x28]
     // 0xa2ff78: r1 = Function '<anonymous closure>':.
-    //     0xa2ff78: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3be38] AnonymousClosure: (0x990690), in [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
+    //     0xa2ff78: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3be38] AnonymousClosure: (0x990690), in [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
     //     0xa2ff7c: ldr             x1, [x1, #0xe38]
     // 0xa2ff80: r0 = AllocateClosure()
     //     0xa2ff80: bl              #0xe553e0  ; AllocateClosureStub
@@ -1029,7 +1029,7 @@ class _ActivityGoalViewState extends __ActivityGoalViewState&State&HomeIslandHid
     //     0xa2ff98: add             x1, x1, HEAP, lsl #32
     // 0xa2ff9c: ldur            x2, [fp, #-0x38]
     // 0xa2ffa0: r0 = _resetListenersForWeek()
-    //     0xa2ffa0: bl              #0x9581c8  ; [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_resetListenersForWeek
+    //     0xa2ffa0: bl              #0x9581c8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_resetListenersForWeek
     // 0xa2ffa4: r0 = Null
     //     0xa2ffa4: mov             x0, NULL
     // 0xa2ffa8: LeaveFrame
@@ -1057,7 +1057,7 @@ class _ActivityGoalViewState extends __ActivityGoalViewState&State&HomeIslandHid
     //     0xa2ffd4: cmp             SP, x16
     //     0xa2ffd8: b.ls            #0xa3004c
     // 0xa2ffdc: r0 = userHasActiveSubscription()
-    //     0xa2ffdc: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0xa2ffdc: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0xa2ffe0: tbnz            w0, #4, #0xa2fff4
     // 0xa2ffe4: r0 = true
     //     0xa2ffe4: add             x0, NULL, #0x20  ; true
@@ -1087,7 +1087,7 @@ class _ActivityGoalViewState extends __ActivityGoalViewState&State&HomeIslandHid
     // 0xa30024: r2 = -1
     //     0xa30024: mov             x2, #-1
     // 0xa30028: r0 = _dateByAddingCalendarMonths()
-    //     0xa30028: bl              #0xa30054  ; [package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/root/activity_goal_view.dart] _ActivityGoalViewState::_dateByAddingCalendarMonths
+    //     0xa30028: bl              #0xa30054  ; [package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/root/activity_goal_view.dart] _ActivityGoalViewState::_dateByAddingCalendarMonths
     // 0xa3002c: ldur            x1, [fp, #-8]
     // 0xa30030: mov             x2, x0
     // 0xa30034: r0 = isBefore()
@@ -1403,7 +1403,7 @@ class _ActivityGoalViewState extends __ActivityGoalViewState&State&HomeIslandHid
     // 0xa3038c: r0 = of()
     //     0xa3038c: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa30390: r1 = Function '<anonymous closure>':.
-    //     0xa30390: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3be40] AnonymousClosure: (0xa303f8), in [package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/root/activity_goal_view.dart] _ActivityGoalViewState::_openWeekPicker (0xa2fc2c)
+    //     0xa30390: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3be40] AnonymousClosure: (0xa303f8), in [package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/root/activity_goal_view.dart] _ActivityGoalViewState::_openWeekPicker (0xa2fc2c)
     //     0xa30394: ldr             x1, [x1, #0xe40]
     // 0xa30398: r2 = Null
     //     0xa30398: mov             x2, NULL

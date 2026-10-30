@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/phone/phone_country_codes.dart
+// lib: , url: package:kourtai/automatic/utility/phone/phone_country_codes.dart
 
 // class id: 1048736, size: 0x8
 class :: {

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_view.dart
 
 // class id: 1049031, size: 0x8
 class :: {
@@ -105,7 +105,7 @@ class _UserProfileViewState extends State<dynamic> {
     // 0x988b28: ldur            x6, [fp, #-0x30]
     // 0x988b2c: ldur            x7, [fp, #-0x38]
     // 0x988b30: r0 = UserProfileViewModel()
-    //     0x988b30: bl              #0x989284  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::UserProfileViewModel
+    //     0x988b30: bl              #0x989284  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::UserProfileViewModel
     // 0x988b34: ldur            x3, [fp, #-0x10]
     // 0x988b38: LoadField: r0 = r3->field_13
     //     0x988b38: ldur            w0, [x3, #0x13]
@@ -126,7 +126,7 @@ class _UserProfileViewState extends State<dynamic> {
     //     0x988b68: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x988b6c: mov             x2, x3
     // 0x988b70: r1 = Function '_onVm@1027060897':.
-    //     0x988b70: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2abe8] AnonymousClosure: (0x989424), in [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_view.dart] _UserProfileViewState::_onVm (0x98945c)
+    //     0x988b70: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2abe8] AnonymousClosure: (0x989424), in [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_view.dart] _UserProfileViewState::_onVm (0x98945c)
     //     0x988b74: ldr             x1, [x1, #0xbe8]
     // 0x988b78: r0 = AllocateClosure()
     //     0x988b78: bl              #0xe553e0  ; AllocateClosureStub
@@ -140,7 +140,7 @@ class _UserProfileViewState extends State<dynamic> {
     // 0x988b90: DecompressPointer r1
     //     0x988b90: add             x1, x1, HEAP, lsl #32
     // 0x988b94: r0 = start()
-    //     0x988b94: bl              #0x988bd4  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::start
+    //     0x988b94: bl              #0x988bd4  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::start
     // 0x988b98: r0 = Null
     //     0x988b98: mov             x0, NULL
     // 0x988b9c: LeaveFrame
@@ -182,7 +182,7 @@ class _UserProfileViewState extends State<dynamic> {
     //     0x98943c: cmp             SP, x16
     //     0x989440: b.ls            #0x989454
     // 0x989444: r0 = _onVm()
-    //     0x989444: bl              #0x98945c  ; [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_view.dart] _UserProfileViewState::_onVm
+    //     0x989444: bl              #0x98945c  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_view.dart] _UserProfileViewState::_onVm
     // 0x989448: LeaveFrame
     //     0x989448: mov             SP, fp
     //     0x98944c: ldp             fp, lr, [SP], #0x10
@@ -246,7 +246,7 @@ class _UserProfileViewState extends State<dynamic> {
     // 0x9894dc: ldur            x0, [fp, #-0x18]
     // 0x9894e0: ldur            x1, [fp, #-0x10]
     // 0x9894e4: r0 = clearMessageThreadTarget()
-    //     0x9894e4: bl              #0x989660  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::clearMessageThreadTarget
+    //     0x9894e4: bl              #0x989660  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::clearMessageThreadTarget
     // 0x9894e8: ldur            x0, [fp, #-0x18]
     // 0x9894ec: LoadField: r1 = r0->field_f
     //     0x9894ec: ldur            w1, [x0, #0xf]
@@ -260,7 +260,7 @@ class _UserProfileViewState extends State<dynamic> {
     //     0x989500: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0x989504: ldur            x2, [fp, #-0x20]
     // 0x989508: r1 = Function '<anonymous closure>':.
-    //     0x989508: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2abf0] AnonymousClosure: (0x98966c), in [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_view.dart] _UserProfileViewState::_onVm (0x98945c)
+    //     0x989508: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2abf0] AnonymousClosure: (0x98966c), in [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_view.dart] _UserProfileViewState::_onVm (0x98945c)
     //     0x98950c: ldr             x1, [x1, #0xbf0]
     // 0x989510: stur            x0, [fp, #-8]
     // 0x989514: r0 = AllocateClosure()
@@ -341,7 +341,7 @@ class _UserProfileViewState extends State<dynamic> {
     // 0x9895dc: DecompressPointer r1
     //     0x9895dc: add             x1, x1, HEAP, lsl #32
     // 0x9895e0: r0 = clearError()
-    //     0x9895e0: bl              #0x98962c  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::clearError
+    //     0x9895e0: bl              #0x98962c  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::clearError
     // 0x9895e4: r1 = Function '<anonymous closure>':.
     //     0x9895e4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2abf8] Function: [dart:ui] _NativeScene::_NativeScene._ (0xe4f314)
     //     0x9895e8: ldr             x1, [x1, #0xbf8]
@@ -446,12 +446,12 @@ class _UserProfileViewState extends State<dynamic> {
     //     0xaa5aa4: add             x3, x3, HEAP, lsl #32
     // 0xaa5aa8: mov             x1, x0
     // 0xaa5aac: stur            x3, [fp, #-8]
-    // 0xaa5ab0: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xaa5ab0: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xaa5ab0: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xaa5ab0: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xaa5ab4: ldur            x1, [fp, #-0x18]
     // 0xaa5ab8: stur            x0, [fp, #-0x18]
-    // 0xaa5abc: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xaa5abc: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xaa5abc: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xaa5abc: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xaa5ac0: stur            x0, [fp, #-0x20]
     // 0xaa5ac4: r0 = AppBar()
     //     0xaa5ac4: bl              #0xa14de0  ; AllocateAppBarStub -> AppBar (size=0x94)
@@ -485,7 +485,7 @@ class _UserProfileViewState extends State<dynamic> {
     // 0xaa5b14: ldur            x1, [fp, #-0x10]
     // 0xaa5b18: ldur            x2, [fp, #-8]
     // 0xaa5b1c: r0 = _buildBody()
-    //     0xaa5b1c: bl              #0xaa5b80  ; [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_view.dart] _UserProfileViewState::_buildBody
+    //     0xaa5b1c: bl              #0xaa5b80  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_view.dart] _UserProfileViewState::_buildBody
     // 0xaa5b20: stur            x0, [fp, #-8]
     // 0xaa5b24: r0 = Scaffold()
     //     0xaa5b24: bl              #0x9cbb08  ; AllocateScaffoldStub -> Scaffold (size=0x50)
@@ -612,7 +612,7 @@ class _UserProfileViewState extends State<dynamic> {
     //     0xaa5c54: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2aad8] "Profile unavailable"
     //     0xaa5c58: ldr             x1, [x1, #0xad8]
     // 0xaa5c5c: r0 = L()
-    //     0xaa5c5c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa5c5c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa5c60: mov             x2, x0
     // 0xaa5c64: ldur            x0, [fp, #-8]
     // 0xaa5c68: stur            x2, [fp, #-0x18]
@@ -622,8 +622,8 @@ class _UserProfileViewState extends State<dynamic> {
     //     0xaa5c70: add             x1, x1, HEAP, lsl #32
     // 0xaa5c74: cmp             w1, NULL
     // 0xaa5c78: b.eq            #0xaa5dbc
-    // 0xaa5c7c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xaa5c7c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xaa5c7c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xaa5c7c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xaa5c80: stur            x0, [fp, #-0x20]
     // 0xaa5c84: r0 = TextStyle()
     //     0xaa5c84: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -669,7 +669,7 @@ class _UserProfileViewState extends State<dynamic> {
     // 0xaa5cf0: ret
     //     0xaa5cf0: ret             
     // 0xaa5cf4: r0 = isLockedPrivateProfile()
-    //     0xaa5cf4: bl              #0xaa5e64  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::isLockedPrivateProfile
+    //     0xaa5cf4: bl              #0xaa5e64  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::isLockedPrivateProfile
     // 0xaa5cf8: tbz             w0, #4, #0xaa5d28
     // 0xaa5cfc: ldur            x1, [fp, #-8]
     // 0xaa5d00: ldur            x0, [fp, #-0x10]
@@ -684,7 +684,7 @@ class _UserProfileViewState extends State<dynamic> {
     //     0xaa5d14: add             x2, x2, HEAP, lsl #32
     // 0xaa5d18: mov             x1, x3
     // 0xaa5d1c: r0 = start()
-    //     0xaa5d1c: bl              #0x97ed0c  ; [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::start
+    //     0xaa5d1c: bl              #0x97ed0c  ; [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::start
     // 0xaa5d20: ldur            x0, [fp, #-0x18]
     // 0xaa5d24: b               #0xaa5d48
     // 0xaa5d28: ldur            x1, [fp, #-8]
@@ -697,13 +697,13 @@ class _UserProfileViewState extends State<dynamic> {
     // 0xaa5d3c: r4 = const [0, 0x1, 0, 0x1, null]
     //     0xaa5d3c: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0xaa5d40: r0 = stop()
-    //     0xaa5d40: bl              #0x97f128  ; [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::stop
+    //     0xaa5d40: bl              #0x97f128  ; [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::stop
     // 0xaa5d44: ldur            x0, [fp, #-0x18]
     // 0xaa5d48: ldur            x2, [fp, #-0x30]
     // 0xaa5d4c: ldur            x1, [fp, #-0x10]
     // 0xaa5d50: stur            x0, [fp, #-8]
     // 0xaa5d54: r0 = displayBallTag()
-    //     0xaa5d54: bl              #0xaa5dc0  ; [package:ballai/automatic/models/core/user/user_model.dart] ::displayBallTag
+    //     0xaa5d54: bl              #0xaa5dc0  ; [package:kourtai/automatic/models/core/user/user_model.dart] ::displayBallTag
     // 0xaa5d58: ldur            x2, [fp, #-0x30]
     // 0xaa5d5c: ArrayStore: r2[0] = r0  ; List_4
     //     0xaa5d5c: stur            w0, [x2, #0x17]
@@ -714,7 +714,7 @@ class _UserProfileViewState extends State<dynamic> {
     //     0xaa5d70: b.eq            #0xaa5d78
     //     0xaa5d74: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xaa5d78: r1 = Function '<anonymous closure>':.
-    //     0xaa5d78: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2aae0] AnonymousClosure: (0xaa5f38), in [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_view.dart] _UserProfileViewState::_buildBody (0xaa5b80)
+    //     0xaa5d78: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2aae0] AnonymousClosure: (0xaa5f38), in [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_view.dart] _UserProfileViewState::_buildBody (0xaa5b80)
     //     0xaa5d7c: ldr             x1, [x1, #0xae0]
     // 0xaa5d80: r0 = AllocateClosure()
     //     0xaa5d80: bl              #0xe553e0  ; AllocateClosureStub
@@ -771,7 +771,7 @@ class _UserProfileViewState extends State<dynamic> {
     //     0xaa5f74: add             x0, x0, HEAP, lsl #32
     // 0xaa5f78: stur            x0, [fp, #-8]
     // 0xaa5f7c: r0 = activityToolbarAvatarAbbreviation()
-    //     0xaa5f7c: bl              #0xa98fdc  ; [package:ballai/automatic/utility/user/user_avatar_text.dart] ::activityToolbarAvatarAbbreviation
+    //     0xaa5f7c: bl              #0xa98fdc  ; [package:kourtai/automatic/utility/user/user_avatar_text.dart] ::activityToolbarAvatarAbbreviation
     // 0xaa5f80: ldur            x2, [fp, #-0x10]
     // 0xaa5f84: LoadField: r0 = r2->field_f
     //     0xaa5f84: ldur            w0, [x2, #0xf]
@@ -850,7 +850,7 @@ class _UserProfileViewState extends State<dynamic> {
     //     0xaa6048: add             x7, x7, HEAP, lsl #32
     // 0xaa604c: stur            x7, [fp, #-0x18]
     // 0xaa6050: r0 = isCurrentUserProfile()
-    //     0xaa6050: bl              #0x989178  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::isCurrentUserProfile
+    //     0xaa6050: bl              #0x989178  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::isCurrentUserProfile
     // 0xaa6054: ldur            x2, [fp, #-0x10]
     // 0xaa6058: stur            x0, [fp, #-0x68]
     // 0xaa605c: LoadField: r1 = r2->field_f
@@ -892,7 +892,7 @@ class _UserProfileViewState extends State<dynamic> {
     // 0xaa60b0: mov             x1, x3
     // 0xaa60b4: stur            x8, [fp, #-0x40]
     // 0xaa60b8: r0 = isLockedPrivateProfile()
-    //     0xaa60b8: bl              #0xaa5e64  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::isLockedPrivateProfile
+    //     0xaa60b8: bl              #0xaa5e64  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::isLockedPrivateProfile
     // 0xaa60bc: ldur            x2, [fp, #-0x10]
     // 0xaa60c0: stur            x0, [fp, #-0x70]
     // 0xaa60c4: LoadField: r1 = r2->field_f
@@ -909,14 +909,14 @@ class _UserProfileViewState extends State<dynamic> {
     // 0xaa60dc: b.eq            #0xaa62a0
     // 0xaa60e0: mov             x1, x3
     // 0xaa60e4: r0 = isCurrentUserProfile()
-    //     0xaa60e4: bl              #0x989178  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::isCurrentUserProfile
+    //     0xaa60e4: bl              #0x989178  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::isCurrentUserProfile
     // 0xaa60e8: tbnz            w0, #4, #0xaa60f4
     // 0xaa60ec: r0 = Null
     //     0xaa60ec: mov             x0, NULL
     // 0xaa60f0: b               #0xaa6104
     // 0xaa60f4: ldur            x2, [fp, #-0x10]
     // 0xaa60f8: r1 = Function '<anonymous closure>':.
-    //     0xaa60f8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2aae8] AnonymousClosure: (0xaa6448), in [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_view.dart] _UserProfileViewState::_buildBody (0xaa5b80)
+    //     0xaa60f8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2aae8] AnonymousClosure: (0xaa6448), in [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_view.dart] _UserProfileViewState::_buildBody (0xaa5b80)
     //     0xaa60fc: ldr             x1, [x1, #0xae8]
     // 0xaa6100: r0 = AllocateClosure()
     //     0xaa6100: bl              #0xe553e0  ; AllocateClosureStub
@@ -936,11 +936,11 @@ class _UserProfileViewState extends State<dynamic> {
     // 0xaa6124: b.eq            #0xaa62ac
     // 0xaa6128: mov             x1, x3
     // 0xaa612c: r0 = showsMessageButton()
-    //     0xaa612c: bl              #0xaa62c4  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::showsMessageButton
+    //     0xaa612c: bl              #0xaa62c4  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::showsMessageButton
     // 0xaa6130: tbnz            w0, #4, #0xaa614c
     // 0xaa6134: ldur            x2, [fp, #-0x10]
     // 0xaa6138: r1 = Function '<anonymous closure>':.
-    //     0xaa6138: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2aaf0] AnonymousClosure: (0xaa632c), in [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_view.dart] _UserProfileViewState::_buildBody (0xaa5b80)
+    //     0xaa6138: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2aaf0] AnonymousClosure: (0xaa632c), in [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_view.dart] _UserProfileViewState::_buildBody (0xaa5b80)
     //     0xaa613c: ldr             x1, [x1, #0xaf0]
     // 0xaa6140: r0 = AllocateClosure()
     //     0xaa6140: bl              #0xe553e0  ; AllocateClosureStub
@@ -1111,7 +1111,7 @@ class _UserProfileViewState extends State<dynamic> {
     // 0xaa6360: cmp             w1, w16
     // 0xaa6364: b.eq            #0xaa6384
     // 0xaa6368: r0 = openMessageThread()
-    //     0xaa6368: bl              #0xaa6390  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::openMessageThread
+    //     0xaa6368: bl              #0xaa6390  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::openMessageThread
     // 0xaa636c: r0 = Null
     //     0xaa636c: mov             x0, NULL
     // 0xaa6370: LeaveFrame
@@ -1155,7 +1155,7 @@ class _UserProfileViewState extends State<dynamic> {
     // 0xaa647c: cmp             w1, w16
     // 0xaa6480: b.eq            #0xaa64a0
     // 0xaa6484: r0 = toggleFollow()
-    //     0xaa6484: bl              #0xaa64ac  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::toggleFollow
+    //     0xaa6484: bl              #0xaa64ac  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::toggleFollow
     // 0xaa6488: r0 = Null
     //     0xaa6488: mov             x0, NULL
     // 0xaa648c: LeaveFrame
@@ -1179,7 +1179,7 @@ class _UserProfileViewState extends State<dynamic> {
     //     0xb5c340: mov             fp, SP
     // 0xb5c344: ldr             x2, [fp, #0x10]
     // 0xb5c348: r1 = Function 'dispose':.
-    //     0xb5c348: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cb90] AnonymousClosure: (0xb5c360), in [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_view.dart] _UserProfileViewState::dispose (0xb63694)
+    //     0xb5c348: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cb90] AnonymousClosure: (0xb5c360), in [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_view.dart] _UserProfileViewState::dispose (0xb63694)
     //     0xb5c34c: ldr             x1, [x1, #0xb90]
     // 0xb5c350: r0 = AllocateClosure()
     //     0xb5c350: bl              #0xe553e0  ; AllocateClosureStub
@@ -1204,7 +1204,7 @@ class _UserProfileViewState extends State<dynamic> {
     //     0xb5c378: cmp             SP, x16
     //     0xb5c37c: b.ls            #0xb5c390
     // 0xb5c380: r0 = dispose()
-    //     0xb5c380: bl              #0xb63694  ; [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_view.dart] _UserProfileViewState::dispose
+    //     0xb5c380: bl              #0xb63694  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_view.dart] _UserProfileViewState::dispose
     // 0xb5c384: LeaveFrame
     //     0xb5c384: mov             SP, fp
     //     0xb5c388: ldp             fp, lr, [SP], #0x10
@@ -1239,7 +1239,7 @@ class _UserProfileViewState extends State<dynamic> {
     // 0xb636c8: mov             x2, x0
     // 0xb636cc: stur            x3, [fp, #-8]
     // 0xb636d0: r1 = Function '_onVm@1027060897':.
-    //     0xb636d0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2abe8] AnonymousClosure: (0x989424), in [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_view.dart] _UserProfileViewState::_onVm (0x98945c)
+    //     0xb636d0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2abe8] AnonymousClosure: (0x989424), in [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_view.dart] _UserProfileViewState::_onVm (0x98945c)
     //     0xb636d4: ldr             x1, [x1, #0xbe8]
     // 0xb636d8: r0 = AllocateClosure()
     //     0xb636d8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1253,14 +1253,14 @@ class _UserProfileViewState extends State<dynamic> {
     // 0xb636f0: DecompressPointer r1
     //     0xb636f0: add             x1, x1, HEAP, lsl #32
     // 0xb636f4: r0 = dispose()
-    //     0xb636f4: bl              #0x9be7d0  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::dispose
+    //     0xb636f4: bl              #0x9be7d0  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::dispose
     // 0xb636f8: ldur            x0, [fp, #-0x10]
     // 0xb636fc: ArrayLoad: r1 = r0[0]  ; List_4
     //     0xb636fc: ldur            w1, [x0, #0x17]
     // 0xb63700: DecompressPointer r1
     //     0xb63700: add             x1, x1, HEAP, lsl #32
     // 0xb63704: r0 = dispose()
-    //     0xb63704: bl              #0x9be778  ; [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::dispose
+    //     0xb63704: bl              #0x9be778  ; [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::dispose
     // 0xb63708: r0 = Null
     //     0xb63708: mov             x0, NULL
     // 0xb6370c: LeaveFrame
@@ -1310,7 +1310,7 @@ class UserProfileView extends StatefulWidget {
     // 0xb758b8: mov             x1, x0
     // 0xb758bc: stur            x0, [fp, #-0x10]
     // 0xb758c0: r0 = ProfileWorkoutHistoryNotifier()
-    //     0xb758c0: bl              #0xaa724c  ; [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::ProfileWorkoutHistoryNotifier
+    //     0xb758c0: bl              #0xaa724c  ; [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::ProfileWorkoutHistoryNotifier
     // 0xb758c4: ldur            x0, [fp, #-0x10]
     // 0xb758c8: ldur            x1, [fp, #-8]
     // 0xb758cc: ArrayStore: r1[0] = r0  ; List_4

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/follow/follow_model.dart
+// lib: , url: package:kourtai/automatic/models/core/follow/follow_model.dart
 
 // class id: 1048684, size: 0x8
 class :: {
@@ -263,7 +263,7 @@ class FollowModel extends Object {
     //     0x8fd8f4: bl              #0x5c96cc  ; IsType_String?_Stub
     // 0x8fd8f8: ldur            x1, [fp, #-0x10]
     // 0x8fd8fc: r0 = fromRaw()
-    //     0x8fd8fc: bl              #0x8fd940  ; [package:ballai/automatic/models/core/follow/follow_model.dart] FollowRelationshipStatus::fromRaw
+    //     0x8fd8fc: bl              #0x8fd940  ; [package:kourtai/automatic/models/core/follow/follow_model.dart] FollowRelationshipStatus::fromRaw
     // 0x8fd900: stur            x0, [fp, #-0x10]
     // 0x8fd904: r0 = FollowModel()
     //     0x8fd904: bl              #0x8fd934  ; AllocateFollowModelStub -> FollowModel (size=0x14)

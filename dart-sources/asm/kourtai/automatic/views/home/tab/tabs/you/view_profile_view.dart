@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/view_profile_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/view_profile_view.dart
 
 // class id: 1049040, size: 0x8
 class :: {
@@ -36,16 +36,16 @@ class ViewProfileView extends StatelessWidget {
     // 0xc1eeac: ldur            x1, [fp, #-0x10]
     // 0xc1eeb0: StoreField: r2->field_13 = r1
     //     0xc1eeb0: stur            w1, [x2, #0x13]
-    // 0xc1eeb4: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xc1eeb4: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xc1eeb4: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xc1eeb4: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xc1eeb8: ldur            x2, [fp, #-0x18]
     // 0xc1eebc: stur            x0, [fp, #-0x10]
     // 0xc1eec0: LoadField: r1 = r2->field_13
     //     0xc1eec0: ldur            w1, [x2, #0x13]
     // 0xc1eec4: DecompressPointer r1
     //     0xc1eec4: add             x1, x1, HEAP, lsl #32
-    // 0xc1eec8: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xc1eec8: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xc1eec8: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xc1eec8: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xc1eecc: mov             x2, x0
     // 0xc1eed0: ldur            x0, [fp, #-8]
     // 0xc1eed4: stur            x2, [fp, #-0x28]
@@ -56,13 +56,13 @@ class ViewProfileView extends StatelessWidget {
     // 0xc1eee0: mov             x1, x3
     // 0xc1eee4: stur            x3, [fp, #-0x20]
     // 0xc1eee8: r0 = firstName()
-    //     0xc1eee8: bl              #0x749b68  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::firstName
+    //     0xc1eee8: bl              #0x749b68  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::firstName
     // 0xc1eeec: LoadField: r1 = r0->field_7
     //     0xc1eeec: ldur            w1, [x0, #7]
     // 0xc1eef0: cbz             w1, #0xc1ef08
     // 0xc1eef4: ldur            x1, [fp, #-0x20]
     // 0xc1eef8: r0 = firstName()
-    //     0xc1eef8: bl              #0x749b68  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::firstName
+    //     0xc1eef8: bl              #0x749b68  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::firstName
     // 0xc1eefc: mov             x3, x0
     // 0xc1ef00: ldur            x0, [fp, #-0x20]
     // 0xc1ef04: b               #0xc1ef18
@@ -78,8 +78,8 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1ef20: ldur            w1, [x2, #0x13]
     // 0xc1ef24: DecompressPointer r1
     //     0xc1ef24: add             x1, x1, HEAP, lsl #32
-    // 0xc1ef28: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc1ef28: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc1ef28: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc1ef28: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc1ef2c: stur            x0, [fp, #-0x38]
     // 0xc1ef30: r0 = TextStyle()
     //     0xc1ef30: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -199,7 +199,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1f05c: stur            w0, [x3, #0xb]
     // 0xc1f060: ldur            x2, [fp, #-0x18]
     // 0xc1f064: r1 = Function '<anonymous closure>':.
-    //     0xc1f064: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b820] AnonymousClosure: (0xc207b4), in [package:ballai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::build (0xc1ee6c)
+    //     0xc1f064: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b820] AnonymousClosure: (0xc207b4), in [package:kourtai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::build (0xc1ee6c)
     //     0xc1f068: ldr             x1, [x1, #0x820]
     // 0xc1f06c: r0 = AllocateClosure()
     //     0xc1f06c: bl              #0xe553e0  ; AllocateClosureStub
@@ -316,7 +316,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1f178: stur            w0, [x2, #0xb]
     // 0xc1f17c: ldur            x1, [fp, #-8]
     // 0xc1f180: r0 = _hasBasicInfo()
-    //     0xc1f180: bl              #0xc20744  ; [package:ballai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_hasBasicInfo
+    //     0xc1f180: bl              #0xc20744  ; [package:kourtai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_hasBasicInfo
     // 0xc1f184: tbnz            w0, #4, #0xc1f49c
     // 0xc1f188: ldur            x4, [fp, #-0x18]
     // 0xc1f18c: ldur            x0, [fp, #-0x20]
@@ -329,7 +329,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1f19c: add             x3, PP, #0x2d, lsl #12  ; [pp+0x2d2a0] "Basic info"
     //     0xc1f1a0: ldr             x3, [x3, #0x2a0]
     // 0xc1f1a4: r0 = _sectionLabel()
-    //     0xc1f1a4: bl              #0xc206a8  ; [package:ballai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_sectionLabel
+    //     0xc1f1a4: bl              #0xc206a8  ; [package:kourtai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_sectionLabel
     // 0xc1f1a8: mov             x4, x0
     // 0xc1f1ac: ldur            x0, [fp, #-0x18]
     // 0xc1f1b0: stur            x4, [fp, #-0x48]
@@ -345,7 +345,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1f1cc: add             x3, PP, #0x3b, lsl #12  ; [pp+0x3b828] "Name"
     //     0xc1f1d0: ldr             x3, [x3, #0x828]
     // 0xc1f1d4: r0 = _row()
-    //     0xc1f1d4: bl              #0xc204d0  ; [package:ballai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_row
+    //     0xc1f1d4: bl              #0xc204d0  ; [package:kourtai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_row
     // 0xc1f1d8: r1 = Null
     //     0xc1f1d8: mov             x1, NULL
     // 0xc1f1dc: r2 = 2
@@ -385,7 +385,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1f234: add             x5, x5, HEAP, lsl #32
     // 0xc1f238: stur            x5, [fp, #-0x28]
     // 0xc1f23c: r0 = _ageFromBirthDate()
-    //     0xc1f23c: bl              #0xc202a4  ; [package:ballai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_ageFromBirthDate
+    //     0xc1f23c: bl              #0xc202a4  ; [package:kourtai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_ageFromBirthDate
     // 0xc1f240: mov             x2, x0
     // 0xc1f244: r0 = BoxInt64Instr(r2)
     //     0xc1f244: sbfiz           x0, x2, #1, #0x1f
@@ -403,7 +403,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1f26c: add             x3, PP, #0x3b, lsl #12  ; [pp+0x3b830] "Age"
     //     0xc1f270: ldr             x3, [x3, #0x830]
     // 0xc1f274: r0 = _row()
-    //     0xc1f274: bl              #0xc204d0  ; [package:ballai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_row
+    //     0xc1f274: bl              #0xc204d0  ; [package:kourtai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_row
     // 0xc1f278: mov             x2, x0
     // 0xc1f27c: ldur            x0, [fp, #-0x58]
     // 0xc1f280: stur            x2, [fp, #-0x28]
@@ -507,7 +507,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1f3a0: add             x3, PP, #0x3b, lsl #12  ; [pp+0x3b838] "Gender"
     //     0xc1f3a4: ldr             x3, [x3, #0x838]
     // 0xc1f3a8: r0 = _row()
-    //     0xc1f3a8: bl              #0xc204d0  ; [package:ballai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_row
+    //     0xc1f3a8: bl              #0xc204d0  ; [package:kourtai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_row
     // 0xc1f3ac: mov             x2, x0
     // 0xc1f3b0: ldur            x0, [fp, #-0x58]
     // 0xc1f3b4: stur            x2, [fp, #-0x28]
@@ -559,7 +559,7 @@ class ViewProfileView extends StatelessWidget {
     // 0xc1f440: ldur            x1, [fp, #-8]
     // 0xc1f444: ldur            x2, [fp, #-0x38]
     // 0xc1f448: r0 = _card()
-    //     0xc1f448: bl              #0xc1ff4c  ; [package:ballai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_card
+    //     0xc1f448: bl              #0xc1ff4c  ; [package:kourtai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_card
     // 0xc1f44c: r1 = Null
     //     0xc1f44c: mov             x1, NULL
     // 0xc1f450: r2 = 4
@@ -593,7 +593,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1f498: bl              #0x5c8034  ; [dart:core] _GrowableList::addAll
     // 0xc1f49c: ldur            x1, [fp, #-8]
     // 0xc1f4a0: r0 = _hasBasketballInfo()
-    //     0xc1f4a0: bl              #0xc1fe8c  ; [package:ballai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_hasBasketballInfo
+    //     0xc1f4a0: bl              #0xc1fe8c  ; [package:kourtai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_hasBasketballInfo
     // 0xc1f4a4: tbnz            w0, #4, #0xc1f7b4
     // 0xc1f4a8: ldur            x4, [fp, #-0x18]
     // 0xc1f4ac: ldur            x0, [fp, #-0x20]
@@ -606,7 +606,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1f4bc: add             x3, PP, #0x3b, lsl #12  ; [pp+0x3b840] "Basketball"
     //     0xc1f4c0: ldr             x3, [x3, #0x840]
     // 0xc1f4c4: r0 = _sectionLabel()
-    //     0xc1f4c4: bl              #0xc206a8  ; [package:ballai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_sectionLabel
+    //     0xc1f4c4: bl              #0xc206a8  ; [package:kourtai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_sectionLabel
     // 0xc1f4c8: mov             x3, x0
     // 0xc1f4cc: ldur            x0, [fp, #-0x18]
     // 0xc1f4d0: stur            x3, [fp, #-0x38]
@@ -640,7 +640,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1f518: add             x4, x4, HEAP, lsl #32
     // 0xc1f51c: stur            x4, [fp, #-0x48]
     // 0xc1f520: r0 = _shootingHandLabel()
-    //     0xc1f520: bl              #0xc1fdf8  ; [package:ballai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_shootingHandLabel
+    //     0xc1f520: bl              #0xc1fdf8  ; [package:kourtai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_shootingHandLabel
     // 0xc1f524: ldur            x1, [fp, #-8]
     // 0xc1f528: ldur            x2, [fp, #-0x48]
     // 0xc1f52c: mov             x5, x0
@@ -648,7 +648,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1f530: add             x3, PP, #0x3b, lsl #12  ; [pp+0x3b848] "Shooting hand"
     //     0xc1f534: ldr             x3, [x3, #0x848]
     // 0xc1f538: r0 = _row()
-    //     0xc1f538: bl              #0xc204d0  ; [package:ballai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_row
+    //     0xc1f538: bl              #0xc204d0  ; [package:kourtai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_row
     // 0xc1f53c: mov             x2, x0
     // 0xc1f540: ldur            x0, [fp, #-0x50]
     // 0xc1f544: stur            x2, [fp, #-0x48]
@@ -716,7 +716,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1f5f8: add             x3, PP, #0x2d, lsl #12  ; [pp+0x2d268] "Position"
     //     0xc1f5fc: ldr             x3, [x3, #0x268]
     // 0xc1f600: r0 = _row()
-    //     0xc1f600: bl              #0xc204d0  ; [package:ballai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_row
+    //     0xc1f600: bl              #0xc204d0  ; [package:kourtai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_row
     // 0xc1f604: mov             x2, x0
     // 0xc1f608: ldur            x0, [fp, #-0x50]
     // 0xc1f60c: stur            x2, [fp, #-0x48]
@@ -780,7 +780,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1f6b0: add             x3, PP, #0x3b, lsl #12  ; [pp+0x3b850] "Skill level"
     //     0xc1f6b4: ldr             x3, [x3, #0x850]
     // 0xc1f6b8: r0 = _row()
-    //     0xc1f6b8: bl              #0xc204d0  ; [package:ballai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_row
+    //     0xc1f6b8: bl              #0xc204d0  ; [package:kourtai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_row
     // 0xc1f6bc: mov             x2, x0
     // 0xc1f6c0: ldur            x0, [fp, #-0x50]
     // 0xc1f6c4: stur            x2, [fp, #-0x48]
@@ -832,7 +832,7 @@ class ViewProfileView extends StatelessWidget {
     // 0xc1f750: ldur            x1, [fp, #-8]
     // 0xc1f754: ldur            x2, [fp, #-0x28]
     // 0xc1f758: r0 = _card()
-    //     0xc1f758: bl              #0xc1ff4c  ; [package:ballai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_card
+    //     0xc1f758: bl              #0xc1ff4c  ; [package:kourtai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_card
     // 0xc1f75c: r1 = Null
     //     0xc1f75c: mov             x1, NULL
     // 0xc1f760: r2 = 6
@@ -882,7 +882,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1f7d0: add             x2, x2, HEAP, lsl #32
     // 0xc1f7d4: stur            x2, [fp, #-0x20]
     // 0xc1f7d8: r0 = _formatJoinedDate()
-    //     0xc1f7d8: bl              #0xc1f910  ; [package:ballai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_formatJoinedDate
+    //     0xc1f7d8: bl              #0xc1f910  ; [package:kourtai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_formatJoinedDate
     // 0xc1f7dc: ldur            x1, [fp, #-8]
     // 0xc1f7e0: ldur            x2, [fp, #-0x20]
     // 0xc1f7e4: mov             x5, x0
@@ -890,7 +890,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1f7e8: add             x3, PP, #0x3b, lsl #12  ; [pp+0x3b858] "Joined at"
     //     0xc1f7ec: ldr             x3, [x3, #0x858]
     // 0xc1f7f0: r0 = _row()
-    //     0xc1f7f0: bl              #0xc204d0  ; [package:ballai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_row
+    //     0xc1f7f0: bl              #0xc204d0  ; [package:kourtai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_row
     // 0xc1f7f4: r1 = Null
     //     0xc1f7f4: mov             x1, NULL
     // 0xc1f7f8: r2 = 2
@@ -919,7 +919,7 @@ class ViewProfileView extends StatelessWidget {
     // 0xc1f834: ldur            x1, [fp, #-8]
     // 0xc1f838: ldur            x2, [fp, #-0x20]
     // 0xc1f83c: r0 = _card()
-    //     0xc1f83c: bl              #0xc1ff4c  ; [package:ballai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_card
+    //     0xc1f83c: bl              #0xc1ff4c  ; [package:kourtai/automatic/views/home/tab/tabs/you/view_profile_view.dart] ViewProfileView::_card
     // 0xc1f840: r1 = Null
     //     0xc1f840: mov             x1, NULL
     // 0xc1f844: r2 = 4
@@ -1021,43 +1021,43 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1f930: add             x1, PP, #0x37, lsl #12  ; [pp+0x375e8] "Mon"
     //     0xc1f934: ldr             x1, [x1, #0x5e8]
     // 0xc1f938: r0 = L()
-    //     0xc1f938: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1f938: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1f93c: r1 = "Tue"
     //     0xc1f93c: add             x1, PP, #0x37, lsl #12  ; [pp+0x375f0] "Tue"
     //     0xc1f940: ldr             x1, [x1, #0x5f0]
     // 0xc1f944: stur            x0, [fp, #-0x10]
     // 0xc1f948: r0 = L()
-    //     0xc1f948: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1f948: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1f94c: r1 = "Wed"
     //     0xc1f94c: add             x1, PP, #0x37, lsl #12  ; [pp+0x375f8] "Wed"
     //     0xc1f950: ldr             x1, [x1, #0x5f8]
     // 0xc1f954: stur            x0, [fp, #-0x18]
     // 0xc1f958: r0 = L()
-    //     0xc1f958: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1f958: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1f95c: r1 = "Thu"
     //     0xc1f95c: add             x1, PP, #0x37, lsl #12  ; [pp+0x37600] "Thu"
     //     0xc1f960: ldr             x1, [x1, #0x600]
     // 0xc1f964: stur            x0, [fp, #-0x20]
     // 0xc1f968: r0 = L()
-    //     0xc1f968: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1f968: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1f96c: r1 = "Fri"
     //     0xc1f96c: add             x1, PP, #0x37, lsl #12  ; [pp+0x37608] "Fri"
     //     0xc1f970: ldr             x1, [x1, #0x608]
     // 0xc1f974: stur            x0, [fp, #-0x28]
     // 0xc1f978: r0 = L()
-    //     0xc1f978: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1f978: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1f97c: r1 = "Sat"
     //     0xc1f97c: add             x1, PP, #0x37, lsl #12  ; [pp+0x37610] "Sat"
     //     0xc1f980: ldr             x1, [x1, #0x610]
     // 0xc1f984: stur            x0, [fp, #-0x30]
     // 0xc1f988: r0 = L()
-    //     0xc1f988: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1f988: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1f98c: r1 = "Sun"
     //     0xc1f98c: add             x1, PP, #0x37, lsl #12  ; [pp+0x37618] "Sun"
     //     0xc1f990: ldr             x1, [x1, #0x618]
     // 0xc1f994: stur            x0, [fp, #-0x38]
     // 0xc1f998: r0 = L()
-    //     0xc1f998: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1f998: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1f99c: r1 = Null
     //     0xc1f99c: mov             x1, NULL
     // 0xc1f9a0: r2 = 14
@@ -1092,7 +1092,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1f9ec: add             x1, PP, #0x27, lsl #12  ; [pp+0x27338] "Jan"
     //     0xc1f9f0: ldr             x1, [x1, #0x338]
     // 0xc1f9f4: r0 = L()
-    //     0xc1f9f4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1f9f4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1f9f8: r1 = <String>
     //     0xc1f9f8: ldr             x1, [PP, #0x850]  ; [pp+0x850] TypeArguments: <String>
     // 0xc1f9fc: r2 = 24
@@ -1109,7 +1109,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1fa18: add             x1, PP, #0x27, lsl #12  ; [pp+0x27340] "Feb"
     //     0xc1fa1c: ldr             x1, [x1, #0x340]
     // 0xc1fa20: r0 = L()
-    //     0xc1fa20: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1fa20: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1fa24: ldur            x1, [fp, #-0x18]
     // 0xc1fa28: ArrayStore: r1[1] = r0  ; List_4
     //     0xc1fa28: add             x25, x1, #0x13
@@ -1125,7 +1125,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1fa4c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27348] "Mar"
     //     0xc1fa50: ldr             x1, [x1, #0x348]
     // 0xc1fa54: r0 = L()
-    //     0xc1fa54: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1fa54: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1fa58: ldur            x1, [fp, #-0x18]
     // 0xc1fa5c: ArrayStore: r1[2] = r0  ; List_4
     //     0xc1fa5c: add             x25, x1, #0x17
@@ -1141,7 +1141,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1fa80: add             x1, PP, #0x27, lsl #12  ; [pp+0x27350] "Apr"
     //     0xc1fa84: ldr             x1, [x1, #0x350]
     // 0xc1fa88: r0 = L()
-    //     0xc1fa88: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1fa88: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1fa8c: ldur            x1, [fp, #-0x18]
     // 0xc1fa90: ArrayStore: r1[3] = r0  ; List_4
     //     0xc1fa90: add             x25, x1, #0x1b
@@ -1157,7 +1157,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1fab4: add             x1, PP, #0x27, lsl #12  ; [pp+0x27358] "May"
     //     0xc1fab8: ldr             x1, [x1, #0x358]
     // 0xc1fabc: r0 = L()
-    //     0xc1fabc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1fabc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1fac0: ldur            x1, [fp, #-0x18]
     // 0xc1fac4: ArrayStore: r1[4] = r0  ; List_4
     //     0xc1fac4: add             x25, x1, #0x1f
@@ -1173,7 +1173,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1fae8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27360] "Jun"
     //     0xc1faec: ldr             x1, [x1, #0x360]
     // 0xc1faf0: r0 = L()
-    //     0xc1faf0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1faf0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1faf4: ldur            x1, [fp, #-0x18]
     // 0xc1faf8: ArrayStore: r1[5] = r0  ; List_4
     //     0xc1faf8: add             x25, x1, #0x23
@@ -1189,7 +1189,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1fb1c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27368] "Jul"
     //     0xc1fb20: ldr             x1, [x1, #0x368]
     // 0xc1fb24: r0 = L()
-    //     0xc1fb24: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1fb24: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1fb28: ldur            x1, [fp, #-0x18]
     // 0xc1fb2c: ArrayStore: r1[6] = r0  ; List_4
     //     0xc1fb2c: add             x25, x1, #0x27
@@ -1205,7 +1205,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1fb50: add             x1, PP, #0x27, lsl #12  ; [pp+0x27370] "Aug"
     //     0xc1fb54: ldr             x1, [x1, #0x370]
     // 0xc1fb58: r0 = L()
-    //     0xc1fb58: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1fb58: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1fb5c: ldur            x1, [fp, #-0x18]
     // 0xc1fb60: ArrayStore: r1[7] = r0  ; List_4
     //     0xc1fb60: add             x25, x1, #0x2b
@@ -1221,7 +1221,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1fb84: add             x1, PP, #0x27, lsl #12  ; [pp+0x27378] "Sep"
     //     0xc1fb88: ldr             x1, [x1, #0x378]
     // 0xc1fb8c: r0 = L()
-    //     0xc1fb8c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1fb8c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1fb90: ldur            x1, [fp, #-0x18]
     // 0xc1fb94: ArrayStore: r1[8] = r0  ; List_4
     //     0xc1fb94: add             x25, x1, #0x2f
@@ -1237,7 +1237,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1fbb8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27380] "Oct"
     //     0xc1fbbc: ldr             x1, [x1, #0x380]
     // 0xc1fbc0: r0 = L()
-    //     0xc1fbc0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1fbc0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1fbc4: ldur            x1, [fp, #-0x18]
     // 0xc1fbc8: ArrayStore: r1[9] = r0  ; List_4
     //     0xc1fbc8: add             x25, x1, #0x33
@@ -1253,7 +1253,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1fbec: add             x1, PP, #0x27, lsl #12  ; [pp+0x27388] "Nov"
     //     0xc1fbf0: ldr             x1, [x1, #0x388]
     // 0xc1fbf4: r0 = L()
-    //     0xc1fbf4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1fbf4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1fbf8: ldur            x1, [fp, #-0x18]
     // 0xc1fbfc: ArrayStore: r1[10] = r0  ; List_4
     //     0xc1fbfc: add             x25, x1, #0x37
@@ -1269,7 +1269,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1fc20: add             x1, PP, #0x27, lsl #12  ; [pp+0x27390] "Dec"
     //     0xc1fc24: ldr             x1, [x1, #0x390]
     // 0xc1fc28: r0 = L()
-    //     0xc1fc28: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1fc28: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1fc2c: ldur            x1, [fp, #-0x18]
     // 0xc1fc30: ArrayStore: r1[11] = r0  ; List_4
     //     0xc1fc30: add             x25, x1, #0x3b
@@ -1447,7 +1447,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1fe2c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a900] "Right"
     //     0xc1fe30: ldr             x1, [x1, #0x900]
     // 0xc1fe34: r0 = L()
-    //     0xc1fe34: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1fe34: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1fe38: LeaveFrame
     //     0xc1fe38: mov             SP, fp
     //     0xc1fe3c: ldp             fp, lr, [SP], #0x10
@@ -1465,7 +1465,7 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1fe5c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a8f0] "Left"
     //     0xc1fe60: ldr             x1, [x1, #0x8f0]
     // 0xc1fe64: r0 = L()
-    //     0xc1fe64: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1fe64: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1fe68: LeaveFrame
     //     0xc1fe68: mov             SP, fp
     //     0xc1fe6c: ldp             fp, lr, [SP], #0x10
@@ -1571,8 +1571,8 @@ class ViewProfileView extends StatelessWidget {
     //     0xc1ff68: cmp             SP, x16
     //     0xc1ff6c: b.ls            #0xc2028c
     // 0xc1ff70: mov             x1, x0
-    // 0xc1ff74: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xc1ff74: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xc1ff74: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xc1ff74: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xc1ff78: stur            x0, [fp, #-0x18]
     // 0xc1ff7c: r0 = Radius()
     //     0xc1ff7c: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -2076,8 +2076,8 @@ class ViewProfileView extends StatelessWidget {
     //     0xc204f0: cmp             SP, x16
     //     0xc204f4: b.ls            #0xc206a0
     // 0xc204f8: mov             x1, x0
-    // 0xc204fc: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc204fc: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc204fc: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc204fc: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc20500: stur            x0, [fp, #-0x20]
     // 0xc20504: r0 = TextStyle()
     //     0xc20504: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2106,8 +2106,8 @@ class ViewProfileView extends StatelessWidget {
     // 0xc20544: StoreField: r2->field_13 = r0
     //     0xc20544: stur            w0, [x2, #0x13]
     // 0xc20548: ldur            x1, [fp, #-8]
-    // 0xc2054c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc2054c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc2054c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc2054c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc20550: stur            x0, [fp, #-8]
     // 0xc20554: r0 = TextStyle()
     //     0xc20554: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2262,8 +2262,8 @@ class ViewProfileView extends StatelessWidget {
     //     0xc206c0: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xc206c4: cmp             SP, x16
     //     0xc206c8: b.ls            #0xc2073c
-    // 0xc206cc: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc206cc: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc206cc: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc206cc: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc206d0: stur            x0, [fp, #-0x10]
     // 0xc206d4: r0 = TextStyle()
     //     0xc206d4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2389,7 +2389,7 @@ class ViewProfileView extends StatelessWidget {
     // 0xc207f4: r4 = const [0, 0x3, 0, 0x3, null]
     //     0xc207f4: ldr             x4, [PP, #0x8a0]  ; [pp+0x8a0] List(5) [0, 0x3, 0, 0x3, Null]
     // 0xc207f8: r0 = present()
-    //     0xc207f8: bl              #0xa8d3e8  ; [package:ballai/automatic/views/home/tab/tabs/you/components/profile_picture_sheet.dart] ProfilePictureSheet::present
+    //     0xc207f8: bl              #0xa8d3e8  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/profile_picture_sheet.dart] ProfilePictureSheet::present
     // 0xc207fc: r0 = Null
     //     0xc207fc: mov             x0, NULL
     // 0xc20800: LeaveFrame

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/misc/team_pro_paywall_view.dart
+// lib: , url: package:kourtai/automatic/views/misc/team_pro_paywall_view.dart
 
 // class id: 1049054, size: 0x8
 class :: {
@@ -60,8 +60,8 @@ class _PaywallFeatureRow extends StatelessWidget {
     //     0xc2724c: add             x3, x3, HEAP, lsl #32
     // 0xc27250: ldur            x1, [fp, #-0x20]
     // 0xc27254: stur            x3, [fp, #-8]
-    // 0xc27258: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc27258: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc27258: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc27258: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc2725c: stur            x0, [fp, #-0x10]
     // 0xc27260: r0 = TextStyle()
     //     0xc27260: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -101,8 +101,8 @@ class _PaywallFeatureRow extends StatelessWidget {
     //     0xc272b8: add             x3, x3, HEAP, lsl #32
     // 0xc272bc: ldur            x1, [fp, #-0x20]
     // 0xc272c0: stur            x3, [fp, #-8]
-    // 0xc272c4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc272c4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc272c4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc272c4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc272c8: stur            x0, [fp, #-0x18]
     // 0xc272cc: r0 = TextStyle()
     //     0xc272cc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -331,31 +331,31 @@ class TeamProPaywallView extends StatelessWidget {
     //     0xc26648: stur            w2, [x0, #0xf]
     // 0xc2664c: ldur            x1, [fp, #-8]
     // 0xc26650: r0 = _buildScrollContent()
-    //     0xc26650: bl              #0xc26820  ; [package:ballai/automatic/views/misc/team_pro_paywall_view.dart] TeamProPaywallView::_buildScrollContent
+    //     0xc26650: bl              #0xc26820  ; [package:kourtai/automatic/views/misc/team_pro_paywall_view.dart] TeamProPaywallView::_buildScrollContent
     // 0xc26654: ldur            x2, [fp, #-0x18]
     // 0xc26658: stur            x0, [fp, #-0x10]
     // 0xc2665c: LoadField: r1 = r2->field_f
     //     0xc2665c: ldur            w1, [x2, #0xf]
     // 0xc26660: DecompressPointer r1
     //     0xc26660: add             x1, x1, HEAP, lsl #32
-    // 0xc26664: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xc26664: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xc26664: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xc26664: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xc26668: ldur            x2, [fp, #-0x18]
     // 0xc2666c: stur            x0, [fp, #-0x20]
     // 0xc26670: LoadField: r1 = r2->field_f
     //     0xc26670: ldur            w1, [x2, #0xf]
     // 0xc26674: DecompressPointer r1
     //     0xc26674: add             x1, x1, HEAP, lsl #32
-    // 0xc26678: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xc26678: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xc26678: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xc26678: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xc2667c: ldur            x2, [fp, #-0x18]
     // 0xc26680: stur            x0, [fp, #-0x28]
     // 0xc26684: LoadField: r1 = r2->field_f
     //     0xc26684: ldur            w1, [x2, #0xf]
     // 0xc26688: DecompressPointer r1
     //     0xc26688: add             x1, x1, HEAP, lsl #32
-    // 0xc2668c: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc2668c: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc2668c: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc2668c: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc26690: stur            x0, [fp, #-0x30]
     // 0xc26694: r0 = Icon()
     //     0xc26694: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -373,10 +373,10 @@ class TeamProPaywallView extends StatelessWidget {
     //     0xc266b4: add             x1, PP, #0x20, lsl #12  ; [pp+0x206c0] "Close"
     //     0xc266b8: ldr             x1, [x1, #0x6c0]
     // 0xc266bc: r0 = L()
-    //     0xc266bc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc266bc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc266c0: ldur            x2, [fp, #-0x18]
     // 0xc266c4: r1 = Function '<anonymous closure>':.
-    //     0xc266c4: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3be58] AnonymousClosure: (0x953eb0), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
+    //     0xc266c4: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3be58] AnonymousClosure: (0x953eb0), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
     //     0xc266c8: ldr             x1, [x1, #0xe58]
     // 0xc266cc: stur            x0, [fp, #-0x30]
     // 0xc266d0: r0 = AllocateClosure()
@@ -416,8 +416,8 @@ class TeamProPaywallView extends StatelessWidget {
     // 0xc26728: DecompressPointer r4
     //     0xc26728: add             x4, x4, HEAP, lsl #32
     // 0xc2672c: mov             x1, x4
-    // 0xc26730: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc26730: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc26730: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc26730: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc26734: stur            x0, [fp, #-8]
     // 0xc26738: r0 = TextStyle()
     //     0xc26738: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -538,8 +538,8 @@ class TeamProPaywallView extends StatelessWidget {
     // 0xc26860: ldur            x1, [fp, #-0x10]
     // 0xc26864: StoreField: r2->field_13 = r1
     //     0xc26864: stur            w1, [x2, #0x13]
-    // 0xc26868: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc26868: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc26868: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc26868: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc2686c: stur            x0, [fp, #-0x10]
     // 0xc26870: r0 = Radius()
     //     0xc26870: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -579,7 +579,7 @@ class TeamProPaywallView extends StatelessWidget {
     // 0xc268c8: StoreField: r1->field_23 = r2
     //     0xc268c8: stur            w2, [x1, #0x23]
     // 0xc268cc: r0 = paywallHeroTitle()
-    //     0xc268cc: bl              #0xbfddc4  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsell::paywallHeroTitle
+    //     0xc268cc: bl              #0xbfddc4  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsell::paywallHeroTitle
     // 0xc268d0: stur            x0, [fp, #-0x28]
     // 0xc268d4: r0 = Text()
     //     0xc268d4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -598,7 +598,7 @@ class TeamProPaywallView extends StatelessWidget {
     // 0xc268f8: StoreField: r1->field_1b = r0
     //     0xc268f8: stur            w0, [x1, #0x1b]
     // 0xc268fc: r0 = paywallHeroSocialProof()
-    //     0xc268fc: bl              #0xbfdd90  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsell::paywallHeroSocialProof
+    //     0xc268fc: bl              #0xbfdd90  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsell::paywallHeroSocialProof
     // 0xc26900: stur            x0, [fp, #-0x28]
     // 0xc26904: r0 = Text()
     //     0xc26904: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -780,7 +780,7 @@ class TeamProPaywallView extends StatelessWidget {
     //     0xc26abc: bl              #0x5c7588  ; [dart:core] _GrowableList::_GrowableList
     // 0xc26ac0: stur            x0, [fp, #-0x20]
     // 0xc26ac4: r0 = paywallHighlightLines()
-    //     0xc26ac4: bl              #0xbfddf8  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsell::paywallHighlightLines
+    //     0xc26ac4: bl              #0xbfddf8  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsell::paywallHighlightLines
     // 0xc26ac8: stur            x0, [fp, #-0x38]
     // 0xc26acc: LoadField: r1 = r0->field_b
     //     0xc26acc: ldur            w1, [x0, #0xb]
@@ -963,7 +963,7 @@ class TeamProPaywallView extends StatelessWidget {
     // 0xc26ca0: ldur            x1, [fp, #-8]
     // 0xc26ca4: stur            x0, [fp, #-0x10]
     // 0xc26ca8: r0 = _primaryButtonTitle()
-    //     0xc26ca8: bl              #0xc26f44  ; [package:ballai/automatic/views/misc/team_pro_paywall_view.dart] TeamProPaywallView::_primaryButtonTitle
+    //     0xc26ca8: bl              #0xc26f44  ; [package:kourtai/automatic/views/misc/team_pro_paywall_view.dart] TeamProPaywallView::_primaryButtonTitle
     // 0xc26cac: stur            x0, [fp, #-0x30]
     // 0xc26cb0: r0 = Text()
     //     0xc26cb0: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -988,7 +988,7 @@ class TeamProPaywallView extends StatelessWidget {
     //     0xc26ce4: stur            w0, [x3, #0x3b]
     // 0xc26ce8: ldur            x2, [fp, #-0x18]
     // 0xc26cec: r1 = Function '<anonymous closure>':.
-    //     0xc26cec: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3be90] AnonymousClosure: (0xc26f90), in [package:ballai/automatic/views/misc/team_pro_paywall_view.dart] TeamProPaywallView::_buildScrollContent (0xc26820)
+    //     0xc26cec: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3be90] AnonymousClosure: (0xc26f90), in [package:kourtai/automatic/views/misc/team_pro_paywall_view.dart] TeamProPaywallView::_buildScrollContent (0xc26820)
     //     0xc26cf0: ldr             x1, [x1, #0xe90]
     // 0xc26cf4: r0 = AllocateClosure()
     //     0xc26cf4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1033,8 +1033,8 @@ class TeamProPaywallView extends StatelessWidget {
     //     0xc26d54: mov             x2, #4
     // 0xc26d58: r0 = AllocateArray()
     //     0xc26d58: bl              #0xe560ac  ; AllocateArrayStub
-    // 0xc26d5c: r16 = "Ball AI Teams Pro for "
-    //     0xc26d5c: add             x16, PP, #0x3b, lsl #12  ; [pp+0x3be98] "Ball AI Teams Pro for "
+    // 0xc26d5c: r16 = "Kourt AI Teams Pro for "
+    //     0xc26d5c: add             x16, PP, #0x3b, lsl #12  ; [pp+0x3be98] "Kourt AI Teams Pro for "
     //     0xc26d60: ldr             x16, [x16, #0xe98]
     // 0xc26d64: StoreField: r0->field_f = r16
     //     0xc26d64: stur            w16, [x0, #0xf]
@@ -1055,8 +1055,8 @@ class TeamProPaywallView extends StatelessWidget {
     //     0xc26d8c: ldur            w1, [x0, #0x13]
     // 0xc26d90: DecompressPointer r1
     //     0xc26d90: add             x1, x1, HEAP, lsl #32
-    // 0xc26d94: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc26d94: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc26d94: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc26d94: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc26d98: stur            x0, [fp, #-0x18]
     // 0xc26d9c: r0 = TextStyle()
     //     0xc26d9c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1245,10 +1245,10 @@ class TeamProPaywallView extends StatelessWidget {
     //     0xc26f5c: add             x0, x0, HEAP, lsl #32
     // 0xc26f60: tbnz            w0, #4, #0xc26f6c
     // 0xc26f64: r0 = coachCta()
-    //     0xc26f64: bl              #0xbfdd5c  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsell::coachCta
+    //     0xc26f64: bl              #0xbfdd5c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsell::coachCta
     // 0xc26f68: b               #0xc26f70
     // 0xc26f6c: r0 = playerCta()
-    //     0xc26f6c: bl              #0xbfdd28  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsell::playerCta
+    //     0xc26f6c: bl              #0xbfdd28  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsell::playerCta
     // 0xc26f70: LeaveFrame
     //     0xc26f70: mov             SP, fp
     //     0xc26f74: ldp             fp, lr, [SP], #0x10
@@ -1282,7 +1282,7 @@ class TeamProPaywallView extends StatelessWidget {
     //     0xc26fbc: add             x2, x2, HEAP, lsl #32
     // 0xc26fc0: mov             x1, x0
     // 0xc26fc4: r0 = _handlePrimaryAction()
-    //     0xc26fc4: bl              #0xc26fdc  ; [package:ballai/automatic/views/misc/team_pro_paywall_view.dart] TeamProPaywallView::_handlePrimaryAction
+    //     0xc26fc4: bl              #0xc26fdc  ; [package:kourtai/automatic/views/misc/team_pro_paywall_view.dart] TeamProPaywallView::_handlePrimaryAction
     // 0xc26fc8: LeaveFrame
     //     0xc26fc8: mov             SP, fp
     //     0xc26fcc: ldp             fp, lr, [SP], #0x10
@@ -1321,7 +1321,7 @@ class TeamProPaywallView extends StatelessWidget {
     // 0xc27020: DecompressPointer r1
     //     0xc27020: add             x1, x1, HEAP, lsl #32
     // 0xc27024: tbnz            w1, #4, #0xc270fc
-    // 0xc27028: r0 = InitLateStaticField(0xf64) // [package:ballai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsell::demoUrl
+    // 0xc27028: r0 = InitLateStaticField(0xf64) // [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsell::demoUrl
     //     0xc27028: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xc2702c: ldr             x0, [x0, #0x1ec8]
     //     0xc27030: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1363,7 +1363,7 @@ class TeamProPaywallView extends StatelessWidget {
     //     0xc2709c: ldr             x1, [x1, #0xeb0]
     // 0xc270a0: stur            x0, [fp, #-0x20]
     // 0xc270a4: r0 = L()
-    //     0xc270a4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc270a4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc270a8: stur            x0, [fp, #-0x28]
     // 0xc270ac: r0 = Text()
     //     0xc270ac: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1408,7 +1408,7 @@ class TeamProPaywallView extends StatelessWidget {
     // 0xc27114: DecompressPointer r1
     //     0xc27114: add             x1, x1, HEAP, lsl #32
     // 0xc27118: r0 = contactCoachMailtoUrl()
-    //     0xc27118: bl              #0xbfe2a4  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsell::contactCoachMailtoUrl
+    //     0xc27118: bl              #0xbfe2a4  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsell::contactCoachMailtoUrl
     // 0xc2711c: r16 = Instance_LaunchMode
     //     0xc2711c: add             x16, PP, #0x21, lsl #12  ; [pp+0x21000] Obj!LaunchMode@d2fba1
     //     0xc27120: ldr             x16, [x16]
@@ -1441,7 +1441,7 @@ class TeamProPaywallView extends StatelessWidget {
     //     0xc2716c: ldr             x1, [x1, #0xeb8]
     // 0xc27170: stur            x0, [fp, #-0x10]
     // 0xc27174: r0 = L()
-    //     0xc27174: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc27174: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc27178: stur            x0, [fp, #-0x18]
     // 0xc2717c: r0 = Text()
     //     0xc2717c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)

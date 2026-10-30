@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart
 
 // class id: 1048867, size: 0x8
 class :: {
@@ -59,7 +59,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     // 0x94f9a4: mov             x2, x0
     // 0x94f9a8: stur            x3, [fp, #-0x10]
     // 0x94f9ac: r1 = Function '_refresh@1076030065':.
-    //     0x94f9ac: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c618] AnonymousClosure: (0x94fa2c), in [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_refresh (0x94fa64)
+    //     0x94f9ac: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c618] AnonymousClosure: (0x94fa2c), in [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_refresh (0x94fa64)
     //     0x94f9b0: ldr             x1, [x1, #0x618]
     // 0x94f9b4: r0 = AllocateClosure()
     //     0x94f9b4: bl              #0xe553e0  ; AllocateClosureStub
@@ -112,7 +112,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0x94fa44: cmp             SP, x16
     //     0x94fa48: b.ls            #0x94fa5c
     // 0x94fa4c: r0 = _refresh()
-    //     0x94fa4c: bl              #0x94fa64  ; [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_refresh
+    //     0x94fa4c: bl              #0x94fa64  ; [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_refresh
     // 0x94fa50: LeaveFrame
     //     0x94fa50: mov             SP, fp
     //     0x94fa54: ldp             fp, lr, [SP], #0x10
@@ -214,8 +214,8 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa10d10: ldur            w1, [x2, #0x13]
     // 0xa10d14: DecompressPointer r1
     //     0xa10d14: add             x1, x1, HEAP, lsl #32
-    // 0xa10d18: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xa10d18: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xa10d18: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xa10d18: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xa10d1c: stur            x0, [fp, #-0x20]
     // 0xa10d20: r0 = BoxDecoration()
     //     0xa10d20: bl              #0x5ef748  ; AllocateBoxDecorationStub -> BoxDecoration (size=0x28)
@@ -259,8 +259,8 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa10d80: ldur            w1, [x2, #0x13]
     // 0xa10d84: DecompressPointer r1
     //     0xa10d84: add             x1, x1, HEAP, lsl #32
-    // 0xa10d88: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa10d88: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa10d88: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa10d88: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa10d8c: r16 = 0.450000
     //     0xa10d8c: add             x16, PP, #0x20, lsl #12  ; [pp+0x20e20] 0.45
     //     0xa10d90: ldr             x16, [x16, #0xe20]
@@ -361,8 +361,8 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa10e8c: ldur            w1, [x0, #0x13]
     // 0xa10e90: DecompressPointer r1
     //     0xa10e90: add             x1, x1, HEAP, lsl #32
-    // 0xa10e94: r0 = BallAiThemeContext.ballAiBackButtonFill()
-    //     0xa10e94: bl              #0x9d6208  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiBackButtonFill
+    // 0xa10e94: r0 = KourtAiThemeContext.kourtAiBackButtonFill()
+    //     0xa10e94: bl              #0x9d6208  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiBackButtonFill
     // 0xa10e98: r16 = Instance_Size
     //     0xa10e98: add             x16, PP, #0x24, lsl #12  ; [pp+0x24dd8] Obj!Size@d2e1b1
     //     0xa10e9c: ldr             x16, [x16, #0xdd8]
@@ -374,7 +374,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa10eac: bl              #0xa0ee74  ; [package:flutter/src/material/icon_button.dart] IconButton::styleFrom
     // 0xa10eb0: ldur            x2, [fp, #-0x18]
     // 0xa10eb4: r1 = Function '<anonymous closure>':.
-    //     0xa10eb4: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c578] AnonymousClosure: (0xa10300), in [package:ballai/automatic/views/home/tab/auth/login/email/sign_in_with_email_view.dart] _SignInWithEmailViewState::build (0xa0df5c)
+    //     0xa10eb4: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c578] AnonymousClosure: (0xa10300), in [package:kourtai/automatic/views/home/tab/auth/login/email/sign_in_with_email_view.dart] _SignInWithEmailViewState::build (0xa0df5c)
     //     0xa10eb8: ldr             x1, [x1, #0x578]
     // 0xa10ebc: stur            x0, [fp, #-0x30]
     // 0xa10ec0: r0 = AllocateClosure()
@@ -439,15 +439,15 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa10f6c: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e200] "Sign up with email"
     //     0xa10f70: ldr             x1, [x1, #0x200]
     // 0xa10f74: r0 = L()
-    //     0xa10f74: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa10f74: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa10f78: ldur            x2, [fp, #-0x18]
     // 0xa10f7c: stur            x0, [fp, #-0x30]
     // 0xa10f80: LoadField: r1 = r2->field_13
     //     0xa10f80: ldur            w1, [x2, #0x13]
     // 0xa10f84: DecompressPointer r1
     //     0xa10f84: add             x1, x1, HEAP, lsl #32
-    // 0xa10f88: r0 = BallAiThemeContext.ballAiScreenTitleStyle()
-    //     0xa10f88: bl              #0x9efba4  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiScreenTitleStyle
+    // 0xa10f88: r0 = KourtAiThemeContext.kourtAiScreenTitleStyle()
+    //     0xa10f88: bl              #0x9efba4  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiScreenTitleStyle
     // 0xa10f8c: r16 = 23.000000
     //     0xa10f8c: add             x16, PP, #0x37, lsl #12  ; [pp+0x37ae8] 23
     //     0xa10f90: ldr             x16, [x16, #0xae8]
@@ -497,8 +497,8 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa11014: ldur            w1, [x4, #0x13]
     // 0xa11018: DecompressPointer r1
     //     0xa11018: add             x1, x1, HEAP, lsl #32
-    // 0xa1101c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa1101c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa1101c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa1101c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa11020: stur            x0, [fp, #-0x38]
     // 0xa11024: r0 = TextStyle()
     //     0xa11024: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -521,14 +521,14 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa11050: add             x1, PP, #0x37, lsl #12  ; [pp+0x37af0] "Email"
     //     0xa11054: ldr             x1, [x1, #0xaf0]
     // 0xa11058: r0 = L()
-    //     0xa11058: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa11058: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa1105c: str             x0, [SP]
     // 0xa11060: ldur            x1, [fp, #-0x38]
     // 0xa11064: r4 = const [0, 0x2, 0x1, 0x1, hintText, 0x1, null]
     //     0xa11064: add             x4, PP, #0x2e, lsl #12  ; [pp+0x2e748] List(7) [0, 0x2, 0x1, 0x1, "hintText", 0x1, Null]
     //     0xa11068: ldr             x4, [x4, #0x748]
-    // 0xa1106c: r0 = BallAiThemeContext.ballAiUnderlineInputDecoration()
-    //     0xa1106c: bl              #0x9e870c  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiUnderlineInputDecoration
+    // 0xa1106c: r0 = KourtAiThemeContext.kourtAiUnderlineInputDecoration()
+    //     0xa1106c: bl              #0x9e870c  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiUnderlineInputDecoration
     // 0xa11070: stur            x0, [fp, #-0x38]
     // 0xa11074: r0 = TextField()
     //     0xa11074: bl              #0x9ce4d0  ; AllocateTextFieldStub -> TextField (size=0x128)
@@ -647,7 +647,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     // 0xa1117c: DecompressPointer r1
     //     0xa1117c: add             x1, x1, HEAP, lsl #32
     // 0xa11180: r0 = inlineMessage()
-    //     0xa11180: bl              #0xa0ee1c  ; [package:ballai/automatic/utility/validation/email_address.dart] EmailAddress::inlineMessage
+    //     0xa11180: bl              #0xa0ee1c  ; [package:kourtai/automatic/utility/validation/email_address.dart] EmailAddress::inlineMessage
     // 0xa11184: stur            x0, [fp, #-0x30]
     // 0xa11188: r0 = AuthInlineNotice()
     //     0xa11188: bl              #0x9eac68  ; AllocateAuthInlineNoticeStub -> AuthInlineNotice (size=0x10)
@@ -672,8 +672,8 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa111bc: ldur            w1, [x5, #0x13]
     // 0xa111c0: DecompressPointer r1
     //     0xa111c0: add             x1, x1, HEAP, lsl #32
-    // 0xa111c4: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa111c4: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa111c4: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa111c4: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa111c8: stur            x0, [fp, #-0x50]
     // 0xa111cc: r0 = TextStyle()
     //     0xa111cc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -696,14 +696,14 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa111f8: add             x1, PP, #0x37, lsl #12  ; [pp+0x37b08] "Password"
     //     0xa111fc: ldr             x1, [x1, #0xb08]
     // 0xa11200: r0 = L()
-    //     0xa11200: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa11200: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa11204: str             x0, [SP]
     // 0xa11208: ldur            x1, [fp, #-0x50]
     // 0xa1120c: r4 = const [0, 0x2, 0x1, 0x1, hintText, 0x1, null]
     //     0xa1120c: add             x4, PP, #0x2e, lsl #12  ; [pp+0x2e748] List(7) [0, 0x2, 0x1, 0x1, "hintText", 0x1, Null]
     //     0xa11210: ldr             x4, [x4, #0x748]
-    // 0xa11214: r0 = BallAiThemeContext.ballAiUnderlineInputDecoration()
-    //     0xa11214: bl              #0x9e870c  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiUnderlineInputDecoration
+    // 0xa11214: r0 = KourtAiThemeContext.kourtAiUnderlineInputDecoration()
+    //     0xa11214: bl              #0x9e870c  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiUnderlineInputDecoration
     // 0xa11218: mov             x2, x0
     // 0xa1121c: ldur            x0, [fp, #-8]
     // 0xa11220: stur            x2, [fp, #-0x60]
@@ -728,8 +728,8 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa11258: ldur            w1, [x4, #0x13]
     // 0xa1125c: DecompressPointer r1
     //     0xa1125c: add             x1, x1, HEAP, lsl #32
-    // 0xa11260: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa11260: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa11260: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa11260: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa11264: stur            x0, [fp, #-0x68]
     // 0xa11268: r0 = Icon()
     //     0xa11268: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -743,7 +743,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa11280: stur            w0, [x3, #0x23]
     // 0xa11284: ldur            x2, [fp, #-0x18]
     // 0xa11288: r1 = Function '<anonymous closure>':.
-    //     0xa11288: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c588] AnonymousClosure: (0xa127d4), in [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::build (0xa10c90)
+    //     0xa11288: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c588] AnonymousClosure: (0xa127d4), in [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::build (0xa10c90)
     //     0xa1128c: ldr             x1, [x1, #0x588]
     // 0xa11290: r0 = AllocateClosure()
     //     0xa11290: bl              #0xe553e0  ; AllocateClosureStub
@@ -909,8 +909,8 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa1141c: ldur            w1, [x20, #0x13]
     // 0xa11420: DecompressPointer r1
     //     0xa11420: add             x1, x1, HEAP, lsl #32
-    // 0xa11424: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa11424: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa11424: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa11424: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa11428: stur            x0, [fp, #-0x58]
     // 0xa1142c: r0 = TextStyle()
     //     0xa1142c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -933,14 +933,14 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa11458: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c598] "Confirm Password"
     //     0xa1145c: ldr             x1, [x1, #0x598]
     // 0xa11460: r0 = L()
-    //     0xa11460: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa11460: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa11464: str             x0, [SP]
     // 0xa11468: ldur            x1, [fp, #-0x58]
     // 0xa1146c: r4 = const [0, 0x2, 0x1, 0x1, hintText, 0x1, null]
     //     0xa1146c: add             x4, PP, #0x2e, lsl #12  ; [pp+0x2e748] List(7) [0, 0x2, 0x1, 0x1, "hintText", 0x1, Null]
     //     0xa11470: ldr             x4, [x4, #0x748]
-    // 0xa11474: r0 = BallAiThemeContext.ballAiUnderlineInputDecoration()
-    //     0xa11474: bl              #0x9e870c  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiUnderlineInputDecoration
+    // 0xa11474: r0 = KourtAiThemeContext.kourtAiUnderlineInputDecoration()
+    //     0xa11474: bl              #0x9e870c  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiUnderlineInputDecoration
     // 0xa11478: r1 = <Widget>
     //     0xa11478: ldr             x1, [PP, #0x4f10]  ; [pp+0x4f10] TypeArguments: <Widget>
     // 0xa1147c: r2 = 0
@@ -951,7 +951,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     // 0xa11488: ldur            x1, [fp, #-8]
     // 0xa1148c: stur            x0, [fp, #-0x70]
     // 0xa11490: r0 = _showPasswordMark()
-    //     0xa11490: bl              #0xa11db4  ; [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_showPasswordMark
+    //     0xa11490: bl              #0xa11db4  ; [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_showPasswordMark
     // 0xa11494: tbnz            w0, #4, #0xa11564
     // 0xa11498: ldur            x1, [fp, #-0x38]
     // 0xa1149c: ldur            x3, [fp, #-0x50]
@@ -975,7 +975,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     // 0xa114c4: mov             x2, x1
     // 0xa114c8: mov             x1, x4
     // 0xa114cc: r0 = matches()
-    //     0xa114cc: bl              #0xa11d70  ; [package:ballai/automatic/utility/validation/password_match.dart] PasswordMatch::matches
+    //     0xa114cc: bl              #0xa11d70  ; [package:kourtai/automatic/utility/validation/password_match.dart] PasswordMatch::matches
     // 0xa114d0: stur            x0, [fp, #-0x38]
     // 0xa114d4: r0 = CheckmarkView()
     //     0xa114d4: bl              #0xa11d64  ; AllocateCheckmarkViewStub -> CheckmarkView (size=0x10)
@@ -1046,8 +1046,8 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa11594: ldur            w1, [x3, #0x13]
     // 0xa11598: DecompressPointer r1
     //     0xa11598: add             x1, x1, HEAP, lsl #32
-    // 0xa1159c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa1159c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa1159c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa1159c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa115a0: stur            x0, [fp, #-0x80]
     // 0xa115a4: r0 = Icon()
     //     0xa115a4: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -1061,7 +1061,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa115bc: stur            w0, [x3, #0x23]
     // 0xa115c0: ldur            x2, [fp, #-0x18]
     // 0xa115c4: r1 = Function '<anonymous closure>':.
-    //     0xa115c4: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c5a0] AnonymousClosure: (0xa125cc), in [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::build (0xa10c90)
+    //     0xa115c4: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c5a0] AnonymousClosure: (0xa125cc), in [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::build (0xa10c90)
     //     0xa115c8: ldr             x1, [x1, #0x5a0]
     // 0xa115cc: r0 = AllocateClosure()
     //     0xa115cc: bl              #0xe553e0  ; AllocateClosureStub
@@ -1440,7 +1440,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa119a4: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xa119a8: ldur            x1, [fp, #-8]
     // 0xa119ac: r0 = _canSubmit()
-    //     0xa119ac: bl              #0xa11ca0  ; [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_canSubmit
+    //     0xa119ac: bl              #0xa11ca0  ; [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_canSubmit
     // 0xa119b0: tbnz            w0, #4, #0xa119dc
     // 0xa119b4: ldur            x0, [fp, #-8]
     // 0xa119b8: LoadField: r1 = r0->field_27
@@ -1450,7 +1450,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     // 0xa119c0: tbz             w1, #4, #0xa119dc
     // 0xa119c4: ldur            x2, [fp, #-0x18]
     // 0xa119c8: r1 = Function '<anonymous closure>':.
-    //     0xa119c8: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c5a8] AnonymousClosure: (0xa11e44), in [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::build (0xa10c90)
+    //     0xa119c8: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c5a8] AnonymousClosure: (0xa11e44), in [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::build (0xa10c90)
     //     0xa119cc: ldr             x1, [x1, #0x5a8]
     // 0xa119d0: r0 = AllocateClosure()
     //     0xa119d0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1467,7 +1467,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     // 0xa119f0: ldur            x1, [fp, #-8]
     // 0xa119f4: stur            x3, [fp, #-0x30]
     // 0xa119f8: r0 = _canSubmit()
-    //     0xa119f8: bl              #0xa11ca0  ; [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_canSubmit
+    //     0xa119f8: bl              #0xa11ca0  ; [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_canSubmit
     // 0xa119fc: tbnz            w0, #4, #0xa11a14
     // 0xa11a00: ldur            x0, [fp, #-8]
     // 0xa11a04: LoadField: r1 = r0->field_27
@@ -1480,8 +1480,8 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     // 0xa11a18: r2 = false
     //     0xa11a18: add             x2, NULL, #0x30  ; false
     // 0xa11a1c: ldur            x1, [fp, #-0x30]
-    // 0xa11a20: r0 = BallAiThemeContext.ballAiFilledButtonStyle()
-    //     0xa11a20: bl              #0xa0ebdc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiFilledButtonStyle
+    // 0xa11a20: r0 = KourtAiThemeContext.kourtAiFilledButtonStyle()
+    //     0xa11a20: bl              #0xa0ebdc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiFilledButtonStyle
     // 0xa11a24: mov             x2, x0
     // 0xa11a28: ldur            x0, [fp, #-8]
     // 0xa11a2c: stur            x2, [fp, #-0x18]
@@ -1499,7 +1499,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa11a4c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c5b0] "Sign up"
     //     0xa11a50: ldr             x1, [x1, #0x5b0]
     // 0xa11a54: r0 = L()
-    //     0xa11a54: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa11a54: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa11a58: stur            x0, [fp, #-8]
     // 0xa11a5c: r0 = Text()
     //     0xa11a5c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1771,7 +1771,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa11d04: add             x3, x3, HEAP, lsl #32
     // 0xa11d08: mov             x1, x3
     // 0xa11d0c: r0 = isValid()
-    //     0xa11d0c: bl              #0x9ebecc  ; [package:ballai/automatic/utility/validation/email_address.dart] EmailAddress::isValid
+    //     0xa11d0c: bl              #0x9ebecc  ; [package:kourtai/automatic/utility/validation/email_address.dart] EmailAddress::isValid
     // 0xa11d10: tbnz            w0, #4, #0xa11d4c
     // 0xa11d14: ldur            x0, [fp, #-0x10]
     // 0xa11d18: LoadField: r1 = r0->field_7
@@ -1837,7 +1837,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     // 0xa11df8: mov             x1, x2
     // 0xa11dfc: mov             x2, x0
     // 0xa11e00: r0 = showCheckMark()
-    //     0xa11e00: bl              #0xa11e18  ; [package:ballai/automatic/utility/validation/password_match.dart] PasswordMatch::showCheckMark
+    //     0xa11e00: bl              #0xa11e18  ; [package:kourtai/automatic/utility/validation/password_match.dart] PasswordMatch::showCheckMark
     // 0xa11e04: LeaveFrame
     //     0xa11e04: mov             SP, fp
     //     0xa11e08: ldp             fp, lr, [SP], #0x10
@@ -1871,7 +1871,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     // 0xa11e78: DecompressPointer r1
     //     0xa11e78: add             x1, x1, HEAP, lsl #32
     // 0xa11e7c: r0 = _handleSignUpTap()
-    //     0xa11e7c: bl              #0xa11e98  ; [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_handleSignUpTap
+    //     0xa11e7c: bl              #0xa11e98  ; [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_handleSignUpTap
     // 0xa11e80: r0 = Null
     //     0xa11e80: mov             x0, NULL
     // 0xa11e84: LeaveFrame
@@ -1925,7 +1925,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa11ef4: add             x3, x3, HEAP, lsl #32
     // 0xa11ef8: mov             x1, x3
     // 0xa11efc: r0 = inlineMessage()
-    //     0xa11efc: bl              #0xa0ee1c  ; [package:ballai/automatic/utility/validation/email_address.dart] EmailAddress::inlineMessage
+    //     0xa11efc: bl              #0xa0ee1c  ; [package:kourtai/automatic/utility/validation/email_address.dart] EmailAddress::inlineMessage
     // 0xa11f00: mov             x1, x0
     // 0xa11f04: ldur            x2, [fp, #-0xa0]
     // 0xa11f08: StoreField: r2->field_13 = r0
@@ -1940,11 +1940,11 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     // 0xa11f28: b.ne            #0xa11f38
     // 0xa11f2c: ldur            x1, [fp, #-0x98]
     // 0xa11f30: r0 = _canSubmit()
-    //     0xa11f30: bl              #0xa11ca0  ; [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_canSubmit
+    //     0xa11f30: bl              #0xa11ca0  ; [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_canSubmit
     // 0xa11f34: tbz             w0, #4, #0xa11f5c
     // 0xa11f38: ldur            x2, [fp, #-0xa0]
     // 0xa11f3c: r1 = Function '<anonymous closure>':.
-    //     0xa11f3c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c5c0] AnonymousClosure: (0xa12540), in [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_handleSignUpTap (0xa11e98)
+    //     0xa11f3c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c5c0] AnonymousClosure: (0xa12540), in [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_handleSignUpTap (0xa11e98)
     //     0xa11f40: ldr             x1, [x1, #0x5c0]
     // 0xa11f44: r0 = AllocateClosure()
     //     0xa11f44: bl              #0xe553e0  ; AllocateClosureStub
@@ -1958,7 +1958,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa11f58: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xa11f5c: ldur            x2, [fp, #-0xa0]
     // 0xa11f60: r1 = Function '<anonymous closure>':.
-    //     0xa11f60: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c5c8] AnonymousClosure: (0xa12518), in [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_handleSignUpTap (0xa11e98)
+    //     0xa11f60: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c5c8] AnonymousClosure: (0xa12518), in [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_handleSignUpTap (0xa11e98)
     //     0xa11f64: ldr             x1, [x1, #0x5c8]
     // 0xa11f68: r0 = AllocateClosure()
     //     0xa11f68: bl              #0xe553e0  ; AllocateClosureStub
@@ -2082,7 +2082,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa120a4: ldr             x1, [x1, #0x5d0]
     // 0xa120a8: stur            x0, [fp, #-0xb0]
     // 0xa120ac: r0 = L()
-    //     0xa120ac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa120ac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa120b0: ldur            x1, [fp, #-0xb0]
     // 0xa120b4: StoreField: r1->field_b = r0
     //     0xa120b4: stur            w0, [x1, #0xb]
@@ -2149,7 +2149,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     // 0xa12170: b.eq            #0xa122c0
     // 0xa12174: mov             x2, x6
     // 0xa12178: r1 = Function '<anonymous closure>':.
-    //     0xa12178: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c5d8] AnonymousClosure: (0xa124f4), in [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_handleSignUpTap (0xa11e98)
+    //     0xa12178: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c5d8] AnonymousClosure: (0xa124f4), in [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_handleSignUpTap (0xa11e98)
     //     0xa1217c: ldr             x1, [x1, #0x5d8]
     // 0xa12180: r0 = AllocateClosure()
     //     0xa12180: bl              #0xe553e0  ; AllocateClosureStub
@@ -2182,7 +2182,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     // 0xa121d8: b.eq            #0xa122c0
     // 0xa121dc: mov             x2, x4
     // 0xa121e0: r1 = Function '<anonymous closure>':.
-    //     0xa121e0: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c5e0] AnonymousClosure: (0xa124d0), in [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_handleSignUpTap (0xa11e98)
+    //     0xa121e0: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c5e0] AnonymousClosure: (0xa124d0), in [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_handleSignUpTap (0xa11e98)
     //     0xa121e4: ldr             x1, [x1, #0x5e0]
     // 0xa121e8: r0 = AllocateClosure()
     //     0xa121e8: bl              #0xe553e0  ; AllocateClosureStub
@@ -2216,7 +2216,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     // 0xa12244: b.eq            #0xa122c0
     // 0xa12248: mov             x2, x4
     // 0xa1224c: r1 = Function '<anonymous closure>':.
-    //     0xa1224c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c5e8] AnonymousClosure: (0xa123f8), in [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_handleSignUpTap (0xa11e98)
+    //     0xa1224c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c5e8] AnonymousClosure: (0xa123f8), in [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_handleSignUpTap (0xa11e98)
     //     0xa12250: ldr             x1, [x1, #0x5e8]
     // 0xa12254: r0 = AllocateClosure()
     //     0xa12254: bl              #0xe553e0  ; AllocateClosureStub
@@ -2245,7 +2245,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     // 0xa122a0: b.eq            #0xa122c0
     // 0xa122a4: mov             x2, x4
     // 0xa122a8: r1 = Function '<anonymous closure>':.
-    //     0xa122a8: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c5f0] AnonymousClosure: (0xa12360), in [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_handleSignUpTap (0xa11e98)
+    //     0xa122a8: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c5f0] AnonymousClosure: (0xa12360), in [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_handleSignUpTap (0xa11e98)
     //     0xa122ac: ldr             x1, [x1, #0x5f0]
     // 0xa122b0: r0 = AllocateClosure()
     //     0xa122b0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2262,7 +2262,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     // 0xa122d0: b.eq            #0xa122f0
     // 0xa122d4: ldur            x2, [fp, #-0xa0]
     // 0xa122d8: r1 = Function '<anonymous closure>':.
-    //     0xa122d8: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c5f8] AnonymousClosure: (0x932570), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_buildPreAuthFunnel (0x9325f0)
+    //     0xa122d8: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c5f8] AnonymousClosure: (0x932570), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_buildPreAuthFunnel (0x9325f0)
     //     0xa122dc: ldr             x1, [x1, #0x5f8]
     // 0xa122e0: r0 = AllocateClosure()
     //     0xa122e0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2288,7 +2288,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     // 0xa1231c: b.eq            #0xa1233c
     // 0xa12320: ldur            x2, [fp, #-0xa0]
     // 0xa12324: r1 = Function '<anonymous closure>':.
-    //     0xa12324: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c5f8] AnonymousClosure: (0x932570), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_buildPreAuthFunnel (0x9325f0)
+    //     0xa12324: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c5f8] AnonymousClosure: (0x932570), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_buildPreAuthFunnel (0x9325f0)
     //     0xa12328: ldr             x1, [x1, #0x5f8]
     // 0xa1232c: r0 = AllocateClosure()
     //     0xa1232c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2336,7 +2336,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa12394: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a5d0] "An error occurred."
     //     0xa12398: ldr             x1, [x1, #0x5d0]
     // 0xa1239c: r0 = L()
-    //     0xa1239c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa1239c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa123a0: mov             x1, x0
     // 0xa123a4: ldur            x0, [fp, #-0x10]
     // 0xa123a8: ArrayLoad: r2 = r0[0]  ; List_4
@@ -2347,7 +2347,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     // 0xa123b4: mov             x1, x2
     // 0xa123b8: mov             x2, x16
     // 0xa123bc: r0 = userFacingError()
-    //     0xa123bc: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0xa123bc: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0xa123c0: ldur            x1, [fp, #-8]
     // 0xa123c4: StoreField: r1->field_2b = r0
     //     0xa123c4: stur            w0, [x1, #0x2b]
@@ -2534,7 +2534,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa12580: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c600] "Please fill all fields and make sure passwords match."
     //     0xa12584: ldr             x1, [x1, #0x600]
     // 0xa12588: r0 = L()
-    //     0xa12588: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa12588: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa1258c: mov             x2, x0
     // 0xa12590: ldur            x1, [fp, #-8]
     // 0xa12594: mov             x0, x2
@@ -2581,7 +2581,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa12600: add             x0, x0, HEAP, lsl #32
     // 0xa12604: stur            x0, [fp, #-0x10]
     // 0xa12608: r1 = Function '<anonymous closure>':.
-    //     0xa12608: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c608] AnonymousClosure: (0xa12638), in [package:ballai/video_tracking/views/drills/drill_detail_screen.dart] _DrillDetailScreenState::build (0xab8ebc)
+    //     0xa12608: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c608] AnonymousClosure: (0xa12638), in [package:kourtai/video_tracking/views/drills/drill_detail_screen.dart] _DrillDetailScreenState::build (0xab8ebc)
     //     0xa1260c: ldr             x1, [x1, #0x608]
     // 0xa12610: r0 = AllocateClosure()
     //     0xa12610: bl              #0xe553e0  ; AllocateClosureStub
@@ -2625,7 +2625,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xa12808: add             x0, x0, HEAP, lsl #32
     // 0xa1280c: stur            x0, [fp, #-0x10]
     // 0xa12810: r1 = Function '<anonymous closure>':.
-    //     0xa12810: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c610] AnonymousClosure: (0xa12840), in [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::build (0xa10c90)
+    //     0xa12810: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c610] AnonymousClosure: (0xa12840), in [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::build (0xa10c90)
     //     0xa12814: ldr             x1, [x1, #0x610]
     // 0xa12818: r0 = AllocateClosure()
     //     0xa12818: bl              #0xe553e0  ; AllocateClosureStub
@@ -2672,7 +2672,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xb5ad4c: mov             fp, SP
     // 0xb5ad50: ldr             x2, [fp, #0x10]
     // 0xb5ad54: r1 = Function 'dispose':.
-    //     0xb5ad54: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c568] AnonymousClosure: (0xb5ad6c), in [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::dispose (0xb61aa8)
+    //     0xb5ad54: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c568] AnonymousClosure: (0xb5ad6c), in [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::dispose (0xb61aa8)
     //     0xb5ad58: ldr             x1, [x1, #0x568]
     // 0xb5ad5c: r0 = AllocateClosure()
     //     0xb5ad5c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2697,7 +2697,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     //     0xb5ad84: cmp             SP, x16
     //     0xb5ad88: b.ls            #0xb5ad9c
     // 0xb5ad8c: r0 = dispose()
-    //     0xb5ad8c: bl              #0xb61aa8  ; [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::dispose
+    //     0xb5ad8c: bl              #0xb61aa8  ; [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::dispose
     // 0xb5ad90: LeaveFrame
     //     0xb5ad90: mov             SP, fp
     //     0xb5ad94: ldp             fp, lr, [SP], #0x10
@@ -2728,7 +2728,7 @@ class _SignUpWithEmailSheetState extends State<dynamic> {
     // 0xb61ad0: mov             x2, x0
     // 0xb61ad4: stur            x3, [fp, #-8]
     // 0xb61ad8: r1 = Function '_refresh@1076030065':.
-    //     0xb61ad8: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c618] AnonymousClosure: (0x94fa2c), in [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_refresh (0x94fa64)
+    //     0xb61ad8: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c618] AnonymousClosure: (0x94fa2c), in [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_refresh (0x94fa64)
     //     0xb61adc: ldr             x1, [x1, #0x618]
     // 0xb61ae0: r0 = AllocateClosure()
     //     0xb61ae0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2896,7 +2896,7 @@ class _SignUpWithEmailSheet extends StatefulWidget {
     // 0xb72e04: mov             x1, x0
     // 0xb72e08: stur            x0, [fp, #-8]
     // 0xb72e0c: r0 = _SignUpWithEmailSheetState()
-    //     0xb72e0c: bl              #0xb72e28  ; [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_SignUpWithEmailSheetState
+    //     0xb72e0c: bl              #0xb72e28  ; [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] _SignUpWithEmailSheetState::_SignUpWithEmailSheetState
     // 0xb72e10: ldur            x0, [fp, #-8]
     // 0xb72e14: LeaveFrame
     //     0xb72e14: mov             SP, fp
@@ -2951,7 +2951,7 @@ abstract class SignUpView extends Object {
     //     0x9ead30: stur            w0, [x1, #0xf]
     // 0x9ead34: mov             x2, x1
     // 0x9ead38: r1 = Function '<anonymous closure>': static.
-    //     0x9ead38: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e238] AnonymousClosure: static (0x9ead84), in [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] SignUpView::showEmailSignUpSheet (0x9eacc8)
+    //     0x9ead38: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e238] AnonymousClosure: static (0x9ead84), in [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] SignUpView::showEmailSignUpSheet (0x9eacc8)
     //     0x9ead3c: ldr             x1, [x1, #0x238]
     // 0x9ead40: r0 = AllocateClosure()
     //     0x9ead40: bl              #0xe553e0  ; AllocateClosureStub
@@ -3010,7 +3010,7 @@ abstract class SignUpView extends Object {
     // 0x9eadc4: mov             x2, x1
     // 0x9eadc8: stur            x3, [fp, #-0x10]
     // 0x9eadcc: r1 = Function '<anonymous closure>': static.
-    //     0x9eadcc: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e248] AnonymousClosure: static (0x9eae08), in [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] SignUpView::showEmailSignUpSheet (0x9eacc8)
+    //     0x9eadcc: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e248] AnonymousClosure: static (0x9eae08), in [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] SignUpView::showEmailSignUpSheet (0x9eacc8)
     //     0x9eadd0: ldr             x1, [x1, #0x248]
     // 0x9eadd4: r0 = AllocateClosure()
     //     0x9eadd4: bl              #0xe553e0  ; AllocateClosureStub
@@ -3074,7 +3074,7 @@ abstract class SignUpView extends Object {
     // 0x9eae80: ldur            x2, [fp, #-0x20]
     // 0x9eae84: ldur            x3, [fp, #-0x18]
     // 0x9eae88: r0 = signUpWithEmail()
-    //     0x9eae88: bl              #0x9eaea8  ; [package:ballai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::signUpWithEmail
+    //     0x9eae88: bl              #0x9eaea8  ; [package:kourtai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::signUpWithEmail
     // 0x9eae8c: mov             x1, x0
     // 0x9eae90: stur            x1, [fp, #-0x18]
     // 0x9eae94: r0 = Await()

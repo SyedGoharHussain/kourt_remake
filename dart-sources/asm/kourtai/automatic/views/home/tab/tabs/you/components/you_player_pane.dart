@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart
 
 // class id: 1049010, size: 0x8
 class :: {
@@ -65,11 +65,11 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8ab30: stur            w1, [x2, #0x13]
     // 0xa8ab34: mov             x1, x0
     // 0xa8ab38: r0 = _personalRows()
-    //     0xa8ab38: bl              #0xa8c388  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::_personalRows
+    //     0xa8ab38: bl              #0xa8c388  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::_personalRows
     // 0xa8ab3c: ldur            x1, [fp, #-8]
     // 0xa8ab40: stur            x0, [fp, #-0x10]
     // 0xa8ab44: r0 = _basketballRows()
-    //     0xa8ab44: bl              #0xa8bc1c  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::_basketballRows
+    //     0xa8ab44: bl              #0xa8bc1c  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::_basketballRows
     // 0xa8ab48: ldur            x3, [fp, #-0x10]
     // 0xa8ab4c: stur            x0, [fp, #-0x30]
     // 0xa8ab50: LoadField: r4 = r3->field_b
@@ -110,7 +110,7 @@ class _YouProfileVCardState extends State<dynamic> {
     // 0xa8aba8: StoreField: r3->field_b = r0
     //     0xa8aba8: stur            w0, [x3, #0xb]
     // 0xa8abac: r1 = Function '<anonymous closure>':.
-    //     0xa8abac: add             x1, PP, #0x49, lsl #12  ; [pp+0x49088] AnonymousClosure: (0x842104), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::build (0xa8aaf4)
+    //     0xa8abac: add             x1, PP, #0x49, lsl #12  ; [pp+0x49088] AnonymousClosure: (0x842104), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::build (0xa8aaf4)
     //     0xa8abb0: ldr             x1, [x1, #0x88]
     // 0xa8abb4: r2 = Null
     //     0xa8abb4: mov             x2, NULL
@@ -138,8 +138,8 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8abf4: ldur            w1, [x2, #0x13]
     // 0xa8abf8: DecompressPointer r1
     //     0xa8abf8: add             x1, x1, HEAP, lsl #32
-    // 0xa8abfc: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xa8abfc: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xa8abfc: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xa8abfc: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xa8ac00: stur            x0, [fp, #-0x20]
     // 0xa8ac04: r0 = Radius()
     //     0xa8ac04: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -180,7 +180,7 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8ac5c: stur            w0, [x2, #0x23]
     // 0xa8ac60: ldur            x1, [fp, #-8]
     // 0xa8ac64: r0 = _title()
-    //     0xa8ac64: bl              #0xa8bbd0  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::_title
+    //     0xa8ac64: bl              #0xa8bbd0  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::_title
     // 0xa8ac68: mov             x3, x0
     // 0xa8ac6c: ldur            x0, [fp, #-0x18]
     // 0xa8ac70: stur            x3, [fp, #-0x20]
@@ -192,14 +192,14 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8ac7c: add             x16, PP, #0x15, lsl #12  ; [pp+0x151f8] Obj!FontWeight@d28021
     //     0xa8ac80: ldr             x16, [x16, #0x1f8]
     // 0xa8ac84: str             x16, [SP]
-    // 0xa8ac88: r2 = Instance_BallAiTextScale
-    //     0xa8ac88: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bef8] Obj!BallAiTextScale@d3afc1
+    // 0xa8ac88: r2 = Instance_KourtAiTextScale
+    //     0xa8ac88: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bef8] Obj!KourtAiTextScale@d3afc1
     //     0xa8ac8c: ldr             x2, [x2, #0xef8]
     // 0xa8ac90: r4 = const [0, 0x3, 0x1, 0x2, weight, 0x2, null]
     //     0xa8ac90: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf00] List(7) [0, 0x3, 0x1, 0x2, "weight", 0x2, Null]
     //     0xa8ac94: ldr             x4, [x4, #0xf00]
-    // 0xa8ac98: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xa8ac98: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xa8ac98: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xa8ac98: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xa8ac9c: stur            x0, [fp, #-0x38]
     // 0xa8aca0: r0 = Text()
     //     0xa8aca0: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -271,16 +271,16 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8ad4c: ldur            w1, [x3, #0x13]
     // 0xa8ad50: DecompressPointer r1
     //     0xa8ad50: add             x1, x1, HEAP, lsl #32
-    // 0xa8ad54: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xa8ad54: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xa8ad54: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xa8ad54: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xa8ad58: ldur            x2, [fp, #-0x18]
     // 0xa8ad5c: stur            x0, [fp, #-0x38]
     // 0xa8ad60: LoadField: r1 = r2->field_13
     //     0xa8ad60: ldur            w1, [x2, #0x13]
     // 0xa8ad64: DecompressPointer r1
     //     0xa8ad64: add             x1, x1, HEAP, lsl #32
-    // 0xa8ad68: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa8ad68: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa8ad68: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa8ad68: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa8ad6c: stur            x0, [fp, #-0x40]
     // 0xa8ad70: r0 = Icon()
     //     0xa8ad70: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -308,7 +308,7 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8adac: stur            w0, [x3, #0xb]
     // 0xa8adb0: ldur            x2, [fp, #-0x18]
     // 0xa8adb4: r1 = Function '<anonymous closure>':.
-    //     0xa8adb4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49098] AnonymousClosure: (0xa8d040), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::build (0xa8aaf4)
+    //     0xa8adb4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49098] AnonymousClosure: (0xa8d040), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::build (0xa8aaf4)
     //     0xa8adb8: ldr             x1, [x1, #0x98]
     // 0xa8adbc: r0 = AllocateClosure()
     //     0xa8adbc: bl              #0xe553e0  ; AllocateClosureStub
@@ -490,7 +490,7 @@ class _YouProfileVCardState extends State<dynamic> {
     // 0xa8af80: mov             x1, x8
     // 0xa8af84: ldur            x3, [fp, #-0x10]
     // 0xa8af88: r0 = _rowsPage()
-    //     0xa8af88: bl              #0xa8b5f0  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::_rowsPage
+    //     0xa8af88: bl              #0xa8b5f0  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::_rowsPage
     // 0xa8af8c: mov             x4, x0
     // 0xa8af90: ldur            x0, [fp, #-0x18]
     // 0xa8af94: stur            x4, [fp, #-0x10]
@@ -501,7 +501,7 @@ class _YouProfileVCardState extends State<dynamic> {
     // 0xa8afa0: ldur            x1, [fp, #-8]
     // 0xa8afa4: ldur            x3, [fp, #-0x30]
     // 0xa8afa8: r0 = _rowsPage()
-    //     0xa8afa8: bl              #0xa8b5f0  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::_rowsPage
+    //     0xa8afa8: bl              #0xa8b5f0  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::_rowsPage
     // 0xa8afac: r1 = Null
     //     0xa8afac: mov             x1, NULL
     // 0xa8afb0: r2 = 4
@@ -532,7 +532,7 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8aff0: stur            w0, [x3, #0xb]
     // 0xa8aff4: ldur            x2, [fp, #-0x18]
     // 0xa8aff8: r1 = Function '<anonymous closure>':.
-    //     0xa8aff8: add             x1, PP, #0x49, lsl #12  ; [pp+0x490a0] AnonymousClosure: (0xa8cfb0), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::build (0xa8aaf4)
+    //     0xa8aff8: add             x1, PP, #0x49, lsl #12  ; [pp+0x490a0] AnonymousClosure: (0xa8cfb0), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::build (0xa8aaf4)
     //     0xa8affc: ldr             x1, [x1, #0xa0]
     // 0xa8b000: r0 = AllocateClosure()
     //     0xa8b000: bl              #0xe553e0  ; AllocateClosureStub
@@ -577,7 +577,7 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8b078: add             x2, x2, HEAP, lsl #32
     // 0xa8b07c: ldur            x1, [fp, #-8]
     // 0xa8b080: r0 = _dots()
-    //     0xa8b080: bl              #0xa8b1c0  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::_dots
+    //     0xa8b080: bl              #0xa8b1c0  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::_dots
     // 0xa8b084: stur            x0, [fp, #-8]
     // 0xa8b088: r0 = Center()
     //     0xa8b088: bl              #0x9d4b74  ; AllocateCenterStub -> Center (size=0x1c)
@@ -719,8 +719,8 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8b1e0: cmp             SP, x16
     //     0xa8b1e4: b.ls            #0xa8b5c4
     // 0xa8b1e8: mov             x1, x0
-    // 0xa8b1ec: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xa8b1ec: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xa8b1ec: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xa8b1ec: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xa8b1f0: stur            x0, [fp, #-0x18]
     // 0xa8b1f4: r0 = Radius()
     //     0xa8b1f4: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -838,8 +838,8 @@ class _YouProfileVCardState extends State<dynamic> {
     // 0xa8b328: cmp             x3, x1
     // 0xa8b32c: b.ne            #0xa8b34c
     // 0xa8b330: ldur            x1, [fp, #-0x10]
-    // 0xa8b334: r0 = BallAiThemeContext.ballAi()
-    //     0xa8b334: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xa8b334: r0 = KourtAiThemeContext.kourtAi()
+    //     0xa8b334: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xa8b338: LoadField: r1 = r0->field_1b
     //     0xa8b338: ldur            w1, [x0, #0x1b]
     // 0xa8b33c: DecompressPointer r1
@@ -849,8 +849,8 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8b344: fmov            d0, #0.25000000
     // 0xa8b348: b               #0xa8b3b4
     // 0xa8b34c: ldur            x1, [fp, #-0x10]
-    // 0xa8b350: r0 = BallAiThemeContext.ballAi()
-    //     0xa8b350: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xa8b350: r0 = KourtAiThemeContext.kourtAi()
+    //     0xa8b350: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xa8b354: LoadField: r1 = r0->field_1b
     //     0xa8b354: ldur            w1, [x0, #0x1b]
     // 0xa8b358: DecompressPointer r1
@@ -1119,21 +1119,21 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8b61c: add             x1, PP, #0x49, lsl #12  ; [pp+0x490d0] "No details yet"
     //     0xa8b620: ldr             x1, [x1, #0xd0]
     // 0xa8b624: r0 = L()
-    //     0xa8b624: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8b624: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8b628: ldur            x1, [fp, #-8]
     // 0xa8b62c: stur            x0, [fp, #-0x10]
-    // 0xa8b630: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa8b630: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa8b630: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa8b630: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa8b634: str             x0, [SP]
     // 0xa8b638: ldur            x1, [fp, #-8]
-    // 0xa8b63c: r2 = Instance_BallAiTextScale
-    //     0xa8b63c: add             x2, PP, #0x2f, lsl #12  ; [pp+0x2fde8] Obj!BallAiTextScale@d3b001
+    // 0xa8b63c: r2 = Instance_KourtAiTextScale
+    //     0xa8b63c: add             x2, PP, #0x2f, lsl #12  ; [pp+0x2fde8] Obj!KourtAiTextScale@d3b001
     //     0xa8b640: ldr             x2, [x2, #0xde8]
     // 0xa8b644: r4 = const [0, 0x3, 0x1, 0x2, color, 0x2, null]
     //     0xa8b644: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf60] List(7) [0, 0x3, 0x1, 0x2, "color", 0x2, Null]
     //     0xa8b648: ldr             x4, [x4, #0xf60]
-    // 0xa8b64c: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xa8b64c: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xa8b64c: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xa8b64c: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xa8b650: stur            x0, [fp, #-0x18]
     // 0xa8b654: r0 = Text()
     //     0xa8b654: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1181,8 +1181,8 @@ class _YouProfileVCardState extends State<dynamic> {
     // 0xa8b6c4: r0 = _GrowableList()
     //     0xa8b6c4: bl              #0x5c7588  ; [dart:core] _GrowableList::_GrowableList
     // 0xa8b6c8: mov             x1, x0
-    // 0xa8b6cc: r0 = Instance_BallAiTextScale
-    //     0xa8b6cc: add             x0, PP, #0x2f, lsl #12  ; [pp+0x2fde8] Obj!BallAiTextScale@d3b001
+    // 0xa8b6cc: r0 = Instance_KourtAiTextScale
+    //     0xa8b6cc: add             x0, PP, #0x2f, lsl #12  ; [pp+0x2fde8] Obj!KourtAiTextScale@d3b001
     //     0xa8b6d0: ldr             x0, [x0, #0xde8]
     // 0xa8b6d4: stur            x1, [fp, #-0x18]
     // 0xa8b6d8: LoadField: d0 = r0->field_13
@@ -1238,8 +1238,8 @@ class _YouProfileVCardState extends State<dynamic> {
     // 0xa8b770: cmp             x0, #0
     // 0xa8b774: b.le            #0xa8b874
     // 0xa8b778: ldur            x1, [fp, #-8]
-    // 0xa8b77c: r0 = BallAiThemeContext.ballAi()
-    //     0xa8b77c: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xa8b77c: r0 = KourtAiThemeContext.kourtAi()
+    //     0xa8b77c: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xa8b780: ArrayLoad: r1 = r0[0]  ; List_4
     //     0xa8b780: ldur            w1, [x0, #0x17]
     // 0xa8b784: DecompressPointer r1
@@ -1356,8 +1356,8 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8b8b0: add             x0, x0, HEAP, lsl #32
     // 0xa8b8b4: ldur            x1, [fp, #-8]
     // 0xa8b8b8: stur            x0, [fp, #-0x20]
-    // 0xa8b8bc: r0 = BallAiThemeContext.ballAi()
-    //     0xa8b8bc: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xa8b8bc: r0 = KourtAiThemeContext.kourtAi()
+    //     0xa8b8bc: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xa8b8c0: LoadField: r1 = r0->field_1b
     //     0xa8b8c0: ldur            w1, [x0, #0x1b]
     // 0xa8b8c4: DecompressPointer r1
@@ -1417,8 +1417,8 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8b950: add             x0, x0, HEAP, lsl #32
     // 0xa8b954: ldur            x1, [fp, #-8]
     // 0xa8b958: stur            x0, [fp, #-0x20]
-    // 0xa8b95c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa8b95c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa8b95c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa8b95c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa8b960: stur            x0, [fp, #-0x50]
     // 0xa8b964: r0 = TextStyle()
     //     0xa8b964: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1674,13 +1674,13 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8bbec: add             x1, PP, #0x49, lsl #12  ; [pp+0x490e8] "Profile · Personal"
     //     0xa8bbf0: ldr             x1, [x1, #0xe8]
     // 0xa8bbf4: r0 = L()
-    //     0xa8bbf4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8bbf4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8bbf8: b               #0xa8bc08
     // 0xa8bbfc: r1 = "Profile · Basketball"
     //     0xa8bbfc: add             x1, PP, #0x49, lsl #12  ; [pp+0x490f0] "Profile · Basketball"
     //     0xa8bc00: ldr             x1, [x1, #0xf0]
     // 0xa8bc04: r0 = L()
-    //     0xa8bc04: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8bc04: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8bc08: LeaveFrame
     //     0xa8bc08: mov             SP, fp
     //     0xa8bc0c: ldp             fp, lr, [SP], #0x10
@@ -1748,11 +1748,11 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8bca8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d268] "Position"
     //     0xa8bcac: ldr             x1, [x1, #0x268]
     // 0xa8bcb0: r0 = L()
-    //     0xa8bcb0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8bcb0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8bcb4: ldur            x1, [fp, #-0x18]
     // 0xa8bcb8: stur            x0, [fp, #-0x18]
     // 0xa8bcbc: r0 = localizedPosition()
-    //     0xa8bcbc: bl              #0x9f7acc  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::localizedPosition
+    //     0xa8bcbc: bl              #0x9f7acc  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::localizedPosition
     // 0xa8bcc0: ldur            x2, [fp, #-0x18]
     // 0xa8bcc4: mov             x3, x0
     // 0xa8bcc8: r0 = AllocateRecord2()
@@ -1849,11 +1849,11 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8bdc4: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b850] "Skill level"
     //     0xa8bdc8: ldr             x1, [x1, #0x850]
     // 0xa8bdcc: r0 = L()
-    //     0xa8bdcc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8bdcc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8bdd0: ldur            x1, [fp, #-0x18]
     // 0xa8bdd4: stur            x0, [fp, #-0x18]
     // 0xa8bdd8: r0 = localizedLevel()
-    //     0xa8bdd8: bl              #0x9f7d54  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::localizedLevel
+    //     0xa8bdd8: bl              #0x9f7d54  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::localizedLevel
     // 0xa8bddc: ldur            x2, [fp, #-0x18]
     // 0xa8bde0: mov             x3, x0
     // 0xa8bde4: r0 = AllocateRecord2()
@@ -1950,11 +1950,11 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8bee0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49120] "Dominant hand"
     //     0xa8bee4: ldr             x1, [x1, #0x120]
     // 0xa8bee8: r0 = L()
-    //     0xa8bee8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8bee8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8beec: ldur            x1, [fp, #-0x18]
     // 0xa8bef0: stur            x0, [fp, #-0x18]
     // 0xa8bef4: r0 = localizedShootingHand()
-    //     0xa8bef4: bl              #0xa8c2f4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::localizedShootingHand
+    //     0xa8bef4: bl              #0xa8c2f4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::localizedShootingHand
     // 0xa8bef8: ldur            x2, [fp, #-0x18]
     // 0xa8befc: mov             x3, x0
     // 0xa8bf00: r0 = AllocateRecord2()
@@ -2051,11 +2051,11 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8bffc: add             x1, PP, #0x49, lsl #12  ; [pp+0x49138] "Training frequency"
     //     0xa8c000: ldr             x1, [x1, #0x138]
     // 0xa8c004: r0 = L()
-    //     0xa8c004: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8c004: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8c008: ldur            x1, [fp, #-0x18]
     // 0xa8c00c: stur            x0, [fp, #-0x18]
     // 0xa8c010: r0 = localizedTrainingFrequency()
-    //     0xa8c010: bl              #0x9f78a8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::localizedTrainingFrequency
+    //     0xa8c010: bl              #0x9f78a8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::localizedTrainingFrequency
     // 0xa8c014: ldur            x2, [fp, #-0x18]
     // 0xa8c018: mov             x3, x0
     // 0xa8c01c: r0 = AllocateRecord2()
@@ -2137,7 +2137,7 @@ class _YouProfileVCardState extends State<dynamic> {
     // 0xa8c0f0: r1 = ""
     //     0xa8c0f0: ldr             x1, [PP, #0x880]  ; [pp+0x880] ""
     // 0xa8c0f4: r0 = fromRaw()
-    //     0xa8c0f4: bl              #0x90005c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
+    //     0xa8c0f4: bl              #0x90005c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
     // 0xa8c0f8: stur            x0, [fp, #-0x18]
     // 0xa8c0fc: cmp             w0, NULL
     // 0xa8c100: b.eq            #0xa8c1cc
@@ -2146,11 +2146,11 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8c108: add             x1, PP, #0x49, lsl #12  ; [pp+0x49150] "Main focus"
     //     0xa8c10c: ldr             x1, [x1, #0x150]
     // 0xa8c110: r0 = L()
-    //     0xa8c110: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8c110: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8c114: ldur            x1, [fp, #-0x18]
     // 0xa8c118: stur            x0, [fp, #-0x18]
     // 0xa8c11c: r0 = displayTitle()
-    //     0xa8c11c: bl              #0x9efc10  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::displayTitle
+    //     0xa8c11c: bl              #0x9efc10  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::displayTitle
     // 0xa8c120: ldur            x2, [fp, #-0x18]
     // 0xa8c124: mov             x3, x0
     // 0xa8c128: r0 = AllocateRecord2()
@@ -2224,7 +2224,7 @@ class _YouProfileVCardState extends State<dynamic> {
     // 0xa8c1e8: r1 = ""
     //     0xa8c1e8: ldr             x1, [PP, #0x880]  ; [pp+0x880] ""
     // 0xa8c1ec: r0 = fromRaw()
-    //     0xa8c1ec: bl              #0x90005c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
+    //     0xa8c1ec: bl              #0x90005c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
     // 0xa8c1f0: stur            x0, [fp, #-8]
     // 0xa8c1f4: cmp             w0, NULL
     // 0xa8c1f8: b.eq            #0xa8c2c4
@@ -2233,11 +2233,11 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8c200: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d688] "Secondary focus"
     //     0xa8c204: ldr             x1, [x1, #0x688]
     // 0xa8c208: r0 = L()
-    //     0xa8c208: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8c208: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8c20c: ldur            x1, [fp, #-8]
     // 0xa8c210: stur            x0, [fp, #-8]
     // 0xa8c214: r0 = displayTitle()
-    //     0xa8c214: bl              #0x9efc10  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::displayTitle
+    //     0xa8c214: bl              #0x9efc10  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::displayTitle
     // 0xa8c218: ldur            x2, [fp, #-8]
     // 0xa8c21c: mov             x3, x0
     // 0xa8c220: r0 = AllocateRecord2()
@@ -2343,7 +2343,7 @@ class _YouProfileVCardState extends State<dynamic> {
     // 0xa8c3b8: ldur            x1, [fp, #-8]
     // 0xa8c3bc: stur            x0, [fp, #-0x10]
     // 0xa8c3c0: r0 = _ageYears()
-    //     0xa8c3c0: bl              #0xa8cd34  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::_ageYears
+    //     0xa8c3c0: bl              #0xa8cd34  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::_ageYears
     // 0xa8c3c4: stur            x0, [fp, #-0x18]
     // 0xa8c3c8: cmp             w0, NULL
     // 0xa8c3cc: b.eq            #0xa8c49c
@@ -2352,7 +2352,7 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8c3d4: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b830] "Age"
     //     0xa8c3d8: ldr             x1, [x1, #0x830]
     // 0xa8c3dc: r0 = L()
-    //     0xa8c3dc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8c3dc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8c3e0: stur            x0, [fp, #-0x20]
     // 0xa8c3e4: ldur            x16, [fp, #-0x18]
     // 0xa8c3e8: str             x16, [SP]
@@ -2454,11 +2454,11 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8c4f4: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b838] "Gender"
     //     0xa8c4f8: ldr             x1, [x1, #0x838]
     // 0xa8c4fc: r0 = L()
-    //     0xa8c4fc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8c4fc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8c500: ldur            x1, [fp, #-0x18]
     // 0xa8c504: stur            x0, [fp, #-0x18]
     // 0xa8c508: r0 = localizedGender()
-    //     0xa8c508: bl              #0xa8cca0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::localizedGender
+    //     0xa8c508: bl              #0xa8cca0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::localizedGender
     // 0xa8c50c: ldur            x2, [fp, #-0x18]
     // 0xa8c510: mov             x3, x0
     // 0xa8c514: r0 = AllocateRecord2()
@@ -2524,11 +2524,11 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8c5bc: add             x1, PP, #0x37, lsl #12  ; [pp+0x37338] "Location"
     //     0xa8c5c0: ldr             x1, [x1, #0x338]
     // 0xa8c5c4: r0 = L()
-    //     0xa8c5c4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8c5c4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8c5c8: ldur            x1, [fp, #-8]
     // 0xa8c5cc: stur            x0, [fp, #-0x18]
     // 0xa8c5d0: r0 = _locationValue()
-    //     0xa8c5d0: bl              #0xa8cc14  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::_locationValue
+    //     0xa8c5d0: bl              #0xa8cc14  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::_locationValue
     // 0xa8c5d4: ldur            x2, [fp, #-0x18]
     // 0xa8c5d8: mov             x3, x0
     // 0xa8c5dc: r0 = AllocateRecord2()
@@ -2592,11 +2592,11 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8c67c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45320] "Profile visibility"
     //     0xa8c680: ldr             x1, [x1, #0x320]
     // 0xa8c684: r0 = L()
-    //     0xa8c684: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8c684: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8c688: ldur            x1, [fp, #-8]
     // 0xa8c68c: stur            x0, [fp, #-0x18]
     // 0xa8c690: r0 = _visibilityTitle()
-    //     0xa8c690: bl              #0xa8cb10  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::_visibilityTitle
+    //     0xa8c690: bl              #0xa8cb10  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::_visibilityTitle
     // 0xa8c694: ldur            x2, [fp, #-0x18]
     // 0xa8c698: mov             x3, x0
     // 0xa8c69c: r0 = AllocateRecord2()
@@ -2683,7 +2683,7 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8c77c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d278] "Height"
     //     0xa8c780: ldr             x1, [x1, #0x278]
     // 0xa8c784: r0 = L()
-    //     0xa8c784: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8c784: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8c788: mov             x2, x0
     // 0xa8c78c: ldur            x0, [fp, #-8]
     // 0xa8c790: stur            x2, [fp, #-0x18]
@@ -2709,7 +2709,7 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8c7c4: ldur            x3, [x1, #7]
     // 0xa8c7c8: mov             x1, x3
     // 0xa8c7cc: r0 = heightDisplayLabel()
-    //     0xa8c7cc: bl              #0xa8ca5c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_physicals_support.dart] AccountSetupPhysicalsSupport::heightDisplayLabel
+    //     0xa8c7cc: bl              #0xa8ca5c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_physicals_support.dart] AccountSetupPhysicalsSupport::heightDisplayLabel
     // 0xa8c7d0: ldur            x2, [fp, #-0x18]
     // 0xa8c7d4: mov             x3, x0
     // 0xa8c7d8: r0 = AllocateRecord2()
@@ -2796,7 +2796,7 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8c8b8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d280] "Weight"
     //     0xa8c8bc: ldr             x1, [x1, #0x280]
     // 0xa8c8c0: r0 = L()
-    //     0xa8c8c0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8c8c0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8c8c4: mov             x2, x0
     // 0xa8c8c8: ldur            x0, [fp, #-8]
     // 0xa8c8cc: stur            x2, [fp, #-0x18]
@@ -2822,7 +2822,7 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8c900: ldur            x0, [x1, #7]
     // 0xa8c904: mov             x1, x0
     // 0xa8c908: r0 = weightDisplayLabel()
-    //     0xa8c908: bl              #0xa8c9e8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_physicals_support.dart] AccountSetupPhysicalsSupport::weightDisplayLabel
+    //     0xa8c908: bl              #0xa8c9e8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_physicals_support.dart] AccountSetupPhysicalsSupport::weightDisplayLabel
     // 0xa8c90c: ldur            x2, [fp, #-0x18]
     // 0xa8c910: mov             x3, x0
     // 0xa8c914: r0 = AllocateRecord2()
@@ -2979,7 +2979,7 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8cbd8: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c398] "Private"
     //     0xa8cbdc: ldr             x1, [x1, #0x398]
     // 0xa8cbe0: r0 = L()
-    //     0xa8cbe0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8cbe0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8cbe4: LeaveFrame
     //     0xa8cbe4: mov             SP, fp
     //     0xa8cbe8: ldp             fp, lr, [SP], #0x10
@@ -2989,7 +2989,7 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xa8cbf0: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c390] "Public"
     //     0xa8cbf4: ldr             x1, [x1, #0x390]
     // 0xa8cbf8: r0 = L()
-    //     0xa8cbf8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8cbf8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8cbfc: LeaveFrame
     //     0xa8cbfc: mov             SP, fp
     //     0xa8cc00: ldp             fp, lr, [SP], #0x10
@@ -3320,7 +3320,7 @@ class _YouProfileVCardState extends State<dynamic> {
     // 0xa8d008: ldur            x2, [fp, #-0x10]
     // 0xa8d00c: stur            x3, [fp, #-0x18]
     // 0xa8d010: r1 = Function '<anonymous closure>':.
-    //     0xa8d010: add             x1, PP, #0x49, lsl #12  ; [pp+0x490b8] AnonymousClosure: (0x9d28f0), in [package:ballai/automatic/views/components/foreground/promo_card.dart] _PromoCardTabViewState::build (0x9d2390)
+    //     0xa8d010: add             x1, PP, #0x49, lsl #12  ; [pp+0x490b8] AnonymousClosure: (0x9d28f0), in [package:kourtai/automatic/views/components/foreground/promo_card.dart] _PromoCardTabViewState::build (0x9d2390)
     //     0xa8d014: ldr             x1, [x1, #0xb8]
     // 0xa8d018: r0 = AllocateClosure()
     //     0xa8d018: bl              #0xe553e0  ; AllocateClosureStub
@@ -3364,7 +3364,7 @@ class _YouProfileVCardState extends State<dynamic> {
     // 0xa8d074: r0 = of()
     //     0xa8d074: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa8d078: r1 = Function '<anonymous closure>':.
-    //     0xa8d078: add             x1, PP, #0x49, lsl #12  ; [pp+0x490c0] AnonymousClosure: (0xa8d0e0), in [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openPictureSheet (0xa8d294)
+    //     0xa8d078: add             x1, PP, #0x49, lsl #12  ; [pp+0x490c0] AnonymousClosure: (0xa8d0e0), in [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openPictureSheet (0xa8d294)
     //     0xa8d07c: ldr             x1, [x1, #0xc0]
     // 0xa8d080: r2 = Null
     //     0xa8d080: mov             x2, NULL
@@ -3411,7 +3411,7 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xb5bd9c: mov             fp, SP
     // 0xb5bda0: ldr             x2, [fp, #0x10]
     // 0xb5bda4: r1 = Function 'dispose':.
-    //     0xb5bda4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49080] AnonymousClosure: (0xb5bdbc), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/my_player_card.dart] _MyPlayerCardState::dispose (0xb634dc)
+    //     0xb5bda4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49080] AnonymousClosure: (0xb5bdbc), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/my_player_card.dart] _MyPlayerCardState::dispose (0xb634dc)
     //     0xb5bda8: ldr             x1, [x1, #0x80]
     // 0xb5bdac: r0 = AllocateClosure()
     //     0xb5bdac: bl              #0xe553e0  ; AllocateClosureStub
@@ -3436,7 +3436,7 @@ class _YouProfileVCardState extends State<dynamic> {
     //     0xb5bdd4: cmp             SP, x16
     //     0xb5bdd8: b.ls            #0xb5bdec
     // 0xb5bddc: r0 = dispose()
-    //     0xb5bddc: bl              #0xb634dc  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/my_player_card.dart] _MyPlayerCardState::dispose
+    //     0xb5bddc: bl              #0xb634dc  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/my_player_card.dart] _MyPlayerCardState::dispose
     // 0xb5bde0: LeaveFrame
     //     0xb5bde0: mov             SP, fp
     //     0xb5bde4: ldp             fp, lr, [SP], #0x10
@@ -3525,7 +3525,7 @@ class YouProfileVCard extends StatefulWidget {
     // 0xb7509c: mov             x1, x0
     // 0xb750a0: stur            x0, [fp, #-8]
     // 0xb750a4: r0 = _YouProfileVCardState()
-    //     0xb750a4: bl              #0xb750c0  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::_YouProfileVCardState
+    //     0xb750a4: bl              #0xb750c0  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::_YouProfileVCardState
     // 0xb750a8: ldur            x0, [fp, #-8]
     // 0xb750ac: LeaveFrame
     //     0xb750ac: mov             SP, fp

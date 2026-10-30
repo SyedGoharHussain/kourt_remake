@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart
+// lib: , url: package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart
 
 // class id: 1048781, size: 0x8
 class :: {
@@ -299,7 +299,7 @@ class ProfileWorkoutHistoryNotifier extends ChangeNotifier {
     // 0x8f8424: r0 = _GrowableList.of()
     //     0x8f8424: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x8f8428: r1 = Function '<anonymous closure>':.
-    //     0x8f8428: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2abd0] AnonymousClosure: (0x8f80fc), in [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::_recomputeMerged (0x8f8170)
+    //     0x8f8428: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2abd0] AnonymousClosure: (0x8f80fc), in [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::_recomputeMerged (0x8f8170)
     //     0x8f842c: ldr             x1, [x1, #0xbd0]
     // 0x8f8430: r2 = Null
     //     0x8f8430: mov             x2, NULL
@@ -420,7 +420,7 @@ class ProfileWorkoutHistoryNotifier extends ChangeNotifier {
     // 0x97ea70: mov             x2, x3
     // 0x97ea74: stur            x4, [fp, #-0x58]
     // 0x97ea78: r1 = Function '<anonymous closure>':.
-    //     0x97ea78: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2abd8] AnonymousClosure: (0x97e9e4), in [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::start (0x97ed0c)
+    //     0x97ea78: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2abd8] AnonymousClosure: (0x97e9e4), in [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::start (0x97ed0c)
     //     0x97ea7c: ldr             x1, [x1, #0xbd8]
     // 0x97ea80: r0 = AllocateClosure()
     //     0x97ea80: bl              #0xe553e0  ; AllocateClosureStub
@@ -531,7 +531,7 @@ class ProfileWorkoutHistoryNotifier extends ChangeNotifier {
     // 0x97eba4: r1 = Null
     //     0x97eba4: mov             x1, NULL
     // 0x97eba8: r0 = WorkoutModel.fromMap()
-    //     0x97eba8: bl              #0x74186c  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::WorkoutModel.fromMap
+    //     0x97eba8: bl              #0x74186c  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::WorkoutModel.fromMap
     // 0x97ebac: mov             x3, x0
     // 0x97ebb0: stur            x3, [fp, #-0xa0]
     // 0x97ebb4: LoadField: r1 = r3->field_2f
@@ -624,7 +624,7 @@ class ProfileWorkoutHistoryNotifier extends ChangeNotifier {
     // 0x97ecc0: DecompressPointer r1
     //     0x97ecc0: add             x1, x1, HEAP, lsl #32
     // 0x97ecc4: r0 = _recomputeMerged()
-    //     0x97ecc4: bl              #0x8f8170  ; [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::_recomputeMerged
+    //     0x97ecc4: bl              #0x8f8170  ; [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::_recomputeMerged
     // 0x97ecc8: r0 = Null
     //     0x97ecc8: mov             x0, NULL
     // 0x97eccc: LeaveFrame
@@ -727,7 +727,7 @@ class ProfileWorkoutHistoryNotifier extends ChangeNotifier {
     //     0x97edd4: add             x4, PP, #0x2a, lsl #12  ; [pp+0x2ab90] List(7) [0, 0x2, 0x1, 0x1, "resetData", 0x1, Null]
     //     0x97edd8: ldr             x4, [x4, #0xb90]
     // 0x97eddc: r0 = stop()
-    //     0x97eddc: bl              #0x97f128  ; [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::stop
+    //     0x97eddc: bl              #0x97f128  ; [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::stop
     // 0x97ede0: ldur            x0, [fp, #-0x10]
     // 0x97ede4: ldur            x2, [fp, #-8]
     // 0x97ede8: StoreField: r2->field_2b = r0
@@ -747,7 +747,7 @@ class ProfileWorkoutHistoryNotifier extends ChangeNotifier {
     //     0x97ee10: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
     // 0x97ee14: ldur            x1, [fp, #-8]
     // 0x97ee18: r0 = _rangeStartUtc()
-    //     0x97ee18: bl              #0x97f0a8  ; [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::_rangeStartUtc
+    //     0x97ee18: bl              #0x97f0a8  ; [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::_rangeStartUtc
     // 0x97ee1c: ldur            x2, [fp, #-0x18]
     // 0x97ee20: StoreField: r2->field_13 = r0
     //     0x97ee20: stur            w0, [x2, #0x13]
@@ -759,7 +759,7 @@ class ProfileWorkoutHistoryNotifier extends ChangeNotifier {
     //     0x97ee38: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x97ee3c: ldur            x1, [fp, #-8]
     // 0x97ee40: r0 = _databaseTargets()
-    //     0x97ee40: bl              #0x939418  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_databaseTargets
+    //     0x97ee40: bl              #0x939418  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_databaseTargets
     // 0x97ee44: stur            x0, [fp, #-0x40]
     // 0x97ee48: LoadField: r1 = r0->field_b
     //     0x97ee48: ldur            w1, [x0, #0xb]
@@ -868,14 +868,14 @@ class ProfileWorkoutHistoryNotifier extends ChangeNotifier {
     //     0x97ef64: bl              #0x938d20  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQuery::snapshots
     // 0x97ef68: ldur            x2, [fp, #-0x50]
     // 0x97ef6c: r1 = Function '<anonymous closure>':.
-    //     0x97ef6c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ab98] AnonymousClosure: (0x97ea2c), in [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::start (0x97ed0c)
+    //     0x97ef6c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ab98] AnonymousClosure: (0x97ea2c), in [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::start (0x97ed0c)
     //     0x97ef70: ldr             x1, [x1, #0xb98]
     // 0x97ef74: stur            x0, [fp, #-8]
     // 0x97ef78: r0 = AllocateClosure()
     //     0x97ef78: bl              #0xe553e0  ; AllocateClosureStub
     // 0x97ef7c: ldur            x2, [fp, #-0x50]
     // 0x97ef80: r1 = Function '<anonymous closure>':.
-    //     0x97ef80: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2aba0] AnonymousClosure: (0x97f29c), in [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::start (0x97ed0c)
+    //     0x97ef80: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2aba0] AnonymousClosure: (0x97f29c), in [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::start (0x97ed0c)
     //     0x97ef84: ldr             x1, [x1, #0xba0]
     // 0x97ef88: stur            x0, [fp, #-0x48]
     // 0x97ef8c: r0 = AllocateClosure()
@@ -1020,7 +1020,7 @@ class ProfileWorkoutHistoryNotifier extends ChangeNotifier {
     //     0x97f108: bl              #0x5fb85c  ; [dart:core] DateTime::subtract
     // 0x97f10c: mov             x1, x0
     // 0x97f110: r0 = DateTimeWeekRange.activityWeekStart()
-    //     0x97f110: bl              #0x5fab38  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
+    //     0x97f110: bl              #0x5fab38  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
     // 0x97f114: LeaveFrame
     //     0x97f114: mov             SP, fp
     //     0x97f118: ldp             fp, lr, [SP], #0x10
@@ -1185,7 +1185,7 @@ class ProfileWorkoutHistoryNotifier extends ChangeNotifier {
     // 0x97f2c8: DecompressPointer r1
     //     0x97f2c8: add             x1, x1, HEAP, lsl #32
     // 0x97f2cc: r0 = _recomputeMerged()
-    //     0x97f2cc: bl              #0x8f8170  ; [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::_recomputeMerged
+    //     0x97f2cc: bl              #0x8f8170  ; [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::_recomputeMerged
     // 0x97f2d0: r0 = Null
     //     0x97f2d0: mov             x0, NULL
     // 0x97f2d4: LeaveFrame
@@ -1204,7 +1204,7 @@ class ProfileWorkoutHistoryNotifier extends ChangeNotifier {
     //     0x9b5e24: mov             fp, SP
     // 0x9b5e28: ldr             x2, [fp, #0x10]
     // 0x9b5e2c: r1 = Function 'dispose':.
-    //     0x9b5e2c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cdb0] AnonymousClosure: (0x9b5e44), in [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::dispose (0x9be778)
+    //     0x9b5e2c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cdb0] AnonymousClosure: (0x9b5e44), in [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::dispose (0x9be778)
     //     0x9b5e30: ldr             x1, [x1, #0xdb0]
     // 0x9b5e34: r0 = AllocateClosure()
     //     0x9b5e34: bl              #0xe553e0  ; AllocateClosureStub
@@ -1229,7 +1229,7 @@ class ProfileWorkoutHistoryNotifier extends ChangeNotifier {
     //     0x9b5e5c: cmp             SP, x16
     //     0x9b5e60: b.ls            #0x9b5e74
     // 0x9b5e64: r0 = dispose()
-    //     0x9b5e64: bl              #0x9be778  ; [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::dispose
+    //     0x9b5e64: bl              #0x9be778  ; [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::dispose
     // 0x9b5e68: LeaveFrame
     //     0x9b5e68: mov             SP, fp
     //     0x9b5e6c: ldp             fp, lr, [SP], #0x10
@@ -1261,7 +1261,7 @@ class ProfileWorkoutHistoryNotifier extends ChangeNotifier {
     //     0x9be7a4: add             x4, PP, #0x2a, lsl #12  ; [pp+0x2ab90] List(7) [0, 0x2, 0x1, 0x1, "resetData", 0x1, Null]
     //     0x9be7a8: ldr             x4, [x4, #0xb90]
     // 0x9be7ac: r0 = stop()
-    //     0x9be7ac: bl              #0x97f128  ; [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::stop
+    //     0x9be7ac: bl              #0x97f128  ; [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::stop
     // 0x9be7b0: ldur            x1, [fp, #-8]
     // 0x9be7b4: r0 = dispose()
     //     0x9be7b4: bl              #0xb7893c  ; [package:flutter/src/widgets/shortcuts.dart] _ShortcutManager&Object&Diagnosticable&ChangeNotifier::dispose

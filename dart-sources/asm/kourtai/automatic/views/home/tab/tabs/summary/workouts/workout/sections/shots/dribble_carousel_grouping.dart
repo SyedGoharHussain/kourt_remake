@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/dribble_carousel_grouping.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/dribble_carousel_grouping.dart
 
 // class id: 1048906, size: 0x8
 class :: {
@@ -33,7 +33,7 @@ abstract class DribbleCarouselGrouping extends Object {
     // 0x8f52cc: StoreField: r3->field_f = r0
     //     0x8f52cc: stur            w0, [x3, #0xf]
     // 0x8f52d0: r1 = Function '<anonymous closure>': static.
-    //     0x8f52d0: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e148] AnonymousClosure: (0x8f5af8), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_dribbleCarouselEvents (0x8f5b6c)
+    //     0x8f52d0: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e148] AnonymousClosure: (0x8f5af8), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_dribbleCarouselEvents (0x8f5b6c)
     //     0x8f52d4: ldr             x1, [x1, #0x148]
     // 0x8f52d8: r2 = Null
     //     0x8f52d8: mov             x2, NULL
@@ -52,7 +52,7 @@ abstract class DribbleCarouselGrouping extends Object {
     //     0x8f52f8: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x8f52fc: ldur            x2, [fp, #-0x18]
     // 0x8f5300: r1 = Function '<anonymous closure>': static.
-    //     0x8f5300: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e150] AnonymousClosure: static (0x8f59ec), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/dribble_carousel_grouping.dart] DribbleCarouselGrouping::clusters (0x8f5290)
+    //     0x8f5300: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e150] AnonymousClosure: static (0x8f59ec), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/dribble_carousel_grouping.dart] DribbleCarouselGrouping::clusters (0x8f5290)
     //     0x8f5304: ldr             x1, [x1, #0x150]
     // 0x8f5308: stur            x0, [fp, #-8]
     // 0x8f530c: r0 = AllocateClosure()
@@ -185,7 +185,7 @@ abstract class DribbleCarouselGrouping extends Object {
     //     0x8f5464: add             x1, x1, HEAP, lsl #32
     // 0x8f5468: ldur            x2, [fp, #-0x28]
     // 0x8f546c: r0 = _eventTime()
-    //     0x8f546c: bl              #0x8f5160  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime
+    //     0x8f546c: bl              #0x8f5160  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime
     // 0x8f5470: ldur            x0, [fp, #-0x18]
     // 0x8f5474: stur            d0, [fp, #-0x68]
     // 0x8f5478: LoadField: r1 = r0->field_f
@@ -199,7 +199,7 @@ abstract class DribbleCarouselGrouping extends Object {
     // 0x8f5488: mov             x1, x2
     // 0x8f548c: ldur            x2, [fp, #-0x48]
     // 0x8f5490: r0 = _eventTime()
-    //     0x8f5490: bl              #0x8f5160  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime
+    //     0x8f5490: bl              #0x8f5160  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime
     // 0x8f5494: mov             v1.16b, v0.16b
     // 0x8f5498: ldur            d0, [fp, #-0x68]
     // 0x8f549c: fsub            d2, d0, d1
@@ -679,7 +679,7 @@ abstract class DribbleCarouselGrouping extends Object {
     //     0x8f5a20: add             x1, x1, HEAP, lsl #32
     // 0x8f5a24: ldr             x2, [fp, #0x18]
     // 0x8f5a28: r0 = _eventTime()
-    //     0x8f5a28: bl              #0x8f5160  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime
+    //     0x8f5a28: bl              #0x8f5160  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime
     // 0x8f5a2c: ldur            x0, [fp, #-8]
     // 0x8f5a30: stur            d0, [fp, #-0x10]
     // 0x8f5a34: LoadField: r1 = r0->field_f
@@ -693,7 +693,7 @@ abstract class DribbleCarouselGrouping extends Object {
     // 0x8f5a44: mov             x1, x0
     // 0x8f5a48: ldr             x2, [fp, #0x10]
     // 0x8f5a4c: r0 = _eventTime()
-    //     0x8f5a4c: bl              #0x8f5160  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime
+    //     0x8f5a4c: bl              #0x8f5160  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime
     // 0x8f5a50: mov             v1.16b, v0.16b
     // 0x8f5a54: ldur            d0, [fp, #-0x10]
     // 0x8f5a58: r1 = inline_Allocate_Double()
@@ -774,7 +774,7 @@ class DribbleCarouselCluster extends Object {
     //     0xbebecc: add             x0, x0, HEAP, lsl #32
     // 0xbebed0: stur            x0, [fp, #-8]
     // 0xbebed4: r1 = Function '<anonymous closure>':.
-    //     0xbebed4: add             x1, PP, #0x53, lsl #12  ; [pp+0x53938] AnonymousClosure: (0xbebf34), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/dribble_carousel_grouping.dart] DribbleCarouselCluster::totalPoints (0xbebeb0)
+    //     0xbebed4: add             x1, PP, #0x53, lsl #12  ; [pp+0x53938] AnonymousClosure: (0xbebf34), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/dribble_carousel_grouping.dart] DribbleCarouselCluster::totalPoints (0xbebeb0)
     //     0xbebed8: ldr             x1, [x1, #0x938]
     // 0xbebedc: r2 = Null
     //     0xbebedc: mov             x2, NULL

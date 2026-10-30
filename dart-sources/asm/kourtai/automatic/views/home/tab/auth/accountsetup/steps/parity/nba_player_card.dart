@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart
 
 // class id: 1048854, size: 0x8
 class :: {
@@ -32,7 +32,7 @@ abstract class __NbaPlayerCardState&State&TickerProviderStateMixin extends State
     // 0x7b8bf4: b.ne            #0x7b8c00
     // 0x7b8bf8: mov             x1, x0
     // 0x7b8bfc: r0 = _updateTickerModeNotifier()
-    //     0x7b8bfc: bl              #0x7b8d1c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] __NbaPlayerCardState&State&TickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x7b8bfc: bl              #0x7b8d1c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] __NbaPlayerCardState&State&TickerProviderStateMixin::_updateTickerModeNotifier
     // 0x7b8c00: ldur            x0, [fp, #-8]
     // 0x7b8c04: LoadField: r1 = r0->field_13
     //     0x7b8c04: ldur            w1, [x0, #0x13]
@@ -170,7 +170,7 @@ abstract class __NbaPlayerCardState&State&TickerProviderStateMixin extends State
     // 0x7b8d84: b.eq            #0x7b8dc8
     // 0x7b8d88: mov             x2, x0
     // 0x7b8d8c: r1 = Function '_updateTickers@394311458':.
-    //     0x7b8d8c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3ced0] AnonymousClosure: (0x7b8e40), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] __NbaPlayerCardState&State&TickerProviderStateMixin::_updateTickers (0x7b8e78)
+    //     0x7b8d8c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3ced0] AnonymousClosure: (0x7b8e40), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] __NbaPlayerCardState&State&TickerProviderStateMixin::_updateTickers (0x7b8e78)
     //     0x7b8d90: ldr             x1, [x1, #0xed0]
     // 0x7b8d94: r0 = AllocateClosure()
     //     0x7b8d94: bl              #0xe553e0  ; AllocateClosureStub
@@ -190,7 +190,7 @@ abstract class __NbaPlayerCardState&State&TickerProviderStateMixin extends State
     // 0x7b8dc4: ldur            x3, [fp, #-0x18]
     // 0x7b8dc8: mov             x2, x0
     // 0x7b8dcc: r1 = Function '_updateTickers@394311458':.
-    //     0x7b8dcc: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3ced0] AnonymousClosure: (0x7b8e40), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] __NbaPlayerCardState&State&TickerProviderStateMixin::_updateTickers (0x7b8e78)
+    //     0x7b8dcc: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3ced0] AnonymousClosure: (0x7b8e40), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] __NbaPlayerCardState&State&TickerProviderStateMixin::_updateTickers (0x7b8e78)
     //     0x7b8dd0: ldr             x1, [x1, #0xed0]
     // 0x7b8dd4: r0 = AllocateClosure()
     //     0x7b8dd4: bl              #0xe553e0  ; AllocateClosureStub
@@ -244,7 +244,7 @@ abstract class __NbaPlayerCardState&State&TickerProviderStateMixin extends State
     //     0x7b8e58: cmp             SP, x16
     //     0x7b8e5c: b.ls            #0x7b8e70
     // 0x7b8e60: r0 = _updateTickers()
-    //     0x7b8e60: bl              #0x7b8e78  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] __NbaPlayerCardState&State&TickerProviderStateMixin::_updateTickers
+    //     0x7b8e60: bl              #0x7b8e78  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] __NbaPlayerCardState&State&TickerProviderStateMixin::_updateTickers
     // 0x7b8e64: LeaveFrame
     //     0x7b8e64: mov             SP, fp
     //     0x7b8e68: ldp             fp, lr, [SP], #0x10
@@ -398,10 +398,10 @@ abstract class __NbaPlayerCardState&State&TickerProviderStateMixin extends State
     //     0x8e43d0: b.ls            #0x8e43f4
     // 0x8e43d4: mov             x1, x0
     // 0x8e43d8: r0 = _updateTickerModeNotifier()
-    //     0x8e43d8: bl              #0x7b8d1c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] __NbaPlayerCardState&State&TickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x8e43d8: bl              #0x7b8d1c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] __NbaPlayerCardState&State&TickerProviderStateMixin::_updateTickerModeNotifier
     // 0x8e43dc: ldur            x1, [fp, #-8]
     // 0x8e43e0: r0 = _updateTickers()
-    //     0x8e43e0: bl              #0x7b8e78  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] __NbaPlayerCardState&State&TickerProviderStateMixin::_updateTickers
+    //     0x8e43e0: bl              #0x7b8e78  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] __NbaPlayerCardState&State&TickerProviderStateMixin::_updateTickers
     // 0x8e43e4: r0 = Null
     //     0x8e43e4: mov             x0, NULL
     // 0x8e43e8: LeaveFrame
@@ -438,7 +438,7 @@ abstract class __NbaPlayerCardState&State&TickerProviderStateMixin extends State
     // 0xb61984: b               #0xb619c4
     // 0xb61988: mov             x2, x0
     // 0xb6198c: r1 = Function '_updateTickers@394311458':.
-    //     0xb6198c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3ced0] AnonymousClosure: (0x7b8e40), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] __NbaPlayerCardState&State&TickerProviderStateMixin::_updateTickers (0x7b8e78)
+    //     0xb6198c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3ced0] AnonymousClosure: (0x7b8e40), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] __NbaPlayerCardState&State&TickerProviderStateMixin::_updateTickers (0x7b8e78)
     //     0xb61990: ldr             x1, [x1, #0xed0]
     // 0xb61994: r0 = AllocateClosure()
     //     0xb61994: bl              #0xe553e0  ; AllocateClosureStub
@@ -483,7 +483,7 @@ abstract class __NbaPlayerCardState&State&TickerProviderStateMixin extends State
     //     0xb619f8: cmp             SP, x16
     //     0xb619fc: b.ls            #0xb61a10
     // 0xb61a00: r0 = dispose()
-    //     0xb61a00: bl              #0xb6194c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] __NbaPlayerCardState&State&TickerProviderStateMixin::dispose
+    //     0xb61a00: bl              #0xb6194c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] __NbaPlayerCardState&State&TickerProviderStateMixin::dispose
     // 0xb61a04: LeaveFrame
     //     0xb61a04: mov             SP, fp
     //     0xb61a08: ldp             fp, lr, [SP], #0x10
@@ -553,7 +553,7 @@ class _NbaPlayerCardState extends __NbaPlayerCardState&State&TickerProviderState
     //     0x94f228: bl              #0x81051c  ; [package:flutter/src/animation/animation_controller.dart] AnimationController::forward
     // 0x94f22c: ldur            x2, [fp, #-0x10]
     // 0x94f230: r1 = Function '<anonymous closure>':.
-    //     0x94f230: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cea8] AnonymousClosure: (0x94f2a0), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] _NbaPlayerCardState::initState (0x94f1b4)
+    //     0x94f230: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cea8] AnonymousClosure: (0x94f2a0), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] _NbaPlayerCardState::initState (0x94f1b4)
     //     0x94f234: ldr             x1, [x1, #0xea8]
     // 0x94f238: r0 = AllocateClosure()
     //     0x94f238: bl              #0xe553e0  ; AllocateClosureStub
@@ -660,7 +660,7 @@ class _NbaPlayerCardState extends __NbaPlayerCardState&State&TickerProviderState
     // 0x94f330: DecompressPointer r1
     //     0x94f330: add             x1, x1, HEAP, lsl #32
     // 0x94f334: r0 = _runShimmerLoop()
-    //     0x94f334: bl              #0x94f350  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] _NbaPlayerCardState::_runShimmerLoop
+    //     0x94f334: bl              #0x94f350  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] _NbaPlayerCardState::_runShimmerLoop
     // 0x94f338: r0 = Null
     //     0x94f338: mov             x0, NULL
     // 0x94f33c: LeaveFrame
@@ -888,7 +888,7 @@ class _NbaPlayerCardState extends __NbaPlayerCardState&State&TickerProviderState
     //     0xa0b8a8: add             x4, x4, HEAP, lsl #32
     // 0xa0b8ac: stur            x4, [fp, #-0x10]
     // 0xa0b8b0: r1 = Function '<anonymous closure>':.
-    //     0xa0b8b0: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cde8] AnonymousClosure: (0xa0d390), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] _NbaPlayerCardState::build (0xa0b860)
+    //     0xa0b8b0: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cde8] AnonymousClosure: (0xa0d390), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] _NbaPlayerCardState::build (0xa0b860)
     //     0xa0b8b4: ldr             x1, [x1, #0xde8]
     // 0xa0b8b8: r2 = Null
     //     0xa0b8b8: mov             x2, NULL
@@ -988,7 +988,7 @@ class _NbaPlayerCardState extends __NbaPlayerCardState&State&TickerProviderState
     //     0xa0b9b8: stur            w0, [x3, #7]
     // 0xa0b9bc: ldur            x2, [fp, #-0x18]
     // 0xa0b9c0: r1 = Function '<anonymous closure>':.
-    //     0xa0b9c0: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3ce00] AnonymousClosure: (0xa0b9fc), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] _NbaPlayerCardState::build (0xa0b860)
+    //     0xa0b9c0: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3ce00] AnonymousClosure: (0xa0b9fc), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] _NbaPlayerCardState::build (0xa0b860)
     //     0xa0b9c4: ldr             x1, [x1, #0xe00]
     // 0xa0b9c8: r0 = AllocateClosure()
     //     0xa0b9c8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1307,7 +1307,7 @@ class _NbaPlayerCardState extends __NbaPlayerCardState&State&TickerProviderState
     // 0xa0bd00: r0 = Image()
     //     0xa0bd00: bl              #0x9d20b4  ; AllocateImageStub -> Image (size=0x58)
     // 0xa0bd04: r1 = Function '<anonymous closure>':.
-    //     0xa0bd04: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3ce08] AnonymousClosure: (0xa0d384), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] _NbaPlayerCardState::build (0xa0b860)
+    //     0xa0bd04: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3ce08] AnonymousClosure: (0xa0d384), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] _NbaPlayerCardState::build (0xa0b860)
     //     0xa0bd08: ldr             x1, [x1, #0xe08]
     // 0xa0bd0c: r2 = Null
     //     0xa0bd0c: mov             x2, NULL
@@ -1891,7 +1891,7 @@ class _NbaPlayerCardState extends __NbaPlayerCardState&State&TickerProviderState
     //     0xa0c324: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b980] "OVR"
     //     0xa0c328: ldr             x1, [x1, #0x980]
     // 0xa0c32c: r0 = L()
-    //     0xa0c32c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa0c32c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa0c330: stur            x0, [fp, #-0x28]
     // 0xa0c334: r16 = 0.600000
     //     0xa0c334: add             x16, PP, #0x2b, lsl #12  ; [pp+0x2ba08] 0.6
@@ -2813,11 +2813,11 @@ class _NbaPlayerCardState extends __NbaPlayerCardState&State&TickerProviderState
     //     0xa0cc60: add             x3, x3, HEAP, lsl #32
     // 0xa0cc64: stur            x3, [fp, #-0x58]
     // 0xa0cc68: r0 = instance()
-    //     0xa0cc68: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0xa0cc68: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0xa0cc6c: mov             x1, x0
     // 0xa0cc70: ldur            x2, [fp, #-0x58]
     // 0xa0cc74: r0 = localizedString()
-    //     0xa0cc74: bl              #0x5edd18  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
+    //     0xa0cc74: bl              #0x5edd18  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
     // 0xa0cc78: stur            x0, [fp, #-8]
     // 0xa0cc7c: r0 = Text()
     //     0xa0cc7c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -3532,7 +3532,7 @@ class _NbaPlayerCardState extends __NbaPlayerCardState&State&TickerProviderState
     //     0xb5ac94: mov             fp, SP
     // 0xb5ac98: ldr             x2, [fp, #0x10]
     // 0xb5ac9c: r1 = Function 'dispose':.
-    //     0xb5ac9c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cde0] AnonymousClosure: (0xb5acb4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] _NbaPlayerCardState::dispose (0xb618b4)
+    //     0xb5ac9c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cde0] AnonymousClosure: (0xb5acb4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] _NbaPlayerCardState::dispose (0xb618b4)
     //     0xb5aca0: ldr             x1, [x1, #0xde0]
     // 0xb5aca4: r0 = AllocateClosure()
     //     0xb5aca4: bl              #0xe553e0  ; AllocateClosureStub
@@ -3557,7 +3557,7 @@ class _NbaPlayerCardState extends __NbaPlayerCardState&State&TickerProviderState
     //     0xb5accc: cmp             SP, x16
     //     0xb5acd0: b.ls            #0xb5ace4
     // 0xb5acd4: r0 = dispose()
-    //     0xb5acd4: bl              #0xb618b4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] _NbaPlayerCardState::dispose
+    //     0xb5acd4: bl              #0xb618b4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] _NbaPlayerCardState::dispose
     // 0xb5acd8: LeaveFrame
     //     0xb5acd8: mov             SP, fp
     //     0xb5acdc: ldp             fp, lr, [SP], #0x10
@@ -3617,7 +3617,7 @@ class _NbaPlayerCardState extends __NbaPlayerCardState&State&TickerProviderState
     //     0xb61928: bl              #0x809c40  ; [package:flutter/src/animation/animation_controller.dart] AnimationController::dispose
     // 0xb6192c: ldur            x1, [fp, #-8]
     // 0xb61930: r0 = dispose()
-    //     0xb61930: bl              #0xb6194c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] __NbaPlayerCardState&State&TickerProviderStateMixin::dispose
+    //     0xb61930: bl              #0xb6194c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/nba_player_card.dart] __NbaPlayerCardState&State&TickerProviderStateMixin::dispose
     // 0xb61934: r0 = Null
     //     0xb61934: mov             x0, NULL
     // 0xb61938: LeaveFrame

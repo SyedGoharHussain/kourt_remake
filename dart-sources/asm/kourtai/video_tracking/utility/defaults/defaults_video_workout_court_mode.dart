@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/utility/defaults/defaults_video_workout_court_mode.dart
+// lib: , url: package:kourtai/video_tracking/utility/defaults/defaults_video_workout_court_mode.dart
 
 // class id: 1049196, size: 0x8
 class :: {
@@ -40,7 +40,7 @@ abstract class DefaultsVideoWorkoutCourtMode extends Object {
     //     0x9a0c80: bl              #0x72fe6c  ; [package:shared_preferences/src/shared_preferences_legacy.dart] SharedPreferences::getString
     // 0x9a0c84: mov             x1, x0
     // 0x9a0c88: r0 = fromStorage()
-    //     0x9a0c88: bl              #0x9a0cb0  ; [package:ballai/video_tracking/models/workout_setup/video_workout_court_mode.dart] VideoWorkoutCourtMode::fromStorage
+    //     0x9a0c88: bl              #0x9a0cb0  ; [package:kourtai/video_tracking/models/workout_setup/video_workout_court_mode.dart] VideoWorkoutCourtMode::fromStorage
     // 0x9a0c8c: cmp             w0, NULL
     // 0x9a0c90: b.ne            #0x9a0c9c
     // 0x9a0c94: r0 = Instance_VideoWorkoutCourtMode
@@ -72,7 +72,7 @@ abstract class DefaultsVideoWorkoutCourtMode extends Object {
     //     0xabbedc: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0xabbee0: bl              #0x60afc8  ; InitAsyncStub
     // 0xabbee4: r0 = get()
-    //     0xabbee4: bl              #0x9a0c3c  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_court_mode.dart] DefaultsVideoWorkoutCourtMode::get
+    //     0xabbee4: bl              #0x9a0c3c  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_court_mode.dart] DefaultsVideoWorkoutCourtMode::get
     // 0xabbee8: mov             x1, x0
     // 0xabbeec: stur            x1, [fp, #-0x10]
     // 0xabbef0: r0 = Await()

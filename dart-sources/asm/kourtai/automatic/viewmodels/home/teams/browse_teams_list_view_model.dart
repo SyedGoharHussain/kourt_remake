@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart
+// lib: , url: package:kourtai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart
 
 // class id: 1048766, size: 0x8
 class :: {
@@ -22,7 +22,7 @@ class BrowseTeamsListViewModel extends ChangeNotifier {
     //     0x9706b8: cmp             SP, x16
     //     0x9706bc: b.ls            #0x9706d0
     // 0x9706c0: r0 = loadMoreIfNeeded()
-    //     0x9706c0: bl              #0x9706d8  ; [package:ballai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::loadMoreIfNeeded
+    //     0x9706c0: bl              #0x9706d8  ; [package:kourtai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::loadMoreIfNeeded
     // 0x9706c4: LeaveFrame
     //     0x9706c4: mov             SP, fp
     //     0x9706c8: ldp             fp, lr, [SP], #0x10
@@ -85,7 +85,7 @@ class BrowseTeamsListViewModel extends ChangeNotifier {
     // 0x970754: r2 = true
     //     0x970754: add             x2, NULL, #0x20  ; true
     // 0x970758: r0 = _fetchPage()
-    //     0x970758: bl              #0x9707c4  ; [package:ballai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::_fetchPage
+    //     0x970758: bl              #0x9707c4  ; [package:kourtai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::_fetchPage
     // 0x97075c: mov             x1, x0
     // 0x970760: stur            x1, [fp, #-0x70]
     // 0x970764: r0 = Await()
@@ -208,7 +208,7 @@ class BrowseTeamsListViewModel extends ChangeNotifier {
     //     0x9708a4: add             x4, PP, #0x4d, lsl #12  ; [pp+0x4dd48] List(9) [0, 0x5, 0x2, 0x3, "afterCursor", 0x3, "searchQuery", 0x4, Null]
     //     0x9708a8: ldr             x4, [x4, #0xd48]
     // 0x9708ac: r0 = fetchSuggestedTeams()
-    //     0x9708ac: bl              #0x970e80  ; [package:ballai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::fetchSuggestedTeams
+    //     0x9708ac: bl              #0x970e80  ; [package:kourtai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::fetchSuggestedTeams
     // 0x9708b0: mov             x1, x0
     // 0x9708b4: stur            x1, [fp, #-0xe8]
     // 0x9708b8: r0 = Await()
@@ -672,7 +672,7 @@ class BrowseTeamsListViewModel extends ChangeNotifier {
     // 0x970dc0: mov             x2, x4
     // 0x970dc4: ldur            x1, [fp, #-0xe0]
     // 0x970dc8: r0 = userDiscoveryUserFacingError()
-    //     0x970dc8: bl              #0x970e4c  ; [package:ballai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] ::userDiscoveryUserFacingError
+    //     0x970dc8: bl              #0x970e4c  ; [package:kourtai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] ::userDiscoveryUserFacingError
     // 0x970dcc: ldur            x4, [fp, #-0xb0]
     // 0x970dd0: StoreField: r4->field_3b = r0
     //     0x970dd0: stur            w0, [x4, #0x3b]
@@ -747,7 +747,7 @@ class BrowseTeamsListViewModel extends ChangeNotifier {
     //     0x9b5bfc: mov             fp, SP
     // 0x9b5c00: ldr             x2, [fp, #0x10]
     // 0x9b5c04: r1 = Function 'dispose':.
-    //     0x9b5c04: add             x1, PP, #0x53, lsl #12  ; [pp+0x53f28] AnonymousClosure: (0x9b5c1c), in [package:ballai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::dispose (0x9be32c)
+    //     0x9b5c04: add             x1, PP, #0x53, lsl #12  ; [pp+0x53f28] AnonymousClosure: (0x9b5c1c), in [package:kourtai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::dispose (0x9be32c)
     //     0x9b5c08: ldr             x1, [x1, #0xf28]
     // 0x9b5c0c: r0 = AllocateClosure()
     //     0x9b5c0c: bl              #0xe553e0  ; AllocateClosureStub
@@ -772,7 +772,7 @@ class BrowseTeamsListViewModel extends ChangeNotifier {
     //     0x9b5c34: cmp             SP, x16
     //     0x9b5c38: b.ls            #0x9b5c4c
     // 0x9b5c3c: r0 = dispose()
-    //     0x9b5c3c: bl              #0x9be32c  ; [package:ballai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::dispose
+    //     0x9b5c3c: bl              #0x9be32c  ; [package:kourtai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::dispose
     // 0x9b5c40: LeaveFrame
     //     0x9b5c40: mov             SP, fp
     //     0x9b5c44: ldp             fp, lr, [SP], #0x10
@@ -974,7 +974,7 @@ class BrowseTeamsListViewModel extends ChangeNotifier {
     // 0x9c4e8c: StoreField: r1->field_43 = r0
     //     0x9c4e8c: stur            w0, [x1, #0x43]
     // 0x9c4e90: r0 = loadFirstPage()
-    //     0x9c4e90: bl              #0x9c4eb0  ; [package:ballai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::loadFirstPage
+    //     0x9c4e90: bl              #0x9c4eb0  ; [package:kourtai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::loadFirstPage
     // 0x9c4e94: mov             x1, x0
     // 0x9c4e98: stur            x1, [fp, #-0x10]
     // 0x9c4e9c: r0 = Await()
@@ -1045,7 +1045,7 @@ class BrowseTeamsListViewModel extends ChangeNotifier {
     // 0x9c4f40: r2 = false
     //     0x9c4f40: add             x2, NULL, #0x30  ; false
     // 0x9c4f44: r0 = _fetchPage()
-    //     0x9c4f44: bl              #0x9707c4  ; [package:ballai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::_fetchPage
+    //     0x9c4f44: bl              #0x9707c4  ; [package:kourtai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::_fetchPage
     // 0x9c4f48: mov             x1, x0
     // 0x9c4f4c: stur            x1, [fp, #-0x68]
     // 0x9c4f50: r0 = Await()
@@ -1171,7 +1171,7 @@ class BrowseTeamsListViewModel extends ChangeNotifier {
     // 0xa5bd08: cbnz            w1, #0xa5bd20
     // 0xa5bd0c: ldur            x1, [fp, #-8]
     // 0xa5bd10: r0 = teams()
-    //     0xa5bd10: bl              #0xa5bc30  ; [package:ballai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::teams
+    //     0xa5bd10: bl              #0xa5bc30  ; [package:kourtai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::teams
     // 0xa5bd14: LeaveFrame
     //     0xa5bd14: mov             SP, fp
     //     0xa5bd18: ldp             fp, lr, [SP], #0x10
@@ -1179,10 +1179,10 @@ class BrowseTeamsListViewModel extends ChangeNotifier {
     //     0xa5bd1c: ret             
     // 0xa5bd20: ldur            x1, [fp, #-8]
     // 0xa5bd24: r0 = teams()
-    //     0xa5bd24: bl              #0xa5bc30  ; [package:ballai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::teams
+    //     0xa5bd24: bl              #0xa5bc30  ; [package:kourtai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::teams
     // 0xa5bd28: ldur            x2, [fp, #-0x18]
     // 0xa5bd2c: r1 = Function '<anonymous closure>':.
-    //     0xa5bd2c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dd90] AnonymousClosure: (0xa5bd6c), in [package:ballai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::filteredTeams (0xa5bca0)
+    //     0xa5bd2c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dd90] AnonymousClosure: (0xa5bd6c), in [package:kourtai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::filteredTeams (0xa5bca0)
     //     0xa5bd30: ldr             x1, [x1, #0xd90]
     // 0xa5bd34: stur            x0, [fp, #-8]
     // 0xa5bd38: r0 = AllocateClosure()
@@ -1400,7 +1400,7 @@ class BrowseTeamsListViewModel extends ChangeNotifier {
     // 0xa5bff8: ldur            x0, [fp, #-8]
     // 0xa5bffc: ldur            x2, [fp, #-0x10]
     // 0xa5c000: r1 = Function '<anonymous closure>':.
-    //     0xa5c000: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dd40] AnonymousClosure: (0xa5c058), in [package:ballai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::scheduleSearchReload (0xa5bfb0)
+    //     0xa5c000: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dd40] AnonymousClosure: (0xa5c058), in [package:kourtai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::scheduleSearchReload (0xa5bfb0)
     //     0xa5c004: ldr             x1, [x1, #0xd40]
     // 0xa5c008: r0 = AllocateClosure()
     //     0xa5c008: bl              #0xe553e0  ; AllocateClosureStub
@@ -1452,7 +1452,7 @@ class BrowseTeamsListViewModel extends ChangeNotifier {
     //     0xa5c07c: add             x0, x0, HEAP, lsl #32
     // 0xa5c080: mov             x1, x0
     // 0xa5c084: r0 = loadFirstPage()
-    //     0xa5c084: bl              #0x9c4eb0  ; [package:ballai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::loadFirstPage
+    //     0xa5c084: bl              #0x9c4eb0  ; [package:kourtai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::loadFirstPage
     // 0xa5c088: r0 = Null
     //     0xa5c088: mov             x0, NULL
     // 0xa5c08c: LeaveFrame
@@ -1511,7 +1511,7 @@ class BrowseTeamsListViewModel extends ChangeNotifier {
     //     0xa5c174: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
     // 0xa5c178: ldur            x1, [fp, #-0x10]
     // 0xa5c17c: r0 = loadFirstPage()
-    //     0xa5c17c: bl              #0x9c4eb0  ; [package:ballai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::loadFirstPage
+    //     0xa5c17c: bl              #0x9c4eb0  ; [package:kourtai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::loadFirstPage
     // 0xa5c180: mov             x1, x0
     // 0xa5c184: stur            x1, [fp, #-0x10]
     // 0xa5c188: r0 = Await()
@@ -1596,7 +1596,7 @@ class BrowseTeamsListViewModel extends ChangeNotifier {
     //     0xa5c2b0: add             x0, x0, HEAP, lsl #32
     // 0xa5c2b4: tbnz            w0, #4, #0xa5c2c8
     // 0xa5c2b8: r0 = loadFirstPage()
-    //     0xa5c2b8: bl              #0x9c4eb0  ; [package:ballai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::loadFirstPage
+    //     0xa5c2b8: bl              #0x9c4eb0  ; [package:kourtai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::loadFirstPage
     // 0xa5c2bc: mov             x1, x0
     // 0xa5c2c0: stur            x1, [fp, #-0x10]
     // 0xa5c2c4: r0 = Await()
@@ -1616,7 +1616,7 @@ class BrowseTeamsListViewModel extends ChangeNotifier {
     //     0xd9b7c0: mov             fp, SP
     // 0xd9b7c4: ldr             x2, [fp, #0x10]
     // 0xd9b7c8: r1 = Function 'refresh':.
-    //     0xd9b7c8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dd88] AnonymousClosure: (0xd9b7e0), of [package:ballai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel
+    //     0xd9b7c8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dd88] AnonymousClosure: (0xd9b7e0), of [package:kourtai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel
     //     0xd9b7cc: ldr             x1, [x1, #0xd88]
     // 0xd9b7d0: r0 = AllocateClosure()
     //     0xd9b7d0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1641,7 +1641,7 @@ class BrowseTeamsListViewModel extends ChangeNotifier {
     //     0xd9b7f8: cmp             SP, x16
     //     0xd9b7fc: b.ls            #0xd9b810
     // 0xd9b800: r0 = loadFirstPage()
-    //     0xd9b800: bl              #0x9c4eb0  ; [package:ballai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::loadFirstPage
+    //     0xd9b800: bl              #0x9c4eb0  ; [package:kourtai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::loadFirstPage
     // 0xd9b804: LeaveFrame
     //     0xd9b804: mov             SP, fp
     //     0xd9b808: ldp             fp, lr, [SP], #0x10
@@ -1658,7 +1658,7 @@ class BrowseTeamsListViewModel extends ChangeNotifier {
     //     0xd9bb0c: mov             fp, SP
     // 0xd9bb10: ldr             x2, [fp, #0x10]
     // 0xd9bb14: r1 = Function 'loadMoreIfNeeded':.
-    //     0xd9bb14: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dd80] AnonymousClosure: (0x9706a0), in [package:ballai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::loadMoreIfNeeded (0x9706d8)
+    //     0xd9bb14: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dd80] AnonymousClosure: (0x9706a0), in [package:kourtai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::loadMoreIfNeeded (0x9706d8)
     //     0xd9bb18: ldr             x1, [x1, #0xd80]
     // 0xd9bb1c: r0 = AllocateClosure()
     //     0xd9bb1c: bl              #0xe553e0  ; AllocateClosureStub

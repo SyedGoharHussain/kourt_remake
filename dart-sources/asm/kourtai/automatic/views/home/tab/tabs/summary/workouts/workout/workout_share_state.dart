@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/workout_share_state.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/workout_share_state.dart
 
 // class id: 1048923, size: 0x8
 class :: {
@@ -31,7 +31,7 @@ class WorkoutShareState extends ChangeNotifier {
     // 0x96a958: DecompressPointer r1
     //     0x96a958: add             x1, x1, HEAP, lsl #32
     // 0x96a95c: r0 = isVideoTrackedWorkout()
-    //     0x96a95c: bl              #0x736e2c  ; [package:ballai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
+    //     0x96a95c: bl              #0x736e2c  ; [package:kourtai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
     // 0x96a960: tbz             w0, #4, #0x96a96c
     // 0x96a964: r0 = Null
     //     0x96a964: mov             x0, NULL
@@ -150,8 +150,8 @@ class WorkoutShareState extends ChangeNotifier {
     // 0x96aa98: stur            x0, [fp, #-0xb8]
     // 0x96aa9c: r0 = AllocateArray()
     //     0x96aa9c: bl              #0xe560ac  ; AllocateArrayStub
-    // 0x96aaa0: r16 = "https://ballai.app/api/workouts/"
-    //     0x96aaa0: add             x16, PP, #0x28, lsl #12  ; [pp+0x28530] "https://ballai.app/api/workouts/"
+    // 0x96aaa0: r16 = "https://kourtai.app/api/workouts/"
+    //     0x96aaa0: add             x16, PP, #0x28, lsl #12  ; [pp+0x28530] "https://kourtai.app/api/workouts/"
     //     0x96aaa4: ldr             x16, [x16, #0x530]
     // 0x96aaa8: StoreField: r0->field_f = r16
     //     0x96aaa8: stur            w16, [x0, #0xf]

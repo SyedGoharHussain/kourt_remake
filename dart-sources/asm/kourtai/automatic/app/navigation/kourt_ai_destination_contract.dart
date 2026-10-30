@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/navigation/ball_ai_destination_contract.dart
+// lib: , url: package:kourtai/automatic/app/navigation/kourt_ai_destination_contract.dart
 
 // class id: 1048660, size: 0x8
 class :: {
@@ -6,14 +6,14 @@ class :: {
 
 // class id: 5145, size: 0x2c, field offset: 0x8
 //   const constructor, 
-class BallAiDestinationContract extends Object {
+class KourtAiDestinationContract extends Object {
 
   _OneByteString field_8;
   bool field_c;
   bool field_10;
   bool field_14;
   bool field_18;
-  BallAiDestinationSurface field_1c;
+  KourtAiDestinationSurface field_1c;
   bool field_20;
   bool field_24;
   _ImmutableList<String> field_28;
@@ -51,8 +51,8 @@ class BallAiDestinationContract extends Object {
     // 0x9535e4: r0 = startsWith()
     //     0x9535e4: bl              #0x5d7fa8  ; [dart:core] _StringBase::startsWith
     // 0x9535e8: tbnz            w0, #4, #0x953600
-    // 0x9535ec: r0 = Instance_BallAiDestinationContract
-    //     0x9535ec: add             x0, PP, #0x21, lsl #12  ; [pp+0x211d8] Obj!BallAiDestinationContract@d27d01
+    // 0x9535ec: r0 = Instance_KourtAiDestinationContract
+    //     0x9535ec: add             x0, PP, #0x21, lsl #12  ; [pp+0x211d8] Obj!KourtAiDestinationContract@d27d01
     //     0x9535f0: ldr             x0, [x0, #0x1d8]
     // 0x9535f4: LeaveFrame
     //     0x9535f4: mov             SP, fp
@@ -68,8 +68,8 @@ class BallAiDestinationContract extends Object {
     // 0x953610: r0 = startsWith()
     //     0x953610: bl              #0x5d7fa8  ; [dart:core] _StringBase::startsWith
     // 0x953614: tbnz            w0, #4, #0x95362c
-    // 0x953618: r0 = Instance_BallAiDestinationContract
-    //     0x953618: add             x0, PP, #0x21, lsl #12  ; [pp+0x211e0] Obj!BallAiDestinationContract@d27cd1
+    // 0x953618: r0 = Instance_KourtAiDestinationContract
+    //     0x953618: add             x0, PP, #0x21, lsl #12  ; [pp+0x211e0] Obj!KourtAiDestinationContract@d27cd1
     //     0x95361c: ldr             x0, [x0, #0x1e0]
     // 0x953620: LeaveFrame
     //     0x953620: mov             SP, fp
@@ -108,8 +108,8 @@ class BallAiDestinationContract extends Object {
     // 0x95367c: r0 = ==()
     //     0x95367c: bl              #0xdab674  ; [dart:core] _OneByteString::==
     // 0x953680: tbnz            w0, #4, #0x953698
-    // 0x953684: r0 = Instance_BallAiDestinationContract
-    //     0x953684: add             x0, PP, #0x21, lsl #12  ; [pp+0x21178] Obj!BallAiDestinationContract@d27df1
+    // 0x953684: r0 = Instance_KourtAiDestinationContract
+    //     0x953684: add             x0, PP, #0x21, lsl #12  ; [pp+0x21178] Obj!KourtAiDestinationContract@d27df1
     //     0x953688: ldr             x0, [x0, #0x178]
     // 0x95368c: LeaveFrame
     //     0x95368c: mov             SP, fp
@@ -140,8 +140,8 @@ class BallAiDestinationContract extends Object {
     // 0x9536d8: r0 = ==()
     //     0x9536d8: bl              #0xdab674  ; [dart:core] _OneByteString::==
     // 0x9536dc: tbnz            w0, #4, #0x9536f4
-    // 0x9536e0: r0 = Instance_BallAiDestinationContract
-    //     0x9536e0: add             x0, PP, #0x21, lsl #12  ; [pp+0x21180] Obj!BallAiDestinationContract@d27dc1
+    // 0x9536e0: r0 = Instance_KourtAiDestinationContract
+    //     0x9536e0: add             x0, PP, #0x21, lsl #12  ; [pp+0x21180] Obj!KourtAiDestinationContract@d27dc1
     //     0x9536e4: ldr             x0, [x0, #0x180]
     // 0x9536e8: LeaveFrame
     //     0x9536e8: mov             SP, fp
@@ -164,8 +164,8 @@ class BallAiDestinationContract extends Object {
     // 0x95371c: r0 = ==()
     //     0x95371c: bl              #0xdab674  ; [dart:core] _OneByteString::==
     // 0x953720: tbnz            w0, #4, #0x953738
-    // 0x953724: r0 = Instance_BallAiDestinationContract
-    //     0x953724: add             x0, PP, #0x21, lsl #12  ; [pp+0x21188] Obj!BallAiDestinationContract@d27d91
+    // 0x953724: r0 = Instance_KourtAiDestinationContract
+    //     0x953724: add             x0, PP, #0x21, lsl #12  ; [pp+0x21188] Obj!KourtAiDestinationContract@d27d91
     //     0x953728: ldr             x0, [x0, #0x188]
     // 0x95372c: LeaveFrame
     //     0x95372c: mov             SP, fp
@@ -188,8 +188,8 @@ class BallAiDestinationContract extends Object {
     // 0x953760: r0 = ==()
     //     0x953760: bl              #0xdab674  ; [dart:core] _OneByteString::==
     // 0x953764: tbnz            w0, #4, #0x95377c
-    // 0x953768: r0 = Instance_BallAiDestinationContract
-    //     0x953768: add             x0, PP, #0x21, lsl #12  ; [pp+0x21190] Obj!BallAiDestinationContract@d27d61
+    // 0x953768: r0 = Instance_KourtAiDestinationContract
+    //     0x953768: add             x0, PP, #0x21, lsl #12  ; [pp+0x21190] Obj!KourtAiDestinationContract@d27d61
     //     0x95376c: ldr             x0, [x0, #0x190]
     // 0x953770: LeaveFrame
     //     0x953770: mov             SP, fp
@@ -220,8 +220,8 @@ class BallAiDestinationContract extends Object {
     // 0x9537bc: r0 = ==()
     //     0x9537bc: bl              #0xdab674  ; [dart:core] _OneByteString::==
     // 0x9537c0: tbnz            w0, #4, #0x9537d8
-    // 0x9537c4: r0 = Instance_BallAiDestinationContract
-    //     0x9537c4: add             x0, PP, #0x21, lsl #12  ; [pp+0x21198] Obj!BallAiDestinationContract@d27d31
+    // 0x9537c4: r0 = Instance_KourtAiDestinationContract
+    //     0x9537c4: add             x0, PP, #0x21, lsl #12  ; [pp+0x21198] Obj!KourtAiDestinationContract@d27d31
     //     0x9537c8: ldr             x0, [x0, #0x198]
     // 0x9537cc: LeaveFrame
     //     0x9537cc: mov             SP, fp
@@ -236,8 +236,8 @@ class BallAiDestinationContract extends Object {
     // 0x9537e8: r0 = ==()
     //     0x9537e8: bl              #0xdab674  ; [dart:core] _OneByteString::==
     // 0x9537ec: tbnz            w0, #4, #0x953804
-    // 0x9537f0: r0 = Instance_BallAiDestinationContract
-    //     0x9537f0: add             x0, PP, #0x21, lsl #12  ; [pp+0x21220] Obj!BallAiDestinationContract@d27ca1
+    // 0x9537f0: r0 = Instance_KourtAiDestinationContract
+    //     0x9537f0: add             x0, PP, #0x21, lsl #12  ; [pp+0x21220] Obj!KourtAiDestinationContract@d27ca1
     //     0x9537f4: ldr             x0, [x0, #0x220]
     // 0x9537f8: LeaveFrame
     //     0x9537f8: mov             SP, fp
@@ -246,8 +246,8 @@ class BallAiDestinationContract extends Object {
     //     0x953800: ret             
     // 0x953804: r1 = 0
     //     0x953804: mov             x1, #0
-    // 0x953808: r0 = const [Instance of 'BallAiDestinationContract', Instance of 'BallAiDestinationContract', Instance of 'BallAiDestinationContract', Instance of 'BallAiDestinationContract', Instance of 'BallAiDestinationContract', Instance of 'BallAiDestinationContract', Instance of 'BallAiDestinationContract', Instance of 'BallAiDestinationContract', Instance of 'BallAiDestinationContract', Instance of 'BallAiDestinationContract', Instance of 'BallAiDestinationContract', Instance of 'BallAiDestinationContract', Instance of 'BallAiDestinationContract', Instance of 'BallAiDestinationContract']
-    //     0x953808: add             x0, PP, #0x21, lsl #12  ; [pp+0x21228] List<BallAiDestinationContract>(14)
+    // 0x953808: r0 = const [Instance of 'KourtAiDestinationContract', Instance of 'KourtAiDestinationContract', Instance of 'KourtAiDestinationContract', Instance of 'KourtAiDestinationContract', Instance of 'KourtAiDestinationContract', Instance of 'KourtAiDestinationContract', Instance of 'KourtAiDestinationContract', Instance of 'KourtAiDestinationContract', Instance of 'KourtAiDestinationContract', Instance of 'KourtAiDestinationContract', Instance of 'KourtAiDestinationContract', Instance of 'KourtAiDestinationContract', Instance of 'KourtAiDestinationContract', Instance of 'KourtAiDestinationContract']
+    //     0x953808: add             x0, PP, #0x21, lsl #12  ; [pp+0x21228] List<KourtAiDestinationContract>(14)
     //     0x95380c: ldr             x0, [x0, #0x228]
     // 0x953810: CheckStackOverflow
     //     0x953810: ldr             x16, [THR, #0x38]  ; THR::stack_limit
@@ -296,7 +296,7 @@ class BallAiDestinationContract extends Object {
 }
 
 // class id: 6731, size: 0x14, field offset: 0x14
-enum BallAiDestinationSurface extends _Enum {
+enum KourtAiDestinationSurface extends _Enum {
 
   _Mint field_8;
   _OneByteString field_10;
@@ -308,7 +308,7 @@ enum BallAiDestinationSurface extends _Enum {
     //     0xcd8d58: mov             fp, SP
     // 0xcd8d5c: AllocStack(0x10)
     //     0xcd8d5c: sub             SP, SP, #0x10
-    // 0xcd8d60: SetupParameters(BallAiDestinationSurface this /* r1 => r0, fp-0x8 */)
+    // 0xcd8d60: SetupParameters(KourtAiDestinationSurface this /* r1 => r0, fp-0x8 */)
     //     0xcd8d60: mov             x0, x1
     //     0xcd8d64: stur            x1, [fp, #-8]
     // 0xcd8d68: CheckStackOverflow
@@ -321,8 +321,8 @@ enum BallAiDestinationSurface extends _Enum {
     //     0xcd8d78: mov             x2, #4
     // 0xcd8d7c: r0 = AllocateArray()
     //     0xcd8d7c: bl              #0xe560ac  ; AllocateArrayStub
-    // 0xcd8d80: r16 = "BallAiDestinationSurface."
-    //     0xcd8d80: add             x16, PP, #0x25, lsl #12  ; [pp+0x251f0] "BallAiDestinationSurface."
+    // 0xcd8d80: r16 = "KourtAiDestinationSurface."
+    //     0xcd8d80: add             x16, PP, #0x25, lsl #12  ; [pp+0x251f0] "KourtAiDestinationSurface."
     //     0xcd8d84: ldr             x16, [x16, #0x1f0]
     // 0xcd8d88: StoreField: r0->field_f = r16
     //     0xcd8d88: stur            w16, [x0, #0xf]

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/camera/pose_overlay.dart
+// lib: , url: package:kourtai/video_tracking/camera/pose_overlay.dart
 
 // class id: 1049120, size: 0x8
 class :: {

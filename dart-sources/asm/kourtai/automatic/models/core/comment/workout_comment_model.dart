@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/comment/workout_comment_model.dart
+// lib: , url: package:kourtai/automatic/models/core/comment/workout_comment_model.dart
 
 // class id: 1048681, size: 0x8
 class :: {

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/session/mediums/live_capture_service.dart
+// lib: , url: package:kourtai/video_tracking/session/mediums/live_capture_service.dart
 
 // class id: 1049180, size: 0x8
 class :: {
@@ -31,7 +31,7 @@ class LiveCaptureService extends ChangeNotifier {
     // 0x77b2cc: mov             x1, x0
     // 0x77b2d0: stur            x0, [fp, #-8]
     // 0x77b2d4: r0 = LiveCaptureService._()
-    //     0x77b2d4: bl              #0x77b2f0  ; [package:ballai/video_tracking/session/mediums/live_capture_service.dart] LiveCaptureService::LiveCaptureService._
+    //     0x77b2d4: bl              #0x77b2f0  ; [package:kourtai/video_tracking/session/mediums/live_capture_service.dart] LiveCaptureService::LiveCaptureService._
     // 0x77b2d8: ldur            x0, [fp, #-8]
     // 0x77b2dc: LeaveFrame
     //     0x77b2dc: mov             SP, fp
@@ -70,7 +70,7 @@ class LiveCaptureService extends ChangeNotifier {
     // 0x77b328: mov             x1, x0
     // 0x77b32c: stur            x0, [fp, #-0x10]
     // 0x77b330: r0 = YoloService()
-    //     0x77b330: bl              #0x77b4d8  ; [package:ballai/video_tracking/detection/yolo/yolo_service.dart] YoloService::YoloService
+    //     0x77b330: bl              #0x77b4d8  ; [package:kourtai/video_tracking/detection/yolo/yolo_service.dart] YoloService::YoloService
     // 0x77b334: ldur            x0, [fp, #-0x10]
     // 0x77b338: ldur            x1, [fp, #-8]
     // 0x77b33c: StoreField: r1->field_33 = r0
@@ -91,7 +91,7 @@ class LiveCaptureService extends ChangeNotifier {
     // 0x77b368: mov             x1, x0
     // 0x77b36c: stur            x0, [fp, #-0x10]
     // 0x77b370: r0 = PoseSmoother()
-    //     0x77b370: bl              #0x77b3f8  ; [package:ballai/video_tracking/camera/pose_overlay.dart] PoseSmoother::PoseSmoother
+    //     0x77b370: bl              #0x77b3f8  ; [package:kourtai/video_tracking/camera/pose_overlay.dart] PoseSmoother::PoseSmoother
     // 0x77b374: ldur            x0, [fp, #-0x10]
     // 0x77b378: ldur            x1, [fp, #-8]
     // 0x77b37c: StoreField: r1->field_47 = r0
@@ -143,7 +143,7 @@ class LiveCaptureService extends ChangeNotifier {
     //     0x9b5f94: mov             fp, SP
     // 0x9b5f98: ldr             x2, [fp, #0x10]
     // 0x9b5f9c: r1 = Function 'dispose':.
-    //     0x9b5f9c: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3ad60] AnonymousClosure: (0x9b5fb4), in [package:ballai/video_tracking/session/mediums/live_capture_service.dart] LiveCaptureService::dispose (0x9be964)
+    //     0x9b5f9c: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3ad60] AnonymousClosure: (0x9b5fb4), in [package:kourtai/video_tracking/session/mediums/live_capture_service.dart] LiveCaptureService::dispose (0x9be964)
     //     0x9b5fa0: ldr             x1, [x1, #0xd60]
     // 0x9b5fa4: r0 = AllocateClosure()
     //     0x9b5fa4: bl              #0xe553e0  ; AllocateClosureStub
@@ -168,7 +168,7 @@ class LiveCaptureService extends ChangeNotifier {
     //     0x9b5fcc: cmp             SP, x16
     //     0x9b5fd0: b.ls            #0x9b5fe4
     // 0x9b5fd4: r0 = dispose()
-    //     0x9b5fd4: bl              #0x9be964  ; [package:ballai/video_tracking/session/mediums/live_capture_service.dart] LiveCaptureService::dispose
+    //     0x9b5fd4: bl              #0x9be964  ; [package:kourtai/video_tracking/session/mediums/live_capture_service.dart] LiveCaptureService::dispose
     // 0x9b5fd8: LeaveFrame
     //     0x9b5fd8: mov             SP, fp
     //     0x9b5fdc: ldp             fp, lr, [SP], #0x10
@@ -194,7 +194,7 @@ class LiveCaptureService extends ChangeNotifier {
     //     0x9be980: b.ls            #0x9be9a4
     // 0x9be984: mov             x1, x0
     // 0x9be988: r0 = stop()
-    //     0x9be988: bl              #0x9be9ac  ; [package:ballai/video_tracking/session/mediums/live_capture_service.dart] LiveCaptureService::stop
+    //     0x9be988: bl              #0x9be9ac  ; [package:kourtai/video_tracking/session/mediums/live_capture_service.dart] LiveCaptureService::stop
     // 0x9be98c: ldur            x1, [fp, #-8]
     // 0x9be990: r0 = dispose()
     //     0x9be990: bl              #0xb7893c  ; [package:flutter/src/widgets/shortcuts.dart] _ShortcutManager&Object&Diagnosticable&ChangeNotifier::dispose
@@ -249,7 +249,7 @@ class LiveCaptureService extends ChangeNotifier {
     // 0x9bea08: DecompressPointer r1
     //     0x9bea08: add             x1, x1, HEAP, lsl #32
     // 0x9bea0c: r0 = dispose()
-    //     0x9bea0c: bl              #0x9beac8  ; [package:ballai/video_tracking/detection/yolo/yolo_service.dart] YoloService::dispose
+    //     0x9bea0c: bl              #0x9beac8  ; [package:kourtai/video_tracking/detection/yolo/yolo_service.dart] YoloService::dispose
     // 0x9bea10: r0 = Null
     //     0x9bea10: mov             x0, NULL
     // 0x9bea14: r0 = Await()
@@ -274,7 +274,7 @@ class LiveCaptureService extends ChangeNotifier {
     // 0x9bea40: DecompressPointer r1
     //     0x9bea40: add             x1, x1, HEAP, lsl #32
     // 0x9bea44: r0 = clear()
-    //     0x9bea44: bl              #0x9bea60  ; [package:ballai/video_tracking/camera/pose_overlay.dart] PoseSmoother::clear
+    //     0x9bea44: bl              #0x9bea60  ; [package:kourtai/video_tracking/camera/pose_overlay.dart] PoseSmoother::clear
     // 0x9bea48: ldur            x1, [fp, #-0x10]
     // 0x9bea4c: r0 = notifyListeners()
     //     0x9bea4c: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -329,7 +329,7 @@ class LiveCaptureService extends ChangeNotifier {
     //     0xda1c64: mov             fp, SP
     // 0xda1c68: ldr             x2, [fp, #0x10]
     // 0xda1c6c: r1 = Function '_onYoloFrameProcessed@1367461089':.
-    //     0xda1c6c: add             x1, PP, #0x41, lsl #12  ; [pp+0x41c20] AnonymousClosure: (0xda1c84), in [package:ballai/video_tracking/session/mediums/live_capture_service.dart] LiveCaptureService::_onYoloFrameProcessed (0xda1cc4)
+    //     0xda1c6c: add             x1, PP, #0x41, lsl #12  ; [pp+0x41c20] AnonymousClosure: (0xda1c84), in [package:kourtai/video_tracking/session/mediums/live_capture_service.dart] LiveCaptureService::_onYoloFrameProcessed (0xda1cc4)
     //     0xda1c70: ldr             x1, [x1, #0xc20]
     // 0xda1c74: r0 = AllocateClosure()
     //     0xda1c74: bl              #0xe553e0  ; AllocateClosureStub
@@ -356,7 +356,7 @@ class LiveCaptureService extends ChangeNotifier {
     // 0xda1ca4: ldr             x2, [fp, #0x18]
     // 0xda1ca8: ldr             x3, [fp, #0x10]
     // 0xda1cac: r0 = _onYoloFrameProcessed()
-    //     0xda1cac: bl              #0xda1cc4  ; [package:ballai/video_tracking/session/mediums/live_capture_service.dart] LiveCaptureService::_onYoloFrameProcessed
+    //     0xda1cac: bl              #0xda1cc4  ; [package:kourtai/video_tracking/session/mediums/live_capture_service.dart] LiveCaptureService::_onYoloFrameProcessed
     // 0xda1cb0: LeaveFrame
     //     0xda1cb0: mov             SP, fp
     //     0xda1cb4: ldp             fp, lr, [SP], #0x10
@@ -452,7 +452,7 @@ class LiveCaptureService extends ChangeNotifier {
     // 0xda1da8: mov             x1, x4
     // 0xda1dac: mov             x3, x0
     // 0xda1db0: r0 = _convertDetections()
-    //     0xda1db0: bl              #0xda1ddc  ; [package:ballai/video_tracking/session/mediums/live_capture_service.dart] LiveCaptureService::_convertDetections
+    //     0xda1db0: bl              #0xda1ddc  ; [package:kourtai/video_tracking/session/mediums/live_capture_service.dart] LiveCaptureService::_convertDetections
     // 0xda1db4: ldur            x1, [fp, #-8]
     // 0xda1db8: LoadField: r2 = r1->field_3b
     //     0xda1db8: ldur            x2, [x1, #0x3b]
@@ -503,7 +503,7 @@ class LiveCaptureService extends ChangeNotifier {
     // 0xda1e2c: StoreField: r2->field_13 = r0
     //     0xda1e2c: stur            w0, [x2, #0x13]
     // 0xda1e30: r1 = Function '<anonymous closure>':.
-    //     0xda1e30: add             x1, PP, #0x41, lsl #12  ; [pp+0x41c28] AnonymousClosure: (0xda1e90), in [package:ballai/video_tracking/session/mediums/live_capture_service.dart] LiveCaptureService::_convertDetections (0xda1ddc)
+    //     0xda1e30: add             x1, PP, #0x41, lsl #12  ; [pp+0x41c28] AnonymousClosure: (0xda1e90), in [package:kourtai/video_tracking/session/mediums/live_capture_service.dart] LiveCaptureService::_convertDetections (0xda1ddc)
     //     0xda1e34: ldr             x1, [x1, #0xc28]
     // 0xda1e38: r0 = AllocateClosure()
     //     0xda1e38: bl              #0xe553e0  ; AllocateClosureStub
@@ -579,7 +579,7 @@ class LiveCaptureService extends ChangeNotifier {
     //     0xda1edc: tbz             w0, #0, #0xda1ee4
     //     0xda1ee0: ldur            x1, [x0, #7]
     // 0xda1ee4: r0 = tryFromYolo()
-    //     0xda1ee4: bl              #0xda1efc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::tryFromYolo
+    //     0xda1ee4: bl              #0xda1efc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::tryFromYolo
     // 0xda1ee8: LeaveFrame
     //     0xda1ee8: mov             SP, fp
     //     0xda1eec: ldp             fp, lr, [SP], #0x10

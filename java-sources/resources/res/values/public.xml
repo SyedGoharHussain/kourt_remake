@@ -1396,7 +1396,7 @@
     <public type="color" name="background_floating_material_light" id="0x7f06001e" />
     <public type="color" name="background_material_dark" id="0x7f06001f" />
     <public type="color" name="background_material_light" id="0x7f060020" />
-    <public type="color" name="ball_ai_splash_background" id="0x7f060021" />
+    <public type="color" name="kourt_ai_splash_background" id="0x7f060021" />
     <public type="color" name="bright_foreground_disabled_material_dark" id="0x7f060023" />
     <public type="color" name="bright_foreground_disabled_material_light" id="0x7f060024" />
     <public type="color" name="bright_foreground_inverse_material_dark" id="0x7f060025" />

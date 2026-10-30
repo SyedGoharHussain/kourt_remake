@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_availability.dart
+// lib: , url: package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_availability.dart
 
 // class id: 1049212, size: 0x8
 class :: {
@@ -23,18 +23,18 @@ abstract class DrillLeaderboardAvailability extends Object {
     //     0x74a87c: b.ls            #0x74a8b4
     // 0x74a880: mov             x1, x0
     // 0x74a884: r0 = belongsToShootingProductSurface()
-    //     0x74a884: bl              #0x74a8bc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToShootingProductSurface
+    //     0x74a884: bl              #0x74a8bc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToShootingProductSurface
     // 0x74a888: tbz             w0, #4, #0x74a898
     // 0x74a88c: ldur            x1, [fp, #-8]
     // 0x74a890: r0 = belongsToDribblingProductSurface()
-    //     0x74a890: bl              #0x5edb70  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
+    //     0x74a890: bl              #0x5edb70  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
     // 0x74a894: tbnz            w0, #4, #0x74a8a0
     // 0x74a898: r0 = true
     //     0x74a898: add             x0, NULL, #0x20  ; true
     // 0x74a89c: b               #0x74a8a8
     // 0x74a8a0: ldur            x1, [fp, #-8]
     // 0x74a8a4: r0 = belongsToFinishingProductSurface()
-    //     0x74a8a4: bl              #0x5ed590  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToFinishingProductSurface
+    //     0x74a8a4: bl              #0x5ed590  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToFinishingProductSurface
     // 0x74a8a8: LeaveFrame
     //     0x74a8a8: mov             SP, fp
     //     0x74a8ac: ldp             fp, lr, [SP], #0x10

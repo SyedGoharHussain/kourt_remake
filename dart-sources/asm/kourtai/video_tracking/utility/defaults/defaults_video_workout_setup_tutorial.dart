@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/utility/defaults/defaults_video_workout_setup_tutorial.dart
+// lib: , url: package:kourtai/video_tracking/utility/defaults/defaults_video_workout_setup_tutorial.dart
 
 // class id: 1049199, size: 0x8
 class :: {

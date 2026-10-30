@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/session/root_session_resolver.dart
+// lib: , url: package:kourtai/automatic/app/session/root_session_resolver.dart
 
 // class id: 1048663, size: 0x8
 class :: {
@@ -181,7 +181,7 @@ abstract class RootSessionResolver extends Object {
     // 0x9cd760: mov             x5, x4
     // 0x9cd764: stur            x7, [fp, #-8]
     // 0x9cd768: r0 = disposition()
-    //     0x9cd768: bl              #0x9402c4  ; [package:ballai/automatic/app/navigation/pending_destination_gate.dart] PendingDestinationGate::disposition
+    //     0x9cd768: bl              #0x9402c4  ; [package:kourtai/automatic/app/navigation/pending_destination_gate.dart] PendingDestinationGate::disposition
     // 0x9cd76c: mov             x1, x0
     // 0x9cd770: ldur            x0, [fp, #-0x18]
     // 0x9cd774: stur            x1, [fp, #-0x28]

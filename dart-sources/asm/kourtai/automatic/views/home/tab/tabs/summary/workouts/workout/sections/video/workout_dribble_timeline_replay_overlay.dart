@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart
 
 // class id: 1048912, size: 0x8
 class :: {
@@ -45,7 +45,7 @@ abstract class __ReplayFloatingAwardViewState&State&SingleTickerProviderStateMix
     //     0x7b902c: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x7b9030: mov             x1, x2
     // 0x7b9034: r0 = _updateTickerModeNotifier()
-    //     0x7b9034: bl              #0x7b908c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] __ReplayFloatingAwardViewState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x7b9034: bl              #0x7b908c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] __ReplayFloatingAwardViewState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x7b9038: ldur            x1, [fp, #-8]
     // 0x7b903c: r0 = _updateTicker()
     //     0x7b903c: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -210,7 +210,7 @@ abstract class __ReplayFloatingAwardViewState&State&SingleTickerProviderStateMix
     //     0x8e4418: b.ls            #0x8e443c
     // 0x8e441c: mov             x1, x0
     // 0x8e4420: r0 = _updateTickerModeNotifier()
-    //     0x8e4420: bl              #0x7b908c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] __ReplayFloatingAwardViewState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x8e4420: bl              #0x7b908c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] __ReplayFloatingAwardViewState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x8e4424: ldur            x1, [fp, #-8]
     // 0x8e4428: r0 = _updateTicker()
     //     0x8e4428: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -295,7 +295,7 @@ abstract class __ReplayFloatingAwardViewState&State&SingleTickerProviderStateMix
     //     0xb623f8: cmp             SP, x16
     //     0xb623fc: b.ls            #0xb62410
     // 0xb62400: r0 = dispose()
-    //     0xb62400: bl              #0xb6234c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] __ReplayFloatingAwardViewState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb62400: bl              #0xb6234c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] __ReplayFloatingAwardViewState&State&SingleTickerProviderStateMixin::dispose
     // 0xb62404: LeaveFrame
     //     0xb62404: mov             SP, fp
     //     0xb62408: ldp             fp, lr, [SP], #0x10
@@ -482,7 +482,7 @@ class _ReplayFloatingAwardViewState extends __ReplayFloatingAwardViewState&State
     // 0xa44774: mov             x2, x1
     // 0xa44778: stur            x3, [fp, #-0x10]
     // 0xa4477c: r1 = Function '<anonymous closure>':.
-    //     0xa4477c: add             x1, PP, #0x55, lsl #12  ; [pp+0x55368] AnonymousClosure: (0xa447bc), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _ReplayFloatingAwardViewState::build (0xa44720)
+    //     0xa4477c: add             x1, PP, #0x55, lsl #12  ; [pp+0x55368] AnonymousClosure: (0xa447bc), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _ReplayFloatingAwardViewState::build (0xa44720)
     //     0xa44780: ldr             x1, [x1, #0x368]
     // 0xa44784: r0 = AllocateClosure()
     //     0xa44784: bl              #0xe553e0  ; AllocateClosureStub
@@ -625,7 +625,7 @@ class _ReplayFloatingAwardViewState extends __ReplayFloatingAwardViewState&State
     //     0xa448ec: ldur            d0, [x1, #0xb]
     // 0xa448f0: ldur            x1, [fp, #-0x18]
     // 0xa448f4: r0 = formatted()
-    //     0xa448f4: bl              #0xa43c14  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyScorecard::formatted
+    //     0xa448f4: bl              #0xa43c14  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyScorecard::formatted
     // 0xa448f8: ldur            x1, [fp, #-0x30]
     // 0xa448fc: ArrayStore: r1[1] = r0  ; List_4
     //     0xa448fc: add             x25, x1, #0x13
@@ -917,7 +917,7 @@ class _ReplayFloatingAwardViewState extends __ReplayFloatingAwardViewState&State
     //     0xb5b420: mov             fp, SP
     // 0xb5b424: ldr             x2, [fp, #0x10]
     // 0xb5b428: r1 = Function 'dispose':.
-    //     0xb5b428: add             x1, PP, #0x55, lsl #12  ; [pp+0x55360] AnonymousClosure: (0xb5b440), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _ReplayFloatingAwardViewState::dispose (0xb622e8)
+    //     0xb5b428: add             x1, PP, #0x55, lsl #12  ; [pp+0x55360] AnonymousClosure: (0xb5b440), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _ReplayFloatingAwardViewState::dispose (0xb622e8)
     //     0xb5b42c: ldr             x1, [x1, #0x360]
     // 0xb5b430: r0 = AllocateClosure()
     //     0xb5b430: bl              #0xe553e0  ; AllocateClosureStub
@@ -942,7 +942,7 @@ class _ReplayFloatingAwardViewState extends __ReplayFloatingAwardViewState&State
     //     0xb5b458: cmp             SP, x16
     //     0xb5b45c: b.ls            #0xb5b470
     // 0xb5b460: r0 = dispose()
-    //     0xb5b460: bl              #0xb622e8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _ReplayFloatingAwardViewState::dispose
+    //     0xb5b460: bl              #0xb622e8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _ReplayFloatingAwardViewState::dispose
     // 0xb5b464: LeaveFrame
     //     0xb5b464: mov             SP, fp
     //     0xb5b468: ldp             fp, lr, [SP], #0x10
@@ -978,7 +978,7 @@ class _ReplayFloatingAwardViewState extends __ReplayFloatingAwardViewState&State
     //     0xb6231c: bl              #0x809c40  ; [package:flutter/src/animation/animation_controller.dart] AnimationController::dispose
     // 0xb62320: ldur            x1, [fp, #-8]
     // 0xb62324: r0 = dispose()
-    //     0xb62324: bl              #0xb6234c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] __ReplayFloatingAwardViewState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb62324: bl              #0xb6234c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] __ReplayFloatingAwardViewState&State&SingleTickerProviderStateMixin::dispose
     // 0xb62328: r0 = Null
     //     0xb62328: mov             x0, NULL
     // 0xb6232c: LeaveFrame
@@ -1128,10 +1128,10 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     // 0x8fa2ec: b.eq            #0x8fa300
     // 0x8fa2f0: ldur            x1, [fp, #-8]
     // 0x8fa2f4: r0 = _resetReplayEffects()
-    //     0x8fa2f4: bl              #0x8fb650  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_resetReplayEffects
+    //     0x8fa2f4: bl              #0x8fb650  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_resetReplayEffects
     // 0x8fa2f8: ldur            x1, [fp, #-8]
     // 0x8fa2fc: r0 = _startTicking()
-    //     0x8fa2fc: bl              #0x8fa320  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_startTicking
+    //     0x8fa2fc: bl              #0x8fa320  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_startTicking
     // 0x8fa300: r0 = Null
     //     0x8fa300: mov             x0, NULL
     // 0x8fa304: LeaveFrame
@@ -1180,7 +1180,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     // 0x8fa368: ldur            x0, [fp, #-8]
     // 0x8fa36c: ldur            x2, [fp, #-0x10]
     // 0x8fa370: r1 = Function '<anonymous closure>':.
-    //     0x8fa370: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4df80] AnonymousClosure: (0x8fa3c8), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_startTicking (0x8fa320)
+    //     0x8fa370: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4df80] AnonymousClosure: (0x8fa3c8), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_startTicking (0x8fa320)
     //     0x8fa374: ldr             x1, [x1, #0xf80]
     // 0x8fa378: r0 = AllocateClosure()
     //     0x8fa378: bl              #0xe553e0  ; AllocateClosureStub
@@ -1232,7 +1232,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     //     0x8fa3ec: add             x0, x0, HEAP, lsl #32
     // 0x8fa3f0: mov             x1, x0
     // 0x8fa3f4: r0 = _onTick()
-    //     0x8fa3f4: bl              #0x8fa410  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_onTick
+    //     0x8fa3f4: bl              #0x8fa410  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_onTick
     // 0x8fa3f8: r0 = Null
     //     0x8fa3f8: mov             x0, NULL
     // 0x8fa3fc: LeaveFrame
@@ -1281,7 +1281,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     // 0x8fa464: b.eq            #0x8fa474
     // 0x8fa468: mov             x1, x3
     // 0x8fa46c: r0 = isInitialized()
-    //     0x8fa46c: bl              #0x8fa5a8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::isInitialized
+    //     0x8fa46c: bl              #0x8fa5a8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::isInitialized
     // 0x8fa470: tbz             w0, #4, #0x8fa484
     // 0x8fa474: r0 = Null
     //     0x8fa474: mov             x0, NULL
@@ -1294,7 +1294,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     // 0x8fa488: ldur            x2, [fp, #-0x18]
     // 0x8fa48c: ldur            x1, [fp, #-0x10]
     // 0x8fa490: r0 = position()
-    //     0x8fa490: bl              #0x8fa58c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::position
+    //     0x8fa490: bl              #0x8fa58c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::position
     // 0x8fa494: LoadField: r1 = r0->field_7
     //     0x8fa494: ldur            x1, [x0, #7]
     // 0x8fa498: r0 = 1000
@@ -1328,7 +1328,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     //     0x8fa4f4: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x8fa4f8: ldur            x1, [fp, #-0x10]
     // 0x8fa4fc: r0 = isPlaying()
-    //     0x8fa4fc: bl              #0x8fa570  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::isPlaying
+    //     0x8fa4fc: bl              #0x8fa570  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::isPlaying
     // 0x8fa500: ldur            x2, [fp, #-0x18]
     // 0x8fa504: ArrayStore: r2[0] = r0  ; List_4
     //     0x8fa504: stur            w0, [x2, #0x17]
@@ -1347,7 +1347,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     // 0x8fa528: ret
     //     0x8fa528: ret             
     // 0x8fa52c: r1 = Function '<anonymous closure>':.
-    //     0x8fa52c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4df88] AnonymousClosure: (0x8fa5c4), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_onTick (0x8fa410)
+    //     0x8fa52c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4df88] AnonymousClosure: (0x8fa5c4), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_onTick (0x8fa410)
     //     0x8fa530: ldr             x1, [x1, #0xf88]
     // 0x8fa534: r0 = AllocateClosure()
     //     0x8fa534: bl              #0xe553e0  ; AllocateClosureStub
@@ -1410,7 +1410,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     // 0x8fa60c: mov             v0.16b, v1.16b
     // 0x8fa610: stur            d1, [fp, #-0x10]
     // 0x8fa614: r0 = _syncReplayEffects()
-    //     0x8fa614: bl              #0x8fa644  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_syncReplayEffects
+    //     0x8fa614: bl              #0x8fa644  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_syncReplayEffects
     // 0x8fa618: ldur            x1, [fp, #-8]
     // 0x8fa61c: LoadField: r2 = r1->field_f
     //     0x8fa61c: ldur            w2, [x1, #0xf]
@@ -1507,7 +1507,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     // 0x8fa710: ldur            x1, [fp, #-0x10]
     // 0x8fa714: ldur            d0, [fp, #-0x48]
     // 0x8fa718: r0 = _visibleMadeIndices()
-    //     0x8fa718: bl              #0x8fb4a8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_visibleMadeIndices
+    //     0x8fa718: bl              #0x8fb4a8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_visibleMadeIndices
     // 0x8fa71c: mov             x3, x0
     // 0x8fa720: ldur            x0, [fp, #-0x10]
     // 0x8fa724: stur            x3, [fp, #-0x20]
@@ -1549,7 +1549,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     // 0x8fa78c: mov             x1, x0
     // 0x8fa790: ldur            d0, [fp, #-0x48]
     // 0x8fa794: r0 = _replayMultiplierAt()
-    //     0x8fa794: bl              #0x8fb21c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_replayMultiplierAt
+    //     0x8fa794: bl              #0x8fb21c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_replayMultiplierAt
     // 0x8fa798: ldur            x0, [fp, #-0x10]
     // 0x8fa79c: StoreField: r0->field_33 = d0
     //     0x8fa79c: stur            d0, [x0, #0x33]
@@ -1577,13 +1577,13 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     //     0x8fa7d0: add             x2, x2, HEAP, lsl #32
     // 0x8fa7d4: mov             x1, x2
     // 0x8fa7d8: r0 = isDribbleCounterWorkout()
-    //     0x8fa7d8: bl              #0x8fb124  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribbleCounterWorkout
+    //     0x8fa7d8: bl              #0x8fb124  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribbleCounterWorkout
     // 0x8fa7dc: tbz             w0, #4, #0x8fa86c
     // 0x8fa7e0: ldur            x0, [fp, #-0x10]
     // 0x8fa7e4: mov             x1, x0
     // 0x8fa7e8: ldur            d0, [fp, #-0x48]
     // 0x8fa7ec: r0 = _replayMultiplierAt()
-    //     0x8fa7ec: bl              #0x8fb21c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_replayMultiplierAt
+    //     0x8fa7ec: bl              #0x8fb21c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_replayMultiplierAt
     // 0x8fa7f0: ldur            x0, [fp, #-0x10]
     // 0x8fa7f4: stur            d0, [fp, #-0x58]
     // 0x8fa7f8: LoadField: d1 = r0->field_33
@@ -1595,7 +1595,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     // 0x8fa808: b.le            #0x8fa814
     // 0x8fa80c: mov             x1, x0
     // 0x8fa810: r0 = _celebrateMultiplierIncrease()
-    //     0x8fa810: bl              #0x8fb000  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_celebrateMultiplierIncrease
+    //     0x8fa810: bl              #0x8fb000  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_celebrateMultiplierIncrease
     // 0x8fa814: ldur            x0, [fp, #-0x10]
     // 0x8fa818: ldur            d0, [fp, #-0x58]
     // 0x8fa81c: d1 = 0.000000
@@ -1644,7 +1644,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     // 0x8fa898: ldur            d0, [fp, #-0x50]
     // 0x8fa89c: mov             x1, x0
     // 0x8fa8a0: r0 = _sortedEvents()
-    //     0x8fa8a0: bl              #0x8fae6c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_sortedEvents
+    //     0x8fa8a0: bl              #0x8fae6c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_sortedEvents
     // 0x8fa8a4: mov             x2, x0
     // 0x8fa8a8: stur            x2, [fp, #-0x20]
     // 0x8fa8ac: LoadField: r0 = r2->field_b
@@ -1843,7 +1843,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     // 0x8faae8: b.ge            #0x8faaf4
     // 0x8faaec: ldur            x1, [fp, #-0x10]
     // 0x8faaf0: r0 = _addFloatingAward()
-    //     0x8faaf0: bl              #0x8fab70  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_addFloatingAward
+    //     0x8faaf0: bl              #0x8fab70  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_addFloatingAward
     // 0x8faaf4: ldur            x0, [fp, #-0x30]
     // 0x8faaf8: ldur            x4, [fp, #-0x10]
     // 0x8faafc: ldur            x2, [fp, #-0x20]
@@ -2178,7 +2178,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     //     0x8faec4: bl              #0x5f9020  ; [dart:core] List::List.from
     // 0x8faec8: ldur            x2, [fp, #-0x10]
     // 0x8faecc: r1 = Function '<anonymous closure>':.
-    //     0x8faecc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4df48] AnonymousClosure: (0x8faf08), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_sortedEvents (0x8fae6c)
+    //     0x8faecc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4df48] AnonymousClosure: (0x8faf08), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_sortedEvents (0x8fae6c)
     //     0x8faed0: ldr             x1, [x1, #0xf48]
     // 0x8faed4: stur            x0, [fp, #-8]
     // 0x8faed8: r0 = AllocateClosure()
@@ -2223,7 +2223,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     //     0x8faf34: add             x1, x1, HEAP, lsl #32
     // 0x8faf38: ldr             x2, [fp, #0x18]
     // 0x8faf3c: r0 = _eventTime()
-    //     0x8faf3c: bl              #0x8f5160  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime
+    //     0x8faf3c: bl              #0x8f5160  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime
     // 0x8faf40: ldur            x0, [fp, #-8]
     // 0x8faf44: stur            d0, [fp, #-0x10]
     // 0x8faf48: LoadField: r1 = r0->field_f
@@ -2232,7 +2232,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     //     0x8faf4c: add             x1, x1, HEAP, lsl #32
     // 0x8faf50: ldr             x2, [fp, #0x10]
     // 0x8faf54: r0 = _eventTime()
-    //     0x8faf54: bl              #0x8f5160  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime
+    //     0x8faf54: bl              #0x8f5160  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime
     // 0x8faf58: mov             v1.16b, v0.16b
     // 0x8faf5c: ldur            d0, [fp, #-0x10]
     // 0x8faf60: r1 = inline_Allocate_Double()
@@ -2319,7 +2319,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     //     0x8fb038: stur            w2, [x0, #0x3f]
     // 0x8fb03c: mov             x2, x1
     // 0x8fb040: r1 = Function '<anonymous closure>':.
-    //     0x8fb040: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4df90] AnonymousClosure: (0x8fb07c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_celebrateMultiplierIncrease (0x8fb000)
+    //     0x8fb040: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4df90] AnonymousClosure: (0x8fb07c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_celebrateMultiplierIncrease (0x8fb000)
     //     0x8fb044: ldr             x1, [x1, #0xf90]
     // 0x8fb048: r0 = AllocateClosure()
     //     0x8fb048: bl              #0xe553e0  ; AllocateClosureStub
@@ -2378,7 +2378,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     // 0x8fb0c8: ret
     //     0x8fb0c8: ret             
     // 0x8fb0cc: r1 = Function '<anonymous closure>':.
-    //     0x8fb0cc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4df98] AnonymousClosure: (0x8fb0fc), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_celebrateMultiplierIncrease (0x8fb000)
+    //     0x8fb0cc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4df98] AnonymousClosure: (0x8fb0fc), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_celebrateMultiplierIncrease (0x8fb000)
     //     0x8fb0d0: ldr             x1, [x1, #0xf98]
     // 0x8fb0d4: r0 = AllocateClosure()
     //     0x8fb0d4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2457,10 +2457,10 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     // 0x8fb27c: StoreField: r0->field_13 = r2
     //     0x8fb27c: stur            w2, [x0, #0x13]
     // 0x8fb280: r0 = _sortedEvents()
-    //     0x8fb280: bl              #0x8fae6c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_sortedEvents
+    //     0x8fb280: bl              #0x8fae6c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_sortedEvents
     // 0x8fb284: ldur            x2, [fp, #-0x10]
     // 0x8fb288: r1 = Function '<anonymous closure>':.
-    //     0x8fb288: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dfa0] AnonymousClosure: (0x8fb32c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_replayMultiplierAt (0x8fb21c)
+    //     0x8fb288: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dfa0] AnonymousClosure: (0x8fb32c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_replayMultiplierAt (0x8fb21c)
     //     0x8fb28c: ldr             x1, [x1, #0xfa0]
     // 0x8fb290: stur            x0, [fp, #-8]
     // 0x8fb294: r0 = AllocateClosure()
@@ -2545,7 +2545,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     //     0x8fb358: add             x1, x1, HEAP, lsl #32
     // 0x8fb35c: ldr             x2, [fp, #0x10]
     // 0x8fb360: r0 = _eventTime()
-    //     0x8fb360: bl              #0x8f5160  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime
+    //     0x8fb360: bl              #0x8f5160  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime
     // 0x8fb364: ldur            x1, [fp, #-8]
     // 0x8fb368: LoadField: r2 = r1->field_13
     //     0x8fb368: ldur            w2, [x1, #0x13]
@@ -2609,10 +2609,10 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     // 0x8fb508: StoreField: r0->field_13 = r2
     //     0x8fb508: stur            w2, [x0, #0x13]
     // 0x8fb50c: r0 = _sortedEvents()
-    //     0x8fb50c: bl              #0x8fae6c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_sortedEvents
+    //     0x8fb50c: bl              #0x8fae6c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_sortedEvents
     // 0x8fb510: ldur            x2, [fp, #-0x10]
     // 0x8fb514: r1 = Function '<anonymous closure>':.
-    //     0x8fb514: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dfb8] AnonymousClosure: (0x8fb594), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_visibleMadeIndices (0x8fb4a8)
+    //     0x8fb514: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dfb8] AnonymousClosure: (0x8fb594), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_visibleMadeIndices (0x8fb4a8)
     //     0x8fb518: ldr             x1, [x1, #0xfb8]
     // 0x8fb51c: stur            x0, [fp, #-8]
     // 0x8fb520: r0 = AllocateClosure()
@@ -2682,7 +2682,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     //     0x8fb5c0: add             x1, x1, HEAP, lsl #32
     // 0x8fb5c4: ldr             x2, [fp, #0x10]
     // 0x8fb5c8: r0 = _eventTime()
-    //     0x8fb5c8: bl              #0x8f5160  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime
+    //     0x8fb5c8: bl              #0x8f5160  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime
     // 0x8fb5cc: ldur            x0, [fp, #-8]
     // 0x8fb5d0: LoadField: r1 = r0->field_13
     //     0x8fb5d0: ldur            w1, [x0, #0x13]
@@ -2797,7 +2797,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     //     0x962cb0: cmp             SP, x16
     //     0x962cb4: b.ls            #0x962ccc
     // 0x962cb8: r0 = _startTicking()
-    //     0x962cb8: bl              #0x8fa320  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_startTicking
+    //     0x962cb8: bl              #0x8fa320  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_startTicking
     // 0x962cbc: r0 = Null
     //     0x962cbc: mov             x0, NULL
     // 0x962cc0: LeaveFrame
@@ -2843,12 +2843,12 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     //     0xa43ac0: add             x3, x3, HEAP, lsl #32
     // 0xa43ac4: mov             x1, x3
     // 0xa43ac8: r0 = isDribbleCounterWorkout()
-    //     0xa43ac8: bl              #0x8fb124  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribbleCounterWorkout
+    //     0xa43ac8: bl              #0x8fb124  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribbleCounterWorkout
     // 0xa43acc: stur            x0, [fp, #-0x18]
     // 0xa43ad0: tbnz            w0, #4, #0xa43b00
     // 0xa43ad4: ldur            x1, [fp, #-8]
     // 0xa43ad8: r0 = _replayMadeCount()
-    //     0xa43ad8: bl              #0xa43fcc  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_replayMadeCount
+    //     0xa43ad8: bl              #0xa43fcc  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_replayMadeCount
     // 0xa43adc: mov             x2, x0
     // 0xa43ae0: r0 = BoxInt64Instr(r2)
     //     0xa43ae0: sbfiz           x0, x2, #1, #0x1f
@@ -2862,10 +2862,10 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     // 0xa43afc: b               #0xa43b10
     // 0xa43b00: ldur            x1, [fp, #-8]
     // 0xa43b04: r0 = _replayScore()
-    //     0xa43b04: bl              #0xa43d20  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_replayScore
+    //     0xa43b04: bl              #0xa43d20  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_replayScore
     // 0xa43b08: ldur            x1, [fp, #-8]
     // 0xa43b0c: r0 = formatted()
-    //     0xa43b0c: bl              #0xa43c14  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyScorecard::formatted
+    //     0xa43b0c: bl              #0xa43c14  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyScorecard::formatted
     // 0xa43b10: ldur            x2, [fp, #-0x10]
     // 0xa43b14: ldur            x1, [fp, #-0x18]
     // 0xa43b18: StoreField: r2->field_13 = r0
@@ -2920,7 +2920,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     //     0xa43bb8: b.eq            #0xa43bc0
     //     0xa43bbc: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xa43bc0: r1 = Function '<anonymous closure>':.
-    //     0xa43bc0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4def0] AnonymousClosure: (0xa44034), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::build (0xa43a78)
+    //     0xa43bc0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4def0] AnonymousClosure: (0xa44034), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::build (0xa43a78)
     //     0xa43bc4: ldr             x1, [x1, #0xef0]
     // 0xa43bc8: r0 = AllocateClosure()
     //     0xa43bc8: bl              #0xe553e0  ; AllocateClosureStub
@@ -2971,7 +2971,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     //     0xa43d3c: b.ls            #0xa43dd8
     // 0xa43d40: mov             x1, x0
     // 0xa43d44: r0 = _activeEvent()
-    //     0xa43d44: bl              #0xa43ecc  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_activeEvent
+    //     0xa43d44: bl              #0xa43ecc  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_activeEvent
     // 0xa43d48: cmp             w0, NULL
     // 0xa43d4c: b.ne            #0xa43d60
     // 0xa43d50: d0 = 0.000000
@@ -3003,9 +3003,9 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     //     0xa43d8c: ret             
     // 0xa43d90: ldur            x1, [fp, #-8]
     // 0xa43d94: r0 = _visibleEvents()
-    //     0xa43d94: bl              #0xa43de0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_visibleEvents
+    //     0xa43d94: bl              #0xa43de0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_visibleEvents
     // 0xa43d98: r1 = Function '<anonymous closure>':.
-    //     0xa43d98: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4df38] AnonymousClosure: (0xa43f28), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_replayScore (0xa43d20)
+    //     0xa43d98: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4df38] AnonymousClosure: (0xa43f28), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_replayScore (0xa43d20)
     //     0xa43d9c: ldr             x1, [x1, #0xf38]
     // 0xa43da0: r2 = Null
     //     0xa43da0: mov             x2, NULL
@@ -3056,10 +3056,10 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     // 0xa43e0c: StoreField: r0->field_f = r1
     //     0xa43e0c: stur            w1, [x0, #0xf]
     // 0xa43e10: r0 = _sortedEvents()
-    //     0xa43e10: bl              #0x8fae6c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_sortedEvents
+    //     0xa43e10: bl              #0x8fae6c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_sortedEvents
     // 0xa43e14: ldur            x2, [fp, #-0x10]
     // 0xa43e18: r1 = Function '<anonymous closure>':.
-    //     0xa43e18: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4df40] AnonymousClosure: (0xa43e58), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_visibleEvents (0xa43de0)
+    //     0xa43e18: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4df40] AnonymousClosure: (0xa43e58), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_visibleEvents (0xa43de0)
     //     0xa43e1c: ldr             x1, [x1, #0xf40]
     // 0xa43e20: stur            x0, [fp, #-8]
     // 0xa43e24: r0 = AllocateClosure()
@@ -3106,7 +3106,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     //     0xa43e84: add             x1, x1, HEAP, lsl #32
     // 0xa43e88: ldr             x2, [fp, #0x10]
     // 0xa43e8c: r0 = _eventTime()
-    //     0xa43e8c: bl              #0x8f5160  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime
+    //     0xa43e8c: bl              #0x8f5160  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime
     // 0xa43e90: ldur            x1, [fp, #-8]
     // 0xa43e94: LoadField: r2 = r1->field_f
     //     0xa43e94: ldur            w2, [x1, #0xf]
@@ -3148,7 +3148,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     //     0xa43ee8: b.ls            #0xa43f20
     // 0xa43eec: mov             x1, x0
     // 0xa43ef0: r0 = _visibleEvents()
-    //     0xa43ef0: bl              #0xa43de0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_visibleEvents
+    //     0xa43ef0: bl              #0xa43de0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_visibleEvents
     // 0xa43ef4: LoadField: r1 = r0->field_b
     //     0xa43ef4: ldur            w1, [x0, #0xb]
     // 0xa43ef8: cbnz            w1, #0xa43f04
@@ -3157,7 +3157,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     // 0xa43f00: b               #0xa43f14
     // 0xa43f04: ldur            x1, [fp, #-8]
     // 0xa43f08: r0 = _visibleEvents()
-    //     0xa43f08: bl              #0xa43de0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_visibleEvents
+    //     0xa43f08: bl              #0xa43de0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_visibleEvents
     // 0xa43f0c: mov             x1, x0
     // 0xa43f10: r0 = last()
     //     0xa43f10: bl              #0x8d49c8  ; [dart:core] _GrowableList::last
@@ -3245,9 +3245,9 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     //     0xa43fdc: cmp             SP, x16
     //     0xa43fe0: b.ls            #0xa4402c
     // 0xa43fe4: r0 = _visibleEvents()
-    //     0xa43fe4: bl              #0xa43de0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_visibleEvents
+    //     0xa43fe4: bl              #0xa43de0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_visibleEvents
     // 0xa43fe8: r1 = Function '<anonymous closure>':.
-    //     0xa43fe8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4df50] AnonymousClosure: (0x8f5af8), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_dribbleCarouselEvents (0x8f5b6c)
+    //     0xa43fe8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4df50] AnonymousClosure: (0x8f5af8), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_dribbleCarouselEvents (0x8f5b6c)
     //     0xa43fec: ldr             x1, [x1, #0xf50]
     // 0xa43ff0: r2 = Null
     //     0xa43ff0: mov             x2, NULL
@@ -3491,7 +3491,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     //     0xa44268: stur            d0, [x3, #0xf]
     // 0xa4426c: ldur            x2, [fp, #-0x30]
     // 0xa44270: r1 = Function '<anonymous closure>':.
-    //     0xa44270: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4df10] AnonymousClosure: (0xa44498), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::build (0xa43a78)
+    //     0xa44270: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4df10] AnonymousClosure: (0xa44498), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::build (0xa43a78)
     //     0xa44274: ldr             x1, [x1, #0xf10]
     // 0xa44278: r0 = AllocateClosure()
     //     0xa44278: bl              #0xe553e0  ; AllocateClosureStub
@@ -3703,7 +3703,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     // 0xa444d0: mov             x1, x2
     // 0xa444d4: mov             x2, x0
     // 0xa444d8: r0 = _removeAward()
-    //     0xa444d8: bl              #0xa444f4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_removeAward
+    //     0xa444d8: bl              #0xa444f4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_removeAward
     // 0xa444dc: r0 = Null
     //     0xa444dc: mov             x0, NULL
     // 0xa444e0: LeaveFrame
@@ -3755,7 +3755,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     //     0xa4454c: ret             
     // 0xa44550: mov             x2, x1
     // 0xa44554: r1 = Function '<anonymous closure>':.
-    //     0xa44554: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4df28] AnonymousClosure: (0xa44584), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_removeAward (0xa444f4)
+    //     0xa44554: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4df28] AnonymousClosure: (0xa44584), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_removeAward (0xa444f4)
     //     0xa44558: ldr             x1, [x1, #0xf28]
     // 0xa4455c: r0 = AllocateClosure()
     //     0xa4455c: bl              #0xe553e0  ; AllocateClosureStub
@@ -3799,7 +3799,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     //     0xa445b4: add             x3, x3, HEAP, lsl #32
     // 0xa445b8: stur            x3, [fp, #-8]
     // 0xa445bc: r1 = Function '<anonymous closure>':.
-    //     0xa445bc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4df30] AnonymousClosure: (0xa445ec), in [package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::_removeAward (0xa44690)
+    //     0xa445bc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4df30] AnonymousClosure: (0xa445ec), in [package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::_removeAward (0xa44690)
     //     0xa445c0: ldr             x1, [x1, #0xf30]
     // 0xa445c4: r0 = AllocateClosure()
     //     0xa445c4: bl              #0xe553e0  ; AllocateClosureStub
@@ -3825,7 +3825,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     //     0xb5b3c4: mov             fp, SP
     // 0xb5b3c8: ldr             x2, [fp, #0x10]
     // 0xb5b3cc: r1 = Function 'dispose':.
-    //     0xb5b3cc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dee8] AnonymousClosure: (0xb5b3e4), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::dispose (0xb622a4)
+    //     0xb5b3cc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dee8] AnonymousClosure: (0xb5b3e4), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::dispose (0xb622a4)
     //     0xb5b3d0: ldr             x1, [x1, #0xee8]
     // 0xb5b3d4: r0 = AllocateClosure()
     //     0xb5b3d4: bl              #0xe553e0  ; AllocateClosureStub
@@ -3850,7 +3850,7 @@ class _WorkoutDribbleTimelineReplayOverlayState extends State<dynamic> {
     //     0xb5b3fc: cmp             SP, x16
     //     0xb5b400: b.ls            #0xb5b414
     // 0xb5b404: r0 = dispose()
-    //     0xb5b404: bl              #0xb622a4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::dispose
+    //     0xb5b404: bl              #0xb622a4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::dispose
     // 0xb5b408: LeaveFrame
     //     0xb5b408: mov             SP, fp
     //     0xb5b40c: ldp             fp, lr, [SP], #0x10
@@ -4026,7 +4026,7 @@ class WorkoutDribbleTimelineReplayOverlay extends StatefulWidget {
     // 0xb73834: mov             x1, x0
     // 0xb73838: stur            x0, [fp, #-8]
     // 0xb7383c: r0 = _WorkoutDribbleTimelineReplayOverlayState()
-    //     0xb7383c: bl              #0xb73858  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_WorkoutDribbleTimelineReplayOverlayState
+    //     0xb7383c: bl              #0xb73858  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_dribble_timeline_replay_overlay.dart] _WorkoutDribbleTimelineReplayOverlayState::_WorkoutDribbleTimelineReplayOverlayState
     // 0xb73840: ldur            x0, [fp, #-8]
     // 0xb73844: LeaveFrame
     //     0xb73844: mov             SP, fp

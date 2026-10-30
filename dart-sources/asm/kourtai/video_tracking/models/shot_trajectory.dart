@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/models/shot_trajectory.dart
+// lib: , url: package:kourtai/video_tracking/models/shot_trajectory.dart
 
 // class id: 1049150, size: 0x8
 class :: {

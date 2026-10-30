@@ -1,11 +1,11 @@
-// lib: , url: package:ballai/automatic/app/navigation/ball_ai_primary_destination.dart
+// lib: , url: package:kourtai/automatic/app/navigation/kourt_ai_primary_destination.dart
 
 // class id: 1048661, size: 0x8
 class :: {
 }
 
 // class id: 6729, size: 0x14, field offset: 0x14
-enum BallAiPrimaryDestination extends _Enum {
+enum KourtAiPrimaryDestination extends _Enum {
 
   _Mint field_8;
   _OneByteString field_10;
@@ -18,21 +18,21 @@ enum BallAiPrimaryDestination extends _Enum {
     // 0x8e5e7c: b.gt            #0x8e5e94
     // 0x8e5e80: cmp             x2, #1
     // 0x8e5e84: b.le            #0x8e5ea8
-    // 0x8e5e88: r1 = Instance_BallAiPrimaryDestinationRole
-    //     0x8e5e88: add             x1, PP, #0x21, lsl #12  ; [pp+0x21288] Obj!BallAiPrimaryDestinationRole@d3bb81
+    // 0x8e5e88: r1 = Instance_KourtAiPrimaryDestinationRole
+    //     0x8e5e88: add             x1, PP, #0x21, lsl #12  ; [pp+0x21288] Obj!KourtAiPrimaryDestinationRole@d3bb81
     //     0x8e5e8c: ldr             x1, [x1, #0x288]
     // 0x8e5e90: b               #0x8e5eb0
     // 0x8e5e94: cmp             x2, #3
     // 0x8e5e98: b.gt            #0x8e5ea8
-    // 0x8e5e9c: r1 = Instance_BallAiPrimaryDestinationRole
-    //     0x8e5e9c: add             x1, PP, #0x21, lsl #12  ; [pp+0x21290] Obj!BallAiPrimaryDestinationRole@d3bb61
+    // 0x8e5e9c: r1 = Instance_KourtAiPrimaryDestinationRole
+    //     0x8e5e9c: add             x1, PP, #0x21, lsl #12  ; [pp+0x21290] Obj!KourtAiPrimaryDestinationRole@d3bb61
     //     0x8e5ea0: ldr             x1, [x1, #0x290]
     // 0x8e5ea4: b               #0x8e5eb0
-    // 0x8e5ea8: r1 = Instance_BallAiPrimaryDestinationRole
-    //     0x8e5ea8: add             x1, PP, #0x21, lsl #12  ; [pp+0x21298] Obj!BallAiPrimaryDestinationRole@d3bb41
+    // 0x8e5ea8: r1 = Instance_KourtAiPrimaryDestinationRole
+    //     0x8e5ea8: add             x1, PP, #0x21, lsl #12  ; [pp+0x21298] Obj!KourtAiPrimaryDestinationRole@d3bb41
     //     0x8e5eac: ldr             x1, [x1, #0x298]
-    // 0x8e5eb0: r16 = Instance_BallAiPrimaryDestinationRole
-    //     0x8e5eb0: add             x16, PP, #0x21, lsl #12  ; [pp+0x21298] Obj!BallAiPrimaryDestinationRole@d3bb41
+    // 0x8e5eb0: r16 = Instance_KourtAiPrimaryDestinationRole
+    //     0x8e5eb0: add             x16, PP, #0x21, lsl #12  ; [pp+0x21298] Obj!KourtAiPrimaryDestinationRole@d3bb41
     //     0x8e5eb4: ldr             x16, [x16, #0x298]
     // 0x8e5eb8: cmp             w1, w16
     // 0x8e5ebc: r16 = true
@@ -50,7 +50,7 @@ enum BallAiPrimaryDestination extends _Enum {
     //     0xcd8e20: mov             fp, SP
     // 0xcd8e24: AllocStack(0x10)
     //     0xcd8e24: sub             SP, SP, #0x10
-    // 0xcd8e28: SetupParameters(BallAiPrimaryDestination this /* r1 => r0, fp-0x8 */)
+    // 0xcd8e28: SetupParameters(KourtAiPrimaryDestination this /* r1 => r0, fp-0x8 */)
     //     0xcd8e28: mov             x0, x1
     //     0xcd8e2c: stur            x1, [fp, #-8]
     // 0xcd8e30: CheckStackOverflow
@@ -63,8 +63,8 @@ enum BallAiPrimaryDestination extends _Enum {
     //     0xcd8e40: mov             x2, #4
     // 0xcd8e44: r0 = AllocateArray()
     //     0xcd8e44: bl              #0xe560ac  ; AllocateArrayStub
-    // 0xcd8e48: r16 = "BallAiPrimaryDestination."
-    //     0xcd8e48: add             x16, PP, #0x1e, lsl #12  ; [pp+0x1e470] "BallAiPrimaryDestination."
+    // 0xcd8e48: r16 = "KourtAiPrimaryDestination."
+    //     0xcd8e48: add             x16, PP, #0x1e, lsl #12  ; [pp+0x1e470] "KourtAiPrimaryDestination."
     //     0xcd8e4c: ldr             x16, [x16, #0x470]
     // 0xcd8e50: StoreField: r0->field_f = r16
     //     0xcd8e50: stur            w16, [x0, #0xf]
@@ -90,7 +90,7 @@ enum BallAiPrimaryDestination extends _Enum {
 }
 
 // class id: 6730, size: 0x14, field offset: 0x14
-enum BallAiPrimaryDestinationRole extends _Enum {
+enum KourtAiPrimaryDestinationRole extends _Enum {
 
   _Mint field_8;
   _OneByteString field_10;
@@ -102,7 +102,7 @@ enum BallAiPrimaryDestinationRole extends _Enum {
     //     0xcd8dbc: mov             fp, SP
     // 0xcd8dc0: AllocStack(0x10)
     //     0xcd8dc0: sub             SP, SP, #0x10
-    // 0xcd8dc4: SetupParameters(BallAiPrimaryDestinationRole this /* r1 => r0, fp-0x8 */)
+    // 0xcd8dc4: SetupParameters(KourtAiPrimaryDestinationRole this /* r1 => r0, fp-0x8 */)
     //     0xcd8dc4: mov             x0, x1
     //     0xcd8dc8: stur            x1, [fp, #-8]
     // 0xcd8dcc: CheckStackOverflow
@@ -115,8 +115,8 @@ enum BallAiPrimaryDestinationRole extends _Enum {
     //     0xcd8ddc: mov             x2, #4
     // 0xcd8de0: r0 = AllocateArray()
     //     0xcd8de0: bl              #0xe560ac  ; AllocateArrayStub
-    // 0xcd8de4: r16 = "BallAiPrimaryDestinationRole."
-    //     0xcd8de4: add             x16, PP, #0x25, lsl #12  ; [pp+0x251e8] "BallAiPrimaryDestinationRole."
+    // 0xcd8de4: r16 = "KourtAiPrimaryDestinationRole."
+    //     0xcd8de4: add             x16, PP, #0x25, lsl #12  ; [pp+0x251e8] "KourtAiPrimaryDestinationRole."
     //     0xcd8de8: ldr             x16, [x16, #0x1e8]
     // 0xcd8dec: StoreField: r0->field_f = r16
     //     0xcd8dec: stur            w16, [x0, #0xf]

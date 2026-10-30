@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart
+// lib: , url: package:kourtai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart
 
 // class id: 1048777, size: 0x8
 class :: {
@@ -130,7 +130,7 @@ class DirectMessagesInboxViewModel extends ChangeNotifier {
     //     0x983ad8: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x983adc: mov             x2, x3
     // 0x983ae0: r1 = Function '_onConversationsChanged@971234997':.
-    //     0x983ae0: add             x1, PP, #0x37, lsl #12  ; [pp+0x37100] AnonymousClosure: (0x984818), in [package:ballai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::_onConversationsChanged (0x983b18)
+    //     0x983ae0: add             x1, PP, #0x37, lsl #12  ; [pp+0x37100] AnonymousClosure: (0x984818), in [package:kourtai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::_onConversationsChanged (0x983b18)
     //     0x983ae4: ldr             x1, [x1, #0x100]
     // 0x983ae8: r0 = AllocateClosure()
     //     0x983ae8: bl              #0xe553e0  ; AllocateClosureStub
@@ -140,7 +140,7 @@ class DirectMessagesInboxViewModel extends ChangeNotifier {
     //     0x983af4: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0x983af8: ldur            x1, [fp, #-8]
     // 0x983afc: r0 = _onConversationsChanged()
-    //     0x983afc: bl              #0x983b18  ; [package:ballai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::_onConversationsChanged
+    //     0x983afc: bl              #0x983b18  ; [package:kourtai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::_onConversationsChanged
     // 0x983b00: r0 = Null
     //     0x983b00: mov             x0, NULL
     // 0x983b04: LeaveFrame
@@ -171,7 +171,7 @@ class DirectMessagesInboxViewModel extends ChangeNotifier {
     // 0x983b3c: DecompressPointer r1
     //     0x983b3c: add             x1, x1, HEAP, lsl #32
     // 0x983b40: r0 = currentUserConversations()
-    //     0x983b40: bl              #0x9847b4  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::currentUserConversations
+    //     0x983b40: bl              #0x9847b4  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::currentUserConversations
     // 0x983b44: mov             x2, x0
     // 0x983b48: r1 = <ConversationModel>
     //     0x983b48: add             x1, PP, #0x11, lsl #12  ; [pp+0x11ae0] TypeArguments: <ConversationModel>
@@ -202,7 +202,7 @@ class DirectMessagesInboxViewModel extends ChangeNotifier {
     // 0x983b90: DecompressPointer r2
     //     0x983b90: add             x2, x2, HEAP, lsl #32
     // 0x983b94: r0 = _loadMetadataIfNeeded()
-    //     0x983b94: bl              #0x983bb0  ; [package:ballai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::_loadMetadataIfNeeded
+    //     0x983b94: bl              #0x983bb0  ; [package:kourtai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::_loadMetadataIfNeeded
     // 0x983b98: r0 = Null
     //     0x983b98: mov             x0, NULL
     // 0x983b9c: LeaveFrame
@@ -338,7 +338,7 @@ class DirectMessagesInboxViewModel extends ChangeNotifier {
     // 0x983cf0: mov             x1, x0
     // 0x983cf4: stur            x0, [fp, #-0x38]
     // 0x983cf8: r0 = effectiveType()
-    //     0x983cf8: bl              #0x981698  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::effectiveType
+    //     0x983cf8: bl              #0x981698  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::effectiveType
     // 0x983cfc: r16 = Instance_ConversationType
     //     0x983cfc: add             x16, PP, #0x11, lsl #12  ; [pp+0x11b20] Obj!ConversationType@d3b721
     //     0x983d00: ldr             x16, [x16, #0xb20]
@@ -433,12 +433,12 @@ class DirectMessagesInboxViewModel extends ChangeNotifier {
     // 0x983e14: ldur            x1, [fp, #-0x10]
     // 0x983e18: ldur            x2, [fp, #-0x28]
     // 0x983e1c: r0 = _loadUsersIfNeeded()
-    //     0x983e1c: bl              #0x98434c  ; [package:ballai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::_loadUsersIfNeeded
+    //     0x983e1c: bl              #0x98434c  ; [package:kourtai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::_loadUsersIfNeeded
     // 0x983e20: ldur            x1, [fp, #-0x10]
     // 0x983e24: ldur            x2, [fp, #-0x30]
     // 0x983e28: stur            x0, [fp, #-0x10]
     // 0x983e2c: r0 = _loadTeamsIfNeeded()
-    //     0x983e2c: bl              #0x984014  ; [package:ballai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::_loadTeamsIfNeeded
+    //     0x983e2c: bl              #0x984014  ; [package:kourtai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::_loadTeamsIfNeeded
     // 0x983e30: r1 = Null
     //     0x983e30: mov             x1, NULL
     // 0x983e34: r2 = 4
@@ -537,7 +537,7 @@ class DirectMessagesInboxViewModel extends ChangeNotifier {
     // 0x984068: DecompressPointer r1
     //     0x984068: add             x1, x1, HEAP, lsl #32
     // 0x98406c: r0 = currentTeams()
-    //     0x98406c: bl              #0x651818  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeams
+    //     0x98406c: bl              #0x651818  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeams
     // 0x984070: stur            x0, [fp, #-0x50]
     // 0x984074: LoadField: r1 = r0->field_b
     //     0x984074: ldur            w1, [x0, #0xb]
@@ -596,7 +596,7 @@ class DirectMessagesInboxViewModel extends ChangeNotifier {
     // 0x984118: b               #0x984094
     // 0x98411c: ldur            x2, [fp, #-0x20]
     // 0x984120: r1 = Function '<anonymous closure>':.
-    //     0x984120: add             x1, PP, #0x37, lsl #12  ; [pp+0x37090] AnonymousClosure: (0x9842f8), in [package:ballai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::_loadTeamsIfNeeded (0x984014)
+    //     0x984120: add             x1, PP, #0x37, lsl #12  ; [pp+0x37090] AnonymousClosure: (0x9842f8), in [package:kourtai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::_loadTeamsIfNeeded (0x984014)
     //     0x984124: ldr             x1, [x1, #0x90]
     // 0x984128: r0 = AllocateClosure()
     //     0x984128: bl              #0xe553e0  ; AllocateClosureStub
@@ -621,7 +621,7 @@ class DirectMessagesInboxViewModel extends ChangeNotifier {
     //     0x984158: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x98415c: ldur            x2, [fp, #-0x20]
     // 0x984160: r1 = Function '<anonymous closure>':.
-    //     0x984160: add             x1, PP, #0x37, lsl #12  ; [pp+0x37098] AnonymousClosure: (0x9841c4), in [package:ballai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::_loadTeamsIfNeeded (0x984014)
+    //     0x984160: add             x1, PP, #0x37, lsl #12  ; [pp+0x37098] AnonymousClosure: (0x9841c4), in [package:kourtai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::_loadTeamsIfNeeded (0x984014)
     //     0x984164: ldr             x1, [x1, #0x98]
     // 0x984168: r0 = AllocateClosure()
     //     0x984168: bl              #0xe553e0  ; AllocateClosureStub
@@ -716,7 +716,7 @@ class DirectMessagesInboxViewModel extends ChangeNotifier {
     // 0x984258: mov             x1, x0
     // 0x98425c: stur            x0, [fp, #-0x78]
     // 0x984260: r0 = fromFirestore()
-    //     0x984260: bl              #0x7698b4  ; [package:ballai/automatic/models/core/team/team_model.dart] TeamModel::fromFirestore
+    //     0x984260: bl              #0x7698b4  ; [package:kourtai/automatic/models/core/team/team_model.dart] TeamModel::fromFirestore
     // 0x984264: stur            x0, [fp, #-0x78]
     // 0x984268: cmp             w0, NULL
     // 0x98426c: b.eq            #0x9842e8
@@ -747,11 +747,11 @@ class DirectMessagesInboxViewModel extends ChangeNotifier {
     //     0x9842b0: add             x1, PP, #0x37, lsl #12  ; [pp+0x370a8] "Couldn\'t load messages. Please try again."
     //     0x9842b4: ldr             x1, [x1, #0xa8]
     // 0x9842b8: r0 = L()
-    //     0x9842b8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9842b8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9842bc: ldur            x1, [fp, #-0x78]
     // 0x9842c0: mov             x2, x0
     // 0x9842c4: r0 = userFacingError()
-    //     0x9842c4: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0x9842c4: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0x9842c8: ldur            x1, [fp, #-0x70]
     // 0x9842cc: StoreField: r1->field_3f = r0
     //     0x9842cc: stur            w0, [x1, #0x3f]
@@ -836,7 +836,7 @@ class DirectMessagesInboxViewModel extends ChangeNotifier {
     //     0x984394: bl              #0x60afc8  ; InitAsyncStub
     // 0x984398: ldur            x2, [fp, #-0xa8]
     // 0x98439c: r1 = Function '<anonymous closure>':.
-    //     0x98439c: add             x1, PP, #0x37, lsl #12  ; [pp+0x370b0] AnonymousClosure: (0x984760), in [package:ballai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::_loadUsersIfNeeded (0x98434c)
+    //     0x98439c: add             x1, PP, #0x37, lsl #12  ; [pp+0x370b0] AnonymousClosure: (0x984760), in [package:kourtai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::_loadUsersIfNeeded (0x98434c)
     //     0x9843a0: ldr             x1, [x1, #0xb0]
     // 0x9843a4: r0 = AllocateClosure()
     //     0x9843a4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1079,7 +1079,7 @@ class DirectMessagesInboxViewModel extends ChangeNotifier {
     //     0x984634: mov             x1, NULL
     // 0x984638: stur            x0, [fp, #-0xf0]
     // 0x98463c: r0 = UserModel.fromFirestore()
-    //     0x98463c: bl              #0x8fe49c  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
+    //     0x98463c: bl              #0x8fe49c  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
     // 0x984640: ldur            x1, [fp, #-0xc0]
     // 0x984644: ldur            x2, [fp, #-0xf0]
     // 0x984648: stur            x0, [fp, #-0x100]
@@ -1113,17 +1113,17 @@ class DirectMessagesInboxViewModel extends ChangeNotifier {
     // 0x9846a8: mov             x1, x0
     // 0x9846ac: stur            x0, [fp, #-0xd0]
     // 0x9846b0: r0 = instance()
-    //     0x9846b0: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0x9846b0: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0x9846b4: mov             x1, x0
     // 0x9846b8: r2 = "Couldn\'t load messages. Please try again."
     //     0x9846b8: add             x2, PP, #0x37, lsl #12  ; [pp+0x370a8] "Couldn\'t load messages. Please try again."
     //     0x9846bc: ldr             x2, [x2, #0xa8]
     // 0x9846c0: r0 = localizedString()
-    //     0x9846c0: bl              #0x5edd18  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
+    //     0x9846c0: bl              #0x5edd18  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
     // 0x9846c4: ldur            x1, [fp, #-0xd0]
     // 0x9846c8: mov             x2, x0
     // 0x9846cc: r0 = userFacingError()
-    //     0x9846cc: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0x9846cc: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0x9846d0: ldur            x1, [fp, #-0x98]
     // 0x9846d4: StoreField: r1->field_3f = r0
     //     0x9846d4: stur            w0, [x1, #0x3f]
@@ -1223,7 +1223,7 @@ class DirectMessagesInboxViewModel extends ChangeNotifier {
     //     0x984830: cmp             SP, x16
     //     0x984834: b.ls            #0x984848
     // 0x984838: r0 = _onConversationsChanged()
-    //     0x984838: bl              #0x983b18  ; [package:ballai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::_onConversationsChanged
+    //     0x984838: bl              #0x983b18  ; [package:kourtai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::_onConversationsChanged
     // 0x98483c: LeaveFrame
     //     0x98483c: mov             SP, fp
     //     0x984840: ldp             fp, lr, [SP], #0x10
@@ -1240,7 +1240,7 @@ class DirectMessagesInboxViewModel extends ChangeNotifier {
     //     0x9b5d6c: mov             fp, SP
     // 0x9b5d70: ldr             x2, [fp, #0x10]
     // 0x9b5d74: r1 = Function 'dispose':.
-    //     0x9b5d74: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cdb8] AnonymousClosure: (0x9b5d8c), in [package:ballai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::dispose (0x9be688)
+    //     0x9b5d74: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cdb8] AnonymousClosure: (0x9b5d8c), in [package:kourtai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::dispose (0x9be688)
     //     0x9b5d78: ldr             x1, [x1, #0xdb8]
     // 0x9b5d7c: r0 = AllocateClosure()
     //     0x9b5d7c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1265,7 +1265,7 @@ class DirectMessagesInboxViewModel extends ChangeNotifier {
     //     0x9b5da4: cmp             SP, x16
     //     0x9b5da8: b.ls            #0x9b5dbc
     // 0x9b5dac: r0 = dispose()
-    //     0x9b5dac: bl              #0x9be688  ; [package:ballai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::dispose
+    //     0x9b5dac: bl              #0x9be688  ; [package:kourtai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::dispose
     // 0x9b5db0: LeaveFrame
     //     0x9b5db0: mov             SP, fp
     //     0x9b5db4: ldp             fp, lr, [SP], #0x10
@@ -1296,7 +1296,7 @@ class DirectMessagesInboxViewModel extends ChangeNotifier {
     // 0x9be6b0: mov             x2, x0
     // 0x9be6b4: stur            x3, [fp, #-8]
     // 0x9be6b8: r1 = Function '_onConversationsChanged@971234997':.
-    //     0x9be6b8: add             x1, PP, #0x37, lsl #12  ; [pp+0x37100] AnonymousClosure: (0x984818), in [package:ballai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::_onConversationsChanged (0x983b18)
+    //     0x9be6b8: add             x1, PP, #0x37, lsl #12  ; [pp+0x37100] AnonymousClosure: (0x984818), in [package:kourtai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::_onConversationsChanged (0x983b18)
     //     0x9be6bc: ldr             x1, [x1, #0x100]
     // 0x9be6c0: r0 = AllocateClosure()
     //     0x9be6c0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1333,7 +1333,7 @@ class DirectMessagesInboxViewModel extends ChangeNotifier {
     //     0xa93a10: cmp             SP, x16
     //     0xa93a14: b.ls            #0xa93a28
     // 0xa93a18: r0 = refresh()
-    //     0xa93a18: bl              #0xa93a30  ; [package:ballai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::refresh
+    //     0xa93a18: bl              #0xa93a30  ; [package:kourtai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::refresh
     // 0xa93a1c: LeaveFrame
     //     0xa93a1c: mov             SP, fp
     //     0xa93a20: ldp             fp, lr, [SP], #0x10
@@ -1386,18 +1386,18 @@ class DirectMessagesInboxViewModel extends ChangeNotifier {
     // 0xa93a90: mov             x1, x2
     // 0xa93a94: stur            x2, [fp, #-0x18]
     // 0xa93a98: r0 = refreshConversationsFromServer()
-    //     0xa93a98: bl              #0xa93ae8  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::refreshConversationsFromServer
+    //     0xa93a98: bl              #0xa93ae8  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::refreshConversationsFromServer
     // 0xa93a9c: mov             x1, x0
     // 0xa93aa0: stur            x1, [fp, #-0x20]
     // 0xa93aa4: r0 = Await()
     //     0xa93aa4: bl              #0x60ad4c  ; AwaitStub
     // 0xa93aa8: ldur            x1, [fp, #-0x18]
     // 0xa93aac: r0 = currentUserConversations()
-    //     0xa93aac: bl              #0x9847b4  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::currentUserConversations
+    //     0xa93aac: bl              #0x9847b4  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::currentUserConversations
     // 0xa93ab0: ldur            x1, [fp, #-0x10]
     // 0xa93ab4: mov             x2, x0
     // 0xa93ab8: r0 = _loadMetadataIfNeeded()
-    //     0xa93ab8: bl              #0x983bb0  ; [package:ballai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::_loadMetadataIfNeeded
+    //     0xa93ab8: bl              #0x983bb0  ; [package:kourtai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::_loadMetadataIfNeeded
     // 0xa93abc: mov             x1, x0
     // 0xa93ac0: stur            x1, [fp, #-0x18]
     // 0xa93ac4: r0 = Await()
@@ -1459,7 +1459,7 @@ class DirectMessagesInboxViewModel extends ChangeNotifier {
     // 0xa94180: ret
     //     0xa94180: ret             
     // 0xa94184: r0 = otherParticipantId()
-    //     0xa94184: bl              #0x983ed0  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::otherParticipantId
+    //     0xa94184: bl              #0x983ed0  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::otherParticipantId
     // 0xa94188: cmp             w0, NULL
     // 0xa9418c: b.ne            #0xa941a0
     // 0xa94190: r0 = Null
@@ -1563,7 +1563,7 @@ class DirectMessagesInboxViewModel extends ChangeNotifier {
     // 0xa94290: DecompressPointer r1
     //     0xa94290: add             x1, x1, HEAP, lsl #32
     // 0xa94294: r0 = currentTeams()
-    //     0xa94294: bl              #0x651818  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeams
+    //     0xa94294: bl              #0x651818  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeams
     // 0xa94298: mov             x1, x0
     // 0xa9429c: stur            x1, [fp, #-0x18]
     // 0xa942a0: LoadField: r0 = r1->field_b
@@ -1663,7 +1663,7 @@ class DirectMessagesInboxViewModel extends ChangeNotifier {
     // 0xc17200: ret
     //     0xc17200: ret             
     // 0xc17204: r0 = unreadCount()
-    //     0xc17204: bl              #0x980f54  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::unreadCount
+    //     0xc17204: bl              #0x980f54  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::unreadCount
     // 0xc17208: LeaveFrame
     //     0xc17208: mov             SP, fp
     //     0xc1720c: ldp             fp, lr, [SP], #0x10

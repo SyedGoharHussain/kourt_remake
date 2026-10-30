@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart
 
 // class id: 1049024, size: 0x8
 class :: {
@@ -45,7 +45,7 @@ abstract class __OverallAvatarBadgeState&State&SingleTickerProviderStateMixin ex
     //     0x7b9240: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x7b9244: mov             x1, x2
     // 0x7b9248: r0 = _updateTickerModeNotifier()
-    //     0x7b9248: bl              #0x7b92a0  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] __OverallAvatarBadgeState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x7b9248: bl              #0x7b92a0  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] __OverallAvatarBadgeState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x7b924c: ldur            x1, [fp, #-8]
     // 0x7b9250: r0 = _updateTicker()
     //     0x7b9250: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -210,7 +210,7 @@ abstract class __OverallAvatarBadgeState&State&SingleTickerProviderStateMixin ex
     //     0x8e4460: b.ls            #0x8e4484
     // 0x8e4464: mov             x1, x0
     // 0x8e4468: r0 = _updateTickerModeNotifier()
-    //     0x8e4468: bl              #0x7b92a0  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] __OverallAvatarBadgeState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x8e4468: bl              #0x7b92a0  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] __OverallAvatarBadgeState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x8e446c: ldur            x1, [fp, #-8]
     // 0x8e4470: r0 = _updateTicker()
     //     0x8e4470: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -295,7 +295,7 @@ abstract class __OverallAvatarBadgeState&State&SingleTickerProviderStateMixin ex
     //     0xb63628: cmp             SP, x16
     //     0xb6362c: b.ls            #0xb63640
     // 0xb63630: r0 = dispose()
-    //     0xb63630: bl              #0xb6357c  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] __OverallAvatarBadgeState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb63630: bl              #0xb6357c  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] __OverallAvatarBadgeState&State&SingleTickerProviderStateMixin::dispose
     // 0xb63634: LeaveFrame
     //     0xb63634: mov             SP, fp
     //     0xb63638: ldp             fp, lr, [SP], #0x10
@@ -403,7 +403,7 @@ class _OverallAvatarBadgeState extends __OverallAvatarBadgeState&State&SingleTic
     // 0x902818: mov             x1, x0
     // 0x90281c: stur            x2, [fp, #-0x10]
     // 0x902820: r0 = _targetFraction()
-    //     0x902820: bl              #0x902b90  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] _OverallAvatarBadgeState::_targetFraction
+    //     0x902820: bl              #0x902b90  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] _OverallAvatarBadgeState::_targetFraction
     // 0x902824: ldur            x1, [fp, #-0x10]
     // 0x902828: r0 = value=()
     //     0x902828: bl              #0x62ba3c  ; [package:flutter/src/animation/animation_controller.dart] AnimationController::value=
@@ -416,7 +416,7 @@ class _OverallAvatarBadgeState extends __OverallAvatarBadgeState&State&SingleTic
     //     0x902838: ret             
     // 0x90283c: mov             x1, x0
     // 0x902840: r0 = _runRingFill()
-    //     0x902840: bl              #0x90286c  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] _OverallAvatarBadgeState::_runRingFill
+    //     0x902840: bl              #0x90286c  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] _OverallAvatarBadgeState::_runRingFill
     // 0x902844: r0 = Null
     //     0x902844: mov             x0, NULL
     // 0x902848: LeaveFrame
@@ -491,7 +491,7 @@ class _OverallAvatarBadgeState extends __OverallAvatarBadgeState&State&SingleTic
     //     0x9028f4: ldur            x0, [x1, #0xb]
     // 0x9028f8: mov             x1, x0
     // 0x9028fc: r0 = ringFraction()
-    //     0x9028fc: bl              #0x902abc  ; [package:ballai/automatic/models/core/my_player/overall_tier.dart] OverallTier::ringFraction
+    //     0x9028fc: bl              #0x902abc  ; [package:kourtai/automatic/models/core/my_player/overall_tier.dart] OverallTier::ringFraction
     // 0x902900: ldur            x1, [fp, #-0x20]
     // 0x902904: r0 = value=()
     //     0x902904: bl              #0x62ba3c  ; [package:flutter/src/animation/animation_controller.dart] AnimationController::value=
@@ -551,7 +551,7 @@ class _OverallAvatarBadgeState extends __OverallAvatarBadgeState&State&SingleTic
     //     0x902988: ldur            x3, [x1, #0xb]
     // 0x90298c: mov             x1, x3
     // 0x902990: r0 = ringFraction()
-    //     0x902990: bl              #0x902abc  ; [package:ballai/automatic/models/core/my_player/overall_tier.dart] OverallTier::ringFraction
+    //     0x902990: bl              #0x902abc  ; [package:kourtai/automatic/models/core/my_player/overall_tier.dart] OverallTier::ringFraction
     // 0x902994: r16 = Instance_Duration
     //     0x902994: add             x16, PP, #0x4a, lsl #12  ; [pp+0x4a320] Obj!Duration@d3d091
     //     0x902998: ldr             x16, [x16, #0x320]
@@ -585,7 +585,7 @@ class _OverallAvatarBadgeState extends __OverallAvatarBadgeState&State&SingleTic
     //     0x9029e4: ldur            x2, [x1, #0xb]
     // 0x9029e8: mov             x1, x2
     // 0x9029ec: r0 = ringFraction()
-    //     0x9029ec: bl              #0x902abc  ; [package:ballai/automatic/models/core/my_player/overall_tier.dart] OverallTier::ringFraction
+    //     0x9029ec: bl              #0x902abc  ; [package:kourtai/automatic/models/core/my_player/overall_tier.dart] OverallTier::ringFraction
     // 0x9029f0: mov             v1.16b, v0.16b
     // 0x9029f4: d0 = 0.500000
     //     0x9029f4: fmov            d0, #0.50000000
@@ -600,7 +600,7 @@ class _OverallAvatarBadgeState extends __OverallAvatarBadgeState&State&SingleTic
     //     0x902a0c: bl              #0x600ca8  ; [package:flutter/src/services/haptic_feedback.dart] HapticFeedback::lightImpact
     // 0x902a10: ldur            x2, [fp, #-0x18]
     // 0x902a14: r1 = Function '<anonymous closure>':.
-    //     0x902a14: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a328] AnonymousClosure: (0x902b64), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] _OverallAvatarBadgeState::_runRingFill (0x90286c)
+    //     0x902a14: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a328] AnonymousClosure: (0x902b64), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] _OverallAvatarBadgeState::_runRingFill (0x90286c)
     //     0x902a18: ldr             x1, [x1, #0x328]
     // 0x902a1c: r0 = AllocateClosure()
     //     0x902a1c: bl              #0xe553e0  ; AllocateClosureStub
@@ -634,7 +634,7 @@ class _OverallAvatarBadgeState extends __OverallAvatarBadgeState&State&SingleTic
     //     0x902a64: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x902a68: ldur            x2, [fp, #-0x18]
     // 0x902a6c: r1 = Function '<anonymous closure>':.
-    //     0x902a6c: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a330] AnonymousClosure: (0x902b40), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] _OverallAvatarBadgeState::_runRingFill (0x90286c)
+    //     0x902a6c: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a330] AnonymousClosure: (0x902b40), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] _OverallAvatarBadgeState::_runRingFill (0x90286c)
     //     0x902a70: ldr             x1, [x1, #0x330]
     // 0x902a74: r0 = AllocateClosure()
     //     0x902a74: bl              #0xe553e0  ; AllocateClosureStub
@@ -728,7 +728,7 @@ class _OverallAvatarBadgeState extends __OverallAvatarBadgeState&State&SingleTic
     // 0x902bb4: LoadField: r1 = r0->field_b
     //     0x902bb4: ldur            x1, [x0, #0xb]
     // 0x902bb8: r0 = ringFraction()
-    //     0x902bb8: bl              #0x902abc  ; [package:ballai/automatic/models/core/my_player/overall_tier.dart] OverallTier::ringFraction
+    //     0x902bb8: bl              #0x902abc  ; [package:kourtai/automatic/models/core/my_player/overall_tier.dart] OverallTier::ringFraction
     // 0x902bbc: LeaveFrame
     //     0x902bbc: mov             SP, fp
     //     0x902bc0: ldp             fp, lr, [SP], #0x10
@@ -810,7 +810,7 @@ class _OverallAvatarBadgeState extends __OverallAvatarBadgeState&State&SingleTic
     // 0x98803c: LoadField: r1 = r0->field_b
     //     0x98803c: ldur            x1, [x0, #0xb]
     // 0x988040: r0 = ringFraction()
-    //     0x988040: bl              #0x902abc  ; [package:ballai/automatic/models/core/my_player/overall_tier.dart] OverallTier::ringFraction
+    //     0x988040: bl              #0x902abc  ; [package:kourtai/automatic/models/core/my_player/overall_tier.dart] OverallTier::ringFraction
     // 0x988044: ldur            x1, [fp, #-0x18]
     // 0x988048: r0 = value=()
     //     0x988048: bl              #0x62ba3c  ; [package:flutter/src/animation/animation_controller.dart] AnimationController::value=
@@ -838,7 +838,7 @@ class _OverallAvatarBadgeState extends __OverallAvatarBadgeState&State&SingleTic
     // 0x988080: ldur            x2, [fp, #-0x10]
     // 0x988084: stur            x0, [fp, #-8]
     // 0x988088: r1 = Function '<anonymous closure>':.
-    //     0x988088: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a348] AnonymousClosure: (0x988174), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] _OverallAvatarBadgeState::initState (0x987f88)
+    //     0x988088: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a348] AnonymousClosure: (0x988174), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] _OverallAvatarBadgeState::initState (0x987f88)
     //     0x98808c: ldr             x1, [x1, #0x348]
     // 0x988090: r0 = AllocateClosure()
     //     0x988090: bl              #0xe553e0  ; AllocateClosureStub
@@ -944,7 +944,7 @@ class _OverallAvatarBadgeState extends __OverallAvatarBadgeState&State&SingleTic
     //     0x988198: add             x0, x0, HEAP, lsl #32
     // 0x98819c: mov             x1, x0
     // 0x9881a0: r0 = _runRingFill()
-    //     0x9881a0: bl              #0x90286c  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] _OverallAvatarBadgeState::_runRingFill
+    //     0x9881a0: bl              #0x90286c  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] _OverallAvatarBadgeState::_runRingFill
     // 0x9881a4: LeaveFrame
     //     0x9881a4: mov             SP, fp
     //     0x9881a8: ldp             fp, lr, [SP], #0x10
@@ -981,10 +981,10 @@ class _OverallAvatarBadgeState extends __OverallAvatarBadgeState&State&SingleTic
     //     0xaa0ca0: stur            w0, [x2, #0xf]
     // 0xaa0ca4: mov             x1, x0
     // 0xaa0ca8: r0 = _tier()
-    //     0xaa0ca8: bl              #0xaa1408  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] _OverallAvatarBadgeState::_tier
+    //     0xaa0ca8: bl              #0xaa1408  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] _OverallAvatarBadgeState::_tier
     // 0xaa0cac: mov             x1, x0
     // 0xaa0cb0: r0 = gradientColors()
-    //     0xaa0cb0: bl              #0xaa1284  ; [package:ballai/automatic/models/core/my_player/overall_tier.dart] OverallTier::gradientColors
+    //     0xaa0cb0: bl              #0xaa1284  ; [package:kourtai/automatic/models/core/my_player/overall_tier.dart] OverallTier::gradientColors
     // 0xaa0cb4: mov             x3, x0
     // 0xaa0cb8: ldur            x2, [fp, #-0x18]
     // 0xaa0cbc: stur            x3, [fp, #-0x20]
@@ -1036,7 +1036,7 @@ class _OverallAvatarBadgeState extends __OverallAvatarBadgeState&State&SingleTic
     //     0xaa0d4c: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xaa0d50: mov             x1, x4
     // 0xaa0d54: r0 = _badgeHeight()
-    //     0xaa0d54: bl              #0xaa11e4  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] _OverallAvatarBadgeState::_badgeHeight
+    //     0xaa0d54: bl              #0xaa11e4  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] _OverallAvatarBadgeState::_badgeHeight
     // 0xaa0d58: mov             v1.16b, v0.16b
     // 0xaa0d5c: d0 = 2.000000
     //     0xaa0d5c: fmov            d0, #2.00000000
@@ -1118,7 +1118,7 @@ class _OverallAvatarBadgeState extends __OverallAvatarBadgeState&State&SingleTic
     // 0xaa0e34: ldur            x2, [fp, #-0x18]
     // 0xaa0e38: stur            x4, [fp, #-0x30]
     // 0xaa0e3c: r1 = Function '<anonymous closure>':.
-    //     0xaa0e3c: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a288] AnonymousClosure: (0xaa1520), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] _OverallAvatarBadgeState::build (0xaa0c64)
+    //     0xaa0e3c: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a288] AnonymousClosure: (0xaa1520), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] _OverallAvatarBadgeState::build (0xaa0c64)
     //     0xaa0e40: ldr             x1, [x1, #0x288]
     // 0xaa0e44: r0 = AllocateClosure()
     //     0xaa0e44: bl              #0xe553e0  ; AllocateClosureStub
@@ -1194,8 +1194,8 @@ class _OverallAvatarBadgeState extends __OverallAvatarBadgeState&State&SingleTic
     //     0xaa0f18: bl              #0xe53418  ; [dart:core] _Double::clamp
     // 0xaa0f1c: ldur            x1, [fp, #-0x10]
     // 0xaa0f20: stur            x0, [fp, #-8]
-    // 0xaa0f24: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xaa0f24: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xaa0f24: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xaa0f24: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xaa0f28: stur            x0, [fp, #-0x10]
     // 0xaa0f2c: r0 = _OvrPill()
     //     0xaa0f2c: bl              #0xaa11d8  ; Allocate_OvrPillStub -> _OvrPill (size=0x28)
@@ -1531,7 +1531,7 @@ class _OverallAvatarBadgeState extends __OverallAvatarBadgeState&State&SingleTic
     // 0xaa142c: LoadField: r1 = r0->field_b
     //     0xaa142c: ldur            x1, [x0, #0xb]
     // 0xaa1430: r0 = tierFor()
-    //     0xaa1430: bl              #0xaa144c  ; [package:ballai/automatic/models/core/my_player/overall_tier.dart] OverallTier::tierFor
+    //     0xaa1430: bl              #0xaa144c  ; [package:kourtai/automatic/models/core/my_player/overall_tier.dart] OverallTier::tierFor
     // 0xaa1434: LeaveFrame
     //     0xaa1434: mov             SP, fp
     //     0xaa1438: ldp             fp, lr, [SP], #0x10
@@ -1784,7 +1784,7 @@ class _OverallAvatarBadgeState extends __OverallAvatarBadgeState&State&SingleTic
     //     0xb5c22c: mov             fp, SP
     // 0xb5c230: ldr             x2, [fp, #0x10]
     // 0xb5c234: r1 = Function 'dispose':.
-    //     0xb5c234: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a280] AnonymousClosure: (0xb5c24c), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] _OverallAvatarBadgeState::dispose (0xb63518)
+    //     0xb5c234: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a280] AnonymousClosure: (0xb5c24c), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] _OverallAvatarBadgeState::dispose (0xb63518)
     //     0xb5c238: ldr             x1, [x1, #0x280]
     // 0xb5c23c: r0 = AllocateClosure()
     //     0xb5c23c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1809,7 +1809,7 @@ class _OverallAvatarBadgeState extends __OverallAvatarBadgeState&State&SingleTic
     //     0xb5c264: cmp             SP, x16
     //     0xb5c268: b.ls            #0xb5c27c
     // 0xb5c26c: r0 = dispose()
-    //     0xb5c26c: bl              #0xb63518  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] _OverallAvatarBadgeState::dispose
+    //     0xb5c26c: bl              #0xb63518  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] _OverallAvatarBadgeState::dispose
     // 0xb5c270: LeaveFrame
     //     0xb5c270: mov             SP, fp
     //     0xb5c274: ldp             fp, lr, [SP], #0x10
@@ -1845,7 +1845,7 @@ class _OverallAvatarBadgeState extends __OverallAvatarBadgeState&State&SingleTic
     //     0xb6354c: bl              #0x809c40  ; [package:flutter/src/animation/animation_controller.dart] AnimationController::dispose
     // 0xb63550: ldur            x1, [fp, #-8]
     // 0xb63554: r0 = dispose()
-    //     0xb63554: bl              #0xb6357c  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] __OverallAvatarBadgeState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb63554: bl              #0xb6357c  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/overall_avatar_badge.dart] __OverallAvatarBadgeState&State&SingleTickerProviderStateMixin::dispose
     // 0xb63558: r0 = Null
     //     0xb63558: mov             x0, NULL
     // 0xb6355c: LeaveFrame
@@ -2168,7 +2168,7 @@ class _OvrPill extends StatelessWidget {
     //     0xc1b898: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b980] "OVR"
     //     0xc1b89c: ldr             x1, [x1, #0x980]
     // 0xc1b8a0: r0 = L()
-    //     0xc1b8a0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1b8a0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1b8a4: stur            x0, [fp, #-8]
     // 0xc1b8a8: r16 = 0.850000
     //     0xc1b8a8: add             x16, PP, #0x1f, lsl #12  ; [pp+0x1f4c8] 0.85
@@ -2406,8 +2406,8 @@ class _CameraPlaceholder extends StatelessWidget {
     //     0xc1b464: ldur            d0, [x1, #0xb]
     // 0xc1b468: mov             x1, x0
     // 0xc1b46c: stur            d0, [fp, #-0x28]
-    // 0xc1b470: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xc1b470: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xc1b470: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xc1b470: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xc1b474: stur            x0, [fp, #-0x10]
     // 0xc1b478: r16 = 0.080000
     //     0xc1b478: add             x16, PP, #0x24, lsl #12  ; [pp+0x24f28] 0.08
@@ -2450,8 +2450,8 @@ class _CameraPlaceholder extends StatelessWidget {
     // 0xc1b4dc: fmul            d2, d1, d0
     // 0xc1b4e0: ldur            x1, [fp, #-8]
     // 0xc1b4e4: stur            d2, [fp, #-0x30]
-    // 0xc1b4e8: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc1b4e8: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc1b4e8: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc1b4e8: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc1b4ec: stur            x0, [fp, #-8]
     // 0xc1b4f0: r0 = Icon()
     //     0xc1b4f0: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)

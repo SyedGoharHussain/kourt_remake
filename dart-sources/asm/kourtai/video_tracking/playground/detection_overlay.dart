@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/playground/detection_overlay.dart
+// lib: , url: package:kourtai/video_tracking/playground/detection_overlay.dart
 
 // class id: 1049155, size: 0x8
 class :: {
@@ -28,12 +28,12 @@ class :: {
     //     0x77a428: stur            w0, [x1, #0xf]
     // 0x77a42c: mov             x2, x1
     // 0x77a430: r1 = Function 'bestOf': static.
-    //     0x77a430: add             x1, PP, #0x33, lsl #12  ; [pp+0x332d0] AnonymousClosure: static (0x77a964), in [package:ballai/video_tracking/playground/detection_overlay.dart] ::overlayDetections (0x77a3f4)
+    //     0x77a430: add             x1, PP, #0x33, lsl #12  ; [pp+0x332d0] AnonymousClosure: static (0x77a964), in [package:kourtai/video_tracking/playground/detection_overlay.dart] ::overlayDetections (0x77a3f4)
     //     0x77a434: ldr             x1, [x1, #0x2d0]
     // 0x77a438: r0 = AllocateClosure()
     //     0x77a438: bl              #0xe553e0  ; AllocateClosureStub
     // 0x77a43c: r1 = Function '<anonymous closure>': static.
-    //     0x77a43c: add             x1, PP, #0x33, lsl #12  ; [pp+0x332d8] AnonymousClosure: static (0x77a7fc), in [package:ballai/video_tracking/playground/detection_overlay.dart] ::overlayDetections (0x77a3f4)
+    //     0x77a43c: add             x1, PP, #0x33, lsl #12  ; [pp+0x332d8] AnonymousClosure: static (0x77a7fc), in [package:kourtai/video_tracking/playground/detection_overlay.dart] ::overlayDetections (0x77a3f4)
     //     0x77a440: ldr             x1, [x1, #0x2d8]
     // 0x77a444: r2 = Null
     //     0x77a444: mov             x2, NULL
@@ -55,7 +55,7 @@ class :: {
     // 0x77a47c: ldur            x0, [fp, #-0x18]
     // 0x77a480: stur            x3, [fp, #-0x10]
     // 0x77a484: r1 = Function '<anonymous closure>': static.
-    //     0x77a484: add             x1, PP, #0x33, lsl #12  ; [pp+0x332e0] AnonymousClosure: static (0x77a694), in [package:ballai/video_tracking/playground/detection_overlay.dart] ::overlayDetections (0x77a3f4)
+    //     0x77a484: add             x1, PP, #0x33, lsl #12  ; [pp+0x332e0] AnonymousClosure: static (0x77a694), in [package:kourtai/video_tracking/playground/detection_overlay.dart] ::overlayDetections (0x77a3f4)
     //     0x77a488: ldr             x1, [x1, #0x2e0]
     // 0x77a48c: r2 = Null
     //     0x77a48c: mov             x2, NULL

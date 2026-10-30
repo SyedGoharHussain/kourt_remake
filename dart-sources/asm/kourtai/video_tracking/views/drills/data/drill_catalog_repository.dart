@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/drills/data/drill_catalog_repository.dart
+// lib: , url: package:kourtai/video_tracking/views/drills/data/drill_catalog_repository.dart
 
 // class id: 1049204, size: 0x8
 class :: {
@@ -25,7 +25,7 @@ abstract class DrillCatalogRepository extends Object {
     //     0x94c2cc: ldr             x0, [x0, #0xa50]
     //     0x94c2d0: bl              #0x60afc8  ; InitAsyncStub
     // 0x94c2d4: r0 = fetchPublishedDrillsWithStatus()
-    //     0x94c2d4: bl              #0x94c2fc  ; [package:ballai/video_tracking/views/drills/data/drill_catalog_repository.dart] DrillCatalogRepository::fetchPublishedDrillsWithStatus
+    //     0x94c2d4: bl              #0x94c2fc  ; [package:kourtai/video_tracking/views/drills/data/drill_catalog_repository.dart] DrillCatalogRepository::fetchPublishedDrillsWithStatus
     // 0x94c2d8: mov             x1, x0
     // 0x94c2dc: stur            x1, [fp, #-0x10]
     // 0x94c2e0: r0 = Await()
@@ -68,7 +68,7 @@ abstract class DrillCatalogRepository extends Object {
     //     0x94c334: bl              #0x5f9654  ; [package:cloud_firestore/cloud_firestore.dart] FirebaseFirestore::instanceFor
     // 0x94c338: mov             x1, x0
     // 0x94c33c: r0 = _fetchPublishedFrom()
-    //     0x94c33c: bl              #0x94c548  ; [package:ballai/video_tracking/views/drills/data/drill_catalog_repository.dart] DrillCatalogRepository::_fetchPublishedFrom
+    //     0x94c33c: bl              #0x94c548  ; [package:kourtai/video_tracking/views/drills/data/drill_catalog_repository.dart] DrillCatalogRepository::_fetchPublishedFrom
     // 0x94c340: mov             x1, x0
     // 0x94c344: stur            x1, [fp, #-0x80]
     // 0x94c348: r0 = Await()
@@ -392,7 +392,7 @@ abstract class DrillCatalogRepository extends Object {
     // 0x94c6cc: r1 = Null
     //     0x94c6cc: mov             x1, NULL
     // 0x94c6d0: r0 = DrillTemplate.fromFirestore()
-    //     0x94c6d0: bl              #0x754708  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::DrillTemplate.fromFirestore
+    //     0x94c6d0: bl              #0x754708  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::DrillTemplate.fromFirestore
     // 0x94c6d4: mov             x2, x0
     // 0x94c6d8: ldur            x0, [fp, #-0x70]
     // 0x94c6dc: stur            x2, [fp, #-0xa8]

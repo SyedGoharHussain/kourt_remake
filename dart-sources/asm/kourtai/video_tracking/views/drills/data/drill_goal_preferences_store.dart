@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart
+// lib: , url: package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart
 
 // class id: 1049206, size: 0x8
 class :: {
@@ -51,7 +51,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     //     0x906a44: ldr             x2, [x2, #0x3f0]
     // 0x906a48: mov             x1, x0
     // 0x906a4c: r0 = resolvedSelectedGoalTypeName()
-    //     0x906a4c: bl              #0x9083d4  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::resolvedSelectedGoalTypeName
+    //     0x906a4c: bl              #0x9083d4  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::resolvedSelectedGoalTypeName
     // 0x906a50: mov             x1, x0
     // 0x906a54: stur            x1, [fp, #-0x18]
     // 0x906a58: r0 = Await()
@@ -59,7 +59,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0x906a5c: ldur            x1, [fp, #-0x10]
     // 0x906a60: mov             x2, x0
     // 0x906a64: r0 = resolvedGoalType()
-    //     0x906a64: bl              #0x906aa0  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::resolvedGoalType
+    //     0x906a64: bl              #0x906aa0  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::resolvedGoalType
     // 0x906a68: mov             x1, x0
     // 0x906a6c: stur            x1, [fp, #-0x10]
     // 0x906a70: r0 = Await()
@@ -106,11 +106,11 @@ abstract class DrillGoalPreferencesStore extends Object {
     //     0x906ad4: ldr             x0, [x0, #0xd80]
     //     0x906ad8: bl              #0x60afc8  ; InitAsyncStub
     // 0x906adc: r0 = userHasActiveSubscription()
-    //     0x906adc: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0x906adc: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0x906ae0: ldur            x1, [fp, #-0x18]
     // 0x906ae4: stur            x0, [fp, #-0x18]
     // 0x906ae8: r0 = _normalizedGoalTypeName()
-    //     0x906ae8: bl              #0x908098  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_normalizedGoalTypeName
+    //     0x906ae8: bl              #0x908098  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_normalizedGoalTypeName
     // 0x906aec: stur            x0, [fp, #-0x20]
     // 0x906af0: cmp             w0, NULL
     // 0x906af4: b.ne            #0x906b00
@@ -119,7 +119,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0x906afc: r0 = ReturnAsyncNotFuture()
     //     0x906afc: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x906b00: r0 = _allGoalTypeTemplates()
-    //     0x906b00: bl              #0x907e48  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_allGoalTypeTemplates
+    //     0x906b00: bl              #0x907e48  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_allGoalTypeTemplates
     // 0x906b04: mov             x1, x0
     // 0x906b08: stur            x1, [fp, #-0x40]
     // 0x906b0c: LoadField: r0 = r1->field_b
@@ -185,7 +185,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0x906bbc: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x906bbc: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x906bc0: r0 = copyWith()
-    //     0x906bc0: bl              #0x907cdc  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::copyWith
+    //     0x906bc0: bl              #0x907cdc  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::copyWith
     // 0x906bc4: mov             x3, x0
     // 0x906bc8: ldur            x0, [fp, #-0x10]
     // 0x906bcc: stur            x3, [fp, #-0x48]
@@ -217,7 +217,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0x906c10: cbz             w2, #0x906c68
     // 0x906c14: ldur            x2, [fp, #-0x20]
     // 0x906c18: r0 = storedPreference()
-    //     0x906c18: bl              #0x907258  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::storedPreference
+    //     0x906c18: bl              #0x907258  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::storedPreference
     // 0x906c1c: mov             x1, x0
     // 0x906c20: stur            x1, [fp, #-0x18]
     // 0x906c24: r0 = Await()
@@ -238,11 +238,11 @@ abstract class DrillGoalPreferencesStore extends Object {
     //     0x906c48: add             x4, PP, #0x29, lsl #12  ; [pp+0x29d88] List(9) [0, 0x3, 0x2, 0x1, "isDropDead", 0x2, "preferenceValue", 0x1, Null]
     //     0x906c4c: ldr             x4, [x4, #0xd88]
     // 0x906c50: r0 = copyWith()
-    //     0x906c50: bl              #0x907cdc  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::copyWith
+    //     0x906c50: bl              #0x907cdc  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::copyWith
     // 0x906c54: mov             x1, x0
     // 0x906c58: stur            x0, [fp, #-0x18]
     // 0x906c5c: r0 = applyAppFallbackPreferenceIfNeeded()
-    //     0x906c5c: bl              #0x9070a4  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::applyAppFallbackPreferenceIfNeeded
+    //     0x906c5c: bl              #0x9070a4  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::applyAppFallbackPreferenceIfNeeded
     // 0x906c60: ldur            x0, [fp, #-0x18]
     // 0x906c64: r0 = ReturnAsyncNotFuture()
     //     0x906c64: b               #0x60af9c  ; ReturnAsyncNotFutureStub
@@ -254,7 +254,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0x906c78: DecompressPointer r1
     //     0x906c78: add             x1, x1, HEAP, lsl #32
     // 0x906c7c: r0 = _normalizedGoalTypeName()
-    //     0x906c7c: bl              #0x908098  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_normalizedGoalTypeName
+    //     0x906c7c: bl              #0x908098  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_normalizedGoalTypeName
     // 0x906c80: r1 = LoadClassIdInstr(r0)
     //     0x906c80: ldur            x1, [x0, #-1]
     //     0x906c84: ubfx            x1, x1, #0xc, #0x14
@@ -268,7 +268,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0x906ca4: ldur            x2, [fp, #-0x20]
     // 0x906ca8: ldur            x1, [fp, #-0x30]
     // 0x906cac: r0 = preferenceValue()
-    //     0x906cac: bl              #0x906fe4  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillDefaultGoalConfig::preferenceValue
+    //     0x906cac: bl              #0x906fe4  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillDefaultGoalConfig::preferenceValue
     // 0x906cb0: mov             x1, x0
     // 0x906cb4: ldur            x0, [fp, #-0x20]
     // 0x906cb8: stur            x1, [fp, #-0x18]
@@ -286,7 +286,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0x906ce0: tbnz            w0, #4, #0x906cf8
     // 0x906ce4: ldur            x1, [fp, #-0x10]
     // 0x906ce8: r0 = isFreestyleDribblingDrill()
-    //     0x906ce8: bl              #0x906edc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isFreestyleDribblingDrill
+    //     0x906ce8: bl              #0x906edc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isFreestyleDribblingDrill
     // 0x906cec: tbnz            w0, #4, #0x906cf8
     // 0x906cf0: r1 = 2000
     //     0x906cf0: mov             x1, #0x7d0
@@ -309,11 +309,11 @@ abstract class DrillGoalPreferencesStore extends Object {
     //     0x906d24: add             x4, PP, #0x29, lsl #12  ; [pp+0x29d88] List(9) [0, 0x3, 0x2, 0x1, "isDropDead", 0x2, "preferenceValue", 0x1, Null]
     //     0x906d28: ldr             x4, [x4, #0xd88]
     // 0x906d2c: r0 = copyWith()
-    //     0x906d2c: bl              #0x907cdc  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::copyWith
+    //     0x906d2c: bl              #0x907cdc  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::copyWith
     // 0x906d30: mov             x1, x0
     // 0x906d34: stur            x0, [fp, #-0x18]
     // 0x906d38: r0 = applyAppFallbackPreferenceIfNeeded()
-    //     0x906d38: bl              #0x9070a4  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::applyAppFallbackPreferenceIfNeeded
+    //     0x906d38: bl              #0x9070a4  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::applyAppFallbackPreferenceIfNeeded
     // 0x906d3c: ldur            x0, [fp, #-0x18]
     // 0x906d40: r0 = ReturnAsyncNotFuture()
     //     0x906d40: b               #0x60af9c  ; ReturnAsyncNotFutureStub
@@ -371,7 +371,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0x906de4: tbnz            w0, #4, #0x906dfc
     // 0x906de8: ldur            x1, [fp, #-0x10]
     // 0x906dec: r0 = isFreestyleDribblingDrill()
-    //     0x906dec: bl              #0x906edc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isFreestyleDribblingDrill
+    //     0x906dec: bl              #0x906edc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isFreestyleDribblingDrill
     // 0x906df0: tbnz            w0, #4, #0x906dfc
     // 0x906df4: r1 = 2000
     //     0x906df4: mov             x1, #0x7d0
@@ -394,11 +394,11 @@ abstract class DrillGoalPreferencesStore extends Object {
     //     0x906e28: add             x4, PP, #0x29, lsl #12  ; [pp+0x29d88] List(9) [0, 0x3, 0x2, 0x1, "isDropDead", 0x2, "preferenceValue", 0x1, Null]
     //     0x906e2c: ldr             x4, [x4, #0xd88]
     // 0x906e30: r0 = copyWith()
-    //     0x906e30: bl              #0x907cdc  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::copyWith
+    //     0x906e30: bl              #0x907cdc  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::copyWith
     // 0x906e34: mov             x1, x0
     // 0x906e38: stur            x0, [fp, #-0x18]
     // 0x906e3c: r0 = applyAppFallbackPreferenceIfNeeded()
-    //     0x906e3c: bl              #0x9070a4  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::applyAppFallbackPreferenceIfNeeded
+    //     0x906e3c: bl              #0x9070a4  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::applyAppFallbackPreferenceIfNeeded
     // 0x906e40: ldur            x0, [fp, #-0x18]
     // 0x906e44: r0 = ReturnAsyncNotFuture()
     //     0x906e44: b               #0x60af9c  ; ReturnAsyncNotFutureStub
@@ -417,7 +417,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0x906e70: tbnz            w0, #4, #0x906e9c
     // 0x906e74: ldur            x1, [fp, #-0x10]
     // 0x906e78: r0 = isFreestyleDribblingDrill()
-    //     0x906e78: bl              #0x906edc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isFreestyleDribblingDrill
+    //     0x906e78: bl              #0x906edc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isFreestyleDribblingDrill
     // 0x906e7c: tbnz            w0, #4, #0x906e9c
     // 0x906e80: r16 = 2000
     //     0x906e80: mov             x16, #0x7d0
@@ -427,12 +427,12 @@ abstract class DrillGoalPreferencesStore extends Object {
     //     0x906e8c: add             x4, PP, #0x29, lsl #12  ; [pp+0x29d90] List(7) [0, 0x2, 0x1, 0x1, "preferenceValue", 0x1, Null]
     //     0x906e90: ldr             x4, [x4, #0xd90]
     // 0x906e94: r0 = copyWith()
-    //     0x906e94: bl              #0x907cdc  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::copyWith
+    //     0x906e94: bl              #0x907cdc  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::copyWith
     // 0x906e98: r0 = ReturnAsyncNotFuture()
     //     0x906e98: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x906e9c: ldur            x1, [fp, #-0x48]
     // 0x906ea0: r0 = applyAppFallbackPreferenceIfNeeded()
-    //     0x906ea0: bl              #0x9070a4  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::applyAppFallbackPreferenceIfNeeded
+    //     0x906ea0: bl              #0x9070a4  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::applyAppFallbackPreferenceIfNeeded
     // 0x906ea4: ldur            x0, [fp, #-0x48]
     // 0x906ea8: r0 = ReturnAsyncNotFuture()
     //     0x906ea8: b               #0x60af9c  ; ReturnAsyncNotFutureStub
@@ -482,7 +482,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0x907298: r0 = ReturnAsyncNotFuture()
     //     0x907298: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x90729c: r0 = _loadPreferencesMap()
-    //     0x90729c: bl              #0x907310  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_loadPreferencesMap
+    //     0x90729c: bl              #0x907310  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_loadPreferencesMap
     // 0x9072a0: mov             x1, x0
     // 0x9072a4: stur            x1, [fp, #-0x20]
     // 0x9072a8: r0 = Await()
@@ -837,7 +837,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0x907688: r1 = Null
     //     0x907688: mov             x1, NULL
     // 0x90768c: r0 = StoredDrillGoalPreference.fromJson()
-    //     0x90768c: bl              #0x9078ac  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] StoredDrillGoalPreference::StoredDrillGoalPreference.fromJson
+    //     0x90768c: bl              #0x9078ac  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] StoredDrillGoalPreference::StoredDrillGoalPreference.fromJson
     // 0x907690: ldur            x4, [fp, #-0xc0]
     // 0x907694: r1 = LoadClassIdInstr(r4)
     //     0x907694: ldur            x1, [x4, #-1]
@@ -954,7 +954,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0x9077d0: r1 = Null
     //     0x9077d0: mov             x1, NULL
     // 0x9077d4: r0 = StoredDrillGoalPreference.fromJson()
-    //     0x9077d4: bl              #0x9078ac  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] StoredDrillGoalPreference::StoredDrillGoalPreference.fromJson
+    //     0x9077d4: bl              #0x9078ac  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] StoredDrillGoalPreference::StoredDrillGoalPreference.fromJson
     // 0x9077d8: ldur            x4, [fp, #-0xc0]
     // 0x9077dc: r1 = LoadClassIdInstr(r4)
     //     0x9077dc: ldur            x1, [x4, #-1]
@@ -1040,7 +1040,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     //     0x907e58: cmp             SP, x16
     //     0x907e5c: b.ls            #0x907e98
     // 0x907e60: r0 = getDefaultWorkoutGoalTypes()
-    //     0x907e60: bl              #0x907fb0  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::getDefaultWorkoutGoalTypes
+    //     0x907e60: bl              #0x907fb0  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::getDefaultWorkoutGoalTypes
     // 0x907e64: mov             x2, x0
     // 0x907e68: r1 = <WorkoutGoalTypeModel>
     //     0x907e68: add             x1, PP, #0x29, lsl #12  ; [pp+0x29e70] TypeArguments: <WorkoutGoalTypeModel>
@@ -1049,7 +1049,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     //     0x907e70: bl              #0x5c79a0  ; [dart:core] _GrowableList::_GrowableList._ofGrowableList
     // 0x907e74: stur            x0, [fp, #-8]
     // 0x907e78: r0 = getDribbleWorkoutGoalTypes()
-    //     0x907e78: bl              #0x907ea0  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::getDribbleWorkoutGoalTypes
+    //     0x907e78: bl              #0x907ea0  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::getDribbleWorkoutGoalTypes
     // 0x907e7c: ldur            x1, [fp, #-8]
     // 0x907e80: mov             x2, x0
     // 0x907e84: r0 = addAll()
@@ -1097,7 +1097,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0x9080e8: ret
     //     0x9080e8: ret             
     // 0x9080ec: r0 = _supportedGoalTypeNames()
-    //     0x9080ec: bl              #0x9082c4  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_supportedGoalTypeNames
+    //     0x9080ec: bl              #0x9082c4  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_supportedGoalTypeNames
     // 0x9080f0: mov             x1, x0
     // 0x9080f4: ldur            x2, [fp, #-8]
     // 0x9080f8: r0 = contains()
@@ -1298,7 +1298,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0x908304: ArrayStore: r1[0] = rZR  ; List_4
     //     0x908304: stur            wzr, [x1, #0x17]
     // 0x908308: r0 = _allGoalTypeTemplates()
-    //     0x908308: bl              #0x907e48  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_allGoalTypeTemplates
+    //     0x908308: bl              #0x907e48  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_allGoalTypeTemplates
     // 0x90830c: stur            x0, [fp, #-0x28]
     // 0x908310: LoadField: r1 = r0->field_b
     //     0x908310: ldur            w1, [x0, #0xb]
@@ -1400,11 +1400,11 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0x908414: r0 = ReturnAsyncNotFuture()
     //     0x908414: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x908418: r0 = userHasActiveSubscription()
-    //     0x908418: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0x908418: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0x90841c: ldur            x1, [fp, #-0x10]
     // 0x908420: stur            x0, [fp, #-0x18]
     // 0x908424: r0 = _allowedGoalTypeNames()
-    //     0x908424: bl              #0x90877c  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_allowedGoalTypeNames
+    //     0x908424: bl              #0x90877c  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_allowedGoalTypeNames
     // 0x908428: mov             x2, x0
     // 0x90842c: ldur            x0, [fp, #-0x10]
     // 0x908430: stur            x2, [fp, #-0x28]
@@ -1431,7 +1431,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0x908464: tbnz            w1, #4, #0x908494
     // 0x908468: mov             x1, x0
     // 0x90846c: r0 = drillDefaultSelectedGoalTypeName()
-    //     0x90846c: bl              #0x908710  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::drillDefaultSelectedGoalTypeName
+    //     0x90846c: bl              #0x908710  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::drillDefaultSelectedGoalTypeName
     // 0x908470: stur            x0, [fp, #-0x30]
     // 0x908474: cmp             w0, NULL
     // 0x908478: b.eq            #0x908494
@@ -1450,7 +1450,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     //     0x9084a0: ldur            w0, [x1, #7]
     // 0x9084a4: cbz             w0, #0x9084dc
     // 0x9084a8: r0 = selectedGoalTypeName()
-    //     0x9084a8: bl              #0x90851c  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::selectedGoalTypeName
+    //     0x9084a8: bl              #0x90851c  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::selectedGoalTypeName
     // 0x9084ac: mov             x1, x0
     // 0x9084b0: stur            x1, [fp, #-0x18]
     // 0x9084b4: r0 = Await()
@@ -1468,7 +1468,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     //     0x9084d8: b               #0x5f1e3c  ; ReturnAsyncStub
     // 0x9084dc: ldur            x1, [fp, #-0x10]
     // 0x9084e0: r0 = drillDefaultSelectedGoalTypeName()
-    //     0x9084e0: bl              #0x908710  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::drillDefaultSelectedGoalTypeName
+    //     0x9084e0: bl              #0x908710  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::drillDefaultSelectedGoalTypeName
     // 0x9084e4: stur            x0, [fp, #-0x10]
     // 0x9084e8: cmp             w0, NULL
     // 0x9084ec: b.eq            #0x908508
@@ -1516,7 +1516,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0x908558: r0 = ReturnAsyncNotFuture()
     //     0x908558: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x90855c: r0 = _loadSelectedGoalMap()
-    //     0x90855c: bl              #0x9085a4  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_loadSelectedGoalMap
+    //     0x90855c: bl              #0x9085a4  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_loadSelectedGoalMap
     // 0x908560: mov             x1, x0
     // 0x908564: stur            x1, [fp, #-0x18]
     // 0x908568: r0 = Await()
@@ -1534,7 +1534,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     //     0x90858c: blr             lr
     // 0x908590: mov             x1, x0
     // 0x908594: r0 = _normalizedGoalTypeName()
-    //     0x908594: bl              #0x908098  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_normalizedGoalTypeName
+    //     0x908594: bl              #0x908098  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_normalizedGoalTypeName
     // 0x908598: r0 = ReturnAsyncNotFuture()
     //     0x908598: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x90859c: r0 = StackOverflowSharedWithoutFPURegs()
@@ -1602,7 +1602,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0x90863c: r0 = Map<String, dynamic>()
     //     0x90863c: bl              #0x5f4294  ; IsType_Map<String, dynamic>_Stub
     // 0x908640: r1 = Function '<anonymous closure>': static.
-    //     0x908640: add             x1, PP, #0x29, lsl #12  ; [pp+0x29ef0] AnonymousClosure: static (0x908694), in [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_loadSelectedGoalMap (0x9085a4)
+    //     0x908640: add             x1, PP, #0x29, lsl #12  ; [pp+0x29ef0] AnonymousClosure: static (0x908694), in [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_loadSelectedGoalMap (0x9085a4)
     //     0x908644: ldr             x1, [x1, #0xef0]
     // 0x908648: r2 = Null
     //     0x908648: mov             x2, NULL
@@ -1716,7 +1716,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0x90875c: b               #0x908764
     // 0x908760: mov             x1, x0
     // 0x908764: r0 = _normalizedGoalTypeName()
-    //     0x908764: bl              #0x908098  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_normalizedGoalTypeName
+    //     0x908764: bl              #0x908098  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_normalizedGoalTypeName
     // 0x908768: LeaveFrame
     //     0x908768: mov             SP, fp
     //     0x90876c: ldp             fp, lr, [SP], #0x10
@@ -1762,7 +1762,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     //     0x9087c4: stur            wzr, [x2, #0x17]
     // 0x9087c8: ldur            x1, [fp, #-8]
     // 0x9087cc: r0 = _goalTypeTemplates()
-    //     0x9087cc: bl              #0x908898  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_goalTypeTemplates
+    //     0x9087cc: bl              #0x908898  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_goalTypeTemplates
     // 0x9087d0: stur            x0, [fp, #-0x28]
     // 0x9087d4: LoadField: r1 = r0->field_b
     //     0x9087d4: ldur            w1, [x0, #0xb]
@@ -1851,10 +1851,10 @@ abstract class DrillGoalPreferencesStore extends Object {
     //     0x9088b4: b.ls            #0x908900
     // 0x9088b8: mov             x1, x0
     // 0x9088bc: r0 = belongsToDribblingProductSurface()
-    //     0x9088bc: bl              #0x5edb70  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
+    //     0x9088bc: bl              #0x5edb70  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
     // 0x9088c0: tbz             w0, #4, #0x9088d4
     // 0x9088c4: r0 = getDefaultWorkoutGoalTypes()
-    //     0x9088c4: bl              #0x907fb0  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::getDefaultWorkoutGoalTypes
+    //     0x9088c4: bl              #0x907fb0  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::getDefaultWorkoutGoalTypes
     // 0x9088c8: LeaveFrame
     //     0x9088c8: mov             SP, fp
     //     0x9088cc: ldp             fp, lr, [SP], #0x10
@@ -1862,17 +1862,17 @@ abstract class DrillGoalPreferencesStore extends Object {
     //     0x9088d0: ret             
     // 0x9088d4: ldur            x1, [fp, #-8]
     // 0x9088d8: r0 = isDribbleCounterDrill()
-    //     0x9088d8: bl              #0x908ab0  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isDribbleCounterDrill
+    //     0x9088d8: bl              #0x908ab0  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isDribbleCounterDrill
     // 0x9088dc: tbnz            w0, #4, #0x9088f0
     // 0x9088e0: r0 = getCounterDribbleWorkoutGoalTypes()
-    //     0x9088e0: bl              #0x9089f0  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::getCounterDribbleWorkoutGoalTypes
+    //     0x9088e0: bl              #0x9089f0  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::getCounterDribbleWorkoutGoalTypes
     // 0x9088e4: LeaveFrame
     //     0x9088e4: mov             SP, fp
     //     0x9088e8: ldp             fp, lr, [SP], #0x10
     // 0x9088ec: ret
     //     0x9088ec: ret             
     // 0x9088f0: r0 = getGenericDribbleWorkoutGoalTypes()
-    //     0x9088f0: bl              #0x908908  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::getGenericDribbleWorkoutGoalTypes
+    //     0x9088f0: bl              #0x908908  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::getGenericDribbleWorkoutGoalTypes
     // 0x9088f4: LeaveFrame
     //     0x9088f4: mov             SP, fp
     //     0x9088f8: ldp             fp, lr, [SP], #0x10
@@ -1903,7 +1903,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0x99263c: ldur            x1, [fp, #-0x10]
     // 0x992640: ldur            x2, [fp, #-0x18]
     // 0x992644: r0 = storedPreference()
-    //     0x992644: bl              #0x907258  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::storedPreference
+    //     0x992644: bl              #0x907258  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::storedPreference
     // 0x992648: mov             x1, x0
     // 0x99264c: stur            x1, [fp, #-0x10]
     // 0x992650: r0 = Await()
@@ -1952,7 +1952,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     //     0x992ce0: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x992ce4: mov             x1, x0
     // 0x992ce8: r0 = _goalTypeTemplates()
-    //     0x992ce8: bl              #0x908898  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_goalTypeTemplates
+    //     0x992ce8: bl              #0x908898  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_goalTypeTemplates
     // 0x992cec: r1 = <WorkoutGoalTypeModel>
     //     0x992cec: add             x1, PP, #0x29, lsl #12  ; [pp+0x29e70] TypeArguments: <WorkoutGoalTypeModel>
     //     0x992cf0: ldr             x1, [x1, #0xe70]
@@ -2006,7 +2006,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     //     0x992d70: add             x2, x2, HEAP, lsl #32
     // 0x992d74: ldur            x1, [fp, #-0x10]
     // 0x992d78: r0 = resolvedGoalType()
-    //     0x992d78: bl              #0x906aa0  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::resolvedGoalType
+    //     0x992d78: bl              #0x906aa0  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::resolvedGoalType
     // 0x992d7c: mov             x1, x0
     // 0x992d80: stur            x1, [fp, #-0x48]
     // 0x992d84: r0 = Await()
@@ -2131,7 +2131,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0xac1288: ldur            x2, [fp, #-0x18]
     // 0xac128c: ldur            x1, [fp, #-0x20]
     // 0xac1290: r0 = _normalizedGoalTypeName()
-    //     0xac1290: bl              #0x908098  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_normalizedGoalTypeName
+    //     0xac1290: bl              #0x908098  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_normalizedGoalTypeName
     // 0xac1294: ldur            x2, [fp, #-0x18]
     // 0xac1298: stur            x0, [fp, #-0x10]
     // 0xac129c: LoadField: r1 = r2->field_7
@@ -2144,7 +2144,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0xac12b0: r0 = ReturnAsyncNotFuture()
     //     0xac12b0: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xac12b4: r0 = _loadSelectedGoalMap()
-    //     0xac12b4: bl              #0x9085a4  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_loadSelectedGoalMap
+    //     0xac12b4: bl              #0x9085a4  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_loadSelectedGoalMap
     // 0xac12b8: mov             x1, x0
     // 0xac12bc: stur            x1, [fp, #-0x20]
     // 0xac12c0: r0 = Await()
@@ -2163,7 +2163,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     //     0xac12e8: blr             lr
     // 0xac12ec: ldur            x1, [fp, #-0x20]
     // 0xac12f0: r0 = _saveSelectedGoalMap()
-    //     0xac12f0: bl              #0xac1310  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_saveSelectedGoalMap
+    //     0xac12f0: bl              #0xac1310  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_saveSelectedGoalMap
     // 0xac12f4: mov             x1, x0
     // 0xac12f8: stur            x1, [fp, #-0x10]
     // 0xac12fc: r0 = Await()
@@ -2277,7 +2277,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0xac1410: r0 = ReturnAsyncNotFuture()
     //     0xac1410: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xac1414: r0 = _loadPreferencesMap()
-    //     0xac1414: bl              #0x907310  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_loadPreferencesMap
+    //     0xac1414: bl              #0x907310  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_loadPreferencesMap
     // 0xac1418: mov             x1, x0
     // 0xac141c: stur            x1, [fp, #-0x10]
     // 0xac1420: r0 = Await()
@@ -2359,7 +2359,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     //     0xac150c: blr             lr
     // 0xac1510: ldur            x1, [fp, #-0x10]
     // 0xac1514: r0 = _savePreferencesMap()
-    //     0xac1514: bl              #0xac1534  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_savePreferencesMap
+    //     0xac1514: bl              #0xac1534  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_savePreferencesMap
     // 0xac1518: mov             x1, x0
     // 0xac151c: stur            x1, [fp, #-0x10]
     // 0xac1520: r0 = Await()
@@ -2696,7 +2696,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     // 0xac1c4c: r0 = ReturnAsyncNotFuture()
     //     0xac1c4c: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xac1c50: r0 = _loadPreferencesMap()
-    //     0xac1c50: bl              #0x907310  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_loadPreferencesMap
+    //     0xac1c50: bl              #0x907310  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_loadPreferencesMap
     // 0xac1c54: mov             x1, x0
     // 0xac1c58: stur            x1, [fp, #-0x10]
     // 0xac1c5c: r0 = Await()
@@ -2777,7 +2777,7 @@ abstract class DrillGoalPreferencesStore extends Object {
     //     0xac1d3c: blr             lr
     // 0xac1d40: ldur            x1, [fp, #-0x10]
     // 0xac1d44: r0 = _savePreferencesMap()
-    //     0xac1d44: bl              #0xac1534  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_savePreferencesMap
+    //     0xac1d44: bl              #0xac1534  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::_savePreferencesMap
     // 0xac1d48: mov             x1, x0
     // 0xac1d4c: stur            x1, [fp, #-0x10]
     // 0xac1d50: r0 = Await()
@@ -2982,7 +2982,7 @@ class StoredDrillGoalPreference extends Object {
     //     0x907ab0: b.ls            #0x907ac8
     // 0x907ab4: ldr             x1, [fp, #0x10]
     // 0x907ab8: r0 = toJson()
-    //     0x907ab8: bl              #0x907ad0  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] StoredDrillGoalPreference::toJson
+    //     0x907ab8: bl              #0x907ad0  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] StoredDrillGoalPreference::toJson
     // 0x907abc: LeaveFrame
     //     0x907abc: mov             SP, fp
     //     0x907ac0: ldp             fp, lr, [SP], #0x10

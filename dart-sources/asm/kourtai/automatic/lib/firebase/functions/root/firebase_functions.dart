@@ -1,11 +1,11 @@
-// lib: , url: package:ballai/automatic/lib/firebase/functions/root/firebase_functions.dart
+// lib: , url: package:kourtai/automatic/lib/firebase/functions/root/firebase_functions.dart
 
 // class id: 1048668, size: 0x8
 class :: {
 }
 
 // class id: 5136, size: 0x8, field offset: 0x8
-abstract class BallAiFirebaseFunctions extends Object {
+abstract class KourtAiFirebaseFunctions extends Object {
 
   static _ getMyDrillStanding(/* No info */) async {
     // ** addr: 0x5f1a58, size: 0x1ac
@@ -67,7 +67,7 @@ abstract class BallAiFirebaseFunctions extends Object {
     //     0x5f1ae0: add             x2, PP, #0x34, lsl #12  ; [pp+0x34fa8] "getMyDrillStanding"
     //     0x5f1ae4: ldr             x2, [x2, #0xfa8]
     // 0x5f1ae8: r0 = callFunction()
-    //     0x5f1ae8: bl              #0x5f1c10  ; [package:ballai/automatic/lib/firebase/functions/root/firebase_functions.dart] BallAiFirebaseFunctions::callFunction
+    //     0x5f1ae8: bl              #0x5f1c10  ; [package:kourtai/automatic/lib/firebase/functions/root/firebase_functions.dart] KourtAiFirebaseFunctions::callFunction
     // 0x5f1aec: mov             x1, x0
     // 0x5f1af0: stur            x1, [fp, #-0x10]
     // 0x5f1af4: r0 = Await()
@@ -228,7 +228,7 @@ abstract class BallAiFirebaseFunctions extends Object {
     // 0x5f1c9c: r0 = debugPrintThrottled()
     //     0x5f1c9c: bl              #0x5c96fc  ; [package:flutter/src/foundation/print.dart] ::debugPrintThrottled
     // 0x5f1ca0: r0 = functions()
-    //     0x5f1ca0: bl              #0x5f37f8  ; [package:ballai/shared/app/firebase/firebase_config.dart] FirebaseConfig::functions
+    //     0x5f1ca0: bl              #0x5f37f8  ; [package:kourtai/shared/app/firebase/firebase_config.dart] FirebaseConfig::functions
     // 0x5f1ca4: mov             x1, x0
     // 0x5f1ca8: ldur            x2, [fp, #-0x68]
     // 0x5f1cac: r4 = const [0, 0x2, 0, 0x2, null]
@@ -444,10 +444,10 @@ abstract class BallAiFirebaseFunctions extends Object {
     // 0x9649c0: StoreField: r0->field_27 = r16
     //     0x9649c0: stur            w16, [x0, #0x27]
     // 0x9649c4: r0 = instance()
-    //     0x9649c4: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0x9649c4: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0x9649c8: mov             x1, x0
     // 0x9649cc: r0 = effectiveLanguageCode()
-    //     0x9649cc: bl              #0x5ede90  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
+    //     0x9649cc: bl              #0x5ede90  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
     // 0x9649d0: ldur            x1, [fp, #-0x30]
     // 0x9649d4: ArrayStore: r1[7] = r0  ; List_4
     //     0x9649d4: add             x25, x1, #0x2b
@@ -499,7 +499,7 @@ abstract class BallAiFirebaseFunctions extends Object {
     //     0x964a64: add             x2, PP, #0x44, lsl #12  ; [pp+0x44778] "requestWorkoutOverlayExport"
     //     0x964a68: ldr             x2, [x2, #0x778]
     // 0x964a6c: r0 = callFunction()
-    //     0x964a6c: bl              #0x5f1c10  ; [package:ballai/automatic/lib/firebase/functions/root/firebase_functions.dart] BallAiFirebaseFunctions::callFunction
+    //     0x964a6c: bl              #0x5f1c10  ; [package:kourtai/automatic/lib/firebase/functions/root/firebase_functions.dart] KourtAiFirebaseFunctions::callFunction
     // 0x964a70: mov             x1, x0
     // 0x964a74: stur            x1, [fp, #-0x10]
     // 0x964a78: r0 = Await()
@@ -783,7 +783,7 @@ abstract class BallAiFirebaseFunctions extends Object {
     //     0xa6db04: add             x2, PP, #0x43, lsl #12  ; [pp+0x43788] "sendNotification"
     //     0xa6db08: ldr             x2, [x2, #0x788]
     // 0xa6db0c: r0 = callFunction()
-    //     0xa6db0c: bl              #0x5f1c10  ; [package:ballai/automatic/lib/firebase/functions/root/firebase_functions.dart] BallAiFirebaseFunctions::callFunction
+    //     0xa6db0c: bl              #0x5f1c10  ; [package:kourtai/automatic/lib/firebase/functions/root/firebase_functions.dart] KourtAiFirebaseFunctions::callFunction
     // 0xa6db10: mov             x1, x0
     // 0xa6db14: stur            x1, [fp, #-0xa8]
     // 0xa6db18: r0 = Await()

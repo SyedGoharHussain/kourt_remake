@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/managers/core/workout_like_manager.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/managers/core/workout_like_manager.dart
 
 // class id: 1048655, size: 0x8
 class :: {
@@ -14,7 +14,7 @@ class WorkoutLikeManager extends ChangeNotifier {
     //     0x9b59e8: mov             fp, SP
     // 0x9b59ec: ldr             x2, [fp, #0x10]
     // 0x9b59f0: r1 = Function 'dispose':.
-    //     0x9b59f0: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d590] AnonymousClosure: (0x9b5a2c), in [package:ballai/automatic/app/dependencies/managers/core/workout_like_manager.dart] WorkoutLikeManager::dispose (0x9bd558)
+    //     0x9b59f0: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d590] AnonymousClosure: (0x9b5a2c), in [package:kourtai/automatic/app/dependencies/managers/core/workout_like_manager.dart] WorkoutLikeManager::dispose (0x9bd558)
     //     0x9b59f4: ldr             x1, [x1, #0x590]
     // 0x9b59f8: r0 = AllocateClosure()
     //     0x9b59f8: bl              #0xe553e0  ; AllocateClosureStub
@@ -39,7 +39,7 @@ class WorkoutLikeManager extends ChangeNotifier {
     //     0x9b5a44: cmp             SP, x16
     //     0x9b5a48: b.ls            #0x9b5a5c
     // 0x9b5a4c: r0 = dispose()
-    //     0x9b5a4c: bl              #0x9bd558  ; [package:ballai/automatic/app/dependencies/managers/core/workout_like_manager.dart] WorkoutLikeManager::dispose
+    //     0x9b5a4c: bl              #0x9bd558  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_like_manager.dart] WorkoutLikeManager::dispose
     // 0x9b5a50: LeaveFrame
     //     0x9b5a50: mov             SP, fp
     //     0x9b5a54: ldp             fp, lr, [SP], #0x10
@@ -70,7 +70,7 @@ class WorkoutLikeManager extends ChangeNotifier {
     // 0x9bd580: mov             x2, x0
     // 0x9bd584: stur            x3, [fp, #-8]
     // 0x9bd588: r1 = Function '_onUserChanged@731452900':.
-    //     0x9bd588: add             x1, PP, #0x11, lsl #12  ; [pp+0x11a60] AnonymousClosure: (0x9bd5d8), in [package:ballai/automatic/app/dependencies/managers/core/workout_like_manager.dart] WorkoutLikeManager::_onUserChanged (0x9bd610)
+    //     0x9bd588: add             x1, PP, #0x11, lsl #12  ; [pp+0x11a60] AnonymousClosure: (0x9bd5d8), in [package:kourtai/automatic/app/dependencies/managers/core/workout_like_manager.dart] WorkoutLikeManager::_onUserChanged (0x9bd610)
     //     0x9bd58c: ldr             x1, [x1, #0xa60]
     // 0x9bd590: r0 = AllocateClosure()
     //     0x9bd590: bl              #0xe553e0  ; AllocateClosureStub
@@ -116,7 +116,7 @@ class WorkoutLikeManager extends ChangeNotifier {
     //     0x9bd5f0: cmp             SP, x16
     //     0x9bd5f4: b.ls            #0x9bd608
     // 0x9bd5f8: r0 = _onUserChanged()
-    //     0x9bd5f8: bl              #0x9bd610  ; [package:ballai/automatic/app/dependencies/managers/core/workout_like_manager.dart] WorkoutLikeManager::_onUserChanged
+    //     0x9bd5f8: bl              #0x9bd610  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_like_manager.dart] WorkoutLikeManager::_onUserChanged
     // 0x9bd5fc: LeaveFrame
     //     0x9bd5fc: mov             SP, fp
     //     0x9bd600: ldp             fp, lr, [SP], #0x10
@@ -282,13 +282,13 @@ class WorkoutLikeManager extends ChangeNotifier {
     //     0x9bd7ac: bl              #0x938d20  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQuery::snapshots
     // 0x9bd7b0: ldur            x2, [fp, #-0x18]
     // 0x9bd7b4: r1 = Function '<anonymous closure>':.
-    //     0x9bd7b4: add             x1, PP, #0x11, lsl #12  ; [pp+0x11a68] AnonymousClosure: (0x9bd8ac), in [package:ballai/automatic/app/dependencies/managers/core/workout_like_manager.dart] WorkoutLikeManager::_onUserChanged (0x9bd610)
+    //     0x9bd7b4: add             x1, PP, #0x11, lsl #12  ; [pp+0x11a68] AnonymousClosure: (0x9bd8ac), in [package:kourtai/automatic/app/dependencies/managers/core/workout_like_manager.dart] WorkoutLikeManager::_onUserChanged (0x9bd610)
     //     0x9bd7b8: ldr             x1, [x1, #0xa68]
     // 0x9bd7bc: stur            x0, [fp, #-0x10]
     // 0x9bd7c0: r0 = AllocateClosure()
     //     0x9bd7c0: bl              #0xe553e0  ; AllocateClosureStub
     // 0x9bd7c4: r1 = Function '<anonymous closure>':.
-    //     0x9bd7c4: add             x1, PP, #0x11, lsl #12  ; [pp+0x11a70] AnonymousClosure: (0x9bd828), in [package:ballai/automatic/app/dependencies/managers/core/workout_like_manager.dart] WorkoutLikeManager::_onUserChanged (0x9bd610)
+    //     0x9bd7c4: add             x1, PP, #0x11, lsl #12  ; [pp+0x11a70] AnonymousClosure: (0x9bd828), in [package:kourtai/automatic/app/dependencies/managers/core/workout_like_manager.dart] WorkoutLikeManager::_onUserChanged (0x9bd610)
     //     0x9bd7c8: ldr             x1, [x1, #0xa70]
     // 0x9bd7cc: r2 = Null
     //     0x9bd7cc: mov             x2, NULL
@@ -450,7 +450,7 @@ class WorkoutLikeManager extends ChangeNotifier {
     // 0x9bd960: r1 = Null
     //     0x9bd960: mov             x1, NULL
     // 0x9bd964: r0 = WorkoutLikeModel.fromFirestore()
-    //     0x9bd964: bl              #0x9bda24  ; [package:ballai/automatic/models/core/like/workout_like_model.dart] WorkoutLikeModel::WorkoutLikeModel.fromFirestore
+    //     0x9bd964: bl              #0x9bda24  ; [package:kourtai/automatic/models/core/like/workout_like_model.dart] WorkoutLikeModel::WorkoutLikeModel.fromFirestore
     // 0x9bd968: ArrayLoad: r1 = r0[0]  ; List_4
     //     0x9bd968: ldur            w1, [x0, #0x17]
     // 0x9bd96c: DecompressPointer r1
@@ -571,7 +571,7 @@ class WorkoutLikeManager extends ChangeNotifier {
     // 0xa69ffc: mov             x1, x3
     // 0xa6a000: mov             x2, x5
     // 0xa6a004: r0 = documentId()
-    //     0xa6a004: bl              #0xa6a1d4  ; [package:ballai/automatic/models/core/follow/follow_model.dart] FollowModel::documentId
+    //     0xa6a004: bl              #0xa6a1d4  ; [package:kourtai/automatic/models/core/follow/follow_model.dart] FollowModel::documentId
     // 0xa6a008: stur            x0, [fp, #-0x30]
     // 0xa6a00c: r0 = WorkoutLikeModel()
     //     0xa6a00c: bl              #0x9bdde4  ; AllocateWorkoutLikeModelStub -> WorkoutLikeModel (size=0x1c)
@@ -610,7 +610,7 @@ class WorkoutLikeManager extends ChangeNotifier {
     // 0xa6a068: ldur            x1, [fp, #-0x38]
     // 0xa6a06c: stur            x0, [fp, #-0x10]
     // 0xa6a070: r0 = toFirestore()
-    //     0xa6a070: bl              #0xa6a0a0  ; [package:ballai/automatic/models/core/like/workout_like_model.dart] WorkoutLikeModel::toFirestore
+    //     0xa6a070: bl              #0xa6a0a0  ; [package:kourtai/automatic/models/core/like/workout_like_model.dart] WorkoutLikeModel::toFirestore
     // 0xa6a074: ldur            x1, [fp, #-0x10]
     // 0xa6a078: mov             x2, x0
     // 0xa6a07c: r4 = const [0, 0x2, 0, 0x2, null]
@@ -676,7 +676,7 @@ class WorkoutLikeManager extends ChangeNotifier {
     //     0xa6a2ac: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xa6a2b0: ldur            x2, [fp, #-0x18]
     // 0xa6a2b4: r0 = documentId()
-    //     0xa6a2b4: bl              #0xa6a1d4  ; [package:ballai/automatic/models/core/follow/follow_model.dart] FollowModel::documentId
+    //     0xa6a2b4: bl              #0xa6a1d4  ; [package:kourtai/automatic/models/core/follow/follow_model.dart] FollowModel::documentId
     // 0xa6a2b8: mov             x3, x0
     // 0xa6a2bc: ldur            x0, [fp, #-0x10]
     // 0xa6a2c0: stur            x3, [fp, #-0x18]
@@ -807,7 +807,7 @@ class WorkoutLikeManager extends ChangeNotifier {
     //     0xc2af18: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0xc2af1c: mov             x2, x3
     // 0xc2af20: r1 = Function '_onUserChanged@731452900':.
-    //     0xc2af20: add             x1, PP, #0x11, lsl #12  ; [pp+0x11a60] AnonymousClosure: (0x9bd5d8), in [package:ballai/automatic/app/dependencies/managers/core/workout_like_manager.dart] WorkoutLikeManager::_onUserChanged (0x9bd610)
+    //     0xc2af20: add             x1, PP, #0x11, lsl #12  ; [pp+0x11a60] AnonymousClosure: (0x9bd5d8), in [package:kourtai/automatic/app/dependencies/managers/core/workout_like_manager.dart] WorkoutLikeManager::_onUserChanged (0x9bd610)
     //     0xc2af24: ldr             x1, [x1, #0xa60]
     // 0xc2af28: r0 = AllocateClosure()
     //     0xc2af28: bl              #0xe553e0  ; AllocateClosureStub
@@ -817,7 +817,7 @@ class WorkoutLikeManager extends ChangeNotifier {
     //     0xc2af34: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0xc2af38: ldur            x1, [fp, #-8]
     // 0xc2af3c: r0 = _onUserChanged()
-    //     0xc2af3c: bl              #0x9bd610  ; [package:ballai/automatic/app/dependencies/managers/core/workout_like_manager.dart] WorkoutLikeManager::_onUserChanged
+    //     0xc2af3c: bl              #0x9bd610  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_like_manager.dart] WorkoutLikeManager::_onUserChanged
     // 0xc2af40: r0 = Null
     //     0xc2af40: mov             x0, NULL
     // 0xc2af44: LeaveFrame

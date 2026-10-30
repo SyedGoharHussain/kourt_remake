@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/utility/defaults/defaults_video_workout_camera_mount.dart
+// lib: , url: package:kourtai/video_tracking/utility/defaults/defaults_video_workout_camera_mount.dart
 
 // class id: 1049194, size: 0x8
 class :: {
@@ -58,7 +58,7 @@ abstract class DefaultsVideoWorkoutCameraMount extends Object {
     //     0x9a0e3c: ldur            x2, [x1, #7]
     // 0x9a0e40: cmp             x3, x2
     // 0x9a0e44: b.eq            #0x9a0e6c
-    // 0x9a0e48: r0 = InitLateStaticField(0xc48) // [package:ballai/video_tracking/utility/defaults/defaults_video_workout_camera_mount.dart] DefaultsVideoWorkoutCameraMount::_cached
+    // 0x9a0e48: r0 = InitLateStaticField(0xc48) // [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_camera_mount.dart] DefaultsVideoWorkoutCameraMount::_cached
     //     0x9a0e48: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x9a0e4c: ldr             x0, [x0, #0x1890]
     //     0x9a0e50: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -94,7 +94,7 @@ abstract class DefaultsVideoWorkoutCameraMount extends Object {
     //     0x9a0ea8: str             x1, [x2, #0x1898]
     // 0x9a0eac: mov             x1, x0
     // 0x9a0eb0: r0 = fromRaw()
-    //     0x9a0eb0: bl              #0x9a0ed8  ; [package:ballai/video_tracking/models/workout_setup/video_workout_camera_mount.dart] VideoWorkoutCameraMount::fromRaw
+    //     0x9a0eb0: bl              #0x9a0ed8  ; [package:kourtai/video_tracking/models/workout_setup/video_workout_camera_mount.dart] VideoWorkoutCameraMount::fromRaw
     // 0x9a0eb4: cmp             w0, NULL
     // 0x9a0eb8: b.ne            #0x9a0ec4
     // 0x9a0ebc: r0 = Instance_VideoWorkoutCameraMount
@@ -126,7 +126,7 @@ abstract class DefaultsVideoWorkoutCameraMount extends Object {
     //     0xabb9c0: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0xabb9c4: bl              #0x60afc8  ; InitAsyncStub
     // 0xabb9c8: r0 = get()
-    //     0xabb9c8: bl              #0x9a0dd8  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_camera_mount.dart] DefaultsVideoWorkoutCameraMount::get
+    //     0xabb9c8: bl              #0x9a0dd8  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_camera_mount.dart] DefaultsVideoWorkoutCameraMount::get
     // 0xabb9cc: mov             x1, x0
     // 0xabb9d0: stur            x1, [fp, #-0x10]
     // 0xabb9d4: r0 = Await()

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/guards/guard_alert_summary_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/guards/guard_alert_summary_view.dart
 
 // class id: 1048899, size: 0x8
 class :: {
@@ -36,9 +36,9 @@ class _WorkoutAlertsHelpSheetView extends StatelessWidget {
     //     0xbe9abc: add             x2, x2, HEAP, lsl #32
     // 0xbe9ac0: tbnz            w2, #4, #0xbe9afc
     // 0xbe9ac4: r0 = _tips()
-    //     0xbe9ac4: bl              #0xbe9b90  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/guards/guard_alert_summary_view.dart] _WorkoutAlertsHelpSheetView::_tips
+    //     0xbe9ac4: bl              #0xbe9b90  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/guards/guard_alert_summary_view.dart] _WorkoutAlertsHelpSheetView::_tips
     // 0xbe9ac8: r1 = Function '<anonymous closure>':.
-    //     0xbe9ac8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44ad8] AnonymousClosure: (0xbea5c4), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/guards/guard_alert_summary_view.dart] _WorkoutAlertsHelpSheetView::build (0xbe9a84)
+    //     0xbe9ac8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44ad8] AnonymousClosure: (0xbea5c4), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/guards/guard_alert_summary_view.dart] _WorkoutAlertsHelpSheetView::build (0xbe9a84)
     //     0xbe9acc: ldr             x1, [x1, #0xad8]
     // 0xbe9ad0: r2 = Null
     //     0xbe9ad0: mov             x2, NULL
@@ -58,7 +58,7 @@ class _WorkoutAlertsHelpSheetView extends StatelessWidget {
     //     0xbe9af4: bl              #0x5e71ec  ; [dart:core] _List::_List.of
     // 0xbe9af8: b               #0xbe9b00
     // 0xbe9afc: r0 = _tips()
-    //     0xbe9afc: bl              #0xbe9b90  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/guards/guard_alert_summary_view.dart] _WorkoutAlertsHelpSheetView::_tips
+    //     0xbe9afc: bl              #0xbe9b90  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/guards/guard_alert_summary_view.dart] _WorkoutAlertsHelpSheetView::_tips
     // 0xbe9b00: ldur            x2, [fp, #-0x10]
     // 0xbe9b04: StoreField: r2->field_13 = r0
     //     0xbe9b04: stur            w0, [x2, #0x13]
@@ -98,7 +98,7 @@ class _WorkoutAlertsHelpSheetView extends StatelessWidget {
     //     0xbe9b5c: stur            w1, [x0, #0x37]
     // 0xbe9b60: ldur            x2, [fp, #-0x10]
     // 0xbe9b64: r1 = Function '<anonymous closure>':.
-    //     0xbe9b64: add             x1, PP, #0x44, lsl #12  ; [pp+0x44ae0] AnonymousClosure: (0xbe9da0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/guards/guard_alert_summary_view.dart] _WorkoutAlertsHelpSheetView::build (0xbe9a84)
+    //     0xbe9b64: add             x1, PP, #0x44, lsl #12  ; [pp+0x44ae0] AnonymousClosure: (0xbe9da0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/guards/guard_alert_summary_view.dart] _WorkoutAlertsHelpSheetView::build (0xbe9a84)
     //     0xbe9b68: ldr             x1, [x1, #0xae0]
     // 0xbe9b6c: r0 = AllocateClosure()
     //     0xbe9b6c: bl              #0xe553e0  ; AllocateClosureStub
@@ -130,61 +130,61 @@ class _WorkoutAlertsHelpSheetView extends StatelessWidget {
     //     0xbe9ba8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44b50] "Capture the entire half-court"
     //     0xbe9bac: ldr             x1, [x1, #0xb50]
     // 0xbe9bb0: r0 = L()
-    //     0xbe9bb0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe9bb0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe9bb4: r1 = "Frame the camera so the whole half is visible, including the 3-point arc and the rim."
     //     0xbe9bb4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44b58] "Frame the camera so the whole half is visible, including the 3-point arc and the rim."
     //     0xbe9bb8: ldr             x1, [x1, #0xb58]
     // 0xbe9bbc: stur            x0, [fp, #-8]
     // 0xbe9bc0: r0 = L()
-    //     0xbe9bc0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe9bc0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe9bc4: r1 = "Keep the phone still"
     //     0xbe9bc4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44b60] "Keep the phone still"
     //     0xbe9bc8: ldr             x1, [x1, #0xb60]
     // 0xbe9bcc: stur            x0, [fp, #-0x10]
     // 0xbe9bd0: r0 = L()
-    //     0xbe9bd0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe9bd0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe9bd4: r1 = "A shaky mount makes the rim drift in frame. Use a tripod or set the phone down so tracking stays locked."
     //     0xbe9bd4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44b68] "A shaky mount makes the rim drift in frame. Use a tripod or set the phone down so tracking stays locked."
     //     0xbe9bd8: ldr             x1, [x1, #0xb68]
     // 0xbe9bdc: stur            x0, [fp, #-0x18]
     // 0xbe9be0: r0 = L()
-    //     0xbe9be0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe9be0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe9be4: r1 = "Use a regulation ball"
     //     0xbe9be4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44b70] "Use a regulation ball"
     //     0xbe9be8: ldr             x1, [x1, #0xb70]
     // 0xbe9bec: stur            x0, [fp, #-0x20]
     // 0xbe9bf0: r0 = L()
-    //     0xbe9bf0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe9bf0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe9bf4: r1 = "Tracking accuracy improves dramatically with a standard orange basketball under even lighting."
     //     0xbe9bf4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44b78] "Tracking accuracy improves dramatically with a standard orange basketball under even lighting."
     //     0xbe9bf8: ldr             x1, [x1, #0xb78]
     // 0xbe9bfc: stur            x0, [fp, #-0x28]
     // 0xbe9c00: r0 = L()
-    //     0xbe9c00: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe9c00: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe9c04: r1 = "Avoid backlight"
     //     0xbe9c04: add             x1, PP, #0x44, lsl #12  ; [pp+0x44b80] "Avoid backlight"
     //     0xbe9c08: ldr             x1, [x1, #0xb80]
     // 0xbe9c0c: stur            x0, [fp, #-0x30]
     // 0xbe9c10: r0 = L()
-    //     0xbe9c10: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe9c10: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe9c14: r1 = "Keep the sun or bright lights behind the camera so shots aren\'t lost in glare."
     //     0xbe9c14: add             x1, PP, #0x44, lsl #12  ; [pp+0x44b88] "Keep the sun or bright lights behind the camera so shots aren\'t lost in glare."
     //     0xbe9c18: ldr             x1, [x1, #0xb88]
     // 0xbe9c1c: stur            x0, [fp, #-0x38]
     // 0xbe9c20: r0 = L()
-    //     0xbe9c20: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe9c20: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe9c24: r1 = "Include the net"
     //     0xbe9c24: add             x1, PP, #0x44, lsl #12  ; [pp+0x44b48] "Include the net"
     //     0xbe9c28: ldr             x1, [x1, #0xb48]
     // 0xbe9c2c: stur            x0, [fp, #-0x40]
     // 0xbe9c30: r0 = L()
-    //     0xbe9c30: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe9c30: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe9c34: r1 = "The make detector relies on the net. Make sure the hoop hardware is fully in frame."
     //     0xbe9c34: add             x1, PP, #0x44, lsl #12  ; [pp+0x44b90] "The make detector relies on the net. Make sure the hoop hardware is fully in frame."
     //     0xbe9c38: ldr             x1, [x1, #0xb90]
     // 0xbe9c3c: stur            x0, [fp, #-0x48]
     // 0xbe9c40: r0 = L()
-    //     0xbe9c40: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe9c40: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe9c44: ldur            x2, [fp, #-0x10]
     // 0xbe9c48: ldur            x3, [fp, #-8]
     // 0xbe9c4c: stur            x0, [fp, #-8]
@@ -371,7 +371,7 @@ class _WorkoutAlertsHelpSheetView extends StatelessWidget {
     //     0xbe9e9c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44af0] "About workout alerts"
     //     0xbe9ea0: ldr             x1, [x1, #0xaf0]
     // 0xbe9ea4: r0 = L()
-    //     0xbe9ea4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe9ea4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe9ea8: stur            x0, [fp, #-0x20]
     // 0xbe9eac: r0 = Text()
     //     0xbe9eac: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -389,7 +389,7 @@ class _WorkoutAlertsHelpSheetView extends StatelessWidget {
     //     0xbe9ecc: add             x1, PP, #0x44, lsl #12  ; [pp+0x44af8] "Why you\'re seeing this"
     //     0xbe9ed0: ldr             x1, [x1, #0xaf8]
     // 0xbe9ed4: r0 = L()
-    //     0xbe9ed4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe9ed4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe9ed8: stur            x0, [fp, #-0x20]
     // 0xbe9edc: r0 = Text()
     //     0xbe9edc: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -407,15 +407,15 @@ class _WorkoutAlertsHelpSheetView extends StatelessWidget {
     //     0xbe9efc: add             x1, PP, #0x44, lsl #12  ; [pp+0x44b08] "Tracking detected something about the recording that could reduce accuracy. Here\'s what came up for this workout:"
     //     0xbe9f00: ldr             x1, [x1, #0xb08]
     // 0xbe9f04: r0 = L()
-    //     0xbe9f04: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe9f04: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe9f08: ldur            x2, [fp, #-0x10]
     // 0xbe9f0c: stur            x0, [fp, #-0x20]
     // 0xbe9f10: LoadField: r1 = r2->field_f
     //     0xbe9f10: ldur            w1, [x2, #0xf]
     // 0xbe9f14: DecompressPointer r1
     //     0xbe9f14: add             x1, x1, HEAP, lsl #32
-    // 0xbe9f18: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbe9f18: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbe9f18: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbe9f18: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbe9f1c: stur            x0, [fp, #-0x38]
     // 0xbe9f20: r0 = TextStyle()
     //     0xbe9f20: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -508,7 +508,7 @@ class _WorkoutAlertsHelpSheetView extends StatelessWidget {
     // 0xbe9ffc: ldur            x2, [fp, #-0x10]
     // 0xbea000: stur            x4, [fp, #-0x18]
     // 0xbea004: r1 = Function '<anonymous closure>':.
-    //     0xbea004: add             x1, PP, #0x44, lsl #12  ; [pp+0x44b10] AnonymousClosure: (0xbea434), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/guards/guard_alert_summary_view.dart] _WorkoutAlertsHelpSheetView::build (0xbe9a84)
+    //     0xbea004: add             x1, PP, #0x44, lsl #12  ; [pp+0x44b10] AnonymousClosure: (0xbea434), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/guards/guard_alert_summary_view.dart] _WorkoutAlertsHelpSheetView::build (0xbe9a84)
     //     0xbea008: ldr             x1, [x1, #0xb10]
     // 0xbea00c: r0 = AllocateClosure()
     //     0xbea00c: bl              #0xe553e0  ; AllocateClosureStub
@@ -564,7 +564,7 @@ class _WorkoutAlertsHelpSheetView extends StatelessWidget {
     //     0xbea090: add             x1, PP, #0x44, lsl #12  ; [pp+0x44b18] "How to get better tracking"
     //     0xbea094: ldr             x1, [x1, #0xb18]
     // 0xbea098: r0 = L()
-    //     0xbea098: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbea098: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbea09c: stur            x0, [fp, #-0x18]
     // 0xbea0a0: r0 = Text()
     //     0xbea0a0: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -654,7 +654,7 @@ class _WorkoutAlertsHelpSheetView extends StatelessWidget {
     // 0xbea190: ldur            x2, [fp, #-0x10]
     // 0xbea194: stur            x3, [fp, #-0x18]
     // 0xbea198: r1 = Function '<anonymous closure>':.
-    //     0xbea198: add             x1, PP, #0x44, lsl #12  ; [pp+0x44b20] AnonymousClosure: (0xbea20c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/guards/guard_alert_summary_view.dart] _WorkoutAlertsHelpSheetView::build (0xbe9a84)
+    //     0xbea198: add             x1, PP, #0x44, lsl #12  ; [pp+0x44b20] AnonymousClosure: (0xbea20c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/guards/guard_alert_summary_view.dart] _WorkoutAlertsHelpSheetView::build (0xbe9a84)
     //     0xbea19c: ldr             x1, [x1, #0xb20]
     // 0xbea1a0: r0 = AllocateClosure()
     //     0xbea1a0: bl              #0xe553e0  ; AllocateClosureStub
@@ -780,8 +780,8 @@ class _WorkoutAlertsHelpSheetView extends StatelessWidget {
     //     0xbea2d8: ldur            w1, [x0, #0xf]
     // 0xbea2dc: DecompressPointer r1
     //     0xbea2dc: add             x1, x1, HEAP, lsl #32
-    // 0xbea2e0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbea2e0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbea2e0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbea2e0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbea2e4: stur            x0, [fp, #-8]
     // 0xbea2e8: r0 = TextStyle()
     //     0xbea2e8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -933,8 +933,8 @@ class _WorkoutAlertsHelpSheetView extends StatelessWidget {
     // 0xbea45c: DecompressPointer r0
     //     0xbea45c: add             x0, x0, HEAP, lsl #32
     // 0xbea460: mov             x1, x0
-    // 0xbea464: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbea464: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbea464: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbea464: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbea468: stur            x0, [fp, #-8]
     // 0xbea46c: r0 = TextStyle()
     //     0xbea46c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1095,7 +1095,7 @@ class _WorkoutAlertsHelpSheetView extends StatelessWidget {
     //     0xbea5ec: add             x1, PP, #0x44, lsl #12  ; [pp+0x44b48] "Include the net"
     //     0xbea5f0: ldr             x1, [x1, #0xb48]
     // 0xbea5f4: r0 = L()
-    //     0xbea5f4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbea5f4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbea5f8: mov             x1, x0
     // 0xbea5fc: ldur            x0, [fp, #-8]
     // 0xbea600: r2 = LoadClassIdInstr(r0)
@@ -1201,8 +1201,8 @@ class GuardAlertSummaryView extends StatelessWidget {
     //     0xbe9304: ldur            w1, [x2, #0x13]
     // 0xbe9308: DecompressPointer r1
     //     0xbe9308: add             x1, x1, HEAP, lsl #32
-    // 0xbe930c: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xbe930c: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xbe930c: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xbe930c: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xbe9310: stur            x0, [fp, #-0x20]
     // 0xbe9314: r0 = Radius()
     //     0xbe9314: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -1252,15 +1252,15 @@ class GuardAlertSummaryView extends StatelessWidget {
     //     0xbe937c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bcd8] "What affected tracking"
     //     0xbe9380: ldr             x1, [x1, #0xcd8]
     // 0xbe9384: r0 = L()
-    //     0xbe9384: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe9384: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe9388: ldur            x2, [fp, #-0x18]
     // 0xbe938c: stur            x0, [fp, #-0x28]
     // 0xbe9390: LoadField: r1 = r2->field_13
     //     0xbe9390: ldur            w1, [x2, #0x13]
     // 0xbe9394: DecompressPointer r1
     //     0xbe9394: add             x1, x1, HEAP, lsl #32
-    // 0xbe9398: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbe9398: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbe9398: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbe9398: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbe939c: stur            x0, [fp, #-0x40]
     // 0xbe93a0: r0 = TextStyle()
     //     0xbe93a0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1316,7 +1316,7 @@ class GuardAlertSummaryView extends StatelessWidget {
     //     0xbe9420: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bce0] "Learn more"
     //     0xbe9424: ldr             x1, [x1, #0xce0]
     // 0xbe9428: r0 = L()
-    //     0xbe9428: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe9428: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe942c: stur            x0, [fp, #-0x40]
     // 0xbe9430: r0 = TextStyle()
     //     0xbe9430: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1454,7 +1454,7 @@ class GuardAlertSummaryView extends StatelessWidget {
     //     0xbe9578: stur            w0, [x3, #0xb]
     // 0xbe957c: ldur            x2, [fp, #-0x18]
     // 0xbe9580: r1 = Function '<anonymous closure>':.
-    //     0xbe9580: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bcf0] AnonymousClosure: (0xbe98a4), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/guards/guard_alert_summary_view.dart] GuardAlertSummaryView::build (0xbe9240)
+    //     0xbe9580: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bcf0] AnonymousClosure: (0xbe98a4), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/guards/guard_alert_summary_view.dart] GuardAlertSummaryView::build (0xbe9240)
     //     0xbe9584: ldr             x1, [x1, #0xcf0]
     // 0xbe9588: r0 = AllocateClosure()
     //     0xbe9588: bl              #0xe553e0  ; AllocateClosureStub
@@ -1530,7 +1530,7 @@ class GuardAlertSummaryView extends StatelessWidget {
     //     0xbe963c: stur            w0, [x3, #0xb]
     // 0xbe9640: ldur            x2, [fp, #-0x18]
     // 0xbe9644: r1 = Function '<anonymous closure>':.
-    //     0xbe9644: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bcf8] AnonymousClosure: (0xbe9714), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/guards/guard_alert_summary_view.dart] GuardAlertSummaryView::build (0xbe9240)
+    //     0xbe9644: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bcf8] AnonymousClosure: (0xbe9714), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/guards/guard_alert_summary_view.dart] GuardAlertSummaryView::build (0xbe9240)
     //     0xbe9648: ldr             x1, [x1, #0xcf8]
     // 0xbe964c: r0 = AllocateClosure()
     //     0xbe964c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1641,7 +1641,7 @@ class GuardAlertSummaryView extends StatelessWidget {
     //     0xbe9740: add             x2, x2, HEAP, lsl #32
     // 0xbe9744: mov             x1, x0
     // 0xbe9748: r0 = _openHelp()
-    //     0xbe9748: bl              #0xbe9760  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/guards/guard_alert_summary_view.dart] GuardAlertSummaryView::_openHelp
+    //     0xbe9748: bl              #0xbe9760  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/guards/guard_alert_summary_view.dart] GuardAlertSummaryView::_openHelp
     // 0xbe974c: LeaveFrame
     //     0xbe974c: mov             SP, fp
     //     0xbe9750: ldp             fp, lr, [SP], #0x10
@@ -1690,7 +1690,7 @@ class GuardAlertSummaryView extends StatelessWidget {
     // 0xbe97bc: ldur            x2, [fp, #-0x20]
     // 0xbe97c0: stur            x3, [fp, #-0x10]
     // 0xbe97c4: r1 = Function '<anonymous closure>':.
-    //     0xbe97c4: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bd08] AnonymousClosure: (0xbe981c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/guards/guard_alert_summary_view.dart] GuardAlertSummaryView::_openHelp (0xbe9760)
+    //     0xbe97c4: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bd08] AnonymousClosure: (0xbe981c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/guards/guard_alert_summary_view.dart] GuardAlertSummaryView::_openHelp (0xbe9760)
     //     0xbe97c8: ldr             x1, [x1, #0xd08]
     // 0xbe97cc: r0 = AllocateClosure()
     //     0xbe97cc: bl              #0xe553e0  ; AllocateClosureStub
@@ -1756,7 +1756,7 @@ class GuardAlertSummaryView extends StatelessWidget {
     //     0xbe9860: ldr             x0, [PP, #0x7118]  ; [pp+0x7118] List<String>(0)
     // 0xbe9864: stur            x0, [fp, #-8]
     // 0xbe9868: r0 = isDribblingWorkout()
-    //     0xbe9868: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0xbe9868: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0xbe986c: stur            x0, [fp, #-0x10]
     // 0xbe9870: r0 = _WorkoutAlertsHelpSheetView()
     //     0xbe9870: bl              #0xbe9898  ; Allocate_WorkoutAlertsHelpSheetViewStub -> _WorkoutAlertsHelpSheetView (size=0x14)
@@ -1795,8 +1795,8 @@ class GuardAlertSummaryView extends StatelessWidget {
     //     0xbe98cc: ldur            w1, [x2, #0x13]
     // 0xbe98d0: DecompressPointer r1
     //     0xbe98d0: add             x1, x1, HEAP, lsl #32
-    // 0xbe98d4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbe98d4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbe98d4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbe98d4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbe98d8: stur            x0, [fp, #-0x10]
     // 0xbe98dc: r0 = TextStyle()
     //     0xbe98dc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1831,8 +1831,8 @@ class GuardAlertSummaryView extends StatelessWidget {
     //     0xbe9928: ldur            w1, [x0, #0x13]
     // 0xbe992c: DecompressPointer r1
     //     0xbe992c: add             x1, x1, HEAP, lsl #32
-    // 0xbe9930: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbe9930: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbe9930: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbe9930: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbe9934: stur            x0, [fp, #-8]
     // 0xbe9938: r0 = TextStyle()
     //     0xbe9938: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)

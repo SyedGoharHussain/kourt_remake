@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_toolbar_actions_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_toolbar_actions_view.dart
 
 // class id: 1048895, size: 0x8
 class :: {
@@ -36,7 +36,7 @@ class _PillTap extends StatelessWidget {
     // 0xbe590c: b               #0xbe5928
     // 0xbe5910: mov             x2, x1
     // 0xbe5914: r1 = Function '<anonymous closure>':.
-    //     0xbe5914: add             x1, PP, #0x49, lsl #12  ; [pp+0x49cd0] AnonymousClosure: (0xbe5a90), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_toolbar_actions_view.dart] _PillTap::build (0xbe58d4)
+    //     0xbe5914: add             x1, PP, #0x49, lsl #12  ; [pp+0x49cd0] AnonymousClosure: (0xbe5a90), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_toolbar_actions_view.dart] _PillTap::build (0xbe58d4)
     //     0xbe5918: ldr             x1, [x1, #0xcd0]
     // 0xbe591c: r0 = AllocateClosure()
     //     0xbe591c: bl              #0xe553e0  ; AllocateClosureStub
@@ -258,8 +258,8 @@ class _ActionsPill extends StatelessWidget {
     //     0xbe5400: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xbe5404: cmp             SP, x16
     //     0xbe5408: b.ls            #0xbe58c0
-    // 0xbe540c: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xbe540c: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xbe540c: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xbe540c: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xbe5410: stur            x0, [fp, #-0x10]
     // 0xbe5414: r0 = Radius()
     //     0xbe5414: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -339,7 +339,7 @@ class _ActionsPill extends StatelessWidget {
     //     0xbe54d0: add             x1, PP, #0x27, lsl #12  ; [pp+0x27eb0] "Share"
     //     0xbe54d4: ldr             x1, [x1, #0xeb0]
     // 0xbe54d8: r0 = L()
-    //     0xbe54d8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe54d8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe54dc: mov             x1, x0
     // 0xbe54e0: ldur            x0, [fp, #-8]
     // 0xbe54e4: stur            x1, [fp, #-0x30]
@@ -560,7 +560,7 @@ class _ActionsPill extends StatelessWidget {
     //     0xbe571c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44c90] "Edit workout"
     //     0xbe5720: ldr             x1, [x1, #0xc90]
     // 0xbe5724: r0 = L()
-    //     0xbe5724: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe5724: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe5728: mov             x1, x0
     // 0xbe572c: ldur            x0, [fp, #-8]
     // 0xbe5730: stur            x1, [fp, #-0x30]
@@ -765,7 +765,7 @@ class WorkoutToolbarActionsView extends StatelessWidget {
     //     0xbe51d4: add             x3, x3, HEAP, lsl #32
     // 0xbe51d8: mov             x1, x3
     // 0xbe51dc: r0 = isVideoTrackedWorkout()
-    //     0xbe51dc: bl              #0x736e2c  ; [package:ballai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
+    //     0xbe51dc: bl              #0x736e2c  ; [package:kourtai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
     // 0xbe51e0: tbnz            w0, #4, #0xbe51ec
     // 0xbe51e4: ldur            x0, [fp, #-8]
     // 0xbe51e8: b               #0xbe520c
@@ -783,7 +783,7 @@ class WorkoutToolbarActionsView extends StatelessWidget {
     // 0xbe5208: b.eq            #0xbe532c
     // 0xbe520c: mov             x1, x0
     // 0xbe5210: r0 = _showShare()
-    //     0xbe5210: bl              #0xbe53ac  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_toolbar_actions_view.dart] WorkoutToolbarActionsView::_showShare
+    //     0xbe5210: bl              #0xbe53ac  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_toolbar_actions_view.dart] WorkoutToolbarActionsView::_showShare
     // 0xbe5214: mov             x1, x0
     // 0xbe5218: ldur            x0, [fp, #-8]
     // 0xbe521c: stur            x1, [fp, #-0x38]
@@ -950,7 +950,7 @@ class WorkoutToolbarActionsView extends StatelessWidget {
     // 0xbe53cc: DecompressPointer r1
     //     0xbe53cc: add             x1, x1, HEAP, lsl #32
     // 0xbe53d0: r0 = isVideoTrackedWorkout()
-    //     0xbe53d0: bl              #0x736e2c  ; [package:ballai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
+    //     0xbe53d0: bl              #0x736e2c  ; [package:kourtai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
     // 0xbe53d4: LeaveFrame
     //     0xbe53d4: mov             SP, fp
     //     0xbe53d8: ldp             fp, lr, [SP], #0x10

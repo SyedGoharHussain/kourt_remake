@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart
+// lib: , url: package:kourtai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart
 
 // class id: 1049056, size: 0x8
 class :: {
@@ -45,7 +45,7 @@ class _PostSetupCreateTeamPromptViewState extends State<dynamic> {
     // 0x98f6d8: mov             x2, x1
     // 0x98f6dc: stur            x0, [fp, #-8]
     // 0x98f6e0: r1 = Function '<anonymous closure>':.
-    //     0x98f6e0: add             x1, PP, #0x20, lsl #12  ; [pp+0x20248] AnonymousClosure: (0x98f7b4), in [package:ballai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::initState (0x98f684)
+    //     0x98f6e0: add             x1, PP, #0x20, lsl #12  ; [pp+0x20248] AnonymousClosure: (0x98f7b4), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::initState (0x98f684)
     //     0x98f6e4: ldr             x1, [x1, #0x248]
     // 0x98f6e8: r0 = AllocateClosure()
     //     0x98f6e8: bl              #0xe553e0  ; AllocateClosureStub
@@ -156,7 +156,7 @@ class _PostSetupCreateTeamPromptViewState extends State<dynamic> {
     // 0x98f800: ret
     //     0x98f800: ret             
     // 0x98f804: r1 = Function '<anonymous closure>':.
-    //     0x98f804: add             x1, PP, #0x20, lsl #12  ; [pp+0x20260] AnonymousClosure: (0x98f834), in [package:ballai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::initState (0x98f684)
+    //     0x98f804: add             x1, PP, #0x20, lsl #12  ; [pp+0x20260] AnonymousClosure: (0x98f834), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::initState (0x98f684)
     //     0x98f808: ldr             x1, [x1, #0x260]
     // 0x98f80c: r0 = AllocateClosure()
     //     0x98f80c: bl              #0xe553e0  ; AllocateClosureStub
@@ -219,8 +219,8 @@ class _PostSetupCreateTeamPromptViewState extends State<dynamic> {
     // 0xaaeef4: StoreField: r2->field_f = r0
     //     0xaaeef4: stur            w0, [x2, #0xf]
     // 0xaaeef8: ldur            x1, [fp, #-0x10]
-    // 0xaaeefc: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xaaeefc: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xaaeefc: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xaaeefc: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xaaef00: mov             x2, x0
     // 0xaaef04: ldur            x0, [fp, #-8]
     // 0xaaef08: stur            x2, [fp, #-0x20]
@@ -350,11 +350,11 @@ class _PostSetupCreateTeamPromptViewState extends State<dynamic> {
     // 0xaaf050: mov             x1, x4
     // 0xaaf054: stur            d0, [fp, #-0x50]
     // 0xaaf058: r0 = _headline()
-    //     0xaaf058: bl              #0xaaf8a8  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::_headline
+    //     0xaaf058: bl              #0xaaf8a8  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::_headline
     // 0xaaf05c: ldur            x1, [fp, #-0x10]
     // 0xaaf060: stur            x0, [fp, #-0x30]
-    // 0xaaf064: r0 = BallAiThemeContext.ballAiScreenTitleStyle()
-    //     0xaaf064: bl              #0x9efba4  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiScreenTitleStyle
+    // 0xaaf064: r0 = KourtAiThemeContext.kourtAiScreenTitleStyle()
+    //     0xaaf064: bl              #0x9efba4  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiScreenTitleStyle
     // 0xaaf068: r16 = 24.000000
     //     0xaaf068: add             x16, PP, #0xd, lsl #12  ; [pp+0xd100] 24
     //     0xaaf06c: ldr             x16, [x16, #0x100]
@@ -382,11 +382,11 @@ class _PostSetupCreateTeamPromptViewState extends State<dynamic> {
     //     0xaaf0a8: stur            w0, [x2, #0x1b]
     // 0xaaf0ac: ldur            x1, [fp, #-8]
     // 0xaaf0b0: r0 = _subtitle()
-    //     0xaaf0b0: bl              #0xaaf7f8  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::_subtitle
+    //     0xaaf0b0: bl              #0xaaf7f8  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::_subtitle
     // 0xaaf0b4: ldur            x1, [fp, #-0x10]
     // 0xaaf0b8: stur            x0, [fp, #-0x30]
-    // 0xaaf0bc: r0 = BallAiThemeContext.ballAiScreenSubtitleStyle()
-    //     0xaaf0bc: bl              #0x9eda00  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiScreenSubtitleStyle
+    // 0xaaf0bc: r0 = KourtAiThemeContext.kourtAiScreenSubtitleStyle()
+    //     0xaaf0bc: bl              #0x9eda00  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiScreenSubtitleStyle
     // 0xaaf0c0: stur            x0, [fp, #-0x38]
     // 0xaaf0c4: r0 = Text()
     //     0xaaf0c4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -574,7 +574,7 @@ class _PostSetupCreateTeamPromptViewState extends State<dynamic> {
     // 0xaaf294: ldur            x1, [fp, #-8]
     // 0xaaf298: stur            x0, [fp, #-8]
     // 0xaaf29c: r0 = _primaryButtonTitle()
-    //     0xaaf29c: bl              #0xaaf6bc  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::_primaryButtonTitle
+    //     0xaaf29c: bl              #0xaaf6bc  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::_primaryButtonTitle
     // 0xaaf2a0: stur            x0, [fp, #-0x38]
     // 0xaaf2a4: r0 = Text()
     //     0xaaf2a4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -594,7 +594,7 @@ class _PostSetupCreateTeamPromptViewState extends State<dynamic> {
     //     0xaaf2cc: stur            w0, [x3, #0x3b]
     // 0xaaf2d0: ldur            x2, [fp, #-0x18]
     // 0xaaf2d4: r1 = Function '<anonymous closure>':.
-    //     0xaaf2d4: add             x1, PP, #0x20, lsl #12  ; [pp+0x20158] AnonymousClosure: (0xaaf9b8), in [package:ballai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::build (0xaaeeb8)
+    //     0xaaf2d4: add             x1, PP, #0x20, lsl #12  ; [pp+0x20158] AnonymousClosure: (0xaaf9b8), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::build (0xaaeeb8)
     //     0xaaf2d8: ldr             x1, [x1, #0x158]
     // 0xaaf2dc: r0 = AllocateClosure()
     //     0xaaf2dc: bl              #0xe553e0  ; AllocateClosureStub
@@ -637,11 +637,11 @@ class _PostSetupCreateTeamPromptViewState extends State<dynamic> {
     //     0xaaf338: add             x1, PP, #0x20, lsl #12  ; [pp+0x20160] "I\'ll do this later"
     //     0xaaf33c: ldr             x1, [x1, #0x160]
     // 0xaaf340: r0 = L()
-    //     0xaaf340: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaaf340: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaaf344: ldur            x1, [fp, #-0x10]
     // 0xaaf348: stur            x0, [fp, #-0x10]
-    // 0xaaf34c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xaaf34c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xaaf34c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xaaf34c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xaaf350: stur            x0, [fp, #-0x38]
     // 0xaaf354: r0 = TextStyle()
     //     0xaaf354: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -671,7 +671,7 @@ class _PostSetupCreateTeamPromptViewState extends State<dynamic> {
     //     0xaaf394: stur            w0, [x3, #0x13]
     // 0xaaf398: ldur            x2, [fp, #-0x18]
     // 0xaaf39c: r1 = Function '<anonymous closure>':.
-    //     0xaaf39c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20170] AnonymousClosure: (0xaaf938), in [package:ballai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::build (0xaaeeb8)
+    //     0xaaf39c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20170] AnonymousClosure: (0xaaf938), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::build (0xaaeeb8)
     //     0xaaf3a0: ldr             x1, [x1, #0x170]
     // 0xaaf3a4: r0 = AllocateClosure()
     //     0xaaf3a4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1013,7 +1013,7 @@ class _PostSetupCreateTeamPromptViewState extends State<dynamic> {
     //     0xaaf6d8: b.ls            #0xaaf744
     // 0xaaf6dc: mov             x1, x0
     // 0xaaf6e0: r0 = _roles()
-    //     0xaaf6e0: bl              #0xaaf74c  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::_roles
+    //     0xaaf6e0: bl              #0xaaf74c  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::_roles
     // 0xaaf6e4: mov             x1, x0
     // 0xaaf6e8: r2 = "Coach"
     //     0xaaf6e8: add             x2, PP, #0x1a, lsl #12  ; [pp+0x1a5d0] "Coach"
@@ -1023,7 +1023,7 @@ class _PostSetupCreateTeamPromptViewState extends State<dynamic> {
     // 0xaaf6f4: ldur            x1, [fp, #-8]
     // 0xaaf6f8: stur            x0, [fp, #-8]
     // 0xaaf6fc: r0 = _roles()
-    //     0xaaf6fc: bl              #0xaaf74c  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::_roles
+    //     0xaaf6fc: bl              #0xaaf74c  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::_roles
     // 0xaaf700: mov             x1, x0
     // 0xaaf704: r2 = "Trainer"
     //     0xaaf704: add             x2, PP, #0x1a, lsl #12  ; [pp+0x1a5d8] "Trainer"
@@ -1139,7 +1139,7 @@ class _PostSetupCreateTeamPromptViewState extends State<dynamic> {
     //     0xaaf814: b.ls            #0xaaf8a0
     // 0xaaf818: mov             x1, x0
     // 0xaaf81c: r0 = _roles()
-    //     0xaaf81c: bl              #0xaaf74c  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::_roles
+    //     0xaaf81c: bl              #0xaaf74c  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::_roles
     // 0xaaf820: mov             x1, x0
     // 0xaaf824: r2 = "Coach"
     //     0xaaf824: add             x2, PP, #0x1a, lsl #12  ; [pp+0x1a5d0] "Coach"
@@ -1149,7 +1149,7 @@ class _PostSetupCreateTeamPromptViewState extends State<dynamic> {
     // 0xaaf830: ldur            x1, [fp, #-8]
     // 0xaaf834: stur            x0, [fp, #-8]
     // 0xaaf838: r0 = _roles()
-    //     0xaaf838: bl              #0xaaf74c  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::_roles
+    //     0xaaf838: bl              #0xaaf74c  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::_roles
     // 0xaaf83c: mov             x1, x0
     // 0xaaf840: r2 = "Trainer"
     //     0xaaf840: add             x2, PP, #0x1a, lsl #12  ; [pp+0x1a5d8] "Trainer"
@@ -1206,7 +1206,7 @@ class _PostSetupCreateTeamPromptViewState extends State<dynamic> {
     //     0xaaf8c4: b.ls            #0xaaf930
     // 0xaaf8c8: mov             x1, x0
     // 0xaaf8cc: r0 = _roles()
-    //     0xaaf8cc: bl              #0xaaf74c  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::_roles
+    //     0xaaf8cc: bl              #0xaaf74c  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::_roles
     // 0xaaf8d0: mov             x1, x0
     // 0xaaf8d4: r2 = "Coach"
     //     0xaaf8d4: add             x2, PP, #0x1a, lsl #12  ; [pp+0x1a5d0] "Coach"
@@ -1216,7 +1216,7 @@ class _PostSetupCreateTeamPromptViewState extends State<dynamic> {
     // 0xaaf8e0: ldur            x1, [fp, #-8]
     // 0xaaf8e4: stur            x0, [fp, #-8]
     // 0xaaf8e8: r0 = _roles()
-    //     0xaaf8e8: bl              #0xaaf74c  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::_roles
+    //     0xaaf8e8: bl              #0xaaf74c  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::_roles
     // 0xaaf8ec: mov             x1, x0
     // 0xaaf8f0: r2 = "Trainer"
     //     0xaaf8f0: add             x2, PP, #0x1a, lsl #12  ; [pp+0x1a5d8] "Trainer"

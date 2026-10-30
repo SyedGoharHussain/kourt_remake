@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart
+// lib: , url: package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart
 
 // class id: 1049216, size: 0x8
 class :: {
@@ -66,7 +66,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     // 0x5e1c9c: b               #0x5e1cd8
     // 0x5e1ca0: mov             x2, x3
     // 0x5e1ca4: r1 = Function '<anonymous closure>':.
-    //     0x5e1ca4: add             x1, PP, #0x41, lsl #12  ; [pp+0x41460] AnonymousClosure: (0x604320), in [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::build (0xac4444)
+    //     0x5e1ca4: add             x1, PP, #0x41, lsl #12  ; [pp+0x41460] AnonymousClosure: (0x604320), in [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::build (0xac4444)
     //     0x5e1ca8: ldr             x1, [x1, #0x460]
     // 0x5e1cac: r0 = AllocateClosure()
     //     0x5e1cac: bl              #0xe553e0  ; AllocateClosureStub
@@ -152,7 +152,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     // 0x5e1d88: b.eq            #0x5e3590
     // 0x5e1d8c: mov             x1, x4
     // 0x5e1d90: r0 = format()
-    //     0x5e1d90: bl              #0x5f06e0  ; [package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardService::format
+    //     0x5e1d90: bl              #0x5f06e0  ; [package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardService::format
     // 0x5e1d94: b               #0x5e1da0
     // 0x5e1d98: r0 = "—"
     //     0x5e1d98: add             x0, PP, #0x2d, lsl #12  ; [pp+0x2d2b0] "—"
@@ -365,7 +365,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     // 0x5e200c: ldur            x0, [fp, #-0x18]
     // 0x5e2010: ldur            x3, [fp, #-0x48]
     // 0x5e2014: r1 = Function '<anonymous closure>':.
-    //     0x5e2014: add             x1, PP, #0x41, lsl #12  ; [pp+0x41468] AnonymousClosure: static (0x600fbc), in [package:ballai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetchEvents (0x601034)
+    //     0x5e2014: add             x1, PP, #0x41, lsl #12  ; [pp+0x41468] AnonymousClosure: static (0x600fbc), in [package:kourtai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetchEvents (0x601034)
     //     0x5e2018: ldr             x1, [x1, #0x468]
     // 0x5e201c: r2 = Null
     //     0x5e201c: mov             x2, NULL
@@ -593,7 +593,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     // 0x5e22b8: r1 = Null
     //     0x5e22b8: mov             x1, NULL
     // 0x5e22bc: r0 = LeaderboardPodiumEntry.drillViewer()
-    //     0x5e22bc: bl              #0x5f0664  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_podium.dart] LeaderboardPodiumEntry::LeaderboardPodiumEntry.drillViewer
+    //     0x5e22bc: bl              #0x5f0664  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_podium.dart] LeaderboardPodiumEntry::LeaderboardPodiumEntry.drillViewer
     // 0x5e22c0: mov             x4, x0
     // 0x5e22c4: b               #0x5e22cc
     // 0x5e22c8: mov             x4, x0
@@ -647,7 +647,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     //     0x5e2340: add             x1, PP, #0x41, lsl #12  ; [pp+0x41478] "%@ · Global"
     //     0x5e2344: ldr             x1, [x1, #0x478]
     // 0x5e2348: r0 = LF()
-    //     0x5e2348: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x5e2348: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x5e234c: mov             x1, x0
     // 0x5e2350: ldur            x0, [fp, #-8]
     // 0x5e2354: stur            x1, [fp, #-0x60]
@@ -711,7 +711,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     // 0x5e23e4: b.eq            #0x5e35c8
     // 0x5e23e8: mov             x1, x5
     // 0x5e23ec: r0 = title()
-    //     0x5e23ec: bl              #0x5ef840  ; [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_models.dart] DrillLeaderboardMetric::title
+    //     0x5e23ec: bl              #0x5ef840  ; [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_models.dart] DrillLeaderboardMetric::title
     // 0x5e23f0: mov             x1, x0
     // 0x5e23f4: ldur            x0, [fp, #-8]
     // 0x5e23f8: stur            x1, [fp, #-0x68]
@@ -794,7 +794,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     // 0x5e24b8: b.eq            #0x5e35d4
     // 0x5e24bc: mov             x1, x4
     // 0x5e24c0: r0 = shortTitle()
-    //     0x5e24c0: bl              #0x5ef79c  ; [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_models.dart] DrillLeaderboardWindow::shortTitle
+    //     0x5e24c0: bl              #0x5ef79c  ; [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_models.dart] DrillLeaderboardWindow::shortTitle
     // 0x5e24c4: r1 = Null
     //     0x5e24c4: mov             x1, NULL
     // 0x5e24c8: r2 = 2
@@ -824,7 +824,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     //     0x5e2504: add             x1, PP, #0x41, lsl #12  ; [pp+0x41480] "· %@"
     //     0x5e2508: ldr             x1, [x1, #0x480]
     // 0x5e250c: r0 = LF()
-    //     0x5e250c: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x5e250c: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x5e2510: stur            x0, [fp, #-0x78]
     // 0x5e2514: r0 = TextStyle()
     //     0x5e2514: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1118,7 +1118,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     //     0x5e281c: add             x1, PP, #0x34, lsl #12  ; [pp+0x34d80] "%@ players"
     //     0x5e2820: ldr             x1, [x1, #0xd80]
     // 0x5e2824: r0 = LF()
-    //     0x5e2824: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x5e2824: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x5e2828: stur            x0, [fp, #-0x78]
     // 0x5e282c: r0 = TextStyle()
     //     0x5e282c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1236,7 +1236,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     //     0x5e295c: stur            w0, [x3, #0xb]
     // 0x5e2960: ldur            x2, [fp, #-0x20]
     // 0x5e2964: r1 = Function '<anonymous closure>':.
-    //     0x5e2964: add             x1, PP, #0x41, lsl #12  ; [pp+0x41498] AnonymousClosure: (0x600f2c), in [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::build (0xac4444)
+    //     0x5e2964: add             x1, PP, #0x41, lsl #12  ; [pp+0x41498] AnonymousClosure: (0x600f2c), in [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::build (0xac4444)
     //     0x5e2968: ldr             x1, [x1, #0x498]
     // 0x5e296c: r0 = AllocateClosure()
     //     0x5e296c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1463,7 +1463,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     //     0x5e2bb0: add             x1, PP, #0x41, lsl #12  ; [pp+0x414b0] "No scores yet — be the first!"
     //     0x5e2bb4: ldr             x1, [x1, #0x4b0]
     // 0x5e2bb8: r0 = L()
-    //     0x5e2bb8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x5e2bb8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x5e2bbc: stur            x0, [fp, #-0x60]
     // 0x5e2bc0: r0 = TextStyle()
     //     0x5e2bc0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1842,7 +1842,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     //     0x5e2f98: stur            w0, [x3, #0xb]
     // 0x5e2f9c: ldur            x2, [fp, #-0x78]
     // 0x5e2fa0: r1 = Function '<anonymous closure>':.
-    //     0x5e2fa0: add             x1, PP, #0x41, lsl #12  ; [pp+0x414c8] AnonymousClosure: (0x600afc), in [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::build (0xac4444)
+    //     0x5e2fa0: add             x1, PP, #0x41, lsl #12  ; [pp+0x414c8] AnonymousClosure: (0x600afc), in [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::build (0xac4444)
     //     0x5e2fa4: ldr             x1, [x1, #0x4c8]
     // 0x5e2fa8: r0 = AllocateClosure()
     //     0x5e2fa8: bl              #0xe553e0  ; AllocateClosureStub
@@ -2252,7 +2252,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     // 0x5e33e0: tbnz            w3, #4, #0x5e3528
     // 0x5e33e4: ldur            x3, [fp, #-0x10]
     // 0x5e33e8: r0 = _availableMetrics()
-    //     0x5e33e8: bl              #0x5ed484  ; [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::_availableMetrics
+    //     0x5e33e8: bl              #0x5ed484  ; [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::_availableMetrics
     // 0x5e33ec: mov             x1, x0
     // 0x5e33f0: ldur            x0, [fp, #-0x18]
     // 0x5e33f4: stur            x1, [fp, #-0x30]
@@ -2296,7 +2296,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     //     0x5e3458: stur            w0, [x3, #0x17]
     // 0x5e345c: ldur            x2, [fp, #-8]
     // 0x5e3460: r1 = Function '<anonymous closure>':.
-    //     0x5e3460: add             x1, PP, #0x41, lsl #12  ; [pp+0x414e0] AnonymousClosure: (0x6007cc), in [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::build (0xac4444)
+    //     0x5e3460: add             x1, PP, #0x41, lsl #12  ; [pp+0x414e0] AnonymousClosure: (0x6007cc), in [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::build (0xac4444)
     //     0x5e3464: ldr             x1, [x1, #0x4e0]
     // 0x5e3468: r0 = AllocateClosure()
     //     0x5e3468: bl              #0xe553e0  ; AllocateClosureStub
@@ -2306,7 +2306,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     //     0x5e3474: stur            w1, [x0, #0x1b]
     // 0x5e3478: ldur            x2, [fp, #-8]
     // 0x5e347c: r1 = Function '<anonymous closure>':.
-    //     0x5e347c: add             x1, PP, #0x41, lsl #12  ; [pp+0x414e8] AnonymousClosure: (0x6006d0), in [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::build (0xac4444)
+    //     0x5e347c: add             x1, PP, #0x41, lsl #12  ; [pp+0x414e8] AnonymousClosure: (0x6006d0), in [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::build (0xac4444)
     //     0x5e3480: ldr             x1, [x1, #0x4e8]
     // 0x5e3484: r0 = AllocateClosure()
     //     0x5e3484: bl              #0xe553e0  ; AllocateClosureStub
@@ -2316,7 +2316,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     //     0x5e3490: stur            w1, [x0, #0x1f]
     // 0x5e3494: ldur            x2, [fp, #-8]
     // 0x5e3498: r1 = Function '<anonymous closure>':.
-    //     0x5e3498: add             x1, PP, #0x41, lsl #12  ; [pp+0x414f0] AnonymousClosure: (0x5f0ab0), in [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::build (0xac4444)
+    //     0x5e3498: add             x1, PP, #0x41, lsl #12  ; [pp+0x414f0] AnonymousClosure: (0x5f0ab0), in [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::build (0xac4444)
     //     0x5e349c: ldr             x1, [x1, #0x4f0]
     // 0x5e34a0: r0 = AllocateClosure()
     //     0x5e34a0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2500,7 +2500,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     // 0x5ed4ac: DecompressPointer r1
     //     0x5ed4ac: add             x1, x1, HEAP, lsl #32
     // 0x5ed4b0: r0 = availableFor()
-    //     0x5ed4b0: bl              #0x5ed4cc  ; [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_models.dart] DrillLeaderboardMetric::availableFor
+    //     0x5ed4b0: bl              #0x5ed4cc  ; [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_models.dart] DrillLeaderboardMetric::availableFor
     // 0x5ed4b4: LeaveFrame
     //     0x5ed4b4: mov             SP, fp
     //     0x5ed4b8: ldp             fp, lr, [SP], #0x10
@@ -2551,7 +2551,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     // 0x5f0b08: mov             x2, x1
     // 0x5f0b0c: stur            x0, [fp, #-8]
     // 0x5f0b10: r1 = Function '<anonymous closure>':.
-    //     0x5f0b10: add             x1, PP, #0x41, lsl #12  ; [pp+0x41508] AnonymousClosure: (0x600674), in [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::build (0xac4444)
+    //     0x5f0b10: add             x1, PP, #0x41, lsl #12  ; [pp+0x41508] AnonymousClosure: (0x600674), in [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::build (0xac4444)
     //     0x5f0b14: ldr             x1, [x1, #0x508]
     // 0x5f0b18: r0 = AllocateClosure()
     //     0x5f0b18: bl              #0xe553e0  ; AllocateClosureStub
@@ -2565,7 +2565,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     // 0x5f0b30: DecompressPointer r1
     //     0x5f0b30: add             x1, x1, HEAP, lsl #32
     // 0x5f0b34: r0 = _startListening()
-    //     0x5f0b34: bl              #0x5f0b50  ; [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::_startListening
+    //     0x5f0b34: bl              #0x5f0b50  ; [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::_startListening
     // 0x5f0b38: r0 = Null
     //     0x5f0b38: mov             x0, NULL
     // 0x5f0b3c: LeaveFrame
@@ -2658,7 +2658,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     // 0x5f0c0c: cmp             w6, w16
     // 0x5f0c10: b.eq            #0x5f0c50
     // 0x5f0c14: r0 = listen()
-    //     0x5f0c14: bl              #0x5f0c5c  ; [package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::listen
+    //     0x5f0c14: bl              #0x5f0c5c  ; [package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::listen
     // 0x5f0c18: r0 = Null
     //     0x5f0c18: mov             x0, NULL
     // 0x5f0c1c: LeaveFrame
@@ -2766,7 +2766,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     // 0x600728: mov             x2, x1
     // 0x60072c: stur            x0, [fp, #-8]
     // 0x600730: r1 = Function '<anonymous closure>':.
-    //     0x600730: add             x1, PP, #0x41, lsl #12  ; [pp+0x41510] AnonymousClosure: (0x600770), in [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::build (0xac4444)
+    //     0x600730: add             x1, PP, #0x41, lsl #12  ; [pp+0x41510] AnonymousClosure: (0x600770), in [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::build (0xac4444)
     //     0x600734: ldr             x1, [x1, #0x510]
     // 0x600738: r0 = AllocateClosure()
     //     0x600738: bl              #0xe553e0  ; AllocateClosureStub
@@ -2780,7 +2780,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     // 0x600750: DecompressPointer r1
     //     0x600750: add             x1, x1, HEAP, lsl #32
     // 0x600754: r0 = _startListening()
-    //     0x600754: bl              #0x5f0b50  ; [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::_startListening
+    //     0x600754: bl              #0x5f0b50  ; [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::_startListening
     // 0x600758: r0 = Null
     //     0x600758: mov             x0, NULL
     // 0x60075c: LeaveFrame
@@ -2855,7 +2855,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     //     0x6007fc: add             x3, x3, HEAP, lsl #32
     // 0x600800: stur            x3, [fp, #-8]
     // 0x600804: r1 = Function '<anonymous closure>':.
-    //     0x600804: add             x1, PP, #0x41, lsl #12  ; [pp+0x41518] AnonymousClosure: (0x600834), in [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::build (0xac4444)
+    //     0x600804: add             x1, PP, #0x41, lsl #12  ; [pp+0x41518] AnonymousClosure: (0x600834), in [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::build (0xac4444)
     //     0x600808: ldr             x1, [x1, #0x518]
     // 0x60080c: r0 = AllocateClosure()
     //     0x60080c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2956,7 +2956,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     //     0x600b7c: add             x2, x2, HEAP, lsl #32
     // 0x600b80: mov             x1, x3
     // 0x600b84: r0 = _openProfile()
-    //     0x600b84: bl              #0x600ba4  ; [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::_openProfile
+    //     0x600b84: bl              #0x600ba4  ; [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::_openProfile
     // 0x600b88: r0 = Null
     //     0x600b88: mov             x0, NULL
     // 0x600b8c: LeaveFrame
@@ -3094,7 +3094,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     //     0x600f5c: add             x3, x3, HEAP, lsl #32
     // 0x600f60: stur            x3, [fp, #-8]
     // 0x600f64: r1 = Function '<anonymous closure>':.
-    //     0x600f64: add             x1, PP, #0x41, lsl #12  ; [pp+0x41520] AnonymousClosure: (0x600f94), in [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::build (0xac4444)
+    //     0x600f64: add             x1, PP, #0x41, lsl #12  ; [pp+0x41520] AnonymousClosure: (0x600f94), in [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::build (0xac4444)
     //     0x600f68: ldr             x1, [x1, #0x520]
     // 0x600f6c: r0 = AllocateClosure()
     //     0x600f6c: bl              #0xe553e0  ; AllocateClosureStub
@@ -3213,7 +3213,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     //     0x99376c: add             x3, x3, HEAP, lsl #32
     // 0x993770: mov             x1, x3
     // 0x993774: r0 = availableFor()
-    //     0x993774: bl              #0x5ed4cc  ; [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_models.dart] DrillLeaderboardMetric::availableFor
+    //     0x993774: bl              #0x5ed4cc  ; [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_models.dart] DrillLeaderboardMetric::availableFor
     // 0x993778: mov             x3, x0
     // 0x99377c: ldur            x0, [fp, #-8]
     // 0x993780: stur            x3, [fp, #-0x18]
@@ -3295,7 +3295,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     // 0x993858: mov             x1, x0
     // 0x99385c: stur            x0, [fp, #-0x18]
     // 0x993860: r0 = DrillLeaderboardLiveBoard()
-    //     0x993860: bl              #0x993624  ; [package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::DrillLeaderboardLiveBoard
+    //     0x993860: bl              #0x993624  ; [package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::DrillLeaderboardLiveBoard
     // 0x993864: ldur            x1, [fp, #-8]
     // 0x993868: LoadField: r0 = r1->field_1b
     //     0x993868: ldur            w0, [x1, #0x1b]
@@ -3331,7 +3331,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     // 0x9938c0: ldur            x2, [fp, #-0x10]
     // 0x9938c4: stur            x0, [fp, #-8]
     // 0x9938c8: r1 = Function '<anonymous closure>':.
-    //     0x9938c8: add             x1, PP, #0x41, lsl #12  ; [pp+0x41568] AnonymousClosure: (0x9939c4), in [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::initState (0x993724)
+    //     0x9938c8: add             x1, PP, #0x41, lsl #12  ; [pp+0x41568] AnonymousClosure: (0x9939c4), in [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::initState (0x993724)
     //     0x9938cc: ldr             x1, [x1, #0x568]
     // 0x9938d0: r0 = AllocateClosure()
     //     0x9938d0: bl              #0xe553e0  ; AllocateClosureStub
@@ -3445,7 +3445,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     //     0x9939e8: add             x0, x0, HEAP, lsl #32
     // 0x9939ec: mov             x1, x0
     // 0x9939f0: r0 = _startListening()
-    //     0x9939f0: bl              #0x5f0b50  ; [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::_startListening
+    //     0x9939f0: bl              #0x5f0b50  ; [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::_startListening
     // 0x9939f4: r0 = Null
     //     0x9939f4: mov             x0, NULL
     // 0x9939f8: LeaveFrame
@@ -3483,8 +3483,8 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     // 0xac4480: StoreField: r2->field_f = r0
     //     0xac4480: stur            w0, [x2, #0xf]
     // 0xac4484: ldur            x1, [fp, #-0x10]
-    // 0xac4488: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xac4488: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xac4488: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xac4488: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xac448c: ldur            x2, [fp, #-0x18]
     // 0xac4490: StoreField: r2->field_13 = r0
     //     0xac4490: stur            w0, [x2, #0x13]
@@ -3495,12 +3495,12 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     //     0xac44a4: b.eq            #0xac44ac
     //     0xac44a8: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xac44ac: ldur            x1, [fp, #-0x10]
-    // 0xac44b0: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xac44b0: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xac44b0: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xac44b0: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xac44b4: ldur            x1, [fp, #-0x10]
     // 0xac44b8: stur            x0, [fp, #-0x20]
-    // 0xac44bc: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xac44bc: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xac44bc: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xac44bc: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xac44c0: ldur            x2, [fp, #-0x18]
     // 0xac44c4: ArrayStore: r2[0] = r0  ; List_4
     //     0xac44c4: stur            w0, [x2, #0x17]
@@ -3511,8 +3511,8 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     //     0xac44d8: b.eq            #0xac44e0
     //     0xac44dc: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xac44e0: ldur            x1, [fp, #-0x10]
-    // 0xac44e4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xac44e4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xac44e4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xac44e4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xac44e8: ldur            x2, [fp, #-0x18]
     // 0xac44ec: StoreField: r2->field_1b = r0
     //     0xac44ec: stur            w0, [x2, #0x1b]
@@ -3567,7 +3567,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     //     0xac4574: add             x1, PP, #0x24, lsl #12  ; [pp+0x24e70] "You"
     //     0xac4578: ldr             x1, [x1, #0xe70]
     // 0xac457c: r0 = L()
-    //     0xac457c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xac457c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xac4580: ldur            x2, [fp, #-0x18]
     // 0xac4584: ldur            x1, [fp, #-0x10]
     // 0xac4588: StoreField: r2->field_1f = r0
@@ -3632,7 +3632,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     // 0xac4638: b.eq            #0xac4698
     // 0xac463c: stur            x0, [fp, #-0x10]
     // 0xac4640: r1 = Function '<anonymous closure>':.
-    //     0xac4640: add             x1, PP, #0x41, lsl #12  ; [pp+0x41450] AnonymousClosure: (0x5e1c18), in [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::build (0xac4444)
+    //     0xac4640: add             x1, PP, #0x41, lsl #12  ; [pp+0x41450] AnonymousClosure: (0x5e1c18), in [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::build (0xac4444)
     //     0xac4644: ldr             x1, [x1, #0x450]
     // 0xac4648: r0 = AllocateClosure()
     //     0xac4648: bl              #0xe553e0  ; AllocateClosureStub
@@ -3678,7 +3678,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     //     0xb5ca14: mov             fp, SP
     // 0xb5ca18: ldr             x2, [fp, #0x10]
     // 0xb5ca1c: r1 = Function 'dispose':.
-    //     0xb5ca1c: add             x1, PP, #0x41, lsl #12  ; [pp+0x41448] AnonymousClosure: (0xb5ca34), in [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::dispose (0xb640f4)
+    //     0xb5ca1c: add             x1, PP, #0x41, lsl #12  ; [pp+0x41448] AnonymousClosure: (0xb5ca34), in [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::dispose (0xb640f4)
     //     0xb5ca20: ldr             x1, [x1, #0x448]
     // 0xb5ca24: r0 = AllocateClosure()
     //     0xb5ca24: bl              #0xe553e0  ; AllocateClosureStub
@@ -3703,7 +3703,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     //     0xb5ca4c: cmp             SP, x16
     //     0xb5ca50: b.ls            #0xb5ca64
     // 0xb5ca54: r0 = dispose()
-    //     0xb5ca54: bl              #0xb640f4  ; [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::dispose
+    //     0xb5ca54: bl              #0xb640f4  ; [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DrillLeaderboardViewState::dispose
     // 0xb5ca58: LeaveFrame
     //     0xb5ca58: mov             SP, fp
     //     0xb5ca5c: ldp             fp, lr, [SP], #0x10
@@ -3732,7 +3732,7 @@ class _DrillLeaderboardViewState extends State<dynamic> {
     // 0xb64118: b.eq            #0xb6413c
     // 0xb6411c: mov             x1, x0
     // 0xb64120: r0 = dispose()
-    //     0xb64120: bl              #0x9ba7b4  ; [package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::dispose
+    //     0xb64120: bl              #0x9ba7b4  ; [package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::dispose
     // 0xb64124: r0 = Null
     //     0xb64124: mov             x0, NULL
     // 0xb64128: LeaveFrame
@@ -3816,12 +3816,12 @@ class _DoublePickerOverlay extends StatelessWidget {
     // 0xc3381c: StoreField: r2->field_f = r0
     //     0xc3381c: stur            w0, [x2, #0xf]
     // 0xc33820: ldur            x1, [fp, #-0x10]
-    // 0xc33824: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xc33824: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xc33824: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xc33824: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xc33828: ldur            x1, [fp, #-0x10]
     // 0xc3382c: stur            x0, [fp, #-0x20]
-    // 0xc33830: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc33830: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc33830: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc33830: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc33834: mov             x3, x0
     // 0xc33838: ldur            x2, [fp, #-0x18]
     // 0xc3383c: stur            x3, [fp, #-0x28]
@@ -3834,8 +3834,8 @@ class _DoublePickerOverlay extends StatelessWidget {
     //     0xc33854: b.eq            #0xc3385c
     //     0xc33858: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xc3385c: ldur            x1, [fp, #-0x10]
-    // 0xc33860: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc33860: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc33860: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc33860: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc33864: mov             x2, x0
     // 0xc33868: ldur            x0, [fp, #-8]
     // 0xc3386c: stur            x2, [fp, #-0x38]
@@ -3901,7 +3901,7 @@ class _DoublePickerOverlay extends StatelessWidget {
     //     0xc3390c: stur            w0, [x2, #0xb]
     // 0xc33910: ldur            x1, [fp, #-0x10]
     // 0xc33914: r0 = systemBottomBarInset()
-    //     0xc33914: bl              #0xa9f2a8  ; [package:ballai/automatic/utility/ui/system_bottom_inset.dart] ::systemBottomBarInset
+    //     0xc33914: bl              #0xa9f2a8  ; [package:kourtai/automatic/utility/ui/system_bottom_inset.dart] ::systemBottomBarInset
     // 0xc33918: stur            d0, [fp, #-0x78]
     // 0xc3391c: r0 = EdgeInsets()
     //     0xc3391c: bl              #0x60095c  ; AllocateEdgeInsetsStub -> EdgeInsets (size=0x28)
@@ -3919,7 +3919,7 @@ class _DoublePickerOverlay extends StatelessWidget {
     //     0xc33938: add             x1, PP, #0x47, lsl #12  ; [pp+0x47c70] "Sort leaderboard"
     //     0xc3393c: ldr             x1, [x1, #0xc70]
     // 0xc33940: r0 = L()
-    //     0xc33940: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc33940: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc33944: stur            x0, [fp, #-0x50]
     // 0xc33948: r0 = TextStyle()
     //     0xc33948: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -3956,7 +3956,7 @@ class _DoublePickerOverlay extends StatelessWidget {
     //     0xc33998: add             x1, PP, #0x26, lsl #12  ; [pp+0x266c8] "Done"
     //     0xc3399c: ldr             x1, [x1, #0x6c8]
     // 0xc339a0: r0 = L()
-    //     0xc339a0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc339a0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc339a4: mov             x1, x0
     // 0xc339a8: ldur            x0, [fp, #-8]
     // 0xc339ac: stur            x1, [fp, #-0x58]
@@ -4122,7 +4122,7 @@ class _DoublePickerOverlay extends StatelessWidget {
     //     0xc33b40: add             x1, PP, #0x47, lsl #12  ; [pp+0x47c78] "METRIC"
     //     0xc33b44: ldr             x1, [x1, #0xc78]
     // 0xc33b48: r0 = L()
-    //     0xc33b48: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc33b48: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc33b4c: stur            x0, [fp, #-0x28]
     // 0xc33b50: r0 = TextStyle()
     //     0xc33b50: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -4186,7 +4186,7 @@ class _DoublePickerOverlay extends StatelessWidget {
     //     0xc33be0: add             x1, PP, #0x47, lsl #12  ; [pp+0x47c80] "TIME PERIOD"
     //     0xc33be4: ldr             x1, [x1, #0xc80]
     // 0xc33be8: r0 = L()
-    //     0xc33be8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc33be8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc33bec: stur            x0, [fp, #-0x58]
     // 0xc33bf0: r0 = TextStyle()
     //     0xc33bf0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -4325,7 +4325,7 @@ class _DoublePickerOverlay extends StatelessWidget {
     //     0xc33d3c: stur            w0, [x2, #0xb]
     // 0xc33d40: ldur            x1, [fp, #-0x10]
     // 0xc33d44: r0 = selectionBand()
-    //     0xc33d44: bl              #0x9cda38  ; [package:ballai/automatic/views/components/foreground/input/ios_wheel_picker.dart] IosWheelPicker::selectionBand
+    //     0xc33d44: bl              #0x9cda38  ; [package:kourtai/automatic/views/components/foreground/input/ios_wheel_picker.dart] IosWheelPicker::selectionBand
     // 0xc33d48: mov             x3, x0
     // 0xc33d4c: ldur            x0, [fp, #-8]
     // 0xc33d50: stur            x3, [fp, #-0x38]
@@ -4380,7 +4380,7 @@ class _DoublePickerOverlay extends StatelessWidget {
     //     0xc33dd8: stur            x1, [x3, #0x13]
     // 0xc33ddc: ldur            x2, [fp, #-0x18]
     // 0xc33de0: r1 = Function '<anonymous closure>':.
-    //     0xc33de0: add             x1, PP, #0x47, lsl #12  ; [pp+0x47c90] AnonymousClosure: (0xc344b8), in [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DoublePickerOverlay::build (0xc337e0)
+    //     0xc33de0: add             x1, PP, #0x47, lsl #12  ; [pp+0x47c90] AnonymousClosure: (0xc344b8), in [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DoublePickerOverlay::build (0xc337e0)
     //     0xc33de4: ldr             x1, [x1, #0xc90]
     // 0xc33de8: r0 = AllocateClosure()
     //     0xc33de8: bl              #0xe553e0  ; AllocateClosureStub
@@ -4390,7 +4390,7 @@ class _DoublePickerOverlay extends StatelessWidget {
     //     0xc33df4: stur            w1, [x0, #0x1b]
     // 0xc33df8: ldur            x2, [fp, #-0x18]
     // 0xc33dfc: r1 = Function '<anonymous closure>':.
-    //     0xc33dfc: add             x1, PP, #0x47, lsl #12  ; [pp+0x47c98] AnonymousClosure: (0xc34418), in [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DoublePickerOverlay::build (0xc337e0)
+    //     0xc33dfc: add             x1, PP, #0x47, lsl #12  ; [pp+0x47c98] AnonymousClosure: (0xc34418), in [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DoublePickerOverlay::build (0xc337e0)
     //     0xc33e00: ldr             x1, [x1, #0xc98]
     // 0xc33e04: r0 = AllocateClosure()
     //     0xc33e04: bl              #0xe553e0  ; AllocateClosureStub
@@ -4476,7 +4476,7 @@ class _DoublePickerOverlay extends StatelessWidget {
     //     0xc33ee4: stur            x0, [x3, #0x13]
     // 0xc33ee8: ldur            x2, [fp, #-0x18]
     // 0xc33eec: r1 = Function '<anonymous closure>':.
-    //     0xc33eec: add             x1, PP, #0x47, lsl #12  ; [pp+0x47ca8] AnonymousClosure: (0xc34320), in [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DoublePickerOverlay::build (0xc337e0)
+    //     0xc33eec: add             x1, PP, #0x47, lsl #12  ; [pp+0x47ca8] AnonymousClosure: (0xc34320), in [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DoublePickerOverlay::build (0xc337e0)
     //     0xc33ef0: ldr             x1, [x1, #0xca8]
     // 0xc33ef4: r0 = AllocateClosure()
     //     0xc33ef4: bl              #0xe553e0  ; AllocateClosureStub
@@ -4486,7 +4486,7 @@ class _DoublePickerOverlay extends StatelessWidget {
     //     0xc33f00: stur            w1, [x0, #0x1b]
     // 0xc33f04: ldur            x2, [fp, #-0x18]
     // 0xc33f08: r1 = Function '<anonymous closure>':.
-    //     0xc33f08: add             x1, PP, #0x47, lsl #12  ; [pp+0x47cb0] AnonymousClosure: (0xc34288), in [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DoublePickerOverlay::build (0xc337e0)
+    //     0xc33f08: add             x1, PP, #0x47, lsl #12  ; [pp+0x47cb0] AnonymousClosure: (0xc34288), in [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_view.dart] _DoublePickerOverlay::build (0xc337e0)
     //     0xc33f0c: ldr             x1, [x1, #0xcb0]
     // 0xc33f10: r0 = AllocateClosure()
     //     0xc33f10: bl              #0xe553e0  ; AllocateClosureStub
@@ -4941,7 +4941,7 @@ class _DoublePickerOverlay extends StatelessWidget {
     // 0xc34378: DecompressPointer r1
     //     0xc34378: add             x1, x1, HEAP, lsl #32
     // 0xc3437c: r0 = shortTitle()
-    //     0xc3437c: bl              #0x5ef79c  ; [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_models.dart] DrillLeaderboardWindow::shortTitle
+    //     0xc3437c: bl              #0x5ef79c  ; [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_models.dart] DrillLeaderboardWindow::shortTitle
     // 0xc34380: mov             x1, x0
     // 0xc34384: ldur            x0, [fp, #-8]
     // 0xc34388: stur            x1, [fp, #-0x18]
@@ -5109,7 +5109,7 @@ class _DoublePickerOverlay extends StatelessWidget {
     // 0xc34520: DecompressPointer r1
     //     0xc34520: add             x1, x1, HEAP, lsl #32
     // 0xc34524: r0 = title()
-    //     0xc34524: bl              #0x5ef840  ; [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_models.dart] DrillLeaderboardMetric::title
+    //     0xc34524: bl              #0x5ef840  ; [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_models.dart] DrillLeaderboardMetric::title
     // 0xc34528: mov             x1, x0
     // 0xc3452c: ldur            x0, [fp, #-8]
     // 0xc34530: stur            x1, [fp, #-0x18]

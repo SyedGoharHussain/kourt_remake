@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/my_player/account_setup_archetype_resolver.dart
+// lib: , url: package:kourtai/automatic/models/core/my_player/account_setup_archetype_resolver.dart
 
 // class id: 1048689, size: 0x8
 class :: {
@@ -131,7 +131,7 @@ abstract class AccountSetupArchetypeResolver extends Object {
     // 0x9fda44: tbnz            w0, #4, #0x9fdb74
     // 0x9fda48: ldur            x2, [fp, #-0x20]
     // 0x9fda4c: r1 = Function '<anonymous closure>': static.
-    //     0x9fda4c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d700] AnonymousClosure: static (0x9fe448), in [package:ballai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::resolve (0x9fd8cc)
+    //     0x9fda4c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d700] AnonymousClosure: static (0x9fe448), in [package:kourtai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::resolve (0x9fd8cc)
     //     0x9fda50: ldr             x1, [x1, #0x700]
     // 0x9fda54: r0 = AllocateClosure()
     //     0x9fda54: bl              #0xe553e0  ; AllocateClosureStub
@@ -195,7 +195,7 @@ abstract class AccountSetupArchetypeResolver extends Object {
     // 0x9fdaf4: ldur            x1, [fp, #-0x10]
     // 0x9fdaf8: stur            x0, [fp, #-0x28]
     // 0x9fdafc: r0 = pureName()
-    //     0x9fdafc: bl              #0x9fdef0  ; [package:ballai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::pureName
+    //     0x9fdafc: bl              #0x9fdef0  ; [package:kourtai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::pureName
     // 0x9fdb00: mov             x1, x0
     // 0x9fdb04: ldur            x0, [fp, #-0x18]
     // 0x9fdb08: stur            x1, [fp, #-0x38]
@@ -241,7 +241,7 @@ abstract class AccountSetupArchetypeResolver extends Object {
     // 0x9fdb78: ldur            x3, [fp, #-0x10]
     // 0x9fdb7c: ldur            x2, [fp, #-0x20]
     // 0x9fdb80: r1 = Function '<anonymous closure>': static.
-    //     0x9fdb80: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d720] AnonymousClosure: static (0x9fe3cc), in [package:ballai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::resolve (0x9fd8cc)
+    //     0x9fdb80: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d720] AnonymousClosure: static (0x9fe3cc), in [package:kourtai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::resolve (0x9fd8cc)
     //     0x9fdb84: ldr             x1, [x1, #0x720]
     // 0x9fdb88: r0 = AllocateClosure()
     //     0x9fdb88: bl              #0xe553e0  ; AllocateClosureStub
@@ -262,7 +262,7 @@ abstract class AccountSetupArchetypeResolver extends Object {
     //     0x9fdbac: ldur            w1, [x0, #0xb]
     // 0x9fdbb0: cbnz            w1, #0x9fdbec
     // 0x9fdbb4: r1 = Function '<anonymous closure>': static.
-    //     0x9fdbb4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d728] AnonymousClosure: static (0x9fe3b8), in [package:ballai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::resolve (0x9fd8cc)
+    //     0x9fdbb4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d728] AnonymousClosure: static (0x9fe3b8), in [package:kourtai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::resolve (0x9fd8cc)
     //     0x9fdbb8: ldr             x1, [x1, #0x728]
     // 0x9fdbbc: r2 = Null
     //     0x9fdbbc: mov             x2, NULL
@@ -288,7 +288,7 @@ abstract class AccountSetupArchetypeResolver extends Object {
     // 0x9fdbf4: mov             x2, x0
     // 0x9fdbf8: stur            x3, [fp, #-0x28]
     // 0x9fdbfc: r1 = Function 'tier': static.
-    //     0x9fdbfc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d730] AnonymousClosure: static (0x9fe1b4), in [package:ballai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::resolve (0x9fd8cc)
+    //     0x9fdbfc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d730] AnonymousClosure: static (0x9fe1b4), in [package:kourtai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::resolve (0x9fd8cc)
     //     0x9fdc00: ldr             x1, [x1, #0x730]
     // 0x9fdc04: r0 = AllocateClosure()
     //     0x9fdc04: bl              #0xe553e0  ; AllocateClosureStub
@@ -343,7 +343,7 @@ abstract class AccountSetupArchetypeResolver extends Object {
     // 0x9fdc8c: ldur            x1, [fp, #-0x10]
     // 0x9fdc90: stur            x0, [fp, #-0x30]
     // 0x9fdc94: r0 = specialistName()
-    //     0x9fdc94: bl              #0x9fddd4  ; [package:ballai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::specialistName
+    //     0x9fdc94: bl              #0x9fddd4  ; [package:kourtai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::specialistName
     // 0x9fdc98: mov             x1, x0
     // 0x9fdc9c: ldur            x0, [fp, #-0x18]
     // 0x9fdca0: stur            x1, [fp, #-0x38]
@@ -396,7 +396,7 @@ abstract class AccountSetupArchetypeResolver extends Object {
     // 0x9fdd24: r0 = map()
     //     0x9fdd24: bl              #0x8e024c  ; [dart:collection] ListBase::map
     // 0x9fdd28: r1 = Function '<anonymous closure>': static.
-    //     0x9fdd28: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d738] AnonymousClosure: static (0x9fe158), in [package:ballai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::resolve (0x9fd8cc)
+    //     0x9fdd28: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d738] AnonymousClosure: static (0x9fe158), in [package:kourtai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::resolve (0x9fd8cc)
     //     0x9fdd2c: ldr             x1, [x1, #0x738]
     // 0x9fdd30: r2 = Null
     //     0x9fdd30: mov             x2, NULL
@@ -418,7 +418,7 @@ abstract class AccountSetupArchetypeResolver extends Object {
     //     0x9fdd64: b.eq            #0x9fdd6c
     //     0x9fdd68: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x9fdd6c: r1 = Function '<anonymous closure>': static.
-    //     0x9fdd6c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d740] AnonymousClosure: static (0x9fe0a4), in [package:ballai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::resolve (0x9fd8cc)
+    //     0x9fdd6c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d740] AnonymousClosure: static (0x9fe0a4), in [package:kourtai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::resolve (0x9fd8cc)
     //     0x9fdd70: ldr             x1, [x1, #0x740]
     // 0x9fdd74: r0 = AllocateClosure()
     //     0x9fdd74: bl              #0xe553e0  ; AllocateClosureStub
@@ -434,7 +434,7 @@ abstract class AccountSetupArchetypeResolver extends Object {
     // 0x9fdd90: r0 = _GrowableList.of()
     //     0x9fdd90: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x9fdd94: r1 = Function '<anonymous closure>': static.
-    //     0x9fdd94: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d748] AnonymousClosure: static (0x9fe000), in [package:ballai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::resolve (0x9fd8cc)
+    //     0x9fdd94: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d748] AnonymousClosure: static (0x9fe000), in [package:kourtai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::resolve (0x9fd8cc)
     //     0x9fdd98: ldr             x1, [x1, #0x748]
     // 0x9fdd9c: r2 = Null
     //     0x9fdd9c: mov             x2, NULL

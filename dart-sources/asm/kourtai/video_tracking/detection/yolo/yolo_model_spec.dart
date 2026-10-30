@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/detection/yolo/yolo_model_spec.dart
+// lib: , url: package:kourtai/video_tracking/detection/yolo/yolo_model_spec.dart
 
 // class id: 1049139, size: 0x8
 class :: {
@@ -28,7 +28,7 @@ class :: {
     //     0xabbc10: b.ls            #0xabbc54
     // 0xabbc14: mov             x1, x0
     // 0xabbc18: r0 = forAsset()
-    //     0xabbc18: bl              #0x78d09c  ; [package:ballai/video_tracking/detection/yolo/yolo_model_spec.dart] YoloModelSpec::forAsset
+    //     0xabbc18: bl              #0x78d09c  ; [package:kourtai/video_tracking/detection/yolo/yolo_model_spec.dart] YoloModelSpec::forAsset
     // 0xabbc1c: cmp             w0, NULL
     // 0xabbc20: b.ne            #0xabbc2c
     // 0xabbc24: r0 = Null
@@ -43,7 +43,7 @@ class :: {
     // 0xabbc3c: b.ne            #0xabbc48
     // 0xabbc40: ldur            x1, [fp, #-8]
     // 0xabbc44: r0 = yoloModelStem()
-    //     0xabbc44: bl              #0xabbc5c  ; [package:ballai/video_tracking/detection/yolo/yolo_types.dart] ::yoloModelStem
+    //     0xabbc44: bl              #0xabbc5c  ; [package:kourtai/video_tracking/detection/yolo/yolo_types.dart] ::yoloModelStem
     // 0xabbc48: LeaveFrame
     //     0xabbc48: mov             SP, fp
     //     0xabbc4c: ldp             fp, lr, [SP], #0x10

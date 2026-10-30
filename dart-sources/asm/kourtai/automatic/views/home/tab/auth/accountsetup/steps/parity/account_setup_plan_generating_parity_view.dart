@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart
 
 // class id: 1048844, size: 0x8
 class :: {
@@ -32,7 +32,7 @@ abstract class __AccountSetupPlanGeneratingParityViewState&State&TickerProviderS
     // 0x7b7b84: b.ne            #0x7b7b90
     // 0x7b7b88: mov             x1, x0
     // 0x7b7b8c: r0 = _updateTickerModeNotifier()
-    //     0x7b7b8c: bl              #0x7b7cac  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] __AccountSetupPlanGeneratingParityViewState&State&TickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x7b7b8c: bl              #0x7b7cac  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] __AccountSetupPlanGeneratingParityViewState&State&TickerProviderStateMixin::_updateTickerModeNotifier
     // 0x7b7b90: ldur            x0, [fp, #-8]
     // 0x7b7b94: LoadField: r1 = r0->field_13
     //     0x7b7b94: ldur            w1, [x0, #0x13]
@@ -170,7 +170,7 @@ abstract class __AccountSetupPlanGeneratingParityViewState&State&TickerProviderS
     // 0x7b7d14: b.eq            #0x7b7d58
     // 0x7b7d18: mov             x2, x0
     // 0x7b7d1c: r1 = Function '_updateTickers@394311458':.
-    //     0x7b7d1c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df88] AnonymousClosure: (0x7b7dd0), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] __AccountSetupPlanGeneratingParityViewState&State&TickerProviderStateMixin::_updateTickers (0x7b7e08)
+    //     0x7b7d1c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df88] AnonymousClosure: (0x7b7dd0), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] __AccountSetupPlanGeneratingParityViewState&State&TickerProviderStateMixin::_updateTickers (0x7b7e08)
     //     0x7b7d20: ldr             x1, [x1, #0xf88]
     // 0x7b7d24: r0 = AllocateClosure()
     //     0x7b7d24: bl              #0xe553e0  ; AllocateClosureStub
@@ -190,7 +190,7 @@ abstract class __AccountSetupPlanGeneratingParityViewState&State&TickerProviderS
     // 0x7b7d54: ldur            x3, [fp, #-0x18]
     // 0x7b7d58: mov             x2, x0
     // 0x7b7d5c: r1 = Function '_updateTickers@394311458':.
-    //     0x7b7d5c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df88] AnonymousClosure: (0x7b7dd0), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] __AccountSetupPlanGeneratingParityViewState&State&TickerProviderStateMixin::_updateTickers (0x7b7e08)
+    //     0x7b7d5c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df88] AnonymousClosure: (0x7b7dd0), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] __AccountSetupPlanGeneratingParityViewState&State&TickerProviderStateMixin::_updateTickers (0x7b7e08)
     //     0x7b7d60: ldr             x1, [x1, #0xf88]
     // 0x7b7d64: r0 = AllocateClosure()
     //     0x7b7d64: bl              #0xe553e0  ; AllocateClosureStub
@@ -244,7 +244,7 @@ abstract class __AccountSetupPlanGeneratingParityViewState&State&TickerProviderS
     //     0x7b7de8: cmp             SP, x16
     //     0x7b7dec: b.ls            #0x7b7e00
     // 0x7b7df0: r0 = _updateTickers()
-    //     0x7b7df0: bl              #0x7b7e08  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] __AccountSetupPlanGeneratingParityViewState&State&TickerProviderStateMixin::_updateTickers
+    //     0x7b7df0: bl              #0x7b7e08  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] __AccountSetupPlanGeneratingParityViewState&State&TickerProviderStateMixin::_updateTickers
     // 0x7b7df4: LeaveFrame
     //     0x7b7df4: mov             SP, fp
     //     0x7b7df8: ldp             fp, lr, [SP], #0x10
@@ -398,10 +398,10 @@ abstract class __AccountSetupPlanGeneratingParityViewState&State&TickerProviderS
     //     0x8e4220: b.ls            #0x8e4244
     // 0x8e4224: mov             x1, x0
     // 0x8e4228: r0 = _updateTickerModeNotifier()
-    //     0x8e4228: bl              #0x7b7cac  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] __AccountSetupPlanGeneratingParityViewState&State&TickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x8e4228: bl              #0x7b7cac  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] __AccountSetupPlanGeneratingParityViewState&State&TickerProviderStateMixin::_updateTickerModeNotifier
     // 0x8e422c: ldur            x1, [fp, #-8]
     // 0x8e4230: r0 = _updateTickers()
-    //     0x8e4230: bl              #0x7b7e08  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] __AccountSetupPlanGeneratingParityViewState&State&TickerProviderStateMixin::_updateTickers
+    //     0x8e4230: bl              #0x7b7e08  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] __AccountSetupPlanGeneratingParityViewState&State&TickerProviderStateMixin::_updateTickers
     // 0x8e4234: r0 = Null
     //     0x8e4234: mov             x0, NULL
     // 0x8e4238: LeaveFrame
@@ -438,7 +438,7 @@ abstract class __AccountSetupPlanGeneratingParityViewState&State&TickerProviderS
     // 0xb60f50: b               #0xb60f90
     // 0xb60f54: mov             x2, x0
     // 0xb60f58: r1 = Function '_updateTickers@394311458':.
-    //     0xb60f58: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df88] AnonymousClosure: (0x7b7dd0), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] __AccountSetupPlanGeneratingParityViewState&State&TickerProviderStateMixin::_updateTickers (0x7b7e08)
+    //     0xb60f58: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df88] AnonymousClosure: (0x7b7dd0), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] __AccountSetupPlanGeneratingParityViewState&State&TickerProviderStateMixin::_updateTickers (0x7b7e08)
     //     0xb60f5c: ldr             x1, [x1, #0xf88]
     // 0xb60f60: r0 = AllocateClosure()
     //     0xb60f60: bl              #0xe553e0  ; AllocateClosureStub
@@ -483,7 +483,7 @@ abstract class __AccountSetupPlanGeneratingParityViewState&State&TickerProviderS
     //     0xb60fc4: cmp             SP, x16
     //     0xb60fc8: b.ls            #0xb60fdc
     // 0xb60fcc: r0 = dispose()
-    //     0xb60fcc: bl              #0xb60f18  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] __AccountSetupPlanGeneratingParityViewState&State&TickerProviderStateMixin::dispose
+    //     0xb60fcc: bl              #0xb60f18  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] __AccountSetupPlanGeneratingParityViewState&State&TickerProviderStateMixin::dispose
     // 0xb60fd0: LeaveFrame
     //     0xb60fd0: mov             SP, fp
     //     0xb60fd4: ldp             fp, lr, [SP], #0x10
@@ -542,7 +542,7 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     // 0x94af38: mov             x2, x1
     // 0x94af3c: stur            x0, [fp, #-8]
     // 0x94af40: r1 = Function '<anonymous closure>':.
-    //     0x94af40: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2ded8] AnonymousClosure: (0x94b014), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::initState (0x94aee4)
+    //     0x94af40: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2ded8] AnonymousClosure: (0x94b014), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::initState (0x94aee4)
     //     0x94af44: ldr             x1, [x1, #0xed8]
     // 0x94af48: r0 = AllocateClosure()
     //     0x94af48: bl              #0xe553e0  ; AllocateClosureStub
@@ -663,7 +663,7 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     // 0x94b078: DecompressPointer r1
     //     0x94b078: add             x1, x1, HEAP, lsl #32
     // 0x94b07c: r0 = _run()
-    //     0x94b07c: bl              #0x94b098  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::_run
+    //     0x94b07c: bl              #0x94b098  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::_run
     // 0x94b080: r0 = Null
     //     0x94b080: mov             x0, NULL
     // 0x94b084: LeaveFrame
@@ -725,7 +725,7 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     // 0x94b110: ldur            x3, [fp, #-0x10]
     // 0x94b114: ldur            x2, [fp, #-0x18]
     // 0x94b118: r1 = Function '<anonymous closure>':.
-    //     0x94b118: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2def0] AnonymousClosure: (0x94bca4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::_run (0x94b098)
+    //     0x94b118: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2def0] AnonymousClosure: (0x94bca4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::_run (0x94b098)
     //     0x94b11c: ldr             x1, [x1, #0xef0]
     // 0x94b120: r0 = AllocateClosure()
     //     0x94b120: bl              #0xe553e0  ; AllocateClosureStub
@@ -764,7 +764,7 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     //     0x94b174: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x94b178: ldur            x1, [fp, #-0x20]
     // 0x94b17c: r0 = jumpToRecapAfterPlanGenerating()
-    //     0x94b17c: bl              #0x94b924  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::jumpToRecapAfterPlanGenerating
+    //     0x94b17c: bl              #0x94b924  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::jumpToRecapAfterPlanGenerating
     // 0x94b180: r0 = Null
     //     0x94b180: mov             x0, NULL
     // 0x94b184: r0 = ReturnAsyncNotFuture()
@@ -801,7 +801,7 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     //     0x94b1d0: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x94b1d4: ldur            x0, [fp, #-0x18]
     // 0x94b1d8: r0 = _actions()
-    //     0x94b1d8: bl              #0x94b700  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::_actions
+    //     0x94b1d8: bl              #0x94b700  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::_actions
     // 0x94b1dc: ldur            x1, [fp, #-0x18]
     // 0x94b1e0: StoreField: r1->field_13 = r0
     //     0x94b1e0: stur            w0, [x1, #0x13]
@@ -1085,7 +1085,7 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     // 0x94b4f4: mov             x2, x3
     // 0x94b4f8: stur            x3, [fp, #-0x20]
     // 0x94b4fc: r1 = Function '<anonymous closure>':.
-    //     0x94b4fc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df00] AnonymousClosure: (0x94bb68), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::_run (0x94b098)
+    //     0x94b4fc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df00] AnonymousClosure: (0x94bb68), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::_run (0x94b098)
     //     0x94b500: ldr             x1, [x1, #0xf00]
     // 0x94b504: r0 = AllocateClosure()
     //     0x94b504: bl              #0xe553e0  ; AllocateClosureStub
@@ -1171,7 +1171,7 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     // 0x94b5e4: mov             x3, x2
     // 0x94b5e8: mov             x2, x0
     // 0x94b5ec: r1 = Function '<anonymous closure>':.
-    //     0x94b5ec: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df10] AnonymousClosure: (0x94bb40), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::_run (0x94b098)
+    //     0x94b5ec: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df10] AnonymousClosure: (0x94bb40), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::_run (0x94b098)
     //     0x94b5f0: ldr             x1, [x1, #0xf10]
     // 0x94b5f4: r0 = AllocateClosure()
     //     0x94b5f4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1240,7 +1240,7 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     //     0x94b694: bl              #0x5ff5d4  ; [package:provider/src/provider.dart] ::ReadContext.read
     // 0x94b698: mov             x1, x0
     // 0x94b69c: r0 = jumpToRecapAfterPlanGenerating()
-    //     0x94b69c: bl              #0x94b924  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::jumpToRecapAfterPlanGenerating
+    //     0x94b69c: bl              #0x94b924  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::jumpToRecapAfterPlanGenerating
     // 0x94b6a0: r0 = Null
     //     0x94b6a0: mov             x0, NULL
     // 0x94b6a4: r0 = ReturnAsyncNotFuture()
@@ -1298,13 +1298,13 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     //     0x94b718: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df18] "Analyzing your profile"
     //     0x94b71c: ldr             x1, [x1, #0xf18]
     // 0x94b720: r0 = L()
-    //     0x94b720: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x94b720: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x94b724: r1 = "Analyzing your profile..."
     //     0x94b724: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df20] "Analyzing your profile..."
     //     0x94b728: ldr             x1, [x1, #0xf20]
     // 0x94b72c: stur            x0, [fp, #-8]
     // 0x94b730: r0 = L()
-    //     0x94b730: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x94b730: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x94b734: stur            x0, [fp, #-0x10]
     // 0x94b738: r0 = _PlanAction()
     //     0x94b738: bl              #0x94b8f4  ; Allocate_PlanActionStub -> _PlanAction (size=0x10)
@@ -1320,13 +1320,13 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     //     0x94b754: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df28] "Reading your preferences"
     //     0x94b758: ldr             x1, [x1, #0xf28]
     // 0x94b75c: r0 = L()
-    //     0x94b75c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x94b75c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x94b760: r1 = "Reading your preferences..."
     //     0x94b760: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df30] "Reading your preferences..."
     //     0x94b764: ldr             x1, [x1, #0xf30]
     // 0x94b768: stur            x0, [fp, #-8]
     // 0x94b76c: r0 = L()
-    //     0x94b76c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x94b76c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x94b770: stur            x0, [fp, #-0x10]
     // 0x94b774: r0 = _PlanAction()
     //     0x94b774: bl              #0x94b8f4  ; Allocate_PlanActionStub -> _PlanAction (size=0x10)
@@ -1342,13 +1342,13 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     //     0x94b790: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df38] "Mapping your playstyle"
     //     0x94b794: ldr             x1, [x1, #0xf38]
     // 0x94b798: r0 = L()
-    //     0x94b798: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x94b798: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x94b79c: r1 = "Mapping your playstyle..."
     //     0x94b79c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df40] "Mapping your playstyle..."
     //     0x94b7a0: ldr             x1, [x1, #0xf40]
     // 0x94b7a4: stur            x0, [fp, #-8]
     // 0x94b7a8: r0 = L()
-    //     0x94b7a8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x94b7a8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x94b7ac: stur            x0, [fp, #-0x10]
     // 0x94b7b0: r0 = _PlanAction()
     //     0x94b7b0: bl              #0x94b8f4  ; Allocate_PlanActionStub -> _PlanAction (size=0x10)
@@ -1364,13 +1364,13 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     //     0x94b7cc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df48] "Setting your weekly goals"
     //     0x94b7d0: ldr             x1, [x1, #0xf48]
     // 0x94b7d4: r0 = L()
-    //     0x94b7d4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x94b7d4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x94b7d8: r1 = "Setting your weekly goals..."
     //     0x94b7d8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df50] "Setting your weekly goals..."
     //     0x94b7dc: ldr             x1, [x1, #0xf50]
     // 0x94b7e0: stur            x0, [fp, #-8]
     // 0x94b7e4: r0 = L()
-    //     0x94b7e4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x94b7e4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x94b7e8: stur            x0, [fp, #-0x10]
     // 0x94b7ec: r0 = _PlanAction()
     //     0x94b7ec: bl              #0x94b8f4  ; Allocate_PlanActionStub -> _PlanAction (size=0x10)
@@ -1386,13 +1386,13 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     //     0x94b808: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df58] "Building your roadmap"
     //     0x94b80c: ldr             x1, [x1, #0xf58]
     // 0x94b810: r0 = L()
-    //     0x94b810: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x94b810: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x94b814: r1 = "Building your roadmap..."
     //     0x94b814: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df60] "Building your roadmap..."
     //     0x94b818: ldr             x1, [x1, #0xf60]
     // 0x94b81c: stur            x0, [fp, #-8]
     // 0x94b820: r0 = L()
-    //     0x94b820: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x94b820: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x94b824: stur            x0, [fp, #-0x10]
     // 0x94b828: r0 = _PlanAction()
     //     0x94b828: bl              #0x94b8f4  ; Allocate_PlanActionStub -> _PlanAction (size=0x10)
@@ -1408,13 +1408,13 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     //     0x94b844: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df68] "Finalizing your custom plan"
     //     0x94b848: ldr             x1, [x1, #0xf68]
     // 0x94b84c: r0 = L()
-    //     0x94b84c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x94b84c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x94b850: r1 = "Finalizing your custom plan..."
     //     0x94b850: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df70] "Finalizing your custom plan..."
     //     0x94b854: ldr             x1, [x1, #0xf70]
     // 0x94b858: stur            x0, [fp, #-8]
     // 0x94b85c: r0 = L()
-    //     0x94b85c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x94b85c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x94b860: stur            x0, [fp, #-0x10]
     // 0x94b864: r0 = _PlanAction()
     //     0x94b864: bl              #0x94b8f4  ; Allocate_PlanActionStub -> _PlanAction (size=0x10)
@@ -1650,7 +1650,7 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     // 0x94bce4: r0 = clear()
     //     0x94bce4: bl              #0x6103e0  ; [dart:core] _GrowableList::clear
     // 0x94bce8: r0 = _actions()
-    //     0x94bce8: bl              #0x94b700  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::_actions
+    //     0x94bce8: bl              #0x94b700  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::_actions
     // 0x94bcec: ldur            x1, [fp, #-8]
     // 0x94bcf0: mov             x2, x0
     // 0x94bcf4: r0 = addAll()
@@ -1740,8 +1740,8 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     // 0x9f3ee4: StoreField: r2->field_f = r0
     //     0x9f3ee4: stur            w0, [x2, #0xf]
     // 0x9f3ee8: ldur            x1, [fp, #-0x10]
-    // 0x9f3eec: r0 = BallAiThemeContext.ballAiAccent()
-    //     0x9f3eec: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0x9f3eec: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0x9f3eec: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0x9f3ef0: mov             x1, x0
     // 0x9f3ef4: ldur            x2, [fp, #-0x18]
     // 0x9f3ef8: stur            x1, [fp, #-0x20]
@@ -1829,7 +1829,7 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     //     0x9f4004: bl              #0x5ff63c  ; [package:provider/src/provider.dart] Provider::of
     // 0x9f4008: mov             x1, x0
     // 0x9f400c: r0 = visibleBallyBuild()
-    //     0x9f400c: bl              #0x9e62c8  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::visibleBallyBuild
+    //     0x9f400c: bl              #0x9e62c8  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::visibleBallyBuild
     // 0x9f4010: ArrayLoad: r2 = r0[0]  ; List_4
     //     0x9f4010: ldur            w2, [x0, #0x17]
     // 0x9f4014: DecompressPointer r2
@@ -1837,7 +1837,7 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     // 0x9f4018: r1 = ""
     //     0x9f4018: ldr             x1, [PP, #0x880]  ; [pp+0x880] ""
     // 0x9f401c: r0 = fullBodyPose()
-    //     0x9f401c: bl              #0x9e60fc  ; [package:ballai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::fullBodyPose
+    //     0x9f401c: bl              #0x9e60fc  ; [package:kourtai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::fullBodyPose
     // 0x9f4020: ldur            x2, [fp, #-0x18]
     // 0x9f4024: StoreField: r2->field_1f = r0
     //     0x9f4024: stur            w0, [x2, #0x1f]
@@ -1968,7 +1968,7 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     //     0x9f4178: stur            w0, [x3, #7]
     // 0x9f417c: ldur            x2, [fp, #-0x18]
     // 0x9f4180: r1 = Function '<anonymous closure>':.
-    //     0x9f4180: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2de40] AnonymousClosure: (0x9f53c8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::build (0x9f3ea8)
+    //     0x9f4180: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2de40] AnonymousClosure: (0x9f53c8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::build (0x9f3ea8)
     //     0x9f4184: ldr             x1, [x1, #0xe40]
     // 0x9f4188: r0 = AllocateClosure()
     //     0x9f4188: bl              #0xe553e0  ; AllocateClosureStub
@@ -2004,11 +2004,11 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     //     0x9f41d8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2de50] "I\'m setting up everything for you"
     //     0x9f41dc: ldr             x1, [x1, #0xe50]
     // 0x9f41e0: r0 = L()
-    //     0x9f41e0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f41e0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f41e4: ldur            x1, [fp, #-0x10]
     // 0x9f41e8: stur            x0, [fp, #-0x10]
-    // 0x9f41ec: r0 = BallAiThemeContext.ballAiScreenTitleStyle()
-    //     0x9f41ec: bl              #0x9efba4  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiScreenTitleStyle
+    // 0x9f41ec: r0 = KourtAiThemeContext.kourtAiScreenTitleStyle()
+    //     0x9f41ec: bl              #0x9efba4  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiScreenTitleStyle
     // 0x9f41f0: r16 = 22.000000
     //     0x9f41f0: add             x16, PP, #0x26, lsl #12  ; [pp+0x26758] 22
     //     0x9f41f4: ldr             x16, [x16, #0x758]
@@ -2036,7 +2036,7 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     //     0x9f4230: stur            w0, [x3, #0x1b]
     // 0x9f4234: ldur            x2, [fp, #-0x18]
     // 0x9f4238: r1 = Function '<anonymous closure>':.
-    //     0x9f4238: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2de58] AnonymousClosure: (0x9f470c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::build (0x9f3ea8)
+    //     0x9f4238: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2de58] AnonymousClosure: (0x9f470c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::build (0x9f3ea8)
     //     0x9f423c: ldr             x1, [x1, #0xe58]
     // 0x9f4240: r0 = AllocateClosure()
     //     0x9f4240: bl              #0xe553e0  ; AllocateClosureStub
@@ -2312,8 +2312,8 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     // 0x9f452c: ldur            x0, [fp, #-0x18]
     // 0x9f4530: StoreField: r1->field_b = r0
     //     0x9f4530: stur            w0, [x1, #0xb]
-    // 0x9f4534: r0 = BallAiLiquidGlassCard()
-    //     0x9f4534: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0x9f4534: r0 = KourtAiLiquidGlassCard()
+    //     0x9f4534: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0x9f4538: mov             x2, x0
     // 0x9f453c: ldur            x0, [fp, #-8]
     // 0x9f4540: stur            x2, [fp, #-0x18]
@@ -2863,8 +2863,8 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     // 0x9f4ae8: StoreField: r2->field_b = r0
     //     0x9f4ae8: stur            w0, [x2, #0xb]
     // 0x9f4aec: ldr             x1, [fp, #0x18]
-    // 0x9f4af0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9f4af0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9f4af0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9f4af0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9f4af4: stur            x0, [fp, #-0x18]
     // 0x9f4af8: r0 = TextStyle()
     //     0x9f4af8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -4366,7 +4366,7 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     //     0xb5aa10: mov             fp, SP
     // 0xb5aa14: ldr             x2, [fp, #0x10]
     // 0xb5aa18: r1 = Function 'dispose':.
-    //     0xb5aa18: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c7a8] AnonymousClosure: (0xb5aa30), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::dispose (0xb60df4)
+    //     0xb5aa18: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c7a8] AnonymousClosure: (0xb5aa30), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::dispose (0xb60df4)
     //     0xb5aa1c: ldr             x1, [x1, #0x7a8]
     // 0xb5aa20: r0 = AllocateClosure()
     //     0xb5aa20: bl              #0xe553e0  ; AllocateClosureStub
@@ -4391,7 +4391,7 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     //     0xb5aa48: cmp             SP, x16
     //     0xb5aa4c: b.ls            #0xb5aa60
     // 0xb5aa50: r0 = dispose()
-    //     0xb5aa50: bl              #0xb60df4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::dispose
+    //     0xb5aa50: bl              #0xb60df4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::dispose
     // 0xb5aa54: LeaveFrame
     //     0xb5aa54: mov             SP, fp
     //     0xb5aa58: ldp             fp, lr, [SP], #0x10
@@ -4505,7 +4505,7 @@ class _AccountSetupPlanGeneratingParityViewState extends __AccountSetupPlanGener
     //     0xb60ef4: bl              #0x809c40  ; [package:flutter/src/animation/animation_controller.dart] AnimationController::dispose
     // 0xb60ef8: ldur            x1, [fp, #-8]
     // 0xb60efc: r0 = dispose()
-    //     0xb60efc: bl              #0xb60f18  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] __AccountSetupPlanGeneratingParityViewState&State&TickerProviderStateMixin::dispose
+    //     0xb60efc: bl              #0xb60f18  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] __AccountSetupPlanGeneratingParityViewState&State&TickerProviderStateMixin::dispose
     // 0xb60f00: r0 = Null
     //     0xb60f00: mov             x0, NULL
     // 0xb60f04: LeaveFrame
@@ -4600,7 +4600,7 @@ class AccountSetupPlanGeneratingParityView extends StatefulWidget {
     // 0xb72604: mov             x1, x0
     // 0xb72608: stur            x0, [fp, #-8]
     // 0xb7260c: r0 = _AccountSetupPlanGeneratingParityViewState()
-    //     0xb7260c: bl              #0xb72628  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::_AccountSetupPlanGeneratingParityViewState
+    //     0xb7260c: bl              #0xb72628  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _AccountSetupPlanGeneratingParityViewState::_AccountSetupPlanGeneratingParityViewState
     // 0xb72610: ldur            x0, [fp, #-8]
     // 0xb72614: LeaveFrame
     //     0xb72614: mov             SP, fp
@@ -4677,8 +4677,8 @@ class _CompletedRow extends StatelessWidget {
     //     0xbcc61c: add             x3, x3, HEAP, lsl #32
     // 0xbcc620: ldur            x1, [fp, #-0x10]
     // 0xbcc624: stur            x3, [fp, #-0x18]
-    // 0xbcc628: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbcc628: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbcc628: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbcc628: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbcc62c: stur            x0, [fp, #-8]
     // 0xbcc630: r0 = TextStyle()
     //     0xbcc630: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -4810,7 +4810,7 @@ class _CompletedRow extends StatelessWidget {
     // 0xbcc770: StoreField: r3->field_1b = r0
     //     0xbcc770: stur            w0, [x3, #0x1b]
     // 0xbcc774: r1 = Function '<anonymous closure>':.
-    //     0xbcc774: add             x1, PP, #0x38, lsl #12  ; [pp+0x38208] AnonymousClosure: (0xbcc7c4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _CompletedRow::build (0xbcc590)
+    //     0xbcc774: add             x1, PP, #0x38, lsl #12  ; [pp+0x38208] AnonymousClosure: (0xbcc7c4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_plan_generating_parity_view.dart] _CompletedRow::build (0xbcc590)
     //     0xbcc778: ldr             x1, [x1, #0x208]
     // 0xbcc77c: r2 = Null
     //     0xbcc77c: mov             x2, NULL

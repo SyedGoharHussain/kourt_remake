@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/foreground/indicator/tab_indicator_view.dart
+// lib: , url: package:kourtai/automatic/views/components/foreground/indicator/tab_indicator_view.dart
 
 // class id: 1048790, size: 0x8
 class :: {
@@ -43,7 +43,7 @@ class TabIndicatorView extends StatelessWidget {
     //     0xbaf770: ret             
     // 0xbaf774: mov             x2, x1
     // 0xbaf778: r1 = Function '<anonymous closure>':.
-    //     0xbaf778: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cd40] AnonymousClosure: (0xbaf8e8), in [package:ballai/automatic/views/components/foreground/indicator/tab_indicator_view.dart] TabIndicatorView::build (0xbaf724)
+    //     0xbaf778: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cd40] AnonymousClosure: (0xbaf8e8), in [package:kourtai/automatic/views/components/foreground/indicator/tab_indicator_view.dart] TabIndicatorView::build (0xbaf724)
     //     0xbaf77c: ldr             x1, [x1, #0xd40]
     // 0xbaf780: r0 = AllocateClosure()
     //     0xbaf780: bl              #0xe553e0  ; AllocateClosureStub

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/ui/ui_parity_widgets.dart
+// lib: , url: package:kourtai/automatic/views/components/ui/ui_parity_widgets.dart
 
 // class id: 1048828, size: 0x8
 class :: {
@@ -6,7 +6,7 @@ class :: {
 
 // class id: 4207, size: 0x10, field offset: 0xc
 //   const constructor, 
-class BallAiComingSoonBanner extends StatelessWidget {
+class KourtAiComingSoonBanner extends StatelessWidget {
 
   _OneByteString field_c;
 
@@ -17,7 +17,7 @@ class BallAiComingSoonBanner extends StatelessWidget {
     //     0xbc3620: mov             fp, SP
     // 0xbc3624: AllocStack(0x50)
     //     0xbc3624: sub             SP, SP, #0x50
-    // 0xbc3628: SetupParameters(BallAiComingSoonBanner this /* r1 => r2, fp-0x8 */, dynamic _ /* r2 => r0, fp-0x10 */)
+    // 0xbc3628: SetupParameters(KourtAiComingSoonBanner this /* r1 => r2, fp-0x8 */, dynamic _ /* r2 => r0, fp-0x10 */)
     //     0xbc3628: mov             x0, x2
     //     0xbc362c: stur            x2, [fp, #-0x10]
     //     0xbc3630: mov             x2, x1
@@ -27,8 +27,8 @@ class BallAiComingSoonBanner extends StatelessWidget {
     //     0xbc363c: cmp             SP, x16
     //     0xbc3640: b.ls            #0xbc3838
     // 0xbc3644: mov             x1, x0
-    // 0xbc3648: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbc3648: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbc3648: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbc3648: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbc364c: r1 = LoadClassIdInstr(r0)
     //     0xbc364c: ldur            x1, [x0, #-1]
     //     0xbc3650: ubfx            x1, x1, #0xc, #0x14
@@ -70,8 +70,8 @@ class BallAiComingSoonBanner extends StatelessWidget {
     // 0xbc36b4: StoreField: r2->field_13 = r0
     //     0xbc36b4: stur            w0, [x2, #0x13]
     // 0xbc36b8: ldur            x1, [fp, #-0x10]
-    // 0xbc36bc: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbc36bc: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbc36bc: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbc36bc: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbc36c0: r1 = LoadClassIdInstr(r0)
     //     0xbc36c0: ldur            x1, [x0, #-1]
     //     0xbc36c4: ubfx            x1, x1, #0xc, #0x14
@@ -149,11 +149,11 @@ class BallAiComingSoonBanner extends StatelessWidget {
     //     0xbc3784: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4eef8] "%@ is coming soon on Android."
     //     0xbc3788: ldr             x1, [x1, #0xef8]
     // 0xbc378c: r0 = LF()
-    //     0xbc378c: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xbc378c: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xbc3790: ldur            x1, [fp, #-0x10]
     // 0xbc3794: stur            x0, [fp, #-8]
-    // 0xbc3798: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbc3798: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbc3798: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbc3798: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbc379c: stur            x0, [fp, #-0x10]
     // 0xbc37a0: r0 = TextStyle()
     //     0xbc37a0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -219,7 +219,7 @@ class BallAiComingSoonBanner extends StatelessWidget {
 
 // class id: 4208, size: 0x18, field offset: 0xc
 //   const constructor, 
-class BallAiSectionScaffold extends StatelessWidget {
+class KourtAiSectionScaffold extends StatelessWidget {
 
   _ build(/* No info */) {
     // ** addr: 0xbc3480, size: 0x19c
@@ -228,7 +228,7 @@ class BallAiSectionScaffold extends StatelessWidget {
     //     0xbc3484: mov             fp, SP
     // 0xbc3488: AllocStack(0x58)
     //     0xbc3488: sub             SP, SP, #0x58
-    // 0xbc348c: SetupParameters(BallAiSectionScaffold this /* r1 => r2, fp-0x8 */, dynamic _ /* r2 => r0, fp-0x10 */)
+    // 0xbc348c: SetupParameters(KourtAiSectionScaffold this /* r1 => r2, fp-0x8 */, dynamic _ /* r2 => r0, fp-0x10 */)
     //     0xbc348c: mov             x0, x2
     //     0xbc3490: stur            x2, [fp, #-0x10]
     //     0xbc3494: mov             x2, x1
@@ -238,16 +238,16 @@ class BallAiSectionScaffold extends StatelessWidget {
     //     0xbc34a0: cmp             SP, x16
     //     0xbc34a4: b.ls            #0xbc3614
     // 0xbc34a8: mov             x1, x0
-    // 0xbc34ac: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xbc34ac: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xbc34ac: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xbc34ac: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xbc34b0: ldur            x1, [fp, #-0x10]
     // 0xbc34b4: stur            x0, [fp, #-0x18]
-    // 0xbc34b8: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xbc34b8: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xbc34b8: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xbc34b8: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xbc34bc: ldur            x1, [fp, #-0x10]
     // 0xbc34c0: stur            x0, [fp, #-0x10]
-    // 0xbc34c4: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbc34c4: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbc34c4: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbc34c4: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbc34c8: mov             x1, x0
     // 0xbc34cc: ldur            x0, [fp, #-8]
     // 0xbc34d0: stur            x1, [fp, #-0x28]
@@ -389,7 +389,7 @@ class BallAiSectionScaffold extends StatelessWidget {
 
 // class id: 4209, size: 0x18, field offset: 0xc
 //   const constructor, 
-class BallAiLockedFeatureCard extends StatelessWidget {
+class KourtAiLockedFeatureCard extends StatelessWidget {
 
   _ build(/* No info */) {
     // ** addr: 0xbc3080, size: 0x400
@@ -398,7 +398,7 @@ class BallAiLockedFeatureCard extends StatelessWidget {
     //     0xbc3084: mov             fp, SP
     // 0xbc3088: AllocStack(0x40)
     //     0xbc3088: sub             SP, SP, #0x40
-    // 0xbc308c: SetupParameters(BallAiLockedFeatureCard this /* r1 => r2, fp-0x8 */, dynamic _ /* r2 => r0, fp-0x10 */)
+    // 0xbc308c: SetupParameters(KourtAiLockedFeatureCard this /* r1 => r2, fp-0x8 */, dynamic _ /* r2 => r0, fp-0x10 */)
     //     0xbc308c: mov             x0, x2
     //     0xbc3090: stur            x2, [fp, #-0x10]
     //     0xbc3094: mov             x2, x1
@@ -408,8 +408,8 @@ class BallAiLockedFeatureCard extends StatelessWidget {
     //     0xbc30a0: cmp             SP, x16
     //     0xbc30a4: b.ls            #0xbc3478
     // 0xbc30a8: mov             x1, x0
-    // 0xbc30ac: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbc30ac: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbc30ac: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbc30ac: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbc30b0: stur            x0, [fp, #-0x18]
     // 0xbc30b4: r0 = Icon()
     //     0xbc30b4: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -435,8 +435,8 @@ class BallAiLockedFeatureCard extends StatelessWidget {
     //     0xbc30e8: add             x3, x3, HEAP, lsl #32
     // 0xbc30ec: ldur            x1, [fp, #-0x10]
     // 0xbc30f0: stur            x3, [fp, #-0x18]
-    // 0xbc30f4: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbc30f4: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbc30f4: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbc30f4: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbc30f8: stur            x0, [fp, #-0x28]
     // 0xbc30fc: r0 = TextStyle()
     //     0xbc30fc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -565,8 +565,8 @@ class BallAiLockedFeatureCard extends StatelessWidget {
     //     0xbc3230: add             x7, x7, HEAP, lsl #32
     // 0xbc3234: ldur            x1, [fp, #-0x10]
     // 0xbc3238: stur            x7, [fp, #-0x18]
-    // 0xbc323c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbc323c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbc323c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbc323c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbc3240: stur            x0, [fp, #-0x28]
     // 0xbc3244: r0 = TextStyle()
     //     0xbc3244: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -647,8 +647,8 @@ class BallAiLockedFeatureCard extends StatelessWidget {
     //     0xbc3304: add             x3, x3, HEAP, lsl #32
     // 0xbc3308: ldur            x1, [fp, #-0x10]
     // 0xbc330c: stur            x3, [fp, #-0x18]
-    // 0xbc3310: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbc3310: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbc3310: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbc3310: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbc3314: r16 = Instance_Color
     //     0xbc3314: ldr             x16, [PP, #0x5140]  ; [pp+0x5140] Obj!Color@d28fc1
     // 0xbc3318: stp             x16, x0, [SP]
@@ -657,12 +657,12 @@ class BallAiLockedFeatureCard extends StatelessWidget {
     //     0xbc3320: ldr             x4, [x4, #0xf88]
     // 0xbc3324: r0 = styleFrom()
     //     0xbc3324: bl              #0x657de4  ; [package:flutter/src/material/filled_button.dart] FilledButton::styleFrom
-    // 0xbc3328: r1 = "Unlock with Ball AI Pro"
-    //     0xbc3328: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a440] "Unlock with Ball AI Pro"
+    // 0xbc3328: r1 = "Unlock with Kourt AI Pro"
+    //     0xbc3328: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a440] "Unlock with Kourt AI Pro"
     //     0xbc332c: ldr             x1, [x1, #0x440]
     // 0xbc3330: stur            x0, [fp, #-8]
     // 0xbc3334: r0 = L()
-    //     0xbc3334: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbc3334: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbc3338: stur            x0, [fp, #-0x10]
     // 0xbc333c: r0 = Text()
     //     0xbc333c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -770,8 +770,8 @@ class BallAiLockedFeatureCard extends StatelessWidget {
     // 0xbc343c: ldur            x0, [fp, #-0x20]
     // 0xbc3440: StoreField: r1->field_b = r0
     //     0xbc3440: stur            w0, [x1, #0xb]
-    // 0xbc3444: r0 = BallAiLiquidGlassCard()
-    //     0xbc3444: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xbc3444: r0 = KourtAiLiquidGlassCard()
+    //     0xbc3444: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xbc3448: ldur            x1, [fp, #-8]
     // 0xbc344c: StoreField: r0->field_b = r1
     //     0xbc344c: stur            w1, [x0, #0xb]
@@ -801,7 +801,7 @@ class BallAiLockedFeatureCard extends StatelessWidget {
 
 // class id: 4210, size: 0x14, field offset: 0xc
 //   const constructor, 
-class BallAiEmptyState extends StatelessWidget {
+class KourtAiEmptyState extends StatelessWidget {
 
   _ build(/* No info */) {
     // ** addr: 0xbc2e98, size: 0x1e8
@@ -810,7 +810,7 @@ class BallAiEmptyState extends StatelessWidget {
     //     0xbc2e9c: mov             fp, SP
     // 0xbc2ea0: AllocStack(0x28)
     //     0xbc2ea0: sub             SP, SP, #0x28
-    // 0xbc2ea4: SetupParameters(BallAiEmptyState this /* r1 => r2, fp-0x10 */, dynamic _ /* r2 => r0, fp-0x18 */)
+    // 0xbc2ea4: SetupParameters(KourtAiEmptyState this /* r1 => r2, fp-0x10 */, dynamic _ /* r2 => r0, fp-0x18 */)
     //     0xbc2ea4: mov             x0, x2
     //     0xbc2ea8: stur            x2, [fp, #-0x18]
     //     0xbc2eac: mov             x2, x1
@@ -825,8 +825,8 @@ class BallAiEmptyState extends StatelessWidget {
     //     0xbc2ec4: add             x3, x3, HEAP, lsl #32
     // 0xbc2ec8: mov             x1, x0
     // 0xbc2ecc: stur            x3, [fp, #-8]
-    // 0xbc2ed0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbc2ed0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbc2ed0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbc2ed0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbc2ed4: stur            x0, [fp, #-0x20]
     // 0xbc2ed8: r0 = Icon()
     //     0xbc2ed8: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -850,8 +850,8 @@ class BallAiEmptyState extends StatelessWidget {
     //     0xbc2f08: add             x3, x3, HEAP, lsl #32
     // 0xbc2f0c: ldur            x1, [fp, #-0x18]
     // 0xbc2f10: stur            x3, [fp, #-8]
-    // 0xbc2f14: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbc2f14: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbc2f14: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbc2f14: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbc2f18: stur            x0, [fp, #-0x10]
     // 0xbc2f1c: r0 = TextStyle()
     //     0xbc2f1c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1023,8 +1023,8 @@ class SeeDetailsButton extends StatelessWidget {
     //     0xbc2cf4: add             x2, x2, HEAP, lsl #32
     // 0xbc2cf8: mov             x1, x0
     // 0xbc2cfc: stur            x2, [fp, #-8]
-    // 0xbc2d00: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbc2d00: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbc2d00: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbc2d00: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbc2d04: r16 = Instance_EdgeInsets
     //     0xbc2d04: add             x16, PP, #0x38, lsl #12  ; [pp+0x382c0] Obj!EdgeInsets@d10b41
     //     0xbc2d08: ldr             x16, [x16, #0x2c0]
@@ -1036,8 +1036,8 @@ class SeeDetailsButton extends StatelessWidget {
     //     0xbc2d18: bl              #0xa14dec  ; [package:flutter/src/material/text_button.dart] TextButton::styleFrom
     // 0xbc2d1c: ldur            x1, [fp, #-0x10]
     // 0xbc2d20: stur            x0, [fp, #-0x18]
-    // 0xbc2d24: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbc2d24: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbc2d24: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbc2d24: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbc2d28: stur            x0, [fp, #-0x20]
     // 0xbc2d2c: r0 = TextStyle()
     //     0xbc2d2c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1068,8 +1068,8 @@ class SeeDetailsButton extends StatelessWidget {
     // 0xbc2d70: StoreField: r2->field_13 = r0
     //     0xbc2d70: stur            w0, [x2, #0x13]
     // 0xbc2d74: ldur            x1, [fp, #-0x10]
-    // 0xbc2d78: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbc2d78: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbc2d78: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbc2d78: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbc2d7c: stur            x0, [fp, #-0x10]
     // 0xbc2d80: r0 = Icon()
     //     0xbc2d80: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -1190,7 +1190,7 @@ class SeeDetailsButton extends StatelessWidget {
 
 // class id: 4212, size: 0x20, field offset: 0xc
 //   const constructor, 
-class BallAiAnalyticsCard extends StatelessWidget {
+class KourtAiAnalyticsCard extends StatelessWidget {
 
   _ build(/* No info */) {
     // ** addr: 0xbc28cc, size: 0x3c0
@@ -1199,7 +1199,7 @@ class BallAiAnalyticsCard extends StatelessWidget {
     //     0xbc28d0: mov             fp, SP
     // 0xbc28d4: AllocStack(0x28)
     //     0xbc28d4: sub             SP, SP, #0x28
-    // 0xbc28d8: SetupParameters(BallAiAnalyticsCard this /* r1 => r2, fp-0x10 */, dynamic _ /* r2 => r0, fp-0x18 */)
+    // 0xbc28d8: SetupParameters(KourtAiAnalyticsCard this /* r1 => r2, fp-0x10 */, dynamic _ /* r2 => r0, fp-0x18 */)
     //     0xbc28d8: mov             x0, x2
     //     0xbc28dc: stur            x2, [fp, #-0x18]
     //     0xbc28e0: mov             x2, x1
@@ -1214,8 +1214,8 @@ class BallAiAnalyticsCard extends StatelessWidget {
     //     0xbc28f8: add             x3, x3, HEAP, lsl #32
     // 0xbc28fc: mov             x1, x0
     // 0xbc2900: stur            x3, [fp, #-8]
-    // 0xbc2904: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbc2904: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbc2904: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbc2904: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbc2908: stur            x0, [fp, #-0x20]
     // 0xbc290c: r0 = TextStyle()
     //     0xbc290c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1411,8 +1411,8 @@ class BallAiAnalyticsCard extends StatelessWidget {
     // 0xbc2afc: cmp             w3, NULL
     // 0xbc2b00: b.eq            #0xbc2bf0
     // 0xbc2b04: ldur            x1, [fp, #-0x18]
-    // 0xbc2b08: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbc2b08: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbc2b08: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbc2b08: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbc2b0c: stur            x0, [fp, #-0x10]
     // 0xbc2b10: r0 = TextStyle()
     //     0xbc2b10: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1542,8 +1542,8 @@ class BallAiAnalyticsCard extends StatelessWidget {
     // 0xbc2c48: ldur            x0, [fp, #-0x20]
     // 0xbc2c4c: StoreField: r1->field_b = r0
     //     0xbc2c4c: stur            w0, [x1, #0xb]
-    // 0xbc2c50: r0 = BallAiLiquidGlassCard()
-    //     0xbc2c50: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xbc2c50: r0 = KourtAiLiquidGlassCard()
+    //     0xbc2c50: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xbc2c54: ldur            x1, [fp, #-8]
     // 0xbc2c58: StoreField: r0->field_b = r1
     //     0xbc2c58: stur            w1, [x0, #0xb]

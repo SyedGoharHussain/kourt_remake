@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/user/user_avatar_text.dart
+// lib: , url: package:kourtai/automatic/utility/user/user_avatar_text.dart
 
 // class id: 1048752, size: 0x8
 class :: {
@@ -269,11 +269,11 @@ class :: {
     // 0xa9906c: ldur            x1, [fp, #-8]
     // 0xa99070: stur            x2, [fp, #-0x18]
     // 0xa99074: r0 = displayNameAbbreviationIosParity()
-    //     0xa99074: bl              #0xa95bec  ; [package:ballai/automatic/utility/user/user_avatar_text.dart] ::displayNameAbbreviationIosParity
+    //     0xa99074: bl              #0xa95bec  ; [package:kourtai/automatic/utility/user/user_avatar_text.dart] ::displayNameAbbreviationIosParity
     // 0xa99078: ldur            x1, [fp, #-0x18]
     // 0xa9907c: stur            x0, [fp, #-8]
     // 0xa99080: r0 = displayNameAbbreviationIosParity()
-    //     0xa99080: bl              #0xa95bec  ; [package:ballai/automatic/utility/user/user_avatar_text.dart] ::displayNameAbbreviationIosParity
+    //     0xa99080: bl              #0xa95bec  ; [package:kourtai/automatic/utility/user/user_avatar_text.dart] ::displayNameAbbreviationIosParity
     // 0xa99084: ldur            x1, [fp, #-0x10]
     // 0xa99088: stur            x0, [fp, #-0x30]
     // 0xa9908c: cmp             w1, NULL
@@ -345,7 +345,7 @@ class :: {
     //     0xa99154: ldr             x0, [x0, #0xb38]
     // 0xa99158: b               #0xa9916c
     // 0xa9915c: r0 = initialsForUserAvatar()
-    //     0xa9915c: bl              #0xa99338  ; [package:ballai/automatic/utility/user/user_avatar_text.dart] ::initialsForUserAvatar
+    //     0xa9915c: bl              #0xa99338  ; [package:kourtai/automatic/utility/user/user_avatar_text.dart] ::initialsForUserAvatar
     // 0xa99160: mov             x1, x0
     // 0xa99164: r0 = "initialsForUserAvatar_fallback"
     //     0xa99164: add             x0, PP, #0x2a, lsl #12  ; [pp+0x2ab40] "initialsForUserAvatar_fallback"
@@ -530,7 +530,7 @@ class :: {
     //     0xa99348: cmp             SP, x16
     //     0xa9934c: b.ls            #0xa995b4
     // 0xa99350: r0 = resolvedTextForUserAvatar()
-    //     0xa99350: bl              #0xa995c4  ; [package:ballai/automatic/utility/user/user_avatar_text.dart] ::resolvedTextForUserAvatar
+    //     0xa99350: bl              #0xa995c4  ; [package:kourtai/automatic/utility/user/user_avatar_text.dart] ::resolvedTextForUserAvatar
     // 0xa99354: mov             x1, x0
     // 0xa99358: r0 = trim()
     //     0xa99358: bl              #0x5ed854  ; [dart:core] _StringBase::trim
@@ -778,7 +778,7 @@ class :: {
     // 0xa995e4: cmp             w0, NULL
     // 0xa995e8: b.ne            #0xa995fc
     // 0xa995ec: r0 = _fallbackFromAuthOnly()
-    //     0xa995ec: bl              #0xa99790  ; [package:ballai/automatic/utility/user/user_avatar_text.dart] ::_fallbackFromAuthOnly
+    //     0xa995ec: bl              #0xa99790  ; [package:kourtai/automatic/utility/user/user_avatar_text.dart] ::_fallbackFromAuthOnly
     // 0xa995f0: LeaveFrame
     //     0xa995f0: mov             SP, fp
     //     0xa995f4: ldp             fp, lr, [SP], #0x10
@@ -793,7 +793,7 @@ class :: {
     // 0xa99608: mov             x1, x0
     // 0xa9960c: stur            x0, [fp, #-0x10]
     // 0xa99610: r0 = _isGenericPlaceholderName()
-    //     0xa99610: bl              #0xa99710  ; [package:ballai/automatic/utility/user/user_avatar_text.dart] ::_isGenericPlaceholderName
+    //     0xa99610: bl              #0xa99710  ; [package:kourtai/automatic/utility/user/user_avatar_text.dart] ::_isGenericPlaceholderName
     // 0xa99614: tbz             w0, #4, #0xa99628
     // 0xa99618: ldur            x0, [fp, #-0x10]
     // 0xa9961c: LeaveFrame
@@ -860,7 +860,7 @@ class :: {
     // 0xa996c4: ret
     //     0xa996c4: ret             
     // 0xa996c8: r0 = _fallbackFromAuthOnly()
-    //     0xa996c8: bl              #0xa99790  ; [package:ballai/automatic/utility/user/user_avatar_text.dart] ::_fallbackFromAuthOnly
+    //     0xa996c8: bl              #0xa99790  ; [package:kourtai/automatic/utility/user/user_avatar_text.dart] ::_fallbackFromAuthOnly
     // 0xa996cc: LoadField: r1 = r0->field_7
     //     0xa996cc: ldur            w1, [x0, #7]
     // 0xa996d0: cbz             w1, #0xa996e0

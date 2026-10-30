@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/launch/session_restoring_view.dart
+// lib: , url: package:kourtai/automatic/views/launch/session_restoring_view.dart
 
 // class id: 1049044, size: 0x8
 class :: {
@@ -53,7 +53,7 @@ class SessionRestoringView extends StatelessWidget {
     //     0xc20ab4: add             x0, x0, HEAP, lsl #32
     // 0xc20ab8: stur            x0, [fp, #-8]
     // 0xc20abc: r1 = Function '<anonymous closure>':.
-    //     0xc20abc: add             x1, PP, #0x1e, lsl #12  ; [pp+0x1e400] AnonymousClosure: (0xc20b34), in [package:ballai/automatic/views/launch/session_restoring_view.dart] SessionRestoringView::build (0xc20a54)
+    //     0xc20abc: add             x1, PP, #0x1e, lsl #12  ; [pp+0x1e400] AnonymousClosure: (0xc20b34), in [package:kourtai/automatic/views/launch/session_restoring_view.dart] SessionRestoringView::build (0xc20a54)
     //     0xc20ac0: ldr             x1, [x1, #0x400]
     // 0xc20ac4: r2 = Null
     //     0xc20ac4: mov             x2, NULL
@@ -130,7 +130,7 @@ class SessionRestoringView extends StatelessWidget {
     //     0xc20b70: stur            d0, [x0, #0xf]
     // 0xc20b74: mov             x1, x0
     // 0xc20b78: r0 = splashBrandBaseLength()
-    //     0xc20b78: bl              #0xaaa658  ; [package:ballai/automatic/views/components/splash_brand_looping_video_view.dart] ::splashBrandBaseLength
+    //     0xc20b78: bl              #0xaaa658  ; [package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart] ::splashBrandBaseLength
     // 0xc20b7c: mov             v1.16b, v0.16b
     // 0xc20b80: d0 = 0.900000
     //     0xc20b80: ldr             d0, [PP, #0x5aa8]  ; [pp+0x5aa8] IMM: double(0.9) from 0x3feccccccccccccd

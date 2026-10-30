@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart
 
 // class id: 1049027, size: 0x8
 class :: {
@@ -37,7 +37,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0x9881e8: stur            w0, [x2, #0xf]
     // 0x9881ec: mov             x1, x0
     // 0x9881f0: r0 = initState()
-    //     0x9881f0: bl              #0x989844  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::initState
+    //     0x9881f0: bl              #0x989844  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::initState
     // 0x9881f4: ldur            x0, [fp, #-8]
     // 0x9881f8: LoadField: r1 = r0->field_b
     //     0x9881f8: ldur            w1, [x0, #0xb]
@@ -68,7 +68,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     // 0x988238: ldur            x2, [fp, #-0x10]
     // 0x98823c: stur            x3, [fp, #-0x18]
     // 0x988240: r1 = Function '<anonymous closure>':.
-    //     0x988240: add             x1, PP, #0x45, lsl #12  ; [pp+0x45a48] AnonymousClosure: (0x988294), in [package:ballai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart] _ResetPasswordViewState::initState (0x9881b8)
+    //     0x988240: add             x1, PP, #0x45, lsl #12  ; [pp+0x45a48] AnonymousClosure: (0x988294), in [package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart] _ResetPasswordViewState::initState (0x9881b8)
     //     0x988244: ldr             x1, [x1, #0xa48]
     // 0x988248: r0 = AllocateClosure()
     //     0x988248: bl              #0xe553e0  ; AllocateClosureStub
@@ -159,24 +159,24 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     // 0xaa2524: ldur            x1, [fp, #-0x10]
     // 0xaa2528: StoreField: r0->field_13 = r1
     //     0xaa2528: stur            w1, [x0, #0x13]
-    // 0xaa252c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xaa252c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xaa252c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xaa252c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xaa2530: ldur            x2, [fp, #-0x18]
     // 0xaa2534: stur            x0, [fp, #-0x10]
     // 0xaa2538: LoadField: r1 = r2->field_13
     //     0xaa2538: ldur            w1, [x2, #0x13]
     // 0xaa253c: DecompressPointer r1
     //     0xaa253c: add             x1, x1, HEAP, lsl #32
-    // 0xaa2540: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xaa2540: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xaa2540: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xaa2540: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xaa2544: ldur            x2, [fp, #-0x18]
     // 0xaa2548: stur            x0, [fp, #-0x20]
     // 0xaa254c: LoadField: r1 = r2->field_13
     //     0xaa254c: ldur            w1, [x2, #0x13]
     // 0xaa2550: DecompressPointer r1
     //     0xaa2550: add             x1, x1, HEAP, lsl #32
-    // 0xaa2554: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xaa2554: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xaa2554: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xaa2554: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xaa2558: mov             x3, x0
     // 0xaa255c: ldur            x0, [fp, #-8]
     // 0xaa2560: stur            x3, [fp, #-0x28]
@@ -191,7 +191,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     // 0xaa2578: b               #0xaa2594
     // 0xaa257c: ldur            x2, [fp, #-0x18]
     // 0xaa2580: r1 = Function '<anonymous closure>':.
-    //     0xaa2580: add             x1, PP, #0x45, lsl #12  ; [pp+0x45980] AnonymousClosure: (0x9d7480), in [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
+    //     0xaa2580: add             x1, PP, #0x45, lsl #12  ; [pp+0x45980] AnonymousClosure: (0x9d7480), in [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
     //     0xaa2584: ldr             x1, [x1, #0x980]
     // 0xaa2588: r0 = AllocateClosure()
     //     0xaa2588: bl              #0xe553e0  ; AllocateClosureStub
@@ -220,7 +220,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xaa25cc: add             x1, PP, #0x44, lsl #12  ; [pp+0x44e98] "Reset password"
     //     0xaa25d0: ldr             x1, [x1, #0xe98]
     // 0xaa25d4: r0 = L()
-    //     0xaa25d4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa25d4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa25d8: stur            x0, [fp, #-0x40]
     // 0xaa25dc: r0 = TextStyle()
     //     0xaa25dc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -270,7 +270,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xaa264c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45990] "We\'ll confirm your account by sending you a link to the email adress below."
     //     0xaa2650: ldr             x1, [x1, #0x990]
     // 0xaa2654: r0 = L()
-    //     0xaa2654: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa2654: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa2658: stur            x0, [fp, #-0x48]
     // 0xaa265c: r0 = TextStyle()
     //     0xaa265c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -368,7 +368,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xaa274c: add             x1, PP, #0x37, lsl #12  ; [pp+0x37af0] "Email"
     //     0xaa2750: ldr             x1, [x1, #0xaf0]
     // 0xaa2754: r0 = L()
-    //     0xaa2754: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa2754: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa2758: stur            x0, [fp, #-0x38]
     // 0xaa275c: r0 = TextStyle()
     //     0xaa275c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -439,8 +439,8 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xaa2800: add             x1, x1, HEAP, lsl #32
     // 0xaa2804: r4 = const [0, 0x1, 0, 0x1, null]
     //     0xaa2804: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
-    // 0xaa2808: r0 = BallAiThemeContext.ballAiUnderlineInputDecoration()
-    //     0xaa2808: bl              #0x9e870c  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiUnderlineInputDecoration
+    // 0xaa2808: r0 = KourtAiThemeContext.kourtAiUnderlineInputDecoration()
+    //     0xaa2808: bl              #0x9e870c  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiUnderlineInputDecoration
     // 0xaa280c: stur            x0, [fp, #-0x50]
     // 0xaa2810: r0 = TextField()
     //     0xaa2810: bl              #0x9ce4d0  ; AllocateTextFieldStub -> TextField (size=0x128)
@@ -497,7 +497,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xaa2884: stur            w4, [x3, #0x67]
     // 0xaa2888: ldur            x2, [fp, #-0x18]
     // 0xaa288c: r1 = Function '<anonymous closure>':.
-    //     0xaa288c: add             x1, PP, #0x45, lsl #12  ; [pp+0x459a0] AnonymousClosure: (0xaa38e0), in [package:ballai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart] _ResetPasswordViewState::build (0xaa24e4)
+    //     0xaa288c: add             x1, PP, #0x45, lsl #12  ; [pp+0x459a0] AnonymousClosure: (0xaa38e0), in [package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart] _ResetPasswordViewState::build (0xaa24e4)
     //     0xaa2890: ldr             x1, [x1, #0x9a0]
     // 0xaa2894: r0 = AllocateClosure()
     //     0xaa2894: bl              #0xe553e0  ; AllocateClosureStub
@@ -586,11 +586,11 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     // 0xaa295c: DecompressPointer r2
     //     0xaa295c: add             x2, x2, HEAP, lsl #32
     // 0xaa2960: r0 = canSendResetLink()
-    //     0xaa2960: bl              #0xaa2f70  ; [package:ballai/automatic/utility/validation/email_address.dart] EmailAddress::canSendResetLink
+    //     0xaa2960: bl              #0xaa2f70  ; [package:kourtai/automatic/utility/validation/email_address.dart] EmailAddress::canSendResetLink
     // 0xaa2964: tbnz            w0, #4, #0xaa2980
     // 0xaa2968: ldur            x2, [fp, #-8]
     // 0xaa296c: r1 = Function '_sendResetLink@1093482438':.
-    //     0xaa296c: add             x1, PP, #0x45, lsl #12  ; [pp+0x459a8] AnonymousClosure: (0xaa2fb4), in [package:ballai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart] _ResetPasswordViewState::_sendResetLink (0xaa2fec)
+    //     0xaa296c: add             x1, PP, #0x45, lsl #12  ; [pp+0x459a8] AnonymousClosure: (0xaa2fb4), in [package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart] _ResetPasswordViewState::_sendResetLink (0xaa2fec)
     //     0xaa2970: ldr             x1, [x1, #0x9a8]
     // 0xaa2974: r0 = AllocateClosure()
     //     0xaa2974: bl              #0xe553e0  ; AllocateClosureStub
@@ -608,11 +608,11 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     // 0xaa2998: mov             x1, x0
     // 0xaa299c: stur            x3, [fp, #-0x20]
     // 0xaa29a0: r0 = _canSubmit()
-    //     0xaa29a0: bl              #0xaa2f20  ; [package:ballai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart] _ResetPasswordViewState::_canSubmit
+    //     0xaa29a0: bl              #0xaa2f20  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart] _ResetPasswordViewState::_canSubmit
     // 0xaa29a4: ldur            x1, [fp, #-0x20]
     // 0xaa29a8: mov             x2, x0
-    // 0xaa29ac: r0 = BallAiThemeContext.ballAiFilledButtonStyle()
-    //     0xaa29ac: bl              #0xa0ebdc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiFilledButtonStyle
+    // 0xaa29ac: r0 = KourtAiThemeContext.kourtAiFilledButtonStyle()
+    //     0xaa29ac: bl              #0xa0ebdc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiFilledButtonStyle
     // 0xaa29b0: mov             x2, x0
     // 0xaa29b4: ldur            x0, [fp, #-8]
     // 0xaa29b8: stur            x2, [fp, #-0x20]
@@ -630,7 +630,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xaa29d8: add             x1, PP, #0x45, lsl #12  ; [pp+0x459b0] "Send link"
     //     0xaa29dc: ldr             x1, [x1, #0x9b0]
     // 0xaa29e0: r0 = L()
-    //     0xaa29e0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa29e0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa29e4: stur            x0, [fp, #-0x40]
     // 0xaa29e8: r0 = Text()
     //     0xaa29e8: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -743,8 +743,8 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xaa2b00: ldur            w1, [x4, #0x13]
     // 0xaa2b04: DecompressPointer r1
     //     0xaa2b04: add             x1, x1, HEAP, lsl #32
-    // 0xaa2b08: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xaa2b08: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xaa2b08: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xaa2b08: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xaa2b0c: stur            x0, [fp, #-0x20]
     // 0xaa2b10: r0 = Icon()
     //     0xaa2b10: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -807,7 +807,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xaa2b9c: add             x1, PP, #0x45, lsl #12  ; [pp+0x459c8] "Link sent to %@"
     //     0xaa2ba0: ldr             x1, [x1, #0x9c8]
     // 0xaa2ba4: r0 = LF()
-    //     0xaa2ba4: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xaa2ba4: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xaa2ba8: stur            x0, [fp, #-8]
     // 0xaa2bac: r0 = TextStyle()
     //     0xaa2bac: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -944,14 +944,14 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xaa2cf4: add             x1, x1, HEAP, lsl #32
     // 0xaa2cf8: r2 = true
     //     0xaa2cf8: add             x2, NULL, #0x20  ; true
-    // 0xaa2cfc: r0 = BallAiThemeContext.ballAiFilledButtonStyle()
-    //     0xaa2cfc: bl              #0xa0ebdc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiFilledButtonStyle
+    // 0xaa2cfc: r0 = KourtAiThemeContext.kourtAiFilledButtonStyle()
+    //     0xaa2cfc: bl              #0xa0ebdc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiFilledButtonStyle
     // 0xaa2d00: r1 = "Done"
     //     0xaa2d00: add             x1, PP, #0x26, lsl #12  ; [pp+0x266c8] "Done"
     //     0xaa2d04: ldr             x1, [x1, #0x6c8]
     // 0xaa2d08: stur            x0, [fp, #-0x20]
     // 0xaa2d0c: r0 = L()
-    //     0xaa2d0c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa2d0c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa2d10: stur            x0, [fp, #-0x38]
     // 0xaa2d14: r0 = Text()
     //     0xaa2d14: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -971,7 +971,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xaa2d3c: stur            w0, [x3, #0x3b]
     // 0xaa2d40: ldur            x2, [fp, #-0x18]
     // 0xaa2d44: r1 = Function '<anonymous closure>':.
-    //     0xaa2d44: add             x1, PP, #0x45, lsl #12  ; [pp+0x459d0] AnonymousClosure: (0x9d7480), in [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
+    //     0xaa2d44: add             x1, PP, #0x45, lsl #12  ; [pp+0x459d0] AnonymousClosure: (0x9d7480), in [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
     //     0xaa2d48: ldr             x1, [x1, #0x9d0]
     // 0xaa2d4c: r0 = AllocateClosure()
     //     0xaa2d4c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1191,7 +1191,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xaa2f50: add             x2, x2, HEAP, lsl #32
     // 0xaa2f54: mov             x1, x0
     // 0xaa2f58: r0 = canSendResetLink()
-    //     0xaa2f58: bl              #0xaa2f70  ; [package:ballai/automatic/utility/validation/email_address.dart] EmailAddress::canSendResetLink
+    //     0xaa2f58: bl              #0xaa2f70  ; [package:kourtai/automatic/utility/validation/email_address.dart] EmailAddress::canSendResetLink
     // 0xaa2f5c: LeaveFrame
     //     0xaa2f5c: mov             SP, fp
     //     0xaa2f60: ldp             fp, lr, [SP], #0x10
@@ -1216,7 +1216,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xaa2fcc: cmp             SP, x16
     //     0xaa2fd0: b.ls            #0xaa2fe4
     // 0xaa2fd4: r0 = _sendResetLink()
-    //     0xaa2fd4: bl              #0xaa2fec  ; [package:ballai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart] _ResetPasswordViewState::_sendResetLink
+    //     0xaa2fd4: bl              #0xaa2fec  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart] _ResetPasswordViewState::_sendResetLink
     // 0xaa2fd8: LeaveFrame
     //     0xaa2fd8: mov             SP, fp
     //     0xaa2fdc: ldp             fp, lr, [SP], #0x10
@@ -1274,7 +1274,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     // 0xaa3058: mov             x1, x2
     // 0xaa305c: mov             x2, x16
     // 0xaa3060: r0 = canSendResetLink()
-    //     0xaa3060: bl              #0xaa2f70  ; [package:ballai/automatic/utility/validation/email_address.dart] EmailAddress::canSendResetLink
+    //     0xaa3060: bl              #0xaa2f70  ; [package:kourtai/automatic/utility/validation/email_address.dart] EmailAddress::canSendResetLink
     // 0xaa3064: tbz             w0, #4, #0xaa3070
     // 0xaa3068: r0 = Null
     //     0xaa3068: mov             x0, NULL
@@ -1299,7 +1299,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xaa3098: bl              #0x6823b8  ; [package:flutter/src/widgets/focus_manager.dart] FocusNode::unfocus
     // 0xaa309c: ldur            x2, [fp, #-0x90]
     // 0xaa30a0: r1 = Function '<anonymous closure>':.
-    //     0xaa30a0: add             x1, PP, #0x45, lsl #12  ; [pp+0x459e0] AnonymousClosure: (0x900cc0), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
+    //     0xaa30a0: add             x1, PP, #0x45, lsl #12  ; [pp+0x459e0] AnonymousClosure: (0x900cc0), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
     //     0xaa30a4: ldr             x1, [x1, #0x9e0]
     // 0xaa30a8: r0 = AllocateClosure()
     //     0xaa30a8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1340,7 +1340,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     // 0xaa3108: ldur            x1, [fp, #-0xa0]
     // 0xaa310c: mov             x2, x0
     // 0xaa3110: r0 = sendPasswordReset()
-    //     0xaa3110: bl              #0xaa3310  ; [package:ballai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::sendPasswordReset
+    //     0xaa3110: bl              #0xaa3310  ; [package:kourtai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::sendPasswordReset
     // 0xaa3114: mov             x1, x0
     // 0xaa3118: stur            x1, [fp, #-0x98]
     // 0xaa311c: r0 = Await()
@@ -1358,7 +1358,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xaa3138: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xaa313c: ldur            x2, [fp, #-0x90]
     // 0xaa3140: r1 = Function '<anonymous closure>':.
-    //     0xaa3140: add             x1, PP, #0x45, lsl #12  ; [pp+0x459e8] AnonymousClosure: (0x8fbc64), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
+    //     0xaa3140: add             x1, PP, #0x45, lsl #12  ; [pp+0x459e8] AnonymousClosure: (0x8fbc64), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
     //     0xaa3144: ldr             x1, [x1, #0x9e8]
     // 0xaa3148: r0 = AllocateClosure()
     //     0xaa3148: bl              #0xe553e0  ; AllocateClosureStub
@@ -1376,7 +1376,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     // 0xaa316c: b.eq            #0xaa3308
     // 0xaa3170: ldur            x2, [fp, #-0x90]
     // 0xaa3174: r1 = Function '<anonymous closure>':.
-    //     0xaa3174: add             x1, PP, #0x45, lsl #12  ; [pp+0x459f0] AnonymousClosure: (0xaa370c), in [package:ballai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart] _ResetPasswordViewState::_sendResetLink (0xaa2fec)
+    //     0xaa3174: add             x1, PP, #0x45, lsl #12  ; [pp+0x459f0] AnonymousClosure: (0xaa370c), in [package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart] _ResetPasswordViewState::_sendResetLink (0xaa2fec)
     //     0xaa3178: ldr             x1, [x1, #0x9f0]
     // 0xaa317c: r0 = AllocateClosure()
     //     0xaa317c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1416,12 +1416,12 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xaa31e0: add             x1, PP, #0x45, lsl #12  ; [pp+0x459f8] "Error Resetting Password"
     //     0xaa31e4: ldr             x1, [x1, #0x9f8]
     // 0xaa31e8: r0 = L()
-    //     0xaa31e8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa31e8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa31ec: ldur            x1, [fp, #-0x98]
     // 0xaa31f0: mov             x2, x0
     // 0xaa31f4: stur            x0, [fp, #-0xa8]
     // 0xaa31f8: r0 = userFacingError()
-    //     0xaa31f8: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0xaa31f8: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0xaa31fc: ldur            x3, [fp, #-0x90]
     // 0xaa3200: StoreField: r3->field_13 = r0
     //     0xaa3200: stur            w0, [x3, #0x13]
@@ -1441,7 +1441,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     // 0xaa3230: b.eq            #0xaa330c
     // 0xaa3234: mov             x2, x3
     // 0xaa3238: r1 = Function '<anonymous closure>':.
-    //     0xaa3238: add             x1, PP, #0x45, lsl #12  ; [pp+0x45a00] AnonymousClosure: (0xaa35a4), in [package:ballai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart] _ResetPasswordViewState::_sendResetLink (0xaa2fec)
+    //     0xaa3238: add             x1, PP, #0x45, lsl #12  ; [pp+0x45a00] AnonymousClosure: (0xaa35a4), in [package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart] _ResetPasswordViewState::_sendResetLink (0xaa2fec)
     //     0xaa323c: ldr             x1, [x1, #0xa00]
     // 0xaa3240: r0 = AllocateClosure()
     //     0xaa3240: bl              #0xe553e0  ; AllocateClosureStub
@@ -1468,7 +1468,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     // 0xaa327c: b.eq            #0xaa329c
     // 0xaa3280: ldur            x2, [fp, #-0x90]
     // 0xaa3284: r1 = Function '<anonymous closure>':.
-    //     0xaa3284: add             x1, PP, #0x45, lsl #12  ; [pp+0x45a08] AnonymousClosure: (0x8ef4b8), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
+    //     0xaa3284: add             x1, PP, #0x45, lsl #12  ; [pp+0x45a08] AnonymousClosure: (0x8ef4b8), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
     //     0xaa3288: ldr             x1, [x1, #0xa08]
     // 0xaa328c: r0 = AllocateClosure()
     //     0xaa328c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1494,7 +1494,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     // 0xaa32c8: b.eq            #0xaa32e8
     // 0xaa32cc: ldur            x2, [fp, #-0x90]
     // 0xaa32d0: r1 = Function '<anonymous closure>':.
-    //     0xaa32d0: add             x1, PP, #0x45, lsl #12  ; [pp+0x45a08] AnonymousClosure: (0x8ef4b8), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
+    //     0xaa32d0: add             x1, PP, #0x45, lsl #12  ; [pp+0x45a08] AnonymousClosure: (0x8ef4b8), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
     //     0xaa32d4: ldr             x1, [x1, #0xa08]
     // 0xaa32d8: r0 = AllocateClosure()
     //     0xaa32d8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1551,7 +1551,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xaa35ec: add             x1, PP, #0x45, lsl #12  ; [pp+0x459f8] "Error Resetting Password"
     //     0xaa35f0: ldr             x1, [x1, #0x9f8]
     // 0xaa35f4: r0 = L()
-    //     0xaa35f4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa35f4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa35f8: stur            x0, [fp, #-0x18]
     // 0xaa35fc: r0 = Text()
     //     0xaa35fc: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1577,7 +1577,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xaa3634: add             x1, PP, #0x20, lsl #12  ; [pp+0x20360] "OK"
     //     0xaa3638: ldr             x1, [x1, #0x360]
     // 0xaa363c: r0 = L()
-    //     0xaa363c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa363c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa3640: stur            x0, [fp, #-0x18]
     // 0xaa3644: r0 = Text()
     //     0xaa3644: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1588,7 +1588,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xaa3654: stur            w0, [x3, #0xb]
     // 0xaa3658: ldur            x2, [fp, #-0x10]
     // 0xaa365c: r1 = Function '<anonymous closure>':.
-    //     0xaa365c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45a10] AnonymousClosure: (0x9e764c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/root/account_setup_view.dart] _AccountSetupViewState::_onNext (0x9e64c4)
+    //     0xaa365c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45a10] AnonymousClosure: (0x9e764c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/root/account_setup_view.dart] _AccountSetupViewState::_onNext (0x9e64c4)
     //     0xaa3660: ldr             x1, [x1, #0xa10]
     // 0xaa3664: r0 = AllocateClosure()
     //     0xaa3664: bl              #0xe553e0  ; AllocateClosureStub
@@ -1691,7 +1691,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xaa3754: add             x1, PP, #0x45, lsl #12  ; [pp+0x45a18] "Password Reset Sent!"
     //     0xaa3758: ldr             x1, [x1, #0xa18]
     // 0xaa375c: r0 = L()
-    //     0xaa375c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa375c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa3760: stur            x0, [fp, #-0x18]
     // 0xaa3764: r0 = Text()
     //     0xaa3764: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1749,7 +1749,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xaa37e4: add             x1, PP, #0x45, lsl #12  ; [pp+0x45a20] "We sent an email to %@ to reset your password."
     //     0xaa37e8: ldr             x1, [x1, #0xa20]
     // 0xaa37ec: r0 = LF()
-    //     0xaa37ec: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xaa37ec: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xaa37f0: stur            x0, [fp, #-8]
     // 0xaa37f4: r0 = Text()
     //     0xaa37f4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1762,7 +1762,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xaa3808: add             x1, PP, #0x20, lsl #12  ; [pp+0x20360] "OK"
     //     0xaa380c: ldr             x1, [x1, #0x360]
     // 0xaa3810: r0 = L()
-    //     0xaa3810: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa3810: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa3814: stur            x0, [fp, #-8]
     // 0xaa3818: r0 = Text()
     //     0xaa3818: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1773,7 +1773,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xaa3828: stur            w0, [x3, #0xb]
     // 0xaa382c: ldur            x2, [fp, #-0x10]
     // 0xaa3830: r1 = Function '<anonymous closure>':.
-    //     0xaa3830: add             x1, PP, #0x45, lsl #12  ; [pp+0x45a28] AnonymousClosure: (0x9e764c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/root/account_setup_view.dart] _AccountSetupViewState::_onNext (0x9e64c4)
+    //     0xaa3830: add             x1, PP, #0x45, lsl #12  ; [pp+0x45a28] AnonymousClosure: (0x9e764c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/root/account_setup_view.dart] _AccountSetupViewState::_onNext (0x9e64c4)
     //     0xaa3834: ldr             x1, [x1, #0xa28]
     // 0xaa3838: r0 = AllocateClosure()
     //     0xaa3838: bl              #0xe553e0  ; AllocateClosureStub
@@ -1881,7 +1881,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     // 0xaa392c: DecompressPointer r2
     //     0xaa392c: add             x2, x2, HEAP, lsl #32
     // 0xaa3930: r0 = canSendResetLink()
-    //     0xaa3930: bl              #0xaa2f70  ; [package:ballai/automatic/utility/validation/email_address.dart] EmailAddress::canSendResetLink
+    //     0xaa3930: bl              #0xaa2f70  ; [package:kourtai/automatic/utility/validation/email_address.dart] EmailAddress::canSendResetLink
     // 0xaa3934: tbnz            w0, #4, #0xaa3948
     // 0xaa3938: ldur            x0, [fp, #-8]
     // 0xaa393c: LoadField: r1 = r0->field_f
@@ -1889,7 +1889,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     // 0xaa3940: DecompressPointer r1
     //     0xaa3940: add             x1, x1, HEAP, lsl #32
     // 0xaa3944: r0 = _sendResetLink()
-    //     0xaa3944: bl              #0xaa2fec  ; [package:ballai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart] _ResetPasswordViewState::_sendResetLink
+    //     0xaa3944: bl              #0xaa2fec  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart] _ResetPasswordViewState::_sendResetLink
     // 0xaa3948: r0 = Null
     //     0xaa3948: mov             x0, NULL
     // 0xaa394c: LeaveFrame
@@ -1908,7 +1908,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xb5c2e4: mov             fp, SP
     // 0xb5c2e8: ldr             x2, [fp, #0x10]
     // 0xb5c2ec: r1 = Function 'dispose':.
-    //     0xb5c2ec: add             x1, PP, #0x45, lsl #12  ; [pp+0x45978] AnonymousClosure: (0xb5c304), in [package:ballai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart] _ResetPasswordViewState::dispose (0xb63648)
+    //     0xb5c2ec: add             x1, PP, #0x45, lsl #12  ; [pp+0x45978] AnonymousClosure: (0xb5c304), in [package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart] _ResetPasswordViewState::dispose (0xb63648)
     //     0xb5c2f0: ldr             x1, [x1, #0x978]
     // 0xb5c2f4: r0 = AllocateClosure()
     //     0xb5c2f4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1933,7 +1933,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xb5c31c: cmp             SP, x16
     //     0xb5c320: b.ls            #0xb5c334
     // 0xb5c324: r0 = dispose()
-    //     0xb5c324: bl              #0xb63648  ; [package:ballai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart] _ResetPasswordViewState::dispose
+    //     0xb5c324: bl              #0xb63648  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart] _ResetPasswordViewState::dispose
     // 0xb5c328: LeaveFrame
     //     0xb5c328: mov             SP, fp
     //     0xb5c32c: ldp             fp, lr, [SP], #0x10
@@ -1965,7 +1965,7 @@ class _ResetPasswordViewState extends __ResetPasswordViewState&State&HomeIslandH
     //     0xb63670: bl              #0xb7893c  ; [package:flutter/src/widgets/shortcuts.dart] _ShortcutManager&Object&Diagnosticable&ChangeNotifier::dispose
     // 0xb63674: ldur            x1, [fp, #-8]
     // 0xb63678: r0 = dispose()
-    //     0xb63678: bl              #0xb63788  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
+    //     0xb63678: bl              #0xb63788  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
     // 0xb6367c: r0 = Null
     //     0xb6367c: mov             x0, NULL
     // 0xb63680: LeaveFrame
@@ -2080,7 +2080,7 @@ class _BackCircleButton extends StatelessWidget {
     // 0xc1c348: b               #0xc1c364
     // 0xc1c34c: mov             x2, x1
     // 0xc1c350: r1 = Function '<anonymous closure>':.
-    //     0xc1c350: add             x1, PP, #0x49, lsl #12  ; [pp+0x49ff0] AnonymousClosure: (0xc1c4cc), in [package:ballai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart] _BackCircleButton::build (0xc1c2f0)
+    //     0xc1c350: add             x1, PP, #0x49, lsl #12  ; [pp+0x49ff0] AnonymousClosure: (0xc1c4cc), in [package:kourtai/automatic/views/home/tab/tabs/you/root/destinations/reset_password_view.dart] _BackCircleButton::build (0xc1c2f0)
     //     0xc1c354: ldr             x1, [x1, #0xff0]
     // 0xc1c358: r0 = AllocateClosure()
     //     0xc1c358: bl              #0xe553e0  ; AllocateClosureStub
@@ -2088,8 +2088,8 @@ class _BackCircleButton extends StatelessWidget {
     // 0xc1c360: ldur            x0, [fp, #-0x18]
     // 0xc1c364: ldur            x1, [fp, #-0x10]
     // 0xc1c368: stur            x2, [fp, #-8]
-    // 0xc1c36c: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xc1c36c: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xc1c36c: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xc1c36c: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xc1c370: stur            x0, [fp, #-0x20]
     // 0xc1c374: r0 = Radius()
     //     0xc1c374: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -2133,8 +2133,8 @@ class _BackCircleButton extends StatelessWidget {
     // 0xc1c3d8: cmp             w0, NULL
     // 0xc1c3dc: b.ne            #0xc1c420
     // 0xc1c3e0: ldur            x1, [fp, #-0x10]
-    // 0xc1c3e4: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc1c3e4: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc1c3e4: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc1c3e4: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc1c3e8: r1 = LoadClassIdInstr(r0)
     //     0xc1c3e8: ldur            x1, [x0, #-1]
     //     0xc1c3ec: ubfx            x1, x1, #0xc, #0x14
@@ -2154,8 +2154,8 @@ class _BackCircleButton extends StatelessWidget {
     //     0xc1c418: blr             lr
     // 0xc1c41c: b               #0xc1c428
     // 0xc1c420: ldur            x1, [fp, #-0x10]
-    // 0xc1c424: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc1c424: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc1c424: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc1c424: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc1c428: stur            x0, [fp, #-0x10]
     // 0xc1c42c: r0 = Icon()
     //     0xc1c42c: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)

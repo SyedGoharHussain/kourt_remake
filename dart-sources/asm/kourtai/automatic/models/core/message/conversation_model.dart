@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/message/conversation_model.dart
+// lib: , url: package:kourtai/automatic/models/core/message/conversation_model.dart
 
 // class id: 1048686, size: 0x8
 class :: {
@@ -436,7 +436,7 @@ class ConversationModel extends Object {
     //     0x72095c: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x720960: mov             x2, x3
     // 0x720964: r1 = Function '<anonymous closure>': static.
-    //     0x720964: add             x1, PP, #0x11, lsl #12  ; [pp+0x11b98] AnonymousClosure: static (0x7211bc), in [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::fromFirestore (0x72048c)
+    //     0x720964: add             x1, PP, #0x11, lsl #12  ; [pp+0x11b98] AnonymousClosure: static (0x7211bc), in [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::fromFirestore (0x72048c)
     //     0x720968: ldr             x1, [x1, #0xb98]
     // 0x72096c: r0 = AllocateClosure()
     //     0x72096c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1563,7 +1563,7 @@ class ConversationModel extends Object {
     // 0x9816bc: DecompressPointer r1
     //     0x9816bc: add             x1, x1, HEAP, lsl #32
     // 0x9816c0: r0 = fromRaw()
-    //     0x9816c0: bl              #0x725a4c  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationType::fromRaw
+    //     0x9816c0: bl              #0x725a4c  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationType::fromRaw
     // 0x9816c4: cmp             w0, NULL
     // 0x9816c8: b.eq            #0x9816d8
     // 0x9816cc: LeaveFrame
@@ -1697,7 +1697,7 @@ class ConversationModel extends Object {
     //     0x983fd8: cmp             SP, x16
     //     0x983fdc: b.ls            #0x98400c
     // 0x983fe0: r0 = effectiveType()
-    //     0x983fe0: bl              #0x981698  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::effectiveType
+    //     0x983fe0: bl              #0x981698  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::effectiveType
     // 0x983fe4: r16 = Instance_ConversationType
     //     0x983fe4: add             x16, PP, #0x11, lsl #12  ; [pp+0x11b20] Obj!ConversationType@d3b721
     //     0x983fe8: ldr             x16, [x16, #0xb20]

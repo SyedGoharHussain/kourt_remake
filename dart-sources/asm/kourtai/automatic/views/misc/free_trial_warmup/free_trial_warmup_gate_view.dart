@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart
+// lib: , url: package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart
 
 // class id: 1049049, size: 0x8
 class :: {
@@ -63,7 +63,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x657aa0: r0 = of()
     //     0x657aa0: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0x657aa4: r1 = Function '<anonymous closure>':.
-    //     0x657aa4: add             x1, PP, #0x20, lsl #12  ; [pp+0x20648] AnonymousClosure: (0x657a38), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openDiscountRequestPaywall (0x657a44)
+    //     0x657aa4: add             x1, PP, #0x20, lsl #12  ; [pp+0x20648] AnonymousClosure: (0x657a38), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openDiscountRequestPaywall (0x657a44)
     //     0x657aa8: ldr             x1, [x1, #0x648]
     // 0x657aac: r2 = Null
     //     0x657aac: mov             x2, NULL
@@ -190,7 +190,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x658bf0: add             x1, PP, #0x20, lsl #12  ; [pp+0x20610] "{discount_percent}% off your first year"
     //     0x658bf4: ldr             x1, [x1, #0x610]
     // 0x658bf8: r0 = L()
-    //     0x658bf8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x658bf8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x658bfc: mov             x1, x0
     // 0x658c00: ldur            x0, [fp, #-8]
     // 0x658c04: LoadField: r2 = r0->field_f
@@ -218,7 +218,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x658c38: add             x1, PP, #0x14, lsl #12  ; [pp+0x14d98] "Tap to redeem this one-time offer"
     //     0x658c3c: ldr             x1, [x1, #0xd98]
     // 0x658c40: r0 = L()
-    //     0x658c40: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x658c40: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x658c44: stur            x0, [fp, #-8]
     // 0x658c48: r0 = Text()
     //     0x658c48: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -231,7 +231,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x658c5c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20620] "Not now"
     //     0x658c60: ldr             x1, [x1, #0x620]
     // 0x658c64: r0 = L()
-    //     0x658c64: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x658c64: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x658c68: stur            x0, [fp, #-8]
     // 0x658c6c: r0 = Text()
     //     0x658c6c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -242,7 +242,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x658c7c: stur            w0, [x3, #0xb]
     // 0x658c80: ldur            x2, [fp, #-0x10]
     // 0x658c84: r1 = Function '<anonymous closure>':.
-    //     0x658c84: add             x1, PP, #0x20, lsl #12  ; [pp+0x20628] AnonymousClosure: (0x658b4c), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible (0x658ea8)
+    //     0x658c84: add             x1, PP, #0x20, lsl #12  ; [pp+0x20628] AnonymousClosure: (0x658b4c), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible (0x658ea8)
     //     0x658c88: ldr             x1, [x1, #0x628]
     // 0x658c8c: r0 = AllocateClosure()
     //     0x658c8c: bl              #0xe553e0  ; AllocateClosureStub
@@ -279,7 +279,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x658cdc: ldr             x1, [x1, #0x638]
     // 0x658ce0: stur            x0, [fp, #-8]
     // 0x658ce4: r0 = L()
-    //     0x658ce4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x658ce4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x658ce8: stur            x0, [fp, #-0x28]
     // 0x658cec: r0 = Text()
     //     0x658cec: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -299,7 +299,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x658d14: stur            w0, [x3, #0x3b]
     // 0x658d18: ldur            x2, [fp, #-0x10]
     // 0x658d1c: r1 = Function '<anonymous closure>':.
-    //     0x658d1c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20640] AnonymousClosure: (0x658ddc), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible (0x658ea8)
+    //     0x658d1c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20640] AnonymousClosure: (0x658ddc), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible (0x658ea8)
     //     0x658d20: ldr             x1, [x1, #0x640]
     // 0x658d24: r0 = AllocateClosure()
     //     0x658d24: bl              #0xe553e0  ; AllocateClosureStub
@@ -465,7 +465,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x658f0c: mov             x1, x0
     // 0x658f10: stur            x0, [fp, #-0xa0]
     // 0x658f14: r0 = consumeTrialExitReturnOfferIfEligible()
-    //     0x658f14: bl              #0x657108  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::consumeTrialExitReturnOfferIfEligible
+    //     0x658f14: bl              #0x657108  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::consumeTrialExitReturnOfferIfEligible
     // 0x658f18: mov             x1, x0
     // 0x658f1c: stur            x1, [fp, #-0xa8]
     // 0x658f20: r0 = Await()
@@ -487,7 +487,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x658f48: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x658f4c: ldur            x1, [fp, #-0xa0]
     // 0x658f50: r0 = isPayingSubscriber()
-    //     0x658f50: bl              #0x651314  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
+    //     0x658f50: bl              #0x651314  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
     // 0x658f54: tbz             w0, #4, #0x658f68
     // 0x658f58: ldur            x1, [fp, #-0x98]
     // 0x658f5c: LoadField: r0 = r1->field_1f
@@ -526,7 +526,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x658fac: mov             x1, x0
     // 0x658fb0: stur            x0, [fp, #-0xa8]
     // 0x658fb4: r0 = discountRequestOfferFacts()
-    //     0x658fb4: bl              #0x64735c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::discountRequestOfferFacts
+    //     0x658fb4: bl              #0x64735c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::discountRequestOfferFacts
     // 0x658fb8: mov             x1, x0
     // 0x658fbc: stur            x1, [fp, #-0xb0]
     // 0x658fc0: r0 = Await()
@@ -561,7 +561,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x659010: add             x5, NULL, #0x30  ; false
     // 0x659014: mov             x2, x3
     // 0x659018: r1 = Function '<anonymous closure>':.
-    //     0x659018: add             x1, PP, #0x20, lsl #12  ; [pp+0x20600] AnonymousClosure: (0x658ba8), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible (0x658ea8)
+    //     0x659018: add             x1, PP, #0x20, lsl #12  ; [pp+0x20600] AnonymousClosure: (0x658ba8), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible (0x658ea8)
     //     0x65901c: ldr             x1, [x1, #0x600]
     // 0x659020: r0 = AllocateClosure()
     //     0x659020: bl              #0xe553e0  ; AllocateClosureStub
@@ -607,7 +607,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x659094: b.eq            #0x6590ac
     // 0x659098: mov             x1, x0
     // 0x65909c: r0 = _openDiscountRequestPaywall()
-    //     0x65909c: bl              #0x657a44  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openDiscountRequestPaywall
+    //     0x65909c: bl              #0x657a44  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openDiscountRequestPaywall
     // 0x6590a0: mov             x1, x0
     // 0x6590a4: stur            x1, [fp, #-0xa0]
     // 0x6590a8: r0 = Await()
@@ -739,11 +739,11 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x65b6d0: add             x4, PP, #0x20, lsl #12  ; [pp+0x20420] List(9) [0, 0x2, 0x2, 0, "clearFiredMark", 0x1, "userId", 0, Null]
     //     0x65b6d4: ldr             x4, [x4, #0x420]
     // 0x65b6d8: r0 = cancelTrialExitOneTimeOffer()
-    //     0x65b6d8: bl              #0x6beca4  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialExitOneTimeOffer
+    //     0x65b6d8: bl              #0x6beca4  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialExitOneTimeOffer
     // 0x65b6dc: b               #0x65b6e8
     // 0x65b6e0: ldur            x1, [fp, #-8]
     // 0x65b6e4: r0 = _presentTrialExitReturnOfferAlertIfEligible()
-    //     0x65b6e4: bl              #0x658ea8  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible
+    //     0x65b6e4: bl              #0x658ea8  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible
     // 0x65b6e8: r0 = Null
     //     0x65b6e8: mov             x0, NULL
     // 0x65b6ec: LeaveFrame
@@ -774,7 +774,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x65b72c: r2 = true
     //     0x65b72c: add             x2, NULL, #0x20  ; true
     // 0x65b730: r0 = _queueExitOfferSchedule()
-    //     0x65b730: bl              #0x65b774  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_queueExitOfferSchedule
+    //     0x65b730: bl              #0x65b774  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_queueExitOfferSchedule
     // 0x65b734: r0 = Null
     //     0x65b734: mov             x0, NULL
     // 0x65b738: LeaveFrame
@@ -788,7 +788,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x65b74c: b.ne            #0x65b758
     // 0x65b750: mov             x2, x0
     // 0x65b754: r0 = _queueExitOfferSchedule()
-    //     0x65b754: bl              #0x65b774  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_queueExitOfferSchedule
+    //     0x65b754: bl              #0x65b774  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_queueExitOfferSchedule
     // 0x65b758: r0 = Null
     //     0x65b758: mov             x0, NULL
     // 0x65b75c: LeaveFrame
@@ -837,7 +837,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x65b7c4: tbnz            w0, #4, #0x65b7e0
     // 0x65b7c8: ldur            x1, [fp, #-8]
     // 0x65b7cc: r0 = _scheduleExitOfferNow()
-    //     0x65b7cc: bl              #0x65b840  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_scheduleExitOfferNow
+    //     0x65b7cc: bl              #0x65b840  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_scheduleExitOfferNow
     // 0x65b7d0: r0 = Null
     //     0x65b7d0: mov             x0, NULL
     // 0x65b7d4: LeaveFrame
@@ -848,7 +848,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x65b7e0: ldur            x0, [fp, #-8]
     // 0x65b7e4: ldur            x2, [fp, #-0x18]
     // 0x65b7e8: r1 = Function '<anonymous closure>':.
-    //     0x65b7e8: add             x1, PP, #0x20, lsl #12  ; [pp+0x20428] AnonymousClosure: (0x6bec08), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_queueExitOfferSchedule (0x65b774)
+    //     0x65b7e8: add             x1, PP, #0x20, lsl #12  ; [pp+0x20428] AnonymousClosure: (0x6bec08), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_queueExitOfferSchedule (0x65b774)
     //     0x65b7ec: ldr             x1, [x1, #0x428]
     // 0x65b7f0: r0 = AllocateClosure()
     //     0x65b7f0: bl              #0xe553e0  ; AllocateClosureStub
@@ -966,7 +966,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x65b91c: mov             x1, x0
     // 0x65b920: ldur            x2, [fp, #-0x10]
     // 0x65b924: r0 = scheduleTrialExitOneTimeOfferIfEligible()
-    //     0x65b924: bl              #0x65b948  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleTrialExitOneTimeOfferIfEligible
+    //     0x65b924: bl              #0x65b948  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleTrialExitOneTimeOfferIfEligible
     // 0x65b928: r0 = Null
     //     0x65b928: mov             x0, NULL
     // 0x65b92c: LeaveFrame
@@ -1032,7 +1032,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x6bec7c: b.ne            #0x6bec88
     // 0x6bec80: mov             x1, x0
     // 0x6bec84: r0 = _scheduleExitOfferNow()
-    //     0x6bec84: bl              #0x65b840  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_scheduleExitOfferNow
+    //     0x6bec84: bl              #0x65b840  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_scheduleExitOfferNow
     // 0x6bec88: r0 = Null
     //     0x6bec88: mov             x0, NULL
     // 0x6bec8c: LeaveFrame
@@ -1102,7 +1102,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x986984: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x986988: ldur            x2, [fp, #-0xa0]
     // 0x98698c: r1 = Function '<anonymous closure>':.
-    //     0x98698c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20338] AnonymousClosure: (0x8fbc64), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
+    //     0x98698c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20338] AnonymousClosure: (0x8fbc64), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
     //     0x986990: ldr             x1, [x1, #0x338]
     // 0x986994: r0 = AllocateClosure()
     //     0x986994: bl              #0xe553e0  ; AllocateClosureStub
@@ -1144,7 +1144,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x9869f8: ldur            x1, [fp, #-0xa8]
     // 0x9869fc: stur            x0, [fp, #-0xb0]
     // 0x986a00: r0 = restorePurchases()
-    //     0x986a00: bl              #0x986b60  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::restorePurchases
+    //     0x986a00: bl              #0x986b60  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::restorePurchases
     // 0x986a04: mov             x1, x0
     // 0x986a08: stur            x1, [fp, #-0xb8]
     // 0x986a0c: r0 = Await()
@@ -1168,15 +1168,15 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x986a3c: DecompressPointer r2
     //     0x986a3c: add             x2, x2, HEAP, lsl #32
     // 0x986a40: mov             x1, x4
-    // 0x986a44: r0 = _hasBallAiProAccess()
-    //     0x986a44: bl              #0x659e38  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_hasBallAiProAccess
+    // 0x986a44: r0 = _hasKourtAiProAccess()
+    //     0x986a44: bl              #0x659e38  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_hasKourtAiProAccess
     // 0x986a48: tbnz            w0, #4, #0x986a54
     // 0x986a4c: r1 = true
     //     0x986a4c: add             x1, NULL, #0x20  ; true
     // 0x986a50: b               #0x986a60
     // 0x986a54: ldur            x1, [fp, #-0xb0]
     // 0x986a58: r0 = isPayingSubscriber()
-    //     0x986a58: bl              #0x651314  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
+    //     0x986a58: bl              #0x651314  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
     // 0x986a5c: mov             x1, x0
     // 0x986a60: ldur            x0, [fp, #-0xb8]
     // 0x986a64: cmp             w0, NULL
@@ -1191,7 +1191,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x986a80: cmp             w3, NULL
     // 0x986a84: b.eq            #0x986b5c
     // 0x986a88: r1 = Function '<anonymous closure>':.
-    //     0x986a88: add             x1, PP, #0x20, lsl #12  ; [pp+0x20340] AnonymousClosure: (0x986d68), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
+    //     0x986a88: add             x1, PP, #0x20, lsl #12  ; [pp+0x20340] AnonymousClosure: (0x986d68), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
     //     0x986a8c: ldr             x1, [x1, #0x340]
     // 0x986a90: r2 = Null
     //     0x986a90: mov             x2, NULL
@@ -1220,7 +1220,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x986ad0: b.eq            #0x986af0
     // 0x986ad4: ldur            x2, [fp, #-0xa0]
     // 0x986ad8: r1 = Function '<anonymous closure>':.
-    //     0x986ad8: add             x1, PP, #0x20, lsl #12  ; [pp+0x20348] AnonymousClosure: (0x986910), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
+    //     0x986ad8: add             x1, PP, #0x20, lsl #12  ; [pp+0x20348] AnonymousClosure: (0x986910), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
     //     0x986adc: ldr             x1, [x1, #0x348]
     // 0x986ae0: r0 = AllocateClosure()
     //     0x986ae0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1246,7 +1246,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x986b1c: b.eq            #0x986b3c
     // 0x986b20: ldur            x2, [fp, #-0xa0]
     // 0x986b24: r1 = Function '<anonymous closure>':.
-    //     0x986b24: add             x1, PP, #0x20, lsl #12  ; [pp+0x20348] AnonymousClosure: (0x986910), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
+    //     0x986b24: add             x1, PP, #0x20, lsl #12  ; [pp+0x20348] AnonymousClosure: (0x986910), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
     //     0x986b28: ldr             x1, [x1, #0x348]
     // 0x986b2c: r0 = AllocateClosure()
     //     0x986b2c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1301,7 +1301,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x986db0: add             x1, PP, #0x20, lsl #12  ; [pp+0x20350] "No active subscription found"
     //     0x986db4: ldr             x1, [x1, #0x350]
     // 0x986db8: r0 = L()
-    //     0x986db8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x986db8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x986dbc: stur            x0, [fp, #-8]
     // 0x986dc0: r0 = Text()
     //     0x986dc0: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1314,7 +1314,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x986dd4: add             x1, PP, #0x20, lsl #12  ; [pp+0x20358] "We couldn\'t find an active subscription to restore."
     //     0x986dd8: ldr             x1, [x1, #0x358]
     // 0x986ddc: r0 = L()
-    //     0x986ddc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x986ddc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x986de0: stur            x0, [fp, #-8]
     // 0x986de4: r0 = Text()
     //     0x986de4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1327,7 +1327,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x986df8: add             x1, PP, #0x20, lsl #12  ; [pp+0x20360] "OK"
     //     0x986dfc: ldr             x1, [x1, #0x360]
     // 0x986e00: r0 = L()
-    //     0x986e00: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x986e00: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x986e04: stur            x0, [fp, #-8]
     // 0x986e08: r0 = Text()
     //     0x986e08: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1338,7 +1338,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x986e18: stur            w0, [x3, #0xb]
     // 0x986e1c: ldur            x2, [fp, #-0x10]
     // 0x986e20: r1 = Function '<anonymous closure>':.
-    //     0x986e20: add             x1, PP, #0x20, lsl #12  ; [pp+0x20368] AnonymousClosure: (0x986ed0), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
+    //     0x986e20: add             x1, PP, #0x20, lsl #12  ; [pp+0x20368] AnonymousClosure: (0x986ed0), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
     //     0x986e24: ldr             x1, [x1, #0x368]
     // 0x986e28: r0 = AllocateClosure()
     //     0x986e28: bl              #0xe553e0  ; AllocateClosureStub
@@ -1461,7 +1461,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x986f3c: cmp             SP, x16
     //     0x986f40: b.ls            #0x986f54
     // 0x986f44: r0 = _restore()
-    //     0x986f44: bl              #0x986930  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore
+    //     0x986f44: bl              #0x986930  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore
     // 0x986f48: LeaveFrame
     //     0x986f48: mov             SP, fp
     //     0x986f4c: ldp             fp, lr, [SP], #0x10
@@ -1568,7 +1568,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x98d9b4: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0x98d9b8: ldur            x1, [fp, #-8]
     // 0x98d9bc: r0 = _initVideo()
-    //     0x98d9bc: bl              #0x98dac4  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_initVideo
+    //     0x98d9bc: bl              #0x98dac4  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_initVideo
     // 0x98d9c0: r0 = LoadStaticField(0x8b4)
     //     0x98d9c0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x98d9c4: ldr             x0, [x0, #0x1168]
@@ -1586,7 +1586,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x98d9e4: ldur            x2, [fp, #-0x18]
     // 0x98d9e8: stur            x0, [fp, #-8]
     // 0x98d9ec: r1 = Function '<anonymous closure>':.
-    //     0x98d9ec: add             x1, PP, #0x20, lsl #12  ; [pp+0x20738] AnonymousClosure: (0x98e740), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::initState (0x98d8b8)
+    //     0x98d9ec: add             x1, PP, #0x20, lsl #12  ; [pp+0x20738] AnonymousClosure: (0x98e740), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::initState (0x98d8b8)
     //     0x98d9f0: ldr             x1, [x1, #0x738]
     // 0x98d9f4: r0 = AllocateClosure()
     //     0x98d9f4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1692,7 +1692,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x98dafc: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x98db00: bl              #0x60afc8  ; InitAsyncStub
     // 0x98db04: r0 = ensureTitleReady()
-    //     0x98db04: bl              #0x98d11c  ; [package:ballai/automatic/views/components/splash_brand_looping_video_view.dart] BrandVideoCache::ensureTitleReady
+    //     0x98db04: bl              #0x98d11c  ; [package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart] BrandVideoCache::ensureTitleReady
     // 0x98db08: mov             x1, x0
     // 0x98db0c: stur            x1, [fp, #-0x78]
     // 0x98db10: r0 = Await()
@@ -1747,7 +1747,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x98db98: b.eq            #0x98dbb8
     // 0x98db9c: ldur            x2, [fp, #-0x70]
     // 0x98dba0: r1 = Function '<anonymous closure>':.
-    //     0x98dba0: add             x1, PP, #0x20, lsl #12  ; [pp+0x20760] AnonymousClosure: (0x98dcf8), in [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_advance (0x98dd44)
+    //     0x98dba0: add             x1, PP, #0x20, lsl #12  ; [pp+0x20760] AnonymousClosure: (0x98dcf8), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_advance (0x98dd44)
     //     0x98dba4: ldr             x1, [x1, #0x760]
     // 0x98dba8: r0 = AllocateClosure()
     //     0x98dba8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1818,7 +1818,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x98dc60: b.eq            #0x98dc9c
     // 0x98dc64: ldur            x2, [fp, #-0x70]
     // 0x98dc68: r1 = Function '<anonymous closure>':.
-    //     0x98dc68: add             x1, PP, #0x20, lsl #12  ; [pp+0x20770] AnonymousClosure: (0x98dcac), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_initVideo (0x98dac4)
+    //     0x98dc68: add             x1, PP, #0x20, lsl #12  ; [pp+0x20770] AnonymousClosure: (0x98dcac), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_initVideo (0x98dac4)
     //     0x98dc6c: ldr             x1, [x1, #0x770]
     // 0x98dc70: r0 = AllocateClosure()
     //     0x98dc70: bl              #0xe553e0  ; AllocateClosureStub
@@ -1922,7 +1922,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x98e7b4: DecompressPointer r2
     //     0x98e7b4: add             x2, x2, HEAP, lsl #32
     // 0x98e7b8: r1 = Function '_onDeepLink@988368549':.
-    //     0x98e7b8: add             x1, PP, #0x20, lsl #12  ; [pp+0x20668] AnonymousClosure: (0x98f288), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_onDeepLink (0x98e9b4)
+    //     0x98e7b8: add             x1, PP, #0x20, lsl #12  ; [pp+0x20668] AnonymousClosure: (0x98f288), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_onDeepLink (0x98e9b4)
     //     0x98e7bc: ldr             x1, [x1, #0x668]
     // 0x98e7c0: r0 = AllocateClosure()
     //     0x98e7c0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1936,14 +1936,14 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x98e7d8: DecompressPointer r1
     //     0x98e7d8: add             x1, x1, HEAP, lsl #32
     // 0x98e7dc: r0 = _onDeepLink()
-    //     0x98e7dc: bl              #0x98e9b4  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_onDeepLink
+    //     0x98e7dc: bl              #0x98e9b4  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_onDeepLink
     // 0x98e7e0: ldur            x0, [fp, #-8]
     // 0x98e7e4: LoadField: r1 = r0->field_f
     //     0x98e7e4: ldur            w1, [x0, #0xf]
     // 0x98e7e8: DecompressPointer r1
     //     0x98e7e8: add             x1, x1, HEAP, lsl #32
     // 0x98e7ec: r0 = _prepareGate()
-    //     0x98e7ec: bl              #0x98e808  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_prepareGate
+    //     0x98e7ec: bl              #0x98e808  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_prepareGate
     // 0x98e7f0: r0 = Null
     //     0x98e7f0: mov             x0, NULL
     // 0x98e7f4: LeaveFrame
@@ -2019,14 +2019,14 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x98e8a4: stur            x0, [fp, #-0x80]
     // 0x98e8a8: ldur            x1, [fp, #-0x78]
     // 0x98e8ac: r0 = refreshOfferings()
-    //     0x98e8ac: bl              #0x648724  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshOfferings
+    //     0x98e8ac: bl              #0x648724  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshOfferings
     // 0x98e8b0: mov             x1, x0
     // 0x98e8b4: stur            x1, [fp, #-0x88]
     // 0x98e8b8: r0 = Await()
     //     0x98e8b8: bl              #0x60ad4c  ; AwaitStub
     // 0x98e8bc: ldur            x1, [fp, #-0x78]
     // 0x98e8c0: r0 = refreshIntroEligibilityForAvailablePackages()
-    //     0x98e8c0: bl              #0x6503a4  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshIntroEligibilityForAvailablePackages
+    //     0x98e8c0: bl              #0x6503a4  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshIntroEligibilityForAvailablePackages
     // 0x98e8c4: mov             x1, x0
     // 0x98e8c8: stur            x1, [fp, #-0x88]
     // 0x98e8cc: r0 = Await()
@@ -2072,7 +2072,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x98e93c: add             x4, PP, #0x14, lsl #12  ; [pp+0x14510] List(7) [0, 0x1, 0x1, 0, "userId", 0, Null]
     //     0x98e940: ldr             x4, [x4, #0x510]
     // 0x98e944: r0 = cancelTrialExitOneTimeOffer()
-    //     0x98e944: bl              #0x6beca4  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialExitOneTimeOffer
+    //     0x98e944: bl              #0x6beca4  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialExitOneTimeOffer
     // 0x98e948: mov             x1, x0
     // 0x98e94c: stur            x1, [fp, #-0x78]
     // 0x98e950: r0 = Await()
@@ -2081,7 +2081,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x98e954: add             x4, PP, #0xc, lsl #12  ; [pp+0xc818] List(5) [0, 0, 0, 0, Null]
     //     0x98e958: ldr             x4, [x4, #0x818]
     // 0x98e95c: r0 = ensureInitialized()
-    //     0x98e95c: bl              #0x65d554  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::ensureInitialized
+    //     0x98e95c: bl              #0x65d554  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::ensureInitialized
     // 0x98e960: mov             x1, x0
     // 0x98e964: stur            x1, [fp, #-0x78]
     // 0x98e968: r0 = Await()
@@ -2171,7 +2171,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x98ea3c: add             x2, PP, #0x13, lsl #12  ; [pp+0x13588] "discount_request"
     //     0x98ea40: ldr             x2, [x2, #0x588]
     // 0x98ea44: r0 = consumeNotificationFunnelDestination()
-    //     0x98ea44: bl              #0x940108  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
+    //     0x98ea44: bl              #0x940108  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
     // 0x98ea48: tbz             w0, #4, #0x98ea5c
     // 0x98ea4c: r0 = Null
     //     0x98ea4c: mov             x0, NULL
@@ -2182,7 +2182,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x98ea58: ret             
     // 0x98ea5c: ldur            x1, [fp, #-8]
     // 0x98ea60: r0 = _openDiscountRequestPaywall()
-    //     0x98ea60: bl              #0x657a44  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openDiscountRequestPaywall
+    //     0x98ea60: bl              #0x657a44  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openDiscountRequestPaywall
     // 0x98ea64: r0 = Null
     //     0x98ea64: mov             x0, NULL
     // 0x98ea68: LeaveFrame
@@ -2236,10 +2236,10 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x98eaf8: tbnz            w0, #4, #0x98eb1c
     // 0x98eafc: ldur            x1, [fp, #-0x20]
     // 0x98eb00: r0 = dismissCurrentNavigation()
-    //     0x98eb00: bl              #0x65ee24  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::dismissCurrentNavigation
+    //     0x98eb00: bl              #0x65ee24  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::dismissCurrentNavigation
     // 0x98eb04: ldur            x1, [fp, #-8]
     // 0x98eb08: r0 = _openDiscountRequestPaywall()
-    //     0x98eb08: bl              #0x657a44  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openDiscountRequestPaywall
+    //     0x98eb08: bl              #0x657a44  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openDiscountRequestPaywall
     // 0x98eb0c: r0 = Null
     //     0x98eb0c: mov             x0, NULL
     // 0x98eb10: LeaveFrame
@@ -2294,7 +2294,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x98eba4: ldur            x0, [fp, #-0x18]
     // 0x98eba8: ldur            x1, [fp, #-0x20]
     // 0x98ebac: r0 = dismissCurrentNavigation()
-    //     0x98ebac: bl              #0x65ee24  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::dismissCurrentNavigation
+    //     0x98ebac: bl              #0x65ee24  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::dismissCurrentNavigation
     // 0x98ebb0: ldur            x0, [fp, #-0x18]
     // 0x98ebb4: cmp             w0, NULL
     // 0x98ebb8: b.ne            #0x98ebc4
@@ -2327,7 +2327,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x98ec08: ldr             x2, [x2, #0x688]
     // 0x98ec0c: ldur            x1, [fp, #-8]
     // 0x98ec10: r0 = _openWinbackPaywall()
-    //     0x98ec10: bl              #0x98eca0  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openWinbackPaywall
+    //     0x98ec10: bl              #0x98eca0  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openWinbackPaywall
     // 0x98ec14: r0 = Null
     //     0x98ec14: mov             x0, NULL
     // 0x98ec18: LeaveFrame
@@ -2353,7 +2353,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x98ec54: add             x2, PP, #0x14, lsl #12  ; [pp+0x14c68] "cancel_winback"
     //     0x98ec58: ldr             x2, [x2, #0xc68]
     // 0x98ec5c: r0 = consumeNotificationFunnelDestination()
-    //     0x98ec5c: bl              #0x940108  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
+    //     0x98ec5c: bl              #0x940108  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
     // 0x98ec60: tbz             w0, #4, #0x98ec74
     // 0x98ec64: r0 = Null
     //     0x98ec64: mov             x0, NULL
@@ -2367,7 +2367,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x98ec78: add             x2, PP, #0x20, lsl #12  ; [pp+0x20688] "notification_trial_exit_offer"
     //     0x98ec7c: ldr             x2, [x2, #0x688]
     // 0x98ec80: r0 = _openWinbackPaywall()
-    //     0x98ec80: bl              #0x98eca0  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openWinbackPaywall
+    //     0x98ec80: bl              #0x98eca0  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openWinbackPaywall
     // 0x98ec84: r0 = Null
     //     0x98ec84: mov             x0, NULL
     // 0x98ec88: LeaveFrame
@@ -2445,7 +2445,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x98ed3c: ldur            x3, [fp, #-0xa8]
     // 0x98ed40: mov             x1, x2
     // 0x98ed44: r0 = resolveCancelWinbackOffering()
-    //     0x98ed44: bl              #0x903110  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::resolveCancelWinbackOffering
+    //     0x98ed44: bl              #0x903110  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::resolveCancelWinbackOffering
     // 0x98ed48: mov             x1, x0
     // 0x98ed4c: stur            x1, [fp, #-0xb0]
     // 0x98ed50: r0 = Await()
@@ -2571,7 +2571,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0x98eea4: b.eq            #0x98ef98
     // 0x98eea8: ldur            x2, [fp, #-0xa8]
     // 0x98eeac: r1 = Function '<anonymous closure>':.
-    //     0x98eeac: add             x1, PP, #0x20, lsl #12  ; [pp+0x20698] AnonymousClosure: (0x98f020), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openWinbackPaywall (0x98eca0)
+    //     0x98eeac: add             x1, PP, #0x20, lsl #12  ; [pp+0x20698] AnonymousClosure: (0x98f020), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openWinbackPaywall (0x98eca0)
     //     0x98eeb0: ldr             x1, [x1, #0x698]
     // 0x98eeb4: r0 = AllocateClosure()
     //     0x98eeb4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2606,7 +2606,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x98ef00: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0x98ef04: ldur            x2, [fp, #-0xa8]
     // 0x98ef08: r1 = Function '<anonymous closure>':.
-    //     0x98ef08: add             x1, PP, #0x20, lsl #12  ; [pp+0x206a0] AnonymousClosure: (0x98ef9c), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openWinbackPaywall (0x98eca0)
+    //     0x98ef08: add             x1, PP, #0x20, lsl #12  ; [pp+0x206a0] AnonymousClosure: (0x98ef9c), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openWinbackPaywall (0x98eca0)
     //     0x98ef0c: ldr             x1, [x1, #0x6a0]
     // 0x98ef10: stur            x0, [fp, #-0xa0]
     // 0x98ef14: r0 = AllocateClosure()
@@ -2754,7 +2754,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x98f068: add             x1, PP, #0x20, lsl #12  ; [pp+0x206b0] "This offer isn\'t available right now."
     //     0x98f06c: ldr             x1, [x1, #0x6b0]
     // 0x98f070: r0 = L()
-    //     0x98f070: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x98f070: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x98f074: stur            x0, [fp, #-8]
     // 0x98f078: r0 = Text()
     //     0x98f078: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2767,7 +2767,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x98f08c: add             x1, PP, #0x20, lsl #12  ; [pp+0x206b8] "The 80% offer could not be loaded. Please try again in a moment."
     //     0x98f090: ldr             x1, [x1, #0x6b8]
     // 0x98f094: r0 = L()
-    //     0x98f094: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x98f094: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x98f098: stur            x0, [fp, #-8]
     // 0x98f09c: r0 = Text()
     //     0x98f09c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2780,7 +2780,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x98f0b0: add             x1, PP, #0x20, lsl #12  ; [pp+0x206c0] "Close"
     //     0x98f0b4: ldr             x1, [x1, #0x6c0]
     // 0x98f0b8: r0 = L()
-    //     0x98f0b8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x98f0b8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x98f0bc: stur            x0, [fp, #-8]
     // 0x98f0c0: r0 = Text()
     //     0x98f0c0: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2791,7 +2791,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x98f0d0: stur            w0, [x3, #0xb]
     // 0x98f0d4: ldur            x2, [fp, #-0x10]
     // 0x98f0d8: r1 = Function '<anonymous closure>':.
-    //     0x98f0d8: add             x1, PP, #0x20, lsl #12  ; [pp+0x206c8] AnonymousClosure: (0x986ed0), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
+    //     0x98f0d8: add             x1, PP, #0x20, lsl #12  ; [pp+0x206c8] AnonymousClosure: (0x986ed0), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
     //     0x98f0dc: ldr             x1, [x1, #0x6c8]
     // 0x98f0e0: r0 = AllocateClosure()
     //     0x98f0e0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2818,7 +2818,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x98f114: add             x1, PP, #0x16, lsl #12  ; [pp+0x16aa0] "Try again"
     //     0x98f118: ldr             x1, [x1, #0xaa0]
     // 0x98f11c: r0 = L()
-    //     0x98f11c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x98f11c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x98f120: stur            x0, [fp, #-8]
     // 0x98f124: r0 = Text()
     //     0x98f124: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2838,7 +2838,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x98f14c: stur            w0, [x3, #0x3b]
     // 0x98f150: ldur            x2, [fp, #-0x10]
     // 0x98f154: r1 = Function '<anonymous closure>':.
-    //     0x98f154: add             x1, PP, #0x20, lsl #12  ; [pp+0x206d0] AnonymousClosure: (0x98f20c), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openWinbackPaywall (0x98eca0)
+    //     0x98f154: add             x1, PP, #0x20, lsl #12  ; [pp+0x206d0] AnonymousClosure: (0x98f20c), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openWinbackPaywall (0x98eca0)
     //     0x98f158: ldr             x1, [x1, #0x6d0]
     // 0x98f15c: r0 = AllocateClosure()
     //     0x98f15c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2955,7 +2955,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x98f264: add             x2, x2, HEAP, lsl #32
     // 0x98f268: mov             x1, x0
     // 0x98f26c: r0 = _openWinbackPaywall()
-    //     0x98f26c: bl              #0x98eca0  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openWinbackPaywall
+    //     0x98f26c: bl              #0x98eca0  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openWinbackPaywall
     // 0x98f270: r0 = Null
     //     0x98f270: mov             x0, NULL
     // 0x98f274: LeaveFrame
@@ -2982,7 +2982,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0x98f2a0: cmp             SP, x16
     //     0x98f2a4: b.ls            #0x98f2b8
     // 0x98f2a8: r0 = _onDeepLink()
-    //     0x98f2a8: bl              #0x98e9b4  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_onDeepLink
+    //     0x98f2a8: bl              #0x98e9b4  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_onDeepLink
     // 0x98f2ac: LeaveFrame
     //     0x98f2ac: mov             SP, fp
     //     0x98f2b0: ldp             fp, lr, [SP], #0x10
@@ -3020,7 +3020,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0xaab66c: StoreField: r3->field_13 = r4
     //     0xaab66c: stur            w4, [x3, #0x13]
     // 0xaab670: r1 = Function '<anonymous closure>':.
-    //     0xaab670: add             x1, PP, #0x20, lsl #12  ; [pp+0x20268] AnonymousClosure: (0xaac948), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::build (0xaab62c)
+    //     0xaab670: add             x1, PP, #0x20, lsl #12  ; [pp+0x20268] AnonymousClosure: (0xaac948), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::build (0xaab62c)
     //     0xaab674: ldr             x1, [x1, #0x268]
     // 0xaab678: r2 = Null
     //     0xaab678: mov             x2, NULL
@@ -3331,7 +3331,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0xaab9e8: stur            w0, [x3, #0x13]
     // 0xaab9ec: ldur            x2, [fp, #-0x18]
     // 0xaab9f0: r1 = Function '<anonymous closure>':.
-    //     0xaab9f0: add             x1, PP, #0x20, lsl #12  ; [pp+0x20290] AnonymousClosure: (0xaac884), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::build (0xaab62c)
+    //     0xaab9f0: add             x1, PP, #0x20, lsl #12  ; [pp+0x20290] AnonymousClosure: (0xaac884), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::build (0xaab62c)
     //     0xaab9f4: ldr             x1, [x1, #0x290]
     // 0xaab9f8: r0 = AllocateClosure()
     //     0xaab9f8: bl              #0xe553e0  ; AllocateClosureStub
@@ -3341,7 +3341,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0xaaba04: stur            w1, [x0, #0x17]
     // 0xaaba08: ldur            x2, [fp, #-8]
     // 0xaaba0c: r1 = Function '_restore@988368549':.
-    //     0xaaba0c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20298] AnonymousClosure: (0x986f24), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
+    //     0xaaba0c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20298] AnonymousClosure: (0x986f24), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
     //     0xaaba10: ldr             x1, [x1, #0x298]
     // 0xaaba14: r0 = AllocateClosure()
     //     0xaaba14: bl              #0xe553e0  ; AllocateClosureStub
@@ -3351,7 +3351,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0xaaba20: stur            w1, [x0, #0x1b]
     // 0xaaba24: ldur            x2, [fp, #-0x18]
     // 0xaaba28: r1 = Function '<anonymous closure>':.
-    //     0xaaba28: add             x1, PP, #0x20, lsl #12  ; [pp+0x202a0] AnonymousClosure: (0xaac4ec), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::build (0xaab62c)
+    //     0xaaba28: add             x1, PP, #0x20, lsl #12  ; [pp+0x202a0] AnonymousClosure: (0xaac4ec), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::build (0xaab62c)
     //     0xaaba2c: ldr             x1, [x1, #0x2a0]
     // 0xaaba30: r0 = AllocateClosure()
     //     0xaaba30: bl              #0xe553e0  ; AllocateClosureStub
@@ -3443,7 +3443,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0xaabb24: stur            w0, [x3, #0xf]
     // 0xaabb28: ldur            x2, [fp, #-0x18]
     // 0xaabb2c: r1 = Function '<anonymous closure>':.
-    //     0xaabb2c: add             x1, PP, #0x20, lsl #12  ; [pp+0x202b0] AnonymousClosure: (0xaac4a4), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::build (0xaab62c)
+    //     0xaabb2c: add             x1, PP, #0x20, lsl #12  ; [pp+0x202b0] AnonymousClosure: (0xaac4a4), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::build (0xaab62c)
     //     0xaabb30: ldr             x1, [x1, #0x2b0]
     // 0xaabb34: r0 = AllocateClosure()
     //     0xaabb34: bl              #0xe553e0  ; AllocateClosureStub
@@ -3453,7 +3453,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0xaabb40: stur            w1, [x0, #0x13]
     // 0xaabb44: ldur            x2, [fp, #-0x18]
     // 0xaabb48: r1 = Function '<anonymous closure>':.
-    //     0xaabb48: add             x1, PP, #0x20, lsl #12  ; [pp+0x202b8] AnonymousClosure: (0xaac548), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::build (0xaab62c)
+    //     0xaabb48: add             x1, PP, #0x20, lsl #12  ; [pp+0x202b8] AnonymousClosure: (0xaac548), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::build (0xaab62c)
     //     0xaabb4c: ldr             x1, [x1, #0x2b8]
     // 0xaabb50: r0 = AllocateClosure()
     //     0xaabb50: bl              #0xe553e0  ; AllocateClosureStub
@@ -3463,7 +3463,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0xaabb5c: stur            w1, [x0, #0x17]
     // 0xaabb60: ldur            x2, [fp, #-8]
     // 0xaabb64: r1 = Function '_restore@988368549':.
-    //     0xaabb64: add             x1, PP, #0x20, lsl #12  ; [pp+0x20298] AnonymousClosure: (0x986f24), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
+    //     0xaabb64: add             x1, PP, #0x20, lsl #12  ; [pp+0x20298] AnonymousClosure: (0x986f24), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
     //     0xaabb68: ldr             x1, [x1, #0x298]
     // 0xaabb6c: r0 = AllocateClosure()
     //     0xaabb6c: bl              #0xe553e0  ; AllocateClosureStub
@@ -3473,7 +3473,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0xaabb78: stur            w1, [x0, #0x1b]
     // 0xaabb7c: ldur            x2, [fp, #-0x18]
     // 0xaabb80: r1 = Function '<anonymous closure>':.
-    //     0xaabb80: add             x1, PP, #0x20, lsl #12  ; [pp+0x202c0] AnonymousClosure: (0xaac4ec), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::build (0xaab62c)
+    //     0xaabb80: add             x1, PP, #0x20, lsl #12  ; [pp+0x202c0] AnonymousClosure: (0xaac4ec), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::build (0xaab62c)
     //     0xaabb84: ldr             x1, [x1, #0x2c0]
     // 0xaabb88: r0 = AllocateClosure()
     //     0xaabb88: bl              #0xe553e0  ; AllocateClosureStub
@@ -3549,7 +3549,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0xaabc48: stur            w4, [x3, #0x23]
     // 0xaabc4c: ldur            x2, [fp, #-0x18]
     // 0xaabc50: r1 = Function '<anonymous closure>':.
-    //     0xaabc50: add             x1, PP, #0x20, lsl #12  ; [pp+0x202d0] AnonymousClosure: (0xaac4a4), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::build (0xaab62c)
+    //     0xaabc50: add             x1, PP, #0x20, lsl #12  ; [pp+0x202d0] AnonymousClosure: (0xaac4a4), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::build (0xaab62c)
     //     0xaabc54: ldr             x1, [x1, #0x2d0]
     // 0xaabc58: r0 = AllocateClosure()
     //     0xaabc58: bl              #0xe553e0  ; AllocateClosureStub
@@ -3563,7 +3563,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0xaabc6c: stur            w3, [x0, #0x2b]
     // 0xaabc70: ldur            x2, [fp, #-0x18]
     // 0xaabc74: r1 = Function '<anonymous closure>':.
-    //     0xaabc74: add             x1, PP, #0x20, lsl #12  ; [pp+0x202d8] AnonymousClosure: (0xaac480), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::build (0xaab62c)
+    //     0xaabc74: add             x1, PP, #0x20, lsl #12  ; [pp+0x202d8] AnonymousClosure: (0xaac480), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::build (0xaab62c)
     //     0xaabc78: ldr             x1, [x1, #0x2d8]
     // 0xaabc7c: r0 = AllocateClosure()
     //     0xaabc7c: bl              #0xe553e0  ; AllocateClosureStub
@@ -3670,7 +3670,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0xaabd90: stur            w0, [x3, #0x17]
     // 0xaabd94: ldur            x2, [fp, #-0x18]
     // 0xaabd98: r1 = Function '<anonymous closure>':.
-    //     0xaabd98: add             x1, PP, #0x20, lsl #12  ; [pp+0x202e8] AnonymousClosure: (0xaabe14), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::build (0xaab62c)
+    //     0xaabd98: add             x1, PP, #0x20, lsl #12  ; [pp+0x202e8] AnonymousClosure: (0xaabe14), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::build (0xaab62c)
     //     0xaabd9c: ldr             x1, [x1, #0x2e8]
     // 0xaabda0: r0 = AllocateClosure()
     //     0xaabda0: bl              #0xe553e0  ; AllocateClosureStub
@@ -3749,7 +3749,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0xaabe60: cbz             w2, #0xaabe6c
     // 0xaabe64: mov             x1, x0
     // 0xaabe68: r0 = _pop()
-    //     0xaabe68: bl              #0xaabe84  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_pop
+    //     0xaabe68: bl              #0xaabe84  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_pop
     // 0xaabe6c: r0 = Null
     //     0xaabe6c: mov             x0, NULL
     // 0xaabe70: LeaveFrame
@@ -3811,7 +3811,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0xaabefc: ldur            x0, [fp, #-0x10]
     // 0xaabf00: mov             x1, x0
     // 0xaabf04: r0 = _presentPaywallExitOfferIfNeeded()
-    //     0xaabf04: bl              #0xaabfa0  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentPaywallExitOfferIfNeeded
+    //     0xaabf04: bl              #0xaabfa0  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentPaywallExitOfferIfNeeded
     // 0xaabf08: mov             x1, x0
     // 0xaabf0c: stur            x1, [fp, #-0x28]
     // 0xaabf10: r0 = Await()
@@ -3840,7 +3840,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0xaabf4c: ldur            x3, [fp, #-0x20]
     // 0xaabf50: ldur            x2, [fp, #-0x18]
     // 0xaabf54: r1 = Function '<anonymous closure>':.
-    //     0xaabf54: add             x1, PP, #0x20, lsl #12  ; [pp+0x202f8] AnonymousClosure: (0xaac3c0), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_pop (0xaabe84)
+    //     0xaabf54: add             x1, PP, #0x20, lsl #12  ; [pp+0x202f8] AnonymousClosure: (0xaac3c0), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_pop (0xaabe84)
     //     0xaabf58: ldr             x1, [x1, #0x2f8]
     // 0xaabf5c: r0 = AllocateClosure()
     //     0xaabf5c: bl              #0xe553e0  ; AllocateClosureStub
@@ -3938,11 +3938,11 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0xaac048: ldur            x1, [fp, #-0x20]
     // 0xaac04c: stur            x0, [fp, #-0x28]
     // 0xaac050: r0 = isPayingSubscriber()
-    //     0xaac050: bl              #0x651314  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
+    //     0xaac050: bl              #0x651314  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
     // 0xaac054: tbz             w0, #4, #0xaac064
     // 0xaac058: ldur            x1, [fp, #-0x28]
     // 0xaac05c: r0 = hasEligibleIntroOffer()
-    //     0xaac05c: bl              #0x93b8c4  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasEligibleIntroOffer
+    //     0xaac05c: bl              #0x93b8c4  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasEligibleIntroOffer
     // 0xaac060: tbz             w0, #4, #0xaac06c
     // 0xaac064: r0 = false
     //     0xaac064: add             x0, NULL, #0x30  ; false
@@ -3985,7 +3985,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0xaac0c4: mov             x1, x0
     // 0xaac0c8: stur            x0, [fp, #-0x20]
     // 0xaac0cc: r0 = hasPresentedPaywallExitOffer()
-    //     0xaac0cc: bl              #0xaac2f8  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::hasPresentedPaywallExitOffer
+    //     0xaac0cc: bl              #0xaac2f8  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::hasPresentedPaywallExitOffer
     // 0xaac0d0: mov             x1, x0
     // 0xaac0d4: stur            x1, [fp, #-0x28]
     // 0xaac0d8: r0 = Await()
@@ -4001,7 +4001,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0xaac0f0: ldur            x0, [fp, #-0x10]
     // 0xaac0f4: ldur            x1, [fp, #-0x20]
     // 0xaac0f8: r0 = markPaywallExitOfferPresented()
-    //     0xaac0f8: bl              #0xaac234  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::markPaywallExitOfferPresented
+    //     0xaac0f8: bl              #0xaac234  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::markPaywallExitOfferPresented
     // 0xaac0fc: mov             x1, x0
     // 0xaac100: stur            x1, [fp, #-0x20]
     // 0xaac104: r0 = Await()
@@ -4022,7 +4022,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0xaac128: r0 = of()
     //     0xaac128: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xaac12c: r1 = Function '<anonymous closure>':.
-    //     0xaac12c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20300] AnonymousClosure: (0xaac450), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentPaywallExitOfferIfNeeded (0xaabfa0)
+    //     0xaac12c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20300] AnonymousClosure: (0xaac450), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentPaywallExitOfferIfNeeded (0xaabfa0)
     //     0xaac130: ldr             x1, [x1, #0x300]
     // 0xaac134: r2 = Null
     //     0xaac134: mov             x2, NULL
@@ -4089,7 +4089,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0xaac1dc: ldur            x0, [fp, #-0x20]
     // 0xaac1e0: ldur            x2, [fp, #-0x18]
     // 0xaac1e4: r1 = Function '<anonymous closure>':.
-    //     0xaac1e4: add             x1, PP, #0x20, lsl #12  ; [pp+0x20310] AnonymousClosure: (0xaac3c0), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_pop (0xaabe84)
+    //     0xaac1e4: add             x1, PP, #0x20, lsl #12  ; [pp+0x20310] AnonymousClosure: (0xaac3c0), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_pop (0xaabe84)
     //     0xaac1e8: ldr             x1, [x1, #0x310]
     // 0xaac1ec: r0 = AllocateClosure()
     //     0xaac1ec: bl              #0xe553e0  ; AllocateClosureStub
@@ -4226,7 +4226,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0xaac4c8: add             x0, x0, HEAP, lsl #32
     // 0xaac4cc: mov             x1, x0
     // 0xaac4d0: r0 = _pop()
-    //     0xaac4d0: bl              #0xaabe84  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_pop
+    //     0xaac4d0: bl              #0xaabe84  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_pop
     // 0xaac4d4: r0 = Null
     //     0xaac4d4: mov             x0, NULL
     // 0xaac4d8: LeaveFrame
@@ -4267,7 +4267,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0xaac528: bl              #0x5ff5d4  ; [package:provider/src/provider.dart] ::ReadContext.read
     // 0xaac52c: mov             x1, x0
     // 0xaac530: r0 = signOut()
-    //     0xaac530: bl              #0x9cbb58  ; [package:ballai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::signOut
+    //     0xaac530: bl              #0x9cbb58  ; [package:kourtai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::signOut
     // 0xaac534: LeaveFrame
     //     0xaac534: mov             SP, fp
     //     0xaac538: ldp             fp, lr, [SP], #0x10
@@ -4297,7 +4297,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0xaac56c: add             x0, x0, HEAP, lsl #32
     // 0xaac570: mov             x1, x0
     // 0xaac574: r0 = _continueFromReminder()
-    //     0xaac574: bl              #0xaac590  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_continueFromReminder
+    //     0xaac574: bl              #0xaac590  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_continueFromReminder
     // 0xaac578: r0 = Null
     //     0xaac578: mov             x0, NULL
     // 0xaac57c: LeaveFrame
@@ -4357,7 +4357,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0xaac600: mov             x1, x0
     // 0xaac604: ldur            x0, [fp, #-0x10]
     // 0xaac608: r0 = recordTrialWarmupProgress()
-    //     0xaac608: bl              #0xaac7a0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::recordTrialWarmupProgress
+    //     0xaac608: bl              #0xaac7a0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::recordTrialWarmupProgress
     // 0xaac60c: ldur            x1, [fp, #-0x10]
     // 0xaac610: LoadField: r0 = r1->field_f
     //     0xaac610: ldur            w0, [x1, #0xf]
@@ -4373,7 +4373,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0xaac628: add             x2, PP, #0x20, lsl #12  ; [pp+0x202f0] Obj!_WarmupRoute@d39a21
     //     0xaac62c: ldr             x2, [x2, #0x2f0]
     // 0xaac630: r0 = _push()
-    //     0xaac630: bl              #0xaac648  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_push
+    //     0xaac630: bl              #0xaac648  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_push
     // 0xaac634: r0 = Null
     //     0xaac634: mov             x0, NULL
     // 0xaac638: r0 = ReturnAsyncNotFuture()
@@ -4411,7 +4411,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0xaac680: stur            w2, [x1, #0x13]
     // 0xaac684: mov             x2, x1
     // 0xaac688: r1 = Function '<anonymous closure>':.
-    //     0xaac688: add             x1, PP, #0x20, lsl #12  ; [pp+0x20328] AnonymousClosure: (0xaac6d0), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_push (0xaac648)
+    //     0xaac688: add             x1, PP, #0x20, lsl #12  ; [pp+0x20328] AnonymousClosure: (0xaac6d0), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_push (0xaac648)
     //     0xaac68c: ldr             x1, [x1, #0x328]
     // 0xaac690: r0 = AllocateClosure()
     //     0xaac690: bl              #0xe553e0  ; AllocateClosureStub
@@ -4563,7 +4563,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     // 0xaac8e8: mov             x1, x0
     // 0xaac8ec: ldur            x0, [fp, #-8]
     // 0xaac8f0: r0 = recordTrialWarmupProgress()
-    //     0xaac8f0: bl              #0xaac7a0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::recordTrialWarmupProgress
+    //     0xaac8f0: bl              #0xaac7a0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::recordTrialWarmupProgress
     // 0xaac8f4: ldur            x0, [fp, #-8]
     // 0xaac8f8: ArrayLoad: r1 = r0[0]  ; List_4
     //     0xaac8f8: ldur            w1, [x0, #0x17]
@@ -4578,7 +4578,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0xaac90c: add             x2, PP, #0x20, lsl #12  ; [pp+0x202a8] Obj!_WarmupRoute@d39a41
     //     0xaac910: ldr             x2, [x2, #0x2a8]
     // 0xaac914: r0 = _push()
-    //     0xaac914: bl              #0xaac648  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_push
+    //     0xaac914: bl              #0xaac648  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_push
     // 0xaac918: b               #0xaac930
     // 0xaac91c: LoadField: r1 = r0->field_f
     //     0xaac91c: ldur            w1, [x0, #0xf]
@@ -4588,7 +4588,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0xaac924: add             x2, PP, #0x20, lsl #12  ; [pp+0x202f0] Obj!_WarmupRoute@d39a21
     //     0xaac928: ldr             x2, [x2, #0x2f0]
     // 0xaac92c: r0 = _push()
-    //     0xaac92c: bl              #0xaac648  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_push
+    //     0xaac92c: bl              #0xaac648  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_push
     // 0xaac930: r0 = Null
     //     0xaac930: mov             x0, NULL
     // 0xaac934: LeaveFrame
@@ -4611,7 +4611,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0xaac958: b.ls            #0xaac970
     // 0xaac95c: ldr             x1, [fp, #0x10]
     // 0xaac960: r0 = hasEligibleIntroOffer()
-    //     0xaac960: bl              #0x93b8c4  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasEligibleIntroOffer
+    //     0xaac960: bl              #0x93b8c4  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasEligibleIntroOffer
     // 0xaac964: LeaveFrame
     //     0xaac964: mov             SP, fp
     //     0xaac968: ldp             fp, lr, [SP], #0x10
@@ -4628,7 +4628,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0xb5c568: mov             fp, SP
     // 0xb5c56c: ldr             x2, [fp, #0x10]
     // 0xb5c570: r1 = Function 'dispose':.
-    //     0xb5c570: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cd60] AnonymousClosure: (0xb5c588), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::dispose (0xb63900)
+    //     0xb5c570: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cd60] AnonymousClosure: (0xb5c588), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::dispose (0xb63900)
     //     0xb5c574: ldr             x1, [x1, #0xd60]
     // 0xb5c578: r0 = AllocateClosure()
     //     0xb5c578: bl              #0xe553e0  ; AllocateClosureStub
@@ -4653,7 +4653,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0xb5c5a0: cmp             SP, x16
     //     0xb5c5a4: b.ls            #0xb5c5b8
     // 0xb5c5a8: r0 = dispose()
-    //     0xb5c5a8: bl              #0xb63900  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::dispose
+    //     0xb5c5a8: bl              #0xb63900  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::dispose
     // 0xb5c5ac: LeaveFrame
     //     0xb5c5ac: mov             SP, fp
     //     0xb5c5b0: ldp             fp, lr, [SP], #0x10
@@ -4710,7 +4710,7 @@ class _FreeTrialWarmupGateViewState extends __FreeTrialWarmupGateViewState&State
     //     0xb63970: bl              #0x5ff5d4  ; [package:provider/src/provider.dart] ::ReadContext.read
     // 0xb63974: ldur            x2, [fp, #-0x58]
     // 0xb63978: r1 = Function '_onDeepLink@988368549':.
-    //     0xb63978: add             x1, PP, #0x20, lsl #12  ; [pp+0x20668] AnonymousClosure: (0x98f288), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_onDeepLink (0x98e9b4)
+    //     0xb63978: add             x1, PP, #0x20, lsl #12  ; [pp+0x20668] AnonymousClosure: (0x98f288), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_onDeepLink (0x98e9b4)
     //     0xb6397c: ldr             x1, [x1, #0x668]
     // 0xb63980: stur            x0, [fp, #-0x60]
     // 0xb63984: r0 = AllocateClosure()
@@ -4848,7 +4848,7 @@ class FreeTrialWarmupGateView extends StatefulWidget {
     // 0xb75c48: mov             x1, x0
     // 0xb75c4c: stur            x0, [fp, #-8]
     // 0xb75c50: r0 = _FreeTrialWarmupGateViewState()
-    //     0xb75c50: bl              #0xb75c6c  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_FreeTrialWarmupGateViewState
+    //     0xb75c50: bl              #0xb75c6c  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_FreeTrialWarmupGateViewState
     // 0xb75c54: ldur            x0, [fp, #-8]
     // 0xb75c58: LeaveFrame
     //     0xb75c58: mov             SP, fp
@@ -4949,7 +4949,7 @@ class _WarmupBottom extends StatelessWidget {
     //     0xc236d0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ae18] "No payment due now"
     //     0xc236d4: ldr             x1, [x1, #0xe18]
     // 0xc236d8: r0 = L()
-    //     0xc236d8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc236d8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc236dc: stur            x0, [fp, #-0x28]
     // 0xc236e0: r0 = TextStyle()
     //     0xc236e0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -5117,7 +5117,7 @@ class _WarmupBottom extends StatelessWidget {
     // 0xc2388c: b               #0xc238ac
     // 0xc23890: ldur            x2, [fp, #-0x10]
     // 0xc23894: r1 = Function '<anonymous closure>':.
-    //     0xc23894: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ae30] AnonymousClosure: (0xbc5228), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _WarmupBottom::build (0xc23674)
+    //     0xc23894: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ae30] AnonymousClosure: (0xbc5228), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _WarmupBottom::build (0xc23674)
     //     0xc23898: ldr             x1, [x1, #0xe30]
     // 0xc2389c: r0 = AllocateClosure()
     //     0xc2389c: bl              #0xe553e0  ; AllocateClosureStub
@@ -5278,7 +5278,7 @@ class _WarmupBottom extends StatelessWidget {
     //     0xc23a40: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ae48] "Billing starts at the end of your free trial unless you cancel"
     //     0xc23a44: ldr             x1, [x1, #0xe48]
     // 0xc23a48: r0 = L()
-    //     0xc23a48: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc23a48: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc23a4c: stur            x0, [fp, #-0x18]
     // 0xc23a50: r0 = TextStyle()
     //     0xc23a50: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -5393,7 +5393,7 @@ class _WarmupBottom extends StatelessWidget {
     //     0xc23b88: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ae60] "Terms"
     //     0xc23b8c: ldr             x1, [x1, #0xe60]
     // 0xc23b90: r0 = L()
-    //     0xc23b90: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc23b90: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc23b94: stur            x0, [fp, #-0x18]
     // 0xc23b98: r0 = TextStyle()
     //     0xc23b98: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -5419,7 +5419,7 @@ class _WarmupBottom extends StatelessWidget {
     // 0xc23bd0: StoreField: r3->field_13 = r0
     //     0xc23bd0: stur            w0, [x3, #0x13]
     // 0xc23bd4: r1 = Function '<anonymous closure>':.
-    //     0xc23bd4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ae68] AnonymousClosure: (0xc243d8), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _WarmupBottom::build (0xc23674)
+    //     0xc23bd4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ae68] AnonymousClosure: (0xc243d8), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _WarmupBottom::build (0xc23674)
     //     0xc23bd8: ldr             x1, [x1, #0xe68]
     // 0xc23bdc: r2 = Null
     //     0xc23bdc: mov             x2, NULL
@@ -5473,7 +5473,7 @@ class _WarmupBottom extends StatelessWidget {
     //     0xc23c54: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ae78] "Privacy"
     //     0xc23c58: ldr             x1, [x1, #0xe78]
     // 0xc23c5c: r0 = L()
-    //     0xc23c5c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc23c5c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc23c60: stur            x0, [fp, #-0x18]
     // 0xc23c64: r0 = TextStyle()
     //     0xc23c64: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -5499,7 +5499,7 @@ class _WarmupBottom extends StatelessWidget {
     // 0xc23c9c: StoreField: r3->field_13 = r0
     //     0xc23c9c: stur            w0, [x3, #0x13]
     // 0xc23ca0: r1 = Function '<anonymous closure>':.
-    //     0xc23ca0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ae80] AnonymousClosure: (0xc24378), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _WarmupBottom::build (0xc23674)
+    //     0xc23ca0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ae80] AnonymousClosure: (0xc24378), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _WarmupBottom::build (0xc23674)
     //     0xc23ca4: ldr             x1, [x1, #0xe80]
     // 0xc23ca8: r2 = Null
     //     0xc23ca8: mov             x2, NULL
@@ -5562,7 +5562,7 @@ class _WarmupBottom extends StatelessWidget {
     // 0xc23d3c: b               #0xc23d58
     // 0xc23d40: ldur            x2, [fp, #-0x10]
     // 0xc23d44: r1 = Function '<anonymous closure>':.
-    //     0xc23d44: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ae88] AnonymousClosure: (0xc24314), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _WarmupBottom::build (0xc23674)
+    //     0xc23d44: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ae88] AnonymousClosure: (0xc24314), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _WarmupBottom::build (0xc23674)
     //     0xc23d48: ldr             x1, [x1, #0xe88]
     // 0xc23d4c: r0 = AllocateClosure()
     //     0xc23d4c: bl              #0xe553e0  ; AllocateClosureStub
@@ -5611,7 +5611,7 @@ class _WarmupBottom extends StatelessWidget {
     //     0xc23dc0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ae90] "Restore"
     //     0xc23dc4: ldr             x1, [x1, #0xe90]
     // 0xc23dc8: r0 = L()
-    //     0xc23dc8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc23dc8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc23dcc: stur            x0, [fp, #-0x18]
     // 0xc23dd0: r0 = TextStyle()
     //     0xc23dd0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -5784,7 +5784,7 @@ class _WarmupBottom extends StatelessWidget {
     // 0xc23f94: b               #0xc23fb0
     // 0xc23f98: ldur            x2, [fp, #-0x10]
     // 0xc23f9c: r1 = Function '<anonymous closure>':.
-    //     0xc23f9c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ae98] AnonymousClosure: (0xc242a0), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _WarmupBottom::build (0xc23674)
+    //     0xc23f9c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ae98] AnonymousClosure: (0xc242a0), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _WarmupBottom::build (0xc23674)
     //     0xc23fa0: ldr             x1, [x1, #0xe98]
     // 0xc23fa4: r0 = AllocateClosure()
     //     0xc23fa4: bl              #0xe553e0  ; AllocateClosureStub
@@ -5814,7 +5814,7 @@ class _WarmupBottom extends StatelessWidget {
     //     0xc23fe4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ace8] "Sign out"
     //     0xc23fe8: ldr             x1, [x1, #0xce8]
     // 0xc23fec: r0 = L()
-    //     0xc23fec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc23fec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc23ff0: stur            x0, [fp, #-0x18]
     // 0xc23ff4: r0 = TextStyle()
     //     0xc23ff4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -6163,7 +6163,7 @@ class _WarmupBottom extends StatelessWidget {
     // 0xc24358: DecompressPointer r1
     //     0xc24358: add             x1, x1, HEAP, lsl #32
     // 0xc2435c: r0 = _restore()
-    //     0xc2435c: bl              #0x986930  ; [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore
+    //     0xc2435c: bl              #0x986930  ; [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore
     // 0xc24360: r0 = Null
     //     0xc24360: mov             x0, NULL
     // 0xc24364: LeaveFrame
@@ -6188,8 +6188,8 @@ class _WarmupBottom extends StatelessWidget {
     //     0xc2438c: b.ls            #0xc243d0
     // 0xc24390: r0 = heavyImpact()
     //     0xc24390: bl              #0x658e44  ; [package:flutter/src/services/haptic_feedback.dart] HapticFeedback::heavyImpact
-    // 0xc24394: r1 = "https://ballai.app/privacy"
-    //     0xc24394: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2aea8] "https://ballai.app/privacy"
+    // 0xc24394: r1 = "https://kourtai.app/privacy"
+    //     0xc24394: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2aea8] "https://kourtai.app/privacy"
     //     0xc24398: ldr             x1, [x1, #0xea8]
     // 0xc2439c: r4 = const [0, 0x1, 0, 0x1, null]
     //     0xc2439c: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
@@ -6229,8 +6229,8 @@ class _WarmupBottom extends StatelessWidget {
     //     0xc243ec: b.ls            #0xc24430
     // 0xc243f0: r0 = heavyImpact()
     //     0xc243f0: bl              #0x658e44  ; [package:flutter/src/services/haptic_feedback.dart] HapticFeedback::heavyImpact
-    // 0xc243f4: r1 = "https://ballai.app/terms"
-    //     0xc243f4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2aeb0] "https://ballai.app/terms"
+    // 0xc243f4: r1 = "https://kourtai.app/terms"
+    //     0xc243f4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2aeb0] "https://kourtai.app/terms"
     //     0xc243f8: ldr             x1, [x1, #0xeb0]
     // 0xc243fc: r4 = const [0, 0x1, 0, 0x1, null]
     //     0xc243fc: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
@@ -6513,7 +6513,7 @@ class _ReminderLayer extends StatelessWidget {
     //     0xc23160: bl              #0xa0ee74  ; [package:flutter/src/material/icon_button.dart] IconButton::styleFrom
     // 0xc23164: ldur            x2, [fp, #-0x10]
     // 0xc23168: r1 = Function '<anonymous closure>':.
-    //     0xc23168: add             x1, PP, #0x25, lsl #12  ; [pp+0x250b8] AnonymousClosure: (0xc23408), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _ReminderLayer::build (0xc230fc)
+    //     0xc23168: add             x1, PP, #0x25, lsl #12  ; [pp+0x250b8] AnonymousClosure: (0xc23408), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _ReminderLayer::build (0xc230fc)
     //     0xc2316c: ldr             x1, [x1, #0xb8]
     // 0xc23170: stur            x0, [fp, #-0x10]
     // 0xc23174: r0 = AllocateClosure()
@@ -6559,7 +6559,7 @@ class _ReminderLayer extends StatelessWidget {
     //     0xc231d8: add             x1, PP, #0x25, lsl #12  ; [pp+0x250d0] "We\'ll send you a reminder before your free trial ends"
     //     0xc231dc: ldr             x1, [x1, #0xd0]
     // 0xc231e0: r0 = L()
-    //     0xc231e0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc231e0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc231e4: stur            x0, [fp, #-0x18]
     // 0xc231e8: r0 = Text()
     //     0xc231e8: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -6581,7 +6581,7 @@ class _ReminderLayer extends StatelessWidget {
     //     0xc23210: add             x1, PP, #0x25, lsl #12  ; [pp+0x250e0] "Continue for FREE"
     //     0xc23214: ldr             x1, [x1, #0xe0]
     // 0xc23218: r0 = L()
-    //     0xc23218: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc23218: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc2321c: mov             x1, x0
     // 0xc23220: ldur            x0, [fp, #-8]
     // 0xc23224: stur            x1, [fp, #-0x48]
@@ -6852,18 +6852,18 @@ class _IntroLayer extends StatelessWidget {
     //     0xc22e08: add             x2, x2, HEAP, lsl #32
     // 0xc22e0c: stur            x2, [fp, #-8]
     // 0xc22e10: tbnz            w2, #4, #0xc22e28
-    // 0xc22e14: r1 = "We want you to try Ball AI for free"
-    //     0xc22e14: add             x1, PP, #0x25, lsl #12  ; [pp+0x25068] "We want you to try Ball AI for free"
+    // 0xc22e14: r1 = "We want you to try Kourt AI for free"
+    //     0xc22e14: add             x1, PP, #0x25, lsl #12  ; [pp+0x25068] "We want you to try Kourt AI for free"
     //     0xc22e18: ldr             x1, [x1, #0x68]
     // 0xc22e1c: r0 = L()
-    //     0xc22e1c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc22e1c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc22e20: mov             x3, x0
     // 0xc22e24: b               #0xc22e38
-    // 0xc22e28: r1 = "We want you to try Ball AI"
-    //     0xc22e28: add             x1, PP, #0x25, lsl #12  ; [pp+0x25070] "We want you to try Ball AI"
+    // 0xc22e28: r1 = "We want you to try Kourt AI"
+    //     0xc22e28: add             x1, PP, #0x25, lsl #12  ; [pp+0x25070] "We want you to try Kourt AI"
     //     0xc22e2c: ldr             x1, [x1, #0x70]
     // 0xc22e30: r0 = L()
-    //     0xc22e30: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc22e30: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc22e34: mov             x3, x0
     // 0xc22e38: ldur            x0, [fp, #-0x10]
     // 0xc22e3c: ldur            x2, [fp, #-8]
@@ -6969,7 +6969,7 @@ class _IntroLayer extends StatelessWidget {
     //     0xc22f38: add             x1, PP, #0x25, lsl #12  ; [pp+0x25090] "Try Now"
     //     0xc22f3c: ldr             x1, [x1, #0x90]
     // 0xc22f40: r0 = L()
-    //     0xc22f40: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc22f40: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc22f44: mov             x1, x0
     // 0xc22f48: ldur            x0, [fp, #-0x10]
     // 0xc22f4c: stur            x1, [fp, #-0x48]

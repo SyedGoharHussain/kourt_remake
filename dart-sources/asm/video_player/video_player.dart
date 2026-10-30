@@ -3022,7 +3022,7 @@ class _VideoPlayerWithRotation extends StatelessWidget {
 }
 
 // class id: 5150, size: 0x10, field offset: 0x8
-class _VideoAppLifeCycleObserver extends _BallAiAppLifecycle&Object&WidgetsBindingObserver {
+class _VideoAppLifeCycleObserver extends _KourtAiAppLifecycle&Object&WidgetsBindingObserver {
 
   _ didChangeAppLifecycleState(/* No info */) {
     // ** addr: 0x60cff0, size: 0x88

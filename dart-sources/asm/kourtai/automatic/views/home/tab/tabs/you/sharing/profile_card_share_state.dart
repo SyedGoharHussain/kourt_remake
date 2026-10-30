@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_card_share_state.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_card_share_state.dart
 
 // class id: 1049034, size: 0x8
 class :: {
@@ -35,7 +35,7 @@ class ProfileCardShareState extends ChangeNotifier {
     // 0x989be0: r1 = Null
     //     0x989be0: mov             x1, NULL
     // 0x989be4: r0 = ShareProfileCardData.from()
-    //     0x989be4: bl              #0x98ba6c  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_data.dart] ShareProfileCardData::ShareProfileCardData.from
+    //     0x989be4: bl              #0x98ba6c  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_data.dart] ShareProfileCardData::ShareProfileCardData.from
     // 0x989be8: ldur            x1, [fp, #-0x10]
     // 0x989bec: StoreField: r1->field_3f = r0
     //     0x989bec: stur            w0, [x1, #0x3f]
@@ -46,7 +46,7 @@ class ProfileCardShareState extends ChangeNotifier {
     //     0x989c00: b.eq            #0x989c08
     //     0x989c04: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0x989c08: r0 = renderCard()
-    //     0x989c08: bl              #0x989c28  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_card_share_state.dart] ProfileCardShareState::renderCard
+    //     0x989c08: bl              #0x989c28  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_card_share_state.dart] ProfileCardShareState::renderCard
     // 0x989c0c: mov             x1, x0
     // 0x989c10: stur            x1, [fp, #-0x10]
     // 0x989c14: r0 = Await()
@@ -119,7 +119,7 @@ class ProfileCardShareState extends ChangeNotifier {
     // 0x989cb8: ldur            x2, [fp, #-0x80]
     // 0x989cbc: stur            x3, [fp, #-0x88]
     // 0x989cc0: r0 = renderImage()
-    //     0x989cc0: bl              #0x98a40c  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_renderer.dart] ShareProfileCardRenderer::renderImage
+    //     0x989cc0: bl              #0x98a40c  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_renderer.dart] ShareProfileCardRenderer::renderImage
     // 0x989cc4: mov             x1, x0
     // 0x989cc8: stur            x1, [fp, #-0x90]
     // 0x989ccc: r0 = Await()
@@ -223,7 +223,7 @@ class ProfileCardShareState extends ChangeNotifier {
     //     0x9b5f38: mov             fp, SP
     // 0x9b5f3c: ldr             x2, [fp, #0x10]
     // 0x9b5f40: r1 = Function 'dispose':.
-    //     0x9b5f40: add             x1, PP, #0x48, lsl #12  ; [pp+0x48ec8] AnonymousClosure: (0x9b5f58), in [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_card_share_state.dart] ProfileCardShareState::dispose (0x9be910)
+    //     0x9b5f40: add             x1, PP, #0x48, lsl #12  ; [pp+0x48ec8] AnonymousClosure: (0x9b5f58), in [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_card_share_state.dart] ProfileCardShareState::dispose (0x9be910)
     //     0x9b5f44: ldr             x1, [x1, #0xec8]
     // 0x9b5f48: r0 = AllocateClosure()
     //     0x9b5f48: bl              #0xe553e0  ; AllocateClosureStub
@@ -248,7 +248,7 @@ class ProfileCardShareState extends ChangeNotifier {
     //     0x9b5f70: cmp             SP, x16
     //     0x9b5f74: b.ls            #0x9b5f88
     // 0x9b5f78: r0 = dispose()
-    //     0x9b5f78: bl              #0x9be910  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_card_share_state.dart] ProfileCardShareState::dispose
+    //     0x9b5f78: bl              #0x9be910  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_card_share_state.dart] ProfileCardShareState::dispose
     // 0x9b5f7c: LeaveFrame
     //     0x9b5f7c: mov             SP, fp
     //     0x9b5f80: ldp             fp, lr, [SP], #0x10
@@ -311,8 +311,8 @@ class ProfileCardShareState extends ChangeNotifier {
     //     0xaa92f8: b.ls            #0xaa93bc
     // 0xaa92fc: tbnz            w2, #4, #0xaa9310
     // 0xaa9300: mov             x0, x3
-    // 0xaa9304: r3 = "Check out my Ball AI profile 🏀 Every shot tracked from my phone. Download the free app and follow me!"
-    //     0xaa9304: add             x3, PP, #0x42, lsl #12  ; [pp+0x42b28] "Check out my Ball AI profile 🏀 Every shot tracked from my phone. Download the free app and follow me!"
+    // 0xaa9304: r3 = "Check out my Kourt AI profile 🏀 Every shot tracked from my phone. Download the free app and follow me!"
+    //     0xaa9304: add             x3, PP, #0x42, lsl #12  ; [pp+0x42b28] "Check out my Kourt AI profile 🏀 Every shot tracked from my phone. Download the free app and follow me!"
     //     0xaa9308: ldr             x3, [x3, #0xb28]
     // 0xaa930c: b               #0xaa937c
     // 0xaa9310: r1 = Null
@@ -329,7 +329,7 @@ class ProfileCardShareState extends ChangeNotifier {
     //     0xaa9328: stur            w16, [x0, #0xf]
     // 0xaa932c: ldur            x1, [fp, #-0x10]
     // 0xaa9330: r0 = firstName()
-    //     0xaa9330: bl              #0x749b68  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::firstName
+    //     0xaa9330: bl              #0x749b68  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::firstName
     // 0xaa9334: ldur            x1, [fp, #-0x18]
     // 0xaa9338: ArrayStore: r1[1] = r0  ; List_4
     //     0xaa9338: add             x25, x1, #0x13
@@ -342,8 +342,8 @@ class ProfileCardShareState extends ChangeNotifier {
     //     0xaa9354: b.eq            #0xaa935c
     //     0xaa9358: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xaa935c: ldur            x0, [fp, #-0x18]
-    // 0xaa9360: r16 = "\'s profile on Ball AI 🏀 Every shot tracked from phone video. Download and follow them!"
-    //     0xaa9360: add             x16, PP, #0x42, lsl #12  ; [pp+0x42b30] "\'s profile on Ball AI 🏀 Every shot tracked from phone video. Download and follow them!"
+    // 0xaa9360: r16 = "\'s profile on Kourt AI 🏀 Every shot tracked from phone video. Download and follow them!"
+    //     0xaa9360: add             x16, PP, #0x42, lsl #12  ; [pp+0x42b30] "\'s profile on Kourt AI 🏀 Every shot tracked from phone video. Download and follow them!"
     //     0xaa9364: ldr             x16, [x16, #0xb30]
     // 0xaa9368: ArrayStore: r0[0] = r16  ; List_4
     //     0xaa9368: stur            w16, [x0, #0x17]
@@ -436,7 +436,7 @@ class ProfileCardShareState extends ChangeNotifier {
     // 0xaaa3c8: ldur            x5, [fp, #-0xa8]
     // 0xaaa3cc: ldur            x6, [fp, #-0xb0]
     // 0xaaa3d0: r0 = refreshRenderedImage()
-    //     0xaaa3d0: bl              #0x989b98  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_card_share_state.dart] ProfileCardShareState::refreshRenderedImage
+    //     0xaaa3d0: bl              #0x989b98  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_card_share_state.dart] ProfileCardShareState::refreshRenderedImage
     // 0xaaa3d4: mov             x1, x0
     // 0xaaa3d8: stur            x1, [fp, #-0xb8]
     // 0xaaa3dc: r0 = Await()

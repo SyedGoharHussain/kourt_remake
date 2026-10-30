@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/extensions/date/minimum_age_requirement.dart
+// lib: , url: package:kourtai/automatic/utility/extensions/date/minimum_age_requirement.dart
 
 // class id: 1048725, size: 0x8
 class :: {
@@ -17,7 +17,7 @@ abstract class MinimumAgeRequirement extends Object {
     //     0x9e6910: cmp             SP, x16
     //     0x9e6914: b.ls            #0x9e693c
     // 0x9e6918: r0 = completedYears()
-    //     0x9e6918: bl              #0x9e6944  ; [package:ballai/automatic/utility/extensions/date/minimum_age_requirement.dart] MinimumAgeRequirement::completedYears
+    //     0x9e6918: bl              #0x9e6944  ; [package:kourtai/automatic/utility/extensions/date/minimum_age_requirement.dart] MinimumAgeRequirement::completedYears
     // 0x9e691c: cmp             x0, #0xd
     // 0x9e6920: r16 = true
     //     0x9e6920: add             x16, NULL, #0x20  ; true

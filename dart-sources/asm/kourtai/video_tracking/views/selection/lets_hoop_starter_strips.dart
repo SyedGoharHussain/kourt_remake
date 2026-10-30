@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/selection/lets_hoop_starter_strips.dart
+// lib: , url: package:kourtai/video_tracking/views/selection/lets_hoop_starter_strips.dart
 
 // class id: 1049233, size: 0x8
 class :: {
@@ -86,8 +86,8 @@ class _PromoCopy extends StatelessWidget {
     //     0xc3b330: add             x4, x4, HEAP, lsl #32
     // 0xc3b334: ldur            x1, [fp, #-0x20]
     // 0xc3b338: stur            x4, [fp, #-8]
-    // 0xc3b33c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc3b33c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc3b33c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc3b33c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc3b340: stur            x0, [fp, #-0x10]
     // 0xc3b344: r0 = TextStyle()
     //     0xc3b344: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -141,8 +141,8 @@ class _PromoCopy extends StatelessWidget {
     //     0xc3b3bc: add             x4, x4, HEAP, lsl #32
     // 0xc3b3c0: ldur            x1, [fp, #-0x20]
     // 0xc3b3c4: stur            x4, [fp, #-8]
-    // 0xc3b3c8: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc3b3c8: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc3b3c8: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc3b3c8: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc3b3cc: stur            x0, [fp, #-0x18]
     // 0xc3b3d0: r0 = TextStyle()
     //     0xc3b3d0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -437,7 +437,7 @@ class LetsHoopReviewPlanPromoStrip extends StatelessWidget {
     // 0xc3af80: r1 = ""
     //     0xc3af80: ldr             x1, [PP, #0x880]  ; [pp+0x880] ""
     // 0xc3af84: r0 = fromRaw()
-    //     0xc3af84: bl              #0x90005c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
+    //     0xc3af84: bl              #0x90005c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
     // 0xc3af88: stur            x0, [fp, #-0x20]
     // 0xc3af8c: cmp             w0, NULL
     // 0xc3af90: b.ne            #0xc3af9c
@@ -476,8 +476,8 @@ class LetsHoopReviewPlanPromoStrip extends StatelessWidget {
     // 0xc3aff8: cmp             w1, NULL
     // 0xc3affc: b.ne            #0xc3b010
     // 0xc3b000: ldur            x1, [fp, #-0x18]
-    // 0xc3b004: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc3b004: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc3b004: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc3b004: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc3b008: mov             x3, x0
     // 0xc3b00c: b               #0xc3b014
     // 0xc3b010: mov             x3, x1
@@ -486,13 +486,13 @@ class LetsHoopReviewPlanPromoStrip extends StatelessWidget {
     // 0xc3b01c: ldur            x1, [fp, #-8]
     // 0xc3b020: stur            x3, [fp, #-0x18]
     // 0xc3b024: r0 = subtitle()
-    //     0xc3b024: bl              #0xc116a0  ; [package:ballai/automatic/views/home/tab/tabs/you/components/my_plan_copy.dart] MyPlanCopy::subtitle
+    //     0xc3b024: bl              #0xc116a0  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/my_plan_copy.dart] MyPlanCopy::subtitle
     // 0xc3b028: r1 = "Review my plan"
     //     0xc3b028: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bdf8] "Review my plan"
     //     0xc3b02c: ldr             x1, [x1, #0xdf8]
     // 0xc3b030: stur            x0, [fp, #-8]
     // 0xc3b034: r0 = L()
-    //     0xc3b034: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc3b034: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3b038: mov             x2, x0
     // 0xc3b03c: ldur            x0, [fp, #-0x10]
     // 0xc3b040: stur            x2, [fp, #-0x30]
@@ -505,7 +505,7 @@ class LetsHoopReviewPlanPromoStrip extends StatelessWidget {
     //     0xc3b050: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be00] "Stay locked in"
     //     0xc3b054: ldr             x1, [x1, #0xe00]
     // 0xc3b058: r0 = L()
-    //     0xc3b058: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc3b058: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3b05c: r1 = Null
     //     0xc3b05c: mov             x1, NULL
     // 0xc3b060: r2 = 10
@@ -551,7 +551,7 @@ class LetsHoopReviewPlanPromoStrip extends StatelessWidget {
     //     0xc3b0c8: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be00] "Stay locked in"
     //     0xc3b0cc: ldr             x1, [x1, #0xe00]
     // 0xc3b0d0: r0 = L()
-    //     0xc3b0d0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc3b0d0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3b0d4: stur            x0, [fp, #-0x20]
     // 0xc3b0d8: r0 = _PromoCopy()
     //     0xc3b0d8: bl              #0xc3af24  ; Allocate_PromoCopyStub -> _PromoCopy (size=0x1c)
@@ -618,13 +618,13 @@ class LetsHoopSetupTutorialPromoStrip extends StatelessWidget {
     //     0xc3ade0: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bdd8] "Learn about setup"
     //     0xc3ade4: ldr             x1, [x1, #0xdd8]
     // 0xc3ade8: r0 = L()
-    //     0xc3ade8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
-    // 0xc3adec: r1 = "Watch a quick video on how to get the most accurate AI tracking with Ball AI."
-    //     0xc3adec: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bde0] "Watch a quick video on how to get the most accurate AI tracking with Ball AI."
+    //     0xc3ade8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
+    // 0xc3adec: r1 = "Watch a quick video on how to get the most accurate AI tracking with Kourt AI."
+    //     0xc3adec: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bde0] "Watch a quick video on how to get the most accurate AI tracking with Kourt AI."
     //     0xc3adf0: ldr             x1, [x1, #0xde0]
     // 0xc3adf4: stur            x0, [fp, #-0x18]
     // 0xc3adf8: r0 = L()
-    //     0xc3adf8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc3adf8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3adfc: mov             x2, x0
     // 0xc3ae00: ldur            x0, [fp, #-8]
     // 0xc3ae04: stur            x2, [fp, #-0x28]
@@ -637,7 +637,7 @@ class LetsHoopSetupTutorialPromoStrip extends StatelessWidget {
     //     0xc3ae14: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bde8] "Getting started"
     //     0xc3ae18: ldr             x1, [x1, #0xde8]
     // 0xc3ae1c: r0 = L()
-    //     0xc3ae1c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc3ae1c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3ae20: r1 = Null
     //     0xc3ae20: mov             x1, NULL
     // 0xc3ae24: r2 = 8
@@ -665,7 +665,7 @@ class LetsHoopSetupTutorialPromoStrip extends StatelessWidget {
     // 0xc3ae5c: r0 = _interpolate()
     //     0xc3ae5c: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0xc3ae60: stur            x0, [fp, #-8]
-    // 0xc3ae64: r0 = InitLateStaticField(0xc48) // [package:ballai/video_tracking/utility/defaults/defaults_video_workout_camera_mount.dart] DefaultsVideoWorkoutCameraMount::_cached
+    // 0xc3ae64: r0 = InitLateStaticField(0xc48) // [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_camera_mount.dart] DefaultsVideoWorkoutCameraMount::_cached
     //     0xc3ae64: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xc3ae68: ldr             x0, [x0, #0x1890]
     //     0xc3ae6c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -690,11 +690,11 @@ class LetsHoopSetupTutorialPromoStrip extends StatelessWidget {
     //     0xc3aea4: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bde8] "Getting started"
     //     0xc3aea8: ldr             x1, [x1, #0xde8]
     // 0xc3aeac: r0 = L()
-    //     0xc3aeac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc3aeac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3aeb0: ldur            x1, [fp, #-0x10]
     // 0xc3aeb4: stur            x0, [fp, #-0x10]
-    // 0xc3aeb8: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc3aeb8: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc3aeb8: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc3aeb8: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc3aebc: stur            x0, [fp, #-0x30]
     // 0xc3aec0: r0 = _PromoCopy()
     //     0xc3aec0: bl              #0xc3af24  ; Allocate_PromoCopyStub -> _PromoCopy (size=0x1c)
@@ -815,8 +815,8 @@ class LetsHoopPromoCard extends StatelessWidget {
     // 0xc3aab8: StoreField: r2->field_b = r0
     //     0xc3aab8: stur            w0, [x2, #0xb]
     // 0xc3aabc: ldur            x1, [fp, #-0x18]
-    // 0xc3aac0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc3aac0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc3aac0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc3aac0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc3aac4: stur            x0, [fp, #-0x18]
     // 0xc3aac8: r0 = Icon()
     //     0xc3aac8: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)

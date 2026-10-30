@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/navigation/ball_ai_bottom_navigation.dart
+// lib: , url: package:kourtai/automatic/views/components/navigation/kourt_ai_bottom_navigation.dart
 
 // class id: 1048821, size: 0x8
 class :: {
@@ -25,12 +25,12 @@ class _NavItem extends StatelessWidget {
     //     0xbc0a38: cmp             SP, x16
     //     0xbc0a3c: b.ls            #0xbc0ee8
     // 0xbc0a40: mov             x1, x0
-    // 0xbc0a44: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbc0a44: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbc0a44: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbc0a44: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbc0a48: ldur            x1, [fp, #-0x10]
     // 0xbc0a4c: stur            x0, [fp, #-0x18]
-    // 0xbc0a50: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbc0a50: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbc0a50: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbc0a50: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbc0a54: mov             x1, x0
     // 0xbc0a58: ldur            x0, [fp, #-8]
     // 0xbc0a5c: stur            x1, [fp, #-0x30]
@@ -139,14 +139,14 @@ class _NavItem extends StatelessWidget {
     // 0xbc0b78: ldur            x2, [fp, #-0x30]
     // 0xbc0b7c: stp             x2, x1, [SP]
     // 0xbc0b80: ldur            x1, [fp, #-0x10]
-    // 0xbc0b84: r2 = Instance_BallAiTextScale
-    //     0xbc0b84: add             x2, PP, #0x2a, lsl #12  ; [pp+0x2aaa0] Obj!BallAiTextScale@d3b061
+    // 0xbc0b84: r2 = Instance_KourtAiTextScale
+    //     0xbc0b84: add             x2, PP, #0x2a, lsl #12  ; [pp+0x2aaa0] Obj!KourtAiTextScale@d3b061
     //     0xbc0b88: ldr             x2, [x2, #0xaa0]
     // 0xbc0b8c: r4 = const [0, 0x4, 0x2, 0x2, color, 0x3, weight, 0x2, null]
     //     0xbc0b8c: add             x4, PP, #0x2a, lsl #12  ; [pp+0x2aaa8] List(9) [0, 0x4, 0x2, 0x2, "color", 0x3, "weight", 0x2, Null]
     //     0xbc0b90: ldr             x4, [x4, #0xaa8]
-    // 0xbc0b94: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xbc0b94: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xbc0b94: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xbc0b94: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xbc0b98: stur            x0, [fp, #-0x10]
     // 0xbc0b9c: r0 = Text()
     //     0xbc0b9c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -482,7 +482,7 @@ class _NavItem extends StatelessWidget {
 
 // class id: 4226, size: 0x28, field offset: 0xc
 //   const constructor, 
-class BallAiBottomNavigation extends StatelessWidget {
+class KourtAiBottomNavigation extends StatelessWidget {
 
   _ build(/* No info */) {
     // ** addr: 0xbc0394, size: 0x540
@@ -491,7 +491,7 @@ class BallAiBottomNavigation extends StatelessWidget {
     //     0xbc0398: mov             fp, SP
     // 0xbc039c: AllocStack(0x50)
     //     0xbc039c: sub             SP, SP, #0x50
-    // 0xbc03a0: SetupParameters(BallAiBottomNavigation this /* r1 => r1, fp-0x8 */)
+    // 0xbc03a0: SetupParameters(KourtAiBottomNavigation this /* r1 => r1, fp-0x8 */)
     //     0xbc03a0: stur            x1, [fp, #-8]
     // 0xbc03a4: CheckStackOverflow
     //     0xbc03a4: ldr             x16, [THR, #0x38]  ; THR::stack_limit
@@ -525,7 +525,7 @@ class BallAiBottomNavigation extends StatelessWidget {
     //     0xbc03f0: add             x1, PP, #0x24, lsl #12  ; [pp+0x24e40] "Drills"
     //     0xbc03f4: ldr             x1, [x1, #0xe40]
     // 0xbc03f8: r0 = L()
-    //     0xbc03f8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbc03f8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbc03fc: mov             x1, x0
     // 0xbc0400: ldur            x0, [fp, #-8]
     // 0xbc0404: stur            x1, [fp, #-0x38]
@@ -534,8 +534,8 @@ class BallAiBottomNavigation extends StatelessWidget {
     // 0xbc040c: DecompressPointer r2
     //     0xbc040c: add             x2, x2, HEAP, lsl #32
     // 0xbc0410: stur            x2, [fp, #-0x30]
-    // 0xbc0414: r16 = Instance_BallAiPrimaryDestination
-    //     0xbc0414: add             x16, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!BallAiPrimaryDestination@d3baa1
+    // 0xbc0414: r16 = Instance_KourtAiPrimaryDestination
+    //     0xbc0414: add             x16, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!KourtAiPrimaryDestination@d3baa1
     //     0xbc0418: ldr             x16, [x16, #0xe30]
     // 0xbc041c: cmp             w2, w16
     // 0xbc0420: r16 = true
@@ -561,7 +561,7 @@ class BallAiBottomNavigation extends StatelessWidget {
     //     0xbc0454: stur            w0, [x3, #0x13]
     // 0xbc0458: ldur            x2, [fp, #-0x10]
     // 0xbc045c: r1 = Function '<anonymous closure>':.
-    //     0xbc045c: add             x1, PP, #0x24, lsl #12  ; [pp+0x24e50] AnonymousClosure: (0xbc09b8), in [package:ballai/automatic/views/components/navigation/ball_ai_bottom_navigation.dart] BallAiBottomNavigation::build (0xbc0394)
+    //     0xbc045c: add             x1, PP, #0x24, lsl #12  ; [pp+0x24e50] AnonymousClosure: (0xbc09b8), in [package:kourtai/automatic/views/components/navigation/kourt_ai_bottom_navigation.dart] KourtAiBottomNavigation::build (0xbc0394)
     //     0xbc0460: ldr             x1, [x1, #0xe50]
     // 0xbc0464: r0 = AllocateClosure()
     //     0xbc0464: bl              #0xe553e0  ; AllocateClosureStub
@@ -575,12 +575,12 @@ class BallAiBottomNavigation extends StatelessWidget {
     //     0xbc0478: add             x1, PP, #0x24, lsl #12  ; [pp+0x24e58] "Activity"
     //     0xbc047c: ldr             x1, [x1, #0xe58]
     // 0xbc0480: r0 = L()
-    //     0xbc0480: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbc0480: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbc0484: mov             x1, x0
     // 0xbc0488: ldur            x0, [fp, #-0x30]
     // 0xbc048c: stur            x1, [fp, #-0x38]
-    // 0xbc0490: r16 = Instance_BallAiPrimaryDestination
-    //     0xbc0490: add             x16, PP, #0x21, lsl #12  ; [pp+0x210b8] Obj!BallAiPrimaryDestination@d3bac1
+    // 0xbc0490: r16 = Instance_KourtAiPrimaryDestination
+    //     0xbc0490: add             x16, PP, #0x21, lsl #12  ; [pp+0x210b8] Obj!KourtAiPrimaryDestination@d3bac1
     //     0xbc0494: ldr             x16, [x16, #0xb8]
     // 0xbc0498: cmp             w0, w16
     // 0xbc049c: r16 = true
@@ -606,7 +606,7 @@ class BallAiBottomNavigation extends StatelessWidget {
     //     0xbc04d0: stur            w0, [x3, #0x13]
     // 0xbc04d4: ldur            x2, [fp, #-0x10]
     // 0xbc04d8: r1 = Function '<anonymous closure>':.
-    //     0xbc04d8: add             x1, PP, #0x24, lsl #12  ; [pp+0x24e68] AnonymousClosure: (0xbc0958), in [package:ballai/automatic/views/components/navigation/ball_ai_bottom_navigation.dart] BallAiBottomNavigation::build (0xbc0394)
+    //     0xbc04d8: add             x1, PP, #0x24, lsl #12  ; [pp+0x24e68] AnonymousClosure: (0xbc0958), in [package:kourtai/automatic/views/components/navigation/kourt_ai_bottom_navigation.dart] KourtAiBottomNavigation::build (0xbc0394)
     //     0xbc04dc: ldr             x1, [x1, #0xe68]
     // 0xbc04e0: r0 = AllocateClosure()
     //     0xbc04e0: bl              #0xe553e0  ; AllocateClosureStub
@@ -620,12 +620,12 @@ class BallAiBottomNavigation extends StatelessWidget {
     //     0xbc04f4: add             x1, PP, #0x24, lsl #12  ; [pp+0x24e70] "You"
     //     0xbc04f8: ldr             x1, [x1, #0xe70]
     // 0xbc04fc: r0 = L()
-    //     0xbc04fc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbc04fc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbc0500: mov             x1, x0
     // 0xbc0504: ldur            x0, [fp, #-0x30]
     // 0xbc0508: stur            x1, [fp, #-0x38]
-    // 0xbc050c: r16 = Instance_BallAiPrimaryDestination
-    //     0xbc050c: add             x16, PP, #0x20, lsl #12  ; [pp+0x209f0] Obj!BallAiPrimaryDestination@d3bae1
+    // 0xbc050c: r16 = Instance_KourtAiPrimaryDestination
+    //     0xbc050c: add             x16, PP, #0x20, lsl #12  ; [pp+0x209f0] Obj!KourtAiPrimaryDestination@d3bae1
     //     0xbc0510: ldr             x16, [x16, #0x9f0]
     // 0xbc0514: cmp             w0, w16
     // 0xbc0518: r16 = true
@@ -651,7 +651,7 @@ class BallAiBottomNavigation extends StatelessWidget {
     //     0xbc054c: stur            w0, [x3, #0x13]
     // 0xbc0550: ldur            x2, [fp, #-0x10]
     // 0xbc0554: r1 = Function '<anonymous closure>':.
-    //     0xbc0554: add             x1, PP, #0x24, lsl #12  ; [pp+0x24e80] AnonymousClosure: (0xbc08f8), in [package:ballai/automatic/views/components/navigation/ball_ai_bottom_navigation.dart] BallAiBottomNavigation::build (0xbc0394)
+    //     0xbc0554: add             x1, PP, #0x24, lsl #12  ; [pp+0x24e80] AnonymousClosure: (0xbc08f8), in [package:kourtai/automatic/views/components/navigation/kourt_ai_bottom_navigation.dart] KourtAiBottomNavigation::build (0xbc0394)
     //     0xbc0558: ldr             x1, [x1, #0xe80]
     // 0xbc055c: r0 = AllocateClosure()
     //     0xbc055c: bl              #0xe553e0  ; AllocateClosureStub
@@ -741,15 +741,15 @@ class BallAiBottomNavigation extends StatelessWidget {
     // 0xbc0630: ldur            x0, [fp, #-0x10]
     // 0xbc0634: StoreField: r1->field_b = r0
     //     0xbc0634: stur            w0, [x1, #0xb]
-    // 0xbc0638: r0 = BallAiNavigationGlass()
-    //     0xbc0638: bl              #0xbc08e0  ; AllocateBallAiNavigationGlassStub -> BallAiNavigationGlass (size=0x20)
+    // 0xbc0638: r0 = KourtAiNavigationGlass()
+    //     0xbc0638: bl              #0xbc08e0  ; AllocateKourtAiNavigationGlassStub -> KourtAiNavigationGlass (size=0x20)
     // 0xbc063c: mov             x2, x0
     // 0xbc0640: ldur            x0, [fp, #-0x28]
     // 0xbc0644: stur            x2, [fp, #-0x10]
     // 0xbc0648: StoreField: r2->field_b = r0
     //     0xbc0648: stur            w0, [x2, #0xb]
-    // 0xbc064c: r0 = Instance_BallAiNavigationGlassShape
-    //     0xbc064c: add             x0, PP, #0x24, lsl #12  ; [pp+0x24e90] Obj!BallAiNavigationGlassShape@d3a461
+    // 0xbc064c: r0 = Instance_KourtAiNavigationGlassShape
+    //     0xbc064c: add             x0, PP, #0x24, lsl #12  ; [pp+0x24e90] Obj!KourtAiNavigationGlassShape@d3a461
     //     0xbc0650: ldr             x0, [x0, #0xe90]
     // 0xbc0654: StoreField: r2->field_f = r0
     //     0xbc0654: stur            w0, [x2, #0xf]
@@ -871,8 +871,8 @@ class BallAiBottomNavigation extends StatelessWidget {
     // 0xbc0790: DecompressPointer r3
     //     0xbc0790: add             x3, x3, HEAP, lsl #32
     // 0xbc0794: stur            x3, [fp, #-0x10]
-    // 0xbc0798: r0 = BallAiRecordTabIcon()
-    //     0xbc0798: bl              #0xbc08d4  ; AllocateBallAiRecordTabIconStub -> BallAiRecordTabIcon (size=0x14)
+    // 0xbc0798: r0 = KourtAiRecordTabIcon()
+    //     0xbc0798: bl              #0xbc08d4  ; AllocateKourtAiRecordTabIconStub -> KourtAiRecordTabIcon (size=0x14)
     // 0xbc079c: mov             x1, x0
     // 0xbc07a0: ldur            x0, [fp, #-0x10]
     // 0xbc07a4: stur            x1, [fp, #-8]
@@ -1018,11 +1018,11 @@ class BallAiBottomNavigation extends StatelessWidget {
     // 0xbc092c: DecompressPointer r0
     //     0xbc092c: add             x0, x0, HEAP, lsl #32
     // 0xbc0930: mov             x1, x0
-    // 0xbc0934: r2 = Instance_BallAiPrimaryDestination
-    //     0xbc0934: add             x2, PP, #0x20, lsl #12  ; [pp+0x209f0] Obj!BallAiPrimaryDestination@d3bae1
+    // 0xbc0934: r2 = Instance_KourtAiPrimaryDestination
+    //     0xbc0934: add             x2, PP, #0x20, lsl #12  ; [pp+0x209f0] Obj!KourtAiPrimaryDestination@d3bae1
     //     0xbc0938: ldr             x2, [x2, #0x9f0]
     // 0xbc093c: r0 = _selectContentTab()
-    //     0xbc093c: bl              #0x953f0c  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
+    //     0xbc093c: bl              #0x953f0c  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
     // 0xbc0940: r0 = Null
     //     0xbc0940: mov             x0, NULL
     // 0xbc0944: LeaveFrame
@@ -1061,11 +1061,11 @@ class BallAiBottomNavigation extends StatelessWidget {
     // 0xbc098c: DecompressPointer r0
     //     0xbc098c: add             x0, x0, HEAP, lsl #32
     // 0xbc0990: mov             x1, x0
-    // 0xbc0994: r2 = Instance_BallAiPrimaryDestination
-    //     0xbc0994: add             x2, PP, #0x21, lsl #12  ; [pp+0x210b8] Obj!BallAiPrimaryDestination@d3bac1
+    // 0xbc0994: r2 = Instance_KourtAiPrimaryDestination
+    //     0xbc0994: add             x2, PP, #0x21, lsl #12  ; [pp+0x210b8] Obj!KourtAiPrimaryDestination@d3bac1
     //     0xbc0998: ldr             x2, [x2, #0xb8]
     // 0xbc099c: r0 = _selectContentTab()
-    //     0xbc099c: bl              #0x953f0c  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
+    //     0xbc099c: bl              #0x953f0c  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
     // 0xbc09a0: r0 = Null
     //     0xbc09a0: mov             x0, NULL
     // 0xbc09a4: LeaveFrame
@@ -1104,11 +1104,11 @@ class BallAiBottomNavigation extends StatelessWidget {
     // 0xbc09ec: DecompressPointer r0
     //     0xbc09ec: add             x0, x0, HEAP, lsl #32
     // 0xbc09f0: mov             x1, x0
-    // 0xbc09f4: r2 = Instance_BallAiPrimaryDestination
-    //     0xbc09f4: add             x2, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!BallAiPrimaryDestination@d3baa1
+    // 0xbc09f4: r2 = Instance_KourtAiPrimaryDestination
+    //     0xbc09f4: add             x2, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!KourtAiPrimaryDestination@d3baa1
     //     0xbc09f8: ldr             x2, [x2, #0xe30]
     // 0xbc09fc: r0 = _selectContentTab()
-    //     0xbc09fc: bl              #0x953f0c  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
+    //     0xbc09fc: bl              #0x953f0c  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
     // 0xbc0a00: r0 = Null
     //     0xbc0a00: mov             x0, NULL
     // 0xbc0a04: LeaveFrame

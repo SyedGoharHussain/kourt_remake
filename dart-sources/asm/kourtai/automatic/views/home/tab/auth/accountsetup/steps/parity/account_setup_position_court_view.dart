@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_position_court_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_position_court_view.dart
 
 // class id: 1048845, size: 0x8
 class :: {
@@ -51,8 +51,8 @@ class _PositionMarker extends StatelessWidget {
     // 0xbcdbdc: stur            d0, [fp, #-0x58]
     // 0xbcdbe0: tbnz            w4, #4, #0xbcdbf4
     // 0xbcdbe4: mov             x1, x0
-    // 0xbcdbe8: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbcdbe8: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbcdbe8: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbcdbe8: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbcdbec: mov             x2, x0
     // 0xbcdbf0: b               #0xbcdbf8
     // 0xbcdbf4: r2 = Instance_Color
@@ -315,8 +315,8 @@ class _PositionMarker extends StatelessWidget {
     // 0xbcdec8: fmul            d3, d0, d2
     // 0xbcdecc: ldur            x1, [fp, #-0x20]
     // 0xbcded0: stur            d3, [fp, #-0x70]
-    // 0xbcded4: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbcded4: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbcded4: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbcded4: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbcded8: stur            x0, [fp, #-8]
     // 0xbcdedc: r0 = Icon()
     //     0xbcdedc: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -637,7 +637,7 @@ class _SelectedDescriptor extends StatelessWidget {
     //     0xbcd2d8: cmp             SP, x16
     //     0xbcd2dc: b.ls            #0xbcd6e8
     // 0xbcd2e0: r0 = _meta()
-    //     0xbcd2e0: bl              #0xbcd890  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_position_court_view.dart] AccountSetupPositionCourtView::_meta
+    //     0xbcd2e0: bl              #0xbcd890  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_position_court_view.dart] AccountSetupPositionCourtView::_meta
     // 0xbcd2e4: mov             x3, x0
     // 0xbcd2e8: ldur            x0, [fp, #-8]
     // 0xbcd2ec: stur            x3, [fp, #-0x20]
@@ -664,7 +664,7 @@ class _SelectedDescriptor extends StatelessWidget {
     // 0xbcd328: mov             x0, x1
     // 0xbcd32c: stur            x0, [fp, #-8]
     // 0xbcd330: r0 = _subs()
-    //     0xbcd330: bl              #0xbcd6f0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_position_court_view.dart] AccountSetupPositionCourtView::_subs
+    //     0xbcd330: bl              #0xbcd6f0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_position_court_view.dart] AccountSetupPositionCourtView::_subs
     // 0xbcd334: mov             x1, x0
     // 0xbcd338: ldur            x2, [fp, #-0x18]
     // 0xbcd33c: stur            x0, [fp, #-0x18]
@@ -705,8 +705,8 @@ class _SelectedDescriptor extends StatelessWidget {
     //     0xbcd3a0: add             x3, x3, HEAP, lsl #32
     // 0xbcd3a4: ldur            x1, [fp, #-0x10]
     // 0xbcd3a8: stur            x3, [fp, #-0x18]
-    // 0xbcd3ac: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbcd3ac: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbcd3ac: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbcd3ac: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbcd3b0: stur            x0, [fp, #-0x28]
     // 0xbcd3b4: r0 = TextStyle()
     //     0xbcd3b4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -750,8 +750,8 @@ class _SelectedDescriptor extends StatelessWidget {
     //     0xbcd414: add             x3, x3, HEAP, lsl #32
     // 0xbcd418: ldur            x1, [fp, #-0x10]
     // 0xbcd41c: stur            x3, [fp, #-0x18]
-    // 0xbcd420: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbcd420: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbcd420: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbcd420: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbcd424: stur            x0, [fp, #-0x30]
     // 0xbcd428: r0 = TextStyle()
     //     0xbcd428: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -795,8 +795,8 @@ class _SelectedDescriptor extends StatelessWidget {
     //     0xbcd488: add             x3, x3, HEAP, lsl #32
     // 0xbcd48c: ldur            x1, [fp, #-0x10]
     // 0xbcd490: stur            x3, [fp, #-0x18]
-    // 0xbcd494: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbcd494: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbcd494: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbcd494: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbcd498: stur            x0, [fp, #-8]
     // 0xbcd49c: r0 = TextStyle()
     //     0xbcd49c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -830,8 +830,8 @@ class _SelectedDescriptor extends StatelessWidget {
     // 0xbcd4e8: StoreField: r2->field_13 = r0
     //     0xbcd4e8: stur            w0, [x2, #0x13]
     // 0xbcd4ec: ldur            x1, [fp, #-0x10]
-    // 0xbcd4f0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbcd4f0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbcd4f0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbcd4f0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbcd4f4: stur            x0, [fp, #-0x10]
     // 0xbcd4f8: r0 = TextStyle()
     //     0xbcd4f8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1085,7 +1085,7 @@ class AccountSetupPositionCourtView extends StatelessWidget {
     //     0xbcc8b4: stur            w3, [x1, #0x13]
     // 0xbcc8b8: mov             x2, x1
     // 0xbcc8bc: r1 = Function '<anonymous closure>':.
-    //     0xbcc8bc: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a860] AnonymousClosure: (0xbccbf0), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_position_court_view.dart] AccountSetupPositionCourtView::build (0xbcc858)
+    //     0xbcc8bc: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a860] AnonymousClosure: (0xbccbf0), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_position_court_view.dart] AccountSetupPositionCourtView::build (0xbcc858)
     //     0xbcc8c0: ldr             x1, [x1, #0x860]
     // 0xbcc8c4: r0 = AllocateClosure()
     //     0xbcc8c4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1190,11 +1190,11 @@ class AccountSetupPositionCourtView extends StatelessWidget {
     //     0xbcc9c4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a870] "Tap your spot on the floor"
     //     0xbcc9c8: ldr             x1, [x1, #0x870]
     // 0xbcc9cc: r0 = L()
-    //     0xbcc9cc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbcc9cc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbcc9d0: ldur            x1, [fp, #-8]
     // 0xbcc9d4: stur            x0, [fp, #-8]
-    // 0xbcc9d8: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbcc9d8: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbcc9d8: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbcc9d8: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbcc9dc: stur            x0, [fp, #-0x20]
     // 0xbcc9e0: r0 = TextStyle()
     //     0xbcc9e0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1738,7 +1738,7 @@ class AccountSetupPositionCourtView extends StatelessWidget {
     //     0xbccfa4: stur            w0, [x3, #0x17]
     // 0xbccfa8: ldur            x2, [fp, #-0x40]
     // 0xbccfac: r1 = Function '<anonymous closure>':.
-    //     0xbccfac: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a898] AnonymousClosure: (0xbcd1e0), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_position_court_view.dart] AccountSetupPositionCourtView::build (0xbcc858)
+    //     0xbccfac: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a898] AnonymousClosure: (0xbcd1e0), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_position_court_view.dart] AccountSetupPositionCourtView::build (0xbcc858)
     //     0xbccfb0: ldr             x1, [x1, #0x898]
     // 0xbccfb4: r0 = AllocateClosure()
     //     0xbccfb4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1967,7 +1967,7 @@ class AccountSetupPositionCourtView extends StatelessWidget {
     // 0xbcd22c: mov             x1, x2
     // 0xbcd230: mov             x2, x16
     // 0xbcd234: r0 = setPosition()
-    //     0xbcd234: bl              #0xbcd250  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setPosition
+    //     0xbcd234: bl              #0xbcd250  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setPosition
     // 0xbcd238: r0 = Null
     //     0xbcd238: mov             x0, NULL
     // 0xbcd23c: LeaveFrame
@@ -2006,7 +2006,7 @@ class AccountSetupPositionCourtView extends StatelessWidget {
     //     0xbcd724: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dd60] "Runs the offense and sets up teammates"
     //     0xbcd728: ldr             x1, [x1, #0xd60]
     // 0xbcd72c: r0 = L()
-    //     0xbcd72c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbcd72c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbcd730: ldur            x1, [fp, #-8]
     // 0xbcd734: ArrayStore: r1[1] = r0  ; List_4
     //     0xbcd734: add             x25, x1, #0x13
@@ -2028,7 +2028,7 @@ class AccountSetupPositionCourtView extends StatelessWidget {
     //     0xbcd768: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dd68] "Scores from the perimeter and off the ball"
     //     0xbcd76c: ldr             x1, [x1, #0xd68]
     // 0xbcd770: r0 = L()
-    //     0xbcd770: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbcd770: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbcd774: ldur            x1, [fp, #-8]
     // 0xbcd778: ArrayStore: r1[3] = r0  ; List_4
     //     0xbcd778: add             x25, x1, #0x1b
@@ -2050,7 +2050,7 @@ class AccountSetupPositionCourtView extends StatelessWidget {
     //     0xbcd7ac: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dd70] "Versatile wing - scores and defends"
     //     0xbcd7b0: ldr             x1, [x1, #0xd70]
     // 0xbcd7b4: r0 = L()
-    //     0xbcd7b4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbcd7b4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbcd7b8: ldur            x1, [fp, #-8]
     // 0xbcd7bc: ArrayStore: r1[5] = r0  ; List_4
     //     0xbcd7bc: add             x25, x1, #0x23
@@ -2072,7 +2072,7 @@ class AccountSetupPositionCourtView extends StatelessWidget {
     //     0xbcd7f0: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dd78] "Strong forward who plays inside and out"
     //     0xbcd7f4: ldr             x1, [x1, #0xd78]
     // 0xbcd7f8: r0 = L()
-    //     0xbcd7f8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbcd7f8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbcd7fc: ldur            x1, [fp, #-8]
     // 0xbcd800: ArrayStore: r1[7] = r0  ; List_4
     //     0xbcd800: add             x25, x1, #0x2b
@@ -2094,7 +2094,7 @@ class AccountSetupPositionCourtView extends StatelessWidget {
     //     0xbcd834: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dd80] "Anchors the paint on offense and defense"
     //     0xbcd838: ldr             x1, [x1, #0xd80]
     // 0xbcd83c: r0 = L()
-    //     0xbcd83c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbcd83c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbcd840: ldur            x1, [fp, #-8]
     // 0xbcd844: ArrayStore: r1[9] = r0  ; List_4
     //     0xbcd844: add             x25, x1, #0x33
@@ -2149,13 +2149,13 @@ class AccountSetupPositionCourtView extends StatelessWidget {
     //     0xbcd8c4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d2b8] "Point Guard"
     //     0xbcd8c8: ldr             x1, [x1, #0x2b8]
     // 0xbcd8cc: r0 = L()
-    //     0xbcd8cc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbcd8cc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbcd8d0: r1 = "Floor General"
     //     0xbcd8d0: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dd88] "Floor General"
     //     0xbcd8d4: ldr             x1, [x1, #0xd88]
     // 0xbcd8d8: stur            x0, [fp, #-0x10]
     // 0xbcd8dc: r0 = L()
-    //     0xbcd8dc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbcd8dc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbcd8e0: ldur            x3, [fp, #-0x10]
     // 0xbcd8e4: mov             x4, x0
     // 0xbcd8e8: r2 = "1"
@@ -2184,13 +2184,13 @@ class AccountSetupPositionCourtView extends StatelessWidget {
     //     0xbcd92c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d2c0] "Shooting Guard"
     //     0xbcd930: ldr             x1, [x1, #0x2c0]
     // 0xbcd934: r0 = L()
-    //     0xbcd934: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbcd934: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbcd938: r1 = "Sharpshooter"
     //     0xbcd938: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dd90] "Sharpshooter"
     //     0xbcd93c: ldr             x1, [x1, #0xd90]
     // 0xbcd940: stur            x0, [fp, #-0x10]
     // 0xbcd944: r0 = L()
-    //     0xbcd944: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbcd944: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbcd948: ldur            x3, [fp, #-0x10]
     // 0xbcd94c: mov             x4, x0
     // 0xbcd950: r2 = "2"
@@ -2219,13 +2219,13 @@ class AccountSetupPositionCourtView extends StatelessWidget {
     //     0xbcd994: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d2c8] "Small Forward"
     //     0xbcd998: ldr             x1, [x1, #0x2c8]
     // 0xbcd99c: r0 = L()
-    //     0xbcd99c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbcd99c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbcd9a0: r1 = "Two-Way Wing"
     //     0xbcd9a0: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dda0] "Two-Way Wing"
     //     0xbcd9a4: ldr             x1, [x1, #0xda0]
     // 0xbcd9a8: stur            x0, [fp, #-0x10]
     // 0xbcd9ac: r0 = L()
-    //     0xbcd9ac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbcd9ac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbcd9b0: ldur            x3, [fp, #-0x10]
     // 0xbcd9b4: mov             x4, x0
     // 0xbcd9b8: r2 = "3"
@@ -2254,13 +2254,13 @@ class AccountSetupPositionCourtView extends StatelessWidget {
     //     0xbcd9fc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d2d0] "Power Forward"
     //     0xbcda00: ldr             x1, [x1, #0x2d0]
     // 0xbcda04: r0 = L()
-    //     0xbcda04: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbcda04: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbcda08: r1 = "The Enforcer"
     //     0xbcda08: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2ddb0] "The Enforcer"
     //     0xbcda0c: ldr             x1, [x1, #0xdb0]
     // 0xbcda10: stur            x0, [fp, #-0x10]
     // 0xbcda14: r0 = L()
-    //     0xbcda14: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbcda14: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbcda18: ldur            x3, [fp, #-0x10]
     // 0xbcda1c: mov             x4, x0
     // 0xbcda20: r2 = "4"
@@ -2289,13 +2289,13 @@ class AccountSetupPositionCourtView extends StatelessWidget {
     //     0xbcda64: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d2d8] "Center"
     //     0xbcda68: ldr             x1, [x1, #0x2d8]
     // 0xbcda6c: r0 = L()
-    //     0xbcda6c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbcda6c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbcda70: r1 = "The Anchor"
     //     0xbcda70: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2ddc0] "The Anchor"
     //     0xbcda74: ldr             x1, [x1, #0xdc0]
     // 0xbcda78: stur            x0, [fp, #-0x10]
     // 0xbcda7c: r0 = L()
-    //     0xbcda7c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbcda7c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbcda80: ldur            x3, [fp, #-0x10]
     // 0xbcda84: mov             x4, x0
     // 0xbcda88: r2 = "5"

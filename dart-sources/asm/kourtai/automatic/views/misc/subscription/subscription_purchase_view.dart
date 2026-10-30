@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/misc/subscription/subscription_purchase_view.dart
+// lib: , url: package:kourtai/automatic/views/misc/subscription/subscription_purchase_view.dart
 
 // class id: 1049053, size: 0x8
 class :: {
@@ -45,7 +45,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     // 0x98f48c: mov             x2, x1
     // 0x98f490: stur            x0, [fp, #-8]
     // 0x98f494: r1 = Function '<anonymous closure>':.
-    //     0x98f494: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad40] AnonymousClosure: (0x98f568), in [package:ballai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::initState (0x98f438)
+    //     0x98f494: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad40] AnonymousClosure: (0x98f568), in [package:kourtai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::initState (0x98f438)
     //     0x98f498: ldr             x1, [x1, #0xd40]
     // 0x98f49c: r0 = AllocateClosure()
     //     0x98f49c: bl              #0xe553e0  ; AllocateClosureStub
@@ -157,7 +157,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     //     0x98f5b4: bl              #0x5ff5d4  ; [package:provider/src/provider.dart] ::ReadContext.read
     // 0x98f5b8: mov             x1, x0
     // 0x98f5bc: r0 = refreshOfferings()
-    //     0x98f5bc: bl              #0x648724  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshOfferings
+    //     0x98f5bc: bl              #0x648724  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshOfferings
     // 0x98f5c0: r0 = Null
     //     0x98f5c0: mov             x0, NULL
     // 0x98f5c4: LeaveFrame
@@ -229,7 +229,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     // 0xaad818: mov             x2, x1
     // 0xaad81c: mov             x1, x0
     // 0xaad820: r0 = _hasUnlockedPaidSubscription()
-    //     0xaad820: bl              #0xaadf6c  ; [package:ballai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_hasUnlockedPaidSubscription
+    //     0xaad820: bl              #0xaadf6c  ; [package:kourtai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_hasUnlockedPaidSubscription
     // 0xaad824: tbnz            w0, #4, #0xaad90c
     // 0xaad828: r0 = LoadStaticField(0x8b4)
     //     0xaad828: ldr             x0, [THR, #0x68]  ; THR::field_table_values
@@ -248,7 +248,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     // 0xaad84c: ldur            x2, [fp, #-0x18]
     // 0xaad850: stur            x0, [fp, #-0x10]
     // 0xaad854: r1 = Function '<anonymous closure>':.
-    //     0xaad854: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2acb8] AnonymousClosure: (0xaae960), in [package:ballai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::build (0xaad784)
+    //     0xaad854: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2acb8] AnonymousClosure: (0xaae960), in [package:kourtai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::build (0xaad784)
     //     0xaad858: ldr             x1, [x1, #0xcb8]
     // 0xaad85c: r0 = AllocateClosure()
     //     0xaad85c: bl              #0xe553e0  ; AllocateClosureStub
@@ -365,7 +365,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     // 0xaad98c: b               #0xaad9b4
     // 0xaad990: ldur            x2, [fp, #-0x18]
     // 0xaad994: r1 = Function '<anonymous closure>':.
-    //     0xaad994: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2acd0] AnonymousClosure: (0xaae8b0), in [package:ballai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::build (0xaad784)
+    //     0xaad994: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2acd0] AnonymousClosure: (0xaae8b0), in [package:kourtai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::build (0xaad784)
     //     0xaad998: ldr             x1, [x1, #0xcd0]
     // 0xaad99c: r0 = AllocateClosure()
     //     0xaad99c: bl              #0xe553e0  ; AllocateClosureStub
@@ -376,8 +376,8 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     // 0xaad9b0: ldur            x3, [fp, #-0x10]
     // 0xaad9b4: ldur            x4, [fp, #-0x18]
     // 0xaad9b8: stur            x5, [fp, #-0x38]
-    // 0xaad9bc: r0 = BallAiProRevenueCatPaywallView()
-    //     0xaad9bc: bl              #0xaadf14  ; AllocateBallAiProRevenueCatPaywallViewStub -> BallAiProRevenueCatPaywallView (size=0x20)
+    // 0xaad9bc: r0 = KourtAiProRevenueCatPaywallView()
+    //     0xaad9bc: bl              #0xaadf14  ; AllocateKourtAiProRevenueCatPaywallViewStub -> KourtAiProRevenueCatPaywallView (size=0x20)
     // 0xaad9c0: mov             x3, x0
     // 0xaad9c4: ldur            x0, [fp, #-0x20]
     // 0xaad9c8: stur            x3, [fp, #-0x40]
@@ -395,7 +395,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     //     0xaad9e4: stur            w1, [x3, #0x17]
     // 0xaad9e8: ldur            x2, [fp, #-0x18]
     // 0xaad9ec: r1 = Function '<anonymous closure>':.
-    //     0xaad9ec: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2acd8] AnonymousClosure: (0xaae6f8), in [package:ballai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::build (0xaad784)
+    //     0xaad9ec: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2acd8] AnonymousClosure: (0xaae6f8), in [package:kourtai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::build (0xaad784)
     //     0xaad9f0: ldr             x1, [x1, #0xcd8]
     // 0xaad9f4: r0 = AllocateClosure()
     //     0xaad9f4: bl              #0xe553e0  ; AllocateClosureStub
@@ -503,7 +503,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     //     0xaadb10: stur            w0, [x3, #0x23]
     // 0xaadb14: ldur            x2, [fp, #-8]
     // 0xaadb18: r1 = Function '_handleBack@1003289303':.
-    //     0xaadb18: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ace8] AnonymousClosure: (0xaae680), in [package:ballai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_handleBack (0xaae6b8)
+    //     0xaadb18: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ace8] AnonymousClosure: (0xaae680), in [package:kourtai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_handleBack (0xaae6b8)
     //     0xaadb1c: ldr             x1, [x1, #0xce8]
     // 0xaadb20: r0 = AllocateClosure()
     //     0xaadb20: bl              #0xe553e0  ; AllocateClosureStub
@@ -563,7 +563,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     //     0xaadba8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2acf0] "Redeem code"
     //     0xaadbac: ldr             x1, [x1, #0xcf0]
     // 0xaadbb0: r0 = L()
-    //     0xaadbb0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaadbb0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaadbb4: stur            x0, [fp, #-0x20]
     // 0xaadbb8: r0 = _PaywallChromeCell()
     //     0xaadbb8: bl              #0xaadf08  ; Allocate_PaywallChromeCellStub -> _PaywallChromeCell (size=0x18)
@@ -574,7 +574,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     //     0xaadbc8: stur            w0, [x3, #0xb]
     // 0xaadbcc: ldur            x2, [fp, #-0x18]
     // 0xaadbd0: r1 = Function '<anonymous closure>':.
-    //     0xaadbd0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2acf8] AnonymousClosure: (0xaae11c), in [package:ballai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::build (0xaad784)
+    //     0xaadbd0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2acf8] AnonymousClosure: (0xaae11c), in [package:kourtai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::build (0xaad784)
     //     0xaadbd4: ldr             x1, [x1, #0xcf8]
     // 0xaadbd8: r0 = AllocateClosure()
     //     0xaadbd8: bl              #0xe553e0  ; AllocateClosureStub
@@ -847,7 +847,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     //     0xaade90: stur            w0, [x3, #0x17]
     // 0xaade94: ldur            x2, [fp, #-0x18]
     // 0xaade98: r1 = Function '<anonymous closure>':.
-    //     0xaade98: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad00] AnonymousClosure: (0xaadfc4), in [package:ballai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::build (0xaad784)
+    //     0xaade98: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad00] AnonymousClosure: (0xaadfc4), in [package:kourtai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::build (0xaad784)
     //     0xaade9c: ldr             x1, [x1, #0xd00]
     // 0xaadea0: r0 = AllocateClosure()
     //     0xaadea0: bl              #0xe553e0  ; AllocateClosureStub
@@ -915,15 +915,15 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     // 0xaadf90: DecompressPointer r2
     //     0xaadf90: add             x2, x2, HEAP, lsl #32
     // 0xaadf94: mov             x1, x0
-    // 0xaadf98: r0 = _hasBallAiProAccess()
-    //     0xaadf98: bl              #0x659e38  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_hasBallAiProAccess
+    // 0xaadf98: r0 = _hasKourtAiProAccess()
+    //     0xaadf98: bl              #0x659e38  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_hasKourtAiProAccess
     // 0xaadf9c: tbnz            w0, #4, #0xaadfa8
     // 0xaadfa0: r0 = true
     //     0xaadfa0: add             x0, NULL, #0x20  ; true
     // 0xaadfa4: b               #0xaadfb0
     // 0xaadfa8: ldur            x1, [fp, #-8]
-    // 0xaadfac: r0 = hasPaidMonthlyOrYearlyBallAiPro()
-    //     0xaadfac: bl              #0xaace64  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasPaidMonthlyOrYearlyBallAiPro
+    // 0xaadfac: r0 = hasPaidMonthlyOrYearlyKourtAiPro()
+    //     0xaadfac: bl              #0xaace64  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasPaidMonthlyOrYearlyKourtAiPro
     // 0xaadfb0: LeaveFrame
     //     0xaadfb0: mov             SP, fp
     //     0xaadfb4: ldp             fp, lr, [SP], #0x10
@@ -962,7 +962,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     //     0xaae000: add             x0, x0, HEAP, lsl #32
     // 0xaae004: mov             x1, x0
     // 0xaae008: r0 = _dismissPaywall()
-    //     0xaae008: bl              #0xaae024  ; [package:ballai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_dismissPaywall
+    //     0xaae008: bl              #0xaae024  ; [package:kourtai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_dismissPaywall
     // 0xaae00c: r0 = Null
     //     0xaae00c: mov             x0, NULL
     // 0xaae010: LeaveFrame
@@ -1034,7 +1034,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     //     0xaae0b0: ret             
     // 0xaae0b4: mov             x2, x1
     // 0xaae0b8: r1 = Function '<anonymous closure>':.
-    //     0xaae0b8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad08] AnonymousClosure: (0x98f834), in [package:ballai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::initState (0x98f684)
+    //     0xaae0b8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad08] AnonymousClosure: (0x98f834), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::initState (0x98f684)
     //     0xaae0bc: ldr             x1, [x1, #0xd08]
     // 0xaae0c0: r0 = AllocateClosure()
     //     0xaae0c0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1095,7 +1095,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     //     0xaae140: add             x0, x0, HEAP, lsl #32
     // 0xaae144: mov             x1, x0
     // 0xaae148: r0 = _presentRedeemCode()
-    //     0xaae148: bl              #0xaae164  ; [package:ballai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_presentRedeemCode
+    //     0xaae148: bl              #0xaae164  ; [package:kourtai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_presentRedeemCode
     // 0xaae14c: r0 = Null
     //     0xaae14c: mov             x0, NULL
     // 0xaae150: LeaveFrame
@@ -1155,7 +1155,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     // 0xaae1d4: b.eq            #0xaae270
     // 0xaae1d8: mov             x2, x3
     // 0xaae1dc: r1 = Function '<anonymous closure>':.
-    //     0xaae1dc: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad10] AnonymousClosure: (0xaae274), in [package:ballai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_presentRedeemCode (0xaae164)
+    //     0xaae1dc: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad10] AnonymousClosure: (0xaae274), in [package:kourtai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_presentRedeemCode (0xaae164)
     //     0xaae1e0: ldr             x1, [x1, #0xd10]
     // 0xaae1e4: r0 = AllocateClosure()
     //     0xaae1e4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1187,7 +1187,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     // 0xaae230: r0 = ReturnAsyncNotFuture()
     //     0xaae230: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xaae234: r0 = playStoreRedeemUrl()
-    //     0xaae234: bl              #0x9540cc  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::playStoreRedeemUrl
+    //     0xaae234: bl              #0x9540cc  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::playStoreRedeemUrl
     // 0xaae238: r16 = Instance_LaunchMode
     //     0xaae238: add             x16, PP, #0x21, lsl #12  ; [pp+0x21000] Obj!LaunchMode@d2fba1
     //     0xaae23c: ldr             x16, [x16]
@@ -1244,7 +1244,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     //     0xaae2bc: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2acf0] "Redeem code"
     //     0xaae2c0: ldr             x1, [x1, #0xcf0]
     // 0xaae2c4: r0 = L()
-    //     0xaae2c4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaae2c4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaae2c8: stur            x0, [fp, #-0x18]
     // 0xaae2cc: r0 = Text()
     //     0xaae2cc: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1263,7 +1263,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     //     0xaae2f0: add             x1, PP, #0x27, lsl #12  ; [pp+0x275c0] "Enter code"
     //     0xaae2f4: ldr             x1, [x1, #0x5c0]
     // 0xaae2f8: r0 = L()
-    //     0xaae2f8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaae2f8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaae2fc: stur            x0, [fp, #-8]
     // 0xaae300: r0 = InputDecoration()
     //     0xaae300: bl              #0x912d0c  ; AllocateInputDecorationStub -> InputDecoration (size=0xec)
@@ -1328,7 +1328,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     //     0xaae388: stur            w0, [x3, #0x67]
     // 0xaae38c: ldur            x2, [fp, #-0x10]
     // 0xaae390: r1 = Function '<anonymous closure>':.
-    //     0xaae390: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad18] AnonymousClosure: (0xaae618), in [package:ballai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_presentRedeemCode (0xaae164)
+    //     0xaae390: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad18] AnonymousClosure: (0xaae618), in [package:kourtai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_presentRedeemCode (0xaae164)
     //     0xaae394: ldr             x1, [x1, #0xd18]
     // 0xaae398: r0 = AllocateClosure()
     //     0xaae398: bl              #0xe553e0  ; AllocateClosureStub
@@ -1402,7 +1402,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     //     0xaae438: add             x1, PP, #0x27, lsl #12  ; [pp+0x27668] "Cancel"
     //     0xaae43c: ldr             x1, [x1, #0x668]
     // 0xaae440: r0 = L()
-    //     0xaae440: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaae440: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaae444: stur            x0, [fp, #-0x18]
     // 0xaae448: r0 = Text()
     //     0xaae448: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1413,7 +1413,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     //     0xaae458: stur            w0, [x3, #0xb]
     // 0xaae45c: ldur            x2, [fp, #-0x10]
     // 0xaae460: r1 = Function '<anonymous closure>':.
-    //     0xaae460: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad20] AnonymousClosure: (0x986ed0), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
+    //     0xaae460: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad20] AnonymousClosure: (0x986ed0), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
     //     0xaae464: ldr             x1, [x1, #0xd20]
     // 0xaae468: r0 = AllocateClosure()
     //     0xaae468: bl              #0xe553e0  ; AllocateClosureStub
@@ -1440,7 +1440,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     //     0xaae49c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2acf0] "Redeem code"
     //     0xaae4a0: ldr             x1, [x1, #0xcf0]
     // 0xaae4a4: r0 = L()
-    //     0xaae4a4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaae4a4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaae4a8: stur            x0, [fp, #-0x18]
     // 0xaae4ac: r0 = Text()
     //     0xaae4ac: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1460,7 +1460,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     //     0xaae4d4: stur            w0, [x3, #0x3b]
     // 0xaae4d8: ldur            x2, [fp, #-0x10]
     // 0xaae4dc: r1 = Function '<anonymous closure>':.
-    //     0xaae4dc: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad28] AnonymousClosure: (0xaae594), in [package:ballai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_presentRedeemCode (0xaae164)
+    //     0xaae4dc: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad28] AnonymousClosure: (0xaae594), in [package:kourtai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_presentRedeemCode (0xaae164)
     //     0xaae4e0: ldr             x1, [x1, #0xd28]
     // 0xaae4e4: r0 = AllocateClosure()
     //     0xaae4e4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1651,7 +1651,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     //     0xaae698: cmp             SP, x16
     //     0xaae69c: b.ls            #0xaae6b0
     // 0xaae6a0: r0 = _handleBack()
-    //     0xaae6a0: bl              #0xaae6b8  ; [package:ballai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_handleBack
+    //     0xaae6a0: bl              #0xaae6b8  ; [package:kourtai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_handleBack
     // 0xaae6a4: LeaveFrame
     //     0xaae6a4: mov             SP, fp
     //     0xaae6a8: ldp             fp, lr, [SP], #0x10
@@ -1678,7 +1678,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     //     0xaae6d4: bl              #0x658e44  ; [package:flutter/src/services/haptic_feedback.dart] HapticFeedback::heavyImpact
     // 0xaae6d8: ldur            x1, [fp, #-8]
     // 0xaae6dc: r0 = _dismissPaywall()
-    //     0xaae6dc: bl              #0xaae024  ; [package:ballai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_dismissPaywall
+    //     0xaae6dc: bl              #0xaae024  ; [package:kourtai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_dismissPaywall
     // 0xaae6e0: r0 = Null
     //     0xaae6e0: mov             x0, NULL
     // 0xaae6e4: LeaveFrame
@@ -1726,7 +1726,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     // 0xaae748: DecompressPointer r2
     //     0xaae748: add             x2, x2, HEAP, lsl #32
     // 0xaae74c: r0 = _hasUnlockedPaidSubscription()
-    //     0xaae74c: bl              #0xaadf6c  ; [package:ballai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_hasUnlockedPaidSubscription
+    //     0xaae74c: bl              #0xaadf6c  ; [package:kourtai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_hasUnlockedPaidSubscription
     // 0xaae750: tbz             w0, #4, #0xaae764
     // 0xaae754: r0 = Null
     //     0xaae754: mov             x0, NULL
@@ -1741,7 +1741,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     // 0xaae76c: DecompressPointer r1
     //     0xaae76c: add             x1, x1, HEAP, lsl #32
     // 0xaae770: r0 = _handleSubscriptionUnlocked()
-    //     0xaae770: bl              #0xaae7d4  ; [package:ballai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_handleSubscriptionUnlocked
+    //     0xaae770: bl              #0xaae7d4  ; [package:kourtai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_handleSubscriptionUnlocked
     // 0xaae774: ldur            x0, [fp, #-8]
     // 0xaae778: LoadField: r1 = r0->field_f
     //     0xaae778: ldur            w1, [x0, #0xf]
@@ -1803,7 +1803,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     //     0xaae800: stur            w0, [x1, #0xf]
     // 0xaae804: mov             x2, x1
     // 0xaae808: r1 = Function '<anonymous closure>':.
-    //     0xaae808: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad30] AnonymousClosure: (0xaae888), in [package:ballai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_handleSubscriptionUnlocked (0xaae7d4)
+    //     0xaae808: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad30] AnonymousClosure: (0xaae888), in [package:kourtai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_handleSubscriptionUnlocked (0xaae7d4)
     //     0xaae80c: ldr             x1, [x1, #0xd30]
     // 0xaae810: r0 = AllocateClosure()
     //     0xaae810: bl              #0xe553e0  ; AllocateClosureStub
@@ -1905,7 +1905,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     // 0xaae8ec: tbnz            w1, #4, #0xaae940
     // 0xaae8f0: mov             x2, x3
     // 0xaae8f4: r1 = Function '<anonymous closure>':.
-    //     0xaae8f4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad38] AnonymousClosure: (0x98f834), in [package:ballai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::initState (0x98f684)
+    //     0xaae8f4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad38] AnonymousClosure: (0x98f834), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::initState (0x98f684)
     //     0xaae8f8: ldr             x1, [x1, #0xd38]
     // 0xaae8fc: r0 = AllocateClosure()
     //     0xaae8fc: bl              #0xe553e0  ; AllocateClosureStub
@@ -1938,7 +1938,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     //     0xaae93c: ret             
     // 0xaae940: ldur            x1, [fp, #-8]
     // 0xaae944: r0 = _dismissPaywall()
-    //     0xaae944: bl              #0xaae024  ; [package:ballai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_dismissPaywall
+    //     0xaae944: bl              #0xaae024  ; [package:kourtai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_dismissPaywall
     // 0xaae948: r0 = Null
     //     0xaae948: mov             x0, NULL
     // 0xaae94c: LeaveFrame
@@ -1988,7 +1988,7 @@ class _SubscriptionPurchaseViewState extends State<dynamic> {
     //     0xaae9b0: ret             
     // 0xaae9b4: mov             x1, x0
     // 0xaae9b8: r0 = _handleSubscriptionUnlocked()
-    //     0xaae9b8: bl              #0xaae7d4  ; [package:ballai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_handleSubscriptionUnlocked
+    //     0xaae9b8: bl              #0xaae7d4  ; [package:kourtai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_handleSubscriptionUnlocked
     // 0xaae9bc: r0 = Null
     //     0xaae9bc: mov             x0, NULL
     // 0xaae9c0: LeaveFrame

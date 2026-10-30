@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/manager/video_workout_manager_second_workout_upsell.dart
+// lib: , url: package:kourtai/video_tracking/manager/video_workout_manager_second_workout_upsell.dart
 
 // class id: 1049145, size: 0x8
 class :: {
@@ -82,7 +82,7 @@ class :: {
     // 0x725f88: ret
     //     0x725f88: ret             
     // 0x725f8c: r0 = userHasActiveSubscription()
-    //     0x725f8c: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0x725f8c: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0x725f90: tbnz            w0, #4, #0x725fa4
     // 0x725f94: r0 = Null
     //     0x725f94: mov             x0, NULL
@@ -122,7 +122,7 @@ class :: {
     // 0x725fe8: r17 = 399
     //     0x725fe8: mov             x17, #0x18f
     // 0x725fec: str             w1, [x0, x17]
-    // 0x725ff0: r0 = InitLateStaticField(0xeec) // [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
+    // 0x725ff0: r0 = InitLateStaticField(0xeec) // [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
     //     0x725ff0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x725ff4: ldr             x0, [x0, #0x1dd8]
     //     0x725ff8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -137,14 +137,14 @@ class :: {
     //     0x726014: add             lr, NULL, #0x20  ; true
     // 0x726018: stp             lr, x16, [SP]
     // 0x72601c: mov             x1, x0
-    // 0x726020: r2 = "I detected a critical issue with your shooting form. Unlock Ball AI Pro to find out."
-    //     0x726020: add             x2, PP, #0x32, lsl #12  ; [pp+0x320c0] "I detected a critical issue with your shooting form. Unlock Ball AI Pro to find out."
+    // 0x726020: r2 = "I detected a critical issue with your shooting form. Unlock Kourt AI Pro to find out."
+    //     0x726020: add             x2, PP, #0x32, lsl #12  ; [pp+0x320c0] "I detected a critical issue with your shooting form. Unlock Kourt AI Pro to find out."
     //     0x726024: ldr             x2, [x2, #0xc0]
     // 0x726028: r4 = const [0, 0x4, 0x2, 0x2, isBally, 0x3, subException, 0x2, null]
     //     0x726028: add             x4, PP, #0x32, lsl #12  ; [pp+0x320c8] List(9) [0, 0x4, 0x2, 0x2, "isBally", 0x3, "subException", 0x2, Null]
     //     0x72602c: ldr             x4, [x4, #0xc8]
     // 0x726030: r0 = speak()
-    //     0x726030: bl              #0x6d2cd4  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
+    //     0x726030: bl              #0x6d2cd4  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
     // 0x726034: r0 = Null
     //     0x726034: mov             x0, NULL
     // 0x726038: LeaveFrame
@@ -219,7 +219,7 @@ class :: {
     // 0x74102c: ret
     //     0x74102c: ret             
     // 0x741030: r0 = userHasActiveSubscription()
-    //     0x741030: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0x741030: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0x741034: tbnz            w0, #4, #0x741048
     // 0x741038: r0 = Null
     //     0x741038: mov             x0, NULL
@@ -244,7 +244,7 @@ class :: {
     //     0x741068: add             x2, x2, HEAP, lsl #32
     // 0x74106c: mov             x1, x2
     // 0x741070: r0 = isUTrainEmail()
-    //     0x741070: bl              #0x651710  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::isUTrainEmail
+    //     0x741070: bl              #0x651710  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::isUTrainEmail
     // 0x741074: tbz             w0, #4, #0x7410a0
     // 0x741078: ldur            x0, [fp, #-8]
     // 0x74107c: LoadField: r1 = r0->field_27
@@ -253,12 +253,12 @@ class :: {
     //     0x741080: add             x1, x1, HEAP, lsl #32
     // 0x741084: cmp             w1, NULL
     // 0x741088: b.eq            #0x741094
-    // 0x74108c: r0 = isBallAIOrgMember()
-    //     0x74108c: bl              #0x651600  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::isBallAIOrgMember
+    // 0x74108c: r0 = isKourtAIOrgMember()
+    //     0x74108c: bl              #0x651600  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::isKourtAIOrgMember
     // 0x741090: tbz             w0, #4, #0x7410a0
     // 0x741094: ldur            x1, [fp, #-8]
     // 0x741098: r0 = isPaywallExemptUser()
-    //     0x741098: bl              #0x651a14  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPaywallExemptUser
+    //     0x741098: bl              #0x651a14  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPaywallExemptUser
     // 0x74109c: tbnz            w0, #4, #0x7410b0
     // 0x7410a0: r0 = Null
     //     0x7410a0: mov             x0, NULL
@@ -269,7 +269,7 @@ class :: {
     //     0x7410ac: ret             
     // 0x7410b0: ldur            x1, [fp, #-8]
     // 0x7410b4: r0 = isOnPayingTeam()
-    //     0x7410b4: bl              #0x651798  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isOnPayingTeam
+    //     0x7410b4: bl              #0x651798  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isOnPayingTeam
     // 0x7410b8: tbnz            w0, #4, #0x7410cc
     // 0x7410bc: r0 = Null
     //     0x7410bc: mov             x0, NULL

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/session/workout_end_navigation.dart
+// lib: , url: package:kourtai/video_tracking/session/workout_end_navigation.dart
 
 // class id: 1049189, size: 0x8
 class :: {
@@ -61,7 +61,7 @@ abstract class WorkoutEndNavigation extends Object {
     // 0x732358: ldur            x0, [fp, #-0x18]
     // 0x73235c: cmp             w0, NULL
     // 0x732360: b.ne            #0x732394
-    // 0x732364: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0x732364: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0x732364: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x732368: ldr             x0, [x0, #0x1cf0]
     //     0x73236c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -78,13 +78,13 @@ abstract class WorkoutEndNavigation extends Object {
     // 0x732390: mov             x0, x1
     // 0x732394: cmp             w0, NULL
     // 0x732398: b.ne            #0x7323c4
-    // 0x73239c: r0 = InitLateStaticField(0xbf0) // [package:ballai/automatic/app/app_nav.dart] ::ballAiRootNavigatorKey
+    // 0x73239c: r0 = InitLateStaticField(0xbf0) // [package:kourtai/automatic/app/app_nav.dart] ::kourtAiRootNavigatorKey
     //     0x73239c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x7323a0: ldr             x0, [x0, #0x17e0]
     //     0x7323a4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
     //     0x7323a8: cmp             w0, w16
     //     0x7323ac: b.ne            #0x7323bc
-    //     0x7323b0: add             x2, PP, #0x12, lsl #12  ; [pp+0x12440] Field <::.ballAiRootNavigatorKey>: static late final (offset: 0xbf0)
+    //     0x7323b0: add             x2, PP, #0x12, lsl #12  ; [pp+0x12440] Field <::.kourtAiRootNavigatorKey>: static late final (offset: 0xbf0)
     //     0x7323b4: ldr             x2, [x2, #0x440]
     //     0x7323b8: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x7323bc: mov             x1, x0
@@ -102,7 +102,7 @@ abstract class WorkoutEndNavigation extends Object {
     // 0x7323e0: r0 = true
     //     0x7323e0: add             x0, NULL, #0x20  ; true
     // 0x7323e4: b               #0x732418
-    // 0x7323e8: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0x7323e8: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0x7323e8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x7323ec: ldr             x0, [x0, #0x1cf0]
     //     0x7323f0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -120,7 +120,7 @@ abstract class WorkoutEndNavigation extends Object {
     // 0x732418: ldur            x2, [fp, #-0x28]
     // 0x73241c: StoreField: r2->field_13 = r0
     //     0x73241c: stur            w0, [x2, #0x13]
-    // 0x732420: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0x732420: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0x732420: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x732424: ldr             x0, [x0, #0x1cf0]
     //     0x732428: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -137,7 +137,7 @@ abstract class WorkoutEndNavigation extends Object {
     // 0x73244c: str             w0, [x1, x17]
     // 0x732450: ldur            x2, [fp, #-0x28]
     // 0x732454: r1 = Function '<anonymous closure>': static.
-    //     0x732454: add             x1, PP, #0x28, lsl #12  ; [pp+0x28070] AnonymousClosure: static (0x732928), in [package:ballai/video_tracking/session/workout_end_navigation.dart] WorkoutEndNavigation::presentSummary (0x7322c0)
+    //     0x732454: add             x1, PP, #0x28, lsl #12  ; [pp+0x28070] AnonymousClosure: static (0x732928), in [package:kourtai/video_tracking/session/workout_end_navigation.dart] WorkoutEndNavigation::presentSummary (0x7322c0)
     //     0x732458: ldr             x1, [x1, #0x70]
     // 0x73245c: r0 = AllocateClosure()
     //     0x73245c: bl              #0xe553e0  ; AllocateClosureStub

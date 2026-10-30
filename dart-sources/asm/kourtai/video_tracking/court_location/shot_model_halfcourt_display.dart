@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/court_location/shot_model_halfcourt_display.dart
+// lib: , url: package:kourtai/video_tracking/court_location/shot_model_halfcourt_display.dart
 
 // class id: 1049128, size: 0x8
 class :: {

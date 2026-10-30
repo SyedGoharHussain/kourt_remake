@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/analytics/streak_calendar_helper.dart
+// lib: , url: package:kourtai/automatic/utility/analytics/streak_calendar_helper.dart
 
 // class id: 1048717, size: 0x8
 class :: {
@@ -397,7 +397,7 @@ abstract class StreakCalendarHelper extends Object {
     // 0xc0da64: ldur            x0, [fp, #-0x10]
     // 0xc0da68: ldur            x1, [fp, #-0x18]
     // 0xc0da6c: r0 = _buildWeeksOfMonth()
-    //     0xc0da6c: bl              #0xc0df28  ; [package:ballai/automatic/utility/analytics/streak_calendar_helper.dart] StreakCalendarHelper::_buildWeeksOfMonth
+    //     0xc0da6c: bl              #0xc0df28  ; [package:kourtai/automatic/utility/analytics/streak_calendar_helper.dart] StreakCalendarHelper::_buildWeeksOfMonth
     // 0xc0da70: stur            x0, [fp, #-8]
     // 0xc0da74: r0 = DateTime()
     //     0xc0da74: bl              #0x5feb08  ; AllocateDateTimeStub -> DateTime (size=0x18)
@@ -452,7 +452,7 @@ abstract class StreakCalendarHelper extends Object {
     // 0xc0db00: StoreField: r3->field_b = r0
     //     0xc0db00: stur            w0, [x3, #0xb]
     // 0xc0db04: r1 = Function '<anonymous closure>': static.
-    //     0xc0db04: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3ba10] AnonymousClosure: static (0x8472cc), in [package:ballai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance (0x847318)
+    //     0xc0db04: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3ba10] AnonymousClosure: static (0x8472cc), in [package:kourtai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance (0x847318)
     //     0xc0db08: ldr             x1, [x1, #0xa10]
     // 0xc0db0c: r2 = Null
     //     0xc0db0c: mov             x2, NULL
@@ -530,7 +530,7 @@ abstract class StreakCalendarHelper extends Object {
     //     0xc0dbd8: stur            w0, [x3, #0xb]
     // 0xc0dbdc: ldur            x2, [fp, #-0x28]
     // 0xc0dbe0: r1 = Function '<anonymous closure>': static.
-    //     0xc0dbe0: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3ba18] AnonymousClosure: static (0xc0e664), in [package:ballai/automatic/utility/analytics/streak_calendar_helper.dart] StreakCalendarHelper::statsForMonth (0xc0d71c)
+    //     0xc0dbe0: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3ba18] AnonymousClosure: static (0xc0e664), in [package:kourtai/automatic/utility/analytics/streak_calendar_helper.dart] StreakCalendarHelper::statsForMonth (0xc0d71c)
     //     0xc0dbe4: ldr             x1, [x1, #0xa18]
     // 0xc0dbe8: r0 = AllocateClosure()
     //     0xc0dbe8: bl              #0xe553e0  ; AllocateClosureStub
@@ -689,7 +689,7 @@ abstract class StreakCalendarHelper extends Object {
     //     0xc0ddc8: blr             lr
     // 0xc0ddcc: ldur            x2, [fp, #-0x28]
     // 0xc0ddd0: r1 = Function '<anonymous closure>': static.
-    //     0xc0ddd0: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3ba20] AnonymousClosure: static (0xc0e460), in [package:ballai/automatic/utility/analytics/streak_calendar_helper.dart] StreakCalendarHelper::statsForMonth (0xc0d71c)
+    //     0xc0ddd0: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3ba20] AnonymousClosure: static (0xc0e460), in [package:kourtai/automatic/utility/analytics/streak_calendar_helper.dart] StreakCalendarHelper::statsForMonth (0xc0d71c)
     //     0xc0ddd4: ldr             x1, [x1, #0xa20]
     // 0xc0ddd8: stur            x0, [fp, #-0x18]
     // 0xc0dddc: r0 = AllocateClosure()

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart
 
 // class id: 1048857, size: 0x8
 class :: {
@@ -75,7 +75,7 @@ abstract class AccountSetupFocusSupport extends Object {
     //     0x8ffe64: stur            w0, [x2, #0xf]
     // 0x8ffe68: ldur            x1, [fp, #-0x10]
     // 0x8ffe6c: r0 = fromRaw()
-    //     0x8ffe6c: bl              #0x90005c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
+    //     0x8ffe6c: bl              #0x90005c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
     // 0x8ffe70: cmp             w0, NULL
     // 0x8ffe74: b.ne            #0x8ffe88
     // 0x8ffe78: r0 = Null
@@ -87,7 +87,7 @@ abstract class AccountSetupFocusSupport extends Object {
     //     0x8ffe84: ret             
     // 0x8ffe88: mov             x1, x0
     // 0x8ffe8c: r0 = attributes()
-    //     0x8ffe8c: bl              #0x8fff1c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::attributes
+    //     0x8ffe8c: bl              #0x8fff1c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::attributes
     // 0x8ffe90: r1 = Function '<anonymous closure>': static.
     //     0x8ffe90: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a948] Function: [dart:io] _SecureFilterImpl::buffers (0xe3e370)
     //     0x8ffe94: ldr             x1, [x1, #0x948]
@@ -107,7 +107,7 @@ abstract class AccountSetupFocusSupport extends Object {
     //     0x8ffeb8: bl              #0x8e024c  ; [dart:collection] ListBase::map
     // 0x8ffebc: ldur            x2, [fp, #-0x18]
     // 0x8ffec0: r1 = Function '<anonymous closure>': static.
-    //     0x8ffec0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a950] AnonymousClosure: static (0x8ffdbc), in [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::remainingAttributeForDoubleDown (0x8ffe28)
+    //     0x8ffec0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a950] AnonymousClosure: static (0x8ffdbc), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::remainingAttributeForDoubleDown (0x8ffe28)
     //     0x8ffec4: ldr             x1, [x1, #0x950]
     // 0x8ffec8: stur            x0, [fp, #-8]
     // 0x8ffecc: r0 = AllocateClosure()
@@ -184,7 +184,7 @@ abstract class AccountSetupFocusSupport extends Object {
     // 0x932300: tbnz            w0, #4, #0x9323f4
     // 0x932304: ldur            x1, [fp, #-0x10]
     // 0x932308: r0 = fromRaw()
-    //     0x932308: bl              #0x90005c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
+    //     0x932308: bl              #0x90005c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
     // 0x93230c: cmp             w0, NULL
     // 0x932310: b.ne            #0x932324
     // 0x932314: r0 = false
@@ -197,7 +197,7 @@ abstract class AccountSetupFocusSupport extends Object {
     // 0x932324: ldur            x2, [fp, #-0x18]
     // 0x932328: mov             x1, x0
     // 0x93232c: r0 = attributes()
-    //     0x93232c: bl              #0x8fff1c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::attributes
+    //     0x93232c: bl              #0x8fff1c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::attributes
     // 0x932330: r1 = Function '<anonymous closure>': static.
     //     0x932330: add             x1, PP, #0x1d, lsl #12  ; [pp+0x1d030] Function: [dart:io] _SecureFilterImpl::buffers (0xe3e370)
     //     0x932334: ldr             x1, [x1, #0x30]
@@ -217,7 +217,7 @@ abstract class AccountSetupFocusSupport extends Object {
     //     0x932358: bl              #0x8e024c  ; [dart:collection] ListBase::map
     // 0x93235c: ldur            x2, [fp, #-0x28]
     // 0x932360: r1 = Function '<anonymous closure>': static.
-    //     0x932360: add             x1, PP, #0x1d, lsl #12  ; [pp+0x1d038] AnonymousClosure: static (0x93242c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::isValidSecondary (0x93228c)
+    //     0x932360: add             x1, PP, #0x1d, lsl #12  ; [pp+0x1d038] AnonymousClosure: static (0x93242c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::isValidSecondary (0x93228c)
     //     0x932364: ldr             x1, [x1, #0x38]
     // 0x932368: stur            x0, [fp, #-8]
     // 0x93236c: r0 = AllocateClosure()
@@ -270,7 +270,7 @@ abstract class AccountSetupFocusSupport extends Object {
     // 0x9323f4: ldur            x1, [fp, #-0x18]
     // 0x9323f8: ldur            x2, [fp, #-0x20]
     // 0x9323fc: r0 = isValid()
-    //     0x9323fc: bl              #0x93247c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::isValid
+    //     0x9323fc: bl              #0x93247c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::isValid
     // 0x932400: tbz             w0, #4, #0x932414
     // 0x932404: r0 = false
     //     0x932404: add             x0, NULL, #0x30  ; false
@@ -339,7 +339,7 @@ abstract class AccountSetupFocusSupport extends Object {
     //     0x932498: cmp             SP, x16
     //     0x93249c: b.ls            #0x932568
     // 0x9324a0: r0 = fromRaw()
-    //     0x9324a0: bl              #0x90005c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
+    //     0x9324a0: bl              #0x90005c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
     // 0x9324a4: stur            x0, [fp, #-0x10]
     // 0x9324a8: r1 = 1
     //     0x9324a8: mov             x1, #1
@@ -401,7 +401,7 @@ abstract class AccountSetupFocusSupport extends Object {
     //     0x93253c: ret             
     // 0x932540: ldur            x2, [fp, #-0x18]
     // 0x932544: r1 = Function '<anonymous closure>': static.
-    //     0x932544: add             x1, PP, #0x1d, lsl #12  ; [pp+0x1d098] AnonymousClosure: (0x8fffb4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::attributes (0x8fff1c)
+    //     0x932544: add             x1, PP, #0x1d, lsl #12  ; [pp+0x1d098] AnonymousClosure: (0x8fffb4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::attributes (0x8fff1c)
     //     0x932548: ldr             x1, [x1, #0x98]
     // 0x93254c: r0 = AllocateClosure()
     //     0x93254c: bl              #0xe553e0  ; AllocateClosureStub
@@ -539,7 +539,7 @@ abstract class AccountSetupFocusSupport extends Object {
     // 0xbc971c: ldur            x1, [fp, #-8]
     // 0xbc9720: ldur            x2, [fp, #-0x10]
     // 0xbc9724: r0 = remainingAttributeForDoubleDown()
-    //     0xbc9724: bl              #0x8ffe28  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::remainingAttributeForDoubleDown
+    //     0xbc9724: bl              #0x8ffe28  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::remainingAttributeForDoubleDown
     // 0xbc9728: stur            x0, [fp, #-8]
     // 0xbc972c: cmp             w0, NULL
     // 0xbc9730: b.ne            #0xbc973c
@@ -962,7 +962,7 @@ enum AccountSetupFocusAttribute extends _Enum {
     //     0x75637c: b.ls            #0x756394
     // 0x756380: ldr             x1, [fp, #0x10]
     // 0x756384: r0 = fromRaw()
-    //     0x756384: bl              #0x755fc0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::fromRaw
+    //     0x756384: bl              #0x755fc0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::fromRaw
     // 0x756388: LeaveFrame
     //     0x756388: mov             SP, fp
     //     0x75638c: ldp             fp, lr, [SP], #0x10
@@ -995,7 +995,7 @@ enum AccountSetupFocusAttribute extends _Enum {
     //     0x9ef9e4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a040] "Three-Point"
     //     0x9ef9e8: ldr             x1, [x1, #0x40]
     // 0x9ef9ec: r0 = L()
-    //     0x9ef9ec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ef9ec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ef9f0: LeaveFrame
     //     0x9ef9f0: mov             SP, fp
     //     0x9ef9f4: ldp             fp, lr, [SP], #0x10
@@ -1005,7 +1005,7 @@ enum AccountSetupFocusAttribute extends _Enum {
     //     0x9ef9fc: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a048] "Mid-Range"
     //     0x9efa00: ldr             x1, [x1, #0x48]
     // 0x9efa04: r0 = L()
-    //     0x9efa04: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9efa04: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9efa08: LeaveFrame
     //     0x9efa08: mov             SP, fp
     //     0x9efa0c: ldp             fp, lr, [SP], #0x10
@@ -1017,7 +1017,7 @@ enum AccountSetupFocusAttribute extends _Enum {
     //     0x9efa1c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a050] "Free Throw"
     //     0x9efa20: ldr             x1, [x1, #0x50]
     // 0x9efa24: r0 = L()
-    //     0x9efa24: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9efa24: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9efa28: LeaveFrame
     //     0x9efa28: mov             SP, fp
     //     0x9efa2c: ldp             fp, lr, [SP], #0x10
@@ -1027,7 +1027,7 @@ enum AccountSetupFocusAttribute extends _Enum {
     //     0x9efa34: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a058] "Dribbling"
     //     0x9efa38: ldr             x1, [x1, #0x58]
     // 0x9efa3c: r0 = L()
-    //     0x9efa3c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9efa3c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9efa40: LeaveFrame
     //     0x9efa40: mov             SP, fp
     //     0x9efa44: ldp             fp, lr, [SP], #0x10
@@ -1041,7 +1041,7 @@ enum AccountSetupFocusAttribute extends _Enum {
     //     0x9efa5c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a060] "Passing"
     //     0x9efa60: ldr             x1, [x1, #0x60]
     // 0x9efa64: r0 = L()
-    //     0x9efa64: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9efa64: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9efa68: LeaveFrame
     //     0x9efa68: mov             SP, fp
     //     0x9efa6c: ldp             fp, lr, [SP], #0x10
@@ -1051,7 +1051,7 @@ enum AccountSetupFocusAttribute extends _Enum {
     //     0x9efa74: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a068] "Offensive IQ"
     //     0x9efa78: ldr             x1, [x1, #0x68]
     // 0x9efa7c: r0 = L()
-    //     0x9efa7c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9efa7c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9efa80: LeaveFrame
     //     0x9efa80: mov             SP, fp
     //     0x9efa84: ldp             fp, lr, [SP], #0x10
@@ -1063,7 +1063,7 @@ enum AccountSetupFocusAttribute extends _Enum {
     //     0x9efa94: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a070] "Floater"
     //     0x9efa98: ldr             x1, [x1, #0x70]
     // 0x9efa9c: r0 = L()
-    //     0x9efa9c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9efa9c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9efaa0: LeaveFrame
     //     0x9efaa0: mov             SP, fp
     //     0x9efaa4: ldp             fp, lr, [SP], #0x10
@@ -1073,7 +1073,7 @@ enum AccountSetupFocusAttribute extends _Enum {
     //     0x9efaac: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a078] "Layups"
     //     0x9efab0: ldr             x1, [x1, #0x78]
     // 0x9efab4: r0 = L()
-    //     0x9efab4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9efab4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9efab8: LeaveFrame
     //     0x9efab8: mov             SP, fp
     //     0x9efabc: ldp             fp, lr, [SP], #0x10
@@ -1089,7 +1089,7 @@ enum AccountSetupFocusAttribute extends _Enum {
     //     0x9efadc: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a080] "Post"
     //     0x9efae0: ldr             x1, [x1, #0x80]
     // 0x9efae4: r0 = L()
-    //     0x9efae4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9efae4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9efae8: LeaveFrame
     //     0x9efae8: mov             SP, fp
     //     0x9efaec: ldp             fp, lr, [SP], #0x10
@@ -1099,7 +1099,7 @@ enum AccountSetupFocusAttribute extends _Enum {
     //     0x9efaf4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a088] "Perimeter D"
     //     0x9efaf8: ldr             x1, [x1, #0x88]
     // 0x9efafc: r0 = L()
-    //     0x9efafc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9efafc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9efb00: LeaveFrame
     //     0x9efb00: mov             SP, fp
     //     0x9efb04: ldp             fp, lr, [SP], #0x10
@@ -1111,7 +1111,7 @@ enum AccountSetupFocusAttribute extends _Enum {
     //     0x9efb14: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a090] "Rebounds"
     //     0x9efb18: ldr             x1, [x1, #0x90]
     // 0x9efb1c: r0 = L()
-    //     0x9efb1c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9efb1c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9efb20: LeaveFrame
     //     0x9efb20: mov             SP, fp
     //     0x9efb24: ldp             fp, lr, [SP], #0x10
@@ -1121,7 +1121,7 @@ enum AccountSetupFocusAttribute extends _Enum {
     //     0x9efb2c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a098] "Defensive IQ"
     //     0x9efb30: ldr             x1, [x1, #0x98]
     // 0x9efb34: r0 = L()
-    //     0x9efb34: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9efb34: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9efb38: LeaveFrame
     //     0x9efb38: mov             SP, fp
     //     0x9efb3c: ldp             fp, lr, [SP], #0x10
@@ -1135,7 +1135,7 @@ enum AccountSetupFocusAttribute extends _Enum {
     //     0x9efb54: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a0a0] "Speed"
     //     0x9efb58: ldr             x1, [x1, #0xa0]
     // 0x9efb5c: r0 = L()
-    //     0x9efb5c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9efb5c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9efb60: LeaveFrame
     //     0x9efb60: mov             SP, fp
     //     0x9efb64: ldp             fp, lr, [SP], #0x10
@@ -1145,7 +1145,7 @@ enum AccountSetupFocusAttribute extends _Enum {
     //     0x9efb6c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a0a8] "Strength"
     //     0x9efb70: ldr             x1, [x1, #0xa8]
     // 0x9efb74: r0 = L()
-    //     0x9efb74: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9efb74: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9efb78: LeaveFrame
     //     0x9efb78: mov             SP, fp
     //     0x9efb7c: ldp             fp, lr, [SP], #0x10
@@ -1155,7 +1155,7 @@ enum AccountSetupFocusAttribute extends _Enum {
     //     0x9efb84: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a0b0] "Vertical"
     //     0x9efb88: ldr             x1, [x1, #0xb0]
     // 0x9efb8c: r0 = L()
-    //     0x9efb8c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9efb8c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9efb90: LeaveFrame
     //     0x9efb90: mov             SP, fp
     //     0x9efb94: ldp             fp, lr, [SP], #0x10
@@ -1240,7 +1240,7 @@ enum AccountSetupFocus extends _Enum {
     //     0x8fff48: stur            w0, [x1, #0xf]
     // 0x8fff4c: mov             x2, x1
     // 0x8fff50: r1 = Function '<anonymous closure>':.
-    //     0x8fff50: add             x1, PP, #0x1d, lsl #12  ; [pp+0x1d040] AnonymousClosure: (0x8fffb4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::attributes (0x8fff1c)
+    //     0x8fff50: add             x1, PP, #0x1d, lsl #12  ; [pp+0x1d040] AnonymousClosure: (0x8fffb4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::attributes (0x8fff1c)
     //     0x8fff54: ldr             x1, [x1, #0x40]
     // 0x8fff58: r0 = AllocateClosure()
     //     0x8fff58: bl              #0xe553e0  ; AllocateClosureStub
@@ -1408,7 +1408,7 @@ enum AccountSetupFocus extends _Enum {
     //     0x9efc40: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d6c0] "Shooting"
     //     0x9efc44: ldr             x1, [x1, #0x6c0]
     // 0x9efc48: r0 = L()
-    //     0x9efc48: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9efc48: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9efc4c: LeaveFrame
     //     0x9efc4c: mov             SP, fp
     //     0x9efc50: ldp             fp, lr, [SP], #0x10
@@ -1418,7 +1418,7 @@ enum AccountSetupFocus extends _Enum {
     //     0x9efc58: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d6c8] "Playmaking"
     //     0x9efc5c: ldr             x1, [x1, #0x6c8]
     // 0x9efc60: r0 = L()
-    //     0x9efc60: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9efc60: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9efc64: LeaveFrame
     //     0x9efc64: mov             SP, fp
     //     0x9efc68: ldp             fp, lr, [SP], #0x10
@@ -1428,7 +1428,7 @@ enum AccountSetupFocus extends _Enum {
     //     0x9efc70: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d6d0] "Finishing"
     //     0x9efc74: ldr             x1, [x1, #0x6d0]
     // 0x9efc78: r0 = L()
-    //     0x9efc78: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9efc78: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9efc7c: LeaveFrame
     //     0x9efc7c: mov             SP, fp
     //     0x9efc80: ldp             fp, lr, [SP], #0x10
@@ -1440,7 +1440,7 @@ enum AccountSetupFocus extends _Enum {
     //     0x9efc90: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d6d8] "Defense"
     //     0x9efc94: ldr             x1, [x1, #0x6d8]
     // 0x9efc98: r0 = L()
-    //     0x9efc98: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9efc98: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9efc9c: LeaveFrame
     //     0x9efc9c: mov             SP, fp
     //     0x9efca0: ldp             fp, lr, [SP], #0x10
@@ -1450,7 +1450,7 @@ enum AccountSetupFocus extends _Enum {
     //     0x9efca8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d6e0] "Athleticism"
     //     0x9efcac: ldr             x1, [x1, #0x6e0]
     // 0x9efcb0: r0 = L()
-    //     0x9efcb0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9efcb0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9efcb4: LeaveFrame
     //     0x9efcb4: mov             SP, fp
     //     0x9efcb8: ldp             fp, lr, [SP], #0x10

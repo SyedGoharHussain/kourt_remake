@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_social_links_step_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_social_links_step_view.dart
 
 // class id: 1048934, size: 0x8
 class :: {
@@ -236,7 +236,7 @@ class _TeamSocialLinksStepViewState extends State<dynamic> {
     // 0x96f8e4: mov             x2, x4
     // 0x96f8e8: stur            x5, [fp, #-0x10]
     // 0x96f8ec: r1 = Function '<anonymous closure>':.
-    //     0x96f8ec: add             x1, PP, #0x37, lsl #12  ; [pp+0x37300] AnonymousClosure: (0x96f9c0), in [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_social_links_step_view.dart] _TeamSocialLinksStepViewState::initState (0x96f68c)
+    //     0x96f8ec: add             x1, PP, #0x37, lsl #12  ; [pp+0x37300] AnonymousClosure: (0x96f9c0), in [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_social_links_step_view.dart] _TeamSocialLinksStepViewState::initState (0x96f68c)
     //     0x96f8f0: ldr             x1, [x1, #0x300]
     // 0x96f8f4: r0 = AllocateClosure()
     //     0x96f8f4: bl              #0xe553e0  ; AllocateClosureStub
@@ -333,7 +333,7 @@ class _TeamSocialLinksStepViewState extends State<dynamic> {
     // 0x96fa08: mov             x1, x2
     // 0x96fa0c: mov             x2, x16
     // 0x96fa10: r0 = _syncToViewModel()
-    //     0x96fa10: bl              #0x96fa2c  ; [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_social_links_step_view.dart] _TeamSocialLinksStepViewState::_syncToViewModel
+    //     0x96fa10: bl              #0x96fa2c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_social_links_step_view.dart] _TeamSocialLinksStepViewState::_syncToViewModel
     // 0x96fa14: r0 = Null
     //     0x96fa14: mov             x0, NULL
     // 0x96fa18: LeaveFrame
@@ -569,7 +569,7 @@ class _TeamSocialLinksStepViewState extends State<dynamic> {
     // 0xa545ac: StoreField: r3->field_f = r0
     //     0xa545ac: stur            w0, [x3, #0xf]
     // 0xa545b0: r1 = Function '<anonymous closure>':.
-    //     0xa545b0: add             x1, PP, #0x37, lsl #12  ; [pp+0x372d0] AnonymousClosure: (0xa2d4dc), in [package:ballai/automatic/views/home/tab/tabs/teams/root/teams_view.dart] _TeamsViewState::build (0xa735bc)
+    //     0xa545b0: add             x1, PP, #0x37, lsl #12  ; [pp+0x372d0] AnonymousClosure: (0xa2d4dc), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/teams_view.dart] _TeamsViewState::build (0xa735bc)
     //     0xa545b4: ldr             x1, [x1, #0x2d0]
     // 0xa545b8: r2 = Null
     //     0xa545b8: mov             x2, NULL
@@ -577,7 +577,7 @@ class _TeamSocialLinksStepViewState extends State<dynamic> {
     //     0xa545bc: bl              #0xe553e0  ; AllocateClosureStub
     // 0xa545c0: ldur            x2, [fp, #-0x10]
     // 0xa545c4: r1 = Function '<anonymous closure>':.
-    //     0xa545c4: add             x1, PP, #0x37, lsl #12  ; [pp+0x372d8] AnonymousClosure: (0xa5461c), in [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_social_links_step_view.dart] _TeamSocialLinksStepViewState::build (0xa5457c)
+    //     0xa545c4: add             x1, PP, #0x37, lsl #12  ; [pp+0x372d8] AnonymousClosure: (0xa5461c), in [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_social_links_step_view.dart] _TeamSocialLinksStepViewState::build (0xa5457c)
     //     0xa545c8: ldr             x1, [x1, #0x2d8]
     // 0xa545cc: stur            x0, [fp, #-8]
     // 0xa545d0: r0 = AllocateClosure()
@@ -699,7 +699,7 @@ class _TeamSocialLinksStepViewState extends State<dynamic> {
     //     0xb5b7b8: mov             fp, SP
     // 0xb5b7bc: ldr             x2, [fp, #0x10]
     // 0xb5b7c0: r1 = Function 'dispose':.
-    //     0xb5b7c0: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bbd0] AnonymousClosure: (0xb5b7d8), in [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_social_links_step_view.dart] _TeamSocialLinksStepViewState::dispose (0xb6276c)
+    //     0xb5b7c0: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bbd0] AnonymousClosure: (0xb5b7d8), in [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_social_links_step_view.dart] _TeamSocialLinksStepViewState::dispose (0xb6276c)
     //     0xb5b7c4: ldr             x1, [x1, #0xbd0]
     // 0xb5b7c8: r0 = AllocateClosure()
     //     0xb5b7c8: bl              #0xe553e0  ; AllocateClosureStub
@@ -724,7 +724,7 @@ class _TeamSocialLinksStepViewState extends State<dynamic> {
     //     0xb5b7f0: cmp             SP, x16
     //     0xb5b7f4: b.ls            #0xb5b808
     // 0xb5b7f8: r0 = dispose()
-    //     0xb5b7f8: bl              #0xb6276c  ; [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_social_links_step_view.dart] _TeamSocialLinksStepViewState::dispose
+    //     0xb5b7f8: bl              #0xb6276c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_social_links_step_view.dart] _TeamSocialLinksStepViewState::dispose
     // 0xb5b7fc: LeaveFrame
     //     0xb5b7fc: mov             SP, fp
     //     0xb5b800: ldp             fp, lr, [SP], #0x10

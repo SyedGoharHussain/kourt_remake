@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart
 
 // class id: 1048957, size: 0x8
 class :: {
@@ -100,7 +100,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0x97bf84: mov             x1, x0
     // 0x97bf88: stur            x0, [fp, #-0x18]
     // 0x97bf8c: r0 = ScheduledDrillsViewModel()
-    //     0x97bf8c: bl              #0x97c144  ; [package:ballai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::ScheduledDrillsViewModel
+    //     0x97bf8c: bl              #0x97c144  ; [package:kourtai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::ScheduledDrillsViewModel
     // 0x97bf90: ldur            x2, [fp, #-8]
     // 0x97bf94: LoadField: r0 = r2->field_13
     //     0x97bf94: ldur            w0, [x2, #0x13]
@@ -120,7 +120,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0x97bfc0: b.eq            #0x97bfc8
     //     0x97bfc4: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x97bfc8: r1 = Function '_onVmChanged@1222494671':.
-    //     0x97bfc8: add             x1, PP, #0x43, lsl #12  ; [pp+0x43338] AnonymousClosure: (0x97d6cc), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_onVmChanged (0x97d704)
+    //     0x97bfc8: add             x1, PP, #0x43, lsl #12  ; [pp+0x43338] AnonymousClosure: (0x97d6cc), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_onVmChanged (0x97d704)
     //     0x97bfcc: ldr             x1, [x1, #0x338]
     // 0x97bfd0: r0 = AllocateClosure()
     //     0x97bfd0: bl              #0xe553e0  ; AllocateClosureStub
@@ -145,7 +145,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0x97c004: ldur            x2, [fp, #-0x10]
     // 0x97c008: stur            x0, [fp, #-8]
     // 0x97c00c: r1 = Function '<anonymous closure>':.
-    //     0x97c00c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43348] AnonymousClosure: (0x97c238), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::initState (0x97be9c)
+    //     0x97c00c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43348] AnonymousClosure: (0x97c238), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::initState (0x97be9c)
     //     0x97c010: ldr             x1, [x1, #0x348]
     // 0x97c014: r0 = AllocateClosure()
     //     0x97c014: bl              #0xe553e0  ; AllocateClosureStub
@@ -281,14 +281,14 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0x97c284: ret
     //     0x97c284: ret             
     // 0x97c288: r0 = _startVm()
-    //     0x97c288: bl              #0x97c4c8  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_startVm
+    //     0x97c288: bl              #0x97c4c8  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_startVm
     // 0x97c28c: ldur            x0, [fp, #-8]
     // 0x97c290: LoadField: r1 = r0->field_f
     //     0x97c290: ldur            w1, [x0, #0xf]
     // 0x97c294: DecompressPointer r1
     //     0x97c294: add             x1, x1, HEAP, lsl #32
     // 0x97c298: r0 = _loadDrillNames()
-    //     0x97c298: bl              #0x97c2b4  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_loadDrillNames
+    //     0x97c298: bl              #0x97c2b4  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_loadDrillNames
     // 0x97c29c: r0 = Null
     //     0x97c29c: mov             x0, NULL
     // 0x97c2a0: LeaveFrame
@@ -327,7 +327,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0x97c2ec: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x97c2f0: bl              #0x60afc8  ; InitAsyncStub
     // 0x97c2f4: r0 = fetchPublishedDrills()
-    //     0x97c2f4: bl              #0x94c2ac  ; [package:ballai/video_tracking/views/drills/data/drill_catalog_repository.dart] DrillCatalogRepository::fetchPublishedDrills
+    //     0x97c2f4: bl              #0x94c2ac  ; [package:kourtai/video_tracking/views/drills/data/drill_catalog_repository.dart] DrillCatalogRepository::fetchPublishedDrills
     // 0x97c2f8: mov             x1, x0
     // 0x97c2fc: stur            x1, [fp, #-0x20]
     // 0x97c300: r0 = Await()
@@ -354,7 +354,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0x97c340: r0 = ReturnAsyncNotFuture()
     //     0x97c340: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x97c344: r1 = Function '<anonymous closure>':.
-    //     0x97c344: add             x1, PP, #0x43, lsl #12  ; [pp+0x43378] AnonymousClosure: (0x97c36c), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_loadDrillNames (0x97c2b4)
+    //     0x97c344: add             x1, PP, #0x43, lsl #12  ; [pp+0x43378] AnonymousClosure: (0x97c36c), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_loadDrillNames (0x97c2b4)
     //     0x97c348: ldr             x1, [x1, #0x378]
     // 0x97c34c: r0 = AllocateClosure()
     //     0x97c34c: bl              #0xe553e0  ; AllocateClosureStub
@@ -559,13 +559,13 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0x97c56c: mov             x2, x5
     // 0x97c570: mov             x3, x0
     // 0x97c574: r0 = canManageTeam()
-    //     0x97c574: bl              #0x97d580  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::canManageTeam
+    //     0x97c574: bl              #0x97d580  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::canManageTeam
     // 0x97c578: ldur            x1, [fp, #-0x10]
     // 0x97c57c: ldur            x2, [fp, #-0x18]
     // 0x97c580: mov             x3, x0
     // 0x97c584: ldur            x5, [fp, #-8]
     // 0x97c588: r0 = start()
-    //     0x97c588: bl              #0x97c5cc  ; [package:ballai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::start
+    //     0x97c588: bl              #0x97c5cc  ; [package:kourtai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::start
     // 0x97c58c: r0 = Null
     //     0x97c58c: mov             x0, NULL
     // 0x97c590: LeaveFrame
@@ -609,7 +609,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0x97d6e4: cmp             SP, x16
     //     0x97d6e8: b.ls            #0x97d6fc
     // 0x97d6ec: r0 = _onVmChanged()
-    //     0x97d6ec: bl              #0x97d704  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_onVmChanged
+    //     0x97d6ec: bl              #0x97d704  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_onVmChanged
     // 0x97d6f0: LeaveFrame
     //     0x97d6f0: mov             SP, fp
     //     0x97d6f4: ldp             fp, lr, [SP], #0x10
@@ -744,7 +744,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0xa7a568: add             x2, x2, HEAP, lsl #32
     // 0xa7a56c: mov             x3, x5
     // 0xa7a570: r0 = canManageTeam()
-    //     0xa7a570: bl              #0x97d580  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::canManageTeam
+    //     0xa7a570: bl              #0x97d580  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::canManageTeam
     // 0xa7a574: mov             x4, x0
     // 0xa7a578: ldur            x0, [fp, #-0x18]
     // 0xa7a57c: stur            x4, [fp, #-0x20]
@@ -762,7 +762,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0xa7a59c: ldur            x2, [fp, #-0x10]
     // 0xa7a5a0: mov             x3, x4
     // 0xa7a5a4: r0 = filteredReminders()
-    //     0xa7a5a4: bl              #0xa7b030  ; [package:ballai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::filteredReminders
+    //     0xa7a5a4: bl              #0xa7b030  ; [package:kourtai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::filteredReminders
     // 0xa7a5a8: mov             x3, x0
     // 0xa7a5ac: ldur            x2, [fp, #-0x18]
     // 0xa7a5b0: stur            x3, [fp, #-0x10]
@@ -789,7 +789,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0xa7a5e8: add             x1, PP, #0x37, lsl #12  ; [pp+0x371c8] "Schedule"
     //     0xa7a5ec: ldr             x1, [x1, #0x1c8]
     // 0xa7a5f0: r0 = L()
-    //     0xa7a5f0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7a5f0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7a5f4: stur            x0, [fp, #-0x30]
     // 0xa7a5f8: r0 = Text()
     //     0xa7a5f8: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -822,7 +822,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0xa7a640: tbnz            w0, #4, #0xa7a708
     // 0xa7a644: ldur            x2, [fp, #-0x18]
     // 0xa7a648: r1 = Function '<anonymous closure>':.
-    //     0xa7a648: add             x1, PP, #0x43, lsl #12  ; [pp+0x431f0] AnonymousClosure: (0xa7c550), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::build (0xa7a4b8)
+    //     0xa7a648: add             x1, PP, #0x43, lsl #12  ; [pp+0x431f0] AnonymousClosure: (0xa7c550), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::build (0xa7a4b8)
     //     0xa7a64c: ldr             x1, [x1, #0x1f0]
     // 0xa7a650: r0 = AllocateClosure()
     //     0xa7a650: bl              #0xe553e0  ; AllocateClosureStub
@@ -911,7 +911,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0xa7a740: bl              #0xa144f8  ; [package:flutter/src/material/app_bar.dart] AppBar::AppBar
     // 0xa7a744: ldur            x2, [fp, #-0x18]
     // 0xa7a748: r1 = Function '<anonymous closure>':.
-    //     0xa7a748: add             x1, PP, #0x43, lsl #12  ; [pp+0x43208] AnonymousClosure: (0xa7be88), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::build (0xa7a4b8)
+    //     0xa7a748: add             x1, PP, #0x43, lsl #12  ; [pp+0x43208] AnonymousClosure: (0xa7be88), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::build (0xa7a4b8)
     //     0xa7a74c: ldr             x1, [x1, #0x208]
     // 0xa7a750: r0 = AllocateClosure()
     //     0xa7a750: bl              #0xe553e0  ; AllocateClosureStub
@@ -1081,7 +1081,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0xa7a8e8: add             x1, PP, #0x43, lsl #12  ; [pp+0x43228] "Couldn\'t load schedule"
     //     0xa7a8ec: ldr             x1, [x1, #0x228]
     // 0xa7a8f0: r0 = L()
-    //     0xa7a8f0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7a8f0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7a8f4: stur            x0, [fp, #-0x58]
     // 0xa7a8f8: r0 = TextStyle()
     //     0xa7a8f8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1317,7 +1317,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0xa7ab50: ldur            x1, [fp, #-8]
     // 0xa7ab54: ldur            x2, [fp, #-0x20]
     // 0xa7ab58: r0 = _emptyTitle()
-    //     0xa7ab58: bl              #0xa7af7c  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_emptyTitle
+    //     0xa7ab58: bl              #0xa7af7c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_emptyTitle
     // 0xa7ab5c: stur            x0, [fp, #-0x10]
     // 0xa7ab60: r0 = Text()
     //     0xa7ab60: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1338,7 +1338,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0xa7ab88: ldur            x1, [fp, #-8]
     // 0xa7ab8c: ldur            x2, [fp, #-0x20]
     // 0xa7ab90: r0 = _emptyMessage()
-    //     0xa7ab90: bl              #0xa7aec8  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_emptyMessage
+    //     0xa7ab90: bl              #0xa7aec8  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_emptyMessage
     // 0xa7ab94: mov             x2, x0
     // 0xa7ab98: ldur            x0, [fp, #-0x18]
     // 0xa7ab9c: stur            x2, [fp, #-8]
@@ -1346,8 +1346,8 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0xa7aba0: ldur            w1, [x0, #0x13]
     // 0xa7aba4: DecompressPointer r1
     //     0xa7aba4: add             x1, x1, HEAP, lsl #32
-    // 0xa7aba8: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa7aba8: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa7aba8: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa7aba8: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa7abac: stur            x0, [fp, #-0x10]
     // 0xa7abb0: r0 = TextStyle()
     //     0xa7abb0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1484,7 +1484,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0xa7acfc: b               #0xa7ad60
     // 0xa7ad00: ldur            x0, [fp, #-0x18]
     // 0xa7ad04: r1 = Function '<anonymous closure>':.
-    //     0xa7ad04: add             x1, PP, #0x43, lsl #12  ; [pp+0x43250] AnonymousClosure: (0xa6dd68), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::build (0xa7a4b8)
+    //     0xa7ad04: add             x1, PP, #0x43, lsl #12  ; [pp+0x43250] AnonymousClosure: (0xa6dd68), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::build (0xa7a4b8)
     //     0xa7ad08: ldr             x1, [x1, #0x250]
     // 0xa7ad0c: r2 = Null
     //     0xa7ad0c: mov             x2, NULL
@@ -1492,7 +1492,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0xa7ad10: bl              #0xe553e0  ; AllocateClosureStub
     // 0xa7ad14: ldur            x2, [fp, #-0x18]
     // 0xa7ad18: r1 = Function '<anonymous closure>':.
-    //     0xa7ad18: add             x1, PP, #0x43, lsl #12  ; [pp+0x43258] AnonymousClosure: (0xa7b2b8), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::build (0xa7a4b8)
+    //     0xa7ad18: add             x1, PP, #0x43, lsl #12  ; [pp+0x43258] AnonymousClosure: (0xa7b2b8), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::build (0xa7a4b8)
     //     0xa7ad1c: ldr             x1, [x1, #0x258]
     // 0xa7ad20: stur            x0, [fp, #-8]
     // 0xa7ad24: r0 = AllocateClosure()
@@ -1694,13 +1694,13 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0xa7af10: add             x1, PP, #0x43, lsl #12  ; [pp+0x432f0] "Tap + to schedule a drill for your team."
     //     0xa7af14: ldr             x1, [x1, #0x2f0]
     // 0xa7af18: r0 = L()
-    //     0xa7af18: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7af18: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7af1c: b               #0xa7af2c
     // 0xa7af20: r1 = "When your coach schedules drills, they\'ll show up here."
     //     0xa7af20: add             x1, PP, #0x43, lsl #12  ; [pp+0x432f8] "When your coach schedules drills, they\'ll show up here."
     //     0xa7af24: ldr             x1, [x1, #0x2f8]
     // 0xa7af28: r0 = L()
-    //     0xa7af28: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7af28: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7af2c: LeaveFrame
     //     0xa7af2c: mov             SP, fp
     //     0xa7af30: ldp             fp, lr, [SP], #0x10
@@ -1710,7 +1710,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0xa7af38: add             x1, PP, #0x43, lsl #12  ; [pp+0x43300] "You\'re caught up — no overdue assignments."
     //     0xa7af3c: ldr             x1, [x1, #0x300]
     // 0xa7af40: r0 = L()
-    //     0xa7af40: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7af40: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7af44: LeaveFrame
     //     0xa7af44: mov             SP, fp
     //     0xa7af48: ldp             fp, lr, [SP], #0x10
@@ -1720,7 +1720,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0xa7af50: add             x1, PP, #0x43, lsl #12  ; [pp+0x43308] "Completed drills will appear here."
     //     0xa7af54: ldr             x1, [x1, #0x308]
     // 0xa7af58: r0 = L()
-    //     0xa7af58: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7af58: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7af5c: LeaveFrame
     //     0xa7af5c: mov             SP, fp
     //     0xa7af60: ldp             fp, lr, [SP], #0x10
@@ -1767,13 +1767,13 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0xa7afc4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43310] "No upcoming drills"
     //     0xa7afc8: ldr             x1, [x1, #0x310]
     // 0xa7afcc: r0 = L()
-    //     0xa7afcc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7afcc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7afd0: b               #0xa7afe0
     // 0xa7afd4: r1 = "Nothing scheduled yet"
     //     0xa7afd4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43318] "Nothing scheduled yet"
     //     0xa7afd8: ldr             x1, [x1, #0x318]
     // 0xa7afdc: r0 = L()
-    //     0xa7afdc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7afdc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7afe0: LeaveFrame
     //     0xa7afe0: mov             SP, fp
     //     0xa7afe4: ldp             fp, lr, [SP], #0x10
@@ -1783,7 +1783,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0xa7afec: add             x1, PP, #0x43, lsl #12  ; [pp+0x43320] "No overdue drills"
     //     0xa7aff0: ldr             x1, [x1, #0x320]
     // 0xa7aff4: r0 = L()
-    //     0xa7aff4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7aff4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7aff8: LeaveFrame
     //     0xa7aff8: mov             SP, fp
     //     0xa7affc: ldp             fp, lr, [SP], #0x10
@@ -1793,7 +1793,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0xa7b004: add             x1, PP, #0x43, lsl #12  ; [pp+0x43328] "No completed drills yet"
     //     0xa7b008: ldr             x1, [x1, #0x328]
     // 0xa7b00c: r0 = L()
-    //     0xa7b00c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7b00c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7b010: LeaveFrame
     //     0xa7b010: mov             SP, fp
     //     0xa7b014: ldp             fp, lr, [SP], #0x10
@@ -1863,11 +1863,11 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0xa7b33c: mov             x3, x0
     // 0xa7b340: stur            x0, [fp, #-8]
     // 0xa7b344: r0 = _progressLabel()
-    //     0xa7b344: bl              #0xa7bdc4  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_progressLabel
+    //     0xa7b344: bl              #0xa7bdc4  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_progressLabel
     // 0xa7b348: ldr             x1, [fp, #0x18]
     // 0xa7b34c: stur            x0, [fp, #-0x20]
-    // 0xa7b350: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xa7b350: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xa7b350: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xa7b350: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xa7b354: stur            x0, [fp, #-0x28]
     // 0xa7b358: r0 = Radius()
     //     0xa7b358: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -1908,7 +1908,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0xa7b3b0: stur            w0, [x2, #0x23]
     // 0xa7b3b4: ldur            x1, [fp, #-0x10]
     // 0xa7b3b8: r0 = isWholeTeam()
-    //     0xa7b3b8: bl              #0xa7bda4  ; [package:ballai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::isWholeTeam
+    //     0xa7b3b8: bl              #0xa7bda4  ; [package:kourtai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::isWholeTeam
     // 0xa7b3bc: tbnz            w0, #4, #0xa7b3cc
     // 0xa7b3c0: r2 = "Whole team"
     //     0xa7b3c0: add             x2, PP, #0x43, lsl #12  ; [pp+0x43278] "Whole team"
@@ -1920,8 +1920,8 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0xa7b3d4: ldur            x0, [fp, #-0x20]
     // 0xa7b3d8: ldr             x1, [fp, #0x18]
     // 0xa7b3dc: stur            x2, [fp, #-0x28]
-    // 0xa7b3e0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa7b3e0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa7b3e0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa7b3e0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa7b3e4: stur            x0, [fp, #-0x38]
     // 0xa7b3e8: r0 = TextStyle()
     //     0xa7b3e8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2009,7 +2009,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0xa7b4bc: ldur            x2, [fp, #-0x10]
     // 0xa7b4c0: ldur            x3, [fp, #-8]
     // 0xa7b4c4: r0 = _progressColor()
-    //     0xa7b4c4: bl              #0xa7bc6c  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_progressColor
+    //     0xa7b4c4: bl              #0xa7bc6c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_progressColor
     // 0xa7b4c8: r16 = 0.140000
     //     0xa7b4c8: add             x16, PP, #0x2d, lsl #12  ; [pp+0x2d490] 0.14
     //     0xa7b4cc: ldr             x16, [x16, #0x490]
@@ -2066,7 +2066,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0xa7b550: ldur            x2, [fp, #-0x10]
     // 0xa7b554: ldur            x3, [fp, #-8]
     // 0xa7b558: r0 = _progressColor()
-    //     0xa7b558: bl              #0xa7bc6c  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_progressColor
+    //     0xa7b558: bl              #0xa7bc6c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_progressColor
     // 0xa7b55c: stur            x0, [fp, #-0x38]
     // 0xa7b560: r0 = TextStyle()
     //     0xa7b560: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2206,7 +2206,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0xa7b6d0: mov             x1, x2
     // 0xa7b6d4: ldur            x2, [fp, #-0x10]
     // 0xa7b6d8: r0 = _drillTitle()
-    //     0xa7b6d8: bl              #0xa7bbe8  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_drillTitle
+    //     0xa7b6d8: bl              #0xa7bbe8  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_drillTitle
     // 0xa7b6dc: stur            x0, [fp, #-0x18]
     // 0xa7b6e0: r0 = Text()
     //     0xa7b6e0: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2268,8 +2268,8 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0xa7b774: cbz             w1, #0xa7b80c
     // 0xa7b778: ldur            x0, [fp, #-0x18]
     // 0xa7b77c: ldr             x1, [fp, #0x18]
-    // 0xa7b780: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa7b780: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa7b780: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa7b780: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa7b784: stur            x0, [fp, #-0x28]
     // 0xa7b788: r0 = TextStyle()
     //     0xa7b788: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2364,7 +2364,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0xa7b870: DecompressPointer r1
     //     0xa7b870: add             x1, x1, HEAP, lsl #32
     // 0xa7b874: r0 = _formatDue()
-    //     0xa7b874: bl              #0xa7ba7c  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_formatDue
+    //     0xa7b874: bl              #0xa7ba7c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_formatDue
     // 0xa7b878: r1 = Null
     //     0xa7b878: mov             x1, NULL
     // 0xa7b87c: r2 = 2
@@ -2394,16 +2394,16 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0xa7b8b8: add             x1, PP, #0x43, lsl #12  ; [pp+0x43290] "Due %@"
     //     0xa7b8bc: ldr             x1, [x1, #0x290]
     // 0xa7b8c0: r0 = LF()
-    //     0xa7b8c0: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xa7b8c0: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xa7b8c4: ldur            x1, [fp, #-0x10]
     // 0xa7b8c8: stur            x0, [fp, #-0x18]
     // 0xa7b8cc: r0 = isPastDue()
-    //     0xa7b8cc: bl              #0xa7b1c4  ; [package:ballai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::isPastDue
+    //     0xa7b8cc: bl              #0xa7b1c4  ; [package:kourtai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::isPastDue
     // 0xa7b8d0: tbnz            w0, #4, #0xa7b900
     // 0xa7b8d4: ldur            x1, [fp, #-0x10]
     // 0xa7b8d8: ldur            x2, [fp, #-8]
     // 0xa7b8dc: r0 = hasCompleted()
-    //     0xa7b8dc: bl              #0xa7b240  ; [package:ballai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::hasCompleted
+    //     0xa7b8dc: bl              #0xa7b240  ; [package:kourtai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::hasCompleted
     // 0xa7b8e0: tbz             w0, #4, #0xa7b900
     // 0xa7b8e4: r1 = _ConstMap len:10
     //     0xa7b8e4: ldr             x1, [PP, #0x5468]  ; [pp+0x5468] Map<int, Color>(10)
@@ -2758,7 +2758,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0xa7bcb0: mov             x1, x3
     // 0xa7bcb4: mov             x2, x0
     // 0xa7bcb8: r0 = hasCompleted()
-    //     0xa7bcb8: bl              #0xa7b240  ; [package:ballai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::hasCompleted
+    //     0xa7bcb8: bl              #0xa7b240  ; [package:kourtai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::hasCompleted
     // 0xa7bcbc: tbnz            w0, #4, #0xa7bcd4
     // 0xa7bcc0: r0 = Instance_Color
     //     0xa7bcc0: add             x0, PP, #0x43, lsl #12  ; [pp+0x432a8] Obj!Color@d2a311
@@ -2770,12 +2770,12 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0xa7bcd0: ret             
     // 0xa7bcd4: ldur            x1, [fp, #-8]
     // 0xa7bcd8: r0 = isPastDue()
-    //     0xa7bcd8: bl              #0xa7b1c4  ; [package:ballai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::isPastDue
+    //     0xa7bcd8: bl              #0xa7b1c4  ; [package:kourtai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::isPastDue
     // 0xa7bcdc: tbnz            w0, #4, #0xa7bd04
     // 0xa7bce0: ldur            x1, [fp, #-8]
     // 0xa7bce4: ldur            x2, [fp, #-0x10]
     // 0xa7bce8: r0 = hasCompleted()
-    //     0xa7bce8: bl              #0xa7b240  ; [package:ballai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::hasCompleted
+    //     0xa7bce8: bl              #0xa7b240  ; [package:kourtai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::hasCompleted
     // 0xa7bcec: tbz             w0, #4, #0xa7bd04
     // 0xa7bcf0: r0 = Instance_Color
     //     0xa7bcf0: add             x0, PP, #0x15, lsl #12  ; [pp+0x151c8] Obj!Color@d2a221
@@ -2788,7 +2788,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0xa7bd04: ldur            x1, [fp, #-8]
     // 0xa7bd08: ldur            x2, [fp, #-0x10]
     // 0xa7bd0c: r0 = hasStarted()
-    //     0xa7bd0c: bl              #0xa7bd44  ; [package:ballai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::hasStarted
+    //     0xa7bd0c: bl              #0xa7bd44  ; [package:kourtai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::hasStarted
     // 0xa7bd10: tbnz            w0, #4, #0xa7bd28
     // 0xa7bd14: r0 = Instance_Color
     //     0xa7bd14: add             x0, PP, #0x2d, lsl #12  ; [pp+0x2d308] Obj!Color@d2a2e1
@@ -2838,7 +2838,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0xa7be04: mov             x1, x3
     // 0xa7be08: mov             x2, x0
     // 0xa7be0c: r0 = hasCompleted()
-    //     0xa7be0c: bl              #0xa7b240  ; [package:ballai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::hasCompleted
+    //     0xa7be0c: bl              #0xa7b240  ; [package:kourtai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::hasCompleted
     // 0xa7be10: tbnz            w0, #4, #0xa7be28
     // 0xa7be14: r0 = "Completed"
     //     0xa7be14: add             x0, PP, #0x43, lsl #12  ; [pp+0x432b0] "Completed"
@@ -2851,7 +2851,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0xa7be28: ldur            x1, [fp, #-8]
     // 0xa7be2c: ldur            x2, [fp, #-0x10]
     // 0xa7be30: r0 = hasStarted()
-    //     0xa7be30: bl              #0xa7bd44  ; [package:ballai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::hasStarted
+    //     0xa7be30: bl              #0xa7bd44  ; [package:kourtai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::hasStarted
     // 0xa7be34: tbnz            w0, #4, #0xa7be4c
     // 0xa7be38: r0 = "In progress"
     //     0xa7be38: add             x0, PP, #0x43, lsl #12  ; [pp+0x432b8] "In progress"
@@ -2863,7 +2863,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0xa7be48: ret             
     // 0xa7be4c: ldur            x1, [fp, #-8]
     // 0xa7be50: r0 = isPastDue()
-    //     0xa7be50: bl              #0xa7b1c4  ; [package:ballai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::isPastDue
+    //     0xa7be50: bl              #0xa7b1c4  ; [package:kourtai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::isPastDue
     // 0xa7be54: tbnz            w0, #4, #0xa7be6c
     // 0xa7be58: r0 = "Overdue"
     //     0xa7be58: add             x0, PP, #0x43, lsl #12  ; [pp+0x432c0] "Overdue"
@@ -2967,7 +2967,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0xa7bf58: mov             x1, x2
     // 0xa7bf5c: mov             x2, x16
     // 0xa7bf60: r0 = countIn()
-    //     0xa7bf60: bl              #0xa7c3d4  ; [package:ballai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::countIn
+    //     0xa7bf60: bl              #0xa7c3d4  ; [package:kourtai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::countIn
     // 0xa7bf64: mov             x1, x0
     // 0xa7bf68: ldur            x0, [fp, #-0x18]
     // 0xa7bf6c: stur            x1, [fp, #-0x30]
@@ -3320,7 +3320,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0xa7c330: stur            w0, [x3, #0x1b]
     // 0xa7c334: ldur            x2, [fp, #-0x28]
     // 0xa7c338: r1 = Function '<anonymous closure>':.
-    //     0xa7c338: add             x1, PP, #0x43, lsl #12  ; [pp+0x432d8] AnonymousClosure: (0xa7c468), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::build (0xa7a4b8)
+    //     0xa7c338: add             x1, PP, #0x43, lsl #12  ; [pp+0x432d8] AnonymousClosure: (0xa7c468), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::build (0xa7a4b8)
     //     0xa7c33c: ldr             x1, [x1, #0x2d8]
     // 0xa7c340: r0 = AllocateClosure()
     //     0xa7c340: bl              #0xe553e0  ; AllocateClosureStub
@@ -3420,7 +3420,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0xa7c4b0: add             x2, x2, HEAP, lsl #32
     // 0xa7c4b4: mov             x1, x0
     // 0xa7c4b8: r0 = setFilter()
-    //     0xa7c4b8: bl              #0xa7c4e0  ; [package:ballai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::setFilter
+    //     0xa7c4b8: bl              #0xa7c4e0  ; [package:kourtai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::setFilter
     // 0xa7c4bc: r0 = Null
     //     0xa7c4bc: mov             x0, NULL
     // 0xa7c4c0: LeaveFrame
@@ -3463,7 +3463,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0xa7c584: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa7c588: ldur            x2, [fp, #-8]
     // 0xa7c58c: r1 = Function '<anonymous closure>':.
-    //     0xa7c58c: add             x1, PP, #0x43, lsl #12  ; [pp+0x432e8] AnonymousClosure: (0xa7c5f0), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::build (0xa7a4b8)
+    //     0xa7c58c: add             x1, PP, #0x43, lsl #12  ; [pp+0x432e8] AnonymousClosure: (0xa7c5f0), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::build (0xa7a4b8)
     //     0xa7c590: ldr             x1, [x1, #0x2e8]
     // 0xa7c594: stur            x0, [fp, #-8]
     // 0xa7c598: r0 = AllocateClosure()
@@ -3547,7 +3547,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0xb5bbd0: mov             fp, SP
     // 0xb5bbd4: ldr             x2, [fp, #0x10]
     // 0xb5bbd8: r1 = Function 'dispose':.
-    //     0xb5bbd8: add             x1, PP, #0x43, lsl #12  ; [pp+0x431e8] AnonymousClosure: (0xb5bbf0), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::dispose (0xb62e20)
+    //     0xb5bbd8: add             x1, PP, #0x43, lsl #12  ; [pp+0x431e8] AnonymousClosure: (0xb5bbf0), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::dispose (0xb62e20)
     //     0xb5bbdc: ldr             x1, [x1, #0x1e8]
     // 0xb5bbe0: r0 = AllocateClosure()
     //     0xb5bbe0: bl              #0xe553e0  ; AllocateClosureStub
@@ -3572,7 +3572,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     //     0xb5bc08: cmp             SP, x16
     //     0xb5bc0c: b.ls            #0xb5bc20
     // 0xb5bc10: r0 = dispose()
-    //     0xb5bc10: bl              #0xb62e20  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::dispose
+    //     0xb5bc10: bl              #0xb62e20  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::dispose
     // 0xb5bc14: LeaveFrame
     //     0xb5bc14: mov             SP, fp
     //     0xb5bc18: ldp             fp, lr, [SP], #0x10
@@ -3607,7 +3607,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0xb62e54: mov             x2, x0
     // 0xb62e58: stur            x3, [fp, #-8]
     // 0xb62e5c: r1 = Function '_onVmChanged@1222494671':.
-    //     0xb62e5c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43338] AnonymousClosure: (0x97d6cc), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_onVmChanged (0x97d704)
+    //     0xb62e5c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43338] AnonymousClosure: (0x97d6cc), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/scheduled_drills_view.dart] _ScheduledDrillsViewState::_onVmChanged (0x97d704)
     //     0xb62e60: ldr             x1, [x1, #0x338]
     // 0xb62e64: r0 = AllocateClosure()
     //     0xb62e64: bl              #0xe553e0  ; AllocateClosureStub
@@ -3621,7 +3621,7 @@ class _ScheduledDrillsViewState extends State<dynamic> {
     // 0xb62e7c: DecompressPointer r1
     //     0xb62e7c: add             x1, x1, HEAP, lsl #32
     // 0xb62e80: r0 = dispose()
-    //     0xb62e80: bl              #0x9be380  ; [package:ballai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::dispose
+    //     0xb62e80: bl              #0x9be380  ; [package:kourtai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::dispose
     // 0xb62e84: r0 = Null
     //     0xb62e84: mov             x0, NULL
     // 0xb62e88: LeaveFrame

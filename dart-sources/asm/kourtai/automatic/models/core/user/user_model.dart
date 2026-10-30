@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/user/user_model.dart
+// lib: , url: package:kourtai/automatic/models/core/user/user_model.dart
 
 // class id: 1048711, size: 0x8
 class :: {
@@ -302,7 +302,7 @@ class UserModel extends Object {
     //     0x6515d4: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x6515d8: b               #0x651560
   }
-  get _ isBallAIOrgMember(/* No info */) {
+  get _ isKourtAIOrgMember(/* No info */) {
     // ** addr: 0x651600, size: 0x110
     // 0x651600: EnterFrame
     //     0x651600: stp             fp, lr, [SP, #-0x10]!
@@ -387,8 +387,8 @@ class UserModel extends Object {
     // 0x6516e0: sub             x1, x2, #0xb
     // 0x6516e4: lsl             x2, x1, #1
     // 0x6516e8: stp             x2, x0, [SP, #8]
-    // 0x6516ec: r16 = "@ballai.app"
-    //     0x6516ec: add             x16, PP, #0x14, lsl #12  ; [pp+0x14540] "@ballai.app"
+    // 0x6516ec: r16 = "@kourtai.app"
+    //     0x6516ec: add             x16, PP, #0x14, lsl #12  ; [pp+0x14540] "@kourtai.app"
     //     0x6516f0: ldr             x16, [x16, #0x540]
     // 0x6516f4: str             x16, [SP]
     // 0x6516f8: r0 = _substringMatches()
@@ -436,8 +436,8 @@ class UserModel extends Object {
     // 0x651760: r1 = LoadClassIdInstr(r0)
     //     0x651760: ldur            x1, [x0, #-1]
     //     0x651764: ubfx            x1, x1, #0xc, #0x14
-    // 0x651768: r16 = "utrain@ballai.app"
-    //     0x651768: add             x16, PP, #0x14, lsl #12  ; [pp+0x14548] "utrain@ballai.app"
+    // 0x651768: r16 = "utrain@kourtai.app"
+    //     0x651768: add             x16, PP, #0x14, lsl #12  ; [pp+0x14548] "utrain@kourtai.app"
     //     0x65176c: ldr             x16, [x16, #0x548]
     // 0x651770: stp             x16, x0, [SP]
     // 0x651774: mov             x0, x1
@@ -1714,7 +1714,7 @@ class UserModel extends Object {
     // 0x662ff0: r0 = Map._fromLiteral()
     //     0x662ff0: bl              #0x5cb808  ; [dart:core] Map::Map._fromLiteral
     // 0x662ff4: r1 = Function '<anonymous closure>':.
-    //     0x662ff4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aee8] AnonymousClosure: (0x663678), in [package:ballai/automatic/models/core/user/user_model.dart] UserModel::toFirestoreUpdateMap (0x662298)
+    //     0x662ff4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aee8] AnonymousClosure: (0x663678), in [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::toFirestoreUpdateMap (0x662298)
     //     0x662ff8: ldr             x1, [x1, #0xee8]
     // 0x662ffc: r2 = Null
     //     0x662ffc: mov             x2, NULL
@@ -3612,7 +3612,7 @@ class UserModel extends Object {
     //     0x8fe9d0: blr             lr
     // 0x8fe9d4: mov             x1, x0
     // 0x8fe9d8: r0 = _readDate()
-    //     0x8fe9d8: bl              #0x74441c  ; [package:ballai/automatic/models/core/user/user_model.dart] ::_readDate
+    //     0x8fe9d8: bl              #0x74441c  ; [package:kourtai/automatic/models/core/user/user_model.dart] ::_readDate
     // 0x8fe9dc: mov             x4, x0
     // 0x8fe9e0: ldur            x3, [fp, #-0x10]
     // 0x8fe9e4: stur            x4, [fp, #-0x70]
@@ -3629,7 +3629,7 @@ class UserModel extends Object {
     //     0x8fea04: blr             lr
     // 0x8fea08: mov             x1, x0
     // 0x8fea0c: r0 = _readInt()
-    //     0x8fea0c: bl              #0x769f30  ; [package:ballai/automatic/models/core/user/user_model.dart] ::_readInt
+    //     0x8fea0c: bl              #0x769f30  ; [package:kourtai/automatic/models/core/user/user_model.dart] ::_readInt
     // 0x8fea10: cmp             w0, NULL
     // 0x8fea14: b.ne            #0x8fea20
     // 0x8fea18: r4 = 500
@@ -3655,7 +3655,7 @@ class UserModel extends Object {
     //     0x8fea54: blr             lr
     // 0x8fea58: mov             x1, x0
     // 0x8fea5c: r0 = _readInt()
-    //     0x8fea5c: bl              #0x769f30  ; [package:ballai/automatic/models/core/user/user_model.dart] ::_readInt
+    //     0x8fea5c: bl              #0x769f30  ; [package:kourtai/automatic/models/core/user/user_model.dart] ::_readInt
     // 0x8fea60: cmp             w0, NULL
     // 0x8fea64: b.ne            #0x8fea70
     // 0x8fea68: r4 = 250
@@ -3681,7 +3681,7 @@ class UserModel extends Object {
     //     0x8feaa4: blr             lr
     // 0x8feaa8: mov             x1, x0
     // 0x8feaac: r0 = _readInt()
-    //     0x8feaac: bl              #0x769f30  ; [package:ballai/automatic/models/core/user/user_model.dart] ::_readInt
+    //     0x8feaac: bl              #0x769f30  ; [package:kourtai/automatic/models/core/user/user_model.dart] ::_readInt
     // 0x8feab0: cmp             w0, NULL
     // 0x8feab4: b.ne            #0x8feac0
     // 0x8feab8: r4 = 3600
@@ -3707,7 +3707,7 @@ class UserModel extends Object {
     //     0x8feaf4: blr             lr
     // 0x8feaf8: mov             x1, x0
     // 0x8feafc: r0 = _readDate()
-    //     0x8feafc: bl              #0x74441c  ; [package:ballai/automatic/models/core/user/user_model.dart] ::_readDate
+    //     0x8feafc: bl              #0x74441c  ; [package:kourtai/automatic/models/core/user/user_model.dart] ::_readDate
     // 0x8feb00: mov             x4, x0
     // 0x8feb04: ldur            x3, [fp, #-0x10]
     // 0x8feb08: stur            x4, [fp, #-0x90]
@@ -3758,7 +3758,7 @@ class UserModel extends Object {
     //     0x8feb84: blr             lr
     // 0x8feb88: mov             x1, x0
     // 0x8feb8c: r0 = _readInt()
-    //     0x8feb8c: bl              #0x769f30  ; [package:ballai/automatic/models/core/user/user_model.dart] ::_readInt
+    //     0x8feb8c: bl              #0x769f30  ; [package:kourtai/automatic/models/core/user/user_model.dart] ::_readInt
     // 0x8feb90: mov             x4, x0
     // 0x8feb94: ldur            x3, [fp, #-0x10]
     // 0x8feb98: stur            x4, [fp, #-0xa0]
@@ -3775,7 +3775,7 @@ class UserModel extends Object {
     //     0x8febb8: blr             lr
     // 0x8febbc: mov             x1, x0
     // 0x8febc0: r0 = _readInt()
-    //     0x8febc0: bl              #0x769f30  ; [package:ballai/automatic/models/core/user/user_model.dart] ::_readInt
+    //     0x8febc0: bl              #0x769f30  ; [package:kourtai/automatic/models/core/user/user_model.dart] ::_readInt
     // 0x8febc4: mov             x4, x0
     // 0x8febc8: ldur            x3, [fp, #-0x10]
     // 0x8febcc: stur            x4, [fp, #-0xa8]
@@ -5045,7 +5045,7 @@ class UserModel extends Object {
     //     0x8ff96c: blr             lr
     // 0x8ff970: mov             x1, x0
     // 0x8ff974: r0 = _readInt()
-    //     0x8ff974: bl              #0x769f30  ; [package:ballai/automatic/models/core/user/user_model.dart] ::_readInt
+    //     0x8ff974: bl              #0x769f30  ; [package:kourtai/automatic/models/core/user/user_model.dart] ::_readInt
     // 0x8ff978: mov             x4, x0
     // 0x8ff97c: ldur            x3, [fp, #-0x10]
     // 0x8ff980: r17 = -408
@@ -5064,7 +5064,7 @@ class UserModel extends Object {
     //     0x8ff9a4: blr             lr
     // 0x8ff9a8: mov             x1, x0
     // 0x8ff9ac: r0 = _readDate()
-    //     0x8ff9ac: bl              #0x74441c  ; [package:ballai/automatic/models/core/user/user_model.dart] ::_readDate
+    //     0x8ff9ac: bl              #0x74441c  ; [package:kourtai/automatic/models/core/user/user_model.dart] ::_readDate
     // 0x8ff9b0: mov             x4, x0
     // 0x8ff9b4: ldur            x3, [fp, #-0x10]
     // 0x8ff9b8: r17 = -416
@@ -5119,7 +5119,7 @@ class UserModel extends Object {
     //     0x8ffa3c: blr             lr
     // 0x8ffa40: mov             x1, x0
     // 0x8ffa44: r0 = _readInt()
-    //     0x8ffa44: bl              #0x769f30  ; [package:ballai/automatic/models/core/user/user_model.dart] ::_readInt
+    //     0x8ffa44: bl              #0x769f30  ; [package:kourtai/automatic/models/core/user/user_model.dart] ::_readInt
     // 0x8ffa48: mov             x4, x0
     // 0x8ffa4c: ldur            x3, [fp, #-0x10]
     // 0x8ffa50: r17 = -432
@@ -5138,7 +5138,7 @@ class UserModel extends Object {
     //     0x8ffa74: blr             lr
     // 0x8ffa78: mov             x1, x0
     // 0x8ffa7c: r0 = _readInt()
-    //     0x8ffa7c: bl              #0x769f30  ; [package:ballai/automatic/models/core/user/user_model.dart] ::_readInt
+    //     0x8ffa7c: bl              #0x769f30  ; [package:kourtai/automatic/models/core/user/user_model.dart] ::_readInt
     // 0x8ffa80: mov             x3, x0
     // 0x8ffa84: ldur            x1, [fp, #-0x10]
     // 0x8ffa88: r17 = -440
@@ -5156,7 +5156,7 @@ class UserModel extends Object {
     //     0x8ffaa8: blr             lr
     // 0x8ffaac: mov             x1, x0
     // 0x8ffab0: r0 = _readDate()
-    //     0x8ffab0: bl              #0x74441c  ; [package:ballai/automatic/models/core/user/user_model.dart] ::_readDate
+    //     0x8ffab0: bl              #0x74441c  ; [package:kourtai/automatic/models/core/user/user_model.dart] ::_readDate
     // 0x8ffab4: stur            x0, [fp, #-0x10]
     // 0x8ffab8: r0 = UserModel()
     //     0x8ffab8: bl              #0x664890  ; AllocateUserModelStub -> UserModel (size=0xf0)

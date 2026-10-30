@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/social/profile_follow_counts.dart
+// lib: , url: package:kourtai/automatic/utility/social/profile_follow_counts.dart
 
 // class id: 1048738, size: 0x8
 class :: {

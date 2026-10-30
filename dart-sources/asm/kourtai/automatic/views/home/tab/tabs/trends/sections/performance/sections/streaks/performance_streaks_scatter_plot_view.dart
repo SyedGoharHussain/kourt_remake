@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/performance/sections/streaks/performance_streaks_scatter_plot_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/performance/sections/streaks/performance_streaks_scatter_plot_view.dart
 
 // class id: 1048980, size: 0x8
 class :: {
@@ -23,7 +23,7 @@ class PerformanceStreaksScatterPlotView extends StatelessWidget {
     //     0xc06cac: cmp             SP, x16
     //     0xc06cb0: b.ls            #0xc06dd8
     // 0xc06cb4: r0 = _runs()
-    //     0xc06cb4: bl              #0xc06dec  ; [package:ballai/automatic/views/home/tab/tabs/trends/sections/performance/sections/streaks/performance_streaks_scatter_plot_view.dart] PerformanceStreaksScatterPlotView::_runs
+    //     0xc06cb4: bl              #0xc06dec  ; [package:kourtai/automatic/views/home/tab/tabs/trends/sections/performance/sections/streaks/performance_streaks_scatter_plot_view.dart] PerformanceStreaksScatterPlotView::_runs
     // 0xc06cb8: stur            x0, [fp, #-0x18]
     // 0xc06cbc: LoadField: r1 = r0->field_b
     //     0xc06cbc: ldur            w1, [x0, #0xb]
@@ -32,10 +32,10 @@ class PerformanceStreaksScatterPlotView extends StatelessWidget {
     //     0xc06cc4: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d5a0] "No shots tracked in this period yet."
     //     0xc06cc8: ldr             x1, [x1, #0x5a0]
     // 0xc06ccc: r0 = L()
-    //     0xc06ccc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc06ccc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc06cd0: stur            x0, [fp, #-0x10]
-    // 0xc06cd4: r0 = BallAiEmptyState()
-    //     0xc06cd4: bl              #0xa63934  ; AllocateBallAiEmptyStateStub -> BallAiEmptyState (size=0x14)
+    // 0xc06cd4: r0 = KourtAiEmptyState()
+    //     0xc06cd4: bl              #0xa63934  ; AllocateKourtAiEmptyStateStub -> KourtAiEmptyState (size=0x14)
     // 0xc06cd8: mov             x1, x0
     // 0xc06cdc: ldur            x0, [fp, #-0x10]
     // 0xc06ce0: StoreField: r1->field_b = r0
@@ -64,8 +64,8 @@ class PerformanceStreaksScatterPlotView extends StatelessWidget {
     // 0xc06d18: StoreField: r0->field_f = d0
     //     0xc06d18: stur            d0, [x0, #0xf]
     // 0xc06d1c: ldur            x1, [fp, #-8]
-    // 0xc06d20: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc06d20: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc06d20: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc06d20: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc06d24: r16 = 0.180000
     //     0xc06d24: add             x16, PP, #0x2d, lsl #12  ; [pp+0x2dde0] 0.18
     //     0xc06d28: ldr             x16, [x16, #0xde0]
@@ -78,8 +78,8 @@ class PerformanceStreaksScatterPlotView extends StatelessWidget {
     //     0xc06d3c: bl              #0xd9bb78  ; [dart:ui] Color::withValues
     // 0xc06d40: ldur            x1, [fp, #-8]
     // 0xc06d44: stur            x0, [fp, #-8]
-    // 0xc06d48: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc06d48: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc06d48: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc06d48: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc06d4c: stur            x0, [fp, #-0x20]
     // 0xc06d50: r0 = _RunScatterPainter()
     //     0xc06d50: bl              #0xc06de0  ; Allocate_RunScatterPainterStub -> _RunScatterPainter (size=0x20)
@@ -160,7 +160,7 @@ class PerformanceStreaksScatterPlotView extends StatelessWidget {
     // 0xc06e14: r0 = _GrowableList.of()
     //     0xc06e14: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0xc06e18: r1 = Function '<anonymous closure>':.
-    //     0xc06e18: add             x1, PP, #0x53, lsl #12  ; [pp+0x53670] AnonymousClosure: (0x8f6a60), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
+    //     0xc06e18: add             x1, PP, #0x53, lsl #12  ; [pp+0x53670] AnonymousClosure: (0x8f6a60), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
     //     0xc06e1c: ldr             x1, [x1, #0x670]
     // 0xc06e20: r2 = Null
     //     0xc06e20: mov             x2, NULL
@@ -473,7 +473,7 @@ class _RunScatterPainter extends CustomPainter {
     // 0x841c10: r0 = map()
     //     0x841c10: bl              #0x8e024c  ; [dart:collection] ListBase::map
     // 0x841c14: r1 = Function '<anonymous closure>':.
-    //     0x841c14: add             x1, PP, #0x55, lsl #12  ; [pp+0x55248] AnonymousClosure: (0x842104), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::build (0xa8aaf4)
+    //     0x841c14: add             x1, PP, #0x55, lsl #12  ; [pp+0x55248] AnonymousClosure: (0x842104), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_player_pane.dart] _YouProfileVCardState::build (0xa8aaf4)
     //     0x841c18: ldr             x1, [x1, #0x248]
     // 0x841c1c: r2 = Null
     //     0x841c1c: mov             x2, NULL

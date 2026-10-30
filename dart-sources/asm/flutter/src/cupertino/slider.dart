@@ -3573,7 +3573,7 @@ class _CupertinoSliderState extends __CupertinoSliderState&State&TickerProviderS
     // 0xaf34b8: mov             x1, x2
     // 0xaf34bc: mov             x2, x16
     // 0xaf34c0: r0 = _onScrubEnd()
-    //     0xaf34c0: bl              #0x813d10  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_onScrubEnd
+    //     0xaf34c0: bl              #0x813d10  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_onScrubEnd
     // 0xaf34c4: r0 = Null
     //     0xaf34c4: mov             x0, NULL
     // 0xaf34c8: LeaveFrame

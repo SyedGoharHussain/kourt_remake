@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart
 
 // class id: 1049030, size: 0x8
 class :: {
@@ -57,7 +57,7 @@ class _UserProfileContentViewState extends State<dynamic> {
     // 0xa8d14c: r0 = of()
     //     0xa8d14c: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa8d150: r1 = Function '<anonymous closure>':.
-    //     0xa8d150: add             x1, PP, #0x36, lsl #12  ; [pp+0x36fc0] AnonymousClosure: (0xa8d0e0), in [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openPictureSheet (0xa8d294)
+    //     0xa8d150: add             x1, PP, #0x36, lsl #12  ; [pp+0x36fc0] AnonymousClosure: (0xa8d0e0), in [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openPictureSheet (0xa8d294)
     //     0xa8d154: ldr             x1, [x1, #0xfc0]
     // 0xa8d158: r2 = Null
     //     0xa8d158: mov             x2, NULL
@@ -99,7 +99,7 @@ class _UserProfileContentViewState extends State<dynamic> {
     //     0xa8d1b8: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa8d1bc: ldur            x2, [fp, #-0x18]
     // 0xa8d1c0: r1 = Function '<anonymous closure>':.
-    //     0xa8d1c0: add             x1, PP, #0x36, lsl #12  ; [pp+0x36fc8] AnonymousClosure: (0xa8d230), in [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openPictureSheet (0xa8d294)
+    //     0xa8d1c0: add             x1, PP, #0x36, lsl #12  ; [pp+0x36fc8] AnonymousClosure: (0xa8d230), in [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openPictureSheet (0xa8d294)
     //     0xa8d1c4: ldr             x1, [x1, #0xfc8]
     // 0xa8d1c8: stur            x0, [fp, #-8]
     // 0xa8d1cc: r0 = AllocateClosure()
@@ -264,13 +264,13 @@ class _UserProfileContentViewState extends State<dynamic> {
     // 0xa8d354: mov             x2, x1
     // 0xa8d358: stur            x12, [fp, #-0x10]
     // 0xa8d35c: r1 = Function '<anonymous closure>':.
-    //     0xa8d35c: add             x1, PP, #0x36, lsl #12  ; [pp+0x36fa0] AnonymousClosure: (0xa8d0ec), in [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openPictureSheet (0xa8d294)
+    //     0xa8d35c: add             x1, PP, #0x36, lsl #12  ; [pp+0x36fa0] AnonymousClosure: (0xa8d0ec), in [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openPictureSheet (0xa8d294)
     //     0xa8d360: ldr             x1, [x1, #0xfa0]
     // 0xa8d364: r0 = AllocateClosure()
     //     0xa8d364: bl              #0xe553e0  ; AllocateClosureStub
     // 0xa8d368: ldur            x2, [fp, #-8]
     // 0xa8d36c: r1 = Function '_openShareComposer@1285307902':.
-    //     0xa8d36c: add             x1, PP, #0x36, lsl #12  ; [pp+0x36fa8] AnonymousClosure: (0xa8d9b0), in [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openShareComposer (0xa8d9e8)
+    //     0xa8d36c: add             x1, PP, #0x36, lsl #12  ; [pp+0x36fa8] AnonymousClosure: (0xa8d9b0), in [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openShareComposer (0xa8d9e8)
     //     0xa8d370: ldr             x1, [x1, #0xfa8]
     // 0xa8d374: stur            x0, [fp, #-8]
     // 0xa8d378: r0 = AllocateClosure()
@@ -295,7 +295,7 @@ class _UserProfileContentViewState extends State<dynamic> {
     //     0xa8d3bc: add             x4, PP, #0x36, lsl #12  ; [pp+0x36fb0] List(23) [0, 0xc, 0x9, 0x3, "followsCurrentUser", 0x6, "hasIncomingFollowRequest", 0x5, "hasPendingFollowRequest", 0x4, "isFollowInFlight", 0x7, "isFollowing", 0x3, "onFollowTap", 0x8, "onMessageTap", 0x9, "onShareProfileTap", 0xb, "onViewProfileTap", 0xa, Null]
     //     0xa8d3c0: ldr             x4, [x4, #0xfb0]
     // 0xa8d3c4: r0 = present()
-    //     0xa8d3c4: bl              #0xa8d3e8  ; [package:ballai/automatic/views/home/tab/tabs/you/components/profile_picture_sheet.dart] ProfilePictureSheet::present
+    //     0xa8d3c4: bl              #0xa8d3e8  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/profile_picture_sheet.dart] ProfilePictureSheet::present
     // 0xa8d3c8: r0 = Null
     //     0xa8d3c8: mov             x0, NULL
     // 0xa8d3cc: LeaveFrame
@@ -326,7 +326,7 @@ class _UserProfileContentViewState extends State<dynamic> {
     //     0xa8d9c8: cmp             SP, x16
     //     0xa8d9cc: b.ls            #0xa8d9e0
     // 0xa8d9d0: r0 = _openShareComposer()
-    //     0xa8d9d0: bl              #0xa8d9e8  ; [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openShareComposer
+    //     0xa8d9d0: bl              #0xa8d9e8  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openShareComposer
     // 0xa8d9d4: LeaveFrame
     //     0xa8d9d4: mov             SP, fp
     //     0xa8d9d8: ldp             fp, lr, [SP], #0x10
@@ -370,7 +370,7 @@ class _UserProfileContentViewState extends State<dynamic> {
     //     0xa8da30: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa8da34: ldur            x2, [fp, #-0x10]
     // 0xa8da38: r1 = Function '<anonymous closure>':.
-    //     0xa8da38: add             x1, PP, #0x36, lsl #12  ; [pp+0x36fb8] AnonymousClosure: (0xa8daa0), in [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openShareComposer (0xa8d9e8)
+    //     0xa8da38: add             x1, PP, #0x36, lsl #12  ; [pp+0x36fb8] AnonymousClosure: (0xa8daa0), in [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openShareComposer (0xa8d9e8)
     //     0xa8da3c: ldr             x1, [x1, #0xfb8]
     // 0xa8da40: stur            x0, [fp, #-8]
     // 0xa8da44: r0 = AllocateClosure()
@@ -492,7 +492,7 @@ class _UserProfileContentViewState extends State<dynamic> {
     //     0xa8db64: cmp             SP, x16
     //     0xa8db68: b.ls            #0xa8db7c
     // 0xa8db6c: r0 = _openPictureSheet()
-    //     0xa8db6c: bl              #0xa8d294  ; [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openPictureSheet
+    //     0xa8db6c: bl              #0xa8d294  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openPictureSheet
     // 0xa8db70: LeaveFrame
     //     0xa8db70: mov             SP, fp
     //     0xa8db74: ldp             fp, lr, [SP], #0x10
@@ -524,7 +524,7 @@ class _UserProfileContentViewState extends State<dynamic> {
     // 0xaa5184: stur            x1, [fp, #-0x10]
     // 0xaa5188: StoreField: r1->field_f = r0
     //     0xaa5188: stur            w0, [x1, #0xf]
-    // 0xaa518c: r0 = InitLateStaticField(0xe24) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::youProfileTab
+    // 0xaa518c: r0 = InitLateStaticField(0xe24) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::youProfileTab
     //     0xaa518c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xaa5190: ldr             x0, [x0, #0x1c48]
     //     0xaa5194: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -535,7 +535,7 @@ class _UserProfileContentViewState extends State<dynamic> {
     //     0xaa51a8: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0xaa51ac: ldur            x2, [fp, #-0x10]
     // 0xaa51b0: r1 = Function '<anonymous closure>':.
-    //     0xaa51b0: add             x1, PP, #0x36, lsl #12  ; [pp+0x36f70] AnonymousClosure: (0xaa51f8), in [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::build (0xaa5158)
+    //     0xaa51b0: add             x1, PP, #0x36, lsl #12  ; [pp+0x36f70] AnonymousClosure: (0xaa51f8), in [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::build (0xaa5158)
     //     0xaa51b4: ldr             x1, [x1, #0xf70]
     // 0xaa51b8: stur            x0, [fp, #-8]
     // 0xaa51bc: r0 = AllocateClosure()
@@ -731,7 +731,7 @@ class _UserProfileContentViewState extends State<dynamic> {
     //     0xaa53a4: stur            w0, [x3, #0x2f]
     // 0xaa53a8: ldur            x2, [fp, #-0x68]
     // 0xaa53ac: r1 = Function '_openPictureSheet@1285307902':.
-    //     0xaa53ac: add             x1, PP, #0x36, lsl #12  ; [pp+0x36f80] AnonymousClosure: (0xa8db4c), in [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openPictureSheet (0xa8d294)
+    //     0xaa53ac: add             x1, PP, #0x36, lsl #12  ; [pp+0x36f80] AnonymousClosure: (0xa8db4c), in [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openPictureSheet (0xa8d294)
     //     0xaa53b0: ldr             x1, [x1, #0xf80]
     // 0xaa53b4: r0 = AllocateClosure()
     //     0xaa53b4: bl              #0xe553e0  ; AllocateClosureStub
@@ -805,11 +805,11 @@ class _UserProfileContentViewState extends State<dynamic> {
     //     0xaa5470: add             x1, PP, #0x36, lsl #12  ; [pp+0x36f88] "This account is private."
     //     0xaa5474: ldr             x1, [x1, #0xf88]
     // 0xaa5478: r0 = L()
-    //     0xaa5478: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa5478: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa547c: ldr             x1, [fp, #0x18]
     // 0xaa5480: stur            x0, [fp, #-0x18]
-    // 0xaa5484: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xaa5484: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xaa5484: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xaa5484: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xaa5488: stur            x0, [fp, #-0x20]
     // 0xaa548c: r0 = TextStyle()
     //     0xaa548c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -882,7 +882,7 @@ class _UserProfileContentViewState extends State<dynamic> {
     //     0xaa5538: bl              #0x5c8034  ; [dart:core] _GrowableList::addAll
     // 0xaa553c: b               #0xaa5610
     // 0xaa5540: r0 = _tab()
-    //     0xaa5540: bl              #0xaa58c8  ; [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_tab
+    //     0xaa5540: bl              #0xaa58c8  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_tab
     // 0xaa5544: mov             x1, x0
     // 0xaa5548: ldur            x0, [fp, #-8]
     // 0xaa554c: stur            x1, [fp, #-0x20]
@@ -911,7 +911,7 @@ class _UserProfileContentViewState extends State<dynamic> {
     //     0xaa5588: stur            w0, [x3, #0xb]
     // 0xaa558c: ldur            x2, [fp, #-0x18]
     // 0xaa5590: r1 = Function '_selectTab@1285307902':.
-    //     0xaa5590: add             x1, PP, #0x36, lsl #12  ; [pp+0x36f90] AnonymousClosure: (0xaa5958), in [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_selectTab (0xaa5994)
+    //     0xaa5590: add             x1, PP, #0x36, lsl #12  ; [pp+0x36f90] AnonymousClosure: (0xaa5958), in [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_selectTab (0xaa5994)
     //     0xaa5594: ldr             x1, [x1, #0xf90]
     // 0xaa5598: r0 = AllocateClosure()
     //     0xaa5598: bl              #0xe553e0  ; AllocateClosureStub
@@ -924,7 +924,7 @@ class _UserProfileContentViewState extends State<dynamic> {
     //     0xaa55ac: stur            w1, [x0, #0x13]
     // 0xaa55b0: ldur            x1, [fp, #-0x18]
     // 0xaa55b4: r0 = _pane()
-    //     0xaa55b4: bl              #0xaa568c  ; [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_pane
+    //     0xaa55b4: bl              #0xaa568c  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_pane
     // 0xaa55b8: r1 = Null
     //     0xaa55b8: mov             x1, NULL
     // 0xaa55bc: r2 = 6
@@ -1030,7 +1030,7 @@ class _UserProfileContentViewState extends State<dynamic> {
     //     0xaa56a8: b.ls            #0xaa5878
     // 0xaa56ac: mov             x1, x0
     // 0xaa56b0: r0 = _tab()
-    //     0xaa56b0: bl              #0xaa58c8  ; [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_tab
+    //     0xaa56b0: bl              #0xaa58c8  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_tab
     // 0xaa56b4: LoadField: r1 = r0->field_7
     //     0xaa56b4: ldur            x1, [x0, #7]
     // 0xaa56b8: cmp             x1, #1
@@ -1094,7 +1094,7 @@ class _UserProfileContentViewState extends State<dynamic> {
     //     0xaa5750: stur            w0, [x3, #0x1f]
     // 0xaa5754: ldur            x2, [fp, #-8]
     // 0xaa5758: r1 = Function '_openShareComposer@1285307902':.
-    //     0xaa5758: add             x1, PP, #0x36, lsl #12  ; [pp+0x36fa8] AnonymousClosure: (0xa8d9b0), in [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openShareComposer (0xa8d9e8)
+    //     0xaa5758: add             x1, PP, #0x36, lsl #12  ; [pp+0x36fa8] AnonymousClosure: (0xa8d9b0), in [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openShareComposer (0xa8d9e8)
     //     0xaa575c: ldr             x1, [x1, #0xfa8]
     // 0xaa5760: r0 = AllocateClosure()
     //     0xaa5760: bl              #0xe553e0  ; AllocateClosureStub
@@ -1178,7 +1178,7 @@ class _UserProfileContentViewState extends State<dynamic> {
     //     0xaa5830: stur            w0, [x3, #0xf]
     // 0xaa5834: ldur            x2, [fp, #-8]
     // 0xaa5838: r1 = Function '_openShareComposer@1285307902':.
-    //     0xaa5838: add             x1, PP, #0x36, lsl #12  ; [pp+0x36fa8] AnonymousClosure: (0xa8d9b0), in [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openShareComposer (0xa8d9e8)
+    //     0xaa5838: add             x1, PP, #0x36, lsl #12  ; [pp+0x36fa8] AnonymousClosure: (0xa8d9b0), in [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openShareComposer (0xa8d9e8)
     //     0xaa583c: ldr             x1, [x1, #0xfa8]
     // 0xaa5840: r0 = AllocateClosure()
     //     0xaa5840: bl              #0xe553e0  ; AllocateClosureStub
@@ -1188,7 +1188,7 @@ class _UserProfileContentViewState extends State<dynamic> {
     //     0xaa584c: stur            w1, [x0, #0x13]
     // 0xaa5850: ldur            x2, [fp, #-8]
     // 0xaa5854: r1 = Function '_openPictureSheet@1285307902':.
-    //     0xaa5854: add             x1, PP, #0x36, lsl #12  ; [pp+0x36f80] AnonymousClosure: (0xa8db4c), in [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openPictureSheet (0xa8d294)
+    //     0xaa5854: add             x1, PP, #0x36, lsl #12  ; [pp+0x36f80] AnonymousClosure: (0xa8db4c), in [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_openPictureSheet (0xa8d294)
     //     0xaa5858: ldr             x1, [x1, #0xf80]
     // 0xaa585c: r0 = AllocateClosure()
     //     0xaa585c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1231,7 +1231,7 @@ class _UserProfileContentViewState extends State<dynamic> {
     // 0xaa58f0: DecompressPointer r2
     //     0xaa58f0: add             x2, x2, HEAP, lsl #32
     // 0xaa58f4: tbnz            w2, #4, #0xaa5928
-    // 0xaa58f8: r0 = InitLateStaticField(0xe24) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::youProfileTab
+    // 0xaa58f8: r0 = InitLateStaticField(0xe24) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::youProfileTab
     //     0xaa58f8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xaa58fc: ldr             x0, [x0, #0x1c48]
     //     0xaa5900: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1278,7 +1278,7 @@ class _UserProfileContentViewState extends State<dynamic> {
     //     0xaa5974: b.ls            #0xaa598c
     // 0xaa5978: ldr             x2, [fp, #0x10]
     // 0xaa597c: r0 = _selectTab()
-    //     0xaa597c: bl              #0xaa5994  ; [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_selectTab
+    //     0xaa597c: bl              #0xaa5994  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_selectTab
     // 0xaa5980: LeaveFrame
     //     0xaa5980: mov             SP, fp
     //     0xaa5984: ldp             fp, lr, [SP], #0x10
@@ -1325,7 +1325,7 @@ class _UserProfileContentViewState extends State<dynamic> {
     // 0xaa59e8: DecompressPointer r3
     //     0xaa59e8: add             x3, x3, HEAP, lsl #32
     // 0xaa59ec: tbnz            w3, #4, #0xaa5a2c
-    // 0xaa59f0: r0 = InitLateStaticField(0xe24) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::youProfileTab
+    // 0xaa59f0: r0 = InitLateStaticField(0xe24) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::youProfileTab
     //     0xaa59f0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xaa59f4: ldr             x0, [x0, #0x1c48]
     //     0xaa59f8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1346,7 +1346,7 @@ class _UserProfileContentViewState extends State<dynamic> {
     // 0xaa5a28: b               #0xaa5a48
     // 0xaa5a2c: mov             x2, x1
     // 0xaa5a30: r1 = Function '<anonymous closure>':.
-    //     0xaa5a30: add             x1, PP, #0x36, lsl #12  ; [pp+0x36f98] AnonymousClosure: (0x8e5cc8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
+    //     0xaa5a30: add             x1, PP, #0x36, lsl #12  ; [pp+0x36f98] AnonymousClosure: (0x8e5cc8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
     //     0xaa5a34: ldr             x1, [x1, #0xf98]
     // 0xaa5a38: r0 = AllocateClosure()
     //     0xaa5a38: bl              #0xe553e0  ; AllocateClosureStub

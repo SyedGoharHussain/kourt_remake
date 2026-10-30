@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart
 
 // class id: 1048832, size: 0x8
 class :: {
@@ -48,7 +48,7 @@ abstract class BallyDirector extends Object {
     // 0x9335ec: ldur            x1, [fp, #-0x20]
     // 0x9335f0: ldur            x2, [fp, #-0x10]
     // 0x9335f4: r0 = render()
-    //     0x9335f4: bl              #0x936840  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::render
+    //     0x9335f4: bl              #0x936840  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::render
     // 0x9335f8: LeaveFrame
     //     0x9335f8: mov             SP, fp
     //     0x9335fc: ldp             fp, lr, [SP], #0x10
@@ -69,11 +69,11 @@ abstract class BallyDirector extends Object {
     // 0x93362c: ldur            x1, [fp, #-8]
     // 0x933630: ldur            x2, [fp, #-0x30]
     // 0x933634: r0 = _markFrequencyInsightUsed()
-    //     0x933634: bl              #0x936750  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_markFrequencyInsightUsed
+    //     0x933634: bl              #0x936750  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_markFrequencyInsightUsed
     // 0x933638: ldur            x1, [fp, #-8]
     // 0x93363c: ldur            x2, [fp, #-0x10]
     // 0x933640: r0 = _everySessionLine()
-    //     0x933640: bl              #0x936678  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_everySessionLine
+    //     0x933640: bl              #0x936678  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_everySessionLine
     // 0x933644: LeaveFrame
     //     0x933644: mov             SP, fp
     //     0x933648: ldp             fp, lr, [SP], #0x10
@@ -86,7 +86,7 @@ abstract class BallyDirector extends Object {
     // 0x933660: mov             x5, x0
     // 0x933664: ldur            x6, [fp, #-0x30]
     // 0x933668: r0 = _reaction()
-    //     0x933668: bl              #0x933f78  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_reaction
+    //     0x933668: bl              #0x933f78  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_reaction
     // 0x93366c: mov             x1, x0
     // 0x933670: ldur            x0, [fp, #-0x28]
     // 0x933674: stur            x1, [fp, #-8]
@@ -107,7 +107,7 @@ abstract class BallyDirector extends Object {
     // 0x9336a8: ldur            x1, [fp, #-0x10]
     // 0x9336ac: ldur            x2, [fp, #-0x38]
     // 0x9336b0: r0 = _greeting()
-    //     0x9336b0: bl              #0x933e20  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_greeting
+    //     0x9336b0: bl              #0x933e20  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_greeting
     // 0x9336b4: mov             x4, x0
     // 0x9336b8: b               #0x9336c0
     // 0x9336bc: r4 = Null
@@ -160,22 +160,22 @@ abstract class BallyDirector extends Object {
     // 0x933734: ldur            x2, [fp, #-0x10]
     // 0x933738: stur            x0, [fp, #-8]
     // 0x93373c: r0 = _prefixContainsName()
-    //     0x93373c: bl              #0x933d54  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_prefixContainsName
+    //     0x93373c: bl              #0x933d54  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_prefixContainsName
     // 0x933740: tbnz            w0, #4, #0x933764
     // 0x933744: ldur            x1, [fp, #-0x20]
     // 0x933748: ldur            x2, [fp, #-0x10]
     // 0x93374c: r0 = render()
-    //     0x93374c: bl              #0x936840  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::render
+    //     0x93374c: bl              #0x936840  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::render
     // 0x933750: mov             x1, x0
     // 0x933754: ldur            x2, [fp, #-0x10]
     // 0x933758: r0 = stripRenderedName()
-    //     0x933758: bl              #0x9337d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::stripRenderedName
+    //     0x933758: bl              #0x9337d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::stripRenderedName
     // 0x93375c: mov             x3, x0
     // 0x933760: b               #0x933774
     // 0x933764: ldur            x1, [fp, #-0x20]
     // 0x933768: ldur            x2, [fp, #-0x10]
     // 0x93376c: r0 = render()
-    //     0x93376c: bl              #0x936840  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::render
+    //     0x93376c: bl              #0x936840  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::render
     // 0x933770: mov             x3, x0
     // 0x933774: ldur            x0, [fp, #-8]
     // 0x933778: stur            x3, [fp, #-0x10]
@@ -229,13 +229,13 @@ abstract class BallyDirector extends Object {
     //     0x9337ec: cmp             SP, x16
     //     0x9337f0: b.ls            #0x933a74
     // 0x9337f4: r0 = nameOrHooper()
-    //     0x9337f4: bl              #0x933d14  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::nameOrHooper
+    //     0x9337f4: bl              #0x933d14  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::nameOrHooper
     // 0x9337f8: r1 = "hooper"
     //     0x9337f8: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a630] "hooper"
     //     0x9337fc: ldr             x1, [x1, #0x630]
     // 0x933800: stur            x0, [fp, #-0x10]
     // 0x933804: r0 = L()
-    //     0x933804: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x933804: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x933808: ldur            x1, [fp, #-0x10]
     // 0x93380c: r2 = LoadClassIdInstr(r1)
     //     0x93380c: ldur            x2, [x1, #-1]
@@ -463,7 +463,7 @@ abstract class BallyDirector extends Object {
     //     0x933a5c: bl              #0x5ed854  ; [dart:core] _StringBase::trim
     // 0x933a60: mov             x1, x0
     // 0x933a64: r0 = _capitalizeNotificationFunnelCopy()
-    //     0x933a64: bl              #0x7474c4  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_capitalizeNotificationFunnelCopy
+    //     0x933a64: bl              #0x7474c4  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_capitalizeNotificationFunnelCopy
     // 0x933a68: LeaveFrame
     //     0x933a68: mov             SP, fp
     //     0x933a6c: ldp             fp, lr, [SP], #0x10
@@ -494,7 +494,7 @@ abstract class BallyDirector extends Object {
     //     0x933d34: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a630] "hooper"
     //     0x933d38: ldr             x1, [x1, #0x630]
     // 0x933d3c: r0 = L()
-    //     0x933d3c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x933d3c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x933d40: LeaveFrame
     //     0x933d40: mov             SP, fp
     //     0x933d44: ldp             fp, lr, [SP], #0x10
@@ -607,10 +607,10 @@ abstract class BallyDirector extends Object {
     // 0x933e64: ret
     //     0x933e64: ret             
     // 0x933e68: r0 = _greetings()
-    //     0x933e68: bl              #0x933ed8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_greetings
+    //     0x933e68: bl              #0x933ed8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_greetings
     // 0x933e6c: stur            x0, [fp, #-0x18]
     // 0x933e70: r0 = _greetings()
-    //     0x933e70: bl              #0x933ed8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_greetings
+    //     0x933e70: bl              #0x933ed8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_greetings
     // 0x933e74: LoadField: r1 = r0->field_b
     //     0x933e74: ldur            w1, [x0, #0xb]
     // 0x933e78: r2 = LoadInt32Instr(r1)
@@ -639,7 +639,7 @@ abstract class BallyDirector extends Object {
     //     0x933eb4: add             x1, x1, HEAP, lsl #32
     // 0x933eb8: ldur            x2, [fp, #-8]
     // 0x933ebc: r0 = render()
-    //     0x933ebc: bl              #0x936840  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::render
+    //     0x933ebc: bl              #0x936840  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::render
     // 0x933ec0: LeaveFrame
     //     0x933ec0: mov             SP, fp
     //     0x933ec4: ldp             fp, lr, [SP], #0x10
@@ -666,19 +666,19 @@ abstract class BallyDirector extends Object {
     //     0x933ef0: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a650] "Pleasure to meet you, {name}."
     //     0x933ef4: ldr             x1, [x1, #0x650]
     // 0x933ef8: r0 = L()
-    //     0x933ef8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x933ef8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x933efc: r1 = "Good to meet you, {name}."
     //     0x933efc: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a658] "Good to meet you, {name}."
     //     0x933f00: ldr             x1, [x1, #0x658]
     // 0x933f04: stur            x0, [fp, #-8]
     // 0x933f08: r0 = L()
-    //     0x933f08: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x933f08: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x933f0c: r1 = "Alright {name}, let\'s get to work."
     //     0x933f0c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a660] "Alright {name}, let\'s get to work."
     //     0x933f10: ldr             x1, [x1, #0x660]
     // 0x933f14: stur            x0, [fp, #-0x10]
     // 0x933f18: r0 = L()
-    //     0x933f18: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x933f18: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x933f1c: r1 = Null
     //     0x933f1c: mov             x1, NULL
     // 0x933f20: r2 = 6
@@ -752,10 +752,10 @@ abstract class BallyDirector extends Object {
     // 0x933fd0: ArrayStore: r1[0] = r0  ; List_4
     //     0x933fd0: stur            w0, [x1, #0x17]
     // 0x933fd4: r0 = all()
-    //     0x933fd4: bl              #0x9342e4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::all
+    //     0x933fd4: bl              #0x9342e4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::all
     // 0x933fd8: ldur            x2, [fp, #-0x30]
     // 0x933fdc: r1 = Function '<anonymous closure>': static.
-    //     0x933fdc: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a668] AnonymousClosure: static (0x9364b8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_reaction (0x933f78)
+    //     0x933fdc: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a668] AnonymousClosure: static (0x9364b8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_reaction (0x933f78)
     //     0x933fe0: ldr             x1, [x1, #0x668]
     // 0x933fe4: stur            x0, [fp, #-8]
     // 0x933fe8: r0 = AllocateClosure()
@@ -791,7 +791,7 @@ abstract class BallyDirector extends Object {
     // 0x93403c: blr             lr
     // 0x934040: tbnz            w0, #4, #0x934078
     // 0x934044: r1 = Function '<anonymous closure>': static.
-    //     0x934044: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a670] AnonymousClosure: static (0x936474), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_reaction (0x933f78)
+    //     0x934044: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a670] AnonymousClosure: static (0x936474), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_reaction (0x933f78)
     //     0x934048: ldr             x1, [x1, #0x670]
     // 0x93404c: r2 = Null
     //     0x93404c: mov             x2, NULL
@@ -813,7 +813,7 @@ abstract class BallyDirector extends Object {
     // 0x934078: ldur            x1, [fp, #-8]
     // 0x93407c: ldur            x2, [fp, #-0x18]
     // 0x934080: r0 = _pickTopWeighted()
-    //     0x934080: bl              #0x934138  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_pickTopWeighted
+    //     0x934080: bl              #0x934138  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_pickTopWeighted
     // 0x934084: stur            x0, [fp, #-8]
     // 0x934088: cmp             w0, NULL
     // 0x93408c: b.ne            #0x9340a0
@@ -872,7 +872,7 @@ abstract class BallyDirector extends Object {
     //     0x934114: add             x1, x1, HEAP, lsl #32
     // 0x934118: ldur            x2, [fp, #-0x10]
     // 0x93411c: r0 = render()
-    //     0x93411c: bl              #0x936840  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::render
+    //     0x93411c: bl              #0x936840  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::render
     // 0x934120: LeaveFrame
     //     0x934120: mov             SP, fp
     //     0x934124: ldp             fp, lr, [SP], #0x10
@@ -962,7 +962,7 @@ abstract class BallyDirector extends Object {
     // 0x9341f8: b               #0x9341a4
     // 0x9341fc: mov             x2, x1
     // 0x934200: r1 = Function '<anonymous closure>': static.
-    //     0x934200: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a688] AnonymousClosure: static (0x93428c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_pickTopWeighted (0x934138)
+    //     0x934200: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a688] AnonymousClosure: static (0x93428c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_pickTopWeighted (0x934138)
     //     0x934204: ldr             x1, [x1, #0x688]
     // 0x934208: r0 = AllocateClosure()
     //     0x934208: bl              #0xe553e0  ; AllocateClosureStub
@@ -1107,7 +1107,7 @@ abstract class BallyDirector extends Object {
     //     0x936504: add             x2, x2, HEAP, lsl #32
     // 0x936508: ldr             x1, [fp, #0x10]
     // 0x93650c: r0 = _isInsightForCurrentStep()
-    //     0x93650c: bl              #0x936604  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_isInsightForCurrentStep
+    //     0x93650c: bl              #0x936604  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_isInsightForCurrentStep
     // 0x936510: tbz             w0, #4, #0x936558
     // 0x936514: ldur            x0, [fp, #-8]
     // 0x936518: LoadField: r2 = r0->field_13
@@ -1116,7 +1116,7 @@ abstract class BallyDirector extends Object {
     //     0x93651c: add             x2, x2, HEAP, lsl #32
     // 0x936520: ldr             x1, [fp, #0x10]
     // 0x936524: r0 = _shouldDeferAcquisition()
-    //     0x936524: bl              #0x936570  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_shouldDeferAcquisition
+    //     0x936524: bl              #0x936570  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::_shouldDeferAcquisition
     // 0x936528: tbz             w0, #4, #0x936558
     // 0x93652c: ldr             x1, [fp, #0x10]
     // 0x936530: ldur            x0, [fp, #-8]
@@ -1275,8 +1275,8 @@ abstract class BallyDirector extends Object {
     // 0x9366ac: r0 = ==()
     //     0x9366ac: bl              #0xdab674  ; [dart:core] _OneByteString::==
     // 0x9366b0: tbnz            w0, #4, #0x9366c0
-    // 0x9366b4: r1 = "{name}, a couple times a week — if you lock in with Ball AI, this is where you could be!"
-    //     0x9366b4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aae0] "{name}, a couple times a week — if you lock in with Ball AI, this is where you could be!"
+    // 0x9366b4: r1 = "{name}, a couple times a week — if you lock in with Kourt AI, this is where you could be!"
+    //     0x9366b4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aae0] "{name}, a couple times a week — if you lock in with Kourt AI, this is where you could be!"
     //     0x9366b8: ldr             x1, [x1, #0xae0]
     // 0x9366bc: b               #0x936734
     // 0x9366c0: r16 = "threeToFour"
@@ -1287,8 +1287,8 @@ abstract class BallyDirector extends Object {
     // 0x9366d0: r0 = ==()
     //     0x9366d0: bl              #0xdab674  ; [dart:core] _OneByteString::==
     // 0x9366d4: tbnz            w0, #4, #0x9366e4
-    // 0x9366d8: r1 = "{name}, three or four days a week — if you lock in with Ball AI, this is where you could be!"
-    //     0x9366d8: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aae8] "{name}, three or four days a week — if you lock in with Ball AI, this is where you could be!"
+    // 0x9366d8: r1 = "{name}, three or four days a week — if you lock in with Kourt AI, this is where you could be!"
+    //     0x9366d8: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aae8] "{name}, three or four days a week — if you lock in with Kourt AI, this is where you could be!"
     //     0x9366dc: ldr             x1, [x1, #0xae8]
     // 0x9366e0: b               #0x936734
     // 0x9366e4: r16 = "fiveToSix"
@@ -1299,8 +1299,8 @@ abstract class BallyDirector extends Object {
     // 0x9366f4: r0 = ==()
     //     0x9366f4: bl              #0xdab674  ; [dart:core] _OneByteString::==
     // 0x9366f8: tbnz            w0, #4, #0x936708
-    // 0x9366fc: r1 = "{name}, five or six days a week — if you lock in with Ball AI, this is where you could be!"
-    //     0x9366fc: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aaf0] "{name}, five or six days a week — if you lock in with Ball AI, this is where you could be!"
+    // 0x9366fc: r1 = "{name}, five or six days a week — if you lock in with Kourt AI, this is where you could be!"
+    //     0x9366fc: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aaf0] "{name}, five or six days a week — if you lock in with Kourt AI, this is where you could be!"
     //     0x936700: ldr             x1, [x1, #0xaf0]
     // 0x936704: b               #0x936734
     // 0x936708: r16 = "everyday"
@@ -1311,16 +1311,16 @@ abstract class BallyDirector extends Object {
     // 0x936718: r0 = ==()
     //     0x936718: bl              #0xdab674  ; [dart:core] _OneByteString::==
     // 0x93671c: tbnz            w0, #4, #0x93672c
-    // 0x936720: r1 = "{name}, every day — if you lock in with Ball AI, this is where you could be!"
-    //     0x936720: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aaf8] "{name}, every day — if you lock in with Ball AI, this is where you could be!"
+    // 0x936720: r1 = "{name}, every day — if you lock in with Kourt AI, this is where you could be!"
+    //     0x936720: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aaf8] "{name}, every day — if you lock in with Kourt AI, this is where you could be!"
     //     0x936724: ldr             x1, [x1, #0xaf8]
     // 0x936728: b               #0x936734
-    // 0x93672c: r1 = "{name}, if you lock in with Ball AI, this is where you could be!"
-    //     0x93672c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ab00] "{name}, if you lock in with Ball AI, this is where you could be!"
+    // 0x93672c: r1 = "{name}, if you lock in with Kourt AI, this is where you could be!"
+    //     0x93672c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ab00] "{name}, if you lock in with Kourt AI, this is where you could be!"
     //     0x936730: ldr             x1, [x1, #0xb00]
     // 0x936734: ldur            x2, [fp, #-0x10]
     // 0x936738: r0 = render()
-    //     0x936738: bl              #0x936840  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::render
+    //     0x936738: bl              #0x936840  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::render
     // 0x93673c: LeaveFrame
     //     0x93673c: mov             SP, fp
     //     0x936740: ldp             fp, lr, [SP], #0x10
@@ -1434,11 +1434,11 @@ abstract class BallyDirector extends Object {
     //     0x936858: cmp             SP, x16
     //     0x93685c: b.ls            #0x936890
     // 0x936860: r0 = L()
-    //     0x936860: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x936860: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x936864: ldur            x1, [fp, #-8]
     // 0x936868: stur            x0, [fp, #-8]
     // 0x93686c: r0 = nameOrHooper()
-    //     0x93686c: bl              #0x933d14  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::nameOrHooper
+    //     0x93686c: bl              #0x933d14  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::nameOrHooper
     // 0x936870: ldur            x1, [fp, #-8]
     // 0x936874: mov             x3, x0
     // 0x936878: r2 = "{name}"

@@ -111,8 +111,8 @@ public final class R {
         public static int PaywallView_android_fontFamily = 0x00000000;
         public static int PaywallView_offeringIdentifier = 0x00000001;
         public static int PaywallView_shouldDisplayDismissButton = 0x00000002;
-        public static int[] PaywallFooterView = {android.R.attr.fontFamily, ballai.app.R.attr.condensed, ballai.app.R.attr.offeringIdentifier};
-        public static int[] PaywallView = {android.R.attr.fontFamily, ballai.app.R.attr.offeringIdentifier, ballai.app.R.attr.shouldDisplayDismissButton};
+        public static int[] PaywallFooterView = {android.R.attr.fontFamily, kourtai.app.R.attr.condensed, kourtai.app.R.attr.offeringIdentifier};
+        public static int[] PaywallView = {android.R.attr.fontFamily, kourtai.app.R.attr.offeringIdentifier, kourtai.app.R.attr.shouldDisplayDismissButton};
 
         private styleable() {
         }

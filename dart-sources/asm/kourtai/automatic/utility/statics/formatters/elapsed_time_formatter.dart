@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/statics/formatters/elapsed_time_formatter.dart
+// lib: , url: package:kourtai/automatic/utility/statics/formatters/elapsed_time_formatter.dart
 
 // class id: 1048740, size: 0x8
 class :: {

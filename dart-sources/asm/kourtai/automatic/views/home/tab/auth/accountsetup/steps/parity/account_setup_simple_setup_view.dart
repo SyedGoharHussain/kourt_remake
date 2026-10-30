@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart
 
 // class id: 1048849, size: 0x8
 class :: {
@@ -273,7 +273,7 @@ abstract class __StagedSetupIconState&State&SingleTickerProviderStateMixin exten
     //     0x7b87f4: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x7b87f8: mov             x1, x2
     // 0x7b87fc: r0 = _updateTickerModeNotifier()
-    //     0x7b87fc: bl              #0x7b8854  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] __StagedSetupIconState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x7b87fc: bl              #0x7b8854  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] __StagedSetupIconState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x7b8800: ldur            x1, [fp, #-8]
     // 0x7b8804: r0 = _updateTicker()
     //     0x7b8804: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -438,7 +438,7 @@ abstract class __StagedSetupIconState&State&SingleTickerProviderStateMixin exten
     //     0x8e4340: b.ls            #0x8e4364
     // 0x8e4344: mov             x1, x0
     // 0x8e4348: r0 = _updateTickerModeNotifier()
-    //     0x8e4348: bl              #0x7b8854  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] __StagedSetupIconState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x8e4348: bl              #0x7b8854  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] __StagedSetupIconState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x8e434c: ldur            x1, [fp, #-8]
     // 0x8e4350: r0 = _updateTicker()
     //     0x8e4350: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -523,7 +523,7 @@ abstract class __StagedSetupIconState&State&SingleTickerProviderStateMixin exten
     //     0xb6175c: cmp             SP, x16
     //     0xb61760: b.ls            #0xb61774
     // 0xb61764: r0 = dispose()
-    //     0xb61764: bl              #0xb616b0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] __StagedSetupIconState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb61764: bl              #0xb616b0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] __StagedSetupIconState&State&SingleTickerProviderStateMixin::dispose
     // 0xb61768: LeaveFrame
     //     0xb61768: mov             SP, fp
     //     0xb6176c: ldp             fp, lr, [SP], #0x10
@@ -916,7 +916,7 @@ class _StagedSetupIconState extends __StagedSetupIconState&State&SingleTickerPro
     //     0xa08aa4: stur            w0, [x3, #0xb]
     // 0xa08aa8: ldur            x2, [fp, #-0x20]
     // 0xa08aac: r1 = Function '<anonymous closure>':.
-    //     0xa08aac: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c670] AnonymousClosure: (0xa08b24), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _StagedSetupIconState::build (0xa0891c)
+    //     0xa08aac: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c670] AnonymousClosure: (0xa08b24), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _StagedSetupIconState::build (0xa0891c)
     //     0xa08ab0: ldr             x1, [x1, #0x670]
     // 0xa08ab4: r0 = AllocateClosure()
     //     0xa08ab4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1118,7 +1118,7 @@ class _StagedSetupIconState extends __StagedSetupIconState&State&SingleTickerPro
     //     0xb5abdc: mov             fp, SP
     // 0xb5abe0: ldr             x2, [fp, #0x10]
     // 0xb5abe4: r1 = Function 'dispose':.
-    //     0xb5abe4: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c660] AnonymousClosure: (0xb5abfc), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _StagedSetupIconState::dispose (0xb6164c)
+    //     0xb5abe4: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c660] AnonymousClosure: (0xb5abfc), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _StagedSetupIconState::dispose (0xb6164c)
     //     0xb5abe8: ldr             x1, [x1, #0x660]
     // 0xb5abec: r0 = AllocateClosure()
     //     0xb5abec: bl              #0xe553e0  ; AllocateClosureStub
@@ -1143,7 +1143,7 @@ class _StagedSetupIconState extends __StagedSetupIconState&State&SingleTickerPro
     //     0xb5ac14: cmp             SP, x16
     //     0xb5ac18: b.ls            #0xb5ac2c
     // 0xb5ac1c: r0 = dispose()
-    //     0xb5ac1c: bl              #0xb6164c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _StagedSetupIconState::dispose
+    //     0xb5ac1c: bl              #0xb6164c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _StagedSetupIconState::dispose
     // 0xb5ac20: LeaveFrame
     //     0xb5ac20: mov             SP, fp
     //     0xb5ac24: ldp             fp, lr, [SP], #0x10
@@ -1179,7 +1179,7 @@ class _StagedSetupIconState extends __StagedSetupIconState&State&SingleTickerPro
     //     0xb61680: bl              #0x809c40  ; [package:flutter/src/animation/animation_controller.dart] AnimationController::dispose
     // 0xb61684: ldur            x1, [fp, #-8]
     // 0xb61688: r0 = dispose()
-    //     0xb61688: bl              #0xb616b0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] __StagedSetupIconState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb61688: bl              #0xb616b0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] __StagedSetupIconState&State&SingleTickerProviderStateMixin::dispose
     // 0xb6168c: r0 = Null
     //     0xb6168c: mov             x0, NULL
     // 0xb61690: LeaveFrame
@@ -1239,7 +1239,7 @@ class _AccountSetupSimpleSetupViewState extends State<dynamic> {
     // 0x94e91c: mov             x2, x1
     // 0x94e920: stur            x0, [fp, #-8]
     // 0x94e924: r1 = Function '<anonymous closure>':.
-    //     0x94e924: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2ced8] AnonymousClosure: (0x94ea18), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::initState (0x94e8c8)
+    //     0x94e924: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2ced8] AnonymousClosure: (0x94ea18), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::initState (0x94e8c8)
     //     0x94e928: ldr             x1, [x1, #0xed8]
     // 0x94e92c: r0 = AllocateClosure()
     //     0x94e92c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1336,7 +1336,7 @@ class _AccountSetupSimpleSetupViewState extends State<dynamic> {
     //     0x94ea3c: add             x0, x0, HEAP, lsl #32
     // 0x94ea40: mov             x1, x0
     // 0x94ea44: r0 = _animateIn()
-    //     0x94ea44: bl              #0x94ea60  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::_animateIn
+    //     0x94ea44: bl              #0x94ea60  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::_animateIn
     // 0x94ea48: r0 = Null
     //     0x94ea48: mov             x0, NULL
     // 0x94ea4c: LeaveFrame
@@ -1404,7 +1404,7 @@ class _AccountSetupSimpleSetupViewState extends State<dynamic> {
     //     0x94eaf4: bl              #0xe5481c  ; WriteBarrierWrappersStub
     // 0x94eaf8: mov             x2, x5
     // 0x94eafc: r1 = Function '<anonymous closure>':.
-    //     0x94eafc: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cef0] AnonymousClosure: (0x94f080), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::_animateIn (0x94ea60)
+    //     0x94eafc: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cef0] AnonymousClosure: (0x94f080), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::_animateIn (0x94ea60)
     //     0x94eb00: ldr             x1, [x1, #0xef0]
     // 0x94eb04: r0 = AllocateClosure()
     //     0x94eb04: bl              #0xe553e0  ; AllocateClosureStub
@@ -1416,7 +1416,7 @@ class _AccountSetupSimpleSetupViewState extends State<dynamic> {
     // 0x94eb18: tbnz            w0, #4, #0x94eb48
     // 0x94eb1c: ldur            x2, [fp, #-0x10]
     // 0x94eb20: r1 = Function '<anonymous closure>':.
-    //     0x94eb20: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cef8] AnonymousClosure: (0x94f054), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::_animateIn (0x94ea60)
+    //     0x94eb20: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cef8] AnonymousClosure: (0x94f054), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::_animateIn (0x94ea60)
     //     0x94eb24: ldr             x1, [x1, #0xef8]
     // 0x94eb28: r0 = AllocateClosure()
     //     0x94eb28: bl              #0xe553e0  ; AllocateClosureStub
@@ -1490,7 +1490,7 @@ class _AccountSetupSimpleSetupViewState extends State<dynamic> {
     //     0x94ebec: stur            x0, [x3, #7]
     // 0x94ebf0: ldur            x2, [fp, #-8]
     // 0x94ebf4: r1 = Function '<anonymous closure>':.
-    //     0x94ebf4: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cf00] AnonymousClosure: (0x94ef3c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::_animateIn (0x94ea60)
+    //     0x94ebf4: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cf00] AnonymousClosure: (0x94ef3c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::_animateIn (0x94ea60)
     //     0x94ebf8: ldr             x1, [x1, #0xf00]
     // 0x94ebfc: r0 = AllocateClosure()
     //     0x94ebfc: bl              #0xe553e0  ; AllocateClosureStub
@@ -1614,7 +1614,7 @@ class _AccountSetupSimpleSetupViewState extends State<dynamic> {
     //     0x94ed58: stur            x0, [x3, #7]
     // 0x94ed5c: ldur            x2, [fp, #-8]
     // 0x94ed60: r1 = Function '<anonymous closure>':.
-    //     0x94ed60: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cf10] AnonymousClosure: (0x94ee10), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::_animateIn (0x94ea60)
+    //     0x94ed60: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cf10] AnonymousClosure: (0x94ee10), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::_animateIn (0x94ea60)
     //     0x94ed64: ldr             x1, [x1, #0xf10]
     // 0x94ed68: r0 = AllocateClosure()
     //     0x94ed68: bl              #0xe553e0  ; AllocateClosureStub
@@ -1728,7 +1728,7 @@ class _AccountSetupSimpleSetupViewState extends State<dynamic> {
     //     0x94ee88: ret             
     // 0x94ee8c: mov             x2, x3
     // 0x94ee90: r1 = Function '<anonymous closure>':.
-    //     0x94ee90: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cf18] AnonymousClosure: (0x94eedc), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::_animateIn (0x94ea60)
+    //     0x94ee90: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cf18] AnonymousClosure: (0x94eedc), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::_animateIn (0x94ea60)
     //     0x94ee94: ldr             x1, [x1, #0xf18]
     // 0x94ee98: r0 = AllocateClosure()
     //     0x94ee98: bl              #0xe553e0  ; AllocateClosureStub
@@ -1847,7 +1847,7 @@ class _AccountSetupSimpleSetupViewState extends State<dynamic> {
     // 0x94efb0: ret
     //     0x94efb0: ret             
     // 0x94efb4: r1 = Function '<anonymous closure>':.
-    //     0x94efb4: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cf20] AnonymousClosure: (0x94efe8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::_animateIn (0x94ea60)
+    //     0x94efb4: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cf20] AnonymousClosure: (0x94efe8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::_animateIn (0x94ea60)
     //     0x94efb8: ldr             x1, [x1, #0xf20]
     // 0x94efbc: r0 = AllocateClosure()
     //     0x94efbc: bl              #0xe553e0  ; AllocateClosureStub
@@ -1979,7 +1979,7 @@ class _AccountSetupSimpleSetupViewState extends State<dynamic> {
     // 0xa07b94: StoreField: r3->field_f = r0
     //     0xa07b94: stur            w0, [x3, #0xf]
     // 0xa07b98: r1 = Function '<anonymous closure>':.
-    //     0xa07b98: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2ce08] AnonymousClosure: (0xa088ec), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::build (0xa07b60)
+    //     0xa07b98: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2ce08] AnonymousClosure: (0xa088ec), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::build (0xa07b60)
     //     0xa07b9c: ldr             x1, [x1, #0xe08]
     // 0xa07ba0: r2 = Null
     //     0xa07ba0: mov             x2, NULL
@@ -2006,7 +2006,7 @@ class _AccountSetupSimpleSetupViewState extends State<dynamic> {
     //     0xa07be0: b.eq            #0xa07be8
     //     0xa07be4: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xa07be8: r1 = Function '<anonymous closure>':.
-    //     0xa07be8: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2ce10] AnonymousClosure: (0xa07c20), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::build (0xa07b60)
+    //     0xa07be8: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2ce10] AnonymousClosure: (0xa07c20), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::build (0xa07b60)
     //     0xa07bec: ldr             x1, [x1, #0xe10]
     // 0xa07bf0: r0 = AllocateClosure()
     //     0xa07bf0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2072,7 +2072,7 @@ class _AccountSetupSimpleSetupViewState extends State<dynamic> {
     // 0xa07c8c: ldur            x2, [fp, #-0x10]
     // 0xa07c90: stur            x0, [fp, #-0x10]
     // 0xa07c94: r0 = _SimpleSetupLayout()
-    //     0xa07c94: bl              #0xa084e0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _SimpleSetupLayout::_SimpleSetupLayout
+    //     0xa07c94: bl              #0xa084e0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _SimpleSetupLayout::_SimpleSetupLayout
     // 0xa07c98: ldur            x0, [fp, #-0x10]
     // 0xa07c9c: LoadField: r1 = r0->field_7
     //     0xa07c9c: ldur            w1, [x0, #7]
@@ -2910,7 +2910,7 @@ class _AccountSetupSimpleSetupViewState extends State<dynamic> {
     //     0xa088fc: b.ls            #0xa08914
     // 0xa08900: ldr             x1, [fp, #0x10]
     // 0xa08904: r0 = displayedBallyHeadPose()
-    //     0xa08904: bl              #0x9fa4c8  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::displayedBallyHeadPose
+    //     0xa08904: bl              #0x9fa4c8  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::displayedBallyHeadPose
     // 0xa08908: LeaveFrame
     //     0xa08908: mov             SP, fp
     //     0xa0890c: ldp             fp, lr, [SP], #0x10
@@ -2927,7 +2927,7 @@ class _AccountSetupSimpleSetupViewState extends State<dynamic> {
     //     0xb5ab80: mov             fp, SP
     // 0xb5ab84: ldr             x2, [fp, #0x10]
     // 0xb5ab88: r1 = Function 'dispose':.
-    //     0xb5ab88: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c658] AnonymousClosure: (0xb5aba0), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::dispose (0xb61638)
+    //     0xb5ab88: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c658] AnonymousClosure: (0xb5aba0), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::dispose (0xb61638)
     //     0xb5ab8c: ldr             x1, [x1, #0x658]
     // 0xb5ab90: r0 = AllocateClosure()
     //     0xb5ab90: bl              #0xe553e0  ; AllocateClosureStub
@@ -2952,7 +2952,7 @@ class _AccountSetupSimpleSetupViewState extends State<dynamic> {
     //     0xb5abb8: cmp             SP, x16
     //     0xb5abbc: b.ls            #0xb5abd0
     // 0xb5abc0: r0 = dispose()
-    //     0xb5abc0: bl              #0xb61638  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::dispose
+    //     0xb5abc0: bl              #0xb61638  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] _AccountSetupSimpleSetupViewState::dispose
     // 0xb5abc4: LeaveFrame
     //     0xb5abc4: mov             SP, fp
     //     0xb5abc8: ldp             fp, lr, [SP], #0x10
@@ -3053,8 +3053,8 @@ class _SetupChip extends StatelessWidget {
     //     0xbd1a64: cmp             SP, x16
     //     0xbd1a68: b.ls            #0xbd1ee4
     // 0xbd1a6c: mov             x1, x0
-    // 0xbd1a70: r0 = BallAiThemeContext.ballAi()
-    //     0xbd1a70: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xbd1a70: r0 = KourtAiThemeContext.kourtAi()
+    //     0xbd1a70: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xbd1a74: LoadField: r1 = r0->field_f
     //     0xbd1a74: ldur            w1, [x0, #0xf]
     // 0xbd1a78: DecompressPointer r1
@@ -3265,7 +3265,7 @@ class _SetupChip extends StatelessWidget {
     //     0xbd1ca0: add             x2, x2, HEAP, lsl #32
     // 0xbd1ca4: mov             v0.16b, v2.16b
     // 0xbd1ca8: r0 = _extension#1.visual()
-    //     0xbd1ca8: bl              #0xbd1f20  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] ::_extension#1.visual
+    //     0xbd1ca8: bl              #0xbd1f20  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_simple_setup_view.dart] ::_extension#1.visual
     // 0xbd1cac: ldur            d0, [fp, #-0x68]
     // 0xbd1cb0: d1 = 8.000000
     //     0xbd1cb0: fmov            d1, #8.00000000
@@ -3316,7 +3316,7 @@ class _SetupChip extends StatelessWidget {
     // 0xbd1d44: ldur            d0, [fp, #-0x60]
     // 0xbd1d48: ldur            x0, [fp, #-0x18]
     // 0xbd1d4c: r0 = L()
-    //     0xbd1d4c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd1d4c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd1d50: ldur            d0, [fp, #-0x60]
     // 0xbd1d54: d1 = 10.000000
     //     0xbd1d54: fmov            d1, #10.00000000
@@ -3324,8 +3324,8 @@ class _SetupChip extends StatelessWidget {
     // 0xbd1d5c: fmax            v2.2d, v1.2d, v0.2d
     // 0xbd1d60: ldur            x1, [fp, #-0x10]
     // 0xbd1d64: stur            d2, [fp, #-0x58]
-    // 0xbd1d68: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbd1d68: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbd1d68: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbd1d68: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbd1d6c: r16 = 0.720000
     //     0xbd1d6c: add             x16, PP, #0x2c, lsl #12  ; [pp+0x2cb08] 0.72
     //     0xbd1d70: ldr             x16, [x16, #0xb08]
@@ -3667,15 +3667,15 @@ class _EasyFinaleWords extends StatelessWidget {
     //     0xbd17ac: add             x7, x7, HEAP, lsl #32
     // 0xbd17b0: stur            x7, [fp, #-0x38]
     // 0xbd17b4: r0 = instance()
-    //     0xbd17b4: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0xbd17b4: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0xbd17b8: mov             x1, x0
     // 0xbd17bc: ldur            x2, [fp, #-0x38]
     // 0xbd17c0: r0 = localizedString()
-    //     0xbd17c0: bl              #0x5edd18  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
+    //     0xbd17c0: bl              #0x5edd18  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
     // 0xbd17c4: ldur            x1, [fp, #-0x10]
     // 0xbd17c8: stur            x0, [fp, #-0x38]
-    // 0xbd17cc: r0 = BallAiThemeContext.ballAi()
-    //     0xbd17cc: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xbd17cc: r0 = KourtAiThemeContext.kourtAi()
+    //     0xbd17cc: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xbd17d0: ArrayLoad: r1 = r0[0]  ; List_4
     //     0xbd17d0: ldur            w1, [x0, #0x17]
     // 0xbd17d4: DecompressPointer r1

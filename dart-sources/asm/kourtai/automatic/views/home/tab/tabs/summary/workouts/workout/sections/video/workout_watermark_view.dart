@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_watermark_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_watermark_view.dart
 
 // class id: 1048915, size: 0x8
 class :: {
@@ -30,7 +30,7 @@ class WorkoutWatermarkView extends StatelessWidget {
     //     0xbef3c0: stur            w0, [x1, #0xf]
     // 0xbef3c4: mov             x2, x1
     // 0xbef3c8: r1 = Function '<anonymous closure>':.
-    //     0xbef3c8: add             x1, PP, #0x49, lsl #12  ; [pp+0x499c8] AnonymousClosure: (0xbef3f8), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_watermark_view.dart] WorkoutWatermarkView::build (0xbef3a0)
+    //     0xbef3c8: add             x1, PP, #0x49, lsl #12  ; [pp+0x499c8] AnonymousClosure: (0xbef3f8), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_watermark_view.dart] WorkoutWatermarkView::build (0xbef3a0)
     //     0xbef3cc: ldr             x1, [x1, #0x9c8]
     // 0xbef3d0: r0 = AllocateClosure()
     //     0xbef3d0: bl              #0xe553e0  ; AllocateClosureStub
@@ -107,7 +107,7 @@ class WorkoutWatermarkView extends StatelessWidget {
     // 0xbef498: r0 = Image()
     //     0xbef498: bl              #0x9d20b4  ; AllocateImageStub -> Image (size=0x58)
     // 0xbef49c: r1 = Function '<anonymous closure>':.
-    //     0xbef49c: add             x1, PP, #0x49, lsl #12  ; [pp+0x499d0] AnonymousClosure: (0xdba9c4), in [package:ballai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _RewardCard::build (0xbe169c)
+    //     0xbef49c: add             x1, PP, #0x49, lsl #12  ; [pp+0x499d0] AnonymousClosure: (0xdba9c4), in [package:kourtai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _RewardCard::build (0xbe169c)
     //     0xbef4a0: ldr             x1, [x1, #0x9d0]
     // 0xbef4a4: r2 = Null
     //     0xbef4a4: mov             x2, NULL

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/playground/pose_analysis_service.dart
+// lib: , url: package:kourtai/video_tracking/playground/pose_analysis_service.dart
 
 // class id: 1049159, size: 0x8
 class :: {

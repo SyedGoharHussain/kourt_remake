@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/stats/workouts/workout_session_letter_grade.dart
+// lib: , url: package:kourtai/automatic/models/core/stats/workouts/workout_session_letter_grade.dart
 
 // class id: 1048700, size: 0x8
 class :: {

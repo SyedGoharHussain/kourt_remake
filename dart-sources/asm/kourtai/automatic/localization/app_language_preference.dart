@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/localization/app_language_preference.dart
+// lib: , url: package:kourtai/automatic/localization/app_language_preference.dart
 
 // class id: 1048673, size: 0x8
 class :: {
@@ -18,11 +18,11 @@ class :: {
     //     0x5edcec: cmp             SP, x16
     //     0x5edcf0: b.ls            #0x5edd10
     // 0x5edcf4: r0 = instance()
-    //     0x5edcf4: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0x5edcf4: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0x5edcf8: mov             x1, x0
     // 0x5edcfc: ldur            x2, [fp, #-8]
     // 0x5edd00: r0 = localizedString()
-    //     0x5edd00: bl              #0x5edd18  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
+    //     0x5edd00: bl              #0x5edd18  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
     // 0x5edd04: LeaveFrame
     //     0x5edd04: mov             SP, fp
     //     0x5edd08: ldp             fp, lr, [SP], #0x10
@@ -49,19 +49,19 @@ class :: {
     //     0x5ef99c: cmp             SP, x16
     //     0x5ef9a0: b.ls            #0x5ef9d8
     // 0x5ef9a4: r0 = instance()
-    //     0x5ef9a4: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0x5ef9a4: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0x5ef9a8: mov             x1, x0
     // 0x5ef9ac: ldur            x2, [fp, #-8]
     // 0x5ef9b0: r0 = localizedString()
-    //     0x5ef9b0: bl              #0x5edd18  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
+    //     0x5ef9b0: bl              #0x5edd18  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
     // 0x5ef9b4: stur            x0, [fp, #-8]
     // 0x5ef9b8: r0 = instance()
-    //     0x5ef9b8: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0x5ef9b8: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0x5ef9bc: mov             x1, x0
     // 0x5ef9c0: ldur            x2, [fp, #-8]
     // 0x5ef9c4: ldur            x3, [fp, #-0x10]
     // 0x5ef9c8: r0 = localizedFormat()
-    //     0x5ef9c8: bl              #0x5ef9e0  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedFormat
+    //     0x5ef9c8: bl              #0x5ef9e0  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedFormat
     // 0x5ef9cc: LeaveFrame
     //     0x5ef9cc: mov             SP, fp
     //     0x5ef9d0: ldp             fp, lr, [SP], #0x10
@@ -102,7 +102,7 @@ class AppLanguagePreference extends ChangeNotifier {
     //     0x5edd50: ret             
     // 0x5edd54: mov             x1, x2
     // 0x5edd58: r0 = effectiveLanguageCode()
-    //     0x5edd58: bl              #0x5ede90  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
+    //     0x5edd58: bl              #0x5ede90  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
     // 0x5edd5c: mov             x1, x0
     // 0x5edd60: ldur            x0, [fp, #-8]
     // 0x5edd64: LoadField: r3 = r0->field_27
@@ -215,7 +215,7 @@ class AppLanguagePreference extends ChangeNotifier {
     //     0x5edeac: add             x0, x0, HEAP, lsl #32
     // 0x5edeb0: mov             x1, x0
     // 0x5edeb4: r0 = _normalizedOverrideCode()
-    //     0x5edeb4: bl              #0x5ee5ac  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::_normalizedOverrideCode
+    //     0x5edeb4: bl              #0x5ee5ac  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::_normalizedOverrideCode
     // 0x5edeb8: cmp             w0, NULL
     // 0x5edebc: b.eq            #0x5edecc
     // 0x5edec0: LeaveFrame
@@ -296,7 +296,7 @@ class AppLanguagePreference extends ChangeNotifier {
     //     0x5edfa8: ret             
     // 0x5edfac: ldur            x1, [fp, #-0x18]
     // 0x5edfb0: r0 = _mappedChineseSimplifiedCode()
-    //     0x5edfb0: bl              #0x5ee298  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::_mappedChineseSimplifiedCode
+    //     0x5edfb0: bl              #0x5ee298  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::_mappedChineseSimplifiedCode
     // 0x5edfb4: cmp             w0, NULL
     // 0x5edfb8: b.eq            #0x5edfd0
     // 0x5edfbc: r0 = "zh-Hans"
@@ -309,7 +309,7 @@ class AppLanguagePreference extends ChangeNotifier {
     //     0x5edfcc: ret             
     // 0x5edfd0: ldur            x1, [fp, #-0x18]
     // 0x5edfd4: r0 = _mappedChineseTraditionalCode()
-    //     0x5edfd4: bl              #0x5ee1d8  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::_mappedChineseTraditionalCode
+    //     0x5edfd4: bl              #0x5ee1d8  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::_mappedChineseTraditionalCode
     // 0x5edfd8: cmp             w0, NULL
     // 0x5edfdc: b.eq            #0x5edff4
     // 0x5edfe0: r0 = "zh-Hant"
@@ -322,7 +322,7 @@ class AppLanguagePreference extends ChangeNotifier {
     //     0x5edff0: ret             
     // 0x5edff4: ldur            x1, [fp, #-0x18]
     // 0x5edff8: r0 = _mappedFilipinoCode()
-    //     0x5edff8: bl              #0x5ee100  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::_mappedFilipinoCode
+    //     0x5edff8: bl              #0x5ee100  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::_mappedFilipinoCode
     // 0x5edffc: cmp             w0, NULL
     // 0x5ee000: b.eq            #0x5ee018
     // 0x5ee004: r0 = "fil"
@@ -791,7 +791,7 @@ class AppLanguagePreference extends ChangeNotifier {
     // 0x5ee718: mov             x1, x0
     // 0x5ee71c: stur            x0, [fp, #-8]
     // 0x5ee720: r0 = AppLanguagePreference._()
-    //     0x5ee720: bl              #0x5ee748  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::AppLanguagePreference._
+    //     0x5ee720: bl              #0x5ee748  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::AppLanguagePreference._
     // 0x5ee724: ldur            x1, [fp, #-8]
     // 0x5ee728: StoreStaticField(0xc20, r1)
     //     0x5ee728: ldr             x2, [THR, #0x68]  ; THR::field_table_values
@@ -922,7 +922,7 @@ class AppLanguagePreference extends ChangeNotifier {
     //     0x5efa5c: bl              #0x5d8d60  ; [dart:core] _RegExp::_RegExp
     // 0x5efa60: ldur            x2, [fp, #-0x18]
     // 0x5efa64: r1 = Function '<anonymous closure>':.
-    //     0x5efa64: add             x1, PP, #0x27, lsl #12  ; [pp+0x276e0] AnonymousClosure: (0x5f051c), in [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedFormat (0x5ef9e0)
+    //     0x5efa64: add             x1, PP, #0x27, lsl #12  ; [pp+0x276e0] AnonymousClosure: (0x5f051c), in [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedFormat (0x5ef9e0)
     //     0x5efa68: ldr             x1, [x1, #0x6e0]
     // 0x5efa6c: stur            x0, [fp, #-0x10]
     // 0x5efa70: r0 = AllocateClosure()
@@ -956,7 +956,7 @@ class AppLanguagePreference extends ChangeNotifier {
     //     0x5efab8: bl              #0x5d8d60  ; [dart:core] _RegExp::_RegExp
     // 0x5efabc: ldur            x2, [fp, #-0x18]
     // 0x5efac0: r1 = Function '<anonymous closure>':.
-    //     0x5efac0: add             x1, PP, #0x27, lsl #12  ; [pp+0x276f0] AnonymousClosure: (0x5f03b8), in [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedFormat (0x5ef9e0)
+    //     0x5efac0: add             x1, PP, #0x27, lsl #12  ; [pp+0x276f0] AnonymousClosure: (0x5f03b8), in [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedFormat (0x5ef9e0)
     //     0x5efac4: ldr             x1, [x1, #0x6f0]
     // 0x5efac8: stur            x0, [fp, #-0x10]
     // 0x5efacc: r0 = AllocateClosure()
@@ -1054,7 +1054,7 @@ class AppLanguagePreference extends ChangeNotifier {
     // 0x5f048c: DecompressPointer r1
     //     0x5f048c: add             x1, x1, HEAP, lsl #32
     // 0x5f0490: r0 = _stringify()
-    //     0x5f0490: bl              #0x5f04b0  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::_stringify
+    //     0x5f0490: bl              #0x5f04b0  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::_stringify
     // 0x5f0494: LeaveFrame
     //     0x5f0494: mov             SP, fp
     //     0x5f0498: ldp             fp, lr, [SP], #0x10
@@ -1217,7 +1217,7 @@ class AppLanguagePreference extends ChangeNotifier {
     // 0x5f0640: DecompressPointer r1
     //     0x5f0640: add             x1, x1, HEAP, lsl #32
     // 0x5f0644: r0 = _stringify()
-    //     0x5f0644: bl              #0x5f04b0  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::_stringify
+    //     0x5f0644: bl              #0x5f04b0  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::_stringify
     // 0x5f0648: LeaveFrame
     //     0x5f0648: mov             SP, fp
     //     0x5f064c: ldp             fp, lr, [SP], #0x10
@@ -1536,7 +1536,7 @@ class AppLanguagePreference extends ChangeNotifier {
     //     0x76a3f0: add             x0, NULL, #0x20  ; true
     // 0x76a3f4: tbnz            w0, #4, #0x76a4c4
     // 0x76a3f8: r1 = Function '<anonymous closure>':.
-    //     0x76a3f8: add             x1, PP, #0xb, lsl #12  ; [pp+0xb318] AnonymousClosure: (0x76a0b0), in [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::loadCatalogs (0x76a18c)
+    //     0x76a3f8: add             x1, PP, #0xb, lsl #12  ; [pp+0xb318] AnonymousClosure: (0x76a0b0), in [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::loadCatalogs (0x76a18c)
     //     0x76a3fc: ldr             x1, [x1, #0x318]
     // 0x76a400: r2 = Null
     //     0x76a400: mov             x2, NULL
@@ -1687,10 +1687,10 @@ class AppLanguagePreference extends ChangeNotifier {
     //     0xab107c: cmp             SP, x16
     //     0xab1080: b.ls            #0xab109c
     // 0xab1084: r0 = effectiveLanguageCode()
-    //     0xab1084: bl              #0x5ede90  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
+    //     0xab1084: bl              #0x5ede90  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
     // 0xab1088: mov             x1, x0
     // 0xab108c: r0 = localeForCode()
-    //     0xab108c: bl              #0xab10a4  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localeForCode
+    //     0xab108c: bl              #0xab10a4  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localeForCode
     // 0xab1090: LeaveFrame
     //     0xab1090: mov             SP, fp
     //     0xab1094: ldp             fp, lr, [SP], #0x10
@@ -1802,7 +1802,7 @@ class AppLanguagePreference extends ChangeNotifier {
     //     0xab11a0: b.ls            #0xab11b8
     // 0xab11a4: ldr             x1, [fp, #0x10]
     // 0xab11a8: r0 = localeForCode()
-    //     0xab11a8: bl              #0xab10a4  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localeForCode
+    //     0xab11a8: bl              #0xab10a4  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localeForCode
     // 0xab11ac: LeaveFrame
     //     0xab11ac: mov             SP, fp
     //     0xab11b0: ldp             fp, lr, [SP], #0x10
@@ -1822,10 +1822,10 @@ class AppLanguagePreference extends ChangeNotifier {
     //     0xab1a9c: cmp             SP, x16
     //     0xab1aa0: b.ls            #0xab1abc
     // 0xab1aa4: r0 = effectiveLanguageCode()
-    //     0xab1aa4: bl              #0x5ede90  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
+    //     0xab1aa4: bl              #0x5ede90  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
     // 0xab1aa8: mov             x1, x0
     // 0xab1aac: r0 = isRightToLeftLanguageCode()
-    //     0xab1aac: bl              #0xab1ac4  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::isRightToLeftLanguageCode
+    //     0xab1aac: bl              #0xab1ac4  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::isRightToLeftLanguageCode
     // 0xab1ab0: LeaveFrame
     //     0xab1ab0: mov             SP, fp
     //     0xab1ab4: ldp             fp, lr, [SP], #0x10
@@ -2215,7 +2215,7 @@ class AppLanguagePreference extends ChangeNotifier {
     //     0xbbcd4c: bl              #0x60afc8  ; InitAsyncStub
     // 0xbbcd50: ldur            x1, [fp, #-0x18]
     // 0xbbcd54: r0 = _normalizedOverrideCode()
-    //     0xbbcd54: bl              #0x5ee5ac  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::_normalizedOverrideCode
+    //     0xbbcd54: bl              #0x5ee5ac  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::_normalizedOverrideCode
     // 0xbbcd58: stur            x0, [fp, #-0x18]
     // 0xbbcd5c: cmp             w0, NULL
     // 0xbbcd60: b.ne            #0xbbcd6c
@@ -2225,7 +2225,7 @@ class AppLanguagePreference extends ChangeNotifier {
     //     0xbbcd68: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xbbcd6c: ldur            x1, [fp, #-0x10]
     // 0xbbcd70: r0 = effectiveLanguageCode()
-    //     0xbbcd70: bl              #0x5ede90  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
+    //     0xbbcd70: bl              #0x5ede90  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
     // 0xbbcd74: ldur            x3, [fp, #-0x18]
     // 0xbbcd78: r1 = LoadClassIdInstr(r3)
     //     0xbbcd78: ldur            x1, [x3, #-1]
@@ -2325,7 +2325,7 @@ class AppLanguagePreference extends ChangeNotifier {
     //     0xc29cb8: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xc29cbc: mov             x1, x2
     // 0xc29cc0: r0 = loadCatalogs()
-    //     0xc29cc0: bl              #0x76a18c  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::loadCatalogs
+    //     0xc29cc0: bl              #0x76a18c  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::loadCatalogs
     // 0xc29cc4: mov             x1, x0
     // 0xc29cc8: stur            x1, [fp, #-0x18]
     // 0xc29ccc: r0 = Await()

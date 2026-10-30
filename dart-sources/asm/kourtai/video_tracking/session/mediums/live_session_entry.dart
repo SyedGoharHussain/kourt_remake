@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/session/mediums/live_session_entry.dart
+// lib: , url: package:kourtai/video_tracking/session/mediums/live_session_entry.dart
 
 // class id: 1049181, size: 0x8
 class :: {
@@ -52,7 +52,7 @@ class LiveSessionEntry extends Object {
     //     0xabb620: add             x3, x3, HEAP, lsl #32
     // 0xabb624: stur            x3, [fp, #-0x88]
     // 0xabb628: r0 = ensure()
-    //     0xabb628: bl              #0x796fb4  ; [package:ballai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::ensure
+    //     0xabb628: bl              #0x796fb4  ; [package:kourtai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::ensure
     // 0xabb62c: mov             x1, x0
     // 0xabb630: stur            x1, [fp, #-0x88]
     // 0xabb634: r0 = Await()

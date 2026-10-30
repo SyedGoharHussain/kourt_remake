@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/ui/home_tab_selection.dart
+// lib: , url: package:kourtai/automatic/utility/ui/home_tab_selection.dart
 
 // class id: 1048749, size: 0x8
 class :: {
@@ -7,12 +7,12 @@ class :: {
 // class id: 5051, size: 0x8, field offset: 0x8
 abstract class HomeTabSelection extends Object {
 
-  static late final ValueNotifier<BallAiPrimaryDestination> selected; // offset: 0xe20
+  static late final ValueNotifier<KourtAiPrimaryDestination> selected; // offset: 0xe20
   static late final ValueNotifier<YouProfileTab> youProfileTab; // offset: 0xe24
   static late final ValueNotifier<bool> teamsCoverVisible; // offset: 0xe28
   static late final ValueNotifier<String?> pendingDrillSearchQuery; // offset: 0xe2c
 
-  static ValueNotifier<BallAiPrimaryDestination> selected() {
+  static ValueNotifier<KourtAiPrimaryDestination> selected() {
     // ** addr: 0x8e5ef0, size: 0x80
     // 0x8e5ef0: EnterFrame
     //     0x8e5ef0: stp             fp, lr, [SP, #-0x10]!
@@ -23,14 +23,14 @@ abstract class HomeTabSelection extends Object {
     //     0x8e5efc: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x8e5f00: cmp             SP, x16
     //     0x8e5f04: b.ls            #0x8e5f68
-    // 0x8e5f08: r1 = <BallAiPrimaryDestination>
-    //     0x8e5f08: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1ce60] TypeArguments: <BallAiPrimaryDestination>
+    // 0x8e5f08: r1 = <KourtAiPrimaryDestination>
+    //     0x8e5f08: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1ce60] TypeArguments: <KourtAiPrimaryDestination>
     //     0x8e5f0c: ldr             x1, [x1, #0xe60]
     // 0x8e5f10: r0 = ValueNotifier()
     //     0x8e5f10: bl              #0x622e44  ; AllocateValueNotifierStub -> ValueNotifier<X0> (size=0x2c)
     // 0x8e5f14: mov             x1, x0
-    // 0x8e5f18: r0 = Instance_BallAiPrimaryDestination
-    //     0x8e5f18: add             x0, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!BallAiPrimaryDestination@d3baa1
+    // 0x8e5f18: r0 = Instance_KourtAiPrimaryDestination
+    //     0x8e5f18: add             x0, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!KourtAiPrimaryDestination@d3baa1
     //     0x8e5f1c: ldr             x0, [x0, #0xe30]
     // 0x8e5f20: stur            x1, [fp, #-8]
     // 0x8e5f24: StoreField: r1->field_27 = r0
@@ -71,7 +71,7 @@ abstract class HomeTabSelection extends Object {
     //     0x940c84: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x940c88: cmp             SP, x16
     //     0x940c8c: b.ls            #0x940d58
-    // 0x940c90: r0 = InitLateStaticField(0xe20) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
+    // 0x940c90: r0 = InitLateStaticField(0xe20) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
     //     0x940c90: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x940c94: ldr             x0, [x0, #0x1c40]
     //     0x940c98: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -81,12 +81,12 @@ abstract class HomeTabSelection extends Object {
     //     0x940ca8: ldr             x2, [x2, #0xe28]
     //     0x940cac: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x940cb0: mov             x1, x0
-    // 0x940cb4: r2 = Instance_BallAiPrimaryDestination
-    //     0x940cb4: add             x2, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!BallAiPrimaryDestination@d3baa1
+    // 0x940cb4: r2 = Instance_KourtAiPrimaryDestination
+    //     0x940cb4: add             x2, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!KourtAiPrimaryDestination@d3baa1
     //     0x940cb8: ldr             x2, [x2, #0xe30]
     // 0x940cbc: r0 = value=()
     //     0x940cbc: bl              #0x60ac68  ; [package:flutter/src/foundation/change_notifier.dart] ValueNotifier::value=
-    // 0x940cc0: r0 = InitLateStaticField(0xe24) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::youProfileTab
+    // 0x940cc0: r0 = InitLateStaticField(0xe24) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::youProfileTab
     //     0x940cc0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x940cc4: ldr             x0, [x0, #0x1c48]
     //     0x940cc8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -101,7 +101,7 @@ abstract class HomeTabSelection extends Object {
     //     0x940ce8: ldr             x2, [x2, #0xe40]
     // 0x940cec: r0 = value=()
     //     0x940cec: bl              #0x60ac68  ; [package:flutter/src/foundation/change_notifier.dart] ValueNotifier::value=
-    // 0x940cf0: r0 = InitLateStaticField(0xe28) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::teamsCoverVisible
+    // 0x940cf0: r0 = InitLateStaticField(0xe28) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::teamsCoverVisible
     //     0x940cf0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x940cf4: ldr             x0, [x0, #0x1c50]
     //     0x940cf8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -115,7 +115,7 @@ abstract class HomeTabSelection extends Object {
     //     0x940d14: add             x2, NULL, #0x30  ; false
     // 0x940d18: r0 = value=()
     //     0x940d18: bl              #0x60ac68  ; [package:flutter/src/foundation/change_notifier.dart] ValueNotifier::value=
-    // 0x940d1c: r0 = InitLateStaticField(0xe2c) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::pendingDrillSearchQuery
+    // 0x940d1c: r0 = InitLateStaticField(0xe2c) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::pendingDrillSearchQuery
     //     0x940d1c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x940d20: ldr             x0, [x0, #0x1c58]
     //     0x940d24: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -290,7 +290,7 @@ abstract class HomeTabSelection extends Object {
     //     0x978658: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x97865c: cmp             SP, x16
     //     0x978660: b.ls            #0x9786dc
-    // 0x978664: r0 = InitLateStaticField(0xe20) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
+    // 0x978664: r0 = InitLateStaticField(0xe20) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
     //     0x978664: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x978668: ldr             x0, [x0, #0x1c40]
     //     0x97866c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -303,15 +303,15 @@ abstract class HomeTabSelection extends Object {
     //     0x978684: ldur            w1, [x0, #0x27]
     // 0x978688: DecompressPointer r1
     //     0x978688: add             x1, x1, HEAP, lsl #32
-    // 0x97868c: r16 = Instance_BallAiPrimaryDestination
-    //     0x97868c: add             x16, PP, #0x21, lsl #12  ; [pp+0x212b0] Obj!BallAiPrimaryDestination@d3bb21
+    // 0x97868c: r16 = Instance_KourtAiPrimaryDestination
+    //     0x97868c: add             x16, PP, #0x21, lsl #12  ; [pp+0x212b0] Obj!KourtAiPrimaryDestination@d3bb21
     //     0x978690: ldr             x16, [x16, #0x2b0]
     // 0x978694: cmp             w1, w16
     // 0x978698: b.ne            #0x9786a4
     // 0x97869c: r0 = true
     //     0x97869c: add             x0, NULL, #0x20  ; true
     // 0x9786a0: b               #0x9786d0
-    // 0x9786a4: r0 = InitLateStaticField(0xe28) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::teamsCoverVisible
+    // 0x9786a4: r0 = InitLateStaticField(0xe28) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::teamsCoverVisible
     //     0x9786a4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x9786a8: ldr             x0, [x0, #0x1c50]
     //     0x9786ac: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel

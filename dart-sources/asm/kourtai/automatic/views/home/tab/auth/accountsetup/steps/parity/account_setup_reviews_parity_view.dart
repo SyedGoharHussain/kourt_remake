@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_reviews_parity_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_reviews_parity_view.dart
 
 // class id: 1048847, size: 0x8
 class :: {
@@ -56,7 +56,7 @@ class _AccountSetupReviewsParityViewState extends State<dynamic> {
     // 0x94e1cc: mov             x2, x1
     // 0x94e1d0: stur            x0, [fp, #-8]
     // 0x94e1d4: r1 = Function '<anonymous closure>':.
-    //     0x94e1d4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d048] AnonymousClosure: (0x94e2cc), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_reviews_parity_view.dart] _AccountSetupReviewsParityViewState::initState (0x94e15c)
+    //     0x94e1d4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d048] AnonymousClosure: (0x94e2cc), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_reviews_parity_view.dart] _AccountSetupReviewsParityViewState::initState (0x94e15c)
     //     0x94e1d8: ldr             x1, [x1, #0x48]
     // 0x94e1dc: r0 = AllocateClosure()
     //     0x94e1dc: bl              #0xe553e0  ; AllocateClosureStub
@@ -155,7 +155,7 @@ class _AccountSetupReviewsParityViewState extends State<dynamic> {
     //     0x94e2f0: add             x0, x0, HEAP, lsl #32
     // 0x94e2f4: mov             x1, x0
     // 0x94e2f8: r0 = _requestReview()
-    //     0x94e2f8: bl              #0x94e310  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_reviews_parity_view.dart] _AccountSetupReviewsParityViewState::_requestReview
+    //     0x94e2f8: bl              #0x94e310  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_reviews_parity_view.dart] _AccountSetupReviewsParityViewState::_requestReview
     // 0x94e2fc: LeaveFrame
     //     0x94e2fc: mov             SP, fp
     //     0x94e300: ldp             fp, lr, [SP], #0x10
@@ -270,11 +270,11 @@ class _AccountSetupReviewsParityViewState extends State<dynamic> {
     // 0xa0578c: cmp             w2, NULL
     // 0xa05790: b.eq            #0xa06514
     // 0xa05794: r0 = presets()
-    //     0xa05794: bl              #0xa06ac8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_reviews_parity_view.dart] AccountSetupReviewsParityView::presets
+    //     0xa05794: bl              #0xa06ac8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_reviews_parity_view.dart] AccountSetupReviewsParityView::presets
     // 0xa05798: ldur            x1, [fp, #-0x10]
     // 0xa0579c: stur            x0, [fp, #-0x18]
-    // 0xa057a0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa057a0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa057a0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa057a0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa057a4: stur            x0, [fp, #-0x20]
     // 0xa057a8: r0 = TextStyle()
     //     0xa057a8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -367,11 +367,11 @@ class _AccountSetupReviewsParityViewState extends State<dynamic> {
     //     0xa05880: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cf40] "acct_setup_strip_avg_rating_caption"
     //     0xa05884: ldr             x1, [x1, #0xf40]
     // 0xa05888: r0 = L()
-    //     0xa05888: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa05888: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa0588c: ldur            x1, [fp, #-0x10]
     // 0xa05890: stur            x0, [fp, #-0x20]
-    // 0xa05894: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa05894: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa05894: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa05894: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa05898: stur            x0, [fp, #-0x30]
     // 0xa0589c: r0 = TextStyle()
     //     0xa0589c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -545,11 +545,11 @@ class _AccountSetupReviewsParityViewState extends State<dynamic> {
     //     0xa05a40: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cf60] "acct_setup_strip_app_ratings_count"
     //     0xa05a44: ldr             x1, [x1, #0xf60]
     // 0xa05a48: r0 = L()
-    //     0xa05a48: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa05a48: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa05a4c: ldur            x1, [fp, #-0x10]
     // 0xa05a50: stur            x0, [fp, #-0x28]
-    // 0xa05a54: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa05a54: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa05a54: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa05a54: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa05a58: stur            x0, [fp, #-0x30]
     // 0xa05a5c: r0 = TextStyle()
     //     0xa05a5c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -660,11 +660,11 @@ class _AccountSetupReviewsParityViewState extends State<dynamic> {
     //     0xa05b64: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cf68] "acct_setup_strip_user_count"
     //     0xa05b68: ldr             x1, [x1, #0xf68]
     // 0xa05b6c: r0 = L()
-    //     0xa05b6c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa05b6c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa05b70: ldur            x1, [fp, #-0x10]
     // 0xa05b74: stur            x0, [fp, #-0x30]
-    // 0xa05b78: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa05b78: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa05b78: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa05b78: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa05b7c: stur            x0, [fp, #-0x38]
     // 0xa05b80: r0 = TextStyle()
     //     0xa05b80: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -840,8 +840,8 @@ class _AccountSetupReviewsParityViewState extends State<dynamic> {
     // 0xa05d2c: ldur            x2, [fp, #-0x28]
     // 0xa05d30: StoreField: r1->field_b = r2
     //     0xa05d30: stur            w2, [x1, #0xb]
-    // 0xa05d34: r0 = BallAiLiquidGlassCard()
-    //     0xa05d34: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xa05d34: r0 = KourtAiLiquidGlassCard()
+    //     0xa05d34: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xa05d38: mov             x3, x0
     // 0xa05d3c: ldur            x0, [fp, #-0x20]
     // 0xa05d40: stur            x3, [fp, #-0x28]
@@ -1142,8 +1142,8 @@ class _AccountSetupReviewsParityViewState extends State<dynamic> {
     //     0xa06078: add             x9, x9, HEAP, lsl #32
     // 0xa0607c: ldur            x1, [fp, #-0x10]
     // 0xa06080: stur            x9, [fp, #-0x40]
-    // 0xa06084: r0 = BallAiThemeContext.ballAi()
-    //     0xa06084: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xa06084: r0 = KourtAiThemeContext.kourtAi()
+    //     0xa06084: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xa06088: ArrayLoad: r1 = r0[0]  ; List_4
     //     0xa06088: ldur            w1, [x0, #0x17]
     // 0xa0608c: DecompressPointer r1
@@ -1185,11 +1185,11 @@ class _AccountSetupReviewsParityViewState extends State<dynamic> {
     //     0xa060e8: ldur            x2, [x0, #0xb]
     // 0xa060ec: ldur            x1, [fp, #-8]
     // 0xa060f0: r0 = _formatDate()
-    //     0xa060f0: bl              #0xa06530  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_reviews_parity_view.dart] _AccountSetupReviewsParityViewState::_formatDate
+    //     0xa060f0: bl              #0xa06530  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_reviews_parity_view.dart] _AccountSetupReviewsParityViewState::_formatDate
     // 0xa060f4: ldur            x1, [fp, #-0x10]
     // 0xa060f8: stur            x0, [fp, #-0x40]
-    // 0xa060fc: r0 = BallAiThemeContext.ballAi()
-    //     0xa060fc: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xa060fc: r0 = KourtAiThemeContext.kourtAi()
+    //     0xa060fc: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xa06100: LoadField: r1 = r0->field_1b
     //     0xa06100: ldur            w1, [x0, #0x1b]
     // 0xa06104: DecompressPointer r1
@@ -1363,8 +1363,8 @@ class _AccountSetupReviewsParityViewState extends State<dynamic> {
     //     0xa062a4: add             x8, x8, HEAP, lsl #32
     // 0xa062a8: ldur            x1, [fp, #-0x10]
     // 0xa062ac: stur            x8, [fp, #-0x40]
-    // 0xa062b0: r0 = BallAiThemeContext.ballAi()
-    //     0xa062b0: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xa062b0: r0 = KourtAiThemeContext.kourtAi()
+    //     0xa062b0: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xa062b4: ArrayLoad: r1 = r0[0]  ; List_4
     //     0xa062b4: ldur            w1, [x0, #0x17]
     // 0xa062b8: DecompressPointer r1
@@ -1483,8 +1483,8 @@ class _AccountSetupReviewsParityViewState extends State<dynamic> {
     // 0xa063d4: ldur            x2, [fp, #-0x40]
     // 0xa063d8: StoreField: r1->field_b = r2
     //     0xa063d8: stur            w2, [x1, #0xb]
-    // 0xa063dc: r0 = BallAiLiquidGlassCard()
-    //     0xa063dc: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xa063dc: r0 = KourtAiLiquidGlassCard()
+    //     0xa063dc: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xa063e0: mov             x3, x0
     // 0xa063e4: ldur            x0, [fp, #-0x20]
     // 0xa063e8: stur            x3, [fp, #-0x40]
@@ -1666,7 +1666,7 @@ class _AccountSetupReviewsParityViewState extends State<dynamic> {
     //     0xa065a8: ldr             x1, [x1, #0x338]
     // 0xa065ac: stur            x0, [fp, #-0x10]
     // 0xa065b0: r0 = L()
-    //     0xa065b0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa065b0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa065b4: r1 = <String>
     //     0xa065b4: ldr             x1, [PP, #0x850]  ; [pp+0x850] TypeArguments: <String>
     // 0xa065b8: r2 = 24
@@ -1683,7 +1683,7 @@ class _AccountSetupReviewsParityViewState extends State<dynamic> {
     //     0xa065d4: add             x1, PP, #0x27, lsl #12  ; [pp+0x27340] "Feb"
     //     0xa065d8: ldr             x1, [x1, #0x340]
     // 0xa065dc: r0 = L()
-    //     0xa065dc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa065dc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa065e0: ldur            x1, [fp, #-0x28]
     // 0xa065e4: ArrayStore: r1[1] = r0  ; List_4
     //     0xa065e4: add             x25, x1, #0x13
@@ -1699,7 +1699,7 @@ class _AccountSetupReviewsParityViewState extends State<dynamic> {
     //     0xa06608: add             x1, PP, #0x27, lsl #12  ; [pp+0x27348] "Mar"
     //     0xa0660c: ldr             x1, [x1, #0x348]
     // 0xa06610: r0 = L()
-    //     0xa06610: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06610: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06614: ldur            x1, [fp, #-0x28]
     // 0xa06618: ArrayStore: r1[2] = r0  ; List_4
     //     0xa06618: add             x25, x1, #0x17
@@ -1715,7 +1715,7 @@ class _AccountSetupReviewsParityViewState extends State<dynamic> {
     //     0xa0663c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27350] "Apr"
     //     0xa06640: ldr             x1, [x1, #0x350]
     // 0xa06644: r0 = L()
-    //     0xa06644: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06644: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06648: ldur            x1, [fp, #-0x28]
     // 0xa0664c: ArrayStore: r1[3] = r0  ; List_4
     //     0xa0664c: add             x25, x1, #0x1b
@@ -1731,7 +1731,7 @@ class _AccountSetupReviewsParityViewState extends State<dynamic> {
     //     0xa06670: add             x1, PP, #0x27, lsl #12  ; [pp+0x27358] "May"
     //     0xa06674: ldr             x1, [x1, #0x358]
     // 0xa06678: r0 = L()
-    //     0xa06678: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06678: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa0667c: ldur            x1, [fp, #-0x28]
     // 0xa06680: ArrayStore: r1[4] = r0  ; List_4
     //     0xa06680: add             x25, x1, #0x1f
@@ -1747,7 +1747,7 @@ class _AccountSetupReviewsParityViewState extends State<dynamic> {
     //     0xa066a4: add             x1, PP, #0x27, lsl #12  ; [pp+0x27360] "Jun"
     //     0xa066a8: ldr             x1, [x1, #0x360]
     // 0xa066ac: r0 = L()
-    //     0xa066ac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa066ac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa066b0: ldur            x1, [fp, #-0x28]
     // 0xa066b4: ArrayStore: r1[5] = r0  ; List_4
     //     0xa066b4: add             x25, x1, #0x23
@@ -1763,7 +1763,7 @@ class _AccountSetupReviewsParityViewState extends State<dynamic> {
     //     0xa066d8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27368] "Jul"
     //     0xa066dc: ldr             x1, [x1, #0x368]
     // 0xa066e0: r0 = L()
-    //     0xa066e0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa066e0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa066e4: ldur            x1, [fp, #-0x28]
     // 0xa066e8: ArrayStore: r1[6] = r0  ; List_4
     //     0xa066e8: add             x25, x1, #0x27
@@ -1779,7 +1779,7 @@ class _AccountSetupReviewsParityViewState extends State<dynamic> {
     //     0xa0670c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27370] "Aug"
     //     0xa06710: ldr             x1, [x1, #0x370]
     // 0xa06714: r0 = L()
-    //     0xa06714: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06714: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06718: ldur            x1, [fp, #-0x28]
     // 0xa0671c: ArrayStore: r1[7] = r0  ; List_4
     //     0xa0671c: add             x25, x1, #0x2b
@@ -1795,7 +1795,7 @@ class _AccountSetupReviewsParityViewState extends State<dynamic> {
     //     0xa06740: add             x1, PP, #0x27, lsl #12  ; [pp+0x27378] "Sep"
     //     0xa06744: ldr             x1, [x1, #0x378]
     // 0xa06748: r0 = L()
-    //     0xa06748: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06748: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa0674c: ldur            x1, [fp, #-0x28]
     // 0xa06750: ArrayStore: r1[8] = r0  ; List_4
     //     0xa06750: add             x25, x1, #0x2f
@@ -1811,7 +1811,7 @@ class _AccountSetupReviewsParityViewState extends State<dynamic> {
     //     0xa06774: add             x1, PP, #0x27, lsl #12  ; [pp+0x27380] "Oct"
     //     0xa06778: ldr             x1, [x1, #0x380]
     // 0xa0677c: r0 = L()
-    //     0xa0677c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa0677c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06780: ldur            x1, [fp, #-0x28]
     // 0xa06784: ArrayStore: r1[9] = r0  ; List_4
     //     0xa06784: add             x25, x1, #0x33
@@ -1827,7 +1827,7 @@ class _AccountSetupReviewsParityViewState extends State<dynamic> {
     //     0xa067a8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27388] "Nov"
     //     0xa067ac: ldr             x1, [x1, #0x388]
     // 0xa067b0: r0 = L()
-    //     0xa067b0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa067b0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa067b4: ldur            x1, [fp, #-0x28]
     // 0xa067b8: ArrayStore: r1[10] = r0  ; List_4
     //     0xa067b8: add             x25, x1, #0x37
@@ -1843,7 +1843,7 @@ class _AccountSetupReviewsParityViewState extends State<dynamic> {
     //     0xa067dc: add             x1, PP, #0x27, lsl #12  ; [pp+0x27390] "Dec"
     //     0xa067e0: ldr             x1, [x1, #0x390]
     // 0xa067e4: r0 = L()
-    //     0xa067e4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa067e4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa067e8: ldur            x1, [fp, #-0x28]
     // 0xa067ec: ArrayStore: r1[11] = r0  ; List_4
     //     0xa067ec: add             x25, x1, #0x3b
@@ -2130,13 +2130,13 @@ class AccountSetupReviewsParityView extends StatefulWidget {
     //     0xa06ae0: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cfa0] "acct_setup_rev_01_author"
     //     0xa06ae4: ldr             x1, [x1, #0xfa0]
     // 0xa06ae8: r0 = L()
-    //     0xa06ae8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06ae8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06aec: r1 = "acct_setup_rev_01_body"
     //     0xa06aec: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cfa8] "acct_setup_rev_01_body"
     //     0xa06af0: ldr             x1, [x1, #0xfa8]
     // 0xa06af4: stur            x0, [fp, #-8]
     // 0xa06af8: r0 = L()
-    //     0xa06af8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06af8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06afc: stur            x0, [fp, #-0x10]
     // 0xa06b00: r0 = AccountSetupReviewPreset()
     //     0xa06b00: bl              #0xa06f90  ; AllocateAccountSetupReviewPresetStub -> AccountSetupReviewPreset (size=0x20)
@@ -2172,13 +2172,13 @@ class AccountSetupReviewsParityView extends StatefulWidget {
     //     0xa06b4c: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cfb8] "acct_setup_rev_02_author"
     //     0xa06b50: ldr             x1, [x1, #0xfb8]
     // 0xa06b54: r0 = L()
-    //     0xa06b54: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06b54: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06b58: r1 = "acct_setup_rev_02_body"
     //     0xa06b58: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cfc0] "acct_setup_rev_02_body"
     //     0xa06b5c: ldr             x1, [x1, #0xfc0]
     // 0xa06b60: stur            x0, [fp, #-0x10]
     // 0xa06b64: r0 = L()
-    //     0xa06b64: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06b64: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06b68: stur            x0, [fp, #-0x18]
     // 0xa06b6c: r0 = AccountSetupReviewPreset()
     //     0xa06b6c: bl              #0xa06f90  ; AllocateAccountSetupReviewPresetStub -> AccountSetupReviewPreset (size=0x20)
@@ -2213,13 +2213,13 @@ class AccountSetupReviewsParityView extends StatefulWidget {
     //     0xa06bc0: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cfc8] "acct_setup_rev_03_author"
     //     0xa06bc4: ldr             x1, [x1, #0xfc8]
     // 0xa06bc8: r0 = L()
-    //     0xa06bc8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06bc8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06bcc: r1 = "acct_setup_rev_03_body"
     //     0xa06bcc: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cfd0] "acct_setup_rev_03_body"
     //     0xa06bd0: ldr             x1, [x1, #0xfd0]
     // 0xa06bd4: stur            x0, [fp, #-0x10]
     // 0xa06bd8: r0 = L()
-    //     0xa06bd8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06bd8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06bdc: stur            x0, [fp, #-0x18]
     // 0xa06be0: r0 = AccountSetupReviewPreset()
     //     0xa06be0: bl              #0xa06f90  ; AllocateAccountSetupReviewPresetStub -> AccountSetupReviewPreset (size=0x20)
@@ -2254,13 +2254,13 @@ class AccountSetupReviewsParityView extends StatefulWidget {
     //     0xa06c34: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cfd8] "acct_setup_rev_04_author"
     //     0xa06c38: ldr             x1, [x1, #0xfd8]
     // 0xa06c3c: r0 = L()
-    //     0xa06c3c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06c3c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06c40: r1 = "acct_setup_rev_04_body"
     //     0xa06c40: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cfe0] "acct_setup_rev_04_body"
     //     0xa06c44: ldr             x1, [x1, #0xfe0]
     // 0xa06c48: stur            x0, [fp, #-0x10]
     // 0xa06c4c: r0 = L()
-    //     0xa06c4c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06c4c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06c50: stur            x0, [fp, #-0x18]
     // 0xa06c54: r0 = AccountSetupReviewPreset()
     //     0xa06c54: bl              #0xa06f90  ; AllocateAccountSetupReviewPresetStub -> AccountSetupReviewPreset (size=0x20)
@@ -2295,13 +2295,13 @@ class AccountSetupReviewsParityView extends StatefulWidget {
     //     0xa06ca8: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cfe8] "acct_setup_rev_05_author"
     //     0xa06cac: ldr             x1, [x1, #0xfe8]
     // 0xa06cb0: r0 = L()
-    //     0xa06cb0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06cb0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06cb4: r1 = "acct_setup_rev_05_body"
     //     0xa06cb4: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cff0] "acct_setup_rev_05_body"
     //     0xa06cb8: ldr             x1, [x1, #0xff0]
     // 0xa06cbc: stur            x0, [fp, #-0x10]
     // 0xa06cc0: r0 = L()
-    //     0xa06cc0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06cc0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06cc4: stur            x0, [fp, #-0x18]
     // 0xa06cc8: r0 = AccountSetupReviewPreset()
     //     0xa06cc8: bl              #0xa06f90  ; AllocateAccountSetupReviewPresetStub -> AccountSetupReviewPreset (size=0x20)
@@ -2336,13 +2336,13 @@ class AccountSetupReviewsParityView extends StatefulWidget {
     //     0xa06d1c: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cff8] "acct_setup_rev_06_author"
     //     0xa06d20: ldr             x1, [x1, #0xff8]
     // 0xa06d24: r0 = L()
-    //     0xa06d24: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06d24: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06d28: r1 = "acct_setup_rev_06_body"
     //     0xa06d28: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d000] "acct_setup_rev_06_body"
     //     0xa06d2c: ldr             x1, [x1]
     // 0xa06d30: stur            x0, [fp, #-0x10]
     // 0xa06d34: r0 = L()
-    //     0xa06d34: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06d34: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06d38: stur            x0, [fp, #-0x18]
     // 0xa06d3c: r0 = AccountSetupReviewPreset()
     //     0xa06d3c: bl              #0xa06f90  ; AllocateAccountSetupReviewPresetStub -> AccountSetupReviewPreset (size=0x20)
@@ -2377,13 +2377,13 @@ class AccountSetupReviewsParityView extends StatefulWidget {
     //     0xa06d90: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d008] "acct_setup_rev_07_author"
     //     0xa06d94: ldr             x1, [x1, #8]
     // 0xa06d98: r0 = L()
-    //     0xa06d98: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06d98: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06d9c: r1 = "acct_setup_rev_07_body"
     //     0xa06d9c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d010] "acct_setup_rev_07_body"
     //     0xa06da0: ldr             x1, [x1, #0x10]
     // 0xa06da4: stur            x0, [fp, #-0x10]
     // 0xa06da8: r0 = L()
-    //     0xa06da8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06da8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06dac: stur            x0, [fp, #-0x18]
     // 0xa06db0: r0 = AccountSetupReviewPreset()
     //     0xa06db0: bl              #0xa06f90  ; AllocateAccountSetupReviewPresetStub -> AccountSetupReviewPreset (size=0x20)
@@ -2418,13 +2418,13 @@ class AccountSetupReviewsParityView extends StatefulWidget {
     //     0xa06e04: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d018] "acct_setup_rev_08_author"
     //     0xa06e08: ldr             x1, [x1, #0x18]
     // 0xa06e0c: r0 = L()
-    //     0xa06e0c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06e0c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06e10: r1 = "acct_setup_rev_08_body"
     //     0xa06e10: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d020] "acct_setup_rev_08_body"
     //     0xa06e14: ldr             x1, [x1, #0x20]
     // 0xa06e18: stur            x0, [fp, #-0x10]
     // 0xa06e1c: r0 = L()
-    //     0xa06e1c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06e1c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06e20: stur            x0, [fp, #-0x18]
     // 0xa06e24: r0 = AccountSetupReviewPreset()
     //     0xa06e24: bl              #0xa06f90  ; AllocateAccountSetupReviewPresetStub -> AccountSetupReviewPreset (size=0x20)
@@ -2459,13 +2459,13 @@ class AccountSetupReviewsParityView extends StatefulWidget {
     //     0xa06e78: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d028] "acct_setup_rev_09_author"
     //     0xa06e7c: ldr             x1, [x1, #0x28]
     // 0xa06e80: r0 = L()
-    //     0xa06e80: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06e80: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06e84: r1 = "acct_setup_rev_09_body"
     //     0xa06e84: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d030] "acct_setup_rev_09_body"
     //     0xa06e88: ldr             x1, [x1, #0x30]
     // 0xa06e8c: stur            x0, [fp, #-0x10]
     // 0xa06e90: r0 = L()
-    //     0xa06e90: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06e90: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06e94: stur            x0, [fp, #-0x18]
     // 0xa06e98: r0 = AccountSetupReviewPreset()
     //     0xa06e98: bl              #0xa06f90  ; AllocateAccountSetupReviewPresetStub -> AccountSetupReviewPreset (size=0x20)
@@ -2500,13 +2500,13 @@ class AccountSetupReviewsParityView extends StatefulWidget {
     //     0xa06eec: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d038] "acct_setup_rev_10_author"
     //     0xa06ef0: ldr             x1, [x1, #0x38]
     // 0xa06ef4: r0 = L()
-    //     0xa06ef4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06ef4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06ef8: r1 = "acct_setup_rev_10_body"
     //     0xa06ef8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d040] "acct_setup_rev_10_body"
     //     0xa06efc: ldr             x1, [x1, #0x40]
     // 0xa06f00: stur            x0, [fp, #-0x10]
     // 0xa06f04: r0 = L()
-    //     0xa06f04: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa06f04: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa06f08: stur            x0, [fp, #-0x18]
     // 0xa06f0c: r0 = AccountSetupReviewPreset()
     //     0xa06f0c: bl              #0xa06f90  ; AllocateAccountSetupReviewPresetStub -> AccountSetupReviewPreset (size=0x20)
@@ -2602,8 +2602,8 @@ class _ProofFace extends StatelessWidget {
     //     0xbd0678: cmp             SP, x16
     //     0xbd067c: b.ls            #0xbd08d0
     // 0xbd0680: mov             x1, x0
-    // 0xbd0684: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbd0684: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbd0684: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbd0684: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbd0688: stur            x0, [fp, #-0x18]
     // 0xbd068c: r1 = 1
     //     0xbd068c: mov             x1, #1
@@ -2674,7 +2674,7 @@ class _ProofFace extends StatelessWidget {
     //     0xbd0734: bl              #0x9d20b4  ; AllocateImageStub -> Image (size=0x58)
     // 0xbd0738: ldur            x2, [fp, #-0x20]
     // 0xbd073c: r1 = Function '<anonymous closure>':.
-    //     0xbd073c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c720] AnonymousClosure: (0xbd08d8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_reviews_parity_view.dart] _ProofFace::build (0xbd0658)
+    //     0xbd073c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c720] AnonymousClosure: (0xbd08d8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_reviews_parity_view.dart] _ProofFace::build (0xbd0658)
     //     0xbd0740: ldr             x1, [x1, #0x720]
     // 0xbd0744: stur            x0, [fp, #-0x10]
     // 0xbd0748: r0 = AllocateClosure()

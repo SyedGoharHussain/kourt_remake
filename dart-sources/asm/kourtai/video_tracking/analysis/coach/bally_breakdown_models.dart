@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/analysis/coach/bally_breakdown_models.dart
+// lib: , url: package:kourtai/video_tracking/analysis/coach/bally_breakdown_models.dart
 
 // class id: 1049071, size: 0x8
 class :: {
@@ -31,7 +31,7 @@ abstract class BallyBreakdownDimensionLabel extends Object {
     //     0xbe88ac: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a0a0] "Speed"
     //     0xbe88b0: ldr             x1, [x1, #0xa0]
     // 0xbe88b4: r0 = L()
-    //     0xbe88b4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe88b4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe88b8: LeaveFrame
     //     0xbe88b8: mov             SP, fp
     //     0xbe88bc: ldp             fp, lr, [SP], #0x10
@@ -49,7 +49,7 @@ abstract class BallyBreakdownDimensionLabel extends Object {
     //     0xbe88dc: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e2a8] "Moves"
     //     0xbe88e0: ldr             x1, [x1, #0x2a8]
     // 0xbe88e4: r0 = L()
-    //     0xbe88e4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe88e4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe88e8: LeaveFrame
     //     0xbe88e8: mov             SP, fp
     //     0xbe88ec: ldp             fp, lr, [SP], #0x10
@@ -67,7 +67,7 @@ abstract class BallyBreakdownDimensionLabel extends Object {
     //     0xbe890c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44258] "Ball control"
     //     0xbe8910: ldr             x1, [x1, #0x258]
     // 0xbe8914: r0 = L()
-    //     0xbe8914: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe8914: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe8918: LeaveFrame
     //     0xbe8918: mov             SP, fp
     //     0xbe891c: ldp             fp, lr, [SP], #0x10
@@ -85,7 +85,7 @@ abstract class BallyBreakdownDimensionLabel extends Object {
     //     0xbe893c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e2b0] "Rhythm"
     //     0xbe8940: ldr             x1, [x1, #0x2b0]
     // 0xbe8944: r0 = L()
-    //     0xbe8944: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe8944: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe8948: LeaveFrame
     //     0xbe8948: mov             SP, fp
     //     0xbe894c: ldp             fp, lr, [SP], #0x10
@@ -103,7 +103,7 @@ abstract class BallyBreakdownDimensionLabel extends Object {
     //     0xbe896c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e2b8] "Court vision"
     //     0xbe8970: ldr             x1, [x1, #0x2b8]
     // 0xbe8974: r0 = L()
-    //     0xbe8974: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe8974: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe8978: LeaveFrame
     //     0xbe8978: mov             SP, fp
     //     0xbe897c: ldp             fp, lr, [SP], #0x10
@@ -121,7 +121,7 @@ abstract class BallyBreakdownDimensionLabel extends Object {
     //     0xbe899c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e2c8] "Shot form"
     //     0xbe89a0: ldr             x1, [x1, #0x2c8]
     // 0xbe89a4: r0 = L()
-    //     0xbe89a4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe89a4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe89a8: LeaveFrame
     //     0xbe89a8: mov             SP, fp
     //     0xbe89ac: ldp             fp, lr, [SP], #0x10
@@ -139,7 +139,7 @@ abstract class BallyBreakdownDimensionLabel extends Object {
     //     0xbe89cc: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e2d8] "Arc & release"
     //     0xbe89d0: ldr             x1, [x1, #0x2d8]
     // 0xbe89d4: r0 = L()
-    //     0xbe89d4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe89d4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe89d8: LeaveFrame
     //     0xbe89d8: mov             SP, fp
     //     0xbe89dc: ldp             fp, lr, [SP], #0x10
@@ -157,7 +157,7 @@ abstract class BallyBreakdownDimensionLabel extends Object {
     //     0xbe89fc: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e2e8] "Footwork & balance"
     //     0xbe8a00: ldr             x1, [x1, #0x2e8]
     // 0xbe8a04: r0 = L()
-    //     0xbe8a04: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe8a04: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe8a08: LeaveFrame
     //     0xbe8a08: mov             SP, fp
     //     0xbe8a0c: ldp             fp, lr, [SP], #0x10
@@ -175,7 +175,7 @@ abstract class BallyBreakdownDimensionLabel extends Object {
     //     0xbe8a2c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d458] "Consistency"
     //     0xbe8a30: ldr             x1, [x1, #0x458]
     // 0xbe8a34: r0 = L()
-    //     0xbe8a34: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe8a34: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe8a38: LeaveFrame
     //     0xbe8a38: mov             SP, fp
     //     0xbe8a3c: ldp             fp, lr, [SP], #0x10
@@ -193,7 +193,7 @@ abstract class BallyBreakdownDimensionLabel extends Object {
     //     0xbe8a5c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e2f8] "Shot IQ"
     //     0xbe8a60: ldr             x1, [x1, #0x2f8]
     // 0xbe8a64: r0 = L()
-    //     0xbe8a64: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe8a64: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe8a68: LeaveFrame
     //     0xbe8a68: mov             SP, fp
     //     0xbe8a6c: ldp             fp, lr, [SP], #0x10
@@ -211,7 +211,7 @@ abstract class BallyBreakdownDimensionLabel extends Object {
     //     0xbe8a8c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e308] "Intensity"
     //     0xbe8a90: ldr             x1, [x1, #0x308]
     // 0xbe8a94: r0 = L()
-    //     0xbe8a94: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe8a94: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe8a98: LeaveFrame
     //     0xbe8a98: mov             SP, fp
     //     0xbe8a9c: ldp             fp, lr, [SP], #0x10
@@ -229,7 +229,7 @@ abstract class BallyBreakdownDimensionLabel extends Object {
     //     0xbe8abc: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e318] "Explosion"
     //     0xbe8ac0: ldr             x1, [x1, #0x318]
     // 0xbe8ac4: r0 = L()
-    //     0xbe8ac4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe8ac4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe8ac8: LeaveFrame
     //     0xbe8ac8: mov             SP, fp
     //     0xbe8acc: ldp             fp, lr, [SP], #0x10
@@ -247,7 +247,7 @@ abstract class BallyBreakdownDimensionLabel extends Object {
     //     0xbe8aec: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e328] "Takeoff"
     //     0xbe8af0: ldr             x1, [x1, #0x328]
     // 0xbe8af4: r0 = L()
-    //     0xbe8af4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe8af4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe8af8: LeaveFrame
     //     0xbe8af8: mov             SP, fp
     //     0xbe8afc: ldp             fp, lr, [SP], #0x10
@@ -265,7 +265,7 @@ abstract class BallyBreakdownDimensionLabel extends Object {
     //     0xbe8b1c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e338] "Finishing power"
     //     0xbe8b20: ldr             x1, [x1, #0x338]
     // 0xbe8b24: r0 = L()
-    //     0xbe8b24: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe8b24: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe8b28: LeaveFrame
     //     0xbe8b28: mov             SP, fp
     //     0xbe8b2c: ldp             fp, lr, [SP], #0x10
@@ -283,7 +283,7 @@ abstract class BallyBreakdownDimensionLabel extends Object {
     //     0xbe8b4c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e348] "Body control"
     //     0xbe8b50: ldr             x1, [x1, #0x348]
     // 0xbe8b54: r0 = L()
-    //     0xbe8b54: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe8b54: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe8b58: LeaveFrame
     //     0xbe8b58: mov             SP, fp
     //     0xbe8b5c: ldp             fp, lr, [SP], #0x10
@@ -301,7 +301,7 @@ abstract class BallyBreakdownDimensionLabel extends Object {
     //     0xbe8b7c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e358] "Soft touch"
     //     0xbe8b80: ldr             x1, [x1, #0x358]
     // 0xbe8b84: r0 = L()
-    //     0xbe8b84: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe8b84: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe8b88: LeaveFrame
     //     0xbe8b88: mov             SP, fp
     //     0xbe8b8c: ldp             fp, lr, [SP], #0x10
@@ -319,7 +319,7 @@ abstract class BallyBreakdownDimensionLabel extends Object {
     //     0xbe8bac: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e368] "Attack mindset"
     //     0xbe8bb0: ldr             x1, [x1, #0x368]
     // 0xbe8bb4: r0 = L()
-    //     0xbe8bb4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe8bb4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe8bb8: LeaveFrame
     //     0xbe8bb8: mov             SP, fp
     //     0xbe8bbc: ldp             fp, lr, [SP], #0x10
@@ -337,7 +337,7 @@ abstract class BallyBreakdownDimensionLabel extends Object {
     //     0xbe8bdc: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e378] "Skill execution"
     //     0xbe8be0: ldr             x1, [x1, #0x378]
     // 0xbe8be4: r0 = L()
-    //     0xbe8be4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe8be4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe8be8: LeaveFrame
     //     0xbe8be8: mov             SP, fp
     //     0xbe8bec: ldp             fp, lr, [SP], #0x10
@@ -355,7 +355,7 @@ abstract class BallyBreakdownDimensionLabel extends Object {
     //     0xbe8c0c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e380] "Focus"
     //     0xbe8c10: ldr             x1, [x1, #0x380]
     // 0xbe8c14: r0 = L()
-    //     0xbe8c14: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe8c14: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe8c18: LeaveFrame
     //     0xbe8c18: mov             SP, fp
     //     0xbe8c1c: ldp             fp, lr, [SP], #0x10
@@ -373,7 +373,7 @@ abstract class BallyBreakdownDimensionLabel extends Object {
     //     0xbe8c3c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e388] "Conditioning"
     //     0xbe8c40: ldr             x1, [x1, #0x388]
     // 0xbe8c44: r0 = L()
-    //     0xbe8c44: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe8c44: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe8c48: LeaveFrame
     //     0xbe8c48: mov             SP, fp
     //     0xbe8c4c: ldp             fp, lr, [SP], #0x10
@@ -390,7 +390,7 @@ abstract class BallyBreakdownDimensionLabel extends Object {
     //     0xbe8c68: ldr             lr, [x21, lr, lsl #3]
     //     0xbe8c6c: blr             lr
     // 0xbe8c70: r1 = Function '<anonymous closure>': static.
-    //     0xbe8c70: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e390] AnonymousClosure: static (0xbe8cc4), in [package:ballai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyBreakdownDimensionLabel::titleForKey (0xbe887c)
+    //     0xbe8c70: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e390] AnonymousClosure: static (0xbe8cc4), in [package:kourtai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyBreakdownDimensionLabel::titleForKey (0xbe887c)
     //     0xbe8c74: ldr             x1, [x1, #0x390]
     // 0xbe8c78: r2 = Null
     //     0xbe8c78: mov             x2, NULL
@@ -603,7 +603,7 @@ class BallyScorecard extends Object {
     //     0x73c798: bl              #0x5f1854  ; [dart:collection] LinkedHashMap::LinkedHashMap.from
     // 0x73c79c: mov             x1, x0
     // 0x73c7a0: r0 = fromScoreMap()
-    //     0x73c7a0: bl              #0x73c684  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyScorecard::fromScoreMap
+    //     0x73c7a0: bl              #0x73c684  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyScorecard::fromScoreMap
     // 0x73c7a4: cmp             w0, NULL
     // 0x73c7a8: b.eq            #0x73c7b8
     // 0x73c7ac: LeaveFrame
@@ -823,7 +823,7 @@ class BallyScorecard extends Object {
     //     0x73ca14: bl              #0x5f1854  ; [dart:collection] LinkedHashMap::LinkedHashMap.from
     // 0x73ca18: mov             x1, x0
     // 0x73ca1c: r0 = fromMap()
-    //     0x73ca1c: bl              #0x73dafc  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyScoreDimension::fromMap
+    //     0x73ca1c: bl              #0x73dafc  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyScoreDimension::fromMap
     // 0x73ca20: stur            x0, [fp, #-0x28]
     // 0x73ca24: cmp             w0, NULL
     // 0x73ca28: b.eq            #0x73caa8
@@ -883,7 +883,7 @@ class BallyScorecard extends Object {
     // 0x73cad0: ldur            x0, [fp, #-8]
     // 0x73cad4: ldur            x2, [fp, #-0x20]
     // 0x73cad8: r1 = Function 'addLegacy': static.
-    //     0x73cad8: add             x1, PP, #0x28, lsl #12  ; [pp+0x28ec8] AnonymousClosure: static (0x73dde0), in [package:ballai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyScorecard::fromScoreMap (0x73c684)
+    //     0x73cad8: add             x1, PP, #0x28, lsl #12  ; [pp+0x28ec8] AnonymousClosure: static (0x73dde0), in [package:kourtai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyScorecard::fromScoreMap (0x73c684)
     //     0x73cadc: ldr             x1, [x1, #0xec8]
     // 0x73cae0: r0 = AllocateClosure()
     //     0x73cae0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1217,7 +1217,7 @@ class BallyScorecard extends Object {
     // 0x73cea0: r1 = Null
     //     0x73cea0: mov             x1, NULL
     // 0x73cea4: r0 = _readDouble()
-    //     0x73cea4: bl              #0x73e0e0  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownDocReader::_readDouble
+    //     0x73cea4: bl              #0x73e0e0  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownDocReader::_readDouble
     // 0x73cea8: cmp             w0, NULL
     // 0x73ceac: b.eq            #0x73d02c
     // 0x73ceb0: ldur            x4, [fp, #-0x10]
@@ -1246,7 +1246,7 @@ class BallyScorecard extends Object {
     // 0x73cef0: r1 = Null
     //     0x73cef0: mov             x1, NULL
     // 0x73cef4: r0 = _stringField()
-    //     0x73cef4: bl              #0x73e174  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
+    //     0x73cef4: bl              #0x73e174  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
     // 0x73cef8: ldur            x1, [fp, #-0x10]
     // 0x73cefc: r2 = "analysis"
     //     0x73cefc: add             x2, PP, #0x28, lsl #12  ; [pp+0x28f40] "analysis"
@@ -1265,7 +1265,7 @@ class BallyScorecard extends Object {
     // 0x73cf24: r1 = Null
     //     0x73cf24: mov             x1, NULL
     // 0x73cf28: r0 = _stringField()
-    //     0x73cf28: bl              #0x73e174  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
+    //     0x73cf28: bl              #0x73e174  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
     // 0x73cf2c: ldur            x1, [fp, #-0x10]
     // 0x73cf30: r2 = "tip"
     //     0x73cf30: add             x2, PP, #0x28, lsl #12  ; [pp+0x28f48] "tip"
@@ -1288,7 +1288,7 @@ class BallyScorecard extends Object {
     // 0x73cf64: ldur            x2, [fp, #-0x28]
     // 0x73cf68: ldur            x0, [fp, #-0x38]
     // 0x73cf6c: r0 = _stringField()
-    //     0x73cf6c: bl              #0x73e174  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
+    //     0x73cf6c: bl              #0x73e174  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
     // 0x73cf70: stur            x0, [fp, #-0x10]
     // 0x73cf74: r0 = BallyScoreDimension()
     //     0x73cf74: bl              #0x73dacc  ; AllocateBallyScoreDimensionStub -> BallyScoreDimension (size=0x24)
@@ -1376,7 +1376,7 @@ class BallyScorecard extends Object {
     // 0x73d064: r1 = Null
     //     0x73d064: mov             x1, NULL
     // 0x73d068: r0 = _readDouble()
-    //     0x73d068: bl              #0x73e0e0  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownDocReader::_readDouble
+    //     0x73d068: bl              #0x73e0e0  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownDocReader::_readDouble
     // 0x73d06c: cmp             w0, NULL
     // 0x73d070: b.ne            #0x73d118
     // 0x73d074: ldur            x0, [fp, #-0x18]
@@ -1388,7 +1388,7 @@ class BallyScorecard extends Object {
     //     0x73d084: mov             x0, NULL
     // 0x73d088: b               #0x73d11c
     // 0x73d08c: r1 = Function '<anonymous closure>': static.
-    //     0x73d08c: add             x1, PP, #0x28, lsl #12  ; [pp+0x28f50] AnonymousClosure: static (0x73dd8c), in [package:ballai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyScorecard::fromScoreMap (0x73c684)
+    //     0x73d08c: add             x1, PP, #0x28, lsl #12  ; [pp+0x28f50] AnonymousClosure: static (0x73dd8c), in [package:kourtai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyScorecard::fromScoreMap (0x73c684)
     //     0x73d090: ldr             x1, [x1, #0xf50]
     // 0x73d094: r2 = Null
     //     0x73d094: mov             x2, NULL
@@ -1404,7 +1404,7 @@ class BallyScorecard extends Object {
     // 0x73d0b0: r0 = map()
     //     0x73d0b0: bl              #0x8e024c  ; [dart:collection] ListBase::map
     // 0x73d0b4: r1 = Function '<anonymous closure>': static.
-    //     0x73d0b4: add             x1, PP, #0x28, lsl #12  ; [pp+0x28f58] AnonymousClosure: static (0x713694), in [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
+    //     0x73d0b4: add             x1, PP, #0x28, lsl #12  ; [pp+0x28f58] AnonymousClosure: static (0x713694), in [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
     //     0x73d0b8: ldr             x1, [x1, #0xf58]
     // 0x73d0bc: r2 = Null
     //     0x73d0bc: mov             x2, NULL
@@ -1494,7 +1494,7 @@ class BallyScorecard extends Object {
     // 0x73d1b4: r1 = Null
     //     0x73d1b4: mov             x1, NULL
     // 0x73d1b8: r0 = _readDouble()
-    //     0x73d1b8: bl              #0x73e0e0  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownDocReader::_readDouble
+    //     0x73d1b8: bl              #0x73e0e0  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownDocReader::_readDouble
     // 0x73d1bc: ldur            x1, [fp, #-8]
     // 0x73d1c0: r2 = "verdict"
     //     0x73d1c0: add             x2, PP, #0x28, lsl #12  ; [pp+0x28f68] "verdict"
@@ -1513,7 +1513,7 @@ class BallyScorecard extends Object {
     // 0x73d1e8: r1 = Null
     //     0x73d1e8: mov             x1, NULL
     // 0x73d1ec: r0 = _stringField()
-    //     0x73d1ec: bl              #0x73e174  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
+    //     0x73d1ec: bl              #0x73e174  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
     // 0x73d1f0: ldur            x1, [fp, #-8]
     // 0x73d1f4: r2 = "summary"
     //     0x73d1f4: add             x2, PP, #0x21, lsl #12  ; [pp+0x211f0] "summary"
@@ -1532,7 +1532,7 @@ class BallyScorecard extends Object {
     // 0x73d21c: r1 = Null
     //     0x73d21c: mov             x1, NULL
     // 0x73d220: r0 = _stringField()
-    //     0x73d220: bl              #0x73e174  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
+    //     0x73d220: bl              #0x73e174  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
     // 0x73d224: ldur            x1, [fp, #-8]
     // 0x73d228: r2 = "playerComparison"
     //     0x73d228: add             x2, PP, #0x28, lsl #12  ; [pp+0x28f70] "playerComparison"
@@ -1655,7 +1655,7 @@ class BallyScorecard extends Object {
     //     0x73d36c: mov             x1, NULL
     // 0x73d370: ldur            x0, [fp, #-8]
     // 0x73d374: r0 = fromMap()
-    //     0x73d374: bl              #0x73d7a8  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyBreakdownPlayerComparison::fromMap
+    //     0x73d374: bl              #0x73d7a8  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyBreakdownPlayerComparison::fromMap
     // 0x73d378: ldur            x1, [fp, #-8]
     // 0x73d37c: r2 = "strengths"
     //     0x73d37c: add             x2, PP, #0x28, lsl #12  ; [pp+0x28fa0] "strengths"
@@ -2084,7 +2084,7 @@ class BallyScorecard extends Object {
     //     0x73de04: b.ls            #0x73e0d8
     // 0x73de08: ldr             x1, [fp, #0x18]
     // 0x73de0c: r0 = _readDouble()
-    //     0x73de0c: bl              #0x73e0e0  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownDocReader::_readDouble
+    //     0x73de0c: bl              #0x73e0e0  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownDocReader::_readDouble
     // 0x73de10: mov             x3, x0
     // 0x73de14: stur            x3, [fp, #-0x10]
     // 0x73de18: cmp             w3, NULL
@@ -2184,7 +2184,7 @@ class BallyScorecard extends Object {
     // 0x73df20: r1 = Null
     //     0x73df20: mov             x1, NULL
     // 0x73df24: r0 = _stringField()
-    //     0x73df24: bl              #0x73e174  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
+    //     0x73df24: bl              #0x73e174  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
     // 0x73df28: ldur            x1, [fp, #-0x18]
     // 0x73df2c: r2 = "analysis"
     //     0x73df2c: add             x2, PP, #0x28, lsl #12  ; [pp+0x28f40] "analysis"
@@ -2203,7 +2203,7 @@ class BallyScorecard extends Object {
     // 0x73df54: r1 = Null
     //     0x73df54: mov             x1, NULL
     // 0x73df58: r0 = _stringField()
-    //     0x73df58: bl              #0x73e174  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
+    //     0x73df58: bl              #0x73e174  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
     // 0x73df5c: ldur            x1, [fp, #-0x18]
     // 0x73df60: r2 = "tip"
     //     0x73df60: add             x2, PP, #0x28, lsl #12  ; [pp+0x28f48] "tip"
@@ -2222,7 +2222,7 @@ class BallyScorecard extends Object {
     // 0x73df88: r1 = Null
     //     0x73df88: mov             x1, NULL
     // 0x73df8c: r0 = _stringField()
-    //     0x73df8c: bl              #0x73e174  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
+    //     0x73df8c: bl              #0x73e174  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
     // 0x73df90: ldur            x7, [fp, #-0x20]
     // 0x73df94: ldur            x6, [fp, #-0x28]
     // 0x73df98: mov             x5, x0
@@ -2548,7 +2548,7 @@ class BallyBreakdownPlayerComparison extends Object {
     // 0x73d8b4: r1 = Null
     //     0x73d8b4: mov             x1, NULL
     // 0x73d8b8: r0 = _stringField()
-    //     0x73d8b8: bl              #0x73e174  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
+    //     0x73d8b8: bl              #0x73e174  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
     // 0x73d8bc: ldur            x1, [fp, #-8]
     // 0x73d8c0: r2 = "reason"
     //     0x73d8c0: add             x2, PP, #0x1d, lsl #12  ; [pp+0x1da08] "reason"
@@ -2567,7 +2567,7 @@ class BallyBreakdownPlayerComparison extends Object {
     // 0x73d8e8: r1 = Null
     //     0x73d8e8: mov             x1, NULL
     // 0x73d8ec: r0 = _stringField()
-    //     0x73d8ec: bl              #0x73e174  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
+    //     0x73d8ec: bl              #0x73e174  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
     // 0x73d8f0: ldur            x1, [fp, #-8]
     // 0x73d8f4: r2 = "team"
     //     0x73d8f4: add             x2, PP, #0x21, lsl #12  ; [pp+0x211c0] "team"
@@ -2586,7 +2586,7 @@ class BallyBreakdownPlayerComparison extends Object {
     // 0x73d91c: r1 = Null
     //     0x73d91c: mov             x1, NULL
     // 0x73d920: r0 = _stringField()
-    //     0x73d920: bl              #0x73e174  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
+    //     0x73d920: bl              #0x73e174  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
     // 0x73d924: ldur            x1, [fp, #-8]
     // 0x73d928: r2 = "playstyle"
     //     0x73d928: add             x2, PP, #0x29, lsl #12  ; [pp+0x29038] "playstyle"
@@ -2605,7 +2605,7 @@ class BallyBreakdownPlayerComparison extends Object {
     // 0x73d950: r1 = Null
     //     0x73d950: mov             x1, NULL
     // 0x73d954: r0 = _stringField()
-    //     0x73d954: bl              #0x73e174  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
+    //     0x73d954: bl              #0x73e174  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
     // 0x73d958: ldur            x1, [fp, #-8]
     // 0x73d95c: r2 = "accolades"
     //     0x73d95c: add             x2, PP, #0x29, lsl #12  ; [pp+0x29040] "accolades"
@@ -2623,7 +2623,7 @@ class BallyBreakdownPlayerComparison extends Object {
     // 0x73d980: r1 = Null
     //     0x73d980: mov             x1, NULL
     // 0x73d984: r0 = _stringField()
-    //     0x73d984: bl              #0x73e174  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
+    //     0x73d984: bl              #0x73e174  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
     // 0x73d988: ldur            x1, [fp, #-8]
     // 0x73d98c: r2 = "learnMoreURL"
     //     0x73d98c: add             x2, PP, #0x29, lsl #12  ; [pp+0x29048] "learnMoreURL"
@@ -2659,7 +2659,7 @@ class BallyBreakdownPlayerComparison extends Object {
     // 0x73d9e4: r1 = Null
     //     0x73d9e4: mov             x1, NULL
     // 0x73d9e8: r0 = _stringField()
-    //     0x73d9e8: bl              #0x73e174  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
+    //     0x73d9e8: bl              #0x73e174  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
     // 0x73d9ec: ldur            x1, [fp, #-8]
     // 0x73d9f0: r2 = "headshotURL"
     //     0x73d9f0: add             x2, PP, #0x29, lsl #12  ; [pp+0x29058] "headshotURL"
@@ -2704,7 +2704,7 @@ class BallyBreakdownPlayerComparison extends Object {
     // 0x73da68: ldur            x2, [fp, #-0x28]
     // 0x73da6c: ldur            x0, [fp, #-0x30]
     // 0x73da70: r0 = _stringField()
-    //     0x73da70: bl              #0x73e174  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
+    //     0x73da70: bl              #0x73e174  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
     // 0x73da74: stur            x0, [fp, #-8]
     // 0x73da78: r0 = BallyBreakdownPlayerComparison()
     //     0x73da78: bl              #0x73dac0  ; AllocateBallyBreakdownPlayerComparisonStub -> BallyBreakdownPlayerComparison (size=0x20)
@@ -2833,7 +2833,7 @@ class BallyScoreDimension extends Object {
     // 0x73dbec: r1 = Null
     //     0x73dbec: mov             x1, NULL
     // 0x73dbf0: r0 = _readDouble()
-    //     0x73dbf0: bl              #0x73e0e0  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownDocReader::_readDouble
+    //     0x73dbf0: bl              #0x73e0e0  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_doc_reader.dart] BallyBreakdownDocReader::_readDouble
     // 0x73dbf4: cmp             w0, NULL
     // 0x73dbf8: b.ne            #0x73dc04
     // 0x73dbfc: d0 = 0.000000
@@ -2877,7 +2877,7 @@ class BallyScoreDimension extends Object {
     // 0x73dc68: r1 = Null
     //     0x73dc68: mov             x1, NULL
     // 0x73dc6c: r0 = _stringField()
-    //     0x73dc6c: bl              #0x73e174  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
+    //     0x73dc6c: bl              #0x73e174  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
     // 0x73dc70: ldur            x1, [fp, #-8]
     // 0x73dc74: r2 = "label"
     //     0x73dc74: add             x2, PP, #0x12, lsl #12  ; [pp+0x12c48] "label"
@@ -2896,7 +2896,7 @@ class BallyScoreDimension extends Object {
     // 0x73dc9c: r1 = Null
     //     0x73dc9c: mov             x1, NULL
     // 0x73dca0: r0 = _stringField()
-    //     0x73dca0: bl              #0x73e174  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
+    //     0x73dca0: bl              #0x73e174  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
     // 0x73dca4: ldur            x1, [fp, #-8]
     // 0x73dca8: r2 = "analysis"
     //     0x73dca8: add             x2, PP, #0x28, lsl #12  ; [pp+0x28f40] "analysis"
@@ -2915,7 +2915,7 @@ class BallyScoreDimension extends Object {
     // 0x73dcd0: r1 = Null
     //     0x73dcd0: mov             x1, NULL
     // 0x73dcd4: r0 = _stringField()
-    //     0x73dcd4: bl              #0x73e174  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
+    //     0x73dcd4: bl              #0x73e174  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
     // 0x73dcd8: ldur            x1, [fp, #-8]
     // 0x73dcdc: r2 = "tip"
     //     0x73dcdc: add             x2, PP, #0x28, lsl #12  ; [pp+0x28f48] "tip"
@@ -2939,7 +2939,7 @@ class BallyScoreDimension extends Object {
     // 0x73dd14: ldur            x2, [fp, #-0x28]
     // 0x73dd18: ldur            x0, [fp, #-0x30]
     // 0x73dd1c: r0 = _stringField()
-    //     0x73dd1c: bl              #0x73e174  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
+    //     0x73dd1c: bl              #0x73e174  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::_stringField
     // 0x73dd20: stur            x0, [fp, #-8]
     // 0x73dd24: r0 = BallyScoreDimension()
     //     0x73dd24: bl              #0x73dacc  ; AllocateBallyScoreDimensionStub -> BallyScoreDimension (size=0x24)
@@ -3025,7 +3025,7 @@ class BallyScoreDimension extends Object {
     // 0xbe8860: DecompressPointer r1
     //     0xbe8860: add             x1, x1, HEAP, lsl #32
     // 0xbe8864: r0 = titleForKey()
-    //     0xbe8864: bl              #0xbe887c  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyBreakdownDimensionLabel::titleForKey
+    //     0xbe8864: bl              #0xbe887c  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyBreakdownDimensionLabel::titleForKey
     // 0xbe8868: LeaveFrame
     //     0xbe8868: mov             SP, fp
     //     0xbe886c: ldp             fp, lr, [SP], #0x10
@@ -3073,7 +3073,7 @@ enum BallyBreakdownKind extends _Enum {
     // 0x73a1ac: cbz             w2, #0x73a1d0
     // 0x73a1b0: mov             x1, x0
     // 0x73a1b4: r0 = isBounceAnalyzerDrillId()
-    //     0x73a1b4: bl              #0x734000  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isBounceAnalyzerDrillId
+    //     0x73a1b4: bl              #0x734000  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isBounceAnalyzerDrillId
     // 0x73a1b8: tbnz            w0, #4, #0x73a1d0
     // 0x73a1bc: r0 = Instance_BallyBreakdownKind
     //     0x73a1bc: add             x0, PP, #0x28, lsl #12  ; [pp+0x28cb0] Obj!BallyBreakdownKind@d39941
@@ -3087,7 +3087,7 @@ enum BallyBreakdownKind extends _Enum {
     // 0x73a1d4: cbz             w0, #0x73a1f8
     // 0x73a1d8: ldur            x1, [fp, #-0x20]
     // 0x73a1dc: r0 = isDribbleAnalyzerDrillId()
-    //     0x73a1dc: bl              #0x733fa4  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isDribbleAnalyzerDrillId
+    //     0x73a1dc: bl              #0x733fa4  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isDribbleAnalyzerDrillId
     // 0x73a1e0: tbnz            w0, #4, #0x73a1f8
     // 0x73a1e4: r0 = Instance_BallyBreakdownKind
     //     0x73a1e4: add             x0, PP, #0x28, lsl #12  ; [pp+0x28cb8] Obj!BallyBreakdownKind@d39921
@@ -3101,7 +3101,7 @@ enum BallyBreakdownKind extends _Enum {
     // 0x73a1fc: cbz             w0, #0x73a220
     // 0x73a200: ldur            x1, [fp, #-0x20]
     // 0x73a204: r0 = isShootingAnalyzerDrillId()
-    //     0x73a204: bl              #0x73a360  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isShootingAnalyzerDrillId
+    //     0x73a204: bl              #0x73a360  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isShootingAnalyzerDrillId
     // 0x73a208: tbnz            w0, #4, #0x73a220
     // 0x73a20c: r0 = Instance_BallyBreakdownKind
     //     0x73a20c: add             x0, PP, #0x28, lsl #12  ; [pp+0x28cc0] Obj!BallyBreakdownKind@d39901
@@ -3348,7 +3348,7 @@ enum BallyBreakdownKind extends _Enum {
     //     0xa3dd68: add             x1, PP, #0x44, lsl #12  ; [pp+0x44c18] "Analyzing your handles…"
     //     0xa3dd6c: ldr             x1, [x1, #0xc18]
     // 0xa3dd70: r0 = L()
-    //     0xa3dd70: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3dd70: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa3dd74: LeaveFrame
     //     0xa3dd74: mov             SP, fp
     //     0xa3dd78: ldp             fp, lr, [SP], #0x10
@@ -3358,7 +3358,7 @@ enum BallyBreakdownKind extends _Enum {
     //     0xa3dd80: add             x1, PP, #0x44, lsl #12  ; [pp+0x44c20] "Analyzing your finishing…"
     //     0xa3dd84: ldr             x1, [x1, #0xc20]
     // 0xa3dd88: r0 = L()
-    //     0xa3dd88: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3dd88: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa3dd8c: LeaveFrame
     //     0xa3dd8c: mov             SP, fp
     //     0xa3dd90: ldp             fp, lr, [SP], #0x10
@@ -3370,7 +3370,7 @@ enum BallyBreakdownKind extends _Enum {
     //     0xa3dda0: add             x1, PP, #0x44, lsl #12  ; [pp+0x44c28] "Analyzing your bounce…"
     //     0xa3dda4: ldr             x1, [x1, #0xc28]
     // 0xa3dda8: r0 = L()
-    //     0xa3dda8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3dda8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa3ddac: LeaveFrame
     //     0xa3ddac: mov             SP, fp
     //     0xa3ddb0: ldp             fp, lr, [SP], #0x10
@@ -3380,7 +3380,7 @@ enum BallyBreakdownKind extends _Enum {
     //     0xa3ddb8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44c30] "Analyzing your shot…"
     //     0xa3ddbc: ldr             x1, [x1, #0xc30]
     // 0xa3ddc0: r0 = L()
-    //     0xa3ddc0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3ddc0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa3ddc4: LeaveFrame
     //     0xa3ddc4: mov             SP, fp
     //     0xa3ddc8: ldp             fp, lr, [SP], #0x10
@@ -3411,7 +3411,7 @@ enum BallyBreakdownKind extends _Enum {
     //     0xbe7994: add             x1, PP, #0x49, lsl #12  ; [pp+0x49ca8] "Overall handle rating"
     //     0xbe7998: ldr             x1, [x1, #0xca8]
     // 0xbe799c: r0 = L()
-    //     0xbe799c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe799c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe79a0: LeaveFrame
     //     0xbe79a0: mov             SP, fp
     //     0xbe79a4: ldp             fp, lr, [SP], #0x10
@@ -3421,7 +3421,7 @@ enum BallyBreakdownKind extends _Enum {
     //     0xbe79ac: add             x1, PP, #0x49, lsl #12  ; [pp+0x49cb0] "Overall finishing rating"
     //     0xbe79b0: ldr             x1, [x1, #0xcb0]
     // 0xbe79b4: r0 = L()
-    //     0xbe79b4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe79b4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe79b8: LeaveFrame
     //     0xbe79b8: mov             SP, fp
     //     0xbe79bc: ldp             fp, lr, [SP], #0x10
@@ -3433,7 +3433,7 @@ enum BallyBreakdownKind extends _Enum {
     //     0xbe79cc: add             x1, PP, #0x49, lsl #12  ; [pp+0x49cb8] "Bounce rating"
     //     0xbe79d0: ldr             x1, [x1, #0xcb8]
     // 0xbe79d4: r0 = L()
-    //     0xbe79d4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe79d4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe79d8: LeaveFrame
     //     0xbe79d8: mov             SP, fp
     //     0xbe79dc: ldp             fp, lr, [SP], #0x10
@@ -3443,7 +3443,7 @@ enum BallyBreakdownKind extends _Enum {
     //     0xbe79e4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49cc0] "Overall shooting rating"
     //     0xbe79e8: ldr             x1, [x1, #0xcc0]
     // 0xbe79ec: r0 = L()
-    //     0xbe79ec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe79ec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe79f0: LeaveFrame
     //     0xbe79f0: mov             SP, fp
     //     0xbe79f4: ldp             fp, lr, [SP], #0x10

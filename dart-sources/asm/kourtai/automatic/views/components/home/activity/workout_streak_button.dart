@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/home/activity/workout_streak_button.dart
+// lib: , url: package:kourtai/automatic/views/components/home/activity/workout_streak_button.dart
 
 // class id: 1048805, size: 0x8
 class :: {
@@ -46,7 +46,7 @@ class WorkoutStreakButton extends StatelessWidget {
     // 0xbb5d50: cmp             w1, NULL
     // 0xbb5d54: b.ne            #0xbb5d98
     // 0xbb5d58: r1 = Function '<anonymous closure>':.
-    //     0xbb5d58: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e510] AnonymousClosure: (0xbb638c), in [package:ballai/automatic/views/components/home/activity/workout_streak_button.dart] WorkoutStreakButton::build (0xbb5d00)
+    //     0xbb5d58: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e510] AnonymousClosure: (0xbb638c), in [package:kourtai/automatic/views/components/home/activity/workout_streak_button.dart] WorkoutStreakButton::build (0xbb5d00)
     //     0xbb5d5c: ldr             x1, [x1, #0x510]
     // 0xbb5d60: r2 = Null
     //     0xbb5d60: mov             x2, NULL
@@ -89,8 +89,8 @@ class WorkoutStreakButton extends StatelessWidget {
     //     0xbb5dd4: ldr             x1, [x1, #0x308]
     // 0xbb5dd8: b               #0xbb5dec
     // 0xbb5ddc: ldur            x1, [fp, #-0x10]
-    // 0xbb5de0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb5de0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb5de0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb5de0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb5de4: mov             x1, x0
     // 0xbb5de8: ldur            x0, [fp, #-0x28]
     // 0xbb5dec: stur            x1, [fp, #-0x38]
@@ -238,8 +238,8 @@ class WorkoutStreakButton extends StatelessWidget {
     // 0xbb5f5c: stur            x4, [fp, #-0x30]
     // 0xbb5f60: tbnz            w4, #4, #0xbb60b8
     // 0xbb5f64: ldur            x1, [fp, #-0x10]
-    // 0xbb5f68: r0 = BallAiThemeContext.ballAi()
-    //     0xbb5f68: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xbb5f68: r0 = KourtAiThemeContext.kourtAi()
+    //     0xbb5f68: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xbb5f6c: LoadField: r1 = r0->field_23
     //     0xbb5f6c: ldur            w1, [x0, #0x23]
     // 0xbb5f70: DecompressPointer r1
@@ -279,8 +279,8 @@ class WorkoutStreakButton extends StatelessWidget {
     // 0xbb5fc8: ldur            x0, [fp, #-0x48]
     // 0xbb5fcc: tbnz            w0, #4, #0xbb5fe8
     // 0xbb5fd0: ldur            x1, [fp, #-0x10]
-    // 0xbb5fd4: r0 = BallAiThemeContext.ballAi()
-    //     0xbb5fd4: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xbb5fd4: r0 = KourtAiThemeContext.kourtAi()
+    //     0xbb5fd4: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xbb5fd8: LoadField: r1 = r0->field_1f
     //     0xbb5fd8: ldur            w1, [x0, #0x1f]
     // 0xbb5fdc: DecompressPointer r1
@@ -459,7 +459,7 @@ class WorkoutStreakButton extends StatelessWidget {
     //     0xbb61c0: stur            w0, [x3, #0xb]
     // 0xbb61c4: ldur            x2, [fp, #-0x18]
     // 0xbb61c8: r1 = Function '<anonymous closure>':.
-    //     0xbb61c8: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e568] AnonymousClosure: (0xbb6274), in [package:ballai/automatic/views/components/home/activity/workout_streak_button.dart] WorkoutStreakButton::build (0xbb5d00)
+    //     0xbb61c8: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e568] AnonymousClosure: (0xbb6274), in [package:kourtai/automatic/views/components/home/activity/workout_streak_button.dart] WorkoutStreakButton::build (0xbb5d00)
     //     0xbb61cc: ldr             x1, [x1, #0x568]
     // 0xbb61d0: r0 = AllocateClosure()
     //     0xbb61d0: bl              #0xe553e0  ; AllocateClosureStub
@@ -562,7 +562,7 @@ class WorkoutStreakButton extends StatelessWidget {
     // 0xbb62b0: DecompressPointer r1
     //     0xbb62b0: add             x1, x1, HEAP, lsl #32
     // 0xbb62b4: r0 = _openStreakJourney()
-    //     0xbb62b4: bl              #0xa13b30  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_openStreakJourney
+    //     0xbb62b4: bl              #0xa13b30  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_openStreakJourney
     // 0xbb62b8: b               #0xbb62cc
     // 0xbb62bc: LoadField: r2 = r1->field_13
     //     0xbb62bc: ldur            w2, [x1, #0x13]
@@ -570,7 +570,7 @@ class WorkoutStreakButton extends StatelessWidget {
     //     0xbb62c0: add             x2, x2, HEAP, lsl #32
     // 0xbb62c4: mov             x1, x0
     // 0xbb62c8: r0 = _openDefaultJourney()
-    //     0xbb62c8: bl              #0xbb62e4  ; [package:ballai/automatic/views/components/home/activity/workout_streak_button.dart] WorkoutStreakButton::_openDefaultJourney
+    //     0xbb62c8: bl              #0xbb62e4  ; [package:kourtai/automatic/views/components/home/activity/workout_streak_button.dart] WorkoutStreakButton::_openDefaultJourney
     // 0xbb62cc: r0 = Null
     //     0xbb62cc: mov             x0, NULL
     // 0xbb62d0: LeaveFrame
@@ -605,7 +605,7 @@ class WorkoutStreakButton extends StatelessWidget {
     // 0xbb6314: r0 = of()
     //     0xbb6314: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xbb6318: r1 = Function '<anonymous closure>':.
-    //     0xbb6318: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e570] AnonymousClosure: (0xa13be8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_openStreakJourney (0xa13b30)
+    //     0xbb6318: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e570] AnonymousClosure: (0xa13be8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_openStreakJourney (0xa13b30)
     //     0xbb631c: ldr             x1, [x1, #0x570]
     // 0xbb6320: r2 = Null
     //     0xbb6320: mov             x2, NULL

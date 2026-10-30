@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart
 
 // class id: 1049016, size: 0x8
 class :: {
@@ -79,7 +79,7 @@ class _DirectMessagesInboxViewState extends State<dynamic> {
     // 0x9838c0: ldur            x5, [fp, #-0x18]
     // 0x9838c4: stur            x0, [fp, #-0x10]
     // 0x9838c8: r0 = DirectMessagesInboxViewModel()
-    //     0x9838c8: bl              #0x98395c  ; [package:ballai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::DirectMessagesInboxViewModel
+    //     0x9838c8: bl              #0x98395c  ; [package:kourtai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::DirectMessagesInboxViewModel
     // 0x9838cc: ldur            x1, [fp, #-8]
     // 0x9838d0: LoadField: r0 = r1->field_13
     //     0x9838d0: ldur            w0, [x1, #0x13]
@@ -150,7 +150,7 @@ class _DirectMessagesInboxViewState extends State<dynamic> {
     // 0xa934c4: mov             x2, x1
     // 0xa934c8: stur            x3, [fp, #-0x10]
     // 0xa934cc: r1 = Function '<anonymous closure>':.
-    //     0xa934cc: add             x1, PP, #0x37, lsl #12  ; [pp+0x37030] AnonymousClosure: (0xa93508), in [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart] _DirectMessagesInboxViewState::build (0xa9348c)
+    //     0xa934cc: add             x1, PP, #0x37, lsl #12  ; [pp+0x37030] AnonymousClosure: (0xa93508), in [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart] _DirectMessagesInboxViewState::build (0xa9348c)
     //     0xa934d0: ldr             x1, [x1, #0x30]
     // 0xa934d4: r0 = AllocateClosure()
     //     0xa934d4: bl              #0xe553e0  ; AllocateClosureStub
@@ -237,7 +237,7 @@ class _DirectMessagesInboxViewState extends State<dynamic> {
     // 0xa935a0: mov             x2, x3
     // 0xa935a4: stur            x5, [fp, #-0x10]
     // 0xa935a8: r1 = Function '<anonymous closure>':.
-    //     0xa935a8: add             x1, PP, #0x37, lsl #12  ; [pp+0x37040] AnonymousClosure: (0xa94454), in [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart] _DirectMessagesInboxViewState::build (0xa9348c)
+    //     0xa935a8: add             x1, PP, #0x37, lsl #12  ; [pp+0x37040] AnonymousClosure: (0xa94454), in [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart] _DirectMessagesInboxViewState::build (0xa9348c)
     //     0xa935ac: ldr             x1, [x1, #0x40]
     // 0xa935b0: r0 = AllocateClosure()
     //     0xa935b0: bl              #0xe553e0  ; AllocateClosureStub
@@ -363,30 +363,30 @@ class _DirectMessagesInboxViewState extends State<dynamic> {
     //     0xa936f4: ldur            w1, [x2, #0xf]
     // 0xa936f8: DecompressPointer r1
     //     0xa936f8: add             x1, x1, HEAP, lsl #32
-    // 0xa936fc: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xa936fc: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xa936fc: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xa936fc: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xa93700: ldur            x2, [fp, #-0x20]
     // 0xa93704: stur            x0, [fp, #-0x30]
     // 0xa93708: LoadField: r1 = r2->field_f
     //     0xa93708: ldur            w1, [x2, #0xf]
     // 0xa9370c: DecompressPointer r1
     //     0xa9370c: add             x1, x1, HEAP, lsl #32
-    // 0xa93710: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xa93710: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xa93710: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xa93710: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xa93714: r1 = "Group chats"
     //     0xa93714: add             x1, PP, #0x37, lsl #12  ; [pp+0x37058] "Group chats"
     //     0xa93718: ldr             x1, [x1, #0x58]
     // 0xa9371c: stur            x0, [fp, #-0x38]
     // 0xa93720: r0 = L()
-    //     0xa93720: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa93720: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa93724: ldur            x2, [fp, #-0x20]
     // 0xa93728: stur            x0, [fp, #-0x40]
     // 0xa9372c: LoadField: r1 = r2->field_f
     //     0xa9372c: ldur            w1, [x2, #0xf]
     // 0xa93730: DecompressPointer r1
     //     0xa93730: add             x1, x1, HEAP, lsl #32
-    // 0xa93734: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa93734: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa93734: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa93734: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa93738: stur            x0, [fp, #-0x48]
     // 0xa9373c: r0 = TextStyle()
     //     0xa9373c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -484,7 +484,7 @@ class _DirectMessagesInboxViewState extends State<dynamic> {
     // 0xa9383c: DecompressPointer r1
     //     0xa9383c: add             x1, x1, HEAP, lsl #32
     // 0xa93840: r0 = homeIslandScrollBottomPadding()
-    //     0xa93840: bl              #0xa3cf84  ; [package:ballai/automatic/utility/ui/home_island_scroll_padding.dart] ::homeIslandScrollBottomPadding
+    //     0xa93840: bl              #0xa3cf84  ; [package:kourtai/automatic/utility/ui/home_island_scroll_padding.dart] ::homeIslandScrollBottomPadding
     // 0xa93844: stur            d0, [fp, #-0x58]
     // 0xa93848: r0 = EdgeInsets()
     //     0xa93848: bl              #0x60095c  ; AllocateEdgeInsetsStub -> EdgeInsets (size=0x28)
@@ -526,7 +526,7 @@ class _DirectMessagesInboxViewState extends State<dynamic> {
     // 0xa9389c: ldur            x2, [fp, #-0x20]
     // 0xa938a0: stur            x3, [fp, #-0x28]
     // 0xa938a4: r1 = Function '<anonymous closure>':.
-    //     0xa938a4: add             x1, PP, #0x37, lsl #12  ; [pp+0x37078] AnonymousClosure: (0xa93c94), in [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart] _DirectMessagesInboxViewState::build (0xa9348c)
+    //     0xa938a4: add             x1, PP, #0x37, lsl #12  ; [pp+0x37078] AnonymousClosure: (0xa93c94), in [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart] _DirectMessagesInboxViewState::build (0xa9348c)
     //     0xa938a8: ldr             x1, [x1, #0x78]
     // 0xa938ac: r0 = AllocateClosure()
     //     0xa938ac: bl              #0xe553e0  ; AllocateClosureStub
@@ -567,7 +567,7 @@ class _DirectMessagesInboxViewState extends State<dynamic> {
     //     0xa93914: stur            xzr, [x3, #0x17]
     // 0xa93918: ldur            x2, [fp, #-0x38]
     // 0xa9391c: r1 = Function 'refresh':.
-    //     0xa9391c: add             x1, PP, #0x37, lsl #12  ; [pp+0x37088] AnonymousClosure: (0xa939f8), in [package:ballai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::refresh (0xa93a30)
+    //     0xa9391c: add             x1, PP, #0x37, lsl #12  ; [pp+0x37088] AnonymousClosure: (0xa939f8), in [package:kourtai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::refresh (0xa93a30)
     //     0xa93920: ldr             x1, [x1, #0x88]
     // 0xa93924: r0 = AllocateClosure()
     //     0xa93924: bl              #0xe553e0  ; AllocateClosureStub
@@ -742,7 +742,7 @@ class _DirectMessagesInboxViewState extends State<dynamic> {
     //     0xa93d5c: stur            w0, [x3, #0xf]
     // 0xa93d60: ldur            x2, [fp, #-0x18]
     // 0xa93d64: r1 = Function '<anonymous closure>':.
-    //     0xa93d64: add             x1, PP, #0x37, lsl #12  ; [pp+0x370e0] AnonymousClosure: (0xa93dbc), in [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart] _DirectMessagesInboxViewState::build (0xa9348c)
+    //     0xa93d64: add             x1, PP, #0x37, lsl #12  ; [pp+0x370e0] AnonymousClosure: (0xa93dbc), in [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart] _DirectMessagesInboxViewState::build (0xa9348c)
     //     0xa93d68: ldr             x1, [x1, #0xe0]
     // 0xa93d6c: r0 = AllocateClosure()
     //     0xa93d6c: bl              #0xe553e0  ; AllocateClosureStub
@@ -809,7 +809,7 @@ class _DirectMessagesInboxViewState extends State<dynamic> {
     //     0xa93e00: add             x3, x3, HEAP, lsl #32
     // 0xa93e04: mov             x1, x0
     // 0xa93e08: r0 = _openThread()
-    //     0xa93e08: bl              #0xa93e24  ; [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart] _DirectMessagesInboxViewState::_openThread
+    //     0xa93e08: bl              #0xa93e24  ; [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart] _DirectMessagesInboxViewState::_openThread
     // 0xa93e0c: r0 = Null
     //     0xa93e0c: mov             x0, NULL
     // 0xa93e10: LeaveFrame
@@ -885,7 +885,7 @@ class _DirectMessagesInboxViewState extends State<dynamic> {
     // 0xa93ec4: ret
     //     0xa93ec4: ret             
     // 0xa93ec8: r0 = effectiveType()
-    //     0xa93ec8: bl              #0x981698  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::effectiveType
+    //     0xa93ec8: bl              #0x981698  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::effectiveType
     // 0xa93ecc: r16 = Instance_ConversationType
     //     0xa93ecc: add             x16, PP, #0x11, lsl #12  ; [pp+0x11b20] Obj!ConversationType@d3b721
     //     0xa93ed0: ldr             x16, [x16, #0xb20]
@@ -924,7 +924,7 @@ class _DirectMessagesInboxViewState extends State<dynamic> {
     // 0xa93f30: DecompressPointer r1
     //     0xa93f30: add             x1, x1, HEAP, lsl #32
     // 0xa93f34: r0 = team()
-    //     0xa93f34: bl              #0xa941e8  ; [package:ballai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::team
+    //     0xa93f34: bl              #0xa941e8  ; [package:kourtai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::team
     // 0xa93f38: cmp             w0, NULL
     // 0xa93f3c: b.ne            #0xa93f48
     // 0xa93f40: r0 = Null
@@ -969,7 +969,7 @@ class _DirectMessagesInboxViewState extends State<dynamic> {
     //     0xa93fb0: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa93fb4: ldur            x2, [fp, #-0x28]
     // 0xa93fb8: r1 = Function '<anonymous closure>':.
-    //     0xa93fb8: add             x1, PP, #0x37, lsl #12  ; [pp+0x370f0] AnonymousClosure: (0xa943dc), in [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart] _DirectMessagesInboxViewState::_openThread (0xa93e24)
+    //     0xa93fb8: add             x1, PP, #0x37, lsl #12  ; [pp+0x370f0] AnonymousClosure: (0xa943dc), in [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart] _DirectMessagesInboxViewState::_openThread (0xa93e24)
     //     0xa93fbc: ldr             x1, [x1, #0xf0]
     // 0xa93fc0: stur            x0, [fp, #-0x18]
     // 0xa93fc4: r0 = AllocateClosure()
@@ -1011,7 +1011,7 @@ class _DirectMessagesInboxViewState extends State<dynamic> {
     //     0xa94020: add             x1, x1, HEAP, lsl #32
     // 0xa94024: ldur            x2, [fp, #-0x20]
     // 0xa94028: r0 = otherParticipantId()
-    //     0xa94028: bl              #0x983ed0  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::otherParticipantId
+    //     0xa94028: bl              #0x983ed0  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::otherParticipantId
     // 0xa9402c: mov             x1, x0
     // 0xa94030: ldur            x3, [fp, #-0x28]
     // 0xa94034: StoreField: r3->field_13 = r0
@@ -1041,7 +1041,7 @@ class _DirectMessagesInboxViewState extends State<dynamic> {
     // 0xa94078: DecompressPointer r2
     //     0xa94078: add             x2, x2, HEAP, lsl #32
     // 0xa9407c: r0 = otherUser()
-    //     0xa9407c: bl              #0xa94120  ; [package:ballai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::otherUser
+    //     0xa9407c: bl              #0xa94120  ; [package:kourtai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::otherUser
     // 0xa94080: ldur            x2, [fp, #-0x28]
     // 0xa94084: ArrayStore: r2[0] = r0  ; List_4
     //     0xa94084: stur            w0, [x2, #0x17]
@@ -1058,7 +1058,7 @@ class _DirectMessagesInboxViewState extends State<dynamic> {
     //     0xa940a8: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa940ac: ldur            x2, [fp, #-0x28]
     // 0xa940b0: r1 = Function '<anonymous closure>':.
-    //     0xa940b0: add             x1, PP, #0x37, lsl #12  ; [pp+0x370f8] AnonymousClosure: (0xa94348), in [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart] _DirectMessagesInboxViewState::_openThread (0xa93e24)
+    //     0xa940b0: add             x1, PP, #0x37, lsl #12  ; [pp+0x370f8] AnonymousClosure: (0xa94348), in [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart] _DirectMessagesInboxViewState::_openThread (0xa93e24)
     //     0xa940b4: ldr             x1, [x1, #0xf8]
     // 0xa940b8: stur            x0, [fp, #-8]
     // 0xa940bc: r0 = AllocateClosure()
@@ -1327,7 +1327,7 @@ class _DirectMessagesInboxViewState extends State<dynamic> {
     //     0xb5bf4c: mov             fp, SP
     // 0xb5bf50: ldr             x2, [fp, #0x10]
     // 0xb5bf54: r1 = Function 'dispose':.
-    //     0xb5bf54: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3ba70] AnonymousClosure: (0xb5bf6c), in [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart] _DirectMessagesInboxViewState::dispose (0xb63114)
+    //     0xb5bf54: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3ba70] AnonymousClosure: (0xb5bf6c), in [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart] _DirectMessagesInboxViewState::dispose (0xb63114)
     //     0xb5bf58: ldr             x1, [x1, #0xa70]
     // 0xb5bf5c: r0 = AllocateClosure()
     //     0xb5bf5c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1352,7 +1352,7 @@ class _DirectMessagesInboxViewState extends State<dynamic> {
     //     0xb5bf84: cmp             SP, x16
     //     0xb5bf88: b.ls            #0xb5bf9c
     // 0xb5bf8c: r0 = dispose()
-    //     0xb5bf8c: bl              #0xb63114  ; [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart] _DirectMessagesInboxViewState::dispose
+    //     0xb5bf8c: bl              #0xb63114  ; [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart] _DirectMessagesInboxViewState::dispose
     // 0xb5bf90: LeaveFrame
     //     0xb5bf90: mov             SP, fp
     //     0xb5bf94: ldp             fp, lr, [SP], #0x10
@@ -1381,7 +1381,7 @@ class _DirectMessagesInboxViewState extends State<dynamic> {
     // 0xb63138: b.eq            #0xb6315c
     // 0xb6313c: mov             x1, x0
     // 0xb63140: r0 = dispose()
-    //     0xb63140: bl              #0x9be688  ; [package:ballai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::dispose
+    //     0xb63140: bl              #0x9be688  ; [package:kourtai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::dispose
     // 0xb63144: r0 = Null
     //     0xb63144: mov             x0, NULL
     // 0xb63148: LeaveFrame
@@ -1461,8 +1461,8 @@ class DirectMessagesInboxToolbarIcon extends StatelessWidget {
     //     0xc18440: ldur            x2, [x0, #0x33]
     // 0xc18444: ldur            x1, [fp, #-8]
     // 0xc18448: stur            x2, [fp, #-0x10]
-    // 0xc1844c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc1844c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc1844c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc1844c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc18450: stur            x0, [fp, #-8]
     // 0xc18454: r0 = Icon()
     //     0xc18454: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -1750,8 +1750,8 @@ class _EmptyInbox extends StatelessWidget {
     //     0xc18170: cmp             SP, x16
     //     0xc18174: b.ls            #0xc18400
     // 0xc18178: mov             x1, x0
-    // 0xc1817c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc1817c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc1817c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc1817c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc18180: r16 = 0.950000
     //     0xc18180: add             x16, PP, #0x2c, lsl #12  ; [pp+0x2c4a0] 0.95
     //     0xc18184: ldr             x16, [x16, #0x4a0]
@@ -1793,11 +1793,11 @@ class _EmptyInbox extends StatelessWidget {
     //     0xc181e4: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3ba78] "No group chats yet"
     //     0xc181e8: ldr             x1, [x1, #0xa78]
     // 0xc181ec: r0 = L()
-    //     0xc181ec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc181ec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc181f0: ldur            x1, [fp, #-8]
     // 0xc181f4: stur            x0, [fp, #-0x20]
-    // 0xc181f8: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc181f8: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc181f8: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc181f8: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc181fc: r16 = 0.950000
     //     0xc181fc: add             x16, PP, #0x2c, lsl #12  ; [pp+0x2c4a0] 0.95
     //     0xc18200: ldr             x16, [x16, #0x4a0]
@@ -1856,11 +1856,11 @@ class _EmptyInbox extends StatelessWidget {
     //     0xc18288: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3ba80] "Team chats appear here when you join a team."
     //     0xc1828c: ldr             x1, [x1, #0xa80]
     // 0xc18290: r0 = L()
-    //     0xc18290: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc18290: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc18294: ldur            x1, [fp, #-8]
     // 0xc18298: stur            x0, [fp, #-8]
-    // 0xc1829c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc1829c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc1829c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc1829c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc182a0: r16 = 0.880000
     //     0xc182a0: add             x16, PP, #0x2c, lsl #12  ; [pp+0x2cb18] 0.88
     //     0xc182a4: ldr             x16, [x16, #0xb18]
@@ -2048,11 +2048,11 @@ class _InboxTrailing extends StatelessWidget {
     // 0xc17338: b.eq            #0xc17410
     // 0xc1733c: mov             x1, x3
     // 0xc17340: r0 = inboxListTimestamp()
-    //     0xc17340: bl              #0xc175f8  ; [package:ballai/automatic/utility/messaging/inbox_list_timestamp.dart] ::inboxListTimestamp
+    //     0xc17340: bl              #0xc175f8  ; [package:kourtai/automatic/utility/messaging/inbox_list_timestamp.dart] ::inboxListTimestamp
     // 0xc17344: ldur            x1, [fp, #-0x10]
     // 0xc17348: stur            x0, [fp, #-0x10]
-    // 0xc1734c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc1734c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc1734c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc1734c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc17350: stur            x0, [fp, #-0x20]
     // 0xc17354: r0 = TextStyle()
     //     0xc17354: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2446,7 +2446,7 @@ class _InboxCell extends StatelessWidget {
     //     0xc16d94: add             x2, x2, HEAP, lsl #32
     // 0xc16d98: mov             x1, x3
     // 0xc16d9c: r0 = unreadCount()
-    //     0xc16d9c: bl              #0xc171a8  ; [package:ballai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::unreadCount
+    //     0xc16d9c: bl              #0xc171a8  ; [package:kourtai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::unreadCount
     // 0xc16da0: mov             x2, x0
     // 0xc16da4: ldur            x0, [fp, #-0x18]
     // 0xc16da8: stur            x2, [fp, #-0x28]
@@ -2457,7 +2457,7 @@ class _InboxCell extends StatelessWidget {
     // 0xc16db4: mov             x1, x3
     // 0xc16db8: stur            x3, [fp, #-0x20]
     // 0xc16dbc: r0 = effectiveType()
-    //     0xc16dbc: bl              #0x981698  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::effectiveType
+    //     0xc16dbc: bl              #0x981698  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::effectiveType
     // 0xc16dc0: r16 = Instance_ConversationType
     //     0xc16dc0: add             x16, PP, #0x11, lsl #12  ; [pp+0x11b20] Obj!ConversationType@d3b721
     //     0xc16dc4: ldr             x16, [x16, #0xb20]
@@ -2466,7 +2466,7 @@ class _InboxCell extends StatelessWidget {
     // 0xc16dd0: ldur            x1, [fp, #-0x10]
     // 0xc16dd4: ldur            x2, [fp, #-0x20]
     // 0xc16dd8: r0 = team()
-    //     0xc16dd8: bl              #0xa941e8  ; [package:ballai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::team
+    //     0xc16dd8: bl              #0xa941e8  ; [package:kourtai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::team
     // 0xc16ddc: cmp             w0, NULL
     // 0xc16de0: b.ne            #0xc16dec
     // 0xc16de4: r0 = Null
@@ -2500,7 +2500,7 @@ class _InboxCell extends StatelessWidget {
     // 0xc16e3c: r2 = Null
     //     0xc16e3c: mov             x2, NULL
     // 0xc16e40: r0 = _previewSubtitle()
-    //     0xc16e40: bl              #0xc17100  ; [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart] _InboxCell::_previewSubtitle
+    //     0xc16e40: bl              #0xc17100  ; [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart] _InboxCell::_previewSubtitle
     // 0xc16e44: mov             x1, x0
     // 0xc16e48: ldur            x0, [fp, #-0x28]
     // 0xc16e4c: stur            x1, [fp, #-0x40]
@@ -2598,7 +2598,7 @@ class _InboxCell extends StatelessWidget {
     //     0xc16f40: ret             
     // 0xc16f44: mov             x1, x0
     // 0xc16f48: r0 = otherParticipantId()
-    //     0xc16f48: bl              #0x983ed0  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::otherParticipantId
+    //     0xc16f48: bl              #0x983ed0  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::otherParticipantId
     // 0xc16f4c: cmp             w0, NULL
     // 0xc16f50: b.ne            #0xc16f64
     // 0xc16f54: r0 = Instance_SizedBox
@@ -2611,7 +2611,7 @@ class _InboxCell extends StatelessWidget {
     // 0xc16f64: ldur            x1, [fp, #-0x10]
     // 0xc16f68: ldur            x2, [fp, #-0x20]
     // 0xc16f6c: r0 = otherUser()
-    //     0xc16f6c: bl              #0xa94120  ; [package:ballai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::otherUser
+    //     0xc16f6c: bl              #0xa94120  ; [package:kourtai/automatic/viewmodels/home/you/direct_messages_inbox_view_model.dart] DirectMessagesInboxViewModel::otherUser
     // 0xc16f70: stur            x0, [fp, #-0x10]
     // 0xc16f74: cmp             w0, NULL
     // 0xc16f78: b.ne            #0xc16f84
@@ -2634,7 +2634,7 @@ class _InboxCell extends StatelessWidget {
     // 0xc16fac: mov             x2, x0
     // 0xc16fb0: stur            x4, [fp, #-8]
     // 0xc16fb4: r0 = _previewSubtitle()
-    //     0xc16fb4: bl              #0xc17100  ; [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart] _InboxCell::_previewSubtitle
+    //     0xc16fb4: bl              #0xc17100  ; [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_messages_inbox_view.dart] _InboxCell::_previewSubtitle
     // 0xc16fb8: mov             x1, x0
     // 0xc16fbc: ldur            x0, [fp, #-0x28]
     // 0xc16fc0: stur            x1, [fp, #-0x38]
@@ -2804,7 +2804,7 @@ class _InboxCell extends StatelessWidget {
     // 0xc1718c: DecompressPointer r2
     //     0xc1718c: add             x2, x2, HEAP, lsl #32
     // 0xc17190: r0 = buildSubtitle()
-    //     0xc17190: bl              #0xa998d8  ; [package:ballai/automatic/views/home/tab/tabs/you/components/social_user_cell_view.dart] SocialUserCellView::buildSubtitle
+    //     0xc17190: bl              #0xa998d8  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/social_user_cell_view.dart] SocialUserCellView::buildSubtitle
     // 0xc17194: LeaveFrame
     //     0xc17194: mov             SP, fp
     //     0xc17198: ldp             fp, lr, [SP], #0x10

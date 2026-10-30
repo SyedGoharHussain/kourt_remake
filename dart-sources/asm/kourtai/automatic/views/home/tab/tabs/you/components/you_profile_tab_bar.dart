@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/components/you_profile_tab_bar.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/components/you_profile_tab_bar.dart
 
 // class id: 1049013, size: 0x8
 class :: {
@@ -103,12 +103,12 @@ class YouProfileTabBar extends StatelessWidget {
     //     0xc15220: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b898] "Player Card"
     //     0xc15224: ldr             x1, [x1, #0x898]
     // 0xc15228: r0 = L()
-    //     0xc15228: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc15228: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1522c: mov             x2, x0
     // 0xc15230: b               #0xc15240
     // 0xc15234: ldur            x1, [fp, #-8]
     // 0xc15238: r0 = accessibilityTitle()
-    //     0xc15238: bl              #0xc1599c  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_profile_tab.dart] YouProfileTab::accessibilityTitle
+    //     0xc15238: bl              #0xc1599c  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_profile_tab.dart] YouProfileTab::accessibilityTitle
     // 0xc1523c: mov             x2, x0
     // 0xc15240: ldur            x0, [fp, #-8]
     // 0xc15244: stur            x2, [fp, #-0x60]
@@ -148,8 +148,8 @@ class YouProfileTabBar extends StatelessWidget {
     // 0xc152a8: mov             x1, x0
     // 0xc152ac: b               #0xc152c0
     // 0xc152b0: ldur            x1, [fp, #-0x10]
-    // 0xc152b4: r0 = BallAiThemeContext.ballAi()
-    //     0xc152b4: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xc152b4: r0 = KourtAiThemeContext.kourtAi()
+    //     0xc152b4: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xc152b8: LoadField: r1 = r0->field_1b
     //     0xc152b8: ldur            w1, [x0, #0x1b]
     // 0xc152bc: DecompressPointer r1
@@ -267,7 +267,7 @@ class YouProfileTabBar extends StatelessWidget {
     //     0xc153e8: stur            w0, [x3, #0xb]
     // 0xc153ec: ldur            x2, [fp, #-0x48]
     // 0xc153f0: r1 = Function '<anonymous closure>':.
-    //     0xc153f0: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b8d0] AnonymousClosure: (0xc15a14), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_profile_tab_bar.dart] YouProfileTabBar::build (0xc15124)
+    //     0xc153f0: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b8d0] AnonymousClosure: (0xc15a14), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_profile_tab_bar.dart] YouProfileTabBar::build (0xc15124)
     //     0xc153f4: ldr             x1, [x1, #0x8d0]
     // 0xc153f8: r0 = AllocateClosure()
     //     0xc153f8: bl              #0xe553e0  ; AllocateClosureStub
@@ -444,8 +444,8 @@ class YouProfileTabBar extends StatelessWidget {
     // 0xc155d4: StoreField: r2->field_b = r1
     //     0xc155d4: stur            w1, [x2, #0xb]
     // 0xc155d8: ldur            x1, [fp, #-0x10]
-    // 0xc155dc: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc155dc: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc155dc: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc155dc: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc155e0: r16 = 0.280000
     //     0xc155e0: add             x16, PP, #0x2e, lsl #12  ; [pp+0x2e188] 0.28
     //     0xc155e4: ldr             x16, [x16, #0x188]
@@ -862,7 +862,7 @@ class YouProfileTabBar extends StatelessWidget {
     //     0xc15a94: add             x1, x1, HEAP, lsl #32
     // 0xc15a98: ldur            x2, [fp, #-8]
     // 0xc15a9c: r0 = _selectTab()
-    //     0xc15a9c: bl              #0xaa5994  ; [package:ballai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_selectTab
+    //     0xc15a9c: bl              #0xaa5994  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/user_profile_content_view.dart] _UserProfileContentViewState::_selectTab
     // 0xc15aa0: r0 = Null
     //     0xc15aa0: mov             x0, NULL
     // 0xc15aa4: LeaveFrame

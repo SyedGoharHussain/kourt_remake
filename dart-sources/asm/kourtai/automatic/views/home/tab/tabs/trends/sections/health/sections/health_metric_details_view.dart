@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/health/sections/health_metric_details_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/health/sections/health_metric_details_view.dart
 
 // class id: 1048965, size: 0x8
 class :: {
@@ -57,8 +57,8 @@ class HealthMetricDetailsView extends StatelessWidget {
     //     0xc03d28: ldr             x0, [x0, #0x2a0]
     // 0xc03d2c: StoreField: r1->field_f = r0
     //     0xc03d2c: stur            w0, [x1, #0xf]
-    // 0xc03d30: r0 = BallAiAnalyticsCard()
-    //     0xc03d30: bl              #0xa63928  ; AllocateBallAiAnalyticsCardStub -> BallAiAnalyticsCard (size=0x20)
+    // 0xc03d30: r0 = KourtAiAnalyticsCard()
+    //     0xc03d30: bl              #0xa63928  ; AllocateKourtAiAnalyticsCardStub -> KourtAiAnalyticsCard (size=0x20)
     // 0xc03d34: mov             x3, x0
     // 0xc03d38: ldur            x0, [fp, #-0x10]
     // 0xc03d3c: stur            x3, [fp, #-0x20]
@@ -104,8 +104,8 @@ class HealthMetricDetailsView extends StatelessWidget {
     //     0xc03da0: ldr             x2, [x2, #0x2a0]
     // 0xc03da4: StoreField: r1->field_f = r2
     //     0xc03da4: stur            w2, [x1, #0xf]
-    // 0xc03da8: r0 = BallAiAnalyticsCard()
-    //     0xc03da8: bl              #0xa63928  ; AllocateBallAiAnalyticsCardStub -> BallAiAnalyticsCard (size=0x20)
+    // 0xc03da8: r0 = KourtAiAnalyticsCard()
+    //     0xc03da8: bl              #0xa63928  ; AllocateKourtAiAnalyticsCardStub -> KourtAiAnalyticsCard (size=0x20)
     // 0xc03dac: mov             x3, x0
     // 0xc03db0: ldur            x0, [fp, #-0x10]
     // 0xc03db4: stur            x3, [fp, #-0x28]
@@ -151,8 +151,8 @@ class HealthMetricDetailsView extends StatelessWidget {
     //     0xc03e18: ldr             x0, [x0, #0x2a0]
     // 0xc03e1c: StoreField: r1->field_f = r0
     //     0xc03e1c: stur            w0, [x1, #0xf]
-    // 0xc03e20: r0 = BallAiAnalyticsCard()
-    //     0xc03e20: bl              #0xa63928  ; AllocateBallAiAnalyticsCardStub -> BallAiAnalyticsCard (size=0x20)
+    // 0xc03e20: r0 = KourtAiAnalyticsCard()
+    //     0xc03e20: bl              #0xa63928  ; AllocateKourtAiAnalyticsCardStub -> KourtAiAnalyticsCard (size=0x20)
     // 0xc03e24: mov             x3, x0
     // 0xc03e28: ldur            x0, [fp, #-8]
     // 0xc03e2c: stur            x3, [fp, #-0x18]
@@ -244,8 +244,8 @@ class HealthMetricDetailsView extends StatelessWidget {
     // 0xc03f00: ldur            x0, [fp, #-0x10]
     // 0xc03f04: StoreField: r1->field_b = r0
     //     0xc03f04: stur            w0, [x1, #0xb]
-    // 0xc03f08: r0 = BallAiSectionScaffold()
-    //     0xc03f08: bl              #0xa7edb4  ; AllocateBallAiSectionScaffoldStub -> BallAiSectionScaffold (size=0x18)
+    // 0xc03f08: r0 = KourtAiSectionScaffold()
+    //     0xc03f08: bl              #0xa7edb4  ; AllocateKourtAiSectionScaffoldStub -> KourtAiSectionScaffold (size=0x18)
     // 0xc03f0c: r1 = "Heart rate"
     //     0xc03f0c: add             x1, PP, #0x49, lsl #12  ; [pp+0x492a0] "Heart rate"
     //     0xc03f10: ldr             x1, [x1, #0x2a0]

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart
+// lib: , url: package:kourtai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart
 
 // class id: 1049193, size: 0x8
 class :: {
@@ -58,7 +58,7 @@ abstract class DefaultsVideoWorkoutCalloutType extends Object {
     //     0x94cab0: ldur            x2, [x1, #7]
     // 0x94cab4: cmp             x3, x2
     // 0x94cab8: b.eq            #0x94cae0
-    // 0x94cabc: r0 = InitLateStaticField(0xc3c) // [package:ballai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::_cached
+    // 0x94cabc: r0 = InitLateStaticField(0xc3c) // [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::_cached
     //     0x94cabc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x94cac0: ldr             x0, [x0, #0x1878]
     //     0x94cac4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -94,7 +94,7 @@ abstract class DefaultsVideoWorkoutCalloutType extends Object {
     //     0x94cb1c: str             x1, [x2, #0x1880]
     // 0x94cb20: mov             x1, x0
     // 0x94cb24: r0 = fromRaw()
-    //     0x94cb24: bl              #0x94cb4c  ; [package:ballai/video_tracking/models/workout_setup/video_workout_callout_type.dart] VideoWorkoutCalloutType::fromRaw
+    //     0x94cb24: bl              #0x94cb4c  ; [package:kourtai/video_tracking/models/workout_setup/video_workout_callout_type.dart] VideoWorkoutCalloutType::fromRaw
     // 0x94cb28: cmp             w0, NULL
     // 0x94cb2c: b.ne            #0x94cb38
     // 0x94cb30: r0 = Instance_VideoWorkoutCalloutType
@@ -198,7 +198,7 @@ abstract class DefaultsVideoWorkoutCalloutType extends Object {
     //     0xabba04: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0xabba08: bl              #0x60afc8  ; InitAsyncStub
     // 0xabba0c: r0 = get()
-    //     0xabba0c: bl              #0x94ca4c  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::get
+    //     0xabba0c: bl              #0x94ca4c  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::get
     // 0xabba10: mov             x1, x0
     // 0xabba14: stur            x1, [fp, #-0x10]
     // 0xabba18: r0 = Await()

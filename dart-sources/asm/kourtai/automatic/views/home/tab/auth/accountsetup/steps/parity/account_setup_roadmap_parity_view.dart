@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart
 
 // class id: 1048848, size: 0x8
 class :: {
@@ -45,7 +45,7 @@ abstract class __SummitPulseRingState&State&SingleTickerProviderStateMixin exten
     //     0x7b85e0: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x7b85e4: mov             x1, x2
     // 0x7b85e8: r0 = _updateTickerModeNotifier()
-    //     0x7b85e8: bl              #0x7b8640  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __SummitPulseRingState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x7b85e8: bl              #0x7b8640  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __SummitPulseRingState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x7b85ec: ldur            x1, [fp, #-8]
     // 0x7b85f0: r0 = _updateTicker()
     //     0x7b85f0: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -210,7 +210,7 @@ abstract class __SummitPulseRingState&State&SingleTickerProviderStateMixin exten
     //     0x8e42f8: b.ls            #0x8e431c
     // 0x8e42fc: mov             x1, x0
     // 0x8e4300: r0 = _updateTickerModeNotifier()
-    //     0x8e4300: bl              #0x7b8640  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __SummitPulseRingState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x8e4300: bl              #0x7b8640  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __SummitPulseRingState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x8e4304: ldur            x1, [fp, #-8]
     // 0x8e4308: r0 = _updateTicker()
     //     0x8e4308: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -295,7 +295,7 @@ abstract class __SummitPulseRingState&State&SingleTickerProviderStateMixin exten
     //     0xb61618: cmp             SP, x16
     //     0xb6161c: b.ls            #0xb61630
     // 0xb61620: r0 = dispose()
-    //     0xb61620: bl              #0xb6156c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __SummitPulseRingState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb61620: bl              #0xb6156c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __SummitPulseRingState&State&SingleTickerProviderStateMixin::dispose
     // 0xb61624: LeaveFrame
     //     0xb61624: mov             SP, fp
     //     0xb61628: ldp             fp, lr, [SP], #0x10
@@ -348,7 +348,7 @@ class _SummitPulseRingState extends __SummitPulseRingState&State&SingleTickerPro
     //     0xa0794c: bl              #0xe540b0  ; InitLateFinalInstanceFieldStub
     // 0xa07950: ldur            x2, [fp, #-0x10]
     // 0xa07954: r1 = Function '<anonymous closure>':.
-    //     0xa07954: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a108] AnonymousClosure: (0xa07990), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _SummitPulseRingState::build (0xa07900)
+    //     0xa07954: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a108] AnonymousClosure: (0xa07990), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _SummitPulseRingState::build (0xa07900)
     //     0xa07958: ldr             x1, [x1, #0x108]
     // 0xa0795c: stur            x0, [fp, #-8]
     // 0xa07960: r0 = AllocateClosure()
@@ -552,7 +552,7 @@ class _SummitPulseRingState extends __SummitPulseRingState&State&SingleTickerPro
     //     0xb5ab24: mov             fp, SP
     // 0xb5ab28: ldr             x2, [fp, #0x10]
     // 0xb5ab2c: r1 = Function 'dispose':.
-    //     0xb5ab2c: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a0f8] AnonymousClosure: (0xb5ab44), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _SummitPulseRingState::dispose (0xb61500)
+    //     0xb5ab2c: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a0f8] AnonymousClosure: (0xb5ab44), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _SummitPulseRingState::dispose (0xb61500)
     //     0xb5ab30: ldr             x1, [x1, #0xf8]
     // 0xb5ab34: r0 = AllocateClosure()
     //     0xb5ab34: bl              #0xe553e0  ; AllocateClosureStub
@@ -577,7 +577,7 @@ class _SummitPulseRingState extends __SummitPulseRingState&State&SingleTickerPro
     //     0xb5ab5c: cmp             SP, x16
     //     0xb5ab60: b.ls            #0xb5ab74
     // 0xb5ab64: r0 = dispose()
-    //     0xb5ab64: bl              #0xb61500  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _SummitPulseRingState::dispose
+    //     0xb5ab64: bl              #0xb61500  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _SummitPulseRingState::dispose
     // 0xb5ab68: LeaveFrame
     //     0xb5ab68: mov             SP, fp
     //     0xb5ab6c: ldp             fp, lr, [SP], #0x10
@@ -620,7 +620,7 @@ class _SummitPulseRingState extends __SummitPulseRingState&State&SingleTickerPro
     //     0xb61548: bl              #0x809c40  ; [package:flutter/src/animation/animation_controller.dart] AnimationController::dispose
     // 0xb6154c: ldur            x1, [fp, #-8]
     // 0xb61550: r0 = dispose()
-    //     0xb61550: bl              #0xb6156c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __SummitPulseRingState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb61550: bl              #0xb6156c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __SummitPulseRingState&State&SingleTickerProviderStateMixin::dispose
     // 0xb61554: r0 = Null
     //     0xb61554: mov             x0, NULL
     // 0xb61558: LeaveFrame
@@ -662,7 +662,7 @@ abstract class __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixi
     // 0x7b81a8: b.ne            #0x7b81b4
     // 0x7b81ac: mov             x1, x0
     // 0x7b81b0: r0 = _updateTickerModeNotifier()
-    //     0x7b81b0: bl              #0x7b82d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x7b81b0: bl              #0x7b82d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixin::_updateTickerModeNotifier
     // 0x7b81b4: ldur            x0, [fp, #-8]
     // 0x7b81b8: LoadField: r1 = r0->field_13
     //     0x7b81b8: ldur            w1, [x0, #0x13]
@@ -800,7 +800,7 @@ abstract class __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixi
     // 0x7b8338: b.eq            #0x7b837c
     // 0x7b833c: mov             x2, x0
     // 0x7b8340: r1 = Function '_updateTickers@394311458':.
-    //     0x7b8340: add             x1, PP, #0x38, lsl #12  ; [pp+0x380e0] AnonymousClosure: (0x7b83f4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixin::_updateTickers (0x7b842c)
+    //     0x7b8340: add             x1, PP, #0x38, lsl #12  ; [pp+0x380e0] AnonymousClosure: (0x7b83f4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixin::_updateTickers (0x7b842c)
     //     0x7b8344: ldr             x1, [x1, #0xe0]
     // 0x7b8348: r0 = AllocateClosure()
     //     0x7b8348: bl              #0xe553e0  ; AllocateClosureStub
@@ -820,7 +820,7 @@ abstract class __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixi
     // 0x7b8378: ldur            x3, [fp, #-0x18]
     // 0x7b837c: mov             x2, x0
     // 0x7b8380: r1 = Function '_updateTickers@394311458':.
-    //     0x7b8380: add             x1, PP, #0x38, lsl #12  ; [pp+0x380e0] AnonymousClosure: (0x7b83f4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixin::_updateTickers (0x7b842c)
+    //     0x7b8380: add             x1, PP, #0x38, lsl #12  ; [pp+0x380e0] AnonymousClosure: (0x7b83f4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixin::_updateTickers (0x7b842c)
     //     0x7b8384: ldr             x1, [x1, #0xe0]
     // 0x7b8388: r0 = AllocateClosure()
     //     0x7b8388: bl              #0xe553e0  ; AllocateClosureStub
@@ -874,7 +874,7 @@ abstract class __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixi
     //     0x7b840c: cmp             SP, x16
     //     0x7b8410: b.ls            #0x7b8424
     // 0x7b8414: r0 = _updateTickers()
-    //     0x7b8414: bl              #0x7b842c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixin::_updateTickers
+    //     0x7b8414: bl              #0x7b842c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixin::_updateTickers
     // 0x7b8418: LeaveFrame
     //     0x7b8418: mov             SP, fp
     //     0x7b841c: ldp             fp, lr, [SP], #0x10
@@ -1028,10 +1028,10 @@ abstract class __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixi
     //     0x8e42b0: b.ls            #0x8e42d4
     // 0x8e42b4: mov             x1, x0
     // 0x8e42b8: r0 = _updateTickerModeNotifier()
-    //     0x8e42b8: bl              #0x7b82d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x8e42b8: bl              #0x7b82d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixin::_updateTickerModeNotifier
     // 0x8e42bc: ldur            x1, [fp, #-8]
     // 0x8e42c0: r0 = _updateTickers()
-    //     0x8e42c0: bl              #0x7b842c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixin::_updateTickers
+    //     0x8e42c0: bl              #0x7b842c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixin::_updateTickers
     // 0x8e42c4: r0 = Null
     //     0x8e42c4: mov             x0, NULL
     // 0x8e42c8: LeaveFrame
@@ -1068,7 +1068,7 @@ abstract class __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixi
     // 0xb6146c: b               #0xb614ac
     // 0xb61470: mov             x2, x0
     // 0xb61474: r1 = Function '_updateTickers@394311458':.
-    //     0xb61474: add             x1, PP, #0x38, lsl #12  ; [pp+0x380e0] AnonymousClosure: (0x7b83f4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixin::_updateTickers (0x7b842c)
+    //     0xb61474: add             x1, PP, #0x38, lsl #12  ; [pp+0x380e0] AnonymousClosure: (0x7b83f4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixin::_updateTickers (0x7b842c)
     //     0xb61478: ldr             x1, [x1, #0xe0]
     // 0xb6147c: r0 = AllocateClosure()
     //     0xb6147c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1113,7 +1113,7 @@ abstract class __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixi
     //     0xb614e0: cmp             SP, x16
     //     0xb614e4: b.ls            #0xb614f8
     // 0xb614e8: r0 = dispose()
-    //     0xb614e8: bl              #0xb61434  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixin::dispose
+    //     0xb614e8: bl              #0xb61434  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixin::dispose
     // 0xb614ec: LeaveFrame
     //     0xb614ec: mov             SP, fp
     //     0xb614f0: ldp             fp, lr, [SP], #0x10
@@ -1222,11 +1222,11 @@ class _AccountSetupSkillRoadmapViewState extends __AccountSetupSkillRoadmapViewS
     // 0x8ea820: tbnz            w0, #4, #0x8ea830
     // 0x8ea824: mov             x1, x2
     // 0x8ea828: r0 = _restartClimb()
-    //     0x8ea828: bl              #0x8ea9f8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_restartClimb
+    //     0x8ea828: bl              #0x8ea9f8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_restartClimb
     // 0x8ea82c: b               #0x8ea838
     // 0x8ea830: mov             x1, x2
     // 0x8ea834: r0 = _resetClimbVisuals()
-    //     0x8ea834: bl              #0x8ea854  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_resetClimbVisuals
+    //     0x8ea834: bl              #0x8ea854  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_resetClimbVisuals
     // 0x8ea838: r0 = Null
     //     0x8ea838: mov             x0, NULL
     // 0x8ea83c: LeaveFrame
@@ -1447,7 +1447,7 @@ class _AccountSetupSkillRoadmapViewState extends __AccountSetupSkillRoadmapViewS
     // 0x8eaa64: tbz             w3, #4, #0x8eaa9c
     // 0x8eaa68: mov             x1, x0
     // 0x8eaa6c: r0 = _resetClimbVisuals()
-    //     0x8eaa6c: bl              #0x8ea854  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_resetClimbVisuals
+    //     0x8eaa6c: bl              #0x8ea854  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_resetClimbVisuals
     // 0x8eaa70: r1 = Function '<anonymous closure>':.
     //     0x8eaa70: add             x1, PP, #0x38, lsl #12  ; [pp+0x38060] Function: [dart:ui] _NativeScene::_NativeScene._ (0xe4f314)
     //     0x8eaa74: ldr             x1, [x1, #0x60]
@@ -1468,7 +1468,7 @@ class _AccountSetupSkillRoadmapViewState extends __AccountSetupSkillRoadmapViewS
     //     0x8eaa98: ret             
     // 0x8eaa9c: ldur            x1, [fp, #-8]
     // 0x8eaaa0: r0 = _resetClimbVisuals()
-    //     0x8eaaa0: bl              #0x8ea854  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_resetClimbVisuals
+    //     0x8eaaa0: bl              #0x8ea854  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_resetClimbVisuals
     // 0x8eaaa4: r1 = Function '<anonymous closure>':.
     //     0x8eaaa4: add             x1, PP, #0x38, lsl #12  ; [pp+0x38068] Function: [dart:ui] _NativeScene::_NativeScene._ (0xe4f314)
     //     0x8eaaa8: ldr             x1, [x1, #0x68]
@@ -1497,7 +1497,7 @@ class _AccountSetupSkillRoadmapViewState extends __AccountSetupSkillRoadmapViewS
     // 0x8eaae4: ldur            x2, [fp, #-0x10]
     // 0x8eaae8: stur            x0, [fp, #-8]
     // 0x8eaaec: r1 = Function '<anonymous closure>':.
-    //     0x8eaaec: add             x1, PP, #0x38, lsl #12  ; [pp+0x38070] AnonymousClosure: (0x8eabc4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_restartClimb (0x8ea9f8)
+    //     0x8eaaec: add             x1, PP, #0x38, lsl #12  ; [pp+0x38070] AnonymousClosure: (0x8eabc4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_restartClimb (0x8ea9f8)
     //     0x8eaaf0: ldr             x1, [x1, #0x70]
     // 0x8eaaf4: r0 = AllocateClosure()
     //     0x8eaaf4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1620,7 +1620,7 @@ class _AccountSetupSkillRoadmapViewState extends __AccountSetupSkillRoadmapViewS
     //     0x8eac24: ret             
     // 0x8eac28: mov             x1, x0
     // 0x8eac2c: r0 = _runClimb()
-    //     0x8eac2c: bl              #0x8eac4c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_runClimb
+    //     0x8eac2c: bl              #0x8eac4c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_runClimb
     // 0x8eac30: r0 = Null
     //     0x8eac30: mov             x0, NULL
     // 0x8eac34: LeaveFrame
@@ -1658,7 +1658,7 @@ class _AccountSetupSkillRoadmapViewState extends __AccountSetupSkillRoadmapViewS
     //     0x8eac7c: stur            w0, [x2, #0xf]
     // 0x8eac80: mov             x1, x0
     // 0x8eac84: r0 = _nodes()
-    //     0x8eac84: bl              #0x8eafec  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_nodes
+    //     0x8eac84: bl              #0x8eafec  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_nodes
     // 0x8eac88: mov             x3, x0
     // 0x8eac8c: ldur            x2, [fp, #-0x10]
     // 0x8eac90: stur            x3, [fp, #-0x18]
@@ -1693,7 +1693,7 @@ class _AccountSetupSkillRoadmapViewState extends __AccountSetupSkillRoadmapViewS
     // 0x8eacec: ldur            x0, [fp, #-8]
     // 0x8eacf0: ldur            x2, [fp, #-0x10]
     // 0x8eacf4: r1 = Function '<anonymous closure>':.
-    //     0x8eacf4: add             x1, PP, #0x38, lsl #12  ; [pp+0x38088] AnonymousClosure: (0x8eb568), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_runClimb (0x8eac4c)
+    //     0x8eacf4: add             x1, PP, #0x38, lsl #12  ; [pp+0x38088] AnonymousClosure: (0x8eb568), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_runClimb (0x8eac4c)
     //     0x8eacf8: ldr             x1, [x1, #0x88]
     // 0x8eacfc: r0 = AllocateClosure()
     //     0x8eacfc: bl              #0xe553e0  ; AllocateClosureStub
@@ -1813,7 +1813,7 @@ class _AccountSetupSkillRoadmapViewState extends __AccountSetupSkillRoadmapViewS
     //     0x8eae30: stur            x0, [x3, #7]
     // 0x8eae34: ldur            x2, [fp, #-8]
     // 0x8eae38: r1 = Function '<anonymous closure>':.
-    //     0x8eae38: add             x1, PP, #0x38, lsl #12  ; [pp+0x38090] AnonymousClosure: (0x8eb3e4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_runClimb (0x8eac4c)
+    //     0x8eae38: add             x1, PP, #0x38, lsl #12  ; [pp+0x38090] AnonymousClosure: (0x8eb3e4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_runClimb (0x8eac4c)
     //     0x8eae3c: ldr             x1, [x1, #0x90]
     // 0x8eae40: r0 = AllocateClosure()
     //     0x8eae40: bl              #0xe553e0  ; AllocateClosureStub
@@ -2106,22 +2106,22 @@ class _AccountSetupSkillRoadmapViewState extends __AccountSetupSkillRoadmapViewS
     // 0x8eb1b8: b               #0x8eb068
     // 0x8eb1bc: mov             x3, x0
     // 0x8eb1c0: r0 = currentBadgeLabel()
-    //     0x8eb1c0: bl              #0x8eb304  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::currentBadgeLabel
+    //     0x8eb1c0: bl              #0x8eb304  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::currentBadgeLabel
     // 0x8eb1c4: r1 = "You are here"
     //     0x8eb1c4: add             x1, PP, #0x38, lsl #12  ; [pp+0x38020] "You are here"
     //     0x8eb1c8: ldr             x1, [x1, #0x20]
     // 0x8eb1cc: stur            x0, [fp, #-8]
     // 0x8eb1d0: r0 = L()
-    //     0x8eb1d0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x8eb1d0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x8eb1d4: r1 = "Today"
     //     0x8eb1d4: add             x1, PP, #0x27, lsl #12  ; [pp+0x272f0] "Today"
     //     0x8eb1d8: ldr             x1, [x1, #0x2f0]
     // 0x8eb1dc: stur            x0, [fp, #-0x10]
     // 0x8eb1e0: r0 = L()
-    //     0x8eb1e0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x8eb1e0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x8eb1e4: stur            x0, [fp, #-0x18]
     // 0x8eb1e8: r0 = localizedStartingDetail()
-    //     0x8eb1e8: bl              #0x8eb2d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::localizedStartingDetail
+    //     0x8eb1e8: bl              #0x8eb2d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::localizedStartingDetail
     // 0x8eb1ec: stur            x0, [fp, #-0x20]
     // 0x8eb1f0: r0 = _RailNode()
     //     0x8eb1f0: bl              #0x8eb3b4  ; Allocate_RailNodeStub -> _RailNode (size=0x20)
@@ -2246,7 +2246,7 @@ class _AccountSetupSkillRoadmapViewState extends __AccountSetupSkillRoadmapViewS
     //     0x8eb440: ret             
     // 0x8eb444: mov             x2, x3
     // 0x8eb448: r1 = Function '<anonymous closure>':.
-    //     0x8eb448: add             x1, PP, #0x38, lsl #12  ; [pp+0x38098] AnonymousClosure: (0x8eb500), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_runClimb (0x8eac4c)
+    //     0x8eb448: add             x1, PP, #0x38, lsl #12  ; [pp+0x38098] AnonymousClosure: (0x8eb500), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_runClimb (0x8eac4c)
     //     0x8eb44c: ldr             x1, [x1, #0x98]
     // 0x8eb450: r0 = AllocateClosure()
     //     0x8eb450: bl              #0xe553e0  ; AllocateClosureStub
@@ -2279,7 +2279,7 @@ class _AccountSetupSkillRoadmapViewState extends __AccountSetupSkillRoadmapViewS
     // 0x8eb498: ldur            x2, [fp, #-0x18]
     // 0x8eb49c: stur            x3, [fp, #-8]
     // 0x8eb4a0: r1 = Function '<anonymous closure>':.
-    //     0x8eb4a0: add             x1, PP, #0x38, lsl #12  ; [pp+0x380a0] AnonymousClosure: (0x8eb4d8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_runClimb (0x8eac4c)
+    //     0x8eb4a0: add             x1, PP, #0x38, lsl #12  ; [pp+0x380a0] AnonymousClosure: (0x8eb4d8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_runClimb (0x8eac4c)
     //     0x8eb4a4: ldr             x1, [x1, #0xa0]
     // 0x8eb4a8: r0 = AllocateClosure()
     //     0x8eb4a8: bl              #0xe553e0  ; AllocateClosureStub
@@ -2503,7 +2503,7 @@ class _AccountSetupSkillRoadmapViewState extends __AccountSetupSkillRoadmapViewS
     // 0x94e790: ldur            x2, [fp, #-0x10]
     // 0x94e794: stur            x0, [fp, #-8]
     // 0x94e798: r1 = Function '<anonymous closure>':.
-    //     0x94e798: add             x1, PP, #0x38, lsl #12  ; [pp+0x380b0] AnonymousClosure: (0x94e880), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::initState (0x94e6d4)
+    //     0x94e798: add             x1, PP, #0x38, lsl #12  ; [pp+0x380b0] AnonymousClosure: (0x94e880), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::initState (0x94e6d4)
     //     0x94e79c: ldr             x1, [x1, #0xb0]
     // 0x94e7a0: r0 = AllocateClosure()
     //     0x94e7a0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2607,7 +2607,7 @@ class _AccountSetupSkillRoadmapViewState extends __AccountSetupSkillRoadmapViewS
     //     0x94e8a4: add             x0, x0, HEAP, lsl #32
     // 0x94e8a8: mov             x1, x0
     // 0x94e8ac: r0 = _restartClimb()
-    //     0x94e8ac: bl              #0x8ea9f8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_restartClimb
+    //     0x94e8ac: bl              #0x8ea9f8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_restartClimb
     // 0x94e8b0: r0 = Null
     //     0x94e8b0: mov             x0, NULL
     // 0x94e8b4: LeaveFrame
@@ -2641,7 +2641,7 @@ class _AccountSetupSkillRoadmapViewState extends __AccountSetupSkillRoadmapViewS
     // 0xa06fec: StoreField: r0->field_f = r1
     //     0xa06fec: stur            w1, [x0, #0xf]
     // 0xa06ff0: r0 = _nodes()
-    //     0xa06ff0: bl              #0x8eafec  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_nodes
+    //     0xa06ff0: bl              #0x8eafec  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_nodes
     // 0xa06ff4: ldur            x2, [fp, #-0x10]
     // 0xa06ff8: StoreField: r2->field_13 = r0
     //     0xa06ff8: stur            w0, [x2, #0x13]
@@ -2652,7 +2652,7 @@ class _AccountSetupSkillRoadmapViewState extends __AccountSetupSkillRoadmapViewS
     //     0xa0700c: b.eq            #0xa07014
     //     0xa07010: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xa07014: r1 = Function '<anonymous closure>':.
-    //     0xa07014: add             x1, PP, #0x37, lsl #12  ; [pp+0x37fe0] AnonymousClosure: (0xa0704c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::build (0xa06fc0)
+    //     0xa07014: add             x1, PP, #0x37, lsl #12  ; [pp+0x37fe0] AnonymousClosure: (0xa0704c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::build (0xa06fc0)
     //     0xa07018: ldr             x1, [x1, #0xfe0]
     // 0xa0701c: r0 = AllocateClosure()
     //     0xa0701c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2778,7 +2778,7 @@ class _AccountSetupSkillRoadmapViewState extends __AccountSetupSkillRoadmapViewS
     // 0xa07170: mov             x2, x3
     // 0xa07174: stur            x5, [fp, #-0x20]
     // 0xa07178: r1 = Function '<anonymous closure>':.
-    //     0xa07178: add             x1, PP, #0x37, lsl #12  ; [pp+0x37fe8] AnonymousClosure: (0xa0761c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::build (0xa06fc0)
+    //     0xa07178: add             x1, PP, #0x37, lsl #12  ; [pp+0x37fe8] AnonymousClosure: (0xa0761c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::build (0xa06fc0)
     //     0xa0717c: ldr             x1, [x1, #0xfe8]
     // 0xa07180: r0 = AllocateClosure()
     //     0xa07180: bl              #0xe553e0  ; AllocateClosureStub
@@ -2942,8 +2942,8 @@ class _AccountSetupSkillRoadmapViewState extends __AccountSetupSkillRoadmapViewS
     //     0xa07334: ldur            w1, [x5, #0xf]
     // 0xa07338: DecompressPointer r1
     //     0xa07338: add             x1, x1, HEAP, lsl #32
-    // 0xa0733c: r0 = BallAiThemeContext.ballAi()
-    //     0xa0733c: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xa0733c: r0 = KourtAiThemeContext.kourtAi()
+    //     0xa0733c: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xa07340: ArrayLoad: r2 = r0[0]  ; List_4
     //     0xa07340: ldur            w2, [x0, #0x17]
     // 0xa07344: DecompressPointer r2
@@ -2954,8 +2954,8 @@ class _AccountSetupSkillRoadmapViewState extends __AccountSetupSkillRoadmapViewS
     //     0xa07350: ldur            w1, [x0, #0xf]
     // 0xa07354: DecompressPointer r1
     //     0xa07354: add             x1, x1, HEAP, lsl #32
-    // 0xa07358: r0 = BallAiThemeContext.ballAi()
-    //     0xa07358: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xa07358: r0 = KourtAiThemeContext.kourtAi()
+    //     0xa07358: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xa0735c: LoadField: r2 = r0->field_1b
     //     0xa0735c: ldur            w2, [x0, #0x1b]
     // 0xa07360: DecompressPointer r2
@@ -3275,8 +3275,8 @@ class _AccountSetupSkillRoadmapViewState extends __AccountSetupSkillRoadmapViewS
     //     0xa076a0: ldur            w1, [x0, #0xf]
     // 0xa076a4: DecompressPointer r1
     //     0xa076a4: add             x1, x1, HEAP, lsl #32
-    // 0xa076a8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa076a8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa076a8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa076a8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa076ac: r16 = 0.080000
     //     0xa076ac: add             x16, PP, #0x24, lsl #12  ; [pp+0x24f28] 0.08
     //     0xa076b0: ldr             x16, [x16, #0xf28]
@@ -3511,7 +3511,7 @@ class _AccountSetupSkillRoadmapViewState extends __AccountSetupSkillRoadmapViewS
     //     0xb5aac8: mov             fp, SP
     // 0xb5aacc: ldr             x2, [fp, #0x10]
     // 0xb5aad0: r1 = Function 'dispose':.
-    //     0xb5aad0: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c6c8] AnonymousClosure: (0xb5aae8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::dispose (0xb612c8)
+    //     0xb5aad0: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c6c8] AnonymousClosure: (0xb5aae8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::dispose (0xb612c8)
     //     0xb5aad4: ldr             x1, [x1, #0x6c8]
     // 0xb5aad8: r0 = AllocateClosure()
     //     0xb5aad8: bl              #0xe553e0  ; AllocateClosureStub
@@ -3536,7 +3536,7 @@ class _AccountSetupSkillRoadmapViewState extends __AccountSetupSkillRoadmapViewS
     //     0xb5ab00: cmp             SP, x16
     //     0xb5ab04: b.ls            #0xb5ab18
     // 0xb5ab08: r0 = dispose()
-    //     0xb5ab08: bl              #0xb612c8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::dispose
+    //     0xb5ab08: bl              #0xb612c8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::dispose
     // 0xb5ab0c: LeaveFrame
     //     0xb5ab0c: mov             SP, fp
     //     0xb5ab10: ldp             fp, lr, [SP], #0x10
@@ -3651,7 +3651,7 @@ class _AccountSetupSkillRoadmapViewState extends __AccountSetupSkillRoadmapViewS
     //     0xb613e0: bl              #0x809c40  ; [package:flutter/src/animation/animation_controller.dart] AnimationController::dispose
     // 0xb613e4: ldur            x1, [fp, #-0x28]
     // 0xb613e8: r0 = dispose()
-    //     0xb613e8: bl              #0xb61434  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixin::dispose
+    //     0xb613e8: bl              #0xb61434  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] __AccountSetupSkillRoadmapViewState&State&TickerProviderStateMixin::dispose
     // 0xb613ec: r0 = Null
     //     0xb613ec: mov             x0, NULL
     // 0xb613f0: LeaveFrame
@@ -3809,7 +3809,7 @@ class AccountSetupSkillRoadmapView extends StatefulWidget {
     // 0xb729e8: mov             x1, x0
     // 0xb729ec: stur            x0, [fp, #-8]
     // 0xb729f0: r0 = _AccountSetupSkillRoadmapViewState()
-    //     0xb729f0: bl              #0xb72a0c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_AccountSetupSkillRoadmapViewState
+    //     0xb729f0: bl              #0xb72a0c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _AccountSetupSkillRoadmapViewState::_AccountSetupSkillRoadmapViewState
     // 0xb729f4: ldur            x0, [fp, #-8]
     // 0xb729f8: LeaveFrame
     //     0xb729f8: mov             SP, fp
@@ -3861,7 +3861,7 @@ class _SkillRoadmapRailRow extends StatelessWidget {
     // 0xbd0c28: mov             x1, x0
     // 0xbd0c2c: stur            d1, [fp, #-0x48]
     // 0xbd0c30: r0 = _nodeCircle()
-    //     0xbd0c30: bl              #0xbd1184  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _SkillRoadmapRailRow::_nodeCircle
+    //     0xbd0c30: bl              #0xbd1184  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _SkillRoadmapRailRow::_nodeCircle
     // 0xbd0c34: stur            x0, [fp, #-0x18]
     // 0xbd0c38: r0 = AnimatedOpacity()
     //     0xbd0c38: bl              #0x9e86b4  ; AllocateAnimatedOpacityStub -> AnimatedOpacity (size=0x28)
@@ -4483,7 +4483,7 @@ class _SkillRoadmapRailRow extends StatelessWidget {
     // 0xbd1264: r3 = Instance_Color
     //     0xbd1264: ldr             x3, [PP, #0x5178]  ; [pp+0x5178] Obj!Color@d2a0a1
     // 0xbd1268: r0 = _badgeText()
-    //     0xbd1268: bl              #0xbd14ec  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _SkillRoadmapRailRow::_badgeText
+    //     0xbd1268: bl              #0xbd14ec  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _SkillRoadmapRailRow::_badgeText
     // 0xbd126c: stur            x0, [fp, #-0x28]
     // 0xbd1270: r0 = Container()
     //     0xbd1270: bl              #0x5ef73c  ; AllocateContainerStub -> Container (size=0x38)
@@ -4640,7 +4640,7 @@ class _SkillRoadmapRailRow extends StatelessWidget {
     // 0xbd140c: d0 = 10.000000
     //     0xbd140c: fmov            d0, #10.00000000
     // 0xbd1410: r0 = _badgeText()
-    //     0xbd1410: bl              #0xbd14ec  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _SkillRoadmapRailRow::_badgeText
+    //     0xbd1410: bl              #0xbd14ec  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _SkillRoadmapRailRow::_badgeText
     // 0xbd1414: stur            x0, [fp, #-0x20]
     // 0xbd1418: r0 = Container()
     //     0xbd1418: bl              #0x5ef73c  ; AllocateContainerStub -> Container (size=0x38)
@@ -4682,7 +4682,7 @@ class _SkillRoadmapRailRow extends StatelessWidget {
     // 0xbd1480: r3 = Instance_Color
     //     0xbd1480: ldr             x3, [PP, #0x5178]  ; [pp+0x5178] Obj!Color@d2a0a1
     // 0xbd1484: r0 = _badgeText()
-    //     0xbd1484: bl              #0xbd14ec  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _SkillRoadmapRailRow::_badgeText
+    //     0xbd1484: bl              #0xbd14ec  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_roadmap_parity_view.dart] _SkillRoadmapRailRow::_badgeText
     // 0xbd1488: stur            x0, [fp, #-8]
     // 0xbd148c: r0 = Container()
     //     0xbd148c: bl              #0x5ef73c  ; AllocateContainerStub -> Container (size=0x38)
@@ -4842,17 +4842,17 @@ class AccountSetupRoadmapParityView extends StatelessWidget {
     // 0xbd09cc: DecompressPointer r1
     //     0xbd09cc: add             x1, x1, HEAP, lsl #32
     // 0xbd09d0: r0 = phasesFor()
-    //     0xbd09d0: bl              #0x9f6c40  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::phasesFor
+    //     0xbd09d0: bl              #0x9f6c40  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_skill_roadmap_support.dart] AccountSetupSkillRoadmapSupport::phasesFor
     // 0xbd09d4: r1 = "Your growth journey"
     //     0xbd09d4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a798] "Your growth journey"
     //     0xbd09d8: ldr             x1, [x1, #0x798]
     // 0xbd09dc: stur            x0, [fp, #-0x18]
     // 0xbd09e0: r0 = L()
-    //     0xbd09e0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd09e0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd09e4: ldur            x1, [fp, #-8]
     // 0xbd09e8: stur            x0, [fp, #-8]
-    // 0xbd09ec: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbd09ec: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbd09ec: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbd09ec: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbd09f0: stur            x0, [fp, #-0x20]
     // 0xbd09f4: r0 = TextStyle()
     //     0xbd09f4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart
+// lib: , url: package:kourtai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart
 
 // class id: 1049237, size: 0x8
 class :: {
@@ -152,7 +152,7 @@ class _SetupTipsTutorialPlayerViewState extends State<dynamic> {
     //     0x903e4c: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x903e50: ldur            x2, [fp, #-0x70]
     // 0x903e54: r1 = Function '_onPlayerTick@1465125633':.
-    //     0x903e54: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fd20] AnonymousClosure: (0x904120), in [package:ballai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::_onPlayerTick (0x904158)
+    //     0x903e54: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fd20] AnonymousClosure: (0x904120), in [package:kourtai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::_onPlayerTick (0x904158)
     //     0x903e58: ldr             x1, [x1, #0xd20]
     // 0x903e5c: r0 = AllocateClosure()
     //     0x903e5c: bl              #0xe553e0  ; AllocateClosureStub
@@ -162,7 +162,7 @@ class _SetupTipsTutorialPlayerViewState extends State<dynamic> {
     //     0x903e68: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0x903e6c: ldur            x2, [fp, #-0x78]
     // 0x903e70: r1 = Function '<anonymous closure>':.
-    //     0x903e70: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fd38] AnonymousClosure: (0x903cd8), in [package:ballai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::_startPlayback (0x903d28)
+    //     0x903e70: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fd38] AnonymousClosure: (0x903cd8), in [package:kourtai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::_startPlayback (0x903d28)
     //     0x903e74: ldr             x1, [x1, #0xd38]
     // 0x903e78: r0 = AllocateClosure()
     //     0x903e78: bl              #0xe553e0  ; AllocateClosureStub
@@ -236,7 +236,7 @@ class _SetupTipsTutorialPlayerViewState extends State<dynamic> {
     // 0x903f38: b.eq            #0x903f58
     // 0x903f3c: ldur            x2, [fp, #-0x78]
     // 0x903f40: r1 = Function '<anonymous closure>':.
-    //     0x903f40: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fd48] AnonymousClosure: (0x8fbc64), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
+    //     0x903f40: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fd48] AnonymousClosure: (0x8fbc64), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
     //     0x903f44: ldr             x1, [x1, #0xd48]
     // 0x903f48: r0 = AllocateClosure()
     //     0x903f48: bl              #0xe553e0  ; AllocateClosureStub
@@ -269,7 +269,7 @@ class _SetupTipsTutorialPlayerViewState extends State<dynamic> {
     //     0x904138: cmp             SP, x16
     //     0x90413c: b.ls            #0x904150
     // 0x904140: r0 = _onPlayerTick()
-    //     0x904140: bl              #0x904158  ; [package:ballai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::_onPlayerTick
+    //     0x904140: bl              #0x904158  ; [package:kourtai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::_onPlayerTick
     // 0x904144: LeaveFrame
     //     0x904144: mov             SP, fp
     //     0x904148: ldp             fp, lr, [SP], #0x10
@@ -335,7 +335,7 @@ class _SetupTipsTutorialPlayerViewState extends State<dynamic> {
     // 0x9041d4: b.eq            #0x904204
     // 0x9041d8: mov             x2, x1
     // 0x9041dc: r1 = Function '<anonymous closure>':.
-    //     0x9041dc: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fd28] AnonymousClosure: (0x8fbc64), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
+    //     0x9041dc: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fd28] AnonymousClosure: (0x8fbc64), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
     //     0x9041e0: ldr             x1, [x1, #0xd28]
     // 0x9041e4: r0 = AllocateClosure()
     //     0x9041e4: bl              #0xe553e0  ; AllocateClosureStub
@@ -381,7 +381,7 @@ class _SetupTipsTutorialPlayerViewState extends State<dynamic> {
     //     0x904248: bl              #0x60ef90  ; [package:video_player/video_player.dart] VideoPlayerController::pause
     // 0x90424c: ldur            x1, [fp, #-8]
     // 0x904250: r0 = _close()
-    //     0x904250: bl              #0x90426c  ; [package:ballai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::_close
+    //     0x904250: bl              #0x90426c  ; [package:kourtai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::_close
     // 0x904254: r0 = Null
     //     0x904254: mov             x0, NULL
     // 0x904258: LeaveFrame
@@ -464,7 +464,7 @@ class _SetupTipsTutorialPlayerViewState extends State<dynamic> {
     //     0x904304: cmp             SP, x16
     //     0x904308: b.ls            #0x90431c
     // 0x90430c: r0 = _close()
-    //     0x90430c: bl              #0x90426c  ; [package:ballai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::_close
+    //     0x90430c: bl              #0x90426c  ; [package:kourtai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::_close
     // 0x904310: LeaveFrame
     //     0x904310: mov             SP, fp
     //     0x904314: ldp             fp, lr, [SP], #0x10
@@ -495,7 +495,7 @@ class _SetupTipsTutorialPlayerViewState extends State<dynamic> {
     //     0x993f18: bl              #0x732714  ; [package:flutter/src/services/system_chrome.dart] SystemChrome::setPreferredOrientations
     // 0x993f1c: ldur            x1, [fp, #-8]
     // 0x993f20: r0 = _startPlayback()
-    //     0x993f20: bl              #0x903d28  ; [package:ballai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::_startPlayback
+    //     0x993f20: bl              #0x903d28  ; [package:kourtai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::_startPlayback
     // 0x993f24: r0 = Null
     //     0x993f24: mov             x0, NULL
     // 0x993f28: LeaveFrame
@@ -570,7 +570,7 @@ class _SetupTipsTutorialPlayerViewState extends State<dynamic> {
     //     0xac9384: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fcd8] "Couldn\'t load the setup tutorial video."
     //     0xac9388: ldr             x1, [x1, #0xcd8]
     // 0xac938c: r0 = L()
-    //     0xac938c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xac938c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xac9390: stur            x0, [fp, #-0x30]
     // 0xac9394: r0 = Text()
     //     0xac9394: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -815,7 +815,7 @@ class _SetupTipsTutorialPlayerViewState extends State<dynamic> {
     //     0xac9614: bl              #0x9dc8b8  ; AllocateGestureDetectorStub -> GestureDetector (size=0x10c)
     // 0xac9618: ldur            x2, [fp, #-0x18]
     // 0xac961c: r1 = Function '<anonymous closure>':.
-    //     0xac961c: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fcf0] AnonymousClosure: (0xac9bc4), in [package:ballai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::build (0xac92e0)
+    //     0xac961c: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fcf0] AnonymousClosure: (0xac9bc4), in [package:kourtai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::build (0xac92e0)
     //     0xac9620: ldr             x1, [x1, #0xcf0]
     // 0xac9624: stur            x0, [fp, #-0x18]
     // 0xac9628: r0 = AllocateClosure()
@@ -1102,7 +1102,7 @@ class _SetupTipsTutorialPlayerViewState extends State<dynamic> {
     //     0xac9964: stur            w0, [x3, #0xb]
     // 0xac9968: ldur            x2, [fp, #-8]
     // 0xac996c: r1 = Function '_close@1465125633':.
-    //     0xac996c: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fd10] AnonymousClosure: (0x9042ec), in [package:ballai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::_close (0x90426c)
+    //     0xac996c: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fd10] AnonymousClosure: (0x9042ec), in [package:kourtai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::_close (0x90426c)
     //     0xac9970: ldr             x1, [x1, #0xd10]
     // 0xac9974: r0 = AllocateClosure()
     //     0xac9974: bl              #0xe553e0  ; AllocateClosureStub
@@ -1395,7 +1395,7 @@ class _SetupTipsTutorialPlayerViewState extends State<dynamic> {
     //     0xb5cb84: mov             fp, SP
     // 0xb5cb88: ldr             x2, [fp, #0x10]
     // 0xb5cb8c: r1 = Function 'dispose':.
-    //     0xb5cb8c: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a940] AnonymousClosure: (0xb5cba4), in [package:ballai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::dispose (0xb642fc)
+    //     0xb5cb8c: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a940] AnonymousClosure: (0xb5cba4), in [package:kourtai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::dispose (0xb642fc)
     //     0xb5cb90: ldr             x1, [x1, #0x940]
     // 0xb5cb94: r0 = AllocateClosure()
     //     0xb5cb94: bl              #0xe553e0  ; AllocateClosureStub
@@ -1420,7 +1420,7 @@ class _SetupTipsTutorialPlayerViewState extends State<dynamic> {
     //     0xb5cbbc: cmp             SP, x16
     //     0xb5cbc0: b.ls            #0xb5cbd4
     // 0xb5cbc4: r0 = dispose()
-    //     0xb5cbc4: bl              #0xb642fc  ; [package:ballai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::dispose
+    //     0xb5cbc4: bl              #0xb642fc  ; [package:kourtai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::dispose
     // 0xb5cbc8: LeaveFrame
     //     0xb5cbc8: mov             SP, fp
     //     0xb5cbcc: ldp             fp, lr, [SP], #0x10
@@ -1462,7 +1462,7 @@ class _SetupTipsTutorialPlayerViewState extends State<dynamic> {
     // 0xb64344: mov             x1, x0
     // 0xb64348: b               #0xb64368
     // 0xb6434c: r1 = Function '_onPlayerTick@1465125633':.
-    //     0xb6434c: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fd20] AnonymousClosure: (0x904120), in [package:ballai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::_onPlayerTick (0x904158)
+    //     0xb6434c: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fd20] AnonymousClosure: (0x904120), in [package:kourtai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::_onPlayerTick (0x904158)
     //     0xb64350: ldr             x1, [x1, #0xd20]
     // 0xb64354: r0 = AllocateClosure()
     //     0xb64354: bl              #0xe553e0  ; AllocateClosureStub

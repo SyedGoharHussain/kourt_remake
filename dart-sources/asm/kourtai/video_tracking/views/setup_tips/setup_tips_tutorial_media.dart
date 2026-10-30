@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/setup_tips/setup_tips_tutorial_media.dart
+// lib: , url: package:kourtai/video_tracking/views/setup_tips/setup_tips_tutorial_media.dart
 
 // class id: 1049236, size: 0x8
 class :: {
@@ -35,7 +35,7 @@ abstract class SetupTipsTutorialMediaResolver extends Object {
     //     0x90a360: b.ls            #0x90a3c8
     // 0x90a364: cmp             w0, NULL
     // 0x90a368: b.ne            #0x90a38c
-    // 0x90a36c: r0 = InitLateStaticField(0xc48) // [package:ballai/video_tracking/utility/defaults/defaults_video_workout_camera_mount.dart] DefaultsVideoWorkoutCameraMount::_cached
+    // 0x90a36c: r0 = InitLateStaticField(0xc48) // [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_camera_mount.dart] DefaultsVideoWorkoutCameraMount::_cached
     //     0x90a36c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x90a370: ldr             x0, [x0, #0x1890]
     //     0x90a374: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel

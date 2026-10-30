@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/my_player/overall_ring.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/my_player/overall_ring.dart
 
 // class id: 1049025, size: 0x8
 class :: {
@@ -27,15 +27,15 @@ class OverallRing extends StatelessWidget {
     // 0xc1bafc: mov             x1, x2
     // 0xc1bb00: stur            x2, [fp, #-8]
     // 0xc1bb04: r0 = tierFor()
-    //     0xc1bb04: bl              #0xaa144c  ; [package:ballai/automatic/models/core/my_player/overall_tier.dart] OverallTier::tierFor
+    //     0xc1bb04: bl              #0xaa144c  ; [package:kourtai/automatic/models/core/my_player/overall_tier.dart] OverallTier::tierFor
     // 0xc1bb08: ldur            x1, [fp, #-8]
     // 0xc1bb0c: stur            x0, [fp, #-0x18]
     // 0xc1bb10: r0 = ringFraction()
-    //     0xc1bb10: bl              #0x902abc  ; [package:ballai/automatic/models/core/my_player/overall_tier.dart] OverallTier::ringFraction
+    //     0xc1bb10: bl              #0x902abc  ; [package:kourtai/automatic/models/core/my_player/overall_tier.dart] OverallTier::ringFraction
     // 0xc1bb14: ldur            x1, [fp, #-0x18]
     // 0xc1bb18: stur            d0, [fp, #-0x40]
     // 0xc1bb1c: r0 = gradientColors()
-    //     0xc1bb1c: bl              #0xaa1284  ; [package:ballai/automatic/models/core/my_player/overall_tier.dart] OverallTier::gradientColors
+    //     0xc1bb1c: bl              #0xaa1284  ; [package:kourtai/automatic/models/core/my_player/overall_tier.dart] OverallTier::gradientColors
     // 0xc1bb20: ldur            x1, [fp, #-0x10]
     // 0xc1bb24: stur            x0, [fp, #-0x10]
     // 0xc1bb28: r0 = of()
@@ -74,11 +74,11 @@ class OverallRing extends StatelessWidget {
     //     0xc1bb80: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d638] "Overall"
     //     0xc1bb84: ldr             x1, [x1, #0x638]
     // 0xc1bb88: r0 = L()
-    //     0xc1bb88: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1bb88: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1bb8c: ldur            x1, [fp, #-0x18]
     // 0xc1bb90: stur            x0, [fp, #-0x18]
     // 0xc1bb94: r0 = displayName()
-    //     0xc1bb94: bl              #0xc1bf84  ; [package:ballai/automatic/models/core/my_player/overall_tier.dart] OverallTier::displayName
+    //     0xc1bb94: bl              #0xc1bf84  ; [package:kourtai/automatic/models/core/my_player/overall_tier.dart] OverallTier::displayName
     // 0xc1bb98: r1 = Null
     //     0xc1bb98: mov             x1, NULL
     // 0xc1bb9c: r2 = 6
@@ -121,7 +121,7 @@ class OverallRing extends StatelessWidget {
     //     0xc1bc00: add             x1, PP, #0x54, lsl #12  ; [pp+0x54ef8] "%@ %lld, %@"
     //     0xc1bc04: ldr             x1, [x1, #0xef8]
     // 0xc1bc08: r0 = LF()
-    //     0xc1bc08: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xc1bc08: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xc1bc0c: stur            x0, [fp, #-0x28]
     // 0xc1bc10: r0 = _OverallRingPainter()
     //     0xc1bc10: bl              #0xc1bf78  ; Allocate_OverallRingPainterStub -> _OverallRingPainter (size=0x24)
@@ -219,7 +219,7 @@ class OverallRing extends StatelessWidget {
     //     0xc1bd04: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b980] "OVR"
     //     0xc1bd08: ldr             x1, [x1, #0x980]
     // 0xc1bd0c: r0 = L()
-    //     0xc1bd0c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1bd0c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1bd10: mov             x2, x0
     // 0xc1bd14: ldur            x1, [fp, #-0x10]
     // 0xc1bd18: stur            x2, [fp, #-0x18]

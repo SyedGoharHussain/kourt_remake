@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart
+// lib: , url: package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart
 
 // class id: 1048778, size: 0x8
 class :: {
@@ -47,7 +47,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     // 0x984bb4: DecompressPointer r1
     //     0x984bb4: add             x1, x1, HEAP, lsl #32
     // 0x984bb8: r0 = fetchSuggestedUsers()
-    //     0x984bb8: bl              #0x984cd0  ; [package:ballai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::fetchSuggestedUsers
+    //     0x984bb8: bl              #0x984cd0  ; [package:kourtai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::fetchSuggestedUsers
     // 0x984bbc: mov             x1, x0
     // 0x984bc0: stur            x1, [fp, #-0x68]
     // 0x984bc4: r0 = Await()
@@ -80,7 +80,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     //     0x984c1c: add             x2, PP, #0x55, lsl #12  ; [pp+0x55020] "Couldn\'t load suggested users. Please try again."
     //     0x984c20: ldr             x2, [x2, #0x20]
     // 0x984c24: r0 = userFacingError()
-    //     0x984c24: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0x984c24: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0x984c28: ldur            x3, [fp, #-0x60]
     // 0x984c2c: StoreField: r3->field_3b = r0
     //     0x984c2c: stur            w0, [x3, #0x3b]
@@ -374,7 +374,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     //     0x9855b0: b.eq            #0x9855b8
     //     0x9855b4: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x9855b8: r1 = Function '_onFollowManagerChanged@972366437':.
-    //     0x9855b8: add             x1, PP, #0x55, lsl #12  ; [pp+0x551c8] AnonymousClosure: (0x9855f4), in [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::_onFollowManagerChanged (0x98562c)
+    //     0x9855b8: add             x1, PP, #0x55, lsl #12  ; [pp+0x551c8] AnonymousClosure: (0x9855f4), in [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::_onFollowManagerChanged (0x98562c)
     //     0x9855bc: ldr             x1, [x1, #0x1c8]
     // 0x9855c0: r0 = AllocateClosure()
     //     0x9855c0: bl              #0xe553e0  ; AllocateClosureStub
@@ -408,7 +408,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     //     0x98560c: cmp             SP, x16
     //     0x985610: b.ls            #0x985624
     // 0x985614: r0 = _onFollowManagerChanged()
-    //     0x985614: bl              #0x98562c  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::_onFollowManagerChanged
+    //     0x985614: bl              #0x98562c  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::_onFollowManagerChanged
     // 0x985618: LeaveFrame
     //     0x985618: mov             SP, fp
     //     0x98561c: ldp             fp, lr, [SP], #0x10
@@ -491,7 +491,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     // 0x9856e0: ldur            x2, [fp, #-0x18]
     // 0x9856e4: stur            x0, [fp, #-0x20]
     // 0x9856e8: r1 = Function '<anonymous closure>':.
-    //     0x9856e8: add             x1, PP, #0x55, lsl #12  ; [pp+0x551d0] AnonymousClosure: static (0x72fa1c), in [package:ballai/video_tracking/session/feedback/event_sound.dart] EventSoundCatalog::orderedMarketing (0x72f268)
+    //     0x9856e8: add             x1, PP, #0x55, lsl #12  ; [pp+0x551d0] AnonymousClosure: static (0x72fa1c), in [package:kourtai/video_tracking/session/feedback/event_sound.dart] EventSoundCatalog::orderedMarketing (0x72f268)
     //     0x9856ec: ldr             x1, [x1, #0x1d0]
     // 0x9856f0: r0 = AllocateClosure()
     //     0x9856f0: bl              #0xe553e0  ; AllocateClosureStub
@@ -521,7 +521,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     // 0x98572c: cmp             x2, x0
     // 0x985730: b.le            #0x98573c
     // 0x985734: r0 = loadIncomingFollowRequests()
-    //     0x985734: bl              #0x985758  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::loadIncomingFollowRequests
+    //     0x985734: bl              #0x985758  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::loadIncomingFollowRequests
     // 0x985738: b               #0x985740
     // 0x98573c: r0 = notifyListeners()
     //     0x98573c: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -625,7 +625,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     //     0x985834: add             x1, x1, HEAP, lsl #32
     // 0x985838: ldur            x2, [fp, #-0x78]
     // 0x98583c: r0 = fetchPendingFollowRequestsPage()
-    //     0x98583c: bl              #0x985984  ; [package:ballai/automatic/app/social/follow_list_repository.dart] FollowListRepository::fetchPendingFollowRequestsPage
+    //     0x98583c: bl              #0x985984  ; [package:kourtai/automatic/app/social/follow_list_repository.dart] FollowListRepository::fetchPendingFollowRequestsPage
     // 0x985840: mov             x1, x0
     // 0x985844: stur            x1, [fp, #-0x80]
     // 0x985848: r0 = Await()
@@ -675,7 +675,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     //     0x9858d0: add             x2, PP, #0x55, lsl #12  ; [pp+0x550d0] "Couldn\'t load follow requests. Please try again."
     //     0x9858d4: ldr             x2, [x2, #0xd0]
     // 0x9858d8: r0 = userFacingError()
-    //     0x9858d8: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0x9858d8: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0x9858dc: ldur            x3, [fp, #-0x70]
     // 0x9858e0: StoreField: r3->field_3b = r0
     //     0x9858e0: stur            w0, [x3, #0x3b]
@@ -741,7 +741,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     //     0x9b5dc8: mov             fp, SP
     // 0x9b5dcc: ldr             x2, [fp, #0x10]
     // 0x9b5dd0: r1 = Function 'dispose':.
-    //     0x9b5dd0: add             x1, PP, #0x57, lsl #12  ; [pp+0x57ac8] AnonymousClosure: (0x9b5de8), in [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::dispose (0x9be6f0)
+    //     0x9b5dd0: add             x1, PP, #0x57, lsl #12  ; [pp+0x57ac8] AnonymousClosure: (0x9b5de8), in [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::dispose (0x9be6f0)
     //     0x9b5dd4: ldr             x1, [x1, #0xac8]
     // 0x9b5dd8: r0 = AllocateClosure()
     //     0x9b5dd8: bl              #0xe553e0  ; AllocateClosureStub
@@ -766,7 +766,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     //     0x9b5e00: cmp             SP, x16
     //     0x9b5e04: b.ls            #0x9b5e18
     // 0x9b5e08: r0 = dispose()
-    //     0x9b5e08: bl              #0x9be6f0  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::dispose
+    //     0x9b5e08: bl              #0x9be6f0  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::dispose
     // 0x9b5e0c: LeaveFrame
     //     0x9b5e0c: mov             SP, fp
     //     0x9b5e10: ldp             fp, lr, [SP], #0x10
@@ -808,7 +808,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     // 0x9be738: mov             x2, x0
     // 0x9be73c: stur            x3, [fp, #-0x10]
     // 0x9be740: r1 = Function '_onFollowManagerChanged@972366437':.
-    //     0x9be740: add             x1, PP, #0x55, lsl #12  ; [pp+0x551c8] AnonymousClosure: (0x9855f4), in [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::_onFollowManagerChanged (0x98562c)
+    //     0x9be740: add             x1, PP, #0x55, lsl #12  ; [pp+0x551c8] AnonymousClosure: (0x9855f4), in [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::_onFollowManagerChanged (0x98562c)
     //     0x9be744: ldr             x1, [x1, #0x1c8]
     // 0x9be748: r0 = AllocateClosure()
     //     0x9be748: bl              #0xe553e0  ; AllocateClosureStub
@@ -941,7 +941,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     // 0xa95eb8: mov             x2, x1
     // 0xa95ebc: stur            x3, [fp, #-0x10]
     // 0xa95ec0: r1 = Function '<anonymous closure>':.
-    //     0xa95ec0: add             x1, PP, #0x55, lsl #12  ; [pp+0x55160] AnonymousClosure: (0xa95efc), in [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::suggestedUsersToShow (0xa95e80)
+    //     0xa95ec0: add             x1, PP, #0x55, lsl #12  ; [pp+0x55160] AnonymousClosure: (0xa95efc), in [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::suggestedUsersToShow (0xa95e80)
     //     0xa95ec4: ldr             x1, [x1, #0x160]
     // 0xa95ec8: r0 = AllocateClosure()
     //     0xa95ec8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1068,7 +1068,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     // 0xa95ff0: ldur            x0, [fp, #-8]
     // 0xa95ff4: mov             x1, x0
     // 0xa95ff8: r0 = suggestedUsersToShow()
-    //     0xa95ff8: bl              #0xa95e80  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::suggestedUsersToShow
+    //     0xa95ff8: bl              #0xa95e80  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::suggestedUsersToShow
     // 0xa95ffc: mov             x2, x0
     // 0xa96000: r1 = <DiscoverUserModel>
     //     0xa96000: add             x1, PP, #0x55, lsl #12  ; [pp+0x55028] TypeArguments: <DiscoverUserModel>
@@ -1167,7 +1167,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     //     0xa960fc: add             x2, x2, HEAP, lsl #32
     // 0xa96100: ldur            x1, [fp, #-0x18]
     // 0xa96104: r0 = rank()
-    //     0xa96104: bl              #0xa96354  ; [package:ballai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] SocialUserSearchMatcher::rank
+    //     0xa96104: bl              #0xa96354  ; [package:kourtai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] SocialUserSearchMatcher::rank
     // 0xa96108: mov             x3, x0
     // 0xa9610c: stur            x3, [fp, #-0x50]
     // 0xa96110: r17 = 1073741824
@@ -1312,7 +1312,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     // 0xa962b4: r0 = _GrowableList._ofEfficientLengthIterable()
     //     0xa962b4: bl              #0x5c7610  ; [dart:core] _GrowableList::_GrowableList._ofEfficientLengthIterable
     // 0xa962b8: r1 = Function '<anonymous closure>':.
-    //     0xa962b8: add             x1, PP, #0x55, lsl #12  ; [pp+0x551a8] AnonymousClosure: (0xa9657c), in [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::visibleSearchResults (0xa95f74)
+    //     0xa962b8: add             x1, PP, #0x55, lsl #12  ; [pp+0x551a8] AnonymousClosure: (0xa9657c), in [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::visibleSearchResults (0xa95f74)
     //     0xa962bc: ldr             x1, [x1, #0x1a8]
     // 0xa962c0: r2 = Null
     //     0xa962c0: mov             x2, NULL
@@ -1419,7 +1419,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     //     0xa965e0: cmp             SP, x16
     //     0xa965e4: b.ls            #0xa965f8
     // 0xa965e8: r0 = refresh()
-    //     0xa965e8: bl              #0xa96600  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::refresh
+    //     0xa965e8: bl              #0xa96600  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::refresh
     // 0xa965ec: LeaveFrame
     //     0xa965ec: mov             SP, fp
     //     0xa965f0: ldp             fp, lr, [SP], #0x10
@@ -1448,11 +1448,11 @@ class FindFriendsViewModel extends ChangeNotifier {
     //     0xa96624: bl              #0x60afc8  ; InitAsyncStub
     // 0xa96628: ldur            x1, [fp, #-0x10]
     // 0xa9662c: r0 = loadIncomingFollowRequests()
-    //     0xa9662c: bl              #0x985758  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::loadIncomingFollowRequests
+    //     0xa9662c: bl              #0x985758  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::loadIncomingFollowRequests
     // 0xa96630: ldur            x1, [fp, #-0x10]
     // 0xa96634: stur            x0, [fp, #-0x10]
     // 0xa96638: r0 = loadSuggestedUsers()
-    //     0xa96638: bl              #0x984b5c  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::loadSuggestedUsers
+    //     0xa96638: bl              #0x984b5c  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::loadSuggestedUsers
     // 0xa9663c: r1 = Null
     //     0xa9663c: mov             x1, NULL
     // 0xa96640: r2 = 4
@@ -1546,7 +1546,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     //     0xa968e4: add             x1, x1, HEAP, lsl #32
     // 0xa968e8: ldur            x2, [fp, #-0x70]
     // 0xa968ec: r0 = follow()
-    //     0xa968ec: bl              #0xa969ac  ; [package:ballai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::follow
+    //     0xa968ec: bl              #0xa969ac  ; [package:kourtai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::follow
     // 0xa968f0: mov             x1, x0
     // 0xa968f4: stur            x1, [fp, #-0x80]
     // 0xa968f8: r0 = Await()
@@ -1565,7 +1565,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     //     0xa96924: add             x2, PP, #0x55, lsl #12  ; [pp+0x550e8] "Couldn\'t follow this user. Please try again."
     //     0xa96928: ldr             x2, [x2, #0xe8]
     // 0xa9692c: r0 = userFacingError()
-    //     0xa9692c: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0xa9692c: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0xa96930: ldur            x3, [fp, #-0x68]
     // 0xa96934: StoreField: r3->field_3b = r0
     //     0xa96934: stur            w0, [x3, #0x3b]
@@ -1654,7 +1654,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     //     0xa96d74: add             x1, x1, HEAP, lsl #32
     // 0xa96d78: ldur            x2, [fp, #-0x70]
     // 0xa96d7c: r0 = unfollow()
-    //     0xa96d7c: bl              #0xa96e3c  ; [package:ballai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::unfollow
+    //     0xa96d7c: bl              #0xa96e3c  ; [package:kourtai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::unfollow
     // 0xa96d80: mov             x1, x0
     // 0xa96d84: stur            x1, [fp, #-0x80]
     // 0xa96d88: r0 = Await()
@@ -1673,7 +1673,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     //     0xa96db4: add             x2, PP, #0x55, lsl #12  ; [pp+0x550f0] "Couldn\'t unfollow this user. Please try again."
     //     0xa96db8: ldr             x2, [x2, #0xf0]
     // 0xa96dbc: r0 = userFacingError()
-    //     0xa96dbc: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0xa96dbc: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0xa96dc0: ldur            x3, [fp, #-0x68]
     // 0xa96dc4: StoreField: r3->field_3b = r0
     //     0xa96dc4: stur            w0, [x3, #0x3b]
@@ -1731,7 +1731,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     //     0xa96f58: b.ls            #0xa96f70
     // 0xa96f5c: ldr             x2, [fp, #0x10]
     // 0xa96f60: r0 = setSearchText()
-    //     0xa96f60: bl              #0xa96f78  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::setSearchText
+    //     0xa96f60: bl              #0xa96f78  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::setSearchText
     // 0xa96f64: LeaveFrame
     //     0xa96f64: mov             SP, fp
     //     0xa96f68: ldp             fp, lr, [SP], #0x10
@@ -1846,7 +1846,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     //     0xa97094: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
     // 0xa97098: ldur            x2, [fp, #-0x18]
     // 0xa9709c: r1 = Function '<anonymous closure>':.
-    //     0xa9709c: add             x1, PP, #0x55, lsl #12  ; [pp+0x550f8] AnonymousClosure: (0xa970f4), in [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::setSearchText (0xa96f78)
+    //     0xa9709c: add             x1, PP, #0x55, lsl #12  ; [pp+0x550f8] AnonymousClosure: (0xa970f4), in [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::setSearchText (0xa96f78)
     //     0xa970a0: ldr             x1, [x1, #0xf8]
     // 0xa970a4: r0 = AllocateClosure()
     //     0xa970a4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1902,7 +1902,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     //     0xa97120: add             x2, x2, HEAP, lsl #32
     // 0xa97124: mov             x1, x0
     // 0xa97128: r0 = performSearch()
-    //     0xa97128: bl              #0xa97144  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::performSearch
+    //     0xa97128: bl              #0xa97144  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::performSearch
     // 0xa9712c: r0 = Null
     //     0xa9712c: mov             x0, NULL
     // 0xa97130: LeaveFrame
@@ -1972,7 +1972,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     //     0xa971d0: add             x1, x1, HEAP, lsl #32
     // 0xa971d4: ldur            x2, [fp, #-0x78]
     // 0xa971d8: r0 = searchUsers()
-    //     0xa971d8: bl              #0xa97374  ; [package:ballai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::searchUsers
+    //     0xa971d8: bl              #0xa97374  ; [package:kourtai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::searchUsers
     // 0xa971dc: mov             x1, x0
     // 0xa971e0: stur            x1, [fp, #-0x80]
     // 0xa971e4: r0 = Await()
@@ -2049,7 +2049,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     //     0xa972b0: add             x2, PP, #0x55, lsl #12  ; [pp+0x55100] "Couldn\'t search users. Please try again."
     //     0xa972b4: ldr             x2, [x2, #0x100]
     // 0xa972b8: r0 = userFacingError()
-    //     0xa972b8: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0xa972b8: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0xa972bc: ldur            x3, [fp, #-0x70]
     // 0xa972c0: StoreField: r3->field_3b = r0
     //     0xa972c0: stur            w0, [x3, #0x3b]
@@ -2197,7 +2197,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     //     0xa99cc0: add             x4, x4, HEAP, lsl #32
     // 0xa99cc4: mov             x2, x4
     // 0xa99cc8: r0 = removeFollower()
-    //     0xa99cc8: bl              #0xa99dd4  ; [package:ballai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::removeFollower
+    //     0xa99cc8: bl              #0xa99dd4  ; [package:kourtai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::removeFollower
     // 0xa99ccc: mov             x1, x0
     // 0xa99cd0: stur            x1, [fp, #-0x90]
     // 0xa99cd4: r0 = Await()
@@ -2210,7 +2210,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     // 0xa99ce4: ldur            x2, [fp, #-0x88]
     // 0xa99ce8: stur            x3, [fp, #-0x90]
     // 0xa99cec: r1 = Function '<anonymous closure>':.
-    //     0xa99cec: add             x1, PP, #0x58, lsl #12  ; [pp+0x58678] AnonymousClosure: static (0x759154), in [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createShot (0x74e04c)
+    //     0xa99cec: add             x1, PP, #0x58, lsl #12  ; [pp+0x58678] AnonymousClosure: static (0x759154), in [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createShot (0x74e04c)
     //     0xa99cf0: ldr             x1, [x1, #0x678]
     // 0xa99cf4: r0 = AllocateClosure()
     //     0xa99cf4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2232,7 +2232,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     //     0xa99d2c: add             x2, PP, #0x58, lsl #12  ; [pp+0x58680] "Couldn\'t decline this follow request. Please try again."
     //     0xa99d30: ldr             x2, [x2, #0x680]
     // 0xa99d34: r0 = userFacingError()
-    //     0xa99d34: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0xa99d34: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0xa99d38: ldur            x3, [fp, #-0x78]
     // 0xa99d3c: StoreField: r3->field_3b = r0
     //     0xa99d3c: stur            w0, [x3, #0x3b]
@@ -2371,7 +2371,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     //     0xa9a26c: add             x4, x4, HEAP, lsl #32
     // 0xa9a270: mov             x2, x4
     // 0xa9a274: r0 = acceptFollowRequest()
-    //     0xa9a274: bl              #0xa9a380  ; [package:ballai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::acceptFollowRequest
+    //     0xa9a274: bl              #0xa9a380  ; [package:kourtai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::acceptFollowRequest
     // 0xa9a278: mov             x1, x0
     // 0xa9a27c: stur            x1, [fp, #-0x90]
     // 0xa9a280: r0 = Await()
@@ -2384,7 +2384,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     // 0xa9a290: ldur            x2, [fp, #-0x88]
     // 0xa9a294: stur            x3, [fp, #-0x90]
     // 0xa9a298: r1 = Function '<anonymous closure>':.
-    //     0xa9a298: add             x1, PP, #0x58, lsl #12  ; [pp+0x58688] AnonymousClosure: static (0x759154), in [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createShot (0x74e04c)
+    //     0xa9a298: add             x1, PP, #0x58, lsl #12  ; [pp+0x58688] AnonymousClosure: static (0x759154), in [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createShot (0x74e04c)
     //     0xa9a29c: ldr             x1, [x1, #0x688]
     // 0xa9a2a0: r0 = AllocateClosure()
     //     0xa9a2a0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2406,7 +2406,7 @@ class FindFriendsViewModel extends ChangeNotifier {
     //     0xa9a2d8: add             x2, PP, #0x58, lsl #12  ; [pp+0x58690] "Couldn\'t accept this follow request. Please try again."
     //     0xa9a2dc: ldr             x2, [x2, #0x690]
     // 0xa9a2e0: r0 = userFacingError()
-    //     0xa9a2e0: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0xa9a2e0: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0xa9a2e4: ldur            x3, [fp, #-0x78]
     // 0xa9a2e8: StoreField: r3->field_3b = r0
     //     0xa9a2e8: stur            w0, [x3, #0x3b]

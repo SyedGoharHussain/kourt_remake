@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_period_key.dart
+// lib: , url: package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_period_key.dart
 
 // class id: 1049214, size: 0x8
 class :: {
@@ -39,7 +39,7 @@ abstract class DrillLeaderboardPeriodKey extends Object {
     //     0x5f9e94: stur            x1, [x0, #0xb]
     // 0x5f9e98: mov             x1, x0
     // 0x5f9e9c: r0 = _chicagoDate()
-    //     0x5f9e9c: bl              #0x5fbd00  ; [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_period_key.dart] DrillLeaderboardPeriodKey::_chicagoDate
+    //     0x5f9e9c: bl              #0x5fbd00  ; [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_period_key.dart] DrillLeaderboardPeriodKey::_chicagoDate
     // 0x5f9ea0: mov             x2, x0
     // 0x5f9ea4: ldur            x0, [fp, #-8]
     // 0x5f9ea8: stur            x2, [fp, #-0x10]
@@ -51,7 +51,7 @@ abstract class DrillLeaderboardPeriodKey extends Object {
     // 0x5f9ebc: b.gt            #0x5f9ed4
     // 0x5f9ec0: mov             x1, x2
     // 0x5f9ec4: r0 = _dayKey()
-    //     0x5f9ec4: bl              #0x5fbab0  ; [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_period_key.dart] DrillLeaderboardPeriodKey::_dayKey
+    //     0x5f9ec4: bl              #0x5fbab0  ; [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_period_key.dart] DrillLeaderboardPeriodKey::_dayKey
     // 0x5f9ec8: LeaveFrame
     //     0x5f9ec8: mov             SP, fp
     //     0x5f9ecc: ldp             fp, lr, [SP], #0x10
@@ -59,7 +59,7 @@ abstract class DrillLeaderboardPeriodKey extends Object {
     //     0x5f9ed0: ret             
     // 0x5f9ed4: mov             x1, x2
     // 0x5f9ed8: r0 = WeeklyDateKey.sundayDateKey()
-    //     0x5f9ed8: bl              #0x5fa92c  ; [package:ballai/automatic/utility/extensions/date/weekly_date_key.dart] ::WeeklyDateKey.sundayDateKey
+    //     0x5f9ed8: bl              #0x5fa92c  ; [package:kourtai/automatic/utility/extensions/date/weekly_date_key.dart] ::WeeklyDateKey.sundayDateKey
     // 0x5f9edc: LeaveFrame
     //     0x5f9edc: mov             SP, fp
     //     0x5f9ee0: ldp             fp, lr, [SP], #0x10

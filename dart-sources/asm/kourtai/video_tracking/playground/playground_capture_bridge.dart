@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/playground/playground_capture_bridge.dart
+// lib: , url: package:kourtai/video_tracking/playground/playground_capture_bridge.dart
 
 // class id: 1049157, size: 0x8
 class :: {
@@ -268,7 +268,7 @@ class PlaygroundCaptureBridge extends ChangeNotifier {
     // 0xb761a0: mov             x1, x0
     // 0xb761a4: stur            x0, [fp, #-8]
     // 0xb761a8: r0 = PlaygroundCaptureBridge._()
-    //     0xb761a8: bl              #0xb761c4  ; [package:ballai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::PlaygroundCaptureBridge._
+    //     0xb761a8: bl              #0xb761c4  ; [package:kourtai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::PlaygroundCaptureBridge._
     // 0xb761ac: ldur            x0, [fp, #-8]
     // 0xb761b0: LeaveFrame
     //     0xb761b0: mov             SP, fp

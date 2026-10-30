@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/auth/auth_inline_notice.dart
+// lib: , url: package:kourtai/automatic/views/components/auth/auth_inline_notice.dart
 
 // class id: 1048787, size: 0x8
 class :: {

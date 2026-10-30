@@ -1,9 +1,9 @@
-// lib: , url: package:ballai/automatic/utility/feedback/ball_ai_beta_feedback.dart
+// lib: , url: package:kourtai/automatic/utility/feedback/kourt_ai_beta_feedback.dart
 
 // class id: 1048728, size: 0x8
 class :: {
 
-  static _ ballAiSupportMailtoUri(/* No info */) {
+  static _ kourtAiSupportMailtoUri(/* No info */) {
     // ** addr: 0xaa1f28, size: 0x394
     // 0xaa1f28: EnterFrame
     //     0xaa1f28: stp             fp, lr, [SP, #-0x10]!
@@ -218,7 +218,7 @@ class :: {
     //     0xaa21b8: add             x16, PP, #0xc, lsl #12  ; [pp+0xc7e8] ","
     //     0xaa21bc: ldr             x16, [x16, #0x7e8]
     // 0xaa21c0: str             x16, [SP]
-    // 0xaa21c4: r1 = const [shashwat@ballai.app, ayushr@ballai.app]
+    // 0xaa21c4: r1 = const [shashwat@kourtai.app, ayushr@kourtai.app]
     //     0xaa21c4: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e928] List<String>(2)
     //     0xaa21c8: ldr             x1, [x1, #0x928]
     // 0xaa21cc: r4 = const [0, 0x2, 0x1, 0x2, null]
@@ -332,7 +332,7 @@ class :: {
     //     0xc22940: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0xc22944: bl              #0x60afc8  ; InitAsyncStub
     // 0xc22948: r0 = openBetaFeedbackEmail()
-    //     0xc22948: bl              #0xc229e8  ; [package:ballai/automatic/utility/feedback/ball_ai_beta_feedback.dart] ::openBetaFeedbackEmail
+    //     0xc22948: bl              #0xc229e8  ; [package:kourtai/automatic/utility/feedback/kourt_ai_beta_feedback.dart] ::openBetaFeedbackEmail
     // 0xc2294c: mov             x1, x0
     // 0xc22950: stur            x1, [fp, #-0x18]
     // 0xc22954: r0 = Await()
@@ -355,7 +355,7 @@ class :: {
     //     0xc22980: ldr             x1, [x1, #0x8f8]
     // 0xc22984: stur            x0, [fp, #-0x10]
     // 0xc22988: r0 = L()
-    //     0xc22988: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc22988: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc2298c: stur            x0, [fp, #-0x18]
     // 0xc22990: r0 = Text()
     //     0xc22990: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -409,7 +409,7 @@ class :: {
     //     0xc22a04: ldr             x0, [PP, #0x19b0]  ; [pp+0x19b0] TypeArguments: <bool>
     //     0xc22a08: bl              #0x60afc8  ; InitAsyncStub
     // 0xc22a0c: r0 = betaFeedbackMailtoUri()
-    //     0xc22a0c: bl              #0xc22a38  ; [package:ballai/automatic/utility/feedback/ball_ai_beta_feedback.dart] ::betaFeedbackMailtoUri
+    //     0xc22a0c: bl              #0xc22a38  ; [package:kourtai/automatic/utility/feedback/kourt_ai_beta_feedback.dart] ::betaFeedbackMailtoUri
     // 0xc22a10: r16 = Instance_LaunchMode
     //     0xc22a10: add             x16, PP, #0x21, lsl #12  ; [pp+0x21000] Obj!LaunchMode@d2fba1
     //     0xc22a14: ldr             x16, [x16]
@@ -437,18 +437,18 @@ class :: {
     //     0xc22a44: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xc22a48: cmp             SP, x16
     //     0xc22a4c: b.ls            #0xc22a7c
-    // 0xc22a50: r16 = "Ball AI Android Beta Feedback"
-    //     0xc22a50: add             x16, PP, #0x4e, lsl #12  ; [pp+0x4e900] "Ball AI Android Beta Feedback"
+    // 0xc22a50: r16 = "Kourt AI Android Beta Feedback"
+    //     0xc22a50: add             x16, PP, #0x4e, lsl #12  ; [pp+0x4e900] "Kourt AI Android Beta Feedback"
     //     0xc22a54: ldr             x16, [x16, #0x900]
-    // 0xc22a58: r30 = "Hi Ball AI team,\n\nI have been testing the beta and wanted to share some feedback:\n\n[Tell us what broke, what felt slow, or roast us here]"
-    //     0xc22a58: add             lr, PP, #0x4e, lsl #12  ; [pp+0x4e908] "Hi Ball AI team,\n\nI have been testing the beta and wanted to share some feedback:\n\n[Tell us what broke, what felt slow, or roast us here]"
+    // 0xc22a58: r30 = "Hi Kourt AI team,\n\nI have been testing the beta and wanted to share some feedback:\n\n[Tell us what broke, what felt slow, or roast us here]"
+    //     0xc22a58: add             lr, PP, #0x4e, lsl #12  ; [pp+0x4e908] "Hi Kourt AI team,\n\nI have been testing the beta and wanted to share some feedback:\n\n[Tell us what broke, what felt slow, or roast us here]"
     //     0xc22a5c: ldr             lr, [lr, #0x908]
     // 0xc22a60: stp             lr, x16, [SP]
     // 0xc22a64: r4 = const [0, 0x2, 0x2, 0, body, 0x1, subject, 0, null]
     //     0xc22a64: add             x4, PP, #0x4e, lsl #12  ; [pp+0x4e910] List(9) [0, 0x2, 0x2, 0, "body", 0x1, "subject", 0, Null]
     //     0xc22a68: ldr             x4, [x4, #0x910]
-    // 0xc22a6c: r0 = ballAiSupportMailtoUri()
-    //     0xc22a6c: bl              #0xaa1f28  ; [package:ballai/automatic/utility/feedback/ball_ai_beta_feedback.dart] ::ballAiSupportMailtoUri
+    // 0xc22a6c: r0 = kourtAiSupportMailtoUri()
+    //     0xc22a6c: bl              #0xaa1f28  ; [package:kourtai/automatic/utility/feedback/kourt_ai_beta_feedback.dart] ::kourtAiSupportMailtoUri
     // 0xc22a70: LeaveFrame
     //     0xc22a70: mov             SP, fp
     //     0xc22a74: ldp             fp, lr, [SP], #0x10

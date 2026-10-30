@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart
 
 // class id: 1048914, size: 0x8
 class :: {
@@ -70,7 +70,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0x8f5b88: add             x0, x0, HEAP, lsl #32
     // 0x8f5b8c: stur            x0, [fp, #-8]
     // 0x8f5b90: r1 = Function '<anonymous closure>':.
-    //     0x8f5b90: add             x1, PP, #0x44, lsl #12  ; [pp+0x446b0] AnonymousClosure: (0x8f5af8), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_dribbleCarouselEvents (0x8f5b6c)
+    //     0x8f5b90: add             x1, PP, #0x44, lsl #12  ; [pp+0x446b0] AnonymousClosure: (0x8f5af8), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_dribbleCarouselEvents (0x8f5b6c)
     //     0x8f5b94: ldr             x1, [x1, #0x6b0]
     // 0x8f5b98: r2 = Null
     //     0x8f5b98: mov             x2, NULL
@@ -143,10 +143,10 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0x962e88: ldur            x2, [fp, #-0x10]
     // 0x962e8c: stur            x0, [fp, #-0x10]
     // 0x962e90: r0 = WorkoutOverlayExportHandler()
-    //     0x962e90: bl              #0x964308  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::WorkoutOverlayExportHandler
+    //     0x962e90: bl              #0x964308  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::WorkoutOverlayExportHandler
     // 0x962e94: ldur            x2, [fp, #-8]
     // 0x962e98: r1 = Function '_onExportChanged@1166381546':.
-    //     0x962e98: add             x1, PP, #0x44, lsl #12  ; [pp+0x44908] AnonymousClosure: (0x96a248), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_onExportChanged (0x96a280)
+    //     0x962e98: add             x1, PP, #0x44, lsl #12  ; [pp+0x44908] AnonymousClosure: (0x96a248), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_onExportChanged (0x96a280)
     //     0x962e9c: ldr             x1, [x1, #0x908]
     // 0x962ea0: r0 = AllocateClosure()
     //     0x962ea0: bl              #0xe553e0  ; AllocateClosureStub
@@ -183,7 +183,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0x962efc: DecompressPointer r1
     //     0x962efc: add             x1, x1, HEAP, lsl #32
     // 0x962f00: r0 = isDribblingWorkout()
-    //     0x962f00: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0x962f00: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0x962f04: tbz             w0, #4, #0x962f78
     // 0x962f08: ldur            x0, [fp, #-8]
     // 0x962f0c: LoadField: r1 = r0->field_b
@@ -200,7 +200,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0x962f28: b.eq            #0x962f78
     // 0x962f2c: mov             x1, x0
     // 0x962f30: r0 = _mixIdForVariantKey()
-    //     0x962f30: bl              #0x964034  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_mixIdForVariantKey
+    //     0x962f30: bl              #0x964034  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_mixIdForVariantKey
     // 0x962f34: ldur            x3, [fp, #-8]
     // 0x962f38: StoreField: r3->field_1b = r0
     //     0x962f38: stur            w0, [x3, #0x1b]
@@ -225,7 +225,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0x962f70: DecompressPointer r2
     //     0x962f70: add             x2, x2, HEAP, lsl #32
     // 0x962f74: r0 = updateVariant()
-    //     0x962f74: bl              #0x963f14  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::updateVariant
+    //     0x962f74: bl              #0x963f14  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::updateVariant
     // 0x962f78: ldur            x0, [fp, #-8]
     // 0x962f7c: LoadField: r2 = r0->field_23
     //     0x962f7c: ldur            w2, [x0, #0x23]
@@ -247,11 +247,11 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0x962fa4: DecompressPointer r1
     //     0x962fa4: add             x1, x1, HEAP, lsl #32
     // 0x962fa8: r0 = isVideoTrackedWorkout()
-    //     0x962fa8: bl              #0x736e2c  ; [package:ballai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
+    //     0x962fa8: bl              #0x736e2c  ; [package:kourtai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
     // 0x962fac: ldur            x1, [fp, #-0x10]
     // 0x962fb0: mov             x2, x0
     // 0x962fb4: r0 = startListening()
-    //     0x962fb4: bl              #0x96317c  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::startListening
+    //     0x962fb4: bl              #0x96317c  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::startListening
     // 0x962fb8: r0 = LoadStaticField(0x8b4)
     //     0x962fb8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x962fbc: ldr             x0, [x0, #0x1168]
@@ -269,7 +269,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0x962fdc: ldur            x2, [fp, #-0x18]
     // 0x962fe0: stur            x0, [fp, #-8]
     // 0x962fe4: r1 = Function '<anonymous closure>':.
-    //     0x962fe4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44918] AnonymousClosure: (0x9643e8), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::initState (0x962e30)
+    //     0x962fe4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44918] AnonymousClosure: (0x9643e8), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::initState (0x962e30)
     //     0x962fe8: ldr             x1, [x1, #0x918]
     // 0x962fec: r0 = AllocateClosure()
     //     0x962fec: bl              #0xe553e0  ; AllocateClosureStub
@@ -388,7 +388,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0x963110: add             x0, x0, HEAP, lsl #32
     // 0x963114: mov             x1, x0
     // 0x963118: r0 = isVideoTrackedWorkout()
-    //     0x963118: bl              #0x736e2c  ; [package:ballai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
+    //     0x963118: bl              #0x736e2c  ; [package:kourtai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
     // 0x96311c: LeaveFrame
     //     0x96311c: mov             SP, fp
     //     0x963120: ldp             fp, lr, [SP], #0x10
@@ -420,7 +420,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0x96315c: DecompressPointer r1
     //     0x96315c: add             x1, x1, HEAP, lsl #32
     // 0x963160: r0 = isDribblingWorkout()
-    //     0x963160: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0x963160: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0x963164: LeaveFrame
     //     0x963164: mov             SP, fp
     //     0x963168: ldp             fp, lr, [SP], #0x10
@@ -468,7 +468,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0x96408c: ret             
     // 0x964090: ldur            x1, [fp, #-8]
     // 0x964094: r0 = fromMixId()
-    //     0x964094: bl              #0x96411c  ; [package:ballai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistVariant::fromMixId
+    //     0x964094: bl              #0x96411c  ; [package:kourtai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistVariant::fromMixId
     // 0x964098: mov             x2, x0
     // 0x96409c: cmp             w2, NULL
     // 0x9640a0: b.ne            #0x9640ac
@@ -551,7 +551,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0x964444: DecompressPointer r1
     //     0x964444: add             x1, x1, HEAP, lsl #32
     // 0x964448: r0 = isDribblingWorkout()
-    //     0x964448: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0x964448: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0x96444c: tbnz            w0, #4, #0x964470
     // 0x964450: ldur            x0, [fp, #-0x10]
     // 0x964454: LoadField: r1 = r0->field_f
@@ -559,7 +559,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0x964458: DecompressPointer r1
     //     0x964458: add             x1, x1, HEAP, lsl #32
     // 0x96445c: r0 = _loadDribbleTimeline()
-    //     0x96445c: bl              #0x969284  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_loadDribbleTimeline
+    //     0x96445c: bl              #0x969284  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_loadDribbleTimeline
     // 0x964460: mov             x1, x0
     // 0x964464: stur            x1, [fp, #-0x18]
     // 0x964468: r0 = Await()
@@ -571,7 +571,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0x964478: DecompressPointer r1
     //     0x964478: add             x1, x1, HEAP, lsl #32
     // 0x96447c: r0 = _loadManifest()
-    //     0x96447c: bl              #0x968cec  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_loadManifest
+    //     0x96447c: bl              #0x968cec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_loadManifest
     // 0x964480: mov             x1, x0
     // 0x964484: stur            x1, [fp, #-0x18]
     // 0x964488: r0 = Await()
@@ -621,11 +621,11 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0x9644f0: add             x2, x2, HEAP, lsl #32
     // 0x9644f4: mov             x1, x2
     // 0x9644f8: r0 = isVideoTrackedWorkout()
-    //     0x9644f8: bl              #0x736e2c  ; [package:ballai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
+    //     0x9644f8: bl              #0x736e2c  ; [package:kourtai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
     // 0x9644fc: ldur            x1, [fp, #-0x18]
     // 0x964500: mov             x2, x0
     // 0x964504: r0 = autoPresentShareIfRequested()
-    //     0x964504: bl              #0x968650  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::autoPresentShareIfRequested
+    //     0x964504: bl              #0x968650  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::autoPresentShareIfRequested
     // 0x964508: mov             x1, x0
     // 0x96450c: stur            x1, [fp, #-0x18]
     // 0x964510: r0 = Await()
@@ -739,14 +739,14 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0x96463c: b.eq            #0x96468c
     // 0x964640: mov             x1, x0
     // 0x964644: r0 = clearSharePath()
-    //     0x964644: bl              #0x964b88  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::clearSharePath
+    //     0x964644: bl              #0x964b88  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::clearSharePath
     // 0x964648: b               #0x96465c
     // 0x96464c: r0 = userHasActiveSubscription()
-    //     0x96464c: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0x96464c: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0x964650: ldur            x1, [fp, #-0x28]
     // 0x964654: mov             x2, x0
     // 0x964658: r0 = presentExportOverlay()
-    //     0x964658: bl              #0x964698  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::presentExportOverlay
+    //     0x964658: bl              #0x964698  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::presentExportOverlay
     // 0x96465c: r0 = Null
     //     0x96465c: mov             x0, NULL
     // 0x964660: r0 = ReturnAsyncNotFuture()
@@ -816,7 +816,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0x968d4c: DecompressPointer r1
     //     0x968d4c: add             x1, x1, HEAP, lsl #32
     // 0x968d50: r0 = loadManifest()
-    //     0x968d50: bl              #0x7357f4  ; [package:ballai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistService::loadManifest
+    //     0x968d50: bl              #0x7357f4  ; [package:kourtai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistService::loadManifest
     // 0x968d54: mov             x1, x0
     // 0x968d58: stur            x1, [fp, #-0x20]
     // 0x968d5c: r0 = Await()
@@ -843,7 +843,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0x968d9c: r0 = ReturnAsyncNotFuture()
     //     0x968d9c: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x968da0: r1 = Function '<anonymous closure>':.
-    //     0x968da0: add             x1, PP, #0x44, lsl #12  ; [pp+0x44938] AnonymousClosure: (0x968dcc), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_loadManifest (0x968cec)
+    //     0x968da0: add             x1, PP, #0x44, lsl #12  ; [pp+0x44938] AnonymousClosure: (0x968dcc), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_loadManifest (0x968cec)
     //     0x968da4: ldr             x1, [x1, #0x938]
     // 0x968da8: r0 = AllocateClosure()
     //     0x968da8: bl              #0xe553e0  ; AllocateClosureStub
@@ -896,10 +896,10 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0x968e20: b.eq            #0x968e28
     //     0x968e24: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x968e28: r0 = mixOptionsFromManifest()
-    //     0x968e28: bl              #0x968ea4  ; [package:ballai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistService::mixOptionsFromManifest
+    //     0x968e28: bl              #0x968ea4  ; [package:kourtai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistService::mixOptionsFromManifest
     // 0x968e2c: ldur            x2, [fp, #-0x10]
     // 0x968e30: r1 = Function '<anonymous closure>':.
-    //     0x968e30: add             x1, PP, #0x44, lsl #12  ; [pp+0x44940] AnonymousClosure: (0x969138), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_loadManifest (0x968cec)
+    //     0x968e30: add             x1, PP, #0x44, lsl #12  ; [pp+0x44940] AnonymousClosure: (0x969138), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_loadManifest (0x968cec)
     //     0x968e34: ldr             x1, [x1, #0x940]
     // 0x968e38: stur            x0, [fp, #-0x10]
     // 0x968e3c: r0 = AllocateClosure()
@@ -1087,7 +1087,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0x9692e4: DecompressPointer r1
     //     0x9692e4: add             x1, x1, HEAP, lsl #32
     // 0x9692e8: r0 = fetchEvents()
-    //     0x9692e8: bl              #0x601034  ; [package:ballai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetchEvents
+    //     0x9692e8: bl              #0x601034  ; [package:kourtai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetchEvents
     // 0x9692ec: mov             x1, x0
     // 0x9692f0: stur            x1, [fp, #-0x20]
     // 0x9692f4: r0 = Await()
@@ -1114,7 +1114,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0x969334: r0 = ReturnAsyncNotFuture()
     //     0x969334: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x969338: r1 = Function '<anonymous closure>':.
-    //     0x969338: add             x1, PP, #0x44, lsl #12  ; [pp+0x44968] AnonymousClosure: (0x969364), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onChooseBackground (0x9693b0)
+    //     0x969338: add             x1, PP, #0x44, lsl #12  ; [pp+0x44968] AnonymousClosure: (0x969364), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onChooseBackground (0x9693b0)
     //     0x96933c: ldr             x1, [x1, #0x968]
     // 0x969340: r0 = AllocateClosure()
     //     0x969340: bl              #0xe553e0  ; AllocateClosureStub
@@ -1147,7 +1147,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0x96a260: cmp             SP, x16
     //     0x96a264: b.ls            #0x96a278
     // 0x96a268: r0 = _onExportChanged()
-    //     0x96a268: bl              #0x96a280  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_onExportChanged
+    //     0x96a268: bl              #0x96a280  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_onExportChanged
     // 0x96a26c: LeaveFrame
     //     0x96a26c: mov             SP, fp
     //     0x96a270: ldp             fp, lr, [SP], #0x10
@@ -1231,7 +1231,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa44c38: StoreField: r0->field_f = r1
     //     0xa44c38: stur            w1, [x0, #0xf]
     // 0xa44c3c: r0 = userHasActiveSubscription()
-    //     0xa44c3c: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0xa44c3c: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0xa44c40: mov             x3, x0
     // 0xa44c44: ldur            x0, [fp, #-0x18]
     // 0xa44c48: stur            x3, [fp, #-0x28]
@@ -1299,7 +1299,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa44cf0: add             x5, x5, HEAP, lsl #32
     // 0xa44cf4: stur            x5, [fp, #-0x20]
     // 0xa44cf8: r1 = Function '<anonymous closure>':.
-    //     0xa44cf8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44668] AnonymousClosure: (0xa46cbc), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::build (0xa44c00)
+    //     0xa44cf8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44668] AnonymousClosure: (0xa46cbc), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::build (0xa44c00)
     //     0xa44cfc: ldr             x1, [x1, #0x668]
     // 0xa44d00: r2 = Null
     //     0xa44d00: mov             x2, NULL
@@ -1314,7 +1314,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa44d1c: mov             x1, x0
     // 0xa44d20: stur            x2, [fp, #-0x20]
     // 0xa44d24: r0 = _shouldShowMiniCourt()
-    //     0xa44d24: bl              #0xa46584  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_shouldShowMiniCourt
+    //     0xa44d24: bl              #0xa46584  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_shouldShowMiniCourt
     // 0xa44d28: ldur            x2, [fp, #-8]
     // 0xa44d2c: stur            x0, [fp, #-0x30]
     // 0xa44d30: LoadField: r1 = r2->field_b
@@ -1332,7 +1332,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa44d4c: DecompressPointer r1
     //     0xa44d4c: add             x1, x1, HEAP, lsl #32
     // 0xa44d50: r0 = isVideoTrackedWorkout()
-    //     0xa44d50: bl              #0x736e2c  ; [package:ballai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
+    //     0xa44d50: bl              #0x736e2c  ; [package:kourtai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
     // 0xa44d54: tbnz            w0, #4, #0xa44d94
     // 0xa44d58: ldur            x2, [fp, #-8]
     // 0xa44d5c: LoadField: r0 = r2->field_b
@@ -1346,7 +1346,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa44d70: DecompressPointer r1
     //     0xa44d70: add             x1, x1, HEAP, lsl #32
     // 0xa44d74: r0 = isDribblingWorkout()
-    //     0xa44d74: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0xa44d74: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0xa44d78: eor             x1, x0, #0x10
     // 0xa44d7c: tbnz            w1, #4, #0xa44d94
     // 0xa44d80: ldur            x2, [fp, #-8]
@@ -1355,7 +1355,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa44d88: DecompressPointer r1
     //     0xa44d88: add             x1, x1, HEAP, lsl #32
     // 0xa44d8c: r0 = fromMixId()
-    //     0xa44d8c: bl              #0x96411c  ; [package:ballai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistVariant::fromMixId
+    //     0xa44d8c: bl              #0x96411c  ; [package:kourtai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistVariant::fromMixId
     // 0xa44d90: b               #0xa44d98
     // 0xa44d94: r0 = Null
     //     0xa44d94: mov             x0, NULL
@@ -1436,7 +1436,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa44e80: add             x3, x3, HEAP, lsl #32
     // 0xa44e84: mov             x1, x3
     // 0xa44e88: r0 = isDribblingWorkout()
-    //     0xa44e88: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0xa44e88: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0xa44e8c: tbnz            w0, #4, #0xa44f58
     // 0xa44e90: ldur            x0, [fp, #-8]
     // 0xa44e94: LoadField: r3 = r0->field_2b
@@ -1445,7 +1445,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa44e98: add             x3, x3, HEAP, lsl #32
     // 0xa44e9c: stur            x3, [fp, #-0x40]
     // 0xa44ea0: r1 = Function '<anonymous closure>':.
-    //     0xa44ea0: add             x1, PP, #0x44, lsl #12  ; [pp+0x446b0] AnonymousClosure: (0x8f5af8), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_dribbleCarouselEvents (0x8f5b6c)
+    //     0xa44ea0: add             x1, PP, #0x44, lsl #12  ; [pp+0x446b0] AnonymousClosure: (0x8f5af8), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_dribbleCarouselEvents (0x8f5b6c)
     //     0xa44ea4: ldr             x1, [x1, #0x6b0]
     // 0xa44ea8: r2 = Null
     //     0xa44ea8: mov             x2, NULL
@@ -1494,7 +1494,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa44f1c: add             x0, x0, HEAP, lsl #32
     // 0xa44f20: mov             x1, x0
     // 0xa44f24: r0 = isVideoTrackedWorkout()
-    //     0xa44f24: bl              #0x736e2c  ; [package:ballai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
+    //     0xa44f24: bl              #0x736e2c  ; [package:kourtai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
     // 0xa44f28: tbnz            w0, #4, #0xa44f50
     // 0xa44f2c: ldur            x0, [fp, #-8]
     // 0xa44f30: LoadField: r1 = r0->field_b
@@ -1533,11 +1533,11 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa44f88: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bc70] "Highlights"
     //     0xa44f8c: ldr             x1, [x1, #0xc70]
     // 0xa44f90: r0 = L()
-    //     0xa44f90: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa44f90: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa44f94: ldur            x1, [fp, #-0x10]
     // 0xa44f98: stur            x0, [fp, #-0x50]
-    // 0xa44f9c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa44f9c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa44f9c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa44f9c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa44fa0: stur            x0, [fp, #-0x58]
     // 0xa44fa4: r0 = TextStyle()
     //     0xa44fa4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1607,7 +1607,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa45048: add             x4, x4, HEAP, lsl #32
     // 0xa4504c: mov             x1, x4
     // 0xa45050: r0 = isDribblingWorkout()
-    //     0xa45050: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0xa45050: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0xa45054: tbz             w0, #4, #0xa45134
     // 0xa45058: ldur            x2, [fp, #-8]
     // 0xa4505c: LoadField: r0 = r2->field_b
@@ -1626,7 +1626,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa45078: add             x0, x0, HEAP, lsl #32
     // 0xa4507c: mov             x1, x0
     // 0xa45080: r0 = isVideoTrackedWorkout()
-    //     0xa45080: bl              #0x736e2c  ; [package:ballai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
+    //     0xa45080: bl              #0x736e2c  ; [package:kourtai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
     // 0xa45084: tbnz            w0, #4, #0xa450c0
     // 0xa45088: ldur            x0, [fp, #-8]
     // 0xa4508c: LoadField: r1 = r0->field_b
@@ -1642,7 +1642,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa450a4: tbnz            w2, #4, #0xa450c0
     // 0xa450a8: mov             x2, x0
     // 0xa450ac: r1 = Function '_openEditShots@1166381546':.
-    //     0xa450ac: add             x1, PP, #0x44, lsl #12  ; [pp+0x446b8] AnonymousClosure: (0xa46b74), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_openEditShots (0xa46bac)
+    //     0xa450ac: add             x1, PP, #0x44, lsl #12  ; [pp+0x446b8] AnonymousClosure: (0xa46b74), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_openEditShots (0xa46bac)
     //     0xa450b0: ldr             x1, [x1, #0x6b8]
     // 0xa450b4: r0 = AllocateClosure()
     //     0xa450b4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1776,7 +1776,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa4520c: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xa45210: ldur            x1, [fp, #-8]
     // 0xa45214: r0 = _showVideoMixPicker()
-    //     0xa45214: bl              #0xa464e0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_showVideoMixPicker
+    //     0xa45214: bl              #0xa464e0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_showVideoMixPicker
     // 0xa45218: tbnz            w0, #4, #0xa452b4
     // 0xa4521c: ldur            x0, [fp, #-8]
     // 0xa45220: LoadField: r3 = r0->field_27
@@ -1791,7 +1791,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa45234: mov             x2, x0
     // 0xa45238: stur            x5, [fp, #-0x38]
     // 0xa4523c: r1 = Function '_onMixSelected@1166381546':.
-    //     0xa4523c: add             x1, PP, #0x44, lsl #12  ; [pp+0x446c0] AnonymousClosure: (0xa46a60), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_onMixSelected (0xa46a9c)
+    //     0xa4523c: add             x1, PP, #0x44, lsl #12  ; [pp+0x446c0] AnonymousClosure: (0xa46a60), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_onMixSelected (0xa46a9c)
     //     0xa45240: ldr             x1, [x1, #0x6c0]
     // 0xa45244: r0 = AllocateClosure()
     //     0xa45244: bl              #0xe553e0  ; AllocateClosureStub
@@ -1804,7 +1804,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa4525c: ldur            x5, [fp, #-0x38]
     // 0xa45260: stur            x0, [fp, #-0x38]
     // 0xa45264: r0 = VideoMixPickerRow()
-    //     0xa45264: bl              #0xa46404  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/video_mix_picker_row.dart] VideoMixPickerRow::VideoMixPickerRow
+    //     0xa45264: bl              #0xa46404  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/video_mix_picker_row.dart] VideoMixPickerRow::VideoMixPickerRow
     // 0xa45268: r1 = Null
     //     0xa45268: mov             x1, NULL
     // 0xa4526c: r2 = 4
@@ -1890,7 +1890,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa45338: mov             x1, x4
     // 0xa4533c: stur            x5, [fp, #-0x38]
     // 0xa45340: r0 = isLive()
-    //     0xa45340: bl              #0x8ec3f8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isLive
+    //     0xa45340: bl              #0x8ec3f8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isLive
     // 0xa45344: mov             x2, x0
     // 0xa45348: ldur            x0, [fp, #-8]
     // 0xa4534c: stur            x2, [fp, #-0x58]
@@ -1911,7 +1911,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa45370: mov             x1, x0
     // 0xa45374: stur            x4, [fp, #-0x50]
     // 0xa45378: r0 = _activeVariant()
-    //     0xa45378: bl              #0xa4635c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_activeVariant
+    //     0xa45378: bl              #0xa4635c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_activeVariant
     // 0xa4537c: mov             x2, x0
     // 0xa45380: ldur            x0, [fp, #-0x28]
     // 0xa45384: stur            x2, [fp, #-0x60]
@@ -1931,7 +1931,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa453ac: add             x4, x4, HEAP, lsl #32
     // 0xa453b0: mov             x1, x4
     // 0xa453b4: r0 = isDribblingWorkout()
-    //     0xa453b4: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0xa453b4: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0xa453b8: tbz             w0, #4, #0xa45424
     // 0xa453bc: ldur            x1, [fp, #-8]
     // 0xa453c0: LoadField: r0 = r1->field_b
@@ -2061,7 +2061,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa45504: stur            w1, [x3, #0x3b]
     // 0xa45508: ldur            x2, [fp, #-0x18]
     // 0xa4550c: r1 = Function '<anonymous closure>':.
-    //     0xa4550c: add             x1, PP, #0x44, lsl #12  ; [pp+0x446d0] AnonymousClosure: (0xa469dc), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::build (0xa44c00)
+    //     0xa4550c: add             x1, PP, #0x44, lsl #12  ; [pp+0x446d0] AnonymousClosure: (0xa469dc), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::build (0xa44c00)
     //     0xa45510: ldr             x1, [x1, #0x6d0]
     // 0xa45514: r0 = AllocateClosure()
     //     0xa45514: bl              #0xe553e0  ; AllocateClosureStub
@@ -2098,7 +2098,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa45564: stur            w0, [x2, #0xb]
     // 0xa45568: ldur            x1, [fp, #-8]
     // 0xa4556c: r0 = _shouldShowDribbleReplayOverlay()
-    //     0xa4556c: bl              #0xa462c8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_shouldShowDribbleReplayOverlay
+    //     0xa4556c: bl              #0xa462c8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_shouldShowDribbleReplayOverlay
     // 0xa45570: tbnz            w0, #4, #0xa4569c
     // 0xa45574: ldur            x0, [fp, #-8]
     // 0xa45578: ldur            x1, [fp, #-0x30]
@@ -2312,7 +2312,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa457b8: ldr             x4, [x4, #0x700]
     // 0xa457bc: b               #0xa457d8
     // 0xa457c0: r0 = exportRemainingEstimateText()
-    //     0xa457c0: bl              #0xa460f8  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::exportRemainingEstimateText
+    //     0xa457c0: bl              #0xa460f8  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::exportRemainingEstimateText
     // 0xa457c4: mov             x4, x0
     // 0xa457c8: ldur            x0, [fp, #-8]
     // 0xa457cc: ldur            x2, [fp, #-0x38]
@@ -2339,7 +2339,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa45808: stur            w0, [x3, #0x13]
     // 0xa4580c: ldur            x2, [fp, #-0x50]
     // 0xa45810: r1 = Function 'dismissExportOverlay':.
-    //     0xa45810: add             x1, PP, #0x44, lsl #12  ; [pp+0x44708] AnonymousClosure: (0xa4696c), in [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::dismissExportOverlay (0xa469a4)
+    //     0xa45810: add             x1, PP, #0x44, lsl #12  ; [pp+0x44708] AnonymousClosure: (0xa4696c), in [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::dismissExportOverlay (0xa469a4)
     //     0xa45814: ldr             x1, [x1, #0x708]
     // 0xa45818: r0 = AllocateClosure()
     //     0xa45818: bl              #0xe553e0  ; AllocateClosureStub
@@ -2485,7 +2485,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa459a4: b               #0xa459c0
     // 0xa459a8: ldur            x2, [fp, #-0x18]
     // 0xa459ac: r1 = Function '<anonymous closure>':.
-    //     0xa459ac: add             x1, PP, #0x44, lsl #12  ; [pp+0x44710] AnonymousClosure: (0xa468c0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::build (0xa44c00)
+    //     0xa459ac: add             x1, PP, #0x44, lsl #12  ; [pp+0x44710] AnonymousClosure: (0xa468c0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::build (0xa44c00)
     //     0xa459b0: ldr             x1, [x1, #0x710]
     // 0xa459b4: r0 = AllocateClosure()
     //     0xa459b4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2559,7 +2559,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa45a68: add             x1, PP, #0x44, lsl #12  ; [pp+0x44728] "Re-create"
     //     0xa45a6c: ldr             x1, [x1, #0x728]
     // 0xa45a70: r0 = L()
-    //     0xa45a70: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa45a70: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa45a74: stur            x0, [fp, #-0x20]
     // 0xa45a78: r0 = Text()
     //     0xa45a78: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2570,7 +2570,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa45a88: stur            w0, [x3, #0xb]
     // 0xa45a8c: ldur            x2, [fp, #-0x18]
     // 0xa45a90: r1 = Function '<anonymous closure>':.
-    //     0xa45a90: add             x1, PP, #0x44, lsl #12  ; [pp+0x44730] AnonymousClosure: (0xa46810), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::build (0xa44c00)
+    //     0xa45a90: add             x1, PP, #0x44, lsl #12  ; [pp+0x44730] AnonymousClosure: (0xa46810), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::build (0xa44c00)
     //     0xa45a94: ldr             x1, [x1, #0x730]
     // 0xa45a98: r0 = AllocateClosure()
     //     0xa45a98: bl              #0xe553e0  ; AllocateClosureStub
@@ -2696,7 +2696,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa45bc0: bl              #0x5c8034  ; [dart:core] _GrowableList::addAll
     // 0xa45bc4: ldur            x1, [fp, #-8]
     // 0xa45bc8: r0 = _isDribbling()
-    //     0xa45bc8: bl              #0x963134  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_isDribbling
+    //     0xa45bc8: bl              #0x963134  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_isDribbling
     // 0xa45bcc: tbnz            w0, #4, #0xa45e08
     // 0xa45bd0: ldur            x0, [fp, #-0x40]
     // 0xa45bd4: r1 = <Widget>
@@ -2711,8 +2711,8 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa45bec: tbnz            w0, #4, #0xa45df8
     // 0xa45bf0: ldur            x0, [fp, #-8]
     // 0xa45bf4: ldur            x1, [fp, #-0x10]
-    // 0xa45bf8: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xa45bf8: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xa45bf8: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xa45bf8: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xa45bfc: stur            x0, [fp, #-0x30]
     // 0xa45c00: r0 = Radius()
     //     0xa45c00: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -2765,7 +2765,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa45c78: mov             x1, x0
     // 0xa45c7c: stur            x3, [fp, #-0x30]
     // 0xa45c80: r0 = _dribbleCarouselEvents()
-    //     0xa45c80: bl              #0x8f5b6c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_dribbleCarouselEvents
+    //     0xa45c80: bl              #0x8f5b6c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_dribbleCarouselEvents
     // 0xa45c84: mov             x2, x0
     // 0xa45c88: ldur            x0, [fp, #-8]
     // 0xa45c8c: stur            x2, [fp, #-0x60]
@@ -2804,7 +2804,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa45ce0: mov             x1, x0
     // 0xa45ce4: stur            x5, [fp, #-0x40]
     // 0xa45ce8: r0 = _isVideoTracked()
-    //     0xa45ce8: bl              #0x9630e0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_isVideoTracked
+    //     0xa45ce8: bl              #0x9630e0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_isVideoTracked
     // 0xa45cec: tbnz            w0, #4, #0xa45d24
     // 0xa45cf0: ldur            x2, [fp, #-8]
     // 0xa45cf4: LoadField: r0 = r2->field_b
@@ -2819,7 +2819,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa45d08: add             x1, x1, HEAP, lsl #32
     // 0xa45d0c: tbnz            w1, #4, #0xa45d24
     // 0xa45d10: r1 = Function '_onDribbleExportTapped@1166381546':.
-    //     0xa45d10: add             x1, PP, #0x44, lsl #12  ; [pp+0x44740] AnonymousClosure: (0xa46730), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_onDribbleExportTapped (0xa46768)
+    //     0xa45d10: add             x1, PP, #0x44, lsl #12  ; [pp+0x44740] AnonymousClosure: (0xa46730), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_onDribbleExportTapped (0xa46768)
     //     0xa45d14: ldr             x1, [x1, #0x740]
     // 0xa45d18: r0 = AllocateClosure()
     //     0xa45d18: bl              #0xe553e0  ; AllocateClosureStub
@@ -2937,8 +2937,8 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa45e50: ldur            x0, [fp, #-8]
     // 0xa45e54: ldur            x2, [fp, #-0x28]
     // 0xa45e58: ldur            x1, [fp, #-0x10]
-    // 0xa45e5c: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xa45e5c: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xa45e5c: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xa45e5c: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xa45e60: stur            x0, [fp, #-0x10]
     // 0xa45e64: r0 = Radius()
     //     0xa45e64: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -3014,7 +3014,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa45f18: stur            w0, [x3, #0x13]
     // 0xa45f1c: ldur            x2, [fp, #-0x18]
     // 0xa45f20: r1 = Function '<anonymous closure>':.
-    //     0xa45f20: add             x1, PP, #0x44, lsl #12  ; [pp+0x44748] AnonymousClosure: (0xa46658), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::build (0xa44c00)
+    //     0xa45f20: add             x1, PP, #0x44, lsl #12  ; [pp+0x44748] AnonymousClosure: (0xa46658), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::build (0xa44c00)
     //     0xa45f24: ldr             x1, [x1, #0x748]
     // 0xa45f28: r0 = AllocateClosure()
     //     0xa45f28: bl              #0xe553e0  ; AllocateClosureStub
@@ -3219,7 +3219,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa462fc: add             x2, x2, HEAP, lsl #32
     // 0xa46300: mov             x1, x2
     // 0xa46304: r0 = isDribblingWorkout()
-    //     0xa46304: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0xa46304: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0xa46308: tbnz            w0, #4, #0xa46334
     // 0xa4630c: ldur            x0, [fp, #-8]
     // 0xa46310: LoadField: r1 = r0->field_2b
@@ -3277,7 +3277,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa46398: DecompressPointer r1
     //     0xa46398: add             x1, x1, HEAP, lsl #32
     // 0xa4639c: r0 = isVideoTrackedWorkout()
-    //     0xa4639c: bl              #0x736e2c  ; [package:ballai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
+    //     0xa4639c: bl              #0x736e2c  ; [package:kourtai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
     // 0xa463a0: tbnz            w0, #4, #0xa463e4
     // 0xa463a4: ldur            x0, [fp, #-8]
     // 0xa463a8: LoadField: r1 = r0->field_b
@@ -3292,7 +3292,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa463bc: add             x2, x2, HEAP, lsl #32
     // 0xa463c0: mov             x1, x2
     // 0xa463c4: r0 = isDribblingWorkout()
-    //     0xa463c4: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0xa463c4: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0xa463c8: eor             x1, x0, #0x10
     // 0xa463cc: tbnz            w1, #4, #0xa463e4
     // 0xa463d0: ldur            x0, [fp, #-8]
@@ -3301,7 +3301,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa463d8: DecompressPointer r1
     //     0xa463d8: add             x1, x1, HEAP, lsl #32
     // 0xa463dc: r0 = fromMixId()
-    //     0xa463dc: bl              #0x96411c  ; [package:ballai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistVariant::fromMixId
+    //     0xa463dc: bl              #0x96411c  ; [package:kourtai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistVariant::fromMixId
     // 0xa463e0: b               #0xa463e8
     // 0xa463e4: r0 = Null
     //     0xa463e4: mov             x0, NULL
@@ -3347,7 +3347,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa4651c: DecompressPointer r1
     //     0xa4651c: add             x1, x1, HEAP, lsl #32
     // 0xa46520: r0 = isVideoTrackedWorkout()
-    //     0xa46520: bl              #0x736e2c  ; [package:ballai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
+    //     0xa46520: bl              #0x736e2c  ; [package:kourtai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
     // 0xa46524: tbnz            w0, #4, #0xa46558
     // 0xa46528: ldur            x0, [fp, #-8]
     // 0xa4652c: LoadField: r1 = r0->field_b
@@ -3362,7 +3362,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa46540: add             x0, x0, HEAP, lsl #32
     // 0xa46544: mov             x1, x0
     // 0xa46548: r0 = isDribblingWorkout()
-    //     0xa46548: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0xa46548: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0xa4654c: eor             x1, x0, #0x10
     // 0xa46550: mov             x0, x1
     // 0xa46554: b               #0xa4655c
@@ -3407,7 +3407,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa465b8: add             x2, x2, HEAP, lsl #32
     // 0xa465bc: mov             x1, x2
     // 0xa465c0: r0 = isDribblingWorkout()
-    //     0xa465c0: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0xa465c0: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0xa465c4: tbz             w0, #4, #0xa46634
     // 0xa465c8: ldur            x0, [fp, #-8]
     // 0xa465cc: LoadField: r1 = r0->field_b
@@ -3425,7 +3425,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa465e8: DecompressPointer r1
     //     0xa465e8: add             x1, x1, HEAP, lsl #32
     // 0xa465ec: r0 = isVideoTrackedWorkout()
-    //     0xa465ec: bl              #0x736e2c  ; [package:ballai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
+    //     0xa465ec: bl              #0x736e2c  ; [package:kourtai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
     // 0xa465f0: tbnz            w0, #4, #0xa46634
     // 0xa465f4: ldur            x0, [fp, #-8]
     // 0xa465f8: LoadField: r1 = r0->field_b
@@ -3440,7 +3440,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa4660c: add             x0, x0, HEAP, lsl #32
     // 0xa46610: stur            x0, [fp, #-8]
     // 0xa46614: r1 = Function '<anonymous closure>':.
-    //     0xa46614: add             x1, PP, #0x44, lsl #12  ; [pp+0x44900] AnonymousClosure: (0xa37b80), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shotmap/workout_shot_map_section_view.dart] WorkoutShotMapSectionView::build (0xbeb780)
+    //     0xa46614: add             x1, PP, #0x44, lsl #12  ; [pp+0x44900] AnonymousClosure: (0xa37b80), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shotmap/workout_shot_map_section_view.dart] WorkoutShotMapSectionView::build (0xbeb780)
     //     0xa46618: ldr             x1, [x1, #0x900]
     // 0xa4661c: r2 = Null
     //     0xa4661c: mov             x2, NULL
@@ -3502,7 +3502,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa466a4: mov             x2, x1
     // 0xa466a8: stur            x3, [fp, #-0x10]
     // 0xa466ac: r1 = Function '<anonymous closure>':.
-    //     0xa466ac: add             x1, PP, #0x44, lsl #12  ; [pp+0x44758] AnonymousClosure: (0xa466dc), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::build (0xa44c00)
+    //     0xa466ac: add             x1, PP, #0x44, lsl #12  ; [pp+0x44758] AnonymousClosure: (0xa466dc), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::build (0xa44c00)
     //     0xa466b0: ldr             x1, [x1, #0x758]
     // 0xa466b4: r0 = AllocateClosure()
     //     0xa466b4: bl              #0xe553e0  ; AllocateClosureStub
@@ -3570,7 +3570,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa46748: cmp             SP, x16
     //     0xa4674c: b.ls            #0xa46760
     // 0xa46750: r0 = _onDribbleExportTapped()
-    //     0xa46750: bl              #0xa46768  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_onDribbleExportTapped
+    //     0xa46750: bl              #0xa46768  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_onDribbleExportTapped
     // 0xa46754: LeaveFrame
     //     0xa46754: mov             SP, fp
     //     0xa46758: ldp             fp, lr, [SP], #0x10
@@ -3615,11 +3615,11 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa467b4: add             x1, x1, HEAP, lsl #32
     // 0xa467b8: tbz             w1, #4, #0xa467cc
     // 0xa467bc: r0 = userHasActiveSubscription()
-    //     0xa467bc: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0xa467bc: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0xa467c0: ldur            x1, [fp, #-8]
     // 0xa467c4: mov             x2, x0
     // 0xa467c8: r0 = presentExportOverlay()
-    //     0xa467c8: bl              #0x964698  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::presentExportOverlay
+    //     0xa467c8: bl              #0x964698  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::presentExportOverlay
     // 0xa467cc: r0 = Null
     //     0xa467cc: mov             x0, NULL
     // 0xa467d0: LeaveFrame
@@ -3628,11 +3628,11 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa467d8: ret
     //     0xa467d8: ret             
     // 0xa467dc: r0 = userHasActiveSubscription()
-    //     0xa467dc: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0xa467dc: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0xa467e0: ldur            x1, [fp, #-8]
     // 0xa467e4: mov             x2, x0
     // 0xa467e8: r0 = presentExportOverlay()
-    //     0xa467e8: bl              #0x964698  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::presentExportOverlay
+    //     0xa467e8: bl              #0x964698  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::presentExportOverlay
     // 0xa467ec: r0 = Null
     //     0xa467ec: mov             x0, NULL
     // 0xa467f0: LeaveFrame
@@ -3682,7 +3682,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa46854: mov             x1, x2
     // 0xa46858: mov             x2, x0
     // 0xa4685c: r0 = recreateExportFromOverlay()
-    //     0xa4685c: bl              #0xa46880  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::recreateExportFromOverlay
+    //     0xa4685c: bl              #0xa46880  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::recreateExportFromOverlay
     // 0xa46860: LeaveFrame
     //     0xa46860: mov             SP, fp
     //     0xa46864: ldp             fp, lr, [SP], #0x10
@@ -3724,7 +3724,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa468f4: cmp             w1, w16
     // 0xa468f8: b.eq            #0xa46914
     // 0xa468fc: r0 = shareExportedVideoFromOverlay()
-    //     0xa468fc: bl              #0xa46920  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::shareExportedVideoFromOverlay
+    //     0xa468fc: bl              #0xa46920  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::shareExportedVideoFromOverlay
     // 0xa46900: LeaveFrame
     //     0xa46900: mov             SP, fp
     //     0xa46904: ldp             fp, lr, [SP], #0x10
@@ -3773,7 +3773,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa46a28: mov             x2, x1
     // 0xa46a2c: stur            x3, [fp, #-0x10]
     // 0xa46a30: r1 = Function '<anonymous closure>':.
-    //     0xa46a30: add             x1, PP, #0x44, lsl #12  ; [pp+0x44800] AnonymousClosure: (0x990690), in [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
+    //     0xa46a30: add             x1, PP, #0x44, lsl #12  ; [pp+0x44800] AnonymousClosure: (0x990690), in [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
     //     0xa46a34: ldr             x1, [x1, #0x800]
     // 0xa46a38: r0 = AllocateClosure()
     //     0xa46a38: bl              #0xe553e0  ; AllocateClosureStub
@@ -3808,7 +3808,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa46a7c: b.ls            #0xa46a94
     // 0xa46a80: ldr             x2, [fp, #0x10]
     // 0xa46a84: r0 = _onMixSelected()
-    //     0xa46a84: bl              #0xa46a9c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_onMixSelected
+    //     0xa46a84: bl              #0xa46a9c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_onMixSelected
     // 0xa46a88: LeaveFrame
     //     0xa46a88: mov             SP, fp
     //     0xa46a8c: ldp             fp, lr, [SP], #0x10
@@ -3846,7 +3846,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa46ad8: stur            w1, [x3, #0x13]
     // 0xa46adc: mov             x2, x3
     // 0xa46ae0: r1 = Function '<anonymous closure>':.
-    //     0xa46ae0: add             x1, PP, #0x44, lsl #12  ; [pp+0x44808] AnonymousClosure: (0x95d3bc), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_loadOwnerLocationIfNeeded (0x95d1cc)
+    //     0xa46ae0: add             x1, PP, #0x44, lsl #12  ; [pp+0x44808] AnonymousClosure: (0x95d3bc), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_loadOwnerLocationIfNeeded (0x95d1cc)
     //     0xa46ae4: ldr             x1, [x1, #0x808]
     // 0xa46ae8: r0 = AllocateClosure()
     //     0xa46ae8: bl              #0xe553e0  ; AllocateClosureStub
@@ -3860,7 +3860,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa46b00: DecompressPointer r1
     //     0xa46b00: add             x1, x1, HEAP, lsl #32
     // 0xa46b04: r0 = fromMixId()
-    //     0xa46b04: bl              #0x96411c  ; [package:ballai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistVariant::fromMixId
+    //     0xa46b04: bl              #0x96411c  ; [package:kourtai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistVariant::fromMixId
     // 0xa46b08: cmp             w0, NULL
     // 0xa46b0c: b.eq            #0xa46b20
     // 0xa46b10: r16 = Instance_WorkoutDerivedPlaylistVariant
@@ -3886,7 +3886,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xa46b44: cmp             w1, w16
     // 0xa46b48: b.eq            #0xa46b68
     // 0xa46b4c: r0 = updateVariant()
-    //     0xa46b4c: bl              #0x963f14  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::updateVariant
+    //     0xa46b4c: bl              #0x963f14  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::updateVariant
     // 0xa46b50: r0 = Null
     //     0xa46b50: mov             x0, NULL
     // 0xa46b54: LeaveFrame
@@ -3918,7 +3918,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa46b8c: cmp             SP, x16
     //     0xa46b90: b.ls            #0xa46ba4
     // 0xa46b94: r0 = _openEditShots()
-    //     0xa46b94: bl              #0xa46bac  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_openEditShots
+    //     0xa46b94: bl              #0xa46bac  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_openEditShots
     // 0xa46b98: LeaveFrame
     //     0xa46b98: mov             SP, fp
     //     0xa46b9c: ldp             fp, lr, [SP], #0x10
@@ -3962,7 +3962,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xa46bf4: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa46bf8: ldur            x2, [fp, #-0x10]
     // 0xa46bfc: r1 = Function '<anonymous closure>':.
-    //     0xa46bfc: add             x1, PP, #0x44, lsl #12  ; [pp+0x44858] AnonymousClosure: (0xa46c64), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_openEditShots (0xa46bac)
+    //     0xa46bfc: add             x1, PP, #0x44, lsl #12  ; [pp+0x44858] AnonymousClosure: (0xa46c64), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_openEditShots (0xa46bac)
     //     0xa46c00: ldr             x1, [x1, #0x858]
     // 0xa46c04: stur            x0, [fp, #-8]
     // 0xa46c08: r0 = AllocateClosure()
@@ -4078,7 +4078,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xb5b47c: mov             fp, SP
     // 0xb5b480: ldr             x2, [fp, #0x10]
     // 0xb5b484: r1 = Function 'dispose':.
-    //     0xb5b484: add             x1, PP, #0x44, lsl #12  ; [pp+0x44660] AnonymousClosure: (0xb5b49c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::dispose (0xb62418)
+    //     0xb5b484: add             x1, PP, #0x44, lsl #12  ; [pp+0x44660] AnonymousClosure: (0xb5b49c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::dispose (0xb62418)
     //     0xb5b488: ldr             x1, [x1, #0x660]
     // 0xb5b48c: r0 = AllocateClosure()
     //     0xb5b48c: bl              #0xe553e0  ; AllocateClosureStub
@@ -4103,7 +4103,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     //     0xb5b4b4: cmp             SP, x16
     //     0xb5b4b8: b.ls            #0xb5b4cc
     // 0xb5b4bc: r0 = dispose()
-    //     0xb5b4bc: bl              #0xb62418  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::dispose
+    //     0xb5b4bc: bl              #0xb62418  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::dispose
     // 0xb5b4c0: LeaveFrame
     //     0xb5b4c0: mov             SP, fp
     //     0xb5b4c4: ldp             fp, lr, [SP], #0x10
@@ -4138,7 +4138,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xb6244c: mov             x2, x0
     // 0xb62450: stur            x3, [fp, #-8]
     // 0xb62454: r1 = Function '_onExportChanged@1166381546':.
-    //     0xb62454: add             x1, PP, #0x44, lsl #12  ; [pp+0x44908] AnonymousClosure: (0x96a248), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_onExportChanged (0x96a280)
+    //     0xb62454: add             x1, PP, #0x44, lsl #12  ; [pp+0x44908] AnonymousClosure: (0x96a248), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_onExportChanged (0x96a280)
     //     0xb62458: ldr             x1, [x1, #0x908]
     // 0xb6245c: r0 = AllocateClosure()
     //     0xb6245c: bl              #0xe553e0  ; AllocateClosureStub
@@ -4152,7 +4152,7 @@ class _WorkoutVideoSummaryViewState extends State<dynamic> {
     // 0xb62474: DecompressPointer r1
     //     0xb62474: add             x1, x1, HEAP, lsl #32
     // 0xb62478: r0 = dispose()
-    //     0xb62478: bl              #0x9ba8dc  ; [package:ballai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::dispose
+    //     0xb62478: bl              #0x9ba8dc  ; [package:kourtai/automatic/app/dependencies/handlers/workout/workout_overlay_export_handler.dart] WorkoutOverlayExportHandler::dispose
     // 0xb6247c: r0 = Null
     //     0xb6247c: mov             x0, NULL
     // 0xb62480: LeaveFrame
@@ -4208,7 +4208,7 @@ class WorkoutVideoSummaryView extends StatefulWidget {
     // 0xb739b4: StoreField: r1->field_2b = r0
     //     0xb739b4: stur            w0, [x1, #0x2b]
     // 0xb739b8: r0 = defaults()
-    //     0xb739b8: bl              #0xb739f4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/video_mix_picker_row.dart] VideoMixOption::defaults
+    //     0xb739b8: bl              #0xb739f4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/video_mix_picker_row.dart] VideoMixOption::defaults
     // 0xb739bc: ldur            x1, [fp, #-8]
     // 0xb739c0: StoreField: r1->field_27 = r0
     //     0xb739c0: stur            w0, [x1, #0x27]
@@ -4263,7 +4263,7 @@ class _VideoModeChip extends StatelessWidget {
     //     0xbeeddc: add             x1, PP, #0x49, lsl #12  ; [pp+0x49bf8] "Video mode"
     //     0xbeede0: ldr             x1, [x1, #0xbf8]
     // 0xbeede4: r0 = L()
-    //     0xbeede4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbeede4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbeede8: stur            x0, [fp, #-0x20]
     // 0xbeedec: r0 = Radius()
     //     0xbeedec: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -4300,8 +4300,8 @@ class _VideoModeChip extends StatelessWidget {
     // 0xbeee3c: StoreField: r2->field_7 = r0
     //     0xbeee3c: stur            w0, [x2, #7]
     // 0xbeee40: ldur            x1, [fp, #-0x10]
-    // 0xbeee44: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xbeee44: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xbeee44: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xbeee44: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xbeee48: stur            x0, [fp, #-0x30]
     // 0xbeee4c: r0 = Radius()
     //     0xbeee4c: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -4370,8 +4370,8 @@ class _VideoModeChip extends StatelessWidget {
     //     0xbeeeec: add             x3, x3, HEAP, lsl #32
     // 0xbeeef0: ldur            x1, [fp, #-0x10]
     // 0xbeeef4: stur            x3, [fp, #-0x30]
-    // 0xbeeef8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbeeef8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbeeef8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbeeef8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbeeefc: stur            x0, [fp, #-8]
     // 0xbeef00: r0 = TextStyle()
     //     0xbeef00: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -4405,8 +4405,8 @@ class _VideoModeChip extends StatelessWidget {
     // 0xbeef4c: StoreField: r2->field_13 = r0
     //     0xbeef4c: stur            w0, [x2, #0x13]
     // 0xbeef50: ldur            x1, [fp, #-0x10]
-    // 0xbeef54: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbeef54: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbeef54: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbeef54: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbeef58: stur            x0, [fp, #-0x10]
     // 0xbeef5c: r0 = Icon()
     //     0xbeef5c: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -4513,7 +4513,7 @@ class _VideoModeChip extends StatelessWidget {
     //     0xbef060: bl              #0x5eeec4  ; [package:flutter/src/widgets/container.dart] Container::Container
     // 0xbef064: ldur            x2, [fp, #-0x18]
     // 0xbef068: r1 = Function '<anonymous closure>':.
-    //     0xbef068: add             x1, PP, #0x49, lsl #12  ; [pp+0x49c08] AnonymousClosure: (0xbef1a0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _VideoModeChip::build (0xbeed9c)
+    //     0xbef068: add             x1, PP, #0x49, lsl #12  ; [pp+0x49c08] AnonymousClosure: (0xbef1a0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _VideoModeChip::build (0xbeed9c)
     //     0xbef06c: ldr             x1, [x1, #0xc08]
     // 0xbef070: r0 = AllocateClosure()
     //     0xbef070: bl              #0xe553e0  ; AllocateClosureStub
@@ -4529,7 +4529,7 @@ class _VideoModeChip extends StatelessWidget {
     //     0xbef08c: stur            w0, [x3, #0xf]
     // 0xbef090: ldur            x2, [fp, #-0x18]
     // 0xbef094: r1 = Function '<anonymous closure>':.
-    //     0xbef094: add             x1, PP, #0x49, lsl #12  ; [pp+0x49c10] AnonymousClosure: (0xbef10c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _VideoModeChip::build (0xbeed9c)
+    //     0xbef094: add             x1, PP, #0x49, lsl #12  ; [pp+0x49c10] AnonymousClosure: (0xbef10c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _VideoModeChip::build (0xbeed9c)
     //     0xbef098: ldr             x1, [x1, #0xc10]
     // 0xbef09c: r0 = AllocateClosure()
     //     0xbef09c: bl              #0xe553e0  ; AllocateClosureStub
@@ -4623,7 +4623,7 @@ class _VideoModeChip extends StatelessWidget {
     // 0xbef180: DecompressPointer r1
     //     0xbef180: add             x1, x1, HEAP, lsl #32
     // 0xbef184: r0 = _openEditShots()
-    //     0xbef184: bl              #0xa46bac  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_openEditShots
+    //     0xbef184: bl              #0xa46bac  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_openEditShots
     // 0xbef188: r0 = Null
     //     0xbef188: mov             x0, NULL
     // 0xbef18c: LeaveFrame
@@ -4725,7 +4725,7 @@ class _VideoModeChip extends StatelessWidget {
     //     0xbef278: add             x1, PP, #0x44, lsl #12  ; [pp+0x44d00] "Fix shots"
     //     0xbef27c: ldr             x1, [x1, #0xd00]
     // 0xbef280: r0 = L()
-    //     0xbef280: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbef280: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbef284: ldr             x1, [fp, #0x10]
     // 0xbef288: stur            x0, [fp, #-0x10]
     // 0xbef28c: r0 = of()

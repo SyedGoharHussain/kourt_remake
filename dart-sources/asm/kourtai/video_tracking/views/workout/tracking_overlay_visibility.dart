@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/tracking_overlay_visibility.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/tracking_overlay_visibility.dart
 
 // class id: 1049265, size: 0x8
 class :: {
@@ -80,7 +80,7 @@ class TrackingOverlayVisibility extends Object {
     // 0xab26d4: ldr             x1, [fp, #0x20]
     // 0xab26d8: mov             x2, x0
     // 0xab26dc: r0 = showsDetection()
-    //     0xab26dc: bl              #0xab2794  ; [package:ballai/video_tracking/views/workout/tracking_overlay_visibility.dart] TrackingOverlayVisibility::showsDetection
+    //     0xab26dc: bl              #0xab2794  ; [package:kourtai/video_tracking/views/workout/tracking_overlay_visibility.dart] TrackingOverlayVisibility::showsDetection
     // 0xab26e0: tbnz            w0, #4, #0xab2760
     // 0xab26e4: ldur            x0, [fp, #-8]
     // 0xab26e8: LoadField: r1 = r0->field_b
@@ -255,7 +255,7 @@ class TrackingOverlayVisibility extends Object {
     // 0xab28e0: tbnz            w0, #4, #0xab28f8
     // 0xab28e4: ldur            x1, [fp, #-0x18]
     // 0xab28e8: r0 = showPose()
-    //     0xab28e8: bl              #0xab29d0  ; [package:ballai/video_tracking/views/workout/tracking_overlay_visibility.dart] TrackingOverlayVisibility::showPose
+    //     0xab28e8: bl              #0xab29d0  ; [package:kourtai/video_tracking/views/workout/tracking_overlay_visibility.dart] TrackingOverlayVisibility::showPose
     // 0xab28ec: LeaveFrame
     //     0xab28ec: mov             SP, fp
     //     0xab28f0: ldp             fp, lr, [SP], #0x10
@@ -397,11 +397,11 @@ class TrackingOverlayVisibility extends Object {
     //     0xab2a38: b.ls            #0xab2b08
     // 0xab2a3c: mov             x1, x0
     // 0xab2a40: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0xab2a40: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0xab2a40: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0xab2a44: ldur            x1, [fp, #-8]
     // 0xab2a48: stur            x0, [fp, #-0x10]
     // 0xab2a4c: r0 = VideoWorkoutManagerDribble.needsPoseForDribbleSetup()
-    //     0xab2a4c: bl              #0x6c213c  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.needsPoseForDribbleSetup
+    //     0xab2a4c: bl              #0x6c213c  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.needsPoseForDribbleSetup
     // 0xab2a50: ldur            x1, [fp, #-8]
     // 0xab2a54: stur            x0, [fp, #-0x38]
     // 0xab2a58: LoadField: r2 = r1->field_2b

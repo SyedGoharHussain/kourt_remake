@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/analysis/coach/coach_session_manager.dart
+// lib: , url: package:kourtai/video_tracking/analysis/coach/coach_session_manager.dart
 
 // class id: 1049082, size: 0x8
 class :: {
@@ -151,7 +151,7 @@ class CoachSessionManager extends Object {
     // 0x6ff678: r0 = skip()
     //     0x6ff678: bl              #0x8bc094  ; [dart:collection] ListBase::skip
     // 0x6ff67c: r1 = Function '<anonymous closure>':.
-    //     0x6ff67c: add             x1, PP, #0x31, lsl #12  ; [pp+0x31580] AnonymousClosure: (0x6ff6d0), in [package:ballai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::recentTrendDescription (0x6ff628)
+    //     0x6ff67c: add             x1, PP, #0x31, lsl #12  ; [pp+0x31580] AnonymousClosure: (0x6ff6d0), in [package:kourtai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::recentTrendDescription (0x6ff628)
     //     0x6ff680: ldr             x1, [x1, #0x580]
     // 0x6ff684: r2 = Null
     //     0x6ff684: mov             x2, NULL
@@ -253,7 +253,7 @@ class CoachSessionManager extends Object {
     //     0x6ff770: bl              #0x8bc094  ; [dart:collection] ListBase::skip
     // 0x6ff774: ldur            x2, [fp, #-0x18]
     // 0x6ff778: r1 = Function '<anonymous closure>':.
-    //     0x6ff778: add             x1, PP, #0x31, lsl #12  ; [pp+0x31588] AnonymousClosure: (0x6ff7d8), in [package:ballai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::biomechanicsPersistence (0x6ff6f0)
+    //     0x6ff778: add             x1, PP, #0x31, lsl #12  ; [pp+0x31588] AnonymousClosure: (0x6ff7d8), in [package:kourtai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::biomechanicsPersistence (0x6ff6f0)
     //     0x6ff77c: ldr             x1, [x1, #0x588]
     // 0x6ff780: stur            x0, [fp, #-8]
     // 0x6ff784: r0 = AllocateClosure()
@@ -370,7 +370,7 @@ class CoachSessionManager extends Object {
     //     0x701e78: stur            w2, [x0, #0xf]
     // 0x701e7c: ldur            x1, [fp, #-8]
     // 0x701e80: r0 = recordBiomechanicsHint()
-    //     0x701e80: bl              #0x702304  ; [package:ballai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::recordBiomechanicsHint
+    //     0x701e80: bl              #0x702304  ; [package:kourtai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::recordBiomechanicsHint
     // 0x701e84: ldur            x0, [fp, #-8]
     // 0x701e88: LoadField: r1 = r0->field_7
     //     0x701e88: ldur            x1, [x0, #7]
@@ -451,7 +451,7 @@ class CoachSessionManager extends Object {
     //     0x701f58: bl              #0x8bc094  ; [dart:collection] ListBase::skip
     // 0x701f5c: ldur            x2, [fp, #-0x20]
     // 0x701f60: r1 = Function '<anonymous closure>':.
-    //     0x701f60: add             x1, PP, #0x31, lsl #12  ; [pp+0x31760] AnonymousClosure: (0x6ff7d8), in [package:ballai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::biomechanicsPersistence (0x6ff6f0)
+    //     0x701f60: add             x1, PP, #0x31, lsl #12  ; [pp+0x31760] AnonymousClosure: (0x6ff7d8), in [package:kourtai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::biomechanicsPersistence (0x6ff6f0)
     //     0x701f64: ldr             x1, [x1, #0x760]
     // 0x701f68: stur            x0, [fp, #-0x10]
     // 0x701f6c: r0 = AllocateClosure()
@@ -1004,7 +1004,7 @@ class CoachSessionManager extends Object {
     //     0x7031d0: bl              #0x79d128  ; [dart:core] _GrowableList::removeAt
     // 0x7031d4: ldur            x1, [fp, #-0x10]
     // 0x7031d8: r0 = _updateTrend()
-    //     0x7031d8: bl              #0x7031f4  ; [package:ballai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::_updateTrend
+    //     0x7031d8: bl              #0x7031f4  ; [package:kourtai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::_updateTrend
     // 0x7031dc: r0 = Null
     //     0x7031dc: mov             x0, NULL
     // 0x7031e0: LeaveFrame

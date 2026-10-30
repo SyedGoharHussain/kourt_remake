@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/video_tracking_style.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/video_tracking_style.dart
 
 // class id: 1049267, size: 0x8
 class :: {
@@ -781,7 +781,7 @@ class VolumeAwareSoundButton extends StatelessWidget {
     // 0xc439c4: StoreField: r1->field_f = r3
     //     0xc439c4: stur            w3, [x1, #0xf]
     // 0xc439c8: r0 = ringProgress()
-    //     0xc439c8: bl              #0xc43bd0  ; [package:ballai/video_tracking/views/workout/volume_button_presentation.dart] VolumeButtonPresentation::ringProgress
+    //     0xc439c8: bl              #0xc43bd0  ; [package:kourtai/video_tracking/views/workout/volume_button_presentation.dart] VolumeButtonPresentation::ringProgress
     // 0xc439cc: stur            d0, [fp, #-0x40]
     // 0xc439d0: r0 = _VolumeRingPainter()
     //     0xc439d0: bl              #0xc43bc4  ; Allocate_VolumeRingPainterStub -> _VolumeRingPainter (size=0x14)

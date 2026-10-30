@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/launch/title_view.dart
+// lib: , url: package:kourtai/automatic/views/launch/title_view.dart
 
 // class id: 1049045, size: 0x8
 class :: {
@@ -17,7 +17,7 @@ class _TitleBackgroundVideoState extends State<dynamic> {
     //     0x98ce14: cmp             SP, x16
     //     0x98ce18: b.ls            #0x98ce30
     // 0x98ce1c: r0 = _attachPreparedController()
-    //     0x98ce1c: bl              #0x98ce58  ; [package:ballai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::_attachPreparedController
+    //     0x98ce1c: bl              #0x98ce58  ; [package:kourtai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::_attachPreparedController
     // 0x98ce20: r0 = Null
     //     0x98ce20: mov             x0, NULL
     // 0x98ce24: LeaveFrame
@@ -56,7 +56,7 @@ class _TitleBackgroundVideoState extends State<dynamic> {
     //     0x98ce90: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x98ce94: bl              #0x60afc8  ; InitAsyncStub
     // 0x98ce98: r0 = ensureTitleReady()
-    //     0x98ce98: bl              #0x98d11c  ; [package:ballai/automatic/views/components/splash_brand_looping_video_view.dart] BrandVideoCache::ensureTitleReady
+    //     0x98ce98: bl              #0x98d11c  ; [package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart] BrandVideoCache::ensureTitleReady
     // 0x98ce9c: mov             x1, x0
     // 0x98cea0: stur            x1, [fp, #-0x20]
     // 0x98cea4: r0 = Await()
@@ -99,7 +99,7 @@ class _TitleBackgroundVideoState extends State<dynamic> {
     //     0x98cf00: add             x4, PP, #9, lsl #12  ; [pp+0x9ad8] List(7) [0, 0x3, 0x1, 0x2, "autoPlay", 0x2, Null]
     //     0x98cf04: ldr             x4, [x4, #0xad8]
     // 0x98cf08: r0 = loadBundledLoopVideo()
-    //     0x98cf08: bl              #0x909eb8  ; [package:ballai/automatic/utility/video/bundled_loop_video_loader.dart] ::loadBundledLoopVideo
+    //     0x98cf08: bl              #0x909eb8  ; [package:kourtai/automatic/utility/video/bundled_loop_video_loader.dart] ::loadBundledLoopVideo
     // 0x98cf0c: mov             x1, x0
     // 0x98cf10: stur            x1, [fp, #-0x20]
     // 0x98cf14: r0 = Await()
@@ -142,7 +142,7 @@ class _TitleBackgroundVideoState extends State<dynamic> {
     // 0x98cf80: b.ne            #0x98cfa8
     // 0x98cf84: ldur            x2, [fp, #-0x18]
     // 0x98cf88: r1 = Function '<anonymous closure>':.
-    //     0x98cf88: add             x1, PP, #0x20, lsl #12  ; [pp+0x20840] AnonymousClosure: (0x98d880), in [package:ballai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::_attachPreparedController (0x98ce58)
+    //     0x98cf88: add             x1, PP, #0x20, lsl #12  ; [pp+0x20840] AnonymousClosure: (0x98d880), in [package:kourtai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::_attachPreparedController (0x98ce58)
     //     0x98cf8c: ldr             x1, [x1, #0x840]
     // 0x98cf90: r0 = AllocateClosure()
     //     0x98cf90: bl              #0xe553e0  ; AllocateClosureStub
@@ -156,7 +156,7 @@ class _TitleBackgroundVideoState extends State<dynamic> {
     //     0x98cfa4: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x98cfa8: mov             x1, x0
     // 0x98cfac: r0 = _detach()
-    //     0x98cfac: bl              #0x98d050  ; [package:ballai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::_detach
+    //     0x98cfac: bl              #0x98d050  ; [package:kourtai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::_detach
     // 0x98cfb0: ldur            x0, [fp, #-0x28]
     // 0x98cfb4: ldur            x3, [fp, #-0x10]
     // 0x98cfb8: StoreField: r3->field_13 = r0
@@ -172,7 +172,7 @@ class _TitleBackgroundVideoState extends State<dynamic> {
     //     0x98cfd8: stur            w0, [x3, #0x17]
     // 0x98cfdc: mov             x2, x3
     // 0x98cfe0: r1 = Function '_onControllerUpdate@986242253':.
-    //     0x98cfe0: add             x1, PP, #0x20, lsl #12  ; [pp+0x20848] AnonymousClosure: (0x98d71c), in [package:ballai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::_onControllerUpdate (0x98d754)
+    //     0x98cfe0: add             x1, PP, #0x20, lsl #12  ; [pp+0x20848] AnonymousClosure: (0x98d71c), in [package:kourtai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::_onControllerUpdate (0x98d754)
     //     0x98cfe4: ldr             x1, [x1, #0x848]
     // 0x98cfe8: r0 = AllocateClosure()
     //     0x98cfe8: bl              #0xe553e0  ; AllocateClosureStub
@@ -182,7 +182,7 @@ class _TitleBackgroundVideoState extends State<dynamic> {
     //     0x98cff4: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0x98cff8: ldur            x2, [fp, #-0x18]
     // 0x98cffc: r1 = Function '<anonymous closure>':.
-    //     0x98cffc: add             x1, PP, #0x20, lsl #12  ; [pp+0x20850] AnonymousClosure: (0x98d6ec), in [package:ballai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::_attachPreparedController (0x98ce58)
+    //     0x98cffc: add             x1, PP, #0x20, lsl #12  ; [pp+0x20850] AnonymousClosure: (0x98d6ec), in [package:kourtai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::_attachPreparedController (0x98ce58)
     //     0x98d000: ldr             x1, [x1, #0x850]
     // 0x98d004: r0 = AllocateClosure()
     //     0x98d004: bl              #0xe553e0  ; AllocateClosureStub
@@ -245,7 +245,7 @@ class _TitleBackgroundVideoState extends State<dynamic> {
     //     0x98d090: ret             
     // 0x98d094: mov             x2, x0
     // 0x98d098: r1 = Function '_onControllerUpdate@986242253':.
-    //     0x98d098: add             x1, PP, #0x20, lsl #12  ; [pp+0x20848] AnonymousClosure: (0x98d71c), in [package:ballai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::_onControllerUpdate (0x98d754)
+    //     0x98d098: add             x1, PP, #0x20, lsl #12  ; [pp+0x20848] AnonymousClosure: (0x98d71c), in [package:kourtai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::_onControllerUpdate (0x98d754)
     //     0x98d09c: ldr             x1, [x1, #0x848]
     // 0x98d0a0: r0 = AllocateClosure()
     //     0x98d0a0: bl              #0xe553e0  ; AllocateClosureStub
@@ -339,7 +339,7 @@ class _TitleBackgroundVideoState extends State<dynamic> {
     //     0x98d734: cmp             SP, x16
     //     0x98d738: b.ls            #0x98d74c
     // 0x98d73c: r0 = _onControllerUpdate()
-    //     0x98d73c: bl              #0x98d754  ; [package:ballai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::_onControllerUpdate
+    //     0x98d73c: bl              #0x98d754  ; [package:kourtai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::_onControllerUpdate
     // 0x98d740: LeaveFrame
     //     0x98d740: mov             SP, fp
     //     0x98d744: ldp             fp, lr, [SP], #0x10
@@ -403,7 +403,7 @@ class _TitleBackgroundVideoState extends State<dynamic> {
     // 0x98d7cc: b.eq            #0x98d7ec
     // 0x98d7d0: mov             x2, x1
     // 0x98d7d4: r1 = Function '<anonymous closure>':.
-    //     0x98d7d4: add             x1, PP, #0x20, lsl #12  ; [pp+0x20858] AnonymousClosure: (0x98d804), in [package:ballai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::_onControllerUpdate (0x98d754)
+    //     0x98d7d4: add             x1, PP, #0x20, lsl #12  ; [pp+0x20858] AnonymousClosure: (0x98d804), in [package:kourtai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::_onControllerUpdate (0x98d754)
     //     0x98d7d8: ldr             x1, [x1, #0x858]
     // 0x98d7dc: r0 = AllocateClosure()
     //     0x98d7dc: bl              #0xe553e0  ; AllocateClosureStub
@@ -549,7 +549,7 @@ class _TitleBackgroundVideoState extends State<dynamic> {
     // 0xaaaf20: r0 = ReturnAsyncNotFuture()
     //     0xaaaf20: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xaaaf24: r0 = _attachPreparedController()
-    //     0xaaaf24: bl              #0x98ce58  ; [package:ballai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::_attachPreparedController
+    //     0xaaaf24: bl              #0x98ce58  ; [package:kourtai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::_attachPreparedController
     // 0xaaaf28: mov             x1, x0
     // 0xaaaf2c: stur            x1, [fp, #-0x10]
     // 0xaaaf30: r0 = Await()
@@ -724,7 +724,7 @@ class _TitleBackgroundVideoState extends State<dynamic> {
     //     0xb5c50c: mov             fp, SP
     // 0xb5c510: ldr             x2, [fp, #0x10]
     // 0xb5c514: r1 = Function 'dispose':.
-    //     0xb5c514: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cd68] AnonymousClosure: (0xb5c52c), in [package:ballai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::dispose (0xb638d0)
+    //     0xb5c514: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cd68] AnonymousClosure: (0xb5c52c), in [package:kourtai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::dispose (0xb638d0)
     //     0xb5c518: ldr             x1, [x1, #0xd68]
     // 0xb5c51c: r0 = AllocateClosure()
     //     0xb5c51c: bl              #0xe553e0  ; AllocateClosureStub
@@ -749,7 +749,7 @@ class _TitleBackgroundVideoState extends State<dynamic> {
     //     0xb5c544: cmp             SP, x16
     //     0xb5c548: b.ls            #0xb5c55c
     // 0xb5c54c: r0 = dispose()
-    //     0xb5c54c: bl              #0xb638d0  ; [package:ballai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::dispose
+    //     0xb5c54c: bl              #0xb638d0  ; [package:kourtai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::dispose
     // 0xb5c550: LeaveFrame
     //     0xb5c550: mov             SP, fp
     //     0xb5c554: ldp             fp, lr, [SP], #0x10
@@ -769,7 +769,7 @@ class _TitleBackgroundVideoState extends State<dynamic> {
     //     0xb638dc: cmp             SP, x16
     //     0xb638e0: b.ls            #0xb638f8
     // 0xb638e4: r0 = _detach()
-    //     0xb638e4: bl              #0x98d050  ; [package:ballai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::_detach
+    //     0xb638e4: bl              #0x98d050  ; [package:kourtai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::_detach
     // 0xb638e8: r0 = Null
     //     0xb638e8: mov             x0, NULL
     // 0xb638ec: LeaveFrame
@@ -825,7 +825,7 @@ class _TitleViewState extends State<dynamic> {
     // 0x98c4cc: mov             x2, x3
     // 0x98c4d0: stur            x5, [fp, #-0x10]
     // 0x98c4d4: r1 = Function '<anonymous closure>':.
-    //     0x98c4d4: add             x1, PP, #0x20, lsl #12  ; [pp+0x208f0] AnonymousClosure: (0x98cb4c), in [package:ballai/automatic/views/launch/title_view.dart] _TitleViewState::initState (0x98c474)
+    //     0x98c4d4: add             x1, PP, #0x20, lsl #12  ; [pp+0x208f0] AnonymousClosure: (0x98cb4c), in [package:kourtai/automatic/views/launch/title_view.dart] _TitleViewState::initState (0x98c474)
     //     0x98c4d8: ldr             x1, [x1, #0x8f0]
     // 0x98c4dc: r0 = AllocateClosure()
     //     0x98c4dc: bl              #0xe553e0  ; AllocateClosureStub
@@ -924,7 +924,7 @@ class _TitleViewState extends State<dynamic> {
     //     0x98c5e8: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x98c5ec: ldur            x2, [fp, #-0x20]
     // 0x98c5f0: r1 = Function '<anonymous closure>':.
-    //     0x98c5f0: add             x1, PP, #0x20, lsl #12  ; [pp+0x20910] AnonymousClosure: (0x98c648), in [package:ballai/automatic/views/launch/title_view.dart] _TitleViewState::initState (0x98c474)
+    //     0x98c5f0: add             x1, PP, #0x20, lsl #12  ; [pp+0x20910] AnonymousClosure: (0x98c648), in [package:kourtai/automatic/views/launch/title_view.dart] _TitleViewState::initState (0x98c474)
     //     0x98c5f4: ldr             x1, [x1, #0x910]
     // 0x98c5f8: r0 = AllocateClosure()
     //     0x98c5f8: bl              #0xe553e0  ; AllocateClosureStub
@@ -988,7 +988,7 @@ class _TitleViewState extends State<dynamic> {
     // 0x98c68c: DecompressPointer r1
     //     0x98c68c: add             x1, x1, HEAP, lsl #32
     // 0x98c690: r0 = titleSteps()
-    //     0x98c690: bl              #0x98c9f4  ; [package:ballai/automatic/viewmodels/launch/title_view_model.dart] TitleViewModel::titleSteps
+    //     0x98c690: bl              #0x98c9f4  ; [package:kourtai/automatic/viewmodels/launch/title_view_model.dart] TitleViewModel::titleSteps
     // 0x98c694: LoadField: r1 = r0->field_b
     //     0x98c694: ldur            w1, [x0, #0xb]
     // 0x98c698: r0 = LoadInt32Instr(r1)
@@ -1055,7 +1055,7 @@ class _TitleViewState extends State<dynamic> {
     // 0x98c730: mov             x1, x2
     // 0x98c734: stur            x3, [fp, #-0x18]
     // 0x98c738: r0 = titleSteps()
-    //     0x98c738: bl              #0x98c9f4  ; [package:ballai/automatic/viewmodels/launch/title_view_model.dart] TitleViewModel::titleSteps
+    //     0x98c738: bl              #0x98c9f4  ; [package:kourtai/automatic/viewmodels/launch/title_view_model.dart] TitleViewModel::titleSteps
     // 0x98c73c: LoadField: r1 = r0->field_b
     //     0x98c73c: ldur            w1, [x0, #0xb]
     // 0x98c740: r0 = LoadInt32Instr(r1)
@@ -1072,7 +1072,7 @@ class _TitleViewState extends State<dynamic> {
     // 0x98c764: DecompressPointer r1
     //     0x98c764: add             x1, x1, HEAP, lsl #32
     // 0x98c768: r0 = _animateToPage()
-    //     0x98c768: bl              #0x98c810  ; [package:ballai/automatic/views/launch/title_view.dart] _TitleViewState::_animateToPage
+    //     0x98c768: bl              #0x98c810  ; [package:kourtai/automatic/views/launch/title_view.dart] _TitleViewState::_animateToPage
     // 0x98c76c: ldur            x0, [fp, #-8]
     // 0x98c770: LoadField: r1 = r0->field_f
     //     0x98c770: ldur            w1, [x0, #0xf]
@@ -1177,7 +1177,7 @@ class _TitleViewState extends State<dynamic> {
     //     0x98c87c: bl              #0x94d91c  ; [package:flutter/src/widgets/page_view.dart] PageController::animateToPage
     // 0x98c880: ldur            x2, [fp, #-0x18]
     // 0x98c884: r1 = Function '<anonymous closure>':.
-    //     0x98c884: add             x1, PP, #0x20, lsl #12  ; [pp+0x20918] AnonymousClosure: (0x98c8b4), in [package:ballai/automatic/views/launch/title_view.dart] _TitleViewState::_onManualSwipe (0x98c8ec)
+    //     0x98c884: add             x1, PP, #0x20, lsl #12  ; [pp+0x20918] AnonymousClosure: (0x98c8b4), in [package:kourtai/automatic/views/launch/title_view.dart] _TitleViewState::_onManualSwipe (0x98c8ec)
     //     0x98c888: ldr             x1, [x1, #0x918]
     // 0x98c88c: r0 = AllocateClosure()
     //     0x98c88c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1251,7 +1251,7 @@ class _TitleViewState extends State<dynamic> {
     //     0x98c924: stur            w2, [x1, #0x13]
     // 0x98c928: mov             x2, x1
     // 0x98c92c: r1 = Function '<anonymous closure>':.
-    //     0x98c92c: add             x1, PP, #0x20, lsl #12  ; [pp+0x207f0] AnonymousClosure: (0x98c8b4), in [package:ballai/automatic/views/launch/title_view.dart] _TitleViewState::_onManualSwipe (0x98c8ec)
+    //     0x98c92c: add             x1, PP, #0x20, lsl #12  ; [pp+0x207f0] AnonymousClosure: (0x98c8b4), in [package:kourtai/automatic/views/launch/title_view.dart] _TitleViewState::_onManualSwipe (0x98c8ec)
     //     0x98c930: ldr             x1, [x1, #0x7f0]
     // 0x98c934: r0 = AllocateClosure()
     //     0x98c934: bl              #0xe553e0  ; AllocateClosureStub
@@ -1318,7 +1318,7 @@ class _TitleViewState extends State<dynamic> {
     //     0x98c9d4: b.ls            #0x98c9ec
     // 0x98c9d8: ldr             x2, [fp, #0x10]
     // 0x98c9dc: r0 = _onManualSwipe()
-    //     0x98c9dc: bl              #0x98c8ec  ; [package:ballai/automatic/views/launch/title_view.dart] _TitleViewState::_onManualSwipe
+    //     0x98c9dc: bl              #0x98c8ec  ; [package:kourtai/automatic/views/launch/title_view.dart] _TitleViewState::_onManualSwipe
     // 0x98c9e0: LeaveFrame
     //     0x98c9e0: mov             SP, fp
     //     0x98c9e4: ldp             fp, lr, [SP], #0x10
@@ -1362,7 +1362,7 @@ class _TitleViewState extends State<dynamic> {
     // 0x98cb98: ret
     //     0x98cb98: ret             
     // 0x98cb9c: r0 = scheduleAccountNotCreatedFunnel()
-    //     0x98cb9c: bl              #0x98cd2c  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleAccountNotCreatedFunnel
+    //     0x98cb9c: bl              #0x98cd2c  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleAccountNotCreatedFunnel
     // 0x98cba0: ldur            x0, [fp, #-8]
     // 0x98cba4: LoadField: r1 = r0->field_f
     //     0x98cba4: ldur            w1, [x0, #0xf]
@@ -1405,7 +1405,7 @@ class _TitleViewState extends State<dynamic> {
     // 0x98cc0c: cmp             w3, NULL
     // 0x98cc10: b.eq            #0x98cc58
     // 0x98cc14: r1 = Function '_onDeepLinkChanged@986242253':.
-    //     0x98cc14: add             x1, PP, #0x20, lsl #12  ; [pp+0x208e8] AnonymousClosure: (0x98cd80), in [package:ballai/automatic/views/launch/title_view.dart] _TitleViewState::_onDeepLinkChanged (0x98cdb8)
+    //     0x98cc14: add             x1, PP, #0x20, lsl #12  ; [pp+0x208e8] AnonymousClosure: (0x98cd80), in [package:kourtai/automatic/views/launch/title_view.dart] _TitleViewState::_onDeepLinkChanged (0x98cdb8)
     //     0x98cc18: ldr             x1, [x1, #0x8e8]
     // 0x98cc1c: r0 = AllocateClosure()
     //     0x98cc1c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1419,7 +1419,7 @@ class _TitleViewState extends State<dynamic> {
     // 0x98cc34: DecompressPointer r1
     //     0x98cc34: add             x1, x1, HEAP, lsl #32
     // 0x98cc38: r0 = _handleNotificationFunnelDestinationIfNeeded()
-    //     0x98cc38: bl              #0x98cc5c  ; [package:ballai/automatic/views/launch/title_view.dart] _TitleViewState::_handleNotificationFunnelDestinationIfNeeded
+    //     0x98cc38: bl              #0x98cc5c  ; [package:kourtai/automatic/views/launch/title_view.dart] _TitleViewState::_handleNotificationFunnelDestinationIfNeeded
     // 0x98cc3c: r0 = Null
     //     0x98cc3c: mov             x0, NULL
     // 0x98cc40: LeaveFrame
@@ -1468,14 +1468,14 @@ class _TitleViewState extends State<dynamic> {
     //     0x98cca4: add             x2, PP, #0x13, lsl #12  ; [pp+0x13598] "account_creation"
     //     0x98cca8: ldr             x2, [x2, #0x598]
     // 0x98ccac: r0 = consumeNotificationFunnelDestination()
-    //     0x98ccac: bl              #0x940108  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
+    //     0x98ccac: bl              #0x940108  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
     // 0x98ccb0: tbz             w0, #4, #0x98ccd8
     // 0x98ccb4: ldur            x1, [fp, #-8]
     // 0x98ccb8: r2 = "account_setup"
     //     0x98ccb8: add             x2, PP, #0x13, lsl #12  ; [pp+0x135a8] "account_setup"
     //     0x98ccbc: ldr             x2, [x2, #0x5a8]
     // 0x98ccc0: r0 = consumeNotificationFunnelDestination()
-    //     0x98ccc0: bl              #0x940108  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
+    //     0x98ccc0: bl              #0x940108  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
     // 0x98ccc4: tbz             w0, #4, #0x98ccd8
     // 0x98ccc8: r0 = Null
     //     0x98ccc8: mov             x0, NULL
@@ -1532,7 +1532,7 @@ class _TitleViewState extends State<dynamic> {
     //     0x98cd98: cmp             SP, x16
     //     0x98cd9c: b.ls            #0x98cdb0
     // 0x98cda0: r0 = _onDeepLinkChanged()
-    //     0x98cda0: bl              #0x98cdb8  ; [package:ballai/automatic/views/launch/title_view.dart] _TitleViewState::_onDeepLinkChanged
+    //     0x98cda0: bl              #0x98cdb8  ; [package:kourtai/automatic/views/launch/title_view.dart] _TitleViewState::_onDeepLinkChanged
     // 0x98cda4: LeaveFrame
     //     0x98cda4: mov             SP, fp
     //     0x98cda8: ldp             fp, lr, [SP], #0x10
@@ -1565,7 +1565,7 @@ class _TitleViewState extends State<dynamic> {
     // 0x98cde8: ret
     //     0x98cde8: ret             
     // 0x98cdec: r0 = _handleNotificationFunnelDestinationIfNeeded()
-    //     0x98cdec: bl              #0x98cc5c  ; [package:ballai/automatic/views/launch/title_view.dart] _TitleViewState::_handleNotificationFunnelDestinationIfNeeded
+    //     0x98cdec: bl              #0x98cc5c  ; [package:kourtai/automatic/views/launch/title_view.dart] _TitleViewState::_handleNotificationFunnelDestinationIfNeeded
     // 0x98cdf0: r0 = Null
     //     0x98cdf0: mov             x0, NULL
     // 0x98cdf4: LeaveFrame
@@ -1640,7 +1640,7 @@ class _TitleViewState extends State<dynamic> {
     // 0xaaa7a4: DecompressPointer r1
     //     0xaaa7a4: add             x1, x1, HEAP, lsl #32
     // 0xaaa7a8: r0 = titleSteps()
-    //     0xaaa7a8: bl              #0x98c9f4  ; [package:ballai/automatic/viewmodels/launch/title_view_model.dart] TitleViewModel::titleSteps
+    //     0xaaa7a8: bl              #0x98c9f4  ; [package:kourtai/automatic/viewmodels/launch/title_view_model.dart] TitleViewModel::titleSteps
     // 0xaaa7ac: LoadField: r1 = r0->field_b
     //     0xaaa7ac: ldur            w1, [x0, #0xb]
     // 0xaaa7b0: r5 = LoadInt32Instr(r1)
@@ -1648,13 +1648,13 @@ class _TitleViewState extends State<dynamic> {
     // 0xaaa7b4: ldur            x2, [fp, #-8]
     // 0xaaa7b8: stur            x5, [fp, #-0x30]
     // 0xaaa7bc: r1 = Function '_onManualSwipe@986242253':.
-    //     0xaaa7bc: add             x1, PP, #0x20, lsl #12  ; [pp+0x20780] AnonymousClosure: (0x98c9b8), in [package:ballai/automatic/views/launch/title_view.dart] _TitleViewState::_onManualSwipe (0x98c8ec)
+    //     0xaaa7bc: add             x1, PP, #0x20, lsl #12  ; [pp+0x20780] AnonymousClosure: (0x98c9b8), in [package:kourtai/automatic/views/launch/title_view.dart] _TitleViewState::_onManualSwipe (0x98c8ec)
     //     0xaaa7c0: ldr             x1, [x1, #0x780]
     // 0xaaa7c4: r0 = AllocateClosure()
     //     0xaaa7c4: bl              #0xe553e0  ; AllocateClosureStub
     // 0xaaa7c8: ldur            x2, [fp, #-0x18]
     // 0xaaa7cc: r1 = Function '<anonymous closure>':.
-    //     0xaaa7cc: add             x1, PP, #0x20, lsl #12  ; [pp+0x20788] AnonymousClosure: (0xaab364), in [package:ballai/automatic/views/launch/title_view.dart] _TitleViewState::build (0xaaa708)
+    //     0xaaa7cc: add             x1, PP, #0x20, lsl #12  ; [pp+0x20788] AnonymousClosure: (0xaab364), in [package:kourtai/automatic/views/launch/title_view.dart] _TitleViewState::build (0xaaa708)
     //     0xaaa7d0: ldr             x1, [x1, #0x788]
     // 0xaaa7d4: stur            x0, [fp, #-0x18]
     // 0xaaa7d8: r0 = AllocateClosure()
@@ -1686,15 +1686,15 @@ class _TitleViewState extends State<dynamic> {
     //     0xaaa820: stur            w0, [x2, #0xb]
     // 0xaaa824: ldur            x1, [fp, #-8]
     // 0xaaa828: r0 = _buildDotsIndicator()
-    //     0xaaa828: bl              #0xaab1b0  ; [package:ballai/automatic/views/launch/title_view.dart] _TitleViewState::_buildDotsIndicator
+    //     0xaaa828: bl              #0xaab1b0  ; [package:kourtai/automatic/views/launch/title_view.dart] _TitleViewState::_buildDotsIndicator
     // 0xaaa82c: ldur            x1, [fp, #-8]
     // 0xaaa830: stur            x0, [fp, #-0x10]
     // 0xaaa834: r0 = _buildGetStartedButton()
-    //     0xaaa834: bl              #0xaaafd4  ; [package:ballai/automatic/views/launch/title_view.dart] _TitleViewState::_buildGetStartedButton
+    //     0xaaa834: bl              #0xaaafd4  ; [package:kourtai/automatic/views/launch/title_view.dart] _TitleViewState::_buildGetStartedButton
     // 0xaaa838: ldur            x1, [fp, #-8]
     // 0xaaa83c: stur            x0, [fp, #-8]
     // 0xaaa840: r0 = _buildLoginButton()
-    //     0xaaa840: bl              #0xaaaaec  ; [package:ballai/automatic/views/launch/title_view.dart] _TitleViewState::_buildLoginButton
+    //     0xaaa840: bl              #0xaaaaec  ; [package:kourtai/automatic/views/launch/title_view.dart] _TitleViewState::_buildLoginButton
     // 0xaaa844: r1 = Null
     //     0xaaa844: mov             x1, NULL
     // 0xaaa848: r2 = 16
@@ -1994,7 +1994,7 @@ class _TitleViewState extends State<dynamic> {
     //     0xaaab20: add             x1, PP, #0x20, lsl #12  ; [pp+0x20800] "Already have an account\?"
     //     0xaaab24: ldr             x1, [x1, #0x800]
     // 0xaaab28: r0 = L()
-    //     0xaaab28: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaaab28: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaaab2c: r1 = Null
     //     0xaaab2c: mov             x1, NULL
     // 0xaaab30: r2 = 4
@@ -2018,7 +2018,7 @@ class _TitleViewState extends State<dynamic> {
     //     0xaaab5c: ldr             x1, [x1, #0x808]
     // 0xaaab60: stur            x0, [fp, #-8]
     // 0xaaab64: r0 = L()
-    //     0xaaab64: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaaab64: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaaab68: stur            x0, [fp, #-0x18]
     // 0xaaab6c: r0 = TextSpan()
     //     0xaaab6c: bl              #0x81b6a8  ; AllocateTextSpanStub -> TextSpan (size=0x34)
@@ -2089,7 +2089,7 @@ class _TitleViewState extends State<dynamic> {
     //     0xaaac14: stur            w0, [x3, #0xf]
     // 0xaaac18: ldur            x2, [fp, #-0x10]
     // 0xaaac1c: r1 = Function '<anonymous closure>':.
-    //     0xaaac1c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20820] AnonymousClosure: (0xaaac64), in [package:ballai/automatic/views/launch/title_view.dart] _TitleViewState::_buildLoginButton (0xaaaaec)
+    //     0xaaac1c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20820] AnonymousClosure: (0xaaac64), in [package:kourtai/automatic/views/launch/title_view.dart] _TitleViewState::_buildLoginButton (0xaaaaec)
     //     0xaaac20: ldr             x1, [x1, #0x820]
     // 0xaaac24: r0 = AllocateClosure()
     //     0xaaac24: bl              #0xe553e0  ; AllocateClosureStub
@@ -2149,7 +2149,7 @@ class _TitleViewState extends State<dynamic> {
     // 0xaaacac: DecompressPointer r1
     //     0xaaacac: add             x1, x1, HEAP, lsl #32
     // 0xaaacb0: r0 = _pushWithVideoPause()
-    //     0xaaacb0: bl              #0xaaad68  ; [package:ballai/automatic/views/launch/title_view.dart] _TitleViewState::_pushWithVideoPause
+    //     0xaaacb0: bl              #0xaaad68  ; [package:kourtai/automatic/views/launch/title_view.dart] _TitleViewState::_pushWithVideoPause
     // 0xaaacb4: mov             x1, x0
     // 0xaaacb8: stur            x1, [fp, #-0x18]
     // 0xaaacbc: r0 = Await()
@@ -2252,7 +2252,7 @@ class _TitleViewState extends State<dynamic> {
     // 0xaaadb4: b               #0xaaadc4
     // 0xaaadb8: mov             x1, x0
     // 0xaaadbc: r0 = pauseForNavigation()
-    //     0xaaadbc: bl              #0xaaaf44  ; [package:ballai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::pauseForNavigation
+    //     0xaaadbc: bl              #0xaaaf44  ; [package:kourtai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::pauseForNavigation
     // 0xaaadc0: mov             x2, x0
     // 0xaaadc4: ldur            x1, [fp, #-0x10]
     // 0xaaadc8: mov             x0, x2
@@ -2275,7 +2275,7 @@ class _TitleViewState extends State<dynamic> {
     // 0xaaadf4: r0 = of()
     //     0xaaadf4: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xaaadf8: r1 = Function '<anonymous closure>':.
-    //     0xaaadf8: add             x1, PP, #0x20, lsl #12  ; [pp+0x20828] AnonymousClosure: (0xaaafc8), in [package:ballai/automatic/views/launch/title_view.dart] _TitleViewState::_pushWithVideoPause (0xaaad68)
+    //     0xaaadf8: add             x1, PP, #0x20, lsl #12  ; [pp+0x20828] AnonymousClosure: (0xaaafc8), in [package:kourtai/automatic/views/launch/title_view.dart] _TitleViewState::_pushWithVideoPause (0xaaad68)
     //     0xaaadfc: ldr             x1, [x1, #0x828]
     // 0xaaae00: r2 = Null
     //     0xaaae00: mov             x2, NULL
@@ -2330,7 +2330,7 @@ class _TitleViewState extends State<dynamic> {
     // 0xaaae8c: b               #0xaaae9c
     // 0xaaae90: mov             x1, x0
     // 0xaaae94: r0 = resumeAfterNavigation()
-    //     0xaaae94: bl              #0xaaaeb8  ; [package:ballai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::resumeAfterNavigation
+    //     0xaaae94: bl              #0xaaaeb8  ; [package:kourtai/automatic/views/launch/title_view.dart] _TitleBackgroundVideoState::resumeAfterNavigation
     // 0xaaae98: mov             x1, x0
     // 0xaaae9c: mov             x0, x1
     // 0xaaaea0: stur            x1, [fp, #-0x10]
@@ -2429,7 +2429,7 @@ class _TitleViewState extends State<dynamic> {
     //     0xaab08c: ldr             x1, [x1, #0x880]
     // 0xaab090: stur            x0, [fp, #-8]
     // 0xaab094: r0 = L()
-    //     0xaab094: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaab094: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaab098: stur            x0, [fp, #-0x18]
     // 0xaab09c: r0 = Text()
     //     0xaab09c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2440,7 +2440,7 @@ class _TitleViewState extends State<dynamic> {
     //     0xaab0ac: stur            w0, [x3, #0xb]
     // 0xaab0b0: ldur            x2, [fp, #-0x10]
     // 0xaab0b4: r1 = Function '<anonymous closure>':.
-    //     0xaab0b4: add             x1, PP, #0x20, lsl #12  ; [pp+0x20888] AnonymousClosure: (0xaab124), in [package:ballai/automatic/views/launch/title_view.dart] _TitleViewState::_buildGetStartedButton (0xaaafd4)
+    //     0xaab0b4: add             x1, PP, #0x20, lsl #12  ; [pp+0x20888] AnonymousClosure: (0xaab124), in [package:kourtai/automatic/views/launch/title_view.dart] _TitleViewState::_buildGetStartedButton (0xaaafd4)
     //     0xaab0b8: ldr             x1, [x1, #0x888]
     // 0xaab0bc: r0 = AllocateClosure()
     //     0xaab0bc: bl              #0xe553e0  ; AllocateClosureStub
@@ -2559,7 +2559,7 @@ class _TitleViewState extends State<dynamic> {
     // 0xaab1d0: mov             x1, x0
     // 0xaab1d4: stur            x0, [fp, #-8]
     // 0xaab1d8: r0 = titleSteps()
-    //     0xaab1d8: bl              #0x98c9f4  ; [package:ballai/automatic/viewmodels/launch/title_view_model.dart] TitleViewModel::titleSteps
+    //     0xaab1d8: bl              #0x98c9f4  ; [package:kourtai/automatic/viewmodels/launch/title_view_model.dart] TitleViewModel::titleSteps
     // 0xaab1dc: LoadField: r1 = r0->field_b
     //     0xaab1dc: ldur            w1, [x0, #0xb]
     // 0xaab1e0: r2 = LoadInt32Instr(r1)
@@ -2724,7 +2724,7 @@ class _TitleViewState extends State<dynamic> {
     // 0xaab394: DecompressPointer r1
     //     0xaab394: add             x1, x1, HEAP, lsl #32
     // 0xaab398: r0 = titleSteps()
-    //     0xaab398: bl              #0x98c9f4  ; [package:ballai/automatic/viewmodels/launch/title_view_model.dart] TitleViewModel::titleSteps
+    //     0xaab398: bl              #0x98c9f4  ; [package:kourtai/automatic/viewmodels/launch/title_view_model.dart] TitleViewModel::titleSteps
     // 0xaab39c: mov             x2, x0
     // 0xaab3a0: LoadField: r0 = r2->field_b
     //     0xaab3a0: ldur            w0, [x2, #0xb]
@@ -2754,7 +2754,7 @@ class _TitleViewState extends State<dynamic> {
     // 0xaab3e4: DecompressPointer r1
     //     0xaab3e4: add             x1, x1, HEAP, lsl #32
     // 0xaab3e8: r0 = L()
-    //     0xaab3e8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaab3e8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaab3ec: stur            x0, [fp, #-0x10]
     // 0xaab3f0: r0 = Text()
     //     0xaab3f0: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2787,7 +2787,7 @@ class _TitleViewState extends State<dynamic> {
     // 0xaab438: DecompressPointer r1
     //     0xaab438: add             x1, x1, HEAP, lsl #32
     // 0xaab43c: r0 = L()
-    //     0xaab43c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaab43c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaab440: stur            x0, [fp, #-8]
     // 0xaab444: r0 = Text()
     //     0xaab444: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2889,7 +2889,7 @@ class _TitleViewState extends State<dynamic> {
     //     0xb5c4b0: mov             fp, SP
     // 0xb5c4b4: ldr             x2, [fp, #0x10]
     // 0xb5c4b8: r1 = Function 'dispose':.
-    //     0xb5c4b8: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cd70] AnonymousClosure: (0xb5c4d0), in [package:ballai/automatic/views/launch/title_view.dart] _TitleViewState::dispose (0xb63840)
+    //     0xb5c4b8: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cd70] AnonymousClosure: (0xb5c4d0), in [package:kourtai/automatic/views/launch/title_view.dart] _TitleViewState::dispose (0xb63840)
     //     0xb5c4bc: ldr             x1, [x1, #0xd70]
     // 0xb5c4c0: r0 = AllocateClosure()
     //     0xb5c4c0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2914,7 +2914,7 @@ class _TitleViewState extends State<dynamic> {
     //     0xb5c4e8: cmp             SP, x16
     //     0xb5c4ec: b.ls            #0xb5c500
     // 0xb5c4f0: r0 = dispose()
-    //     0xb5c4f0: bl              #0xb63840  ; [package:ballai/automatic/views/launch/title_view.dart] _TitleViewState::dispose
+    //     0xb5c4f0: bl              #0xb63840  ; [package:kourtai/automatic/views/launch/title_view.dart] _TitleViewState::dispose
     // 0xb5c4f4: LeaveFrame
     //     0xb5c4f4: mov             SP, fp
     //     0xb5c4f8: ldp             fp, lr, [SP], #0x10
@@ -2947,7 +2947,7 @@ class _TitleViewState extends State<dynamic> {
     // 0xb63870: b.eq            #0xb63894
     // 0xb63874: mov             x2, x0
     // 0xb63878: r1 = Function '_onDeepLinkChanged@986242253':.
-    //     0xb63878: add             x1, PP, #0x20, lsl #12  ; [pp+0x208e8] AnonymousClosure: (0x98cd80), in [package:ballai/automatic/views/launch/title_view.dart] _TitleViewState::_onDeepLinkChanged (0x98cdb8)
+    //     0xb63878: add             x1, PP, #0x20, lsl #12  ; [pp+0x208e8] AnonymousClosure: (0x98cd80), in [package:kourtai/automatic/views/launch/title_view.dart] _TitleViewState::_onDeepLinkChanged (0x98cdb8)
     //     0xb6387c: ldr             x1, [x1, #0x8e8]
     // 0xb63880: r0 = AllocateClosure()
     //     0xb63880: bl              #0xe553e0  ; AllocateClosureStub
@@ -3145,7 +3145,7 @@ class TitleView extends StatefulWidget {
     // 0xb75a84: mov             x1, x0
     // 0xb75a88: stur            x0, [fp, #-8]
     // 0xb75a8c: r0 = _TitleViewState()
-    //     0xb75a8c: bl              #0xb75aa8  ; [package:ballai/automatic/views/launch/title_view.dart] _TitleViewState::_TitleViewState
+    //     0xb75a8c: bl              #0xb75aa8  ; [package:kourtai/automatic/views/launch/title_view.dart] _TitleViewState::_TitleViewState
     // 0xb75a90: ldur            x0, [fp, #-8]
     // 0xb75a94: LeaveFrame
     //     0xb75a94: mov             SP, fp

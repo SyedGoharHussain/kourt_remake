@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/streak/streak_milestones.dart
+// lib: , url: package:kourtai/automatic/models/core/streak/streak_milestones.dart
 
 // class id: 1048703, size: 0x8
 class :: {
@@ -27,7 +27,7 @@ class StreakMilestone extends Object {
     //     0xbe09dc: add             x0, x0, HEAP, lsl #32
     // 0xbe09e0: mov             x1, x0
     // 0xbe09e4: r0 = L()
-    //     0xbe09e4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe09e4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe09e8: LeaveFrame
     //     0xbe09e8: mov             SP, fp
     //     0xbe09ec: ldp             fp, lr, [SP], #0x10

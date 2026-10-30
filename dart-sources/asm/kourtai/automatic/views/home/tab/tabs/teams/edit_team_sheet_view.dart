@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart
 
 // class id: 1048937, size: 0x8
 class :: {
@@ -381,7 +381,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0x970060: DecompressPointer r1
     //     0x970060: add             x1, x1, HEAP, lsl #32
     // 0x970064: r0 = fromString()
-    //     0x970064: bl              #0x768108  ; [package:ballai/automatic/models/core/team/team_visibility.dart] TeamVisibility::fromString
+    //     0x970064: bl              #0x768108  ; [package:kourtai/automatic/models/core/team/team_visibility.dart] TeamVisibility::fromString
     // 0x970068: ldur            x3, [fp, #-0x10]
     // 0x97006c: StoreField: r3->field_33 = r0
     //     0x97006c: stur            w0, [x3, #0x33]
@@ -393,7 +393,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0x970084: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x970088: ldur            x2, [fp, #-0x20]
     // 0x97008c: r1 = Function '<anonymous closure>':.
-    //     0x97008c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49928] AnonymousClosure: (0x970264), in [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::initState (0x96fc58)
+    //     0x97008c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49928] AnonymousClosure: (0x970264), in [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::initState (0x96fc58)
     //     0x970090: ldr             x1, [x1, #0x928]
     // 0x970094: r0 = AllocateClosure()
     //     0x970094: bl              #0xe553e0  ; AllocateClosureStub
@@ -668,7 +668,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa396a8: mov             x2, x1
     // 0xa396ac: stur            x3, [fp, #-0x10]
     // 0xa396b0: r1 = Function '<anonymous closure>':.
-    //     0xa396b0: add             x1, PP, #0x49, lsl #12  ; [pp+0x497e0] AnonymousClosure: (0xa395f0), in [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
+    //     0xa396b0: add             x1, PP, #0x49, lsl #12  ; [pp+0x497e0] AnonymousClosure: (0xa395f0), in [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
     //     0xa396b4: ldr             x1, [x1, #0x7e0]
     // 0xa396b8: r0 = AllocateClosure()
     //     0xa396b8: bl              #0xe553e0  ; AllocateClosureStub
@@ -740,12 +740,12 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa54768: mov             x2, x1
     // 0xa5476c: mov             x1, x3
     // 0xa54770: r0 = teamBannerUrl()
-    //     0xa54770: bl              #0xa56ecc  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::teamBannerUrl
+    //     0xa54770: bl              #0xa56ecc  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::teamBannerUrl
     // 0xa54774: cmp             w0, NULL
     // 0xa54778: b.ne            #0xa54784
     // 0xa5477c: ldur            x1, [fp, #-8]
     // 0xa54780: r0 = _bannerUrl()
-    //     0xa54780: bl              #0xa56e44  ; [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_bannerUrl
+    //     0xa54780: bl              #0xa56e44  ; [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_bannerUrl
     // 0xa54784: cmp             w0, NULL
     // 0xa54788: b.ne            #0xa54794
     // 0xa5478c: r3 = ""
@@ -771,12 +771,12 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa547c0: mov             x2, x1
     // 0xa547c4: ldur            x1, [fp, #-0x10]
     // 0xa547c8: r0 = teamLogoUrl()
-    //     0xa547c8: bl              #0xa56dec  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::teamLogoUrl
+    //     0xa547c8: bl              #0xa56dec  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::teamLogoUrl
     // 0xa547cc: cmp             w0, NULL
     // 0xa547d0: b.ne            #0xa547dc
     // 0xa547d4: ldur            x1, [fp, #-8]
     // 0xa547d8: r0 = _logoUrl()
-    //     0xa547d8: bl              #0xa56d64  ; [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_logoUrl
+    //     0xa547d8: bl              #0xa56d64  ; [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_logoUrl
     // 0xa547dc: cmp             w0, NULL
     // 0xa547e0: b.ne            #0xa547ec
     // 0xa547e4: r2 = ""
@@ -789,13 +789,13 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa547f8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49668] "Branding"
     //     0xa547fc: ldr             x1, [x1, #0x668]
     // 0xa54800: r0 = L()
-    //     0xa54800: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa54800: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa54804: r1 = "Banner"
     //     0xa54804: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c490] "Banner"
     //     0xa54808: ldr             x1, [x1, #0x490]
     // 0xa5480c: stur            x0, [fp, #-0x28]
     // 0xa54810: r0 = L()
-    //     0xa54810: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa54810: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa54814: stur            x0, [fp, #-0x30]
     // 0xa54818: r0 = TextStyle()
     //     0xa54818: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -896,7 +896,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa54928: add             x1, PP, #0x49, lsl #12  ; [pp+0x49670] "Edit banner"
     //     0xa5492c: ldr             x1, [x1, #0x670]
     // 0xa54930: r0 = L()
-    //     0xa54930: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa54930: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa54934: stur            x0, [fp, #-0x20]
     // 0xa54938: r0 = Text()
     //     0xa54938: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -907,7 +907,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa54948: stur            w0, [x3, #0xb]
     // 0xa5494c: ldur            x2, [fp, #-0x18]
     // 0xa54950: r1 = Function '<anonymous closure>':.
-    //     0xa54950: add             x1, PP, #0x49, lsl #12  ; [pp+0x49678] AnonymousClosure: (0xa5882c), in [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
+    //     0xa54950: add             x1, PP, #0x49, lsl #12  ; [pp+0x49678] AnonymousClosure: (0xa5882c), in [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
     //     0xa54954: ldr             x1, [x1, #0x678]
     // 0xa54958: r0 = AllocateClosure()
     //     0xa54958: bl              #0xe553e0  ; AllocateClosureStub
@@ -963,7 +963,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa549ec: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c4c0] "Logo"
     //     0xa549f0: ldr             x1, [x1, #0x4c0]
     // 0xa549f4: r0 = L()
-    //     0xa549f4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa549f4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa549f8: stur            x0, [fp, #-0x20]
     // 0xa549fc: r0 = TextStyle()
     //     0xa549fc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1083,7 +1083,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa54b44: add             x1, PP, #0x49, lsl #12  ; [pp+0x49680] "Edit logo"
     //     0xa54b48: ldr             x1, [x1, #0x680]
     // 0xa54b4c: r0 = L()
-    //     0xa54b4c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa54b4c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa54b50: stur            x0, [fp, #-0x10]
     // 0xa54b54: r0 = Text()
     //     0xa54b54: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1094,7 +1094,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa54b64: stur            w0, [x3, #0xb]
     // 0xa54b68: ldur            x2, [fp, #-0x18]
     // 0xa54b6c: r1 = Function '<anonymous closure>':.
-    //     0xa54b6c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49688] AnonymousClosure: (0xa585e8), in [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
+    //     0xa54b6c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49688] AnonymousClosure: (0xa585e8), in [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
     //     0xa54b70: ldr             x1, [x1, #0x688]
     // 0xa54b74: r0 = AllocateClosure()
     //     0xa54b74: bl              #0xe553e0  ; AllocateClosureStub
@@ -1155,7 +1155,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa54c0c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49690] "Team Information"
     //     0xa54c10: ldr             x1, [x1, #0x690]
     // 0xa54c14: r0 = L()
-    //     0xa54c14: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa54c14: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa54c18: ldur            x2, [fp, #-8]
     // 0xa54c1c: stur            x0, [fp, #-0x28]
     // 0xa54c20: LoadField: r3 = r2->field_13
@@ -1167,7 +1167,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa54c2c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49698] "Team name"
     //     0xa54c30: ldr             x1, [x1, #0x698]
     // 0xa54c34: r0 = L()
-    //     0xa54c34: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa54c34: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa54c38: stur            x0, [fp, #-0x30]
     // 0xa54c3c: r0 = InputDecoration()
     //     0xa54c3c: bl              #0x912d0c  ; AllocateInputDecorationStub -> InputDecoration (size=0xec)
@@ -1232,7 +1232,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa54cc4: stur            w6, [x3, #0x67]
     // 0xa54cc8: ldur            x2, [fp, #-0x18]
     // 0xa54ccc: r1 = Function '<anonymous closure>':.
-    //     0xa54ccc: add             x1, PP, #0x49, lsl #12  ; [pp+0x496a0] AnonymousClosure: (0xa58584), in [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
+    //     0xa54ccc: add             x1, PP, #0x49, lsl #12  ; [pp+0x496a0] AnonymousClosure: (0xa58584), in [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
     //     0xa54cd0: ldr             x1, [x1, #0x6a0]
     // 0xa54cd4: r0 = AllocateClosure()
     //     0xa54cd4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1325,13 +1325,13 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa54da8: add             x1, PP, #0x37, lsl #12  ; [pp+0x373c8] "Description"
     //     0xa54dac: ldr             x1, [x1, #0x3c8]
     // 0xa54db0: r0 = L()
-    //     0xa54db0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa54db0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa54db4: r1 = "What\'s this team about\?"
     //     0xa54db4: add             x1, PP, #0x37, lsl #12  ; [pp+0x373d0] "What\'s this team about\?"
     //     0xa54db8: ldr             x1, [x1, #0x3d0]
     // 0xa54dbc: stur            x0, [fp, #-0x40]
     // 0xa54dc0: r0 = L()
-    //     0xa54dc0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa54dc0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa54dc4: stur            x0, [fp, #-0x48]
     // 0xa54dc8: r0 = InputDecoration()
     //     0xa54dc8: bl              #0x912d0c  ; AllocateInputDecorationStub -> InputDecoration (size=0xec)
@@ -1502,7 +1502,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa54f54: add             x1, PP, #0x37, lsl #12  ; [pp+0x37338] "Location"
     //     0xa54f58: ldr             x1, [x1, #0x338]
     // 0xa54f5c: r0 = L()
-    //     0xa54f5c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa54f5c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa54f60: ldur            x2, [fp, #-8]
     // 0xa54f64: stur            x0, [fp, #-0x30]
     // 0xa54f68: LoadField: r3 = r2->field_1b
@@ -1518,7 +1518,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa54f80: add             x1, PP, #0x37, lsl #12  ; [pp+0x37340] "City, state, country"
     //     0xa54f84: ldr             x1, [x1, #0x340]
     // 0xa54f88: r0 = L()
-    //     0xa54f88: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa54f88: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa54f8c: stur            x0, [fp, #-0x38]
     // 0xa54f90: r0 = InputDecoration()
     //     0xa54f90: bl              #0x912d0c  ; AllocateInputDecorationStub -> InputDecoration (size=0xec)
@@ -1652,7 +1652,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa550bc: add             x1, PP, #0x37, lsl #12  ; [pp+0x37350] "Current location"
     //     0xa550c0: ldr             x1, [x1, #0x350]
     // 0xa550c4: r0 = L()
-    //     0xa550c4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa550c4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa550c8: stur            x0, [fp, #-0x40]
     // 0xa550cc: r0 = Text()
     //     0xa550cc: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1663,7 +1663,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa550dc: stur            w0, [x3, #0xb]
     // 0xa550e0: ldur            x2, [fp, #-8]
     // 0xa550e4: r1 = Function '_useCurrentLocation@1207394863':.
-    //     0xa550e4: add             x1, PP, #0x49, lsl #12  ; [pp+0x496a8] AnonymousClosure: (0xa58384), in [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_useCurrentLocation (0xa583bc)
+    //     0xa550e4: add             x1, PP, #0x49, lsl #12  ; [pp+0x496a8] AnonymousClosure: (0xa58384), in [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_useCurrentLocation (0xa583bc)
     //     0xa550e8: ldr             x1, [x1, #0x6a8]
     // 0xa550ec: r0 = AllocateClosure()
     //     0xa550ec: bl              #0xe553e0  ; AllocateClosureStub
@@ -1685,7 +1685,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa55118: add             x1, PP, #0x37, lsl #12  ; [pp+0x37370] "Search"
     //     0xa5511c: ldr             x1, [x1, #0x370]
     // 0xa55120: r0 = L()
-    //     0xa55120: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa55120: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa55124: stur            x0, [fp, #-0x48]
     // 0xa55128: r0 = Text()
     //     0xa55128: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1696,7 +1696,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa55138: stur            w0, [x3, #0xb]
     // 0xa5513c: ldur            x2, [fp, #-8]
     // 0xa55140: r1 = Function '_pickLocation@1207394863':.
-    //     0xa55140: add             x1, PP, #0x49, lsl #12  ; [pp+0x496b8] AnonymousClosure: (0xa58150), in [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_pickLocation (0xa58188)
+    //     0xa55140: add             x1, PP, #0x49, lsl #12  ; [pp+0x496b8] AnonymousClosure: (0xa58150), in [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_pickLocation (0xa58188)
     //     0xa55144: ldr             x1, [x1, #0x6b8]
     // 0xa55148: r0 = AllocateClosure()
     //     0xa55148: bl              #0xe553e0  ; AllocateClosureStub
@@ -1784,15 +1784,15 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa55214: add             x1, PP, #0x49, lsl #12  ; [pp+0x496c8] "Optional. Helps players find teams near them."
     //     0xa55218: ldr             x1, [x1, #0x6c8]
     // 0xa5521c: r0 = L()
-    //     0xa5521c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa5521c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa55220: ldur            x2, [fp, #-0x18]
     // 0xa55224: stur            x0, [fp, #-0x40]
     // 0xa55228: LoadField: r1 = r2->field_13
     //     0xa55228: ldur            w1, [x2, #0x13]
     // 0xa5522c: DecompressPointer r1
     //     0xa5522c: add             x1, x1, HEAP, lsl #32
-    // 0xa55230: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa55230: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa55230: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa55230: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa55234: stur            x0, [fp, #-0x50]
     // 0xa55238: r0 = TextStyle()
     //     0xa55238: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1867,7 +1867,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa552ec: add             x1, PP, #0x45, lsl #12  ; [pp+0x45238] "Social"
     //     0xa552f0: ldr             x1, [x1, #0x238]
     // 0xa552f4: r0 = L()
-    //     0xa552f4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa552f4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa552f8: mov             x2, x0
     // 0xa552fc: ldur            x0, [fp, #-8]
     // 0xa55300: stur            x2, [fp, #-0x30]
@@ -1884,7 +1884,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa5531c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27bb0] "Hudl"
     //     0xa55320: ldr             x1, [x1, #0xbb0]
     // 0xa55324: r0 = L()
-    //     0xa55324: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa55324: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa55328: stur            x0, [fp, #-0x40]
     // 0xa5532c: r0 = InputDecoration()
     //     0xa5532c: bl              #0x912d0c  ; AllocateInputDecorationStub -> InputDecoration (size=0xec)
@@ -2019,7 +2019,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa5545c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27bb8] "MaxPreps"
     //     0xa55460: ldr             x1, [x1, #0xbb8]
     // 0xa55464: r0 = L()
-    //     0xa55464: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa55464: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa55468: stur            x0, [fp, #-0x48]
     // 0xa5546c: r0 = InputDecoration()
     //     0xa5546c: bl              #0x912d0c  ; AllocateInputDecorationStub -> InputDecoration (size=0xec)
@@ -2154,7 +2154,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa5559c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27bc0] "Facebook"
     //     0xa555a0: ldr             x1, [x1, #0xbc0]
     // 0xa555a4: r0 = L()
-    //     0xa555a4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa555a4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa555a8: stur            x0, [fp, #-0x50]
     // 0xa555ac: r0 = InputDecoration()
     //     0xa555ac: bl              #0x912d0c  ; AllocateInputDecorationStub -> InputDecoration (size=0xec)
@@ -2289,7 +2289,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa556dc: add             x1, PP, #0x27, lsl #12  ; [pp+0x27ba0] "Instagram"
     //     0xa556e0: ldr             x1, [x1, #0xba0]
     // 0xa556e4: r0 = L()
-    //     0xa556e4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa556e4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa556e8: stur            x0, [fp, #-0x58]
     // 0xa556ec: r0 = InputDecoration()
     //     0xa556ec: bl              #0x912d0c  ; AllocateInputDecorationStub -> InputDecoration (size=0xec)
@@ -2424,7 +2424,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa5581c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27bd8] "Website"
     //     0xa55820: ldr             x1, [x1, #0xbd8]
     // 0xa55824: r0 = L()
-    //     0xa55824: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa55824: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa55828: stur            x0, [fp, #-0x60]
     // 0xa5582c: r0 = InputDecoration()
     //     0xa5582c: bl              #0x912d0c  ; AllocateInputDecorationStub -> InputDecoration (size=0xec)
@@ -2595,7 +2595,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa559b8: add             x1, PP, #0x49, lsl #12  ; [pp+0x496d0] "Visibility"
     //     0xa559bc: ldr             x1, [x1, #0x6d0]
     // 0xa559c0: r0 = L()
-    //     0xa559c0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa559c0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa559c4: mov             x2, x0
     // 0xa559c8: ldur            x0, [fp, #-8]
     // 0xa559cc: stur            x2, [fp, #-0x48]
@@ -2635,7 +2635,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa55a34: add             x1, PP, #0x49, lsl #12  ; [pp+0x496d0] "Visibility"
     //     0xa55a38: ldr             x1, [x1, #0x6d0]
     // 0xa55a3c: r0 = L()
-    //     0xa55a3c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa55a3c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa55a40: stur            x0, [fp, #-0x50]
     // 0xa55a44: r0 = InputDecoration()
     //     0xa55a44: bl              #0x912d0c  ; AllocateInputDecorationStub -> InputDecoration (size=0xec)
@@ -2653,7 +2653,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa55a64: StoreField: r3->field_d7 = r0
     //     0xa55a64: stur            w0, [x3, #0xd7]
     // 0xa55a68: r1 = Function '<anonymous closure>':.
-    //     0xa55a68: add             x1, PP, #0x49, lsl #12  ; [pp+0x496d8] AnonymousClosure: (0xa580b8), in [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
+    //     0xa55a68: add             x1, PP, #0x49, lsl #12  ; [pp+0x496d8] AnonymousClosure: (0xa580b8), in [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
     //     0xa55a6c: ldr             x1, [x1, #0x6d8]
     // 0xa55a70: r2 = Null
     //     0xa55a70: mov             x2, NULL
@@ -2680,7 +2680,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa55aa4: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0xa55aa8: ldur            x2, [fp, #-0x18]
     // 0xa55aac: r1 = Function '<anonymous closure>':.
-    //     0xa55aac: add             x1, PP, #0x49, lsl #12  ; [pp+0x496e8] AnonymousClosure: (0xa39644), in [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
+    //     0xa55aac: add             x1, PP, #0x49, lsl #12  ; [pp+0x496e8] AnonymousClosure: (0xa39644), in [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
     //     0xa55ab0: ldr             x1, [x1, #0x6e8]
     // 0xa55ab4: stur            x0, [fp, #-0x50]
     // 0xa55ab8: r0 = AllocateClosure()
@@ -2740,7 +2740,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa55b48: add             x1, PP, #0x49, lsl #12  ; [pp+0x496f8] "Team type"
     //     0xa55b4c: ldr             x1, [x1, #0x6f8]
     // 0xa55b50: r0 = L()
-    //     0xa55b50: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa55b50: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa55b54: mov             x2, x0
     // 0xa55b58: ldur            x0, [fp, #-8]
     // 0xa55b5c: stur            x2, [fp, #-0x40]
@@ -2757,7 +2757,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa55b78: add             x1, PP, #0x49, lsl #12  ; [pp+0x496f8] "Team type"
     //     0xa55b7c: ldr             x1, [x1, #0x6f8]
     // 0xa55b80: r0 = L()
-    //     0xa55b80: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa55b80: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa55b84: stur            x0, [fp, #-0x48]
     // 0xa55b88: r0 = InputDecoration()
     //     0xa55b88: bl              #0x912d0c  ; AllocateInputDecorationStub -> InputDecoration (size=0xec)
@@ -2775,7 +2775,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa55ba8: StoreField: r3->field_d7 = r0
     //     0xa55ba8: stur            w0, [x3, #0xd7]
     // 0xa55bac: r1 = Function '<anonymous closure>':.
-    //     0xa55bac: add             x1, PP, #0x49, lsl #12  ; [pp+0x49700] AnonymousClosure: (0xa57f8c), in [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
+    //     0xa55bac: add             x1, PP, #0x49, lsl #12  ; [pp+0x49700] AnonymousClosure: (0xa57f8c), in [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
     //     0xa55bb0: ldr             x1, [x1, #0x700]
     // 0xa55bb4: r2 = Null
     //     0xa55bb4: mov             x2, NULL
@@ -2802,7 +2802,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa55be8: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0xa55bec: ldur            x2, [fp, #-0x18]
     // 0xa55bf0: r1 = Function '<anonymous closure>':.
-    //     0xa55bf0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49708] AnonymousClosure: (0xa57e9c), in [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
+    //     0xa55bf0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49708] AnonymousClosure: (0xa57e9c), in [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
     //     0xa55bf4: ldr             x1, [x1, #0x708]
     // 0xa55bf8: stur            x0, [fp, #-0x48]
     // 0xa55bfc: r0 = AllocateClosure()
@@ -2858,7 +2858,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa55c80: add             x1, PP, #0x49, lsl #12  ; [pp+0x49710] "Who\'s it for\?"
     //     0xa55c84: ldr             x1, [x1, #0x710]
     // 0xa55c88: r0 = L()
-    //     0xa55c88: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa55c88: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa55c8c: mov             x2, x0
     // 0xa55c90: ldur            x0, [fp, #-8]
     // 0xa55c94: stur            x2, [fp, #-0x40]
@@ -2875,7 +2875,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa55cb0: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b838] "Gender"
     //     0xa55cb4: ldr             x1, [x1, #0x838]
     // 0xa55cb8: r0 = L()
-    //     0xa55cb8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa55cb8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa55cbc: stur            x0, [fp, #-0x58]
     // 0xa55cc0: r0 = InputDecoration()
     //     0xa55cc0: bl              #0x912d0c  ; AllocateInputDecorationStub -> InputDecoration (size=0xec)
@@ -2896,7 +2896,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa55ce4: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2b008] "Male"
     //     0xa55ce8: ldr             x1, [x1, #8]
     // 0xa55cec: r0 = L()
-    //     0xa55cec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa55cec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa55cf0: stur            x0, [fp, #-0x58]
     // 0xa55cf4: r0 = Text()
     //     0xa55cf4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2932,7 +2932,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa55d40: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2b010] "Female"
     //     0xa55d44: ldr             x1, [x1, #0x10]
     // 0xa55d48: r0 = L()
-    //     0xa55d48: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa55d48: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa55d4c: stur            x0, [fp, #-0x68]
     // 0xa55d50: r0 = Text()
     //     0xa55d50: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2968,7 +2968,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa55d9c: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c5f8] "Prefer not to say"
     //     0xa55da0: ldr             x1, [x1, #0x5f8]
     // 0xa55da4: r0 = L()
-    //     0xa55da4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa55da4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa55da8: stur            x0, [fp, #-0x70]
     // 0xa55dac: r0 = Text()
     //     0xa55dac: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -3033,7 +3033,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa55e44: stur            w0, [x3, #0xb]
     // 0xa55e48: ldur            x2, [fp, #-0x18]
     // 0xa55e4c: r1 = Function '<anonymous closure>':.
-    //     0xa55e4c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49718] AnonymousClosure: (0xa57dac), in [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
+    //     0xa55e4c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49718] AnonymousClosure: (0xa57dac), in [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
     //     0xa55e50: ldr             x1, [x1, #0x718]
     // 0xa55e54: r0 = AllocateClosure()
     //     0xa55e54: bl              #0xe553e0  ; AllocateClosureStub
@@ -3152,16 +3152,16 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa55f84: ldur            w1, [x2, #0x13]
     // 0xa55f88: DecompressPointer r1
     //     0xa55f88: add             x1, x1, HEAP, lsl #32
-    // 0xa55f8c: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xa55f8c: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xa55f8c: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xa55f8c: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xa55f90: ldur            x2, [fp, #-0x18]
     // 0xa55f94: stur            x0, [fp, #-0x10]
     // 0xa55f98: LoadField: r1 = r2->field_13
     //     0xa55f98: ldur            w1, [x2, #0x13]
     // 0xa55f9c: DecompressPointer r1
     //     0xa55f9c: add             x1, x1, HEAP, lsl #32
-    // 0xa55fa0: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xa55fa0: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xa55fa0: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xa55fa0: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xa55fa4: stur            x0, [fp, #-0x28]
     // 0xa55fa8: r16 = Instance_EdgeInsets
     //     0xa55fa8: add             x16, PP, #0x38, lsl #12  ; [pp+0x384e8] Obj!EdgeInsets@d106c1
@@ -3180,15 +3180,15 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa55fcc: ldr             x1, [x1, #0x668]
     // 0xa55fd0: stur            x0, [fp, #-0x30]
     // 0xa55fd4: r0 = L()
-    //     0xa55fd4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa55fd4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa55fd8: ldur            x2, [fp, #-0x18]
     // 0xa55fdc: stur            x0, [fp, #-0x38]
     // 0xa55fe0: LoadField: r1 = r2->field_13
     //     0xa55fe0: ldur            w1, [x2, #0x13]
     // 0xa55fe4: DecompressPointer r1
     //     0xa55fe4: add             x1, x1, HEAP, lsl #32
-    // 0xa55fe8: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa55fe8: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa55fe8: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa55fe8: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa55fec: stur            x0, [fp, #-0x40]
     // 0xa55ff0: r0 = TextStyle()
     //     0xa55ff0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -3226,7 +3226,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa56040: stur            w4, [x3, #0x37]
     // 0xa56044: ldur            x2, [fp, #-0x18]
     // 0xa56048: r1 = Function '<anonymous closure>':.
-    //     0xa56048: add             x1, PP, #0x49, lsl #12  ; [pp+0x49728] AnonymousClosure: (0x9d7480), in [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
+    //     0xa56048: add             x1, PP, #0x49, lsl #12  ; [pp+0x49728] AnonymousClosure: (0x9d7480), in [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
     //     0xa5604c: ldr             x1, [x1, #0x728]
     // 0xa56050: r0 = AllocateClosure()
     //     0xa56050: bl              #0xe553e0  ; AllocateClosureStub
@@ -3256,7 +3256,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa5608c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49730] "Edit team"
     //     0xa56090: ldr             x1, [x1, #0x730]
     // 0xa56094: r0 = L()
-    //     0xa56094: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa56094: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa56098: stur            x0, [fp, #-0x18]
     // 0xa5609c: r0 = Text()
     //     0xa5609c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -3267,7 +3267,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa560ac: stur            w0, [x2, #0xb]
     // 0xa560b0: ldur            x1, [fp, #-8]
     // 0xa560b4: r0 = _canSave()
-    //     0xa560b4: bl              #0xa56314  ; [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_canSave
+    //     0xa560b4: bl              #0xa56314  ; [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_canSave
     // 0xa560b8: tbz             w0, #4, #0xa560c4
     // 0xa560bc: ldur            x0, [fp, #-8]
     // 0xa560c0: b               #0xa560d4
@@ -3282,7 +3282,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa560d8: b               #0xa560f4
     // 0xa560dc: mov             x2, x0
     // 0xa560e0: r1 = Function '_save@1207394863':.
-    //     0xa560e0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49738] AnonymousClosure: (0xa56f24), in [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_save (0xa56f5c)
+    //     0xa560e0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49738] AnonymousClosure: (0xa56f24), in [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_save (0xa56f5c)
     //     0xa560e4: ldr             x1, [x1, #0x738]
     // 0xa560e8: r0 = AllocateClosure()
     //     0xa560e8: bl              #0xe553e0  ; AllocateClosureStub
@@ -3327,7 +3327,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa56150: add             x1, PP, #0x37, lsl #12  ; [pp+0x37450] "Save"
     //     0xa56154: ldr             x1, [x1, #0x450]
     // 0xa56158: r0 = L()
-    //     0xa56158: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa56158: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa5615c: stur            x0, [fp, #-8]
     // 0xa56160: r0 = Text()
     //     0xa56160: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -3596,7 +3596,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa56dc8: DecompressPointer r2
     //     0xa56dc8: add             x2, x2, HEAP, lsl #32
     // 0xa56dcc: r0 = teamLogoUrl()
-    //     0xa56dcc: bl              #0xa56dec  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::teamLogoUrl
+    //     0xa56dcc: bl              #0xa56dec  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::teamLogoUrl
     // 0xa56dd0: LeaveFrame
     //     0xa56dd0: mov             SP, fp
     //     0xa56dd4: ldp             fp, lr, [SP], #0x10
@@ -3654,7 +3654,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa56ea8: DecompressPointer r2
     //     0xa56ea8: add             x2, x2, HEAP, lsl #32
     // 0xa56eac: r0 = teamBannerUrl()
-    //     0xa56eac: bl              #0xa56ecc  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::teamBannerUrl
+    //     0xa56eac: bl              #0xa56ecc  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::teamBannerUrl
     // 0xa56eb0: LeaveFrame
     //     0xa56eb0: mov             SP, fp
     //     0xa56eb4: ldp             fp, lr, [SP], #0x10
@@ -3683,7 +3683,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa56f3c: cmp             SP, x16
     //     0xa56f40: b.ls            #0xa56f54
     // 0xa56f44: r0 = _save()
-    //     0xa56f44: bl              #0xa56f5c  ; [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_save
+    //     0xa56f44: bl              #0xa56f5c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_save
     // 0xa56f48: LeaveFrame
     //     0xa56f48: mov             SP, fp
     //     0xa56f4c: ldp             fp, lr, [SP], #0x10
@@ -3747,7 +3747,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa56fd4: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xa56fd8: ldur            x2, [fp, #-0xf0]
     // 0xa56fdc: r1 = Function '<anonymous closure>':.
-    //     0xa56fdc: add             x1, PP, #0x49, lsl #12  ; [pp+0x497a0] AnonymousClosure: (0xa05318), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runGreenSoundsReveal (0xa050dc)
+    //     0xa56fdc: add             x1, PP, #0x49, lsl #12  ; [pp+0x497a0] AnonymousClosure: (0xa05318), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_runGreenSoundsReveal (0xa050dc)
     //     0xa56fe0: ldr             x1, [x1, #0x7a0]
     // 0xa56fe4: r0 = AllocateClosure()
     //     0xa56fe4: bl              #0xe553e0  ; AllocateClosureStub
@@ -3826,7 +3826,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa5709c: mov             x2, x1
     // 0xa570a0: mov             x1, x0
     // 0xa570a4: r0 = _trimOrNull()
-    //     0xa570a4: bl              #0xa57d6c  ; [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_trimOrNull
+    //     0xa570a4: bl              #0xa57d6c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_trimOrNull
     // 0xa570a8: mov             x3, x0
     // 0xa570ac: ldur            x0, [fp, #-0xe8]
     // 0xa570b0: r17 = -272
@@ -3851,7 +3851,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa570dc: mov             x2, x1
     // 0xa570e0: mov             x1, x0
     // 0xa570e4: r0 = _trimOrNull()
-    //     0xa570e4: bl              #0xa57d6c  ; [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_trimOrNull
+    //     0xa570e4: bl              #0xa57d6c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_trimOrNull
     // 0xa570e8: mov             x3, x0
     // 0xa570ec: ldur            x0, [fp, #-0xe8]
     // 0xa570f0: r17 = -280
@@ -3876,7 +3876,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa5711c: mov             x2, x1
     // 0xa57120: mov             x1, x0
     // 0xa57124: r0 = _trimOrNull()
-    //     0xa57124: bl              #0xa57d6c  ; [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_trimOrNull
+    //     0xa57124: bl              #0xa57d6c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_trimOrNull
     // 0xa57128: mov             x3, x0
     // 0xa5712c: ldur            x0, [fp, #-0xe8]
     // 0xa57130: r17 = -288
@@ -3901,7 +3901,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa5715c: mov             x2, x1
     // 0xa57160: mov             x1, x0
     // 0xa57164: r0 = _trimOrNull()
-    //     0xa57164: bl              #0xa57d6c  ; [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_trimOrNull
+    //     0xa57164: bl              #0xa57d6c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_trimOrNull
     // 0xa57168: mov             x3, x0
     // 0xa5716c: ldur            x0, [fp, #-0xe8]
     // 0xa57170: r17 = -296
@@ -3926,7 +3926,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa5719c: mov             x2, x1
     // 0xa571a0: mov             x1, x0
     // 0xa571a4: r0 = _trimOrNull()
-    //     0xa571a4: bl              #0xa57d6c  ; [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_trimOrNull
+    //     0xa571a4: bl              #0xa57d6c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_trimOrNull
     // 0xa571a8: mov             x3, x0
     // 0xa571ac: ldur            x0, [fp, #-0xe8]
     // 0xa571b0: r17 = -304
@@ -3951,7 +3951,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa571dc: mov             x2, x1
     // 0xa571e0: mov             x1, x0
     // 0xa571e4: r0 = _trimOrNull()
-    //     0xa571e4: bl              #0xa57d6c  ; [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_trimOrNull
+    //     0xa571e4: bl              #0xa57d6c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_trimOrNull
     // 0xa571e8: mov             x3, x0
     // 0xa571ec: ldur            x0, [fp, #-0xe8]
     // 0xa571f0: r17 = -312
@@ -3976,7 +3976,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa5721c: mov             x2, x1
     // 0xa57220: mov             x1, x0
     // 0xa57224: r0 = _trimOrNull()
-    //     0xa57224: bl              #0xa57d6c  ; [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_trimOrNull
+    //     0xa57224: bl              #0xa57d6c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_trimOrNull
     // 0xa57228: mov             x4, x0
     // 0xa5722c: ldur            x0, [fp, #-0xe8]
     // 0xa57230: r17 = -352
@@ -4058,7 +4058,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa572fc: mov             x17, #-0x130
     // 0xa57300: ldr             x7, [fp, x17]
     // 0xa57304: r0 = updateTeam()
-    //     0xa57304: bl              #0xa578a0  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::updateTeam
+    //     0xa57304: bl              #0xa578a0  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::updateTeam
     // 0xa57308: mov             x1, x0
     // 0xa5730c: r17 = -360
     //     0xa5730c: mov             x17, #-0x168
@@ -4094,7 +4094,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa5735c: mov             x3, x5
     // 0xa57360: stur            x5, [fp, #-0xf8]
     // 0xa57364: r0 = uploadTeamLogo()
-    //     0xa57364: bl              #0xa57764  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::uploadTeamLogo
+    //     0xa57364: bl              #0xa57764  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::uploadTeamLogo
     // 0xa57368: mov             x1, x0
     // 0xa5736c: r17 = -272
     //     0xa5736c: mov             x17, #-0x110
@@ -4130,7 +4130,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa573bc: mov             x3, x5
     // 0xa573c0: stur            x5, [fp, #-0xf8]
     // 0xa573c4: r0 = uploadTeamBanner()
-    //     0xa573c4: bl              #0xa5763c  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::uploadTeamBanner
+    //     0xa573c4: bl              #0xa5763c  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::uploadTeamBanner
     // 0xa573c8: mov             x1, x0
     // 0xa573cc: r17 = -272
     //     0xa573cc: mov             x17, #-0x110
@@ -4211,7 +4211,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa57494: add             x1, PP, #0x49, lsl #12  ; [pp+0x497a8] "Could not save team changes. Please try again."
     //     0xa57498: ldr             x1, [x1, #0x7a8]
     // 0xa5749c: r0 = L()
-    //     0xa5749c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa5749c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa574a0: mov             x2, x0
     // 0xa574a4: r17 = -272
     //     0xa574a4: mov             x17, #-0x110
@@ -4261,7 +4261,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa57520: b.eq            #0xa57540
     // 0xa57524: ldur            x2, [fp, #-0xf0]
     // 0xa57528: r1 = Function '<anonymous closure>':.
-    //     0xa57528: add             x1, PP, #0x49, lsl #12  ; [pp+0x497b0] AnonymousClosure: (0x9ccf08), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_tryEndLaunchSplash (0x9ccca8)
+    //     0xa57528: add             x1, PP, #0x49, lsl #12  ; [pp+0x497b0] AnonymousClosure: (0x9ccf08), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_tryEndLaunchSplash (0x9ccca8)
     //     0xa5752c: ldr             x1, [x1, #0x7b0]
     // 0xa57530: r0 = AllocateClosure()
     //     0xa57530: bl              #0xe553e0  ; AllocateClosureStub
@@ -4287,7 +4287,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa5756c: b.eq            #0xa5758c
     // 0xa57570: ldur            x2, [fp, #-0xf0]
     // 0xa57574: r1 = Function '<anonymous closure>':.
-    //     0xa57574: add             x1, PP, #0x49, lsl #12  ; [pp+0x497b0] AnonymousClosure: (0x9ccf08), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_tryEndLaunchSplash (0x9ccca8)
+    //     0xa57574: add             x1, PP, #0x49, lsl #12  ; [pp+0x497b0] AnonymousClosure: (0x9ccf08), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_tryEndLaunchSplash (0x9ccca8)
     //     0xa57578: ldr             x1, [x1, #0x7b0]
     // 0xa5757c: r0 = AllocateClosure()
     //     0xa5757c: bl              #0xe553e0  ; AllocateClosureStub
@@ -4439,7 +4439,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa57e10: mov             x2, x1
     // 0xa57e14: stur            x3, [fp, #-0x10]
     // 0xa57e18: r1 = Function '<anonymous closure>':.
-    //     0xa57e18: add             x1, PP, #0x49, lsl #12  ; [pp+0x497d0] AnonymousClosure: (0xa57e48), in [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
+    //     0xa57e18: add             x1, PP, #0x49, lsl #12  ; [pp+0x497d0] AnonymousClosure: (0xa57e48), in [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
     //     0xa57e1c: ldr             x1, [x1, #0x7d0]
     // 0xa57e20: r0 = AllocateClosure()
     //     0xa57e20: bl              #0xe553e0  ; AllocateClosureStub
@@ -4535,7 +4535,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa57f00: mov             x2, x1
     // 0xa57f04: stur            x3, [fp, #-0x10]
     // 0xa57f08: r1 = Function '<anonymous closure>':.
-    //     0xa57f08: add             x1, PP, #0x49, lsl #12  ; [pp+0x497d8] AnonymousClosure: (0xa57f38), in [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
+    //     0xa57f08: add             x1, PP, #0x49, lsl #12  ; [pp+0x497d8] AnonymousClosure: (0xa57f38), in [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
     //     0xa57f0c: ldr             x1, [x1, #0x7d8]
     // 0xa57f10: r0 = AllocateClosure()
     //     0xa57f10: bl              #0xe553e0  ; AllocateClosureStub
@@ -4767,7 +4767,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa58168: cmp             SP, x16
     //     0xa5816c: b.ls            #0xa58180
     // 0xa58170: r0 = _pickLocation()
-    //     0xa58170: bl              #0xa58188  ; [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_pickLocation
+    //     0xa58170: bl              #0xa58188  ; [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_pickLocation
     // 0xa58174: LeaveFrame
     //     0xa58174: mov             SP, fp
     //     0xa58178: ldp             fp, lr, [SP], #0x10
@@ -4816,7 +4816,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa581e0: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa581e4: ldur            x2, [fp, #-0x18]
     // 0xa581e8: r1 = Function '<anonymous closure>':.
-    //     0xa581e8: add             x1, PP, #0x49, lsl #12  ; [pp+0x497e8] AnonymousClosure: (0xa58254), in [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_pickLocation (0xa58188)
+    //     0xa581e8: add             x1, PP, #0x49, lsl #12  ; [pp+0x497e8] AnonymousClosure: (0xa58254), in [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_pickLocation (0xa58188)
     //     0xa581ec: ldr             x1, [x1, #0x7e8]
     // 0xa581f0: stur            x0, [fp, #-0x10]
     // 0xa581f4: r0 = AllocateClosure()
@@ -4869,7 +4869,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa58264: ldur            w2, [x0, #0x17]
     //     0xa58268: add             x2, x2, HEAP, lsl #32
     // 0xa5826c: r1 = Function '<anonymous closure>':.
-    //     0xa5826c: add             x1, PP, #0x49, lsl #12  ; [pp+0x497f0] AnonymousClosure: (0xa5829c), in [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_pickLocation (0xa58188)
+    //     0xa5826c: add             x1, PP, #0x49, lsl #12  ; [pp+0x497f0] AnonymousClosure: (0xa5829c), in [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_pickLocation (0xa58188)
     //     0xa58270: ldr             x1, [x1, #0x7f0]
     // 0xa58274: r0 = AllocateClosure()
     //     0xa58274: bl              #0xe553e0  ; AllocateClosureStub
@@ -4999,7 +4999,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa5839c: cmp             SP, x16
     //     0xa583a0: b.ls            #0xa583b4
     // 0xa583a4: r0 = _useCurrentLocation()
-    //     0xa583a4: bl              #0xa583bc  ; [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_useCurrentLocation
+    //     0xa583a4: bl              #0xa583bc  ; [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_useCurrentLocation
     // 0xa583a8: LeaveFrame
     //     0xa583a8: mov             SP, fp
     //     0xa583ac: ldp             fp, lr, [SP], #0x10
@@ -5043,7 +5043,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa58408: mov             x1, x2
     // 0xa5840c: stur            x2, [fp, #-0x20]
     // 0xa58410: r0 = requestLocationText()
-    //     0xa58410: bl              #0xa27cfc  ; [package:ballai/automatic/utility/location/profile_location_support.dart] CurrentProfileLocationResolver::requestLocationText
+    //     0xa58410: bl              #0xa27cfc  ; [package:kourtai/automatic/utility/location/profile_location_support.dart] CurrentProfileLocationResolver::requestLocationText
     // 0xa58414: mov             x1, x0
     // 0xa58418: stur            x1, [fp, #-0x28]
     // 0xa5841c: r0 = Await()
@@ -5073,7 +5073,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa58464: cmp             w1, NULL
     // 0xa58468: b.eq            #0xa5848c
     // 0xa5846c: r1 = Function '<anonymous closure>':.
-    //     0xa5846c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49800] AnonymousClosure: (0xa58508), in [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_useCurrentLocation (0xa583bc)
+    //     0xa5846c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49800] AnonymousClosure: (0xa58508), in [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_useCurrentLocation (0xa583bc)
     //     0xa58470: ldr             x1, [x1, #0x800]
     // 0xa58474: r0 = AllocateClosure()
     //     0xa58474: bl              #0xe553e0  ; AllocateClosureStub
@@ -5247,7 +5247,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa58614: r2 = false
     //     0xa58614: add             x2, NULL, #0x30  ; false
     // 0xa58618: r0 = _pickBranding()
-    //     0xa58618: bl              #0xa58630  ; [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_pickBranding
+    //     0xa58618: bl              #0xa58630  ; [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_pickBranding
     // 0xa5861c: LeaveFrame
     //     0xa5861c: mov             SP, fp
     //     0xa58620: ldp             fp, lr, [SP], #0x10
@@ -5361,7 +5361,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xa5874c: b.eq            #0xa58754
     //     0xa58750: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xa58754: r1 = Function '<anonymous closure>':.
-    //     0xa58754: add             x1, PP, #0x49, lsl #12  ; [pp+0x49818] AnonymousClosure: (0xa587a0), in [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_pickBranding (0xa58630)
+    //     0xa58754: add             x1, PP, #0x49, lsl #12  ; [pp+0x49818] AnonymousClosure: (0xa587a0), in [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_pickBranding (0xa58630)
     //     0xa58758: ldr             x1, [x1, #0x818]
     // 0xa5875c: r0 = AllocateClosure()
     //     0xa5875c: bl              #0xe553e0  ; AllocateClosureStub
@@ -5469,7 +5469,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     // 0xa58858: r2 = true
     //     0xa58858: add             x2, NULL, #0x20  ; true
     // 0xa5885c: r0 = _pickBranding()
-    //     0xa5885c: bl              #0xa58630  ; [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_pickBranding
+    //     0xa5885c: bl              #0xa58630  ; [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_pickBranding
     // 0xa58860: LeaveFrame
     //     0xa58860: mov             SP, fp
     //     0xa58864: ldp             fp, lr, [SP], #0x10
@@ -5486,7 +5486,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xb5b814: mov             fp, SP
     // 0xb5b818: ldr             x2, [fp, #0x10]
     // 0xb5b81c: r1 = Function 'dispose':.
-    //     0xb5b81c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49660] AnonymousClosure: (0xb5b834), in [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::dispose (0xb62888)
+    //     0xb5b81c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49660] AnonymousClosure: (0xb5b834), in [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::dispose (0xb62888)
     //     0xb5b820: ldr             x1, [x1, #0x660]
     // 0xb5b824: r0 = AllocateClosure()
     //     0xb5b824: bl              #0xe553e0  ; AllocateClosureStub
@@ -5511,7 +5511,7 @@ class _EditTeamSheetViewState extends State<dynamic> {
     //     0xb5b84c: cmp             SP, x16
     //     0xb5b850: b.ls            #0xb5b864
     // 0xb5b854: r0 = dispose()
-    //     0xb5b854: bl              #0xb62888  ; [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::dispose
+    //     0xb5b854: bl              #0xb62888  ; [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::dispose
     // 0xb5b858: LeaveFrame
     //     0xb5b858: mov             SP, fp
     //     0xb5b85c: ldp             fp, lr, [SP], #0x10
@@ -5764,7 +5764,7 @@ class EditTeamSheetView extends StatefulWidget {
     // 0xb73ee4: mov             x1, x0
     // 0xb73ee8: stur            x0, [fp, #-8]
     // 0xb73eec: r0 = _EditTeamSheetViewState()
-    //     0xb73eec: bl              #0xb73f08  ; [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_EditTeamSheetViewState
+    //     0xb73eec: bl              #0xb73f08  ; [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::_EditTeamSheetViewState
     // 0xb73ef0: ldur            x0, [fp, #-8]
     // 0xb73ef4: LeaveFrame
     //     0xb73ef4: mov             SP, fp
@@ -5798,8 +5798,8 @@ class _SectionCard extends StatelessWidget {
     //     0xbfc9dc: cmp             SP, x16
     //     0xbfc9e0: b.ls            #0xbfcc84
     // 0xbfc9e4: mov             x1, x0
-    // 0xbfc9e8: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xbfc9e8: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xbfc9e8: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xbfc9e8: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xbfc9ec: stur            x0, [fp, #-0x18]
     // 0xbfc9f0: r0 = Radius()
     //     0xbfc9f0: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -5845,8 +5845,8 @@ class _SectionCard extends StatelessWidget {
     //     0xbfca54: add             x3, x3, HEAP, lsl #32
     // 0xbfca58: ldur            x1, [fp, #-0x10]
     // 0xbfca5c: stur            x3, [fp, #-0x18]
-    // 0xbfca60: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbfca60: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbfca60: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbfca60: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbfca64: stur            x0, [fp, #-0x28]
     // 0xbfca68: r0 = TextStyle()
     //     0xbfca68: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -5925,8 +5925,8 @@ class _SectionCard extends StatelessWidget {
     // 0xbfcb24: cmp             w2, NULL
     // 0xbfcb28: b.eq            #0xbfcbc8
     // 0xbfcb2c: ldur            x1, [fp, #-0x10]
-    // 0xbfcb30: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbfcb30: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbfcb30: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbfcb30: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbfcb34: stur            x0, [fp, #-8]
     // 0xbfcb38: r0 = TextStyle()
     //     0xbfcb38: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/components/home/workout/charts/basic_stats/streak_distribution_chart_view_model.dart
+// lib: , url: package:kourtai/automatic/viewmodels/components/home/workout/charts/basic_stats/streak_distribution_chart_view_model.dart
 
 // class id: 1048762, size: 0x8
 class :: {
@@ -60,7 +60,7 @@ class StreakDistributionChartViewModel extends Object {
     // 0x9e2150: r0 = List.from()
     //     0x9e2150: bl              #0x5f9020  ; [dart:core] List::List.from
     // 0x9e2154: r1 = Function '<anonymous closure>':.
-    //     0x9e2154: add             x1, PP, #0x55, lsl #12  ; [pp+0x55640] AnonymousClosure: (0x8f6a60), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
+    //     0x9e2154: add             x1, PP, #0x55, lsl #12  ; [pp+0x55640] AnonymousClosure: (0x8f6a60), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
     //     0x9e2158: ldr             x1, [x1, #0x640]
     // 0x9e215c: r2 = Null
     //     0x9e215c: mov             x2, NULL
@@ -377,7 +377,7 @@ class StreakDistributionChartViewModel extends Object {
     //     0x9e24f4: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0x9e24f8: ldur            x2, [fp, #-0x18]
     // 0x9e24fc: r1 = Function '<anonymous closure>':.
-    //     0x9e24fc: add             x1, PP, #0x55, lsl #12  ; [pp+0x55688] AnonymousClosure: (0x9e2928), in [package:ballai/automatic/viewmodels/components/home/workout/charts/basic_stats/streak_distribution_chart_view_model.dart] StreakDistributionChartViewModel::calculateStreakDistribution (0x9e20c8)
+    //     0x9e24fc: add             x1, PP, #0x55, lsl #12  ; [pp+0x55688] AnonymousClosure: (0x9e2928), in [package:kourtai/automatic/viewmodels/components/home/workout/charts/basic_stats/streak_distribution_chart_view_model.dart] StreakDistributionChartViewModel::calculateStreakDistribution (0x9e20c8)
     //     0x9e2500: ldr             x1, [x1, #0x688]
     // 0x9e2504: r0 = AllocateClosure()
     //     0x9e2504: bl              #0xe553e0  ; AllocateClosureStub
@@ -393,7 +393,7 @@ class StreakDistributionChartViewModel extends Object {
     // 0x9e2520: r0 = _GrowableList.of()
     //     0x9e2520: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x9e2524: r1 = Function '<anonymous closure>':.
-    //     0x9e2524: add             x1, PP, #0x55, lsl #12  ; [pp+0x55690] AnonymousClosure: (0x9e28fc), in [package:ballai/automatic/viewmodels/components/home/workout/charts/basic_stats/streak_distribution_chart_view_model.dart] StreakDistributionChartViewModel::calculateStreakDistribution (0x9e20c8)
+    //     0x9e2524: add             x1, PP, #0x55, lsl #12  ; [pp+0x55690] AnonymousClosure: (0x9e28fc), in [package:kourtai/automatic/viewmodels/components/home/workout/charts/basic_stats/streak_distribution_chart_view_model.dart] StreakDistributionChartViewModel::calculateStreakDistribution (0x9e20c8)
     //     0x9e2528: ldr             x1, [x1, #0x690]
     // 0x9e252c: r2 = Null
     //     0x9e252c: mov             x2, NULL
@@ -409,7 +409,7 @@ class StreakDistributionChartViewModel extends Object {
     //     0x9e2548: mov             x0, #3
     // 0x9e254c: b               #0x9e2584
     // 0x9e2550: r1 = Function '<anonymous closure>':.
-    //     0x9e2550: add             x1, PP, #0x55, lsl #12  ; [pp+0x55698] AnonymousClosure: (0x9e28d0), in [package:ballai/automatic/viewmodels/components/home/workout/charts/basic_stats/streak_distribution_chart_view_model.dart] StreakDistributionChartViewModel::calculateStreakDistribution (0x9e20c8)
+    //     0x9e2550: add             x1, PP, #0x55, lsl #12  ; [pp+0x55698] AnonymousClosure: (0x9e28d0), in [package:kourtai/automatic/viewmodels/components/home/workout/charts/basic_stats/streak_distribution_chart_view_model.dart] StreakDistributionChartViewModel::calculateStreakDistribution (0x9e20c8)
     //     0x9e2554: ldr             x1, [x1, #0x698]
     // 0x9e2558: r2 = Null
     //     0x9e2558: mov             x2, NULL
@@ -431,7 +431,7 @@ class StreakDistributionChartViewModel extends Object {
     // 0x9e258c: StoreField: r2->field_13 = r1
     //     0x9e258c: stur            w1, [x2, #0x13]
     // 0x9e2590: r1 = Function '<anonymous closure>':.
-    //     0x9e2590: add             x1, PP, #0x55, lsl #12  ; [pp+0x556a0] AnonymousClosure: (0x9e2890), in [package:ballai/automatic/viewmodels/components/home/workout/charts/basic_stats/streak_distribution_chart_view_model.dart] StreakDistributionChartViewModel::calculateStreakDistribution (0x9e20c8)
+    //     0x9e2590: add             x1, PP, #0x55, lsl #12  ; [pp+0x556a0] AnonymousClosure: (0x9e2890), in [package:kourtai/automatic/viewmodels/components/home/workout/charts/basic_stats/streak_distribution_chart_view_model.dart] StreakDistributionChartViewModel::calculateStreakDistribution (0x9e20c8)
     //     0x9e2594: ldr             x1, [x1, #0x6a0]
     // 0x9e2598: r0 = AllocateClosure()
     //     0x9e2598: bl              #0xe553e0  ; AllocateClosureStub
@@ -590,7 +590,7 @@ class StreakDistributionChartViewModel extends Object {
     // 0x9e2770: StoreField: r3->field_b = r0
     //     0x9e2770: stur            w0, [x3, #0xb]
     // 0x9e2774: r1 = Function '<anonymous closure>':.
-    //     0x9e2774: add             x1, PP, #0x55, lsl #12  ; [pp+0x556a8] AnonymousClosure: (0x9e2824), in [package:ballai/automatic/viewmodels/components/home/workout/charts/basic_stats/streak_distribution_chart_view_model.dart] StreakDistributionChartViewModel::calculateStreakDistribution (0x9e20c8)
+    //     0x9e2774: add             x1, PP, #0x55, lsl #12  ; [pp+0x556a8] AnonymousClosure: (0x9e2824), in [package:kourtai/automatic/viewmodels/components/home/workout/charts/basic_stats/streak_distribution_chart_view_model.dart] StreakDistributionChartViewModel::calculateStreakDistribution (0x9e20c8)
     //     0x9e2778: ldr             x1, [x1, #0x6a8]
     // 0x9e277c: r2 = Null
     //     0x9e277c: mov             x2, NULL
@@ -614,7 +614,7 @@ class StreakDistributionChartViewModel extends Object {
     // 0x9e27ac: r0 = _GrowableList.of()
     //     0x9e27ac: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x9e27b0: r1 = Function '<anonymous closure>':.
-    //     0x9e27b0: add             x1, PP, #0x55, lsl #12  ; [pp+0x556b8] AnonymousClosure: static (0x600fbc), in [package:ballai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetchEvents (0x601034)
+    //     0x9e27b0: add             x1, PP, #0x55, lsl #12  ; [pp+0x556b8] AnonymousClosure: static (0x600fbc), in [package:kourtai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetchEvents (0x601034)
     //     0x9e27b4: ldr             x1, [x1, #0x6b8]
     // 0x9e27b8: r2 = Null
     //     0x9e27b8: mov             x2, NULL

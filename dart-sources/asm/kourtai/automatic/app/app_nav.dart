@@ -1,12 +1,12 @@
-// lib: , url: package:ballai/automatic/app/app_nav.dart
+// lib: , url: package:kourtai/automatic/app/app_nav.dart
 
 // class id: 1048628, size: 0x8
 class :: {
 
-  static late final GlobalKey<NavigatorState> ballAiRootNavigatorKey; // offset: 0xbf0
-  static late final GlobalKey<ScaffoldMessengerState> ballAiRootScaffoldMessengerKey; // offset: 0xbf4
+  static late final GlobalKey<NavigatorState> kourtAiRootNavigatorKey; // offset: 0xbf0
+  static late final GlobalKey<ScaffoldMessengerState> kourtAiRootScaffoldMessengerKey; // offset: 0xbf4
 
-  static GlobalKey<NavigatorState> ballAiRootNavigatorKey() {
+  static GlobalKey<NavigatorState> kourtAiRootNavigatorKey() {
     // ** addr: 0x7329b4, size: 0x1c
     // 0x7329b4: EnterFrame
     //     0x7329b4: stp             fp, lr, [SP, #-0x10]!
@@ -53,13 +53,13 @@ class :: {
     //     0x940b60: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x940b64: cmp             SP, x16
     //     0x940b68: b.ls            #0x940bd8
-    // 0x940b6c: r0 = InitLateStaticField(0xbf0) // [package:ballai/automatic/app/app_nav.dart] ::ballAiRootNavigatorKey
+    // 0x940b6c: r0 = InitLateStaticField(0xbf0) // [package:kourtai/automatic/app/app_nav.dart] ::kourtAiRootNavigatorKey
     //     0x940b6c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x940b70: ldr             x0, [x0, #0x17e0]
     //     0x940b74: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
     //     0x940b78: cmp             w0, w16
     //     0x940b7c: b.ne            #0x940b8c
-    //     0x940b80: add             x2, PP, #0x12, lsl #12  ; [pp+0x12440] Field <::.ballAiRootNavigatorKey>: static late final (offset: 0xbf0)
+    //     0x940b80: add             x2, PP, #0x12, lsl #12  ; [pp+0x12440] Field <::.kourtAiRootNavigatorKey>: static late final (offset: 0xbf0)
     //     0x940b84: ldr             x2, [x2, #0x440]
     //     0x940b88: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x940b8c: mov             x1, x0
@@ -73,7 +73,7 @@ class :: {
     //     0x940ba4: bl              #0x940a48  ; [package:flutter/src/widgets/navigator.dart] NavigatorState::canPop
     // 0x940ba8: tbnz            w0, #4, #0x940bc8
     // 0x940bac: r1 = Function '<anonymous closure>': static.
-    //     0x940bac: add             x1, PP, #0x12, lsl #12  ; [pp+0x12448] AnonymousClosure: static (0x940b24), in [package:ballai/automatic/app/app_nav.dart] ::popAuthFunnelToRoot (0x940b54)
+    //     0x940bac: add             x1, PP, #0x12, lsl #12  ; [pp+0x12448] AnonymousClosure: static (0x940b24), in [package:kourtai/automatic/app/app_nav.dart] ::popAuthFunnelToRoot (0x940b54)
     //     0x940bb0: ldr             x1, [x1, #0x448]
     // 0x940bb4: r2 = Null
     //     0x940bb4: mov             x2, NULL
@@ -94,7 +94,7 @@ class :: {
     //     0x940bd8: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x940bdc: b               #0x940b6c
   }
-  static GlobalKey<ScaffoldMessengerState> ballAiRootScaffoldMessengerKey() {
+  static GlobalKey<ScaffoldMessengerState> kourtAiRootScaffoldMessengerKey() {
     // ** addr: 0xab1b34, size: 0x20
     // 0xab1b34: EnterFrame
     //     0xab1b34: stp             fp, lr, [SP, #-0x10]!

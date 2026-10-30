@@ -6,7 +6,7 @@ import android.R;
 public abstract class c {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
-    public static int[] f65833a = {R.attr.orientation, R.attr.clipToPadding, R.attr.descendantFocusability, ballai.app.R.attr.fastScrollEnabled, ballai.app.R.attr.fastScrollHorizontalThumbDrawable, ballai.app.R.attr.fastScrollHorizontalTrackDrawable, ballai.app.R.attr.fastScrollVerticalThumbDrawable, ballai.app.R.attr.fastScrollVerticalTrackDrawable, ballai.app.R.attr.layoutManager, ballai.app.R.attr.reverseLayout, ballai.app.R.attr.spanCount, ballai.app.R.attr.stackFromEnd};
+    public static int[] f65833a = {R.attr.orientation, R.attr.clipToPadding, R.attr.descendantFocusability, kourtai.app.R.attr.fastScrollEnabled, kourtai.app.R.attr.fastScrollHorizontalThumbDrawable, kourtai.app.R.attr.fastScrollHorizontalTrackDrawable, kourtai.app.R.attr.fastScrollVerticalThumbDrawable, kourtai.app.R.attr.fastScrollVerticalTrackDrawable, kourtai.app.R.attr.layoutManager, kourtai.app.R.attr.reverseLayout, kourtai.app.R.attr.spanCount, kourtai.app.R.attr.stackFromEnd};
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */
     public static int f65834b = 0;

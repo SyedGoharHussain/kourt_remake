@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/video_analysis_view.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/video_analysis_view.dart
 
 // class id: 1049266, size: 0x8
 class :: {
@@ -23,7 +23,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0x6c0294: b.ls            #0x6c02ac
     // 0x6c0298: ldr             x2, [fp, #0x10]
     // 0x6c029c: r0 = _onCameraFrame()
-    //     0x6c029c: bl              #0x77b22c  ; [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_onCameraFrame
+    //     0x6c029c: bl              #0x77b22c  ; [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_onCameraFrame
     // 0x6c02a0: LeaveFrame
     //     0x6c02a0: mov             SP, fp
     //     0x6c02a4: ldp             fp, lr, [SP], #0x10
@@ -49,7 +49,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0x6cdf8c: b.ls            #0x6cdfa4
     // 0x6cdf90: ldr             x2, [fp, #0x10]
     // 0x6cdf94: r0 = _onFrameProcessed()
-    //     0x6cdf94: bl              #0x6cdfac  ; [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_onFrameProcessed
+    //     0x6cdf94: bl              #0x6cdfac  ; [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_onFrameProcessed
     // 0x6cdf98: LeaveFrame
     //     0x6cdf98: mov             SP, fp
     //     0x6cdf9c: ldp             fp, lr, [SP], #0x10
@@ -74,7 +74,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0x6cdfc4: add             x0, x0, HEAP, lsl #32
     // 0x6cdfc8: mov             x1, x0
     // 0x6cdfcc: r0 = processLiveFrame()
-    //     0x6cdfcc: bl              #0x6cdfe8  ; [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processLiveFrame
+    //     0x6cdfcc: bl              #0x6cdfe8  ; [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processLiveFrame
     // 0x6cdfd0: r0 = Null
     //     0x6cdfd0: mov             x0, NULL
     // 0x6cdfd4: LeaveFrame
@@ -109,7 +109,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0x77b258: DecompressPointer r3
     //     0x77b258: add             x3, x3, HEAP, lsl #32
     // 0x77b25c: tbnz            w3, #4, #0x77b298
-    // 0x77b260: r0 = InitLateStaticField(0x10fc) // [package:ballai/video_tracking/session/mediums/live_capture_service.dart] LiveCaptureService::instance
+    // 0x77b260: r0 = InitLateStaticField(0x10fc) // [package:kourtai/video_tracking/session/mediums/live_capture_service.dart] LiveCaptureService::instance
     //     0x77b260: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x77b264: ldr             x0, [x0, #0x21f8]
     //     0x77b268: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -127,7 +127,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0x77b290: r3 = 0
     //     0x77b290: mov             x3, #0
     // 0x77b294: r0 = feedVideoStorageIfNeeded()
-    //     0x77b294: bl              #0x7796a4  ; [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::feedVideoStorageIfNeeded
+    //     0x77b294: bl              #0x7796a4  ; [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::feedVideoStorageIfNeeded
     // 0x77b298: r0 = Null
     //     0x77b298: mov             x0, NULL
     // 0x77b29c: LeaveFrame
@@ -169,7 +169,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0x99f914: r1 = true
     //     0x99f914: add             x1, NULL, #0x20  ; true
     // 0x99f918: r0 = setWorkoutVolumeKeys()
-    //     0x99f918: bl              #0x99fa58  ; [package:ballai/video_tracking/session/feedback/system_output_volume.dart] SystemOutputVolume::setWorkoutVolumeKeys
+    //     0x99f918: bl              #0x99fa58  ; [package:kourtai/video_tracking/session/feedback/system_output_volume.dart] SystemOutputVolume::setWorkoutVolumeKeys
     // 0x99f91c: ldur            x2, [fp, #-8]
     // 0x99f920: LoadField: r0 = r2->field_b
     //     0x99f920: ldur            w0, [x2, #0xb]
@@ -183,7 +183,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0x99f934: add             x0, x0, HEAP, lsl #32
     // 0x99f938: stur            x0, [fp, #-0x18]
     // 0x99f93c: r1 = Function '_onManagerChanged@1452303122':.
-    //     0x99f93c: add             x1, PP, #0x34, lsl #12  ; [pp+0x34d00] AnonymousClosure: (0x99fbec), in [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_onManagerChanged (0x99fc24)
+    //     0x99f93c: add             x1, PP, #0x34, lsl #12  ; [pp+0x34d00] AnonymousClosure: (0x99fbec), in [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_onManagerChanged (0x99fc24)
     //     0x99f940: ldr             x1, [x1, #0xd00]
     // 0x99f944: r0 = AllocateClosure()
     //     0x99f944: bl              #0xe553e0  ; AllocateClosureStub
@@ -208,7 +208,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0x99f978: ldur            x2, [fp, #-0x10]
     // 0x99f97c: stur            x0, [fp, #-8]
     // 0x99f980: r1 = Function '<anonymous closure>':.
-    //     0x99f980: add             x1, PP, #0x34, lsl #12  ; [pp+0x34d20] AnonymousClosure: (0x99fb20), in [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::initState (0x99f8d4)
+    //     0x99f980: add             x1, PP, #0x34, lsl #12  ; [pp+0x34d20] AnonymousClosure: (0x99fb20), in [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::initState (0x99f8d4)
     //     0x99f984: ldr             x1, [x1, #0xd20]
     // 0x99f988: r0 = AllocateClosure()
     //     0x99f988: bl              #0xe553e0  ; AllocateClosureStub
@@ -380,7 +380,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0x99fc04: cmp             SP, x16
     //     0x99fc08: b.ls            #0x99fc1c
     // 0x99fc0c: r0 = _onManagerChanged()
-    //     0x99fc0c: bl              #0x99fc24  ; [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_onManagerChanged
+    //     0x99fc0c: bl              #0x99fc24  ; [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_onManagerChanged
     // 0x99fc10: LeaveFrame
     //     0x99fc10: mov             SP, fp
     //     0x99fc14: ldp             fp, lr, [SP], #0x10
@@ -406,7 +406,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0x99fc40: b.ls            #0x99fca4
     // 0x99fc44: mov             x1, x0
     // 0x99fc48: r0 = _syncCaptureOrientation()
-    //     0x99fc48: bl              #0x99ff78  ; [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_syncCaptureOrientation
+    //     0x99fc48: bl              #0x99ff78  ; [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_syncCaptureOrientation
     // 0x99fc4c: ldur            x0, [fp, #-8]
     // 0x99fc50: LoadField: r1 = r0->field_13
     //     0x99fc50: ldur            w1, [x0, #0x13]
@@ -428,7 +428,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0x99fc74: stur            w1, [x0, #0x27]
     // 0x99fc78: mov             x1, x0
     // 0x99fc7c: r0 = _refreshDailyStreakIfPossible()
-    //     0x99fc7c: bl              #0x99fcb0  ; [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_refreshDailyStreakIfPossible
+    //     0x99fc7c: bl              #0x99fcb0  ; [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_refreshDailyStreakIfPossible
     // 0x99fc80: ldur            x1, [fp, #-8]
     // 0x99fc84: LoadField: r2 = r1->field_b
     //     0x99fc84: ldur            w2, [x1, #0xb]
@@ -516,7 +516,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0x99fd54: ldur            x2, [fp, #-0x10]
     // 0x99fd58: ldur            x3, [fp, #-0x18]
     // 0x99fd5c: r0 = refreshStreak()
-    //     0x99fd5c: bl              #0x99fd7c  ; [package:ballai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::refreshStreak
+    //     0x99fd5c: bl              #0x99fd7c  ; [package:kourtai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::refreshStreak
     // 0x99fd60: r0 = Null
     //     0x99fd60: mov             x0, NULL
     // 0x99fd64: LeaveFrame
@@ -549,7 +549,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0x99ff9c: DecompressPointer r1
     //     0x99ff9c: add             x1, x1, HEAP, lsl #32
     // 0x99ffa0: r0 = shouldUseVerticalTrackingMode()
-    //     0x99ffa0: bl              #0x9a0008  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::shouldUseVerticalTrackingMode
+    //     0x99ffa0: bl              #0x9a0008  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::shouldUseVerticalTrackingMode
     // 0x99ffa4: mov             x1, x0
     // 0x99ffa8: ldur            x0, [fp, #-8]
     // 0x99ffac: LoadField: r2 = r0->field_2b
@@ -606,7 +606,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0xad6ed8: b.ls            #0xad6ef0
     // 0xad6edc: ldr             x2, [fp, #0x10]
     // 0xad6ee0: r0 = _applyCaptureLayout()
-    //     0xad6ee0: bl              #0xad6ef8  ; [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_applyCaptureLayout
+    //     0xad6ee0: bl              #0xad6ef8  ; [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_applyCaptureLayout
     // 0xad6ee4: LeaveFrame
     //     0xad6ee4: mov             SP, fp
     //     0xad6ee8: ldp             fp, lr, [SP], #0x10
@@ -639,7 +639,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0xad6f28: stur            NULL, [x0, #0x2b]
     // 0xad6f2c: mov             x1, x0
     // 0xad6f30: r0 = _syncCaptureOrientation()
-    //     0xad6f30: bl              #0x99ff78  ; [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_syncCaptureOrientation
+    //     0xad6f30: bl              #0x99ff78  ; [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_syncCaptureOrientation
     // 0xad6f34: ldur            x0, [fp, #-0x10]
     // 0xad6f38: LoadField: r1 = r0->field_1f
     //     0xad6f38: ldur            w1, [x0, #0x1f]
@@ -672,7 +672,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0xad6f84: csel            x2, x16, x17, eq
     // 0xad6f88: mov             x1, x0
     // 0xad6f8c: r0 = setLensDirection()
-    //     0xad6f8c: bl              #0xad6fb0  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::setLensDirection
+    //     0xad6f8c: bl              #0xad6fb0  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::setLensDirection
     // 0xad6f90: mov             x1, x0
     // 0xad6f94: mov             x0, x1
     // 0xad6f98: stur            x1, [fp, #-0x10]
@@ -701,7 +701,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0xad8530: cmp             SP, x16
     //     0xad8534: b.ls            #0xad8548
     // 0xad8538: r0 = _closeSession()
-    //     0xad8538: bl              #0xad8550  ; [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_closeSession
+    //     0xad8538: bl              #0xad8550  ; [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_closeSession
     // 0xad853c: LeaveFrame
     //     0xad853c: mov             SP, fp
     //     0xad8540: ldp             fp, lr, [SP], #0x10
@@ -756,7 +756,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0xad85b8: add             x4, PP, #0x34, lsl #12  ; [pp+0x34ca8] List(7) [0, 0x2, 0x1, 0x1, "navigator", 0x1, Null]
     //     0xad85bc: ldr             x4, [x4, #0xca8]
     // 0xad85c0: r0 = VideoWorkoutManagerSession.deinitializeSession()
-    //     0xad85c0: bl              #0x73176c  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.deinitializeSession
+    //     0xad85c0: bl              #0x73176c  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.deinitializeSession
     // 0xad85c4: mov             x1, x0
     // 0xad85c8: stur            x1, [fp, #-0x20]
     // 0xad85cc: r0 = Await()
@@ -791,13 +791,13 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0xad8618: add             x16, NULL, #0x20  ; true
     // 0xad861c: cmp             w0, w16
     // 0xad8620: b.ne            #0xad8658
-    // 0xad8624: r0 = InitLateStaticField(0xbf0) // [package:ballai/automatic/app/app_nav.dart] ::ballAiRootNavigatorKey
+    // 0xad8624: r0 = InitLateStaticField(0xbf0) // [package:kourtai/automatic/app/app_nav.dart] ::kourtAiRootNavigatorKey
     //     0xad8624: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xad8628: ldr             x0, [x0, #0x17e0]
     //     0xad862c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
     //     0xad8630: cmp             w0, w16
     //     0xad8634: b.ne            #0xad8644
-    //     0xad8638: add             x2, PP, #0x12, lsl #12  ; [pp+0x12440] Field <::.ballAiRootNavigatorKey>: static late final (offset: 0xbf0)
+    //     0xad8638: add             x2, PP, #0x12, lsl #12  ; [pp+0x12440] Field <::.kourtAiRootNavigatorKey>: static late final (offset: 0xbf0)
     //     0xad863c: ldr             x2, [x2, #0x440]
     //     0xad8640: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0xad8644: mov             x1, x0
@@ -823,7 +823,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0xad8680: cmp             w0, NULL
     // 0xad8684: b.eq            #0xad8698
     // 0xad8688: r0 = _showSecondWorkoutUpsellDialog()
-    //     0xad8688: bl              #0xad86b0  ; [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_showSecondWorkoutUpsellDialog
+    //     0xad8688: bl              #0xad86b0  ; [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_showSecondWorkoutUpsellDialog
     // 0xad868c: mov             x1, x0
     // 0xad8690: stur            x1, [fp, #-0x10]
     // 0xad8694: r0 = Await()
@@ -870,7 +870,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0xad86f4: r0 = ReturnAsyncNotFuture()
     //     0xad86f4: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xad86f8: r1 = Function '<anonymous closure>':.
-    //     0xad86f8: add             x1, PP, #0x34, lsl #12  ; [pp+0x34cb0] AnonymousClosure: (0xad893c), in [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_showSecondWorkoutUpsellDialog (0xad86b0)
+    //     0xad86f8: add             x1, PP, #0x34, lsl #12  ; [pp+0x34cb0] AnonymousClosure: (0xad893c), in [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_showSecondWorkoutUpsellDialog (0xad86b0)
     //     0xad86fc: ldr             x1, [x1, #0xcb0]
     // 0xad8700: r2 = Null
     //     0xad8700: mov             x2, NULL
@@ -912,7 +912,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0xad8764: cmp             w1, NULL
     // 0xad8768: b.eq            #0xad87b4
     // 0xad876c: r1 = Function '<anonymous closure>':.
-    //     0xad876c: add             x1, PP, #0x34, lsl #12  ; [pp+0x34cb8] AnonymousClosure: (0xad87dc), in [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_showSecondWorkoutUpsellDialog (0xad86b0)
+    //     0xad876c: add             x1, PP, #0x34, lsl #12  ; [pp+0x34cb8] AnonymousClosure: (0xad87dc), in [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_showSecondWorkoutUpsellDialog (0xad86b0)
     //     0xad8770: ldr             x1, [x1, #0xcb8]
     // 0xad8774: r2 = Null
     //     0xad8774: mov             x2, NULL
@@ -1120,7 +1120,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0xad8974: stur            w0, [x3, #0xf]
     // 0xad8978: mov             x2, x3
     // 0xad897c: r1 = Function '<anonymous closure>':.
-    //     0xad897c: add             x1, PP, #0x34, lsl #12  ; [pp+0x34cd0] AnonymousClosure: (0x658b4c), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible (0x658ea8)
+    //     0xad897c: add             x1, PP, #0x34, lsl #12  ; [pp+0x34cd0] AnonymousClosure: (0x658b4c), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible (0x658ea8)
     //     0xad8980: ldr             x1, [x1, #0xcd0]
     // 0xad8984: r0 = AllocateClosure()
     //     0xad8984: bl              #0xe553e0  ; AllocateClosureStub
@@ -1147,7 +1147,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0xad89b8: stur            w1, [x3, #0x37]
     // 0xad89bc: ldur            x2, [fp, #-0x10]
     // 0xad89c0: r1 = Function '<anonymous closure>':.
-    //     0xad89c0: add             x1, PP, #0x34, lsl #12  ; [pp+0x34ce0] AnonymousClosure: (0x6587e8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentTrialExitReturnOfferAlertIfEligible (0x6148dc)
+    //     0xad89c0: add             x1, PP, #0x34, lsl #12  ; [pp+0x34ce0] AnonymousClosure: (0x6587e8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentTrialExitReturnOfferAlertIfEligible (0x6148dc)
     //     0xad89c4: ldr             x1, [x1, #0xce0]
     // 0xad89c8: r0 = AllocateClosure()
     //     0xad89c8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1269,7 +1269,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0xad9698: mov             x2, x0
     // 0xad969c: stur            x4, [fp, #-0x18]
     // 0xad96a0: r1 = Function '_onCameraFrame@1452303122':.
-    //     0xad96a0: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fea8] AnonymousClosure: (0x6c0278), in [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_onCameraFrame (0x77b22c)
+    //     0xad96a0: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fea8] AnonymousClosure: (0x6c0278), in [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_onCameraFrame (0x77b22c)
     //     0xad96a4: ldr             x1, [x1, #0xea8]
     // 0xad96a8: r0 = AllocateClosure()
     //     0xad96a8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1283,7 +1283,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0xad96c0: stur            w0, [x3, #0xf]
     // 0xad96c4: ldur            x2, [fp, #-8]
     // 0xad96c8: r1 = Function '_onFrameProcessed@1452303122':.
-    //     0xad96c8: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2feb0] AnonymousClosure: (0x6cdf70), in [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_onFrameProcessed (0x6cdfac)
+    //     0xad96c8: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2feb0] AnonymousClosure: (0x6cdf70), in [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_onFrameProcessed (0x6cdfac)
     //     0xad96cc: ldr             x1, [x1, #0xeb0]
     // 0xad96d0: r0 = AllocateClosure()
     //     0xad96d0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1346,7 +1346,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0xad9778: ldur            x2, [fp, #-0x10]
     // 0xad977c: stur            x0, [fp, #-0x18]
     // 0xad9780: r1 = Function '<anonymous closure>':.
-    //     0xad9780: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2feb8] AnonymousClosure: (0xad98a4), in [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::build (0xad9630)
+    //     0xad9780: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2feb8] AnonymousClosure: (0xad98a4), in [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::build (0xad9630)
     //     0xad9784: ldr             x1, [x1, #0xeb8]
     // 0xad9788: r0 = AllocateClosure()
     //     0xad9788: bl              #0xe553e0  ; AllocateClosureStub
@@ -1537,7 +1537,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0xad9970: stur            w16, [x3, #0xf]
     // 0xad9974: b               #0xad9fb8
     // 0xad9978: r0 = _isShowingPreWorkoutSetup()
-    //     0xad9978: bl              #0xada504  ; [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_isShowingPreWorkoutSetup
+    //     0xad9978: bl              #0xada504  ; [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_isShowingPreWorkoutSetup
     // 0xad997c: tbnz            w0, #4, #0xad9a10
     // 0xad9980: ldur            x0, [fp, #-8]
     // 0xad9984: LoadField: r2 = r0->field_f
@@ -1545,7 +1545,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0xad9988: DecompressPointer r2
     //     0xad9988: add             x2, x2, HEAP, lsl #32
     // 0xad998c: r1 = Function '_closeSession@1452303122':.
-    //     0xad998c: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fec8] AnonymousClosure: (0xad8518), in [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_closeSession (0xad8550)
+    //     0xad998c: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fec8] AnonymousClosure: (0xad8518), in [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_closeSession (0xad8550)
     //     0xad9990: ldr             x1, [x1, #0xec8]
     // 0xad9994: r0 = AllocateClosure()
     //     0xad9994: bl              #0xe553e0  ; AllocateClosureStub
@@ -1647,7 +1647,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0xad9a8c: b               #0xad9fb8
     // 0xad9a90: ldur            x0, [fp, #-0x20]
     // 0xad9a94: r0 = _shouldShowTripodCalibrationPrompt()
-    //     0xad9a94: bl              #0xada378  ; [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_shouldShowTripodCalibrationPrompt
+    //     0xad9a94: bl              #0xada378  ; [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_shouldShowTripodCalibrationPrompt
     // 0xad9a98: tbnz            w0, #4, #0xad9afc
     // 0xad9a9c: ldur            x0, [fp, #-0x20]
     // 0xad9aa0: LoadField: r1 = r0->field_b
@@ -1743,7 +1743,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0xad9b7c: tbz             w1, #4, #0xad9c20
     // 0xad9b80: mov             x1, x3
     // 0xad9b84: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0xad9b84: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0xad9b84: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0xad9b88: tbnz            w0, #4, #0xad9b98
     // 0xad9b8c: r2 = Instance_DribbleStatsOverlay
     //     0xad9b8c: add             x2, PP, #0x2f, lsl #12  ; [pp+0x2fef0] Obj!DribbleStatsOverlay@d22df1
@@ -1812,7 +1812,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0xad9c40: tbz             w1, #4, #0xad9cb8
     // 0xad9c44: mov             x1, x3
     // 0xad9c48: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0xad9c48: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0xad9c48: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0xad9c4c: tbz             w0, #4, #0xad9cb0
     // 0xad9c50: ldur            x0, [fp, #-0x28]
     // 0xad9c54: LoadField: r1 = r0->field_b
@@ -2053,7 +2053,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0xad9ecc: tbz             w1, #4, #0xad9f4c
     // 0xad9ed0: mov             x1, x3
     // 0xad9ed4: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0xad9ed4: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0xad9ed4: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0xad9ed8: tbz             w0, #4, #0xad9f4c
     // 0xad9edc: r1 = <Widget>
     //     0xad9edc: ldr             x1, [PP, #0x4f10]  ; [pp+0x4f10] TypeArguments: <Widget>
@@ -2199,7 +2199,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0xada04c: DecompressPointer r1
     //     0xada04c: add             x1, x1, HEAP, lsl #32
     // 0xada050: r0 = _showMenu()
-    //     0xada050: bl              #0xada2a0  ; [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_showMenu
+    //     0xada050: bl              #0xada2a0  ; [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_showMenu
     // 0xada054: tbnz            w0, #4, #0xada158
     // 0xada058: ldur            x0, [fp, #-8]
     // 0xada05c: ldur            x3, [fp, #-0x10]
@@ -2216,7 +2216,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0xada078: b.eq            #0xada284
     // 0xada07c: mov             x2, x4
     // 0xada080: r1 = Function '_closeSession@1452303122':.
-    //     0xada080: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fec8] AnonymousClosure: (0xad8518), in [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_closeSession (0xad8550)
+    //     0xada080: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fec8] AnonymousClosure: (0xad8518), in [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_closeSession (0xad8550)
     //     0xada084: ldr             x1, [x1, #0xec8]
     // 0xada088: r0 = AllocateClosure()
     //     0xada088: bl              #0xe553e0  ; AllocateClosureStub
@@ -2230,7 +2230,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0xada0a0: stur            w0, [x3, #0xb]
     // 0xada0a4: ldur            x2, [fp, #-8]
     // 0xada0a8: r1 = Function '<anonymous closure>':.
-    //     0xada0a8: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2ff28] AnonymousClosure: (0xada6c4), in [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::build (0xad9630)
+    //     0xada0a8: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2ff28] AnonymousClosure: (0xada6c4), in [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::build (0xad9630)
     //     0xada0ac: ldr             x1, [x1, #0xf28]
     // 0xada0b0: r0 = AllocateClosure()
     //     0xada0b0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2240,7 +2240,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0xada0bc: stur            w1, [x0, #0xf]
     // 0xada0c0: ldur            x2, [fp, #-0x20]
     // 0xada0c4: r1 = Function '_applyCaptureLayout@1452303122':.
-    //     0xada0c4: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2ff30] AnonymousClosure: (0xad6ebc), in [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_applyCaptureLayout (0xad6ef8)
+    //     0xada0c4: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2ff30] AnonymousClosure: (0xad6ebc), in [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_applyCaptureLayout (0xad6ef8)
     //     0xada0c8: ldr             x1, [x1, #0xf30]
     // 0xada0cc: r0 = AllocateClosure()
     //     0xada0cc: bl              #0xe553e0  ; AllocateClosureStub
@@ -2321,7 +2321,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0xada1a4: stur            w0, [x3, #0xb]
     // 0xada1a8: ldur            x2, [fp, #-0x20]
     // 0xada1ac: r1 = Function 'dismissGuardWarning':.
-    //     0xada1ac: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2ff38] AnonymousClosure: (0xada62c), in [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::dismissGuardWarning (0xada664)
+    //     0xada1ac: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2ff38] AnonymousClosure: (0xada62c), in [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::dismissGuardWarning (0xada664)
     //     0xada1b0: ldr             x1, [x1, #0xf38]
     // 0xada1b4: r0 = AllocateClosure()
     //     0xada1b4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2425,7 +2425,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0xada2cc: b.eq            #0xada368
     // 0xada2d0: mov             x1, x0
     // 0xada2d4: r0 = _isShowingPreWorkoutSetup()
-    //     0xada2d4: bl              #0xada504  ; [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_isShowingPreWorkoutSetup
+    //     0xada2d4: bl              #0xada504  ; [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_isShowingPreWorkoutSetup
     // 0xada2d8: tbnz            w0, #4, #0xada2ec
     // 0xada2dc: r0 = false
     //     0xada2dc: add             x0, NULL, #0x30  ; false
@@ -2453,7 +2453,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0xada314: ret
     //     0xada314: ret             
     // 0xada318: r0 = _shouldShowTripodCalibrationPrompt()
-    //     0xada318: bl              #0xada378  ; [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_shouldShowTripodCalibrationPrompt
+    //     0xada318: bl              #0xada378  ; [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_shouldShowTripodCalibrationPrompt
     // 0xada31c: tbnz            w0, #4, #0xada330
     // 0xada320: r0 = false
     //     0xada320: add             x0, NULL, #0x30  ; false
@@ -2509,7 +2509,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0xada3a4: b.eq            #0xada4ac
     // 0xada3a8: mov             x1, x0
     // 0xada3ac: r0 = _isDribbleSession()
-    //     0xada3ac: bl              #0xada4b0  ; [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_isDribbleSession
+    //     0xada3ac: bl              #0xada4b0  ; [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_isDribbleSession
     // 0xada3b0: tbnz            w0, #4, #0xada3c4
     // 0xada3b4: r0 = false
     //     0xada3b4: add             x0, NULL, #0x30  ; false
@@ -2518,7 +2518,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0xada3bc: ldp             fp, lr, [SP], #0x10
     // 0xada3c0: ret
     //     0xada3c0: ret             
-    // 0xada3c4: r0 = InitLateStaticField(0xc48) // [package:ballai/video_tracking/utility/defaults/defaults_video_workout_camera_mount.dart] DefaultsVideoWorkoutCameraMount::_cached
+    // 0xada3c4: r0 = InitLateStaticField(0xc48) // [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_camera_mount.dart] DefaultsVideoWorkoutCameraMount::_cached
     //     0xada3c4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xada3c8: ldr             x0, [x0, #0x1890]
     //     0xada3cc: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2628,7 +2628,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0xada4c8: add             x0, x0, HEAP, lsl #32
     // 0xada4cc: mov             x1, x0
     // 0xada4d0: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0xada4d0: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0xada4d0: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0xada4d4: tbnz            w0, #4, #0xada4e0
     // 0xada4d8: r0 = true
     //     0xada4d8: add             x0, NULL, #0x20  ; true
@@ -2681,14 +2681,14 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0xada550: tbnz            w2, #4, #0xada560
     // 0xada554: mov             x1, x0
     // 0xada558: r0 = _hasRequiredAudioMode()
-    //     0xada558: bl              #0xada5dc  ; [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_hasRequiredAudioMode
+    //     0xada558: bl              #0xada5dc  ; [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_hasRequiredAudioMode
     // 0xada55c: tbz             w0, #4, #0xada568
     // 0xada560: r0 = true
     //     0xada560: add             x0, NULL, #0x20  ; true
     // 0xada564: b               #0xada578
     // 0xada568: ldur            x1, [fp, #-8]
     // 0xada56c: r0 = _hasRequiredCameraMount()
-    //     0xada56c: bl              #0xada58c  ; [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_hasRequiredCameraMount
+    //     0xada56c: bl              #0xada58c  ; [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_hasRequiredCameraMount
     // 0xada570: eor             x1, x0, #0x10
     // 0xada574: mov             x0, x1
     // 0xada578: LeaveFrame
@@ -2715,7 +2715,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0xada5a4: add             x0, x0, HEAP, lsl #32
     // 0xada5a8: mov             x1, x0
     // 0xada5ac: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0xada5ac: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0xada5ac: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0xada5b0: tbnz            w0, #4, #0xada5bc
     // 0xada5b4: r0 = true
     //     0xada5b4: add             x0, NULL, #0x20  ; true
@@ -2748,7 +2748,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0xada5f4: add             x0, x0, HEAP, lsl #32
     // 0xada5f8: mov             x1, x0
     // 0xada5fc: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0xada5fc: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0xada5fc: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0xada600: tbnz            w0, #4, #0xada60c
     // 0xada604: r0 = true
     //     0xada604: add             x0, NULL, #0x20  ; true
@@ -2797,7 +2797,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0xada704: b               #0xada710
     // 0xada708: mov             x1, x0
     // 0xada70c: r0 = flipCamera()
-    //     0xada70c: bl              #0xada724  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::flipCamera
+    //     0xada70c: bl              #0xada724  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::flipCamera
     // 0xada710: LeaveFrame
     //     0xada710: mov             SP, fp
     //     0xada714: ldp             fp, lr, [SP], #0x10
@@ -2814,7 +2814,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0xb5d08c: mov             fp, SP
     // 0xb5d090: ldr             x2, [fp, #0x10]
     // 0xb5d094: r1 = Function 'dispose':.
-    //     0xb5d094: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3ab38] AnonymousClosure: (0xb5d0ac), in [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::dispose (0xb64d60)
+    //     0xb5d094: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3ab38] AnonymousClosure: (0xb5d0ac), in [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::dispose (0xb64d60)
     //     0xb5d098: ldr             x1, [x1, #0xb38]
     // 0xb5d09c: r0 = AllocateClosure()
     //     0xb5d09c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2839,7 +2839,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0xb5d0c4: cmp             SP, x16
     //     0xb5d0c8: b.ls            #0xb5d0dc
     // 0xb5d0cc: r0 = dispose()
-    //     0xb5d0cc: bl              #0xb64d60  ; [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::dispose
+    //     0xb5d0cc: bl              #0xb64d60  ; [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::dispose
     // 0xb5d0d0: LeaveFrame
     //     0xb5d0d0: mov             SP, fp
     //     0xb5d0d4: ldp             fp, lr, [SP], #0x10
@@ -2874,7 +2874,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0xb64d94: DecompressPointer r1
     //     0xb64d94: add             x1, x1, HEAP, lsl #32
     // 0xb64d98: r0 = unbindWorkoutSessionNavigator()
-    //     0xb64d98: bl              #0xb64e1c  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::unbindWorkoutSessionNavigator
+    //     0xb64d98: bl              #0xb64e1c  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::unbindWorkoutSessionNavigator
     // 0xb64d9c: ldur            x2, [fp, #-8]
     // 0xb64da0: StoreField: r2->field_23 = rNULL
     //     0xb64da0: stur            NULL, [x2, #0x23]
@@ -2883,7 +2883,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0xb64dac: r1 = false
     //     0xb64dac: add             x1, NULL, #0x30  ; false
     // 0xb64db0: r0 = setWorkoutVolumeKeys()
-    //     0xb64db0: bl              #0x99fa58  ; [package:ballai/video_tracking/session/feedback/system_output_volume.dart] SystemOutputVolume::setWorkoutVolumeKeys
+    //     0xb64db0: bl              #0x99fa58  ; [package:kourtai/video_tracking/session/feedback/system_output_volume.dart] SystemOutputVolume::setWorkoutVolumeKeys
     // 0xb64db4: r1 = const [Instance of 'DeviceOrientation']
     //     0xb64db4: add             x1, PP, #0x28, lsl #12  ; [pp+0x28068] List<DeviceOrientation>(1)
     //     0xb64db8: ldr             x1, [x1, #0x68]
@@ -2897,7 +2897,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     // 0xb64dcc: mov             x2, x0
     // 0xb64dd0: stur            x3, [fp, #-0x10]
     // 0xb64dd4: r1 = Function '_onManagerChanged@1452303122':.
-    //     0xb64dd4: add             x1, PP, #0x34, lsl #12  ; [pp+0x34d00] AnonymousClosure: (0x99fbec), in [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_onManagerChanged (0x99fc24)
+    //     0xb64dd4: add             x1, PP, #0x34, lsl #12  ; [pp+0x34d00] AnonymousClosure: (0x99fbec), in [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_onManagerChanged (0x99fc24)
     //     0xb64dd8: ldr             x1, [x1, #0xd00]
     // 0xb64ddc: r0 = AllocateClosure()
     //     0xb64ddc: bl              #0xe553e0  ; AllocateClosureStub
@@ -2941,7 +2941,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0xb7793c: b.ls            #0xb77a4c
     // 0xb77940: StoreField: r1->field_27 = r0
     //     0xb77940: stur            w0, [x1, #0x27]
-    // 0xb77944: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0xb77944: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0xb77944: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb77948: ldr             x0, [x0, #0x1cf0]
     //     0xb7794c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2961,7 +2961,7 @@ class _VideoAnalysisViewState extends State<dynamic> {
     //     0xb77980: tst             x16, HEAP, lsr #32
     //     0xb77984: b.eq            #0xb7798c
     //     0xb77988: bl              #0xe5479c  ; WriteBarrierWrappersStub
-    // 0xb7798c: r0 = InitLateStaticField(0x1100) // [package:ballai/video_tracking/session/mediums/recorded_video_analysis_service.dart] RecordedVideoAnalysisService::instance
+    // 0xb7798c: r0 = InitLateStaticField(0x1100) // [package:kourtai/video_tracking/session/mediums/recorded_video_analysis_service.dart] RecordedVideoAnalysisService::instance
     //     0xb7798c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb77990: ldr             x0, [x0, #0x2200]
     //     0xb77994: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3054,7 +3054,7 @@ class VideoAnalysisView extends StatefulWidget {
     // 0xb778fc: mov             x1, x0
     // 0xb77900: stur            x0, [fp, #-8]
     // 0xb77904: r0 = _VideoAnalysisViewState()
-    //     0xb77904: bl              #0xb77920  ; [package:ballai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_VideoAnalysisViewState
+    //     0xb77904: bl              #0xb77920  ; [package:kourtai/video_tracking/views/workout/video_analysis_view.dart] _VideoAnalysisViewState::_VideoAnalysisViewState
     // 0xb77908: ldur            x0, [fp, #-8]
     // 0xb7790c: LeaveFrame
     //     0xb7790c: mov             SP, fp

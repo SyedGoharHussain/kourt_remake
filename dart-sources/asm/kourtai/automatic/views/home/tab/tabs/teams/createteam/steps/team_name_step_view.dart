@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_name_step_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_name_step_view.dart
 
 // class id: 1048933, size: 0x8
 class :: {
@@ -79,7 +79,7 @@ class _TeamNameStepViewState extends State<dynamic> {
     //     0x96f524: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0x96f528: ldur            x2, [fp, #-0x18]
     // 0x96f52c: r1 = Function '<anonymous closure>':.
-    //     0x96f52c: add             x1, PP, #0x37, lsl #12  ; [pp+0x37320] AnonymousClosure: (0x96f594), in [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_name_step_view.dart] _TeamNameStepViewState::initState (0x96f474)
+    //     0x96f52c: add             x1, PP, #0x37, lsl #12  ; [pp+0x37320] AnonymousClosure: (0x96f594), in [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_name_step_view.dart] _TeamNameStepViewState::initState (0x96f474)
     //     0x96f530: ldr             x1, [x1, #0x320]
     // 0x96f534: r0 = AllocateClosure()
     //     0x96f534: bl              #0xe553e0  ; AllocateClosureStub
@@ -257,11 +257,11 @@ class _TeamNameStepViewState extends State<dynamic> {
     //     0xa540e0: add             x1, PP, #0x37, lsl #12  ; [pp+0x37310] "Squad name"
     //     0xa540e4: ldr             x1, [x1, #0x310]
     // 0xa540e8: r0 = L()
-    //     0xa540e8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa540e8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa540ec: ldur            x1, [fp, #-0x10]
     // 0xa540f0: stur            x0, [fp, #-0x18]
-    // 0xa540f4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa540f4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa540f4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa540f4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa540f8: stur            x0, [fp, #-0x28]
     // 0xa540fc: r0 = TextStyle()
     //     0xa540fc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -349,8 +349,8 @@ class _TeamNameStepViewState extends State<dynamic> {
     //     0xa541e0: add             x3, x3, HEAP, lsl #32
     // 0xa541e4: ldur            x1, [fp, #-0x10]
     // 0xa541e8: stur            x3, [fp, #-0x18]
-    // 0xa541ec: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa541ec: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa541ec: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa541ec: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa541f0: stur            x0, [fp, #-8]
     // 0xa541f4: r0 = TextStyle()
     //     0xa541f4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -377,11 +377,11 @@ class _TeamNameStepViewState extends State<dynamic> {
     //     0xa54228: add             x1, PP, #0x37, lsl #12  ; [pp+0x37310] "Squad name"
     //     0xa5422c: ldr             x1, [x1, #0x310]
     // 0xa54230: r0 = L()
-    //     0xa54230: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa54230: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa54234: ldur            x1, [fp, #-0x10]
     // 0xa54238: stur            x0, [fp, #-8]
-    // 0xa5423c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa5423c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa5423c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa5423c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa54240: stur            x0, [fp, #-0x30]
     // 0xa54244: r0 = BorderSide()
     //     0xa54244: bl              #0x829108  ; AllocateBorderSideStub -> BorderSide (size=0x20)
@@ -416,8 +416,8 @@ class _TeamNameStepViewState extends State<dynamic> {
     // 0xa54290: StoreField: r2->field_7 = r1
     //     0xa54290: stur            w1, [x2, #7]
     // 0xa54294: ldur            x1, [fp, #-0x10]
-    // 0xa54298: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa54298: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa54298: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa54298: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa5429c: stur            x0, [fp, #-0x40]
     // 0xa542a0: r0 = BorderSide()
     //     0xa542a0: bl              #0x829108  ; AllocateBorderSideStub -> BorderSide (size=0x20)
@@ -452,8 +452,8 @@ class _TeamNameStepViewState extends State<dynamic> {
     // 0xa542ec: StoreField: r2->field_7 = r1
     //     0xa542ec: stur            w1, [x2, #7]
     // 0xa542f0: ldur            x1, [fp, #-0x10]
-    // 0xa542f4: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa542f4: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa542f4: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa542f4: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa542f8: stur            x0, [fp, #-0x10]
     // 0xa542fc: r0 = BorderSide()
     //     0xa542fc: bl              #0x829108  ; AllocateBorderSideStub -> BorderSide (size=0x20)
@@ -723,7 +723,7 @@ class _TeamNameStepViewState extends State<dynamic> {
     //     0xb5b75c: mov             fp, SP
     // 0xb5b760: ldr             x2, [fp, #0x10]
     // 0xb5b764: r1 = Function 'dispose':.
-    //     0xb5b764: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bbd8] AnonymousClosure: (0xb5b77c), in [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_name_step_view.dart] _TeamNameStepViewState::dispose (0xb62718)
+    //     0xb5b764: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bbd8] AnonymousClosure: (0xb5b77c), in [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_name_step_view.dart] _TeamNameStepViewState::dispose (0xb62718)
     //     0xb5b768: ldr             x1, [x1, #0xbd8]
     // 0xb5b76c: r0 = AllocateClosure()
     //     0xb5b76c: bl              #0xe553e0  ; AllocateClosureStub
@@ -748,7 +748,7 @@ class _TeamNameStepViewState extends State<dynamic> {
     //     0xb5b794: cmp             SP, x16
     //     0xb5b798: b.ls            #0xb5b7ac
     // 0xb5b79c: r0 = dispose()
-    //     0xb5b79c: bl              #0xb62718  ; [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_name_step_view.dart] _TeamNameStepViewState::dispose
+    //     0xb5b79c: bl              #0xb62718  ; [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_name_step_view.dart] _TeamNameStepViewState::dispose
     // 0xb5b7a0: LeaveFrame
     //     0xb5b7a0: mov             SP, fp
     //     0xb5b7a4: ldp             fp, lr, [SP], #0x10

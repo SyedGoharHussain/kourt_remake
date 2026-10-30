@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_subscription_actions_section_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_subscription_actions_section_view.dart
 
 // class id: 1048880, size: 0x8
 class :: {
@@ -67,7 +67,7 @@ class AccountSubscriptionActionsSectionView extends StatelessWidget {
     // 0xbda0b4: ldur            x1, [fp, #-8]
     // 0xbda0b8: ldur            x2, [fp, #-0x10]
     // 0xbda0bc: r0 = _subscriptionAtRiskKind()
-    //     0xbda0bc: bl              #0xbda628  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_subscription_actions_section_view.dart] AccountSubscriptionActionsSectionView::_subscriptionAtRiskKind
+    //     0xbda0bc: bl              #0xbda628  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_subscription_actions_section_view.dart] AccountSubscriptionActionsSectionView::_subscriptionAtRiskKind
     // 0xbda0c0: r1 = <Widget>
     //     0xbda0c0: ldr             x1, [PP, #0x4f10]  ; [pp+0x4f10] TypeArguments: <Widget>
     // 0xbda0c4: r2 = 0
@@ -87,10 +87,10 @@ class AccountSubscriptionActionsSectionView extends StatelessWidget {
     //     0xbda0ec: add             x1, PP, #0x49, lsl #12  ; [pp+0x49e60] "Renew subscription"
     //     0xbda0f0: ldr             x1, [x1, #0xe60]
     // 0xbda0f4: r0 = L()
-    //     0xbda0f4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbda0f4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbda0f8: stur            x0, [fp, #-0x20]
-    // 0xbda0fc: r0 = BallAiSettingsNavigationRow()
-    //     0xbda0fc: bl              #0xbd8000  ; AllocateBallAiSettingsNavigationRowStub -> BallAiSettingsNavigationRow (size=0x20)
+    // 0xbda0fc: r0 = KourtAiSettingsNavigationRow()
+    //     0xbda0fc: bl              #0xbd8000  ; AllocateKourtAiSettingsNavigationRowStub -> KourtAiSettingsNavigationRow (size=0x20)
     // 0xbda100: mov             x3, x0
     // 0xbda104: ldur            x0, [fp, #-0x20]
     // 0xbda108: stur            x3, [fp, #-0x28]
@@ -98,7 +98,7 @@ class AccountSubscriptionActionsSectionView extends StatelessWidget {
     //     0xbda10c: stur            w0, [x3, #0xb]
     // 0xbda110: ldur            x2, [fp, #-0x18]
     // 0xbda114: r1 = Function '<anonymous closure>':.
-    //     0xbda114: add             x1, PP, #0x49, lsl #12  ; [pp+0x49e68] AnonymousClosure: (0xbdaa68), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_subscription_actions_section_view.dart] AccountSubscriptionActionsSectionView::build (0xbda01c)
+    //     0xbda114: add             x1, PP, #0x49, lsl #12  ; [pp+0x49e68] AnonymousClosure: (0xbdaa68), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_subscription_actions_section_view.dart] AccountSubscriptionActionsSectionView::build (0xbda01c)
     //     0xbda118: ldr             x1, [x1, #0xe68]
     // 0xbda11c: r0 = AllocateClosure()
     //     0xbda11c: bl              #0xe553e0  ; AllocateClosureStub
@@ -168,10 +168,10 @@ class AccountSubscriptionActionsSectionView extends StatelessWidget {
     //     0xbda1d0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49e60] "Renew subscription"
     //     0xbda1d4: ldr             x1, [x1, #0xe60]
     // 0xbda1d8: r0 = L()
-    //     0xbda1d8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbda1d8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbda1dc: stur            x0, [fp, #-0x20]
-    // 0xbda1e0: r0 = BallAiSettingsNavigationRow()
-    //     0xbda1e0: bl              #0xbd8000  ; AllocateBallAiSettingsNavigationRowStub -> BallAiSettingsNavigationRow (size=0x20)
+    // 0xbda1e0: r0 = KourtAiSettingsNavigationRow()
+    //     0xbda1e0: bl              #0xbd8000  ; AllocateKourtAiSettingsNavigationRowStub -> KourtAiSettingsNavigationRow (size=0x20)
     // 0xbda1e4: mov             x3, x0
     // 0xbda1e8: ldur            x0, [fp, #-0x20]
     // 0xbda1ec: stur            x3, [fp, #-0x28]
@@ -179,7 +179,7 @@ class AccountSubscriptionActionsSectionView extends StatelessWidget {
     //     0xbda1f0: stur            w0, [x3, #0xb]
     // 0xbda1f4: ldur            x2, [fp, #-0x18]
     // 0xbda1f8: r1 = Function '<anonymous closure>':.
-    //     0xbda1f8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49e78] AnonymousClosure: (0xbda9bc), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_subscription_actions_section_view.dart] AccountSubscriptionActionsSectionView::build (0xbda01c)
+    //     0xbda1f8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49e78] AnonymousClosure: (0xbda9bc), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_subscription_actions_section_view.dart] AccountSubscriptionActionsSectionView::build (0xbda01c)
     //     0xbda1fc: ldr             x1, [x1, #0xe78]
     // 0xbda200: r0 = AllocateClosure()
     //     0xbda200: bl              #0xe553e0  ; AllocateClosureStub
@@ -271,21 +271,21 @@ class AccountSubscriptionActionsSectionView extends StatelessWidget {
     // 0xbda2f0: DecompressPointer r2
     //     0xbda2f0: add             x2, x2, HEAP, lsl #32
     // 0xbda2f4: add             x3, x2, x1, lsl #2
-    // 0xbda2f8: r16 = Instance_BallAiSettingsDivider
-    //     0xbda2f8: add             x16, PP, #0x44, lsl #12  ; [pp+0x44ea8] Obj!BallAiSettingsDivider@d25ae1
+    // 0xbda2f8: r16 = Instance_KourtAiSettingsDivider
+    //     0xbda2f8: add             x16, PP, #0x44, lsl #12  ; [pp+0x44ea8] Obj!KourtAiSettingsDivider@d25ae1
     //     0xbda2fc: ldr             x16, [x16, #0xea8]
     // 0xbda300: StoreField: r3->field_f = r16
     //     0xbda300: stur            w16, [x3, #0xf]
     // 0xbda304: b               #0xbda30c
     // 0xbda308: mov             x0, x2
-    // 0xbda30c: r1 = "Unlock Ball AI Teams Pro"
-    //     0xbda30c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49e80] "Unlock Ball AI Teams Pro"
+    // 0xbda30c: r1 = "Unlock Kourt AI Teams Pro"
+    //     0xbda30c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49e80] "Unlock Kourt AI Teams Pro"
     //     0xbda310: ldr             x1, [x1, #0xe80]
     // 0xbda314: r0 = L()
-    //     0xbda314: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbda314: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbda318: stur            x0, [fp, #-8]
-    // 0xbda31c: r0 = BallAiSettingsNavigationRow()
-    //     0xbda31c: bl              #0xbd8000  ; AllocateBallAiSettingsNavigationRowStub -> BallAiSettingsNavigationRow (size=0x20)
+    // 0xbda31c: r0 = KourtAiSettingsNavigationRow()
+    //     0xbda31c: bl              #0xbd8000  ; AllocateKourtAiSettingsNavigationRowStub -> KourtAiSettingsNavigationRow (size=0x20)
     // 0xbda320: mov             x3, x0
     // 0xbda324: ldur            x0, [fp, #-8]
     // 0xbda328: stur            x3, [fp, #-0x20]
@@ -293,7 +293,7 @@ class AccountSubscriptionActionsSectionView extends StatelessWidget {
     //     0xbda32c: stur            w0, [x3, #0xb]
     // 0xbda330: ldur            x2, [fp, #-0x18]
     // 0xbda334: r1 = Function '<anonymous closure>':.
-    //     0xbda334: add             x1, PP, #0x49, lsl #12  ; [pp+0x49e88] AnonymousClosure: (0xbda910), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_subscription_actions_section_view.dart] AccountSubscriptionActionsSectionView::build (0xbda01c)
+    //     0xbda334: add             x1, PP, #0x49, lsl #12  ; [pp+0x49e88] AnonymousClosure: (0xbda910), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_subscription_actions_section_view.dart] AccountSubscriptionActionsSectionView::build (0xbda01c)
     //     0xbda338: ldr             x1, [x1, #0xe88]
     // 0xbda33c: r0 = AllocateClosure()
     //     0xbda33c: bl              #0xe553e0  ; AllocateClosureStub
@@ -375,8 +375,8 @@ class AccountSubscriptionActionsSectionView extends StatelessWidget {
     // 0xbda414: DecompressPointer r2
     //     0xbda414: add             x2, x2, HEAP, lsl #32
     // 0xbda418: add             x3, x2, x1, lsl #2
-    // 0xbda41c: r16 = Instance_BallAiSettingsDivider
-    //     0xbda41c: add             x16, PP, #0x44, lsl #12  ; [pp+0x44ea8] Obj!BallAiSettingsDivider@d25ae1
+    // 0xbda41c: r16 = Instance_KourtAiSettingsDivider
+    //     0xbda41c: add             x16, PP, #0x44, lsl #12  ; [pp+0x44ea8] Obj!KourtAiSettingsDivider@d25ae1
     //     0xbda420: ldr             x16, [x16, #0xea8]
     // 0xbda424: StoreField: r3->field_f = r16
     //     0xbda424: stur            w16, [x3, #0xf]
@@ -384,17 +384,17 @@ class AccountSubscriptionActionsSectionView extends StatelessWidget {
     //     0xbda428: add             x1, PP, #0x49, lsl #12  ; [pp+0x49e98] "Manage subscription"
     //     0xbda42c: ldr             x1, [x1, #0xe98]
     // 0xbda430: r0 = L()
-    //     0xbda430: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbda430: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbda434: stur            x0, [fp, #-8]
-    // 0xbda438: r0 = BallAiSettingsNavigationRow()
-    //     0xbda438: bl              #0xbd8000  ; AllocateBallAiSettingsNavigationRowStub -> BallAiSettingsNavigationRow (size=0x20)
+    // 0xbda438: r0 = KourtAiSettingsNavigationRow()
+    //     0xbda438: bl              #0xbd8000  ; AllocateKourtAiSettingsNavigationRowStub -> KourtAiSettingsNavigationRow (size=0x20)
     // 0xbda43c: mov             x3, x0
     // 0xbda440: ldur            x0, [fp, #-8]
     // 0xbda444: stur            x3, [fp, #-0x18]
     // 0xbda448: StoreField: r3->field_b = r0
     //     0xbda448: stur            w0, [x3, #0xb]
     // 0xbda44c: r1 = Function '<anonymous closure>':.
-    //     0xbda44c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49ea0] AnonymousClosure: (0xbda7a8), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_subscription_actions_section_view.dart] AccountSubscriptionActionsSectionView::build (0xbda01c)
+    //     0xbda44c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49ea0] AnonymousClosure: (0xbda7a8), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_subscription_actions_section_view.dart] AccountSubscriptionActionsSectionView::build (0xbda01c)
     //     0xbda450: ldr             x1, [x1, #0xea0]
     // 0xbda454: r2 = Null
     //     0xbda454: mov             x2, NULL
@@ -478,8 +478,8 @@ class AccountSubscriptionActionsSectionView extends StatelessWidget {
     // 0xbda530: DecompressPointer r2
     //     0xbda530: add             x2, x2, HEAP, lsl #32
     // 0xbda534: add             x3, x2, x1, lsl #2
-    // 0xbda538: r16 = Instance_BallAiSettingsDivider
-    //     0xbda538: add             x16, PP, #0x44, lsl #12  ; [pp+0x44ea8] Obj!BallAiSettingsDivider@d25ae1
+    // 0xbda538: r16 = Instance_KourtAiSettingsDivider
+    //     0xbda538: add             x16, PP, #0x44, lsl #12  ; [pp+0x44ea8] Obj!KourtAiSettingsDivider@d25ae1
     //     0xbda53c: ldr             x16, [x16, #0xea8]
     // 0xbda540: StoreField: r3->field_f = r16
     //     0xbda540: stur            w16, [x3, #0xf]
@@ -487,17 +487,17 @@ class AccountSubscriptionActionsSectionView extends StatelessWidget {
     //     0xbda544: add             x1, PP, #0x20, lsl #12  ; [pp+0x209b0] "What\'s New"
     //     0xbda548: ldr             x1, [x1, #0x9b0]
     // 0xbda54c: r0 = L()
-    //     0xbda54c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbda54c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbda550: stur            x0, [fp, #-8]
-    // 0xbda554: r0 = BallAiSettingsNavigationRow()
-    //     0xbda554: bl              #0xbd8000  ; AllocateBallAiSettingsNavigationRowStub -> BallAiSettingsNavigationRow (size=0x20)
+    // 0xbda554: r0 = KourtAiSettingsNavigationRow()
+    //     0xbda554: bl              #0xbd8000  ; AllocateKourtAiSettingsNavigationRowStub -> KourtAiSettingsNavigationRow (size=0x20)
     // 0xbda558: mov             x3, x0
     // 0xbda55c: ldur            x0, [fp, #-8]
     // 0xbda560: stur            x3, [fp, #-0x18]
     // 0xbda564: StoreField: r3->field_b = r0
     //     0xbda564: stur            w0, [x3, #0xb]
     // 0xbda568: r1 = Function '<anonymous closure>':.
-    //     0xbda568: add             x1, PP, #0x49, lsl #12  ; [pp+0x49eb0] AnonymousClosure: (0xbda6f0), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_subscription_actions_section_view.dart] AccountSubscriptionActionsSectionView::build (0xbda01c)
+    //     0xbda568: add             x1, PP, #0x49, lsl #12  ; [pp+0x49eb0] AnonymousClosure: (0xbda6f0), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_subscription_actions_section_view.dart] AccountSubscriptionActionsSectionView::build (0xbda01c)
     //     0xbda56c: ldr             x1, [x1, #0xeb0]
     // 0xbda570: r2 = Null
     //     0xbda570: mov             x2, NULL
@@ -554,8 +554,8 @@ class AccountSubscriptionActionsSectionView extends StatelessWidget {
     //     0xbda5fc: tst             x16, HEAP, lsr #32
     //     0xbda600: b.eq            #0xbda608
     //     0xbda604: bl              #0xe54358  ; ArrayWriteBarrierStub
-    // 0xbda608: r0 = BallAiSettingsSection()
-    //     0xbda608: bl              #0xbd7ff4  ; AllocateBallAiSettingsSectionStub -> BallAiSettingsSection (size=0x10)
+    // 0xbda608: r0 = KourtAiSettingsSection()
+    //     0xbda608: bl              #0xbd7ff4  ; AllocateKourtAiSettingsSectionStub -> KourtAiSettingsSection (size=0x10)
     // 0xbda60c: ldur            x1, [fp, #-0x10]
     // 0xbda610: StoreField: r0->field_b = r1
     //     0xbda610: stur            w1, [x0, #0xb]
@@ -614,12 +614,12 @@ class AccountSubscriptionActionsSectionView extends StatelessWidget {
     // 0xbda690: csel            x2, x16, x17, eq
     // 0xbda694: mov             x1, x0
     // 0xbda698: stur            x2, [fp, #-8]
-    // 0xbda69c: r0 = hasActiveBallAiProBillingIssue()
-    //     0xbda69c: bl              #0x8e9064  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveBallAiProBillingIssue
+    // 0xbda69c: r0 = hasActiveKourtAiProBillingIssue()
+    //     0xbda69c: bl              #0x8e9064  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveKourtAiProBillingIssue
     // 0xbda6a0: ldur            x1, [fp, #-0x10]
     // 0xbda6a4: stur            x0, [fp, #-0x10]
-    // 0xbda6a8: r0 = hasActiveCancelledRenewalBallAiPro()
-    //     0xbda6a8: bl              #0x8e8f74  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveCancelledRenewalBallAiPro
+    // 0xbda6a8: r0 = hasActiveCancelledRenewalKourtAiPro()
+    //     0xbda6a8: bl              #0x8e8f74  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveCancelledRenewalKourtAiPro
     // 0xbda6ac: ldur            x1, [fp, #-0x10]
     // 0xbda6b0: tbnz            w1, #4, #0xbda6c0
     // 0xbda6b4: r0 = Instance_SubscriptionAtRiskPlanSheetKind
@@ -654,7 +654,7 @@ class AccountSubscriptionActionsSectionView extends StatelessWidget {
     //     0xbda6fc: cmp             SP, x16
     //     0xbda700: b.ls            #0xbda718
     // 0xbda704: r0 = request()
-    //     0xbda704: bl              #0xbda720  ; [package:ballai/automatic/utility/ui/whats_new_presentation.dart] WhatsNewPresentation::request
+    //     0xbda704: bl              #0xbda720  ; [package:kourtai/automatic/utility/ui/whats_new_presentation.dart] WhatsNewPresentation::request
     // 0xbda708: r0 = Null
     //     0xbda708: mov             x0, NULL
     // 0xbda70c: LeaveFrame
@@ -676,7 +676,7 @@ class AccountSubscriptionActionsSectionView extends StatelessWidget {
     //     0xbda7b4: cmp             SP, x16
     //     0xbda7b8: b.ls            #0xbda7d0
     // 0xbda7bc: r0 = present()
-    //     0xbda7bc: bl              #0xbda7d8  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/customer_center_screen.dart] CustomerCenterScreen::present
+    //     0xbda7bc: bl              #0xbda7d8  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/customer_center_screen.dart] CustomerCenterScreen::present
     // 0xbda7c0: r0 = Null
     //     0xbda7c0: mov             x0, NULL
     // 0xbda7c4: LeaveFrame
@@ -713,7 +713,7 @@ class AccountSubscriptionActionsSectionView extends StatelessWidget {
     // 0xbda944: r0 = of()
     //     0xbda944: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xbda948: r1 = Function '<anonymous closure>':.
-    //     0xbda948: add             x1, PP, #0x49, lsl #12  ; [pp+0x49ec0] AnonymousClosure: (0xbda9b0), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_subscription_actions_section_view.dart] AccountSubscriptionActionsSectionView::build (0xbda01c)
+    //     0xbda948: add             x1, PP, #0x49, lsl #12  ; [pp+0x49ec0] AnonymousClosure: (0xbda9b0), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_subscription_actions_section_view.dart] AccountSubscriptionActionsSectionView::build (0xbda01c)
     //     0xbda94c: ldr             x1, [x1, #0xec0]
     // 0xbda950: r2 = Null
     //     0xbda950: mov             x2, NULL
@@ -786,7 +786,7 @@ class AccountSubscriptionActionsSectionView extends StatelessWidget {
     // 0xbda9f0: r0 = of()
     //     0xbda9f0: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xbda9f4: r1 = Function '<anonymous closure>':.
-    //     0xbda9f4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49ed0] AnonymousClosure: (0xbdaa5c), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_subscription_actions_section_view.dart] AccountSubscriptionActionsSectionView::build (0xbda01c)
+    //     0xbda9f4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49ed0] AnonymousClosure: (0xbdaa5c), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_subscription_actions_section_view.dart] AccountSubscriptionActionsSectionView::build (0xbda01c)
     //     0xbda9f8: ldr             x1, [x1, #0xed0]
     // 0xbda9fc: r2 = Null
     //     0xbda9fc: mov             x2, NULL
@@ -871,7 +871,7 @@ class AccountSubscriptionActionsSectionView extends StatelessWidget {
     //     0xbdaab4: add             x0, x0, HEAP, lsl #32
     // 0xbdaab8: mov             x1, x0
     // 0xbdaabc: r0 = openManageSubscriptions()
-    //     0xbdaabc: bl              #0x951ee8  ; [package:ballai/automatic/app/dependencies/handlers/core/play_billing_handler.dart] PlayBillingHandler::openManageSubscriptions
+    //     0xbdaabc: bl              #0x951ee8  ; [package:kourtai/automatic/app/dependencies/handlers/core/play_billing_handler.dart] PlayBillingHandler::openManageSubscriptions
     // 0xbdaac0: r0 = Null
     //     0xbdaac0: mov             x0, NULL
     // 0xbdaac4: LeaveFrame

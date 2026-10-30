@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart
+// lib: , url: package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart
 
 // class id: 1048771, size: 0x8
 class :: {
@@ -58,7 +58,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     //     0x9790ac: add             x2, x2, HEAP, lsl #32
     // 0x9790b0: mov             x1, x3
     // 0x9790b4: r0 = setRosterTeam()
-    //     0x9790b4: bl              #0x97535c  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::setRosterTeam
+    //     0x9790b4: bl              #0x97535c  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::setRosterTeam
     // 0x9790b8: ldur            x1, [fp, #-8]
     // 0x9790bc: LoadField: r0 = r1->field_4b
     //     0x9790bc: ldur            w0, [x1, #0x4b]
@@ -76,7 +76,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0x9790e4: ldur            x0, [fp, #-8]
     // 0x9790e8: ldur            x2, [fp, #-0x10]
     // 0x9790ec: r1 = Function '<anonymous closure>':.
-    //     0x9790ec: add             x1, PP, #0x43, lsl #12  ; [pp+0x436c8] AnonymousClosure: (0x979ed8), in [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::loadGoals (0x979048)
+    //     0x9790ec: add             x1, PP, #0x43, lsl #12  ; [pp+0x436c8] AnonymousClosure: (0x979ed8), in [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::loadGoals (0x979048)
     //     0x9790f0: ldr             x1, [x1, #0x6c8]
     // 0x9790f4: r0 = AllocateClosure()
     //     0x9790f4: bl              #0xe553e0  ; AllocateClosureStub
@@ -96,11 +96,11 @@ class TeamGoalsViewModel extends ChangeNotifier {
     //     0x979124: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0x979128: ldur            x1, [fp, #-0x18]
     // 0x97912c: r0 = rosterPlayers()
-    //     0x97912c: bl              #0x9752f8  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::rosterPlayers
+    //     0x97912c: bl              #0x9752f8  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::rosterPlayers
     // 0x979130: ldur            x1, [fp, #-8]
     // 0x979134: mov             x2, x0
     // 0x979138: r0 = _syncGoalListeners()
-    //     0x979138: bl              #0x979154  ; [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::_syncGoalListeners
+    //     0x979138: bl              #0x979154  ; [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::_syncGoalListeners
     // 0x97913c: r0 = Null
     //     0x97913c: mov             x0, NULL
     // 0x979140: LeaveFrame
@@ -152,7 +152,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0x9791b0: mov             x2, x5
     // 0x9791b4: stur            x5, [fp, #-8]
     // 0x9791b8: r0 = membershipsForTeam()
-    //     0x9791b8: bl              #0x971f08  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::membershipsForTeam
+    //     0x9791b8: bl              #0x971f08  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::membershipsForTeam
     // 0x9791bc: LoadField: r3 = r0->field_b
     //     0x9791bc: ldur            w3, [x0, #0xb]
     // 0x9791c0: ldur            x0, [fp, #-0x18]
@@ -341,7 +341,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0x9793b0: tbnz            w0, #4, #0x9793cc
     // 0x9793b4: ldur            x1, [fp, #-0x20]
     // 0x9793b8: r0 = _updateGoalsLoadingStateIfNeeded()
-    //     0x9793b8: bl              #0x979e08  ; [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::_updateGoalsLoadingStateIfNeeded
+    //     0x9793b8: bl              #0x979e08  ; [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::_updateGoalsLoadingStateIfNeeded
     // 0x9793bc: r0 = Null
     //     0x9793bc: mov             x0, NULL
     // 0x9793c0: LeaveFrame
@@ -466,7 +466,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0x97950c: mov             x2, x1
     // 0x979510: stur            x3, [fp, #-8]
     // 0x979514: r1 = Function '<anonymous closure>':.
-    //     0x979514: add             x1, PP, #0x43, lsl #12  ; [pp+0x436e8] AnonymousClosure: (0x979e74), in [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::_syncGoalListeners (0x979154)
+    //     0x979514: add             x1, PP, #0x43, lsl #12  ; [pp+0x436e8] AnonymousClosure: (0x979e74), in [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::_syncGoalListeners (0x979154)
     //     0x979518: ldr             x1, [x1, #0x6e8]
     // 0x97951c: r0 = AllocateClosure()
     //     0x97951c: bl              #0xe553e0  ; AllocateClosureStub
@@ -497,7 +497,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     //     0x979560: stur            x1, [x0, #0xb]
     // 0x979564: mov             x1, x0
     // 0x979568: r0 = WeeklyDateKey.generateWeeklyDateKey()
-    //     0x979568: bl              #0x9315c4  ; [package:ballai/automatic/utility/extensions/date/weekly_date_key.dart] ::WeeklyDateKey.generateWeeklyDateKey
+    //     0x979568: bl              #0x9315c4  ; [package:kourtai/automatic/utility/extensions/date/weekly_date_key.dart] ::WeeklyDateKey.generateWeeklyDateKey
     // 0x97956c: stur            x0, [fp, #-8]
     // 0x979570: r0 = DateTime()
     //     0x979570: bl              #0x5feb08  ; AllocateDateTimeStub -> DateTime (size=0x18)
@@ -518,7 +518,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     //     0x979598: stur            x1, [x0, #0xb]
     // 0x97959c: mov             x1, x0
     // 0x9795a0: r0 = DateTimeWeekRange.getWeekStartAndEnd()
-    //     0x9795a0: bl              #0x5fb6d0  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
+    //     0x9795a0: bl              #0x5fb6d0  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
     // 0x9795a4: mov             x6, x0
     // 0x9795a8: stur            x6, [fp, #-0x10]
     // 0x9795ac: r2 = 0
@@ -554,13 +554,13 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0x979610: mov             x5, x0
     // 0x979614: ldur            x6, [fp, #-0x10]
     // 0x979618: r0 = _startBatchGoalListener()
-    //     0x979618: bl              #0x9796a8  ; [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::_startBatchGoalListener
+    //     0x979618: bl              #0x9796a8  ; [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::_startBatchGoalListener
     // 0x97961c: ldur            x2, [fp, #-0x48]
     // 0x979620: ldur            x6, [fp, #-0x10]
     // 0x979624: b               #0x9795b0
     // 0x979628: ldur            x1, [fp, #-0x20]
     // 0x97962c: r0 = _updateGoalsLoadingStateIfNeeded()
-    //     0x97962c: bl              #0x979e08  ; [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::_updateGoalsLoadingStateIfNeeded
+    //     0x97962c: bl              #0x979e08  ; [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::_updateGoalsLoadingStateIfNeeded
     // 0x979630: r0 = Null
     //     0x979630: mov             x0, NULL
     // 0x979634: LeaveFrame
@@ -689,14 +689,14 @@ class TeamGoalsViewModel extends ChangeNotifier {
     //     0x9797c4: bl              #0x938d20  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQuery::snapshots
     // 0x9797c8: ldur            x2, [fp, #-0x30]
     // 0x9797cc: r1 = Function '<anonymous closure>':.
-    //     0x9797cc: add             x1, PP, #0x43, lsl #12  ; [pp+0x436f8] AnonymousClosure: (0x9798dc), in [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::_startBatchGoalListener (0x9796a8)
+    //     0x9797cc: add             x1, PP, #0x43, lsl #12  ; [pp+0x436f8] AnonymousClosure: (0x9798dc), in [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::_startBatchGoalListener (0x9796a8)
     //     0x9797d0: ldr             x1, [x1, #0x6f8]
     // 0x9797d4: stur            x0, [fp, #-8]
     // 0x9797d8: r0 = AllocateClosure()
     //     0x9797d8: bl              #0xe553e0  ; AllocateClosureStub
     // 0x9797dc: ldur            x2, [fp, #-0x30]
     // 0x9797e0: r1 = Function '<anonymous closure>':.
-    //     0x9797e0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43700] AnonymousClosure: (0x979848), in [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::_startBatchGoalListener (0x9796a8)
+    //     0x9797e0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43700] AnonymousClosure: (0x979848), in [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::_startBatchGoalListener (0x9796a8)
     //     0x9797e4: ldr             x1, [x1, #0x700]
     // 0x9797e8: stur            x0, [fp, #-0x20]
     // 0x9797ec: r0 = AllocateClosure()
@@ -758,7 +758,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     //     0x979880: add             x2, PP, #0x43, lsl #12  ; [pp+0x43708] "Couldn\'t load team goals. Please try again."
     //     0x979884: ldr             x2, [x2, #0x708]
     // 0x979888: r0 = userFacingError()
-    //     0x979888: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0x979888: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0x97988c: ldur            x1, [fp, #-8]
     // 0x979890: StoreField: r1->field_3b = r0
     //     0x979890: stur            w0, [x1, #0x3b]
@@ -850,7 +850,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0x979974: mov             x1, x4
     // 0x979978: stur            x3, [fp, #-0x18]
     // 0x97997c: r0 = fromFirestore()
-    //     0x97997c: bl              #0x959c98  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::fromFirestore
+    //     0x97997c: bl              #0x959c98  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::fromFirestore
     // 0x979980: stur            x0, [fp, #-0x38]
     // 0x979984: cmp             w0, NULL
     // 0x979988: b.eq            #0x9799d0
@@ -972,7 +972,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0x979ad8: mov             x2, x4
     // 0x979adc: stur            x9, [fp, #-0x50]
     // 0x979ae0: r0 = documentId()
-    //     0x979ae0: bl              #0x931558  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::documentId
+    //     0x979ae0: bl              #0x931558  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::documentId
     // 0x979ae4: stur            x0, [fp, #-0x78]
     // 0x979ae8: r0 = ActivityGoalModel()
     //     0x979ae8: bl              #0x93154c  ; AllocateActivityGoalModelStub -> ActivityGoalModel (size=0x44)
@@ -1014,7 +1014,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0x979b4c: ldur            x2, [fp, #-0x48]
     // 0x979b50: stur            x4, [fp, #-0x40]
     // 0x979b54: r1 = Function '<anonymous closure>':.
-    //     0x979b54: add             x1, PP, #0x43, lsl #12  ; [pp+0x43710] AnonymousClosure: (0x979d90), in [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::_startBatchGoalListener (0x9796a8)
+    //     0x979b54: add             x1, PP, #0x43, lsl #12  ; [pp+0x43710] AnonymousClosure: (0x979d90), in [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::_startBatchGoalListener (0x9796a8)
     //     0x979b58: ldr             x1, [x1, #0x710]
     // 0x979b5c: r0 = AllocateClosure()
     //     0x979b5c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1157,7 +1157,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0x979ce0: DecompressPointer r1
     //     0x979ce0: add             x1, x1, HEAP, lsl #32
     // 0x979ce4: r0 = _updateGoalsLoadingStateIfNeeded()
-    //     0x979ce4: bl              #0x979e08  ; [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::_updateGoalsLoadingStateIfNeeded
+    //     0x979ce4: bl              #0x979e08  ; [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::_updateGoalsLoadingStateIfNeeded
     // 0x979ce8: ldur            x0, [fp, #-8]
     // 0x979cec: LoadField: r1 = r0->field_f
     //     0x979cec: ldur            w1, [x0, #0xf]
@@ -1393,7 +1393,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0x979f48: ldur            x1, [fp, #-8]
     // 0x979f4c: mov             x2, x0
     // 0x979f50: r0 = _syncGoalListeners()
-    //     0x979f50: bl              #0x979154  ; [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::_syncGoalListeners
+    //     0x979f50: bl              #0x979154  ; [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::_syncGoalListeners
     // 0x979f54: r0 = Null
     //     0x979f54: mov             x0, NULL
     // 0x979f58: LeaveFrame
@@ -1542,7 +1542,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     //     0x9b5cb4: mov             fp, SP
     // 0x9b5cb8: ldr             x2, [fp, #0x10]
     // 0x9b5cbc: r1 = Function 'dispose':.
-    //     0x9b5cbc: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a540] AnonymousClosure: (0x9b5cd4), in [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::dispose (0x9be3c8)
+    //     0x9b5cbc: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a540] AnonymousClosure: (0x9b5cd4), in [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::dispose (0x9be3c8)
     //     0x9b5cc0: ldr             x1, [x1, #0x540]
     // 0x9b5cc4: r0 = AllocateClosure()
     //     0x9b5cc4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1567,7 +1567,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     //     0x9b5cec: cmp             SP, x16
     //     0x9b5cf0: b.ls            #0x9b5d04
     // 0x9b5cf4: r0 = dispose()
-    //     0x9b5cf4: bl              #0x9be3c8  ; [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::dispose
+    //     0x9b5cf4: bl              #0x9be3c8  ; [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::dispose
     // 0x9b5cf8: LeaveFrame
     //     0x9b5cf8: mov             SP, fp
     //     0x9b5cfc: ldp             fp, lr, [SP], #0x10
@@ -1593,7 +1593,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     //     0x9be3e4: b.ls            #0x9be408
     // 0x9be3e8: mov             x1, x0
     // 0x9be3ec: r0 = stopAllListeners()
-    //     0x9be3ec: bl              #0x9be410  ; [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::stopAllListeners
+    //     0x9be3ec: bl              #0x9be410  ; [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::stopAllListeners
     // 0x9be3f0: ldur            x1, [fp, #-8]
     // 0x9be3f4: r0 = dispose()
     //     0x9be3f4: bl              #0xb7893c  ; [package:flutter/src/widgets/shortcuts.dart] _ShortcutManager&Object&Diagnosticable&ChangeNotifier::dispose
@@ -1735,7 +1735,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0x9be554: r2 = Null
     //     0x9be554: mov             x2, NULL
     // 0x9be558: r0 = setRosterTeam()
-    //     0x9be558: bl              #0x97535c  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::setRosterTeam
+    //     0x9be558: bl              #0x97535c  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::setRosterTeam
     // 0x9be55c: r0 = Null
     //     0x9be55c: mov             x0, NULL
     // 0x9be560: LeaveFrame
@@ -1776,7 +1776,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0xa5ffec: DecompressPointer r1
     //     0xa5ffec: add             x1, x1, HEAP, lsl #32
     // 0xa5fff0: r0 = isSubscriptionActivePaying()
-    //     0xa5fff0: bl              #0x6518d0  ; [package:ballai/automatic/models/core/team/team_model.dart] TeamModel::isSubscriptionActivePaying
+    //     0xa5fff0: bl              #0x6518d0  ; [package:kourtai/automatic/models/core/team/team_model.dart] TeamModel::isSubscriptionActivePaying
     // 0xa5fff4: tbz             w0, #4, #0xa60030
     // 0xa5fff8: r0 = InitLateStaticField(0x62c) // [package:flutter/src/foundation/print.dart] ::debugPrint
     //     0xa5fff8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
@@ -1891,7 +1891,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0xa60124: ldur            x5, [fp, #-0x28]
     // 0xa60128: ldur            x6, [fp, #-0x30]
     // 0xa6012c: r0 = updateGoal()
-    //     0xa6012c: bl              #0xa60188  ; [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::updateGoal
+    //     0xa6012c: bl              #0xa60188  ; [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::updateGoal
     // 0xa60130: mov             x1, x0
     // 0xa60134: stur            x1, [fp, #-0x58]
     // 0xa60138: r0 = Await()
@@ -1961,7 +1961,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0xa601e4: ldur            x2, [fp, #-0xb8]
     // 0xa601e8: stur            x3, [fp, #-0xb0]
     // 0xa601ec: r1 = Function '<anonymous closure>':.
-    //     0xa601ec: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dc70] AnonymousClosure: (0xa603c4), in [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::updateGoal (0xa60188)
+    //     0xa601ec: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dc70] AnonymousClosure: (0xa603c4), in [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::updateGoal (0xa60188)
     //     0xa601f0: ldr             x1, [x1, #0xc70]
     // 0xa601f4: r0 = AllocateClosure()
     //     0xa601f4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2038,7 +2038,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0xa602b0: ldur            x1, [fp, #-0xc0]
     // 0xa602b4: stur            x0, [fp, #-0xd0]
     // 0xa602b8: r0 = toFirestoreMap()
-    //     0xa602b8: bl              #0x931358  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::toFirestoreMap
+    //     0xa602b8: bl              #0x931358  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::toFirestoreMap
     // 0xa602bc: stur            x0, [fp, #-0xd8]
     // 0xa602c0: r0 = SetOptions()
     //     0xa602c0: bl              #0x662250  ; AllocateSetOptionsStub -> SetOptions (size=0x10)
@@ -2324,7 +2324,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0xa6c9e8: cbz             w2, #0xa6ca20
     // 0xa6c9ec: mov             x2, x1
     // 0xa6c9f0: r1 = Function '<anonymous closure>':.
-    //     0xa6c9f0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43840] AnonymousClosure: (0xa6d0e0), in [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::filteredEntries (0xa6c960)
+    //     0xa6c9f0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43840] AnonymousClosure: (0xa6d0e0), in [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::filteredEntries (0xa6c960)
     //     0xa6c9f4: ldr             x1, [x1, #0x840]
     // 0xa6c9f8: r0 = AllocateClosure()
     //     0xa6c9f8: bl              #0xe553e0  ; AllocateClosureStub
@@ -2357,7 +2357,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0xa6ca48: mov             x0, x3
     // 0xa6ca4c: b               #0xa6cae4
     // 0xa6ca50: r1 = Function '<anonymous closure>':.
-    //     0xa6ca50: add             x1, PP, #0x43, lsl #12  ; [pp+0x43848] AnonymousClosure: (0xa6d064), in [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::filteredEntries (0xa6c960)
+    //     0xa6ca50: add             x1, PP, #0x43, lsl #12  ; [pp+0x43848] AnonymousClosure: (0xa6d064), in [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::filteredEntries (0xa6c960)
     //     0xa6ca54: ldr             x1, [x1, #0x848]
     // 0xa6ca58: r2 = Null
     //     0xa6ca58: mov             x2, NULL
@@ -2378,7 +2378,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0xa6ca80: cmp             x0, #2
     // 0xa6ca84: b.gt            #0xa6cab8
     // 0xa6ca88: r1 = Function '<anonymous closure>':.
-    //     0xa6ca88: add             x1, PP, #0x43, lsl #12  ; [pp+0x43850] AnonymousClosure: (0xa6d014), in [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::filteredEntries (0xa6c960)
+    //     0xa6ca88: add             x1, PP, #0x43, lsl #12  ; [pp+0x43850] AnonymousClosure: (0xa6d014), in [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::filteredEntries (0xa6c960)
     //     0xa6ca8c: ldr             x1, [x1, #0x850]
     // 0xa6ca90: r2 = Null
     //     0xa6ca90: mov             x2, NULL
@@ -2397,7 +2397,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     //     0xa6cab0: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0xa6cab4: b               #0xa6cae4
     // 0xa6cab8: r1 = Function '<anonymous closure>':.
-    //     0xa6cab8: add             x1, PP, #0x43, lsl #12  ; [pp+0x43858] AnonymousClosure: (0xa6cbd8), in [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::filteredEntries (0xa6c960)
+    //     0xa6cab8: add             x1, PP, #0x43, lsl #12  ; [pp+0x43858] AnonymousClosure: (0xa6cbd8), in [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::filteredEntries (0xa6c960)
     //     0xa6cabc: ldr             x1, [x1, #0x858]
     // 0xa6cac0: r2 = Null
     //     0xa6cac0: mov             x2, NULL
@@ -2416,7 +2416,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     //     0xa6cae0: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0xa6cae4: stur            x0, [fp, #-8]
     // 0xa6cae8: r1 = Function '<anonymous closure>':.
-    //     0xa6cae8: add             x1, PP, #0x43, lsl #12  ; [pp+0x43860] AnonymousClosure: (0xa6cb20), in [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::filteredEntries (0xa6c960)
+    //     0xa6cae8: add             x1, PP, #0x43, lsl #12  ; [pp+0x43860] AnonymousClosure: (0xa6cb20), in [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::filteredEntries (0xa6c960)
     //     0xa6caec: ldr             x1, [x1, #0x860]
     // 0xa6caf0: r2 = Null
     //     0xa6caf0: mov             x2, NULL
@@ -2522,7 +2522,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0xa6cbf4: DecompressPointer r1
     //     0xa6cbf4: add             x1, x1, HEAP, lsl #32
     // 0xa6cbf8: r0 = combinedProgress()
-    //     0xa6cbf8: bl              #0xa6cc28  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgress
+    //     0xa6cbf8: bl              #0xa6cc28  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgress
     // 0xa6cbfc: mov             v1.16b, v0.16b
     // 0xa6cc00: d0 = 1.000000
     //     0xa6cc00: fmov            d0, #1.00000000
@@ -2556,7 +2556,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0xa6d030: DecompressPointer r1
     //     0xa6d030: add             x1, x1, HEAP, lsl #32
     // 0xa6d034: r0 = combinedProgress()
-    //     0xa6d034: bl              #0xa6cc28  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgress
+    //     0xa6d034: bl              #0xa6cc28  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgress
     // 0xa6d038: mov             v1.16b, v0.16b
     // 0xa6d03c: d0 = 0.400000
     //     0xa6d03c: ldr             d0, [PP, #0x64f8]  ; [pp+0x64f8] IMM: double(0.4) from 0x3fd999999999999a
@@ -2590,7 +2590,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0xa6d080: DecompressPointer r1
     //     0xa6d080: add             x1, x1, HEAP, lsl #32
     // 0xa6d084: r0 = combinedProgress()
-    //     0xa6d084: bl              #0xa6cc28  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgress
+    //     0xa6d084: bl              #0xa6cc28  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgress
     // 0xa6d088: mov             v1.16b, v0.16b
     // 0xa6d08c: d0 = 0.400000
     //     0xa6d08c: ldr             d0, [PP, #0x64f8]  ; [pp+0x64f8] IMM: double(0.4) from 0x3fd999999999999a
@@ -2602,7 +2602,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0xa6d0a0: DecompressPointer r1
     //     0xa6d0a0: add             x1, x1, HEAP, lsl #32
     // 0xa6d0a4: r0 = combinedProgress()
-    //     0xa6d0a4: bl              #0xa6cc28  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgress
+    //     0xa6d0a4: bl              #0xa6cc28  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgress
     // 0xa6d0a8: mov             v1.16b, v0.16b
     // 0xa6d0ac: d0 = 1.000000
     //     0xa6d0ac: fmov            d0, #1.00000000
@@ -2770,7 +2770,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0xa6d258: mov             x3, x1
     // 0xa6d25c: mov             x1, x0
     // 0xa6d260: r0 = canManageTeam()
-    //     0xa6d260: bl              #0x97d580  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::canManageTeam
+    //     0xa6d260: bl              #0x97d580  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::canManageTeam
     // 0xa6d264: LeaveFrame
     //     0xa6d264: mov             SP, fp
     //     0xa6d268: ldp             fp, lr, [SP], #0x10
@@ -2796,7 +2796,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     //     0xa6d314: b.ls            #0xa6d348
     // 0xa6d318: mov             x1, x0
     // 0xa6d31c: r0 = stopAllListeners()
-    //     0xa6d31c: bl              #0x9be410  ; [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::stopAllListeners
+    //     0xa6d31c: bl              #0x9be410  ; [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::stopAllListeners
     // 0xa6d320: ldur            x0, [fp, #-8]
     // 0xa6d324: LoadField: r1 = r0->field_2f
     //     0xa6d324: ldur            w1, [x0, #0x2f]
@@ -2806,7 +2806,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     //     0xa6d32c: bl              #0x6103e0  ; [dart:core] _GrowableList::clear
     // 0xa6d330: ldur            x1, [fp, #-8]
     // 0xa6d334: r0 = loadGoals()
-    //     0xa6d334: bl              #0x979048  ; [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::loadGoals
+    //     0xa6d334: bl              #0x979048  ; [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::loadGoals
     // 0xa6d338: r0 = Null
     //     0xa6d338: mov             x0, NULL
     // 0xa6d33c: LeaveFrame
@@ -2847,7 +2847,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0xa6d764: ldur            x1, [fp, #-0x10]
     // 0xa6d768: ldur            x2, [fp, #-0x18]
     // 0xa6d76c: r0 = sendNudge()
-    //     0xa6d76c: bl              #0xa6d7c8  ; [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::sendNudge
+    //     0xa6d76c: bl              #0xa6d7c8  ; [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::sendNudge
     // 0xa6d770: mov             x1, x0
     // 0xa6d774: stur            x1, [fp, #-0x18]
     // 0xa6d778: r0 = Await()
@@ -2943,7 +2943,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0xa6d860: mov             x2, x4
     // 0xa6d864: stur            x5, [fp, #-0x20]
     // 0xa6d868: r0 = _nudgeMessage()
-    //     0xa6d868: bl              #0xa6db8c  ; [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::_nudgeMessage
+    //     0xa6d868: bl              #0xa6db8c  ; [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::_nudgeMessage
     // 0xa6d86c: mov             x6, x0
     // 0xa6d870: stur            x6, [fp, #-0x38]
     // 0xa6d874: mov             x3, x1
@@ -2996,7 +2996,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0xa6d8f0: ldur            x6, [fp, #-0x38]
     // 0xa6d8f4: ldur            x7, [fp, #-0x10]
     // 0xa6d8f8: r0 = sendNotification()
-    //     0xa6d8f8: bl              #0xa6d918  ; [package:ballai/automatic/lib/firebase/functions/root/firebase_functions.dart] BallAiFirebaseFunctions::sendNotification
+    //     0xa6d8f8: bl              #0xa6d918  ; [package:kourtai/automatic/lib/firebase/functions/root/firebase_functions.dart] KourtAiFirebaseFunctions::sendNotification
     // 0xa6d8fc: mov             x1, x0
     // 0xa6d900: stur            x1, [fp, #-0x10]
     // 0xa6d904: r0 = Await()
@@ -3053,7 +3053,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0xa6dbf4: DecompressPointer r1
     //     0xa6dbf4: add             x1, x1, HEAP, lsl #32
     // 0xa6dbf8: r0 = combinedProgress()
-    //     0xa6dbf8: bl              #0xa6cc28  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgress
+    //     0xa6dbf8: bl              #0xa6cc28  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgress
     // 0xa6dbfc: mov             v1.16b, v0.16b
     // 0xa6dc00: d0 = 1.000000
     //     0xa6dc00: fmov            d0, #1.00000000
@@ -3065,7 +3065,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     //     0xa6dc14: add             x1, PP, #0x43, lsl #12  ; [pp+0x43798] "Crushed it!"
     //     0xa6dc18: ldr             x1, [x1, #0x798]
     // 0xa6dc1c: r0 = L()
-    //     0xa6dc1c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa6dc1c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa6dc20: r1 = Null
     //     0xa6dc20: mov             x1, NULL
     // 0xa6dc24: r2 = 10
@@ -3113,7 +3113,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     //     0xa6dc90: add             x1, PP, #0x43, lsl #12  ; [pp+0x437b8] "Keep pushing!"
     //     0xa6dc94: ldr             x1, [x1, #0x7b8]
     // 0xa6dc98: r0 = L()
-    //     0xa6dc98: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa6dc98: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa6dc9c: r1 = Null
     //     0xa6dc9c: mov             x1, NULL
     // 0xa6dca0: r2 = 10
@@ -3155,7 +3155,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     //     0xa6dcf8: add             x1, PP, #0x43, lsl #12  ; [pp+0x437c8] "Lock in!"
     //     0xa6dcfc: ldr             x1, [x1, #0x7c8]
     // 0xa6dd00: r0 = L()
-    //     0xa6dd00: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa6dd00: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa6dd04: r1 = Null
     //     0xa6dd04: mov             x1, NULL
     // 0xa6dd08: r2 = 10
@@ -3212,7 +3212,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     //     0xa6dd8c: cmp             SP, x16
     //     0xa6dd90: b.ls            #0xa6dda4
     // 0xa6dd94: r0 = refresh()
-    //     0xa6dd94: bl              #0xa6d2f8  ; [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::refresh
+    //     0xa6dd94: bl              #0xa6d2f8  ; [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::refresh
     // 0xa6dd98: LeaveFrame
     //     0xa6dd98: mov             SP, fp
     //     0xa6dd9c: ldp             fp, lr, [SP], #0x10
@@ -3269,7 +3269,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     //     0xa6e018: b.ls            #0xa6e030
     // 0xa6e01c: ldr             x2, [fp, #0x10]
     // 0xa6e020: r0 = setSearchText()
-    //     0xa6e020: bl              #0xa6e038  ; [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::setSearchText
+    //     0xa6e020: bl              #0xa6e038  ; [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::setSearchText
     // 0xa6e024: LeaveFrame
     //     0xa6e024: mov             SP, fp
     //     0xa6e028: ldp             fp, lr, [SP], #0x10
@@ -3333,7 +3333,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0xa6e310: DecompressPointer r1
     //     0xa6e310: add             x1, x1, HEAP, lsl #32
     // 0xa6e314: r0 = isSubscriptionActivePaying()
-    //     0xa6e314: bl              #0x6518d0  ; [package:ballai/automatic/models/core/team/team_model.dart] TeamModel::isSubscriptionActivePaying
+    //     0xa6e314: bl              #0x6518d0  ; [package:kourtai/automatic/models/core/team/team_model.dart] TeamModel::isSubscriptionActivePaying
     // 0xa6e318: tbz             w0, #4, #0xa6e354
     // 0xa6e31c: r0 = InitLateStaticField(0x62c) // [package:flutter/src/foundation/print.dart] ::debugPrint
     //     0xa6e31c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
@@ -3365,7 +3365,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     //     0xa6e364: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
     // 0xa6e368: ldur            x1, [fp, #-0x10]
     // 0xa6e36c: r0 = filteredEntries()
-    //     0xa6e36c: bl              #0xa6c960  ; [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::filteredEntries
+    //     0xa6e36c: bl              #0xa6c960  ; [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::filteredEntries
     // 0xa6e370: stur            x0, [fp, #-0x38]
     // 0xa6e374: LoadField: r3 = r0->field_7
     //     0xa6e374: ldur            w3, [x0, #7]
@@ -3406,7 +3406,7 @@ class TeamGoalsViewModel extends ChangeNotifier {
     // 0xa6e3d4: mov             x2, x5
     // 0xa6e3d8: stur            x6, [fp, #-0x18]
     // 0xa6e3dc: r0 = sendNudge()
-    //     0xa6e3dc: bl              #0xa6d7c8  ; [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::sendNudge
+    //     0xa6e3dc: bl              #0xa6d7c8  ; [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::sendNudge
     // 0xa6e3e0: mov             x1, x0
     // 0xa6e3e4: stur            x1, [fp, #-0x40]
     // 0xa6e3e8: r0 = Await()

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart
 
 // class id: 1048841, size: 0x8
 class :: {
@@ -21,7 +21,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0x947804: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x947808: cmp             SP, x16
     //     0x94780c: b.ls            #0x947890
-    // 0x947810: r0 = InitLateStaticField(0xee0) // [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
+    // 0x947810: r0 = InitLateStaticField(0xee0) // [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
     //     0x947810: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x947814: ldr             x0, [x0, #0x1dc0]
     //     0x947818: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -32,7 +32,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0x94782c: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x947830: ldur            x2, [fp, #-8]
     // 0x947834: r1 = Function '_onCatalog@1070342848':.
-    //     0x947834: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cc30] AnonymousClosure: (0x949dc4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::_onCatalog (0x949dfc)
+    //     0x947834: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cc30] AnonymousClosure: (0x949dc4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::_onCatalog (0x949dfc)
     //     0x947838: ldr             x1, [x1, #0xc30]
     // 0x94783c: stur            x0, [fp, #-0x10]
     // 0x947840: r0 = AllocateClosure()
@@ -43,8 +43,8 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0x94784c: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0x947850: ldur            x1, [fp, #-8]
     // 0x947854: r0 = _loadCatalog()
-    //     0x947854: bl              #0x947a90  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::_loadCatalog
-    // 0x947858: r0 = InitLateStaticField(0xed4) // [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
+    //     0x947854: bl              #0x947a90  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::_loadCatalog
+    // 0x947858: r0 = InitLateStaticField(0xed4) // [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
     //     0x947858: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x94785c: ldr             x0, [x0, #0x1da8]
     //     0x947860: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -55,7 +55,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0x947874: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x947878: mov             x1, x0
     // 0x94787c: r0 = warmOnboardingSounds()
-    //     0x94787c: bl              #0x9478b8  ; [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::warmOnboardingSounds
+    //     0x94787c: bl              #0x9478b8  ; [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::warmOnboardingSounds
     // 0x947880: r0 = Null
     //     0x947880: mov             x0, NULL
     // 0x947884: LeaveFrame
@@ -93,7 +93,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     // 0x947ac8: InitAsync() -> Future<void?>
     //     0x947ac8: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x947acc: bl              #0x60afc8  ; InitAsyncStub
-    // 0x947ad0: r0 = InitLateStaticField(0xee0) // [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
+    // 0x947ad0: r0 = InitLateStaticField(0xee0) // [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
     //     0x947ad0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x947ad4: ldr             x0, [x0, #0x1dc0]
     //     0x947ad8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -104,7 +104,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0x947aec: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x947af0: mov             x1, x0
     // 0x947af4: r0 = refresh()
-    //     0x947af4: bl              #0x947b4c  ; [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::refresh
+    //     0x947af4: bl              #0x947b4c  ; [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::refresh
     // 0x947af8: mov             x1, x0
     // 0x947afc: stur            x1, [fp, #-0x20]
     // 0x947b00: r0 = Await()
@@ -122,7 +122,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0x947b1c: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x947b20: ldur            x2, [fp, #-0x18]
     // 0x947b24: r1 = Function '<anonymous closure>':.
-    //     0x947b24: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cc48] AnonymousClosure: (0x949c5c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::_loadCatalog (0x947a90)
+    //     0x947b24: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cc48] AnonymousClosure: (0x949c5c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::_loadCatalog (0x947a90)
     //     0x947b28: ldr             x1, [x1, #0xc48]
     // 0x947b2c: r0 = AllocateClosure()
     //     0x947b2c: bl              #0xe553e0  ; AllocateClosureStub
@@ -158,7 +158,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     // 0x949c84: DecompressPointer r0
     //     0x949c84: add             x0, x0, HEAP, lsl #32
     // 0x949c88: stur            x0, [fp, #-8]
-    // 0x949c8c: r0 = InitLateStaticField(0xee0) // [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
+    // 0x949c8c: r0 = InitLateStaticField(0xee0) // [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
     //     0x949c8c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x949c90: ldr             x0, [x0, #0x1dc0]
     //     0x949c94: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -172,15 +172,15 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0x949cb0: ldr             x1, [x1, #0x618]
     // 0x949cb4: stur            x0, [fp, #-0x10]
     // 0x949cb8: r0 = availableSounds()
-    //     0x949cb8: bl              #0x72ecd8  ; [package:ballai/video_tracking/session/feedback/event_sound.dart] EventSoundCatalog::availableSounds
+    //     0x949cb8: bl              #0x72ecd8  ; [package:kourtai/video_tracking/session/feedback/event_sound.dart] EventSoundCatalog::availableSounds
     // 0x949cbc: ldur            x1, [fp, #-0x10]
     // 0x949cc0: stur            x0, [fp, #-0x10]
     // 0x949cc4: r0 = marketingSounds()
-    //     0x949cc4: bl              #0x72fd0c  ; [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::marketingSounds
+    //     0x949cc4: bl              #0x72fd0c  ; [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::marketingSounds
     // 0x949cc8: ldur            x1, [fp, #-0x10]
     // 0x949ccc: mov             x2, x0
     // 0x949cd0: r0 = funnelSounds()
-    //     0x949cd0: bl              #0x949d64  ; [package:ballai/video_tracking/session/feedback/event_sound.dart] EventSoundCatalog::funnelSounds
+    //     0x949cd0: bl              #0x949d64  ; [package:kourtai/video_tracking/session/feedback/event_sound.dart] EventSoundCatalog::funnelSounds
     // 0x949cd4: ldur            x1, [fp, #-8]
     // 0x949cd8: StoreField: r1->field_13 = r0
     //     0x949cd8: stur            w0, [x1, #0x13]
@@ -216,7 +216,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0x949ddc: cmp             SP, x16
     //     0x949de0: b.ls            #0x949df4
     // 0x949de4: r0 = _onCatalog()
-    //     0x949de4: bl              #0x949dfc  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::_onCatalog
+    //     0x949de4: bl              #0x949dfc  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::_onCatalog
     // 0x949de8: LeaveFrame
     //     0x949de8: mov             SP, fp
     //     0x949dec: ldp             fp, lr, [SP], #0x10
@@ -262,7 +262,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0x949e48: ret             
     // 0x949e4c: mov             x2, x1
     // 0x949e50: r1 = Function '<anonymous closure>':.
-    //     0x949e50: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cc38] AnonymousClosure: (0x949e80), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::_onCatalog (0x949dfc)
+    //     0x949e50: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cc38] AnonymousClosure: (0x949e80), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::_onCatalog (0x949dfc)
     //     0x949e54: ldr             x1, [x1, #0xc38]
     // 0x949e58: r0 = AllocateClosure()
     //     0x949e58: bl              #0xe553e0  ; AllocateClosureStub
@@ -301,7 +301,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     // 0x949ea8: DecompressPointer r0
     //     0x949ea8: add             x0, x0, HEAP, lsl #32
     // 0x949eac: stur            x0, [fp, #-8]
-    // 0x949eb0: r0 = InitLateStaticField(0xee0) // [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
+    // 0x949eb0: r0 = InitLateStaticField(0xee0) // [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
     //     0x949eb0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x949eb4: ldr             x0, [x0, #0x1dc0]
     //     0x949eb8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -312,7 +312,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0x949ecc: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x949ed0: mov             x1, x0
     // 0x949ed4: r0 = funnelLibrary()
-    //     0x949ed4: bl              #0x949d0c  ; [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::funnelLibrary
+    //     0x949ed4: bl              #0x949d0c  ; [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::funnelLibrary
     // 0x949ed8: ldur            x1, [fp, #-8]
     // 0x949edc: StoreField: r1->field_13 = r0
     //     0x949edc: stur            w0, [x1, #0x13]
@@ -357,7 +357,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     // 0x9f0020: StoreField: r3->field_f = r0
     //     0x9f0020: stur            w0, [x3, #0xf]
     // 0x9f0024: r1 = Function '<anonymous closure>':.
-    //     0x9f0024: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cbb8] AnonymousClosure: (0x9f1648), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::build (0x9effec)
+    //     0x9f0024: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cbb8] AnonymousClosure: (0x9f1648), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::build (0x9effec)
     //     0x9f0028: ldr             x1, [x1, #0xbb8]
     // 0x9f002c: r2 = Null
     //     0x9f002c: mov             x2, NULL
@@ -378,7 +378,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0x9f0054: ldr             x1, [x1, #0xbc8]
     // 0x9f0058: stur            x0, [fp, #-0x10]
     // 0x9f005c: r0 = L()
-    //     0x9f005c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f005c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f0060: mov             x2, x0
     // 0x9f0064: ldur            x1, [fp, #-0x10]
     // 0x9f0068: stur            x2, [fp, #-0x20]
@@ -414,7 +414,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0x9f00bc: stur            w1, [x3, #0x17]
     // 0x9f00c0: ldur            x2, [fp, #-0x18]
     // 0x9f00c4: r1 = Function '<anonymous closure>':.
-    //     0x9f00c4: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cbd8] AnonymousClosure: (0x9f15f8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::build (0x9effec)
+    //     0x9f00c4: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cbd8] AnonymousClosure: (0x9f15f8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::build (0x9effec)
     //     0x9f00c8: ldr             x1, [x1, #0xbd8]
     // 0x9f00cc: r0 = AllocateClosure()
     //     0x9f00cc: bl              #0xe553e0  ; AllocateClosureStub
@@ -457,7 +457,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0x9f0128: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cbe0] "Random"
     //     0x9f012c: ldr             x1, [x1, #0xbe0]
     // 0x9f0130: r0 = L()
-    //     0x9f0130: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9f0130: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9f0134: mov             x2, x0
     // 0x9f0138: ldur            x1, [fp, #-0x10]
     // 0x9f013c: stur            x2, [fp, #-0x20]
@@ -493,7 +493,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0x9f0190: stur            w1, [x3, #0x17]
     // 0x9f0194: ldur            x2, [fp, #-0x18]
     // 0x9f0198: r1 = Function '<anonymous closure>':.
-    //     0x9f0198: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cbf0] AnonymousClosure: (0x9f13ec), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::build (0x9effec)
+    //     0x9f0198: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cbf0] AnonymousClosure: (0x9f13ec), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::build (0x9effec)
     //     0x9f019c: ldr             x1, [x1, #0xbf0]
     // 0x9f01a0: r0 = AllocateClosure()
     //     0x9f01a0: bl              #0xe553e0  ; AllocateClosureStub
@@ -708,7 +708,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     // 0x9f03c0: DecompressPointer r1
     //     0x9f03c0: add             x1, x1, HEAP, lsl #32
     // 0x9f03c4: r0 = displayTitle()
-    //     0x9f03c4: bl              #0x72f754  ; [package:ballai/video_tracking/session/feedback/event_sound.dart] EventSound::displayTitle
+    //     0x9f03c4: bl              #0x72f754  ; [package:kourtai/video_tracking/session/feedback/event_sound.dart] EventSound::displayTitle
     // 0x9f03c8: mov             x6, x0
     // 0x9f03cc: ldur            x3, [fp, #-8]
     // 0x9f03d0: ldur            x2, [fp, #-0x10]
@@ -768,7 +768,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0x9f0464: stur            w0, [x3, #0xf]
     // 0x9f0468: ldur            x2, [fp, #-0x30]
     // 0x9f046c: r1 = Function '<anonymous closure>':.
-    //     0x9f046c: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cbf8] AnonymousClosure: (0x9f134c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::build (0x9effec)
+    //     0x9f046c: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cbf8] AnonymousClosure: (0x9f134c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::build (0x9effec)
     //     0x9f0470: ldr             x1, [x1, #0xbf8]
     // 0x9f0474: r0 = AllocateClosure()
     //     0x9f0474: bl              #0xe553e0  ; AllocateClosureStub
@@ -874,7 +874,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     // 0x9f0588: DecompressPointer r1
     //     0x9f0588: add             x1, x1, HEAP, lsl #32
     // 0x9f058c: r0 = displayTitle()
-    //     0x9f058c: bl              #0x72f754  ; [package:ballai/video_tracking/session/feedback/event_sound.dart] EventSound::displayTitle
+    //     0x9f058c: bl              #0x72f754  ; [package:kourtai/video_tracking/session/feedback/event_sound.dart] EventSound::displayTitle
     // 0x9f0590: mov             x6, x0
     // 0x9f0594: ldur            x3, [fp, #-8]
     // 0x9f0598: ldur            x5, [fp, #-0x10]
@@ -936,7 +936,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0x9f0634: stur            w0, [x3, #0xf]
     // 0x9f0638: ldur            x2, [fp, #-0x30]
     // 0x9f063c: r1 = Function '<anonymous closure>':.
-    //     0x9f063c: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cc00] AnonymousClosure: (0x9f0e08), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::build (0x9effec)
+    //     0x9f063c: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cc00] AnonymousClosure: (0x9f0e08), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::build (0x9effec)
     //     0x9f0640: ldr             x1, [x1, #0xc00]
     // 0x9f0644: r0 = AllocateClosure()
     //     0x9f0644: bl              #0xe553e0  ; AllocateClosureStub
@@ -1308,7 +1308,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     // 0x9f0e88: mov             x1, x2
     // 0x9f0e8c: mov             x2, x16
     // 0x9f0e90: r0 = _selectSound()
-    //     0x9f0e90: bl              #0x9f0eb0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::_selectSound
+    //     0x9f0e90: bl              #0x9f0eb0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::_selectSound
     // 0x9f0e94: r0 = Null
     //     0x9f0e94: mov             x0, NULL
     // 0x9f0e98: LeaveFrame
@@ -1378,8 +1378,8 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0x9f0f3c: bl              #0x9f12a8  ; [package:flutter/src/material/checkbox.dart] _CheckboxPainter::activeSide=
     // 0x9f0f40: ldur            x1, [fp, #-0x10]
     // 0x9f0f44: r0 = setSoundId()
-    //     0x9f0f44: bl              #0x9f1208  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::setSoundId
-    // 0x9f0f48: r0 = InitLateStaticField(0xed4) // [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
+    //     0x9f0f44: bl              #0x9f1208  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::setSoundId
+    // 0x9f0f48: r0 = InitLateStaticField(0xed4) // [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
     //     0x9f0f48: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x9f0f4c: ldr             x0, [x0, #0x1da8]
     //     0x9f0f50: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1391,7 +1391,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     // 0x9f0f68: mov             x1, x0
     // 0x9f0f6c: ldur            x2, [fp, #-0x10]
     // 0x9f0f70: r0 = previewDuringOnboarding()
-    //     0x9f0f70: bl              #0x9f0f90  ; [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::previewDuringOnboarding
+    //     0x9f0f70: bl              #0x9f0f90  ; [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::previewDuringOnboarding
     // 0x9f0f74: r0 = Null
     //     0x9f0f74: mov             x0, NULL
     // 0x9f0f78: LeaveFrame
@@ -1459,7 +1459,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     // 0x9f13c4: mov             x1, x2
     // 0x9f13c8: mov             x2, x16
     // 0x9f13cc: r0 = _selectSound()
-    //     0x9f13cc: bl              #0x9f0eb0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::_selectSound
+    //     0x9f13cc: bl              #0x9f0eb0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::_selectSound
     // 0x9f13d0: r0 = Null
     //     0x9f13d0: mov             x0, NULL
     // 0x9f13d4: LeaveFrame
@@ -1496,7 +1496,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0x9f1418: add             x2, PP, #0x29, lsl #12  ; [pp+0x295d8] "random"
     //     0x9f141c: ldr             x2, [x2, #0x5d8]
     // 0x9f1420: r0 = _selectControl()
-    //     0x9f1420: bl              #0x9f143c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::_selectControl
+    //     0x9f1420: bl              #0x9f143c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::_selectControl
     // 0x9f1424: r0 = Null
     //     0x9f1424: mov             x0, NULL
     // 0x9f1428: LeaveFrame
@@ -1560,7 +1560,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0x9f14c0: bl              #0x9f12a8  ; [package:flutter/src/material/checkbox.dart] _CheckboxPainter::activeSide=
     // 0x9f14c4: ldur            x1, [fp, #-0x10]
     // 0x9f14c8: r0 = setSoundId()
-    //     0x9f14c8: bl              #0x9f1208  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::setSoundId
+    //     0x9f14c8: bl              #0x9f1208  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::setSoundId
     // 0x9f14cc: ldur            x16, [fp, #-0x10]
     // 0x9f14d0: r30 = "random"
     //     0x9f14d0: add             lr, PP, #0x29, lsl #12  ; [pp+0x295d8] "random"
@@ -1623,7 +1623,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     // 0x9f1564: DecompressPointer r1
     //     0x9f1564: add             x1, x1, HEAP, lsl #32
     // 0x9f1568: stur            x1, [fp, #-8]
-    // 0x9f156c: r0 = InitLateStaticField(0xed4) // [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
+    // 0x9f156c: r0 = InitLateStaticField(0xed4) // [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
     //     0x9f156c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x9f1570: ldr             x0, [x0, #0x1da8]
     //     0x9f1574: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1639,7 +1639,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     // 0x9f1598: DecompressPointer r2
     //     0x9f1598: add             x2, x2, HEAP, lsl #32
     // 0x9f159c: r0 = previewDuringOnboarding()
-    //     0x9f159c: bl              #0x9f0f90  ; [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::previewDuringOnboarding
+    //     0x9f159c: bl              #0x9f0f90  ; [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::previewDuringOnboarding
     // 0x9f15a0: r0 = Null
     //     0x9f15a0: mov             x0, NULL
     // 0x9f15a4: LeaveFrame
@@ -1647,7 +1647,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0x9f15a8: ldp             fp, lr, [SP], #0x10
     // 0x9f15ac: ret
     //     0x9f15ac: ret             
-    // 0x9f15b0: r0 = InitLateStaticField(0xed4) // [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
+    // 0x9f15b0: r0 = InitLateStaticField(0xed4) // [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
     //     0x9f15b0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x9f15b4: ldr             x0, [x0, #0x1da8]
     //     0x9f15b8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1658,7 +1658,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0x9f15cc: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x9f15d0: mov             x1, x0
     // 0x9f15d4: r0 = stopOnboardingPreview()
-    //     0x9f15d4: bl              #0x9e7454  ; [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::stopOnboardingPreview
+    //     0x9f15d4: bl              #0x9e7454  ; [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::stopOnboardingPreview
     // 0x9f15d8: r0 = Null
     //     0x9f15d8: mov             x0, NULL
     // 0x9f15dc: LeaveFrame
@@ -1697,7 +1697,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0x9f1624: add             x2, PP, #0xb, lsl #12  ; [pp+0xb5f8] "none"
     //     0x9f1628: ldr             x2, [x2, #0x5f8]
     // 0x9f162c: r0 = _selectControl()
-    //     0x9f162c: bl              #0x9f143c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::_selectControl
+    //     0x9f162c: bl              #0x9f143c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::_selectControl
     // 0x9f1630: r0 = Null
     //     0x9f1630: mov             x0, NULL
     // 0x9f1634: LeaveFrame
@@ -1726,7 +1726,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0xb5a8fc: mov             fp, SP
     // 0xb5a900: ldr             x2, [fp, #0x10]
     // 0xb5a904: r1 = Function 'dispose':.
-    //     0xb5a904: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c650] AnonymousClosure: (0xb5a91c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::dispose (0xb60b88)
+    //     0xb5a904: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c650] AnonymousClosure: (0xb5a91c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::dispose (0xb60b88)
     //     0xb5a908: ldr             x1, [x1, #0x650]
     // 0xb5a90c: r0 = AllocateClosure()
     //     0xb5a90c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1751,7 +1751,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0xb5a934: cmp             SP, x16
     //     0xb5a938: b.ls            #0xb5a94c
     // 0xb5a93c: r0 = dispose()
-    //     0xb5a93c: bl              #0xb60b88  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::dispose
+    //     0xb5a93c: bl              #0xb60b88  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::dispose
     // 0xb5a940: LeaveFrame
     //     0xb5a940: mov             SP, fp
     //     0xb5a944: ldp             fp, lr, [SP], #0x10
@@ -1775,7 +1775,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0xb60b9c: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xb60ba0: cmp             SP, x16
     //     0xb60ba4: b.ls            #0xb60c20
-    // 0xb60ba8: r0 = InitLateStaticField(0xee0) // [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
+    // 0xb60ba8: r0 = InitLateStaticField(0xee0) // [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
     //     0xb60ba8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb60bac: ldr             x0, [x0, #0x1dc0]
     //     0xb60bb0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1786,7 +1786,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0xb60bc4: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0xb60bc8: ldur            x2, [fp, #-8]
     // 0xb60bcc: r1 = Function '_onCatalog@1070342848':.
-    //     0xb60bcc: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cc30] AnonymousClosure: (0x949dc4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::_onCatalog (0x949dfc)
+    //     0xb60bcc: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2cc30] AnonymousClosure: (0x949dc4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_green_sound_view.dart] _AccountSetupGreenSoundParityViewState::_onCatalog (0x949dfc)
     //     0xb60bd0: ldr             x1, [x1, #0xc30]
     // 0xb60bd4: stur            x0, [fp, #-8]
     // 0xb60bd8: r0 = AllocateClosure()
@@ -1795,7 +1795,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     // 0xb60be0: mov             x2, x0
     // 0xb60be4: r0 = removeListener()
     //     0xb60be4: bl              #0x8d74f0  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::removeListener
-    // 0xb60be8: r0 = InitLateStaticField(0xed4) // [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
+    // 0xb60be8: r0 = InitLateStaticField(0xed4) // [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
     //     0xb60be8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb60bec: ldr             x0, [x0, #0x1da8]
     //     0xb60bf0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1806,7 +1806,7 @@ class _AccountSetupGreenSoundParityViewState extends State<dynamic> {
     //     0xb60c04: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0xb60c08: mov             x1, x0
     // 0xb60c0c: r0 = stopOnboardingPreview()
-    //     0xb60c0c: bl              #0x9e7454  ; [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::stopOnboardingPreview
+    //     0xb60c0c: bl              #0x9e7454  ; [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::stopOnboardingPreview
     // 0xb60c10: r0 = Null
     //     0xb60c10: mov             x0, NULL
     // 0xb60c14: LeaveFrame
@@ -1839,7 +1839,7 @@ class AccountSetupGreenSoundParityView extends StatefulWidget {
     //     0xb72450: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a618] Obj!ShotEventSoundKind@d38c01
     //     0xb72454: ldr             x1, [x1, #0x618]
     // 0xb72458: r0 = availableSounds()
-    //     0xb72458: bl              #0x72ecd8  ; [package:ballai/video_tracking/session/feedback/event_sound.dart] EventSoundCatalog::availableSounds
+    //     0xb72458: bl              #0x72ecd8  ; [package:kourtai/video_tracking/session/feedback/event_sound.dart] EventSoundCatalog::availableSounds
     // 0xb7245c: r1 = <AccountSetupGreenSoundParityView>
     //     0xb7245c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a788] TypeArguments: <AccountSetupGreenSoundParityView>
     //     0xb72460: ldr             x1, [x1, #0x788]

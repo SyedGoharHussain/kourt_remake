@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/components/social_user_cell_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/components/social_user_cell_view.dart
 
 // class id: 1049006, size: 0x8
 class :: {
@@ -23,8 +23,8 @@ class _StatusPill extends StatelessWidget {
     //     0xc127c4: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xc127c8: cmp             SP, x16
     //     0xc127cc: b.ls            #0xc12b28
-    // 0xc127d0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc127d0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc127d0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc127d0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc127d4: mov             x2, x0
     // 0xc127d8: ldur            x0, [fp, #-8]
     // 0xc127dc: stur            x2, [fp, #-0x20]
@@ -377,8 +377,8 @@ class _DefaultAvatar extends StatelessWidget {
     // 0xc126e8: b               #0xc126f0
     // 0xc126ec: mov             x0, x2
     // 0xc126f0: stur            x0, [fp, #-8]
-    // 0xc126f4: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc126f4: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc126f4: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc126f4: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc126f8: stur            x0, [fp, #-0x10]
     // 0xc126fc: r0 = TextStyle()
     //     0xc126fc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -547,12 +547,12 @@ class SocialUserCellView extends StatelessWidget {
     //     0xc11d88: cmp             SP, x16
     //     0xc11d8c: b.ls            #0xc12558
     // 0xc11d90: mov             x1, x0
-    // 0xc11d94: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc11d94: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc11d94: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc11d94: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc11d98: ldur            x1, [fp, #-0x10]
     // 0xc11d9c: stur            x0, [fp, #-0x10]
-    // 0xc11da0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc11da0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc11da0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc11da0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc11da4: mov             x1, x0
     // 0xc11da8: ldur            x0, [fp, #-8]
     // 0xc11dac: stur            x1, [fp, #-0x28]
@@ -612,7 +612,7 @@ class SocialUserCellView extends StatelessWidget {
     // 0xc11e38: DecompressPointer r1
     //     0xc11e38: add             x1, x1, HEAP, lsl #32
     // 0xc11e3c: r0 = _abbreviate()
-    //     0xc11e3c: bl              #0xc12578  ; [package:ballai/automatic/views/home/tab/tabs/you/components/social_user_cell_view.dart] SocialUserCellView::_abbreviate
+    //     0xc11e3c: bl              #0xc12578  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/social_user_cell_view.dart] SocialUserCellView::_abbreviate
     // 0xc11e40: b               #0xc11e48
     // 0xc11e44: mov             x0, x1
     // 0xc11e48: stur            x0, [fp, #-0x18]
@@ -1088,7 +1088,7 @@ class SocialUserCellView extends StatelessWidget {
     // 0xc12310: DecompressPointer r1
     //     0xc12310: add             x1, x1, HEAP, lsl #32
     // 0xc12314: r0 = L()
-    //     0xc12314: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc12314: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc12318: stur            x0, [fp, #-0x38]
     // 0xc1231c: r0 = _StatusPill()
     //     0xc1231c: bl              #0xc12560  ; Allocate_StatusPillStub -> _StatusPill (size=0x1c)
@@ -1168,7 +1168,7 @@ class SocialUserCellView extends StatelessWidget {
     //     0xc123e0: add             x1, PP, #0x42, lsl #12  ; [pp+0x42ec8] "Remove"
     //     0xc123e4: ldr             x1, [x1, #0xec8]
     // 0xc123e8: r0 = L()
-    //     0xc123e8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc123e8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc123ec: stur            x0, [fp, #-0x18]
     // 0xc123f0: r0 = IconButton()
     //     0xc123f0: bl              #0x9d5dc4  ; AllocateIconButtonStub -> IconButton (size=0x70)
@@ -1287,8 +1287,8 @@ class SocialUserCellView extends StatelessWidget {
     // 0xc1251c: ldur            x0, [fp, #-0x30]
     // 0xc12520: StoreField: r1->field_b = r0
     //     0xc12520: stur            w0, [x1, #0xb]
-    // 0xc12524: r0 = BallAiLiquidGlassCard()
-    //     0xc12524: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xc12524: r0 = KourtAiLiquidGlassCard()
+    //     0xc12524: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xc12528: ldur            x1, [fp, #-8]
     // 0xc1252c: StoreField: r0->field_b = r1
     //     0xc1252c: stur            w1, [x0, #0xb]
@@ -1370,7 +1370,7 @@ class SocialUserCellView extends StatelessWidget {
     // 0xc12604: r0 = where()
     //     0xc12604: bl              #0x8c5098  ; [dart:_compact_hash] __Set&_HashVMBase&SetMixin::where
     // 0xc12608: r1 = Function '<anonymous closure>': static.
-    //     0xc12608: add             x1, PP, #0x42, lsl #12  ; [pp+0x42ed8] AnonymousClosure: static (0xc12654), in [package:ballai/automatic/views/home/tab/tabs/you/components/social_user_cell_view.dart] SocialUserCellView::_abbreviate (0xc12578)
+    //     0xc12608: add             x1, PP, #0x42, lsl #12  ; [pp+0x42ed8] AnonymousClosure: static (0xc12654), in [package:kourtai/automatic/views/home/tab/tabs/you/components/social_user_cell_view.dart] SocialUserCellView::_abbreviate (0xc12578)
     //     0xc1260c: ldr             x1, [x1, #0xed8]
     // 0xc12610: r2 = Null
     //     0xc12610: mov             x2, NULL

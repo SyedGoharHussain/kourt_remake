@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/client/charts/metric_bar_model.dart
+// lib: , url: package:kourtai/automatic/models/client/charts/metric_bar_model.dart
 
 // class id: 1048675, size: 0x8
 class :: {

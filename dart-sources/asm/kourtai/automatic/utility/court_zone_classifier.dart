@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/court_zone_classifier.dart
+// lib: , url: package:kourtai/automatic/utility/court_zone_classifier.dart
 
 // class id: 1048721, size: 0x8
 class :: {
@@ -44,7 +44,7 @@ class CourtZoneStat extends Object {
     //     0xa7ff84: cmp             SP, x16
     //     0xa7ff88: b.ls            #0xa80138
     // 0xa7ff8c: r1 = Function '<anonymous closure>': static.
-    //     0xa7ff8c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49af8] AnonymousClosure: static (0xa8014c), in [package:ballai/automatic/utility/court_zone_classifier.dart] CourtZoneStat::buildStats (0xa7ff6c)
+    //     0xa7ff8c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49af8] AnonymousClosure: static (0xa8014c), in [package:kourtai/automatic/utility/court_zone_classifier.dart] CourtZoneStat::buildStats (0xa7ff6c)
     //     0xa7ff90: ldr             x1, [x1, #0xaf8]
     // 0xa7ff94: r2 = Null
     //     0xa7ff94: mov             x2, NULL
@@ -114,7 +114,7 @@ class CourtZoneStat extends Object {
     // 0xa80040: LoadField: d1 = r2->field_f
     //     0xa80040: ldur            d1, [x2, #0xf]
     // 0xa80044: r0 = classifyXY()
-    //     0xa80044: bl              #0x96bf64  ; [package:ballai/automatic/utility/court_zone_classifier.dart] CourtZoneClassifier::classifyXY
+    //     0xa80044: bl              #0x96bf64  ; [package:kourtai/automatic/utility/court_zone_classifier.dart] CourtZoneClassifier::classifyXY
     // 0xa80048: b               #0xa80084
     // 0xa8004c: mov             x0, x5
     // 0xa80050: LoadField: r1 = r0->field_3f
@@ -134,7 +134,7 @@ class CourtZoneStat extends Object {
     // 0xa80074: LoadField: d1 = r2->field_7
     //     0xa80074: ldur            d1, [x2, #7]
     // 0xa80078: r0 = classifyXY()
-    //     0xa80078: bl              #0x96bf64  ; [package:ballai/automatic/utility/court_zone_classifier.dart] CourtZoneClassifier::classifyXY
+    //     0xa80078: bl              #0x96bf64  ; [package:kourtai/automatic/utility/court_zone_classifier.dart] CourtZoneClassifier::classifyXY
     // 0xa8007c: b               #0xa80084
     // 0xa80080: r0 = Null
     //     0xa80080: mov             x0, NULL
@@ -335,7 +335,7 @@ class CourtZoneStat extends Object {
     // 0xa8029c: LoadField: d1 = r3->field_f
     //     0xa8029c: ldur            d1, [x3, #0xf]
     // 0xa802a0: r0 = classifyXY()
-    //     0xa802a0: bl              #0x96bf64  ; [package:ballai/automatic/utility/court_zone_classifier.dart] CourtZoneClassifier::classifyXY
+    //     0xa802a0: bl              #0x96bf64  ; [package:kourtai/automatic/utility/court_zone_classifier.dart] CourtZoneClassifier::classifyXY
     // 0xa802a4: b               #0xa802e0
     // 0xa802a8: mov             x0, x5
     // 0xa802ac: LoadField: r1 = r0->field_3f
@@ -355,7 +355,7 @@ class CourtZoneStat extends Object {
     // 0xa802d0: LoadField: d1 = r2->field_7
     //     0xa802d0: ldur            d1, [x2, #7]
     // 0xa802d4: r0 = classifyXY()
-    //     0xa802d4: bl              #0x96bf64  ; [package:ballai/automatic/utility/court_zone_classifier.dart] CourtZoneClassifier::classifyXY
+    //     0xa802d4: bl              #0x96bf64  ; [package:kourtai/automatic/utility/court_zone_classifier.dart] CourtZoneClassifier::classifyXY
     // 0xa802d8: b               #0xa802e0
     // 0xa802dc: r0 = Null
     //     0xa802dc: mov             x0, NULL
@@ -390,7 +390,7 @@ class CourtZoneStat extends Object {
     // 0xa8033c: ldur            x2, [fp, #-0x30]
     // 0xa80340: b               #0xa80240
     // 0xa80344: r1 = Function '<anonymous closure>': static.
-    //     0xa80344: add             x1, PP, #0x49, lsl #12  ; [pp+0x49b10] AnonymousClosure: static (0xa8014c), in [package:ballai/automatic/utility/court_zone_classifier.dart] CourtZoneStat::buildStats (0xa7ff6c)
+    //     0xa80344: add             x1, PP, #0x49, lsl #12  ; [pp+0x49b10] AnonymousClosure: static (0xa8014c), in [package:kourtai/automatic/utility/court_zone_classifier.dart] CourtZoneStat::buildStats (0xa7ff6c)
     //     0xa80348: ldr             x1, [x1, #0xb10]
     // 0xa8034c: r2 = Null
     //     0xa8034c: mov             x2, NULL
@@ -446,7 +446,7 @@ class CourtZoneStat extends Object {
     //     0xa803d8: add             x3, x3, HEAP, lsl #32
     // 0xa803dc: stur            x3, [fp, #-0x38]
     // 0xa803e0: r1 = Function '<anonymous closure>': static.
-    //     0xa803e0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49b18] AnonymousClosure: (0x8f6a60), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
+    //     0xa803e0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49b18] AnonymousClosure: (0x8f6a60), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
     //     0xa803e4: ldr             x1, [x1, #0xb18]
     // 0xa803e8: r2 = Null
     //     0xa803e8: mov             x2, NULL
@@ -754,7 +754,7 @@ abstract class CourtZoneClassifier extends Object {
     // 0x96bec4: LoadField: d1 = r0->field_f
     //     0x96bec4: ldur            d1, [x0, #0xf]
     // 0x96bec8: r0 = classifyXY()
-    //     0x96bec8: bl              #0x96bf64  ; [package:ballai/automatic/utility/court_zone_classifier.dart] CourtZoneClassifier::classifyXY
+    //     0x96bec8: bl              #0x96bf64  ; [package:kourtai/automatic/utility/court_zone_classifier.dart] CourtZoneClassifier::classifyXY
     // 0x96becc: LeaveFrame
     //     0x96becc: mov             SP, fp
     //     0x96bed0: ldp             fp, lr, [SP], #0x10
@@ -777,7 +777,7 @@ abstract class CourtZoneClassifier extends Object {
     // 0x96befc: LoadField: d1 = r2->field_7
     //     0x96befc: ldur            d1, [x2, #7]
     // 0x96bf00: r0 = classifyXY()
-    //     0x96bf00: bl              #0x96bf64  ; [package:ballai/automatic/utility/court_zone_classifier.dart] CourtZoneClassifier::classifyXY
+    //     0x96bf00: bl              #0x96bf64  ; [package:kourtai/automatic/utility/court_zone_classifier.dart] CourtZoneClassifier::classifyXY
     // 0x96bf04: LeaveFrame
     //     0x96bf04: mov             SP, fp
     //     0x96bf08: ldp             fp, lr, [SP], #0x10

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/health_data/workout_health_data_summary_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/health_data/workout_health_data_summary_view.dart
 
 // class id: 1048902, size: 0x8
 class :: {
@@ -66,11 +66,11 @@ class _UnavailableCard extends StatelessWidget {
     //     0xbeac80: add             x1, PP, #0x44, lsl #12  ; [pp+0x44978] "Health data is recorded on iOS via HealthKit / Apple Watch."
     //     0xbeac84: ldr             x1, [x1, #0x978]
     // 0xbeac88: r0 = L()
-    //     0xbeac88: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbeac88: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbeac8c: ldur            x1, [fp, #-8]
     // 0xbeac90: stur            x0, [fp, #-0x18]
-    // 0xbeac94: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbeac94: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbeac94: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbeac94: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbeac98: stur            x0, [fp, #-0x20]
     // 0xbeac9c: r0 = TextStyle()
     //     0xbeac9c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -116,11 +116,11 @@ class _UnavailableCard extends StatelessWidget {
     //     0xbead04: add             x1, PP, #0x44, lsl #12  ; [pp+0x44980] "Android support via Health Connect is coming soon."
     //     0xbead08: ldr             x1, [x1, #0x980]
     // 0xbead0c: r0 = L()
-    //     0xbead0c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbead0c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbead10: ldur            x1, [fp, #-8]
     // 0xbead14: stur            x0, [fp, #-8]
-    // 0xbead18: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbead18: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbead18: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbead18: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbead1c: stur            x0, [fp, #-0x28]
     // 0xbead20: r0 = TextStyle()
     //     0xbead20: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -266,7 +266,7 @@ class WorkoutHealthDataSummaryView extends StatelessWidget {
     //     0xbea8c0: cmp             SP, x16
     //     0xbea8c4: b.ls            #0xbeaad4
     // 0xbea8c8: r0 = _shouldRender()
-    //     0xbea8c8: bl              #0xbeaadc  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/health_data/workout_health_data_summary_view.dart] WorkoutHealthDataSummaryView::_shouldRender
+    //     0xbea8c8: bl              #0xbeaadc  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/health_data/workout_health_data_summary_view.dart] WorkoutHealthDataSummaryView::_shouldRender
     // 0xbea8cc: tbz             w0, #4, #0xbea8e0
     // 0xbea8d0: r0 = Instance_SizedBox
     //     0xbea8d0: ldr             x0, [PP, #0x4b10]  ; [pp+0x4b10] Obj!SizedBox@d21791
@@ -282,7 +282,7 @@ class WorkoutHealthDataSummaryView extends StatelessWidget {
     //     0xbea8e8: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bcb8] "Health"
     //     0xbea8ec: ldr             x1, [x1, #0xcb8]
     // 0xbea8f0: r0 = L()
-    //     0xbea8f0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbea8f0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbea8f4: stur            x0, [fp, #-8]
     // 0xbea8f8: r0 = TextStyle()
     //     0xbea8f8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -498,7 +498,7 @@ class WorkoutHealthDataSummaryView extends StatelessWidget {
     //     0xbeaaf8: b.ls            #0xbeab64
     // 0xbeaafc: mov             x1, x0
     // 0xbeab00: r0 = _isWatch()
-    //     0xbeab00: bl              #0xbeab6c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/health_data/workout_health_data_summary_view.dart] WorkoutHealthDataSummaryView::_isWatch
+    //     0xbeab00: bl              #0xbeab6c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/health_data/workout_health_data_summary_view.dart] WorkoutHealthDataSummaryView::_isWatch
     // 0xbeab04: tbz             w0, #4, #0xbeab4c
     // 0xbeab08: ldur            x1, [fp, #-8]
     // 0xbeab0c: LoadField: r2 = r1->field_b

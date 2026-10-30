@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart
 
 // class id: 1048861, size: 0x8
 class :: {
@@ -85,7 +85,7 @@ class AccountSetupRecommendedGoals extends Object {
     //     0x930998: stur            x1, [x0, #0xb]
     // 0x93099c: mov             x1, x0
     // 0x9309a0: r0 = DateTimeWeekRange.getWeekStartAndEnd()
-    //     0x9309a0: bl              #0x5fb6d0  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
+    //     0x9309a0: bl              #0x5fb6d0  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
     // 0x9309a4: mov             x2, x0
     // 0x9309a8: r17 = -272
     //     0x9309a8: mov             x17, #-0x110
@@ -174,22 +174,22 @@ class AccountSetupRecommendedGoals extends Object {
     //     0x930a98: mov             x17, #-0x130
     // 0x930a9c: ldr             x1, [fp, x17]
     // 0x930aa0: r0 = WeeklyDateKey.generateWeeklyDateKey()
-    //     0x930aa0: bl              #0x9315c4  ; [package:ballai/automatic/utility/extensions/date/weekly_date_key.dart] ::WeeklyDateKey.generateWeeklyDateKey
+    //     0x930aa0: bl              #0x9315c4  ; [package:kourtai/automatic/utility/extensions/date/weekly_date_key.dart] ::WeeklyDateKey.generateWeeklyDateKey
     // 0x930aa4: ldur            x1, [fp, #-0xf8]
     // 0x930aa8: r17 = -272
     //     0x930aa8: mov             x17, #-0x110
     // 0x930aac: str             x0, [fp, x17]
     // 0x930ab0: r0 = clampShots()
-    //     0x930ab0: bl              #0x931bc0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampShots
+    //     0x930ab0: bl              #0x931bc0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampShots
     // 0x930ab4: ldur            x1, [fp, #-0xf0]
     // 0x930ab8: mov             x2, x0
     // 0x930abc: stur            x0, [fp, #-0xf0]
     // 0x930ac0: r0 = clampMakes()
-    //     0x930ac0: bl              #0x931b3c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampMakes
+    //     0x930ac0: bl              #0x931b3c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampMakes
     // 0x930ac4: ldur            x1, [fp, #-0x100]
     // 0x930ac8: stur            x0, [fp, #-0xf8]
     // 0x930acc: r0 = clampTime()
-    //     0x930acc: bl              #0x931ae8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampTime
+    //     0x930acc: bl              #0x931ae8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampTime
     // 0x930ad0: r17 = -272
     //     0x930ad0: mov             x17, #-0x110
     // 0x930ad4: ldr             x1, [fp, x17]
@@ -198,7 +198,7 @@ class AccountSetupRecommendedGoals extends Object {
     // 0x930adc: ldr             x2, [fp, x17]
     // 0x930ae0: stur            x0, [fp, #-0x100]
     // 0x930ae4: r0 = documentId()
-    //     0x930ae4: bl              #0x931558  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::documentId
+    //     0x930ae4: bl              #0x931558  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::documentId
     // 0x930ae8: r17 = -296
     //     0x930ae8: mov             x17, #-0x128
     // 0x930aec: str             x0, [fp, x17]
@@ -397,7 +397,7 @@ class AccountSetupRecommendedGoals extends Object {
     //     0x930ce4: mov             x17, #-0x128
     // 0x930ce8: str             x0, [fp, x17]
     // 0x930cec: r0 = toFirestoreMap()
-    //     0x930cec: bl              #0x931358  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::toFirestoreMap
+    //     0x930cec: bl              #0x931358  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::toFirestoreMap
     // 0x930cf0: r17 = -312
     //     0x930cf0: mov             x17, #-0x138
     // 0x930cf4: str             x0, [fp, x17]
@@ -451,7 +451,7 @@ class AccountSetupRecommendedGoals extends Object {
     //     0x930d70: mov             x17, #-0x128
     // 0x930d74: str             x0, [fp, x17]
     // 0x930d78: r0 = dateKeyVariants()
-    //     0x930d78: bl              #0x9310b8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::dateKeyVariants
+    //     0x930d78: bl              #0x9310b8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::dateKeyVariants
     // 0x930d7c: str             x0, [SP]
     // 0x930d80: r17 = -296
     //     0x930d80: mov             x17, #-0x128
@@ -1200,7 +1200,7 @@ class AccountSetupRecommendedGoals extends Object {
     // 0x931cb8: ldur            x1, [fp, #-8]
     // 0x931cbc: stur            x0, [fp, #-0x10]
     // 0x931cc0: r0 = canonicalLevelKey()
-    //     0x931cc0: bl              #0x931f74  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::canonicalLevelKey
+    //     0x931cc0: bl              #0x931f74  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::canonicalLevelKey
     // 0x931cc4: stur            x0, [fp, #-8]
     // 0x931cc8: r16 = "Beginner"
     //     0x931cc8: add             x16, PP, #0x1a, lsl #12  ; [pp+0x1a8e0] "Beginner"
@@ -1288,7 +1288,7 @@ class AccountSetupRecommendedGoals extends Object {
     //     0x931dcc: tbz             w0, #0, #0x931dd4
     //     0x931dd0: ldur            x1, [x0, #7]
     // 0x931dd4: r0 = clampShots()
-    //     0x931dd4: bl              #0x931bc0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampShots
+    //     0x931dd4: bl              #0x931bc0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampShots
     // 0x931dd8: stur            x0, [fp, #-0x18]
     // 0x931ddc: scvtf           d0, x0
     // 0x931de0: d1 = 0.500000
@@ -1322,7 +1322,7 @@ class AccountSetupRecommendedGoals extends Object {
     //     0x931e44: ldur            x1, [x0, #7]
     // 0x931e48: ldur            x2, [fp, #-0x18]
     // 0x931e4c: r0 = clampMakes()
-    //     0x931e4c: bl              #0x931b3c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampMakes
+    //     0x931e4c: bl              #0x931b3c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampMakes
     // 0x931e50: mov             x1, x0
     // 0x931e54: ldur            x0, [fp, #-0x10]
     // 0x931e58: stur            x1, [fp, #-0x20]
@@ -1364,7 +1364,7 @@ class AccountSetupRecommendedGoals extends Object {
     //     0x931ed4: tbz             w0, #0, #0x931edc
     //     0x931ed8: ldur            x1, [x0, #7]
     // 0x931edc: r0 = clampTime()
-    //     0x931edc: bl              #0x931ae8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampTime
+    //     0x931edc: bl              #0x931ae8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampTime
     // 0x931ee0: stur            x0, [fp, #-0x28]
     // 0x931ee4: r0 = AccountSetupRecommendedGoals()
     //     0x931ee4: bl              #0x931f68  ; AllocateAccountSetupRecommendedGoalsStub -> AccountSetupRecommendedGoals (size=0x20)

@@ -57,7 +57,7 @@ public class LicenseClient implements ServiceConnection {
     protected static String licensePubKey = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2gM5uPe2KolBUCQJ+p4HrCmqF8cCyDFsNvPHSo0Ye6tlDiLFG38514NQ8RvL+11dWKPM0RbDHUKtvLA/oUVCxN3bnSYgsUfGwufyPmishSAPg5cTBxWVUDKqma8ToCPhmp94r2SNA/JtFYudzLXdX1CWIDBz9WICcLaPycEu3DG+kIXChLgAwU6AkfcoZ95vggweIEQ9nt8/zpgJV0nJEk+LRL5eTveEJ/XUIVFRgki6Ud/O/85MS9tIIObXCfmrVfcJcLgiMVa6moB2YUM42Ygdv4IS61Dc6t1+lGVcVcfn7ZdufvrJAf5GS1wXvFPnmvgSkhAMbVdc3MfB5kTAdQIDAQAB";
     protected static boolean localCheckEnabled = true;
     protected static ImmediateTaskExecutor mainThreadRunner = null;
-    protected static String packageName = "ballai.app";
+    protected static String packageName = "kourtai.app";
     protected static boolean repeatedCheckEnabled = true;
     protected static Bundle responsePayload;
     private final Context context;

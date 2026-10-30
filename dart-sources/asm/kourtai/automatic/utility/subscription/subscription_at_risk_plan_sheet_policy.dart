@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/subscription/subscription_at_risk_plan_sheet_policy.dart
+// lib: , url: package:kourtai/automatic/utility/subscription/subscription_at_risk_plan_sheet_policy.dart
 
 // class id: 1048745, size: 0x8
 class :: {
@@ -137,7 +137,7 @@ abstract class SubscriptionAtRiskPlanSheetPolicy extends Object {
     // 0x8e7c6c: ldur            x1, [fp, #-0x18]
     // 0x8e7c70: ldur            x2, [fp, #-0x10]
     // 0x8e7c74: r0 = _lastShownDayKey()
-    //     0x8e7c74: bl              #0x8e7cd4  ; [package:ballai/automatic/utility/subscription/subscription_at_risk_plan_sheet_policy.dart] SubscriptionAtRiskPlanSheetPolicy::_lastShownDayKey
+    //     0x8e7c74: bl              #0x8e7cd4  ; [package:kourtai/automatic/utility/subscription/subscription_at_risk_plan_sheet_policy.dart] SubscriptionAtRiskPlanSheetPolicy::_lastShownDayKey
     // 0x8e7c78: mov             x1, x0
     // 0x8e7c7c: ldur            x0, [fp, #-0x30]
     // 0x8e7c80: LoadField: r2 = r0->field_b
@@ -268,7 +268,7 @@ abstract class SubscriptionAtRiskPlanSheetPolicy extends Object {
     // 0x8e8c54: ldur            x2, [fp, #-0x10]
     // 0x8e8c58: stur            x0, [fp, #-0x10]
     // 0x8e8c5c: r0 = _lastShownDayKey()
-    //     0x8e8c5c: bl              #0x8e7cd4  ; [package:ballai/automatic/utility/subscription/subscription_at_risk_plan_sheet_policy.dart] SubscriptionAtRiskPlanSheetPolicy::_lastShownDayKey
+    //     0x8e8c5c: bl              #0x8e7cd4  ; [package:kourtai/automatic/utility/subscription/subscription_at_risk_plan_sheet_policy.dart] SubscriptionAtRiskPlanSheetPolicy::_lastShownDayKey
     // 0x8e8c60: ldur            x1, [fp, #-0x10]
     // 0x8e8c64: mov             x2, x0
     // 0x8e8c68: r0 = getInt()
@@ -526,7 +526,7 @@ abstract class SubscriptionAtRiskPlanSheetPolicy extends Object {
     //     0x8e8f10: add             x2, PP, #0x20, lsl #12  ; [pp+0x20df0] Obj!SubscriptionAtRiskPlanSheetKind@d3ad41
     //     0x8e8f14: ldr             x2, [x2, #0xdf0]
     // 0x8e8f18: r0 = _lastShownDayKey()
-    //     0x8e8f18: bl              #0x8e7cd4  ; [package:ballai/automatic/utility/subscription/subscription_at_risk_plan_sheet_policy.dart] SubscriptionAtRiskPlanSheetPolicy::_lastShownDayKey
+    //     0x8e8f18: bl              #0x8e7cd4  ; [package:kourtai/automatic/utility/subscription/subscription_at_risk_plan_sheet_policy.dart] SubscriptionAtRiskPlanSheetPolicy::_lastShownDayKey
     // 0x8e8f1c: ldur            x1, [fp, #-0x28]
     // 0x8e8f20: mov             x2, x0
     // 0x8e8f24: r0 = remove()
@@ -542,7 +542,7 @@ abstract class SubscriptionAtRiskPlanSheetPolicy extends Object {
     //     0x8e8f40: add             x2, PP, #0x20, lsl #12  ; [pp+0x20df8] Obj!SubscriptionAtRiskPlanSheetKind@d3ad21
     //     0x8e8f44: ldr             x2, [x2, #0xdf8]
     // 0x8e8f48: r0 = _lastShownDayKey()
-    //     0x8e8f48: bl              #0x8e7cd4  ; [package:ballai/automatic/utility/subscription/subscription_at_risk_plan_sheet_policy.dart] SubscriptionAtRiskPlanSheetPolicy::_lastShownDayKey
+    //     0x8e8f48: bl              #0x8e7cd4  ; [package:kourtai/automatic/utility/subscription/subscription_at_risk_plan_sheet_policy.dart] SubscriptionAtRiskPlanSheetPolicy::_lastShownDayKey
     // 0x8e8f4c: ldur            x1, [fp, #-0x28]
     // 0x8e8f50: mov             x2, x0
     // 0x8e8f54: r0 = remove()

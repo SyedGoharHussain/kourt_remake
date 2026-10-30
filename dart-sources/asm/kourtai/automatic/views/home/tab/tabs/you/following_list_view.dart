@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/following_list_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/following_list_view.dart
 
 // class id: 1049021, size: 0x8
 class :: {
@@ -56,7 +56,7 @@ class _FollowingListViewState extends State<dynamic> {
     // 0x987068: ldur            x3, [fp, #-8]
     // 0x98706c: stur            x0, [fp, #-8]
     // 0x987070: r0 = FollowingListViewModel()
-    //     0x987070: bl              #0x987328  ; [package:ballai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::FollowingListViewModel
+    //     0x987070: bl              #0x987328  ; [package:kourtai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::FollowingListViewModel
     // 0x987074: ldur            x3, [fp, #-0x10]
     // 0x987078: LoadField: r0 = r3->field_13
     //     0x987078: ldur            w0, [x3, #0x13]
@@ -77,7 +77,7 @@ class _FollowingListViewState extends State<dynamic> {
     //     0x9870a8: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x9870ac: mov             x2, x3
     // 0x9870b0: r1 = Function '_onVm@1283265816':.
-    //     0x9870b0: add             x1, PP, #0x58, lsl #12  ; [pp+0x58508] AnonymousClosure: (0x9878c8), in [package:ballai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_onVm (0x987900)
+    //     0x9870b0: add             x1, PP, #0x58, lsl #12  ; [pp+0x58508] AnonymousClosure: (0x9878c8), in [package:kourtai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_onVm (0x987900)
     //     0x9870b4: ldr             x1, [x1, #0x508]
     // 0x9870b8: r0 = AllocateClosure()
     //     0x9870b8: bl              #0xe553e0  ; AllocateClosureStub
@@ -93,7 +93,7 @@ class _FollowingListViewState extends State<dynamic> {
     // 0x9870d4: mov             x2, x0
     // 0x9870d8: stur            x3, [fp, #-8]
     // 0x9870dc: r1 = Function '_onScroll@1283265816':.
-    //     0x9870dc: add             x1, PP, #0x58, lsl #12  ; [pp+0x58500] AnonymousClosure: (0x987500), in [package:ballai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_onScroll (0x987538)
+    //     0x9870dc: add             x1, PP, #0x58, lsl #12  ; [pp+0x58500] AnonymousClosure: (0x987500), in [package:kourtai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_onScroll (0x987538)
     //     0x9870e0: ldr             x1, [x1, #0x500]
     // 0x9870e4: r0 = AllocateClosure()
     //     0x9870e4: bl              #0xe553e0  ; AllocateClosureStub
@@ -107,7 +107,7 @@ class _FollowingListViewState extends State<dynamic> {
     // 0x9870fc: DecompressPointer r1
     //     0x9870fc: add             x1, x1, HEAP, lsl #32
     // 0x987100: r0 = loadFirstPage()
-    //     0x987100: bl              #0x987158  ; [package:ballai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::loadFirstPage
+    //     0x987100: bl              #0x987158  ; [package:kourtai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::loadFirstPage
     // 0x987104: r0 = Null
     //     0x987104: mov             x0, NULL
     // 0x987108: LeaveFrame
@@ -145,7 +145,7 @@ class _FollowingListViewState extends State<dynamic> {
     //     0x987518: cmp             SP, x16
     //     0x98751c: b.ls            #0x987530
     // 0x987520: r0 = _onScroll()
-    //     0x987520: bl              #0x987538  ; [package:ballai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_onScroll
+    //     0x987520: bl              #0x987538  ; [package:kourtai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_onScroll
     // 0x987524: LeaveFrame
     //     0x987524: mov             SP, fp
     //     0x987528: ldp             fp, lr, [SP], #0x10
@@ -186,7 +186,7 @@ class _FollowingListViewState extends State<dynamic> {
     // 0x987578: cmp             w1, w16
     // 0x98757c: b.eq            #0x9876a0
     // 0x987580: r0 = canLoadMore()
-    //     0x987580: bl              #0x987878  ; [package:ballai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::canLoadMore
+    //     0x987580: bl              #0x987878  ; [package:kourtai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::canLoadMore
     // 0x987584: tbnz            w0, #4, #0x9875a0
     // 0x987588: ldur            x0, [fp, #-8]
     // 0x98758c: LoadField: r1 = r0->field_13
@@ -277,10 +277,10 @@ class _FollowingListViewState extends State<dynamic> {
     // 0x987660: DecompressPointer r1
     //     0x987660: add             x1, x1, HEAP, lsl #32
     // 0x987664: r0 = loadMore()
-    //     0x987664: bl              #0x9876b4  ; [package:ballai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::loadMore
+    //     0x987664: bl              #0x9876b4  ; [package:kourtai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::loadMore
     // 0x987668: ldur            x2, [fp, #-0x10]
     // 0x98766c: r1 = Function '<anonymous closure>':.
-    //     0x98766c: add             x1, PP, #0x58, lsl #12  ; [pp+0x58518] AnonymousClosure: (0x986910), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
+    //     0x98766c: add             x1, PP, #0x58, lsl #12  ; [pp+0x58518] AnonymousClosure: (0x986910), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
     //     0x987670: ldr             x1, [x1, #0x518]
     // 0x987674: stur            x0, [fp, #-8]
     // 0x987678: r0 = AllocateClosure()
@@ -324,7 +324,7 @@ class _FollowingListViewState extends State<dynamic> {
     //     0x9878e0: cmp             SP, x16
     //     0x9878e4: b.ls            #0x9878f8
     // 0x9878e8: r0 = _onVm()
-    //     0x9878e8: bl              #0x987900  ; [package:ballai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_onVm
+    //     0x9878e8: bl              #0x987900  ; [package:kourtai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_onVm
     // 0x9878ec: LeaveFrame
     //     0x9878ec: mov             SP, fp
     //     0x9878f0: ldp             fp, lr, [SP], #0x10
@@ -504,7 +504,7 @@ class _FollowingListViewState extends State<dynamic> {
     //     0xa9b890: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa9b894: ldur            x2, [fp, #-8]
     // 0xa9b898: r1 = Function '<anonymous closure>':.
-    //     0xa9b898: add             x1, PP, #0x58, lsl #12  ; [pp+0x584a8] AnonymousClosure: (0xa9b758), in [package:ballai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_openUserProfile (0xa9b7d8)
+    //     0xa9b898: add             x1, PP, #0x58, lsl #12  ; [pp+0x584a8] AnonymousClosure: (0xa9b758), in [package:kourtai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_openUserProfile (0xa9b7d8)
     //     0xa9b89c: ldr             x1, [x1, #0x4a8]
     // 0xa9b8a0: stur            x0, [fp, #-8]
     // 0xa9b8a4: r0 = AllocateClosure()
@@ -603,7 +603,7 @@ class _FollowingListViewState extends State<dynamic> {
     // 0xa9c260: mov             x2, x3
     // 0xa9c264: stur            x5, [fp, #-0x10]
     // 0xa9c268: r1 = Function '<anonymous closure>':.
-    //     0xa9c268: add             x1, PP, #0x58, lsl #12  ; [pp+0x58428] AnonymousClosure: (0xa9db00), in [package:ballai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::build (0xa9c1d4)
+    //     0xa9c268: add             x1, PP, #0x58, lsl #12  ; [pp+0x58428] AnonymousClosure: (0xa9db00), in [package:kourtai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::build (0xa9c1d4)
     //     0xa9c26c: ldr             x1, [x1, #0x428]
     // 0xa9c270: r0 = AllocateClosure()
     //     0xa9c270: bl              #0xe553e0  ; AllocateClosureStub
@@ -678,7 +678,7 @@ class _FollowingListViewState extends State<dynamic> {
     //     0xa9c334: add             x1, PP, #0x54, lsl #12  ; [pp+0x54fb0] "Name or ball tag"
     //     0xa9c338: ldr             x1, [x1, #0xfb0]
     // 0xa9c33c: r0 = L()
-    //     0xa9c33c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa9c33c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa9c340: mov             x2, x0
     // 0xa9c344: ldur            x0, [fp, #-0x20]
     // 0xa9c348: stur            x2, [fp, #-0x18]
@@ -740,8 +740,8 @@ class _FollowingListViewState extends State<dynamic> {
     //     0xa9c3cc: ldur            w1, [x0, #0x13]
     // 0xa9c3d0: DecompressPointer r1
     //     0xa9c3d0: add             x1, x1, HEAP, lsl #32
-    // 0xa9c3d4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa9c3d4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa9c3d4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa9c3d4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa9c3d8: stur            x0, [fp, #-0x40]
     // 0xa9c3dc: r0 = Icon()
     //     0xa9c3dc: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -831,7 +831,7 @@ class _FollowingListViewState extends State<dynamic> {
     //     0xa9c4a4: stur            w0, [x3, #0x67]
     // 0xa9c4a8: ldur            x2, [fp, #-0x10]
     // 0xa9c4ac: r1 = Function 'setSearchText':.
-    //     0xa9c4ac: add             x1, PP, #0x58, lsl #12  ; [pp+0x58440] AnonymousClosure: (0xa9da74), in [package:ballai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::setSearchText (0xa9dab0)
+    //     0xa9c4ac: add             x1, PP, #0x58, lsl #12  ; [pp+0x58440] AnonymousClosure: (0xa9da74), in [package:kourtai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::setSearchText (0xa9dab0)
     //     0xa9c4b0: ldr             x1, [x1, #0x440]
     // 0xa9c4b4: r0 = AllocateClosure()
     //     0xa9c4b4: bl              #0xe553e0  ; AllocateClosureStub
@@ -921,7 +921,7 @@ class _FollowingListViewState extends State<dynamic> {
     // 0xa9c580: mov             x1, x0
     // 0xa9c584: stur            x3, [fp, #-0x10]
     // 0xa9c588: r0 = _buildBody()
-    //     0xa9c588: bl              #0xa9c778  ; [package:ballai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_buildBody
+    //     0xa9c588: bl              #0xa9c778  ; [package:kourtai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_buildBody
     // 0xa9c58c: stur            x0, [fp, #-0x18]
     // 0xa9c590: r0 = RefreshIndicator()
     //     0xa9c590: bl              #0xa5bb70  ; AllocateRefreshIndicatorStub -> RefreshIndicator (size=0x54)
@@ -938,7 +938,7 @@ class _FollowingListViewState extends State<dynamic> {
     //     0xa9c5ac: stur            xzr, [x3, #0x17]
     // 0xa9c5b0: ldur            x2, [fp, #-0x10]
     // 0xa9c5b4: r1 = Function 'refresh':.
-    //     0xa9c5b4: add             x1, PP, #0x58, lsl #12  ; [pp+0x58448] AnonymousClosure: (0xa9d9e0), in [package:ballai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::refresh (0xa9da18)
+    //     0xa9c5b4: add             x1, PP, #0x58, lsl #12  ; [pp+0x58448] AnonymousClosure: (0xa9d9e0), in [package:kourtai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::refresh (0xa9da18)
     //     0xa9c5b8: ldr             x1, [x1, #0x448]
     // 0xa9c5bc: r0 = AllocateClosure()
     //     0xa9c5bc: bl              #0xe553e0  ; AllocateClosureStub
@@ -1214,7 +1214,7 @@ class _FollowingListViewState extends State<dynamic> {
     // 0xa9c854: DecompressPointer r1
     //     0xa9c854: add             x1, x1, HEAP, lsl #32
     // 0xa9c858: r0 = filteredRows()
-    //     0xa9c858: bl              #0xa9cc08  ; [package:ballai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::filteredRows
+    //     0xa9c858: bl              #0xa9cc08  ; [package:kourtai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::filteredRows
     // 0xa9c85c: mov             x3, x0
     // 0xa9c860: ldur            x2, [fp, #-0x10]
     // 0xa9c864: stur            x3, [fp, #-0x18]
@@ -1232,7 +1232,7 @@ class _FollowingListViewState extends State<dynamic> {
     // 0xa9c88c: DecompressPointer r1
     //     0xa9c88c: add             x1, x1, HEAP, lsl #32
     // 0xa9c890: r0 = rows()
-    //     0xa9c890: bl              #0xa9cba4  ; [package:ballai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::rows
+    //     0xa9c890: bl              #0xa9cba4  ; [package:kourtai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::rows
     // 0xa9c894: LoadField: r1 = r0->field_b
     //     0xa9c894: ldur            w1, [x0, #0xb]
     // 0xa9c898: cbnz            w1, #0xa9c98c
@@ -1252,13 +1252,13 @@ class _FollowingListViewState extends State<dynamic> {
     //     0xa9c8bc: add             x1, PP, #0x58, lsl #12  ; [pp+0x58470] "You aren\'t following anyone yet."
     //     0xa9c8c0: ldr             x1, [x1, #0x470]
     // 0xa9c8c4: r0 = L()
-    //     0xa9c8c4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa9c8c4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa9c8c8: b               #0xa9c8d8
     // 0xa9c8cc: r1 = "This user isn\'t following anyone yet."
     //     0xa9c8cc: add             x1, PP, #0x58, lsl #12  ; [pp+0x58478] "This user isn\'t following anyone yet."
     //     0xa9c8d0: ldr             x1, [x1, #0x478]
     // 0xa9c8d4: r0 = L()
-    //     0xa9c8d4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa9c8d4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa9c8d8: ldur            x2, [fp, #-8]
     // 0xa9c8dc: stur            x0, [fp, #-0x28]
     // 0xa9c8e0: LoadField: r1 = r2->field_b
@@ -1344,7 +1344,7 @@ class _FollowingListViewState extends State<dynamic> {
     //     0xa9c9b8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dd20] "No matches for your search."
     //     0xa9c9bc: ldr             x1, [x1, #0xd20]
     // 0xa9c9c0: r0 = L()
-    //     0xa9c9c0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa9c9c0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa9c9c4: stur            x0, [fp, #-0x20]
     // 0xa9c9c8: r0 = PeopleListEmptyRow()
     //     0xa9c9c8: bl              #0xa9af50  ; AllocatePeopleListEmptyRowStub -> PeopleListEmptyRow (size=0x10)
@@ -1448,7 +1448,7 @@ class _FollowingListViewState extends State<dynamic> {
     // 0xa9cae4: DecompressPointer r1
     //     0xa9cae4: add             x1, x1, HEAP, lsl #32
     // 0xa9cae8: r0 = canLoadMore()
-    //     0xa9cae8: bl              #0x987878  ; [package:ballai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::canLoadMore
+    //     0xa9cae8: bl              #0x987878  ; [package:kourtai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::canLoadMore
     // 0xa9caec: tbz             w0, #4, #0xa9cb08
     // 0xa9caf0: ldur            x0, [fp, #-8]
     // 0xa9caf4: LoadField: r1 = r0->field_13
@@ -1472,7 +1472,7 @@ class _FollowingListViewState extends State<dynamic> {
     // 0xa9cb20: ldur            x2, [fp, #-0x10]
     // 0xa9cb24: stur            x3, [fp, #-0x38]
     // 0xa9cb28: r1 = Function '<anonymous closure>':.
-    //     0xa9cb28: add             x1, PP, #0x58, lsl #12  ; [pp+0x58480] AnonymousClosure: (0xa9ce54), in [package:ballai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_buildBody (0xa9c778)
+    //     0xa9cb28: add             x1, PP, #0x58, lsl #12  ; [pp+0x58480] AnonymousClosure: (0xa9ce54), in [package:kourtai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_buildBody (0xa9c778)
     //     0xa9cb2c: ldr             x1, [x1, #0x480]
     // 0xa9cb30: r0 = AllocateClosure()
     //     0xa9cb30: bl              #0xe553e0  ; AllocateClosureStub
@@ -1706,7 +1706,7 @@ class _FollowingListViewState extends State<dynamic> {
     // 0xa9d048: mov             x2, x1
     // 0xa9d04c: mov             x1, x5
     // 0xa9d050: r0 = effectiveStatus()
-    //     0xa9d050: bl              #0xa9d21c  ; [package:ballai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::effectiveStatus
+    //     0xa9d050: bl              #0xa9d21c  ; [package:kourtai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::effectiveStatus
     // 0xa9d054: mov             x4, x0
     // 0xa9d058: ldur            x3, [fp, #-0x18]
     // 0xa9d05c: stur            x4, [fp, #-0x20]
@@ -1784,11 +1784,11 @@ class _FollowingListViewState extends State<dynamic> {
     // 0xa9d12c: DecompressPointer r2
     //     0xa9d12c: add             x2, x2, HEAP, lsl #32
     // 0xa9d130: r0 = buildSubtitle()
-    //     0xa9d130: bl              #0xa998d8  ; [package:ballai/automatic/views/home/tab/tabs/you/components/social_user_cell_view.dart] SocialUserCellView::buildSubtitle
+    //     0xa9d130: bl              #0xa998d8  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/social_user_cell_view.dart] SocialUserCellView::buildSubtitle
     // 0xa9d134: ldur            x1, [fp, #-0x10]
     // 0xa9d138: stur            x0, [fp, #-0x10]
     // 0xa9d13c: r0 = activityToolbarAvatarAbbreviation()
-    //     0xa9d13c: bl              #0xa98fdc  ; [package:ballai/automatic/utility/user/user_avatar_text.dart] ::activityToolbarAvatarAbbreviation
+    //     0xa9d13c: bl              #0xa98fdc  ; [package:kourtai/automatic/utility/user/user_avatar_text.dart] ::activityToolbarAvatarAbbreviation
     // 0xa9d140: stur            x0, [fp, #-0x38]
     // 0xa9d144: r0 = SocialUserCellView()
     //     0xa9d144: bl              #0xa95a90  ; AllocateSocialUserCellViewStub -> SocialUserCellView (size=0x48)
@@ -1829,7 +1829,7 @@ class _FollowingListViewState extends State<dynamic> {
     //     0xa9d19c: stur            w0, [x3, #0x3f]
     // 0xa9d1a0: ldur            x2, [fp, #-0x18]
     // 0xa9d1a4: r1 = Function '<anonymous closure>':.
-    //     0xa9d1a4: add             x1, PP, #0x58, lsl #12  ; [pp+0x58498] AnonymousClosure: (0xa9d3b0), in [package:ballai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_buildBody (0xa9c778)
+    //     0xa9d1a4: add             x1, PP, #0x58, lsl #12  ; [pp+0x58498] AnonymousClosure: (0xa9d3b0), in [package:kourtai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_buildBody (0xa9c778)
     //     0xa9d1a8: ldr             x1, [x1, #0x498]
     // 0xa9d1ac: r0 = AllocateClosure()
     //     0xa9d1ac: bl              #0xe553e0  ; AllocateClosureStub
@@ -1839,7 +1839,7 @@ class _FollowingListViewState extends State<dynamic> {
     //     0xa9d1b8: stur            w1, [x0, #0x2f]
     // 0xa9d1bc: ldur            x2, [fp, #-0x18]
     // 0xa9d1c0: r1 = Function '<anonymous closure>':.
-    //     0xa9d1c0: add             x1, PP, #0x58, lsl #12  ; [pp+0x584a0] AnonymousClosure: (0xa9d338), in [package:ballai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_buildBody (0xa9c778)
+    //     0xa9d1c0: add             x1, PP, #0x58, lsl #12  ; [pp+0x584a0] AnonymousClosure: (0xa9d338), in [package:kourtai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_buildBody (0xa9c778)
     //     0xa9d1c4: ldr             x1, [x1, #0x4a0]
     // 0xa9d1c8: r0 = AllocateClosure()
     //     0xa9d1c8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1918,7 +1918,7 @@ class _FollowingListViewState extends State<dynamic> {
     // 0xa9d38c: mov             x2, x3
     // 0xa9d390: mov             x3, x0
     // 0xa9d394: r0 = _openUserProfile()
-    //     0xa9d394: bl              #0xa9b7d8  ; [package:ballai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_openUserProfile
+    //     0xa9d394: bl              #0xa9b7d8  ; [package:kourtai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_openUserProfile
     // 0xa9d398: r0 = Null
     //     0xa9d398: mov             x0, NULL
     // 0xa9d39c: LeaveFrame
@@ -1978,7 +1978,7 @@ class _FollowingListViewState extends State<dynamic> {
     // 0xa9d41c: mov             x2, x1
     // 0xa9d420: mov             x1, x0
     // 0xa9d424: r0 = follow()
-    //     0xa9d424: bl              #0xa9d7b8  ; [package:ballai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::follow
+    //     0xa9d424: bl              #0xa9d7b8  ; [package:kourtai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::follow
     // 0xa9d428: r0 = Null
     //     0xa9d428: mov             x0, NULL
     // 0xa9d42c: LeaveFrame
@@ -2023,7 +2023,7 @@ class _FollowingListViewState extends State<dynamic> {
     //     0xa9d494: add             x3, x3, HEAP, lsl #32
     // 0xa9d498: stur            x3, [fp, #-0x10]
     // 0xa9d49c: r1 = Function '<anonymous closure>':.
-    //     0xa9d49c: add             x1, PP, #0x58, lsl #12  ; [pp+0x584d0] AnonymousClosure: (0xa9d894), in [package:ballai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_buildBody (0xa9c778)
+    //     0xa9d49c: add             x1, PP, #0x58, lsl #12  ; [pp+0x584d0] AnonymousClosure: (0xa9d894), in [package:kourtai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_buildBody (0xa9c778)
     //     0xa9d4a0: ldr             x1, [x1, #0x4d0]
     // 0xa9d4a4: r0 = AllocateClosure()
     //     0xa9d4a4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2032,7 +2032,7 @@ class _FollowingListViewState extends State<dynamic> {
     // 0xa9d4b0: mov             x3, x0
     // 0xa9d4b4: ldur            x5, [fp, #-0x20]
     // 0xa9d4b8: r0 = _confirmAction()
-    //     0xa9d4b8: bl              #0xa9d4e0  ; [package:ballai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_confirmAction
+    //     0xa9d4b8: bl              #0xa9d4e0  ; [package:kourtai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_confirmAction
     // 0xa9d4bc: r0 = Null
     //     0xa9d4bc: mov             x0, NULL
     // 0xa9d4c0: LeaveFrame
@@ -2092,7 +2092,7 @@ class _FollowingListViewState extends State<dynamic> {
     // 0xa9d54c: b.eq            #0xa9d5e8
     // 0xa9d550: ldur            x2, [fp, #-0x30]
     // 0xa9d554: r1 = Function '<anonymous closure>':.
-    //     0xa9d554: add             x1, PP, #0x58, lsl #12  ; [pp+0x584d8] AnonymousClosure: (0xa9d5ec), in [package:ballai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_confirmAction (0xa9d4e0)
+    //     0xa9d554: add             x1, PP, #0x58, lsl #12  ; [pp+0x584d8] AnonymousClosure: (0xa9d5ec), in [package:kourtai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_confirmAction (0xa9d4e0)
     //     0xa9d558: ldr             x1, [x1, #0x4d8]
     // 0xa9d55c: r0 = AllocateClosure()
     //     0xa9d55c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2191,7 +2191,7 @@ class _FollowingListViewState extends State<dynamic> {
     //     0xa9d654: add             x1, PP, #0x27, lsl #12  ; [pp+0x27668] "Cancel"
     //     0xa9d658: ldr             x1, [x1, #0x668]
     // 0xa9d65c: r0 = L()
-    //     0xa9d65c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa9d65c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa9d660: stur            x0, [fp, #-0x10]
     // 0xa9d664: r0 = Text()
     //     0xa9d664: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2202,7 +2202,7 @@ class _FollowingListViewState extends State<dynamic> {
     //     0xa9d674: stur            w0, [x3, #0xb]
     // 0xa9d678: ldur            x2, [fp, #-0x18]
     // 0xa9d67c: r1 = Function '<anonymous closure>':.
-    //     0xa9d67c: add             x1, PP, #0x58, lsl #12  ; [pp+0x584e0] AnonymousClosure: (0x658b4c), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible (0x658ea8)
+    //     0xa9d67c: add             x1, PP, #0x58, lsl #12  ; [pp+0x584e0] AnonymousClosure: (0x658b4c), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible (0x658ea8)
     //     0xa9d680: ldr             x1, [x1, #0x4e0]
     // 0xa9d684: r0 = AllocateClosure()
     //     0xa9d684: bl              #0xe553e0  ; AllocateClosureStub
@@ -2251,7 +2251,7 @@ class _FollowingListViewState extends State<dynamic> {
     //     0xa9d6f8: stur            w0, [x3, #0xb]
     // 0xa9d6fc: ldur            x2, [fp, #-0x18]
     // 0xa9d700: r1 = Function '<anonymous closure>':.
-    //     0xa9d700: add             x1, PP, #0x58, lsl #12  ; [pp+0x584f0] AnonymousClosure: (0x6587e8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentTrialExitReturnOfferAlertIfEligible (0x6148dc)
+    //     0xa9d700: add             x1, PP, #0x58, lsl #12  ; [pp+0x584f0] AnonymousClosure: (0x6587e8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentTrialExitReturnOfferAlertIfEligible (0x6148dc)
     //     0xa9d704: ldr             x1, [x1, #0x4f0]
     // 0xa9d708: r0 = AllocateClosure()
     //     0xa9d708: bl              #0xe553e0  ; AllocateClosureStub
@@ -2361,7 +2361,7 @@ class _FollowingListViewState extends State<dynamic> {
     //     0xa9d8dc: add             x2, x2, HEAP, lsl #32
     // 0xa9d8e0: mov             x1, x0
     // 0xa9d8e4: r0 = unfollow()
-    //     0xa9d8e4: bl              #0xa9d908  ; [package:ballai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::unfollow
+    //     0xa9d8e4: bl              #0xa9d908  ; [package:kourtai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::unfollow
     // 0xa9d8e8: LeaveFrame
     //     0xa9d8e8: mov             SP, fp
     //     0xa9d8ec: ldp             fp, lr, [SP], #0x10
@@ -2486,7 +2486,7 @@ class _FollowingListViewState extends State<dynamic> {
     // 0xa9dc14: b.eq            #0xa9dc44
     // 0xa9dc18: mov             x1, x0
     // 0xa9dc1c: r0 = clearError()
-    //     0xa9dc1c: bl              #0xa9dc50  ; [package:ballai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::clearError
+    //     0xa9dc1c: bl              #0xa9dc50  ; [package:kourtai/automatic/viewmodels/home/you/following_list_view_model.dart] FollowingListViewModel::clearError
     // 0xa9dc20: r0 = Null
     //     0xa9dc20: mov             x0, NULL
     // 0xa9dc24: LeaveFrame
@@ -2515,7 +2515,7 @@ class _FollowingListViewState extends State<dynamic> {
     //     0xb5c0bc: mov             fp, SP
     // 0xb5c0c0: ldr             x2, [fp, #0x10]
     // 0xb5c0c4: r1 = Function 'dispose':.
-    //     0xb5c0c4: add             x1, PP, #0x58, lsl #12  ; [pp+0x58420] AnonymousClosure: (0xb5c0dc), in [package:ballai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::dispose (0xb63330)
+    //     0xb5c0c4: add             x1, PP, #0x58, lsl #12  ; [pp+0x58420] AnonymousClosure: (0xb5c0dc), in [package:kourtai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::dispose (0xb63330)
     //     0xb5c0c8: ldr             x1, [x1, #0x420]
     // 0xb5c0cc: r0 = AllocateClosure()
     //     0xb5c0cc: bl              #0xe553e0  ; AllocateClosureStub
@@ -2540,7 +2540,7 @@ class _FollowingListViewState extends State<dynamic> {
     //     0xb5c0f4: cmp             SP, x16
     //     0xb5c0f8: b.ls            #0xb5c10c
     // 0xb5c0fc: r0 = dispose()
-    //     0xb5c0fc: bl              #0xb63330  ; [package:ballai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::dispose
+    //     0xb5c0fc: bl              #0xb63330  ; [package:kourtai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::dispose
     // 0xb5c100: LeaveFrame
     //     0xb5c100: mov             SP, fp
     //     0xb5c104: ldp             fp, lr, [SP], #0x10
@@ -2571,7 +2571,7 @@ class _FollowingListViewState extends State<dynamic> {
     // 0xb63358: mov             x2, x0
     // 0xb6335c: stur            x3, [fp, #-8]
     // 0xb63360: r1 = Function '_onScroll@1283265816':.
-    //     0xb63360: add             x1, PP, #0x58, lsl #12  ; [pp+0x58500] AnonymousClosure: (0x987500), in [package:ballai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_onScroll (0x987538)
+    //     0xb63360: add             x1, PP, #0x58, lsl #12  ; [pp+0x58500] AnonymousClosure: (0x987500), in [package:kourtai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_onScroll (0x987538)
     //     0xb63364: ldr             x1, [x1, #0x500]
     // 0xb63368: r0 = AllocateClosure()
     //     0xb63368: bl              #0xe553e0  ; AllocateClosureStub
@@ -2593,7 +2593,7 @@ class _FollowingListViewState extends State<dynamic> {
     // 0xb63394: b.eq            #0xb633cc
     // 0xb63398: stur            x0, [fp, #-8]
     // 0xb6339c: r1 = Function '_onVm@1283265816':.
-    //     0xb6339c: add             x1, PP, #0x58, lsl #12  ; [pp+0x58508] AnonymousClosure: (0x9878c8), in [package:ballai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_onVm (0x987900)
+    //     0xb6339c: add             x1, PP, #0x58, lsl #12  ; [pp+0x58508] AnonymousClosure: (0x9878c8), in [package:kourtai/automatic/views/home/tab/tabs/you/following_list_view.dart] _FollowingListViewState::_onVm (0x987900)
     //     0xb633a0: ldr             x1, [x1, #0x508]
     // 0xb633a4: r0 = AllocateClosure()
     //     0xb633a4: bl              #0xe553e0  ; AllocateClosureStub

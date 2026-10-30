@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/overlays/court_location/video_tracking_goal_linear_progress_view.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/overlays/court_location/video_tracking_goal_linear_progress_view.dart
 
 // class id: 1049250, size: 0x8
 class :: {
@@ -27,7 +27,7 @@ class VideoTrackingGoalLinearProgressView extends StatelessWidget {
     // 0xc3fed0: DecompressPointer r1
     //     0xc3fed0: add             x1, x1, HEAP, lsl #32
     // 0xc3fed4: r0 = colorForWorkoutGoalType()
-    //     0xc3fed4: bl              #0x96d6a4  ; [package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] ::colorForWorkoutGoalType
+    //     0xc3fed4: bl              #0x96d6a4  ; [package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] ::colorForWorkoutGoalType
     // 0xc3fed8: mov             x2, x0
     // 0xc3fedc: ldur            x0, [fp, #-8]
     // 0xc3fee0: stur            x2, [fp, #-0x18]
@@ -38,27 +38,27 @@ class VideoTrackingGoalLinearProgressView extends StatelessWidget {
     // 0xc3feec: mov             x1, x3
     // 0xc3fef0: stur            x3, [fp, #-0x10]
     // 0xc3fef4: r0 = progressFraction()
-    //     0xc3fef4: bl              #0xa4c410  ; [package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::progressFraction
+    //     0xc3fef4: bl              #0xa4c410  ; [package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::progressFraction
     // 0xc3fef8: ldur            x1, [fp, #-0x10]
     // 0xc3fefc: stur            d0, [fp, #-0x28]
     // 0xc3ff00: r0 = trailingUnit()
-    //     0xc3ff00: bl              #0x96de58  ; [package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::trailingUnit
+    //     0xc3ff00: bl              #0x96de58  ; [package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::trailingUnit
     // 0xc3ff04: ldur            x1, [fp, #-8]
     // 0xc3ff08: mov             x2, x0
     // 0xc3ff0c: stur            x0, [fp, #-0x10]
     // 0xc3ff10: r0 = _accessibilitySummary()
-    //     0xc3ff10: bl              #0xc408f4  ; [package:ballai/video_tracking/views/workout/overlays/court_location/video_tracking_goal_linear_progress_view.dart] VideoTrackingGoalLinearProgressView::_accessibilitySummary
+    //     0xc3ff10: bl              #0xc408f4  ; [package:kourtai/video_tracking/views/workout/overlays/court_location/video_tracking_goal_linear_progress_view.dart] VideoTrackingGoalLinearProgressView::_accessibilitySummary
     // 0xc3ff14: ldur            x1, [fp, #-8]
     // 0xc3ff18: ldur            x2, [fp, #-0x10]
     // 0xc3ff1c: stur            x0, [fp, #-0x10]
     // 0xc3ff20: r0 = _labelRow()
-    //     0xc3ff20: bl              #0xc40524  ; [package:ballai/video_tracking/views/workout/overlays/court_location/video_tracking_goal_linear_progress_view.dart] VideoTrackingGoalLinearProgressView::_labelRow
+    //     0xc3ff20: bl              #0xc40524  ; [package:kourtai/video_tracking/views/workout/overlays/court_location/video_tracking_goal_linear_progress_view.dart] VideoTrackingGoalLinearProgressView::_labelRow
     // 0xc3ff24: ldur            x1, [fp, #-8]
     // 0xc3ff28: ldur            x2, [fp, #-0x18]
     // 0xc3ff2c: ldur            d0, [fp, #-0x28]
     // 0xc3ff30: stur            x0, [fp, #-8]
     // 0xc3ff34: r0 = _progressBar()
-    //     0xc3ff34: bl              #0xc40044  ; [package:ballai/video_tracking/views/workout/overlays/court_location/video_tracking_goal_linear_progress_view.dart] VideoTrackingGoalLinearProgressView::_progressBar
+    //     0xc3ff34: bl              #0xc40044  ; [package:kourtai/video_tracking/views/workout/overlays/court_location/video_tracking_goal_linear_progress_view.dart] VideoTrackingGoalLinearProgressView::_progressBar
     // 0xc3ff38: r1 = Null
     //     0xc3ff38: mov             x1, NULL
     // 0xc3ff3c: r2 = 6
@@ -731,7 +731,7 @@ class VideoTrackingGoalLinearProgressView extends StatelessWidget {
     // 0xc4062c: mov             x1, x6
     // 0xc40630: stur            x6, [fp, #-0x18]
     // 0xc40634: r0 = currentDisplayText()
-    //     0xc40634: bl              #0x96d7e4  ; [package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::currentDisplayText
+    //     0xc40634: bl              #0x96d7e4  ; [package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::currentDisplayText
     // 0xc40638: stur            x0, [fp, #-8]
     // 0xc4063c: r0 = Text()
     //     0xc4063c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -791,7 +791,7 @@ class VideoTrackingGoalLinearProgressView extends StatelessWidget {
     //     0xc406c8: stur            w0, [x2, #0x13]
     // 0xc406cc: ldur            x1, [fp, #-0x18]
     // 0xc406d0: r0 = goalDisplayText()
-    //     0xc406d0: bl              #0x96dd74  ; [package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::goalDisplayText
+    //     0xc406d0: bl              #0x96dd74  ; [package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::goalDisplayText
     // 0xc406d4: stur            x0, [fp, #-0x18]
     // 0xc406d8: r16 = 0.900000
     //     0xc406d8: add             x16, PP, #0x1f, lsl #12  ; [pp+0x1f448] 0.9
@@ -1056,11 +1056,11 @@ class VideoTrackingGoalLinearProgressView extends StatelessWidget {
     // 0xc40968: mov             x1, x2
     // 0xc4096c: stur            x2, [fp, #-0x18]
     // 0xc40970: r0 = currentDisplayText()
-    //     0xc40970: bl              #0x96d7e4  ; [package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::currentDisplayText
+    //     0xc40970: bl              #0x96d7e4  ; [package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::currentDisplayText
     // 0xc40974: ldur            x1, [fp, #-0x18]
     // 0xc40978: stur            x0, [fp, #-8]
     // 0xc4097c: r0 = goalDisplayText()
-    //     0xc4097c: bl              #0x96dd74  ; [package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::goalDisplayText
+    //     0xc4097c: bl              #0x96dd74  ; [package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::goalDisplayText
     // 0xc40980: mov             x3, x0
     // 0xc40984: ldur            x0, [fp, #-0x10]
     // 0xc40988: stur            x3, [fp, #-0x18]

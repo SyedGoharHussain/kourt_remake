@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/lib/aws/email_service.dart
+// lib: , url: package:kourtai/automatic/lib/aws/email_service.dart
 
 // class id: 1048667, size: 0x8
 class :: {
@@ -80,7 +80,7 @@ class EmailService extends Object {
     //     0x6be6d0: add             x4, PP, #0x20, lsl #12  ; [pp+0x20530] List(9) [0, 0x6, 0x2, 0x4, "appLanguageCode", 0x4, "extraUserData", 0x5, Null]
     //     0x6be6d4: ldr             x4, [x4, #0x530]
     // 0x6be6d8: r0 = _sendTemplatedEmail()
-    //     0x6be6d8: bl              #0x6be768  ; [package:ballai/automatic/lib/aws/email_service.dart] EmailService::_sendTemplatedEmail
+    //     0x6be6d8: bl              #0x6be768  ; [package:kourtai/automatic/lib/aws/email_service.dart] EmailService::_sendTemplatedEmail
     // 0x6be6dc: mov             x1, x0
     // 0x6be6e0: stur            x1, [fp, #-0xb0]
     // 0x6be6e4: r0 = Await()
@@ -229,10 +229,10 @@ class EmailService extends Object {
     //     0x6be89c: ldur            w1, [x0, #7]
     // 0x6be8a0: cbnz            w1, #0x6be8b8
     // 0x6be8a4: r0 = instance()
-    //     0x6be8a4: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0x6be8a4: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0x6be8a8: mov             x1, x0
     // 0x6be8ac: r0 = effectiveLanguageCode()
-    //     0x6be8ac: bl              #0x5ede90  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
+    //     0x6be8ac: bl              #0x5ede90  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
     // 0x6be8b0: mov             x3, x0
     // 0x6be8b4: b               #0x6be8cc
     // 0x6be8b8: ldur            x1, [fp, #-0x18]
@@ -307,7 +307,7 @@ class EmailService extends Object {
     //     0x6be970: add             x2, PP, #0x14, lsl #12  ; [pp+0x14f98] "sendEmail"
     //     0x6be974: ldr             x2, [x2, #0xf98]
     // 0x6be978: r0 = callFunction()
-    //     0x6be978: bl              #0x5f1c10  ; [package:ballai/automatic/lib/firebase/functions/root/firebase_functions.dart] BallAiFirebaseFunctions::callFunction
+    //     0x6be978: bl              #0x5f1c10  ; [package:kourtai/automatic/lib/firebase/functions/root/firebase_functions.dart] KourtAiFirebaseFunctions::callFunction
     // 0x6be97c: mov             x1, x0
     // 0x6be980: stur            x1, [fp, #-0x10]
     // 0x6be984: r0 = Await()
@@ -366,7 +366,7 @@ class EmailService extends Object {
     // 0x93c2e8: r4 = const [0, 0x4, 0, 0x4, null]
     //     0x93c2e8: ldr             x4, [PP, #0xc08]  ; [pp+0xc08] List(5) [0, 0x4, 0, 0x4, Null]
     // 0x93c2ec: r0 = _sendTemplatedEmail()
-    //     0x93c2ec: bl              #0x6be768  ; [package:ballai/automatic/lib/aws/email_service.dart] EmailService::_sendTemplatedEmail
+    //     0x93c2ec: bl              #0x6be768  ; [package:kourtai/automatic/lib/aws/email_service.dart] EmailService::_sendTemplatedEmail
     // 0x93c2f0: mov             x1, x0
     // 0x93c2f4: stur            x1, [fp, #-0x80]
     // 0x93c2f8: r0 = Await()
@@ -449,7 +449,7 @@ class EmailService extends Object {
     // 0x9e7018: r4 = const [0, 0x4, 0, 0x4, null]
     //     0x9e7018: ldr             x4, [PP, #0xc08]  ; [pp+0xc08] List(5) [0, 0x4, 0, 0x4, Null]
     // 0x9e701c: r0 = _sendTemplatedEmail()
-    //     0x9e701c: bl              #0x6be768  ; [package:ballai/automatic/lib/aws/email_service.dart] EmailService::_sendTemplatedEmail
+    //     0x9e701c: bl              #0x6be768  ; [package:kourtai/automatic/lib/aws/email_service.dart] EmailService::_sendTemplatedEmail
     // 0x9e7020: mov             x1, x0
     // 0x9e7024: stur            x1, [fp, #-0x80]
     // 0x9e7028: r0 = Await()

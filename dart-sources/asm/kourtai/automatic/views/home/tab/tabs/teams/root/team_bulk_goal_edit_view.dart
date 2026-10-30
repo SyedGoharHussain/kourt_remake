@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart
 
 // class id: 1048944, size: 0x8
 class :: {
@@ -35,7 +35,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5eba0: stur            w1, [x2, #0x13]
     // 0xa5eba4: mov             x1, x0
     // 0xa5eba8: r0 = _currentMetric()
-    //     0xa5eba8: bl              #0xa5fa5c  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_currentMetric
+    //     0xa5eba8: bl              #0xa5fa5c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_currentMetric
     // 0xa5ebac: mov             x3, x0
     // 0xa5ebb0: ldur            x2, [fp, #-0x18]
     // 0xa5ebb4: stur            x3, [fp, #-0x10]
@@ -51,16 +51,16 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5ebd4: ldur            w1, [x2, #0x13]
     // 0xa5ebd8: DecompressPointer r1
     //     0xa5ebd8: add             x1, x1, HEAP, lsl #32
-    // 0xa5ebdc: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xa5ebdc: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xa5ebdc: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xa5ebdc: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xa5ebe0: ldur            x2, [fp, #-0x18]
     // 0xa5ebe4: stur            x0, [fp, #-0x20]
     // 0xa5ebe8: LoadField: r1 = r2->field_13
     //     0xa5ebe8: ldur            w1, [x2, #0x13]
     // 0xa5ebec: DecompressPointer r1
     //     0xa5ebec: add             x1, x1, HEAP, lsl #32
-    // 0xa5ebf0: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xa5ebf0: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xa5ebf0: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xa5ebf0: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xa5ebf4: stur            x0, [fp, #-0x28]
     // 0xa5ebf8: r16 = Instance_EdgeInsets
     //     0xa5ebf8: add             x16, PP, #0x38, lsl #12  ; [pp+0x384e8] Obj!EdgeInsets@d106c1
@@ -79,15 +79,15 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5ec1c: ldr             x1, [x1, #0x668]
     // 0xa5ec20: stur            x0, [fp, #-0x30]
     // 0xa5ec24: r0 = L()
-    //     0xa5ec24: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa5ec24: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa5ec28: ldur            x2, [fp, #-0x18]
     // 0xa5ec2c: stur            x0, [fp, #-0x38]
     // 0xa5ec30: LoadField: r1 = r2->field_13
     //     0xa5ec30: ldur            w1, [x2, #0x13]
     // 0xa5ec34: DecompressPointer r1
     //     0xa5ec34: add             x1, x1, HEAP, lsl #32
-    // 0xa5ec38: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa5ec38: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa5ec38: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa5ec38: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa5ec3c: stur            x0, [fp, #-0x40]
     // 0xa5ec40: r0 = TextStyle()
     //     0xa5ec40: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -125,7 +125,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5ec90: stur            w4, [x3, #0x37]
     // 0xa5ec94: ldur            x2, [fp, #-0x18]
     // 0xa5ec98: r1 = Function '<anonymous closure>':.
-    //     0xa5ec98: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4db68] AnonymousClosure: (0x9d7480), in [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
+    //     0xa5ec98: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4db68] AnonymousClosure: (0x9d7480), in [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
     //     0xa5ec9c: ldr             x1, [x1, #0xb68]
     // 0xa5eca0: r0 = AllocateClosure()
     //     0xa5eca0: bl              #0xe553e0  ; AllocateClosureStub
@@ -155,7 +155,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5ecdc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4db70] "Set team goals"
     //     0xa5ece0: ldr             x1, [x1, #0xb70]
     // 0xa5ece4: r0 = L()
-    //     0xa5ece4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa5ece4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa5ece8: stur            x0, [fp, #-0x30]
     // 0xa5ecec: r0 = TextStyle()
     //     0xa5ecec: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -244,15 +244,15 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5edc8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4db80] "Team %@ goal"
     //     0xa5edcc: ldr             x1, [x1, #0xb80]
     // 0xa5edd0: r0 = LF()
-    //     0xa5edd0: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xa5edd0: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xa5edd4: ldur            x2, [fp, #-0x18]
     // 0xa5edd8: stur            x0, [fp, #-0x38]
     // 0xa5eddc: LoadField: r1 = r2->field_13
     //     0xa5eddc: ldur            w1, [x2, #0x13]
     // 0xa5ede0: DecompressPointer r1
     //     0xa5ede0: add             x1, x1, HEAP, lsl #32
-    // 0xa5ede4: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa5ede4: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa5ede4: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa5ede4: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa5ede8: stur            x0, [fp, #-0x40]
     // 0xa5edec: r0 = TextStyle()
     //     0xa5edec: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -312,8 +312,8 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5ee78: ldur            w1, [x4, #0x13]
     // 0xa5ee7c: DecompressPointer r1
     //     0xa5ee7c: add             x1, x1, HEAP, lsl #32
-    // 0xa5ee80: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa5ee80: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa5ee80: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa5ee80: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa5ee84: stur            x0, [fp, #-0x40]
     // 0xa5ee88: r0 = TextStyle()
     //     0xa5ee88: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -369,19 +369,19 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5ef14: stur            w16, [x0, #0x1b]
     // 0xa5ef18: ldur            x1, [fp, #-8]
     // 0xa5ef1c: r0 = _currentValue()
-    //     0xa5ef1c: bl              #0xa5f94c  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_currentValue
+    //     0xa5ef1c: bl              #0xa5f94c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_currentValue
     // 0xa5ef20: ldur            x1, [fp, #-8]
     // 0xa5ef24: mov             x2, x0
     // 0xa5ef28: r0 = _formattedValue()
-    //     0xa5ef28: bl              #0xa5f868  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_formattedValue
+    //     0xa5ef28: bl              #0xa5f868  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_formattedValue
     // 0xa5ef2c: ldur            x2, [fp, #-0x18]
     // 0xa5ef30: stur            x0, [fp, #-0x38]
     // 0xa5ef34: LoadField: r1 = r2->field_13
     //     0xa5ef34: ldur            w1, [x2, #0x13]
     // 0xa5ef38: DecompressPointer r1
     //     0xa5ef38: add             x1, x1, HEAP, lsl #32
-    // 0xa5ef3c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa5ef3c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa5ef3c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa5ef3c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa5ef40: stur            x0, [fp, #-0x40]
     // 0xa5ef44: r0 = TextStyle()
     //     0xa5ef44: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -455,8 +455,8 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5f000: ldur            w1, [x2, #0x13]
     // 0xa5f004: DecompressPointer r1
     //     0xa5f004: add             x1, x1, HEAP, lsl #32
-    // 0xa5f008: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa5f008: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa5f008: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa5f008: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa5f00c: stur            x0, [fp, #-0x40]
     // 0xa5f010: r0 = TextStyle()
     //     0xa5f010: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -508,7 +508,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5f094: stur            w16, [x0, #0x27]
     // 0xa5f098: ldur            x1, [fp, #-8]
     // 0xa5f09c: r0 = _currentValue()
-    //     0xa5f09c: bl              #0xa5f94c  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_currentValue
+    //     0xa5f09c: bl              #0xa5f94c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_currentValue
     // 0xa5f0a0: mov             x1, x0
     // 0xa5f0a4: ldur            x0, [fp, #-0x10]
     // 0xa5f0a8: LoadField: r2 = r0->field_13
@@ -517,7 +517,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     // 0xa5f0b0: b.le            #0xa5f0cc
     // 0xa5f0b4: ldur            x2, [fp, #-0x18]
     // 0xa5f0b8: r1 = Function '<anonymous closure>':.
-    //     0xa5f0b8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4db88] AnonymousClosure: (0xa62b0c), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::build (0xa5eb64)
+    //     0xa5f0b8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4db88] AnonymousClosure: (0xa62b0c), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::build (0xa5eb64)
     //     0xa5f0bc: ldr             x1, [x1, #0xb88]
     // 0xa5f0c0: r0 = AllocateClosure()
     //     0xa5f0c0: bl              #0xe553e0  ; AllocateClosureStub
@@ -550,7 +550,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5f108: stur            w3, [x2, #0x6b]
     // 0xa5f10c: ldur            x1, [fp, #-8]
     // 0xa5f110: r0 = _currentValue()
-    //     0xa5f110: bl              #0xa5f94c  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_currentValue
+    //     0xa5f110: bl              #0xa5f94c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_currentValue
     // 0xa5f114: mov             x1, x0
     // 0xa5f118: ldur            x0, [fp, #-0x10]
     // 0xa5f11c: LoadField: r2 = r0->field_1b
@@ -559,7 +559,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     // 0xa5f124: b.ge            #0xa5f140
     // 0xa5f128: ldur            x2, [fp, #-0x18]
     // 0xa5f12c: r1 = Function '<anonymous closure>':.
-    //     0xa5f12c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dba0] AnonymousClosure: (0xa627b4), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::build (0xa5eb64)
+    //     0xa5f12c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dba0] AnonymousClosure: (0xa627b4), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::build (0xa5eb64)
     //     0xa5f130: ldr             x1, [x1, #0xba0]
     // 0xa5f134: r0 = AllocateClosure()
     //     0xa5f134: bl              #0xe553e0  ; AllocateClosureStub
@@ -691,7 +691,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     // 0xa5f284: b               #0xa5f2a0
     // 0xa5f288: mov             x2, x7
     // 0xa5f28c: r1 = Function '_advanceOrConfirm@1214128114':.
-    //     0xa5f28c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dbb8] AnonymousClosure: (0xa5fac8), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_advanceOrConfirm (0xa5fb00)
+    //     0xa5f28c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dbb8] AnonymousClosure: (0xa5fac8), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_advanceOrConfirm (0xa5fb00)
     //     0xa5f290: ldr             x1, [x1, #0xbb8]
     // 0xa5f294: r0 = AllocateClosure()
     //     0xa5f294: bl              #0xe553e0  ; AllocateClosureStub
@@ -732,7 +732,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5f2f8: ldur            x2, [x0, #0x2b]
     // 0xa5f2fc: stur            x2, [fp, #-0x58]
     // 0xa5f300: r0 = _metrics()
-    //     0xa5f300: bl              #0xa5f618  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_metrics
+    //     0xa5f300: bl              #0xa5f618  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_metrics
     // 0xa5f304: LoadField: r1 = r0->field_b
     //     0xa5f304: ldur            w1, [x0, #0xb]
     // 0xa5f308: r0 = LoadInt32Instr(r1)
@@ -866,7 +866,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5f474: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dbe0] "This will overwrite each player\'s weekly goals and set new defaults for future weeks."
     //     0xa5f478: ldr             x1, [x1, #0xbe0]
     // 0xa5f47c: r0 = L()
-    //     0xa5f47c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa5f47c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa5f480: mov             x2, x0
     // 0xa5f484: ldur            x0, [fp, #-0x18]
     // 0xa5f488: stur            x2, [fp, #-8]
@@ -874,8 +874,8 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5f48c: ldur            w1, [x0, #0x13]
     // 0xa5f490: DecompressPointer r1
     //     0xa5f490: add             x1, x1, HEAP, lsl #32
-    // 0xa5f494: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa5f494: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa5f494: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa5f494: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa5f498: stur            x0, [fp, #-0x10]
     // 0xa5f49c: r0 = TextStyle()
     //     0xa5f49c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1030,7 +1030,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5f630: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dc88] "Set the weekly time goal for the entire team."
     //     0xa5f634: ldr             x1, [x1, #0xc88]
     // 0xa5f638: r0 = L()
-    //     0xa5f638: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa5f638: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa5f63c: stur            x0, [fp, #-8]
     // 0xa5f640: r0 = Color()
     //     0xa5f640: bl              #0x5edc90  ; AllocateColorStub -> Color (size=0x2c)
@@ -1088,7 +1088,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5f6bc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dc90] "Set the weekly shots goal for the entire team."
     //     0xa5f6c0: ldr             x1, [x1, #0xc90]
     // 0xa5f6c4: r0 = L()
-    //     0xa5f6c4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa5f6c4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa5f6c8: stur            x0, [fp, #-8]
     // 0xa5f6cc: r0 = Color()
     //     0xa5f6cc: bl              #0x5edc90  ; AllocateColorStub -> Color (size=0x2c)
@@ -1148,7 +1148,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5f74c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dcb0] "Set the weekly makes goal for the entire team."
     //     0xa5f750: ldr             x1, [x1, #0xcb0]
     // 0xa5f754: r0 = L()
-    //     0xa5f754: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa5f754: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa5f758: stur            x0, [fp, #-8]
     // 0xa5f75c: r0 = Color()
     //     0xa5f75c: bl              #0x5edc90  ; AllocateColorStub -> Color (size=0x2c)
@@ -1257,7 +1257,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5f880: cmp             SP, x16
     //     0xa5f884: b.ls            #0xa5f940
     // 0xa5f888: r0 = _metrics()
-    //     0xa5f888: bl              #0xa5f618  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_metrics
+    //     0xa5f888: bl              #0xa5f618  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_metrics
     // 0xa5f88c: mov             x2, x0
     // 0xa5f890: ldur            x0, [fp, #-8]
     // 0xa5f894: LoadField: r3 = r0->field_2b
@@ -1343,7 +1343,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5f960: cmp             SP, x16
     //     0xa5f964: b.ls            #0xa5fa50
     // 0xa5f968: r0 = _metrics()
-    //     0xa5f968: bl              #0xa5f618  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_metrics
+    //     0xa5f968: bl              #0xa5f618  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_metrics
     // 0xa5f96c: mov             x3, x0
     // 0xa5f970: ldur            x2, [fp, #-8]
     // 0xa5f974: LoadField: r4 = r2->field_2b
@@ -1448,7 +1448,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5fa70: cmp             SP, x16
     //     0xa5fa74: b.ls            #0xa5fabc
     // 0xa5fa78: r0 = _metrics()
-    //     0xa5fa78: bl              #0xa5f618  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_metrics
+    //     0xa5fa78: bl              #0xa5f618  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_metrics
     // 0xa5fa7c: mov             x3, x0
     // 0xa5fa80: ldur            x2, [fp, #-8]
     // 0xa5fa84: LoadField: r4 = r2->field_2b
@@ -1495,7 +1495,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5fae0: cmp             SP, x16
     //     0xa5fae4: b.ls            #0xa5faf8
     // 0xa5fae8: r0 = _advanceOrConfirm()
-    //     0xa5fae8: bl              #0xa5fb00  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_advanceOrConfirm
+    //     0xa5fae8: bl              #0xa5fb00  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_advanceOrConfirm
     // 0xa5faec: LeaveFrame
     //     0xa5faec: mov             SP, fp
     //     0xa5faf0: ldp             fp, lr, [SP], #0x10
@@ -1536,7 +1536,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5fb44: ldur            x0, [x1, #0x2b]
     // 0xa5fb48: stur            x0, [fp, #-0x20]
     // 0xa5fb4c: r0 = _metrics()
-    //     0xa5fb4c: bl              #0xa5f618  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_metrics
+    //     0xa5fb4c: bl              #0xa5f618  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_metrics
     // 0xa5fb50: LoadField: r1 = r0->field_b
     //     0xa5fb50: ldur            w1, [x0, #0xb]
     // 0xa5fb54: r0 = LoadInt32Instr(r1)
@@ -1547,7 +1547,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     // 0xa5fb64: b.ge            #0xa5fb8c
     // 0xa5fb68: ldur            x2, [fp, #-0x18]
     // 0xa5fb6c: r1 = Function '<anonymous closure>':.
-    //     0xa5fb6c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dbe8] AnonymousClosure: (0xa6276c), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_advanceOrConfirm (0xa5fb00)
+    //     0xa5fb6c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dbe8] AnonymousClosure: (0xa6276c), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_advanceOrConfirm (0xa5fb00)
     //     0xa5fb70: ldr             x1, [x1, #0xbe8]
     // 0xa5fb74: r0 = AllocateClosure()
     //     0xa5fb74: bl              #0xe553e0  ; AllocateClosureStub
@@ -1561,7 +1561,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5fb88: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xa5fb8c: ldur            x1, [fp, #-0x10]
     // 0xa5fb90: r0 = _hasTeamsProAccess()
-    //     0xa5fb90: bl              #0xa624c0  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_hasTeamsProAccess
+    //     0xa5fb90: bl              #0xa624c0  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_hasTeamsProAccess
     // 0xa5fb94: tbz             w0, #4, #0xa5fc18
     // 0xa5fb98: ldur            x0, [fp, #-0x10]
     // 0xa5fb9c: LoadField: r1 = r0->field_f
@@ -1576,7 +1576,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5fbb0: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa5fbb4: ldur            x2, [fp, #-0x18]
     // 0xa5fbb8: r1 = Function '<anonymous closure>':.
-    //     0xa5fbb8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dbf0] AnonymousClosure: (0xa62700), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_advanceOrConfirm (0xa5fb00)
+    //     0xa5fbb8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dbf0] AnonymousClosure: (0xa62700), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_advanceOrConfirm (0xa5fb00)
     //     0xa5fbbc: ldr             x1, [x1, #0xbf0]
     // 0xa5fbc0: stur            x0, [fp, #-0x28]
     // 0xa5fbc4: r0 = AllocateClosure()
@@ -1620,7 +1620,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     // 0xa5fc28: cmp             w3, NULL
     // 0xa5fc2c: b.eq            #0xa5fcd0
     // 0xa5fc30: r1 = Function '<anonymous closure>':.
-    //     0xa5fc30: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dbf8] AnonymousClosure: (0xa62514), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_advanceOrConfirm (0xa5fb00)
+    //     0xa5fc30: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dbf8] AnonymousClosure: (0xa62514), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_advanceOrConfirm (0xa5fb00)
     //     0xa5fc34: ldr             x1, [x1, #0xbf8]
     // 0xa5fc38: r2 = Null
     //     0xa5fc38: mov             x2, NULL
@@ -1666,7 +1666,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     // 0xa5fca8: r0 = ReturnAsyncNotFuture()
     //     0xa5fca8: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xa5fcac: r0 = _saveBulk()
-    //     0xa5fcac: bl              #0xa5fcd4  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_saveBulk
+    //     0xa5fcac: bl              #0xa5fcd4  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_saveBulk
     // 0xa5fcb0: mov             x1, x0
     // 0xa5fcb4: stur            x1, [fp, #-0x10]
     // 0xa5fcb8: r0 = Await()
@@ -1725,7 +1725,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     // 0xa5fd34: DecompressPointer r1
     //     0xa5fd34: add             x1, x1, HEAP, lsl #32
     // 0xa5fd38: r0 = isSubscriptionActivePaying()
-    //     0xa5fd38: bl              #0x6518d0  ; [package:ballai/automatic/models/core/team/team_model.dart] TeamModel::isSubscriptionActivePaying
+    //     0xa5fd38: bl              #0x6518d0  ; [package:kourtai/automatic/models/core/team/team_model.dart] TeamModel::isSubscriptionActivePaying
     // 0xa5fd3c: tbz             w0, #4, #0xa5fd48
     // 0xa5fd40: r0 = Null
     //     0xa5fd40: mov             x0, NULL
@@ -1734,7 +1734,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     // 0xa5fd48: ldur            x0, [fp, #-0x90]
     // 0xa5fd4c: ldur            x2, [fp, #-0x98]
     // 0xa5fd50: r1 = Function '<anonymous closure>':.
-    //     0xa5fd50: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dc28] AnonymousClosure: (0xa624a0), in [package:ballai/video_tracking/views/drills/drill_detail_screen.dart] _DrillDetailScreenState::_onUploadVideoPressed (0xa60454)
+    //     0xa5fd50: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dc28] AnonymousClosure: (0xa624a0), in [package:kourtai/video_tracking/views/drills/drill_detail_screen.dart] _DrillDetailScreenState::_onUploadVideoPressed (0xa60454)
     //     0xa5fd54: ldr             x1, [x1, #0xc28]
     // 0xa5fd58: r0 = AllocateClosure()
     //     0xa5fd58: bl              #0xe553e0  ; AllocateClosureStub
@@ -1796,7 +1796,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     // 0xa5fdfc: mov             x5, x7
     // 0xa5fe00: stur            x9, [fp, #-0xa8]
     // 0xa5fe04: r0 = applyBulkGoals()
-    //     0xa5fe04: bl              #0xa5ffb0  ; [package:ballai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::applyBulkGoals
+    //     0xa5fe04: bl              #0xa5ffb0  ; [package:kourtai/automatic/viewmodels/home/teams/team_goals_view_model.dart] TeamGoalsViewModel::applyBulkGoals
     // 0xa5fe08: mov             x1, x0
     // 0xa5fe0c: stur            x1, [fp, #-0xd0]
     // 0xa5fe10: r0 = Await()
@@ -1814,7 +1814,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5fe2c: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xa5fe30: ldur            x2, [fp, #-0x98]
     // 0xa5fe34: r1 = Function '<anonymous closure>':.
-    //     0xa5fe34: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dc30] AnonymousClosure: (0xa60434), in [package:ballai/video_tracking/views/drills/drill_detail_screen.dart] _DrillDetailScreenState::_onUploadVideoPressed (0xa60454)
+    //     0xa5fe34: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dc30] AnonymousClosure: (0xa60434), in [package:kourtai/video_tracking/views/drills/drill_detail_screen.dart] _DrillDetailScreenState::_onUploadVideoPressed (0xa60454)
     //     0xa5fe38: ldr             x1, [x1, #0xc30]
     // 0xa5fe3c: r0 = AllocateClosure()
     //     0xa5fe3c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1829,7 +1829,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5fe54: ldr             x1, [x1, #0xc38]
     // 0xa5fe58: stur            x0, [fp, #-0xc0]
     // 0xa5fe5c: r0 = L()
-    //     0xa5fe5c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa5fe5c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa5fe60: ldur            x1, [fp, #-0xc0]
     // 0xa5fe64: StoreField: r1->field_b = r0
     //     0xa5fe64: stur            w0, [x1, #0xb]
@@ -1882,7 +1882,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5fee8: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xa5feec: ldur            x2, [fp, #-0x98]
     // 0xa5fef0: r1 = Function '<anonymous closure>':.
-    //     0xa5fef0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dc40] AnonymousClosure: (0xa60434), in [package:ballai/video_tracking/views/drills/drill_detail_screen.dart] _DrillDetailScreenState::_onUploadVideoPressed (0xa60454)
+    //     0xa5fef0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dc40] AnonymousClosure: (0xa60434), in [package:kourtai/video_tracking/views/drills/drill_detail_screen.dart] _DrillDetailScreenState::_onUploadVideoPressed (0xa60454)
     //     0xa5fef4: ldr             x1, [x1, #0xc40]
     // 0xa5fef8: r0 = AllocateClosure()
     //     0xa5fef8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1894,7 +1894,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa5ff08: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dc48] "Unable to update team goals."
     //     0xa5ff0c: ldr             x1, [x1, #0xc48]
     // 0xa5ff10: r0 = L()
-    //     0xa5ff10: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa5ff10: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa5ff14: stur            x0, [fp, #-0x90]
     // 0xa5ff18: r0 = Text()
     //     0xa5ff18: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1988,7 +1988,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa624f0: add             x0, x0, HEAP, lsl #32
     // 0xa624f4: mov             x1, x0
     // 0xa624f8: r0 = isSubscriptionActivePaying()
-    //     0xa624f8: bl              #0x6518d0  ; [package:ballai/automatic/models/core/team/team_model.dart] TeamModel::isSubscriptionActivePaying
+    //     0xa624f8: bl              #0x6518d0  ; [package:kourtai/automatic/models/core/team/team_model.dart] TeamModel::isSubscriptionActivePaying
     // 0xa624fc: LeaveFrame
     //     0xa624fc: mov             SP, fp
     //     0xa62500: ldp             fp, lr, [SP], #0x10
@@ -2032,7 +2032,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa6255c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dc00] "Apply to all players\?"
     //     0xa62560: ldr             x1, [x1, #0xc00]
     // 0xa62564: r0 = L()
-    //     0xa62564: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa62564: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa62568: stur            x0, [fp, #-8]
     // 0xa6256c: r0 = Text()
     //     0xa6256c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2045,7 +2045,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa62580: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dc08] "This will set the same time, shots, and makes goals for every player on the team. This cannot be undone."
     //     0xa62584: ldr             x1, [x1, #0xc08]
     // 0xa62588: r0 = L()
-    //     0xa62588: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa62588: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa6258c: stur            x0, [fp, #-8]
     // 0xa62590: r0 = Text()
     //     0xa62590: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2058,7 +2058,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa625a4: add             x1, PP, #0x27, lsl #12  ; [pp+0x27668] "Cancel"
     //     0xa625a8: ldr             x1, [x1, #0x668]
     // 0xa625ac: r0 = L()
-    //     0xa625ac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa625ac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa625b0: stur            x0, [fp, #-8]
     // 0xa625b4: r0 = Text()
     //     0xa625b4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2069,7 +2069,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa625c4: stur            w0, [x3, #0xb]
     // 0xa625c8: ldur            x2, [fp, #-0x10]
     // 0xa625cc: r1 = Function '<anonymous closure>':.
-    //     0xa625cc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dc10] AnonymousClosure: (0x658b4c), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible (0x658ea8)
+    //     0xa625cc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dc10] AnonymousClosure: (0x658b4c), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible (0x658ea8)
     //     0xa625d0: ldr             x1, [x1, #0xc10]
     // 0xa625d4: r0 = AllocateClosure()
     //     0xa625d4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2096,7 +2096,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa62608: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dc18] "Apply"
     //     0xa6260c: ldr             x1, [x1, #0xc18]
     // 0xa62610: r0 = L()
-    //     0xa62610: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa62610: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa62614: stur            x0, [fp, #-8]
     // 0xa62618: r0 = Text()
     //     0xa62618: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2116,7 +2116,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa62640: stur            w0, [x3, #0x3b]
     // 0xa62644: ldur            x2, [fp, #-0x10]
     // 0xa62648: r1 = Function '<anonymous closure>':.
-    //     0xa62648: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dc20] AnonymousClosure: (0x6587e8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentTrialExitReturnOfferAlertIfEligible (0x6148dc)
+    //     0xa62648: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dc20] AnonymousClosure: (0x6587e8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentTrialExitReturnOfferAlertIfEligible (0x6148dc)
     //     0xa6264c: ldr             x1, [x1, #0xc20]
     // 0xa62650: r0 = AllocateClosure()
     //     0xa62650: bl              #0xe553e0  ; AllocateClosureStub
@@ -2212,7 +2212,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa62728: add             x0, x0, HEAP, lsl #32
     // 0xa6272c: mov             x1, x0
     // 0xa62730: r0 = _team()
-    //     0xa62730: bl              #0xa5ff80  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_team
+    //     0xa62730: bl              #0xa5ff80  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_team
     // 0xa62734: LoadField: r1 = r0->field_b
     //     0xa62734: ldur            w1, [x0, #0xb]
     // 0xa62738: DecompressPointer r1
@@ -2290,7 +2290,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     // 0xa627e4: mov             x1, x0
     // 0xa627e8: stur            x0, [fp, #-8]
     // 0xa627ec: r0 = _currentValue()
-    //     0xa627ec: bl              #0xa5f94c  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_currentValue
+    //     0xa627ec: bl              #0xa5f94c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_currentValue
     // 0xa627f0: mov             x1, x0
     // 0xa627f4: ldur            x0, [fp, #-0x10]
     // 0xa627f8: ArrayLoad: r2 = r0[0]  ; List_4
@@ -2335,7 +2335,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa6286c: ldur            x2, [x0, #7]
     // 0xa62870: ldur            x1, [fp, #-8]
     // 0xa62874: r0 = _setCurrentValue()
-    //     0xa62874: bl              #0xa62890  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_setCurrentValue
+    //     0xa62874: bl              #0xa62890  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_setCurrentValue
     // 0xa62878: r0 = Null
     //     0xa62878: mov             x0, NULL
     // 0xa6287c: LeaveFrame
@@ -2383,7 +2383,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa628e4: bl              #0x600ca8  ; [package:flutter/src/services/haptic_feedback.dart] HapticFeedback::lightImpact
     // 0xa628e8: ldur            x2, [fp, #-0x18]
     // 0xa628ec: r1 = Function '<anonymous closure>':.
-    //     0xa628ec: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dc80] AnonymousClosure: (0xa6291c), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_setCurrentValue (0xa62890)
+    //     0xa628ec: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dc80] AnonymousClosure: (0xa6291c), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_setCurrentValue (0xa62890)
     //     0xa628f0: ldr             x1, [x1, #0xc80]
     // 0xa628f4: r0 = AllocateClosure()
     //     0xa628f4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2424,7 +2424,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa62948: add             x0, x0, HEAP, lsl #32
     // 0xa6294c: stur            x0, [fp, #-8]
     // 0xa62950: r0 = _metrics()
-    //     0xa62950: bl              #0xa5f618  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_metrics
+    //     0xa62950: bl              #0xa5f618  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_metrics
     // 0xa62954: mov             x2, x0
     // 0xa62958: ldur            x0, [fp, #-8]
     // 0xa6295c: LoadField: r3 = r0->field_2b
@@ -2520,7 +2520,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa62a48: add             x2, x2, HEAP, lsl #32
     // 0xa62a4c: stur            x2, [fp, #-8]
     // 0xa62a50: r0 = _metrics()
-    //     0xa62a50: bl              #0xa5f618  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_metrics
+    //     0xa62a50: bl              #0xa5f618  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_metrics
     // 0xa62a54: mov             x2, x0
     // 0xa62a58: ldur            x4, [fp, #-0x18]
     // 0xa62a5c: LoadField: r3 = r4->field_2b
@@ -2613,7 +2613,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     // 0xa62b3c: mov             x1, x0
     // 0xa62b40: stur            x0, [fp, #-8]
     // 0xa62b44: r0 = _currentValue()
-    //     0xa62b44: bl              #0xa5f94c  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_currentValue
+    //     0xa62b44: bl              #0xa5f94c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_currentValue
     // 0xa62b48: mov             x1, x0
     // 0xa62b4c: ldur            x0, [fp, #-0x10]
     // 0xa62b50: ArrayLoad: r2 = r0[0]  ; List_4
@@ -2658,7 +2658,7 @@ class _TeamBulkGoalEditViewState extends State<dynamic> {
     //     0xa62bc4: ldur            x2, [x0, #7]
     // 0xa62bc8: ldur            x1, [fp, #-8]
     // 0xa62bcc: r0 = _setCurrentValue()
-    //     0xa62bcc: bl              #0xa62890  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_setCurrentValue
+    //     0xa62bcc: bl              #0xa62890  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_bulk_goal_edit_view.dart] _TeamBulkGoalEditViewState::_setCurrentValue
     // 0xa62bd0: r0 = Null
     //     0xa62bd0: mov             x0, NULL
     // 0xa62bd4: LeaveFrame

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_preview.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_preview.dart
 
 // class id: 1049037, size: 0x8
 class :: {

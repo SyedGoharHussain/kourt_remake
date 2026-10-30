@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/home/you/followers_list_view_model.dart
+// lib: , url: package:kourtai/automatic/viewmodels/home/you/followers_list_view_model.dart
 
 // class id: 1048779, size: 0x8
 class :: {
@@ -58,7 +58,7 @@ class FollowersListViewModel extends ChangeNotifier {
     //     0x98627c: add             x4, PP, #0x58, lsl #12  ; [pp+0x58458] List(7) [0, 0x4, 0x1, 0x3, "startAfter", 0x3, Null]
     //     0x986280: ldr             x4, [x4, #0x458]
     // 0x986284: r0 = fetchFollowersPage()
-    //     0x986284: bl              #0x8fd2b4  ; [package:ballai/automatic/app/social/follow_list_repository.dart] FollowListRepository::fetchFollowersPage
+    //     0x986284: bl              #0x8fd2b4  ; [package:kourtai/automatic/app/social/follow_list_repository.dart] FollowListRepository::fetchFollowersPage
     // 0x986288: mov             x1, x0
     // 0x98628c: stur            x1, [fp, #-0x88]
     // 0x986290: r0 = Await()
@@ -129,12 +129,12 @@ class FollowersListViewModel extends ChangeNotifier {
     //     0x986344: add             x1, PP, #0x58, lsl #12  ; [pp+0x58568] "Couldn\'t load followers. Please try again."
     //     0x986348: ldr             x1, [x1, #0x568]
     // 0x98634c: r0 = L()
-    //     0x98634c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x98634c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x986350: ldur            x1, [fp, #-0x78]
     // 0x986354: mov             x2, x0
     // 0x986358: stur            x0, [fp, #-0x88]
     // 0x98635c: r0 = userFacingError()
-    //     0x98635c: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0x98635c: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0x986360: ldur            x2, [fp, #-0x70]
     // 0x986364: StoreField: r2->field_43 = r0
     //     0x986364: stur            w0, [x2, #0x43]
@@ -319,7 +319,7 @@ class FollowersListViewModel extends ChangeNotifier {
     //     0x986720: bl              #0x60afc8  ; InitAsyncStub
     // 0x986724: ldur            x1, [fp, #-0x80]
     // 0x986728: r0 = canLoadMore()
-    //     0x986728: bl              #0x9868c0  ; [package:ballai/automatic/viewmodels/home/you/followers_list_view_model.dart] FollowersListViewModel::canLoadMore
+    //     0x986728: bl              #0x9868c0  ; [package:kourtai/automatic/viewmodels/home/you/followers_list_view_model.dart] FollowersListViewModel::canLoadMore
     // 0x98672c: tbnz            w0, #4, #0x986744
     // 0x986730: ldur            x0, [fp, #-0x80]
     // 0x986734: LoadField: r1 = r0->field_33
@@ -364,7 +364,7 @@ class FollowersListViewModel extends ChangeNotifier {
     //     0x986794: add             x4, PP, #0x58, lsl #12  ; [pp+0x58458] List(7) [0, 0x4, 0x1, 0x3, "startAfter", 0x3, Null]
     //     0x986798: ldr             x4, [x4, #0x458]
     // 0x98679c: r0 = fetchFollowersPage()
-    //     0x98679c: bl              #0x8fd2b4  ; [package:ballai/automatic/app/social/follow_list_repository.dart] FollowListRepository::fetchFollowersPage
+    //     0x98679c: bl              #0x8fd2b4  ; [package:kourtai/automatic/app/social/follow_list_repository.dart] FollowListRepository::fetchFollowersPage
     // 0x9867a0: mov             x1, x0
     // 0x9867a4: stur            x1, [fp, #-0xa0]
     // 0x9867a8: r0 = Await()
@@ -416,12 +416,12 @@ class FollowersListViewModel extends ChangeNotifier {
     //     0x98682c: add             x1, PP, #0x58, lsl #12  ; [pp+0x58568] "Couldn\'t load followers. Please try again."
     //     0x986830: ldr             x1, [x1, #0x568]
     // 0x986834: r0 = L()
-    //     0x986834: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x986834: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x986838: ldur            x1, [fp, #-0x88]
     // 0x98683c: mov             x2, x0
     // 0x986840: stur            x0, [fp, #-0x98]
     // 0x986844: r0 = userFacingError()
-    //     0x986844: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0x986844: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0x986848: ldur            x2, [fp, #-0x80]
     // 0x98684c: StoreField: r2->field_43 = r0
     //     0x98684c: stur            w0, [x2, #0x43]
@@ -587,7 +587,7 @@ class FollowersListViewModel extends ChangeNotifier {
     // 0xa9b034: cbnz            w1, #0xa9b04c
     // 0xa9b038: ldur            x1, [fp, #-8]
     // 0xa9b03c: r0 = users()
-    //     0xa9b03c: bl              #0xa9af68  ; [package:ballai/automatic/viewmodels/home/you/followers_list_view_model.dart] FollowersListViewModel::users
+    //     0xa9b03c: bl              #0xa9af68  ; [package:kourtai/automatic/viewmodels/home/you/followers_list_view_model.dart] FollowersListViewModel::users
     // 0xa9b040: LeaveFrame
     //     0xa9b040: mov             SP, fp
     //     0xa9b044: ldp             fp, lr, [SP], #0x10
@@ -595,10 +595,10 @@ class FollowersListViewModel extends ChangeNotifier {
     //     0xa9b048: ret             
     // 0xa9b04c: ldur            x1, [fp, #-8]
     // 0xa9b050: r0 = users()
-    //     0xa9b050: bl              #0xa9af68  ; [package:ballai/automatic/viewmodels/home/you/followers_list_view_model.dart] FollowersListViewModel::users
+    //     0xa9b050: bl              #0xa9af68  ; [package:kourtai/automatic/viewmodels/home/you/followers_list_view_model.dart] FollowersListViewModel::users
     // 0xa9b054: ldur            x2, [fp, #-0x18]
     // 0xa9b058: r1 = Function '<anonymous closure>':.
-    //     0xa9b058: add             x1, PP, #0x58, lsl #12  ; [pp+0x585d8] AnonymousClosure: (0xa9b098), in [package:ballai/automatic/viewmodels/home/you/followers_list_view_model.dart] FollowersListViewModel::filteredUsers (0xa9afcc)
+    //     0xa9b058: add             x1, PP, #0x58, lsl #12  ; [pp+0x585d8] AnonymousClosure: (0xa9b098), in [package:kourtai/automatic/viewmodels/home/you/followers_list_view_model.dart] FollowersListViewModel::filteredUsers (0xa9afcc)
     //     0xa9b05c: ldr             x1, [x1, #0x5d8]
     // 0xa9b060: stur            x0, [fp, #-8]
     // 0xa9b064: r0 = AllocateClosure()
@@ -805,7 +805,7 @@ class FollowersListViewModel extends ChangeNotifier {
     // 0xa9ba08: ldur            x1, [fp, #-0x98]
     // 0xa9ba0c: ldur            x2, [fp, #-0x90]
     // 0xa9ba10: r0 = unfollow()
-    //     0xa9ba10: bl              #0xa96e3c  ; [package:ballai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::unfollow
+    //     0xa9ba10: bl              #0xa96e3c  ; [package:kourtai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::unfollow
     // 0xa9ba14: mov             x1, x0
     // 0xa9ba18: stur            x1, [fp, #-0xa0]
     // 0xa9ba1c: r0 = Await()
@@ -814,7 +814,7 @@ class FollowersListViewModel extends ChangeNotifier {
     // 0xa9ba24: ldur            x1, [fp, #-0x98]
     // 0xa9ba28: ldur            x2, [fp, #-0x90]
     // 0xa9ba2c: r0 = follow()
-    //     0xa9ba2c: bl              #0xa969ac  ; [package:ballai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::follow
+    //     0xa9ba2c: bl              #0xa969ac  ; [package:kourtai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::follow
     // 0xa9ba30: mov             x1, x0
     // 0xa9ba34: stur            x1, [fp, #-0x90]
     // 0xa9ba38: r0 = Await()
@@ -827,11 +827,11 @@ class FollowersListViewModel extends ChangeNotifier {
     //     0xa9ba4c: add             x1, PP, #0x58, lsl #12  ; [pp+0x58568] "Couldn\'t load followers. Please try again."
     //     0xa9ba50: ldr             x1, [x1, #0x568]
     // 0xa9ba54: r0 = L()
-    //     0xa9ba54: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa9ba54: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa9ba58: ldur            x1, [fp, #-0x88]
     // 0xa9ba5c: mov             x2, x0
     // 0xa9ba60: r0 = userFacingError()
-    //     0xa9ba60: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0xa9ba60: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0xa9ba64: ldur            x1, [fp, #-0x80]
     // 0xa9ba68: StoreField: r1->field_43 = r0
     //     0xa9ba68: stur            w0, [x1, #0x43]
@@ -894,7 +894,7 @@ class FollowersListViewModel extends ChangeNotifier {
     //     0xa9bc70: add             x4, x4, HEAP, lsl #32
     // 0xa9bc74: mov             x2, x4
     // 0xa9bc78: r0 = removeFollower()
-    //     0xa9bc78: bl              #0xa99dd4  ; [package:ballai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::removeFollower
+    //     0xa9bc78: bl              #0xa99dd4  ; [package:kourtai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::removeFollower
     // 0xa9bc7c: mov             x1, x0
     // 0xa9bc80: stur            x1, [fp, #-0x78]
     // 0xa9bc84: r0 = Await()
@@ -907,7 +907,7 @@ class FollowersListViewModel extends ChangeNotifier {
     // 0xa9bc94: ldur            x2, [fp, #-0x80]
     // 0xa9bc98: stur            x3, [fp, #-0x78]
     // 0xa9bc9c: r1 = Function '<anonymous closure>':.
-    //     0xa9bc9c: add             x1, PP, #0x58, lsl #12  ; [pp+0x585d0] AnonymousClosure: static (0x759154), in [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createShot (0x74e04c)
+    //     0xa9bc9c: add             x1, PP, #0x58, lsl #12  ; [pp+0x585d0] AnonymousClosure: static (0x759154), in [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createShot (0x74e04c)
     //     0xa9bca0: ldr             x1, [x1, #0x5d0]
     // 0xa9bca4: r0 = AllocateClosure()
     //     0xa9bca4: bl              #0xe553e0  ; AllocateClosureStub
@@ -926,11 +926,11 @@ class FollowersListViewModel extends ChangeNotifier {
     //     0xa9bccc: add             x1, PP, #0x58, lsl #12  ; [pp+0x58568] "Couldn\'t load followers. Please try again."
     //     0xa9bcd0: ldr             x1, [x1, #0x568]
     // 0xa9bcd4: r0 = L()
-    //     0xa9bcd4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa9bcd4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa9bcd8: ldur            x1, [fp, #-0x78]
     // 0xa9bcdc: mov             x2, x0
     // 0xa9bce0: r0 = userFacingError()
-    //     0xa9bce0: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0xa9bce0: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0xa9bce4: ldur            x1, [fp, #-0x70]
     // 0xa9bce8: StoreField: r1->field_43 = r0
     //     0xa9bce8: stur            w0, [x1, #0x43]
@@ -965,7 +965,7 @@ class FollowersListViewModel extends ChangeNotifier {
     //     0xa9bfa4: cmp             SP, x16
     //     0xa9bfa8: b.ls            #0xa9bfbc
     // 0xa9bfac: r0 = loadFirstPage()
-    //     0xa9bfac: bl              #0x986208  ; [package:ballai/automatic/viewmodels/home/you/followers_list_view_model.dart] FollowersListViewModel::loadFirstPage
+    //     0xa9bfac: bl              #0x986208  ; [package:kourtai/automatic/viewmodels/home/you/followers_list_view_model.dart] FollowersListViewModel::loadFirstPage
     // 0xa9bfb0: LeaveFrame
     //     0xa9bfb0: mov             SP, fp
     //     0xa9bfb4: ldp             fp, lr, [SP], #0x10
@@ -991,7 +991,7 @@ class FollowersListViewModel extends ChangeNotifier {
     //     0xa9bfe0: b.ls            #0xa9bff8
     // 0xa9bfe4: ldr             x2, [fp, #0x10]
     // 0xa9bfe8: r0 = setSearchText()
-    //     0xa9bfe8: bl              #0xa9c000  ; [package:ballai/automatic/viewmodels/home/you/followers_list_view_model.dart] FollowersListViewModel::setSearchText
+    //     0xa9bfe8: bl              #0xa9c000  ; [package:kourtai/automatic/viewmodels/home/you/followers_list_view_model.dart] FollowersListViewModel::setSearchText
     // 0xa9bfec: LeaveFrame
     //     0xa9bfec: mov             SP, fp
     //     0xa9bff0: ldp             fp, lr, [SP], #0x10

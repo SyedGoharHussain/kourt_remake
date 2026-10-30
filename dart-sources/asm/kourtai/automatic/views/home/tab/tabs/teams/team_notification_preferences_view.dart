@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart
 
 // class id: 1048960, size: 0x8
 class :: {
@@ -45,7 +45,7 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     // 0x97d7bc: mov             x2, x1
     // 0x97d7c0: stur            x0, [fp, #-8]
     // 0x97d7c4: r1 = Function '<anonymous closure>':.
-    //     0x97d7c4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49368] AnonymousClosure: (0x97d8b8), in [package:ballai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::initState (0x97d768)
+    //     0x97d7c4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49368] AnonymousClosure: (0x97d8b8), in [package:kourtai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::initState (0x97d768)
     //     0x97d7c8: ldr             x1, [x1, #0x368]
     // 0x97d7cc: r0 = AllocateClosure()
     //     0x97d7cc: bl              #0xe553e0  ; AllocateClosureStub
@@ -142,7 +142,7 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     //     0x97d8dc: add             x0, x0, HEAP, lsl #32
     // 0x97d8e0: mov             x1, x0
     // 0x97d8e4: r0 = _loadPreferences()
-    //     0x97d8e4: bl              #0x97d8fc  ; [package:ballai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::_loadPreferences
+    //     0x97d8e4: bl              #0x97d8fc  ; [package:kourtai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::_loadPreferences
     // 0x97d8e8: LeaveFrame
     //     0x97d8e8: mov             SP, fp
     //     0x97d8ec: ldp             fp, lr, [SP], #0x10
@@ -219,7 +219,7 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     // 0x97d9a4: b.eq            #0x97d9c4
     // 0x97d9a8: ldur            x2, [fp, #-0x80]
     // 0x97d9ac: r1 = Function '<anonymous closure>':.
-    //     0x97d9ac: add             x1, PP, #0x49, lsl #12  ; [pp+0x49320] AnonymousClosure: (0x8ef4b8), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
+    //     0x97d9ac: add             x1, PP, #0x49, lsl #12  ; [pp+0x49320] AnonymousClosure: (0x8ef4b8), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
     //     0x97d9b0: ldr             x1, [x1, #0x320]
     // 0x97d9b4: r0 = AllocateClosure()
     //     0x97d9b4: bl              #0xe553e0  ; AllocateClosureStub
@@ -269,7 +269,7 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     // 0x97da2c: ldur            x3, [fp, #-0x88]
     // 0x97da30: stur            x5, [fp, #-0x90]
     // 0x97da34: r0 = membershipNotificationPreferences()
-    //     0x97da34: bl              #0x97dafc  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::membershipNotificationPreferences
+    //     0x97da34: bl              #0x97dafc  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::membershipNotificationPreferences
     // 0x97da38: mov             x1, x0
     // 0x97da3c: stur            x1, [fp, #-0xa0]
     // 0x97da40: r0 = Await()
@@ -297,7 +297,7 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     //     0x97da80: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x97da84: mov             x2, x3
     // 0x97da88: r1 = Function '<anonymous closure>':.
-    //     0x97da88: add             x1, PP, #0x49, lsl #12  ; [pp+0x49328] AnonymousClosure: (0x97db74), in [package:ballai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::_loadPreferences (0x97d8fc)
+    //     0x97da88: add             x1, PP, #0x49, lsl #12  ; [pp+0x49328] AnonymousClosure: (0x97db74), in [package:kourtai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::_loadPreferences (0x97d8fc)
     //     0x97da8c: ldr             x1, [x1, #0x328]
     // 0x97da90: r0 = AllocateClosure()
     //     0x97da90: bl              #0xe553e0  ; AllocateClosureStub
@@ -320,7 +320,7 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     //     0x97dac0: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x97dac4: ldur            x2, [fp, #-0x80]
     // 0x97dac8: r1 = Function '<anonymous closure>':.
-    //     0x97dac8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49330] AnonymousClosure: (0x8ef4b8), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
+    //     0x97dac8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49330] AnonymousClosure: (0x8ef4b8), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
     //     0x97dacc: ldr             x1, [x1, #0x330]
     // 0x97dad0: r0 = AllocateClosure()
     //     0x97dad0: bl              #0xe553e0  ; AllocateClosureStub
@@ -426,22 +426,22 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     // 0xa7c6bc: r0 = of()
     //     0xa7c6bc: bl              #0x5ff63c  ; [package:provider/src/provider.dart] Provider::of
     // 0xa7c6c0: ldur            x1, [fp, #-0x10]
-    // 0xa7c6c4: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xa7c6c4: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xa7c6c4: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xa7c6c4: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xa7c6c8: ldur            x1, [fp, #-0x10]
     // 0xa7c6cc: stur            x0, [fp, #-0x20]
-    // 0xa7c6d0: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xa7c6d0: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xa7c6d0: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xa7c6d0: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xa7c6d4: r1 = "Notifications"
     //     0xa7c6d4: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bab0] "Notifications"
     //     0xa7c6d8: ldr             x1, [x1, #0xab0]
     // 0xa7c6dc: stur            x0, [fp, #-0x28]
     // 0xa7c6e0: r0 = L()
-    //     0xa7c6e0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7c6e0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7c6e4: ldur            x1, [fp, #-0x10]
     // 0xa7c6e8: stur            x0, [fp, #-0x30]
-    // 0xa7c6ec: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa7c6ec: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa7c6ec: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa7c6ec: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa7c6f0: stur            x0, [fp, #-0x38]
     // 0xa7c6f4: r0 = TextStyle()
     //     0xa7c6f4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -533,11 +533,11 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     //     0xa7c7dc: add             x1, PP, #0x49, lsl #12  ; [pp+0x492b0] "Team activity"
     //     0xa7c7e0: ldr             x1, [x1, #0x2b0]
     // 0xa7c7e4: r0 = L()
-    //     0xa7c7e4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7c7e4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7c7e8: ldur            x1, [fp, #-0x10]
     // 0xa7c7ec: stur            x0, [fp, #-0x28]
-    // 0xa7c7f0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa7c7f0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa7c7f0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa7c7f0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa7c7f4: stur            x0, [fp, #-0x38]
     // 0xa7c7f8: r0 = TextStyle()
     //     0xa7c7f8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -605,13 +605,13 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     //     0xa7c8a4: add             x1, PP, #0x49, lsl #12  ; [pp+0x492b8] "Live workouts"
     //     0xa7c8a8: ldr             x1, [x1, #0x2b8]
     // 0xa7c8ac: r0 = L()
-    //     0xa7c8ac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7c8ac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7c8b0: r1 = "Get notified when a teammate starts a workout on this team."
     //     0xa7c8b0: add             x1, PP, #0x49, lsl #12  ; [pp+0x492c0] "Get notified when a teammate starts a workout on this team."
     //     0xa7c8b4: ldr             x1, [x1, #0x2c0]
     // 0xa7c8b8: stur            x0, [fp, #-0x38]
     // 0xa7c8bc: r0 = L()
-    //     0xa7c8bc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7c8bc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7c8c0: ldur            x1, [fp, #-8]
     // 0xa7c8c4: stur            x0, [fp, #-0x48]
     // 0xa7c8c8: LoadField: r2 = r1->field_13
@@ -638,7 +638,7 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     //     0xa7c8fc: stur            w0, [x3, #0x13]
     // 0xa7c900: ldur            x2, [fp, #-0x18]
     // 0xa7c904: r1 = Function '<anonymous closure>':.
-    //     0xa7c904: add             x1, PP, #0x49, lsl #12  ; [pp+0x492c8] AnonymousClosure: (0xa7d47c), in [package:ballai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::build (0xa7c654)
+    //     0xa7c904: add             x1, PP, #0x49, lsl #12  ; [pp+0x492c8] AnonymousClosure: (0xa7d47c), in [package:kourtai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::build (0xa7c654)
     //     0xa7c908: ldr             x1, [x1, #0x2c8]
     // 0xa7c90c: r0 = AllocateClosure()
     //     0xa7c90c: bl              #0xe553e0  ; AllocateClosureStub
@@ -678,13 +678,13 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     //     0xa7c978: add             x1, PP, #0x49, lsl #12  ; [pp+0x492d0] "Weekly goal completed"
     //     0xa7c97c: ldr             x1, [x1, #0x2d0]
     // 0xa7c980: r0 = L()
-    //     0xa7c980: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7c980: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7c984: r1 = "Get notified every time a teammate completes a weekly goal on this team."
     //     0xa7c984: add             x1, PP, #0x49, lsl #12  ; [pp+0x492d8] "Get notified every time a teammate completes a weekly goal on this team."
     //     0xa7c988: ldr             x1, [x1, #0x2d8]
     // 0xa7c98c: stur            x0, [fp, #-0x38]
     // 0xa7c990: r0 = L()
-    //     0xa7c990: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7c990: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7c994: ldur            x1, [fp, #-8]
     // 0xa7c998: stur            x0, [fp, #-0x48]
     // 0xa7c99c: LoadField: r2 = r1->field_13
@@ -711,7 +711,7 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     //     0xa7c9d0: stur            w0, [x3, #0x13]
     // 0xa7c9d4: ldur            x2, [fp, #-0x18]
     // 0xa7c9d8: r1 = Function '<anonymous closure>':.
-    //     0xa7c9d8: add             x1, PP, #0x49, lsl #12  ; [pp+0x492e0] AnonymousClosure: (0xa7d3a4), in [package:ballai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::build (0xa7c654)
+    //     0xa7c9d8: add             x1, PP, #0x49, lsl #12  ; [pp+0x492e0] AnonymousClosure: (0xa7d3a4), in [package:kourtai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::build (0xa7c654)
     //     0xa7c9dc: ldr             x1, [x1, #0x2e0]
     // 0xa7c9e0: r0 = AllocateClosure()
     //     0xa7c9e0: bl              #0xe553e0  ; AllocateClosureStub
@@ -753,13 +753,13 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     //     0xa7ca54: add             x1, PP, #0x49, lsl #12  ; [pp+0x492e8] "Someone joins the team"
     //     0xa7ca58: ldr             x1, [x1, #0x2e8]
     // 0xa7ca5c: r0 = L()
-    //     0xa7ca5c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7ca5c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7ca60: r1 = "Get notified every time a new person joins this team."
     //     0xa7ca60: add             x1, PP, #0x49, lsl #12  ; [pp+0x492f0] "Get notified every time a new person joins this team."
     //     0xa7ca64: ldr             x1, [x1, #0x2f0]
     // 0xa7ca68: stur            x0, [fp, #-0x38]
     // 0xa7ca6c: r0 = L()
-    //     0xa7ca6c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7ca6c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7ca70: ldur            x1, [fp, #-8]
     // 0xa7ca74: stur            x0, [fp, #-0x48]
     // 0xa7ca78: LoadField: r2 = r1->field_13
@@ -786,7 +786,7 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     //     0xa7caac: stur            w0, [x3, #0x13]
     // 0xa7cab0: ldur            x2, [fp, #-0x18]
     // 0xa7cab4: r1 = Function '<anonymous closure>':.
-    //     0xa7cab4: add             x1, PP, #0x49, lsl #12  ; [pp+0x492f8] AnonymousClosure: (0xa7cc44), in [package:ballai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::build (0xa7c654)
+    //     0xa7cab4: add             x1, PP, #0x49, lsl #12  ; [pp+0x492f8] AnonymousClosure: (0xa7cc44), in [package:kourtai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::build (0xa7c654)
     //     0xa7cab8: ldr             x1, [x1, #0x2f8]
     // 0xa7cabc: r0 = AllocateClosure()
     //     0xa7cabc: bl              #0xe553e0  ; AllocateClosureStub
@@ -813,15 +813,15 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     //     0xa7cb00: stur            w16, [x0, #0x2b]
     // 0xa7cb04: ldur            x1, [fp, #-8]
     // 0xa7cb08: r0 = _team()
-    //     0xa7cb08: bl              #0x9756d8  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_detail_view.dart] _TeamDetailViewState::_team
+    //     0xa7cb08: bl              #0x9756d8  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_detail_view.dart] _TeamDetailViewState::_team
     // 0xa7cb0c: LoadField: r2 = r0->field_b
     //     0xa7cb0c: ldur            w2, [x0, #0xb]
     // 0xa7cb10: DecompressPointer r2
     //     0xa7cb10: add             x2, x2, HEAP, lsl #32
     // 0xa7cb14: ldur            x1, [fp, #-0x10]
     // 0xa7cb18: stur            x2, [fp, #-8]
-    // 0xa7cb1c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa7cb1c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa7cb1c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa7cb1c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa7cb20: stur            x0, [fp, #-0x10]
     // 0xa7cb24: r0 = TextStyle()
     //     0xa7cb24: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -960,14 +960,14 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     // 0xa7cc90: mov             x2, x1
     // 0xa7cc94: stur            x3, [fp, #-0x10]
     // 0xa7cc98: r1 = Function '<anonymous closure>':.
-    //     0xa7cc98: add             x1, PP, #0x49, lsl #12  ; [pp+0x49300] AnonymousClosure: (0xa7d1e0), in [package:ballai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::build (0xa7c654)
+    //     0xa7cc98: add             x1, PP, #0x49, lsl #12  ; [pp+0x49300] AnonymousClosure: (0xa7d1e0), in [package:kourtai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::build (0xa7c654)
     //     0xa7cc9c: ldr             x1, [x1, #0x300]
     // 0xa7cca0: r0 = AllocateClosure()
     //     0xa7cca0: bl              #0xe553e0  ; AllocateClosureStub
     // 0xa7cca4: ldur            x1, [fp, #-0x10]
     // 0xa7cca8: mov             x2, x0
     // 0xa7ccac: r0 = _savePreference()
-    //     0xa7ccac: bl              #0xa7ccc8  ; [package:ballai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::_savePreference
+    //     0xa7ccac: bl              #0xa7ccc8  ; [package:kourtai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::_savePreference
     // 0xa7ccb0: r0 = Null
     //     0xa7ccb0: mov             x0, NULL
     // 0xa7ccb4: LeaveFrame
@@ -1070,7 +1070,7 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     //     0xa7cdc0: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0xa7cdc4: mov             x2, x3
     // 0xa7cdc8: r1 = Function '<anonymous closure>':.
-    //     0xa7cdc8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49310] AnonymousClosure: (0x8e5cc8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
+    //     0xa7cdc8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49310] AnonymousClosure: (0x8e5cc8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
     //     0xa7cdcc: ldr             x1, [x1, #0x310]
     // 0xa7cdd0: r0 = AllocateClosure()
     //     0xa7cdd0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1116,7 +1116,7 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     // 0xa7ce40: ldur            x5, [fp, #-0x98]
     // 0xa7ce44: stur            x6, [fp, #-0xa0]
     // 0xa7ce48: r0 = updateMembershipNotificationPreferences()
-    //     0xa7ce48: bl              #0xa7cf44  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::updateMembershipNotificationPreferences
+    //     0xa7ce48: bl              #0xa7cf44  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::updateMembershipNotificationPreferences
     // 0xa7ce4c: mov             x1, x0
     // 0xa7ce50: stur            x1, [fp, #-0x88]
     // 0xa7ce54: r0 = Await()
@@ -1161,7 +1161,7 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     //     0xa7cebc: add             x1, PP, #0x49, lsl #12  ; [pp+0x49318] "Could not save notification preferences."
     //     0xa7cec0: ldr             x1, [x1, #0x318]
     // 0xa7cec4: r0 = L()
-    //     0xa7cec4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa7cec4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7cec8: stur            x0, [fp, #-0x88]
     // 0xa7cecc: r0 = Text()
     //     0xa7cecc: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1192,7 +1192,7 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     //     0xa7cf10: bl              #0x96957c  ; [package:flutter/src/material/scaffold.dart] ScaffoldMessengerState::showSnackBar
     // 0xa7cf14: ldur            x1, [fp, #-0x80]
     // 0xa7cf18: r0 = _loadPreferences()
-    //     0xa7cf18: bl              #0x97d8fc  ; [package:ballai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::_loadPreferences
+    //     0xa7cf18: bl              #0x97d8fc  ; [package:kourtai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::_loadPreferences
     // 0xa7cf1c: mov             x1, x0
     // 0xa7cf20: stur            x1, [fp, #-0x80]
     // 0xa7cf24: r0 = Await()
@@ -1236,7 +1236,7 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     //     0xa7d214: add             x4, PP, #0x49, lsl #12  ; [pp+0x49308] List(7) [0, 0x2, 0x1, 0x1, "memberJoined", 0x1, Null]
     //     0xa7d218: ldr             x4, [x4, #0x308]
     // 0xa7d21c: r0 = copyWith()
-    //     0xa7d21c: bl              #0xa7d234  ; [package:ballai/automatic/models/core/team/membership_notification_preferences.dart] MembershipNotificationPreferences::copyWith
+    //     0xa7d21c: bl              #0xa7d234  ; [package:kourtai/automatic/models/core/team/membership_notification_preferences.dart] MembershipNotificationPreferences::copyWith
     // 0xa7d220: LeaveFrame
     //     0xa7d220: mov             SP, fp
     //     0xa7d224: ldp             fp, lr, [SP], #0x10
@@ -1280,14 +1280,14 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     // 0xa7d3f0: mov             x2, x1
     // 0xa7d3f4: stur            x3, [fp, #-0x10]
     // 0xa7d3f8: r1 = Function '<anonymous closure>':.
-    //     0xa7d3f8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49348] AnonymousClosure: (0xa7d428), in [package:ballai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::build (0xa7c654)
+    //     0xa7d3f8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49348] AnonymousClosure: (0xa7d428), in [package:kourtai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::build (0xa7c654)
     //     0xa7d3fc: ldr             x1, [x1, #0x348]
     // 0xa7d400: r0 = AllocateClosure()
     //     0xa7d400: bl              #0xe553e0  ; AllocateClosureStub
     // 0xa7d404: ldur            x1, [fp, #-0x10]
     // 0xa7d408: mov             x2, x0
     // 0xa7d40c: r0 = _savePreference()
-    //     0xa7d40c: bl              #0xa7ccc8  ; [package:ballai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::_savePreference
+    //     0xa7d40c: bl              #0xa7ccc8  ; [package:kourtai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::_savePreference
     // 0xa7d410: r0 = Null
     //     0xa7d410: mov             x0, NULL
     // 0xa7d414: LeaveFrame
@@ -1324,7 +1324,7 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     //     0xa7d45c: add             x4, PP, #0x49, lsl #12  ; [pp+0x49350] List(7) [0, 0x2, 0x1, 0x1, "goalComplete", 0x1, Null]
     //     0xa7d460: ldr             x4, [x4, #0x350]
     // 0xa7d464: r0 = copyWith()
-    //     0xa7d464: bl              #0xa7d234  ; [package:ballai/automatic/models/core/team/membership_notification_preferences.dart] MembershipNotificationPreferences::copyWith
+    //     0xa7d464: bl              #0xa7d234  ; [package:kourtai/automatic/models/core/team/membership_notification_preferences.dart] MembershipNotificationPreferences::copyWith
     // 0xa7d468: LeaveFrame
     //     0xa7d468: mov             SP, fp
     //     0xa7d46c: ldp             fp, lr, [SP], #0x10
@@ -1368,14 +1368,14 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     // 0xa7d4c8: mov             x2, x1
     // 0xa7d4cc: stur            x3, [fp, #-0x10]
     // 0xa7d4d0: r1 = Function '<anonymous closure>':.
-    //     0xa7d4d0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49358] AnonymousClosure: (0xa7d500), in [package:ballai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::build (0xa7c654)
+    //     0xa7d4d0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49358] AnonymousClosure: (0xa7d500), in [package:kourtai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::build (0xa7c654)
     //     0xa7d4d4: ldr             x1, [x1, #0x358]
     // 0xa7d4d8: r0 = AllocateClosure()
     //     0xa7d4d8: bl              #0xe553e0  ; AllocateClosureStub
     // 0xa7d4dc: ldur            x1, [fp, #-0x10]
     // 0xa7d4e0: mov             x2, x0
     // 0xa7d4e4: r0 = _savePreference()
-    //     0xa7d4e4: bl              #0xa7ccc8  ; [package:ballai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::_savePreference
+    //     0xa7d4e4: bl              #0xa7ccc8  ; [package:kourtai/automatic/views/home/tab/tabs/teams/team_notification_preferences_view.dart] _TeamNotificationPreferencesViewState::_savePreference
     // 0xa7d4e8: r0 = Null
     //     0xa7d4e8: mov             x0, NULL
     // 0xa7d4ec: LeaveFrame
@@ -1412,7 +1412,7 @@ class _TeamNotificationPreferencesViewState extends State<dynamic> {
     //     0xa7d534: add             x4, PP, #0x49, lsl #12  ; [pp+0x49360] List(7) [0, 0x2, 0x1, 0x1, "workoutComplete", 0x1, Null]
     //     0xa7d538: ldr             x4, [x4, #0x360]
     // 0xa7d53c: r0 = copyWith()
-    //     0xa7d53c: bl              #0xa7d234  ; [package:ballai/automatic/models/core/team/membership_notification_preferences.dart] MembershipNotificationPreferences::copyWith
+    //     0xa7d53c: bl              #0xa7d234  ; [package:kourtai/automatic/models/core/team/membership_notification_preferences.dart] MembershipNotificationPreferences::copyWith
     // 0xa7d540: LeaveFrame
     //     0xa7d540: mov             SP, fp
     //     0xa7d544: ldp             fp, lr, [SP], #0x10
@@ -1477,8 +1477,8 @@ class _ToggleCard extends StatelessWidget {
     //     0xc020c0: cmp             SP, x16
     //     0xc020c4: b.ls            #0xc022b8
     // 0xc020c8: mov             x1, x0
-    // 0xc020cc: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xc020cc: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xc020cc: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xc020cc: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xc020d0: stur            x0, [fp, #-0x18]
     // 0xc020d4: r0 = Radius()
     //     0xc020d4: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -1524,8 +1524,8 @@ class _ToggleCard extends StatelessWidget {
     //     0xc02138: add             x3, x3, HEAP, lsl #32
     // 0xc0213c: ldur            x1, [fp, #-0x10]
     // 0xc02140: stur            x3, [fp, #-0x18]
-    // 0xc02144: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc02144: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc02144: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc02144: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc02148: mov             x2, x0
     // 0xc0214c: ldur            x0, [fp, #-8]
     // 0xc02150: stur            x2, [fp, #-0x38]
@@ -1540,8 +1540,8 @@ class _ToggleCard extends StatelessWidget {
     //     0xc02164: add             x4, x4, HEAP, lsl #32
     // 0xc02168: ldur            x1, [fp, #-0x10]
     // 0xc0216c: stur            x4, [fp, #-0x28]
-    // 0xc02170: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc02170: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc02170: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc02170: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc02174: stur            x0, [fp, #-0x40]
     // 0xc02178: r0 = TextStyle()
     //     0xc02178: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1576,8 +1576,8 @@ class _ToggleCard extends StatelessWidget {
     //     0xc021c4: add             x3, x3, HEAP, lsl #32
     // 0xc021c8: ldur            x1, [fp, #-0x10]
     // 0xc021cc: stur            x3, [fp, #-0x28]
-    // 0xc021d0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc021d0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc021d0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc021d0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc021d4: stur            x0, [fp, #-8]
     // 0xc021d8: r0 = TextStyle()
     //     0xc021d8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)

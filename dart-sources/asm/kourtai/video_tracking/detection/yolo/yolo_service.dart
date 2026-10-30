@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/detection/yolo/yolo_service.dart
+// lib: , url: package:kourtai/video_tracking/detection/yolo/yolo_service.dart
 
 // class id: 1049140, size: 0x8
 class :: {
@@ -27,7 +27,7 @@ class YoloService extends Object {
     // 0x77b4fc: mov             x1, x0
     // 0x77b500: stur            x0, [fp, #-0x10]
     // 0x77b504: r0 = YoloTelemetry()
-    //     0x77b504: bl              #0x712a88  ; [package:ballai/video_tracking/detection/yolo/yolo_telemetry.dart] YoloTelemetry::YoloTelemetry
+    //     0x77b504: bl              #0x712a88  ; [package:kourtai/video_tracking/detection/yolo/yolo_telemetry.dart] YoloTelemetry::YoloTelemetry
     // 0x77b508: ldur            x0, [fp, #-0x10]
     // 0x77b50c: ldur            x1, [fp, #-8]
     // 0x77b510: StoreField: r1->field_7 = r0
@@ -87,7 +87,7 @@ class YoloService extends Object {
     // 0x9beaec: DecompressPointer r1
     //     0x9beaec: add             x1, x1, HEAP, lsl #32
     // 0x9beaf0: r0 = stop()
-    //     0x9beaf0: bl              #0x78d140  ; [package:ballai/video_tracking/detection/yolo/engine/yolo_camera_worker.dart] YoloCameraWorker::stop
+    //     0x9beaf0: bl              #0x78d140  ; [package:kourtai/video_tracking/detection/yolo/engine/yolo_camera_worker.dart] YoloCameraWorker::stop
     // 0x9beaf4: ldur            x1, [fp, #-8]
     // 0x9beaf8: StoreField: r1->field_f = rNULL
     //     0x9beaf8: stur            NULL, [x1, #0xf]

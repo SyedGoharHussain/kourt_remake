@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/streak/streak_challenge_reward.dart
+// lib: , url: package:kourtai/automatic/models/core/streak/streak_challenge_reward.dart
 
 // class id: 1048702, size: 0x8
 class :: {
@@ -27,7 +27,7 @@ class StreakChallengeReward extends Object {
     //     0xbe09a4: add             x0, x0, HEAP, lsl #32
     // 0xbe09a8: mov             x1, x0
     // 0xbe09ac: r0 = L()
-    //     0xbe09ac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe09ac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe09b0: LeaveFrame
     //     0xbe09b0: mov             SP, fp
     //     0xbe09b4: ldp             fp, lr, [SP], #0x10
@@ -51,7 +51,7 @@ class StreakChallengeReward extends Object {
     //     0xbe0a1c: cmp             SP, x16
     //     0xbe0a20: b.ls            #0xbe0a94
     // 0xbe0a24: r0 = all()
-    //     0xbe0a24: bl              #0xbe0aa4  ; [package:ballai/automatic/models/core/streak/streak_challenge_reward.dart] StreakChallengeReward::all
+    //     0xbe0a24: bl              #0xbe0aa4  ; [package:kourtai/automatic/models/core/streak/streak_challenge_reward.dart] StreakChallengeReward::all
     // 0xbe0a28: LoadField: r1 = r0->field_b
     //     0xbe0a28: ldur            w1, [x0, #0xb]
     // 0xbe0a2c: r2 = LoadInt32Instr(r1)
@@ -111,7 +111,7 @@ class StreakChallengeReward extends Object {
     //     0xbe0ab0: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xbe0ab4: cmp             SP, x16
     //     0xbe0ab8: b.ls            #0xbe0b7c
-    // 0xbe0abc: r0 = InitLateStaticField(0xdf4) // [package:ballai/automatic/models/core/streak/streak_challenge_reward.dart] StreakChallengeReward::tripod
+    // 0xbe0abc: r0 = InitLateStaticField(0xdf4) // [package:kourtai/automatic/models/core/streak/streak_challenge_reward.dart] StreakChallengeReward::tripod
     //     0xbe0abc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xbe0ac0: ldr             x0, [x0, #0x1be8]
     //     0xbe0ac4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -121,7 +121,7 @@ class StreakChallengeReward extends Object {
     //     0xbe0ad4: ldr             x2, [x2, #0x3e0]
     //     0xbe0ad8: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0xbe0adc: stur            x0, [fp, #-8]
-    // 0xbe0ae0: r0 = InitLateStaticField(0xdf8) // [package:ballai/automatic/models/core/streak/streak_challenge_reward.dart] StreakChallengeReward::heavyBall
+    // 0xbe0ae0: r0 = InitLateStaticField(0xdf8) // [package:kourtai/automatic/models/core/streak/streak_challenge_reward.dart] StreakChallengeReward::heavyBall
     //     0xbe0ae0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xbe0ae4: ldr             x0, [x0, #0x1bf0]
     //     0xbe0ae8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -131,7 +131,7 @@ class StreakChallengeReward extends Object {
     //     0xbe0af8: ldr             x2, [x2, #0x3e8]
     //     0xbe0afc: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0xbe0b00: stur            x0, [fp, #-0x10]
-    // 0xbe0b04: r0 = InitLateStaticField(0xdfc) // [package:ballai/automatic/models/core/streak/streak_challenge_reward.dart] StreakChallengeReward::silentBall
+    // 0xbe0b04: r0 = InitLateStaticField(0xdfc) // [package:kourtai/automatic/models/core/streak/streak_challenge_reward.dart] StreakChallengeReward::silentBall
     //     0xbe0b04: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xbe0b08: ldr             x0, [x0, #0x1bf8]
     //     0xbe0b0c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -510,8 +510,8 @@ class StreakChallengeReward extends Object {
     //     0xbe0e90: ldr             x1, [x1, #0x4e8]
     // 0xbe0e94: StoreField: r0->field_13 = r1
     //     0xbe0e94: stur            w1, [x0, #0x13]
-    // 0xbe0e98: r1 = "Mount up and let Ball AI see every rep. Sharper tracking, cleaner film, zero excuses."
-    //     0xbe0e98: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e4f0] "Mount up and let Ball AI see every rep. Sharper tracking, cleaner film, zero excuses."
+    // 0xbe0e98: r1 = "Mount up and let Kourt AI see every rep. Sharper tracking, cleaner film, zero excuses."
+    //     0xbe0e98: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e4f0] "Mount up and let Kourt AI see every rep. Sharper tracking, cleaner film, zero excuses."
     //     0xbe0e9c: ldr             x1, [x1, #0x4f0]
     // 0xbe0ea0: ArrayStore: r0[0] = r1  ; List_4
     //     0xbe0ea0: stur            w1, [x0, #0x17]
@@ -563,7 +563,7 @@ class StreakChallengeReward extends Object {
     //     0xbe22d8: add             x0, x0, HEAP, lsl #32
     // 0xbe22dc: mov             x1, x0
     // 0xbe22e0: r0 = L()
-    //     0xbe22e0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe22e0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe22e4: LeaveFrame
     //     0xbe22e4: mov             SP, fp
     //     0xbe22e8: ldp             fp, lr, [SP], #0x10
@@ -588,7 +588,7 @@ class StreakChallengeReward extends Object {
     //     0xbe231c: add             x0, x0, HEAP, lsl #32
     // 0xbe2320: mov             x1, x0
     // 0xbe2324: r0 = L()
-    //     0xbe2324: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe2324: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe2328: LeaveFrame
     //     0xbe2328: mov             SP, fp
     //     0xbe232c: ldp             fp, lr, [SP], #0x10

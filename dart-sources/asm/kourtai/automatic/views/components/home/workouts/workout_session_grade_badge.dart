@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/home/workouts/workout_session_grade_badge.dart
+// lib: , url: package:kourtai/automatic/views/components/home/workouts/workout_session_grade_badge.dart
 
 // class id: 1048811, size: 0x8
 class :: {
@@ -398,15 +398,15 @@ class WorkoutSessionGradeBadge extends StatelessWidget {
     // 0xbbb0a0: mov             x1, x0
     // 0xbbb0a4: stur            d1, [fp, #-0x38]
     // 0xbbb0a8: r0 = _accent()
-    //     0xbbb0a8: bl              #0xbbb704  ; [package:ballai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_accent
+    //     0xbbb0a8: bl              #0xbbb704  ; [package:kourtai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_accent
     // 0xbbb0ac: ldur            x1, [fp, #-8]
     // 0xbbb0b0: stur            x0, [fp, #-0x10]
     // 0xbbb0b4: r0 = _secondaryAccent()
-    //     0xbbb0b4: bl              #0xbbb4d8  ; [package:ballai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_secondaryAccent
+    //     0xbbb0b4: bl              #0xbbb4d8  ; [package:kourtai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_secondaryAccent
     // 0xbbb0b8: ldur            x1, [fp, #-8]
     // 0xbbb0bc: stur            x0, [fp, #-0x18]
     // 0xbbb0c0: r0 = _ringWidth()
-    //     0xbbb0c0: bl              #0xbbb404  ; [package:ballai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_ringWidth
+    //     0xbbb0c0: bl              #0xbbb404  ; [package:kourtai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_ringWidth
     // 0xbbb0c4: ldur            x0, [fp, #-8]
     // 0xbbb0c8: stur            d0, [fp, #-0x48]
     // 0xbbb0cc: ArrayLoad: d1 = r0[0]  ; List_8
@@ -445,7 +445,7 @@ class WorkoutSessionGradeBadge extends StatelessWidget {
     // 0xbbb128: ldur            x1, [fp, #-8]
     // 0xbbb12c: stur            x0, [fp, #-0x20]
     // 0xbbb130: r0 = _hasGrade()
-    //     0xbbb130: bl              #0xbbb390  ; [package:ballai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_hasGrade
+    //     0xbbb130: bl              #0xbbb390  ; [package:kourtai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_hasGrade
     // 0xbbb134: stur            x0, [fp, #-0x28]
     // 0xbbb138: r0 = _GradeRingPainter()
     //     0xbbb138: bl              #0xbbb384  ; Allocate_GradeRingPainterStub -> _GradeRingPainter (size=0x28)
@@ -470,7 +470,7 @@ class WorkoutSessionGradeBadge extends StatelessWidget {
     //     0xbbb16c: stur            w0, [x2, #0x23]
     // 0xbbb170: ldur            x1, [fp, #-8]
     // 0xbbb174: r0 = _hasGrade()
-    //     0xbbb174: bl              #0xbbb390  ; [package:ballai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_hasGrade
+    //     0xbbb174: bl              #0xbbb390  ; [package:kourtai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_hasGrade
     // 0xbbb178: tbnz            w0, #4, #0xbbb19c
     // 0xbbb17c: ldur            x0, [fp, #-8]
     // 0xbbb180: LoadField: r1 = r0->field_b
@@ -492,11 +492,11 @@ class WorkoutSessionGradeBadge extends StatelessWidget {
     // 0xbbb1b0: ldur            x1, [fp, #-8]
     // 0xbbb1b4: stur            x2, [fp, #-0x10]
     // 0xbbb1b8: r0 = _diameter()
-    //     0xbbb1b8: bl              #0xbbb32c  ; [package:ballai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_diameter
+    //     0xbbb1b8: bl              #0xbbb32c  ; [package:kourtai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_diameter
     // 0xbbb1bc: ldur            x1, [fp, #-8]
     // 0xbbb1c0: stur            d0, [fp, #-0x48]
     // 0xbbb1c4: r0 = _accent()
-    //     0xbbb1c4: bl              #0xbbb704  ; [package:ballai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_accent
+    //     0xbbb1c4: bl              #0xbbb704  ; [package:kourtai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_accent
     // 0xbbb1c8: stur            x0, [fp, #-8]
     // 0xbbb1cc: r0 = _GradeLetterText()
     //     0xbbb1cc: bl              #0xbbb320  ; Allocate_GradeLetterTextStub -> _GradeLetterText (size=0x1c)
@@ -721,7 +721,7 @@ class WorkoutSessionGradeBadge extends StatelessWidget {
     // 0xbbb420: cmp             w0, NULL
     // 0xbbb424: b.eq            #0xbbb488
     // 0xbbb428: r0 = _diameter()
-    //     0xbbb428: bl              #0xbbb32c  ; [package:ballai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_diameter
+    //     0xbbb428: bl              #0xbbb32c  ; [package:kourtai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_diameter
     // 0xbbb42c: mov             v1.16b, v0.16b
     // 0xbbb430: d0 = 0.090000
     //     0xbbb430: add             x17, PP, #0x45, lsl #12  ; [pp+0x45e08] IMM: double(0.09) from 0x3fb70a3d70a3d70a
@@ -804,7 +804,7 @@ class WorkoutSessionGradeBadge extends StatelessWidget {
     //     0xbbb4f4: b.ls            #0xbbb5ec
     // 0xbbb4f8: mov             x1, x0
     // 0xbbb4fc: r0 = _grade()
-    //     0xbbb4fc: bl              #0xbbb5f4  ; [package:ballai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_grade
+    //     0xbbb4fc: bl              #0xbbb5f4  ; [package:kourtai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_grade
     // 0xbbb500: cmp             w0, NULL
     // 0xbbb504: b.eq            #0xbbb590
     // 0xbbb508: LoadField: r1 = r0->field_7
@@ -851,11 +851,11 @@ class WorkoutSessionGradeBadge extends StatelessWidget {
     //     0xbbb58c: ret             
     // 0xbbb590: ldur            x1, [fp, #-8]
     // 0xbbb594: r0 = _hasGrade()
-    //     0xbbb594: bl              #0xbbb390  ; [package:ballai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_hasGrade
+    //     0xbbb594: bl              #0xbbb390  ; [package:kourtai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_hasGrade
     // 0xbbb598: tbnz            w0, #4, #0xbbb5c4
     // 0xbbb59c: ldur            x1, [fp, #-8]
     // 0xbbb5a0: r0 = _accent()
-    //     0xbbb5a0: bl              #0xbbb704  ; [package:ballai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_accent
+    //     0xbbb5a0: bl              #0xbbb704  ; [package:kourtai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_accent
     // 0xbbb5a4: r16 = 0.450000
     //     0xbbb5a4: add             x16, PP, #0x20, lsl #12  ; [pp+0x20e20] 0.45
     //     0xbbb5a8: ldr             x16, [x16, #0xe20]
@@ -902,7 +902,7 @@ class WorkoutSessionGradeBadge extends StatelessWidget {
     //     0xbbb60c: add             x0, x0, HEAP, lsl #32
     // 0xbbb610: mov             x1, x0
     // 0xbbb614: r0 = fromRawValue()
-    //     0xbbb614: bl              #0xbbb62c  ; [package:ballai/automatic/models/core/stats/workouts/workout_session_letter_grade.dart] WorkoutSessionLetterGrade::fromRawValue
+    //     0xbbb614: bl              #0xbbb62c  ; [package:kourtai/automatic/models/core/stats/workouts/workout_session_letter_grade.dart] WorkoutSessionLetterGrade::fromRawValue
     // 0xbbb618: LeaveFrame
     //     0xbbb618: mov             SP, fp
     //     0xbbb61c: ldp             fp, lr, [SP], #0x10
@@ -933,7 +933,7 @@ class WorkoutSessionGradeBadge extends StatelessWidget {
     // 0xbbb72c: mov             x1, x2
     // 0xbbb730: stur            x2, [fp, #-8]
     // 0xbbb734: r0 = fromRawValue()
-    //     0xbbb734: bl              #0xbbb62c  ; [package:ballai/automatic/models/core/stats/workouts/workout_session_letter_grade.dart] WorkoutSessionLetterGrade::fromRawValue
+    //     0xbbb734: bl              #0xbbb62c  ; [package:kourtai/automatic/models/core/stats/workouts/workout_session_letter_grade.dart] WorkoutSessionLetterGrade::fromRawValue
     // 0xbbb738: cmp             w0, NULL
     // 0xbbb73c: b.eq            #0xbbb7c8
     // 0xbbb740: LoadField: r1 = r0->field_7
@@ -980,7 +980,7 @@ class WorkoutSessionGradeBadge extends StatelessWidget {
     //     0xbbb7c4: ret             
     // 0xbbb7c8: ldur            x1, [fp, #-0x10]
     // 0xbbb7cc: r0 = _hasGrade()
-    //     0xbbb7cc: bl              #0xbbb390  ; [package:ballai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_hasGrade
+    //     0xbbb7cc: bl              #0xbbb390  ; [package:kourtai/automatic/views/components/home/workouts/workout_session_grade_badge.dart] WorkoutSessionGradeBadge::_hasGrade
     // 0xbbb7d0: tbz             w0, #4, #0xbbb7e8
     // 0xbbb7d4: r0 = Instance_Color
     //     0xbbb7d4: add             x0, PP, #0x15, lsl #12  ; [pp+0x15220] Obj!Color@d2a371

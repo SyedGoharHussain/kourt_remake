@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/destinations/activity_change_goals_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/destinations/activity_change_goals_view.dart
 
 // class id: 1048883, size: 0x8
 class :: {
@@ -31,7 +31,7 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     //     0x957514: b.ls            #0x957778
     // 0x957518: mov             x1, x0
     // 0x95751c: r0 = initState()
-    //     0x95751c: bl              #0x989844  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::initState
+    //     0x95751c: bl              #0x989844  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::initState
     // 0x957520: ldur            x0, [fp, #-8]
     // 0x957524: LoadField: r1 = r0->field_f
     //     0x957524: ldur            w1, [x0, #0xf]
@@ -198,7 +198,7 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     // 0x957710: ldur            x5, [fp, #-0x28]
     // 0x957714: stur            x0, [fp, #-0x10]
     // 0x957718: r0 = ActivityChangeGoalsViewModel()
-    //     0x957718: bl              #0x9577a8  ; [package:ballai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::ActivityChangeGoalsViewModel
+    //     0x957718: bl              #0x9577a8  ; [package:kourtai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::ActivityChangeGoalsViewModel
     // 0x95771c: ldur            x1, [fp, #-8]
     // 0x957720: LoadField: r0 = r1->field_13
     //     0x957720: ldur            w0, [x1, #0x13]
@@ -286,23 +286,23 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     // 0xa2d558: r4 = const [0, 0x1, 0, 0x1, null]
     //     0xa2d558: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0xa2d55c: r0 = DateTimeWeekRange.formattedWeekRange()
-    //     0xa2d55c: bl              #0xa2d990  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.formattedWeekRange
+    //     0xa2d55c: bl              #0xa2d990  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.formattedWeekRange
     // 0xa2d560: ldur            x2, [fp, #-0x18]
     // 0xa2d564: stur            x0, [fp, #-0x10]
     // 0xa2d568: LoadField: r1 = r2->field_13
     //     0xa2d568: ldur            w1, [x2, #0x13]
     // 0xa2d56c: DecompressPointer r1
     //     0xa2d56c: add             x1, x1, HEAP, lsl #32
-    // 0xa2d570: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xa2d570: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xa2d570: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xa2d570: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xa2d574: ldur            x2, [fp, #-0x18]
     // 0xa2d578: stur            x0, [fp, #-0x20]
     // 0xa2d57c: LoadField: r1 = r2->field_13
     //     0xa2d57c: ldur            w1, [x2, #0x13]
     // 0xa2d580: DecompressPointer r1
     //     0xa2d580: add             x1, x1, HEAP, lsl #32
-    // 0xa2d584: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xa2d584: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xa2d584: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xa2d584: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xa2d588: stur            x0, [fp, #-0x28]
     // 0xa2d58c: r0 = EdgeInsets()
     //     0xa2d58c: bl              #0x60095c  ; AllocateEdgeInsetsStub -> EdgeInsets (size=0x28)
@@ -355,7 +355,7 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     //     0xa2d604: stur            w0, [x3, #0xb]
     // 0xa2d608: ldur            x2, [fp, #-0x18]
     // 0xa2d60c: r1 = Function '<anonymous closure>':.
-    //     0xa2d60c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c1e0] AnonymousClosure: (0x9d7480), in [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
+    //     0xa2d60c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c1e0] AnonymousClosure: (0x9d7480), in [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
     //     0xa2d610: ldr             x1, [x1, #0x1e0]
     // 0xa2d614: r0 = AllocateClosure()
     //     0xa2d614: bl              #0xe553e0  ; AllocateClosureStub
@@ -451,8 +451,8 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     //     0xa2d6ec: ldur            w1, [x0, #0x13]
     // 0xa2d6f0: DecompressPointer r1
     //     0xa2d6f0: add             x1, x1, HEAP, lsl #32
-    // 0xa2d6f4: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa2d6f4: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa2d6f4: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa2d6f4: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa2d6f8: stur            x0, [fp, #-0x30]
     // 0xa2d6fc: r0 = TextStyle()
     //     0xa2d6fc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -558,7 +558,7 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     // 0xa2d800: ldur            x2, [fp, #-0x18]
     // 0xa2d804: stur            x4, [fp, #-0x10]
     // 0xa2d808: r1 = Function '<anonymous closure>':.
-    //     0xa2d808: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c1e8] AnonymousClosure: (0xa2e090), in [package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/destinations/activity_change_goals_view.dart] _ActivityChangeGoalsViewState::build (0xa2d4e8)
+    //     0xa2d808: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c1e8] AnonymousClosure: (0xa2e090), in [package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/destinations/activity_change_goals_view.dart] _ActivityChangeGoalsViewState::build (0xa2d4e8)
     //     0xa2d80c: ldr             x1, [x1, #0x1e8]
     // 0xa2d810: r0 = AllocateClosure()
     //     0xa2d810: bl              #0xe553e0  ; AllocateClosureStub
@@ -817,11 +817,11 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     //     0xa2e178: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c1f8] "Your weekly %@ goal"
     //     0xa2e17c: ldr             x1, [x1, #0x1f8]
     // 0xa2e180: r0 = LF()
-    //     0xa2e180: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xa2e180: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xa2e184: ldr             x1, [fp, #0x18]
     // 0xa2e188: stur            x0, [fp, #-0x28]
-    // 0xa2e18c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa2e18c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa2e18c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa2e18c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa2e190: stur            x0, [fp, #-0x30]
     // 0xa2e194: r0 = TextStyle()
     //     0xa2e194: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -882,8 +882,8 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     //     0xa2e22c: add             x4, x4, HEAP, lsl #32
     // 0xa2e230: ldr             x1, [fp, #0x18]
     // 0xa2e234: stur            x4, [fp, #-0x28]
-    // 0xa2e238: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa2e238: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa2e238: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa2e238: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa2e23c: stur            x0, [fp, #-0x30]
     // 0xa2e240: r0 = TextStyle()
     //     0xa2e240: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -957,7 +957,7 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     // 0xa2e2f8: b.eq            #0xa2ea54
     // 0xa2e2fc: mov             x1, x4
     // 0xa2e300: r0 = getFormattedMetric()
-    //     0xa2e300: bl              #0xa2eda0  ; [package:ballai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::getFormattedMetric
+    //     0xa2e300: bl              #0xa2eda0  ; [package:kourtai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::getFormattedMetric
     // 0xa2e304: mov             x2, x0
     // 0xa2e308: r0 = BoxInt64Instr(r2)
     //     0xa2e308: sbfiz           x0, x2, #1, #0x1f
@@ -970,8 +970,8 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     //     0xa2e320: bl              #0x607410  ; [dart:core] _StringBase::_interpolateSingle
     // 0xa2e324: ldr             x1, [fp, #0x18]
     // 0xa2e328: stur            x0, [fp, #-0x28]
-    // 0xa2e32c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa2e32c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa2e32c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa2e32c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa2e330: stur            x0, [fp, #-0x30]
     // 0xa2e334: r0 = TextStyle()
     //     0xa2e334: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1051,8 +1051,8 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     //     0xa2e3fc: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0xa2e400: ldr             x1, [fp, #0x18]
     // 0xa2e404: stur            x0, [fp, #-0x28]
-    // 0xa2e408: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa2e408: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa2e408: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa2e408: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa2e40c: stur            x0, [fp, #-0x30]
     // 0xa2e410: r0 = TextStyle()
     //     0xa2e410: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1117,7 +1117,7 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     // 0xa2e4b4: b.eq            #0xa2ea60
     // 0xa2e4b8: mov             x1, x3
     // 0xa2e4bc: r0 = canDecrement()
-    //     0xa2e4bc: bl              #0xa2ece0  ; [package:ballai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::canDecrement
+    //     0xa2e4bc: bl              #0xa2ece0  ; [package:kourtai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::canDecrement
     // 0xa2e4c0: ldur            x2, [fp, #-0x10]
     // 0xa2e4c4: stur            x0, [fp, #-0x28]
     // 0xa2e4c8: LoadField: r1 = r2->field_f
@@ -1134,7 +1134,7 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     // 0xa2e4e0: b.eq            #0xa2ea6c
     // 0xa2e4e4: mov             x1, x3
     // 0xa2e4e8: r0 = canIncrement()
-    //     0xa2e4e8: bl              #0xa2eaa0  ; [package:ballai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::canIncrement
+    //     0xa2e4e8: bl              #0xa2eaa0  ; [package:kourtai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::canIncrement
     // 0xa2e4ec: stur            x0, [fp, #-0x30]
     // 0xa2e4f0: r0 = _PillStepper()
     //     0xa2e4f0: bl              #0xa2ea94  ; Allocate_PillStepperStub -> _PillStepper (size=0x1c)
@@ -1148,7 +1148,7 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     //     0xa2e508: stur            w0, [x3, #0xf]
     // 0xa2e50c: ldur            x2, [fp, #-0x10]
     // 0xa2e510: r1 = Function '<anonymous closure>':.
-    //     0xa2e510: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c208] AnonymousClosure: (0xa2f75c), in [package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/destinations/activity_change_goals_view.dart] _ActivityChangeGoalsViewState::build (0xa2d4e8)
+    //     0xa2e510: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c208] AnonymousClosure: (0xa2f75c), in [package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/destinations/activity_change_goals_view.dart] _ActivityChangeGoalsViewState::build (0xa2d4e8)
     //     0xa2e514: ldr             x1, [x1, #0x208]
     // 0xa2e518: r0 = AllocateClosure()
     //     0xa2e518: bl              #0xe553e0  ; AllocateClosureStub
@@ -1158,7 +1158,7 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     //     0xa2e524: stur            w1, [x0, #0x13]
     // 0xa2e528: ldur            x2, [fp, #-0x10]
     // 0xa2e52c: r1 = Function '<anonymous closure>':.
-    //     0xa2e52c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c210] AnonymousClosure: (0xa2f28c), in [package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/destinations/activity_change_goals_view.dart] _ActivityChangeGoalsViewState::build (0xa2d4e8)
+    //     0xa2e52c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c210] AnonymousClosure: (0xa2f28c), in [package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/destinations/activity_change_goals_view.dart] _ActivityChangeGoalsViewState::build (0xa2d4e8)
     //     0xa2e530: ldr             x1, [x1, #0x210]
     // 0xa2e534: r0 = AllocateClosure()
     //     0xa2e534: bl              #0xe553e0  ; AllocateClosureStub
@@ -1264,7 +1264,7 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     //     0xa2e640: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c220] "Change %@ goal"
     //     0xa2e644: ldr             x1, [x1, #0x220]
     // 0xa2e648: r0 = LF()
-    //     0xa2e648: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xa2e648: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xa2e64c: stur            x0, [fp, #-0x28]
     // 0xa2e650: r0 = TextStyle()
     //     0xa2e650: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1305,7 +1305,7 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     //     0xa2e6ac: stur            w0, [x3, #0x3b]
     // 0xa2e6b0: ldur            x2, [fp, #-0x10]
     // 0xa2e6b4: r1 = Function '<anonymous closure>':.
-    //     0xa2e6b4: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c228] AnonymousClosure: (0xa2ee5c), in [package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/destinations/activity_change_goals_view.dart] _ActivityChangeGoalsViewState::build (0xa2d4e8)
+    //     0xa2e6b4: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c228] AnonymousClosure: (0xa2ee5c), in [package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/destinations/activity_change_goals_view.dart] _ActivityChangeGoalsViewState::build (0xa2d4e8)
     //     0xa2e6b8: ldr             x1, [x1, #0x228]
     // 0xa2e6bc: r0 = AllocateClosure()
     //     0xa2e6bc: bl              #0xe553e0  ; AllocateClosureStub
@@ -1486,7 +1486,7 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     //     0xa2e8bc: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c230] "NOTES: This will also change your %@ goal in future weeks. Goals may not update until restarting your watch app."
     //     0xa2e8c0: ldr             x1, [x1, #0x230]
     // 0xa2e8c4: r0 = LF()
-    //     0xa2e8c4: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xa2e8c4: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xa2e8c8: stur            x0, [fp, #-8]
     // 0xa2e8cc: r0 = TextStyle()
     //     0xa2e8cc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1696,7 +1696,7 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     // 0xa2ee90: DecompressPointer r1
     //     0xa2ee90: add             x1, x1, HEAP, lsl #32
     // 0xa2ee94: r0 = _saveAndAdvance()
-    //     0xa2ee94: bl              #0xa2eeb0  ; [package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/destinations/activity_change_goals_view.dart] _ActivityChangeGoalsViewState::_saveAndAdvance
+    //     0xa2ee94: bl              #0xa2eeb0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/destinations/activity_change_goals_view.dart] _ActivityChangeGoalsViewState::_saveAndAdvance
     // 0xa2ee98: r0 = Null
     //     0xa2ee98: mov             x0, NULL
     // 0xa2ee9c: LeaveFrame
@@ -1795,7 +1795,7 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     // 0xa2ef8c: mov             x3, x16
     // 0xa2ef90: mov             x5, x4
     // 0xa2ef94: r0 = applyCurrentWeekTotals()
-    //     0xa2ef94: bl              #0xa0ac98  ; [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::applyCurrentWeekTotals
+    //     0xa2ef94: bl              #0xa0ac98  ; [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::applyCurrentWeekTotals
     // 0xa2ef98: ldur            x0, [fp, #-8]
     // 0xa2ef9c: LoadField: r3 = r0->field_13
     //     0xa2ef9c: ldur            w3, [x0, #0x13]
@@ -1804,14 +1804,14 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     // 0xa2efa4: ldur            x2, [fp, #-0x10]
     // 0xa2efa8: stur            x3, [fp, #-0x18]
     // 0xa2efac: r1 = Function '<anonymous closure>':.
-    //     0xa2efac: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c238] AnonymousClosure: (0xa2f220), in [package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/destinations/activity_change_goals_view.dart] _ActivityChangeGoalsViewState::_saveAndAdvance (0xa2eeb0)
+    //     0xa2efac: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c238] AnonymousClosure: (0xa2f220), in [package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/destinations/activity_change_goals_view.dart] _ActivityChangeGoalsViewState::_saveAndAdvance (0xa2eeb0)
     //     0xa2efb0: ldr             x1, [x1, #0x238]
     // 0xa2efb4: r0 = AllocateClosure()
     //     0xa2efb4: bl              #0xe553e0  ; AllocateClosureStub
     // 0xa2efb8: ldur            x1, [fp, #-0x18]
     // 0xa2efbc: mov             x2, x0
     // 0xa2efc0: r0 = selectNextMetric()
-    //     0xa2efc0: bl              #0xa2f010  ; [package:ballai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::selectNextMetric
+    //     0xa2efc0: bl              #0xa2f010  ; [package:kourtai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::selectNextMetric
     // 0xa2efc4: r0 = Null
     //     0xa2efc4: mov             x0, NULL
     // 0xa2efc8: LeaveFrame
@@ -1927,7 +1927,7 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     // 0xa2f2dc: r2 = 1
     //     0xa2f2dc: mov             x2, #1
     // 0xa2f2e0: r0 = adjustByStep()
-    //     0xa2f2e0: bl              #0xa2f308  ; [package:ballai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::adjustByStep
+    //     0xa2f2e0: bl              #0xa2f308  ; [package:kourtai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::adjustByStep
     // 0xa2f2e4: r0 = Null
     //     0xa2f2e4: mov             x0, NULL
     // 0xa2f2e8: LeaveFrame
@@ -1979,7 +1979,7 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     // 0xa2f7ac: r2 = -1
     //     0xa2f7ac: mov             x2, #-1
     // 0xa2f7b0: r0 = adjustByStep()
-    //     0xa2f7b0: bl              #0xa2f308  ; [package:ballai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::adjustByStep
+    //     0xa2f7b0: bl              #0xa2f308  ; [package:kourtai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::adjustByStep
     // 0xa2f7b4: r0 = Null
     //     0xa2f7b4: mov             x0, NULL
     // 0xa2f7b8: LeaveFrame
@@ -2003,7 +2003,7 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     //     0xb5af18: mov             fp, SP
     // 0xb5af1c: ldr             x2, [fp, #0x10]
     // 0xb5af20: r1 = Function 'dispose':.
-    //     0xb5af20: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c1d0] AnonymousClosure: (0xb5af38), in [package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/destinations/activity_change_goals_view.dart] _ActivityChangeGoalsViewState::dispose (0xb61d5c)
+    //     0xb5af20: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c1d0] AnonymousClosure: (0xb5af38), in [package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/destinations/activity_change_goals_view.dart] _ActivityChangeGoalsViewState::dispose (0xb61d5c)
     //     0xb5af24: ldr             x1, [x1, #0x1d0]
     // 0xb5af28: r0 = AllocateClosure()
     //     0xb5af28: bl              #0xe553e0  ; AllocateClosureStub
@@ -2028,7 +2028,7 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     //     0xb5af50: cmp             SP, x16
     //     0xb5af54: b.ls            #0xb5af68
     // 0xb5af58: r0 = dispose()
-    //     0xb5af58: bl              #0xb61d5c  ; [package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/destinations/activity_change_goals_view.dart] _ActivityChangeGoalsViewState::dispose
+    //     0xb5af58: bl              #0xb61d5c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/destinations/activity_change_goals_view.dart] _ActivityChangeGoalsViewState::dispose
     // 0xb5af5c: LeaveFrame
     //     0xb5af5c: mov             SP, fp
     //     0xb5af60: ldp             fp, lr, [SP], #0x10
@@ -2064,7 +2064,7 @@ class _ActivityChangeGoalsViewState extends __ActivityChangeGoalsViewState&State
     //     0xb61d90: bl              #0xb7893c  ; [package:flutter/src/widgets/shortcuts.dart] _ShortcutManager&Object&Diagnosticable&ChangeNotifier::dispose
     // 0xb61d94: ldur            x1, [fp, #-8]
     // 0xb61d98: r0 = dispose()
-    //     0xb61d98: bl              #0xb63788  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
+    //     0xb61d98: bl              #0xb63788  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
     // 0xb61d9c: r0 = Null
     //     0xb61d9c: mov             x0, NULL
     // 0xb61da0: LeaveFrame
@@ -2176,13 +2176,13 @@ class _RoundIcon extends StatelessWidget {
     // 0xbdc778: stur            x3, [fp, #-0x28]
     // 0xbdc77c: tbnz            w0, #4, #0xbdc790
     // 0xbdc780: ldur            x1, [fp, #-0x20]
-    // 0xbdc784: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbdc784: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbdc784: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbdc784: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbdc788: mov             x3, x0
     // 0xbdc78c: b               #0xbdc7b4
     // 0xbdc790: ldur            x1, [fp, #-0x20]
-    // 0xbdc794: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbdc794: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbdc794: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbdc794: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbdc798: r16 = 0.500000
     //     0xbdc798: ldr             x16, [PP, #0x47b0]  ; [pp+0x47b0] 0.5
     // 0xbdc79c: str             x16, [SP]
@@ -2323,8 +2323,8 @@ class _PillStepper extends StatelessWidget {
     //     0xbdc4b4: cmp             SP, x16
     //     0xbdc4b8: b.ls            #0xbdc6d0
     // 0xbdc4bc: mov             x1, x0
-    // 0xbdc4c0: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xbdc4c0: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xbdc4c0: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xbdc4c0: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xbdc4c4: stur            x0, [fp, #-0x18]
     // 0xbdc4c8: r0 = Radius()
     //     0xbdc4c8: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)

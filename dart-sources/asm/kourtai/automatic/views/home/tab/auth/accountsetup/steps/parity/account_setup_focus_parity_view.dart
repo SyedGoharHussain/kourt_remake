@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_focus_parity_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_focus_parity_view.dart
 
 // class id: 1048840, size: 0x8
 class :: {
@@ -47,7 +47,7 @@ class _AccountSetupSpecializeFocusPageState extends State<dynamic> {
     //     0x9ee010: add             x3, x3, HEAP, lsl #32
     // 0x9ee014: mov             x1, x3
     // 0x9ee018: r0 = attributes()
-    //     0x9ee018: bl              #0x8fff1c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::attributes
+    //     0x9ee018: bl              #0x8fff1c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::attributes
     // 0x9ee01c: mov             x2, x0
     // 0x9ee020: ldur            x0, [fp, #-8]
     // 0x9ee024: stur            x2, [fp, #-0x20]
@@ -96,11 +96,11 @@ class _AccountSetupSpecializeFocusPageState extends State<dynamic> {
     //     0x9ee0a4: ldur            w1, [x3, #0x13]
     // 0x9ee0a8: DecompressPointer r1
     //     0x9ee0a8: add             x1, x1, HEAP, lsl #32
-    // 0x9ee0ac: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0x9ee0ac: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0x9ee0ac: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0x9ee0ac: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0x9ee0b0: ldur            x2, [fp, #-0x18]
     // 0x9ee0b4: r1 = Function '<anonymous closure>':.
-    //     0x9ee0b4: add             x1, PP, #0x38, lsl #12  ; [pp+0x38290] AnonymousClosure: (0x9eff8c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_focus_parity_view.dart] _AccountSetupSpecializeFocusPageState::build (0x9edfbc)
+    //     0x9ee0b4: add             x1, PP, #0x38, lsl #12  ; [pp+0x38290] AnonymousClosure: (0x9eff8c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_focus_parity_view.dart] _AccountSetupSpecializeFocusPageState::build (0x9edfbc)
     //     0x9ee0b8: ldr             x1, [x1, #0x290]
     // 0x9ee0bc: stur            x0, [fp, #-0x28]
     // 0x9ee0c0: r0 = AllocateClosure()
@@ -154,7 +154,7 @@ class _AccountSetupSpecializeFocusPageState extends State<dynamic> {
     //     0x9ee138: add             x1, PP, #0x38, lsl #12  ; [pp+0x382a0] "Specialize your focus"
     //     0x9ee13c: ldr             x1, [x1, #0x2a0]
     // 0x9ee140: r0 = L()
-    //     0x9ee140: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ee140: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ee144: r1 = LoadClassIdInstr(r0)
     //     0x9ee144: ldur            x1, [x0, #-1]
     //     0x9ee148: ubfx            x1, x1, #0xc, #0x14
@@ -171,8 +171,8 @@ class _AccountSetupSpecializeFocusPageState extends State<dynamic> {
     //     0x9ee16c: ldur            w1, [x0, #0x13]
     // 0x9ee170: DecompressPointer r1
     //     0x9ee170: add             x1, x1, HEAP, lsl #32
-    // 0x9ee174: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9ee174: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9ee174: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9ee174: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9ee178: stur            x0, [fp, #-0x40]
     // 0x9ee17c: r0 = TextStyle()
     //     0x9ee17c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -244,7 +244,7 @@ class _AccountSetupSpecializeFocusPageState extends State<dynamic> {
     //     0x9ee230: add             x4, x4, HEAP, lsl #32
     // 0x9ee234: mov             x1, x4
     // 0x9ee238: r0 = displayTitle()
-    //     0x9ee238: bl              #0x9efc10  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::displayTitle
+    //     0x9ee238: bl              #0x9efc10  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::displayTitle
     // 0x9ee23c: r1 = LoadClassIdInstr(r0)
     //     0x9ee23c: ldur            x1, [x0, #-1]
     //     0x9ee240: ubfx            x1, x1, #0xc, #0x14
@@ -261,8 +261,8 @@ class _AccountSetupSpecializeFocusPageState extends State<dynamic> {
     //     0x9ee264: ldur            w1, [x0, #0x13]
     // 0x9ee268: DecompressPointer r1
     //     0x9ee268: add             x1, x1, HEAP, lsl #32
-    // 0x9ee26c: r0 = BallAiThemeContext.ballAiScreenTitleStyle()
-    //     0x9ee26c: bl              #0x9efba4  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiScreenTitleStyle
+    // 0x9ee26c: r0 = KourtAiThemeContext.kourtAiScreenTitleStyle()
+    //     0x9ee26c: bl              #0x9efba4  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiScreenTitleStyle
     // 0x9ee270: r16 = 28.000000
     //     0x9ee270: add             x16, PP, #0x24, lsl #12  ; [pp+0x24f68] 28
     //     0x9ee274: ldr             x16, [x16, #0xf68]
@@ -408,7 +408,7 @@ class _AccountSetupSpecializeFocusPageState extends State<dynamic> {
     //     0x9ee3ec: add             x1, PP, #0x38, lsl #12  ; [pp+0x382b8] "%d of 2 selected"
     //     0x9ee3f0: ldr             x1, [x1, #0x2b8]
     // 0x9ee3f4: r0 = LF()
-    //     0x9ee3f4: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x9ee3f4: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x9ee3f8: stur            x0, [fp, #-0x30]
     // 0x9ee3fc: r0 = TextStyle()
     //     0x9ee3fc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -528,7 +528,7 @@ class _AccountSetupSpecializeFocusPageState extends State<dynamic> {
     //     0x9ee544: stur            w2, [x0, #0xf]
     // 0x9ee548: mov             x1, x2
     // 0x9ee54c: r0 = displayTitle()
-    //     0x9ee54c: bl              #0x9ef9ac  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::displayTitle
+    //     0x9ee54c: bl              #0x9ef9ac  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::displayTitle
     // 0x9ee550: mov             x3, x0
     // 0x9ee554: ldur            x0, [fp, #-0x18]
     // 0x9ee558: stur            x3, [fp, #-0x68]
@@ -667,7 +667,7 @@ class _AccountSetupSpecializeFocusPageState extends State<dynamic> {
     //     0x9ee6f4: stur            w1, [x3, #0x17]
     // 0x9ee6f8: ldur            x2, [fp, #-0x48]
     // 0x9ee6fc: r1 = Function '<anonymous closure>':.
-    //     0x9ee6fc: add             x1, PP, #0x38, lsl #12  ; [pp+0x38310] AnonymousClosure: (0x9efd70), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_focus_parity_view.dart] _AccountSetupSpecializeFocusPageState::build (0x9edfbc)
+    //     0x9ee6fc: add             x1, PP, #0x38, lsl #12  ; [pp+0x38310] AnonymousClosure: (0x9efd70), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_focus_parity_view.dart] _AccountSetupSpecializeFocusPageState::build (0x9edfbc)
     //     0x9ee700: ldr             x1, [x1, #0x310]
     // 0x9ee704: r0 = AllocateClosure()
     //     0x9ee704: bl              #0xe553e0  ; AllocateClosureStub
@@ -790,7 +790,7 @@ class _AccountSetupSpecializeFocusPageState extends State<dynamic> {
     // 0x9ee854: b.ne            #0x9ee870
     // 0x9ee858: ldur            x2, [fp, #-0x30]
     // 0x9ee85c: r1 = Function '<anonymous closure>':.
-    //     0x9ee85c: add             x1, PP, #0x38, lsl #12  ; [pp+0x38320] AnonymousClosure: (0x9efcc8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_focus_parity_view.dart] _AccountSetupSpecializeFocusPageState::build (0x9edfbc)
+    //     0x9ee85c: add             x1, PP, #0x38, lsl #12  ; [pp+0x38320] AnonymousClosure: (0x9efcc8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_focus_parity_view.dart] _AccountSetupSpecializeFocusPageState::build (0x9edfbc)
     //     0x9ee860: ldr             x1, [x1, #0x320]
     // 0x9ee864: r0 = AllocateClosure()
     //     0x9ee864: bl              #0xe553e0  ; AllocateClosureStub
@@ -877,14 +877,14 @@ class _AccountSetupSpecializeFocusPageState extends State<dynamic> {
     //     0x9ee93c: add             x1, PP, #0x38, lsl #12  ; [pp+0x38330] "Confirm 2"
     //     0x9ee940: ldr             x1, [x1, #0x330]
     // 0x9ee944: r0 = L()
-    //     0x9ee944: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ee944: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ee948: mov             x4, x0
     // 0x9ee94c: b               #0x9ee960
     // 0x9ee950: r1 = "Pick at least 2"
     //     0x9ee950: add             x1, PP, #0x38, lsl #12  ; [pp+0x38338] "Pick at least 2"
     //     0x9ee954: ldr             x1, [x1, #0x338]
     // 0x9ee958: r0 = L()
-    //     0x9ee958: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ee958: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ee95c: mov             x4, x0
     // 0x9ee960: ldur            x3, [fp, #-0x28]
     // 0x9ee964: ldur            x2, [fp, #-0x38]
@@ -1174,7 +1174,7 @@ class _AccountSetupSpecializeFocusPageState extends State<dynamic> {
     //     0x9efdac: add             x3, x3, HEAP, lsl #32
     // 0x9efdb0: stur            x3, [fp, #-0x10]
     // 0x9efdb4: r1 = Function '<anonymous closure>':.
-    //     0x9efdb4: add             x1, PP, #0x38, lsl #12  ; [pp+0x38348] AnonymousClosure: (0x9efde4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_focus_parity_view.dart] _AccountSetupSpecializeFocusPageState::build (0x9edfbc)
+    //     0x9efdb4: add             x1, PP, #0x38, lsl #12  ; [pp+0x38348] AnonymousClosure: (0x9efde4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_focus_parity_view.dart] _AccountSetupSpecializeFocusPageState::build (0x9edfbc)
     //     0x9efdb8: ldr             x1, [x1, #0x348]
     // 0x9efdbc: r0 = AllocateClosure()
     //     0x9efdbc: bl              #0xe553e0  ; AllocateClosureStub
@@ -1561,8 +1561,8 @@ class _AttrCell extends StatelessWidget {
     // 0xbca8fc: b               #0xbca934
     // 0xbca900: ldur            x4, [fp, #-0x10]
     // 0xbca904: ldur            x1, [fp, #-0x18]
-    // 0xbca908: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbca908: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbca908: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbca908: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbca90c: r16 = 0.060000
     //     0xbca90c: add             x16, PP, #0x2b, lsl #12  ; [pp+0x2bfc0] 0.06
     //     0xbca910: ldr             x16, [x16, #0xfc0]
@@ -1629,8 +1629,8 @@ class _AttrCell extends StatelessWidget {
     //     0xbca9b8: ldr             x3, [PP, #0x5178]  ; [pp+0x5178] Obj!Color@d2a0a1
     // 0xbca9bc: b               #0xbca9d8
     // 0xbca9c0: ldur            x1, [fp, #-0x18]
-    // 0xbca9c4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbca9c4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbca9c4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbca9c4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbca9c8: mov             x3, x0
     // 0xbca9cc: ldur            x0, [fp, #-0x10]
     // 0xbca9d0: ldur            x2, [fp, #-0x20]
@@ -1680,8 +1680,8 @@ class _AttrCell extends StatelessWidget {
     //     0xbcaa4c: add             x2, x2, HEAP, lsl #32
     // 0xbcaa50: ldur            x1, [fp, #-0x18]
     // 0xbcaa54: stur            x2, [fp, #-0x38]
-    // 0xbcaa58: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbcaa58: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbcaa58: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbcaa58: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbcaa5c: stur            x0, [fp, #-0x18]
     // 0xbcaa60: r0 = TextStyle()
     //     0xbcaa60: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1934,8 +1934,8 @@ class _AttrCell extends StatelessWidget {
     // 0xbcacd8: ldur            x0, [fp, #-0x10]
     // 0xbcacdc: StoreField: r1->field_b = r0
     //     0xbcacdc: stur            w0, [x1, #0xb]
-    // 0xbcace0: r0 = BallAiLiquidGlassCard()
-    //     0xbcace0: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xbcace0: r0 = KourtAiLiquidGlassCard()
+    //     0xbcace0: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xbcace4: mov             x1, x0
     // 0xbcace8: ldur            x0, [fp, #-0x18]
     // 0xbcacec: stur            x1, [fp, #-0x10]
@@ -2292,7 +2292,7 @@ class _FocusTile extends StatelessWidget {
     // 0xbc9d1c: StoreField: r0->field_f = d0
     //     0xbc9d1c: stur            d0, [x0, #0xf]
     // 0xbc9d20: r0 = displayTitle()
-    //     0xbc9d20: bl              #0x9efc10  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::displayTitle
+    //     0xbc9d20: bl              #0x9efc10  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::displayTitle
     // 0xbc9d24: mov             x2, x0
     // 0xbc9d28: ldur            x0, [fp, #-0x20]
     // 0xbc9d2c: stur            x2, [fp, #-0x30]
@@ -2309,8 +2309,8 @@ class _FocusTile extends StatelessWidget {
     // 0xbc9d50: b               #0xbc9d6c
     // 0xbc9d54: ldur            x3, [fp, #-0x10]
     // 0xbc9d58: ldur            x1, [fp, #-0x18]
-    // 0xbc9d5c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbc9d5c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbc9d5c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbc9d5c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbc9d60: mov             x3, x0
     // 0xbc9d64: ldur            x1, [fp, #-0x10]
     // 0xbc9d68: ldur            x0, [fp, #-0x30]
@@ -2462,7 +2462,7 @@ class _FocusTile extends StatelessWidget {
     //     0xbc9ee0: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e1b8] "Double Down"
     //     0xbc9ee4: ldr             x1, [x1, #0x1b8]
     // 0xbc9ee8: r0 = L()
-    //     0xbc9ee8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbc9ee8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbc9eec: stur            x0, [fp, #-0x40]
     // 0xbc9ef0: r0 = TextStyle()
     //     0xbc9ef0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2599,8 +2599,8 @@ class _FocusTile extends StatelessWidget {
     // 0xbca054: b               #0xbca08c
     // 0xbca058: ldur            x2, [fp, #-0x10]
     // 0xbca05c: ldur            x1, [fp, #-0x18]
-    // 0xbca060: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbca060: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbca060: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbca060: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbca064: r16 = 0.850000
     //     0xbca064: add             x16, PP, #0x1f, lsl #12  ; [pp+0x1f4c8] 0.85
     //     0xbca068: ldr             x16, [x16, #0x4c8]
@@ -2936,7 +2936,7 @@ class _FocusTile extends StatelessWidget {
     //     0xbca3ec: stur            w0, [x2, #0x23]
     // 0xbca3f0: ldur            x1, [fp, #-0x40]
     // 0xbca3f4: r0 = fromRaw()
-    //     0xbca3f4: bl              #0x755fc0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::fromRaw
+    //     0xbca3f4: bl              #0x755fc0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::fromRaw
     // 0xbca3f8: cmp             w0, NULL
     // 0xbca3fc: b.ne            #0xbca408
     // 0xbca400: r0 = Null
@@ -2944,7 +2944,7 @@ class _FocusTile extends StatelessWidget {
     // 0xbca404: b               #0xbca410
     // 0xbca408: mov             x1, x0
     // 0xbca40c: r0 = displayTitle()
-    //     0xbca40c: bl              #0x9ef9ac  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::displayTitle
+    //     0xbca40c: bl              #0x9ef9ac  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::displayTitle
     // 0xbca410: cmp             w0, NULL
     // 0xbca414: b.ne            #0xbca420
     // 0xbca418: ldur            x3, [fp, #-0x40]
@@ -3185,8 +3185,8 @@ class _FocusTile extends StatelessWidget {
     //     0xbca694: ldr             x4, [x4, #0x1e0]
     // 0xbca698: r0 = Container()
     //     0xbca698: bl              #0x5eeec4  ; [package:flutter/src/widgets/container.dart] Container::Container
-    // 0xbca69c: r0 = BallAiLiquidGlassCard()
-    //     0xbca69c: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xbca69c: r0 = KourtAiLiquidGlassCard()
+    //     0xbca69c: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xbca6a0: mov             x1, x0
     // 0xbca6a4: ldur            x0, [fp, #-0x18]
     // 0xbca6a8: stur            x1, [fp, #-0x10]
@@ -3485,7 +3485,7 @@ class AccountSetupFocusParityView extends StatelessWidget {
     // 0xbc8d9c: ldur            x1, [fp, #-8]
     // 0xbc8da0: ldur            x2, [fp, #-0x28]
     // 0xbc8da4: r0 = _chipsFor()
-    //     0xbc8da4: bl              #0xbc902c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_focus_parity_view.dart] AccountSetupFocusParityView::_chipsFor
+    //     0xbc8da4: bl              #0xbc902c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_focus_parity_view.dart] AccountSetupFocusParityView::_chipsFor
     // 0xbc8da8: mov             x3, x0
     // 0xbc8dac: ldur            x2, [fp, #-0x20]
     // 0xbc8db0: stur            x3, [fp, #-0x58]
@@ -3553,7 +3553,7 @@ class AccountSetupFocusParityView extends StatelessWidget {
     //     0xbc8e60: stur            w0, [x3, #0x17]
     // 0xbc8e64: ldur            x2, [fp, #-0x40]
     // 0xbc8e68: r1 = Function '<anonymous closure>':.
-    //     0xbc8e68: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a930] AnonymousClosure: (0xbc91e4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_focus_parity_view.dart] AccountSetupFocusParityView::build (0xbc8bc4)
+    //     0xbc8e68: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a930] AnonymousClosure: (0xbc91e4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_focus_parity_view.dart] AccountSetupFocusParityView::build (0xbc8bc4)
     //     0xbc8e6c: ldr             x1, [x1, #0x930]
     // 0xbc8e70: r0 = AllocateClosure()
     //     0xbc8e70: bl              #0xe553e0  ; AllocateClosureStub
@@ -3792,7 +3792,7 @@ class AccountSetupFocusParityView extends StatelessWidget {
     // 0xbc90d0: DecompressPointer r3
     //     0xbc90d0: add             x3, x3, HEAP, lsl #32
     // 0xbc90d4: r0 = chipsForSecondaryTile()
-    //     0xbc90d4: bl              #0xbc90ec  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::chipsForSecondaryTile
+    //     0xbc90d4: bl              #0xbc90ec  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::chipsForSecondaryTile
     // 0xbc90d8: LeaveFrame
     //     0xbc90d8: mov             SP, fp
     //     0xbc90dc: ldp             fp, lr, [SP], #0x10
@@ -3853,7 +3853,7 @@ class AccountSetupFocusParityView extends StatelessWidget {
     // 0xbc9258: mov             x2, x4
     // 0xbc925c: mov             x3, x0
     // 0xbc9260: r0 = _onTap()
-    //     0xbc9260: bl              #0xbc9280  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_focus_parity_view.dart] AccountSetupFocusParityView::_onTap
+    //     0xbc9260: bl              #0xbc9280  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_focus_parity_view.dart] AccountSetupFocusParityView::_onTap
     // 0xbc9264: r0 = Null
     //     0xbc9264: mov             x0, NULL
     // 0xbc9268: LeaveFrame
@@ -3957,7 +3957,7 @@ class AccountSetupFocusParityView extends StatelessWidget {
     // 0xbc936c: DecompressPointer r1
     //     0xbc936c: add             x1, x1, HEAP, lsl #32
     // 0xbc9370: r0 = remainingAttributeForDoubleDown()
-    //     0xbc9370: bl              #0x8ffe28  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::remainingAttributeForDoubleDown
+    //     0xbc9370: bl              #0x8ffe28  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::remainingAttributeForDoubleDown
     // 0xbc9374: stur            x0, [fp, #-0x38]
     // 0xbc9378: cmp             w0, NULL
     // 0xbc937c: b.eq            #0xbc9414
@@ -3968,7 +3968,7 @@ class AccountSetupFocusParityView extends StatelessWidget {
     //     0xbc9388: add             x2, x2, HEAP, lsl #32
     // 0xbc938c: mov             x1, x3
     // 0xbc9390: r0 = setSecondaryFocus()
-    //     0xbc9390: bl              #0xbc9860  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setSecondaryFocus
+    //     0xbc9390: bl              #0xbc9860  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setSecondaryFocus
     // 0xbc9394: r1 = Null
     //     0xbc9394: mov             x1, NULL
     // 0xbc9398: r2 = 2
@@ -3995,7 +3995,7 @@ class AccountSetupFocusParityView extends StatelessWidget {
     // 0xbc93cc: mov             x2, x1
     // 0xbc93d0: ldur            x1, [fp, #-0x20]
     // 0xbc93d4: r0 = setSecondaryFocusAttributes()
-    //     0xbc93d4: bl              #0xbc97ec  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setSecondaryFocusAttributes
+    //     0xbc93d4: bl              #0xbc97ec  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setSecondaryFocusAttributes
     // 0xbc93d8: r1 = <void?>
     //     0xbc93d8: ldr             x1, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     // 0xbc93dc: r2 = Instance_Duration
@@ -4011,7 +4011,7 @@ class AccountSetupFocusParityView extends StatelessWidget {
     //     0xbc93f4: bl              #0x60ad4c  ; AwaitStub
     // 0xbc93f8: ldur            x1, [fp, #-0x20]
     // 0xbc93fc: r0 = goNext()
-    //     0xbc93fc: bl              #0x9e6680  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::goNext
+    //     0xbc93fc: bl              #0x9e6680  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::goNext
     // 0xbc9400: mov             x1, x0
     // 0xbc9404: stur            x1, [fp, #-0x38]
     // 0xbc9408: r0 = Await()
@@ -4027,7 +4027,7 @@ class AccountSetupFocusParityView extends StatelessWidget {
     //     0xbc941c: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xbc9420: ldur            x2, [fp, #-0x28]
     // 0xbc9424: r1 = Function '<anonymous closure>':.
-    //     0xbc9424: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a938] AnonymousClosure: (0xbc98f4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_focus_parity_view.dart] AccountSetupFocusParityView::_onTap (0xbc9280)
+    //     0xbc9424: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a938] AnonymousClosure: (0xbc98f4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_focus_parity_view.dart] AccountSetupFocusParityView::_onTap (0xbc9280)
     //     0xbc9428: ldr             x1, [x1, #0x938]
     // 0xbc942c: stur            x0, [fp, #-0x38]
     // 0xbc9430: r0 = AllocateClosure()
@@ -4092,7 +4092,7 @@ class AccountSetupFocusParityView extends StatelessWidget {
     // 0xbc94d4: ldur            x1, [fp, #-0x20]
     // 0xbc94d8: mov             x2, x0
     // 0xbc94dc: r0 = applyMainSelection()
-    //     0xbc94dc: bl              #0xbc9570  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::applyMainSelection
+    //     0xbc94dc: bl              #0xbc9570  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::applyMainSelection
     // 0xbc94e0: b               #0xbc950c
     // 0xbc94e4: ldur            x3, [fp, #-0x28]
     // 0xbc94e8: LoadField: r1 = r3->field_13
@@ -4105,11 +4105,11 @@ class AccountSetupFocusParityView extends StatelessWidget {
     //     0xbc94f4: add             x2, x2, HEAP, lsl #32
     // 0xbc94f8: ldur            x1, [fp, #-0x20]
     // 0xbc94fc: r0 = setSecondaryFocus()
-    //     0xbc94fc: bl              #0xbc9860  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setSecondaryFocus
+    //     0xbc94fc: bl              #0xbc9860  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setSecondaryFocus
     // 0xbc9500: ldur            x1, [fp, #-0x20]
     // 0xbc9504: ldur            x2, [fp, #-0x10]
     // 0xbc9508: r0 = setSecondaryFocusAttributes()
-    //     0xbc9508: bl              #0xbc97ec  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setSecondaryFocusAttributes
+    //     0xbc9508: bl              #0xbc97ec  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setSecondaryFocusAttributes
     // 0xbc950c: ldur            x0, [fp, #-0x18]
     // 0xbc9510: r1 = <void?>
     //     0xbc9510: ldr             x1, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
@@ -4137,7 +4137,7 @@ class AccountSetupFocusParityView extends StatelessWidget {
     //     0xbc9548: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xbc954c: ldur            x1, [fp, #-0x20]
     // 0xbc9550: r0 = goNext()
-    //     0xbc9550: bl              #0x9e6680  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::goNext
+    //     0xbc9550: bl              #0x9e6680  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::goNext
     // 0xbc9554: mov             x1, x0
     // 0xbc9558: stur            x1, [fp, #-0x10]
     // 0xbc955c: r0 = Await()

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/managers/core/user_discovery_manager.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/managers/core/user_discovery_manager.dart
 
 // class id: 1048652, size: 0x8
 class :: {
@@ -16,7 +16,7 @@ class :: {
     //     0x970e60: add             x2, PP, #0x4d, lsl #12  ; [pp+0x4dd68] "Couldn\'t load teams. Please try again."
     //     0x970e64: ldr             x2, [x2, #0xd68]
     // 0x970e68: r0 = userFacingError()
-    //     0x970e68: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0x970e68: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0x970e6c: LeaveFrame
     //     0x970e6c: mov             SP, fp
     //     0x970e70: ldp             fp, lr, [SP], #0x10
@@ -162,7 +162,7 @@ class UserDiscoveryManager extends Object {
     //     0x971008: add             x2, PP, #0x43, lsl #12  ; [pp+0x43e80] "getFindTeamsSuggestions"
     //     0x97100c: ldr             x2, [x2, #0xe80]
     // 0x971010: r0 = callFunction()
-    //     0x971010: bl              #0x5f1c10  ; [package:ballai/automatic/lib/firebase/functions/root/firebase_functions.dart] BallAiFirebaseFunctions::callFunction
+    //     0x971010: bl              #0x5f1c10  ; [package:kourtai/automatic/lib/firebase/functions/root/firebase_functions.dart] KourtAiFirebaseFunctions::callFunction
     // 0x971014: mov             x1, x0
     // 0x971018: stur            x1, [fp, #-0x10]
     // 0x97101c: r0 = Await()
@@ -305,7 +305,7 @@ class UserDiscoveryManager extends Object {
     //     0x971198: ldr             lr, [x21, lr, lsl #3]
     //     0x97119c: blr             lr
     // 0x9711a0: r1 = Function '<anonymous closure>':.
-    //     0x9711a0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43eb0] AnonymousClosure: (0x97138c), in [package:ballai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::fetchSuggestedTeams (0x970e80)
+    //     0x9711a0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43eb0] AnonymousClosure: (0x97138c), in [package:kourtai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::fetchSuggestedTeams (0x970e80)
     //     0x9711a4: ldr             x1, [x1, #0xeb0]
     // 0x9711a8: r2 = Null
     //     0x9711a8: mov             x2, NULL
@@ -497,7 +497,7 @@ class UserDiscoveryManager extends Object {
     //     0x9713c4: bl              #0x5f1854  ; [dart:collection] LinkedHashMap::LinkedHashMap.from
     // 0x9713c8: mov             x1, x0
     // 0x9713cc: r0 = _discoverSuggestedTeam()
-    //     0x9713cc: bl              #0x9713e4  ; [package:ballai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::_discoverSuggestedTeam
+    //     0x9713cc: bl              #0x9713e4  ; [package:kourtai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::_discoverSuggestedTeam
     // 0x9713d0: LeaveFrame
     //     0x9713d0: mov             SP, fp
     //     0x9713d4: ldp             fp, lr, [SP], #0x10
@@ -858,7 +858,7 @@ class UserDiscoveryManager extends Object {
     // 0x9717a8: r1 = Null
     //     0x9717a8: mov             x1, NULL
     // 0x9717ac: r0 = _intValue()
-    //     0x9717ac: bl              #0x971868  ; [package:ballai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::_intValue
+    //     0x9717ac: bl              #0x971868  ; [package:kourtai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::_intValue
     // 0x9717b0: ldur            x1, [fp, #-8]
     // 0x9717b4: r2 = "socialOverlapCount"
     //     0x9717b4: add             x2, PP, #0x43, lsl #12  ; [pp+0x43f88] "socialOverlapCount"
@@ -885,7 +885,7 @@ class UserDiscoveryManager extends Object {
     // 0x9717f8: ldur            x7, [fp, #-0x10]
     // 0x9717fc: ldur            x8, [fp, #-0x18]
     // 0x971800: r0 = _intValue()
-    //     0x971800: bl              #0x971868  ; [package:ballai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::_intValue
+    //     0x971800: bl              #0x971868  ; [package:kourtai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::_intValue
     // 0x971804: r0 = DiscoverSuggestedTeam()
     //     0x971804: bl              #0x97185c  ; AllocateDiscoverSuggestedTeamStub -> DiscoverSuggestedTeam (size=0x2c)
     // 0x971808: ldur            x1, [fp, #-0x10]
@@ -1062,7 +1062,7 @@ class UserDiscoveryManager extends Object {
     //     0x984d44: add             x2, PP, #0x55, lsl #12  ; [pp+0x55038] "getFindFriendsSuggestions"
     //     0x984d48: ldr             x2, [x2, #0x38]
     // 0x984d4c: r0 = callFunction()
-    //     0x984d4c: bl              #0x5f1c10  ; [package:ballai/automatic/lib/firebase/functions/root/firebase_functions.dart] BallAiFirebaseFunctions::callFunction
+    //     0x984d4c: bl              #0x5f1c10  ; [package:kourtai/automatic/lib/firebase/functions/root/firebase_functions.dart] KourtAiFirebaseFunctions::callFunction
     // 0x984d50: mov             x1, x0
     // 0x984d54: stur            x1, [fp, #-0x18]
     // 0x984d58: r0 = Await()
@@ -1205,7 +1205,7 @@ class UserDiscoveryManager extends Object {
     //     0x984ed4: ldr             lr, [x21, lr, lsl #3]
     //     0x984ed8: blr             lr
     // 0x984edc: r1 = Function '<anonymous closure>':.
-    //     0x984edc: add             x1, PP, #0x55, lsl #12  ; [pp+0x55068] AnonymousClosure: (0x98509c), in [package:ballai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::fetchSuggestedUsers (0x984cd0)
+    //     0x984edc: add             x1, PP, #0x55, lsl #12  ; [pp+0x55068] AnonymousClosure: (0x98509c), in [package:kourtai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::fetchSuggestedUsers (0x984cd0)
     //     0x984ee0: ldr             x1, [x1, #0x68]
     // 0x984ee4: r2 = Null
     //     0x984ee4: mov             x2, NULL
@@ -1372,7 +1372,7 @@ class UserDiscoveryManager extends Object {
     //     0x9850b8: bl              #0x5f1854  ; [dart:collection] LinkedHashMap::LinkedHashMap.from
     // 0x9850bc: mov             x1, x0
     // 0x9850c0: r0 = _discoverUserModel()
-    //     0x9850c0: bl              #0x9850d8  ; [package:ballai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::_discoverUserModel
+    //     0x9850c0: bl              #0x9850d8  ; [package:kourtai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::_discoverUserModel
     // 0x9850c4: LeaveFrame
     //     0x9850c4: mov             SP, fp
     //     0x9850c8: ldp             fp, lr, [SP], #0x10
@@ -1547,7 +1547,7 @@ class UserDiscoveryManager extends Object {
     // 0x985290: r1 = Null
     //     0x985290: mov             x1, NULL
     // 0x985294: r0 = _intValue()
-    //     0x985294: bl              #0x971868  ; [package:ballai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::_intValue
+    //     0x985294: bl              #0x971868  ; [package:kourtai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::_intValue
     // 0x985298: ldur            x1, [fp, #-8]
     // 0x98529c: r2 = "followingCount"
     //     0x98529c: add             x2, PP, #0x14, lsl #12  ; [pp+0x144f0] "followingCount"
@@ -1568,7 +1568,7 @@ class UserDiscoveryManager extends Object {
     // 0x9852c8: ldur            x2, [fp, #-0x10]
     // 0x9852cc: ldur            x3, [fp, #-0x18]
     // 0x9852d0: r0 = _intValue()
-    //     0x9852d0: bl              #0x971868  ; [package:ballai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::_intValue
+    //     0x9852d0: bl              #0x971868  ; [package:kourtai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::_intValue
     // 0x9852d4: r0 = DiscoverUserModel()
     //     0x9852d4: bl              #0x985304  ; AllocateDiscoverUserModelStub -> DiscoverUserModel (size=0x14)
     // 0x9852d8: ldur            x1, [fp, #-0x10]
@@ -1725,12 +1725,12 @@ class UserDiscoveryManager extends Object {
     // 0xa974d4: ldur            x2, [fp, #-0xd0]
     // 0xa974d8: stur            x0, [fp, #-0xe0]
     // 0xa974dc: r0 = _fetchUsersMatchingName()
-    //     0xa974dc: bl              #0xa97dfc  ; [package:ballai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::_fetchUsersMatchingName
+    //     0xa974dc: bl              #0xa97dfc  ; [package:kourtai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::_fetchUsersMatchingName
     // 0xa974e0: ldur            x1, [fp, #-0xc8]
     // 0xa974e4: ldur            x2, [fp, #-0xd0]
     // 0xa974e8: stur            x0, [fp, #-0xc8]
     // 0xa974ec: r0 = _fetchUsersMatchingBallTag()
-    //     0xa974ec: bl              #0xa978cc  ; [package:ballai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::_fetchUsersMatchingBallTag
+    //     0xa974ec: bl              #0xa978cc  ; [package:kourtai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::_fetchUsersMatchingBallTag
     // 0xa974f0: mov             x1, x0
     // 0xa974f4: ldur            x0, [fp, #-0xe0]
     // 0xa974f8: stur            x1, [fp, #-0xd0]
@@ -1769,7 +1769,7 @@ class UserDiscoveryManager extends Object {
     //     0xa97560: stur            wzr, [x3, #0x1b]
     // 0xa97564: mov             x2, x3
     // 0xa97568: r1 = Function 'consider':.
-    //     0xa97568: add             x1, PP, #0x55, lsl #12  ; [pp+0x55118] AnonymousClosure: (0xa98900), in [package:ballai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::searchUsers (0xa97374)
+    //     0xa97568: add             x1, PP, #0x55, lsl #12  ; [pp+0x55118] AnonymousClosure: (0xa98900), in [package:kourtai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::searchUsers (0xa97374)
     //     0xa9756c: ldr             x1, [x1, #0x118]
     // 0xa97570: r0 = AllocateClosure()
     //     0xa97570: bl              #0xe553e0  ; AllocateClosureStub
@@ -1927,7 +1927,7 @@ class UserDiscoveryManager extends Object {
     // 0xa97744: r1 = Null
     //     0xa97744: mov             x1, NULL
     // 0xa97748: r0 = UserModel.fromFirestore()
-    //     0xa97748: bl              #0x8fe49c  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
+    //     0xa97748: bl              #0x8fe49c  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
     // 0xa9774c: ldur            x16, [fp, #-0xf0]
     // 0xa97750: stp             x0, x16, [SP]
     // 0xa97754: ldur            x0, [fp, #-0xf0]
@@ -1975,7 +1975,7 @@ class UserDiscoveryManager extends Object {
     // 0xa977d0: r0 = _GrowableList._ofEfficientLengthIterable()
     //     0xa977d0: bl              #0x5c7610  ; [dart:core] _GrowableList::_GrowableList._ofEfficientLengthIterable
     // 0xa977d4: r1 = Function '<anonymous closure>':.
-    //     0xa977d4: add             x1, PP, #0x55, lsl #12  ; [pp+0x55120] AnonymousClosure: (0xa98864), in [package:ballai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::searchUsers (0xa97374)
+    //     0xa977d4: add             x1, PP, #0x55, lsl #12  ; [pp+0x55120] AnonymousClosure: (0xa98864), in [package:kourtai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::searchUsers (0xa97374)
     //     0xa977d8: ldr             x1, [x1, #0x120]
     // 0xa977dc: r2 = Null
     //     0xa977dc: mov             x2, NULL
@@ -2093,7 +2093,7 @@ class UserDiscoveryManager extends Object {
     //     0xa97904: bl              #0x60afc8  ; InitAsyncStub
     // 0xa97908: ldur            x1, [fp, #-0xa0]
     // 0xa9790c: r0 = normalized()
-    //     0xa9790c: bl              #0x955b88  ; [package:ballai/automatic/validation/ball_tag_validator.dart] BallTagValidator::normalized
+    //     0xa9790c: bl              #0x955b88  ; [package:kourtai/automatic/validation/ball_tag_validator.dart] BallTagValidator::normalized
     // 0xa97910: stur            x0, [fp, #-0xa8]
     // 0xa97914: LoadField: r1 = r0->field_7
     //     0xa97914: ldur            w1, [x0, #7]
@@ -2127,7 +2127,7 @@ class UserDiscoveryManager extends Object {
     // 0xa97964: ldur            x1, [fp, #-0xa8]
     // 0xa97968: stur            x0, [fp, #-0x98]
     // 0xa9796c: r0 = isValid()
-    //     0xa9796c: bl              #0xa97da8  ; [package:ballai/automatic/validation/ball_tag_validator.dart] BallTagValidator::isValid
+    //     0xa9796c: bl              #0xa97da8  ; [package:kourtai/automatic/validation/ball_tag_validator.dart] BallTagValidator::isValid
     // 0xa97970: tbnz            w0, #4, #0xa97af8
     // 0xa97974: ldur            x16, [fp, #-0xa8]
     // 0xa97978: str             x16, [SP]
@@ -2238,7 +2238,7 @@ class UserDiscoveryManager extends Object {
     //     0xa97a90: mov             x1, NULL
     // 0xa97a94: stur            x0, [fp, #-0xd8]
     // 0xa97a98: r0 = UserModel.fromFirestore()
-    //     0xa97a98: bl              #0x8fe49c  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
+    //     0xa97a98: bl              #0x8fe49c  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
     // 0xa97a9c: ldur            x1, [fp, #-0xb0]
     // 0xa97aa0: ldur            x2, [fp, #-0xd8]
     // 0xa97aa4: stur            x0, [fp, #-0xe0]
@@ -2419,7 +2419,7 @@ class UserDiscoveryManager extends Object {
     //     0xa97c8c: mov             x1, NULL
     // 0xa97c90: stur            x0, [fp, #-0xc0]
     // 0xa97c94: r0 = UserModel.fromFirestore()
-    //     0xa97c94: bl              #0x8fe49c  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
+    //     0xa97c94: bl              #0x8fe49c  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
     // 0xa97c98: ldur            x1, [fp, #-0xb0]
     // 0xa97c9c: ldur            x2, [fp, #-0xc0]
     // 0xa97ca0: stur            x0, [fp, #-0xd0]
@@ -2539,7 +2539,7 @@ class UserDiscoveryManager extends Object {
     //     0xa97e34: bl              #0x60afc8  ; InitAsyncStub
     // 0xa97e38: ldur            x1, [fp, #-0xb0]
     // 0xa97e3c: r0 = _uniqueNameSearchCandidates()
-    //     0xa97e3c: bl              #0xa98588  ; [package:ballai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::_uniqueNameSearchCandidates
+    //     0xa97e3c: bl              #0xa98588  ; [package:kourtai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::_uniqueNameSearchCandidates
     // 0xa97e40: stur            x0, [fp, #-0xb8]
     // 0xa97e44: r16 = <String, UserModel>
     //     0xa97e44: add             x16, PP, #0x14, lsl #12  ; [pp+0x140a8] TypeArguments: <String, UserModel>
@@ -2782,7 +2782,7 @@ class UserDiscoveryManager extends Object {
     //     0xa980d4: mov             x1, NULL
     // 0xa980d8: stur            x0, [fp, #-0xf8]
     // 0xa980dc: r0 = UserModel.fromFirestore()
-    //     0xa980dc: bl              #0x8fe49c  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
+    //     0xa980dc: bl              #0x8fe49c  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
     // 0xa980e0: ldur            x1, [fp, #-0xc0]
     // 0xa980e4: ldur            x2, [fp, #-0xf8]
     // 0xa980e8: stur            x0, [fp, #-0x100]
@@ -3108,7 +3108,7 @@ class UserDiscoveryManager extends Object {
     //     0xa9845c: mov             x1, NULL
     // 0xa98460: stur            x0, [fp, #-0xf0]
     // 0xa98464: r0 = UserModel.fromFirestore()
-    //     0xa98464: bl              #0x8fe49c  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
+    //     0xa98464: bl              #0x8fe49c  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
     // 0xa98468: ldur            x1, [fp, #-0xc0]
     // 0xa9846c: ldur            x2, [fp, #-0xf0]
     // 0xa98470: stur            x0, [fp, #-0xf8]
@@ -3265,7 +3265,7 @@ class UserDiscoveryManager extends Object {
     //     0xa98608: ldr             lr, [x21, lr, lsl #3]
     //     0xa9860c: blr             lr
     // 0xa98610: r1 = Function '<anonymous closure>': static.
-    //     0xa98610: add             x1, PP, #0x55, lsl #12  ; [pp+0x55158] AnonymousClosure: static (0xa98724), in [package:ballai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::_uniqueNameSearchCandidates (0xa98588)
+    //     0xa98610: add             x1, PP, #0x55, lsl #12  ; [pp+0x55158] AnonymousClosure: static (0xa98724), in [package:kourtai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::_uniqueNameSearchCandidates (0xa98588)
     //     0xa98614: ldr             x1, [x1, #0x158]
     // 0xa98618: r2 = Null
     //     0xa98618: mov             x2, NULL
@@ -3551,7 +3551,7 @@ class UserDiscoveryManager extends Object {
     // 0xa9898c: DecompressPointer r1
     //     0xa9898c: add             x1, x1, HEAP, lsl #32
     // 0xa98990: r0 = rank()
-    //     0xa98990: bl              #0xa96354  ; [package:ballai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] SocialUserSearchMatcher::rank
+    //     0xa98990: bl              #0xa96354  ; [package:kourtai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] SocialUserSearchMatcher::rank
     // 0xa98994: stur            x0, [fp, #-0x20]
     // 0xa98998: r17 = 1073741824
     //     0xa98998: mov             x17, #0x40000000
@@ -3593,7 +3593,7 @@ class UserDiscoveryManager extends Object {
     // 0xa98a04: r1 = Null
     //     0xa98a04: mov             x1, NULL
     // 0xa98a08: r0 = DiscoverUserModel.fromUser()
-    //     0xa98a08: bl              #0xa98b34  ; [package:ballai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] DiscoverUserModel::DiscoverUserModel.fromUser
+    //     0xa98a08: bl              #0xa98b34  ; [package:kourtai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] DiscoverUserModel::DiscoverUserModel.fromUser
     // 0xa98a0c: mov             x3, x0
     // 0xa98a10: ldur            x2, [fp, #-0x10]
     // 0xa98a14: LoadField: r4 = r2->field_1b

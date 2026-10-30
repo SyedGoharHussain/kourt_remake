@@ -1097,7 +1097,7 @@ class CameraController extends ValueNotifier<dynamic> {
     //     0x6c0060: add             x1, x1, HEAP, lsl #32
     // 0x6c0064: ldur            x2, [fp, #-0x10]
     // 0x6c0068: r0 = _onCameraFrame()
-    //     0x6c0068: bl              #0x6c0084  ; [package:ballai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onCameraFrame
+    //     0x6c0068: bl              #0x6c0084  ; [package:kourtai/video_tracking/playground/playground_camera_screen.dart] PlaygroundCameraScreenState::_onCameraFrame
     // 0x6c006c: r0 = Null
     //     0x6c006c: mov             x0, NULL
     // 0x6c0070: LeaveFrame

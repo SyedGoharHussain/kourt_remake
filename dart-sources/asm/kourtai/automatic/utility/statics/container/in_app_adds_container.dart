@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/statics/container/in_app_adds_container.dart
+// lib: , url: package:kourtai/automatic/utility/statics/container/in_app_adds_container.dart
 
 // class id: 1048739, size: 0x8
 class :: {
@@ -26,8 +26,8 @@ abstract class InAppAddsContainer extends Object {
     // 0xbd7f94: r0 = AllocateArray()
     //     0xbd7f94: bl              #0xe560ac  ; AllocateArrayStub
     // 0xbd7f98: stur            x0, [fp, #-8]
-    // 0xbd7f9c: r16 = "support@ballai.app"
-    //     0xbd7f9c: add             x16, PP, #0x44, lsl #12  ; [pp+0x44f70] "support@ballai.app"
+    // 0xbd7f9c: r16 = "support@kourtai.app"
+    //     0xbd7f9c: add             x16, PP, #0x44, lsl #12  ; [pp+0x44f70] "support@kourtai.app"
     //     0xbd7fa0: ldr             x16, [x16, #0xf70]
     // 0xbd7fa4: StoreField: r0->field_f = r16
     //     0xbd7fa4: stur            w16, [x0, #0xf]
@@ -48,7 +48,7 @@ abstract class InAppAddsContainer extends Object {
     //     0xbd7fc8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44f78] "settings_message"
     //     0xbd7fcc: ldr             x1, [x1, #0xf78]
     // 0xbd7fd0: r0 = LF()
-    //     0xbd7fd0: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xbd7fd0: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xbd7fd4: LeaveFrame
     //     0xbd7fd4: mov             SP, fp
     //     0xbd7fd8: ldp             fp, lr, [SP], #0x10
@@ -71,7 +71,7 @@ abstract class InAppAddsContainer extends Object {
     //     0xbd8270: add             x1, PP, #0x44, lsl #12  ; [pp+0x44f58] "invite_friend_message"
     //     0xbd8274: ldr             x1, [x1, #0xf58]
     // 0xbd8278: r0 = L()
-    //     0xbd8278: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd8278: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd827c: LeaveFrame
     //     0xbd827c: mov             SP, fp
     //     0xbd8280: ldp             fp, lr, [SP], #0x10

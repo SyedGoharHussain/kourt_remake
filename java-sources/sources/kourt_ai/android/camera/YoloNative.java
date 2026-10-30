@@ -1,4 +1,4 @@
-package ball_ai.android.camera;
+package kourt_ai.android.camera;
 
 import android.util.Log;
 import java.nio.ByteBuffer;

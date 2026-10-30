@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/session/mediums/workout_session_permission_gate.dart
+// lib: , url: package:kourtai/video_tracking/session/mediums/workout_session_permission_gate.dart
 
 // class id: 1049186, size: 0x8
 class :: {
@@ -17,7 +17,7 @@ class WorkoutSessionPermissionGate extends Object {
     //     0x60c5b4: cmp             SP, x16
     //     0x60c5b8: b.ls            #0x60c5cc
     // 0x60c5bc: r0 = _platformRequestLocation()
-    //     0x60c5bc: bl              #0x60c5d4  ; [package:ballai/video_tracking/session/mediums/workout_session_permission_gate.dart] WorkoutSessionPermissionGate::_platformRequestLocation
+    //     0x60c5bc: bl              #0x60c5d4  ; [package:kourtai/video_tracking/session/mediums/workout_session_permission_gate.dart] WorkoutSessionPermissionGate::_platformRequestLocation
     // 0x60c5c0: LeaveFrame
     //     0x60c5c0: mov             SP, fp
     //     0x60c5c4: ldp             fp, lr, [SP], #0x10
@@ -55,7 +55,7 @@ class WorkoutSessionPermissionGate extends Object {
     //     0x60c610: bl              #0x60ad4c  ; AwaitStub
     // 0x60c614: mov             x1, x0
     // 0x60c618: r0 = _map()
-    //     0x60c618: bl              #0x60c628  ; [package:ballai/video_tracking/session/mediums/workout_session_permission_gate.dart] WorkoutSessionPermissionGate::_map
+    //     0x60c618: bl              #0x60c628  ; [package:kourtai/video_tracking/session/mediums/workout_session_permission_gate.dart] WorkoutSessionPermissionGate::_map
     // 0x60c61c: r0 = ReturnAsyncNotFuture()
     //     0x60c61c: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x60c620: r0 = StackOverflowSharedWithoutFPURegs()
@@ -110,7 +110,7 @@ class WorkoutSessionPermissionGate extends Object {
     //     0x60cb58: cmp             SP, x16
     //     0x60cb5c: b.ls            #0x60cb70
     // 0x60cb60: r0 = _platformLocationStatus()
-    //     0x60cb60: bl              #0x60cb78  ; [package:ballai/video_tracking/session/mediums/workout_session_permission_gate.dart] WorkoutSessionPermissionGate::_platformLocationStatus
+    //     0x60cb60: bl              #0x60cb78  ; [package:kourtai/video_tracking/session/mediums/workout_session_permission_gate.dart] WorkoutSessionPermissionGate::_platformLocationStatus
     // 0x60cb64: LeaveFrame
     //     0x60cb64: mov             SP, fp
     //     0x60cb68: ldp             fp, lr, [SP], #0x10
@@ -163,7 +163,7 @@ class WorkoutSessionPermissionGate extends Object {
     //     0x60cbdc: bl              #0x60ad4c  ; AwaitStub
     // 0x60cbe0: mov             x1, x0
     // 0x60cbe4: r0 = _map()
-    //     0x60cbe4: bl              #0x60c628  ; [package:ballai/video_tracking/session/mediums/workout_session_permission_gate.dart] WorkoutSessionPermissionGate::_map
+    //     0x60cbe4: bl              #0x60c628  ; [package:kourtai/video_tracking/session/mediums/workout_session_permission_gate.dart] WorkoutSessionPermissionGate::_map
     // 0x60cbe8: r0 = ReturnAsyncNotFuture()
     //     0x60cbe8: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x60cbec: r0 = StackOverflowSharedWithoutFPURegs()
@@ -266,7 +266,7 @@ class WorkoutSessionPermissionGate extends Object {
     //     0x79687c: ldur            x2, [x0, #0x13]
     // 0x796880: mov             x1, x0
     // 0x796884: r0 = _run()
-    //     0x796884: bl              #0x7968cc  ; [package:ballai/video_tracking/session/mediums/workout_session_permission_gate.dart] WorkoutSessionPermissionGate::_run
+    //     0x796884: bl              #0x7968cc  ; [package:kourtai/video_tracking/session/mediums/workout_session_permission_gate.dart] WorkoutSessionPermissionGate::_run
     // 0x796888: mov             x1, x0
     // 0x79688c: ldur            x2, [fp, #-0x10]
     // 0x796890: StoreField: r2->field_f = r0
@@ -310,7 +310,7 @@ class WorkoutSessionPermissionGate extends Object {
     // 0x7968f8: ldur            x1, [fp, #-0x78]
     // 0x7968fc: ldur            x2, [fp, #-0x80]
     // 0x796900: r0 = _resolveLocation()
-    //     0x796900: bl              #0x796968  ; [package:ballai/video_tracking/session/mediums/workout_session_permission_gate.dart] WorkoutSessionPermissionGate::_resolveLocation
+    //     0x796900: bl              #0x796968  ; [package:kourtai/video_tracking/session/mediums/workout_session_permission_gate.dart] WorkoutSessionPermissionGate::_resolveLocation
     // 0x796904: mov             x1, x0
     // 0x796908: stur            x1, [fp, #-0x88]
     // 0x79690c: r0 = Await()
@@ -367,7 +367,7 @@ class WorkoutSessionPermissionGate extends Object {
     //     0x79698c: ldr             x0, [PP, #0x19b0]  ; [pp+0x19b0] TypeArguments: <bool>
     //     0x796990: bl              #0x60afc8  ; InitAsyncStub
     // 0x796994: r0 = _platformLocationStatus()
-    //     0x796994: bl              #0x60cb78  ; [package:ballai/video_tracking/session/mediums/workout_session_permission_gate.dart] WorkoutSessionPermissionGate::_platformLocationStatus
+    //     0x796994: bl              #0x60cb78  ; [package:kourtai/video_tracking/session/mediums/workout_session_permission_gate.dart] WorkoutSessionPermissionGate::_platformLocationStatus
     // 0x796998: mov             x1, x0
     // 0x79699c: stur            x1, [fp, #-0x20]
     // 0x7969a0: r0 = Await()
@@ -407,7 +407,7 @@ class WorkoutSessionPermissionGate extends Object {
     // 0x7969f8: StoreField: r1->field_1b = r0
     //     0x7969f8: stur            w0, [x1, #0x1b]
     // 0x7969fc: r0 = _platformRequestLocation()
-    //     0x7969fc: bl              #0x60c5d4  ; [package:ballai/video_tracking/session/mediums/workout_session_permission_gate.dart] WorkoutSessionPermissionGate::_platformRequestLocation
+    //     0x7969fc: bl              #0x60c5d4  ; [package:kourtai/video_tracking/session/mediums/workout_session_permission_gate.dart] WorkoutSessionPermissionGate::_platformRequestLocation
     // 0x796a00: mov             x1, x0
     // 0x796a04: stur            x1, [fp, #-0x10]
     // 0x796a08: r0 = Await()

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/manager/video_workout_manager.dart
+// lib: , url: package:kourtai/video_tracking/manager/video_workout_manager.dart
 
 // class id: 1049144, size: 0x8
 class :: {
@@ -19,7 +19,7 @@ class :: {
     //     0x6c2158: b.ls            #0x6c21a8
     // 0x6c215c: mov             x1, x0
     // 0x6c2160: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x6c2160: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x6c2160: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x6c2164: tbnz            w0, #4, #0x6c2198
     // 0x6c2168: ldur            x1, [fp, #-8]
     // 0x6c216c: LoadField: r2 = r1->field_37
@@ -71,7 +71,7 @@ class :: {
     // 0x6c2294: b               #0x6c22a4
     // 0x6c2298: mov             x1, x0
     // 0x6c229c: r0 = belongsToDribblingProductSurface()
-    //     0x6c229c: bl              #0x5edb70  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
+    //     0x6c229c: bl              #0x5edb70  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
     // 0x6c22a0: mov             x1, x0
     // 0x6c22a4: cmp             w1, NULL
     // 0x6c22a8: b.ne            #0x6c22b4
@@ -231,7 +231,7 @@ class :: {
     // 0x71566c: ret
     //     0x71566c: ret             
     // 0x715670: r0 = feetToRimLength()
-    //     0x715670: bl              #0x7156d4  ; [package:ballai/video_tracking/court_location/court_location_analyzer.dart] CourtLocationAnalyzer::feetToRimLength
+    //     0x715670: bl              #0x7156d4  ; [package:kourtai/video_tracking/court_location/court_location_analyzer.dart] CourtLocationAnalyzer::feetToRimLength
     // 0x715674: cmp             w0, NULL
     // 0x715678: b.eq            #0x71568c
     // 0x71567c: d0 = 0.000000
@@ -247,7 +247,7 @@ class :: {
     //     0x715694: ldp             fp, lr, [SP], #0x10
     // 0x715698: ret
     //     0x715698: ret             
-    // 0x71569c: r0 = InitLateStaticField(0x109c) // [package:ballai/video_tracking/court_location/court_location_analyzer.dart] CourtLocationAnalyzer::_cameraSide
+    // 0x71569c: r0 = InitLateStaticField(0x109c) // [package:kourtai/video_tracking/court_location/court_location_analyzer.dart] CourtLocationAnalyzer::_cameraSide
     //     0x71569c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x7156a0: ldr             x0, [x0, #0x2138]
     //     0x7156a4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -290,7 +290,7 @@ class :: {
     //     0x71d264: bl              #0x60afc8  ; InitAsyncStub
     // 0x71d268: ldur            x1, [fp, #-0x18]
     // 0x71d26c: r0 = updateShot()
-    //     0x71d26c: bl              #0x71d294  ; [package:ballai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::updateShot
+    //     0x71d26c: bl              #0x71d294  ; [package:kourtai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::updateShot
     // 0x71d270: mov             x1, x0
     // 0x71d274: stur            x1, [fp, #-0x18]
     // 0x71d278: r0 = Await()
@@ -392,7 +392,7 @@ class :: {
     //     0x730164: add             x4, x4, HEAP, lsl #32
     // 0x730168: stur            x4, [fp, #-8]
     // 0x73016c: r1 = Function '<anonymous closure>': static.
-    //     0x73016c: add             x1, PP, #0x29, lsl #12  ; [pp+0x293d8] AnonymousClosure: static (0x73850c), in [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::generateSummaryPayloadFromShots (0x736ee4)
+    //     0x73016c: add             x1, PP, #0x29, lsl #12  ; [pp+0x293d8] AnonymousClosure: static (0x73850c), in [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::generateSummaryPayloadFromShots (0x736ee4)
     //     0x730170: ldr             x1, [x1, #0x3d8]
     // 0x730174: r2 = Null
     //     0x730174: mov             x2, NULL
@@ -501,11 +501,11 @@ class :: {
     // 0x730294: mov             x1, x0
     // 0x730298: stur            x9, [fp, #-0x50]
     // 0x73029c: r0 = VideoWorkoutManagerDribble.activeMakeMissScoreHandler()
-    //     0x73029c: bl              #0x74dfe0  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.activeMakeMissScoreHandler
+    //     0x73029c: bl              #0x74dfe0  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.activeMakeMissScoreHandler
     // 0x7302a0: ldur            x1, [fp, #-0x28]
     // 0x7302a4: stur            x0, [fp, #-0x48]
     // 0x7302a8: r0 = VideoWorkoutManagerDribble.isFinishingWorkoutSession()
-    //     0x7302a8: bl              #0x74df7c  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isFinishingWorkoutSession
+    //     0x7302a8: bl              #0x74df7c  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isFinishingWorkoutSession
     // 0x7302ac: mov             x1, x0
     // 0x7302b0: ldur            x0, [fp, #-0x10]
     // 0x7302b4: stur            x1, [fp, #-0x88]
@@ -1112,7 +1112,7 @@ class :: {
     //     0x73090c: add             x4, PP, #0x28, lsl #12  ; [pp+0x280d0] List(7) [0, 0x2, 0x1, 0x1, "workout", 0x1, Null]
     //     0x730910: ldr             x4, [x4, #0xd0]
     // 0x730914: r0 = copyWith()
-    //     0x730914: bl              #0x71d984  ; [package:ballai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::copyWith
+    //     0x730914: bl              #0x71d984  ; [package:kourtai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::copyWith
     // 0x730918: ldur            x3, [fp, #-0x28]
     // 0x73091c: r17 = 331
     //     0x73091c: mov             x17, #0x14b
@@ -1322,7 +1322,7 @@ class :: {
     // 0x730b48: ldur            x1, [fp, #-0x48]
     // 0x730b4c: ldur            x2, [fp, #-0x30]
     // 0x730b50: r0 = VideoWorkoutManagerWorkout.updateWorkout()
-    //     0x730b50: bl              #0x74dc88  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.updateWorkout
+    //     0x730b50: bl              #0x74dc88  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.updateWorkout
     // 0x730b54: ldur            x0, [fp, #-0x20]
     // 0x730b58: tbnz            w0, #4, #0x730c0c
     // 0x730b5c: ldur            x1, [fp, #-0x40]
@@ -1359,7 +1359,7 @@ class :: {
     // 0x730bbc: ldur            x0, [fp, #-0x50]
     // 0x730bc0: ldur            x1, [fp, #-0x48]
     // 0x730bc4: r0 = goalProgress()
-    //     0x730bc4: bl              #0x74da78  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::goalProgress
+    //     0x730bc4: bl              #0x74da78  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::goalProgress
     // 0x730bc8: ldur            x0, [fp, #-0x50]
     // 0x730bcc: scvtf           d1, x0
     // 0x730bd0: fdiv            d2, d0, d1
@@ -1383,7 +1383,7 @@ class :: {
     // 0x730c00: ldr             d0, [fp, x17]
     // 0x730c04: mov             x1, x2
     // 0x730c08: r0 = checkProgress()
-    //     0x730c08: bl              #0x730cb0  ; [package:ballai/video_tracking/session/goals/workout_goal_checkpoint_handler.dart] WorkoutGoalCheckpointHandler::checkProgress
+    //     0x730c08: bl              #0x730cb0  ; [package:kourtai/video_tracking/session/goals/workout_goal_checkpoint_handler.dart] WorkoutGoalCheckpointHandler::checkProgress
     // 0x730c0c: ldur            x1, [fp, #-0x28]
     // 0x730c10: r0 = notifyListeners()
     //     0x730c10: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -1475,13 +1475,13 @@ class :: {
     //     0x7317d0: bl              #0x60afc8  ; InitAsyncStub
     // 0x7317d4: ldur            x1, [fp, #-0x18]
     // 0x7317d8: r0 = VideoWorkoutManagerSession.cancelWorkoutStartBriefing()
-    //     0x7317d8: bl              #0x74d9b8  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.cancelWorkoutStartBriefing
+    //     0x7317d8: bl              #0x74d9b8  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.cancelWorkoutStartBriefing
     // 0x7317dc: r0 = stop()
-    //     0x7317dc: bl              #0x74d94c  ; [package:ballai/video_tracking/session/guards/rim_visibility_guard_handler.dart] RimVisibilityGuardHandler::stop
+    //     0x7317dc: bl              #0x74d94c  ; [package:kourtai/video_tracking/session/guards/rim_visibility_guard_handler.dart] RimVisibilityGuardHandler::stop
     // 0x7317e0: r0 = stop()
-    //     0x7317e0: bl              #0x74d864  ; [package:ballai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::stop
+    //     0x7317e0: bl              #0x74d864  ; [package:kourtai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::stop
     // 0x7317e4: r0 = stop()
-    //     0x7317e4: bl              #0x74d77c  ; [package:ballai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::stop
+    //     0x7317e4: bl              #0x74d77c  ; [package:kourtai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::stop
     // 0x7317e8: ldur            x0, [fp, #-0x18]
     // 0x7317ec: LoadField: r1 = r0->field_27
     //     0x7317ec: ldur            w1, [x0, #0x27]
@@ -1490,7 +1490,7 @@ class :: {
     // 0x7317f4: tbnz            w1, #4, #0x73180c
     // 0x7317f8: mov             x1, x0
     // 0x7317fc: r0 = VideoWorkoutManagerWorkout.endWorkout()
-    //     0x7317fc: bl              #0x7329d0  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.endWorkout
+    //     0x7317fc: bl              #0x7329d0  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.endWorkout
     // 0x731800: mov             x1, x0
     // 0x731804: stur            x1, [fp, #-0x20]
     // 0x731808: r0 = Await()
@@ -1521,7 +1521,7 @@ class :: {
     // 0x73184c: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x73184c: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x731850: r0 = presentSummary()
-    //     0x731850: bl              #0x7322c0  ; [package:ballai/video_tracking/session/workout_end_navigation.dart] WorkoutEndNavigation::presentSummary
+    //     0x731850: bl              #0x7322c0  ; [package:kourtai/video_tracking/session/workout_end_navigation.dart] WorkoutEndNavigation::presentSummary
     // 0x731854: mov             x1, x0
     // 0x731858: stur            x1, [fp, #-0x10]
     // 0x73185c: r0 = Await()
@@ -1529,7 +1529,7 @@ class :: {
     // 0x731860: ldur            x1, [fp, #-0x18]
     // 0x731864: stur            x0, [fp, #-0x10]
     // 0x731868: r0 = VideoWorkoutManagerSession._resetVideoWorkoutManager()
-    //     0x731868: bl              #0x7318a4  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._resetVideoWorkoutManager
+    //     0x731868: bl              #0x7318a4  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._resetVideoWorkoutManager
     // 0x73186c: ldur            x0, [fp, #-0x10]
     // 0x731870: r16 = true
     //     0x731870: add             x16, NULL, #0x20  ; true
@@ -1541,7 +1541,7 @@ class :: {
     //     0x731880: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x731884: ldur            x1, [fp, #-0x18]
     // 0x731888: r0 = VideoWorkoutManagerSession._resetVideoWorkoutManager()
-    //     0x731888: bl              #0x7318a4  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._resetVideoWorkoutManager
+    //     0x731888: bl              #0x7318a4  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._resetVideoWorkoutManager
     // 0x73188c: ldur            x1, [fp, #-0x18]
     // 0x731890: r0 = notifyListeners()
     //     0x731890: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -1567,9 +1567,9 @@ class :: {
     //     0x7318b8: cmp             SP, x16
     //     0x7318bc: b.ls            #0x731b9c
     // 0x7318c0: r0 = resetTrackingState()
-    //     0x7318c0: bl              #0x7320ec  ; [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::resetTrackingState
+    //     0x7318c0: bl              #0x7320ec  ; [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::resetTrackingState
     // 0x7318c4: r0 = reset()
-    //     0x7318c4: bl              #0x731ec0  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::reset
+    //     0x7318c4: bl              #0x731ec0  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::reset
     // 0x7318c8: ldur            x2, [fp, #-8]
     // 0x7318cc: r0 = false
     //     0x7318cc: add             x0, NULL, #0x30  ; false
@@ -1591,7 +1591,7 @@ class :: {
     // 0x7318f0: str             w0, [x2, x17]
     // 0x7318f4: mov             x1, x2
     // 0x7318f8: r0 = clearSelectedHoopCache()
-    //     0x7318f8: bl              #0x714e1c  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::clearSelectedHoopCache
+    //     0x7318f8: bl              #0x714e1c  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::clearSelectedHoopCache
     // 0x7318fc: ldur            x1, [fp, #-8]
     // 0x731900: r0 = false
     //     0x731900: add             x0, NULL, #0x30  ; false
@@ -1665,7 +1665,7 @@ class :: {
     // 0x7319bc: str             NULL, [x2, x17]
     // 0x7319c0: mov             x1, x2
     // 0x7319c4: r0 = clearGuardWarning()
-    //     0x7319c4: bl              #0x714d10  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::clearGuardWarning
+    //     0x7319c4: bl              #0x714d10  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::clearGuardWarning
     // 0x7319c8: ldur            x1, [fp, #-8]
     // 0x7319cc: r0 = _NativeScene._()
     //     0x7319cc: bl              #0xe4f314  ; [dart:ui] _NativeScene::_NativeScene._
@@ -1679,7 +1679,7 @@ class :: {
     //     0x7319e0: mov             x17, #0x1b3
     // 0x7319e4: str             NULL, [x1, x17]
     // 0x7319e8: r0 = reset()
-    //     0x7319e8: bl              #0x731e1c  ; [package:ballai/video_tracking/court_location/court_location_analyzer.dart] CourtLocationAnalyzer::reset
+    //     0x7319e8: bl              #0x731e1c  ; [package:kourtai/video_tracking/court_location/court_location_analyzer.dart] CourtLocationAnalyzer::reset
     // 0x7319ec: ldur            x2, [fp, #-8]
     // 0x7319f0: r17 = 451
     //     0x7319f0: mov             x17, #0x1c3
@@ -1724,7 +1724,7 @@ class :: {
     // 0x731a64: DecompressPointer r1
     //     0x731a64: add             x1, x1, HEAP, lsl #32
     // 0x731a68: r0 = reset()
-    //     0x731a68: bl              #0x731df8  ; [package:ballai/video_tracking/session/mediums/workout_session_permission_gate.dart] WorkoutSessionPermissionGate::reset
+    //     0x731a68: bl              #0x731df8  ; [package:kourtai/video_tracking/session/mediums/workout_session_permission_gate.dart] WorkoutSessionPermissionGate::reset
     // 0x731a6c: ldur            x0, [fp, #-8]
     // 0x731a70: r3 = false
     //     0x731a70: add             x3, NULL, #0x30  ; false
@@ -1767,7 +1767,7 @@ class :: {
     //     0x731ad8: tst             x16, HEAP, lsr #32
     //     0x731adc: b.eq            #0x731ae4
     //     0x731ae0: bl              #0xe5479c  ; WriteBarrierWrappersStub
-    // 0x731ae4: r0 = InitLateStaticField(0x1134) // [package:ballai/video_tracking/detection/yolo/yolo_model_spec.dart] ::kActiveYoloModelSpec
+    // 0x731ae4: r0 = InitLateStaticField(0x1134) // [package:kourtai/video_tracking/detection/yolo/yolo_model_spec.dart] ::kActiveYoloModelSpec
     //     0x731ae4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x731ae8: ldr             x0, [x0, #0x2268]
     //     0x731aec: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1792,7 +1792,7 @@ class :: {
     // 0x731b28: DecompressPointer r1
     //     0x731b28: add             x1, x1, HEAP, lsl #32
     // 0x731b2c: r0 = reset()
-    //     0x731b2c: bl              #0x731d88  ; [package:ballai/video_tracking/analysis/shooting_state_manager.dart] ShootingStateManager::reset
+    //     0x731b2c: bl              #0x731d88  ; [package:kourtai/video_tracking/analysis/shooting_state_manager.dart] ShootingStateManager::reset
     // 0x731b30: ldur            x1, [fp, #-8]
     // 0x731b34: r0 = Instance_ShootingPhase
     //     0x731b34: add             x0, PP, #0x17, lsl #12  ; [pp+0x17750] Obj!ShootingPhase@d38fa1
@@ -1828,7 +1828,7 @@ class :: {
     // 0x731b84: StoreField: r1->field_6b = r0
     //     0x731b84: stur            w0, [x1, #0x6b]
     // 0x731b88: r0 = VideoWorkoutManagerDribble.resetDribbleCounterState()
-    //     0x731b88: bl              #0x731ba4  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.resetDribbleCounterState
+    //     0x731b88: bl              #0x731ba4  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.resetDribbleCounterState
     // 0x731b8c: r0 = Null
     //     0x731b8c: mov             x0, NULL
     // 0x731b90: LeaveFrame
@@ -1859,7 +1859,7 @@ class :: {
     // 0x731bc8: DecompressPointer r1
     //     0x731bc8: add             x1, x1, HEAP, lsl #32
     // 0x731bcc: r0 = reset()
-    //     0x731bcc: bl              #0x7727f0  ; [package:ballai/video_tracking/analysis/dribble/dribble_pipeline.dart] DribblePipeline::reset
+    //     0x731bcc: bl              #0x7727f0  ; [package:kourtai/video_tracking/analysis/dribble/dribble_pipeline.dart] DribblePipeline::reset
     // 0x731bd0: ldur            x0, [fp, #-8]
     // 0x731bd4: StoreField: r0->field_77 = rZR
     //     0x731bd4: stur            xzr, [x0, #0x77]
@@ -1940,7 +1940,7 @@ class :: {
     // 0x731c9c: DecompressPointer r1
     //     0x731c9c: add             x1, x1, HEAP, lsl #32
     // 0x731ca0: r0 = reset()
-    //     0x731ca0: bl              #0x731d34  ; [package:ballai/video_tracking/analysis/dribble/dribble_models.dart] DribbleTimelineBuffer::reset
+    //     0x731ca0: bl              #0x731d34  ; [package:kourtai/video_tracking/analysis/dribble/dribble_models.dart] DribbleTimelineBuffer::reset
     // 0x731ca4: ldur            x0, [fp, #-8]
     // 0x731ca8: StoreField: r0->field_e7 = rNULL
     //     0x731ca8: stur            NULL, [x0, #0xe7]
@@ -2037,11 +2037,11 @@ class :: {
     // 0x732a28: StoreField: r1->field_27 = r4
     //     0x732a28: stur            w4, [x1, #0x27]
     // 0x732a2c: r0 = stop()
-    //     0x732a2c: bl              #0x74d94c  ; [package:ballai/video_tracking/session/guards/rim_visibility_guard_handler.dart] RimVisibilityGuardHandler::stop
+    //     0x732a2c: bl              #0x74d94c  ; [package:kourtai/video_tracking/session/guards/rim_visibility_guard_handler.dart] RimVisibilityGuardHandler::stop
     // 0x732a30: r0 = stop()
-    //     0x732a30: bl              #0x74d864  ; [package:ballai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::stop
+    //     0x732a30: bl              #0x74d864  ; [package:kourtai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::stop
     // 0x732a34: r0 = stop()
-    //     0x732a34: bl              #0x74d77c  ; [package:ballai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::stop
+    //     0x732a34: bl              #0x74d77c  ; [package:kourtai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::stop
     // 0x732a38: ldur            x1, [fp, #-0x10]
     // 0x732a3c: r17 = 479
     //     0x732a3c: mov             x17, #0x1df
@@ -2059,7 +2059,7 @@ class :: {
     //     0x732a5c: bl              #0xe540b0  ; InitLateFinalInstanceFieldStub
     // 0x732a60: mov             x1, x0
     // 0x732a64: r0 = disable()
-    //     0x732a64: bl              #0x74d68c  ; [package:ballai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::disable
+    //     0x732a64: bl              #0x74d68c  ; [package:kourtai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::disable
     // 0x732a68: ldur            x0, [fp, #-0x10]
     // 0x732a6c: r17 = 483
     //     0x732a6c: mov             x17, #0x1e3
@@ -2067,7 +2067,7 @@ class :: {
     // 0x732a74: DecompressPointer r1
     //     0x732a74: add             x1, x1, HEAP, lsl #32
     // 0x732a78: r0 = reset()
-    //     0x732a78: bl              #0x731d88  ; [package:ballai/video_tracking/analysis/shooting_state_manager.dart] ShootingStateManager::reset
+    //     0x732a78: bl              #0x731d88  ; [package:kourtai/video_tracking/analysis/shooting_state_manager.dart] ShootingStateManager::reset
     // 0x732a7c: ldur            x1, [fp, #-0x10]
     // 0x732a80: r0 = Instance_ShootingPhase
     //     0x732a80: add             x0, PP, #0x17, lsl #12  ; [pp+0x17750] Obj!ShootingPhase@d38fa1
@@ -2076,7 +2076,7 @@ class :: {
     //     0x732a88: mov             x17, #0x133
     // 0x732a8c: str             w0, [x1, x17]
     // 0x732a90: r0 = reset()
-    //     0x732a90: bl              #0x731ec0  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::reset
+    //     0x732a90: bl              #0x731ec0  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::reset
     // 0x732a94: r1 = <ShotTrajectory>
     //     0x732a94: add             x1, PP, #0x17, lsl #12  ; [pp+0x17770] TypeArguments: <ShotTrajectory>
     //     0x732a98: ldr             x1, [x1, #0x770]
@@ -2097,7 +2097,7 @@ class :: {
     //     0x732ac4: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x732ac8: mov             x1, x2
     // 0x732acc: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x732acc: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x732acc: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x732ad0: tbnz            w0, #4, #0x732af0
     // 0x732ad4: r16 = true
     //     0x732ad4: add             x16, NULL, #0x20  ; true
@@ -2107,7 +2107,7 @@ class :: {
     //     0x732ae0: add             x4, PP, #0x28, lsl #12  ; [pp+0x280b8] List(7) [0, 0x2, 0x1, 0x1, "isEnd", 0x1, Null]
     //     0x732ae4: ldr             x4, [x4, #0xb8]
     // 0x732ae8: r0 = VideoWorkoutManagerDribble.syncDribbleWorkoutSummary()
-    //     0x732ae8: bl              #0x74aab0  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.syncDribbleWorkoutSummary
+    //     0x732ae8: bl              #0x74aab0  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.syncDribbleWorkoutSummary
     // 0x732aec: b               #0x732b08
     // 0x732af0: r16 = true
     //     0x732af0: add             x16, NULL, #0x20  ; true
@@ -2117,7 +2117,7 @@ class :: {
     //     0x732afc: add             x4, PP, #0x28, lsl #12  ; [pp+0x280b8] List(7) [0, 0x2, 0x1, 0x1, "isEnd", 0x1, Null]
     //     0x732b00: ldr             x4, [x4, #0xb8]
     // 0x732b04: r0 = VideoWorkoutManagerWorkout.updateWorkoutSummary()
-    //     0x732b04: bl              #0x730074  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.updateWorkoutSummary
+    //     0x732b04: bl              #0x730074  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.updateWorkoutSummary
     // 0x732b08: ldur            x0, [fp, #-0x10]
     // 0x732b0c: mov             x1, x0
     // 0x732b10: r17 = 275
@@ -2136,7 +2136,7 @@ class :: {
     //     0x732b30: bl              #0xe540b0  ; InitLateFinalInstanceFieldStub
     // 0x732b34: mov             x1, x0
     // 0x732b38: r0 = stop()
-    //     0x732b38: bl              #0x74a910  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::stop
+    //     0x732b38: bl              #0x74a910  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::stop
     // 0x732b3c: ldur            x0, [fp, #-0x10]
     // 0x732b40: r17 = 331
     //     0x732b40: mov             x17, #0x14b
@@ -2186,7 +2186,7 @@ class :: {
     //     0x732bbc: add             x2, x2, HEAP, lsl #32
     // 0x732bc0: ldur            x1, [fp, #-0x18]
     // 0x732bc4: r0 = recordCompletionIfEligible()
-    //     0x732bc4: bl              #0x74a1d4  ; [package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_event_writer.dart] DrillLeaderboardEventWriter::recordCompletionIfEligible
+    //     0x732bc4: bl              #0x74a1d4  ; [package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_event_writer.dart] DrillLeaderboardEventWriter::recordCompletionIfEligible
     // 0x732bc8: r1 = LoadStaticField(0xcf8)
     //     0x732bc8: ldr             x1, [THR, #0x68]  ; THR::field_table_values
     //     0x732bcc: ldr             x1, [x1, #0x19f0]
@@ -2196,7 +2196,7 @@ class :: {
     //     0x732bd8: mov             x0, NULL
     // 0x732bdc: b               #0x732be4
     // 0x732be0: r0 = scheduleWorkoutReturnFunnelAfterCompletedWorkout()
-    //     0x732be0: bl              #0x7447f0  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::scheduleWorkoutReturnFunnelAfterCompletedWorkout
+    //     0x732be0: bl              #0x7447f0  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::scheduleWorkoutReturnFunnelAfterCompletedWorkout
     // 0x732be4: cmp             w0, NULL
     // 0x732be8: b.ne            #0x732c28
     // 0x732bec: r1 = <void?>
@@ -2238,7 +2238,7 @@ class :: {
     //     0x732c58: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x732c5c: mov             x1, x3
     // 0x732c60: r0 = VideoWorkoutManagerAnalyzer.isAnalyzerSession()
-    //     0x732c60: bl              #0x744644  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerAnalyzer.isAnalyzerSession
+    //     0x732c60: bl              #0x744644  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerAnalyzer.isAnalyzerSession
     // 0x732c64: tbnz            w0, #4, #0x732c8c
     // 0x732c68: ldur            x3, [fp, #-0x10]
     // 0x732c6c: ldur            x0, [fp, #-0x28]
@@ -2253,7 +2253,7 @@ class :: {
     //     0x732c80: add             x2, x2, HEAP, lsl #32
     // 0x732c84: mov             x1, x3
     // 0x732c88: r0 = VideoWorkoutManagerAnalyzer.beginAnalyzerScoringIfNeeded()
-    //     0x732c88: bl              #0x741168  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerAnalyzer.beginAnalyzerScoringIfNeeded
+    //     0x732c88: bl              #0x741168  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerAnalyzer.beginAnalyzerScoringIfNeeded
     // 0x732c8c: ldur            x0, [fp, #-0x20]
     // 0x732c90: cmp             w0, NULL
     // 0x732c94: b.ne            #0x732ca0
@@ -2277,9 +2277,9 @@ class :: {
     // 0x732cc4: tbz             w1, #4, #0x732cd4
     // 0x732cc8: ldur            x1, [fp, #-0x10]
     // 0x732ccc: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x732ccc: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x732ccc: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x732cd0: tbnz            w0, #4, #0x732cfc
-    // 0x732cd4: r0 = InitLateStaticField(0xeec) // [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
+    // 0x732cd4: r0 = InitLateStaticField(0xeec) // [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
     //     0x732cd4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x732cd8: ldr             x0, [x0, #0x1dd8]
     //     0x732cdc: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2290,12 +2290,12 @@ class :: {
     //     0x732cf0: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x732cf4: mov             x1, x0
     // 0x732cf8: r0 = speakWorkoutEnded()
-    //     0x732cf8: bl              #0x74111c  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speakWorkoutEnded
+    //     0x732cf8: bl              #0x74111c  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speakWorkoutEnded
     // 0x732cfc: ldur            x2, [fp, #-0x10]
     // 0x732d00: ldur            x0, [fp, #-0x28]
     // 0x732d04: mov             x1, x2
     // 0x732d08: r0 = VideoWorkoutManagerSecondWorkoutUpsell.maybeRequestSecondWorkoutPostWorkoutUpsellOverlay()
-    //     0x732d08: bl              #0x740f98  ; [package:ballai/video_tracking/manager/video_workout_manager_second_workout_upsell.dart] ::VideoWorkoutManagerSecondWorkoutUpsell.maybeRequestSecondWorkoutPostWorkoutUpsellOverlay
+    //     0x732d08: bl              #0x740f98  ; [package:kourtai/video_tracking/manager/video_workout_manager_second_workout_upsell.dart] ::VideoWorkoutManagerSecondWorkoutUpsell.maybeRequestSecondWorkoutPostWorkoutUpsellOverlay
     // 0x732d0c: ldur            x0, [fp, #-0x10]
     // 0x732d10: r17 = 463
     //     0x732d10: mov             x17, #0x1cf
@@ -2303,13 +2303,13 @@ class :: {
     // 0x732d18: DecompressPointer r1
     //     0x732d18: add             x1, x1, HEAP, lsl #32
     // 0x732d1c: r0 = setPromptsSuppressed()
-    //     0x732d1c: bl              #0x740f88  ; [package:ballai/video_tracking/session/mediums/workout_session_permission_gate.dart] WorkoutSessionPermissionGate::setPromptsSuppressed
+    //     0x732d1c: bl              #0x740f88  ; [package:kourtai/video_tracking/session/mediums/workout_session_permission_gate.dart] WorkoutSessionPermissionGate::setPromptsSuppressed
     // 0x732d20: ldur            x0, [fp, #-0x28]
     // 0x732d24: cmp             w0, NULL
     // 0x732d28: b.eq            #0x732d40
     // 0x732d2c: mov             x1, x0
     // 0x732d30: r0 = ensureWorkoutDocument()
-    //     0x732d30: bl              #0x73fd38  ; [package:ballai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::ensureWorkoutDocument
+    //     0x732d30: bl              #0x73fd38  ; [package:kourtai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::ensureWorkoutDocument
     // 0x732d34: mov             x1, x0
     // 0x732d38: stur            x1, [fp, #-0x30]
     // 0x732d3c: r0 = Await()
@@ -2401,7 +2401,7 @@ class :: {
     // 0x732e3c: mov             x2, x1
     // 0x732e40: mov             x1, x0
     // 0x732e44: r0 = VideoWorkoutManagerWorkout._finalizeVideoStorageAndPlaylists()
-    //     0x732e44: bl              #0x73e808  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout._finalizeVideoStorageAndPlaylists
+    //     0x732e44: bl              #0x73e808  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout._finalizeVideoStorageAndPlaylists
     // 0x732e48: mov             x1, x0
     // 0x732e4c: stur            x1, [fp, #-0x30]
     // 0x732e50: r0 = Await()
@@ -2424,12 +2424,12 @@ class :: {
     //     0x732e84: add             x4, PP, #0x28, lsl #12  ; [pp+0x280d0] List(7) [0, 0x2, 0x1, 0x1, "workout", 0x1, Null]
     //     0x732e88: ldr             x4, [x4, #0xd0]
     // 0x732e8c: r0 = copyWith()
-    //     0x732e8c: bl              #0x71d984  ; [package:ballai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::copyWith
+    //     0x732e8c: bl              #0x71d984  ; [package:kourtai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::copyWith
     // 0x732e90: ldur            x1, [fp, #-0x30]
     // 0x732e94: ldur            x2, [fp, #-0x18]
     // 0x732e98: mov             x3, x0
     // 0x732e9c: r0 = generateSessionReportIfNeeded()
-    //     0x732e9c: bl              #0x732f04  ; [package:ballai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::generateSessionReportIfNeeded
+    //     0x732e9c: bl              #0x732f04  ; [package:kourtai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::generateSessionReportIfNeeded
     // 0x732ea0: ldur            x1, [fp, #-0x10]
     // 0x732ea4: r17 = 379
     //     0x732ea4: mov             x17, #0x17b
@@ -2500,7 +2500,7 @@ class :: {
     //     0x73e850: add             x1, x1, HEAP, lsl #32
     // 0x73e854: ldur            d0, [fp, #-0x20]
     // 0x73e858: r0 = finish()
-    //     0x73e858: bl              #0x73eb90  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::finish
+    //     0x73e858: bl              #0x73eb90  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::finish
     // 0x73e85c: mov             x1, x0
     // 0x73e860: stur            x1, [fp, #-0x10]
     // 0x73e864: r0 = Await()
@@ -2526,7 +2526,7 @@ class :: {
     // 0x73e898: r0 = ReturnAsyncNotFuture()
     //     0x73e898: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x73e89c: r0 = generateWorkoutPlaylists()
-    //     0x73e89c: bl              #0x73e8bc  ; [package:ballai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::generateWorkoutPlaylists
+    //     0x73e89c: bl              #0x73e8bc  ; [package:kourtai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::generateWorkoutPlaylists
     // 0x73e8a0: mov             x1, x0
     // 0x73e8a4: stur            x1, [fp, #-0x10]
     // 0x73e8a8: r0 = Await()
@@ -2596,7 +2596,7 @@ class :: {
     // 0x741200: mov             x1, x0
     // 0x741204: stur            x5, [fp, #-8]
     // 0x741208: r0 = VideoWorkoutManagerAnalyzer.isAnalyzerSession()
-    //     0x741208: bl              #0x744644  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerAnalyzer.isAnalyzerSession
+    //     0x741208: bl              #0x744644  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerAnalyzer.isAnalyzerSession
     // 0x74120c: tbz             w0, #4, #0x741298
     // 0x741210: ldur            x0, [fp, #-0x10]
     // 0x741214: ldur            x1, [fp, #-8]
@@ -2813,7 +2813,7 @@ class :: {
     // 0x741450: b               #0x74145c
     // 0x741454: mov             x1, x2
     // 0x741458: r0 = isDribblingWorkout()
-    //     0x741458: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0x741458: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0x74145c: cmp             w0, NULL
     // 0x741460: b.ne            #0x74146c
     // 0x741464: r3 = false
@@ -2824,9 +2824,9 @@ class :: {
     // 0x741474: ldur            x1, [fp, #-8]
     // 0x741478: ldur            x2, [fp, #-0x10]
     // 0x74147c: r0 = resolve()
-    //     0x74147c: bl              #0x73a164  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyBreakdownKind::resolve
+    //     0x74147c: bl              #0x73a164  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyBreakdownKind::resolve
     // 0x741480: stur            x0, [fp, #-8]
-    // 0x741484: r0 = InitLateStaticField(0xf2c) // [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::instance
+    // 0x741484: r0 = InitLateStaticField(0xf2c) // [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::instance
     //     0x741484: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x741488: ldr             x0, [x0, #0x1e58]
     //     0x74148c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2840,7 +2840,7 @@ class :: {
     // 0x7414ac: ldur            x3, [fp, #-8]
     // 0x7414b0: stur            x0, [fp, #-8]
     // 0x7414b4: r0 = markAnalyzing()
-    //     0x7414b4: bl              #0x7444f0  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::markAnalyzing
+    //     0x7414b4: bl              #0x7444f0  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::markAnalyzing
     // 0x7414b8: ldur            x0, [fp, #-0x20]
     // 0x7414bc: r1 = true
     //     0x7414bc: add             x1, NULL, #0x20  ; true
@@ -2850,7 +2850,7 @@ class :: {
     // 0x7414c8: ldur            x1, [fp, #-8]
     // 0x7414cc: ldur            x2, [fp, #-0x28]
     // 0x7414d0: r0 = runScoring()
-    //     0x7414d0: bl              #0x7414ec  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::runScoring
+    //     0x7414d0: bl              #0x7414ec  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::runScoring
     // 0x7414d4: r0 = Null
     //     0x7414d4: mov             x0, NULL
     // 0x7414d8: LeaveFrame
@@ -2889,7 +2889,7 @@ class :: {
     //     0x74467c: add             x2, x2, HEAP, lsl #32
     // 0x744680: mov             x1, x2
     // 0x744684: r0 = isAnalyzerDrillId()
-    //     0x744684: bl              #0x744734  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isAnalyzerDrillId
+    //     0x744684: bl              #0x744734  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isAnalyzerDrillId
     // 0x744688: tbnz            w0, #4, #0x744694
     // 0x74468c: r0 = true
     //     0x74468c: add             x0, NULL, #0x20  ; true
@@ -2916,7 +2916,7 @@ class :: {
     // 0x7446c8: b               #0x7446d8
     // 0x7446cc: mov             x1, x0
     // 0x7446d0: r0 = isAnalyzerWorkout()
-    //     0x7446d0: bl              #0x73e3e8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
+    //     0x7446d0: bl              #0x73e3e8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
     // 0x7446d4: mov             x1, x0
     // 0x7446d8: cmp             w1, NULL
     // 0x7446dc: b.ne            #0x7446e4
@@ -3079,7 +3079,7 @@ class :: {
     // 0x74ac44: DecompressPointer r1
     //     0x74ac44: add             x1, x1, HEAP, lsl #32
     // 0x74ac48: r0 = metadata()
-    //     0x74ac48: bl              #0x74d4c8  ; [package:ballai/video_tracking/analysis/dribble/dribble_models.dart] DribbleTimelineBuffer::metadata
+    //     0x74ac48: bl              #0x74d4c8  ; [package:kourtai/video_tracking/analysis/dribble/dribble_models.dart] DribbleTimelineBuffer::metadata
     // 0x74ac4c: ldur            x1, [fp, #-0x28]
     // 0x74ac50: stur            x0, [fp, #-0x40]
     // 0x74ac54: LoadField: r2 = r1->field_73
@@ -3333,7 +3333,7 @@ class :: {
     //     0x74af48: add             x4, PP, #0x29, lsl #12  ; [pp+0x294a0] List(39) [0, 0x12, 0x11, 0x1, "clearDribbleMaxMultiplier", 0xa, "clearDribbleScore", 0x8, "dribbleAverageHeight", 0xe, "dribbleAverageSpeedMph", 0xf, "dribbleEventChunkCount", 0x11, "dribbleEventCount", 0x10, "dribbleLeftCount", 0xc, "dribbleMadeCount", 0x5, "dribbleMaxMadeStreak", 0xb, "dribbleMaxMultiplier", 0x9, "dribbleMissedCount", 0x6, "dribbleRightCount", 0xd, "dribbleScore", 0x7, "drillCategory", 0x4, "elapsedTime", 0x3, "endDate", 0x1, "updateDate", 0x2, Null]
     //     0x74af4c: ldr             x4, [x4, #0x4a0]
     // 0x74af50: r0 = copyWith()
-    //     0x74af50: bl              #0x74c780  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::copyWith
+    //     0x74af50: bl              #0x74c780  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::copyWith
     // 0x74af54: stur            x0, [fp, #-8]
     // 0x74af58: str             x0, [SP]
     // 0x74af5c: ldur            x1, [fp, #-0x18]
@@ -3341,7 +3341,7 @@ class :: {
     //     0x74af60: add             x4, PP, #0x28, lsl #12  ; [pp+0x280d0] List(7) [0, 0x2, 0x1, 0x1, "workout", 0x1, Null]
     //     0x74af64: ldr             x4, [x4, #0xd0]
     // 0x74af68: r0 = copyWith()
-    //     0x74af68: bl              #0x71d984  ; [package:ballai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::copyWith
+    //     0x74af68: bl              #0x71d984  ; [package:kourtai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::copyWith
     // 0x74af6c: ldur            x1, [fp, #-0x28]
     // 0x74af70: r17 = 331
     //     0x74af70: mov             x17, #0x14b
@@ -3387,17 +3387,17 @@ class :: {
     // 0x74afec: r2 = true
     //     0x74afec: add             x2, NULL, #0x20  ; true
     // 0x74aff0: r0 = VideoWorkoutManagerDribble._flushDribbleTimelineChunks()
-    //     0x74aff0: bl              #0x74b4a0  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._flushDribbleTimelineChunks
+    //     0x74aff0: bl              #0x74b4a0  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._flushDribbleTimelineChunks
     // 0x74aff4: b               #0x74b004
     // 0x74aff8: ldur            x1, [fp, #-0x28]
     // 0x74affc: r2 = true
     //     0x74affc: add             x2, NULL, #0x20  ; true
     // 0x74b000: r0 = VideoWorkoutManagerDribble._flushDribbleTimelineChunks()
-    //     0x74b000: bl              #0x74b4a0  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._flushDribbleTimelineChunks
+    //     0x74b000: bl              #0x74b4a0  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._flushDribbleTimelineChunks
     // 0x74b004: ldur            x0, [fp, #-0x20]
     // 0x74b008: ldur            x1, [fp, #-0x28]
     // 0x74b00c: r0 = VideoWorkoutManagerDribble._checkDribbleWorkoutGoalProgressIfNeeded()
-    //     0x74b00c: bl              #0x74b200  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._checkDribbleWorkoutGoalProgressIfNeeded
+    //     0x74b00c: bl              #0x74b200  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._checkDribbleWorkoutGoalProgressIfNeeded
     // 0x74b010: r1 = <String>
     //     0x74b010: ldr             x1, [PP, #0x850]  ; [pp+0x850] TypeArguments: <String>
     // 0x74b014: r2 = 28
@@ -3509,7 +3509,7 @@ class :: {
     //     0x74b114: stur            w16, [x0, #0x47]
     // 0x74b118: ldur            x1, [fp, #-8]
     // 0x74b11c: r0 = VideoWorkoutManagerWorkout.updateWorkout()
-    //     0x74b11c: bl              #0x74dc88  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.updateWorkout
+    //     0x74b11c: bl              #0x74dc88  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.updateWorkout
     // 0x74b120: ldur            x1, [fp, #-0x28]
     // 0x74b124: r0 = notifyListeners()
     //     0x74b124: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -3684,7 +3684,7 @@ class :: {
     //     0x74b304: ret             
     // 0x74b308: ldur            x1, [fp, #-0x10]
     // 0x74b30c: r0 = VideoWorkoutManagerDribble._currentDribbleGoalProgressValue()
-    //     0x74b30c: bl              #0x74b384  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._currentDribbleGoalProgressValue
+    //     0x74b30c: bl              #0x74b384  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._currentDribbleGoalProgressValue
     // 0x74b310: cmp             w0, NULL
     // 0x74b314: b.ne            #0x74b328
     // 0x74b318: r0 = Null
@@ -3716,7 +3716,7 @@ class :: {
     // 0x74b360: ldur            d0, [fp, #-0x28]
     // 0x74b364: mov             x1, x2
     // 0x74b368: r0 = checkProgress()
-    //     0x74b368: bl              #0x730cb0  ; [package:ballai/video_tracking/session/goals/workout_goal_checkpoint_handler.dart] WorkoutGoalCheckpointHandler::checkProgress
+    //     0x74b368: bl              #0x730cb0  ; [package:kourtai/video_tracking/session/goals/workout_goal_checkpoint_handler.dart] WorkoutGoalCheckpointHandler::checkProgress
     // 0x74b36c: r0 = Null
     //     0x74b36c: mov             x0, NULL
     // 0x74b370: LeaveFrame
@@ -3895,7 +3895,7 @@ class :: {
     //     0x74b534: add             x1, x1, HEAP, lsl #32
     // 0x74b538: ldur            x2, [fp, #-0x10]
     // 0x74b53c: r0 = pendingChunks()
-    //     0x74b53c: bl              #0x74b5c8  ; [package:ballai/video_tracking/analysis/dribble/dribble_models.dart] DribbleTimelineBuffer::pendingChunks
+    //     0x74b53c: bl              #0x74b5c8  ; [package:kourtai/video_tracking/analysis/dribble/dribble_models.dart] DribbleTimelineBuffer::pendingChunks
     // 0x74b540: mov             x1, x0
     // 0x74b544: ldur            x2, [fp, #-0x18]
     // 0x74b548: StoreField: r2->field_13 = r0
@@ -3924,7 +3924,7 @@ class :: {
     //     0x74b58c: ret             
     // 0x74b590: ldur            x2, [fp, #-0x18]
     // 0x74b594: r1 = Function '<anonymous closure>': static.
-    //     0x74b594: add             x1, PP, #0x29, lsl #12  ; [pp+0x294a8] AnonymousClosure: static (0x74baa8), in [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._flushDribbleTimelineChunks (0x74b4a0)
+    //     0x74b594: add             x1, PP, #0x29, lsl #12  ; [pp+0x294a8] AnonymousClosure: static (0x74baa8), in [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._flushDribbleTimelineChunks (0x74b4a0)
     //     0x74b598: ldr             x1, [x1, #0x4a8]
     // 0x74b59c: r0 = AllocateClosure()
     //     0x74b59c: bl              #0xe553e0  ; AllocateClosureStub
@@ -4016,7 +4016,7 @@ class :: {
     // 0x74bb70: mov             x1, x0
     // 0x74bb74: stur            x0, [fp, #-0x28]
     // 0x74bb78: r0 = writeDribbleTimelineChunk()
-    //     0x74bb78: bl              #0x74bdd8  ; [package:ballai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::writeDribbleTimelineChunk
+    //     0x74bb78: bl              #0x74bdd8  ; [package:kourtai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::writeDribbleTimelineChunk
     // 0x74bb7c: mov             x1, x0
     // 0x74bb80: stur            x1, [fp, #-0x30]
     // 0x74bb84: r0 = Await()
@@ -4104,7 +4104,7 @@ class :: {
     //     0x74bc6c: add             x0, x0, HEAP, lsl #32
     // 0x74bc70: mov             x1, x0
     // 0x74bc74: r0 = markFlushed()
-    //     0x74bc74: bl              #0x74bc90  ; [package:ballai/video_tracking/analysis/dribble/dribble_models.dart] DribbleTimelineBuffer::markFlushed
+    //     0x74bc74: bl              #0x74bc90  ; [package:kourtai/video_tracking/analysis/dribble/dribble_models.dart] DribbleTimelineBuffer::markFlushed
     // 0x74bc78: r0 = Null
     //     0x74bc78: mov             x0, NULL
     // 0x74bc7c: r0 = ReturnAsyncNotFuture()
@@ -4141,7 +4141,7 @@ class :: {
     //     0x74d9e8: stur            w2, [x1, #0x3f]
     // 0x74d9ec: StoreField: r1->field_3b = r0
     //     0x74d9ec: stur            w0, [x1, #0x3b]
-    // 0x74d9f0: r0 = InitLateStaticField(0xeec) // [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
+    // 0x74d9f0: r0 = InitLateStaticField(0xeec) // [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
     //     0x74d9f0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x74d9f4: ldr             x0, [x0, #0x1dd8]
     //     0x74d9f8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -4152,7 +4152,7 @@ class :: {
     //     0x74da0c: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x74da10: mov             x1, x0
     // 0x74da14: r0 = stopSpeakingImmediate()
-    //     0x74da14: bl              #0x6d4278  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::stopSpeakingImmediate
+    //     0x74da14: bl              #0x6d4278  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::stopSpeakingImmediate
     // 0x74da18: ldur            x0, [fp, #-8]
     // 0x74da1c: LoadField: r1 = r0->field_27
     //     0x74da1c: ldur            w1, [x0, #0x27]
@@ -4176,7 +4176,7 @@ class :: {
     //     0x74da4c: bl              #0xe540b0  ; InitLateFinalInstanceFieldStub
     // 0x74da50: mov             x1, x0
     // 0x74da54: r0 = stop()
-    //     0x74da54: bl              #0x74a910  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::stop
+    //     0x74da54: bl              #0x74a910  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::stop
     // 0x74da58: ldur            x1, [fp, #-8]
     // 0x74da5c: r0 = notifyListeners()
     //     0x74da5c: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -4226,7 +4226,7 @@ class :: {
     // 0x74dcdc: ldur            x1, [fp, #-8]
     // 0x74dce0: stur            x0, [fp, #-0x18]
     // 0x74dce4: r0 = toFirestoreMap()
-    //     0x74dce4: bl              #0x740044  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::toFirestoreMap
+    //     0x74dce4: bl              #0x740044  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::toFirestoreMap
     // 0x74dce8: mov             x2, x0
     // 0x74dcec: ldur            x1, [fp, #-0x10]
     // 0x74dcf0: stur            x2, [fp, #-0x20]
@@ -4330,7 +4330,7 @@ class :: {
     //     0x74de1c: ret             
     // 0x74de20: ldur            x2, [fp, #-8]
     // 0x74de24: r0 = updateWorkoutFields()
-    //     0x74de24: bl              #0x74de48  ; [package:ballai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::updateWorkoutFields
+    //     0x74de24: bl              #0x74de48  ; [package:kourtai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::updateWorkoutFields
     // 0x74de28: r0 = Null
     //     0x74de28: mov             x0, NULL
     // 0x74de2c: LeaveFrame
@@ -4366,7 +4366,7 @@ class :: {
     // 0x74dfa8: b               #0x74dfb8
     // 0x74dfac: mov             x1, x0
     // 0x74dfb0: r0 = belongsToFinishingProductSurface()
-    //     0x74dfb0: bl              #0x5ed590  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToFinishingProductSurface
+    //     0x74dfb0: bl              #0x5ed590  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToFinishingProductSurface
     // 0x74dfb4: mov             x1, x0
     // 0x74dfb8: cmp             w1, NULL
     // 0x74dfbc: b.ne            #0x74dfc8
@@ -4399,7 +4399,7 @@ class :: {
     //     0x74dffc: b.ls            #0x74e044
     // 0x74e000: mov             x1, x0
     // 0x74e004: r0 = VideoWorkoutManagerDribble.isFinishingWorkoutSession()
-    //     0x74e004: bl              #0x74df7c  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isFinishingWorkoutSession
+    //     0x74e004: bl              #0x74df7c  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isFinishingWorkoutSession
     // 0x74e008: tbnz            w0, #4, #0x74e024
     // 0x74e00c: ldur            x1, [fp, #-8]
     // 0x74e010: r17 = 295
@@ -4468,7 +4468,7 @@ class :: {
     // 0x74e0b4: ldur            x2, [fp, #-0x98]
     // 0x74e0b8: stur            x4, [fp, #-0x90]
     // 0x74e0bc: r1 = Function '<anonymous closure>': static.
-    //     0x74e0bc: add             x1, PP, #0x32, lsl #12  ; [pp+0x320f8] AnonymousClosure: static (0x759154), in [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createShot (0x74e04c)
+    //     0x74e0bc: add             x1, PP, #0x32, lsl #12  ; [pp+0x320f8] AnonymousClosure: static (0x759154), in [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createShot (0x74e04c)
     //     0x74e0c0: ldr             x1, [x1, #0xf8]
     // 0x74e0c4: r0 = AllocateClosure()
     //     0x74e0c4: bl              #0xe553e0  ; AllocateClosureStub
@@ -4543,7 +4543,7 @@ class :: {
     //     0x74e18c: add             x4, PP, #0x31, lsl #12  ; [pp+0x31f20] List(7) [0, 0x2, 0x1, 0x1, "shotList", 0x1, Null]
     //     0x74e190: ldr             x4, [x4, #0xf20]
     // 0x74e194: r0 = copyWith()
-    //     0x74e194: bl              #0x71d984  ; [package:ballai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::copyWith
+    //     0x74e194: bl              #0x71d984  ; [package:kourtai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::copyWith
     // 0x74e198: ldur            x3, [fp, #-0x88]
     // 0x74e19c: r17 = 331
     //     0x74e19c: mov             x17, #0x14b
@@ -4566,7 +4566,7 @@ class :: {
     //     0x74e1d4: add             x2, x2, HEAP, lsl #32
     // 0x74e1d8: mov             x1, x3
     // 0x74e1dc: r0 = VideoWorkoutManagerWorkout.registerShotForScoring()
-    //     0x74e1dc: bl              #0x758de0  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.registerShotForScoring
+    //     0x74e1dc: bl              #0x758de0  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.registerShotForScoring
     // 0x74e1e0: ldur            x1, [fp, #-0x88]
     // 0x74e1e4: r17 = 275
     //     0x74e1e4: mov             x17, #0x113
@@ -4632,7 +4632,7 @@ class :: {
     //     0x74e284: sbfx            x3, x0, #1, #0x1f
     // 0x74e288: ldur            x1, [fp, #-0xb0]
     // 0x74e28c: r0 = updateShootingTotals()
-    //     0x74e28c: bl              #0x74e434  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::updateShootingTotals
+    //     0x74e28c: bl              #0x74e434  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::updateShootingTotals
     // 0x74e290: ldur            x1, [fp, #-0x88]
     // 0x74e294: r0 = notifyListeners()
     //     0x74e294: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -4642,7 +4642,7 @@ class :: {
     // 0x74e2a0: DecompressPointer r1
     //     0x74e2a0: add             x1, x1, HEAP, lsl #32
     // 0x74e2a4: r0 = createShot()
-    //     0x74e2a4: bl              #0x74e338  ; [package:ballai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::createShot
+    //     0x74e2a4: bl              #0x74e338  ; [package:kourtai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::createShot
     // 0x74e2a8: mov             x1, x0
     // 0x74e2ac: stur            x1, [fp, #-0x88]
     // 0x74e2b0: r0 = Await()
@@ -4714,7 +4714,7 @@ class :: {
     //     0x758e00: b.ls            #0x758e70
     // 0x758e04: mov             x1, x0
     // 0x758e08: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x758e08: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x758e08: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x758e0c: tbnz            w0, #4, #0x758e20
     // 0x758e10: r0 = Null
     //     0x758e10: mov             x0, NULL
@@ -4726,7 +4726,7 @@ class :: {
     // 0x758e20: ldur            x0, [fp, #-0x10]
     // 0x758e24: ldur            x1, [fp, #-8]
     // 0x758e28: r0 = VideoWorkoutManagerDribble.activeMakeMissScoreHandler()
-    //     0x758e28: bl              #0x74dfe0  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.activeMakeMissScoreHandler
+    //     0x758e28: bl              #0x74dfe0  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.activeMakeMissScoreHandler
     // 0x758e2c: mov             x1, x0
     // 0x758e30: ldur            x0, [fp, #-0x10]
     // 0x758e34: stur            x1, [fp, #-8]
@@ -4736,7 +4736,7 @@ class :: {
     //     0x758e3c: add             x2, x2, HEAP, lsl #32
     // 0x758e40: tbnz            w2, #4, #0x758e50
     // 0x758e44: r0 = scored()
-    //     0x758e44: bl              #0x75911c  ; [package:ballai/video_tracking/scoring/score_handler.dart] ScoreEvent::scored
+    //     0x758e44: bl              #0x75911c  ; [package:kourtai/video_tracking/scoring/score_handler.dart] ScoreEvent::scored
     // 0x758e48: mov             x2, x0
     // 0x758e4c: b               #0x758e58
     // 0x758e50: r2 = Instance_ScoreEvent
@@ -4744,7 +4744,7 @@ class :: {
     //     0x758e54: ldr             x2, [x2, #0xa50]
     // 0x758e58: ldur            x1, [fp, #-8]
     // 0x758e5c: r0 = register()
-    //     0x758e5c: bl              #0x758e78  ; [package:ballai/video_tracking/scoring/score_handler.dart] ScoreHandler::register
+    //     0x758e5c: bl              #0x758e78  ; [package:kourtai/video_tracking/scoring/score_handler.dart] ScoreHandler::register
     // 0x758e60: r0 = Null
     //     0x758e60: mov             x0, NULL
     // 0x758e64: LeaveFrame
@@ -4867,7 +4867,7 @@ class :: {
     // 0x766c98: mov             x2, x1
     // 0x766c9c: stur            x4, [fp, #-0x20]
     // 0x766ca0: r1 = Function '<anonymous closure>': static.
-    //     0x766ca0: add             x1, PP, #0x32, lsl #12  ; [pp+0x32db0] AnonymousClosure: (0x767170), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
+    //     0x766ca0: add             x1, PP, #0x32, lsl #12  ; [pp+0x32db0] AnonymousClosure: (0x767170), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
     //     0x766ca4: ldr             x1, [x1, #0xdb0]
     // 0x766ca8: r0 = AllocateClosure()
     //     0x766ca8: bl              #0xe553e0  ; AllocateClosureStub
@@ -5120,7 +5120,7 @@ class :: {
     //     0x766f34: add             x4, PP, #0x31, lsl #12  ; [pp+0x31f20] List(7) [0, 0x2, 0x1, 0x1, "shotList", 0x1, Null]
     //     0x766f38: ldr             x4, [x4, #0xf20]
     // 0x766f3c: r0 = copyWith()
-    //     0x766f3c: bl              #0x71d984  ; [package:ballai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::copyWith
+    //     0x766f3c: bl              #0x71d984  ; [package:kourtai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::copyWith
     // 0x766f40: ldur            x3, [fp, #-0x10]
     // 0x766f44: r17 = 331
     //     0x766f44: mov             x17, #0x14b
@@ -5135,16 +5135,16 @@ class :: {
     // 0x766f64: mov             x1, x3
     // 0x766f68: ldur            x2, [fp, #-0x20]
     // 0x766f6c: r0 = VideoWorkoutManagerWorkout.recomputeShootingScore()
-    //     0x766f6c: bl              #0x766fa4  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.recomputeShootingScore
+    //     0x766f6c: bl              #0x766fa4  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.recomputeShootingScore
     // 0x766f70: ldur            x1, [fp, #-0x10]
     // 0x766f74: ldur            x2, [fp, #-0x18]
     // 0x766f78: r0 = VideoWorkoutManagerWorkout.updateShot()
-    //     0x766f78: bl              #0x71d230  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.updateShot
+    //     0x766f78: bl              #0x71d230  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.updateShot
     // 0x766f7c: ldur            x1, [fp, #-0x10]
     // 0x766f80: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x766f80: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x766f84: r0 = VideoWorkoutManagerWorkout.updateWorkoutSummary()
-    //     0x766f84: bl              #0x730074  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.updateWorkoutSummary
+    //     0x766f84: bl              #0x730074  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.updateWorkoutSummary
     // 0x766f88: r0 = Null
     //     0x766f88: mov             x0, NULL
     // 0x766f8c: LeaveFrame
@@ -5175,7 +5175,7 @@ class :: {
     //     0x766fc4: b.ls            #0x767108
     // 0x766fc8: mov             x1, x0
     // 0x766fcc: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x766fcc: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x766fcc: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x766fd0: tbnz            w0, #4, #0x766fe4
     // 0x766fd4: r0 = Null
     //     0x766fd4: mov             x0, NULL
@@ -5187,11 +5187,11 @@ class :: {
     // 0x766fe4: ldur            x0, [fp, #-0x10]
     // 0x766fe8: ldur            x1, [fp, #-8]
     // 0x766fec: r0 = VideoWorkoutManagerDribble.activeMakeMissScoreHandler()
-    //     0x766fec: bl              #0x74dfe0  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.activeMakeMissScoreHandler
+    //     0x766fec: bl              #0x74dfe0  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.activeMakeMissScoreHandler
     // 0x766ff0: mov             x1, x0
     // 0x766ff4: stur            x0, [fp, #-8]
     // 0x766ff8: r0 = reset()
-    //     0x766ff8: bl              #0x767118  ; [package:ballai/video_tracking/scoring/score_handler.dart] ScoreHandler::reset
+    //     0x766ff8: bl              #0x767118  ; [package:kourtai/video_tracking/scoring/score_handler.dart] ScoreHandler::reset
     // 0x766ffc: ldur            x0, [fp, #-0x10]
     // 0x767000: LoadField: r1 = r0->field_b
     //     0x767000: ldur            w1, [x0, #0xb]
@@ -5260,7 +5260,7 @@ class :: {
     // 0x7670a4: DecompressPointer r3
     //     0x7670a4: add             x3, x3, HEAP, lsl #32
     // 0x7670a8: r0 = apply()
-    //     0x7670a8: bl              #0x758ee8  ; [package:ballai/video_tracking/scoring/score_handler.dart] ScoringMath::apply
+    //     0x7670a8: bl              #0x758ee8  ; [package:kourtai/video_tracking/scoring/score_handler.dart] ScoringMath::apply
     // 0x7670ac: ldur            x1, [fp, #-8]
     // 0x7670b0: StoreField: r1->field_b = r0
     //     0x7670b0: stur            w0, [x1, #0xb]
@@ -5332,7 +5332,7 @@ class :: {
     // 0x772ad4: DecompressPointer r1
     //     0x772ad4: add             x1, x1, HEAP, lsl #32
     // 0x772ad8: r0 = VideoWorkoutManagerDribble._dribbleMissReasonBucket()
-    //     0x772ad8: bl              #0x77420c  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._dribbleMissReasonBucket
+    //     0x772ad8: bl              #0x77420c  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._dribbleMissReasonBucket
     // 0x772adc: mov             x3, x0
     // 0x772ae0: ldur            x0, [fp, #-8]
     // 0x772ae4: stur            x3, [fp, #-0x18]
@@ -5403,7 +5403,7 @@ class :: {
     //     0x772bac: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x772bb0: ldur            x1, [fp, #-0x28]
     // 0x772bb4: r0 = VideoWorkoutManagerDribble._dribbleMissSummaryText()
-    //     0x772bb4: bl              #0x77409c  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._dribbleMissSummaryText
+    //     0x772bb4: bl              #0x77409c  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._dribbleMissSummaryText
     // 0x772bb8: ldur            x0, [fp, #-8]
     // 0x772bbc: StoreField: r0->field_97 = rZR
     //     0x772bbc: stur            xzr, [x0, #0x97]
@@ -5462,7 +5462,7 @@ class :: {
     // 0x772c58: r3 = Null
     //     0x772c58: mov             x3, NULL
     // 0x772c5c: r0 = VideoWorkoutManagerDribble._appendDribbleTimelineEvent()
-    //     0x772c5c: bl              #0x773c14  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._appendDribbleTimelineEvent
+    //     0x772c5c: bl              #0x773c14  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._appendDribbleTimelineEvent
     // 0x772c60: ldur            x1, [fp, #-8]
     // 0x772c64: r17 = 275
     //     0x772c64: mov             x17, #0x113
@@ -5491,10 +5491,10 @@ class :: {
     // 0x772ca0: add             x3, x2, x1
     // 0x772ca4: mov             x1, x0
     // 0x772ca8: r0 = updateDribbleTotals()
-    //     0x772ca8: bl              #0x773ba8  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::updateDribbleTotals
+    //     0x772ca8: bl              #0x773ba8  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::updateDribbleTotals
     // 0x772cac: ldur            x1, [fp, #-8]
     // 0x772cb0: r0 = VideoWorkoutManagerDribble._scheduleDribbleWorkoutSyncIfNeeded()
-    //     0x772cb0: bl              #0x773ab4  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._scheduleDribbleWorkoutSyncIfNeeded
+    //     0x772cb0: bl              #0x773ab4  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._scheduleDribbleWorkoutSyncIfNeeded
     // 0x772cb4: ldur            x1, [fp, #-8]
     // 0x772cb8: r0 = notifyListeners()
     //     0x772cb8: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -5532,7 +5532,7 @@ class :: {
     // 0x772d08: mov             x1, x0
     // 0x772d0c: ldur            x2, [fp, #-0x10]
     // 0x772d10: r0 = VideoWorkoutManagerDribble._applyMadeDribbleMetrics()
-    //     0x772d10: bl              #0x7735fc  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._applyMadeDribbleMetrics
+    //     0x772d10: bl              #0x7735fc  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._applyMadeDribbleMetrics
     // 0x772d14: ldur            x1, [fp, #-8]
     // 0x772d18: r0 = _simpleInstanceOfTrue()
     //     0x772d18: bl              #0xe41374  ; [dart:core] Object::_simpleInstanceOfTrue
@@ -5610,7 +5610,7 @@ class :: {
     // 0x772de4: ldur            d0, [fp, #-0x30]
     // 0x772de8: mov             x1, x0
     // 0x772dec: r0 = VideoWorkoutManagerDribble._resolveHandSwitchBonus()
-    //     0x772dec: bl              #0x7732d4  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._resolveHandSwitchBonus
+    //     0x772dec: bl              #0x7732d4  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._resolveHandSwitchBonus
     // 0x772df0: mov             x2, x0
     // 0x772df4: mov             x3, x1
     // 0x772df8: ldur            x4, [fp, #-8]
@@ -5696,7 +5696,7 @@ class :: {
     // 0x772ee8: mov             x1, x4
     // 0x772eec: mov             v0.16b, v1.16b
     // 0x772ef0: r0 = VideoWorkoutManagerDribble._announceDribbleScoringMilestones()
-    //     0x772ef0: bl              #0x773074  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._announceDribbleScoringMilestones
+    //     0x772ef0: bl              #0x773074  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._announceDribbleScoringMilestones
     // 0x772ef4: ldur            x1, [fp, #-0x18]
     // 0x772ef8: r16 = Instance_DribbleHand
     //     0x772ef8: add             x16, PP, #0x17, lsl #12  ; [pp+0x17898] Obj!DribbleHand@d39281
@@ -5771,7 +5771,7 @@ class :: {
     // 0x772fd0: ldur            x2, [fp, #-0x10]
     // 0x772fd4: ldur            d1, [fp, #-0x30]
     // 0x772fd8: r0 = VideoWorkoutManagerDribble._appendDribbleTimelineEvent()
-    //     0x772fd8: bl              #0x773c14  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._appendDribbleTimelineEvent
+    //     0x772fd8: bl              #0x773c14  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._appendDribbleTimelineEvent
     // 0x772fdc: ldur            x1, [fp, #-8]
     // 0x772fe0: r17 = 275
     //     0x772fe0: mov             x17, #0x113
@@ -5800,13 +5800,13 @@ class :: {
     // 0x77301c: add             x3, x2, x1
     // 0x773020: mov             x1, x0
     // 0x773024: r0 = updateDribbleTotals()
-    //     0x773024: bl              #0x773ba8  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::updateDribbleTotals
+    //     0x773024: bl              #0x773ba8  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::updateDribbleTotals
     // 0x773028: ldur            x1, [fp, #-8]
     // 0x77302c: r0 = VideoWorkoutManagerDribble._scheduleDribbleWorkoutSyncIfNeeded()
-    //     0x77302c: bl              #0x773ab4  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._scheduleDribbleWorkoutSyncIfNeeded
+    //     0x77302c: bl              #0x773ab4  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._scheduleDribbleWorkoutSyncIfNeeded
     // 0x773030: ldur            x1, [fp, #-8]
     // 0x773034: r0 = VideoWorkoutManagerDribble._checkDribbleWorkoutGoalProgressIfNeeded()
-    //     0x773034: bl              #0x74b200  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._checkDribbleWorkoutGoalProgressIfNeeded
+    //     0x773034: bl              #0x74b200  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._checkDribbleWorkoutGoalProgressIfNeeded
     // 0x773038: ldur            x1, [fp, #-8]
     // 0x77303c: r0 = notifyListeners()
     //     0x77303c: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -5937,7 +5937,7 @@ class :: {
     // 0x7731c0: r0 = toStringAsFixed()
     //     0x7731c0: bl              #0x6d55fc  ; [dart:core] _Double::toStringAsFixed
     // 0x7731c4: stur            x0, [fp, #-8]
-    // 0x7731c8: r0 = InitLateStaticField(0xeec) // [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
+    // 0x7731c8: r0 = InitLateStaticField(0xeec) // [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
     //     0x7731c8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x7731cc: ldr             x0, [x0, #0x1dd8]
     //     0x7731d0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -5974,7 +5974,7 @@ class :: {
     //     0x773228: add             x4, PP, #0x32, lsl #12  ; [pp+0x32fb8] List(7) [0, 0x3, 0x1, 0x2, "showText", 0x2, Null]
     //     0x77322c: ldr             x4, [x4, #0xfb8]
     // 0x773230: r0 = speak()
-    //     0x773230: bl              #0x6d2cd4  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
+    //     0x773230: bl              #0x6d2cd4  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
     // 0x773234: r0 = Null
     //     0x773234: mov             x0, NULL
     // 0x773238: LeaveFrame
@@ -6193,7 +6193,7 @@ class :: {
     //     0x773478: ldur            x3, [x2, #7]
     // 0x77347c: mov             x2, x3
     // 0x773480: r0 = VideoWorkoutManagerDribble._dribbleHandSwitchCallout()
-    //     0x773480: bl              #0x7734a0  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._dribbleHandSwitchCallout
+    //     0x773480: bl              #0x7734a0  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._dribbleHandSwitchCallout
     // 0x773484: mov             x1, x0
     // 0x773488: ldur            x0, [fp, #-0x10]
     // 0x77348c: LeaveFrame
@@ -6410,7 +6410,7 @@ class :: {
     //     0x7736e0: bl              #0xe547fc  ; WriteBarrierWrappersStub
     // 0x7736e4: mov             x1, x2
     // 0x7736e8: r0 = VideoWorkoutManagerDribble._averageDribbleHeight()
-    //     0x7736e8: bl              #0x7738c8  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._averageDribbleHeight
+    //     0x7736e8: bl              #0x7738c8  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._averageDribbleHeight
     // 0x7736ec: ldur            x3, [fp, #-0x10]
     // 0x7736f0: StoreField: r3->field_e7 = r0
     //     0x7736f0: stur            w0, [x3, #0xe7]
@@ -6489,7 +6489,7 @@ class :: {
     //     0x7737cc: bl              #0xe547fc  ; WriteBarrierWrappersStub
     // 0x7737d0: mov             x1, x2
     // 0x7737d4: r0 = VideoWorkoutManagerDribble._averageDribbleSpeedMph()
-    //     0x7737d4: bl              #0x773810  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._averageDribbleSpeedMph
+    //     0x7737d4: bl              #0x773810  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._averageDribbleSpeedMph
     // 0x7737d8: ldur            x1, [fp, #-0x10]
     // 0x7737dc: StoreField: r1->field_eb = r0
     //     0x7737dc: stur            w0, [x1, #0xeb]
@@ -6535,7 +6535,7 @@ class :: {
     // 0x773844: ret
     //     0x773844: ret             
     // 0x773848: r1 = Function '<anonymous closure>': static.
-    //     0x773848: add             x1, PP, #0x32, lsl #12  ; [pp+0x32ff0] AnonymousClosure: static (0x713694), in [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
+    //     0x773848: add             x1, PP, #0x32, lsl #12  ; [pp+0x32ff0] AnonymousClosure: static (0x713694), in [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
     //     0x77384c: ldr             x1, [x1, #0xff0]
     // 0x773850: r2 = Null
     //     0x773850: mov             x2, NULL
@@ -6719,7 +6719,7 @@ class :: {
     // 0x773a4c: StoreField: r3->field_b = r0
     //     0x773a4c: stur            w0, [x3, #0xb]
     // 0x773a50: r1 = Function '<anonymous closure>': static.
-    //     0x773a50: add             x1, PP, #0x32, lsl #12  ; [pp+0x32ff8] AnonymousClosure: static (0x737c54), in [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_maxKey (0x737a4c)
+    //     0x773a50: add             x1, PP, #0x32, lsl #12  ; [pp+0x32ff8] AnonymousClosure: static (0x737c54), in [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_maxKey (0x737a4c)
     //     0x773a54: ldr             x1, [x1, #0xff8]
     // 0x773a58: r2 = Null
     //     0x773a58: mov             x2, NULL
@@ -6842,7 +6842,7 @@ class :: {
     // 0x773b88: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x773b88: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x773b8c: r0 = VideoWorkoutManagerDribble.syncDribbleWorkoutSummary()
-    //     0x773b8c: bl              #0x74aab0  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.syncDribbleWorkoutSummary
+    //     0x773b8c: bl              #0x74aab0  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.syncDribbleWorkoutSummary
     // 0x773b90: r0 = Null
     //     0x773b90: mov             x0, NULL
     // 0x773b94: LeaveFrame
@@ -7183,7 +7183,7 @@ class :: {
     // 0x773fac: r2 = false
     //     0x773fac: add             x2, NULL, #0x30  ; false
     // 0x773fb0: r0 = VideoWorkoutManagerDribble._flushDribbleTimelineChunks()
-    //     0x773fb0: bl              #0x74b4a0  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._flushDribbleTimelineChunks
+    //     0x773fb0: bl              #0x74b4a0  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble._flushDribbleTimelineChunks
     // 0x773fb4: r0 = Null
     //     0x773fb4: mov             x0, NULL
     // 0x773fb8: LeaveFrame
@@ -7316,7 +7316,7 @@ class :: {
     // 0x774118: StoreField: r3->field_b = r0
     //     0x774118: stur            w0, [x3, #0xb]
     // 0x77411c: r1 = Function '<anonymous closure>': static.
-    //     0x77411c: add             x1, PP, #0x33, lsl #12  ; [pp+0x33010] AnonymousClosure: static (0x737c54), in [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_maxKey (0x737a4c)
+    //     0x77411c: add             x1, PP, #0x33, lsl #12  ; [pp+0x33010] AnonymousClosure: static (0x737c54), in [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_maxKey (0x737a4c)
     //     0x774120: ldr             x1, [x1, #0x10]
     // 0x774124: r2 = Null
     //     0x774124: mov             x2, NULL
@@ -7645,7 +7645,7 @@ class :: {
     // 0x795588: DecompressPointer r1
     //     0x795588: add             x1, x1, HEAP, lsl #32
     // 0x79558c: r0 = resolve()
-    //     0x79558c: bl              #0x7967dc  ; [package:ballai/video_tracking/session/mediums/workout_session_permission_gate.dart] WorkoutSessionPermissionGate::resolve
+    //     0x79558c: bl              #0x7967dc  ; [package:kourtai/video_tracking/session/mediums/workout_session_permission_gate.dart] WorkoutSessionPermissionGate::resolve
     // 0x795590: mov             x1, x0
     // 0x795594: stur            x1, [fp, #-0x20]
     // 0x795598: r0 = Await()
@@ -7681,7 +7681,7 @@ class :: {
     //     0x7955e8: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x7955ec: mov             x2, x3
     // 0x7955f0: r0 = VideoWorkoutManagerSession._primeWorkoutStartLocation()
-    //     0x7955f0: bl              #0x795604  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._primeWorkoutStartLocation
+    //     0x7955f0: bl              #0x795604  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._primeWorkoutStartLocation
     // 0x7955f4: r0 = Null
     //     0x7955f4: mov             x0, NULL
     // 0x7955f8: r0 = ReturnAsyncNotFuture()
@@ -7863,7 +7863,7 @@ class :: {
     // 0x7957f4: mov             x3, x4
     // 0x7957f8: stur            x6, [fp, #-0xa0]
     // 0x7957fc: r0 = cityStateCountry()
-    //     0x7957fc: bl              #0x79596c  ; [package:ballai/automatic/utility/location/location_text_formatter.dart] LocationTextFormatter::cityStateCountry
+    //     0x7957fc: bl              #0x79596c  ; [package:kourtai/automatic/utility/location/location_text_formatter.dart] LocationTextFormatter::cityStateCountry
     // 0x795800: ldur            x2, [fp, #-0x88]
     // 0x795804: r17 = 459
     //     0x795804: mov             x17, #0x1cb
@@ -8057,7 +8057,7 @@ class :: {
     // 0x99824c: b.ne            #0x998268
     // 0x998250: mov             x1, x0
     // 0x998254: r0 = VideoWorkoutManagerSession.startWorkout()
-    //     0x998254: bl              #0x999f78  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.startWorkout
+    //     0x998254: bl              #0x999f78  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.startWorkout
     // 0x998258: r0 = Null
     //     0x998258: mov             x0, NULL
     // 0x99825c: LeaveFrame
@@ -8071,14 +8071,14 @@ class :: {
     //     0x99826c: stur            w1, [x0, #0x3b]
     // 0x998270: mov             x1, x0
     // 0x998274: r0 = enableMarketingModeIfEligible()
-    //     0x998274: bl              #0x999e30  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::enableMarketingModeIfEligible
+    //     0x998274: bl              #0x999e30  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::enableMarketingModeIfEligible
     // 0x998278: ldur            x1, [fp, #-8]
     // 0x99827c: r0 = VideoWorkoutManagerSession._startBallySuggestionsIfNeeded()
-    //     0x99827c: bl              #0x99952c  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._startBallySuggestionsIfNeeded
+    //     0x99827c: bl              #0x99952c  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._startBallySuggestionsIfNeeded
     // 0x998280: ldur            x1, [fp, #-8]
     // 0x998284: ldur            x2, [fp, #-0x10]
     // 0x998288: r0 = VideoWorkoutManagerSession._workoutOpeningBriefingLines()
-    //     0x998288: bl              #0x998398  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._workoutOpeningBriefingLines
+    //     0x998288: bl              #0x998398  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._workoutOpeningBriefingLines
     // 0x99828c: mov             x3, x0
     // 0x998290: ldur            x2, [fp, #-0x18]
     // 0x998294: StoreField: r2->field_13 = r0
@@ -8144,7 +8144,7 @@ class :: {
     //     0x99834c: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
     // 0x998350: ldur            x2, [fp, #-0x18]
     // 0x998354: r1 = Function '<anonymous closure>': static.
-    //     0x998354: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c90] AnonymousClosure: static (0x99eb90), in [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.beginWorkoutOpeningBriefing (0x9981b8)
+    //     0x998354: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c90] AnonymousClosure: static (0x99eb90), in [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.beginWorkoutOpeningBriefing (0x9981b8)
     //     0x998358: ldr             x1, [x1, #0xc90]
     // 0x99835c: r0 = AllocateClosure()
     //     0x99835c: bl              #0xe553e0  ; AllocateClosureStub
@@ -8202,7 +8202,7 @@ class :: {
     // 0x9983e0: DecompressPointer r1
     //     0x9983e0: add             x1, x1, HEAP, lsl #32
     // 0x9983e4: r0 = VideoWorkoutManagerSession._drillSessionDisplayName()
-    //     0x9983e4: bl              #0x999310  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._drillSessionDisplayName
+    //     0x9983e4: bl              #0x999310  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._drillSessionDisplayName
     // 0x9983e8: cmp             w0, NULL
     // 0x9983ec: b.eq            #0x998490
     // 0x9983f0: LoadField: r1 = r0->field_7
@@ -8211,7 +8211,7 @@ class :: {
     // 0x9983f8: ldur            x2, [fp, #-0x18]
     // 0x9983fc: mov             x1, x0
     // 0x998400: r0 = L()
-    //     0x998400: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x998400: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x998404: mov             x2, x0
     // 0x998408: ldur            x0, [fp, #-0x18]
     // 0x99840c: stur            x2, [fp, #-0x28]
@@ -8271,7 +8271,7 @@ class :: {
     //     0x9984ac: mov             x0, NULL
     // 0x9984b0: b               #0x9984b8
     // 0x9984b4: r0 = instructionLines()
-    //     0x9984b4: bl              #0x99922c  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::instructionLines
+    //     0x9984b4: bl              #0x99922c  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::instructionLines
     // 0x9984b8: cmp             w0, NULL
     // 0x9984bc: b.ne            #0x9984c8
     // 0x9984c0: r3 = const []
@@ -8281,7 +8281,7 @@ class :: {
     // 0x9984cc: ldur            x0, [fp, #-0x10]
     // 0x9984d0: stur            x3, [fp, #-8]
     // 0x9984d4: r1 = Function '<anonymous closure>': static.
-    //     0x9984d4: add             x1, PP, #0x40, lsl #12  ; [pp+0x40cf0] AnonymousClosure: static (0x9994f4), in [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._workoutOpeningBriefingLines (0x998398)
+    //     0x9984d4: add             x1, PP, #0x40, lsl #12  ; [pp+0x40cf0] AnonymousClosure: static (0x9994f4), in [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._workoutOpeningBriefingLines (0x998398)
     //     0x9984d8: ldr             x1, [x1, #0xcf0]
     // 0x9984dc: r2 = Null
     //     0x9984dc: mov             x2, NULL
@@ -8332,7 +8332,7 @@ class :: {
     // 0x99855c: ldur            x0, [fp, #-0x18]
     // 0x998560: ldur            x1, [fp, #-0x10]
     // 0x998564: r0 = spokenGoalStartAnnouncement()
-    //     0x998564: bl              #0x998734  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::spokenGoalStartAnnouncement
+    //     0x998564: bl              #0x998734  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::spokenGoalStartAnnouncement
     // 0x998568: r1 = Null
     //     0x998568: mov             x1, NULL
     // 0x99856c: r2 = 2
@@ -8362,7 +8362,7 @@ class :: {
     //     0x9985a8: add             x1, PP, #0x40, lsl #12  ; [pp+0x40d00] "Goal: %@"
     //     0x9985ac: ldr             x1, [x1, #0xd00]
     // 0x9985b0: r0 = LF()
-    //     0x9985b0: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x9985b0: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x9985b4: mov             x2, x0
     // 0x9985b8: ldur            x0, [fp, #-0x18]
     // 0x9985bc: stur            x2, [fp, #-8]
@@ -8412,7 +8412,7 @@ class :: {
     //     0x99863c: add             x1, PP, #0x20, lsl #12  ; [pp+0x209b8] "Let\'s hoop!"
     //     0x998640: ldr             x1, [x1, #0x9b8]
     // 0x998644: r0 = L()
-    //     0x998644: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x998644: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x998648: mov             x2, x0
     // 0x99864c: ldur            x0, [fp, #-0x18]
     // 0x998650: stur            x2, [fp, #-8]
@@ -8574,7 +8574,7 @@ class :: {
     //     0x9993bc: ldr             lr, [x21, lr, lsl #3]
     //     0x9993c0: blr             lr
     // 0x9993c4: r1 = Function '<anonymous closure>': static.
-    //     0x9993c4: add             x1, PP, #0x29, lsl #12  ; [pp+0x295c8] AnonymousClosure: static (0x999418), in [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._drillSessionDisplayName (0x999310)
+    //     0x9993c4: add             x1, PP, #0x29, lsl #12  ; [pp+0x295c8] AnonymousClosure: static (0x999418), in [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._drillSessionDisplayName (0x999310)
     //     0x9993c8: ldr             x1, [x1, #0x5c8]
     // 0x9993cc: r2 = Null
     //     0x9993cc: mov             x2, NULL
@@ -8700,7 +8700,7 @@ class :: {
     //     0x99950c: bl              #0x5ed854  ; [dart:core] _StringBase::trim
     // 0x999510: mov             x1, x0
     // 0x999514: r0 = L()
-    //     0x999514: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x999514: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x999518: LeaveFrame
     //     0x999518: mov             SP, fp
     //     0x99951c: ldp             fp, lr, [SP], #0x10
@@ -8786,11 +8786,11 @@ class :: {
     //     0x9995e0: ret             
     // 0x9995e4: ldur            x1, [fp, #-0x10]
     // 0x9995e8: r0 = belongsToDribblingProductSurface()
-    //     0x9995e8: bl              #0x5edb70  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
+    //     0x9995e8: bl              #0x5edb70  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
     // 0x9995ec: ldur            x1, [fp, #-0x10]
     // 0x9995f0: stur            x0, [fp, #-0x20]
     // 0x9995f4: r0 = belongsToFinishingProductSurface()
-    //     0x9995f4: bl              #0x5ed590  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToFinishingProductSurface
+    //     0x9995f4: bl              #0x5ed590  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToFinishingProductSurface
     // 0x9995f8: mov             x1, x0
     // 0x9995fc: ldur            x0, [fp, #-0x20]
     // 0x999600: tbnz            w0, #4, #0x999610
@@ -8822,7 +8822,7 @@ class :: {
     // 0x99964c: mov             x1, x2
     // 0x999650: stur            x0, [fp, #-8]
     // 0x999654: r0 = instructionLines()
-    //     0x999654: bl              #0x99922c  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::instructionLines
+    //     0x999654: bl              #0x99922c  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::instructionLines
     // 0x999658: r16 = " "
     //     0x999658: ldr             x16, [PP, #0x878]  ; [pp+0x878] " "
     // 0x99965c: str             x16, [SP]
@@ -8834,17 +8834,17 @@ class :: {
     // 0x99966c: ldur            x1, [fp, #-0x10]
     // 0x999670: stur            x0, [fp, #-0x10]
     // 0x999674: r0 = usesLabCatalogForGuidedSuggestions()
-    //     0x999674: bl              #0x999c4c  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::usesLabCatalogForGuidedSuggestions
+    //     0x999674: bl              #0x999c4c  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::usesLabCatalogForGuidedSuggestions
     // 0x999678: ldur            x1, [fp, #-0x20]
     // 0x99967c: ldur            x2, [fp, #-0x10]
     // 0x999680: ldur            x3, [fp, #-8]
     // 0x999684: ldur            x5, [fp, #-0x28]
     // 0x999688: mov             x6, x0
     // 0x99968c: r0 = start()
-    //     0x99968c: bl              #0x9996d0  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::start
+    //     0x99968c: bl              #0x9996d0  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::start
     // 0x999690: ldur            x2, [fp, #-0x18]
     // 0x999694: r1 = Function '<anonymous closure>': static.
-    //     0x999694: add             x1, PP, #0x40, lsl #12  ; [pp+0x40d18] AnonymousClosure: static (0x999cc4), in [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._startBallySuggestionsIfNeeded (0x99952c)
+    //     0x999694: add             x1, PP, #0x40, lsl #12  ; [pp+0x40d18] AnonymousClosure: static (0x999cc4), in [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._startBallySuggestionsIfNeeded (0x99952c)
     //     0x999698: ldr             x1, [x1, #0xd18]
     // 0x99969c: r0 = AllocateClosure()
     //     0x99969c: bl              #0xe553e0  ; AllocateClosureStub
@@ -8957,7 +8957,7 @@ class :: {
     // 0x999da0: DecompressPointer r1
     //     0x999da0: add             x1, x1, HEAP, lsl #32
     // 0x999da4: r0 = announcePendingPhaseIfReady()
-    //     0x999da4: bl              #0x999dc0  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::announcePendingPhaseIfReady
+    //     0x999da4: bl              #0x999dc0  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::announcePendingPhaseIfReady
     // 0x999da8: r0 = Null
     //     0x999da8: mov             x0, NULL
     // 0x999dac: LeaveFrame
@@ -9027,7 +9027,7 @@ class :: {
     // 0x99a000: stur            x4, [fp, #-0x90]
     // 0x99a004: mov             x1, x2
     // 0x99a008: r0 = displaySessionName()
-    //     0x99a008: bl              #0x99eae4  ; [package:ballai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::displaySessionName
+    //     0x99a008: bl              #0x99eae4  ; [package:kourtai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::displaySessionName
     // 0x99a00c: mov             x4, x0
     // 0x99a010: ldur            x0, [fp, #-0x98]
     // 0x99a014: stur            x4, [fp, #-0xb0]
@@ -9048,7 +9048,7 @@ class :: {
     // 0x99a040: mov             x5, x6
     // 0x99a044: stur            x8, [fp, #-0xa0]
     // 0x99a048: r0 = VideoWorkoutManagerWorkout.createWorkout()
-    //     0x99a048: bl              #0x99b1fc  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createWorkout
+    //     0x99a048: bl              #0x99b1fc  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createWorkout
     // 0x99a04c: mov             x1, x0
     // 0x99a050: stur            x1, [fp, #-0xb8]
     // 0x99a054: r0 = Await()
@@ -9085,7 +9085,7 @@ class :: {
     //     0x99a0a8: add             x3, NULL, #0x30  ; false
     // 0x99a0ac: mov             x1, x0
     // 0x99a0b0: r0 = enableMarketingModeIfEligible()
-    //     0x99a0b0: bl              #0x999e30  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::enableMarketingModeIfEligible
+    //     0x99a0b0: bl              #0x999e30  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::enableMarketingModeIfEligible
     // 0x99a0b4: ldur            x1, [fp, #-0x88]
     // 0x99a0b8: r0 = true
     //     0x99a0b8: add             x0, NULL, #0x20  ; true
@@ -9141,7 +9141,7 @@ class :: {
     // 0x99a140: DecompressPointer r1
     //     0x99a140: add             x1, x1, HEAP, lsl #32
     // 0x99a144: r0 = reset()
-    //     0x99a144: bl              #0x731d88  ; [package:ballai/video_tracking/analysis/shooting_state_manager.dart] ShootingStateManager::reset
+    //     0x99a144: bl              #0x731d88  ; [package:kourtai/video_tracking/analysis/shooting_state_manager.dart] ShootingStateManager::reset
     // 0x99a148: ldur            x1, [fp, #-0x88]
     // 0x99a14c: r0 = Instance_ShootingPhase
     //     0x99a14c: add             x0, PP, #0x17, lsl #12  ; [pp+0x17750] Obj!ShootingPhase@d38fa1
@@ -9150,7 +9150,7 @@ class :: {
     //     0x99a154: mov             x17, #0x133
     // 0x99a158: str             w0, [x1, x17]
     // 0x99a15c: r0 = reset()
-    //     0x99a15c: bl              #0x99af9c  ; [package:ballai/video_tracking/analysis/make_miss/simple_shot_detector.dart] SimpleShotDetector::reset
+    //     0x99a15c: bl              #0x99af9c  ; [package:kourtai/video_tracking/analysis/make_miss/simple_shot_detector.dart] SimpleShotDetector::reset
     // 0x99a160: ldur            x0, [fp, #-0x88]
     // 0x99a164: r17 = 291
     //     0x99a164: mov             x17, #0x123
@@ -9158,7 +9158,7 @@ class :: {
     // 0x99a16c: DecompressPointer r1
     //     0x99a16c: add             x1, x1, HEAP, lsl #32
     // 0x99a170: r0 = reset()
-    //     0x99a170: bl              #0x767118  ; [package:ballai/video_tracking/scoring/score_handler.dart] ScoreHandler::reset
+    //     0x99a170: bl              #0x767118  ; [package:kourtai/video_tracking/scoring/score_handler.dart] ScoreHandler::reset
     // 0x99a174: ldur            x0, [fp, #-0x88]
     // 0x99a178: r17 = 295
     //     0x99a178: mov             x17, #0x127
@@ -9166,10 +9166,10 @@ class :: {
     // 0x99a180: DecompressPointer r1
     //     0x99a180: add             x1, x1, HEAP, lsl #32
     // 0x99a184: r0 = reset()
-    //     0x99a184: bl              #0x767118  ; [package:ballai/video_tracking/scoring/score_handler.dart] ScoreHandler::reset
+    //     0x99a184: bl              #0x767118  ; [package:kourtai/video_tracking/scoring/score_handler.dart] ScoreHandler::reset
     // 0x99a188: ldur            x1, [fp, #-0x88]
     // 0x99a18c: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x99a18c: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x99a18c: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x99a190: tbnz            w0, #4, #0x99a1e0
     // 0x99a194: ldur            x0, [fp, #-0x88]
     // 0x99a198: LoadField: r1 = r0->field_6f
@@ -9177,7 +9177,7 @@ class :: {
     // 0x99a19c: DecompressPointer r1
     //     0x99a19c: add             x1, x1, HEAP, lsl #32
     // 0x99a1a0: r0 = reset()
-    //     0x99a1a0: bl              #0x7727f0  ; [package:ballai/video_tracking/analysis/dribble/dribble_pipeline.dart] DribblePipeline::reset
+    //     0x99a1a0: bl              #0x7727f0  ; [package:kourtai/video_tracking/analysis/dribble/dribble_pipeline.dart] DribblePipeline::reset
     // 0x99a1a4: ldur            x1, [fp, #-0x88]
     // 0x99a1a8: r17 = 479
     //     0x99a1a8: mov             x17, #0x1df
@@ -9195,11 +9195,11 @@ class :: {
     //     0x99a1c8: bl              #0xe540b0  ; InitLateFinalInstanceFieldStub
     // 0x99a1cc: mov             x1, x0
     // 0x99a1d0: r0 = disable()
-    //     0x99a1d0: bl              #0x74d68c  ; [package:ballai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::disable
+    //     0x99a1d0: bl              #0x74d68c  ; [package:kourtai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::disable
     // 0x99a1d4: r0 = start()
-    //     0x99a1d4: bl              #0x99ae9c  ; [package:ballai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::start
+    //     0x99a1d4: bl              #0x99ae9c  ; [package:kourtai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::start
     // 0x99a1d8: r0 = start()
-    //     0x99a1d8: bl              #0x99ada0  ; [package:ballai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::start
+    //     0x99a1d8: bl              #0x99ada0  ; [package:kourtai/video_tracking/session/guards/ball_visibility_guard_handler.dart] BallVisibilityGuardHandler::start
     // 0x99a1dc: b               #0x99a214
     // 0x99a1e0: ldur            x1, [fp, #-0x88]
     // 0x99a1e4: r17 = 479
@@ -9218,9 +9218,9 @@ class :: {
     //     0x99a204: bl              #0xe540b0  ; InitLateFinalInstanceFieldStub
     // 0x99a208: mov             x1, x0
     // 0x99a20c: r0 = enable()
-    //     0x99a20c: bl              #0x99a7c4  ; [package:ballai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::enable
+    //     0x99a20c: bl              #0x99a7c4  ; [package:kourtai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::enable
     // 0x99a210: r0 = start()
-    //     0x99a210: bl              #0x99a434  ; [package:ballai/video_tracking/session/guards/rim_visibility_guard_handler.dart] RimVisibilityGuardHandler::start
+    //     0x99a210: bl              #0x99a434  ; [package:kourtai/video_tracking/session/guards/rim_visibility_guard_handler.dart] RimVisibilityGuardHandler::start
     // 0x99a214: ldur            x0, [fp, #-0x88]
     // 0x99a218: r2 = false
     //     0x99a218: add             x2, NULL, #0x30  ; false
@@ -9232,7 +9232,7 @@ class :: {
     //     0x99a228: str             x2, [x1, #0x2278]
     // 0x99a22c: mov             x1, x0
     // 0x99a230: r0 = VideoWorkoutManagerSession._startBallySuggestionsIfNeeded()
-    //     0x99a230: bl              #0x99952c  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._startBallySuggestionsIfNeeded
+    //     0x99a230: bl              #0x99952c  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._startBallySuggestionsIfNeeded
     // 0x99a234: ldur            x1, [fp, #-0x88]
     // 0x99a238: r17 = 275
     //     0x99a238: mov             x17, #0x113
@@ -9250,10 +9250,10 @@ class :: {
     //     0x99a258: bl              #0xe540b0  ; InitLateFinalInstanceFieldStub
     // 0x99a25c: mov             x1, x0
     // 0x99a260: r0 = announcePendingPhaseIfReady()
-    //     0x99a260: bl              #0x999dc0  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::announcePendingPhaseIfReady
+    //     0x99a260: bl              #0x999dc0  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::announcePendingPhaseIfReady
     // 0x99a264: ldur            x1, [fp, #-0x88]
     // 0x99a268: r0 = VideoWorkoutManagerSession.finishWorkoutOpeningBriefingIfNeeded()
-    //     0x99a268: bl              #0x99a3bc  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.finishWorkoutOpeningBriefingIfNeeded
+    //     0x99a268: bl              #0x99a3bc  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.finishWorkoutOpeningBriefingIfNeeded
     // 0x99a26c: ldur            x0, [fp, #-0x88]
     // 0x99a270: r1 = Instance_Duration
     //     0x99a270: ldr             x1, [PP, #0x18e8]  ; [pp+0x18e8] Obj!Duration@d3ce21
@@ -9319,7 +9319,7 @@ class :: {
     //     0x99a314: bl              #0x5c96fc  ; [package:flutter/src/foundation/print.dart] ::debugPrintThrottled
     // 0x99a318: ldur            x1, [fp, #-0x88]
     // 0x99a31c: r0 = VideoWorkoutManagerSession.cancelWorkoutStartBriefing()
-    //     0x99a31c: bl              #0x74d9b8  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.cancelWorkoutStartBriefing
+    //     0x99a31c: bl              #0x74d9b8  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.cancelWorkoutStartBriefing
     // 0x99a320: ldur            x2, [fp, #-0x88]
     // 0x99a324: ldur            x3, [fp, #-0x90]
     // 0x99a328: r17 = 467
@@ -9491,7 +9491,7 @@ class :: {
     // 0x99b29c: ldur            x2, [fp, #-0x10]
     // 0x99b2a0: stur            x4, [fp, #-0x30]
     // 0x99b2a4: r0 = VideoWorkoutManagerWorkout._resolvedDrillCategory()
-    //     0x99b2a4: bl              #0x99e9f4  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout._resolvedDrillCategory
+    //     0x99b2a4: bl              #0x99e9f4  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout._resolvedDrillCategory
     // 0x99b2a8: mov             x1, x0
     // 0x99b2ac: ldur            x0, [fp, #-0x10]
     // 0x99b2b0: r17 = 443
@@ -9528,7 +9528,7 @@ class :: {
     // 0x99b304: ldur            x6, [fp, #-0x38]
     // 0x99b308: ldur            x7, [fp, #-0x20]
     // 0x99b30c: r0 = createWorkout()
-    //     0x99b30c: bl              #0x99dfbc  ; [package:ballai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::createWorkout
+    //     0x99b30c: bl              #0x99dfbc  ; [package:kourtai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::createWorkout
     // 0x99b310: mov             x1, x0
     // 0x99b314: stur            x1, [fp, #-0x18]
     // 0x99b318: r0 = Await()
@@ -9550,7 +9550,7 @@ class :: {
     //     0x99b348: add             x4, PP, #0x29, lsl #12  ; [pp+0x29c10] List(7) [0, 0x4, 0x1, 0x3, "workout", 0x3, Null]
     //     0x99b34c: ldr             x4, [x4, #0xc10]
     // 0x99b350: r0 = WorkoutSummaryModel()
-    //     0x99b350: bl              #0x99ddb0  ; [package:ballai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::WorkoutSummaryModel
+    //     0x99b350: bl              #0x99ddb0  ; [package:kourtai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::WorkoutSummaryModel
     // 0x99b354: ldur            x0, [fp, #-0x30]
     // 0x99b358: ldur            x2, [fp, #-0x10]
     // 0x99b35c: r17 = 331
@@ -9576,7 +9576,7 @@ class :: {
     //     0x99b394: add             x4, x4, HEAP, lsl #32
     // 0x99b398: stur            x4, [fp, #-0x20]
     // 0x99b39c: r1 = Function 'recordHLSError':.
-    //     0x99b39c: add             x1, PP, #0x40, lsl #12  ; [pp+0x40e00] AnonymousClosure: (0x73f060), in [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::recordHLSError (0x73f2b8)
+    //     0x99b39c: add             x1, PP, #0x40, lsl #12  ; [pp+0x40e00] AnonymousClosure: (0x73f060), in [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::recordHLSError (0x73f2b8)
     //     0x99b3a0: ldr             x1, [x1, #0xe00]
     // 0x99b3a4: r0 = AllocateClosure()
     //     0x99b3a4: bl              #0xe553e0  ; AllocateClosureStub
@@ -9584,7 +9584,7 @@ class :: {
     // 0x99b3ac: mov             x2, x0
     // 0x99b3b0: ldur            x3, [fp, #-0x20]
     // 0x99b3b4: r0 = start()
-    //     0x99b3b4: bl              #0x99b428  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::start
+    //     0x99b3b4: bl              #0x99b428  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::start
     // 0x99b3b8: mov             x1, x0
     // 0x99b3bc: stur            x1, [fp, #-0x10]
     // 0x99b3c0: r0 = Await()
@@ -9653,7 +9653,7 @@ class :: {
     //     0x99ea28: ret             
     // 0x99ea2c: mov             x1, x0
     // 0x99ea30: r0 = belongsToDribblingProductSurface()
-    //     0x99ea30: bl              #0x5edb70  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
+    //     0x99ea30: bl              #0x5edb70  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
     // 0x99ea34: tbnz            w0, #4, #0x99ea4c
     // 0x99ea38: r0 = "dribbling"
     //     0x99ea38: add             x0, PP, #0x20, lsl #12  ; [pp+0x20db0] "dribbling"
@@ -9665,7 +9665,7 @@ class :: {
     //     0x99ea48: ret             
     // 0x99ea4c: ldur            x1, [fp, #-8]
     // 0x99ea50: r0 = belongsToFinishingProductSurface()
-    //     0x99ea50: bl              #0x5ed590  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToFinishingProductSurface
+    //     0x99ea50: bl              #0x5ed590  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToFinishingProductSurface
     // 0x99ea54: tbnz            w0, #4, #0x99ea6c
     // 0x99ea58: r0 = "finishing"
     //     0x99ea58: add             x0, PP, #0x27, lsl #12  ; [pp+0x27d98] "finishing"
@@ -9677,7 +9677,7 @@ class :: {
     //     0x99ea68: ret             
     // 0x99ea6c: ldur            x1, [fp, #-8]
     // 0x99ea70: r0 = primaryCategoryKey()
-    //     0x99ea70: bl              #0x5ed968  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::primaryCategoryKey
+    //     0x99ea70: bl              #0x5ed968  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::primaryCategoryKey
     // 0x99ea74: r1 = LoadClassIdInstr(r0)
     //     0x99ea74: ldur            x1, [x0, #-1]
     //     0x99ea78: ubfx            x1, x1, #0xc, #0x14
@@ -9700,7 +9700,7 @@ class :: {
     //     0x99eaac: ret             
     // 0x99eab0: ldur            x1, [fp, #-8]
     // 0x99eab4: r0 = primaryCategoryKey()
-    //     0x99eab4: bl              #0x5ed968  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::primaryCategoryKey
+    //     0x99eab4: bl              #0x5ed968  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::primaryCategoryKey
     // 0x99eab8: LoadField: r1 = r0->field_7
     //     0x99eab8: ldur            w1, [x0, #7]
     // 0x99eabc: cbz             w1, #0x99eacc
@@ -9742,7 +9742,7 @@ class :: {
     // 0x99ebc4: InitAsync() -> Future<Null?>
     //     0x99ebc4: ldr             x0, [PP, #0x78]  ; [pp+0x78] TypeArguments: <Null?>
     //     0x99ebc8: bl              #0x60afc8  ; InitAsyncStub
-    // 0x99ebcc: r0 = InitLateStaticField(0xed4) // [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
+    // 0x99ebcc: r0 = InitLateStaticField(0xed4) // [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
     //     0x99ebcc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x99ebd0: ldr             x0, [x0, #0x1da8]
     //     0x99ebd4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -9753,7 +9753,7 @@ class :: {
     //     0x99ebe8: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x99ebec: mov             x1, x0
     // 0x99ebf0: r0 = workoutStartHandoffDelay()
-    //     0x99ebf0: bl              #0x99f000  ; [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::workoutStartHandoffDelay
+    //     0x99ebf0: bl              #0x99f000  ; [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::workoutStartHandoffDelay
     // 0x99ebf4: mov             x1, x0
     // 0x99ebf8: stur            x1, [fp, #-0x18]
     // 0x99ebfc: r0 = Await()
@@ -9816,7 +9816,7 @@ class :: {
     //     0x99ec88: add             x3, x3, HEAP, lsl #32
     // 0x99ec8c: stur            x3, [fp, #-0x18]
     // 0x99ec90: r1 = Function '<anonymous closure>': static.
-    //     0x99ec90: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c98] AnonymousClosure: static (0x99f55c), in [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.beginWorkoutOpeningBriefing (0x9981b8)
+    //     0x99ec90: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c98] AnonymousClosure: static (0x99f55c), in [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.beginWorkoutOpeningBriefing (0x9981b8)
     //     0x99ec94: ldr             x1, [x1, #0xc98]
     // 0x99ec98: r0 = AllocateClosure()
     //     0x99ec98: bl              #0xe553e0  ; AllocateClosureStub
@@ -9827,7 +9827,7 @@ class :: {
     // 0x99ecac: r5 = 0
     //     0x99ecac: mov             x5, #0
     // 0x99ecb0: r0 = VideoWorkoutManagerSession._speakWorkoutStartBriefingLines()
-    //     0x99ecb0: bl              #0x99ecc4  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._speakWorkoutStartBriefingLines
+    //     0x99ecb0: bl              #0x99ecc4  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._speakWorkoutStartBriefingLines
     // 0x99ecb4: r0 = Null
     //     0x99ecb4: mov             x0, NULL
     // 0x99ecb8: r0 = ReturnAsyncNotFuture()
@@ -9971,7 +9971,7 @@ class :: {
     //     0x99ee40: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0x99ee44: r0 = notifyListeners()
     //     0x99ee44: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
-    // 0x99ee48: r0 = InitLateStaticField(0xeec) // [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
+    // 0x99ee48: r0 = InitLateStaticField(0xeec) // [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
     //     0x99ee48: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x99ee4c: ldr             x0, [x0, #0x1dd8]
     //     0x99ee50: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -9982,7 +9982,7 @@ class :: {
     //     0x99ee64: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x99ee68: ldur            x2, [fp, #-0x30]
     // 0x99ee6c: r1 = Function '<anonymous closure>': static.
-    //     0x99ee6c: add             x1, PP, #0x40, lsl #12  ; [pp+0x40ca0] AnonymousClosure: static (0x99eebc), in [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._speakWorkoutStartBriefingLines (0x99ecc4)
+    //     0x99ee6c: add             x1, PP, #0x40, lsl #12  ; [pp+0x40ca0] AnonymousClosure: static (0x99eebc), in [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._speakWorkoutStartBriefingLines (0x99ecc4)
     //     0x99ee70: ldr             x1, [x1, #0xca0]
     // 0x99ee74: stur            x0, [fp, #-8]
     // 0x99ee78: r0 = AllocateClosure()
@@ -9999,7 +9999,7 @@ class :: {
     //     0x99ee94: add             x4, PP, #0x40, lsl #12  ; [pp+0x40ca8] List(11) [0, 0x5, 0x3, 0x2, "isBally", 0x3, "onComplete", 0x4, "showText", 0x2, Null]
     //     0x99ee98: ldr             x4, [x4, #0xca8]
     // 0x99ee9c: r0 = speak()
-    //     0x99ee9c: bl              #0x6d2cd4  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
+    //     0x99ee9c: bl              #0x6d2cd4  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
     // 0x99eea0: r0 = Null
     //     0x99eea0: mov             x0, NULL
     // 0x99eea4: LeaveFrame
@@ -10052,7 +10052,7 @@ class :: {
     // 0x99ef14: ret
     //     0x99ef14: ret             
     // 0x99ef18: r1 = Function '<anonymous closure>': static.
-    //     0x99ef18: add             x1, PP, #0x40, lsl #12  ; [pp+0x40cb0] AnonymousClosure: static (0x99ef54), in [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._speakWorkoutStartBriefingLines (0x99ecc4)
+    //     0x99ef18: add             x1, PP, #0x40, lsl #12  ; [pp+0x40cb0] AnonymousClosure: static (0x99ef54), in [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._speakWorkoutStartBriefingLines (0x99ecc4)
     //     0x99ef1c: ldr             x1, [x1, #0xcb0]
     // 0x99ef20: r0 = AllocateClosure()
     //     0x99ef20: bl              #0xe553e0  ; AllocateClosureStub
@@ -10136,7 +10136,7 @@ class :: {
     // 0x99efdc: mov             x5, x3
     // 0x99efe0: mov             x3, x4
     // 0x99efe4: r0 = VideoWorkoutManagerSession._speakWorkoutStartBriefingLines()
-    //     0x99efe4: bl              #0x99ecc4  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._speakWorkoutStartBriefingLines
+    //     0x99efe4: bl              #0x99ecc4  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._speakWorkoutStartBriefingLines
     // 0x99efe8: r0 = Null
     //     0x99efe8: mov             x0, NULL
     // 0x99efec: LeaveFrame
@@ -10199,7 +10199,7 @@ class :: {
     //     0x99f5cc: ret             
     // 0x99f5d0: mov             x1, x0
     // 0x99f5d4: r0 = VideoWorkoutManagerSession.startWorkout()
-    //     0x99f5d4: bl              #0x999f78  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.startWorkout
+    //     0x99f5d4: bl              #0x999f78  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.startWorkout
     // 0x99f5d8: r0 = Null
     //     0x99f5d8: mov             x0, NULL
     // 0x99f5dc: LeaveFrame
@@ -10253,14 +10253,14 @@ class :: {
     // 0xa60818: mov             x1, x2
     // 0xa6081c: stur            x2, [fp, #-0x38]
     // 0xa60820: r0 = isAnalyzerDrillId()
-    //     0xa60820: bl              #0x744734  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isAnalyzerDrillId
+    //     0xa60820: bl              #0x744734  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isAnalyzerDrillId
     // 0xa60824: tbnz            w0, #4, #0xa60d90
     // 0xa60828: ldur            x0, [fp, #-0x18]
     // 0xa6082c: ldur            x3, [fp, #-0x30]
     // 0xa60830: mov             x1, x0
     // 0xa60834: ldur            x2, [fp, #-0x28]
     // 0xa60838: r0 = VideoWorkoutManagerAnalyzer._resolvedAnalyzerUploadCapSeconds()
-    //     0xa60838: bl              #0xa61aa0  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerAnalyzer._resolvedAnalyzerUploadCapSeconds
+    //     0xa60838: bl              #0xa61aa0  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerAnalyzer._resolvedAnalyzerUploadCapSeconds
     // 0xa6083c: mov             x1, x0
     // 0xa60840: stur            x1, [fp, #-0x40]
     // 0xa60844: r0 = Await()
@@ -10273,7 +10273,7 @@ class :: {
     //     0xa60854: ldur            d0, [x0, #7]
     // 0xa60858: ldur            x1, [fp, #-0x20]
     // 0xa6085c: r0 = VideoWorkoutManagerAnalyzer._prepareAnalyzerUploadVideo()
-    //     0xa6085c: bl              #0xa61730  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerAnalyzer._prepareAnalyzerUploadVideo
+    //     0xa6085c: bl              #0xa61730  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerAnalyzer._prepareAnalyzerUploadVideo
     // 0xa60860: mov             x1, x0
     // 0xa60864: stur            x1, [fp, #-0x20]
     // 0xa60868: r0 = Await()
@@ -10297,7 +10297,7 @@ class :: {
     //     0xa608a4: ldur            x1, [x0, #7]
     // 0xa608a8: ldur            x2, [fp, #-0x28]
     // 0xa608ac: r0 = VideoWorkoutManagerAnalyzer._normalizedAnalyzerUploadGoalType()
-    //     0xa608ac: bl              #0xa61530  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerAnalyzer._normalizedAnalyzerUploadGoalType
+    //     0xa608ac: bl              #0xa61530  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerAnalyzer._normalizedAnalyzerUploadGoalType
     // 0xa608b0: mov             x2, x0
     // 0xa608b4: ldur            x0, [fp, #-0x18]
     // 0xa608b8: stur            x2, [fp, #-0x28]
@@ -10314,7 +10314,7 @@ class :: {
     //     0xa608d0: add             x1, PP, #0x29, lsl #12  ; [pp+0x29bf8] "Analyzer workout"
     //     0xa608d4: ldr             x1, [x1, #0xbf8]
     // 0xa608d8: r0 = L()
-    //     0xa608d8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa608d8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa608dc: mov             x7, x0
     // 0xa608e0: b               #0xa608e8
     // 0xa608e4: mov             x7, x0
@@ -10334,10 +10334,10 @@ class :: {
     // 0xa60914: mov             x1, x3
     // 0xa60918: ldur            x2, [fp, #-0x18]
     // 0xa6091c: r0 = VideoWorkoutManagerDribble.configureDribblingSessionKind()
-    //     0xa6091c: bl              #0xa614a4  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.configureDribblingSessionKind
+    //     0xa6091c: bl              #0xa614a4  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.configureDribblingSessionKind
     // 0xa60920: ldur            x1, [fp, #-0x18]
     // 0xa60924: r0 = belongsToDribblingProductSurface()
-    //     0xa60924: bl              #0x5edb70  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
+    //     0xa60924: bl              #0x5edb70  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
     // 0xa60928: tbnz            w0, #4, #0xa60938
     // 0xa6092c: r1 = "dribbling"
     //     0xa6092c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20db0] "dribbling"
@@ -10345,7 +10345,7 @@ class :: {
     // 0xa60934: b               #0xa60998
     // 0xa60938: ldur            x1, [fp, #-0x18]
     // 0xa6093c: r0 = belongsToFinishingProductSurface()
-    //     0xa6093c: bl              #0x5ed590  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToFinishingProductSurface
+    //     0xa6093c: bl              #0x5ed590  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToFinishingProductSurface
     // 0xa60940: tbnz            w0, #4, #0xa60950
     // 0xa60944: r0 = "finishing"
     //     0xa60944: add             x0, PP, #0x27, lsl #12  ; [pp+0x27d98] "finishing"
@@ -10353,7 +10353,7 @@ class :: {
     // 0xa6094c: b               #0xa60994
     // 0xa60950: ldur            x1, [fp, #-0x18]
     // 0xa60954: r0 = primaryCategoryKey()
-    //     0xa60954: bl              #0x5ed968  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::primaryCategoryKey
+    //     0xa60954: bl              #0x5ed968  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::primaryCategoryKey
     // 0xa60958: r1 = LoadClassIdInstr(r0)
     //     0xa60958: ldur            x1, [x0, #-1]
     //     0xa6095c: ubfx            x1, x1, #0xc, #0x14
@@ -10372,7 +10372,7 @@ class :: {
     // 0xa60988: b               #0xa60994
     // 0xa6098c: ldur            x1, [fp, #-0x18]
     // 0xa60990: r0 = primaryCategoryKey()
-    //     0xa60990: bl              #0x5ed968  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::primaryCategoryKey
+    //     0xa60990: bl              #0x5ed968  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::primaryCategoryKey
     // 0xa60994: mov             x1, x0
     // 0xa60998: ldur            x0, [fp, #-0x28]
     // 0xa6099c: LoadField: r5 = r0->field_7
@@ -10434,7 +10434,7 @@ class :: {
     // 0xa60a2c: mov             x6, x4
     // 0xa60a30: ldur            x7, [fp, #-0x40]
     // 0xa60a34: r0 = createWorkout()
-    //     0xa60a34: bl              #0x99dfbc  ; [package:ballai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::createWorkout
+    //     0xa60a34: bl              #0x99dfbc  ; [package:kourtai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::createWorkout
     // 0xa60a38: mov             x1, x0
     // 0xa60a3c: stur            x1, [fp, #-0x50]
     // 0xa60a40: r0 = Await()
@@ -10520,7 +10520,7 @@ class :: {
     //     0xa60b24: add             x4, PP, #0x29, lsl #12  ; [pp+0x29c08] List(11) [0, 0x4, 0x3, 0x1, "elapsedTime", 0x2, "endDate", 0x3, "sourceVideoPath", 0x1, Null]
     //     0xa60b28: ldr             x4, [x4, #0xc08]
     // 0xa60b2c: r0 = copyWith()
-    //     0xa60b2c: bl              #0x74c780  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::copyWith
+    //     0xa60b2c: bl              #0x74c780  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::copyWith
     // 0xa60b30: mov             x1, x0
     // 0xa60b34: ldur            x2, [fp, #-0x30]
     // 0xa60b38: stur            x1, [fp, #-0x18]
@@ -10607,7 +10607,7 @@ class :: {
     // 0xa60c34: ldur            x1, [fp, #-0x50]
     // 0xa60c38: mov             x2, x0
     // 0xa60c3c: r0 = updateWorkoutFields()
-    //     0xa60c3c: bl              #0x74de48  ; [package:ballai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::updateWorkoutFields
+    //     0xa60c3c: bl              #0x74de48  ; [package:kourtai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::updateWorkoutFields
     // 0xa60c40: r0 = WorkoutSummaryModel()
     //     0xa60c40: bl              #0x71db80  ; AllocateWorkoutSummaryModelStub -> WorkoutSummaryModel (size=0x1c)
     // 0xa60c44: stur            x0, [fp, #-0x48]
@@ -10620,7 +10620,7 @@ class :: {
     //     0xa60c5c: add             x4, PP, #0x29, lsl #12  ; [pp+0x29c10] List(7) [0, 0x4, 0x1, 0x3, "workout", 0x3, Null]
     //     0xa60c60: ldr             x4, [x4, #0xc10]
     // 0xa60c64: r0 = WorkoutSummaryModel()
-    //     0xa60c64: bl              #0x99ddb0  ; [package:ballai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::WorkoutSummaryModel
+    //     0xa60c64: bl              #0x99ddb0  ; [package:kourtai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::WorkoutSummaryModel
     // 0xa60c68: ldur            x0, [fp, #-0x48]
     // 0xa60c6c: ldur            x4, [fp, #-0x10]
     // 0xa60c70: r17 = 331
@@ -10647,7 +10647,7 @@ class :: {
     // 0xa60cac: mov             x1, x4
     // 0xa60cb0: mov             x3, x5
     // 0xa60cb4: r0 = VideoWorkoutManagerAnalyzer.registerAnalyzerUploadLocalVideo()
-    //     0xa60cb4: bl              #0xa60e18  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerAnalyzer.registerAnalyzerUploadLocalVideo
+    //     0xa60cb4: bl              #0xa60e18  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerAnalyzer.registerAnalyzerUploadLocalVideo
     // 0xa60cb8: ldur            x0, [fp, #-0x18]
     // 0xa60cbc: ldur            x1, [fp, #-0x10]
     // 0xa60cc0: r17 = 379
@@ -10672,12 +10672,12 @@ class :: {
     //     0xa60cf4: add             x0, x0, HEAP, lsl #32
     // 0xa60cf8: stur            x0, [fp, #-0x10]
     // 0xa60cfc: r0 = isDribblingWorkout()
-    //     0xa60cfc: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0xa60cfc: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0xa60d00: ldur            x1, [fp, #-0x10]
     // 0xa60d04: ldur            x2, [fp, #-0x38]
     // 0xa60d08: mov             x3, x0
     // 0xa60d0c: r0 = resolve()
-    //     0xa60d0c: bl              #0x73a164  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyBreakdownKind::resolve
+    //     0xa60d0c: bl              #0x73a164  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyBreakdownKind::resolve
     // 0xa60d10: mov             x1, x0
     // 0xa60d14: ldur            x2, [fp, #-0x30]
     // 0xa60d18: stur            x1, [fp, #-0x10]
@@ -10689,7 +10689,7 @@ class :: {
     //     0xa60d2c: tst             x16, HEAP, lsr #32
     //     0xa60d30: b.eq            #0xa60d38
     //     0xa60d34: bl              #0xe547bc  ; WriteBarrierWrappersStub
-    // 0xa60d38: r0 = InitLateStaticField(0xf2c) // [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::instance
+    // 0xa60d38: r0 = InitLateStaticField(0xf2c) // [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::instance
     //     0xa60d38: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xa60d3c: ldr             x0, [x0, #0x1e58]
     //     0xa60d40: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -10702,10 +10702,10 @@ class :: {
     // 0xa60d5c: ldur            x2, [fp, #-0x28]
     // 0xa60d60: ldur            x3, [fp, #-0x10]
     // 0xa60d64: r0 = markAnalyzing()
-    //     0xa60d64: bl              #0x7444f0  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::markAnalyzing
+    //     0xa60d64: bl              #0x7444f0  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::markAnalyzing
     // 0xa60d68: ldur            x2, [fp, #-0x30]
     // 0xa60d6c: r1 = Function '<anonymous closure>': static.
-    //     0xa60d6c: add             x1, PP, #0x29, lsl #12  ; [pp+0x29c18] AnonymousClosure: static (0xa61bb4), in [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerAnalyzer.startAnalyzerUpload (0xa607ac)
+    //     0xa60d6c: add             x1, PP, #0x29, lsl #12  ; [pp+0x29c18] AnonymousClosure: static (0xa61bb4), in [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerAnalyzer.startAnalyzerUpload (0xa607ac)
     //     0xa60d70: ldr             x1, [x1, #0xc18]
     // 0xa60d74: r0 = AllocateClosure()
     //     0xa60d74: bl              #0xe553e0  ; AllocateClosureStub
@@ -10721,7 +10721,7 @@ class :: {
     // 0xa60d90: r1 = Null
     //     0xa60d90: mov             x1, NULL
     // 0xa60d94: r0 = AnalyzerUploadFlowException.invalidDrill()
-    //     0xa60d94: bl              #0xa60dc4  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] AnalyzerUploadFlowException::AnalyzerUploadFlowException.invalidDrill
+    //     0xa60d94: bl              #0xa60dc4  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] AnalyzerUploadFlowException::AnalyzerUploadFlowException.invalidDrill
     // 0xa60d98: r0 = Throw()
     //     0xa60d98: bl              #0xe54334  ; ThrowStub
     // 0xa60d9c: brk             #0
@@ -10762,7 +10762,7 @@ class :: {
     // 0xa60e48: mov             x1, x3
     // 0xa60e4c: mov             x2, x0
     // 0xa60e50: r0 = VideoWorkoutManagerAnalyzer._persistAnalyzerUploadClip()
-    //     0xa60e50: bl              #0xa60f10  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerAnalyzer._persistAnalyzerUploadClip
+    //     0xa60e50: bl              #0xa60f10  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerAnalyzer._persistAnalyzerUploadClip
     // 0xa60e54: cmp             w0, NULL
     // 0xa60e58: b.ne            #0xa60e64
     // 0xa60e5c: ldur            x4, [fp, #-0x10]
@@ -11081,7 +11081,7 @@ class :: {
     //     0xa614c8: b.ls            #0xa61528
     // 0xa614cc: mov             x1, x0
     // 0xa614d0: r0 = belongsToDribblingProductSurface()
-    //     0xa614d0: bl              #0x5edb70  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
+    //     0xa614d0: bl              #0x5edb70  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
     // 0xa614d4: tbz             w0, #4, #0xa614e8
     // 0xa614d8: r0 = Null
     //     0xa614d8: mov             x0, NULL
@@ -11092,7 +11092,7 @@ class :: {
     //     0xa614e4: ret             
     // 0xa614e8: ldur            x1, [fp, #-0x10]
     // 0xa614ec: r0 = isDribbleCounterDrill()
-    //     0xa614ec: bl              #0x908ab0  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isDribbleCounterDrill
+    //     0xa614ec: bl              #0x908ab0  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isDribbleCounterDrill
     // 0xa614f0: tbnz            w0, #4, #0xa61508
     // 0xa614f4: ldur            x1, [fp, #-8]
     // 0xa614f8: r2 = Instance_DribblingSessionKind
@@ -11469,7 +11469,7 @@ class :: {
     // 0xa61928: r1 = Null
     //     0xa61928: mov             x1, NULL
     // 0xa6192c: r0 = AnalyzerUploadFlowException.clipTooLong()
-    //     0xa6192c: bl              #0xa619fc  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] AnalyzerUploadFlowException::AnalyzerUploadFlowException.clipTooLong
+    //     0xa6192c: bl              #0xa619fc  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] AnalyzerUploadFlowException::AnalyzerUploadFlowException.clipTooLong
     // 0xa61930: mov             x1, x0
     // 0xa61934: stur            x1, [fp, #-0x90]
     // 0xa61938: r0 = Throw()
@@ -11478,7 +11478,7 @@ class :: {
     // 0xa61940: r1 = Null
     //     0xa61940: mov             x1, NULL
     // 0xa61944: r0 = AnalyzerUploadFlowException.invalidVideoDuration()
-    //     0xa61944: bl              #0xa619b4  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] AnalyzerUploadFlowException::AnalyzerUploadFlowException.invalidVideoDuration
+    //     0xa61944: bl              #0xa619b4  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] AnalyzerUploadFlowException::AnalyzerUploadFlowException.invalidVideoDuration
     // 0xa61948: mov             x1, x0
     // 0xa6194c: stur            x1, [fp, #-0x80]
     // 0xa61950: r0 = Throw()
@@ -11540,7 +11540,7 @@ class :: {
     //     0xa61ad4: bl              #0x60afc8  ; InitAsyncStub
     // 0xa61ad8: ldur            x1, [fp, #-0x18]
     // 0xa61adc: r0 = resolvedTimeTargetSeconds()
-    //     0xa61adc: bl              #0x99916c  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::resolvedTimeTargetSeconds
+    //     0xa61adc: bl              #0x99916c  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::resolvedTimeTargetSeconds
     // 0xa61ae0: cmp             w0, NULL
     // 0xa61ae4: b.eq            #0xa61b00
     // 0xa61ae8: r1 = LoadInt32Instr(r0)
@@ -11556,7 +11556,7 @@ class :: {
     //     0xa61b04: add             x2, PP, #0x29, lsl #12  ; [pp+0x29408] "Time"
     //     0xa61b08: ldr             x2, [x2, #0x408]
     // 0xa61b0c: r0 = resolvedGoalType()
-    //     0xa61b0c: bl              #0x906aa0  ; [package:ballai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::resolvedGoalType
+    //     0xa61b0c: bl              #0x906aa0  ; [package:kourtai/video_tracking/views/drills/data/drill_goal_preferences_store.dart] DrillGoalPreferencesStore::resolvedGoalType
     // 0xa61b10: mov             x1, x0
     // 0xa61b14: stur            x1, [fp, #-0x10]
     // 0xa61b18: r0 = Await()
@@ -11568,7 +11568,7 @@ class :: {
     // 0xa61b28: b               #0xa61b34
     // 0xa61b2c: mov             x1, x0
     // 0xa61b30: r0 = resolvedTimeTargetSeconds()
-    //     0xa61b30: bl              #0x99916c  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::resolvedTimeTargetSeconds
+    //     0xa61b30: bl              #0x99916c  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::resolvedTimeTargetSeconds
     // 0xa61b34: cmp             w0, NULL
     // 0xa61b38: b.eq            #0xa61b54
     // 0xa61b3c: r1 = LoadInt32Instr(r0)
@@ -11582,7 +11582,7 @@ class :: {
     // 0xa61b54: r1 = Null
     //     0xa61b54: mov             x1, NULL
     // 0xa61b58: r0 = AnalyzerUploadFlowException.missingTimeGoalCap()
-    //     0xa61b58: bl              #0xa61b6c  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] AnalyzerUploadFlowException::AnalyzerUploadFlowException.missingTimeGoalCap
+    //     0xa61b58: bl              #0xa61b6c  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] AnalyzerUploadFlowException::AnalyzerUploadFlowException.missingTimeGoalCap
     // 0xa61b5c: r0 = Throw()
     //     0xa61b5c: bl              #0xe54334  ; ThrowStub
     // 0xa61b60: brk             #0
@@ -11664,7 +11664,7 @@ class :: {
     //     0xa61c84: add             x2, x2, HEAP, lsl #32
     // 0xa61c88: mov             x1, x3
     // 0xa61c8c: r0 = uploadVideo()
-    //     0xa61c8c: bl              #0xa61dc0  ; [package:ballai/shared/app/firebase/cloudstorage/cloud_storage.dart] CloudStorage::uploadVideo
+    //     0xa61c8c: bl              #0xa61dc0  ; [package:kourtai/shared/app/firebase/cloudstorage/cloud_storage.dart] CloudStorage::uploadVideo
     // 0xa61c90: mov             x1, x0
     // 0xa61c94: stur            x1, [fp, #-0x70]
     // 0xa61c98: r0 = Await()
@@ -11685,7 +11685,7 @@ class :: {
     //     0xa61cb8: add             x1, x1, HEAP, lsl #32
     // 0xa61cbc: mov             x2, x3
     // 0xa61cc0: r0 = VideoWorkoutManagerAnalyzer.beginAnalyzerScoringIfNeeded()
-    //     0xa61cc0: bl              #0x741168  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerAnalyzer.beginAnalyzerScoringIfNeeded
+    //     0xa61cc0: bl              #0x741168  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerAnalyzer.beginAnalyzerScoringIfNeeded
     // 0xa61cc4: b               #0xa61db0
     // 0xa61cc8: sub             SP, fp, #0x80
     // 0xa61ccc: ldur            x2, [fp, #-0x68]
@@ -11737,7 +11737,7 @@ class :: {
     //     0xa61d44: ldr             x4, [PP, #0x830]  ; [pp+0x830] List(7) [0, 0x2, 0x1, 0x1, "wrapWidth", 0x1, Null]
     // 0xa61d48: r0 = debugPrintThrottled()
     //     0xa61d48: bl              #0x5c96fc  ; [package:flutter/src/foundation/print.dart] ::debugPrintThrottled
-    // 0xa61d4c: r0 = InitLateStaticField(0xf2c) // [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::instance
+    // 0xa61d4c: r0 = InitLateStaticField(0xf2c) // [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::instance
     //     0xa61d4c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xa61d50: ldr             x0, [x0, #0x1e58]
     //     0xa61d54: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -11751,7 +11751,7 @@ class :: {
     //     0xa61d70: ldr             x1, [x1, #0xd70]
     // 0xa61d74: stur            x0, [fp, #-0x70]
     // 0xa61d78: r0 = L()
-    //     0xa61d78: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa61d78: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa61d7c: mov             x1, x0
     // 0xa61d80: ldur            x0, [fp, #-0x68]
     // 0xa61d84: LoadField: r2 = r0->field_1f
@@ -11769,7 +11769,7 @@ class :: {
     //     0xa61da4: add             x4, PP, #0x28, lsl #12  ; [pp+0x28d80] List(7) [0, 0x5, 0x1, 0x4, "kind", 0x4, Null]
     //     0xa61da8: ldr             x4, [x4, #0xd80]
     // 0xa61dac: r0 = setFailed()
-    //     0xa61dac: bl              #0x73ae7c  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::setFailed
+    //     0xa61dac: bl              #0x73ae7c  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::setFailed
     // 0xa61db0: r0 = Null
     //     0xa61db0: mov             x0, NULL
     // 0xa61db4: r0 = ReturnAsyncNotFuture()
@@ -11795,13 +11795,13 @@ class :: {
     //     0xabb88c: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0xabb890: bl              #0x60afc8  ; InitAsyncStub
     // 0xabb894: r0 = warmCache()
-    //     0xabb894: bl              #0xabb9e8  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::warmCache
+    //     0xabb894: bl              #0xabb9e8  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::warmCache
     // 0xabb898: stur            x0, [fp, #-0x10]
     // 0xabb89c: r0 = warmCache()
-    //     0xabb89c: bl              #0xabb9a4  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_camera_mount.dart] DefaultsVideoWorkoutCameraMount::warmCache
+    //     0xabb89c: bl              #0xabb9a4  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_camera_mount.dart] DefaultsVideoWorkoutCameraMount::warmCache
     // 0xabb8a0: stur            x0, [fp, #-0x18]
     // 0xabb8a4: r0 = warmCache()
-    //     0xabb8a4: bl              #0xabb920  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_setup_tutorial.dart] DefaultsVideoWorkoutSetupTutorial::warmCache
+    //     0xabb8a4: bl              #0xabb920  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_setup_tutorial.dart] DefaultsVideoWorkoutSetupTutorial::warmCache
     // 0xabb8a8: r1 = Null
     //     0xabb8a8: mov             x1, NULL
     // 0xabb8ac: r2 = 6
@@ -11870,7 +11870,7 @@ class :: {
     //     0xabba5c: b.ls            #0xabbbec
     // 0xabba60: mov             x1, x2
     // 0xabba64: r0 = VideoWorkoutManagerSession._resetVideoWorkoutManager()
-    //     0xabba64: bl              #0x7318a4  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._resetVideoWorkoutManager
+    //     0xabba64: bl              #0x7318a4  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._resetVideoWorkoutManager
     // 0xabba68: ldur            x2, [fp, #-8]
     // 0xabba6c: r0 = false
     //     0xabba6c: add             x0, NULL, #0x30  ; false
@@ -11878,24 +11878,24 @@ class :: {
     //     0xabba70: stur            w0, [x2, #0x5f]
     // 0xabba74: mov             x1, x2
     // 0xabba78: r0 = VideoWorkoutManagerSecondWorkoutUpsell.resetSecondWorkoutProUpsellTeaseFlags()
-    //     0xabba78: bl              #0xabc3e0  ; [package:ballai/video_tracking/manager/video_workout_manager_second_workout_upsell.dart] ::VideoWorkoutManagerSecondWorkoutUpsell.resetSecondWorkoutProUpsellTeaseFlags
+    //     0xabba78: bl              #0xabc3e0  ; [package:kourtai/video_tracking/manager/video_workout_manager_second_workout_upsell.dart] ::VideoWorkoutManagerSecondWorkoutUpsell.resetSecondWorkoutProUpsellTeaseFlags
     // 0xabba7c: r0 = warmCache()
-    //     0xabba7c: bl              #0x99ad28  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_ai_coach.dart] DefaultsVideoWorkoutAICoach::warmCache
+    //     0xabba7c: bl              #0x99ad28  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_ai_coach.dart] DefaultsVideoWorkoutAICoach::warmCache
     // 0xabba80: r0 = warmCache()
-    //     0xabba80: bl              #0xabc39c  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_hls_recording.dart] DefaultsVideoWorkoutHlsRecording::warmCache
+    //     0xabba80: bl              #0xabc39c  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_hls_recording.dart] DefaultsVideoWorkoutHlsRecording::warmCache
     // 0xabba84: r0 = warmCache()
-    //     0xabba84: bl              #0xabc220  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::warmCache
+    //     0xabba84: bl              #0xabc220  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::warmCache
     // 0xabba88: r0 = warmCache()
-    //     0xabba88: bl              #0xabbf04  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_capture_quality.dart] DefaultsVideoWorkoutCaptureQuality::warmCache
+    //     0xabba88: bl              #0xabbf04  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_capture_quality.dart] DefaultsVideoWorkoutCaptureQuality::warmCache
     // 0xabba8c: r0 = warmCache()
-    //     0xabba8c: bl              #0xabb9e8  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::warmCache
+    //     0xabba8c: bl              #0xabb9e8  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::warmCache
     // 0xabba90: r0 = warmCache()
-    //     0xabba90: bl              #0xabb9a4  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_camera_mount.dart] DefaultsVideoWorkoutCameraMount::warmCache
+    //     0xabba90: bl              #0xabb9a4  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_camera_mount.dart] DefaultsVideoWorkoutCameraMount::warmCache
     // 0xabba94: r0 = warmCache()
-    //     0xabba94: bl              #0xabbec0  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_court_mode.dart] DefaultsVideoWorkoutCourtMode::warmCache
+    //     0xabba94: bl              #0xabbec0  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_court_mode.dart] DefaultsVideoWorkoutCourtMode::warmCache
     // 0xabba98: r0 = warmCache()
-    //     0xabba98: bl              #0xabb920  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_setup_tutorial.dart] DefaultsVideoWorkoutSetupTutorial::warmCache
-    // 0xabba9c: r0 = InitLateStaticField(0xed4) // [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
+    //     0xabba98: bl              #0xabb920  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_setup_tutorial.dart] DefaultsVideoWorkoutSetupTutorial::warmCache
+    // 0xabba9c: r0 = InitLateStaticField(0xed4) // [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
     //     0xabba9c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xabbaa0: ldr             x0, [x0, #0x1da8]
     //     0xabbaa4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -11906,7 +11906,7 @@ class :: {
     //     0xabbab8: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0xabbabc: mov             x1, x0
     // 0xabbac0: r0 = warmAll()
-    //     0xabbac0: bl              #0xabbcf0  ; [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::warmAll
+    //     0xabbac0: bl              #0xabbcf0  ; [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::warmAll
     // 0xabbac4: ldur            x2, [fp, #-8]
     // 0xabbac8: r0 = false
     //     0xabbac8: add             x0, NULL, #0x30  ; false
@@ -11943,7 +11943,7 @@ class :: {
     // 0xabbb20: DecompressPointer r1
     //     0xabbb20: add             x1, x1, HEAP, lsl #32
     // 0xabbb24: r0 = yoloRuntimeId()
-    //     0xabbb24: bl              #0xabbbf4  ; [package:ballai/video_tracking/detection/yolo/yolo_model_spec.dart] ::yoloRuntimeId
+    //     0xabbb24: bl              #0xabbbf4  ; [package:kourtai/video_tracking/detection/yolo/yolo_model_spec.dart] ::yoloRuntimeId
     // 0xabbb28: ldur            x2, [fp, #-8]
     // 0xabbb2c: r17 = 443
     //     0xabbb2c: mov             x17, #0x1bb
@@ -11957,7 +11957,7 @@ class :: {
     //     0xabbb48: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xabbb4c: ldur            x1, [fp, #-0x10]
     // 0xabbb50: r0 = VideoWorkoutManagerSession._drillSessionDisplayName()
-    //     0xabbb50: bl              #0x999310  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._drillSessionDisplayName
+    //     0xabbb50: bl              #0x999310  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession._drillSessionDisplayName
     // 0xabbb54: stur            x0, [fp, #-0x20]
     // 0xabbb58: r0 = WorkoutSummaryModel()
     //     0xabbb58: bl              #0x71db80  ; AllocateWorkoutSummaryModelStub -> WorkoutSummaryModel (size=0x1c)
@@ -11968,7 +11968,7 @@ class :: {
     // 0xabbb6c: r4 = const [0, 0x3, 0, 0x3, null]
     //     0xabbb6c: ldr             x4, [PP, #0x8a0]  ; [pp+0x8a0] List(5) [0, 0x3, 0, 0x3, Null]
     // 0xabbb70: r0 = WorkoutSummaryModel()
-    //     0xabbb70: bl              #0x99ddb0  ; [package:ballai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::WorkoutSummaryModel
+    //     0xabbb70: bl              #0x99ddb0  ; [package:kourtai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::WorkoutSummaryModel
     // 0xabbb74: ldur            x0, [fp, #-0x18]
     // 0xabbb78: ldur            x2, [fp, #-8]
     // 0xabbb7c: r17 = 331
@@ -11983,14 +11983,14 @@ class :: {
     //     0xabbb98: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xabbb9c: mov             x1, x2
     // 0xabbba0: r0 = VideoWorkoutManagerDribble.resetDribbleCounterState()
-    //     0xabbba0: bl              #0x731ba4  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.resetDribbleCounterState
+    //     0xabbba0: bl              #0x731ba4  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.resetDribbleCounterState
     // 0xabbba4: ldur            x1, [fp, #-8]
     // 0xabbba8: ldur            x2, [fp, #-0x10]
     // 0xabbbac: r0 = VideoWorkoutManagerDribble.configureDribblingSessionKind()
-    //     0xabbbac: bl              #0xa614a4  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.configureDribblingSessionKind
+    //     0xabbbac: bl              #0xa614a4  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.configureDribblingSessionKind
     // 0xabbbb0: ldur            x1, [fp, #-0x10]
     // 0xabbbb4: r0 = belongsToDribblingProductSurface()
-    //     0xabbbb4: bl              #0x5edb70  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
+    //     0xabbbb4: bl              #0x5edb70  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
     // 0xabbbb8: tbnz            w0, #4, #0xabbbcc
     // 0xabbbbc: ldur            x1, [fp, #-8]
     // 0xabbbc0: r0 = true
@@ -12541,7 +12541,7 @@ class :: {
     // 0xad6044: add             x2, x0, #1
     // 0xad6048: StoreField: r1->field_43 = r2
     //     0xad6048: stur            x2, [x1, #0x43]
-    // 0xad604c: r0 = InitLateStaticField(0xeec) // [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
+    // 0xad604c: r0 = InitLateStaticField(0xeec) // [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
     //     0xad604c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xad6050: ldr             x0, [x0, #0x1dd8]
     //     0xad6054: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -12552,10 +12552,10 @@ class :: {
     //     0xad6068: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0xad606c: mov             x1, x0
     // 0xad6070: r0 = stopSpeakingImmediate()
-    //     0xad6070: bl              #0x6d4278  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::stopSpeakingImmediate
+    //     0xad6070: bl              #0x6d4278  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::stopSpeakingImmediate
     // 0xad6074: ldur            x1, [fp, #-8]
     // 0xad6078: r0 = VideoWorkoutManagerSession.startWorkout()
-    //     0xad6078: bl              #0x999f78  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.startWorkout
+    //     0xad6078: bl              #0x999f78  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.startWorkout
     // 0xad607c: r0 = Null
     //     0xad607c: mov             x0, NULL
     // 0xad6080: LeaveFrame
@@ -12767,7 +12767,7 @@ class :: {
     // 0xad76d8: DecompressPointer r1
     //     0xad76d8: add             x1, x1, HEAP, lsl #32
     // 0xad76dc: r0 = markResumed()
-    //     0xad76dc: bl              #0xad78ac  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::markResumed
+    //     0xad76dc: bl              #0xad78ac  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::markResumed
     // 0xad76e0: ldur            x1, [fp, #-8]
     // 0xad76e4: r17 = 491
     //     0xad76e4: mov             x17, #0x1eb
@@ -12834,7 +12834,7 @@ class :: {
     //     0xad7794: mov             x17, #0x1eb
     // 0xad7798: str             NULL, [x1, x17]
     // 0xad779c: r0 = resetTrackingState()
-    //     0xad779c: bl              #0x7320ec  ; [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::resetTrackingState
+    //     0xad779c: bl              #0x7320ec  ; [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::resetTrackingState
     // 0xad77a0: ldur            x0, [fp, #-8]
     // 0xad77a4: r17 = 483
     //     0xad77a4: mov             x17, #0x1e3
@@ -12842,7 +12842,7 @@ class :: {
     // 0xad77ac: DecompressPointer r1
     //     0xad77ac: add             x1, x1, HEAP, lsl #32
     // 0xad77b0: r0 = reset()
-    //     0xad77b0: bl              #0x731d88  ; [package:ballai/video_tracking/analysis/shooting_state_manager.dart] ShootingStateManager::reset
+    //     0xad77b0: bl              #0x731d88  ; [package:kourtai/video_tracking/analysis/shooting_state_manager.dart] ShootingStateManager::reset
     // 0xad77b4: ldur            x0, [fp, #-8]
     // 0xad77b8: r1 = Instance_ShootingPhase
     //     0xad77b8: add             x1, PP, #0x17, lsl #12  ; [pp+0x17750] Obj!ShootingPhase@d38fa1
@@ -12852,7 +12852,7 @@ class :: {
     // 0xad77c4: str             w1, [x0, x17]
     // 0xad77c8: mov             x1, x0
     // 0xad77cc: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0xad77cc: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0xad77cc: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0xad77d0: tbnz            w0, #4, #0xad77e8
     // 0xad77d4: ldur            x0, [fp, #-8]
     // 0xad77d8: LoadField: r1 = r0->field_6f
@@ -12860,7 +12860,7 @@ class :: {
     // 0xad77dc: DecompressPointer r1
     //     0xad77dc: add             x1, x1, HEAP, lsl #32
     // 0xad77e0: r0 = reset()
-    //     0xad77e0: bl              #0x7727f0  ; [package:ballai/video_tracking/analysis/dribble/dribble_pipeline.dart] DribblePipeline::reset
+    //     0xad77e0: bl              #0x7727f0  ; [package:kourtai/video_tracking/analysis/dribble/dribble_pipeline.dart] DribblePipeline::reset
     // 0xad77e4: b               #0xad7820
     // 0xad77e8: ldur            x1, [fp, #-8]
     // 0xad77ec: r17 = 479
@@ -12879,10 +12879,10 @@ class :: {
     //     0xad780c: bl              #0xe540b0  ; InitLateFinalInstanceFieldStub
     // 0xad7810: mov             x1, x0
     // 0xad7814: r0 = enable()
-    //     0xad7814: bl              #0x99a7c4  ; [package:ballai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::enable
+    //     0xad7814: bl              #0x99a7c4  ; [package:kourtai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::enable
     // 0xad7818: ldur            x1, [fp, #-8]
     // 0xad781c: r0 = beginPostResumeFastRimWindow()
-    //     0xad781c: bl              #0xad7840  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::beginPostResumeFastRimWindow
+    //     0xad781c: bl              #0xad7840  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::beginPostResumeFastRimWindow
     // 0xad7820: ldur            x1, [fp, #-8]
     // 0xad7824: r0 = notifyListeners()
     //     0xad7824: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -12967,9 +12967,9 @@ class :: {
     //     0xad7bec: b.eq            #0xad7bf4
     //     0xad7bf0: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0xad7bf4: r0 = resetTrackingState()
-    //     0xad7bf4: bl              #0x7320ec  ; [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::resetTrackingState
+    //     0xad7bf4: bl              #0x7320ec  ; [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::resetTrackingState
     // 0xad7bf8: r0 = reset()
-    //     0xad7bf8: bl              #0x731ec0  ; [package:ballai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::reset
+    //     0xad7bf8: bl              #0x731ec0  ; [package:kourtai/video_tracking/analysis/make_miss/trajectory_analyzer.dart] TrajectoryAnalyzer::reset
     // 0xad7bfc: ldur            x0, [fp, #-8]
     // 0xad7c00: r17 = 483
     //     0xad7c00: mov             x17, #0x1e3
@@ -12977,7 +12977,7 @@ class :: {
     // 0xad7c08: DecompressPointer r1
     //     0xad7c08: add             x1, x1, HEAP, lsl #32
     // 0xad7c0c: r0 = reset()
-    //     0xad7c0c: bl              #0x731d88  ; [package:ballai/video_tracking/analysis/shooting_state_manager.dart] ShootingStateManager::reset
+    //     0xad7c0c: bl              #0x731d88  ; [package:kourtai/video_tracking/analysis/shooting_state_manager.dart] ShootingStateManager::reset
     // 0xad7c10: ldur            x0, [fp, #-8]
     // 0xad7c14: r1 = Instance_ShootingPhase
     //     0xad7c14: add             x1, PP, #0x17, lsl #12  ; [pp+0x17750] Obj!ShootingPhase@d38fa1
@@ -12990,7 +12990,7 @@ class :: {
     // 0xad7c28: str             NULL, [x0, x17]
     // 0xad7c2c: mov             x1, x0
     // 0xad7c30: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0xad7c30: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0xad7c30: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0xad7c34: tbnz            w0, #4, #0xad7c54
     // 0xad7c38: ldur            x0, [fp, #-8]
     // 0xad7c3c: LoadField: r1 = r0->field_6f
@@ -12998,12 +12998,12 @@ class :: {
     // 0xad7c40: DecompressPointer r1
     //     0xad7c40: add             x1, x1, HEAP, lsl #32
     // 0xad7c44: r0 = reset()
-    //     0xad7c44: bl              #0x7727f0  ; [package:ballai/video_tracking/analysis/dribble/dribble_pipeline.dart] DribblePipeline::reset
+    //     0xad7c44: bl              #0x7727f0  ; [package:kourtai/video_tracking/analysis/dribble/dribble_pipeline.dart] DribblePipeline::reset
     // 0xad7c48: ldur            x1, [fp, #-8]
     // 0xad7c4c: r4 = const [0, 0x1, 0, 0x1, null]
     //     0xad7c4c: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0xad7c50: r0 = VideoWorkoutManagerDribble.syncDribbleWorkoutSummary()
-    //     0xad7c50: bl              #0x74aab0  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.syncDribbleWorkoutSummary
+    //     0xad7c50: bl              #0x74aab0  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.syncDribbleWorkoutSummary
     // 0xad7c54: ldur            x0, [fp, #-8]
     // 0xad7c58: mov             x1, x0
     // 0xad7c5c: r17 = 479
@@ -13022,7 +13022,7 @@ class :: {
     //     0xad7c7c: bl              #0xe540b0  ; InitLateFinalInstanceFieldStub
     // 0xad7c80: mov             x1, x0
     // 0xad7c84: r0 = disable()
-    //     0xad7c84: bl              #0x74d68c  ; [package:ballai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::disable
+    //     0xad7c84: bl              #0x74d68c  ; [package:kourtai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::disable
     // 0xad7c88: ldur            x0, [fp, #-8]
     // 0xad7c8c: r17 = 475
     //     0xad7c8c: mov             x17, #0x1db
@@ -13030,7 +13030,7 @@ class :: {
     // 0xad7c94: DecompressPointer r1
     //     0xad7c94: add             x1, x1, HEAP, lsl #32
     // 0xad7c98: r0 = markPaused()
-    //     0xad7c98: bl              #0xad7d20  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::markPaused
+    //     0xad7c98: bl              #0xad7d20  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::markPaused
     // 0xad7c9c: r1 = <ObjectDetection>
     //     0xad7c9c: add             x1, PP, #0x17, lsl #12  ; [pp+0x17768] TypeArguments: <ObjectDetection>
     //     0xad7ca0: ldr             x1, [x1, #0x768]
@@ -13155,7 +13155,7 @@ class :: {
     //     0xad8218: bl              #0x5f9020  ; [dart:core] List::List.from
     // 0xad821c: ldur            x2, [fp, #-0x20]
     // 0xad8220: r1 = Function '<anonymous closure>': static.
-    //     0xad8220: add             x1, PP, #0x41, lsl #12  ; [pp+0x41130] AnonymousClosure: (0x767170), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
+    //     0xad8220: add             x1, PP, #0x41, lsl #12  ; [pp+0x41130] AnonymousClosure: (0x767170), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
     //     0xad8224: ldr             x1, [x1, #0x130]
     // 0xad8228: stur            x0, [fp, #-0x20]
     // 0xad822c: r0 = AllocateClosure()
@@ -13171,7 +13171,7 @@ class :: {
     //     0xad8248: add             x4, PP, #0x31, lsl #12  ; [pp+0x31f20] List(7) [0, 0x2, 0x1, 0x1, "shotList", 0x1, Null]
     //     0xad824c: ldr             x4, [x4, #0xf20]
     // 0xad8250: r0 = copyWith()
-    //     0xad8250: bl              #0x71d984  ; [package:ballai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::copyWith
+    //     0xad8250: bl              #0x71d984  ; [package:kourtai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::copyWith
     // 0xad8254: ldur            x3, [fp, #-0x10]
     // 0xad8258: r17 = 331
     //     0xad8258: mov             x17, #0x14b
@@ -13186,19 +13186,19 @@ class :: {
     // 0xad8278: mov             x1, x3
     // 0xad827c: ldur            x2, [fp, #-0x20]
     // 0xad8280: r0 = VideoWorkoutManagerWorkout.recomputeShootingScore()
-    //     0xad8280: bl              #0x766fa4  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.recomputeShootingScore
+    //     0xad8280: bl              #0x766fa4  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.recomputeShootingScore
     // 0xad8284: ldur            x0, [fp, #-0x18]
     // 0xad8288: LoadField: r1 = r0->field_7
     //     0xad8288: ldur            w1, [x0, #7]
     // 0xad828c: DecompressPointer r1
     //     0xad828c: add             x1, x1, HEAP, lsl #32
     // 0xad8290: r0 = deleteShot()
-    //     0xad8290: bl              #0xad82b8  ; [package:ballai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::deleteShot
+    //     0xad8290: bl              #0xad82b8  ; [package:kourtai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::deleteShot
     // 0xad8294: ldur            x1, [fp, #-0x10]
     // 0xad8298: r4 = const [0, 0x1, 0, 0x1, null]
     //     0xad8298: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0xad829c: r0 = VideoWorkoutManagerWorkout.updateWorkoutSummary()
-    //     0xad829c: bl              #0x730074  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.updateWorkoutSummary
+    //     0xad829c: bl              #0x730074  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.updateWorkoutSummary
     // 0xad82a0: r0 = Null
     //     0xad82a0: mov             x0, NULL
     // 0xad82a4: LeaveFrame
@@ -13231,7 +13231,7 @@ class AnalyzerUploadFlowException extends Object
     //     0xa60ddc: add             x1, PP, #0x29, lsl #12  ; [pp+0x29c68] "This drill does not support analyzer uploads."
     //     0xa60de0: ldr             x1, [x1, #0xc68]
     // 0xa60de4: r0 = L()
-    //     0xa60de4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa60de4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa60de8: stur            x0, [fp, #-8]
     // 0xa60dec: r0 = AnalyzerUploadFlowException()
     //     0xa60dec: bl              #0xa60e0c  ; AllocateAnalyzerUploadFlowExceptionStub -> AnalyzerUploadFlowException (size=0xc)
@@ -13262,7 +13262,7 @@ class AnalyzerUploadFlowException extends Object
     //     0xa619cc: add             x1, PP, #0x29, lsl #12  ; [pp+0x29d50] "Couldn\'t read the selected video length."
     //     0xa619d0: ldr             x1, [x1, #0xd50]
     // 0xa619d4: r0 = L()
-    //     0xa619d4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa619d4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa619d8: stur            x0, [fp, #-8]
     // 0xa619dc: r0 = AnalyzerUploadFlowException()
     //     0xa619dc: bl              #0xa60e0c  ; AllocateAnalyzerUploadFlowExceptionStub -> AnalyzerUploadFlowException (size=0xc)
@@ -13323,7 +13323,7 @@ class AnalyzerUploadFlowException extends Object
     //     0xa61a64: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0xa61a68: mov             x1, x0
     // 0xa61a6c: r0 = L()
-    //     0xa61a6c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa61a6c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa61a70: stur            x0, [fp, #-0x10]
     // 0xa61a74: r0 = AnalyzerUploadFlowException()
     //     0xa61a74: bl              #0xa60e0c  ; AllocateAnalyzerUploadFlowExceptionStub -> AnalyzerUploadFlowException (size=0xc)
@@ -13354,7 +13354,7 @@ class AnalyzerUploadFlowException extends Object
     //     0xa61b84: add             x1, PP, #0x29, lsl #12  ; [pp+0x29d78] "Missing Time goal cap for this drill."
     //     0xa61b88: ldr             x1, [x1, #0xd78]
     // 0xa61b8c: r0 = L()
-    //     0xa61b8c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa61b8c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa61b90: stur            x0, [fp, #-8]
     // 0xa61b94: r0 = AnalyzerUploadFlowException()
     //     0xa61b94: bl              #0xa60e0c  ; AllocateAnalyzerUploadFlowExceptionStub -> AnalyzerUploadFlowException (size=0xc)
@@ -13400,7 +13400,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     // 0x60b828: mov             x1, x0
     // 0x60b82c: stur            x0, [fp, #-8]
     // 0x60b830: r0 = VideoWorkoutManager._()
-    //     0x60b830: bl              #0x60b84c  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::VideoWorkoutManager._
+    //     0x60b830: bl              #0x60b84c  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::VideoWorkoutManager._
     // 0x60b834: ldur            x0, [fp, #-8]
     // 0x60b838: LeaveFrame
     //     0x60b838: mov             SP, fp
@@ -13587,7 +13587,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     // 0x60b9e0: mov             x1, x0
     // 0x60b9e4: stur            x0, [fp, #-0x10]
     // 0x60b9e8: r0 = DribblePipeline()
-    //     0x60b9e8: bl              #0x60c21c  ; [package:ballai/video_tracking/analysis/dribble/dribble_pipeline.dart] DribblePipeline::DribblePipeline
+    //     0x60b9e8: bl              #0x60c21c  ; [package:kourtai/video_tracking/analysis/dribble/dribble_pipeline.dart] DribblePipeline::DribblePipeline
     // 0x60b9ec: ldur            x0, [fp, #-0x10]
     // 0x60b9f0: ldur            x1, [fp, #-8]
     // 0x60b9f4: StoreField: r1->field_6f = r0
@@ -13648,7 +13648,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     // 0x60ba9c: mov             x1, x0
     // 0x60baa0: stur            x0, [fp, #-0x10]
     // 0x60baa4: r0 = DribbleTimelineBuffer()
-    //     0x60baa4: bl              #0x60c178  ; [package:ballai/video_tracking/analysis/dribble/dribble_models.dart] DribbleTimelineBuffer::DribbleTimelineBuffer
+    //     0x60baa4: bl              #0x60c178  ; [package:kourtai/video_tracking/analysis/dribble/dribble_models.dart] DribbleTimelineBuffer::DribbleTimelineBuffer
     // 0x60baa8: ldur            x0, [fp, #-0x10]
     // 0x60baac: ldur            x1, [fp, #-8]
     // 0x60bab0: StoreField: r1->field_e3 = r0
@@ -13676,7 +13676,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     //     0x60baf4: add             x1, PP, #0x17, lsl #12  ; [pp+0x17758] Obj!ScoringChannel@d38da1
     //     0x60baf8: ldr             x1, [x1, #0x758]
     // 0x60bafc: r0 = codeDefault()
-    //     0x60bafc: bl              #0x60c0c4  ; [package:ballai/video_tracking/scoring/score_handler.dart] ScoringConfig::codeDefault
+    //     0x60bafc: bl              #0x60c0c4  ; [package:kourtai/video_tracking/scoring/score_handler.dart] ScoringConfig::codeDefault
     // 0x60bb00: stur            x0, [fp, #-0x10]
     // 0x60bb04: r0 = ScoreHandler()
     //     0x60bb04: bl              #0x60c0b8  ; AllocateScoreHandlerStub -> ScoreHandler (size=0x10)
@@ -13686,7 +13686,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     // 0x60bb14: StoreField: r1->field_7 = r0
     //     0x60bb14: stur            w0, [x1, #7]
     // 0x60bb18: r0 = base()
-    //     0x60bb18: bl              #0x60c068  ; [package:ballai/video_tracking/scoring/score_handler.dart] ScoreState::base
+    //     0x60bb18: bl              #0x60c068  ; [package:kourtai/video_tracking/scoring/score_handler.dart] ScoreState::base
     // 0x60bb1c: ldur            x1, [fp, #-0x18]
     // 0x60bb20: StoreField: r1->field_b = r0
     //     0x60bb20: stur            w0, [x1, #0xb]
@@ -13712,7 +13712,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     //     0x60bb64: add             x1, PP, #0x17, lsl #12  ; [pp+0x17760] Obj!ScoringChannel@d38d81
     //     0x60bb68: ldr             x1, [x1, #0x760]
     // 0x60bb6c: r0 = codeDefault()
-    //     0x60bb6c: bl              #0x60c0c4  ; [package:ballai/video_tracking/scoring/score_handler.dart] ScoringConfig::codeDefault
+    //     0x60bb6c: bl              #0x60c0c4  ; [package:kourtai/video_tracking/scoring/score_handler.dart] ScoringConfig::codeDefault
     // 0x60bb70: stur            x0, [fp, #-0x10]
     // 0x60bb74: r0 = ScoreHandler()
     //     0x60bb74: bl              #0x60c0b8  ; AllocateScoreHandlerStub -> ScoreHandler (size=0x10)
@@ -13722,7 +13722,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     // 0x60bb84: StoreField: r1->field_7 = r0
     //     0x60bb84: stur            w0, [x1, #7]
     // 0x60bb88: r0 = base()
-    //     0x60bb88: bl              #0x60c068  ; [package:ballai/video_tracking/scoring/score_handler.dart] ScoreState::base
+    //     0x60bb88: bl              #0x60c068  ; [package:kourtai/video_tracking/scoring/score_handler.dart] ScoreState::base
     // 0x60bb8c: ldur            x1, [fp, #-0x18]
     // 0x60bb90: StoreField: r1->field_b = r0
     //     0x60bb90: stur            w0, [x1, #0xb]
@@ -13839,7 +13839,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     //     0x60bce4: tst             x16, HEAP, lsr #32
     //     0x60bce8: b.eq            #0x60bcf0
     //     0x60bcec: bl              #0xe5479c  ; WriteBarrierWrappersStub
-    // 0x60bcf0: r0 = InitLateStaticField(0x1134) // [package:ballai/video_tracking/detection/yolo/yolo_model_spec.dart] ::kActiveYoloModelSpec
+    // 0x60bcf0: r0 = InitLateStaticField(0x1134) // [package:kourtai/video_tracking/detection/yolo/yolo_model_spec.dart] ::kActiveYoloModelSpec
     //     0x60bcf0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x60bcf4: ldr             x0, [x0, #0x2268]
     //     0x60bcf8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -13955,7 +13955,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     // 0x60be30: mov             x1, x0
     // 0x60be34: stur            x0, [fp, #-0x10]
     // 0x60be38: r0 = ShootingStateManager()
-    //     0x60be38: bl              #0x60bfa4  ; [package:ballai/video_tracking/analysis/shooting_state_manager.dart] ShootingStateManager::ShootingStateManager
+    //     0x60be38: bl              #0x60bfa4  ; [package:kourtai/video_tracking/analysis/shooting_state_manager.dart] ShootingStateManager::ShootingStateManager
     // 0x60be3c: ldur            x0, [fp, #-0x10]
     // 0x60be40: ldur            x1, [fp, #-8]
     // 0x60be44: r17 = 483
@@ -14056,7 +14056,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     // 0x6d26a0: ldur            x0, [fp, #-0x20]
     // 0x6d26a4: ldur            x1, [fp, #-0x10]
     // 0x6d26a8: r0 = currentReplayMediaTimeSeconds()
-    //     0x6d26a8: bl              #0x6d2a58  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::currentReplayMediaTimeSeconds
+    //     0x6d26a8: bl              #0x6d2a58  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::currentReplayMediaTimeSeconds
     // 0x6d26ac: mov             x1, x0
     // 0x6d26b0: ldur            x0, [fp, #-0x20]
     // 0x6d26b4: LoadField: r3 = r0->field_7
@@ -14065,7 +14065,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     //     0x6d26b8: add             x3, x3, HEAP, lsl #32
     // 0x6d26bc: ldur            x2, [fp, #-0x18]
     // 0x6d26c0: r0 = append()
-    //     0x6d26c0: bl              #0x6d26e0  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_feedback_persistence.dart] BallyBreakdownFeedbackPersistence::append
+    //     0x6d26c0: bl              #0x6d26e0  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_feedback_persistence.dart] BallyBreakdownFeedbackPersistence::append
     // 0x6d26c4: mov             x1, x0
     // 0x6d26c8: stur            x1, [fp, #-0x10]
     // 0x6d26cc: r0 = Await()
@@ -14094,7 +14094,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     //     0x6d2a74: add             x0, x0, HEAP, lsl #32
     // 0x6d2a78: mov             x1, x0
     // 0x6d2a7c: r0 = latestAcceptedMediaTimeSeconds()
-    //     0x6d2a7c: bl              #0x6d2a94  ; [package:ballai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::latestAcceptedMediaTimeSeconds
+    //     0x6d2a7c: bl              #0x6d2a94  ; [package:kourtai/video_tracking/session/video_storage/workout_hls_recorder.dart] WorkoutHLSRecorder::latestAcceptedMediaTimeSeconds
     // 0x6d2a80: LeaveFrame
     //     0x6d2a80: mov             SP, fp
     //     0x6d2a84: ldp             fp, lr, [SP], #0x10
@@ -14121,7 +14121,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     // 0x6d3fa4: ldr             x2, [fp, #0x10]
     // 0x6d3fa8: stur            x0, [fp, #-8]
     // 0x6d3fac: r0 = BallySuggestionEngine()
-    //     0x6d3fac: bl              #0x6d3fc8  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::BallySuggestionEngine
+    //     0x6d3fac: bl              #0x6d3fc8  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::BallySuggestionEngine
     // 0x6d3fb0: ldur            x0, [fp, #-8]
     // 0x6d3fb4: LeaveFrame
     //     0x6d3fb4: mov             SP, fp
@@ -14230,7 +14230,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     //     0x716050: add             x4, x4, HEAP, lsl #32
     // 0x716054: stur            x4, [fp, #-0x10]
     // 0x716058: r1 = Function '<anonymous closure>':.
-    //     0x716058: add             x1, PP, #0x31, lsl #12  ; [pp+0x31cf0] AnonymousClosure: (0x71537c), in [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
+    //     0x716058: add             x1, PP, #0x31, lsl #12  ; [pp+0x31cf0] AnonymousClosure: (0x71537c), in [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
     //     0x71605c: ldr             x1, [x1, #0xcf0]
     // 0x716060: r2 = Null
     //     0x716060: mov             x2, NULL
@@ -14258,10 +14258,10 @@ class VideoWorkoutManager extends ChangeNotifier {
     //     0x7160a0: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x7160a4: ldur            x1, [fp, #-8]
     // 0x7160a8: r0 = _monotonicSeconds()
-    //     0x7160a8: bl              #0x7168fc  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::_monotonicSeconds
+    //     0x7160a8: bl              #0x7168fc  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::_monotonicSeconds
     // 0x7160ac: ldur            x2, [fp, #-0x18]
     // 0x7160b0: r1 = Function 'bestFresh':.
-    //     0x7160b0: add             x1, PP, #0x31, lsl #12  ; [pp+0x31cf8] AnonymousClosure: (0x716940), in [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::selectedHoop (0x716014)
+    //     0x7160b0: add             x1, PP, #0x31, lsl #12  ; [pp+0x31cf8] AnonymousClosure: (0x716940), in [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::selectedHoop (0x716014)
     //     0x7160b4: ldr             x1, [x1, #0xcf8]
     // 0x7160b8: stur            d0, [fp, #-0x20]
     // 0x7160bc: r0 = AllocateClosure()
@@ -14345,7 +14345,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     // 0x7161a8: b.eq            #0x7163ec
     // 0x7161ac: mov             x1, x0
     // 0x7161b0: r0 = centerInTopLeftNormalized()
-    //     0x7161b0: bl              #0x71688c  ; [package:ballai/video_tracking/models/object_detection.dart] ::centerInTopLeftNormalized
+    //     0x7161b0: bl              #0x71688c  ; [package:kourtai/video_tracking/models/object_detection.dart] ::centerInTopLeftNormalized
     // 0x7161b4: mov             x2, x0
     // 0x7161b8: ldur            x0, [fp, #-8]
     // 0x7161bc: stur            x2, [fp, #-0x18]
@@ -14357,11 +14357,11 @@ class VideoWorkoutManager extends ChangeNotifier {
     // 0x7161cc: cmp             w1, NULL
     // 0x7161d0: b.eq            #0x7164c0
     // 0x7161d4: r0 = centerInTopLeftNormalized()
-    //     0x7161d4: bl              #0x71688c  ; [package:ballai/video_tracking/models/object_detection.dart] ::centerInTopLeftNormalized
+    //     0x7161d4: bl              #0x71688c  ; [package:kourtai/video_tracking/models/object_detection.dart] ::centerInTopLeftNormalized
     // 0x7161d8: ldur            x1, [fp, #-0x18]
     // 0x7161dc: mov             x2, x0
     // 0x7161e0: r0 = distanceSquared()
-    //     0x7161e0: bl              #0x716864  ; [package:ballai/video_tracking/models/object_detection.dart] ::distanceSquared
+    //     0x7161e0: bl              #0x716864  ; [package:kourtai/video_tracking/models/object_detection.dart] ::distanceSquared
     // 0x7161e4: mov             v1.16b, v0.16b
     // 0x7161e8: d0 = 0.022500
     //     0x7161e8: add             x17, PP, #0x31, lsl #12  ; [pp+0x31d00] IMM: double(0.0225) from 0x3f970a3d70a3d70a
@@ -14383,7 +14383,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     // 0x716218: b.eq            #0x7164c4
     // 0x71621c: ldur            x2, [fp, #-0x10]
     // 0x716220: r0 = _rimSizeWithinTolerance()
-    //     0x716220: bl              #0x7167b0  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::_rimSizeWithinTolerance
+    //     0x716220: bl              #0x7167b0  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::_rimSizeWithinTolerance
     // 0x716224: tbz             w0, #4, #0x716290
     // 0x716228: ldur            x2, [fp, #-8]
     // 0x71622c: ldur            d0, [fp, #-0x20]
@@ -14428,7 +14428,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     // 0x7162a8: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x7162a8: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x7162ac: r0 = copyWith()
-    //     0x7162ac: bl              #0x716528  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::copyWith
+    //     0x7162ac: bl              #0x716528  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::copyWith
     // 0x7162b0: ldur            x2, [fp, #-8]
     // 0x7162b4: r17 = 495
     //     0x7162b4: mov             x17, #0x1ef
@@ -14480,7 +14480,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     // 0x71634c: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x71634c: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x716350: r0 = copyWith()
-    //     0x716350: bl              #0x716528  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::copyWith
+    //     0x716350: bl              #0x716528  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::copyWith
     // 0x716354: ldur            x2, [fp, #-8]
     // 0x716358: r17 = 495
     //     0x716358: mov             x17, #0x1ef
@@ -14550,7 +14550,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     // 0x716418: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x716418: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x71641c: r0 = copyWith()
-    //     0x71641c: bl              #0x716528  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::copyWith
+    //     0x71641c: bl              #0x716528  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::copyWith
     // 0x716420: ldur            x1, [fp, #-8]
     // 0x716424: r17 = 495
     //     0x716424: mov             x17, #0x1ef
@@ -14871,7 +14871,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     // 0x716a80: ret
     //     0x716a80: ret             
     // 0x716a84: r1 = Function '<anonymous closure>':.
-    //     0x716a84: add             x1, PP, #0x31, lsl #12  ; [pp+0x31d08] AnonymousClosure: (0x716f00), in [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::selectedHoop (0x716014)
+    //     0x716a84: add             x1, PP, #0x31, lsl #12  ; [pp+0x31d08] AnonymousClosure: (0x716f00), in [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::selectedHoop (0x716014)
     //     0x716a88: ldr             x1, [x1, #0xd08]
     // 0x716a8c: r2 = Null
     //     0x716a8c: mov             x2, NULL
@@ -14925,7 +14925,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     //     0x73f07c: b.ls            #0x73f094
     // 0x73f080: ldr             x2, [fp, #0x10]
     // 0x73f084: r0 = recordHLSError()
-    //     0x73f084: bl              #0x73f2b8  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::recordHLSError
+    //     0x73f084: bl              #0x73f2b8  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::recordHLSError
     // 0x73f088: LeaveFrame
     //     0x73f088: mov             SP, fp
     //     0x73f08c: ldp             fp, lr, [SP], #0x10
@@ -15122,7 +15122,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     //     0x73f4b4: add             x4, PP, #0x29, lsl #12  ; [pp+0x29168] List(7) [0, 0x2, 0x1, 0x1, "hlsErrors", 0x1, Null]
     //     0x73f4b8: ldr             x4, [x4, #0x168]
     // 0x73f4bc: r0 = copyWith()
-    //     0x73f4bc: bl              #0x71d984  ; [package:ballai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::copyWith
+    //     0x73f4bc: bl              #0x71d984  ; [package:kourtai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::copyWith
     // 0x73f4c0: ldur            x1, [fp, #-0x18]
     // 0x73f4c4: r17 = 331
     //     0x73f4c4: mov             x17, #0x14b
@@ -15182,7 +15182,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     // 0x76ea1c: tbnz            w0, #4, #0x76ea9c
     // 0x76ea20: mov             x1, x4
     // 0x76ea24: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x76ea24: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x76ea24: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x76ea28: tbz             w0, #4, #0x76ea94
     // 0x76ea2c: ldur            x5, [fp, #-8]
     // 0x76ea30: cmp             w5, NULL
@@ -15203,7 +15203,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     // 0x76ea60: ldur            x3, [fp, #-0x20]
     // 0x76ea64: ldur            x6, [fp, #-0x28]
     // 0x76ea68: r0 = _shouldHoldRimCommit()
-    //     0x76ea68: bl              #0x76eabc  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::_shouldHoldRimCommit
+    //     0x76ea68: bl              #0x76eabc  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::_shouldHoldRimCommit
     // 0x76ea6c: ldur            x1, [fp, #-0x10]
     // 0x76ea70: r17 = 503
     //     0x76ea70: mov             x17, #0x1f7
@@ -15219,7 +15219,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     // 0x76ea98: b               #0x76eaa0
     // 0x76ea9c: mov             x1, x4
     // 0x76eaa0: r0 = selectedHoop()
-    //     0x76eaa0: bl              #0x716014  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::selectedHoop
+    //     0x76eaa0: bl              #0x716014  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::selectedHoop
     // 0x76eaa4: r0 = Null
     //     0x76eaa4: mov             x0, NULL
     // 0x76eaa8: LeaveFrame
@@ -15306,7 +15306,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     // 0x76eb84: ldur            x1, [fp, #-0x18]
     // 0x76eb88: ldur            x2, [fp, #-8]
     // 0x76eb8c: r0 = pixelBoundingBox()
-    //     0x76eb8c: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x76eb8c: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x76eb90: ArrayLoad: d0 = r0[0]  ; List_8
     //     0x76eb90: ldur            d0, [x0, #0x17]
     // 0x76eb94: stur            d0, [fp, #-0x68]
@@ -15337,7 +15337,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     // 0x76ebdc: ldur            x1, [fp, #-0x18]
     // 0x76ebe0: ldur            x2, [fp, #-8]
     // 0x76ebe4: r0 = hoopRegionRect()
-    //     0x76ebe4: bl              #0x75d7dc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::hoopRegionRect
+    //     0x76ebe4: bl              #0x75d7dc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::hoopRegionRect
     // 0x76ebe8: stur            x0, [fp, #-0x38]
     // 0x76ebec: ldur            d0, [fp, #-0x58]
     // 0x76ebf0: r3 = 0
@@ -15428,7 +15428,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     //     0x76ece4: add             x1, x1, HEAP, lsl #32
     // 0x76ece8: ldur            x2, [fp, #-8]
     // 0x76ecec: r0 = pixelBoundingBox()
-    //     0x76ecec: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x76ecec: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x76ecf0: mov             x1, x0
     // 0x76ecf4: stur            x0, [fp, #-0x18]
     // 0x76ecf8: r0 = center()
@@ -15595,7 +15595,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     // 0x76eee0: ldur            x1, [fp, #-0x48]
     // 0x76eee4: ldur            x2, [fp, #-8]
     // 0x76eee8: r0 = _poseBoundingBox()
-    //     0x76eee8: bl              #0x76f058  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::_poseBoundingBox
+    //     0x76eee8: bl              #0x76f058  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::_poseBoundingBox
     // 0x76eeec: cmp             w0, NULL
     // 0x76eef0: b.ne            #0x76ef0c
     // 0x76eef4: ldur            x1, [fp, #-0x38]
@@ -16107,14 +16107,14 @@ class VideoWorkoutManager extends ChangeNotifier {
     //     0x7748dc: add             x4, PP, #0x33, lsl #12  ; [pp+0x330b0] List(9) [0, 0x3, 0x2, 0x1, "guardAlerts", 0x1, "updateDate", 0x2, Null]
     //     0x7748e0: ldr             x4, [x4, #0xb0]
     // 0x7748e4: r0 = copyWith()
-    //     0x7748e4: bl              #0x74c780  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::copyWith
+    //     0x7748e4: bl              #0x74c780  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::copyWith
     // 0x7748e8: str             x0, [SP]
     // 0x7748ec: ldur            x1, [fp, #-0x18]
     // 0x7748f0: r4 = const [0, 0x2, 0x1, 0x1, workout, 0x1, null]
     //     0x7748f0: add             x4, PP, #0x28, lsl #12  ; [pp+0x280d0] List(7) [0, 0x2, 0x1, 0x1, "workout", 0x1, Null]
     //     0x7748f4: ldr             x4, [x4, #0xd0]
     // 0x7748f8: r0 = copyWith()
-    //     0x7748f8: bl              #0x71d984  ; [package:ballai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::copyWith
+    //     0x7748f8: bl              #0x71d984  ; [package:kourtai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::copyWith
     // 0x7748fc: ldur            x2, [fp, #-0x20]
     // 0x774900: r17 = 331
     //     0x774900: mov             x17, #0x14b
@@ -16146,7 +16146,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     //     0x77494c: add             x2, PP, #0x33, lsl #12  ; [pp+0x330b8] List<String>(2)
     //     0x774950: ldr             x2, [x2, #0xb8]
     // 0x774954: r0 = VideoWorkoutManagerWorkout.updateWorkout()
-    //     0x774954: bl              #0x74dc88  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.updateWorkout
+    //     0x774954: bl              #0x74dc88  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.updateWorkout
     // 0x774958: r0 = Null
     //     0x774958: mov             x0, NULL
     // 0x77495c: LeaveFrame
@@ -16223,7 +16223,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     //     0x779280: b.ls            #0x77932c
     // 0x779284: mov             x1, x0
     // 0x779288: r0 = selectedHoop()
-    //     0x779288: bl              #0x716014  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::selectedHoop
+    //     0x779288: bl              #0x716014  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::selectedHoop
     // 0x77928c: cmp             w0, NULL
     // 0x779290: b.eq            #0x7792a0
     // 0x779294: LeaveFrame
@@ -16255,7 +16255,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     //     0x7792d8: ldp             fp, lr, [SP], #0x10
     // 0x7792dc: ret
     //     0x7792dc: ret             
-    // 0x7792e0: r0 = InitLateStaticField(0x1078) // [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::instance
+    // 0x7792e0: r0 = InitLateStaticField(0x1078) // [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::instance
     //     0x7792e0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x7792e4: ldr             x0, [x0, #0x20f0]
     //     0x7792e8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -16275,7 +16275,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     // 0x779314: b               #0x779320
     // 0x779318: ldur            x2, [fp, #-0x10]
     // 0x77931c: r0 = asObjectDetection()
-    //     0x77931c: bl              #0x715018  ; [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopGeometry::asObjectDetection
+    //     0x77931c: bl              #0x715018  ; [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopGeometry::asObjectDetection
     // 0x779320: LeaveFrame
     //     0x779320: mov             SP, fp
     //     0x779324: ldp             fp, lr, [SP], #0x10
@@ -16302,7 +16302,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     // 0x779514: ldr             x2, [fp, #0x10]
     // 0x779518: stur            x0, [fp, #-8]
     // 0x77951c: r0 = VideoCoachBridge()
-    //     0x77951c: bl              #0x779538  ; [package:ballai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::VideoCoachBridge
+    //     0x77951c: bl              #0x779538  ; [package:kourtai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::VideoCoachBridge
     // 0x779520: ldur            x0, [fp, #-8]
     // 0x779524: LeaveFrame
     //     0x779524: mov             SP, fp
@@ -16362,7 +16362,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     //     0x999e60: mov             x0, NULL
     // 0x999e64: b               #0x999e6c
     // 0x999e68: r0 = canUseMarketingMode()
-    //     0x999e68: bl              #0x999f00  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::canUseMarketingMode
+    //     0x999e68: bl              #0x999f00  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::canUseMarketingMode
     // 0x999e6c: cmp             w0, NULL
     // 0x999e70: b.eq            #0x999e78
     // 0x999e74: tbz             w0, #4, #0x999e88
@@ -16556,7 +16556,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     //     0xada644: cmp             SP, x16
     //     0xada648: b.ls            #0xada65c
     // 0xada64c: r0 = dismissGuardWarning()
-    //     0xada64c: bl              #0xada664  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::dismissGuardWarning
+    //     0xada64c: bl              #0xada664  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::dismissGuardWarning
     // 0xada650: LeaveFrame
     //     0xada650: mov             SP, fp
     //     0xada654: ldp             fp, lr, [SP], #0x10
@@ -16584,7 +16584,7 @@ class VideoWorkoutManager extends ChangeNotifier {
     //     0xada684: add             x0, x0, HEAP, lsl #32
     // 0xada688: stur            x0, [fp, #-8]
     // 0xada68c: r0 = clearGuardWarning()
-    //     0xada68c: bl              #0x714d10  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::clearGuardWarning
+    //     0xada68c: bl              #0x714d10  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::clearGuardWarning
     // 0xada690: ldur            x0, [fp, #-8]
     // 0xada694: cmp             w0, NULL
     // 0xada698: b.eq            #0xada6ac

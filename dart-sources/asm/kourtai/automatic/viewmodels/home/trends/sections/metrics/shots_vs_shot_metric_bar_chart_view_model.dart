@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/home/trends/sections/metrics/shots_vs_shot_metric_bar_chart_view_model.dart
+// lib: , url: package:kourtai/automatic/viewmodels/home/trends/sections/metrics/shots_vs_shot_metric_bar_chart_view_model.dart
 
 // class id: 1048774, size: 0x8
 class :: {
@@ -466,7 +466,7 @@ class ShotsVsShotMetricBarChartViewModel extends Object {
     // 0xa81e08: ldur            x1, [fp, #-0x10]
     // 0xa81e0c: ldur            x2, [fp, #-0x18]
     // 0xa81e10: r0 = _formatRange()
-    //     0xa81e10: bl              #0xa81fe8  ; [package:ballai/automatic/viewmodels/home/trends/sections/metrics/shots_vs_shot_metric_bar_chart_view_model.dart] ShotsVsShotMetricBarChartViewModel::_formatRange
+    //     0xa81e10: bl              #0xa81fe8  ; [package:kourtai/automatic/viewmodels/home/trends/sections/metrics/shots_vs_shot_metric_bar_chart_view_model.dart] ShotsVsShotMetricBarChartViewModel::_formatRange
     // 0xa81e14: mov             x1, x0
     // 0xa81e18: ldur            x0, [fp, #-0x38]
     // 0xa81e1c: stur            x1, [fp, #-0x30]
@@ -738,7 +738,7 @@ class ShotsVsShotMetricBarChartViewModel extends Object {
     //     0xa82138: ret             
     // 0xa8213c: mov             x1, x0
     // 0xa82140: r0 = _formatNumber()
-    //     0xa82140: bl              #0xa82224  ; [package:ballai/automatic/viewmodels/home/trends/sections/metrics/shots_vs_shot_metric_bar_chart_view_model.dart] ShotsVsShotMetricBarChartViewModel::_formatNumber
+    //     0xa82140: bl              #0xa82224  ; [package:kourtai/automatic/viewmodels/home/trends/sections/metrics/shots_vs_shot_metric_bar_chart_view_model.dart] ShotsVsShotMetricBarChartViewModel::_formatNumber
     // 0xa82144: r1 = Null
     //     0xa82144: mov             x1, NULL
     // 0xa82148: r2 = 8
@@ -758,7 +758,7 @@ class ShotsVsShotMetricBarChartViewModel extends Object {
     // 0xa8216c: ldur            x1, [fp, #-0x20]
     // 0xa82170: ldur            d0, [fp, #-0x28]
     // 0xa82174: r0 = _formatNumber()
-    //     0xa82174: bl              #0xa82224  ; [package:ballai/automatic/viewmodels/home/trends/sections/metrics/shots_vs_shot_metric_bar_chart_view_model.dart] ShotsVsShotMetricBarChartViewModel::_formatNumber
+    //     0xa82174: bl              #0xa82224  ; [package:kourtai/automatic/viewmodels/home/trends/sections/metrics/shots_vs_shot_metric_bar_chart_view_model.dart] ShotsVsShotMetricBarChartViewModel::_formatNumber
     // 0xa82178: ldur            x1, [fp, #-0x18]
     // 0xa8217c: ArrayStore: r1[2] = r0  ; List_4
     //     0xa8217c: add             x25, x1, #0x17
@@ -957,7 +957,7 @@ class ShotsVsShotMetricBarChartViewModel extends Object {
     //     0xa8242c: stur            w0, [x1, #0x13]
     // 0xa82430: mov             x2, x1
     // 0xa82434: r1 = Function '<anonymous closure>':.
-    //     0xa82434: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4db58] AnonymousClosure: (0xa8247c), in [package:ballai/automatic/viewmodels/home/trends/sections/metrics/shots_vs_shot_metric_bar_chart_view_model.dart] ShotsVsShotMetricBarChartViewModel::hasMetricData (0xa823e8)
+    //     0xa82434: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4db58] AnonymousClosure: (0xa8247c), in [package:kourtai/automatic/viewmodels/home/trends/sections/metrics/shots_vs_shot_metric_bar_chart_view_model.dart] ShotsVsShotMetricBarChartViewModel::hasMetricData (0xa823e8)
     //     0xa82438: ldr             x1, [x1, #0xb58]
     // 0xa8243c: r0 = AllocateClosure()
     //     0xa8243c: bl              #0xe553e0  ; AllocateClosureStub

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/leaderboard/leaderboard_current_user_bar.dart
+// lib: , url: package:kourtai/automatic/views/components/leaderboard/leaderboard_current_user_bar.dart
 
 // class id: 1048814, size: 0x8
 class :: {
@@ -25,16 +25,16 @@ class LeaderboardCurrentUserBar extends StatelessWidget {
     //     0xbbce40: cmp             SP, x16
     //     0xbbce44: b.ls            #0xbbd7f4
     // 0xbbce48: mov             x1, x0
-    // 0xbbce4c: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbbce4c: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbbce4c: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbbce4c: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbbce50: ldur            x1, [fp, #-0x10]
     // 0xbbce54: stur            x0, [fp, #-0x18]
-    // 0xbbce58: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbbce58: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbbce58: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbbce58: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbbce5c: ldur            x1, [fp, #-0x10]
     // 0xbbce60: stur            x0, [fp, #-0x20]
-    // 0xbbce64: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbbce64: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbbce64: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbbce64: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbbce68: mov             x1, x0
     // 0xbbce6c: ldur            x0, [fp, #-8]
     // 0xbbce70: stur            x1, [fp, #-0x38]
@@ -241,8 +241,8 @@ class LeaderboardCurrentUserBar extends StatelessWidget {
     // 0xbbd0a0: ldur            x3, [fp, #-0x20]
     // 0xbbd0a4: ldur            x1, [fp, #-0x10]
     // 0xbbd0a8: stur            x4, [fp, #-0x28]
-    // 0xbbd0ac: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xbbd0ac: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xbbd0ac: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xbbd0ac: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xbbd0b0: stur            x0, [fp, #-0x40]
     // 0xbbd0b4: r0 = BorderSide()
     //     0xbbd0b4: bl              #0x829108  ; AllocateBorderSideStub -> BorderSide (size=0x20)
@@ -296,7 +296,7 @@ class LeaderboardCurrentUserBar extends StatelessWidget {
     //     0xbbd12c: stur            w0, [x2, #0x23]
     // 0xbbd130: ldur            x1, [fp, #-0x10]
     // 0xbbd134: r0 = systemBottomBarInset()
-    //     0xbbd134: bl              #0xa9f2a8  ; [package:ballai/automatic/utility/ui/system_bottom_inset.dart] ::systemBottomBarInset
+    //     0xbbd134: bl              #0xa9f2a8  ; [package:kourtai/automatic/utility/ui/system_bottom_inset.dart] ::systemBottomBarInset
     // 0xbbd138: mov             v1.16b, v0.16b
     // 0xbbd13c: d0 = 12.000000
     //     0xbbd13c: fmov            d0, #12.00000000
@@ -406,7 +406,7 @@ class LeaderboardCurrentUserBar extends StatelessWidget {
     //     0xbbd24c: add             x1, PP, #0x24, lsl #12  ; [pp+0x24e70] "You"
     //     0xbbd250: ldr             x1, [x1, #0xe70]
     // 0xbbd254: r0 = L()
-    //     0xbbd254: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbbd254: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbbd258: stur            x0, [fp, #-0x28]
     // 0xbbd25c: r0 = TextStyle()
     //     0xbbd25c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -683,8 +683,8 @@ class LeaderboardCurrentUserBar extends StatelessWidget {
     //     0xbbd530: add             x1, x1, HEAP, lsl #32
     // 0xbbd534: tbnz            w1, #4, #0xbbd66c
     // 0xbbd538: ldur            x1, [fp, #-0x10]
-    // 0xbbd53c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbbd53c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbbd53c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbbd53c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbbd540: r16 = 0.080000
     //     0xbbd540: add             x16, PP, #0x24, lsl #12  ; [pp+0x24f28] 0.08
     //     0xbbd544: ldr             x16, [x16, #0xf28]
@@ -798,7 +798,7 @@ class LeaderboardCurrentUserBar extends StatelessWidget {
     //     0xbbd670: add             x1, PP, #0x34, lsl #12  ; [pp+0x34da8] "Unranked"
     //     0xbbd674: ldr             x1, [x1, #0xda8]
     // 0xbbd678: r0 = L()
-    //     0xbbd678: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbbd678: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbbd67c: stur            x0, [fp, #-8]
     // 0xbbd680: r0 = TextStyle()
     //     0xbbd680: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart
 
 // class id: 1048956, size: 0x8
 class :: {
@@ -51,10 +51,10 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     // 0x97bd94: DecompressPointer r2
     //     0x97bd94: add             x2, x2, HEAP, lsl #32
     // 0x97bd98: r0 = setRosterTeam()
-    //     0x97bd98: bl              #0x97535c  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::setRosterTeam
+    //     0x97bd98: bl              #0x97535c  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::setRosterTeam
     // 0x97bd9c: ldur            x1, [fp, #-8]
     // 0x97bda0: r0 = _loadDrills()
-    //     0x97bda0: bl              #0x97bde4  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_loadDrills
+    //     0x97bda0: bl              #0x97bde4  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_loadDrills
     // 0x97bda4: r0 = Null
     //     0x97bda4: mov             x0, NULL
     // 0x97bda8: LeaveFrame
@@ -97,7 +97,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0x97be1c: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x97be20: bl              #0x60afc8  ; InitAsyncStub
     // 0x97be24: r0 = fetchPublishedDrills()
-    //     0x97be24: bl              #0x94c2ac  ; [package:ballai/video_tracking/views/drills/data/drill_catalog_repository.dart] DrillCatalogRepository::fetchPublishedDrills
+    //     0x97be24: bl              #0x94c2ac  ; [package:kourtai/video_tracking/views/drills/data/drill_catalog_repository.dart] DrillCatalogRepository::fetchPublishedDrills
     // 0x97be28: mov             x1, x0
     // 0x97be2c: stur            x1, [fp, #-0x20]
     // 0x97be30: r0 = Await()
@@ -124,7 +124,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     // 0x97be70: r0 = ReturnAsyncNotFuture()
     //     0x97be70: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x97be74: r1 = Function '<anonymous closure>':.
-    //     0x97be74: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d828] AnonymousClosure: (0x908ba4), in [package:ballai/video_tracking/views/drills/drill_detail_screen.dart] _DrillDetailScreenState::_refreshSelectedGoal (0x906908)
+    //     0x97be74: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d828] AnonymousClosure: (0x908ba4), in [package:kourtai/video_tracking/views/drills/drill_detail_screen.dart] _DrillDetailScreenState::_refreshSelectedGoal (0x906908)
     //     0x97be78: ldr             x1, [x1, #0x828]
     // 0x97be7c: r0 = AllocateClosure()
     //     0x97be7c: bl              #0xe553e0  ; AllocateClosureStub
@@ -168,20 +168,20 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa771d0: stur            w1, [x2, #0x13]
     // 0xa771d4: mov             x1, x0
     // 0xa771d8: r0 = _seedAssigneesIfNeeded()
-    //     0xa771d8: bl              #0xa78eb4  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_seedAssigneesIfNeeded
+    //     0xa771d8: bl              #0xa78eb4  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_seedAssigneesIfNeeded
     // 0xa771dc: ldur            x2, [fp, #-0x18]
     // 0xa771e0: LoadField: r1 = r2->field_13
     //     0xa771e0: ldur            w1, [x2, #0x13]
     // 0xa771e4: DecompressPointer r1
     //     0xa771e4: add             x1, x1, HEAP, lsl #32
-    // 0xa771e8: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xa771e8: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xa771e8: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xa771e8: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xa771ec: r1 = "Schedule a drill"
     //     0xa771ec: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d6e0] "Schedule a drill"
     //     0xa771f0: ldr             x1, [x1, #0x6e0]
     // 0xa771f4: stur            x0, [fp, #-0x10]
     // 0xa771f8: r0 = L()
-    //     0xa771f8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa771f8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa771fc: stur            x0, [fp, #-0x20]
     // 0xa77200: r0 = Text()
     //     0xa77200: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -195,16 +195,16 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa77218: ldur            w1, [x0, #0x13]
     // 0xa7721c: DecompressPointer r1
     //     0xa7721c: add             x1, x1, HEAP, lsl #32
-    // 0xa77220: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xa77220: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xa77220: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xa77220: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xa77224: ldur            x1, [fp, #-8]
     // 0xa77228: stur            x0, [fp, #-0x20]
     // 0xa7722c: r0 = _canSave()
-    //     0xa7722c: bl              #0xa78e5c  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_canSave
+    //     0xa7722c: bl              #0xa78e5c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_canSave
     // 0xa77230: tbnz            w0, #4, #0xa77248
     // 0xa77234: ldur            x2, [fp, #-8]
     // 0xa77238: r1 = Function '_save@1228017029':.
-    //     0xa77238: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d6e8] AnonymousClosure: (0xa79d3c), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_save (0xa79d74)
+    //     0xa77238: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d6e8] AnonymousClosure: (0xa79d3c), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_save (0xa79d74)
     //     0xa7723c: ldr             x1, [x1, #0x6e8]
     // 0xa77240: r0 = AllocateClosure()
     //     0xa77240: bl              #0xe553e0  ; AllocateClosureStub
@@ -250,7 +250,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa772a8: add             x1, PP, #0x37, lsl #12  ; [pp+0x37450] "Save"
     //     0xa772ac: ldr             x1, [x1, #0x450]
     // 0xa772b0: r0 = L()
-    //     0xa772b0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa772b0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa772b4: stur            x0, [fp, #-0x38]
     // 0xa772b8: r0 = Text()
     //     0xa772b8: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -417,15 +417,15 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa77460: add             x1, PP, #0x43, lsl #12  ; [pp+0x432a0] "Drill"
     //     0xa77464: ldr             x1, [x1, #0x2a0]
     // 0xa77468: r0 = L()
-    //     0xa77468: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa77468: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7746c: ldur            x2, [fp, #-0x18]
     // 0xa77470: stur            x0, [fp, #-0x20]
     // 0xa77474: LoadField: r1 = r2->field_13
     //     0xa77474: ldur            w1, [x2, #0x13]
     // 0xa77478: DecompressPointer r1
     //     0xa77478: add             x1, x1, HEAP, lsl #32
-    // 0xa7747c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa7747c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa7747c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa7747c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa77480: stur            x0, [fp, #-0x38]
     // 0xa77484: r0 = TextStyle()
     //     0xa77484: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -538,7 +538,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     // 0xa775b0: b               #0xa775c8
     // 0xa775b4: mov             x2, x3
     // 0xa775b8: r1 = Function '_pickDrill@1228017029':.
-    //     0xa775b8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d6f0] AnonymousClosure: (0xa798dc), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_pickDrill (0xa79914)
+    //     0xa775b8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d6f0] AnonymousClosure: (0xa798dc), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_pickDrill (0xa79914)
     //     0xa775bc: ldr             x1, [x1, #0x6f0]
     // 0xa775c0: r0 = AllocateClosure()
     //     0xa775c0: bl              #0xe553e0  ; AllocateClosureStub
@@ -572,8 +572,8 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa77608: ldur            w1, [x0, #0x13]
     // 0xa7760c: DecompressPointer r1
     //     0xa7760c: add             x1, x1, HEAP, lsl #32
-    // 0xa77610: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa77610: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa77610: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa77610: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa77614: stur            x0, [fp, #-0x38]
     // 0xa77618: r0 = Icon()
     //     0xa77618: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -628,8 +628,8 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa776a8: ldur            w1, [x4, #0x13]
     // 0xa776ac: DecompressPointer r1
     //     0xa776ac: add             x1, x1, HEAP, lsl #32
-    // 0xa776b0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa776b0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa776b0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa776b0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa776b4: stur            x0, [fp, #-0x60]
     // 0xa776b8: r0 = TextStyle()
     //     0xa776b8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -681,8 +681,8 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa77730: ldur            w1, [x4, #0x13]
     // 0xa77734: DecompressPointer r1
     //     0xa77734: add             x1, x1, HEAP, lsl #32
-    // 0xa77738: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa77738: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa77738: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa77738: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa7773c: stur            x0, [fp, #-0x60]
     // 0xa77740: r0 = Icon()
     //     0xa77740: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -769,8 +769,8 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     // 0xa7780c: ldur            x7, [fp, #-0x38]
     // 0xa77810: StoreField: r1->field_b = r7
     //     0xa77810: stur            w7, [x1, #0xb]
-    // 0xa77814: r0 = BallAiLiquidGlassCard()
-    //     0xa77814: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xa77814: r0 = KourtAiLiquidGlassCard()
+    //     0xa77814: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xa77818: mov             x1, x0
     // 0xa7781c: ldur            x0, [fp, #-0x58]
     // 0xa77820: stur            x1, [fp, #-0x38]
@@ -912,15 +912,15 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa77998: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d708] "Due"
     //     0xa7799c: ldr             x1, [x1, #0x708]
     // 0xa779a0: r0 = L()
-    //     0xa779a0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa779a0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa779a4: ldur            x2, [fp, #-0x18]
     // 0xa779a8: stur            x0, [fp, #-0x20]
     // 0xa779ac: LoadField: r1 = r2->field_13
     //     0xa779ac: ldur            w1, [x2, #0x13]
     // 0xa779b0: DecompressPointer r1
     //     0xa779b0: add             x1, x1, HEAP, lsl #32
-    // 0xa779b4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa779b4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa779b4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa779b4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa779b8: stur            x0, [fp, #-0x38]
     // 0xa779bc: r0 = TextStyle()
     //     0xa779bc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1027,8 +1027,8 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa77ad8: ldur            w1, [x2, #0x13]
     // 0xa77adc: DecompressPointer r1
     //     0xa77adc: add             x1, x1, HEAP, lsl #32
-    // 0xa77ae0: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa77ae0: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa77ae0: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa77ae0: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa77ae4: stur            x0, [fp, #-0x20]
     // 0xa77ae8: r0 = Icon()
     //     0xa77ae8: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -1072,8 +1072,8 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa77b54: ldur            w1, [x2, #0x13]
     // 0xa77b58: DecompressPointer r1
     //     0xa77b58: add             x1, x1, HEAP, lsl #32
-    // 0xa77b5c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa77b5c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa77b5c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa77b5c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa77b60: stur            x0, [fp, #-0x40]
     // 0xa77b64: r0 = TextStyle()
     //     0xa77b64: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1194,7 +1194,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa77c88: stur            w0, [x3, #0xb]
     // 0xa77c8c: ldur            x2, [fp, #-0x18]
     // 0xa77c90: r1 = Function '<anonymous closure>':.
-    //     0xa77c90: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d718] AnonymousClosure: (0xa793dc), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::build (0xa77194)
+    //     0xa77c90: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d718] AnonymousClosure: (0xa793dc), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::build (0xa77194)
     //     0xa77c94: ldr             x1, [x1, #0x718]
     // 0xa77c98: r0 = AllocateClosure()
     //     0xa77c98: bl              #0xe553e0  ; AllocateClosureStub
@@ -1221,8 +1221,8 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa77cc8: stur            w1, [x0, #0x83]
     // 0xa77ccc: StoreField: r0->field_7b = r2
     //     0xa77ccc: stur            w2, [x0, #0x7b]
-    // 0xa77cd0: r0 = BallAiLiquidGlassCard()
-    //     0xa77cd0: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xa77cd0: r0 = KourtAiLiquidGlassCard()
+    //     0xa77cd0: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xa77cd4: mov             x2, x0
     // 0xa77cd8: ldur            x0, [fp, #-0x20]
     // 0xa77cdc: stur            x2, [fp, #-0x38]
@@ -1332,15 +1332,15 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa77e08: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d720] "Assign to"
     //     0xa77e0c: ldr             x1, [x1, #0x720]
     // 0xa77e10: r0 = L()
-    //     0xa77e10: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa77e10: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa77e14: ldur            x2, [fp, #-0x18]
     // 0xa77e18: stur            x0, [fp, #-0x20]
     // 0xa77e1c: LoadField: r1 = r2->field_13
     //     0xa77e1c: ldur            w1, [x2, #0x13]
     // 0xa77e20: DecompressPointer r1
     //     0xa77e20: add             x1, x1, HEAP, lsl #32
-    // 0xa77e24: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa77e24: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa77e24: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa77e24: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa77e28: stur            x0, [fp, #-0x38]
     // 0xa77e2c: r0 = TextStyle()
     //     0xa77e2c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1461,7 +1461,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa77f7c: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xa77f80: ldur            x1, [fp, #-8]
     // 0xa77f84: r0 = _roster()
-    //     0xa77f84: bl              #0xa78e00  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_roster
+    //     0xa77f84: bl              #0xa78e00  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_roster
     // 0xa77f88: LoadField: r1 = r0->field_b
     //     0xa77f88: ldur            w1, [x0, #0xb]
     // 0xa77f8c: cbnz            w1, #0xa780a4
@@ -1471,15 +1471,15 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa77f98: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d728] "No team members yet. Invite people first, then assign them a drill."
     //     0xa77f9c: ldr             x1, [x1, #0x728]
     // 0xa77fa0: r0 = L()
-    //     0xa77fa0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa77fa0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa77fa4: ldur            x2, [fp, #-0x18]
     // 0xa77fa8: stur            x0, [fp, #-0x20]
     // 0xa77fac: LoadField: r1 = r2->field_13
     //     0xa77fac: ldur            w1, [x2, #0x13]
     // 0xa77fb0: DecompressPointer r1
     //     0xa77fb0: add             x1, x1, HEAP, lsl #32
-    // 0xa77fb4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa77fb4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa77fb4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa77fb4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa77fb8: stur            x0, [fp, #-0x38]
     // 0xa77fbc: r0 = TextStyle()
     //     0xa77fbc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1502,8 +1502,8 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     // 0xa77fec: ldur            x0, [fp, #-0x40]
     // 0xa77ff0: StoreField: r1->field_13 = r0
     //     0xa77ff0: stur            w0, [x1, #0x13]
-    // 0xa77ff4: r0 = BallAiLiquidGlassCard()
-    //     0xa77ff4: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xa77ff4: r0 = KourtAiLiquidGlassCard()
+    //     0xa77ff4: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xa77ff8: mov             x2, x0
     // 0xa77ffc: ldur            x0, [fp, #-0x38]
     // 0xa78000: stur            x2, [fp, #-0x20]
@@ -1576,7 +1576,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa780b8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d730] "Search user"
     //     0xa780bc: ldr             x1, [x1, #0x730]
     // 0xa780c0: r0 = L()
-    //     0xa780c0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa780c0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa780c4: stur            x0, [fp, #-0x38]
     // 0xa780c8: r0 = Icon()
     //     0xa780c8: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -1658,7 +1658,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa7817c: stur            w6, [x3, #0x67]
     // 0xa78180: ldur            x2, [fp, #-0x18]
     // 0xa78184: r1 = Function '<anonymous closure>':.
-    //     0xa78184: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d738] AnonymousClosure: (0xa79378), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::build (0xa77194)
+    //     0xa78184: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d738] AnonymousClosure: (0xa79378), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::build (0xa77194)
     //     0xa78188: ldr             x1, [x1, #0x738]
     // 0xa7818c: r0 = AllocateClosure()
     //     0xa7818c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1728,8 +1728,8 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa78224: stur            w10, [x0, #0x1f]
     // 0xa78228: StoreField: r0->field_c7 = r6
     //     0xa78228: stur            w6, [x0, #0xc7]
-    // 0xa7822c: r0 = BallAiLiquidGlassCard()
-    //     0xa7822c: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xa7822c: r0 = KourtAiLiquidGlassCard()
+    //     0xa7822c: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xa78230: mov             x2, x0
     // 0xa78234: ldur            x0, [fp, #-0x38]
     // 0xa78238: stur            x2, [fp, #-0x20]
@@ -1750,13 +1750,13 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa78258: stur            w0, [x2, #0x1b]
     // 0xa7825c: ldur            x1, [fp, #-8]
     // 0xa78260: r0 = _allSelected()
-    //     0xa78260: bl              #0xa78d1c  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_allSelected
+    //     0xa78260: bl              #0xa78d1c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_allSelected
     // 0xa78264: r1 = "Select all"
     //     0xa78264: add             x1, PP, #0x36, lsl #12  ; [pp+0x36498] "Select all"
     //     0xa78268: ldr             x1, [x1, #0x498]
     // 0xa7826c: stur            x0, [fp, #-0x38]
     // 0xa78270: r0 = L()
-    //     0xa78270: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa78270: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa78274: stur            x0, [fp, #-0x40]
     // 0xa78278: r0 = Text()
     //     0xa78278: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1774,7 +1774,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa7829c: stur            w0, [x3, #0xb]
     // 0xa782a0: ldur            x2, [fp, #-0x18]
     // 0xa782a4: r1 = Function '<anonymous closure>':.
-    //     0xa782a4: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d740] AnonymousClosure: (0xa79214), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::build (0xa77194)
+    //     0xa782a4: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d740] AnonymousClosure: (0xa79214), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::build (0xa77194)
     //     0xa782a8: ldr             x1, [x1, #0x740]
     // 0xa782ac: r0 = AllocateClosure()
     //     0xa782ac: bl              #0xe553e0  ; AllocateClosureStub
@@ -1832,10 +1832,10 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa78328: stur            w0, [x2, #0xb]
     // 0xa7832c: ldur            x1, [fp, #-8]
     // 0xa78330: r0 = _filteredRoster()
-    //     0xa78330: bl              #0xa78a5c  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_filteredRoster
+    //     0xa78330: bl              #0xa78a5c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_filteredRoster
     // 0xa78334: ldur            x2, [fp, #-0x18]
     // 0xa78338: r1 = Function '<anonymous closure>':.
-    //     0xa78338: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d750] AnonymousClosure: (0xa78fc0), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::build (0xa77194)
+    //     0xa78338: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d750] AnonymousClosure: (0xa78fc0), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::build (0xa77194)
     //     0xa7833c: ldr             x1, [x1, #0x750]
     // 0xa78340: stur            x0, [fp, #-0x38]
     // 0xa78344: r0 = AllocateClosure()
@@ -1891,8 +1891,8 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     // 0xa783c0: ldur            x0, [fp, #-0x40]
     // 0xa783c4: StoreField: r1->field_b = r0
     //     0xa783c4: stur            w0, [x1, #0xb]
-    // 0xa783c8: r0 = BallAiLiquidGlassCard()
-    //     0xa783c8: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xa783c8: r0 = KourtAiLiquidGlassCard()
+    //     0xa783c8: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xa783cc: mov             x3, x0
     // 0xa783d0: ldur            x0, [fp, #-0x38]
     // 0xa783d4: stur            x3, [fp, #-0x40]
@@ -2001,7 +2001,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa784e4: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d758] "Notes (optional)"
     //     0xa784e8: ldr             x1, [x1, #0x758]
     // 0xa784ec: r0 = L()
-    //     0xa784ec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa784ec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa784f0: mov             x2, x0
     // 0xa784f4: ldur            x0, [fp, #-0x18]
     // 0xa784f8: stur            x2, [fp, #-0x20]
@@ -2009,8 +2009,8 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa784fc: ldur            w1, [x0, #0x13]
     // 0xa78500: DecompressPointer r1
     //     0xa78500: add             x1, x1, HEAP, lsl #32
-    // 0xa78504: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa78504: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa78504: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa78504: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa78508: stur            x0, [fp, #-0x18]
     // 0xa7850c: r0 = TextStyle()
     //     0xa7850c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2139,7 +2139,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa78670: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d760] "Add a note for the team"
     //     0xa78674: ldr             x1, [x1, #0x760]
     // 0xa78678: r0 = L()
-    //     0xa78678: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa78678: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa7867c: stur            x0, [fp, #-0x20]
     // 0xa78680: r0 = InputDecoration()
     //     0xa78680: bl              #0x912d0c  ; AllocateInputDecorationStub -> InputDecoration (size=0xec)
@@ -2265,8 +2265,8 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa78798: stur            w3, [x1, #0x1f]
     // 0xa7879c: StoreField: r1->field_c7 = r2
     //     0xa7879c: stur            w2, [x1, #0xc7]
-    // 0xa787a0: r0 = BallAiLiquidGlassCard()
-    //     0xa787a0: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xa787a0: r0 = KourtAiLiquidGlassCard()
+    //     0xa787a0: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xa787a4: mov             x2, x0
     // 0xa787a8: ldur            x0, [fp, #-0x20]
     // 0xa787ac: stur            x2, [fp, #-0x18]
@@ -2376,7 +2376,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa788d8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d768] "Save schedule"
     //     0xa788dc: ldr             x1, [x1, #0x768]
     // 0xa788e0: r0 = L()
-    //     0xa788e0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa788e0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa788e4: mov             x2, x0
     // 0xa788e8: ldur            x0, [fp, #-8]
     // 0xa788ec: stur            x2, [fp, #-0x20]
@@ -2387,11 +2387,11 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     // 0xa788f8: mov             x1, x0
     // 0xa788fc: stur            x3, [fp, #-0x18]
     // 0xa78900: r0 = _canSave()
-    //     0xa78900: bl              #0xa78e5c  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_canSave
+    //     0xa78900: bl              #0xa78e5c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_canSave
     // 0xa78904: tbnz            w0, #4, #0xa78920
     // 0xa78908: ldur            x2, [fp, #-8]
     // 0xa7890c: r1 = Function '_save@1228017029':.
-    //     0xa7890c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d6e8] AnonymousClosure: (0xa79d3c), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_save (0xa79d74)
+    //     0xa7890c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d6e8] AnonymousClosure: (0xa79d3c), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_save (0xa79d74)
     //     0xa78910: ldr             x1, [x1, #0x6e8]
     // 0xa78914: r0 = AllocateClosure()
     //     0xa78914: bl              #0xe553e0  ; AllocateClosureStub
@@ -2575,7 +2575,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa78afc: bl              #0x5ff63c  ; [package:provider/src/provider.dart] Provider::of
     // 0xa78b00: mov             x1, x0
     // 0xa78b04: r0 = rosterPlayers()
-    //     0xa78b04: bl              #0x9752f8  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::rosterPlayers
+    //     0xa78b04: bl              #0x9752f8  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::rosterPlayers
     // 0xa78b08: LeaveFrame
     //     0xa78b08: mov             SP, fp
     //     0xa78b0c: ldp             fp, lr, [SP], #0x10
@@ -2598,10 +2598,10 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa78b38: bl              #0x5ff63c  ; [package:provider/src/provider.dart] Provider::of
     // 0xa78b3c: mov             x1, x0
     // 0xa78b40: r0 = rosterPlayers()
-    //     0xa78b40: bl              #0x9752f8  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::rosterPlayers
+    //     0xa78b40: bl              #0x9752f8  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::rosterPlayers
     // 0xa78b44: ldur            x2, [fp, #-0x18]
     // 0xa78b48: r1 = Function '<anonymous closure>':.
-    //     0xa78b48: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d818] AnonymousClosure: (0xa78b90), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_filteredRoster (0xa78a5c)
+    //     0xa78b48: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d818] AnonymousClosure: (0xa78b90), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_filteredRoster (0xa78a5c)
     //     0xa78b4c: ldr             x1, [x1, #0x818]
     // 0xa78b50: stur            x0, [fp, #-8]
     // 0xa78b54: r0 = AllocateClosure()
@@ -2798,7 +2798,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa78d58: bl              #0x5ff63c  ; [package:provider/src/provider.dart] Provider::of
     // 0xa78d5c: mov             x1, x0
     // 0xa78d60: r0 = rosterPlayers()
-    //     0xa78d60: bl              #0x9752f8  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::rosterPlayers
+    //     0xa78d60: bl              #0x9752f8  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::rosterPlayers
     // 0xa78d64: LoadField: r1 = r0->field_b
     //     0xa78d64: ldur            w1, [x0, #0xb]
     // 0xa78d68: cbz             w1, #0xa78de0
@@ -2833,7 +2833,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa78db0: bl              #0x5ff63c  ; [package:provider/src/provider.dart] Provider::of
     // 0xa78db4: mov             x1, x0
     // 0xa78db8: r0 = rosterPlayers()
-    //     0xa78db8: bl              #0x9752f8  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::rosterPlayers
+    //     0xa78db8: bl              #0x9752f8  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::rosterPlayers
     // 0xa78dbc: LoadField: r1 = r0->field_b
     //     0xa78dbc: ldur            w1, [x0, #0xb]
     // 0xa78dc0: r2 = LoadInt32Instr(r1)
@@ -2889,7 +2889,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa78e38: bl              #0x5ff63c  ; [package:provider/src/provider.dart] Provider::of
     // 0xa78e3c: mov             x1, x0
     // 0xa78e40: r0 = rosterPlayers()
-    //     0xa78e40: bl              #0x9752f8  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::rosterPlayers
+    //     0xa78e40: bl              #0x9752f8  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::rosterPlayers
     // 0xa78e44: LeaveFrame
     //     0xa78e44: mov             SP, fp
     //     0xa78e48: ldp             fp, lr, [SP], #0x10
@@ -2984,7 +2984,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa78f14: bl              #0x5ff63c  ; [package:provider/src/provider.dart] Provider::of
     // 0xa78f18: mov             x1, x0
     // 0xa78f1c: r0 = rosterPlayers()
-    //     0xa78f1c: bl              #0x9752f8  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::rosterPlayers
+    //     0xa78f1c: bl              #0x9752f8  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::rosterPlayers
     // 0xa78f20: LoadField: r1 = r0->field_b
     //     0xa78f20: ldur            w1, [x0, #0xb]
     // 0xa78f24: cbnz            w1, #0xa78f38
@@ -3012,7 +3012,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa78f5c: bl              #0x5ff63c  ; [package:provider/src/provider.dart] Provider::of
     // 0xa78f60: mov             x1, x0
     // 0xa78f64: r0 = rosterPlayers()
-    //     0xa78f64: bl              #0x9752f8  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::rosterPlayers
+    //     0xa78f64: bl              #0x9752f8  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::rosterPlayers
     // 0xa78f68: r1 = Function '<anonymous closure>':.
     //     0xa78f68: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d820] Function: [dart:ui] Image::_image (0xca4b50)
     //     0xa78f6c: ldr             x1, [x1, #0x820]
@@ -3116,7 +3116,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa79064: stur            w0, [x3, #0xb]
     // 0xa79068: ldur            x2, [fp, #-0x10]
     // 0xa7906c: r1 = Function '<anonymous closure>':.
-    //     0xa7906c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d770] AnonymousClosure: (0xa790cc), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::build (0xa77194)
+    //     0xa7906c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d770] AnonymousClosure: (0xa790cc), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::build (0xa77194)
     //     0xa79070: ldr             x1, [x1, #0x770]
     // 0xa79074: r0 = AllocateClosure()
     //     0xa79074: bl              #0xe553e0  ; AllocateClosureStub
@@ -3182,7 +3182,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa790fc: add             x3, x3, HEAP, lsl #32
     // 0xa79100: stur            x3, [fp, #-8]
     // 0xa79104: r1 = Function '<anonymous closure>':.
-    //     0xa79104: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d778] AnonymousClosure: (0xa79134), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::build (0xa77194)
+    //     0xa79104: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d778] AnonymousClosure: (0xa79134), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::build (0xa77194)
     //     0xa79108: ldr             x1, [x1, #0x778]
     // 0xa7910c: r0 = AllocateClosure()
     //     0xa7910c: bl              #0xe553e0  ; AllocateClosureStub
@@ -3318,7 +3318,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa7923c: add             x0, x0, HEAP, lsl #32
     // 0xa79240: stur            x0, [fp, #-8]
     // 0xa79244: r1 = Function '<anonymous closure>':.
-    //     0xa79244: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d780] AnonymousClosure: (0xa79274), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::build (0xa77194)
+    //     0xa79244: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d780] AnonymousClosure: (0xa79274), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::build (0xa77194)
     //     0xa79248: ldr             x1, [x1, #0x780]
     // 0xa7924c: r0 = AllocateClosure()
     //     0xa7924c: bl              #0xe553e0  ; AllocateClosureStub
@@ -3358,7 +3358,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     // 0xa792a0: DecompressPointer r1
     //     0xa792a0: add             x1, x1, HEAP, lsl #32
     // 0xa792a4: r0 = _allSelected()
-    //     0xa792a4: bl              #0xa78d1c  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_allSelected
+    //     0xa792a4: bl              #0xa78d1c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_allSelected
     // 0xa792a8: tbnz            w0, #4, #0xa792cc
     // 0xa792ac: ldur            x0, [fp, #-8]
     // 0xa792b0: LoadField: r1 = r0->field_f
@@ -3407,7 +3407,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa79318: bl              #0x5ff63c  ; [package:provider/src/provider.dart] Provider::of
     // 0xa7931c: mov             x1, x0
     // 0xa79320: r0 = rosterPlayers()
-    //     0xa79320: bl              #0x9752f8  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::rosterPlayers
+    //     0xa79320: bl              #0x9752f8  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::rosterPlayers
     // 0xa79324: r1 = Function '<anonymous closure>':.
     //     0xa79324: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d788] Function: [dart:ui] Image::_image (0xca4b50)
     //     0xa79328: ldr             x1, [x1, #0x788]
@@ -3711,7 +3711,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa79640: add             x3, x3, HEAP, lsl #32
     // 0xa79644: stur            x3, [fp, #-0x18]
     // 0xa79648: r1 = Function '<anonymous closure>':.
-    //     0xa79648: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d798] AnonymousClosure: (0xa79734), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::build (0xa77194)
+    //     0xa79648: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d798] AnonymousClosure: (0xa79734), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::build (0xa77194)
     //     0xa7964c: ldr             x1, [x1, #0x798]
     // 0xa79650: r0 = AllocateClosure()
     //     0xa79650: bl              #0xe553e0  ; AllocateClosureStub
@@ -3888,7 +3888,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa798f4: cmp             SP, x16
     //     0xa798f8: b.ls            #0xa7990c
     // 0xa798fc: r0 = _pickDrill()
-    //     0xa798fc: bl              #0xa79914  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_pickDrill
+    //     0xa798fc: bl              #0xa79914  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_pickDrill
     // 0xa79900: LeaveFrame
     //     0xa79900: mov             SP, fp
     //     0xa79904: ldp             fp, lr, [SP], #0x10
@@ -3952,11 +3952,11 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     // 0xa79998: cmp             w3, NULL
     // 0xa7999c: b.eq            #0xa79a50
     // 0xa799a0: mov             x1, x3
-    // 0xa799a4: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xa799a4: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xa799a4: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xa799a4: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xa799a8: ldur            x2, [fp, #-0x18]
     // 0xa799ac: r1 = Function '<anonymous closure>':.
-    //     0xa799ac: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d7c8] AnonymousClosure: (0xa79a54), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_pickDrill (0xa79914)
+    //     0xa799ac: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d7c8] AnonymousClosure: (0xa79a54), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_pickDrill (0xa79914)
     //     0xa799b0: ldr             x1, [x1, #0x7c8]
     // 0xa799b4: stur            x0, [fp, #-0x28]
     // 0xa799b8: r0 = AllocateClosure()
@@ -3996,7 +3996,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     // 0xa79a20: cmp             w1, NULL
     // 0xa79a24: b.eq            #0xa79a40
     // 0xa79a28: r1 = Function '<anonymous closure>':.
-    //     0xa79a28: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d7d0] AnonymousClosure: (0x8e5cc8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
+    //     0xa79a28: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d7d0] AnonymousClosure: (0x8e5cc8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
     //     0xa79a2c: ldr             x1, [x1, #0x7d0]
     // 0xa79a30: r0 = AllocateClosure()
     //     0xa79a30: bl              #0xe553e0  ; AllocateClosureStub
@@ -4067,7 +4067,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     // 0xa79ad8: ldur            x2, [fp, #-0x10]
     // 0xa79adc: stur            x3, [fp, #-0x18]
     // 0xa79ae0: r1 = Function '<anonymous closure>':.
-    //     0xa79ae0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d7d8] AnonymousClosure: (0xa79b5c), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_pickDrill (0xa79914)
+    //     0xa79ae0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d7d8] AnonymousClosure: (0xa79b5c), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_pickDrill (0xa79914)
     //     0xa79ae4: ldr             x1, [x1, #0x7d8]
     // 0xa79ae8: r0 = AllocateClosure()
     //     0xa79ae8: bl              #0xe553e0  ; AllocateClosureStub
@@ -4224,7 +4224,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa79c74: stur            w0, [x3, #0x4b]
     // 0xa79c78: ldur            x2, [fp, #-0x10]
     // 0xa79c7c: r1 = Function '<anonymous closure>':.
-    //     0xa79c7c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d7e8] AnonymousClosure: (0xa79cbc), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_pickDrill (0xa79914)
+    //     0xa79c7c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d7e8] AnonymousClosure: (0xa79cbc), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_pickDrill (0xa79914)
     //     0xa79c80: ldr             x1, [x1, #0x7e8]
     // 0xa79c84: r0 = AllocateClosure()
     //     0xa79c84: bl              #0xe553e0  ; AllocateClosureStub
@@ -4320,7 +4320,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa79d54: cmp             SP, x16
     //     0xa79d58: b.ls            #0xa79d6c
     // 0xa79d5c: r0 = _save()
-    //     0xa79d5c: bl              #0xa79d74  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_save
+    //     0xa79d5c: bl              #0xa79d74  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_save
     // 0xa79d60: LeaveFrame
     //     0xa79d60: mov             SP, fp
     //     0xa79d64: ldp             fp, lr, [SP], #0x10
@@ -4401,7 +4401,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     // 0xa79e28: cbnz            w1, #0xa79e50
     // 0xa79e2c: ldur            x2, [fp, #-0xb8]
     // 0xa79e30: r1 = Function '<anonymous closure>':.
-    //     0xa79e30: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d7f0] AnonymousClosure: (0xa7a494), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_save (0xa79d74)
+    //     0xa79e30: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d7f0] AnonymousClosure: (0xa7a494), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_save (0xa79d74)
     //     0xa79e34: ldr             x1, [x1, #0x7f0]
     // 0xa79e38: r0 = AllocateClosure()
     //     0xa79e38: bl              #0xe553e0  ; AllocateClosureStub
@@ -4431,7 +4431,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     // 0xa79e70: ldur            x1, [fp, #-0xb0]
     // 0xa79e74: stur            x0, [fp, #-0xd0]
     // 0xa79e78: r0 = _allSelected()
-    //     0xa79e78: bl              #0xa78d1c  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_allSelected
+    //     0xa79e78: bl              #0xa78d1c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_allSelected
     // 0xa79e7c: tbnz            w0, #4, #0xa79ef4
     // 0xa79e80: ldur            x1, [fp, #-0xb0]
     // 0xa79e84: LoadField: r0 = r1->field_f
@@ -4450,7 +4450,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa79ea4: bl              #0x5ff63c  ; [package:provider/src/provider.dart] Provider::of
     // 0xa79ea8: mov             x1, x0
     // 0xa79eac: r0 = rosterPlayers()
-    //     0xa79eac: bl              #0x9752f8  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::rosterPlayers
+    //     0xa79eac: bl              #0x9752f8  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::rosterPlayers
     // 0xa79eb0: r1 = Function '<anonymous closure>':.
     //     0xa79eb0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d7f8] Function: [dart:ui] Image::_image (0xca4b50)
     //     0xa79eb4: ldr             x1, [x1, #0x7f8]
@@ -4494,7 +4494,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     // 0xa79f18: ldur            x0, [fp, #-0xd0]
     // 0xa79f1c: stur            x3, [fp, #-0xd8]
     // 0xa79f20: r0 = makeId()
-    //     0xa79f20: bl              #0xa7a394  ; [package:ballai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::makeId
+    //     0xa79f20: bl              #0xa7a394  ; [package:kourtai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::makeId
     // 0xa79f24: ldur            x1, [fp, #-0xb0]
     // 0xa79f28: stur            x0, [fp, #-0xf8]
     // 0xa79f2c: LoadField: r2 = r1->field_b
@@ -4561,7 +4561,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xa79fd0: stur            w0, [x3, #0x1f]
     // 0xa79fd4: ldur            x2, [fp, #-0xb8]
     // 0xa79fd8: r1 = Function '<anonymous closure>':.
-    //     0xa79fd8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d800] AnonymousClosure: (0xa7a46c), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_save (0xa79d74)
+    //     0xa79fd8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d800] AnonymousClosure: (0xa7a46c), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_save (0xa79d74)
     //     0xa79fdc: ldr             x1, [x1, #0x800]
     // 0xa79fe0: r0 = AllocateClosure()
     //     0xa79fe0: bl              #0xe553e0  ; AllocateClosureStub
@@ -4572,7 +4572,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     // 0xa79ff0: ldur            x0, [fp, #-0xb0]
     // 0xa79ff4: ldur            x1, [fp, #-0xd0]
     // 0xa79ff8: r0 = create()
-    //     0xa79ff8: bl              #0xa7a0b8  ; [package:ballai/automatic/app/dependencies/handlers/schedule/scheduled_drill_service.dart] ScheduledDrillService::create
+    //     0xa79ff8: bl              #0xa7a0b8  ; [package:kourtai/automatic/app/dependencies/handlers/schedule/scheduled_drill_service.dart] ScheduledDrillService::create
     // 0xa79ffc: mov             x1, x0
     // 0xa7a000: stur            x1, [fp, #-0xc0]
     // 0xa7a004: r0 = Await()
@@ -4623,7 +4623,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     // 0xa7a080: r0 = ReturnAsyncNotFuture()
     //     0xa7a080: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xa7a084: r1 = Function '<anonymous closure>':.
-    //     0xa7a084: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d808] AnonymousClosure: (0xa7a3c8), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_save (0xa79d74)
+    //     0xa7a084: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d808] AnonymousClosure: (0xa7a3c8), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_save (0xa79d74)
     //     0xa7a088: ldr             x1, [x1, #0x808]
     // 0xa7a08c: r0 = AllocateClosure()
     //     0xa7a08c: bl              #0xe553e0  ; AllocateClosureStub
@@ -4757,7 +4757,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xb5bb74: mov             fp, SP
     // 0xb5bb78: ldr             x2, [fp, #0x10]
     // 0xb5bb7c: r1 = Function 'dispose':.
-    //     0xb5bb7c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d6d8] AnonymousClosure: (0xb5bb94), in [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::dispose (0xb62dcc)
+    //     0xb5bb7c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d6d8] AnonymousClosure: (0xb5bb94), in [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::dispose (0xb62dcc)
     //     0xb5bb80: ldr             x1, [x1, #0x6d8]
     // 0xb5bb84: r0 = AllocateClosure()
     //     0xb5bb84: bl              #0xe553e0  ; AllocateClosureStub
@@ -4782,7 +4782,7 @@ class _ScheduleDrillFormViewState extends State<dynamic> {
     //     0xb5bbac: cmp             SP, x16
     //     0xb5bbb0: b.ls            #0xb5bbc4
     // 0xb5bbb4: r0 = dispose()
-    //     0xb5bbb4: bl              #0xb62dcc  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::dispose
+    //     0xb5bbb4: bl              #0xb62dcc  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::dispose
     // 0xb5bbb8: LeaveFrame
     //     0xb5bbb8: mov             SP, fp
     //     0xb5bbbc: ldp             fp, lr, [SP], #0x10
@@ -5003,7 +5003,7 @@ class ScheduleDrillFormView extends StatefulWidget {
     // 0xb7473c: mov             x1, x0
     // 0xb74740: stur            x0, [fp, #-8]
     // 0xb74744: r0 = _ScheduleDrillFormViewState()
-    //     0xb74744: bl              #0xb74760  ; [package:ballai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_ScheduleDrillFormViewState
+    //     0xb74744: bl              #0xb74760  ; [package:kourtai/automatic/views/home/tab/tabs/teams/schedule/schedule_drill_form_view.dart] _ScheduleDrillFormViewState::_ScheduleDrillFormViewState
     // 0xb74748: ldur            x0, [fp, #-8]
     // 0xb7474c: LeaveFrame
     //     0xb7474c: mov             SP, fp

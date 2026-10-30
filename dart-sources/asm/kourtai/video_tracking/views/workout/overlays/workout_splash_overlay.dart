@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/overlays/workout_splash_overlay.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/overlays/workout_splash_overlay.dart
 
 // class id: 1049261, size: 0x8
 class :: {
@@ -69,7 +69,7 @@ class _WorkoutSplashOverlayState extends State<dynamic> {
     // 0x997c40: mov             x2, x1
     // 0x997c44: stur            x0, [fp, #-8]
     // 0x997c48: r1 = Function '<anonymous closure>':.
-    //     0x997c48: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c50] AnonymousClosure: (0x997d3c), in [package:ballai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::initState (0x997bb4)
+    //     0x997c48: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c50] AnonymousClosure: (0x997d3c), in [package:kourtai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::initState (0x997bb4)
     //     0x997c4c: ldr             x1, [x1, #0xc50]
     // 0x997c50: r0 = AllocateClosure()
     //     0x997c50: bl              #0xe553e0  ; AllocateClosureStub
@@ -166,7 +166,7 @@ class _WorkoutSplashOverlayState extends State<dynamic> {
     //     0x997d60: add             x0, x0, HEAP, lsl #32
     // 0x997d64: mov             x1, x0
     // 0x997d68: r0 = _startCountdown()
-    //     0x997d68: bl              #0x997d84  ; [package:ballai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::_startCountdown
+    //     0x997d68: bl              #0x997d84  ; [package:kourtai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::_startCountdown
     // 0x997d6c: r0 = Null
     //     0x997d6c: mov             x0, NULL
     // 0x997d70: LeaveFrame
@@ -228,7 +228,7 @@ class _WorkoutSplashOverlayState extends State<dynamic> {
     // 0x997df0: tbnz            w3, #4, #0x997e20
     // 0x997df4: mov             x2, x1
     // 0x997df8: r1 = Function '<anonymous closure>':.
-    //     0x997df8: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c68] AnonymousClosure: (0x94a9d8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded (0x94a7a4)
+    //     0x997df8: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c68] AnonymousClosure: (0x94a9d8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded (0x94a7a4)
     //     0x997dfc: ldr             x1, [x1, #0xc68]
     // 0x997e00: r0 = AllocateClosure()
     //     0x997e00: bl              #0xe553e0  ; AllocateClosureStub
@@ -247,7 +247,7 @@ class _WorkoutSplashOverlayState extends State<dynamic> {
     //     0x997e20: add             x2, NULL, #0x20  ; true
     // 0x997e24: StoreField: r0->field_27 = r2
     //     0x997e24: stur            w2, [x0, #0x27]
-    // 0x997e28: r0 = InitLateStaticField(0xed4) // [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
+    // 0x997e28: r0 = InitLateStaticField(0xed4) // [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
     //     0x997e28: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x997e2c: ldr             x0, [x0, #0x1da8]
     //     0x997e30: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -258,10 +258,10 @@ class _WorkoutSplashOverlayState extends State<dynamic> {
     //     0x997e44: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x997e48: mov             x1, x0
     // 0x997e4c: r0 = playCountdownBounce()
-    //     0x997e4c: bl              #0x997ea8  ; [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::playCountdownBounce
+    //     0x997e4c: bl              #0x997ea8  ; [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::playCountdownBounce
     // 0x997e50: ldur            x2, [fp, #-0x10]
     // 0x997e54: r1 = Function '<anonymous closure>':.
-    //     0x997e54: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c70] AnonymousClosure: (0x997f48), in [package:ballai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::_startCountdown (0x997d84)
+    //     0x997e54: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c70] AnonymousClosure: (0x997f48), in [package:kourtai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::_startCountdown (0x997d84)
     //     0x997e58: ldr             x1, [x1, #0xc70]
     // 0x997e5c: r0 = AllocateClosure()
     //     0x997e5c: bl              #0xe553e0  ; AllocateClosureStub
@@ -312,7 +312,7 @@ class _WorkoutSplashOverlayState extends State<dynamic> {
     //     0x997f6c: add             x0, x0, HEAP, lsl #32
     // 0x997f70: mov             x1, x0
     // 0x997f74: r0 = _tick()
-    //     0x997f74: bl              #0x997f90  ; [package:ballai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::_tick
+    //     0x997f74: bl              #0x997f90  ; [package:kourtai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::_tick
     // 0x997f78: r0 = Null
     //     0x997f78: mov             x0, NULL
     // 0x997f7c: LeaveFrame
@@ -371,7 +371,7 @@ class _WorkoutSplashOverlayState extends State<dynamic> {
     // 0x997ff8: b.le            #0x998054
     // 0x997ffc: mov             x2, x1
     // 0x998000: r1 = Function '<anonymous closure>':.
-    //     0x998000: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c78] AnonymousClosure: (0x99f734), in [package:ballai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::_tick (0x997f90)
+    //     0x998000: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c78] AnonymousClosure: (0x99f734), in [package:kourtai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::_tick (0x997f90)
     //     0x998004: ldr             x1, [x1, #0xc78]
     // 0x998008: r0 = AllocateClosure()
     //     0x998008: bl              #0xe553e0  ; AllocateClosureStub
@@ -379,7 +379,7 @@ class _WorkoutSplashOverlayState extends State<dynamic> {
     // 0x998010: mov             x2, x0
     // 0x998014: r0 = setState()
     //     0x998014: bl              #0x6005d4  ; [package:flutter/src/widgets/framework.dart] State::setState
-    // 0x998018: r0 = InitLateStaticField(0xed4) // [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
+    // 0x998018: r0 = InitLateStaticField(0xed4) // [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
     //     0x998018: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x99801c: ldr             x0, [x0, #0x1da8]
     //     0x998020: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -390,7 +390,7 @@ class _WorkoutSplashOverlayState extends State<dynamic> {
     //     0x998034: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x998038: mov             x1, x0
     // 0x99803c: r0 = playCountdownBounce()
-    //     0x99803c: bl              #0x997ea8  ; [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::playCountdownBounce
+    //     0x99803c: bl              #0x997ea8  ; [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::playCountdownBounce
     // 0x998040: r0 = mediumImpact()
     //     0x998040: bl              #0x8e6990  ; [package:flutter/src/services/haptic_feedback.dart] HapticFeedback::mediumImpact
     // 0x998044: r0 = Null
@@ -415,7 +415,7 @@ class _WorkoutSplashOverlayState extends State<dynamic> {
     //     0x998074: stur            NULL, [x1, #0x2b]
     // 0x998078: r0 = heavyImpact()
     //     0x998078: bl              #0x658e44  ; [package:flutter/src/services/haptic_feedback.dart] HapticFeedback::heavyImpact
-    // 0x99807c: r0 = InitLateStaticField(0xed4) // [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
+    // 0x99807c: r0 = InitLateStaticField(0xed4) // [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
     //     0x99807c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x998080: ldr             x0, [x0, #0x1da8]
     //     0x998084: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -432,14 +432,14 @@ class _WorkoutSplashOverlayState extends State<dynamic> {
     // 0x9980ac: DecompressPointer r1
     //     0x9980ac: add             x1, x1, HEAP, lsl #32
     // 0x9980b0: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x9980b0: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x9980b0: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x9980b4: ldur            x1, [fp, #-0x10]
     // 0x9980b8: mov             x2, x0
     // 0x9980bc: r0 = playWorkoutStartEndCue()
-    //     0x9980bc: bl              #0x99f620  ; [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::playWorkoutStartEndCue
+    //     0x9980bc: bl              #0x99f620  ; [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::playWorkoutStartEndCue
     // 0x9980c0: ldur            x1, [fp, #-8]
     // 0x9980c4: r0 = _finish()
-    //     0x9980c4: bl              #0x9980e0  ; [package:ballai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::_finish
+    //     0x9980c4: bl              #0x9980e0  ; [package:kourtai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::_finish
     // 0x9980c8: r0 = Null
     //     0x9980c8: mov             x0, NULL
     // 0x9980cc: LeaveFrame
@@ -495,7 +495,7 @@ class _WorkoutSplashOverlayState extends State<dynamic> {
     // 0x998144: b.eq            #0x998164
     // 0x998148: ldur            x2, [fp, #-0x18]
     // 0x99814c: r1 = Function '<anonymous closure>':.
-    //     0x99814c: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c80] AnonymousClosure: (0x94a9d8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded (0x94a7a4)
+    //     0x99814c: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c80] AnonymousClosure: (0x94a9d8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded (0x94a7a4)
     //     0x998150: ldr             x1, [x1, #0xc80]
     // 0x998154: r0 = AllocateClosure()
     //     0x998154: bl              #0xe553e0  ; AllocateClosureStub
@@ -508,7 +508,7 @@ class _WorkoutSplashOverlayState extends State<dynamic> {
     // 0x998168: r0 = ReturnAsyncNotFuture()
     //     0x998168: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x99816c: r0 = VideoWorkoutManagerSession.beginWorkoutOpeningBriefing()
-    //     0x99816c: bl              #0x9981b8  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.beginWorkoutOpeningBriefing
+    //     0x99816c: bl              #0x9981b8  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.beginWorkoutOpeningBriefing
     // 0x998170: ldur            x0, [fp, #-0x10]
     // 0x998174: LoadField: r1 = r0->field_f
     //     0x998174: ldur            w1, [x0, #0xf]
@@ -522,7 +522,7 @@ class _WorkoutSplashOverlayState extends State<dynamic> {
     //     0x998188: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x99818c: ldur            x2, [fp, #-0x18]
     // 0x998190: r1 = Function '<anonymous closure>':.
-    //     0x998190: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c88] AnonymousClosure: (0x99f5f0), in [package:ballai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::_finish (0x9980e0)
+    //     0x998190: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c88] AnonymousClosure: (0x99f5f0), in [package:kourtai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::_finish (0x9980e0)
     //     0x998194: ldr             x1, [x1, #0xc88]
     // 0x998198: r0 = AllocateClosure()
     //     0x998198: bl              #0xe553e0  ; AllocateClosureStub
@@ -708,7 +708,7 @@ class _WorkoutSplashOverlayState extends State<dynamic> {
     //     0xad8ccc: bl              #0xd9bb78  ; [dart:ui] Color::withValues
     // 0xad8cd0: ldur            x2, [fp, #-0x10]
     // 0xad8cd4: r1 = Function '<anonymous closure>':.
-    //     0xad8cd4: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c20] AnonymousClosure: (0xad8d2c), in [package:ballai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::build (0xad8c64)
+    //     0xad8cd4: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c20] AnonymousClosure: (0xad8d2c), in [package:kourtai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::build (0xad8c64)
     //     0xad8cd8: ldr             x1, [x1, #0xc20]
     // 0xad8cdc: stur            x0, [fp, #-8]
     // 0xad8ce0: r0 = AllocateClosure()
@@ -790,7 +790,7 @@ class _WorkoutSplashOverlayState extends State<dynamic> {
     // 0xad8da4: r1 = Null
     //     0xad8da4: mov             x1, NULL
     // 0xad8da8: r0 = WorkoutSplashMetrics.of()
-    //     0xad8da8: bl              #0xad9134  ; [package:ballai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] WorkoutSplashMetrics::WorkoutSplashMetrics.of
+    //     0xad8da8: bl              #0xad9134  ; [package:kourtai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] WorkoutSplashMetrics::WorkoutSplashMetrics.of
     // 0xad8dac: mov             x1, x0
     // 0xad8db0: ldur            x2, [fp, #-0x10]
     // 0xad8db4: stur            x1, [fp, #-0x18]
@@ -906,7 +906,7 @@ class _WorkoutSplashOverlayState extends State<dynamic> {
     //     0xad8ee0: stur            w0, [x3, #0x1b]
     // 0xad8ee4: ldur            x2, [fp, #-0x10]
     // 0xad8ee8: r1 = Function '<anonymous closure>':.
-    //     0xad8ee8: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c28] AnonymousClosure: (0xad91f0), in [package:ballai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::build (0xad8c64)
+    //     0xad8ee8: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c28] AnonymousClosure: (0xad91f0), in [package:kourtai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::build (0xad8c64)
     //     0xad8eec: ldr             x1, [x1, #0xc28]
     // 0xad8ef0: r0 = AllocateClosure()
     //     0xad8ef0: bl              #0xe553e0  ; AllocateClosureStub
@@ -934,7 +934,7 @@ class _WorkoutSplashOverlayState extends State<dynamic> {
     //     0xad8f28: ldur            d0, [x1, #0x17]
     // 0xad8f2c: stur            d0, [fp, #-0x40]
     // 0xad8f30: r0 = liveWorkoutTextOutline()
-    //     0xad8f30: bl              #0xad5468  ; [package:ballai/video_tracking/views/workout/live_workout_hud_metrics.dart] ::liveWorkoutTextOutline
+    //     0xad8f30: bl              #0xad5468  ; [package:kourtai/video_tracking/views/workout/live_workout_hud_metrics.dart] ::liveWorkoutTextOutline
     // 0xad8f34: stur            x0, [fp, #-0x18]
     // 0xad8f38: r0 = TextStyle()
     //     0xad8f38: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1167,7 +1167,7 @@ class _WorkoutSplashOverlayState extends State<dynamic> {
     // 0xad925c: DecompressPointer r1
     //     0xad925c: add             x1, x1, HEAP, lsl #32
     // 0xad9260: r0 = _ringColor()
-    //     0xad9260: bl              #0xad92d4  ; [package:ballai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::_ringColor
+    //     0xad9260: bl              #0xad92d4  ; [package:kourtai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::_ringColor
     // 0xad9264: mov             x1, x0
     // 0xad9268: ldr             x0, [fp, #0x18]
     // 0xad926c: stur            x1, [fp, #-8]
@@ -1254,7 +1254,7 @@ class _WorkoutSplashOverlayState extends State<dynamic> {
     // 0xad9330: ret
     //     0xad9330: ret             
     // 0xad9334: r0 = recordGoalColor()
-    //     0xad9334: bl              #0xac0cbc  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
+    //     0xad9334: bl              #0xac0cbc  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordGoalColor
     // 0xad9338: LeaveFrame
     //     0xad9338: mov             SP, fp
     //     0xad933c: ldp             fp, lr, [SP], #0x10
@@ -1271,7 +1271,7 @@ class _WorkoutSplashOverlayState extends State<dynamic> {
     //     0xb5d030: mov             fp, SP
     // 0xb5d034: ldr             x2, [fp, #0x10]
     // 0xb5d038: r1 = Function 'dispose':.
-    //     0xb5d038: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c18] AnonymousClosure: (0xb5d050), in [package:ballai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::dispose (0xb64d1c)
+    //     0xb5d038: add             x1, PP, #0x40, lsl #12  ; [pp+0x40c18] AnonymousClosure: (0xb5d050), in [package:kourtai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::dispose (0xb64d1c)
     //     0xb5d03c: ldr             x1, [x1, #0xc18]
     // 0xb5d040: r0 = AllocateClosure()
     //     0xb5d040: bl              #0xe553e0  ; AllocateClosureStub
@@ -1296,7 +1296,7 @@ class _WorkoutSplashOverlayState extends State<dynamic> {
     //     0xb5d068: cmp             SP, x16
     //     0xb5d06c: b.ls            #0xb5d080
     // 0xb5d070: r0 = dispose()
-    //     0xb5d070: bl              #0xb64d1c  ; [package:ballai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::dispose
+    //     0xb5d070: bl              #0xb64d1c  ; [package:kourtai/video_tracking/views/workout/overlays/workout_splash_overlay.dart] _WorkoutSplashOverlayState::dispose
     // 0xb5d074: LeaveFrame
     //     0xb5d074: mov             SP, fp
     //     0xb5d078: ldp             fp, lr, [SP], #0x10
@@ -1375,7 +1375,7 @@ class WorkoutSplashOverlay extends StatefulWidget {
     //     0xb77854: add             x1, NULL, #0x30  ; false
     // 0xb77858: StoreField: r0->field_27 = r1
     //     0xb77858: stur            w1, [x0, #0x27]
-    // 0xb7785c: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0xb7785c: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0xb7785c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb77860: ldr             x0, [x0, #0x1cf0]
     //     0xb77864: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1710,7 +1710,7 @@ class WorkoutSplashMetrics extends Object {
     // 0xad915c: fmin            v2.2d, v0.2d, v1.2d
     // 0xad9160: stur            d2, [fp, #-8]
     // 0xad9164: r0 = of()
-    //     0xad9164: bl              #0xad5ea4  ; [package:ballai/video_tracking/views/workout/live_workout_hud_metrics.dart] LiveWorkoutHudScale::of
+    //     0xad9164: bl              #0xad5ea4  ; [package:kourtai/video_tracking/views/workout/live_workout_hud_metrics.dart] LiveWorkoutHudScale::of
     // 0xad9168: mov             v1.16b, v0.16b
     // 0xad916c: d0 = 240.000000
     //     0xad916c: add             x17, PP, #0xc, lsl #12  ; [pp+0xcb00] IMM: double(240) from 0x406e000000000000

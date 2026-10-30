@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart
+// lib: , url: package:kourtai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart
 
 // class id: 1048768, size: 0x8
 class :: {
@@ -112,7 +112,7 @@ class ScheduledDrillsViewModel extends ChangeNotifier {
     //     0x97c618: stur            w1, [x2, #0x17]
     // 0x97c61c: mov             x1, x0
     // 0x97c620: r0 = stop()
-    //     0x97c620: bl              #0x97c73c  ; [package:ballai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::stop
+    //     0x97c620: bl              #0x97c73c  ; [package:kourtai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::stop
     // 0x97c624: ldur            x0, [fp, #-8]
     // 0x97c628: r1 = true
     //     0x97c628: add             x1, NULL, #0x20  ; true
@@ -174,14 +174,14 @@ class ScheduledDrillsViewModel extends ChangeNotifier {
     //     0x97c6c0: bl              #0x938d20  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQuery::snapshots
     // 0x97c6c4: ldur            x2, [fp, #-0x28]
     // 0x97c6c8: r1 = Function '<anonymous closure>':.
-    //     0x97c6c8: add             x1, PP, #0x43, lsl #12  ; [pp+0x43390] AnonymousClosure: (0x97c8a4), in [package:ballai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::start (0x97c5cc)
+    //     0x97c6c8: add             x1, PP, #0x43, lsl #12  ; [pp+0x43390] AnonymousClosure: (0x97c8a4), in [package:kourtai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::start (0x97c5cc)
     //     0x97c6cc: ldr             x1, [x1, #0x390]
     // 0x97c6d0: stur            x0, [fp, #-0x10]
     // 0x97c6d4: r0 = AllocateClosure()
     //     0x97c6d4: bl              #0xe553e0  ; AllocateClosureStub
     // 0x97c6d8: ldur            x2, [fp, #-8]
     // 0x97c6dc: r1 = Function '_onError@961144756':.
-    //     0x97c6dc: add             x1, PP, #0x43, lsl #12  ; [pp+0x43398] AnonymousClosure: (0x97c798), in [package:ballai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::_onError (0x97c7d4)
+    //     0x97c6dc: add             x1, PP, #0x43, lsl #12  ; [pp+0x43398] AnonymousClosure: (0x97c798), in [package:kourtai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::_onError (0x97c7d4)
     //     0x97c6e0: ldr             x1, [x1, #0x398]
     // 0x97c6e4: stur            x0, [fp, #-0x18]
     // 0x97c6e8: r0 = AllocateClosure()
@@ -268,7 +268,7 @@ class ScheduledDrillsViewModel extends ChangeNotifier {
     //     0x97c7b4: b.ls            #0x97c7cc
     // 0x97c7b8: ldr             x2, [fp, #0x10]
     // 0x97c7bc: r0 = _onError()
-    //     0x97c7bc: bl              #0x97c7d4  ; [package:ballai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::_onError
+    //     0x97c7bc: bl              #0x97c7d4  ; [package:kourtai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::_onError
     // 0x97c7c0: LeaveFrame
     //     0x97c7c0: mov             SP, fp
     //     0x97c7c4: ldp             fp, lr, [SP], #0x10
@@ -330,7 +330,7 @@ class ScheduledDrillsViewModel extends ChangeNotifier {
     //     0x97c854: add             x2, PP, #0x43, lsl #12  ; [pp+0x433a8] "Couldn\'t load the schedule. Please try again."
     //     0x97c858: ldr             x2, [x2, #0x3a8]
     // 0x97c85c: r0 = userFacingError()
-    //     0x97c85c: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0x97c85c: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0x97c860: ldur            x1, [fp, #-8]
     // 0x97c864: StoreField: r1->field_2f = r0
     //     0x97c864: stur            w0, [x1, #0x2f]
@@ -381,11 +381,11 @@ class ScheduledDrillsViewModel extends ChangeNotifier {
     // 0x97c8d8: ldr             x2, [fp, #0x10]
     // 0x97c8dc: stur            x0, [fp, #-8]
     // 0x97c8e0: r0 = _decode()
-    //     0x97c8e0: bl              #0x97ca84  ; [package:ballai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::_decode
+    //     0x97c8e0: bl              #0x97ca84  ; [package:kourtai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::_decode
     // 0x97c8e4: ldur            x1, [fp, #-8]
     // 0x97c8e8: mov             x2, x0
     // 0x97c8ec: r0 = _sortByDueDate()
-    //     0x97c8ec: bl              #0x97c9ac  ; [package:ballai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::_sortByDueDate
+    //     0x97c8ec: bl              #0x97c9ac  ; [package:kourtai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::_sortByDueDate
     // 0x97c8f0: mov             x3, x0
     // 0x97c8f4: ldur            x0, [fp, #-0x10]
     // 0x97c8f8: stur            x3, [fp, #-8]
@@ -405,7 +405,7 @@ class ScheduledDrillsViewModel extends ChangeNotifier {
     // 0x97c91c: cbz             w2, #0x97c954
     // 0x97c920: mov             x2, x0
     // 0x97c924: r1 = Function '<anonymous closure>':.
-    //     0x97c924: add             x1, PP, #0x43, lsl #12  ; [pp+0x433b0] AnonymousClosure: (0x97d4d4), in [package:ballai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::start (0x97c5cc)
+    //     0x97c924: add             x1, PP, #0x43, lsl #12  ; [pp+0x433b0] AnonymousClosure: (0x97d4d4), in [package:kourtai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::start (0x97c5cc)
     //     0x97c928: ldr             x1, [x1, #0x3b0]
     // 0x97c92c: r0 = AllocateClosure()
     //     0x97c92c: bl              #0xe553e0  ; AllocateClosureStub
@@ -474,7 +474,7 @@ class ScheduledDrillsViewModel extends ChangeNotifier {
     // 0x97c9d0: r0 = List.from()
     //     0x97c9d0: bl              #0x5f9020  ; [dart:core] List::List.from
     // 0x97c9d4: r1 = Function '<anonymous closure>':.
-    //     0x97c9d4: add             x1, PP, #0x43, lsl #12  ; [pp+0x433b8] AnonymousClosure: (0x97ca10), in [package:ballai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::_sortByDueDate (0x97c9ac)
+    //     0x97c9d4: add             x1, PP, #0x43, lsl #12  ; [pp+0x433b8] AnonymousClosure: (0x97ca10), in [package:kourtai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::_sortByDueDate (0x97c9ac)
     //     0x97c9d8: ldr             x1, [x1, #0x3b8]
     // 0x97c9dc: r2 = Null
     //     0x97c9dc: mov             x2, NULL
@@ -613,7 +613,7 @@ class ScheduledDrillsViewModel extends ChangeNotifier {
     //     0x97d4f8: add             x2, x2, HEAP, lsl #32
     // 0x97d4fc: ldr             x1, [fp, #0x10]
     // 0x97d500: r0 = isVisibleTo()
-    //     0x97d500: bl              #0x97d518  ; [package:ballai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::isVisibleTo
+    //     0x97d500: bl              #0x97d518  ; [package:kourtai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::isVisibleTo
     // 0x97d504: LeaveFrame
     //     0x97d504: mov             SP, fp
     //     0x97d508: ldp             fp, lr, [SP], #0x10
@@ -630,7 +630,7 @@ class ScheduledDrillsViewModel extends ChangeNotifier {
     //     0x9b5c58: mov             fp, SP
     // 0x9b5c5c: ldr             x2, [fp, #0x10]
     // 0x9b5c60: r1 = Function 'dispose':.
-    //     0x9b5c60: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a560] AnonymousClosure: (0x9b5c78), in [package:ballai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::dispose (0x9be380)
+    //     0x9b5c60: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a560] AnonymousClosure: (0x9b5c78), in [package:kourtai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::dispose (0x9be380)
     //     0x9b5c64: ldr             x1, [x1, #0x560]
     // 0x9b5c68: r0 = AllocateClosure()
     //     0x9b5c68: bl              #0xe553e0  ; AllocateClosureStub
@@ -655,7 +655,7 @@ class ScheduledDrillsViewModel extends ChangeNotifier {
     //     0x9b5c90: cmp             SP, x16
     //     0x9b5c94: b.ls            #0x9b5ca8
     // 0x9b5c98: r0 = dispose()
-    //     0x9b5c98: bl              #0x9be380  ; [package:ballai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::dispose
+    //     0x9b5c98: bl              #0x9be380  ; [package:kourtai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::dispose
     // 0x9b5c9c: LeaveFrame
     //     0x9b5c9c: mov             SP, fp
     //     0x9b5ca0: ldp             fp, lr, [SP], #0x10
@@ -681,7 +681,7 @@ class ScheduledDrillsViewModel extends ChangeNotifier {
     //     0x9be39c: b.ls            #0x9be3c0
     // 0x9be3a0: mov             x1, x0
     // 0x9be3a4: r0 = stop()
-    //     0x9be3a4: bl              #0x97c73c  ; [package:ballai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::stop
+    //     0x9be3a4: bl              #0x97c73c  ; [package:kourtai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::stop
     // 0x9be3a8: ldur            x1, [fp, #-8]
     // 0x9be3ac: r0 = dispose()
     //     0x9be3ac: bl              #0xb7893c  ; [package:flutter/src/widgets/shortcuts.dart] _ShortcutManager&Object&Diagnosticable&ChangeNotifier::dispose
@@ -732,7 +732,7 @@ class ScheduledDrillsViewModel extends ChangeNotifier {
     // 0xa7b080: mov             x2, x1
     // 0xa7b084: stur            x3, [fp, #-0x10]
     // 0xa7b088: r1 = Function '<anonymous closure>':.
-    //     0xa7b088: add             x1, PP, #0x43, lsl #12  ; [pp+0x43330] AnonymousClosure: (0xa7b0c4), in [package:ballai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::filteredReminders (0xa7b030)
+    //     0xa7b088: add             x1, PP, #0x43, lsl #12  ; [pp+0x43330] AnonymousClosure: (0xa7b0c4), in [package:kourtai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::filteredReminders (0xa7b030)
     //     0xa7b08c: ldr             x1, [x1, #0x330]
     // 0xa7b090: r0 = AllocateClosure()
     //     0xa7b090: bl              #0xe553e0  ; AllocateClosureStub
@@ -783,7 +783,7 @@ class ScheduledDrillsViewModel extends ChangeNotifier {
     //     0xa7b0fc: add             x2, x2, HEAP, lsl #32
     // 0xa7b100: ldr             x1, [fp, #0x10]
     // 0xa7b104: r0 = isVisibleTo()
-    //     0xa7b104: bl              #0x97d518  ; [package:ballai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::isVisibleTo
+    //     0xa7b104: bl              #0x97d518  ; [package:kourtai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::isVisibleTo
     // 0xa7b108: tbz             w0, #4, #0xa7b11c
     // 0xa7b10c: r0 = false
     //     0xa7b10c: add             x0, NULL, #0x30  ; false
@@ -799,11 +799,11 @@ class ScheduledDrillsViewModel extends ChangeNotifier {
     //     0xa7b124: add             x2, x2, HEAP, lsl #32
     // 0xa7b128: ldr             x1, [fp, #0x10]
     // 0xa7b12c: r0 = hasCompleted()
-    //     0xa7b12c: bl              #0xa7b240  ; [package:ballai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::hasCompleted
+    //     0xa7b12c: bl              #0xa7b240  ; [package:kourtai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::hasCompleted
     // 0xa7b130: ldr             x1, [fp, #0x10]
     // 0xa7b134: stur            x0, [fp, #-0x10]
     // 0xa7b138: r0 = isPastDue()
-    //     0xa7b138: bl              #0xa7b1c4  ; [package:ballai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::isPastDue
+    //     0xa7b138: bl              #0xa7b1c4  ; [package:kourtai/automatic/models/schedule/scheduled_drill_model.dart] ScheduledDrillModel::isPastDue
     // 0xa7b13c: tbnz            w0, #4, #0xa7b150
     // 0xa7b140: ldur            x0, [fp, #-0x10]
     // 0xa7b144: eor             x1, x0, #0x10
@@ -883,7 +883,7 @@ class ScheduledDrillsViewModel extends ChangeNotifier {
     //     0xa7c41c: bl              #0xe547fc  ; WriteBarrierWrappersStub
     // 0xa7c420: mov             x1, x4
     // 0xa7c424: r0 = filteredReminders()
-    //     0xa7c424: bl              #0xa7b030  ; [package:ballai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::filteredReminders
+    //     0xa7c424: bl              #0xa7b030  ; [package:kourtai/automatic/viewmodels/home/teams/scheduled_drills_view_model.dart] ScheduledDrillsViewModel::filteredReminders
     // 0xa7c428: LoadField: r1 = r0->field_b
     //     0xa7c428: ldur            w1, [x0, #0xb]
     // 0xa7c42c: ldur            x0, [fp, #-8]

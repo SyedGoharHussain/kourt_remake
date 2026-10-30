@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/root/browse_team_card_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/root/browse_team_card_view.dart
 
 // class id: 1048939, size: 0x8
 class :: {
@@ -45,7 +45,7 @@ class _BrowseTeamCardViewState extends State<dynamic> {
     // 0x970314: mov             x2, x1
     // 0x970318: stur            x0, [fp, #-8]
     // 0x97031c: r1 = Function '<anonymous closure>':.
-    //     0x97031c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4ddf8] AnonymousClosure: (0x970410), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_detail_view.dart] _TeamDetailViewState::initState (0x9759ac)
+    //     0x97031c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4ddf8] AnonymousClosure: (0x970410), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_detail_view.dart] _TeamDetailViewState::initState (0x9759ac)
     //     0x970320: ldr             x1, [x1, #0xdf8]
     // 0x970324: r0 = AllocateClosure()
     //     0x970324: bl              #0xe553e0  ; AllocateClosureStub
@@ -164,7 +164,7 @@ class _BrowseTeamCardViewState extends State<dynamic> {
     // 0xa5a108: DecompressPointer r1
     //     0xa5a108: add             x1, x1, HEAP, lsl #32
     // 0xa5a10c: r0 = fromString()
-    //     0xa5a10c: bl              #0x768108  ; [package:ballai/automatic/models/core/team/team_visibility.dart] TeamVisibility::fromString
+    //     0xa5a10c: bl              #0x768108  ; [package:kourtai/automatic/models/core/team/team_visibility.dart] TeamVisibility::fromString
     // 0xa5a110: stur            x0, [fp, #-0x28]
     // 0xa5a114: r16 = Instance_TeamVisibility
     //     0xa5a114: add             x16, PP, #0x13, lsl #12  ; [pp+0x13f70] Obj!TeamVisibility@d3b261
@@ -197,7 +197,7 @@ class _BrowseTeamCardViewState extends State<dynamic> {
     // 0xa5a160: mov             x2, x1
     // 0xa5a164: ldur            x1, [fp, #-0x18]
     // 0xa5a168: r0 = teamBannerUrl()
-    //     0xa5a168: bl              #0xa56ecc  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::teamBannerUrl
+    //     0xa5a168: bl              #0xa56ecc  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::teamBannerUrl
     // 0xa5a16c: mov             x3, x0
     // 0xa5a170: ldur            x0, [fp, #-8]
     // 0xa5a174: stur            x3, [fp, #-0x30]
@@ -218,11 +218,11 @@ class _BrowseTeamCardViewState extends State<dynamic> {
     // 0xa5a198: mov             x2, x1
     // 0xa5a19c: ldur            x1, [fp, #-0x18]
     // 0xa5a1a0: r0 = teamLogoUrl()
-    //     0xa5a1a0: bl              #0xa56dec  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::teamLogoUrl
+    //     0xa5a1a0: bl              #0xa56dec  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::teamLogoUrl
     // 0xa5a1a4: ldur            x1, [fp, #-0x10]
     // 0xa5a1a8: stur            x0, [fp, #-0x18]
-    // 0xa5a1ac: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xa5a1ac: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xa5a1ac: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xa5a1ac: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xa5a1b0: stur            x0, [fp, #-0x38]
     // 0xa5a1b4: r0 = Radius()
     //     0xa5a1b4: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -311,8 +311,8 @@ class _BrowseTeamCardViewState extends State<dynamic> {
     // 0xa5a280: StoreField: r2->field_37 = d0
     //     0xa5a280: stur            d0, [x2, #0x37]
     // 0xa5a284: ldur            x1, [fp, #-0x10]
-    // 0xa5a288: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa5a288: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa5a288: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa5a288: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa5a28c: stur            x0, [fp, #-0x18]
     // 0xa5a290: r0 = TextStyle()
     //     0xa5a290: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -347,11 +347,11 @@ class _BrowseTeamCardViewState extends State<dynamic> {
     //     0xa5a2dc: stur            w0, [x2, #0x13]
     // 0xa5a2e0: ldur            x1, [fp, #-8]
     // 0xa5a2e4: r0 = _subtitle()
-    //     0xa5a2e4: bl              #0xa5ac84  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/browse_team_card_view.dart] _BrowseTeamCardViewState::_subtitle
+    //     0xa5a2e4: bl              #0xa5ac84  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/browse_team_card_view.dart] _BrowseTeamCardViewState::_subtitle
     // 0xa5a2e8: ldur            x1, [fp, #-0x10]
     // 0xa5a2ec: stur            x0, [fp, #-0x30]
-    // 0xa5a2f0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa5a2f0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa5a2f0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa5a2f0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa5a2f4: stur            x0, [fp, #-0x38]
     // 0xa5a2f8: r0 = TextStyle()
     //     0xa5a2f8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -453,8 +453,8 @@ class _BrowseTeamCardViewState extends State<dynamic> {
     //     0xa5a3f4: ldr             x0, [x0, #0x8c0]
     // 0xa5a3f8: ldur            x1, [fp, #-0x10]
     // 0xa5a3fc: stur            x0, [fp, #-0x28]
-    // 0xa5a400: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa5a400: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa5a400: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa5a400: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa5a404: stur            x0, [fp, #-0x50]
     // 0xa5a408: r0 = Icon()
     //     0xa5a408: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -492,8 +492,8 @@ class _BrowseTeamCardViewState extends State<dynamic> {
     // 0xa5a46c: ldur            x3, [fp, #-0x38]
     // 0xa5a470: ldur            x1, [fp, #-0x10]
     // 0xa5a474: stur            x6, [fp, #-0x28]
-    // 0xa5a478: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa5a478: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa5a478: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa5a478: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa5a47c: stur            x0, [fp, #-0x50]
     // 0xa5a480: r0 = TextStyle()
     //     0xa5a480: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -614,11 +614,11 @@ class _BrowseTeamCardViewState extends State<dynamic> {
     //     0xa5a5a8: bl              #0x5eeec4  ; [package:flutter/src/widgets/container.dart] Container::Container
     // 0xa5a5ac: ldur            x1, [fp, #-8]
     // 0xa5a5b0: r0 = _memberLine()
-    //     0xa5a5b0: bl              #0xa5abac  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/browse_team_card_view.dart] _BrowseTeamCardViewState::_memberLine
+    //     0xa5a5b0: bl              #0xa5abac  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/browse_team_card_view.dart] _BrowseTeamCardViewState::_memberLine
     // 0xa5a5b4: ldur            x1, [fp, #-0x10]
     // 0xa5a5b8: stur            x0, [fp, #-0x28]
-    // 0xa5a5bc: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa5a5bc: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa5a5bc: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa5a5bc: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa5a5c0: stur            x0, [fp, #-0x30]
     // 0xa5a5c4: r0 = TextStyle()
     //     0xa5a5c4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -804,8 +804,8 @@ class _BrowseTeamCardViewState extends State<dynamic> {
     //     0xa5a788: bl              #0x5ed854  ; [dart:core] _StringBase::trim
     // 0xa5a78c: ldur            x1, [fp, #-0x10]
     // 0xa5a790: stur            x0, [fp, #-0x10]
-    // 0xa5a794: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa5a794: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa5a794: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa5a794: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa5a798: stur            x0, [fp, #-0x28]
     // 0xa5a79c: r0 = TextStyle()
     //     0xa5a79c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1246,7 +1246,7 @@ class _BrowseTeamCardViewState extends State<dynamic> {
     //     0xa5abf0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4ddf0] "Members"
     //     0xa5abf4: ldr             x1, [x1, #0xdf0]
     // 0xa5abf8: r0 = L()
-    //     0xa5abf8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa5abf8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa5abfc: LeaveFrame
     //     0xa5abfc: mov             SP, fp
     //     0xa5ac00: ldp             fp, lr, [SP], #0x10
@@ -1258,7 +1258,7 @@ class _BrowseTeamCardViewState extends State<dynamic> {
     //     0xa5ac10: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c648] "1 member"
     //     0xa5ac14: ldr             x1, [x1, #0x648]
     // 0xa5ac18: r0 = L()
-    //     0xa5ac18: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa5ac18: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa5ac1c: b               #0xa5ac6c
     // 0xa5ac20: r3 = 2
     //     0xa5ac20: mov             x3, #2
@@ -1289,7 +1289,7 @@ class _BrowseTeamCardViewState extends State<dynamic> {
     //     0xa5ac60: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c650] "%lld members"
     //     0xa5ac64: ldr             x1, [x1, #0x650]
     // 0xa5ac68: r0 = LF()
-    //     0xa5ac68: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xa5ac68: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xa5ac6c: LeaveFrame
     //     0xa5ac6c: mov             SP, fp
     //     0xa5ac70: ldp             fp, lr, [SP], #0x10
@@ -1330,7 +1330,7 @@ class _BrowseTeamCardViewState extends State<dynamic> {
     // 0xa5acc0: DecompressPointer r1
     //     0xa5acc0: add             x1, x1, HEAP, lsl #32
     // 0xa5acc4: r0 = teamLevelDisplayLabel()
-    //     0xa5acc4: bl              #0xa5ad88  ; [package:ballai/automatic/models/core/team/team_model.dart] ::teamLevelDisplayLabel
+    //     0xa5acc4: bl              #0xa5ad88  ; [package:kourtai/automatic/models/core/team/team_model.dart] ::teamLevelDisplayLabel
     // 0xa5acc8: mov             x2, x0
     // 0xa5accc: ldur            x0, [fp, #-8]
     // 0xa5acd0: stur            x2, [fp, #-0x10]

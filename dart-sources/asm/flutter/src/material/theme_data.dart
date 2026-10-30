@@ -7335,7 +7335,7 @@ class ThemeData extends _DiagnosticableTree&Object&Diagnosticable {
     // 0xb8cb34: mov             x2, x1
     // 0xb8cb38: ldr             x1, [fp, #0x10]
     // 0xb8cb3c: r0 = lerp()
-    //     0xb8cb3c: bl              #0xb8cb70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] BallAiThemeExtension::lerp
+    //     0xb8cb3c: bl              #0xb8cb70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] KourtAiThemeExtension::lerp
     // 0xb8cb40: r1 = <Object, ThemeExtension>
     //     0xb8cb40: ldr             x1, [PP, #0x5680]  ; [pp+0x5680] TypeArguments: <Object, ThemeExtension>
     // 0xb8cb44: stur            x0, [fp, #-8]

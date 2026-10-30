@@ -1426,7 +1426,7 @@ abstract class Purchases extends Object {
     // 0x9037e0: DecompressPointer r1
     //     0x9037e0: add             x1, x1, HEAP, lsl #32
     // 0x9037e4: r0 = _applyCustomerInfo()
-    //     0x9037e4: bl              #0x65b318  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_applyCustomerInfo
+    //     0x9037e4: bl              #0x65b318  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_applyCustomerInfo
     // 0x9037e8: r0 = Null
     //     0x9037e8: mov             x0, NULL
     // 0x9037ec: LeaveFrame

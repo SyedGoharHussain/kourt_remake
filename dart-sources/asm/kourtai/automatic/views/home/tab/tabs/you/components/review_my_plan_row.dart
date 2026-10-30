@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/components/review_my_plan_row.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/components/review_my_plan_row.dart
 
 // class id: 1049004, size: 0x8
 class :: {
@@ -48,11 +48,11 @@ class ReviewMyPlanRow extends StatelessWidget {
     // 0xc111b4: r1 = ""
     //     0xc111b4: ldr             x1, [PP, #0x880]  ; [pp+0x880] ""
     // 0xc111b8: r0 = fromRaw()
-    //     0xc111b8: bl              #0x90005c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
+    //     0xc111b8: bl              #0x90005c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
     // 0xc111bc: ldur            x1, [fp, #-0x18]
     // 0xc111c0: stur            x0, [fp, #-8]
     // 0xc111c4: r0 = subtitle()
-    //     0xc111c4: bl              #0xc116a0  ; [package:ballai/automatic/views/home/tab/tabs/you/components/my_plan_copy.dart] MyPlanCopy::subtitle
+    //     0xc111c4: bl              #0xc116a0  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/my_plan_copy.dart] MyPlanCopy::subtitle
     // 0xc111c8: mov             x2, x0
     // 0xc111cc: ldur            x0, [fp, #-8]
     // 0xc111d0: stur            x2, [fp, #-0x18]
@@ -106,8 +106,8 @@ class ReviewMyPlanRow extends StatelessWidget {
     //     0xc11264: bl              #0xd9bb78  ; [dart:ui] Color::withValues
     // 0xc11268: ldur            x1, [fp, #-0x10]
     // 0xc1126c: stur            x0, [fp, #-0x28]
-    // 0xc11270: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xc11270: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xc11270: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xc11270: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xc11274: ldur            x1, [fp, #-0x28]
     // 0xc11278: mov             x2, x0
     // 0xc1127c: r0 = alphaBlend()
@@ -172,11 +172,11 @@ class ReviewMyPlanRow extends StatelessWidget {
     //     0xc11308: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bdf8] "Review my plan"
     //     0xc1130c: ldr             x1, [x1, #0xdf8]
     // 0xc11310: r0 = L()
-    //     0xc11310: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc11310: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc11314: ldur            x1, [fp, #-0x10]
     // 0xc11318: stur            x0, [fp, #-8]
-    // 0xc1131c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc1131c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc1131c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc1131c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc11320: stur            x0, [fp, #-0x48]
     // 0xc11324: r0 = TextStyle()
     //     0xc11324: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -210,8 +210,8 @@ class ReviewMyPlanRow extends StatelessWidget {
     // 0xc11370: StoreField: r2->field_13 = r0
     //     0xc11370: stur            w0, [x2, #0x13]
     // 0xc11374: ldur            x1, [fp, #-0x10]
-    // 0xc11378: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc11378: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc11378: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc11378: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc1137c: stur            x0, [fp, #-8]
     // 0xc11380: r0 = TextStyle()
     //     0xc11380: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -343,8 +343,8 @@ class ReviewMyPlanRow extends StatelessWidget {
     // 0xc114bc: StoreField: r2->field_b = r0
     //     0xc114bc: stur            w0, [x2, #0xb]
     // 0xc114c0: ldur            x1, [fp, #-0x10]
-    // 0xc114c4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc114c4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc114c4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc114c4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc114c8: stur            x0, [fp, #-0x10]
     // 0xc114cc: r0 = Icon()
     //     0xc114cc: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -462,7 +462,7 @@ class ReviewMyPlanRow extends StatelessWidget {
     //     0xc115e8: stur            w0, [x3, #0xb]
     // 0xc115ec: ldur            x2, [fp, #-0x20]
     // 0xc115f0: r1 = Function '<anonymous closure>':.
-    //     0xc115f0: add             x1, PP, #0x42, lsl #12  ; [pp+0x42ee0] AnonymousClosure: (0xc11d10), in [package:ballai/automatic/views/home/tab/tabs/you/components/review_my_plan_row.dart] ReviewMyPlanRow::build (0xc11154)
+    //     0xc115f0: add             x1, PP, #0x42, lsl #12  ; [pp+0x42ee0] AnonymousClosure: (0xc11d10), in [package:kourtai/automatic/views/home/tab/tabs/you/components/review_my_plan_row.dart] ReviewMyPlanRow::build (0xc11154)
     //     0xc115f4: ldr             x1, [x1, #0xee0]
     // 0xc115f8: r0 = AllocateClosure()
     //     0xc115f8: bl              #0xe553e0  ; AllocateClosureStub
@@ -563,7 +563,7 @@ class ReviewMyPlanRow extends StatelessWidget {
     // 0xc11d48: r4 = const [0, 0x1, 0, 0x1, null]
     //     0xc11d48: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0xc11d4c: r0 = present()
-    //     0xc11d4c: bl              #0x8e7d50  ; [package:ballai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] ReviewMyPlanSheet::present
+    //     0xc11d4c: bl              #0x8e7d50  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] ReviewMyPlanSheet::present
     // 0xc11d50: r0 = Null
     //     0xc11d50: mov             x0, NULL
     // 0xc11d54: LeaveFrame

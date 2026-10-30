@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart
 
 // class id: 1048646, size: 0x8
 class :: {
@@ -67,7 +67,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x71ecfc: mov             x1, x4
     // 0x71ed00: ldur            x2, [fp, #-0x28]
     // 0x71ed04: r0 = normalizedMessageText()
-    //     0x71ed04: bl              #0x725c14  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::normalizedMessageText
+    //     0x71ed04: bl              #0x725c14  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::normalizedMessageText
     // 0x71ed08: ldur            x3, [fp, #-0x38]
     // 0x71ed0c: StoreField: r3->field_13 = r0
     //     0x71ed0c: stur            w0, [x3, #0x13]
@@ -92,7 +92,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x71ed48: mov             x2, x5
     // 0x71ed4c: stur            x5, [fp, #-0x28]
     // 0x71ed50: r0 = documentId()
-    //     0x71ed50: bl              #0x721744  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::documentId
+    //     0x71ed50: bl              #0x721744  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::documentId
     // 0x71ed54: mov             x4, x0
     // 0x71ed58: ldur            x3, [fp, #-0x38]
     // 0x71ed5c: stur            x4, [fp, #-0x48]
@@ -237,7 +237,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0x71eef8: add             x4, PP, #0x26, lsl #12  ; [pp+0x26d00] List(7) [0, 0x2, 0x1, 0x1, "profileVisibility", 0x1, Null]
     //     0x71eefc: ldr             x4, [x4, #0xd00]
     // 0x71ef00: r0 = copyWith()
-    //     0x71ef00: bl              #0x663774  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::copyWith
+    //     0x71ef00: bl              #0x663774  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::copyWith
     // 0x71ef04: ldur            x3, [fp, #-0x38]
     // 0x71ef08: StoreField: r3->field_1b = r0
     //     0x71ef08: stur            w0, [x3, #0x1b]
@@ -255,7 +255,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x71ef38: mov             x1, x0
     // 0x71ef3c: ldur            x2, [fp, #-0x48]
     // 0x71ef40: r0 = fetchConversationIfExists()
-    //     0x71ef40: bl              #0x72036c  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::fetchConversationIfExists
+    //     0x71ef40: bl              #0x72036c  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::fetchConversationIfExists
     // 0x71ef44: mov             x1, x0
     // 0x71ef48: stur            x1, [fp, #-0x20]
     // 0x71ef4c: r0 = Await()
@@ -280,7 +280,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x71ef7c: mov             x1, x2
     // 0x71ef80: mov             x2, x5
     // 0x71ef84: r0 = availability()
-    //     0x71ef84: bl              #0x7201e0  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_permission_service.dart] DirectMessagePermissionService::availability
+    //     0x71ef84: bl              #0x7201e0  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_permission_service.dart] DirectMessagePermissionService::availability
     // 0x71ef88: mov             x1, x0
     // 0x71ef8c: stur            x1, [fp, #-0x20]
     // 0x71ef90: r0 = Await()
@@ -452,7 +452,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0x71f178: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x71f17c: mov             x2, x3
     // 0x71f180: r1 = Function '<anonymous closure>':.
-    //     0x71f180: add             x1, PP, #0x26, lsl #12  ; [pp+0x26d18] AnonymousClosure: (0x7217e8), in [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::sendMessage (0x71ec78)
+    //     0x71f180: add             x1, PP, #0x26, lsl #12  ; [pp+0x26d18] AnonymousClosure: (0x7217e8), in [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::sendMessage (0x71ec78)
     //     0x71f184: ldr             x1, [x1, #0xd18]
     // 0x71f188: r0 = AllocateClosure()
     //     0x71f188: bl              #0xe553e0  ; AllocateClosureStub
@@ -632,7 +632,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x720470: ldur            x1, [fp, #-0x18]
     // 0x720474: mov             x2, x0
     // 0x720478: r0 = fromFirestore()
-    //     0x720478: bl              #0x72048c  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::fromFirestore
+    //     0x720478: bl              #0x72048c  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::fromFirestore
     // 0x72047c: r0 = ReturnAsyncNotFuture()
     //     0x72047c: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x720480: r0 = StackOverflowSharedWithoutFPURegs()
@@ -765,7 +765,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x721948: mov             x1, x0
     // 0x72194c: ldur            x0, [fp, #-0x40]
     // 0x721950: r0 = _readIntMap()
-    //     0x721950: bl              #0x722570  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_readIntMap
+    //     0x721950: bl              #0x722570  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_readIntMap
     // 0x721954: mov             x3, x0
     // 0x721958: ldur            x2, [fp, #-0x40]
     // 0x72195c: stur            x3, [fp, #-0x50]
@@ -804,7 +804,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x7219c0: mov             x1, x0
     // 0x7219c4: ldur            x0, [fp, #-0x40]
     // 0x7219c8: r0 = _readInt()
-    //     0x7219c8: bl              #0x722470  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_readInt
+    //     0x7219c8: bl              #0x722470  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_readInt
     // 0x7219cc: mov             x3, x0
     // 0x7219d0: ldur            x2, [fp, #-0x40]
     // 0x7219d4: stur            x3, [fp, #-0x60]
@@ -1733,7 +1733,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0x72268c: stur            w0, [x1, #0xf]
     // 0x722690: mov             x2, x1
     // 0x722694: r1 = Function '<anonymous closure>': static.
-    //     0x722694: add             x1, PP, #0x26, lsl #12  ; [pp+0x26d98] AnonymousClosure: static (0x7226dc), in [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_readIntMap (0x722570)
+    //     0x722694: add             x1, PP, #0x26, lsl #12  ; [pp+0x26d98] AnonymousClosure: static (0x7226dc), in [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_readIntMap (0x722570)
     //     0x722698: ldr             x1, [x1, #0xd98]
     // 0x72269c: r0 = AllocateClosure()
     //     0x72269c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1807,7 +1807,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x722754: ldr             x1, [fp, #0x10]
     // 0x722758: stur            x0, [fp, #-0x10]
     // 0x72275c: r0 = _readInt()
-    //     0x72275c: bl              #0x722470  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_readInt
+    //     0x72275c: bl              #0x722470  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_readInt
     // 0x722760: mov             x2, x0
     // 0x722764: r0 = BoxInt64Instr(r2)
     //     0x722764: sbfiz           x0, x2, #1, #0x1f
@@ -1888,7 +1888,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x722e9c: mov             x1, x3
     // 0x722ea0: ldur            x2, [fp, #-0x30]
     // 0x722ea4: r0 = normalizedMessageText()
-    //     0x722ea4: bl              #0x725c14  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::normalizedMessageText
+    //     0x722ea4: bl              #0x725c14  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::normalizedMessageText
     // 0x722ea8: ldur            x3, [fp, #-0x38]
     // 0x722eac: ArrayStore: r3[0] = r0  ; List_4
     //     0x722eac: stur            w0, [x3, #0x17]
@@ -1904,7 +1904,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0x722ecc: add             x2, x2, HEAP, lsl #32
     // 0x722ed0: ldur            x1, [fp, #-0x10]
     // 0x722ed4: r0 = fetchTeamMemberIds()
-    //     0x722ed4: bl              #0x7242fc  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::fetchTeamMemberIds
+    //     0x722ed4: bl              #0x7242fc  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::fetchTeamMemberIds
     // 0x722ed8: mov             x1, x0
     // 0x722edc: stur            x1, [fp, #-0x30]
     // 0x722ee0: r0 = Await()
@@ -1946,7 +1946,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0x722f50: add             x2, x2, HEAP, lsl #32
     // 0x722f54: ldur            x1, [fp, #-0x10]
     // 0x722f58: r0 = fetchTeamName()
-    //     0x722f58: bl              #0x7241dc  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::fetchTeamName
+    //     0x722f58: bl              #0x7241dc  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::fetchTeamName
     // 0x722f5c: mov             x1, x0
     // 0x722f60: stur            x1, [fp, #-0x20]
     // 0x722f64: r0 = Await()
@@ -1978,7 +1978,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x722fb8: mov             x1, x6
     // 0x722fbc: ldur            x2, [fp, #-0x30]
     // 0x722fc0: r0 = syncTeamConversationMemberships()
-    //     0x722fc0: bl              #0x7231a0  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::syncTeamConversationMemberships
+    //     0x722fc0: bl              #0x7231a0  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::syncTeamConversationMemberships
     // 0x722fc4: mov             x1, x0
     // 0x722fc8: stur            x1, [fp, #-0x20]
     // 0x722fcc: r0 = Await()
@@ -1989,7 +1989,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x722fd8: DecompressPointer r1
     //     0x722fd8: add             x1, x1, HEAP, lsl #32
     // 0x722fdc: r0 = teamDocumentId()
-    //     0x722fdc: bl              #0x723144  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::teamDocumentId
+    //     0x722fdc: bl              #0x723144  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::teamDocumentId
     // 0x722fe0: mov             x4, x0
     // 0x722fe4: ldur            x3, [fp, #-0x38]
     // 0x722fe8: stur            x4, [fp, #-0x28]
@@ -2062,7 +2062,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0x7230bc: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x7230c0: mov             x2, x3
     // 0x7230c4: r1 = Function '<anonymous closure>':.
-    //     0x7230c4: add             x1, PP, #0x26, lsl #12  ; [pp+0x26fa8] AnonymousClosure: (0x724544), in [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::sendTeamMessage (0x722e00)
+    //     0x7230c4: add             x1, PP, #0x26, lsl #12  ; [pp+0x26fa8] AnonymousClosure: (0x724544), in [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::sendTeamMessage (0x722e00)
     //     0x7230c8: ldr             x1, [x1, #0xfa8]
     // 0x7230cc: r0 = AllocateClosure()
     //     0x7230cc: bl              #0xe553e0  ; AllocateClosureStub
@@ -2166,7 +2166,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x723230: ldur            x0, [fp, #-0x10]
     // 0x723234: ldur            x1, [fp, #-0x20]
     // 0x723238: r0 = teamDocumentId()
-    //     0x723238: bl              #0x723144  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::teamDocumentId
+    //     0x723238: bl              #0x723144  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::teamDocumentId
     // 0x72323c: mov             x3, x0
     // 0x723240: ldur            x0, [fp, #-0x10]
     // 0x723244: stur            x3, [fp, #-0x38]
@@ -2232,7 +2232,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0x7232f8: blr             lr
     // 0x7232fc: mov             x1, x0
     // 0x723300: r0 = _readIntMap()
-    //     0x723300: bl              #0x722570  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_readIntMap
+    //     0x723300: bl              #0x722570  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_readIntMap
     // 0x723304: ldur            x1, [fp, #-0x30]
     // 0x723308: stur            x0, [fp, #-0x30]
     // 0x72330c: r0 = batch()
@@ -3370,7 +3370,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x724628: mov             x1, x0
     // 0x72462c: ldur            x0, [fp, #-0x10]
     // 0x724630: r0 = _readIntMap()
-    //     0x724630: bl              #0x722570  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_readIntMap
+    //     0x724630: bl              #0x722570  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_readIntMap
     // 0x724634: r1 = Null
     //     0x724634: mov             x1, NULL
     // 0x724638: r2 = 28
@@ -4718,7 +4718,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x980734: mov             x1, x0
     // 0x980738: ldur            x2, [fp, #-0x18]
     // 0x98073c: r0 = fromFirestore()
-    //     0x98073c: bl              #0x72048c  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::fromFirestore
+    //     0x98073c: bl              #0x72048c  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::fromFirestore
     // 0x980740: mov             x1, x0
     // 0x980744: b               #0x98074c
     // 0x980748: r1 = Null
@@ -4729,7 +4729,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0x980754: mov             x0, NULL
     // 0x980758: b               #0x980760
     // 0x98075c: r0 = effectiveType()
-    //     0x98075c: bl              #0x981698  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::effectiveType
+    //     0x98075c: bl              #0x981698  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::effectiveType
     // 0x980760: r16 = Instance_ConversationType
     //     0x980760: add             x16, PP, #0x11, lsl #12  ; [pp+0x11b20] Obj!ConversationType@d3b721
     //     0x980764: ldr             x16, [x16, #0xb20]
@@ -4784,7 +4784,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x9807f8: mov             x1, x0
     // 0x9807fc: ldur            x0, [fp, #-0x40]
     // 0x980800: r0 = _readInt()
-    //     0x980800: bl              #0x722470  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_readInt
+    //     0x980800: bl              #0x722470  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_readInt
     // 0x980804: mov             x2, x0
     // 0x980808: ldur            x1, [fp, #-0x40]
     // 0x98080c: stur            x2, [fp, #-0x58]
@@ -4821,7 +4821,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x980868: mov             x0, x1
     // 0x98086c: mov             x1, x0
     // 0x980870: r0 = _readIntMap()
-    //     0x980870: bl              #0x722570  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_readIntMap
+    //     0x980870: bl              #0x722570  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_readIntMap
     // 0x980874: mov             x1, x0
     // 0x980878: ldur            x2, [fp, #-0x28]
     // 0x98087c: stur            x0, [fp, #-0x40]
@@ -4891,7 +4891,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x980938: r0 = docs()
     //     0x980938: bl              #0x601260  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQuerySnapshot::docs
     // 0x98093c: r1 = Function '<anonymous closure>':.
-    //     0x98093c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27478] AnonymousClosure: (0x981714), in [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::markConversationRead (0x9805e0)
+    //     0x98093c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27478] AnonymousClosure: (0x981714), in [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::markConversationRead (0x9805e0)
     //     0x980940: ldr             x1, [x1, #0x478]
     // 0x980944: r2 = Null
     //     0x980944: mov             x2, NULL
@@ -5051,7 +5051,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x980af4: ldur            x2, [fp, #-0x18]
     // 0x980af8: ldur            x3, [fp, #-0x28]
     // 0x980afc: r0 = _applyOptimisticReadClear()
-    //     0x980afc: bl              #0x980dd4  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_applyOptimisticReadClear
+    //     0x980afc: bl              #0x980dd4  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_applyOptimisticReadClear
     // 0x980b00: ldur            x0, [fp, #-0x40]
     // 0x980b04: LoadField: r1 = r0->field_b
     //     0x980b04: ldur            w1, [x0, #0xb]
@@ -5346,7 +5346,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x980e24: mov             x2, x3
     // 0x980e28: stur            x4, [fp, #-0x10]
     // 0x980e2c: r1 = Function '<anonymous closure>':.
-    //     0x980e2c: add             x1, PP, #0x27, lsl #12  ; [pp+0x274b0] AnonymousClosure: (0x980fe4), in [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_applyOptimisticReadClear (0x980dd4)
+    //     0x980e2c: add             x1, PP, #0x27, lsl #12  ; [pp+0x274b0] AnonymousClosure: (0x980fe4), in [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_applyOptimisticReadClear (0x980dd4)
     //     0x980e30: ldr             x1, [x1, #0x4b0]
     // 0x980e34: r0 = AllocateClosure()
     //     0x980e34: bl              #0xe553e0  ; AllocateClosureStub
@@ -5380,7 +5380,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0x980e88: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x980e8c: ldur            x2, [fp, #-0x20]
     // 0x980e90: r1 = Function '<anonymous closure>':.
-    //     0x980e90: add             x1, PP, #0x27, lsl #12  ; [pp+0x274b8] AnonymousClosure: (0x980ee8), in [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_applyOptimisticReadClear (0x980dd4)
+    //     0x980e90: add             x1, PP, #0x27, lsl #12  ; [pp+0x274b8] AnonymousClosure: (0x980ee8), in [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_applyOptimisticReadClear (0x980dd4)
     //     0x980e94: ldr             x1, [x1, #0x4b8]
     // 0x980e98: r0 = AllocateClosure()
     //     0x980e98: bl              #0xe553e0  ; AllocateClosureStub
@@ -5434,7 +5434,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0x980f0c: add             x2, x2, HEAP, lsl #32
     // 0x980f10: ldr             x1, [fp, #0x10]
     // 0x980f14: r0 = unreadCount()
-    //     0x980f14: bl              #0x980f54  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::unreadCount
+    //     0x980f14: bl              #0x980f54  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::unreadCount
     // 0x980f18: ldr             x2, [fp, #0x18]
     // 0x980f1c: r3 = LoadInt32Instr(r2)
     //     0x980f1c: sbfx            x3, x2, #1, #0x1f
@@ -5532,7 +5532,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x9810ac: ldr             x1, [fp, #0x10]
     // 0x9810b0: ldur            x2, [fp, #-0x10]
     // 0x9810b4: r0 = copyWith()
-    //     0x9810b4: bl              #0x9810cc  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::copyWith
+    //     0x9810b4: bl              #0x9810cc  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::copyWith
     // 0x9810b8: LeaveFrame
     //     0x9810b8: mov             SP, fp
     //     0x9810bc: ldp             fp, lr, [SP], #0x10
@@ -5688,11 +5688,11 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x982af0: mov             x2, x5
     // 0x982af4: stur            x5, [fp, #-0x20]
     // 0x982af8: r0 = documentId()
-    //     0x982af8: bl              #0x721744  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::documentId
+    //     0x982af8: bl              #0x721744  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::documentId
     // 0x982afc: ldur            x1, [fp, #-0x10]
     // 0x982b00: mov             x2, x0
     // 0x982b04: r0 = fetchConversationIfExists()
-    //     0x982b04: bl              #0x72036c  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::fetchConversationIfExists
+    //     0x982b04: bl              #0x72036c  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::fetchConversationIfExists
     // 0x982b08: mov             x1, x0
     // 0x982b0c: stur            x1, [fp, #-0x30]
     // 0x982b10: r0 = Await()
@@ -5713,7 +5713,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x982b38: mov             x2, x0
     // 0x982b3c: ldur            x3, [fp, #-0x18]
     // 0x982b40: r0 = availability()
-    //     0x982b40: bl              #0x7201e0  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_permission_service.dart] DirectMessagePermissionService::availability
+    //     0x982b40: bl              #0x7201e0  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_permission_service.dart] DirectMessagePermissionService::availability
     // 0x982b44: r0 = ReturnAsync()
     //     0x982b44: b               #0x5f1e3c  ; ReturnAsyncStub
     // 0x982b48: r0 = StackOverflowSharedWithoutFPURegs()
@@ -5767,7 +5767,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0x982e78: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x982e7c: ldur            x2, [fp, #-0x18]
     // 0x982e80: r0 = fetchTeamMemberIds()
-    //     0x982e80: bl              #0x7242fc  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::fetchTeamMemberIds
+    //     0x982e80: bl              #0x7242fc  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::fetchTeamMemberIds
     // 0x982e84: mov             x1, x0
     // 0x982e88: stur            x1, [fp, #-0x10]
     // 0x982e8c: r0 = Await()
@@ -5812,7 +5812,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x982ef4: ldur            x1, [fp, #-0x10]
     // 0x982ef8: ldur            x2, [fp, #-0x18]
     // 0x982efc: r0 = fetchTeamMemberIds()
-    //     0x982efc: bl              #0x7242fc  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::fetchTeamMemberIds
+    //     0x982efc: bl              #0x7242fc  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::fetchTeamMemberIds
     // 0x982f00: mov             x1, x0
     // 0x982f04: stur            x1, [fp, #-0x28]
     // 0x982f08: r0 = Await()
@@ -5825,7 +5825,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x982f20: ldur            x1, [fp, #-0x10]
     // 0x982f24: ldur            x2, [fp, #-0x18]
     // 0x982f28: r0 = fetchTeamName()
-    //     0x982f28: bl              #0x7241dc  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::fetchTeamName
+    //     0x982f28: bl              #0x7241dc  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::fetchTeamName
     // 0x982f2c: mov             x1, x0
     // 0x982f30: stur            x1, [fp, #-0x30]
     // 0x982f34: r0 = Await()
@@ -5841,7 +5841,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x982f54: ldur            x2, [fp, #-0x28]
     // 0x982f58: ldur            x3, [fp, #-0x18]
     // 0x982f5c: r0 = syncTeamConversationMemberships()
-    //     0x982f5c: bl              #0x7231a0  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::syncTeamConversationMemberships
+    //     0x982f5c: bl              #0x7231a0  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::syncTeamConversationMemberships
     // 0x982f60: mov             x1, x0
     // 0x982f64: stur            x1, [fp, #-0x10]
     // 0x982f68: r0 = Await()
@@ -5904,7 +5904,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0x9b57bc: mov             fp, SP
     // 0x9b57c0: ldr             x2, [fp, #0x10]
     // 0x9b57c4: r1 = Function 'dispose':.
-    //     0x9b57c4: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d5b0] AnonymousClosure: (0x9b57dc), in [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::dispose (0x9bb55c)
+    //     0x9b57c4: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d5b0] AnonymousClosure: (0x9b57dc), in [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::dispose (0x9bb55c)
     //     0x9b57c8: ldr             x1, [x1, #0x5b0]
     // 0x9b57cc: r0 = AllocateClosure()
     //     0x9b57cc: bl              #0xe553e0  ; AllocateClosureStub
@@ -5929,7 +5929,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0x9b57f4: cmp             SP, x16
     //     0x9b57f8: b.ls            #0x9b580c
     // 0x9b57fc: r0 = dispose()
-    //     0x9b57fc: bl              #0x9bb55c  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::dispose
+    //     0x9b57fc: bl              #0x9bb55c  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::dispose
     // 0x9b5800: LeaveFrame
     //     0x9b5800: mov             SP, fp
     //     0x9b5804: ldp             fp, lr, [SP], #0x10
@@ -5960,7 +5960,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x9bb584: mov             x2, x0
     // 0x9bb588: stur            x3, [fp, #-8]
     // 0x9bb58c: r1 = Function '_onUserManagerChanged@707331600':.
-    //     0x9bb58c: add             x1, PP, #0x11, lsl #12  ; [pp+0x11ae8] AnonymousClosure: (0x9bb5dc), in [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_onUserManagerChanged (0x9bb614)
+    //     0x9bb58c: add             x1, PP, #0x11, lsl #12  ; [pp+0x11ae8] AnonymousClosure: (0x9bb5dc), in [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_onUserManagerChanged (0x9bb614)
     //     0x9bb590: ldr             x1, [x1, #0xae8]
     // 0x9bb594: r0 = AllocateClosure()
     //     0x9bb594: bl              #0xe553e0  ; AllocateClosureStub
@@ -6006,7 +6006,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0x9bb5f4: cmp             SP, x16
     //     0x9bb5f8: b.ls            #0x9bb60c
     // 0x9bb5fc: r0 = _onUserManagerChanged()
-    //     0x9bb5fc: bl              #0x9bb614  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_onUserManagerChanged
+    //     0x9bb5fc: bl              #0x9bb614  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_onUserManagerChanged
     // 0x9bb600: LeaveFrame
     //     0x9bb600: mov             SP, fp
     //     0x9bb604: ldp             fp, lr, [SP], #0x10
@@ -6044,7 +6044,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0x9bb64c: add             x0, x0, HEAP, lsl #32
     // 0x9bb650: mov             x2, x0
     // 0x9bb654: r0 = _updateInboxListeners()
-    //     0x9bb654: bl              #0x9bb670  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_updateInboxListeners
+    //     0x9bb654: bl              #0x9bb670  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_updateInboxListeners
     // 0x9bb658: r0 = Null
     //     0x9bb658: mov             x0, NULL
     // 0x9bb65c: LeaveFrame
@@ -6184,19 +6184,19 @@ class DirectMessageManager extends ChangeNotifier {
     //     0x9bb7c4: ret             
     // 0x9bb7c8: mov             x1, x3
     // 0x9bb7cc: r0 = _inboxConversationsQuery()
-    //     0x9bb7cc: bl              #0x9bb864  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_inboxConversationsQuery
+    //     0x9bb7cc: bl              #0x9bb864  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_inboxConversationsQuery
     // 0x9bb7d0: mov             x1, x0
     // 0x9bb7d4: r0 = snapshots()
     //     0x9bb7d4: bl              #0x938d20  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQuery::snapshots
     // 0x9bb7d8: ldur            x2, [fp, #-0x18]
     // 0x9bb7dc: r1 = Function '<anonymous closure>':.
-    //     0x9bb7dc: add             x1, PP, #0x11, lsl #12  ; [pp+0x11af0] AnonymousClosure: (0x9bb980), in [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_updateInboxListeners (0x9bb670)
+    //     0x9bb7dc: add             x1, PP, #0x11, lsl #12  ; [pp+0x11af0] AnonymousClosure: (0x9bb980), in [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_updateInboxListeners (0x9bb670)
     //     0x9bb7e0: ldr             x1, [x1, #0xaf0]
     // 0x9bb7e4: stur            x0, [fp, #-0x10]
     // 0x9bb7e8: r0 = AllocateClosure()
     //     0x9bb7e8: bl              #0xe553e0  ; AllocateClosureStub
     // 0x9bb7ec: r1 = Function '<anonymous closure>':.
-    //     0x9bb7ec: add             x1, PP, #0x11, lsl #12  ; [pp+0x11af8] AnonymousClosure: (0x9bb8fc), in [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_updateInboxListeners (0x9bb670)
+    //     0x9bb7ec: add             x1, PP, #0x11, lsl #12  ; [pp+0x11af8] AnonymousClosure: (0x9bb8fc), in [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_updateInboxListeners (0x9bb670)
     //     0x9bb7f0: ldr             x1, [x1, #0xaf8]
     // 0x9bb7f4: r2 = Null
     //     0x9bb7f4: mov             x2, NULL
@@ -6379,7 +6379,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x9bb9b0: mov             x1, x0
     // 0x9bb9b4: ldr             x2, [fp, #0x10]
     // 0x9bb9b8: r0 = _handleInboxSnapshot()
-    //     0x9bb9b8: bl              #0x9bb9d4  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_handleInboxSnapshot
+    //     0x9bb9b8: bl              #0x9bb9d4  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_handleInboxSnapshot
     // 0x9bb9bc: r0 = Null
     //     0x9bb9bc: mov             x0, NULL
     // 0x9bb9c0: LeaveFrame
@@ -6424,7 +6424,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x9bba28: r0 = docs()
     //     0x9bba28: bl              #0x601260  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQuerySnapshot::docs
     // 0x9bba2c: r1 = Function '<anonymous closure>':.
-    //     0x9bba2c: add             x1, PP, #0x11, lsl #12  ; [pp+0x11b08] AnonymousClosure: (0x9bc5f0), in [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_handleInboxSnapshot (0x9bb9d4)
+    //     0x9bba2c: add             x1, PP, #0x11, lsl #12  ; [pp+0x11b08] AnonymousClosure: (0x9bc5f0), in [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_handleInboxSnapshot (0x9bb9d4)
     //     0x9bba30: ldr             x1, [x1, #0xb08]
     // 0x9bba34: r2 = Null
     //     0x9bba34: mov             x2, NULL
@@ -6475,7 +6475,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x9bbaa8: ldur            x3, [fp, #-0x10]
     // 0x9bbaac: ldur            x4, [fp, #-0x28]
     // 0x9bbab0: r1 = Function '<anonymous closure>':.
-    //     0x9bbab0: add             x1, PP, #0x11, lsl #12  ; [pp+0x11b18] AnonymousClosure: (0x9bc5c0), in [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_handleInboxSnapshot (0x9bb9d4)
+    //     0x9bbab0: add             x1, PP, #0x11, lsl #12  ; [pp+0x11b18] AnonymousClosure: (0x9bc5c0), in [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_handleInboxSnapshot (0x9bb9d4)
     //     0x9bbab4: ldr             x1, [x1, #0xb18]
     // 0x9bbab8: r2 = Null
     //     0x9bbab8: mov             x2, NULL
@@ -6508,12 +6508,12 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x9bbb04: mov             x2, x4
     // 0x9bbb08: ldur            x3, [fp, #-0x20]
     // 0x9bbb0c: r0 = _applyConversationList()
-    //     0x9bbb0c: bl              #0x9bc2e0  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_applyConversationList
+    //     0x9bbb0c: bl              #0x9bc2e0  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_applyConversationList
     // 0x9bbb10: ldur            x1, [fp, #-0x10]
     // 0x9bbb14: ldur            x2, [fp, #-0x18]
     // 0x9bbb18: ldur            x3, [fp, #-0x20]
     // 0x9bbb1c: r0 = _enrichConversationsWithMembershipUnread()
-    //     0x9bbb1c: bl              #0x9bbb64  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_enrichConversationsWithMembershipUnread
+    //     0x9bbb1c: bl              #0x9bbb64  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_enrichConversationsWithMembershipUnread
     // 0x9bbb20: mov             x1, x0
     // 0x9bbb24: stur            x1, [fp, #-0x18]
     // 0x9bbb28: r0 = Await()
@@ -6531,7 +6531,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x9bbb48: mov             x2, x0
     // 0x9bbb4c: ldur            x3, [fp, #-0x20]
     // 0x9bbb50: r0 = _applyConversationList()
-    //     0x9bbb50: bl              #0x9bc2e0  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_applyConversationList
+    //     0x9bbb50: bl              #0x9bc2e0  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_applyConversationList
     // 0x9bbb54: r0 = Null
     //     0x9bbb54: mov             x0, NULL
     // 0x9bbb58: r0 = ReturnAsyncNotFuture()
@@ -6644,7 +6644,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0x9bbc80: blr             lr
     // 0x9bbc84: ldur            x2, [fp, #-0x28]
     // 0x9bbc88: r1 = Function '<anonymous closure>':.
-    //     0x9bbc88: add             x1, PP, #0x11, lsl #12  ; [pp+0x11c80] AnonymousClosure: (0x9bbe18), in [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_enrichConversationsWithMembershipUnread (0x9bbb64)
+    //     0x9bbc88: add             x1, PP, #0x11, lsl #12  ; [pp+0x11c80] AnonymousClosure: (0x9bbe18), in [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_enrichConversationsWithMembershipUnread (0x9bbb64)
     //     0x9bbc8c: ldr             x1, [x1, #0xc80]
     // 0x9bbc90: stur            x0, [fp, #-0x18]
     // 0x9bbc94: r0 = AllocateClosure()
@@ -7016,7 +7016,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x9bc0b8: mov             x1, x3
     // 0x9bc0bc: stur            x3, [fp, #-0x98]
     // 0x9bc0c0: r0 = _readInt()
-    //     0x9bc0c0: bl              #0x722470  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_readInt
+    //     0x9bc0c0: bl              #0x722470  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_readInt
     // 0x9bc0c4: mov             x2, x0
     // 0x9bc0c8: r0 = BoxInt64Instr(r2)
     //     0x9bc0c8: sbfiz           x0, x2, #1, #0x1f
@@ -7038,7 +7038,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x9bc0fc: ldur            x2, [fp, #-0xb0]
     // 0x9bc100: stur            x3, [fp, #-0xa0]
     // 0x9bc104: r0 = copyWith()
-    //     0x9bc104: bl              #0x9810cc  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::copyWith
+    //     0x9bc104: bl              #0x9810cc  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::copyWith
     // 0x9bc108: mov             x4, x0
     // 0x9bc10c: ldur            x3, [fp, #-0xa0]
     // 0x9bc110: stur            x4, [fp, #-0xa8]
@@ -7232,7 +7232,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x9bc320: StoreField: r3->field_f = r0
     //     0x9bc320: stur            w0, [x3, #0xf]
     // 0x9bc324: r1 = Function '<anonymous closure>':.
-    //     0x9bc324: add             x1, PP, #0x11, lsl #12  ; [pp+0x11da8] AnonymousClosure: (0x9bc574), in [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_applyConversationList (0x9bc2e0)
+    //     0x9bc324: add             x1, PP, #0x11, lsl #12  ; [pp+0x11da8] AnonymousClosure: (0x9bc574), in [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_applyConversationList (0x9bc2e0)
     //     0x9bc328: ldr             x1, [x1, #0xda8]
     // 0x9bc32c: r2 = Null
     //     0x9bc32c: mov             x2, NULL
@@ -7258,7 +7258,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x9bc368: r0 = _GrowableList.of()
     //     0x9bc368: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x9bc36c: r1 = Function '<anonymous closure>':.
-    //     0x9bc36c: add             x1, PP, #0x11, lsl #12  ; [pp+0x11db0] AnonymousClosure: (0x9bc47c), in [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_applyConversationList (0x9bc2e0)
+    //     0x9bc36c: add             x1, PP, #0x11, lsl #12  ; [pp+0x11db0] AnonymousClosure: (0x9bc47c), in [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_applyConversationList (0x9bc2e0)
     //     0x9bc370: ldr             x1, [x1, #0xdb0]
     // 0x9bc374: r2 = Null
     //     0x9bc374: mov             x2, NULL
@@ -7283,7 +7283,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0x9bc3b0: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x9bc3b4: ldur            x2, [fp, #-0x20]
     // 0x9bc3b8: r1 = Function '<anonymous closure>':.
-    //     0x9bc3b8: add             x1, PP, #0x11, lsl #12  ; [pp+0x11db8] AnonymousClosure: (0x9bc410), in [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_applyConversationList (0x9bc2e0)
+    //     0x9bc3b8: add             x1, PP, #0x11, lsl #12  ; [pp+0x11db8] AnonymousClosure: (0x9bc410), in [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_applyConversationList (0x9bc2e0)
     //     0x9bc3bc: ldr             x1, [x1, #0xdb8]
     // 0x9bc3c0: r0 = AllocateClosure()
     //     0x9bc3c0: bl              #0xe553e0  ; AllocateClosureStub
@@ -7337,7 +7337,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0x9bc434: add             x2, x2, HEAP, lsl #32
     // 0x9bc438: ldr             x1, [fp, #0x10]
     // 0x9bc43c: r0 = unreadCount()
-    //     0x9bc43c: bl              #0x980f54  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::unreadCount
+    //     0x9bc43c: bl              #0x980f54  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::unreadCount
     // 0x9bc440: ldr             x2, [fp, #0x18]
     // 0x9bc444: r3 = LoadInt32Instr(r2)
     //     0x9bc444: sbfx            x3, x2, #1, #0x1f
@@ -7460,7 +7460,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0x9bc584: b.ls            #0x9bc5b8
     // 0x9bc588: ldr             x1, [fp, #0x10]
     // 0x9bc58c: r0 = effectiveType()
-    //     0x9bc58c: bl              #0x981698  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::effectiveType
+    //     0x9bc58c: bl              #0x981698  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::effectiveType
     // 0x9bc590: r16 = Instance_ConversationType
     //     0x9bc590: add             x16, PP, #0x11, lsl #12  ; [pp+0x11b20] Obj!ConversationType@d3b721
     //     0x9bc594: ldr             x16, [x16, #0xb20]
@@ -7491,7 +7491,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0x9bc5d0: b.ls            #0x9bc5e8
     // 0x9bc5d4: ldr             x1, [fp, #0x10]
     // 0x9bc5d8: r0 = isTeamConversation()
-    //     0x9bc5d8: bl              #0x983fcc  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::isTeamConversation
+    //     0x9bc5d8: bl              #0x983fcc  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::isTeamConversation
     // 0x9bc5dc: LeaveFrame
     //     0x9bc5dc: mov             SP, fp
     //     0x9bc5e0: ldp             fp, lr, [SP], #0x10
@@ -7535,7 +7535,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0x9bc638: ldur            x1, [fp, #-8]
     // 0x9bc63c: mov             x2, x0
     // 0x9bc640: r0 = fromFirestore()
-    //     0x9bc640: bl              #0x72048c  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::fromFirestore
+    //     0x9bc640: bl              #0x72048c  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::fromFirestore
     // 0x9bc644: LeaveFrame
     //     0x9bc644: mov             SP, fp
     //     0x9bc648: ldp             fp, lr, [SP], #0x10
@@ -7646,7 +7646,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0xa92be0: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0xa92be4: mov             x2, x3
     // 0xa92be8: r1 = Function '<anonymous closure>':.
-    //     0xa92be8: add             x1, PP, #0x27, lsl #12  ; [pp+0x272a0] AnonymousClosure: (0xa92c48), in [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::toggleMessageLike (0xa92acc)
+    //     0xa92be8: add             x1, PP, #0x27, lsl #12  ; [pp+0x272a0] AnonymousClosure: (0xa92c48), in [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::toggleMessageLike (0xa92acc)
     //     0xa92bec: ldr             x1, [x1, #0x2a0]
     // 0xa92bf0: r0 = AllocateClosure()
     //     0xa92bf0: bl              #0xe553e0  ; AllocateClosureStub
@@ -7920,7 +7920,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0xa92ef4: mov             x0, x1
     // 0xa92ef8: mov             x1, x0
     // 0xa92efc: r0 = _readBoolMap()
-    //     0xa92efc: bl              #0xa930a0  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_readBoolMap
+    //     0xa92efc: bl              #0xa930a0  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_readBoolMap
     // 0xa92f00: mov             x1, x0
     // 0xa92f04: ldur            x2, [fp, #-0x20]
     // 0xa92f08: stur            x0, [fp, #-0x10]
@@ -8184,7 +8184,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0xa931c4: stur            w0, [x1, #0xf]
     // 0xa931c8: mov             x2, x1
     // 0xa931cc: r1 = Function '<anonymous closure>': static.
-    //     0xa931cc: add             x1, PP, #0x27, lsl #12  ; [pp+0x272e0] AnonymousClosure: static (0xa93214), in [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_readBoolMap (0xa930a0)
+    //     0xa931cc: add             x1, PP, #0x27, lsl #12  ; [pp+0x272e0] AnonymousClosure: static (0xa93214), in [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_readBoolMap (0xa930a0)
     //     0xa931d0: ldr             x1, [x1, #0x2e0]
     // 0xa931d4: r0 = AllocateClosure()
     //     0xa931d4: bl              #0xe553e0  ; AllocateClosureStub
@@ -8335,7 +8335,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0xa93b54: mov             x1, x0
     // 0xa93b58: mov             x2, x3
     // 0xa93b5c: r0 = _inboxConversationsQuery()
-    //     0xa93b5c: bl              #0x9bb864  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_inboxConversationsQuery
+    //     0xa93b5c: bl              #0x9bb864  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_inboxConversationsQuery
     // 0xa93b60: r16 = Instance_GetOptions
     //     0xa93b60: add             x16, PP, #0x37, lsl #12  ; [pp+0x370c8] Obj!GetOptions@d25ce1
     //     0xa93b64: ldr             x16, [x16, #0xc8]
@@ -8354,7 +8354,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0xa93b8c: r0 = docs()
     //     0xa93b8c: bl              #0x601260  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQuerySnapshot::docs
     // 0xa93b90: r1 = Function '<anonymous closure>':.
-    //     0xa93b90: add             x1, PP, #0x37, lsl #12  ; [pp+0x370d0] AnonymousClosure: (0x9bc5f0), in [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_handleInboxSnapshot (0x9bb9d4)
+    //     0xa93b90: add             x1, PP, #0x37, lsl #12  ; [pp+0x370d0] AnonymousClosure: (0x9bc5f0), in [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_handleInboxSnapshot (0x9bb9d4)
     //     0xa93b94: ldr             x1, [x1, #0xd0]
     // 0xa93b98: r2 = Null
     //     0xa93b98: mov             x2, NULL
@@ -8394,7 +8394,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0xa93bf8: ldur            x3, [fp, #-0x80]
     // 0xa93bfc: stur            x0, [fp, #-0x90]
     // 0xa93c00: r0 = _enrichConversationsWithMembershipUnread()
-    //     0xa93c00: bl              #0x9bbb64  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_enrichConversationsWithMembershipUnread
+    //     0xa93c00: bl              #0x9bbb64  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_enrichConversationsWithMembershipUnread
     // 0xa93c04: mov             x1, x0
     // 0xa93c08: stur            x1, [fp, #-0x98]
     // 0xa93c0c: r0 = Await()
@@ -8404,7 +8404,7 @@ class DirectMessageManager extends ChangeNotifier {
     // 0xa93c18: ldur            x3, [fp, #-0x80]
     // 0xa93c1c: stur            x0, [fp, #-0x98]
     // 0xa93c20: r0 = _applyConversationList()
-    //     0xa93c20: bl              #0x9bc2e0  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_applyConversationList
+    //     0xa93c20: bl              #0x9bc2e0  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_applyConversationList
     // 0xa93c24: b               #0xa93c84
     // 0xa93c28: sub             SP, fp, #0xb0
     // 0xa93c2c: stur            x0, [fp, #-0x78]
@@ -8546,7 +8546,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0xc2b108: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0xc2b10c: mov             x2, x3
     // 0xc2b110: r1 = Function '_onUserManagerChanged@707331600':.
-    //     0xc2b110: add             x1, PP, #0x11, lsl #12  ; [pp+0x11ae8] AnonymousClosure: (0x9bb5dc), in [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_onUserManagerChanged (0x9bb614)
+    //     0xc2b110: add             x1, PP, #0x11, lsl #12  ; [pp+0x11ae8] AnonymousClosure: (0x9bb5dc), in [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_onUserManagerChanged (0x9bb614)
     //     0xc2b114: ldr             x1, [x1, #0xae8]
     // 0xc2b118: r0 = AllocateClosure()
     //     0xc2b118: bl              #0xe553e0  ; AllocateClosureStub
@@ -8556,7 +8556,7 @@ class DirectMessageManager extends ChangeNotifier {
     //     0xc2b124: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0xc2b128: ldur            x1, [fp, #-8]
     // 0xc2b12c: r0 = _onUserManagerChanged()
-    //     0xc2b12c: bl              #0x9bb614  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_onUserManagerChanged
+    //     0xc2b12c: bl              #0x9bb614  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::_onUserManagerChanged
     // 0xc2b130: r0 = Null
     //     0xc2b130: mov             x0, NULL
     // 0xc2b134: LeaveFrame

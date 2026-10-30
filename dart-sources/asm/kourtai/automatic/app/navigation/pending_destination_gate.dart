@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/navigation/pending_destination_gate.dart
+// lib: , url: package:kourtai/automatic/app/navigation/pending_destination_gate.dart
 
 // class id: 1048662, size: 0x8
 class :: {
@@ -102,7 +102,7 @@ abstract class PendingDestinationGate extends Object {
     // 0x940288: mov             x2, x3
     // 0x94028c: mov             x3, x0
     // 0x940290: r0 = disposition()
-    //     0x940290: bl              #0x9402c4  ; [package:ballai/automatic/app/navigation/pending_destination_gate.dart] PendingDestinationGate::disposition
+    //     0x940290: bl              #0x9402c4  ; [package:kourtai/automatic/app/navigation/pending_destination_gate.dart] PendingDestinationGate::disposition
     // 0x940294: r16 = Instance_PendingDestinationDisposition
     //     0x940294: add             x16, PP, #0x1c, lsl #12  ; [pp+0x1cf70] Obj!PendingDestinationDisposition@d3b821
     //     0x940298: ldr             x16, [x16, #0xf70]
@@ -158,7 +158,7 @@ abstract class PendingDestinationGate extends Object {
     // 0x940324: mov             x1, x0
     // 0x940328: mov             x2, x3
     // 0x94032c: r0 = _isSubscriptionFamily()
-    //     0x94032c: bl              #0x940440  ; [package:ballai/automatic/app/navigation/pending_destination_gate.dart] PendingDestinationGate::_isSubscriptionFamily
+    //     0x94032c: bl              #0x940440  ; [package:kourtai/automatic/app/navigation/pending_destination_gate.dart] PendingDestinationGate::_isSubscriptionFamily
     // 0x940330: tbz             w0, #4, #0x940348
     // 0x940334: r0 = Instance_PendingDestinationDisposition
     //     0x940334: add             x0, PP, #0x1a, lsl #12  ; [pp+0x1a530] Obj!PendingDestinationDisposition@d3b801
@@ -209,7 +209,7 @@ abstract class PendingDestinationGate extends Object {
     // 0x9403bc: ldur            x1, [fp, #-0x10]
     // 0x9403c0: ldur            x2, [fp, #-8]
     // 0x9403c4: r0 = _isSubscriptionFamily()
-    //     0x9403c4: bl              #0x940440  ; [package:ballai/automatic/app/navigation/pending_destination_gate.dart] PendingDestinationGate::_isSubscriptionFamily
+    //     0x9403c4: bl              #0x940440  ; [package:kourtai/automatic/app/navigation/pending_destination_gate.dart] PendingDestinationGate::_isSubscriptionFamily
     // 0x9403c8: tbnz            w0, #4, #0x9403e0
     // 0x9403cc: r0 = Instance_PendingDestinationDisposition
     //     0x9403cc: add             x0, PP, #0x1c, lsl #12  ; [pp+0x1cf70] Obj!PendingDestinationDisposition@d3b821

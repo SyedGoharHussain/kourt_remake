@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/overlays/speech_overlay.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/overlays/speech_overlay.dart
 
 // class id: 1049257, size: 0x8
 class :: {
@@ -26,7 +26,7 @@ class _SpeechOverlayState extends State<dynamic> {
     //     0x99702c: add             x0, x0, HEAP, lsl #32
     // 0x997030: stur            x0, [fp, #-8]
     // 0x997034: r1 = Function '_onManagerChanged@1482396254':.
-    //     0x997034: add             x1, PP, #0x41, lsl #12  ; [pp+0x41200] AnonymousClosure: (0x997084), in [package:ballai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::_onManagerChanged (0x9970bc)
+    //     0x997034: add             x1, PP, #0x41, lsl #12  ; [pp+0x41200] AnonymousClosure: (0x997084), in [package:kourtai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::_onManagerChanged (0x9970bc)
     //     0x997038: ldr             x1, [x1, #0x200]
     // 0x99703c: r0 = AllocateClosure()
     //     0x99703c: bl              #0xe553e0  ; AllocateClosureStub
@@ -60,7 +60,7 @@ class _SpeechOverlayState extends State<dynamic> {
     //     0x99709c: cmp             SP, x16
     //     0x9970a0: b.ls            #0x9970b4
     // 0x9970a4: r0 = _onManagerChanged()
-    //     0x9970a4: bl              #0x9970bc  ; [package:ballai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::_onManagerChanged
+    //     0x9970a4: bl              #0x9970bc  ; [package:kourtai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::_onManagerChanged
     // 0x9970a8: LeaveFrame
     //     0x9970a8: mov             SP, fp
     //     0x9970ac: ldp             fp, lr, [SP], #0x10
@@ -128,7 +128,7 @@ class _SpeechOverlayState extends State<dynamic> {
     // 0x997140: b.eq            #0x997160
     // 0x997144: ldur            x2, [fp, #-0x10]
     // 0x997148: r1 = Function '<anonymous closure>':.
-    //     0x997148: add             x1, PP, #0x41, lsl #12  ; [pp+0x41208] AnonymousClosure: (0x9976a8), in [package:ballai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::_onManagerChanged (0x9970bc)
+    //     0x997148: add             x1, PP, #0x41, lsl #12  ; [pp+0x41208] AnonymousClosure: (0x9976a8), in [package:kourtai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::_onManagerChanged (0x9970bc)
     //     0x99714c: ldr             x1, [x1, #0x208]
     // 0x997150: r0 = AllocateClosure()
     //     0x997150: bl              #0xe553e0  ; AllocateClosureStub
@@ -192,7 +192,7 @@ class _SpeechOverlayState extends State<dynamic> {
     //     0x9971f4: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0x9971f8: ldur            x2, [fp, #-0x10]
     // 0x9971fc: r0 = _startTypewriter()
-    //     0x9971fc: bl              #0x997218  ; [package:ballai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::_startTypewriter
+    //     0x9971fc: bl              #0x997218  ; [package:kourtai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::_startTypewriter
     // 0x997200: r0 = Null
     //     0x997200: mov             x0, NULL
     // 0x997204: LeaveFrame
@@ -281,7 +281,7 @@ class _SpeechOverlayState extends State<dynamic> {
     //     0x9972e4: ret             
     // 0x9972e8: mov             x2, x3
     // 0x9972ec: r1 = Function '<anonymous closure>':.
-    //     0x9972ec: add             x1, PP, #0x41, lsl #12  ; [pp+0x41210] AnonymousClosure: (0x997628), in [package:ballai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::_startTypewriter (0x997218)
+    //     0x9972ec: add             x1, PP, #0x41, lsl #12  ; [pp+0x41210] AnonymousClosure: (0x997628), in [package:kourtai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::_startTypewriter (0x997218)
     //     0x9972f0: ldr             x1, [x1, #0x210]
     // 0x9972f4: r0 = AllocateClosure()
     //     0x9972f4: bl              #0xe553e0  ; AllocateClosureStub
@@ -296,7 +296,7 @@ class _SpeechOverlayState extends State<dynamic> {
     //     0x99730c: stur            w1, [x0, #0x1b]
     // 0x997310: mov             x2, x0
     // 0x997314: r1 = Function 'scheduleStep':.
-    //     0x997314: add             x1, PP, #0x41, lsl #12  ; [pp+0x41218] AnonymousClosure: (0x997374), in [package:ballai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::_startTypewriter (0x997218)
+    //     0x997314: add             x1, PP, #0x41, lsl #12  ; [pp+0x41218] AnonymousClosure: (0x997374), in [package:kourtai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::_startTypewriter (0x997218)
     //     0x997318: ldr             x1, [x1, #0x218]
     // 0x99731c: r0 = AllocateClosure()
     //     0x99731c: bl              #0xe553e0  ; AllocateClosureStub
@@ -347,7 +347,7 @@ class _SpeechOverlayState extends State<dynamic> {
     //     0x997390: cmp             SP, x16
     //     0x997394: b.ls            #0x9973cc
     // 0x997398: r1 = Function '<anonymous closure>':.
-    //     0x997398: add             x1, PP, #0x41, lsl #12  ; [pp+0x41220] AnonymousClosure: (0x9973d4), in [package:ballai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::_startTypewriter (0x997218)
+    //     0x997398: add             x1, PP, #0x41, lsl #12  ; [pp+0x41220] AnonymousClosure: (0x9973d4), in [package:kourtai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::_startTypewriter (0x997218)
     //     0x99739c: ldr             x1, [x1, #0x220]
     // 0x9973a0: r0 = AllocateClosure()
     //     0x9973a0: bl              #0xe553e0  ; AllocateClosureStub
@@ -444,7 +444,7 @@ class _SpeechOverlayState extends State<dynamic> {
     //     0x99747c: ret             
     // 0x997480: mov             x2, x3
     // 0x997484: r1 = Function '<anonymous closure>':.
-    //     0x997484: add             x1, PP, #0x41, lsl #12  ; [pp+0x41230] AnonymousClosure: (0x997514), in [package:ballai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::_startTypewriter (0x997218)
+    //     0x997484: add             x1, PP, #0x41, lsl #12  ; [pp+0x41230] AnonymousClosure: (0x997514), in [package:kourtai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::_startTypewriter (0x997218)
     //     0x997488: ldr             x1, [x1, #0x230]
     // 0x99748c: r0 = AllocateClosure()
     //     0x99748c: bl              #0xe553e0  ; AllocateClosureStub
@@ -477,7 +477,7 @@ class _SpeechOverlayState extends State<dynamic> {
     // 0x9974d4: DecompressPointer r2
     //     0x9974d4: add             x2, x2, HEAP, lsl #32
     // 0x9974d8: r1 = Function '<anonymous closure>':.
-    //     0x9974d8: add             x1, PP, #0x41, lsl #12  ; [pp+0x41220] AnonymousClosure: (0x9973d4), in [package:ballai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::_startTypewriter (0x997218)
+    //     0x9974d8: add             x1, PP, #0x41, lsl #12  ; [pp+0x41220] AnonymousClosure: (0x9973d4), in [package:kourtai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::_startTypewriter (0x997218)
     //     0x9974dc: ldr             x1, [x1, #0x220]
     // 0x9974e0: r0 = AllocateClosure()
     //     0x9974e0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1170,7 +1170,7 @@ class _SpeechOverlayState extends State<dynamic> {
     //     0xb5cf78: mov             fp, SP
     // 0xb5cf7c: ldr             x2, [fp, #0x10]
     // 0xb5cf80: r1 = Function 'dispose':.
-    //     0xb5cf80: add             x1, PP, #0x41, lsl #12  ; [pp+0x411e8] AnonymousClosure: (0xb5cf98), in [package:ballai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::dispose (0xb64c40)
+    //     0xb5cf80: add             x1, PP, #0x41, lsl #12  ; [pp+0x411e8] AnonymousClosure: (0xb5cf98), in [package:kourtai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::dispose (0xb64c40)
     //     0xb5cf84: ldr             x1, [x1, #0x1e8]
     // 0xb5cf88: r0 = AllocateClosure()
     //     0xb5cf88: bl              #0xe553e0  ; AllocateClosureStub
@@ -1195,7 +1195,7 @@ class _SpeechOverlayState extends State<dynamic> {
     //     0xb5cfb0: cmp             SP, x16
     //     0xb5cfb4: b.ls            #0xb5cfc8
     // 0xb5cfb8: r0 = dispose()
-    //     0xb5cfb8: bl              #0xb64c40  ; [package:ballai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::dispose
+    //     0xb5cfb8: bl              #0xb64c40  ; [package:kourtai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::dispose
     // 0xb5cfbc: LeaveFrame
     //     0xb5cfbc: mov             SP, fp
     //     0xb5cfc0: ldp             fp, lr, [SP], #0x10
@@ -1229,7 +1229,7 @@ class _SpeechOverlayState extends State<dynamic> {
     //     0xb64c70: add             x0, x0, HEAP, lsl #32
     // 0xb64c74: stur            x0, [fp, #-0x10]
     // 0xb64c78: r1 = Function '_onManagerChanged@1482396254':.
-    //     0xb64c78: add             x1, PP, #0x41, lsl #12  ; [pp+0x41200] AnonymousClosure: (0x997084), in [package:ballai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::_onManagerChanged (0x9970bc)
+    //     0xb64c78: add             x1, PP, #0x41, lsl #12  ; [pp+0x41200] AnonymousClosure: (0x997084), in [package:kourtai/video_tracking/views/workout/overlays/speech_overlay.dart] _SpeechOverlayState::_onManagerChanged (0x9970bc)
     //     0xb64c7c: ldr             x1, [x1, #0x200]
     // 0xb64c80: r0 = AllocateClosure()
     //     0xb64c80: bl              #0xe553e0  ; AllocateClosureStub
@@ -1276,7 +1276,7 @@ class SpeechOverlay extends StatefulWidget {
     // 0xb776bc: stur            x1, [fp, #-8]
     // 0xb776c0: ArrayStore: r1[0] = r0  ; List_4
     //     0xb776c0: stur            w0, [x1, #0x17]
-    // 0xb776c4: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0xb776c4: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0xb776c4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb776c8: ldr             x0, [x0, #0x1cf0]
     //     0xb776cc: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel

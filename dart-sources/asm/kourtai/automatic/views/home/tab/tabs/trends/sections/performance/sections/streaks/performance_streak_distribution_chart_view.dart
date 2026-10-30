@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/performance/sections/streaks/performance_streak_distribution_chart_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/performance/sections/streaks/performance_streak_distribution_chart_view.dart
 
 // class id: 1048978, size: 0x8
 class :: {
@@ -38,10 +38,10 @@ class PerformanceStreakDistributionChartView extends StatelessWidget {
     //     0xc069d8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d5a0] "No shots tracked in this period yet."
     //     0xc069dc: ldr             x1, [x1, #0x5a0]
     // 0xc069e0: r0 = L()
-    //     0xc069e0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc069e0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc069e4: stur            x0, [fp, #-0x10]
-    // 0xc069e8: r0 = BallAiEmptyState()
-    //     0xc069e8: bl              #0xa63934  ; AllocateBallAiEmptyStateStub -> BallAiEmptyState (size=0x14)
+    // 0xc069e8: r0 = KourtAiEmptyState()
+    //     0xc069e8: bl              #0xa63934  ; AllocateKourtAiEmptyStateStub -> KourtAiEmptyState (size=0x14)
     // 0xc069ec: mov             x1, x0
     // 0xc069f0: ldur            x0, [fp, #-0x10]
     // 0xc069f4: StoreField: r1->field_b = r0

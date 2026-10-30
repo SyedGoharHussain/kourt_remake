@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/profile_location_search_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/profile_location_search_view.dart
 
 // class id: 1048873, size: 0x8
 class :: {
@@ -28,7 +28,7 @@ class _ProfileLocationSearchViewState extends State<dynamic> {
     // 0x955d2c: mov             x1, x0
     // 0x955d30: stur            x0, [fp, #-0x10]
     // 0x955d34: r0 = ProfileLocationSearchViewModel()
-    //     0x955d34: bl              #0x957424  ; [package:ballai/automatic/utility/location/profile_location_support.dart] ProfileLocationSearchViewModel::ProfileLocationSearchViewModel
+    //     0x955d34: bl              #0x957424  ; [package:kourtai/automatic/utility/location/profile_location_support.dart] ProfileLocationSearchViewModel::ProfileLocationSearchViewModel
     // 0x955d38: ldur            x2, [fp, #-8]
     // 0x955d3c: LoadField: r0 = r2->field_13
     //     0x955d3c: ldur            w0, [x2, #0x13]
@@ -121,7 +121,7 @@ class _ProfileLocationSearchViewState extends State<dynamic> {
     //     0x955e2c: add             x0, x0, HEAP, lsl #32
     // 0x955e30: mov             x2, x0
     // 0x955e34: r0 = updateQuery()
-    //     0x955e34: bl              #0x955ea4  ; [package:ballai/automatic/utility/location/profile_location_support.dart] ProfileLocationSearchViewModel::updateQuery
+    //     0x955e34: bl              #0x955ea4  ; [package:kourtai/automatic/utility/location/profile_location_support.dart] ProfileLocationSearchViewModel::updateQuery
     // 0x955e38: r0 = Null
     //     0x955e38: mov             x0, NULL
     // 0x955e3c: LeaveFrame
@@ -215,7 +215,7 @@ class _ProfileLocationSearchViewState extends State<dynamic> {
     // 0xa2b578: b.eq            #0xa2b5c8
     // 0xa2b57c: stur            x3, [fp, #-0x10]
     // 0xa2b580: r1 = Function '<anonymous closure>':.
-    //     0xa2b580: add             x1, PP, #0x44, lsl #12  ; [pp+0x44f88] AnonymousClosure: (0xa2b5d4), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/profile_location_search_view.dart] _ProfileLocationSearchViewState::build (0xa2b4d0)
+    //     0xa2b580: add             x1, PP, #0x44, lsl #12  ; [pp+0x44f88] AnonymousClosure: (0xa2b5d4), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/profile_location_search_view.dart] _ProfileLocationSearchViewState::build (0xa2b4d0)
     //     0xa2b584: ldr             x1, [x1, #0xf88]
     // 0xa2b588: r0 = AllocateClosure()
     //     0xa2b588: bl              #0xe553e0  ; AllocateClosureStub
@@ -309,7 +309,7 @@ class _ProfileLocationSearchViewState extends State<dynamic> {
     //     0xa2b660: add             x1, PP, #0x27, lsl #12  ; [pp+0x27668] "Cancel"
     //     0xa2b664: ldr             x1, [x1, #0x668]
     // 0xa2b668: r0 = L()
-    //     0xa2b668: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2b668: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2b66c: stur            x0, [fp, #-0x10]
     // 0xa2b670: r0 = Text()
     //     0xa2b670: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -320,7 +320,7 @@ class _ProfileLocationSearchViewState extends State<dynamic> {
     //     0xa2b680: stur            w0, [x3, #0xb]
     // 0xa2b684: ldur            x2, [fp, #-0x18]
     // 0xa2b688: r1 = Function '<anonymous closure>':.
-    //     0xa2b688: add             x1, PP, #0x44, lsl #12  ; [pp+0x44f98] AnonymousClosure: (0xa2c5e0), in [package:ballai/automatic/views/home/tab/tabs/teams/root/teams_view.dart] _TeamsViewState::_showJoinError (0xa2c7a4)
+    //     0xa2b688: add             x1, PP, #0x44, lsl #12  ; [pp+0x44f98] AnonymousClosure: (0xa2c5e0), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/teams_view.dart] _TeamsViewState::_showJoinError (0xa2c7a4)
     //     0xa2b68c: ldr             x1, [x1, #0xf98]
     // 0xa2b690: r0 = AllocateClosure()
     //     0xa2b690: bl              #0xe553e0  ; AllocateClosureStub
@@ -347,7 +347,7 @@ class _ProfileLocationSearchViewState extends State<dynamic> {
     //     0xa2b6c4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44fa0] "Search location"
     //     0xa2b6c8: ldr             x1, [x1, #0xfa0]
     // 0xa2b6cc: r0 = L()
-    //     0xa2b6cc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2b6cc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2b6d0: stur            x0, [fp, #-0x10]
     // 0xa2b6d4: r0 = TextStyle()
     //     0xa2b6d4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -500,7 +500,7 @@ class _ProfileLocationSearchViewState extends State<dynamic> {
     //     0xa2b844: add             x1, PP, #0x37, lsl #12  ; [pp+0x37340] "City, state, country"
     //     0xa2b848: ldr             x1, [x1, #0x340]
     // 0xa2b84c: r0 = L()
-    //     0xa2b84c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2b84c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2b850: stur            x0, [fp, #-0x28]
     // 0xa2b854: r0 = Radius()
     //     0xa2b854: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -625,7 +625,7 @@ class _ProfileLocationSearchViewState extends State<dynamic> {
     //     0xa2b970: stur            w0, [x3, #0x67]
     // 0xa2b974: ldur            x2, [fp, #-0x28]
     // 0xa2b978: r1 = Function 'updateQuery':.
-    //     0xa2b978: add             x1, PP, #0x44, lsl #12  ; [pp+0x44fc0] AnonymousClosure: (0x955f14), in [package:ballai/automatic/utility/location/profile_location_support.dart] ProfileLocationSearchViewModel::updateQuery (0x955ea4)
+    //     0xa2b978: add             x1, PP, #0x44, lsl #12  ; [pp+0x44fc0] AnonymousClosure: (0x955f14), in [package:kourtai/automatic/utility/location/profile_location_support.dart] ProfileLocationSearchViewModel::updateQuery (0x955ea4)
     //     0xa2b97c: ldr             x1, [x1, #0xfc0]
     // 0xa2b980: r0 = AllocateClosure()
     //     0xa2b980: bl              #0xe553e0  ; AllocateClosureStub
@@ -850,7 +850,7 @@ class _ProfileLocationSearchViewState extends State<dynamic> {
     // 0xa2bbb8: DecompressPointer r1
     //     0xa2bbb8: add             x1, x1, HEAP, lsl #32
     // 0xa2bbbc: r0 = _buildBody()
-    //     0xa2bbbc: bl              #0xa2be8c  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/profile_location_search_view.dart] _ProfileLocationSearchViewState::_buildBody
+    //     0xa2bbbc: bl              #0xa2be8c  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/profile_location_search_view.dart] _ProfileLocationSearchViewState::_buildBody
     // 0xa2bbc0: r1 = <FlexParentData>
     //     0xa2bbc0: add             x1, PP, #0x18, lsl #12  ; [pp+0x183e0] TypeArguments: <FlexParentData>
     //     0xa2bbc4: ldr             x1, [x1, #0x3e0]
@@ -1168,13 +1168,13 @@ class _ProfileLocationSearchViewState extends State<dynamic> {
     //     0xa2beec: add             x1, PP, #0x45, lsl #12  ; [pp+0x450b8] "Search for your location"
     //     0xa2bef0: ldr             x1, [x1, #0xb8]
     // 0xa2bef4: r0 = L()
-    //     0xa2bef4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2bef4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2bef8: r1 = "Find your city, state, and country."
     //     0xa2bef8: add             x1, PP, #0x45, lsl #12  ; [pp+0x450c0] "Find your city, state, and country."
     //     0xa2befc: ldr             x1, [x1, #0xc0]
     // 0xa2bf00: stur            x0, [fp, #-0x18]
     // 0xa2bf04: r0 = L()
-    //     0xa2bf04: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2bf04: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2bf08: ldur            x1, [fp, #-8]
     // 0xa2bf0c: mov             x3, x0
     // 0xa2bf10: ldur            x5, [fp, #-0x18]
@@ -1182,7 +1182,7 @@ class _ProfileLocationSearchViewState extends State<dynamic> {
     //     0xa2bf14: add             x2, PP, #0x35, lsl #12  ; [pp+0x35310] Obj!IconData@d0cde1
     //     0xa2bf18: ldr             x2, [x2, #0x310]
     // 0xa2bf1c: r0 = _emptyState()
-    //     0xa2bf1c: bl              #0xa2c03c  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/profile_location_search_view.dart] _ProfileLocationSearchViewState::_emptyState
+    //     0xa2bf1c: bl              #0xa2c03c  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/profile_location_search_view.dart] _ProfileLocationSearchViewState::_emptyState
     // 0xa2bf20: LeaveFrame
     //     0xa2bf20: mov             SP, fp
     //     0xa2bf24: ldp             fp, lr, [SP], #0x10
@@ -1224,13 +1224,13 @@ class _ProfileLocationSearchViewState extends State<dynamic> {
     //     0xa2bf78: add             x1, PP, #0x45, lsl #12  ; [pp+0x450c8] "No results"
     //     0xa2bf7c: ldr             x1, [x1, #0xc8]
     // 0xa2bf80: r0 = L()
-    //     0xa2bf80: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2bf80: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2bf84: r1 = "Try a nearby city or region."
     //     0xa2bf84: add             x1, PP, #0x45, lsl #12  ; [pp+0x450d0] "Try a nearby city or region."
     //     0xa2bf88: ldr             x1, [x1, #0xd0]
     // 0xa2bf8c: stur            x0, [fp, #-0x18]
     // 0xa2bf90: r0 = L()
-    //     0xa2bf90: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2bf90: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2bf94: ldur            x1, [fp, #-8]
     // 0xa2bf98: mov             x3, x0
     // 0xa2bf9c: ldur            x5, [fp, #-0x18]
@@ -1238,7 +1238,7 @@ class _ProfileLocationSearchViewState extends State<dynamic> {
     //     0xa2bfa0: add             x2, PP, #0x45, lsl #12  ; [pp+0x450d8] Obj!IconData@d0d461
     //     0xa2bfa4: ldr             x2, [x2, #0xd8]
     // 0xa2bfa8: r0 = _emptyState()
-    //     0xa2bfa8: bl              #0xa2c03c  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/profile_location_search_view.dart] _ProfileLocationSearchViewState::_emptyState
+    //     0xa2bfa8: bl              #0xa2c03c  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/profile_location_search_view.dart] _ProfileLocationSearchViewState::_emptyState
     // 0xa2bfac: LeaveFrame
     //     0xa2bfac: mov             SP, fp
     //     0xa2bfb0: ldp             fp, lr, [SP], #0x10
@@ -1248,7 +1248,7 @@ class _ProfileLocationSearchViewState extends State<dynamic> {
     //     0xa2bfb8: sbfx            x3, x1, #1, #0x1f
     // 0xa2bfbc: stur            x3, [fp, #-0x20]
     // 0xa2bfc0: r1 = Function '<anonymous closure>':.
-    //     0xa2bfc0: add             x1, PP, #0x45, lsl #12  ; [pp+0x450e0] AnonymousClosure: (0xa2c5d4), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/profile_location_search_view.dart] _ProfileLocationSearchViewState::_buildBody (0xa2be8c)
+    //     0xa2bfc0: add             x1, PP, #0x45, lsl #12  ; [pp+0x450e0] AnonymousClosure: (0xa2c5d4), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/profile_location_search_view.dart] _ProfileLocationSearchViewState::_buildBody (0xa2be8c)
     //     0xa2bfc4: ldr             x1, [x1, #0xe0]
     // 0xa2bfc8: r2 = Null
     //     0xa2bfc8: mov             x2, NULL
@@ -1256,7 +1256,7 @@ class _ProfileLocationSearchViewState extends State<dynamic> {
     //     0xa2bfcc: bl              #0xe553e0  ; AllocateClosureStub
     // 0xa2bfd0: ldur            x2, [fp, #-0x10]
     // 0xa2bfd4: r1 = Function '<anonymous closure>':.
-    //     0xa2bfd4: add             x1, PP, #0x45, lsl #12  ; [pp+0x450e8] AnonymousClosure: (0xa2c260), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/profile_location_search_view.dart] _ProfileLocationSearchViewState::_buildBody (0xa2be8c)
+    //     0xa2bfd4: add             x1, PP, #0x45, lsl #12  ; [pp+0x450e8] AnonymousClosure: (0xa2c260), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/profile_location_search_view.dart] _ProfileLocationSearchViewState::_buildBody (0xa2be8c)
     //     0xa2bfd8: ldr             x1, [x1, #0xe8]
     // 0xa2bfdc: stur            x0, [fp, #-8]
     // 0xa2bfe0: r0 = AllocateClosure()
@@ -1628,7 +1628,7 @@ class _ProfileLocationSearchViewState extends State<dynamic> {
     //     0xa2c384: stur            w0, [x3, #0x4b]
     // 0xa2c388: ldur            x2, [fp, #-0x18]
     // 0xa2c38c: r1 = Function '<anonymous closure>':.
-    //     0xa2c38c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45100] AnonymousClosure: (0xa2c3d4), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/profile_location_search_view.dart] _ProfileLocationSearchViewState::_buildBody (0xa2be8c)
+    //     0xa2c38c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45100] AnonymousClosure: (0xa2c3d4), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/profile_location_search_view.dart] _ProfileLocationSearchViewState::_buildBody (0xa2be8c)
     //     0xa2c390: ldr             x1, [x1, #0x100]
     // 0xa2c394: r0 = AllocateClosure()
     //     0xa2c394: bl              #0xe553e0  ; AllocateClosureStub
@@ -1688,7 +1688,7 @@ class _ProfileLocationSearchViewState extends State<dynamic> {
     // 0xa2c40c: mov             x1, x2
     // 0xa2c410: mov             x2, x0
     // 0xa2c414: r0 = _select()
-    //     0xa2c414: bl              #0xa2c42c  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/profile_location_search_view.dart] _ProfileLocationSearchViewState::_select
+    //     0xa2c414: bl              #0xa2c42c  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/profile_location_search_view.dart] _ProfileLocationSearchViewState::_select
     // 0xa2c418: LeaveFrame
     //     0xa2c418: mov             SP, fp
     //     0xa2c41c: ldp             fp, lr, [SP], #0x10
@@ -1727,7 +1727,7 @@ class _ProfileLocationSearchViewState extends State<dynamic> {
     // 0xa2c46c: b.eq            #0xa2c510
     // 0xa2c470: ldur            x2, [fp, #-0x18]
     // 0xa2c474: r0 = select()
-    //     0xa2c474: bl              #0xa2c524  ; [package:ballai/automatic/utility/location/profile_location_support.dart] ProfileLocationSearchViewModel::select
+    //     0xa2c474: bl              #0xa2c524  ; [package:kourtai/automatic/utility/location/profile_location_support.dart] ProfileLocationSearchViewModel::select
     // 0xa2c478: mov             x1, x0
     // 0xa2c47c: stur            x1, [fp, #-0x18]
     // 0xa2c480: r0 = Await()
@@ -1811,7 +1811,7 @@ class _ProfileLocationSearchViewState extends State<dynamic> {
     //     0xb5ae60: mov             fp, SP
     // 0xb5ae64: ldr             x2, [fp, #0x10]
     // 0xb5ae68: r1 = Function 'dispose':.
-    //     0xb5ae68: add             x1, PP, #0x44, lsl #12  ; [pp+0x44f80] AnonymousClosure: (0xb5ae80), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/profile_location_search_view.dart] _ProfileLocationSearchViewState::dispose (0xb61cd8)
+    //     0xb5ae68: add             x1, PP, #0x44, lsl #12  ; [pp+0x44f80] AnonymousClosure: (0xb5ae80), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/profile_location_search_view.dart] _ProfileLocationSearchViewState::dispose (0xb61cd8)
     //     0xb5ae6c: ldr             x1, [x1, #0xf80]
     // 0xb5ae70: r0 = AllocateClosure()
     //     0xb5ae70: bl              #0xe553e0  ; AllocateClosureStub
@@ -1836,7 +1836,7 @@ class _ProfileLocationSearchViewState extends State<dynamic> {
     //     0xb5ae98: cmp             SP, x16
     //     0xb5ae9c: b.ls            #0xb5aeb0
     // 0xb5aea0: r0 = dispose()
-    //     0xb5aea0: bl              #0xb61cd8  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/profile_location_search_view.dart] _ProfileLocationSearchViewState::dispose
+    //     0xb5aea0: bl              #0xb61cd8  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/profile_location_search_view.dart] _ProfileLocationSearchViewState::dispose
     // 0xb5aea4: LeaveFrame
     //     0xb5aea4: mov             SP, fp
     //     0xb5aea8: ldp             fp, lr, [SP], #0x10
@@ -1880,7 +1880,7 @@ class _ProfileLocationSearchViewState extends State<dynamic> {
     // 0xb61d20: cmp             w1, w16
     // 0xb61d24: b.eq            #0xb61d50
     // 0xb61d28: r0 = dispose()
-    //     0xb61d28: bl              #0x9bde68  ; [package:ballai/automatic/utility/location/profile_location_support.dart] ProfileLocationSearchViewModel::dispose
+    //     0xb61d28: bl              #0x9bde68  ; [package:kourtai/automatic/utility/location/profile_location_support.dart] ProfileLocationSearchViewModel::dispose
     // 0xb61d2c: r0 = Null
     //     0xb61d2c: mov             x0, NULL
     // 0xb61d30: LeaveFrame

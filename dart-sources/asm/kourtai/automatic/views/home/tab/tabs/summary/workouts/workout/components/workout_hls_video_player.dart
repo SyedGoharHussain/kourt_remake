@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart
 
 // class id: 1048891, size: 0x8
 class :: {
@@ -23,7 +23,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     //     0x813cd0: b.ls            #0x813ce8
     // 0x813cd4: ldr             x2, [fp, #0x10]
     // 0x813cd8: r0 = _onScrubEnd()
-    //     0x813cd8: bl              #0x813d10  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_onScrubEnd
+    //     0x813cd8: bl              #0x813d10  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_onScrubEnd
     // 0x813cdc: LeaveFrame
     //     0x813cdc: mov             SP, fp
     //     0x813ce0: ldp             fp, lr, [SP], #0x10
@@ -62,7 +62,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     //     0x813d50: bl              #0x60afc8  ; InitAsyncStub
     // 0x813d54: ldur            x1, [fp, #-0x10]
     // 0x813d58: r0 = _duration()
-    //     0x813d58: bl              #0x813f0c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_duration
+    //     0x813d58: bl              #0x813f0c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_duration
     // 0x813d5c: LoadField: r1 = r0->field_7
     //     0x813d5c: ldur            x1, [x0, #7]
     // 0x813d60: cmp             x1, #0
@@ -130,7 +130,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     // 0x813e24: mov             x2, x1
     // 0x813e28: mov             x1, x3
     // 0x813e2c: r0 = seekTo()
-    //     0x813e2c: bl              #0x813e9c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::seekTo
+    //     0x813e2c: bl              #0x813e9c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::seekTo
     // 0x813e30: mov             x1, x0
     // 0x813e34: stur            x1, [fp, #-0x18]
     // 0x813e38: r0 = Await()
@@ -144,7 +144,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     // 0x813e4c: b.eq            #0x813e6c
     // 0x813e50: ldur            x2, [fp, #-0x20]
     // 0x813e54: r1 = Function '<anonymous closure>':.
-    //     0x813e54: add             x1, PP, #0x47, lsl #12  ; [pp+0x47430] AnonymousClosure: (0x813f70), in [package:ballai/automatic/views/home/tab/tabs/teams/root/teams_view.dart] _JoinTeamHubViewState::_joinPublicFromBrowse (0x813f90)
+    //     0x813e54: add             x1, PP, #0x47, lsl #12  ; [pp+0x47430] AnonymousClosure: (0x813f70), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/teams_view.dart] _JoinTeamHubViewState::_joinPublicFromBrowse (0x813f90)
     //     0x813e58: ldr             x1, [x1, #0x430]
     // 0x813e5c: r0 = AllocateClosure()
     //     0x813e5c: bl              #0xe553e0  ; AllocateClosureStub
@@ -194,7 +194,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     // 0x813f34: DecompressPointer r1
     //     0x813f34: add             x1, x1, HEAP, lsl #32
     // 0x813f38: r0 = duration()
-    //     0x813f38: bl              #0x813f54  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::duration
+    //     0x813f38: bl              #0x813f54  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::duration
     // 0x813f3c: LeaveFrame
     //     0x813f3c: mov             SP, fp
     //     0x813f40: ldp             fp, lr, [SP], #0x10
@@ -288,7 +288,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     // 0x8f3b1c: b.eq            #0x8f3b68
     // 0x8f3b20: mov             x2, x0
     // 0x8f3b24: r1 = Function '_onTick@1147152307':.
-    //     0x8f3b24: add             x1, PP, #0x55, lsl #12  ; [pp+0x55470] AnonymousClosure: (0x8f3b88), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_onTick (0x8f3bc0)
+    //     0x8f3b24: add             x1, PP, #0x55, lsl #12  ; [pp+0x55470] AnonymousClosure: (0x8f3b88), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_onTick (0x8f3bc0)
     //     0x8f3b28: ldr             x1, [x1, #0x470]
     // 0x8f3b2c: r0 = AllocateClosure()
     //     0x8f3b2c: bl              #0xe553e0  ; AllocateClosureStub
@@ -342,7 +342,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     //     0x8f3ba0: cmp             SP, x16
     //     0x8f3ba4: b.ls            #0x8f3bb8
     // 0x8f3ba8: r0 = _onTick()
-    //     0x8f3ba8: bl              #0x8f3bc0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_onTick
+    //     0x8f3ba8: bl              #0x8f3bc0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_onTick
     // 0x8f3bac: LeaveFrame
     //     0x8f3bac: mov             SP, fp
     //     0x8f3bb0: ldp             fp, lr, [SP], #0x10
@@ -419,7 +419,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     //     0x95b554: add             x3, x3, HEAP, lsl #32
     // 0x95b558: stur            x3, [fp, #-8]
     // 0x95b55c: r1 = Function '_onTick@1147152307':.
-    //     0x95b55c: add             x1, PP, #0x55, lsl #12  ; [pp+0x55470] AnonymousClosure: (0x8f3b88), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_onTick (0x8f3bc0)
+    //     0x95b55c: add             x1, PP, #0x55, lsl #12  ; [pp+0x55470] AnonymousClosure: (0x8f3b88), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_onTick (0x8f3bc0)
     //     0x95b560: ldr             x1, [x1, #0x470]
     // 0x95b564: r0 = AllocateClosure()
     //     0x95b564: bl              #0xe553e0  ; AllocateClosureStub
@@ -549,7 +549,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     // 0xa35f78: b               #0xa35f88
     // 0xa35f7c: ldur            x1, [fp, #-8]
     // 0xa35f80: r0 = _position()
-    //     0xa35f80: bl              #0xa36a58  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_position
+    //     0xa35f80: bl              #0xa36a58  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_position
     // 0xa35f84: mov             x4, x0
     // 0xa35f88: ldur            x0, [fp, #-0x18]
     // 0xa35f8c: stur            x4, [fp, #-0x38]
@@ -639,7 +639,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     //     0xa36078: stur            w0, [x3, #0xb]
     // 0xa3607c: ldur            x2, [fp, #-0x28]
     // 0xa36080: r1 = Function '<anonymous closure>':.
-    //     0xa36080: add             x1, PP, #0x55, lsl #12  ; [pp+0x553d8] AnonymousClosure: (0xa36dd0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::build (0xa35e4c)
+    //     0xa36080: add             x1, PP, #0x55, lsl #12  ; [pp+0x553d8] AnonymousClosure: (0xa36dd0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::build (0xa35e4c)
     //     0xa36084: ldr             x1, [x1, #0x3d8]
     // 0xa36088: r0 = AllocateClosure()
     //     0xa36088: bl              #0xe553e0  ; AllocateClosureStub
@@ -1056,7 +1056,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     // 0xa364f0: b.le            #0xa3650c
     // 0xa364f4: ldur            x2, [fp, #-0x28]
     // 0xa364f8: r1 = Function '<anonymous closure>':.
-    //     0xa364f8: add             x1, PP, #0x55, lsl #12  ; [pp+0x55410] AnonymousClosure: (0xa36c50), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::build (0xa35e4c)
+    //     0xa364f8: add             x1, PP, #0x55, lsl #12  ; [pp+0x55410] AnonymousClosure: (0xa36c50), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::build (0xa35e4c)
     //     0xa364fc: ldr             x1, [x1, #0x410]
     // 0xa36500: r0 = AllocateClosure()
     //     0xa36500: bl              #0xe553e0  ; AllocateClosureStub
@@ -1070,7 +1070,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     // 0xa3651c: b.le            #0xa36538
     // 0xa36520: ldur            x2, [fp, #-8]
     // 0xa36524: r1 = Function '_onScrubEnd@1147152307':.
-    //     0xa36524: add             x1, PP, #0x55, lsl #12  ; [pp+0x55418] AnonymousClosure: (0x813cb4), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_onScrubEnd (0x813d10)
+    //     0xa36524: add             x1, PP, #0x55, lsl #12  ; [pp+0x55418] AnonymousClosure: (0x813cb4), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_onScrubEnd (0x813d10)
     //     0xa36528: ldr             x1, [x1, #0x418]
     // 0xa3652c: r0 = AllocateClosure()
     //     0xa3652c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1096,7 +1096,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     //     0xa3656c: stur            w1, [x0, #0x17]
     // 0xa36570: ldur            x2, [fp, #-0x28]
     // 0xa36574: r1 = Function '<anonymous closure>':.
-    //     0xa36574: add             x1, PP, #0x55, lsl #12  ; [pp+0x55420] AnonymousClosure: (0xa36c08), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::build (0xa35e4c)
+    //     0xa36574: add             x1, PP, #0x55, lsl #12  ; [pp+0x55420] AnonymousClosure: (0xa36c08), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::build (0xa35e4c)
     //     0xa36578: ldr             x1, [x1, #0x420]
     // 0xa3657c: r0 = AllocateClosure()
     //     0xa3657c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1149,7 +1149,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     //     0xa365f0: add             x1, x1, HEAP, lsl #32
     // 0xa365f4: ldur            x2, [fp, #-0x38]
     // 0xa365f8: r0 = _formatTime()
-    //     0xa365f8: bl              #0xa356dc  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_formatTime
+    //     0xa365f8: bl              #0xa356dc  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_formatTime
     // 0xa365fc: stur            x0, [fp, #-0x10]
     // 0xa36600: r0 = Text()
     //     0xa36600: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1181,7 +1181,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     // 0xa36644: ldur            x2, [fp, #-0x38]
     // 0xa36648: ldur            x3, [fp, #-0x18]
     // 0xa3664c: r0 = _formatRemaining()
-    //     0xa3664c: bl              #0xa35604  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_formatRemaining
+    //     0xa3664c: bl              #0xa35604  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_formatRemaining
     // 0xa36650: stur            x0, [fp, #-0x10]
     // 0xa36654: r0 = Text()
     //     0xa36654: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1466,7 +1466,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     //     0xa36920: bl              #0x9dc8b8  ; AllocateGestureDetectorStub -> GestureDetector (size=0x10c)
     // 0xa36924: ldur            x2, [fp, #-8]
     // 0xa36928: r1 = Function '_revealChrome@1147152307':.
-    //     0xa36928: add             x1, PP, #0x55, lsl #12  ; [pp+0x55440] AnonymousClosure: (0xa36a98), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_revealChrome (0xa36ad0)
+    //     0xa36928: add             x1, PP, #0x55, lsl #12  ; [pp+0x55440] AnonymousClosure: (0xa36a98), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_revealChrome (0xa36ad0)
     //     0xa3692c: ldr             x1, [x1, #0x440]
     // 0xa36930: stur            x0, [fp, #-8]
     // 0xa36934: r0 = AllocateClosure()
@@ -1578,7 +1578,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     //     0xa36ab0: cmp             SP, x16
     //     0xa36ab4: b.ls            #0xa36ac8
     // 0xa36ab8: r0 = _revealChrome()
-    //     0xa36ab8: bl              #0xa36ad0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_revealChrome
+    //     0xa36ab8: bl              #0xa36ad0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_revealChrome
     // 0xa36abc: LeaveFrame
     //     0xa36abc: mov             SP, fp
     //     0xa36ac0: ldp             fp, lr, [SP], #0x10
@@ -1612,7 +1612,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     //     0xa36b00: stur            w0, [x3, #0xf]
     // 0xa36b04: mov             x2, x3
     // 0xa36b08: r1 = Function '<anonymous closure>':.
-    //     0xa36b08: add             x1, PP, #0x55, lsl #12  ; [pp+0x55448] AnonymousClosure: (0x98f834), in [package:ballai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::initState (0x98f684)
+    //     0xa36b08: add             x1, PP, #0x55, lsl #12  ; [pp+0x55448] AnonymousClosure: (0x98f834), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::initState (0x98f684)
     //     0xa36b0c: ldr             x1, [x1, #0x448]
     // 0xa36b10: r0 = AllocateClosure()
     //     0xa36b10: bl              #0xe553e0  ; AllocateClosureStub
@@ -1632,7 +1632,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     // 0xa36b38: ldur            x0, [fp, #-8]
     // 0xa36b3c: ldur            x2, [fp, #-0x10]
     // 0xa36b40: r1 = Function '<anonymous closure>':.
-    //     0xa36b40: add             x1, PP, #0x55, lsl #12  ; [pp+0x55450] AnonymousClosure: (0xa36b98), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_revealChrome (0xa36ad0)
+    //     0xa36b40: add             x1, PP, #0x55, lsl #12  ; [pp+0x55450] AnonymousClosure: (0xa36b98), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_revealChrome (0xa36ad0)
     //     0xa36b44: ldr             x1, [x1, #0x450]
     // 0xa36b48: r0 = AllocateClosure()
     //     0xa36b48: bl              #0xe553e0  ; AllocateClosureStub
@@ -1691,7 +1691,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     // 0xa36bd0: cmp             w1, NULL
     // 0xa36bd4: b.eq            #0xa36bf0
     // 0xa36bd8: r1 = Function '<anonymous closure>':.
-    //     0xa36bd8: add             x1, PP, #0x55, lsl #12  ; [pp+0x55460] AnonymousClosure: (0x9ecde0), in [package:ballai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
+    //     0xa36bd8: add             x1, PP, #0x55, lsl #12  ; [pp+0x55460] AnonymousClosure: (0x9ecde0), in [package:kourtai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
     //     0xa36bdc: ldr             x1, [x1, #0x460]
     // 0xa36be0: r0 = AllocateClosure()
     //     0xa36be0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1730,7 +1730,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     //     0xa36c2c: add             x0, x0, HEAP, lsl #32
     // 0xa36c30: mov             x1, x0
     // 0xa36c34: r0 = _revealChrome()
-    //     0xa36c34: bl              #0xa36ad0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_revealChrome
+    //     0xa36c34: bl              #0xa36ad0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_revealChrome
     // 0xa36c38: r0 = Null
     //     0xa36c38: mov             x0, NULL
     // 0xa36c3c: LeaveFrame
@@ -1776,7 +1776,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     // 0xa36c9c: mov             x2, x1
     // 0xa36ca0: stur            x3, [fp, #-0x10]
     // 0xa36ca4: r1 = Function '<anonymous closure>':.
-    //     0xa36ca4: add             x1, PP, #0x55, lsl #12  ; [pp+0x55468] AnonymousClosure: (0xa36cd4), in [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::build (0xab7290)
+    //     0xa36ca4: add             x1, PP, #0x55, lsl #12  ; [pp+0x55468] AnonymousClosure: (0xa36cd4), in [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::build (0xab7290)
     //     0xa36ca8: ldr             x1, [x1, #0x468]
     // 0xa36cac: r0 = AllocateClosure()
     //     0xa36cac: bl              #0xe553e0  ; AllocateClosureStub
@@ -1828,7 +1828,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     // 0xa36e14: DecompressPointer r1
     //     0xa36e14: add             x1, x1, HEAP, lsl #32
     // 0xa36e18: r0 = _toggleMute()
-    //     0xa36e18: bl              #0xa35858  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_toggleMute
+    //     0xa36e18: bl              #0xa35858  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_toggleMute
     // 0xa36e1c: LeaveFrame
     //     0xa36e1c: mov             SP, fp
     //     0xa36e20: ldp             fp, lr, [SP], #0x10
@@ -1847,7 +1847,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     //     0xb5b0e4: mov             fp, SP
     // 0xb5b0e8: ldr             x2, [fp, #0x10]
     // 0xb5b0ec: r1 = Function 'dispose':.
-    //     0xb5b0ec: add             x1, PP, #0x55, lsl #12  ; [pp+0x553d0] AnonymousClosure: (0xb5b104), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::dispose (0xb61ee4)
+    //     0xb5b0ec: add             x1, PP, #0x55, lsl #12  ; [pp+0x553d0] AnonymousClosure: (0xb5b104), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::dispose (0xb61ee4)
     //     0xb5b0f0: ldr             x1, [x1, #0x3d0]
     // 0xb5b0f4: r0 = AllocateClosure()
     //     0xb5b0f4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1872,7 +1872,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     //     0xb5b11c: cmp             SP, x16
     //     0xb5b120: b.ls            #0xb5b134
     // 0xb5b124: r0 = dispose()
-    //     0xb5b124: bl              #0xb61ee4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::dispose
+    //     0xb5b124: bl              #0xb61ee4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::dispose
     // 0xb5b128: LeaveFrame
     //     0xb5b128: mov             SP, fp
     //     0xb5b12c: ldp             fp, lr, [SP], #0x10
@@ -1909,7 +1909,7 @@ class _WorkoutPlayerControlsState extends State<dynamic> {
     // 0xb61f1c: mov             x2, x0
     // 0xb61f20: stur            x3, [fp, #-8]
     // 0xb61f24: r1 = Function '_onTick@1147152307':.
-    //     0xb61f24: add             x1, PP, #0x55, lsl #12  ; [pp+0x55470] AnonymousClosure: (0x8f3b88), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_onTick (0x8f3bc0)
+    //     0xb61f24: add             x1, PP, #0x55, lsl #12  ; [pp+0x55470] AnonymousClosure: (0x8f3b88), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_onTick (0x8f3bc0)
     //     0xb61f28: ldr             x1, [x1, #0x470]
     // 0xb61f2c: r0 = AllocateClosure()
     //     0xb61f2c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2084,12 +2084,12 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0x8ec940: ldur            x0, [fp, #-8]
     // 0x8ec944: mov             x1, x0
     // 0x8ec948: r0 = _disposeController()
-    //     0x8ec948: bl              #0x8f395c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_disposeController
+    //     0x8ec948: bl              #0x8f395c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_disposeController
     // 0x8ec94c: ldur            x1, [fp, #-8]
     // 0x8ec950: StoreField: r1->field_2b = rZR
     //     0x8ec950: stur            xzr, [x1, #0x2b]
     // 0x8ec954: r0 = _loadVideo()
-    //     0x8ec954: bl              #0x8ecb60  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_loadVideo
+    //     0x8ec954: bl              #0x8ecb60  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_loadVideo
     // 0x8ec958: r0 = Null
     //     0x8ec958: mov             x0, NULL
     // 0x8ec95c: LeaveFrame
@@ -2116,7 +2116,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0x8ec990: cmp             w2, w3
     // 0x8ec994: b.eq            #0x8ec99c
     // 0x8ec998: r0 = _syncPlaybackAllowed()
-    //     0x8ec998: bl              #0x8ec9c0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_syncPlaybackAllowed
+    //     0x8ec998: bl              #0x8ec9c0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_syncPlaybackAllowed
     // 0x8ec99c: r0 = Null
     //     0x8ec99c: mov             x0, NULL
     // 0x8ec9a0: LeaveFrame
@@ -2192,7 +2192,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8eca40: add             x0, x0, HEAP, lsl #32
     // 0x8eca44: tbz             w0, #4, #0x8eca58
     // 0x8eca48: r0 = play()
-    //     0x8eca48: bl              #0x8ecaf8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::play
+    //     0x8eca48: bl              #0x8ecaf8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::play
     // 0x8eca4c: mov             x1, x0
     // 0x8eca50: stur            x1, [fp, #-0x10]
     // 0x8eca54: r0 = Await()
@@ -2207,7 +2207,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8eca64: add             x0, x0, HEAP, lsl #32
     // 0x8eca68: tbnz            w0, #4, #0x8eca7c
     // 0x8eca6c: r0 = pause()
-    //     0x8eca6c: bl              #0x8eca90  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::pause
+    //     0x8eca6c: bl              #0x8eca90  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::pause
     // 0x8eca70: mov             x1, x0
     // 0x8eca74: stur            x1, [fp, #-0x10]
     // 0x8eca78: r0 = Await()
@@ -2264,7 +2264,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0x8ecbc0: cbnz            w1, #0x8ecbe8
     // 0x8ecbc4: ldur            x2, [fp, #-0x90]
     // 0x8ecbc8: r1 = Function '<anonymous closure>':.
-    //     0x8ecbc8: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e608] AnonymousClosure: (0x8f392c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_loadVideo (0x8ecb60)
+    //     0x8ecbc8: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e608] AnonymousClosure: (0x8f392c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_loadVideo (0x8ecb60)
     //     0x8ecbcc: ldr             x1, [x1, #0x608]
     // 0x8ecbd0: r0 = AllocateClosure()
     //     0x8ecbd0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2278,7 +2278,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8ecbe4: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x8ecbe8: ldur            x2, [fp, #-0x90]
     // 0x8ecbec: r1 = Function '<anonymous closure>':.
-    //     0x8ecbec: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e610] AnonymousClosure: (0x8f38fc), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_loadVideo (0x8ecb60)
+    //     0x8ecbec: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e610] AnonymousClosure: (0x8f38fc), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_loadVideo (0x8ecb60)
     //     0x8ecbf0: ldr             x1, [x1, #0x610]
     // 0x8ecbf4: r0 = AllocateClosure()
     //     0x8ecbf4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2288,11 +2288,11 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8ecc00: bl              #0x6005d4  ; [package:flutter/src/widgets/framework.dart] State::setState
     // 0x8ecc04: ldur            x1, [fp, #-0x88]
     // 0x8ecc08: r0 = _usesAndroidStoragePlayback()
-    //     0x8ecc08: bl              #0x8f37d0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_usesAndroidStoragePlayback
+    //     0x8ecc08: bl              #0x8f37d0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_usesAndroidStoragePlayback
     // 0x8ecc0c: tbnz            w0, #4, #0x8ecd04
     // 0x8ecc10: ldur            x1, [fp, #-0x88]
     // 0x8ecc14: r0 = _resolveAndroidSegmentUrls()
-    //     0x8ecc14: bl              #0x8f2018  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_resolveAndroidSegmentUrls
+    //     0x8ecc14: bl              #0x8f2018  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_resolveAndroidSegmentUrls
     // 0x8ecc18: mov             x1, x0
     // 0x8ecc1c: stur            x1, [fp, #-0x98]
     // 0x8ecc20: r0 = Await()
@@ -2312,7 +2312,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0x8ecc4c: ldur            x1, [fp, #-0x88]
     // 0x8ecc50: ldur            x2, [fp, #-0x98]
     // 0x8ecc54: r0 = _prepareConcatenatedVideo()
-    //     0x8ecc54: bl              #0x8f0188  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_prepareConcatenatedVideo
+    //     0x8ecc54: bl              #0x8f0188  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_prepareConcatenatedVideo
     // 0x8ecc58: mov             x1, x0
     // 0x8ecc5c: stur            x1, [fp, #-0xa0]
     // 0x8ecc60: r0 = Await()
@@ -2348,7 +2348,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0x8eccbc: cbnz            w2, #0x8eccf4
     // 0x8eccc0: ldur            x1, [fp, #-0x88]
     // 0x8eccc4: r0 = _resolveInlineAndroidPlaylistUrl()
-    //     0x8eccc4: bl              #0x8efc68  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_resolveInlineAndroidPlaylistUrl
+    //     0x8eccc4: bl              #0x8efc68  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_resolveInlineAndroidPlaylistUrl
     // 0x8eccc8: mov             x1, x0
     // 0x8ecccc: stur            x1, [fp, #-0xa0]
     // 0x8eccd0: r0 = Await()
@@ -2357,7 +2357,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0x8eccd8: b.ne            #0x8eccf8
     // 0x8eccdc: ldur            x1, [fp, #-0x88]
     // 0x8ecce0: r0 = _resolveUrl()
-    //     0x8ecce0: bl              #0x8efb5c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_resolveUrl
+    //     0x8ecce0: bl              #0x8efb5c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_resolveUrl
     // 0x8ecce4: mov             x1, x0
     // 0x8ecce8: stur            x1, [fp, #-0xa0]
     // 0x8eccec: r0 = Await()
@@ -2369,7 +2369,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0x8ecd00: b               #0x8ecd20
     // 0x8ecd04: ldur            x1, [fp, #-0x88]
     // 0x8ecd08: r0 = _resolveUrl()
-    //     0x8ecd08: bl              #0x8efb5c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_resolveUrl
+    //     0x8ecd08: bl              #0x8efb5c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_resolveUrl
     // 0x8ecd0c: mov             x1, x0
     // 0x8ecd10: stur            x1, [fp, #-0x98]
     // 0x8ecd14: r0 = Await()
@@ -2422,7 +2422,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0x8ecd94: cbnz            w3, #0x8ecdbc
     // 0x8ecd98: ldur            x2, [fp, #-0x90]
     // 0x8ecd9c: r1 = Function '<anonymous closure>':.
-    //     0x8ecd9c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e620] AnonymousClosure: (0x8f38cc), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_loadVideo (0x8ecb60)
+    //     0x8ecd9c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e620] AnonymousClosure: (0x8f38cc), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_loadVideo (0x8ecb60)
     //     0x8ecda0: ldr             x1, [x1, #0x620]
     // 0x8ecda4: r0 = AllocateClosure()
     //     0x8ecda4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2467,7 +2467,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0x8ece1c: ldur            x1, [fp, #-0x88]
     // 0x8ece20: ldur            x2, [fp, #-0x98]
     // 0x8ece24: r0 = _loadLegacy()
-    //     0x8ece24: bl              #0x8ece48  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_loadLegacy
+    //     0x8ece24: bl              #0x8ece48  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_loadLegacy
     // 0x8ece28: mov             x1, x0
     // 0x8ece2c: stur            x1, [fp, #-0x88]
     // 0x8ece30: r0 = Await()
@@ -2748,7 +2748,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8ed11c: stur            w1, [x2, #0x33]
     // 0x8ed120: ldur            x1, [fp, #-0xa0]
     // 0x8ed124: r0 = legacy()
-    //     0x8ed124: bl              #0x8ed53c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::legacy
+    //     0x8ed124: bl              #0x8ed53c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::legacy
     // 0x8ed128: mov             x1, x0
     // 0x8ed12c: ldur            x2, [fp, #-0x98]
     // 0x8ed130: stur            x1, [fp, #-0xa8]
@@ -2793,7 +2793,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0x8ed1b0: b.le            #0x8ed1d0
     // 0x8ed1b4: ldur            x2, [fp, #-0x98]
     // 0x8ed1b8: r1 = Function '_onLegacySegmentTick@1147152307':.
-    //     0x8ed1b8: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e650] AnonymousClosure: (0x8ef5e0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_onLegacySegmentTick (0x8ef618)
+    //     0x8ed1b8: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e650] AnonymousClosure: (0x8ef5e0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_onLegacySegmentTick (0x8ef618)
     //     0x8ed1bc: ldr             x1, [x1, #0x650]
     // 0x8ed1c0: r0 = AllocateClosure()
     //     0x8ed1c0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2815,7 +2815,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0x8ed1ec: tbnz            w2, #4, #0x8ed204
     // 0x8ed1f0: ldur            x1, [fp, #-0xa8]
     // 0x8ed1f4: r0 = play()
-    //     0x8ed1f4: bl              #0x8ecaf8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::play
+    //     0x8ed1f4: bl              #0x8ecaf8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::play
     // 0x8ed1f8: mov             x1, x0
     // 0x8ed1fc: stur            x1, [fp, #-0xc0]
     // 0x8ed200: r0 = Await()
@@ -2823,7 +2823,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0x8ed204: ldur            x0, [fp, #-0x98]
     // 0x8ed208: ldur            x2, [fp, #-0xb0]
     // 0x8ed20c: r1 = Function '<anonymous closure>':.
-    //     0x8ed20c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e658] AnonymousClosure: (0x8ef4b8), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
+    //     0x8ed20c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e658] AnonymousClosure: (0x8ef4b8), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
     //     0x8ed210: ldr             x1, [x1, #0x658]
     // 0x8ed214: r0 = AllocateClosure()
     //     0x8ed214: bl              #0xe553e0  ; AllocateClosureStub
@@ -2938,7 +2938,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8ed354: bl              #0x8ed3dc  ; [dart:io] FileSystemEntity::delete
     // 0x8ed358: ldur            x2, [fp, #-0xb0]
     // 0x8ed35c: r1 = Function '<anonymous closure>':.
-    //     0x8ed35c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e668] AnonymousClosure: (0x8ef400), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_loadLegacy (0x8ece48)
+    //     0x8ed35c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e668] AnonymousClosure: (0x8ef400), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_loadLegacy (0x8ece48)
     //     0x8ed360: ldr             x1, [x1, #0x668]
     // 0x8ed364: stur            x0, [fp, #-0xa0]
     // 0x8ed368: r0 = AllocateClosure()
@@ -2962,7 +2962,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8ed394: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x8ed398: ldur            x2, [fp, #-0xb0]
     // 0x8ed39c: r1 = Function '<anonymous closure>':.
-    //     0x8ed39c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e670] AnonymousClosure: (0x8ef398), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_loadLegacy (0x8ece48)
+    //     0x8ed39c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e670] AnonymousClosure: (0x8ef398), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_loadLegacy (0x8ece48)
     //     0x8ed3a0: ldr             x1, [x1, #0x670]
     // 0x8ed3a4: r0 = AllocateClosure()
     //     0x8ed3a4: bl              #0xe553e0  ; AllocateClosureStub
@@ -3110,7 +3110,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8ef5f8: cmp             SP, x16
     //     0x8ef5fc: b.ls            #0x8ef610
     // 0x8ef600: r0 = _onLegacySegmentTick()
-    //     0x8ef600: bl              #0x8ef618  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_onLegacySegmentTick
+    //     0x8ef600: bl              #0x8ef618  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_onLegacySegmentTick
     // 0x8ef604: LeaveFrame
     //     0x8ef604: mov             SP, fp
     //     0x8ef608: ldp             fp, lr, [SP], #0x10
@@ -3254,7 +3254,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0x8ef778: StoreField: r1->field_43 = r0
     //     0x8ef778: stur            w0, [x1, #0x43]
     // 0x8ef77c: r0 = _loadLegacySegment()
-    //     0x8ef77c: bl              #0x8ef798  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_loadLegacySegment
+    //     0x8ef77c: bl              #0x8ef798  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_loadLegacySegment
     // 0x8ef780: r0 = Null
     //     0x8ef780: mov             x0, NULL
     // 0x8ef784: LeaveFrame
@@ -3453,7 +3453,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0x8ef99c: b               #0x8ef9c0
     // 0x8ef9a0: mov             x2, x0
     // 0x8ef9a4: r1 = Function '_onLegacySegmentTick@1147152307':.
-    //     0x8ef9a4: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e650] AnonymousClosure: (0x8ef5e0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_onLegacySegmentTick (0x8ef618)
+    //     0x8ef9a4: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e650] AnonymousClosure: (0x8ef5e0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_onLegacySegmentTick (0x8ef618)
     //     0x8ef9a8: ldr             x1, [x1, #0x650]
     // 0x8ef9ac: r0 = AllocateClosure()
     //     0x8ef9ac: bl              #0xe553e0  ; AllocateClosureStub
@@ -3467,7 +3467,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8ef9c4: stur            x3, [x2, #0x3b]
     // 0x8ef9c8: ldur            x1, [fp, #-0xb0]
     // 0x8ef9cc: r0 = legacy()
-    //     0x8ef9cc: bl              #0x8ed53c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::legacy
+    //     0x8ef9cc: bl              #0x8ed53c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::legacy
     // 0x8ef9d0: mov             x4, x0
     // 0x8ef9d4: ldur            x3, [fp, #-0x90]
     // 0x8ef9d8: stur            x4, [fp, #-0xa0]
@@ -3490,7 +3490,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8efa14: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x8efa18: mov             x2, x3
     // 0x8efa1c: r1 = Function '_onLegacySegmentTick@1147152307':.
-    //     0x8efa1c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e650] AnonymousClosure: (0x8ef5e0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_onLegacySegmentTick (0x8ef618)
+    //     0x8efa1c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e650] AnonymousClosure: (0x8ef5e0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_onLegacySegmentTick (0x8ef618)
     //     0x8efa20: ldr             x1, [x1, #0x650]
     // 0x8efa24: r0 = AllocateClosure()
     //     0x8efa24: bl              #0xe553e0  ; AllocateClosureStub
@@ -3500,7 +3500,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8efa30: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0x8efa34: ldur            x1, [fp, #-0xa0]
     // 0x8efa38: r0 = play()
-    //     0x8efa38: bl              #0x8ecaf8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::play
+    //     0x8efa38: bl              #0x8ecaf8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::play
     // 0x8efa3c: r1 = Function '<anonymous closure>':.
     //     0x8efa3c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e688] Function: [dart:ui] _NativeScene::_NativeScene._ (0xe4f314)
     //     0x8efa40: ldr             x1, [x1, #0x688]
@@ -3536,7 +3536,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0x8efa98: cmp             w1, NULL
     // 0x8efa9c: b.eq            #0x8efaa4
     // 0x8efaa0: r0 = dispose()
-    //     0x8efaa0: bl              #0x9be898  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::dispose
+    //     0x8efaa0: bl              #0x9be898  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::dispose
     // 0x8efaa4: ldur            x4, [fp, #-0x90]
     // 0x8efaa8: r5 = false
     //     0x8efaa8: add             x5, NULL, #0x30  ; false
@@ -3639,7 +3639,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8efb9c: add             x2, x2, HEAP, lsl #32
     // 0x8efba0: tbnz            w2, #4, #0x8efbac
     // 0x8efba4: r0 = _liveUrl()
-    //     0x8efba4: bl              #0x8efbdc  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_liveUrl
+    //     0x8efba4: bl              #0x8efbdc  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_liveUrl
     // 0x8efba8: r0 = ReturnAsyncNotFuture()
     //     0x8efba8: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x8efbac: LoadField: r1 = r0->field_b
@@ -3655,7 +3655,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8efbc0: add             x4, PP, #0x4e, lsl #12  ; [pp+0x4e6a8] List(7) [0, 0x2, 0x1, 0x1, "variant", 0x1, Null]
     //     0x8efbc4: ldr             x4, [x4, #0x6a8]
     // 0x8efbc8: r0 = resolveVodPlaylistUrl()
-    //     0x8efbc8: bl              #0x73453c  ; [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::resolveVodPlaylistUrl
+    //     0x8efbc8: bl              #0x73453c  ; [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::resolveVodPlaylistUrl
     // 0x8efbcc: r0 = ReturnAsync()
     //     0x8efbcc: b               #0x5f1e3c  ; ReturnAsyncStub
     // 0x8efbd0: r0 = StackOverflowSharedWithoutFPURegs()
@@ -3694,8 +3694,8 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0x8efc18: stur            x0, [fp, #-8]
     // 0x8efc1c: r0 = AllocateArray()
     //     0x8efc1c: bl              #0xe560ac  ; AllocateArrayStub
-    // 0x8efc20: r16 = "https://ballai.app/api/workouts/"
-    //     0x8efc20: add             x16, PP, #0x28, lsl #12  ; [pp+0x28530] "https://ballai.app/api/workouts/"
+    // 0x8efc20: r16 = "https://kourtai.app/api/workouts/"
+    //     0x8efc20: add             x16, PP, #0x28, lsl #12  ; [pp+0x28530] "https://kourtai.app/api/workouts/"
     //     0x8efc24: ldr             x16, [x16, #0x530]
     // 0x8efc28: StoreField: r0->field_f = r16
     //     0x8efc28: stur            w16, [x0, #0xf]
@@ -3755,7 +3755,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8efca8: add             x2, x2, HEAP, lsl #32
     // 0x8efcac: mov             x1, x2
     // 0x8efcb0: r0 = resolveSignedPlaylistUrl()
-    //     0x8efcb0: bl              #0x8efdf8  ; [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::resolveSignedPlaylistUrl
+    //     0x8efcb0: bl              #0x8efdf8  ; [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::resolveSignedPlaylistUrl
     // 0x8efcb4: mov             x1, x0
     // 0x8efcb8: stur            x1, [fp, #-0x78]
     // 0x8efcbc: r0 = Await()
@@ -4099,7 +4099,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8f03dc: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e5b8] "Loading video…"
     //     0x8f03e0: ldr             x1, [x1, #0x5b8]
     // 0x8f03e4: r0 = L()
-    //     0x8f03e4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x8f03e4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x8f03e8: str             x0, [SP]
     // 0x8f03ec: r17 = -272
     //     0x8f03ec: mov             x17, #-0x110
@@ -4110,7 +4110,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8f03f8: add             x4, PP, #0x4e, lsl #12  ; [pp+0x4e6f8] List(7) [0, 0x3, 0x1, 0x2, "status", 0x2, Null]
     //     0x8f03fc: ldr             x4, [x4, #0x6f8]
     // 0x8f0400: r0 = _setLoadProgress()
-    //     0x8f0400: bl              #0x8f18ec  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_setLoadProgress
+    //     0x8f0400: bl              #0x8f18ec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_setLoadProgress
     // 0x8f0404: r17 = -304
     //     0x8f0404: mov             x17, #-0x130
     // 0x8f0408: ldr             x0, [fp, x17]
@@ -4222,13 +4222,13 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8f0534: mov             x17, #-0x1d0
     // 0x8f0538: str             d2, [fp, x17]
     // 0x8f053c: r0 = instance()
-    //     0x8f053c: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0x8f053c: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0x8f0540: mov             x1, x0
     // 0x8f0544: r2 = "Fetching video…"
     //     0x8f0544: add             x2, PP, #0x4e, lsl #12  ; [pp+0x4e700] "Fetching video…"
     //     0x8f0548: ldr             x2, [x2, #0x700]
     // 0x8f054c: r0 = localizedString()
-    //     0x8f054c: bl              #0x5edd18  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
+    //     0x8f054c: bl              #0x5edd18  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
     // 0x8f0550: str             x0, [SP]
     // 0x8f0554: r17 = -272
     //     0x8f0554: mov             x17, #-0x110
@@ -4240,7 +4240,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8f0564: add             x4, PP, #0x4e, lsl #12  ; [pp+0x4e6f8] List(7) [0, 0x3, 0x1, 0x2, "status", 0x2, Null]
     //     0x8f0568: ldr             x4, [x4, #0x6f8]
     // 0x8f056c: r0 = _setLoadProgress()
-    //     0x8f056c: bl              #0x8f18ec  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_setLoadProgress
+    //     0x8f056c: bl              #0x8f18ec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_setLoadProgress
     // 0x8f0570: r0 = Request()
     //     0x8f0570: bl              #0x6f6ab8  ; AllocateRequestStub -> Request (size=0x30)
     // 0x8f0574: mov             x3, x0
@@ -4620,7 +4620,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0x8f096c: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x8f096c: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x8f0970: r0 = _setLoadProgress()
-    //     0x8f0970: bl              #0x8f18ec  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_setLoadProgress
+    //     0x8f0970: bl              #0x8f18ec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_setLoadProgress
     // 0x8f0974: r17 = -408
     //     0x8f0974: mov             x17, #-0x198
     // 0x8f0978: ldr             x4, [fp, x17]
@@ -4720,7 +4720,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0x8f0a68: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x8f0a68: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x8f0a6c: r0 = _setLoadProgress()
-    //     0x8f0a6c: bl              #0x8f18ec  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_setLoadProgress
+    //     0x8f0a6c: bl              #0x8f18ec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_setLoadProgress
     // 0x8f0a70: r17 = -280
     //     0x8f0a70: mov             x17, #-0x118
     // 0x8f0a74: ldr             x1, [fp, x17]
@@ -5066,7 +5066,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8f0df8: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e758] "Preparing video…"
     //     0x8f0dfc: ldr             x1, [x1, #0x758]
     // 0x8f0e00: r0 = L()
-    //     0x8f0e00: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x8f0e00: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x8f0e04: str             x0, [SP]
     // 0x8f0e08: r17 = -272
     //     0x8f0e08: mov             x17, #-0x110
@@ -5077,7 +5077,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8f0e14: add             x4, PP, #0x4e, lsl #12  ; [pp+0x4e6f8] List(7) [0, 0x3, 0x1, 0x2, "status", 0x2, Null]
     //     0x8f0e18: ldr             x4, [x4, #0x6f8]
     // 0x8f0e1c: r0 = _setLoadProgress()
-    //     0x8f0e1c: bl              #0x8f18ec  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_setLoadProgress
+    //     0x8f0e1c: bl              #0x8f18ec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_setLoadProgress
     // 0x8f0e20: r17 = -304
     //     0x8f0e20: mov             x17, #-0x130
     // 0x8f0e24: ldr             x1, [fp, x17]
@@ -5085,7 +5085,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8f0e28: mov             x17, #-0x140
     // 0x8f0e2c: ldr             x2, [fp, x17]
     // 0x8f0e30: r0 = concatSegments()
-    //     0x8f0e30: bl              #0x8f1298  ; [package:ballai/video_tracking/session/mediums/video_playback_channel.dart] VideoPlaybackChannel::concatSegments
+    //     0x8f0e30: bl              #0x8f1298  ; [package:kourtai/video_tracking/session/mediums/video_playback_channel.dart] VideoPlaybackChannel::concatSegments
     // 0x8f0e34: mov             x1, x0
     // 0x8f0e38: r17 = -296
     //     0x8f0e38: mov             x17, #-0x128
@@ -5204,7 +5204,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8f0f64: mov             x17, #-0x178
     // 0x8f0f68: ldr             x2, [fp, x17]
     // 0x8f0f6c: r1 = Function '<anonymous closure>':.
-    //     0x8f0f6c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e760] AnonymousClosure: (0x8f1f60), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_prepareConcatenatedVideo (0x8f0188)
+    //     0x8f0f6c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e760] AnonymousClosure: (0x8f1f60), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_prepareConcatenatedVideo (0x8f0188)
     //     0x8f0f70: ldr             x1, [x1, #0x760]
     // 0x8f0f74: r17 = -344
     //     0x8f0f74: mov             x17, #-0x158
@@ -5252,7 +5252,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8f0fe0: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e5b8] "Loading video…"
     //     0x8f0fe4: ldr             x1, [x1, #0x5b8]
     // 0x8f0fe8: r0 = L()
-    //     0x8f0fe8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x8f0fe8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x8f0fec: str             x0, [SP]
     // 0x8f0ff0: r17 = -272
     //     0x8f0ff0: mov             x17, #-0x110
@@ -5263,7 +5263,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8f0ffc: add             x4, PP, #0x4e, lsl #12  ; [pp+0x4e6f8] List(7) [0, 0x3, 0x1, 0x2, "status", 0x2, Null]
     //     0x8f1000: ldr             x4, [x4, #0x6f8]
     // 0x8f1004: r0 = _setLoadProgress()
-    //     0x8f1004: bl              #0x8f18ec  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_setLoadProgress
+    //     0x8f1004: bl              #0x8f18ec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_setLoadProgress
     // 0x8f1008: r17 = -304
     //     0x8f1008: mov             x17, #-0x130
     // 0x8f100c: ldr             x0, [fp, x17]
@@ -5546,7 +5546,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8f1a70: ret             
     // 0x8f1a74: ldur            x0, [fp, #-0x10]
     // 0x8f1a78: r1 = Function '<anonymous closure>':.
-    //     0x8f1a78: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e788] AnonymousClosure: (0x8f1b2c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_setLoadProgress (0x8f18ec)
+    //     0x8f1a78: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e788] AnonymousClosure: (0x8f1b2c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_setLoadProgress (0x8f18ec)
     //     0x8f1a7c: ldr             x1, [x1, #0x788]
     // 0x8f1a80: r0 = AllocateClosure()
     //     0x8f1a80: bl              #0xe553e0  ; AllocateClosureStub
@@ -5750,7 +5750,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8f205c: add             x2, x2, HEAP, lsl #32
     // 0x8f2060: mov             x1, x2
     // 0x8f2064: r0 = resolveAndroidSegmentUrls()
-    //     0x8f2064: bl              #0x8f2258  ; [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::resolveAndroidSegmentUrls
+    //     0x8f2064: bl              #0x8f2258  ; [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::resolveAndroidSegmentUrls
     // 0x8f2068: mov             x1, x0
     // 0x8f206c: stur            x1, [fp, #-0x80]
     // 0x8f2070: r0 = Await()
@@ -5783,7 +5783,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0x8f20bc: add             x2, x2, HEAP, lsl #32
     // 0x8f20c0: mov             x1, x2
     // 0x8f20c4: r0 = resolveSignedPlaylistUrl()
-    //     0x8f20c4: bl              #0x8efdf8  ; [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::resolveSignedPlaylistUrl
+    //     0x8f20c4: bl              #0x8efdf8  ; [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::resolveSignedPlaylistUrl
     // 0x8f20c8: mov             x1, x0
     // 0x8f20cc: stur            x1, [fp, #-0x80]
     // 0x8f20d0: r0 = Await()
@@ -5881,7 +5881,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0x8f21cc: r0 = map()
     //     0x8f21cc: bl              #0x8e024c  ; [dart:collection] ListBase::map
     // 0x8f21d0: r1 = Function '<anonymous closure>':.
-    //     0x8f21d0: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e798] AnonymousClosure: (0x8f35e8), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_resolveAndroidSegmentUrls (0x8f2018)
+    //     0x8f21d0: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e798] AnonymousClosure: (0x8f35e8), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_resolveAndroidSegmentUrls (0x8f2018)
     //     0x8f21d4: ldr             x1, [x1, #0x798]
     // 0x8f21d8: r2 = Null
     //     0x8f21d8: mov             x2, NULL
@@ -6078,7 +6078,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0x8f3824: DecompressPointer r1
     //     0x8f3824: add             x1, x1, HEAP, lsl #32
     // 0x8f3828: r0 = isAndroidTrackedWorkout()
-    //     0x8f3828: bl              #0x8f384c  ; [package:ballai/automatic/utility/workout/tracking_medium.dart] ::isAndroidTrackedWorkout
+    //     0x8f3828: bl              #0x8f384c  ; [package:kourtai/automatic/utility/workout/tracking_medium.dart] ::isAndroidTrackedWorkout
     // 0x8f382c: b               #0x8f3834
     // 0x8f3830: r0 = false
     //     0x8f3830: add             x0, NULL, #0x30  ; false
@@ -6197,7 +6197,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0x8f399c: b.eq            #0x8f39c0
     // 0x8f39a0: mov             x2, x0
     // 0x8f39a4: r1 = Function '_onLegacySegmentTick@1147152307':.
-    //     0x8f39a4: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e650] AnonymousClosure: (0x8ef5e0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_onLegacySegmentTick (0x8ef618)
+    //     0x8f39a4: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e650] AnonymousClosure: (0x8ef5e0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_onLegacySegmentTick (0x8ef618)
     //     0x8f39a8: ldr             x1, [x1, #0x650]
     // 0x8f39ac: r0 = AllocateClosure()
     //     0x8f39ac: bl              #0xe553e0  ; AllocateClosureStub
@@ -6240,7 +6240,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0x8f3a10: cmp             w1, NULL
     // 0x8f3a14: b.eq            #0x8f3a1c
     // 0x8f3a18: r0 = dispose()
-    //     0x8f3a18: bl              #0x9be898  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::dispose
+    //     0x8f3a18: bl              #0x9be898  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::dispose
     // 0x8f3a1c: r0 = Null
     //     0x8f3a1c: mov             x0, NULL
     // 0x8f3a20: r0 = ReturnAsyncNotFuture()
@@ -6273,7 +6273,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0x95b500: StoreField: r1->field_33 = r2
     //     0x95b500: stur            w2, [x1, #0x33]
     // 0x95b504: r0 = _loadVideo()
-    //     0x95b504: bl              #0x8ecb60  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_loadVideo
+    //     0x95b504: bl              #0x8ecb60  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_loadVideo
     // 0x95b508: r0 = Null
     //     0x95b508: mov             x0, NULL
     // 0x95b50c: LeaveFrame
@@ -6489,7 +6489,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0xa34a78: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e5b8] "Loading video…"
     //     0xa34a7c: ldr             x1, [x1, #0x5b8]
     // 0xa34a80: r0 = L()
-    //     0xa34a80: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa34a80: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa34a84: mov             x4, x0
     // 0xa34a88: b               #0xa34a90
     // 0xa34a8c: mov             x4, x1
@@ -6668,7 +6668,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0xa34c4c: r4 = const [0, 0x2, 0, 0x2, null]
     //     0xa34c4c: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0xa34c50: r0 = _shell()
-    //     0xa34c50: bl              #0xa35bec  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_shell
+    //     0xa34c50: bl              #0xa35bec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_shell
     // 0xa34c54: LeaveFrame
     //     0xa34c54: mov             SP, fp
     //     0xa34c58: ldp             fp, lr, [SP], #0x10
@@ -6751,7 +6751,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0xa34d20: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e5e0] "Tap to retry"
     //     0xa34d24: ldr             x1, [x1, #0x5e0]
     // 0xa34d28: r0 = L()
-    //     0xa34d28: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa34d28: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa34d2c: stur            x0, [fp, #-0x18]
     // 0xa34d30: r0 = TextStyle()
     //     0xa34d30: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -6875,7 +6875,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0xa34e58: stur            w0, [x3, #0xb]
     // 0xa34e5c: ldur            x2, [fp, #-0x10]
     // 0xa34e60: r1 = Function '_retry@1147152307':.
-    //     0xa34e60: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e5f8] AnonymousClosure: (0xa35da4), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_retry (0xa35ddc)
+    //     0xa34e60: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e5f8] AnonymousClosure: (0xa35da4), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_retry (0xa35ddc)
     //     0xa34e64: ldr             x1, [x1, #0x5f8]
     // 0xa34e68: r0 = AllocateClosure()
     //     0xa34e68: bl              #0xe553e0  ; AllocateClosureStub
@@ -6886,7 +6886,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0xa34e78: add             x4, PP, #0x4e, lsl #12  ; [pp+0x4e600] List(7) [0, 0x3, 0x1, 0x2, "onTap", 0x2, Null]
     //     0xa34e7c: ldr             x4, [x4, #0x600]
     // 0xa34e80: r0 = _shell()
-    //     0xa34e80: bl              #0xa35bec  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_shell
+    //     0xa34e80: bl              #0xa35bec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_shell
     // 0xa34e84: LeaveFrame
     //     0xa34e84: mov             SP, fp
     //     0xa34e88: ldp             fp, lr, [SP], #0x10
@@ -6895,7 +6895,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0xa34e90: ldur            x1, [fp, #-0x10]
     // 0xa34e94: mov             x2, x8
     // 0xa34e98: r0 = _buildPlayerSurface()
-    //     0xa34e98: bl              #0xa34ee8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_buildPlayerSurface
+    //     0xa34e98: bl              #0xa34ee8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_buildPlayerSurface
     // 0xa34e9c: LeaveFrame
     //     0xa34e9c: mov             SP, fp
     //     0xa34ea0: ldp             fp, lr, [SP], #0x10
@@ -7032,7 +7032,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0xa34fe4: fmov            d1, #9.00000000
     // 0xa34fe8: b               #0xa35004
     // 0xa34fec: r0 = size()
-    //     0xa34fec: bl              #0xa355a8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::size
+    //     0xa34fec: bl              #0xa355a8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::size
     // 0xa34ff0: LoadField: d0 = r0->field_f
     //     0xa34ff0: ldur            d0, [x0, #0xf]
     // 0xa34ff4: mov             v1.16b, v0.16b
@@ -7360,7 +7360,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0xa35384: stur            w0, [x3, #0x13]
     // 0xa35388: ldur            x2, [fp, #-0x20]
     // 0xa3538c: r1 = Function '<anonymous closure>':.
-    //     0xa3538c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e7e0] AnonymousClosure: (0xa35b28), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_buildPlayerSurface (0xa34ee8)
+    //     0xa3538c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e7e0] AnonymousClosure: (0xa35b28), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_buildPlayerSurface (0xa34ee8)
     //     0xa35390: ldr             x1, [x1, #0x7e0]
     // 0xa35394: r0 = AllocateClosure()
     //     0xa35394: bl              #0xe553e0  ; AllocateClosureStub
@@ -7370,7 +7370,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0xa353a0: stur            w1, [x0, #0x17]
     // 0xa353a4: ldur            x2, [fp, #-0x20]
     // 0xa353a8: r1 = Function '<anonymous closure>':.
-    //     0xa353a8: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e7e8] AnonymousClosure: (0xa35ae0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_buildPlayerSurface (0xa34ee8)
+    //     0xa353a8: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e7e8] AnonymousClosure: (0xa35ae0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_buildPlayerSurface (0xa34ee8)
     //     0xa353ac: ldr             x1, [x1, #0x7e8]
     // 0xa353b0: r0 = AllocateClosure()
     //     0xa353b0: bl              #0xe553e0  ; AllocateClosureStub
@@ -7380,7 +7380,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0xa353bc: stur            w1, [x0, #0x1b]
     // 0xa353c0: ldur            x2, [fp, #-0x20]
     // 0xa353c4: r1 = Function '<anonymous closure>':.
-    //     0xa353c4: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e7f0] AnonymousClosure: (0xa35998), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_buildPlayerSurface (0xa34ee8)
+    //     0xa353c4: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e7f0] AnonymousClosure: (0xa35998), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_buildPlayerSurface (0xa34ee8)
     //     0xa353c8: ldr             x1, [x1, #0x7f0]
     // 0xa353cc: r0 = AllocateClosure()
     //     0xa353cc: bl              #0xe553e0  ; AllocateClosureStub
@@ -7390,7 +7390,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0xa353d8: stur            w1, [x0, #0x1f]
     // 0xa353dc: ldur            x2, [fp, #-8]
     // 0xa353e0: r1 = Function '_toggleMute@1147152307':.
-    //     0xa353e0: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e7f8] AnonymousClosure: (0xa35820), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_toggleMute (0xa35858)
+    //     0xa353e0: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e7f8] AnonymousClosure: (0xa35820), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_toggleMute (0xa35858)
     //     0xa353e4: ldr             x1, [x1, #0x7f8]
     // 0xa353e8: r0 = AllocateClosure()
     //     0xa353e8: bl              #0xe553e0  ; AllocateClosureStub
@@ -7400,7 +7400,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0xa353f4: stur            w1, [x0, #0x23]
     // 0xa353f8: ldur            x2, [fp, #-8]
     // 0xa353fc: r1 = Function '_formatTime@1147152307':.
-    //     0xa353fc: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e800] AnonymousClosure: (0xa357e4), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_formatTime (0xa356dc)
+    //     0xa353fc: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e800] AnonymousClosure: (0xa357e4), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_formatTime (0xa356dc)
     //     0xa35400: ldr             x1, [x1, #0x800]
     // 0xa35404: r0 = AllocateClosure()
     //     0xa35404: bl              #0xe553e0  ; AllocateClosureStub
@@ -7410,7 +7410,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0xa35410: stur            w1, [x0, #0x27]
     // 0xa35414: ldur            x2, [fp, #-8]
     // 0xa35418: r1 = Function '_formatRemaining@1147152307':.
-    //     0xa35418: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e808] AnonymousClosure: (0xa355c4), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_formatRemaining (0xa35604)
+    //     0xa35418: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e808] AnonymousClosure: (0xa355c4), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_formatRemaining (0xa35604)
     //     0xa3541c: ldr             x1, [x1, #0x808]
     // 0xa35420: r0 = AllocateClosure()
     //     0xa35420: bl              #0xe553e0  ; AllocateClosureStub
@@ -7577,7 +7577,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0xa355e4: ldr             x2, [fp, #0x18]
     // 0xa355e8: ldr             x3, [fp, #0x10]
     // 0xa355ec: r0 = _formatRemaining()
-    //     0xa355ec: bl              #0xa35604  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_formatRemaining
+    //     0xa355ec: bl              #0xa35604  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_formatRemaining
     // 0xa355f0: LeaveFrame
     //     0xa355f0: mov             SP, fp
     //     0xa355f4: ldp             fp, lr, [SP], #0x10
@@ -7642,7 +7642,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0xa35688: ldur            x1, [fp, #-0x10]
     // 0xa3568c: ldur            x2, [fp, #-0x18]
     // 0xa35690: r0 = _formatTime()
-    //     0xa35690: bl              #0xa356dc  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_formatTime
+    //     0xa35690: bl              #0xa356dc  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_formatTime
     // 0xa35694: ldur            x1, [fp, #-0x20]
     // 0xa35698: ArrayStore: r1[1] = r0  ; List_4
     //     0xa35698: add             x25, x1, #0x13
@@ -7775,7 +7775,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0xa35800: b.ls            #0xa35818
     // 0xa35804: ldr             x2, [fp, #0x10]
     // 0xa35808: r0 = _formatTime()
-    //     0xa35808: bl              #0xa356dc  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_formatTime
+    //     0xa35808: bl              #0xa356dc  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_formatTime
     // 0xa3580c: LeaveFrame
     //     0xa3580c: mov             SP, fp
     //     0xa35810: ldp             fp, lr, [SP], #0x10
@@ -7800,7 +7800,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0xa35838: cmp             SP, x16
     //     0xa3583c: b.ls            #0xa35850
     // 0xa35840: r0 = _toggleMute()
-    //     0xa35840: bl              #0xa35858  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_toggleMute
+    //     0xa35840: bl              #0xa35858  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_toggleMute
     // 0xa35844: LeaveFrame
     //     0xa35844: mov             SP, fp
     //     0xa35848: ldp             fp, lr, [SP], #0x10
@@ -7850,7 +7850,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0xa358b4: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xa358b8: ldur            x2, [fp, #-0x18]
     // 0xa358bc: r1 = Function '<anonymous closure>':.
-    //     0xa358bc: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e818] AnonymousClosure: (0xa35970), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_toggleMute (0xa35858)
+    //     0xa358bc: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e818] AnonymousClosure: (0xa35970), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_toggleMute (0xa35858)
     //     0xa358c0: ldr             x1, [x1, #0x818]
     // 0xa358c4: r0 = AllocateClosure()
     //     0xa358c4: bl              #0xe553e0  ; AllocateClosureStub
@@ -7871,7 +7871,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0xa358ec: fmov            d0, #1.00000000
     // 0xa358f0: ldur            x1, [fp, #-0x20]
     // 0xa358f4: r0 = setVolume()
-    //     0xa358f4: bl              #0xa35914  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::setVolume
+    //     0xa358f4: bl              #0xa35914  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::setVolume
     // 0xa358f8: mov             x1, x0
     // 0xa358fc: stur            x1, [fp, #-0x10]
     // 0xa35900: r0 = Await()
@@ -7927,7 +7927,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0xa359c4: r2 = 10
     //     0xa359c4: mov             x2, #0xa
     // 0xa359c8: r0 = _seekRelative()
-    //     0xa359c8: bl              #0xa359e0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_seekRelative
+    //     0xa359c8: bl              #0xa359e0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_seekRelative
     // 0xa359cc: LeaveFrame
     //     0xa359cc: mov             SP, fp
     //     0xa359d0: ldp             fp, lr, [SP], #0x10
@@ -8021,7 +8021,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0xa35ab8: mov             x2, x0
     // 0xa35abc: ldur            x1, [fp, #-0x20]
     // 0xa35ac0: r0 = seekTo()
-    //     0xa35ac0: bl              #0x813e9c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::seekTo
+    //     0xa35ac0: bl              #0x813e9c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::seekTo
     // 0xa35ac4: mov             x1, x0
     // 0xa35ac8: stur            x1, [fp, #-0x10]
     // 0xa35acc: r0 = Await()
@@ -8056,7 +8056,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     // 0xa35b0c: r2 = -10
     //     0xa35b0c: mov             x2, #-0xa
     // 0xa35b10: r0 = _seekRelative()
-    //     0xa35b10: bl              #0xa359e0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_seekRelative
+    //     0xa35b10: bl              #0xa359e0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_seekRelative
     // 0xa35b14: LeaveFrame
     //     0xa35b14: mov             SP, fp
     //     0xa35b18: ldp             fp, lr, [SP], #0x10
@@ -8107,14 +8107,14 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0xa35b84: add             x2, x2, HEAP, lsl #32
     // 0xa35b88: tbnz            w2, #4, #0xa35ba0
     // 0xa35b8c: r0 = pause()
-    //     0xa35b8c: bl              #0x8eca90  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::pause
+    //     0xa35b8c: bl              #0x8eca90  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::pause
     // 0xa35b90: mov             x1, x0
     // 0xa35b94: stur            x1, [fp, #-0x18]
     // 0xa35b98: r0 = Await()
     //     0xa35b98: bl              #0x60ad4c  ; AwaitStub
     // 0xa35b9c: b               #0xa35bb0
     // 0xa35ba0: r0 = play()
-    //     0xa35ba0: bl              #0x8ecaf8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::play
+    //     0xa35ba0: bl              #0x8ecaf8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::play
     // 0xa35ba4: mov             x1, x0
     // 0xa35ba8: stur            x1, [fp, #-0x18]
     // 0xa35bac: r0 = Await()
@@ -8328,7 +8328,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0xa35dbc: cmp             SP, x16
     //     0xa35dc0: b.ls            #0xa35dd4
     // 0xa35dc4: r0 = _retry()
-    //     0xa35dc4: bl              #0xa35ddc  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_retry
+    //     0xa35dc4: bl              #0xa35ddc  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_retry
     // 0xa35dc8: LeaveFrame
     //     0xa35dc8: mov             SP, fp
     //     0xa35dcc: ldp             fp, lr, [SP], #0x10
@@ -8363,14 +8363,14 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0xa35e10: stur            x2, [x0, #0x2b]
     // 0xa35e14: mov             x1, x0
     // 0xa35e18: r0 = _disposeController()
-    //     0xa35e18: bl              #0x8f395c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_disposeController
+    //     0xa35e18: bl              #0x8f395c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_disposeController
     // 0xa35e1c: mov             x1, x0
     // 0xa35e20: stur            x1, [fp, #-0x18]
     // 0xa35e24: r0 = Await()
     //     0xa35e24: bl              #0x60ad4c  ; AwaitStub
     // 0xa35e28: ldur            x1, [fp, #-0x10]
     // 0xa35e2c: r0 = _loadVideo()
-    //     0xa35e2c: bl              #0x8ecb60  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_loadVideo
+    //     0xa35e2c: bl              #0x8ecb60  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_loadVideo
     // 0xa35e30: mov             x1, x0
     // 0xa35e34: stur            x1, [fp, #-0x10]
     // 0xa35e38: r0 = Await()
@@ -8390,7 +8390,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0xb5b088: mov             fp, SP
     // 0xb5b08c: ldr             x2, [fp, #0x10]
     // 0xb5b090: r1 = Function 'dispose':.
-    //     0xb5b090: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e5a8] AnonymousClosure: (0xb5b0a8), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::dispose (0xb61eb4)
+    //     0xb5b090: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e5a8] AnonymousClosure: (0xb5b0a8), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::dispose (0xb61eb4)
     //     0xb5b094: ldr             x1, [x1, #0x5a8]
     // 0xb5b098: r0 = AllocateClosure()
     //     0xb5b098: bl              #0xe553e0  ; AllocateClosureStub
@@ -8415,7 +8415,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0xb5b0c0: cmp             SP, x16
     //     0xb5b0c4: b.ls            #0xb5b0d8
     // 0xb5b0c8: r0 = dispose()
-    //     0xb5b0c8: bl              #0xb61eb4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::dispose
+    //     0xb5b0c8: bl              #0xb61eb4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::dispose
     // 0xb5b0cc: LeaveFrame
     //     0xb5b0cc: mov             SP, fp
     //     0xb5b0d0: ldp             fp, lr, [SP], #0x10
@@ -8435,7 +8435,7 @@ class _WorkoutHLSVideoPlayerState extends State<dynamic> {
     //     0xb61ec0: cmp             SP, x16
     //     0xb61ec4: b.ls            #0xb61edc
     // 0xb61ec8: r0 = _disposeController()
-    //     0xb61ec8: bl              #0x8f395c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_disposeController
+    //     0xb61ec8: bl              #0x8f395c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutHLSVideoPlayerState::_disposeController
     // 0xb61ecc: r0 = Null
     //     0xb61ecc: mov             x0, NULL
     // 0xb61ed0: LeaveFrame

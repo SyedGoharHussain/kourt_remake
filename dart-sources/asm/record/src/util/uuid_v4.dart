@@ -161,7 +161,7 @@ abstract class UuidV4 extends Object {
     // 0xb76e50: StoreField: r2->field_2f = r0
     //     0xb76e50: stur            w0, [x2, #0x2f]
     // 0xb76e54: r1 = Function '<anonymous closure>': static.
-    //     0xb76e54: add             x1, PP, #0x54, lsl #12  ; [pp+0x54708] AnonymousClosure: static (0x99e9b4), of [package:ballai/shared/utility/uuid_string.dart] 
+    //     0xb76e54: add             x1, PP, #0x54, lsl #12  ; [pp+0x54708] AnonymousClosure: static (0x99e9b4), of [package:kourtai/shared/utility/uuid_string.dart] 
     //     0xb76e58: ldr             x1, [x1, #0x708]
     // 0xb76e5c: r2 = Null
     //     0xb76e5c: mov             x2, NULL

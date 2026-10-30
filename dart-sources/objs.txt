@@ -1792,8 +1792,8 @@ Obj!WidgetsLocalizationAf@d0c9d1 : {
 }
 
 Obj!AndroidNotificationChannel@d0c9e1 : {
-  off_8: "ballai_alerts",
-  off_c: "Ball AI",
+  off_8: "kourtai_alerts",
+  off_c: "Kourt AI",
   off_10: "Workout breakdowns and coaching alerts",
   off_18_Obj!Importance@d32d61 : {
     Super!_Enum : {
@@ -1817,8 +1817,8 @@ Obj!AndroidNotificationChannel@d0c9e1 : {
 }
 
 Obj!AndroidNotificationChannel@d0ca21 : {
-  off_8: "ballai_funnels",
-  off_c: "Ball AI Offers",
+  off_8: "kourtai_funnels",
+  off_c: "Kourt AI Offers",
   off_10: "One-time offers and training reminders",
   off_18_Obj!Importance@d32d61 : {
     Super!_Enum : {
@@ -4081,7 +4081,7 @@ Obj!EventChannel@d0ede1 : {
 }
 
 Obj!EventChannel@d0ee01 : {
-  off_8: "ball_ai.android/live_camera_frames",
+  off_8: "kourt_ai.android/live_camera_frames",
   off_c_Obj!StandardMethodCodec@d0f451 : {
     off_8_Obj!StandardMessageCodec@d25d11 : {
     }
@@ -4089,7 +4089,7 @@ Obj!EventChannel@d0ee01 : {
 }
 
 Obj!EventChannel@d0ee21 : {
-  off_8: "ball_ai.android/output_volume_events",
+  off_8: "kourt_ai.android/output_volume_events",
   off_c_Obj!StandardMethodCodec@d0f451 : {
     off_8_Obj!StandardMessageCodec@d25d11 : {
     }
@@ -4097,7 +4097,7 @@ Obj!EventChannel@d0ee21 : {
 }
 
 Obj!EventChannel@d0ee41 : {
-  off_8: "ball_ai.android/hls_recorder_events",
+  off_8: "kourt_ai.android/hls_recorder_events",
   off_c_Obj!StandardMethodCodec@d0f451 : {
     off_8_Obj!StandardMessageCodec@d25d11 : {
     }
@@ -4193,7 +4193,7 @@ Obj!MethodChannel@d0efa1 : {
 }
 
 Obj!MethodChannel@d0efc1 : {
-  off_8: "ball_ai.android/live_camera",
+  off_8: "kourt_ai.android/live_camera",
   off_c_Obj!StandardMethodCodec@d0f451 : {
     off_8_Obj!StandardMessageCodec@d25d11 : {
     }
@@ -4201,7 +4201,7 @@ Obj!MethodChannel@d0efc1 : {
 }
 
 Obj!MethodChannel@d0efe1 : {
-  off_8: "ball_ai.android/sfx",
+  off_8: "kourt_ai.android/sfx",
   off_c_Obj!StandardMethodCodec@d0f451 : {
     off_8_Obj!StandardMessageCodec@d25d11 : {
     }
@@ -4217,7 +4217,7 @@ Obj!MethodChannel@d0f001 : {
 }
 
 Obj!MethodChannel@d0f021 : {
-  off_8: "ball_ai.android/hls_recorder",
+  off_8: "kourt_ai.android/hls_recorder",
   off_c_Obj!StandardMethodCodec@d0f451 : {
     off_8_Obj!StandardMessageCodec@d25d11 : {
     }
@@ -4241,7 +4241,7 @@ Obj!MethodChannel@d0f061 : {
 }
 
 Obj!MethodChannel@d0f081 : {
-  off_8: "ball_ai.android/permissions",
+  off_8: "kourt_ai.android/permissions",
   off_c_Obj!StandardMethodCodec@d0f451 : {
     off_8_Obj!StandardMessageCodec@d25d11 : {
     }
@@ -4257,7 +4257,7 @@ Obj!MethodChannel@d0f0a1 : {
 }
 
 Obj!MethodChannel@d0f0c1 : {
-  off_8: "ball_ai.android/video_playback",
+  off_8: "kourt_ai.android/video_playback",
   off_c_Obj!StandardMethodCodec@d0f451 : {
     off_8_Obj!StandardMessageCodec@d25d11 : {
     }
@@ -4281,7 +4281,7 @@ Obj!MethodChannel@d0f101 : {
 }
 
 Obj!MethodChannel@d0f121 : {
-  off_8: "ball_ai.android/output_volume",
+  off_8: "kourt_ai.android/output_volume",
   off_c_Obj!StandardMethodCodec@d0f451 : {
     off_8_Obj!StandardMessageCodec@d25d11 : {
     }
@@ -33338,12 +33338,12 @@ Obj!Positioned@d226d1 : {
 
 Obj!Positioned@d22701 : {
   Super!ProxyWidget : {
-    off_c_Obj!BallAiNavigationGlass@d233e1 : {
+    off_c_Obj!KourtAiNavigationGlass@d233e1 : {
       off_c_Obj!SizedBox@d218f1 : {
         off_10: inf,
         off_14: inf
       },
-      off_10_Obj!BallAiNavigationGlassShape@d3a481 : {
+      off_10_Obj!KourtAiNavigationGlassShape@d3a481 : {
         Super!_Enum : {
           off_8: int(0x2),
           off_10: "selectedPill"
@@ -33997,7 +33997,7 @@ Obj!SubscriptionPurchaseView@d23181 : {
 Obj!FreeTrialWarmupGateView@d231c1 : {
 }
 
-Obj!BallAiSplashView@d231d1 : {
+Obj!KourtAiSplashView@d231d1 : {
 }
 
 Obj!_YouSettingsRoute@d231e1 : {
@@ -34096,12 +34096,12 @@ Obj!_BirthDateStep@d233c1 : {
 Obj!_EnterBallyStep@d233d1 : {
 }
 
-Obj!BallAiNavigationGlass@d233e1 : {
+Obj!KourtAiNavigationGlass@d233e1 : {
   off_c_Obj!SizedBox@d218f1 : {
     off_10: inf,
     off_14: inf
   },
-  off_10_Obj!BallAiNavigationGlassShape@d3a481 : {
+  off_10_Obj!KourtAiNavigationGlassShape@d3a481 : {
     Super!_Enum : {
       off_8: int(0x2),
       off_10: "selectedPill"
@@ -34281,7 +34281,7 @@ Obj!Text@d23861 : {
 }
 
 Obj!Text@d238b1 : {
-  off_c: "Unlock Ball AI Pro"
+  off_c: "Unlock Kourt AI Pro"
 }
 
 Obj!Text@d23901 : {
@@ -37436,11 +37436,11 @@ Obj!_AcquisitionStep@d25ab1 : {
 Obj!_GenderStep@d25ac1 : {
 }
 
-Obj!BallAiComingSoonBanner@d25ad1 : {
+Obj!KourtAiComingSoonBanner@d25ad1 : {
   off_c: "Health Connect"
 }
 
-Obj!BallAiSettingsDivider@d25ae1 : {
+Obj!KourtAiSettingsDivider@d25ae1 : {
 }
 
 Obj!ProOnlyBadge@d25af1 : {
@@ -38521,7 +38521,7 @@ Obj!PhoneCountry@d26ae1 : {
   off_10: "+1"
 }
 
-Obj!BallAiThemeExtension@d26b01 : {
+Obj!KourtAiThemeExtension@d26b01 : {
   off_c_Obj!Color@d28fc1 : {
     off_8: double(1),
     off_10: int(0x0),
@@ -38597,7 +38597,7 @@ Obj!BallAiThemeExtension@d26b01 : {
   off_24: true
 }
 
-Obj!BallAiThemeExtension@d26b31 : {
+Obj!KourtAiThemeExtension@d26b31 : {
   off_c_Obj!Color@d2bc91 : {
     off_8: double(1),
     off_10: double(0.9607843137254902),
@@ -39729,19 +39729,19 @@ Obj!WhatsNewFeature@d27b61 : {
     off_18: false
   },
   off_c: "30 Day Challenge",
-  off_10: "Stack workouts day after day and watch your streak climb. Hit 30 straight days on active Ball AI Pro and unlock a free Ball AI tripod — tap the flame up top to track the journey.",
+  off_10: "Stack workouts day after day and watch your streak climb. Hit 30 straight days on active Kourt AI Pro and unlock a free Kourt AI tripod — tap the flame up top to track the journey.",
   off_14: "View challenge",
   off_18: "streak_challenge",
   off_1c: false
 }
 
-Obj!BallAiDestinationContract@d27b81 : {
+Obj!KourtAiDestinationContract@d27b81 : {
   off_8: "team",
   off_c: true,
   off_10: true,
   off_14: true,
   off_18: true,
-  off_1c_Obj!BallAiDestinationSurface@d3bba1 : {
+  off_1c_Obj!KourtAiDestinationSurface@d3bba1 : {
     Super!_Enum : {
       off_8: int(0x1),
       off_10: "rootStack"
@@ -39752,13 +39752,13 @@ Obj!BallAiDestinationContract@d27b81 : {
   off_28: List<String>(10) ["team_invite", "teamInvite", "team_workout_complete", "team_goal_complete", "team_member_joined", "team_join_welcome", "team_created", "coach_nudge", "coach_goal_update", "social_workout"]
 }
 
-Obj!BallAiDestinationContract@d27bb1 : {
+Obj!KourtAiDestinationContract@d27bb1 : {
   off_8: "directMessage",
   off_c: true,
   off_10: true,
   off_14: true,
   off_18: true,
-  off_1c_Obj!BallAiDestinationSurface@d3bbc1 : {
+  off_1c_Obj!KourtAiDestinationSurface@d3bbc1 : {
     Super!_Enum : {
       off_8: int(0x2),
       off_10: "youNested"
@@ -39769,13 +39769,13 @@ Obj!BallAiDestinationContract@d27bb1 : {
   off_28: List<String>(3) ["direct_message", "team_message", "message_liked"]
 }
 
-Obj!BallAiDestinationContract@d27be1 : {
+Obj!KourtAiDestinationContract@d27be1 : {
   off_8: "accountSetup",
   off_c: false,
   off_10: false,
   off_14: false,
   off_18: false,
-  off_1c_Obj!BallAiDestinationSurface@d3bbe1 : {
+  off_1c_Obj!KourtAiDestinationSurface@d3bbe1 : {
     Super!_Enum : {
       off_8: int(0x0),
       off_10: "root"
@@ -39786,13 +39786,13 @@ Obj!BallAiDestinationContract@d27be1 : {
   off_28: List<String>(2) ["account_creation", "account_setup"]
 }
 
-Obj!BallAiDestinationContract@d27c11 : {
+Obj!KourtAiDestinationContract@d27c11 : {
   off_8: "auth",
   off_c: false,
   off_10: false,
   off_14: false,
   off_18: false,
-  off_1c_Obj!BallAiDestinationSurface@d3bbe1 : {
+  off_1c_Obj!KourtAiDestinationSurface@d3bbe1 : {
     Super!_Enum : {
       off_8: int(0x0),
       off_10: "root"
@@ -39803,13 +39803,13 @@ Obj!BallAiDestinationContract@d27c11 : {
   off_28: List<String>(0) []
 }
 
-Obj!BallAiDestinationContract@d27c41 : {
+Obj!KourtAiDestinationContract@d27c41 : {
   off_8: "settings",
   off_c: true,
   off_10: true,
   off_14: true,
   off_18: true,
-  off_1c_Obj!BallAiDestinationSurface@d3bbc1 : {
+  off_1c_Obj!KourtAiDestinationSurface@d3bbc1 : {
     Super!_Enum : {
       off_8: int(0x2),
       off_10: "youNested"
@@ -39820,13 +39820,13 @@ Obj!BallAiDestinationContract@d27c41 : {
   off_28: List<String>(0) []
 }
 
-Obj!BallAiDestinationContract@d27c71 : {
+Obj!KourtAiDestinationContract@d27c71 : {
   off_8: "profile",
   off_c: true,
   off_10: true,
   off_14: true,
   off_18: true,
-  off_1c_Obj!BallAiDestinationSurface@d3bba1 : {
+  off_1c_Obj!KourtAiDestinationSurface@d3bba1 : {
     Super!_Enum : {
       off_8: int(0x1),
       off_10: "rootStack"
@@ -39837,13 +39837,13 @@ Obj!BallAiDestinationContract@d27c71 : {
   off_28: List<String>(2) ["follow_request", "follow_request_accepted"]
 }
 
-Obj!BallAiDestinationContract@d27ca1 : {
+Obj!KourtAiDestinationContract@d27ca1 : {
   off_8: "home",
   off_c: true,
   off_10: true,
   off_14: true,
   off_18: true,
-  off_1c_Obj!BallAiDestinationSurface@d3bbe1 : {
+  off_1c_Obj!KourtAiDestinationSurface@d3bbe1 : {
     Super!_Enum : {
       off_8: int(0x0),
       off_10: "root"
@@ -39854,13 +39854,13 @@ Obj!BallAiDestinationContract@d27ca1 : {
   off_28: List<String>(2) ["open_app", "screen_home"]
 }
 
-Obj!BallAiDestinationContract@d27cd1 : {
+Obj!KourtAiDestinationContract@d27cd1 : {
   off_8: "workout",
   off_c: true,
   off_10: true,
   off_14: true,
   off_18: true,
-  off_1c_Obj!BallAiDestinationSurface@d3bba1 : {
+  off_1c_Obj!KourtAiDestinationSurface@d3bba1 : {
     Super!_Enum : {
       off_8: int(0x1),
       off_10: "rootStack"
@@ -39871,13 +39871,13 @@ Obj!BallAiDestinationContract@d27cd1 : {
   off_28: List<String>(3) ["recent_workout", "workout_export_ready", "bally_breakdown_ready"]
 }
 
-Obj!BallAiDestinationContract@d27d01 : {
+Obj!KourtAiDestinationContract@d27d01 : {
   off_8: "subscription",
   off_c: true,
   off_10: true,
   off_14: true,
   off_18: false,
-  off_1c_Obj!BallAiDestinationSurface@d3bba1 : {
+  off_1c_Obj!KourtAiDestinationSurface@d3bba1 : {
     Super!_Enum : {
       off_8: int(0x1),
       off_10: "rootStack"
@@ -39888,13 +39888,13 @@ Obj!BallAiDestinationContract@d27d01 : {
   off_28: List<String>(7) ["discount_request", "sheet_discount_request", "cancel_winback", "sheet_cancel_winback", "pro_subscription", "sheet_paywall", "manage_payments"]
 }
 
-Obj!BallAiDestinationContract@d27d31 : {
+Obj!KourtAiDestinationContract@d27d31 : {
   off_8: "you",
   off_c: true,
   off_10: true,
   off_14: true,
   off_18: true,
-  off_1c_Obj!BallAiDestinationSurface@d3bbe1 : {
+  off_1c_Obj!KourtAiDestinationSurface@d3bbe1 : {
     Super!_Enum : {
       off_8: int(0x0),
       off_10: "root"
@@ -39905,13 +39905,13 @@ Obj!BallAiDestinationContract@d27d31 : {
   off_28: List<String>(3) ["screen_you", "screen_profile", "screen_account"]
 }
 
-Obj!BallAiDestinationContract@d27d61 : {
+Obj!KourtAiDestinationContract@d27d61 : {
   off_8: "teams",
   off_c: true,
   off_10: true,
   off_14: true,
   off_18: true,
-  off_1c_Obj!BallAiDestinationSurface@d3bbe1 : {
+  off_1c_Obj!KourtAiDestinationSurface@d3bbe1 : {
     Super!_Enum : {
       off_8: int(0x0),
       off_10: "root"
@@ -39922,13 +39922,13 @@ Obj!BallAiDestinationContract@d27d61 : {
   off_28: List<String>(2) ["screen_teams", "screen_team"]
 }
 
-Obj!BallAiDestinationContract@d27d91 : {
+Obj!KourtAiDestinationContract@d27d91 : {
   off_8: "drills",
   off_c: true,
   off_10: true,
   off_14: true,
   off_18: true,
-  off_1c_Obj!BallAiDestinationSurface@d3bbe1 : {
+  off_1c_Obj!KourtAiDestinationSurface@d3bbe1 : {
     Super!_Enum : {
       off_8: int(0x0),
       off_10: "root"
@@ -39939,13 +39939,13 @@ Obj!BallAiDestinationContract@d27d91 : {
   off_28: List<String>(3) ["screen_drills", "screen_drill", "drills"]
 }
 
-Obj!BallAiDestinationContract@d27dc1 : {
+Obj!KourtAiDestinationContract@d27dc1 : {
   off_8: "activity",
   off_c: true,
   off_10: true,
   off_14: true,
   off_18: true,
-  off_1c_Obj!BallAiDestinationSurface@d3bbe1 : {
+  off_1c_Obj!KourtAiDestinationSurface@d3bbe1 : {
     Super!_Enum : {
       off_8: int(0x0),
       off_10: "root"
@@ -39956,13 +39956,13 @@ Obj!BallAiDestinationContract@d27dc1 : {
   off_28: List<String>(3) ["screen_activity", "screen_summary", "screen_workouts"]
 }
 
-Obj!BallAiDestinationContract@d27df1 : {
+Obj!KourtAiDestinationContract@d27df1 : {
   off_8: "record",
   off_c: true,
   off_10: true,
   off_14: true,
   off_18: true,
-  off_1c_Obj!BallAiDestinationSurface@d3bc01 : {
+  off_1c_Obj!KourtAiDestinationSurface@d3bc01 : {
     Super!_Enum : {
       off_8: int(0x3),
       off_10: "record"
@@ -59856,21 +59856,21 @@ Obj!InsightWeight@d3a441 : {
   }
 }
 
-Obj!BallAiNavigationGlassShape@d3a461 : {
+Obj!KourtAiNavigationGlassShape@d3a461 : {
   Super!_Enum : {
     off_8: int(0x0),
     off_10: "island"
   }
 }
 
-Obj!BallAiNavigationGlassShape@d3a481 : {
+Obj!KourtAiNavigationGlassShape@d3a481 : {
   Super!_Enum : {
     off_8: int(0x2),
     off_10: "selectedPill"
   }
 }
 
-Obj!BallAiNavigationGlassShape@d3a4a1 : {
+Obj!KourtAiNavigationGlassShape@d3a4a1 : {
   Super!_Enum : {
     off_8: int(0x1),
     off_10: "circle"
@@ -60524,7 +60524,7 @@ Obj!TrendsDateRangeType@d3afa1 : {
   off_14: "Last 3 Months"
 }
 
-Obj!BallAiTextScale@d3afc1 : {
+Obj!KourtAiTextScale@d3afc1 : {
   Super!_Enum : {
     off_8: int(0x4),
     off_10: "headline"
@@ -60532,7 +60532,7 @@ Obj!BallAiTextScale@d3afc1 : {
   off_14: double(17)
 }
 
-Obj!BallAiTextScale@d3afe1 : {
+Obj!KourtAiTextScale@d3afe1 : {
   Super!_Enum : {
     off_8: int(0xa),
     off_10: "caption2"
@@ -60540,7 +60540,7 @@ Obj!BallAiTextScale@d3afe1 : {
   off_14: double(11)
 }
 
-Obj!BallAiTextScale@d3b001 : {
+Obj!KourtAiTextScale@d3b001 : {
   Super!_Enum : {
     off_8: int(0x5),
     off_10: "subheadline"
@@ -60548,7 +60548,7 @@ Obj!BallAiTextScale@d3b001 : {
   off_14: double(15)
 }
 
-Obj!BallAiTextScale@d3b021 : {
+Obj!KourtAiTextScale@d3b021 : {
   Super!_Enum : {
     off_8: int(0x3),
     off_10: "title3"
@@ -60556,7 +60556,7 @@ Obj!BallAiTextScale@d3b021 : {
   off_14: double(20)
 }
 
-Obj!BallAiTextScale@d3b041 : {
+Obj!KourtAiTextScale@d3b041 : {
   Super!_Enum : {
     off_8: int(0x0),
     off_10: "largeTitle"
@@ -60564,7 +60564,7 @@ Obj!BallAiTextScale@d3b041 : {
   off_14: double(34)
 }
 
-Obj!BallAiTextScale@d3b061 : {
+Obj!KourtAiTextScale@d3b061 : {
   Super!_Enum : {
     off_8: int(0x9),
     off_10: "caption"
@@ -60572,7 +60572,7 @@ Obj!BallAiTextScale@d3b061 : {
   off_14: double(12)
 }
 
-Obj!BallAiTextScale@d3b081 : {
+Obj!KourtAiTextScale@d3b081 : {
   Super!_Enum : {
     off_8: int(0x6),
     off_10: "body"
@@ -60580,7 +60580,7 @@ Obj!BallAiTextScale@d3b081 : {
   off_14: double(17)
 }
 
-Obj!BallAiTextScale@d3b0a1 : {
+Obj!KourtAiTextScale@d3b0a1 : {
   Super!_Enum : {
     off_8: int(0x8),
     off_10: "footnote"
@@ -61174,133 +61174,133 @@ Obj!RootSessionPhase@d3ba81 : {
   }
 }
 
-Obj!BallAiPrimaryDestination@d3baa1 : {
+Obj!KourtAiPrimaryDestination@d3baa1 : {
   Super!_Enum : {
     off_8: int(0x0),
     off_10: "drills"
   }
 }
 
-Obj!BallAiPrimaryDestination@d3bac1 : {
+Obj!KourtAiPrimaryDestination@d3bac1 : {
   Super!_Enum : {
     off_8: int(0x1),
     off_10: "activity"
   }
 }
 
-Obj!BallAiPrimaryDestination@d3bae1 : {
+Obj!KourtAiPrimaryDestination@d3bae1 : {
   Super!_Enum : {
     off_8: int(0x4),
     off_10: "you"
   }
 }
 
-Obj!BallAiPrimaryDestination@d3bb01 : {
+Obj!KourtAiPrimaryDestination@d3bb01 : {
   Super!_Enum : {
     off_8: int(0x2),
     off_10: "record"
   }
 }
 
-Obj!BallAiPrimaryDestination@d3bb21 : {
+Obj!KourtAiPrimaryDestination@d3bb21 : {
   Super!_Enum : {
     off_8: int(0x3),
     off_10: "teams"
   }
 }
 
-Obj!BallAiPrimaryDestinationRole@d3bb41 : {
+Obj!KourtAiPrimaryDestinationRole@d3bb41 : {
   Super!_Enum : {
     off_8: int(0x0),
     off_10: "contentTab"
   }
 }
 
-Obj!BallAiPrimaryDestinationRole@d3bb61 : {
+Obj!KourtAiPrimaryDestinationRole@d3bb61 : {
   Super!_Enum : {
     off_8: int(0x2),
     off_10: "teamsCover"
   }
 }
 
-Obj!BallAiPrimaryDestinationRole@d3bb81 : {
+Obj!KourtAiPrimaryDestinationRole@d3bb81 : {
   Super!_Enum : {
     off_8: int(0x1),
     off_10: "recordAction"
   }
 }
 
-Obj!BallAiDestinationSurface@d3bba1 : {
+Obj!KourtAiDestinationSurface@d3bba1 : {
   Super!_Enum : {
     off_8: int(0x1),
     off_10: "rootStack"
   }
 }
 
-Obj!BallAiDestinationSurface@d3bbc1 : {
+Obj!KourtAiDestinationSurface@d3bbc1 : {
   Super!_Enum : {
     off_8: int(0x2),
     off_10: "youNested"
   }
 }
 
-Obj!BallAiDestinationSurface@d3bbe1 : {
+Obj!KourtAiDestinationSurface@d3bbe1 : {
   Super!_Enum : {
     off_8: int(0x0),
     off_10: "root"
   }
 }
 
-Obj!BallAiDestinationSurface@d3bc01 : {
+Obj!KourtAiDestinationSurface@d3bc01 : {
   Super!_Enum : {
     off_8: int(0x3),
     off_10: "record"
   }
 }
 
-Obj!BallAiLogCategory@d3bc21 : {
+Obj!KourtAiLogCategory@d3bc21 : {
   Super!_Enum : {
     off_8: int(0x2),
     off_10: "nav"
   }
 }
 
-Obj!BallAiLogCategory@d3bc41 : {
+Obj!KourtAiLogCategory@d3bc41 : {
   Super!_Enum : {
     off_8: int(0x3),
     off_10: "user"
   }
 }
 
-Obj!BallAiLogCategory@d3bc61 : {
+Obj!KourtAiLogCategory@d3bc61 : {
   Super!_Enum : {
     off_8: int(0x1),
     off_10: "auth"
   }
 }
 
-Obj!BallAiLogCategory@d3bc81 : {
+Obj!KourtAiLogCategory@d3bc81 : {
   Super!_Enum : {
     off_8: int(0x4),
     off_10: "revenueCat"
   }
 }
 
-Obj!BallAiLogCategory@d3bca1 : {
+Obj!KourtAiLogCategory@d3bca1 : {
   Super!_Enum : {
     off_8: int(0x5),
     off_10: "firebase"
   }
 }
 
-Obj!BallAiLogCategory@d3bcc1 : {
+Obj!KourtAiLogCategory@d3bcc1 : {
   Super!_Enum : {
     off_8: int(0x0),
     off_10: "boot"
   }
 }
 
-Obj!BallAiLogCategory@d3bce1 : {
+Obj!KourtAiLogCategory@d3bce1 : {
   Super!_Enum : {
     off_8: int(0x6),
     off_10: "notifications"
@@ -61356,21 +61356,21 @@ Obj!OverallLeaderboardScope@d3bdc1 : {
   }
 }
 
-Obj!BallAiBootState@d3bde1 : {
+Obj!KourtAiBootState@d3bde1 : {
   Super!_Enum : {
     off_8: int(0x1),
     off_10: "ready"
   }
 }
 
-Obj!BallAiBootState@d3be01 : {
+Obj!KourtAiBootState@d3be01 : {
   Super!_Enum : {
     off_8: int(0x3),
     off_10: "failed"
   }
 }
 
-Obj!BallAiBootState@d3be21 : {
+Obj!KourtAiBootState@d3be21 : {
   Super!_Enum : {
     off_8: int(0x2),
     off_10: "degraded"

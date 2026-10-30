@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/drills/widgets/drill_loading_skeletons.dart
+// lib: , url: package:kourtai/video_tracking/views/drills/widgets/drill_loading_skeletons.dart
 
 // class id: 1049225, size: 0x8
 class :: {
@@ -45,7 +45,7 @@ abstract class __DrillLoadingShimmerState&State&SingleTickerProviderStateMixin e
     //     0x7b9668: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x7b966c: mov             x1, x2
     // 0x7b9670: r0 = _updateTickerModeNotifier()
-    //     0x7b9670: bl              #0x7b96c8  ; [package:ballai/video_tracking/views/drills/widgets/drill_loading_skeletons.dart] __DrillLoadingShimmerState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x7b9670: bl              #0x7b96c8  ; [package:kourtai/video_tracking/views/drills/widgets/drill_loading_skeletons.dart] __DrillLoadingShimmerState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x7b9674: ldur            x1, [fp, #-8]
     // 0x7b9678: r0 = _updateTicker()
     //     0x7b9678: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -210,7 +210,7 @@ abstract class __DrillLoadingShimmerState&State&SingleTickerProviderStateMixin e
     //     0x8e44f0: b.ls            #0x8e4514
     // 0x8e44f4: mov             x1, x0
     // 0x8e44f8: r0 = _updateTickerModeNotifier()
-    //     0x8e44f8: bl              #0x7b96c8  ; [package:ballai/video_tracking/views/drills/widgets/drill_loading_skeletons.dart] __DrillLoadingShimmerState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x8e44f8: bl              #0x7b96c8  ; [package:kourtai/video_tracking/views/drills/widgets/drill_loading_skeletons.dart] __DrillLoadingShimmerState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x8e44fc: ldur            x1, [fp, #-8]
     // 0x8e4500: r0 = _updateTicker()
     //     0x8e4500: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -295,7 +295,7 @@ abstract class __DrillLoadingShimmerState&State&SingleTickerProviderStateMixin e
     //     0xb642ac: cmp             SP, x16
     //     0xb642b0: b.ls            #0xb642c4
     // 0xb642b4: r0 = dispose()
-    //     0xb642b4: bl              #0xb64200  ; [package:ballai/video_tracking/views/drills/widgets/drill_loading_skeletons.dart] __DrillLoadingShimmerState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb642b4: bl              #0xb64200  ; [package:kourtai/video_tracking/views/drills/widgets/drill_loading_skeletons.dart] __DrillLoadingShimmerState&State&SingleTickerProviderStateMixin::dispose
     // 0xb642b8: LeaveFrame
     //     0xb642b8: mov             SP, fp
     //     0xb642bc: ldp             fp, lr, [SP], #0x10
@@ -415,7 +415,7 @@ class _DrillLoadingShimmerState extends __DrillLoadingShimmerState&State&SingleT
     // 0xac62c0: ldur            x2, [fp, #-0x18]
     // 0xac62c4: stur            x0, [fp, #-8]
     // 0xac62c8: r1 = Function '<anonymous closure>':.
-    //     0xac62c8: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a9d0] AnonymousClosure: (0xac630c), in [package:ballai/video_tracking/views/drills/widgets/drill_loading_skeletons.dart] _DrillLoadingShimmerState::build (0xac61b4)
+    //     0xac62c8: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a9d0] AnonymousClosure: (0xac630c), in [package:kourtai/video_tracking/views/drills/widgets/drill_loading_skeletons.dart] _DrillLoadingShimmerState::build (0xac61b4)
     //     0xac62cc: ldr             x1, [x1, #0x9d0]
     // 0xac62d0: r0 = AllocateClosure()
     //     0xac62d0: bl              #0xe553e0  ; AllocateClosureStub
@@ -454,7 +454,7 @@ class _DrillLoadingShimmerState extends __DrillLoadingShimmerState&State&SingleT
     //     0xac631c: ldur            w2, [x0, #0x17]
     //     0xac6320: add             x2, x2, HEAP, lsl #32
     // 0xac6324: r1 = Function '<anonymous closure>':.
-    //     0xac6324: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a9d8] AnonymousClosure: (0xac636c), in [package:ballai/video_tracking/views/drills/widgets/drill_loading_skeletons.dart] _DrillLoadingShimmerState::build (0xac61b4)
+    //     0xac6324: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a9d8] AnonymousClosure: (0xac636c), in [package:kourtai/video_tracking/views/drills/widgets/drill_loading_skeletons.dart] _DrillLoadingShimmerState::build (0xac61b4)
     //     0xac6328: ldr             x1, [x1, #0x9d8]
     // 0xac632c: r0 = AllocateClosure()
     //     0xac632c: bl              #0xe553e0  ; AllocateClosureStub
@@ -679,7 +679,7 @@ class _DrillLoadingShimmerState extends __DrillLoadingShimmerState&State&SingleT
     //     0xb5cacc: mov             fp, SP
     // 0xb5cad0: ldr             x2, [fp, #0x10]
     // 0xb5cad4: r1 = Function 'dispose':.
-    //     0xb5cad4: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a9c0] AnonymousClosure: (0xb5caec), in [package:ballai/video_tracking/views/drills/widgets/drill_loading_skeletons.dart] _DrillLoadingShimmerState::dispose (0xb64194)
+    //     0xb5cad4: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a9c0] AnonymousClosure: (0xb5caec), in [package:kourtai/video_tracking/views/drills/widgets/drill_loading_skeletons.dart] _DrillLoadingShimmerState::dispose (0xb64194)
     //     0xb5cad8: ldr             x1, [x1, #0x9c0]
     // 0xb5cadc: r0 = AllocateClosure()
     //     0xb5cadc: bl              #0xe553e0  ; AllocateClosureStub
@@ -704,7 +704,7 @@ class _DrillLoadingShimmerState extends __DrillLoadingShimmerState&State&SingleT
     //     0xb5cb04: cmp             SP, x16
     //     0xb5cb08: b.ls            #0xb5cb1c
     // 0xb5cb0c: r0 = dispose()
-    //     0xb5cb0c: bl              #0xb64194  ; [package:ballai/video_tracking/views/drills/widgets/drill_loading_skeletons.dart] _DrillLoadingShimmerState::dispose
+    //     0xb5cb0c: bl              #0xb64194  ; [package:kourtai/video_tracking/views/drills/widgets/drill_loading_skeletons.dart] _DrillLoadingShimmerState::dispose
     // 0xb5cb10: LeaveFrame
     //     0xb5cb10: mov             SP, fp
     //     0xb5cb14: ldp             fp, lr, [SP], #0x10
@@ -747,7 +747,7 @@ class _DrillLoadingShimmerState extends __DrillLoadingShimmerState&State&SingleT
     //     0xb641dc: bl              #0x809c40  ; [package:flutter/src/animation/animation_controller.dart] AnimationController::dispose
     // 0xb641e0: ldur            x1, [fp, #-8]
     // 0xb641e4: r0 = dispose()
-    //     0xb641e4: bl              #0xb64200  ; [package:ballai/video_tracking/views/drills/widgets/drill_loading_skeletons.dart] __DrillLoadingShimmerState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb641e4: bl              #0xb64200  ; [package:kourtai/video_tracking/views/drills/widgets/drill_loading_skeletons.dart] __DrillLoadingShimmerState&State&SingleTickerProviderStateMixin::dispose
     // 0xb641e8: r0 = Null
     //     0xb641e8: mov             x0, NULL
     // 0xb641ec: LeaveFrame
@@ -954,8 +954,8 @@ class DrillSpotlightCardSkeleton extends StatelessWidget {
     //     0xc376bc: cmp             SP, x16
     //     0xc376c0: b.ls            #0xc3787c
     // 0xc376c4: mov             x1, x0
-    // 0xc376c8: r0 = BallAiThemeContext.ballAi()
-    //     0xc376c8: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xc376c8: r0 = KourtAiThemeContext.kourtAi()
+    //     0xc376c8: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xc376cc: ldur            x1, [fp, #-8]
     // 0xc376d0: stur            x0, [fp, #-8]
     // 0xc376d4: r0 = of()

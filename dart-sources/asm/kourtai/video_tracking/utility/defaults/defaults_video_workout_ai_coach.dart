@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/utility/defaults/defaults_video_workout_ai_coach.dart
+// lib: , url: package:kourtai/video_tracking/utility/defaults/defaults_video_workout_ai_coach.dart
 
 // class id: 1049192, size: 0x8
 class :: {
@@ -24,7 +24,7 @@ abstract class DefaultsVideoWorkoutAICoach extends Object {
     //     0x99ad44: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x99ad48: bl              #0x60afc8  ; InitAsyncStub
     // 0x99ad4c: r0 = getEnabled()
-    //     0x99ad4c: bl              #0x99ad6c  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_ai_coach.dart] DefaultsVideoWorkoutAICoach::getEnabled
+    //     0x99ad4c: bl              #0x99ad6c  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_ai_coach.dart] DefaultsVideoWorkoutAICoach::getEnabled
     // 0x99ad50: mov             x1, x0
     // 0x99ad54: stur            x1, [fp, #-0x10]
     // 0x99ad58: r0 = Await()

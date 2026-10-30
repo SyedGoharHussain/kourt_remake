@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart
 
 // class id: 1048838, size: 0x8
 class :: {
@@ -17,7 +17,7 @@ class _PolicyFooterState extends State<dynamic> {
     //     0x94525c: cmp             SP, x16
     //     0x945260: b.ls            #0x945278
     // 0x945264: r0 = _refresh()
-    //     0x945264: bl              #0x9452a0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart] _PolicyFooterState::_refresh
+    //     0x945264: bl              #0x9452a0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart] _PolicyFooterState::_refresh
     // 0x945268: r0 = Null
     //     0x945268: mov             x0, NULL
     // 0x94526c: LeaveFrame
@@ -47,7 +47,7 @@ class _PolicyFooterState extends State<dynamic> {
     //     0x9452c0: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x9452c4: bl              #0x60afc8  ; InitAsyncStub
     // 0x9452c8: r0 = refresh()
-    //     0x9452c8: bl              #0x945318  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_policy_links.dart] AccountSetupPolicyLinks::refresh
+    //     0x9452c8: bl              #0x945318  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_policy_links.dart] AccountSetupPolicyLinks::refresh
     // 0x9452cc: mov             x1, x0
     // 0x9452d0: stur            x1, [fp, #-0x18]
     // 0x9452d4: r0 = Await()
@@ -95,8 +95,8 @@ class _PolicyFooterState extends State<dynamic> {
     //     0x9ecea0: cmp             SP, x16
     //     0x9ecea4: b.ls            #0x9ed70c
     // 0x9ecea8: mov             x1, x0
-    // 0x9eceac: r0 = BallAiThemeContext.ballAiScreenSubtitleStyle()
-    //     0x9eceac: bl              #0x9eda00  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiScreenSubtitleStyle
+    // 0x9eceac: r0 = KourtAiThemeContext.kourtAiScreenSubtitleStyle()
+    //     0x9eceac: bl              #0x9eda00  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiScreenSubtitleStyle
     // 0x9eceb0: r16 = 14.000000
     //     0x9eceb0: add             x16, PP, #0x15, lsl #12  ; [pp+0x15520] 14
     //     0x9eceb4: ldr             x16, [x16, #0x520]
@@ -112,8 +112,8 @@ class _PolicyFooterState extends State<dynamic> {
     //     0x9eced0: bl              #0x632958  ; [package:flutter/src/painting/text_style.dart] TextStyle::copyWith
     // 0x9eced4: ldur            x1, [fp, #-0x10]
     // 0x9eced8: stur            x0, [fp, #-0x10]
-    // 0x9ecedc: r0 = BallAiThemeContext.ballAiAccent()
-    //     0x9ecedc: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0x9ecedc: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0x9ecedc: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0x9ecee0: r16 = Instance_TextDecoration
     //     0x9ecee0: add             x16, PP, #0x3c, lsl #12  ; [pp+0x3c7e8] Obj!TextDecoration@d27fb1
     //     0x9ecee4: ldr             x16, [x16, #0x7e8]
@@ -129,13 +129,13 @@ class _PolicyFooterState extends State<dynamic> {
     //     0x9ecf00: ldr             x1, [x1, #0x7f8]
     // 0x9ecf04: stur            x0, [fp, #-0x18]
     // 0x9ecf08: r0 = L()
-    //     0x9ecf08: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ecf08: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ecf0c: r1 = "Terms of use"
     //     0x9ecf0c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c800] "Terms of use"
     //     0x9ecf10: ldr             x1, [x1, #0x800]
     // 0x9ecf14: stur            x0, [fp, #-0x20]
     // 0x9ecf18: r0 = L()
-    //     0x9ecf18: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ecf18: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ecf1c: r1 = Null
     //     0x9ecf1c: mov             x1, NULL
     // 0x9ecf20: r2 = 12
@@ -152,7 +152,7 @@ class _PolicyFooterState extends State<dynamic> {
     //     0x9ecf3c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c808] "appTermsOfUseURL"
     //     0x9ecf40: ldr             x1, [x1, #0x808]
     // 0x9ecf44: r0 = url()
-    //     0x9ecf44: bl              #0x9ed940  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_policy_links.dart] AccountSetupPolicyLinks::url
+    //     0x9ecf44: bl              #0x9ed940  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_policy_links.dart] AccountSetupPolicyLinks::url
     // 0x9ecf48: ldur            x1, [fp, #-0x30]
     // 0x9ecf4c: ArrayStore: r1[1] = r0  ; List_4
     //     0x9ecf4c: add             x25, x1, #0x13
@@ -168,7 +168,7 @@ class _PolicyFooterState extends State<dynamic> {
     //     0x9ecf70: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c810] "Privacy policy"
     //     0x9ecf74: ldr             x1, [x1, #0x810]
     // 0x9ecf78: r0 = L()
-    //     0x9ecf78: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ecf78: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ecf7c: ldur            x1, [fp, #-0x30]
     // 0x9ecf80: ArrayStore: r1[2] = r0  ; List_4
     //     0x9ecf80: add             x25, x1, #0x17
@@ -184,7 +184,7 @@ class _PolicyFooterState extends State<dynamic> {
     //     0x9ecfa4: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c818] "appPrivacyPolicyURL"
     //     0x9ecfa8: ldr             x1, [x1, #0x818]
     // 0x9ecfac: r0 = url()
-    //     0x9ecfac: bl              #0x9ed940  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_policy_links.dart] AccountSetupPolicyLinks::url
+    //     0x9ecfac: bl              #0x9ed940  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_policy_links.dart] AccountSetupPolicyLinks::url
     // 0x9ecfb0: ldur            x1, [fp, #-0x30]
     // 0x9ecfb4: ArrayStore: r1[3] = r0  ; List_4
     //     0x9ecfb4: add             x25, x1, #0x1b
@@ -200,7 +200,7 @@ class _PolicyFooterState extends State<dynamic> {
     //     0x9ecfd8: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c820] "Regional policy"
     //     0x9ecfdc: ldr             x1, [x1, #0x820]
     // 0x9ecfe0: r0 = L()
-    //     0x9ecfe0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ecfe0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ecfe4: ldur            x1, [fp, #-0x30]
     // 0x9ecfe8: ArrayStore: r1[4] = r0  ; List_4
     //     0x9ecfe8: add             x25, x1, #0x1f
@@ -216,7 +216,7 @@ class _PolicyFooterState extends State<dynamic> {
     //     0x9ed00c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c828] "appRegionalPolicyURL"
     //     0x9ed010: ldr             x1, [x1, #0x828]
     // 0x9ed014: r0 = url()
-    //     0x9ed014: bl              #0x9ed940  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_policy_links.dart] AccountSetupPolicyLinks::url
+    //     0x9ed014: bl              #0x9ed940  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_policy_links.dart] AccountSetupPolicyLinks::url
     // 0x9ed018: ldur            x1, [fp, #-0x30]
     // 0x9ed01c: ArrayStore: r1[5] = r0  ; List_4
     //     0x9ed01c: add             x25, x1, #0x23
@@ -405,7 +405,7 @@ class _PolicyFooterState extends State<dynamic> {
     // 0x9ed238: ldur            x0, [fp, #-0x20]
     // 0x9ed23c: ldur            x3, [fp, #-0x38]
     // 0x9ed240: r1 = Function '<anonymous closure>':.
-    //     0x9ed240: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c860] AnonymousClosure: (0x9eda6c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart] _PolicyFooterState::build (0x9ece80)
+    //     0x9ed240: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c860] AnonymousClosure: (0x9eda6c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart] _PolicyFooterState::build (0x9ece80)
     //     0x9ed244: ldr             x1, [x1, #0x860]
     // 0x9ed248: r2 = Null
     //     0x9ed248: mov             x2, NULL
@@ -578,7 +578,7 @@ class _PolicyFooterState extends State<dynamic> {
     // 0x9ed430: mov             x2, x7
     // 0x9ed434: stur            x7, [fp, #-0x50]
     // 0x9ed438: r0 = _recognizer()
-    //     0x9ed438: bl              #0x9ed730  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart] _PolicyFooterState::_recognizer
+    //     0x9ed438: bl              #0x9ed730  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart] _PolicyFooterState::_recognizer
     // 0x9ed43c: stur            x0, [fp, #-0x80]
     // 0x9ed440: r0 = TextSpan()
     //     0x9ed440: bl              #0x81b6a8  ; AllocateTextSpanStub -> TextSpan (size=0x34)
@@ -897,7 +897,7 @@ class _PolicyFooterState extends State<dynamic> {
     // 0x9ed7ac: b.eq            #0x9ed7f0
     // 0x9ed7b0: ldur            x2, [fp, #-0x20]
     // 0x9ed7b4: r1 = Function '<anonymous closure>':.
-    //     0x9ed7b4: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c868] AnonymousClosure: (0x9ed868), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart] _PolicyFooterState::_recognizer (0x9ed730)
+    //     0x9ed7b4: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c868] AnonymousClosure: (0x9ed868), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart] _PolicyFooterState::_recognizer (0x9ed730)
     //     0x9ed7b8: ldr             x1, [x1, #0x868]
     // 0x9ed7bc: r0 = AllocateClosure()
     //     0x9ed7bc: bl              #0xe553e0  ; AllocateClosureStub
@@ -930,7 +930,7 @@ class _PolicyFooterState extends State<dynamic> {
     //     0x9ed80c: bl              #0x81bdc0  ; [package:flutter/src/gestures/tap.dart] BaseTapGestureRecognizer::BaseTapGestureRecognizer
     // 0x9ed810: ldur            x2, [fp, #-0x20]
     // 0x9ed814: r1 = Function '<anonymous closure>':.
-    //     0x9ed814: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c870] AnonymousClosure: (0x9ed868), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart] _PolicyFooterState::_recognizer (0x9ed730)
+    //     0x9ed814: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c870] AnonymousClosure: (0x9ed868), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart] _PolicyFooterState::_recognizer (0x9ed730)
     //     0x9ed818: ldr             x1, [x1, #0x870]
     // 0x9ed81c: r0 = AllocateClosure()
     //     0x9ed81c: bl              #0xe553e0  ; AllocateClosureStub
@@ -982,7 +982,7 @@ class _PolicyFooterState extends State<dynamic> {
     //     0x9ed894: add             x2, x2, HEAP, lsl #32
     // 0x9ed898: mov             x1, x0
     // 0x9ed89c: r0 = _open()
-    //     0x9ed89c: bl              #0x9ed8b8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart] _PolicyFooterState::_open
+    //     0x9ed89c: bl              #0x9ed8b8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart] _PolicyFooterState::_open
     // 0x9ed8a0: r0 = Null
     //     0x9ed8a0: mov             x0, NULL
     // 0x9ed8a4: LeaveFrame
@@ -1085,7 +1085,7 @@ class _PolicyFooterState extends State<dynamic> {
     //     0xb5a7e8: mov             fp, SP
     // 0xb5a7ec: ldr             x2, [fp, #0x10]
     // 0xb5a7f0: r1 = Function 'dispose':.
-    //     0xb5a7f0: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c7e0] AnonymousClosure: (0xb5a808), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart] _PolicyFooterState::dispose (0xb608b8)
+    //     0xb5a7f0: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c7e0] AnonymousClosure: (0xb5a808), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart] _PolicyFooterState::dispose (0xb608b8)
     //     0xb5a7f4: ldr             x1, [x1, #0x7e0]
     // 0xb5a7f8: r0 = AllocateClosure()
     //     0xb5a7f8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1110,7 +1110,7 @@ class _PolicyFooterState extends State<dynamic> {
     //     0xb5a820: cmp             SP, x16
     //     0xb5a824: b.ls            #0xb5a838
     // 0xb5a828: r0 = dispose()
-    //     0xb5a828: bl              #0xb608b8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart] _PolicyFooterState::dispose
+    //     0xb5a828: bl              #0xb608b8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart] _PolicyFooterState::dispose
     // 0xb5a82c: LeaveFrame
     //     0xb5a82c: mov             SP, fp
     //     0xb5a830: ldp             fp, lr, [SP], #0x10
@@ -1281,7 +1281,7 @@ class _AccountSetupSaveProgressViewState extends State<dynamic> {
     //     0x9ea994: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e1f0] "Sign up with Google"
     //     0x9ea998: ldr             x1, [x1, #0x1f0]
     // 0x9ea99c: r0 = L()
-    //     0x9ea99c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ea99c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ea9a0: ldur            x2, [fp, #-8]
     // 0x9ea9a4: stur            x0, [fp, #-0x28]
     // 0x9ea9a8: LoadField: r1 = r2->field_13
@@ -1318,7 +1318,7 @@ class _AccountSetupSaveProgressViewState extends State<dynamic> {
     // 0x9ea9fc: b               #0x9eaa18
     // 0x9eaa00: ldur            x2, [fp, #-8]
     // 0x9eaa04: r1 = Function '_signUpWithGoogle@1060511003':.
-    //     0x9eaa04: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e1f8] AnonymousClosure: (0x9ebfa4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart] _AccountSetupSaveProgressViewState::_signUpWithGoogle (0x9ebfdc)
+    //     0x9eaa04: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e1f8] AnonymousClosure: (0x9ebfa4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart] _AccountSetupSaveProgressViewState::_signUpWithGoogle (0x9ebfdc)
     //     0x9eaa08: ldr             x1, [x1, #0x1f8]
     // 0x9eaa0c: r0 = AllocateClosure()
     //     0x9eaa0c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1379,7 +1379,7 @@ class _AccountSetupSaveProgressViewState extends State<dynamic> {
     //     0x9eaaa4: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e200] "Sign up with email"
     //     0x9eaaa8: ldr             x1, [x1, #0x200]
     // 0x9eaaac: r0 = L()
-    //     0x9eaaac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9eaaac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9eaab0: mov             x3, x0
     // 0x9eaab4: ldur            x0, [fp, #-0x10]
     // 0x9eaab8: stur            x3, [fp, #-0x28]
@@ -1390,7 +1390,7 @@ class _AccountSetupSaveProgressViewState extends State<dynamic> {
     // 0x9eaac8: b               #0x9eaae4
     // 0x9eaacc: ldur            x2, [fp, #-0x18]
     // 0x9eaad0: r1 = Function '<anonymous closure>':.
-    //     0x9eaad0: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e208] AnonymousClosure: (0x9eac80), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart] _AccountSetupSaveProgressViewState::build (0x9ea91c)
+    //     0x9eaad0: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e208] AnonymousClosure: (0x9eac80), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart] _AccountSetupSaveProgressViewState::build (0x9ea91c)
     //     0x9eaad4: ldr             x1, [x1, #0x208]
     // 0x9eaad8: r0 = AllocateClosure()
     //     0x9eaad8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1561,7 +1561,7 @@ class _AccountSetupSaveProgressViewState extends State<dynamic> {
     // 0x9eacac: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x9eacac: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x9eacb0: r0 = showEmailSignUpSheet()
-    //     0x9eacb0: bl              #0x9eacc8  ; [package:ballai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] SignUpView::showEmailSignUpSheet
+    //     0x9eacb0: bl              #0x9eacc8  ; [package:kourtai/automatic/views/home/tab/auth/signup/root/sign_up_view.dart] SignUpView::showEmailSignUpSheet
     // 0x9eacb4: LeaveFrame
     //     0x9eacb4: mov             SP, fp
     //     0x9eacb8: ldp             fp, lr, [SP], #0x10
@@ -1586,7 +1586,7 @@ class _AccountSetupSaveProgressViewState extends State<dynamic> {
     //     0x9ebfbc: cmp             SP, x16
     //     0x9ebfc0: b.ls            #0x9ebfd4
     // 0x9ebfc4: r0 = _signUpWithGoogle()
-    //     0x9ebfc4: bl              #0x9ebfdc  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart] _AccountSetupSaveProgressViewState::_signUpWithGoogle
+    //     0x9ebfc4: bl              #0x9ebfdc  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_save_progress_view.dart] _AccountSetupSaveProgressViewState::_signUpWithGoogle
     // 0x9ebfc8: LeaveFrame
     //     0x9ebfc8: mov             SP, fp
     //     0x9ebfcc: ldp             fp, lr, [SP], #0x10
@@ -1634,7 +1634,7 @@ class _AccountSetupSaveProgressViewState extends State<dynamic> {
     //     0x9ec030: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x9ec034: ldur            x2, [fp, #-0x68]
     // 0x9ec038: r1 = Function '<anonymous closure>':.
-    //     0x9ec038: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e2d0] AnonymousClosure: (0x9ece00), in [package:ballai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
+    //     0x9ec038: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e2d0] AnonymousClosure: (0x9ece00), in [package:kourtai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
     //     0x9ec03c: ldr             x1, [x1, #0x2d0]
     // 0x9ec040: r0 = AllocateClosure()
     //     0x9ec040: bl              #0xe553e0  ; AllocateClosureStub
@@ -1659,7 +1659,7 @@ class _AccountSetupSaveProgressViewState extends State<dynamic> {
     //     0x9ec074: bl              #0x5ff5d4  ; [package:provider/src/provider.dart] ::ReadContext.read
     // 0x9ec078: mov             x1, x0
     // 0x9ec07c: r0 = signInWithGoogle()
-    //     0x9ec07c: bl              #0x9ec148  ; [package:ballai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::signInWithGoogle
+    //     0x9ec07c: bl              #0x9ec148  ; [package:kourtai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::signInWithGoogle
     // 0x9ec080: mov             x1, x0
     // 0x9ec084: stur            x1, [fp, #-0x70]
     // 0x9ec088: r0 = Await()
@@ -1682,7 +1682,7 @@ class _AccountSetupSaveProgressViewState extends State<dynamic> {
     // 0x9ec0b4: b.eq            #0x9ec134
     // 0x9ec0b8: ldur            x2, [fp, #-0x68]
     // 0x9ec0bc: r1 = Function '<anonymous closure>':.
-    //     0x9ec0bc: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e2d8] AnonymousClosure: (0x9ecde0), in [package:ballai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
+    //     0x9ec0bc: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e2d8] AnonymousClosure: (0x9ecde0), in [package:kourtai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
     //     0x9ec0c0: ldr             x1, [x1, #0x2d8]
     // 0x9ec0c4: r0 = AllocateClosure()
     //     0x9ec0c4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1714,7 +1714,7 @@ class _AccountSetupSaveProgressViewState extends State<dynamic> {
     // 0x9ec118: r0 = ReturnAsyncNotFuture()
     //     0x9ec118: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x9ec11c: r1 = Function '<anonymous closure>':.
-    //     0x9ec11c: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e2e0] AnonymousClosure: (0x9ecbd4), in [package:ballai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
+    //     0x9ec11c: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e2e0] AnonymousClosure: (0x9ecbd4), in [package:kourtai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
     //     0x9ec120: ldr             x1, [x1, #0x2e0]
     // 0x9ec124: r0 = AllocateClosure()
     //     0x9ec124: bl              #0xe553e0  ; AllocateClosureStub

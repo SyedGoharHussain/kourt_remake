@@ -769,7 +769,7 @@ class MethodChannelFirebaseMessaging extends FirebaseMessagingPlatform {
     //     0x6be078: bl              #0x6bc310  ; [package:firebase_messaging_platform_interface/src/remote_message.dart] RemoteMessage::RemoteMessage.fromMap
     // 0x6be07c: str             x0, [SP]
     // 0x6be080: r0 = firebaseMessagingBackgroundHandler()
-    //     0x6be080: bl              #0x66036c  ; [package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart] ::firebaseMessagingBackgroundHandler
+    //     0x6be080: bl              #0x66036c  ; [package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart] ::firebaseMessagingBackgroundHandler
     // 0x6be084: r0 = ReturnAsync()
     //     0x6be084: b               #0x5f1e3c  ; ReturnAsyncStub
     // 0x6be088: ldur            x0, [fp, #-0x10]

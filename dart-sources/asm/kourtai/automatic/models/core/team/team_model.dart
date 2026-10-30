@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/team/team_model.dart
+// lib: , url: package:kourtai/automatic/models/core/team/team_model.dart
 
 // class id: 1048708, size: 0x8
 class :: {
@@ -394,7 +394,7 @@ class TeamModel extends Object {
     // 0x76992c: r1 = Null
     //     0x76992c: mov             x1, NULL
     // 0x769930: r0 = _readString()
-    //     0x769930: bl              #0x76a014  ; [package:ballai/automatic/models/core/team/team_model.dart] ::_readString
+    //     0x769930: bl              #0x76a014  ; [package:kourtai/automatic/models/core/team/team_model.dart] ::_readString
     // 0x769934: stur            x0, [fp, #-0x18]
     // 0x769938: cmp             w0, NULL
     // 0x76993c: b.eq            #0x769948
@@ -426,7 +426,7 @@ class TeamModel extends Object {
     // 0x769984: r1 = Null
     //     0x769984: mov             x1, NULL
     // 0x769988: r0 = _readString()
-    //     0x769988: bl              #0x76a014  ; [package:ballai/automatic/models/core/team/team_model.dart] ::_readString
+    //     0x769988: bl              #0x76a014  ; [package:kourtai/automatic/models/core/team/team_model.dart] ::_readString
     // 0x76998c: cmp             w0, NULL
     // 0x769990: b.ne            #0x7699a0
     // 0x769994: r3 = "trainer"
@@ -453,7 +453,7 @@ class TeamModel extends Object {
     // 0x7699d4: r1 = Null
     //     0x7699d4: mov             x1, NULL
     // 0x7699d8: r0 = _readString()
-    //     0x7699d8: bl              #0x76a014  ; [package:ballai/automatic/models/core/team/team_model.dart] ::_readString
+    //     0x7699d8: bl              #0x76a014  ; [package:kourtai/automatic/models/core/team/team_model.dart] ::_readString
     // 0x7699dc: cmp             w0, NULL
     // 0x7699e0: b.ne            #0x7699f0
     // 0x7699e4: r3 = "unknown"
@@ -548,7 +548,7 @@ class TeamModel extends Object {
     // 0x769ae4: tbnz            w0, #4, #0x769b40
     // 0x769ae8: ldur            x0, [fp, #-0x30]
     // 0x769aec: r1 = Function '<anonymous closure>': static.
-    //     0x769aec: add             x1, PP, #0x13, lsl #12  ; [pp+0x13ea0] AnonymousClosure: (0x76a0b0), in [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::loadCatalogs (0x76a18c)
+    //     0x769aec: add             x1, PP, #0x13, lsl #12  ; [pp+0x13ea0] AnonymousClosure: (0x76a0b0), in [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::loadCatalogs (0x76a18c)
     //     0x769af0: ldr             x1, [x1, #0xea0]
     // 0x769af4: r2 = Null
     //     0x769af4: mov             x2, NULL
@@ -605,7 +605,7 @@ class TeamModel extends Object {
     // 0x769b90: r1 = Null
     //     0x769b90: mov             x1, NULL
     // 0x769b94: r0 = _readString()
-    //     0x769b94: bl              #0x76a014  ; [package:ballai/automatic/models/core/team/team_model.dart] ::_readString
+    //     0x769b94: bl              #0x76a014  ; [package:kourtai/automatic/models/core/team/team_model.dart] ::_readString
     // 0x769b98: ldur            x1, [fp, #-0x10]
     // 0x769b9c: r2 = "location"
     //     0x769b9c: ldr             x2, [PP, #0x1aa0]  ; [pp+0x1aa0] "location"
@@ -623,7 +623,7 @@ class TeamModel extends Object {
     // 0x769bc0: r1 = Null
     //     0x769bc0: mov             x1, NULL
     // 0x769bc4: r0 = _readString()
-    //     0x769bc4: bl              #0x76a014  ; [package:ballai/automatic/models/core/team/team_model.dart] ::_readString
+    //     0x769bc4: bl              #0x76a014  ; [package:kourtai/automatic/models/core/team/team_model.dart] ::_readString
     // 0x769bc8: ldur            x1, [fp, #-0x10]
     // 0x769bcc: r2 = "institutionName"
     //     0x769bcc: add             x2, PP, #0x13, lsl #12  ; [pp+0x13eb0] "institutionName"
@@ -642,7 +642,7 @@ class TeamModel extends Object {
     // 0x769bf4: r1 = Null
     //     0x769bf4: mov             x1, NULL
     // 0x769bf8: r0 = _readString()
-    //     0x769bf8: bl              #0x76a014  ; [package:ballai/automatic/models/core/team/team_model.dart] ::_readString
+    //     0x769bf8: bl              #0x76a014  ; [package:kourtai/automatic/models/core/team/team_model.dart] ::_readString
     // 0x769bfc: ldur            x1, [fp, #-0x10]
     // 0x769c00: r2 = "inviteCode"
     //     0x769c00: add             x2, PP, #0x13, lsl #12  ; [pp+0x13488] "inviteCode"
@@ -661,7 +661,7 @@ class TeamModel extends Object {
     // 0x769c28: r1 = Null
     //     0x769c28: mov             x1, NULL
     // 0x769c2c: r0 = _readString()
-    //     0x769c2c: bl              #0x76a014  ; [package:ballai/automatic/models/core/team/team_model.dart] ::_readString
+    //     0x769c2c: bl              #0x76a014  ; [package:kourtai/automatic/models/core/team/team_model.dart] ::_readString
     // 0x769c30: ldur            x1, [fp, #-0x10]
     // 0x769c34: r2 = "visibility"
     //     0x769c34: ldr             x2, [PP, #0x7de0]  ; [pp+0x7de0] "visibility"
@@ -679,7 +679,7 @@ class TeamModel extends Object {
     // 0x769c58: r1 = Null
     //     0x769c58: mov             x1, NULL
     // 0x769c5c: r0 = _readString()
-    //     0x769c5c: bl              #0x76a014  ; [package:ballai/automatic/models/core/team/team_model.dart] ::_readString
+    //     0x769c5c: bl              #0x76a014  ; [package:kourtai/automatic/models/core/team/team_model.dart] ::_readString
     // 0x769c60: ldur            x1, [fp, #-0x10]
     // 0x769c64: r2 = "isSubscriptionActive"
     //     0x769c64: add             x2, PP, #0x13, lsl #12  ; [pp+0x13eb8] "isSubscriptionActive"
@@ -737,7 +737,7 @@ class TeamModel extends Object {
     // 0x769cf4: r1 = Null
     //     0x769cf4: mov             x1, NULL
     // 0x769cf8: r0 = _readString()
-    //     0x769cf8: bl              #0x76a014  ; [package:ballai/automatic/models/core/team/team_model.dart] ::_readString
+    //     0x769cf8: bl              #0x76a014  ; [package:kourtai/automatic/models/core/team/team_model.dart] ::_readString
     // 0x769cfc: ldur            x1, [fp, #-0x10]
     // 0x769d00: r2 = "hudlProfile"
     //     0x769d00: add             x2, PP, #0x13, lsl #12  ; [pp+0x13ed8] "hudlProfile"
@@ -756,7 +756,7 @@ class TeamModel extends Object {
     // 0x769d28: r1 = Null
     //     0x769d28: mov             x1, NULL
     // 0x769d2c: r0 = _readString()
-    //     0x769d2c: bl              #0x76a014  ; [package:ballai/automatic/models/core/team/team_model.dart] ::_readString
+    //     0x769d2c: bl              #0x76a014  ; [package:kourtai/automatic/models/core/team/team_model.dart] ::_readString
     // 0x769d30: ldur            x1, [fp, #-0x10]
     // 0x769d34: r2 = "maxPrepsProfile"
     //     0x769d34: add             x2, PP, #0x13, lsl #12  ; [pp+0x13ee0] "maxPrepsProfile"
@@ -775,7 +775,7 @@ class TeamModel extends Object {
     // 0x769d5c: r1 = Null
     //     0x769d5c: mov             x1, NULL
     // 0x769d60: r0 = _readString()
-    //     0x769d60: bl              #0x76a014  ; [package:ballai/automatic/models/core/team/team_model.dart] ::_readString
+    //     0x769d60: bl              #0x76a014  ; [package:kourtai/automatic/models/core/team/team_model.dart] ::_readString
     // 0x769d64: ldur            x1, [fp, #-0x10]
     // 0x769d68: r2 = "facebookURL"
     //     0x769d68: add             x2, PP, #0x13, lsl #12  ; [pp+0x13ee8] "facebookURL"
@@ -794,7 +794,7 @@ class TeamModel extends Object {
     // 0x769d90: r1 = Null
     //     0x769d90: mov             x1, NULL
     // 0x769d94: r0 = _readString()
-    //     0x769d94: bl              #0x76a014  ; [package:ballai/automatic/models/core/team/team_model.dart] ::_readString
+    //     0x769d94: bl              #0x76a014  ; [package:kourtai/automatic/models/core/team/team_model.dart] ::_readString
     // 0x769d98: ldur            x1, [fp, #-0x10]
     // 0x769d9c: r2 = "instagramUsername"
     //     0x769d9c: add             x2, PP, #0x13, lsl #12  ; [pp+0x13ef0] "instagramUsername"
@@ -813,7 +813,7 @@ class TeamModel extends Object {
     // 0x769dc4: r1 = Null
     //     0x769dc4: mov             x1, NULL
     // 0x769dc8: r0 = _readString()
-    //     0x769dc8: bl              #0x76a014  ; [package:ballai/automatic/models/core/team/team_model.dart] ::_readString
+    //     0x769dc8: bl              #0x76a014  ; [package:kourtai/automatic/models/core/team/team_model.dart] ::_readString
     // 0x769dcc: ldur            x1, [fp, #-0x10]
     // 0x769dd0: r2 = "websiteURL"
     //     0x769dd0: add             x2, PP, #0x13, lsl #12  ; [pp+0x13ef8] "websiteURL"
@@ -832,7 +832,7 @@ class TeamModel extends Object {
     // 0x769df8: r1 = Null
     //     0x769df8: mov             x1, NULL
     // 0x769dfc: r0 = _readString()
-    //     0x769dfc: bl              #0x76a014  ; [package:ballai/automatic/models/core/team/team_model.dart] ::_readString
+    //     0x769dfc: bl              #0x76a014  ; [package:kourtai/automatic/models/core/team/team_model.dart] ::_readString
     // 0x769e00: ldur            x1, [fp, #-0x10]
     // 0x769e04: r2 = "memberCount"
     //     0x769e04: add             x2, PP, #0x13, lsl #12  ; [pp+0x13f00] "memberCount"
@@ -868,7 +868,7 @@ class TeamModel extends Object {
     // 0x769e6c: ldur            x0, [fp, #-0x90]
     // 0x769e70: ldur            x7, [fp, #-0x60]
     // 0x769e74: r0 = _readInt()
-    //     0x769e74: bl              #0x769f30  ; [package:ballai/automatic/models/core/user/user_model.dart] ::_readInt
+    //     0x769e74: bl              #0x769f30  ; [package:kourtai/automatic/models/core/user/user_model.dart] ::_readInt
     // 0x769e78: stur            x0, [fp, #-0x10]
     // 0x769e7c: r0 = TeamModel()
     //     0x769e7c: bl              #0x769f24  ; AllocateTeamModelStub -> TeamModel (size=0x50)
@@ -1239,7 +1239,7 @@ class TeamModel extends Object {
     //     0xa66c7c: b.ls            #0xa66ce0
     // 0xa66c80: mov             x1, x0
     // 0xa66c84: r0 = _formatWithCommas()
-    //     0xa66c84: bl              #0xa66ce8  ; [package:ballai/automatic/models/core/team/team_model.dart] TeamModel::_formatWithCommas
+    //     0xa66c84: bl              #0xa66ce8  ; [package:kourtai/automatic/models/core/team/team_model.dart] TeamModel::_formatWithCommas
     // 0xa66c88: mov             x3, x0
     // 0xa66c8c: ldur            x0, [fp, #-8]
     // 0xa66c90: stur            x3, [fp, #-0x10]

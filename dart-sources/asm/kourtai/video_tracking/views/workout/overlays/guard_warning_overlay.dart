@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/overlays/guard_warning_overlay.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/overlays/guard_warning_overlay.dart
 
 // class id: 1049253, size: 0x8
 class :: {
@@ -144,7 +144,7 @@ class GuardWarningOverlay extends StatelessWidget {
     //     0xc413c4: stur            w0, [x3, #0xb]
     // 0xc413c8: ldur            x2, [fp, #-0x10]
     // 0xc413cc: r1 = Function '<anonymous closure>':.
-    //     0xc413cc: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a890] AnonymousClosure: (0xc41618), in [package:ballai/video_tracking/views/workout/overlays/guard_warning_overlay.dart] GuardWarningOverlay::build (0xc4127c)
+    //     0xc413cc: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a890] AnonymousClosure: (0xc41618), in [package:kourtai/video_tracking/views/workout/overlays/guard_warning_overlay.dart] GuardWarningOverlay::build (0xc4127c)
     //     0xc413d0: ldr             x1, [x1, #0x890]
     // 0xc413d4: r0 = AllocateClosure()
     //     0xc413d4: bl              #0xe553e0  ; AllocateClosureStub
@@ -422,7 +422,7 @@ class GuardWarningOverlay extends StatelessWidget {
     // 0xc4165c: DecompressPointer r1
     //     0xc4165c: add             x1, x1, HEAP, lsl #32
     // 0xc41660: r0 = dismissGuardWarning()
-    //     0xc41660: bl              #0xada664  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::dismissGuardWarning
+    //     0xc41660: bl              #0xada664  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::dismissGuardWarning
     // 0xc41664: r0 = Null
     //     0xc41664: mov             x0, NULL
     // 0xc41668: LeaveFrame

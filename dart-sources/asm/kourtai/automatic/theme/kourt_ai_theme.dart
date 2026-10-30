@@ -1,9 +1,9 @@
-// lib: , url: package:ballai/automatic/theme/ball_ai_theme.dart
+// lib: , url: package:kourtai/automatic/theme/kourt_ai_theme.dart
 
 // class id: 1048714, size: 0x8
 class :: {
 
-  static _ BallAiThemeContext.ballAiPageBackground(/* No info */) {
+  static _ KourtAiThemeContext.kourtAiPageBackground(/* No info */) {
     // ** addr: 0x8e8a38, size: 0x38
     // 0x8e8a38: EnterFrame
     //     0x8e8a38: stp             fp, lr, [SP, #-0x10]!
@@ -12,8 +12,8 @@ class :: {
     //     0x8e8a40: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x8e8a44: cmp             SP, x16
     //     0x8e8a48: b.ls            #0x8e8a68
-    // 0x8e8a4c: r0 = BallAiThemeContext.ballAi()
-    //     0x8e8a4c: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0x8e8a4c: r0 = KourtAiThemeContext.kourtAi()
+    //     0x8e8a4c: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0x8e8a50: LoadField: r1 = r0->field_b
     //     0x8e8a50: ldur            w1, [x0, #0xb]
     // 0x8e8a54: DecompressPointer r1
@@ -28,7 +28,7 @@ class :: {
     //     0x8e8a68: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x8e8a6c: b               #0x8e8a4c
   }
-  static _ BallAiThemeContext.ballAi(/* No info */) {
+  static _ KourtAiThemeContext.kourtAi(/* No info */) {
     // ** addr: 0x8e8a70, size: 0x50
     // 0x8e8a70: EnterFrame
     //     0x8e8a70: stp             fp, lr, [SP, #-0x10]!
@@ -41,8 +41,8 @@ class :: {
     //     0x8e8a84: b.ls            #0x8e8ab4
     // 0x8e8a88: r0 = of()
     //     0x8e8a88: bl              #0x630514  ; [package:flutter/src/material/theme.dart] Theme::of
-    // 0x8e8a8c: r16 = <BallAiThemeExtension>
-    //     0x8e8a8c: add             x16, PP, #0x20, lsl #12  ; [pp+0x201a8] TypeArguments: <BallAiThemeExtension>
+    // 0x8e8a8c: r16 = <KourtAiThemeExtension>
+    //     0x8e8a8c: add             x16, PP, #0x20, lsl #12  ; [pp+0x201a8] TypeArguments: <KourtAiThemeExtension>
     //     0x8e8a90: ldr             x16, [x16, #0x1a8]
     // 0x8e8a94: stp             x0, x16, [SP]
     // 0x8e8a98: r4 = const [0x1, 0x1, 0x1, 0x1, null]
@@ -62,7 +62,7 @@ class :: {
     // 0x8e8abc: r0 = NullCastErrorSharedWithoutFPURegs()
     //     0x8e8abc: bl              #0xe5683c  ; NullCastErrorSharedWithoutFPURegsStub
   }
-  static _ BallAiThemeContext.ballAiSecondaryLabel(/* No info */) {
+  static _ KourtAiThemeContext.kourtAiSecondaryLabel(/* No info */) {
     // ** addr: 0x9ce4f0, size: 0x38
     // 0x9ce4f0: EnterFrame
     //     0x9ce4f0: stp             fp, lr, [SP, #-0x10]!
@@ -71,8 +71,8 @@ class :: {
     //     0x9ce4f8: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x9ce4fc: cmp             SP, x16
     //     0x9ce500: b.ls            #0x9ce520
-    // 0x9ce504: r0 = BallAiThemeContext.ballAi()
-    //     0x9ce504: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0x9ce504: r0 = KourtAiThemeContext.kourtAi()
+    //     0x9ce504: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0x9ce508: LoadField: r1 = r0->field_1b
     //     0x9ce508: ldur            w1, [x0, #0x1b]
     // 0x9ce50c: DecompressPointer r1
@@ -87,7 +87,7 @@ class :: {
     //     0x9ce520: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x9ce524: b               #0x9ce504
   }
-  static _ BallAiThemeContext.ballAiAccent(/* No info */) {
+  static _ KourtAiThemeContext.kourtAiAccent(/* No info */) {
     // ** addr: 0x9ce7bc, size: 0x3c
     // 0x9ce7bc: EnterFrame
     //     0x9ce7bc: stp             fp, lr, [SP, #-0x10]!
@@ -115,7 +115,7 @@ class :: {
     //     0x9ce7f0: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x9ce7f4: b               #0x9ce7d0
   }
-  static _ BallAiThemeContext.ballAiPrimaryLabel(/* No info */) {
+  static _ KourtAiThemeContext.kourtAiPrimaryLabel(/* No info */) {
     // ** addr: 0x9d1c18, size: 0x38
     // 0x9d1c18: EnterFrame
     //     0x9d1c18: stp             fp, lr, [SP, #-0x10]!
@@ -124,8 +124,8 @@ class :: {
     //     0x9d1c20: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x9d1c24: cmp             SP, x16
     //     0x9d1c28: b.ls            #0x9d1c48
-    // 0x9d1c2c: r0 = BallAiThemeContext.ballAi()
-    //     0x9d1c2c: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0x9d1c2c: r0 = KourtAiThemeContext.kourtAi()
+    //     0x9d1c2c: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0x9d1c30: ArrayLoad: r1 = r0[0]  ; List_4
     //     0x9d1c30: ldur            w1, [x0, #0x17]
     // 0x9d1c34: DecompressPointer r1
@@ -140,7 +140,7 @@ class :: {
     //     0x9d1c48: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x9d1c4c: b               #0x9d1c2c
   }
-  static _ BallAiThemeContext.ballAiCardBackground(/* No info */) {
+  static _ KourtAiThemeContext.kourtAiCardBackground(/* No info */) {
     // ** addr: 0x9d20c0, size: 0x38
     // 0x9d20c0: EnterFrame
     //     0x9d20c0: stp             fp, lr, [SP, #-0x10]!
@@ -149,8 +149,8 @@ class :: {
     //     0x9d20c8: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x9d20cc: cmp             SP, x16
     //     0x9d20d0: b.ls            #0x9d20f0
-    // 0x9d20d4: r0 = BallAiThemeContext.ballAi()
-    //     0x9d20d4: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0x9d20d4: r0 = KourtAiThemeContext.kourtAi()
+    //     0x9d20d4: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0x9d20d8: LoadField: r1 = r0->field_f
     //     0x9d20d8: ldur            w1, [x0, #0xf]
     // 0x9d20dc: DecompressPointer r1
@@ -165,7 +165,7 @@ class :: {
     //     0x9d20f0: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x9d20f4: b               #0x9d20d4
   }
-  static _ BallAiThemeContext.ballAiSelectionCardFill(/* No info */) {
+  static _ KourtAiThemeContext.kourtAiSelectionCardFill(/* No info */) {
     // ** addr: 0x9d464c, size: 0x4c
     // 0x9d464c: EnterFrame
     //     0x9d464c: stp             fp, lr, [SP, #-0x10]!
@@ -174,8 +174,8 @@ class :: {
     //     0x9d4654: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x9d4658: cmp             SP, x16
     //     0x9d465c: b.ls            #0x9d4690
-    // 0x9d4660: r0 = BallAiThemeContext.ballAi()
-    //     0x9d4660: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0x9d4660: r0 = KourtAiThemeContext.kourtAi()
+    //     0x9d4660: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0x9d4664: LoadField: r1 = r0->field_23
     //     0x9d4664: ldur            w1, [x0, #0x23]
     // 0x9d4668: DecompressPointer r1
@@ -197,7 +197,7 @@ class :: {
     //     0x9d4690: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x9d4694: b               #0x9d4660
   }
-  static _ BallAiThemeContext.ballAiBackButtonFill(/* No info */) {
+  static _ KourtAiThemeContext.kourtAiBackButtonFill(/* No info */) {
     // ** addr: 0x9d6208, size: 0x4c
     // 0x9d6208: EnterFrame
     //     0x9d6208: stp             fp, lr, [SP, #-0x10]!
@@ -206,8 +206,8 @@ class :: {
     //     0x9d6210: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x9d6214: cmp             SP, x16
     //     0x9d6218: b.ls            #0x9d624c
-    // 0x9d621c: r0 = BallAiThemeContext.ballAi()
-    //     0x9d621c: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0x9d621c: r0 = KourtAiThemeContext.kourtAi()
+    //     0x9d621c: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0x9d6220: LoadField: r1 = r0->field_23
     //     0x9d6220: ldur            w1, [x0, #0x23]
     // 0x9d6224: DecompressPointer r1
@@ -229,7 +229,7 @@ class :: {
     //     0x9d624c: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x9d6250: b               #0x9d621c
   }
-  static _ BallAiThemeContext.ballAiElevatedCardBackground(/* No info */) {
+  static _ KourtAiThemeContext.kourtAiElevatedCardBackground(/* No info */) {
     // ** addr: 0x9d7e30, size: 0x38
     // 0x9d7e30: EnterFrame
     //     0x9d7e30: stp             fp, lr, [SP, #-0x10]!
@@ -238,8 +238,8 @@ class :: {
     //     0x9d7e38: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x9d7e3c: cmp             SP, x16
     //     0x9d7e40: b.ls            #0x9d7e60
-    // 0x9d7e44: r0 = BallAiThemeContext.ballAi()
-    //     0x9d7e44: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0x9d7e44: r0 = KourtAiThemeContext.kourtAi()
+    //     0x9d7e44: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0x9d7e48: LoadField: r1 = r0->field_13
     //     0x9d7e48: ldur            w1, [x0, #0x13]
     // 0x9d7e4c: DecompressPointer r1
@@ -254,7 +254,7 @@ class :: {
     //     0x9d7e60: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x9d7e64: b               #0x9d7e44
   }
-  static _ BallAiThemeContext.ballAiUnderlineInputDecoration(/* No info */) {
+  static _ KourtAiThemeContext.kourtAiUnderlineInputDecoration(/* No info */) {
     // ** addr: 0x9e870c, size: 0x244
     // 0x9e870c: EnterFrame
     //     0x9e870c: stp             fp, lr, [SP, #-0x10]!
@@ -284,12 +284,12 @@ class :: {
     //     0x9e8760: cmp             SP, x16
     //     0x9e8764: b.ls            #0x9e8948
     // 0x9e8768: mov             x1, x0
-    // 0x9e876c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0x9e876c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0x9e876c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0x9e876c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0x9e8770: ldur            x1, [fp, #-0x10]
     // 0x9e8774: stur            x0, [fp, #-0x10]
-    // 0x9e8778: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9e8778: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9e8778: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9e8778: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9e877c: stur            x0, [fp, #-0x18]
     // 0x9e8780: r0 = TextStyle()
     //     0x9e8780: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -474,7 +474,7 @@ class :: {
     //     0x9e8948: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x9e894c: b               #0x9e8768
   }
-  static _ BallAiThemeContext.ballAiScreenSubtitleStyle(/* No info */) {
+  static _ KourtAiThemeContext.kourtAiScreenSubtitleStyle(/* No info */) {
     // ** addr: 0x9eda00, size: 0x6c
     // 0x9eda00: EnterFrame
     //     0x9eda00: stp             fp, lr, [SP, #-0x10]!
@@ -485,8 +485,8 @@ class :: {
     //     0x9eda0c: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x9eda10: cmp             SP, x16
     //     0x9eda14: b.ls            #0x9eda64
-    // 0x9eda18: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9eda18: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9eda18: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9eda18: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9eda1c: stur            x0, [fp, #-8]
     // 0x9eda20: r0 = TextStyle()
     //     0x9eda20: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -521,7 +521,7 @@ class :: {
     //     0x9eda64: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x9eda68: b               #0x9eda18
   }
-  static _ BallAiThemeContext.ballAiScreenTitleStyle(/* No info */) {
+  static _ KourtAiThemeContext.kourtAiScreenTitleStyle(/* No info */) {
     // ** addr: 0x9efba4, size: 0x6c
     // 0x9efba4: EnterFrame
     //     0x9efba4: stp             fp, lr, [SP, #-0x10]!
@@ -532,8 +532,8 @@ class :: {
     //     0x9efbb0: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x9efbb4: cmp             SP, x16
     //     0x9efbb8: b.ls            #0x9efc08
-    // 0x9efbbc: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0x9efbbc: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0x9efbbc: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0x9efbbc: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0x9efbc0: stur            x0, [fp, #-8]
     // 0x9efbc4: r0 = TextStyle()
     //     0x9efbc4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -568,7 +568,7 @@ class :: {
     //     0x9efc08: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x9efc0c: b               #0x9efbbc
   }
-  static _ BallAiThemeContext.ballAiFilledButtonStyle(/* No info */) {
+  static _ KourtAiThemeContext.kourtAiFilledButtonStyle(/* No info */) {
     // ** addr: 0xa0ebdc, size: 0x108
     // 0xa0ebdc: EnterFrame
     //     0xa0ebdc: stp             fp, lr, [SP, #-0x10]!
@@ -590,8 +590,8 @@ class :: {
     //     0xa0ec0c: ldr             x2, [x2, #0x1c0]
     // 0xa0ec10: b               #0xa0ec24
     // 0xa0ec14: mov             x1, x0
-    // 0xa0ec18: r0 = BallAiThemeContext.ballAiDisabledButtonFill()
-    //     0xa0ec18: bl              #0xa0ed2c  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiDisabledButtonFill
+    // 0xa0ec18: r0 = KourtAiThemeContext.kourtAiDisabledButtonFill()
+    //     0xa0ec18: bl              #0xa0ed2c  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiDisabledButtonFill
     // 0xa0ec1c: mov             x2, x0
     // 0xa0ec20: ldur            x0, [fp, #-0x10]
     // 0xa0ec24: stur            x2, [fp, #-0x18]
@@ -600,8 +600,8 @@ class :: {
     //     0xa0ec2c: ldr             x0, [PP, #0x5178]  ; [pp+0x5178] Obj!Color@d2a0a1
     // 0xa0ec30: b               #0xa0ec3c
     // 0xa0ec34: ldur            x1, [fp, #-8]
-    // 0xa0ec38: r0 = BallAiThemeContext.ballAiDisabledButtonForeground()
-    //     0xa0ec38: bl              #0xa0ece4  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiDisabledButtonForeground
+    // 0xa0ec38: r0 = KourtAiThemeContext.kourtAiDisabledButtonForeground()
+    //     0xa0ec38: bl              #0xa0ece4  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiDisabledButtonForeground
     // 0xa0ec3c: stur            x0, [fp, #-8]
     // 0xa0ec40: r0 = Radius()
     //     0xa0ec40: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -667,7 +667,7 @@ class :: {
     //     0xa0ecdc: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0xa0ece0: b               #0xa0ec00
   }
-  static _ BallAiThemeContext.ballAiDisabledButtonForeground(/* No info */) {
+  static _ KourtAiThemeContext.kourtAiDisabledButtonForeground(/* No info */) {
     // ** addr: 0xa0ece4, size: 0x48
     // 0xa0ece4: EnterFrame
     //     0xa0ece4: stp             fp, lr, [SP, #-0x10]!
@@ -676,8 +676,8 @@ class :: {
     //     0xa0ecec: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xa0ecf0: cmp             SP, x16
     //     0xa0ecf4: b.ls            #0xa0ed24
-    // 0xa0ecf8: r0 = BallAiThemeContext.ballAi()
-    //     0xa0ecf8: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xa0ecf8: r0 = KourtAiThemeContext.kourtAi()
+    //     0xa0ecf8: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xa0ecfc: LoadField: r1 = r0->field_23
     //     0xa0ecfc: ldur            w1, [x0, #0x23]
     // 0xa0ed00: DecompressPointer r1
@@ -698,7 +698,7 @@ class :: {
     //     0xa0ed24: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0xa0ed28: b               #0xa0ecf8
   }
-  static _ BallAiThemeContext.ballAiDisabledButtonFill(/* No info */) {
+  static _ KourtAiThemeContext.kourtAiDisabledButtonFill(/* No info */) {
     // ** addr: 0xa0ed2c, size: 0x4c
     // 0xa0ed2c: EnterFrame
     //     0xa0ed2c: stp             fp, lr, [SP, #-0x10]!
@@ -707,8 +707,8 @@ class :: {
     //     0xa0ed34: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xa0ed38: cmp             SP, x16
     //     0xa0ed3c: b.ls            #0xa0ed70
-    // 0xa0ed40: r0 = BallAiThemeContext.ballAi()
-    //     0xa0ed40: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xa0ed40: r0 = KourtAiThemeContext.kourtAi()
+    //     0xa0ed40: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xa0ed44: LoadField: r1 = r0->field_23
     //     0xa0ed44: ldur            w1, [x0, #0x23]
     // 0xa0ed48: DecompressPointer r1
@@ -730,7 +730,7 @@ class :: {
     //     0xa0ed70: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0xa0ed74: b               #0xa0ed40
   }
-  ThemeData ballAiDarkTheme() {
+  ThemeData kourtAiDarkTheme() {
     // ** addr: 0xab0ff4, size: 0x38
     // 0xab0ff4: EnterFrame
     //     0xab0ff4: stp             fp, lr, [SP, #-0x10]!
@@ -741,11 +741,11 @@ class :: {
     //     0xab1004: b.ls            #0xab1024
     // 0xab1008: r1 = Instance_Brightness
     //     0xab1008: ldr             x1, [PP, #0x5410]  ; [pp+0x5410] Obj!Brightness@d3be81
-    // 0xab100c: r2 = Instance_BallAiThemeExtension
-    //     0xab100c: add             x2, PP, #0x15, lsl #12  ; [pp+0x151a8] Obj!BallAiThemeExtension@d26b01
+    // 0xab100c: r2 = Instance_KourtAiThemeExtension
+    //     0xab100c: add             x2, PP, #0x15, lsl #12  ; [pp+0x151a8] Obj!KourtAiThemeExtension@d26b01
     //     0xab1010: ldr             x2, [x2, #0x1a8]
-    // 0xab1014: r0 = _buildBallAiTheme()
-    //     0xab1014: bl              #0xab11c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::_buildBallAiTheme
+    // 0xab1014: r0 = _buildKourtAiTheme()
+    //     0xab1014: bl              #0xab11c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::_buildKourtAiTheme
     // 0xab1018: LeaveFrame
     //     0xab1018: mov             SP, fp
     //     0xab101c: ldp             fp, lr, [SP], #0x10
@@ -755,7 +755,7 @@ class :: {
     //     0xab1024: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0xab1028: b               #0xab1008
   }
-  ThemeData ballAiLightTheme() {
+  ThemeData kourtAiLightTheme() {
     // ** addr: 0xab102c, size: 0x38
     // 0xab102c: EnterFrame
     //     0xab102c: stp             fp, lr, [SP, #-0x10]!
@@ -766,11 +766,11 @@ class :: {
     //     0xab103c: b.ls            #0xab105c
     // 0xab1040: r1 = Instance_Brightness
     //     0xab1040: ldr             x1, [PP, #0x5170]  ; [pp+0x5170] Obj!Brightness@d3be61
-    // 0xab1044: r2 = Instance_BallAiThemeExtension
-    //     0xab1044: add             x2, PP, #0x15, lsl #12  ; [pp+0x15280] Obj!BallAiThemeExtension@d26b31
+    // 0xab1044: r2 = Instance_KourtAiThemeExtension
+    //     0xab1044: add             x2, PP, #0x15, lsl #12  ; [pp+0x15280] Obj!KourtAiThemeExtension@d26b31
     //     0xab1048: ldr             x2, [x2, #0x280]
-    // 0xab104c: r0 = _buildBallAiTheme()
-    //     0xab104c: bl              #0xab11c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::_buildBallAiTheme
+    // 0xab104c: r0 = _buildKourtAiTheme()
+    //     0xab104c: bl              #0xab11c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::_buildKourtAiTheme
     // 0xab1050: LeaveFrame
     //     0xab1050: mov             SP, fp
     //     0xab1054: ldp             fp, lr, [SP], #0x10
@@ -780,7 +780,7 @@ class :: {
     //     0xab105c: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0xab1060: b               #0xab1040
   }
-  static _ _buildBallAiTheme(/* No info */) {
+  static _ _buildKourtAiTheme(/* No info */) {
     // ** addr: 0xab11c0, size: 0x608
     // 0xab11c0: EnterFrame
     //     0xab11c0: stp             fp, lr, [SP, #-0x10]!
@@ -936,8 +936,8 @@ class :: {
     // 0xab1348: StoreField: r2->field_b = r0
     //     0xab1348: stur            w0, [x2, #0xb]
     // 0xab134c: ldur            x1, [fp, #-0x28]
-    // 0xab1350: r0 = ballAiSystemOverlayStyle()
-    //     0xab1350: bl              #0xab181c  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::ballAiSystemOverlayStyle
+    // 0xab1350: r0 = kourtAiSystemOverlayStyle()
+    //     0xab1350: bl              #0xab181c  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::kourtAiSystemOverlayStyle
     // 0xab1354: stur            x0, [fp, #-0x18]
     // 0xab1358: r0 = AppBarTheme()
     //     0xab1358: bl              #0x9ba068  ; AllocateAppBarThemeStub -> AppBarTheme (size=0x58)
@@ -1363,7 +1363,7 @@ class :: {
     //     0xab17c0: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0xab17c4: b               #0xab11e4
   }
-  static _ ballAiSystemOverlayStyle(/* No info */) {
+  static _ kourtAiSystemOverlayStyle(/* No info */) {
     // ** addr: 0xab181c, size: 0x6c
     // 0xab181c: EnterFrame
     //     0xab181c: stp             fp, lr, [SP, #-0x10]!
@@ -1406,7 +1406,7 @@ class :: {
     //     0xab1880: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0xab1884: b               #0xab1834
   }
-  static _ BallAiThemeContext.ballAiProgressTrackFill(/* No info */) {
+  static _ KourtAiThemeContext.kourtAiProgressTrackFill(/* No info */) {
     // ** addr: 0xbc3c40, size: 0x4c
     // 0xbc3c40: EnterFrame
     //     0xbc3c40: stp             fp, lr, [SP, #-0x10]!
@@ -1415,8 +1415,8 @@ class :: {
     //     0xbc3c48: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xbc3c4c: cmp             SP, x16
     //     0xbc3c50: b.ls            #0xbc3c84
-    // 0xbc3c54: r0 = BallAiThemeContext.ballAi()
-    //     0xbc3c54: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xbc3c54: r0 = KourtAiThemeContext.kourtAi()
+    //     0xbc3c54: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xbc3c58: LoadField: r1 = r0->field_23
     //     0xbc3c58: ldur            w1, [x0, #0x23]
     // 0xbc3c5c: DecompressPointer r1
@@ -1442,7 +1442,7 @@ class :: {
 
 // class id: 5083, size: 0x28, field offset: 0xc
 //   const constructor, 
-class BallAiThemeExtension extends ThemeExtension<dynamic> {
+class KourtAiThemeExtension extends ThemeExtension<dynamic> {
 
   Color field_c;
   Color field_10;
@@ -1459,7 +1459,7 @@ class BallAiThemeExtension extends ThemeExtension<dynamic> {
     //     0xb8cb74: mov             fp, SP
     // 0xb8cb78: AllocStack(0x50)
     //     0xb8cb78: sub             SP, SP, #0x50
-    // 0xb8cb7c: SetupParameters(BallAiThemeExtension this /* r1 => r4, fp-0x10 */, dynamic _ /* r2 => r0, fp-0x18 */, dynamic _ /* d0 => d0, fp-0x50 */)
+    // 0xb8cb7c: SetupParameters(KourtAiThemeExtension this /* r1 => r4, fp-0x10 */, dynamic _ /* r2 => r0, fp-0x18 */, dynamic _ /* d0 => d0, fp-0x50 */)
     //     0xb8cb7c: mov             x4, x1
     //     0xb8cb80: mov             x0, x2
     //     0xb8cb84: stur            x1, [fp, #-0x10]
@@ -1606,11 +1606,11 @@ class BallAiThemeExtension extends ThemeExtension<dynamic> {
     // 0xb8cd10: ldur            x3, [fp, #-0x38]
     // 0xb8cd14: ldur            x2, [fp, #-0x40]
     // 0xb8cd18: stur            x7, [fp, #-8]
-    // 0xb8cd1c: r1 = <BallAiThemeExtension>
-    //     0xb8cd1c: add             x1, PP, #0x20, lsl #12  ; [pp+0x201a8] TypeArguments: <BallAiThemeExtension>
+    // 0xb8cd1c: r1 = <KourtAiThemeExtension>
+    //     0xb8cd1c: add             x1, PP, #0x20, lsl #12  ; [pp+0x201a8] TypeArguments: <KourtAiThemeExtension>
     //     0xb8cd20: ldr             x1, [x1, #0x1a8]
-    // 0xb8cd24: r0 = BallAiThemeExtension()
-    //     0xb8cd24: bl              #0xb8cd98  ; AllocateBallAiThemeExtensionStub -> BallAiThemeExtension (size=0x28)
+    // 0xb8cd24: r0 = KourtAiThemeExtension()
+    //     0xb8cd24: bl              #0xb8cd98  ; AllocateKourtAiThemeExtensionStub -> KourtAiThemeExtension (size=0x28)
     // 0xb8cd28: ldur            x1, [fp, #-0x20]
     // 0xb8cd2c: StoreField: r0->field_b = r1
     //     0xb8cd2c: stur            w1, [x0, #0xb]

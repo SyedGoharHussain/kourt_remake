@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/my_player/nba_comparison_resolver.dart
+// lib: , url: package:kourtai/automatic/models/core/my_player/nba_comparison_resolver.dart
 
 // class id: 1048692, size: 0x8
 class :: {
@@ -162,7 +162,7 @@ abstract class NbaComparisonResolver extends Object {
     // 0x9fe684: ldur            x2, [fp, #-8]
     // 0x9fe688: ldur            x1, [fp, #-0x18]
     // 0x9fe68c: r0 = _positionTitle()
-    //     0x9fe68c: bl              #0x9fe7f4  ; [package:ballai/automatic/models/core/my_player/nba_comparison_resolver.dart] NbaComparisonResolver::_positionTitle
+    //     0x9fe68c: bl              #0x9fe7f4  ; [package:kourtai/automatic/models/core/my_player/nba_comparison_resolver.dart] NbaComparisonResolver::_positionTitle
     // 0x9fe690: mov             x3, x0
     // 0x9fe694: ldur            x0, [fp, #-8]
     // 0x9fe698: stur            x3, [fp, #-0x40]
@@ -228,7 +228,7 @@ abstract class NbaComparisonResolver extends Object {
     // 0x9fe734: ldur            x0, [fp, #-0x20]
     // 0x9fe738: ldur            x1, [fp, #-0x18]
     // 0x9fe73c: r0 = _positionTitle()
-    //     0x9fe73c: bl              #0x9fe7f4  ; [package:ballai/automatic/models/core/my_player/nba_comparison_resolver.dart] NbaComparisonResolver::_positionTitle
+    //     0x9fe73c: bl              #0x9fe7f4  ; [package:kourtai/automatic/models/core/my_player/nba_comparison_resolver.dart] NbaComparisonResolver::_positionTitle
     // 0x9fe740: r1 = Null
     //     0x9fe740: mov             x1, NULL
     // 0x9fe744: r2 = 4

@@ -1,11 +1,11 @@
-// lib: , url: package:ballai/automatic/app/logging/ball_ai_logger.dart
+// lib: , url: package:kourtai/automatic/app/logging/kourt_ai_logger.dart
 
 // class id: 1048659, size: 0x8
 class :: {
 }
 
 // class id: 5146, size: 0x8, field offset: 0x8
-abstract class BallAiLogger extends Object {
+abstract class KourtAiLogger extends Object {
 
   static _ info(/* No info */) {
     // ** addr: 0x60b454, size: 0x48
@@ -26,7 +26,7 @@ abstract class BallAiLogger extends Object {
     // 0x60b47c: r4 = const [0, 0x4, 0, 0x4, null]
     //     0x60b47c: ldr             x4, [PP, #0xc08]  ; [pp+0xc08] List(5) [0, 0x4, 0, 0x4, Null]
     // 0x60b480: r0 = _emit()
-    //     0x60b480: bl              #0x60b49c  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::_emit
+    //     0x60b480: bl              #0x60b49c  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::_emit
     // 0x60b484: r0 = Null
     //     0x60b484: mov             x0, NULL
     // 0x60b488: LeaveFrame
@@ -63,8 +63,8 @@ abstract class BallAiLogger extends Object {
     //     0x60b4d4: mov             x2, #6
     // 0x60b4d8: r0 = AllocateArray()
     //     0x60b4d8: bl              #0xe560ac  ; AllocateArrayStub
-    // 0x60b4dc: r16 = "BallAI"
-    //     0x60b4dc: add             x16, PP, #9, lsl #12  ; [pp+0x9a20] "BallAI"
+    // 0x60b4dc: r16 = "KourtAI"
+    //     0x60b4dc: add             x16, PP, #9, lsl #12  ; [pp+0x9a20] "KourtAI"
     //     0x60b4e0: ldr             x16, [x16, #0xa20]
     // 0x60b4e4: StoreField: r0->field_f = r16
     //     0x60b4e4: stur            w16, [x0, #0xf]
@@ -195,7 +195,7 @@ abstract class BallAiLogger extends Object {
     //     0x60b64c: stur            w16, [x0, #0xf]
     // 0x60b650: ldur            x1, [fp, #-0x20]
     // 0x60b654: r0 = _safeError()
-    //     0x60b654: bl              #0x60b6e8  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::_safeError
+    //     0x60b654: bl              #0x60b6e8  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::_safeError
     // 0x60b658: ldur            x1, [fp, #-8]
     // 0x60b65c: ArrayStore: r1[1] = r0  ; List_4
     //     0x60b65c: add             x25, x1, #0x13
@@ -388,7 +388,7 @@ abstract class BallAiLogger extends Object {
     // 0x65eabc: r4 = const [0, 0x4, 0, 0x4, null]
     //     0x65eabc: ldr             x4, [PP, #0xc08]  ; [pp+0xc08] List(5) [0, 0x4, 0, 0x4, Null]
     // 0x65eac0: r0 = _emit()
-    //     0x65eac0: bl              #0x60b49c  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::_emit
+    //     0x65eac0: bl              #0x60b49c  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::_emit
     // 0x65eac4: r0 = Null
     //     0x65eac4: mov             x0, NULL
     // 0x65eac8: LeaveFrame
@@ -424,7 +424,7 @@ abstract class BallAiLogger extends Object {
     //     0xc29a84: add             x4, PP, #9, lsl #12  ; [pp+0x9a18] List(7) [0, 0x5, 0x1, 0x4, "stackTrace", 0x4, Null]
     //     0xc29a88: ldr             x4, [x4, #0xa18]
     // 0xc29a8c: r0 = _emit()
-    //     0xc29a8c: bl              #0x60b49c  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::_emit
+    //     0xc29a8c: bl              #0x60b49c  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::_emit
     // 0xc29a90: r0 = Null
     //     0xc29a90: mov             x0, NULL
     // 0xc29a94: LeaveFrame
@@ -439,7 +439,7 @@ abstract class BallAiLogger extends Object {
 }
 
 // class id: 6732, size: 0x14, field offset: 0x14
-enum BallAiLogCategory extends _Enum {
+enum KourtAiLogCategory extends _Enum {
 
   _Mint field_8;
   _OneByteString field_10;
@@ -451,7 +451,7 @@ enum BallAiLogCategory extends _Enum {
     //     0xcd8cf4: mov             fp, SP
     // 0xcd8cf8: AllocStack(0x10)
     //     0xcd8cf8: sub             SP, SP, #0x10
-    // 0xcd8cfc: SetupParameters(BallAiLogCategory this /* r1 => r0, fp-0x8 */)
+    // 0xcd8cfc: SetupParameters(KourtAiLogCategory this /* r1 => r0, fp-0x8 */)
     //     0xcd8cfc: mov             x0, x1
     //     0xcd8d00: stur            x1, [fp, #-8]
     // 0xcd8d04: CheckStackOverflow
@@ -464,8 +464,8 @@ enum BallAiLogCategory extends _Enum {
     //     0xcd8d14: mov             x2, #4
     // 0xcd8d18: r0 = AllocateArray()
     //     0xcd8d18: bl              #0xe560ac  ; AllocateArrayStub
-    // 0xcd8d1c: r16 = "BallAiLogCategory."
-    //     0xcd8d1c: add             x16, PP, #0xf, lsl #12  ; [pp+0xfd20] "BallAiLogCategory."
+    // 0xcd8d1c: r16 = "KourtAiLogCategory."
+    //     0xcd8d1c: add             x16, PP, #0xf, lsl #12  ; [pp+0xfd20] "KourtAiLogCategory."
     //     0xcd8d20: ldr             x16, [x16, #0xd20]
     // 0xcd8d24: StoreField: r0->field_f = r16
     //     0xcd8d24: stur            w16, [x0, #0xf]

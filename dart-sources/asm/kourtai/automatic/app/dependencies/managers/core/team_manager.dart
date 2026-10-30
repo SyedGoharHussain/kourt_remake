@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/managers/core/team_manager.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart
 
 // class id: 1048650, size: 0x8
 class :: {
@@ -221,7 +221,7 @@ class TeamManager extends ChangeNotifier {
     // 0x767278: mov             x2, x0
     // 0x76727c: stur            x5, [fp, #-0x10]
     // 0x767280: r1 = Function '<anonymous closure>':.
-    //     0x767280: add             x1, PP, #0x13, lsl #12  ; [pp+0x13d10] AnonymousClosure: (0x76a624), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
+    //     0x767280: add             x1, PP, #0x13, lsl #12  ; [pp+0x13d10] AnonymousClosure: (0x76a624), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
     //     0x767284: ldr             x1, [x1, #0xd10]
     // 0x767288: r0 = AllocateClosure()
     //     0x767288: bl              #0xe553e0  ; AllocateClosureStub
@@ -328,7 +328,7 @@ class TeamManager extends ChangeNotifier {
     //     0x76739c: stur            w0, [x2, #0xb]
     // 0x7673a0: ldr             x1, [fp, #0x10]
     // 0x7673a4: r0 = fromFirestore()
-    //     0x7673a4: bl              #0x7698b4  ; [package:ballai/automatic/models/core/team/team_model.dart] TeamModel::fromFirestore
+    //     0x7673a4: bl              #0x7698b4  ; [package:kourtai/automatic/models/core/team/team_model.dart] TeamModel::fromFirestore
     // 0x7673a8: mov             x4, x0
     // 0x7673ac: ldur            x3, [fp, #-0x10]
     // 0x7673b0: stur            x4, [fp, #-0x20]
@@ -365,7 +365,7 @@ class TeamManager extends ChangeNotifier {
     //     0x767404: bl              #0x5f9020  ; [dart:core] List::List.from
     // 0x767408: ldur            x2, [fp, #-0x10]
     // 0x76740c: r1 = Function '<anonymous closure>':.
-    //     0x76740c: add             x1, PP, #0x13, lsl #12  ; [pp+0x13d18] AnonymousClosure: (0x767170), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
+    //     0x76740c: add             x1, PP, #0x13, lsl #12  ; [pp+0x13d18] AnonymousClosure: (0x767170), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
     //     0x767410: ldr             x1, [x1, #0xd18]
     // 0x767414: stur            x0, [fp, #-0x10]
     // 0x767418: r0 = AllocateClosure()
@@ -440,7 +440,7 @@ class TeamManager extends ChangeNotifier {
     //     0x7674d8: b.eq            #0x7674e0
     //     0x7674dc: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0x7674e0: r1 = Function '<anonymous closure>':.
-    //     0x7674e0: add             x1, PP, #0x13, lsl #12  ; [pp+0x13d30] AnonymousClosure: (0x76a584), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
+    //     0x7674e0: add             x1, PP, #0x13, lsl #12  ; [pp+0x13d30] AnonymousClosure: (0x76a584), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
     //     0x7674e4: ldr             x1, [x1, #0xd30]
     // 0x7674e8: r2 = Null
     //     0x7674e8: mov             x2, NULL
@@ -472,7 +472,7 @@ class TeamManager extends ChangeNotifier {
     // 0x767534: DecompressPointer r2
     //     0x767534: add             x2, x2, HEAP, lsl #32
     // 0x767538: r0 = ensureDiscoverableAssetsLoaded()
-    //     0x767538: bl              #0x768dcc  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::ensureDiscoverableAssetsLoaded
+    //     0x767538: bl              #0x768dcc  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::ensureDiscoverableAssetsLoaded
     // 0x76753c: ldur            x0, [fp, #-8]
     // 0x767540: LoadField: r2 = r0->field_b
     //     0x767540: ldur            w2, [x0, #0xb]
@@ -484,14 +484,14 @@ class TeamManager extends ChangeNotifier {
     // 0x767550: DecompressPointer r1
     //     0x767550: add             x1, x1, HEAP, lsl #32
     // 0x767554: r0 = _notifyListeners()
-    //     0x767554: bl              #0x768d48  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
+    //     0x767554: bl              #0x768d48  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
     // 0x767558: ldur            x0, [fp, #-0x10]
     // 0x76755c: LoadField: r1 = r0->field_f
     //     0x76755c: ldur            w1, [x0, #0xf]
     // 0x767560: DecompressPointer r1
     //     0x767560: add             x1, x1, HEAP, lsl #32
     // 0x767564: r0 = _refreshDiscoverablePreview()
-    //     0x767564: bl              #0x767580  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_refreshDiscoverablePreview
+    //     0x767564: bl              #0x767580  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_refreshDiscoverablePreview
     // 0x767568: r0 = Null
     //     0x767568: mov             x0, NULL
     // 0x76756c: LeaveFrame
@@ -549,7 +549,7 @@ class TeamManager extends ChangeNotifier {
     //     0x7675f0: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x7675f4: mov             x1, x3
     // 0x7675f8: r0 = _notifyListeners()
-    //     0x7675f8: bl              #0x768d48  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
+    //     0x7675f8: bl              #0x768d48  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
     // 0x7675fc: r0 = Null
     //     0x7675fc: mov             x0, NULL
     // 0x767600: r0 = ReturnAsyncNotFuture()
@@ -587,7 +587,7 @@ class TeamManager extends ChangeNotifier {
     //     0x767650: bl              #0xe4f314  ; [dart:ui] _NativeScene::_NativeScene._
     // 0x767654: ldur            x1, [fp, #-0xa8]
     // 0x767658: r0 = _notifyListeners()
-    //     0x767658: bl              #0x768d48  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
+    //     0x767658: bl              #0x768d48  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
     // 0x76765c: ldur            x0, [fp, #-0xa8]
     // 0x767660: r1 = <TeamModel>
     //     0x767660: add             x1, PP, #0x13, lsl #12  ; [pp+0x13b18] TypeArguments: <TeamModel>
@@ -962,7 +962,7 @@ class TeamManager extends ChangeNotifier {
     // 0x767a68: b.ge            #0x767b80
     // 0x767a6c: ldur            x1, [fp, #-0xe8]
     // 0x767a70: r0 = fromFirestore()
-    //     0x767a70: bl              #0x7698b4  ; [package:ballai/automatic/models/core/team/team_model.dart] TeamModel::fromFirestore
+    //     0x767a70: bl              #0x7698b4  ; [package:kourtai/automatic/models/core/team/team_model.dart] TeamModel::fromFirestore
     // 0x767a74: stur            x0, [fp, #-0xe8]
     // 0x767a78: cmp             w0, NULL
     // 0x767a7c: b.ne            #0x767a88
@@ -973,7 +973,7 @@ class TeamManager extends ChangeNotifier {
     // 0x767a8c: DecompressPointer r1
     //     0x767a8c: add             x1, x1, HEAP, lsl #32
     // 0x767a90: r0 = fromString()
-    //     0x767a90: bl              #0x768108  ; [package:ballai/automatic/models/core/team/team_visibility.dart] TeamVisibility::fromString
+    //     0x767a90: bl              #0x768108  ; [package:kourtai/automatic/models/core/team/team_visibility.dart] TeamVisibility::fromString
     // 0x767a94: r16 = Instance_TeamVisibility
     //     0x767a94: add             x16, PP, #0x13, lsl #12  ; [pp+0x13f50] Obj!TeamVisibility@d3b281
     //     0x767a98: ldr             x16, [x16, #0xf50]
@@ -1165,7 +1165,7 @@ class TeamManager extends ChangeNotifier {
     // 0x767cbc: b               #0x76768c
     // 0x767cc0: ldur            x0, [fp, #-0xa8]
     // 0x767cc4: r1 = Function '<anonymous closure>':.
-    //     0x767cc4: add             x1, PP, #0x13, lsl #12  ; [pp+0x13f58] AnonymousClosure: (0x768bfc), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_refreshDiscoverablePreview (0x767580)
+    //     0x767cc4: add             x1, PP, #0x13, lsl #12  ; [pp+0x13f58] AnonymousClosure: (0x768bfc), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_refreshDiscoverablePreview (0x767580)
     //     0x767cc8: ldr             x1, [x1, #0xf58]
     // 0x767ccc: r2 = Null
     //     0x767ccc: mov             x2, NULL
@@ -1266,7 +1266,7 @@ class TeamManager extends ChangeNotifier {
     //     0x767dd8: add             x2, x2, HEAP, lsl #32
     // 0x767ddc: ldur            x1, [fp, #-0xa8]
     // 0x767de0: r0 = ensureDiscoverableAssetsLoaded()
-    //     0x767de0: bl              #0x768dcc  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::ensureDiscoverableAssetsLoaded
+    //     0x767de0: bl              #0x768dcc  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::ensureDiscoverableAssetsLoaded
     // 0x767de4: ldur            x3, [fp, #-0xc0]
     // 0x767de8: ldur            x4, [fp, #-0xd8]
     // 0x767dec: ldur            x5, [fp, #-0x100]
@@ -1345,7 +1345,7 @@ class TeamManager extends ChangeNotifier {
     //     0x767ebc: bl              #0xe4f314  ; [dart:ui] _NativeScene::_NativeScene._
     // 0x767ec0: ldur            x1, [fp, #-0xa8]
     // 0x767ec4: r0 = _notifyListeners()
-    //     0x767ec4: bl              #0x768d48  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
+    //     0x767ec4: bl              #0x768d48  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
     // 0x767ec8: r0 = Null
     //     0x767ec8: mov             x0, NULL
     // 0x767ecc: r0 = ReturnAsyncNotFuture()
@@ -1397,7 +1397,7 @@ class TeamManager extends ChangeNotifier {
     //     0x767f54: bl              #0xe4f314  ; [dart:ui] _NativeScene::_NativeScene._
     // 0x767f58: ldur            x1, [fp, #-0xa8]
     // 0x767f5c: r0 = _notifyListeners()
-    //     0x767f5c: bl              #0x768d48  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
+    //     0x767f5c: bl              #0x768d48  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
     // 0x767f60: ldur            x0, [fp, #-0xb0]
     // 0x767f64: ldur            x1, [fp, #-0xb8]
     // 0x767f68: r0 = ReThrow()
@@ -1586,7 +1586,7 @@ class TeamManager extends ChangeNotifier {
     //     0x768dac: cmp             SP, x16
     //     0x768db0: b.ls            #0x768dc4
     // 0x768db4: r0 = _notifyListeners()
-    //     0x768db4: bl              #0x768d48  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
+    //     0x768db4: bl              #0x768d48  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
     // 0x768db8: LeaveFrame
     //     0x768db8: mov             SP, fp
     //     0x768dbc: ldp             fp, lr, [SP], #0x10
@@ -1646,7 +1646,7 @@ class TeamManager extends ChangeNotifier {
     // 0x768e4c: ldur            x1, [fp, #-0x10]
     // 0x768e50: ldur            x2, [fp, #-0x18]
     // 0x768e54: r0 = _fetchTeamLogo()
-    //     0x768e54: bl              #0x7694fc  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchTeamLogo
+    //     0x768e54: bl              #0x7694fc  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchTeamLogo
     // 0x768e58: mov             x1, x0
     // 0x768e5c: stur            x1, [fp, #-0x20]
     // 0x768e60: r0 = Await()
@@ -1674,7 +1674,7 @@ class TeamManager extends ChangeNotifier {
     // 0x768ea0: ldur            x1, [fp, #-0x10]
     // 0x768ea4: ldur            x2, [fp, #-0x18]
     // 0x768ea8: r0 = _fetchTeamBanner()
-    //     0x768ea8: bl              #0x768ec8  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchTeamBanner
+    //     0x768ea8: bl              #0x768ec8  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchTeamBanner
     // 0x768eac: mov             x1, x0
     // 0x768eb0: stur            x1, [fp, #-0x10]
     // 0x768eb4: r0 = Await()
@@ -1726,7 +1726,7 @@ class TeamManager extends ChangeNotifier {
     //     0x768f24: bl              #0xdb26c4  ; [dart:_compact_hash] __Set&_HashVMBase&SetMixin&_HashBase&_OperatorEqualsAndHashCode&_LinkedHashSetMixin::add
     // 0x768f28: ldur            x1, [fp, #-0x68]
     // 0x768f2c: r0 = fetchTeamBannerUrl()
-    //     0x768f2c: bl              #0x768fb4  ; [package:ballai/shared/app/firebase/cloudstorage/cloud_storage.dart] CloudStorage::fetchTeamBannerUrl
+    //     0x768f2c: bl              #0x768fb4  ; [package:kourtai/shared/app/firebase/cloudstorage/cloud_storage.dart] CloudStorage::fetchTeamBannerUrl
     // 0x768f30: mov             x1, x0
     // 0x768f34: stur            x1, [fp, #-0x78]
     // 0x768f38: r0 = Await()
@@ -1745,7 +1745,7 @@ class TeamManager extends ChangeNotifier {
     //     0x768f5c: bl              #0xda3398  ; [dart:_compact_hash] __Map&_HashVMBase&MapMixin&_HashBase&_OperatorEqualsAndHashCode&_LinkedHashMapMixin::[]=
     // 0x768f60: ldur            x1, [fp, #-0x60]
     // 0x768f64: r0 = _notifyListeners()
-    //     0x768f64: bl              #0x768d48  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
+    //     0x768f64: bl              #0x768d48  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
     // 0x768f68: ldur            x1, [fp, #-0x70]
     // 0x768f6c: ldur            x2, [fp, #-0x68]
     // 0x768f70: r0 = remove()
@@ -1811,7 +1811,7 @@ class TeamManager extends ChangeNotifier {
     //     0x769558: bl              #0xdb26c4  ; [dart:_compact_hash] __Set&_HashVMBase&SetMixin&_HashBase&_OperatorEqualsAndHashCode&_LinkedHashSetMixin::add
     // 0x76955c: ldur            x1, [fp, #-0x68]
     // 0x769560: r0 = fetchTeamLogoUrl()
-    //     0x769560: bl              #0x769614  ; [package:ballai/shared/app/firebase/cloudstorage/cloud_storage.dart] CloudStorage::fetchTeamLogoUrl
+    //     0x769560: bl              #0x769614  ; [package:kourtai/shared/app/firebase/cloudstorage/cloud_storage.dart] CloudStorage::fetchTeamLogoUrl
     // 0x769564: mov             x1, x0
     // 0x769568: stur            x1, [fp, #-0x78]
     // 0x76956c: r0 = Await()
@@ -1838,7 +1838,7 @@ class TeamManager extends ChangeNotifier {
     //     0x7695a4: bl              #0xdb63d0  ; [dart:_compact_hash] __Set&_HashVMBase&SetMixin&_HashBase&_OperatorEqualsAndHashCode&_LinkedHashSetMixin::remove
     // 0x7695a8: ldur            x1, [fp, #-0x60]
     // 0x7695ac: r0 = _notifyListeners()
-    //     0x7695ac: bl              #0x768d48  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
+    //     0x7695ac: bl              #0x768d48  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
     // 0x7695b0: b               #0x7695c8
     // 0x7695b4: ldur            x0, [fp, #-0x60]
     // 0x7695b8: LoadField: r1 = r0->field_97
@@ -2157,10 +2157,10 @@ class TeamManager extends ChangeNotifier {
     //     0x76a880: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x76a884: mov             x1, x2
     // 0x76a888: r0 = _refreshDiscoverablePreview()
-    //     0x76a888: bl              #0x767580  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_refreshDiscoverablePreview
+    //     0x76a888: bl              #0x767580  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_refreshDiscoverablePreview
     // 0x76a88c: ldur            x1, [fp, #-8]
     // 0x76a890: r0 = _notifyListeners()
-    //     0x76a890: bl              #0x768d48  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
+    //     0x76a890: bl              #0x768d48  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
     // 0x76a894: r0 = Null
     //     0x76a894: mov             x0, NULL
     // 0x76a898: LeaveFrame
@@ -2289,14 +2289,14 @@ class TeamManager extends ChangeNotifier {
     //     0x76a9f8: bl              #0x5f43f0  ; [package:cloud_firestore/cloud_firestore.dart] _JsonDocumentReference::snapshots
     // 0x76a9fc: ldur            x2, [fp, #-0x68]
     // 0x76aa00: r1 = Function '<anonymous closure>':.
-    //     0x76aa00: add             x1, PP, #0x13, lsl #12  ; [pp+0x13cd0] AnonymousClosure: (0x7671e8), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
+    //     0x76aa00: add             x1, PP, #0x13, lsl #12  ; [pp+0x13cd0] AnonymousClosure: (0x7671e8), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
     //     0x76aa04: ldr             x1, [x1, #0xcd0]
     // 0x76aa08: stur            x0, [fp, #-0x70]
     // 0x76aa0c: r0 = AllocateClosure()
     //     0x76aa0c: bl              #0xe553e0  ; AllocateClosureStub
     // 0x76aa10: ldur            x2, [fp, #-0x68]
     // 0x76aa14: r1 = Function '<anonymous closure>':.
-    //     0x76aa14: add             x1, PP, #0x13, lsl #12  ; [pp+0x13cd8] AnonymousClosure: (0x76abf8), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
+    //     0x76aa14: add             x1, PP, #0x13, lsl #12  ; [pp+0x13cd8] AnonymousClosure: (0x76abf8), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
     //     0x76aa18: ldr             x1, [x1, #0xcd8]
     // 0x76aa1c: stur            x0, [fp, #-0x68]
     // 0x76aa20: r0 = AllocateClosure()
@@ -2378,7 +2378,7 @@ class TeamManager extends ChangeNotifier {
     // 0x76ab00: ldur            x2, [fp, #-0x20]
     // 0x76ab04: stur            x3, [fp, #-0x10]
     // 0x76ab08: r1 = Function '<anonymous closure>':.
-    //     0x76ab08: add             x1, PP, #0x13, lsl #12  ; [pp+0x13d00] AnonymousClosure: (0x76aba8), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
+    //     0x76ab08: add             x1, PP, #0x13, lsl #12  ; [pp+0x13d00] AnonymousClosure: (0x76aba8), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
     //     0x76ab0c: ldr             x1, [x1, #0xd00]
     // 0x76ab10: r0 = AllocateClosure()
     //     0x76ab10: bl              #0xe553e0  ; AllocateClosureStub
@@ -2404,10 +2404,10 @@ class TeamManager extends ChangeNotifier {
     //     0x76ab4c: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x76ab50: mov             x1, x2
     // 0x76ab54: r0 = _notifyListeners()
-    //     0x76ab54: bl              #0x768d48  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
+    //     0x76ab54: bl              #0x768d48  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
     // 0x76ab58: ldur            x1, [fp, #-8]
     // 0x76ab5c: r0 = _refreshDiscoverablePreview()
-    //     0x76ab5c: bl              #0x767580  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_refreshDiscoverablePreview
+    //     0x76ab5c: bl              #0x767580  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_refreshDiscoverablePreview
     // 0x76ab60: r0 = Null
     //     0x76ab60: mov             x0, NULL
     // 0x76ab64: LeaveFrame
@@ -2577,7 +2577,7 @@ class TeamManager extends ChangeNotifier {
     // 0x81423c: DecompressPointer r1
     //     0x81423c: add             x1, x1, HEAP, lsl #32
     // 0x814240: r0 = fromString()
-    //     0x814240: bl              #0x768108  ; [package:ballai/automatic/models/core/team/team_visibility.dart] TeamVisibility::fromString
+    //     0x814240: bl              #0x768108  ; [package:kourtai/automatic/models/core/team/team_visibility.dart] TeamVisibility::fromString
     // 0x814244: r16 = Instance_TeamVisibility
     //     0x814244: add             x16, PP, #0x13, lsl #12  ; [pp+0x13f70] Obj!TeamVisibility@d3b261
     //     0x814248: ldr             x16, [x16, #0xf70]
@@ -2587,7 +2587,7 @@ class TeamManager extends ChangeNotifier {
     // 0x814258: ldur            x2, [fp, #-0x18]
     // 0x81425c: ldur            x3, [fp, #-0x20]
     // 0x814260: r0 = _addCurrentUserToTeam()
-    //     0x814260: bl              #0x8142dc  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_addCurrentUserToTeam
+    //     0x814260: bl              #0x8142dc  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_addCurrentUserToTeam
     // 0x814264: mov             x1, x0
     // 0x814268: stur            x1, [fp, #-0x10]
     // 0x81426c: r0 = Await()
@@ -2666,7 +2666,7 @@ class TeamManager extends ChangeNotifier {
     // 0x814330: mov             x3, x4
     // 0x814334: stur            x6, [fp, #-0x28]
     // 0x814338: r0 = _fetchMembership()
-    //     0x814338: bl              #0x815340  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchMembership
+    //     0x814338: bl              #0x815340  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchMembership
     // 0x81433c: mov             x1, x0
     // 0x814340: stur            x1, [fp, #-0x38]
     // 0x814344: r0 = Await()
@@ -2699,7 +2699,7 @@ class TeamManager extends ChangeNotifier {
     // 0x814390: ldur            x1, [fp, #-0x10]
     // 0x814394: ldur            x3, [fp, #-0x30]
     // 0x814398: r0 = _activatePendingMembership()
-    //     0x814398: bl              #0x814820  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_activatePendingMembership
+    //     0x814398: bl              #0x814820  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_activatePendingMembership
     // 0x81439c: mov             x1, x0
     // 0x8143a0: stur            x1, [fp, #-0x20]
     // 0x8143a4: r0 = Await()
@@ -2714,7 +2714,7 @@ class TeamManager extends ChangeNotifier {
     // 0x8143bc: r2 = Null
     //     0x8143bc: mov             x2, NULL
     // 0x8143c0: r0 = _createActiveMembership()
-    //     0x8143c0: bl              #0x81446c  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_createActiveMembership
+    //     0x8143c0: bl              #0x81446c  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_createActiveMembership
     // 0x8143c4: mov             x1, x0
     // 0x8143c8: stur            x1, [fp, #-0x10]
     // 0x8143cc: r0 = Await()
@@ -2812,7 +2812,7 @@ class TeamManager extends ChangeNotifier {
     // 0x8144b4: ldur            x2, [fp, #-0x20]
     // 0x8144b8: ldur            x3, [fp, #-0x28]
     // 0x8144bc: r0 = _fetchMembership()
-    //     0x8144bc: bl              #0x815340  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchMembership
+    //     0x8144bc: bl              #0x815340  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchMembership
     // 0x8144c0: mov             x1, x0
     // 0x8144c4: stur            x1, [fp, #-0x30]
     // 0x8144c8: r0 = Await()
@@ -3154,7 +3154,7 @@ class TeamManager extends ChangeNotifier {
     // 0x8148dc: b.eq            #0x814a58
     // 0x8148e0: ldur            x1, [fp, #-0x10]
     // 0x8148e4: r0 = fromFirestore()
-    //     0x8148e4: bl              #0x814ab0  ; [package:ballai/automatic/models/core/team/team_membership_model.dart] TeamMembershipModel::fromFirestore
+    //     0x8148e4: bl              #0x814ab0  ; [package:kourtai/automatic/models/core/team/team_membership_model.dart] TeamMembershipModel::fromFirestore
     // 0x8148e8: mov             x1, x0
     // 0x8148ec: stur            x1, [fp, #-0x10]
     // 0x8148f0: cmp             w1, NULL
@@ -3403,7 +3403,7 @@ class TeamManager extends ChangeNotifier {
     //     0x815418: bl              #0x8dbad4  ; [dart:core] _GrowableList::first
     // 0x81541c: mov             x1, x0
     // 0x815420: r0 = fromFirestore()
-    //     0x815420: bl              #0x814ab0  ; [package:ballai/automatic/models/core/team/team_membership_model.dart] TeamMembershipModel::fromFirestore
+    //     0x815420: bl              #0x814ab0  ; [package:kourtai/automatic/models/core/team/team_membership_model.dart] TeamMembershipModel::fromFirestore
     // 0x815424: r0 = ReturnAsyncNotFuture()
     //     0x815424: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x815428: r0 = StackOverflowSharedWithoutFPURegs()
@@ -3642,7 +3642,7 @@ class TeamManager extends ChangeNotifier {
     // 0x900614: blr             x9
     // 0x900618: ldur            x1, [fp, #-0x40]
     // 0x90061c: r0 = fromFirestore()
-    //     0x90061c: bl              #0x7698b4  ; [package:ballai/automatic/models/core/team/team_model.dart] TeamModel::fromFirestore
+    //     0x90061c: bl              #0x7698b4  ; [package:kourtai/automatic/models/core/team/team_model.dart] TeamModel::fromFirestore
     // 0x900620: stur            x0, [fp, #-0x40]
     // 0x900624: cmp             w0, NULL
     // 0x900628: b.ne            #0x900634
@@ -3653,7 +3653,7 @@ class TeamManager extends ChangeNotifier {
     // 0x900638: DecompressPointer r1
     //     0x900638: add             x1, x1, HEAP, lsl #32
     // 0x90063c: r0 = fromString()
-    //     0x90063c: bl              #0x768108  ; [package:ballai/automatic/models/core/team/team_visibility.dart] TeamVisibility::fromString
+    //     0x90063c: bl              #0x768108  ; [package:kourtai/automatic/models/core/team/team_visibility.dart] TeamVisibility::fromString
     // 0x900640: r16 = Instance_TeamVisibility
     //     0x900640: add             x16, PP, #0x13, lsl #12  ; [pp+0x13f50] Obj!TeamVisibility@d3b281
     //     0x900644: ldr             x16, [x16, #0xf50]
@@ -3714,7 +3714,7 @@ class TeamManager extends ChangeNotifier {
     // 0x9006f4: ldur            x4, [fp, #-0x30]
     // 0x9006f8: b               #0x900468
     // 0x9006fc: r1 = Function '<anonymous closure>':.
-    //     0x9006fc: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e20] AnonymousClosure: (0x76a584), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
+    //     0x9006fc: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e20] AnonymousClosure: (0x76a584), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
     //     0x900700: ldr             x1, [x1, #0xe20]
     // 0x900704: r2 = Null
     //     0x900704: mov             x2, NULL
@@ -3862,10 +3862,10 @@ class TeamManager extends ChangeNotifier {
     // 0x9389a4: ldur            x0, [fp, #-8]
     // 0x9389a8: mov             x1, x0
     // 0x9389ac: r0 = _stopUserMembershipListener()
-    //     0x9389ac: bl              #0x9395b4  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_stopUserMembershipListener
+    //     0x9389ac: bl              #0x9395b4  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_stopUserMembershipListener
     // 0x9389b0: ldur            x1, [fp, #-8]
     // 0x9389b4: r0 = _stopAllTeamDocumentListeners()
-    //     0x9389b4: bl              #0x939494  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_stopAllTeamDocumentListeners
+    //     0x9389b4: bl              #0x939494  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_stopAllTeamDocumentListeners
     // 0x9389b8: ldur            x0, [fp, #-0x10]
     // 0x9389bc: ldur            x3, [fp, #-8]
     // 0x9389c0: StoreField: r3->field_87 = r0
@@ -3920,7 +3920,7 @@ class TeamManager extends ChangeNotifier {
     //     0x938a44: bl              #0x7aa74c  ; [dart:_compact_hash] __Map&_HashVMBase&MapMixin&_HashBase&_OperatorEqualsAndHashCode&_LinkedHashMapMixin::clear
     // 0x938a48: ldur            x1, [fp, #-8]
     // 0x938a4c: r0 = _databaseTargets()
-    //     0x938a4c: bl              #0x939418  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_databaseTargets
+    //     0x938a4c: bl              #0x939418  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_databaseTargets
     // 0x938a50: stur            x0, [fp, #-0x50]
     // 0x938a54: LoadField: r1 = r0->field_b
     //     0x938a54: ldur            w1, [x0, #0xb]
@@ -4036,14 +4036,14 @@ class TeamManager extends ChangeNotifier {
     //     0x938b88: bl              #0x938d20  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQuery::snapshots
     // 0x938b8c: ldur            x2, [fp, #-0x58]
     // 0x938b90: r1 = Function '<anonymous closure>':.
-    //     0x938b90: add             x1, PP, #0x13, lsl #12  ; [pp+0x13b68] AnonymousClosure: (0x9397d0), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::startCurrentUserMembershipListener (0x938904)
+    //     0x938b90: add             x1, PP, #0x13, lsl #12  ; [pp+0x13b68] AnonymousClosure: (0x9397d0), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::startCurrentUserMembershipListener (0x938904)
     //     0x938b94: ldr             x1, [x1, #0xb68]
     // 0x938b98: stur            x0, [fp, #-0x30]
     // 0x938b9c: r0 = AllocateClosure()
     //     0x938b9c: bl              #0xe553e0  ; AllocateClosureStub
     // 0x938ba0: ldur            x2, [fp, #-0x58]
     // 0x938ba4: r1 = Function '<anonymous closure>':.
-    //     0x938ba4: add             x1, PP, #0x13, lsl #12  ; [pp+0x13b70] AnonymousClosure: (0x939700), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::startCurrentUserMembershipListener (0x938904)
+    //     0x938ba4: add             x1, PP, #0x13, lsl #12  ; [pp+0x13b70] AnonymousClosure: (0x939700), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::startCurrentUserMembershipListener (0x938904)
     //     0x938ba8: ldr             x1, [x1, #0xb70]
     // 0x938bac: stur            x0, [fp, #-0x58]
     // 0x938bb0: r0 = AllocateClosure()
@@ -4126,7 +4126,7 @@ class TeamManager extends ChangeNotifier {
     // 0x938c90: b               #0x938a80
     // 0x938c94: ldur            x1, [fp, #-8]
     // 0x938c98: r0 = _notifyListenersAsync()
-    //     0x938c98: bl              #0x938cd8  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListenersAsync
+    //     0x938c98: bl              #0x938cd8  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListenersAsync
     // 0x938c9c: r0 = Null
     //     0x938c9c: mov             x0, NULL
     // 0x938ca0: LeaveFrame
@@ -4162,7 +4162,7 @@ class TeamManager extends ChangeNotifier {
     //     0x938ce8: cmp             SP, x16
     //     0x938cec: b.ls            #0x938d18
     // 0x938cf0: r1 = Function '_notifyListeners@715340008':.
-    //     0x938cf0: add             x1, PP, #0x14, lsl #12  ; [pp+0x14048] AnonymousClosure: (0x768d94), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners (0x768d48)
+    //     0x938cf0: add             x1, PP, #0x14, lsl #12  ; [pp+0x14048] AnonymousClosure: (0x768d94), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners (0x768d48)
     //     0x938cf4: ldr             x1, [x1, #0x48]
     // 0x938cf8: r0 = AllocateClosure()
     //     0x938cf8: bl              #0xe553e0  ; AllocateClosureStub
@@ -4502,7 +4502,7 @@ class TeamManager extends ChangeNotifier {
     //     0x93973c: stur            w0, [x3, #0xa3]
     // 0x939740: mov             x1, x3
     // 0x939744: r0 = _notifyListeners()
-    //     0x939744: bl              #0x768d48  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
+    //     0x939744: bl              #0x768d48  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
     // 0x939748: r0 = InitLateStaticField(0x62c) // [package:flutter/src/foundation/print.dart] ::debugPrint
     //     0x939748: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x93974c: ldr             x0, [x0, #0xc58]
@@ -4636,7 +4636,7 @@ class TeamManager extends ChangeNotifier {
     // 0x93988c: StoreField: r1->field_a3 = r0
     //     0x93988c: stur            w0, [x1, #0xa3]
     // 0x939890: r0 = _rebuildMergedMemberships()
-    //     0x939890: bl              #0x9398ac  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_rebuildMergedMemberships
+    //     0x939890: bl              #0x9398ac  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_rebuildMergedMemberships
     // 0x939894: r0 = Null
     //     0x939894: mov             x0, NULL
     // 0x939898: LeaveFrame
@@ -4894,7 +4894,7 @@ class TeamManager extends ChangeNotifier {
     // 0x939b6c: ldur            x1, [fp, #-8]
     // 0x939b70: mov             x2, x0
     // 0x939b74: r0 = _syncActiveTeamListeners()
-    //     0x939b74: bl              #0x76a694  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners
+    //     0x939b74: bl              #0x76a694  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners
     // 0x939b78: r0 = Null
     //     0x939b78: mov             x0, NULL
     // 0x939b7c: LeaveFrame
@@ -5085,7 +5085,7 @@ class TeamManager extends ChangeNotifier {
     // 0x9744a8: r0 = _GrowableList.of()
     //     0x9744a8: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x9744ac: r1 = Function '<anonymous closure>':.
-    //     0x9744ac: add             x1, PP, #0x14, lsl #12  ; [pp+0x14090] AnonymousClosure: (0x9751e0), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_handleRosterMemberships (0x974434)
+    //     0x9744ac: add             x1, PP, #0x14, lsl #12  ; [pp+0x14090] AnonymousClosure: (0x9751e0), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_handleRosterMemberships (0x974434)
     //     0x9744b0: ldr             x1, [x1, #0x90]
     // 0x9744b4: r2 = Null
     //     0x9744b4: mov             x2, NULL
@@ -5104,7 +5104,7 @@ class TeamManager extends ChangeNotifier {
     // 0x9744d8: r0 = _GrowableList.of()
     //     0x9744d8: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x9744dc: r1 = Function '<anonymous closure>':.
-    //     0x9744dc: add             x1, PP, #0x14, lsl #12  ; [pp+0x14098] AnonymousClosure: (0x975174), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_handleRosterMemberships (0x974434)
+    //     0x9744dc: add             x1, PP, #0x14, lsl #12  ; [pp+0x14098] AnonymousClosure: (0x975174), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_handleRosterMemberships (0x974434)
     //     0x9744e0: ldr             x1, [x1, #0x98]
     // 0x9744e4: r2 = Null
     //     0x9744e4: mov             x2, NULL
@@ -5170,7 +5170,7 @@ class TeamManager extends ChangeNotifier {
     // 0x974580: ldur            x1, [fp, #-0x10]
     // 0x974584: mov             x2, x0
     // 0x974588: r0 = _fetchUsers()
-    //     0x974588: bl              #0x974d48  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchUsers
+    //     0x974588: bl              #0x974d48  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchUsers
     // 0x97458c: stur            x0, [fp, #-0x20]
     // 0x974590: r1 = 2
     //     0x974590: mov             x1, #2
@@ -5596,7 +5596,7 @@ class TeamManager extends ChangeNotifier {
     // 0x974a7c: ldur            x2, [fp, #-0x38]
     // 0x974a80: stur            x3, [fp, #-0x40]
     // 0x974a84: r1 = Function '<anonymous closure>':.
-    //     0x974a84: add             x1, PP, #0x14, lsl #12  ; [pp+0x140d8] AnonymousClosure: (0x975104), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_handleRosterMemberships (0x974434)
+    //     0x974a84: add             x1, PP, #0x14, lsl #12  ; [pp+0x140d8] AnonymousClosure: (0x975104), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_handleRosterMemberships (0x974434)
     //     0x974a88: ldr             x1, [x1, #0xd8]
     // 0x974a8c: r0 = AllocateClosure()
     //     0x974a8c: bl              #0xe553e0  ; AllocateClosureStub
@@ -5626,7 +5626,7 @@ class TeamManager extends ChangeNotifier {
     // 0x974acc: r0 = _GrowableList.of()
     //     0x974acc: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x974ad0: r1 = Function '<anonymous closure>':.
-    //     0x974ad0: add             x1, PP, #0x14, lsl #12  ; [pp+0x140e8] AnonymousClosure: (0x974394), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_handleRosterMemberships (0x974434)
+    //     0x974ad0: add             x1, PP, #0x14, lsl #12  ; [pp+0x140e8] AnonymousClosure: (0x974394), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_handleRosterMemberships (0x974434)
     //     0x974ad4: ldr             x1, [x1, #0xe8]
     // 0x974ad8: r2 = Null
     //     0x974ad8: mov             x2, NULL
@@ -5668,7 +5668,7 @@ class TeamManager extends ChangeNotifier {
     //     0x974b44: bl              #0x5c79a0  ; [dart:core] _GrowableList::_GrowableList._ofGrowableList
     // 0x974b48: ldur            x2, [fp, #-0x38]
     // 0x974b4c: r1 = Function '<anonymous closure>':.
-    //     0x974b4c: add             x1, PP, #0x14, lsl #12  ; [pp+0x140f0] AnonymousClosure: (0x9750ac), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_handleRosterMemberships (0x974434)
+    //     0x974b4c: add             x1, PP, #0x14, lsl #12  ; [pp+0x140f0] AnonymousClosure: (0x9750ac), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_handleRosterMemberships (0x974434)
     //     0x974b50: ldr             x1, [x1, #0xf0]
     // 0x974b54: stur            x0, [fp, #-0x18]
     // 0x974b58: r0 = AllocateClosure()
@@ -5696,7 +5696,7 @@ class TeamManager extends ChangeNotifier {
     // 0x974b9c: StoreField: r1->field_3f = r0
     //     0x974b9c: stur            w0, [x1, #0x3f]
     // 0x974ba0: r0 = _notifyListeners()
-    //     0x974ba0: bl              #0x768d48  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
+    //     0x974ba0: bl              #0x768d48  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
     // 0x974ba4: r0 = Null
     //     0x974ba4: mov             x0, NULL
     // 0x974ba8: r0 = ReturnAsyncNotFuture()
@@ -5938,7 +5938,7 @@ class TeamManager extends ChangeNotifier {
     // 0x974f98: r1 = Null
     //     0x974f98: mov             x1, NULL
     // 0x974f9c: r0 = UserModel.fromFirestore()
-    //     0x974f9c: bl              #0x8fe49c  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
+    //     0x974f9c: bl              #0x8fe49c  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
     // 0x974fa0: mov             x2, x0
     // 0x974fa4: ldur            x0, [fp, #-0x38]
     // 0x974fa8: stur            x2, [fp, #-0x40]
@@ -5994,7 +5994,7 @@ class TeamManager extends ChangeNotifier {
     // 0x975044: ldur            x4, [fp, #-0x30]
     // 0x975048: b               #0x974de0
     // 0x97504c: r1 = Function '<anonymous closure>':.
-    //     0x97504c: add             x1, PP, #0x14, lsl #12  ; [pp+0x14120] AnonymousClosure: (0x974394), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_handleRosterMemberships (0x974434)
+    //     0x97504c: add             x1, PP, #0x14, lsl #12  ; [pp+0x14120] AnonymousClosure: (0x974394), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_handleRosterMemberships (0x974434)
     //     0x975050: ldr             x1, [x1, #0x120]
     // 0x975054: r2 = Null
     //     0x975054: mov             x2, NULL
@@ -6124,7 +6124,7 @@ class TeamManager extends ChangeNotifier {
     //     0x975184: b.ls            #0x97519c
     // 0x975188: ldr             x1, [fp, #0x10]
     // 0x97518c: r0 = isPendingInvite()
-    //     0x97518c: bl              #0x9751a4  ; [package:ballai/automatic/models/core/team/team_membership_model.dart] TeamMembershipModel::isPendingInvite
+    //     0x97518c: bl              #0x9751a4  ; [package:kourtai/automatic/models/core/team/team_membership_model.dart] TeamMembershipModel::isPendingInvite
     // 0x975190: LeaveFrame
     //     0x975190: mov             SP, fp
     //     0x975194: ldp             fp, lr, [SP], #0x10
@@ -6244,7 +6244,7 @@ class TeamManager extends ChangeNotifier {
     // 0x9753c4: ldur            x0, [fp, #-0x10]
     // 0x9753c8: mov             x1, x2
     // 0x9753cc: r0 = _stopRosterListener()
-    //     0x9753cc: bl              #0x97567c  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_stopRosterListener
+    //     0x9753cc: bl              #0x97567c  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_stopRosterListener
     // 0x9753d0: ldur            x0, [fp, #-0x10]
     // 0x9753d4: ldur            x3, [fp, #-8]
     // 0x9753d8: StoreField: r3->field_3b = r0
@@ -6295,7 +6295,7 @@ class TeamManager extends ChangeNotifier {
     // 0x975460: cbz             w0, #0x975474
     // 0x975464: mov             x1, x3
     // 0x975468: r0 = _startRosterMembershipListener()
-    //     0x975468: bl              #0x97549c  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_startRosterMembershipListener
+    //     0x975468: bl              #0x97549c  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_startRosterMembershipListener
     // 0x97546c: ldur            x1, [fp, #-8]
     // 0x975470: b               #0x975480
     // 0x975474: ldur            x1, [fp, #-8]
@@ -6304,7 +6304,7 @@ class TeamManager extends ChangeNotifier {
     // 0x97547c: StoreField: r1->field_3f = r0
     //     0x97547c: stur            w0, [x1, #0x3f]
     // 0x975480: r0 = _notifyListenersAsync()
-    //     0x975480: bl              #0x938cd8  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListenersAsync
+    //     0x975480: bl              #0x938cd8  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListenersAsync
     // 0x975484: r0 = Null
     //     0x975484: mov             x0, NULL
     // 0x975488: LeaveFrame
@@ -6344,7 +6344,7 @@ class TeamManager extends ChangeNotifier {
     //     0x9754d8: stur            w1, [x2, #0x13]
     // 0x9754dc: mov             x1, x0
     // 0x9754e0: r0 = _membershipsRoot()
-    //     0x9754e0: bl              #0x814774  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_membershipsRoot
+    //     0x9754e0: bl              #0x814774  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_membershipsRoot
     // 0x9754e4: mov             x1, x0
     // 0x9754e8: ldur            x0, [fp, #-0x18]
     // 0x9754ec: LoadField: r2 = r0->field_13
@@ -6365,13 +6365,13 @@ class TeamManager extends ChangeNotifier {
     //     0x975510: bl              #0x938d20  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQuery::snapshots
     // 0x975514: ldur            x2, [fp, #-0x18]
     // 0x975518: r1 = Function '<anonymous closure>':.
-    //     0x975518: add             x1, PP, #0x14, lsl #12  ; [pp+0x14078] AnonymousClosure: (0x975610), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_startRosterMembershipListener (0x97549c)
+    //     0x975518: add             x1, PP, #0x14, lsl #12  ; [pp+0x14078] AnonymousClosure: (0x975610), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_startRosterMembershipListener (0x97549c)
     //     0x97551c: ldr             x1, [x1, #0x78]
     // 0x975520: stur            x0, [fp, #-0x10]
     // 0x975524: r0 = AllocateClosure()
     //     0x975524: bl              #0xe553e0  ; AllocateClosureStub
     // 0x975528: r1 = Function '<anonymous closure>':.
-    //     0x975528: add             x1, PP, #0x14, lsl #12  ; [pp+0x14080] AnonymousClosure: (0x97558c), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_startRosterMembershipListener (0x97549c)
+    //     0x975528: add             x1, PP, #0x14, lsl #12  ; [pp+0x14080] AnonymousClosure: (0x97558c), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_startRosterMembershipListener (0x97549c)
     //     0x97552c: ldr             x1, [x1, #0x80]
     // 0x975530: r2 = Null
     //     0x975530: mov             x2, NULL
@@ -6491,7 +6491,7 @@ class TeamManager extends ChangeNotifier {
     // 0x975658: ldur            x2, [fp, #-8]
     // 0x97565c: mov             x3, x0
     // 0x975660: r0 = _handleRosterMemberships()
-    //     0x975660: bl              #0x974434  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_handleRosterMemberships
+    //     0x975660: bl              #0x974434  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_handleRosterMemberships
     // 0x975664: r0 = Null
     //     0x975664: mov             x0, NULL
     // 0x975668: LeaveFrame
@@ -6667,7 +6667,7 @@ class TeamManager extends ChangeNotifier {
     //     0x97a7c4: stur            w0, [x2, #0x5f]
     // 0x97a7c8: mov             x1, x2
     // 0x97a7cc: r0 = _notifyListenersAsync()
-    //     0x97a7cc: bl              #0x938cd8  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListenersAsync
+    //     0x97a7cc: bl              #0x938cd8  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListenersAsync
     // 0x97a7d0: ldur            x0, [fp, #-8]
     // 0x97a7d4: LoadField: r1 = r0->field_63
     //     0x97a7d4: ldur            w1, [x0, #0x63]
@@ -6703,14 +6703,14 @@ class TeamManager extends ChangeNotifier {
     //     0x97a824: bl              #0x938d20  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQuery::snapshots
     // 0x97a828: ldur            x2, [fp, #-0x30]
     // 0x97a82c: r1 = Function '<anonymous closure>':.
-    //     0x97a82c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43518] AnonymousClosure: (0x97a94c), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::startLeaderboardListener (0x97a6b4)
+    //     0x97a82c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43518] AnonymousClosure: (0x97a94c), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::startLeaderboardListener (0x97a6b4)
     //     0x97a830: ldr             x1, [x1, #0x518]
     // 0x97a834: stur            x0, [fp, #-0x10]
     // 0x97a838: r0 = AllocateClosure()
     //     0x97a838: bl              #0xe553e0  ; AllocateClosureStub
     // 0x97a83c: ldur            x2, [fp, #-0x30]
     // 0x97a840: r1 = Function '<anonymous closure>':.
-    //     0x97a840: add             x1, PP, #0x43, lsl #12  ; [pp+0x43520] AnonymousClosure: (0x97a8a0), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::startLeaderboardListener (0x97a6b4)
+    //     0x97a840: add             x1, PP, #0x43, lsl #12  ; [pp+0x43520] AnonymousClosure: (0x97a8a0), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::startLeaderboardListener (0x97a6b4)
     //     0x97a844: ldr             x1, [x1, #0x520]
     // 0x97a848: stur            x0, [fp, #-0x18]
     // 0x97a84c: r0 = AllocateClosure()
@@ -6800,7 +6800,7 @@ class TeamManager extends ChangeNotifier {
     // 0x97a92c: StoreField: r1->field_5f = r0
     //     0x97a92c: stur            w0, [x1, #0x5f]
     // 0x97a930: r0 = _notifyListeners()
-    //     0x97a930: bl              #0x768d48  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
+    //     0x97a930: bl              #0x768d48  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
     // 0x97a934: r0 = Null
     //     0x97a934: mov             x0, NULL
     // 0x97a938: LeaveFrame
@@ -6838,7 +6838,7 @@ class TeamManager extends ChangeNotifier {
     // 0x97a984: ldur            x1, [fp, #-8]
     // 0x97a988: mov             x2, x0
     // 0x97a98c: r0 = _refreshLeaderboardFromMemberships()
-    //     0x97a98c: bl              #0x97a9a8  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_refreshLeaderboardFromMemberships
+    //     0x97a98c: bl              #0x97a9a8  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_refreshLeaderboardFromMemberships
     // 0x97a990: r0 = Null
     //     0x97a990: mov             x0, NULL
     // 0x97a994: LeaveFrame
@@ -6882,7 +6882,7 @@ class TeamManager extends ChangeNotifier {
     // 0x97a9f0: mov             x1, x0
     // 0x97a9f4: ldur            x2, [fp, #-0x18]
     // 0x97a9f8: r0 = _activeMemberships()
-    //     0x97a9f8: bl              #0x97b508  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_activeMemberships
+    //     0x97a9f8: bl              #0x97b508  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_activeMemberships
     // 0x97a9fc: r1 = Function '<anonymous closure>':.
     //     0x97a9fc: add             x1, PP, #0x43, lsl #12  ; [pp+0x43530] Function: [dart:io] _SecureFilterImpl::buffers (0xe3e370)
     //     0x97aa00: ldr             x1, [x1, #0x530]
@@ -6933,7 +6933,7 @@ class TeamManager extends ChangeNotifier {
     //     0x97aa78: stur            w4, [x3, #0x5f]
     // 0x97aa7c: mov             x1, x3
     // 0x97aa80: r0 = _notifyListeners()
-    //     0x97aa80: bl              #0x768d48  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
+    //     0x97aa80: bl              #0x768d48  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
     // 0x97aa84: r0 = Null
     //     0x97aa84: mov             x0, NULL
     // 0x97aa88: r0 = ReturnAsyncNotFuture()
@@ -6944,7 +6944,7 @@ class TeamManager extends ChangeNotifier {
     // 0x97aa94: mov             x1, x3
     // 0x97aa98: mov             x2, x0
     // 0x97aa9c: r0 = _fetchUsers()
-    //     0x97aa9c: bl              #0x974d48  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchUsers
+    //     0x97aa9c: bl              #0x974d48  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchUsers
     // 0x97aaa0: mov             x1, x0
     // 0x97aaa4: stur            x1, [fp, #-0x18]
     // 0x97aaa8: r0 = Await()
@@ -7000,7 +7000,7 @@ class TeamManager extends ChangeNotifier {
     //     0x97ab3c: add             x2, x2, HEAP, lsl #32
     // 0x97ab40: ldur            x1, [fp, #-0x10]
     // 0x97ab44: r0 = _fetchLeaderboardStatsForUser()
-    //     0x97ab44: bl              #0x97b140  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchLeaderboardStatsForUser
+    //     0x97ab44: bl              #0x97b140  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchLeaderboardStatsForUser
     // 0x97ab48: mov             x1, x0
     // 0x97ab4c: stur            x1, [fp, #-0x30]
     // 0x97ab50: r0 = Await()
@@ -7107,7 +7107,7 @@ class TeamManager extends ChangeNotifier {
     //     0x97ac70: add             x3, x3, HEAP, lsl #32
     // 0x97ac74: mov             x1, x0
     // 0x97ac78: r0 = _buildLeaderboardEntries()
-    //     0x97ac78: bl              #0x97ace4  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_buildLeaderboardEntries
+    //     0x97ac78: bl              #0x97ace4  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_buildLeaderboardEntries
     // 0x97ac7c: ldur            x1, [fp, #-0x10]
     // 0x97ac80: StoreField: r1->field_5b = r0
     //     0x97ac80: stur            w0, [x1, #0x5b]
@@ -7122,7 +7122,7 @@ class TeamManager extends ChangeNotifier {
     // 0x97aca0: StoreField: r1->field_5f = r0
     //     0x97aca0: stur            w0, [x1, #0x5f]
     // 0x97aca4: r0 = _notifyListeners()
-    //     0x97aca4: bl              #0x768d48  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
+    //     0x97aca4: bl              #0x768d48  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
     // 0x97aca8: r0 = Null
     //     0x97aca8: mov             x0, NULL
     // 0x97acac: r0 = ReturnAsyncNotFuture()
@@ -7162,7 +7162,7 @@ class TeamManager extends ChangeNotifier {
     //     0x97ad20: stur            w0, [x1, #0x13]
     // 0x97ad24: mov             x2, x1
     // 0x97ad28: r1 = Function '<anonymous closure>':.
-    //     0x97ad28: add             x1, PP, #0x43, lsl #12  ; [pp+0x43540] AnonymousClosure: (0x97b058), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_buildLeaderboardEntries (0x97ace4)
+    //     0x97ad28: add             x1, PP, #0x43, lsl #12  ; [pp+0x43540] AnonymousClosure: (0x97b058), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_buildLeaderboardEntries (0x97ace4)
     //     0x97ad2c: ldr             x1, [x1, #0x540]
     // 0x97ad30: r0 = AllocateClosure()
     //     0x97ad30: bl              #0xe553e0  ; AllocateClosureStub
@@ -7184,7 +7184,7 @@ class TeamManager extends ChangeNotifier {
     // 0x97ad5c: r0 = _GrowableList.of()
     //     0x97ad5c: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x97ad60: r1 = Function '<anonymous closure>':.
-    //     0x97ad60: add             x1, PP, #0x43, lsl #12  ; [pp+0x43548] AnonymousClosure: (0x97af0c), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_buildLeaderboardEntries (0x97ace4)
+    //     0x97ad60: add             x1, PP, #0x43, lsl #12  ; [pp+0x43548] AnonymousClosure: (0x97af0c), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_buildLeaderboardEntries (0x97ace4)
     //     0x97ad64: ldr             x1, [x1, #0x548]
     // 0x97ad68: r2 = Null
     //     0x97ad68: mov             x2, NULL
@@ -7744,7 +7744,7 @@ class TeamManager extends ChangeNotifier {
     // 0x97b39c: r1 = Null
     //     0x97b39c: mov             x1, NULL
     // 0x97b3a0: r0 = WorkoutModel.fromMap()
-    //     0x97b3a0: bl              #0x74186c  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::WorkoutModel.fromMap
+    //     0x97b3a0: bl              #0x74186c  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::WorkoutModel.fromMap
     // 0x97b3a4: ArrayLoad: r1 = r0[0]  ; List_8
     //     0x97b3a4: ldur            x1, [x0, #0x17]
     // 0x97b3a8: scvtf           d0, x1
@@ -7901,7 +7901,7 @@ class TeamManager extends ChangeNotifier {
     // 0x97b550: r0 = whereType()
     //     0x97b550: bl              #0x8d7274  ; [dart:_compact_hash] __Set&_HashVMBase&SetMixin::whereType
     // 0x97b554: r1 = Function '<anonymous closure>':.
-    //     0x97b554: add             x1, PP, #0x43, lsl #12  ; [pp+0x43560] AnonymousClosure: (0x9751e0), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_handleRosterMemberships (0x974434)
+    //     0x97b554: add             x1, PP, #0x43, lsl #12  ; [pp+0x43560] AnonymousClosure: (0x9751e0), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_handleRosterMemberships (0x974434)
     //     0x97b558: ldr             x1, [x1, #0x560]
     // 0x97b55c: r2 = Null
     //     0x97b55c: mov             x2, NULL
@@ -7971,7 +7971,7 @@ class TeamManager extends ChangeNotifier {
     // 0x97d5e4: mov             x2, x1
     // 0x97d5e8: stur            x3, [fp, #-0x10]
     // 0x97d5ec: r1 = Function '<anonymous closure>':.
-    //     0x97d5ec: add             x1, PP, #0x26, lsl #12  ; [pp+0x26880] AnonymousClosure: (0x97d618), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::canManageTeam (0x97d580)
+    //     0x97d5ec: add             x1, PP, #0x26, lsl #12  ; [pp+0x26880] AnonymousClosure: (0x97d618), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::canManageTeam (0x97d580)
     //     0x97d5f0: ldr             x1, [x1, #0x880]
     // 0x97d5f4: r0 = AllocateClosure()
     //     0x97d5f4: bl              #0xe553e0  ; AllocateClosureStub
@@ -8042,7 +8042,7 @@ class TeamManager extends ChangeNotifier {
     // 0x97d6a4: tbnz            w0, #4, #0x97d6b4
     // 0x97d6a8: ldr             x1, [fp, #0x10]
     // 0x97d6ac: r0 = isManager()
-    //     0x97d6ac: bl              #0x974cac  ; [package:ballai/automatic/models/core/team/team_membership_model.dart] TeamMembershipModel::isManager
+    //     0x97d6ac: bl              #0x974cac  ; [package:kourtai/automatic/models/core/team/team_membership_model.dart] TeamMembershipModel::isManager
     // 0x97d6b0: b               #0x97d6b8
     // 0x97d6b4: r0 = false
     //     0x97d6b4: add             x0, NULL, #0x30  ; false
@@ -8079,7 +8079,7 @@ class TeamManager extends ChangeNotifier {
     // 0x97db34: ldur            x2, [fp, #-0x18]
     // 0x97db38: ldur            x3, [fp, #-0x20]
     // 0x97db3c: r0 = _fetchMembership()
-    //     0x97db3c: bl              #0x815340  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchMembership
+    //     0x97db3c: bl              #0x815340  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchMembership
     // 0x97db40: mov             x1, x0
     // 0x97db44: stur            x1, [fp, #-0x10]
     // 0x97db48: r0 = Await()
@@ -8206,7 +8206,7 @@ class TeamManager extends ChangeNotifier {
     // 0x9919e0: ldur            x2, [fp, #-0x70]
     // 0x9919e4: mov             x3, x0
     // 0x9919e8: r0 = _handleRosterMemberships()
-    //     0x9919e8: bl              #0x974434  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_handleRosterMemberships
+    //     0x9919e8: bl              #0x974434  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_handleRosterMemberships
     // 0x9919ec: mov             x1, x0
     // 0x9919f0: stur            x1, [fp, #-0x80]
     // 0x9919f4: r0 = Await()
@@ -8320,7 +8320,7 @@ class TeamManager extends ChangeNotifier {
     // 0x991d64: mov             x2, x3
     // 0x991d68: stur            x4, [fp, #-8]
     // 0x991d6c: r1 = Function '<anonymous closure>':.
-    //     0x991d6c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a328] AnonymousClosure: (0x991e4c), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::coachTeamsCurrentUserCanManage (0x991cdc)
+    //     0x991d6c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a328] AnonymousClosure: (0x991e4c), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::coachTeamsCurrentUserCanManage (0x991cdc)
     //     0x991d70: ldr             x1, [x1, #0x328]
     // 0x991d74: r0 = AllocateClosure()
     //     0x991d74: bl              #0xe553e0  ; AllocateClosureStub
@@ -8359,10 +8359,10 @@ class TeamManager extends ChangeNotifier {
     //     0x991dd4: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x991dd8: ldur            x1, [fp, #-0x10]
     // 0x991ddc: r0 = currentTeams()
-    //     0x991ddc: bl              #0x651818  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeams
+    //     0x991ddc: bl              #0x651818  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeams
     // 0x991de0: ldur            x2, [fp, #-0x18]
     // 0x991de4: r1 = Function '<anonymous closure>':.
-    //     0x991de4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a338] AnonymousClosure: (0x76aba8), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
+    //     0x991de4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a338] AnonymousClosure: (0x76aba8), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
     //     0x991de8: ldr             x1, [x1, #0x338]
     // 0x991dec: stur            x0, [fp, #-8]
     // 0x991df0: r0 = AllocateClosure()
@@ -8379,7 +8379,7 @@ class TeamManager extends ChangeNotifier {
     // 0x991e0c: r0 = _GrowableList.of()
     //     0x991e0c: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x991e10: r1 = Function '<anonymous closure>':.
-    //     0x991e10: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a340] AnonymousClosure: (0x76a584), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
+    //     0x991e10: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a340] AnonymousClosure: (0x76a584), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
     //     0x991e14: ldr             x1, [x1, #0x340]
     // 0x991e18: r2 = Null
     //     0x991e18: mov             x2, NULL
@@ -8448,7 +8448,7 @@ class TeamManager extends ChangeNotifier {
     // 0x991ec0: cmp             w0, w16
     // 0x991ec4: b.ne            #0x991ed0
     // 0x991ec8: r0 = isManager()
-    //     0x991ec8: bl              #0x974cac  ; [package:ballai/automatic/models/core/team/team_membership_model.dart] TeamMembershipModel::isManager
+    //     0x991ec8: bl              #0x974cac  ; [package:kourtai/automatic/models/core/team/team_membership_model.dart] TeamMembershipModel::isManager
     // 0x991ecc: b               #0x991ed4
     // 0x991ed0: r0 = false
     //     0x991ed0: add             x0, NULL, #0x30  ; false
@@ -8468,7 +8468,7 @@ class TeamManager extends ChangeNotifier {
     //     0x9b58d4: mov             fp, SP
     // 0x9b58d8: ldr             x2, [fp, #0x10]
     // 0x9b58dc: r1 = Function 'dispose':.
-    //     0x9b58dc: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d5a0] AnonymousClosure: (0x9b58f4), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::dispose (0x9bcff4)
+    //     0x9b58dc: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d5a0] AnonymousClosure: (0x9b58f4), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::dispose (0x9bcff4)
     //     0x9b58e0: ldr             x1, [x1, #0x5a0]
     // 0x9b58e4: r0 = AllocateClosure()
     //     0x9b58e4: bl              #0xe553e0  ; AllocateClosureStub
@@ -8493,7 +8493,7 @@ class TeamManager extends ChangeNotifier {
     //     0x9b590c: cmp             SP, x16
     //     0x9b5910: b.ls            #0x9b5924
     // 0x9b5914: r0 = dispose()
-    //     0x9b5914: bl              #0x9bcff4  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::dispose
+    //     0x9b5914: bl              #0x9bcff4  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::dispose
     // 0x9b5918: LeaveFrame
     //     0x9b5918: mov             SP, fp
     //     0x9b591c: ldp             fp, lr, [SP], #0x10
@@ -8527,7 +8527,7 @@ class TeamManager extends ChangeNotifier {
     // 0x9bd024: mov             x2, x3
     // 0x9bd028: stur            x0, [fp, #-8]
     // 0x9bd02c: r1 = Function '_onUserManagerChanged@715340008':.
-    //     0x9bd02c: add             x1, PP, #0x13, lsl #12  ; [pp+0x13b58] AnonymousClosure: (0x9bd2a4), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_onUserManagerChanged (0x9bd2dc)
+    //     0x9bd02c: add             x1, PP, #0x13, lsl #12  ; [pp+0x13b58] AnonymousClosure: (0x9bd2a4), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_onUserManagerChanged (0x9bd2dc)
     //     0x9bd030: ldr             x1, [x1, #0xb58]
     // 0x9bd034: r0 = AllocateClosure()
     //     0x9bd034: bl              #0xe553e0  ; AllocateClosureStub
@@ -8537,7 +8537,7 @@ class TeamManager extends ChangeNotifier {
     //     0x9bd040: bl              #0x8d74f0  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::removeListener
     // 0x9bd044: ldur            x1, [fp, #-0x10]
     // 0x9bd048: r0 = clear()
-    //     0x9bd048: bl              #0x9bd06c  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::clear
+    //     0x9bd048: bl              #0x9bd06c  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::clear
     // 0x9bd04c: ldur            x1, [fp, #-0x10]
     // 0x9bd050: r0 = dispose()
     //     0x9bd050: bl              #0xb7893c  ; [package:flutter/src/widgets/shortcuts.dart] _ShortcutManager&Object&Diagnosticable&ChangeNotifier::dispose
@@ -8568,21 +8568,21 @@ class TeamManager extends ChangeNotifier {
     //     0x9bd088: b.ls            #0x9bd208
     // 0x9bd08c: mov             x1, x0
     // 0x9bd090: r0 = _stopUserMembershipListener()
-    //     0x9bd090: bl              #0x9395b4  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_stopUserMembershipListener
+    //     0x9bd090: bl              #0x9395b4  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_stopUserMembershipListener
     // 0x9bd094: ldur            x1, [fp, #-8]
     // 0x9bd098: r0 = _stopAllTeamDocumentListeners()
-    //     0x9bd098: bl              #0x939494  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_stopAllTeamDocumentListeners
+    //     0x9bd098: bl              #0x939494  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_stopAllTeamDocumentListeners
     // 0x9bd09c: ldur            x1, [fp, #-8]
     // 0x9bd0a0: r0 = _stopRosterListener()
-    //     0x9bd0a0: bl              #0x97567c  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_stopRosterListener
+    //     0x9bd0a0: bl              #0x97567c  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_stopRosterListener
     // 0x9bd0a4: ldur            x1, [fp, #-8]
     // 0x9bd0a8: r0 = stopLeaderboardListener()
-    //     0x9bd0a8: bl              #0x9bd210  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::stopLeaderboardListener
+    //     0x9bd0a8: bl              #0x9bd210  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::stopLeaderboardListener
     // 0x9bd0ac: ldur            x1, [fp, #-8]
     // 0x9bd0b0: r2 = Null
     //     0x9bd0b0: mov             x2, NULL
     // 0x9bd0b4: r0 = setRosterTeam()
-    //     0x9bd0b4: bl              #0x97535c  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::setRosterTeam
+    //     0x9bd0b4: bl              #0x97535c  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::setRosterTeam
     // 0x9bd0b8: ldur            x0, [fp, #-8]
     // 0x9bd0bc: LoadField: r1 = r0->field_47
     //     0x9bd0bc: ldur            w1, [x0, #0x47]
@@ -8708,7 +8708,7 @@ class TeamManager extends ChangeNotifier {
     // 0x9bd1f0: StoreField: r1->field_87 = rNULL
     //     0x9bd1f0: stur            NULL, [x1, #0x87]
     // 0x9bd1f4: r0 = _notifyListeners()
-    //     0x9bd1f4: bl              #0x768d48  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
+    //     0x9bd1f4: bl              #0x768d48  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
     // 0x9bd1f8: r0 = Null
     //     0x9bd1f8: mov             x0, NULL
     // 0x9bd1fc: LeaveFrame
@@ -8768,7 +8768,7 @@ class TeamManager extends ChangeNotifier {
     // 0x9bd284: StoreField: r1->field_5f = r0
     //     0x9bd284: stur            w0, [x1, #0x5f]
     // 0x9bd288: r0 = _notifyListenersAsync()
-    //     0x9bd288: bl              #0x938cd8  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListenersAsync
+    //     0x9bd288: bl              #0x938cd8  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListenersAsync
     // 0x9bd28c: r0 = Null
     //     0x9bd28c: mov             x0, NULL
     // 0x9bd290: LeaveFrame
@@ -8795,7 +8795,7 @@ class TeamManager extends ChangeNotifier {
     //     0x9bd2bc: cmp             SP, x16
     //     0x9bd2c0: b.ls            #0x9bd2d4
     // 0x9bd2c4: r0 = _onUserManagerChanged()
-    //     0x9bd2c4: bl              #0x9bd2dc  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_onUserManagerChanged
+    //     0x9bd2c4: bl              #0x9bd2dc  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_onUserManagerChanged
     // 0x9bd2c8: LeaveFrame
     //     0x9bd2c8: mov             SP, fp
     //     0x9bd2cc: ldp             fp, lr, [SP], #0x10
@@ -8840,7 +8840,7 @@ class TeamManager extends ChangeNotifier {
     // 0x9bd328: cmp             w2, NULL
     // 0x9bd32c: b.ne            #0x9bd344
     // 0x9bd330: r0 = clear()
-    //     0x9bd330: bl              #0x9bd06c  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::clear
+    //     0x9bd330: bl              #0x9bd06c  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::clear
     // 0x9bd334: r0 = Null
     //     0x9bd334: mov             x0, NULL
     // 0x9bd338: LeaveFrame
@@ -8864,7 +8864,7 @@ class TeamManager extends ChangeNotifier {
     // 0x9bd36c: ldur            x1, [fp, #-0x10]
     // 0x9bd370: ldur            x2, [fp, #-8]
     // 0x9bd374: r0 = startCurrentUserMembershipListener()
-    //     0x9bd374: bl              #0x938904  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::startCurrentUserMembershipListener
+    //     0x9bd374: bl              #0x938904  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::startCurrentUserMembershipListener
     // 0x9bd378: r0 = Null
     //     0x9bd378: mov             x0, NULL
     // 0x9bd37c: LeaveFrame
@@ -8963,7 +8963,7 @@ class TeamManager extends ChangeNotifier {
     // 0xa52b14: ldur            x1, [fp, #-0x40]
     // 0xa52b18: stur            x0, [fp, #-0x80]
     // 0xa52b1c: r0 = _generateUniqueInviteCode()
-    //     0xa52b1c: bl              #0xa52eac  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_generateUniqueInviteCode
+    //     0xa52b1c: bl              #0xa52eac  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_generateUniqueInviteCode
     // 0xa52b20: mov             x1, x0
     // 0xa52b24: stur            x1, [fp, #-0x88]
     // 0xa52b28: r0 = Await()
@@ -9034,7 +9034,7 @@ class TeamManager extends ChangeNotifier {
     // 0xa52bd8: ldur            x1, [fp, #-0x18]
     // 0xa52bdc: stur            x0, [fp, #-0x10]
     // 0xa52be0: r0 = toFirestoreCreateMap()
-    //     0xa52be0: bl              #0xa52c64  ; [package:ballai/automatic/models/core/team/team_model.dart] TeamModel::toFirestoreCreateMap
+    //     0xa52be0: bl              #0xa52c64  ; [package:kourtai/automatic/models/core/team/team_model.dart] TeamModel::toFirestoreCreateMap
     // 0xa52be4: ldur            x1, [fp, #-0x10]
     // 0xa52be8: mov             x2, x0
     // 0xa52bec: r4 = const [0, 0x2, 0, 0x2, null]
@@ -9056,7 +9056,7 @@ class TeamManager extends ChangeNotifier {
     //     0xa52c14: add             x2, PP, #0x14, lsl #12  ; [pp+0x140c0] "owner"
     //     0xa52c18: ldr             x2, [x2, #0xc0]
     // 0xa52c1c: r0 = _createActiveMembership()
-    //     0xa52c1c: bl              #0x81446c  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_createActiveMembership
+    //     0xa52c1c: bl              #0x81446c  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_createActiveMembership
     // 0xa52c20: mov             x1, x0
     // 0xa52c24: stur            x1, [fp, #-0x10]
     // 0xa52c28: r0 = Await()
@@ -9508,7 +9508,7 @@ class TeamManager extends ChangeNotifier {
     // 0xa5773c: ldur            x1, [fp, #-0x10]
     // 0xa57740: ldur            x2, [fp, #-0x20]
     // 0xa57744: r0 = _fetchTeamBanner()
-    //     0xa57744: bl              #0x768ec8  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchTeamBanner
+    //     0xa57744: bl              #0x768ec8  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchTeamBanner
     // 0xa57748: mov             x1, x0
     // 0xa5774c: stur            x1, [fp, #-0x10]
     // 0xa57750: r0 = Await()
@@ -9627,7 +9627,7 @@ class TeamManager extends ChangeNotifier {
     // 0xa57878: ldur            x1, [fp, #-0x10]
     // 0xa5787c: ldur            x2, [fp, #-0x20]
     // 0xa57880: r0 = _fetchTeamLogo()
-    //     0xa57880: bl              #0x7694fc  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchTeamLogo
+    //     0xa57880: bl              #0x7694fc  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchTeamLogo
     // 0xa57884: mov             x1, x0
     // 0xa57888: stur            x1, [fp, #-0x10]
     // 0xa5788c: r0 = Await()
@@ -9972,7 +9972,7 @@ class TeamManager extends ChangeNotifier {
     // 0xa57c58: ldur            x2, [fp, #-0x80]
     // 0xa57c5c: stur            x3, [fp, #-0x10]
     // 0xa57c60: r1 = Function '<anonymous closure>':.
-    //     0xa57c60: add             x1, PP, #0x49, lsl #12  ; [pp+0x497b8] AnonymousClosure: (0x71e360), in [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage (0x71e3c8)
+    //     0xa57c60: add             x1, PP, #0x49, lsl #12  ; [pp+0x497b8] AnonymousClosure: (0x71e360), in [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage (0x71e3c8)
     //     0xa57c64: ldr             x1, [x1, #0x7b8]
     // 0xa57c68: r0 = AllocateClosure()
     //     0xa57c68: bl              #0xe553e0  ; AllocateClosureStub
@@ -10056,7 +10056,7 @@ class TeamManager extends ChangeNotifier {
     //     0xa57d4c: b.eq            #0xa57d54
     //     0xa57d50: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0xa57d54: r0 = _notifyListeners()
-    //     0xa57d54: bl              #0x768d48  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
+    //     0xa57d54: bl              #0x768d48  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_notifyListeners
     // 0xa57d58: r0 = Null
     //     0xa57d58: mov             x0, NULL
     // 0xa57d5c: r0 = ReturnAsyncNotFuture()
@@ -10103,7 +10103,7 @@ class TeamManager extends ChangeNotifier {
     // 0xa5ce94: b.eq            #0xa5cf64
     // 0xa5ce98: ldur            x1, [fp, #-0x18]
     // 0xa5ce9c: r0 = formatTeamCode()
-    //     0xa5ce9c: bl              #0xa5cfe8  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::formatTeamCode
+    //     0xa5ce9c: bl              #0xa5cfe8  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::formatTeamCode
     // 0xa5cea0: stur            x0, [fp, #-0x18]
     // 0xa5cea4: LoadField: r1 = r0->field_7
     //     0xa5cea4: ldur            w1, [x0, #7]
@@ -10158,7 +10158,7 @@ class TeamManager extends ChangeNotifier {
     //     0xa5cf28: bl              #0x8dbad4  ; [dart:core] _GrowableList::first
     // 0xa5cf2c: mov             x1, x0
     // 0xa5cf30: r0 = fromFirestore()
-    //     0xa5cf30: bl              #0x7698b4  ; [package:ballai/automatic/models/core/team/team_model.dart] TeamModel::fromFirestore
+    //     0xa5cf30: bl              #0x7698b4  ; [package:kourtai/automatic/models/core/team/team_model.dart] TeamModel::fromFirestore
     // 0xa5cf34: stur            x0, [fp, #-0x18]
     // 0xa5cf38: cmp             w0, NULL
     // 0xa5cf3c: b.eq            #0xa5cfe4
@@ -10166,7 +10166,7 @@ class TeamManager extends ChangeNotifier {
     // 0xa5cf44: mov             x2, x0
     // 0xa5cf48: ldur            x3, [fp, #-0x20]
     // 0xa5cf4c: r0 = _addCurrentUserToTeam()
-    //     0xa5cf4c: bl              #0x8142dc  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_addCurrentUserToTeam
+    //     0xa5cf4c: bl              #0x8142dc  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_addCurrentUserToTeam
     // 0xa5cf50: mov             x1, x0
     // 0xa5cf54: stur            x1, [fp, #-0x10]
     // 0xa5cf58: r0 = Await()
@@ -10504,7 +10504,7 @@ class TeamManager extends ChangeNotifier {
     //     0xa7419c: bl              #0x5f9020  ; [dart:core] List::List.from
     // 0xa741a0: ldur            x2, [fp, #-0x10]
     // 0xa741a4: r1 = Function '<anonymous closure>':.
-    //     0xa741a4: add             x1, PP, #0x26, lsl #12  ; [pp+0x26aa0] AnonymousClosure: (0xa741dc), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::sortedMyTeams (0xa74154)
+    //     0xa741a4: add             x1, PP, #0x26, lsl #12  ; [pp+0x26aa0] AnonymousClosure: (0xa741dc), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::sortedMyTeams (0xa74154)
     //     0xa741a8: ldr             x1, [x1, #0xaa0]
     // 0xa741ac: stur            x0, [fp, #-8]
     // 0xa741b0: r0 = AllocateClosure()
@@ -11032,7 +11032,7 @@ class TeamManager extends ChangeNotifier {
     // 0xa7cf8c: ldur            x2, [fp, #-0x20]
     // 0xa7cf90: ldur            x3, [fp, #-0x28]
     // 0xa7cf94: r0 = _fetchMembership()
-    //     0xa7cf94: bl              #0x815340  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchMembership
+    //     0xa7cf94: bl              #0x815340  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchMembership
     // 0xa7cf98: mov             x1, x0
     // 0xa7cf9c: stur            x1, [fp, #-0x20]
     // 0xa7cfa0: r0 = Await()
@@ -11090,7 +11090,7 @@ class TeamManager extends ChangeNotifier {
     //     0xa7d028: stur            w16, [x0, #0xf]
     // 0xa7d02c: ldur            x1, [fp, #-0x18]
     // 0xa7d030: r0 = toFirestoreMap()
-    //     0xa7d030: bl              #0xa7d148  ; [package:ballai/automatic/models/core/team/membership_notification_preferences.dart] MembershipNotificationPreferences::toFirestoreMap
+    //     0xa7d030: bl              #0xa7d148  ; [package:kourtai/automatic/models/core/team/membership_notification_preferences.dart] MembershipNotificationPreferences::toFirestoreMap
     // 0xa7d034: ldur            x1, [fp, #-0x20]
     // 0xa7d038: ArrayStore: r1[1] = r0  ; List_4
     //     0xa7d038: add             x25, x1, #0x13
@@ -11238,7 +11238,7 @@ class TeamManager extends ChangeNotifier {
     //     0xaa4b00: bl              #0x60ad4c  ; AwaitStub
     // 0xaa4b04: mov             x1, x0
     // 0xaa4b08: r0 = fromFirestore()
-    //     0xaa4b08: bl              #0x814ab0  ; [package:ballai/automatic/models/core/team/team_membership_model.dart] TeamMembershipModel::fromFirestore
+    //     0xaa4b08: bl              #0x814ab0  ; [package:kourtai/automatic/models/core/team/team_membership_model.dart] TeamMembershipModel::fromFirestore
     // 0xaa4b0c: mov             x1, x0
     // 0xaa4b10: stur            x1, [fp, #-0x10]
     // 0xaa4b14: cmp             w1, NULL
@@ -11344,7 +11344,7 @@ class TeamManager extends ChangeNotifier {
     // 0xaa4fa0: ldur            x2, [fp, #-0x20]
     // 0xaa4fa4: ldur            x3, [fp, #-0x18]
     // 0xaa4fa8: r0 = _activatePendingMembership()
-    //     0xaa4fa8: bl              #0x814820  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_activatePendingMembership
+    //     0xaa4fa8: bl              #0x814820  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_activatePendingMembership
     // 0xaa4fac: mov             x1, x0
     // 0xaa4fb0: stur            x1, [fp, #-0x18]
     // 0xaa4fb4: r0 = Await()
@@ -11375,7 +11375,7 @@ class TeamManager extends ChangeNotifier {
     //     0xaa4ff4: bl              #0x60ad4c  ; AwaitStub
     // 0xaa4ff8: mov             x1, x0
     // 0xaa4ffc: r0 = fromFirestore()
-    //     0xaa4ffc: bl              #0x814ab0  ; [package:ballai/automatic/models/core/team/team_membership_model.dart] TeamMembershipModel::fromFirestore
+    //     0xaa4ffc: bl              #0x814ab0  ; [package:kourtai/automatic/models/core/team/team_membership_model.dart] TeamMembershipModel::fromFirestore
     // 0xaa5000: cmp             w0, NULL
     // 0xaa5004: b.eq            #0xaa500c
     // 0xaa5008: r0 = ReturnAsyncNotFuture()
@@ -11489,7 +11489,7 @@ class TeamManager extends ChangeNotifier {
     // 0xc02cf4: ldur            x2, [fp, #-0x18]
     // 0xc02cf8: ldur            x3, [fp, #-0x20]
     // 0xc02cfc: r0 = _fetchMembership()
-    //     0xc02cfc: bl              #0x815340  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchMembership
+    //     0xc02cfc: bl              #0x815340  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_fetchMembership
     // 0xc02d00: mov             x1, x0
     // 0xc02d04: stur            x1, [fp, #-0x18]
     // 0xc02d08: r0 = Await()
@@ -11974,7 +11974,7 @@ class TeamManager extends ChangeNotifier {
     //     0xc2ece4: b.eq            #0xc2ecec
     //     0xc2ece8: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xc2ecec: r1 = Function '_onUserManagerChanged@715340008':.
-    //     0xc2ecec: add             x1, PP, #0x13, lsl #12  ; [pp+0x13b58] AnonymousClosure: (0x9bd2a4), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_onUserManagerChanged (0x9bd2dc)
+    //     0xc2ecec: add             x1, PP, #0x13, lsl #12  ; [pp+0x13b58] AnonymousClosure: (0x9bd2a4), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_onUserManagerChanged (0x9bd2dc)
     //     0xc2ecf0: ldr             x1, [x1, #0xb58]
     // 0xc2ecf4: r0 = AllocateClosure()
     //     0xc2ecf4: bl              #0xe553e0  ; AllocateClosureStub

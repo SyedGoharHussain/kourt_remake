@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart
 
 // class id: 1048651, size: 0x8
 class :: {
@@ -75,7 +75,7 @@ class TrendsManager extends ChangeNotifier {
     //     0x8f6b04: stur            w0, [x2, #0xf]
     // 0x8f6b08: mov             x1, x0
     // 0x8f6b0c: r0 = _activeFilterRange()
-    //     0x8f6b0c: bl              #0x8f72e0  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_activeFilterRange
+    //     0x8f6b0c: bl              #0x8f72e0  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_activeFilterRange
     // 0x8f6b10: ldur            x4, [fp, #-0x10]
     // 0x8f6b14: StoreField: r4->field_13 = r0
     //     0x8f6b14: stur            w0, [x4, #0x13]
@@ -129,10 +129,10 @@ class TrendsManager extends ChangeNotifier {
     // 0x8f6b9c: r4 = const [0x1, 0x3, 0x3, 0x3, null]
     //     0x8f6b9c: ldr             x4, [PP, #0x720]  ; [pp+0x720] List(5) [0x1, 0x3, 0x3, 0x3, Null]
     // 0x8f6ba0: r0 = _dedupeByDocId()
-    //     0x8f6ba0: bl              #0x8f6f5c  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_dedupeByDocId
+    //     0x8f6ba0: bl              #0x8f6f5c  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_dedupeByDocId
     // 0x8f6ba4: ldur            x2, [fp, #-0x10]
     // 0x8f6ba8: r1 = Function '<anonymous closure>':.
-    //     0x8f6ba8: add             x1, PP, #0x42, lsl #12  ; [pp+0x42fd8] AnonymousClosure: (0x8f8530), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
+    //     0x8f6ba8: add             x1, PP, #0x42, lsl #12  ; [pp+0x42fd8] AnonymousClosure: (0x8f8530), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
     //     0x8f6bac: ldr             x1, [x1, #0xfd8]
     // 0x8f6bb0: stur            x0, [fp, #-0x18]
     // 0x8f6bb4: r0 = AllocateClosure()
@@ -149,7 +149,7 @@ class TrendsManager extends ChangeNotifier {
     // 0x8f6bd0: r0 = _GrowableList.of()
     //     0x8f6bd0: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x8f6bd4: r1 = Function '<anonymous closure>':.
-    //     0x8f6bd4: add             x1, PP, #0x42, lsl #12  ; [pp+0x42fe0] AnonymousClosure: (0x8f80fc), in [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::_recomputeMerged (0x8f8170)
+    //     0x8f6bd4: add             x1, PP, #0x42, lsl #12  ; [pp+0x42fe0] AnonymousClosure: (0x8f80fc), in [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::_recomputeMerged (0x8f8170)
     //     0x8f6bd8: ldr             x1, [x1, #0xfe0]
     // 0x8f6bdc: r2 = Null
     //     0x8f6bdc: mov             x2, NULL
@@ -215,10 +215,10 @@ class TrendsManager extends ChangeNotifier {
     // 0x8f6c84: r4 = const [0x1, 0x3, 0x3, 0x3, null]
     //     0x8f6c84: ldr             x4, [PP, #0x720]  ; [pp+0x720] List(5) [0x1, 0x3, 0x3, 0x3, Null]
     // 0x8f6c88: r0 = _dedupeByDocId()
-    //     0x8f6c88: bl              #0x8f6f5c  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_dedupeByDocId
+    //     0x8f6c88: bl              #0x8f6f5c  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_dedupeByDocId
     // 0x8f6c8c: ldur            x2, [fp, #-0x10]
     // 0x8f6c90: r1 = Function '<anonymous closure>':.
-    //     0x8f6c90: add             x1, PP, #0x42, lsl #12  ; [pp+0x42ff0] AnonymousClosure: (0x8f8098), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
+    //     0x8f6c90: add             x1, PP, #0x42, lsl #12  ; [pp+0x42ff0] AnonymousClosure: (0x8f8098), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
     //     0x8f6c94: ldr             x1, [x1, #0xff0]
     // 0x8f6c98: stur            x0, [fp, #-0x18]
     // 0x8f6c9c: r0 = AllocateClosure()
@@ -235,7 +235,7 @@ class TrendsManager extends ChangeNotifier {
     // 0x8f6cb8: r0 = _GrowableList.of()
     //     0x8f6cb8: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x8f6cbc: r1 = Function '<anonymous closure>':.
-    //     0x8f6cbc: add             x1, PP, #0x42, lsl #12  ; [pp+0x42ff8] AnonymousClosure: (0x8f6a60), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
+    //     0x8f6cbc: add             x1, PP, #0x42, lsl #12  ; [pp+0x42ff8] AnonymousClosure: (0x8f6a60), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
     //     0x8f6cc0: ldr             x1, [x1, #0xff8]
     // 0x8f6cc4: r2 = Null
     //     0x8f6cc4: mov             x2, NULL
@@ -331,7 +331,7 @@ class TrendsManager extends ChangeNotifier {
     //     0x8f6dc4: add             x3, x3, HEAP, lsl #32
     // 0x8f6dc8: stur            x3, [fp, #-0x48]
     // 0x8f6dcc: r1 = Function '<anonymous closure>':.
-    //     0x8f6dcc: add             x1, PP, #0x43, lsl #12  ; [pp+0x43018] AnonymousClosure: (0x8f7fd0), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
+    //     0x8f6dcc: add             x1, PP, #0x43, lsl #12  ; [pp+0x43018] AnonymousClosure: (0x8f7fd0), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
     //     0x8f6dd0: ldr             x1, [x1, #0x18]
     // 0x8f6dd4: r2 = Null
     //     0x8f6dd4: mov             x2, NULL
@@ -404,10 +404,10 @@ class TrendsManager extends ChangeNotifier {
     // 0x8f6e98: r4 = const [0x1, 0x3, 0x3, 0x3, null]
     //     0x8f6e98: ldr             x4, [PP, #0x720]  ; [pp+0x720] List(5) [0x1, 0x3, 0x3, 0x3, Null]
     // 0x8f6e9c: r0 = _dedupeByDocId()
-    //     0x8f6e9c: bl              #0x8f6f5c  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_dedupeByDocId
+    //     0x8f6e9c: bl              #0x8f6f5c  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_dedupeByDocId
     // 0x8f6ea0: ldur            x2, [fp, #-0x10]
     // 0x8f6ea4: r1 = Function '<anonymous closure>':.
-    //     0x8f6ea4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43030] AnonymousClosure: (0x8f7ec4), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
+    //     0x8f6ea4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43030] AnonymousClosure: (0x8f7ec4), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
     //     0x8f6ea8: ldr             x1, [x1, #0x30]
     // 0x8f6eac: stur            x0, [fp, #-0x10]
     // 0x8f6eb0: r0 = AllocateClosure()
@@ -424,7 +424,7 @@ class TrendsManager extends ChangeNotifier {
     // 0x8f6ecc: r0 = _GrowableList.of()
     //     0x8f6ecc: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x8f6ed0: r1 = Function '<anonymous closure>':.
-    //     0x8f6ed0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43038] AnonymousClosure: (0x8f7e2c), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
+    //     0x8f6ed0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43038] AnonymousClosure: (0x8f7e2c), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
     //     0x8f6ed4: ldr             x1, [x1, #0x38]
     // 0x8f6ed8: r2 = Null
     //     0x8f6ed8: mov             x2, NULL
@@ -822,7 +822,7 @@ class TrendsManager extends ChangeNotifier {
     //     0x8f7328: add             x2, x2, HEAP, lsl #32
     // 0x8f732c: mov             x1, x0
     // 0x8f7330: r0 = rangeFor()
-    //     0x8f7330: bl              #0x8f7348  ; [package:ballai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::rangeFor
+    //     0x8f7330: bl              #0x8f7348  ; [package:kourtai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::rangeFor
     // 0x8f7334: LeaveFrame
     //     0x8f7334: mov             SP, fp
     //     0x8f7338: ldp             fp, lr, [SP], #0x10
@@ -908,7 +908,7 @@ class TrendsManager extends ChangeNotifier {
     // 0x8f7f08: mov             x2, x3
     // 0x8f7f0c: mov             x3, x16
     // 0x8f7f10: r0 = _inWorkoutRange()
-    //     0x8f7f10: bl              #0x8f7f28  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_inWorkoutRange
+    //     0x8f7f10: bl              #0x8f7f28  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_inWorkoutRange
     // 0x8f7f14: LeaveFrame
     //     0x8f7f14: mov             SP, fp
     //     0x8f7f18: ldp             fp, lr, [SP], #0x10
@@ -1039,7 +1039,7 @@ class TrendsManager extends ChangeNotifier {
     // 0x8f80dc: mov             x2, x3
     // 0x8f80e0: mov             x3, x16
     // 0x8f80e4: r0 = _inWorkoutRange()
-    //     0x8f80e4: bl              #0x8f7f28  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_inWorkoutRange
+    //     0x8f80e4: bl              #0x8f7f28  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_inWorkoutRange
     // 0x8f80e8: LeaveFrame
     //     0x8f80e8: mov             SP, fp
     //     0x8f80ec: ldp             fp, lr, [SP], #0x10
@@ -1081,7 +1081,7 @@ class TrendsManager extends ChangeNotifier {
     // 0x8f8574: mov             x2, x3
     // 0x8f8578: mov             x3, x16
     // 0x8f857c: r0 = _inWorkoutRange()
-    //     0x8f857c: bl              #0x8f7f28  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_inWorkoutRange
+    //     0x8f857c: bl              #0x8f7f28  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_inWorkoutRange
     // 0x8f8580: LeaveFrame
     //     0x8f8580: mov             SP, fp
     //     0x8f8584: ldp             fp, lr, [SP], #0x10
@@ -1211,7 +1211,7 @@ class TrendsManager extends ChangeNotifier {
     //     0x97e004: b.eq            #0x97e00c
     //     0x97e008: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0x97e00c: r0 = _applyDisplayFilter()
-    //     0x97e00c: bl              #0x8f6ad4  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter
+    //     0x97e00c: bl              #0x8f6ad4  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter
     // 0x97e010: r0 = Null
     //     0x97e010: mov             x0, NULL
     // 0x97e014: LeaveFrame
@@ -1277,7 +1277,7 @@ class TrendsManager extends ChangeNotifier {
     // 0x97e0ac: cbz             w2, #0x97e0cc
     // 0x97e0b0: mov             x1, x0
     // 0x97e0b4: r0 = _applyDisplayFilter()
-    //     0x97e0b4: bl              #0x8f6ad4  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter
+    //     0x97e0b4: bl              #0x8f6ad4  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter
     // 0x97e0b8: r0 = Null
     //     0x97e0b8: mov             x0, NULL
     // 0x97e0bc: LeaveFrame
@@ -1290,7 +1290,7 @@ class TrendsManager extends ChangeNotifier {
     // 0x97e0d0: r2 = false
     //     0x97e0d0: add             x2, NULL, #0x30  ; false
     // 0x97e0d4: r0 = stop()
-    //     0x97e0d4: bl              #0x97e634  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::stop
+    //     0x97e0d4: bl              #0x97e634  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::stop
     // 0x97e0d8: ldur            x0, [fp, #-0x10]
     // 0x97e0dc: ldur            x2, [fp, #-8]
     // 0x97e0e0: StoreField: r2->field_3f = r0
@@ -1303,7 +1303,7 @@ class TrendsManager extends ChangeNotifier {
     //     0x97e0f8: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x97e0fc: mov             x1, x2
     // 0x97e100: r0 = _databaseTargets()
-    //     0x97e100: bl              #0x939418  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_databaseTargets
+    //     0x97e100: bl              #0x939418  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_databaseTargets
     // 0x97e104: LoadField: r1 = r0->field_b
     //     0x97e104: ldur            w1, [x0, #0xb]
     // 0x97e108: r0 = LoadInt32Instr(r1)
@@ -1384,7 +1384,7 @@ class TrendsManager extends ChangeNotifier {
     //     0x97e1c8: stur            w0, [x3, #0xf]
     // 0x97e1cc: ldur            x2, [fp, #-0x18]
     // 0x97e1d0: r1 = Function '<anonymous closure>':.
-    //     0x97e1d0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43138] AnonymousClosure: (0x97f6b4), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::start (0x97e034)
+    //     0x97e1d0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43138] AnonymousClosure: (0x97f6b4), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::start (0x97e034)
     //     0x97e1d4: ldr             x1, [x1, #0x138]
     // 0x97e1d8: r0 = AllocateClosure()
     //     0x97e1d8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1423,14 +1423,14 @@ class TrendsManager extends ChangeNotifier {
     //     0x97e230: bl              #0x938d20  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQuery::snapshots
     // 0x97e234: ldur            x2, [fp, #-0x38]
     // 0x97e238: r1 = Function '<anonymous closure>':.
-    //     0x97e238: add             x1, PP, #0x43, lsl #12  ; [pp+0x43148] AnonymousClosure: (0x97f630), of [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager
+    //     0x97e238: add             x1, PP, #0x43, lsl #12  ; [pp+0x43148] AnonymousClosure: (0x97f630), of [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager
     //     0x97e23c: ldr             x1, [x1, #0x148]
     // 0x97e240: stur            x0, [fp, #-0x40]
     // 0x97e244: r0 = AllocateClosure()
     //     0x97e244: bl              #0xe553e0  ; AllocateClosureStub
     // 0x97e248: ldur            x2, [fp, #-0x38]
     // 0x97e24c: r1 = Function '<anonymous closure>':.
-    //     0x97e24c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43150] AnonymousClosure: (0x97f534), of [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager
+    //     0x97e24c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43150] AnonymousClosure: (0x97f534), of [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager
     //     0x97e250: ldr             x1, [x1, #0x150]
     // 0x97e254: stur            x0, [fp, #-0x38]
     // 0x97e258: r0 = AllocateClosure()
@@ -1515,7 +1515,7 @@ class TrendsManager extends ChangeNotifier {
     //     0x97e338: stur            w0, [x3, #0xf]
     // 0x97e33c: ldur            x2, [fp, #-0x18]
     // 0x97e340: r1 = Function '<anonymous closure>':.
-    //     0x97e340: add             x1, PP, #0x43, lsl #12  ; [pp+0x43168] AnonymousClosure: (0x97f2e8), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::start (0x97e034)
+    //     0x97e340: add             x1, PP, #0x43, lsl #12  ; [pp+0x43168] AnonymousClosure: (0x97f2e8), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::start (0x97e034)
     //     0x97e344: ldr             x1, [x1, #0x168]
     // 0x97e348: r0 = AllocateClosure()
     //     0x97e348: bl              #0xe553e0  ; AllocateClosureStub
@@ -1554,14 +1554,14 @@ class TrendsManager extends ChangeNotifier {
     //     0x97e3a0: bl              #0x938d20  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQuery::snapshots
     // 0x97e3a4: ldur            x2, [fp, #-0x38]
     // 0x97e3a8: r1 = Function '<anonymous closure>':.
-    //     0x97e3a8: add             x1, PP, #0x43, lsl #12  ; [pp+0x43148] AnonymousClosure: (0x97f630), of [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager
+    //     0x97e3a8: add             x1, PP, #0x43, lsl #12  ; [pp+0x43148] AnonymousClosure: (0x97f630), of [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager
     //     0x97e3ac: ldr             x1, [x1, #0x148]
     // 0x97e3b0: stur            x0, [fp, #-0x40]
     // 0x97e3b4: r0 = AllocateClosure()
     //     0x97e3b4: bl              #0xe553e0  ; AllocateClosureStub
     // 0x97e3b8: ldur            x2, [fp, #-0x38]
     // 0x97e3bc: r1 = Function '<anonymous closure>':.
-    //     0x97e3bc: add             x1, PP, #0x43, lsl #12  ; [pp+0x43150] AnonymousClosure: (0x97f534), of [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager
+    //     0x97e3bc: add             x1, PP, #0x43, lsl #12  ; [pp+0x43150] AnonymousClosure: (0x97f534), of [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager
     //     0x97e3c0: ldr             x1, [x1, #0x150]
     // 0x97e3c4: stur            x0, [fp, #-0x38]
     // 0x97e3c8: r0 = AllocateClosure()
@@ -1646,7 +1646,7 @@ class TrendsManager extends ChangeNotifier {
     //     0x97e4a8: stur            w0, [x3, #0xf]
     // 0x97e4ac: ldur            x2, [fp, #-0x18]
     // 0x97e4b0: r1 = Function '<anonymous closure>':.
-    //     0x97e4b0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43188] AnonymousClosure: (0x97e7b8), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::start (0x97e034)
+    //     0x97e4b0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43188] AnonymousClosure: (0x97e7b8), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::start (0x97e034)
     //     0x97e4b4: ldr             x1, [x1, #0x188]
     // 0x97e4b8: r0 = AllocateClosure()
     //     0x97e4b8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1685,14 +1685,14 @@ class TrendsManager extends ChangeNotifier {
     //     0x97e510: bl              #0x938d20  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQuery::snapshots
     // 0x97e514: ldur            x2, [fp, #-0x38]
     // 0x97e518: r1 = Function '<anonymous closure>':.
-    //     0x97e518: add             x1, PP, #0x43, lsl #12  ; [pp+0x43148] AnonymousClosure: (0x97f630), of [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager
+    //     0x97e518: add             x1, PP, #0x43, lsl #12  ; [pp+0x43148] AnonymousClosure: (0x97f630), of [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager
     //     0x97e51c: ldr             x1, [x1, #0x148]
     // 0x97e520: stur            x0, [fp, #-0x10]
     // 0x97e524: r0 = AllocateClosure()
     //     0x97e524: bl              #0xe553e0  ; AllocateClosureStub
     // 0x97e528: ldur            x2, [fp, #-0x38]
     // 0x97e52c: r1 = Function '<anonymous closure>':.
-    //     0x97e52c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43150] AnonymousClosure: (0x97f534), of [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager
+    //     0x97e52c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43150] AnonymousClosure: (0x97f534), of [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager
     //     0x97e530: ldr             x1, [x1, #0x150]
     // 0x97e534: stur            x0, [fp, #-0x38]
     // 0x97e538: r0 = AllocateClosure()
@@ -1956,7 +1956,7 @@ class TrendsManager extends ChangeNotifier {
     // 0x97e7e0: mov             x1, x0
     // 0x97e7e4: ldr             x2, [fp, #0x10]
     // 0x97e7e8: r0 = _ingestGoals()
-    //     0x97e7e8: bl              #0x97e804  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_ingestGoals
+    //     0x97e7e8: bl              #0x97e804  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_ingestGoals
     // 0x97e7ec: r0 = Null
     //     0x97e7ec: mov             x0, NULL
     // 0x97e7f0: LeaveFrame
@@ -2019,7 +2019,7 @@ class TrendsManager extends ChangeNotifier {
     // 0x97e878: mov             x2, x3
     // 0x97e87c: stur            x4, [fp, #-0x68]
     // 0x97e880: r1 = Function '<anonymous closure>':.
-    //     0x97e880: add             x1, PP, #0x43, lsl #12  ; [pp+0x431b0] AnonymousClosure: (0x97e9e4), in [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::start (0x97ed0c)
+    //     0x97e880: add             x1, PP, #0x43, lsl #12  ; [pp+0x431b0] AnonymousClosure: (0x97e9e4), in [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::start (0x97ed0c)
     //     0x97e884: ldr             x1, [x1, #0x1b0]
     // 0x97e888: r0 = AllocateClosure()
     //     0x97e888: bl              #0xe553e0  ; AllocateClosureStub
@@ -2063,7 +2063,7 @@ class TrendsManager extends ChangeNotifier {
     // 0x97e900: stur            x0, [fp, #-0x78]
     // 0x97e904: mov             x1, x0
     // 0x97e908: r0 = fromFirestore()
-    //     0x97e908: bl              #0x959c98  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::fromFirestore
+    //     0x97e908: bl              #0x959c98  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::fromFirestore
     // 0x97e90c: stur            x0, [fp, #-0x80]
     // 0x97e910: cmp             w0, NULL
     // 0x97e914: b.eq            #0x97e9b4
@@ -2129,7 +2129,7 @@ class TrendsManager extends ChangeNotifier {
     // 0x97e9b8: b               #0x97e8bc
     // 0x97e9bc: ldur            x1, [fp, #-0x58]
     // 0x97e9c0: r0 = _applyDisplayFilter()
-    //     0x97e9c0: bl              #0x8f6ad4  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter
+    //     0x97e9c0: bl              #0x8f6ad4  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter
     // 0x97e9c4: r0 = Null
     //     0x97e9c4: mov             x0, NULL
     // 0x97e9c8: LeaveFrame
@@ -2165,7 +2165,7 @@ class TrendsManager extends ChangeNotifier {
     // 0x97f310: mov             x1, x0
     // 0x97f314: ldr             x2, [fp, #0x10]
     // 0x97f318: r0 = _ingestShots()
-    //     0x97f318: bl              #0x97f334  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_ingestShots
+    //     0x97f318: bl              #0x97f334  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_ingestShots
     // 0x97f31c: r0 = Null
     //     0x97f31c: mov             x0, NULL
     // 0x97f320: LeaveFrame
@@ -2228,7 +2228,7 @@ class TrendsManager extends ChangeNotifier {
     // 0x97f3a8: mov             x2, x3
     // 0x97f3ac: stur            x4, [fp, #-0x68]
     // 0x97f3b0: r1 = Function '<anonymous closure>':.
-    //     0x97f3b0: add             x1, PP, #0x43, lsl #12  ; [pp+0x431b8] AnonymousClosure: (0x97e9e4), in [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::start (0x97ed0c)
+    //     0x97f3b0: add             x1, PP, #0x43, lsl #12  ; [pp+0x431b8] AnonymousClosure: (0x97e9e4), in [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::start (0x97ed0c)
     //     0x97f3b4: ldr             x1, [x1, #0x1b8]
     // 0x97f3b8: r0 = AllocateClosure()
     //     0x97f3b8: bl              #0xe553e0  ; AllocateClosureStub
@@ -2297,7 +2297,7 @@ class TrendsManager extends ChangeNotifier {
     // 0x97f474: r1 = Null
     //     0x97f474: mov             x1, NULL
     // 0x97f478: r0 = ShotModel.fromMap()
-    //     0x97f478: bl              #0x95ba60  ; [package:ballai/shared/models/core/shot_model.dart] ShotModel::ShotModel.fromMap
+    //     0x97f478: bl              #0x95ba60  ; [package:kourtai/shared/models/core/shot_model.dart] ShotModel::ShotModel.fromMap
     // 0x97f47c: ldur            x1, [fp, #-0x80]
     // 0x97f480: stur            x0, [fp, #-0x80]
     // 0x97f484: r0 = last()
@@ -2349,7 +2349,7 @@ class TrendsManager extends ChangeNotifier {
     // 0x97f508: b               #0x97f3ec
     // 0x97f50c: ldur            x1, [fp, #-0x58]
     // 0x97f510: r0 = _applyDisplayFilter()
-    //     0x97f510: bl              #0x8f6ad4  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter
+    //     0x97f510: bl              #0x8f6ad4  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter
     // 0x97f514: r0 = Null
     //     0x97f514: mov             x0, NULL
     // 0x97f518: LeaveFrame
@@ -2388,7 +2388,7 @@ class TrendsManager extends ChangeNotifier {
     //     0x97f560: add             x2, x2, HEAP, lsl #32
     // 0x97f564: mov             x1, x0
     // 0x97f568: r0 = _markStreamLoaded()
-    //     0x97f568: bl              #0x97f584  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_markStreamLoaded
+    //     0x97f568: bl              #0x97f584  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_markStreamLoaded
     // 0x97f56c: r0 = Null
     //     0x97f56c: mov             x0, NULL
     // 0x97f570: LeaveFrame
@@ -2507,7 +2507,7 @@ class TrendsManager extends ChangeNotifier {
     // 0x97f694: DecompressPointer r2
     //     0x97f694: add             x2, x2, HEAP, lsl #32
     // 0x97f698: r0 = _markStreamLoaded()
-    //     0x97f698: bl              #0x97f584  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_markStreamLoaded
+    //     0x97f698: bl              #0x97f584  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_markStreamLoaded
     // 0x97f69c: r0 = Null
     //     0x97f69c: mov             x0, NULL
     // 0x97f6a0: LeaveFrame
@@ -2540,7 +2540,7 @@ class TrendsManager extends ChangeNotifier {
     // 0x97f6dc: mov             x1, x0
     // 0x97f6e0: ldr             x2, [fp, #0x10]
     // 0x97f6e4: r0 = _ingestWorkouts()
-    //     0x97f6e4: bl              #0x97f700  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_ingestWorkouts
+    //     0x97f6e4: bl              #0x97f700  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_ingestWorkouts
     // 0x97f6e8: r0 = Null
     //     0x97f6e8: mov             x0, NULL
     // 0x97f6ec: LeaveFrame
@@ -2603,7 +2603,7 @@ class TrendsManager extends ChangeNotifier {
     // 0x97f774: mov             x2, x3
     // 0x97f778: stur            x4, [fp, #-0x68]
     // 0x97f77c: r1 = Function '<anonymous closure>':.
-    //     0x97f77c: add             x1, PP, #0x43, lsl #12  ; [pp+0x431c0] AnonymousClosure: (0x97e9e4), in [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::start (0x97ed0c)
+    //     0x97f77c: add             x1, PP, #0x43, lsl #12  ; [pp+0x431c0] AnonymousClosure: (0x97e9e4), in [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::start (0x97ed0c)
     //     0x97f780: ldr             x1, [x1, #0x1c0]
     // 0x97f784: r0 = AllocateClosure()
     //     0x97f784: bl              #0xe553e0  ; AllocateClosureStub
@@ -2672,7 +2672,7 @@ class TrendsManager extends ChangeNotifier {
     // 0x97f840: r1 = Null
     //     0x97f840: mov             x1, NULL
     // 0x97f844: r0 = WorkoutModel.fromMap()
-    //     0x97f844: bl              #0x74186c  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::WorkoutModel.fromMap
+    //     0x97f844: bl              #0x74186c  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::WorkoutModel.fromMap
     // 0x97f848: ldur            x1, [fp, #-0x80]
     // 0x97f84c: stur            x0, [fp, #-0x80]
     // 0x97f850: r0 = last()
@@ -2724,7 +2724,7 @@ class TrendsManager extends ChangeNotifier {
     // 0x97f8d4: b               #0x97f7b8
     // 0x97f8d8: ldur            x1, [fp, #-0x58]
     // 0x97f8dc: r0 = _applyDisplayFilter()
-    //     0x97f8dc: bl              #0x8f6ad4  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter
+    //     0x97f8dc: bl              #0x8f6ad4  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter
     // 0x97f8e0: r0 = Null
     //     0x97f8e0: mov             x0, NULL
     // 0x97f8e4: LeaveFrame
@@ -2746,7 +2746,7 @@ class TrendsManager extends ChangeNotifier {
     //     0x9b5930: mov             fp, SP
     // 0x9b5934: ldr             x2, [fp, #0x10]
     // 0x9b5938: r1 = Function 'dispose':.
-    //     0x9b5938: add             x1, PP, #0x46, lsl #12  ; [pp+0x46450] AnonymousClosure: (0x9b5950), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::dispose (0x9bd390)
+    //     0x9b5938: add             x1, PP, #0x46, lsl #12  ; [pp+0x46450] AnonymousClosure: (0x9b5950), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::dispose (0x9bd390)
     //     0x9b593c: ldr             x1, [x1, #0x450]
     // 0x9b5940: r0 = AllocateClosure()
     //     0x9b5940: bl              #0xe553e0  ; AllocateClosureStub
@@ -2771,7 +2771,7 @@ class TrendsManager extends ChangeNotifier {
     //     0x9b5968: cmp             SP, x16
     //     0x9b596c: b.ls            #0x9b5980
     // 0x9b5970: r0 = dispose()
-    //     0x9b5970: bl              #0x9bd390  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::dispose
+    //     0x9b5970: bl              #0x9bd390  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::dispose
     // 0x9b5974: LeaveFrame
     //     0x9b5974: mov             SP, fp
     //     0x9b5978: ldp             fp, lr, [SP], #0x10
@@ -2799,7 +2799,7 @@ class TrendsManager extends ChangeNotifier {
     // 0x9bd3b4: r2 = true
     //     0x9bd3b4: add             x2, NULL, #0x20  ; true
     // 0x9bd3b8: r0 = stop()
-    //     0x9bd3b8: bl              #0x97e634  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::stop
+    //     0x9bd3b8: bl              #0x97e634  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::stop
     // 0x9bd3bc: ldur            x1, [fp, #-8]
     // 0x9bd3c0: r0 = dispose()
     //     0x9bd3c0: bl              #0xb7893c  ; [package:flutter/src/widgets/shortcuts.dart] _ShortcutManager&Object&Diagnosticable&ChangeNotifier::dispose
@@ -2824,7 +2824,7 @@ class TrendsManager extends ChangeNotifier {
     //     0xa7dc10: cmp             SP, x16
     //     0xa7dc14: b.ls            #0xa7dc68
     // 0xa7dc18: r0 = chartSummaryRange()
-    //     0xa7dc18: bl              #0xa7dd5c  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::chartSummaryRange
+    //     0xa7dc18: bl              #0xa7dd5c  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::chartSummaryRange
     // 0xa7dc1c: LoadField: r1 = r0->field_f
     //     0xa7dc1c: ldur            w1, [x0, #0xf]
     // 0xa7dc20: DecompressPointer r1
@@ -3060,7 +3060,7 @@ class TrendsManager extends ChangeNotifier {
     // 0xa7df84: r0 = false
     //     0xa7df84: add             x0, NULL, #0x30  ; false
     // 0xa7df88: r0 = _activeFilterRange()
-    //     0xa7df88: bl              #0x8f72e0  ; [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_activeFilterRange
+    //     0xa7df88: bl              #0x8f72e0  ; [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_activeFilterRange
     // 0xa7df8c: stur            x0, [fp, #-0x10]
     // 0xa7df90: cmp             w0, NULL
     // 0xa7df94: b.ne            #0xa7dfec

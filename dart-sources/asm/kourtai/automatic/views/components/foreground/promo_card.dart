@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/foreground/promo_card.dart
+// lib: , url: package:kourtai/automatic/views/components/foreground/promo_card.dart
 
 // class id: 1048794, size: 0x8
 class :: {
@@ -155,13 +155,13 @@ class _PromoCardTabViewState extends State<dynamic> {
     // 0x9d2448: ldur            x2, [fp, #-0x18]
     // 0x9d244c: stur            x4, [fp, #-0x20]
     // 0x9d2450: r1 = Function '<anonymous closure>':.
-    //     0x9d2450: add             x1, PP, #0x38, lsl #12  ; [pp+0x385d8] AnonymousClosure: (0x9d286c), in [package:ballai/automatic/views/components/foreground/promo_card.dart] _PromoCardTabViewState::build (0x9d2390)
+    //     0x9d2450: add             x1, PP, #0x38, lsl #12  ; [pp+0x385d8] AnonymousClosure: (0x9d286c), in [package:kourtai/automatic/views/components/foreground/promo_card.dart] _PromoCardTabViewState::build (0x9d2390)
     //     0x9d2454: ldr             x1, [x1, #0x5d8]
     // 0x9d2458: r0 = AllocateClosure()
     //     0x9d2458: bl              #0xe553e0  ; AllocateClosureStub
     // 0x9d245c: ldur            x2, [fp, #-0x18]
     // 0x9d2460: r1 = Function '<anonymous closure>':.
-    //     0x9d2460: add             x1, PP, #0x38, lsl #12  ; [pp+0x385e0] AnonymousClosure: (0x9d27c8), in [package:ballai/automatic/views/components/foreground/promo_card.dart] _PromoCardTabViewState::build (0x9d2390)
+    //     0x9d2460: add             x1, PP, #0x38, lsl #12  ; [pp+0x385e0] AnonymousClosure: (0x9d27c8), in [package:kourtai/automatic/views/components/foreground/promo_card.dart] _PromoCardTabViewState::build (0x9d2390)
     //     0x9d2464: ldr             x1, [x1, #0x5e0]
     // 0x9d2468: stur            x0, [fp, #-0x18]
     // 0x9d246c: r0 = AllocateClosure()
@@ -446,7 +446,7 @@ class _PromoCardTabViewState extends State<dynamic> {
     // 0x9d28b8: mov             x2, x1
     // 0x9d28bc: stur            x3, [fp, #-0x10]
     // 0x9d28c0: r1 = Function '<anonymous closure>':.
-    //     0x9d28c0: add             x1, PP, #0x38, lsl #12  ; [pp+0x385f0] AnonymousClosure: (0x9d28f0), in [package:ballai/automatic/views/components/foreground/promo_card.dart] _PromoCardTabViewState::build (0x9d2390)
+    //     0x9d28c0: add             x1, PP, #0x38, lsl #12  ; [pp+0x385f0] AnonymousClosure: (0x9d28f0), in [package:kourtai/automatic/views/components/foreground/promo_card.dart] _PromoCardTabViewState::build (0x9d2390)
     //     0x9d28c4: ldr             x1, [x1, #0x5f0]
     // 0x9d28c8: r0 = AllocateClosure()
     //     0x9d28c8: bl              #0xe553e0  ; AllocateClosureStub
@@ -500,7 +500,7 @@ class _PromoCardTabViewState extends State<dynamic> {
     //     0xb5a450: mov             fp, SP
     // 0xb5a454: ldr             x2, [fp, #0x10]
     // 0xb5a458: r1 = Function 'dispose':.
-    //     0xb5a458: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cd30] AnonymousClosure: (0xb5a470), in [package:ballai/automatic/views/components/foreground/promo_card.dart] _PromoCardTabViewState::dispose (0xb5ff24)
+    //     0xb5a458: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cd30] AnonymousClosure: (0xb5a470), in [package:kourtai/automatic/views/components/foreground/promo_card.dart] _PromoCardTabViewState::dispose (0xb5ff24)
     //     0xb5a45c: ldr             x1, [x1, #0xd30]
     // 0xb5a460: r0 = AllocateClosure()
     //     0xb5a460: bl              #0xe553e0  ; AllocateClosureStub
@@ -525,7 +525,7 @@ class _PromoCardTabViewState extends State<dynamic> {
     //     0xb5a488: cmp             SP, x16
     //     0xb5a48c: b.ls            #0xb5a4a0
     // 0xb5a490: r0 = dispose()
-    //     0xb5a490: bl              #0xb5ff24  ; [package:ballai/automatic/views/components/foreground/promo_card.dart] _PromoCardTabViewState::dispose
+    //     0xb5a490: bl              #0xb5ff24  ; [package:kourtai/automatic/views/components/foreground/promo_card.dart] _PromoCardTabViewState::dispose
     // 0xb5a494: LeaveFrame
     //     0xb5a494: mov             SP, fp
     //     0xb5a498: ldp             fp, lr, [SP], #0x10
@@ -644,7 +644,7 @@ class PromoCard extends StatelessWidget {
     //     0xbb02fc: bl              #0x9d20b4  ; AllocateImageStub -> Image (size=0x58)
     // 0xbb0300: ldur            x2, [fp, #-0x18]
     // 0xbb0304: r1 = Function '<anonymous closure>':.
-    //     0xbb0304: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cd18] AnonymousClosure: (0xbb0858), in [package:ballai/automatic/views/components/foreground/promo_card.dart] PromoCard::build (0xbb02a8)
+    //     0xbb0304: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cd18] AnonymousClosure: (0xbb0858), in [package:kourtai/automatic/views/components/foreground/promo_card.dart] PromoCard::build (0xbb02a8)
     //     0xbb0308: ldr             x1, [x1, #0xd18]
     // 0xbb030c: stur            x0, [fp, #-0x20]
     // 0xbb0310: r0 = AllocateClosure()
@@ -837,8 +837,8 @@ class PromoCard extends StatelessWidget {
     //     0xbb04f0: ldur            w1, [x4, #0xf]
     // 0xbb04f4: DecompressPointer r1
     //     0xbb04f4: add             x1, x1, HEAP, lsl #32
-    // 0xbb04f8: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbb04f8: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbb04f8: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbb04f8: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbb04fc: stur            x0, [fp, #-0x10]
     // 0xbb0500: r0 = TextStyle()
     //     0xbb0500: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -876,8 +876,8 @@ class PromoCard extends StatelessWidget {
     //     0xbb0554: ldur            w1, [x0, #0xf]
     // 0xbb0558: DecompressPointer r1
     //     0xbb0558: add             x1, x1, HEAP, lsl #32
-    // 0xbb055c: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbb055c: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbb055c: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbb055c: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbb0560: stur            x0, [fp, #-0x18]
     // 0xbb0564: r0 = Icon()
     //     0xbb0564: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -1204,8 +1204,8 @@ class PromoCard extends StatelessWidget {
     // 0xbb0880: DecompressPointer r0
     //     0xbb0880: add             x0, x0, HEAP, lsl #32
     // 0xbb0884: mov             x1, x0
-    // 0xbb0888: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb0888: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb0888: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb0888: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb088c: stur            x0, [fp, #-8]
     // 0xbb0890: r0 = Icon()
     //     0xbb0890: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)

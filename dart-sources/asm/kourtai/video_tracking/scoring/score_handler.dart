@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/scoring/score_handler.dart
+// lib: , url: package:kourtai/video_tracking/scoring/score_handler.dart
 
 // class id: 1049161, size: 0x8
 class :: {
@@ -31,7 +31,7 @@ class ScoreHandler extends Object {
     // 0x758ea8: DecompressPointer r3
     //     0x758ea8: add             x3, x3, HEAP, lsl #32
     // 0x758eac: r0 = apply()
-    //     0x758eac: bl              #0x758ee8  ; [package:ballai/video_tracking/scoring/score_handler.dart] ScoringMath::apply
+    //     0x758eac: bl              #0x758ee8  ; [package:kourtai/video_tracking/scoring/score_handler.dart] ScoringMath::apply
     // 0x758eb0: ldur            x1, [fp, #-8]
     // 0x758eb4: StoreField: r1->field_b = r0
     //     0x758eb4: stur            w0, [x1, #0xb]
@@ -66,7 +66,7 @@ class ScoreHandler extends Object {
     //     0x76712c: cmp             SP, x16
     //     0x767130: b.ls            #0x767168
     // 0x767134: r0 = base()
-    //     0x767134: bl              #0x60c068  ; [package:ballai/video_tracking/scoring/score_handler.dart] ScoreState::base
+    //     0x767134: bl              #0x60c068  ; [package:kourtai/video_tracking/scoring/score_handler.dart] ScoreState::base
     // 0x767138: ldur            x1, [fp, #-8]
     // 0x76713c: StoreField: r1->field_b = r0
     //     0x76713c: stur            w0, [x1, #0xb]
@@ -115,7 +115,7 @@ abstract class ScoringMath extends Object {
     //     0x758f18: mov             x2, #1
     // 0x758f1c: stur            x2, [fp, #-8]
     // 0x758f20: r0 = copy()
-    //     0x758f20: bl              #0x759070  ; [package:ballai/video_tracking/scoring/score_handler.dart] ScoreState::copy
+    //     0x758f20: bl              #0x759070  ; [package:kourtai/video_tracking/scoring/score_handler.dart] ScoreState::copy
     // 0x758f24: mov             x4, x0
     // 0x758f28: r0 = 2
     //     0x758f28: mov             x0, #2

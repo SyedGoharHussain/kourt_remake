@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_health_integrations_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_health_integrations_view.dart
 
 // class id: 1048878, size: 0x8
 class :: {
@@ -23,22 +23,22 @@ class AccountHealthIntegrationsView extends StatelessWidget {
     //     0xbd9468: cmp             SP, x16
     //     0xbd946c: b.ls            #0xbd96c8
     // 0xbd9470: mov             x1, x0
-    // 0xbd9474: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xbd9474: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xbd9474: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xbd9474: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xbd9478: ldur            x1, [fp, #-8]
     // 0xbd947c: stur            x0, [fp, #-0x10]
-    // 0xbd9480: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xbd9480: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xbd9480: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xbd9480: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xbd9484: r1 = "Smartwatch integrations"
     //     0xbd9484: add             x1, PP, #0x44, lsl #12  ; [pp+0x44ec8] "Smartwatch integrations"
     //     0xbd9488: ldr             x1, [x1, #0xec8]
     // 0xbd948c: stur            x0, [fp, #-0x18]
     // 0xbd9490: r0 = L()
-    //     0xbd9490: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd9490: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd9494: ldur            x1, [fp, #-8]
     // 0xbd9498: stur            x0, [fp, #-0x20]
-    // 0xbd949c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbd949c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbd949c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbd949c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbd94a0: stur            x0, [fp, #-0x28]
     // 0xbd94a4: r0 = TextStyle()
     //     0xbd94a4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -105,21 +105,21 @@ class AccountHealthIntegrationsView extends StatelessWidget {
     //     0xbd9548: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f00] "Health Connect"
     //     0xbd954c: ldr             x1, [x1, #0xf00]
     // 0xbd9550: r0 = L()
-    //     0xbd9550: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd9550: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd9554: stur            x0, [fp, #-0x18]
     // 0xbd9558: r16 = Instance_FontWeight
     //     0xbd9558: add             x16, PP, #0x15, lsl #12  ; [pp+0x151f0] Obj!FontWeight@d28001
     //     0xbd955c: ldr             x16, [x16, #0x1f0]
     // 0xbd9560: str             x16, [SP]
     // 0xbd9564: ldur            x1, [fp, #-8]
-    // 0xbd9568: r2 = Instance_BallAiTextScale
-    //     0xbd9568: add             x2, PP, #0x37, lsl #12  ; [pp+0x37890] Obj!BallAiTextScale@d3b021
+    // 0xbd9568: r2 = Instance_KourtAiTextScale
+    //     0xbd9568: add             x2, PP, #0x37, lsl #12  ; [pp+0x37890] Obj!KourtAiTextScale@d3b021
     //     0xbd956c: ldr             x2, [x2, #0x890]
     // 0xbd9570: r4 = const [0, 0x3, 0x1, 0x2, weight, 0x2, null]
     //     0xbd9570: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf00] List(7) [0, 0x3, 0x1, 0x2, "weight", 0x2, Null]
     //     0xbd9574: ldr             x4, [x4, #0xf00]
-    // 0xbd9578: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xbd9578: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xbd9578: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xbd9578: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xbd957c: stur            x0, [fp, #-0x28]
     // 0xbd9580: r0 = Text()
     //     0xbd9580: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -131,25 +131,25 @@ class AccountHealthIntegrationsView extends StatelessWidget {
     // 0xbd9594: ldur            x0, [fp, #-0x28]
     // 0xbd9598: StoreField: r2->field_13 = r0
     //     0xbd9598: stur            w0, [x2, #0x13]
-    // 0xbd959c: r1 = "Connect a compatible watch so Ball AI can use your activity data alongside workouts."
-    //     0xbd959c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f08] "Connect a compatible watch so Ball AI can use your activity data alongside workouts."
+    // 0xbd959c: r1 = "Connect a compatible watch so Kourt AI can use your activity data alongside workouts."
+    //     0xbd959c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f08] "Connect a compatible watch so Kourt AI can use your activity data alongside workouts."
     //     0xbd95a0: ldr             x1, [x1, #0xf08]
     // 0xbd95a4: r0 = L()
-    //     0xbd95a4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd95a4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd95a8: ldur            x1, [fp, #-8]
     // 0xbd95ac: stur            x0, [fp, #-0x18]
-    // 0xbd95b0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbd95b0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbd95b0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbd95b0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbd95b4: str             x0, [SP]
     // 0xbd95b8: ldur            x1, [fp, #-8]
-    // 0xbd95bc: r2 = Instance_BallAiTextScale
-    //     0xbd95bc: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bf28] Obj!BallAiTextScale@d3b081
+    // 0xbd95bc: r2 = Instance_KourtAiTextScale
+    //     0xbd95bc: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bf28] Obj!KourtAiTextScale@d3b081
     //     0xbd95c0: ldr             x2, [x2, #0xf28]
     // 0xbd95c4: r4 = const [0, 0x3, 0x1, 0x2, color, 0x2, null]
     //     0xbd95c4: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf60] List(7) [0, 0x3, 0x1, 0x2, "color", 0x2, Null]
     //     0xbd95c8: ldr             x4, [x4, #0xf60]
-    // 0xbd95cc: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xbd95cc: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xbd95cc: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xbd95cc: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xbd95d0: stur            x0, [fp, #-8]
     // 0xbd95d4: r0 = Text()
     //     0xbd95d4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -185,8 +185,8 @@ class AccountHealthIntegrationsView extends StatelessWidget {
     //     0xbd9624: ldr             x16, [x16, #0xf80]
     // 0xbd9628: StoreField: r2->field_1b = r16
     //     0xbd9628: stur            w16, [x2, #0x1b]
-    // 0xbd962c: r16 = Instance_BallAiComingSoonBanner
-    //     0xbd962c: add             x16, PP, #0x49, lsl #12  ; [pp+0x49288] Obj!BallAiComingSoonBanner@d25ad1
+    // 0xbd962c: r16 = Instance_KourtAiComingSoonBanner
+    //     0xbd962c: add             x16, PP, #0x49, lsl #12  ; [pp+0x49288] Obj!KourtAiComingSoonBanner@d25ad1
     //     0xbd9630: ldr             x16, [x16, #0x288]
     // 0xbd9634: StoreField: r2->field_1f = r16
     //     0xbd9634: stur            w16, [x2, #0x1f]

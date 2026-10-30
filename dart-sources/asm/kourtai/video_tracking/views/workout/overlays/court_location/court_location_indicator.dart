@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart
 
 // class id: 1049249, size: 0x8
 class :: {
@@ -37,7 +37,7 @@ class _CourtLocationIndicatorState extends State<dynamic> {
     // 0x9949e8: mov             x2, x0
     // 0x9949ec: stur            x4, [fp, #-0x10]
     // 0x9949f0: r1 = Function '_onManagerChanged@1474487373':.
-    //     0x9949f0: add             x1, PP, #0x41, lsl #12  ; [pp+0x41368] AnonymousClosure: (0x994af4), in [package:ballai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_onManagerChanged (0x994b2c)
+    //     0x9949f0: add             x1, PP, #0x41, lsl #12  ; [pp+0x41368] AnonymousClosure: (0x994af4), in [package:kourtai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_onManagerChanged (0x994b2c)
     //     0x9949f4: ldr             x1, [x1, #0x368]
     // 0x9949f8: r0 = AllocateClosure()
     //     0x9949f8: bl              #0xe553e0  ; AllocateClosureStub
@@ -47,7 +47,7 @@ class _CourtLocationIndicatorState extends State<dynamic> {
     //     0x994a04: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0x994a08: ldur            x2, [fp, #-0x18]
     // 0x994a0c: r1 = Function '<anonymous closure>':.
-    //     0x994a0c: add             x1, PP, #0x41, lsl #12  ; [pp+0x41378] AnonymousClosure: (0x994a80), in [package:ballai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::initState (0x9949a8)
+    //     0x994a0c: add             x1, PP, #0x41, lsl #12  ; [pp+0x41378] AnonymousClosure: (0x994a80), in [package:kourtai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::initState (0x9949a8)
     //     0x994a10: ldr             x1, [x1, #0x378]
     // 0x994a14: r0 = AllocateClosure()
     //     0x994a14: bl              #0xe553e0  ; AllocateClosureStub
@@ -141,7 +141,7 @@ class _CourtLocationIndicatorState extends State<dynamic> {
     //     0x994b0c: cmp             SP, x16
     //     0x994b10: b.ls            #0x994b24
     // 0x994b14: r0 = _onManagerChanged()
-    //     0x994b14: bl              #0x994b2c  ; [package:ballai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_onManagerChanged
+    //     0x994b14: bl              #0x994b2c  ; [package:kourtai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_onManagerChanged
     // 0x994b18: LeaveFrame
     //     0x994b18: mov             SP, fp
     //     0x994b1c: ldp             fp, lr, [SP], #0x10
@@ -281,7 +281,7 @@ class _CourtLocationIndicatorState extends State<dynamic> {
     // 0xad1810: ldur            x2, [fp, #-0x10]
     // 0xad1814: mov             x3, x0
     // 0xad1818: r0 = _displayWorkout()
-    //     0xad1818: bl              #0xad2250  ; [package:ballai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_displayWorkout
+    //     0xad1818: bl              #0xad2250  ; [package:kourtai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_displayWorkout
     // 0xad181c: stur            x0, [fp, #-0x10]
     // 0xad1820: r0 = VideoTrackingGoalLinearProgressView()
     //     0xad1820: bl              #0xad2244  ; AllocateVideoTrackingGoalLinearProgressViewStub -> VideoTrackingGoalLinearProgressView (size=0x1c)
@@ -333,11 +333,11 @@ class _CourtLocationIndicatorState extends State<dynamic> {
     // 0xad1898: ldur            x0, [fp, #-0x28]
     // 0xad189c: ldur            x1, [fp, #-0x20]
     // 0xad18a0: r0 = _shotsToShow()
-    //     0xad18a0: bl              #0xad1fa4  ; [package:ballai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_shotsToShow
+    //     0xad18a0: bl              #0xad1fa4  ; [package:kourtai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_shotsToShow
     // 0xad18a4: ldur            x1, [fp, #-0x20]
     // 0xad18a8: mov             x2, x0
     // 0xad18ac: r0 = _halfcourtStack()
-    //     0xad18ac: bl              #0xad19d8  ; [package:ballai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_halfcourtStack
+    //     0xad18ac: bl              #0xad19d8  ; [package:kourtai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_halfcourtStack
     // 0xad18b0: mov             x2, x0
     // 0xad18b4: ldur            x0, [fp, #-0x28]
     // 0xad18b8: stur            x2, [fp, #-8]
@@ -600,7 +600,7 @@ class _CourtLocationIndicatorState extends State<dynamic> {
     //     0xad1b48: stur            w0, [x3, #0xb]
     // 0xad1b4c: ldur            x2, [fp, #-0x18]
     // 0xad1b50: r1 = Function '<anonymous closure>':.
-    //     0xad1b50: add             x1, PP, #0x41, lsl #12  ; [pp+0x41320] AnonymousClosure: (0xad1c24), in [package:ballai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_halfcourtStack (0xad19d8)
+    //     0xad1b50: add             x1, PP, #0x41, lsl #12  ; [pp+0x41320] AnonymousClosure: (0xad1c24), in [package:kourtai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_halfcourtStack (0xad19d8)
     //     0xad1b54: ldr             x1, [x1, #0x320]
     // 0xad1b58: r0 = AllocateClosure()
     //     0xad1b58: bl              #0xe553e0  ; AllocateClosureStub
@@ -711,7 +711,7 @@ class _CourtLocationIndicatorState extends State<dynamic> {
     // 0xad1c68: DecompressPointer r1
     //     0xad1c68: add             x1, x1, HEAP, lsl #32
     // 0xad1c6c: r0 = _scalePositionToIndicator()
-    //     0xad1c6c: bl              #0xad1ef4  ; [package:ballai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_scalePositionToIndicator
+    //     0xad1c6c: bl              #0xad1ef4  ; [package:kourtai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_scalePositionToIndicator
     // 0xad1c70: stur            x0, [fp, #-0x20]
     // 0xad1c74: LoadField: d0 = r0->field_7
     //     0xad1c74: ldur            d0, [x0, #7]
@@ -781,7 +781,7 @@ class _CourtLocationIndicatorState extends State<dynamic> {
     // 0xad1d3c: DecompressPointer r1
     //     0xad1d3c: add             x1, x1, HEAP, lsl #32
     // 0xad1d40: r0 = _makeMarker()
-    //     0xad1d40: bl              #0xad1e40  ; [package:ballai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_makeMarker
+    //     0xad1d40: bl              #0xad1e40  ; [package:kourtai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_makeMarker
     // 0xad1d44: mov             x3, x0
     // 0xad1d48: b               #0xad1d60
     // 0xad1d4c: ldur            x0, [fp, #-0x10]
@@ -790,7 +790,7 @@ class _CourtLocationIndicatorState extends State<dynamic> {
     // 0xad1d54: DecompressPointer r1
     //     0xad1d54: add             x1, x1, HEAP, lsl #32
     // 0xad1d58: r0 = _missMarker()
-    //     0xad1d58: bl              #0xad1dec  ; [package:ballai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_missMarker
+    //     0xad1d58: bl              #0xad1dec  ; [package:kourtai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_missMarker
     // 0xad1d5c: mov             x3, x0
     // 0xad1d60: ldur            x2, [fp, #-8]
     // 0xad1d64: ldur            x0, [fp, #-0x20]
@@ -963,7 +963,7 @@ class _CourtLocationIndicatorState extends State<dynamic> {
     //     0xad1f08: cmp             SP, x16
     //     0xad1f0c: b.ls            #0xad1f6c
     // 0xad1f10: r0 = _indicatorSize()
-    //     0xad1f10: bl              #0xad1f74  ; [package:ballai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_indicatorSize
+    //     0xad1f10: bl              #0xad1f74  ; [package:kourtai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_indicatorSize
     // 0xad1f14: LoadField: d0 = r0->field_7
     //     0xad1f14: ldur            d0, [x0, #7]
     // 0xad1f18: r0 = Instance_Size
@@ -1077,7 +1077,7 @@ class _CourtLocationIndicatorState extends State<dynamic> {
     //     0xad2020: ret             
     // 0xad2024: mov             x2, x1
     // 0xad2028: r1 = Function '<anonymous closure>':.
-    //     0xad2028: add             x1, PP, #0x41, lsl #12  ; [pp+0x41350] AnonymousClosure: (0xad2088), in [package:ballai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_shotsToShow (0xad1fa4)
+    //     0xad2028: add             x1, PP, #0x41, lsl #12  ; [pp+0x41350] AnonymousClosure: (0xad2088), in [package:kourtai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_shotsToShow (0xad1fa4)
     //     0xad202c: ldr             x1, [x1, #0x350]
     // 0xad2030: r0 = AllocateClosure()
     //     0xad2030: bl              #0xe553e0  ; AllocateClosureStub
@@ -1188,7 +1188,7 @@ class _CourtLocationIndicatorState extends State<dynamic> {
     // 0xad213c: ldr             x1, [fp, #0x10]
     // 0xad2140: ldur            x2, [fp, #-0x10]
     // 0xad2144: r0 = ShotModelHalfcourtDisplay.resolvedHalfcourtPixel()
-    //     0xad2144: bl              #0xad2180  ; [package:ballai/video_tracking/court_location/shot_model_halfcourt_display.dart] ::ShotModelHalfcourtDisplay.resolvedHalfcourtPixel
+    //     0xad2144: bl              #0xad2180  ; [package:kourtai/video_tracking/court_location/shot_model_halfcourt_display.dart] ::ShotModelHalfcourtDisplay.resolvedHalfcourtPixel
     // 0xad2148: cmp             w0, NULL
     // 0xad214c: b.ne            #0xad2160
     // 0xad2150: r0 = Null
@@ -1252,7 +1252,7 @@ class _CourtLocationIndicatorState extends State<dynamic> {
     //     0xad22b8: add             x1, x1, HEAP, lsl #32
     // 0xad22bc: ldur            x2, [fp, #-0x10]
     // 0xad22c0: r0 = VideoWorkoutManagerWorkout.workoutWithLiveElapsedTime()
-    //     0xad22c0: bl              #0xad22d8  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.workoutWithLiveElapsedTime
+    //     0xad22c0: bl              #0xad22d8  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.workoutWithLiveElapsedTime
     // 0xad22c4: LeaveFrame
     //     0xad22c4: mov             SP, fp
     //     0xad22c8: ldp             fp, lr, [SP], #0x10
@@ -1269,7 +1269,7 @@ class _CourtLocationIndicatorState extends State<dynamic> {
     //     0xb5cdac: mov             fp, SP
     // 0xb5cdb0: ldr             x2, [fp, #0x10]
     // 0xb5cdb4: r1 = Function 'dispose':.
-    //     0xb5cdb4: add             x1, PP, #0x41, lsl #12  ; [pp+0x41308] AnonymousClosure: (0xb5cdcc), in [package:ballai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::dispose (0xb648f0)
+    //     0xb5cdb4: add             x1, PP, #0x41, lsl #12  ; [pp+0x41308] AnonymousClosure: (0xb5cdcc), in [package:kourtai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::dispose (0xb648f0)
     //     0xb5cdb8: ldr             x1, [x1, #0x308]
     // 0xb5cdbc: r0 = AllocateClosure()
     //     0xb5cdbc: bl              #0xe553e0  ; AllocateClosureStub
@@ -1294,7 +1294,7 @@ class _CourtLocationIndicatorState extends State<dynamic> {
     //     0xb5cde4: cmp             SP, x16
     //     0xb5cde8: b.ls            #0xb5cdfc
     // 0xb5cdec: r0 = dispose()
-    //     0xb5cdec: bl              #0xb648f0  ; [package:ballai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::dispose
+    //     0xb5cdec: bl              #0xb648f0  ; [package:kourtai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::dispose
     // 0xb5cdf0: LeaveFrame
     //     0xb5cdf0: mov             SP, fp
     //     0xb5cdf4: ldp             fp, lr, [SP], #0x10
@@ -1333,7 +1333,7 @@ class _CourtLocationIndicatorState extends State<dynamic> {
     //     0xb6492c: add             x0, x0, HEAP, lsl #32
     // 0xb64930: stur            x0, [fp, #-0x10]
     // 0xb64934: r1 = Function '_onManagerChanged@1474487373':.
-    //     0xb64934: add             x1, PP, #0x41, lsl #12  ; [pp+0x41368] AnonymousClosure: (0x994af4), in [package:ballai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_onManagerChanged (0x994b2c)
+    //     0xb64934: add             x1, PP, #0x41, lsl #12  ; [pp+0x41368] AnonymousClosure: (0x994af4), in [package:kourtai/video_tracking/views/workout/overlays/court_location/court_location_indicator.dart] _CourtLocationIndicatorState::_onManagerChanged (0x994b2c)
     //     0xb64938: ldr             x1, [x1, #0x368]
     // 0xb6493c: r0 = AllocateClosure()
     //     0xb6493c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1369,7 +1369,7 @@ class CourtLocationIndicator extends StatefulWidget {
     //     0xb772a8: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xb772ac: cmp             SP, x16
     //     0xb772b0: b.ls            #0xb772f8
-    // 0xb772b4: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0xb772b4: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0xb772b4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb772b8: ldr             x0, [x0, #0x1cf0]
     //     0xb772bc: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel

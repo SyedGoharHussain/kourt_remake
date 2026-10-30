@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_visibility_step_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_visibility_step_view.dart
 
 // class id: 1048936, size: 0x8
 class :: {
@@ -61,8 +61,8 @@ class TeamVisibilityStepView extends StatelessWidget {
     //     0xbfc240: ldur            w1, [x0, #0x13]
     // 0xbfc244: DecompressPointer r1
     //     0xbfc244: add             x1, x1, HEAP, lsl #32
-    // 0xbfc248: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xbfc248: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xbfc248: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xbfc248: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xbfc24c: b               #0xbfc254
     // 0xbfc250: r0 = Instance_Color
     //     0xbfc250: ldr             x0, [PP, #0x5178]  ; [pp+0x5178] Obj!Color@d2a0a1
@@ -81,8 +81,8 @@ class TeamVisibilityStepView extends StatelessWidget {
     //     0xbfc27c: ldur            w1, [x3, #0x13]
     // 0xbfc280: DecompressPointer r1
     //     0xbfc280: add             x1, x1, HEAP, lsl #32
-    // 0xbfc284: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbfc284: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbfc284: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbfc284: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbfc288: b               #0xbfc290
     // 0xbfc28c: r0 = Instance_Color
     //     0xbfc28c: ldr             x0, [PP, #0x5140]  ; [pp+0x5140] Obj!Color@d28fc1
@@ -111,7 +111,7 @@ class TeamVisibilityStepView extends StatelessWidget {
     //     0xbfc2d8: b.eq            #0xbfc2e0
     //     0xbfc2dc: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xbfc2e0: r1 = Function '<anonymous closure>':.
-    //     0xbfc2e0: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c360] AnonymousClosure: (0xbfc388), in [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_visibility_step_view.dart] TeamVisibilityStepView::build (0xbfc1c4)
+    //     0xbfc2e0: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c360] AnonymousClosure: (0xbfc388), in [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_visibility_step_view.dart] TeamVisibilityStepView::build (0xbfc1c4)
     //     0xbfc2e4: ldr             x1, [x1, #0x360]
     // 0xbfc2e8: r0 = AllocateClosure()
     //     0xbfc2e8: bl              #0xe553e0  ; AllocateClosureStub
@@ -257,8 +257,8 @@ class TeamVisibilityStepView extends StatelessWidget {
     //     0xbfc43c: ldur            w1, [x0, #0x13]
     // 0xbfc440: DecompressPointer r1
     //     0xbfc440: add             x1, x1, HEAP, lsl #32
-    // 0xbfc444: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbfc444: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbfc444: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbfc444: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbfc448: mov             x3, x0
     // 0xbfc44c: ldur            x0, [fp, #-8]
     // 0xbfc450: b               #0xbfc464
@@ -437,8 +437,8 @@ class TeamVisibilityStepView extends StatelessWidget {
     //     0xbfc638: ldur            w1, [x4, #0x13]
     // 0xbfc63c: DecompressPointer r1
     //     0xbfc63c: add             x1, x1, HEAP, lsl #32
-    // 0xbfc640: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbfc640: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbfc640: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbfc640: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbfc644: stur            x0, [fp, #-0x28]
     // 0xbfc648: r0 = TextStyle()
     //     0xbfc648: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -646,7 +646,7 @@ class TeamVisibilityStepView extends StatelessWidget {
     //     0xbfc844: stur            w0, [x3, #0xb]
     // 0xbfc848: ldur            x2, [fp, #-0x10]
     // 0xbfc84c: r1 = Function '<anonymous closure>':.
-    //     0xbfc84c: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c3c0] AnonymousClosure: (0xbfc92c), in [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_visibility_step_view.dart] TeamVisibilityStepView::build (0xbfc1c4)
+    //     0xbfc84c: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c3c0] AnonymousClosure: (0xbfc92c), in [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_visibility_step_view.dart] TeamVisibilityStepView::build (0xbfc1c4)
     //     0xbfc850: ldr             x1, [x1, #0x3c0]
     // 0xbfc854: r0 = AllocateClosure()
     //     0xbfc854: bl              #0xe553e0  ; AllocateClosureStub

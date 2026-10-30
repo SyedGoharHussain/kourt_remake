@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/support/post_auth_account_setup_step_store.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/support/post_auth_account_setup_step_store.dart
 
 // class id: 1048863, size: 0x8
 class :: {
@@ -44,7 +44,7 @@ abstract class PostAuthAccountSetupStepStore extends Object {
     // 0x930320: r0 = ReturnAsyncNotFuture()
     //     0x930320: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x930324: r0 = _loadAll()
-    //     0x930324: bl              #0x9303f0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/post_auth_account_setup_step_store.dart] PostAuthAccountSetupStepStore::_loadAll
+    //     0x930324: bl              #0x9303f0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/post_auth_account_setup_step_store.dart] PostAuthAccountSetupStepStore::_loadAll
     // 0x930328: mov             x1, x0
     // 0x93032c: stur            x1, [fp, #-0x18]
     // 0x930330: r0 = Await()
@@ -62,7 +62,7 @@ abstract class PostAuthAccountSetupStepStore extends Object {
     //     0x930354: blr             lr
     // 0x930358: ldur            x1, [fp, #-0x18]
     // 0x93035c: r0 = _saveAll()
-    //     0x93035c: bl              #0x93037c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/post_auth_account_setup_step_store.dart] PostAuthAccountSetupStepStore::_saveAll
+    //     0x93035c: bl              #0x93037c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/post_auth_account_setup_step_store.dart] PostAuthAccountSetupStepStore::_saveAll
     // 0x930360: mov             x1, x0
     // 0x930364: stur            x1, [fp, #-0x10]
     // 0x930368: r0 = Await()
@@ -242,7 +242,7 @@ abstract class PostAuthAccountSetupStepStore extends Object {
     // 0x930534: r0 = ReturnAsyncNotFuture()
     //     0x930534: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x930538: r1 = Function '<anonymous closure>': static.
-    //     0x930538: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ac60] AnonymousClosure: static (0x930584), in [package:ballai/automatic/views/home/tab/auth/accountsetup/support/post_auth_account_setup_step_store.dart] PostAuthAccountSetupStepStore::_loadAll (0x9303f0)
+    //     0x930538: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ac60] AnonymousClosure: static (0x930584), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/post_auth_account_setup_step_store.dart] PostAuthAccountSetupStepStore::_loadAll (0x9303f0)
     //     0x93053c: ldr             x1, [x1, #0xc60]
     // 0x930540: r2 = Null
     //     0x930540: mov             x2, NULL
@@ -393,7 +393,7 @@ abstract class PostAuthAccountSetupStepStore extends Object {
     // 0x9375bc: r0 = ReturnAsyncNotFuture()
     //     0x9375bc: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x9375c0: r0 = _loadAll()
-    //     0x9375c0: bl              #0x9303f0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/post_auth_account_setup_step_store.dart] PostAuthAccountSetupStepStore::_loadAll
+    //     0x9375c0: bl              #0x9303f0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/post_auth_account_setup_step_store.dart] PostAuthAccountSetupStepStore::_loadAll
     // 0x9375c4: mov             x1, x0
     // 0x9375c8: stur            x1, [fp, #-0x18]
     // 0x9375cc: r0 = Await()
@@ -457,7 +457,7 @@ abstract class PostAuthAccountSetupStepStore extends Object {
     //     0x94bac0: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x94bac4: ldur            x0, [fp, #-0x10]
     // 0x94bac8: r0 = _loadAll()
-    //     0x94bac8: bl              #0x9303f0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/post_auth_account_setup_step_store.dart] PostAuthAccountSetupStepStore::_loadAll
+    //     0x94bac8: bl              #0x9303f0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/post_auth_account_setup_step_store.dart] PostAuthAccountSetupStepStore::_loadAll
     // 0x94bacc: mov             x1, x0
     // 0x94bad0: stur            x1, [fp, #-0x20]
     // 0x94bad4: r0 = Await()
@@ -484,7 +484,7 @@ abstract class PostAuthAccountSetupStepStore extends Object {
     //     0x94bb18: blr             lr
     // 0x94bb1c: ldur            x1, [fp, #-0x20]
     // 0x94bb20: r0 = _saveAll()
-    //     0x94bb20: bl              #0x93037c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/post_auth_account_setup_step_store.dart] PostAuthAccountSetupStepStore::_saveAll
+    //     0x94bb20: bl              #0x93037c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/post_auth_account_setup_step_store.dart] PostAuthAccountSetupStepStore::_saveAll
     // 0x94bb24: mov             x1, x0
     // 0x94bb28: stur            x1, [fp, #-0x18]
     // 0x94bb2c: r0 = Await()

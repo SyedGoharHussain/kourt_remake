@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart
 
 // class id: 1048943, size: 0x8
 class :: {
@@ -36,22 +36,22 @@ class TeamAnalyticsProTeamsUpsellCard extends StatelessWidget {
     // 0xbfd410: ldur            x1, [fp, #-0x10]
     // 0xbfd414: StoreField: r2->field_13 = r1
     //     0xbfd414: stur            w1, [x2, #0x13]
-    // 0xbfd418: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbfd418: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbfd418: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbfd418: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbfd41c: r1 = "Unlock your\nteam\'s full potential."
     //     0xbfd41c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bf80] "Unlock your\nteam\'s full potential."
     //     0xbfd420: ldr             x1, [x1, #0xf80]
     // 0xbfd424: stur            x0, [fp, #-0x10]
     // 0xbfd428: r0 = L()
-    //     0xbfd428: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfd428: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfd42c: ldur            x2, [fp, #-0x18]
     // 0xbfd430: stur            x0, [fp, #-0x20]
     // 0xbfd434: LoadField: r1 = r2->field_13
     //     0xbfd434: ldur            w1, [x2, #0x13]
     // 0xbfd438: DecompressPointer r1
     //     0xbfd438: add             x1, x1, HEAP, lsl #32
-    // 0xbfd43c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbfd43c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbfd43c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbfd43c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbfd440: stur            x0, [fp, #-0x28]
     // 0xbfd444: r0 = TextStyle()
     //     0xbfd444: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -93,15 +93,15 @@ class TeamAnalyticsProTeamsUpsellCard extends StatelessWidget {
     //     0xbfd4a0: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bf78] "4.9 · 350+ teams"
     //     0xbfd4a4: ldr             x1, [x1, #0xf78]
     // 0xbfd4a8: r0 = L()
-    //     0xbfd4a8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfd4a8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfd4ac: ldur            x2, [fp, #-0x18]
     // 0xbfd4b0: stur            x0, [fp, #-0x20]
     // 0xbfd4b4: LoadField: r1 = r2->field_13
     //     0xbfd4b4: ldur            w1, [x2, #0x13]
     // 0xbfd4b8: DecompressPointer r1
     //     0xbfd4b8: add             x1, x1, HEAP, lsl #32
-    // 0xbfd4bc: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbfd4bc: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbfd4bc: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbfd4bc: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbfd4c0: stur            x0, [fp, #-0x30]
     // 0xbfd4c4: r0 = TextStyle()
     //     0xbfd4c4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -206,8 +206,8 @@ class TeamAnalyticsProTeamsUpsellCard extends StatelessWidget {
     // 0xbfd5bc: mov             x2, x1
     // 0xbfd5c0: r1 = Null
     //     0xbfd5c0: mov             x1, NULL
-    // 0xbfd5c4: r0 = BallAiLiquidGlassCard.grouped()
-    //     0xbfd5c4: bl              #0xbc2c8c  ; [package:ballai/automatic/views/components/styling/liquid_glass_card.dart] BallAiLiquidGlassCard::BallAiLiquidGlassCard.grouped
+    // 0xbfd5c4: r0 = KourtAiLiquidGlassCard.grouped()
+    //     0xbfd5c4: bl              #0xbc2c8c  ; [package:kourtai/automatic/views/components/styling/liquid_glass_card.dart] KourtAiLiquidGlassCard::KourtAiLiquidGlassCard.grouped
     // 0xbfd5c8: r1 = Null
     //     0xbfd5c8: mov             x1, NULL
     // 0xbfd5cc: r2 = 4
@@ -239,7 +239,7 @@ class TeamAnalyticsProTeamsUpsellCard extends StatelessWidget {
     // 0xbfd610: StoreField: r1->field_b = r2
     //     0xbfd610: stur            w2, [x1, #0xb]
     // 0xbfd614: r0 = paywallHighlightLines()
-    //     0xbfd614: bl              #0xbfddf8  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsell::paywallHighlightLines
+    //     0xbfd614: bl              #0xbfddf8  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsell::paywallHighlightLines
     // 0xbfd618: stur            x0, [fp, #-0x38]
     // 0xbfd61c: LoadField: r1 = r0->field_b
     //     0xbfd61c: ldur            w1, [x0, #0xb]
@@ -305,8 +305,8 @@ class TeamAnalyticsProTeamsUpsellCard extends StatelessWidget {
     //     0xbfd6c0: ldur            w1, [x6, #0x13]
     // 0xbfd6c4: DecompressPointer r1
     //     0xbfd6c4: add             x1, x1, HEAP, lsl #32
-    // 0xbfd6c8: r0 = BallAiThemeContext.ballAi()
-    //     0xbfd6c8: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xbfd6c8: r0 = KourtAiThemeContext.kourtAi()
+    //     0xbfd6c8: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xbfd6cc: ArrayLoad: r1 = r0[0]  ; List_4
     //     0xbfd6cc: ldur            w1, [x0, #0x17]
     // 0xbfd6d0: DecompressPointer r1
@@ -354,8 +354,8 @@ class TeamAnalyticsProTeamsUpsellCard extends StatelessWidget {
     //     0xbfd73c: ldur            w1, [x0, #0x13]
     // 0xbfd740: DecompressPointer r1
     //     0xbfd740: add             x1, x1, HEAP, lsl #32
-    // 0xbfd744: r0 = BallAiThemeContext.ballAi()
-    //     0xbfd744: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xbfd744: r0 = KourtAiThemeContext.kourtAi()
+    //     0xbfd744: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xbfd748: LoadField: r1 = r0->field_1b
     //     0xbfd748: ldur            w1, [x0, #0x1b]
     // 0xbfd74c: DecompressPointer r1
@@ -551,8 +551,8 @@ class TeamAnalyticsProTeamsUpsellCard extends StatelessWidget {
     // 0xbfd924: ldur            x7, [fp, #-0x30]
     // 0xbfd928: StoreField: r1->field_b = r7
     //     0xbfd928: stur            w7, [x1, #0xb]
-    // 0xbfd92c: r0 = BallAiLiquidGlassCard()
-    //     0xbfd92c: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xbfd92c: r0 = KourtAiLiquidGlassCard()
+    //     0xbfd92c: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xbfd930: mov             x3, x0
     // 0xbfd934: ldur            x0, [fp, #-0x28]
     // 0xbfd938: stur            x3, [fp, #-0x30]
@@ -633,14 +633,14 @@ class TeamAnalyticsProTeamsUpsellCard extends StatelessWidget {
     //     0xbfd9fc: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bef8] "Subscribe now"
     //     0xbfda00: ldr             x1, [x1, #0xef8]
     // 0xbfda04: r0 = L()
-    //     0xbfda04: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfda04: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfda08: mov             x2, x0
     // 0xbfda0c: b               #0xbfda20
     // 0xbfda10: r1 = "Contact coach"
     //     0xbfda10: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bef0] "Contact coach"
     //     0xbfda14: ldr             x1, [x1, #0xef0]
     // 0xbfda18: r0 = L()
-    //     0xbfda18: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfda18: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfda1c: mov             x2, x0
     // 0xbfda20: ldur            x0, [fp, #-0x10]
     // 0xbfda24: ldur            x1, [fp, #-0x20]
@@ -663,7 +663,7 @@ class TeamAnalyticsProTeamsUpsellCard extends StatelessWidget {
     //     0xbfda54: stur            w0, [x3, #0x3b]
     // 0xbfda58: ldur            x2, [fp, #-0x18]
     // 0xbfda5c: r1 = Function '<anonymous closure>':.
-    //     0xbfda5c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49640] AnonymousClosure: (0xbfe064), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsellCard::build (0xbfd3d0)
+    //     0xbfda5c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49640] AnonymousClosure: (0xbfe064), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsellCard::build (0xbfd3d0)
     //     0xbfda60: ldr             x1, [x1, #0x640]
     // 0xbfda64: r0 = AllocateClosure()
     //     0xbfda64: bl              #0xe553e0  ; AllocateClosureStub
@@ -789,7 +789,7 @@ class TeamAnalyticsProTeamsUpsellCard extends StatelessWidget {
     //     0xbfdba8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49648] "Source: %@"
     //     0xbfdbac: ldr             x1, [x1, #0x648]
     // 0xbfdbb0: r0 = LF()
-    //     0xbfdbb0: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xbfdbb0: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xbfdbb4: mov             x2, x0
     // 0xbfdbb8: ldur            x0, [fp, #-0x18]
     // 0xbfdbbc: stur            x2, [fp, #-8]
@@ -797,8 +797,8 @@ class TeamAnalyticsProTeamsUpsellCard extends StatelessWidget {
     //     0xbfdbc0: ldur            w1, [x0, #0x13]
     // 0xbfdbc4: DecompressPointer r1
     //     0xbfdbc4: add             x1, x1, HEAP, lsl #32
-    // 0xbfdbc8: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbfdbc8: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbfdbc8: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbfdbc8: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbfdbcc: stur            x0, [fp, #-0x10]
     // 0xbfdbd0: r0 = TextStyle()
     //     0xbfdbd0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -955,7 +955,7 @@ class TeamAnalyticsProTeamsUpsellCard extends StatelessWidget {
     //     0xbfe090: add             x2, x2, HEAP, lsl #32
     // 0xbfe094: mov             x1, x0
     // 0xbfe098: r0 = _onPrimaryTap()
-    //     0xbfe098: bl              #0xbfe0b0  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsellCard::_onPrimaryTap
+    //     0xbfe098: bl              #0xbfe0b0  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsellCard::_onPrimaryTap
     // 0xbfe09c: LeaveFrame
     //     0xbfe09c: mov             SP, fp
     //     0xbfe0a0: ldp             fp, lr, [SP], #0x10
@@ -992,7 +992,7 @@ class TeamAnalyticsProTeamsUpsellCard extends StatelessWidget {
     // 0xbfe0f0: DecompressPointer r1
     //     0xbfe0f0: add             x1, x1, HEAP, lsl #32
     // 0xbfe0f4: tbnz            w1, #4, #0xbfe1cc
-    // 0xbfe0f8: r0 = InitLateStaticField(0xf64) // [package:ballai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsell::demoUrl
+    // 0xbfe0f8: r0 = InitLateStaticField(0xf64) // [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsell::demoUrl
     //     0xbfe0f8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xbfe0fc: ldr             x0, [x0, #0x1ec8]
     //     0xbfe100: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1034,7 +1034,7 @@ class TeamAnalyticsProTeamsUpsellCard extends StatelessWidget {
     //     0xbfe16c: ldr             x1, [x1, #0xeb0]
     // 0xbfe170: stur            x0, [fp, #-0x20]
     // 0xbfe174: r0 = L()
-    //     0xbfe174: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfe174: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfe178: stur            x0, [fp, #-0x28]
     // 0xbfe17c: r0 = Text()
     //     0xbfe17c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1079,7 +1079,7 @@ class TeamAnalyticsProTeamsUpsellCard extends StatelessWidget {
     // 0xbfe1e4: DecompressPointer r1
     //     0xbfe1e4: add             x1, x1, HEAP, lsl #32
     // 0xbfe1e8: r0 = contactCoachMailtoUrl()
-    //     0xbfe1e8: bl              #0xbfe2a4  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsell::contactCoachMailtoUrl
+    //     0xbfe1e8: bl              #0xbfe2a4  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_analytics_pro_teams_upsell.dart] TeamAnalyticsProTeamsUpsell::contactCoachMailtoUrl
     // 0xbfe1ec: r16 = Instance_LaunchMode
     //     0xbfe1ec: add             x16, PP, #0x21, lsl #12  ; [pp+0x21000] Obj!LaunchMode@d2fba1
     //     0xbfe1f0: ldr             x16, [x16]
@@ -1112,7 +1112,7 @@ class TeamAnalyticsProTeamsUpsellCard extends StatelessWidget {
     //     0xbfe23c: ldr             x1, [x1, #0xeb8]
     // 0xbfe240: stur            x0, [fp, #-0x10]
     // 0xbfe244: r0 = L()
-    //     0xbfe244: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfe244: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfe248: stur            x0, [fp, #-0x18]
     // 0xbfe24c: r0 = Text()
     //     0xbfe24c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1170,11 +1170,11 @@ abstract class TeamAnalyticsProTeamsUpsell extends Object {
     //     0xa64504: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xa64508: cmp             SP, x16
     //     0xa6450c: b.ls            #0xa64528
-    // 0xa64510: r1 = "Ball AI Teams Pro"
-    //     0xa64510: add             x1, PP, #0x43, lsl #12  ; [pp+0x43ba8] "Ball AI Teams Pro"
+    // 0xa64510: r1 = "Kourt AI Teams Pro"
+    //     0xa64510: add             x1, PP, #0x43, lsl #12  ; [pp+0x43ba8] "Kourt AI Teams Pro"
     //     0xa64514: ldr             x1, [x1, #0xba8]
     // 0xa64518: r0 = L()
-    //     0xa64518: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa64518: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa6451c: LeaveFrame
     //     0xa6451c: mov             SP, fp
     //     0xa64520: ldp             fp, lr, [SP], #0x10
@@ -1197,7 +1197,7 @@ abstract class TeamAnalyticsProTeamsUpsell extends Object {
     //     0xbfdd3c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bef0] "Contact coach"
     //     0xbfdd40: ldr             x1, [x1, #0xef0]
     // 0xbfdd44: r0 = L()
-    //     0xbfdd44: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfdd44: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfdd48: LeaveFrame
     //     0xbfdd48: mov             SP, fp
     //     0xbfdd4c: ldp             fp, lr, [SP], #0x10
@@ -1220,7 +1220,7 @@ abstract class TeamAnalyticsProTeamsUpsell extends Object {
     //     0xbfdd70: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bef8] "Subscribe now"
     //     0xbfdd74: ldr             x1, [x1, #0xef8]
     // 0xbfdd78: r0 = L()
-    //     0xbfdd78: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfdd78: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfdd7c: LeaveFrame
     //     0xbfdd7c: mov             SP, fp
     //     0xbfdd80: ldp             fp, lr, [SP], #0x10
@@ -1243,7 +1243,7 @@ abstract class TeamAnalyticsProTeamsUpsell extends Object {
     //     0xbfdda4: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bf78] "4.9 · 350+ teams"
     //     0xbfdda8: ldr             x1, [x1, #0xf78]
     // 0xbfddac: r0 = L()
-    //     0xbfddac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfddac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfddb0: LeaveFrame
     //     0xbfddb0: mov             SP, fp
     //     0xbfddb4: ldp             fp, lr, [SP], #0x10
@@ -1266,7 +1266,7 @@ abstract class TeamAnalyticsProTeamsUpsell extends Object {
     //     0xbfddd8: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bf80] "Unlock your\nteam\'s full potential."
     //     0xbfdddc: ldr             x1, [x1, #0xf80]
     // 0xbfdde0: r0 = L()
-    //     0xbfdde0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfdde0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfdde4: LeaveFrame
     //     0xbfdde4: mov             SP, fp
     //     0xbfdde8: ldp             fp, lr, [SP], #0x10
@@ -1287,17 +1287,17 @@ abstract class TeamAnalyticsProTeamsUpsell extends Object {
     //     0xbfde04: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xbfde08: cmp             SP, x16
     //     0xbfde0c: b.ls            #0xbfe02c
-    // 0xbfde10: r1 = "Ball AI Pro for every player"
-    //     0xbfde10: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bf00] "Ball AI Pro for every player"
+    // 0xbfde10: r1 = "Kourt AI Pro for every player"
+    //     0xbfde10: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bf00] "Kourt AI Pro for every player"
     //     0xbfde14: ldr             x1, [x1, #0xf00]
     // 0xbfde18: r0 = L()
-    //     0xbfde18: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
-    // 0xbfde1c: r1 = "Ball AI Pro for every player on your roster—the full training feature set, so your whole team trains like pros."
-    //     0xbfde1c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bf08] "Ball AI Pro for every player on your roster—the full training feature set, so your whole team trains like pros."
+    //     0xbfde18: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
+    // 0xbfde1c: r1 = "Kourt AI Pro for every player on your roster—the full training feature set, so your whole team trains like pros."
+    //     0xbfde1c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bf08] "Kourt AI Pro for every player on your roster—the full training feature set, so your whole team trains like pros."
     //     0xbfde20: ldr             x1, [x1, #0xf08]
     // 0xbfde24: stur            x0, [fp, #-8]
     // 0xbfde28: r0 = L()
-    //     0xbfde28: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfde28: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfde2c: stur            x0, [fp, #-0x10]
     // 0xbfde30: r0 = TeamProHighlightLine()
     //     0xbfde30: bl              #0xbfe034  ; AllocateTeamProHighlightLineStub -> TeamProHighlightLine (size=0x14)
@@ -1318,13 +1318,13 @@ abstract class TeamAnalyticsProTeamsUpsell extends Object {
     //     0xbfde58: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bf10] "Full history & long-term analytics"
     //     0xbfde5c: ldr             x1, [x1, #0xf10]
     // 0xbfde60: r0 = L()
-    //     0xbfde60: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfde60: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfde64: r1 = "Go beyond the 30-day window: full workout and stat history, plus season-to-season and all-time views."
     //     0xbfde64: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bf18] "Go beyond the 30-day window: full workout and stat history, plus season-to-season and all-time views."
     //     0xbfde68: ldr             x1, [x1, #0xf18]
     // 0xbfde6c: stur            x0, [fp, #-8]
     // 0xbfde70: r0 = L()
-    //     0xbfde70: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfde70: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfde74: stur            x0, [fp, #-0x10]
     // 0xbfde78: r0 = TeamProHighlightLine()
     //     0xbfde78: bl              #0xbfe034  ; AllocateTeamProHighlightLineStub -> TeamProHighlightLine (size=0x14)
@@ -1345,13 +1345,13 @@ abstract class TeamAnalyticsProTeamsUpsell extends Object {
     //     0xbfdea0: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bf28] "Weekly goals per player"
     //     0xbfdea4: ldr             x1, [x1, #0xf28]
     // 0xbfdea8: r0 = L()
-    //     0xbfdea8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfdea8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfdeac: r1 = "Customize weekly goals player by player so your targets match how you actually run your program."
     //     0xbfdeac: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bf30] "Customize weekly goals player by player so your targets match how you actually run your program."
     //     0xbfdeb0: ldr             x1, [x1, #0xf30]
     // 0xbfdeb4: stur            x0, [fp, #-8]
     // 0xbfdeb8: r0 = L()
-    //     0xbfdeb8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfdeb8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfdebc: stur            x0, [fp, #-0x10]
     // 0xbfdec0: r0 = TeamProHighlightLine()
     //     0xbfdec0: bl              #0xbfe034  ; AllocateTeamProHighlightLineStub -> TeamProHighlightLine (size=0x14)
@@ -1372,13 +1372,13 @@ abstract class TeamAnalyticsProTeamsUpsell extends Object {
     //     0xbfdee8: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bf38] "Coach feedback on the feed"
     //     0xbfdeec: ldr             x1, [x1, #0xf38]
     // 0xbfdef0: r0 = L()
-    //     0xbfdef0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfdef0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfdef4: r1 = "Coach from the feed—leave feedback on workouts with comments that stay tied to the session."
     //     0xbfdef4: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bf40] "Coach from the feed—leave feedback on workouts with comments that stay tied to the session."
     //     0xbfdef8: ldr             x1, [x1, #0xf40]
     // 0xbfdefc: stur            x0, [fp, #-8]
     // 0xbfdf00: r0 = L()
-    //     0xbfdf00: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfdf00: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfdf04: stur            x0, [fp, #-0x10]
     // 0xbfdf08: r0 = TeamProHighlightLine()
     //     0xbfdf08: bl              #0xbfe034  ; AllocateTeamProHighlightLineStub -> TeamProHighlightLine (size=0x14)
@@ -1399,13 +1399,13 @@ abstract class TeamAnalyticsProTeamsUpsell extends Object {
     //     0xbfdf30: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bf48] "VIP support & partnership"
     //     0xbfdf34: ldr             x1, [x1, #0xf48]
     // 0xbfdf38: r0 = L()
-    //     0xbfdf38: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
-    // 0xbfdf3c: r1 = "VIP support from the Ball AI team, a dedicated staff channel, and collaboration opportunities."
-    //     0xbfdf3c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bf50] "VIP support from the Ball AI team, a dedicated staff channel, and collaboration opportunities."
+    //     0xbfdf38: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
+    // 0xbfdf3c: r1 = "VIP support from the Kourt AI team, a dedicated staff channel, and collaboration opportunities."
+    //     0xbfdf3c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bf50] "VIP support from the Kourt AI team, a dedicated staff channel, and collaboration opportunities."
     //     0xbfdf40: ldr             x1, [x1, #0xf50]
     // 0xbfdf44: stur            x0, [fp, #-8]
     // 0xbfdf48: r0 = L()
-    //     0xbfdf48: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfdf48: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfdf4c: stur            x0, [fp, #-0x10]
     // 0xbfdf50: r0 = TeamProHighlightLine()
     //     0xbfdf50: bl              #0xbfe034  ; AllocateTeamProHighlightLineStub -> TeamProHighlightLine (size=0x14)
@@ -1426,13 +1426,13 @@ abstract class TeamAnalyticsProTeamsUpsell extends Object {
     //     0xbfdf78: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bf58] "Kiosk mode for 1-on-1s"
     //     0xbfdf7c: ldr             x1, [x1, #0xf58]
     // 0xbfdf80: r0 = L()
-    //     0xbfdf80: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
-    // 0xbfdf84: r1 = "Use your device as a kiosk—run live 1-on-1s with players in the gym while Ball AI tracks the session."
-    //     0xbfdf84: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bf60] "Use your device as a kiosk—run live 1-on-1s with players in the gym while Ball AI tracks the session."
+    //     0xbfdf80: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
+    // 0xbfdf84: r1 = "Use your device as a kiosk—run live 1-on-1s with players in the gym while Kourt AI tracks the session."
+    //     0xbfdf84: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bf60] "Use your device as a kiosk—run live 1-on-1s with players in the gym while Kourt AI tracks the session."
     //     0xbfdf88: ldr             x1, [x1, #0xf60]
     // 0xbfdf8c: stur            x0, [fp, #-8]
     // 0xbfdf90: r0 = L()
-    //     0xbfdf90: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbfdf90: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbfdf94: stur            x0, [fp, #-0x10]
     // 0xbfdf98: r0 = TeamProHighlightLine()
     //     0xbfdf98: bl              #0xbfe034  ; AllocateTeamProHighlightLineStub -> TeamProHighlightLine (size=0x14)
@@ -1537,16 +1537,16 @@ abstract class TeamAnalyticsProTeamsUpsell extends Object {
     // 0xbfe2fc: stur            x0, [fp, #-0x10]
     // 0xbfe300: r0 = AllocateArray()
     //     0xbfe300: bl              #0xe560ac  ; AllocateArrayStub
-    // 0xbfe304: r16 = "Hi,\n\nCan we book a Ball AI Teams Pro demo for "
-    //     0xbfe304: add             x16, PP, #0x3b, lsl #12  ; [pp+0x3bec8] "Hi,\n\nCan we book a Ball AI Teams Pro demo for "
+    // 0xbfe304: r16 = "Hi,\n\nCan we book a Kourt AI Teams Pro demo for "
+    //     0xbfe304: add             x16, PP, #0x3b, lsl #12  ; [pp+0x3bec8] "Hi,\n\nCan we book a Kourt AI Teams Pro demo for "
     //     0xbfe308: ldr             x16, [x16, #0xec8]
     // 0xbfe30c: StoreField: r0->field_f = r16
     //     0xbfe30c: stur            w16, [x0, #0xf]
     // 0xbfe310: ldur            x1, [fp, #-8]
     // 0xbfe314: StoreField: r0->field_13 = r1
     //     0xbfe314: stur            w1, [x0, #0x13]
-    // 0xbfe318: r16 = "\? We’re interested in Ball AI Pro for every player, historical data past 30 days, long-term analytics, weekly goal customization, coach feedback on the feed, and VIP support.\n\nThanks!"
-    //     0xbfe318: add             x16, PP, #0x3b, lsl #12  ; [pp+0x3bed0] "\? We’re interested in Ball AI Pro for every player, historical data past 30 days, long-term analytics, weekly goal customization, coach feedback on the feed, and VIP support.\n\nThanks!"
+    // 0xbfe318: r16 = "\? We’re interested in Kourt AI Pro for every player, historical data past 30 days, long-term analytics, weekly goal customization, coach feedback on the feed, and VIP support.\n\nThanks!"
+    //     0xbfe318: add             x16, PP, #0x3b, lsl #12  ; [pp+0x3bed0] "\? We’re interested in Kourt AI Pro for every player, historical data past 30 days, long-term analytics, weekly goal customization, coach feedback on the feed, and VIP support.\n\nThanks!"
     //     0xbfe31c: ldr             x16, [x16, #0xed0]
     // 0xbfe320: ArrayStore: r0[0] = r16  ; List_4
     //     0xbfe320: stur            w16, [x0, #0x17]

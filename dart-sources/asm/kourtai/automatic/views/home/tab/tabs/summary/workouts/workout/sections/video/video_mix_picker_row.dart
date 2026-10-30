@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/video_mix_picker_row.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/video_mix_picker_row.dart
 
 // class id: 1048911, size: 0x8
 class :: {
@@ -25,8 +25,8 @@ class _MixChip extends StatelessWidget {
     //     0xbed24c: cmp             SP, x16
     //     0xbed250: b.ls            #0xbed558
     // 0xbed254: mov             x1, x0
-    // 0xbed258: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbed258: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbed258: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbed258: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbed25c: mov             x2, x0
     // 0xbed260: ldur            x0, [fp, #-8]
     // 0xbed264: stur            x2, [fp, #-0x20]
@@ -41,8 +41,8 @@ class _MixChip extends StatelessWidget {
     //     0xbed27c: ldr             x2, [PP, #0x5178]  ; [pp+0x5178] Obj!Color@d2a0a1
     // 0xbed280: b               #0xbed294
     // 0xbed284: ldur            x1, [fp, #-0x10]
-    // 0xbed288: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbed288: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbed288: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbed288: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbed28c: mov             x2, x0
     // 0xbed290: ldur            x0, [fp, #-0x18]
     // 0xbed294: stur            x2, [fp, #-0x28]
@@ -51,8 +51,8 @@ class _MixChip extends StatelessWidget {
     // 0xbed2a0: ldur            x2, [fp, #-0x20]
     // 0xbed2a4: b               #0xbed2b8
     // 0xbed2a8: ldur            x1, [fp, #-0x10]
-    // 0xbed2ac: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xbed2ac: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xbed2ac: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xbed2ac: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xbed2b0: mov             x2, x0
     // 0xbed2b4: ldur            x0, [fp, #-0x28]
     // 0xbed2b8: ldur            x1, [fp, #-8]
@@ -448,7 +448,7 @@ class VideoMixPickerRow extends StatelessWidget {
     //     0xbed010: sbfx            x4, x0, #1, #0x1f
     // 0xbed014: stur            x4, [fp, #-0x10]
     // 0xbed018: r1 = Function '<anonymous closure>':.
-    //     0xbed018: add             x1, PP, #0x49, lsl #12  ; [pp+0x49a10] AnonymousClosure: (0xa42e38), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/video_mix_picker_row.dart] VideoMixPickerRow::build (0xbecfd0)
+    //     0xbed018: add             x1, PP, #0x49, lsl #12  ; [pp+0x49a10] AnonymousClosure: (0xa42e38), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/video_mix_picker_row.dart] VideoMixPickerRow::build (0xbecfd0)
     //     0xbed01c: ldr             x1, [x1, #0xa10]
     // 0xbed020: r2 = Null
     //     0xbed020: mov             x2, NULL
@@ -456,7 +456,7 @@ class VideoMixPickerRow extends StatelessWidget {
     //     0xbed024: bl              #0xe553e0  ; AllocateClosureStub
     // 0xbed028: ldur            x2, [fp, #-0x18]
     // 0xbed02c: r1 = Function '<anonymous closure>':.
-    //     0xbed02c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49a18] AnonymousClosure: (0xbed0a0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/video_mix_picker_row.dart] VideoMixPickerRow::build (0xbecfd0)
+    //     0xbed02c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49a18] AnonymousClosure: (0xbed0a0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/video_mix_picker_row.dart] VideoMixPickerRow::build (0xbecfd0)
     //     0xbed030: ldr             x1, [x1, #0xa18]
     // 0xbed034: stur            x0, [fp, #-8]
     // 0xbed038: r0 = AllocateClosure()
@@ -581,7 +581,7 @@ class VideoMixPickerRow extends StatelessWidget {
     //     0xbed168: stur            w0, [x3, #0xf]
     // 0xbed16c: ldur            x2, [fp, #-0x10]
     // 0xbed170: r1 = Function '<anonymous closure>':.
-    //     0xbed170: add             x1, PP, #0x49, lsl #12  ; [pp+0x49a20] AnonymousClosure: (0xbed1ac), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/video_mix_picker_row.dart] VideoMixPickerRow::build (0xbecfd0)
+    //     0xbed170: add             x1, PP, #0x49, lsl #12  ; [pp+0x49a20] AnonymousClosure: (0xbed1ac), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/video_mix_picker_row.dart] VideoMixPickerRow::build (0xbecfd0)
     //     0xbed174: ldr             x1, [x1, #0xa20]
     // 0xbed178: r0 = AllocateClosure()
     //     0xbed178: bl              #0xe553e0  ; AllocateClosureStub
@@ -645,7 +645,7 @@ class VideoMixPickerRow extends StatelessWidget {
     //     0xbed208: add             x0, x0, HEAP, lsl #32
     // 0xbed20c: mov             x1, x0
     // 0xbed210: r0 = _onMixSelected()
-    //     0xbed210: bl              #0xa46a9c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_onMixSelected
+    //     0xbed210: bl              #0xa46a9c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::_onMixSelected
     // 0xbed214: r0 = Null
     //     0xbed214: mov             x0, NULL
     // 0xbed218: LeaveFrame
@@ -677,7 +677,7 @@ class VideoMixOption extends Object {
     //     0xb73a0c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bc50] "Original"
     //     0xb73a10: ldr             x1, [x1, #0xc50]
     // 0xb73a14: r0 = L()
-    //     0xb73a14: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xb73a14: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xb73a18: stur            x0, [fp, #-8]
     // 0xb73a1c: r0 = VideoMixOption()
     //     0xb73a1c: bl              #0x969254  ; AllocateVideoMixOptionStub -> VideoMixOption (size=0x18)
@@ -704,7 +704,7 @@ class VideoMixOption extends Object {
     //     0xb73a50: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bc58] "Slow-mo"
     //     0xb73a54: ldr             x1, [x1, #0xc58]
     // 0xb73a58: r0 = L()
-    //     0xb73a58: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xb73a58: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xb73a5c: stur            x0, [fp, #-8]
     // 0xb73a60: r0 = VideoMixOption()
     //     0xb73a60: bl              #0x969254  ; AllocateVideoMixOptionStub -> VideoMixOption (size=0x18)
@@ -731,7 +731,7 @@ class VideoMixOption extends Object {
     //     0xb73a94: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bc70] "Highlights"
     //     0xb73a98: ldr             x1, [x1, #0xc70]
     // 0xb73a9c: r0 = L()
-    //     0xb73a9c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xb73a9c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xb73aa0: stur            x0, [fp, #-8]
     // 0xb73aa4: r0 = VideoMixOption()
     //     0xb73aa4: bl              #0x969254  ; AllocateVideoMixOptionStub -> VideoMixOption (size=0x18)
@@ -758,7 +758,7 @@ class VideoMixOption extends Object {
     //     0xb73ad8: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bc80] "Trajectory"
     //     0xb73adc: ldr             x1, [x1, #0xc80]
     // 0xb73ae0: r0 = L()
-    //     0xb73ae0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xb73ae0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xb73ae4: stur            x0, [fp, #-8]
     // 0xb73ae8: r0 = VideoMixOption()
     //     0xb73ae8: bl              #0x969254  ; AllocateVideoMixOptionStub -> VideoMixOption (size=0x18)

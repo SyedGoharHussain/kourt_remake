@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart
 
 // class id: 1049254, size: 0x8
 class :: {
@@ -149,7 +149,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     //     0x99644c: add             x3, x3, HEAP, lsl #32
     // 0x996450: stur            x3, [fp, #-0x18]
     // 0x996454: r1 = Function '<anonymous closure>':.
-    //     0x996454: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cfb8] AnonymousClosure: (0x9962f0), in [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_startValidation (0x996498)
+    //     0x996454: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cfb8] AnonymousClosure: (0x9962f0), in [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_startValidation (0x996498)
     //     0x996458: ldr             x1, [x1, #0xfb8]
     // 0x99645c: r0 = AllocateClosure()
     //     0x99645c: bl              #0xe553e0  ; AllocateClosureStub
@@ -212,7 +212,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     //     0x9964e4: ret             
     // 0x9964e8: mov             x2, x3
     // 0x9964ec: r1 = Function '<anonymous closure>':.
-    //     0x9964ec: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cfa0] AnonymousClosure: (0x9967f0), in [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_startValidation (0x996498)
+    //     0x9964ec: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cfa0] AnonymousClosure: (0x9967f0), in [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_startValidation (0x996498)
     //     0x9964f0: ldr             x1, [x1, #0xfa0]
     // 0x9964f4: r0 = AllocateClosure()
     //     0x9964f4: bl              #0xe553e0  ; AllocateClosureStub
@@ -268,7 +268,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     //     0x996584: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x996588: mov             x2, x3
     // 0x99658c: r1 = Function '<anonymous closure>':.
-    //     0x99658c: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cfa8] AnonymousClosure: (0x996320), in [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_startValidation (0x996498)
+    //     0x99658c: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cfa8] AnonymousClosure: (0x996320), in [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_startValidation (0x996498)
     //     0x996590: ldr             x1, [x1, #0xfa8]
     // 0x996594: r0 = AllocateClosure()
     //     0x996594: bl              #0xe553e0  ; AllocateClosureStub
@@ -291,7 +291,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     //     0x9965c8: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x9965cc: ldur            x2, [fp, #-0x10]
     // 0x9965d0: r1 = Function '<anonymous closure>':.
-    //     0x9965d0: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cfb0] AnonymousClosure: (0x996628), in [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_startValidation (0x996498)
+    //     0x9965d0: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cfb0] AnonymousClosure: (0x996628), in [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_startValidation (0x996498)
     //     0x9965d4: ldr             x1, [x1, #0xfb0]
     // 0x9965d8: r0 = AllocateClosure()
     //     0x9965d8: bl              #0xe553e0  ; AllocateClosureStub
@@ -369,14 +369,14 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     //     0x99668c: add             x2, x2, HEAP, lsl #32
     // 0x996690: mov             x1, x2
     // 0x996694: r0 = completeHoopConfiguration()
-    //     0x996694: bl              #0x996140  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::completeHoopConfiguration
+    //     0x996694: bl              #0x996140  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::completeHoopConfiguration
     // 0x996698: ldur            x0, [fp, #-8]
     // 0x99669c: LoadField: r1 = r0->field_f
     //     0x99669c: ldur            w1, [x0, #0xf]
     // 0x9966a0: DecompressPointer r1
     //     0x9966a0: add             x1, x1, HEAP, lsl #32
     // 0x9966a4: r0 = _resetValidation()
-    //     0x9966a4: bl              #0x9966c0  ; [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_resetValidation
+    //     0x9966a4: bl              #0x9966c0  ; [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_resetValidation
     // 0x9966a8: r0 = Null
     //     0x9966a8: mov             x0, NULL
     // 0x9966ac: LeaveFrame
@@ -473,7 +473,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     //     0x996784: ret             
     // 0x996788: ldur            x2, [fp, #-0x10]
     // 0x99678c: r1 = Function '<anonymous closure>':.
-    //     0x99678c: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cfc0] AnonymousClosure: (0x9967bc), in [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_resetValidation (0x9966c0)
+    //     0x99678c: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cfc0] AnonymousClosure: (0x9967bc), in [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_resetValidation (0x9966c0)
     //     0x996790: ldr             x1, [x1, #0xfc0]
     // 0x996794: r0 = AllocateClosure()
     //     0x996794: bl              #0xe553e0  ; AllocateClosureStub
@@ -578,7 +578,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     // 0x996bac: mov             x2, x0
     // 0x996bb0: stur            x4, [fp, #-0x10]
     // 0x996bb4: r1 = Function '_onCaptureChanged@1479299842':.
-    //     0x996bb4: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cf98] AnonymousClosure: (0x996f84), in [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_onCaptureChanged (0x996fbc)
+    //     0x996bb4: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cf98] AnonymousClosure: (0x996f84), in [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_onCaptureChanged (0x996fbc)
     //     0x996bb8: ldr             x1, [x1, #0xf98]
     // 0x996bbc: r0 = AllocateClosure()
     //     0x996bbc: bl              #0xe553e0  ; AllocateClosureStub
@@ -588,7 +588,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     //     0x996bc8: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0x996bcc: ldur            x2, [fp, #-0x18]
     // 0x996bd0: r1 = Function '<anonymous closure>':.
-    //     0x996bd0: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cfc8] AnonymousClosure: (0x996f14), in [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::initState (0x996b6c)
+    //     0x996bd0: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cfc8] AnonymousClosure: (0x996f14), in [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::initState (0x996b6c)
     //     0x996bd4: ldr             x1, [x1, #0xfc8]
     // 0x996bd8: r0 = AllocateClosure()
     //     0x996bd8: bl              #0xe553e0  ; AllocateClosureStub
@@ -611,7 +611,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     //     0x996c0c: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x996c10: ldur            x2, [fp, #-0x18]
     // 0x996c14: r1 = Function '<anonymous closure>':.
-    //     0x996c14: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cfd0] AnonymousClosure: (0x996c68), in [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::initState (0x996b6c)
+    //     0x996c14: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cfd0] AnonymousClosure: (0x996c68), in [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::initState (0x996b6c)
     //     0x996c18: ldr             x1, [x1, #0xfd0]
     // 0x996c1c: r0 = AllocateClosure()
     //     0x996c1c: bl              #0xe553e0  ; AllocateClosureStub
@@ -676,7 +676,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     // 0x996cb4: ret
     //     0x996cb4: ret             
     // 0x996cb8: r0 = _checkRimPosition()
-    //     0x996cb8: bl              #0x996d18  ; [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_checkRimPosition
+    //     0x996cb8: bl              #0x996d18  ; [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_checkRimPosition
     // 0x996cbc: ldur            x0, [fp, #-8]
     // 0x996cc0: LoadField: r3 = r0->field_f
     //     0x996cc0: ldur            w3, [x0, #0xf]
@@ -815,7 +815,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     // 0x996e18: mov             x1, x0
     // 0x996e1c: stur            x0, [fp, #-0x20]
     // 0x996e20: r0 = isHoop()
-    //     0x996e20: bl              #0x7153ac  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::isHoop
+    //     0x996e20: bl              #0x7153ac  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::isHoop
     // 0x996e24: tbz             w0, #4, #0x996e30
     // 0x996e28: ldur            x2, [fp, #-0x18]
     // 0x996e2c: b               #0x996dd4
@@ -833,7 +833,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     // 0x996e50: tbnz            w1, #4, #0x996e5c
     // 0x996e54: mov             x1, x0
     // 0x996e58: r0 = _resetValidation()
-    //     0x996e58: bl              #0x9966c0  ; [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_resetValidation
+    //     0x996e58: bl              #0x9966c0  ; [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_resetValidation
     // 0x996e5c: r0 = Null
     //     0x996e5c: mov             x0, NULL
     // 0x996e60: LeaveFrame
@@ -848,7 +848,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     // 0x996e78: DecompressPointer r2
     //     0x996e78: add             x2, x2, HEAP, lsl #32
     // 0x996e7c: r0 = pixelBoundingBox()
-    //     0x996e7c: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x996e7c: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x996e80: mov             x1, x0
     // 0x996e84: ldur            x0, [fp, #-8]
     // 0x996e88: ArrayLoad: d0 = r0[0]  ; List_8
@@ -882,7 +882,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     //     0x996ed0: add             x0, x0, HEAP, lsl #32
     // 0x996ed4: tbnz            w0, #4, #0x996ef4
     // 0x996ed8: r0 = _resetValidation()
-    //     0x996ed8: bl              #0x9966c0  ; [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_resetValidation
+    //     0x996ed8: bl              #0x9966c0  ; [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_resetValidation
     // 0x996edc: b               #0x996ef4
     // 0x996ee0: ldur            x1, [fp, #-0x10]
     // 0x996ee4: LoadField: r0 = r1->field_1f
@@ -891,7 +891,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     //     0x996ee8: add             x0, x0, HEAP, lsl #32
     // 0x996eec: tbz             w0, #4, #0x996ef4
     // 0x996ef0: r0 = _startValidation()
-    //     0x996ef0: bl              #0x996498  ; [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_startValidation
+    //     0x996ef0: bl              #0x996498  ; [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_startValidation
     // 0x996ef4: r0 = Null
     //     0x996ef4: mov             x0, NULL
     // 0x996ef8: LeaveFrame
@@ -933,7 +933,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     // 0x996f4c: cmp             w1, NULL
     // 0x996f50: b.eq            #0x996f6c
     // 0x996f54: r1 = Function '<anonymous closure>':.
-    //     0x996f54: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cfe0] AnonymousClosure: (0x8fbc64), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
+    //     0x996f54: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cfe0] AnonymousClosure: (0x8fbc64), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
     //     0x996f58: ldr             x1, [x1, #0xfe0]
     // 0x996f5c: r0 = AllocateClosure()
     //     0x996f5c: bl              #0xe553e0  ; AllocateClosureStub
@@ -967,7 +967,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     //     0x996f9c: cmp             SP, x16
     //     0x996fa0: b.ls            #0x996fb4
     // 0x996fa4: r0 = _onCaptureChanged()
-    //     0x996fa4: bl              #0x996fbc  ; [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_onCaptureChanged
+    //     0x996fa4: bl              #0x996fbc  ; [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_onCaptureChanged
     // 0x996fa8: LeaveFrame
     //     0x996fa8: mov             SP, fp
     //     0x996fac: ldp             fp, lr, [SP], #0x10
@@ -1000,7 +1000,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     // 0x996fec: ret
     //     0x996fec: ret             
     // 0x996ff0: r0 = _checkRimPosition()
-    //     0x996ff0: bl              #0x996d18  ; [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_checkRimPosition
+    //     0x996ff0: bl              #0x996d18  ; [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_checkRimPosition
     // 0x996ff4: r0 = Null
     //     0x996ff4: mov             x0, NULL
     // 0x996ff8: LeaveFrame
@@ -1031,7 +1031,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     //     0xad3dd4: stur            w0, [x1, #0xf]
     // 0xad3dd8: mov             x2, x1
     // 0xad3ddc: r1 = Function '<anonymous closure>':.
-    //     0xad3ddc: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cf80] AnonymousClosure: (0xad3e0c), in [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::build (0xad3db4)
+    //     0xad3ddc: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cf80] AnonymousClosure: (0xad3e0c), in [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::build (0xad3db4)
     //     0xad3de0: ldr             x1, [x1, #0xf80]
     // 0xad3de4: r0 = AllocateClosure()
     //     0xad3de4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1088,7 +1088,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     //     0xad3e64: add             x1, x1, HEAP, lsl #32
     // 0xad3e68: mov             x2, x0
     // 0xad3e6c: r0 = _updateGuideRect()
-    //     0xad3e6c: bl              #0xad43ec  ; [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_updateGuideRect
+    //     0xad3e6c: bl              #0xad43ec  ; [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_updateGuideRect
     // 0xad3e70: ldur            d0, [fp, #-0x50]
     // 0xad3e74: d1 = 0.120000
     //     0xad3e74: ldr             d1, [PP, #0x5440]  ; [pp+0x5440] IMM: double(0.12) from 0x3fbeb851eb851eb8
@@ -1758,7 +1758,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     //     0xb5cf1c: mov             fp, SP
     // 0xb5cf20: ldr             x2, [fp, #0x10]
     // 0xb5cf24: r1 = Function 'dispose':.
-    //     0xb5cf24: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cf78] AnonymousClosure: (0xb5cf3c), in [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::dispose (0xb64b80)
+    //     0xb5cf24: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cf78] AnonymousClosure: (0xb5cf3c), in [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::dispose (0xb64b80)
     //     0xb5cf28: ldr             x1, [x1, #0xf78]
     // 0xb5cf2c: r0 = AllocateClosure()
     //     0xb5cf2c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1783,7 +1783,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     //     0xb5cf54: cmp             SP, x16
     //     0xb5cf58: b.ls            #0xb5cf6c
     // 0xb5cf5c: r0 = dispose()
-    //     0xb5cf5c: bl              #0xb64b80  ; [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::dispose
+    //     0xb5cf5c: bl              #0xb64b80  ; [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::dispose
     // 0xb5cf60: LeaveFrame
     //     0xb5cf60: mov             SP, fp
     //     0xb5cf64: ldp             fp, lr, [SP], #0x10
@@ -1814,7 +1814,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     // 0xb64ba8: mov             x2, x0
     // 0xb64bac: stur            x3, [fp, #-8]
     // 0xb64bb0: r1 = Function '_onCaptureChanged@1479299842':.
-    //     0xb64bb0: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cf98] AnonymousClosure: (0x996f84), in [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_onCaptureChanged (0x996fbc)
+    //     0xb64bb0: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cf98] AnonymousClosure: (0x996f84), in [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_onCaptureChanged (0x996fbc)
     //     0xb64bb4: ldr             x1, [x1, #0xf98]
     // 0xb64bb8: r0 = AllocateClosure()
     //     0xb64bb8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1894,7 +1894,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     //     0xb775e4: stur            xzr, [x1, #0x23]
     // 0xb775e8: StoreField: r1->field_3f = r0
     //     0xb775e8: stur            w0, [x1, #0x3f]
-    // 0xb775ec: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0xb775ec: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0xb775ec: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb775f0: ldr             x0, [x0, #0x1cf0]
     //     0xb775f4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1912,7 +1912,7 @@ class _HoopPlacementOverlayState extends State<dynamic> {
     //     0xb77620: tst             x16, HEAP, lsr #32
     //     0xb77624: b.eq            #0xb7762c
     //     0xb77628: bl              #0xe5479c  ; WriteBarrierWrappersStub
-    // 0xb7762c: r0 = InitLateStaticField(0x1160) // [package:ballai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::instance
+    // 0xb7762c: r0 = InitLateStaticField(0x1160) // [package:kourtai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::instance
     //     0xb7762c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb77630: ldr             x0, [x0, #0x22c0]
     //     0xb77634: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1966,7 +1966,7 @@ class HoopPlacementOverlay extends StatefulWidget {
     // 0xb77590: mov             x1, x0
     // 0xb77594: stur            x0, [fp, #-8]
     // 0xb77598: r0 = _HoopPlacementOverlayState()
-    //     0xb77598: bl              #0xb775b4  ; [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_HoopPlacementOverlayState
+    //     0xb77598: bl              #0xb775b4  ; [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_HoopPlacementOverlayState
     // 0xb7759c: ldur            x0, [fp, #-8]
     // 0xb775a0: LeaveFrame
     //     0xb775a0: mov             SP, fp

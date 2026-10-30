@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_court_map.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_court_map.dart
 
 // class id: 1048921, size: 0x8
 class :: {
@@ -174,7 +174,7 @@ class _ShareCourtMapPainter extends CustomPainter {
     // 0x84049c: ldur            d1, [fp, #-0x50]
     // 0x8404a0: stur            x6, [fp, #-0x18]
     // 0x8404a4: r0 = _zonePath()
-    //     0x8404a4: bl              #0x8407a4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_court_map.dart] _ShareCourtMapPainter::_zonePath
+    //     0x8404a4: bl              #0x8407a4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_court_map.dart] _ShareCourtMapPainter::_zonePath
     // 0x8404a8: mov             x1, x0
     // 0x8404ac: ldur            x0, [fp, #-0x18]
     // 0x8404b0: stur            x1, [fp, #-0x28]

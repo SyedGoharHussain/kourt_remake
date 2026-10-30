@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/shared/models/core/shot_model.dart
+// lib: , url: package:kourtai/shared/models/core/shot_model.dart
 
 // class id: 1049062, size: 0x8
 class :: {
@@ -259,7 +259,7 @@ class ShotModel extends Object {
     // 0x71d640: b.eq            #0x71d678
     // 0x71d644: ldur            x2, [fp, #-0x10]
     // 0x71d648: r0 = toMap()
-    //     0x71d648: bl              #0x71d80c  ; [package:ballai/shared/models/core/shot_model.dart] ShotCourtLocation::toMap
+    //     0x71d648: bl              #0x71d80c  ; [package:kourtai/shared/models/core/shot_model.dart] ShotCourtLocation::toMap
     // 0x71d64c: ldur            x4, [fp, #-0x10]
     // 0x71d650: r1 = LoadClassIdInstr(r4)
     //     0x71d650: ldur            x1, [x4, #-1]
@@ -459,7 +459,7 @@ class ShotModel extends Object {
     // 0x95ba14: r1 = Null
     //     0x95ba14: mov             x1, NULL
     // 0x95ba18: r0 = ShotModel.fromMap()
-    //     0x95ba18: bl              #0x95ba60  ; [package:ballai/shared/models/core/shot_model.dart] ShotModel::ShotModel.fromMap
+    //     0x95ba18: bl              #0x95ba60  ; [package:kourtai/shared/models/core/shot_model.dart] ShotModel::ShotModel.fromMap
     // 0x95ba1c: LeaveFrame
     //     0x95ba1c: mov             SP, fp
     //     0x95ba20: ldp             fp, lr, [SP], #0x10
@@ -480,7 +480,7 @@ class ShotModel extends Object {
     //     0x95ba40: b.ls            #0x95ba58
     // 0x95ba44: ldr             x1, [fp, #0x10]
     // 0x95ba48: r0 = fromFirestore()
-    //     0x95ba48: bl              #0x95b99c  ; [package:ballai/shared/models/core/shot_model.dart] ShotModel::fromFirestore
+    //     0x95ba48: bl              #0x95b99c  ; [package:kourtai/shared/models/core/shot_model.dart] ShotModel::fromFirestore
     // 0x95ba4c: LeaveFrame
     //     0x95ba4c: mov             SP, fp
     //     0x95ba50: ldp             fp, lr, [SP], #0x10
@@ -678,7 +678,7 @@ class ShotModel extends Object {
     // 0x95bc74: tbnz            w0, #4, #0x95bd14
     // 0x95bc78: ldur            x1, [fp, #-0x28]
     // 0x95bc7c: r0 = fromMap()
-    //     0x95bc7c: bl              #0x743ab4  ; [package:ballai/shared/models/core/shot_model.dart] CoachFeedbackEntry::fromMap
+    //     0x95bc7c: bl              #0x743ab4  ; [package:kourtai/shared/models/core/shot_model.dart] CoachFeedbackEntry::fromMap
     // 0x95bc80: stur            x0, [fp, #-0x38]
     // 0x95bc84: cmp             w0, NULL
     // 0x95bc88: b.eq            #0x95bd08
@@ -800,7 +800,7 @@ class ShotModel extends Object {
     //     0x95bdd8: bl              #0x5f1854  ; [dart:collection] LinkedHashMap::LinkedHashMap.from
     // 0x95bddc: mov             x1, x0
     // 0x95bde0: r0 = fromMap()
-    //     0x95bde0: bl              #0x743ab4  ; [package:ballai/shared/models/core/shot_model.dart] CoachFeedbackEntry::fromMap
+    //     0x95bde0: bl              #0x743ab4  ; [package:kourtai/shared/models/core/shot_model.dart] CoachFeedbackEntry::fromMap
     // 0x95bde4: stur            x0, [fp, #-0x28]
     // 0x95bde8: cmp             w0, NULL
     // 0x95bdec: b.eq            #0x95be6c
@@ -1566,7 +1566,7 @@ class ShotModel extends Object {
     //     0x95c6b0: bl              #0x5da64c  ; IsType_bool?_Stub
     // 0x95c6b4: ldur            x1, [fp, #-0x20]
     // 0x95c6b8: r0 = fromMap()
-    //     0x95c6b8: bl              #0x95ccc8  ; [package:ballai/shared/models/core/shot_model.dart] ShotCourtLocation::fromMap
+    //     0x95c6b8: bl              #0x95ccc8  ; [package:kourtai/shared/models/core/shot_model.dart] ShotCourtLocation::fromMap
     // 0x95c6bc: ldur            x1, [fp, #-0x10]
     // 0x95c6c0: r2 = "locationRatio"
     //     0x95c6c0: add             x2, PP, #0x31, lsl #12  ; [pp+0x31f58] "locationRatio"

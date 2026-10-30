@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/teams_pro_team_picker_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/teams_pro_team_picker_view.dart
 
 // class id: 1048874, size: 0x8
 class :: {
@@ -16,7 +16,7 @@ abstract class __TeamsProTeamPickerViewState&State&HomeIslandHiddenRoute extends
     //     0xb5aebc: mov             fp, SP
     // 0xb5aec0: ldr             x2, [fp, #0x10]
     // 0xb5aec4: r1 = Function 'dispose':.
-    //     0xb5aec4: add             x1, PP, #0x53, lsl #12  ; [pp+0x53b08] AnonymousClosure: (0xb5aedc), in [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose (0xb63788)
+    //     0xb5aec4: add             x1, PP, #0x53, lsl #12  ; [pp+0x53b08] AnonymousClosure: (0xb5aedc), in [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose (0xb63788)
     //     0xb5aec8: ldr             x1, [x1, #0xb08]
     // 0xb5aecc: r0 = AllocateClosure()
     //     0xb5aecc: bl              #0xe553e0  ; AllocateClosureStub
@@ -41,7 +41,7 @@ abstract class __TeamsProTeamPickerViewState&State&HomeIslandHiddenRoute extends
     //     0xb5aef4: cmp             SP, x16
     //     0xb5aef8: b.ls            #0xb5af0c
     // 0xb5aefc: r0 = dispose()
-    //     0xb5aefc: bl              #0xb63788  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
+    //     0xb5aefc: bl              #0xb63788  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
     // 0xb5af00: LeaveFrame
     //     0xb5af00: mov             SP, fp
     //     0xb5af04: ldp             fp, lr, [SP], #0x10
@@ -81,7 +81,7 @@ class _TeamsProTeamPickerViewState extends __TeamsProTeamPickerViewState&State&H
     //     0xa2c9a4: bl              #0x5ff63c  ; [package:provider/src/provider.dart] Provider::of
     // 0xa2c9a8: mov             x1, x0
     // 0xa2c9ac: r0 = coachTeamsCurrentUserCanManage()
-    //     0xa2c9ac: bl              #0x991cdc  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::coachTeamsCurrentUserCanManage
+    //     0xa2c9ac: bl              #0x991cdc  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::coachTeamsCurrentUserCanManage
     // 0xa2c9b0: stur            x0, [fp, #-0x10]
     // 0xa2c9b4: r1 = 1
     //     0xa2c9b4: mov             x1, #1
@@ -93,22 +93,22 @@ class _TeamsProTeamPickerViewState extends __TeamsProTeamPickerViewState&State&H
     // 0xa2c9c8: StoreField: r2->field_f = r0
     //     0xa2c9c8: stur            w0, [x2, #0xf]
     // 0xa2c9cc: ldur            x1, [fp, #-8]
-    // 0xa2c9d0: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xa2c9d0: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xa2c9d0: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xa2c9d0: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xa2c9d4: ldur            x1, [fp, #-8]
     // 0xa2c9d8: stur            x0, [fp, #-0x20]
-    // 0xa2c9dc: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xa2c9dc: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xa2c9dc: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xa2c9dc: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xa2c9e0: ldur            x1, [fp, #-8]
     // 0xa2c9e4: stur            x0, [fp, #-0x28]
-    // 0xa2c9e8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa2c9e8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
-    // 0xa2c9ec: r1 = "Unlock Ball AI Teams Pro"
-    //     0xa2c9ec: add             x1, PP, #0x49, lsl #12  ; [pp+0x49e80] "Unlock Ball AI Teams Pro"
+    // 0xa2c9e8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa2c9e8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
+    // 0xa2c9ec: r1 = "Unlock Kourt AI Teams Pro"
+    //     0xa2c9ec: add             x1, PP, #0x49, lsl #12  ; [pp+0x49e80] "Unlock Kourt AI Teams Pro"
     //     0xa2c9f0: ldr             x1, [x1, #0xe80]
     // 0xa2c9f4: stur            x0, [fp, #-0x30]
     // 0xa2c9f8: r0 = L()
-    //     0xa2c9f8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2c9f8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2c9fc: stur            x0, [fp, #-0x38]
     // 0xa2ca00: r0 = TextStyle()
     //     0xa2ca00: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -166,8 +166,8 @@ class _TeamsProTeamPickerViewState extends __TeamsProTeamPickerViewState&State&H
     //     0xa2ca94: blr             lr
     // 0xa2ca98: tbnz            w0, #4, #0xa2cce8
     // 0xa2ca9c: ldur            x1, [fp, #-8]
-    // 0xa2caa0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa2caa0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa2caa0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa2caa0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa2caa4: stur            x0, [fp, #-0x28]
     // 0xa2caa8: r0 = Icon()
     //     0xa2caa8: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -199,11 +199,11 @@ class _TeamsProTeamPickerViewState extends __TeamsProTeamPickerViewState&State&H
     //     0xa2caec: add             x1, PP, #0x53, lsl #12  ; [pp+0x53b18] "No coached teams"
     //     0xa2caf0: ldr             x1, [x1, #0xb18]
     // 0xa2caf4: r0 = L()
-    //     0xa2caf4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2caf4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2caf8: ldur            x1, [fp, #-8]
     // 0xa2cafc: stur            x0, [fp, #-0x40]
-    // 0xa2cb00: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa2cb00: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa2cb00: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa2cb00: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa2cb04: stur            x0, [fp, #-0x48]
     // 0xa2cb08: r0 = TextStyle()
     //     0xa2cb08: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -249,15 +249,15 @@ class _TeamsProTeamPickerViewState extends __TeamsProTeamPickerViewState&State&H
     // 0xa2cb70: stur            x2, [fp, #-0x40]
     // 0xa2cb74: StoreField: r2->field_13 = r0
     //     0xa2cb74: stur            w0, [x2, #0x13]
-    // 0xa2cb78: r1 = "Join or manage a team to unlock Ball AI Teams Pro from Settings."
-    //     0xa2cb78: add             x1, PP, #0x53, lsl #12  ; [pp+0x53b20] "Join or manage a team to unlock Ball AI Teams Pro from Settings."
+    // 0xa2cb78: r1 = "Join or manage a team to unlock Kourt AI Teams Pro from Settings."
+    //     0xa2cb78: add             x1, PP, #0x53, lsl #12  ; [pp+0x53b20] "Join or manage a team to unlock Kourt AI Teams Pro from Settings."
     //     0xa2cb7c: ldr             x1, [x1, #0xb20]
     // 0xa2cb80: r0 = L()
-    //     0xa2cb80: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa2cb80: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa2cb84: ldur            x1, [fp, #-8]
     // 0xa2cb88: stur            x0, [fp, #-8]
-    // 0xa2cb8c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa2cb8c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa2cb8c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa2cb8c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa2cb90: stur            x0, [fp, #-0x50]
     // 0xa2cb94: r0 = TextStyle()
     //     0xa2cb94: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -408,7 +408,7 @@ class _TeamsProTeamPickerViewState extends __TeamsProTeamPickerViewState&State&H
     //     0xa2cd0c: sbfx            x3, x0, #1, #0x1f
     // 0xa2cd10: stur            x3, [fp, #-0x60]
     // 0xa2cd14: r1 = Function '<anonymous closure>':.
-    //     0xa2cd14: add             x1, PP, #0x53, lsl #12  ; [pp+0x53b28] AnonymousClosure: (0xa2d4dc), in [package:ballai/automatic/views/home/tab/tabs/teams/root/teams_view.dart] _TeamsViewState::build (0xa735bc)
+    //     0xa2cd14: add             x1, PP, #0x53, lsl #12  ; [pp+0x53b28] AnonymousClosure: (0xa2d4dc), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/teams_view.dart] _TeamsViewState::build (0xa735bc)
     //     0xa2cd18: ldr             x1, [x1, #0xb28]
     // 0xa2cd1c: r2 = Null
     //     0xa2cd1c: mov             x2, NULL
@@ -416,7 +416,7 @@ class _TeamsProTeamPickerViewState extends __TeamsProTeamPickerViewState&State&H
     //     0xa2cd20: bl              #0xe553e0  ; AllocateClosureStub
     // 0xa2cd24: ldur            x2, [fp, #-0x18]
     // 0xa2cd28: r1 = Function '<anonymous closure>':.
-    //     0xa2cd28: add             x1, PP, #0x53, lsl #12  ; [pp+0x53b30] AnonymousClosure: (0xa2cdec), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/teams_pro_team_picker_view.dart] _TeamsProTeamPickerViewState::build (0xa2c970)
+    //     0xa2cd28: add             x1, PP, #0x53, lsl #12  ; [pp+0x53b30] AnonymousClosure: (0xa2cdec), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/teams_pro_team_picker_view.dart] _TeamsProTeamPickerViewState::build (0xa2c970)
     //     0xa2cd2c: ldr             x1, [x1, #0xb30]
     // 0xa2cd30: stur            x0, [fp, #-8]
     // 0xa2cd34: r0 = AllocateClosure()
@@ -531,8 +531,8 @@ class _TeamsProTeamPickerViewState extends __TeamsProTeamPickerViewState&State&H
     //     0xa2ce7c: b.eq            #0xa2ce84
     //     0xa2ce80: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xa2ce84: ldr             x1, [fp, #0x18]
-    // 0xa2ce88: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xa2ce88: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xa2ce88: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xa2ce88: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xa2ce8c: stur            x0, [fp, #-0x18]
     // 0xa2ce90: r0 = Radius()
     //     0xa2ce90: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -585,8 +585,8 @@ class _TeamsProTeamPickerViewState extends __TeamsProTeamPickerViewState&State&H
     //     0xa2cf00: add             x3, x3, HEAP, lsl #32
     // 0xa2cf04: ldr             x1, [fp, #0x18]
     // 0xa2cf08: stur            x3, [fp, #-0x20]
-    // 0xa2cf0c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa2cf0c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa2cf0c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa2cf0c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa2cf10: stur            x0, [fp, #-0x38]
     // 0xa2cf14: r0 = TextStyle()
     //     0xa2cf14: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -621,11 +621,11 @@ class _TeamsProTeamPickerViewState extends __TeamsProTeamPickerViewState&State&H
     //     0xa2cf60: stur            w0, [x2, #0x13]
     // 0xa2cf64: ldur            x1, [fp, #-8]
     // 0xa2cf68: r0 = _statusLabel()
-    //     0xa2cf68: bl              #0xa2d250  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/teams_pro_team_picker_view.dart] _TeamsProTeamPickerViewState::_statusLabel
+    //     0xa2cf68: bl              #0xa2d250  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/teams_pro_team_picker_view.dart] _TeamsProTeamPickerViewState::_statusLabel
     // 0xa2cf6c: ldr             x1, [fp, #0x18]
     // 0xa2cf70: stur            x0, [fp, #-8]
-    // 0xa2cf74: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa2cf74: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa2cf74: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa2cf74: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa2cf78: stur            x0, [fp, #-0x20]
     // 0xa2cf7c: r0 = TextStyle()
     //     0xa2cf7c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -743,8 +743,8 @@ class _TeamsProTeamPickerViewState extends __TeamsProTeamPickerViewState&State&H
     // 0xa2d098: StoreField: r2->field_b = r0
     //     0xa2d098: stur            w0, [x2, #0xb]
     // 0xa2d09c: ldr             x1, [fp, #0x18]
-    // 0xa2d0a0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa2d0a0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa2d0a0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa2d0a0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa2d0a4: stur            x0, [fp, #-8]
     // 0xa2d0a8: r0 = Icon()
     //     0xa2d0a8: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -844,7 +844,7 @@ class _TeamsProTeamPickerViewState extends __TeamsProTeamPickerViewState&State&H
     //     0xa2d198: stur            w0, [x3, #0xb]
     // 0xa2d19c: ldur            x2, [fp, #-0x10]
     // 0xa2d1a0: r1 = Function '<anonymous closure>':.
-    //     0xa2d1a0: add             x1, PP, #0x53, lsl #12  ; [pp+0x53b38] AnonymousClosure: (0xa2d3e0), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/teams_pro_team_picker_view.dart] _TeamsProTeamPickerViewState::build (0xa2c970)
+    //     0xa2d1a0: add             x1, PP, #0x53, lsl #12  ; [pp+0x53b38] AnonymousClosure: (0xa2d3e0), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/teams_pro_team_picker_view.dart] _TeamsProTeamPickerViewState::build (0xa2c970)
     //     0xa2d1a4: ldr             x1, [x1, #0xb38]
     // 0xa2d1a8: r0 = AllocateClosure()
     //     0xa2d1a8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1094,7 +1094,7 @@ class _TeamsProTeamPickerViewState extends __TeamsProTeamPickerViewState&State&H
     //     0xa2d414: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa2d418: ldur            x2, [fp, #-8]
     // 0xa2d41c: r1 = Function '<anonymous closure>':.
-    //     0xa2d41c: add             x1, PP, #0x53, lsl #12  ; [pp+0x53b40] AnonymousClosure: (0xa2d480), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/teams_pro_team_picker_view.dart] _TeamsProTeamPickerViewState::build (0xa2c970)
+    //     0xa2d41c: add             x1, PP, #0x53, lsl #12  ; [pp+0x53b40] AnonymousClosure: (0xa2d480), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/teams_pro_team_picker_view.dart] _TeamsProTeamPickerViewState::build (0xa2c970)
     //     0xa2d420: ldr             x1, [x1, #0xb40]
     // 0xa2d424: stur            x0, [fp, #-8]
     // 0xa2d428: r0 = AllocateClosure()

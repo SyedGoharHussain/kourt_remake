@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart
+// lib: , url: package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart
 
 // class id: 1048782, size: 0x8
 class :: {
@@ -46,7 +46,7 @@ class UserProfileViewModel extends ChangeNotifier {
     //     0x988c24: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
     // 0x988c28: ldur            x1, [fp, #-8]
     // 0x988c2c: r0 = isCurrentUserProfile()
-    //     0x988c2c: bl              #0x989178  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::isCurrentUserProfile
+    //     0x988c2c: bl              #0x989178  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::isCurrentUserProfile
     // 0x988c30: tbnz            w0, #4, #0x988c8c
     // 0x988c34: ldur            x2, [fp, #-8]
     // 0x988c38: r1 = false
@@ -86,7 +86,7 @@ class UserProfileViewModel extends ChangeNotifier {
     // 0x988c8c: ldur            x2, [fp, #-8]
     // 0x988c90: mov             x1, x2
     // 0x988c94: r0 = _startUserListener()
-    //     0x988c94: bl              #0x988ed8  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::_startUserListener
+    //     0x988c94: bl              #0x988ed8  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::_startUserListener
     // 0x988c98: ldur            x0, [fp, #-8]
     // 0x988c9c: LoadField: r3 = r0->field_2b
     //     0x988c9c: ldur            w3, [x0, #0x2b]
@@ -95,7 +95,7 @@ class UserProfileViewModel extends ChangeNotifier {
     // 0x988ca4: mov             x2, x0
     // 0x988ca8: stur            x3, [fp, #-0x10]
     // 0x988cac: r1 = Function '_onFollowManagerChanged@976144220':.
-    //     0x988cac: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ac08] AnonymousClosure: (0x9891f0), in [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::_onFollowManagerChanged (0x989228)
+    //     0x988cac: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ac08] AnonymousClosure: (0x9891f0), in [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::_onFollowManagerChanged (0x989228)
     //     0x988cb0: ldr             x1, [x1, #0xc08]
     // 0x988cb4: r0 = AllocateClosure()
     //     0x988cb4: bl              #0xe553e0  ; AllocateClosureStub
@@ -105,10 +105,10 @@ class UserProfileViewModel extends ChangeNotifier {
     //     0x988cc0: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0x988cc4: ldur            x1, [fp, #-8]
     // 0x988cc8: r0 = _syncFollowStateFromManager()
-    //     0x988cc8: bl              #0x988e08  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::_syncFollowStateFromManager
+    //     0x988cc8: bl              #0x988e08  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::_syncFollowStateFromManager
     // 0x988ccc: ldur            x1, [fp, #-8]
     // 0x988cd0: r0 = _loadWorkoutCount()
-    //     0x988cd0: bl              #0x988cec  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::_loadWorkoutCount
+    //     0x988cd0: bl              #0x988cec  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::_loadWorkoutCount
     // 0x988cd4: r0 = Null
     //     0x988cd4: mov             x0, NULL
     // 0x988cd8: LeaveFrame
@@ -202,11 +202,11 @@ class UserProfileViewModel extends ChangeNotifier {
     //     0x988dbc: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ab08] "Couldn\'t load this profile. Please try again."
     //     0x988dc0: ldr             x1, [x1, #0xb08]
     // 0x988dc4: r0 = L()
-    //     0x988dc4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x988dc4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x988dc8: ldur            x1, [fp, #-0x70]
     // 0x988dcc: mov             x2, x0
     // 0x988dd0: r0 = userFacingError()
-    //     0x988dd0: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0x988dd0: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0x988dd4: ldur            x1, [fp, #-0x68]
     // 0x988dd8: StoreField: r1->field_57 = r0
     //     0x988dd8: stur            w0, [x1, #0x57]
@@ -366,14 +366,14 @@ class UserProfileViewModel extends ChangeNotifier {
     //     0x988f58: bl              #0x5f43f0  ; [package:cloud_firestore/cloud_firestore.dart] _JsonDocumentReference::snapshots
     // 0x988f5c: ldur            x2, [fp, #-0x10]
     // 0x988f60: r1 = Function '<anonymous closure>':.
-    //     0x988f60: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ac18] AnonymousClosure: (0x989070), in [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::_startUserListener (0x988ed8)
+    //     0x988f60: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ac18] AnonymousClosure: (0x989070), in [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::_startUserListener (0x988ed8)
     //     0x988f64: ldr             x1, [x1, #0xc18]
     // 0x988f68: stur            x0, [fp, #-0x18]
     // 0x988f6c: r0 = AllocateClosure()
     //     0x988f6c: bl              #0xe553e0  ; AllocateClosureStub
     // 0x988f70: ldur            x2, [fp, #-0x10]
     // 0x988f74: r1 = Function '<anonymous closure>':.
-    //     0x988f74: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ac20] AnonymousClosure: (0x988fd4), in [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::_startUserListener (0x988ed8)
+    //     0x988f74: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ac20] AnonymousClosure: (0x988fd4), in [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::_startUserListener (0x988ed8)
     //     0x988f78: ldr             x1, [x1, #0xc20]
     // 0x988f7c: stur            x0, [fp, #-0x10]
     // 0x988f80: r0 = AllocateClosure()
@@ -431,11 +431,11 @@ class UserProfileViewModel extends ChangeNotifier {
     //     0x989008: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ab08] "Couldn\'t load this profile. Please try again."
     //     0x98900c: ldr             x1, [x1, #0xb08]
     // 0x989010: r0 = L()
-    //     0x989010: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x989010: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x989014: ldr             x1, [fp, #0x10]
     // 0x989018: mov             x2, x0
     // 0x98901c: r0 = userFacingError()
-    //     0x98901c: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0x98901c: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0x989020: ldur            x1, [fp, #-8]
     // 0x989024: StoreField: r1->field_57 = r0
     //     0x989024: stur            w0, [x1, #0x57]
@@ -536,7 +536,7 @@ class UserProfileViewModel extends ChangeNotifier {
     // 0x989120: r1 = Null
     //     0x989120: mov             x1, NULL
     // 0x989124: r0 = UserModel.fromFirestore()
-    //     0x989124: bl              #0x8fe49c  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
+    //     0x989124: bl              #0x8fe49c  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
     // 0x989128: ldur            x1, [fp, #-0x10]
     // 0x98912c: StoreField: r1->field_33 = r0
     //     0x98912c: stur            w0, [x1, #0x33]
@@ -632,7 +632,7 @@ class UserProfileViewModel extends ChangeNotifier {
     //     0x989208: cmp             SP, x16
     //     0x98920c: b.ls            #0x989220
     // 0x989210: r0 = _onFollowManagerChanged()
-    //     0x989210: bl              #0x989228  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::_onFollowManagerChanged
+    //     0x989210: bl              #0x989228  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::_onFollowManagerChanged
     // 0x989214: LeaveFrame
     //     0x989214: mov             SP, fp
     //     0x989218: ldp             fp, lr, [SP], #0x10
@@ -658,7 +658,7 @@ class UserProfileViewModel extends ChangeNotifier {
     //     0x989244: b.ls            #0x98927c
     // 0x989248: mov             x1, x0
     // 0x98924c: r0 = isCurrentUserProfile()
-    //     0x98924c: bl              #0x989178  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::isCurrentUserProfile
+    //     0x98924c: bl              #0x989178  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::isCurrentUserProfile
     // 0x989250: tbnz            w0, #4, #0x989264
     // 0x989254: r0 = Null
     //     0x989254: mov             x0, NULL
@@ -669,7 +669,7 @@ class UserProfileViewModel extends ChangeNotifier {
     //     0x989260: ret             
     // 0x989264: ldur            x1, [fp, #-8]
     // 0x989268: r0 = _syncFollowStateFromManager()
-    //     0x989268: bl              #0x988e08  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::_syncFollowStateFromManager
+    //     0x989268: bl              #0x988e08  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::_syncFollowStateFromManager
     // 0x98926c: r0 = Null
     //     0x98926c: mov             x0, NULL
     // 0x989270: LeaveFrame
@@ -857,7 +857,7 @@ class UserProfileViewModel extends ChangeNotifier {
     //     0x9b5e80: mov             fp, SP
     // 0x9b5e84: ldr             x2, [fp, #0x10]
     // 0x9b5e88: r1 = Function 'dispose':.
-    //     0x9b5e88: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cda8] AnonymousClosure: (0x9b5ea0), in [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::dispose (0x9be7d0)
+    //     0x9b5e88: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cda8] AnonymousClosure: (0x9b5ea0), in [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::dispose (0x9be7d0)
     //     0x9b5e8c: ldr             x1, [x1, #0xda8]
     // 0x9b5e90: r0 = AllocateClosure()
     //     0x9b5e90: bl              #0xe553e0  ; AllocateClosureStub
@@ -882,7 +882,7 @@ class UserProfileViewModel extends ChangeNotifier {
     //     0x9b5eb8: cmp             SP, x16
     //     0x9b5ebc: b.ls            #0x9b5ed0
     // 0x9b5ec0: r0 = dispose()
-    //     0x9b5ec0: bl              #0x9be7d0  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::dispose
+    //     0x9b5ec0: bl              #0x9be7d0  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::dispose
     // 0x9b5ec4: LeaveFrame
     //     0x9b5ec4: mov             SP, fp
     //     0x9b5ec8: ldp             fp, lr, [SP], #0x10
@@ -908,7 +908,7 @@ class UserProfileViewModel extends ChangeNotifier {
     //     0x9be7ec: b.ls            #0x9be810
     // 0x9be7f0: mov             x1, x0
     // 0x9be7f4: r0 = stop()
-    //     0x9be7f4: bl              #0x9be818  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::stop
+    //     0x9be7f4: bl              #0x9be818  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::stop
     // 0x9be7f8: ldur            x1, [fp, #-8]
     // 0x9be7fc: r0 = dispose()
     //     0x9be7fc: bl              #0xb7893c  ; [package:flutter/src/widgets/shortcuts.dart] _ShortcutManager&Object&Diagnosticable&ChangeNotifier::dispose
@@ -958,7 +958,7 @@ class UserProfileViewModel extends ChangeNotifier {
     //     0x9be860: add             x0, x0, HEAP, lsl #32
     // 0x9be864: stur            x0, [fp, #-0x10]
     // 0x9be868: r1 = Function '_onFollowManagerChanged@976144220':.
-    //     0x9be868: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ac08] AnonymousClosure: (0x9891f0), in [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::_onFollowManagerChanged (0x989228)
+    //     0x9be868: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ac08] AnonymousClosure: (0x9891f0), in [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::_onFollowManagerChanged (0x989228)
     //     0x9be86c: ldr             x1, [x1, #0xc08]
     // 0x9be870: r0 = AllocateClosure()
     //     0x9be870: bl              #0xe553e0  ; AllocateClosureStub
@@ -1000,7 +1000,7 @@ class UserProfileViewModel extends ChangeNotifier {
     // 0xaa5e94: b.eq            #0xaa5eb4
     // 0xaa5e98: mov             x1, x0
     // 0xaa5e9c: r0 = isCurrentUserProfile()
-    //     0xaa5e9c: bl              #0x989178  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::isCurrentUserProfile
+    //     0xaa5e9c: bl              #0x989178  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::isCurrentUserProfile
     // 0xaa5ea0: tbz             w0, #4, #0xaa5eb4
     // 0xaa5ea4: ldur            x0, [fp, #-0x10]
     // 0xaa5ea8: LoadField: r1 = r0->field_43
@@ -1072,7 +1072,7 @@ class UserProfileViewModel extends ChangeNotifier {
     //     0xaa62e0: b.ls            #0xaa6324
     // 0xaa62e4: mov             x1, x0
     // 0xaa62e8: r0 = isCurrentUserProfile()
-    //     0xaa62e8: bl              #0x989178  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::isCurrentUserProfile
+    //     0xaa62e8: bl              #0x989178  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::isCurrentUserProfile
     // 0xaa62ec: tbz             w0, #4, #0xaa6314
     // 0xaa62f0: ldur            x1, [fp, #-8]
     // 0xaa62f4: LoadField: r2 = r1->field_33
@@ -1185,7 +1185,7 @@ class UserProfileViewModel extends ChangeNotifier {
     //     0xaa64d0: bl              #0x60afc8  ; InitAsyncStub
     // 0xaa64d4: ldur            x1, [fp, #-0x70]
     // 0xaa64d8: r0 = isCurrentUserProfile()
-    //     0xaa64d8: bl              #0x989178  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::isCurrentUserProfile
+    //     0xaa64d8: bl              #0x989178  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::isCurrentUserProfile
     // 0xaa64dc: tbz             w0, #4, #0xaa64f0
     // 0xaa64e0: ldur            x0, [fp, #-0x70]
     // 0xaa64e4: LoadField: r1 = r0->field_53
@@ -1219,7 +1219,7 @@ class UserProfileViewModel extends ChangeNotifier {
     // 0xaa6524: DecompressPointer r2
     //     0xaa6524: add             x2, x2, HEAP, lsl #32
     // 0xaa6528: r0 = acceptFollowRequest()
-    //     0xaa6528: bl              #0xa9a380  ; [package:ballai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::acceptFollowRequest
+    //     0xaa6528: bl              #0xa9a380  ; [package:kourtai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::acceptFollowRequest
     // 0xaa652c: mov             x1, x0
     // 0xaa6530: stur            x1, [fp, #-0x78]
     // 0xaa6534: r0 = Await()
@@ -1244,7 +1244,7 @@ class UserProfileViewModel extends ChangeNotifier {
     // 0xaa6560: DecompressPointer r2
     //     0xaa6560: add             x2, x2, HEAP, lsl #32
     // 0xaa6564: r0 = unfollow()
-    //     0xaa6564: bl              #0xa96e3c  ; [package:ballai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::unfollow
+    //     0xaa6564: bl              #0xa96e3c  ; [package:kourtai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::unfollow
     // 0xaa6568: mov             x1, x0
     // 0xaa656c: stur            x1, [fp, #-0x78]
     // 0xaa6570: r0 = Await()
@@ -1259,14 +1259,14 @@ class UserProfileViewModel extends ChangeNotifier {
     // 0xaa6584: DecompressPointer r2
     //     0xaa6584: add             x2, x2, HEAP, lsl #32
     // 0xaa6588: r0 = follow()
-    //     0xaa6588: bl              #0xa969ac  ; [package:ballai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::follow
+    //     0xaa6588: bl              #0xa969ac  ; [package:kourtai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::follow
     // 0xaa658c: mov             x1, x0
     // 0xaa6590: stur            x1, [fp, #-0x78]
     // 0xaa6594: r0 = Await()
     //     0xaa6594: bl              #0x60ad4c  ; AwaitStub
     // 0xaa6598: ldur            x1, [fp, #-0x70]
     // 0xaa659c: r0 = _syncFollowStateFromManager()
-    //     0xaa659c: bl              #0x988e08  ; [package:ballai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::_syncFollowStateFromManager
+    //     0xaa659c: bl              #0x988e08  ; [package:kourtai/automatic/viewmodels/home/you/user_profile_view_model.dart] UserProfileViewModel::_syncFollowStateFromManager
     // 0xaa65a0: ldur            x2, [fp, #-0x70]
     // 0xaa65a4: b               #0xaa65fc
     // 0xaa65a8: sub             SP, fp, #0x88
@@ -1279,12 +1279,12 @@ class UserProfileViewModel extends ChangeNotifier {
     //     0xaa65c0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ab08] "Couldn\'t load this profile. Please try again."
     //     0xaa65c4: ldr             x1, [x1, #0xb08]
     // 0xaa65c8: r0 = L()
-    //     0xaa65c8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa65c8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa65cc: ldur            x1, [fp, #-0x78]
     // 0xaa65d0: mov             x2, x0
     // 0xaa65d4: stur            x0, [fp, #-0x88]
     // 0xaa65d8: r0 = userFacingError()
-    //     0xaa65d8: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0xaa65d8: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0xaa65dc: ldur            x2, [fp, #-0x70]
     // 0xaa65e0: StoreField: r2->field_57 = r0
     //     0xaa65e0: stur            w0, [x2, #0x57]

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/team/membership_notification_preferences.dart
+// lib: , url: package:kourtai/automatic/models/core/team/membership_notification_preferences.dart
 
 // class id: 1048705, size: 0x8
 class :: {

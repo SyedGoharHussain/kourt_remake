@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart
 
 // class id: 1048839, size: 0x8
 class :: {
@@ -89,7 +89,7 @@ class _AccountSetupStripAutoScrollState extends State<dynamic> {
     // 0x8e9e24: b.eq            #0x8e9e84
     // 0x8e9e28: mov             x2, x4
     // 0x8e9e2c: r1 = Function '_noteExtent@1077006907':.
-    //     0x8e9e2c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c500] AnonymousClosure: (0x8ea22c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_noteExtent (0x8ea264)
+    //     0x8e9e2c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c500] AnonymousClosure: (0x8ea22c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_noteExtent (0x8ea264)
     //     0x8e9e30: ldr             x1, [x1, #0x500]
     // 0x8e9e34: r0 = AllocateClosure()
     //     0x8e9e34: bl              #0xe553e0  ; AllocateClosureStub
@@ -143,7 +143,7 @@ class _AccountSetupStripAutoScrollState extends State<dynamic> {
     // 0x8e9eb8: StoreField: r1->field_1b = rZR
     //     0x8e9eb8: stur            xzr, [x1, #0x1b]
     // 0x8e9ebc: r0 = _scheduleExtentCheck()
-    //     0x8e9ebc: bl              #0x8e9ee4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_scheduleExtentCheck
+    //     0x8e9ebc: bl              #0x8e9ee4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_scheduleExtentCheck
     // 0x8e9ec0: r0 = Null
     //     0x8e9ec0: mov             x0, NULL
     // 0x8e9ec4: LeaveFrame
@@ -199,7 +199,7 @@ class _AccountSetupStripAutoScrollState extends State<dynamic> {
     // 0x8e9f38: mov             x2, x1
     // 0x8e9f3c: stur            x0, [fp, #-8]
     // 0x8e9f40: r1 = Function '<anonymous closure>':.
-    //     0x8e9f40: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c538] AnonymousClosure: (0x8ea014), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_scheduleExtentCheck (0x8e9ee4)
+    //     0x8e9f40: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c538] AnonymousClosure: (0x8ea014), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_scheduleExtentCheck (0x8e9ee4)
     //     0x8e9f44: ldr             x1, [x1, #0x538]
     // 0x8e9f48: r0 = AllocateClosure()
     //     0x8e9f48: bl              #0xe553e0  ; AllocateClosureStub
@@ -341,7 +341,7 @@ class _AccountSetupStripAutoScrollState extends State<dynamic> {
     //     0x8ea0a8: ldur            w4, [x5, #0xb]
     // 0x8ea0ac: cbnz            w4, #0x8ea0c4
     // 0x8ea0b0: r0 = _retryExtent()
-    //     0x8ea0b0: bl              #0x8ea180  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_retryExtent
+    //     0x8ea0b0: bl              #0x8ea180  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_retryExtent
     // 0x8ea0b4: r0 = Null
     //     0x8ea0b4: mov             x0, NULL
     // 0x8ea0b8: LeaveFrame
@@ -393,7 +393,7 @@ class _AccountSetupStripAutoScrollState extends State<dynamic> {
     // 0x8ea128: cmp             w0, w1
     // 0x8ea12c: b.eq            #0x8ea148
     // 0x8ea130: r1 = Function '<anonymous closure>':.
-    //     0x8ea130: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c550] AnonymousClosure: (0x8ea1e0), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_scheduleExtentCheck (0x8e9ee4)
+    //     0x8ea130: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c550] AnonymousClosure: (0x8ea1e0), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_scheduleExtentCheck (0x8e9ee4)
     //     0x8ea134: ldr             x1, [x1, #0x550]
     // 0x8ea138: r0 = AllocateClosure()
     //     0x8ea138: bl              #0xe553e0  ; AllocateClosureStub
@@ -409,7 +409,7 @@ class _AccountSetupStripAutoScrollState extends State<dynamic> {
     // 0x8ea158: DecompressPointer r1
     //     0x8ea158: add             x1, x1, HEAP, lsl #32
     // 0x8ea15c: r0 = _retryExtent()
-    //     0x8ea15c: bl              #0x8ea180  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_retryExtent
+    //     0x8ea15c: bl              #0x8ea180  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_retryExtent
     // 0x8ea160: r0 = Null
     //     0x8ea160: mov             x0, NULL
     // 0x8ea164: LeaveFrame
@@ -454,7 +454,7 @@ class _AccountSetupStripAutoScrollState extends State<dynamic> {
     // 0x8ea1c0: StoreField: r1->field_1b = r2
     //     0x8ea1c0: stur            x2, [x1, #0x1b]
     // 0x8ea1c4: r0 = _scheduleExtentCheck()
-    //     0x8ea1c4: bl              #0x8e9ee4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_scheduleExtentCheck
+    //     0x8ea1c4: bl              #0x8e9ee4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_scheduleExtentCheck
     // 0x8ea1c8: r0 = Null
     //     0x8ea1c8: mov             x0, NULL
     // 0x8ea1cc: LeaveFrame
@@ -505,7 +505,7 @@ class _AccountSetupStripAutoScrollState extends State<dynamic> {
     //     0x8ea244: cmp             SP, x16
     //     0x8ea248: b.ls            #0x8ea25c
     // 0x8ea24c: r0 = _noteExtent()
-    //     0x8ea24c: bl              #0x8ea264  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_noteExtent
+    //     0x8ea24c: bl              #0x8ea264  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_noteExtent
     // 0x8ea250: LeaveFrame
     //     0x8ea250: mov             SP, fp
     //     0x8ea254: ldp             fp, lr, [SP], #0x10
@@ -603,7 +603,7 @@ class _AccountSetupStripAutoScrollState extends State<dynamic> {
     // 0x8ea334: ret
     //     0x8ea334: ret             
     // 0x8ea338: r1 = Function '<anonymous closure>':.
-    //     0x8ea338: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c508] AnonymousClosure: (0x8ea370), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_noteExtent (0x8ea264)
+    //     0x8ea338: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c508] AnonymousClosure: (0x8ea370), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_noteExtent (0x8ea264)
     //     0x8ea33c: ldr             x1, [x1, #0x508]
     // 0x8ea340: r0 = AllocateClosure()
     //     0x8ea340: bl              #0xe553e0  ; AllocateClosureStub
@@ -673,7 +673,7 @@ class _AccountSetupStripAutoScrollState extends State<dynamic> {
     // 0x9477ac: mov             x2, x0
     // 0x9477b0: stur            x3, [fp, #-8]
     // 0x9477b4: r1 = Function '_noteExtent@1077006907':.
-    //     0x9477b4: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c500] AnonymousClosure: (0x8ea22c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_noteExtent (0x8ea264)
+    //     0x9477b4: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c500] AnonymousClosure: (0x8ea22c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_noteExtent (0x8ea264)
     //     0x9477b8: ldr             x1, [x1, #0x500]
     // 0x9477bc: r0 = AllocateClosure()
     //     0x9477bc: bl              #0xe553e0  ; AllocateClosureStub
@@ -683,7 +683,7 @@ class _AccountSetupStripAutoScrollState extends State<dynamic> {
     //     0x9477c8: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0x9477cc: ldur            x1, [fp, #-0x10]
     // 0x9477d0: r0 = _scheduleExtentCheck()
-    //     0x9477d0: bl              #0x8e9ee4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_scheduleExtentCheck
+    //     0x9477d0: bl              #0x8e9ee4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_scheduleExtentCheck
     // 0x9477d4: r0 = Null
     //     0x9477d4: mov             x0, NULL
     // 0x9477d8: LeaveFrame
@@ -775,7 +775,7 @@ class _AccountSetupStripAutoScrollState extends State<dynamic> {
     //     0x9edf10: stur            w0, [x3, #0xf]
     // 0x9edf14: ldur            x2, [fp, #-0x18]
     // 0x9edf18: r1 = Function '<anonymous closure>':.
-    //     0x9edf18: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c4f0] AnonymousClosure: (0x9edf5c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::build (0x9ede4c)
+    //     0x9edf18: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c4f0] AnonymousClosure: (0x9edf5c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::build (0x9ede4c)
     //     0x9edf1c: ldr             x1, [x1, #0x4f0]
     // 0x9edf20: r0 = AllocateClosure()
     //     0x9edf20: bl              #0xe553e0  ; AllocateClosureStub
@@ -818,7 +818,7 @@ class _AccountSetupStripAutoScrollState extends State<dynamic> {
     //     0x9edf84: add             x0, x0, HEAP, lsl #32
     // 0x9edf88: stur            x0, [fp, #-8]
     // 0x9edf8c: r1 = Function '<anonymous closure>':.
-    //     0x9edf8c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c4f8] AnonymousClosure: (0x98f834), in [package:ballai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::initState (0x98f684)
+    //     0x9edf8c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c4f8] AnonymousClosure: (0x98f834), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::initState (0x98f684)
     //     0x9edf90: ldr             x1, [x1, #0x4f8]
     // 0x9edf94: r0 = AllocateClosure()
     //     0x9edf94: bl              #0xe553e0  ; AllocateClosureStub
@@ -844,7 +844,7 @@ class _AccountSetupStripAutoScrollState extends State<dynamic> {
     //     0xb5a8a0: mov             fp, SP
     // 0xb5a8a4: ldr             x2, [fp, #0x10]
     // 0xb5a8a8: r1 = Function 'dispose':.
-    //     0xb5a8a8: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c4e8] AnonymousClosure: (0xb5a8c0), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::dispose (0xb60b1c)
+    //     0xb5a8a8: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c4e8] AnonymousClosure: (0xb5a8c0), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::dispose (0xb60b1c)
     //     0xb5a8ac: ldr             x1, [x1, #0x4e8]
     // 0xb5a8b0: r0 = AllocateClosure()
     //     0xb5a8b0: bl              #0xe553e0  ; AllocateClosureStub
@@ -869,7 +869,7 @@ class _AccountSetupStripAutoScrollState extends State<dynamic> {
     //     0xb5a8d8: cmp             SP, x16
     //     0xb5a8dc: b.ls            #0xb5a8f0
     // 0xb5a8e0: r0 = dispose()
-    //     0xb5a8e0: bl              #0xb60b1c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::dispose
+    //     0xb5a8e0: bl              #0xb60b1c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::dispose
     // 0xb5a8e4: LeaveFrame
     //     0xb5a8e4: mov             SP, fp
     //     0xb5a8e8: ldp             fp, lr, [SP], #0x10
@@ -904,7 +904,7 @@ class _AccountSetupStripAutoScrollState extends State<dynamic> {
     //     0xb60b4c: add             x3, x3, HEAP, lsl #32
     // 0xb60b50: stur            x3, [fp, #-8]
     // 0xb60b54: r1 = Function '_noteExtent@1077006907':.
-    //     0xb60b54: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c500] AnonymousClosure: (0x8ea22c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_noteExtent (0x8ea264)
+    //     0xb60b54: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c500] AnonymousClosure: (0x8ea22c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupStripAutoScrollState::_noteExtent (0x8ea264)
     //     0xb60b58: ldr             x1, [x1, #0x500]
     // 0xb60b5c: r0 = AllocateClosure()
     //     0xb60b5c: bl              #0xe553e0  ; AllocateClosureStub
@@ -968,7 +968,7 @@ abstract class __AccountSetupSlowAutoScrollHostState&State&SingleTickerProviderS
     //     0x7b7998: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x7b799c: mov             x1, x2
     // 0x7b79a0: r0 = _updateTickerModeNotifier()
-    //     0x7b79a0: bl              #0x7b79f8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] __AccountSetupSlowAutoScrollHostState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x7b79a0: bl              #0x7b79f8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] __AccountSetupSlowAutoScrollHostState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x7b79a4: ldur            x1, [fp, #-8]
     // 0x7b79a8: r0 = _updateTicker()
     //     0x7b79a8: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -1133,7 +1133,7 @@ abstract class __AccountSetupSlowAutoScrollHostState&State&SingleTickerProviderS
     //     0x8e41d8: b.ls            #0x8e41fc
     // 0x8e41dc: mov             x1, x0
     // 0x8e41e0: r0 = _updateTickerModeNotifier()
-    //     0x8e41e0: bl              #0x7b79f8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] __AccountSetupSlowAutoScrollHostState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x8e41e0: bl              #0x7b79f8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] __AccountSetupSlowAutoScrollHostState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x8e41e4: ldur            x1, [fp, #-8]
     // 0x8e41e8: r0 = _updateTicker()
     //     0x8e41e8: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -1218,7 +1218,7 @@ abstract class __AccountSetupSlowAutoScrollHostState&State&SingleTickerProviderS
     //     0xb60afc: cmp             SP, x16
     //     0xb60b00: b.ls            #0xb60b14
     // 0xb60b04: r0 = dispose()
-    //     0xb60b04: bl              #0xb60a50  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] __AccountSetupSlowAutoScrollHostState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb60b04: bl              #0xb60a50  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] __AccountSetupSlowAutoScrollHostState&State&SingleTickerProviderStateMixin::dispose
     // 0xb60b08: LeaveFrame
     //     0xb60b08: mov             SP, fp
     //     0xb60b0c: ldp             fp, lr, [SP], #0x10
@@ -1315,7 +1315,7 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     // 0x8e9664: b.eq            #0x8e96b0
     // 0x8e9668: mov             x2, x0
     // 0x8e966c: r1 = Function '_onScrollControllerChanged@1077006907':.
-    //     0x8e966c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c4a8] AnonymousClosure: (0x8e9cb4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_onScrollControllerChanged (0x8e9cec)
+    //     0x8e966c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c4a8] AnonymousClosure: (0x8e9cb4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_onScrollControllerChanged (0x8e9cec)
     //     0x8e9670: ldr             x1, [x1, #0x4a8]
     // 0x8e9674: r0 = AllocateClosure()
     //     0x8e9674: bl              #0xe553e0  ; AllocateClosureStub
@@ -1358,7 +1358,7 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     // 0x8e96d8: StoreField: r1->field_27 = r0
     //     0x8e96d8: stur            w0, [x1, #0x27]
     // 0x8e96dc: r0 = _syncTicker()
-    //     0x8e96dc: bl              #0x8e9704  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_syncTicker
+    //     0x8e96dc: bl              #0x8e9704  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_syncTicker
     // 0x8e96e0: r0 = Null
     //     0x8e96e0: mov             x0, NULL
     // 0x8e96e4: LeaveFrame
@@ -1415,7 +1415,7 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     //     0x8e9754: ldur            w3, [x0, #0xb]
     // 0x8e9758: cbz             w3, #0x8e9764
     // 0x8e975c: r0 = _startTicker()
-    //     0x8e975c: bl              #0x8e9840  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_startTicker
+    //     0x8e975c: bl              #0x8e9840  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_startTicker
     // 0x8e9760: b               #0x8e9778
     // 0x8e9764: eor             x0, x2, #0x10
     // 0x8e9768: str             x0, [SP]
@@ -1423,7 +1423,7 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     //     0x8e976c: add             x4, PP, #0x3c, lsl #12  ; [pp+0x3c4b0] List(7) [0, 0x2, 0x1, 0x1, "resetElapsed", 0x1, Null]
     //     0x8e9770: ldr             x4, [x4, #0x4b0]
     // 0x8e9774: r0 = _stopTicker()
-    //     0x8e9774: bl              #0x8e9794  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_stopTicker
+    //     0x8e9774: bl              #0x8e9794  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_stopTicker
     // 0x8e9778: r0 = Null
     //     0x8e9778: mov             x0, NULL
     // 0x8e977c: LeaveFrame
@@ -1538,14 +1538,14 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     // 0x8e989c: b.ne            #0x8e98e4
     // 0x8e98a0: mov             x2, x0
     // 0x8e98a4: r1 = Function '_onTick@1077006907':.
-    //     0x8e98a4: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c4b8] AnonymousClosure: (0x8e9910), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_onTick (0x8e994c)
+    //     0x8e98a4: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c4b8] AnonymousClosure: (0x8e9910), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_onTick (0x8e994c)
     //     0x8e98a8: ldr             x1, [x1, #0x4b8]
     // 0x8e98ac: r0 = AllocateClosure()
     //     0x8e98ac: bl              #0xe553e0  ; AllocateClosureStub
     // 0x8e98b0: ldur            x1, [fp, #-8]
     // 0x8e98b4: mov             x2, x0
     // 0x8e98b8: r0 = createTicker()
-    //     0x8e98b8: bl              #0x7b7940  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] __AccountSetupSlowAutoScrollHostState&State&SingleTickerProviderStateMixin::createTicker
+    //     0x8e98b8: bl              #0x7b7940  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] __AccountSetupSlowAutoScrollHostState&State&SingleTickerProviderStateMixin::createTicker
     // 0x8e98bc: mov             x2, x0
     // 0x8e98c0: ldur            x1, [fp, #-8]
     // 0x8e98c4: StoreField: r1->field_1b = r0
@@ -1592,7 +1592,7 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     //     0x8e992c: b.ls            #0x8e9944
     // 0x8e9930: ldr             x2, [fp, #0x10]
     // 0x8e9934: r0 = _onTick()
-    //     0x8e9934: bl              #0x8e994c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_onTick
+    //     0x8e9934: bl              #0x8e994c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_onTick
     // 0x8e9938: LeaveFrame
     //     0x8e9938: mov             SP, fp
     //     0x8e993c: ldp             fp, lr, [SP], #0x10
@@ -1633,7 +1633,7 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     // 0x8e9994: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x8e9994: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x8e9998: r0 = _stopTicker()
-    //     0x8e9998: bl              #0x8e9794  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_stopTicker
+    //     0x8e9998: bl              #0x8e9794  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_stopTicker
     // 0x8e999c: r0 = Null
     //     0x8e999c: mov             x0, NULL
     // 0x8e99a0: LeaveFrame
@@ -1712,7 +1712,7 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     // 0x8e9a5c: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x8e9a5c: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x8e9a60: r0 = _stopTicker()
-    //     0x8e9a60: bl              #0x8e9794  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_stopTicker
+    //     0x8e9a60: bl              #0x8e9794  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_stopTicker
     // 0x8e9a64: r0 = Null
     //     0x8e9a64: mov             x0, NULL
     // 0x8e9a68: LeaveFrame
@@ -1890,7 +1890,7 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     // 0x8e9c54: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x8e9c54: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x8e9c58: r0 = _stopTicker()
-    //     0x8e9c58: bl              #0x8e9794  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_stopTicker
+    //     0x8e9c58: bl              #0x8e9794  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_stopTicker
     // 0x8e9c5c: r0 = Null
     //     0x8e9c5c: mov             x0, NULL
     // 0x8e9c60: LeaveFrame
@@ -1942,7 +1942,7 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     //     0x8e9ccc: cmp             SP, x16
     //     0x8e9cd0: b.ls            #0x8e9ce4
     // 0x8e9cd4: r0 = _onScrollControllerChanged()
-    //     0x8e9cd4: bl              #0x8e9cec  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_onScrollControllerChanged
+    //     0x8e9cd4: bl              #0x8e9cec  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_onScrollControllerChanged
     // 0x8e9cd8: LeaveFrame
     //     0x8e9cd8: mov             SP, fp
     //     0x8e9cdc: ldp             fp, lr, [SP], #0x10
@@ -1986,7 +1986,7 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     // 0x8e9d34: ret
     //     0x8e9d34: ret             
     // 0x8e9d38: r0 = _syncTicker()
-    //     0x8e9d38: bl              #0x8e9704  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_syncTicker
+    //     0x8e9d38: bl              #0x8e9704  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_syncTicker
     // 0x8e9d3c: r0 = Null
     //     0x8e9d3c: mov             x0, NULL
     // 0x8e9d40: LeaveFrame
@@ -2027,7 +2027,7 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     // 0x947730: mov             x2, x0
     // 0x947734: stur            x3, [fp, #-8]
     // 0x947738: r1 = Function '_onScrollControllerChanged@1077006907':.
-    //     0x947738: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c4a8] AnonymousClosure: (0x8e9cb4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_onScrollControllerChanged (0x8e9cec)
+    //     0x947738: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c4a8] AnonymousClosure: (0x8e9cb4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_onScrollControllerChanged (0x8e9cec)
     //     0x94773c: ldr             x1, [x1, #0x4a8]
     // 0x947740: r0 = AllocateClosure()
     //     0x947740: bl              #0xe553e0  ; AllocateClosureStub
@@ -2037,7 +2037,7 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     //     0x94774c: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0x947750: ldur            x1, [fp, #-0x10]
     // 0x947754: r0 = _syncTicker()
-    //     0x947754: bl              #0x8e9704  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_syncTicker
+    //     0x947754: bl              #0x8e9704  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_syncTicker
     // 0x947758: r0 = Null
     //     0x947758: mov             x0, NULL
     // 0x94775c: LeaveFrame
@@ -2081,7 +2081,7 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     //     0x9edb68: add             x3, x3, HEAP, lsl #32
     // 0x9edb6c: stur            x3, [fp, #-0x10]
     // 0x9edb70: r1 = Function '_handleScrollNotification@1077006907':.
-    //     0x9edb70: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c490] AnonymousClosure: (0x9edd04), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_handleScrollNotification (0x9edd40)
+    //     0x9edb70: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c490] AnonymousClosure: (0x9edd04), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_handleScrollNotification (0x9edd40)
     //     0x9edb74: ldr             x1, [x1, #0x490]
     // 0x9edb78: r0 = AllocateClosure()
     //     0x9edb78: bl              #0xe553e0  ; AllocateClosureStub
@@ -2103,7 +2103,7 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     //     0x9edba4: bl              #0x9edbec  ; AllocateListenerStub -> Listener (size=0x38)
     // 0x9edba8: ldur            x2, [fp, #-0x18]
     // 0x9edbac: r1 = Function '<anonymous closure>':.
-    //     0x9edbac: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c498] AnonymousClosure: (0x9edbf8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::build (0x9edb2c)
+    //     0x9edbac: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c498] AnonymousClosure: (0x9edbf8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::build (0x9edb2c)
     //     0x9edbb0: ldr             x1, [x1, #0x498]
     // 0x9edbb4: stur            x0, [fp, #-8]
     // 0x9edbb8: r0 = AllocateClosure()
@@ -2164,7 +2164,7 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     // 0x9edc44: tbz             w1, #4, #0x9edc50
     // 0x9edc48: mov             x1, x0
     // 0x9edc4c: r0 = _stopForUser()
-    //     0x9edc4c: bl              #0x9edc6c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_stopForUser
+    //     0x9edc4c: bl              #0x9edc6c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_stopForUser
     // 0x9edc50: r0 = Null
     //     0x9edc50: mov             x0, NULL
     // 0x9edc54: LeaveFrame
@@ -2212,7 +2212,7 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     // 0x9edcb4: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x9edcb4: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x9edcb8: r0 = _stopTicker()
-    //     0x9edcb8: bl              #0x8e9794  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_stopTicker
+    //     0x9edcb8: bl              #0x8e9794  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_stopTicker
     // 0x9edcbc: ldur            x0, [fp, #-8]
     // 0x9edcc0: LoadField: r1 = r0->field_b
     //     0x9edcc0: ldur            w1, [x0, #0xb]
@@ -2258,7 +2258,7 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     //     0x9edd20: b.ls            #0x9edd38
     // 0x9edd24: ldr             x2, [fp, #0x10]
     // 0x9edd28: r0 = _handleScrollNotification()
-    //     0x9edd28: bl              #0x9edd40  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_handleScrollNotification
+    //     0x9edd28: bl              #0x9edd40  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_handleScrollNotification
     // 0x9edd2c: LeaveFrame
     //     0x9edd2c: mov             SP, fp
     //     0x9edd30: ldp             fp, lr, [SP], #0x10
@@ -2345,7 +2345,7 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     // 0x9eddfc: b.eq            #0x9ede08
     // 0x9ede00: ldur            x1, [fp, #-0x10]
     // 0x9ede04: r0 = _stopForUser()
-    //     0x9ede04: bl              #0x9edc6c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_stopForUser
+    //     0x9ede04: bl              #0x9edc6c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_stopForUser
     // 0x9ede08: ldur            x0, [fp, #-0x20]
     // 0x9ede0c: cmp             x0, #0x4ab
     // 0x9ede10: b.ne            #0x9ede30
@@ -2358,7 +2358,7 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     // 0x9ede24: b.eq            #0x9ede30
     // 0x9ede28: ldur            x1, [fp, #-0x10]
     // 0x9ede2c: r0 = _stopForUser()
-    //     0x9ede2c: bl              #0x9edc6c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_stopForUser
+    //     0x9ede2c: bl              #0x9edc6c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_stopForUser
     // 0x9ede30: r0 = false
     //     0x9ede30: add             x0, NULL, #0x30  ; false
     // 0x9ede34: LeaveFrame
@@ -2379,7 +2379,7 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     //     0xb5a844: mov             fp, SP
     // 0xb5a848: ldr             x2, [fp, #0x10]
     // 0xb5a84c: r1 = Function 'dispose':.
-    //     0xb5a84c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c488] AnonymousClosure: (0xb5a864), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::dispose (0xb609c8)
+    //     0xb5a84c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c488] AnonymousClosure: (0xb5a864), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::dispose (0xb609c8)
     //     0xb5a850: ldr             x1, [x1, #0x488]
     // 0xb5a854: r0 = AllocateClosure()
     //     0xb5a854: bl              #0xe553e0  ; AllocateClosureStub
@@ -2404,7 +2404,7 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     //     0xb5a87c: cmp             SP, x16
     //     0xb5a880: b.ls            #0xb5a894
     // 0xb5a884: r0 = dispose()
-    //     0xb5a884: bl              #0xb609c8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::dispose
+    //     0xb5a884: bl              #0xb609c8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::dispose
     // 0xb5a888: LeaveFrame
     //     0xb5a888: mov             SP, fp
     //     0xb5a88c: ldp             fp, lr, [SP], #0x10
@@ -2441,7 +2441,7 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     // 0xb60a00: mov             x2, x0
     // 0xb60a04: stur            x3, [fp, #-8]
     // 0xb60a08: r1 = Function '_onScrollControllerChanged@1077006907':.
-    //     0xb60a08: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c4a8] AnonymousClosure: (0x8e9cb4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_onScrollControllerChanged (0x8e9cec)
+    //     0xb60a08: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c4a8] AnonymousClosure: (0x8e9cb4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_onScrollControllerChanged (0x8e9cec)
     //     0xb60a0c: ldr             x1, [x1, #0x4a8]
     // 0xb60a10: r0 = AllocateClosure()
     //     0xb60a10: bl              #0xe553e0  ; AllocateClosureStub
@@ -2453,10 +2453,10 @@ class _AccountSetupSlowAutoScrollHostState extends __AccountSetupSlowAutoScrollH
     // 0xb60a24: r4 = const [0, 0x1, 0, 0x1, null]
     //     0xb60a24: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0xb60a28: r0 = _stopTicker()
-    //     0xb60a28: bl              #0x8e9794  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_stopTicker
+    //     0xb60a28: bl              #0x8e9794  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] _AccountSetupSlowAutoScrollHostState::_stopTicker
     // 0xb60a2c: ldur            x1, [fp, #-0x10]
     // 0xb60a30: r0 = dispose()
-    //     0xb60a30: bl              #0xb60a50  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] __AccountSetupSlowAutoScrollHostState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb60a30: bl              #0xb60a50  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_slow_auto_scroll.dart] __AccountSetupSlowAutoScrollHostState&State&SingleTickerProviderStateMixin::dispose
     // 0xb60a34: r0 = Null
     //     0xb60a34: mov             x0, NULL
     // 0xb60a38: LeaveFrame

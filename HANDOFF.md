@@ -50,7 +50,7 @@ This repo is an **830 MB reverse-engineering analysis** of the shipped app — d
 | Path | What it is | Use |
 |---|---|---|
 | `docs/` (16 markdown files) | The written architecture analysis | **Primary reading.** Start 00 → 01 → 07 → 10. |
-| `dart-sources/asm/kourtai/` | The app's own recovered Dart (618 files; internal package `package:ballai/…`) | The **blueprint** — find a class here before implementing it. |
+| `dart-sources/asm/kourtai/` | The app's own recovered Dart (618 files; internal package `package:kourtai/…`) | The **blueprint** — find a class here before implementing it. |
 | `assets/models/` | The 5 `.tflite` detectors (~17 MB) | Copy into the Flutter app for the AI camera phase. |
 | `content/assets/flutter_assets/assets/lab/` | The 3 drill JSON catalogs (139 moves) | Copy into the app — The Lab's data. |
 | `content/assets/flutter_assets/assets/l10n/` | 16 locale JSONs + `manifest.json` | Localization phase. |

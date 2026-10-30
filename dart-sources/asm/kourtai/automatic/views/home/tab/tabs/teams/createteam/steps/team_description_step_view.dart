@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_description_step_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_description_step_view.dart
 
 // class id: 1048929, size: 0x8
 class :: {
@@ -79,7 +79,7 @@ class _TeamDescriptionStepViewState extends State<dynamic> {
     //     0x96f108: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0x96f10c: ldur            x2, [fp, #-0x18]
     // 0x96f110: r1 = Function '<anonymous closure>':.
-    //     0x96f110: add             x1, PP, #0x37, lsl #12  ; [pp+0x373e0] AnonymousClosure: (0x96f178), in [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_description_step_view.dart] _TeamDescriptionStepViewState::initState (0x96f058)
+    //     0x96f110: add             x1, PP, #0x37, lsl #12  ; [pp+0x373e0] AnonymousClosure: (0x96f178), in [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_description_step_view.dart] _TeamDescriptionStepViewState::initState (0x96f058)
     //     0x96f114: ldr             x1, [x1, #0x3e0]
     // 0x96f118: r0 = AllocateClosure()
     //     0x96f118: bl              #0xe553e0  ; AllocateClosureStub
@@ -201,11 +201,11 @@ class _TeamDescriptionStepViewState extends State<dynamic> {
     //     0xa53334: add             x1, PP, #0x37, lsl #12  ; [pp+0x373c8] "Description"
     //     0xa53338: ldr             x1, [x1, #0x3c8]
     // 0xa5333c: r0 = L()
-    //     0xa5333c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa5333c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa53340: ldur            x1, [fp, #-0x10]
     // 0xa53344: stur            x0, [fp, #-0x10]
-    // 0xa53348: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa53348: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa53348: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa53348: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa5334c: stur            x0, [fp, #-0x18]
     // 0xa53350: r0 = TextStyle()
     //     0xa53350: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -247,7 +247,7 @@ class _TeamDescriptionStepViewState extends State<dynamic> {
     //     0xa533b0: add             x1, PP, #0x37, lsl #12  ; [pp+0x373d0] "What\'s this team about\?"
     //     0xa533b4: ldr             x1, [x1, #0x3d0]
     // 0xa533b8: r0 = L()
-    //     0xa533b8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa533b8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa533bc: stur            x0, [fp, #-8]
     // 0xa533c0: r16 = 0.080000
     //     0xa533c0: add             x16, PP, #0x24, lsl #12  ; [pp+0x24f28] 0.08
@@ -520,7 +520,7 @@ class _TeamDescriptionStepViewState extends State<dynamic> {
     //     0xb5b6a4: mov             fp, SP
     // 0xb5b6a8: ldr             x2, [fp, #0x10]
     // 0xb5b6ac: r1 = Function 'dispose':.
-    //     0xb5b6ac: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bbe8] AnonymousClosure: (0xb5b6c4), in [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_description_step_view.dart] _TeamDescriptionStepViewState::dispose (0xb62670)
+    //     0xb5b6ac: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bbe8] AnonymousClosure: (0xb5b6c4), in [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_description_step_view.dart] _TeamDescriptionStepViewState::dispose (0xb62670)
     //     0xb5b6b0: ldr             x1, [x1, #0xbe8]
     // 0xb5b6b4: r0 = AllocateClosure()
     //     0xb5b6b4: bl              #0xe553e0  ; AllocateClosureStub
@@ -545,7 +545,7 @@ class _TeamDescriptionStepViewState extends State<dynamic> {
     //     0xb5b6dc: cmp             SP, x16
     //     0xb5b6e0: b.ls            #0xb5b6f4
     // 0xb5b6e4: r0 = dispose()
-    //     0xb5b6e4: bl              #0xb62670  ; [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_description_step_view.dart] _TeamDescriptionStepViewState::dispose
+    //     0xb5b6e4: bl              #0xb62670  ; [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_description_step_view.dart] _TeamDescriptionStepViewState::dispose
     // 0xb5b6e8: LeaveFrame
     //     0xb5b6e8: mov             SP, fp
     //     0xb5b6ec: ldp             fp, lr, [SP], #0x10

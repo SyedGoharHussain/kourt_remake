@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/leaderboard/leaderboard_skeleton.dart
+// lib: , url: package:kourtai/automatic/views/components/leaderboard/leaderboard_skeleton.dart
 
 // class id: 1048819, size: 0x8
 class :: {
@@ -25,8 +25,8 @@ class LeaderboardRowSkeletonStack extends StatelessWidget {
     //     0xbbfa6c: cmp             SP, x16
     //     0xbbfa70: b.ls            #0xbc012c
     // 0xbbfa74: mov             x1, x0
-    // 0xbbfa78: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbbfa78: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbbfa78: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbbfa78: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbbfa7c: r16 = 0.080000
     //     0xbbfa7c: add             x16, PP, #0x24, lsl #12  ; [pp+0x24f28] 0.08
     //     0xbbfa80: ldr             x16, [x16, #0xf28]
@@ -42,7 +42,7 @@ class LeaderboardRowSkeletonStack extends StatelessWidget {
     //     0xbbfa9c: ldr             x1, [x1, #0x260]
     // 0xbbfaa0: stur            x0, [fp, #-0x10]
     // 0xbbfaa4: r0 = L()
-    //     0xbbfaa4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbbfaa4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbbfaa8: r1 = <Widget>
     //     0xbbfaa8: ldr             x1, [PP, #0x4f10]  ; [pp+0x4f10] TypeArguments: <Widget>
     // 0xbbfaac: r2 = 0
@@ -537,8 +537,8 @@ class LeaderboardRowSkeletonStack extends StatelessWidget {
     // 0xbbff6c: cmp             x3, #4
     // 0xbbff70: b.ge            #0xbc0080
     // 0xbbff74: ldur            x1, [fp, #-8]
-    // 0xbbff78: r0 = BallAiThemeContext.ballAi()
-    //     0xbbff78: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xbbff78: r0 = KourtAiThemeContext.kourtAi()
+    //     0xbbff78: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xbbff7c: ArrayLoad: r1 = r0[0]  ; List_4
     //     0xbbff7c: ldur            w1, [x0, #0x17]
     // 0xbbff80: DecompressPointer r1
@@ -726,8 +726,8 @@ class LeaderboardPreviewPodiumSkeleton extends StatelessWidget {
     //     0xbbf6b4: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xbbf6b8: cmp             SP, x16
     //     0xbbf6bc: b.ls            #0xbbfa44
-    // 0xbbf6c0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbbf6c0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbbf6c0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbbf6c0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbbf6c4: r16 = 0.080000
     //     0xbbf6c4: add             x16, PP, #0x24, lsl #12  ; [pp+0x24f28] 0.08
     //     0xbbf6c8: ldr             x16, [x16, #0xf28]
@@ -743,7 +743,7 @@ class LeaderboardPreviewPodiumSkeleton extends StatelessWidget {
     //     0xbbf6e4: ldr             x1, [x1, #0x260]
     // 0xbbf6e8: stur            x0, [fp, #-8]
     // 0xbbf6ec: r0 = L()
-    //     0xbbf6ec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbbf6ec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbbf6f0: r1 = <Widget>
     //     0xbbf6f0: ldr             x1, [PP, #0x4f10]  ; [pp+0x4f10] TypeArguments: <Widget>
     // 0xbbf6f4: r2 = 0

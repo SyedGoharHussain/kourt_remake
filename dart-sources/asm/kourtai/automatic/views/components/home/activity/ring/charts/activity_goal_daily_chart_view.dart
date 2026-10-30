@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart
+// lib: , url: package:kourtai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart
 
 // class id: 1048800, size: 0x8
 class :: {
@@ -27,7 +27,7 @@ class _BarChart extends StatelessWidget {
     //     0xbb3c28: stur            w0, [x1, #0xf]
     // 0xbb3c2c: mov             x2, x1
     // 0xbb3c30: r1 = Function '<anonymous closure>':.
-    //     0xbb3c30: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4ef00] AnonymousClosure: (0xbb3c60), in [package:ballai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] _BarChart::build (0xbb3c08)
+    //     0xbb3c30: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4ef00] AnonymousClosure: (0xbb3c60), in [package:kourtai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] _BarChart::build (0xbb3c08)
     //     0xbb3c34: ldr             x1, [x1, #0xf00]
     // 0xbb3c38: r0 = AllocateClosure()
     //     0xbb3c38: bl              #0xe553e0  ; AllocateClosureStub
@@ -97,7 +97,7 @@ class _BarChart extends StatelessWidget {
     //     0xbb3ce4: stur            w1, [x3, #0x13]
     // 0xbb3ce8: mov             x2, x3
     // 0xbb3cec: r1 = Function '<anonymous closure>':.
-    //     0xbb3cec: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4ef08] AnonymousClosure: (0xbb50b8), in [package:ballai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] _BarChart::build (0xbb3c08)
+    //     0xbb3cec: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4ef08] AnonymousClosure: (0xbb50b8), in [package:kourtai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] _BarChart::build (0xbb3c08)
     //     0xbb3cf0: ldr             x1, [x1, #0xf08]
     // 0xbb3cf4: r0 = AllocateClosure()
     //     0xbb3cf4: bl              #0xe553e0  ; AllocateClosureStub
@@ -222,8 +222,8 @@ class _BarChart extends StatelessWidget {
     //     0xbb3e54: ldur            w1, [x3, #0xf]
     // 0xbb3e58: DecompressPointer r1
     //     0xbb3e58: add             x1, x1, HEAP, lsl #32
-    // 0xbb3e5c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbb3e5c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbb3e5c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbb3e5c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbb3e60: r16 = 0.350000
     //     0xbb3e60: add             x16, PP, #0x15, lsl #12  ; [pp+0x151b0] 0.35
     //     0xbb3e64: ldr             x16, [x16, #0x1b0]
@@ -752,8 +752,8 @@ class _BarChart extends StatelessWidget {
     //     0xbb43f0: ldur            w1, [x3, #0xf]
     // 0xbb43f4: DecompressPointer r1
     //     0xbb43f4: add             x1, x1, HEAP, lsl #32
-    // 0xbb43f8: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xbb43f8: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xbb43f8: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xbb43f8: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xbb43fc: stur            x0, [fp, #-0x28]
     // 0xbb4400: r0 = Radius()
     //     0xbb4400: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -783,8 +783,8 @@ class _BarChart extends StatelessWidget {
     //     0xbb443c: ldur            w1, [x0, #0xf]
     // 0xbb4440: DecompressPointer r1
     //     0xbb4440: add             x1, x1, HEAP, lsl #32
-    // 0xbb4444: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbb4444: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbb4444: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbb4444: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbb4448: r16 = 0.120000
     //     0xbb4448: add             x16, PP, #0x27, lsl #12  ; [pp+0x27f88] 0.12
     //     0xbb444c: ldr             x16, [x16, #0xf88]
@@ -838,7 +838,7 @@ class _BarChart extends StatelessWidget {
     // 0xbb44cc: b.eq            #0xbb4d44
     // 0xbb44d0: mov             x1, x3
     // 0xbb44d4: r0 = progressString()
-    //     0xbb44d4: bl              #0xbb4f1c  ; [package:ballai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::progressString
+    //     0xbb44d4: bl              #0xbb4f1c  ; [package:kourtai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::progressString
     // 0xbb44d8: r1 = Null
     //     0xbb44d8: mov             x1, NULL
     // 0xbb44dc: r2 = 4
@@ -871,8 +871,8 @@ class _BarChart extends StatelessWidget {
     //     0xbb4520: ldur            w1, [x0, #0xf]
     // 0xbb4524: DecompressPointer r1
     //     0xbb4524: add             x1, x1, HEAP, lsl #32
-    // 0xbb4528: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbb4528: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbb4528: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbb4528: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbb452c: stur            x0, [fp, #-0x30]
     // 0xbb4530: r0 = TextStyle()
     //     0xbb4530: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1062,7 +1062,7 @@ class _BarChart extends StatelessWidget {
     // 0xbb472c: fmul            d2, d0, d3
     // 0xbb4730: mov             v0.16b, v2.16b
     // 0xbb4734: r0 = _tickLabel()
-    //     0xbb4734: bl              #0xbb4d70  ; [package:ballai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] _BarChart::_tickLabel
+    //     0xbb4734: bl              #0xbb4d70  ; [package:kourtai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] _BarChart::_tickLabel
     // 0xbb4738: mov             x2, x0
     // 0xbb473c: ldur            x0, [fp, #-0x10]
     // 0xbb4740: stur            x2, [fp, #-0x30]
@@ -1070,8 +1070,8 @@ class _BarChart extends StatelessWidget {
     //     0xbb4744: ldur            w1, [x0, #0xf]
     // 0xbb4748: DecompressPointer r1
     //     0xbb4748: add             x1, x1, HEAP, lsl #32
-    // 0xbb474c: r0 = BallAiThemeContext.ballAi()
-    //     0xbb474c: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xbb474c: r0 = KourtAiThemeContext.kourtAi()
+    //     0xbb474c: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xbb4750: LoadField: r1 = r0->field_1b
     //     0xbb4750: ldur            w1, [x0, #0x1b]
     // 0xbb4754: DecompressPointer r1
@@ -1338,8 +1338,8 @@ class _BarChart extends StatelessWidget {
     //     0xbb4a00: ldur            w1, [x4, #0xf]
     // 0xbb4a04: DecompressPointer r1
     //     0xbb4a04: add             x1, x1, HEAP, lsl #32
-    // 0xbb4a08: r0 = BallAiThemeContext.ballAi()
-    //     0xbb4a08: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xbb4a08: r0 = KourtAiThemeContext.kourtAi()
+    //     0xbb4a08: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xbb4a0c: LoadField: r1 = r0->field_1b
     //     0xbb4a0c: ldur            w1, [x0, #0x1b]
     // 0xbb4a10: DecompressPointer r1
@@ -1874,8 +1874,8 @@ class _BarChart extends StatelessWidget {
     // 0xbb5110: DecompressPointer r0
     //     0xbb5110: add             x0, x0, HEAP, lsl #32
     // 0xbb5114: mov             x1, x0
-    // 0xbb5118: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbb5118: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbb5118: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbb5118: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbb511c: r16 = 0.080000
     //     0xbb511c: add             x16, PP, #0x24, lsl #12  ; [pp+0x24f28] 0.08
     //     0xbb5120: ldr             x16, [x16, #0xf28]
@@ -2058,8 +2058,8 @@ class _AvgChip extends StatelessWidget {
     //     0xbb3a3c: add             x3, x3, HEAP, lsl #32
     // 0xbb3a40: ldur            x1, [fp, #-0x18]
     // 0xbb3a44: stur            x3, [fp, #-0x20]
-    // 0xbb3a48: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb3a48: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb3a48: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb3a48: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb3a4c: stur            x0, [fp, #-0x18]
     // 0xbb3a50: r0 = TextStyle()
     //     0xbb3a50: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2258,9 +2258,9 @@ class ActivityGoalDailyChartView extends StatelessWidget {
     //     0xbb2a38: b.ls            #0xbb305c
     // 0xbb2a3c: mov             x1, x2
     // 0xbb2a40: r0 = _completeDailyProgress()
-    //     0xbb2a40: bl              #0xbb36a0  ; [package:ballai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] ActivityGoalDailyChartView::_completeDailyProgress
+    //     0xbb2a40: bl              #0xbb36a0  ; [package:kourtai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] ActivityGoalDailyChartView::_completeDailyProgress
     // 0xbb2a44: r1 = Function '<anonymous closure>':.
-    //     0xbb2a44: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a448] AnonymousClosure: (0xbb38dc), in [package:ballai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] ActivityGoalDailyChartView::build (0xbb2a14)
+    //     0xbb2a44: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a448] AnonymousClosure: (0xbb38dc), in [package:kourtai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] ActivityGoalDailyChartView::build (0xbb2a14)
     //     0xbb2a48: ldr             x1, [x1, #0x448]
     // 0xbb2a4c: r2 = Null
     //     0xbb2a4c: mov             x2, NULL
@@ -2334,8 +2334,8 @@ class ActivityGoalDailyChartView extends StatelessWidget {
     // 0xbb2b0c: b               #0xbb2abc
     // 0xbb2b10: ldur            x2, [fp, #-0x18]
     // 0xbb2b14: ldur            x1, [fp, #-0x10]
-    // 0xbb2b18: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xbb2b18: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xbb2b18: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xbb2b18: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xbb2b1c: stur            x0, [fp, #-0x28]
     // 0xbb2b20: r0 = Radius()
     //     0xbb2b20: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -2426,8 +2426,8 @@ class ActivityGoalDailyChartView extends StatelessWidget {
     //     0xbb2c04: blr             lr
     // 0xbb2c08: ldur            x1, [fp, #-0x10]
     // 0xbb2c0c: stur            x0, [fp, #-0x38]
-    // 0xbb2c10: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb2c10: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb2c10: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb2c10: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb2c14: stur            x0, [fp, #-0x48]
     // 0xbb2c18: r0 = TextStyle()
     //     0xbb2c18: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2472,8 +2472,8 @@ class ActivityGoalDailyChartView extends StatelessWidget {
     //     0xbb2c7c: add             x3, x3, HEAP, lsl #32
     // 0xbb2c80: ldur            x1, [fp, #-0x10]
     // 0xbb2c84: stur            x3, [fp, #-0x38]
-    // 0xbb2c88: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbb2c88: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbb2c88: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbb2c88: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbb2c8c: stur            x0, [fp, #-0x10]
     // 0xbb2c90: r0 = TextStyle()
     //     0xbb2c90: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2591,7 +2591,7 @@ class ActivityGoalDailyChartView extends StatelessWidget {
     //     0xbb2da8: stur            w1, [x2, #0xb]
     // 0xbb2dac: ldur            x1, [fp, #-8]
     // 0xbb2db0: r0 = _metricSuffix()
-    //     0xbb2db0: bl              #0xbb358c  ; [package:ballai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] ActivityGoalDailyChartView::_metricSuffix
+    //     0xbb2db0: bl              #0xbb358c  ; [package:kourtai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] ActivityGoalDailyChartView::_metricSuffix
     // 0xbb2db4: stur            x0, [fp, #-0x10]
     // 0xbb2db8: r0 = _BarChart()
     //     0xbb2db8: bl              #0xbb3580  ; Allocate_BarChartStub -> _BarChart (size=0x24)
@@ -2636,11 +2636,11 @@ class ActivityGoalDailyChartView extends StatelessWidget {
     //     0xbb2e20: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a460] "DAILY AVG"
     //     0xbb2e24: ldr             x1, [x1, #0x460]
     // 0xbb2e28: r0 = L()
-    //     0xbb2e28: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb2e28: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb2e2c: ldur            x1, [fp, #-8]
     // 0xbb2e30: stur            x0, [fp, #-0x20]
     // 0xbb2e34: r0 = _dailyAverage()
-    //     0xbb2e34: bl              #0xbb3338  ; [package:ballai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] ActivityGoalDailyChartView::_dailyAverage
+    //     0xbb2e34: bl              #0xbb3338  ; [package:kourtai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] ActivityGoalDailyChartView::_dailyAverage
     // 0xbb2e38: stur            x0, [fp, #-0x40]
     // 0xbb2e3c: r0 = _AvgChip()
     //     0xbb2e3c: bl              #0xbb332c  ; Allocate_AvgChipStub -> _AvgChip (size=0x18)
@@ -2668,11 +2668,11 @@ class ActivityGoalDailyChartView extends StatelessWidget {
     //     0xbb2e78: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a468] "WORKOUT AVG"
     //     0xbb2e7c: ldr             x1, [x1, #0x468]
     // 0xbb2e80: r0 = L()
-    //     0xbb2e80: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb2e80: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb2e84: ldur            x1, [fp, #-8]
     // 0xbb2e88: stur            x0, [fp, #-8]
     // 0xbb2e8c: r0 = _workoutAverage()
-    //     0xbb2e8c: bl              #0xbb306c  ; [package:ballai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] ActivityGoalDailyChartView::_workoutAverage
+    //     0xbb2e8c: bl              #0xbb306c  ; [package:kourtai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] ActivityGoalDailyChartView::_workoutAverage
     // 0xbb2e90: stur            x0, [fp, #-0x40]
     // 0xbb2e94: r0 = _AvgChip()
     //     0xbb2e94: bl              #0xbb332c  ; Allocate_AvgChipStub -> _AvgChip (size=0x18)
@@ -2880,7 +2880,7 @@ class ActivityGoalDailyChartView extends StatelessWidget {
     //     0xbb3090: add             x3, x3, HEAP, lsl #32
     // 0xbb3094: stur            x3, [fp, #-8]
     // 0xbb3098: r1 = Function '<anonymous closure>':.
-    //     0xbb3098: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a470] AnonymousClosure: (0xbb32cc), in [package:ballai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] ActivityGoalDailyChartView::_workoutAverage (0xbb306c)
+    //     0xbb3098: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a470] AnonymousClosure: (0xbb32cc), in [package:kourtai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] ActivityGoalDailyChartView::_workoutAverage (0xbb306c)
     //     0xbb309c: ldr             x1, [x1, #0x470]
     // 0xbb30a0: r2 = Null
     //     0xbb30a0: mov             x2, NULL
@@ -2929,7 +2929,7 @@ class ActivityGoalDailyChartView extends StatelessWidget {
     // 0xbb3110: b.le            #0xbb3120
     // 0xbb3114: mov             v0.16b, v3.16b
     // 0xbb3118: r0 = _formatNumber()
-    //     0xbb3118: bl              #0xbb313c  ; [package:ballai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] ActivityGoalDailyChartView::_formatNumber
+    //     0xbb3118: bl              #0xbb313c  ; [package:kourtai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] ActivityGoalDailyChartView::_formatNumber
     // 0xbb311c: b               #0xbb3128
     // 0xbb3120: r0 = "--"
     //     0xbb3120: add             x0, PP, #0x30, lsl #12  ; [pp+0x30388] "--"
@@ -3145,7 +3145,7 @@ class ActivityGoalDailyChartView extends StatelessWidget {
     //     0xbb335c: add             x3, x3, HEAP, lsl #32
     // 0xbb3360: stur            x3, [fp, #-8]
     // 0xbb3364: r1 = Function '<anonymous closure>':.
-    //     0xbb3364: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a478] AnonymousClosure: (0xbb32cc), in [package:ballai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] ActivityGoalDailyChartView::_workoutAverage (0xbb306c)
+    //     0xbb3364: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a478] AnonymousClosure: (0xbb32cc), in [package:kourtai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] ActivityGoalDailyChartView::_workoutAverage (0xbb306c)
     //     0xbb3368: ldr             x1, [x1, #0x478]
     // 0xbb336c: r2 = Null
     //     0xbb336c: mov             x2, NULL
@@ -3170,7 +3170,7 @@ class ActivityGoalDailyChartView extends StatelessWidget {
     // 0xbb33a0: DecompressPointer r1
     //     0xbb33a0: add             x1, x1, HEAP, lsl #32
     // 0xbb33a4: r0 = daysCountForAverage()
-    //     0xbb33a4: bl              #0xbb3408  ; [package:ballai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::daysCountForAverage
+    //     0xbb33a4: bl              #0xbb3408  ; [package:kourtai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::daysCountForAverage
     // 0xbb33a8: cmp             x0, #0
     // 0xbb33ac: b.gt            #0xbb33c4
     // 0xbb33b0: r0 = "--"
@@ -3192,7 +3192,7 @@ class ActivityGoalDailyChartView extends StatelessWidget {
     // 0xbb33dc: b.le            #0xbb33ec
     // 0xbb33e0: mov             v0.16b, v3.16b
     // 0xbb33e4: r0 = _formatNumber()
-    //     0xbb33e4: bl              #0xbb313c  ; [package:ballai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] ActivityGoalDailyChartView::_formatNumber
+    //     0xbb33e4: bl              #0xbb313c  ; [package:kourtai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] ActivityGoalDailyChartView::_formatNumber
     // 0xbb33e8: b               #0xbb33f4
     // 0xbb33ec: r0 = "--"
     //     0xbb33ec: add             x0, PP, #0x30, lsl #12  ; [pp+0x30388] "--"
@@ -3370,9 +3370,9 @@ class ActivityGoalDailyChartView extends StatelessWidget {
     //     0xbb373c: blr             lr
     // 0xbb3740: cbnz            w0, #0xbb3794
     // 0xbb3744: r0 = _fallbackDays()
-    //     0xbb3744: bl              #0xbb37ac  ; [package:ballai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] ActivityGoalDailyChartView::_fallbackDays
+    //     0xbb3744: bl              #0xbb37ac  ; [package:kourtai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] ActivityGoalDailyChartView::_fallbackDays
     // 0xbb3748: r1 = Function '<anonymous closure>':.
-    //     0xbb3748: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a488] AnonymousClosure: (0xbb38ac), in [package:ballai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] ActivityGoalDailyChartView::_completeDailyProgress (0xbb36a0)
+    //     0xbb3748: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a488] AnonymousClosure: (0xbb38ac), in [package:kourtai/automatic/views/components/home/activity/ring/charts/activity_goal_daily_chart_view.dart] ActivityGoalDailyChartView::_completeDailyProgress (0xbb36a0)
     //     0xbb374c: ldr             x1, [x1, #0x488]
     // 0xbb3750: r2 = Null
     //     0xbb3750: mov             x2, NULL
@@ -3426,43 +3426,43 @@ class ActivityGoalDailyChartView extends StatelessWidget {
     //     0xbb37c4: add             x1, PP, #0x37, lsl #12  ; [pp+0x37618] "Sun"
     //     0xbb37c8: ldr             x1, [x1, #0x618]
     // 0xbb37cc: r0 = L()
-    //     0xbb37cc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb37cc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb37d0: r1 = "Mon"
     //     0xbb37d0: add             x1, PP, #0x37, lsl #12  ; [pp+0x375e8] "Mon"
     //     0xbb37d4: ldr             x1, [x1, #0x5e8]
     // 0xbb37d8: stur            x0, [fp, #-8]
     // 0xbb37dc: r0 = L()
-    //     0xbb37dc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb37dc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb37e0: r1 = "Tue"
     //     0xbb37e0: add             x1, PP, #0x37, lsl #12  ; [pp+0x375f0] "Tue"
     //     0xbb37e4: ldr             x1, [x1, #0x5f0]
     // 0xbb37e8: stur            x0, [fp, #-0x10]
     // 0xbb37ec: r0 = L()
-    //     0xbb37ec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb37ec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb37f0: r1 = "Wed"
     //     0xbb37f0: add             x1, PP, #0x37, lsl #12  ; [pp+0x375f8] "Wed"
     //     0xbb37f4: ldr             x1, [x1, #0x5f8]
     // 0xbb37f8: stur            x0, [fp, #-0x18]
     // 0xbb37fc: r0 = L()
-    //     0xbb37fc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb37fc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb3800: r1 = "Thu"
     //     0xbb3800: add             x1, PP, #0x37, lsl #12  ; [pp+0x37600] "Thu"
     //     0xbb3804: ldr             x1, [x1, #0x600]
     // 0xbb3808: stur            x0, [fp, #-0x20]
     // 0xbb380c: r0 = L()
-    //     0xbb380c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb380c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb3810: r1 = "Fri"
     //     0xbb3810: add             x1, PP, #0x37, lsl #12  ; [pp+0x37608] "Fri"
     //     0xbb3814: ldr             x1, [x1, #0x608]
     // 0xbb3818: stur            x0, [fp, #-0x28]
     // 0xbb381c: r0 = L()
-    //     0xbb381c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb381c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb3820: r1 = "Sat"
     //     0xbb3820: add             x1, PP, #0x37, lsl #12  ; [pp+0x37610] "Sat"
     //     0xbb3824: ldr             x1, [x1, #0x610]
     // 0xbb3828: stur            x0, [fp, #-0x30]
     // 0xbb382c: r0 = L()
-    //     0xbb382c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb382c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb3830: r1 = Null
     //     0xbb3830: mov             x1, NULL
     // 0xbb3834: r2 = 14

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart
+// lib: , url: package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart
 
 // class id: 1048764, size: 0x8
 class :: {
@@ -552,7 +552,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0x95537c: mov             x2, x3
     // 0x955380: stur            x0, [fp, #-0x10]
     // 0x955384: r1 = Function '_notify@956287016':.
-    //     0x955384: add             x1, PP, #0x45, lsl #12  ; [pp+0x45800] AnonymousClosure: (0x955ca0), of [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel
+    //     0x955384: add             x1, PP, #0x45, lsl #12  ; [pp+0x45800] AnonymousClosure: (0x955ca0), of [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel
     //     0x955388: ldr             x1, [x1, #0x800]
     // 0x95538c: r0 = AllocateClosure()
     //     0x95538c: bl              #0xe553e0  ; AllocateClosureStub
@@ -577,7 +577,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0x9553c0: mov             x2, x0
     // 0x9553c4: stur            x3, [fp, #-0x18]
     // 0x9553c8: r1 = Function '_onBallTagChanged@956287016':.
-    //     0x9553c8: add             x1, PP, #0x45, lsl #12  ; [pp+0x45808] AnonymousClosure: (0x955a0c), in [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_onBallTagChanged (0x955a44)
+    //     0x9553c8: add             x1, PP, #0x45, lsl #12  ; [pp+0x45808] AnonymousClosure: (0x955a0c), in [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_onBallTagChanged (0x955a44)
     //     0x9553cc: ldr             x1, [x1, #0x808]
     // 0x9553d0: r0 = AllocateClosure()
     //     0x9553d0: bl              #0xe553e0  ; AllocateClosureStub
@@ -593,7 +593,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0x9553ec: mov             x2, x0
     // 0x9553f0: stur            x3, [fp, #-0x18]
     // 0x9553f4: r1 = Function '_onBioChanged@956287016':.
-    //     0x9553f4: add             x1, PP, #0x45, lsl #12  ; [pp+0x45810] AnonymousClosure: (0x9558d4), in [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_onBioChanged (0x95590c)
+    //     0x9553f4: add             x1, PP, #0x45, lsl #12  ; [pp+0x45810] AnonymousClosure: (0x9558d4), in [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_onBioChanged (0x95590c)
     //     0x9553f8: ldr             x1, [x1, #0x810]
     // 0x9553fc: r0 = AllocateClosure()
     //     0x9553fc: bl              #0xe553e0  ; AllocateClosureStub
@@ -609,7 +609,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0x955418: mov             x2, x0
     // 0x95541c: stur            x3, [fp, #-0x18]
     // 0x955420: r1 = Function '_onLocationChanged@956287016':.
-    //     0x955420: add             x1, PP, #0x45, lsl #12  ; [pp+0x45818] AnonymousClosure: (0x95579c), in [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_onLocationChanged (0x9557d4)
+    //     0x955420: add             x1, PP, #0x45, lsl #12  ; [pp+0x45818] AnonymousClosure: (0x95579c), in [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_onLocationChanged (0x9557d4)
     //     0x955424: ldr             x1, [x1, #0x818]
     // 0x955428: r0 = AllocateClosure()
     //     0x955428: bl              #0xe553e0  ; AllocateClosureStub
@@ -619,7 +619,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0x955434: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0x955438: ldur            x1, [fp, #-8]
     // 0x95543c: r0 = _socialControllers()
-    //     0x95543c: bl              #0x9555f0  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_socialControllers
+    //     0x95543c: bl              #0x9555f0  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_socialControllers
     // 0x955440: stur            x0, [fp, #-8]
     // 0x955444: LoadField: r1 = r0->field_b
     //     0x955444: ldur            w1, [x0, #0xb]
@@ -959,7 +959,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0x9557b4: cmp             SP, x16
     //     0x9557b8: b.ls            #0x9557cc
     // 0x9557bc: r0 = _onLocationChanged()
-    //     0x9557bc: bl              #0x9557d4  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_onLocationChanged
+    //     0x9557bc: bl              #0x9557d4  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_onLocationChanged
     // 0x9557c0: LeaveFrame
     //     0x9557c0: mov             SP, fp
     //     0x9557c4: ldp             fp, lr, [SP], #0x10
@@ -1093,7 +1093,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0x9558ec: cmp             SP, x16
     //     0x9558f0: b.ls            #0x955904
     // 0x9558f4: r0 = _onBioChanged()
-    //     0x9558f4: bl              #0x95590c  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_onBioChanged
+    //     0x9558f4: bl              #0x95590c  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_onBioChanged
     // 0x9558f8: LeaveFrame
     //     0x9558f8: mov             SP, fp
     //     0x9558fc: ldp             fp, lr, [SP], #0x10
@@ -1227,7 +1227,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0x955a24: cmp             SP, x16
     //     0x955a28: b.ls            #0x955a3c
     // 0x955a2c: r0 = _onBallTagChanged()
-    //     0x955a2c: bl              #0x955a44  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_onBallTagChanged
+    //     0x955a2c: bl              #0x955a44  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_onBallTagChanged
     // 0x955a30: LeaveFrame
     //     0x955a30: mov             SP, fp
     //     0x955a34: ldp             fp, lr, [SP], #0x10
@@ -1268,7 +1268,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0x955a84: DecompressPointer r1
     //     0x955a84: add             x1, x1, HEAP, lsl #32
     // 0x955a88: r0 = normalized()
-    //     0x955a88: bl              #0x955b88  ; [package:ballai/automatic/validation/ball_tag_validator.dart] BallTagValidator::normalized
+    //     0x955a88: bl              #0x955b88  ; [package:kourtai/automatic/validation/ball_tag_validator.dart] BallTagValidator::normalized
     // 0x955a8c: mov             x2, x0
     // 0x955a90: ldur            x1, [fp, #-8]
     // 0x955a94: stur            x2, [fp, #-0x10]
@@ -1402,7 +1402,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0x9b5b20: mov             fp, SP
     // 0x9b5b24: ldr             x2, [fp, #0x10]
     // 0x9b5b28: r1 = Function 'dispose':.
-    //     0x9b5b28: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a568] AnonymousClosure: (0x9b5b40), in [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::dispose (0x9bdea4)
+    //     0x9b5b28: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a568] AnonymousClosure: (0x9b5b40), in [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::dispose (0x9bdea4)
     //     0x9b5b2c: ldr             x1, [x1, #0x568]
     // 0x9b5b30: r0 = AllocateClosure()
     //     0x9b5b30: bl              #0xe553e0  ; AllocateClosureStub
@@ -1427,7 +1427,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0x9b5b58: cmp             SP, x16
     //     0x9b5b5c: b.ls            #0x9b5b70
     // 0x9b5b60: r0 = dispose()
-    //     0x9b5b60: bl              #0x9bdea4  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::dispose
+    //     0x9b5b60: bl              #0x9bdea4  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::dispose
     // 0x9b5b64: LeaveFrame
     //     0x9b5b64: mov             SP, fp
     //     0x9b5b68: ldp             fp, lr, [SP], #0x10
@@ -1462,7 +1462,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0x9bded8: mov             x2, x0
     // 0x9bdedc: stur            x3, [fp, #-8]
     // 0x9bdee0: r1 = Function '_notify@956287016':.
-    //     0x9bdee0: add             x1, PP, #0x45, lsl #12  ; [pp+0x45800] AnonymousClosure: (0x955ca0), of [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel
+    //     0x9bdee0: add             x1, PP, #0x45, lsl #12  ; [pp+0x45800] AnonymousClosure: (0x955ca0), of [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel
     //     0x9bdee4: ldr             x1, [x1, #0x800]
     // 0x9bdee8: r0 = AllocateClosure()
     //     0x9bdee8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1495,7 +1495,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0x9bdf34: mov             x2, x0
     // 0x9bdf38: stur            x3, [fp, #-0x18]
     // 0x9bdf3c: r1 = Function '_onBallTagChanged@956287016':.
-    //     0x9bdf3c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45808] AnonymousClosure: (0x955a0c), in [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_onBallTagChanged (0x955a44)
+    //     0x9bdf3c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45808] AnonymousClosure: (0x955a0c), in [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_onBallTagChanged (0x955a44)
     //     0x9bdf40: ldr             x1, [x1, #0x808]
     // 0x9bdf44: r0 = AllocateClosure()
     //     0x9bdf44: bl              #0xe553e0  ; AllocateClosureStub
@@ -1515,7 +1515,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0x9bdf6c: mov             x2, x0
     // 0x9bdf70: stur            x3, [fp, #-0x18]
     // 0x9bdf74: r1 = Function '_onBioChanged@956287016':.
-    //     0x9bdf74: add             x1, PP, #0x45, lsl #12  ; [pp+0x45810] AnonymousClosure: (0x9558d4), in [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_onBioChanged (0x95590c)
+    //     0x9bdf74: add             x1, PP, #0x45, lsl #12  ; [pp+0x45810] AnonymousClosure: (0x9558d4), in [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_onBioChanged (0x95590c)
     //     0x9bdf78: ldr             x1, [x1, #0x810]
     // 0x9bdf7c: r0 = AllocateClosure()
     //     0x9bdf7c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1535,7 +1535,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0x9bdfa4: mov             x2, x0
     // 0x9bdfa8: stur            x3, [fp, #-0x18]
     // 0x9bdfac: r1 = Function '_onLocationChanged@956287016':.
-    //     0x9bdfac: add             x1, PP, #0x45, lsl #12  ; [pp+0x45818] AnonymousClosure: (0x95579c), in [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_onLocationChanged (0x9557d4)
+    //     0x9bdfac: add             x1, PP, #0x45, lsl #12  ; [pp+0x45818] AnonymousClosure: (0x95579c), in [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_onLocationChanged (0x9557d4)
     //     0x9bdfb0: ldr             x1, [x1, #0x818]
     // 0x9bdfb4: r0 = AllocateClosure()
     //     0x9bdfb4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1545,7 +1545,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0x9bdfc0: bl              #0x8d74f0  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::removeListener
     // 0x9bdfc4: ldur            x1, [fp, #-0x10]
     // 0x9bdfc8: r0 = _socialControllers()
-    //     0x9bdfc8: bl              #0x9555f0  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_socialControllers
+    //     0x9bdfc8: bl              #0x9555f0  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_socialControllers
     // 0x9bdfcc: stur            x0, [fp, #-0x18]
     // 0x9bdfd0: LoadField: r1 = r0->field_b
     //     0x9bdfd0: ldur            w1, [x0, #0xb]
@@ -1918,7 +1918,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0x9c13a0: DecompressPointer r1
     //     0x9c13a0: add             x1, x1, HEAP, lsl #32
     // 0x9c13a4: r0 = parseStored()
-    //     0x9c13a4: bl              #0x9c46a4  ; [package:ballai/automatic/utility/phone/phone_number_support.dart] PhoneNumberSupport::parseStored
+    //     0x9c13a4: bl              #0x9c46a4  ; [package:kourtai/automatic/utility/phone/phone_number_support.dart] PhoneNumberSupport::parseStored
     // 0x9c13a8: mov             x1, x0
     // 0x9c13ac: LoadField: r0 = r1->field_7
     //     0x9c13ac: ldur            w0, [x1, #7]
@@ -2125,7 +2125,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0x9c15ec: StoreField: r3->field_67 = r4
     //     0x9c15ec: stur            x4, [x3, #0x67]
     // 0x9c15f0: r0 = _inchesToCm()
-    //     0x9c15f0: bl              #0x9c4600  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_inchesToCm
+    //     0x9c15f0: bl              #0x9c4600  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_inchesToCm
     // 0x9c15f4: cmp             x0, #0x64
     // 0x9c15f8: b.ge            #0x9c1604
     // 0x9c15fc: r1 = 100
@@ -2159,7 +2159,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0x9c1644: cmp             x1, #0
     // 0x9c1648: b.le            #0x9c1658
     // 0x9c164c: r0 = _lbsToKg()
-    //     0x9c164c: bl              #0x9c455c  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_lbsToKg
+    //     0x9c164c: bl              #0x9c455c  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_lbsToKg
     // 0x9c1650: mov             x1, x0
     // 0x9c1654: b               #0x9c165c
     // 0x9c1658: r1 = 0
@@ -2173,7 +2173,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0x9c166c: DecompressPointer r1
     //     0x9c166c: add             x1, x1, HEAP, lsl #32
     // 0x9c1670: r0 = useMetricFor()
-    //     0x9c1670: bl              #0x9c4498  ; [package:ballai/automatic/utility/defaults/defaultsstorage/defaults_profile_measurement_units.dart] DefaultsProfileMeasurementUnits::useMetricFor
+    //     0x9c1670: bl              #0x9c4498  ; [package:kourtai/automatic/utility/defaults/defaultsstorage/defaults_profile_measurement_units.dart] DefaultsProfileMeasurementUnits::useMetricFor
     // 0x9c1674: mov             x1, x0
     // 0x9c1678: stur            x1, [fp, #-0x20]
     // 0x9c167c: r0 = Await()
@@ -2188,7 +2188,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0x9c1694: DecompressPointer r1
     //     0x9c1694: add             x1, x1, HEAP, lsl #32
     // 0x9c1698: r0 = _mapPositionAbbreviation()
-    //     0x9c1698: bl              #0x9c4098  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_mapPositionAbbreviation
+    //     0x9c1698: bl              #0x9c4098  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_mapPositionAbbreviation
     // 0x9c169c: ldur            x2, [fp, #-0x10]
     // 0x9c16a0: StoreField: r2->field_8f = r0
     //     0x9c16a0: stur            w0, [x2, #0x8f]
@@ -2204,7 +2204,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0x9c16c4: DecompressPointer r1
     //     0x9c16c4: add             x1, x1, HEAP, lsl #32
     // 0x9c16c8: r0 = _coerceLevelOfPlay()
-    //     0x9c16c8: bl              #0x9c4018  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_coerceLevelOfPlay
+    //     0x9c16c8: bl              #0x9c4018  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_coerceLevelOfPlay
     // 0x9c16cc: ldur            x2, [fp, #-0x10]
     // 0x9c16d0: StoreField: r2->field_93 = r0
     //     0x9c16d0: stur            w0, [x2, #0x93]
@@ -2220,7 +2220,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0x9c16f4: DecompressPointer r1
     //     0x9c16f4: add             x1, x1, HEAP, lsl #32
     // 0x9c16f8: r0 = _mapShootingHandAbbreviation()
-    //     0x9c16f8: bl              #0x9c3e90  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_mapShootingHandAbbreviation
+    //     0x9c16f8: bl              #0x9c3e90  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_mapShootingHandAbbreviation
     // 0x9c16fc: ldur            x2, [fp, #-0x10]
     // 0x9c1700: StoreField: r2->field_97 = r0
     //     0x9c1700: stur            w0, [x2, #0x97]
@@ -2236,7 +2236,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0x9c1724: DecompressPointer r1
     //     0x9c1724: add             x1, x1, HEAP, lsl #32
     // 0x9c1728: r0 = _normalizedProfileVisibility()
-    //     0x9c1728: bl              #0x9c3dc0  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_normalizedProfileVisibility
+    //     0x9c1728: bl              #0x9c3dc0  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_normalizedProfileVisibility
     // 0x9c172c: ldur            x3, [fp, #-0x10]
     // 0x9c1730: StoreField: r3->field_9b = r0
     //     0x9c1730: stur            w0, [x3, #0x9b]
@@ -2264,7 +2264,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0x9c1770: add             x2, PP, #0x27, lsl #12  ; [pp+0x27810] Obj!SocialPlatform@d3ace1
     //     0x9c1774: ldr             x2, [x2, #0x810]
     // 0x9c1778: r0 = editingText()
-    //     0x9c1778: bl              #0x9c1a08  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::editingText
+    //     0x9c1778: bl              #0x9c1a08  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::editingText
     // 0x9c177c: ldur            x1, [fp, #-0x20]
     // 0x9c1780: mov             x2, x0
     // 0x9c1784: r0 = text=()
@@ -2288,7 +2288,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0x9c17b0: add             x2, PP, #0x45, lsl #12  ; [pp+0x45240] Obj!SocialPlatform@d3acc1
     //     0x9c17b4: ldr             x2, [x2, #0x240]
     // 0x9c17b8: r0 = editingText()
-    //     0x9c17b8: bl              #0x9c1a08  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::editingText
+    //     0x9c17b8: bl              #0x9c1a08  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::editingText
     // 0x9c17bc: ldur            x1, [fp, #-0x20]
     // 0x9c17c0: mov             x2, x0
     // 0x9c17c4: r0 = text=()
@@ -2312,7 +2312,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0x9c17f0: add             x2, PP, #0x27, lsl #12  ; [pp+0x277f8] Obj!SocialPlatform@d3aca1
     //     0x9c17f4: ldr             x2, [x2, #0x7f8]
     // 0x9c17f8: r0 = editingText()
-    //     0x9c17f8: bl              #0x9c1a08  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::editingText
+    //     0x9c17f8: bl              #0x9c1a08  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::editingText
     // 0x9c17fc: ldur            x1, [fp, #-0x20]
     // 0x9c1800: mov             x2, x0
     // 0x9c1804: r0 = text=()
@@ -2336,7 +2336,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0x9c1830: add             x2, PP, #0x27, lsl #12  ; [pp+0x27800] Obj!SocialPlatform@d3ac81
     //     0x9c1834: ldr             x2, [x2, #0x800]
     // 0x9c1838: r0 = editingText()
-    //     0x9c1838: bl              #0x9c1a08  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::editingText
+    //     0x9c1838: bl              #0x9c1a08  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::editingText
     // 0x9c183c: ldur            x1, [fp, #-0x20]
     // 0x9c1840: mov             x2, x0
     // 0x9c1844: r0 = text=()
@@ -2360,7 +2360,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0x9c1870: add             x2, PP, #0x45, lsl #12  ; [pp+0x45248] Obj!SocialPlatform@d3ac61
     //     0x9c1874: ldr             x2, [x2, #0x248]
     // 0x9c1878: r0 = editingText()
-    //     0x9c1878: bl              #0x9c1a08  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::editingText
+    //     0x9c1878: bl              #0x9c1a08  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::editingText
     // 0x9c187c: ldur            x1, [fp, #-0x20]
     // 0x9c1880: mov             x2, x0
     // 0x9c1884: r0 = text=()
@@ -2384,7 +2384,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0x9c18b0: add             x2, PP, #0x45, lsl #12  ; [pp+0x45250] Obj!SocialPlatform@d3ac41
     //     0x9c18b4: ldr             x2, [x2, #0x250]
     // 0x9c18b8: r0 = editingText()
-    //     0x9c18b8: bl              #0x9c1a08  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::editingText
+    //     0x9c18b8: bl              #0x9c1a08  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::editingText
     // 0x9c18bc: ldur            x1, [fp, #-0x20]
     // 0x9c18c0: mov             x2, x0
     // 0x9c18c4: r0 = text=()
@@ -2408,7 +2408,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0x9c18f0: add             x2, PP, #0x45, lsl #12  ; [pp+0x45258] Obj!SocialPlatform@d3ac21
     //     0x9c18f4: ldr             x2, [x2, #0x258]
     // 0x9c18f8: r0 = editingText()
-    //     0x9c18f8: bl              #0x9c1a08  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::editingText
+    //     0x9c18f8: bl              #0x9c1a08  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::editingText
     // 0x9c18fc: ldur            x1, [fp, #-0x20]
     // 0x9c1900: mov             x2, x0
     // 0x9c1904: r0 = text=()
@@ -2433,7 +2433,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0x9c1934: add             x2, PP, #0x27, lsl #12  ; [pp+0x27818] Obj!SocialPlatform@d3ac01
     //     0x9c1938: ldr             x2, [x2, #0x818]
     // 0x9c193c: r0 = editingText()
-    //     0x9c193c: bl              #0x9c1a08  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::editingText
+    //     0x9c193c: bl              #0x9c1a08  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::editingText
     // 0x9c1940: ldur            x1, [fp, #-0x20]
     // 0x9c1944: mov             x2, x0
     // 0x9c1948: r0 = text=()
@@ -2835,7 +2835,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0x9c414c: b               #0x9c40f4
     // 0x9c4150: ldur            x1, [fp, #-0x10]
     // 0x9c4154: r0 = positionAbbreviation()
-    //     0x9c4154: bl              #0x9c428c  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::positionAbbreviation
+    //     0x9c4154: bl              #0x9c428c  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::positionAbbreviation
     // 0x9c4158: LeaveFrame
     //     0x9c4158: mov             SP, fp
     //     0x9c415c: ldp             fp, lr, [SP], #0x10
@@ -2890,7 +2890,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0x9c41e4: ldr             lr, [x21, lr, lsl #3]
     //     0x9c41e8: blr             lr
     // 0x9c41ec: r1 = Function '<anonymous closure>': static.
-    //     0x9c41ec: add             x1, PP, #0x45, lsl #12  ; [pp+0x452b0] AnonymousClosure: static (0x9c4344), in [package:ballai/automatic/views/components/home/account/profile/profile_button_view.dart] ProfileButtonView::abbreviation (0x9c43a8)
+    //     0x9c41ec: add             x1, PP, #0x45, lsl #12  ; [pp+0x452b0] AnonymousClosure: static (0x9c4344), in [package:kourtai/automatic/views/components/home/account/profile/profile_button_view.dart] ProfileButtonView::abbreviation (0x9c43a8)
     //     0x9c41f0: ldr             x1, [x1, #0x2b0]
     // 0x9c41f4: r2 = Null
     //     0x9c41f4: mov             x2, NULL
@@ -2990,7 +2990,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0x9c42f0: ldr             lr, [x21, lr, lsl #3]
     //     0x9c42f4: blr             lr
     // 0x9c42f8: r1 = Function '<anonymous closure>': static.
-    //     0x9c42f8: add             x1, PP, #0x45, lsl #12  ; [pp+0x452b0] AnonymousClosure: static (0x9c4344), in [package:ballai/automatic/views/components/home/account/profile/profile_button_view.dart] ProfileButtonView::abbreviation (0x9c43a8)
+    //     0x9c42f8: add             x1, PP, #0x45, lsl #12  ; [pp+0x452b0] AnonymousClosure: static (0x9c4344), in [package:kourtai/automatic/views/components/home/account/profile/profile_button_view.dart] ProfileButtonView::abbreviation (0x9c43a8)
     //     0x9c42fc: ldr             x1, [x1, #0x2b0]
     // 0x9c4300: r2 = Null
     //     0x9c4300: mov             x2, NULL
@@ -3253,7 +3253,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa15bc8: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xa15bcc: mov             x1, x0
     // 0xa15bd0: r0 = firstInvalidSocialPlatform()
-    //     0xa15bd0: bl              #0xa22bdc  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::firstInvalidSocialPlatform
+    //     0xa15bd0: bl              #0xa22bdc  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::firstInvalidSocialPlatform
     // 0xa15bd4: r17 = -576
     //     0xa15bd4: mov             x17, #-0x240
     // 0xa15bd8: str             x0, [fp, x17]
@@ -3281,7 +3281,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa15c10: mov             x17, #-0x240
     // 0xa15c14: str             x0, [fp, x17]
     // 0xa15c18: r0 = invalidMessage()
-    //     0xa15c18: bl              #0xa229a8  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialPlatform::invalidMessage
+    //     0xa15c18: bl              #0xa229a8  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialPlatform::invalidMessage
     // 0xa15c1c: r17 = -592
     //     0xa15c1c: mov             x17, #-0x250
     // 0xa15c20: str             x0, [fp, x17]
@@ -3379,7 +3379,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa15d04: mov             x17, #-0x240
     // 0xa15d08: str             x0, [fp, x17]
     // 0xa15d0c: r0 = L()
-    //     0xa15d0c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa15d0c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa15d10: r17 = -592
     //     0xa15d10: mov             x17, #-0x250
     // 0xa15d14: str             x0, [fp, x17]
@@ -3464,7 +3464,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0xa15dd8: DecompressPointer r1
     //     0xa15dd8: add             x1, x1, HEAP, lsl #32
     // 0xa15ddc: r0 = normalized()
-    //     0xa15ddc: bl              #0x955b88  ; [package:ballai/automatic/validation/ball_tag_validator.dart] BallTagValidator::normalized
+    //     0xa15ddc: bl              #0x955b88  ; [package:kourtai/automatic/validation/ball_tag_validator.dart] BallTagValidator::normalized
     // 0xa15de0: mov             x2, x0
     // 0xa15de4: r17 = -608
     //     0xa15de4: mov             x17, #-0x260
@@ -3487,7 +3487,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa15e14: mov             x17, #-0x240
     // 0xa15e18: str             x3, [fp, x17]
     // 0xa15e1c: r0 = normalized()
-    //     0xa15e1c: bl              #0x955b88  ; [package:ballai/automatic/validation/ball_tag_validator.dart] BallTagValidator::normalized
+    //     0xa15e1c: bl              #0x955b88  ; [package:kourtai/automatic/validation/ball_tag_validator.dart] BallTagValidator::normalized
     // 0xa15e20: mov             x1, x0
     // 0xa15e24: r17 = -592
     //     0xa15e24: mov             x17, #-0x250
@@ -3523,7 +3523,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa15e78: mov             x17, #-0x250
     // 0xa15e7c: ldr             x2, [fp, x17]
     // 0xa15e80: r0 = isBallTagAvailable()
-    //     0xa15e80: bl              #0xa22858  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isBallTagAvailable
+    //     0xa15e80: bl              #0xa22858  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isBallTagAvailable
     // 0xa15e84: mov             x1, x0
     // 0xa15e88: r17 = -600
     //     0xa15e88: mov             x17, #-0x258
@@ -3561,7 +3561,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa15ed8: mov             x17, #-0x270
     // 0xa15edc: str             x0, [fp, x17]
     // 0xa15ee0: r0 = L()
-    //     0xa15ee0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa15ee0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa15ee4: r17 = -624
     //     0xa15ee4: mov             x17, #-0x270
     // 0xa15ee8: ldr             x1, [fp, x17]
@@ -3658,7 +3658,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa15fd8: mov             x17, #-0x280
     // 0xa15fdc: str             x0, [fp, x17]
     // 0xa15fe0: r0 = userFacingError()
-    //     0xa15fe0: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0xa15fe0: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0xa15fe4: r17 = -640
     //     0xa15fe4: mov             x17, #-0x280
     // 0xa15fe8: ldr             x1, [fp, x17]
@@ -3735,7 +3735,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa1609c: add             x2, PP, #0x27, lsl #12  ; [pp+0x27810] Obj!SocialPlatform@d3ace1
     //     0xa160a0: ldr             x2, [x2, #0x810]
     // 0xa160a4: r0 = normalizedLink()
-    //     0xa160a4: bl              #0x9c1ca4  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
+    //     0xa160a4: bl              #0x9c1ca4  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
     // 0xa160a8: mov             x3, x0
     // 0xa160ac: r17 = -568
     //     0xa160ac: mov             x17, #-0x238
@@ -3763,7 +3763,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa160e0: add             x2, PP, #0x45, lsl #12  ; [pp+0x45240] Obj!SocialPlatform@d3acc1
     //     0xa160e4: ldr             x2, [x2, #0x240]
     // 0xa160e8: r0 = normalizedLink()
-    //     0xa160e8: bl              #0x9c1ca4  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
+    //     0xa160e8: bl              #0x9c1ca4  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
     // 0xa160ec: mov             x3, x0
     // 0xa160f0: r17 = -568
     //     0xa160f0: mov             x17, #-0x238
@@ -3791,7 +3791,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa16124: add             x2, PP, #0x27, lsl #12  ; [pp+0x277f8] Obj!SocialPlatform@d3aca1
     //     0xa16128: ldr             x2, [x2, #0x7f8]
     // 0xa1612c: r0 = normalizedLink()
-    //     0xa1612c: bl              #0x9c1ca4  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
+    //     0xa1612c: bl              #0x9c1ca4  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
     // 0xa16130: mov             x3, x0
     // 0xa16134: r17 = -568
     //     0xa16134: mov             x17, #-0x238
@@ -3819,7 +3819,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa16168: add             x2, PP, #0x27, lsl #12  ; [pp+0x27800] Obj!SocialPlatform@d3ac81
     //     0xa1616c: ldr             x2, [x2, #0x800]
     // 0xa16170: r0 = normalizedLink()
-    //     0xa16170: bl              #0x9c1ca4  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
+    //     0xa16170: bl              #0x9c1ca4  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
     // 0xa16174: mov             x3, x0
     // 0xa16178: r17 = -568
     //     0xa16178: mov             x17, #-0x238
@@ -3847,7 +3847,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa161ac: add             x2, PP, #0x45, lsl #12  ; [pp+0x45248] Obj!SocialPlatform@d3ac61
     //     0xa161b0: ldr             x2, [x2, #0x248]
     // 0xa161b4: r0 = normalizedLink()
-    //     0xa161b4: bl              #0x9c1ca4  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
+    //     0xa161b4: bl              #0x9c1ca4  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
     // 0xa161b8: mov             x3, x0
     // 0xa161bc: r17 = -568
     //     0xa161bc: mov             x17, #-0x238
@@ -3875,7 +3875,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa161f0: add             x2, PP, #0x45, lsl #12  ; [pp+0x45250] Obj!SocialPlatform@d3ac41
     //     0xa161f4: ldr             x2, [x2, #0x250]
     // 0xa161f8: r0 = normalizedLink()
-    //     0xa161f8: bl              #0x9c1ca4  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
+    //     0xa161f8: bl              #0x9c1ca4  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
     // 0xa161fc: mov             x3, x0
     // 0xa16200: r17 = -568
     //     0xa16200: mov             x17, #-0x238
@@ -3903,7 +3903,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa16234: add             x2, PP, #0x45, lsl #12  ; [pp+0x45258] Obj!SocialPlatform@d3ac21
     //     0xa16238: ldr             x2, [x2, #0x258]
     // 0xa1623c: r0 = normalizedLink()
-    //     0xa1623c: bl              #0x9c1ca4  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
+    //     0xa1623c: bl              #0x9c1ca4  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
     // 0xa16240: mov             x3, x0
     // 0xa16244: r17 = -568
     //     0xa16244: mov             x17, #-0x238
@@ -3931,7 +3931,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa16278: add             x2, PP, #0x27, lsl #12  ; [pp+0x27818] Obj!SocialPlatform@d3ac01
     //     0xa1627c: ldr             x2, [x2, #0x818]
     // 0xa16280: r0 = normalizedLink()
-    //     0xa16280: bl              #0x9c1ca4  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
+    //     0xa16280: bl              #0x9c1ca4  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
     // 0xa16284: r1 = <String>
     //     0xa16284: ldr             x1, [PP, #0x850]  ; [pp+0x850] TypeArguments: <String>
     // 0xa16288: r2 = 0
@@ -4328,7 +4328,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa1667c: mov             x17, #-0x2b8
     // 0xa16680: str             x0, [fp, x17]
     // 0xa16684: r0 = formatE164()
-    //     0xa16684: bl              #0xa2274c  ; [package:ballai/automatic/utility/phone/phone_number_support.dart] PhoneNumberSupport::formatE164
+    //     0xa16684: bl              #0xa2274c  ; [package:kourtai/automatic/utility/phone/phone_number_support.dart] PhoneNumberSupport::formatE164
     // 0xa16688: r17 = -712
     //     0xa16688: mov             x17, #-0x2c8
     // 0xa1668c: str             x0, [fp, x17]
@@ -4636,7 +4636,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa169a0: mov             x17, #-0x2d8
     // 0xa169a4: ldr             x1, [fp, x17]
     // 0xa169a8: r0 = resolveCoordinate()
-    //     0xa169a8: bl              #0xa225e4  ; [package:ballai/automatic/utility/location/profile_location_support.dart] ProfileLocationGeocoder::resolveCoordinate
+    //     0xa169a8: bl              #0xa225e4  ; [package:kourtai/automatic/utility/location/profile_location_support.dart] ProfileLocationGeocoder::resolveCoordinate
     // 0xa169ac: mov             x1, x0
     // 0xa169b0: r17 = -720
     //     0xa169b0: mov             x17, #-0x2d0
@@ -4748,7 +4748,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0xa16ad8: LoadField: r1 = r0->field_6f
     //     0xa16ad8: ldur            x1, [x0, #0x6f]
     // 0xa16adc: r0 = _cmToInches()
-    //     0xa16adc: bl              #0xa22540  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_cmToInches
+    //     0xa16adc: bl              #0xa22540  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_cmToInches
     // 0xa16ae0: mov             x2, x0
     // 0xa16ae4: r17 = -568
     //     0xa16ae4: mov             x17, #-0x238
@@ -4774,7 +4774,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0xa16b1c: LoadField: r1 = r0->field_7f
     //     0xa16b1c: ldur            x1, [x0, #0x7f]
     // 0xa16b20: r0 = _kgToLbs()
-    //     0xa16b20: bl              #0xa2249c  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_kgToLbs
+    //     0xa16b20: bl              #0xa2249c  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_kgToLbs
     // 0xa16b24: mov             x2, x0
     // 0xa16b28: r17 = -568
     //     0xa16b28: mov             x17, #-0x238
@@ -5281,7 +5281,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa17010: add             x4, PP, #0x45, lsl #12  ; [pp+0x454e8] List(7) [0, 0x3, 0x1, 0x2, "fieldsToDelete", 0x2, Null]
     //     0xa17014: ldr             x4, [x4, #0x4e8]
     // 0xa17018: r0 = updateUser()
-    //     0xa17018: bl              #0x6618fc  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::updateUser
+    //     0xa17018: bl              #0x6618fc  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::updateUser
     // 0xa1701c: mov             x1, x0
     // 0xa17020: r17 = -952
     //     0xa17020: mov             x17, #-0x3b8
@@ -5300,7 +5300,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0xa17040: str             x2, [fp, x17]
     // 0xa17044: cmp             w2, NULL
     // 0xa17048: b.eq            #0xa170bc
-    // 0xa1704c: r0 = InitLateStaticField(0xd68) // [package:ballai/automatic/lib/firebase/storage/image_uploader.dart] ImageUploader::shared
+    // 0xa1704c: r0 = InitLateStaticField(0xd68) // [package:kourtai/automatic/lib/firebase/storage/image_uploader.dart] ImageUploader::shared
     //     0xa1704c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xa17050: ldr             x0, [x0, #0x1ad0]
     //     0xa17054: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -5317,12 +5317,12 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa17078: mov             x17, #-0x268
     // 0xa1707c: ldr             x3, [fp, x17]
     // 0xa17080: r0 = updateProfileImage()
-    //     0xa17080: bl              #0xa1735c  ; [package:ballai/automatic/lib/firebase/storage/image_uploader.dart] ImageUploader::updateProfileImage
+    //     0xa17080: bl              #0xa1735c  ; [package:kourtai/automatic/lib/firebase/storage/image_uploader.dart] ImageUploader::updateProfileImage
     // 0xa17084: r17 = -584
     //     0xa17084: mov             x17, #-0x248
     // 0xa17088: ldr             x2, [fp, x17]
     // 0xa1708c: r1 = Function '<anonymous closure>':.
-    //     0xa1708c: add             x1, PP, #0x45, lsl #12  ; [pp+0x454f8] AnonymousClosure: (0xa22f50), in [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::save (0xa15b24)
+    //     0xa1708c: add             x1, PP, #0x45, lsl #12  ; [pp+0x454f8] AnonymousClosure: (0xa22f50), in [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::save (0xa15b24)
     //     0xa17090: ldr             x1, [x1, #0x4f8]
     // 0xa17094: r17 = -696
     //     0xa17094: mov             x17, #-0x2b8
@@ -5395,7 +5395,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa1713c: mov             x17, #-0x2d0
     // 0xa17140: str             x0, [fp, x17]
     // 0xa17144: r0 = L()
-    //     0xa17144: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa17144: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa17148: r17 = -576
     //     0xa17148: mov             x17, #-0x240
     // 0xa1714c: ldr             x1, [fp, x17]
@@ -5404,7 +5404,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa17154: mov             x17, #-0x2d8
     // 0xa17158: str             x0, [fp, x17]
     // 0xa1715c: r0 = userFacingError()
-    //     0xa1715c: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0xa1715c: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0xa17160: r17 = -720
     //     0xa17160: mov             x17, #-0x2d0
     // 0xa17164: ldr             x1, [fp, x17]
@@ -5942,7 +5942,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0xa22e30: mov             x1, x0
     // 0xa22e34: ldur            x2, [fp, #-0x10]
     // 0xa22e38: r0 = normalizedLink()
-    //     0xa22e38: bl              #0x9c1ca4  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
+    //     0xa22e38: bl              #0x9c1ca4  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
     // 0xa22e3c: cmp             w0, NULL
     // 0xa22e40: b.eq            #0xa22e50
     // 0xa22e44: ldur            x0, [fp, #-0x50]
@@ -6045,7 +6045,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa22fa0: ldr             x1, [x1, #0x508]
     // 0xa22fa4: stur            x0, [fp, #-8]
     // 0xa22fa8: r0 = L()
-    //     0xa22fa8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa22fa8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa22fac: stur            x0, [fp, #-0x10]
     // 0xa22fb0: r0 = Text()
     //     0xa22fb0: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -6130,7 +6130,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0xa25728: add             x4, x3, x1
     // 0xa2572c: mov             x1, x4
     // 0xa25730: r0 = _inchesToCm()
-    //     0xa25730: bl              #0x9c4600  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_inchesToCm
+    //     0xa25730: bl              #0x9c4600  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_inchesToCm
     // 0xa25734: mov             x1, x0
     // 0xa25738: ldur            x0, [fp, #-0x10]
     // 0xa2573c: StoreField: r0->field_6f = r1
@@ -6138,7 +6138,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0xa25740: LoadField: r1 = r0->field_77
     //     0xa25740: ldur            x1, [x0, #0x77]
     // 0xa25744: r0 = _lbsToKg()
-    //     0xa25744: bl              #0x9c455c  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_lbsToKg
+    //     0xa25744: bl              #0x9c455c  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_lbsToKg
     // 0xa25748: mov             x1, x0
     // 0xa2574c: ldur            x0, [fp, #-0x10]
     // 0xa25750: StoreField: r0->field_7f = r1
@@ -6147,7 +6147,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0xa25758: LoadField: r1 = r0->field_6f
     //     0xa25758: ldur            x1, [x0, #0x6f]
     // 0xa2575c: r0 = _cmToInches()
-    //     0xa2575c: bl              #0xa22540  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_cmToInches
+    //     0xa2575c: bl              #0xa22540  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_cmToInches
     // 0xa25760: mov             x1, x0
     // 0xa25764: r0 = 12
     //     0xa25764: mov             x0, #0xc
@@ -6164,7 +6164,7 @@ class ProfileViewModel extends ChangeNotifier {
     // 0xa25788: LoadField: r1 = r3->field_7f
     //     0xa25788: ldur            x1, [x3, #0x7f]
     // 0xa2578c: r0 = _kgToLbs()
-    //     0xa2578c: bl              #0xa2249c  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_kgToLbs
+    //     0xa2578c: bl              #0xa2249c  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::_kgToLbs
     // 0xa25790: mov             x1, x0
     // 0xa25794: ldur            x0, [fp, #-0x10]
     // 0xa25798: StoreField: r0->field_77 = r1
@@ -6174,7 +6174,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa257a0: stur            w2, [x0, #0x87]
     // 0xa257a4: ldur            x1, [fp, #-0x20]
     // 0xa257a8: r0 = setUseMetricFor()
-    //     0xa257a8: bl              #0xa257d8  ; [package:ballai/automatic/utility/defaults/defaultsstorage/defaults_profile_measurement_units.dart] DefaultsProfileMeasurementUnits::setUseMetricFor
+    //     0xa257a8: bl              #0xa257d8  ; [package:kourtai/automatic/utility/defaults/defaultsstorage/defaults_profile_measurement_units.dart] DefaultsProfileMeasurementUnits::setUseMetricFor
     // 0xa257ac: mov             x1, x0
     // 0xa257b0: stur            x1, [fp, #-0x18]
     // 0xa257b4: r0 = Await()
@@ -6239,7 +6239,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa27a58: b.ls            #0xa27a70
     // 0xa27a5c: ldr             x2, [fp, #0x10]
     // 0xa27a60: r0 = applyLocation()
-    //     0xa27a60: bl              #0xa27a78  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::applyLocation
+    //     0xa27a60: bl              #0xa27a78  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::applyLocation
     // 0xa27a64: LeaveFrame
     //     0xa27a64: mov             SP, fp
     //     0xa27a68: ldp             fp, lr, [SP], #0x10
@@ -6426,7 +6426,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa2aeb0: b.ls            #0xa2aec8
     // 0xa2aeb4: ldr             x2, [fp, #0x10]
     // 0xa2aeb8: r0 = setWeight()
-    //     0xa2aeb8: bl              #0xa2aed0  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setWeight
+    //     0xa2aeb8: bl              #0xa2aed0  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setWeight
     // 0xa2aebc: LeaveFrame
     //     0xa2aebc: mov             SP, fp
     //     0xa2aec0: ldp             fp, lr, [SP], #0x10
@@ -6480,7 +6480,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa2af2c: b.ls            #0xa2af44
     // 0xa2af30: ldr             x2, [fp, #0x10]
     // 0xa2af34: r0 = setHeightInches()
-    //     0xa2af34: bl              #0xa2af4c  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setHeightInches
+    //     0xa2af34: bl              #0xa2af4c  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setHeightInches
     // 0xa2af38: LeaveFrame
     //     0xa2af38: mov             SP, fp
     //     0xa2af3c: ldp             fp, lr, [SP], #0x10
@@ -6534,7 +6534,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa2afa8: b.ls            #0xa2afc0
     // 0xa2afac: ldr             x2, [fp, #0x10]
     // 0xa2afb0: r0 = setHeightFeet()
-    //     0xa2afb0: bl              #0xa2afc8  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setHeightFeet
+    //     0xa2afb0: bl              #0xa2afc8  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setHeightFeet
     // 0xa2afb4: LeaveFrame
     //     0xa2afb4: mov             SP, fp
     //     0xa2afb8: ldp             fp, lr, [SP], #0x10
@@ -6588,7 +6588,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa2b024: b.ls            #0xa2b03c
     // 0xa2b028: ldr             x2, [fp, #0x10]
     // 0xa2b02c: r0 = setWeightKg()
-    //     0xa2b02c: bl              #0xa2b044  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setWeightKg
+    //     0xa2b02c: bl              #0xa2b044  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setWeightKg
     // 0xa2b030: LeaveFrame
     //     0xa2b030: mov             SP, fp
     //     0xa2b034: ldp             fp, lr, [SP], #0x10
@@ -6642,7 +6642,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa2b0a0: b.ls            #0xa2b0b8
     // 0xa2b0a4: ldr             x2, [fp, #0x10]
     // 0xa2b0a8: r0 = setHeightCm()
-    //     0xa2b0a8: bl              #0xa2b0c0  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setHeightCm
+    //     0xa2b0a8: bl              #0xa2b0c0  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setHeightCm
     // 0xa2b0ac: LeaveFrame
     //     0xa2b0ac: mov             SP, fp
     //     0xa2b0b0: ldp             fp, lr, [SP], #0x10
@@ -6696,7 +6696,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa2b188: b.ls            #0xa2b1a0
     // 0xa2b18c: ldr             x2, [fp, #0x10]
     // 0xa2b190: r0 = setShootingHand()
-    //     0xa2b190: bl              #0xa2b1a8  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setShootingHand
+    //     0xa2b190: bl              #0xa2b1a8  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setShootingHand
     // 0xa2b194: LeaveFrame
     //     0xa2b194: mov             SP, fp
     //     0xa2b198: ldp             fp, lr, [SP], #0x10
@@ -6791,7 +6791,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa2b2c0: b.ls            #0xa2b2d8
     // 0xa2b2c4: ldr             x2, [fp, #0x10]
     // 0xa2b2c8: r0 = setLevelOfPlay()
-    //     0xa2b2c8: bl              #0xa2b2e0  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setLevelOfPlay
+    //     0xa2b2c8: bl              #0xa2b2e0  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setLevelOfPlay
     // 0xa2b2cc: LeaveFrame
     //     0xa2b2cc: mov             SP, fp
     //     0xa2b2d0: ldp             fp, lr, [SP], #0x10
@@ -6848,7 +6848,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa2b388: b.ls            #0xa2b3a0
     // 0xa2b38c: ldr             x2, [fp, #0x10]
     // 0xa2b390: r0 = setPosition()
-    //     0xa2b390: bl              #0xa2b3a8  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setPosition
+    //     0xa2b390: bl              #0xa2b3a8  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setPosition
     // 0xa2b394: LeaveFrame
     //     0xa2b394: mov             SP, fp
     //     0xa2b398: ldp             fp, lr, [SP], #0x10
@@ -6905,7 +6905,7 @@ class ProfileViewModel extends ChangeNotifier {
     //     0xa2b460: b.ls            #0xa2b478
     // 0xa2b464: ldr             x2, [fp, #0x10]
     // 0xa2b468: r0 = setPhoneCountry()
-    //     0xa2b468: bl              #0xa2b480  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setPhoneCountry
+    //     0xa2b468: bl              #0xa2b480  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setPhoneCountry
     // 0xa2b46c: LeaveFrame
     //     0xa2b46c: mov             SP, fp
     //     0xa2b470: ldp             fp, lr, [SP], #0x10

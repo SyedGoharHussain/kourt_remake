@@ -9868,7 +9868,7 @@ class Expanded extends Flexible {
 //   const constructor, 
 class Positioned extends ParentDataWidget<dynamic> {
 
-  BallAiNavigationGlass field_c;
+  KourtAiNavigationGlass field_c;
   _Double field_14;
   _Double field_18;
   _Double field_1c;

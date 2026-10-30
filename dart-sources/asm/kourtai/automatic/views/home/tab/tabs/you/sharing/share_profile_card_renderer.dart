@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_renderer.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_renderer.dart
 
 // class id: 1049038, size: 0x8
 class :: {
@@ -86,7 +86,7 @@ abstract class ShareProfileCardRenderer extends Object {
     // 0x98a4d4: LoadField: d0 = r0->field_7
     //     0x98a4d4: ldur            d0, [x0, #7]
     // 0x98a4d8: r0 = _renderWidgetToImage()
-    //     0x98a4d8: bl              #0x98a528  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_renderer.dart] ShareProfileCardRenderer::_renderWidgetToImage
+    //     0x98a4d8: bl              #0x98a528  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/share_profile_card_renderer.dart] ShareProfileCardRenderer::_renderWidgetToImage
     // 0x98a4dc: r0 = ReturnAsync()
     //     0x98a4dc: b               #0x5f1e3c  ; ReturnAsyncStub
     // 0x98a4e0: r0 = StackOverflowSharedWithoutFPURegs()

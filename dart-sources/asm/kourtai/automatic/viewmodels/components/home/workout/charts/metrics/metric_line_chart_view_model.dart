@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/components/home/workout/charts/metrics/metric_line_chart_view_model.dart
+// lib: , url: package:kourtai/automatic/viewmodels/components/home/workout/charts/metrics/metric_line_chart_view_model.dart
 
 // class id: 1048763, size: 0x8
 class :: {

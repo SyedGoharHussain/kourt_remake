@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/team/team_logo_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/team/team_logo_view.dart
 
 // class id: 1048868, size: 0x8
 class :: {
@@ -34,8 +34,8 @@ class TeamLogoView extends StatelessWidget {
     // 0xbd6ce0: StoreField: r2->field_f = r0
     //     0xbd6ce0: stur            w0, [x2, #0xf]
     // 0xbd6ce4: ldur            x1, [fp, #-0x10]
-    // 0xbd6ce8: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbd6ce8: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbd6ce8: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbd6ce8: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbd6cec: mov             x3, x0
     // 0xbd6cf0: ldur            x2, [fp, #-0x18]
     // 0xbd6cf4: stur            x3, [fp, #-0x20]
@@ -141,8 +141,8 @@ class TeamLogoView extends StatelessWidget {
     //     0xbd6e08: ldur            d0, [x0, #0xb]
     // 0xbd6e0c: ldur            x1, [fp, #-0x10]
     // 0xbd6e10: stur            d0, [fp, #-0x50]
-    // 0xbd6e14: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xbd6e14: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xbd6e14: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xbd6e14: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xbd6e18: mov             x2, x0
     // 0xbd6e1c: ldur            x0, [fp, #-0x28]
     // 0xbd6e20: stur            x2, [fp, #-0x48]
@@ -166,8 +166,8 @@ class TeamLogoView extends StatelessWidget {
     // 0xbd6e54: mov             x2, x0
     // 0xbd6e58: b               #0xbd6e70
     // 0xbd6e5c: ldur            x1, [fp, #-0x10]
-    // 0xbd6e60: r0 = BallAiThemeContext.ballAi()
-    //     0xbd6e60: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xbd6e60: r0 = KourtAiThemeContext.kourtAi()
+    //     0xbd6e60: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xbd6e64: LoadField: r1 = r0->field_1f
     //     0xbd6e64: ldur            w1, [x0, #0x1f]
     // 0xbd6e68: DecompressPointer r1
@@ -244,13 +244,13 @@ class TeamLogoView extends StatelessWidget {
     // 0xbd6f40: ldur            x2, [fp, #-0x18]
     // 0xbd6f44: stur            x0, [fp, #-0x10]
     // 0xbd6f48: r1 = Function '<anonymous closure>':.
-    //     0xbd6f48: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c2e0] AnonymousClosure: (0xbd7460), in [package:ballai/automatic/views/home/tab/auth/team/team_logo_view.dart] TeamLogoView::build (0xbd6ca4)
+    //     0xbd6f48: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c2e0] AnonymousClosure: (0xbd7460), in [package:kourtai/automatic/views/home/tab/auth/team/team_logo_view.dart] TeamLogoView::build (0xbd6ca4)
     //     0xbd6f4c: ldr             x1, [x1, #0x2e0]
     // 0xbd6f50: r0 = AllocateClosure()
     //     0xbd6f50: bl              #0xe553e0  ; AllocateClosureStub
     // 0xbd6f54: ldur            x2, [fp, #-0x18]
     // 0xbd6f58: r1 = Function '<anonymous closure>':.
-    //     0xbd6f58: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c2e8] AnonymousClosure: (0xbd734c), in [package:ballai/automatic/views/home/tab/auth/team/team_logo_view.dart] TeamLogoView::build (0xbd6ca4)
+    //     0xbd6f58: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c2e8] AnonymousClosure: (0xbd734c), in [package:kourtai/automatic/views/home/tab/auth/team/team_logo_view.dart] TeamLogoView::build (0xbd6ca4)
     //     0xbd6f5c: ldr             x1, [x1, #0x2e8]
     // 0xbd6f60: stur            x0, [fp, #-0x18]
     // 0xbd6f64: r0 = AllocateClosure()
@@ -277,7 +277,7 @@ class TeamLogoView extends StatelessWidget {
     // 0xbd6fa8: ldur            x1, [fp, #-8]
     // 0xbd6fac: ldur            x2, [fp, #-0x20]
     // 0xbd6fb0: r0 = _fallback()
-    //     0xbd6fb0: bl              #0xbd7094  ; [package:ballai/automatic/views/home/tab/auth/team/team_logo_view.dart] TeamLogoView::_fallback
+    //     0xbd6fb0: bl              #0xbd7094  ; [package:kourtai/automatic/views/home/tab/auth/team/team_logo_view.dart] TeamLogoView::_fallback
     // 0xbd6fb4: ldur            d0, [fp, #-0x50]
     // 0xbd6fb8: stur            x0, [fp, #-0x10]
     // 0xbd6fbc: r1 = inline_Allocate_Double()
@@ -738,7 +738,7 @@ class TeamLogoView extends StatelessWidget {
     //     0xbd748c: add             x2, x2, HEAP, lsl #32
     // 0xbd7490: mov             x1, x0
     // 0xbd7494: r0 = _fallback()
-    //     0xbd7494: bl              #0xbd7094  ; [package:ballai/automatic/views/home/tab/auth/team/team_logo_view.dart] TeamLogoView::_fallback
+    //     0xbd7494: bl              #0xbd7094  ; [package:kourtai/automatic/views/home/tab/auth/team/team_logo_view.dart] TeamLogoView::_fallback
     // 0xbd7498: LeaveFrame
     //     0xbd7498: mov             SP, fp
     //     0xbd749c: ldp             fp, lr, [SP], #0x10

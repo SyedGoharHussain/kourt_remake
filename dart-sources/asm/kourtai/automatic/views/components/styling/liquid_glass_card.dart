@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/styling/liquid_glass_card.dart
+// lib: , url: package:kourtai/automatic/views/components/styling/liquid_glass_card.dart
 
 // class id: 1048827, size: 0x8
 class :: {
@@ -6,7 +6,7 @@ class :: {
 
 // class id: 4213, size: 0x24, field offset: 0xc
 //   const constructor, 
-class BallAiLiquidGlassCard extends StatelessWidget {
+class KourtAiLiquidGlassCard extends StatelessWidget {
 
   _ build(/* No info */) {
     // ** addr: 0xbc2728, size: 0x1a4
@@ -15,7 +15,7 @@ class BallAiLiquidGlassCard extends StatelessWidget {
     //     0xbc272c: mov             fp, SP
     // 0xbc2730: AllocStack(0x50)
     //     0xbc2730: sub             SP, SP, #0x50
-    // 0xbc2734: SetupParameters(BallAiLiquidGlassCard this /* r1 => r0, fp-0x8 */, dynamic _ /* r2 => r1 */)
+    // 0xbc2734: SetupParameters(KourtAiLiquidGlassCard this /* r1 => r0, fp-0x8 */, dynamic _ /* r2 => r1 */)
     //     0xbc2734: mov             x0, x1
     //     0xbc2738: stur            x1, [fp, #-8]
     //     0xbc273c: mov             x1, x2
@@ -23,8 +23,8 @@ class BallAiLiquidGlassCard extends StatelessWidget {
     //     0xbc2740: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xbc2744: cmp             SP, x16
     //     0xbc2748: b.ls            #0xbc28c4
-    // 0xbc274c: r0 = BallAiThemeContext.ballAi()
-    //     0xbc274c: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xbc274c: r0 = KourtAiThemeContext.kourtAi()
+    //     0xbc274c: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xbc2750: stur            x0, [fp, #-0x10]
     // 0xbc2754: LoadField: r1 = r0->field_23
     //     0xbc2754: ldur            w1, [x0, #0x23]
@@ -166,7 +166,7 @@ class BallAiLiquidGlassCard extends StatelessWidget {
     //     0xbc28c4: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0xbc28c8: b               #0xbc274c
   }
-  factory _ BallAiLiquidGlassCard.grouped(/* No info */) {
+  factory _ KourtAiLiquidGlassCard.grouped(/* No info */) {
     // ** addr: 0xbc2c8c, size: 0x44
     // 0xbc2c8c: EnterFrame
     //     0xbc2c8c: stp             fp, lr, [SP, #-0x10]!
@@ -175,8 +175,8 @@ class BallAiLiquidGlassCard extends StatelessWidget {
     //     0xbc2c94: sub             SP, SP, #8
     // 0xbc2c98: SetupParameters(dynamic _ /* r2 => r2, fp-0x8 */)
     //     0xbc2c98: stur            x2, [fp, #-8]
-    // 0xbc2c9c: r0 = BallAiLiquidGlassCard()
-    //     0xbc2c9c: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xbc2c9c: r0 = KourtAiLiquidGlassCard()
+    //     0xbc2c9c: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xbc2ca0: ldur            x1, [fp, #-8]
     // 0xbc2ca4: StoreField: r0->field_b = r1
     //     0xbc2ca4: stur            w1, [x0, #0xb]

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/account_setup_ui.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/account_setup_ui.dart
 
 // class id: 1048830, size: 0x8
 class :: {
@@ -80,7 +80,7 @@ class AccountSetupNextButton extends StatelessWidget {
     // 0xbc3db0: tbnz            w0, #4, #0xbc3dcc
     // 0xbc3db4: ldur            x2, [fp, #-0x20]
     // 0xbc3db8: r1 = Function '<anonymous closure>':.
-    //     0xbc3db8: add             x1, PP, #0x24, lsl #12  ; [pp+0x24db8] AnonymousClosure: (0xbc4098), in [package:ballai/automatic/views/home/tab/auth/accountsetup/account_setup_ui.dart] AccountSetupNextButton::build (0xbc3d00)
+    //     0xbc3db8: add             x1, PP, #0x24, lsl #12  ; [pp+0x24db8] AnonymousClosure: (0xbc4098), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/account_setup_ui.dart] AccountSetupNextButton::build (0xbc3d00)
     //     0xbc3dbc: ldr             x1, [x1, #0xdb8]
     // 0xbc3dc0: r0 = AllocateClosure()
     //     0xbc3dc0: bl              #0xe553e0  ; AllocateClosureStub
@@ -458,8 +458,8 @@ class AccountSetupTopBar extends StatelessWidget {
     // 0xbc38a0: cmp             w1, NULL
     // 0xbc38a4: b.eq            #0xbc39ac
     // 0xbc38a8: ldur            x1, [fp, #-0x10]
-    // 0xbc38ac: r0 = BallAiThemeContext.ballAiBackButtonFill()
-    //     0xbc38ac: bl              #0x9d6208  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiBackButtonFill
+    // 0xbc38ac: r0 = KourtAiThemeContext.kourtAiBackButtonFill()
+    //     0xbc38ac: bl              #0x9d6208  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiBackButtonFill
     // 0xbc38b0: r16 = Instance_Size
     //     0xbc38b0: add             x16, PP, #0x24, lsl #12  ; [pp+0x24dd8] Obj!Size@d2e1b1
     //     0xbc38b4: ldr             x16, [x16, #0xdd8]
@@ -477,7 +477,7 @@ class AccountSetupTopBar extends StatelessWidget {
     //     0xbc38d4: bl              #0xa0ee74  ; [package:flutter/src/material/icon_button.dart] IconButton::styleFrom
     // 0xbc38d8: ldur            x2, [fp, #-0x18]
     // 0xbc38dc: r1 = Function '<anonymous closure>':.
-    //     0xbc38dc: add             x1, PP, #0x24, lsl #12  ; [pp+0x24de8] AnonymousClosure: (0xbc3c8c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/account_setup_ui.dart] AccountSetupTopBar::build (0xbc3840)
+    //     0xbc38dc: add             x1, PP, #0x24, lsl #12  ; [pp+0x24de8] AnonymousClosure: (0xbc3c8c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/account_setup_ui.dart] AccountSetupTopBar::build (0xbc3840)
     //     0xbc38e0: ldr             x1, [x1, #0xde8]
     // 0xbc38e4: stur            x0, [fp, #-0x18]
     // 0xbc38e8: r0 = AllocateClosure()
@@ -620,8 +620,8 @@ class AccountSetupTopBar extends StatelessWidget {
     // 0xbc3a5c: StoreField: r2->field_13 = r0
     //     0xbc3a5c: stur            w0, [x2, #0x13]
     // 0xbc3a60: ldur            x1, [fp, #-0x10]
-    // 0xbc3a64: r0 = BallAiThemeContext.ballAiProgressTrackFill()
-    //     0xbc3a64: bl              #0xbc3c40  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiProgressTrackFill
+    // 0xbc3a64: r0 = KourtAiThemeContext.kourtAiProgressTrackFill()
+    //     0xbc3a64: bl              #0xbc3c40  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiProgressTrackFill
     // 0xbc3a68: stur            x0, [fp, #-8]
     // 0xbc3a6c: r0 = LinearProgressIndicator()
     //     0xbc3a6c: bl              #0xa35d98  ; AllocateLinearProgressIndicatorStub -> LinearProgressIndicator (size=0x3c)

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart
+// lib: , url: package:kourtai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart
 
 // class id: 1049097, size: 0x8
 class :: {
@@ -126,7 +126,7 @@ abstract class DribbleTimelineDerivedStatsResolver extends Object {
     // 0x6010f4: r0 = docs()
     //     0x6010f4: bl              #0x601260  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQuerySnapshot::docs
     // 0x6010f8: r1 = Function '<anonymous closure>': static.
-    //     0x6010f8: add             x1, PP, #0x28, lsl #12  ; [pp+0x28a48] AnonymousClosure: static (0x602e50), in [package:ballai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetchEvents (0x601034)
+    //     0x6010f8: add             x1, PP, #0x28, lsl #12  ; [pp+0x28a48] AnonymousClosure: static (0x602e50), in [package:kourtai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetchEvents (0x601034)
     //     0x6010fc: ldr             x1, [x1, #0xa48]
     // 0x601100: r2 = Null
     //     0x601100: mov             x2, NULL
@@ -154,7 +154,7 @@ abstract class DribbleTimelineDerivedStatsResolver extends Object {
     // 0x601140: r0 = _GrowableList.of()
     //     0x601140: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x601144: r1 = Function '<anonymous closure>': static.
-    //     0x601144: add             x1, PP, #0x28, lsl #12  ; [pp+0x28a58] AnonymousClosure: static (0x602dd8), in [package:ballai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetchEvents (0x601034)
+    //     0x601144: add             x1, PP, #0x28, lsl #12  ; [pp+0x28a58] AnonymousClosure: static (0x602dd8), in [package:kourtai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetchEvents (0x601034)
     //     0x601148: ldr             x1, [x1, #0xa58]
     // 0x60114c: r2 = Null
     //     0x60114c: mov             x2, NULL
@@ -168,7 +168,7 @@ abstract class DribbleTimelineDerivedStatsResolver extends Object {
     // 0x601164: r0 = sort()
     //     0x601164: bl              #0x7ac5ec  ; [dart:collection] ListBase::sort
     // 0x601168: r1 = Function '<anonymous closure>': static.
-    //     0x601168: add             x1, PP, #0x28, lsl #12  ; [pp+0x28a60] AnonymousClosure: static (0x602d14), in [package:ballai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetchEvents (0x601034)
+    //     0x601168: add             x1, PP, #0x28, lsl #12  ; [pp+0x28a60] AnonymousClosure: static (0x602d14), in [package:kourtai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetchEvents (0x601034)
     //     0x60116c: ldr             x1, [x1, #0xa60]
     // 0x601170: r2 = Null
     //     0x601170: mov             x2, NULL
@@ -195,7 +195,7 @@ abstract class DribbleTimelineDerivedStatsResolver extends Object {
     // 0x6011ac: r0 = _GrowableList.of()
     //     0x6011ac: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x6011b0: r1 = Function '<anonymous closure>': static.
-    //     0x6011b0: add             x1, PP, #0x28, lsl #12  ; [pp+0x28a68] AnonymousClosure: static (0x600fbc), in [package:ballai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetchEvents (0x601034)
+    //     0x6011b0: add             x1, PP, #0x28, lsl #12  ; [pp+0x28a68] AnonymousClosure: static (0x600fbc), in [package:kourtai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetchEvents (0x601034)
     //     0x6011b4: ldr             x1, [x1, #0xa68]
     // 0x6011b8: r2 = Null
     //     0x6011b8: mov             x2, NULL
@@ -328,7 +328,7 @@ abstract class DribbleTimelineDerivedStatsResolver extends Object {
     //     0x602e68: bl              #0xda3598  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQueryDocumentSnapshot::data
     // 0x602e6c: mov             x1, x0
     // 0x602e70: r0 = fromMap()
-    //     0x602e70: bl              #0x602e88  ; [package:ballai/video_tracking/analysis/dribble/dribble_models.dart] DribbleTimelineChunkDocument::fromMap
+    //     0x602e70: bl              #0x602e88  ; [package:kourtai/video_tracking/analysis/dribble/dribble_models.dart] DribbleTimelineChunkDocument::fromMap
     // 0x602e74: LeaveFrame
     //     0x602e74: mov             SP, fp
     //     0x602e78: ldp             fp, lr, [SP], #0x10
@@ -358,7 +358,7 @@ abstract class DribbleTimelineDerivedStatsResolver extends Object {
     //     0x73980c: bl              #0x60afc8  ; InitAsyncStub
     // 0x739810: ldur            x1, [fp, #-0x10]
     // 0x739814: r0 = needsDerivedStats()
-    //     0x739814: bl              #0x739f64  ; [package:ballai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::needsDerivedStats
+    //     0x739814: bl              #0x739f64  ; [package:kourtai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::needsDerivedStats
     // 0x739818: tbz             w0, #4, #0x739824
     // 0x73981c: r0 = Null
     //     0x73981c: mov             x0, NULL
@@ -370,7 +370,7 @@ abstract class DribbleTimelineDerivedStatsResolver extends Object {
     // 0x73982c: DecompressPointer r1
     //     0x73982c: add             x1, x1, HEAP, lsl #32
     // 0x739830: r0 = fetch()
-    //     0x739830: bl              #0x739840  ; [package:ballai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetch
+    //     0x739830: bl              #0x739840  ; [package:kourtai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetch
     // 0x739834: r0 = ReturnAsync()
     //     0x739834: b               #0x5f1e3c  ; ReturnAsyncStub
     // 0x739838: r0 = StackOverflowSharedWithoutFPURegs()
@@ -405,7 +405,7 @@ abstract class DribbleTimelineDerivedStatsResolver extends Object {
     //     0x73987c: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x739880: mov             x1, x0
     // 0x739884: r0 = fetchEvents()
-    //     0x739884: bl              #0x601034  ; [package:ballai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetchEvents
+    //     0x739884: bl              #0x601034  ; [package:kourtai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetchEvents
     // 0x739888: mov             x1, x0
     // 0x73988c: stur            x1, [fp, #-0x58]
     // 0x739890: r0 = Await()
@@ -413,7 +413,7 @@ abstract class DribbleTimelineDerivedStatsResolver extends Object {
     // 0x739894: mov             x1, x0
     // 0x739898: stur            x0, [fp, #-0x58]
     // 0x73989c: r0 = derive()
-    //     0x73989c: bl              #0x739924  ; [package:ballai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::derive
+    //     0x73989c: bl              #0x739924  ; [package:kourtai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::derive
     // 0x7398a0: r0 = ReturnAsyncNotFuture()
     //     0x7398a0: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x7398a4: sub             SP, fp, #0x60
@@ -698,7 +698,7 @@ abstract class DribbleTimelineDerivedStatsResolver extends Object {
     // 0x739bdc: DecompressPointer r1
     //     0x739bdc: add             x1, x1, HEAP, lsl #32
     // 0x739be0: r0 = _normalizedHeightCategory()
-    //     0x739be0: bl              #0x739e84  ; [package:ballai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::_normalizedHeightCategory
+    //     0x739be0: bl              #0x739e84  ; [package:kourtai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::_normalizedHeightCategory
     // 0x739be4: mov             x3, x0
     // 0x739be8: stur            x3, [fp, #-0x48]
     // 0x739bec: cmp             w3, NULL
@@ -790,7 +790,7 @@ abstract class DribbleTimelineDerivedStatsResolver extends Object {
     //     0x739d0c: mov             x4, NULL
     // 0x739d10: b               #0x739d78
     // 0x739d14: r1 = Function '<anonymous closure>': static.
-    //     0x739d14: add             x1, PP, #0x28, lsl #12  ; [pp+0x289f8] AnonymousClosure: static (0x713694), in [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
+    //     0x739d14: add             x1, PP, #0x28, lsl #12  ; [pp+0x289f8] AnonymousClosure: static (0x713694), in [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
     //     0x739d18: ldr             x1, [x1, #0x9f8]
     // 0x739d1c: r2 = Null
     //     0x739d1c: mov             x2, NULL
@@ -858,7 +858,7 @@ abstract class DribbleTimelineDerivedStatsResolver extends Object {
     // 0x739dcc: StoreField: r3->field_b = r0
     //     0x739dcc: stur            w0, [x3, #0xb]
     // 0x739dd0: r1 = Function '<anonymous closure>': static.
-    //     0x739dd0: add             x1, PP, #0x28, lsl #12  ; [pp+0x28a00] AnonymousClosure: static (0x737c54), in [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_maxKey (0x737a4c)
+    //     0x739dd0: add             x1, PP, #0x28, lsl #12  ; [pp+0x28a00] AnonymousClosure: static (0x737c54), in [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_maxKey (0x737a4c)
     //     0x739dd4: ldr             x1, [x1, #0xa00]
     // 0x739dd8: r2 = Null
     //     0x739dd8: mov             x2, NULL
@@ -1018,7 +1018,7 @@ abstract class DribbleTimelineDerivedStatsResolver extends Object {
     //     0x739f80: b.ls            #0x73a024
     // 0x739f84: mov             x1, x0
     // 0x739f88: r0 = isDribblingWorkout()
-    //     0x739f88: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0x739f88: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0x739f8c: tbz             w0, #4, #0x739fa0
     // 0x739f90: r0 = false
     //     0x739f90: add             x0, NULL, #0x30  ; false

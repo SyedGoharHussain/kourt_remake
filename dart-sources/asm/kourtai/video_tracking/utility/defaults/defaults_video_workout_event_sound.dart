@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart
+// lib: , url: package:kourtai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart
 
 // class id: 1049197, size: 0x8
 class :: {
@@ -59,7 +59,7 @@ abstract class DefaultsVideoWorkoutEventSound extends Object {
     // 0x72fe20: b               #0x72fe28
     // 0x72fe24: mov             x3, x0
     // 0x72fe28: stur            x3, [fp, #-0x18]
-    // 0x72fe2c: r0 = InitLateStaticField(0xc5c) // [package:ballai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::_cachedIds
+    // 0x72fe2c: r0 = InitLateStaticField(0xc5c) // [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::_cachedIds
     //     0x72fe2c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x72fe30: ldr             x0, [x0, #0x18b8]
     //     0x72fe34: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -159,7 +159,7 @@ abstract class DefaultsVideoWorkoutEventSound extends Object {
     //     0x72ffec: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x72fff0: cmp             SP, x16
     //     0x72fff4: b.ls            #0x73006c
-    // 0x72fff8: r0 = InitLateStaticField(0xc5c) // [package:ballai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::_cachedIds
+    // 0x72fff8: r0 = InitLateStaticField(0xc5c) // [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::_cachedIds
     //     0x72fff8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x72fffc: ldr             x0, [x0, #0x18b8]
     //     0x730000: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -218,7 +218,7 @@ abstract class DefaultsVideoWorkoutEventSound extends Object {
     // 0x9f122c: InitAsync() -> Future<void?>
     //     0x9f122c: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x9f1230: bl              #0x60afc8  ; InitAsyncStub
-    // 0x9f1234: r0 = InitLateStaticField(0xc5c) // [package:ballai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::_cachedIds
+    // 0x9f1234: r0 = InitLateStaticField(0xc5c) // [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::_cachedIds
     //     0x9f1234: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x9f1238: ldr             x0, [x0, #0x18b8]
     //     0x9f123c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -347,7 +347,7 @@ abstract class DefaultsVideoWorkoutEventSound extends Object {
     //     0xabc304: ldr             x3, [x3, #0x5e0]
     // 0xabc308: r0 = String?()
     //     0xabc308: bl              #0x5c96cc  ; IsType_String?_Stub
-    // 0xabc30c: r0 = InitLateStaticField(0xc5c) // [package:ballai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::_cachedIds
+    // 0xabc30c: r0 = InitLateStaticField(0xc5c) // [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::_cachedIds
     //     0xabc30c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xabc310: ldr             x0, [x0, #0x18b8]
     //     0xabc314: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel

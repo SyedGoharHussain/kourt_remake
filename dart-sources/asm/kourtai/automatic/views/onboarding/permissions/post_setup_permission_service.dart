@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/onboarding/permissions/post_setup_permission_service.dart
+// lib: , url: package:kourtai/automatic/views/onboarding/permissions/post_setup_permission_service.dart
 
 // class id: 1049057, size: 0x8
 class :: {
@@ -78,7 +78,7 @@ abstract class PostSetupPermissionService extends Object {
     // 0x98e100: ldur            x1, [fp, #-0x18]
     // 0x98e104: stur            x0, [fp, #-0x20]
     // 0x98e108: r0 = shouldPromptCameraPermission()
-    //     0x98e108: bl              #0x98e538  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::shouldPromptCameraPermission
+    //     0x98e108: bl              #0x98e538  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::shouldPromptCameraPermission
     // 0x98e10c: mov             x1, x0
     // 0x98e110: stur            x1, [fp, #-0x28]
     // 0x98e114: r0 = Await()
@@ -126,7 +126,7 @@ abstract class PostSetupPermissionService extends Object {
     // 0x98e184: ldur            x0, [fp, #-0x20]
     // 0x98e188: ldur            x1, [fp, #-0x18]
     // 0x98e18c: r0 = shouldPromptLocationPermission()
-    //     0x98e18c: bl              #0x98e2d8  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::shouldPromptLocationPermission
+    //     0x98e18c: bl              #0x98e2d8  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::shouldPromptLocationPermission
     // 0x98e190: mov             x1, x0
     // 0x98e194: stur            x1, [fp, #-0x18]
     // 0x98e198: r0 = Await()
@@ -174,7 +174,7 @@ abstract class PostSetupPermissionService extends Object {
     // 0x98e208: ldur            x0, [fp, #-0x20]
     // 0x98e20c: ldur            x1, [fp, #-0x10]
     // 0x98e210: r0 = shouldPromptSocialSharing()
-    //     0x98e210: bl              #0x98e29c  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::shouldPromptSocialSharing
+    //     0x98e210: bl              #0x98e29c  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::shouldPromptSocialSharing
     // 0x98e214: mov             x1, x0
     // 0x98e218: stur            x1, [fp, #-0x10]
     // 0x98e21c: r0 = Await()
@@ -280,7 +280,7 @@ abstract class PostSetupPermissionService extends Object {
     //     0x98e318: add             x2, PP, #0x20, lsl #12  ; [pp+0x20018] Obj!PostSetupPermissionStep@d399a1
     //     0x98e31c: ldr             x2, [x2, #0x18]
     // 0x98e320: r0 = wasPrompted()
-    //     0x98e320: bl              #0x98e4c8  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::wasPrompted
+    //     0x98e320: bl              #0x98e4c8  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::wasPrompted
     // 0x98e324: mov             x1, x0
     // 0x98e328: stur            x1, [fp, #-0x18]
     // 0x98e32c: r0 = Await()
@@ -317,7 +317,7 @@ abstract class PostSetupPermissionService extends Object {
     //     0x98e380: add             x2, PP, #0x20, lsl #12  ; [pp+0x20018] Obj!PostSetupPermissionStep@d399a1
     //     0x98e384: ldr             x2, [x2, #0x18]
     // 0x98e388: r0 = markPrompted()
-    //     0x98e388: bl              #0x98e3b0  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::markPrompted
+    //     0x98e388: bl              #0x98e3b0  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::markPrompted
     // 0x98e38c: mov             x1, x0
     // 0x98e390: stur            x1, [fp, #-0x10]
     // 0x98e394: r0 = Await()
@@ -362,7 +362,7 @@ abstract class PostSetupPermissionService extends Object {
     // 0x98e3f0: ldur            x2, [fp, #-0x18]
     // 0x98e3f4: stur            x0, [fp, #-0x10]
     // 0x98e3f8: r0 = _promptedKey()
-    //     0x98e3f8: bl              #0x98e428  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::_promptedKey
+    //     0x98e3f8: bl              #0x98e428  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::_promptedKey
     // 0x98e3fc: ldur            x1, [fp, #-0x10]
     // 0x98e400: mov             x2, x0
     // 0x98e404: r3 = true
@@ -473,7 +473,7 @@ abstract class PostSetupPermissionService extends Object {
     // 0x98e508: ldur            x2, [fp, #-0x18]
     // 0x98e50c: stur            x0, [fp, #-0x10]
     // 0x98e510: r0 = _promptedKey()
-    //     0x98e510: bl              #0x98e428  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::_promptedKey
+    //     0x98e510: bl              #0x98e428  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::_promptedKey
     // 0x98e514: ldur            x1, [fp, #-0x10]
     // 0x98e518: mov             x2, x0
     // 0x98e51c: r0 = getBool()
@@ -517,7 +517,7 @@ abstract class PostSetupPermissionService extends Object {
     //     0x98e578: add             x2, PP, #0x20, lsl #12  ; [pp+0x20000] Obj!PostSetupPermissionStep@d399c1
     //     0x98e57c: ldr             x2, [x2]
     // 0x98e580: r0 = wasPrompted()
-    //     0x98e580: bl              #0x98e4c8  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::wasPrompted
+    //     0x98e580: bl              #0x98e4c8  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::wasPrompted
     // 0x98e584: mov             x1, x0
     // 0x98e588: stur            x1, [fp, #-0x18]
     // 0x98e58c: r0 = Await()
@@ -545,7 +545,7 @@ abstract class PostSetupPermissionService extends Object {
     //     0x98e5c4: add             x2, PP, #0x20, lsl #12  ; [pp+0x20000] Obj!PostSetupPermissionStep@d399c1
     //     0x98e5c8: ldr             x2, [x2]
     // 0x98e5cc: r0 = markPrompted()
-    //     0x98e5cc: bl              #0x98e3b0  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::markPrompted
+    //     0x98e5cc: bl              #0x98e3b0  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::markPrompted
     // 0x98e5d0: mov             x1, x0
     // 0x98e5d4: stur            x1, [fp, #-0x10]
     // 0x98e5d8: r0 = Await()
@@ -614,7 +614,7 @@ abstract class PostSetupPermissionService extends Object {
     //     0xab0600: add             x2, PP, #0x20, lsl #12  ; [pp+0x20000] Obj!PostSetupPermissionStep@d399c1
     //     0xab0604: ldr             x2, [x2]
     // 0xab0608: r0 = markPrompted()
-    //     0xab0608: bl              #0x98e3b0  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::markPrompted
+    //     0xab0608: bl              #0x98e3b0  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::markPrompted
     // 0xab060c: mov             x1, x0
     // 0xab0610: stur            x1, [fp, #-0x10]
     // 0xab0614: r0 = Await()
@@ -684,7 +684,7 @@ abstract class PostSetupPermissionService extends Object {
     //     0xab0944: add             x2, PP, #0x20, lsl #12  ; [pp+0x20018] Obj!PostSetupPermissionStep@d399a1
     //     0xab0948: ldr             x2, [x2, #0x18]
     // 0xab094c: r0 = markPrompted()
-    //     0xab094c: bl              #0x98e3b0  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::markPrompted
+    //     0xab094c: bl              #0x98e3b0  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::markPrompted
     // 0xab0950: mov             x1, x0
     // 0xab0954: stur            x1, [fp, #-0x10]
     // 0xab0958: r0 = Await()

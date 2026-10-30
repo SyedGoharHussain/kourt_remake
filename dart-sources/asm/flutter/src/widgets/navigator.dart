@@ -15298,7 +15298,7 @@ class Navigator extends StatefulWidget {
     // 0x7c4528: b               #0x7c4530
     // 0x7c452c: ldur            x3, [fp, #-0x18]
     // 0x7c4530: r1 = Function '<anonymous closure>': static.
-    //     0x7c4530: add             x1, PP, #0x1d, lsl #12  ; [pp+0x1d830] AnonymousClosure: (0x663678), in [package:ballai/automatic/models/core/user/user_model.dart] UserModel::toFirestoreUpdateMap (0x662298)
+    //     0x7c4530: add             x1, PP, #0x1d, lsl #12  ; [pp+0x1d830] AnonymousClosure: (0x663678), in [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::toFirestoreUpdateMap (0x662298)
     //     0x7c4534: ldr             x1, [x1, #0x830]
     // 0x7c4538: r2 = Null
     //     0x7c4538: mov             x2, NULL

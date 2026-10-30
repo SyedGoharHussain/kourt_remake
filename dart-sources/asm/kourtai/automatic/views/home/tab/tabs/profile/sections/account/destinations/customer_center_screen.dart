@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/profile/sections/account/destinations/customer_center_screen.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/destinations/customer_center_screen.dart
 
 // class id: 1048871, size: 0x8
 class :: {
@@ -63,7 +63,7 @@ abstract class CustomerCenterScreen extends Object {
     // 0xbda864: mov             x2, x3
     // 0xbda868: stur            x4, [fp, #-0x70]
     // 0xbda86c: r0 = openManageSubscriptions()
-    //     0xbda86c: bl              #0x951ee8  ; [package:ballai/automatic/app/dependencies/handlers/core/play_billing_handler.dart] PlayBillingHandler::openManageSubscriptions
+    //     0xbda86c: bl              #0x951ee8  ; [package:kourtai/automatic/app/dependencies/handlers/core/play_billing_handler.dart] PlayBillingHandler::openManageSubscriptions
     // 0xbda870: mov             x1, x0
     // 0xbda874: stur            x1, [fp, #-0x88]
     // 0xbda878: r0 = Await()
@@ -114,7 +114,7 @@ abstract class CustomerCenterScreen extends Object {
     // 0xbda8f4: cmp             w1, NULL
     // 0xbda8f8: b.eq            #0xbda900
     // 0xbda8fc: r0 = refreshCustomerInfo()
-    //     0xbda8fc: bl              #0x65b240  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshCustomerInfo
+    //     0xbda8fc: bl              #0x65b240  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshCustomerInfo
     // 0xbda900: r0 = Null
     //     0xbda900: mov             x0, NULL
     // 0xbda904: r0 = ReturnAsyncNotFuture()

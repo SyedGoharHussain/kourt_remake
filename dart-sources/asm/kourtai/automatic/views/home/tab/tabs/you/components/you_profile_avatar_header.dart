@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/components/you_profile_avatar_header.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/components/you_profile_avatar_header.dart
 
 // class id: 1049011, size: 0x8
 class :: {
@@ -57,7 +57,7 @@ class YouProfileAvatarHeader extends StatelessWidget {
     //     0xc145d0: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b8f8] "Profile photo"
     //     0xc145d4: ldr             x1, [x1, #0x8f8]
     // 0xc145d8: r0 = L()
-    //     0xc145d8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc145d8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc145dc: mov             x4, x0
     // 0xc145e0: ldur            x0, [fp, #-8]
     // 0xc145e4: stur            x4, [fp, #-0x30]
@@ -70,7 +70,7 @@ class YouProfileAvatarHeader extends StatelessWidget {
     // 0xc145f8: ldur            x3, [fp, #-0x18]
     // 0xc145fc: stur            x5, [fp, #-0x28]
     // 0xc14600: r0 = _avatar()
-    //     0xc14600: bl              #0xc14e70  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_profile_avatar_header.dart] YouProfileAvatarHeader::_avatar
+    //     0xc14600: bl              #0xc14e70  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_profile_avatar_header.dart] YouProfileAvatarHeader::_avatar
     // 0xc14604: stur            x0, [fp, #-0x18]
     // 0xc14608: r0 = GestureDetector()
     //     0xc14608: bl              #0x9dc8b8  ; AllocateGestureDetectorStub -> GestureDetector (size=0x10c)
@@ -112,8 +112,8 @@ class YouProfileAvatarHeader extends StatelessWidget {
     //     0xc14670: add             x2, x2, HEAP, lsl #32
     // 0xc14674: ldur            x1, [fp, #-0x10]
     // 0xc14678: stur            x2, [fp, #-0x30]
-    // 0xc1467c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc1467c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc1467c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc1467c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc14680: stur            x0, [fp, #-0x38]
     // 0xc14684: r0 = TextStyle()
     //     0xc14684: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -205,18 +205,18 @@ class YouProfileAvatarHeader extends StatelessWidget {
     //     0xc14760: stur            w0, [x2, #0xb]
     // 0xc14764: ldur            x1, [fp, #-8]
     // 0xc14768: r0 = _displayBallTag()
-    //     0xc14768: bl              #0xc14dcc  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_profile_avatar_header.dart] YouProfileAvatarHeader::_displayBallTag
+    //     0xc14768: bl              #0xc14dcc  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_profile_avatar_header.dart] YouProfileAvatarHeader::_displayBallTag
     // 0xc1476c: cmp             w0, NULL
     // 0xc14770: b.eq            #0xc1485c
     // 0xc14774: ldur            x1, [fp, #-8]
     // 0xc14778: r0 = _displayBallTag()
-    //     0xc14778: bl              #0xc14dcc  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_profile_avatar_header.dart] YouProfileAvatarHeader::_displayBallTag
+    //     0xc14778: bl              #0xc14dcc  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_profile_avatar_header.dart] YouProfileAvatarHeader::_displayBallTag
     // 0xc1477c: stur            x0, [fp, #-0x30]
     // 0xc14780: cmp             w0, NULL
     // 0xc14784: b.eq            #0xc14cf8
     // 0xc14788: ldur            x1, [fp, #-0x10]
-    // 0xc1478c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc1478c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc1478c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc1478c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc14790: stur            x0, [fp, #-0x38]
     // 0xc14794: r0 = TextStyle()
     //     0xc14794: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -308,7 +308,7 @@ class YouProfileAvatarHeader extends StatelessWidget {
     // 0xc14878: b.eq            #0xc14c6c
     // 0xc1487c: mov             x1, x0
     // 0xc14880: r0 = _followButtonTitle()
-    //     0xc14880: bl              #0xc14cfc  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_profile_avatar_header.dart] YouProfileAvatarHeader::_followButtonTitle
+    //     0xc14880: bl              #0xc14cfc  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_profile_avatar_header.dart] YouProfileAvatarHeader::_followButtonTitle
     // 0xc14884: mov             x2, x0
     // 0xc14888: ldur            x0, [fp, #-8]
     // 0xc1488c: stur            x2, [fp, #-0x38]
@@ -345,8 +345,8 @@ class YouProfileAvatarHeader extends StatelessWidget {
     //     0xc148e0: ldr             x2, [PP, #0x5178]  ; [pp+0x5178] Obj!Color@d2a0a1
     // 0xc148e4: b               #0xc148f8
     // 0xc148e8: ldur            x1, [fp, #-0x10]
-    // 0xc148ec: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc148ec: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc148ec: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc148ec: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc148f0: mov             x2, x0
     // 0xc148f4: ldur            x0, [fp, #-0x20]
     // 0xc148f8: stur            x2, [fp, #-0x40]
@@ -366,13 +366,13 @@ class YouProfileAvatarHeader extends StatelessWidget {
     // 0xc14920: eor             x4, x1, #0x10
     // 0xc14924: tbnz            w4, #4, #0xc14938
     // 0xc14928: ldur            x1, [fp, #-0x10]
-    // 0xc1492c: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc1492c: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc1492c: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc1492c: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc14930: mov             x1, x0
     // 0xc14934: b               #0xc14944
     // 0xc14938: ldur            x1, [fp, #-0x10]
-    // 0xc1493c: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xc1493c: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xc1493c: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xc1493c: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xc14940: mov             x1, x0
     // 0xc14944: ldur            x0, [fp, #-0x30]
     // 0xc14948: ldur            x16, [fp, #-0x40]
@@ -415,8 +415,8 @@ class YouProfileAvatarHeader extends StatelessWidget {
     //     0xc149b4: ldr             x0, [PP, #0x5178]  ; [pp+0x5178] Obj!Color@d2a0a1
     // 0xc149b8: b               #0xc149c4
     // 0xc149bc: ldur            x1, [fp, #-0x10]
-    // 0xc149c0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc149c0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc149c0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc149c0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc149c4: stur            x0, [fp, #-0x10]
     // 0xc149c8: r0 = CircularProgressIndicator()
     //     0xc149c8: bl              #0xa15a28  ; AllocateCircularProgressIndicatorStub -> CircularProgressIndicator (size=0x44)
@@ -507,7 +507,7 @@ class YouProfileAvatarHeader extends StatelessWidget {
     //     0xc14ab0: stur            w0, [x2, #0xf]
     // 0xc14ab4: ldur            x1, [fp, #-8]
     // 0xc14ab8: r0 = _followButtonTitle()
-    //     0xc14ab8: bl              #0xc14cfc  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_profile_avatar_header.dart] YouProfileAvatarHeader::_followButtonTitle
+    //     0xc14ab8: bl              #0xc14cfc  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_profile_avatar_header.dart] YouProfileAvatarHeader::_followButtonTitle
     // 0xc14abc: stur            x0, [fp, #-8]
     // 0xc14ac0: r0 = Text()
     //     0xc14ac0: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -755,7 +755,7 @@ class YouProfileAvatarHeader extends StatelessWidget {
     //     0xc14d1c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b938] "Accept request"
     //     0xc14d20: ldr             x1, [x1, #0x938]
     // 0xc14d24: r0 = L()
-    //     0xc14d24: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc14d24: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc14d28: LeaveFrame
     //     0xc14d28: mov             SP, fp
     //     0xc14d2c: ldp             fp, lr, [SP], #0x10
@@ -770,7 +770,7 @@ class YouProfileAvatarHeader extends StatelessWidget {
     //     0xc14d40: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b940] "Requested"
     //     0xc14d44: ldr             x1, [x1, #0x940]
     // 0xc14d48: r0 = L()
-    //     0xc14d48: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc14d48: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc14d4c: LeaveFrame
     //     0xc14d4c: mov             SP, fp
     //     0xc14d50: ldp             fp, lr, [SP], #0x10
@@ -794,7 +794,7 @@ class YouProfileAvatarHeader extends StatelessWidget {
     //     0xc14d7c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b950] "Following"
     //     0xc14d80: ldr             x1, [x1, #0x950]
     // 0xc14d84: r0 = L()
-    //     0xc14d84: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc14d84: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc14d88: LeaveFrame
     //     0xc14d88: mov             SP, fp
     //     0xc14d8c: ldp             fp, lr, [SP], #0x10
@@ -813,7 +813,7 @@ class YouProfileAvatarHeader extends StatelessWidget {
     //     0xc14dac: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b960] "Follow"
     //     0xc14db0: ldr             x1, [x1, #0x960]
     // 0xc14db4: r0 = L()
-    //     0xc14db4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc14db4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc14db8: LeaveFrame
     //     0xc14db8: mov             SP, fp
     //     0xc14dbc: ldp             fp, lr, [SP], #0x10
@@ -915,8 +915,8 @@ class YouProfileAvatarHeader extends StatelessWidget {
     // 0xc14ea8: tbnz            w4, #4, #0xc14f98
     // 0xc14eac: tbz             w3, #4, #0xc14f98
     // 0xc14eb0: mov             x1, x0
-    // 0xc14eb4: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xc14eb4: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xc14eb4: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xc14eb4: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xc14eb8: stur            x0, [fp, #-0x28]
     // 0xc14ebc: r16 = 0.080000
     //     0xc14ebc: add             x16, PP, #0x24, lsl #12  ; [pp+0x24f28] 0.08
@@ -953,8 +953,8 @@ class YouProfileAvatarHeader extends StatelessWidget {
     // 0xc14f10: StoreField: r2->field_23 = r0
     //     0xc14f10: stur            w0, [x2, #0x23]
     // 0xc14f14: ldur            x1, [fp, #-0x18]
-    // 0xc14f18: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc14f18: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc14f18: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc14f18: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc14f1c: stur            x0, [fp, #-0x18]
     // 0xc14f20: r0 = Icon()
     //     0xc14f20: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -1040,7 +1040,7 @@ class YouProfileAvatarHeader extends StatelessWidget {
     // 0xc14ffc: ldur            x1, [fp, #-0x10]
     // 0xc15000: stur            x2, [fp, #-0x18]
     // 0xc15004: r0 = _showsOverallAvatar()
-    //     0xc15004: bl              #0xc150c8  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_profile_avatar_header.dart] YouProfileAvatarHeader::_showsOverallAvatar
+    //     0xc15004: bl              #0xc150c8  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_profile_avatar_header.dart] YouProfileAvatarHeader::_showsOverallAvatar
     // 0xc15008: tbz             w0, #4, #0xc1501c
     // 0xc1500c: ldur            x0, [fp, #-0x18]
     // 0xc15010: LeaveFrame

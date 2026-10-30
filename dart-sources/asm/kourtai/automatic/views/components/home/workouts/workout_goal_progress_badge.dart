@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/home/workouts/workout_goal_progress_badge.dart
+// lib: , url: package:kourtai/automatic/views/components/home/workouts/workout_goal_progress_badge.dart
 
 // class id: 1048810, size: 0x8
 class :: {
@@ -24,11 +24,11 @@ class WorkoutGoalProgressBadge extends StatelessWidget {
     //     0xbbaa50: b.ls            #0xbbabb4
     // 0xbbaa54: mov             x1, x0
     // 0xbbaa58: r0 = _ringColor()
-    //     0xbbaa58: bl              #0xbbafb8  ; [package:ballai/automatic/views/components/home/workouts/workout_goal_progress_badge.dart] WorkoutGoalProgressBadge::_ringColor
+    //     0xbbaa58: bl              #0xbbafb8  ; [package:kourtai/automatic/views/components/home/workouts/workout_goal_progress_badge.dart] WorkoutGoalProgressBadge::_ringColor
     // 0xbbaa5c: ldur            x1, [fp, #-8]
     // 0xbbaa60: stur            x0, [fp, #-0x10]
     // 0xbbaa64: r0 = _ringProgress()
-    //     0xbbaa64: bl              #0xbbada4  ; [package:ballai/automatic/views/components/home/workouts/workout_goal_progress_badge.dart] WorkoutGoalProgressBadge::_ringProgress
+    //     0xbbaa64: bl              #0xbbada4  ; [package:kourtai/automatic/views/components/home/workouts/workout_goal_progress_badge.dart] WorkoutGoalProgressBadge::_ringProgress
     // 0xbbaa68: ldur            x0, [fp, #-8]
     // 0xbbaa6c: stur            d0, [fp, #-0x38]
     // 0xbbaa70: LoadField: d1 = r0->field_f
@@ -40,7 +40,7 @@ class WorkoutGoalProgressBadge extends StatelessWidget {
     // 0xbbaa80: mov             x1, x0
     // 0xbbaa84: stur            d3, [fp, #-0x28]
     // 0xbbaa88: r0 = _ringWidth()
-    //     0xbbaa88: bl              #0xbbad18  ; [package:ballai/automatic/views/components/home/workouts/workout_goal_progress_badge.dart] WorkoutGoalProgressBadge::_ringWidth
+    //     0xbbaa88: bl              #0xbbad18  ; [package:kourtai/automatic/views/components/home/workouts/workout_goal_progress_badge.dart] WorkoutGoalProgressBadge::_ringWidth
     // 0xbbaa8c: stur            d0, [fp, #-0x40]
     // 0xbbaa90: r0 = _GoalRingPainter()
     //     0xbbaa90: bl              #0xbbad0c  ; Allocate_GoalRingPainterStub -> _GoalRingPainter (size=0x20)
@@ -57,7 +57,7 @@ class WorkoutGoalProgressBadge extends StatelessWidget {
     //     0xbbaab0: stur            d0, [x2, #0x17]
     // 0xbbaab4: ldur            x1, [fp, #-8]
     // 0xbbaab8: r0 = _categoryIcon()
-    //     0xbbaab8: bl              #0xbbabec  ; [package:ballai/automatic/views/components/home/workouts/workout_goal_progress_badge.dart] WorkoutGoalProgressBadge::_categoryIcon
+    //     0xbbaab8: bl              #0xbbabec  ; [package:kourtai/automatic/views/components/home/workouts/workout_goal_progress_badge.dart] WorkoutGoalProgressBadge::_categoryIcon
     // 0xbbaabc: stur            x0, [fp, #-8]
     // 0xbbaac0: r0 = Icon()
     //     0xbbaac0: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -182,7 +182,7 @@ class WorkoutGoalProgressBadge extends StatelessWidget {
     //     0xbbabf8: cmp             SP, x16
     //     0xbbabfc: b.ls            #0xbbac50
     // 0xbbac00: r0 = _categoryKey()
-    //     0xbbac00: bl              #0xbbac58  ; [package:ballai/automatic/views/components/home/workouts/workout_goal_progress_badge.dart] WorkoutGoalProgressBadge::_categoryKey
+    //     0xbbac00: bl              #0xbbac58  ; [package:kourtai/automatic/views/components/home/workouts/workout_goal_progress_badge.dart] WorkoutGoalProgressBadge::_categoryKey
     // 0xbbac04: mov             x2, x0
     // 0xbbac08: r1 = _ConstMap len:5
     //     0xbbac08: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fe98] Map<String, PrimaryCategoryDef>(5)
@@ -232,7 +232,7 @@ class WorkoutGoalProgressBadge extends StatelessWidget {
     // 0xbbac78: mov             x1, x0
     // 0xbbac7c: stur            x0, [fp, #-8]
     // 0xbbac80: r0 = isDribblingWorkout()
-    //     0xbbac80: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0xbbac80: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0xbbac84: tbnz            w0, #4, #0xbbac9c
     // 0xbbac88: r0 = "dribbling"
     //     0xbbac88: add             x0, PP, #0x20, lsl #12  ; [pp+0x20db0] "dribbling"
@@ -267,7 +267,7 @@ class WorkoutGoalProgressBadge extends StatelessWidget {
     // 0xbbacd8: cbz             w1, #0xbbacf0
     // 0xbbacdc: mov             x1, x0
     // 0xbbace0: r0 = normalizeDrillLaneKey()
-    //     0xbbace0: bl              #0x5ed8fc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
+    //     0xbbace0: bl              #0x5ed8fc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
     // 0xbbace4: LeaveFrame
     //     0xbbace4: mov             SP, fp
     //     0xbbace8: ldp             fp, lr, [SP], #0x10
@@ -357,7 +357,7 @@ class WorkoutGoalProgressBadge extends StatelessWidget {
     // 0xbbadc4: mov             x1, x0
     // 0xbbadc8: stur            x0, [fp, #-8]
     // 0xbbadcc: r0 = hasBoundedWorkoutGoal()
-    //     0xbbadcc: bl              #0xbbae58  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::hasBoundedWorkoutGoal
+    //     0xbbadcc: bl              #0xbbae58  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::hasBoundedWorkoutGoal
     // 0xbbadd0: tbz             w0, #4, #0xbbade4
     // 0xbbadd4: d0 = 1.000000
     //     0xbbadd4: fmov            d0, #1.00000000
@@ -368,7 +368,7 @@ class WorkoutGoalProgressBadge extends StatelessWidget {
     //     0xbbade0: ret             
     // 0xbbade4: ldur            x1, [fp, #-8]
     // 0xbbade8: r0 = goalPercentage()
-    //     0xbbade8: bl              #0x96dcf8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::goalPercentage
+    //     0xbbade8: bl              #0x96dcf8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::goalPercentage
     // 0xbbadec: mov             v1.16b, v0.16b
     // 0xbbadf0: d0 = 100.000000
     //     0xbbadf0: ldr             d0, [PP, #0x5948]  ; [pp+0x5948] IMM: double(100) from 0x4059000000000000
@@ -420,10 +420,10 @@ class WorkoutGoalProgressBadge extends StatelessWidget {
     //     0xbbafc4: cmp             SP, x16
     //     0xbbafc8: b.ls            #0xbbafe4
     // 0xbbafcc: r0 = _categoryKey()
-    //     0xbbafcc: bl              #0xbbac58  ; [package:ballai/automatic/views/components/home/workouts/workout_goal_progress_badge.dart] WorkoutGoalProgressBadge::_categoryKey
+    //     0xbbafcc: bl              #0xbbac58  ; [package:kourtai/automatic/views/components/home/workouts/workout_goal_progress_badge.dart] WorkoutGoalProgressBadge::_categoryKey
     // 0xbbafd0: mov             x1, x0
     // 0xbbafd4: r0 = accentColor()
-    //     0xbbafd4: bl              #0xa33c34  ; [package:ballai/video_tracking/views/drills/widgets/drill_library_category_item.dart] DrillPrimaryCategory::accentColor
+    //     0xbbafd4: bl              #0xa33c34  ; [package:kourtai/video_tracking/views/drills/widgets/drill_library_category_item.dart] DrillPrimaryCategory::accentColor
     // 0xbbafd8: LeaveFrame
     //     0xbbafd8: mov             SP, fp
     //     0xbbafdc: ldp             fp, lr, [SP], #0x10

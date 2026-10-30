@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_policy_links.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_policy_links.dart
 
 // class id: 1048837, size: 0x8
 class :: {
@@ -209,7 +209,7 @@ abstract class AccountSetupPolicyLinks extends Object {
     // 0x945544: LoadField: r0 = r3->field_7
     //     0x945544: ldur            w0, [x3, #7]
     // 0x945548: cbz             w0, #0x9455a8
-    // 0x94554c: r0 = InitLateStaticField(0xed8) // [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_policy_links.dart] AccountSetupPolicyLinks::_live
+    // 0x94554c: r0 = InitLateStaticField(0xed8) // [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_policy_links.dart] AccountSetupPolicyLinks::_live
     //     0x94554c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x945550: ldr             x0, [x0, #0x1db0]
     //     0x945554: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -333,7 +333,7 @@ abstract class AccountSetupPolicyLinks extends Object {
     //     0x9ed954: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x9ed958: cmp             SP, x16
     //     0x9ed95c: b.ls            #0x9ed9f8
-    // 0x9ed960: r0 = InitLateStaticField(0xed8) // [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_policy_links.dart] AccountSetupPolicyLinks::_live
+    // 0x9ed960: r0 = InitLateStaticField(0xed8) // [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_policy_links.dart] AccountSetupPolicyLinks::_live
     //     0x9ed960: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x9ed964: ldr             x0, [x0, #0x1db0]
     //     0x9ed968: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel

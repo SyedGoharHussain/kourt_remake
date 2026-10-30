@@ -1,11 +1,11 @@
-// lib: , url: package:ballai/automatic/app/boot/ball_ai_boot.dart
+// lib: , url: package:kourtai/automatic/app/boot/kourt_ai_boot.dart
 
 // class id: 1048629, size: 0x8
 class :: {
 }
 
 // class id: 5308, size: 0x8, field offset: 0x8
-abstract class BallAiBoot extends Object {
+abstract class KourtAiBoot extends Object {
 
   static _ run(/* No info */) async {
     // ** addr: 0xc2987c, size: 0x1d4
@@ -20,24 +20,24 @@ abstract class BallAiBoot extends Object {
     //     0xc2988c: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xc29890: cmp             SP, x16
     //     0xc29894: b.ls            #0xc29a48
-    // 0xc29898: InitAsync() -> Future<BallAiBootResult>
-    //     0xc29898: add             x0, PP, #9, lsl #12  ; [pp+0x99b0] TypeArguments: <BallAiBootResult>
+    // 0xc29898: InitAsync() -> Future<KourtAiBootResult>
+    //     0xc29898: add             x0, PP, #9, lsl #12  ; [pp+0x99b0] TypeArguments: <KourtAiBootResult>
     //     0xc2989c: ldr             x0, [x0, #0x9b0]
     //     0xc298a0: bl              #0x60afc8  ; InitAsyncStub
     // 0xc298a4: r0 = ensureInitialized()
     //     0xc298a4: bl              #0x664a90  ; [package:flutter/src/widgets/binding.dart] WidgetsFlutterBinding::ensureInitialized
     // 0xc298a8: r0 = markAppStart()
-    //     0xc298a8: bl              #0xc2ab14  ; [package:ballai/automatic/utility/launch/launch_perf.dart] LaunchPerf::markAppStart
+    //     0xc298a8: bl              #0xc2ab14  ; [package:kourtai/automatic/utility/launch/launch_perf.dart] LaunchPerf::markAppStart
     // 0xc298ac: r0 = _installErrorHooks()
-    //     0xc298ac: bl              #0xc2a908  ; [package:ballai/automatic/app/boot/ball_ai_boot.dart] BallAiBoot::_installErrorHooks
-    // 0xc298b0: r1 = Instance_BallAiLogCategory
-    //     0xc298b0: add             x1, PP, #9, lsl #12  ; [pp+0x99b8] Obj!BallAiLogCategory@d3bcc1
+    //     0xc298ac: bl              #0xc2a908  ; [package:kourtai/automatic/app/boot/kourt_ai_boot.dart] KourtAiBoot::_installErrorHooks
+    // 0xc298b0: r1 = Instance_KourtAiLogCategory
+    //     0xc298b0: add             x1, PP, #9, lsl #12  ; [pp+0x99b8] Obj!KourtAiLogCategory@d3bcc1
     //     0xc298b4: ldr             x1, [x1, #0x9b8]
     // 0xc298b8: r2 = "class A: system + persistence"
     //     0xc298b8: add             x2, PP, #9, lsl #12  ; [pp+0x99c0] "class A: system + persistence"
     //     0xc298bc: ldr             x2, [x2, #0x9c0]
     // 0xc298c0: r0 = info()
-    //     0xc298c0: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
+    //     0xc298c0: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
     // 0xc298c4: r0 = toggle()
     //     0xc298c4: bl              #0xc2a454  ; [package:wakelock_plus/wakelock_plus.dart] WakelockPlus::toggle
     // 0xc298c8: mov             x1, x0
@@ -45,7 +45,7 @@ abstract class BallAiBoot extends Object {
     // 0xc298d0: r0 = Await()
     //     0xc298d0: bl              #0x60ad4c  ; AwaitStub
     // 0xc298d4: r0 = _warmVideoWorkoutDefaults()
-    //     0xc298d4: bl              #0xc2a3a0  ; [package:ballai/automatic/app/boot/ball_ai_boot.dart] BallAiBoot::_warmVideoWorkoutDefaults
+    //     0xc298d4: bl              #0xc2a3a0  ; [package:kourtai/automatic/app/boot/kourt_ai_boot.dart] KourtAiBoot::_warmVideoWorkoutDefaults
     // 0xc298d8: mov             x1, x0
     // 0xc298dc: stur            x1, [fp, #-0x60]
     // 0xc298e0: r0 = Await()
@@ -58,26 +58,26 @@ abstract class BallAiBoot extends Object {
     //     0xc298f0: bl              #0x60ad4c  ; AwaitStub
     // 0xc298f4: r0 = onBackgroundMessage()
     //     0xc298f4: bl              #0xc29e48  ; [package:firebase_messaging/firebase_messaging.dart] FirebaseMessaging::onBackgroundMessage
-    // 0xc298f8: r1 = Instance_BallAiLogCategory
-    //     0xc298f8: add             x1, PP, #9, lsl #12  ; [pp+0x99b8] Obj!BallAiLogCategory@d3bcc1
+    // 0xc298f8: r1 = Instance_KourtAiLogCategory
+    //     0xc298f8: add             x1, PP, #9, lsl #12  ; [pp+0x99b8] Obj!KourtAiLogCategory@d3bcc1
     //     0xc298fc: ldr             x1, [x1, #0x9b8]
     // 0xc29900: r2 = "class A: Firebase"
     //     0xc29900: add             x2, PP, #9, lsl #12  ; [pp+0x99c8] "class A: Firebase"
     //     0xc29904: ldr             x2, [x2, #0x9c8]
     // 0xc29908: r0 = info()
-    //     0xc29908: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
+    //     0xc29908: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
     // 0xc2990c: r0 = configure()
-    //     0xc2990c: bl              #0xc29ce8  ; [package:ballai/automatic/lib/firebase/root/firebase_sdk.dart] FirebaseSDK::configure
+    //     0xc2990c: bl              #0xc29ce8  ; [package:kourtai/automatic/lib/firebase/root/firebase_sdk.dart] FirebaseSDK::configure
     // 0xc29910: mov             x1, x0
     // 0xc29914: stur            x1, [fp, #-0x60]
     // 0xc29918: r0 = Await()
     //     0xc29918: bl              #0x60ad4c  ; AwaitStub
     // 0xc2991c: r0 = instance()
-    //     0xc2991c: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0xc2991c: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0xc29920: stur            x0, [fp, #-0x60]
     // 0xc29924: mov             x1, x0
     // 0xc29928: r0 = load()
-    //     0xc29928: bl              #0xc29c54  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::load
+    //     0xc29928: bl              #0xc29c54  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::load
     // 0xc2992c: mov             x1, x0
     // 0xc29930: stur            x1, [fp, #-0x68]
     // 0xc29934: r0 = Await()
@@ -89,8 +89,8 @@ abstract class BallAiBoot extends Object {
     // 0xc29948: mov             x0, x16
     // 0xc2994c: stur            x0, [fp, #-0x68]
     // 0xc29950: str             x1, [SP]
-    // 0xc29954: r1 = Instance_BallAiLogCategory
-    //     0xc29954: add             x1, PP, #9, lsl #12  ; [pp+0x99b8] Obj!BallAiLogCategory@d3bcc1
+    // 0xc29954: r1 = Instance_KourtAiLogCategory
+    //     0xc29954: add             x1, PP, #9, lsl #12  ; [pp+0x99b8] Obj!KourtAiLogCategory@d3bcc1
     //     0xc29958: ldr             x1, [x1, #0x9b8]
     // 0xc2995c: r2 = "language load failed; continuing with defaults"
     //     0xc2995c: add             x2, PP, #9, lsl #12  ; [pp+0x99d0] "language load failed; continuing with defaults"
@@ -99,7 +99,7 @@ abstract class BallAiBoot extends Object {
     //     0xc29964: add             x4, PP, #9, lsl #12  ; [pp+0x99d8] List(7) [0, 0x3, 0x1, 0x2, "error", 0x2, Null]
     //     0xc29968: ldr             x4, [x4, #0x9d8]
     // 0xc2996c: r0 = warn()
-    //     0xc2996c: bl              #0x65ea60  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::warn
+    //     0xc2996c: bl              #0x65ea60  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::warn
     // 0xc29970: r0 = InitLateStaticField(0x62c) // [package:flutter/src/foundation/print.dart] ::debugPrint
     //     0xc29970: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xc29974: ldr             x0, [x0, #0xc58]
@@ -124,25 +124,25 @@ abstract class BallAiBoot extends Object {
     // 0xc299b0: mov             x1, x0
     // 0xc299b4: stur            x0, [fp, #-0x68]
     // 0xc299b8: r0 = RevenueCatManager()
-    //     0xc299b8: bl              #0xc2ef10  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::RevenueCatManager
+    //     0xc299b8: bl              #0xc2ef10  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::RevenueCatManager
     // 0xc299bc: ldur            x1, [fp, #-0x68]
     // 0xc299c0: r0 = _configureRevenueCat()
-    //     0xc299c0: bl              #0xc29b6c  ; [package:ballai/automatic/app/boot/ball_ai_boot.dart] BallAiBoot::_configureRevenueCat
+    //     0xc299c0: bl              #0xc29b6c  ; [package:kourtai/automatic/app/boot/kourt_ai_boot.dart] KourtAiBoot::_configureRevenueCat
     // 0xc299c4: r0 = _warmBrandVideos()
-    //     0xc299c4: bl              #0xc29ab4  ; [package:ballai/automatic/app/boot/ball_ai_boot.dart] BallAiBoot::_warmBrandVideos
-    // 0xc299c8: r1 = Instance_BallAiLogCategory
-    //     0xc299c8: add             x1, PP, #9, lsl #12  ; [pp+0x99b8] Obj!BallAiLogCategory@d3bcc1
+    //     0xc299c4: bl              #0xc29ab4  ; [package:kourtai/automatic/app/boot/kourt_ai_boot.dart] KourtAiBoot::_warmBrandVideos
+    // 0xc299c8: r1 = Instance_KourtAiLogCategory
+    //     0xc299c8: add             x1, PP, #9, lsl #12  ; [pp+0x99b8] Obj!KourtAiLogCategory@d3bcc1
     //     0xc299cc: ldr             x1, [x1, #0x9b8]
     // 0xc299d0: r2 = "ready for first frame"
     //     0xc299d0: add             x2, PP, #9, lsl #12  ; [pp+0x99e0] "ready for first frame"
     //     0xc299d4: ldr             x2, [x2, #0x9e0]
     // 0xc299d8: r0 = info()
-    //     0xc299d8: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
-    // 0xc299dc: r0 = BallAiBootResult()
-    //     0xc299dc: bl              #0xc29aa8  ; AllocateBallAiBootResultStub -> BallAiBootResult (size=0x18)
+    //     0xc299d8: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
+    // 0xc299dc: r0 = KourtAiBootResult()
+    //     0xc299dc: bl              #0xc29aa8  ; AllocateKourtAiBootResultStub -> KourtAiBootResult (size=0x18)
     // 0xc299e0: mov             x1, x0
-    // 0xc299e4: r0 = Instance_BallAiBootState
-    //     0xc299e4: add             x0, PP, #9, lsl #12  ; [pp+0x99e8] Obj!BallAiBootState@d3bde1
+    // 0xc299e4: r0 = Instance_KourtAiBootState
+    //     0xc299e4: add             x0, PP, #9, lsl #12  ; [pp+0x99e8] Obj!KourtAiBootState@d3bde1
     //     0xc299e8: ldr             x0, [x0, #0x9e8]
     // 0xc299ec: StoreField: r1->field_7 = r0
     //     0xc299ec: stur            w0, [x1, #7]
@@ -158,23 +158,23 @@ abstract class BallAiBoot extends Object {
     // 0xc29a08: sub             SP, fp, #0x70
     // 0xc29a0c: mov             x3, x0
     // 0xc29a10: mov             x5, x1
-    // 0xc29a14: r1 = Instance_BallAiLogCategory
-    //     0xc29a14: add             x1, PP, #9, lsl #12  ; [pp+0x99f0] Obj!BallAiLogCategory@d3bca1
+    // 0xc29a14: r1 = Instance_KourtAiLogCategory
+    //     0xc29a14: add             x1, PP, #9, lsl #12  ; [pp+0x99f0] Obj!KourtAiLogCategory@d3bca1
     //     0xc29a18: ldr             x1, [x1, #0x9f0]
     // 0xc29a1c: r2 = "Firebase configure failed"
     //     0xc29a1c: add             x2, PP, #9, lsl #12  ; [pp+0x99f8] "Firebase configure failed"
     //     0xc29a20: ldr             x2, [x2, #0x9f8]
     // 0xc29a24: r0 = error()
-    //     0xc29a24: bl              #0xc29a50  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::error
-    // 0xc29a28: r0 = BallAiBootResult()
-    //     0xc29a28: bl              #0xc29aa8  ; AllocateBallAiBootResultStub -> BallAiBootResult (size=0x18)
-    // 0xc29a2c: r1 = Instance_BallAiBootState
-    //     0xc29a2c: add             x1, PP, #9, lsl #12  ; [pp+0x9a00] Obj!BallAiBootState@d3be01
+    //     0xc29a24: bl              #0xc29a50  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::error
+    // 0xc29a28: r0 = KourtAiBootResult()
+    //     0xc29a28: bl              #0xc29aa8  ; AllocateKourtAiBootResultStub -> KourtAiBootResult (size=0x18)
+    // 0xc29a2c: r1 = Instance_KourtAiBootState
+    //     0xc29a2c: add             x1, PP, #9, lsl #12  ; [pp+0x9a00] Obj!KourtAiBootState@d3be01
     //     0xc29a30: ldr             x1, [x1, #0xa00]
     // 0xc29a34: StoreField: r0->field_7 = r1
     //     0xc29a34: stur            w1, [x0, #7]
-    // 0xc29a38: r1 = "Could not start Ball AI. Check your connection and try again."
-    //     0xc29a38: add             x1, PP, #9, lsl #12  ; [pp+0x9a08] "Could not start Ball AI. Check your connection and try again."
+    // 0xc29a38: r1 = "Could not start Kourt AI. Check your connection and try again."
+    //     0xc29a38: add             x1, PP, #9, lsl #12  ; [pp+0x9a08] "Could not start Kourt AI. Check your connection and try again."
     //     0xc29a3c: ldr             x1, [x1, #0xa08]
     // 0xc29a40: StoreField: r0->field_b = r1
     //     0xc29a40: stur            w1, [x0, #0xb]
@@ -225,7 +225,7 @@ abstract class BallAiBoot extends Object {
     // 0xc29b18: mov             x1, x0
     // 0xc29b1c: stur            x0, [fp, #-0x48]
     // 0xc29b20: r0 = prepareForLaunch()
-    //     0xc29b20: bl              #0x98d280  ; [package:ballai/automatic/views/components/splash_brand_looping_video_view.dart] BrandVideoCache::prepareForLaunch
+    //     0xc29b20: bl              #0x98d280  ; [package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart] BrandVideoCache::prepareForLaunch
     // 0xc29b24: mov             x1, x0
     // 0xc29b28: stur            x1, [fp, #-0x50]
     // 0xc29b2c: r0 = Await()
@@ -233,8 +233,8 @@ abstract class BallAiBoot extends Object {
     // 0xc29b30: b               #0xc29b58
     // 0xc29b34: sub             SP, fp, #0x58
     // 0xc29b38: str             x0, [SP]
-    // 0xc29b3c: r1 = Instance_BallAiLogCategory
-    //     0xc29b3c: add             x1, PP, #9, lsl #12  ; [pp+0x99b8] Obj!BallAiLogCategory@d3bcc1
+    // 0xc29b3c: r1 = Instance_KourtAiLogCategory
+    //     0xc29b3c: add             x1, PP, #9, lsl #12  ; [pp+0x99b8] Obj!KourtAiLogCategory@d3bcc1
     //     0xc29b40: ldr             x1, [x1, #0x9b8]
     // 0xc29b44: r2 = "brand video cache failed; surfaces fall back to on-demand load"
     //     0xc29b44: add             x2, PP, #9, lsl #12  ; [pp+0x9ab8] "brand video cache failed; surfaces fall back to on-demand load"
@@ -243,7 +243,7 @@ abstract class BallAiBoot extends Object {
     //     0xc29b4c: add             x4, PP, #9, lsl #12  ; [pp+0x99d8] List(7) [0, 0x3, 0x1, 0x2, "error", 0x2, Null]
     //     0xc29b50: ldr             x4, [x4, #0x9d8]
     // 0xc29b54: r0 = warn()
-    //     0xc29b54: bl              #0x65ea60  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::warn
+    //     0xc29b54: bl              #0x65ea60  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::warn
     // 0xc29b58: r0 = Null
     //     0xc29b58: mov             x0, NULL
     // 0xc29b5c: r0 = ReturnAsyncNotFuture()
@@ -274,7 +274,7 @@ abstract class BallAiBoot extends Object {
     // 0xc29b94: ldur            x0, [fp, #-0x58]
     // 0xc29b98: mov             x1, x0
     // 0xc29b9c: r0 = configure()
-    //     0xc29b9c: bl              #0x90361c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::configure
+    //     0xc29b9c: bl              #0x90361c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::configure
     // 0xc29ba0: mov             x1, x0
     // 0xc29ba4: stur            x1, [fp, #-0x60]
     // 0xc29ba8: r0 = Await()
@@ -285,8 +285,8 @@ abstract class BallAiBoot extends Object {
     // 0xc29bb4: DecompressPointer r1
     //     0xc29bb4: add             x1, x1, HEAP, lsl #32
     // 0xc29bb8: tbz             w1, #4, #0xc29c44
-    // 0xc29bbc: r1 = Instance_BallAiLogCategory
-    //     0xc29bbc: add             x1, PP, #9, lsl #12  ; [pp+0x9ef0] Obj!BallAiLogCategory@d3bc81
+    // 0xc29bbc: r1 = Instance_KourtAiLogCategory
+    //     0xc29bbc: add             x1, PP, #9, lsl #12  ; [pp+0x9ef0] Obj!KourtAiLogCategory@d3bc81
     //     0xc29bc0: ldr             x1, [x1, #0xef0]
     // 0xc29bc4: r2 = "configure skipped or incomplete; subscription UI can retry"
     //     0xc29bc4: add             x2, PP, #9, lsl #12  ; [pp+0x9ef8] "configure skipped or incomplete; subscription UI can retry"
@@ -294,7 +294,7 @@ abstract class BallAiBoot extends Object {
     // 0xc29bcc: r4 = const [0, 0x2, 0, 0x2, null]
     //     0xc29bcc: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0xc29bd0: r0 = warn()
-    //     0xc29bd0: bl              #0x65ea60  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::warn
+    //     0xc29bd0: bl              #0x65ea60  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::warn
     // 0xc29bd4: b               #0xc29c44
     // 0xc29bd8: sub             SP, fp, #0x68
     // 0xc29bdc: mov             x16, x1
@@ -302,8 +302,8 @@ abstract class BallAiBoot extends Object {
     // 0xc29be4: mov             x0, x16
     // 0xc29be8: stur            x0, [fp, #-0x58]
     // 0xc29bec: str             x1, [SP]
-    // 0xc29bf0: r1 = Instance_BallAiLogCategory
-    //     0xc29bf0: add             x1, PP, #9, lsl #12  ; [pp+0x9ef0] Obj!BallAiLogCategory@d3bc81
+    // 0xc29bf0: r1 = Instance_KourtAiLogCategory
+    //     0xc29bf0: add             x1, PP, #9, lsl #12  ; [pp+0x9ef0] Obj!KourtAiLogCategory@d3bc81
     //     0xc29bf4: ldr             x1, [x1, #0xef0]
     // 0xc29bf8: r2 = "configure failed; app continues"
     //     0xc29bf8: add             x2, PP, #9, lsl #12  ; [pp+0x9f00] "configure failed; app continues"
@@ -312,7 +312,7 @@ abstract class BallAiBoot extends Object {
     //     0xc29c00: add             x4, PP, #9, lsl #12  ; [pp+0x99d8] List(7) [0, 0x3, 0x1, 0x2, "error", 0x2, Null]
     //     0xc29c04: ldr             x4, [x4, #0x9d8]
     // 0xc29c08: r0 = warn()
-    //     0xc29c08: bl              #0x65ea60  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::warn
+    //     0xc29c08: bl              #0x65ea60  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::warn
     // 0xc29c0c: r0 = InitLateStaticField(0x62c) // [package:flutter/src/foundation/print.dart] ::debugPrint
     //     0xc29c0c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xc29c10: ldr             x0, [x0, #0xc58]
@@ -356,49 +356,49 @@ abstract class BallAiBoot extends Object {
     //     0xc2a3bc: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0xc2a3c0: bl              #0x60afc8  ; InitAsyncStub
     // 0xc2a3c4: r0 = warmCache()
-    //     0xc2a3c4: bl              #0x99ad28  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_ai_coach.dart] DefaultsVideoWorkoutAICoach::warmCache
+    //     0xc2a3c4: bl              #0x99ad28  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_ai_coach.dart] DefaultsVideoWorkoutAICoach::warmCache
     // 0xc2a3c8: mov             x1, x0
     // 0xc2a3cc: stur            x1, [fp, #-0x10]
     // 0xc2a3d0: r0 = Await()
     //     0xc2a3d0: bl              #0x60ad4c  ; AwaitStub
     // 0xc2a3d4: r0 = warmCache()
-    //     0xc2a3d4: bl              #0xabc39c  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_hls_recording.dart] DefaultsVideoWorkoutHlsRecording::warmCache
+    //     0xc2a3d4: bl              #0xabc39c  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_hls_recording.dart] DefaultsVideoWorkoutHlsRecording::warmCache
     // 0xc2a3d8: mov             x1, x0
     // 0xc2a3dc: stur            x1, [fp, #-0x10]
     // 0xc2a3e0: r0 = Await()
     //     0xc2a3e0: bl              #0x60ad4c  ; AwaitStub
     // 0xc2a3e4: r0 = warmCache()
-    //     0xc2a3e4: bl              #0xabc220  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::warmCache
+    //     0xc2a3e4: bl              #0xabc220  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::warmCache
     // 0xc2a3e8: mov             x1, x0
     // 0xc2a3ec: stur            x1, [fp, #-0x10]
     // 0xc2a3f0: r0 = Await()
     //     0xc2a3f0: bl              #0x60ad4c  ; AwaitStub
     // 0xc2a3f4: r0 = warmCache()
-    //     0xc2a3f4: bl              #0xabbf04  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_capture_quality.dart] DefaultsVideoWorkoutCaptureQuality::warmCache
+    //     0xc2a3f4: bl              #0xabbf04  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_capture_quality.dart] DefaultsVideoWorkoutCaptureQuality::warmCache
     // 0xc2a3f8: mov             x1, x0
     // 0xc2a3fc: stur            x1, [fp, #-0x10]
     // 0xc2a400: r0 = Await()
     //     0xc2a400: bl              #0x60ad4c  ; AwaitStub
     // 0xc2a404: r0 = warmCache()
-    //     0xc2a404: bl              #0xabb9e8  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::warmCache
+    //     0xc2a404: bl              #0xabb9e8  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::warmCache
     // 0xc2a408: mov             x1, x0
     // 0xc2a40c: stur            x1, [fp, #-0x10]
     // 0xc2a410: r0 = Await()
     //     0xc2a410: bl              #0x60ad4c  ; AwaitStub
     // 0xc2a414: r0 = warmCache()
-    //     0xc2a414: bl              #0xabb9a4  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_camera_mount.dart] DefaultsVideoWorkoutCameraMount::warmCache
+    //     0xc2a414: bl              #0xabb9a4  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_camera_mount.dart] DefaultsVideoWorkoutCameraMount::warmCache
     // 0xc2a418: mov             x1, x0
     // 0xc2a41c: stur            x1, [fp, #-0x10]
     // 0xc2a420: r0 = Await()
     //     0xc2a420: bl              #0x60ad4c  ; AwaitStub
     // 0xc2a424: r0 = warmCache()
-    //     0xc2a424: bl              #0xabb920  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_setup_tutorial.dart] DefaultsVideoWorkoutSetupTutorial::warmCache
+    //     0xc2a424: bl              #0xabb920  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_setup_tutorial.dart] DefaultsVideoWorkoutSetupTutorial::warmCache
     // 0xc2a428: mov             x1, x0
     // 0xc2a42c: stur            x1, [fp, #-0x10]
     // 0xc2a430: r0 = Await()
     //     0xc2a430: bl              #0x60ad4c  ; AwaitStub
     // 0xc2a434: r0 = warmCache()
-    //     0xc2a434: bl              #0xabbec0  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_court_mode.dart] DefaultsVideoWorkoutCourtMode::warmCache
+    //     0xc2a434: bl              #0xabbec0  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_court_mode.dart] DefaultsVideoWorkoutCourtMode::warmCache
     // 0xc2a438: mov             x1, x0
     // 0xc2a43c: stur            x1, [fp, #-0x10]
     // 0xc2a440: r0 = Await()
@@ -439,7 +439,7 @@ abstract class BallAiBoot extends Object {
     //     0xc2a940: ldr             x1, [THR, #0x68]  ; THR::field_table_values
     //     0xc2a944: str             x0, [x1, #0x17f0]
     // 0xc2a948: r1 = Function '<anonymous closure>': static.
-    //     0xc2a948: add             x1, PP, #0xb, lsl #12  ; [pp+0xb668] AnonymousClosure: static (0xc2aa8c), in [package:ballai/automatic/app/boot/ball_ai_boot.dart] BallAiBoot::_installErrorHooks (0xc2a908)
+    //     0xc2a948: add             x1, PP, #0xb, lsl #12  ; [pp+0xb668] AnonymousClosure: static (0xc2aa8c), in [package:kourtai/automatic/app/boot/kourt_ai_boot.dart] KourtAiBoot::_installErrorHooks (0xc2a908)
     //     0xc2a94c: ldr             x1, [x1, #0x668]
     // 0xc2a950: r2 = Null
     //     0xc2a950: mov             x2, NULL
@@ -457,7 +457,7 @@ abstract class BallAiBoot extends Object {
     //     0xc2a974: ldr             x2, [PP, #0x1830]  ; [pp+0x1830] Field <PlatformDispatcher._instance@17065589>: static late final (offset: 0x570)
     //     0xc2a978: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0xc2a97c: r1 = Function '<anonymous closure>': static.
-    //     0xc2a97c: add             x1, PP, #0xb, lsl #12  ; [pp+0xb670] AnonymousClosure: static (0xc2aa44), in [package:ballai/automatic/app/boot/ball_ai_boot.dart] BallAiBoot::_installErrorHooks (0xc2a908)
+    //     0xc2a97c: add             x1, PP, #0xb, lsl #12  ; [pp+0xb670] AnonymousClosure: static (0xc2aa44), in [package:kourtai/automatic/app/boot/kourt_ai_boot.dart] KourtAiBoot::_installErrorHooks (0xc2a908)
     //     0xc2a980: ldr             x1, [x1, #0x670]
     // 0xc2a984: r2 = Null
     //     0xc2a984: mov             x2, NULL
@@ -490,14 +490,14 @@ abstract class BallAiBoot extends Object {
     //     0xc2aa54: b.ls            #0xc2aa84
     // 0xc2aa58: ldr             x3, [fp, #0x18]
     // 0xc2aa5c: ldr             x5, [fp, #0x10]
-    // 0xc2aa60: r1 = Instance_BallAiLogCategory
-    //     0xc2aa60: add             x1, PP, #9, lsl #12  ; [pp+0x99b8] Obj!BallAiLogCategory@d3bcc1
+    // 0xc2aa60: r1 = Instance_KourtAiLogCategory
+    //     0xc2aa60: add             x1, PP, #9, lsl #12  ; [pp+0x99b8] Obj!KourtAiLogCategory@d3bcc1
     //     0xc2aa64: ldr             x1, [x1, #0x9b8]
     // 0xc2aa68: r2 = "uncaught async error"
     //     0xc2aa68: add             x2, PP, #0xb, lsl #12  ; [pp+0xb678] "uncaught async error"
     //     0xc2aa6c: ldr             x2, [x2, #0x678]
     // 0xc2aa70: r0 = error()
-    //     0xc2aa70: bl              #0xc29a50  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::error
+    //     0xc2aa70: bl              #0xc29a50  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::error
     // 0xc2aa74: r0 = true
     //     0xc2aa74: add             x0, NULL, #0x20  ; true
     // 0xc2aa78: LeaveFrame
@@ -529,14 +529,14 @@ abstract class BallAiBoot extends Object {
     //     0xc2aab0: ldur            w5, [x0, #0xb]
     // 0xc2aab4: DecompressPointer r5
     //     0xc2aab4: add             x5, x5, HEAP, lsl #32
-    // 0xc2aab8: r1 = Instance_BallAiLogCategory
-    //     0xc2aab8: add             x1, PP, #9, lsl #12  ; [pp+0x99b8] Obj!BallAiLogCategory@d3bcc1
+    // 0xc2aab8: r1 = Instance_KourtAiLogCategory
+    //     0xc2aab8: add             x1, PP, #9, lsl #12  ; [pp+0x99b8] Obj!KourtAiLogCategory@d3bcc1
     //     0xc2aabc: ldr             x1, [x1, #0x9b8]
     // 0xc2aac0: r2 = "Flutter framework error"
     //     0xc2aac0: add             x2, PP, #0xb, lsl #12  ; [pp+0xb680] "Flutter framework error"
     //     0xc2aac4: ldr             x2, [x2, #0x680]
     // 0xc2aac8: r0 = error()
-    //     0xc2aac8: bl              #0xc29a50  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::error
+    //     0xc2aac8: bl              #0xc29a50  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::error
     // 0xc2aacc: r0 = InitLateStaticField(0x600) // [package:flutter/src/foundation/assertions.dart] FlutterError::presentError
     //     0xc2aacc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xc2aad0: ldr             x0, [x0, #0xc00]

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/detection/yolo/yolo_telemetry.dart
+// lib: , url: package:kourtai/video_tracking/detection/yolo/yolo_telemetry.dart
 
 // class id: 1049141, size: 0x8
 class :: {
@@ -335,56 +335,56 @@ class YoloTelemetry extends Object {
     // 0x792158: DecompressPointer r1
     //     0x792158: add             x1, x1, HEAP, lsl #32
     // 0x79215c: r0 = clear()
-    //     0x79215c: bl              #0x7921e8  ; [package:ballai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::clear
+    //     0x79215c: bl              #0x7921e8  ; [package:kourtai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::clear
     // 0x792160: ldur            x0, [fp, #-8]
     // 0x792164: LoadField: r1 = r0->field_b
     //     0x792164: ldur            w1, [x0, #0xb]
     // 0x792168: DecompressPointer r1
     //     0x792168: add             x1, x1, HEAP, lsl #32
     // 0x79216c: r0 = clear()
-    //     0x79216c: bl              #0x7921e8  ; [package:ballai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::clear
+    //     0x79216c: bl              #0x7921e8  ; [package:kourtai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::clear
     // 0x792170: ldur            x0, [fp, #-8]
     // 0x792174: LoadField: r1 = r0->field_f
     //     0x792174: ldur            w1, [x0, #0xf]
     // 0x792178: DecompressPointer r1
     //     0x792178: add             x1, x1, HEAP, lsl #32
     // 0x79217c: r0 = clear()
-    //     0x79217c: bl              #0x7921e8  ; [package:ballai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::clear
+    //     0x79217c: bl              #0x7921e8  ; [package:kourtai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::clear
     // 0x792180: ldur            x0, [fp, #-8]
     // 0x792184: LoadField: r1 = r0->field_13
     //     0x792184: ldur            w1, [x0, #0x13]
     // 0x792188: DecompressPointer r1
     //     0x792188: add             x1, x1, HEAP, lsl #32
     // 0x79218c: r0 = clear()
-    //     0x79218c: bl              #0x7921e8  ; [package:ballai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::clear
+    //     0x79218c: bl              #0x7921e8  ; [package:kourtai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::clear
     // 0x792190: ldur            x0, [fp, #-8]
     // 0x792194: ArrayLoad: r1 = r0[0]  ; List_4
     //     0x792194: ldur            w1, [x0, #0x17]
     // 0x792198: DecompressPointer r1
     //     0x792198: add             x1, x1, HEAP, lsl #32
     // 0x79219c: r0 = clear()
-    //     0x79219c: bl              #0x7921e8  ; [package:ballai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::clear
+    //     0x79219c: bl              #0x7921e8  ; [package:kourtai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::clear
     // 0x7921a0: ldur            x0, [fp, #-8]
     // 0x7921a4: LoadField: r1 = r0->field_1b
     //     0x7921a4: ldur            w1, [x0, #0x1b]
     // 0x7921a8: DecompressPointer r1
     //     0x7921a8: add             x1, x1, HEAP, lsl #32
     // 0x7921ac: r0 = clear()
-    //     0x7921ac: bl              #0x7921e8  ; [package:ballai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::clear
+    //     0x7921ac: bl              #0x7921e8  ; [package:kourtai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::clear
     // 0x7921b0: ldur            x0, [fp, #-8]
     // 0x7921b4: LoadField: r1 = r0->field_1f
     //     0x7921b4: ldur            w1, [x0, #0x1f]
     // 0x7921b8: DecompressPointer r1
     //     0x7921b8: add             x1, x1, HEAP, lsl #32
     // 0x7921bc: r0 = clear()
-    //     0x7921bc: bl              #0x7921e8  ; [package:ballai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::clear
+    //     0x7921bc: bl              #0x7921e8  ; [package:kourtai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::clear
     // 0x7921c0: ldur            x0, [fp, #-8]
     // 0x7921c4: LoadField: r1 = r0->field_23
     //     0x7921c4: ldur            w1, [x0, #0x23]
     // 0x7921c8: DecompressPointer r1
     //     0x7921c8: add             x1, x1, HEAP, lsl #32
     // 0x7921cc: r0 = clear()
-    //     0x7921cc: bl              #0x7921e8  ; [package:ballai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::clear
+    //     0x7921cc: bl              #0x7921e8  ; [package:kourtai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::clear
     // 0x7921d0: r0 = Null
     //     0x7921d0: mov             x0, NULL
     // 0x7921d4: LeaveFrame
@@ -443,7 +443,7 @@ class YoloTelemetry extends Object {
     //     0x792d30: stur            w16, [x0, #0xf]
     // 0x792d34: ldur            x1, [fp, #-8]
     // 0x792d38: r0 = percentile()
-    //     0x792d38: bl              #0x792fe8  ; [package:ballai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::percentile
+    //     0x792d38: bl              #0x792fe8  ; [package:kourtai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::percentile
     // 0x792d3c: mov             x2, x0
     // 0x792d40: r0 = BoxInt64Instr(r2)
     //     0x792d40: sbfiz           x0, x2, #1, #0x1f
@@ -474,7 +474,7 @@ class YoloTelemetry extends Object {
     // 0x792d94: DecompressPointer r1
     //     0x792d94: add             x1, x1, HEAP, lsl #32
     // 0x792d98: r0 = percentile()
-    //     0x792d98: bl              #0x792fe8  ; [package:ballai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::percentile
+    //     0x792d98: bl              #0x792fe8  ; [package:kourtai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::percentile
     // 0x792d9c: mov             x2, x0
     // 0x792da0: r0 = BoxInt64Instr(r2)
     //     0x792da0: sbfiz           x0, x2, #1, #0x1f
@@ -505,7 +505,7 @@ class YoloTelemetry extends Object {
     // 0x792df4: DecompressPointer r1
     //     0x792df4: add             x1, x1, HEAP, lsl #32
     // 0x792df8: r0 = percentile()
-    //     0x792df8: bl              #0x792fe8  ; [package:ballai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::percentile
+    //     0x792df8: bl              #0x792fe8  ; [package:kourtai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::percentile
     // 0x792dfc: mov             x2, x0
     // 0x792e00: r0 = BoxInt64Instr(r2)
     //     0x792e00: sbfiz           x0, x2, #1, #0x1f
@@ -537,7 +537,7 @@ class YoloTelemetry extends Object {
     //     0x792e54: add             x2, x2, HEAP, lsl #32
     // 0x792e58: mov             x1, x2
     // 0x792e5c: r0 = percentile()
-    //     0x792e5c: bl              #0x792fe8  ; [package:ballai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::percentile
+    //     0x792e5c: bl              #0x792fe8  ; [package:kourtai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::percentile
     // 0x792e60: mov             x2, x0
     // 0x792e64: r0 = BoxInt64Instr(r2)
     //     0x792e64: sbfiz           x0, x2, #1, #0x1f
@@ -704,7 +704,7 @@ class YoloTelemetry extends Object {
     // 0x793178: ret
     //     0x793178: ret             
     // 0x79317c: r1 = Function '<anonymous closure>':.
-    //     0x79317c: add             x1, PP, #0x41, lsl #12  ; [pp+0x41968] AnonymousClosure: static (0x713694), in [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
+    //     0x79317c: add             x1, PP, #0x41, lsl #12  ; [pp+0x41968] AnonymousClosure: static (0x713694), in [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
     //     0x793180: ldr             x1, [x1, #0x968]
     // 0x793184: r2 = Null
     //     0x793184: mov             x2, NULL
@@ -768,7 +768,7 @@ class YoloTelemetry extends Object {
     // 0x793214: r2 = 0
     //     0x793214: mov             x2, #0
     // 0x793218: r0 = add()
-    //     0x793218: bl              #0x793450  ; [package:ballai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::add
+    //     0x793218: bl              #0x793450  ; [package:kourtai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::add
     // 0x79321c: ldur            x0, [fp, #-8]
     // 0x793220: LoadField: r1 = r0->field_b
     //     0x793220: ldur            w1, [x0, #0xb]
@@ -778,7 +778,7 @@ class YoloTelemetry extends Object {
     // 0x79322c: LoadField: r2 = r3->field_f
     //     0x79322c: ldur            x2, [x3, #0xf]
     // 0x793230: r0 = add()
-    //     0x793230: bl              #0x793450  ; [package:ballai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::add
+    //     0x793230: bl              #0x793450  ; [package:kourtai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::add
     // 0x793234: ldur            x0, [fp, #-8]
     // 0x793238: LoadField: r1 = r0->field_f
     //     0x793238: ldur            w1, [x0, #0xf]
@@ -788,7 +788,7 @@ class YoloTelemetry extends Object {
     // 0x793244: ArrayLoad: r2 = r3[0]  ; List_8
     //     0x793244: ldur            x2, [x3, #0x17]
     // 0x793248: r0 = add()
-    //     0x793248: bl              #0x793450  ; [package:ballai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::add
+    //     0x793248: bl              #0x793450  ; [package:kourtai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::add
     // 0x79324c: ldur            x0, [fp, #-8]
     // 0x793250: LoadField: r1 = r0->field_13
     //     0x793250: ldur            w1, [x0, #0x13]
@@ -798,7 +798,7 @@ class YoloTelemetry extends Object {
     // 0x79325c: LoadField: r2 = r3->field_1f
     //     0x79325c: ldur            x2, [x3, #0x1f]
     // 0x793260: r0 = add()
-    //     0x793260: bl              #0x793450  ; [package:ballai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::add
+    //     0x793260: bl              #0x793450  ; [package:kourtai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::add
     // 0x793264: ldur            x0, [fp, #-8]
     // 0x793268: ArrayLoad: r1 = r0[0]  ; List_4
     //     0x793268: ldur            w1, [x0, #0x17]
@@ -808,7 +808,7 @@ class YoloTelemetry extends Object {
     // 0x793274: LoadField: r2 = r3->field_27
     //     0x793274: ldur            x2, [x3, #0x27]
     // 0x793278: r0 = add()
-    //     0x793278: bl              #0x793450  ; [package:ballai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::add
+    //     0x793278: bl              #0x793450  ; [package:kourtai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::add
     // 0x79327c: ldur            x0, [fp, #-8]
     // 0x793280: LoadField: r1 = r0->field_1b
     //     0x793280: ldur            w1, [x0, #0x1b]
@@ -818,7 +818,7 @@ class YoloTelemetry extends Object {
     // 0x79328c: LoadField: r2 = r3->field_2f
     //     0x79328c: ldur            x2, [x3, #0x2f]
     // 0x793290: r0 = add()
-    //     0x793290: bl              #0x793450  ; [package:ballai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::add
+    //     0x793290: bl              #0x793450  ; [package:kourtai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::add
     // 0x793294: ldur            x0, [fp, #-8]
     // 0x793298: LoadField: r1 = r0->field_1f
     //     0x793298: ldur            w1, [x0, #0x1f]
@@ -827,7 +827,7 @@ class YoloTelemetry extends Object {
     // 0x7932a0: r2 = 0
     //     0x7932a0: mov             x2, #0
     // 0x7932a4: r0 = add()
-    //     0x7932a4: bl              #0x793450  ; [package:ballai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::add
+    //     0x7932a4: bl              #0x793450  ; [package:kourtai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::add
     // 0x7932a8: ldur            x0, [fp, #-8]
     // 0x7932ac: LoadField: r1 = r0->field_23
     //     0x7932ac: ldur            w1, [x0, #0x23]
@@ -838,7 +838,7 @@ class YoloTelemetry extends Object {
     //     0x7932b8: ldur            x3, [x2, #0x3f]
     // 0x7932bc: mov             x2, x3
     // 0x7932c0: r0 = add()
-    //     0x7932c0: bl              #0x793450  ; [package:ballai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::add
+    //     0x7932c0: bl              #0x793450  ; [package:kourtai/video_tracking/detection/yolo/yolo_telemetry.dart] RollingIntStats::add
     // 0x7932c4: r0 = DateTime()
     //     0x7932c4: bl              #0x5feb08  ; AllocateDateTimeStub -> DateTime (size=0x18)
     // 0x7932c8: mov             x1, x0
@@ -992,7 +992,7 @@ class YoloTelemetry extends Object {
     // 0x793590: StoreField: r1->field_37 = r2
     //     0x793590: stur            x2, [x1, #0x37]
     // 0x793594: r0 = _recordEnqueueAndMaybeLog()
-    //     0x793594: bl              #0x7935b0  ; [package:ballai/video_tracking/detection/yolo/yolo_telemetry.dart] YoloTelemetry::_recordEnqueueAndMaybeLog
+    //     0x793594: bl              #0x7935b0  ; [package:kourtai/video_tracking/detection/yolo/yolo_telemetry.dart] YoloTelemetry::_recordEnqueueAndMaybeLog
     // 0x793598: r0 = Null
     //     0x793598: mov             x0, NULL
     // 0x79359c: LeaveFrame

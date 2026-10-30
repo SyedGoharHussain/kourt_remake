@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart
 
 // class id: 1048855, size: 0x8
 class :: {
@@ -179,7 +179,7 @@ class _PotentialBarStepperHorizontalState extends State<dynamic> {
     // 0x8ebd40: tbz             w4, #4, #0x8ebd68
     // 0x8ebd44: ldur            x2, [fp, #-0x18]
     // 0x8ebd48: r1 = Function '<anonymous closure>':.
-    //     0x8ebd48: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a040] AnonymousClosure: (0x8ebc9c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::_runCascadeFill (0x8ebcbc)
+    //     0x8ebd48: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a040] AnonymousClosure: (0x8ebc9c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::_runCascadeFill (0x8ebcbc)
     //     0x8ebd4c: ldr             x1, [x1, #0x40]
     // 0x8ebd50: r0 = AllocateClosure()
     //     0x8ebd50: bl              #0xe553e0  ; AllocateClosureStub
@@ -209,7 +209,7 @@ class _PotentialBarStepperHorizontalState extends State<dynamic> {
     // 0x8ebd90: tbnz            w1, #4, #0x8ebdb8
     // 0x8ebd94: ldur            x2, [fp, #-0x18]
     // 0x8ebd98: r1 = Function '<anonymous closure>':.
-    //     0x8ebd98: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a048] AnonymousClosure: (0x8ebfe8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::_runCascadeFill (0x8ebcbc)
+    //     0x8ebd98: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a048] AnonymousClosure: (0x8ebfe8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::_runCascadeFill (0x8ebcbc)
     //     0x8ebd9c: ldr             x1, [x1, #0x48]
     // 0x8ebda0: r0 = AllocateClosure()
     //     0x8ebda0: bl              #0xe553e0  ; AllocateClosureStub
@@ -223,7 +223,7 @@ class _PotentialBarStepperHorizontalState extends State<dynamic> {
     //     0x8ebdb4: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x8ebdb8: ldur            x2, [fp, #-0x18]
     // 0x8ebdbc: r1 = Function '<anonymous closure>':.
-    //     0x8ebdbc: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a050] AnonymousClosure: (0x8ebc9c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::_runCascadeFill (0x8ebcbc)
+    //     0x8ebdbc: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a050] AnonymousClosure: (0x8ebc9c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::_runCascadeFill (0x8ebcbc)
     //     0x8ebdc0: ldr             x1, [x1, #0x50]
     // 0x8ebdc4: r0 = AllocateClosure()
     //     0x8ebdc4: bl              #0xe553e0  ; AllocateClosureStub
@@ -293,7 +293,7 @@ class _PotentialBarStepperHorizontalState extends State<dynamic> {
     //     0x8ebe70: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x8ebe74: mov             x1, x0
     // 0x8ebe78: r0 = _filledSteps()
-    //     0x8ebe78: bl              #0x8ebb5c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::_filledSteps
+    //     0x8ebe78: bl              #0x8ebb5c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::_filledSteps
     // 0x8ebe7c: stur            x0, [fp, #-0x28]
     // 0x8ebe80: cmp             x0, #0
     // 0x8ebe84: b.gt            #0x8ebe90
@@ -452,7 +452,7 @@ class _PotentialBarStepperHorizontalState extends State<dynamic> {
     // 0x8ec014: mov             x1, x0
     // 0x8ec018: stur            x0, [fp, #-8]
     // 0x8ec01c: r0 = _filledSteps()
-    //     0x8ec01c: bl              #0x8ebb5c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::_filledSteps
+    //     0x8ec01c: bl              #0x8ebb5c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::_filledSteps
     // 0x8ec020: mov             x3, x0
     // 0x8ec024: ldur            x2, [fp, #-8]
     // 0x8ec028: StoreField: r2->field_13 = r3
@@ -565,7 +565,7 @@ class _PotentialBarStepperHorizontalState extends State<dynamic> {
     // 0x8ec1c8: b.eq            #0x8ec1d4
     // 0x8ec1cc: mov             x1, x2
     // 0x8ec1d0: r0 = _runCascadeFill()
-    //     0x8ec1d0: bl              #0x8ebcbc  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::_runCascadeFill
+    //     0x8ec1d0: bl              #0x8ebcbc  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::_runCascadeFill
     // 0x8ec1d4: r0 = Null
     //     0x8ec1d4: mov             x0, NULL
     // 0x8ec1d8: LeaveFrame
@@ -617,7 +617,7 @@ class _PotentialBarStepperHorizontalState extends State<dynamic> {
     // 0x94f6e0: mov             x2, x1
     // 0x94f6e4: stur            x0, [fp, #-8]
     // 0x94f6e8: r1 = Function '<anonymous closure>':.
-    //     0x94f6e8: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a060] AnonymousClosure: (0x94f7bc), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::initState (0x94f68c)
+    //     0x94f6e8: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a060] AnonymousClosure: (0x94f7bc), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::initState (0x94f68c)
     //     0x94f6ec: ldr             x1, [x1, #0x60]
     // 0x94f6f0: r0 = AllocateClosure()
     //     0x94f6f0: bl              #0xe553e0  ; AllocateClosureStub
@@ -714,7 +714,7 @@ class _PotentialBarStepperHorizontalState extends State<dynamic> {
     //     0x94f7e0: add             x0, x0, HEAP, lsl #32
     // 0x94f7e4: mov             x1, x0
     // 0x94f7e8: r0 = _runCascadeFill()
-    //     0x94f7e8: bl              #0x8ebcbc  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::_runCascadeFill
+    //     0x94f7e8: bl              #0x8ebcbc  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::_runCascadeFill
     // 0x94f7ec: r0 = Null
     //     0x94f7ec: mov             x0, NULL
     // 0x94f7f0: LeaveFrame
@@ -745,7 +745,7 @@ class _PotentialBarStepperHorizontalState extends State<dynamic> {
     //     0xa0d9b8: stur            w0, [x1, #0xf]
     // 0xa0d9bc: mov             x2, x1
     // 0xa0d9c0: r1 = Function '<anonymous closure>':.
-    //     0xa0d9c0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49ff8] AnonymousClosure: (0xa0d9f0), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::build (0xa0d998)
+    //     0xa0d9c0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49ff8] AnonymousClosure: (0xa0d9f0), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::build (0xa0d998)
     //     0xa0d9c4: ldr             x1, [x1, #0xff8]
     // 0xa0d9c8: r0 = AllocateClosure()
     //     0xa0d9c8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1370,7 +1370,7 @@ class _PotentialBarStepperState extends State<dynamic> {
     // 0x8eb808: b.eq            #0x8eb814
     // 0x8eb80c: mov             x1, x2
     // 0x8eb810: r0 = _runCascadeFill()
-    //     0x8eb810: bl              #0x8eb830  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperState::_runCascadeFill
+    //     0x8eb810: bl              #0x8eb830  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperState::_runCascadeFill
     // 0x8eb814: r0 = Null
     //     0x8eb814: mov             x0, NULL
     // 0x8eb818: LeaveFrame
@@ -1440,7 +1440,7 @@ class _PotentialBarStepperState extends State<dynamic> {
     // 0x8eb8b4: tbz             w4, #4, #0x8eb8dc
     // 0x8eb8b8: ldur            x2, [fp, #-0x18]
     // 0x8eb8bc: r1 = Function '<anonymous closure>':.
-    //     0x8eb8bc: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a0a8] AnonymousClosure: (0x8ebc9c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::_runCascadeFill (0x8ebcbc)
+    //     0x8eb8bc: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a0a8] AnonymousClosure: (0x8ebc9c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::_runCascadeFill (0x8ebcbc)
     //     0x8eb8c0: ldr             x1, [x1, #0xa8]
     // 0x8eb8c4: r0 = AllocateClosure()
     //     0x8eb8c4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1470,7 +1470,7 @@ class _PotentialBarStepperState extends State<dynamic> {
     // 0x8eb904: tbnz            w1, #4, #0x8eb92c
     // 0x8eb908: ldur            x2, [fp, #-0x18]
     // 0x8eb90c: r1 = Function '<anonymous closure>':.
-    //     0x8eb90c: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a0b0] AnonymousClosure: (0x8ec054), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperState::_runCascadeFill (0x8eb830)
+    //     0x8eb90c: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a0b0] AnonymousClosure: (0x8ec054), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperState::_runCascadeFill (0x8eb830)
     //     0x8eb910: ldr             x1, [x1, #0xb0]
     // 0x8eb914: r0 = AllocateClosure()
     //     0x8eb914: bl              #0xe553e0  ; AllocateClosureStub
@@ -1484,7 +1484,7 @@ class _PotentialBarStepperState extends State<dynamic> {
     //     0x8eb928: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x8eb92c: ldur            x2, [fp, #-0x18]
     // 0x8eb930: r1 = Function '<anonymous closure>':.
-    //     0x8eb930: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a0b8] AnonymousClosure: (0x8ebc9c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::_runCascadeFill (0x8ebcbc)
+    //     0x8eb930: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a0b8] AnonymousClosure: (0x8ebc9c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::_runCascadeFill (0x8ebcbc)
     //     0x8eb934: ldr             x1, [x1, #0xb8]
     // 0x8eb938: r0 = AllocateClosure()
     //     0x8eb938: bl              #0xe553e0  ; AllocateClosureStub
@@ -1554,7 +1554,7 @@ class _PotentialBarStepperState extends State<dynamic> {
     //     0x8eb9e4: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x8eb9e8: mov             x1, x0
     // 0x8eb9ec: r0 = _filledSteps()
-    //     0x8eb9ec: bl              #0x8ebb5c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::_filledSteps
+    //     0x8eb9ec: bl              #0x8ebb5c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::_filledSteps
     // 0x8eb9f0: stur            x0, [fp, #-0x28]
     // 0x8eb9f4: cmp             x0, #0
     // 0x8eb9f8: b.gt            #0x8eba04
@@ -1713,7 +1713,7 @@ class _PotentialBarStepperState extends State<dynamic> {
     // 0x8ec080: mov             x1, x0
     // 0x8ec084: stur            x0, [fp, #-8]
     // 0x8ec088: r0 = _filledSteps()
-    //     0x8ec088: bl              #0x8ebb5c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::_filledSteps
+    //     0x8ec088: bl              #0x8ebb5c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperHorizontalState::_filledSteps
     // 0x8ec08c: mov             x3, x0
     // 0x8ec090: ldur            x2, [fp, #-8]
     // 0x8ec094: StoreField: r2->field_13 = r3
@@ -1771,7 +1771,7 @@ class _PotentialBarStepperState extends State<dynamic> {
     // 0x94f568: mov             x2, x1
     // 0x94f56c: stur            x0, [fp, #-8]
     // 0x94f570: r1 = Function '<anonymous closure>':.
-    //     0x94f570: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a0c0] AnonymousClosure: (0x94f644), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperState::initState (0x94f514)
+    //     0x94f570: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a0c0] AnonymousClosure: (0x94f644), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperState::initState (0x94f514)
     //     0x94f574: ldr             x1, [x1, #0xc0]
     // 0x94f578: r0 = AllocateClosure()
     //     0x94f578: bl              #0xe553e0  ; AllocateClosureStub
@@ -1868,7 +1868,7 @@ class _PotentialBarStepperState extends State<dynamic> {
     //     0x94f668: add             x0, x0, HEAP, lsl #32
     // 0x94f66c: mov             x1, x0
     // 0x94f670: r0 = _runCascadeFill()
-    //     0x94f670: bl              #0x8eb830  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperState::_runCascadeFill
+    //     0x94f670: bl              #0x8eb830  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperState::_runCascadeFill
     // 0x94f674: r0 = Null
     //     0x94f674: mov             x0, NULL
     // 0x94f678: LeaveFrame
@@ -1899,7 +1899,7 @@ class _PotentialBarStepperState extends State<dynamic> {
     //     0xa0d3fc: stur            w0, [x1, #0xf]
     // 0xa0d400: mov             x2, x1
     // 0xa0d404: r1 = Function '<anonymous closure>':.
-    //     0xa0d404: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a078] AnonymousClosure: (0xa0d434), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperState::build (0xa0d3dc)
+    //     0xa0d404: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a078] AnonymousClosure: (0xa0d434), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/potential_bar_stepper.dart] _PotentialBarStepperState::build (0xa0d3dc)
     //     0xa0d408: ldr             x1, [x1, #0x78]
     // 0xa0d40c: r0 = AllocateClosure()
     //     0xa0d40c: bl              #0xe553e0  ; AllocateClosureStub

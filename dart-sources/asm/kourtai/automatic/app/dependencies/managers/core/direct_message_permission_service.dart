@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/managers/core/direct_message_permission_service.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/managers/core/direct_message_permission_service.dart
 
 // class id: 1048647, size: 0x8
 class :: {

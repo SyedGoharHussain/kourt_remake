@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart
+// lib: , url: package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart
 
 // class id: 1048769, size: 0x8
 class :: {
@@ -318,7 +318,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     //     0x972864: stur            x1, [x0, #0xb]
     // 0x972868: mov             x1, x0
     // 0x97286c: r0 = DateTimeWeekRange.activityWeekStart()
-    //     0x97286c: bl              #0x5fab38  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
+    //     0x97286c: bl              #0x5fab38  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
     // 0x972870: ldur            x1, [fp, #-8]
     // 0x972874: StoreField: r1->field_27 = r0
     //     0x972874: stur            w0, [x1, #0x27]
@@ -331,7 +331,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     // 0x972890: b               #0x972898
     // 0x972894: mov             x1, x2
     // 0x972898: r0 = fetchDashboardData()
-    //     0x972898: bl              #0x9728c0  ; [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::fetchDashboardData
+    //     0x972898: bl              #0x9728c0  ; [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::fetchDashboardData
     // 0x97289c: r0 = Null
     //     0x97289c: mov             x0, NULL
     // 0x9728a0: LeaveFrame
@@ -383,7 +383,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     //     0x972908: add             x2, x2, HEAP, lsl #32
     // 0x97290c: mov             x1, x0
     // 0x972910: r0 = _selectedPlayers()
-    //     0x972910: bl              #0x974174  ; [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_selectedPlayers
+    //     0x972910: bl              #0x974174  ; [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_selectedPlayers
     // 0x972914: r1 = Function '<anonymous closure>':.
     //     0x972914: add             x1, PP, #0x43, lsl #12  ; [pp+0x43c30] Function: [dart:ui] Image::_image (0xca4b50)
     //     0x972918: ldr             x1, [x1, #0xc30]
@@ -462,7 +462,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     // 0x9729d4: mov             x2, x0
     // 0x9729d8: ldur            x3, [fp, #-0x18]
     // 0x9729dc: r0 = _loadData()
-    //     0x9729dc: bl              #0x9729f8  ; [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_loadData
+    //     0x9729dc: bl              #0x9729f8  ; [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_loadData
     // 0x9729e0: r0 = Null
     //     0x9729e0: mov             x0, NULL
     // 0x9729e4: LeaveFrame
@@ -503,7 +503,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     // 0x972a38: DecompressPointer r2
     //     0x972a38: add             x2, x2, HEAP, lsl #32
     // 0x972a3c: r0 = _rangeFor()
-    //     0x972a3c: bl              #0x973b14  ; [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_rangeFor
+    //     0x972a3c: bl              #0x973b14  ; [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_rangeFor
     // 0x972a40: stur            x0, [fp, #-0xa0]
     // 0x972a44: r16 = <WorkoutModel>
     //     0x972a44: add             x16, PP, #0x11, lsl #12  ; [pp+0x11e70] TypeArguments: <WorkoutModel>
@@ -526,7 +526,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     // 0x972a7c: r4 = const [0x1, 0x6, 0x6, 0x6, null]
     //     0x972a7c: ldr             x4, [PP, #0x73a8]  ; [pp+0x73a8] List(5) [0x1, 0x6, 0x6, 0x6, Null]
     // 0x972a80: r0 = _fetchDocuments()
-    //     0x972a80: bl              #0x9734a4  ; [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_fetchDocuments
+    //     0x972a80: bl              #0x9734a4  ; [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_fetchDocuments
     // 0x972a84: mov             x1, x0
     // 0x972a88: stur            x1, [fp, #-0xa8]
     // 0x972a8c: r0 = Await()
@@ -554,7 +554,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     // 0x972ad0: r4 = const [0x1, 0x6, 0x6, 0x6, null]
     //     0x972ad0: ldr             x4, [PP, #0x73a8]  ; [pp+0x73a8] List(5) [0x1, 0x6, 0x6, 0x6, Null]
     // 0x972ad4: r0 = _fetchDocuments()
-    //     0x972ad4: bl              #0x9734a4  ; [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_fetchDocuments
+    //     0x972ad4: bl              #0x9734a4  ; [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_fetchDocuments
     // 0x972ad8: mov             x1, x0
     // 0x972adc: stur            x1, [fp, #-0xb0]
     // 0x972ae0: r0 = Await()
@@ -582,13 +582,13 @@ class TeamDashboardViewModel extends ChangeNotifier {
     // 0x972b24: r4 = const [0x1, 0x6, 0x6, 0x6, null]
     //     0x972b24: ldr             x4, [PP, #0x73a8]  ; [pp+0x73a8] List(5) [0x1, 0x6, 0x6, 0x6, Null]
     // 0x972b28: r0 = _fetchDocuments()
-    //     0x972b28: bl              #0x9734a4  ; [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_fetchDocuments
+    //     0x972b28: bl              #0x9734a4  ; [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_fetchDocuments
     // 0x972b2c: mov             x1, x0
     // 0x972b30: stur            x1, [fp, #-0xb8]
     // 0x972b34: r0 = Await()
     //     0x972b34: bl              #0x60ad4c  ; AwaitStub
     // 0x972b38: r1 = Function '<anonymous closure>':.
-    //     0x972b38: add             x1, PP, #0x43, lsl #12  ; [pp+0x43c50] AnonymousClosure: (0x8f80fc), in [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::_recomputeMerged (0x8f8170)
+    //     0x972b38: add             x1, PP, #0x43, lsl #12  ; [pp+0x43c50] AnonymousClosure: (0x8f80fc), in [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::_recomputeMerged (0x8f8170)
     //     0x972b3c: ldr             x1, [x1, #0xc50]
     // 0x972b40: r2 = Null
     //     0x972b40: mov             x2, NULL
@@ -621,7 +621,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     //     0x972b98: b.eq            #0x972ba0
     //     0x972b9c: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x972ba0: r1 = Function '<anonymous closure>':.
-    //     0x972ba0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43c58] AnonymousClosure: (0x8f6a60), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
+    //     0x972ba0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43c58] AnonymousClosure: (0x8f6a60), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
     //     0x972ba4: ldr             x1, [x1, #0xc58]
     // 0x972ba8: r2 = Null
     //     0x972ba8: mov             x2, NULL
@@ -655,7 +655,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     // 0x972c04: ldur            x1, [fp, #-0xb8]
     // 0x972c08: ldur            x2, [fp, #-0x90]
     // 0x972c0c: r0 = _aggregateGoals()
-    //     0x972c0c: bl              #0x972ce8  ; [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_aggregateGoals
+    //     0x972c0c: bl              #0x972ce8  ; [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_aggregateGoals
     // 0x972c10: ldur            x2, [fp, #-0x88]
     // 0x972c14: StoreField: r2->field_3b = r0
     //     0x972c14: stur            w0, [x2, #0x3b]
@@ -809,7 +809,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     //     0x972dac: add             x3, x3, HEAP, lsl #32
     // 0x972db0: stur            x3, [fp, #-0x20]
     // 0x972db4: r1 = Function '<anonymous closure>': static.
-    //     0x972db4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43c70] AnonymousClosure: static (0x97346c), in [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_aggregateGoals (0x972ce8)
+    //     0x972db4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43c70] AnonymousClosure: static (0x97346c), in [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_aggregateGoals (0x972ce8)
     //     0x972db8: ldr             x1, [x1, #0xc70]
     // 0x972dbc: r2 = Null
     //     0x972dbc: mov             x2, NULL
@@ -862,7 +862,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     //     0x972e44: stur            w0, [x3, #0xb]
     // 0x972e48: ldur            x2, [fp, #-0x18]
     // 0x972e4c: r1 = Function '<anonymous closure>': static.
-    //     0x972e4c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43c78] AnonymousClosure: static (0x972ec8), in [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_aggregateGoals (0x972ce8)
+    //     0x972e4c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43c78] AnonymousClosure: static (0x972ec8), in [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_aggregateGoals (0x972ce8)
     //     0x972e50: ldr             x1, [x1, #0xc78]
     // 0x972e54: r0 = AllocateClosure()
     //     0x972e54: bl              #0xe553e0  ; AllocateClosureStub
@@ -884,7 +884,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     // 0x972e80: r0 = _GrowableList.of()
     //     0x972e80: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x972e84: r1 = Function '<anonymous closure>': static.
-    //     0x972e84: add             x1, PP, #0x43, lsl #12  ; [pp+0x43c80] AnonymousClosure: (0x8f7e2c), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
+    //     0x972e84: add             x1, PP, #0x43, lsl #12  ; [pp+0x43c80] AnonymousClosure: (0x8f7e2c), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
     //     0x972e88: ldr             x1, [x1, #0xc80]
     // 0x972e8c: r2 = Null
     //     0x972e8c: mov             x2, NULL
@@ -927,7 +927,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     //     0x972ee8: cmp             SP, x16
     //     0x972eec: b.ls            #0x9731d0
     // 0x972ef0: r1 = Function '<anonymous closure>': static.
-    //     0x972ef0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43c88] AnonymousClosure: (0x8f7e2c), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
+    //     0x972ef0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43c88] AnonymousClosure: (0x8f7e2c), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
     //     0x972ef4: ldr             x1, [x1, #0xc88]
     // 0x972ef8: r2 = Null
     //     0x972ef8: mov             x2, NULL
@@ -996,7 +996,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     //     0x972fa8: add             x5, x5, HEAP, lsl #32
     // 0x972fac: stur            x5, [fp, #-8]
     // 0x972fb0: r1 = Function '<anonymous closure>': static.
-    //     0x972fb0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43c98] AnonymousClosure: static (0x973374), in [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_aggregateGoals (0x972ce8)
+    //     0x972fb0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43c98] AnonymousClosure: static (0x973374), in [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_aggregateGoals (0x972ce8)
     //     0x972fb4: ldr             x1, [x1, #0xc98]
     // 0x972fb8: r2 = Null
     //     0x972fb8: mov             x2, NULL
@@ -1019,7 +1019,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     //     0x972fe8: ldr             lr, [x21, lr, lsl #3]
     //     0x972fec: blr             lr
     // 0x972ff0: r1 = Function '<anonymous closure>': static.
-    //     0x972ff0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43ca0] AnonymousClosure: static (0x973330), in [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_aggregateGoals (0x972ce8)
+    //     0x972ff0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43ca0] AnonymousClosure: static (0x973330), in [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_aggregateGoals (0x972ce8)
     //     0x972ff4: ldr             x1, [x1, #0xca0]
     // 0x972ff8: r2 = Null
     //     0x972ff8: mov             x2, NULL
@@ -1043,7 +1043,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     //     0x97302c: ldr             lr, [x21, lr, lsl #3]
     //     0x973030: blr             lr
     // 0x973034: r1 = Function '<anonymous closure>': static.
-    //     0x973034: add             x1, PP, #0x43, lsl #12  ; [pp+0x43ca8] AnonymousClosure: static (0x9732c8), in [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_aggregateGoals (0x972ce8)
+    //     0x973034: add             x1, PP, #0x43, lsl #12  ; [pp+0x43ca8] AnonymousClosure: static (0x9732c8), in [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_aggregateGoals (0x972ce8)
     //     0x973038: ldr             x1, [x1, #0xca8]
     // 0x97303c: r2 = Null
     //     0x97303c: mov             x2, NULL
@@ -1067,7 +1067,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     //     0x973070: ldr             lr, [x21, lr, lsl #3]
     //     0x973074: blr             lr
     // 0x973078: r1 = Function '<anonymous closure>': static.
-    //     0x973078: add             x1, PP, #0x43, lsl #12  ; [pp+0x43cb0] AnonymousClosure: static (0x973284), in [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_aggregateGoals (0x972ce8)
+    //     0x973078: add             x1, PP, #0x43, lsl #12  ; [pp+0x43cb0] AnonymousClosure: static (0x973284), in [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_aggregateGoals (0x972ce8)
     //     0x97307c: ldr             x1, [x1, #0xcb0]
     // 0x973080: r2 = Null
     //     0x973080: mov             x2, NULL
@@ -1091,7 +1091,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     //     0x9730b4: ldr             lr, [x21, lr, lsl #3]
     //     0x9730b8: blr             lr
     // 0x9730bc: r1 = Function '<anonymous closure>': static.
-    //     0x9730bc: add             x1, PP, #0x43, lsl #12  ; [pp+0x43cb8] AnonymousClosure: static (0x97321c), in [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_aggregateGoals (0x972ce8)
+    //     0x9730bc: add             x1, PP, #0x43, lsl #12  ; [pp+0x43cb8] AnonymousClosure: static (0x97321c), in [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_aggregateGoals (0x972ce8)
     //     0x9730c0: ldr             x1, [x1, #0xcb8]
     // 0x9730c4: r2 = Null
     //     0x9730c4: mov             x2, NULL
@@ -1115,7 +1115,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     //     0x9730f8: ldr             lr, [x21, lr, lsl #3]
     //     0x9730fc: blr             lr
     // 0x973100: r1 = Function '<anonymous closure>': static.
-    //     0x973100: add             x1, PP, #0x43, lsl #12  ; [pp+0x43cc0] AnonymousClosure: static (0x9731d8), in [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_aggregateGoals (0x972ce8)
+    //     0x973100: add             x1, PP, #0x43, lsl #12  ; [pp+0x43cc0] AnonymousClosure: static (0x9731d8), in [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_aggregateGoals (0x972ce8)
     //     0x973104: ldr             x1, [x1, #0xcc0]
     // 0x973108: r2 = Null
     //     0x973108: mov             x2, NULL
@@ -1580,7 +1580,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     // 0x9736b0: ldur            x1, [fp, #-0x40]
     // 0x9736b4: stur            x0, [fp, #-0x10]
     // 0x9736b8: r0 = _databaseTargets()
-    //     0x9736b8: bl              #0x939418  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_databaseTargets
+    //     0x9736b8: bl              #0x939418  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_databaseTargets
     // 0x9736bc: stur            x0, [fp, #-0x78]
     // 0x9736c0: LoadField: r3 = r0->field_7
     //     0x9736c0: ldur            w3, [x0, #7]
@@ -2008,7 +2008,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     // 0x973b60: ldur            x1, [fp, #-8]
     // 0x973b64: ldur            x2, [fp, #-0x10]
     // 0x973b68: r0 = _normalizedAnchor()
-    //     0x973b68: bl              #0x973fe8  ; [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_normalizedAnchor
+    //     0x973b68: bl              #0x973fe8  ; [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_normalizedAnchor
     // 0x973b6c: mov             x3, x0
     // 0x973b70: ldur            x0, [fp, #-8]
     // 0x973b74: stur            x3, [fp, #-0x10]
@@ -2026,7 +2026,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     //     0x973b98: bl              #0xd6b0c8  ; [dart:core] DateTime::add
     // 0x973b9c: mov             x1, x0
     // 0x973ba0: r0 = _endOfDay()
-    //     0x973ba0: bl              #0x973ec0  ; [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_endOfDay
+    //     0x973ba0: bl              #0x973ec0  ; [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_endOfDay
     // 0x973ba4: mov             x1, x0
     // 0x973ba8: ldur            x2, [fp, #-0x18]
     // 0x973bac: stur            x0, [fp, #-8]
@@ -2035,7 +2035,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     // 0x973bb4: tbnz            w0, #4, #0x973bc8
     // 0x973bb8: ldur            x1, [fp, #-0x18]
     // 0x973bbc: r0 = _endOfDay()
-    //     0x973bbc: bl              #0x973ec0  ; [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_endOfDay
+    //     0x973bbc: bl              #0x973ec0  ; [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_endOfDay
     // 0x973bc0: mov             x2, x0
     // 0x973bc4: b               #0x973bcc
     // 0x973bc8: ldur            x2, [fp, #-8]
@@ -2181,7 +2181,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     //     0x973d54: bl              #0x5fac30  ; [dart:core] DateTime::DateTime
     // 0x973d58: ldur            x1, [fp, #-0x28]
     // 0x973d5c: r0 = _endOfDay()
-    //     0x973d5c: bl              #0x973ec0  ; [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_endOfDay
+    //     0x973d5c: bl              #0x973ec0  ; [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_endOfDay
     // 0x973d60: r1 = <DateTime>
     //     0x973d60: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a368] TypeArguments: <DateTime>
     //     0x973d64: ldr             x1, [x1, #0x368]
@@ -2277,7 +2277,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     //     0x973e58: bl              #0x5fac30  ; [dart:core] DateTime::DateTime
     // 0x973e5c: ldur            x1, [fp, #-0x10]
     // 0x973e60: r0 = _endOfDay()
-    //     0x973e60: bl              #0x973ec0  ; [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_endOfDay
+    //     0x973e60: bl              #0x973ec0  ; [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_endOfDay
     // 0x973e64: r1 = <DateTime>
     //     0x973e64: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a368] TypeArguments: <DateTime>
     //     0x973e68: ldr             x1, [x1, #0x368]
@@ -2453,7 +2453,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     // 0x974018: b.gt            #0x974030
     // 0x97401c: mov             x1, x0
     // 0x974020: r0 = DateTimeWeekRange.activityWeekStart()
-    //     0x974020: bl              #0x5fab38  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
+    //     0x974020: bl              #0x5fab38  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
     // 0x974024: LeaveFrame
     //     0x974024: mov             SP, fp
     //     0x974028: ldp             fp, lr, [SP], #0x10
@@ -2623,7 +2623,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     // 0x9741d8: mov             x2, x1
     // 0x9741dc: stur            x3, [fp, #-0x10]
     // 0x9741e0: r1 = Function '<anonymous closure>':.
-    //     0x9741e0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43cf8] AnonymousClosure: (0x71e360), in [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage (0x71e3c8)
+    //     0x9741e0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43cf8] AnonymousClosure: (0x71e360), in [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage (0x71e3c8)
     //     0x9741e4: ldr             x1, [x1, #0xcf8]
     // 0x9741e8: r0 = AllocateClosure()
     //     0x9741e8: bl              #0xe553e0  ; AllocateClosureStub
@@ -2690,7 +2690,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     // 0x97428c: r0 = List.from()
     //     0x97428c: bl              #0x5f9020  ; [dart:core] List::List.from
     // 0x974290: r1 = Function '<anonymous closure>':.
-    //     0x974290: add             x1, PP, #0x43, lsl #12  ; [pp+0x43d00] AnonymousClosure: (0x974394), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_handleRosterMemberships (0x974434)
+    //     0x974290: add             x1, PP, #0x43, lsl #12  ; [pp+0x43d00] AnonymousClosure: (0x974394), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_handleRosterMemberships (0x974434)
     //     0x974294: ldr             x1, [x1, #0xd00]
     // 0x974298: r2 = Null
     //     0x974298: mov             x2, NULL
@@ -2721,7 +2721,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     // 0x9742e4: b.eq            #0x974310
     // 0x9742e8: ldur            x2, [fp, #-0x20]
     // 0x9742ec: r1 = Function '<anonymous closure>':.
-    //     0x9742ec: add             x1, PP, #0x43, lsl #12  ; [pp+0x43d08] AnonymousClosure: (0x974328), in [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::configure (0x97421c)
+    //     0x9742ec: add             x1, PP, #0x43, lsl #12  ; [pp+0x43d08] AnonymousClosure: (0x974328), in [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::configure (0x97421c)
     //     0x9742f0: ldr             x1, [x1, #0xd08]
     // 0x9742f4: r0 = AllocateClosure()
     //     0x9742f4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2804,7 +2804,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     //     0xa63a14: b.ls            #0xa63df0
     // 0xa63a18: mov             x1, x0
     // 0xa63a1c: r0 = _normalizedAnchor()
-    //     0xa63a1c: bl              #0x973fe8  ; [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_normalizedAnchor
+    //     0xa63a1c: bl              #0x973fe8  ; [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_normalizedAnchor
     // 0xa63a20: mov             x3, x0
     // 0xa63a24: ldur            x0, [fp, #-8]
     // 0xa63a28: stur            x3, [fp, #-0x10]
@@ -3235,7 +3235,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     // 0xa63ff8: r3 = 1
     //     0xa63ff8: mov             x3, #1
     // 0xa63ffc: r0 = _stepAnchor()
-    //     0xa63ffc: bl              #0xa64064  ; [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_stepAnchor
+    //     0xa63ffc: bl              #0xa64064  ; [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_stepAnchor
     // 0xa64000: mov             x1, x0
     // 0xa64004: ldur            x0, [fp, #-8]
     // 0xa64008: LoadField: r2 = r0->field_23
@@ -3246,7 +3246,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     // 0xa64014: mov             x1, x2
     // 0xa64018: mov             x2, x16
     // 0xa6401c: r0 = _normalizedAnchor()
-    //     0xa6401c: bl              #0x973fe8  ; [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_normalizedAnchor
+    //     0xa6401c: bl              #0x973fe8  ; [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_normalizedAnchor
     // 0xa64020: mov             x3, x0
     // 0xa64024: ldur            x0, [fp, #-8]
     // 0xa64028: stur            x3, [fp, #-0x18]
@@ -3256,7 +3256,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     //     0xa64030: add             x1, x1, HEAP, lsl #32
     // 0xa64034: ldur            x2, [fp, #-0x10]
     // 0xa64038: r0 = _normalizedAnchor()
-    //     0xa64038: bl              #0x973fe8  ; [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_normalizedAnchor
+    //     0xa64038: bl              #0x973fe8  ; [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_normalizedAnchor
     // 0xa6403c: ldur            x1, [fp, #-0x18]
     // 0xa64040: mov             x2, x0
     // 0xa64044: r0 = isAfter()
@@ -3289,7 +3289,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     //     0xa64084: b.ls            #0xa64258
     // 0xa64088: mov             x1, x0
     // 0xa6408c: r0 = _normalizedAnchor()
-    //     0xa6408c: bl              #0x973fe8  ; [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_normalizedAnchor
+    //     0xa6408c: bl              #0x973fe8  ; [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_normalizedAnchor
     // 0xa64090: mov             x1, x0
     // 0xa64094: ldur            x0, [fp, #-8]
     // 0xa64098: stur            x1, [fp, #-0x20]
@@ -3478,7 +3478,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     //     0xa6428c: add             x2, x2, HEAP, lsl #32
     // 0xa64290: mov             x1, x0
     // 0xa64294: r0 = _titleForRange()
-    //     0xa64294: bl              #0xa639f8  ; [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_titleForRange
+    //     0xa64294: bl              #0xa639f8  ; [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_titleForRange
     // 0xa64298: LeaveFrame
     //     0xa64298: mov             SP, fp
     //     0xa6429c: ldp             fp, lr, [SP], #0x10
@@ -3507,7 +3507,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     //     0xa64888: b.eq            #0xa64890
     //     0xa6488c: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0xa64890: r0 = fetchDashboardData()
-    //     0xa64890: bl              #0x9728c0  ; [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::fetchDashboardData
+    //     0xa64890: bl              #0x9728c0  ; [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::fetchDashboardData
     // 0xa64894: r0 = Null
     //     0xa64894: mov             x0, NULL
     // 0xa64898: LeaveFrame
@@ -3555,7 +3555,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     // 0xa64e64: DecompressPointer r2
     //     0xa64e64: add             x2, x2, HEAP, lsl #32
     // 0xa64e68: r0 = _stepAnchor()
-    //     0xa64e68: bl              #0xa64064  ; [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_stepAnchor
+    //     0xa64e68: bl              #0xa64064  ; [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::_stepAnchor
     // 0xa64e6c: ldur            x1, [fp, #-8]
     // 0xa64e70: StoreField: r1->field_27 = r0
     //     0xa64e70: stur            w0, [x1, #0x27]
@@ -3566,7 +3566,7 @@ class TeamDashboardViewModel extends ChangeNotifier {
     //     0xa64e84: b.eq            #0xa64e8c
     //     0xa64e88: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0xa64e8c: r0 = fetchDashboardData()
-    //     0xa64e8c: bl              #0x9728c0  ; [package:ballai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::fetchDashboardData
+    //     0xa64e8c: bl              #0x9728c0  ; [package:kourtai/automatic/viewmodels/home/teams/team_dashboard_view_model.dart] TeamDashboardViewModel::fetchDashboardData
     // 0xa64e90: r0 = Null
     //     0xa64e90: mov             x0, NULL
     // 0xa64e94: LeaveFrame

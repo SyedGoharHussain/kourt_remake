@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart
 
 // class id: 1048858, size: 0x8
 class :: {
@@ -83,7 +83,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9fed3c: add             x4, PP, #0x2d, lsl #12  ; [pp+0x2d820] List(7) [0, 0x3, 0x1, 0x2, "limit", 0x2, Null]
     //     0x9fed40: ldr             x4, [x4, #0x820]
     // 0x9fed44: r0 = recommendedLibraryDrills()
-    //     0x9fed44: bl              #0xa011b4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::recommendedLibraryDrills
+    //     0x9fed44: bl              #0xa011b4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::recommendedLibraryDrills
     // 0x9fed48: mov             x1, x0
     // 0x9fed4c: stur            x0, [fp, #-8]
     // 0x9fed50: r0 = isNotEmpty()
@@ -127,7 +127,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     // 0x9fedb8: ldur            x6, [fp, #-0x30]
     // 0x9fedbc: ldr             x7, [fp, #0x10]
     // 0x9fedc0: r0 = drillsFor()
-    //     0x9fedc0: bl              #0x9fee58  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::drillsFor
+    //     0x9fedc0: bl              #0x9fee58  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::drillsFor
     // 0x9fedc4: LeaveFrame
     //     0x9fedc4: mov             SP, fp
     //     0x9fedc8: ldp             fp, lr, [SP], #0x10
@@ -214,7 +214,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9fee94: cmp             SP, x16
     //     0x9fee98: b.ls            #0x9ff96c
     // 0x9fee9c: r0 = fromRaw()
-    //     0x9fee9c: bl              #0x90005c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
+    //     0x9fee9c: bl              #0x90005c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
     // 0x9feea0: stur            x0, [fp, #-0x30]
     // 0x9feea4: r1 = 7
     //     0x9feea4: mov             x1, #7
@@ -226,7 +226,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9feeb4: stur            w2, [x0, #0xf]
     // 0x9feeb8: ldur            x1, [fp, #-0x18]
     // 0x9feebc: r0 = fromRaw()
-    //     0x9feebc: bl              #0x90005c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
+    //     0x9feebc: bl              #0x90005c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
     // 0x9feec0: mov             x3, x0
     // 0x9feec4: ldur            x2, [fp, #-0x38]
     // 0x9feec8: stur            x3, [fp, #-0x18]
@@ -240,7 +240,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9feee4: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x9feee8: ldur            x1, [fp, #-0x10]
     // 0x9feeec: r0 = preferredSubCategories()
-    //     0x9feeec: bl              #0xa0056c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::preferredSubCategories
+    //     0x9feeec: bl              #0xa0056c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::preferredSubCategories
     // 0x9feef0: mov             x1, x0
     // 0x9feef4: r0 = toSet()
     //     0x9feef4: bl              #0x8b263c  ; [dart:core] _GrowableList::toSet
@@ -257,7 +257,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9fef1c: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x9fef20: ldur            x1, [fp, #-0x20]
     // 0x9fef24: r0 = preferredSubCategories()
-    //     0x9fef24: bl              #0xa0056c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::preferredSubCategories
+    //     0x9fef24: bl              #0xa0056c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::preferredSubCategories
     // 0x9fef28: mov             x1, x0
     // 0x9fef2c: r0 = toSet()
     //     0x9fef2c: bl              #0x8b263c  ; [dart:core] _GrowableList::toSet
@@ -274,11 +274,11 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9fef54: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x9fef58: ldur            x1, [fp, #-0x28]
     // 0x9fef5c: r0 = preferredCount()
-    //     0x9fef5c: bl              #0x9fedd8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::preferredCount
+    //     0x9fef5c: bl              #0x9fedd8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::preferredCount
     // 0x9fef60: ldur            x1, [fp, #-8]
     // 0x9fef64: stur            x0, [fp, #-0x40]
     // 0x9fef68: r0 = canonicalLevelKey()
-    //     0x9fef68: bl              #0x931f74  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::canonicalLevelKey
+    //     0x9fef68: bl              #0x931f74  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::canonicalLevelKey
     // 0x9fef6c: ldur            x3, [fp, #-0x38]
     // 0x9fef70: StoreField: r3->field_1f = r0
     //     0x9fef70: stur            w0, [x3, #0x1f]
@@ -337,7 +337,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9ff00c: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x9ff010: mov             x2, x3
     // 0x9ff014: r1 = Function 'append': static.
-    //     0x9ff014: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d838] AnonymousClosure: static (0xa00f9c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::drillsFor (0x9fee58)
+    //     0x9ff014: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d838] AnonymousClosure: static (0xa00f9c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::drillsFor (0x9fee58)
     //     0x9ff018: ldr             x1, [x1, #0x838]
     // 0x9ff01c: r0 = AllocateClosure()
     //     0x9ff01c: bl              #0xe553e0  ; AllocateClosureStub
@@ -378,7 +378,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     // 0x9ff08c: cmp             w2, NULL
     // 0x9ff090: b.eq            #0x9ff19c
     // 0x9ff094: r0 = curatedByFocus()
-    //     0x9ff094: bl              #0x9ffa14  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::curatedByFocus
+    //     0x9ff094: bl              #0x9ffa14  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::curatedByFocus
     // 0x9ff098: mov             x1, x0
     // 0x9ff09c: ldur            x2, [fp, #-0x30]
     // 0x9ff0a0: stur            x0, [fp, #-0x50]
@@ -434,7 +434,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9ff134: bl              #0x5f9020  ; [dart:core] List::List.from
     // 0x9ff138: ldur            x2, [fp, #-0x58]
     // 0x9ff13c: r1 = Function '<anonymous closure>': static.
-    //     0x9ff13c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d848] AnonymousClosure: static (0xa00d74), of [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills
+    //     0x9ff13c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d848] AnonymousClosure: static (0xa00d74), of [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills
     //     0x9ff140: ldr             x1, [x1, #0x848]
     // 0x9ff144: stur            x0, [fp, #-0x10]
     // 0x9ff148: r0 = AllocateClosure()
@@ -467,7 +467,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     // 0x9ff1a0: cmp             w2, NULL
     // 0x9ff1a4: b.eq            #0x9ff2a4
     // 0x9ff1a8: r0 = curatedByFocus()
-    //     0x9ff1a8: bl              #0x9ffa14  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::curatedByFocus
+    //     0x9ff1a8: bl              #0x9ffa14  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::curatedByFocus
     // 0x9ff1ac: mov             x1, x0
     // 0x9ff1b0: ldur            x2, [fp, #-0x18]
     // 0x9ff1b4: stur            x0, [fp, #-0x10]
@@ -522,7 +522,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9ff244: bl              #0x5f9020  ; [dart:core] List::List.from
     // 0x9ff248: ldur            x2, [fp, #-0x50]
     // 0x9ff24c: r1 = Function '<anonymous closure>': static.
-    //     0x9ff24c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d848] AnonymousClosure: static (0xa00d74), of [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills
+    //     0x9ff24c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d848] AnonymousClosure: static (0xa00d74), of [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills
     //     0x9ff250: ldr             x1, [x1, #0x848]
     // 0x9ff254: stur            x0, [fp, #-0x10]
     // 0x9ff258: r0 = AllocateClosure()
@@ -570,7 +570,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     // 0x9ff2d8: cmp             w2, NULL
     // 0x9ff2dc: b.eq            #0x9ff3b0
     // 0x9ff2e0: r0 = curatedByFocus()
-    //     0x9ff2e0: bl              #0x9ffa14  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::curatedByFocus
+    //     0x9ff2e0: bl              #0x9ffa14  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::curatedByFocus
     // 0x9ff2e4: mov             x1, x0
     // 0x9ff2e8: ldur            x2, [fp, #-0x30]
     // 0x9ff2ec: stur            x0, [fp, #-0x20]
@@ -643,7 +643,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     // 0x9ff3b8: cmp             w0, NULL
     // 0x9ff3bc: b.eq            #0x9ff48c
     // 0x9ff3c0: r0 = curatedByFocus()
-    //     0x9ff3c0: bl              #0x9ffa14  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::curatedByFocus
+    //     0x9ff3c0: bl              #0x9ffa14  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::curatedByFocus
     // 0x9ff3c4: mov             x1, x0
     // 0x9ff3c8: ldur            x2, [fp, #-0x18]
     // 0x9ff3cc: stur            x0, [fp, #-0x18]
@@ -711,7 +711,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9ff484: b.eq            #0x9ff48c
     //     0x9ff488: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0x9ff48c: r0 = curatedByFocus()
-    //     0x9ff48c: bl              #0x9ffa14  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::curatedByFocus
+    //     0x9ff48c: bl              #0x9ffa14  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::curatedByFocus
     // 0x9ff490: mov             x1, x0
     // 0x9ff494: r2 = Instance_AccountSetupFocus
     //     0x9ff494: add             x2, PP, #0x1d, lsl #12  ; [pp+0x1d050] Obj!AccountSetupFocus@d3a281
@@ -781,7 +781,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9ff554: b.eq            #0x9ff55c
     //     0x9ff558: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0x9ff55c: r0 = curatedByFocus()
-    //     0x9ff55c: bl              #0x9ffa14  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::curatedByFocus
+    //     0x9ff55c: bl              #0x9ffa14  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::curatedByFocus
     // 0x9ff560: mov             x1, x0
     // 0x9ff564: r2 = Instance_AccountSetupFocus
     //     0x9ff564: add             x2, PP, #0x1d, lsl #12  ; [pp+0x1d058] Obj!AccountSetupFocus@d3a261
@@ -851,7 +851,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9ff624: b.eq            #0x9ff62c
     //     0x9ff628: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0x9ff62c: r0 = curatedByFocus()
-    //     0x9ff62c: bl              #0x9ffa14  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::curatedByFocus
+    //     0x9ff62c: bl              #0x9ffa14  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::curatedByFocus
     // 0x9ff630: mov             x1, x0
     // 0x9ff634: r2 = Instance_AccountSetupFocus
     //     0x9ff634: add             x2, PP, #0x1d, lsl #12  ; [pp+0x1d060] Obj!AccountSetupFocus@d3a241
@@ -1024,7 +1024,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9ff82c: add             x0, x0, HEAP, lsl #32
     // 0x9ff830: stur            x0, [fp, #-0x58]
     // 0x9ff834: r1 = Function '<anonymous closure>': static.
-    //     0x9ff834: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d860] AnonymousClosure: static (0x91f1b0), in [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::letsHoopSpotlightDrills (0x91f1c8)
+    //     0x9ff834: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d860] AnonymousClosure: static (0x91f1b0), in [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::letsHoopSpotlightDrills (0x91f1c8)
     //     0x9ff838: ldr             x1, [x1, #0x860]
     // 0x9ff83c: r0 = AllocateClosure()
     //     0x9ff83c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1075,7 +1075,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9ff8c0: bl              #0x8b24b4  ; [dart:_compact_hash] __Set&_HashVMBase&SetMixin::toList
     // 0x9ff8c4: ldur            x2, [fp, #-0x18]
     // 0x9ff8c8: r1 = Function '<anonymous closure>': static.
-    //     0x9ff8c8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d868] AnonymousClosure: static (0xa008f8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::drillsFor (0x9fee58)
+    //     0x9ff8c8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d868] AnonymousClosure: static (0xa008f8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::drillsFor (0x9fee58)
     //     0x9ff8cc: ldr             x1, [x1, #0x868]
     // 0x9ff8d0: stur            x0, [fp, #-0x18]
     // 0x9ff8d4: r0 = AllocateClosure()
@@ -1168,13 +1168,13 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9ffa48: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d870] "Master Your Shooting Arc"
     //     0x9ffa4c: ldr             x1, [x1, #0x870]
     // 0x9ffa50: r0 = L()
-    //     0x9ffa50: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ffa50: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ffa54: r1 = "Work on controlling your shot arc with three different release heights while focusing on clean makes and soft touch"
     //     0x9ffa54: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d878] "Work on controlling your shot arc with three different release heights while focusing on clean makes and soft touch"
     //     0x9ffa58: ldr             x1, [x1, #0x878]
     // 0x9ffa5c: stur            x0, [fp, #-0x10]
     // 0x9ffa60: r0 = L()
-    //     0x9ffa60: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ffa60: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ffa64: ldur            x16, [fp, #-0x10]
     // 0x9ffa68: str             x16, [SP]
     // 0x9ffa6c: mov             x1, x0
@@ -1194,19 +1194,19 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9ffa90: add             x7, PP, #0x2d, lsl #12  ; [pp+0x2d888] "https://firebasestorage.googleapis.com/v0/b/automatic-basketball-tra-6fab8.appspot.com/o/drills%2F9da92c24-a3cb-4bfd-8747-5bc31e0bc87e%2Fthumbnail.png\?alt=media&token=9fe950ad-fa56-492e-8546-3a8fa86b3174"
     //     0x9ffa94: ldr             x7, [x7, #0x888]
     // 0x9ffa98: r0 = _d()
-    //     0x9ffa98: bl              #0xa004d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
+    //     0x9ffa98: bl              #0xa004d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
     // 0x9ffa9c: r1 = "Rhythm Crossover Pull-up"
     //     0x9ffa9c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d890] "Rhythm Crossover Pull-up"
     //     0x9ffaa0: ldr             x1, [x1, #0x890]
     // 0x9ffaa4: stur            x0, [fp, #-0x10]
     // 0x9ffaa8: r0 = L()
-    //     0x9ffaa8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ffaa8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ffaac: r1 = "A timing and rhythm drill that flows two side to side crossovers into a pull up three. Stay light on your feet, feel the rhythm, and fire on the second cross."
     //     0x9ffaac: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d898] "A timing and rhythm drill that flows two side to side crossovers into a pull up three. Stay light on your feet, feel the rhythm, and fire on the second cross."
     //     0x9ffab0: ldr             x1, [x1, #0x898]
     // 0x9ffab4: stur            x0, [fp, #-0x18]
     // 0x9ffab8: r0 = L()
-    //     0x9ffab8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ffab8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ffabc: ldur            x16, [fp, #-0x18]
     // 0x9ffac0: str             x16, [SP]
     // 0x9ffac4: mov             x1, x0
@@ -1226,19 +1226,19 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9ffae8: add             x7, PP, #0x2d, lsl #12  ; [pp+0x2d8a8] "https://firebasestorage.googleapis.com/v0/b/automatic-basketball-tra-6fab8.appspot.com/o/drills%2Fec258004-d0b9-4192-b361-18b4c4274c30%2Fthumbnail.png\?alt=media&token=74dc8913-065d-4af5-870c-4a9f91ec32fa"
     //     0x9ffaec: ldr             x7, [x7, #0x8a8]
     // 0x9ffaf0: r0 = _d()
-    //     0x9ffaf0: bl              #0xa004d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
+    //     0x9ffaf0: bl              #0xa004d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
     // 0x9ffaf4: r1 = "Perfect Free Throw Arc"
     //     0x9ffaf4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d8b0] "Perfect Free Throw Arc"
     //     0x9ffaf8: ldr             x1, [x1, #0x8b0]
     // 0x9ffafc: stur            x0, [fp, #-0x18]
     // 0x9ffb00: r0 = L()
-    //     0x9ffb00: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ffb00: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ffb04: r1 = "A feedback-based shooting drill focused on dialing in the perfect arc by reading your makes and misses. Every shot tells you something — swishes confirm your arc is on point, while rim hits signal the need for adjustment."
     //     0x9ffb04: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d8b8] "A feedback-based shooting drill focused on dialing in the perfect arc by reading your makes and misses. Every shot tells you something — swishes confirm your arc is on point, while rim hits signal the need for adjustment."
     //     0x9ffb08: ldr             x1, [x1, #0x8b8]
     // 0x9ffb0c: stur            x0, [fp, #-0x20]
     // 0x9ffb10: r0 = L()
-    //     0x9ffb10: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ffb10: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ffb14: ldur            x16, [fp, #-0x20]
     // 0x9ffb18: str             x16, [SP]
     // 0x9ffb1c: mov             x1, x0
@@ -1258,19 +1258,19 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9ffb40: add             x7, PP, #0x2d, lsl #12  ; [pp+0x2d8c8] "https://firebasestorage.googleapis.com/v0/b/automatic-basketball-tra-6fab8.appspot.com/o/drills%2Ff303f3c1-9593-44b0-b5cc-c8e1f8c15a9e%2Fthumbnail.png\?alt=media&token=0ead7f1e-992a-461f-9d9b-3290aa70ab2e"
     //     0x9ffb44: ldr             x7, [x7, #0x8c8]
     // 0x9ffb48: r0 = _d()
-    //     0x9ffb48: bl              #0xa004d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
+    //     0x9ffb48: bl              #0xa004d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
     // 0x9ffb4c: r1 = "Stop Behind 3\'s"
     //     0x9ffb4c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d8d0] "Stop Behind 3\'s"
     //     0x9ffb50: ldr             x1, [x1, #0x8d0]
     // 0x9ffb54: stur            x0, [fp, #-0x20]
     // 0x9ffb58: r0 = L()
-    //     0x9ffb58: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ffb58: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ffb5c: r1 = "A catch-and-shoot drill that simulates coming off a screen or chasing a live ball in transition. Sprint from the corner, square up on the move, and pull up for three."
     //     0x9ffb5c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d8d8] "A catch-and-shoot drill that simulates coming off a screen or chasing a live ball in transition. Sprint from the corner, square up on the move, and pull up for three."
     //     0x9ffb60: ldr             x1, [x1, #0x8d8]
     // 0x9ffb64: stur            x0, [fp, #-0x28]
     // 0x9ffb68: r0 = L()
-    //     0x9ffb68: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ffb68: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ffb6c: ldur            x16, [fp, #-0x28]
     // 0x9ffb70: str             x16, [SP]
     // 0x9ffb74: mov             x1, x0
@@ -1290,19 +1290,19 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9ffb98: add             x7, PP, #0x2d, lsl #12  ; [pp+0x2d8e8] "https://firebasestorage.googleapis.com/v0/b/automatic-basketball-tra-6fab8.appspot.com/o/drills%2F17aa506b-23cf-44af-9a21-441415a720f3%2Fthumbnail.png\?alt=media&token=f6cc6b49-baf8-4729-b2f0-097b11b4afac"
     //     0x9ffb9c: ldr             x7, [x7, #0x8e8]
     // 0x9ffba0: r0 = _d()
-    //     0x9ffba0: bl              #0xa004d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
+    //     0x9ffba0: bl              #0xa004d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
     // 0x9ffba4: r1 = "Kobe Fadeaway"
     //     0x9ffba4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d8f0] "Kobe Fadeaway"
     //     0x9ffba8: ldr             x1, [x1, #0x8f0]
     // 0x9ffbac: stur            x0, [fp, #-0x28]
     // 0x9ffbb0: r0 = L()
-    //     0x9ffbb0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ffbb0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ffbb4: r1 = "A mid-range signature move drill built around the one legged fadeaway. One hard pound, step back, and rise up on one leg with full control and balance."
     //     0x9ffbb4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d8f8] "A mid-range signature move drill built around the one legged fadeaway. One hard pound, step back, and rise up on one leg with full control and balance."
     //     0x9ffbb8: ldr             x1, [x1, #0x8f8]
     // 0x9ffbbc: stur            x0, [fp, #-0x30]
     // 0x9ffbc0: r0 = L()
-    //     0x9ffbc0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ffbc0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ffbc4: ldur            x16, [fp, #-0x30]
     // 0x9ffbc8: str             x16, [SP]
     // 0x9ffbcc: mov             x1, x0
@@ -1322,7 +1322,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9ffbf0: add             x7, PP, #0x2d, lsl #12  ; [pp+0x2d908] "https://firebasestorage.googleapis.com/v0/b/automatic-basketball-tra-6fab8.appspot.com/o/drills%2Fa7923ee5-2fc8-41e6-9d11-50850fd6ce36%2Fthumbnail.png\?alt=media&token=38b449b9-5f6f-4b8e-a611-ddb006a082bb"
     //     0x9ffbf4: ldr             x7, [x7, #0x908]
     // 0x9ffbf8: r0 = _d()
-    //     0x9ffbf8: bl              #0xa004d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
+    //     0x9ffbf8: bl              #0xa004d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
     // 0x9ffbfc: r1 = Null
     //     0x9ffbfc: mov             x1, NULL
     // 0x9ffc00: r2 = 10
@@ -1382,13 +1382,13 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9ffc98: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d910] "Dribble counter"
     //     0x9ffc9c: ldr             x1, [x1, #0x910]
     // 0x9ffca0: r0 = L()
-    //     0x9ffca0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ffca0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ffca4: r1 = "Just dribble and see your stats per-hand."
     //     0x9ffca4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d918] "Just dribble and see your stats per-hand."
     //     0x9ffca8: ldr             x1, [x1, #0x918]
     // 0x9ffcac: stur            x0, [fp, #-0x10]
     // 0x9ffcb0: r0 = L()
-    //     0x9ffcb0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ffcb0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ffcb4: ldur            x16, [fp, #-0x10]
     // 0x9ffcb8: str             x16, [SP]
     // 0x9ffcbc: mov             x1, x0
@@ -1408,19 +1408,19 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9ffce0: add             x7, PP, #0x2d, lsl #12  ; [pp+0x2d928] "https://firebasestorage.googleapis.com/v0/b/automatic-basketball-tra-6fab8.appspot.com/o/drills%2F4407c61f-a326-41ac-8e96-4bc2f9787dd5%2Fthumbnail.png\?alt=media&token=be68b252-efc8-4fe0-bb96-60cfa0d426a5"
     //     0x9ffce4: ldr             x7, [x7, #0x928]
     // 0x9ffce8: r0 = _d()
-    //     0x9ffce8: bl              #0xa004d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
+    //     0x9ffce8: bl              #0xa004d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
     // 0x9ffcec: r1 = "In and Out Crossover"
     //     0x9ffcec: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d930] "In and Out Crossover"
     //     0x9ffcf0: ldr             x1, [x1, #0x930]
     // 0x9ffcf4: stur            x0, [fp, #-0x10]
     // 0x9ffcf8: r0 = L()
-    //     0x9ffcf8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ffcf8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ffcfc: r1 = "A beginner friendly dribble combo that uses an in and out fake to freeze the defender before crossing over and attacking in the opposite direction."
     //     0x9ffcfc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d938] "A beginner friendly dribble combo that uses an in and out fake to freeze the defender before crossing over and attacking in the opposite direction."
     //     0x9ffd00: ldr             x1, [x1, #0x938]
     // 0x9ffd04: stur            x0, [fp, #-0x18]
     // 0x9ffd08: r0 = L()
-    //     0x9ffd08: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ffd08: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ffd0c: ldur            x16, [fp, #-0x18]
     // 0x9ffd10: str             x16, [SP]
     // 0x9ffd14: mov             x1, x0
@@ -1440,19 +1440,19 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9ffd38: add             x7, PP, #0x2d, lsl #12  ; [pp+0x2d948] "https://firebasestorage.googleapis.com/v0/b/automatic-basketball-tra-6fab8.appspot.com/o/drills%2Fc9b7d127-c245-47bf-9c5d-000576d12390%2Fthumbnail.png\?alt=media&token=cda73e75-cff8-48a5-bd60-e39cade57290"
     //     0x9ffd3c: ldr             x7, [x7, #0x948]
     // 0x9ffd40: r0 = _d()
-    //     0x9ffd40: bl              #0xa004d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
+    //     0x9ffd40: bl              #0xa004d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
     // 0x9ffd44: r1 = "Kyrie Jab Crossover"
     //     0x9ffd44: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d950] "Kyrie Jab Crossover"
     //     0x9ffd48: ldr             x1, [x1, #0x950]
     // 0x9ffd4c: stur            x0, [fp, #-0x18]
     // 0x9ffd50: r0 = L()
-    //     0x9ffd50: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ffd50: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ffd54: r1 = "A Kyrie Irving signature move that uses a jab step and ball hang from triple threat to freeze the defender before crossing over and exploding to the opposite side."
     //     0x9ffd54: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d958] "A Kyrie Irving signature move that uses a jab step and ball hang from triple threat to freeze the defender before crossing over and exploding to the opposite side."
     //     0x9ffd58: ldr             x1, [x1, #0x958]
     // 0x9ffd5c: stur            x0, [fp, #-0x20]
     // 0x9ffd60: r0 = L()
-    //     0x9ffd60: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ffd60: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ffd64: ldur            x16, [fp, #-0x20]
     // 0x9ffd68: str             x16, [SP]
     // 0x9ffd6c: mov             x1, x0
@@ -1472,19 +1472,19 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9ffd90: add             x7, PP, #0x2d, lsl #12  ; [pp+0x2d968] "https://firebasestorage.googleapis.com/v0/b/automatic-basketball-tra-6fab8.appspot.com/o/drills%2F363b4eab-a1a1-4eb8-802b-be45287f6eb9%2Fthumbnail.png\?alt=media&token=03d081e0-940a-4853-9eb1-48ac82136142"
     //     0x9ffd94: ldr             x7, [x7, #0x968]
     // 0x9ffd98: r0 = _d()
-    //     0x9ffd98: bl              #0xa004d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
+    //     0x9ffd98: bl              #0xa004d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
     // 0x9ffd9c: r1 = "Push Cross Spin"
     //     0x9ffd9c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d970] "Push Cross Spin"
     //     0x9ffda0: ldr             x1, [x1, #0x970]
     // 0x9ffda4: stur            x0, [fp, #-0x20]
     // 0x9ffda8: r0 = L()
-    //     0x9ffda8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ffda8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ffdac: r1 = "A fluid two part dribble move that combines a push crossover with a spin, using the footwork from the initial crossover to naturally load and launch the spin in the opposite direction."
     //     0x9ffdac: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d978] "A fluid two part dribble move that combines a push crossover with a spin, using the footwork from the initial crossover to naturally load and launch the spin in the opposite direction."
     //     0x9ffdb0: ldr             x1, [x1, #0x978]
     // 0x9ffdb4: stur            x0, [fp, #-0x28]
     // 0x9ffdb8: r0 = L()
-    //     0x9ffdb8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ffdb8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ffdbc: ldur            x16, [fp, #-0x28]
     // 0x9ffdc0: str             x16, [SP]
     // 0x9ffdc4: mov             x1, x0
@@ -1504,19 +1504,19 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9ffde8: add             x7, PP, #0x2d, lsl #12  ; [pp+0x2d988] "https://firebasestorage.googleapis.com/v0/b/automatic-basketball-tra-6fab8.appspot.com/o/drills%2Fe8f1ca3a-a090-4139-9674-560121843209%2Fthumbnail.png\?alt=media&token=a95b20e4-b861-499a-af5c-c8f73cea51ff"
     //     0x9ffdec: ldr             x7, [x7, #0x988]
     // 0x9ffdf0: r0 = _d()
-    //     0x9ffdf0: bl              #0xa004d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
+    //     0x9ffdf0: bl              #0xa004d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
     // 0x9ffdf4: r1 = "Misdirection Spin"
     //     0x9ffdf4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d990] "Misdirection Spin"
     //     0x9ffdf8: ldr             x1, [x1, #0x990]
     // 0x9ffdfc: stur            x0, [fp, #-0x28]
     // 0x9ffe00: r0 = L()
-    //     0x9ffe00: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ffe00: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ffe04: r1 = "An advanced dribble move that combines a lateral hop, a crossover, and a spin into one fluid sequence to completely freeze a defender and create an open lane to attack."
     //     0x9ffe04: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d998] "An advanced dribble move that combines a lateral hop, a crossover, and a spin into one fluid sequence to completely freeze a defender and create an open lane to attack."
     //     0x9ffe08: ldr             x1, [x1, #0x998]
     // 0x9ffe0c: stur            x0, [fp, #-0x30]
     // 0x9ffe10: r0 = L()
-    //     0x9ffe10: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ffe10: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ffe14: ldur            x16, [fp, #-0x30]
     // 0x9ffe18: str             x16, [SP]
     // 0x9ffe1c: mov             x1, x0
@@ -1536,7 +1536,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9ffe40: add             x7, PP, #0x2d, lsl #12  ; [pp+0x2d9a8] "https://firebasestorage.googleapis.com/v0/b/automatic-basketball-tra-6fab8.appspot.com/o/drills%2Fe5637e1a-f1fc-42c0-9283-9a93f874b53d%2Fthumbnail.png\?alt=media&token=93dd0f1e-ad62-4b63-aaa6-43c9ff0131fc"
     //     0x9ffe44: ldr             x7, [x7, #0x9a8]
     // 0x9ffe48: r0 = _d()
-    //     0x9ffe48: bl              #0xa004d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
+    //     0x9ffe48: bl              #0xa004d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
     // 0x9ffe4c: r1 = Null
     //     0x9ffe4c: mov             x1, NULL
     // 0x9ffe50: r2 = 10
@@ -1596,13 +1596,13 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9ffee8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d9b0] "90 Degrees at the Rim"
     //     0x9ffeec: ldr             x1, [x1, #0x9b0]
     // 0x9ffef0: r0 = L()
-    //     0x9ffef0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ffef0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ffef4: r1 = "A front-of-rim warmup that adds lateral quickness and body control. Hop 90 degrees, reset your feet, and drain a swish ."
     //     0x9ffef4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d9b8] "A front-of-rim warmup that adds lateral quickness and body control. Hop 90 degrees, reset your feet, and drain a swish ."
     //     0x9ffef8: ldr             x1, [x1, #0x9b8]
     // 0x9ffefc: stur            x0, [fp, #-0x10]
     // 0x9fff00: r0 = L()
-    //     0x9fff00: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9fff00: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9fff04: ldur            x16, [fp, #-0x10]
     // 0x9fff08: str             x16, [SP]
     // 0x9fff0c: mov             x1, x0
@@ -1622,19 +1622,19 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9fff30: add             x7, PP, #0x2d, lsl #12  ; [pp+0x2d9c8] "https://firebasestorage.googleapis.com/v0/b/automatic-basketball-tra-6fab8.appspot.com/o/drills%2F4a7deda7-76a0-422d-abfd-1dabf86a6160%2Fthumbnail.png\?alt=media&token=1d716f0d-8f11-4620-851e-0168a4468542"
     //     0x9fff34: ldr             x7, [x7, #0x9c8]
     // 0x9fff38: r0 = _d()
-    //     0x9fff38: bl              #0xa004d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
+    //     0x9fff38: bl              #0xa004d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
     // 0x9fff3c: r1 = "Attack the Hip"
     //     0x9fff3c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d9d0] "Attack the Hip"
     //     0x9fff40: ldr             x1, [x1, #0x9d0]
     // 0x9fff44: stur            x0, [fp, #-0x10]
     // 0x9fff48: r0 = L()
-    //     0x9fff48: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9fff48: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9fff4c: r1 = "Attack the chair like a defender at the hip. Rip through, blow by tight off their shoulder, stay low, take contact angle, and finish strong at the rim with control."
     //     0x9fff4c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d9d8] "Attack the chair like a defender at the hip. Rip through, blow by tight off their shoulder, stay low, take contact angle, and finish strong at the rim with control."
     //     0x9fff50: ldr             x1, [x1, #0x9d8]
     // 0x9fff54: stur            x0, [fp, #-0x18]
     // 0x9fff58: r0 = L()
-    //     0x9fff58: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9fff58: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9fff5c: ldur            x16, [fp, #-0x18]
     // 0x9fff60: str             x16, [SP]
     // 0x9fff64: mov             x1, x0
@@ -1654,19 +1654,19 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9fff88: add             x7, PP, #0x2d, lsl #12  ; [pp+0x2d9e8] "https://firebasestorage.googleapis.com/v0/b/automatic-basketball-tra-6fab8.appspot.com/o/drills%2Ff8b20f94-cec8-4bb8-9d46-8a4a05d106dd%2Fthumbnail.png\?alt=media&token=e1c76058-d46a-4a09-a1c3-705ce1950dee"
     //     0x9fff8c: ldr             x7, [x7, #0x9e8]
     // 0x9fff90: r0 = _d()
-    //     0x9fff90: bl              #0xa004d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
+    //     0x9fff90: bl              #0xa004d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
     // 0x9fff94: r1 = "Backboard Touch Reverse Finish"
     //     0x9fff94: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d9f0] "Backboard Touch Reverse Finish"
     //     0x9fff98: ldr             x1, [x1, #0x9f0]
     // 0x9fff9c: stur            x0, [fp, #-0x18]
     // 0x9fffa0: r0 = L()
-    //     0x9fffa0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9fffa0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9fffa4: r1 = "Attack and finish drill that trains you to go hard at the basket, touch the backboard at full extension, and finish with a reverse layup on the other side."
     //     0x9fffa4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d9f8] "Attack and finish drill that trains you to go hard at the basket, touch the backboard at full extension, and finish with a reverse layup on the other side."
     //     0x9fffa8: ldr             x1, [x1, #0x9f8]
     // 0x9fffac: stur            x0, [fp, #-0x20]
     // 0x9fffb0: r0 = L()
-    //     0x9fffb0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9fffb0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9fffb4: ldur            x16, [fp, #-0x20]
     // 0x9fffb8: str             x16, [SP]
     // 0x9fffbc: mov             x1, x0
@@ -1686,19 +1686,19 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0x9fffe0: add             x7, PP, #0x2d, lsl #12  ; [pp+0x2da08] "https://firebasestorage.googleapis.com/v0/b/automatic-basketball-tra-6fab8.appspot.com/o/drills%2F7f0024e2-87a0-4f2c-8e29-802ca4bc0a99%2Fthumbnail.png\?alt=media&token=31d0eaeb-9176-4cbc-9bb2-b9f3d2fdb95c"
     //     0x9fffe4: ldr             x7, [x7, #0xa08]
     // 0x9fffe8: r0 = _d()
-    //     0x9fffe8: bl              #0xa004d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
+    //     0x9fffe8: bl              #0xa004d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
     // 0x9fffec: r1 = "Double Backboard Touch Finish"
     //     0x9fffec: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2da10] "Double Backboard Touch Finish"
     //     0x9ffff0: ldr             x1, [x1, #0xa10]
     // 0x9ffff4: stur            x0, [fp, #-0x20]
     // 0x9ffff8: r0 = L()
-    //     0x9ffff8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ffff8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ffffc: r1 = "An attack and finish drill that trains you to go hard at the basket, touch the backboard TWICE, and come back with a reverse layup."
     //     0x9ffffc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2da18] "An attack and finish drill that trains you to go hard at the basket, touch the backboard TWICE, and come back with a reverse layup."
     //     0xa00000: ldr             x1, [x1, #0xa18]
     // 0xa00004: stur            x0, [fp, #-0x28]
     // 0xa00008: r0 = L()
-    //     0xa00008: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa00008: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa0000c: ldur            x16, [fp, #-0x28]
     // 0xa00010: str             x16, [SP]
     // 0xa00014: mov             x1, x0
@@ -1718,7 +1718,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0xa00038: add             x7, PP, #0x2d, lsl #12  ; [pp+0x2da28] "https://firebasestorage.googleapis.com/v0/b/automatic-basketball-tra-6fab8.appspot.com/o/drills%2F706ce5cf-d221-4e18-adee-f8d9d7d777c1%2Fthumbnail.png\?alt=media&token=a4d870e8-556c-444b-8004-a0fa8729f89c"
     //     0xa0003c: ldr             x7, [x7, #0xa28]
     // 0xa00040: r0 = _d()
-    //     0xa00040: bl              #0xa004d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
+    //     0xa00040: bl              #0xa004d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
     // 0xa00044: r1 = Null
     //     0xa00044: mov             x1, NULL
     // 0xa00048: r2 = 8
@@ -1775,13 +1775,13 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0xa000d8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2da30] "Chase Down Catch and Shoot"
     //     0xa000dc: ldr             x1, [x1, #0xa30]
     // 0xa000e0: r0 = L()
-    //     0xa000e0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa000e0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa000e4: r1 = "A reaction and hustle drill that trains you to sprint after a live ball and get into your shot before it bounces twice. The passer throws the ball anywhere on the court -- you have no idea where it\'s going."
     //     0xa000e4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2da38] "A reaction and hustle drill that trains you to sprint after a live ball and get into your shot before it bounces twice. The passer throws the ball anywhere on the court -- you have no idea where it\'s going."
     //     0xa000e8: ldr             x1, [x1, #0xa38]
     // 0xa000ec: stur            x0, [fp, #-0x10]
     // 0xa000f0: r0 = L()
-    //     0xa000f0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa000f0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa000f4: ldur            x16, [fp, #-0x10]
     // 0xa000f8: str             x16, [SP]
     // 0xa000fc: mov             x1, x0
@@ -1801,19 +1801,19 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0xa00120: add             x7, PP, #0x2d, lsl #12  ; [pp+0x2da48] "https://firebasestorage.googleapis.com/v0/b/automatic-basketball-tra-6fab8.appspot.com/o/drills%2F7c5977b8-df48-401e-b787-6ddc51179042%2Fthumbnail.png\?alt=media&token=60e86486-a248-4fe9-bc24-90713eb51dfc"
     //     0xa00124: ldr             x7, [x7, #0xa48]
     // 0xa00128: r0 = _d()
-    //     0xa00128: bl              #0xa004d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
+    //     0xa00128: bl              #0xa004d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
     // 0xa0012c: r1 = "Scissor Step Crossover"
     //     0xa0012c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2da50] "Scissor Step Crossover"
     //     0xa00130: ldr             x1, [x1, #0xa50]
     // 0xa00134: stur            x0, [fp, #-0x10]
     // 0xa00138: r0 = L()
-    //     0xa00138: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa00138: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa0013c: r1 = "A deceptive dribble move where the ball handler uses a quick scissor motion with the right foot to generate lateral momentum and freeze the defender before crossing over and attacking."
     //     0xa0013c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2da58] "A deceptive dribble move where the ball handler uses a quick scissor motion with the right foot to generate lateral momentum and freeze the defender before crossing over and attacking."
     //     0xa00140: ldr             x1, [x1, #0xa58]
     // 0xa00144: stur            x0, [fp, #-0x18]
     // 0xa00148: r0 = L()
-    //     0xa00148: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa00148: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa0014c: ldur            x16, [fp, #-0x18]
     // 0xa00150: str             x16, [SP]
     // 0xa00154: mov             x1, x0
@@ -1833,19 +1833,19 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0xa00178: add             x7, PP, #0x2d, lsl #12  ; [pp+0x2da68] "https://firebasestorage.googleapis.com/v0/b/automatic-basketball-tra-6fab8.appspot.com/o/drills%2F01f03fe8-0925-448c-8a1e-e1723a537475%2Fthumbnail.png\?alt=media&token=8f5b437f-d4ef-442e-a5d6-0ab88f7b5dae"
     //     0xa0017c: ldr             x7, [x7, #0xa68]
     // 0xa00180: r0 = _d()
-    //     0xa00180: bl              #0xa004d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
+    //     0xa00180: bl              #0xa004d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
     // 0xa00184: r1 = "AI Crossover"
     //     0xa00184: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2da70] "AI Crossover"
     //     0xa00188: ldr             x1, [x1, #0xa70]
     // 0xa0018c: stur            x0, [fp, #-0x18]
     // 0xa00190: r0 = L()
-    //     0xa00190: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa00190: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa00194: r1 = "The Allen Iverson signature crossover that uses a quick right foot tap as a spring mechanism to sell the attack left before crossing over at the last second to blow past the defender."
     //     0xa00194: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2da78] "The Allen Iverson signature crossover that uses a quick right foot tap as a spring mechanism to sell the attack left before crossing over at the last second to blow past the defender."
     //     0xa00198: ldr             x1, [x1, #0xa78]
     // 0xa0019c: stur            x0, [fp, #-0x20]
     // 0xa001a0: r0 = L()
-    //     0xa001a0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa001a0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa001a4: ldur            x16, [fp, #-0x20]
     // 0xa001a8: str             x16, [SP]
     // 0xa001ac: mov             x1, x0
@@ -1865,19 +1865,19 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0xa001d0: add             x7, PP, #0x2d, lsl #12  ; [pp+0x2da88] "https://firebasestorage.googleapis.com/v0/b/automatic-basketball-tra-6fab8.appspot.com/o/drills%2Fd114c14d-4dfd-481e-9a67-2d24b88d93c2%2Fthumbnail.png\?alt=media&token=4dff3f6e-68a6-4bbf-b128-2bbdf45c2a70"
     //     0xa001d4: ldr             x7, [x7, #0xa88]
     // 0xa001d8: r0 = _d()
-    //     0xa001d8: bl              #0xa004d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
+    //     0xa001d8: bl              #0xa004d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
     // 0xa001dc: r1 = "Elbow to Elbow"
     //     0xa001dc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2da90] "Elbow to Elbow"
     //     0xa001e0: ldr             x1, [x1, #0xa90]
     // 0xa001e4: stur            x0, [fp, #-0x20]
     // 0xa001e8: r0 = L()
-    //     0xa001e8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa001e8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa001ec: r1 = "A footwork and finishing drill that sharpens your turnaround jumper from both elbows. Toss, chase, and spin into your shot."
     //     0xa001ec: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2da98] "A footwork and finishing drill that sharpens your turnaround jumper from both elbows. Toss, chase, and spin into your shot."
     //     0xa001f0: ldr             x1, [x1, #0xa98]
     // 0xa001f4: stur            x0, [fp, #-0x28]
     // 0xa001f8: r0 = L()
-    //     0xa001f8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa001f8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa001fc: ldur            x16, [fp, #-0x28]
     // 0xa00200: str             x16, [SP]
     // 0xa00204: mov             x1, x0
@@ -1897,7 +1897,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0xa00228: add             x7, PP, #0x2d, lsl #12  ; [pp+0x2daa8] "https://firebasestorage.googleapis.com/v0/b/automatic-basketball-tra-6fab8.appspot.com/o/drills%2F6f970bd3-b781-4243-95fe-f264f2091f6a%2Fthumbnail.png\?alt=media&token=d592e44e-0381-4239-8ba2-63f3a77ad9fe"
     //     0xa0022c: ldr             x7, [x7, #0xaa8]
     // 0xa00230: r0 = _d()
-    //     0xa00230: bl              #0xa004d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
+    //     0xa00230: bl              #0xa004d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
     // 0xa00234: r1 = Null
     //     0xa00234: mov             x1, NULL
     // 0xa00238: r2 = 8
@@ -1954,13 +1954,13 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0xa002c8: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dab0] "Shooting in Transition"
     //     0xa002cc: ldr             x1, [x1, #0xab0]
     // 0xa002d0: r0 = L()
-    //     0xa002d0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa002d0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa002d4: r1 = "A full-speed conditioning and shooting drill that simulates catching in transition. Sprint, square up, and knock down the three -- no settling, no lazy catches."
     //     0xa002d4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dab8] "A full-speed conditioning and shooting drill that simulates catching in transition. Sprint, square up, and knock down the three -- no settling, no lazy catches."
     //     0xa002d8: ldr             x1, [x1, #0xab8]
     // 0xa002dc: stur            x0, [fp, #-0x10]
     // 0xa002e0: r0 = L()
-    //     0xa002e0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa002e0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa002e4: ldur            x16, [fp, #-0x10]
     // 0xa002e8: str             x16, [SP]
     // 0xa002ec: mov             x1, x0
@@ -1980,19 +1980,19 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0xa00310: add             x7, PP, #0x2d, lsl #12  ; [pp+0x2dac8] "https://firebasestorage.googleapis.com/v0/b/automatic-basketball-tra-6fab8.appspot.com/o/drills%2F8cae119a-f460-4442-a7e2-4cb16bc8601a%2Fthumbnail.png\?alt=media&token=a8e4d67d-f4bb-4cf1-b255-b877d1059f20"
     //     0xa00314: ldr             x7, [x7, #0xac8]
     // 0xa00318: r0 = _d()
-    //     0xa00318: bl              #0xa004d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
+    //     0xa00318: bl              #0xa004d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
     // 0xa0031c: r1 = "Controlled Falling Shooting Series"
     //     0xa0031c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dad0] "Controlled Falling Shooting Series"
     //     0xa00320: ldr             x1, [x1, #0xad0]
     // 0xa00324: stur            x0, [fp, #-0x10]
     // 0xa00328: r0 = L()
-    //     0xa00328: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa00328: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa0032c: r1 = "Work on balance, body control, and shot stability by creating momentum in different directions, then catching yourself and rising into your shot. This drill builds the ability to stay controlled when off balance, which is one of the most important parts of shooting."
     //     0xa0032c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dad8] "Work on balance, body control, and shot stability by creating momentum in different directions, then catching yourself and rising into your shot. This drill builds the ability to stay controlled when off balance, which is one of the most important parts of shooting."
     //     0xa00330: ldr             x1, [x1, #0xad8]
     // 0xa00334: stur            x0, [fp, #-0x18]
     // 0xa00338: r0 = L()
-    //     0xa00338: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa00338: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa0033c: ldur            x16, [fp, #-0x18]
     // 0xa00340: str             x16, [SP]
     // 0xa00344: mov             x1, x0
@@ -2012,19 +2012,19 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0xa00368: add             x7, PP, #0x2d, lsl #12  ; [pp+0x2dae8] "https://firebasestorage.googleapis.com/v0/b/automatic-basketball-tra-6fab8.appspot.com/o/drills%2F15c08252-73e1-4dff-8b12-17fcdcf10897%2Fthumbnail.png\?alt=media&token=217e1d66-70c9-4711-a61e-8cd377ce7bb1"
     //     0xa0036c: ldr             x7, [x7, #0xae8]
     // 0xa00370: r0 = _d()
-    //     0xa00370: bl              #0xa004d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
+    //     0xa00370: bl              #0xa004d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
     // 0xa00374: r1 = "Backboard Touch Reverse Finish"
     //     0xa00374: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d9f0] "Backboard Touch Reverse Finish"
     //     0xa00378: ldr             x1, [x1, #0x9f0]
     // 0xa0037c: stur            x0, [fp, #-0x18]
     // 0xa00380: r0 = L()
-    //     0xa00380: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa00380: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa00384: r1 = "Attack and finish drill that trains you to go hard at the basket, touch the backboard at full extension, and finish with a reverse layup on the other side."
     //     0xa00384: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d9f8] "Attack and finish drill that trains you to go hard at the basket, touch the backboard at full extension, and finish with a reverse layup on the other side."
     //     0xa00388: ldr             x1, [x1, #0x9f8]
     // 0xa0038c: stur            x0, [fp, #-0x20]
     // 0xa00390: r0 = L()
-    //     0xa00390: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa00390: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa00394: ldur            x16, [fp, #-0x20]
     // 0xa00398: str             x16, [SP]
     // 0xa0039c: mov             x1, x0
@@ -2044,19 +2044,19 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0xa003c0: add             x7, PP, #0x2d, lsl #12  ; [pp+0x2da08] "https://firebasestorage.googleapis.com/v0/b/automatic-basketball-tra-6fab8.appspot.com/o/drills%2F7f0024e2-87a0-4f2c-8e29-802ca4bc0a99%2Fthumbnail.png\?alt=media&token=31d0eaeb-9176-4cbc-9bb2-b9f3d2fdb95c"
     //     0xa003c4: ldr             x7, [x7, #0xa08]
     // 0xa003c8: r0 = _d()
-    //     0xa003c8: bl              #0xa004d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
+    //     0xa003c8: bl              #0xa004d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
     // 0xa003cc: r1 = "Dribble counter"
     //     0xa003cc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d910] "Dribble counter"
     //     0xa003d0: ldr             x1, [x1, #0x910]
     // 0xa003d4: stur            x0, [fp, #-0x20]
     // 0xa003d8: r0 = L()
-    //     0xa003d8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa003d8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa003dc: r1 = "Just dribble and see your stats per-hand."
     //     0xa003dc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d918] "Just dribble and see your stats per-hand."
     //     0xa003e0: ldr             x1, [x1, #0x918]
     // 0xa003e4: stur            x0, [fp, #-0x28]
     // 0xa003e8: r0 = L()
-    //     0xa003e8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa003e8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa003ec: ldur            x16, [fp, #-0x28]
     // 0xa003f0: str             x16, [SP]
     // 0xa003f4: mov             x1, x0
@@ -2076,7 +2076,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0xa00418: add             x7, PP, #0x2d, lsl #12  ; [pp+0x2d928] "https://firebasestorage.googleapis.com/v0/b/automatic-basketball-tra-6fab8.appspot.com/o/drills%2F4407c61f-a326-41ac-8e96-4bc2f9787dd5%2Fthumbnail.png\?alt=media&token=be68b252-efc8-4fe0-bb96-60cfa0d426a5"
     //     0xa0041c: ldr             x7, [x7, #0x928]
     // 0xa00420: r0 = _d()
-    //     0xa00420: bl              #0xa004d0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
+    //     0xa00420: bl              #0xa004d0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_d
     // 0xa00424: r1 = Null
     //     0xa00424: mov             x1, NULL
     // 0xa00428: r2 = 8
@@ -2237,7 +2237,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     // 0xa005f0: mov             x1, x5
     // 0xa005f4: stur            x4, [fp, #-0x10]
     // 0xa005f8: r0 = _subCategoryForAttribute()
-    //     0xa005f8: bl              #0xa006d4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_subCategoryForAttribute
+    //     0xa005f8: bl              #0xa006d4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_subCategoryForAttribute
     // 0xa005fc: stur            x0, [fp, #-0x30]
     // 0xa00600: cmp             w0, NULL
     // 0xa00604: b.eq            #0xa00684
@@ -2557,7 +2557,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     // 0xa00968: mov             x7, x10
     // 0xa0096c: stur            x10, [fp, #-8]
     // 0xa00970: r0 = _scoreFallback()
-    //     0xa00970: bl              #0xa00a78  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_scoreFallback
+    //     0xa00970: bl              #0xa00a78  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_scoreFallback
     // 0xa00974: ldr             x1, [fp, #0x10]
     // 0xa00978: ldur            x2, [fp, #-0x28]
     // 0xa0097c: ldur            x3, [fp, #-0x20]
@@ -2566,7 +2566,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     // 0xa00988: ldur            x7, [fp, #-8]
     // 0xa0098c: stur            x0, [fp, #-0x30]
     // 0xa00990: r0 = _scoreFallback()
-    //     0xa00990: bl              #0xa00a78  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_scoreFallback
+    //     0xa00990: bl              #0xa00a78  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_scoreFallback
     // 0xa00994: mov             x3, x0
     // 0xa00998: ldur            x2, [fp, #-0x30]
     // 0xa0099c: cmp             x2, x3
@@ -2713,7 +2713,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0xa00b34: add             x1, x1, HEAP, lsl #32
     // 0xa00b38: ldur            x2, [fp, #-0x10]
     // 0xa00b3c: r0 = _difficultyWeight()
-    //     0xa00b3c: bl              #0xa00b60  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_difficultyWeight
+    //     0xa00b3c: bl              #0xa00b60  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_difficultyWeight
     // 0xa00b40: ldur            x1, [fp, #-0x18]
     // 0xa00b44: add             x2, x1, x0
     // 0xa00b48: mov             x0, x2
@@ -2966,7 +2966,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     // 0xa00dc0: ldr             x1, [fp, #0x18]
     // 0xa00dc4: mov             x3, x6
     // 0xa00dc8: r0 = _scorePool()
-    //     0xa00dc8: bl              #0xa00ed8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_scorePool
+    //     0xa00dc8: bl              #0xa00ed8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_scorePool
     // 0xa00dcc: mov             x4, x0
     // 0xa00dd0: ldur            x0, [fp, #-0x10]
     // 0xa00dd4: stur            x4, [fp, #-0x18]
@@ -2981,7 +2981,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     // 0xa00de8: ldr             x1, [fp, #0x10]
     // 0xa00dec: ldur            x3, [fp, #-8]
     // 0xa00df0: r0 = _scorePool()
-    //     0xa00df0: bl              #0xa00ed8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_scorePool
+    //     0xa00df0: bl              #0xa00ed8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_scorePool
     // 0xa00df4: mov             x3, x0
     // 0xa00df8: ldur            x2, [fp, #-0x18]
     // 0xa00dfc: cmp             x2, x3
@@ -3116,7 +3116,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0xa00f70: add             x1, x1, HEAP, lsl #32
     // 0xa00f74: ldur            x2, [fp, #-0x18]
     // 0xa00f78: r0 = _difficultyWeight()
-    //     0xa00f78: bl              #0xa00b60  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_difficultyWeight
+    //     0xa00f78: bl              #0xa00b60  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_difficultyWeight
     // 0xa00f7c: ldur            x1, [fp, #-0x20]
     // 0xa00f80: add             x2, x1, x0
     // 0xa00f84: mov             x0, x2
@@ -3377,7 +3377,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     // 0xa01278: ldur            x0, [fp, #-0x10]
     // 0xa0127c: stur            x3, [fp, #-0x20]
     // 0xa01280: r1 = Function '<anonymous closure>': static.
-    //     0xa01280: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2db60] AnonymousClosure: static (0xa02cec), in [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::recommendedLibraryDrills (0xa011b4)
+    //     0xa01280: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2db60] AnonymousClosure: static (0xa02cec), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::recommendedLibraryDrills (0xa011b4)
     //     0xa01284: ldr             x1, [x1, #0xb60]
     // 0xa01288: r2 = Null
     //     0xa01288: mov             x2, NULL
@@ -3416,7 +3416,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     // 0xa012e4: mov             x1, x0
     // 0xa012e8: ldur            x2, [fp, #-0x18]
     // 0xa012ec: r0 = rankedForLibrary()
-    //     0xa012ec: bl              #0xa01324  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::rankedForLibrary
+    //     0xa012ec: bl              #0xa01324  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::rankedForLibrary
     // 0xa012f0: mov             x1, x0
     // 0xa012f4: ldur            x2, [fp, #-0x20]
     // 0xa012f8: r0 = take()
@@ -3455,7 +3455,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0xa01344: cmp             SP, x16
     //     0xa01348: b.ls            #0xa0173c
     // 0xa0134c: r1 = Function '<anonymous closure>': static.
-    //     0xa0134c: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c8a0] AnonymousClosure: (0xa02cbc), in [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::build (0xac6ad0)
+    //     0xa0134c: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c8a0] AnonymousClosure: (0xa02cbc), in [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::build (0xac6ad0)
     //     0xa01350: ldr             x1, [x1, #0x8a0]
     // 0xa01354: r2 = Null
     //     0xa01354: mov             x2, NULL
@@ -3490,7 +3490,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     // 0xa013a0: DecompressPointer r1
     //     0xa013a0: add             x1, x1, HEAP, lsl #32
     // 0xa013a4: r0 = fromRaw()
-    //     0xa013a4: bl              #0x90005c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
+    //     0xa013a4: bl              #0x90005c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
     // 0xa013a8: mov             x2, x0
     // 0xa013ac: ldur            x0, [fp, #-0x10]
     // 0xa013b0: stur            x2, [fp, #-0x18]
@@ -3499,7 +3499,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     // 0xa013b8: DecompressPointer r1
     //     0xa013b8: add             x1, x1, HEAP, lsl #32
     // 0xa013bc: r0 = fromRaw()
-    //     0xa013bc: bl              #0x90005c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
+    //     0xa013bc: bl              #0x90005c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
     // 0xa013c0: mov             x3, x0
     // 0xa013c4: ldur            x2, [fp, #-0x10]
     // 0xa013c8: stur            x3, [fp, #-0x20]
@@ -3611,7 +3611,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     // 0xa014f4: ldur            x6, [fp, #-0x30]
     // 0xa014f8: ldur            x7, [fp, #-0x20]
     // 0xa014fc: r0 = _catalogScore()
-    //     0xa014fc: bl              #0xa01754  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_catalogScore
+    //     0xa014fc: bl              #0xa01754  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_catalogScore
     // 0xa01500: mov             x2, x0
     // 0xa01504: r0 = BoxInt64Instr(r2)
     //     0xa01504: sbfiz           x0, x2, #1, #0x1f
@@ -3680,7 +3680,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     // 0xa015cc: b               #0xa01464
     // 0xa015d0: mov             x0, x4
     // 0xa015d4: r1 = Function '<anonymous closure>': static.
-    //     0xa015d4: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c8c0] AnonymousClosure: static (0xa02b40), in [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::rankedForLibrary (0xa01324)
+    //     0xa015d4: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c8c0] AnonymousClosure: static (0xa02b40), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::rankedForLibrary (0xa01324)
     //     0xa015d8: ldr             x1, [x1, #0x8c0]
     // 0xa015dc: r2 = Null
     //     0xa015dc: mov             x2, NULL
@@ -3873,14 +3873,14 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0xa017f4: ldr             x2, [x2, #0xcd8]
     // 0xa017f8: mov             x1, x6
     // 0xa017fc: r0 = belongsToPrimaryCategory()
-    //     0xa017fc: bl              #0xa02a30  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToPrimaryCategory
+    //     0xa017fc: bl              #0xa02a30  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToPrimaryCategory
     // 0xa01800: tbnz            w0, #4, #0xa01820
     // 0xa01804: ldur            x1, [fp, #-8]
     // 0xa01808: ldur            x3, [fp, #-0x18]
     // 0xa0180c: r2 = 40
     //     0xa0180c: mov             x2, #0x28
     // 0xa01810: r0 = _attributeOverlapScore()
-    //     0xa01810: bl              #0xa020a0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_attributeOverlapScore
+    //     0xa01810: bl              #0xa020a0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_attributeOverlapScore
     // 0xa01814: add             x1, x0, #0x64
     // 0xa01818: mov             x2, x1
     // 0xa0181c: b               #0xa018ec
@@ -3918,14 +3918,14 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0xa01884: ldr             x2, [x2, #0xcd8]
     // 0xa01888: ldur            x1, [fp, #-8]
     // 0xa0188c: r0 = belongsToPrimaryCategory()
-    //     0xa0188c: bl              #0xa02a30  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToPrimaryCategory
+    //     0xa0188c: bl              #0xa02a30  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToPrimaryCategory
     // 0xa01890: tbnz            w0, #4, #0xa018b0
     // 0xa01894: ldur            x1, [fp, #-8]
     // 0xa01898: ldur            x3, [fp, #-0x28]
     // 0xa0189c: r2 = 35
     //     0xa0189c: mov             x2, #0x23
     // 0xa018a0: r0 = _attributeOverlapScore()
-    //     0xa018a0: bl              #0xa020a0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_attributeOverlapScore
+    //     0xa018a0: bl              #0xa020a0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_attributeOverlapScore
     // 0xa018a4: add             x1, x0, #0x37
     // 0xa018a8: mov             x0, x1
     // 0xa018ac: b               #0xa018e8
@@ -3934,14 +3934,14 @@ abstract class AccountSetupFunnelDrills extends Object {
     // 0xa018b8: r2 = 25
     //     0xa018b8: mov             x2, #0x19
     // 0xa018bc: r0 = _attributeOverlapScore()
-    //     0xa018bc: bl              #0xa020a0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_attributeOverlapScore
+    //     0xa018bc: bl              #0xa020a0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_attributeOverlapScore
     // 0xa018c0: ldur            x1, [fp, #-8]
     // 0xa018c4: ldur            x3, [fp, #-0x28]
     // 0xa018c8: r2 = 18
     //     0xa018c8: mov             x2, #0x12
     // 0xa018cc: stur            x0, [fp, #-0x38]
     // 0xa018d0: r0 = _attributeOverlapScore()
-    //     0xa018d0: bl              #0xa020a0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_attributeOverlapScore
+    //     0xa018d0: bl              #0xa020a0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_attributeOverlapScore
     // 0xa018d4: mov             x1, x0
     // 0xa018d8: ldur            x0, [fp, #-0x38]
     // 0xa018dc: cmp             x0, x1
@@ -3966,7 +3966,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     // 0xa01918: ldur            x0, [fp, #-0x20]
     // 0xa0191c: ldur            x1, [fp, #-0x18]
     // 0xa01920: r0 = normalizeDrillLaneKey()
-    //     0xa01920: bl              #0x5ed8fc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
+    //     0xa01920: bl              #0x5ed8fc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
     // 0xa01924: mov             x1, x0
     // 0xa01928: ldur            x0, [fp, #-0x20]
     // 0xa0192c: stur            x1, [fp, #-0x18]
@@ -4079,7 +4079,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0xa01a98: add             x1, x1, HEAP, lsl #32
     // 0xa01a9c: ldur            x2, [fp, #-0x10]
     // 0xa01aa0: r0 = _catalogDifficultyWeight()
-    //     0xa01aa0: bl              #0xa01b60  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_catalogDifficultyWeight
+    //     0xa01aa0: bl              #0xa01b60  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_catalogDifficultyWeight
     // 0xa01aa4: mov             x1, x0
     // 0xa01aa8: ldur            x0, [fp, #-0x38]
     // 0xa01aac: add             x2, x0, x1
@@ -4090,7 +4090,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     // 0xa01abc: DecompressPointer r1
     //     0xa01abc: add             x1, x1, HEAP, lsl #32
     // 0xa01ac0: r0 = isAnalyzerDrillId()
-    //     0xa01ac0: bl              #0x744734  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isAnalyzerDrillId
+    //     0xa01ac0: bl              #0x744734  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isAnalyzerDrillId
     // 0xa01ac4: tbz             w0, #4, #0xa01b34
     // 0xa01ac8: ldur            x0, [fp, #-8]
     // 0xa01acc: LoadField: r1 = r0->field_4f
@@ -4161,11 +4161,11 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0xa01b78: cmp             SP, x16
     //     0xa01b7c: b.ls            #0xa01db4
     // 0xa01b80: r0 = drillDifficultyTierFromRaw()
-    //     0xa01b80: bl              #0xa01dbc  ; [package:ballai/video_tracking/views/drills/widgets/drill_difficulty_tier.dart] ::drillDifficultyTierFromRaw
+    //     0xa01b80: bl              #0xa01dbc  ; [package:kourtai/video_tracking/views/drills/widgets/drill_difficulty_tier.dart] ::drillDifficultyTierFromRaw
     // 0xa01b84: ldur            x1, [fp, #-8]
     // 0xa01b88: stur            x0, [fp, #-8]
     // 0xa01b8c: r0 = canonicalLevelKey()
-    //     0xa01b8c: bl              #0x931f74  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::canonicalLevelKey
+    //     0xa01b8c: bl              #0x931f74  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::canonicalLevelKey
     // 0xa01b90: stur            x0, [fp, #-0x10]
     // 0xa01b94: r16 = "Beginner"
     //     0xa01b94: add             x16, PP, #0x1a, lsl #12  ; [pp+0x1a8e0] "Beginner"
@@ -4445,7 +4445,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     // 0xa0216c: StoreField: r3->field_b = r0
     //     0xa0216c: stur            w0, [x3, #0xb]
     // 0xa02170: r1 = Function '<anonymous closure>': static.
-    //     0xa02170: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c8f0] AnonymousClosure: static (0x713694), in [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
+    //     0xa02170: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c8f0] AnonymousClosure: static (0x713694), in [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
     //     0xa02174: ldr             x1, [x1, #0x8f0]
     // 0xa02178: r2 = Null
     //     0xa02178: mov             x2, NULL
@@ -4591,7 +4591,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     // 0xa02314: b               #0xa0231c
     // 0xa02318: mov             x0, x4
     // 0xa0231c: r0 = resolvedAttributes()
-    //     0xa0231c: bl              #0xa023f4  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::resolvedAttributes
+    //     0xa0231c: bl              #0xa023f4  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::resolvedAttributes
     // 0xa02320: r1 = LoadClassIdInstr(r0)
     //     0xa02320: ldur            x1, [x0, #-1]
     //     0xa02324: ubfx            x1, x1, #0xc, #0x14
@@ -4783,11 +4783,11 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0xa02cfc: b.ls            #0xa02d30
     // 0xa02d00: ldr             x1, [fp, #0x10]
     // 0xa02d04: r0 = isPublishedInLibrary()
-    //     0xa02d04: bl              #0x91f4c4  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isPublishedInLibrary
+    //     0xa02d04: bl              #0x91f4c4  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isPublishedInLibrary
     // 0xa02d08: tbnz            w0, #4, #0xa02d20
     // 0xa02d0c: ldr             x1, [fp, #0x10]
     // 0xa02d10: r0 = belongsToShootingLane()
-    //     0xa02d10: bl              #0xa02d38  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToShootingLane
+    //     0xa02d10: bl              #0xa02d38  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToShootingLane
     // 0xa02d14: eor             x1, x0, #0x10
     // 0xa02d18: mov             x0, x1
     // 0xa02d1c: b               #0xa02d24
@@ -4813,7 +4813,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     //     0xa037dc: b.ls            #0xa037f4
     // 0xa037e0: ldr             x1, [fp, #0x10]
     // 0xa037e4: r0 = _fromTemplate()
-    //     0xa037e4: bl              #0xa037fc  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_fromTemplate
+    //     0xa037e4: bl              #0xa037fc  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::_fromTemplate
     // 0xa037e8: LeaveFrame
     //     0xa037e8: mov             SP, fp
     //     0xa037ec: ldp             fp, lr, [SP], #0x10
@@ -4852,7 +4852,7 @@ abstract class AccountSetupFunnelDrills extends Object {
     // 0xa03838: mov             x1, x0
     // 0xa0383c: stur            x0, [fp, #-0x10]
     // 0xa03840: r0 = fromRaw()
-    //     0xa03840: bl              #0x90005c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
+    //     0xa03840: bl              #0x90005c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
     // 0xa03844: cmp             w0, NULL
     // 0xa03848: b.ne            #0xa03894
     // 0xa0384c: ldur            x0, [fp, #-0x10]

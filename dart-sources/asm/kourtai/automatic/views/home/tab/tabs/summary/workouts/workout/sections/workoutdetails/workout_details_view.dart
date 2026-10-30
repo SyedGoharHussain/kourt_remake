@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart
 
 // class id: 1048917, size: 0x8
 class :: {
@@ -57,7 +57,7 @@ class _MetricsCarouselState extends State<dynamic> {
     //     0xa4c9d0: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d2f0] "Release Angle"
     //     0xa4c9d4: ldr             x1, [x1, #0x2f0]
     // 0xa4c9d8: r0 = L()
-    //     0xa4c9d8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa4c9d8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa4c9dc: r1 = <_Sample>
     //     0xa4c9dc: add             x1, PP, #0x57, lsl #12  ; [pp+0x574f8] TypeArguments: <_Sample>
     //     0xa4c9e0: ldr             x1, [x1, #0x4f8]
@@ -268,7 +268,7 @@ class _MetricsCarouselState extends State<dynamic> {
     //     0xa4cc20: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d310] "Release Time"
     //     0xa4cc24: ldr             x1, [x1, #0x310]
     // 0xa4cc28: r0 = L()
-    //     0xa4cc28: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa4cc28: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa4cc2c: r1 = <_Sample>
     //     0xa4cc2c: add             x1, PP, #0x57, lsl #12  ; [pp+0x574f8] TypeArguments: <_Sample>
     //     0xa4cc30: ldr             x1, [x1, #0x4f8]
@@ -601,7 +601,7 @@ class _MetricsCarouselState extends State<dynamic> {
     // 0xa4cfc0: b               #0xa4cea4
     // 0xa4cfc4: ldur            x2, [fp, #-0x10]
     // 0xa4cfc8: r1 = Function '<anonymous closure>':.
-    //     0xa4cfc8: add             x1, PP, #0x57, lsl #12  ; [pp+0x57508] AnonymousClosure: (0xa4d40c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricsCarouselState::build (0xa4c964)
+    //     0xa4cfc8: add             x1, PP, #0x57, lsl #12  ; [pp+0x57508] AnonymousClosure: (0xa4d40c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricsCarouselState::build (0xa4c964)
     //     0xa4cfcc: ldr             x1, [x1, #0x508]
     // 0xa4cfd0: r0 = AllocateClosure()
     //     0xa4cfd0: bl              #0xe553e0  ; AllocateClosureStub
@@ -983,7 +983,7 @@ class _MetricsCarouselState extends State<dynamic> {
     // 0xa4d458: mov             x2, x1
     // 0xa4d45c: stur            x3, [fp, #-0x10]
     // 0xa4d460: r1 = Function '<anonymous closure>':.
-    //     0xa4d460: add             x1, PP, #0x57, lsl #12  ; [pp+0x57510] AnonymousClosure: (0x9d28f0), in [package:ballai/automatic/views/components/foreground/promo_card.dart] _PromoCardTabViewState::build (0x9d2390)
+    //     0xa4d460: add             x1, PP, #0x57, lsl #12  ; [pp+0x57510] AnonymousClosure: (0x9d28f0), in [package:kourtai/automatic/views/components/foreground/promo_card.dart] _PromoCardTabViewState::build (0x9d2390)
     //     0xa4d464: ldr             x1, [x1, #0x510]
     // 0xa4d468: r0 = AllocateClosure()
     //     0xa4d468: bl              #0xe553e0  ; AllocateClosureStub
@@ -1048,7 +1048,7 @@ class _MetricsCarouselState extends State<dynamic> {
     //     0xb5b534: mov             fp, SP
     // 0xb5b538: ldr             x2, [fp, #0x10]
     // 0xb5b53c: r1 = Function 'dispose':.
-    //     0xb5b53c: add             x1, PP, #0x57, lsl #12  ; [pp+0x574f0] AnonymousClosure: (0xb5b554), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricsCarouselState::dispose (0xb624a0)
+    //     0xb5b53c: add             x1, PP, #0x57, lsl #12  ; [pp+0x574f0] AnonymousClosure: (0xb5b554), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricsCarouselState::dispose (0xb624a0)
     //     0xb5b540: ldr             x1, [x1, #0x4f0]
     // 0xb5b544: r0 = AllocateClosure()
     //     0xb5b544: bl              #0xe553e0  ; AllocateClosureStub
@@ -1073,7 +1073,7 @@ class _MetricsCarouselState extends State<dynamic> {
     //     0xb5b56c: cmp             SP, x16
     //     0xb5b570: b.ls            #0xb5b584
     // 0xb5b574: r0 = dispose()
-    //     0xb5b574: bl              #0xb624a0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricsCarouselState::dispose
+    //     0xb5b574: bl              #0xb624a0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricsCarouselState::dispose
     // 0xb5b578: LeaveFrame
     //     0xb5b578: mov             SP, fp
     //     0xb5b57c: ldp             fp, lr, [SP], #0x10
@@ -1133,7 +1133,7 @@ abstract class __WorkoutDetailsViewState&State&HomeIslandHiddenRoute extends Sta
     //     0xb5b4d8: mov             fp, SP
     // 0xb5b4dc: ldr             x2, [fp, #0x10]
     // 0xb5b4e0: r1 = Function 'dispose':.
-    //     0xb5b4e0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dea8] AnonymousClosure: (0xb5b4f8), in [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose (0xb63788)
+    //     0xb5b4e0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4dea8] AnonymousClosure: (0xb5b4f8), in [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose (0xb63788)
     //     0xb5b4e4: ldr             x1, [x1, #0xea8]
     // 0xb5b4e8: r0 = AllocateClosure()
     //     0xb5b4e8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1158,7 +1158,7 @@ abstract class __WorkoutDetailsViewState&State&HomeIslandHiddenRoute extends Sta
     //     0xb5b510: cmp             SP, x16
     //     0xb5b514: b.ls            #0xb5b528
     // 0xb5b518: r0 = dispose()
-    //     0xb5b518: bl              #0xb63788  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
+    //     0xb5b518: bl              #0xb63788  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
     // 0xb5b51c: LeaveFrame
     //     0xb5b51c: mov             SP, fp
     //     0xb5b520: ldp             fp, lr, [SP], #0x10
@@ -1203,7 +1203,7 @@ class _WorkoutDetailsViewState extends __WorkoutDetailsViewState&State&HomeIslan
     // 0xa4ab60: ldur            x1, [fp, #-8]
     // 0xa4ab64: stur            x0, [fp, #-0x18]
     // 0xa4ab68: r0 = _liveTotalShots()
-    //     0xa4ab68: bl              #0xa48bb0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_summary_view.dart] _WorkoutDetailsSummaryViewState::_liveTotalShots
+    //     0xa4ab68: bl              #0xa48bb0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_summary_view.dart] _WorkoutDetailsSummaryViewState::_liveTotalShots
     // 0xa4ab6c: cmp             x0, #0
     // 0xa4ab70: b.gt            #0xa4ab80
     // 0xa4ab74: ldur            x2, [fp, #-0x18]
@@ -1212,7 +1212,7 @@ class _WorkoutDetailsViewState extends __WorkoutDetailsViewState&State&HomeIslan
     // 0xa4ab7c: b               #0xa4abe8
     // 0xa4ab80: ldur            x1, [fp, #-8]
     // 0xa4ab84: r0 = _liveMakePercentage()
-    //     0xa4ab84: bl              #0xa4c8e0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _WorkoutDetailsViewState::_liveMakePercentage
+    //     0xa4ab84: bl              #0xa4c8e0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _WorkoutDetailsViewState::_liveMakePercentage
     // 0xa4ab88: mov             v1.16b, v0.16b
     // 0xa4ab8c: d0 = 25.000000
     //     0xa4ab8c: fmov            d0, #25.00000000
@@ -1288,7 +1288,7 @@ class _WorkoutDetailsViewState extends __WorkoutDetailsViewState&State&HomeIslan
     //     0xa4ac54: add             x3, x3, HEAP, lsl #32
     // 0xa4ac58: mov             x1, x3
     // 0xa4ac5c: r0 = progressFraction()
-    //     0xa4ac5c: bl              #0xa4c410  ; [package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::progressFraction
+    //     0xa4ac5c: bl              #0xa4c410  ; [package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::progressFraction
     // 0xa4ac60: ldur            x0, [fp, #-8]
     // 0xa4ac64: stur            d0, [fp, #-0x98]
     // 0xa4ac68: LoadField: r1 = r0->field_b
@@ -1306,7 +1306,7 @@ class _WorkoutDetailsViewState extends __WorkoutDetailsViewState&State&HomeIslan
     // 0xa4ac84: DecompressPointer r1
     //     0xa4ac84: add             x1, x1, HEAP, lsl #32
     // 0xa4ac88: r0 = colorForWorkoutGoalType()
-    //     0xa4ac88: bl              #0x96d6a4  ; [package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] ::colorForWorkoutGoalType
+    //     0xa4ac88: bl              #0x96d6a4  ; [package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] ::colorForWorkoutGoalType
     // 0xa4ac8c: ldur            x1, [fp, #-8]
     // 0xa4ac90: stur            x0, [fp, #-0x28]
     // 0xa4ac94: r0 = build()
@@ -1318,7 +1318,7 @@ class _WorkoutDetailsViewState extends __WorkoutDetailsViewState&State&HomeIslan
     // 0xa4aca4: r0 = _GrowableList.of()
     //     0xa4aca4: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0xa4aca8: r1 = Function '<anonymous closure>':.
-    //     0xa4aca8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4de18] AnonymousClosure: (0x8f6a60), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
+    //     0xa4aca8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4de18] AnonymousClosure: (0x8f6a60), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
     //     0xa4acac: ldr             x1, [x1, #0xe18]
     // 0xa4acb0: r2 = Null
     //     0xa4acb0: mov             x2, NULL
@@ -1345,13 +1345,13 @@ class _WorkoutDetailsViewState extends __WorkoutDetailsViewState&State&HomeIslan
     // 0xa4ace8: LoadField: d0 = r2->field_27
     //     0xa4ace8: ldur            d0, [x2, #0x27]
     // 0xa4acec: r0 = format()
-    //     0xa4acec: bl              #0xa4c0f0  ; [package:ballai/automatic/utility/statics/formatters/elapsed_time_formatter.dart] ElapsedTimeFormatter::format
+    //     0xa4acec: bl              #0xa4c0f0  ; [package:kourtai/automatic/utility/statics/formatters/elapsed_time_formatter.dart] ElapsedTimeFormatter::format
     // 0xa4acf0: ldur            x1, [fp, #-8]
     // 0xa4acf4: stur            x0, [fp, #-0x38]
     // 0xa4acf8: r0 = _elapsedWallClockSeconds()
-    //     0xa4acf8: bl              #0xa4bf1c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _WorkoutDetailsViewState::_elapsedWallClockSeconds
+    //     0xa4acf8: bl              #0xa4bf1c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _WorkoutDetailsViewState::_elapsedWallClockSeconds
     // 0xa4acfc: r0 = format()
-    //     0xa4acfc: bl              #0xa4c0f0  ; [package:ballai/automatic/utility/statics/formatters/elapsed_time_formatter.dart] ElapsedTimeFormatter::format
+    //     0xa4acfc: bl              #0xa4c0f0  ; [package:kourtai/automatic/utility/statics/formatters/elapsed_time_formatter.dart] ElapsedTimeFormatter::format
     // 0xa4ad00: ldur            x1, [fp, #-0x10]
     // 0xa4ad04: stur            x0, [fp, #-0x40]
     // 0xa4ad08: r0 = of()
@@ -1370,8 +1370,8 @@ class _WorkoutDetailsViewState extends __WorkoutDetailsViewState&State&HomeIslan
     //     0xa4ad24: add             x2, x2, HEAP, lsl #32
     // 0xa4ad28: ldur            x1, [fp, #-0x10]
     // 0xa4ad2c: stur            x2, [fp, #-0x50]
-    // 0xa4ad30: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa4ad30: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa4ad30: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa4ad30: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa4ad34: ldur            x1, [fp, #-8]
     // 0xa4ad38: stur            x0, [fp, #-0x60]
     // 0xa4ad3c: LoadField: r2 = r1->field_b
@@ -1438,7 +1438,7 @@ class _WorkoutDetailsViewState extends __WorkoutDetailsViewState&State&HomeIslan
     //     0xa4addc: bl              #0xa144f8  ; [package:flutter/src/material/app_bar.dart] AppBar::AppBar
     // 0xa4ade0: ldur            x1, [fp, #-0x10]
     // 0xa4ade4: r0 = homeIslandScrollBottomPadding()
-    //     0xa4ade4: bl              #0xa3cf84  ; [package:ballai/automatic/utility/ui/home_island_scroll_padding.dart] ::homeIslandScrollBottomPadding
+    //     0xa4ade4: bl              #0xa3cf84  ; [package:kourtai/automatic/utility/ui/home_island_scroll_padding.dart] ::homeIslandScrollBottomPadding
     // 0xa4ade8: stur            d0, [fp, #-0xa0]
     // 0xa4adec: r0 = EdgeInsets()
     //     0xa4adec: bl              #0x60095c  ; AllocateEdgeInsetsStub -> EdgeInsets (size=0x28)
@@ -1460,7 +1460,7 @@ class _WorkoutDetailsViewState extends __WorkoutDetailsViewState&State&HomeIslan
     //     0xa4ae10: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4de28] "Workout Time"
     //     0xa4ae14: ldr             x1, [x1, #0xe28]
     // 0xa4ae18: r0 = L()
-    //     0xa4ae18: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa4ae18: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa4ae1c: stur            x0, [fp, #-0x50]
     // 0xa4ae20: r0 = _DetailStatCell()
     //     0xa4ae20: bl              #0xa4bf10  ; Allocate_DetailStatCellStub -> _DetailStatCell (size=0x24)
@@ -1519,7 +1519,7 @@ class _WorkoutDetailsViewState extends __WorkoutDetailsViewState&State&HomeIslan
     //     0xa4aea8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4de38] "Elapsed Time"
     //     0xa4aeac: ldr             x1, [x1, #0xe38]
     // 0xa4aeb0: r0 = L()
-    //     0xa4aeb0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa4aeb0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa4aeb4: stur            x0, [fp, #-0x60]
     // 0xa4aeb8: r0 = _DetailStatCell()
     //     0xa4aeb8: bl              #0xa4bf10  ; Allocate_DetailStatCellStub -> _DetailStatCell (size=0x24)
@@ -1646,11 +1646,11 @@ class _WorkoutDetailsViewState extends __WorkoutDetailsViewState&State&HomeIslan
     //     0xa4afe8: add             x1, PP, #0x44, lsl #12  ; [pp+0x444e0] "Total Shots"
     //     0xa4afec: ldr             x1, [x1, #0x4e0]
     // 0xa4aff0: r0 = L()
-    //     0xa4aff0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa4aff0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa4aff4: ldur            x1, [fp, #-8]
     // 0xa4aff8: stur            x0, [fp, #-0x50]
     // 0xa4affc: r0 = _liveTotalShots()
-    //     0xa4affc: bl              #0xa48bb0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_summary_view.dart] _WorkoutDetailsSummaryViewState::_liveTotalShots
+    //     0xa4affc: bl              #0xa48bb0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_summary_view.dart] _WorkoutDetailsSummaryViewState::_liveTotalShots
     // 0xa4b000: mov             x2, x0
     // 0xa4b004: r0 = BoxInt64Instr(r2)
     //     0xa4b004: sbfiz           x0, x2, #1, #0x1f
@@ -1676,7 +1676,7 @@ class _WorkoutDetailsViewState extends __WorkoutDetailsViewState&State&HomeIslan
     //     0xa4b03c: stur            w16, [x0, #0xf]
     // 0xa4b040: ldur            x1, [fp, #-8]
     // 0xa4b044: r0 = _liveShotsPerMin()
-    //     0xa4b044: bl              #0xa4be18  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _WorkoutDetailsViewState::_liveShotsPerMin
+    //     0xa4b044: bl              #0xa4be18  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _WorkoutDetailsViewState::_liveShotsPerMin
     // 0xa4b048: ldur            x1, [fp, #-0x68]
     // 0xa4b04c: ArrayStore: r1[1] = r0  ; List_4
     //     0xa4b04c: add             x25, x1, #0x13
@@ -1758,11 +1758,11 @@ class _WorkoutDetailsViewState extends __WorkoutDetailsViewState&State&HomeIslan
     //     0xa4b11c: add             x1, PP, #0x44, lsl #12  ; [pp+0x444e8] "Total Makes"
     //     0xa4b120: ldr             x1, [x1, #0x4e8]
     // 0xa4b124: r0 = L()
-    //     0xa4b124: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa4b124: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa4b128: ldur            x1, [fp, #-8]
     // 0xa4b12c: stur            x0, [fp, #-0x68]
     // 0xa4b130: r0 = _liveTotalMakes()
-    //     0xa4b130: bl              #0xa4bd28  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _WorkoutDetailsViewState::_liveTotalMakes
+    //     0xa4b130: bl              #0xa4bd28  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _WorkoutDetailsViewState::_liveTotalMakes
     // 0xa4b134: mov             x2, x0
     // 0xa4b138: r0 = BoxInt64Instr(r2)
     //     0xa4b138: sbfiz           x0, x2, #1, #0x1f
@@ -1788,7 +1788,7 @@ class _WorkoutDetailsViewState extends __WorkoutDetailsViewState&State&HomeIslan
     //     0xa4b170: stur            w16, [x0, #0xf]
     // 0xa4b174: ldur            x1, [fp, #-8]
     // 0xa4b178: r0 = _liveMakesPerMin()
-    //     0xa4b178: bl              #0xa4bc30  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _WorkoutDetailsViewState::_liveMakesPerMin
+    //     0xa4b178: bl              #0xa4bc30  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _WorkoutDetailsViewState::_liveMakesPerMin
     // 0xa4b17c: ldur            x1, [fp, #-0x78]
     // 0xa4b180: ArrayStore: r1[1] = r0  ; List_4
     //     0xa4b180: add             x25, x1, #0x13
@@ -2255,16 +2255,16 @@ class _WorkoutDetailsViewState extends __WorkoutDetailsViewState&State&HomeIslan
     //     0xa4b644: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c708] "Make %"
     //     0xa4b648: ldr             x1, [x1, #0x708]
     // 0xa4b64c: r0 = L()
-    //     0xa4b64c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa4b64c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa4b650: ldur            x1, [fp, #-8]
     // 0xa4b654: stur            x0, [fp, #-0x20]
     // 0xa4b658: r0 = _liveTotalShots()
-    //     0xa4b658: bl              #0xa48bb0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_summary_view.dart] _WorkoutDetailsSummaryViewState::_liveTotalShots
+    //     0xa4b658: bl              #0xa48bb0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_summary_view.dart] _WorkoutDetailsSummaryViewState::_liveTotalShots
     // 0xa4b65c: cmp             x0, #0
     // 0xa4b660: b.le            #0xa4b6d8
     // 0xa4b664: ldur            x1, [fp, #-8]
     // 0xa4b668: r0 = _liveMakePercentage()
-    //     0xa4b668: bl              #0xa4c8e0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _WorkoutDetailsViewState::_liveMakePercentage
+    //     0xa4b668: bl              #0xa4c8e0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _WorkoutDetailsViewState::_liveMakePercentage
     // 0xa4b66c: mov             v1.16b, v0.16b
     // 0xa4b670: d0 = 100.000000
     //     0xa4b670: ldr             d0, [PP, #0x5948]  ; [pp+0x5948] IMM: double(100) from 0x4059000000000000
@@ -2311,7 +2311,7 @@ class _WorkoutDetailsViewState extends __WorkoutDetailsViewState&State&HomeIslan
     // 0xa4b6e8: ldur            x1, [fp, #-8]
     // 0xa4b6ec: stur            d0, [fp, #-0x98]
     // 0xa4b6f0: r0 = _liveMakePercentage()
-    //     0xa4b6f0: bl              #0xa4c8e0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _WorkoutDetailsViewState::_liveMakePercentage
+    //     0xa4b6f0: bl              #0xa4c8e0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _WorkoutDetailsViewState::_liveMakePercentage
     // 0xa4b6f4: fcmp            d0, d0
     // 0xa4b6f8: b.vs            #0xa4bbcc
     // 0xa4b6fc: fcvtzs          x0, d0
@@ -2831,7 +2831,7 @@ class _WorkoutDetailsViewState extends __WorkoutDetailsViewState&State&HomeIslan
     //     0xa4bc88: ret             
     // 0xa4bc8c: mov             x1, x0
     // 0xa4bc90: r0 = _liveTotalMakes()
-    //     0xa4bc90: bl              #0xa4bd28  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _WorkoutDetailsViewState::_liveTotalMakes
+    //     0xa4bc90: bl              #0xa4bd28  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _WorkoutDetailsViewState::_liveTotalMakes
     // 0xa4bc94: mov             x1, x0
     // 0xa4bc98: ldur            x0, [fp, #-8]
     // 0xa4bc9c: LoadField: r2 = r0->field_b
@@ -3021,7 +3021,7 @@ class _WorkoutDetailsViewState extends __WorkoutDetailsViewState&State&HomeIslan
     //     0xa4be70: ret             
     // 0xa4be74: mov             x1, x0
     // 0xa4be78: r0 = _liveTotalShots()
-    //     0xa4be78: bl              #0xa48bb0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_summary_view.dart] _WorkoutDetailsSummaryViewState::_liveTotalShots
+    //     0xa4be78: bl              #0xa48bb0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_summary_view.dart] _WorkoutDetailsSummaryViewState::_liveTotalShots
     // 0xa4be7c: mov             x1, x0
     // 0xa4be80: ldur            x0, [fp, #-8]
     // 0xa4be84: LoadField: r2 = r0->field_b
@@ -3094,7 +3094,7 @@ class _WorkoutDetailsViewState extends __WorkoutDetailsViewState&State&HomeIslan
     //     0xa4bf38: b.ls            #0xa4bfa8
     // 0xa4bf3c: mov             x1, x0
     // 0xa4bf40: r0 = _workoutEndDate()
-    //     0xa4bf40: bl              #0xa4bfb4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _WorkoutDetailsViewState::_workoutEndDate
+    //     0xa4bf40: bl              #0xa4bfb4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _WorkoutDetailsViewState::_workoutEndDate
     // 0xa4bf44: mov             x1, x0
     // 0xa4bf48: ldur            x0, [fp, #-8]
     // 0xa4bf4c: LoadField: r2 = r0->field_b
@@ -3266,7 +3266,7 @@ class _WorkoutDetailsViewState extends __WorkoutDetailsViewState&State&HomeIslan
     //     0xa4c8fc: b.ls            #0xa4c95c
     // 0xa4c900: mov             x1, x0
     // 0xa4c904: r0 = _liveTotalShots()
-    //     0xa4c904: bl              #0xa48bb0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_summary_view.dart] _WorkoutDetailsSummaryViewState::_liveTotalShots
+    //     0xa4c904: bl              #0xa48bb0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_summary_view.dart] _WorkoutDetailsSummaryViewState::_liveTotalShots
     // 0xa4c908: cmp             x0, #0
     // 0xa4c90c: b.gt            #0xa4c920
     // 0xa4c910: d0 = 0.000000
@@ -3278,11 +3278,11 @@ class _WorkoutDetailsViewState extends __WorkoutDetailsViewState&State&HomeIslan
     //     0xa4c91c: ret             
     // 0xa4c920: ldur            x1, [fp, #-8]
     // 0xa4c924: r0 = _liveTotalMakes()
-    //     0xa4c924: bl              #0xa4bd28  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _WorkoutDetailsViewState::_liveTotalMakes
+    //     0xa4c924: bl              #0xa4bd28  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _WorkoutDetailsViewState::_liveTotalMakes
     // 0xa4c928: ldur            x1, [fp, #-8]
     // 0xa4c92c: stur            x0, [fp, #-0x10]
     // 0xa4c930: r0 = _liveTotalShots()
-    //     0xa4c930: bl              #0xa48bb0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_summary_view.dart] _WorkoutDetailsSummaryViewState::_liveTotalShots
+    //     0xa4c930: bl              #0xa48bb0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_summary_view.dart] _WorkoutDetailsSummaryViewState::_liveTotalShots
     // 0xa4c934: mov             x1, x0
     // 0xa4c938: ldur            x0, [fp, #-0x10]
     // 0xa4c93c: scvtf           d1, x0
@@ -3385,7 +3385,7 @@ class _MetricBarChart extends StatelessWidget {
     //     0xbf0e50: stur            w0, [x2, #0xf]
     // 0xbf0e54: mov             x1, x0
     // 0xbf0e58: r0 = _buckets()
-    //     0xbf0e58: bl              #0xbf1e80  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricBarChart::_buckets
+    //     0xbf0e58: bl              #0xbf1e80  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricBarChart::_buckets
     // 0xbf0e5c: mov             x2, x0
     // 0xbf0e60: stur            x2, [fp, #-0x20]
     // 0xbf0e64: r0 = LoadClassIdInstr(r2)
@@ -3433,11 +3433,11 @@ class _MetricBarChart extends StatelessWidget {
     //     0xbf0ed4: add             x1, PP, #0x58, lsl #12  ; [pp+0x586f8] "Not enough %@ data yet"
     //     0xbf0ed8: ldr             x1, [x1, #0x6f8]
     // 0xbf0edc: r0 = LF()
-    //     0xbf0edc: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xbf0edc: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xbf0ee0: ldur            x1, [fp, #-0x10]
     // 0xbf0ee4: stur            x0, [fp, #-0x28]
-    // 0xbf0ee8: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbf0ee8: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbf0ee8: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbf0ee8: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbf0eec: stur            x0, [fp, #-0x30]
     // 0xbf0ef0: r0 = TextStyle()
     //     0xbf0ef0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -3500,7 +3500,7 @@ class _MetricBarChart extends StatelessWidget {
     // 0xbf0f88: r3 = 2
     //     0xbf0f88: mov             x3, #2
     // 0xbf0f8c: r1 = Function '<anonymous closure>':.
-    //     0xbf0f8c: add             x1, PP, #0x58, lsl #12  ; [pp+0x58700] AnonymousClosure: (0xbf25ac), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricBarChart::build (0xbf0e14)
+    //     0xbf0f8c: add             x1, PP, #0x58, lsl #12  ; [pp+0x58700] AnonymousClosure: (0xbf25ac), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricBarChart::build (0xbf0e14)
     //     0xbf0f90: ldr             x1, [x1, #0x700]
     // 0xbf0f94: r2 = Null
     //     0xbf0f94: mov             x2, NULL
@@ -3511,7 +3511,7 @@ class _MetricBarChart extends StatelessWidget {
     // 0xbf0fa4: r0 = reduce()
     //     0xbf0fa4: bl              #0x716abc  ; [dart:collection] ListBase::reduce
     // 0xbf0fa8: r1 = Function '<anonymous closure>':.
-    //     0xbf0fa8: add             x1, PP, #0x58, lsl #12  ; [pp+0x58708] AnonymousClosure: (0xbf2538), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricBarChart::build (0xbf0e14)
+    //     0xbf0fa8: add             x1, PP, #0x58, lsl #12  ; [pp+0x58708] AnonymousClosure: (0xbf2538), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricBarChart::build (0xbf0e14)
     //     0xbf0fac: ldr             x1, [x1, #0x708]
     // 0xbf0fb0: r2 = Null
     //     0xbf0fb0: mov             x2, NULL
@@ -3558,11 +3558,11 @@ class _MetricBarChart extends StatelessWidget {
     //     0xbf101c: add             x1, PP, #0x58, lsl #12  ; [pp+0x58710] "%@ vs. Make %%"
     //     0xbf1020: ldr             x1, [x1, #0x710]
     // 0xbf1024: r0 = LF()
-    //     0xbf1024: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xbf1024: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xbf1028: ldur            x1, [fp, #-0x10]
     // 0xbf102c: stur            x0, [fp, #-0x10]
-    // 0xbf1030: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbf1030: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbf1030: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbf1030: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbf1034: stur            x0, [fp, #-0x30]
     // 0xbf1038: r0 = TextStyle()
     //     0xbf1038: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -3660,7 +3660,7 @@ class _MetricBarChart extends StatelessWidget {
     //     0xbf1148: b.eq            #0xbf1150
     //     0xbf114c: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xbf1150: r1 = Function '<anonymous closure>':.
-    //     0xbf1150: add             x1, PP, #0x58, lsl #12  ; [pp+0x58718] AnonymousClosure: (0xbf2298), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricBarChart::build (0xbf0e14)
+    //     0xbf1150: add             x1, PP, #0x58, lsl #12  ; [pp+0x58718] AnonymousClosure: (0xbf2298), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricBarChart::build (0xbf0e14)
     //     0xbf1154: ldr             x1, [x1, #0x718]
     // 0xbf1158: r0 = AllocateClosure()
     //     0xbf1158: bl              #0xe553e0  ; AllocateClosureStub
@@ -3697,7 +3697,7 @@ class _MetricBarChart extends StatelessWidget {
     // 0xbf11ac: ldur            x1, [fp, #-8]
     // 0xbf11b0: ldur            x2, [fp, #-0x48]
     // 0xbf11b4: r0 = _rangeLabel()
-    //     0xbf11b4: bl              #0xbf1c1c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricBarChart::_rangeLabel
+    //     0xbf11b4: bl              #0xbf1c1c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricBarChart::_rangeLabel
     // 0xbf11b8: r1 = _ConstMap len:12
     //     0xbf11b8: ldr             x1, [PP, #0x5428]  ; [pp+0x5428] Map<int, Color>(12)
     // 0xbf11bc: r2 = 1200
@@ -4296,7 +4296,7 @@ class _MetricBarChart extends StatelessWidget {
     //     0xbf17a0: add             x1, PP, #0x58, lsl #12  ; [pp+0x58740] "BEST"
     //     0xbf17a4: ldr             x1, [x1, #0x740]
     // 0xbf17a8: r0 = L()
-    //     0xbf17a8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf17a8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf17ac: r1 = _ConstMap len:12
     //     0xbf17ac: ldr             x1, [PP, #0x5428]  ; [pp+0x5428] Map<int, Color>(12)
     // 0xbf17b0: r2 = 1000
@@ -4349,7 +4349,7 @@ class _MetricBarChart extends StatelessWidget {
     // 0xbf182c: ldur            x1, [fp, #-8]
     // 0xbf1830: ldur            x2, [fp, #-0x28]
     // 0xbf1834: r0 = _rangeLabel()
-    //     0xbf1834: bl              #0xbf1c1c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricBarChart::_rangeLabel
+    //     0xbf1834: bl              #0xbf1c1c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricBarChart::_rangeLabel
     // 0xbf1838: mov             x1, x0
     // 0xbf183c: ldur            x0, [fp, #-0x28]
     // 0xbf1840: stur            x1, [fp, #-0x40]
@@ -4427,7 +4427,7 @@ class _MetricBarChart extends StatelessWidget {
     //     0xbf1904: add             x1, PP, #0x58, lsl #12  ; [pp+0x58748] "WORST"
     //     0xbf1908: ldr             x1, [x1, #0x748]
     // 0xbf190c: r0 = L()
-    //     0xbf190c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf190c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf1910: r1 = _ConstMap len:12
     //     0xbf1910: ldr             x1, [PP, #0x5428]  ; [pp+0x5428] Map<int, Color>(12)
     // 0xbf1914: r2 = 1000
@@ -4471,7 +4471,7 @@ class _MetricBarChart extends StatelessWidget {
     // 0xbf1978: ldur            x1, [fp, #-8]
     // 0xbf197c: ldur            x2, [fp, #-0x38]
     // 0xbf1980: r0 = _rangeLabel()
-    //     0xbf1980: bl              #0xbf1c1c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricBarChart::_rangeLabel
+    //     0xbf1980: bl              #0xbf1c1c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricBarChart::_rangeLabel
     // 0xbf1984: mov             x1, x0
     // 0xbf1988: ldur            x0, [fp, #-0x38]
     // 0xbf198c: stur            x1, [fp, #-0x40]
@@ -4984,7 +4984,7 @@ class _MetricBarChart extends StatelessWidget {
     // 0xbf1ec4: ret
     //     0xbf1ec4: ret             
     // 0xbf1ec8: r1 = Function '<anonymous closure>':.
-    //     0xbf1ec8: add             x1, PP, #0x58, lsl #12  ; [pp+0x58758] AnonymousClosure: (0x770fa0), in [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::_medianFromHistory (0x770898)
+    //     0xbf1ec8: add             x1, PP, #0x58, lsl #12  ; [pp+0x58758] AnonymousClosure: (0x770fa0), in [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::_medianFromHistory (0x770898)
     //     0xbf1ecc: ldr             x1, [x1, #0x758]
     // 0xbf1ed0: r2 = Null
     //     0xbf1ed0: mov             x2, NULL
@@ -5235,7 +5235,7 @@ class _MetricBarChart extends StatelessWidget {
     // 0xbf219c: mov             x5, x7
     // 0xbf21a0: b               #0xbf2104
     // 0xbf21a4: r1 = Function '<anonymous closure>':.
-    //     0xbf21a4: add             x1, PP, #0x58, lsl #12  ; [pp+0x58768] AnonymousClosure: (0xbf227c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricBarChart::_buckets (0xbf1e80)
+    //     0xbf21a4: add             x1, PP, #0x58, lsl #12  ; [pp+0x58768] AnonymousClosure: (0xbf227c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricBarChart::_buckets (0xbf1e80)
     //     0xbf21a8: ldr             x1, [x1, #0x768]
     // 0xbf21ac: r2 = Null
     //     0xbf21ac: mov             x2, NULL
@@ -5665,11 +5665,11 @@ class _MetricsSection extends StatelessWidget {
     //     0xbf07f8: cmp             SP, x16
     //     0xbf07fc: b.ls            #0xbf0d7c
     // 0xbf0800: r0 = userHasActiveSubscription()
-    //     0xbf0800: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0xbf0800: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0xbf0804: tbz             w0, #4, #0xbf0b24
     // 0xbf0808: ldur            x1, [fp, #-0x10]
-    // 0xbf080c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbf080c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbf080c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbf080c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbf0810: stur            x0, [fp, #-0x18]
     // 0xbf0814: r0 = Icon()
     //     0xbf0814: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -5701,7 +5701,7 @@ class _MetricsSection extends StatelessWidget {
     //     0xbf0858: add             x1, PP, #0x53, lsl #12  ; [pp+0x53850] "Unlock metrics"
     //     0xbf085c: ldr             x1, [x1, #0x850]
     // 0xbf0860: r0 = L()
-    //     0xbf0860: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf0860: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf0864: stur            x0, [fp, #-0x28]
     // 0xbf0868: r0 = TextStyle()
     //     0xbf0868: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -5754,7 +5754,7 @@ class _MetricsSection extends StatelessWidget {
     //     0xbf08e0: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1acb0] "Pro"
     //     0xbf08e4: ldr             x1, [x1, #0xcb0]
     // 0xbf08e8: r0 = L()
-    //     0xbf08e8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf08e8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf08ec: ldur            x1, [fp, #-0x10]
     // 0xbf08f0: stur            x0, [fp, #-0x10]
     // 0xbf08f4: r0 = of()
@@ -5883,7 +5883,7 @@ class _MetricsSection extends StatelessWidget {
     //     0xbf0a24: add             x1, PP, #0x53, lsl #12  ; [pp+0x53858] "Get release angle, release time, and other AI-derived metrics on every shot."
     //     0xbf0a28: ldr             x1, [x1, #0x858]
     // 0xbf0a2c: r0 = L()
-    //     0xbf0a2c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf0a2c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf0a30: stur            x0, [fp, #-0x20]
     // 0xbf0a34: r0 = Color()
     //     0xbf0a34: bl              #0x5edc90  ; AllocateColorStub -> Color (size=0x2c)
@@ -5998,13 +5998,13 @@ class _MetricsSection extends StatelessWidget {
     //     0xbf0b44: ldr             d2, [x17, #0xcc0]
     // 0xbf0b48: ldur            x1, [fp, #-8]
     // 0xbf0b4c: r0 = _allManual()
-    //     0xbf0b4c: bl              #0xbf0d90  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricsSection::_allManual
+    //     0xbf0b4c: bl              #0xbf0d90  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricsSection::_allManual
     // 0xbf0b50: tbnz            w0, #4, #0xbf0be0
     // 0xbf0b54: r1 = "Metrics aren\'t available for this workout because shots were tracked in manual mode without on-device AI."
     //     0xbf0b54: add             x1, PP, #0x53, lsl #12  ; [pp+0x53860] "Metrics aren\'t available for this workout because shots were tracked in manual mode without on-device AI."
     //     0xbf0b58: ldr             x1, [x1, #0x860]
     // 0xbf0b5c: r0 = L()
-    //     0xbf0b5c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf0b5c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf0b60: stur            x0, [fp, #-0x10]
     // 0xbf0b64: r0 = Text()
     //     0xbf0b64: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -6063,7 +6063,7 @@ class _MetricsSection extends StatelessWidget {
     //     0xbf0bec: add             x4, x4, HEAP, lsl #32
     // 0xbf0bf0: stur            x4, [fp, #-0x10]
     // 0xbf0bf4: r1 = Function '<anonymous closure>':.
-    //     0xbf0bf4: add             x1, PP, #0x53, lsl #12  ; [pp+0x53870] AnonymousClosure: static (0x96cb98), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_analyticsData (0x96c5ac)
+    //     0xbf0bf4: add             x1, PP, #0x53, lsl #12  ; [pp+0x53870] AnonymousClosure: static (0x96cb98), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_analyticsData (0x96c5ac)
     //     0xbf0bf8: ldr             x1, [x1, #0x870]
     // 0xbf0bfc: r2 = Null
     //     0xbf0bfc: mov             x2, NULL
@@ -6081,7 +6081,7 @@ class _MetricsSection extends StatelessWidget {
     // 0xbf0c1c: r0 = _GrowableList.of()
     //     0xbf0c1c: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0xbf0c20: r1 = Function '<anonymous closure>':.
-    //     0xbf0c20: add             x1, PP, #0x53, lsl #12  ; [pp+0x53878] AnonymousClosure: static (0x96cb78), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_analyticsData (0x96c5ac)
+    //     0xbf0c20: add             x1, PP, #0x53, lsl #12  ; [pp+0x53878] AnonymousClosure: static (0x96cb78), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_analyticsData (0x96c5ac)
     //     0xbf0c24: ldr             x1, [x1, #0x878]
     // 0xbf0c28: r2 = Null
     //     0xbf0c28: mov             x2, NULL
@@ -6112,7 +6112,7 @@ class _MetricsSection extends StatelessWidget {
     //     0xbf0c6c: add             x1, PP, #0x53, lsl #12  ; [pp+0x53880] "No detailed metrics were captured for this workout."
     //     0xbf0c70: ldr             x1, [x1, #0x880]
     // 0xbf0c74: r0 = L()
-    //     0xbf0c74: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf0c74: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf0c78: stur            x0, [fp, #-0x10]
     // 0xbf0c7c: r0 = Color()
     //     0xbf0c7c: bl              #0x5edc90  ; AllocateColorStub -> Color (size=0x2c)
@@ -6202,7 +6202,7 @@ class _MetricsSection extends StatelessWidget {
     //     0xbf0d50: ret             
     // 0xbf0d54: ldur            x1, [fp, #-8]
     // 0xbf0d58: r0 = _showShare()
-    //     0xbf0d58: bl              #0xbe53ac  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_toolbar_actions_view.dart] WorkoutToolbarActionsView::_showShare
+    //     0xbf0d58: bl              #0xbe53ac  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_toolbar_actions_view.dart] WorkoutToolbarActionsView::_showShare
     // 0xbf0d5c: r0 = _MetricsCarousel()
     //     0xbf0d5c: bl              #0xbf0d84  ; Allocate_MetricsCarouselStub -> _MetricsCarousel (size=0x14)
     // 0xbf0d60: ldur            x1, [fp, #-0x18]
@@ -6240,7 +6240,7 @@ class _MetricsSection extends StatelessWidget {
     //     0xbf0db4: ldur            w1, [x0, #0xb]
     // 0xbf0db8: cbz             w1, #0xbf0ddc
     // 0xbf0dbc: r1 = Function '<anonymous closure>':.
-    //     0xbf0dbc: add             x1, PP, #0x53, lsl #12  ; [pp+0x53888] AnonymousClosure: (0xbf0df4), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricsSection::_allManual (0xbf0d90)
+    //     0xbf0dbc: add             x1, PP, #0x53, lsl #12  ; [pp+0x53888] AnonymousClosure: (0xbf0df4), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_details_view.dart] _MetricsSection::_allManual (0xbf0d90)
     //     0xbf0dc0: ldr             x1, [x1, #0x888]
     // 0xbf0dc4: r2 = Null
     //     0xbf0dc4: mov             x2, NULL
@@ -6513,8 +6513,8 @@ class _ProgressBlock extends StatelessWidget {
     //     0xbf067c: blr             lr
     // 0xbf0680: ldur            x1, [fp, #-0x28]
     // 0xbf0684: stur            x0, [fp, #-0x18]
-    // 0xbf0688: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xbf0688: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xbf0688: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xbf0688: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xbf068c: r1 = <Color>
     //     0xbf068c: add             x1, PP, #0xc, lsl #12  ; [pp+0xc8e0] TypeArguments: <Color>
     //     0xbf0690: ldr             x1, [x1, #0x8e0]
@@ -6669,8 +6669,8 @@ class _MetricCard extends StatelessWidget {
     //     0xbf0318: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xbf031c: cmp             SP, x16
     //     0xbf0320: b.ls            #0xbf0434
-    // 0xbf0324: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xbf0324: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xbf0324: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xbf0324: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xbf0328: stur            x0, [fp, #-0x10]
     // 0xbf032c: r0 = Radius()
     //     0xbf032c: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -6806,8 +6806,8 @@ class _SectionTitle extends StatelessWidget {
     // 0xbf0274: DecompressPointer r2
     //     0xbf0274: add             x2, x2, HEAP, lsl #32
     // 0xbf0278: stur            x2, [fp, #-8]
-    // 0xbf027c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbf027c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbf027c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbf027c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbf0280: stur            x0, [fp, #-0x10]
     // 0xbf0284: r0 = TextStyle()
     //     0xbf0284: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)

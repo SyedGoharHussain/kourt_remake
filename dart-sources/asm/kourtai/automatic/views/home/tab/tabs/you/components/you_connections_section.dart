@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart
 
 // class id: 1049009, size: 0x8
 class :: {
@@ -16,7 +16,7 @@ abstract class __PeopleRouteState&State&HomeIslandHiddenRoute extends State<dyna
     //     0xb5bd40: mov             fp, SP
     // 0xb5bd44: ldr             x2, [fp, #0x10]
     // 0xb5bd48: r1 = Function 'dispose':.
-    //     0xb5bd48: add             x1, PP, #0x54, lsl #12  ; [pp+0x54fa0] AnonymousClosure: (0xb5bd60), in [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose (0xb63788)
+    //     0xb5bd48: add             x1, PP, #0x54, lsl #12  ; [pp+0x54fa0] AnonymousClosure: (0xb5bd60), in [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose (0xb63788)
     //     0xb5bd4c: ldr             x1, [x1, #0xfa0]
     // 0xb5bd50: r0 = AllocateClosure()
     //     0xb5bd50: bl              #0xe553e0  ; AllocateClosureStub
@@ -41,7 +41,7 @@ abstract class __PeopleRouteState&State&HomeIslandHiddenRoute extends State<dyna
     //     0xb5bd78: cmp             SP, x16
     //     0xb5bd7c: b.ls            #0xb5bd90
     // 0xb5bd80: r0 = dispose()
-    //     0xb5bd80: bl              #0xb63788  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
+    //     0xb5bd80: bl              #0xb63788  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
     // 0xb5bd84: LeaveFrame
     //     0xb5bd84: mov             SP, fp
     //     0xb5bd88: ldp             fp, lr, [SP], #0x10
@@ -158,7 +158,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     // 0x8fc61c: tbz             w0, #4, #0x8fc628
     // 0x8fc620: ldur            x1, [fp, #-8]
     // 0x8fc624: r0 = _start()
-    //     0x8fc624: bl              #0x8fc644  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_start
+    //     0x8fc624: bl              #0x8fc644  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_start
     // 0x8fc628: r0 = Null
     //     0x8fc628: mov             x0, NULL
     // 0x8fc62c: LeaveFrame
@@ -246,7 +246,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     // 0x8fc6f0: mov             x1, x2
     // 0x8fc6f4: mov             x2, x0
     // 0x8fc6f8: r0 = start()
-    //     0x8fc6f8: bl              #0x8fc728  ; [package:ballai/automatic/viewmodels/home/you/you_connections_view_model.dart] YouConnectionsViewModel::start
+    //     0x8fc6f8: bl              #0x8fc728  ; [package:kourtai/automatic/viewmodels/home/you/you_connections_view_model.dart] YouConnectionsViewModel::start
     // 0x8fc6fc: r0 = Null
     //     0x8fc6fc: mov             x0, NULL
     // 0x8fc700: LeaveFrame
@@ -286,10 +286,10 @@ class _YouConnectionsSectionState extends State<dynamic> {
     // 0x97fdc0: mov             x1, x0
     // 0x97fdc4: stur            x0, [fp, #-0x10]
     // 0x97fdc8: r0 = YouConnectionsViewModel()
-    //     0x97fdc8: bl              #0x97fe50  ; [package:ballai/automatic/viewmodels/home/you/you_connections_view_model.dart] YouConnectionsViewModel::YouConnectionsViewModel
+    //     0x97fdc8: bl              #0x97fe50  ; [package:kourtai/automatic/viewmodels/home/you/you_connections_view_model.dart] YouConnectionsViewModel::YouConnectionsViewModel
     // 0x97fdcc: ldur            x2, [fp, #-8]
     // 0x97fdd0: r1 = Function '_onVm@1273340790':.
-    //     0x97fdd0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d3f0] AnonymousClosure: (0x97ff70), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_onVm (0x97ffa8)
+    //     0x97fdd0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d3f0] AnonymousClosure: (0x97ff70), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_onVm (0x97ffa8)
     //     0x97fdd4: ldr             x1, [x1, #0x3f0]
     // 0x97fdd8: r0 = AllocateClosure()
     //     0x97fdd8: bl              #0xe553e0  ; AllocateClosureStub
@@ -316,7 +316,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0x97fe18: b.eq            #0x97fe20
     //     0x97fe1c: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0x97fe20: r0 = _start()
-    //     0x97fe20: bl              #0x8fc644  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_start
+    //     0x97fe20: bl              #0x8fc644  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_start
     // 0x97fe24: r0 = Null
     //     0x97fe24: mov             x0, NULL
     // 0x97fe28: LeaveFrame
@@ -350,7 +350,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0x97ff88: cmp             SP, x16
     //     0x97ff8c: b.ls            #0x97ffa0
     // 0x97ff90: r0 = _onVm()
-    //     0x97ff90: bl              #0x97ffa8  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_onVm
+    //     0x97ff90: bl              #0x97ffa8  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_onVm
     // 0x97ff94: LeaveFrame
     //     0x97ff94: mov             SP, fp
     //     0x97ff98: ldp             fp, lr, [SP], #0x10
@@ -456,7 +456,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa88bc4: add             x2, x2, HEAP, lsl #32
     // 0xa88bc8: mov             x1, x3
     // 0xa88bcc: r0 = resolveCurrentUserFollowerCount()
-    //     0xa88bcc: bl              #0xa8a3a4  ; [package:ballai/automatic/utility/social/profile_follow_counts.dart] ::resolveCurrentUserFollowerCount
+    //     0xa88bcc: bl              #0xa8a3a4  ; [package:kourtai/automatic/utility/social/profile_follow_counts.dart] ::resolveCurrentUserFollowerCount
     // 0xa88bd0: mov             x3, x0
     // 0xa88bd4: b               #0xa88c08
     // 0xa88bd8: LoadField: r0 = r1->field_b
@@ -496,7 +496,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa88c30: add             x2, x2, HEAP, lsl #32
     // 0xa88c34: ldur            x1, [fp, #-0x20]
     // 0xa88c38: r0 = resolveCurrentUserFollowingCount()
-    //     0xa88c38: bl              #0xa8a340  ; [package:ballai/automatic/utility/social/profile_follow_counts.dart] ::resolveCurrentUserFollowingCount
+    //     0xa88c38: bl              #0xa8a340  ; [package:kourtai/automatic/utility/social/profile_follow_counts.dart] ::resolveCurrentUserFollowingCount
     // 0xa88c3c: b               #0xa88c6c
     // 0xa88c40: LoadField: r0 = r1->field_b
     //     0xa88c40: ldur            w0, [x1, #0xb]
@@ -551,21 +551,21 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa88cc0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d300] "People"
     //     0xa88cc4: ldr             x1, [x1, #0x300]
     // 0xa88cc8: r0 = L()
-    //     0xa88cc8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa88cc8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa88ccc: stur            x0, [fp, #-0x20]
     // 0xa88cd0: r16 = Instance_FontWeight
     //     0xa88cd0: add             x16, PP, #0x15, lsl #12  ; [pp+0x151f0] Obj!FontWeight@d28001
     //     0xa88cd4: ldr             x16, [x16, #0x1f0]
     // 0xa88cd8: str             x16, [SP]
     // 0xa88cdc: ldur            x1, [fp, #-0x10]
-    // 0xa88ce0: r2 = Instance_BallAiTextScale
-    //     0xa88ce0: add             x2, PP, #0x37, lsl #12  ; [pp+0x37890] Obj!BallAiTextScale@d3b021
+    // 0xa88ce0: r2 = Instance_KourtAiTextScale
+    //     0xa88ce0: add             x2, PP, #0x37, lsl #12  ; [pp+0x37890] Obj!KourtAiTextScale@d3b021
     //     0xa88ce4: ldr             x2, [x2, #0x890]
     // 0xa88ce8: r4 = const [0, 0x3, 0x1, 0x2, weight, 0x2, null]
     //     0xa88ce8: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf00] List(7) [0, 0x3, 0x1, 0x2, "weight", 0x2, Null]
     //     0xa88cec: ldr             x4, [x4, #0xf00]
-    // 0xa88cf0: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xa88cf0: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xa88cf0: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xa88cf0: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xa88cf4: stur            x0, [fp, #-0x40]
     // 0xa88cf8: r0 = Text()
     //     0xa88cf8: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -581,7 +581,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa88d14: bl              #0x9dc8b8  ; AllocateGestureDetectorStub -> GestureDetector (size=0x10c)
     // 0xa88d18: ldur            x2, [fp, #-0x18]
     // 0xa88d1c: r1 = Function '<anonymous closure>':.
-    //     0xa88d1c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d308] AnonymousClosure: (0xa8aaa4), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::build (0xa88b40)
+    //     0xa88d1c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d308] AnonymousClosure: (0xa8aaa4), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::build (0xa88b40)
     //     0xa88d20: ldr             x1, [x1, #0x308]
     // 0xa88d24: stur            x0, [fp, #-0x20]
     // 0xa88d28: r0 = AllocateClosure()
@@ -630,21 +630,21 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa88d9c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d310] "%lld followers"
     //     0xa88da0: ldr             x1, [x1, #0x310]
     // 0xa88da4: r0 = LF()
-    //     0xa88da4: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xa88da4: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xa88da8: ldur            x1, [fp, #-0x10]
     // 0xa88dac: stur            x0, [fp, #-0x40]
-    // 0xa88db0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa88db0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa88db0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa88db0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa88db4: str             x0, [SP]
     // 0xa88db8: ldur            x1, [fp, #-0x10]
-    // 0xa88dbc: r2 = Instance_BallAiTextScale
-    //     0xa88dbc: add             x2, PP, #0x2f, lsl #12  ; [pp+0x2fde8] Obj!BallAiTextScale@d3b001
+    // 0xa88dbc: r2 = Instance_KourtAiTextScale
+    //     0xa88dbc: add             x2, PP, #0x2f, lsl #12  ; [pp+0x2fde8] Obj!KourtAiTextScale@d3b001
     //     0xa88dc0: ldr             x2, [x2, #0xde8]
     // 0xa88dc4: r4 = const [0, 0x3, 0x1, 0x2, color, 0x2, null]
     //     0xa88dc4: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf60] List(7) [0, 0x3, 0x1, 0x2, "color", 0x2, Null]
     //     0xa88dc8: ldr             x4, [x4, #0xf60]
-    // 0xa88dcc: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xa88dcc: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xa88dcc: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xa88dcc: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xa88dd0: stur            x0, [fp, #-0x48]
     // 0xa88dd4: r0 = Text()
     //     0xa88dd4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -660,7 +660,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa88df0: bl              #0x9dc8b8  ; AllocateGestureDetectorStub -> GestureDetector (size=0x10c)
     // 0xa88df4: ldur            x2, [fp, #-0x18]
     // 0xa88df8: r1 = Function '<anonymous closure>':.
-    //     0xa88df8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d318] AnonymousClosure: (0xa8aaa4), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::build (0xa88b40)
+    //     0xa88df8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d318] AnonymousClosure: (0xa8aaa4), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::build (0xa88b40)
     //     0xa88dfc: ldr             x1, [x1, #0x318]
     // 0xa88e00: stur            x0, [fp, #-0x40]
     // 0xa88e04: r0 = AllocateClosure()
@@ -674,8 +674,8 @@ class _YouConnectionsSectionState extends State<dynamic> {
     // 0xa88e1c: r0 = GestureDetector()
     //     0xa88e1c: bl              #0x9dbef4  ; [package:flutter/src/widgets/gesture_detector.dart] GestureDetector::GestureDetector
     // 0xa88e20: ldur            x1, [fp, #-0x10]
-    // 0xa88e24: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa88e24: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa88e24: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa88e24: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa88e28: stur            x0, [fp, #-0x48]
     // 0xa88e2c: r0 = TextStyle()
     //     0xa88e2c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -736,21 +736,21 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa88ec0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d320] "%lld following"
     //     0xa88ec4: ldr             x1, [x1, #0x320]
     // 0xa88ec8: r0 = LF()
-    //     0xa88ec8: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xa88ec8: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xa88ecc: ldur            x1, [fp, #-0x10]
     // 0xa88ed0: stur            x0, [fp, #-0x48]
-    // 0xa88ed4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa88ed4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa88ed4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa88ed4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa88ed8: str             x0, [SP]
     // 0xa88edc: ldur            x1, [fp, #-0x10]
-    // 0xa88ee0: r2 = Instance_BallAiTextScale
-    //     0xa88ee0: add             x2, PP, #0x2f, lsl #12  ; [pp+0x2fde8] Obj!BallAiTextScale@d3b001
+    // 0xa88ee0: r2 = Instance_KourtAiTextScale
+    //     0xa88ee0: add             x2, PP, #0x2f, lsl #12  ; [pp+0x2fde8] Obj!KourtAiTextScale@d3b001
     //     0xa88ee4: ldr             x2, [x2, #0xde8]
     // 0xa88ee8: r4 = const [0, 0x3, 0x1, 0x2, color, 0x2, null]
     //     0xa88ee8: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf60] List(7) [0, 0x3, 0x1, 0x2, "color", 0x2, Null]
     //     0xa88eec: ldr             x4, [x4, #0xf60]
-    // 0xa88ef0: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xa88ef0: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xa88ef0: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xa88ef0: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xa88ef4: stur            x0, [fp, #-0x50]
     // 0xa88ef8: r0 = Text()
     //     0xa88ef8: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -766,7 +766,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa88f14: bl              #0x9dc8b8  ; AllocateGestureDetectorStub -> GestureDetector (size=0x10c)
     // 0xa88f18: ldur            x2, [fp, #-0x18]
     // 0xa88f1c: r1 = Function '<anonymous closure>':.
-    //     0xa88f1c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d328] AnonymousClosure: (0xa8aa54), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::build (0xa88b40)
+    //     0xa88f1c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d328] AnonymousClosure: (0xa8aa54), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::build (0xa88b40)
     //     0xa88f20: ldr             x1, [x1, #0x328]
     // 0xa88f24: stur            x0, [fp, #-0x48]
     // 0xa88f28: r0 = AllocateClosure()
@@ -976,10 +976,10 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa89124: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d330] "Find Ballers"
     //     0xa89128: ldr             x1, [x1, #0x330]
     // 0xa8912c: r0 = L()
-    //     0xa8912c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8912c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa89130: ldur            x2, [fp, #-8]
     // 0xa89134: r1 = Function '_openFindFriends@1273340790':.
-    //     0xa89134: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d338] AnonymousClosure: (0xa8a970), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_openFindFriends (0xa8a9a8)
+    //     0xa89134: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d338] AnonymousClosure: (0xa8a970), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_openFindFriends (0xa8a9a8)
     //     0xa89138: ldr             x1, [x1, #0x338]
     // 0xa8913c: stur            x0, [fp, #-0x40]
     // 0xa89140: r0 = AllocateClosure()
@@ -991,16 +991,16 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa89150: add             x2, PP, #0x35, lsl #12  ; [pp+0x35310] Obj!IconData@d0cde1
     //     0xa89154: ldr             x2, [x2, #0x310]
     // 0xa89158: r0 = _iconButton()
-    //     0xa89158: bl              #0xa89fcc  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_iconButton
+    //     0xa89158: bl              #0xa89fcc  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_iconButton
     // 0xa8915c: r1 = "Requests"
     //     0xa8915c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d340] "Requests"
     //     0xa89160: ldr             x1, [x1, #0x340]
     // 0xa89164: stur            x0, [fp, #-0x40]
     // 0xa89168: r0 = L()
-    //     0xa89168: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa89168: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8916c: ldur            x2, [fp, #-0x18]
     // 0xa89170: r1 = Function '<anonymous closure>':.
-    //     0xa89170: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d348] AnonymousClosure: (0xa8a754), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::build (0xa88b40)
+    //     0xa89170: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d348] AnonymousClosure: (0xa8a754), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::build (0xa88b40)
     //     0xa89174: ldr             x1, [x1, #0x348]
     // 0xa89178: stur            x0, [fp, #-0x48]
     // 0xa8917c: r0 = AllocateClosure()
@@ -1012,7 +1012,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa8918c: add             x2, PP, #0x37, lsl #12  ; [pp+0x37198] Obj!IconData@d0d921
     //     0xa89190: ldr             x2, [x2, #0x198]
     // 0xa89194: r0 = _iconButton()
-    //     0xa89194: bl              #0xa89fcc  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_iconButton
+    //     0xa89194: bl              #0xa89fcc  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_iconButton
     // 0xa89198: r1 = Null
     //     0xa89198: mov             x1, NULL
     // 0xa8919c: r2 = 2
@@ -1379,12 +1379,12 @@ class _YouConnectionsSectionState extends State<dynamic> {
     // 0xa89560: tbnz            w2, #4, #0xa89574
     // 0xa89564: ldur            x2, [fp, #-0x10]
     // 0xa89568: r0 = _emptyState()
-    //     0xa89568: bl              #0xa89d70  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_emptyState
+    //     0xa89568: bl              #0xa89d70  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_emptyState
     // 0xa8956c: mov             x2, x0
     // 0xa89570: b               #0xa89580
     // 0xa89574: ldur            x2, [fp, #-0x10]
     // 0xa89578: r0 = _skeleton()
-    //     0xa89578: bl              #0xa89a6c  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_skeleton
+    //     0xa89578: bl              #0xa89a6c  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_skeleton
     // 0xa8957c: mov             x2, x0
     // 0xa89580: ldur            x0, [fp, #-0x40]
     // 0xa89584: stur            x2, [fp, #-8]
@@ -1435,7 +1435,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     // 0xa89608: ldur            x2, [fp, #-0x18]
     // 0xa8960c: stur            x5, [fp, #-0x28]
     // 0xa89610: r1 = Function '<anonymous closure>':.
-    //     0xa89610: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d368] AnonymousClosure: (0xa8a408), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::build (0xa88b40)
+    //     0xa89610: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d368] AnonymousClosure: (0xa8a408), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::build (0xa88b40)
     //     0xa89614: ldr             x1, [x1, #0x368]
     // 0xa89618: r0 = AllocateClosure()
     //     0xa89618: bl              #0xe553e0  ; AllocateClosureStub
@@ -1593,7 +1593,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa89a98: stur            w0, [x1, #0xf]
     // 0xa89a9c: mov             x2, x1
     // 0xa89aa0: r1 = Function '<anonymous closure>':.
-    //     0xa89aa0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d3c0] AnonymousClosure: (0xa89c10), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_skeleton (0xa89a6c)
+    //     0xa89aa0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d3c0] AnonymousClosure: (0xa89c10), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_skeleton (0xa89a6c)
     //     0xa89aa4: ldr             x1, [x1, #0x3c0]
     // 0xa89aa8: r0 = AllocateClosure()
     //     0xa89aa8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1742,8 +1742,8 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa89c38: ldur            w1, [x2, #0xf]
     // 0xa89c3c: DecompressPointer r1
     //     0xa89c3c: add             x1, x1, HEAP, lsl #32
-    // 0xa89c40: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xa89c40: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xa89c40: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xa89c40: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xa89c44: stur            x0, [fp, #-0x10]
     // 0xa89c48: r0 = CircleAvatar()
     //     0xa89c48: bl              #0xa89d64  ; AllocateCircleAvatarStub -> CircleAvatar (size=0x2c)
@@ -1761,8 +1761,8 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa89c68: ldur            w1, [x0, #0xf]
     // 0xa89c6c: DecompressPointer r1
     //     0xa89c6c: add             x1, x1, HEAP, lsl #32
-    // 0xa89c70: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xa89c70: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xa89c70: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xa89c70: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xa89c74: stur            x0, [fp, #-8]
     // 0xa89c78: r0 = Container()
     //     0xa89c78: bl              #0x5ef73c  ; AllocateContainerStub -> Container (size=0x38)
@@ -1876,8 +1876,8 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa89d90: cmp             SP, x16
     //     0xa89d94: b.ls            #0xa89fc0
     // 0xa89d98: mov             x1, x0
-    // 0xa89d9c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa89d9c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa89d9c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa89d9c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa89da0: stur            x0, [fp, #-0x18]
     // 0xa89da4: r0 = Icon()
     //     0xa89da4: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -1900,21 +1900,21 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa89dd0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d3e0] "No people yet"
     //     0xa89dd4: ldr             x1, [x1, #0x3e0]
     // 0xa89dd8: r0 = L()
-    //     0xa89dd8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa89dd8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa89ddc: stur            x0, [fp, #-0x18]
     // 0xa89de0: r16 = Instance_FontWeight
     //     0xa89de0: add             x16, PP, #0x15, lsl #12  ; [pp+0x151f8] Obj!FontWeight@d28021
     //     0xa89de4: ldr             x16, [x16, #0x1f8]
     // 0xa89de8: str             x16, [SP]
     // 0xa89dec: ldur            x1, [fp, #-0x10]
-    // 0xa89df0: r2 = Instance_BallAiTextScale
-    //     0xa89df0: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bef8] Obj!BallAiTextScale@d3afc1
+    // 0xa89df0: r2 = Instance_KourtAiTextScale
+    //     0xa89df0: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bef8] Obj!KourtAiTextScale@d3afc1
     //     0xa89df4: ldr             x2, [x2, #0xef8]
     // 0xa89df8: r4 = const [0, 0x3, 0x1, 0x2, weight, 0x2, null]
     //     0xa89df8: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf00] List(7) [0, 0x3, 0x1, 0x2, "weight", 0x2, Null]
     //     0xa89dfc: ldr             x4, [x4, #0xf00]
-    // 0xa89e00: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xa89e00: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xa89e00: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xa89e00: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xa89e04: stur            x0, [fp, #-0x28]
     // 0xa89e08: r0 = Text()
     //     0xa89e08: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1974,21 +1974,21 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa89e94: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d3e8] "Find ballers to follow and they\'ll show up here."
     //     0xa89e98: ldr             x1, [x1, #0x3e8]
     // 0xa89e9c: r0 = L()
-    //     0xa89e9c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa89e9c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa89ea0: ldur            x1, [fp, #-0x10]
     // 0xa89ea4: stur            x0, [fp, #-8]
-    // 0xa89ea8: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa89ea8: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa89ea8: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa89ea8: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa89eac: str             x0, [SP]
     // 0xa89eb0: ldur            x1, [fp, #-0x10]
-    // 0xa89eb4: r2 = Instance_BallAiTextScale
-    //     0xa89eb4: add             x2, PP, #0x2f, lsl #12  ; [pp+0x2fde8] Obj!BallAiTextScale@d3b001
+    // 0xa89eb4: r2 = Instance_KourtAiTextScale
+    //     0xa89eb4: add             x2, PP, #0x2f, lsl #12  ; [pp+0x2fde8] Obj!KourtAiTextScale@d3b001
     //     0xa89eb8: ldr             x2, [x2, #0xde8]
     // 0xa89ebc: r4 = const [0, 0x3, 0x1, 0x2, color, 0x2, null]
     //     0xa89ebc: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf60] List(7) [0, 0x3, 0x1, 0x2, "color", 0x2, Null]
     //     0xa89ec0: ldr             x4, [x4, #0xf60]
-    // 0xa89ec4: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xa89ec4: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xa89ec4: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xa89ec4: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xa89ec8: stur            x0, [fp, #-0x10]
     // 0xa89ecc: r0 = Text()
     //     0xa89ecc: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2118,8 +2118,8 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa89ffc: add             x1, x1, HEAP, lsl #32
     // 0xa8a000: cmp             w1, NULL
     // 0xa8a004: b.eq            #0xa8a17c
-    // 0xa8a008: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa8a008: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa8a008: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa8a008: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa8a00c: r1 = LoadClassIdInstr(r0)
     //     0xa8a00c: ldur            x1, [x0, #-1]
     //     0xa8a010: ubfx            x1, x1, #0xc, #0x14
@@ -2157,8 +2157,8 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa8a06c: add             x1, x1, HEAP, lsl #32
     // 0xa8a070: cmp             w1, NULL
     // 0xa8a074: b.eq            #0xa8a180
-    // 0xa8a078: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa8a078: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa8a078: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa8a078: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa8a07c: stur            x0, [fp, #-8]
     // 0xa8a080: r0 = Icon()
     //     0xa8a080: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -2370,13 +2370,13 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa8a514: add             x4, x4, HEAP, lsl #32
     // 0xa8a518: ldr             x1, [fp, #0x18]
     // 0xa8a51c: stur            x4, [fp, #-8]
-    // 0xa8a520: r2 = Instance_BallAiTextScale
-    //     0xa8a520: add             x2, PP, #0x2f, lsl #12  ; [pp+0x2fd78] Obj!BallAiTextScale@d3afe1
+    // 0xa8a520: r2 = Instance_KourtAiTextScale
+    //     0xa8a520: add             x2, PP, #0x2f, lsl #12  ; [pp+0x2fd78] Obj!KourtAiTextScale@d3afe1
     //     0xa8a524: ldr             x2, [x2, #0xd78]
     // 0xa8a528: r4 = const [0, 0x2, 0, 0x2, null]
     //     0xa8a528: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
-    // 0xa8a52c: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xa8a52c: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xa8a52c: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xa8a52c: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xa8a530: stur            x0, [fp, #-0x10]
     // 0xa8a534: r0 = Text()
     //     0xa8a534: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2471,7 +2471,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa8a610: bl              #0x9dc8b8  ; AllocateGestureDetectorStub -> GestureDetector (size=0x10c)
     // 0xa8a614: ldur            x2, [fp, #-0x20]
     // 0xa8a618: r1 = Function '<anonymous closure>':.
-    //     0xa8a618: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d380] AnonymousClosure: (0xa8a668), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::build (0xa88b40)
+    //     0xa8a618: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d380] AnonymousClosure: (0xa8a668), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::build (0xa88b40)
     //     0xa8a61c: ldr             x1, [x1, #0x380]
     // 0xa8a620: stur            x0, [fp, #-0x10]
     // 0xa8a624: r0 = AllocateClosure()
@@ -2530,7 +2530,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa8a6a4: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa8a6a8: ldur            x2, [fp, #-8]
     // 0xa8a6ac: r1 = Function '<anonymous closure>':.
-    //     0xa8a6ac: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d388] AnonymousClosure: (0xa8a710), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::build (0xa88b40)
+    //     0xa8a6ac: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d388] AnonymousClosure: (0xa8a710), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::build (0xa88b40)
     //     0xa8a6b0: ldr             x1, [x1, #0x388]
     // 0xa8a6b4: stur            x0, [fp, #-8]
     // 0xa8a6b8: r0 = AllocateClosure()
@@ -2622,7 +2622,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa8a780: add             x2, PP, #0x4d, lsl #12  ; [pp+0x4d390] Obj!FellowBallersTab@d39b01
     //     0xa8a784: ldr             x2, [x2, #0x390]
     // 0xa8a788: r0 = _openPeople()
-    //     0xa8a788: bl              #0xa8a7a4  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_openPeople
+    //     0xa8a788: bl              #0xa8a7a4  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_openPeople
     // 0xa8a78c: r0 = Null
     //     0xa8a78c: mov             x0, NULL
     // 0xa8a790: LeaveFrame
@@ -2672,7 +2672,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa8a7f8: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa8a7fc: ldur            x2, [fp, #-0x18]
     // 0xa8a800: r1 = Function '<anonymous closure>':.
-    //     0xa8a800: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d398] AnonymousClosure: (0xa8a868), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_openPeople (0xa8a7a4)
+    //     0xa8a800: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d398] AnonymousClosure: (0xa8a868), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_openPeople (0xa8a7a4)
     //     0xa8a804: ldr             x1, [x1, #0x398]
     // 0xa8a808: stur            x0, [fp, #-8]
     // 0xa8a80c: r0 = AllocateClosure()
@@ -2754,7 +2754,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     // 0xa8a8c4: mov             x1, x0
     // 0xa8a8c8: stur            x4, [fp, #-8]
     // 0xa8a8cc: r0 = firstName()
-    //     0xa8a8cc: bl              #0x749b68  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::firstName
+    //     0xa8a8cc: bl              #0x749b68  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::firstName
     // 0xa8a8d0: mov             x1, x0
     // 0xa8a8d4: ldur            x0, [fp, #-0x18]
     // 0xa8a8d8: stur            x1, [fp, #-0x28]
@@ -2810,7 +2810,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa8a988: cmp             SP, x16
     //     0xa8a98c: b.ls            #0xa8a9a0
     // 0xa8a990: r0 = _openFindFriends()
-    //     0xa8a990: bl              #0xa8a9a8  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_openFindFriends
+    //     0xa8a990: bl              #0xa8a9a8  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_openFindFriends
     // 0xa8a994: LeaveFrame
     //     0xa8a994: mov             SP, fp
     //     0xa8a998: ldp             fp, lr, [SP], #0x10
@@ -2843,7 +2843,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     // 0xa8a9d8: r0 = of()
     //     0xa8a9d8: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa8a9dc: r1 = Function '<anonymous closure>':.
-    //     0xa8a9dc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d3a0] AnonymousClosure: (0xa8aa48), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_openFindFriends (0xa8a9a8)
+    //     0xa8a9dc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d3a0] AnonymousClosure: (0xa8aa48), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_openFindFriends (0xa8a9a8)
     //     0xa8a9e0: ldr             x1, [x1, #0x3a0]
     // 0xa8a9e4: r2 = Null
     //     0xa8a9e4: mov             x2, NULL
@@ -2916,7 +2916,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa8aa80: add             x2, PP, #0x4d, lsl #12  ; [pp+0x4d3b0] Obj!FellowBallersTab@d39ac1
     //     0xa8aa84: ldr             x2, [x2, #0x3b0]
     // 0xa8aa88: r0 = _openPeople()
-    //     0xa8aa88: bl              #0xa8a7a4  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_openPeople
+    //     0xa8aa88: bl              #0xa8a7a4  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_openPeople
     // 0xa8aa8c: r0 = Null
     //     0xa8aa8c: mov             x0, NULL
     // 0xa8aa90: LeaveFrame
@@ -2951,7 +2951,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xa8aad0: add             x2, PP, #0x4d, lsl #12  ; [pp+0x4d3b8] Obj!FellowBallersTab@d39ae1
     //     0xa8aad4: ldr             x2, [x2, #0x3b8]
     // 0xa8aad8: r0 = _openPeople()
-    //     0xa8aad8: bl              #0xa8a7a4  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_openPeople
+    //     0xa8aad8: bl              #0xa8a7a4  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_openPeople
     // 0xa8aadc: r0 = Null
     //     0xa8aadc: mov             x0, NULL
     // 0xa8aae0: LeaveFrame
@@ -2970,7 +2970,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xb5bce4: mov             fp, SP
     // 0xb5bce8: ldr             x2, [fp, #0x10]
     // 0xb5bcec: r1 = Function 'dispose':.
-    //     0xb5bcec: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d2f8] AnonymousClosure: (0xb5bd04), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::dispose (0xb62f5c)
+    //     0xb5bcec: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d2f8] AnonymousClosure: (0xb5bd04), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::dispose (0xb62f5c)
     //     0xb5bcf0: ldr             x1, [x1, #0x2f8]
     // 0xb5bcf4: r0 = AllocateClosure()
     //     0xb5bcf4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2995,7 +2995,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     //     0xb5bd1c: cmp             SP, x16
     //     0xb5bd20: b.ls            #0xb5bd34
     // 0xb5bd24: r0 = dispose()
-    //     0xb5bd24: bl              #0xb62f5c  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::dispose
+    //     0xb5bd24: bl              #0xb62f5c  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::dispose
     // 0xb5bd28: LeaveFrame
     //     0xb5bd28: mov             SP, fp
     //     0xb5bd2c: ldp             fp, lr, [SP], #0x10
@@ -3030,7 +3030,7 @@ class _YouConnectionsSectionState extends State<dynamic> {
     // 0xb62f90: mov             x2, x0
     // 0xb62f94: stur            x3, [fp, #-8]
     // 0xb62f98: r1 = Function '_onVm@1273340790':.
-    //     0xb62f98: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d3f0] AnonymousClosure: (0x97ff70), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_onVm (0x97ffa8)
+    //     0xb62f98: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d3f0] AnonymousClosure: (0x97ff70), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_connections_section.dart] _YouConnectionsSectionState::_onVm (0x97ffa8)
     //     0xb62f9c: ldr             x1, [x1, #0x3f0]
     // 0xb62fa0: r0 = AllocateClosure()
     //     0xb62fa0: bl              #0xe553e0  ; AllocateClosureStub

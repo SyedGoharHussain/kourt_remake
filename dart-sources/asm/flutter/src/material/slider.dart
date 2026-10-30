@@ -468,7 +468,7 @@ class _RenderSlider extends __RenderRangeSlider&RenderBox&RelayoutWhenSystemFont
     // 0x7c9b88: r0 = _sliderPartSizes()
     //     0x7c9b88: bl              #0x7c9be0  ; [package:flutter/src/material/slider.dart] _RenderSlider::_sliderPartSizes
     // 0x7c9b8c: r1 = Function '<anonymous closure>':.
-    //     0x7c9b8c: add             x1, PP, #0x50, lsl #12  ; [pp+0x509b8] AnonymousClosure: (0x770f4c), in [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::_medianFromHistory (0x770898)
+    //     0x7c9b8c: add             x1, PP, #0x50, lsl #12  ; [pp+0x509b8] AnonymousClosure: (0x770f4c), in [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::_medianFromHistory (0x770898)
     //     0x7c9b90: ldr             x1, [x1, #0x9b8]
     // 0x7c9b94: r2 = Null
     //     0x7c9b94: mov             x2, NULL
@@ -775,7 +775,7 @@ class _RenderSlider extends __RenderRangeSlider&RenderBox&RelayoutWhenSystemFont
     // 0x7d2b18: r0 = _sliderPartSizes()
     //     0x7d2b18: bl              #0x7c9be0  ; [package:flutter/src/material/slider.dart] _RenderSlider::_sliderPartSizes
     // 0x7d2b1c: r1 = Function '<anonymous closure>':.
-    //     0x7d2b1c: add             x1, PP, #0x50, lsl #12  ; [pp+0x509d0] AnonymousClosure: (0x770fa0), in [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::_medianFromHistory (0x770898)
+    //     0x7d2b1c: add             x1, PP, #0x50, lsl #12  ; [pp+0x509d0] AnonymousClosure: (0x770fa0), in [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::_medianFromHistory (0x770898)
     //     0x7d2b20: ldr             x1, [x1, #0x9d0]
     // 0x7d2b24: r2 = Null
     //     0x7d2b24: mov             x2, NULL
@@ -7289,7 +7289,7 @@ class _SliderState extends __SliderState&State&TickerProviderStateMixin {
     // 0x813c74: StoreField: r2->field_7 = d0
     //     0x813c74: stur            d0, [x2, #7]
     // 0x813c78: r0 = _onScrubEnd()
-    //     0x813c78: bl              #0x813d10  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_onScrubEnd
+    //     0x813c78: bl              #0x813d10  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_hls_video_player.dart] _WorkoutPlayerControlsState::_onScrubEnd
     // 0x813c7c: r0 = Null
     //     0x813c7c: mov             x0, NULL
     // 0x813c80: LeaveFrame

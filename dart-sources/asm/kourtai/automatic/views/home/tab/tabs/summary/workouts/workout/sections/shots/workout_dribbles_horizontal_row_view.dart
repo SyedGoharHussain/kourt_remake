@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart
 
 // class id: 1048907, size: 0x8
 class :: {
@@ -102,7 +102,7 @@ class _WorkoutDribblesHorizontalRowViewState extends State<dynamic> {
     // 0x8f43f8: b.eq            #0x8f4404
     // 0x8f43fc: mov             x1, x2
     // 0x8f4400: r0 = _startPolling()
-    //     0x8f4400: bl              #0x8f4420  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_startPolling
+    //     0x8f4400: bl              #0x8f4420  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_startPolling
     // 0x8f4404: r0 = Null
     //     0x8f4404: mov             x0, NULL
     // 0x8f4408: LeaveFrame
@@ -149,7 +149,7 @@ class _WorkoutDribblesHorizontalRowViewState extends State<dynamic> {
     // 0x8f4468: ldur            x0, [fp, #-8]
     // 0x8f446c: ldur            x2, [fp, #-0x10]
     // 0x8f4470: r1 = Function '<anonymous closure>':.
-    //     0x8f4470: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e1b8] AnonymousClosure: (0x8f44c8), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_startPolling (0x8f4420)
+    //     0x8f4470: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e1b8] AnonymousClosure: (0x8f44c8), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_startPolling (0x8f4420)
     //     0x8f4474: ldr             x1, [x1, #0x1b8]
     // 0x8f4478: r0 = AllocateClosure()
     //     0x8f4478: bl              #0xe553e0  ; AllocateClosureStub
@@ -201,7 +201,7 @@ class _WorkoutDribblesHorizontalRowViewState extends State<dynamic> {
     //     0x8f44ec: add             x0, x0, HEAP, lsl #32
     // 0x8f44f0: mov             x1, x0
     // 0x8f44f4: r0 = _syncFromPlayback()
-    //     0x8f44f4: bl              #0x8f4510  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_syncFromPlayback
+    //     0x8f44f4: bl              #0x8f4510  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_syncFromPlayback
     // 0x8f44f8: r0 = Null
     //     0x8f44f8: mov             x0, NULL
     // 0x8f44fc: LeaveFrame
@@ -329,19 +329,19 @@ class _WorkoutDribblesHorizontalRowViewState extends State<dynamic> {
     // 0x8f462c: mov             x2, x0
     // 0x8f4630: stur            x3, [fp, #-0x20]
     // 0x8f4634: r1 = Function '_eventTime@1175364667':.
-    //     0x8f4634: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e128] AnonymousClosure: (0x8f5ee8), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime (0x8f5160)
+    //     0x8f4634: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e128] AnonymousClosure: (0x8f5ee8), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime (0x8f5160)
     //     0x8f4638: ldr             x1, [x1, #0x128]
     // 0x8f463c: r0 = AllocateClosure()
     //     0x8f463c: bl              #0xe553e0  ; AllocateClosureStub
     // 0x8f4640: mov             x1, x0
     // 0x8f4644: ldur            x2, [fp, #-0x20]
     // 0x8f4648: r0 = clusters()
-    //     0x8f4648: bl              #0x8f5290  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/dribble_carousel_grouping.dart] DribbleCarouselGrouping::clusters
+    //     0x8f4648: bl              #0x8f5290  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/dribble_carousel_grouping.dart] DribbleCarouselGrouping::clusters
     // 0x8f464c: ldur            x1, [fp, #-8]
     // 0x8f4650: mov             x2, x0
     // 0x8f4654: stur            x0, [fp, #-0x20]
     // 0x8f4658: r0 = _buildTimings()
-    //     0x8f4658: bl              #0x8f4a88  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_buildTimings
+    //     0x8f4658: bl              #0x8f4a88  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_buildTimings
     // 0x8f465c: mov             x2, x0
     // 0x8f4660: stur            x2, [fp, #-0x28]
     // 0x8f4664: r0 = LoadClassIdInstr(r2)
@@ -496,7 +496,7 @@ class _WorkoutDribblesHorizontalRowViewState extends State<dynamic> {
     //     0x8f481c: ret             
     // 0x8f4820: mov             x2, x3
     // 0x8f4824: r1 = Function '<anonymous closure>':.
-    //     0x8f4824: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e1c0] AnonymousClosure: (0x8f5c0c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_seekToRun (0x8f5c5c)
+    //     0x8f4824: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e1c0] AnonymousClosure: (0x8f5c0c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_seekToRun (0x8f5c5c)
     //     0x8f4828: ldr             x1, [x1, #0x1c0]
     // 0x8f482c: r0 = AllocateClosure()
     //     0x8f482c: bl              #0xe553e0  ; AllocateClosureStub
@@ -536,7 +536,7 @@ class _WorkoutDribblesHorizontalRowViewState extends State<dynamic> {
     // 0x8f4890: ldur            x1, [fp, #-8]
     // 0x8f4894: ldur            x2, [fp, #-0x10]
     // 0x8f4898: r0 = _scrollToIndex()
-    //     0x8f4898: bl              #0x8f4930  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_scrollToIndex
+    //     0x8f4898: bl              #0x8f4930  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_scrollToIndex
     // 0x8f489c: r0 = Null
     //     0x8f489c: mov             x0, NULL
     // 0x8f48a0: LeaveFrame
@@ -582,14 +582,14 @@ class _WorkoutDribblesHorizontalRowViewState extends State<dynamic> {
     //     0x8f48f8: add             x3, x3, HEAP, lsl #32
     // 0x8f48fc: stur            x3, [fp, #-8]
     // 0x8f4900: r1 = Function '_eventTime@1175364667':.
-    //     0x8f4900: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e128] AnonymousClosure: (0x8f5ee8), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime (0x8f5160)
+    //     0x8f4900: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e128] AnonymousClosure: (0x8f5ee8), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime (0x8f5160)
     //     0x8f4904: ldr             x1, [x1, #0x128]
     // 0x8f4908: r0 = AllocateClosure()
     //     0x8f4908: bl              #0xe553e0  ; AllocateClosureStub
     // 0x8f490c: mov             x1, x0
     // 0x8f4910: ldur            x2, [fp, #-8]
     // 0x8f4914: r0 = clusters()
-    //     0x8f4914: bl              #0x8f5290  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/dribble_carousel_grouping.dart] DribbleCarouselGrouping::clusters
+    //     0x8f4914: bl              #0x8f5290  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/dribble_carousel_grouping.dart] DribbleCarouselGrouping::clusters
     // 0x8f4918: LeaveFrame
     //     0x8f4918: mov             SP, fp
     //     0x8f491c: ldp             fp, lr, [SP], #0x10
@@ -1507,19 +1507,19 @@ class _WorkoutDribblesHorizontalRowViewState extends State<dynamic> {
     // 0x8f5cdc: mov             x2, x0
     // 0x8f5ce0: stur            x3, [fp, #-0x28]
     // 0x8f5ce4: r1 = Function '_eventTime@1175364667':.
-    //     0x8f5ce4: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e128] AnonymousClosure: (0x8f5ee8), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime (0x8f5160)
+    //     0x8f5ce4: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e128] AnonymousClosure: (0x8f5ee8), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime (0x8f5160)
     //     0x8f5ce8: ldr             x1, [x1, #0x128]
     // 0x8f5cec: r0 = AllocateClosure()
     //     0x8f5cec: bl              #0xe553e0  ; AllocateClosureStub
     // 0x8f5cf0: mov             x1, x0
     // 0x8f5cf4: ldur            x2, [fp, #-0x28]
     // 0x8f5cf8: r0 = clusters()
-    //     0x8f5cf8: bl              #0x8f5290  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/dribble_carousel_grouping.dart] DribbleCarouselGrouping::clusters
+    //     0x8f5cf8: bl              #0x8f5290  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/dribble_carousel_grouping.dart] DribbleCarouselGrouping::clusters
     // 0x8f5cfc: ldur            x1, [fp, #-0x10]
     // 0x8f5d00: mov             x2, x0
     // 0x8f5d04: stur            x0, [fp, #-0x28]
     // 0x8f5d08: r0 = _buildTimings()
-    //     0x8f5d08: bl              #0x8f4a88  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_buildTimings
+    //     0x8f5d08: bl              #0x8f4a88  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_buildTimings
     // 0x8f5d0c: mov             x2, x0
     // 0x8f5d10: ldur            x1, [fp, #-0x10]
     // 0x8f5d14: stur            x2, [fp, #-0x38]
@@ -1600,7 +1600,7 @@ class _WorkoutDribblesHorizontalRowViewState extends State<dynamic> {
     //     0x8f5df0: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x8f5df4: ldur            x2, [fp, #-0x20]
     // 0x8f5df8: r1 = Function '<anonymous closure>':.
-    //     0x8f5df8: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e130] AnonymousClosure: (0x8f5c0c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_seekToRun (0x8f5c5c)
+    //     0x8f5df8: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e130] AnonymousClosure: (0x8f5c0c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_seekToRun (0x8f5c5c)
     //     0x8f5dfc: ldr             x1, [x1, #0x130]
     // 0x8f5e00: r0 = AllocateClosure()
     //     0x8f5e00: bl              #0xe553e0  ; AllocateClosureStub
@@ -1630,7 +1630,7 @@ class _WorkoutDribblesHorizontalRowViewState extends State<dynamic> {
     // 0x8f5e48: ldur            x1, [fp, #-0x10]
     // 0x8f5e4c: ldur            x2, [fp, #-0x40]
     // 0x8f5e50: r0 = _scrollToIndex()
-    //     0x8f5e50: bl              #0x8f4930  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_scrollToIndex
+    //     0x8f5e50: bl              #0x8f4930  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_scrollToIndex
     // 0x8f5e54: ldur            x1, [fp, #-0x20]
     // 0x8f5e58: LoadField: r0 = r1->field_13
     //     0x8f5e58: ldur            w0, [x1, #0x13]
@@ -1653,7 +1653,7 @@ class _WorkoutDribblesHorizontalRowViewState extends State<dynamic> {
     //     0x8f5e88: add             x2, x2, HEAP, lsl #32
     // 0x8f5e8c: ldur            x1, [fp, #-0x30]
     // 0x8f5e90: r0 = seekTo()
-    //     0x8f5e90: bl              #0x813e9c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::seekTo
+    //     0x8f5e90: bl              #0x813e9c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::seekTo
     // 0x8f5e94: mov             x1, x0
     // 0x8f5e98: stur            x1, [fp, #-0x10]
     // 0x8f5e9c: r0 = Await()
@@ -1673,7 +1673,7 @@ class _WorkoutDribblesHorizontalRowViewState extends State<dynamic> {
     //     0x8f5eb8: add             x0, x0, HEAP, lsl #32
     // 0x8f5ebc: tbz             w0, #4, #0x8f5ed0
     // 0x8f5ec0: r0 = play()
-    //     0x8f5ec0: bl              #0x8ecaf8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::play
+    //     0x8f5ec0: bl              #0x8ecaf8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::play
     // 0x8f5ec4: mov             x1, x0
     // 0x8f5ec8: stur            x1, [fp, #-0x10]
     // 0x8f5ecc: r0 = Await()
@@ -1706,7 +1706,7 @@ class _WorkoutDribblesHorizontalRowViewState extends State<dynamic> {
     //     0x8f5f04: b.ls            #0x8f5f44
     // 0x8f5f08: ldr             x2, [fp, #0x10]
     // 0x8f5f0c: r0 = _eventTime()
-    //     0x8f5f0c: bl              #0x8f5160  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime
+    //     0x8f5f0c: bl              #0x8f5160  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_eventTime
     // 0x8f5f10: r0 = inline_Allocate_Double()
     //     0x8f5f10: ldp             x0, x1, [THR, #0x50]  ; THR::top
     //     0x8f5f14: add             x0, x0, #0x10
@@ -1745,7 +1745,7 @@ class _WorkoutDribblesHorizontalRowViewState extends State<dynamic> {
     //     0x9622b0: cmp             SP, x16
     //     0x9622b4: b.ls            #0x9622cc
     // 0x9622b8: r0 = _startPolling()
-    //     0x9622b8: bl              #0x8f4420  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_startPolling
+    //     0x9622b8: bl              #0x8f4420  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_startPolling
     // 0x9622bc: r0 = Null
     //     0x9622bc: mov             x0, NULL
     // 0x9622c0: LeaveFrame
@@ -1781,7 +1781,7 @@ class _WorkoutDribblesHorizontalRowViewState extends State<dynamic> {
     //     0xa427ec: stur            w0, [x2, #0xf]
     // 0xa427f0: mov             x1, x0
     // 0xa427f4: r0 = _clusters()
-    //     0xa427f4: bl              #0x8f48c8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_clusters
+    //     0xa427f4: bl              #0x8f48c8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_clusters
     // 0xa427f8: mov             x3, x0
     // 0xa427fc: ldur            x2, [fp, #-0x10]
     // 0xa42800: stur            x3, [fp, #-0x20]
@@ -1872,7 +1872,7 @@ class _WorkoutDribblesHorizontalRowViewState extends State<dynamic> {
     //     0xa428fc: sbfx            x3, x0, #1, #0x1f
     // 0xa42900: stur            x3, [fp, #-0x38]
     // 0xa42904: r1 = Function '<anonymous closure>':.
-    //     0xa42904: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e108] AnonymousClosure: (0xa42e38), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/video_mix_picker_row.dart] VideoMixPickerRow::build (0xbecfd0)
+    //     0xa42904: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e108] AnonymousClosure: (0xa42e38), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/video_mix_picker_row.dart] VideoMixPickerRow::build (0xbecfd0)
     //     0xa42908: ldr             x1, [x1, #0x108]
     // 0xa4290c: r2 = Null
     //     0xa4290c: mov             x2, NULL
@@ -1880,7 +1880,7 @@ class _WorkoutDribblesHorizontalRowViewState extends State<dynamic> {
     //     0xa42910: bl              #0xe553e0  ; AllocateClosureStub
     // 0xa42914: ldur            x2, [fp, #-0x10]
     // 0xa42918: r1 = Function '<anonymous closure>':.
-    //     0xa42918: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e110] AnonymousClosure: (0xa42c94), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::build (0xa427bc)
+    //     0xa42918: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e110] AnonymousClosure: (0xa42c94), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::build (0xa427bc)
     //     0xa4291c: ldr             x1, [x1, #0x110]
     // 0xa42920: stur            x0, [fp, #-0x10]
     // 0xa42924: r0 = AllocateClosure()
@@ -2295,7 +2295,7 @@ class _WorkoutDribblesHorizontalRowViewState extends State<dynamic> {
     //     0xa42d8c: stur            w0, [x3, #0xf]
     // 0xa42d90: ldur            x2, [fp, #-0x10]
     // 0xa42d94: r1 = Function '<anonymous closure>':.
-    //     0xa42d94: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e120] AnonymousClosure: (0xa42dcc), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::build (0xa427bc)
+    //     0xa42d94: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e120] AnonymousClosure: (0xa42dcc), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::build (0xa427bc)
     //     0xa42d98: ldr             x1, [x1, #0x120]
     // 0xa42d9c: r0 = AllocateClosure()
     //     0xa42d9c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2346,7 +2346,7 @@ class _WorkoutDribblesHorizontalRowViewState extends State<dynamic> {
     // 0xa42e14: mov             x1, x2
     // 0xa42e18: mov             x2, x16
     // 0xa42e1c: r0 = _seekToRun()
-    //     0xa42e1c: bl              #0x8f5c5c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_seekToRun
+    //     0xa42e1c: bl              #0x8f5c5c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _WorkoutDribblesHorizontalRowViewState::_seekToRun
     // 0xa42e20: r0 = Null
     //     0xa42e20: mov             x0, NULL
     // 0xa42e24: LeaveFrame
@@ -2365,7 +2365,7 @@ class _WorkoutDribblesHorizontalRowViewState extends State<dynamic> {
     //     0xb5b2b0: mov             fp, SP
     // 0xb5b2b4: ldr             x2, [fp, #0x10]
     // 0xb5b2b8: r1 = Function 'dispose':.
-    //     0xb5b2b8: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e100] AnonymousClosure: (0xb5b2d0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_shots_horizontal_row_view.dart] _WorkoutShotsHorizontalRowViewState::dispose (0xb621cc)
+    //     0xb5b2b8: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e100] AnonymousClosure: (0xb5b2d0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_shots_horizontal_row_view.dart] _WorkoutShotsHorizontalRowViewState::dispose (0xb621cc)
     //     0xb5b2bc: ldr             x1, [x1, #0x100]
     // 0xb5b2c0: r0 = AllocateClosure()
     //     0xb5b2c0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2390,7 +2390,7 @@ class _WorkoutDribblesHorizontalRowViewState extends State<dynamic> {
     //     0xb5b2e8: cmp             SP, x16
     //     0xb5b2ec: b.ls            #0xb5b300
     // 0xb5b2f0: r0 = dispose()
-    //     0xb5b2f0: bl              #0xb621cc  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_shots_horizontal_row_view.dart] _WorkoutShotsHorizontalRowViewState::dispose
+    //     0xb5b2f0: bl              #0xb621cc  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_shots_horizontal_row_view.dart] _WorkoutShotsHorizontalRowViewState::dispose
     // 0xb5b2f4: LeaveFrame
     //     0xb5b2f4: mov             SP, fp
     //     0xb5b2f8: ldp             fp, lr, [SP], #0x10
@@ -2471,13 +2471,13 @@ class _DownloadCircleButton extends StatelessWidget {
     // 0xbec140: stur            x3, [fp, #-8]
     // 0xbec144: tbnz            w3, #4, #0xbec158
     // 0xbec148: mov             x1, x0
-    // 0xbec14c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbec14c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbec14c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbec14c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbec150: mov             x2, x0
     // 0xbec154: b               #0xbec180
     // 0xbec158: ldur            x1, [fp, #-0x18]
-    // 0xbec15c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbec15c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbec15c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbec15c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbec160: r16 = 0.450000
     //     0xbec160: add             x16, PP, #0x20, lsl #12  ; [pp+0x20e20] 0.45
     //     0xbec164: ldr             x16, [x16, #0xe20]
@@ -2492,8 +2492,8 @@ class _DownloadCircleButton extends StatelessWidget {
     // 0xbec180: ldur            x0, [fp, #-8]
     // 0xbec184: ldur            x1, [fp, #-0x18]
     // 0xbec188: stur            x2, [fp, #-0x20]
-    // 0xbec18c: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xbec18c: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xbec18c: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xbec18c: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xbec190: mov             x1, x0
     // 0xbec194: ldur            x0, [fp, #-8]
     // 0xbec198: stur            x1, [fp, #-0x18]
@@ -2705,8 +2705,8 @@ class _DribblePill extends StatelessWidget {
     //     0xbeba04: cmp             SP, x16
     //     0xbeba08: b.ls            #0xbebd10
     // 0xbeba0c: mov             x1, x0
-    // 0xbeba10: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbeba10: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbeba10: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbeba10: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbeba14: mov             x2, x0
     // 0xbeba18: ldur            x0, [fp, #-8]
     // 0xbeba1c: stur            x2, [fp, #-0x20]
@@ -2716,8 +2716,8 @@ class _DribblePill extends StatelessWidget {
     //     0xbeba24: add             x3, x3, HEAP, lsl #32
     // 0xbeba28: ldur            x1, [fp, #-0x10]
     // 0xbeba2c: stur            x3, [fp, #-0x18]
-    // 0xbeba30: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbeba30: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbeba30: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbeba30: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbeba34: r16 = 0.100000
     //     0xbeba34: add             x16, PP, #0x25, lsl #12  ; [pp+0x250a0] 0.1
     //     0xbeba38: ldr             x16, [x16, #0xa0]
@@ -2796,11 +2796,11 @@ class _DribblePill extends StatelessWidget {
     //     0xbebafc: stur            w0, [x2, #0x23]
     // 0xbebb00: ldur            x1, [fp, #-8]
     // 0xbebb04: r0 = _rangeLabel()
-    //     0xbebb04: bl              #0xbebfd8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _DribblePill::_rangeLabel
+    //     0xbebb04: bl              #0xbebfd8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _DribblePill::_rangeLabel
     // 0xbebb08: ldur            x1, [fp, #-0x10]
     // 0xbebb0c: stur            x0, [fp, #-0x10]
-    // 0xbebb10: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbebb10: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbebb10: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbebb10: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbebb14: stur            x0, [fp, #-0x28]
     // 0xbebb18: r0 = TextStyle()
     //     0xbebb18: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2844,7 +2844,7 @@ class _DribblePill extends StatelessWidget {
     //     0xbebb78: stur            w0, [x2, #0x37]
     // 0xbebb7c: ldur            x1, [fp, #-8]
     // 0xbebb80: r0 = _pointsText()
-    //     0xbebb80: bl              #0xbebd18  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _DribblePill::_pointsText
+    //     0xbebb80: bl              #0xbebd18  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/workout_dribbles_horizontal_row_view.dart] _DribblePill::_pointsText
     // 0xbebb84: stur            x0, [fp, #-8]
     // 0xbebb88: r0 = TextStyle()
     //     0xbebb88: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -3019,7 +3019,7 @@ class _DribblePill extends StatelessWidget {
     //     0xbebd34: add             x0, x0, HEAP, lsl #32
     // 0xbebd38: mov             x1, x0
     // 0xbebd3c: r0 = totalPoints()
-    //     0xbebd3c: bl              #0xbebeb0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/dribble_carousel_grouping.dart] DribbleCarouselCluster::totalPoints
+    //     0xbebd3c: bl              #0xbebeb0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shots/dribble_carousel_grouping.dart] DribbleCarouselCluster::totalPoints
     // 0xbebd40: mov             v1.16b, v0.16b
     // 0xbebd44: stur            d1, [fp, #-0x10]
     // 0xbebd48: stp             fp, lr, [SP, #-0x10]!
@@ -3207,7 +3207,7 @@ class _DribblePill extends StatelessWidget {
     //     0xbec064: add             x1, PP, #0x53, lsl #12  ; [pp+0x53940] "Dribbles %lld"
     //     0xbec068: ldr             x1, [x1, #0x940]
     // 0xbec06c: r0 = LF()
-    //     0xbec06c: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xbec06c: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xbec070: LeaveFrame
     //     0xbec070: mov             SP, fp
     //     0xbec074: ldp             fp, lr, [SP], #0x10
@@ -3258,7 +3258,7 @@ class _DribblePill extends StatelessWidget {
     //     0xbec0f0: add             x1, PP, #0x53, lsl #12  ; [pp+0x53948] "Dribbles %lld-%lld"
     //     0xbec0f4: ldr             x1, [x1, #0x948]
     // 0xbec0f8: r0 = LF()
-    //     0xbec0f8: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xbec0f8: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xbec0fc: LeaveFrame
     //     0xbec0fc: mov             SP, fp
     //     0xbec100: ldp             fp, lr, [SP], #0x10

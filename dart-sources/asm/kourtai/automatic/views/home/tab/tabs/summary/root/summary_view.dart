@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart
 
 // class id: 1048887, size: 0x8
 class :: {
@@ -50,7 +50,7 @@ class _SummaryViewState extends State<dynamic> {
     //     0x957f24: stur            x1, [x0, #0xb]
     // 0x957f28: mov             x1, x0
     // 0x957f2c: r0 = DateTimeWeekRange.getWeekStartAndEnd()
-    //     0x957f2c: bl              #0x5fb6d0  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
+    //     0x957f2c: bl              #0x5fb6d0  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
     // 0x957f30: mov             x2, x0
     // 0x957f34: stur            x2, [fp, #-0x18]
     // 0x957f38: r0 = LoadClassIdInstr(r2)
@@ -138,7 +138,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0x95803c: ldur            x2, [fp, #-0x10]
     // 0x958040: stur            x0, [fp, #-8]
     // 0x958044: r1 = Function '<anonymous closure>':.
-    //     0x958044: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a4c0] AnonymousClosure: (0x958138), in [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::initState (0x957ec8)
+    //     0x958044: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a4c0] AnonymousClosure: (0x958138), in [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::initState (0x957ec8)
     //     0x958048: ldr             x1, [x1, #0x4c0]
     // 0x95804c: r0 = AllocateClosure()
     //     0x95804c: bl              #0xe553e0  ; AllocateClosureStub
@@ -244,7 +244,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0x958178: r2 = false
     //     0x958178: add             x2, NULL, #0x30  ; false
     // 0x95817c: r0 = _scrollSelectedWeekIntoView()
-    //     0x95817c: bl              #0x95aac0  ; [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_scrollSelectedWeekIntoView
+    //     0x95817c: bl              #0x95aac0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_scrollSelectedWeekIntoView
     // 0x958180: ldur            x0, [fp, #-8]
     // 0x958184: LoadField: r1 = r0->field_f
     //     0x958184: ldur            w1, [x0, #0xf]
@@ -259,7 +259,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0x958198: cmp             w2, w16
     // 0x95819c: b.eq            #0x9581bc
     // 0x9581a0: r0 = _resetListenersForWeek()
-    //     0x9581a0: bl              #0x9581c8  ; [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_resetListenersForWeek
+    //     0x9581a0: bl              #0x9581c8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_resetListenersForWeek
     // 0x9581a4: r0 = Null
     //     0x9581a4: mov             x0, NULL
     // 0x9581a8: LeaveFrame
@@ -323,7 +323,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0x958238: ldur            x0, [fp, #-8]
     // 0x95823c: ldur            x1, [fp, #-0x10]
     // 0x958240: r0 = DateTimeWeekRange.getWeekStartAndEnd()
-    //     0x958240: bl              #0x5fb6d0  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
+    //     0x958240: bl              #0x5fb6d0  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
     // 0x958244: mov             x2, x0
     // 0x958248: stur            x2, [fp, #-0x28]
     // 0x95824c: mov             x3, x1
@@ -347,7 +347,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0x958280: ldur            x2, [fp, #-0x10]
     // 0x958284: ldur            x3, [fp, #-0x18]
     // 0x958288: r0 = startListener()
-    //     0x958288: bl              #0x958c9c  ; [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::startListener
+    //     0x958288: bl              #0x958c9c  ; [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::startListener
     // 0x95828c: ldur            x0, [fp, #-8]
     // 0x958290: LoadField: r1 = r0->field_f
     //     0x958290: ldur            w1, [x0, #0xf]
@@ -368,7 +368,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0x9582bc: ldur            x3, [fp, #-0x20]
     // 0x9582c0: ldur            x5, [fp, #-0x18]
     // 0x9582c4: r0 = startListener()
-    //     0x9582c4: bl              #0x9582ec  ; [package:ballai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::startListener
+    //     0x9582c4: bl              #0x9582ec  ; [package:kourtai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::startListener
     // 0x9582c8: r0 = Null
     //     0x9582c8: mov             x0, NULL
     // 0x9582cc: LeaveFrame
@@ -428,7 +428,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0x95ab20: mov             x2, x1
     // 0x95ab24: stur            x0, [fp, #-8]
     // 0x95ab28: r1 = Function '<anonymous closure>':.
-    //     0x95ab28: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a3e8] AnonymousClosure: (0x95abfc), in [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_scrollSelectedWeekIntoView (0x95aac0)
+    //     0x95ab28: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a3e8] AnonymousClosure: (0x95abfc), in [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_scrollSelectedWeekIntoView (0x95aac0)
     //     0x95ab2c: ldr             x1, [x1, #0x3e8]
     // 0x95ab30: r0 = AllocateClosure()
     //     0x95ab30: bl              #0xe553e0  ; AllocateClosureStub
@@ -785,7 +785,7 @@ class _SummaryViewState extends State<dynamic> {
     //     0x990804: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x990808: ldur            x1, [fp, #-0x38]
     // 0x99080c: r0 = _canAccessSummaryWeek()
-    //     0x99080c: bl              #0x990a4c  ; [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_canAccessSummaryWeek
+    //     0x99080c: bl              #0x990a4c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_canAccessSummaryWeek
     // 0x990810: tbz             w0, #4, #0x990908
     // 0x990814: r0 = LoadStaticField(0x8b4)
     //     0x990814: ldr             x0, [THR, #0x68]  ; THR::field_table_values
@@ -804,7 +804,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0x990838: ldur            x2, [fp, #-0x10]
     // 0x99083c: stur            x0, [fp, #-0x28]
     // 0x990840: r1 = Function '<anonymous closure>':.
-    //     0x990840: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a3b0] AnonymousClosure: (0x990eac), in [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
+    //     0x990840: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a3b0] AnonymousClosure: (0x990eac), in [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
     //     0x990844: ldr             x1, [x1, #0x3b0]
     // 0x990848: r0 = AllocateClosure()
     //     0x990848: bl              #0xe553e0  ; AllocateClosureStub
@@ -883,7 +883,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0x990914: ldur            x2, [fp, #-0x10]
     // 0x990918: stur            x3, [fp, #-0x28]
     // 0x99091c: r1 = Function '<anonymous closure>':.
-    //     0x99091c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a3c8] AnonymousClosure: (0x990690), in [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
+    //     0x99091c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a3c8] AnonymousClosure: (0x990690), in [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
     //     0x990920: ldr             x1, [x1, #0x3c8]
     // 0x990924: r0 = AllocateClosure()
     //     0x990924: bl              #0xe553e0  ; AllocateClosureStub
@@ -898,7 +898,7 @@ class _SummaryViewState extends State<dynamic> {
     //     0x99093c: add             x1, x1, HEAP, lsl #32
     // 0x990940: ldur            x2, [fp, #-0x38]
     // 0x990944: r0 = _resetListenersForWeek()
-    //     0x990944: bl              #0x9581c8  ; [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_resetListenersForWeek
+    //     0x990944: bl              #0x9581c8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_resetListenersForWeek
     // 0x990948: r0 = LoadStaticField(0x8b4)
     //     0x990948: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x99094c: ldr             x0, [x0, #0x1168]
@@ -916,7 +916,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0x99096c: ldur            x2, [fp, #-0x10]
     // 0x990970: stur            x0, [fp, #-8]
     // 0x990974: r1 = Function '<anonymous closure>':.
-    //     0x990974: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a3d0] AnonymousClosure: (0x990e4c), in [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
+    //     0x990974: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a3d0] AnonymousClosure: (0x990e4c), in [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
     //     0x990978: ldr             x1, [x1, #0x3d0]
     // 0x99097c: r0 = AllocateClosure()
     //     0x99097c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1009,7 +1009,7 @@ class _SummaryViewState extends State<dynamic> {
     //     0x990a60: cmp             SP, x16
     //     0x990a64: b.ls            #0x990af4
     // 0x990a68: r0 = userHasActiveSubscription()
-    //     0x990a68: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0x990a68: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0x990a6c: tbnz            w0, #4, #0x990a80
     // 0x990a70: r0 = true
     //     0x990a70: add             x0, NULL, #0x20  ; true
@@ -1040,7 +1040,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0x990ab4: r2 = -1
     //     0x990ab4: mov             x2, #-1
     // 0x990ab8: r0 = _dateByAddingCalendarMonths()
-    //     0x990ab8: bl              #0x990afc  ; [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_dateByAddingCalendarMonths
+    //     0x990ab8: bl              #0x990afc  ; [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_dateByAddingCalendarMonths
     // 0x990abc: ldur            x1, [fp, #-8]
     // 0x990ac0: r2 = LoadClassIdInstr(r1)
     //     0x990ac0: ldur            x2, [x1, #-1]
@@ -1395,7 +1395,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0x990e8c: r2 = true
     //     0x990e8c: add             x2, NULL, #0x20  ; true
     // 0x990e90: r0 = _scrollSelectedWeekIntoView()
-    //     0x990e90: bl              #0x95aac0  ; [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_scrollSelectedWeekIntoView
+    //     0x990e90: bl              #0x95aac0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_scrollSelectedWeekIntoView
     // 0x990e94: r0 = Null
     //     0x990e94: mov             x0, NULL
     // 0x990e98: LeaveFrame
@@ -1449,7 +1449,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0x990f08: r0 = of()
     //     0x990f08: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0x990f0c: r1 = Function '<anonymous closure>':.
-    //     0x990f0c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a408] AnonymousClosure: (0x990f74), in [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
+    //     0x990f0c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a408] AnonymousClosure: (0x990f74), in [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
     //     0x990f10: ldr             x1, [x1, #0x408]
     // 0x990f14: r2 = Null
     //     0x990f14: mov             x2, NULL
@@ -1572,7 +1572,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0x99103c: ldur            x2, [fp, #-0x18]
     // 0x991040: stur            x5, [fp, #-0x20]
     // 0x991044: r1 = Function '<anonymous closure>':.
-    //     0x991044: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a3a8] AnonymousClosure: (0x9906e4), in [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
+    //     0x991044: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a3a8] AnonymousClosure: (0x9906e4), in [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
     //     0x991048: ldr             x1, [x1, #0x3a8]
     // 0x99104c: r0 = AllocateClosure()
     //     0x99104c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1581,7 +1581,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0x991058: ldur            x3, [fp, #-0x30]
     // 0x99105c: mov             x5, x0
     // 0x991060: r0 = showActivityWeekPickerSheet()
-    //     0x991060: bl              #0x991094  ; [package:ballai/automatic/views/components/home/activity/input/week_picker_view.dart] ::showActivityWeekPickerSheet
+    //     0x991060: bl              #0x991094  ; [package:kourtai/automatic/views/components/home/activity/input/week_picker_view.dart] ::showActivityWeekPickerSheet
     // 0x991064: mov             x1, x0
     // 0x991068: stur            x1, [fp, #-0x10]
     // 0x99106c: r0 = Await()
@@ -1618,7 +1618,7 @@ class _SummaryViewState extends State<dynamic> {
     //     0x991278: cmp             SP, x16
     //     0x99127c: b.ls            #0x991290
     // 0x991280: r0 = _openWeekPicker()
-    //     0x991280: bl              #0x990f80  ; [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker
+    //     0x991280: bl              #0x990f80  ; [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker
     // 0x991284: LeaveFrame
     //     0x991284: mov             SP, fp
     //     0x991288: ldp             fp, lr, [SP], #0x10
@@ -1703,11 +1703,11 @@ class _SummaryViewState extends State<dynamic> {
     // 0xa304c4: b               #0xa304e0
     // 0xa304c8: mov             x1, x2
     // 0xa304cc: r0 = currentWorkouts()
-    //     0xa304cc: bl              #0x900b60  ; [package:ballai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::currentWorkouts
+    //     0xa304cc: bl              #0x900b60  ; [package:kourtai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::currentWorkouts
     // 0xa304d0: ldur            x1, [fp, #-0x30]
     // 0xa304d4: mov             x2, x0
     // 0xa304d8: r0 = resolvedGoal()
-    //     0xa304d8: bl              #0xa321dc  ; [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::resolvedGoal
+    //     0xa304d8: bl              #0xa321dc  ; [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::resolvedGoal
     // 0xa304dc: mov             x2, x0
     // 0xa304e0: ldur            x0, [fp, #-0x20]
     // 0xa304e4: stur            x2, [fp, #-0x28]
@@ -1737,10 +1737,10 @@ class _SummaryViewState extends State<dynamic> {
     // 0xa30528: mov             x1, x0
     // 0xa3052c: stur            x3, [fp, #-0x40]
     // 0xa30530: r0 = canUseMarketingMode()
-    //     0xa30530: bl              #0x999f00  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::canUseMarketingMode
+    //     0xa30530: bl              #0x999f00  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::canUseMarketingMode
     // 0xa30534: tbnz            w0, #4, #0xa30544
-    // 0xa30538: r1 = "Ball AI"
-    //     0xa30538: add             x1, PP, #0x11, lsl #12  ; [pp+0x11250] "Ball AI"
+    // 0xa30538: r1 = "Kourt AI"
+    //     0xa30538: add             x1, PP, #0x11, lsl #12  ; [pp+0x11250] "Kourt AI"
     //     0xa3053c: ldr             x1, [x1, #0x250]
     // 0xa30540: b               #0xa3054c
     // 0xa30544: r1 = "Activity"
@@ -1751,7 +1751,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0xa30554: ldur            x2, [fp, #-0x40]
     // 0xa30558: ldur            x0, [fp, #-0x20]
     // 0xa3055c: r0 = L()
-    //     0xa3055c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3055c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa30560: mov             x2, x0
     // 0xa30564: ldur            x0, [fp, #-0x20]
     // 0xa30568: stur            x2, [fp, #-0x30]
@@ -1760,7 +1760,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0xa30570: DecompressPointer r1
     //     0xa30570: add             x1, x1, HEAP, lsl #32
     // 0xa30574: r0 = _allWeekStarts()
-    //     0xa30574: bl              #0xa31e10  ; [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_allWeekStarts
+    //     0xa30574: bl              #0xa31e10  ; [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_allWeekStarts
     // 0xa30578: mov             x4, x0
     // 0xa3057c: ldur            x3, [fp, #-0x18]
     // 0xa30580: stur            x4, [fp, #-0x20]
@@ -1775,12 +1775,12 @@ class _SummaryViewState extends State<dynamic> {
     // 0xa305a0: ldur            x1, [fp, #-8]
     // 0xa305a4: ldur            x2, [fp, #-0x10]
     // 0xa305a8: r0 = _promoCards()
-    //     0xa305a8: bl              #0xa31b64  ; [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_promoCards
+    //     0xa305a8: bl              #0xa31b64  ; [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_promoCards
     // 0xa305ac: ldur            x1, [fp, #-8]
     // 0xa305b0: ldur            x2, [fp, #-0x20]
     // 0xa305b4: stur            x0, [fp, #-0x20]
     // 0xa305b8: r0 = _syncWeekStripScroll()
-    //     0xa305b8: bl              #0xa31b08  ; [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_syncWeekStripScroll
+    //     0xa305b8: bl              #0xa31b08  ; [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_syncWeekStripScroll
     // 0xa305bc: ldur            x2, [fp, #-8]
     // 0xa305c0: LoadField: r1 = r2->field_13
     //     0xa305c0: ldur            w1, [x2, #0x13]
@@ -1791,7 +1791,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0xa305cc: cmp             w1, w16
     // 0xa305d0: b.eq            #0xa315f8
     // 0xa305d4: r0 = DateTimeWeekRange.getWeekStartAndEnd()
-    //     0xa305d4: bl              #0x5fb6d0  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
+    //     0xa305d4: bl              #0x5fb6d0  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
     // 0xa305d8: mov             x2, x0
     // 0xa305dc: stur            x2, [fp, #-0x48]
     // 0xa305e0: r0 = LoadClassIdInstr(r2)
@@ -1853,8 +1853,8 @@ class _SummaryViewState extends State<dynamic> {
     // 0xa30698: r0 = DateTime()
     //     0xa30698: bl              #0x5fac30  ; [dart:core] DateTime::DateTime
     // 0xa3069c: ldur            x1, [fp, #-0x10]
-    // 0xa306a0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa306a0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa306a0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa306a0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa306a4: stur            x0, [fp, #-0x48]
     // 0xa306a8: r0 = TextStyle()
     //     0xa306a8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2412,7 +2412,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0xa30c64: DecompressPointer r1
     //     0xa30c64: add             x1, x1, HEAP, lsl #32
     // 0xa30c68: r0 = _weekCapsuleTitle()
-    //     0xa30c68: bl              #0xa31870  ; [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_weekCapsuleTitle
+    //     0xa30c68: bl              #0xa31870  ; [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_weekCapsuleTitle
     // 0xa30c6c: mov             x3, x0
     // 0xa30c70: ldur            x2, [fp, #-0x60]
     // 0xa30c74: stur            x3, [fp, #-0x90]
@@ -2581,7 +2581,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0xa30e44: DecompressPointer r1
     //     0xa30e44: add             x1, x1, HEAP, lsl #32
     // 0xa30e48: r0 = _canAccessSummaryWeek()
-    //     0xa30e48: bl              #0x990a4c  ; [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_canAccessSummaryWeek
+    //     0xa30e48: bl              #0x990a4c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_canAccessSummaryWeek
     // 0xa30e4c: eor             x1, x0, #0x10
     // 0xa30e50: stur            x1, [fp, #-0x18]
     // 0xa30e54: r0 = _WeekCapsule()
@@ -2599,7 +2599,7 @@ class _SummaryViewState extends State<dynamic> {
     //     0xa30e74: stur            w0, [x3, #0x13]
     // 0xa30e78: ldur            x2, [fp, #-0x60]
     // 0xa30e7c: r1 = Function '<anonymous closure>':.
-    //     0xa30e7c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a370] AnonymousClosure: (0xa32418), in [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::build (0xa30404)
+    //     0xa30e7c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a370] AnonymousClosure: (0xa32418), in [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::build (0xa30404)
     //     0xa30e80: ldr             x1, [x1, #0x370]
     // 0xa30e84: r0 = AllocateClosure()
     //     0xa30e84: bl              #0xe553e0  ; AllocateClosureStub
@@ -2785,8 +2785,8 @@ class _SummaryViewState extends State<dynamic> {
     // 0xa31074: StoreField: r2->field_b = r0
     //     0xa31074: stur            w0, [x2, #0xb]
     // 0xa31078: ldur            x1, [fp, #-0x10]
-    // 0xa3107c: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa3107c: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa3107c: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa3107c: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa31080: r1 = LoadClassIdInstr(r0)
     //     0xa31080: ldur            x1, [x0, #-1]
     //     0xa31084: ubfx            x1, x1, #0xc, #0x14
@@ -2850,8 +2850,8 @@ class _SummaryViewState extends State<dynamic> {
     // 0xa3111c: StoreField: r2->field_13 = r0
     //     0xa3111c: stur            w0, [x2, #0x13]
     // 0xa31120: ldur            x1, [fp, #-0x10]
-    // 0xa31124: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa31124: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa31124: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa31124: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa31128: stur            x0, [fp, #-0x10]
     // 0xa3112c: r0 = Icon()
     //     0xa3112c: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -2893,7 +2893,7 @@ class _SummaryViewState extends State<dynamic> {
     //     0xa3118c: stur            w0, [x3, #0xb]
     // 0xa31190: ldur            x2, [fp, #-8]
     // 0xa31194: r1 = Function '_openWeekPicker@1098419352':.
-    //     0xa31194: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a390] AnonymousClosure: (0x991260), in [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
+    //     0xa31194: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a390] AnonymousClosure: (0x991260), in [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
     //     0xa31198: ldr             x1, [x1, #0x390]
     // 0xa3119c: r0 = AllocateClosure()
     //     0xa3119c: bl              #0xe553e0  ; AllocateClosureStub
@@ -3102,13 +3102,13 @@ class _SummaryViewState extends State<dynamic> {
     //     0xa313a8: stur            w16, [x4, #0xf]
     // 0xa313ac: ldur            x1, [fp, #-0x38]
     // 0xa313b0: r0 = currentWorkouts()
-    //     0xa313b0: bl              #0x900b60  ; [package:ballai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::currentWorkouts
+    //     0xa313b0: bl              #0x900b60  ; [package:kourtai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::currentWorkouts
     // 0xa313b4: LoadField: r2 = r0->field_b
     //     0xa313b4: ldur            w2, [x0, #0xb]
     // 0xa313b8: ldur            x1, [fp, #-0x68]
     // 0xa313bc: stur            x2, [fp, #-8]
     // 0xa313c0: r0 = WeeklyDateKey.isCurrentCalendarWeek()
-    //     0xa313c0: bl              #0xa31654  ; [package:ballai/automatic/utility/extensions/date/weekly_date_key.dart] ::WeeklyDateKey.isCurrentCalendarWeek
+    //     0xa313c0: bl              #0xa31654  ; [package:kourtai/automatic/utility/extensions/date/weekly_date_key.dart] ::WeeklyDateKey.isCurrentCalendarWeek
     // 0xa313c4: stur            x0, [fp, #-0x10]
     // 0xa313c8: r0 = ActivityGoalSummaryView()
     //     0xa313c8: bl              #0xa31648  ; AllocateActivityGoalSummaryViewStub -> ActivityGoalSummaryView (size=0x20)
@@ -3172,7 +3172,7 @@ class _SummaryViewState extends State<dynamic> {
     //     0xa3146c: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xa31470: ldur            x1, [fp, #-0x38]
     // 0xa31474: r0 = currentWorkouts()
-    //     0xa31474: bl              #0x900b60  ; [package:ballai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::currentWorkouts
+    //     0xa31474: bl              #0x900b60  ; [package:kourtai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::currentWorkouts
     // 0xa31478: stur            x0, [fp, #-8]
     // 0xa3147c: r0 = WorkoutsSummaryView()
     //     0xa3147c: bl              #0xa3163c  ; AllocateWorkoutsSummaryViewStub -> WorkoutsSummaryView (size=0x10)
@@ -3390,7 +3390,7 @@ class _SummaryViewState extends State<dynamic> {
     //     0xa318b4: stur            x1, [x0, #0xb]
     // 0xa318b8: mov             x1, x0
     // 0xa318bc: r0 = DateTimeWeekRange.getWeekStartAndEnd()
-    //     0xa318bc: bl              #0x5fb6d0  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
+    //     0xa318bc: bl              #0x5fb6d0  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
     // 0xa318c0: mov             x2, x0
     // 0xa318c4: stur            x2, [fp, #-0x10]
     // 0xa318c8: r0 = LoadClassIdInstr(r2)
@@ -3513,13 +3513,13 @@ class _SummaryViewState extends State<dynamic> {
     // 0xa31a44: ldur            x1, [fp, #-0x28]
     // 0xa31a48: ldur            x2, [fp, #-0x30]
     // 0xa31a4c: r0 = _isSameCalendarDay()
-    //     0xa31a4c: bl              #0x93ed28  ; [package:ballai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_isSameCalendarDay
+    //     0xa31a4c: bl              #0x93ed28  ; [package:kourtai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_isSameCalendarDay
     // 0xa31a50: tbnz            w0, #4, #0xa31a6c
     // 0xa31a54: r1 = "This week"
     //     0xa31a54: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a448] "This week"
     //     0xa31a58: ldr             x1, [x1, #0x448]
     // 0xa31a5c: r0 = L()
-    //     0xa31a5c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa31a5c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa31a60: LeaveFrame
     //     0xa31a60: mov             SP, fp
     //     0xa31a64: ldp             fp, lr, [SP], #0x10
@@ -3527,17 +3527,17 @@ class _SummaryViewState extends State<dynamic> {
     //     0xa31a68: ret             
     // 0xa31a6c: ldur            x1, [fp, #-0x30]
     // 0xa31a70: r0 = DateTimeWeekRange.previousWeek()
-    //     0xa31a70: bl              #0xa31abc  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.previousWeek
+    //     0xa31a70: bl              #0xa31abc  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.previousWeek
     // 0xa31a74: ldur            x1, [fp, #-0x28]
     // 0xa31a78: mov             x2, x0
     // 0xa31a7c: r0 = _isSameCalendarDay()
-    //     0xa31a7c: bl              #0x93ed28  ; [package:ballai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_isSameCalendarDay
+    //     0xa31a7c: bl              #0x93ed28  ; [package:kourtai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_isSameCalendarDay
     // 0xa31a80: tbnz            w0, #4, #0xa31a9c
     // 0xa31a84: r1 = "Last week"
     //     0xa31a84: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a450] "Last week"
     //     0xa31a88: ldr             x1, [x1, #0x450]
     // 0xa31a8c: r0 = L()
-    //     0xa31a8c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa31a8c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa31a90: LeaveFrame
     //     0xa31a90: mov             SP, fp
     //     0xa31a94: ldp             fp, lr, [SP], #0x10
@@ -3547,7 +3547,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0xa31aa0: r4 = const [0, 0x1, 0, 0x1, null]
     //     0xa31aa0: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0xa31aa4: r0 = DateTimeWeekRange.formattedWeekRange()
-    //     0xa31aa4: bl              #0xa2d990  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.formattedWeekRange
+    //     0xa31aa4: bl              #0xa2d990  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.formattedWeekRange
     // 0xa31aa8: LeaveFrame
     //     0xa31aa8: mov             SP, fp
     //     0xa31aac: ldp             fp, lr, [SP], #0x10
@@ -3586,7 +3586,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0xa31b44: r2 = false
     //     0xa31b44: add             x2, NULL, #0x30  ; false
     // 0xa31b48: r0 = _scrollSelectedWeekIntoView()
-    //     0xa31b48: bl              #0x95aac0  ; [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_scrollSelectedWeekIntoView
+    //     0xa31b48: bl              #0x95aac0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_scrollSelectedWeekIntoView
     // 0xa31b4c: r0 = Null
     //     0xa31b4c: mov             x0, NULL
     // 0xa31b50: LeaveFrame
@@ -3621,12 +3621,12 @@ class _SummaryViewState extends State<dynamic> {
     // 0xa31b94: StoreField: r1->field_f = r0
     //     0xa31b94: stur            w0, [x1, #0xf]
     // 0xa31b98: r0 = userHasActiveSubscription()
-    //     0xa31b98: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0xa31b98: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0xa31b9c: tbnz            w0, #4, #0xa31ba8
     // 0xa31ba0: r0 = const []
     //     0xa31ba0: ldr             x0, [PP, #0x7118]  ; [pp+0x7118] List<String>(0)
     // 0xa31ba4: b               #0xa31bb0
-    // 0xa31ba8: r0 = const [Unlock Ball AI Pro]
+    // 0xa31ba8: r0 = const [Unlock Kourt AI Pro]
     //     0xa31ba8: add             x0, PP, #0x2a, lsl #12  ; [pp+0x2a460] List<String>(1)
     //     0xa31bac: ldr             x0, [x0, #0x460]
     // 0xa31bb0: stur            x0, [fp, #-8]
@@ -3662,20 +3662,20 @@ class _SummaryViewState extends State<dynamic> {
     // 0xa31c04: add             x5, x2, #1
     // 0xa31c08: stur            x5, [fp, #-0x18]
     // 0xa31c0c: r0 = instance()
-    //     0xa31c0c: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0xa31c0c: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0xa31c10: mov             x1, x0
     // 0xa31c14: ldur            x2, [fp, #-0x20]
     // 0xa31c18: r0 = localizedString()
-    //     0xa31c18: bl              #0x5edd18  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
+    //     0xa31c18: bl              #0x5edd18  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
     // 0xa31c1c: stur            x0, [fp, #-0x20]
     // 0xa31c20: r0 = instance()
-    //     0xa31c20: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0xa31c20: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0xa31c24: mov             x1, x0
     // 0xa31c28: r2 = "Go Pro"
     //     0xa31c28: add             x2, PP, #0x2a, lsl #12  ; [pp+0x2a470] "Go Pro"
     //     0xa31c2c: ldr             x2, [x2, #0x470]
     // 0xa31c30: r0 = localizedString()
-    //     0xa31c30: bl              #0x5edd18  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
+    //     0xa31c30: bl              #0x5edd18  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
     // 0xa31c34: stur            x0, [fp, #-0x38]
     // 0xa31c38: r0 = PromoCardData()
     //     0xa31c38: bl              #0xa31d2c  ; AllocatePromoCardDataStub -> PromoCardData (size=0x18)
@@ -3691,7 +3691,7 @@ class _SummaryViewState extends State<dynamic> {
     //     0xa31c54: stur            w1, [x3, #0xb]
     // 0xa31c58: ldur            x2, [fp, #-0x10]
     // 0xa31c5c: r1 = Function '<anonymous closure>':.
-    //     0xa31c5c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a480] AnonymousClosure: (0xa31d5c), in [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_promoCards (0xa31b64)
+    //     0xa31c5c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a480] AnonymousClosure: (0xa31d5c), in [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_promoCards (0xa31b64)
     //     0xa31c60: ldr             x1, [x1, #0x480]
     // 0xa31c64: r0 = AllocateClosure()
     //     0xa31c64: bl              #0xe553e0  ; AllocateClosureStub
@@ -3790,7 +3790,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0xa31d98: r0 = of()
     //     0xa31d98: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa31d9c: r1 = Function '<anonymous closure>':.
-    //     0xa31d9c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a488] AnonymousClosure: (0xa31e04), in [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_promoCards (0xa31b64)
+    //     0xa31d9c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a488] AnonymousClosure: (0xa31e04), in [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_promoCards (0xa31b64)
     //     0xa31da0: ldr             x1, [x1, #0x488]
     // 0xa31da4: r2 = Null
     //     0xa31da4: mov             x2, NULL
@@ -3858,7 +3858,7 @@ class _SummaryViewState extends State<dynamic> {
     //     0xa31e38: add             x0, x0, HEAP, lsl #32
     // 0xa31e3c: mov             x1, x0
     // 0xa31e40: r0 = activityWeekStarts()
-    //     0xa31e40: bl              #0xa31e58  ; [package:ballai/automatic/utility/extensions/date/weekly_date_key.dart] ::activityWeekStarts
+    //     0xa31e40: bl              #0xa31e58  ; [package:kourtai/automatic/utility/extensions/date/weekly_date_key.dart] ::activityWeekStarts
     // 0xa31e44: LeaveFrame
     //     0xa31e44: mov             SP, fp
     //     0xa31e48: ldp             fp, lr, [SP], #0x10
@@ -3922,7 +3922,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0xa32490: mov             x1, x2
     // 0xa32494: mov             x2, x16
     // 0xa32498: r0 = _onWeekCapsuleTapped()
-    //     0xa32498: bl              #0xa324b8  ; [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_onWeekCapsuleTapped
+    //     0xa32498: bl              #0xa324b8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_onWeekCapsuleTapped
     // 0xa3249c: r0 = Null
     //     0xa3249c: mov             x0, NULL
     // 0xa324a0: LeaveFrame
@@ -4032,7 +4032,7 @@ class _SummaryViewState extends State<dynamic> {
     //     0xa325d8: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xa325dc: ldur            x1, [fp, #-0x38]
     // 0xa325e0: r0 = _canAccessSummaryWeek()
-    //     0xa325e0: bl              #0x990a4c  ; [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_canAccessSummaryWeek
+    //     0xa325e0: bl              #0x990a4c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_canAccessSummaryWeek
     // 0xa325e4: tbz             w0, #4, #0xa32670
     // 0xa325e8: ldur            x1, [fp, #-8]
     // 0xa325ec: r0 = lightImpact()
@@ -4050,7 +4050,7 @@ class _SummaryViewState extends State<dynamic> {
     // 0xa3260c: r0 = of()
     //     0xa3260c: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa32610: r1 = Function '<anonymous closure>':.
-    //     0xa32610: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a438] AnonymousClosure: (0x990f74), in [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
+    //     0xa32610: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a438] AnonymousClosure: (0x990f74), in [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
     //     0xa32614: ldr             x1, [x1, #0x438]
     // 0xa32618: r2 = Null
     //     0xa32618: mov             x2, NULL
@@ -4091,7 +4091,7 @@ class _SummaryViewState extends State<dynamic> {
     //     0xa32674: bl              #0x678728  ; [package:flutter/src/services/haptic_feedback.dart] HapticFeedback::selectionClick
     // 0xa32678: ldur            x2, [fp, #-0x18]
     // 0xa3267c: r1 = Function '<anonymous closure>':.
-    //     0xa3267c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a440] AnonymousClosure: (0x8e5cc8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
+    //     0xa3267c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a440] AnonymousClosure: (0x8e5cc8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
     //     0xa32680: ldr             x1, [x1, #0x440]
     // 0xa32684: r0 = AllocateClosure()
     //     0xa32684: bl              #0xe553e0  ; AllocateClosureStub
@@ -4102,12 +4102,12 @@ class _SummaryViewState extends State<dynamic> {
     // 0xa32694: ldur            x1, [fp, #-8]
     // 0xa32698: ldur            x2, [fp, #-0x38]
     // 0xa3269c: r0 = _resetListenersForWeek()
-    //     0xa3269c: bl              #0x9581c8  ; [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_resetListenersForWeek
+    //     0xa3269c: bl              #0x9581c8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_resetListenersForWeek
     // 0xa326a0: ldur            x1, [fp, #-8]
     // 0xa326a4: r2 = true
     //     0xa326a4: add             x2, NULL, #0x20  ; true
     // 0xa326a8: r0 = _scrollSelectedWeekIntoView()
-    //     0xa326a8: bl              #0x95aac0  ; [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_scrollSelectedWeekIntoView
+    //     0xa326a8: bl              #0x95aac0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_scrollSelectedWeekIntoView
     // 0xa326ac: r0 = Null
     //     0xa326ac: mov             x0, NULL
     // 0xa326b0: LeaveFrame
@@ -4128,7 +4128,7 @@ class _SummaryViewState extends State<dynamic> {
     //     0xb5afd0: mov             fp, SP
     // 0xb5afd4: ldr             x2, [fp, #0x10]
     // 0xb5afd8: r1 = Function 'dispose':.
-    //     0xb5afd8: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c2d8] AnonymousClosure: (0xb5aff0), in [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::dispose (0xb61dc0)
+    //     0xb5afd8: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c2d8] AnonymousClosure: (0xb5aff0), in [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::dispose (0xb61dc0)
     //     0xb5afdc: ldr             x1, [x1, #0x2d8]
     // 0xb5afe0: r0 = AllocateClosure()
     //     0xb5afe0: bl              #0xe553e0  ; AllocateClosureStub
@@ -4153,7 +4153,7 @@ class _SummaryViewState extends State<dynamic> {
     //     0xb5b008: cmp             SP, x16
     //     0xb5b00c: b.ls            #0xb5b020
     // 0xb5b010: r0 = dispose()
-    //     0xb5b010: bl              #0xb61dc0  ; [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::dispose
+    //     0xb5b010: bl              #0xb61dc0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::dispose
     // 0xb5b014: LeaveFrame
     //     0xb5b014: mov             SP, fp
     //     0xb5b018: ldp             fp, lr, [SP], #0x10
@@ -4274,7 +4274,7 @@ class SummaryView extends StatefulWidget {
     // 0xb732c8: mov             x1, x0
     // 0xb732cc: stur            x0, [fp, #-8]
     // 0xb732d0: r0 = _SummaryViewState()
-    //     0xb732d0: bl              #0xb732ec  ; [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_SummaryViewState
+    //     0xb732d0: bl              #0xb732ec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_SummaryViewState
     // 0xb732d4: ldur            x0, [fp, #-8]
     // 0xb732d8: LeaveFrame
     //     0xb732d8: mov             SP, fp
@@ -4308,12 +4308,12 @@ class _WeekCapsule extends StatelessWidget {
     //     0xbdf85c: cmp             SP, x16
     //     0xbdf860: b.ls            #0xbdfc90
     // 0xbdf864: mov             x1, x0
-    // 0xbdf868: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbdf868: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbdf868: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbdf868: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbdf86c: ldur            x1, [fp, #-0x10]
     // 0xbdf870: stur            x0, [fp, #-0x10]
-    // 0xbdf874: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbdf874: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbdf874: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbdf874: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbdf878: stur            x0, [fp, #-0x18]
     // 0xbdf87c: r16 = 0.150000
     //     0xbdf87c: add             x16, PP, #0x20, lsl #12  ; [pp+0x200f0] 0.15

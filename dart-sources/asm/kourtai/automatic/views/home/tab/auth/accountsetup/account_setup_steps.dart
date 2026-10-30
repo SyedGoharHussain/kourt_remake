@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart
 
 // class id: 1048829, size: 0x8
 class :: {
@@ -183,7 +183,7 @@ abstract class AccountSetupSteps extends Object {
     //     0x936f1c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ab68] "We need your gender to personalize your experience — select yours below."
     //     0x936f20: ldr             x1, [x1, #0xb68]
     // 0x936f24: r0 = L()
-    //     0x936f24: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x936f24: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x936f28: LeaveFrame
     //     0x936f28: mov             SP, fp
     //     0x936f2c: ldp             fp, lr, [SP], #0x10
@@ -201,7 +201,7 @@ abstract class AccountSetupSteps extends Object {
     //     0x936f4c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ab70] "When were you born\?"
     //     0x936f50: ldr             x1, [x1, #0xb70]
     // 0x936f54: r0 = L()
-    //     0x936f54: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x936f54: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x936f58: LeaveFrame
     //     0x936f58: mov             SP, fp
     //     0x936f5c: ldp             fp, lr, [SP], #0x10
@@ -215,11 +215,11 @@ abstract class AccountSetupSteps extends Object {
     // 0x936f74: r0 = ==()
     //     0x936f74: bl              #0xdab674  ; [dart:core] _OneByteString::==
     // 0x936f78: tbnz            w0, #4, #0x936f94
-    // 0x936f7c: r1 = "How\'d you hear about Ball AI\? It helps us improve."
-    //     0x936f7c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ab78] "How\'d you hear about Ball AI\? It helps us improve."
+    // 0x936f7c: r1 = "How\'d you hear about Kourt AI\? It helps us improve."
+    //     0x936f7c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ab78] "How\'d you hear about Kourt AI\? It helps us improve."
     //     0x936f80: ldr             x1, [x1, #0xb78]
     // 0x936f84: r0 = L()
-    //     0x936f84: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x936f84: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x936f88: LeaveFrame
     //     0x936f88: mov             SP, fp
     //     0x936f8c: ldp             fp, lr, [SP], #0x10
@@ -237,7 +237,7 @@ abstract class AccountSetupSteps extends Object {
     //     0x936fac: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ab80] "How would you rate your game right now\?"
     //     0x936fb0: ldr             x1, [x1, #0xb80]
     // 0x936fb4: r0 = L()
-    //     0x936fb4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x936fb4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x936fb8: LeaveFrame
     //     0x936fb8: mov             SP, fp
     //     0x936fbc: ldp             fp, lr, [SP], #0x10
@@ -255,7 +255,7 @@ abstract class AccountSetupSteps extends Object {
     //     0x936fdc: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ab88] "{name}, how often are you putting in work\?"
     //     0x936fe0: ldr             x1, [x1, #0xb88]
     // 0x936fe4: r0 = L()
-    //     0x936fe4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x936fe4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x936fe8: LeaveFrame
     //     0x936fe8: mov             SP, fp
     //     0x936fec: ldp             fp, lr, [SP], #0x10
@@ -269,11 +269,11 @@ abstract class AccountSetupSteps extends Object {
     // 0x937004: r0 = ==()
     //     0x937004: bl              #0xdab674  ; [dart:core] _OneByteString::==
     // 0x937008: tbnz            w0, #4, #0x937024
-    // 0x93700c: r1 = "{name}, if you lock in with Ball AI, this is where you could be!"
-    //     0x93700c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ab00] "{name}, if you lock in with Ball AI, this is where you could be!"
+    // 0x93700c: r1 = "{name}, if you lock in with Kourt AI, this is where you could be!"
+    //     0x93700c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ab00] "{name}, if you lock in with Kourt AI, this is where you could be!"
     //     0x937010: ldr             x1, [x1, #0xb00]
     // 0x937014: r0 = L()
-    //     0x937014: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x937014: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x937018: LeaveFrame
     //     0x937018: mov             SP, fp
     //     0x93701c: ldp             fp, lr, [SP], #0x10
@@ -291,7 +291,7 @@ abstract class AccountSetupSteps extends Object {
     //     0x93703c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ab90] "Yo {name}, if you really want to stay on this pace, turn on notifications and I\'ll keep pushing you to grind every day."
     //     0x937040: ldr             x1, [x1, #0xb90]
     // 0x937044: r0 = L()
-    //     0x937044: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x937044: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x937048: LeaveFrame
     //     0x937048: mov             SP, fp
     //     0x93704c: ldp             fp, lr, [SP], #0x10
@@ -308,7 +308,7 @@ abstract class AccountSetupSteps extends Object {
     //     0x937068: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ab98] "Let me learn more about you as a player. How tall are you\?"
     //     0x93706c: ldr             x1, [x1, #0xb98]
     // 0x937070: r0 = L()
-    //     0x937070: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x937070: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x937074: LeaveFrame
     //     0x937074: mov             SP, fp
     //     0x937078: ldp             fp, lr, [SP], #0x10
@@ -326,7 +326,7 @@ abstract class AccountSetupSteps extends Object {
     //     0x937098: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aba0] "Now your weight."
     //     0x93709c: ldr             x1, [x1, #0xba0]
     // 0x9370a0: r0 = L()
-    //     0x9370a0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9370a0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9370a4: LeaveFrame
     //     0x9370a4: mov             SP, fp
     //     0x9370a8: ldp             fp, lr, [SP], #0x10
@@ -344,7 +344,7 @@ abstract class AccountSetupSteps extends Object {
     //     0x9370c8: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aba8] "Where do you play most on the floor\?"
     //     0x9370cc: ldr             x1, [x1, #0xba8]
     // 0x9370d0: r0 = L()
-    //     0x9370d0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9370d0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9370d4: LeaveFrame
     //     0x9370d4: mov             SP, fp
     //     0x9370d8: ldp             fp, lr, [SP], #0x10
@@ -362,7 +362,7 @@ abstract class AccountSetupSteps extends Object {
     //     0x9370f8: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1abb0] "Left or right — what\'s your dominant hand\?"
     //     0x9370fc: ldr             x1, [x1, #0xbb0]
     // 0x937100: r0 = L()
-    //     0x937100: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x937100: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x937104: LeaveFrame
     //     0x937104: mov             SP, fp
     //     0x937108: ldp             fp, lr, [SP], #0x10
@@ -380,7 +380,7 @@ abstract class AccountSetupSteps extends Object {
     //     0x937128: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1abb8] "What\'s your game built around\? Pick your main focus."
     //     0x93712c: ldr             x1, [x1, #0xbb8]
     // 0x937130: r0 = L()
-    //     0x937130: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x937130: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x937134: LeaveFrame
     //     0x937134: mov             SP, fp
     //     0x937138: ldp             fp, lr, [SP], #0x10
@@ -398,7 +398,7 @@ abstract class AccountSetupSteps extends Object {
     //     0x937158: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1abc0] "Now pick a second strength to round out your game."
     //     0x93715c: ldr             x1, [x1, #0xbc0]
     // 0x937160: r0 = L()
-    //     0x937160: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x937160: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x937164: LeaveFrame
     //     0x937164: mov             SP, fp
     //     0x937168: ldp             fp, lr, [SP], #0x10
@@ -416,7 +416,7 @@ abstract class AccountSetupSteps extends Object {
     //     0x937188: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1abd0] "Quick question — do you currently work with a basketball trainer\?"
     //     0x93718c: ldr             x1, [x1, #0xbd0]
     // 0x937190: r0 = L()
-    //     0x937190: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x937190: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x937194: LeaveFrame
     //     0x937194: mov             SP, fp
     //     0x937198: ldp             fp, lr, [SP], #0x10
@@ -434,7 +434,7 @@ abstract class AccountSetupSteps extends Object {
     //     0x9371b8: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1abe0] "And, have you tried other training apps\?"
     //     0x9371bc: ldr             x1, [x1, #0xbe0]
     // 0x9371c0: r0 = L()
-    //     0x9371c0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9371c0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9371c4: LeaveFrame
     //     0x9371c4: mov             SP, fp
     //     0x9371c8: ldp             fp, lr, [SP], #0x10
@@ -452,7 +452,7 @@ abstract class AccountSetupSteps extends Object {
     //     0x9371e8: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1abf0] "{name}, real basketball trainers are expensive and lazy. The other apps\? Nobody uses them. Here\'s why I\'m better."
     //     0x9371ec: ldr             x1, [x1, #0xbf0]
     // 0x9371f0: r0 = L()
-    //     0x9371f0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9371f0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9371f4: LeaveFrame
     //     0x9371f4: mov             SP, fp
     //     0x9371f8: ldp             fp, lr, [SP], #0x10
@@ -470,7 +470,7 @@ abstract class AccountSetupSteps extends Object {
     //     0x937218: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ac00] "Forget all the distractions. Here\'s all you need to make it to the next level."
     //     0x93721c: ldr             x1, [x1, #0xc00]
     // 0x937220: r0 = L()
-    //     0x937220: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x937220: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x937224: LeaveFrame
     //     0x937224: mov             SP, fp
     //     0x937228: ldp             fp, lr, [SP], #0x10
@@ -488,7 +488,7 @@ abstract class AccountSetupSteps extends Object {
     //     0x937248: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ac10] "{name}, you\'re in good company — 250,000+ hoopers train with me."
     //     0x93724c: ldr             x1, [x1, #0xc10]
     // 0x937250: r0 = L()
-    //     0x937250: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x937250: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x937254: LeaveFrame
     //     0x937254: mov             SP, fp
     //     0x937258: ldp             fp, lr, [SP], #0x10
@@ -506,7 +506,7 @@ abstract class AccountSetupSteps extends Object {
     //     0x937278: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ac20] "Plus, I\'m super fun. Choose your favorite sound, and I\'ll play it every time you swish!"
     //     0x93727c: ldr             x1, [x1, #0xc20]
     // 0x937280: r0 = L()
-    //     0x937280: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x937280: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x937284: LeaveFrame
     //     0x937284: mov             SP, fp
     //     0x937288: ldp             fp, lr, [SP], #0x10
@@ -524,7 +524,7 @@ abstract class AccountSetupSteps extends Object {
     //     0x9372a8: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ac28] "Thank you for trusting me, {name}. This is what our journey\'s going to look like."
     //     0x9372ac: ldr             x1, [x1, #0xc28]
     // 0x9372b0: r0 = L()
-    //     0x9372b0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9372b0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9372b4: LeaveFrame
     //     0x9372b4: mov             SP, fp
     //     0x9372b8: ldp             fp, lr, [SP], #0x10
@@ -542,7 +542,7 @@ abstract class AccountSetupSteps extends Object {
     //     0x9372d8: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ac30] "{name}, it\'s within your grasp! Save your progress with me & start grinding today."
     //     0x9372dc: ldr             x1, [x1, #0xc30]
     // 0x9372e0: r0 = L()
-    //     0x9372e0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9372e0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9372e4: LeaveFrame
     //     0x9372e4: mov             SP, fp
     //     0x9372e8: ldp             fp, lr, [SP], #0x10

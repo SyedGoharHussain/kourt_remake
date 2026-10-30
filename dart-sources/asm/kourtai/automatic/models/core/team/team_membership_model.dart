@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/team/team_membership_model.dart
+// lib: , url: package:kourtai/automatic/models/core/team/team_membership_model.dart
 
 // class id: 1048707, size: 0x8
 class :: {
@@ -247,7 +247,7 @@ class TeamMembershipModel extends Object {
     //     0x814d40: bl              #0x5c96cc  ; IsType_String?_Stub
     // 0x814d44: ldur            x1, [fp, #-0x30]
     // 0x814d48: r0 = fromString()
-    //     0x814d48: bl              #0x815278  ; [package:ballai/automatic/models/core/team/team_membership_model.dart] TeamMembershipStatus::fromString
+    //     0x814d48: bl              #0x815278  ; [package:kourtai/automatic/models/core/team/team_membership_model.dart] TeamMembershipStatus::fromString
     // 0x814d4c: ldur            x1, [fp, #-0x10]
     // 0x814d50: r2 = "invitedByUserId"
     //     0x814d50: add             x2, PP, #0x13, lsl #12  ; [pp+0x13bf8] "invitedByUserId"
@@ -420,7 +420,7 @@ class TeamMembershipModel extends Object {
     // 0x814f20: ldur            x5, [fp, #-0x18]
     // 0x814f24: ldur            x6, [fp, #-0x20]
     // 0x814f28: r0 = fromFirestore()
-    //     0x814f28: bl              #0x814fe4  ; [package:ballai/automatic/models/core/team/membership_notification_preferences.dart] MembershipNotificationPreferences::fromFirestore
+    //     0x814f28: bl              #0x814fe4  ; [package:kourtai/automatic/models/core/team/membership_notification_preferences.dart] MembershipNotificationPreferences::fromFirestore
     // 0x814f2c: stur            x0, [fp, #-0x10]
     // 0x814f30: r0 = TeamMembershipModel()
     //     0x814f30: bl              #0x814fd8  ; AllocateTeamMembershipModelStub -> TeamMembershipModel (size=0x24)
@@ -467,7 +467,7 @@ class TeamMembershipModel extends Object {
     //     0x814fb8: b.ls            #0x814fd0
     // 0x814fbc: ldr             x1, [fp, #0x10]
     // 0x814fc0: r0 = fromFirestore()
-    //     0x814fc0: bl              #0x814ab0  ; [package:ballai/automatic/models/core/team/team_membership_model.dart] TeamMembershipModel::fromFirestore
+    //     0x814fc0: bl              #0x814ab0  ; [package:kourtai/automatic/models/core/team/team_membership_model.dart] TeamMembershipModel::fromFirestore
     // 0x814fc4: LeaveFrame
     //     0x814fc4: mov             SP, fp
     //     0x814fc8: ldp             fp, lr, [SP], #0x10

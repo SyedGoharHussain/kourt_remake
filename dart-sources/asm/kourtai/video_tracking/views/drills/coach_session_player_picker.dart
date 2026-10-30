@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/drills/coach_session_player_picker.dart
+// lib: , url: package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart
 
 // class id: 1049203, size: 0x8
 class :: {
@@ -37,7 +37,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0x991534: stur            w0, [x2, #0xf]
     // 0x991538: mov             x1, x0
     // 0x99153c: r0 = initState()
-    //     0x99153c: bl              #0x989844  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::initState
+    //     0x99153c: bl              #0x989844  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::initState
     // 0x991540: ldur            x0, [fp, #-8]
     // 0x991544: LoadField: r1 = r0->field_b
     //     0x991544: ldur            w1, [x0, #0xb]
@@ -109,7 +109,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     // 0x9915f8: ldur            x2, [fp, #-0x10]
     // 0x9915fc: stur            x0, [fp, #-8]
     // 0x991600: r1 = Function '<anonymous closure>':.
-    //     0x991600: add             x1, PP, #0x41, lsl #12  ; [pp+0x41688] AnonymousClosure: (0x99170c), in [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::initState (0x991504)
+    //     0x991600: add             x1, PP, #0x41, lsl #12  ; [pp+0x41688] AnonymousClosure: (0x99170c), in [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::initState (0x991504)
     //     0x991604: ldr             x1, [x1, #0x688]
     // 0x991608: r0 = AllocateClosure()
     //     0x991608: bl              #0xe553e0  ; AllocateClosureStub
@@ -217,7 +217,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0x991730: add             x0, x0, HEAP, lsl #32
     // 0x991734: mov             x1, x0
     // 0x991738: r0 = _hydratePlayers()
-    //     0x991738: bl              #0x991754  ; [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::_hydratePlayers
+    //     0x991738: bl              #0x991754  ; [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::_hydratePlayers
     // 0x99173c: r0 = Null
     //     0x99173c: mov             x0, NULL
     // 0x991740: LeaveFrame
@@ -272,7 +272,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0x9917b8: bl              #0x5ff5d4  ; [package:provider/src/provider.dart] ::ReadContext.read
     // 0x9917bc: ldur            x2, [fp, #-0x18]
     // 0x9917c0: r1 = Function '<anonymous closure>':.
-    //     0x9917c0: add             x1, PP, #0x41, lsl #12  ; [pp+0x416a0] AnonymousClosure: (0x954b60), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onWhatsNewRequested (0x954adc)
+    //     0x9917c0: add             x1, PP, #0x41, lsl #12  ; [pp+0x416a0] AnonymousClosure: (0x954b60), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onWhatsNewRequested (0x954adc)
     //     0x9917c4: ldr             x1, [x1, #0x6a0]
     // 0x9917c8: stur            x0, [fp, #-0x20]
     // 0x9917cc: r0 = AllocateClosure()
@@ -325,7 +325,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0x991848: add             x2, x2, HEAP, lsl #32
     // 0x99184c: ldur            x1, [fp, #-0x20]
     // 0x991850: r0 = ensurePlayersLoaded()
-    //     0x991850: bl              #0x9918c4  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::ensurePlayersLoaded
+    //     0x991850: bl              #0x9918c4  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::ensurePlayersLoaded
     // 0x991854: mov             x1, x0
     // 0x991858: stur            x1, [fp, #-0x50]
     // 0x99185c: r0 = Await()
@@ -344,7 +344,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     // 0x991884: b.eq            #0x9918a4
     // 0x991888: ldur            x2, [fp, #-0x18]
     // 0x99188c: r1 = Function '<anonymous closure>':.
-    //     0x99188c: add             x1, PP, #0x41, lsl #12  ; [pp+0x416a8] AnonymousClosure: (0x8e76f0), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_dismissWhatsNewSheet (0x8e7710)
+    //     0x99188c: add             x1, PP, #0x41, lsl #12  ; [pp+0x416a8] AnonymousClosure: (0x8e76f0), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_dismissWhatsNewSheet (0x8e7710)
     //     0x991890: ldr             x1, [x1, #0x6a8]
     // 0x991894: r0 = AllocateClosure()
     //     0x991894: bl              #0xe553e0  ; AllocateClosureStub
@@ -435,7 +435,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     // 0xa36d74: mov             x2, x1
     // 0xa36d78: stur            x3, [fp, #-0x10]
     // 0xa36d7c: r1 = Function '<anonymous closure>':.
-    //     0xa36d7c: add             x1, PP, #0x41, lsl #12  ; [pp+0x41660] AnonymousClosure: (0xa36cd4), in [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::build (0xab7290)
+    //     0xa36d7c: add             x1, PP, #0x41, lsl #12  ; [pp+0x41660] AnonymousClosure: (0xa36cd4), in [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::build (0xab7290)
     //     0xa36d80: ldr             x1, [x1, #0x660]
     // 0xa36d84: r0 = AllocateClosure()
     //     0xa36d84: bl              #0xe553e0  ; AllocateClosureStub
@@ -530,22 +530,22 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     // 0xab7354: mov             x1, x5
     // 0xab7358: ldur            x2, [fp, #-0x10]
     // 0xab735c: r0 = _playersForActiveTeam()
-    //     0xab735c: bl              #0xab87fc  ; [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::_playersForActiveTeam
+    //     0xab735c: bl              #0xab87fc  ; [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::_playersForActiveTeam
     // 0xab7360: ldur            x1, [fp, #-8]
     // 0xab7364: mov             x2, x0
     // 0xab7368: stur            x0, [fp, #-0x10]
     // 0xab736c: r0 = _filtered()
-    //     0xab736c: bl              #0xab86b8  ; [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::_filtered
+    //     0xab736c: bl              #0xab86b8  ; [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::_filtered
     // 0xab7370: ldur            x2, [fp, #-0x18]
     // 0xab7374: stur            x0, [fp, #-0x28]
     // 0xab7378: LoadField: r1 = r2->field_13
     //     0xab7378: ldur            w1, [x2, #0x13]
     // 0xab737c: DecompressPointer r1
     //     0xab737c: add             x1, x1, HEAP, lsl #32
-    // 0xab7380: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xab7380: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xab7380: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xab7380: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xab7384: stur            x0, [fp, #-0x30]
-    // 0xab7388: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0xab7388: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0xab7388: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xab738c: ldr             x0, [x0, #0x1cf0]
     //     0xab7390: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -664,14 +664,14 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab74d4: ldur            w1, [x0, #0x13]
     // 0xab74d8: DecompressPointer r1
     //     0xab74d8: add             x1, x1, HEAP, lsl #32
-    // 0xab74dc: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xab74dc: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xab74dc: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xab74dc: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xab74e0: r1 = "Select player"
     //     0xab74e0: add             x1, PP, #0x41, lsl #12  ; [pp+0x415d0] "Select player"
     //     0xab74e4: ldr             x1, [x1, #0x5d0]
     // 0xab74e8: stur            x0, [fp, #-0x48]
     // 0xab74ec: r0 = L()
-    //     0xab74ec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xab74ec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xab74f0: stur            x0, [fp, #-0x50]
     // 0xab74f4: r0 = Text()
     //     0xab74f4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -697,15 +697,15 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab752c: add             x1, PP, #0x41, lsl #12  ; [pp+0x415e0] "As a coach or team manager, choose a player from one of your teams to record this session for them. The workout, stats, and video are saved to their profile—not yours."
     //     0xab7530: ldr             x1, [x1, #0x5e0]
     // 0xab7534: r0 = L()
-    //     0xab7534: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xab7534: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xab7538: ldur            x2, [fp, #-0x18]
     // 0xab753c: stur            x0, [fp, #-0x58]
     // 0xab7540: LoadField: r1 = r2->field_13
     //     0xab7540: ldur            w1, [x2, #0x13]
     // 0xab7544: DecompressPointer r1
     //     0xab7544: add             x1, x1, HEAP, lsl #32
-    // 0xab7548: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xab7548: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xab7548: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xab7548: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xab754c: stur            x0, [fp, #-0x60]
     // 0xab7550: r0 = TextStyle()
     //     0xab7550: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -880,8 +880,8 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab7724: ldur            w1, [x2, #0x13]
     // 0xab7728: DecompressPointer r1
     //     0xab7728: add             x1, x1, HEAP, lsl #32
-    // 0xab772c: r0 = BallAiThemeContext.ballAi()
-    //     0xab772c: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xab772c: r0 = KourtAiThemeContext.kourtAi()
+    //     0xab772c: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xab7730: ArrayLoad: r1 = r0[0]  ; List_4
     //     0xab7730: ldur            w1, [x0, #0x17]
     // 0xab7734: DecompressPointer r1
@@ -941,7 +941,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab77cc: stur            w0, [x3, #0x13]
     // 0xab77d0: ldur            x2, [fp, #-0x90]
     // 0xab77d4: r1 = Function '<anonymous closure>':.
-    //     0xab77d4: add             x1, PP, #0x41, lsl #12  ; [pp+0x415e8] AnonymousClosure: (0xab8d8c), in [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::build (0xab7290)
+    //     0xab77d4: add             x1, PP, #0x41, lsl #12  ; [pp+0x415e8] AnonymousClosure: (0xab8d8c), in [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::build (0xab7290)
     //     0xab77d8: ldr             x1, [x1, #0x5e8]
     // 0xab77dc: r0 = AllocateClosure()
     //     0xab77dc: bl              #0xe553e0  ; AllocateClosureStub
@@ -1148,8 +1148,8 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab79e0: ldur            w1, [x2, #0x13]
     // 0xab79e4: DecompressPointer r1
     //     0xab79e4: add             x1, x1, HEAP, lsl #32
-    // 0xab79e8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xab79e8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xab79e8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xab79e8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xab79ec: stur            x0, [fp, #-0x58]
     // 0xab79f0: r0 = TextStyle()
     //     0xab79f0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1166,15 +1166,15 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab7a0c: add             x1, PP, #0x41, lsl #12  ; [pp+0x41600] "Search players"
     //     0xab7a10: ldr             x1, [x1, #0x600]
     // 0xab7a14: r0 = L()
-    //     0xab7a14: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xab7a14: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xab7a18: ldur            x2, [fp, #-0x18]
     // 0xab7a1c: stur            x0, [fp, #-0x58]
     // 0xab7a20: LoadField: r1 = r2->field_13
     //     0xab7a20: ldur            w1, [x2, #0x13]
     // 0xab7a24: DecompressPointer r1
     //     0xab7a24: add             x1, x1, HEAP, lsl #32
-    // 0xab7a28: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xab7a28: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xab7a28: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xab7a28: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xab7a2c: stur            x0, [fp, #-0x80]
     // 0xab7a30: r0 = Icon()
     //     0xab7a30: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -1193,8 +1193,8 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab7a54: ldur            w1, [x0, #0x13]
     // 0xab7a58: DecompressPointer r1
     //     0xab7a58: add             x1, x1, HEAP, lsl #32
-    // 0xab7a5c: r0 = BallAiThemeContext.ballAiSelectionCardFill()
-    //     0xab7a5c: bl              #0x9d464c  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSelectionCardFill
+    // 0xab7a5c: r0 = KourtAiThemeContext.kourtAiSelectionCardFill()
+    //     0xab7a5c: bl              #0x9d464c  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSelectionCardFill
     // 0xab7a60: stur            x0, [fp, #-0x80]
     // 0xab7a64: r0 = Radius()
     //     0xab7a64: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -1313,7 +1313,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab7b70: stur            w0, [x3, #0x67]
     // 0xab7b74: ldur            x2, [fp, #-0x18]
     // 0xab7b78: r1 = Function '<anonymous closure>':.
-    //     0xab7b78: add             x1, PP, #0x41, lsl #12  ; [pp+0x41608] AnonymousClosure: (0xa36d28), in [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::build (0xab7290)
+    //     0xab7b78: add             x1, PP, #0x41, lsl #12  ; [pp+0x41608] AnonymousClosure: (0xa36d28), in [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::build (0xab7290)
     //     0xab7b7c: ldr             x1, [x1, #0x608]
     // 0xab7b80: r0 = AllocateClosure()
     //     0xab7b80: bl              #0xe553e0  ; AllocateClosureStub
@@ -1487,7 +1487,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab7d28: add             x1, PP, #0x24, lsl #12  ; [pp+0x24e70] "You"
     //     0xab7d2c: ldr             x1, [x1, #0xe70]
     // 0xab7d30: r0 = L()
-    //     0xab7d30: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xab7d30: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xab7d34: mov             x4, x0
     // 0xab7d38: ldur            x2, [fp, #-0x30]
     // 0xab7d3c: ldur            x3, [fp, #-0x38]
@@ -1497,7 +1497,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab7d48: add             x1, PP, #0x41, lsl #12  ; [pp+0x41610] "Record for myself"
     //     0xab7d4c: ldr             x1, [x1, #0x610]
     // 0xab7d50: r0 = L()
-    //     0xab7d50: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xab7d50: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xab7d54: mov             x1, x0
     // 0xab7d58: ldur            x0, [fp, #-0x38]
     // 0xab7d5c: stur            x1, [fp, #-0x58]
@@ -1528,7 +1528,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab7da0: stur            w0, [x3, #0x1b]
     // 0xab7da4: ldur            x2, [fp, #-0x18]
     // 0xab7da8: r1 = Function '<anonymous closure>':.
-    //     0xab7da8: add             x1, PP, #0x41, lsl #12  ; [pp+0x41620] AnonymousClosure: (0xab8cf8), in [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::build (0xab7290)
+    //     0xab7da8: add             x1, PP, #0x41, lsl #12  ; [pp+0x41620] AnonymousClosure: (0xab8cf8), in [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::build (0xab7290)
     //     0xab7dac: ldr             x1, [x1, #0x620]
     // 0xab7db0: r0 = AllocateClosure()
     //     0xab7db0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1677,7 +1677,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab7f4c: add             x1, PP, #0x41, lsl #12  ; [pp+0x41630] "No players"
     //     0xab7f50: ldr             x1, [x1, #0x630]
     // 0xab7f54: r0 = L()
-    //     0xab7f54: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xab7f54: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xab7f58: mov             x2, x0
     // 0xab7f5c: ldur            x0, [fp, #-0x18]
     // 0xab7f60: stur            x2, [fp, #-0x10]
@@ -1685,8 +1685,8 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab7f64: ldur            w1, [x0, #0x13]
     // 0xab7f68: DecompressPointer r1
     //     0xab7f68: add             x1, x1, HEAP, lsl #32
-    // 0xab7f6c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xab7f6c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xab7f6c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xab7f6c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xab7f70: stur            x0, [fp, #-0x20]
     // 0xab7f74: r0 = TextStyle()
     //     0xab7f74: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1718,15 +1718,15 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab7fb8: add             x1, PP, #0x41, lsl #12  ; [pp+0x41638] "This team doesn\'t have any other players yet."
     //     0xab7fbc: ldr             x1, [x1, #0x638]
     // 0xab7fc0: r0 = L()
-    //     0xab7fc0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xab7fc0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xab7fc4: ldur            x3, [fp, #-0x18]
     // 0xab7fc8: stur            x0, [fp, #-0x10]
     // 0xab7fcc: LoadField: r1 = r3->field_13
     //     0xab7fcc: ldur            w1, [x3, #0x13]
     // 0xab7fd0: DecompressPointer r1
     //     0xab7fd0: add             x1, x1, HEAP, lsl #32
-    // 0xab7fd4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xab7fd4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xab7fd4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xab7fd4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xab7fd8: stur            x0, [fp, #-0x30]
     // 0xab7fdc: r0 = TextStyle()
     //     0xab7fdc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1922,7 +1922,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab81d8: add             x1, PP, #0x41, lsl #12  ; [pp+0x41648] "No matches"
     //     0xab81dc: ldr             x1, [x1, #0x648]
     // 0xab81e0: r0 = L()
-    //     0xab81e0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xab81e0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xab81e4: mov             x2, x0
     // 0xab81e8: ldur            x0, [fp, #-0x18]
     // 0xab81ec: stur            x2, [fp, #-0x10]
@@ -1930,8 +1930,8 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab81f0: ldur            w1, [x0, #0x13]
     // 0xab81f4: DecompressPointer r1
     //     0xab81f4: add             x1, x1, HEAP, lsl #32
-    // 0xab81f8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xab81f8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xab81f8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xab81f8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xab81fc: stur            x0, [fp, #-0x20]
     // 0xab8200: r0 = TextStyle()
     //     0xab8200: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1963,7 +1963,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab8244: add             x1, PP, #0x41, lsl #12  ; [pp+0x41650] "No players match"
     //     0xab8248: ldr             x1, [x1, #0x650]
     // 0xab824c: r0 = L()
-    //     0xab824c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xab824c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xab8250: r1 = Null
     //     0xab8250: mov             x1, NULL
     // 0xab8254: r2 = 8
@@ -1999,8 +1999,8 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab829c: ldur            w1, [x2, #0x13]
     // 0xab82a0: DecompressPointer r1
     //     0xab82a0: add             x1, x1, HEAP, lsl #32
-    // 0xab82a4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xab82a4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xab82a4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xab82a4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xab82a8: stur            x0, [fp, #-0x10]
     // 0xab82ac: r0 = TextStyle()
     //     0xab82ac: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2216,8 +2216,8 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab84fc: ldur            w1, [x0, #0x13]
     // 0xab8500: DecompressPointer r1
     //     0xab8500: add             x1, x1, HEAP, lsl #32
-    // 0xab8504: r0 = BallAiThemeContext.ballAi()
-    //     0xab8504: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xab8504: r0 = KourtAiThemeContext.kourtAi()
+    //     0xab8504: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xab8508: LoadField: r1 = r0->field_1b
     //     0xab8508: ldur            w1, [x0, #0x1b]
     // 0xab850c: DecompressPointer r1
@@ -2262,7 +2262,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab8578: stur            w1, [x3, #0x1b]
     // 0xab857c: ldur            x2, [fp, #-0x10]
     // 0xab8580: r1 = Function '<anonymous closure>':.
-    //     0xab8580: add             x1, PP, #0x41, lsl #12  ; [pp+0x41658] AnonymousClosure: (0xab8b98), in [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::build (0xab7290)
+    //     0xab8580: add             x1, PP, #0x41, lsl #12  ; [pp+0x41658] AnonymousClosure: (0xab8b98), in [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::build (0xab7290)
     //     0xab8584: ldr             x1, [x1, #0x658]
     // 0xab8588: r0 = AllocateClosure()
     //     0xab8588: bl              #0xe553e0  ; AllocateClosureStub
@@ -2430,7 +2430,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab8730: ret             
     // 0xab8734: mov             x2, x1
     // 0xab8738: r1 = Function '<anonymous closure>':.
-    //     0xab8738: add             x1, PP, #0x41, lsl #12  ; [pp+0x41670] AnonymousClosure: (0xab8774), in [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::_filtered (0xab86b8)
+    //     0xab8738: add             x1, PP, #0x41, lsl #12  ; [pp+0x41670] AnonymousClosure: (0xab8774), in [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::_filtered (0xab86b8)
     //     0xab873c: ldr             x1, [x1, #0x670]
     // 0xab8740: r0 = AllocateClosure()
     //     0xab8740: bl              #0xe553e0  ; AllocateClosureStub
@@ -2535,7 +2535,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab883c: stur            w0, [x2, #0xf]
     // 0xab8840: ldur            x1, [fp, #-8]
     // 0xab8844: r0 = _activeTeam()
-    //     0xab8844: bl              #0xab898c  ; [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::_activeTeam
+    //     0xab8844: bl              #0xab898c  ; [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::_activeTeam
     // 0xab8848: cmp             w0, NULL
     // 0xab884c: b.ne            #0xab8864
     // 0xab8850: r0 = const []
@@ -2552,10 +2552,10 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab8868: add             x2, x2, HEAP, lsl #32
     // 0xab886c: ldur            x1, [fp, #-0x10]
     // 0xab8870: r0 = playersForTeam()
-    //     0xab8870: bl              #0xab88e0  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::playersForTeam
+    //     0xab8870: bl              #0xab88e0  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::playersForTeam
     // 0xab8874: ldur            x2, [fp, #-0x20]
     // 0xab8878: r1 = Function '<anonymous closure>':.
-    //     0xab8878: add             x1, PP, #0x41, lsl #12  ; [pp+0x41678] AnonymousClosure: (0x76a624), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
+    //     0xab8878: add             x1, PP, #0x41, lsl #12  ; [pp+0x41678] AnonymousClosure: (0x76a624), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_syncActiveTeamListeners (0x76a694)
     //     0xab887c: ldr             x1, [x1, #0x678]
     // 0xab8880: stur            x0, [fp, #-8]
     // 0xab8884: r0 = AllocateClosure()
@@ -2572,7 +2572,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     // 0xab88a0: r0 = _GrowableList.of()
     //     0xab88a0: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0xab88a4: r1 = Function '<anonymous closure>':.
-    //     0xab88a4: add             x1, PP, #0x41, lsl #12  ; [pp+0x41680] AnonymousClosure: (0x974394), in [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_handleRosterMemberships (0x974434)
+    //     0xab88a4: add             x1, PP, #0x41, lsl #12  ; [pp+0x41680] AnonymousClosure: (0x974394), in [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::_handleRosterMemberships (0x974434)
     //     0xab88a8: ldr             x1, [x1, #0x680]
     // 0xab88ac: r2 = Null
     //     0xab88ac: mov             x2, NULL
@@ -2805,7 +2805,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab8bbc: b.ls            #0xab8c44
     // 0xab8bc0: r0 = selectionClick()
     //     0xab8bc0: bl              #0x678728  ; [package:flutter/src/services/haptic_feedback.dart] HapticFeedback::selectionClick
-    // 0xab8bc4: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0xab8bc4: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0xab8bc4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xab8bc8: ldr             x0, [x0, #0x1cf0]
     //     0xab8bcc: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2826,7 +2826,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab8bf8: add             x3, x3, HEAP, lsl #32
     // 0xab8bfc: mov             x2, x3
     // 0xab8c00: r0 = selectedPlayerId=()
-    //     0xab8c00: bl              #0xab8c4c  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::selectedPlayerId=
+    //     0xab8c00: bl              #0xab8c4c  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::selectedPlayerId=
     // 0xab8c04: ldur            x0, [fp, #-8]
     // 0xab8c08: LoadField: r1 = r0->field_b
     //     0xab8c08: ldur            w1, [x0, #0xb]
@@ -2877,7 +2877,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab8d1c: b.ls            #0xab8d84
     // 0xab8d20: r0 = selectionClick()
     //     0xab8d20: bl              #0x678728  ; [package:flutter/src/services/haptic_feedback.dart] HapticFeedback::selectionClick
-    // 0xab8d24: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0xab8d24: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0xab8d24: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xab8d28: ldr             x0, [x0, #0x1cf0]
     //     0xab8d2c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2890,7 +2890,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     // 0xab8d48: r2 = Null
     //     0xab8d48: mov             x2, NULL
     // 0xab8d4c: r0 = selectedPlayerId=()
-    //     0xab8d4c: bl              #0xab8c4c  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::selectedPlayerId=
+    //     0xab8d4c: bl              #0xab8c4c  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::selectedPlayerId=
     // 0xab8d50: ldur            x0, [fp, #-8]
     // 0xab8d54: LoadField: r1 = r0->field_13
     //     0xab8d54: ldur            w1, [x0, #0x13]
@@ -2949,7 +2949,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     // 0xab8dd0: mov             x2, x0
     // 0xab8dd4: stur            x4, [fp, #-0x10]
     // 0xab8dd8: r1 = Function '<anonymous closure>':.
-    //     0xab8dd8: add             x1, PP, #0x41, lsl #12  ; [pp+0x41668] AnonymousClosure: (0xab8e30), in [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::build (0xab7290)
+    //     0xab8dd8: add             x1, PP, #0x41, lsl #12  ; [pp+0x41668] AnonymousClosure: (0xab8e30), in [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::build (0xab7290)
     //     0xab8ddc: ldr             x1, [x1, #0x668]
     // 0xab8de0: r0 = AllocateClosure()
     //     0xab8de0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2973,7 +2973,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xab8e0c: add             x0, x0, HEAP, lsl #32
     // 0xab8e10: mov             x2, x0
     // 0xab8e14: r0 = ensurePlayersLoaded()
-    //     0xab8e14: bl              #0x9918c4  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::ensurePlayersLoaded
+    //     0xab8e14: bl              #0x9918c4  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::ensurePlayersLoaded
     // 0xab8e18: r0 = Null
     //     0xab8e18: mov             x0, NULL
     // 0xab8e1c: LeaveFrame
@@ -3052,7 +3052,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xb5c7ec: mov             fp, SP
     // 0xb5c7f0: ldr             x2, [fp, #0x10]
     // 0xb5c7f4: r1 = Function 'dispose':.
-    //     0xb5c7f4: add             x1, PP, #0x41, lsl #12  ; [pp+0x415c8] AnonymousClosure: (0xb5c80c), in [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::dispose (0xb63eec)
+    //     0xb5c7f4: add             x1, PP, #0x41, lsl #12  ; [pp+0x415c8] AnonymousClosure: (0xb5c80c), in [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::dispose (0xb63eec)
     //     0xb5c7f8: ldr             x1, [x1, #0x5c8]
     // 0xb5c7fc: r0 = AllocateClosure()
     //     0xb5c7fc: bl              #0xe553e0  ; AllocateClosureStub
@@ -3077,7 +3077,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xb5c824: cmp             SP, x16
     //     0xb5c828: b.ls            #0xb5c83c
     // 0xb5c82c: r0 = dispose()
-    //     0xb5c82c: bl              #0xb63eec  ; [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::dispose
+    //     0xb5c82c: bl              #0xb63eec  ; [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::dispose
     // 0xb5c830: LeaveFrame
     //     0xb5c830: mov             SP, fp
     //     0xb5c834: ldp             fp, lr, [SP], #0x10
@@ -3109,7 +3109,7 @@ class _CoachSessionPlayerPickerViewState extends __CoachSessionPlayerPickerViewS
     //     0xb63f14: bl              #0xb7893c  ; [package:flutter/src/widgets/shortcuts.dart] _ShortcutManager&Object&Diagnosticable&ChangeNotifier::dispose
     // 0xb63f18: ldur            x1, [fp, #-8]
     // 0xb63f1c: r0 = dispose()
-    //     0xb63f1c: bl              #0xb63788  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
+    //     0xb63f1c: bl              #0xb63788  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
     // 0xb63f20: r0 = Null
     //     0xb63f20: mov             x0, NULL
     // 0xb63f24: LeaveFrame
@@ -3206,8 +3206,8 @@ class _SelectRow extends StatelessWidget {
     //     0xc2fb98: cmp             SP, x16
     //     0xc2fb9c: b.ls            #0xc300d8
     // 0xc2fba0: mov             x1, x0
-    // 0xc2fba4: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc2fba4: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc2fba4: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc2fba4: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc2fba8: mov             x3, x0
     // 0xc2fbac: ldur            x2, [fp, #-8]
     // 0xc2fbb0: stur            x3, [fp, #-0x20]
@@ -3235,8 +3235,8 @@ class _SelectRow extends StatelessWidget {
     // 0xc2fbf0: mov             x1, x0
     // 0xc2fbf4: b               #0xc2fc04
     // 0xc2fbf8: ldur            x1, [fp, #-0x10]
-    // 0xc2fbfc: r0 = BallAiThemeContext.ballAiSelectionCardFill()
-    //     0xc2fbfc: bl              #0x9d464c  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSelectionCardFill
+    // 0xc2fbfc: r0 = KourtAiThemeContext.kourtAiSelectionCardFill()
+    //     0xc2fbfc: bl              #0x9d464c  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSelectionCardFill
     // 0xc2fc00: mov             x1, x0
     // 0xc2fc04: ldur            x0, [fp, #-8]
     // 0xc2fc08: stur            x1, [fp, #-0x28]
@@ -3322,8 +3322,8 @@ class _SelectRow extends StatelessWidget {
     //     0xc2fccc: add             x3, x3, HEAP, lsl #32
     // 0xc2fcd0: ldur            x1, [fp, #-0x10]
     // 0xc2fcd4: stur            x3, [fp, #-0x30]
-    // 0xc2fcd8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc2fcd8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc2fcd8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc2fcd8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc2fcdc: stur            x0, [fp, #-0x40]
     // 0xc2fce0: r0 = TextStyle()
     //     0xc2fce0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -3397,8 +3397,8 @@ class _SelectRow extends StatelessWidget {
     // 0xc2fd90: cmp             w3, NULL
     // 0xc2fd94: b.eq            #0xc2fe34
     // 0xc2fd98: ldur            x1, [fp, #-0x10]
-    // 0xc2fd9c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc2fd9c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc2fd9c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc2fd9c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc2fda0: stur            x0, [fp, #-8]
     // 0xc2fda4: r0 = TextStyle()
     //     0xc2fda4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -3798,7 +3798,7 @@ class CoachSessionPlayerPickerInlineEntry extends StatelessWidget {
     // 0xc2f16c: mov             x2, x1
     // 0xc2f170: ldur            x1, [fp, #-8]
     // 0xc2f174: r0 = coachTeamsWithPlayers()
-    //     0xc2f174: bl              #0xc2f208  ; [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] CoachSessionPlayerPickerState::coachTeamsWithPlayers
+    //     0xc2f174: bl              #0xc2f208  ; [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] CoachSessionPlayerPickerState::coachTeamsWithPlayers
     // 0xc2f178: mov             x1, x0
     // 0xc2f17c: ldur            x2, [fp, #-0x18]
     // 0xc2f180: StoreField: r2->field_1b = r0
@@ -3814,7 +3814,7 @@ class CoachSessionPlayerPickerInlineEntry extends StatelessWidget {
     // 0xc2f1a0: ldur            x2, [fp, #-0x18]
     // 0xc2f1a4: StoreField: r2->field_1f = r0
     //     0xc2f1a4: stur            w0, [x2, #0x1f]
-    // 0xc2f1a8: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0xc2f1a8: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0xc2f1a8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xc2f1ac: ldr             x0, [x0, #0x1cf0]
     //     0xc2f1b0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3825,7 +3825,7 @@ class CoachSessionPlayerPickerInlineEntry extends StatelessWidget {
     //     0xc2f1c4: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0xc2f1c8: ldur            x2, [fp, #-0x18]
     // 0xc2f1cc: r1 = Function '<anonymous closure>':.
-    //     0xc2f1cc: add             x1, PP, #0x35, lsl #12  ; [pp+0x352b8] AnonymousClosure: (0xc2f39c), in [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] CoachSessionPlayerPickerInlineEntry::build (0xc2f0b8)
+    //     0xc2f1cc: add             x1, PP, #0x35, lsl #12  ; [pp+0x352b8] AnonymousClosure: (0xc2f39c), in [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] CoachSessionPlayerPickerInlineEntry::build (0xc2f0b8)
     //     0xc2f1d0: ldr             x1, [x1, #0x2b8]
     // 0xc2f1d4: stur            x0, [fp, #-8]
     // 0xc2f1d8: r0 = AllocateClosure()
@@ -3889,13 +3889,13 @@ class CoachSessionPlayerPickerInlineEntry extends StatelessWidget {
     // 0xc2f3f8: DecompressPointer r3
     //     0xc2f3f8: add             x3, x3, HEAP, lsl #32
     // 0xc2f3fc: r0 = _selectedPlayerName()
-    //     0xc2f3fc: bl              #0xc2f7d0  ; [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] CoachSessionPlayerPickerInlineEntry::_selectedPlayerName
+    //     0xc2f3fc: bl              #0xc2f7d0  ; [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] CoachSessionPlayerPickerInlineEntry::_selectedPlayerName
     // 0xc2f400: r1 = "Recording for"
     //     0xc2f400: add             x1, PP, #0x35, lsl #12  ; [pp+0x352c0] "Recording for"
     //     0xc2f404: ldr             x1, [x1, #0x2c0]
     // 0xc2f408: stur            x0, [fp, #-0x18]
     // 0xc2f40c: r0 = L()
-    //     0xc2f40c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc2f40c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc2f410: r1 = Null
     //     0xc2f410: mov             x1, NULL
     // 0xc2f414: r2 = 6
@@ -3919,8 +3919,8 @@ class CoachSessionPlayerPickerInlineEntry extends StatelessWidget {
     //     0xc2f440: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0xc2f444: ldr             x1, [fp, #0x18]
     // 0xc2f448: stur            x0, [fp, #-0x18]
-    // 0xc2f44c: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc2f44c: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc2f44c: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc2f44c: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc2f450: mov             x2, x0
     // 0xc2f454: stur            x2, [fp, #-0x20]
     // 0xc2f458: r0 = LoadClassIdInstr(r2)
@@ -4204,7 +4204,7 @@ class CoachSessionPlayerPickerInlineEntry extends StatelessWidget {
     //     0xc2f71c: stur            w0, [x3, #0xb]
     // 0xc2f720: ldur            x2, [fp, #-0x10]
     // 0xc2f724: r1 = Function '<anonymous closure>':.
-    //     0xc2f724: add             x1, PP, #0x35, lsl #12  ; [pp+0x352e0] AnonymousClosure: (0xc2fa80), in [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] CoachSessionPlayerPickerInlineEntry::build (0xc2f0b8)
+    //     0xc2f724: add             x1, PP, #0x35, lsl #12  ; [pp+0x352e0] AnonymousClosure: (0xc2fa80), in [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] CoachSessionPlayerPickerInlineEntry::build (0xc2f0b8)
     //     0xc2f728: ldr             x1, [x1, #0x2e0]
     // 0xc2f72c: r0 = AllocateClosure()
     //     0xc2f72c: bl              #0xe553e0  ; AllocateClosureStub
@@ -4318,9 +4318,9 @@ class CoachSessionPlayerPickerInlineEntry extends StatelessWidget {
     //     0xc2f82c: add             x1, PP, #0x24, lsl #12  ; [pp+0x24e70] "You"
     //     0xc2f830: ldr             x1, [x1, #0xe70]
     // 0xc2f834: r0 = L()
-    //     0xc2f834: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc2f834: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc2f838: stur            x0, [fp, #-0x18]
-    // 0xc2f83c: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0xc2f83c: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0xc2f83c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xc2f840: ldr             x0, [x0, #0x1cf0]
     //     0xc2f844: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -4551,7 +4551,7 @@ class CoachSessionPlayerPickerInlineEntry extends StatelessWidget {
     //     0xc2fabc: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xc2fac0: ldur            x2, [fp, #-8]
     // 0xc2fac4: r1 = Function '<anonymous closure>':.
-    //     0xc2fac4: add             x1, PP, #0x35, lsl #12  ; [pp+0x352e8] AnonymousClosure: (0xc2fb28), in [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] CoachSessionPlayerPickerInlineEntry::build (0xc2f0b8)
+    //     0xc2fac4: add             x1, PP, #0x35, lsl #12  ; [pp+0x352e8] AnonymousClosure: (0xc2fb28), in [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] CoachSessionPlayerPickerInlineEntry::build (0xc2f0b8)
     //     0xc2fac8: ldr             x1, [x1, #0x2e8]
     // 0xc2facc: stur            x0, [fp, #-8]
     // 0xc2fad0: r0 = AllocateClosure()
@@ -4663,10 +4663,10 @@ abstract class CoachSessionPlayerPickerState extends Object {
     // 0xc2f260: ret
     //     0xc2f260: ret             
     // 0xc2f264: r0 = coachTeamsCurrentUserCanManage()
-    //     0xc2f264: bl              #0x991cdc  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::coachTeamsCurrentUserCanManage
+    //     0xc2f264: bl              #0x991cdc  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::coachTeamsCurrentUserCanManage
     // 0xc2f268: ldur            x2, [fp, #-0x18]
     // 0xc2f26c: r1 = Function '<anonymous closure>': static.
-    //     0xc2f26c: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2ca78] AnonymousClosure: static (0xc2f2ac), in [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] CoachSessionPlayerPickerState::coachTeamsWithPlayers (0xc2f208)
+    //     0xc2f26c: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2ca78] AnonymousClosure: static (0xc2f2ac), in [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] CoachSessionPlayerPickerState::coachTeamsWithPlayers (0xc2f208)
     //     0xc2f270: ldr             x1, [x1, #0xa78]
     // 0xc2f274: stur            x0, [fp, #-8]
     // 0xc2f278: r0 = AllocateClosure()
@@ -4719,7 +4719,7 @@ abstract class CoachSessionPlayerPickerState extends Object {
     // 0xc2f2e8: mov             x2, x4
     // 0xc2f2ec: stur            x4, [fp, #-8]
     // 0xc2f2f0: r0 = playersForTeam()
-    //     0xc2f2f0: bl              #0xab88e0  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::playersForTeam
+    //     0xc2f2f0: bl              #0xab88e0  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::playersForTeam
     // 0xc2f2f4: LoadField: r1 = r0->field_b
     //     0xc2f2f4: ldur            w1, [x0, #0xb]
     // 0xc2f2f8: cbz             w1, #0xc2f30c
@@ -4794,7 +4794,7 @@ abstract class CoachSessionPlayerPickerState extends Object {
     //     0xc30c4c: cmp             SP, x16
     //     0xc30c50: b.ls            #0xc30c6c
     // 0xc30c54: r0 = coachTeamsWithPlayers()
-    //     0xc30c54: bl              #0xc2f208  ; [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] CoachSessionPlayerPickerState::coachTeamsWithPlayers
+    //     0xc30c54: bl              #0xc2f208  ; [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] CoachSessionPlayerPickerState::coachTeamsWithPlayers
     // 0xc30c58: mov             x1, x0
     // 0xc30c5c: r0 = isNotEmpty()
     //     0xc30c5c: bl              #0x8d6738  ; [dart:collection] ListBase::isNotEmpty

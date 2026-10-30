@@ -1,4 +1,4 @@
-// lib: , url: file:///Users/shashwatsingh/Documents/automatic%20projects/automatic/%20projects/Android/BallAI-Android-latest/.dart_tool/flutter_build/dart_plugin_registrant.dart
+// lib: , url: file:///Users/shashwatsingh/Documents/automatic%20projects/automatic/%20projects/Android/KourtAI-Android-latest/.dart_tool/flutter_build/dart_plugin_registrant.dart
 
 // class id: 1048595, size: 0x8
 class :: {
@@ -400,7 +400,7 @@ class _PluginRegistrant extends Object {
     //     0xe5a260: cmp             SP, x16
     //     0xe5a264: b.ls            #0xe5a278
     // 0xe5a268: r0 = register()
-    //     0xe5a268: bl              #0xe58794  ; [file:///Users/shashwatsingh/Documents/automatic%20projects/automatic/%20projects/Android/BallAI-Android-latest/.dart_tool/flutter_build/dart_plugin_registrant.dart] _PluginRegistrant::register
+    //     0xe5a268: bl              #0xe58794  ; [file:///Users/shashwatsingh/Documents/automatic%20projects/automatic/%20projects/Android/KourtAI-Android-latest/.dart_tool/flutter_build/dart_plugin_registrant.dart] _PluginRegistrant::register
     // 0xe5a26c: LeaveFrame
     //     0xe5a26c: mov             SP, fp
     //     0xe5a270: ldp             fp, lr, [SP], #0x10

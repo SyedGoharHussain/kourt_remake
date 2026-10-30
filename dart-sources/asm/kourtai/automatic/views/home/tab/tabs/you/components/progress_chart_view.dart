@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart
 
 // class id: 1049003, size: 0x8
 class :: {
@@ -202,11 +202,11 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa82b88: stur            w0, [x2, #0xf]
     // 0xa82b8c: mov             x1, x0
     // 0xa82b90: r0 = _isYouProfileMode()
-    //     0xa82b90: bl              #0xa87184  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isYouProfileMode
+    //     0xa82b90: bl              #0xa87184  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isYouProfileMode
     // 0xa82b94: tbnz            w0, #4, #0xa82ba8
     // 0xa82b98: ldur            x1, [fp, #-8]
     // 0xa82b9c: r0 = _profileBounds()
-    //     0xa82b9c: bl              #0xa86ac8  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_profileBounds
+    //     0xa82b9c: bl              #0xa86ac8  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_profileBounds
     // 0xa82ba0: mov             x2, x0
     // 0xa82ba4: b               #0xa82bac
     // 0xa82ba8: r2 = Null
@@ -214,7 +214,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa82bac: ldur            x1, [fp, #-8]
     // 0xa82bb0: stur            x2, [fp, #-0x20]
     // 0xa82bb4: r0 = _isYouProfileMode()
-    //     0xa82bb4: bl              #0xa87184  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isYouProfileMode
+    //     0xa82bb4: bl              #0xa87184  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isYouProfileMode
     // 0xa82bb8: tbnz            w0, #4, #0xa82be8
     // 0xa82bbc: ldur            x0, [fp, #-8]
     // 0xa82bc0: LoadField: r1 = r0->field_b
@@ -230,7 +230,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa82bd8: mov             x1, x2
     // 0xa82bdc: ldur            x2, [fp, #-0x20]
     // 0xa82be0: r0 = _workoutsForSummary()
-    //     0xa82be0: bl              #0xa866f0  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_workoutsForSummary
+    //     0xa82be0: bl              #0xa866f0  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_workoutsForSummary
     // 0xa82be4: b               #0xa82c18
     // 0xa82be8: ldur            x0, [fp, #-8]
     // 0xa82bec: LoadField: r1 = r0->field_b
@@ -250,10 +250,10 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa82c0c: mov             x1, x2
     // 0xa82c10: mov             x2, x3
     // 0xa82c14: r0 = _workoutsForSummary()
-    //     0xa82c14: bl              #0xa866f0  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_workoutsForSummary
+    //     0xa82c14: bl              #0xa866f0  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_workoutsForSummary
     // 0xa82c18: stur            x0, [fp, #-0x28]
     // 0xa82c1c: r1 = Function '<anonymous closure>':.
-    //     0xa82c1c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49410] AnonymousClosure: static (0x98c270), in [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
+    //     0xa82c1c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49410] AnonymousClosure: static (0x98c270), in [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
     //     0xa82c20: ldr             x1, [x1, #0x410]
     // 0xa82c24: r2 = Null
     //     0xa82c24: mov             x2, NULL
@@ -269,7 +269,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa82c40: r0 = fold()
     //     0xa82c40: bl              #0x8b192c  ; [dart:collection] ListBase::fold
     // 0xa82c44: r1 = Function '<anonymous closure>':.
-    //     0xa82c44: add             x1, PP, #0x49, lsl #12  ; [pp+0x49418] AnonymousClosure: static (0x98c22c), in [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
+    //     0xa82c44: add             x1, PP, #0x49, lsl #12  ; [pp+0x49418] AnonymousClosure: static (0x98c22c), in [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
     //     0xa82c48: ldr             x1, [x1, #0x418]
     // 0xa82c4c: r2 = Null
     //     0xa82c4c: mov             x2, NULL
@@ -286,7 +286,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa82c6c: r0 = fold()
     //     0xa82c6c: bl              #0x8b192c  ; [dart:collection] ListBase::fold
     // 0xa82c70: r1 = Function '<anonymous closure>':.
-    //     0xa82c70: add             x1, PP, #0x49, lsl #12  ; [pp+0x49420] AnonymousClosure: (0xa87b9c), in [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::build (0xa82b4c)
+    //     0xa82c70: add             x1, PP, #0x49, lsl #12  ; [pp+0x49420] AnonymousClosure: (0xa87b9c), in [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::build (0xa82b4c)
     //     0xa82c74: ldr             x1, [x1, #0x420]
     // 0xa82c78: r2 = Null
     //     0xa82c78: mov             x2, NULL
@@ -373,7 +373,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa82d78: ldur            w4, [x0, #0xb]
     // 0xa82d7c: stur            x4, [fp, #-0x30]
     // 0xa82d80: r1 = Function '<anonymous closure>':.
-    //     0xa82d80: add             x1, PP, #0x49, lsl #12  ; [pp+0x49428] AnonymousClosure: static (0x98bf84), in [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
+    //     0xa82d80: add             x1, PP, #0x49, lsl #12  ; [pp+0x49428] AnonymousClosure: static (0x98bf84), in [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
     //     0xa82d84: ldr             x1, [x1, #0x428]
     // 0xa82d88: r2 = Null
     //     0xa82d88: mov             x2, NULL
@@ -393,11 +393,11 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa82dac: LoadField: d0 = r0->field_7
     //     0xa82dac: ldur            d0, [x0, #7]
     // 0xa82db0: r0 = _formatElapsed()
-    //     0xa82db0: bl              #0x98bd84  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_formatElapsed
+    //     0xa82db0: bl              #0x98bd84  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_formatElapsed
     // 0xa82db4: ldur            x1, [fp, #-8]
     // 0xa82db8: stur            x0, [fp, #-0x28]
     // 0xa82dbc: r0 = _isYouProfileMode()
-    //     0xa82dbc: bl              #0xa87184  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isYouProfileMode
+    //     0xa82dbc: bl              #0xa87184  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isYouProfileMode
     // 0xa82dc0: tbnz            w0, #4, #0xa82dec
     // 0xa82dc4: ldur            x0, [fp, #-8]
     // 0xa82dc8: ArrayLoad: r1 = r0[0]  ; List_4
@@ -420,7 +420,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa82df4: mov             x1, x0
     // 0xa82df8: stur            x2, [fp, #-0x58]
     // 0xa82dfc: r0 = _isYouProfileMode()
-    //     0xa82dfc: bl              #0xa87184  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isYouProfileMode
+    //     0xa82dfc: bl              #0xa87184  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isYouProfileMode
     // 0xa82e00: tbnz            w0, #4, #0xa82e2c
     // 0xa82e04: ldur            x0, [fp, #-8]
     // 0xa82e08: ArrayLoad: r1 = r0[0]  ; List_4
@@ -443,7 +443,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa82e34: mov             x1, x0
     // 0xa82e38: stur            x2, [fp, #-0x60]
     // 0xa82e3c: r0 = _isHistoryMode()
-    //     0xa82e3c: bl              #0xa866b8  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isHistoryMode
+    //     0xa82e3c: bl              #0xa866b8  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isHistoryMode
     // 0xa82e40: tbnz            w0, #4, #0xa82e94
     // 0xa82e44: ldur            x0, [fp, #-8]
     // 0xa82e48: LoadField: r1 = r0->field_b
@@ -473,12 +473,12 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa82e80: mov             x1, x3
     // 0xa82e84: mov             x3, x4
     // 0xa82e88: r0 = _periodSeries()
-    //     0xa82e88: bl              #0xa860e4  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_periodSeries
+    //     0xa82e88: bl              #0xa860e4  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_periodSeries
     // 0xa82e8c: mov             x3, x0
     // 0xa82e90: b               #0xa82f5c
     // 0xa82e94: ldur            x1, [fp, #-8]
     // 0xa82e98: r0 = _isYouProfileMode()
-    //     0xa82e98: bl              #0xa87184  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isYouProfileMode
+    //     0xa82e98: bl              #0xa87184  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isYouProfileMode
     // 0xa82e9c: tbnz            w0, #4, #0xa82f24
     // 0xa82ea0: ldur            x0, [fp, #-0x58]
     // 0xa82ea4: tbnz            w0, #4, #0xa82ee4
@@ -502,7 +502,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa82ed4: b.eq            #0xa84810
     // 0xa82ed8: mov             x2, x5
     // 0xa82edc: r0 = _dailySeries()
-    //     0xa82edc: bl              #0xa85c20  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_dailySeries
+    //     0xa82edc: bl              #0xa85c20  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_dailySeries
     // 0xa82ee0: b               #0xa82f58
     // 0xa82ee4: ldur            x0, [fp, #-8]
     // 0xa82ee8: ldur            x4, [fp, #-0x20]
@@ -526,7 +526,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa82f18: r3 = true
     //     0xa82f18: add             x3, NULL, #0x20  ; true
     // 0xa82f1c: r0 = _periodSeries()
-    //     0xa82f1c: bl              #0xa860e4  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_periodSeries
+    //     0xa82f1c: bl              #0xa860e4  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_periodSeries
     // 0xa82f20: b               #0xa82f58
     // 0xa82f24: ldur            x0, [fp, #-8]
     // 0xa82f28: LoadField: r1 = r0->field_b
@@ -547,7 +547,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa82f4c: mov             x1, x2
     // 0xa82f50: mov             x2, x16
     // 0xa82f54: r0 = _weeklySeries()
-    //     0xa82f54: bl              #0xa85430  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_weeklySeries
+    //     0xa82f54: bl              #0xa85430  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_weeklySeries
     // 0xa82f58: mov             x3, x0
     // 0xa82f5c: ldur            x0, [fp, #-8]
     // 0xa82f60: stur            x3, [fp, #-0x68]
@@ -557,7 +557,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa82f68: add             x2, x2, HEAP, lsl #32
     // 0xa82f6c: mov             x1, x3
     // 0xa82f70: r0 = _yMax()
-    //     0xa82f70: bl              #0xa85384  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_yMax
+    //     0xa82f70: bl              #0xa85384  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_yMax
     // 0xa82f74: ldur            x0, [fp, #-0x68]
     // 0xa82f78: stur            d0, [fp, #-0xb8]
     // 0xa82f7c: LoadField: r1 = r0->field_b
@@ -619,7 +619,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa83018: b               #0xa83020
     // 0xa8301c: ldur            x2, [fp, #-0x60]
     // 0xa83020: r0 = _xAxisLabel()
-    //     0xa83020: bl              #0xa852a4  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_xAxisLabel
+    //     0xa83020: bl              #0xa852a4  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_xAxisLabel
     // 0xa83024: mov             x3, x0
     // 0xa83028: ldur            x2, [fp, #-0x68]
     // 0xa8302c: stur            x3, [fp, #-0x70]
@@ -721,7 +721,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa8314c: b               #0xa83154
     // 0xa83150: ldur            x2, [fp, #-0x60]
     // 0xa83154: r0 = _xAxisLabel()
-    //     0xa83154: bl              #0xa852a4  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_xAxisLabel
+    //     0xa83154: bl              #0xa852a4  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_xAxisLabel
     // 0xa83158: mov             x2, x0
     // 0xa8315c: ldur            x0, [fp, #-0x58]
     // 0xa83160: stur            x2, [fp, #-0x60]
@@ -793,14 +793,14 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa83228: ldur            x1, [fp, #-8]
     // 0xa8322c: stur            x0, [fp, #-0x58]
     // 0xa83230: r0 = _isYouProfileMode()
-    //     0xa83230: bl              #0xa87184  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isYouProfileMode
+    //     0xa83230: bl              #0xa87184  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isYouProfileMode
     // 0xa83234: tbnz            w0, #4, #0xa83244
     // 0xa83238: r0 = const [Instance of '_ProgressMetric', Instance of '_ProgressMetric', Instance of '_ProgressMetric', Instance of '_ProgressMetric', Instance of '_ProgressMetric', Instance of '_ProgressMetric']
     //     0xa83238: add             x0, PP, #0x49, lsl #12  ; [pp+0x49438] List<_ProgressMetric>(6)
     //     0xa8323c: ldr             x0, [x0, #0x438]
     // 0xa83240: b               #0xa83274
     // 0xa83244: r1 = Function '<anonymous closure>':.
-    //     0xa83244: add             x1, PP, #0x49, lsl #12  ; [pp+0x49440] AnonymousClosure: (0xa87b7c), in [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::build (0xa82b4c)
+    //     0xa83244: add             x1, PP, #0x49, lsl #12  ; [pp+0x49440] AnonymousClosure: (0xa87b7c), in [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::build (0xa82b4c)
     //     0xa83248: ldr             x1, [x1, #0x440]
     // 0xa8324c: r2 = Null
     //     0xa8324c: mov             x2, NULL
@@ -830,19 +830,19 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa83290: b.eq            #0xa83298
     //     0xa83294: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xa83298: ldur            x1, [fp, #-0x10]
-    // 0xa8329c: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xa8329c: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xa8329c: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xa8329c: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xa832a0: ldur            x1, [fp, #-8]
     // 0xa832a4: stur            x0, [fp, #-0x78]
     // 0xa832a8: r0 = _isYouProfileMode()
-    //     0xa832a8: bl              #0xa87184  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isYouProfileMode
+    //     0xa832a8: bl              #0xa87184  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isYouProfileMode
     // 0xa832ac: tbnz            w0, #4, #0xa832cc
     // 0xa832b0: ldur            x2, [fp, #-0x20]
     // 0xa832b4: cmp             w2, NULL
     // 0xa832b8: b.eq            #0xa84890
     // 0xa832bc: ldur            x1, [fp, #-8]
     // 0xa832c0: r0 = _chartSubtitle()
-    //     0xa832c0: bl              #0xa84ca4  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_chartSubtitle
+    //     0xa832c0: bl              #0xa84ca4  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_chartSubtitle
     // 0xa832c4: mov             x1, x0
     // 0xa832c8: b               #0xa832d0
     // 0xa832cc: r1 = ""
@@ -895,7 +895,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa83340: ldur            x1, [fp, #-8]
     // 0xa83344: stur            x0, [fp, #-0x78]
     // 0xa83348: r0 = _isYouProfileMode()
-    //     0xa83348: bl              #0xa87184  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isYouProfileMode
+    //     0xa83348: bl              #0xa87184  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isYouProfileMode
     // 0xa8334c: tbnz            w0, #4, #0xa835b8
     // 0xa83350: ldur            x3, [fp, #-8]
     // 0xa83354: ldur            x0, [fp, #-0x78]
@@ -905,11 +905,11 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa8335c: add             x2, x2, HEAP, lsl #32
     // 0xa83360: mov             x1, x3
     // 0xa83364: r0 = _profileRangeTitle()
-    //     0xa83364: bl              #0xa84bec  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_profileRangeTitle
+    //     0xa83364: bl              #0xa84bec  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_profileRangeTitle
     // 0xa83368: ldur            x1, [fp, #-0x10]
     // 0xa8336c: stur            x0, [fp, #-0x88]
-    // 0xa83370: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa83370: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa83370: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa83370: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa83374: stur            x0, [fp, #-0x90]
     // 0xa83378: r0 = TextStyle()
     //     0xa83378: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -943,8 +943,8 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa833c4: StoreField: r2->field_13 = r0
     //     0xa833c4: stur            w0, [x2, #0x13]
     // 0xa833c8: ldur            x1, [fp, #-0x10]
-    // 0xa833cc: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa833cc: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa833cc: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa833cc: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa833d0: stur            x0, [fp, #-0x88]
     // 0xa833d4: r0 = Icon()
     //     0xa833d4: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -1035,7 +1035,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa834a8: stur            w1, [x3, #0xb]
     // 0xa834ac: ldur            x2, [fp, #-0x18]
     // 0xa834b0: r1 = Function '<anonymous closure>':.
-    //     0xa834b0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49448] AnonymousClosure: (0xa87730), in [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::build (0xa82b4c)
+    //     0xa834b0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49448] AnonymousClosure: (0xa87730), in [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::build (0xa82b4c)
     //     0xa834b4: ldr             x1, [x1, #0x448]
     // 0xa834b8: r0 = AllocateClosure()
     //     0xa834b8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1052,7 +1052,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa834d8: stur            w0, [x3, #0xf]
     // 0xa834dc: ldur            x2, [fp, #-0x18]
     // 0xa834e0: r1 = Function '<anonymous closure>':.
-    //     0xa834e0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49458] AnonymousClosure: (0xa87688), in [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::build (0xa82b4c)
+    //     0xa834e0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49458] AnonymousClosure: (0xa87688), in [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::build (0xa82b4c)
     //     0xa834e4: ldr             x1, [x1, #0x458]
     // 0xa834e8: r0 = AllocateClosure()
     //     0xa834e8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1148,15 +1148,15 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa835e0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a448] "This week"
     //     0xa835e4: ldr             x1, [x1, #0x448]
     // 0xa835e8: r0 = L()
-    //     0xa835e8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa835e8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa835ec: mov             x2, x0
     // 0xa835f0: b               #0xa835f8
     // 0xa835f4: mov             x2, x3
     // 0xa835f8: ldur            x0, [fp, #-0x78]
     // 0xa835fc: ldur            x1, [fp, #-0x10]
     // 0xa83600: stur            x2, [fp, #-0x88]
-    // 0xa83604: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa83604: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa83604: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa83604: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa83608: stur            x0, [fp, #-0x90]
     // 0xa8360c: r0 = TextStyle()
     //     0xa8360c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1279,7 +1279,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa83758: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b9a8] "Share profile"
     //     0xa8375c: ldr             x1, [x1, #0x9a8]
     // 0xa83760: r0 = L()
-    //     0xa83760: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa83760: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa83764: mov             x2, x0
     // 0xa83768: ldur            x0, [fp, #-8]
     // 0xa8376c: stur            x2, [fp, #-0x90]
@@ -1295,8 +1295,8 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa83784: add             x3, x3, HEAP, lsl #32
     // 0xa83788: ldur            x1, [fp, #-0x10]
     // 0xa8378c: stur            x3, [fp, #-0x88]
-    // 0xa83790: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa83790: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa83790: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa83790: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa83794: stur            x0, [fp, #-0x98]
     // 0xa83798: r0 = Icon()
     //     0xa83798: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -1417,11 +1417,11 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa838cc: add             x1, PP, #0x11, lsl #12  ; [pp+0x11e80] "Shots"
     //     0xa838d0: ldr             x1, [x1, #0xe80]
     // 0xa838d4: r0 = L()
-    //     0xa838d4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa838d4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa838d8: ldur            x1, [fp, #-0x40]
     // 0xa838dc: stur            x0, [fp, #-0x78]
     // 0xa838e0: r0 = _compactCount()
-    //     0xa838e0: bl              #0xa84a60  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_compactCount
+    //     0xa838e0: bl              #0xa84a60  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_compactCount
     // 0xa838e4: stur            x0, [fp, #-0x90]
     // 0xa838e8: r0 = _CompactStat()
     //     0xa838e8: bl              #0xa84a54  ; Allocate_CompactStatStub -> _CompactStat (size=0x14)
@@ -1437,7 +1437,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa83904: add             x1, PP, #0x29, lsl #12  ; [pp+0x29418] "Makes"
     //     0xa83908: ldr             x1, [x1, #0x418]
     // 0xa8390c: r0 = L()
-    //     0xa8390c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8390c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa83910: mov             x2, x0
     // 0xa83914: ldur            x0, [fp, #-0x38]
     // 0xa83918: stur            x2, [fp, #-0x78]
@@ -1446,7 +1446,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa83920: tbz             w0, #0, #0xa83928
     //     0xa83924: ldur            x1, [x0, #7]
     // 0xa83928: r0 = _compactCount()
-    //     0xa83928: bl              #0xa84a60  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_compactCount
+    //     0xa83928: bl              #0xa84a60  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_compactCount
     // 0xa8392c: stur            x0, [fp, #-0x38]
     // 0xa83930: r0 = _CompactStat()
     //     0xa83930: bl              #0xa84a54  ; Allocate_CompactStatStub -> _CompactStat (size=0x14)
@@ -1462,7 +1462,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa8394c: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c708] "Make %"
     //     0xa83950: ldr             x1, [x1, #0x708]
     // 0xa83954: r0 = L()
-    //     0xa83954: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa83954: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa83958: stur            x0, [fp, #-0x38]
     // 0xa8395c: r0 = _CompactStat()
     //     0xa8395c: bl              #0xa84a54  ; Allocate_CompactStatStub -> _CompactStat (size=0x14)
@@ -1506,7 +1506,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa839c0: stur            w0, [x2, #0xb]
     // 0xa839c4: ldur            x1, [fp, #-8]
     // 0xa839c8: r0 = _isYouProfileMode()
-    //     0xa839c8: bl              #0xa87184  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isYouProfileMode
+    //     0xa839c8: bl              #0xa87184  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isYouProfileMode
     // 0xa839cc: tbnz            w0, #4, #0xa83a9c
     // 0xa839d0: ldur            x2, [fp, #-0x48]
     // 0xa839d4: ldur            x0, [fp, #-0x50]
@@ -1514,7 +1514,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa839d8: add             x1, PP, #0x28, lsl #12  ; [pp+0x28d08] "Dribbles"
     //     0xa839dc: ldr             x1, [x1, #0xd08]
     // 0xa839e0: r0 = L()
-    //     0xa839e0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa839e0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa839e4: mov             x2, x0
     // 0xa839e8: ldur            x0, [fp, #-0x48]
     // 0xa839ec: stur            x2, [fp, #-0x38]
@@ -1523,7 +1523,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa839f4: tbz             w0, #0, #0xa839fc
     //     0xa839f8: ldur            x1, [x0, #7]
     // 0xa839fc: r0 = _compactCount()
-    //     0xa839fc: bl              #0xa84a60  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_compactCount
+    //     0xa839fc: bl              #0xa84a60  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_compactCount
     // 0xa83a00: stur            x0, [fp, #-0x48]
     // 0xa83a04: r0 = _CompactStat()
     //     0xa83a04: bl              #0xa84a54  ; Allocate_CompactStatStub -> _CompactStat (size=0x14)
@@ -1583,14 +1583,14 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa83aa4: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c710] "Workouts"
     //     0xa83aa8: ldr             x1, [x1, #0x710]
     // 0xa83aac: r0 = L()
-    //     0xa83aac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa83aac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa83ab0: mov             x2, x0
     // 0xa83ab4: ldur            x0, [fp, #-0x30]
     // 0xa83ab8: stur            x2, [fp, #-0x38]
     // 0xa83abc: r1 = LoadInt32Instr(r0)
     //     0xa83abc: sbfx            x1, x0, #1, #0x1f
     // 0xa83ac0: r0 = _compactCount()
-    //     0xa83ac0: bl              #0xa84a60  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_compactCount
+    //     0xa83ac0: bl              #0xa84a60  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_compactCount
     // 0xa83ac4: stur            x0, [fp, #-0x30]
     // 0xa83ac8: r0 = _CompactStat()
     //     0xa83ac8: bl              #0xa84a54  ; Allocate_CompactStatStub -> _CompactStat (size=0x14)
@@ -1648,7 +1648,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa83b60: add             x1, PP, #0x29, lsl #12  ; [pp+0x29408] "Time"
     //     0xa83b64: ldr             x1, [x1, #0x408]
     // 0xa83b68: r0 = L()
-    //     0xa83b68: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa83b68: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa83b6c: stur            x0, [fp, #-0x30]
     // 0xa83b70: r0 = _CompactStat()
     //     0xa83b70: bl              #0xa84a54  ; Allocate_CompactStatStub -> _CompactStat (size=0x14)
@@ -1907,11 +1907,11 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa83e38: cmp             w4, NULL
     // 0xa83e3c: b.eq            #0xa848ac
     // 0xa83e40: r0 = instance()
-    //     0xa83e40: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0xa83e40: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0xa83e44: mov             x1, x0
     // 0xa83e48: ldur            x2, [fp, #-0x78]
     // 0xa83e4c: r0 = localizedString()
-    //     0xa83e4c: bl              #0x5edd18  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
+    //     0xa83e4c: bl              #0x5edd18  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedString
     // 0xa83e50: mov             x2, x0
     // 0xa83e54: ldur            x1, [fp, #-8]
     // 0xa83e58: stur            x2, [fp, #-0x98]
@@ -1991,7 +1991,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa83f2c: b               #0xa83fdc
     // 0xa83f30: ldur            x1, [fp, #-8]
     // 0xa83f34: r0 = _lastMakePctValue()
-    //     0xa83f34: bl              #0xa849e4  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_lastMakePctValue
+    //     0xa83f34: bl              #0xa849e4  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_lastMakePctValue
     // 0xa83f38: mov             v1.16b, v0.16b
     // 0xa83f3c: d0 = 25.000000
     //     0xa83f3c: fmov            d0, #25.00000000
@@ -2085,7 +2085,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa8403c: b.ne            #0xa84074
     // 0xa84040: ldur            x1, [fp, #-8]
     // 0xa84044: r0 = _lastMakePctValue()
-    //     0xa84044: bl              #0xa849e4  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_lastMakePctValue
+    //     0xa84044: bl              #0xa849e4  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_lastMakePctValue
     // 0xa84048: mov             v1.16b, v0.16b
     // 0xa8404c: d0 = 25.000000
     //     0xa8404c: fmov            d0, #25.00000000
@@ -2130,7 +2130,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa840bc: stur            w0, [x3, #0x17]
     // 0xa840c0: ldur            x2, [fp, #-0x48]
     // 0xa840c4: r1 = Function '<anonymous closure>':.
-    //     0xa840c4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49478] AnonymousClosure: (0xa8757c), in [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::build (0xa82b4c)
+    //     0xa840c4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49478] AnonymousClosure: (0xa8757c), in [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::build (0xa82b4c)
     //     0xa840c8: ldr             x1, [x1, #0x478]
     // 0xa840cc: r0 = AllocateClosure()
     //     0xa840cc: bl              #0xe553e0  ; AllocateClosureStub
@@ -2337,8 +2337,8 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa842ec: ldur            w1, [x0, #7]
     // 0xa842f0: cbz             w1, #0xa843a0
     // 0xa842f4: ldur            x1, [fp, #-0x10]
-    // 0xa842f8: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa842f8: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa842f8: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa842f8: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa842fc: stur            x0, [fp, #-0x18]
     // 0xa84300: r0 = TextStyle()
     //     0xa84300: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2405,7 +2405,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa8439c: bl              #0x5c8034  ; [dart:core] _GrowableList::addAll
     // 0xa843a0: ldur            x1, [fp, #-8]
     // 0xa843a4: r0 = _isYouProfileMode()
-    //     0xa843a4: bl              #0xa87184  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isYouProfileMode
+    //     0xa843a4: bl              #0xa87184  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isYouProfileMode
     // 0xa843a8: tbz             w0, #4, #0xa84488
     // 0xa843ac: ldur            x0, [fp, #-8]
     // 0xa843b0: LoadField: r1 = r0->field_b
@@ -2423,11 +2423,11 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa843cc: add             x1, PP, #0x49, lsl #12  ; [pp+0x49480] "Past 12 weeks"
     //     0xa843d0: ldr             x1, [x1, #0x480]
     // 0xa843d4: r0 = L()
-    //     0xa843d4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa843d4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa843d8: ldur            x1, [fp, #-0x10]
     // 0xa843dc: stur            x0, [fp, #-0x10]
-    // 0xa843e0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa843e0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa843e0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa843e0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa843e4: stur            x0, [fp, #-0x18]
     // 0xa843e8: r0 = TextStyle()
     //     0xa843e8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2528,9 +2528,9 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa844e0: add             x2, x2, HEAP, lsl #32
     // 0xa844e4: mov             x1, x0
     // 0xa844e8: r0 = _selectedColorFor()
-    //     0xa844e8: bl              #0xa848c8  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_selectedColorFor
+    //     0xa844e8: bl              #0xa848c8  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_selectedColorFor
     // 0xa844ec: r1 = Function '<anonymous closure>':.
-    //     0xa844ec: add             x1, PP, #0x49, lsl #12  ; [pp+0x49490] AnonymousClosure: static (0x73dd8c), in [package:ballai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyScorecard::fromScoreMap (0x73c684)
+    //     0xa844ec: add             x1, PP, #0x49, lsl #12  ; [pp+0x49490] AnonymousClosure: static (0x73dd8c), in [package:kourtai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyScorecard::fromScoreMap (0x73c684)
     //     0xa844f0: ldr             x1, [x1, #0x490]
     // 0xa844f4: r2 = Null
     //     0xa844f4: mov             x2, NULL
@@ -2601,7 +2601,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa845ac: stur            d0, [x3, #0x13]
     // 0xa845b0: ldur            x2, [fp, #-0x38]
     // 0xa845b4: r1 = Function '<anonymous closure>':.
-    //     0xa845b4: add             x1, PP, #0x49, lsl #12  ; [pp+0x494a0] AnonymousClosure: (0xa871d8), in [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::build (0xa82b4c)
+    //     0xa845b4: add             x1, PP, #0x49, lsl #12  ; [pp+0x494a0] AnonymousClosure: (0xa871d8), in [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::build (0xa82b4c)
     //     0xa845b8: ldr             x1, [x1, #0x4a0]
     // 0xa845bc: r0 = AllocateClosure()
     //     0xa845bc: bl              #0xe553e0  ; AllocateClosureStub
@@ -2699,7 +2699,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa846bc: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xa846c0: ldur            x1, [fp, #-8]
     // 0xa846c4: r0 = _isYouProfileMode()
-    //     0xa846c4: bl              #0xa87184  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isYouProfileMode
+    //     0xa846c4: bl              #0xa87184  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_isYouProfileMode
     // 0xa846c8: tbnz            w0, #4, #0xa84720
     // 0xa846cc: r0 = 4
     //     0xa846cc: mov             x0, #4
@@ -2937,7 +2937,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa8491c: ret
     //     0xa8491c: ret             
     // 0xa84920: r0 = _lastMakePctValue()
-    //     0xa84920: bl              #0xa849e4  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_lastMakePctValue
+    //     0xa84920: bl              #0xa849e4  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_lastMakePctValue
     // 0xa84924: mov             v1.16b, v0.16b
     // 0xa84928: d0 = 25.000000
     //     0xa84928: fmov            d0, #25.00000000
@@ -3026,7 +3026,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa84a10: add             x2, PP, #0x49, lsl #12  ; [pp+0x49470] Obj!_ProgressMetric@d39c21
     //     0xa84a14: ldr             x2, [x2, #0x470]
     // 0xa84a18: r0 = _weeklySeries()
-    //     0xa84a18: bl              #0xa85430  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_weeklySeries
+    //     0xa84a18: bl              #0xa85430  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_weeklySeries
     // 0xa84a1c: LoadField: r1 = r0->field_b
     //     0xa84a1c: ldur            w1, [x0, #0xb]
     // 0xa84a20: cbz             w1, #0xa84a38
@@ -3214,7 +3214,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa84c1c: add             x1, PP, #0x41, lsl #12  ; [pp+0x41528] "This month"
     //     0xa84c20: ldr             x1, [x1, #0x528]
     // 0xa84c24: r0 = L()
-    //     0xa84c24: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa84c24: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa84c28: LeaveFrame
     //     0xa84c28: mov             SP, fp
     //     0xa84c2c: ldp             fp, lr, [SP], #0x10
@@ -3224,7 +3224,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa84c34: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a448] "This week"
     //     0xa84c38: ldr             x1, [x1, #0x448]
     // 0xa84c3c: r0 = L()
-    //     0xa84c3c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa84c3c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa84c40: LeaveFrame
     //     0xa84c40: mov             SP, fp
     //     0xa84c44: ldp             fp, lr, [SP], #0x10
@@ -3234,7 +3234,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa84c4c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a450] "Last week"
     //     0xa84c50: ldr             x1, [x1, #0x450]
     // 0xa84c54: r0 = L()
-    //     0xa84c54: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa84c54: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa84c58: LeaveFrame
     //     0xa84c58: mov             SP, fp
     //     0xa84c5c: ldp             fp, lr, [SP], #0x10
@@ -3246,7 +3246,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa84c6c: add             x1, PP, #0x49, lsl #12  ; [pp+0x494e8] "Last Month"
     //     0xa84c70: ldr             x1, [x1, #0x4e8]
     // 0xa84c74: r0 = L()
-    //     0xa84c74: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa84c74: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa84c78: LeaveFrame
     //     0xa84c78: mov             SP, fp
     //     0xa84c7c: ldp             fp, lr, [SP], #0x10
@@ -3256,7 +3256,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa84c84: add             x1, PP, #0x43, lsl #12  ; [pp+0x43108] "All Time"
     //     0xa84c88: ldr             x1, [x1, #0x108]
     // 0xa84c8c: r0 = L()
-    //     0xa84c8c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa84c8c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa84c90: LeaveFrame
     //     0xa84c90: mov             SP, fp
     //     0xa84c94: ldp             fp, lr, [SP], #0x10
@@ -3311,7 +3311,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa84d10: stur            x1, [x2, #0xb]
     // 0xa84d14: ldur            x1, [fp, #-8]
     // 0xa84d18: r0 = _monthTitle()
-    //     0xa84d18: bl              #0xa851a4  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_monthTitle
+    //     0xa84d18: bl              #0xa851a4  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_monthTitle
     // 0xa84d1c: LeaveFrame
     //     0xa84d1c: mov             SP, fp
     //     0xa84d20: ldp             fp, lr, [SP], #0x10
@@ -3324,7 +3324,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa84d30: mov             x1, x0
     // 0xa84d34: stur            x0, [fp, #-0x10]
     // 0xa84d38: r0 = _monthAbbrev()
-    //     0xa84d38: bl              #0xa84ec8  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_monthAbbrev
+    //     0xa84d38: bl              #0xa84ec8  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_monthAbbrev
     // 0xa84d3c: r1 = Null
     //     0xa84d3c: mov             x1, NULL
     // 0xa84d40: r2 = 14
@@ -3381,7 +3381,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa84dd8: mov             x1, x2
     // 0xa84ddc: stur            x2, [fp, #-0x10]
     // 0xa84de0: r0 = _monthAbbrev()
-    //     0xa84de0: bl              #0xa84ec8  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_monthAbbrev
+    //     0xa84de0: bl              #0xa84ec8  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_monthAbbrev
     // 0xa84de4: ldur            x1, [fp, #-0x28]
     // 0xa84de8: ArrayStore: r1[4] = r0  ; List_4
     //     0xa84de8: add             x25, x1, #0x1f
@@ -3442,7 +3442,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa84e98: add             x2, x2, HEAP, lsl #32
     // 0xa84e9c: ldur            x1, [fp, #-8]
     // 0xa84ea0: r0 = _monthTitle()
-    //     0xa84ea0: bl              #0xa851a4  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_monthTitle
+    //     0xa84ea0: bl              #0xa851a4  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_monthTitle
     // 0xa84ea4: LeaveFrame
     //     0xa84ea4: mov             SP, fp
     //     0xa84ea8: ldp             fp, lr, [SP], #0x10
@@ -3477,7 +3477,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa84ee8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27338] "Jan"
     //     0xa84eec: ldr             x1, [x1, #0x338]
     // 0xa84ef0: r0 = L()
-    //     0xa84ef0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa84ef0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa84ef4: r1 = <String>
     //     0xa84ef4: ldr             x1, [PP, #0x850]  ; [pp+0x850] TypeArguments: <String>
     // 0xa84ef8: r2 = 24
@@ -3494,7 +3494,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa84f14: add             x1, PP, #0x27, lsl #12  ; [pp+0x27340] "Feb"
     //     0xa84f18: ldr             x1, [x1, #0x340]
     // 0xa84f1c: r0 = L()
-    //     0xa84f1c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa84f1c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa84f20: ldur            x1, [fp, #-0x18]
     // 0xa84f24: ArrayStore: r1[1] = r0  ; List_4
     //     0xa84f24: add             x25, x1, #0x13
@@ -3510,7 +3510,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa84f48: add             x1, PP, #0x27, lsl #12  ; [pp+0x27348] "Mar"
     //     0xa84f4c: ldr             x1, [x1, #0x348]
     // 0xa84f50: r0 = L()
-    //     0xa84f50: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa84f50: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa84f54: ldur            x1, [fp, #-0x18]
     // 0xa84f58: ArrayStore: r1[2] = r0  ; List_4
     //     0xa84f58: add             x25, x1, #0x17
@@ -3526,7 +3526,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa84f7c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27350] "Apr"
     //     0xa84f80: ldr             x1, [x1, #0x350]
     // 0xa84f84: r0 = L()
-    //     0xa84f84: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa84f84: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa84f88: ldur            x1, [fp, #-0x18]
     // 0xa84f8c: ArrayStore: r1[3] = r0  ; List_4
     //     0xa84f8c: add             x25, x1, #0x1b
@@ -3542,7 +3542,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa84fb0: add             x1, PP, #0x27, lsl #12  ; [pp+0x27358] "May"
     //     0xa84fb4: ldr             x1, [x1, #0x358]
     // 0xa84fb8: r0 = L()
-    //     0xa84fb8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa84fb8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa84fbc: ldur            x1, [fp, #-0x18]
     // 0xa84fc0: ArrayStore: r1[4] = r0  ; List_4
     //     0xa84fc0: add             x25, x1, #0x1f
@@ -3558,7 +3558,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa84fe4: add             x1, PP, #0x27, lsl #12  ; [pp+0x27360] "Jun"
     //     0xa84fe8: ldr             x1, [x1, #0x360]
     // 0xa84fec: r0 = L()
-    //     0xa84fec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa84fec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa84ff0: ldur            x1, [fp, #-0x18]
     // 0xa84ff4: ArrayStore: r1[5] = r0  ; List_4
     //     0xa84ff4: add             x25, x1, #0x23
@@ -3574,7 +3574,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa85018: add             x1, PP, #0x27, lsl #12  ; [pp+0x27368] "Jul"
     //     0xa8501c: ldr             x1, [x1, #0x368]
     // 0xa85020: r0 = L()
-    //     0xa85020: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa85020: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa85024: ldur            x1, [fp, #-0x18]
     // 0xa85028: ArrayStore: r1[6] = r0  ; List_4
     //     0xa85028: add             x25, x1, #0x27
@@ -3590,7 +3590,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa8504c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27370] "Aug"
     //     0xa85050: ldr             x1, [x1, #0x370]
     // 0xa85054: r0 = L()
-    //     0xa85054: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa85054: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa85058: ldur            x1, [fp, #-0x18]
     // 0xa8505c: ArrayStore: r1[7] = r0  ; List_4
     //     0xa8505c: add             x25, x1, #0x2b
@@ -3606,7 +3606,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa85080: add             x1, PP, #0x27, lsl #12  ; [pp+0x27378] "Sep"
     //     0xa85084: ldr             x1, [x1, #0x378]
     // 0xa85088: r0 = L()
-    //     0xa85088: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa85088: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8508c: ldur            x1, [fp, #-0x18]
     // 0xa85090: ArrayStore: r1[8] = r0  ; List_4
     //     0xa85090: add             x25, x1, #0x2f
@@ -3622,7 +3622,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa850b4: add             x1, PP, #0x27, lsl #12  ; [pp+0x27380] "Oct"
     //     0xa850b8: ldr             x1, [x1, #0x380]
     // 0xa850bc: r0 = L()
-    //     0xa850bc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa850bc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa850c0: ldur            x1, [fp, #-0x18]
     // 0xa850c4: ArrayStore: r1[9] = r0  ; List_4
     //     0xa850c4: add             x25, x1, #0x33
@@ -3638,7 +3638,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa850e8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27388] "Nov"
     //     0xa850ec: ldr             x1, [x1, #0x388]
     // 0xa850f0: r0 = L()
-    //     0xa850f0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa850f0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa850f4: ldur            x1, [fp, #-0x18]
     // 0xa850f8: ArrayStore: r1[10] = r0  ; List_4
     //     0xa850f8: add             x25, x1, #0x37
@@ -3654,7 +3654,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa8511c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27390] "Dec"
     //     0xa85120: ldr             x1, [x1, #0x390]
     // 0xa85124: r0 = L()
-    //     0xa85124: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa85124: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa85128: ldur            x1, [fp, #-0x18]
     // 0xa8512c: ArrayStore: r1[11] = r0  ; List_4
     //     0xa8512c: add             x25, x1, #0x3b
@@ -3806,7 +3806,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa852c4: tbnz            w2, #4, #0xa852dc
     // 0xa852c8: mov             x1, x0
     // 0xa852cc: r0 = _monthAbbrev()
-    //     0xa852cc: bl              #0xa84ec8  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_monthAbbrev
+    //     0xa852cc: bl              #0xa84ec8  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_monthAbbrev
     // 0xa852d0: LeaveFrame
     //     0xa852d0: mov             SP, fp
     //     0xa852d4: ldp             fp, lr, [SP], #0x10
@@ -3814,7 +3814,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa852d8: ret             
     // 0xa852dc: mov             x1, x0
     // 0xa852e0: r0 = _monthAbbrev()
-    //     0xa852e0: bl              #0xa84ec8  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_monthAbbrev
+    //     0xa852e0: bl              #0xa84ec8  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_monthAbbrev
     // 0xa852e4: r1 = Null
     //     0xa852e4: mov             x1, NULL
     // 0xa852e8: r2 = 6
@@ -4005,9 +4005,9 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa854f0: DecompressPointer r1
     //     0xa854f0: add             x1, x1, HEAP, lsl #32
     // 0xa854f4: r0 = DateTimeWeekRange.activityWeekStart()
-    //     0xa854f4: bl              #0x5fab38  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
+    //     0xa854f4: bl              #0x5fab38  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
     // 0xa854f8: r1 = Function '<anonymous closure>': static.
-    //     0xa854f8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49500] AnonymousClosure: static (0xa85b58), in [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_weeklySeries (0xa85430)
+    //     0xa854f8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49500] AnonymousClosure: static (0xa85b58), in [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_weeklySeries (0xa85430)
     //     0xa854fc: ldr             x1, [x1, #0x500]
     // 0xa85500: r2 = Null
     //     0xa85500: mov             x2, NULL
@@ -4070,7 +4070,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa855ac: bl              #0x5fb8c0  ; [dart:core] DateTime::DateTime._withValue
     // 0xa855b0: ldur            x1, [fp, #-0x28]
     // 0xa855b4: r0 = DateTimeWeekRange.activityWeekStart()
-    //     0xa855b4: bl              #0x5fab38  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
+    //     0xa855b4: bl              #0x5fab38  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
     // 0xa855b8: mov             x4, x0
     // 0xa855bc: ldur            x3, [fp, #-0x20]
     // 0xa855c0: stur            x4, [fp, #-0x28]
@@ -4094,7 +4094,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa855fc: ldur            x0, [fp, #-0x28]
     // 0xa85600: ldur            x2, [fp, #-0x10]
     // 0xa85604: r0 = _metricValue()
-    //     0xa85604: bl              #0xa8570c  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_metricValue
+    //     0xa85604: bl              #0xa8570c  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_metricValue
     // 0xa85608: stur            d0, [fp, #-0x48]
     // 0xa8560c: r0 = _WeeklyPoint()
     //     0xa8560c: bl              #0xa856dc  ; Allocate_WeeklyPointStub -> _WeeklyPoint (size=0x14)
@@ -4191,7 +4191,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa85740: cmp             x1, #0
     // 0xa85744: b.gt            #0xa857a0
     // 0xa85748: r1 = Function '<anonymous closure>': static.
-    //     0xa85748: add             x1, PP, #0x49, lsl #12  ; [pp+0x49510] AnonymousClosure: static (0xa85af4), in [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_metricValue (0xa8570c)
+    //     0xa85748: add             x1, PP, #0x49, lsl #12  ; [pp+0x49510] AnonymousClosure: static (0xa85af4), in [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_metricValue (0xa8570c)
     //     0xa8574c: ldr             x1, [x1, #0x510]
     // 0xa85750: r2 = Null
     //     0xa85750: mov             x2, NULL
@@ -4224,7 +4224,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa8579c: ret
     //     0xa8579c: ret             
     // 0xa857a0: r1 = Function '<anonymous closure>': static.
-    //     0xa857a0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49518] AnonymousClosure: static (0xa85a90), in [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_metricValue (0xa8570c)
+    //     0xa857a0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49518] AnonymousClosure: static (0xa85a90), in [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_metricValue (0xa8570c)
     //     0xa857a4: ldr             x1, [x1, #0x518]
     // 0xa857a8: r2 = Null
     //     0xa857a8: mov             x2, NULL
@@ -4257,7 +4257,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa857f4: ret
     //     0xa857f4: ret             
     // 0xa857f8: r1 = Function '<anonymous closure>': static.
-    //     0xa857f8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49520] AnonymousClosure: static (0x98c270), in [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
+    //     0xa857f8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49520] AnonymousClosure: static (0x98c270), in [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
     //     0xa857fc: ldr             x1, [x1, #0x520]
     // 0xa85800: r2 = Null
     //     0xa85800: mov             x2, NULL
@@ -4280,7 +4280,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa85830: ldr             lr, [x21, lr, lsl #3]
     //     0xa85834: blr             lr
     // 0xa85838: r1 = Function '<anonymous closure>': static.
-    //     0xa85838: add             x1, PP, #0x49, lsl #12  ; [pp+0x49528] AnonymousClosure: static (0x98c22c), in [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
+    //     0xa85838: add             x1, PP, #0x49, lsl #12  ; [pp+0x49528] AnonymousClosure: static (0x98c22c), in [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
     //     0xa8583c: ldr             x1, [x1, #0x528]
     // 0xa85840: r2 = Null
     //     0xa85840: mov             x2, NULL
@@ -4336,7 +4336,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa858dc: cmp             x1, #3
     // 0xa858e0: b.gt            #0xa8593c
     // 0xa858e4: r1 = Function '<anonymous closure>': static.
-    //     0xa858e4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49530] AnonymousClosure: static (0xa859dc), in [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_metricValue (0xa8570c)
+    //     0xa858e4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49530] AnonymousClosure: static (0xa859dc), in [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_metricValue (0xa8570c)
     //     0xa858e8: ldr             x1, [x1, #0x530]
     // 0xa858ec: r2 = Null
     //     0xa858ec: mov             x2, NULL
@@ -4389,7 +4389,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa85970: ret
     //     0xa85970: ret             
     // 0xa85974: r1 = Function '<anonymous closure>': static.
-    //     0xa85974: add             x1, PP, #0x49, lsl #12  ; [pp+0x49538] AnonymousClosure: static (0x98bf84), in [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
+    //     0xa85974: add             x1, PP, #0x49, lsl #12  ; [pp+0x49538] AnonymousClosure: static (0x98bf84), in [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
     //     0xa85978: ldr             x1, [x1, #0x538]
     // 0xa8597c: r2 = Null
     //     0xa8597c: mov             x2, NULL
@@ -4708,7 +4708,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa85d70: r0 = DateTime._internal()
     //     0xa85d70: bl              #0x5faf9c  ; [dart:core] DateTime::DateTime._internal
     // 0xa85d74: r1 = Function '<anonymous closure>': static.
-    //     0xa85d74: add             x1, PP, #0x49, lsl #12  ; [pp+0x49540] AnonymousClosure: static (0xa85b58), in [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_weeklySeries (0xa85430)
+    //     0xa85d74: add             x1, PP, #0x49, lsl #12  ; [pp+0x49540] AnonymousClosure: static (0xa85b58), in [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_weeklySeries (0xa85430)
     //     0xa85d78: ldr             x1, [x1, #0x540]
     // 0xa85d7c: r2 = Null
     //     0xa85d7c: mov             x2, NULL
@@ -4908,7 +4908,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa85fe8: ldur            x3, [fp, #-0x10]
     // 0xa85fec: ldur            x2, [fp, #-8]
     // 0xa85ff0: r0 = _metricValue()
-    //     0xa85ff0: bl              #0xa8570c  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_metricValue
+    //     0xa85ff0: bl              #0xa8570c  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_metricValue
     // 0xa85ff4: stur            d0, [fp, #-0x50]
     // 0xa85ff8: r0 = _WeeklyPoint()
     //     0xa85ff8: bl              #0xa856dc  ; Allocate_WeeklyPointStub -> _WeeklyPoint (size=0x14)
@@ -5122,10 +5122,10 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa86264: DecompressPointer r1
     //     0xa86264: add             x1, x1, HEAP, lsl #32
     // 0xa86268: r0 = DateTimeWeekRange.activityWeekStart()
-    //     0xa86268: bl              #0x5fab38  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
+    //     0xa86268: bl              #0x5fab38  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
     // 0xa8626c: stur            x0, [fp, #-0x38]
     // 0xa86270: r1 = Function '<anonymous closure>': static.
-    //     0xa86270: add             x1, PP, #0x49, lsl #12  ; [pp+0x49558] AnonymousClosure: static (0xa85b58), in [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_weeklySeries (0xa85430)
+    //     0xa86270: add             x1, PP, #0x49, lsl #12  ; [pp+0x49558] AnonymousClosure: static (0xa85b58), in [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_weeklySeries (0xa85430)
     //     0xa86274: ldr             x1, [x1, #0x558]
     // 0xa86278: r2 = Null
     //     0xa86278: mov             x2, NULL
@@ -5164,7 +5164,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa862e0: DecompressPointer r1
     //     0xa862e0: add             x1, x1, HEAP, lsl #32
     // 0xa862e4: r0 = _monthStart()
-    //     0xa862e4: bl              #0xa86608  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_monthStart
+    //     0xa862e4: bl              #0xa86608  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_monthStart
     // 0xa862e8: mov             x2, x0
     // 0xa862ec: b               #0xa86304
     // 0xa862f0: ldur            x0, [fp, #-0x18]
@@ -5173,7 +5173,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa862f8: DecompressPointer r1
     //     0xa862f8: add             x1, x1, HEAP, lsl #32
     // 0xa862fc: r0 = DateTimeWeekRange.activityWeekStart()
-    //     0xa862fc: bl              #0x5fab38  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
+    //     0xa862fc: bl              #0x5fab38  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
     // 0xa86300: mov             x2, x0
     // 0xa86304: ldur            x0, [fp, #-0x18]
     // 0xa86308: stur            x2, [fp, #-0x30]
@@ -5298,7 +5298,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa8647c: ldur            x3, [fp, #-0x18]
     // 0xa86480: ldur            x2, [fp, #-0x10]
     // 0xa86484: r0 = _metricValue()
-    //     0xa86484: bl              #0xa8570c  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_metricValue
+    //     0xa86484: bl              #0xa8570c  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_metricValue
     // 0xa86488: stur            d0, [fp, #-0x58]
     // 0xa8648c: r0 = _WeeklyPoint()
     //     0xa8648c: bl              #0xa856dc  ; Allocate_WeeklyPointStub -> _WeeklyPoint (size=0x14)
@@ -5545,7 +5545,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa86728: b.ne            #0xa86740
     // 0xa8672c: ldur            x1, [fp, #-8]
     // 0xa86730: r0 = _workoutsThisWeek()
-    //     0xa86730: bl              #0xa867a0  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_workoutsThisWeek
+    //     0xa86730: bl              #0xa867a0  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_workoutsThisWeek
     // 0xa86734: LeaveFrame
     //     0xa86734: mov             SP, fp
     //     0xa86738: ldp             fp, lr, [SP], #0x10
@@ -5554,7 +5554,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa86740: ldur            x0, [fp, #-8]
     // 0xa86744: mov             x2, x1
     // 0xa86748: r1 = Function '<anonymous closure>': static.
-    //     0xa86748: add             x1, PP, #0x49, lsl #12  ; [pp+0x49560] AnonymousClosure: static (0xa868e0), in [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_workoutsForSummary (0xa866f0)
+    //     0xa86748: add             x1, PP, #0x49, lsl #12  ; [pp+0x49560] AnonymousClosure: static (0xa868e0), in [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_workoutsForSummary (0xa866f0)
     //     0xa8674c: ldr             x1, [x1, #0x560]
     // 0xa86750: r0 = AllocateClosure()
     //     0xa86750: bl              #0xe553e0  ; AllocateClosureStub
@@ -5618,7 +5618,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa867e4: stur            x1, [x0, #0xb]
     // 0xa867e8: mov             x1, x0
     // 0xa867ec: r0 = DateTimeWeekRange.activityWeekStart()
-    //     0xa867ec: bl              #0x5fab38  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
+    //     0xa867ec: bl              #0x5fab38  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
     // 0xa867f0: stur            x0, [fp, #-0x10]
     // 0xa867f4: r1 = 1
     //     0xa867f4: mov             x1, #1
@@ -5630,7 +5630,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa86804: stur            w0, [x1, #0xf]
     // 0xa86808: mov             x2, x1
     // 0xa8680c: r1 = Function '<anonymous closure>': static.
-    //     0xa8680c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49578] AnonymousClosure: static (0xa86864), in [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_workoutsThisWeek (0xa867a0)
+    //     0xa8680c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49578] AnonymousClosure: static (0xa86864), in [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_workoutsThisWeek (0xa867a0)
     //     0xa86810: ldr             x1, [x1, #0x578]
     // 0xa86814: r0 = AllocateClosure()
     //     0xa86814: bl              #0xe553e0  ; AllocateClosureStub
@@ -6086,7 +6086,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa86ce8: ldur            x0, [fp, #-0x18]
     // 0xa86cec: ldur            x1, [fp, #-0x10]
     // 0xa86cf0: r0 = DateTimeWeekRange.activityWeekStart()
-    //     0xa86cf0: bl              #0x5fab38  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
+    //     0xa86cf0: bl              #0x5fab38  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
     // 0xa86cf4: r1 = <DateTime>
     //     0xa86cf4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a368] TypeArguments: <DateTime>
     //     0xa86cf8: ldr             x1, [x1, #0x368]
@@ -6108,7 +6108,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa86d24: ret             
     // 0xa86d28: ldur            x1, [fp, #-0x10]
     // 0xa86d2c: r0 = DateTimeWeekRange.activityWeekStart()
-    //     0xa86d2c: bl              #0x5fab38  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
+    //     0xa86d2c: bl              #0x5fab38  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.activityWeekStart
     // 0xa86d30: mov             x1, x0
     // 0xa86d34: r2 = Instance_Duration
     //     0xa86d34: add             x2, PP, #0x12, lsl #12  ; [pp+0x12328] Obj!Duration@d3d0c1
@@ -6557,7 +6557,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa8720c: LoadField: d0 = r0->field_7
     //     0xa8720c: ldur            d0, [x0, #7]
     // 0xa87210: r0 = _formatAxisValue()
-    //     0xa87210: bl              #0xa87228  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_formatAxisValue
+    //     0xa87210: bl              #0xa87228  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::_formatAxisValue
     // 0xa87214: LeaveFrame
     //     0xa87214: mov             SP, fp
     //     0xa87218: ldp             fp, lr, [SP], #0x10
@@ -6881,7 +6881,7 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa875ac: add             x3, x3, HEAP, lsl #32
     // 0xa875b0: stur            x3, [fp, #-8]
     // 0xa875b4: r1 = Function '<anonymous closure>':.
-    //     0xa875b4: add             x1, PP, #0x49, lsl #12  ; [pp+0x494c0] AnonymousClosure: (0xa875e4), in [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::build (0xa82b4c)
+    //     0xa875b4: add             x1, PP, #0x49, lsl #12  ; [pp+0x494c0] AnonymousClosure: (0xa875e4), in [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _ProgressChartViewState::build (0xa82b4c)
     //     0xa875b8: ldr             x1, [x1, #0x4c0]
     // 0xa875bc: r0 = AllocateClosure()
     //     0xa875bc: bl              #0xe553e0  ; AllocateClosureStub
@@ -6996,7 +6996,7 @@ class _ProgressChartViewState extends State<dynamic> {
     // 0xa876d4: mov             x2, x1
     // 0xa876d8: stur            x3, [fp, #-0x10]
     // 0xa876dc: r1 = Function '<anonymous closure>':.
-    //     0xa876dc: add             x1, PP, #0x49, lsl #12  ; [pp+0x494c8] AnonymousClosure: (0xa466dc), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::build (0xa44c00)
+    //     0xa876dc: add             x1, PP, #0x49, lsl #12  ; [pp+0x494c8] AnonymousClosure: (0xa466dc), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/video/workout_video_summary_view.dart] _WorkoutVideoSummaryViewState::build (0xa44c00)
     //     0xa876e0: ldr             x1, [x1, #0x4c8]
     // 0xa876e4: r0 = AllocateClosure()
     //     0xa876e4: bl              #0xe553e0  ; AllocateClosureStub
@@ -7171,19 +7171,19 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa878cc: add             x1, PP, #0x41, lsl #12  ; [pp+0x41528] "This month"
     //     0xa878d0: ldr             x1, [x1, #0x528]
     // 0xa878d4: r0 = L()
-    //     0xa878d4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa878d4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa878d8: b               #0xa87920
     // 0xa878dc: r1 = "This week"
     //     0xa878dc: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a448] "This week"
     //     0xa878e0: ldr             x1, [x1, #0x448]
     // 0xa878e4: r0 = L()
-    //     0xa878e4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa878e4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa878e8: b               #0xa87920
     // 0xa878ec: r1 = "Last week"
     //     0xa878ec: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a450] "Last week"
     //     0xa878f0: ldr             x1, [x1, #0x450]
     // 0xa878f4: r0 = L()
-    //     0xa878f4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa878f4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa878f8: b               #0xa87920
     // 0xa878fc: cmp             x1, #3
     // 0xa87900: b.gt            #0xa87914
@@ -7191,13 +7191,13 @@ class _ProgressChartViewState extends State<dynamic> {
     //     0xa87904: add             x1, PP, #0x49, lsl #12  ; [pp+0x494e8] "Last Month"
     //     0xa87908: ldr             x1, [x1, #0x4e8]
     // 0xa8790c: r0 = L()
-    //     0xa8790c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8790c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa87910: b               #0xa87920
     // 0xa87914: r1 = "All Time"
     //     0xa87914: add             x1, PP, #0x43, lsl #12  ; [pp+0x43108] "All Time"
     //     0xa87918: ldr             x1, [x1, #0x108]
     // 0xa8791c: r0 = L()
-    //     0xa8791c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8791c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa87920: ldur            x1, [fp, #-0x30]
     // 0xa87924: stur            x0, [fp, #-0x28]
     // 0xa87928: r0 = Text()
@@ -7531,8 +7531,8 @@ class _MetricPill extends StatelessWidget {
     // 0xc10f88: mov             x1, x4
     // 0xc10f8c: b               #0xc10fa4
     // 0xc10f90: ldur            x1, [fp, #-0x10]
-    // 0xc10f94: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xc10f94: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xc10f94: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xc10f94: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xc10f98: mov             x2, x0
     // 0xc10f9c: ldur            x0, [fp, #-8]
     // 0xc10fa0: ldur            x1, [fp, #-0x18]
@@ -7591,8 +7591,8 @@ class _MetricPill extends StatelessWidget {
     // 0xc1102c: mov             x3, x4
     // 0xc11030: b               #0xc11044
     // 0xc11034: ldur            x1, [fp, #-0x10]
-    // 0xc11038: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc11038: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc11038: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc11038: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc1103c: mov             x3, x0
     // 0xc11040: ldur            x0, [fp, #-0x30]
     // 0xc11044: ldur            x1, [fp, #-0x28]
@@ -7739,7 +7739,7 @@ class _EmbeddedShotMap extends StatelessWidget {
     // 0xc10a74: StoreField: r3->field_13 = r0
     //     0xc10a74: stur            w0, [x3, #0x13]
     // 0xc10a78: r1 = Function '<anonymous closure>':.
-    //     0xc10a78: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d9c8] AnonymousClosure: (0xc10af4), in [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _EmbeddedShotMap::build (0xc10a38)
+    //     0xc10a78: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d9c8] AnonymousClosure: (0xc10af4), in [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _EmbeddedShotMap::build (0xc10a38)
     //     0xc10a7c: ldr             x1, [x1, #0x9c8]
     // 0xc10a80: r2 = Null
     //     0xc10a80: mov             x2, NULL
@@ -8180,8 +8180,8 @@ class _CompactStat extends StatelessWidget {
     //     0xc10864: add             x3, x3, HEAP, lsl #32
     // 0xc10868: mov             x1, x0
     // 0xc1086c: stur            x3, [fp, #-8]
-    // 0xc10870: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc10870: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc10870: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc10870: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc10874: stur            x0, [fp, #-0x20]
     // 0xc10878: r0 = TextStyle()
     //     0xc10878: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -8230,8 +8230,8 @@ class _CompactStat extends StatelessWidget {
     //     0xc108e4: add             x4, x4, HEAP, lsl #32
     // 0xc108e8: ldur            x1, [fp, #-0x18]
     // 0xc108ec: stur            x4, [fp, #-8]
-    // 0xc108f0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc108f0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc108f0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc108f0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc108f4: stur            x0, [fp, #-0x10]
     // 0xc108f8: r0 = TextStyle()
     //     0xc108f8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -8480,7 +8480,7 @@ class _MiniChartPainter extends CustomPainter {
     //     0x847bd8: bl              #0xe547fc  ; WriteBarrierWrappersStub
     // 0x847bdc: mov             x2, x4
     // 0x847be0: r1 = Function 'yFor':.
-    //     0x847be0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d9f8] AnonymousClosure: (0x8492b0), in [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _MiniChartPainter::paint (0x847a9c)
+    //     0x847be0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d9f8] AnonymousClosure: (0x8492b0), in [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _MiniChartPainter::paint (0x847a9c)
     //     0x847be4: ldr             x1, [x1, #0x9f8]
     // 0x847be8: r0 = AllocateClosure()
     //     0x847be8: bl              #0xe553e0  ; AllocateClosureStub
@@ -8723,7 +8723,7 @@ class _MiniChartPainter extends CustomPainter {
     // 0x847ea0: ldur            d2, [fp, #-0x88]
     // 0x847ea4: ldur            x5, [fp, #-0x28]
     // 0x847ea8: r0 = _paintAxisFooters()
-    //     0x847ea8: bl              #0x848bec  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _MiniChartPainter::_paintAxisFooters
+    //     0x847ea8: bl              #0x848bec  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _MiniChartPainter::_paintAxisFooters
     // 0x847eac: r0 = Null
     //     0x847eac: mov             x0, NULL
     // 0x847eb0: LeaveFrame
@@ -8888,7 +8888,7 @@ class _MiniChartPainter extends CustomPainter {
     // 0x84809c: ldur            x1, [fp, #-8]
     // 0x8480a0: mov             x2, x3
     // 0x8480a4: r0 = _catmullRomPath()
-    //     0x8480a4: bl              #0x848778  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _MiniChartPainter::_catmullRomPath
+    //     0x8480a4: bl              #0x848778  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _MiniChartPainter::_catmullRomPath
     // 0x8480a8: mov             x2, x0
     // 0x8480ac: r1 = Null
     //     0x8480ac: mov             x1, NULL
@@ -9239,7 +9239,7 @@ class _MiniChartPainter extends CustomPainter {
     // 0x848480: ldur            x1, [fp, #-8]
     // 0x848484: ldur            x2, [fp, #-0x48]
     // 0x848488: r0 = _catmullRomPath()
-    //     0x848488: bl              #0x848778  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _MiniChartPainter::_catmullRomPath
+    //     0x848488: bl              #0x848778  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _MiniChartPainter::_catmullRomPath
     // 0x84848c: ldur            x1, [fp, #-0x10]
     // 0x848490: mov             x2, x0
     // 0x848494: ldur            x3, [fp, #-0x60]
@@ -9370,7 +9370,7 @@ class _MiniChartPainter extends CustomPainter {
     // 0x84860c: ldur            d2, [fp, #-0x88]
     // 0x848610: ldur            x5, [fp, #-0x28]
     // 0x848614: r0 = _paintAxisFooters()
-    //     0x848614: bl              #0x848bec  ; [package:ballai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _MiniChartPainter::_paintAxisFooters
+    //     0x848614: bl              #0x848bec  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/progress_chart_view.dart] _MiniChartPainter::_paintAxisFooters
     // 0x848618: r0 = Null
     //     0x848618: mov             x0, NULL
     // 0x84861c: LeaveFrame

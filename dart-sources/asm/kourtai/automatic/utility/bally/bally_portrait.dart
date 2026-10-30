@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/bally/bally_portrait.dart
+// lib: , url: package:kourtai/automatic/utility/bally/bally_portrait.dart
 
 // class id: 1048719, size: 0x8
 class :: {
@@ -34,10 +34,10 @@ class BallyPortrait extends StatelessWidget {
     // 0xbae658: mov             x1, x0
     // 0xbae65c: ldur            x2, [fp, #-0x10]
     // 0xbae660: r0 = _resolvePose()
-    //     0xbae660: bl              #0xbae848  ; [package:ballai/automatic/utility/bally/bally_portrait.dart] BallyPortrait::_resolvePose
+    //     0xbae660: bl              #0xbae848  ; [package:kourtai/automatic/utility/bally/bally_portrait.dart] BallyPortrait::_resolvePose
     // 0xbae664: mov             x1, x0
     // 0xbae668: r0 = assetForPose()
-    //     0xbae668: bl              #0xbae738  ; [package:ballai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::assetForPose
+    //     0xbae668: bl              #0xbae738  ; [package:kourtai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::assetForPose
     // 0xbae66c: mov             x3, x0
     // 0xbae670: ldur            x0, [fp, #-8]
     // 0xbae674: stur            x3, [fp, #-0x20]
@@ -63,7 +63,7 @@ class BallyPortrait extends StatelessWidget {
     // 0xbae6b0: ldur            x2, [fp, #-0x18]
     // 0xbae6b4: stur            x0, [fp, #-8]
     // 0xbae6b8: r1 = Function '<anonymous closure>':.
-    //     0xbae6b8: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e8c8] AnonymousClosure: (0xbae9a0), in [package:ballai/automatic/utility/bally/bally_portrait.dart] BallyPortrait::build (0xbae620)
+    //     0xbae6b8: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e8c8] AnonymousClosure: (0xbae9a0), in [package:kourtai/automatic/utility/bally/bally_portrait.dart] BallyPortrait::build (0xbae620)
     //     0xbae6bc: ldr             x1, [x1, #0x8c8]
     // 0xbae6c0: r0 = AllocateClosure()
     //     0xbae6c0: bl              #0xe553e0  ; AllocateClosureStub
@@ -147,7 +147,7 @@ class BallyPortrait extends StatelessWidget {
     // 0xbae8a4: ldur            x1, [fp, #-8]
     // 0xbae8a8: ldur            x2, [fp, #-0x10]
     // 0xbae8ac: r0 = _userFromContext()
-    //     0xbae8ac: bl              #0xbae910  ; [package:ballai/automatic/utility/bally/bally_portrait.dart] BallyPortrait::_userFromContext
+    //     0xbae8ac: bl              #0xbae910  ; [package:kourtai/automatic/utility/bally/bally_portrait.dart] BallyPortrait::_userFromContext
     // 0xbae8b0: cmp             w0, NULL
     // 0xbae8b4: b.ne            #0xbae8c0
     // 0xbae8b8: r2 = Null
@@ -171,12 +171,12 @@ class BallyPortrait extends StatelessWidget {
     // 0xbae8e8: r1 = Null
     //     0xbae8e8: mov             x1, NULL
     // 0xbae8ec: r0 = headPose()
-    //     0xbae8ec: bl              #0x9fa504  ; [package:ballai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::headPose
+    //     0xbae8ec: bl              #0x9fa504  ; [package:kourtai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::headPose
     // 0xbae8f0: b               #0xbae8fc
     // 0xbae8f4: r1 = Null
     //     0xbae8f4: mov             x1, NULL
     // 0xbae8f8: r0 = fullBodyPose()
-    //     0xbae8f8: bl              #0x9e60fc  ; [package:ballai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::fullBodyPose
+    //     0xbae8f8: bl              #0x9e60fc  ; [package:kourtai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::fullBodyPose
     // 0xbae8fc: LeaveFrame
     //     0xbae8fc: mov             SP, fp
     //     0xbae900: ldp             fp, lr, [SP], #0x10
@@ -282,7 +282,7 @@ class BallyPortrait extends StatelessWidget {
     //     0xbae9f4: add             x1, PP, #0x21, lsl #12  ; [pp+0x215f0] "Bally"
     //     0xbae9f8: ldr             x1, [x1, #0x5f0]
     // 0xbae9fc: r0 = assetForPose()
-    //     0xbae9fc: bl              #0xbae738  ; [package:ballai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::assetForPose
+    //     0xbae9fc: bl              #0xbae738  ; [package:kourtai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::assetForPose
     // 0xbaea00: ldur            x2, [fp, #-8]
     // 0xbaea04: stur            x0, [fp, #-0x20]
     // 0xbaea08: LoadField: r1 = r2->field_f
@@ -310,7 +310,7 @@ class BallyPortrait extends StatelessWidget {
     //     0xbaea44: stur            d0, [x4, #7]
     // 0xbaea48: stur            x4, [fp, #-0x10]
     // 0xbaea4c: r1 = Function '<anonymous closure>':.
-    //     0xbaea4c: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e8d8] AnonymousClosure: (0xbaead0), in [package:ballai/automatic/utility/bally/bally_portrait.dart] BallyPortrait::build (0xbae620)
+    //     0xbaea4c: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e8d8] AnonymousClosure: (0xbaead0), in [package:kourtai/automatic/utility/bally/bally_portrait.dart] BallyPortrait::build (0xbae620)
     //     0xbaea50: ldr             x1, [x1, #0x8d8]
     // 0xbaea54: r0 = AllocateClosure()
     //     0xbaea54: bl              #0xe553e0  ; AllocateClosureStub

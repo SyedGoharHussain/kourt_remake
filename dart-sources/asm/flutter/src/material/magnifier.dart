@@ -558,7 +558,7 @@ class _TextMagnifierState extends State<dynamic> {
     //     0x9134ac: add             x0, x0, HEAP, lsl #32
     // 0x9134b0: stur            x0, [fp, #-8]
     // 0x9134b4: r1 = Function '<anonymous closure>':.
-    //     0x9134b4: add             x1, PP, #0x47, lsl #12  ; [pp+0x47638] AnonymousClosure: (0x8f4154), in [package:ballai/video_tracking/views/drills/primary_category_drill_list_screen.dart] _PrimaryCategoryDrillListScreenState::build (0xac46a4)
+    //     0x9134b4: add             x1, PP, #0x47, lsl #12  ; [pp+0x47638] AnonymousClosure: (0x8f4154), in [package:kourtai/video_tracking/views/drills/primary_category_drill_list_screen.dart] _PrimaryCategoryDrillListScreenState::build (0xac46a4)
     //     0x9134b8: ldr             x1, [x1, #0x638]
     // 0x9134bc: r0 = AllocateClosure()
     //     0x9134bc: bl              #0xe553e0  ; AllocateClosureStub

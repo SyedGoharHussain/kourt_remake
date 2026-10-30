@@ -1,11 +1,11 @@
-// lib: , url: package:ballai/automatic/views/launch/ball_ai_splash_view.dart
+// lib: , url: package:kourtai/automatic/views/launch/kourt_ai_splash_view.dart
 
 // class id: 1049043, size: 0x8
 class :: {
 }
 
 // class id: 2845, size: 0x14, field offset: 0x14
-class _BallAiSplashViewState extends State<dynamic> {
+class _KourtAiSplashViewState extends State<dynamic> {
 
   _ build(/* No info */) {
     // ** addr: 0xaaa45c, size: 0x118
@@ -14,7 +14,7 @@ class _BallAiSplashViewState extends State<dynamic> {
     //     0xaaa460: mov             fp, SP
     // 0xaaa464: AllocStack(0x20)
     //     0xaaa464: sub             SP, SP, #0x20
-    // 0xaaa468: SetupParameters(_BallAiSplashViewState this /* r1 => r0 */, dynamic _ /* r2 => r1 */)
+    // 0xaaa468: SetupParameters(_KourtAiSplashViewState this /* r1 => r0 */, dynamic _ /* r2 => r1 */)
     //     0xaaa468: mov             x0, x1
     //     0xaaa46c: mov             x1, x2
     // 0xaaa470: CheckStackOverflow
@@ -56,7 +56,7 @@ class _BallAiSplashViewState extends State<dynamic> {
     //     0xaaa4cc: ldr             x3, [x3, #0x250]
     // 0xaaa4d0: stur            x3, [fp, #-8]
     // 0xaaa4d4: r1 = Function '<anonymous closure>':.
-    //     0xaaa4d4: add             x1, PP, #0x20, lsl #12  ; [pp+0x20938] AnonymousClosure: (0xaaa580), in [package:ballai/automatic/views/launch/ball_ai_splash_view.dart] _BallAiSplashViewState::build (0xaaa45c)
+    //     0xaaa4d4: add             x1, PP, #0x20, lsl #12  ; [pp+0x20938] AnonymousClosure: (0xaaa580), in [package:kourtai/automatic/views/launch/kourt_ai_splash_view.dart] _KourtAiSplashViewState::build (0xaaa45c)
     //     0xaaa4d8: ldr             x1, [x1, #0x938]
     // 0xaaa4dc: r2 = Null
     //     0xaaa4dc: mov             x2, NULL
@@ -149,7 +149,7 @@ class _BallAiSplashViewState extends State<dynamic> {
     //     0xaaa5bc: stur            d0, [x0, #0xf]
     // 0xaaa5c0: mov             x1, x0
     // 0xaaa5c4: r0 = splashBrandBaseLength()
-    //     0xaaa5c4: bl              #0xaaa658  ; [package:ballai/automatic/views/components/splash_brand_looping_video_view.dart] ::splashBrandBaseLength
+    //     0xaaa5c4: bl              #0xaaa658  ; [package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart] ::splashBrandBaseLength
     // 0xaaa5c8: mov             v1.16b, v0.16b
     // 0xaaa5cc: d0 = 0.900000
     //     0xaaa5cc: ldr             d0, [PP, #0x5aa8]  ; [pp+0x5aa8] IMM: double(0.9) from 0x3feccccccccccccd
@@ -204,7 +204,7 @@ class _BallAiSplashViewState extends State<dynamic> {
 
 // class id: 3550, size: 0xc, field offset: 0xc
 //   const constructor, 
-class BallAiSplashView extends StatefulWidget {
+class KourtAiSplashView extends StatefulWidget {
 
   _ createState(/* No info */) {
     // ** addr: 0xb75a30, size: 0x24
@@ -212,11 +212,11 @@ class BallAiSplashView extends StatefulWidget {
     //     0xb75a30: stp             fp, lr, [SP, #-0x10]!
     //     0xb75a34: mov             fp, SP
     // 0xb75a38: mov             x0, x1
-    // 0xb75a3c: r1 = <BallAiSplashView>
-    //     0xb75a3c: add             x1, PP, #0x1e, lsl #12  ; [pp+0x1e428] TypeArguments: <BallAiSplashView>
+    // 0xb75a3c: r1 = <KourtAiSplashView>
+    //     0xb75a3c: add             x1, PP, #0x1e, lsl #12  ; [pp+0x1e428] TypeArguments: <KourtAiSplashView>
     //     0xb75a40: ldr             x1, [x1, #0x428]
-    // 0xb75a44: r0 = _BallAiSplashViewState()
-    //     0xb75a44: bl              #0xb75a54  ; Allocate_BallAiSplashViewStateStub -> _BallAiSplashViewState (size=0x14)
+    // 0xb75a44: r0 = _KourtAiSplashViewState()
+    //     0xb75a44: bl              #0xb75a54  ; Allocate_KourtAiSplashViewStateStub -> _KourtAiSplashViewState (size=0x14)
     // 0xb75a48: LeaveFrame
     //     0xb75a48: mov             SP, fp
     //     0xb75a4c: ldp             fp, lr, [SP], #0x10

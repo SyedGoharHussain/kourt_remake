@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/analysis/form/release_angle_analyzer.dart
+// lib: , url: package:kourtai/video_tracking/analysis/form/release_angle_analyzer.dart
 
 // class id: 1049098, size: 0x8
 class :: {
@@ -53,7 +53,7 @@ abstract class ReleaseAngleAnalyzer extends Object {
     // 0x717760: b.le            #0x717778
     // 0x717764: ldur            x2, [fp, #-0x10]
     // 0x717768: r0 = _landmarkToPixel()
-    //     0x717768: bl              #0x717800  ; [package:ballai/video_tracking/analysis/form/release_angle_analyzer.dart] ReleaseAngleAnalyzer::_landmarkToPixel
+    //     0x717768: bl              #0x717800  ; [package:kourtai/video_tracking/analysis/form/release_angle_analyzer.dart] ReleaseAngleAnalyzer::_landmarkToPixel
     // 0x71776c: mov             x3, x0
     // 0x717770: ldur            d0, [fp, #-0x20]
     // 0x717774: b               #0x717780
@@ -93,7 +93,7 @@ abstract class ReleaseAngleAnalyzer extends Object {
     // 0x7177d8: b.le            #0x7177e8
     // 0x7177dc: ldur            x2, [fp, #-0x10]
     // 0x7177e0: r0 = _landmarkToPixel()
-    //     0x7177e0: bl              #0x717800  ; [package:ballai/video_tracking/analysis/form/release_angle_analyzer.dart] ReleaseAngleAnalyzer::_landmarkToPixel
+    //     0x7177e0: bl              #0x717800  ; [package:kourtai/video_tracking/analysis/form/release_angle_analyzer.dart] ReleaseAngleAnalyzer::_landmarkToPixel
     // 0x7177e4: b               #0x7177ec
     // 0x7177e8: ldur            x0, [fp, #-0x18]
     // 0x7177ec: LeaveFrame
@@ -214,7 +214,7 @@ abstract class ReleaseAngleAnalyzer extends Object {
     // 0x717914: b.le            #0x71792c
     // 0x717918: ldur            x2, [fp, #-0x10]
     // 0x71791c: r0 = _landmarkToPixel()
-    //     0x71791c: bl              #0x717800  ; [package:ballai/video_tracking/analysis/form/release_angle_analyzer.dart] ReleaseAngleAnalyzer::_landmarkToPixel
+    //     0x71791c: bl              #0x717800  ; [package:kourtai/video_tracking/analysis/form/release_angle_analyzer.dart] ReleaseAngleAnalyzer::_landmarkToPixel
     // 0x717920: mov             x3, x0
     // 0x717924: ldur            d0, [fp, #-0x20]
     // 0x717928: b               #0x717934
@@ -254,7 +254,7 @@ abstract class ReleaseAngleAnalyzer extends Object {
     // 0x71798c: b.le            #0x71799c
     // 0x717990: ldur            x2, [fp, #-0x10]
     // 0x717994: r0 = _landmarkToPixel()
-    //     0x717994: bl              #0x717800  ; [package:ballai/video_tracking/analysis/form/release_angle_analyzer.dart] ReleaseAngleAnalyzer::_landmarkToPixel
+    //     0x717994: bl              #0x717800  ; [package:kourtai/video_tracking/analysis/form/release_angle_analyzer.dart] ReleaseAngleAnalyzer::_landmarkToPixel
     // 0x717998: b               #0x7179a0
     // 0x71799c: ldur            x0, [fp, #-0x18]
     // 0x7179a0: LeaveFrame

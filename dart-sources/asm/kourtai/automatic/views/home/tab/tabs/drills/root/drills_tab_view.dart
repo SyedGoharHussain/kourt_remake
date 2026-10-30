@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/drills/root/drills_tab_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/drills/root/drills_tab_view.dart
 
 // class id: 1048870, size: 0x8
 class :: {

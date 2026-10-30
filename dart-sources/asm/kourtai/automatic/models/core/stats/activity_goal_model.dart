@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/stats/activity_goal_model.dart
+// lib: , url: package:kourtai/automatic/models/core/stats/activity_goal_model.dart
 
 // class id: 1048694, size: 0x8
 class :: {
@@ -260,7 +260,7 @@ class ActivityGoalModel extends Object {
     // 0x959404: mov             x1, x6
     // 0x959408: mov             x2, x0
     // 0x95940c: r0 = documentId()
-    //     0x95940c: bl              #0x931558  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::documentId
+    //     0x95940c: bl              #0x931558  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::documentId
     // 0x959410: stur            x0, [fp, #-0x38]
     // 0x959414: r0 = ActivityGoalModel()
     //     0x959414: bl              #0x93154c  ; AllocateActivityGoalModelStub -> ActivityGoalModel (size=0x44)
@@ -1500,7 +1500,7 @@ class ActivityGoalModel extends Object {
     //     0x95aaa0: b.ls            #0x95aab8
     // 0x95aaa4: ldr             x1, [fp, #0x10]
     // 0x95aaa8: r0 = fromFirestore()
-    //     0x95aaa8: bl              #0x959c98  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::fromFirestore
+    //     0x95aaa8: bl              #0x959c98  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::fromFirestore
     // 0x95aaac: LeaveFrame
     //     0x95aaac: mov             SP, fp
     //     0x95aab0: ldp             fp, lr, [SP], #0x10
@@ -1859,7 +1859,7 @@ class ActivityGoalModel extends Object {
     //     0xbb5bec: b.ls            #0xbb5c74
     // 0xbb5bf0: mov             x1, x0
     // 0xbb5bf4: r0 = combinedProgress()
-    //     0xbb5bf4: bl              #0xa6cc28  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgress
+    //     0xbb5bf4: bl              #0xa6cc28  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgress
     // 0xbb5bf8: mov             v1.16b, v0.16b
     // 0xbb5bfc: d0 = 0.000000
     //     0xbb5bfc: eor             v0.16b, v0.16b, v0.16b
@@ -1875,7 +1875,7 @@ class ActivityGoalModel extends Object {
     //     0xbb5c18: ret             
     // 0xbb5c1c: ldur            x1, [fp, #-8]
     // 0xbb5c20: r0 = combinedProgressPercentage()
-    //     0xbb5c20: bl              #0xbb5c7c  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgressPercentage
+    //     0xbb5c20: bl              #0xbb5c7c  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgressPercentage
     // 0xbb5c24: mov             x2, x0
     // 0xbb5c28: r0 = BoxInt64Instr(r2)
     //     0xbb5c28: sbfiz           x0, x2, #1, #0x1f
@@ -1920,7 +1920,7 @@ class ActivityGoalModel extends Object {
     //     0xbb5c88: cmp             SP, x16
     //     0xbb5c8c: b.ls            #0xbb5cd4
     // 0xbb5c90: r0 = combinedProgress()
-    //     0xbb5c90: bl              #0xa6cc28  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgress
+    //     0xbb5c90: bl              #0xa6cc28  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgress
     // 0xbb5c94: mov             v1.16b, v0.16b
     // 0xbb5c98: d0 = 100.000000
     //     0xbb5c98: ldr             d0, [PP, #0x5948]  ; [pp+0x5948] IMM: double(100) from 0x4059000000000000
@@ -2270,7 +2270,7 @@ class ActivityGoalModel extends Object {
     // 0xbddac4: r1 = 1
     //     0xbddac4: mov             x1, #1
     // 0xbddac8: r0 = _formatHours()
-    //     0xbddac8: bl              #0xbddb90  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::_formatHours
+    //     0xbddac8: bl              #0xbddb90  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::_formatHours
     // 0xbddacc: mov             x3, x0
     // 0xbddad0: ldur            x0, [fp, #-8]
     // 0xbddad4: stur            x3, [fp, #-0x10]
@@ -2316,7 +2316,7 @@ class ActivityGoalModel extends Object {
     // 0xbddb40: r1 = 2
     //     0xbddb40: mov             x1, #2
     // 0xbddb44: r0 = _formatHours()
-    //     0xbddb44: bl              #0xbddb90  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::_formatHours
+    //     0xbddb44: bl              #0xbddb90  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::_formatHours
     // 0xbddb48: r1 = Null
     //     0xbddb48: mov             x1, NULL
     // 0xbddb4c: r2 = 6

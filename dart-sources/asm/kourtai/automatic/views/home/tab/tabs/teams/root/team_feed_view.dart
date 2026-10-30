@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart
 
 // class id: 1048949, size: 0x8
 class :: {
@@ -107,7 +107,7 @@ class _FeedCardVisibilityTrackerState extends State<dynamic> {
     // 0x8fc240: ldur            x2, [fp, #-0x18]
     // 0x8fc244: stur            x0, [fp, #-8]
     // 0x8fc248: r1 = Function '<anonymous closure>':.
-    //     0x8fc248: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d990] AnonymousClosure: (0x8fc320), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _FeedCardVisibilityTrackerState::build (0xa6b50c)
+    //     0x8fc248: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d990] AnonymousClosure: (0x8fc320), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _FeedCardVisibilityTrackerState::build (0xa6b50c)
     //     0x8fc24c: ldr             x1, [x1, #0x990]
     // 0x8fc250: r0 = AllocateClosure()
     //     0x8fc250: bl              #0xe553e0  ; AllocateClosureStub
@@ -206,7 +206,7 @@ class _FeedCardVisibilityTrackerState extends State<dynamic> {
     //     0x8fc344: add             x0, x0, HEAP, lsl #32
     // 0x8fc348: mov             x1, x0
     // 0x8fc34c: r0 = _checkVisibility()
-    //     0x8fc34c: bl              #0x8fc368  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _FeedCardVisibilityTrackerState::_checkVisibility
+    //     0x8fc34c: bl              #0x8fc368  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _FeedCardVisibilityTrackerState::_checkVisibility
     // 0x8fc350: r0 = Null
     //     0x8fc350: mov             x0, NULL
     // 0x8fc354: LeaveFrame
@@ -417,7 +417,7 @@ class _FeedCardVisibilityTrackerState extends State<dynamic> {
     // 0x978e28: mov             x2, x1
     // 0x978e2c: stur            x0, [fp, #-8]
     // 0x978e30: r1 = Function '<anonymous closure>':.
-    //     0x978e30: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d9a8] AnonymousClosure: (0x8fc320), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _FeedCardVisibilityTrackerState::build (0xa6b50c)
+    //     0x978e30: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d9a8] AnonymousClosure: (0x8fc320), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _FeedCardVisibilityTrackerState::build (0xa6b50c)
     //     0x978e34: ldr             x1, [x1, #0x9a8]
     // 0x978e38: r0 = AllocateClosure()
     //     0x978e38: bl              #0xe553e0  ; AllocateClosureStub
@@ -532,7 +532,7 @@ class _FeedCardVisibilityTrackerState extends State<dynamic> {
     // 0xa6b560: mov             x2, x1
     // 0xa6b564: stur            x4, [fp, #-0x10]
     // 0xa6b568: r1 = Function '<anonymous closure>':.
-    //     0xa6b568: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d948] AnonymousClosure: (0x8fc320), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _FeedCardVisibilityTrackerState::build (0xa6b50c)
+    //     0xa6b568: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d948] AnonymousClosure: (0x8fc320), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _FeedCardVisibilityTrackerState::build (0xa6b50c)
     //     0xa6b56c: ldr             x1, [x1, #0x948]
     // 0xa6b570: r0 = AllocateClosure()
     //     0xa6b570: bl              #0xe553e0  ; AllocateClosureStub
@@ -746,7 +746,7 @@ class _TeamFeedViewState extends State<dynamic> {
     // 0x8fbf88: ldur            x2, [fp, #-0x18]
     // 0x8fbf8c: stur            x0, [fp, #-8]
     // 0x8fbf90: r1 = Function '<anonymous closure>':.
-    //     0x8fbf90: add             x1, PP, #0x43, lsl #12  ; [pp+0x43a60] AnonymousClosure: (0x8fc068), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::didUpdateWidget (0x8fbe8c)
+    //     0x8fbf90: add             x1, PP, #0x43, lsl #12  ; [pp+0x43a60] AnonymousClosure: (0x8fc068), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::didUpdateWidget (0x8fbe8c)
     //     0x8fbf94: ldr             x1, [x1, #0xa60]
     // 0x8fbf98: r0 = AllocateClosure()
     //     0x8fbf98: bl              #0xe553e0  ; AllocateClosureStub
@@ -845,7 +845,7 @@ class _TeamFeedViewState extends State<dynamic> {
     //     0x8fc08c: add             x0, x0, HEAP, lsl #32
     // 0x8fc090: mov             x1, x0
     // 0x8fc094: r0 = _recheckAllVisibility()
-    //     0x8fc094: bl              #0x8fc0b0  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_recheckAllVisibility
+    //     0x8fc094: bl              #0x8fc0b0  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_recheckAllVisibility
     // 0x8fc098: r0 = Null
     //     0x8fc098: mov             x0, NULL
     // 0x8fc09c: LeaveFrame
@@ -937,10 +937,10 @@ class _TeamFeedViewState extends State<dynamic> {
     // 0x975c5c: ldur            x2, [fp, #-8]
     // 0x975c60: stur            x0, [fp, #-8]
     // 0x975c64: r0 = TeamFeedViewModel()
-    //     0x975c64: bl              #0x97812c  ; [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::TeamFeedViewModel
+    //     0x975c64: bl              #0x97812c  ; [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::TeamFeedViewModel
     // 0x975c68: ldur            x2, [fp, #-0x10]
     // 0x975c6c: r1 = Function '_onVm@1219184137':.
-    //     0x975c6c: add             x1, PP, #0x43, lsl #12  ; [pp+0x439e0] AnonymousClosure: (0x978a04), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_onVm (0x978a3c)
+    //     0x975c6c: add             x1, PP, #0x43, lsl #12  ; [pp+0x439e0] AnonymousClosure: (0x978a04), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_onVm (0x978a3c)
     //     0x975c70: ldr             x1, [x1, #0x9e0]
     // 0x975c74: r0 = AllocateClosure()
     //     0x975c74: bl              #0xe553e0  ; AllocateClosureStub
@@ -968,8 +968,8 @@ class _TeamFeedViewState extends State<dynamic> {
     //     0x975cb8: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x975cbc: ldur            x1, [fp, #-8]
     // 0x975cc0: r0 = loadIfNeeded()
-    //     0x975cc0: bl              #0x975d64  ; [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::loadIfNeeded
-    // 0x975cc4: r0 = InitLateStaticField(0xe20) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
+    //     0x975cc0: bl              #0x975d64  ; [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::loadIfNeeded
+    // 0x975cc4: r0 = InitLateStaticField(0xe20) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
     //     0x975cc4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x975cc8: ldr             x0, [x0, #0x1c40]
     //     0x975ccc: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -980,7 +980,7 @@ class _TeamFeedViewState extends State<dynamic> {
     //     0x975ce0: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x975ce4: ldur            x2, [fp, #-0x10]
     // 0x975ce8: r1 = Function '_onHomeTabChanged@1219184137':.
-    //     0x975ce8: add             x1, PP, #0x43, lsl #12  ; [pp+0x439d8] AnonymousClosure: (0x978444), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_onHomeTabChanged (0x97847c)
+    //     0x975ce8: add             x1, PP, #0x43, lsl #12  ; [pp+0x439d8] AnonymousClosure: (0x978444), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_onHomeTabChanged (0x97847c)
     //     0x975cec: ldr             x1, [x1, #0x9d8]
     // 0x975cf0: stur            x0, [fp, #-8]
     // 0x975cf4: r0 = AllocateClosure()
@@ -990,7 +990,7 @@ class _TeamFeedViewState extends State<dynamic> {
     // 0x975d00: stur            x0, [fp, #-8]
     // 0x975d04: r0 = addListener()
     //     0x975d04: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
-    // 0x975d08: r0 = InitLateStaticField(0xe28) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::teamsCoverVisible
+    // 0x975d08: r0 = InitLateStaticField(0xe28) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::teamsCoverVisible
     //     0x975d08: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x975d0c: ldr             x0, [x0, #0x1c50]
     //     0x975d10: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1038,7 +1038,7 @@ class _TeamFeedViewState extends State<dynamic> {
     //     0x97845c: cmp             SP, x16
     //     0x978460: b.ls            #0x978474
     // 0x978464: r0 = _onHomeTabChanged()
-    //     0x978464: bl              #0x97847c  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_onHomeTabChanged
+    //     0x978464: bl              #0x97847c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_onHomeTabChanged
     // 0x978468: LeaveFrame
     //     0x978468: mov             SP, fp
     //     0x97846c: ldp             fp, lr, [SP], #0x10
@@ -1082,7 +1082,7 @@ class _TeamFeedViewState extends State<dynamic> {
     //     0x9784c4: ldp             fp, lr, [SP], #0x10
     // 0x9784c8: ret
     //     0x9784c8: ret             
-    // 0x9784cc: r0 = InitLateStaticField(0xe20) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
+    // 0x9784cc: r0 = InitLateStaticField(0xe20) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
     //     0x9784cc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x9784d0: ldr             x0, [x0, #0x1c40]
     //     0x9784d4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1095,12 +1095,12 @@ class _TeamFeedViewState extends State<dynamic> {
     //     0x9784ec: ldur            w1, [x0, #0x27]
     // 0x9784f0: DecompressPointer r1
     //     0x9784f0: add             x1, x1, HEAP, lsl #32
-    // 0x9784f4: r16 = Instance_BallAiPrimaryDestination
-    //     0x9784f4: add             x16, PP, #0x21, lsl #12  ; [pp+0x212b0] Obj!BallAiPrimaryDestination@d3bb21
+    // 0x9784f4: r16 = Instance_KourtAiPrimaryDestination
+    //     0x9784f4: add             x16, PP, #0x21, lsl #12  ; [pp+0x212b0] Obj!KourtAiPrimaryDestination@d3bb21
     //     0x9784f8: ldr             x16, [x16, #0x2b0]
     // 0x9784fc: cmp             w1, w16
     // 0x978500: b.eq            #0x978538
-    // 0x978504: r0 = InitLateStaticField(0xe28) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::teamsCoverVisible
+    // 0x978504: r0 = InitLateStaticField(0xe28) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::teamsCoverVisible
     //     0x978504: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x978508: ldr             x0, [x0, #0x1c50]
     //     0x97850c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1149,7 +1149,7 @@ class _TeamFeedViewState extends State<dynamic> {
     // 0x97857c: cbnz            x3, #0x978588
     // 0x978580: mov             x1, x0
     // 0x978584: r0 = _bootstrapFirstVideoPreview()
-    //     0x978584: bl              #0x9786e4  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_bootstrapFirstVideoPreview
+    //     0x978584: bl              #0x9786e4  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_bootstrapFirstVideoPreview
     // 0x978588: r1 = Function '<anonymous closure>':.
     //     0x978588: add             x1, PP, #0x43, lsl #12  ; [pp+0x43a28] Function: [dart:ui] _NativeScene::_NativeScene._ (0xe4f314)
     //     0x97858c: ldr             x1, [x1, #0xa28]
@@ -1208,7 +1208,7 @@ class _TeamFeedViewState extends State<dynamic> {
     //     0x97860c: ret             
     // 0x978610: ldur            x2, [fp, #-0x10]
     // 0x978614: r1 = Function '<anonymous closure>':.
-    //     0x978614: add             x1, PP, #0x43, lsl #12  ; [pp+0x43a30] AnonymousClosure: (0x978994), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_onHomeTabChanged (0x97847c)
+    //     0x978614: add             x1, PP, #0x43, lsl #12  ; [pp+0x43a30] AnonymousClosure: (0x978994), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_onHomeTabChanged (0x97847c)
     //     0x978618: ldr             x1, [x1, #0xa30]
     // 0x97861c: r0 = AllocateClosure()
     //     0x97861c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1536,7 +1536,7 @@ class _TeamFeedViewState extends State<dynamic> {
     //     0x978a1c: cmp             SP, x16
     //     0x978a20: b.ls            #0x978a34
     // 0x978a24: r0 = _onVm()
-    //     0x978a24: bl              #0x978a3c  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_onVm
+    //     0x978a24: bl              #0x978a3c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_onVm
     // 0x978a28: LeaveFrame
     //     0x978a28: mov             SP, fp
     //     0x978a2c: ldp             fp, lr, [SP], #0x10
@@ -1630,7 +1630,7 @@ class _TeamFeedViewState extends State<dynamic> {
     // 0x978b0c: mov             x2, x3
     // 0x978b10: stur            x4, [fp, #-0x10]
     // 0x978b14: r1 = Function '<anonymous closure>':.
-    //     0x978b14: add             x1, PP, #0x43, lsl #12  ; [pp+0x439f0] AnonymousClosure: (0x978d84), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_onVm (0x978a3c)
+    //     0x978b14: add             x1, PP, #0x43, lsl #12  ; [pp+0x439f0] AnonymousClosure: (0x978d84), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_onVm (0x978a3c)
     //     0x978b18: ldr             x1, [x1, #0x9f0]
     // 0x978b1c: r0 = AllocateClosure()
     //     0x978b1c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1646,7 +1646,7 @@ class _TeamFeedViewState extends State<dynamic> {
     // 0x978b38: ldur            x2, [fp, #-0x18]
     // 0x978b3c: stur            x3, [fp, #-0x10]
     // 0x978b40: r1 = Function '<anonymous closure>':.
-    //     0x978b40: add             x1, PP, #0x43, lsl #12  ; [pp+0x439f8] AnonymousClosure: (0x978d84), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_onVm (0x978a3c)
+    //     0x978b40: add             x1, PP, #0x43, lsl #12  ; [pp+0x439f8] AnonymousClosure: (0x978d84), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_onVm (0x978a3c)
     //     0x978b44: ldr             x1, [x1, #0x9f8]
     // 0x978b48: r0 = AllocateClosure()
     //     0x978b48: bl              #0xe553e0  ; AllocateClosureStub
@@ -1677,7 +1677,7 @@ class _TeamFeedViewState extends State<dynamic> {
     //     0x978b84: sbfx            x2, x3, #1, #0x1f
     // 0x978b88: sub             x3, x0, x2
     // 0x978b8c: cbnz            x3, #0x978c04
-    // 0x978b90: r0 = InitLateStaticField(0xe20) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
+    // 0x978b90: r0 = InitLateStaticField(0xe20) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
     //     0x978b90: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x978b94: ldr             x0, [x0, #0x1c40]
     //     0x978b98: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1690,12 +1690,12 @@ class _TeamFeedViewState extends State<dynamic> {
     //     0x978bb0: ldur            w1, [x0, #0x27]
     // 0x978bb4: DecompressPointer r1
     //     0x978bb4: add             x1, x1, HEAP, lsl #32
-    // 0x978bb8: r16 = Instance_BallAiPrimaryDestination
-    //     0x978bb8: add             x16, PP, #0x21, lsl #12  ; [pp+0x212b0] Obj!BallAiPrimaryDestination@d3bb21
+    // 0x978bb8: r16 = Instance_KourtAiPrimaryDestination
+    //     0x978bb8: add             x16, PP, #0x21, lsl #12  ; [pp+0x212b0] Obj!KourtAiPrimaryDestination@d3bb21
     //     0x978bbc: ldr             x16, [x16, #0x2b0]
     // 0x978bc0: cmp             w1, w16
     // 0x978bc4: b.eq            #0x978bfc
-    // 0x978bc8: r0 = InitLateStaticField(0xe28) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::teamsCoverVisible
+    // 0x978bc8: r0 = InitLateStaticField(0xe28) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::teamsCoverVisible
     //     0x978bc8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x978bcc: ldr             x0, [x0, #0x1c50]
     //     0x978bd0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1714,7 +1714,7 @@ class _TeamFeedViewState extends State<dynamic> {
     // 0x978bf8: b.ne            #0x978c04
     // 0x978bfc: ldur            x1, [fp, #-8]
     // 0x978c00: r0 = _bootstrapFirstVideoPreview()
-    //     0x978c00: bl              #0x9786e4  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_bootstrapFirstVideoPreview
+    //     0x978c00: bl              #0x9786e4  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_bootstrapFirstVideoPreview
     // 0x978c04: r1 = Function '<anonymous closure>':.
     //     0x978c04: add             x1, PP, #0x43, lsl #12  ; [pp+0x43a00] Function: [dart:ui] _NativeScene::_NativeScene._ (0xe4f314)
     //     0x978c08: ldr             x1, [x1, #0xa00]
@@ -1743,7 +1743,7 @@ class _TeamFeedViewState extends State<dynamic> {
     // 0x978c44: ldur            x2, [fp, #-0x18]
     // 0x978c48: stur            x0, [fp, #-8]
     // 0x978c4c: r1 = Function '<anonymous closure>':.
-    //     0x978c4c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43a08] AnonymousClosure: (0x978d2c), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_onVm (0x978a3c)
+    //     0x978c4c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43a08] AnonymousClosure: (0x978d2c), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_onVm (0x978a3c)
     //     0x978c50: ldr             x1, [x1, #0xa08]
     // 0x978c54: r0 = AllocateClosure()
     //     0x978c54: bl              #0xe553e0  ; AllocateClosureStub
@@ -1851,7 +1851,7 @@ class _TeamFeedViewState extends State<dynamic> {
     // 0x978d60: b.eq            #0x978d6c
     // 0x978d64: mov             x1, x0
     // 0x978d68: r0 = _recheckAllVisibility()
-    //     0x978d68: bl              #0x8fc0b0  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_recheckAllVisibility
+    //     0x978d68: bl              #0x8fc0b0  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_recheckAllVisibility
     // 0x978d6c: r0 = Null
     //     0x978d6c: mov             x0, NULL
     // 0x978d70: LeaveFrame
@@ -1998,7 +1998,7 @@ class _TeamFeedViewState extends State<dynamic> {
     //     0xa6a5c4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43890] "Couldn’t load team feed"
     //     0xa6a5c8: ldr             x1, [x1, #0x890]
     // 0xa6a5cc: r0 = L()
-    //     0xa6a5cc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa6a5cc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa6a5d0: stur            x0, [fp, #-0x28]
     // 0xa6a5d4: r0 = TextStyle()
     //     0xa6a5d4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2087,7 +2087,7 @@ class _TeamFeedViewState extends State<dynamic> {
     //     0xa6a6ac: add             x1, PP, #0x16, lsl #12  ; [pp+0x16aa0] "Try again"
     //     0xa6a6b0: ldr             x1, [x1, #0xaa0]
     // 0xa6a6b4: r0 = L()
-    //     0xa6a6b4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa6a6b4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa6a6b8: stur            x0, [fp, #-0x40]
     // 0xa6a6bc: r0 = Text()
     //     0xa6a6bc: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2098,7 +2098,7 @@ class _TeamFeedViewState extends State<dynamic> {
     //     0xa6a6cc: stur            w0, [x3, #0xb]
     // 0xa6a6d0: ldur            x2, [fp, #-0x10]
     // 0xa6a6d4: r1 = Function '<anonymous closure>':.
-    //     0xa6a6d4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43898] AnonymousClosure: (0xa6b4ac), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::build (0xa6a4d0)
+    //     0xa6a6d4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43898] AnonymousClosure: (0xa6b4ac), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::build (0xa6a4d0)
     //     0xa6a6d8: ldr             x1, [x1, #0x898]
     // 0xa6a6dc: r0 = AllocateClosure()
     //     0xa6a6dc: bl              #0xe553e0  ; AllocateClosureStub
@@ -2422,7 +2422,7 @@ class _TeamFeedViewState extends State<dynamic> {
     //     0xa6aa04: add             x1, x1, HEAP, lsl #32
     // 0xa6aa08: stur            x1, [fp, #-0x28]
     // 0xa6aa0c: r0 = teamsTabActive()
-    //     0xa6aa0c: bl              #0x978650  ; [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::teamsTabActive
+    //     0xa6aa0c: bl              #0x978650  ; [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::teamsTabActive
     // 0xa6aa10: tbnz            w0, #4, #0xa6aab0
     // 0xa6aa14: ldur            x4, [fp, #-8]
     // 0xa6aa18: ldur            x3, [fp, #-0x10]
@@ -2492,7 +2492,7 @@ class _TeamFeedViewState extends State<dynamic> {
     // 0xa6aabc: ldur            x2, [fp, #-0x28]
     // 0xa6aac0: stur            x3, [fp, #-0x38]
     // 0xa6aac4: r0 = teamsTabActive()
-    //     0xa6aac4: bl              #0x978650  ; [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::teamsTabActive
+    //     0xa6aac4: bl              #0x978650  ; [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::teamsTabActive
     // 0xa6aac8: stur            x0, [fp, #-0x40]
     // 0xa6aacc: r0 = TeamFeedCardView()
     //     0xa6aacc: bl              #0xa6aeec  ; AllocateTeamFeedCardViewStub -> TeamFeedCardView (size=0x1c)
@@ -2509,7 +2509,7 @@ class _TeamFeedViewState extends State<dynamic> {
     //     0xa6aaec: stur            w0, [x3, #0x17]
     // 0xa6aaf0: ldur            x2, [fp, #-0x10]
     // 0xa6aaf4: r1 = Function '<anonymous closure>':.
-    //     0xa6aaf4: add             x1, PP, #0x43, lsl #12  ; [pp+0x438a8] AnonymousClosure: (0xa6b070), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::build (0xa6a4d0)
+    //     0xa6aaf4: add             x1, PP, #0x43, lsl #12  ; [pp+0x438a8] AnonymousClosure: (0xa6b070), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::build (0xa6a4d0)
     //     0xa6aaf8: ldr             x1, [x1, #0x8a8]
     // 0xa6aafc: r0 = AllocateClosure()
     //     0xa6aafc: bl              #0xe553e0  ; AllocateClosureStub
@@ -2612,7 +2612,7 @@ class _TeamFeedViewState extends State<dynamic> {
     // 0xa6ac20: mov             x1, x4
     // 0xa6ac24: stur            x2, [fp, #-0x20]
     // 0xa6ac28: r0 = canLoadMore()
-    //     0xa6ac28: bl              #0xa6ae4c  ; [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::canLoadMore
+    //     0xa6ac28: bl              #0xa6ae4c  ; [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::canLoadMore
     // 0xa6ac2c: tbnz            w0, #4, #0xa6ad5c
     // 0xa6ac30: ldur            x0, [fp, #-8]
     // 0xa6ac34: LoadField: r1 = r0->field_13
@@ -2632,7 +2632,7 @@ class _TeamFeedViewState extends State<dynamic> {
     //     0xa6ac54: add             x1, PP, #0x43, lsl #12  ; [pp+0x438b0] "Load more"
     //     0xa6ac58: ldr             x1, [x1, #0x8b0]
     // 0xa6ac5c: r0 = L()
-    //     0xa6ac5c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa6ac5c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa6ac60: stur            x0, [fp, #-8]
     // 0xa6ac64: r0 = Text()
     //     0xa6ac64: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2643,7 +2643,7 @@ class _TeamFeedViewState extends State<dynamic> {
     //     0xa6ac74: stur            w0, [x3, #0xb]
     // 0xa6ac78: ldur            x2, [fp, #-0x20]
     // 0xa6ac7c: r1 = Function '<anonymous closure>':.
-    //     0xa6ac7c: add             x1, PP, #0x43, lsl #12  ; [pp+0x438b8] AnonymousClosure: (0xa6aef8), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::build (0xa6a4d0)
+    //     0xa6ac7c: add             x1, PP, #0x43, lsl #12  ; [pp+0x438b8] AnonymousClosure: (0xa6aef8), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::build (0xa6a4d0)
     //     0xa6ac80: ldr             x1, [x1, #0x8b8]
     // 0xa6ac84: r0 = AllocateClosure()
     //     0xa6ac84: bl              #0xe553e0  ; AllocateClosureStub
@@ -2849,7 +2849,7 @@ class _TeamFeedViewState extends State<dynamic> {
     // 0xa6af2c: cmp             w1, w16
     // 0xa6af30: b.eq            #0xa6af4c
     // 0xa6af34: r0 = loadMore()
-    //     0xa6af34: bl              #0xa6af58  ; [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::loadMore
+    //     0xa6af34: bl              #0xa6af58  ; [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::loadMore
     // 0xa6af38: LeaveFrame
     //     0xa6af38: mov             SP, fp
     //     0xa6af3c: ldp             fp, lr, [SP], #0x10
@@ -2936,13 +2936,13 @@ class _TeamFeedViewState extends State<dynamic> {
     // 0xa6b114: mov             x1, x2
     // 0xa6b118: mov             x2, x16
     // 0xa6b11c: r0 = _markPreviewVisible()
-    //     0xa6b11c: bl              #0xa6b3ac  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_markPreviewVisible
+    //     0xa6b11c: bl              #0xa6b3ac  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_markPreviewVisible
     // 0xa6b120: b               #0xa6b134
     // 0xa6b124: mov             x16, x1
     // 0xa6b128: mov             x1, x2
     // 0xa6b12c: mov             x2, x16
     // 0xa6b130: r0 = _markPreviewHidden()
-    //     0xa6b130: bl              #0xa6b15c  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_markPreviewHidden
+    //     0xa6b130: bl              #0xa6b15c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_markPreviewHidden
     // 0xa6b134: r0 = Null
     //     0xa6b134: mov             x0, NULL
     // 0xa6b138: LeaveFrame
@@ -2994,7 +2994,7 @@ class _TeamFeedViewState extends State<dynamic> {
     //     0xa6b1a4: bl              #0xdb63d0  ; [dart:_compact_hash] __Set&_HashVMBase&SetMixin&_HashBase&_OperatorEqualsAndHashCode&_LinkedHashSetMixin::remove
     // 0xa6b1a8: ldur            x1, [fp, #-8]
     // 0xa6b1ac: r0 = _scheduleActivePreviewUpdate()
-    //     0xa6b1ac: bl              #0xa6b1c8  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_scheduleActivePreviewUpdate
+    //     0xa6b1ac: bl              #0xa6b1c8  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_scheduleActivePreviewUpdate
     // 0xa6b1b0: r0 = Null
     //     0xa6b1b0: mov             x0, NULL
     // 0xa6b1b4: LeaveFrame
@@ -3039,7 +3039,7 @@ class _TeamFeedViewState extends State<dynamic> {
     // 0xa6b210: ldur            x0, [fp, #-8]
     // 0xa6b214: ldur            x2, [fp, #-0x10]
     // 0xa6b218: r1 = Function '<anonymous closure>':.
-    //     0xa6b218: add             x1, PP, #0x43, lsl #12  ; [pp+0x43990] AnonymousClosure: (0xa6b270), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_scheduleActivePreviewUpdate (0xa6b1c8)
+    //     0xa6b218: add             x1, PP, #0x43, lsl #12  ; [pp+0x43990] AnonymousClosure: (0xa6b270), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_scheduleActivePreviewUpdate (0xa6b1c8)
     //     0xa6b21c: ldr             x1, [x1, #0x990]
     // 0xa6b220: r0 = AllocateClosure()
     //     0xa6b220: bl              #0xe553e0  ; AllocateClosureStub
@@ -3105,7 +3105,7 @@ class _TeamFeedViewState extends State<dynamic> {
     // 0xa6b2bc: ret
     //     0xa6b2bc: ret             
     // 0xa6b2c0: r1 = Function '<anonymous closure>':.
-    //     0xa6b2c0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43998] AnonymousClosure: (0xa6b2f0), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_scheduleActivePreviewUpdate (0xa6b1c8)
+    //     0xa6b2c0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43998] AnonymousClosure: (0xa6b2f0), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_scheduleActivePreviewUpdate (0xa6b1c8)
     //     0xa6b2c4: ldr             x1, [x1, #0x998]
     // 0xa6b2c8: r0 = AllocateClosure()
     //     0xa6b2c8: bl              #0xe553e0  ; AllocateClosureStub
@@ -3214,7 +3214,7 @@ class _TeamFeedViewState extends State<dynamic> {
     //     0xa6b3c4: cmp             SP, x16
     //     0xa6b3c8: b.ls            #0xa6b4a4
     // 0xa6b3cc: r0 = teamsTabActive()
-    //     0xa6b3cc: bl              #0x978650  ; [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::teamsTabActive
+    //     0xa6b3cc: bl              #0x978650  ; [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::teamsTabActive
     // 0xa6b3d0: tbz             w0, #4, #0xa6b3e4
     // 0xa6b3d4: r0 = Null
     //     0xa6b3d4: mov             x0, NULL
@@ -3284,7 +3284,7 @@ class _TeamFeedViewState extends State<dynamic> {
     //     0xa6b488: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xa6b48c: ldur            x1, [fp, #-8]
     // 0xa6b490: r0 = _scheduleActivePreviewUpdate()
-    //     0xa6b490: bl              #0xa6b1c8  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_scheduleActivePreviewUpdate
+    //     0xa6b490: bl              #0xa6b1c8  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_scheduleActivePreviewUpdate
     // 0xa6b494: r0 = Null
     //     0xa6b494: mov             x0, NULL
     // 0xa6b498: LeaveFrame
@@ -3323,7 +3323,7 @@ class _TeamFeedViewState extends State<dynamic> {
     // 0xa6b4e0: cmp             w1, w16
     // 0xa6b4e4: b.eq            #0xa6b500
     // 0xa6b4e8: r0 = loadFirstPage()
-    //     0xa6b4e8: bl              #0x975dc4  ; [package:ballai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::loadFirstPage
+    //     0xa6b4e8: bl              #0x975dc4  ; [package:kourtai/automatic/viewmodels/home/teams/team_feed_view_model.dart] TeamFeedViewModel::loadFirstPage
     // 0xa6b4ec: LeaveFrame
     //     0xa6b4ec: mov             SP, fp
     //     0xa6b4f0: ldp             fp, lr, [SP], #0x10
@@ -3345,7 +3345,7 @@ class _TeamFeedViewState extends State<dynamic> {
     //     0xb5b9a8: mov             fp, SP
     // 0xb5b9ac: ldr             x2, [fp, #0x10]
     // 0xb5b9b0: r1 = Function 'dispose':.
-    //     0xb5b9b0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43880] AnonymousClosure: (0xb5b9c8), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::dispose (0xb62b50)
+    //     0xb5b9b0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43880] AnonymousClosure: (0xb5b9c8), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::dispose (0xb62b50)
     //     0xb5b9b4: ldr             x1, [x1, #0x880]
     // 0xb5b9b8: r0 = AllocateClosure()
     //     0xb5b9b8: bl              #0xe553e0  ; AllocateClosureStub
@@ -3370,7 +3370,7 @@ class _TeamFeedViewState extends State<dynamic> {
     //     0xb5b9e0: cmp             SP, x16
     //     0xb5b9e4: b.ls            #0xb5b9f8
     // 0xb5b9e8: r0 = dispose()
-    //     0xb5b9e8: bl              #0xb62b50  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::dispose
+    //     0xb5b9e8: bl              #0xb62b50  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::dispose
     // 0xb5b9ec: LeaveFrame
     //     0xb5b9ec: mov             SP, fp
     //     0xb5b9f0: ldp             fp, lr, [SP], #0x10
@@ -3403,7 +3403,7 @@ class _TeamFeedViewState extends State<dynamic> {
     // 0xb62b80: r0 = cancel()
     //     0xb62b80: bl              #0x5ce814  ; [dart:isolate] _Timer::cancel
     // 0xb62b84: ldur            x2, [fp, #-8]
-    // 0xb62b88: r0 = InitLateStaticField(0xe20) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
+    // 0xb62b88: r0 = InitLateStaticField(0xe20) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
     //     0xb62b88: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb62b8c: ldr             x0, [x0, #0x1c40]
     //     0xb62b90: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3414,7 +3414,7 @@ class _TeamFeedViewState extends State<dynamic> {
     //     0xb62ba4: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0xb62ba8: ldur            x2, [fp, #-8]
     // 0xb62bac: r1 = Function '_onHomeTabChanged@1219184137':.
-    //     0xb62bac: add             x1, PP, #0x43, lsl #12  ; [pp+0x439d8] AnonymousClosure: (0x978444), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_onHomeTabChanged (0x97847c)
+    //     0xb62bac: add             x1, PP, #0x43, lsl #12  ; [pp+0x439d8] AnonymousClosure: (0x978444), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_onHomeTabChanged (0x97847c)
     //     0xb62bb0: ldr             x1, [x1, #0x9d8]
     // 0xb62bb4: stur            x0, [fp, #-0x10]
     // 0xb62bb8: r0 = AllocateClosure()
@@ -3424,7 +3424,7 @@ class _TeamFeedViewState extends State<dynamic> {
     // 0xb62bc4: stur            x0, [fp, #-0x10]
     // 0xb62bc8: r0 = removeListener()
     //     0xb62bc8: bl              #0x8d74f0  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::removeListener
-    // 0xb62bcc: r0 = InitLateStaticField(0xe28) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::teamsCoverVisible
+    // 0xb62bcc: r0 = InitLateStaticField(0xe28) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::teamsCoverVisible
     //     0xb62bcc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb62bd0: ldr             x0, [x0, #0x1c50]
     //     0xb62bd4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3449,7 +3449,7 @@ class _TeamFeedViewState extends State<dynamic> {
     // 0xb62c10: mov             x2, x0
     // 0xb62c14: stur            x3, [fp, #-0x10]
     // 0xb62c18: r1 = Function '_onVm@1219184137':.
-    //     0xb62c18: add             x1, PP, #0x43, lsl #12  ; [pp+0x439e0] AnonymousClosure: (0x978a04), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_onVm (0x978a3c)
+    //     0xb62c18: add             x1, PP, #0x43, lsl #12  ; [pp+0x439e0] AnonymousClosure: (0x978a04), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_onVm (0x978a3c)
     //     0xb62c1c: ldr             x1, [x1, #0x9e0]
     // 0xb62c20: r0 = AllocateClosure()
     //     0xb62c20: bl              #0xe553e0  ; AllocateClosureStub
@@ -3615,7 +3615,7 @@ class TeamFeedView extends StatefulWidget {
     // 0xb74320: mov             x1, x0
     // 0xb74324: stur            x0, [fp, #-8]
     // 0xb74328: r0 = _TeamFeedViewState()
-    //     0xb74328: bl              #0xb74344  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_TeamFeedViewState
+    //     0xb74328: bl              #0xb74344  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_view.dart] _TeamFeedViewState::_TeamFeedViewState
     // 0xb7432c: ldur            x0, [fp, #-8]
     // 0xb74330: LeaveFrame
     //     0xb74330: mov             SP, fp

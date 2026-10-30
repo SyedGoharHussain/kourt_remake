@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/misc/beta_welcome_overlay.dart
+// lib: , url: package:kourtai/automatic/views/misc/beta_welcome_overlay.dart
 
 // class id: 1049048, size: 0x8
 class :: {
@@ -23,8 +23,8 @@ class _OverlayActionButton extends StatelessWidget {
     //     0xc22a9c: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xc22aa0: cmp             SP, x16
     //     0xc22aa4: b.ls            #0xc22ddc
-    // 0xc22aa8: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc22aa8: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc22aa8: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc22aa8: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc22aac: mov             x3, x0
     // 0xc22ab0: ldur            x2, [fp, #-8]
     // 0xc22ab4: stur            x3, [fp, #-0x10]
@@ -356,7 +356,7 @@ class BetaWelcomeOverlay extends StatelessWidget {
     //     0xbd87a8: cmp             SP, x16
     //     0xbd87ac: b.ls            #0xbd8804
     // 0xbd87b0: r1 = Function '<anonymous closure>': static.
-    //     0xbd87b0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49fc8] AnonymousClosure: static (0xbd880c), in [package:ballai/automatic/views/misc/beta_welcome_overlay.dart] BetaWelcomeOverlay::show (0xbd8790)
+    //     0xbd87b0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49fc8] AnonymousClosure: static (0xbd880c), in [package:kourtai/automatic/views/misc/beta_welcome_overlay.dart] BetaWelcomeOverlay::show (0xbd8790)
     //     0xbd87b4: ldr             x1, [x1, #0xfc8]
     // 0xbd87b8: r2 = Null
     //     0xbd87b8: mov             x2, NULL
@@ -416,7 +416,7 @@ class BetaWelcomeOverlay extends StatelessWidget {
     //     0xbd8840: stur            w0, [x1, #0xf]
     // 0xbd8844: mov             x2, x1
     // 0xbd8848: r1 = Function '<anonymous closure>': static.
-    //     0xbd8848: add             x1, PP, #0x49, lsl #12  ; [pp+0x49fd0] AnonymousClosure: (0xa2c5e0), in [package:ballai/automatic/views/home/tab/tabs/teams/root/teams_view.dart] _TeamsViewState::_showJoinError (0xa2c7a4)
+    //     0xbd8848: add             x1, PP, #0x49, lsl #12  ; [pp+0x49fd0] AnonymousClosure: (0xa2c5e0), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/teams_view.dart] _TeamsViewState::_showJoinError (0xa2c7a4)
     //     0xbd884c: ldr             x1, [x1, #0xfd0]
     // 0xbd8850: r0 = AllocateClosure()
     //     0xbd8850: bl              #0xe553e0  ; AllocateClosureStub
@@ -460,8 +460,8 @@ class BetaWelcomeOverlay extends StatelessWidget {
     // 0xc218c8: ldur            x1, [fp, #-0x10]
     // 0xc218cc: StoreField: r2->field_13 = r1
     //     0xc218cc: stur            w1, [x2, #0x13]
-    // 0xc218d0: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc218d0: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc218d0: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc218d0: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc218d4: ldur            x2, [fp, #-0x18]
     // 0xc218d8: stur            x0, [fp, #-8]
     // 0xc218dc: LoadField: r1 = r2->field_13
@@ -532,8 +532,8 @@ class BetaWelcomeOverlay extends StatelessWidget {
     //     0xc21978: ldur            w1, [x2, #0x13]
     // 0xc2197c: DecompressPointer r1
     //     0xc2197c: add             x1, x1, HEAP, lsl #32
-    // 0xc21980: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xc21980: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xc21980: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xc21980: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xc21984: stur            x0, [fp, #-0x30]
     // 0xc21988: r0 = Radius()
     //     0xc21988: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -933,7 +933,7 @@ class BetaWelcomeOverlay extends StatelessWidget {
     //     0xc21dd4: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e858] "BETA"
     //     0xc21dd8: ldr             x1, [x1, #0x858]
     // 0xc21ddc: r0 = L()
-    //     0xc21ddc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc21ddc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc21de0: stur            x0, [fp, #-0x30]
     // 0xc21de4: r0 = TextStyle()
     //     0xc21de4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1017,15 +1017,15 @@ class BetaWelcomeOverlay extends StatelessWidget {
     //     0xc21eb4: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e868] "You\'re in the beta"
     //     0xc21eb8: ldr             x1, [x1, #0x868]
     // 0xc21ebc: r0 = L()
-    //     0xc21ebc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc21ebc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc21ec0: ldur            x2, [fp, #-0x18]
     // 0xc21ec4: stur            x0, [fp, #-0x50]
     // 0xc21ec8: LoadField: r1 = r2->field_13
     //     0xc21ec8: ldur            w1, [x2, #0x13]
     // 0xc21ecc: DecompressPointer r1
     //     0xc21ecc: add             x1, x1, HEAP, lsl #32
-    // 0xc21ed0: r0 = BallAiThemeContext.ballAiScreenTitleStyle()
-    //     0xc21ed0: bl              #0x9efba4  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiScreenTitleStyle
+    // 0xc21ed0: r0 = KourtAiThemeContext.kourtAiScreenTitleStyle()
+    //     0xc21ed0: bl              #0x9efba4  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiScreenTitleStyle
     // 0xc21ed4: r16 = 22.000000
     //     0xc21ed4: add             x16, PP, #0x26, lsl #12  ; [pp+0x26758] 22
     //     0xc21ed8: ldr             x16, [x16, #0x758]
@@ -1146,19 +1146,19 @@ class BetaWelcomeOverlay extends StatelessWidget {
     //     0xc22004: ldr             x4, [x4, #0x5d8]
     // 0xc22008: r0 = Container()
     //     0xc22008: bl              #0x5eeec4  ; [package:flutter/src/widgets/container.dart] Container::Container
-    // 0xc2200c: r1 = "Ball AI is still early — things may break or feel slow while we polish."
-    //     0xc2200c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e878] "Ball AI is still early — things may break or feel slow while we polish."
+    // 0xc2200c: r1 = "Kourt AI is still early — things may break or feel slow while we polish."
+    //     0xc2200c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e878] "Kourt AI is still early — things may break or feel slow while we polish."
     //     0xc22010: ldr             x1, [x1, #0x878]
     // 0xc22014: r0 = L()
-    //     0xc22014: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc22014: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc22018: ldur            x2, [fp, #-0x18]
     // 0xc2201c: stur            x0, [fp, #-0x10]
     // 0xc22020: LoadField: r1 = r2->field_13
     //     0xc22020: ldur            w1, [x2, #0x13]
     // 0xc22024: DecompressPointer r1
     //     0xc22024: add             x1, x1, HEAP, lsl #32
-    // 0xc22028: r0 = BallAiThemeContext.ballAiScreenSubtitleStyle()
-    //     0xc22028: bl              #0x9eda00  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiScreenSubtitleStyle
+    // 0xc22028: r0 = KourtAiThemeContext.kourtAiScreenSubtitleStyle()
+    //     0xc22028: bl              #0x9eda00  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiScreenSubtitleStyle
     // 0xc2202c: r16 = 15.000000
     //     0xc2202c: add             x16, PP, #0x26, lsl #12  ; [pp+0x266e8] 15
     //     0xc22030: ldr             x16, [x16, #0x6e8]
@@ -1217,15 +1217,15 @@ class BetaWelcomeOverlay extends StatelessWidget {
     //     0xc220c4: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e880] "As a gift, we would like to invite you to our private and exclusive WhatsApp group."
     //     0xc220c8: ldr             x1, [x1, #0x880]
     // 0xc220cc: r0 = L()
-    //     0xc220cc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc220cc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc220d0: ldur            x2, [fp, #-0x18]
     // 0xc220d4: stur            x0, [fp, #-0x30]
     // 0xc220d8: LoadField: r1 = r2->field_13
     //     0xc220d8: ldur            w1, [x2, #0x13]
     // 0xc220dc: DecompressPointer r1
     //     0xc220dc: add             x1, x1, HEAP, lsl #32
-    // 0xc220e0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc220e0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc220e0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc220e0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc220e4: stur            x0, [fp, #-0x40]
     // 0xc220e8: r0 = TextStyle()
     //     0xc220e8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1302,7 +1302,7 @@ class BetaWelcomeOverlay extends StatelessWidget {
     //     0xc221b4: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e888] "Report a bug"
     //     0xc221b8: ldr             x1, [x1, #0x888]
     // 0xc221bc: r0 = L()
-    //     0xc221bc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc221bc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc221c0: stur            x0, [fp, #-0x30]
     // 0xc221c4: r0 = _OverlayActionButton()
     //     0xc221c4: bl              #0xc226b4  ; Allocate_OverlayActionButtonStub -> _OverlayActionButton (size=0x1c)
@@ -1318,7 +1318,7 @@ class BetaWelcomeOverlay extends StatelessWidget {
     //     0xc221e0: stur            w0, [x3, #0xf]
     // 0xc221e4: ldur            x2, [fp, #-0x18]
     // 0xc221e8: r1 = Function '<anonymous closure>':.
-    //     0xc221e8: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e898] AnonymousClosure: (0xc228cc), in [package:ballai/automatic/views/misc/beta_welcome_overlay.dart] BetaWelcomeOverlay::build (0xc21888)
+    //     0xc221e8: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e898] AnonymousClosure: (0xc228cc), in [package:kourtai/automatic/views/misc/beta_welcome_overlay.dart] BetaWelcomeOverlay::build (0xc21888)
     //     0xc221ec: ldr             x1, [x1, #0x898]
     // 0xc221f0: r0 = AllocateClosure()
     //     0xc221f0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1358,7 +1358,7 @@ class BetaWelcomeOverlay extends StatelessWidget {
     //     0xc2225c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e8a0] "Join WhatsApp Group"
     //     0xc22260: ldr             x1, [x1, #0x8a0]
     // 0xc22264: r0 = L()
-    //     0xc22264: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc22264: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc22268: stur            x0, [fp, #-0x30]
     // 0xc2226c: r0 = Image()
     //     0xc2226c: bl              #0x9d20b4  ; AllocateImageStub -> Image (size=0x58)
@@ -1396,7 +1396,7 @@ class BetaWelcomeOverlay extends StatelessWidget {
     //     0xc222c4: stur            w0, [x3, #0xf]
     // 0xc222c8: ldur            x2, [fp, #-0x18]
     // 0xc222cc: r1 = Function '<anonymous closure>':.
-    //     0xc222cc: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e8b8] AnonymousClosure: (0xc22728), in [package:ballai/automatic/views/misc/beta_welcome_overlay.dart] BetaWelcomeOverlay::build (0xc21888)
+    //     0xc222cc: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e8b8] AnonymousClosure: (0xc22728), in [package:kourtai/automatic/views/misc/beta_welcome_overlay.dart] BetaWelcomeOverlay::build (0xc21888)
     //     0xc222d0: ldr             x1, [x1, #0x8b8]
     // 0xc222d4: r0 = AllocateClosure()
     //     0xc222d4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1441,7 +1441,7 @@ class BetaWelcomeOverlay extends StatelessWidget {
     //     0xc22350: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e8c0] "Okay"
     //     0xc22354: ldr             x1, [x1, #0x8c0]
     // 0xc22358: r0 = L()
-    //     0xc22358: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc22358: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc2235c: stur            x0, [fp, #-0x30]
     // 0xc22360: r0 = _OverlayActionButton()
     //     0xc22360: bl              #0xc226b4  ; Allocate_OverlayActionButtonStub -> _OverlayActionButton (size=0x1c)
@@ -1457,7 +1457,7 @@ class BetaWelcomeOverlay extends StatelessWidget {
     //     0xc2237c: stur            w0, [x3, #0xf]
     // 0xc22380: ldur            x2, [fp, #-0x18]
     // 0xc22384: r1 = Function '<anonymous closure>':.
-    //     0xc22384: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e8d0] AnonymousClosure: (0xc226c0), in [package:ballai/automatic/views/misc/beta_welcome_overlay.dart] BetaWelcomeOverlay::build (0xc21888)
+    //     0xc22384: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e8d0] AnonymousClosure: (0xc226c0), in [package:kourtai/automatic/views/misc/beta_welcome_overlay.dart] BetaWelcomeOverlay::build (0xc21888)
     //     0xc22388: ldr             x1, [x1, #0x8d0]
     // 0xc2238c: r0 = AllocateClosure()
     //     0xc2238c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1843,7 +1843,7 @@ class BetaWelcomeOverlay extends StatelessWidget {
     // 0xc22764: DecompressPointer r2
     //     0xc22764: add             x2, x2, HEAP, lsl #32
     // 0xc22768: r0 = _openWhatsAppGroup()
-    //     0xc22768: bl              #0xc22784  ; [package:ballai/automatic/views/misc/beta_welcome_overlay.dart] BetaWelcomeOverlay::_openWhatsAppGroup
+    //     0xc22768: bl              #0xc22784  ; [package:kourtai/automatic/views/misc/beta_welcome_overlay.dart] BetaWelcomeOverlay::_openWhatsAppGroup
     // 0xc2276c: r0 = Null
     //     0xc2276c: mov             x0, NULL
     // 0xc22770: LeaveFrame
@@ -1876,7 +1876,7 @@ class BetaWelcomeOverlay extends StatelessWidget {
     // 0xc227b4: InitAsync() -> Future<void?>
     //     0xc227b4: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0xc227b8: bl              #0x60afc8  ; InitAsyncStub
-    // 0xc227bc: r0 = InitLateStaticField(0xf24) // [package:ballai/automatic/views/misc/beta_welcome_overlay.dart] BetaWelcomeOverlay::_whatsAppGroupInviteUri
+    // 0xc227bc: r0 = InitLateStaticField(0xf24) // [package:kourtai/automatic/views/misc/beta_welcome_overlay.dart] BetaWelcomeOverlay::_whatsAppGroupInviteUri
     //     0xc227bc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xc227c0: ldr             x0, [x0, #0x1e48]
     //     0xc227c4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1917,7 +1917,7 @@ class BetaWelcomeOverlay extends StatelessWidget {
     //     0xc2282c: ldr             x1, [x1, #0x8e8]
     // 0xc22830: stur            x0, [fp, #-0x10]
     // 0xc22834: r0 = L()
-    //     0xc22834: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc22834: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc22838: stur            x0, [fp, #-0x18]
     // 0xc2283c: r0 = Text()
     //     0xc2283c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2003,7 +2003,7 @@ class BetaWelcomeOverlay extends StatelessWidget {
     // 0xc22900: DecompressPointer r1
     //     0xc22900: add             x1, x1, HEAP, lsl #32
     // 0xc22904: r0 = openBetaFeedbackEmailOrSnackBar()
-    //     0xc22904: bl              #0xc22920  ; [package:ballai/automatic/utility/feedback/ball_ai_beta_feedback.dart] ::openBetaFeedbackEmailOrSnackBar
+    //     0xc22904: bl              #0xc22920  ; [package:kourtai/automatic/utility/feedback/kourt_ai_beta_feedback.dart] ::openBetaFeedbackEmailOrSnackBar
     // 0xc22908: r0 = Null
     //     0xc22908: mov             x0, NULL
     // 0xc2290c: LeaveFrame

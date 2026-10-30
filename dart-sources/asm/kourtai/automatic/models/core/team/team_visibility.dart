@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/team/team_visibility.dart
+// lib: , url: package:kourtai/automatic/models/core/team/team_visibility.dart
 
 // class id: 1048709, size: 0x8
 class :: {

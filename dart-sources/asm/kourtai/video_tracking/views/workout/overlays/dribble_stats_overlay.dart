@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart
 
 // class id: 1049251, size: 0x8
 class :: {
@@ -45,7 +45,7 @@ abstract class __FloatingAwardViewState&State&SingleTickerProviderStateMixin ext
     //     0x7b987c: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x7b9880: mov             x1, x2
     // 0x7b9884: r0 = _updateTickerModeNotifier()
-    //     0x7b9884: bl              #0x7b98dc  ; [package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] __FloatingAwardViewState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x7b9884: bl              #0x7b98dc  ; [package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] __FloatingAwardViewState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x7b9888: ldur            x1, [fp, #-8]
     // 0x7b988c: r0 = _updateTicker()
     //     0x7b988c: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -210,7 +210,7 @@ abstract class __FloatingAwardViewState&State&SingleTickerProviderStateMixin ext
     //     0x8e4538: b.ls            #0x8e455c
     // 0x8e453c: mov             x1, x0
     // 0x8e4540: r0 = _updateTickerModeNotifier()
-    //     0x8e4540: bl              #0x7b98dc  ; [package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] __FloatingAwardViewState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x8e4540: bl              #0x7b98dc  ; [package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] __FloatingAwardViewState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x8e4544: ldur            x1, [fp, #-8]
     // 0x8e4548: r0 = _updateTicker()
     //     0x8e4548: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -295,7 +295,7 @@ abstract class __FloatingAwardViewState&State&SingleTickerProviderStateMixin ext
     //     0xb64acc: cmp             SP, x16
     //     0xb64ad0: b.ls            #0xb64ae4
     // 0xb64ad4: r0 = dispose()
-    //     0xb64ad4: bl              #0xb64a20  ; [package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] __FloatingAwardViewState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb64ad4: bl              #0xb64a20  ; [package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] __FloatingAwardViewState&State&SingleTickerProviderStateMixin::dispose
     // 0xb64ad8: LeaveFrame
     //     0xb64ad8: mov             SP, fp
     //     0xb64adc: ldp             fp, lr, [SP], #0x10
@@ -471,7 +471,7 @@ class _FloatingAwardViewState extends __FloatingAwardViewState&State&SingleTicke
     // 0xad2e2c: mov             x2, x1
     // 0xad2e30: stur            x3, [fp, #-0x10]
     // 0xad2e34: r1 = Function '<anonymous closure>':.
-    //     0xad2e34: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d088] AnonymousClosure: (0xad2e70), in [package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _FloatingAwardViewState::build (0xad2df4)
+    //     0xad2e34: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d088] AnonymousClosure: (0xad2e70), in [package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _FloatingAwardViewState::build (0xad2df4)
     //     0xad2e38: ldr             x1, [x1, #0x88]
     // 0xad2e3c: r0 = AllocateClosure()
     //     0xad2e3c: bl              #0xe553e0  ; AllocateClosureStub
@@ -630,7 +630,7 @@ class _FloatingAwardViewState extends __FloatingAwardViewState&State&SingleTicke
     // 0xad2fd0: cbz             w2, #0xad3170
     // 0xad2fd4: ldur            x2, [fp, #-8]
     // 0xad2fd8: r0 = L()
-    //     0xad2fd8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xad2fd8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xad2fdc: mov             x2, x0
     // 0xad2fe0: ldur            x0, [fp, #-8]
     // 0xad2fe4: stur            x2, [fp, #-0x10]
@@ -639,7 +639,7 @@ class _FloatingAwardViewState extends __FloatingAwardViewState&State&SingleTicke
     // 0xad2fec: DecompressPointer r1
     //     0xad2fec: add             x1, x1, HEAP, lsl #32
     // 0xad2ff0: r0 = _fill()
-    //     0xad2ff0: bl              #0xad3540  ; [package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _FloatingAwardViewState::_fill
+    //     0xad2ff0: bl              #0xad3540  ; [package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _FloatingAwardViewState::_fill
     // 0xad2ff4: stur            x0, [fp, #-0x30]
     // 0xad2ff8: r16 = 0.850000
     //     0xad2ff8: add             x16, PP, #0x1f, lsl #12  ; [pp+0x1f4c8] 0.85
@@ -817,7 +817,7 @@ class _FloatingAwardViewState extends __FloatingAwardViewState&State&SingleTicke
     // 0xad31c0: LoadField: d0 = r4->field_b
     //     0xad31c0: ldur            d0, [x4, #0xb]
     // 0xad31c4: r0 = formatted()
-    //     0xad31c4: bl              #0xa43c14  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyScorecard::formatted
+    //     0xad31c4: bl              #0xa43c14  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyScorecard::formatted
     // 0xad31c8: ldur            x1, [fp, #-0x10]
     // 0xad31cc: ArrayStore: r1[1] = r0  ; List_4
     //     0xad31cc: add             x25, x1, #0x13
@@ -841,7 +841,7 @@ class _FloatingAwardViewState extends __FloatingAwardViewState&State&SingleTicke
     // 0xad320c: DecompressPointer r1
     //     0xad320c: add             x1, x1, HEAP, lsl #32
     // 0xad3210: r0 = _fill()
-    //     0xad3210: bl              #0xad3540  ; [package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _FloatingAwardViewState::_fill
+    //     0xad3210: bl              #0xad3540  ; [package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _FloatingAwardViewState::_fill
     // 0xad3214: stur            x0, [fp, #-0x30]
     // 0xad3218: r16 = 0.850000
     //     0xad3218: add             x16, PP, #0x1f, lsl #12  ; [pp+0x1f4c8] 0.85
@@ -877,7 +877,7 @@ class _FloatingAwardViewState extends __FloatingAwardViewState&State&SingleTicke
     // 0xad3268: DecompressPointer r1
     //     0xad3268: add             x1, x1, HEAP, lsl #32
     // 0xad326c: r0 = _fill()
-    //     0xad326c: bl              #0xad3540  ; [package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _FloatingAwardViewState::_fill
+    //     0xad326c: bl              #0xad3540  ; [package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _FloatingAwardViewState::_fill
     // 0xad3270: r16 = 0.850000
     //     0xad3270: add             x16, PP, #0x1f, lsl #12  ; [pp+0x1f4c8] 0.85
     //     0xad3274: ldr             x16, [x16, #0x4c8]
@@ -1217,7 +1217,7 @@ class _FloatingAwardViewState extends __FloatingAwardViewState&State&SingleTicke
     //     0xb5ce64: mov             fp, SP
     // 0xb5ce68: ldr             x2, [fp, #0x10]
     // 0xb5ce6c: r1 = Function 'dispose':.
-    //     0xb5ce6c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d080] AnonymousClosure: (0xb5ce84), in [package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _FloatingAwardViewState::dispose (0xb649bc)
+    //     0xb5ce6c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d080] AnonymousClosure: (0xb5ce84), in [package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _FloatingAwardViewState::dispose (0xb649bc)
     //     0xb5ce70: ldr             x1, [x1, #0x80]
     // 0xb5ce74: r0 = AllocateClosure()
     //     0xb5ce74: bl              #0xe553e0  ; AllocateClosureStub
@@ -1242,7 +1242,7 @@ class _FloatingAwardViewState extends __FloatingAwardViewState&State&SingleTicke
     //     0xb5ce9c: cmp             SP, x16
     //     0xb5cea0: b.ls            #0xb5ceb4
     // 0xb5cea4: r0 = dispose()
-    //     0xb5cea4: bl              #0xb649bc  ; [package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _FloatingAwardViewState::dispose
+    //     0xb5cea4: bl              #0xb649bc  ; [package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _FloatingAwardViewState::dispose
     // 0xb5cea8: LeaveFrame
     //     0xb5cea8: mov             SP, fp
     //     0xb5ceac: ldp             fp, lr, [SP], #0x10
@@ -1278,7 +1278,7 @@ class _FloatingAwardViewState extends __FloatingAwardViewState&State&SingleTicke
     //     0xb649f0: bl              #0x809c40  ; [package:flutter/src/animation/animation_controller.dart] AnimationController::dispose
     // 0xb649f4: ldur            x1, [fp, #-8]
     // 0xb649f8: r0 = dispose()
-    //     0xb649f8: bl              #0xb64a20  ; [package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] __FloatingAwardViewState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb649f8: bl              #0xb64a20  ; [package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] __FloatingAwardViewState&State&SingleTickerProviderStateMixin::dispose
     // 0xb649fc: r0 = Null
     //     0xb649fc: mov             x0, NULL
     // 0xb64a00: LeaveFrame
@@ -1330,7 +1330,7 @@ class _DribbleStatsOverlayState extends State<dynamic> {
     // 0x994bd0: StoreField: r2->field_1f = r3
     //     0x994bd0: stur            x3, [x2, #0x1f]
     // 0x994bd4: r1 = Function '_onManagerChanged@1476145255':.
-    //     0x994bd4: add             x1, PP, #0x41, lsl #12  ; [pp+0x412b8] AnonymousClosure: (0x994c24), in [package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::_onManagerChanged (0x994c5c)
+    //     0x994bd4: add             x1, PP, #0x41, lsl #12  ; [pp+0x412b8] AnonymousClosure: (0x994c24), in [package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::_onManagerChanged (0x994c5c)
     //     0x994bd8: ldr             x1, [x1, #0x2b8]
     // 0x994bdc: r0 = AllocateClosure()
     //     0x994bdc: bl              #0xe553e0  ; AllocateClosureStub
@@ -1364,7 +1364,7 @@ class _DribbleStatsOverlayState extends State<dynamic> {
     //     0x994c3c: cmp             SP, x16
     //     0x994c40: b.ls            #0x994c54
     // 0x994c44: r0 = _onManagerChanged()
-    //     0x994c44: bl              #0x994c5c  ; [package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::_onManagerChanged
+    //     0x994c44: bl              #0x994c5c  ; [package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::_onManagerChanged
     // 0x994c48: LeaveFrame
     //     0x994c48: mov             SP, fp
     //     0x994c4c: ldp             fp, lr, [SP], #0x10
@@ -1460,7 +1460,7 @@ class _DribbleStatsOverlayState extends State<dynamic> {
     // 0x994d28: mov             x1, x0
     // 0x994d2c: mov             v0.16b, v1.16b
     // 0x994d30: r0 = _spawnAward()
-    //     0x994d30: bl              #0x994d68  ; [package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::_spawnAward
+    //     0x994d30: bl              #0x994d68  ; [package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::_spawnAward
     // 0x994d34: r1 = Function '<anonymous closure>':.
     //     0x994d34: add             x1, PP, #0x41, lsl #12  ; [pp+0x412c0] Function: [dart:ui] _NativeScene::_NativeScene._ (0xe4f314)
     //     0x994d38: ldr             x1, [x1, #0x2c0]
@@ -1863,7 +1863,7 @@ class _DribbleStatsOverlayState extends State<dynamic> {
     //     0x9951dc: tst             x16, HEAP, lsr #32
     //     0x9951e0: b.eq            #0x9951e8
     //     0x9951e4: bl              #0xe547bc  ; WriteBarrierWrappersStub
-    // 0x9951e8: r0 = InitLateStaticField(0xed4) // [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
+    // 0x9951e8: r0 = InitLateStaticField(0xed4) // [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
     //     0x9951e8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x9951ec: ldr             x0, [x0, #0x1da8]
     //     0x9951f0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1874,10 +1874,10 @@ class _DribbleStatsOverlayState extends State<dynamic> {
     //     0x995204: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x995208: mov             x1, x0
     // 0x99520c: r0 = playDribblePoint()
-    //     0x99520c: bl              #0x9952ac  ; [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::playDribblePoint
+    //     0x99520c: bl              #0x9952ac  ; [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::playDribblePoint
     // 0x995210: ldur            x2, [fp, #-0x60]
     // 0x995214: r1 = Function '<anonymous closure>':.
-    //     0x995214: add             x1, PP, #0x41, lsl #12  ; [pp+0x412f8] AnonymousClosure: (0x99553c), in [package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::_spawnAward (0x994d68)
+    //     0x995214: add             x1, PP, #0x41, lsl #12  ; [pp+0x412f8] AnonymousClosure: (0x99553c), in [package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::_spawnAward (0x994d68)
     //     0x995218: ldr             x1, [x1, #0x2f8]
     // 0x99521c: r0 = AllocateClosure()
     //     0x99521c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2072,7 +2072,7 @@ class _DribbleStatsOverlayState extends State<dynamic> {
     //     0xa44658: add             x3, x3, HEAP, lsl #32
     // 0xa4465c: stur            x3, [fp, #-8]
     // 0xa44660: r1 = Function '<anonymous closure>':.
-    //     0xa44660: add             x1, PP, #0x41, lsl #12  ; [pp+0x412b0] AnonymousClosure: (0xa445ec), in [package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::_removeAward (0xa44690)
+    //     0xa44660: add             x1, PP, #0x41, lsl #12  ; [pp+0x412b0] AnonymousClosure: (0xa445ec), in [package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::_removeAward (0xa44690)
     //     0xa44664: ldr             x1, [x1, #0x2b0]
     // 0xa44668: r0 = AllocateClosure()
     //     0xa44668: bl              #0xe553e0  ; AllocateClosureStub
@@ -2131,7 +2131,7 @@ class _DribbleStatsOverlayState extends State<dynamic> {
     //     0xa446e8: ret             
     // 0xa446ec: mov             x2, x1
     // 0xa446f0: r1 = Function '<anonymous closure>':.
-    //     0xa446f0: add             x1, PP, #0x41, lsl #12  ; [pp+0x412a8] AnonymousClosure: (0xa44628), in [package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::_removeAward (0xa44690)
+    //     0xa446f0: add             x1, PP, #0x41, lsl #12  ; [pp+0x412a8] AnonymousClosure: (0xa44628), in [package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::_removeAward (0xa44690)
     //     0xa446f4: ldr             x1, [x1, #0x2a8]
     // 0xa446f8: r0 = AllocateClosure()
     //     0xa446f8: bl              #0xe553e0  ; AllocateClosureStub
@@ -2224,7 +2224,7 @@ class _DribbleStatsOverlayState extends State<dynamic> {
     //     0xad2870: ldur            d0, [x0, #0x8f]
     // 0xad2874: ldur            x1, [fp, #-8]
     // 0xad2878: r0 = formatted()
-    //     0xad2878: bl              #0xa43c14  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyScorecard::formatted
+    //     0xad2878: bl              #0xa43c14  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyScorecard::formatted
     // 0xad287c: mov             x1, x0
     // 0xad2880: ldur            x0, [fp, #-0x20]
     // 0xad2884: stur            x1, [fp, #-0x38]
@@ -2446,7 +2446,7 @@ class _DribbleStatsOverlayState extends State<dynamic> {
     //     0xad2af4: stur            w0, [x3, #0xb]
     // 0xad2af8: ldur            x2, [fp, #-0x38]
     // 0xad2afc: r1 = Function '<anonymous closure>':.
-    //     0xad2afc: add             x1, PP, #0x41, lsl #12  ; [pp+0x41298] AnonymousClosure: (0xad2d98), in [package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::build (0xad27b0)
+    //     0xad2afc: add             x1, PP, #0x41, lsl #12  ; [pp+0x41298] AnonymousClosure: (0xad2d98), in [package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::build (0xad27b0)
     //     0xad2b00: ldr             x1, [x1, #0x298]
     // 0xad2b04: r0 = AllocateClosure()
     //     0xad2b04: bl              #0xe553e0  ; AllocateClosureStub
@@ -2702,7 +2702,7 @@ class _DribbleStatsOverlayState extends State<dynamic> {
     // 0xad2dd0: mov             x1, x2
     // 0xad2dd4: mov             x2, x0
     // 0xad2dd8: r0 = _removeAward()
-    //     0xad2dd8: bl              #0xa44690  ; [package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::_removeAward
+    //     0xad2dd8: bl              #0xa44690  ; [package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::_removeAward
     // 0xad2ddc: r0 = Null
     //     0xad2ddc: mov             x0, NULL
     // 0xad2de0: LeaveFrame
@@ -2721,7 +2721,7 @@ class _DribbleStatsOverlayState extends State<dynamic> {
     //     0xb5ce08: mov             fp, SP
     // 0xb5ce0c: ldr             x2, [fp, #0x10]
     // 0xb5ce10: r1 = Function 'dispose':.
-    //     0xb5ce10: add             x1, PP, #0x41, lsl #12  ; [pp+0x41288] AnonymousClosure: (0xb5ce28), in [package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::dispose (0xb64964)
+    //     0xb5ce10: add             x1, PP, #0x41, lsl #12  ; [pp+0x41288] AnonymousClosure: (0xb5ce28), in [package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::dispose (0xb64964)
     //     0xb5ce14: ldr             x1, [x1, #0x288]
     // 0xb5ce18: r0 = AllocateClosure()
     //     0xb5ce18: bl              #0xe553e0  ; AllocateClosureStub
@@ -2746,7 +2746,7 @@ class _DribbleStatsOverlayState extends State<dynamic> {
     //     0xb5ce40: cmp             SP, x16
     //     0xb5ce44: b.ls            #0xb5ce58
     // 0xb5ce48: r0 = dispose()
-    //     0xb5ce48: bl              #0xb64964  ; [package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::dispose
+    //     0xb5ce48: bl              #0xb64964  ; [package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::dispose
     // 0xb5ce4c: LeaveFrame
     //     0xb5ce4c: mov             SP, fp
     //     0xb5ce50: ldp             fp, lr, [SP], #0x10
@@ -2775,7 +2775,7 @@ class _DribbleStatsOverlayState extends State<dynamic> {
     //     0xb64984: add             x0, x0, HEAP, lsl #32
     // 0xb64988: stur            x0, [fp, #-8]
     // 0xb6498c: r1 = Function '_onManagerChanged@1476145255':.
-    //     0xb6498c: add             x1, PP, #0x41, lsl #12  ; [pp+0x412b8] AnonymousClosure: (0x994c24), in [package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::_onManagerChanged (0x994c5c)
+    //     0xb6498c: add             x1, PP, #0x41, lsl #12  ; [pp+0x412b8] AnonymousClosure: (0x994c24), in [package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::_onManagerChanged (0x994c5c)
     //     0xb64990: ldr             x1, [x1, #0x2b8]
     // 0xb64994: r0 = AllocateClosure()
     //     0xb64994: bl              #0xe553e0  ; AllocateClosureStub
@@ -2811,7 +2811,7 @@ class _DribbleStatsOverlayState extends State<dynamic> {
     //     0xb77370: stur            xzr, [x1, #0x17]
     // 0xb77374: StoreField: r1->field_1f = rZR
     //     0xb77374: stur            xzr, [x1, #0x1f]
-    // 0xb77378: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0xb77378: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0xb77378: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb7737c: ldr             x0, [x0, #0x1cf0]
     //     0xb77380: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2910,7 +2910,7 @@ class DribbleStatsOverlay extends StatefulWidget {
     // 0xb77330: mov             x1, x0
     // 0xb77334: stur            x0, [fp, #-8]
     // 0xb77338: r0 = _DribbleStatsOverlayState()
-    //     0xb77338: bl              #0xb77354  ; [package:ballai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::_DribbleStatsOverlayState
+    //     0xb77338: bl              #0xb77354  ; [package:kourtai/video_tracking/views/workout/overlays/dribble_stats_overlay.dart] _DribbleStatsOverlayState::_DribbleStatsOverlayState
     // 0xb7733c: ldur            x0, [fp, #-8]
     // 0xb77340: LeaveFrame
     //     0xb77340: mov             SP, fp

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/shared/utility/uuid_string.dart
+// lib: , url: package:kourtai/shared/utility/uuid_string.dart
 
 // class id: 1049066, size: 0x8
 class :: {
@@ -139,7 +139,7 @@ class :: {
     // 0x99e6fc: r0 = sublist()
     //     0x99e6fc: bl              #0x7b39d8  ; [dart:core] _GrowableList::sublist
     // 0x99e700: r1 = Function '<anonymous closure>': static.
-    //     0x99e700: add             x1, PP, #0x29, lsl #12  ; [pp+0x29d20] AnonymousClosure: static (0x99e9b4), of [package:ballai/shared/utility/uuid_string.dart] 
+    //     0x99e700: add             x1, PP, #0x29, lsl #12  ; [pp+0x29d20] AnonymousClosure: static (0x99e9b4), of [package:kourtai/shared/utility/uuid_string.dart] 
     //     0x99e704: ldr             x1, [x1, #0xd20]
     // 0x99e708: r2 = Null
     //     0x99e708: mov             x2, NULL
@@ -187,7 +187,7 @@ class :: {
     // 0x99e774: r0 = sublist()
     //     0x99e774: bl              #0x7b39d8  ; [dart:core] _GrowableList::sublist
     // 0x99e778: r1 = Function '<anonymous closure>': static.
-    //     0x99e778: add             x1, PP, #0x29, lsl #12  ; [pp+0x29d20] AnonymousClosure: static (0x99e9b4), of [package:ballai/shared/utility/uuid_string.dart] 
+    //     0x99e778: add             x1, PP, #0x29, lsl #12  ; [pp+0x29d20] AnonymousClosure: static (0x99e9b4), of [package:kourtai/shared/utility/uuid_string.dart] 
     //     0x99e77c: ldr             x1, [x1, #0xd20]
     // 0x99e780: r2 = Null
     //     0x99e780: mov             x2, NULL
@@ -235,7 +235,7 @@ class :: {
     // 0x99e7f8: r0 = sublist()
     //     0x99e7f8: bl              #0x7b39d8  ; [dart:core] _GrowableList::sublist
     // 0x99e7fc: r1 = Function '<anonymous closure>': static.
-    //     0x99e7fc: add             x1, PP, #0x29, lsl #12  ; [pp+0x29d20] AnonymousClosure: static (0x99e9b4), of [package:ballai/shared/utility/uuid_string.dart] 
+    //     0x99e7fc: add             x1, PP, #0x29, lsl #12  ; [pp+0x29d20] AnonymousClosure: static (0x99e9b4), of [package:kourtai/shared/utility/uuid_string.dart] 
     //     0x99e800: ldr             x1, [x1, #0xd20]
     // 0x99e804: r2 = Null
     //     0x99e804: mov             x2, NULL
@@ -283,7 +283,7 @@ class :: {
     // 0x99e87c: r0 = sublist()
     //     0x99e87c: bl              #0x7b39d8  ; [dart:core] _GrowableList::sublist
     // 0x99e880: r1 = Function '<anonymous closure>': static.
-    //     0x99e880: add             x1, PP, #0x29, lsl #12  ; [pp+0x29d20] AnonymousClosure: static (0x99e9b4), of [package:ballai/shared/utility/uuid_string.dart] 
+    //     0x99e880: add             x1, PP, #0x29, lsl #12  ; [pp+0x29d20] AnonymousClosure: static (0x99e9b4), of [package:kourtai/shared/utility/uuid_string.dart] 
     //     0x99e884: ldr             x1, [x1, #0xd20]
     // 0x99e888: r2 = Null
     //     0x99e888: mov             x2, NULL
@@ -331,7 +331,7 @@ class :: {
     // 0x99e900: r0 = sublist()
     //     0x99e900: bl              #0x7b39d8  ; [dart:core] _GrowableList::sublist
     // 0x99e904: r1 = Function '<anonymous closure>': static.
-    //     0x99e904: add             x1, PP, #0x29, lsl #12  ; [pp+0x29d20] AnonymousClosure: static (0x99e9b4), of [package:ballai/shared/utility/uuid_string.dart] 
+    //     0x99e904: add             x1, PP, #0x29, lsl #12  ; [pp+0x29d20] AnonymousClosure: static (0x99e9b4), of [package:kourtai/shared/utility/uuid_string.dart] 
     //     0x99e908: ldr             x1, [x1, #0xd20]
     // 0x99e90c: r2 = Null
     //     0x99e90c: mov             x2, NULL

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart
 
 // class id: 1049252, size: 0x8
 class :: {
@@ -31,7 +31,7 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     //     0x995798: stur            w0, [x3, #0xf]
     // 0x99579c: mov             x2, x3
     // 0x9957a0: r1 = Function '<anonymous closure>':.
-    //     0x9957a0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d018] AnonymousClosure: (0x996afc), in [package:ballai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::initState (0x995768)
+    //     0x9957a0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d018] AnonymousClosure: (0x996afc), in [package:kourtai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::initState (0x995768)
     //     0x9957a4: ldr             x1, [x1, #0x18]
     // 0x9957a8: r0 = AllocateClosure()
     //     0x9957a8: bl              #0xe553e0  ; AllocateClosureStub
@@ -54,7 +54,7 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     //     0x9957dc: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x9957e0: ldur            x2, [fp, #-0x10]
     // 0x9957e4: r1 = Function '<anonymous closure>':.
-    //     0x9957e4: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d020] AnonymousClosure: (0x995858), in [package:ballai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::initState (0x995768)
+    //     0x9957e4: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d020] AnonymousClosure: (0x995858), in [package:kourtai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::initState (0x995768)
     //     0x9957e8: ldr             x1, [x1, #0x20]
     // 0x9957ec: r0 = AllocateClosure()
     //     0x9957ec: bl              #0xe553e0  ; AllocateClosureStub
@@ -119,7 +119,7 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     // 0x9958a4: ret
     //     0x9958a4: ret             
     // 0x9958a8: r0 = _checkPosePosition()
-    //     0x9958a8: bl              #0x995908  ; [package:ballai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_checkPosePosition
+    //     0x9958a8: bl              #0x995908  ; [package:kourtai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_checkPosePosition
     // 0x9958ac: ldur            x0, [fp, #-8]
     // 0x9958b0: LoadField: r3 = r0->field_f
     //     0x9958b0: ldur            w3, [x0, #0xf]
@@ -238,7 +238,7 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     // 0x9959c4: tbnz            w1, #4, #0x9959d0
     // 0x9959c8: mov             x1, x0
     // 0x9959cc: r0 = _resetValidation()
-    //     0x9959cc: bl              #0x996a00  ; [package:ballai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_resetValidation
+    //     0x9959cc: bl              #0x996a00  ; [package:kourtai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_resetValidation
     // 0x9959d0: r0 = Null
     //     0x9959d0: mov             x0, NULL
     // 0x9959d4: LeaveFrame
@@ -253,7 +253,7 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     //     0x9959e8: add             x5, x5, HEAP, lsl #32
     // 0x9959ec: stur            x5, [fp, #-8]
     // 0x9959f0: r1 = Function '<anonymous closure>':.
-    //     0x9959f0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d030] AnonymousClosure: (0x76e960), in [package:ballai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
+    //     0x9959f0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d030] AnonymousClosure: (0x76e960), in [package:kourtai/video_tracking/analysis/video_analysis_coordinator.dart] VideoAnalysisCoordinator::processFrame (0x6ce098)
     //     0x9959f4: ldr             x1, [x1, #0x30]
     // 0x9959f8: r2 = Null
     //     0x9959f8: mov             x2, NULL
@@ -302,7 +302,7 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     //     0x995a78: add             x2, x2, HEAP, lsl #32
     // 0x995a7c: mov             x1, x3
     // 0x995a80: r0 = _wasRecentlySeen()
-    //     0x995a80: bl              #0x996964  ; [package:ballai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_wasRecentlySeen
+    //     0x995a80: bl              #0x996964  ; [package:kourtai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_wasRecentlySeen
     // 0x995a84: tbz             w0, #4, #0x995ab0
     // 0x995a88: ldur            x0, [fp, #-0x20]
     // 0x995a8c: LoadField: r1 = r0->field_1f
@@ -312,7 +312,7 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     // 0x995a94: tbnz            w1, #4, #0x995aa0
     // 0x995a98: mov             x1, x0
     // 0x995a9c: r0 = _resetValidation()
-    //     0x995a9c: bl              #0x996a00  ; [package:ballai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_resetValidation
+    //     0x995a9c: bl              #0x996a00  ; [package:kourtai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_resetValidation
     // 0x995aa0: r0 = Null
     //     0x995aa0: mov             x0, NULL
     // 0x995aa4: LeaveFrame
@@ -484,7 +484,7 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     //     0x995c90: add             x2, x2, HEAP, lsl #32
     // 0x995c94: mov             x1, x3
     // 0x995c98: r0 = _wasRecentlySeen()
-    //     0x995c98: bl              #0x996964  ; [package:ballai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_wasRecentlySeen
+    //     0x995c98: bl              #0x996964  ; [package:kourtai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_wasRecentlySeen
     // 0x995c9c: tbz             w0, #4, #0x995cc8
     // 0x995ca0: ldur            x0, [fp, #-0x20]
     // 0x995ca4: LoadField: r1 = r0->field_1f
@@ -494,7 +494,7 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     // 0x995cac: tbnz            w1, #4, #0x995cb8
     // 0x995cb0: mov             x1, x0
     // 0x995cb4: r0 = _resetValidation()
-    //     0x995cb4: bl              #0x996a00  ; [package:ballai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_resetValidation
+    //     0x995cb4: bl              #0x996a00  ; [package:kourtai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_resetValidation
     // 0x995cb8: r0 = Null
     //     0x995cb8: mov             x0, NULL
     // 0x995cbc: LeaveFrame
@@ -557,7 +557,7 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     //     0x995d60: add             x3, x3, HEAP, lsl #32
     // 0x995d64: mov             x1, x4
     // 0x995d68: r0 = _landmarkViewPoint()
-    //     0x995d68: bl              #0x996844  ; [package:ballai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_landmarkViewPoint
+    //     0x995d68: bl              #0x996844  ; [package:kourtai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_landmarkViewPoint
     // 0x995d6c: stur            x0, [fp, #-0x28]
     // 0x995d70: cmp             w0, NULL
     // 0x995d74: b.eq            #0x995df4
@@ -622,7 +622,7 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     // 0x995e24: tbnz            w1, #4, #0x995e30
     // 0x995e28: mov             x1, x0
     // 0x995e2c: r0 = _resetValidation()
-    //     0x995e2c: bl              #0x996a00  ; [package:ballai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_resetValidation
+    //     0x995e2c: bl              #0x996a00  ; [package:kourtai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_resetValidation
     // 0x995e30: r0 = Null
     //     0x995e30: mov             x0, NULL
     // 0x995e34: LeaveFrame
@@ -687,11 +687,11 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     // 0x995ee0: b.lt            #0x995ef0
     // 0x995ee4: tbz             w2, #4, #0x995ef8
     // 0x995ee8: r0 = _startValidation()
-    //     0x995ee8: bl              #0x995f18  ; [package:ballai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_startValidation
+    //     0x995ee8: bl              #0x995f18  ; [package:kourtai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_startValidation
     // 0x995eec: b               #0x995ef8
     // 0x995ef0: tbnz            w2, #4, #0x995ef8
     // 0x995ef4: r0 = _resetValidation()
-    //     0x995ef4: bl              #0x996a00  ; [package:ballai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_resetValidation
+    //     0x995ef4: bl              #0x996a00  ; [package:kourtai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_resetValidation
     // 0x995ef8: r0 = Null
     //     0x995ef8: mov             x0, NULL
     // 0x995efc: LeaveFrame
@@ -742,7 +742,7 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     //     0x995f64: ret             
     // 0x995f68: mov             x2, x3
     // 0x995f6c: r1 = Function '<anonymous closure>':.
-    //     0x995f6c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d040] AnonymousClosure: (0x9967f0), in [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_startValidation (0x996498)
+    //     0x995f6c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d040] AnonymousClosure: (0x9967f0), in [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_startValidation (0x996498)
     //     0x995f70: ldr             x1, [x1, #0x40]
     // 0x995f74: r0 = AllocateClosure()
     //     0x995f74: bl              #0xe553e0  ; AllocateClosureStub
@@ -798,7 +798,7 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     //     0x996004: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x996008: mov             x2, x3
     // 0x99600c: r1 = Function '<anonymous closure>':.
-    //     0x99600c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d048] AnonymousClosure: (0x996178), in [package:ballai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_startValidation (0x995f18)
+    //     0x99600c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d048] AnonymousClosure: (0x996178), in [package:kourtai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_startValidation (0x995f18)
     //     0x996010: ldr             x1, [x1, #0x48]
     // 0x996014: r0 = AllocateClosure()
     //     0x996014: bl              #0xe553e0  ; AllocateClosureStub
@@ -821,7 +821,7 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     //     0x996048: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x99604c: ldur            x2, [fp, #-0x10]
     // 0x996050: r1 = Function '<anonymous closure>':.
-    //     0x996050: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d050] AnonymousClosure: (0x9960a8), in [package:ballai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_startValidation (0x995f18)
+    //     0x996050: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d050] AnonymousClosure: (0x9960a8), in [package:kourtai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_startValidation (0x995f18)
     //     0x996054: ldr             x1, [x1, #0x50]
     // 0x996058: r0 = AllocateClosure()
     //     0x996058: bl              #0xe553e0  ; AllocateClosureStub
@@ -899,14 +899,14 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     //     0x99610c: add             x2, x2, HEAP, lsl #32
     // 0x996110: mov             x1, x2
     // 0x996114: r0 = completeHoopConfiguration()
-    //     0x996114: bl              #0x996140  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::completeHoopConfiguration
+    //     0x996114: bl              #0x996140  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::completeHoopConfiguration
     // 0x996118: ldur            x0, [fp, #-8]
     // 0x99611c: LoadField: r1 = r0->field_f
     //     0x99611c: ldur            w1, [x0, #0xf]
     // 0x996120: DecompressPointer r1
     //     0x996120: add             x1, x1, HEAP, lsl #32
     // 0x996124: r0 = _resetValidation()
-    //     0x996124: bl              #0x996a00  ; [package:ballai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_resetValidation
+    //     0x996124: bl              #0x996a00  ; [package:kourtai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_resetValidation
     // 0x996128: r0 = Null
     //     0x996128: mov             x0, NULL
     // 0x99612c: LeaveFrame
@@ -1034,7 +1034,7 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     //     0x9962a4: add             x3, x3, HEAP, lsl #32
     // 0x9962a8: stur            x3, [fp, #-0x18]
     // 0x9962ac: r1 = Function '<anonymous closure>':.
-    //     0x9962ac: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d058] AnonymousClosure: (0x9962f0), in [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_startValidation (0x996498)
+    //     0x9962ac: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d058] AnonymousClosure: (0x9962f0), in [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_startValidation (0x996498)
     //     0x9962b0: ldr             x1, [x1, #0x58]
     // 0x9962b4: r0 = AllocateClosure()
     //     0x9962b4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1319,7 +1319,7 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     //     0x996ac4: ret             
     // 0x996ac8: ldur            x2, [fp, #-0x10]
     // 0x996acc: r1 = Function '<anonymous closure>':.
-    //     0x996acc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d060] AnonymousClosure: (0x9967bc), in [package:ballai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_resetValidation (0x9966c0)
+    //     0x996acc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d060] AnonymousClosure: (0x9967bc), in [package:kourtai/video_tracking/views/workout/overlays/hoop_placement_overlay.dart] _HoopPlacementOverlayState::_resetValidation (0x9966c0)
     //     0x996ad0: ldr             x1, [x1, #0x60]
     // 0x996ad4: r0 = AllocateClosure()
     //     0x996ad4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1365,7 +1365,7 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     // 0x996b34: cmp             w1, NULL
     // 0x996b38: b.eq            #0x996b54
     // 0x996b3c: r1 = Function '<anonymous closure>':.
-    //     0x996b3c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d068] AnonymousClosure: (0x8fbc64), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
+    //     0x996b3c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d068] AnonymousClosure: (0x8fbc64), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
     //     0x996b40: ldr             x1, [x1, #0x68]
     // 0x996b44: r0 = AllocateClosure()
     //     0x996b44: bl              #0xe553e0  ; AllocateClosureStub
@@ -1403,7 +1403,7 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     //     0xad3600: stur            w0, [x1, #0xf]
     // 0xad3604: mov             x2, x1
     // 0xad3608: r1 = Function '<anonymous closure>':.
-    //     0xad3608: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cff0] AnonymousClosure: (0xad3638), in [package:ballai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::build (0xad35e0)
+    //     0xad3608: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cff0] AnonymousClosure: (0xad3638), in [package:kourtai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::build (0xad35e0)
     //     0xad360c: ldr             x1, [x1, #0xff0]
     // 0xad3610: r0 = AllocateClosure()
     //     0xad3610: bl              #0xe553e0  ; AllocateClosureStub
@@ -1460,7 +1460,7 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     //     0xad3690: add             x1, x1, HEAP, lsl #32
     // 0xad3694: mov             x2, x0
     // 0xad3698: r0 = _updateGuideRect()
-    //     0xad3698: bl              #0xad3ca0  ; [package:ballai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_updateGuideRect
+    //     0xad3698: bl              #0xad3ca0  ; [package:kourtai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_updateGuideRect
     // 0xad369c: ldur            d0, [fp, #-0x50]
     // 0xad36a0: d1 = 0.420000
     //     0xad36a0: ldr             d1, [PP, #0x5a50]  ; [pp+0x5a50] IMM: double(0.42) from 0x3fdae147ae147ae1
@@ -2131,7 +2131,7 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     //     0xb5cec0: mov             fp, SP
     // 0xb5cec4: ldr             x2, [fp, #0x10]
     // 0xb5cec8: r1 = Function 'dispose':.
-    //     0xb5cec8: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cfe8] AnonymousClosure: (0xb5cee0), in [package:ballai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::dispose (0xb64aec)
+    //     0xb5cec8: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cfe8] AnonymousClosure: (0xb5cee0), in [package:kourtai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::dispose (0xb64aec)
     //     0xb5cecc: ldr             x1, [x1, #0xfe8]
     // 0xb5ced0: r0 = AllocateClosure()
     //     0xb5ced0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2156,7 +2156,7 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     //     0xb5cef8: cmp             SP, x16
     //     0xb5cefc: b.ls            #0xb5cf10
     // 0xb5cf00: r0 = dispose()
-    //     0xb5cf00: bl              #0xb64aec  ; [package:ballai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::dispose
+    //     0xb5cf00: bl              #0xb64aec  ; [package:kourtai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::dispose
     // 0xb5cf04: LeaveFrame
     //     0xb5cf04: mov             SP, fp
     //     0xb5cf08: ldp             fp, lr, [SP], #0x10
@@ -2251,7 +2251,7 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     //     0xb774c0: stur            xzr, [x1, #0x23]
     // 0xb774c4: StoreField: r1->field_47 = r0
     //     0xb774c4: stur            w0, [x1, #0x47]
-    // 0xb774c8: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0xb774c8: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0xb774c8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb774cc: ldr             x0, [x0, #0x1cf0]
     //     0xb774d0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2269,7 +2269,7 @@ class _DribblingPlacementOverlayState extends State<dynamic> {
     //     0xb774fc: tst             x16, HEAP, lsr #32
     //     0xb77500: b.eq            #0xb77508
     //     0xb77504: bl              #0xe5479c  ; WriteBarrierWrappersStub
-    // 0xb77508: r0 = InitLateStaticField(0x1160) // [package:ballai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::instance
+    // 0xb77508: r0 = InitLateStaticField(0x1160) // [package:kourtai/video_tracking/playground/playground_capture_bridge.dart] PlaygroundCaptureBridge::instance
     //     0xb77508: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb7750c: ldr             x0, [x0, #0x22c0]
     //     0xb77510: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2323,7 +2323,7 @@ class DribblingPlacementOverlay extends StatefulWidget {
     // 0xb7746c: mov             x1, x0
     // 0xb77470: stur            x0, [fp, #-8]
     // 0xb77474: r0 = _DribblingPlacementOverlayState()
-    //     0xb77474: bl              #0xb77490  ; [package:ballai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_DribblingPlacementOverlayState
+    //     0xb77474: bl              #0xb77490  ; [package:kourtai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _DribblingPlacementOverlayState::_DribblingPlacementOverlayState
     // 0xb77478: ldur            x0, [fp, #-8]
     // 0xb7747c: LeaveFrame
     //     0xb7747c: mov             SP, fp
@@ -2404,7 +2404,7 @@ class _CornerBracketPainter extends CustomPainter {
     // 0x84b45c: mov             v0.16b, v1.16b
     // 0x84b460: stur            d1, [fp, #-0x30]
     // 0x84b464: r0 = _drawCorners()
-    //     0x84b464: bl              #0x84b5cc  ; [package:ballai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _CornerBracketPainter::_drawCorners
+    //     0x84b464: bl              #0x84b5cc  ; [package:kourtai/video_tracking/views/workout/overlays/dribbling_placement_overlay.dart] _CornerBracketPainter::_drawCorners
     // 0x84b468: ldur            x0, [fp, #-8]
     // 0x84b46c: LoadField: d0 = r0->field_1f
     //     0x84b46c: ldur            d0, [x0, #0x1f]

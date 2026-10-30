@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/overlays/camera_layout_picker_overlay.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/overlays/camera_layout_picker_overlay.dart
 
 // class id: 1049247, size: 0x8
 class :: {
@@ -407,7 +407,7 @@ class CameraLayoutPickerOverlay extends StatelessWidget {
     // 0xc3ecc8: stur            x1, [fp, #-0x10]
     // 0xc3eccc: StoreField: r1->field_f = r0
     //     0xc3eccc: stur            w0, [x1, #0xf]
-    // 0xc3ecd0: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0xc3ecd0: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0xc3ecd0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xc3ecd4: ldr             x0, [x0, #0x1cf0]
     //     0xc3ecd8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -419,7 +419,7 @@ class CameraLayoutPickerOverlay extends StatelessWidget {
     // 0xc3ecf0: mov             x1, x0
     // 0xc3ecf4: stur            x0, [fp, #-0x18]
     // 0xc3ecf8: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0xc3ecf8: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0xc3ecf8: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0xc3ecfc: tbnz            w0, #4, #0xc3ed08
     // 0xc3ed00: r2 = true
     //     0xc3ed00: add             x2, NULL, #0x20  ; true
@@ -793,7 +793,7 @@ class CameraLayoutPickerOverlay extends StatelessWidget {
     //     0xc3f0f0: stur            w0, [x3, #0x17]
     // 0xc3f0f4: ldur            x2, [fp, #-0x48]
     // 0xc3f0f8: r1 = Function '<anonymous closure>':.
-    //     0xc3f0f8: add             x1, PP, #0x47, lsl #12  ; [pp+0x47c48] AnonymousClosure: (0xc3f388), in [package:ballai/video_tracking/views/workout/overlays/camera_layout_picker_overlay.dart] CameraLayoutPickerOverlay::build (0xc3ec9c)
+    //     0xc3f0f8: add             x1, PP, #0x47, lsl #12  ; [pp+0x47c48] AnonymousClosure: (0xc3f388), in [package:kourtai/video_tracking/views/workout/overlays/camera_layout_picker_overlay.dart] CameraLayoutPickerOverlay::build (0xc3ec9c)
     //     0xc3f0fc: ldr             x1, [x1, #0xc48]
     // 0xc3f100: r0 = AllocateClosure()
     //     0xc3f100: bl              #0xe553e0  ; AllocateClosureStub

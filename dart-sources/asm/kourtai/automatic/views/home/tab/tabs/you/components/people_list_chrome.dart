@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/components/people_list_chrome.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/components/people_list_chrome.dart
 
 // class id: 1048999, size: 0x8
 class :: {
@@ -38,8 +38,8 @@ class PeopleListEmptySection extends StatelessWidget {
     // 0xc0ce90: DecompressPointer r3
     //     0xc0ce90: add             x3, x3, HEAP, lsl #32
     // 0xc0ce94: stur            x3, [fp, #-0x18]
-    // 0xc0ce98: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc0ce98: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc0ce98: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc0ce98: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc0ce9c: stur            x0, [fp, #-0x10]
     // 0xc0cea0: r0 = TextStyle()
     //     0xc0cea0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -130,8 +130,8 @@ class PeopleListEmptySection extends StatelessWidget {
     //     0xc0cf7c: ldur            w1, [x0, #0xf]
     // 0xc0cf80: DecompressPointer r1
     //     0xc0cf80: add             x1, x1, HEAP, lsl #32
-    // 0xc0cf84: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc0cf84: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc0cf84: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc0cf84: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc0cf88: r16 = Instance_Color
     //     0xc0cf88: ldr             x16, [PP, #0x5178]  ; [pp+0x5178] Obj!Color@d2a0a1
     // 0xc0cf8c: stp             x16, x0, [SP, #0x18]
@@ -156,7 +156,7 @@ class PeopleListEmptySection extends StatelessWidget {
     //     0xc0cfc0: ldr             x1, [x1, #0x330]
     // 0xc0cfc4: stur            x0, [fp, #-8]
     // 0xc0cfc8: r0 = L()
-    //     0xc0cfc8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0cfc8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0cfcc: stur            x0, [fp, #-0x18]
     // 0xc0cfd0: r0 = Text()
     //     0xc0cfd0: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -176,7 +176,7 @@ class PeopleListEmptySection extends StatelessWidget {
     //     0xc0cff8: stur            w0, [x3, #0x3b]
     // 0xc0cffc: ldur            x2, [fp, #-0x20]
     // 0xc0d000: r1 = Function '<anonymous closure>':.
-    //     0xc0d000: add             x1, PP, #0x5a, lsl #12  ; [pp+0x5a1d8] AnonymousClosure: (0xc0d11c), in [package:ballai/automatic/views/home/tab/tabs/you/components/people_list_chrome.dart] PeopleListEmptySection::build (0xc0ce4c)
+    //     0xc0d000: add             x1, PP, #0x5a, lsl #12  ; [pp+0x5a1d8] AnonymousClosure: (0xc0d11c), in [package:kourtai/automatic/views/home/tab/tabs/you/components/people_list_chrome.dart] PeopleListEmptySection::build (0xc0ce4c)
     //     0xc0d004: ldr             x1, [x1, #0x1d8]
     // 0xc0d008: r0 = AllocateClosure()
     //     0xc0d008: bl              #0xe553e0  ; AllocateClosureStub
@@ -317,7 +317,7 @@ class PeopleListEmptySection extends StatelessWidget {
     // 0xc0d150: r0 = of()
     //     0xc0d150: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xc0d154: r1 = Function '<anonymous closure>':.
-    //     0xc0d154: add             x1, PP, #0x5a, lsl #12  ; [pp+0x5a1e0] AnonymousClosure: (0xc0d1bc), in [package:ballai/automatic/views/home/tab/tabs/you/components/people_list_chrome.dart] PeopleListEmptySection::build (0xc0ce4c)
+    //     0xc0d154: add             x1, PP, #0x5a, lsl #12  ; [pp+0x5a1e0] AnonymousClosure: (0xc0d1bc), in [package:kourtai/automatic/views/home/tab/tabs/you/components/people_list_chrome.dart] PeopleListEmptySection::build (0xc0ce4c)
     //     0xc0d158: ldr             x1, [x1, #0x1e0]
     // 0xc0d15c: r2 = Null
     //     0xc0d15c: mov             x2, NULL
@@ -390,8 +390,8 @@ class PeopleListEmptyRow extends StatelessWidget {
     // 0xc0cdac: DecompressPointer r2
     //     0xc0cdac: add             x2, x2, HEAP, lsl #32
     // 0xc0cdb0: stur            x2, [fp, #-8]
-    // 0xc0cdb4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc0cdb4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc0cdb4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc0cdb4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc0cdb8: stur            x0, [fp, #-0x10]
     // 0xc0cdbc: r0 = TextStyle()
     //     0xc0cdbc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)

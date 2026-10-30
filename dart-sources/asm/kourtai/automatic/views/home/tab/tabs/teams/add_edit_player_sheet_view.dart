@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/add_edit_player_sheet_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/add_edit_player_sheet_view.dart
 
 // class id: 1048924, size: 0x8
 class :: {
@@ -85,7 +85,7 @@ class _AddEditPlayerSheetViewState extends State<dynamic> {
     //     0xa50e70: add             x1, PP, #0x37, lsl #12  ; [pp+0x37440] "Player name"
     //     0xa50e74: ldr             x1, [x1, #0x440]
     // 0xa50e78: r0 = L()
-    //     0xa50e78: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa50e78: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa50e7c: stur            x0, [fp, #-8]
     // 0xa50e80: r0 = UnderlineInputBorder()
     //     0xa50e80: bl              #0x9e8950  ; AllocateUnderlineInputBorderStub -> UnderlineInputBorder (size=0x10)
@@ -285,7 +285,7 @@ class _AddEditPlayerSheetViewState extends State<dynamic> {
     //     0xa51054: ldr             x1, [x1, #0x450]
     // 0xa51058: stur            x0, [fp, #-0x20]
     // 0xa5105c: r0 = L()
-    //     0xa5105c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa5105c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa51060: stur            x0, [fp, #-0x30]
     // 0xa51064: r0 = TextStyle()
     //     0xa51064: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -312,7 +312,7 @@ class _AddEditPlayerSheetViewState extends State<dynamic> {
     //     0xa5109c: stur            w0, [x3, #0x13]
     // 0xa510a0: ldur            x2, [fp, #-0x18]
     // 0xa510a4: r1 = Function '<anonymous closure>':.
-    //     0xa510a4: add             x1, PP, #0x37, lsl #12  ; [pp+0x37458] AnonymousClosure: (0xa51218), in [package:ballai/automatic/views/home/tab/tabs/teams/add_edit_player_sheet_view.dart] _AddEditPlayerSheetViewState::build (0xa50dac)
+    //     0xa510a4: add             x1, PP, #0x37, lsl #12  ; [pp+0x37458] AnonymousClosure: (0xa51218), in [package:kourtai/automatic/views/home/tab/tabs/teams/add_edit_player_sheet_view.dart] _AddEditPlayerSheetViewState::build (0xa50dac)
     //     0xa510a8: ldr             x1, [x1, #0x458]
     // 0xa510ac: r0 = AllocateClosure()
     //     0xa510ac: bl              #0xe553e0  ; AllocateClosureStub
@@ -478,7 +478,7 @@ class _AddEditPlayerSheetViewState extends State<dynamic> {
     //     0xa51250: ldr             x1, [x1, #0x460]
     // 0xa51254: stur            x0, [fp, #-0x10]
     // 0xa51258: r0 = L()
-    //     0xa51258: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa51258: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa5125c: stur            x0, [fp, #-0x18]
     // 0xa51260: r0 = Text()
     //     0xa51260: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/ui/home_island_visibility.dart
+// lib: , url: package:kourtai/automatic/utility/ui/home_island_visibility.dart
 
 // class id: 1048748, size: 0x8
 class :: {
@@ -45,7 +45,7 @@ abstract class HomeIslandVisibility extends Object {
     // 0x8e7e68: r0 = InitAsync()
     //     0x8e7e68: bl              #0x60afc8  ; InitAsyncStub
     // 0x8e7e6c: r0 = requestHide()
-    //     0x8e7e6c: bl              #0x8e8320  ; [package:ballai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::requestHide
+    //     0x8e7e6c: bl              #0x8e8320  ; [package:kourtai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::requestHide
     // 0x8e7e70: ldur            x16, [fp, #-0x68]
     // 0x8e7e74: str             x16, [SP]
     // 0x8e7e78: ldur            x0, [fp, #-0x68]
@@ -59,7 +59,7 @@ abstract class HomeIslandVisibility extends Object {
     //     0x8e7e90: bl              #0x60ad4c  ; AwaitStub
     // 0x8e7e94: stur            x0, [fp, #-0x60]
     // 0x8e7e98: r0 = releaseHide()
-    //     0x8e7e98: bl              #0x8e7ecc  ; [package:ballai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::releaseHide
+    //     0x8e7e98: bl              #0x8e7ecc  ; [package:kourtai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::releaseHide
     // 0x8e7e9c: ldur            x0, [fp, #-0x60]
     // 0x8e7ea0: r0 = ReturnAsync()
     //     0x8e7ea0: b               #0x5f1e3c  ; ReturnAsyncStub
@@ -67,7 +67,7 @@ abstract class HomeIslandVisibility extends Object {
     // 0x8e7ea8: stur            x0, [fp, #-0x60]
     // 0x8e7eac: stur            x1, [fp, #-0x68]
     // 0x8e7eb0: r0 = releaseHide()
-    //     0x8e7eb0: bl              #0x8e7ecc  ; [package:ballai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::releaseHide
+    //     0x8e7eb0: bl              #0x8e7ecc  ; [package:kourtai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::releaseHide
     // 0x8e7eb4: ldur            x0, [fp, #-0x60]
     // 0x8e7eb8: ldur            x1, [fp, #-0x68]
     // 0x8e7ebc: r0 = ReThrow()
@@ -89,7 +89,7 @@ abstract class HomeIslandVisibility extends Object {
     // 0x8e7ee0: r1 = -1
     //     0x8e7ee0: mov             x1, #-1
     // 0x8e7ee4: r0 = _applyHideDelta()
-    //     0x8e7ee4: bl              #0x8e7f00  ; [package:ballai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::_applyHideDelta
+    //     0x8e7ee4: bl              #0x8e7f00  ; [package:kourtai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::_applyHideDelta
     // 0x8e7ee8: r0 = Null
     //     0x8e7ee8: mov             x0, NULL
     // 0x8e7eec: LeaveFrame
@@ -132,7 +132,7 @@ abstract class HomeIslandVisibility extends Object {
     //     0x8e7f48: stur            w0, [x3, #0xf]
     // 0x8e7f4c: mov             x2, x3
     // 0x8e7f50: r1 = Function 'apply': static.
-    //     0x8e7f50: add             x1, PP, #0x20, lsl #12  ; [pp+0x20e60] AnonymousClosure: static (0x8e81f4), in [package:ballai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::_applyHideDelta (0x8e7f00)
+    //     0x8e7f50: add             x1, PP, #0x20, lsl #12  ; [pp+0x20e60] AnonymousClosure: static (0x8e81f4), in [package:kourtai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::_applyHideDelta (0x8e7f00)
     //     0x8e7f54: ldr             x1, [x1, #0xe60]
     // 0x8e7f58: r0 = AllocateClosure()
     //     0x8e7f58: bl              #0xe553e0  ; AllocateClosureStub
@@ -156,7 +156,7 @@ abstract class HomeIslandVisibility extends Object {
     //     0x8e7f88: ldr             x16, [PP, #0x1b40]  ; [pp+0x1b40] Obj!SchedulerPhase@d347e1
     // 0x8e7f8c: cmp             w1, w16
     // 0x8e7f90: b.ne            #0x8e8020
-    // 0x8e7f94: r0 = InitLateStaticField(0xe1c) // [package:ballai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::hideCount
+    // 0x8e7f94: r0 = InitLateStaticField(0xe1c) // [package:kourtai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::hideCount
     //     0x8e7f94: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x8e7f98: ldr             x0, [x0, #0x1c38]
     //     0x8e7f9c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -222,7 +222,7 @@ abstract class HomeIslandVisibility extends Object {
     // 0x8e8048: mov             x2, x1
     // 0x8e804c: stur            x0, [fp, #-8]
     // 0x8e8050: r1 = Function '<anonymous closure>': static.
-    //     0x8e8050: add             x1, PP, #0x20, lsl #12  ; [pp+0x20e68] AnonymousClosure: static (0x8e8128), in [package:ballai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::_applyHideDelta (0x8e7f00)
+    //     0x8e8050: add             x1, PP, #0x20, lsl #12  ; [pp+0x20e68] AnonymousClosure: static (0x8e8128), in [package:kourtai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::_applyHideDelta (0x8e7f00)
     //     0x8e8054: ldr             x1, [x1, #0xe68]
     // 0x8e8058: r0 = AllocateClosure()
     //     0x8e8058: bl              #0xe553e0  ; AllocateClosureStub
@@ -325,7 +325,7 @@ abstract class HomeIslandVisibility extends Object {
     // 0x8e8158: DecompressPointer r1
     //     0x8e8158: add             x1, x1, HEAP, lsl #32
     // 0x8e815c: stur            x1, [fp, #-8]
-    // 0x8e8160: r0 = InitLateStaticField(0xe1c) // [package:ballai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::hideCount
+    // 0x8e8160: r0 = InitLateStaticField(0xe1c) // [package:kourtai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::hideCount
     //     0x8e8160: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x8e8164: ldr             x0, [x0, #0x1c38]
     //     0x8e8168: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -393,7 +393,7 @@ abstract class HomeIslandVisibility extends Object {
     //     0x8e8210: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x8e8214: cmp             SP, x16
     //     0x8e8218: b.ls            #0x8e82a8
-    // 0x8e821c: r0 = InitLateStaticField(0xe1c) // [package:ballai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::hideCount
+    // 0x8e821c: r0 = InitLateStaticField(0xe1c) // [package:kourtai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::hideCount
     //     0x8e821c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x8e8220: ldr             x0, [x0, #0x1c38]
     //     0x8e8224: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -502,7 +502,7 @@ abstract class HomeIslandVisibility extends Object {
     // 0x8e8334: r1 = 1
     //     0x8e8334: mov             x1, #1
     // 0x8e8338: r0 = _applyHideDelta()
-    //     0x8e8338: bl              #0x8e7f00  ; [package:ballai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::_applyHideDelta
+    //     0x8e8338: bl              #0x8e7f00  ; [package:kourtai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::_applyHideDelta
     // 0x8e833c: r0 = Null
     //     0x8e833c: mov             x0, NULL
     // 0x8e8340: LeaveFrame

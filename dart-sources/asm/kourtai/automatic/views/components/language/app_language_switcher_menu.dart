@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/language/app_language_switcher_menu.dart
+// lib: , url: package:kourtai/automatic/views/components/language/app_language_switcher_menu.dart
 
 // class id: 1048813, size: 0x8
 class :: {
@@ -53,7 +53,7 @@ class AppLanguageSwitcherMenu extends StatelessWidget {
     //     0xbbbe48: b.eq            #0xbbbe50
     //     0xbbbe4c: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xbbbe50: r0 = effectiveLanguageCode()
-    //     0xbbbe50: bl              #0x5ede90  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
+    //     0xbbbe50: bl              #0x5ede90  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
     // 0xbbbe54: stur            x0, [fp, #-8]
     // 0xbbbe58: r16 = 0.220000
     //     0xbbbe58: add             x16, PP, #0x24, lsl #12  ; [pp+0x24ec0] 0.22
@@ -71,7 +71,7 @@ class AppLanguageSwitcherMenu extends StatelessWidget {
     //     0xbbbe78: ldr             x1, [x1, #0xec8]
     // 0xbbbe7c: stur            x0, [fp, #-0x10]
     // 0xbbbe80: r0 = L()
-    //     0xbbbe80: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbbbe80: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbbbe84: stur            x0, [fp, #-0x20]
     // 0xbbbe88: r0 = Radius()
     //     0xbbbe88: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -136,7 +136,7 @@ class AppLanguageSwitcherMenu extends StatelessWidget {
     //     0xbbbf1c: stur            w0, [x2, #0x23]
     // 0xbbbf20: ldur            x1, [fp, #-8]
     // 0xbbbf24: r0 = toolbarSymbol()
-    //     0xbbbf24: bl              #0xbbc098  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::toolbarSymbol
+    //     0xbbbf24: bl              #0xbbc098  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::toolbarSymbol
     // 0xbbbf28: stur            x0, [fp, #-8]
     // 0xbbbf2c: r0 = TextStyle()
     //     0xbbbf2c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -190,7 +190,7 @@ class AppLanguageSwitcherMenu extends StatelessWidget {
     //     0xbbbfb0: stur            w0, [x3, #0xb]
     // 0xbbbfb4: ldur            x2, [fp, #-0x18]
     // 0xbbbfb8: r1 = Function '<anonymous closure>':.
-    //     0xbbbfb8: add             x1, PP, #0x24, lsl #12  ; [pp+0x24ee0] AnonymousClosure: (0xbbc380), in [package:ballai/automatic/views/components/language/app_language_switcher_menu.dart] AppLanguageSwitcherMenu::build (0xbbbdd8)
+    //     0xbbbfb8: add             x1, PP, #0x24, lsl #12  ; [pp+0x24ee0] AnonymousClosure: (0xbbc380), in [package:kourtai/automatic/views/components/language/app_language_switcher_menu.dart] AppLanguageSwitcherMenu::build (0xbbbdd8)
     //     0xbbbfbc: ldr             x1, [x1, #0xee0]
     // 0xbbbfc0: r0 = AllocateClosure()
     //     0xbbbfc0: bl              #0xe553e0  ; AllocateClosureStub
@@ -309,7 +309,7 @@ class AppLanguageSwitcherMenu extends StatelessWidget {
     //     0xbbc3b4: add             x3, x3, HEAP, lsl #32
     // 0xbbc3b8: mov             x1, x0
     // 0xbbc3bc: r0 = _showLanguageSheet()
-    //     0xbbc3bc: bl              #0xbbc3d4  ; [package:ballai/automatic/views/components/language/app_language_switcher_menu.dart] AppLanguageSwitcherMenu::_showLanguageSheet
+    //     0xbbc3bc: bl              #0xbbc3d4  ; [package:kourtai/automatic/views/components/language/app_language_switcher_menu.dart] AppLanguageSwitcherMenu::_showLanguageSheet
     // 0xbbc3c0: LeaveFrame
     //     0xbbc3c0: mov             SP, fp
     //     0xbbc3c4: ldp             fp, lr, [SP], #0x10
@@ -353,7 +353,7 @@ class AppLanguageSwitcherMenu extends StatelessWidget {
     // 0xbbc424: DecompressPointer r1
     //     0xbbc424: add             x1, x1, HEAP, lsl #32
     // 0xbbc428: r0 = effectiveLanguageCode()
-    //     0xbbc428: bl              #0x5ede90  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
+    //     0xbbc428: bl              #0x5ede90  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
     // 0xbbc42c: ldur            x3, [fp, #-0x28]
     // 0xbbc430: StoreField: r3->field_13 = r0
     //     0xbbc430: stur            w0, [x3, #0x13]
@@ -365,12 +365,12 @@ class AppLanguageSwitcherMenu extends StatelessWidget {
     //     0xbbc448: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0xbbc44c: mov             x2, x3
     // 0xbbc450: r1 = Function '<anonymous closure>':.
-    //     0xbbc450: add             x1, PP, #0x24, lsl #12  ; [pp+0x24ef0] AnonymousClosure: (0xbbc6e4), in [package:ballai/automatic/views/components/language/app_language_switcher_menu.dart] AppLanguageSwitcherMenu::_showLanguageSheet (0xbbc3d4)
+    //     0xbbc450: add             x1, PP, #0x24, lsl #12  ; [pp+0x24ef0] AnonymousClosure: (0xbbc6e4), in [package:kourtai/automatic/views/components/language/app_language_switcher_menu.dart] AppLanguageSwitcherMenu::_showLanguageSheet (0xbbc3d4)
     //     0xbbc454: ldr             x1, [x1, #0xef0]
     // 0xbbc458: r0 = AllocateClosure()
     //     0xbbc458: bl              #0xe553e0  ; AllocateClosureStub
     // 0xbbc45c: r1 = Function '<anonymous closure>':.
-    //     0xbbc45c: add             x1, PP, #0x24, lsl #12  ; [pp+0x24ef8] AnonymousClosure: (0xbbc610), in [package:ballai/automatic/views/components/language/app_language_switcher_menu.dart] AppLanguageSwitcherMenu::_showLanguageSheet (0xbbc3d4)
+    //     0xbbc45c: add             x1, PP, #0x24, lsl #12  ; [pp+0x24ef8] AnonymousClosure: (0xbbc610), in [package:kourtai/automatic/views/components/language/app_language_switcher_menu.dart] AppLanguageSwitcherMenu::_showLanguageSheet (0xbbc3d4)
     //     0xbbc460: ldr             x1, [x1, #0xef8]
     // 0xbbc464: r2 = Null
     //     0xbbc464: mov             x2, NULL
@@ -643,7 +643,7 @@ class AppLanguageSwitcherMenu extends StatelessWidget {
     //     0xbbc84c: stur            w0, [x3, #0x13]
     // 0xbbc850: ldur            x2, [fp, #-0x10]
     // 0xbbc854: r1 = Function '<anonymous closure>':.
-    //     0xbbc854: add             x1, PP, #0x24, lsl #12  ; [pp+0x24f30] AnonymousClosure: (0xbbc9a0), in [package:ballai/automatic/views/components/language/app_language_switcher_menu.dart] AppLanguageSwitcherMenu::_showLanguageSheet (0xbbc3d4)
+    //     0xbbc854: add             x1, PP, #0x24, lsl #12  ; [pp+0x24f30] AnonymousClosure: (0xbbc9a0), in [package:kourtai/automatic/views/components/language/app_language_switcher_menu.dart] AppLanguageSwitcherMenu::_showLanguageSheet (0xbbc3d4)
     //     0xbbc858: ldr             x1, [x1, #0xf30]
     // 0xbbc85c: r0 = AllocateClosure()
     //     0xbbc85c: bl              #0xe553e0  ; AllocateClosureStub
@@ -837,7 +837,7 @@ class AppLanguageSwitcherMenu extends StatelessWidget {
     //     0xbbca48: stur            w0, [x2, #0xb]
     // 0xbbca4c: ldr             x1, [fp, #0x10]
     // 0xbbca50: r0 = displayName()
-    //     0xbbca50: bl              #0xbbcbe8  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::displayName
+    //     0xbbca50: bl              #0xbbcbe8  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::displayName
     // 0xbbca54: stur            x0, [fp, #-8]
     // 0xbbca58: r0 = Text()
     //     0xbbca58: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -965,7 +965,7 @@ class AppLanguageSwitcherMenu extends StatelessWidget {
     //     0xbbcb8c: stur            w0, [x3, #0xb]
     // 0xbbcb90: ldur            x2, [fp, #-0x10]
     // 0xbbcb94: r1 = Function '<anonymous closure>':.
-    //     0xbbcb94: add             x1, PP, #0x24, lsl #12  ; [pp+0x24f88] AnonymousClosure: (0xbbcc54), in [package:ballai/automatic/views/components/language/app_language_switcher_menu.dart] AppLanguageSwitcherMenu::_showLanguageSheet (0xbbc3d4)
+    //     0xbbcb94: add             x1, PP, #0x24, lsl #12  ; [pp+0x24f88] AnonymousClosure: (0xbbcc54), in [package:kourtai/automatic/views/components/language/app_language_switcher_menu.dart] AppLanguageSwitcherMenu::_showLanguageSheet (0xbbc3d4)
     //     0xbbcb98: ldr             x1, [x1, #0xf88]
     // 0xbbcb9c: r0 = AllocateClosure()
     //     0xbbcb9c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1045,7 +1045,7 @@ class AppLanguageSwitcherMenu extends StatelessWidget {
     // 0xbbccbc: mov             x1, x2
     // 0xbbccc0: mov             x2, x16
     // 0xbbccc4: r0 = setOverrideCode()
-    //     0xbbccc4: bl              #0xbbcd18  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::setOverrideCode
+    //     0xbbccc4: bl              #0xbbcd18  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::setOverrideCode
     // 0xbbccc8: mov             x1, x0
     // 0xbbcccc: stur            x1, [fp, #-0x20]
     // 0xbbccd0: r0 = Await()

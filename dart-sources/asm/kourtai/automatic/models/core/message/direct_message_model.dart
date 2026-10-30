@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/message/direct_message_model.dart
+// lib: , url: package:kourtai/automatic/models/core/message/direct_message_model.dart
 
 // class id: 1048688, size: 0x8
 class :: {
@@ -119,7 +119,7 @@ class DirectMessageModel extends Object {
     //     0x981f84: b.ls            #0x981f9c
     // 0x981f88: ldr             x1, [fp, #0x10]
     // 0x981f8c: r0 = fromFirestore()
-    //     0x981f8c: bl              #0x981fa4  ; [package:ballai/automatic/models/core/message/direct_message_model.dart] DirectMessageModel::fromFirestore
+    //     0x981f8c: bl              #0x981fa4  ; [package:kourtai/automatic/models/core/message/direct_message_model.dart] DirectMessageModel::fromFirestore
     // 0x981f90: LeaveFrame
     //     0x981f90: mov             SP, fp
     //     0x981f94: ldp             fp, lr, [SP], #0x10
@@ -531,7 +531,7 @@ class DirectMessageModel extends Object {
     //     0x98240c: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x982410: mov             x2, x3
     // 0x982414: r1 = Function '<anonymous closure>': static.
-    //     0x982414: add             x1, PP, #0x27, lsl #12  ; [pp+0x27580] AnonymousClosure: static (0x9826b4), in [package:ballai/automatic/models/core/message/direct_message_model.dart] DirectMessageModel::fromFirestore (0x981fa4)
+    //     0x982414: add             x1, PP, #0x27, lsl #12  ; [pp+0x27580] AnonymousClosure: static (0x9826b4), in [package:kourtai/automatic/models/core/message/direct_message_model.dart] DirectMessageModel::fromFirestore (0x981fa4)
     //     0x982418: ldr             x1, [x1, #0x580]
     // 0x98241c: r0 = AllocateClosure()
     //     0x98241c: bl              #0xe553e0  ; AllocateClosureStub
@@ -680,7 +680,7 @@ class DirectMessageModel extends Object {
     //     0x9825ac: mov             x1, NULL
     // 0x9825b0: ldur            x2, [fp, #-0x18]
     // 0x9825b4: r0 = _readDate()
-    //     0x9825b4: bl              #0x74441c  ; [package:ballai/automatic/models/core/user/user_model.dart] ::_readDate
+    //     0x9825b4: bl              #0x74441c  ; [package:kourtai/automatic/models/core/user/user_model.dart] ::_readDate
     // 0x9825b8: ldur            x0, [fp, #-0x18]
     // 0x9825bc: LoadField: r3 = r0->field_f
     //     0x9825bc: ldur            w3, [x0, #0xf]
@@ -704,7 +704,7 @@ class DirectMessageModel extends Object {
     // 0x9825f0: r1 = Null
     //     0x9825f0: mov             x1, NULL
     // 0x9825f4: r0 = _readDate()
-    //     0x9825f4: bl              #0x74441c  ; [package:ballai/automatic/models/core/user/user_model.dart] ::_readDate
+    //     0x9825f4: bl              #0x74441c  ; [package:kourtai/automatic/models/core/user/user_model.dart] ::_readDate
     // 0x9825f8: ldur            x1, [fp, #-0x10]
     // 0x9825fc: r2 = "updateDate"
     //     0x9825fc: add             x2, PP, #0x11, lsl #12  ; [pp+0x11c10] "updateDate"
@@ -729,7 +729,7 @@ class DirectMessageModel extends Object {
     // 0x982638: ldur            x2, [fp, #-0x38]
     // 0x98263c: ldur            x0, [fp, #-0x18]
     // 0x982640: r0 = _readDate()
-    //     0x982640: bl              #0x74441c  ; [package:ballai/automatic/models/core/user/user_model.dart] ::_readDate
+    //     0x982640: bl              #0x74441c  ; [package:kourtai/automatic/models/core/user/user_model.dart] ::_readDate
     // 0x982644: r0 = DirectMessageModel()
     //     0x982644: bl              #0x7259b4  ; AllocateDirectMessageModelStub -> DirectMessageModel (size=0x20)
     // 0x982648: ldur            x1, [fp, #-8]

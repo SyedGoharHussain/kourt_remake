@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/drills/widgets/drill_xp_preview.dart
+// lib: , url: package:kourtai/video_tracking/views/drills/widgets/drill_xp_preview.dart
 
 // class id: 1049228, size: 0x8
 class :: {
@@ -56,13 +56,13 @@ class _XPSplitRow extends StatelessWidget {
     // 0xc39cc8: lsl             x0, x0, #1
     // 0xc39ccc: stur            x0, [fp, #-0x18]
     // 0xc39cd0: r0 = instance()
-    //     0xc39cd0: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0xc39cd0: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0xc39cd4: r1 = "%lld%% of your XP goes to %@"
     //     0xc39cd4: add             x1, PP, #0x34, lsl #12  ; [pp+0x34d50] "%lld%% of your XP goes to %@"
     //     0xc39cd8: ldr             x1, [x1, #0xd50]
     // 0xc39cdc: stur            x0, [fp, #-0x20]
     // 0xc39ce0: r0 = L()
-    //     0xc39ce0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc39ce0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc39ce4: mov             x2, x0
     // 0xc39ce8: ldur            x0, [fp, #-8]
     // 0xc39cec: stur            x2, [fp, #-0x30]
@@ -73,7 +73,7 @@ class _XPSplitRow extends StatelessWidget {
     // 0xc39cf8: mov             x1, x3
     // 0xc39cfc: stur            x3, [fp, #-0x28]
     // 0xc39d00: r0 = displayTitle()
-    //     0xc39d00: bl              #0x9ef9ac  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::displayTitle
+    //     0xc39d00: bl              #0x9ef9ac  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::displayTitle
     // 0xc39d04: r1 = Null
     //     0xc39d04: mov             x1, NULL
     // 0xc39d08: r2 = 4
@@ -105,7 +105,7 @@ class _XPSplitRow extends StatelessWidget {
     // 0xc39d4c: ldur            x1, [fp, #-0x20]
     // 0xc39d50: ldur            x2, [fp, #-0x30]
     // 0xc39d54: r0 = localizedFormat()
-    //     0xc39d54: bl              #0x5ef9e0  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedFormat
+    //     0xc39d54: bl              #0x5ef9e0  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedFormat
     // 0xc39d58: mov             x1, x0
     // 0xc39d5c: ldur            x0, [fp, #-0x28]
     // 0xc39d60: stur            x1, [fp, #-0x18]
@@ -237,14 +237,14 @@ class _XPSplitRow extends StatelessWidget {
     //     0xc39ed8: ldr             x16, [x16, #0x1f8]
     // 0xc39edc: str             x16, [SP]
     // 0xc39ee0: ldur            x1, [fp, #-0x10]
-    // 0xc39ee4: r2 = Instance_BallAiTextScale
-    //     0xc39ee4: add             x2, PP, #0x2f, lsl #12  ; [pp+0x2fde8] Obj!BallAiTextScale@d3b001
+    // 0xc39ee4: r2 = Instance_KourtAiTextScale
+    //     0xc39ee4: add             x2, PP, #0x2f, lsl #12  ; [pp+0x2fde8] Obj!KourtAiTextScale@d3b001
     //     0xc39ee8: ldr             x2, [x2, #0xde8]
     // 0xc39eec: r4 = const [0, 0x3, 0x1, 0x2, weight, 0x2, null]
     //     0xc39eec: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf00] List(7) [0, 0x3, 0x1, 0x2, "weight", 0x2, Null]
     //     0xc39ef0: ldr             x4, [x4, #0xf00]
-    // 0xc39ef4: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xc39ef4: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xc39ef4: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xc39ef4: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xc39ef8: stur            x0, [fp, #-0x10]
     // 0xc39efc: r0 = Text()
     //     0xc39efc: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -394,11 +394,11 @@ class DrillDetailsSheet extends StatelessWidget {
     // 0xabcc94: StoreField: r2->field_f = r0
     //     0xabcc94: stur            w0, [x2, #0xf]
     // 0xabcc98: ldur            x1, [fp, #-8]
-    // 0xabcc9c: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xabcc9c: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xabcc9c: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xabcc9c: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xabcca0: ldur            x2, [fp, #-0x18]
     // 0xabcca4: r1 = Function '<anonymous closure>': static.
-    //     0xabcca4: add             x1, PP, #0x29, lsl #12  ; [pp+0x29f38] AnonymousClosure: static (0xabccf4), in [package:ballai/video_tracking/views/drills/widgets/drill_xp_preview.dart] DrillDetailsSheet::present (0xabcc60)
+    //     0xabcca4: add             x1, PP, #0x29, lsl #12  ; [pp+0x29f38] AnonymousClosure: static (0xabccf4), in [package:kourtai/video_tracking/views/drills/widgets/drill_xp_preview.dart] DrillDetailsSheet::present (0xabcc60)
     //     0xabcca8: ldr             x1, [x1, #0xf38]
     // 0xabccac: stur            x0, [fp, #-0x10]
     // 0xabccb0: r0 = AllocateClosure()
@@ -540,7 +540,7 @@ class DrillDetailsSheet extends StatelessWidget {
     // 0xc3927c: mov             x1, x3
     // 0xc39280: stur            x3, [fp, #-0x10]
     // 0xc39284: r0 = instructionLines()
-    //     0xc39284: bl              #0x99922c  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::instructionLines
+    //     0xc39284: bl              #0x99922c  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::instructionLines
     // 0xc39288: LoadField: r1 = r0->field_b
     //     0xc39288: ldur            w1, [x0, #0xb]
     // 0xc3928c: cbnz            w1, #0xc39298
@@ -552,7 +552,7 @@ class DrillDetailsSheet extends StatelessWidget {
     // 0xc3929c: ldur            x1, [fp, #-0x10]
     // 0xc392a0: stur            x0, [fp, #-8]
     // 0xc392a4: r0 = entriesFor()
-    //     0xc392a4: bl              #0xc38478  ; [package:ballai/video_tracking/views/drills/widgets/drill_xp_preview.dart] DrillXPPreviewModel::entriesFor
+    //     0xc392a4: bl              #0xc38478  ; [package:kourtai/video_tracking/views/drills/widgets/drill_xp_preview.dart] DrillXPPreviewModel::entriesFor
     // 0xc392a8: stur            x0, [fp, #-0x28]
     // 0xc392ac: LoadField: r1 = r0->field_b
     //     0xc392ac: ldur            w1, [x0, #0xb]
@@ -567,7 +567,7 @@ class DrillDetailsSheet extends StatelessWidget {
     //     0xc392c4: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bef0] "Drill details"
     //     0xc392c8: ldr             x1, [x1, #0xef0]
     // 0xc392cc: r0 = L()
-    //     0xc392cc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc392cc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc392d0: mov             x3, x0
     // 0xc392d4: ldur            x0, [fp, #-0x18]
     // 0xc392d8: stur            x3, [fp, #-0x30]
@@ -579,14 +579,14 @@ class DrillDetailsSheet extends StatelessWidget {
     //     0xc392e4: add             x16, PP, #0x15, lsl #12  ; [pp+0x151f0] Obj!FontWeight@d28001
     //     0xc392e8: ldr             x16, [x16, #0x1f0]
     // 0xc392ec: str             x16, [SP]
-    // 0xc392f0: r2 = Instance_BallAiTextScale
-    //     0xc392f0: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bef8] Obj!BallAiTextScale@d3afc1
+    // 0xc392f0: r2 = Instance_KourtAiTextScale
+    //     0xc392f0: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bef8] Obj!KourtAiTextScale@d3afc1
     //     0xc392f4: ldr             x2, [x2, #0xef8]
     // 0xc392f8: r4 = const [0, 0x3, 0x1, 0x2, weight, 0x2, null]
     //     0xc392f8: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf00] List(7) [0, 0x3, 0x1, 0x2, "weight", 0x2, Null]
     //     0xc392fc: ldr             x4, [x4, #0xf00]
-    // 0xc39300: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xc39300: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xc39300: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xc39300: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xc39304: stur            x0, [fp, #-0x38]
     // 0xc39308: r0 = Text()
     //     0xc39308: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -621,7 +621,7 @@ class DrillDetailsSheet extends StatelessWidget {
     //     0xc39354: add             x1, PP, #0x26, lsl #12  ; [pp+0x266c8] "Done"
     //     0xc39358: ldr             x1, [x1, #0x6c8]
     // 0xc3935c: r0 = L()
-    //     0xc3935c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc3935c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc39360: stur            x0, [fp, #-0x38]
     // 0xc39364: r0 = Text()
     //     0xc39364: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -632,7 +632,7 @@ class DrillDetailsSheet extends StatelessWidget {
     //     0xc39374: stur            w0, [x3, #0xb]
     // 0xc39378: ldur            x2, [fp, #-0x18]
     // 0xc3937c: r1 = Function '<anonymous closure>':.
-    //     0xc3937c: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bf08] AnonymousClosure: (0x953eb0), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
+    //     0xc3937c: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bf08] AnonymousClosure: (0x953eb0), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
     //     0xc39380: ldr             x1, [x1, #0xf08]
     // 0xc39384: r0 = AllocateClosure()
     //     0xc39384: bl              #0xe553e0  ; AllocateClosureStub
@@ -748,7 +748,7 @@ class DrillDetailsSheet extends StatelessWidget {
     //     0xc3949c: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bf18] "Instructions"
     //     0xc394a0: ldr             x1, [x1, #0xf18]
     // 0xc394a4: r0 = L()
-    //     0xc394a4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc394a4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc394a8: mov             x3, x0
     // 0xc394ac: ldur            x0, [fp, #-0x18]
     // 0xc394b0: stur            x3, [fp, #-0x40]
@@ -760,14 +760,14 @@ class DrillDetailsSheet extends StatelessWidget {
     //     0xc394bc: add             x16, PP, #0x15, lsl #12  ; [pp+0x151f0] Obj!FontWeight@d28001
     //     0xc394c0: ldr             x16, [x16, #0x1f0]
     // 0xc394c4: str             x16, [SP]
-    // 0xc394c8: r2 = Instance_BallAiTextScale
-    //     0xc394c8: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bef8] Obj!BallAiTextScale@d3afc1
+    // 0xc394c8: r2 = Instance_KourtAiTextScale
+    //     0xc394c8: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bef8] Obj!KourtAiTextScale@d3afc1
     //     0xc394cc: ldr             x2, [x2, #0xef8]
     // 0xc394d0: r4 = const [0, 0x3, 0x1, 0x2, weight, 0x2, null]
     //     0xc394d0: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf00] List(7) [0, 0x3, 0x1, 0x2, "weight", 0x2, Null]
     //     0xc394d4: ldr             x4, [x4, #0xf00]
-    // 0xc394d8: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xc394d8: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xc394d8: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xc394d8: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xc394dc: stur            x0, [fp, #-0x48]
     // 0xc394e0: r0 = Text()
     //     0xc394e0: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -792,21 +792,21 @@ class DrillDetailsSheet extends StatelessWidget {
     //     0xc39514: add             x5, x5, HEAP, lsl #32
     // 0xc39518: mov             x1, x5
     // 0xc3951c: stur            x5, [fp, #-0x40]
-    // 0xc39520: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc39520: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc39520: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc39520: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc39524: r16 = 1.400000
     //     0xc39524: add             x16, PP, #0x2b, lsl #12  ; [pp+0x2bf20] 1.4
     //     0xc39528: ldr             x16, [x16, #0xf20]
     // 0xc3952c: stp             x16, x0, [SP]
     // 0xc39530: ldur            x1, [fp, #-0x40]
-    // 0xc39534: r2 = Instance_BallAiTextScale
-    //     0xc39534: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bf28] Obj!BallAiTextScale@d3b081
+    // 0xc39534: r2 = Instance_KourtAiTextScale
+    //     0xc39534: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bf28] Obj!KourtAiTextScale@d3b081
     //     0xc39538: ldr             x2, [x2, #0xf28]
     // 0xc3953c: r4 = const [0, 0x4, 0x2, 0x2, color, 0x2, height, 0x3, null]
     //     0xc3953c: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf30] List(9) [0, 0x4, 0x2, 0x2, "color", 0x2, "height", 0x3, Null]
     //     0xc39540: ldr             x4, [x4, #0xf30]
-    // 0xc39544: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xc39544: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xc39544: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xc39544: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xc39548: stur            x0, [fp, #-0x40]
     // 0xc3954c: r0 = Text()
     //     0xc3954c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -904,7 +904,7 @@ class DrillDetailsSheet extends StatelessWidget {
     //     0xc39640: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bf40] "Player rating info"
     //     0xc39644: ldr             x1, [x1, #0xf40]
     // 0xc39648: r0 = L()
-    //     0xc39648: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc39648: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3964c: mov             x3, x0
     // 0xc39650: ldur            x0, [fp, #-0x18]
     // 0xc39654: stur            x3, [fp, #-0x40]
@@ -916,14 +916,14 @@ class DrillDetailsSheet extends StatelessWidget {
     //     0xc39660: add             x16, PP, #0x15, lsl #12  ; [pp+0x151f0] Obj!FontWeight@d28001
     //     0xc39664: ldr             x16, [x16, #0x1f0]
     // 0xc39668: str             x16, [SP]
-    // 0xc3966c: r2 = Instance_BallAiTextScale
-    //     0xc3966c: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bef8] Obj!BallAiTextScale@d3afc1
+    // 0xc3966c: r2 = Instance_KourtAiTextScale
+    //     0xc3966c: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bef8] Obj!KourtAiTextScale@d3afc1
     //     0xc39670: ldr             x2, [x2, #0xef8]
     // 0xc39674: r4 = const [0, 0x3, 0x1, 0x2, weight, 0x2, null]
     //     0xc39674: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf00] List(7) [0, 0x3, 0x1, 0x2, "weight", 0x2, Null]
     //     0xc39678: ldr             x4, [x4, #0xf00]
-    // 0xc3967c: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xc3967c: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xc3967c: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xc3967c: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xc39680: stur            x0, [fp, #-0x48]
     // 0xc39684: r0 = Text()
     //     0xc39684: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -939,7 +939,7 @@ class DrillDetailsSheet extends StatelessWidget {
     //     0xc396a0: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bf48] "Your workout score becomes player rating XP. A higher score means more XP toward each attribute below."
     //     0xc396a4: ldr             x1, [x1, #0xf48]
     // 0xc396a8: r0 = L()
-    //     0xc396a8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc396a8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc396ac: mov             x2, x0
     // 0xc396b0: ldur            x0, [fp, #-0x18]
     // 0xc396b4: stur            x2, [fp, #-0x48]
@@ -949,21 +949,21 @@ class DrillDetailsSheet extends StatelessWidget {
     //     0xc396bc: add             x3, x3, HEAP, lsl #32
     // 0xc396c0: mov             x1, x3
     // 0xc396c4: stur            x3, [fp, #-0x40]
-    // 0xc396c8: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc396c8: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc396c8: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc396c8: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc396cc: r16 = 1.400000
     //     0xc396cc: add             x16, PP, #0x2b, lsl #12  ; [pp+0x2bf20] 1.4
     //     0xc396d0: ldr             x16, [x16, #0xf20]
     // 0xc396d4: stp             x16, x0, [SP]
     // 0xc396d8: ldur            x1, [fp, #-0x40]
-    // 0xc396dc: r2 = Instance_BallAiTextScale
-    //     0xc396dc: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bf28] Obj!BallAiTextScale@d3b081
+    // 0xc396dc: r2 = Instance_KourtAiTextScale
+    //     0xc396dc: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bf28] Obj!KourtAiTextScale@d3b081
     //     0xc396e0: ldr             x2, [x2, #0xf28]
     // 0xc396e4: r4 = const [0, 0x4, 0x2, 0x2, color, 0x2, height, 0x3, null]
     //     0xc396e4: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf30] List(9) [0, 0x4, 0x2, 0x2, "color", 0x2, "height", 0x3, Null]
     //     0xc396e8: ldr             x4, [x4, #0xf30]
-    // 0xc396ec: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xc396ec: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xc396ec: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xc396ec: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xc396f0: stur            x0, [fp, #-0x40]
     // 0xc396f4: r0 = Text()
     //     0xc396f4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -979,7 +979,7 @@ class DrillDetailsSheet extends StatelessWidget {
     //     0xc39710: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bf50] "For this drill, your workout XP splits across these attributes:"
     //     0xc39714: ldr             x1, [x1, #0xf50]
     // 0xc39718: r0 = L()
-    //     0xc39718: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc39718: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3971c: mov             x2, x0
     // 0xc39720: ldur            x0, [fp, #-0x18]
     // 0xc39724: stur            x2, [fp, #-0x48]
@@ -989,21 +989,21 @@ class DrillDetailsSheet extends StatelessWidget {
     //     0xc3972c: add             x3, x3, HEAP, lsl #32
     // 0xc39730: mov             x1, x3
     // 0xc39734: stur            x3, [fp, #-0x40]
-    // 0xc39738: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc39738: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc39738: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc39738: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc3973c: r16 = 1.400000
     //     0xc3973c: add             x16, PP, #0x2b, lsl #12  ; [pp+0x2bf20] 1.4
     //     0xc39740: ldr             x16, [x16, #0xf20]
     // 0xc39744: stp             x16, x0, [SP]
     // 0xc39748: ldur            x1, [fp, #-0x40]
-    // 0xc3974c: r2 = Instance_BallAiTextScale
-    //     0xc3974c: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bf28] Obj!BallAiTextScale@d3b081
+    // 0xc3974c: r2 = Instance_KourtAiTextScale
+    //     0xc3974c: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bf28] Obj!KourtAiTextScale@d3b081
     //     0xc39750: ldr             x2, [x2, #0xf28]
     // 0xc39754: r4 = const [0, 0x4, 0x2, 0x2, color, 0x2, height, 0x3, null]
     //     0xc39754: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf30] List(9) [0, 0x4, 0x2, 0x2, "color", 0x2, "height", 0x3, Null]
     //     0xc39758: ldr             x4, [x4, #0xf30]
-    // 0xc3975c: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xc3975c: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xc3975c: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xc3975c: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xc39760: stur            x0, [fp, #-0x40]
     // 0xc39764: r0 = Text()
     //     0xc39764: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1228,7 +1228,7 @@ class DrillDetailsSheet extends StatelessWidget {
     //     0xc399c8: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bf58] "No extra details for this drill yet."
     //     0xc399cc: ldr             x1, [x1, #0xf58]
     // 0xc399d0: r0 = L()
-    //     0xc399d0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc399d0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc399d4: mov             x2, x0
     // 0xc399d8: ldur            x0, [fp, #-0x18]
     // 0xc399dc: stur            x2, [fp, #-0x10]
@@ -1238,18 +1238,18 @@ class DrillDetailsSheet extends StatelessWidget {
     //     0xc399e4: add             x3, x3, HEAP, lsl #32
     // 0xc399e8: mov             x1, x3
     // 0xc399ec: stur            x3, [fp, #-8]
-    // 0xc399f0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc399f0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc399f0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc399f0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc399f4: str             x0, [SP]
     // 0xc399f8: ldur            x1, [fp, #-8]
-    // 0xc399fc: r2 = Instance_BallAiTextScale
-    //     0xc399fc: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bf28] Obj!BallAiTextScale@d3b081
+    // 0xc399fc: r2 = Instance_KourtAiTextScale
+    //     0xc399fc: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bf28] Obj!KourtAiTextScale@d3b081
     //     0xc39a00: ldr             x2, [x2, #0xf28]
     // 0xc39a04: r4 = const [0, 0x3, 0x1, 0x2, color, 0x2, null]
     //     0xc39a04: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf60] List(7) [0, 0x3, 0x1, 0x2, "color", 0x2, Null]
     //     0xc39a08: ldr             x4, [x4, #0xf60]
-    // 0xc39a0c: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xc39a0c: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xc39a0c: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xc39a0c: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xc39a10: stur            x0, [fp, #-8]
     // 0xc39a14: r0 = Text()
     //     0xc39a14: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1573,8 +1573,8 @@ class _AttributeXPGauge extends StatelessWidget {
     //     0xc38dc8: ldr             x3, [x3, #0x928]
     // 0xc38dcc: ldur            x1, [fp, #-0x10]
     // 0xc38dd0: stur            x3, [fp, #-8]
-    // 0xc38dd4: r0 = BallAiThemeContext.ballAi()
-    //     0xc38dd4: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xc38dd4: r0 = KourtAiThemeContext.kourtAi()
+    //     0xc38dd4: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xc38dd8: LoadField: r1 = r0->field_23
     //     0xc38dd8: ldur            w1, [x0, #0x23]
     // 0xc38ddc: DecompressPointer r1
@@ -1664,14 +1664,14 @@ class _AttributeXPGauge extends StatelessWidget {
     //     0xc38ee8: ldr             x16, [x16, #0x1f0]
     // 0xc38eec: str             x16, [SP]
     // 0xc38ef0: ldur            x1, [fp, #-0x10]
-    // 0xc38ef4: r2 = Instance_BallAiTextScale
-    //     0xc38ef4: add             x2, PP, #0x2f, lsl #12  ; [pp+0x2fd78] Obj!BallAiTextScale@d3afe1
+    // 0xc38ef4: r2 = Instance_KourtAiTextScale
+    //     0xc38ef4: add             x2, PP, #0x2f, lsl #12  ; [pp+0x2fd78] Obj!KourtAiTextScale@d3afe1
     //     0xc38ef8: ldr             x2, [x2, #0xd78]
     // 0xc38efc: r4 = const [0, 0x3, 0x1, 0x2, weight, 0x2, null]
     //     0xc38efc: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf00] List(7) [0, 0x3, 0x1, 0x2, "weight", 0x2, Null]
     //     0xc38f00: ldr             x4, [x4, #0xf00]
-    // 0xc38f04: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xc38f04: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xc38f04: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xc38f04: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xc38f08: stur            x0, [fp, #-0x20]
     // 0xc38f0c: r0 = Text()
     //     0xc38f0c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1832,21 +1832,21 @@ class _AttributeXPGauge extends StatelessWidget {
     //     0xc390e0: ldr             x0, [x0, #0x910]
     // 0xc390e4: ldur            x1, [fp, #-0x10]
     // 0xc390e8: stur            x0, [fp, #-8]
-    // 0xc390ec: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc390ec: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc390ec: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc390ec: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc390f0: r16 = Instance_FontWeight
     //     0xc390f0: add             x16, PP, #0x15, lsl #12  ; [pp+0x151f8] Obj!FontWeight@d28021
     //     0xc390f4: ldr             x16, [x16, #0x1f8]
     // 0xc390f8: stp             x0, x16, [SP]
     // 0xc390fc: ldur            x1, [fp, #-0x10]
-    // 0xc39100: r2 = Instance_BallAiTextScale
-    //     0xc39100: add             x2, PP, #0x2f, lsl #12  ; [pp+0x2fd78] Obj!BallAiTextScale@d3afe1
+    // 0xc39100: r2 = Instance_KourtAiTextScale
+    //     0xc39100: add             x2, PP, #0x2f, lsl #12  ; [pp+0x2fd78] Obj!KourtAiTextScale@d3afe1
     //     0xc39104: ldr             x2, [x2, #0xd78]
     // 0xc39108: r4 = const [0, 0x4, 0x2, 0x2, color, 0x3, weight, 0x2, null]
     //     0xc39108: add             x4, PP, #0x2a, lsl #12  ; [pp+0x2aaa8] List(9) [0, 0x4, 0x2, 0x2, "color", 0x3, "weight", 0x2, Null]
     //     0xc3910c: ldr             x4, [x4, #0xaa8]
-    // 0xc39110: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xc39110: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xc39110: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xc39110: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xc39114: stur            x0, [fp, #-0x10]
     // 0xc39118: r0 = Text()
     //     0xc39118: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1987,7 +1987,7 @@ class DrillXPPreview extends StatelessWidget {
     //     0xc380d4: add             x2, x2, HEAP, lsl #32
     // 0xc380d8: mov             x1, x2
     // 0xc380dc: r0 = entriesFor()
-    //     0xc380dc: bl              #0xc38478  ; [package:ballai/video_tracking/views/drills/widgets/drill_xp_preview.dart] DrillXPPreviewModel::entriesFor
+    //     0xc380dc: bl              #0xc38478  ; [package:kourtai/video_tracking/views/drills/widgets/drill_xp_preview.dart] DrillXPPreviewModel::entriesFor
     // 0xc380e0: stur            x0, [fp, #-0x10]
     // 0xc380e4: LoadField: r1 = r0->field_b
     //     0xc380e4: ldur            w1, [x0, #0xb]
@@ -2003,21 +2003,21 @@ class DrillXPPreview extends StatelessWidget {
     //     0xc380fc: add             x1, PP, #0x34, lsl #12  ; [pp+0x34d38] "Here\'s the attributes you\'ll upgrade with this drill"
     //     0xc38100: ldr             x1, [x1, #0xd38]
     // 0xc38104: r0 = L()
-    //     0xc38104: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc38104: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc38108: stur            x0, [fp, #-0x18]
     // 0xc3810c: r16 = Instance_FontWeight
     //     0xc3810c: add             x16, PP, #0x15, lsl #12  ; [pp+0x151f0] Obj!FontWeight@d28001
     //     0xc38110: ldr             x16, [x16, #0x1f0]
     // 0xc38114: str             x16, [SP]
     // 0xc38118: ldur            x1, [fp, #-8]
-    // 0xc3811c: r2 = Instance_BallAiTextScale
-    //     0xc3811c: add             x2, PP, #0x34, lsl #12  ; [pp+0x34d40] Obj!BallAiTextScale@d3b0a1
+    // 0xc3811c: r2 = Instance_KourtAiTextScale
+    //     0xc3811c: add             x2, PP, #0x34, lsl #12  ; [pp+0x34d40] Obj!KourtAiTextScale@d3b0a1
     //     0xc38120: ldr             x2, [x2, #0xd40]
     // 0xc38124: r4 = const [0, 0x3, 0x1, 0x2, weight, 0x2, null]
     //     0xc38124: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf00] List(7) [0, 0x3, 0x1, 0x2, "weight", 0x2, Null]
     //     0xc38128: ldr             x4, [x4, #0xf00]
-    // 0xc3812c: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xc3812c: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xc3812c: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xc3812c: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xc38130: stur            x0, [fp, #-8]
     // 0xc38134: r0 = Text()
     //     0xc38134: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2700,7 +2700,7 @@ abstract class DrillXPPreviewModel extends Object {
     //     0xc38494: b.ls            #0xc38684
     // 0xc38498: mov             x1, x0
     // 0xc3849c: r0 = canonicalSubCategoryGroupKey()
-    //     0xc3849c: bl              #0x5ed630  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::canonicalSubCategoryGroupKey
+    //     0xc3849c: bl              #0x5ed630  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::canonicalSubCategoryGroupKey
     // 0xc384a0: ldur            x1, [fp, #-8]
     // 0xc384a4: stur            x0, [fp, #-0x18]
     // 0xc384a8: LoadField: r2 = r1->field_5f
@@ -2709,12 +2709,12 @@ abstract class DrillXPPreviewModel extends Object {
     //     0xc384ac: add             x2, x2, HEAP, lsl #32
     // 0xc384b0: stur            x2, [fp, #-0x10]
     // 0xc384b4: r0 = resolvedAttributes()
-    //     0xc384b4: bl              #0xa023f4  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::resolvedAttributes
+    //     0xc384b4: bl              #0xa023f4  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::resolvedAttributes
     // 0xc384b8: mov             x1, x0
     // 0xc384bc: ldur            x2, [fp, #-0x10]
     // 0xc384c0: ldur            x3, [fp, #-0x18]
     // 0xc384c4: r0 = resolved()
-    //     0xc384c4: bl              #0xc386c4  ; [package:ballai/video_tracking/views/drills/widgets/drill_xp_preview.dart] DrillLaneWeights::resolved
+    //     0xc384c4: bl              #0xc386c4  ; [package:kourtai/video_tracking/views/drills/widgets/drill_xp_preview.dart] DrillLaneWeights::resolved
     // 0xc384c8: r1 = <DrillXPPreviewEntry>
     //     0xc384c8: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bf70] TypeArguments: <DrillXPPreviewEntry>
     //     0xc384cc: ldr             x1, [x1, #0xf70]
@@ -2780,7 +2780,7 @@ abstract class DrillXPPreviewModel extends Object {
     // 0xc3857c: DecompressPointer r1
     //     0xc3857c: add             x1, x1, HEAP, lsl #32
     // 0xc38580: r0 = fromRaw()
-    //     0xc38580: bl              #0x755fc0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::fromRaw
+    //     0xc38580: bl              #0x755fc0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::fromRaw
     // 0xc38584: stur            x0, [fp, #-0x20]
     // 0xc38588: cmp             w0, NULL
     // 0xc3858c: b.ne            #0xc38598
@@ -2846,7 +2846,7 @@ abstract class DrillXPPreviewModel extends Object {
     // 0xc38640: b               #0xc3850c
     // 0xc38644: ldur            x3, [fp, #-0x10]
     // 0xc38648: r1 = Function '<anonymous closure>': static.
-    //     0xc38648: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bf78] AnonymousClosure: static (0xc38bb4), in [package:ballai/video_tracking/views/drills/widgets/drill_xp_preview.dart] DrillXPPreviewModel::entriesFor (0xc38478)
+    //     0xc38648: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bf78] AnonymousClosure: static (0xc38bb4), in [package:kourtai/video_tracking/views/drills/widgets/drill_xp_preview.dart] DrillXPPreviewModel::entriesFor (0xc38478)
     //     0xc3864c: ldr             x1, [x1, #0xf78]
     // 0xc38650: r2 = Null
     //     0xc38650: mov             x2, NULL
@@ -2990,7 +2990,7 @@ abstract class DrillLaneWeights extends Object {
     // 0xc38718: sub             x4, x0, x5
     // 0xc3871c: cbz             x4, #0xc38730
     // 0xc38720: r0 = normalize()
-    //     0xc38720: bl              #0xc389a0  ; [package:ballai/video_tracking/views/drills/widgets/drill_xp_preview.dart] DrillLaneWeights::normalize
+    //     0xc38720: bl              #0xc389a0  ; [package:kourtai/video_tracking/views/drills/widgets/drill_xp_preview.dart] DrillLaneWeights::normalize
     // 0xc38724: LeaveFrame
     //     0xc38724: mov             SP, fp
     //     0xc38728: ldp             fp, lr, [SP], #0x10
@@ -3140,7 +3140,7 @@ abstract class DrillLaneWeights extends Object {
     // 0xc388f4: b               #0xc38794
     // 0xc388f8: ldur            x1, [fp, #-0x18]
     // 0xc388fc: r0 = normalize()
-    //     0xc388fc: bl              #0xc389a0  ; [package:ballai/video_tracking/views/drills/widgets/drill_xp_preview.dart] DrillLaneWeights::normalize
+    //     0xc388fc: bl              #0xc389a0  ; [package:kourtai/video_tracking/views/drills/widgets/drill_xp_preview.dart] DrillLaneWeights::normalize
     // 0xc38900: mov             x2, x0
     // 0xc38904: stur            x2, [fp, #-8]
     // 0xc38908: r0 = LoadClassIdInstr(r2)
@@ -3160,7 +3160,7 @@ abstract class DrillLaneWeights extends Object {
     //     0xc38930: ret             
     // 0xc38934: ldur            x1, [fp, #-0x10]
     // 0xc38938: r0 = normalizeDrillLaneKey()
-    //     0xc38938: bl              #0x5ed8fc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
+    //     0xc38938: bl              #0x5ed8fc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
     // 0xc3893c: mov             x2, x0
     // 0xc38940: r1 = _ConstMap len:7
     //     0xc38940: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bf80] Map<String, Map<String, double>>(7)
@@ -3175,7 +3175,7 @@ abstract class DrillLaneWeights extends Object {
     // 0xc3895c: b               #0xc38964
     // 0xc38960: mov             x1, x0
     // 0xc38964: r0 = normalize()
-    //     0xc38964: bl              #0xc389a0  ; [package:ballai/video_tracking/views/drills/widgets/drill_xp_preview.dart] DrillLaneWeights::normalize
+    //     0xc38964: bl              #0xc389a0  ; [package:kourtai/video_tracking/views/drills/widgets/drill_xp_preview.dart] DrillLaneWeights::normalize
     // 0xc38968: LeaveFrame
     //     0xc38968: mov             SP, fp
     //     0xc3896c: ldp             fp, lr, [SP], #0x10
@@ -3223,7 +3223,7 @@ abstract class DrillLaneWeights extends Object {
     //     0xc389d0: ldr             lr, [x21, lr, lsl #3]
     //     0xc389d4: blr             lr
     // 0xc389d8: r1 = Function '<anonymous closure>': static.
-    //     0xc389d8: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bf90] AnonymousClosure: static (0x713694), in [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
+    //     0xc389d8: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bf90] AnonymousClosure: static (0x713694), in [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
     //     0xc389dc: ldr             x1, [x1, #0xf90]
     // 0xc389e0: r2 = Null
     //     0xc389e0: mov             x2, NULL

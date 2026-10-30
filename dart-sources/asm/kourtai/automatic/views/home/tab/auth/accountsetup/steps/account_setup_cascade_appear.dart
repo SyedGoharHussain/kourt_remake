@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart
 
 // class id: 1048835, size: 0x8
 class :: {
@@ -45,7 +45,7 @@ abstract class __AccountSetupCascadeAppearState&State&SingleTickerProviderStateM
     //     0x7b7784: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x7b7788: mov             x1, x2
     // 0x7b778c: r0 = _updateTickerModeNotifier()
-    //     0x7b778c: bl              #0x7b77e4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart] __AccountSetupCascadeAppearState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x7b778c: bl              #0x7b77e4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart] __AccountSetupCascadeAppearState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x7b7790: ldur            x1, [fp, #-8]
     // 0x7b7794: r0 = _updateTicker()
     //     0x7b7794: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -210,7 +210,7 @@ abstract class __AccountSetupCascadeAppearState&State&SingleTickerProviderStateM
     //     0x8e4190: b.ls            #0x8e41b4
     // 0x8e4194: mov             x1, x0
     // 0x8e4198: r0 = _updateTickerModeNotifier()
-    //     0x8e4198: bl              #0x7b77e4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart] __AccountSetupCascadeAppearState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x8e4198: bl              #0x7b77e4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart] __AccountSetupCascadeAppearState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x8e419c: ldur            x1, [fp, #-8]
     // 0x8e41a0: r0 = _updateTicker()
     //     0x8e41a0: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -295,7 +295,7 @@ abstract class __AccountSetupCascadeAppearState&State&SingleTickerProviderStateM
     //     0xb60898: cmp             SP, x16
     //     0xb6089c: b.ls            #0xb608b0
     // 0xb608a0: r0 = dispose()
-    //     0xb608a0: bl              #0xb607ec  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart] __AccountSetupCascadeAppearState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb608a0: bl              #0xb607ec  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart] __AccountSetupCascadeAppearState&State&SingleTickerProviderStateMixin::dispose
     // 0xb608a4: LeaveFrame
     //     0xb608a4: mov             SP, fp
     //     0xb608a8: ldp             fp, lr, [SP], #0x10
@@ -401,7 +401,7 @@ class _AccountSetupCascadeAppearState extends __AccountSetupCascadeAppearState&S
     // 0x8e9340: cmp             w2, w16
     // 0x8e9344: b.eq            #0x8e934c
     // 0x8e9348: r0 = _revealIfNeeded()
-    //     0x8e9348: bl              #0x8e937c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart] _AccountSetupCascadeAppearState::_revealIfNeeded
+    //     0x8e9348: bl              #0x8e937c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart] _AccountSetupCascadeAppearState::_revealIfNeeded
     // 0x8e934c: r0 = Null
     //     0x8e934c: mov             x0, NULL
     // 0x8e9350: LeaveFrame
@@ -543,7 +543,7 @@ class _AccountSetupCascadeAppearState extends __AccountSetupCascadeAppearState&S
     //     0x8e949c: bl              #0x5c6ce0  ; [dart:core] Duration::*
     // 0x8e94a0: ldur            x2, [fp, #-0x10]
     // 0x8e94a4: r1 = Function '<anonymous closure>':.
-    //     0x8e94a4: add             x1, PP, #0x38, lsl #12  ; [pp+0x383a0] AnonymousClosure: (0x8e94fc), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart] _AccountSetupCascadeAppearState::_revealIfNeeded (0x8e937c)
+    //     0x8e94a4: add             x1, PP, #0x38, lsl #12  ; [pp+0x383a0] AnonymousClosure: (0x8e94fc), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart] _AccountSetupCascadeAppearState::_revealIfNeeded (0x8e937c)
     //     0x8e94a8: ldr             x1, [x1, #0x3a0]
     // 0x8e94ac: stur            x0, [fp, #-8]
     // 0x8e94b0: r0 = AllocateClosure()
@@ -719,7 +719,7 @@ class _AccountSetupCascadeAppearState extends __AccountSetupCascadeAppearState&S
     // 0x945118: ldur            x2, [fp, #-0x10]
     // 0x94511c: stur            x0, [fp, #-8]
     // 0x945120: r1 = Function '<anonymous closure>':.
-    //     0x945120: add             x1, PP, #0x38, lsl #12  ; [pp+0x383a8] AnonymousClosure: (0x945208), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart] _AccountSetupCascadeAppearState::initState (0x945060)
+    //     0x945120: add             x1, PP, #0x38, lsl #12  ; [pp+0x383a8] AnonymousClosure: (0x945208), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart] _AccountSetupCascadeAppearState::initState (0x945060)
     //     0x945124: ldr             x1, [x1, #0x3a8]
     // 0x945128: r0 = AllocateClosure()
     //     0x945128: bl              #0xe553e0  ; AllocateClosureStub
@@ -823,7 +823,7 @@ class _AccountSetupCascadeAppearState extends __AccountSetupCascadeAppearState&S
     //     0x94522c: add             x0, x0, HEAP, lsl #32
     // 0x945230: mov             x1, x0
     // 0x945234: r0 = _revealIfNeeded()
-    //     0x945234: bl              #0x8e937c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart] _AccountSetupCascadeAppearState::_revealIfNeeded
+    //     0x945234: bl              #0x8e937c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart] _AccountSetupCascadeAppearState::_revealIfNeeded
     // 0x945238: r0 = Null
     //     0x945238: mov             x0, NULL
     // 0x94523c: LeaveFrame
@@ -874,7 +874,7 @@ class _AccountSetupCascadeAppearState extends __AccountSetupCascadeAppearState&S
     // 0x9ea7dc: mov             x2, x1
     // 0x9ea7e0: stur            x0, [fp, #-8]
     // 0x9ea7e4: r1 = Function '<anonymous closure>':.
-    //     0x9ea7e4: add             x1, PP, #0x38, lsl #12  ; [pp+0x38360] AnonymousClosure: (0x9ea82c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart] _AccountSetupCascadeAppearState::build (0x9ea788)
+    //     0x9ea7e4: add             x1, PP, #0x38, lsl #12  ; [pp+0x38360] AnonymousClosure: (0x9ea82c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart] _AccountSetupCascadeAppearState::build (0x9ea788)
     //     0x9ea7e8: ldr             x1, [x1, #0x360]
     // 0x9ea7ec: r0 = AllocateClosure()
     //     0x9ea7ec: bl              #0xe553e0  ; AllocateClosureStub
@@ -1007,7 +1007,7 @@ class _AccountSetupCascadeAppearState extends __AccountSetupCascadeAppearState&S
     //     0xb5a78c: mov             fp, SP
     // 0xb5a790: ldr             x2, [fp, #0x10]
     // 0xb5a794: r1 = Function 'dispose':.
-    //     0xb5a794: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cb48] AnonymousClosure: (0xb5a7ac), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart] _AccountSetupCascadeAppearState::dispose (0xb60788)
+    //     0xb5a794: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cb48] AnonymousClosure: (0xb5a7ac), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart] _AccountSetupCascadeAppearState::dispose (0xb60788)
     //     0xb5a798: ldr             x1, [x1, #0xb48]
     // 0xb5a79c: r0 = AllocateClosure()
     //     0xb5a79c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1032,7 +1032,7 @@ class _AccountSetupCascadeAppearState extends __AccountSetupCascadeAppearState&S
     //     0xb5a7c4: cmp             SP, x16
     //     0xb5a7c8: b.ls            #0xb5a7dc
     // 0xb5a7cc: r0 = dispose()
-    //     0xb5a7cc: bl              #0xb60788  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart] _AccountSetupCascadeAppearState::dispose
+    //     0xb5a7cc: bl              #0xb60788  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart] _AccountSetupCascadeAppearState::dispose
     // 0xb5a7d0: LeaveFrame
     //     0xb5a7d0: mov             SP, fp
     //     0xb5a7d4: ldp             fp, lr, [SP], #0x10
@@ -1068,7 +1068,7 @@ class _AccountSetupCascadeAppearState extends __AccountSetupCascadeAppearState&S
     //     0xb607bc: bl              #0x809c40  ; [package:flutter/src/animation/animation_controller.dart] AnimationController::dispose
     // 0xb607c0: ldur            x1, [fp, #-8]
     // 0xb607c4: r0 = dispose()
-    //     0xb607c4: bl              #0xb607ec  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart] __AccountSetupCascadeAppearState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb607c4: bl              #0xb607ec  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_cascade_appear.dart] __AccountSetupCascadeAppearState&State&SingleTickerProviderStateMixin::dispose
     // 0xb607c8: r0 = Null
     //     0xb607c8: mov             x0, NULL
     // 0xb607cc: LeaveFrame

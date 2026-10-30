@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/stats/workouts/workout_model.dart
+// lib: , url: package:kourtai/automatic/models/core/stats/workouts/workout_model.dart
 
 // class id: 1048698, size: 0x8
 class :: {
@@ -1660,7 +1660,7 @@ class WorkoutModel extends Object {
     // 0x74057c: cbz             w1, #0x7405ec
     // 0x740580: ldur            x4, [fp, #-0x10]
     // 0x740584: r1 = Function '<anonymous closure>':.
-    //     0x740584: add             x1, PP, #0x29, lsl #12  ; [pp+0x29258] AnonymousClosure: (0x740f58), in [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::toFirestoreMap (0x740044)
+    //     0x740584: add             x1, PP, #0x29, lsl #12  ; [pp+0x29258] AnonymousClosure: (0x740f58), in [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::toFirestoreMap (0x740044)
     //     0x740588: ldr             x1, [x1, #0x258]
     // 0x74058c: r2 = Null
     //     0x74058c: mov             x2, NULL
@@ -1706,7 +1706,7 @@ class WorkoutModel extends Object {
     // 0x7405fc: b.eq            #0x740634
     // 0x740600: ldur            x2, [fp, #-0x10]
     // 0x740604: r0 = toMap()
-    //     0x740604: bl              #0x740c20  ; [package:ballai/shared/models/workout/scene_context.dart] SceneContext::toMap
+    //     0x740604: bl              #0x740c20  ; [package:kourtai/shared/models/workout/scene_context.dart] SceneContext::toMap
     // 0x740608: ldur            x4, [fp, #-0x10]
     // 0x74060c: r1 = LoadClassIdInstr(r4)
     //     0x74060c: ldur            x1, [x4, #-1]
@@ -1879,7 +1879,7 @@ class WorkoutModel extends Object {
     // 0x740800: cbz             w1, #0x740870
     // 0x740804: ldur            x4, [fp, #-0x10]
     // 0x740808: r1 = Function '<anonymous closure>':.
-    //     0x740808: add             x1, PP, #0x29, lsl #12  ; [pp+0x29268] AnonymousClosure: (0x740dbc), in [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::toFirestoreMap (0x740044)
+    //     0x740808: add             x1, PP, #0x29, lsl #12  ; [pp+0x29268] AnonymousClosure: (0x740dbc), in [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::toFirestoreMap (0x740044)
     //     0x74080c: ldr             x1, [x1, #0x268]
     // 0x740810: r2 = Null
     //     0x740810: mov             x2, NULL
@@ -2384,7 +2384,7 @@ class WorkoutModel extends Object {
     //     0x740f68: b.ls            #0x740f80
     // 0x740f6c: ldr             x1, [fp, #0x10]
     // 0x740f70: r0 = toMap()
-    //     0x740f70: bl              #0x6d287c  ; [package:ballai/automatic/models/core/stats/workouts/ai_feedback_entry.dart] AiFeedbackEntry::toMap
+    //     0x740f70: bl              #0x6d287c  ; [package:kourtai/automatic/models/core/stats/workouts/ai_feedback_entry.dart] AiFeedbackEntry::toMap
     // 0x740f74: LeaveFrame
     //     0x740f74: mov             SP, fp
     //     0x740f78: ldp             fp, lr, [SP], #0x10
@@ -2440,7 +2440,7 @@ class WorkoutModel extends Object {
     // 0x74181c: r1 = Null
     //     0x74181c: mov             x1, NULL
     // 0x741820: r0 = WorkoutModel.fromMap()
-    //     0x741820: bl              #0x74186c  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::WorkoutModel.fromMap
+    //     0x741820: bl              #0x74186c  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::WorkoutModel.fromMap
     // 0x741824: LeaveFrame
     //     0x741824: mov             SP, fp
     //     0x741828: ldp             fp, lr, [SP], #0x10
@@ -2463,7 +2463,7 @@ class WorkoutModel extends Object {
     // 0x741850: r1 = Null
     //     0x741850: mov             x1, NULL
     // 0x741854: r0 = WorkoutModel.fromFirestore()
-    //     0x741854: bl              #0x7417a0  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::WorkoutModel.fromFirestore
+    //     0x741854: bl              #0x7417a0  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::WorkoutModel.fromFirestore
     // 0x741858: LeaveFrame
     //     0x741858: mov             SP, fp
     //     0x74185c: ldp             fp, lr, [SP], #0x10
@@ -2506,7 +2506,7 @@ class WorkoutModel extends Object {
     // 0x7418bc: r1 = Null
     //     0x7418bc: mov             x1, NULL
     // 0x7418c0: r0 = _readDate()
-    //     0x7418c0: bl              #0x74441c  ; [package:ballai/automatic/models/core/user/user_model.dart] ::_readDate
+    //     0x7418c0: bl              #0x74441c  ; [package:kourtai/automatic/models/core/user/user_model.dart] ::_readDate
     // 0x7418c4: cmp             w0, NULL
     // 0x7418c8: b.ne            #0x741900
     // 0x7418cc: r1 = 0
@@ -2554,7 +2554,7 @@ class WorkoutModel extends Object {
     // 0x741944: r4 = const [0, 0x2, 0x1, 0x2, null]
     //     0x741944: ldr             x4, [PP, #0xde8]  ; [pp+0xde8] List(5) [0, 0x2, 0x1, 0x2, Null]
     // 0x741948: r0 = _readString()
-    //     0x741948: bl              #0x744360  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readString
+    //     0x741948: bl              #0x744360  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readString
     // 0x74194c: ldur            x1, [fp, #-0x10]
     // 0x741950: r2 = "aiFeedback"
     //     0x741950: add             x2, PP, #0x11, lsl #12  ; [pp+0x11e88] "aiFeedback"
@@ -2728,7 +2728,7 @@ class WorkoutModel extends Object {
     // 0x741b3c: tbnz            w0, #4, #0x741bdc
     // 0x741b40: ldur            x1, [fp, #-0x40]
     // 0x741b44: r0 = fromMap()
-    //     0x741b44: bl              #0x744174  ; [package:ballai/automatic/models/core/stats/workouts/ai_feedback_entry.dart] AiFeedbackEntry::fromMap
+    //     0x741b44: bl              #0x744174  ; [package:kourtai/automatic/models/core/stats/workouts/ai_feedback_entry.dart] AiFeedbackEntry::fromMap
     // 0x741b48: stur            x0, [fp, #-0x48]
     // 0x741b4c: cmp             w0, NULL
     // 0x741b50: b.eq            #0x741bd0
@@ -2850,7 +2850,7 @@ class WorkoutModel extends Object {
     //     0x741ca0: bl              #0x5f1854  ; [dart:collection] LinkedHashMap::LinkedHashMap.from
     // 0x741ca4: mov             x1, x0
     // 0x741ca8: r0 = fromMap()
-    //     0x741ca8: bl              #0x744174  ; [package:ballai/automatic/models/core/stats/workouts/ai_feedback_entry.dart] AiFeedbackEntry::fromMap
+    //     0x741ca8: bl              #0x744174  ; [package:kourtai/automatic/models/core/stats/workouts/ai_feedback_entry.dart] AiFeedbackEntry::fromMap
     // 0x741cac: stur            x0, [fp, #-0x40]
     // 0x741cb0: cmp             w0, NULL
     // 0x741cb4: b.eq            #0x741d34
@@ -2975,7 +2975,7 @@ class WorkoutModel extends Object {
     // 0x741e14: tbnz            w0, #4, #0x741e28
     // 0x741e18: ldur            x1, [fp, #-0x38]
     // 0x741e1c: r0 = fromMap()
-    //     0x741e1c: bl              #0x743d6c  ; [package:ballai/shared/models/workout/scene_context.dart] SceneContext::fromMap
+    //     0x741e1c: bl              #0x743d6c  ; [package:kourtai/shared/models/workout/scene_context.dart] SceneContext::fromMap
     // 0x741e20: mov             x3, x0
     // 0x741e24: b               #0x741f00
     // 0x741e28: ldur            x0, [fp, #-0x38]
@@ -3050,7 +3050,7 @@ class WorkoutModel extends Object {
     //     0x741ee8: bl              #0x5f1854  ; [dart:collection] LinkedHashMap::LinkedHashMap.from
     // 0x741eec: mov             x1, x0
     // 0x741ef0: r0 = fromMap()
-    //     0x741ef0: bl              #0x743d6c  ; [package:ballai/shared/models/workout/scene_context.dart] SceneContext::fromMap
+    //     0x741ef0: bl              #0x743d6c  ; [package:kourtai/shared/models/workout/scene_context.dart] SceneContext::fromMap
     // 0x741ef4: b               #0x741efc
     // 0x741ef8: r0 = Null
     //     0x741ef8: mov             x0, NULL
@@ -3465,7 +3465,7 @@ class WorkoutModel extends Object {
     // 0x7423bc: tbnz            w0, #4, #0x74245c
     // 0x7423c0: ldur            x1, [fp, #-0x58]
     // 0x7423c4: r0 = fromMap()
-    //     0x7423c4: bl              #0x743ab4  ; [package:ballai/shared/models/core/shot_model.dart] CoachFeedbackEntry::fromMap
+    //     0x7423c4: bl              #0x743ab4  ; [package:kourtai/shared/models/core/shot_model.dart] CoachFeedbackEntry::fromMap
     // 0x7423c8: stur            x0, [fp, #-0x68]
     // 0x7423cc: cmp             w0, NULL
     // 0x7423d0: b.eq            #0x742450
@@ -3587,7 +3587,7 @@ class WorkoutModel extends Object {
     //     0x742520: bl              #0x5f1854  ; [dart:collection] LinkedHashMap::LinkedHashMap.from
     // 0x742524: mov             x1, x0
     // 0x742528: r0 = fromMap()
-    //     0x742528: bl              #0x743ab4  ; [package:ballai/shared/models/core/shot_model.dart] CoachFeedbackEntry::fromMap
+    //     0x742528: bl              #0x743ab4  ; [package:kourtai/shared/models/core/shot_model.dart] CoachFeedbackEntry::fromMap
     // 0x74252c: stur            x0, [fp, #-0x58]
     // 0x742530: cmp             w0, NULL
     // 0x742534: b.eq            #0x7425b4
@@ -3672,7 +3672,7 @@ class WorkoutModel extends Object {
     // 0x742624: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x742624: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x742628: r0 = _readString()
-    //     0x742628: bl              #0x744360  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readString
+    //     0x742628: bl              #0x744360  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readString
     // 0x74262c: ldur            x1, [fp, #-0x10]
     // 0x742630: r2 = "name"
     //     0x742630: ldr             x2, [PP, #0x7818]  ; [pp+0x7818] "name"
@@ -3696,7 +3696,7 @@ class WorkoutModel extends Object {
     // 0x742664: r4 = const [0, 0x2, 0x1, 0x2, null]
     //     0x742664: ldr             x4, [PP, #0xde8]  ; [pp+0xde8] List(5) [0, 0x2, 0x1, 0x2, Null]
     // 0x742668: r0 = _readString()
-    //     0x742668: bl              #0x744360  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readString
+    //     0x742668: bl              #0x744360  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readString
     // 0x74266c: ldur            x1, [fp, #-0x10]
     // 0x742670: r2 = "totalShots"
     //     0x742670: add             x2, PP, #0x11, lsl #12  ; [pp+0x11f98] "totalShots"
@@ -3715,7 +3715,7 @@ class WorkoutModel extends Object {
     // 0x742698: r1 = Null
     //     0x742698: mov             x1, NULL
     // 0x74269c: r0 = _readInt()
-    //     0x74269c: bl              #0x743968  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readInt
+    //     0x74269c: bl              #0x743968  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readInt
     // 0x7426a0: ldur            x1, [fp, #-0x10]
     // 0x7426a4: r2 = "totalMakes"
     //     0x7426a4: add             x2, PP, #0x11, lsl #12  ; [pp+0x11fa0] "totalMakes"
@@ -3734,7 +3734,7 @@ class WorkoutModel extends Object {
     // 0x7426cc: r1 = Null
     //     0x7426cc: mov             x1, NULL
     // 0x7426d0: r0 = _readInt()
-    //     0x7426d0: bl              #0x743968  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readInt
+    //     0x7426d0: bl              #0x743968  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readInt
     // 0x7426d4: ldur            x1, [fp, #-0x10]
     // 0x7426d8: r2 = "elapsedTime"
     //     0x7426d8: add             x2, PP, #0x11, lsl #12  ; [pp+0x11fa8] "elapsedTime"
@@ -3753,7 +3753,7 @@ class WorkoutModel extends Object {
     // 0x742700: r1 = Null
     //     0x742700: mov             x1, NULL
     // 0x742704: r0 = _readDouble()
-    //     0x742704: bl              #0x7438a0  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readDouble
+    //     0x742704: bl              #0x7438a0  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readDouble
     // 0x742708: ldur            x1, [fp, #-0x10]
     // 0x74270c: r2 = "endDate"
     //     0x74270c: add             x2, PP, #0x11, lsl #12  ; [pp+0x11fb0] "endDate"
@@ -3774,7 +3774,7 @@ class WorkoutModel extends Object {
     // 0x742738: r1 = Null
     //     0x742738: mov             x1, NULL
     // 0x74273c: r0 = _readDate()
-    //     0x74273c: bl              #0x74441c  ; [package:ballai/automatic/models/core/user/user_model.dart] ::_readDate
+    //     0x74273c: bl              #0x74441c  ; [package:kourtai/automatic/models/core/user/user_model.dart] ::_readDate
     // 0x742740: ldur            x1, [fp, #-0x10]
     // 0x742744: r2 = "updateDate"
     //     0x742744: add             x2, PP, #0x11, lsl #12  ; [pp+0x11c10] "updateDate"
@@ -3793,7 +3793,7 @@ class WorkoutModel extends Object {
     // 0x74276c: r1 = Null
     //     0x74276c: mov             x1, NULL
     // 0x742770: r0 = _readDate()
-    //     0x742770: bl              #0x74441c  ; [package:ballai/automatic/models/core/user/user_model.dart] ::_readDate
+    //     0x742770: bl              #0x74441c  ; [package:kourtai/automatic/models/core/user/user_model.dart] ::_readDate
     // 0x742774: ldur            x1, [fp, #-0x10]
     // 0x742778: r2 = "goalTotal"
     //     0x742778: add             x2, PP, #0x11, lsl #12  ; [pp+0x11fb8] "goalTotal"
@@ -3812,7 +3812,7 @@ class WorkoutModel extends Object {
     // 0x7427a0: r1 = Null
     //     0x7427a0: mov             x1, NULL
     // 0x7427a4: r0 = _readNullableInt()
-    //     0x7427a4: bl              #0x743788  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableInt
+    //     0x7427a4: bl              #0x743788  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableInt
     // 0x7427a8: ldur            x1, [fp, #-0x10]
     // 0x7427ac: r2 = "isGoalDropDead"
     //     0x7427ac: add             x2, PP, #0x11, lsl #12  ; [pp+0x11fc0] "isGoalDropDead"
@@ -3937,7 +3937,7 @@ class WorkoutModel extends Object {
     // 0x7428f8: r1 = Null
     //     0x7428f8: mov             x1, NULL
     // 0x7428fc: r0 = _readNullableInt()
-    //     0x7428fc: bl              #0x743788  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableInt
+    //     0x7428fc: bl              #0x743788  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableInt
     // 0x742900: ldur            x1, [fp, #-0x10]
     // 0x742904: r2 = "isFavorited"
     //     0x742904: add             x2, PP, #0x11, lsl #12  ; [pp+0x11fe8] "isFavorited"
@@ -4184,7 +4184,7 @@ class WorkoutModel extends Object {
     // 0x742ba8: r1 = Null
     //     0x742ba8: mov             x1, NULL
     // 0x742bac: r0 = _readStringList()
-    //     0x742bac: bl              #0x7434bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readStringList
+    //     0x742bac: bl              #0x7434bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readStringList
     // 0x742bb0: ldur            x1, [fp, #-0x10]
     // 0x742bb4: r2 = "startLocationText"
     //     0x742bb4: add             x2, PP, #0x12, lsl #12  ; [pp+0x12030] "startLocationText"
@@ -4239,7 +4239,7 @@ class WorkoutModel extends Object {
     // 0x742c40: r1 = Null
     //     0x742c40: mov             x1, NULL
     // 0x742c44: r0 = _readNullableDouble()
-    //     0x742c44: bl              #0x74340c  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableDouble
+    //     0x742c44: bl              #0x74340c  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableDouble
     // 0x742c48: ldur            x1, [fp, #-0x10]
     // 0x742c4c: r2 = "startLongitude"
     //     0x742c4c: add             x2, PP, #0x12, lsl #12  ; [pp+0x12040] "startLongitude"
@@ -4258,7 +4258,7 @@ class WorkoutModel extends Object {
     // 0x742c74: r1 = Null
     //     0x742c74: mov             x1, NULL
     // 0x742c78: r0 = _readNullableDouble()
-    //     0x742c78: bl              #0x74340c  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableDouble
+    //     0x742c78: bl              #0x74340c  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableDouble
     // 0x742c7c: ldur            x1, [fp, #-0x10]
     // 0x742c80: r2 = "mood"
     //     0x742c80: add             x2, PP, #0x12, lsl #12  ; [pp+0x12048] "mood"
@@ -4421,7 +4421,7 @@ class WorkoutModel extends Object {
     // 0x742e38: r1 = Null
     //     0x742e38: mov             x1, NULL
     // 0x742e3c: r0 = _readNullableInt()
-    //     0x742e3c: bl              #0x743788  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableInt
+    //     0x742e3c: bl              #0x743788  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableInt
     // 0x742e40: ldur            x1, [fp, #-0x10]
     // 0x742e44: r2 = "dribbleMissedCount"
     //     0x742e44: add             x2, PP, #0x12, lsl #12  ; [pp+0x12070] "dribbleMissedCount"
@@ -4442,7 +4442,7 @@ class WorkoutModel extends Object {
     // 0x742e70: r1 = Null
     //     0x742e70: mov             x1, NULL
     // 0x742e74: r0 = _readNullableInt()
-    //     0x742e74: bl              #0x743788  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableInt
+    //     0x742e74: bl              #0x743788  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableInt
     // 0x742e78: ldur            x1, [fp, #-0x10]
     // 0x742e7c: r2 = "dribbleScore"
     //     0x742e7c: add             x2, PP, #0x12, lsl #12  ; [pp+0x12078] "dribbleScore"
@@ -4463,7 +4463,7 @@ class WorkoutModel extends Object {
     // 0x742ea8: r1 = Null
     //     0x742ea8: mov             x1, NULL
     // 0x742eac: r0 = _readNullableDouble()
-    //     0x742eac: bl              #0x74340c  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableDouble
+    //     0x742eac: bl              #0x74340c  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableDouble
     // 0x742eb0: ldur            x1, [fp, #-0x10]
     // 0x742eb4: r2 = "dribbleMaxMultiplier"
     //     0x742eb4: add             x2, PP, #0x12, lsl #12  ; [pp+0x12080] "dribbleMaxMultiplier"
@@ -4484,7 +4484,7 @@ class WorkoutModel extends Object {
     // 0x742ee0: r1 = Null
     //     0x742ee0: mov             x1, NULL
     // 0x742ee4: r0 = _readNullableDouble()
-    //     0x742ee4: bl              #0x74340c  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableDouble
+    //     0x742ee4: bl              #0x74340c  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableDouble
     // 0x742ee8: ldur            x1, [fp, #-0x10]
     // 0x742eec: r2 = "dribbleMaxMadeStreak"
     //     0x742eec: add             x2, PP, #0x12, lsl #12  ; [pp+0x12088] "dribbleMaxMadeStreak"
@@ -4505,7 +4505,7 @@ class WorkoutModel extends Object {
     // 0x742f18: r1 = Null
     //     0x742f18: mov             x1, NULL
     // 0x742f1c: r0 = _readNullableInt()
-    //     0x742f1c: bl              #0x743788  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableInt
+    //     0x742f1c: bl              #0x743788  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableInt
     // 0x742f20: ldur            x1, [fp, #-0x10]
     // 0x742f24: r2 = "dribbleLeftCount"
     //     0x742f24: add             x2, PP, #0x12, lsl #12  ; [pp+0x12090] "dribbleLeftCount"
@@ -4526,7 +4526,7 @@ class WorkoutModel extends Object {
     // 0x742f50: r1 = Null
     //     0x742f50: mov             x1, NULL
     // 0x742f54: r0 = _readNullableInt()
-    //     0x742f54: bl              #0x743788  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableInt
+    //     0x742f54: bl              #0x743788  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableInt
     // 0x742f58: ldur            x1, [fp, #-0x10]
     // 0x742f5c: r2 = "dribbleRightCount"
     //     0x742f5c: add             x2, PP, #0x12, lsl #12  ; [pp+0x12098] "dribbleRightCount"
@@ -4547,7 +4547,7 @@ class WorkoutModel extends Object {
     // 0x742f88: r1 = Null
     //     0x742f88: mov             x1, NULL
     // 0x742f8c: r0 = _readNullableInt()
-    //     0x742f8c: bl              #0x743788  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableInt
+    //     0x742f8c: bl              #0x743788  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableInt
     // 0x742f90: ldur            x1, [fp, #-0x10]
     // 0x742f94: r2 = "dribbleAverageHeight"
     //     0x742f94: add             x2, PP, #0x12, lsl #12  ; [pp+0x120a0] "dribbleAverageHeight"
@@ -4606,7 +4606,7 @@ class WorkoutModel extends Object {
     // 0x743028: r1 = Null
     //     0x743028: mov             x1, NULL
     // 0x74302c: r0 = _readNullableDouble()
-    //     0x74302c: bl              #0x74340c  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableDouble
+    //     0x74302c: bl              #0x74340c  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableDouble
     // 0x743030: ldur            x1, [fp, #-0x10]
     // 0x743034: r2 = "dribbleEventCount"
     //     0x743034: add             x2, PP, #0x12, lsl #12  ; [pp+0x120b0] "dribbleEventCount"
@@ -4627,7 +4627,7 @@ class WorkoutModel extends Object {
     // 0x743060: r1 = Null
     //     0x743060: mov             x1, NULL
     // 0x743064: r0 = _readNullableInt()
-    //     0x743064: bl              #0x743788  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableInt
+    //     0x743064: bl              #0x743788  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableInt
     // 0x743068: ldur            x1, [fp, #-0x10]
     // 0x74306c: r2 = "dribbleEventChunkCount"
     //     0x74306c: add             x2, PP, #0x12, lsl #12  ; [pp+0x120b8] "dribbleEventChunkCount"
@@ -4648,7 +4648,7 @@ class WorkoutModel extends Object {
     // 0x743098: r1 = Null
     //     0x743098: mov             x1, NULL
     // 0x74309c: r0 = _readNullableInt()
-    //     0x74309c: bl              #0x743788  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableInt
+    //     0x74309c: bl              #0x743788  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableInt
     // 0x7430a0: ldur            x1, [fp, #-0x10]
     // 0x7430a4: r2 = "shootingScore"
     //     0x7430a4: add             x2, PP, #0x12, lsl #12  ; [pp+0x120c0] "shootingScore"
@@ -4669,7 +4669,7 @@ class WorkoutModel extends Object {
     // 0x7430d0: r1 = Null
     //     0x7430d0: mov             x1, NULL
     // 0x7430d4: r0 = _readNullableDouble()
-    //     0x7430d4: bl              #0x74340c  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableDouble
+    //     0x7430d4: bl              #0x74340c  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableDouble
     // 0x7430d8: ldur            x1, [fp, #-0x10]
     // 0x7430dc: r2 = "shootingMaxMultiplier"
     //     0x7430dc: add             x2, PP, #0x12, lsl #12  ; [pp+0x120c8] "shootingMaxMultiplier"
@@ -4690,7 +4690,7 @@ class WorkoutModel extends Object {
     // 0x743108: r1 = Null
     //     0x743108: mov             x1, NULL
     // 0x74310c: r0 = _readNullableDouble()
-    //     0x74310c: bl              #0x74340c  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableDouble
+    //     0x74310c: bl              #0x74340c  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableDouble
     // 0x743110: ldur            x1, [fp, #-0x10]
     // 0x743114: r2 = "finishingScore"
     //     0x743114: add             x2, PP, #0x12, lsl #12  ; [pp+0x120d0] "finishingScore"
@@ -4711,7 +4711,7 @@ class WorkoutModel extends Object {
     // 0x743140: r1 = Null
     //     0x743140: mov             x1, NULL
     // 0x743144: r0 = _readNullableDouble()
-    //     0x743144: bl              #0x74340c  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableDouble
+    //     0x743144: bl              #0x74340c  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableDouble
     // 0x743148: ldur            x1, [fp, #-0x10]
     // 0x74314c: r2 = "finishingMaxMultiplier"
     //     0x74314c: add             x2, PP, #0x12, lsl #12  ; [pp+0x120d8] "finishingMaxMultiplier"
@@ -4789,7 +4789,7 @@ class WorkoutModel extends Object {
     // 0x743218: ldr             x7, [fp, x17]
     // 0x74321c: ldur            x1, [fp, #-0x10]
     // 0x743220: r0 = _readNullableDouble()
-    //     0x743220: bl              #0x74340c  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableDouble
+    //     0x743220: bl              #0x74340c  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] ::_readNullableDouble
     // 0x743224: stur            x0, [fp, #-0x10]
     // 0x743228: r0 = WorkoutModel()
     //     0x743228: bl              #0x74df70  ; AllocateWorkoutModelStub -> WorkoutModel (size=0xd0)
@@ -6472,7 +6472,7 @@ class WorkoutModel extends Object {
     // 0x96dd44: ret
     //     0x96dd44: ret             
     // 0x96dd48: r0 = goalProgress()
-    //     0x96dd48: bl              #0x74da78  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::goalProgress
+    //     0x96dd48: bl              #0x74da78  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::goalProgress
     // 0x96dd4c: ldur            x0, [fp, #-8]
     // 0x96dd50: scvtf           d1, x0
     // 0x96dd54: fdiv            d2, d0, d1
@@ -6504,7 +6504,7 @@ class WorkoutModel extends Object {
     //     0xa33cbc: b.ls            #0xa33d40
     // 0xa33cc0: mov             x1, x0
     // 0xa33cc4: r0 = isDribblingWorkout()
-    //     0xa33cc4: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0xa33cc4: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0xa33cc8: tbnz            w0, #4, #0xa33ce0
     // 0xa33ccc: r0 = "dribbling"
     //     0xa33ccc: add             x0, PP, #0x20, lsl #12  ; [pp+0x20db0] "dribbling"
@@ -6964,7 +6964,7 @@ class WorkoutModel extends Object {
     // 0xa343b8: tbnz            w0, #4, #0xa34480
     // 0xa343bc: ldur            x1, [fp, #-0x10]
     // 0xa343c0: r0 = isDribblingWorkout()
-    //     0xa343c0: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0xa343c0: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0xa343c4: tbnz            w0, #4, #0xa3446c
     // 0xa343c8: ldur            x0, [fp, #-0x10]
     // 0xa343cc: LoadField: r1 = r0->field_93
@@ -7036,7 +7036,7 @@ class WorkoutModel extends Object {
     // 0xa34480: ldur            x0, [fp, #-0x10]
     // 0xa34484: mov             x1, x0
     // 0xa34488: r0 = isDribblingWorkout()
-    //     0xa34488: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0xa34488: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0xa3448c: tbnz            w0, #4, #0xa34534
     // 0xa34490: ldur            x0, [fp, #-0x10]
     // 0xa34494: LoadField: r1 = r0->field_93
@@ -7267,7 +7267,7 @@ class WorkoutModel extends Object {
     //     0xa346e0: cmp             SP, x16
     //     0xa346e4: b.ls            #0xa34820
     // 0xa346e8: r0 = isAnalyzerWorkout()
-    //     0xa346e8: bl              #0x73e3e8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
+    //     0xa346e8: bl              #0x73e3e8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
     // 0xa346ec: tbz             w0, #4, #0xa34700
     // 0xa346f0: r0 = Null
     //     0xa346f0: mov             x0, NULL
@@ -7410,7 +7410,7 @@ class WorkoutModel extends Object {
     //     0xa48570: b.ls            #0xa485c8
     // 0xa48574: mov             x1, x0
     // 0xa48578: r0 = isDribblingWorkout()
-    //     0xa48578: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0xa48578: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0xa4857c: tbnz            w0, #4, #0xa48590
     // 0xa48580: r0 = false
     //     0xa48580: add             x0, NULL, #0x30  ; false
@@ -7421,7 +7421,7 @@ class WorkoutModel extends Object {
     //     0xa4858c: ret             
     // 0xa48590: ldur            x1, [fp, #-8]
     // 0xa48594: r0 = workoutPrimaryCategoryKey()
-    //     0xa48594: bl              #0xa33ca0  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::workoutPrimaryCategoryKey
+    //     0xa48594: bl              #0xa33ca0  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::workoutPrimaryCategoryKey
     // 0xa48598: r1 = LoadClassIdInstr(r0)
     //     0xa48598: ldur            x1, [x0, #-1]
     //     0xa4859c: ubfx            x1, x1, #0xc, #0x14
@@ -7458,7 +7458,7 @@ class WorkoutModel extends Object {
     //     0xa485ec: b.ls            #0xa48644
     // 0xa485f0: mov             x1, x0
     // 0xa485f4: r0 = isDribblingWorkout()
-    //     0xa485f4: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0xa485f4: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0xa485f8: tbnz            w0, #4, #0xa4860c
     // 0xa485fc: r0 = false
     //     0xa485fc: add             x0, NULL, #0x30  ; false
@@ -7469,7 +7469,7 @@ class WorkoutModel extends Object {
     //     0xa48608: ret             
     // 0xa4860c: ldur            x1, [fp, #-8]
     // 0xa48610: r0 = workoutPrimaryCategoryKey()
-    //     0xa48610: bl              #0xa33ca0  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::workoutPrimaryCategoryKey
+    //     0xa48610: bl              #0xa33ca0  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::workoutPrimaryCategoryKey
     // 0xa48614: r1 = LoadClassIdInstr(r0)
     //     0xa48614: ldur            x1, [x0, #-1]
     //     0xa48618: ubfx            x1, x1, #0xc, #0x14
@@ -7506,14 +7506,14 @@ class WorkoutModel extends Object {
     //     0xa48af8: b.ls            #0xa48b24
     // 0xa48afc: mov             x1, x0
     // 0xa48b00: r0 = isShootingWorkout()
-    //     0xa48b00: bl              #0xa48554  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isShootingWorkout
+    //     0xa48b00: bl              #0xa48554  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isShootingWorkout
     // 0xa48b04: tbnz            w0, #4, #0xa48b10
     // 0xa48b08: r0 = true
     //     0xa48b08: add             x0, NULL, #0x20  ; true
     // 0xa48b0c: b               #0xa48b18
     // 0xa48b10: ldur            x1, [fp, #-8]
     // 0xa48b14: r0 = isFinishingWorkout()
-    //     0xa48b14: bl              #0xa485d0  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isFinishingWorkout
+    //     0xa48b14: bl              #0xa485d0  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isFinishingWorkout
     // 0xa48b18: LeaveFrame
     //     0xa48b18: mov             SP, fp
     //     0xa48b1c: ldp             fp, lr, [SP], #0x10

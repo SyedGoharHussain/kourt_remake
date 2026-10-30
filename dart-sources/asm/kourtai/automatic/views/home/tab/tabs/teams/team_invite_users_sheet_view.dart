@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/team_invite_users_sheet_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/team_invite_users_sheet_view.dart
 
 // class id: 1048959, size: 0x8
 class :: {
@@ -24,11 +24,11 @@ class TeamInviteUsersSheetView extends StatelessWidget {
     //     0xc01c98: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xc01c9c: cmp             SP, x16
     //     0xc01ca0: b.ls            #0xc02094
-    // 0xc01ca4: r1 = "Invite Ball AI users"
-    //     0xc01ca4: add             x1, PP, #0x26, lsl #12  ; [pp+0x26798] "Invite Ball AI users"
+    // 0xc01ca4: r1 = "Invite Kourt AI users"
+    //     0xc01ca4: add             x1, PP, #0x26, lsl #12  ; [pp+0x26798] "Invite Kourt AI users"
     //     0xc01ca8: ldr             x1, [x1, #0x798]
     // 0xc01cac: r0 = L()
-    //     0xc01cac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc01cac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc01cb0: stur            x0, [fp, #-0x18]
     // 0xc01cb4: r0 = Text()
     //     0xc01cb4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -69,7 +69,7 @@ class TeamInviteUsersSheetView extends StatelessWidget {
     //     0xc01d14: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c328] "Search by name or username"
     //     0xc01d18: ldr             x1, [x1, #0x328]
     // 0xc01d1c: r0 = L()
-    //     0xc01d1c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc01d1c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc01d20: stur            x0, [fp, #-0x10]
     // 0xc01d24: r16 = 0.080000
     //     0xc01d24: add             x16, PP, #0x24, lsl #12  ; [pp+0x24f28] 0.08

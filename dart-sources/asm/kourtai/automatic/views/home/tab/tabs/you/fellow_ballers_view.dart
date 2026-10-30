@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/fellow_ballers_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/fellow_ballers_view.dart
 
 // class id: 1049017, size: 0x8
 class :: {
@@ -221,22 +221,22 @@ class _FellowBallersViewState extends State<dynamic> {
     // 0xa945ec: ldur            x0, [fp, #-8]
     // 0xa945f0: ldur            x1, [fp, #-0x10]
     // 0xa945f4: stur            x2, [fp, #-0x20]
-    // 0xa945f8: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xa945f8: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xa945f8: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xa945f8: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xa945fc: ldur            x1, [fp, #-0x10]
     // 0xa94600: stur            x0, [fp, #-0x28]
-    // 0xa94604: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xa94604: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xa94604: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xa94604: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xa94608: r1 = "People"
     //     0xa94608: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d300] "People"
     //     0xa9460c: ldr             x1, [x1, #0x300]
     // 0xa94610: stur            x0, [fp, #-0x30]
     // 0xa94614: r0 = L()
-    //     0xa94614: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa94614: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa94618: ldur            x1, [fp, #-0x10]
     // 0xa9461c: stur            x0, [fp, #-0x10]
-    // 0xa94620: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa94620: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa94620: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa94620: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa94624: stur            x0, [fp, #-0x38]
     // 0xa94628: r0 = TextStyle()
     //     0xa94628: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -319,7 +319,7 @@ class _FellowBallersViewState extends State<dynamic> {
     // 0xa946fc: ldur            x1, [fp, #-8]
     // 0xa94700: stur            x0, [fp, #-0x38]
     // 0xa94704: r0 = _tabs()
-    //     0xa94704: bl              #0x984994  ; [package:ballai/automatic/views/home/tab/tabs/you/fellow_ballers_view.dart] _FellowBallersViewState::_tabs
+    //     0xa94704: bl              #0x984994  ; [package:kourtai/automatic/views/home/tab/tabs/you/fellow_ballers_view.dart] _FellowBallersViewState::_tabs
     // 0xa94708: stur            x0, [fp, #-0x60]
     // 0xa9470c: LoadField: r1 = r0->field_b
     //     0xa9470c: ldur            w1, [x0, #0xb]
@@ -355,13 +355,13 @@ class _FellowBallersViewState extends State<dynamic> {
     //     0xa94768: add             x1, PP, #0x54, lsl #12  ; [pp+0x54ee0] "Followers"
     //     0xa9476c: ldr             x1, [x1, #0xee0]
     // 0xa94770: r0 = L()
-    //     0xa94770: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa94770: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa94774: b               #0xa947f0
     // 0xa94778: r1 = "Following"
     //     0xa94778: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b950] "Following"
     //     0xa9477c: ldr             x1, [x1, #0x950]
     // 0xa94780: r0 = L()
-    //     0xa94780: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa94780: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa94784: b               #0xa947f0
     // 0xa94788: mov             x0, x3
     // 0xa9478c: cmp             x0, #0
@@ -371,7 +371,7 @@ class _FellowBallersViewState extends State<dynamic> {
     //     0xa94798: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d340] "Requests"
     //     0xa9479c: ldr             x1, [x1, #0x340]
     // 0xa947a0: r0 = L()
-    //     0xa947a0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa947a0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa947a4: r1 = Null
     //     0xa947a4: mov             x1, NULL
     // 0xa947a8: r2 = 8
@@ -402,7 +402,7 @@ class _FellowBallersViewState extends State<dynamic> {
     //     0xa947e4: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d340] "Requests"
     //     0xa947e8: ldr             x1, [x1, #0x340]
     // 0xa947ec: r0 = L()
-    //     0xa947ec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa947ec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa947f0: stur            x0, [fp, #-0x68]
     // 0xa947f4: r0 = Text()
     //     0xa947f4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -468,7 +468,7 @@ class _FellowBallersViewState extends State<dynamic> {
     //     0xa948a4: stur            w0, [x3, #0xf]
     // 0xa948a8: ldur            x2, [fp, #-0x18]
     // 0xa948ac: r1 = Function '<anonymous closure>':.
-    //     0xa948ac: add             x1, PP, #0x54, lsl #12  ; [pp+0x54f58] AnonymousClosure: (0xa94ba4), in [package:ballai/automatic/views/home/tab/tabs/you/fellow_ballers_view.dart] _FellowBallersViewState::build (0xa94558)
+    //     0xa948ac: add             x1, PP, #0x54, lsl #12  ; [pp+0x54f58] AnonymousClosure: (0xa94ba4), in [package:kourtai/automatic/views/home/tab/tabs/you/fellow_ballers_view.dart] _FellowBallersViewState::build (0xa94558)
     //     0xa948b0: ldr             x1, [x1, #0xf58]
     // 0xa948b4: r0 = AllocateClosure()
     //     0xa948b4: bl              #0xe553e0  ; AllocateClosureStub
@@ -797,7 +797,7 @@ class _FellowBallersViewState extends State<dynamic> {
     // 0xa94c08: mov             x2, x1
     // 0xa94c0c: stur            x3, [fp, #-0x10]
     // 0xa94c10: r1 = Function '<anonymous closure>':.
-    //     0xa94c10: add             x1, PP, #0x54, lsl #12  ; [pp+0x54f88] AnonymousClosure: (0x990690), in [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
+    //     0xa94c10: add             x1, PP, #0x54, lsl #12  ; [pp+0x54f88] AnonymousClosure: (0x990690), in [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
     //     0xa94c14: ldr             x1, [x1, #0xf88]
     // 0xa94c18: r0 = AllocateClosure()
     //     0xa94c18: bl              #0xe553e0  ; AllocateClosureStub

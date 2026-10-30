@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart
 
 // class id: 1048631, size: 0x8
 class :: {
@@ -17,7 +17,7 @@ abstract class DailyActivityStreakHandler extends Object {
     //     0x93e9a8: cmp             SP, x16
     //     0x93e9ac: b.ls            #0x93e9c4
     // 0x93e9b0: r0 = _checkStreakAsync()
-    //     0x93e9b0: bl              #0x93e9cc  ; [package:ballai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_checkStreakAsync
+    //     0x93e9b0: bl              #0x93e9cc  ; [package:kourtai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_checkStreakAsync
     // 0x93e9b4: r0 = Null
     //     0x93e9b4: mov             x0, NULL
     // 0x93e9b8: LeaveFrame
@@ -59,7 +59,7 @@ abstract class DailyActivityStreakHandler extends Object {
     // 0x93ea14: cmp             w0, NULL
     // 0x93ea18: b.ne            #0x93ea34
     // 0x93ea1c: r0 = cancelStreakExpiringFunnel()
-    //     0x93ea1c: bl              #0x93fc24  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelStreakExpiringFunnel
+    //     0x93ea1c: bl              #0x93fc24  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelStreakExpiringFunnel
     // 0x93ea20: mov             x1, x0
     // 0x93ea24: stur            x1, [fp, #-0x98]
     // 0x93ea28: r0 = Await()
@@ -70,7 +70,7 @@ abstract class DailyActivityStreakHandler extends Object {
     //     0x93ea30: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x93ea34: mov             x1, x0
     // 0x93ea38: r0 = _isToday()
-    //     0x93ea38: bl              #0x93fbc0  ; [package:ballai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_isToday
+    //     0x93ea38: bl              #0x93fbc0  ; [package:kourtai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_isToday
     // 0x93ea3c: tbnz            w0, #4, #0x93ea74
     // 0x93ea40: ldur            x5, [fp, #-0x88]
     // 0x93ea44: LoadField: r0 = r5->field_d7
@@ -82,7 +82,7 @@ abstract class DailyActivityStreakHandler extends Object {
     // 0x93ea54: ldur            x3, [fp, #-0x90]
     // 0x93ea58: stur            x0, [fp, #-0x98]
     // 0x93ea5c: r0 = scheduleStreakExpiringFunnel()
-    //     0x93ea5c: bl              #0x93eea0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleStreakExpiringFunnel
+    //     0x93ea5c: bl              #0x93eea0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleStreakExpiringFunnel
     // 0x93ea60: mov             x1, x0
     // 0x93ea64: stur            x1, [fp, #-0xa8]
     // 0x93ea68: r0 = Await()
@@ -93,7 +93,7 @@ abstract class DailyActivityStreakHandler extends Object {
     //     0x93ea70: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x93ea74: ldur            x1, [fp, #-0xa0]
     // 0x93ea78: r0 = _isYesterday()
-    //     0x93ea78: bl              #0x93ecb0  ; [package:ballai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_isYesterday
+    //     0x93ea78: bl              #0x93ecb0  ; [package:kourtai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_isYesterday
     // 0x93ea7c: tbnz            w0, #4, #0x93eab4
     // 0x93ea80: ldur            x5, [fp, #-0x88]
     // 0x93ea84: LoadField: r0 = r5->field_d7
@@ -105,7 +105,7 @@ abstract class DailyActivityStreakHandler extends Object {
     // 0x93ea94: ldur            x3, [fp, #-0x90]
     // 0x93ea98: stur            x0, [fp, #-0x98]
     // 0x93ea9c: r0 = scheduleStreakExpiringFunnel()
-    //     0x93ea9c: bl              #0x93eea0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleStreakExpiringFunnel
+    //     0x93ea9c: bl              #0x93eea0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleStreakExpiringFunnel
     // 0x93eaa0: mov             x1, x0
     // 0x93eaa4: stur            x1, [fp, #-0xa8]
     // 0x93eaa8: r0 = Await()
@@ -138,7 +138,7 @@ abstract class DailyActivityStreakHandler extends Object {
     // 0x93eaf0: r3 = 0
     //     0x93eaf0: mov             x3, #0
     // 0x93eaf4: r0 = _updateStreak()
-    //     0x93eaf4: bl              #0x93eb88  ; [package:ballai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_updateStreak
+    //     0x93eaf4: bl              #0x93eb88  ; [package:kourtai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_updateStreak
     // 0x93eaf8: mov             x1, x0
     // 0x93eafc: stur            x1, [fp, #-0xa0]
     // 0x93eb00: r0 = Await()
@@ -232,7 +232,7 @@ abstract class DailyActivityStreakHandler extends Object {
     //     0x93ebf4: add             x4, PP, #0x1a, lsl #12  ; [pp+0x1ae58] List(7) [0, 0x2, 0x1, 0x1, "dailyActivityStreak", 0x1, Null]
     //     0x93ebf8: ldr             x4, [x4, #0xe58]
     // 0x93ebfc: r0 = copyWith()
-    //     0x93ebfc: bl              #0x663774  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::copyWith
+    //     0x93ebfc: bl              #0x663774  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::copyWith
     // 0x93ec00: mov             x1, x0
     // 0x93ec04: ldur            x0, [fp, #-0x20]
     // 0x93ec08: cmp             x0, #0
@@ -243,7 +243,7 @@ abstract class DailyActivityStreakHandler extends Object {
     //     0x93ec18: add             x4, PP, #0x1a, lsl #12  ; [pp+0x1ae60] List(7) [0, 0x2, 0x1, 0x1, "lastDailyActivityUpdateDate", 0x1, Null]
     //     0x93ec1c: ldr             x4, [x4, #0xe60]
     // 0x93ec20: r0 = copyWith()
-    //     0x93ec20: bl              #0x663774  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::copyWith
+    //     0x93ec20: bl              #0x663774  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::copyWith
     // 0x93ec24: mov             x2, x0
     // 0x93ec28: b               #0x93ec30
     // 0x93ec2c: mov             x2, x1
@@ -252,7 +252,7 @@ abstract class DailyActivityStreakHandler extends Object {
     // 0x93ec38: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x93ec38: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x93ec3c: r0 = updateUser()
-    //     0x93ec3c: bl              #0x6618fc  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::updateUser
+    //     0x93ec3c: bl              #0x6618fc  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::updateUser
     // 0x93ec40: mov             x1, x0
     // 0x93ec44: stur            x1, [fp, #-0x28]
     // 0x93ec48: r0 = Await()
@@ -264,14 +264,14 @@ abstract class DailyActivityStreakHandler extends Object {
     // 0x93ec5c: ldur            x2, [fp, #-0x38]
     // 0x93ec60: ldur            x3, [fp, #-0x30]
     // 0x93ec64: r0 = scheduleStreakExpiringFunnel()
-    //     0x93ec64: bl              #0x93eea0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleStreakExpiringFunnel
+    //     0x93ec64: bl              #0x93eea0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleStreakExpiringFunnel
     // 0x93ec68: mov             x1, x0
     // 0x93ec6c: stur            x1, [fp, #-0x10]
     // 0x93ec70: r0 = Await()
     //     0x93ec70: bl              #0x60ad4c  ; AwaitStub
     // 0x93ec74: b               #0x93ec88
     // 0x93ec78: r0 = cancelStreakExpiringFunnel()
-    //     0x93ec78: bl              #0x93fc24  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelStreakExpiringFunnel
+    //     0x93ec78: bl              #0x93fc24  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelStreakExpiringFunnel
     // 0x93ec7c: mov             x1, x0
     // 0x93ec80: stur            x1, [fp, #-0x10]
     // 0x93ec84: r0 = Await()
@@ -283,7 +283,7 @@ abstract class DailyActivityStreakHandler extends Object {
     // 0x93ec98: r2 = false
     //     0x93ec98: add             x2, NULL, #0x30  ; false
     // 0x93ec9c: r0 = syncEngagementAttributes()
-    //     0x93ec9c: bl              #0x65a2f4  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::syncEngagementAttributes
+    //     0x93ec9c: bl              #0x65a2f4  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::syncEngagementAttributes
     // 0x93eca0: r0 = Null
     //     0x93eca0: mov             x0, NULL
     // 0x93eca4: r0 = ReturnAsyncNotFuture()
@@ -331,7 +331,7 @@ abstract class DailyActivityStreakHandler extends Object {
     // 0x93ed08: ldur            x1, [fp, #-8]
     // 0x93ed0c: mov             x2, x0
     // 0x93ed10: r0 = _isSameCalendarDay()
-    //     0x93ed10: bl              #0x93ed28  ; [package:ballai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_isSameCalendarDay
+    //     0x93ed10: bl              #0x93ed28  ; [package:kourtai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_isSameCalendarDay
     // 0x93ed14: LeaveFrame
     //     0x93ed14: mov             SP, fp
     //     0x93ed18: ldp             fp, lr, [SP], #0x10
@@ -510,7 +510,7 @@ abstract class DailyActivityStreakHandler extends Object {
     //     0x93fc04: stur            x1, [x2, #0xb]
     // 0x93fc08: ldur            x1, [fp, #-8]
     // 0x93fc0c: r0 = _isSameCalendarDay()
-    //     0x93fc0c: bl              #0x93ed28  ; [package:ballai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_isSameCalendarDay
+    //     0x93fc0c: bl              #0x93ed28  ; [package:kourtai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_isSameCalendarDay
     // 0x93fc10: LeaveFrame
     //     0x93fc10: mov             SP, fp
     //     0x93fc14: ldp             fp, lr, [SP], #0x10
@@ -530,7 +530,7 @@ abstract class DailyActivityStreakHandler extends Object {
     //     0x99fd88: cmp             SP, x16
     //     0x99fd8c: b.ls            #0x99fda4
     // 0x99fd90: r0 = _refreshStreakAsync()
-    //     0x99fd90: bl              #0x99fdac  ; [package:ballai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_refreshStreakAsync
+    //     0x99fd90: bl              #0x99fdac  ; [package:kourtai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_refreshStreakAsync
     // 0x99fd94: r0 = Null
     //     0x99fd94: mov             x0, NULL
     // 0x99fd98: LeaveFrame
@@ -607,13 +607,13 @@ abstract class DailyActivityStreakHandler extends Object {
     // 0x99fe58: b.eq            #0x99fed0
     // 0x99fe5c: mov             x1, x4
     // 0x99fe60: r0 = _isToday()
-    //     0x99fe60: bl              #0x93fbc0  ; [package:ballai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_isToday
+    //     0x99fe60: bl              #0x93fbc0  ; [package:kourtai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_isToday
     // 0x99fe64: tbnz            w0, #4, #0x99fe8c
     // 0x99fe68: ldur            x1, [fp, #-0xb8]
     // 0x99fe6c: ldur            x2, [fp, #-0xc8]
     // 0x99fe70: ldur            x3, [fp, #-0xa8]
     // 0x99fe74: r0 = scheduleStreakExpiringFunnel()
-    //     0x99fe74: bl              #0x93eea0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleStreakExpiringFunnel
+    //     0x99fe74: bl              #0x93eea0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleStreakExpiringFunnel
     // 0x99fe78: mov             x1, x0
     // 0x99fe7c: stur            x1, [fp, #-0xd0]
     // 0x99fe80: r0 = Await()
@@ -624,7 +624,7 @@ abstract class DailyActivityStreakHandler extends Object {
     //     0x99fe88: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x99fe8c: ldur            x1, [fp, #-0xb8]
     // 0x99fe90: r0 = _isYesterday()
-    //     0x99fe90: bl              #0x93ecb0  ; [package:ballai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_isYesterday
+    //     0x99fe90: bl              #0x93ecb0  ; [package:kourtai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_isYesterday
     // 0x99fe94: tbnz            w0, #4, #0x99fed0
     // 0x99fe98: ldur            x0, [fp, #-0xc0]
     // 0x99fe9c: add             x4, x0, #1
@@ -635,7 +635,7 @@ abstract class DailyActivityStreakHandler extends Object {
     // 0x99feb0: ldur            x6, [fp, #-0xa8]
     // 0x99feb4: stur            x4, [fp, #-0xd8]
     // 0x99feb8: r0 = _updateStreak()
-    //     0x99feb8: bl              #0x93eb88  ; [package:ballai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_updateStreak
+    //     0x99feb8: bl              #0x93eb88  ; [package:kourtai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_updateStreak
     // 0x99febc: mov             x1, x0
     // 0x99fec0: stur            x1, [fp, #-0xb8]
     // 0x99fec4: r0 = Await()
@@ -651,7 +651,7 @@ abstract class DailyActivityStreakHandler extends Object {
     // 0x99fee0: r3 = 1
     //     0x99fee0: mov             x3, #1
     // 0x99fee4: r0 = _updateStreak()
-    //     0x99fee4: bl              #0x93eb88  ; [package:ballai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_updateStreak
+    //     0x99fee4: bl              #0x93eb88  ; [package:kourtai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::_updateStreak
     // 0x99fee8: mov             x1, x0
     // 0x99feec: stur            x1, [fp, #-0xb8]
     // 0x99fef0: r0 = Await()

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/weeklygoals/sections/activity_ring_trends_metric_details_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/weeklygoals/sections/activity_ring_trends_metric_details_view.dart
 
 // class id: 1048985, size: 0x8
 class :: {
@@ -34,7 +34,7 @@ class ActivityRingTrendsMetricDetailsView extends StatelessWidget {
     // 0xc08354: r0 = _GrowableList.of()
     //     0xc08354: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0xc08358: r1 = Function '<anonymous closure>':.
-    //     0xc08358: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d570] AnonymousClosure: (0xc08754), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/weeklygoals/sections/activity_ring_trends_metric_details_view.dart] ActivityRingTrendsMetricDetailsView::build (0xc0831c)
+    //     0xc08358: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d570] AnonymousClosure: (0xc08754), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/weeklygoals/sections/activity_ring_trends_metric_details_view.dart] ActivityRingTrendsMetricDetailsView::build (0xc0831c)
     //     0xc0835c: ldr             x1, [x1, #0x570]
     // 0xc08360: r2 = Null
     //     0xc08360: mov             x2, NULL
@@ -51,13 +51,13 @@ class ActivityRingTrendsMetricDetailsView extends StatelessWidget {
     //     0xc0837c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d578] "Activity ring trends"
     //     0xc08380: ldr             x1, [x1, #0x578]
     // 0xc08384: r0 = L()
-    //     0xc08384: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc08384: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc08388: r1 = "Weekly rings"
     //     0xc08388: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d580] "Weekly rings"
     //     0xc0838c: ldr             x1, [x1, #0x580]
     // 0xc08390: stur            x0, [fp, #-0x20]
     // 0xc08394: r0 = L()
-    //     0xc08394: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc08394: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc08398: mov             x1, x0
     // 0xc0839c: ldur            x0, [fp, #-0x10]
     // 0xc083a0: stur            x1, [fp, #-0x30]
@@ -81,8 +81,8 @@ class ActivityRingTrendsMetricDetailsView extends StatelessWidget {
     //     0xc083d0: ldr             d0, [x17, #0x308]
     // 0xc083d4: StoreField: r1->field_13 = d0
     //     0xc083d4: stur            d0, [x1, #0x13]
-    // 0xc083d8: r0 = BallAiAnalyticsCard()
-    //     0xc083d8: bl              #0xa63928  ; AllocateBallAiAnalyticsCardStub -> BallAiAnalyticsCard (size=0x20)
+    // 0xc083d8: r0 = KourtAiAnalyticsCard()
+    //     0xc083d8: bl              #0xa63928  ; AllocateKourtAiAnalyticsCardStub -> KourtAiAnalyticsCard (size=0x20)
     // 0xc083dc: mov             x1, x0
     // 0xc083e0: ldur            x0, [fp, #-0x30]
     // 0xc083e4: stur            x1, [fp, #-0x38]
@@ -109,7 +109,7 @@ class ActivityRingTrendsMetricDetailsView extends StatelessWidget {
     //     0xc08418: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d530] "Completion over time"
     //     0xc0841c: ldr             x1, [x1, #0x530]
     // 0xc08420: r0 = L()
-    //     0xc08420: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc08420: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc08424: stur            x0, [fp, #-0x30]
     // 0xc08428: r0 = WeeklyGoalCompletionPctOverTimeChartView()
     //     0xc08428: bl              #0xc08748  ; AllocateWeeklyGoalCompletionPctOverTimeChartViewStub -> WeeklyGoalCompletionPctOverTimeChartView (size=0x1c)
@@ -125,8 +125,8 @@ class ActivityRingTrendsMetricDetailsView extends StatelessWidget {
     //     0xc08444: ldr             d0, [PP, #0x5a70]  ; [pp+0x5a70] IMM: double(180) from 0x4066800000000000
     // 0xc08448: StoreField: r1->field_13 = d0
     //     0xc08448: stur            d0, [x1, #0x13]
-    // 0xc0844c: r0 = BallAiAnalyticsCard()
-    //     0xc0844c: bl              #0xa63928  ; AllocateBallAiAnalyticsCardStub -> BallAiAnalyticsCard (size=0x20)
+    // 0xc0844c: r0 = KourtAiAnalyticsCard()
+    //     0xc0844c: bl              #0xa63928  ; AllocateKourtAiAnalyticsCardStub -> KourtAiAnalyticsCard (size=0x20)
     // 0xc08450: mov             x1, x0
     // 0xc08454: ldur            x0, [fp, #-0x30]
     // 0xc08458: stur            x1, [fp, #-0x48]
@@ -153,7 +153,7 @@ class ActivityRingTrendsMetricDetailsView extends StatelessWidget {
     //     0xc0848c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d588] "Summary"
     //     0xc08490: ldr             x1, [x1, #0x588]
     // 0xc08494: r0 = L()
-    //     0xc08494: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc08494: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc08498: stur            x0, [fp, #-0x40]
     // 0xc0849c: r0 = WeeklyGoalsSummaryView()
     //     0xc0849c: bl              #0xc0873c  ; AllocateWeeklyGoalsSummaryViewStub -> WeeklyGoalsSummaryView (size=0x14)
@@ -165,8 +165,8 @@ class ActivityRingTrendsMetricDetailsView extends StatelessWidget {
     // 0xc084b0: ldur            x0, [fp, #-0x28]
     // 0xc084b4: StoreField: r1->field_f = r0
     //     0xc084b4: stur            w0, [x1, #0xf]
-    // 0xc084b8: r0 = BallAiAnalyticsCard()
-    //     0xc084b8: bl              #0xa63928  ; AllocateBallAiAnalyticsCardStub -> BallAiAnalyticsCard (size=0x20)
+    // 0xc084b8: r0 = KourtAiAnalyticsCard()
+    //     0xc084b8: bl              #0xa63928  ; AllocateKourtAiAnalyticsCardStub -> KourtAiAnalyticsCard (size=0x20)
     // 0xc084bc: mov             x3, x0
     // 0xc084c0: ldur            x0, [fp, #-0x40]
     // 0xc084c4: stur            x3, [fp, #-8]
@@ -369,8 +369,8 @@ class ActivityRingTrendsMetricDetailsView extends StatelessWidget {
     // 0xc086d0: ldur            x0, [fp, #-0x30]
     // 0xc086d4: StoreField: r1->field_b = r0
     //     0xc086d4: stur            w0, [x1, #0xb]
-    // 0xc086d8: r0 = BallAiSectionScaffold()
-    //     0xc086d8: bl              #0xa7edb4  ; AllocateBallAiSectionScaffoldStub -> BallAiSectionScaffold (size=0x18)
+    // 0xc086d8: r0 = KourtAiSectionScaffold()
+    //     0xc086d8: bl              #0xa7edb4  ; AllocateKourtAiSectionScaffoldStub -> KourtAiSectionScaffold (size=0x18)
     // 0xc086dc: mov             x1, x0
     // 0xc086e0: ldur            x0, [fp, #-0x20]
     // 0xc086e4: StoreField: r1->field_b = r0

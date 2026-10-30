@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/bally/bally_pose_resolver.dart
+// lib: , url: package:kourtai/automatic/utility/bally/bally_pose_resolver.dart
 
 // class id: 1048720, size: 0x8
 class :: {
@@ -23,11 +23,11 @@ abstract class BallyPoseResolver extends Object {
     //     0x9e6118: cmp             SP, x16
     //     0x9e611c: b.ls            #0x9e61d4
     // 0x9e6120: r0 = _normalize()
-    //     0x9e6120: bl              #0x9e6270  ; [package:ballai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::_normalize
+    //     0x9e6120: bl              #0x9e6270  ; [package:kourtai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::_normalize
     // 0x9e6124: ldur            x1, [fp, #-8]
     // 0x9e6128: stur            x0, [fp, #-8]
     // 0x9e612c: r0 = _isParent()
-    //     0x9e612c: bl              #0x9e61dc  ; [package:ballai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::_isParent
+    //     0x9e612c: bl              #0x9e61dc  ; [package:kourtai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::_isParent
     // 0x9e6130: tbnz            w0, #4, #0x9e6198
     // 0x9e6134: ldur            x2, [fp, #-8]
     // 0x9e6138: r1 = _ConstSet len:4
@@ -198,11 +198,11 @@ abstract class BallyPoseResolver extends Object {
     //     0x9fa520: cmp             SP, x16
     //     0x9fa524: b.ls            #0x9fa578
     // 0x9fa528: r0 = _normalize()
-    //     0x9fa528: bl              #0x9e6270  ; [package:ballai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::_normalize
+    //     0x9fa528: bl              #0x9e6270  ; [package:kourtai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::_normalize
     // 0x9fa52c: ldur            x1, [fp, #-8]
     // 0x9fa530: stur            x0, [fp, #-8]
     // 0x9fa534: r0 = _isParent()
-    //     0x9fa534: bl              #0x9e61dc  ; [package:ballai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::_isParent
+    //     0x9fa534: bl              #0x9e61dc  ; [package:kourtai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::_isParent
     // 0x9fa538: tbz             w0, #4, #0x9fa564
     // 0x9fa53c: ldur            x2, [fp, #-8]
     // 0x9fa540: r1 = _ConstSet len:4

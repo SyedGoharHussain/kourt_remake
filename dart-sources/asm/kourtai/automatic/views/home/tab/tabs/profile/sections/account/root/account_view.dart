@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart
 
 // class id: 1048875, size: 0x8
 class :: {
@@ -107,22 +107,22 @@ class AccountView extends StatelessWidget {
     //     0xbd75b0: ldur            w1, [x3, #0x13]
     // 0xbd75b4: DecompressPointer r1
     //     0xbd75b4: add             x1, x1, HEAP, lsl #32
-    // 0xbd75b8: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xbd75b8: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xbd75b8: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xbd75b8: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xbd75bc: ldur            x2, [fp, #-0x18]
     // 0xbd75c0: stur            x0, [fp, #-0x10]
     // 0xbd75c4: LoadField: r1 = r2->field_13
     //     0xbd75c4: ldur            w1, [x2, #0x13]
     // 0xbd75c8: DecompressPointer r1
     //     0xbd75c8: add             x1, x1, HEAP, lsl #32
-    // 0xbd75cc: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xbd75cc: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xbd75cc: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xbd75cc: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xbd75d0: stur            x0, [fp, #-0x20]
     // 0xbd75d4: r0 = ToolbarBackLeading()
     //     0xbd75d4: bl              #0xa3d19c  ; AllocateToolbarBackLeadingStub -> ToolbarBackLeading (size=0x14)
     // 0xbd75d8: ldur            x2, [fp, #-0x18]
     // 0xbd75dc: r1 = Function '<anonymous closure>':.
-    //     0xbd75dc: add             x1, PP, #0x44, lsl #12  ; [pp+0x44e70] AnonymousClosure: (0xbd8568), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::build (0xbd74b8)
+    //     0xbd75dc: add             x1, PP, #0x44, lsl #12  ; [pp+0x44e70] AnonymousClosure: (0xbd8568), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::build (0xbd74b8)
     //     0xbd75e0: ldr             x1, [x1, #0xe70]
     // 0xbd75e4: stur            x0, [fp, #-0x28]
     // 0xbd75e8: r0 = AllocateClosure()
@@ -135,15 +135,15 @@ class AccountView extends StatelessWidget {
     //     0xbd75f8: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c968] "Settings"
     //     0xbd75fc: ldr             x1, [x1, #0x968]
     // 0xbd7600: r0 = L()
-    //     0xbd7600: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd7600: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd7604: ldur            x2, [fp, #-0x18]
     // 0xbd7608: stur            x0, [fp, #-0x30]
     // 0xbd760c: LoadField: r1 = r2->field_13
     //     0xbd760c: ldur            w1, [x2, #0x13]
     // 0xbd7610: DecompressPointer r1
     //     0xbd7610: add             x1, x1, HEAP, lsl #32
-    // 0xbd7614: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbd7614: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbd7614: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbd7614: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbd7618: stur            x0, [fp, #-0x38]
     // 0xbd761c: r0 = TextStyle()
     //     0xbd761c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -212,10 +212,10 @@ class AccountView extends StatelessWidget {
     //     0xbd76cc: ldr             x2, [x2, #0xff8]
     // 0xbd76d0: b               #0xbd770c
     // 0xbd76d4: r0 = instance()
-    //     0xbd76d4: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0xbd76d4: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0xbd76d8: ldur            x2, [fp, #-0x18]
     // 0xbd76dc: r1 = Function '<anonymous closure>':.
-    //     0xbd76dc: add             x1, PP, #0x44, lsl #12  ; [pp+0x44e78] AnonymousClosure: (0xbd7774), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::build (0xbd74b8)
+    //     0xbd76dc: add             x1, PP, #0x44, lsl #12  ; [pp+0x44e78] AnonymousClosure: (0xbd7774), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::build (0xbd74b8)
     //     0xbd76e0: ldr             x1, [x1, #0xe78]
     // 0xbd76e4: stur            x0, [fp, #-8]
     // 0xbd76e8: r0 = AllocateClosure()
@@ -305,7 +305,7 @@ class AccountView extends StatelessWidget {
     //     0xbd77bc: stur            w0, [x3, #0xf]
     // 0xbd77c0: ldur            x2, [fp, #-8]
     // 0xbd77c4: r1 = Function '<anonymous closure>':.
-    //     0xbd77c4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44e88] AnonymousClosure: (0xbd77f0), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::build (0xbd74b8)
+    //     0xbd77c4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44e88] AnonymousClosure: (0xbd77f0), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::build (0xbd74b8)
     //     0xbd77c8: ldr             x1, [x1, #0xe88]
     // 0xbd77cc: r0 = AllocateClosure()
     //     0xbd77cc: bl              #0xe553e0  ; AllocateClosureStub
@@ -370,8 +370,8 @@ class AccountView extends StatelessWidget {
     //     0xbd7864: add             x3, PP, #0x44, lsl #12  ; [pp+0x44e90] "1.0.6"
     //     0xbd7868: ldr             x3, [x3, #0xe90]
     // 0xbd786c: stur            x3, [fp, #-0x10]
-    // 0xbd7870: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbd7870: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbd7870: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbd7870: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbd7874: mov             x1, x0
     // 0xbd7878: ldur            x0, [fp, #-8]
     // 0xbd787c: stur            x1, [fp, #-0x28]
@@ -429,10 +429,10 @@ class AccountView extends StatelessWidget {
     //     0xbd7900: add             x1, PP, #0x44, lsl #12  ; [pp+0x44e98] "Reset password"
     //     0xbd7904: ldr             x1, [x1, #0xe98]
     // 0xbd7908: r0 = L()
-    //     0xbd7908: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd7908: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd790c: stur            x0, [fp, #-8]
-    // 0xbd7910: r0 = BallAiSettingsNavigationRow()
-    //     0xbd7910: bl              #0xbd8000  ; AllocateBallAiSettingsNavigationRowStub -> BallAiSettingsNavigationRow (size=0x20)
+    // 0xbd7910: r0 = KourtAiSettingsNavigationRow()
+    //     0xbd7910: bl              #0xbd8000  ; AllocateKourtAiSettingsNavigationRowStub -> KourtAiSettingsNavigationRow (size=0x20)
     // 0xbd7914: mov             x3, x0
     // 0xbd7918: ldur            x0, [fp, #-8]
     // 0xbd791c: stur            x3, [fp, #-0x38]
@@ -440,7 +440,7 @@ class AccountView extends StatelessWidget {
     //     0xbd7920: stur            w0, [x3, #0xb]
     // 0xbd7924: ldur            x2, [fp, #-0x18]
     // 0xbd7928: r1 = Function '<anonymous closure>':.
-    //     0xbd7928: add             x1, PP, #0x44, lsl #12  ; [pp+0x44ea0] AnonymousClosure: (0xbd8484), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::build (0xbd74b8)
+    //     0xbd7928: add             x1, PP, #0x44, lsl #12  ; [pp+0x44ea0] AnonymousClosure: (0xbd8484), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::build (0xbd74b8)
     //     0xbd792c: ldr             x1, [x1, #0xea0]
     // 0xbd7930: r0 = AllocateClosure()
     //     0xbd7930: bl              #0xe553e0  ; AllocateClosureStub
@@ -467,8 +467,8 @@ class AccountView extends StatelessWidget {
     // 0xbd7964: stur            x2, [fp, #-8]
     // 0xbd7968: StoreField: r2->field_f = r0
     //     0xbd7968: stur            w0, [x2, #0xf]
-    // 0xbd796c: r16 = Instance_BallAiSettingsDivider
-    //     0xbd796c: add             x16, PP, #0x44, lsl #12  ; [pp+0x44ea8] Obj!BallAiSettingsDivider@d25ae1
+    // 0xbd796c: r16 = Instance_KourtAiSettingsDivider
+    //     0xbd796c: add             x16, PP, #0x44, lsl #12  ; [pp+0x44ea8] Obj!KourtAiSettingsDivider@d25ae1
     //     0xbd7970: ldr             x16, [x16, #0xea8]
     // 0xbd7974: StoreField: r2->field_13 = r16
     //     0xbd7974: stur            w16, [x2, #0x13]
@@ -493,10 +493,10 @@ class AccountView extends StatelessWidget {
     //     0xbd79a4: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c748] "Change goals"
     //     0xbd79a8: ldr             x1, [x1, #0x748]
     // 0xbd79ac: r0 = L()
-    //     0xbd79ac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd79ac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd79b0: stur            x0, [fp, #-8]
-    // 0xbd79b4: r0 = BallAiSettingsNavigationRow()
-    //     0xbd79b4: bl              #0xbd8000  ; AllocateBallAiSettingsNavigationRowStub -> BallAiSettingsNavigationRow (size=0x20)
+    // 0xbd79b4: r0 = KourtAiSettingsNavigationRow()
+    //     0xbd79b4: bl              #0xbd8000  ; AllocateKourtAiSettingsNavigationRowStub -> KourtAiSettingsNavigationRow (size=0x20)
     // 0xbd79b8: mov             x3, x0
     // 0xbd79bc: ldur            x0, [fp, #-8]
     // 0xbd79c0: stur            x3, [fp, #-0x38]
@@ -504,7 +504,7 @@ class AccountView extends StatelessWidget {
     //     0xbd79c4: stur            w0, [x3, #0xb]
     // 0xbd79c8: ldur            x2, [fp, #-0x18]
     // 0xbd79cc: r1 = Function '<anonymous closure>':.
-    //     0xbd79cc: add             x1, PP, #0x44, lsl #12  ; [pp+0x44eb0] AnonymousClosure: (0xbd8290), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::build (0xbd74b8)
+    //     0xbd79cc: add             x1, PP, #0x44, lsl #12  ; [pp+0x44eb0] AnonymousClosure: (0xbd8290), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::build (0xbd74b8)
     //     0xbd79d0: ldr             x1, [x1, #0xeb0]
     // 0xbd79d4: r0 = AllocateClosure()
     //     0xbd79d4: bl              #0xe553e0  ; AllocateClosureStub
@@ -531,8 +531,8 @@ class AccountView extends StatelessWidget {
     // 0xbd7a08: stur            x2, [fp, #-8]
     // 0xbd7a0c: StoreField: r2->field_f = r0
     //     0xbd7a0c: stur            w0, [x2, #0xf]
-    // 0xbd7a10: r16 = Instance_BallAiSettingsDivider
-    //     0xbd7a10: add             x16, PP, #0x44, lsl #12  ; [pp+0x44ea8] Obj!BallAiSettingsDivider@d25ae1
+    // 0xbd7a10: r16 = Instance_KourtAiSettingsDivider
+    //     0xbd7a10: add             x16, PP, #0x44, lsl #12  ; [pp+0x44ea8] Obj!KourtAiSettingsDivider@d25ae1
     //     0xbd7a14: ldr             x16, [x16, #0xea8]
     // 0xbd7a18: StoreField: r2->field_13 = r16
     //     0xbd7a18: stur            w16, [x2, #0x13]
@@ -556,10 +556,10 @@ class AccountView extends StatelessWidget {
     //     0xbd7a44: add             x1, PP, #0x44, lsl #12  ; [pp+0x44eb8] "Invite a friend"
     //     0xbd7a48: ldr             x1, [x1, #0xeb8]
     // 0xbd7a4c: r0 = L()
-    //     0xbd7a4c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd7a4c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd7a50: stur            x0, [fp, #-8]
-    // 0xbd7a54: r0 = BallAiSettingsNavigationRow()
-    //     0xbd7a54: bl              #0xbd8000  ; AllocateBallAiSettingsNavigationRowStub -> BallAiSettingsNavigationRow (size=0x20)
+    // 0xbd7a54: r0 = KourtAiSettingsNavigationRow()
+    //     0xbd7a54: bl              #0xbd8000  ; AllocateKourtAiSettingsNavigationRowStub -> KourtAiSettingsNavigationRow (size=0x20)
     // 0xbd7a58: mov             x3, x0
     // 0xbd7a5c: ldur            x0, [fp, #-8]
     // 0xbd7a60: stur            x3, [fp, #-0x38]
@@ -567,7 +567,7 @@ class AccountView extends StatelessWidget {
     //     0xbd7a64: stur            w0, [x3, #0xb]
     // 0xbd7a68: ldur            x2, [fp, #-0x18]
     // 0xbd7a6c: r1 = Function '<anonymous closure>':.
-    //     0xbd7a6c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44ec0] AnonymousClosure: (0xbd8170), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::build (0xbd74b8)
+    //     0xbd7a6c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44ec0] AnonymousClosure: (0xbd8170), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::build (0xbd74b8)
     //     0xbd7a70: ldr             x1, [x1, #0xec0]
     // 0xbd7a74: r0 = AllocateClosure()
     //     0xbd7a74: bl              #0xe553e0  ; AllocateClosureStub
@@ -627,8 +627,8 @@ class AccountView extends StatelessWidget {
     //     0xbd7b0c: tst             x16, HEAP, lsr #32
     //     0xbd7b10: b.eq            #0xbd7b18
     //     0xbd7b14: bl              #0xe54358  ; ArrayWriteBarrierStub
-    // 0xbd7b18: r0 = BallAiSettingsSection()
-    //     0xbd7b18: bl              #0xbd7ff4  ; AllocateBallAiSettingsSectionStub -> BallAiSettingsSection (size=0x10)
+    // 0xbd7b18: r0 = KourtAiSettingsSection()
+    //     0xbd7b18: bl              #0xbd7ff4  ; AllocateKourtAiSettingsSectionStub -> KourtAiSettingsSection (size=0x10)
     // 0xbd7b1c: mov             x1, x0
     // 0xbd7b20: ldur            x0, [fp, #-0x30]
     // 0xbd7b24: StoreField: r1->field_b = r0
@@ -655,10 +655,10 @@ class AccountView extends StatelessWidget {
     //     0xbd7b64: add             x1, PP, #0x44, lsl #12  ; [pp+0x44ec8] "Smartwatch integrations"
     //     0xbd7b68: ldr             x1, [x1, #0xec8]
     // 0xbd7b6c: r0 = L()
-    //     0xbd7b6c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd7b6c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd7b70: stur            x0, [fp, #-8]
-    // 0xbd7b74: r0 = BallAiSettingsNavigationRow()
-    //     0xbd7b74: bl              #0xbd8000  ; AllocateBallAiSettingsNavigationRowStub -> BallAiSettingsNavigationRow (size=0x20)
+    // 0xbd7b74: r0 = KourtAiSettingsNavigationRow()
+    //     0xbd7b74: bl              #0xbd8000  ; AllocateKourtAiSettingsNavigationRowStub -> KourtAiSettingsNavigationRow (size=0x20)
     // 0xbd7b78: mov             x3, x0
     // 0xbd7b7c: ldur            x0, [fp, #-8]
     // 0xbd7b80: stur            x3, [fp, #-0x30]
@@ -666,7 +666,7 @@ class AccountView extends StatelessWidget {
     //     0xbd7b84: stur            w0, [x3, #0xb]
     // 0xbd7b88: ldur            x2, [fp, #-0x18]
     // 0xbd7b8c: r1 = Function '<anonymous closure>':.
-    //     0xbd7b8c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44ed0] AnonymousClosure: (0xbd80c4), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::build (0xbd74b8)
+    //     0xbd7b8c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44ed0] AnonymousClosure: (0xbd80c4), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::build (0xbd74b8)
     //     0xbd7b90: ldr             x1, [x1, #0xed0]
     // 0xbd7b94: r0 = AllocateClosure()
     //     0xbd7b94: bl              #0xe553e0  ; AllocateClosureStub
@@ -686,10 +686,10 @@ class AccountView extends StatelessWidget {
     //     0xbd7bb4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44ed8] "Tracking settings"
     //     0xbd7bb8: ldr             x1, [x1, #0xed8]
     // 0xbd7bbc: r0 = L()
-    //     0xbd7bbc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd7bbc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd7bc0: stur            x0, [fp, #-8]
-    // 0xbd7bc4: r0 = BallAiSettingsNavigationRow()
-    //     0xbd7bc4: bl              #0xbd8000  ; AllocateBallAiSettingsNavigationRowStub -> BallAiSettingsNavigationRow (size=0x20)
+    // 0xbd7bc4: r0 = KourtAiSettingsNavigationRow()
+    //     0xbd7bc4: bl              #0xbd8000  ; AllocateKourtAiSettingsNavigationRowStub -> KourtAiSettingsNavigationRow (size=0x20)
     // 0xbd7bc8: mov             x3, x0
     // 0xbd7bcc: ldur            x0, [fp, #-8]
     // 0xbd7bd0: stur            x3, [fp, #-0x38]
@@ -697,7 +697,7 @@ class AccountView extends StatelessWidget {
     //     0xbd7bd4: stur            w0, [x3, #0xb]
     // 0xbd7bd8: ldur            x2, [fp, #-0x18]
     // 0xbd7bdc: r1 = Function '<anonymous closure>':.
-    //     0xbd7bdc: add             x1, PP, #0x44, lsl #12  ; [pp+0x44ee0] AnonymousClosure: (0xbd8018), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::build (0xbd74b8)
+    //     0xbd7bdc: add             x1, PP, #0x44, lsl #12  ; [pp+0x44ee0] AnonymousClosure: (0xbd8018), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::build (0xbd74b8)
     //     0xbd7be0: ldr             x1, [x1, #0xee0]
     // 0xbd7be4: r0 = AllocateClosure()
     //     0xbd7be4: bl              #0xe553e0  ; AllocateClosureStub
@@ -724,8 +724,8 @@ class AccountView extends StatelessWidget {
     // 0xbd7c18: stur            x2, [fp, #-8]
     // 0xbd7c1c: StoreField: r2->field_f = r0
     //     0xbd7c1c: stur            w0, [x2, #0xf]
-    // 0xbd7c20: r16 = Instance_BallAiSettingsDivider
-    //     0xbd7c20: add             x16, PP, #0x44, lsl #12  ; [pp+0x44ea8] Obj!BallAiSettingsDivider@d25ae1
+    // 0xbd7c20: r16 = Instance_KourtAiSettingsDivider
+    //     0xbd7c20: add             x16, PP, #0x44, lsl #12  ; [pp+0x44ea8] Obj!KourtAiSettingsDivider@d25ae1
     //     0xbd7c24: ldr             x16, [x16, #0xea8]
     // 0xbd7c28: StoreField: r2->field_13 = r16
     //     0xbd7c28: stur            w16, [x2, #0x13]
@@ -745,8 +745,8 @@ class AccountView extends StatelessWidget {
     //     0xbd7c4c: mov             x0, #6
     // 0xbd7c50: StoreField: r1->field_b = r0
     //     0xbd7c50: stur            w0, [x1, #0xb]
-    // 0xbd7c54: r0 = BallAiSettingsSection()
-    //     0xbd7c54: bl              #0xbd7ff4  ; AllocateBallAiSettingsSectionStub -> BallAiSettingsSection (size=0x10)
+    // 0xbd7c54: r0 = KourtAiSettingsSection()
+    //     0xbd7c54: bl              #0xbd7ff4  ; AllocateKourtAiSettingsSectionStub -> KourtAiSettingsSection (size=0x10)
     // 0xbd7c58: mov             x1, x0
     // 0xbd7c5c: ldur            x0, [fp, #-0x18]
     // 0xbd7c60: StoreField: r1->field_b = r0
@@ -841,7 +841,7 @@ class AccountView extends StatelessWidget {
     // 0xbd7d58: StoreField: r1->field_4b = r16
     //     0xbd7d58: stur            w16, [x1, #0x4b]
     // 0xbd7d5c: r0 = accountFooterMessage()
-    //     0xbd7d5c: bl              #0xbd7f70  ; [package:ballai/automatic/utility/statics/container/in_app_adds_container.dart] InAppAddsContainer::accountFooterMessage
+    //     0xbd7d5c: bl              #0xbd7f70  ; [package:kourtai/automatic/utility/statics/container/in_app_adds_container.dart] InAppAddsContainer::accountFooterMessage
     // 0xbd7d60: stur            x0, [fp, #-8]
     // 0xbd7d64: r0 = TextStyle()
     //     0xbd7d64: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -952,11 +952,9 @@ class AccountView extends StatelessWidget {
     //     0xbd7e8c: ldr             x16, [x16, #0xe58]
     // 0xbd7e90: StoreField: r0->field_5b = r16
     //     0xbd7e90: stur            w16, [x0, #0x5b]
-    // 0xbd7e94: r1 = "© 2025 Automatic AI, Inc. All rights reserved."
-    //     0xbd7e94: add             x1, PP, #0x44, lsl #12  ; [pp+0x44f20] "© 2025 Automatic AI, Inc. All rights reserved."
     //     0xbd7e98: ldr             x1, [x1, #0xf20]
     // 0xbd7e9c: r0 = L()
-    //     0xbd7e9c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd7e9c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd7ea0: stur            x0, [fp, #-8]
     // 0xbd7ea4: r0 = TextStyle()
     //     0xbd7ea4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1057,7 +1055,7 @@ class AccountView extends StatelessWidget {
     // 0xbd804c: r0 = of()
     //     0xbd804c: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xbd8050: r1 = Function '<anonymous closure>':.
-    //     0xbd8050: add             x1, PP, #0x44, lsl #12  ; [pp+0x44f30] AnonymousClosure: (0xbd80b8), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::build (0xbd74b8)
+    //     0xbd8050: add             x1, PP, #0x44, lsl #12  ; [pp+0x44f30] AnonymousClosure: (0xbd80b8), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::build (0xbd74b8)
     //     0xbd8054: ldr             x1, [x1, #0xf30]
     // 0xbd8058: r2 = Null
     //     0xbd8058: mov             x2, NULL
@@ -1130,7 +1128,7 @@ class AccountView extends StatelessWidget {
     // 0xbd80f8: r0 = of()
     //     0xbd80f8: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xbd80fc: r1 = Function '<anonymous closure>':.
-    //     0xbd80fc: add             x1, PP, #0x44, lsl #12  ; [pp+0x44f40] AnonymousClosure: (0xbd8164), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::build (0xbd74b8)
+    //     0xbd80fc: add             x1, PP, #0x44, lsl #12  ; [pp+0x44f40] AnonymousClosure: (0xbd8164), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::build (0xbd74b8)
     //     0xbd8100: ldr             x1, [x1, #0xf40]
     // 0xbd8104: r2 = Null
     //     0xbd8104: mov             x2, NULL
@@ -1207,7 +1205,7 @@ class AccountView extends StatelessWidget {
     //     0xbd81ac: add             x0, x0, HEAP, lsl #32
     // 0xbd81b0: mov             x1, x0
     // 0xbd81b4: r0 = _inviteFriend()
-    //     0xbd81b4: bl              #0xbd81d0  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::_inviteFriend
+    //     0xbd81b4: bl              #0xbd81d0  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::_inviteFriend
     // 0xbd81b8: r0 = Null
     //     0xbd81b8: mov             x0, NULL
     // 0xbd81bc: LeaveFrame
@@ -1237,7 +1235,7 @@ class AccountView extends StatelessWidget {
     //     0xbd81f0: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0xbd81f4: bl              #0x60afc8  ; InitAsyncStub
     // 0xbd81f8: r0 = inviteFriendsMessage()
-    //     0xbd81f8: bl              #0xbd825c  ; [package:ballai/automatic/utility/statics/container/in_app_adds_container.dart] InAppAddsContainer::inviteFriendsMessage
+    //     0xbd81f8: bl              #0xbd825c  ; [package:kourtai/automatic/utility/statics/container/in_app_adds_container.dart] InAppAddsContainer::inviteFriendsMessage
     // 0xbd81fc: r1 = Null
     //     0xbd81fc: mov             x1, NULL
     // 0xbd8200: r2 = 6
@@ -1253,8 +1251,8 @@ class AccountView extends StatelessWidget {
     //     0xbd8218: ldr             x16, [PP, #0x840]  ; [pp+0x840] "\n"
     // 0xbd821c: StoreField: r1->field_13 = r16
     //     0xbd821c: stur            w16, [x1, #0x13]
-    // 0xbd8220: r16 = "https://play.google.com/store/apps/details\?id=ballai.app"
-    //     0xbd8220: add             x16, PP, #0x44, lsl #12  ; [pp+0x44f50] "https://play.google.com/store/apps/details\?id=ballai.app"
+    // 0xbd8220: r16 = "https://play.google.com/store/apps/details\?id=kourtai.app"
+    //     0xbd8220: add             x16, PP, #0x44, lsl #12  ; [pp+0x44f50] "https://play.google.com/store/apps/details\?id=kourtai.app"
     //     0xbd8224: ldr             x16, [x16, #0xf50]
     // 0xbd8228: ArrayStore: r1[0] = r16  ; List_4
     //     0xbd8228: stur            w16, [x1, #0x17]
@@ -1303,7 +1301,7 @@ class AccountView extends StatelessWidget {
     // 0xbd82c4: r0 = of()
     //     0xbd82c4: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xbd82c8: r1 = Function '<anonymous closure>':.
-    //     0xbd82c8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44f60] AnonymousClosure: (0xbd8330), in [package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/sections/activity_goal_summary_view.dart] ActivityGoalSummaryView::build (0xbdc8bc)
+    //     0xbd82c8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44f60] AnonymousClosure: (0xbd8330), in [package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/sections/activity_goal_summary_view.dart] ActivityGoalSummaryView::build (0xbdc8bc)
     //     0xbd82cc: ldr             x1, [x1, #0xf60]
     // 0xbd82d0: r2 = Null
     //     0xbd82d0: mov             x2, NULL
@@ -1369,7 +1367,7 @@ class AccountView extends StatelessWidget {
     //     0xbd84b8: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xbd84bc: ldur            x2, [fp, #-8]
     // 0xbd84c0: r1 = Function '<anonymous closure>':.
-    //     0xbd84c0: add             x1, PP, #0x44, lsl #12  ; [pp+0x44f68] AnonymousClosure: (0xbd8524), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::build (0xbd74b8)
+    //     0xbd84c0: add             x1, PP, #0x44, lsl #12  ; [pp+0x44f68] AnonymousClosure: (0xbd8524), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::build (0xbd74b8)
     //     0xbd84c4: ldr             x1, [x1, #0xf68]
     // 0xbd84c8: stur            x0, [fp, #-8]
     // 0xbd84cc: r0 = AllocateClosure()
@@ -1462,7 +1460,7 @@ class AccountView extends StatelessWidget {
     //     0xbd8594: add             x2, x2, HEAP, lsl #32
     // 0xbd8598: mov             x1, x0
     // 0xbd859c: r0 = _pop()
-    //     0xbd859c: bl              #0xbd85b8  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::_pop
+    //     0xbd859c: bl              #0xbd85b8  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/root/account_view.dart] AccountView::_pop
     // 0xbd85a0: r0 = Null
     //     0xbd85a0: mov             x0, NULL
     // 0xbd85a4: LeaveFrame

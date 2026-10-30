@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/session/mediums/workout_camera_permission.dart
+// lib: , url: package:kourtai/video_tracking/session/mediums/workout_camera_permission.dart
 
 // class id: 1049185, size: 0x8
 class :: {
@@ -25,7 +25,7 @@ abstract class WorkoutCameraPermission extends Object {
     //     0x796a5c: ldr             x0, [PP, #0x19b0]  ; [pp+0x19b0] TypeArguments: <bool>
     //     0x796a60: bl              #0x60afc8  ; InitAsyncStub
     // 0x796a64: r1 = Function '<anonymous closure>': static.
-    //     0x796a64: add             x1, PP, #0x29, lsl #12  ; [pp+0x29b78] AnonymousClosure: static (0x796c60), in [package:ballai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::presentDeniedDialog (0x796a3c)
+    //     0x796a64: add             x1, PP, #0x29, lsl #12  ; [pp+0x29b78] AnonymousClosure: static (0x796c60), in [package:kourtai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::presentDeniedDialog (0x796a3c)
     //     0x796a68: ldr             x1, [x1, #0xb78]
     // 0x796a6c: r2 = Null
     //     0x796a6c: mov             x2, NULL
@@ -63,7 +63,7 @@ abstract class WorkoutCameraPermission extends Object {
     // 0x796ac4: blr             lr
     // 0x796ac8: tbnz            w0, #4, #0x796ae4
     // 0x796acc: r0 = openSettings()
-    //     0x796acc: bl              #0x796af4  ; [package:ballai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::openSettings
+    //     0x796acc: bl              #0x796af4  ; [package:kourtai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::openSettings
     // 0x796ad0: mov             x1, x0
     // 0x796ad4: stur            x1, [fp, #-0x10]
     // 0x796ad8: r0 = Await()
@@ -162,7 +162,7 @@ abstract class WorkoutCameraPermission extends Object {
     // 0x796ca4: StoreField: r1->field_f = r0
     //     0x796ca4: stur            w0, [x1, #0xf]
     // 0x796ca8: r0 = deniedTitle()
-    //     0x796ca8: bl              #0x796eb0  ; [package:ballai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::deniedTitle
+    //     0x796ca8: bl              #0x796eb0  ; [package:kourtai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::deniedTitle
     // 0x796cac: stur            x0, [fp, #-8]
     // 0x796cb0: r0 = Text()
     //     0x796cb0: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -172,7 +172,7 @@ abstract class WorkoutCameraPermission extends Object {
     // 0x796cc0: StoreField: r1->field_b = r0
     //     0x796cc0: stur            w0, [x1, #0xb]
     // 0x796cc4: r0 = deniedMessage()
-    //     0x796cc4: bl              #0x796e7c  ; [package:ballai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::deniedMessage
+    //     0x796cc4: bl              #0x796e7c  ; [package:kourtai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::deniedMessage
     // 0x796cc8: stur            x0, [fp, #-8]
     // 0x796ccc: r0 = Text()
     //     0x796ccc: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -182,7 +182,7 @@ abstract class WorkoutCameraPermission extends Object {
     // 0x796cdc: StoreField: r1->field_b = r0
     //     0x796cdc: stur            w0, [x1, #0xb]
     // 0x796ce0: r0 = notNowLabel()
-    //     0x796ce0: bl              #0x796e48  ; [package:ballai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::notNowLabel
+    //     0x796ce0: bl              #0x796e48  ; [package:kourtai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::notNowLabel
     // 0x796ce4: stur            x0, [fp, #-8]
     // 0x796ce8: r0 = Text()
     //     0x796ce8: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -193,7 +193,7 @@ abstract class WorkoutCameraPermission extends Object {
     //     0x796cf8: stur            w0, [x3, #0xb]
     // 0x796cfc: ldur            x2, [fp, #-0x10]
     // 0x796d00: r1 = Function '<anonymous closure>': static.
-    //     0x796d00: add             x1, PP, #0x29, lsl #12  ; [pp+0x29b80] AnonymousClosure: static (0x796f4c), in [package:ballai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::presentDeniedDialog (0x796a3c)
+    //     0x796d00: add             x1, PP, #0x29, lsl #12  ; [pp+0x29b80] AnonymousClosure: static (0x796f4c), in [package:kourtai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::presentDeniedDialog (0x796a3c)
     //     0x796d04: ldr             x1, [x1, #0xb80]
     // 0x796d08: r0 = AllocateClosure()
     //     0x796d08: bl              #0xe553e0  ; AllocateClosureStub
@@ -217,7 +217,7 @@ abstract class WorkoutCameraPermission extends Object {
     // 0x796d38: StoreField: r1->field_37 = r3
     //     0x796d38: stur            w3, [x1, #0x37]
     // 0x796d3c: r0 = openSettingsLabel()
-    //     0x796d3c: bl              #0x796e14  ; [package:ballai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::openSettingsLabel
+    //     0x796d3c: bl              #0x796e14  ; [package:kourtai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::openSettingsLabel
     // 0x796d40: stur            x0, [fp, #-8]
     // 0x796d44: r0 = Text()
     //     0x796d44: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -228,7 +228,7 @@ abstract class WorkoutCameraPermission extends Object {
     //     0x796d54: stur            w0, [x3, #0xb]
     // 0x796d58: ldur            x2, [fp, #-0x10]
     // 0x796d5c: r1 = Function '<anonymous closure>': static.
-    //     0x796d5c: add             x1, PP, #0x29, lsl #12  ; [pp+0x29b88] AnonymousClosure: static (0x796ee4), in [package:ballai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::presentDeniedDialog (0x796a3c)
+    //     0x796d5c: add             x1, PP, #0x29, lsl #12  ; [pp+0x29b88] AnonymousClosure: static (0x796ee4), in [package:kourtai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::presentDeniedDialog (0x796a3c)
     //     0x796d60: ldr             x1, [x1, #0xb88]
     // 0x796d64: r0 = AllocateClosure()
     //     0x796d64: bl              #0xe553e0  ; AllocateClosureStub
@@ -315,7 +315,7 @@ abstract class WorkoutCameraPermission extends Object {
     //     0x796e28: add             x1, PP, #0x29, lsl #12  ; [pp+0x29b90] "Open settings"
     //     0x796e2c: ldr             x1, [x1, #0xb90]
     // 0x796e30: r0 = L()
-    //     0x796e30: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x796e30: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x796e34: LeaveFrame
     //     0x796e34: mov             SP, fp
     //     0x796e38: ldp             fp, lr, [SP], #0x10
@@ -338,7 +338,7 @@ abstract class WorkoutCameraPermission extends Object {
     //     0x796e5c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20620] "Not now"
     //     0x796e60: ldr             x1, [x1, #0x620]
     // 0x796e64: r0 = L()
-    //     0x796e64: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x796e64: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x796e68: LeaveFrame
     //     0x796e68: mov             SP, fp
     //     0x796e6c: ldp             fp, lr, [SP], #0x10
@@ -357,11 +357,11 @@ abstract class WorkoutCameraPermission extends Object {
     //     0x796e84: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x796e88: cmp             SP, x16
     //     0x796e8c: b.ls            #0x796ea8
-    // 0x796e90: r1 = "Ball AI needs camera access to track your workout. Please enable camera access in Settings."
-    //     0x796e90: add             x1, PP, #0x29, lsl #12  ; [pp+0x29b98] "Ball AI needs camera access to track your workout. Please enable camera access in Settings."
+    // 0x796e90: r1 = "Kourt AI needs camera access to track your workout. Please enable camera access in Settings."
+    //     0x796e90: add             x1, PP, #0x29, lsl #12  ; [pp+0x29b98] "Kourt AI needs camera access to track your workout. Please enable camera access in Settings."
     //     0x796e94: ldr             x1, [x1, #0xb98]
     // 0x796e98: r0 = L()
-    //     0x796e98: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x796e98: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x796e9c: LeaveFrame
     //     0x796e9c: mov             SP, fp
     //     0x796ea0: ldp             fp, lr, [SP], #0x10
@@ -384,7 +384,7 @@ abstract class WorkoutCameraPermission extends Object {
     //     0x796ec4: add             x1, PP, #0x29, lsl #12  ; [pp+0x29ba0] "Enable camera access"
     //     0x796ec8: ldr             x1, [x1, #0xba0]
     // 0x796ecc: r0 = L()
-    //     0x796ecc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x796ecc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x796ed0: LeaveFrame
     //     0x796ed0: mov             SP, fp
     //     0x796ed4: ldp             fp, lr, [SP], #0x10
@@ -620,7 +620,7 @@ abstract class WorkoutCameraPermission extends Object {
     //     0x79711c: cmp             SP, x16
     //     0x797120: b.ls            #0x797134
     // 0x797124: r0 = ensure()
-    //     0x797124: bl              #0x796fb4  ; [package:ballai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::ensure
+    //     0x797124: bl              #0x796fb4  ; [package:kourtai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::ensure
     // 0x797128: LeaveFrame
     //     0x797128: mov             SP, fp
     //     0x79712c: ldp             fp, lr, [SP], #0x10

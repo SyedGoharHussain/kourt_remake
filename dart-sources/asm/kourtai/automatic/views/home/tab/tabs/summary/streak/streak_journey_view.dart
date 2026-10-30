@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart
 
 // class id: 1048888, size: 0x8
 class :: {
@@ -45,7 +45,7 @@ class _StreakJourneyViewState extends State<dynamic> {
     // 0x95adbc: mov             x2, x1
     // 0x95adc0: stur            x0, [fp, #-8]
     // 0x95adc4: r1 = Function '<anonymous closure>':.
-    //     0x95adc4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ac78] AnonymousClosure: (0x95aeb8), in [package:ballai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::initState (0x95ad68)
+    //     0x95adc4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ac78] AnonymousClosure: (0x95aeb8), in [package:kourtai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::initState (0x95ad68)
     //     0x95adc8: ldr             x1, [x1, #0xc78]
     // 0x95adcc: r0 = AllocateClosure()
     //     0x95adcc: bl              #0xe553e0  ; AllocateClosureStub
@@ -142,7 +142,7 @@ class _StreakJourneyViewState extends State<dynamic> {
     //     0x95aedc: add             x0, x0, HEAP, lsl #32
     // 0x95aee0: mov             x1, x0
     // 0x95aee4: r0 = _runEntranceAnimationIfNeeded()
-    //     0x95aee4: bl              #0x95af00  ; [package:ballai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_runEntranceAnimationIfNeeded
+    //     0x95aee4: bl              #0x95af00  ; [package:kourtai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_runEntranceAnimationIfNeeded
     // 0x95aee8: r0 = Null
     //     0x95aee8: mov             x0, NULL
     // 0x95aeec: LeaveFrame
@@ -213,7 +213,7 @@ class _StreakJourneyViewState extends State<dynamic> {
     // 0x95af8c: tbnz            w2, #4, #0x95afb4
     // 0x95af90: mov             x2, x0
     // 0x95af94: r1 = Function '<anonymous closure>':.
-    //     0x95af94: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ac98] AnonymousClosure: (0x95b380), in [package:ballai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_runEntranceAnimationIfNeeded (0x95af00)
+    //     0x95af94: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ac98] AnonymousClosure: (0x95b380), in [package:kourtai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_runEntranceAnimationIfNeeded (0x95af00)
     //     0x95af98: ldr             x1, [x1, #0xc98]
     // 0x95af9c: r0 = AllocateClosure()
     //     0x95af9c: bl              #0xe553e0  ; AllocateClosureStub
@@ -227,7 +227,7 @@ class _StreakJourneyViewState extends State<dynamic> {
     //     0x95afb0: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x95afb4: mov             x2, x0
     // 0x95afb8: r1 = Function '<anonymous closure>':.
-    //     0x95afb8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2aca0] AnonymousClosure: (0x95b168), in [package:ballai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_runEntranceAnimationIfNeeded (0x95af00)
+    //     0x95afb8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2aca0] AnonymousClosure: (0x95b168), in [package:kourtai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_runEntranceAnimationIfNeeded (0x95af00)
     //     0x95afbc: ldr             x1, [x1, #0xca0]
     // 0x95afc0: r0 = AllocateClosure()
     //     0x95afc0: bl              #0xe553e0  ; AllocateClosureStub
@@ -369,7 +369,7 @@ class _StreakJourneyViewState extends State<dynamic> {
     //     0x95b130: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x95b134: ldur            x2, [fp, #-0x18]
     // 0x95b138: r1 = Function '<anonymous closure>':.
-    //     0x95b138: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2acb0] AnonymousClosure: (0x8fbc64), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
+    //     0x95b138: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2acb0] AnonymousClosure: (0x8fbc64), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
     //     0x95b13c: ldr             x1, [x1, #0xcb0]
     // 0x95b140: r0 = AllocateClosure()
     //     0x95b140: bl              #0xe553e0  ; AllocateClosureStub
@@ -410,7 +410,7 @@ class _StreakJourneyViewState extends State<dynamic> {
     // 0x95b194: mov             x1, x0
     // 0x95b198: stur            x0, [fp, #-8]
     // 0x95b19c: r0 = _challengeProgress()
-    //     0x95b19c: bl              #0x95b1f4  ; [package:ballai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_challengeProgress
+    //     0x95b19c: bl              #0x95b1f4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_challengeProgress
     // 0x95b1a0: ldur            x1, [fp, #-8]
     // 0x95b1a4: StoreField: r1->field_23 = d0
     //     0x95b1a4: stur            d0, [x1, #0x23]
@@ -454,7 +454,7 @@ class _StreakJourneyViewState extends State<dynamic> {
     //     0x95b204: cmp             SP, x16
     //     0x95b208: b.ls            #0x95b2c0
     // 0x95b20c: r0 = _realStreak()
-    //     0x95b20c: bl              #0x95b2e8  ; [package:ballai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_realStreak
+    //     0x95b20c: bl              #0x95b2e8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_realStreak
     // 0x95b210: scvtf           d0, x0
     // 0x95b214: d1 = 30.000000
     //     0x95b214: fmov            d1, #30.00000000
@@ -627,7 +627,7 @@ class _StreakJourneyViewState extends State<dynamic> {
     //     0x95b3c8: stur            w0, [x3, #0x1b]
     // 0x95b3cc: mov             x1, x3
     // 0x95b3d0: r0 = _challengeProgress()
-    //     0x95b3d0: bl              #0x95b1f4  ; [package:ballai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_challengeProgress
+    //     0x95b3d0: bl              #0x95b1f4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_challengeProgress
     // 0x95b3d4: ldur            x1, [fp, #-8]
     // 0x95b3d8: StoreField: r1->field_23 = d0
     //     0x95b3d8: stur            d0, [x1, #0x23]
@@ -667,8 +667,8 @@ class _StreakJourneyViewState extends State<dynamic> {
     // 0xa32700: r0 = of()
     //     0xa32700: bl              #0x5ff63c  ; [package:provider/src/provider.dart] Provider::of
     // 0xa32704: ldur            x1, [fp, #-0x10]
-    // 0xa32708: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xa32708: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xa32708: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xa32708: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xa3270c: stur            x0, [fp, #-0x18]
     // 0xa32710: r0 = AppBar()
     //     0xa32710: bl              #0xa14de0  ; AllocateAppBarStub -> AppBar (size=0x94)
@@ -706,11 +706,11 @@ class _StreakJourneyViewState extends State<dynamic> {
     //     0xa32768: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ac48] "30 Day Challenge"
     //     0xa3276c: ldr             x1, [x1, #0xc48]
     // 0xa32770: r0 = L()
-    //     0xa32770: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa32770: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa32774: ldur            x1, [fp, #-0x10]
     // 0xa32778: stur            x0, [fp, #-0x10]
-    // 0xa3277c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa3277c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa3277c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa3277c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa32780: stur            x0, [fp, #-0x28]
     // 0xa32784: r0 = TextStyle()
     //     0xa32784: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -784,7 +784,7 @@ class _StreakJourneyViewState extends State<dynamic> {
     //     0xa32830: stur            w0, [x2, #0xb]
     // 0xa32834: ldur            x1, [fp, #-8]
     // 0xa32838: r0 = _realStreak()
-    //     0xa32838: bl              #0x95b2e8  ; [package:ballai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_realStreak
+    //     0xa32838: bl              #0x95b2e8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_realStreak
     // 0xa3283c: ldur            x1, [fp, #-8]
     // 0xa32840: stur            x0, [fp, #-0x40]
     // 0xa32844: LoadField: r2 = r1->field_13
@@ -898,7 +898,7 @@ class _StreakJourneyViewState extends State<dynamic> {
     // 0xa32978: mov             x1, x2
     // 0xa3297c: stur            x4, [fp, #-0x10]
     // 0xa32980: r0 = _realStreak()
-    //     0xa32980: bl              #0x95b2e8  ; [package:ballai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_realStreak
+    //     0xa32980: bl              #0x95b2e8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_realStreak
     // 0xa32984: stur            x0, [fp, #-0x38]
     // 0xa32988: r0 = _GearUnlocksSection()
     //     0xa32988: bl              #0xa32b34  ; Allocate_GearUnlocksSectionStub -> _GearUnlocksSection (size=0x18)
@@ -909,7 +909,7 @@ class _StreakJourneyViewState extends State<dynamic> {
     //     0xa32998: stur            x0, [x3, #0xb]
     // 0xa3299c: ldur            x2, [fp, #-8]
     // 0xa329a0: r1 = Function '_openReward@1013448890':.
-    //     0xa329a0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ac60] AnonymousClosure: (0xa32b4c), in [package:ballai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_openReward (0xa32b88)
+    //     0xa329a0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ac60] AnonymousClosure: (0xa32b4c), in [package:kourtai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_openReward (0xa32b88)
     //     0xa329a4: ldr             x1, [x1, #0xc60]
     // 0xa329a8: r0 = AllocateClosure()
     //     0xa329a8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1077,7 +1077,7 @@ class _StreakJourneyViewState extends State<dynamic> {
     //     0xa32b68: b.ls            #0xa32b80
     // 0xa32b6c: ldr             x2, [fp, #0x10]
     // 0xa32b70: r0 = _openReward()
-    //     0xa32b70: bl              #0xa32b88  ; [package:ballai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_openReward
+    //     0xa32b70: bl              #0xa32b88  ; [package:kourtai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_openReward
     // 0xa32b74: LeaveFrame
     //     0xa32b74: mov             SP, fp
     //     0xa32b78: ldp             fp, lr, [SP], #0x10
@@ -1107,7 +1107,7 @@ class _StreakJourneyViewState extends State<dynamic> {
     //     0xa32bb0: bl              #0x60afc8  ; InitAsyncStub
     // 0xa32bb4: ldur            x1, [fp, #-0x10]
     // 0xa32bb8: r0 = _realStreak()
-    //     0xa32bb8: bl              #0x95b2e8  ; [package:ballai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_realStreak
+    //     0xa32bb8: bl              #0x95b2e8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_realStreak
     // 0xa32bbc: mov             x1, x0
     // 0xa32bc0: ldur            x0, [fp, #-0x18]
     // 0xa32bc4: LoadField: r2 = r0->field_b
@@ -1337,7 +1337,7 @@ class _StatusPill extends StatelessWidget {
     //     0xbe24c0: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cba0] "Unlocked"
     //     0xbe24c4: ldr             x1, [x1, #0xba0]
     // 0xbe24c8: r0 = L()
-    //     0xbe24c8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe24c8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe24cc: mov             x1, x0
     // 0xbe24d0: b               #0xbe2544
     // 0xbe24d4: ldur            x0, [fp, #-0x20]
@@ -1379,7 +1379,7 @@ class _StatusPill extends StatelessWidget {
     //     0xbe2534: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cba8] "Unlocks on day %lld"
     //     0xbe2538: ldr             x1, [x1, #0xba8]
     // 0xbe253c: r0 = LF()
-    //     0xbe253c: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xbe253c: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xbe2540: mov             x1, x0
     // 0xbe2544: ldur            x0, [fp, #-0x28]
     // 0xbe2548: stur            x1, [fp, #-8]
@@ -1659,7 +1659,7 @@ class _RewardCard extends StatelessWidget {
     //     0xbe18f4: ldr             x10, [x10, #0x650]
     // 0xbe18f8: stur            x10, [fp, #-0x20]
     // 0xbe18fc: r1 = Function '<anonymous closure>':.
-    //     0xbe18fc: add             x1, PP, #0x38, lsl #12  ; [pp+0x38428] AnonymousClosure: (0xdba9c4), in [package:ballai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _RewardCard::build (0xbe169c)
+    //     0xbe18fc: add             x1, PP, #0x38, lsl #12  ; [pp+0x38428] AnonymousClosure: (0xdba9c4), in [package:kourtai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _RewardCard::build (0xbe169c)
     //     0xbe1900: ldr             x1, [x1, #0x428]
     // 0xbe1904: r2 = Null
     //     0xbe1904: mov             x2, NULL
@@ -1734,7 +1734,7 @@ class _RewardCard extends StatelessWidget {
     //     0xbe19c4: stur            w0, [x2, #0x23]
     // 0xbe19c8: ldur            x1, [fp, #-0x10]
     // 0xbe19cc: r0 = name()
-    //     0xbe19cc: bl              #0xbe098c  ; [package:ballai/automatic/models/core/streak/streak_challenge_reward.dart] StreakChallengeReward::name
+    //     0xbe19cc: bl              #0xbe098c  ; [package:kourtai/automatic/models/core/streak/streak_challenge_reward.dart] StreakChallengeReward::name
     // 0xbe19d0: r1 = LoadClassIdInstr(r0)
     //     0xbe19d0: ldur            x1, [x0, #-1]
     //     0xbe19d4: ubfx            x1, x1, #0xc, #0x14
@@ -1848,7 +1848,7 @@ class _RewardCard extends StatelessWidget {
     //     0xbe1ae8: stur            w1, [x2, #0xb]
     // 0xbe1aec: ldur            x1, [fp, #-0x10]
     // 0xbe1af0: r0 = tagline()
-    //     0xbe1af0: bl              #0xbe2304  ; [package:ballai/automatic/models/core/streak/streak_challenge_reward.dart] StreakChallengeReward::tagline
+    //     0xbe1af0: bl              #0xbe2304  ; [package:kourtai/automatic/models/core/streak/streak_challenge_reward.dart] StreakChallengeReward::tagline
     // 0xbe1af4: stur            x0, [fp, #-0x20]
     // 0xbe1af8: r16 = 0.900000
     //     0xbe1af8: add             x16, PP, #0x1f, lsl #12  ; [pp+0x1f448] 0.9
@@ -2202,7 +2202,7 @@ class _RewardCard extends StatelessWidget {
     // 0xbe1e94: ldur            x1, [fp, #-0x10]
     // 0xbe1e98: stur            x0, [fp, #-0x18]
     // 0xbe1e9c: r0 = ctaTitle()
-    //     0xbe1e9c: bl              #0xbe22c0  ; [package:ballai/automatic/models/core/streak/streak_challenge_reward.dart] StreakChallengeReward::ctaTitle
+    //     0xbe1e9c: bl              #0xbe22c0  ; [package:kourtai/automatic/models/core/streak/streak_challenge_reward.dart] StreakChallengeReward::ctaTitle
     // 0xbe1ea0: stur            x0, [fp, #-0x28]
     // 0xbe1ea4: r0 = Text()
     //     0xbe1ea4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2631,8 +2631,8 @@ class _GearUnlocksSection extends StatelessWidget {
     // 0xbe1290: StoreField: r2->field_f = r0
     //     0xbe1290: stur            w0, [x2, #0xf]
     // 0xbe1294: ldur            x1, [fp, #-0x10]
-    // 0xbe1298: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbe1298: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbe1298: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbe1298: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbe129c: stur            x0, [fp, #-0x20]
     // 0xbe12a0: r0 = Icon()
     //     0xbe12a0: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -2655,7 +2655,7 @@ class _GearUnlocksSection extends StatelessWidget {
     //     0xbe12cc: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e3d0] "Gear unlocks"
     //     0xbe12d0: ldr             x1, [x1, #0x3d0]
     // 0xbe12d4: r0 = L()
-    //     0xbe12d4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe12d4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe12d8: r1 = LoadClassIdInstr(r0)
     //     0xbe12d8: ldur            x1, [x0, #-1]
     //     0xbe12dc: ubfx            x1, x1, #0xc, #0x14
@@ -2667,8 +2667,8 @@ class _GearUnlocksSection extends StatelessWidget {
     //     0xbe12f0: blr             lr
     // 0xbe12f4: ldur            x1, [fp, #-0x10]
     // 0xbe12f8: stur            x0, [fp, #-0x10]
-    // 0xbe12fc: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbe12fc: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbe12fc: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbe12fc: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbe1300: stur            x0, [fp, #-0x20]
     // 0xbe1304: r0 = TextStyle()
     //     0xbe1304: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2806,7 +2806,7 @@ class _GearUnlocksSection extends StatelessWidget {
     // 0xbe1450: StoreField: r1->field_b = r2
     //     0xbe1450: stur            w2, [x1, #0xb]
     // 0xbe1454: r0 = all()
-    //     0xbe1454: bl              #0xbe0aa4  ; [package:ballai/automatic/models/core/streak/streak_challenge_reward.dart] StreakChallengeReward::all
+    //     0xbe1454: bl              #0xbe0aa4  ; [package:kourtai/automatic/models/core/streak/streak_challenge_reward.dart] StreakChallengeReward::all
     // 0xbe1458: stur            x0, [fp, #-0x20]
     // 0xbe145c: LoadField: r1 = r0->field_b
     //     0xbe145c: ldur            w1, [x0, #0xb]
@@ -2878,7 +2878,7 @@ class _GearUnlocksSection extends StatelessWidget {
     //     0xbe1514: stur            w0, [x3, #0xf]
     // 0xbe1518: ldur            x2, [fp, #-0x30]
     // 0xbe151c: r1 = Function '<anonymous closure>':.
-    //     0xbe151c: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e3d8] AnonymousClosure: (0xbe163c), in [package:ballai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _GearUnlocksSection::build (0xbe1254)
+    //     0xbe151c: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e3d8] AnonymousClosure: (0xbe163c), in [package:kourtai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _GearUnlocksSection::build (0xbe1254)
     //     0xbe1520: ldr             x1, [x1, #0x3d8]
     // 0xbe1524: r0 = AllocateClosure()
     //     0xbe1524: bl              #0xe553e0  ; AllocateClosureStub
@@ -3019,7 +3019,7 @@ class _GearUnlocksSection extends StatelessWidget {
     // 0xbe1680: DecompressPointer r1
     //     0xbe1680: add             x1, x1, HEAP, lsl #32
     // 0xbe1684: r0 = _openReward()
-    //     0xbe1684: bl              #0xa32b88  ; [package:ballai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_openReward
+    //     0xbe1684: bl              #0xa32b88  ; [package:kourtai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _StreakJourneyViewState::_openReward
     // 0xbe1688: LeaveFrame
     //     0xbe1688: mov             SP, fp
     //     0xbe168c: ldp             fp, lr, [SP], #0x10
@@ -3082,8 +3082,8 @@ class _Node extends StatelessWidget {
     //     0xbe0f68: mov             x2, NULL
     // 0xbe0f6c: b               #0xbe0f9c
     // 0xbe0f70: mov             x1, x0
-    // 0xbe0f74: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbe0f74: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbe0f74: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbe0f74: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbe0f78: r16 = 0.080000
     //     0xbe0f78: add             x16, PP, #0x24, lsl #12  ; [pp+0x24f28] 0.08
     //     0xbe0f7c: ldr             x16, [x16, #0xf28]
@@ -3233,8 +3233,8 @@ class _Node extends StatelessWidget {
     //     0xbe1118: ldr             x1, [PP, #0x5178]  ; [pp+0x5178] Obj!Color@d2a0a1
     // 0xbe111c: b               #0xbe1134
     // 0xbe1120: ldur            x1, [fp, #-0x28]
-    // 0xbe1124: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbe1124: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbe1124: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbe1124: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbe1128: mov             x1, x0
     // 0xbe112c: ldur            x0, [fp, #-8]
     // 0xbe1130: ldur            d0, [fp, #-0x50]
@@ -3386,7 +3386,7 @@ class _MilestoneRow extends StatelessWidget {
     // 0xbe00f4: mov             x1, x4
     // 0xbe00f8: stur            x6, [fp, #-8]
     // 0xbe00fc: r0 = rewardUnlockedAtDay()
-    //     0xbe00fc: bl              #0xbe0a08  ; [package:ballai/automatic/models/core/streak/streak_challenge_reward.dart] StreakChallengeReward::rewardUnlockedAtDay
+    //     0xbe00fc: bl              #0xbe0a08  ; [package:kourtai/automatic/models/core/streak/streak_challenge_reward.dart] StreakChallengeReward::rewardUnlockedAtDay
     // 0xbe0100: cmp             w0, NULL
     // 0xbe0104: b.ne            #0xbe0110
     // 0xbe0108: r0 = Null
@@ -3487,8 +3487,8 @@ class _MilestoneRow extends StatelessWidget {
     //     0xbe0214: mov             x2, NULL
     // 0xbe0218: b               #0xbe024c
     // 0xbe021c: ldur            x1, [fp, #-0x30]
-    // 0xbe0220: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbe0220: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbe0220: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbe0220: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbe0224: r16 = 0.100000
     //     0xbe0224: add             x16, PP, #0x25, lsl #12  ; [pp+0x250a0] 0.1
     //     0xbe0228: ldr             x16, [x16, #0xa0]
@@ -3731,7 +3731,7 @@ class _MilestoneRow extends StatelessWidget {
     //     0xbe04a8: add             x1, PP, #0x38, lsl #12  ; [pp+0x38408] "Day %lld"
     //     0xbe04ac: ldr             x1, [x1, #0x408]
     // 0xbe04b0: r0 = LF()
-    //     0xbe04b0: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xbe04b0: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xbe04b4: mov             x2, x0
     // 0xbe04b8: ldur            x0, [fp, #-0x10]
     // 0xbe04bc: stur            x2, [fp, #-8]
@@ -3742,8 +3742,8 @@ class _MilestoneRow extends StatelessWidget {
     //     0xbe04cc: ldr             x2, [x2, #0x308]
     // 0xbe04d0: b               #0xbe04e8
     // 0xbe04d4: ldur            x1, [fp, #-0x30]
-    // 0xbe04d8: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbe04d8: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbe04d8: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbe04d8: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbe04dc: mov             x2, x0
     // 0xbe04e0: ldur            x0, [fp, #-0x10]
     // 0xbe04e4: ldur            x1, [fp, #-8]
@@ -3881,19 +3881,19 @@ class _MilestoneRow extends StatelessWidget {
     //     0xbe0634: stur            w1, [x2, #0xb]
     // 0xbe0638: ldur            x1, [fp, #-0x20]
     // 0xbe063c: r0 = title()
-    //     0xbe063c: bl              #0xbe09c4  ; [package:ballai/automatic/models/core/streak/streak_milestones.dart] StreakMilestone::title
+    //     0xbe063c: bl              #0xbe09c4  ; [package:kourtai/automatic/models/core/streak/streak_milestones.dart] StreakMilestone::title
     // 0xbe0640: mov             x2, x0
     // 0xbe0644: ldur            x0, [fp, #-0x10]
     // 0xbe0648: stur            x2, [fp, #-0x48]
     // 0xbe064c: tbnz            w0, #4, #0xbe0660
     // 0xbe0650: ldur            x1, [fp, #-0x30]
-    // 0xbe0654: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbe0654: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbe0654: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbe0654: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbe0658: mov             x5, x0
     // 0xbe065c: b               #0xbe066c
     // 0xbe0660: ldur            x1, [fp, #-0x30]
-    // 0xbe0664: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbe0664: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbe0664: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbe0664: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbe0668: mov             x5, x0
     // 0xbe066c: ldur            d0, [fp, #-0x68]
     // 0xbe0670: ldur            x4, [fp, #-0x38]
@@ -3935,11 +3935,11 @@ class _MilestoneRow extends StatelessWidget {
     //     0xbe06d4: stur            w0, [x2, #0x13]
     // 0xbe06d8: ldur            x1, [fp, #-0x20]
     // 0xbe06dc: r0 = name()
-    //     0xbe06dc: bl              #0xbe098c  ; [package:ballai/automatic/models/core/streak/streak_challenge_reward.dart] StreakChallengeReward::name
+    //     0xbe06dc: bl              #0xbe098c  ; [package:kourtai/automatic/models/core/streak/streak_challenge_reward.dart] StreakChallengeReward::name
     // 0xbe06e0: ldur            x1, [fp, #-0x30]
     // 0xbe06e4: stur            x0, [fp, #-0x20]
-    // 0xbe06e8: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbe06e8: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbe06e8: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbe06e8: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbe06ec: stur            x0, [fp, #-0x30]
     // 0xbe06f0: r0 = TextStyle()
     //     0xbe06f0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -4388,8 +4388,8 @@ class _TimelineCard extends StatelessWidget {
     // 0xbdfff8: ldur            x0, [fp, #-0x40]
     // 0xbdfffc: StoreField: r1->field_b = r0
     //     0xbdfffc: stur            w0, [x1, #0xb]
-    // 0xbe0000: r0 = BallAiLiquidGlassCard()
-    //     0xbe0000: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xbe0000: r0 = KourtAiLiquidGlassCard()
+    //     0xbe0000: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xbe0004: mov             x1, x0
     // 0xbe0008: ldur            x0, [fp, #-8]
     // 0xbe000c: stur            x1, [fp, #-0x18]
@@ -4468,8 +4468,8 @@ class _CircleCloseButton extends StatelessWidget {
     // 0xbdfcc8: stur            x0, [fp, #-0x10]
     // 0xbdfccc: StoreField: r0->field_f = r1
     //     0xbdfccc: stur            w1, [x0, #0xf]
-    // 0xbdfcd0: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xbdfcd0: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xbdfcd0: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xbdfcd0: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xbdfcd4: stur            x0, [fp, #-8]
     // 0xbdfcd8: r0 = Icon()
     //     0xbdfcd8: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -4513,7 +4513,7 @@ class _CircleCloseButton extends StatelessWidget {
     //     0xbdfd3c: stur            w0, [x3, #0xb]
     // 0xbdfd40: ldur            x2, [fp, #-0x10]
     // 0xbdfd44: r1 = Function '<anonymous closure>':.
-    //     0xbdfd44: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e3c0] AnonymousClosure: (0x953eb0), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
+    //     0xbdfd44: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e3c0] AnonymousClosure: (0x953eb0), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
     //     0xbdfd48: ldr             x1, [x1, #0x3c0]
     // 0xbdfd4c: r0 = AllocateClosure()
     //     0xbdfd4c: bl              #0xe553e0  ; AllocateClosureStub

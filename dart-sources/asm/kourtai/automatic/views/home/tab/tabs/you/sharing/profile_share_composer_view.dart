@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart
 
 // class id: 1049035, size: 0x8
 class :: {
@@ -85,7 +85,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0x989954: b.eq            #0x98995c
     //     0x989958: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x98995c: r1 = Function '_onShareStateChanged@1286007207':.
-    //     0x98995c: add             x1, PP, #0x42, lsl #12  ; [pp+0x42d60] AnonymousClosure: (0x98c3d8), in [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_onShareStateChanged (0x98c410)
+    //     0x98995c: add             x1, PP, #0x42, lsl #12  ; [pp+0x42d60] AnonymousClosure: (0x98c3d8), in [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_onShareStateChanged (0x98c410)
     //     0x989960: ldr             x1, [x1, #0xd60]
     // 0x989964: r0 = AllocateClosure()
     //     0x989964: bl              #0xe553e0  ; AllocateClosureStub
@@ -110,7 +110,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0x989998: ldur            x2, [fp, #-0x10]
     // 0x98999c: stur            x0, [fp, #-8]
     // 0x9899a0: r1 = Function '<anonymous closure>':.
-    //     0x9899a0: add             x1, PP, #0x42, lsl #12  ; [pp+0x42d70] AnonymousClosure: (0x989ab8), in [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::initState (0x989894)
+    //     0x9899a0: add             x1, PP, #0x42, lsl #12  ; [pp+0x42d70] AnonymousClosure: (0x989ab8), in [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::initState (0x989894)
     //     0x9899a4: ldr             x1, [x1, #0xd70]
     // 0x9899a8: r0 = AllocateClosure()
     //     0x9899a8: bl              #0xe553e0  ; AllocateClosureStub
@@ -216,7 +216,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0x989adc: add             x0, x0, HEAP, lsl #32
     // 0x989ae0: mov             x1, x0
     // 0x989ae4: r0 = _refreshCard()
-    //     0x989ae4: bl              #0x989afc  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_refreshCard
+    //     0x989ae4: bl              #0x989afc  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_refreshCard
     // 0x989ae8: LeaveFrame
     //     0x989ae8: mov             SP, fp
     //     0x989aec: ldp             fp, lr, [SP], #0x10
@@ -272,7 +272,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0x989b60: ldur            x3, [x2, #0x1b]
     // 0x989b64: mov             x2, x0
     // 0x989b68: r0 = refreshRenderedImage()
-    //     0x989b68: bl              #0x989b98  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_card_share_state.dart] ProfileCardShareState::refreshRenderedImage
+    //     0x989b68: bl              #0x989b98  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_card_share_state.dart] ProfileCardShareState::refreshRenderedImage
     // 0x989b6c: mov             x1, x0
     // 0x989b70: stur            x1, [fp, #-0x10]
     // 0x989b74: r0 = Await()
@@ -307,7 +307,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0x98c3f0: cmp             SP, x16
     //     0x98c3f4: b.ls            #0x98c408
     // 0x98c3f8: r0 = _onShareStateChanged()
-    //     0x98c3f8: bl              #0x98c410  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_onShareStateChanged
+    //     0x98c3f8: bl              #0x98c410  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_onShareStateChanged
     // 0x98c3fc: LeaveFrame
     //     0x98c3fc: mov             SP, fp
     //     0x98c400: ldp             fp, lr, [SP], #0x10
@@ -438,16 +438,16 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa78f4: ldur            w1, [x2, #0xf]
     // 0xaa78f8: DecompressPointer r1
     //     0xaa78f8: add             x1, x1, HEAP, lsl #32
-    // 0xaa78fc: r0 = BallAiThemeContext.ballAiBackButtonFill()
-    //     0xaa78fc: bl              #0x9d6208  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiBackButtonFill
+    // 0xaa78fc: r0 = KourtAiThemeContext.kourtAiBackButtonFill()
+    //     0xaa78fc: bl              #0x9d6208  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiBackButtonFill
     // 0xaa7900: ldur            x2, [fp, #-0x30]
     // 0xaa7904: stur            x0, [fp, #-0x38]
     // 0xaa7908: LoadField: r1 = r2->field_f
     //     0xaa7908: ldur            w1, [x2, #0xf]
     // 0xaa790c: DecompressPointer r1
     //     0xaa790c: add             x1, x1, HEAP, lsl #32
-    // 0xaa7910: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xaa7910: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xaa7910: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xaa7910: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xaa7914: stur            x0, [fp, #-0x40]
     // 0xaa7918: r0 = Icon()
     //     0xaa7918: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -487,7 +487,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa7974: stur            w0, [x3, #0xb]
     // 0xaa7978: ldur            x2, [fp, #-0x30]
     // 0xaa797c: r1 = Function '<anonymous closure>':.
-    //     0xaa797c: add             x1, PP, #0x42, lsl #12  ; [pp+0x42830] AnonymousClosure: (0x953eb0), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
+    //     0xaa797c: add             x1, PP, #0x42, lsl #12  ; [pp+0x42830] AnonymousClosure: (0x953eb0), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
     //     0xaa7980: ldr             x1, [x1, #0x830]
     // 0xaa7984: r0 = AllocateClosure()
     //     0xaa7984: bl              #0xe553e0  ; AllocateClosureStub
@@ -582,7 +582,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa7a58: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b9a8] "Share profile"
     //     0xaa7a5c: ldr             x1, [x1, #0x9a8]
     // 0xaa7a60: r0 = L()
-    //     0xaa7a60: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa7a60: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa7a64: mov             x2, x0
     // 0xaa7a68: ldur            x0, [fp, #-0x30]
     // 0xaa7a6c: stur            x2, [fp, #-0x40]
@@ -590,8 +590,8 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa7a70: ldur            w1, [x0, #0xf]
     // 0xaa7a74: DecompressPointer r1
     //     0xaa7a74: add             x1, x1, HEAP, lsl #32
-    // 0xaa7a78: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xaa7a78: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xaa7a78: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xaa7a78: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xaa7a7c: stur            x0, [fp, #-0x48]
     // 0xaa7a80: r0 = TextStyle()
     //     0xaa7a80: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -691,7 +691,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa7b74: DecompressPointer r1
     //     0xaa7b74: add             x1, x1, HEAP, lsl #32
     // 0xaa7b78: r0 = homeIslandScrollBottomPadding()
-    //     0xaa7b78: bl              #0xa3cf84  ; [package:ballai/automatic/utility/ui/home_island_scroll_padding.dart] ::homeIslandScrollBottomPadding
+    //     0xaa7b78: bl              #0xa3cf84  ; [package:kourtai/automatic/utility/ui/home_island_scroll_padding.dart] ::homeIslandScrollBottomPadding
     // 0xaa7b7c: stur            d0, [fp, #-0x90]
     // 0xaa7b80: r0 = EdgeInsets()
     //     0xaa7b80: bl              #0x60095c  ; AllocateEdgeInsetsStub -> EdgeInsets (size=0x28)
@@ -829,7 +829,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa7cc8: tbnz            w0, #4, #0xaa7d18
     // 0xaa7ccc: ldur            x1, [fp, #-8]
     // 0xaa7cd0: r0 = _renderedBytes()
-    //     0xaa7cd0: bl              #0xaa8f30  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_renderedBytes
+    //     0xaa7cd0: bl              #0xaa8f30  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_renderedBytes
     // 0xaa7cd4: stur            x0, [fp, #-0x50]
     // 0xaa7cd8: cmp             w0, NULL
     // 0xaa7cdc: b.eq            #0xaa8d74
@@ -1298,7 +1298,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa81ac: b               #0xaa81c8
     // 0xaa81b0: mov             x2, x0
     // 0xaa81b4: r1 = Function '_chooseBackground@1286007207':.
-    //     0xaa81b4: add             x1, PP, #0x42, lsl #12  ; [pp+0x42858] AnonymousClosure: (0xaaa1bc), in [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_chooseBackground (0xaaa1f4)
+    //     0xaa81b4: add             x1, PP, #0x42, lsl #12  ; [pp+0x42858] AnonymousClosure: (0xaaa1bc), in [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_chooseBackground (0xaaa1f4)
     //     0xaa81b8: ldr             x1, [x1, #0x858]
     // 0xaa81bc: r0 = AllocateClosure()
     //     0xaa81bc: bl              #0xe553e0  ; AllocateClosureStub
@@ -1341,7 +1341,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa8224: add             x1, PP, #0x42, lsl #12  ; [pp+0x42860] "Choose background"
     //     0xaa8228: ldr             x1, [x1, #0x860]
     // 0xaa822c: r0 = L()
-    //     0xaa822c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa822c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa8230: stur            x0, [fp, #-0x78]
     // 0xaa8234: r0 = TextStyle()
     //     0xaa8234: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1574,7 +1574,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa846c: add             x1, PP, #0x42, lsl #12  ; [pp+0x42868] "IG Story"
     //     0xaa8470: ldr             x1, [x1, #0x868]
     // 0xaa8474: r0 = L()
-    //     0xaa8474: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa8474: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa8478: mov             x3, x0
     // 0xaa847c: ldur            x0, [fp, #-8]
     // 0xaa8480: stur            x3, [fp, #-0x30]
@@ -1590,7 +1590,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa849c: b               #0xaa84bc
     // 0xaa84a0: mov             x2, x0
     // 0xaa84a4: r1 = Function '_openInstagram@1286007207':.
-    //     0xaa84a4: add             x1, PP, #0x42, lsl #12  ; [pp+0x42870] AnonymousClosure: (0xaaa12c), in [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_openInstagram (0xaaa164)
+    //     0xaa84a4: add             x1, PP, #0x42, lsl #12  ; [pp+0x42870] AnonymousClosure: (0xaaa12c), in [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_openInstagram (0xaaa164)
     //     0xaa84a8: ldr             x1, [x1, #0x870]
     // 0xaa84ac: r0 = AllocateClosure()
     //     0xaa84ac: bl              #0xe553e0  ; AllocateClosureStub
@@ -1628,7 +1628,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa8504: add             x1, PP, #0x27, lsl #12  ; [pp+0x27ba8] "TikTok"
     //     0xaa8508: ldr             x1, [x1, #0xba8]
     // 0xaa850c: r0 = L()
-    //     0xaa850c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa850c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa8510: mov             x3, x0
     // 0xaa8514: ldur            x0, [fp, #-8]
     // 0xaa8518: stur            x3, [fp, #-0x30]
@@ -1644,7 +1644,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa8534: b               #0xaa8554
     // 0xaa8538: mov             x2, x0
     // 0xaa853c: r1 = Function '_openTikTok@1286007207':.
-    //     0xaa853c: add             x1, PP, #0x42, lsl #12  ; [pp+0x42880] AnonymousClosure: (0xaaa09c), in [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_openTikTok (0xaaa0d4)
+    //     0xaa853c: add             x1, PP, #0x42, lsl #12  ; [pp+0x42880] AnonymousClosure: (0xaaa09c), in [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_openTikTok (0xaaa0d4)
     //     0xaa8540: ldr             x1, [x1, #0x880]
     // 0xaa8544: r0 = AllocateClosure()
     //     0xaa8544: bl              #0xe553e0  ; AllocateClosureStub
@@ -1682,7 +1682,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa859c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27bc8] "Snapchat"
     //     0xaa85a0: ldr             x1, [x1, #0xbc8]
     // 0xaa85a4: r0 = L()
-    //     0xaa85a4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa85a4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa85a8: mov             x3, x0
     // 0xaa85ac: ldur            x0, [fp, #-8]
     // 0xaa85b0: stur            x3, [fp, #-0x30]
@@ -1698,7 +1698,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa85cc: b               #0xaa85ec
     // 0xaa85d0: mov             x2, x0
     // 0xaa85d4: r1 = Function '_openSnapchat@1286007207':.
-    //     0xaa85d4: add             x1, PP, #0x42, lsl #12  ; [pp+0x42890] AnonymousClosure: (0xaa9e18), in [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_openSnapchat (0xaa9e50)
+    //     0xaa85d4: add             x1, PP, #0x42, lsl #12  ; [pp+0x42890] AnonymousClosure: (0xaa9e18), in [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_openSnapchat (0xaa9e50)
     //     0xaa85d8: ldr             x1, [x1, #0x890]
     // 0xaa85dc: r0 = AllocateClosure()
     //     0xaa85dc: bl              #0xe553e0  ; AllocateClosureStub
@@ -1736,7 +1736,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa8634: add             x1, PP, #0x27, lsl #12  ; [pp+0x27bc0] "Facebook"
     //     0xaa8638: ldr             x1, [x1, #0xbc0]
     // 0xaa863c: r0 = L()
-    //     0xaa863c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa863c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa8640: mov             x3, x0
     // 0xaa8644: ldur            x0, [fp, #-8]
     // 0xaa8648: stur            x3, [fp, #-0x30]
@@ -1752,7 +1752,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa8664: b               #0xaa8684
     // 0xaa8668: mov             x2, x0
     // 0xaa866c: r1 = Function '_openFacebook@1286007207':.
-    //     0xaa866c: add             x1, PP, #0x42, lsl #12  ; [pp+0x428a0] AnonymousClosure: (0xaa9a7c), in [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_openFacebook (0xaa9ab4)
+    //     0xaa866c: add             x1, PP, #0x42, lsl #12  ; [pp+0x428a0] AnonymousClosure: (0xaa9a7c), in [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_openFacebook (0xaa9ab4)
     //     0xaa8670: ldr             x1, [x1, #0x8a0]
     // 0xaa8674: r0 = AllocateClosure()
     //     0xaa8674: bl              #0xe553e0  ; AllocateClosureStub
@@ -1873,7 +1873,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa87a0: add             x1, PP, #0x37, lsl #12  ; [pp+0x37450] "Save"
     //     0xaa87a4: ldr             x1, [x1, #0x450]
     // 0xaa87a8: r0 = L()
-    //     0xaa87a8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa87a8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa87ac: mov             x3, x0
     // 0xaa87b0: ldur            x0, [fp, #-8]
     // 0xaa87b4: stur            x3, [fp, #-0x50]
@@ -1889,7 +1889,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa87d0: b               #0xaa87f0
     // 0xaa87d4: mov             x2, x0
     // 0xaa87d8: r1 = Function '_saveCard@1286007207':.
-    //     0xaa87d8: add             x1, PP, #0x42, lsl #12  ; [pp+0x428b0] AnonymousClosure: (0xaa9584), in [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_saveCard (0xaa95bc)
+    //     0xaa87d8: add             x1, PP, #0x42, lsl #12  ; [pp+0x428b0] AnonymousClosure: (0xaa9584), in [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_saveCard (0xaa95bc)
     //     0xaa87dc: ldr             x1, [x1, #0x8b0]
     // 0xaa87e0: r0 = AllocateClosure()
     //     0xaa87e0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1943,7 +1943,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa8860: add             x1, PP, #0x26, lsl #12  ; [pp+0x26738] "Copy link"
     //     0xaa8864: ldr             x1, [x1, #0x738]
     // 0xaa8868: r0 = L()
-    //     0xaa8868: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa8868: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa886c: mov             x3, x0
     // 0xaa8870: ldur            x0, [fp, #-8]
     // 0xaa8874: stur            x3, [fp, #-0x60]
@@ -1959,7 +1959,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa8890: b               #0xaa88b0
     // 0xaa8894: mov             x2, x0
     // 0xaa8898: r1 = Function '_copyLink@1286007207':.
-    //     0xaa8898: add             x1, PP, #0x42, lsl #12  ; [pp+0x428c0] AnonymousClosure: (0xaa94a4), in [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_copyLink (0xaa94dc)
+    //     0xaa8898: add             x1, PP, #0x42, lsl #12  ; [pp+0x428c0] AnonymousClosure: (0xaa94a4), in [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_copyLink (0xaa94dc)
     //     0xaa889c: ldr             x1, [x1, #0x8c0]
     // 0xaa88a0: r0 = AllocateClosure()
     //     0xaa88a0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2013,7 +2013,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa8920: add             x1, PP, #0x27, lsl #12  ; [pp+0x27eb0] "Share"
     //     0xaa8924: ldr             x1, [x1, #0xeb0]
     // 0xaa8928: r0 = L()
-    //     0xaa8928: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa8928: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa892c: mov             x3, x0
     // 0xaa8930: ldur            x0, [fp, #-8]
     // 0xaa8934: stur            x3, [fp, #-0x78]
@@ -2028,7 +2028,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa894c: b               #0xaa8968
     // 0xaa8950: mov             x2, x0
     // 0xaa8954: r1 = Function '_shareSheet@1286007207':.
-    //     0xaa8954: add             x1, PP, #0x42, lsl #12  ; [pp+0x428d0] AnonymousClosure: (0xaa8f64), in [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_shareSheet (0xaa8f9c)
+    //     0xaa8954: add             x1, PP, #0x42, lsl #12  ; [pp+0x428d0] AnonymousClosure: (0xaa8f64), in [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_shareSheet (0xaa8f9c)
     //     0xaa8958: ldr             x1, [x1, #0x8d0]
     // 0xaa895c: r0 = AllocateClosure()
     //     0xaa895c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2490,7 +2490,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa8f7c: cmp             SP, x16
     //     0xaa8f80: b.ls            #0xaa8f94
     // 0xaa8f84: r0 = _shareSheet()
-    //     0xaa8f84: bl              #0xaa8f9c  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_shareSheet
+    //     0xaa8f84: bl              #0xaa8f9c  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_shareSheet
     // 0xaa8f88: LeaveFrame
     //     0xaa8f88: mov             SP, fp
     //     0xaa8f8c: ldp             fp, lr, [SP], #0x10
@@ -2528,7 +2528,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa8fd8: bl              #0x60afc8  ; InitAsyncStub
     // 0xaa8fdc: ldur            x2, [fp, #-0x70]
     // 0xaa8fe0: r1 = Function '<anonymous closure>':.
-    //     0xaa8fe0: add             x1, PP, #0x42, lsl #12  ; [pp+0x428e8] AnonymousClosure: (0x900cc0), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
+    //     0xaa8fe0: add             x1, PP, #0x42, lsl #12  ; [pp+0x428e8] AnonymousClosure: (0x900cc0), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
     //     0xaa8fe4: ldr             x1, [x1, #0x8e8]
     // 0xaa8fe8: r0 = AllocateClosure()
     //     0xaa8fe8: bl              #0xe553e0  ; AllocateClosureStub
@@ -2647,7 +2647,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa9130: stur            w0, [x2, #0xb]
     // 0xaa9134: ldur            x1, [fp, #-0x68]
     // 0xaa9138: r0 = _shareMessage()
-    //     0xaa9138: bl              #0xaa9220  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_shareMessage
+    //     0xaa9138: bl              #0xaa9220  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_shareMessage
     // 0xaa913c: str             x0, [SP]
     // 0xaa9140: ldur            x1, [fp, #-0x80]
     // 0xaa9144: r4 = const [0, 0x2, 0x1, 0x1, text, 0x1, null]
@@ -2662,7 +2662,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa915c: b               #0xaa9180
     // 0xaa9160: ldur            x1, [fp, #-0x68]
     // 0xaa9164: r0 = _shareMessage()
-    //     0xaa9164: bl              #0xaa9220  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_shareMessage
+    //     0xaa9164: bl              #0xaa9220  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_shareMessage
     // 0xaa9168: mov             x1, x0
     // 0xaa916c: r4 = const [0, 0x1, 0, 0x1, null]
     //     0xaa916c: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
@@ -2681,7 +2681,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa9190: b.eq            #0xaa91b0
     // 0xaa9194: ldur            x2, [fp, #-0x70]
     // 0xaa9198: r1 = Function '<anonymous closure>':.
-    //     0xaa9198: add             x1, PP, #0x42, lsl #12  ; [pp+0x42900] AnonymousClosure: (0x8ef4b8), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
+    //     0xaa9198: add             x1, PP, #0x42, lsl #12  ; [pp+0x42900] AnonymousClosure: (0x8ef4b8), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
     //     0xaa919c: ldr             x1, [x1, #0x900]
     // 0xaa91a0: r0 = AllocateClosure()
     //     0xaa91a0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2707,7 +2707,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa91dc: b.eq            #0xaa91fc
     // 0xaa91e0: ldur            x2, [fp, #-0x70]
     // 0xaa91e4: r1 = Function '<anonymous closure>':.
-    //     0xaa91e4: add             x1, PP, #0x42, lsl #12  ; [pp+0x42900] AnonymousClosure: (0x8ef4b8), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
+    //     0xaa91e4: add             x1, PP, #0x42, lsl #12  ; [pp+0x42900] AnonymousClosure: (0x8ef4b8), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
     //     0xaa91e8: ldr             x1, [x1, #0x900]
     // 0xaa91ec: r0 = AllocateClosure()
     //     0xaa91ec: bl              #0xe553e0  ; AllocateClosureStub
@@ -2765,7 +2765,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa9270: mov             x1, x0
     // 0xaa9274: stur            x5, [fp, #-8]
     // 0xaa9278: r0 = _profileShareUrl()
-    //     0xaa9278: bl              #0xaa93c4  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_profileShareUrl
+    //     0xaa9278: bl              #0xaa93c4  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_profileShareUrl
     // 0xaa927c: mov             x1, x0
     // 0xaa9280: ldur            x0, [fp, #-0x18]
     // 0xaa9284: LoadField: r2 = r0->field_b
@@ -2783,7 +2783,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa92a4: mov             x2, x0
     // 0xaa92a8: ldur            x5, [fp, #-8]
     // 0xaa92ac: r0 = shareMessage()
-    //     0xaa92ac: bl              #0xaa92d8  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_card_share_state.dart] ProfileCardShareState::shareMessage
+    //     0xaa92ac: bl              #0xaa92d8  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_card_share_state.dart] ProfileCardShareState::shareMessage
     // 0xaa92b0: LeaveFrame
     //     0xaa92b0: mov             SP, fp
     //     0xaa92b4: ldp             fp, lr, [SP], #0x10
@@ -2865,8 +2865,8 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa9458: mov             x2, #4
     // 0xaa945c: r0 = AllocateArray()
     //     0xaa945c: bl              #0xe560ac  ; AllocateArrayStub
-    // 0xaa9460: r16 = "https://www.ballai.app/profile/"
-    //     0xaa9460: add             x16, PP, #0x42, lsl #12  ; [pp+0x42b38] "https://www.ballai.app/profile/"
+    // 0xaa9460: r16 = "https://www.kourtai.app/profile/"
+    //     0xaa9460: add             x16, PP, #0x42, lsl #12  ; [pp+0x42b38] "https://www.kourtai.app/profile/"
     //     0xaa9464: ldr             x16, [x16, #0xb38]
     // 0xaa9468: StoreField: r0->field_f = r16
     //     0xaa9468: stur            w16, [x0, #0xf]
@@ -2909,7 +2909,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa94bc: cmp             SP, x16
     //     0xaa94c0: b.ls            #0xaa94d4
     // 0xaa94c4: r0 = _copyLink()
-    //     0xaa94c4: bl              #0xaa94dc  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_copyLink
+    //     0xaa94c4: bl              #0xaa94dc  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_copyLink
     // 0xaa94c8: LeaveFrame
     //     0xaa94c8: mov             SP, fp
     //     0xaa94cc: ldp             fp, lr, [SP], #0x10
@@ -2938,7 +2938,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa9500: bl              #0x60afc8  ; InitAsyncStub
     // 0xaa9504: ldur            x1, [fp, #-0x10]
     // 0xaa9508: r0 = _profileShareUrl()
-    //     0xaa9508: bl              #0xaa93c4  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_profileShareUrl
+    //     0xaa9508: bl              #0xaa93c4  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_profileShareUrl
     // 0xaa950c: r1 = LoadClassIdInstr(r0)
     //     0xaa950c: ldur            x1, [x0, #-1]
     //     0xaa9510: ubfx            x1, x1, #0xc, #0x14
@@ -2975,7 +2975,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa9568: add             x2, PP, #0x42, lsl #12  ; [pp+0x42b40] "Profile link copied."
     //     0xaa956c: ldr             x2, [x2, #0xb40]
     // 0xaa9570: r0 = _toast()
-    //     0xaa9570: bl              #0xa381e4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_toast
+    //     0xaa9570: bl              #0xa381e4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_toast
     // 0xaa9574: r0 = Null
     //     0xaa9574: mov             x0, NULL
     // 0xaa9578: r0 = ReturnAsyncNotFuture()
@@ -2999,7 +2999,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa959c: cmp             SP, x16
     //     0xaa95a0: b.ls            #0xaa95b4
     // 0xaa95a4: r0 = _saveCard()
-    //     0xaa95a4: bl              #0xaa95bc  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_saveCard
+    //     0xaa95a4: bl              #0xaa95bc  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_saveCard
     // 0xaa95a8: LeaveFrame
     //     0xaa95a8: mov             SP, fp
     //     0xaa95ac: ldp             fp, lr, [SP], #0x10
@@ -3056,14 +3056,14 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa962c: add             x2, PP, #0x42, lsl #12  ; [pp+0x42b48] "Card image is still rendering. Try again in a second."
     //     0xaa9630: ldr             x2, [x2, #0xb48]
     // 0xaa9634: r0 = _toast()
-    //     0xaa9634: bl              #0xa381e4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_toast
+    //     0xaa9634: bl              #0xa381e4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_toast
     // 0xaa9638: r0 = Null
     //     0xaa9638: mov             x0, NULL
     // 0xaa963c: r0 = ReturnAsyncNotFuture()
     //     0xaa963c: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xaa9640: ldur            x2, [fp, #-0x78]
     // 0xaa9644: r1 = Function '<anonymous closure>':.
-    //     0xaa9644: add             x1, PP, #0x42, lsl #12  ; [pp+0x42b50] AnonymousClosure: (0x900cc0), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
+    //     0xaa9644: add             x1, PP, #0x42, lsl #12  ; [pp+0x42b50] AnonymousClosure: (0x900cc0), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
     //     0xaa9648: ldr             x1, [x1, #0xb50]
     // 0xaa964c: r0 = AllocateClosure()
     //     0xaa964c: bl              #0xe553e0  ; AllocateClosureStub
@@ -3075,7 +3075,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa9660: mov             x1, x0
     // 0xaa9664: ldur            x2, [fp, #-0x80]
     // 0xaa9668: r0 = _saveBytesToGallery()
-    //     0xaa9668: bl              #0xaa974c  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_saveBytesToGallery
+    //     0xaa9668: bl              #0xaa974c  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_saveBytesToGallery
     // 0xaa966c: mov             x1, x0
     // 0xaa9670: stur            x1, [fp, #-0x88]
     // 0xaa9674: r0 = Await()
@@ -3097,7 +3097,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa96a0: add             x2, PP, #0x42, lsl #12  ; [pp+0x42b58] "Card saved to Photos."
     //     0xaa96a4: ldr             x2, [x2, #0xb58]
     // 0xaa96a8: r0 = _toast()
-    //     0xaa96a8: bl              #0xa381e4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_toast
+    //     0xaa96a8: bl              #0xa381e4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_toast
     // 0xaa96ac: ldur            x0, [fp, #-0x70]
     // 0xaa96b0: LoadField: r1 = r0->field_f
     //     0xaa96b0: ldur            w1, [x0, #0xf]
@@ -3107,7 +3107,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa96bc: b.eq            #0xaa96dc
     // 0xaa96c0: ldur            x2, [fp, #-0x78]
     // 0xaa96c4: r1 = Function '<anonymous closure>':.
-    //     0xaa96c4: add             x1, PP, #0x42, lsl #12  ; [pp+0x42b60] AnonymousClosure: (0x8ef4b8), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
+    //     0xaa96c4: add             x1, PP, #0x42, lsl #12  ; [pp+0x42b60] AnonymousClosure: (0x8ef4b8), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
     //     0xaa96c8: ldr             x1, [x1, #0xb60]
     // 0xaa96cc: r0 = AllocateClosure()
     //     0xaa96cc: bl              #0xe553e0  ; AllocateClosureStub
@@ -3133,7 +3133,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa9708: b.eq            #0xaa9728
     // 0xaa970c: ldur            x2, [fp, #-0x78]
     // 0xaa9710: r1 = Function '<anonymous closure>':.
-    //     0xaa9710: add             x1, PP, #0x42, lsl #12  ; [pp+0x42b60] AnonymousClosure: (0x8ef4b8), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
+    //     0xaa9710: add             x1, PP, #0x42, lsl #12  ; [pp+0x42b60] AnonymousClosure: (0x8ef4b8), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
     //     0xaa9714: ldr             x1, [x1, #0xb60]
     // 0xaa9718: r0 = AllocateClosure()
     //     0xaa9718: bl              #0xe553e0  ; AllocateClosureStub
@@ -3201,8 +3201,8 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa97c0: r0 = ReturnAsyncNotFuture()
     //     0xaa97c0: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xaa97c4: ldur            x1, [fp, #-0x70]
-    // 0xaa97c8: r2 = "ball_ai_profile"
-    //     0xaa97c8: add             x2, PP, #0x42, lsl #12  ; [pp+0x42b68] "ball_ai_profile"
+    // 0xaa97c8: r2 = "kourt_ai_profile"
+    //     0xaa97c8: add             x2, PP, #0x42, lsl #12  ; [pp+0x42b68] "kourt_ai_profile"
     //     0xaa97cc: ldr             x2, [x2, #0xb68]
     // 0xaa97d0: r0 = putImageBytes()
     //     0xaa97d0: bl              #0xa4f8dc  ; [package:gal/src/gal.dart] Gal::putImageBytes
@@ -3243,7 +3243,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa9828: add             x2, PP, #0x42, lsl #12  ; [pp+0x42b70] "Save failed"
     //     0xaa982c: ldr             x2, [x2, #0xb70]
     // 0xaa9830: r0 = _showAlert()
-    //     0xaa9830: bl              #0xaa987c  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_showAlert
+    //     0xaa9830: bl              #0xaa987c  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_showAlert
     // 0xaa9834: r0 = false
     //     0xaa9834: add             x0, NULL, #0x30  ; false
     // 0xaa9838: r0 = ReturnAsyncNotFuture()
@@ -3264,7 +3264,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa9860: add             x2, PP, #0x42, lsl #12  ; [pp+0x42b70] "Save failed"
     //     0xaa9864: ldr             x2, [x2, #0xb70]
     // 0xaa9868: r0 = _showAlert()
-    //     0xaa9868: bl              #0xaa987c  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_showAlert
+    //     0xaa9868: bl              #0xaa987c  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_showAlert
     // 0xaa986c: r0 = false
     //     0xaa986c: add             x0, NULL, #0x30  ; false
     // 0xaa9870: r0 = ReturnAsyncNotFuture()
@@ -3309,7 +3309,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa98d0: b.eq            #0xaa9914
     // 0xaa98d4: mov             x2, x1
     // 0xaa98d8: r1 = Function '<anonymous closure>':.
-    //     0xaa98d8: add             x1, PP, #0x42, lsl #12  ; [pp+0x42b78] AnonymousClosure: (0xaa9918), in [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_showAlert (0xaa987c)
+    //     0xaa98d8: add             x1, PP, #0x42, lsl #12  ; [pp+0x42b78] AnonymousClosure: (0xaa9918), in [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_showAlert (0xaa987c)
     //     0xaa98dc: ldr             x1, [x1, #0xb78]
     // 0xaa98e0: r0 = AllocateClosure()
     //     0xaa98e0: bl              #0xe553e0  ; AllocateClosureStub
@@ -3392,7 +3392,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa99a4: add             x1, PP, #0x20, lsl #12  ; [pp+0x20360] "OK"
     //     0xaa99a8: ldr             x1, [x1, #0x360]
     // 0xaa99ac: r0 = L()
-    //     0xaa99ac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa99ac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa99b0: stur            x0, [fp, #-0x10]
     // 0xaa99b4: r0 = Text()
     //     0xaa99b4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -3403,7 +3403,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa99c4: stur            w0, [x3, #0xb]
     // 0xaa99c8: ldur            x2, [fp, #-0x18]
     // 0xaa99cc: r1 = Function '<anonymous closure>':.
-    //     0xaa99cc: add             x1, PP, #0x42, lsl #12  ; [pp+0x42b80] AnonymousClosure: (0xa2c5e0), in [package:ballai/automatic/views/home/tab/tabs/teams/root/teams_view.dart] _TeamsViewState::_showJoinError (0xa2c7a4)
+    //     0xaa99cc: add             x1, PP, #0x42, lsl #12  ; [pp+0x42b80] AnonymousClosure: (0xa2c5e0), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/teams_view.dart] _TeamsViewState::_showJoinError (0xa2c7a4)
     //     0xaa99d0: ldr             x1, [x1, #0xb80]
     // 0xaa99d4: r0 = AllocateClosure()
     //     0xaa99d4: bl              #0xe553e0  ; AllocateClosureStub
@@ -3489,7 +3489,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa9a94: cmp             SP, x16
     //     0xaa9a98: b.ls            #0xaa9aac
     // 0xaa9a9c: r0 = _openFacebook()
-    //     0xaa9a9c: bl              #0xaa9ab4  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_openFacebook
+    //     0xaa9a9c: bl              #0xaa9ab4  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_openFacebook
     // 0xaa9aa0: LeaveFrame
     //     0xaa9aa0: mov             SP, fp
     //     0xaa9aa4: ldp             fp, lr, [SP], #0x10
@@ -3547,7 +3547,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa9b24: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xaa9b28: ldur            x2, [fp, #-0x80]
     // 0xaa9b2c: r1 = Function '<anonymous closure>':.
-    //     0xaa9b2c: add             x1, PP, #0x42, lsl #12  ; [pp+0x42c08] AnonymousClosure: (0x900cc0), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
+    //     0xaa9b2c: add             x1, PP, #0x42, lsl #12  ; [pp+0x42c08] AnonymousClosure: (0x900cc0), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
     //     0xaa9b30: ldr             x1, [x1, #0xc08]
     // 0xaa9b34: r0 = AllocateClosure()
     //     0xaa9b34: bl              #0xe553e0  ; AllocateClosureStub
@@ -3559,7 +3559,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa9b48: mov             x1, x0
     // 0xaa9b4c: ldur            x2, [fp, #-0x88]
     // 0xaa9b50: r0 = _saveBytesToGallery()
-    //     0xaa9b50: bl              #0xaa974c  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_saveBytesToGallery
+    //     0xaa9b50: bl              #0xaa974c  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_saveBytesToGallery
     // 0xaa9b54: mov             x1, x0
     // 0xaa9b58: stur            x1, [fp, #-0x90]
     // 0xaa9b5c: r0 = Await()
@@ -3582,7 +3582,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa9b88: b.eq            #0xaa9bb0
     // 0xaa9b8c: ldur            x2, [fp, #-0x80]
     // 0xaa9b90: r1 = Function '<anonymous closure>':.
-    //     0xaa9b90: add             x1, PP, #0x42, lsl #12  ; [pp+0x42c10] AnonymousClosure: (0x8ef4b8), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
+    //     0xaa9b90: add             x1, PP, #0x42, lsl #12  ; [pp+0x42c10] AnonymousClosure: (0x8ef4b8), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
     //     0xaa9b94: ldr             x1, [x1, #0xc10]
     // 0xaa9b98: r0 = AllocateClosure()
     //     0xaa9b98: bl              #0xe553e0  ; AllocateClosureStub
@@ -3632,7 +3632,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa9c10: add             x2, PP, #0x42, lsl #12  ; [pp+0x42c20] "Card saved to Photos. Opening Facebook."
     //     0xaa9c14: ldr             x2, [x2, #0xc20]
     // 0xaa9c18: r0 = _toast()
-    //     0xaa9c18: bl              #0xa381e4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_toast
+    //     0xaa9c18: bl              #0xa381e4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_toast
     // 0xaa9c1c: ldur            x0, [fp, #-0x78]
     // 0xaa9c20: LoadField: r1 = r0->field_f
     //     0xaa9c20: ldur            w1, [x0, #0xf]
@@ -3642,7 +3642,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa9c2c: b.eq            #0xaa9c4c
     // 0xaa9c30: ldur            x2, [fp, #-0x80]
     // 0xaa9c34: r1 = Function '<anonymous closure>':.
-    //     0xaa9c34: add             x1, PP, #0x42, lsl #12  ; [pp+0x42c10] AnonymousClosure: (0x8ef4b8), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
+    //     0xaa9c34: add             x1, PP, #0x42, lsl #12  ; [pp+0x42c10] AnonymousClosure: (0x8ef4b8), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
     //     0xaa9c38: ldr             x1, [x1, #0xc10]
     // 0xaa9c3c: r0 = AllocateClosure()
     //     0xaa9c3c: bl              #0xe553e0  ; AllocateClosureStub
@@ -3740,7 +3740,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa9d4c: stur            w0, [x2, #0xb]
     // 0xaa9d50: ldur            x1, [fp, #-0x78]
     // 0xaa9d54: r0 = _shareMessage()
-    //     0xaa9d54: bl              #0xaa9220  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_shareMessage
+    //     0xaa9d54: bl              #0xaa9220  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_shareMessage
     // 0xaa9d58: str             x0, [SP]
     // 0xaa9d5c: ldur            x1, [fp, #-0x90]
     // 0xaa9d60: r4 = const [0, 0x2, 0x1, 0x1, text, 0x1, null]
@@ -3761,7 +3761,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa9d88: b.eq            #0xaa9da8
     // 0xaa9d8c: ldur            x2, [fp, #-0x80]
     // 0xaa9d90: r1 = Function '<anonymous closure>':.
-    //     0xaa9d90: add             x1, PP, #0x42, lsl #12  ; [pp+0x42c10] AnonymousClosure: (0x8ef4b8), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
+    //     0xaa9d90: add             x1, PP, #0x42, lsl #12  ; [pp+0x42c10] AnonymousClosure: (0x8ef4b8), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
     //     0xaa9d94: ldr             x1, [x1, #0xc10]
     // 0xaa9d98: r0 = AllocateClosure()
     //     0xaa9d98: bl              #0xe553e0  ; AllocateClosureStub
@@ -3787,7 +3787,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa9dd4: b.eq            #0xaa9df4
     // 0xaa9dd8: ldur            x2, [fp, #-0x80]
     // 0xaa9ddc: r1 = Function '<anonymous closure>':.
-    //     0xaa9ddc: add             x1, PP, #0x42, lsl #12  ; [pp+0x42c10] AnonymousClosure: (0x8ef4b8), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
+    //     0xaa9ddc: add             x1, PP, #0x42, lsl #12  ; [pp+0x42c10] AnonymousClosure: (0x8ef4b8), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
     //     0xaa9de0: ldr             x1, [x1, #0xc10]
     // 0xaa9de4: r0 = AllocateClosure()
     //     0xaa9de4: bl              #0xe553e0  ; AllocateClosureStub
@@ -3824,7 +3824,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa9e30: cmp             SP, x16
     //     0xaa9e34: b.ls            #0xaa9e48
     // 0xaa9e38: r0 = _openSnapchat()
-    //     0xaa9e38: bl              #0xaa9e50  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_openSnapchat
+    //     0xaa9e38: bl              #0xaa9e50  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_openSnapchat
     // 0xaa9e3c: LeaveFrame
     //     0xaa9e3c: mov             SP, fp
     //     0xaa9e40: ldp             fp, lr, [SP], #0x10
@@ -3861,7 +3861,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa9e88: add             x3, PP, #0x42, lsl #12  ; [pp+0x42c40] "Card saved to Photos. Opening Snapchat."
     //     0xaa9e8c: ldr             x3, [x3, #0xc40]
     // 0xaa9e90: r0 = _saveAndOpenApp()
-    //     0xaa9e90: bl              #0xaa9ea8  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_saveAndOpenApp
+    //     0xaa9e90: bl              #0xaa9ea8  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_saveAndOpenApp
     // 0xaa9e94: LeaveFrame
     //     0xaa9e94: mov             SP, fp
     //     0xaa9e98: ldp             fp, lr, [SP], #0x10
@@ -3924,7 +3924,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaa9f2c: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xaa9f30: ldur            x2, [fp, #-0x98]
     // 0xaa9f34: r1 = Function '<anonymous closure>':.
-    //     0xaa9f34: add             x1, PP, #0x42, lsl #12  ; [pp+0x42c48] AnonymousClosure: (0x900cc0), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
+    //     0xaa9f34: add             x1, PP, #0x42, lsl #12  ; [pp+0x42c48] AnonymousClosure: (0x900cc0), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
     //     0xaa9f38: ldr             x1, [x1, #0xc48]
     // 0xaa9f3c: r0 = AllocateClosure()
     //     0xaa9f3c: bl              #0xe553e0  ; AllocateClosureStub
@@ -3936,7 +3936,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa9f50: mov             x1, x0
     // 0xaa9f54: ldur            x2, [fp, #-0xa0]
     // 0xaa9f58: r0 = _saveBytesToGallery()
-    //     0xaa9f58: bl              #0xaa974c  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_saveBytesToGallery
+    //     0xaa9f58: bl              #0xaa974c  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_saveBytesToGallery
     // 0xaa9f5c: mov             x1, x0
     // 0xaa9f60: stur            x1, [fp, #-0xa8]
     // 0xaa9f64: r0 = Await()
@@ -3985,14 +3985,14 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaa9fdc: ldur            x1, [fp, #-0x80]
     // 0xaa9fe0: ldur            x2, [fp, #-0x90]
     // 0xaa9fe4: r0 = _toast()
-    //     0xaa9fe4: bl              #0xa381e4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_toast
+    //     0xaa9fe4: bl              #0xa381e4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_toast
     // 0xaa9fe8: b               #0xaa9ffc
     // 0xaa9fec: ldur            x1, [fp, #-0x80]
     // 0xaa9ff0: r2 = "Card saved to Photos."
     //     0xaa9ff0: add             x2, PP, #0x42, lsl #12  ; [pp+0x42b58] "Card saved to Photos."
     //     0xaa9ff4: ldr             x2, [x2, #0xb58]
     // 0xaa9ff8: r0 = _toast()
-    //     0xaa9ff8: bl              #0xa381e4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_toast
+    //     0xaa9ff8: bl              #0xa381e4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_toast
     // 0xaa9ffc: ldur            x0, [fp, #-0x80]
     // 0xaaa000: LoadField: r1 = r0->field_f
     //     0xaaa000: ldur            w1, [x0, #0xf]
@@ -4002,7 +4002,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaaa00c: b.eq            #0xaaa02c
     // 0xaaa010: ldur            x2, [fp, #-0x98]
     // 0xaaa014: r1 = Function '<anonymous closure>':.
-    //     0xaaa014: add             x1, PP, #0x42, lsl #12  ; [pp+0x42c50] AnonymousClosure: (0x8ef4b8), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
+    //     0xaaa014: add             x1, PP, #0x42, lsl #12  ; [pp+0x42c50] AnonymousClosure: (0x8ef4b8), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
     //     0xaaa018: ldr             x1, [x1, #0xc50]
     // 0xaaa01c: r0 = AllocateClosure()
     //     0xaaa01c: bl              #0xe553e0  ; AllocateClosureStub
@@ -4028,7 +4028,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaaa058: b.eq            #0xaaa078
     // 0xaaa05c: ldur            x2, [fp, #-0x98]
     // 0xaaa060: r1 = Function '<anonymous closure>':.
-    //     0xaaa060: add             x1, PP, #0x42, lsl #12  ; [pp+0x42c50] AnonymousClosure: (0x8ef4b8), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
+    //     0xaaa060: add             x1, PP, #0x42, lsl #12  ; [pp+0x42c50] AnonymousClosure: (0x8ef4b8), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
     //     0xaaa064: ldr             x1, [x1, #0xc50]
     // 0xaaa068: r0 = AllocateClosure()
     //     0xaaa068: bl              #0xe553e0  ; AllocateClosureStub
@@ -4065,7 +4065,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaaa0b4: cmp             SP, x16
     //     0xaaa0b8: b.ls            #0xaaa0cc
     // 0xaaa0bc: r0 = _openTikTok()
-    //     0xaaa0bc: bl              #0xaaa0d4  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_openTikTok
+    //     0xaaa0bc: bl              #0xaaa0d4  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_openTikTok
     // 0xaaa0c0: LeaveFrame
     //     0xaaa0c0: mov             SP, fp
     //     0xaaa0c4: ldp             fp, lr, [SP], #0x10
@@ -4102,7 +4102,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaaa10c: add             x3, PP, #0x42, lsl #12  ; [pp+0x42c60] "Card saved to Photos. Opening TikTok."
     //     0xaaa110: ldr             x3, [x3, #0xc60]
     // 0xaaa114: r0 = _saveAndOpenApp()
-    //     0xaaa114: bl              #0xaa9ea8  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_saveAndOpenApp
+    //     0xaaa114: bl              #0xaa9ea8  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_saveAndOpenApp
     // 0xaaa118: LeaveFrame
     //     0xaaa118: mov             SP, fp
     //     0xaaa11c: ldp             fp, lr, [SP], #0x10
@@ -4127,7 +4127,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaaa144: cmp             SP, x16
     //     0xaaa148: b.ls            #0xaaa15c
     // 0xaaa14c: r0 = _openInstagram()
-    //     0xaaa14c: bl              #0xaaa164  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_openInstagram
+    //     0xaaa14c: bl              #0xaaa164  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_openInstagram
     // 0xaaa150: LeaveFrame
     //     0xaaa150: mov             SP, fp
     //     0xaaa154: ldp             fp, lr, [SP], #0x10
@@ -4164,7 +4164,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaaa19c: add             x3, PP, #0x42, lsl #12  ; [pp+0x42c70] "Card saved to Photos. Opening Instagram."
     //     0xaaa1a0: ldr             x3, [x3, #0xc70]
     // 0xaaa1a4: r0 = _saveAndOpenApp()
-    //     0xaaa1a4: bl              #0xaa9ea8  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_saveAndOpenApp
+    //     0xaaa1a4: bl              #0xaa9ea8  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_saveAndOpenApp
     // 0xaaa1a8: LeaveFrame
     //     0xaaa1a8: mov             SP, fp
     //     0xaaa1ac: ldp             fp, lr, [SP], #0x10
@@ -4189,7 +4189,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaaa1d4: cmp             SP, x16
     //     0xaaa1d8: b.ls            #0xaaa1ec
     // 0xaaa1dc: r0 = _chooseBackground()
-    //     0xaaa1dc: bl              #0xaaa1f4  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_chooseBackground
+    //     0xaaa1dc: bl              #0xaaa1f4  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_chooseBackground
     // 0xaaa1e0: LeaveFrame
     //     0xaaa1e0: mov             SP, fp
     //     0xaaa1e4: ldp             fp, lr, [SP], #0x10
@@ -4280,7 +4280,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xaaa2bc: mov             x2, x16
     // 0xaaa2c0: mov             x3, x4
     // 0xaaa2c4: r0 = loadBackgroundAndRender()
-    //     0xaaa2c4: bl              #0xaaa32c  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_card_share_state.dart] ProfileCardShareState::loadBackgroundAndRender
+    //     0xaaa2c4: bl              #0xaaa32c  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_card_share_state.dart] ProfileCardShareState::loadBackgroundAndRender
     // 0xaaa2c8: mov             x1, x0
     // 0xaaa2cc: stur            x1, [fp, #-0x18]
     // 0xaaa2d0: r0 = Await()
@@ -4306,7 +4306,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xaaa300: add             x2, PP, #0x42, lsl #12  ; [pp+0x42c78] "Unable to load photo"
     //     0xaaa304: ldr             x2, [x2, #0xc78]
     // 0xaaa308: r0 = _showAlert()
-    //     0xaaa308: bl              #0xaa987c  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_showAlert
+    //     0xaaa308: bl              #0xaa987c  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_showAlert
     // 0xaaa30c: r0 = Null
     //     0xaaa30c: mov             x0, NULL
     // 0xaaa310: r0 = ReturnAsyncNotFuture()
@@ -4329,7 +4329,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xb5c454: mov             fp, SP
     // 0xb5c458: ldr             x2, [fp, #0x10]
     // 0xb5c45c: r1 = Function 'dispose':.
-    //     0xb5c45c: add             x1, PP, #0x42, lsl #12  ; [pp+0x42828] AnonymousClosure: (0xb5c474), in [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::dispose (0xb637b8)
+    //     0xb5c45c: add             x1, PP, #0x42, lsl #12  ; [pp+0x42828] AnonymousClosure: (0xb5c474), in [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::dispose (0xb637b8)
     //     0xb5c460: ldr             x1, [x1, #0x828]
     // 0xb5c464: r0 = AllocateClosure()
     //     0xb5c464: bl              #0xe553e0  ; AllocateClosureStub
@@ -4354,7 +4354,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     //     0xb5c48c: cmp             SP, x16
     //     0xb5c490: b.ls            #0xb5c4a4
     // 0xb5c494: r0 = dispose()
-    //     0xb5c494: bl              #0xb637b8  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::dispose
+    //     0xb5c494: bl              #0xb637b8  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::dispose
     // 0xb5c498: LeaveFrame
     //     0xb5c498: mov             SP, fp
     //     0xb5c49c: ldp             fp, lr, [SP], #0x10
@@ -4389,7 +4389,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xb637ec: mov             x2, x0
     // 0xb637f0: stur            x3, [fp, #-8]
     // 0xb637f4: r1 = Function '_onShareStateChanged@1286007207':.
-    //     0xb637f4: add             x1, PP, #0x42, lsl #12  ; [pp+0x42d60] AnonymousClosure: (0x98c3d8), in [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_onShareStateChanged (0x98c410)
+    //     0xb637f4: add             x1, PP, #0x42, lsl #12  ; [pp+0x42d60] AnonymousClosure: (0x98c3d8), in [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_share_composer_view.dart] _ProfileShareComposerViewState::_onShareStateChanged (0x98c410)
     //     0xb637f8: ldr             x1, [x1, #0xd60]
     // 0xb637fc: r0 = AllocateClosure()
     //     0xb637fc: bl              #0xe553e0  ; AllocateClosureStub
@@ -4403,7 +4403,7 @@ class _ProfileShareComposerViewState extends State<dynamic> {
     // 0xb63814: DecompressPointer r1
     //     0xb63814: add             x1, x1, HEAP, lsl #32
     // 0xb63818: r0 = dispose()
-    //     0xb63818: bl              #0x9be910  ; [package:ballai/automatic/views/home/tab/tabs/you/sharing/profile_card_share_state.dart] ProfileCardShareState::dispose
+    //     0xb63818: bl              #0x9be910  ; [package:kourtai/automatic/views/home/tab/tabs/you/sharing/profile_card_share_state.dart] ProfileCardShareState::dispose
     // 0xb6381c: r0 = Null
     //     0xb6381c: mov             x0, NULL
     // 0xb63820: LeaveFrame
@@ -4474,8 +4474,8 @@ class _GreyActionButton extends StatelessWidget {
     //     0xc1cdd8: cmp             SP, x16
     //     0xc1cddc: b.ls            #0xc1d088
     // 0xc1cde0: mov             x1, x0
-    // 0xc1cde4: r0 = BallAiThemeContext.ballAiSelectionCardFill()
-    //     0xc1cde4: bl              #0x9d464c  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSelectionCardFill
+    // 0xc1cde4: r0 = KourtAiThemeContext.kourtAiSelectionCardFill()
+    //     0xc1cde4: bl              #0x9d464c  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSelectionCardFill
     // 0xc1cde8: stur            x0, [fp, #-0x18]
     // 0xc1cdec: r0 = Radius()
     //     0xc1cdec: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -4533,8 +4533,8 @@ class _GreyActionButton extends StatelessWidget {
     //     0xc1ce68: add             x4, x4, HEAP, lsl #32
     // 0xc1ce6c: ldur            x1, [fp, #-0x10]
     // 0xc1ce70: stur            x4, [fp, #-0x20]
-    // 0xc1ce74: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc1ce74: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc1ce74: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc1ce74: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc1ce78: stur            x0, [fp, #-0x40]
     // 0xc1ce7c: r0 = Icon()
     //     0xc1ce7c: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -4558,8 +4558,8 @@ class _GreyActionButton extends StatelessWidget {
     //     0xc1ceac: add             x3, x3, HEAP, lsl #32
     // 0xc1ceb0: ldur            x1, [fp, #-0x10]
     // 0xc1ceb4: stur            x3, [fp, #-0x20]
-    // 0xc1ceb8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc1ceb8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc1ceb8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc1ceb8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc1cebc: stur            x0, [fp, #-8]
     // 0xc1cec0: r0 = TextStyle()
     //     0xc1cec0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -4812,8 +4812,8 @@ class _SocialShortcut extends StatelessWidget {
     //     0xc1cc14: add             x4, x4, HEAP, lsl #32
     // 0xc1cc18: ldur            x1, [fp, #-0x18]
     // 0xc1cc1c: stur            x4, [fp, #-0x20]
-    // 0xc1cc20: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc1cc20: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc1cc20: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc1cc20: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc1cc24: stur            x0, [fp, #-0x10]
     // 0xc1cc28: r0 = TextStyle()
     //     0xc1cc28: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)

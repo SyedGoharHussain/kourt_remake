@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/overlays/pre_workout_camera_chrome.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/overlays/pre_workout_camera_chrome.dart
 
 // class id: 1049255, size: 0x8
 class :: {

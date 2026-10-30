@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/performance/sections/basicstats/performance_basic_stats_details_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/performance/sections/basicstats/performance_basic_stats_details_view.dart
 
 // class id: 1048972, size: 0x8
 class :: {
@@ -26,13 +26,13 @@ class PerformanceBasicStatsDetailsView extends StatelessWidget {
     //     0xc056c4: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d650] "Performance stats"
     //     0xc056c8: ldr             x1, [x1, #0x650]
     // 0xc056cc: r0 = L()
-    //     0xc056cc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc056cc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc056d0: r1 = "Overview"
     //     0xc056d0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d658] "Overview"
     //     0xc056d4: ldr             x1, [x1, #0x658]
     // 0xc056d8: stur            x0, [fp, #-0x10]
     // 0xc056dc: r0 = L()
-    //     0xc056dc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc056dc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc056e0: mov             x1, x0
     // 0xc056e4: ldur            x0, [fp, #-8]
     // 0xc056e8: stur            x1, [fp, #-0x28]
@@ -56,8 +56,8 @@ class PerformanceBasicStatsDetailsView extends StatelessWidget {
     // 0xc05718: ldur            x2, [fp, #-0x18]
     // 0xc0571c: StoreField: r1->field_f = r2
     //     0xc0571c: stur            w2, [x1, #0xf]
-    // 0xc05720: r0 = BallAiAnalyticsCard()
-    //     0xc05720: bl              #0xa63928  ; AllocateBallAiAnalyticsCardStub -> BallAiAnalyticsCard (size=0x20)
+    // 0xc05720: r0 = KourtAiAnalyticsCard()
+    //     0xc05720: bl              #0xa63928  ; AllocateKourtAiAnalyticsCardStub -> KourtAiAnalyticsCard (size=0x20)
     // 0xc05724: mov             x1, x0
     // 0xc05728: ldur            x0, [fp, #-0x28]
     // 0xc0572c: stur            x1, [fp, #-0x18]
@@ -84,7 +84,7 @@ class PerformanceBasicStatsDetailsView extends StatelessWidget {
     //     0xc05760: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d660] "Make % by workout"
     //     0xc05764: ldr             x1, [x1, #0x660]
     // 0xc05768: r0 = L()
-    //     0xc05768: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc05768: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0576c: stur            x0, [fp, #-0x28]
     // 0xc05770: r0 = PerformanceBasicStatsScatterPlotView()
     //     0xc05770: bl              #0xc05888  ; AllocatePerformanceBasicStatsScatterPlotViewStub -> PerformanceBasicStatsScatterPlotView (size=0x18)
@@ -98,8 +98,8 @@ class PerformanceBasicStatsDetailsView extends StatelessWidget {
     //     0xc05788: ldr             d0, [x17, #0xee8]
     // 0xc0578c: StoreField: r1->field_f = d0
     //     0xc0578c: stur            d0, [x1, #0xf]
-    // 0xc05790: r0 = BallAiAnalyticsCard()
-    //     0xc05790: bl              #0xa63928  ; AllocateBallAiAnalyticsCardStub -> BallAiAnalyticsCard (size=0x20)
+    // 0xc05790: r0 = KourtAiAnalyticsCard()
+    //     0xc05790: bl              #0xa63928  ; AllocateKourtAiAnalyticsCardStub -> KourtAiAnalyticsCard (size=0x20)
     // 0xc05794: mov             x3, x0
     // 0xc05798: ldur            x0, [fp, #-0x28]
     // 0xc0579c: stur            x3, [fp, #-0x20]
@@ -181,8 +181,8 @@ class PerformanceBasicStatsDetailsView extends StatelessWidget {
     // 0xc05858: ldur            x0, [fp, #-8]
     // 0xc0585c: StoreField: r1->field_b = r0
     //     0xc0585c: stur            w0, [x1, #0xb]
-    // 0xc05860: r0 = BallAiSectionScaffold()
-    //     0xc05860: bl              #0xa7edb4  ; AllocateBallAiSectionScaffoldStub -> BallAiSectionScaffold (size=0x18)
+    // 0xc05860: r0 = KourtAiSectionScaffold()
+    //     0xc05860: bl              #0xa7edb4  ; AllocateKourtAiSectionScaffoldStub -> KourtAiSectionScaffold (size=0x18)
     // 0xc05864: ldur            x1, [fp, #-0x10]
     // 0xc05868: StoreField: r0->field_b = r1
     //     0xc05868: stur            w1, [x0, #0xb]

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart
 
 // class id: 1048833, size: 0x8
 class :: {
@@ -45,7 +45,7 @@ abstract class __BallySpeechBubbleState&State&SingleTickerProviderStateMixin ext
     //     0x7b6e54: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x7b6e58: mov             x1, x2
     // 0x7b6e5c: r0 = _updateTickerModeNotifier()
-    //     0x7b6e5c: bl              #0x7b6fa0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] __BallySpeechBubbleState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x7b6e5c: bl              #0x7b6fa0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] __BallySpeechBubbleState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x7b6e60: ldur            x1, [fp, #-8]
     // 0x7b6e64: r0 = _updateTicker()
     //     0x7b6e64: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -210,7 +210,7 @@ abstract class __BallySpeechBubbleState&State&SingleTickerProviderStateMixin ext
     //     0x8e40b8: b.ls            #0x8e40dc
     // 0x8e40bc: mov             x1, x0
     // 0x8e40c0: r0 = _updateTickerModeNotifier()
-    //     0x8e40c0: bl              #0x7b6fa0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] __BallySpeechBubbleState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x8e40c0: bl              #0x7b6fa0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] __BallySpeechBubbleState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x8e40c4: ldur            x1, [fp, #-8]
     // 0x8e40c8: r0 = _updateTicker()
     //     0x8e40c8: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -295,7 +295,7 @@ abstract class __BallySpeechBubbleState&State&SingleTickerProviderStateMixin ext
     //     0xb60414: cmp             SP, x16
     //     0xb60418: b.ls            #0xb6042c
     // 0xb6041c: r0 = dispose()
-    //     0xb6041c: bl              #0xb60368  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] __BallySpeechBubbleState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb6041c: bl              #0xb60368  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] __BallySpeechBubbleState&State&SingleTickerProviderStateMixin::dispose
     // 0xb60420: LeaveFrame
     //     0xb60420: mov             SP, fp
     //     0xb60424: ldp             fp, lr, [SP], #0x10
@@ -419,7 +419,7 @@ class _BallySpeechBubbleState extends __BallySpeechBubbleState&State&SingleTicke
     // 0x8e6dd4: cmp             w2, w3
     // 0x8e6dd8: b.eq            #0x8e6de0
     // 0x8e6ddc: r0 = _start()
-    //     0x8e6ddc: bl              #0x8e6e00  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::_start
+    //     0x8e6ddc: bl              #0x8e6e00  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::_start
     // 0x8e6de0: r0 = Null
     //     0x8e6de0: mov             x0, NULL
     // 0x8e6de4: LeaveFrame
@@ -497,7 +497,7 @@ class _BallySpeechBubbleState extends __BallySpeechBubbleState&State&SingleTicke
     // 0x8e6e94: cbnz            w2, #0x8e6fb0
     // 0x8e6e98: ldur            x2, [fp, #-0x10]
     // 0x8e6e9c: r1 = Function '<anonymous closure>':.
-    //     0x8e6e9c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a9b0] AnonymousClosure: (0x8e91f8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::_start (0x8e6e00)
+    //     0x8e6e9c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a9b0] AnonymousClosure: (0x8e91f8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::_start (0x8e6e00)
     //     0x8e6ea0: ldr             x1, [x1, #0x9b0]
     // 0x8e6ea4: r0 = AllocateClosure()
     //     0x8e6ea4: bl              #0xe553e0  ; AllocateClosureStub
@@ -507,7 +507,7 @@ class _BallySpeechBubbleState extends __BallySpeechBubbleState&State&SingleTicke
     //     0x8e6eb0: bl              #0x6005d4  ; [package:flutter/src/widgets/framework.dart] State::setState
     // 0x8e6eb4: ldur            x1, [fp, #-8]
     // 0x8e6eb8: r0 = _syncTalkBob()
-    //     0x8e6eb8: bl              #0x8e703c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::_syncTalkBob
+    //     0x8e6eb8: bl              #0x8e703c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::_syncTalkBob
     // 0x8e6ebc: r0 = LoadStaticField(0x8b4)
     //     0x8e6ebc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x8e6ec0: ldr             x0, [x0, #0x1168]
@@ -525,7 +525,7 @@ class _BallySpeechBubbleState extends __BallySpeechBubbleState&State&SingleTicke
     // 0x8e6ee0: ldur            x2, [fp, #-0x10]
     // 0x8e6ee4: stur            x0, [fp, #-0x18]
     // 0x8e6ee8: r1 = Function '<anonymous closure>':.
-    //     0x8e6ee8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a9b8] AnonymousClosure: (0x8e917c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::_start (0x8e6e00)
+    //     0x8e6ee8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a9b8] AnonymousClosure: (0x8e917c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::_start (0x8e6e00)
     //     0x8e6eec: ldr             x1, [x1, #0x9b8]
     // 0x8e6ef0: r0 = AllocateClosure()
     //     0x8e6ef0: bl              #0xe553e0  ; AllocateClosureStub
@@ -598,7 +598,7 @@ class _BallySpeechBubbleState extends __BallySpeechBubbleState&State&SingleTicke
     //     0x8e6fac: ret             
     // 0x8e6fb0: ldur            x2, [fp, #-0x10]
     // 0x8e6fb4: r1 = Function '<anonymous closure>':.
-    //     0x8e6fb4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a9d0] AnonymousClosure: (0x8e914c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::_start (0x8e6e00)
+    //     0x8e6fb4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a9d0] AnonymousClosure: (0x8e914c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::_start (0x8e6e00)
     //     0x8e6fb8: ldr             x1, [x1, #0x9d0]
     // 0x8e6fbc: r0 = AllocateClosure()
     //     0x8e6fbc: bl              #0xe553e0  ; AllocateClosureStub
@@ -608,10 +608,10 @@ class _BallySpeechBubbleState extends __BallySpeechBubbleState&State&SingleTicke
     //     0x8e6fc8: bl              #0x6005d4  ; [package:flutter/src/widgets/framework.dart] State::setState
     // 0x8e6fcc: ldur            x1, [fp, #-8]
     // 0x8e6fd0: r0 = _syncTalkBob()
-    //     0x8e6fd0: bl              #0x8e703c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::_syncTalkBob
+    //     0x8e6fd0: bl              #0x8e703c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::_syncTalkBob
     // 0x8e6fd4: ldur            x2, [fp, #-0x10]
     // 0x8e6fd8: r1 = Function '<anonymous closure>':.
-    //     0x8e6fd8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a9d8] AnonymousClosure: (0x8e74e4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::_start (0x8e6e00)
+    //     0x8e6fd8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a9d8] AnonymousClosure: (0x8e74e4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::_start (0x8e6e00)
     //     0x8e6fdc: ldr             x1, [x1, #0x9d8]
     // 0x8e6fe0: r0 = AllocateClosure()
     //     0x8e6fe0: bl              #0xe553e0  ; AllocateClosureStub
@@ -860,7 +860,7 @@ class _BallySpeechBubbleState extends __BallySpeechBubbleState&State&SingleTicke
     // 0x8e7580: mov             x2, x0
     // 0x8e7584: stur            x3, [fp, #-0x10]
     // 0x8e7588: r1 = Function '<anonymous closure>':.
-    //     0x8e7588: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a9e8] AnonymousClosure: (0x8e76f0), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_dismissWhatsNewSheet (0x8e7710)
+    //     0x8e7588: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a9e8] AnonymousClosure: (0x8e76f0), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_dismissWhatsNewSheet (0x8e7710)
     //     0x8e758c: ldr             x1, [x1, #0x9e8]
     // 0x8e7590: r0 = AllocateClosure()
     //     0x8e7590: bl              #0xe553e0  ; AllocateClosureStub
@@ -874,7 +874,7 @@ class _BallySpeechBubbleState extends __BallySpeechBubbleState&State&SingleTicke
     // 0x8e75a8: DecompressPointer r1
     //     0x8e75a8: add             x1, x1, HEAP, lsl #32
     // 0x8e75ac: r0 = _syncTalkBob()
-    //     0x8e75ac: bl              #0x8e703c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::_syncTalkBob
+    //     0x8e75ac: bl              #0x8e703c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::_syncTalkBob
     // 0x8e75b0: ldur            x2, [fp, #-8]
     // 0x8e75b4: LoadField: r0 = r2->field_f
     //     0x8e75b4: ldur            w0, [x2, #0xf]
@@ -905,7 +905,7 @@ class _BallySpeechBubbleState extends __BallySpeechBubbleState&State&SingleTicke
     // 0x8e75f8: ret
     //     0x8e75f8: ret             
     // 0x8e75fc: r1 = Function '<anonymous closure>':.
-    //     0x8e75fc: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a9f0] AnonymousClosure: (0x8e7638), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::_start (0x8e6e00)
+    //     0x8e75fc: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a9f0] AnonymousClosure: (0x8e7638), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::_start (0x8e6e00)
     //     0x8e7600: ldr             x1, [x1, #0x9f0]
     // 0x8e7604: r0 = AllocateClosure()
     //     0x8e7604: bl              #0xe553e0  ; AllocateClosureStub
@@ -1196,7 +1196,7 @@ class _BallySpeechBubbleState extends __BallySpeechBubbleState&State&SingleTicke
     // 0x943394: ldur            x2, [fp, #-0x10]
     // 0x943398: stur            x0, [fp, #-8]
     // 0x94339c: r1 = Function '<anonymous closure>':.
-    //     0x94339c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2aa20] AnonymousClosure: (0x943484), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::initState (0x9432d8)
+    //     0x94339c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2aa20] AnonymousClosure: (0x943484), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::initState (0x9432d8)
     //     0x9433a0: ldr             x1, [x1, #0xa20]
     // 0x9433a4: r0 = AllocateClosure()
     //     0x9433a4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1306,7 +1306,7 @@ class _BallySpeechBubbleState extends __BallySpeechBubbleState&State&SingleTicke
     // 0x9434b8: b.eq            #0x9434c4
     // 0x9434bc: mov             x1, x0
     // 0x9434c0: r0 = _start()
-    //     0x9434c0: bl              #0x8e6e00  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::_start
+    //     0x9434c0: bl              #0x8e6e00  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::_start
     // 0x9434c4: r0 = Null
     //     0x9434c4: mov             x0, NULL
     // 0x9434c8: LeaveFrame
@@ -1389,7 +1389,7 @@ class _BallySpeechBubbleState extends __BallySpeechBubbleState&State&SingleTicke
     //     0x9e46e8: stur            w0, [x3, #0x2b]
     // 0x9e46ec: ldur            x2, [fp, #-0x30]
     // 0x9e46f0: r1 = Function '<anonymous closure>':.
-    //     0x9e46f0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a960] AnonymousClosure: (0x9e4b88), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::build (0x9e4638)
+    //     0x9e46f0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a960] AnonymousClosure: (0x9e4b88), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::build (0x9e4638)
     //     0x9e46f4: ldr             x1, [x1, #0x960]
     // 0x9e46f8: r0 = AllocateClosure()
     //     0x9e46f8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1414,8 +1414,8 @@ class _BallySpeechBubbleState extends __BallySpeechBubbleState&State&SingleTicke
     //     0x9e472c: add             x3, x3, HEAP, lsl #32
     // 0x9e4730: ldur            x1, [fp, #-0x10]
     // 0x9e4734: stur            x3, [fp, #-0x18]
-    // 0x9e4738: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0x9e4738: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0x9e4738: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0x9e4738: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0x9e473c: stur            x0, [fp, #-0x20]
     // 0x9e4740: r0 = TextStyle()
     //     0x9e4740: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1472,8 +1472,8 @@ class _BallySpeechBubbleState extends __BallySpeechBubbleState&State&SingleTicke
     //     0x9e47c0: add             x4, x4, HEAP, lsl #32
     // 0x9e47c4: ldur            x1, [fp, #-0x10]
     // 0x9e47c8: stur            x4, [fp, #-0x18]
-    // 0x9e47cc: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0x9e47cc: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0x9e47cc: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0x9e47cc: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0x9e47d0: stur            x0, [fp, #-0x20]
     // 0x9e47d4: r0 = TextStyle()
     //     0x9e47d4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1547,8 +1547,8 @@ class _BallySpeechBubbleState extends __BallySpeechBubbleState&State&SingleTicke
     //     0x9e4880: add             x1, x1, HEAP, lsl #32
     // 0x9e4884: tbnz            w1, #4, #0x9e4968
     // 0x9e4888: ldur            x1, [fp, #-0x10]
-    // 0x9e488c: r0 = BallAiThemeContext.ballAiAccent()
-    //     0x9e488c: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0x9e488c: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0x9e488c: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0x9e4890: stur            x0, [fp, #-8]
     // 0x9e4894: r0 = TextStyle()
     //     0x9e4894: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1697,8 +1697,8 @@ class _BallySpeechBubbleState extends __BallySpeechBubbleState&State&SingleTicke
     // 0x9e4a14: ldur            x0, [fp, #-0x10]
     // 0x9e4a18: StoreField: r1->field_b = r0
     //     0x9e4a18: stur            w0, [x1, #0xb]
-    // 0x9e4a1c: r0 = BallAiLiquidGlassCard()
-    //     0x9e4a1c: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0x9e4a1c: r0 = KourtAiLiquidGlassCard()
+    //     0x9e4a1c: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0x9e4a20: mov             x1, x0
     // 0x9e4a24: ldur            x0, [fp, #-8]
     // 0x9e4a28: stur            x1, [fp, #-0x10]
@@ -1988,7 +1988,7 @@ class _BallySpeechBubbleState extends __BallySpeechBubbleState&State&SingleTicke
     //     0xb5a678: mov             fp, SP
     // 0xb5a67c: ldr             x2, [fp, #0x10]
     // 0xb5a680: r1 = Function 'dispose':.
-    //     0xb5a680: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cb58] AnonymousClosure: (0xb5a698), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::dispose (0xb602ec)
+    //     0xb5a680: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cb58] AnonymousClosure: (0xb5a698), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::dispose (0xb602ec)
     //     0xb5a684: ldr             x1, [x1, #0xb58]
     // 0xb5a688: r0 = AllocateClosure()
     //     0xb5a688: bl              #0xe553e0  ; AllocateClosureStub
@@ -2013,7 +2013,7 @@ class _BallySpeechBubbleState extends __BallySpeechBubbleState&State&SingleTicke
     //     0xb5a6b0: cmp             SP, x16
     //     0xb5a6b4: b.ls            #0xb5a6c8
     // 0xb5a6b8: r0 = dispose()
-    //     0xb5a6b8: bl              #0xb602ec  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::dispose
+    //     0xb5a6b8: bl              #0xb602ec  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] _BallySpeechBubbleState::dispose
     // 0xb5a6bc: LeaveFrame
     //     0xb5a6bc: mov             SP, fp
     //     0xb5a6c0: ldp             fp, lr, [SP], #0x10
@@ -2058,7 +2058,7 @@ class _BallySpeechBubbleState extends __BallySpeechBubbleState&State&SingleTicke
     //     0xb60338: bl              #0x809c40  ; [package:flutter/src/animation/animation_controller.dart] AnimationController::dispose
     // 0xb6033c: ldur            x1, [fp, #-8]
     // 0xb60340: r0 = dispose()
-    //     0xb60340: bl              #0xb60368  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] __BallySpeechBubbleState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb60340: bl              #0xb60368  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_speech_bubble.dart] __BallySpeechBubbleState&State&SingleTickerProviderStateMixin::dispose
     // 0xb60344: r0 = Null
     //     0xb60344: mov             x0, NULL
     // 0xb60348: LeaveFrame

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart
+// lib: , url: package:kourtai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart
 
 // class id: 1048775, size: 0x8
 class :: {
@@ -39,10 +39,10 @@ class WorkoutDetailDataViewModel extends ChangeNotifier {
     //     0x95d448: stur            w1, [x0, #0x37]
     // 0x95d44c: mov             x1, x0
     // 0x95d450: r0 = _attachWorkoutDocListener()
-    //     0x95d450: bl              #0x95db78  ; [package:ballai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::_attachWorkoutDocListener
+    //     0x95d450: bl              #0x95db78  ; [package:kourtai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::_attachWorkoutDocListener
     // 0x95d454: ldur            x1, [fp, #-8]
     // 0x95d458: r0 = _attachShotsListener()
-    //     0x95d458: bl              #0x95d474  ; [package:ballai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::_attachShotsListener
+    //     0x95d458: bl              #0x95d474  ; [package:kourtai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::_attachShotsListener
     // 0x95d45c: r0 = Null
     //     0x95d45c: mov             x0, NULL
     // 0x95d460: LeaveFrame
@@ -170,14 +170,14 @@ class WorkoutDetailDataViewModel extends ChangeNotifier {
     //     0x95d588: bl              #0x938d20  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQuery::snapshots
     // 0x95d58c: ldur            x2, [fp, #-8]
     // 0x95d590: r1 = Function '_onShotsSnapshot@969082229':.
-    //     0x95d590: add             x1, PP, #0x37, lsl #12  ; [pp+0x376a0] AnonymousClosure: (0x95d8d0), in [package:ballai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::_onShotsSnapshot (0x95d90c)
+    //     0x95d590: add             x1, PP, #0x37, lsl #12  ; [pp+0x376a0] AnonymousClosure: (0x95d8d0), in [package:kourtai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::_onShotsSnapshot (0x95d90c)
     //     0x95d594: ldr             x1, [x1, #0x6a0]
     // 0x95d598: stur            x0, [fp, #-0x18]
     // 0x95d59c: r0 = AllocateClosure()
     //     0x95d59c: bl              #0xe553e0  ; AllocateClosureStub
     // 0x95d5a0: ldur            x2, [fp, #-0x10]
     // 0x95d5a4: r1 = Function '<anonymous closure>':.
-    //     0x95d5a4: add             x1, PP, #0x37, lsl #12  ; [pp+0x376a8] AnonymousClosure: (0x95d604), in [package:ballai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::_attachShotsListener (0x95d474)
+    //     0x95d5a4: add             x1, PP, #0x37, lsl #12  ; [pp+0x376a8] AnonymousClosure: (0x95d604), in [package:kourtai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::_attachShotsListener (0x95d474)
     //     0x95d5a8: ldr             x1, [x1, #0x6a8]
     // 0x95d5ac: stur            x0, [fp, #-0x10]
     // 0x95d5b0: r0 = AllocateClosure()
@@ -293,7 +293,7 @@ class WorkoutDetailDataViewModel extends ChangeNotifier {
     // 0x95d6d0: DecompressPointer r1
     //     0x95d6d0: add             x1, x1, HEAP, lsl #32
     // 0x95d6d4: r0 = _attachShotsListenerFallback()
-    //     0x95d6d4: bl              #0x95d6f0  ; [package:ballai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::_attachShotsListenerFallback
+    //     0x95d6d4: bl              #0x95d6f0  ; [package:kourtai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::_attachShotsListenerFallback
     // 0x95d6d8: r0 = Null
     //     0x95d6d8: mov             x0, NULL
     // 0x95d6dc: LeaveFrame
@@ -401,13 +401,13 @@ class WorkoutDetailDataViewModel extends ChangeNotifier {
     //     0x95d7d0: bl              #0x938d20  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQuery::snapshots
     // 0x95d7d4: ldur            x2, [fp, #-8]
     // 0x95d7d8: r1 = Function '_onShotsSnapshot@969082229':.
-    //     0x95d7d8: add             x1, PP, #0x37, lsl #12  ; [pp+0x376a0] AnonymousClosure: (0x95d8d0), in [package:ballai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::_onShotsSnapshot (0x95d90c)
+    //     0x95d7d8: add             x1, PP, #0x37, lsl #12  ; [pp+0x376a0] AnonymousClosure: (0x95d8d0), in [package:kourtai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::_onShotsSnapshot (0x95d90c)
     //     0x95d7dc: ldr             x1, [x1, #0x6a0]
     // 0x95d7e0: stur            x0, [fp, #-0x10]
     // 0x95d7e4: r0 = AllocateClosure()
     //     0x95d7e4: bl              #0xe553e0  ; AllocateClosureStub
     // 0x95d7e8: r1 = Function '<anonymous closure>':.
-    //     0x95d7e8: add             x1, PP, #0x37, lsl #12  ; [pp+0x376b8] AnonymousClosure: (0x95d84c), in [package:ballai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::_attachShotsListenerFallback (0x95d6f0)
+    //     0x95d7e8: add             x1, PP, #0x37, lsl #12  ; [pp+0x376b8] AnonymousClosure: (0x95d84c), in [package:kourtai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::_attachShotsListenerFallback (0x95d6f0)
     //     0x95d7ec: ldr             x1, [x1, #0x6b8]
     // 0x95d7f0: r2 = Null
     //     0x95d7f0: mov             x2, NULL
@@ -511,7 +511,7 @@ class WorkoutDetailDataViewModel extends ChangeNotifier {
     //     0x95d8ec: b.ls            #0x95d904
     // 0x95d8f0: ldr             x2, [fp, #0x10]
     // 0x95d8f4: r0 = _onShotsSnapshot()
-    //     0x95d8f4: bl              #0x95d90c  ; [package:ballai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::_onShotsSnapshot
+    //     0x95d8f4: bl              #0x95d90c  ; [package:kourtai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::_onShotsSnapshot
     // 0x95d8f8: LeaveFrame
     //     0x95d8f8: mov             SP, fp
     //     0x95d8fc: ldp             fp, lr, [SP], #0x10
@@ -606,7 +606,7 @@ class WorkoutDetailDataViewModel extends ChangeNotifier {
     // 0x95d9e4: r1 = Null
     //     0x95d9e4: mov             x1, NULL
     // 0x95d9e8: r0 = ShotModel.fromMap()
-    //     0x95d9e8: bl              #0x95ba60  ; [package:ballai/shared/models/core/shot_model.dart] ShotModel::ShotModel.fromMap
+    //     0x95d9e8: bl              #0x95ba60  ; [package:kourtai/shared/models/core/shot_model.dart] ShotModel::ShotModel.fromMap
     // 0x95d9ec: mov             x2, x0
     // 0x95d9f0: ldur            x0, [fp, #-0x10]
     // 0x95d9f4: stur            x2, [fp, #-0x20]
@@ -656,7 +656,7 @@ class WorkoutDetailDataViewModel extends ChangeNotifier {
     // 0x95da78: b               #0x95d968
     // 0x95da7c: ldur            x0, [fp, #-8]
     // 0x95da80: r1 = Function '<anonymous closure>':.
-    //     0x95da80: add             x1, PP, #0x37, lsl #12  ; [pp+0x376c8] AnonymousClosure: (0x95db04), in [package:ballai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::_onShotsSnapshot (0x95d90c)
+    //     0x95da80: add             x1, PP, #0x37, lsl #12  ; [pp+0x376c8] AnonymousClosure: (0x95db04), in [package:kourtai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::_onShotsSnapshot (0x95d90c)
     //     0x95da84: ldr             x1, [x1, #0x6c8]
     // 0x95da88: r2 = Null
     //     0x95da88: mov             x2, NULL
@@ -822,7 +822,7 @@ class WorkoutDetailDataViewModel extends ChangeNotifier {
     //     0x95dc20: bl              #0x5f43f0  ; [package:cloud_firestore/cloud_firestore.dart] _JsonDocumentReference::snapshots
     // 0x95dc24: ldur            x2, [fp, #-0x10]
     // 0x95dc28: r1 = Function '<anonymous closure>':.
-    //     0x95dc28: add             x1, PP, #0x37, lsl #12  ; [pp+0x377e8] AnonymousClosure: (0x95dc9c), in [package:ballai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::_attachWorkoutDocListener (0x95db78)
+    //     0x95dc28: add             x1, PP, #0x37, lsl #12  ; [pp+0x377e8] AnonymousClosure: (0x95dc9c), in [package:kourtai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::_attachWorkoutDocListener (0x95db78)
     //     0x95dc2c: ldr             x1, [x1, #0x7e8]
     // 0x95dc30: stur            x0, [fp, #-0x10]
     // 0x95dc34: r0 = AllocateClosure()
@@ -900,7 +900,7 @@ class WorkoutDetailDataViewModel extends ChangeNotifier {
     // 0x95dcf8: r1 = Null
     //     0x95dcf8: mov             x1, NULL
     // 0x95dcfc: r0 = WorkoutModel.fromFirestore()
-    //     0x95dcfc: bl              #0x7417a0  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::WorkoutModel.fromFirestore
+    //     0x95dcfc: bl              #0x7417a0  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::WorkoutModel.fromFirestore
     // 0x95dd00: LoadField: r1 = r0->field_37
     //     0x95dd00: ldur            w1, [x0, #0x37]
     // 0x95dd04: DecompressPointer r1
@@ -928,7 +928,7 @@ class WorkoutDetailDataViewModel extends ChangeNotifier {
     //     0x95dd3c: add             x4, PP, #0x37, lsl #12  ; [pp+0x377f8] List(7) [0, 0x2, 0x1, 0x1, "updateDate", 0x1, Null]
     //     0x95dd40: ldr             x4, [x4, #0x7f8]
     // 0x95dd44: r0 = copyWith()
-    //     0x95dd44: bl              #0x74c780  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::copyWith
+    //     0x95dd44: bl              #0x74c780  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::copyWith
     // 0x95dd48: mov             x1, x0
     // 0x95dd4c: b               #0x95dd54
     // 0x95dd50: mov             x1, x0
@@ -1036,7 +1036,7 @@ class WorkoutDetailDataViewModel extends ChangeNotifier {
     //     0x9b5d10: mov             fp, SP
     // 0x9b5d14: ldr             x2, [fp, #0x10]
     // 0x9b5d18: r1 = Function 'dispose':.
-    //     0x9b5d18: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cdc0] AnonymousClosure: (0x9b5d30), in [package:ballai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::dispose (0x9be57c)
+    //     0x9b5d18: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cdc0] AnonymousClosure: (0x9b5d30), in [package:kourtai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::dispose (0x9be57c)
     //     0x9b5d1c: ldr             x1, [x1, #0xdc0]
     // 0x9b5d20: r0 = AllocateClosure()
     //     0x9b5d20: bl              #0xe553e0  ; AllocateClosureStub
@@ -1061,7 +1061,7 @@ class WorkoutDetailDataViewModel extends ChangeNotifier {
     //     0x9b5d48: cmp             SP, x16
     //     0x9b5d4c: b.ls            #0x9b5d60
     // 0x9b5d50: r0 = dispose()
-    //     0x9b5d50: bl              #0x9be57c  ; [package:ballai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::dispose
+    //     0x9b5d50: bl              #0x9be57c  ; [package:kourtai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::dispose
     // 0x9b5d54: LeaveFrame
     //     0x9b5d54: mov             SP, fp
     //     0x9b5d58: ldp             fp, lr, [SP], #0x10
@@ -1087,7 +1087,7 @@ class WorkoutDetailDataViewModel extends ChangeNotifier {
     //     0x9be598: b.ls            #0x9be5bc
     // 0x9be59c: mov             x1, x0
     // 0x9be5a0: r0 = stop()
-    //     0x9be5a0: bl              #0x9be5c4  ; [package:ballai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::stop
+    //     0x9be5a0: bl              #0x9be5c4  ; [package:kourtai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::stop
     // 0x9be5a4: ldur            x1, [fp, #-8]
     // 0x9be5a8: r0 = dispose()
     //     0x9be5a8: bl              #0xb7893c  ; [package:flutter/src/widgets/shortcuts.dart] _ShortcutManager&Object&Diagnosticable&ChangeNotifier::dispose

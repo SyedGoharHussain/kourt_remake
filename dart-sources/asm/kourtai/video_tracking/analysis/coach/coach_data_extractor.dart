@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart
+// lib: , url: package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart
 
 // class id: 1049077, size: 0x8
 class :: {
@@ -64,7 +64,7 @@ class CoachDataExtractor extends Object {
     // 0x6cf088: mov             x2, x1
     // 0x6cf08c: ldur            x1, [fp, #-8]
     // 0x6cf090: r0 = add()
-    //     0x6cf090: bl              #0x6cf0ac  ; [package:ballai/video_tracking/analysis/coach/shot_frame_buffer.dart] ShotFrameBuffer::add
+    //     0x6cf090: bl              #0x6cf0ac  ; [package:kourtai/video_tracking/analysis/coach/shot_frame_buffer.dart] ShotFrameBuffer::add
     // 0x6cf094: r0 = Null
     //     0x6cf094: mov             x0, NULL
     // 0x6cf098: LeaveFrame
@@ -101,7 +101,7 @@ class CoachDataExtractor extends Object {
     // 0x6cf7c4: mov             x1, x0
     // 0x6cf7c8: stur            x0, [fp, #-0x18]
     // 0x6cf7cc: r0 = CoachSessionManager()
-    //     0x6cf7cc: bl              #0x6d0c38  ; [package:ballai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::CoachSessionManager
+    //     0x6cf7cc: bl              #0x6d0c38  ; [package:kourtai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::CoachSessionManager
     // 0x6cf7d0: ldur            x0, [fp, #-0x18]
     // 0x6cf7d4: ldur            x1, [fp, #-8]
     // 0x6cf7d8: StoreField: r1->field_b = r0
@@ -117,7 +117,7 @@ class CoachDataExtractor extends Object {
     // 0x6cf7f8: mov             x1, x0
     // 0x6cf7fc: stur            x0, [fp, #-0x18]
     // 0x6cf800: r0 = CoachAIClient()
-    //     0x6cf800: bl              #0x6cf920  ; [package:ballai/video_tracking/analysis/coach/coach_ai_client.dart] CoachAIClient::CoachAIClient
+    //     0x6cf800: bl              #0x6cf920  ; [package:kourtai/video_tracking/analysis/coach/coach_ai_client.dart] CoachAIClient::CoachAIClient
     // 0x6cf804: ldur            x0, [fp, #-0x18]
     // 0x6cf808: ldur            x1, [fp, #-8]
     // 0x6cf80c: StoreField: r1->field_f = r0
@@ -133,7 +133,7 @@ class CoachDataExtractor extends Object {
     // 0x6cf82c: mov             x1, x0
     // 0x6cf830: stur            x0, [fp, #-0x18]
     // 0x6cf834: r0 = ShotFrameBuffer()
-    //     0x6cf834: bl              #0x6cf894  ; [package:ballai/video_tracking/analysis/coach/shot_frame_buffer.dart] ShotFrameBuffer::ShotFrameBuffer
+    //     0x6cf834: bl              #0x6cf894  ; [package:kourtai/video_tracking/analysis/coach/shot_frame_buffer.dart] ShotFrameBuffer::ShotFrameBuffer
     // 0x6cf838: ldur            x0, [fp, #-0x18]
     // 0x6cf83c: ldur            x1, [fp, #-8]
     // 0x6cf840: StoreField: r1->field_13 = r0
@@ -327,7 +327,7 @@ class CoachDataExtractor extends Object {
     // 0x6d172c: r2 = LoadInt32Instr(r0)
     //     0x6d172c: sbfx            x2, x0, #1, #0x1f
     // 0x6d1730: r0 = pipeline()
-    //     0x6d1730: bl              #0x700ab8  ; [package:ballai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::pipeline
+    //     0x6d1730: bl              #0x700ab8  ; [package:kourtai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::pipeline
     // 0x6d1734: ldur            x0, [fp, #-0x18]
     // 0x6d1738: LoadField: r1 = r0->field_7
     //     0x6d1738: ldur            x1, [x0, #7]
@@ -371,7 +371,7 @@ class CoachDataExtractor extends Object {
     // 0x6d1798: mov             x6, x7
     // 0x6d179c: mov             x7, x0
     // 0x6d17a0: r0 = _runTextCoach()
-    //     0x6d17a0: bl              #0x6ffbb4  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_runTextCoach
+    //     0x6d17a0: bl              #0x6ffbb4  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_runTextCoach
     // 0x6d17a4: b               #0x6d1a28
     // 0x6d17a8: ldur            x2, [fp, #-8]
     // 0x6d17ac: ldur            x0, [fp, #-0x38]
@@ -417,7 +417,7 @@ class CoachDataExtractor extends Object {
     // 0x6d1808: mov             x6, x7
     // 0x6d180c: mov             x7, x0
     // 0x6d1810: r0 = _runTextCoach()
-    //     0x6d1810: bl              #0x6ffbb4  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_runTextCoach
+    //     0x6d1810: bl              #0x6ffbb4  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_runTextCoach
     // 0x6d1814: b               #0x6d1a28
     // 0x6d1818: LoadField: r1 = r2->field_13
     //     0x6d1818: ldur            w1, [x2, #0x13]
@@ -520,7 +520,7 @@ class CoachDataExtractor extends Object {
     // 0x6d18fc: mov             x6, x7
     // 0x6d1900: mov             x7, x0
     // 0x6d1904: r0 = _runTextCoach()
-    //     0x6d1904: bl              #0x6ffbb4  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_runTextCoach
+    //     0x6d1904: bl              #0x6ffbb4  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_runTextCoach
     // 0x6d1908: b               #0x6d1a28
     // 0x6d190c: mov             x1, x4
     // 0x6d1910: r0 = base64Encode()
@@ -595,7 +595,7 @@ class CoachDataExtractor extends Object {
     //     0x6d19d0: sbfx            x11, x1, #1, #0x1f
     // 0x6d19d4: stur            x11, [fp, #-0x28]
     // 0x6d19d8: r1 = Function 'fallbackToText':.
-    //     0x6d19d8: add             x1, PP, #0x30, lsl #12  ; [pp+0x30338] AnonymousClosure: (0x700b70), in [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::callCoachAI (0x6d1598)
+    //     0x6d19d8: add             x1, PP, #0x30, lsl #12  ; [pp+0x30338] AnonymousClosure: (0x700b70), in [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::callCoachAI (0x6d1598)
     //     0x6d19dc: ldr             x1, [x1, #0x338]
     // 0x6d19e0: r0 = AllocateClosure()
     //     0x6d19e0: bl              #0xe553e0  ; AllocateClosureStub
@@ -616,7 +616,7 @@ class CoachDataExtractor extends Object {
     // 0x6d1a1c: ldur            x6, [fp, #-0x48]
     // 0x6d1a20: ldur            x7, [fp, #-0x58]
     // 0x6d1a24: r0 = _runVisionCoach()
-    //     0x6d1a24: bl              #0x6d1a40  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_runVisionCoach
+    //     0x6d1a24: bl              #0x6d1a40  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_runVisionCoach
     // 0x6d1a28: r0 = Null
     //     0x6d1a28: mov             x0, NULL
     // 0x6d1a2c: LeaveFrame
@@ -869,7 +869,7 @@ class CoachDataExtractor extends Object {
     // 0x6d1cc4: StoreField: r0->field_37 = r16
     //     0x6d1cc4: stur            w16, [x0, #0x37]
     // 0x6d1cc8: r0 = responseLanguageInstruction()
-    //     0x6d1cc8: bl              #0x6ff8d0  ; [package:ballai/video_tracking/analysis/coach/coach_template_language.dart] CoachTemplateLanguage::responseLanguageInstruction
+    //     0x6d1cc8: bl              #0x6ff8d0  ; [package:kourtai/video_tracking/analysis/coach/coach_template_language.dart] CoachTemplateLanguage::responseLanguageInstruction
     // 0x6d1ccc: r17 = -392
     //     0x6d1ccc: mov             x17, #-0x188
     // 0x6d1cd0: ldr             x1, [fp, x17]
@@ -1000,7 +1000,7 @@ class CoachDataExtractor extends Object {
     //     0x6d1e38: mov             x17, #-0x128
     // 0x6d1e3c: str             x0, [fp, x17]
     // 0x6d1e40: r0 = _coachContextForTextPath()
-    //     0x6d1e40: bl              #0x6ff178  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_coachContextForTextPath
+    //     0x6d1e40: bl              #0x6ff178  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_coachContextForTextPath
     // 0x6d1e44: mov             x4, x0
     // 0x6d1e48: r17 = -352
     //     0x6d1e48: mov             x17, #-0x160
@@ -1092,7 +1092,7 @@ class CoachDataExtractor extends Object {
     //     0x6d1f28: mov             x17, #-0x138
     // 0x6d1f2c: ldr             x3, [fp, x17]
     // 0x6d1f30: r0 = generateVisionFeedback()
-    //     0x6d1f30: bl              #0x6d4fc4  ; [package:ballai/video_tracking/analysis/coach/coach_ai_client.dart] CoachAIClient::generateVisionFeedback
+    //     0x6d1f30: bl              #0x6d4fc4  ; [package:kourtai/video_tracking/analysis/coach/coach_ai_client.dart] CoachAIClient::generateVisionFeedback
     // 0x6d1f34: mov             x1, x0
     // 0x6d1f38: r17 = -392
     //     0x6d1f38: mov             x17, #-0x188
@@ -1272,7 +1272,7 @@ class CoachDataExtractor extends Object {
     // 0x6d2108: mov             x1, x6
     // 0x6d210c: mov             x2, x0
     // 0x6d2110: r0 = revertCommitIfShotWasSilent()
-    //     0x6d2110: bl              #0x6d4e7c  ; [package:ballai/video_tracking/analysis/coach/coach_decision_engine.dart] CoachDecisionEngine::revertCommitIfShotWasSilent
+    //     0x6d2110: bl              #0x6d4e7c  ; [package:kourtai/video_tracking/analysis/coach/coach_decision_engine.dart] CoachDecisionEngine::revertCommitIfShotWasSilent
     // 0x6d2114: r17 = -416
     //     0x6d2114: mov             x17, #-0x1a0
     // 0x6d2118: ldr             d0, [fp, x17]
@@ -1323,7 +1323,7 @@ class CoachDataExtractor extends Object {
     //     0x6d2194: add             x4, PP, #0x30, lsl #12  ; [pp+0x303d0] List(7) [0, 0x7, 0x1, 0x6, "latencySeconds", 0x6, Null]
     //     0x6d2198: ldr             x4, [x4, #0x3d0]
     // 0x6d219c: r0 = logCoachConsoleBlock()
-    //     0x6d219c: bl              #0x700ce8  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::logCoachConsoleBlock
+    //     0x6d219c: bl              #0x700ce8  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::logCoachConsoleBlock
     // 0x6d21a0: r0 = Null
     //     0x6d21a0: mov             x0, NULL
     // 0x6d21a4: r0 = ReturnAsyncNotFuture()
@@ -1470,7 +1470,7 @@ class CoachDataExtractor extends Object {
     //     0x6d2324: add             x4, PP, #0x30, lsl #12  ; [pp+0x303d0] List(7) [0, 0x7, 0x1, 0x6, "latencySeconds", 0x6, Null]
     //     0x6d2328: ldr             x4, [x4, #0x3d0]
     // 0x6d232c: r0 = logCoachConsoleBlock()
-    //     0x6d232c: bl              #0x700ce8  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::logCoachConsoleBlock
+    //     0x6d232c: bl              #0x700ce8  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::logCoachConsoleBlock
     // 0x6d2330: r0 = Null
     //     0x6d2330: mov             x0, NULL
     // 0x6d2334: r0 = ReturnAsyncNotFuture()
@@ -1518,7 +1518,7 @@ class CoachDataExtractor extends Object {
     //     0x6d23a8: add             x4, PP, #0x30, lsl #12  ; [pp+0x303d0] List(7) [0, 0x7, 0x1, 0x6, "latencySeconds", 0x6, Null]
     //     0x6d23ac: ldr             x4, [x4, #0x3d0]
     // 0x6d23b0: r0 = logCoachConsoleBlock()
-    //     0x6d23b0: bl              #0x700ce8  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::logCoachConsoleBlock
+    //     0x6d23b0: bl              #0x700ce8  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::logCoachConsoleBlock
     // 0x6d23b4: r17 = -336
     //     0x6d23b4: mov             x17, #-0x150
     // 0x6d23b8: ldr             x1, [fp, x17]
@@ -1526,7 +1526,7 @@ class CoachDataExtractor extends Object {
     //     0x6d23bc: mov             x17, #-0x140
     // 0x6d23c0: ldr             x2, [fp, x17]
     // 0x6d23c4: r0 = _applyMappedAdviceFromAI()
-    //     0x6d23c4: bl              #0x6d494c  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_applyMappedAdviceFromAI
+    //     0x6d23c4: bl              #0x6d494c  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_applyMappedAdviceFromAI
     // 0x6d23c8: r17 = -336
     //     0x6d23c8: mov             x17, #-0x150
     // 0x6d23cc: ldr             x1, [fp, x17]
@@ -1540,7 +1540,7 @@ class CoachDataExtractor extends Object {
     //     0x6d23e0: mov             x17, #-0x138
     // 0x6d23e4: ldr             x5, [fp, x17]
     // 0x6d23e8: r0 = _speakAndRecordAdvice()
-    //     0x6d23e8: bl              #0x6d2564  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_speakAndRecordAdvice
+    //     0x6d23e8: bl              #0x6d2564  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_speakAndRecordAdvice
     // 0x6d23ec: b               #0x6d24d0
     // 0x6d23f0: sub             SP, fp, #0x1b0
     // 0x6d23f4: r17 = -312
@@ -1687,7 +1687,7 @@ class CoachDataExtractor extends Object {
     // 0x6d25a4: mov             x2, x5
     // 0x6d25a8: mov             x3, x0
     // 0x6d25ac: r0 = recordAdvice()
-    //     0x6d25ac: bl              #0x6d491c  ; [package:ballai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::recordAdvice
+    //     0x6d25ac: bl              #0x6d491c  ; [package:kourtai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::recordAdvice
     // 0x6d25b0: ldur            x0, [fp, #-0x18]
     // 0x6d25b4: r16 = Instance_CoachEventType
     //     0x6d25b4: add             x16, PP, #0x30, lsl #12  ; [pp+0x303f8] Obj!CoachEventType@d39521
@@ -1701,12 +1701,12 @@ class CoachDataExtractor extends Object {
     // 0x6d25cc: ldur            x2, [fp, #-0x20]
     // 0x6d25d0: ldur            x3, [fp, #-0x10]
     // 0x6d25d4: r0 = spoken()
-    //     0x6d25d4: bl              #0x6d4704  ; [package:ballai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::spoken
+    //     0x6d25d4: bl              #0x6d4704  ; [package:kourtai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::spoken
     // 0x6d25d8: ldur            x1, [fp, #-8]
     // 0x6d25dc: ldur            x2, [fp, #-0x10]
     // 0x6d25e0: ldur            x3, [fp, #-0x18]
     // 0x6d25e4: r0 = _speakCoach()
-    //     0x6d25e4: bl              #0x6d2ba4  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_speakCoach
+    //     0x6d25e4: bl              #0x6d2ba4  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_speakCoach
     // 0x6d25e8: ldur            x0, [fp, #-8]
     // 0x6d25ec: LoadField: r1 = r0->field_7
     //     0x6d25ec: ldur            w1, [x0, #7]
@@ -1714,7 +1714,7 @@ class CoachDataExtractor extends Object {
     //     0x6d25f0: add             x1, x1, HEAP, lsl #32
     // 0x6d25f4: ldur            x2, [fp, #-0x10]
     // 0x6d25f8: r0 = appendAIFeedback()
-    //     0x6d25f8: bl              #0x6d2614  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::appendAIFeedback
+    //     0x6d25f8: bl              #0x6d2614  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::appendAIFeedback
     // 0x6d25fc: r0 = Null
     //     0x6d25fc: mov             x0, NULL
     // 0x6d2600: LeaveFrame
@@ -1740,7 +1740,7 @@ class CoachDataExtractor extends Object {
     //     0x6d2bb8: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x6d2bbc: cmp             SP, x16
     //     0x6d2bc0: b.ls            #0x6d2ccc
-    // 0x6d2bc4: r0 = InitLateStaticField(0xeec) // [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
+    // 0x6d2bc4: r0 = InitLateStaticField(0xeec) // [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
     //     0x6d2bc4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x6d2bc8: ldr             x0, [x0, #0x1dd8]
     //     0x6d2bcc: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1752,7 +1752,7 @@ class CoachDataExtractor extends Object {
     // 0x6d2be4: mov             x1, x0
     // 0x6d2be8: stur            x0, [fp, #-0x18]
     // 0x6d2bec: r0 = stopSpeakingImmediate()
-    //     0x6d2bec: bl              #0x6d4278  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::stopSpeakingImmediate
+    //     0x6d2bec: bl              #0x6d4278  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::stopSpeakingImmediate
     // 0x6d2bf0: ldur            x0, [fp, #-0x10]
     // 0x6d2bf4: LoadField: r1 = r0->field_7
     //     0x6d2bf4: ldur            x1, [x0, #7]
@@ -1825,7 +1825,7 @@ class CoachDataExtractor extends Object {
     //     0x6d2cb0: add             x4, PP, #0x30, lsl #12  ; [pp+0x30428] List(13) [0, 0x6, 0x4, 0x2, "isBally", 0x5, "pitch", 0x3, "rate", 0x2, "volume", 0x4, Null]
     //     0x6d2cb4: ldr             x4, [x4, #0x428]
     // 0x6d2cb8: r0 = speak()
-    //     0x6d2cb8: bl              #0x6d2cd4  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
+    //     0x6d2cb8: bl              #0x6d2cd4  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
     // 0x6d2cbc: r0 = Null
     //     0x6d2cbc: mov             x0, NULL
     // 0x6d2cc0: LeaveFrame
@@ -1853,10 +1853,10 @@ class CoachDataExtractor extends Object {
     //     0x6d4968: cmp             SP, x16
     //     0x6d496c: b.ls            #0x6d4b28
     // 0x6d4970: r0 = coachingHintFromRaw()
-    //     0x6d4970: bl              #0x6d4cec  ; [package:ballai/video_tracking/analysis/coach/coach_advice_mapper.dart] CoachAdviceMapper::coachingHintFromRaw
+    //     0x6d4970: bl              #0x6d4cec  ; [package:kourtai/video_tracking/analysis/coach/coach_advice_mapper.dart] CoachAdviceMapper::coachingHintFromRaw
     // 0x6d4974: mov             x1, x0
     // 0x6d4978: r0 = mapMetricFromPrimaryToken()
-    //     0x6d4978: bl              #0x6d4b3c  ; [package:ballai/video_tracking/analysis/coach/coach_advice_mapper.dart] CoachAdviceMapper::mapMetricFromPrimaryToken
+    //     0x6d4978: bl              #0x6d4b3c  ; [package:kourtai/video_tracking/analysis/coach/coach_advice_mapper.dart] CoachAdviceMapper::mapMetricFromPrimaryToken
     // 0x6d497c: stur            x0, [fp, #-0x20]
     // 0x6d4980: cmp             w0, NULL
     // 0x6d4984: b.ne            #0x6d4a04
@@ -2035,7 +2035,7 @@ class CoachDataExtractor extends Object {
     // 0x6ff1c4: mov             x3, x4
     // 0x6ff1c8: mov             x5, x0
     // 0x6ff1cc: r0 = _textCoachBiomechanicsHint()
-    //     0x6ff1cc: bl              #0x6ff838  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_textCoachBiomechanicsHint
+    //     0x6ff1cc: bl              #0x6ff838  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_textCoachBiomechanicsHint
     // 0x6ff1d0: mov             x3, x0
     // 0x6ff1d4: ldur            x0, [fp, #-8]
     // 0x6ff1d8: stur            x3, [fp, #-0x58]
@@ -2173,7 +2173,7 @@ class CoachDataExtractor extends Object {
     // 0x6ff35c: ldur            x0, [fp, #-0x60]
     // 0x6ff360: mov             x1, x0
     // 0x6ff364: r0 = biomechanicsPersistence()
-    //     0x6ff364: bl              #0x6ff6f0  ; [package:ballai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::biomechanicsPersistence
+    //     0x6ff364: bl              #0x6ff6f0  ; [package:kourtai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::biomechanicsPersistence
     // 0x6ff368: mov             x2, x0
     // 0x6ff36c: stur            x2, [fp, #-0x90]
     // 0x6ff370: mov             x3, x1
@@ -2278,7 +2278,7 @@ class CoachDataExtractor extends Object {
     //     0x6ff498: ldr             x0, [x0, #0x578]
     // 0x6ff49c: stur            x0, [fp, #-0x10]
     // 0x6ff4a0: r0 = recentTrendDescription()
-    //     0x6ff4a0: bl              #0x6ff628  ; [package:ballai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::recentTrendDescription
+    //     0x6ff4a0: bl              #0x6ff628  ; [package:kourtai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::recentTrendDescription
     // 0x6ff4a4: mov             x1, x0
     // 0x6ff4a8: ldur            x0, [fp, #-0x90]
     // 0x6ff4ac: stur            x1, [fp, #-0x98]
@@ -2519,7 +2519,7 @@ class CoachDataExtractor extends Object {
     // 0x6ffc54: ldur            x6, [fp, #-0xe8]
     // 0x6ffc58: ldur            x7, [fp, #-0xe0]
     // 0x6ffc5c: r0 = _coachContextForTextPath()
-    //     0x6ffc5c: bl              #0x6ff178  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_coachContextForTextPath
+    //     0x6ffc5c: bl              #0x6ff178  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_coachContextForTextPath
     // 0x6ffc60: stur            x0, [fp, #-0xf8]
     // 0x6ffc64: r0 = DateTime()
     //     0x6ffc64: bl              #0x5feb08  ; AllocateDateTimeStub -> DateTime (size=0x18)
@@ -2609,7 +2609,7 @@ class CoachDataExtractor extends Object {
     //     0x6ffd40: mov             x17, #-0x118
     // 0x6ffd44: ldr             x3, [fp, x17]
     // 0x6ffd48: r0 = generate()
-    //     0x6ffd48: bl              #0x7000cc  ; [package:ballai/video_tracking/analysis/coach/coach_ai_client.dart] CoachAIClient::generate
+    //     0x6ffd48: bl              #0x7000cc  ; [package:kourtai/video_tracking/analysis/coach/coach_ai_client.dart] CoachAIClient::generate
     // 0x6ffd4c: mov             x1, x0
     // 0x6ffd50: r17 = -312
     //     0x6ffd50: mov             x17, #-0x138
@@ -2688,7 +2688,7 @@ class CoachDataExtractor extends Object {
     // 0x6ffe14: lsl             x2, x5, #1
     // 0x6ffe18: mov             x1, x6
     // 0x6ffe1c: r0 = revertCommitIfShotWasSilent()
-    //     0x6ffe1c: bl              #0x6d4e7c  ; [package:ballai/video_tracking/analysis/coach/coach_decision_engine.dart] CoachDecisionEngine::revertCommitIfShotWasSilent
+    //     0x6ffe1c: bl              #0x6d4e7c  ; [package:kourtai/video_tracking/analysis/coach/coach_decision_engine.dart] CoachDecisionEngine::revertCommitIfShotWasSilent
     // 0x6ffe20: r17 = -328
     //     0x6ffe20: mov             x17, #-0x148
     // 0x6ffe24: ldr             d0, [fp, x17]
@@ -2731,7 +2731,7 @@ class CoachDataExtractor extends Object {
     //     0x6ffe94: add             x4, PP, #0x31, lsl #12  ; [pp+0x315a0] List(9) [0, 0x8, 0x2, 0x6, "latencySeconds", 0x6, "shotIndex", 0x7, Null]
     //     0x6ffe98: ldr             x4, [x4, #0x5a0]
     // 0x6ffe9c: r0 = logCoachConsoleBlock()
-    //     0x6ffe9c: bl              #0x700ce8  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::logCoachConsoleBlock
+    //     0x6ffe9c: bl              #0x700ce8  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::logCoachConsoleBlock
     // 0x6ffea0: r0 = Null
     //     0x6ffea0: mov             x0, NULL
     // 0x6ffea4: r0 = ReturnAsyncNotFuture()
@@ -2779,13 +2779,13 @@ class CoachDataExtractor extends Object {
     //     0x6fff20: add             x4, PP, #0x31, lsl #12  ; [pp+0x315a0] List(9) [0, 0x8, 0x2, 0x6, "latencySeconds", 0x6, "shotIndex", 0x7, Null]
     //     0x6fff24: ldr             x4, [x4, #0x5a0]
     // 0x6fff28: r0 = logCoachConsoleBlock()
-    //     0x6fff28: bl              #0x700ce8  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::logCoachConsoleBlock
+    //     0x6fff28: bl              #0x700ce8  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::logCoachConsoleBlock
     // 0x6fff2c: ldur            x1, [fp, #-0xf0]
     // 0x6fff30: r17 = -272
     //     0x6fff30: mov             x17, #-0x110
     // 0x6fff34: ldr             x2, [fp, x17]
     // 0x6fff38: r0 = _applyMappedAdviceFromAI()
-    //     0x6fff38: bl              #0x6d494c  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_applyMappedAdviceFromAI
+    //     0x6fff38: bl              #0x6d494c  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_applyMappedAdviceFromAI
     // 0x6fff3c: ldur            x1, [fp, #-0xf0]
     // 0x6fff40: ldur            x2, [fp, #-0xf8]
     // 0x6fff44: r17 = -264
@@ -2795,7 +2795,7 @@ class CoachDataExtractor extends Object {
     //     0x6fff4c: mov             x17, #-0x118
     // 0x6fff50: ldr             x5, [fp, x17]
     // 0x6fff54: r0 = _speakAndRecordAdvice()
-    //     0x6fff54: bl              #0x6d2564  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_speakAndRecordAdvice
+    //     0x6fff54: bl              #0x6d2564  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_speakAndRecordAdvice
     // 0x6fff58: b               #0x700054
     // 0x6fff5c: sub             SP, fp, #0x158
     // 0x6fff60: r17 = -264
@@ -2847,7 +2847,7 @@ class CoachDataExtractor extends Object {
     //     0x6fffdc: add             x3, PP, #0x31, lsl #12  ; [pp+0x315a8] "coach-insight-v1"
     //     0x6fffe0: ldr             x3, [x3, #0x5a8]
     // 0x6fffe4: r0 = apiError()
-    //     0x6fffe4: bl              #0x6d525c  ; [package:ballai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::apiError
+    //     0x6fffe4: bl              #0x6d525c  ; [package:kourtai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::apiError
     // 0x6fffe8: r17 = -264
     //     0x6fffe8: mov             x17, #-0x108
     // 0x6fffec: ldr             x0, [fp, x17]
@@ -2884,7 +2884,7 @@ class CoachDataExtractor extends Object {
     //     0x700048: add             x4, PP, #0x30, lsl #12  ; [pp+0x303d0] List(7) [0, 0x7, 0x1, 0x6, "latencySeconds", 0x6, Null]
     //     0x70004c: ldr             x4, [x4, #0x3d0]
     // 0x700050: r0 = logCoachConsoleBlock()
-    //     0x700050: bl              #0x700ce8  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::logCoachConsoleBlock
+    //     0x700050: bl              #0x700ce8  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::logCoachConsoleBlock
     // 0x700054: r0 = Null
     //     0x700054: mov             x0, NULL
     // 0x700058: r0 = ReturnAsyncNotFuture()
@@ -2983,7 +2983,7 @@ class CoachDataExtractor extends Object {
     // 0x700be0: mov             x1, x0
     // 0x700be4: mov             x2, x4
     // 0x700be8: r0 = _runTextCoach()
-    //     0x700be8: bl              #0x6ffbb4  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_runTextCoach
+    //     0x700be8: bl              #0x6ffbb4  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_runTextCoach
     // 0x700bec: r0 = Null
     //     0x700bec: mov             x0, NULL
     // 0x700bf0: LeaveFrame
@@ -3010,7 +3010,7 @@ class CoachDataExtractor extends Object {
     //     0x700c20: add             x3, PP, #0x30, lsl #12  ; [pp+0x303f8] Obj!CoachEventType@d39521
     //     0x700c24: ldr             x3, [x3, #0x3f8]
     // 0x700c28: r0 = _speakAndRecordAdvice()
-    //     0x700c28: bl              #0x6d2564  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_speakAndRecordAdvice
+    //     0x700c28: bl              #0x6d2564  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_speakAndRecordAdvice
     // 0x700c2c: r0 = Null
     //     0x700c2c: mov             x0, NULL
     // 0x700c30: LeaveFrame
@@ -3104,7 +3104,7 @@ class CoachDataExtractor extends Object {
     //     0x700dfc: add             x4, PP, #0x30, lsl #12  ; [pp+0x302e0] List(7) [0, 0x3, 0x1, 0x2, "eventType", 0x2, Null]
     //     0x700e00: ldr             x4, [x4, #0x2e0]
     // 0x700e04: r0 = suppressed()
-    //     0x700e04: bl              #0x7037e8  ; [package:ballai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::suppressed
+    //     0x700e04: bl              #0x7037e8  ; [package:kourtai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::suppressed
     // 0x700e08: ldur            x16, [fp, #-0x38]
     // 0x700e0c: str             x16, [SP]
     // 0x700e10: ldur            x1, [fp, #-0x30]
@@ -3114,7 +3114,7 @@ class CoachDataExtractor extends Object {
     // 0x700e20: ldur            x6, [fp, #-0x28]
     // 0x700e24: ldur            x7, [fp, #-8]
     // 0x700e28: r0 = shotOutcome()
-    //     0x700e28: bl              #0x700e44  ; [package:ballai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::shotOutcome
+    //     0x700e28: bl              #0x700e44  ; [package:kourtai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::shotOutcome
     // 0x700e2c: r0 = Null
     //     0x700e2c: mov             x0, NULL
     // 0x700e30: LeaveFrame
@@ -3234,21 +3234,21 @@ class CoachDataExtractor extends Object {
     // 0x70191c: mov             x2, x0
     // 0x701920: stur            x6, [fp, #-8]
     // 0x701924: r0 = recordShot()
-    //     0x701924: bl              #0x70308c  ; [package:ballai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::recordShot
+    //     0x701924: bl              #0x70308c  ; [package:kourtai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::recordShot
     // 0x701928: ldur            x1, [fp, #-0x10]
     // 0x70192c: ldur            x2, [fp, #-0x20]
     // 0x701930: r0 = _buildBiomechanicsHint()
-    //     0x701930: bl              #0x7023e8  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_buildBiomechanicsHint
+    //     0x701930: bl              #0x7023e8  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_buildBiomechanicsHint
     // 0x701934: mov             x1, x0
     // 0x701938: stur            x0, [fp, #-0x30]
     // 0x70193c: r0 = coachingHintFromRaw()
-    //     0x70193c: bl              #0x6d4cec  ; [package:ballai/video_tracking/analysis/coach/coach_advice_mapper.dart] CoachAdviceMapper::coachingHintFromRaw
+    //     0x70193c: bl              #0x6d4cec  ; [package:kourtai/video_tracking/analysis/coach/coach_advice_mapper.dart] CoachAdviceMapper::coachingHintFromRaw
     // 0x701940: ldur            x1, [fp, #-8]
     // 0x701944: ldur            x2, [fp, #-0x30]
     // 0x701948: ldur            x3, [fp, #-0x28]
     // 0x70194c: stur            x0, [fp, #-0x38]
     // 0x701950: r0 = evaluateShotForCoachTrigger()
-    //     0x701950: bl              #0x701e44  ; [package:ballai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::evaluateShotForCoachTrigger
+    //     0x701950: bl              #0x701e44  ; [package:kourtai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::evaluateShotForCoachTrigger
     // 0x701954: mov             x4, x0
     // 0x701958: ldur            x0, [fp, #-8]
     // 0x70195c: stur            x4, [fp, #-0x40]
@@ -3264,7 +3264,7 @@ class CoachDataExtractor extends Object {
     // 0x701978: ldur            x3, [fp, #-0x28]
     // 0x70197c: mov             x5, x4
     // 0x701980: r0 = _printCoachDebugLog()
-    //     0x701980: bl              #0x7019c0  ; [package:ballai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_printCoachDebugLog
+    //     0x701980: bl              #0x7019c0  ; [package:kourtai/video_tracking/analysis/coach/coach_data_extractor.dart] CoachDataExtractor::_printCoachDebugLog
     // 0x701984: r0 = CoachGatekeeperResult()
     //     0x701984: bl              #0x7019b4  ; AllocateCoachGatekeeperResultStub -> CoachGatekeeperResult (size=0x14)
     // 0x701988: ldur            x1, [fp, #-0x40]
@@ -3472,7 +3472,7 @@ class CoachDataExtractor extends Object {
     //     0x701bc8: stur            w16, [x2, #0x1f]
     // 0x701bcc: mov             x1, x3
     // 0x701bd0: r0 = makePercentage()
-    //     0x701bd0: bl              #0x701e14  ; [package:ballai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::makePercentage
+    //     0x701bd0: bl              #0x701e14  ; [package:kourtai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::makePercentage
     // 0x701bd4: r1 = inline_Allocate_Double()
     //     0x701bd4: ldp             x1, x0, [THR, #0x50]  ; THR::top
     //     0x701bd8: add             x1, x1, #0x10
@@ -3692,7 +3692,7 @@ class CoachDataExtractor extends Object {
     //     0x702404: cmp             SP, x16
     //     0x702408: b.ls            #0x702798
     // 0x70240c: r0 = getPose()
-    //     0x70240c: bl              #0x703344  ; [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::getPose
+    //     0x70240c: bl              #0x703344  ; [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::getPose
     // 0x702410: cmp             w0, NULL
     // 0x702414: b.ne            #0x702428
     // 0x702418: r0 = ""
@@ -3720,11 +3720,11 @@ class CoachDataExtractor extends Object {
     // 0x70244c: mov             x1, x2
     // 0x702450: mov             x2, x0
     // 0x702454: r0 = analyzeTemporal()
-    //     0x702454: bl              #0x702f14  ; [package:ballai/video_tracking/analysis/coach/biomechanics_analyzer.dart] BiomechanicsAnalyzer::analyzeTemporal
+    //     0x702454: bl              #0x702f14  ; [package:kourtai/video_tracking/analysis/coach/biomechanics_analyzer.dart] BiomechanicsAnalyzer::analyzeTemporal
     // 0x702458: b               #0x702464
     // 0x70245c: mov             x1, x0
     // 0x702460: r0 = analyze()
-    //     0x702460: bl              #0x7027a0  ; [package:ballai/video_tracking/analysis/coach/biomechanics_analyzer.dart] BiomechanicsAnalyzer::analyze
+    //     0x702460: bl              #0x7027a0  ; [package:kourtai/video_tracking/analysis/coach/biomechanics_analyzer.dart] BiomechanicsAnalyzer::analyze
     // 0x702464: stur            x0, [fp, #-8]
     // 0x702468: LoadField: r1 = r0->field_7
     //     0x702468: ldur            w1, [x0, #7]
@@ -4078,7 +4078,7 @@ class CoachDataExtractor extends Object {
     //     0x7039a4: add             x2, x2, HEAP, lsl #32
     // 0x7039a8: mov             x1, x2
     // 0x7039ac: r0 = encodeJpegForVision()
-    //     0x7039ac: bl              #0x703a6c  ; [package:ballai/video_tracking/analysis/coach/coach_shot_capture.dart] CoachShotCapture::encodeJpegForVision
+    //     0x7039ac: bl              #0x703a6c  ; [package:kourtai/video_tracking/analysis/coach/coach_shot_capture.dart] CoachShotCapture::encodeJpegForVision
     // 0x7039b0: cmp             w0, NULL
     // 0x7039b4: b.eq            #0x7039d0
     // 0x7039b8: ldur            x1, [fp, #-8]
@@ -4089,7 +4089,7 @@ class CoachDataExtractor extends Object {
     // 0x7039c4: mov             x1, x2
     // 0x7039c8: mov             x2, x0
     // 0x7039cc: r0 = setVisionJpeg()
-    //     0x7039cc: bl              #0x7039e8  ; [package:ballai/video_tracking/analysis/coach/shot_frame_buffer.dart] ShotFrameBuffer::setVisionJpeg
+    //     0x7039cc: bl              #0x7039e8  ; [package:kourtai/video_tracking/analysis/coach/shot_frame_buffer.dart] ShotFrameBuffer::setVisionJpeg
     // 0x7039d0: r0 = Null
     //     0x7039d0: mov             x0, NULL
     // 0x7039d4: LeaveFrame
@@ -4118,7 +4118,7 @@ class CoachDataExtractor extends Object {
     //     0x712ea8: add             x0, x0, HEAP, lsl #32
     // 0x712eac: mov             x1, x0
     // 0x712eb0: r0 = reset()
-    //     0x712eb0: bl              #0x712efc  ; [package:ballai/video_tracking/analysis/coach/shot_frame_buffer.dart] ShotFrameBuffer::reset
+    //     0x712eb0: bl              #0x712efc  ; [package:kourtai/video_tracking/analysis/coach/shot_frame_buffer.dart] ShotFrameBuffer::reset
     // 0x712eb4: r0 = InitLateStaticField(0x62c) // [package:flutter/src/foundation/print.dart] ::debugPrint
     //     0x712eb4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x712eb8: ldr             x0, [x0, #0xc58]
@@ -4213,7 +4213,7 @@ class CoachDataExtractor extends Object {
     //     0x95f410: add             x1, x1, HEAP, lsl #32
     // 0x95f414: ldur            x2, [fp, #-0x18]
     // 0x95f418: r0 = generateSessionReport()
-    //     0x95f418: bl              #0x95f428  ; [package:ballai/video_tracking/analysis/coach/coach_ai_client.dart] CoachAIClient::generateSessionReport
+    //     0x95f418: bl              #0x95f428  ; [package:kourtai/video_tracking/analysis/coach/coach_ai_client.dart] CoachAIClient::generateSessionReport
     // 0x95f41c: r0 = ReturnAsync()
     //     0x95f41c: b               #0x5f1e3c  ; ReturnAsyncStub
     // 0x95f420: r0 = StackOverflowSharedWithoutFPURegs()
@@ -4245,7 +4245,7 @@ class CoachDataExtractor extends Object {
     //     0x9601ec: add             x1, x1, HEAP, lsl #32
     // 0x9601f0: ldur            x2, [fp, #-0x18]
     // 0x9601f4: r0 = generateBallyBreakdown()
-    //     0x9601f4: bl              #0x960204  ; [package:ballai/video_tracking/analysis/coach/coach_ai_client.dart] CoachAIClient::generateBallyBreakdown
+    //     0x9601f4: bl              #0x960204  ; [package:kourtai/video_tracking/analysis/coach/coach_ai_client.dart] CoachAIClient::generateBallyBreakdown
     // 0x9601f8: r0 = ReturnAsync()
     //     0x9601f8: b               #0x5f1e3c  ; ReturnAsyncStub
     // 0x9601fc: r0 = StackOverflowSharedWithoutFPURegs()
@@ -4274,14 +4274,14 @@ class CoachDataExtractor extends Object {
     // 0x99ab50: DecompressPointer r1
     //     0x99ab50: add             x1, x1, HEAP, lsl #32
     // 0x99ab54: r0 = reset()
-    //     0x99ab54: bl              #0x99abc0  ; [package:ballai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::reset
+    //     0x99ab54: bl              #0x99abc0  ; [package:kourtai/video_tracking/analysis/coach/coach_session_manager.dart] CoachSessionManager::reset
     // 0x99ab58: ldur            x0, [fp, #-8]
     // 0x99ab5c: LoadField: r1 = r0->field_13
     //     0x99ab5c: ldur            w1, [x0, #0x13]
     // 0x99ab60: DecompressPointer r1
     //     0x99ab60: add             x1, x1, HEAP, lsl #32
     // 0x99ab64: r0 = reset()
-    //     0x99ab64: bl              #0x712efc  ; [package:ballai/video_tracking/analysis/coach/shot_frame_buffer.dart] ShotFrameBuffer::reset
+    //     0x99ab64: bl              #0x712efc  ; [package:kourtai/video_tracking/analysis/coach/shot_frame_buffer.dart] ShotFrameBuffer::reset
     // 0x99ab68: ldur            x0, [fp, #-8]
     // 0x99ab6c: LoadField: r1 = r0->field_f
     //     0x99ab6c: ldur            w1, [x0, #0xf]

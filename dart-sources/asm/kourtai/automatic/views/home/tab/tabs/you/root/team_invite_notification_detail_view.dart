@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart
 
 // class id: 1049029, size: 0x8
 class :: {
@@ -45,7 +45,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     // 0x98834c: mov             x2, x1
     // 0x988350: stur            x0, [fp, #-8]
     // 0x988354: r1 = Function '<anonymous closure>':.
-    //     0x988354: add             x1, PP, #0x26, lsl #12  ; [pp+0x26c00] AnonymousClosure: (0x988428), in [package:ballai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::initState (0x9882f8)
+    //     0x988354: add             x1, PP, #0x26, lsl #12  ; [pp+0x26c00] AnonymousClosure: (0x988428), in [package:kourtai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::initState (0x9882f8)
     //     0x988358: ldr             x1, [x1, #0xc00]
     // 0x98835c: r0 = AllocateClosure()
     //     0x98835c: bl              #0xe553e0  ; AllocateClosureStub
@@ -142,7 +142,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0x98844c: add             x0, x0, HEAP, lsl #32
     // 0x988450: mov             x1, x0
     // 0x988454: r0 = _load()
-    //     0x988454: bl              #0x98846c  ; [package:ballai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_load
+    //     0x988454: bl              #0x98846c  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_load
     // 0x988458: LeaveFrame
     //     0x988458: mov             SP, fp
     //     0x98845c: ldp             fp, lr, [SP], #0x10
@@ -180,7 +180,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0x9884a8: bl              #0x60afc8  ; InitAsyncStub
     // 0x9884ac: ldur            x2, [fp, #-0x98]
     // 0x9884b0: r1 = Function '<anonymous closure>':.
-    //     0x9884b0: add             x1, PP, #0x26, lsl #12  ; [pp+0x26bc8] AnonymousClosure: (0x988a08), in [package:ballai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_load (0x98846c)
+    //     0x9884b0: add             x1, PP, #0x26, lsl #12  ; [pp+0x26bc8] AnonymousClosure: (0x988a08), in [package:kourtai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_load (0x98846c)
     //     0x9884b4: ldr             x1, [x1, #0xbc8]
     // 0x9884b8: r0 = AllocateClosure()
     //     0x9884b8: bl              #0xe553e0  ; AllocateClosureStub
@@ -246,7 +246,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     // 0x98855c: mov             x1, x0
     // 0x988560: stur            x0, [fp, #-0xa8]
     // 0x988564: r0 = fromFirestore()
-    //     0x988564: bl              #0x814ab0  ; [package:ballai/automatic/models/core/team/team_membership_model.dart] TeamMembershipModel::fromFirestore
+    //     0x988564: bl              #0x814ab0  ; [package:kourtai/automatic/models/core/team/team_membership_model.dart] TeamMembershipModel::fromFirestore
     // 0x988568: mov             x3, x0
     // 0x98856c: ldur            x2, [fp, #-0x98]
     // 0x988570: stur            x3, [fp, #-0xb0]
@@ -262,7 +262,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0x988590: stur            NULL, [x2, #0x17]
     // 0x988594: ldur            x1, [fp, #-0xa0]
     // 0x988598: r0 = currentTeams()
-    //     0x988598: bl              #0x651818  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeams
+    //     0x988598: bl              #0x651818  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeams
     // 0x98859c: stur            x0, [fp, #-0xc0]
     // 0x9885a0: LoadField: r2 = r0->field_7
     //     0x9885a0: ldur            w2, [x0, #7]
@@ -408,7 +408,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     // 0x98873c: b.ne            #0x988768
     // 0x988740: mov             x1, x0
     // 0x988744: r0 = fromFirestore()
-    //     0x988744: bl              #0x7698b4  ; [package:ballai/automatic/models/core/team/team_model.dart] TeamModel::fromFirestore
+    //     0x988744: bl              #0x7698b4  ; [package:kourtai/automatic/models/core/team/team_model.dart] TeamModel::fromFirestore
     // 0x988748: ldur            x2, [fp, #-0x98]
     // 0x98874c: ArrayStore: r2[0] = r0  ; List_4
     //     0x98874c: stur            w0, [x2, #0x17]
@@ -474,7 +474,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0x9887fc: mov             x1, NULL
     // 0x988800: stur            x0, [fp, #-0xa8]
     // 0x988804: r0 = UserModel.fromFirestore()
-    //     0x988804: bl              #0x8fe49c  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
+    //     0x988804: bl              #0x8fe49c  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
     // 0x988808: ldur            x3, [fp, #-0x98]
     // 0x98880c: StoreField: r3->field_1b = r0
     //     0x98880c: stur            w0, [x3, #0x1b]
@@ -501,7 +501,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0x988850: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x988854: mov             x2, x3
     // 0x988858: r1 = Function '<anonymous closure>':.
-    //     0x988858: add             x1, PP, #0x26, lsl #12  ; [pp+0x26bd0] AnonymousClosure: (0x988950), in [package:ballai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_load (0x98846c)
+    //     0x988858: add             x1, PP, #0x26, lsl #12  ; [pp+0x26bd0] AnonymousClosure: (0x988950), in [package:kourtai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_load (0x98846c)
     //     0x98885c: ldr             x1, [x1, #0xbd0]
     // 0x988860: r0 = AllocateClosure()
     //     0x988860: bl              #0xe553e0  ; AllocateClosureStub
@@ -524,7 +524,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0x988890: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x988894: ldur            x2, [fp, #-0x98]
     // 0x988898: r1 = Function '<anonymous closure>':.
-    //     0x988898: add             x1, PP, #0x26, lsl #12  ; [pp+0x26bd8] AnonymousClosure: (0x988914), in [package:ballai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_load (0x98846c)
+    //     0x988898: add             x1, PP, #0x26, lsl #12  ; [pp+0x26bd8] AnonymousClosure: (0x988914), in [package:kourtai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_load (0x98846c)
     //     0x98889c: ldr             x1, [x1, #0xbd8]
     // 0x9888a0: r0 = AllocateClosure()
     //     0x9888a0: bl              #0xe553e0  ; AllocateClosureStub
@@ -568,7 +568,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0x9888f4: cmp             SP, x16
     //     0x9888f8: b.ls            #0x98890c
     // 0x9888fc: r0 = _load()
-    //     0x9888fc: bl              #0x98846c  ; [package:ballai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_load
+    //     0x9888fc: bl              #0x98846c  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_load
     // 0x988900: LeaveFrame
     //     0x988900: mov             SP, fp
     //     0x988904: ldp             fp, lr, [SP], #0x10
@@ -750,8 +750,8 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0xaa39d4: ldur            w1, [x0, #0xf]
     // 0xaa39d8: DecompressPointer r1
     //     0xaa39d8: add             x1, x1, HEAP, lsl #32
-    // 0xaa39dc: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xaa39dc: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xaa39dc: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xaa39dc: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xaa39e0: stur            x0, [fp, #-0x10]
     // 0xaa39e4: r0 = Scaffold()
     //     0xaa39e4: bl              #0x9cbb08  ; AllocateScaffoldStub -> Scaffold (size=0x50)
@@ -813,22 +813,22 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0xaa3a70: ldur            w1, [x0, #0xf]
     // 0xaa3a74: DecompressPointer r1
     //     0xaa3a74: add             x1, x1, HEAP, lsl #32
-    // 0xaa3a78: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xaa3a78: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xaa3a78: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xaa3a78: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xaa3a7c: ldur            x2, [fp, #-0x18]
     // 0xaa3a80: stur            x0, [fp, #-0x10]
     // 0xaa3a84: LoadField: r1 = r2->field_f
     //     0xaa3a84: ldur            w1, [x2, #0xf]
     // 0xaa3a88: DecompressPointer r1
     //     0xaa3a88: add             x1, x1, HEAP, lsl #32
-    // 0xaa3a8c: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xaa3a8c: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xaa3a8c: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xaa3a8c: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xaa3a90: r1 = "Team Invite"
     //     0xaa3a90: add             x1, PP, #0x26, lsl #12  ; [pp+0x26ac0] "Team Invite"
     //     0xaa3a94: ldr             x1, [x1, #0xac0]
     // 0xaa3a98: stur            x0, [fp, #-0x20]
     // 0xaa3a9c: r0 = L()
-    //     0xaa3a9c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa3a9c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa3aa0: stur            x0, [fp, #-0x28]
     // 0xaa3aa4: r0 = Text()
     //     0xaa3aa4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -888,7 +888,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0xaa3b44: stur            w0, [x3, #0xb]
     // 0xaa3b48: ldur            x2, [fp, #-8]
     // 0xaa3b4c: r1 = Function '_load@1109465135':.
-    //     0xaa3b4c: add             x1, PP, #0x26, lsl #12  ; [pp+0x26ae0] AnonymousClosure: (0x9888dc), in [package:ballai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_load (0x98846c)
+    //     0xaa3b4c: add             x1, PP, #0x26, lsl #12  ; [pp+0x26ae0] AnonymousClosure: (0x9888dc), in [package:kourtai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_load (0x98846c)
     //     0xaa3b50: ldr             x1, [x1, #0xae0]
     // 0xaa3b54: r0 = AllocateClosure()
     //     0xaa3b54: bl              #0xe553e0  ; AllocateClosureStub
@@ -944,22 +944,22 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0xaa3bdc: ldur            w1, [x2, #0xf]
     // 0xaa3be0: DecompressPointer r1
     //     0xaa3be0: add             x1, x1, HEAP, lsl #32
-    // 0xaa3be4: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xaa3be4: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xaa3be4: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xaa3be4: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xaa3be8: ldur            x2, [fp, #-0x18]
     // 0xaa3bec: stur            x0, [fp, #-0x10]
     // 0xaa3bf0: LoadField: r1 = r2->field_f
     //     0xaa3bf0: ldur            w1, [x2, #0xf]
     // 0xaa3bf4: DecompressPointer r1
     //     0xaa3bf4: add             x1, x1, HEAP, lsl #32
-    // 0xaa3bf8: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xaa3bf8: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xaa3bf8: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xaa3bf8: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xaa3bfc: r1 = "Team Invite"
     //     0xaa3bfc: add             x1, PP, #0x26, lsl #12  ; [pp+0x26ac0] "Team Invite"
     //     0xaa3c00: ldr             x1, [x1, #0xac0]
     // 0xaa3c04: stur            x0, [fp, #-0x20]
     // 0xaa3c08: r0 = L()
-    //     0xaa3c08: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa3c08: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa3c0c: stur            x0, [fp, #-0x28]
     // 0xaa3c10: r0 = Text()
     //     0xaa3c10: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1006,8 +1006,8 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0xaa3c84: ldur            w1, [x3, #0xf]
     // 0xaa3c88: DecompressPointer r1
     //     0xaa3c88: add             x1, x1, HEAP, lsl #32
-    // 0xaa3c8c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xaa3c8c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xaa3c8c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xaa3c8c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xaa3c90: stur            x0, [fp, #-0x30]
     // 0xaa3c94: r0 = TextStyle()
     //     0xaa3c94: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1043,15 +1043,15 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     // 0xaa3ce4: ldur            x1, [fp, #-8]
     // 0xaa3ce8: ldur            x2, [fp, #-0x38]
     // 0xaa3cec: r0 = _inviteSummaryText()
-    //     0xaa3cec: bl              #0xaa45d4  ; [package:ballai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_inviteSummaryText
+    //     0xaa3cec: bl              #0xaa45d4  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_inviteSummaryText
     // 0xaa3cf0: ldur            x2, [fp, #-0x18]
     // 0xaa3cf4: stur            x0, [fp, #-0x20]
     // 0xaa3cf8: LoadField: r1 = r2->field_f
     //     0xaa3cf8: ldur            w1, [x2, #0xf]
     // 0xaa3cfc: DecompressPointer r1
     //     0xaa3cfc: add             x1, x1, HEAP, lsl #32
-    // 0xaa3d00: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xaa3d00: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xaa3d00: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xaa3d00: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xaa3d04: stur            x0, [fp, #-0x38]
     // 0xaa3d08: r0 = TextStyle()
     //     0xaa3d08: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1181,8 +1181,8 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0xaa3e44: ldur            w1, [x4, #0xf]
     // 0xaa3e48: DecompressPointer r1
     //     0xaa3e48: add             x1, x1, HEAP, lsl #32
-    // 0xaa3e4c: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xaa3e4c: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xaa3e4c: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xaa3e4c: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xaa3e50: stur            x0, [fp, #-0x40]
     // 0xaa3e54: r0 = TextStyle()
     //     0xaa3e54: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1287,7 +1287,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     // 0xaa3f5c: b               #0xaa3f78
     // 0xaa3f60: mov             x2, x0
     // 0xaa3f64: r1 = Function '_accept@1109465135':.
-    //     0xaa3f64: add             x1, PP, #0x26, lsl #12  ; [pp+0x26ae8] AnonymousClosure: (0xaa4d08), in [package:ballai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_accept (0xaa4d40)
+    //     0xaa3f64: add             x1, PP, #0x26, lsl #12  ; [pp+0x26ae8] AnonymousClosure: (0xaa4d08), in [package:kourtai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_accept (0xaa4d40)
     //     0xaa3f68: ldr             x1, [x1, #0xae8]
     // 0xaa3f6c: r0 = AllocateClosure()
     //     0xaa3f6c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1299,8 +1299,8 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0xaa3f80: ldur            w1, [x0, #0xf]
     // 0xaa3f84: DecompressPointer r1
     //     0xaa3f84: add             x1, x1, HEAP, lsl #32
-    // 0xaa3f88: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xaa3f88: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xaa3f88: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xaa3f88: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xaa3f8c: r16 = Instance_Color
     //     0xaa3f8c: ldr             x16, [PP, #0x5140]  ; [pp+0x5140] Obj!Color@d28fc1
     // 0xaa3f90: stp             x16, x0, [SP, #8]
@@ -1353,7 +1353,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0xaa400c: add             x1, PP, #0x26, lsl #12  ; [pp+0x26b00] "Accept invite"
     //     0xaa4010: ldr             x1, [x1, #0xb00]
     // 0xaa4014: r0 = L()
-    //     0xaa4014: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa4014: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa4018: stur            x0, [fp, #-0x48]
     // 0xaa401c: r0 = TextStyle()
     //     0xaa401c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1431,7 +1431,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0xaa40d8: mov             x2, NULL
     // 0xaa40dc: b               #0xaa40f4
     // 0xaa40e0: r1 = Function '_decline@1109465135':.
-    //     0xaa40e0: add             x1, PP, #0x26, lsl #12  ; [pp+0x26b08] AnonymousClosure: (0xaa4860), in [package:ballai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_decline (0xaa4898)
+    //     0xaa40e0: add             x1, PP, #0x26, lsl #12  ; [pp+0x26b08] AnonymousClosure: (0xaa4860), in [package:kourtai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_decline (0xaa4898)
     //     0xaa40e4: ldr             x1, [x1, #0xb08]
     // 0xaa40e8: r0 = AllocateClosure()
     //     0xaa40e8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1453,7 +1453,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0xaa4118: ldr             x1, [x1, #0xb18]
     // 0xaa411c: stur            x0, [fp, #-0x40]
     // 0xaa4120: r0 = L()
-    //     0xaa4120: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa4120: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa4124: stur            x0, [fp, #-0x48]
     // 0xaa4128: r0 = TextStyle()
     //     0xaa4128: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1566,8 +1566,8 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0xaa424c: ldur            w1, [x0, #0xf]
     // 0xaa4250: DecompressPointer r1
     //     0xaa4250: add             x1, x1, HEAP, lsl #32
-    // 0xaa4254: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xaa4254: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xaa4254: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xaa4254: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xaa4258: r16 = Instance_Color
     //     0xaa4258: ldr             x16, [PP, #0x5140]  ; [pp+0x5140] Obj!Color@d28fc1
     // 0xaa425c: stp             x16, x0, [SP, #8]
@@ -1585,7 +1585,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0xaa427c: ldr             x1, [x1, #0xb20]
     // 0xaa4280: stur            x0, [fp, #-8]
     // 0xaa4284: r0 = L()
-    //     0xaa4284: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa4284: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa4288: stur            x0, [fp, #-0x20]
     // 0xaa428c: r0 = TextStyle()
     //     0xaa428c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1621,7 +1621,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0xaa42dc: stur            w0, [x3, #0x3b]
     // 0xaa42e0: ldur            x2, [fp, #-0x18]
     // 0xaa42e4: r1 = Function '<anonymous closure>':.
-    //     0xaa42e4: add             x1, PP, #0x26, lsl #12  ; [pp+0x26b28] AnonymousClosure: (0xaa4774), in [package:ballai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::build (0xaa3960)
+    //     0xaa42e4: add             x1, PP, #0x26, lsl #12  ; [pp+0x26b28] AnonymousClosure: (0xaa4774), in [package:kourtai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::build (0xaa3960)
     //     0xaa42e8: ldr             x1, [x1, #0xb28]
     // 0xaa42ec: r0 = AllocateClosure()
     //     0xaa42ec: bl              #0xe553e0  ; AllocateClosureStub
@@ -1696,7 +1696,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0xaa43ac: add             x1, PP, #0x26, lsl #12  ; [pp+0x26b30] "This invite is no longer available."
     //     0xaa43b0: ldr             x1, [x1, #0xb30]
     // 0xaa43b4: r0 = L()
-    //     0xaa43b4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa43b4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa43b8: mov             x2, x0
     // 0xaa43bc: ldur            x0, [fp, #-0x18]
     // 0xaa43c0: stur            x2, [fp, #-8]
@@ -1704,8 +1704,8 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0xaa43c4: ldur            w1, [x0, #0xf]
     // 0xaa43c8: DecompressPointer r1
     //     0xaa43c8: add             x1, x1, HEAP, lsl #32
-    // 0xaa43cc: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xaa43cc: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xaa43cc: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xaa43cc: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xaa43d0: stur            x0, [fp, #-0x18]
     // 0xaa43d4: r0 = TextStyle()
     //     0xaa43d4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2086,7 +2086,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0xaa47a8: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xaa47ac: ldur            x2, [fp, #-8]
     // 0xaa47b0: r1 = Function '<anonymous closure>':.
-    //     0xaa47b0: add             x1, PP, #0x26, lsl #12  ; [pp+0x26b38] AnonymousClosure: (0xaa4814), in [package:ballai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::build (0xaa3960)
+    //     0xaa47b0: add             x1, PP, #0x26, lsl #12  ; [pp+0x26b38] AnonymousClosure: (0xaa4814), in [package:kourtai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::build (0xaa3960)
     //     0xaa47b4: ldr             x1, [x1, #0xb38]
     // 0xaa47b8: stur            x0, [fp, #-8]
     // 0xaa47bc: r0 = AllocateClosure()
@@ -2174,7 +2174,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0xaa4878: cmp             SP, x16
     //     0xaa487c: b.ls            #0xaa4890
     // 0xaa4880: r0 = _decline()
-    //     0xaa4880: bl              #0xaa4898  ; [package:ballai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_decline
+    //     0xaa4880: bl              #0xaa4898  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_decline
     // 0xaa4884: LeaveFrame
     //     0xaa4884: mov             SP, fp
     //     0xaa4888: ldp             fp, lr, [SP], #0x10
@@ -2243,7 +2243,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     // 0xaa4928: b.ne            #0xaa4950
     // 0xaa492c: ldur            x2, [fp, #-0x80]
     // 0xaa4930: r1 = Function '<anonymous closure>':.
-    //     0xaa4930: add             x1, PP, #0x26, lsl #12  ; [pp+0x26b40] AnonymousClosure: (0xaa4ce4), in [package:ballai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_decline (0xaa4898)
+    //     0xaa4930: add             x1, PP, #0x26, lsl #12  ; [pp+0x26b40] AnonymousClosure: (0xaa4ce4), in [package:kourtai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_decline (0xaa4898)
     //     0xaa4934: ldr             x1, [x1, #0xb40]
     // 0xaa4938: r0 = AllocateClosure()
     //     0xaa4938: bl              #0xe553e0  ; AllocateClosureStub
@@ -2257,7 +2257,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0xaa494c: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xaa4950: ldur            x2, [fp, #-0x80]
     // 0xaa4954: r1 = Function '<anonymous closure>':.
-    //     0xaa4954: add             x1, PP, #0x26, lsl #12  ; [pp+0x26b48] AnonymousClosure: (0xaa4cbc), in [package:ballai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_decline (0xaa4898)
+    //     0xaa4954: add             x1, PP, #0x26, lsl #12  ; [pp+0x26b48] AnonymousClosure: (0xaa4cbc), in [package:kourtai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_decline (0xaa4898)
     //     0xaa4958: ldr             x1, [x1, #0xb48]
     // 0xaa495c: r0 = AllocateClosure()
     //     0xaa495c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2298,7 +2298,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     // 0xaa49c0: mov             x3, x5
     // 0xaa49c4: stur            x5, [fp, #-0x90]
     // 0xaa49c8: r0 = declinePendingInvite()
-    //     0xaa49c8: bl              #0xaa4a8c  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::declinePendingInvite
+    //     0xaa49c8: bl              #0xaa4a8c  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::declinePendingInvite
     // 0xaa49cc: mov             x1, x0
     // 0xaa49d0: stur            x1, [fp, #-0xa0]
     // 0xaa49d4: r0 = Await()
@@ -2316,7 +2316,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0xaa49f0: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xaa49f4: ldur            x2, [fp, #-0x80]
     // 0xaa49f8: r1 = Function '<anonymous closure>':.
-    //     0xaa49f8: add             x1, PP, #0x26, lsl #12  ; [pp+0x26b50] AnonymousClosure: (0xaa4c88), in [package:ballai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_decline (0xaa4898)
+    //     0xaa49f8: add             x1, PP, #0x26, lsl #12  ; [pp+0x26b50] AnonymousClosure: (0xaa4c88), in [package:kourtai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_decline (0xaa4898)
     //     0xaa49fc: ldr             x1, [x1, #0xb50]
     // 0xaa4a00: r0 = AllocateClosure()
     //     0xaa4a00: bl              #0xe553e0  ; AllocateClosureStub
@@ -2348,7 +2348,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     // 0xaa4a54: r0 = ReturnAsyncNotFuture()
     //     0xaa4a54: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xaa4a58: r1 = Function '<anonymous closure>':.
-    //     0xaa4a58: add             x1, PP, #0x26, lsl #12  ; [pp+0x26b58] AnonymousClosure: (0xaa4be4), in [package:ballai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_decline (0xaa4898)
+    //     0xaa4a58: add             x1, PP, #0x26, lsl #12  ; [pp+0x26b58] AnonymousClosure: (0xaa4be4), in [package:kourtai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_decline (0xaa4898)
     //     0xaa4a5c: ldr             x1, [x1, #0xb58]
     // 0xaa4a60: r0 = AllocateClosure()
     //     0xaa4a60: bl              #0xe553e0  ; AllocateClosureStub
@@ -2517,7 +2517,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0xaa4d20: cmp             SP, x16
     //     0xaa4d24: b.ls            #0xaa4d38
     // 0xaa4d28: r0 = _accept()
-    //     0xaa4d28: bl              #0xaa4d40  ; [package:ballai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_accept
+    //     0xaa4d28: bl              #0xaa4d40  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_accept
     // 0xaa4d2c: LeaveFrame
     //     0xaa4d2c: mov             SP, fp
     //     0xaa4d30: ldp             fp, lr, [SP], #0x10
@@ -2586,7 +2586,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     // 0xaa4dd0: b.ne            #0xaa4df8
     // 0xaa4dd4: ldur            x2, [fp, #-0x80]
     // 0xaa4dd8: r1 = Function '<anonymous closure>':.
-    //     0xaa4dd8: add             x1, PP, #0x26, lsl #12  ; [pp+0x26b88] AnonymousClosure: (0xaa5134), in [package:ballai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_accept (0xaa4d40)
+    //     0xaa4dd8: add             x1, PP, #0x26, lsl #12  ; [pp+0x26b88] AnonymousClosure: (0xaa5134), in [package:kourtai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_accept (0xaa4d40)
     //     0xaa4ddc: ldr             x1, [x1, #0xb88]
     // 0xaa4de0: r0 = AllocateClosure()
     //     0xaa4de0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2600,7 +2600,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0xaa4df4: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xaa4df8: ldur            x2, [fp, #-0x80]
     // 0xaa4dfc: r1 = Function '<anonymous closure>':.
-    //     0xaa4dfc: add             x1, PP, #0x26, lsl #12  ; [pp+0x26b90] AnonymousClosure: (0xaa4cbc), in [package:ballai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_decline (0xaa4898)
+    //     0xaa4dfc: add             x1, PP, #0x26, lsl #12  ; [pp+0x26b90] AnonymousClosure: (0xaa4cbc), in [package:kourtai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_decline (0xaa4898)
     //     0xaa4e00: ldr             x1, [x1, #0xb90]
     // 0xaa4e04: r0 = AllocateClosure()
     //     0xaa4e04: bl              #0xe553e0  ; AllocateClosureStub
@@ -2642,7 +2642,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     // 0xaa4e6c: mov             x3, x5
     // 0xaa4e70: stur            x5, [fp, #-0x90]
     // 0xaa4e74: r0 = acceptPendingInvite()
-    //     0xaa4e74: bl              #0xaa4f5c  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::acceptPendingInvite
+    //     0xaa4e74: bl              #0xaa4f5c  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::acceptPendingInvite
     // 0xaa4e78: mov             x1, x0
     // 0xaa4e7c: stur            x1, [fp, #-0xa0]
     // 0xaa4e80: r0 = Await()
@@ -2670,7 +2670,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     //     0xaa4ec0: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xaa4ec4: mov             x2, x3
     // 0xaa4ec8: r1 = Function '<anonymous closure>':.
-    //     0xaa4ec8: add             x1, PP, #0x26, lsl #12  ; [pp+0x26b98] AnonymousClosure: (0xaa503c), in [package:ballai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_accept (0xaa4d40)
+    //     0xaa4ec8: add             x1, PP, #0x26, lsl #12  ; [pp+0x26b98] AnonymousClosure: (0xaa503c), in [package:kourtai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_accept (0xaa4d40)
     //     0xaa4ecc: ldr             x1, [x1, #0xb98]
     // 0xaa4ed0: r0 = AllocateClosure()
     //     0xaa4ed0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2702,7 +2702,7 @@ class _TeamInviteNotificationDetailViewState extends State<dynamic> {
     // 0xaa4f24: r0 = ReturnAsyncNotFuture()
     //     0xaa4f24: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xaa4f28: r1 = Function '<anonymous closure>':.
-    //     0xaa4f28: add             x1, PP, #0x26, lsl #12  ; [pp+0x26ba0] AnonymousClosure: (0xaa4be4), in [package:ballai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_decline (0xaa4898)
+    //     0xaa4f28: add             x1, PP, #0x26, lsl #12  ; [pp+0x26ba0] AnonymousClosure: (0xaa4be4), in [package:kourtai/automatic/views/home/tab/tabs/you/root/team_invite_notification_detail_view.dart] _TeamInviteNotificationDetailViewState::_decline (0xaa4898)
     //     0xaa4f2c: ldr             x1, [x1, #0xba0]
     // 0xaa4f30: r0 = AllocateClosure()
     //     0xaa4f30: bl              #0xe553e0  ; AllocateClosureStub
@@ -2893,8 +2893,8 @@ class _UnavailableState extends StatelessWidget {
     //     0xc1c654: cmp             SP, x16
     //     0xc1c658: b.ls            #0xc1c8dc
     // 0xc1c65c: mov             x1, x0
-    // 0xc1c660: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc1c660: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc1c660: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc1c660: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc1c664: stur            x0, [fp, #-0x18]
     // 0xc1c668: r0 = Icon()
     //     0xc1c668: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -2926,11 +2926,11 @@ class _UnavailableState extends StatelessWidget {
     //     0xc1c6ac: add             x1, PP, #0x26, lsl #12  ; [pp+0x26be0] "Couldn’t open invite"
     //     0xc1c6b0: ldr             x1, [x1, #0xbe0]
     // 0xc1c6b4: r0 = L()
-    //     0xc1c6b4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1c6b4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1c6b8: ldur            x1, [fp, #-0x10]
     // 0xc1c6bc: stur            x0, [fp, #-0x28]
-    // 0xc1c6c0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc1c6c0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc1c6c0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc1c6c0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc1c6c4: stur            x0, [fp, #-0x30]
     // 0xc1c6c8: r0 = TextStyle()
     //     0xc1c6c8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2979,8 +2979,8 @@ class _UnavailableState extends StatelessWidget {
     //     0xc1c738: add             x3, x3, HEAP, lsl #32
     // 0xc1c73c: ldur            x1, [fp, #-0x10]
     // 0xc1c740: stur            x3, [fp, #-0x28]
-    // 0xc1c744: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc1c744: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc1c744: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc1c744: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc1c748: stur            x0, [fp, #-0x10]
     // 0xc1c74c: r0 = TextStyle()
     //     0xc1c74c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -3017,7 +3017,7 @@ class _UnavailableState extends StatelessWidget {
     //     0xc1c79c: add             x1, PP, #0x16, lsl #12  ; [pp+0x16aa0] "Try again"
     //     0xc1c7a0: ldr             x1, [x1, #0xaa0]
     // 0xc1c7a4: r0 = L()
-    //     0xc1c7a4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1c7a4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1c7a8: stur            x0, [fp, #-8]
     // 0xc1c7ac: r0 = Text()
     //     0xc1c7ac: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -3166,8 +3166,8 @@ class _CardShell extends StatelessWidget {
     //     0xc1c564: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xc1c568: cmp             SP, x16
     //     0xc1c56c: b.ls            #0xc1c62c
-    // 0xc1c570: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xc1c570: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xc1c570: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xc1c570: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xc1c574: stur            x0, [fp, #-0x10]
     // 0xc1c578: r0 = Radius()
     //     0xc1c578: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)

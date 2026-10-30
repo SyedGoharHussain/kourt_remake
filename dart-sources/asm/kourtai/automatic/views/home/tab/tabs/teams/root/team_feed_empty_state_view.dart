@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/root/team_feed_empty_state_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/root/team_feed_empty_state_view.dart
 
 // class id: 1048948, size: 0x8
 class :: {
@@ -61,11 +61,11 @@ class TeamFeedEmptyStateView extends StatelessWidget {
     //     0xbff608: add             x1, PP, #0x49, lsl #12  ; [pp+0x493a0] "No team workouts yet"
     //     0xbff60c: ldr             x1, [x1, #0x3a0]
     // 0xbff610: r0 = L()
-    //     0xbff610: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbff610: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbff614: ldur            x1, [fp, #-8]
     // 0xbff618: stur            x0, [fp, #-0x20]
-    // 0xbff61c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbff61c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbff61c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbff61c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbff620: stur            x0, [fp, #-0x28]
     // 0xbff624: r0 = TextStyle()
     //     0xbff624: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -111,11 +111,11 @@ class TeamFeedEmptyStateView extends StatelessWidget {
     //     0xbff68c: add             x1, PP, #0x49, lsl #12  ; [pp+0x493a8] "When your team starts logging workouts, they’ll show up here."
     //     0xbff690: ldr             x1, [x1, #0x3a8]
     // 0xbff694: r0 = L()
-    //     0xbff694: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbff694: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbff698: ldur            x1, [fp, #-8]
     // 0xbff69c: stur            x0, [fp, #-8]
-    // 0xbff6a0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbff6a0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbff6a0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbff6a0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbff6a4: stur            x0, [fp, #-0x30]
     // 0xbff6a8: r0 = TextStyle()
     //     0xbff6a8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)

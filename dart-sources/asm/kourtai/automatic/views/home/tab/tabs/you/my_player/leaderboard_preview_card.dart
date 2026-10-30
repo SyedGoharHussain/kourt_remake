@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart
 
 // class id: 1049022, size: 0x8
 class :: {
@@ -32,7 +32,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0x987c10: add             x3, x3, HEAP, lsl #32
     // 0x987c14: stur            x3, [fp, #-8]
     // 0x987c18: r1 = Function '_onBoard@1276402775':.
-    //     0x987c18: add             x1, PP, #0x53, lsl #12  ; [pp+0x53588] AnonymousClosure: (0x987c6c), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_onBoard (0x987ca4)
+    //     0x987c18: add             x1, PP, #0x53, lsl #12  ; [pp+0x53588] AnonymousClosure: (0x987c6c), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_onBoard (0x987ca4)
     //     0x987c1c: ldr             x1, [x1, #0x588]
     // 0x987c20: r0 = AllocateClosure()
     //     0x987c20: bl              #0xe553e0  ; AllocateClosureStub
@@ -68,7 +68,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0x987c84: cmp             SP, x16
     //     0x987c88: b.ls            #0x987c9c
     // 0x987c8c: r0 = _onBoard()
-    //     0x987c8c: bl              #0x987ca4  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_onBoard
+    //     0x987c8c: bl              #0x987ca4  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_onBoard
     // 0x987c90: LeaveFrame
     //     0x987c90: mov             SP, fp
     //     0x987c94: ldp             fp, lr, [SP], #0x10
@@ -139,7 +139,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xa9e7fc: stur            w0, [x1, #0xf]
     // 0xa9e800: mov             x2, x1
     // 0xa9e804: r1 = Function '<anonymous closure>':.
-    //     0xa9e804: add             x1, PP, #0x53, lsl #12  ; [pp+0x534e8] AnonymousClosure: (0xa9e838), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::build (0xa9e7dc)
+    //     0xa9e804: add             x1, PP, #0x53, lsl #12  ; [pp+0x534e8] AnonymousClosure: (0xa9e838), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::build (0xa9e7dc)
     //     0xa9e808: ldr             x1, [x1, #0x4e8]
     // 0xa9e80c: r0 = AllocateClosure()
     //     0xa9e80c: bl              #0xe553e0  ; AllocateClosureStub
@@ -213,7 +213,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xa9e8c0: stur            w0, [x3, #0x17]
     // 0xa9e8c4: ldur            x2, [fp, #-0x20]
     // 0xa9e8c8: r1 = Function '<anonymous closure>':.
-    //     0xa9e8c8: add             x1, PP, #0x53, lsl #12  ; [pp+0x534f0] AnonymousClosure: (0xaa06c0), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::build (0xa9e7dc)
+    //     0xa9e8c8: add             x1, PP, #0x53, lsl #12  ; [pp+0x534f0] AnonymousClosure: (0xaa06c0), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::build (0xa9e7dc)
     //     0xa9e8cc: ldr             x1, [x1, #0x4f0]
     // 0xa9e8d0: r0 = AllocateClosure()
     //     0xa9e8d0: bl              #0xe553e0  ; AllocateClosureStub
@@ -222,8 +222,8 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     // 0xa9e8dc: StoreField: r0->field_1b = r1
     //     0xa9e8dc: stur            w1, [x0, #0x1b]
     // 0xa9e8e0: ldr             x1, [fp, #0x20]
-    // 0xa9e8e4: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa9e8e4: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa9e8e4: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa9e8e4: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa9e8e8: r16 = 0.080000
     //     0xa9e8e8: add             x16, PP, #0x24, lsl #12  ; [pp+0x24f28] 0.08
     //     0xa9e8ec: ldr             x16, [x16, #0xf28]
@@ -254,7 +254,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     // 0xa9e930: ldr             x2, [fp, #0x18]
     // 0xa9e934: ldr             x3, [fp, #0x10]
     // 0xa9e938: r0 = _body()
-    //     0xa9e938: bl              #0xa9fc54  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_body
+    //     0xa9e938: bl              #0xa9fc54  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_body
     // 0xa9e93c: r1 = <FlexParentData>
     //     0xa9e93c: add             x1, PP, #0x18, lsl #12  ; [pp+0x183e0] TypeArguments: <FlexParentData>
     //     0xa9e940: ldr             x1, [x1, #0x3e0]
@@ -281,7 +281,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     // 0xa9e978: DecompressPointer r1
     //     0xa9e978: add             x1, x1, HEAP, lsl #32
     // 0xa9e97c: r0 = _displayedMyRank()
-    //     0xa9e97c: bl              #0xa9fa98  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_displayedMyRank
+    //     0xa9e97c: bl              #0xa9fa98  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_displayedMyRank
     // 0xa9e980: mov             x2, x0
     // 0xa9e984: ldur            x0, [fp, #-0x20]
     // 0xa9e988: stur            x2, [fp, #-0x40]
@@ -310,7 +310,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xa9e9bc: add             x5, x5, HEAP, lsl #32
     // 0xa9e9c0: stur            x5, [fp, #-8]
     // 0xa9e9c4: r0 = _myArchetypeName()
-    //     0xa9e9c4: bl              #0xa9f804  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_myArchetypeName
+    //     0xa9e9c4: bl              #0xa9f804  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_myArchetypeName
     // 0xa9e9c8: mov             x3, x0
     // 0xa9e9cc: ldur            x2, [fp, #-0x20]
     // 0xa9e9d0: stur            x3, [fp, #-0x48]
@@ -363,7 +363,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     // 0xa9ea54: DecompressPointer r1
     //     0xa9ea54: add             x1, x1, HEAP, lsl #32
     // 0xa9ea58: r0 = _viewerOverall()
-    //     0xa9ea58: bl              #0xa9f670  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_viewerOverall
+    //     0xa9ea58: bl              #0xa9f670  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_viewerOverall
     // 0xa9ea5c: stur            x0, [fp, #-0x10]
     // 0xa9ea60: r0 = OverallRing()
     //     0xa9ea60: bl              #0xa9f664  ; AllocateOverallRingStub -> OverallRing (size=0x28)
@@ -513,7 +513,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xa9ebc8: add             x0, x0, HEAP, lsl #32
     // 0xa9ebcc: tbnz            w0, #4, #0xa9ec54
     // 0xa9ebd0: r0 = _scopePicker()
-    //     0xa9ebd0: bl              #0xa9eca4  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_scopePicker
+    //     0xa9ebd0: bl              #0xa9eca4  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_scopePicker
     // 0xa9ebd4: mov             x2, x0
     // 0xa9ebd8: ldur            x0, [fp, #-8]
     // 0xa9ebdc: stur            x2, [fp, #-0x18]
@@ -625,8 +625,8 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xa9ece8: add             x1, x1, HEAP, lsl #32
     // 0xa9ecec: cmp             w1, NULL
     // 0xa9ecf0: b.eq            #0xa9f288
-    // 0xa9ecf4: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa9ecf4: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa9ecf4: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa9ecf4: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa9ecf8: stur            x0, [fp, #-0x18]
     // 0xa9ecfc: r16 = 0.180000
     //     0xa9ecfc: add             x16, PP, #0x2d, lsl #12  ; [pp+0x2dde0] 0.18
@@ -655,7 +655,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xa9ed3c: bl              #0x9dc8b8  ; AllocateGestureDetectorStub -> GestureDetector (size=0x10c)
     // 0xa9ed40: ldur            x2, [fp, #-0x10]
     // 0xa9ed44: r1 = Function '<anonymous closure>':.
-    //     0xa9ed44: add             x1, PP, #0x53, lsl #12  ; [pp+0x53508] AnonymousClosure: (0xa9f604), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_scopePicker (0xa9eca4)
+    //     0xa9ed44: add             x1, PP, #0x53, lsl #12  ; [pp+0x53508] AnonymousClosure: (0xa9f604), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_scopePicker (0xa9eca4)
     //     0xa9ed48: ldr             x1, [x1, #0x508]
     // 0xa9ed4c: stur            x0, [fp, #-0x20]
     // 0xa9ed50: r0 = AllocateClosure()
@@ -675,8 +675,8 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xa9ed74: add             x1, x1, HEAP, lsl #32
     // 0xa9ed78: cmp             w1, NULL
     // 0xa9ed7c: b.eq            #0xa9f28c
-    // 0xa9ed80: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xa9ed80: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xa9ed80: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xa9ed80: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xa9ed84: mov             x2, x0
     // 0xa9ed88: ldur            x0, [fp, #-8]
     // 0xa9ed8c: stur            x2, [fp, #-0x28]
@@ -687,7 +687,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     // 0xa9ed98: cmp             w1, NULL
     // 0xa9ed9c: b.eq            #0xa9f290
     // 0xa9eda0: r0 = systemBottomBarInset()
-    //     0xa9eda0: bl              #0xa9f2a8  ; [package:ballai/automatic/utility/ui/system_bottom_inset.dart] ::systemBottomBarInset
+    //     0xa9eda0: bl              #0xa9f2a8  ; [package:kourtai/automatic/utility/ui/system_bottom_inset.dart] ::systemBottomBarInset
     // 0xa9eda4: stur            d0, [fp, #-0x58]
     // 0xa9eda8: r0 = EdgeInsets()
     //     0xa9eda8: bl              #0x60095c  ; AllocateEdgeInsetsStub -> EdgeInsets (size=0x28)
@@ -705,7 +705,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xa9edc4: add             x1, PP, #0x47, lsl #12  ; [pp+0x47c70] "Sort leaderboard"
     //     0xa9edc8: ldr             x1, [x1, #0xc70]
     // 0xa9edcc: r0 = L()
-    //     0xa9edcc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa9edcc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa9edd0: mov             x2, x0
     // 0xa9edd4: ldur            x0, [fp, #-8]
     // 0xa9edd8: stur            x2, [fp, #-0x38]
@@ -715,8 +715,8 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xa9ede0: add             x1, x1, HEAP, lsl #32
     // 0xa9ede4: cmp             w1, NULL
     // 0xa9ede8: b.eq            #0xa9f294
-    // 0xa9edec: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa9edec: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa9edec: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa9edec: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa9edf0: stur            x0, [fp, #-0x40]
     // 0xa9edf4: r0 = TextStyle()
     //     0xa9edf4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -772,7 +772,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xa9ee74: add             x1, PP, #0x26, lsl #12  ; [pp+0x266c8] "Done"
     //     0xa9ee78: ldr             x1, [x1, #0x6c8]
     // 0xa9ee7c: r0 = L()
-    //     0xa9ee7c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa9ee7c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa9ee80: stur            x0, [fp, #-0x40]
     // 0xa9ee84: r0 = TextStyle()
     //     0xa9ee84: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -807,7 +807,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xa9eed0: stur            w0, [x3, #0x13]
     // 0xa9eed4: ldur            x2, [fp, #-0x10]
     // 0xa9eed8: r1 = Function '<anonymous closure>':.
-    //     0xa9eed8: add             x1, PP, #0x53, lsl #12  ; [pp+0x53510] AnonymousClosure: (0xa9f5a4), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_scopePicker (0xa9eca4)
+    //     0xa9eed8: add             x1, PP, #0x53, lsl #12  ; [pp+0x53510] AnonymousClosure: (0xa9f5a4), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_scopePicker (0xa9eca4)
     //     0xa9eedc: ldr             x1, [x1, #0x510]
     // 0xa9eee0: r0 = AllocateClosure()
     //     0xa9eee0: bl              #0xe553e0  ; AllocateClosureStub
@@ -914,8 +914,8 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xa9efdc: add             x1, x1, HEAP, lsl #32
     // 0xa9efe0: cmp             w1, NULL
     // 0xa9efe4: b.eq            #0xa9f298
-    // 0xa9efe8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa9efe8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa9efe8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa9efe8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa9efec: r16 = 0.080000
     //     0xa9efec: add             x16, PP, #0x24, lsl #12  ; [pp+0x24f28] 0.08
     //     0xa9eff0: ldr             x16, [x16, #0xf28]
@@ -964,7 +964,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xa9f060: stur            x0, [x3, #0x13]
     // 0xa9f064: ldur            x2, [fp, #-0x10]
     // 0xa9f068: r1 = Function '<anonymous closure>':.
-    //     0xa9f068: add             x1, PP, #0x53, lsl #12  ; [pp+0x53518] AnonymousClosure: (0xa9f488), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_scopePicker (0xa9eca4)
+    //     0xa9f068: add             x1, PP, #0x53, lsl #12  ; [pp+0x53518] AnonymousClosure: (0xa9f488), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_scopePicker (0xa9eca4)
     //     0xa9f06c: ldr             x1, [x1, #0x518]
     // 0xa9f070: r0 = AllocateClosure()
     //     0xa9f070: bl              #0xe553e0  ; AllocateClosureStub
@@ -974,7 +974,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xa9f07c: stur            w1, [x0, #0x1b]
     // 0xa9f080: ldur            x2, [fp, #-0x10]
     // 0xa9f084: r1 = Function '<anonymous closure>':.
-    //     0xa9f084: add             x1, PP, #0x53, lsl #12  ; [pp+0x53520] AnonymousClosure: (0xa9f30c), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_scopePicker (0xa9eca4)
+    //     0xa9f084: add             x1, PP, #0x53, lsl #12  ; [pp+0x53520] AnonymousClosure: (0xa9f30c), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_scopePicker (0xa9eca4)
     //     0xa9f088: ldr             x1, [x1, #0x520]
     // 0xa9f08c: r0 = AllocateClosure()
     //     0xa9f08c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1236,7 +1236,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     // 0xa9f370: mov             x1, x2
     // 0xa9f374: mov             x2, x0
     // 0xa9f378: r0 = _setScope()
-    //     0xa9f378: bl              #0xa9f398  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_setScope
+    //     0xa9f378: bl              #0xa9f398  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_setScope
     // 0xa9f37c: r0 = Null
     //     0xa9f37c: mov             x0, NULL
     // 0xa9f380: LeaveFrame
@@ -1291,7 +1291,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xa9f3f4: ret             
     // 0xa9f3f8: mov             x2, x3
     // 0xa9f3fc: r1 = Function '<anonymous closure>':.
-    //     0xa9f3fc: add             x1, PP, #0x53, lsl #12  ; [pp+0x53528] AnonymousClosure: (0x8e5cc8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
+    //     0xa9f3fc: add             x1, PP, #0x53, lsl #12  ; [pp+0x53528] AnonymousClosure: (0x8e5cc8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
     //     0xa9f400: ldr             x1, [x1, #0x528]
     // 0xa9f404: r0 = AllocateClosure()
     //     0xa9f404: bl              #0xe553e0  ; AllocateClosureStub
@@ -1334,7 +1334,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xa9f460: add             x4, PP, #0x53, lsl #12  ; [pp+0x53530] List(7) [0, 0x4, 0x1, 0x3, "archetypeId", 0x3, Null]
     //     0xa9f464: ldr             x4, [x4, #0x530]
     // 0xa9f468: r0 = listen()
-    //     0xa9f468: bl              #0x9011ec  ; [package:ballai/automatic/app/dependencies/handlers/my_player/overall_leaderboard.dart] OverallLeaderboardBoard::listen
+    //     0xa9f468: bl              #0x9011ec  ; [package:kourtai/automatic/app/dependencies/handlers/my_player/overall_leaderboard.dart] OverallLeaderboardBoard::listen
     // 0xa9f46c: r0 = Null
     //     0xa9f46c: mov             x0, NULL
     // 0xa9f470: LeaveFrame
@@ -1394,17 +1394,17 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xa9f4f8: add             x1, PP, #0x53, lsl #12  ; [pp+0x53538] "My Archetype"
     //     0xa9f4fc: ldr             x1, [x1, #0x538]
     // 0xa9f500: r0 = L()
-    //     0xa9f500: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa9f500: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa9f504: b               #0xa9f514
     // 0xa9f508: r1 = "All Archetypes"
     //     0xa9f508: add             x1, PP, #0x53, lsl #12  ; [pp+0x53540] "All Archetypes"
     //     0xa9f50c: ldr             x1, [x1, #0x540]
     // 0xa9f510: r0 = L()
-    //     0xa9f510: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa9f510: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa9f514: ldr             x1, [fp, #0x18]
     // 0xa9f518: stur            x0, [fp, #-8]
-    // 0xa9f51c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa9f51c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa9f51c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa9f51c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa9f520: stur            x0, [fp, #-0x10]
     // 0xa9f524: r0 = TextStyle()
     //     0xa9f524: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1479,7 +1479,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xa9f5cc: add             x0, x0, HEAP, lsl #32
     // 0xa9f5d0: stur            x0, [fp, #-8]
     // 0xa9f5d4: r1 = Function '<anonymous closure>':.
-    //     0xa9f5d4: add             x1, PP, #0x53, lsl #12  ; [pp+0x53548] AnonymousClosure: (0x8ef4b8), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
+    //     0xa9f5d4: add             x1, PP, #0x53, lsl #12  ; [pp+0x53548] AnonymousClosure: (0x8ef4b8), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
     //     0xa9f5d8: ldr             x1, [x1, #0x548]
     // 0xa9f5dc: r0 = AllocateClosure()
     //     0xa9f5dc: bl              #0xe553e0  ; AllocateClosureStub
@@ -1519,7 +1519,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xa9f62c: add             x0, x0, HEAP, lsl #32
     // 0xa9f630: stur            x0, [fp, #-8]
     // 0xa9f634: r1 = Function '<anonymous closure>':.
-    //     0xa9f634: add             x1, PP, #0x53, lsl #12  ; [pp+0x53550] AnonymousClosure: (0x8ef4b8), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
+    //     0xa9f634: add             x1, PP, #0x53, lsl #12  ; [pp+0x53550] AnonymousClosure: (0x8ef4b8), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
     //     0xa9f638: ldr             x1, [x1, #0x550]
     // 0xa9f63c: r0 = AllocateClosure()
     //     0xa9f63c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1662,7 +1662,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     // 0xa9f7c0: cmp             w1, NULL
     // 0xa9f7c4: b.eq            #0xa9f7d8
     // 0xa9f7c8: r0 = displayed()
-    //     0xa9f7c8: bl              #0x902614  ; [package:ballai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::displayed
+    //     0xa9f7c8: bl              #0x902614  ; [package:kourtai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::displayed
     // 0xa9f7cc: LeaveFrame
     //     0xa9f7cc: mov             SP, fp
     //     0xa9f7d0: ldp             fp, lr, [SP], #0x10
@@ -1815,7 +1815,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     // 0xa9f95c: DecompressPointer r1
     //     0xa9f95c: add             x1, x1, HEAP, lsl #32
     // 0xa9f960: r0 = nameForId()
-    //     0xa9f960: bl              #0xa9f998  ; [package:ballai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::nameForId
+    //     0xa9f960: bl              #0xa9f998  ; [package:kourtai/automatic/models/core/my_player/account_setup_archetype_resolver.dart] AccountSetupArchetypeResolver::nameForId
     // 0xa9f964: cmp             w0, NULL
     // 0xa9f968: b.ne            #0xa9f970
     // 0xa9f96c: r0 = ""
@@ -2086,7 +2086,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xa9fd34: add             x1, PP, #0x41, lsl #12  ; [pp+0x41630] "No players"
     //     0xa9fd38: ldr             x1, [x1, #0x630]
     // 0xa9fd3c: r0 = L()
-    //     0xa9fd3c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa9fd3c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa9fd40: mov             x2, x0
     // 0xa9fd44: ldur            x0, [fp, #-0x10]
     // 0xa9fd48: stur            x2, [fp, #-0x28]
@@ -2096,8 +2096,8 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xa9fd50: add             x1, x1, HEAP, lsl #32
     // 0xa9fd54: cmp             w1, NULL
     // 0xa9fd58: b.eq            #0xaa03d8
-    // 0xa9fd5c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa9fd5c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa9fd5c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa9fd5c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa9fd60: stur            x0, [fp, #-0x30]
     // 0xa9fd64: r0 = TextStyle()
     //     0xa9fd64: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2430,7 +2430,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     // 0xaa00f8: mov             x1, x0
     // 0xaa00fc: stur            x3, [fp, #-0x40]
     // 0xaa0100: r0 = _viewerOverall()
-    //     0xaa0100: bl              #0xa9f670  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_viewerOverall
+    //     0xaa0100: bl              #0xa9f670  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_viewerOverall
     // 0xaa0104: mov             x2, x0
     // 0xaa0108: r0 = BoxInt64Instr(r2)
     //     0xaa0108: sbfiz           x0, x2, #1, #0x1f
@@ -2444,7 +2444,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     // 0xaa0124: ldur            x1, [fp, #-0x10]
     // 0xaa0128: stur            x0, [fp, #-0x48]
     // 0xaa012c: r0 = _viewerOverall()
-    //     0xaa012c: bl              #0xa9f670  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_viewerOverall
+    //     0xaa012c: bl              #0xa9f670  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_viewerOverall
     // 0xaa0130: stur            x0, [fp, #-0x58]
     // 0xaa0134: r0 = LeaderboardPodiumEntry()
     //     0xaa0134: bl              #0x5f06d4  ; AllocateLeaderboardPodiumEntryStub -> LeaderboardPodiumEntry (size=0x28)
@@ -2481,7 +2481,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     // 0xaa018c: DecompressPointer r1
     //     0xaa018c: add             x1, x1, HEAP, lsl #32
     // 0xaa0190: r0 = overallLeaderboardListEntries()
-    //     0xaa0190: bl              #0xaa0610  ; [package:ballai/automatic/app/dependencies/handlers/my_player/overall_leaderboard.dart] ::overallLeaderboardListEntries
+    //     0xaa0190: bl              #0xaa0610  ; [package:kourtai/automatic/app/dependencies/handlers/my_player/overall_leaderboard.dart] ::overallLeaderboardListEntries
     // 0xaa0194: stur            x0, [fp, #-8]
     // 0xaa0198: r0 = LeaderboardPodium()
     //     0xaa0198: bl              #0x5edca8  ; AllocateLeaderboardPodiumStub -> LeaderboardPodium (size=0x28)
@@ -2576,7 +2576,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     // 0xaa027c: mov             x1, x5
     // 0xaa0280: ldur            x3, [fp, #-0x20]
     // 0xaa0284: r0 = _playerRow()
-    //     0xaa0284: bl              #0xaa03f8  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_playerRow
+    //     0xaa0284: bl              #0xaa03f8  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_playerRow
     // 0xaa0288: mov             x2, x0
     // 0xaa028c: ldur            x0, [fp, #-0x10]
     // 0xaa0290: stur            x2, [fp, #-0x30]
@@ -2586,8 +2586,8 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xaa0298: add             x1, x1, HEAP, lsl #32
     // 0xaa029c: cmp             w1, NULL
     // 0xaa02a0: b.eq            #0xaa03f4
-    // 0xaa02a4: r0 = BallAiThemeContext.ballAi()
-    //     0xaa02a4: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xaa02a4: r0 = KourtAiThemeContext.kourtAi()
+    //     0xaa02a4: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xaa02a8: ArrayLoad: r1 = r0[0]  ; List_4
     //     0xaa02a8: ldur            w1, [x0, #0x17]
     // 0xaa02ac: DecompressPointer r1
@@ -2777,7 +2777,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     // 0xaa0488: b               #0xaa04a0
     // 0xaa048c: ldur            x2, [fp, #-0x20]
     // 0xaa0490: r1 = Function '<anonymous closure>':.
-    //     0xaa0490: add             x1, PP, #0x53, lsl #12  ; [pp+0x53570] AnonymousClosure: (0xaa059c), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_playerRow (0xaa03f8)
+    //     0xaa0490: add             x1, PP, #0x53, lsl #12  ; [pp+0x53570] AnonymousClosure: (0xaa059c), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_playerRow (0xaa03f8)
     //     0xaa0494: ldr             x1, [x1, #0x570]
     // 0xaa0498: r0 = AllocateClosure()
     //     0xaa0498: bl              #0xe553e0  ; AllocateClosureStub
@@ -2955,7 +2955,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xaa06e8: add             x0, x0, HEAP, lsl #32
     // 0xaa06ec: stur            x0, [fp, #-8]
     // 0xaa06f0: r1 = Function '<anonymous closure>':.
-    //     0xaa06f0: add             x1, PP, #0x53, lsl #12  ; [pp+0x534f8] AnonymousClosure: (0x900cc0), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
+    //     0xaa06f0: add             x1, PP, #0x53, lsl #12  ; [pp+0x534f8] AnonymousClosure: (0x900cc0), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
     //     0xaa06f4: ldr             x1, [x1, #0x4f8]
     // 0xaa06f8: r0 = AllocateClosure()
     //     0xaa06f8: bl              #0xe553e0  ; AllocateClosureStub
@@ -2981,7 +2981,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xb5c174: mov             fp, SP
     // 0xb5c178: ldr             x2, [fp, #0x10]
     // 0xb5c17c: r1 = Function 'dispose':.
-    //     0xb5c17c: add             x1, PP, #0x53, lsl #12  ; [pp+0x534e0] AnonymousClosure: (0xb5c194), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::dispose (0xb63470)
+    //     0xb5c17c: add             x1, PP, #0x53, lsl #12  ; [pp+0x534e0] AnonymousClosure: (0xb5c194), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::dispose (0xb63470)
     //     0xb5c180: ldr             x1, [x1, #0x4e0]
     // 0xb5c184: r0 = AllocateClosure()
     //     0xb5c184: bl              #0xe553e0  ; AllocateClosureStub
@@ -3006,7 +3006,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xb5c1ac: cmp             SP, x16
     //     0xb5c1b0: b.ls            #0xb5c1c4
     // 0xb5c1b4: r0 = dispose()
-    //     0xb5c1b4: bl              #0xb63470  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::dispose
+    //     0xb5c1b4: bl              #0xb63470  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::dispose
     // 0xb5c1b8: LeaveFrame
     //     0xb5c1b8: mov             SP, fp
     //     0xb5c1bc: ldp             fp, lr, [SP], #0x10
@@ -3041,7 +3041,7 @@ class _OverallLeaderboardSheetState extends State<dynamic> {
     //     0xb634a0: add             x3, x3, HEAP, lsl #32
     // 0xb634a4: stur            x3, [fp, #-8]
     // 0xb634a8: r1 = Function '_onBoard@1276402775':.
-    //     0xb634a8: add             x1, PP, #0x53, lsl #12  ; [pp+0x53588] AnonymousClosure: (0x987c6c), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_onBoard (0x987ca4)
+    //     0xb634a8: add             x1, PP, #0x53, lsl #12  ; [pp+0x53588] AnonymousClosure: (0x987c6c), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _OverallLeaderboardSheetState::_onBoard (0x987ca4)
     //     0xb634ac: ldr             x1, [x1, #0x588]
     // 0xb634b0: r0 = AllocateClosure()
     //     0xb634b0: bl              #0xe553e0  ; AllocateClosureStub
@@ -3191,7 +3191,7 @@ class _LeaderboardPreviewCardState extends State<dynamic> {
     // 0x901184: r4 = const [0, 0x3, 0, 0x3, null]
     //     0x901184: ldr             x4, [PP, #0x8a0]  ; [pp+0x8a0] List(5) [0, 0x3, 0, 0x3, Null]
     // 0x901188: r0 = listen()
-    //     0x901188: bl              #0x9011ec  ; [package:ballai/automatic/app/dependencies/handlers/my_player/overall_leaderboard.dart] OverallLeaderboardBoard::listen
+    //     0x901188: bl              #0x9011ec  ; [package:kourtai/automatic/app/dependencies/handlers/my_player/overall_leaderboard.dart] OverallLeaderboardBoard::listen
     // 0x90118c: r0 = Null
     //     0x90118c: mov             x0, NULL
     // 0x901190: LeaveFrame
@@ -3261,7 +3261,7 @@ class _LeaderboardPreviewCardState extends State<dynamic> {
     // 0x987998: mov             x1, x0
     // 0x98799c: stur            x0, [fp, #-0x10]
     // 0x9879a0: r0 = OverallLeaderboardBoard()
-    //     0x9879a0: bl              #0x987a6c  ; [package:ballai/automatic/app/dependencies/handlers/my_player/overall_leaderboard.dart] OverallLeaderboardBoard::OverallLeaderboardBoard
+    //     0x9879a0: bl              #0x987a6c  ; [package:kourtai/automatic/app/dependencies/handlers/my_player/overall_leaderboard.dart] OverallLeaderboardBoard::OverallLeaderboardBoard
     // 0x9879a4: ldur            x0, [fp, #-0x10]
     // 0x9879a8: ldur            x3, [fp, #-8]
     // 0x9879ac: StoreField: r3->field_13 = r0
@@ -3280,7 +3280,7 @@ class _LeaderboardPreviewCardState extends State<dynamic> {
     // 0x9879d4: b.eq            #0x987a60
     // 0x9879d8: mov             x2, x3
     // 0x9879dc: r1 = Function '_onBoard@1276402775':.
-    //     0x9879dc: add             x1, PP, #0x48, lsl #12  ; [pp+0x48f88] AnonymousClosure: (0x987b44), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::_onBoard (0x987b7c)
+    //     0x9879dc: add             x1, PP, #0x48, lsl #12  ; [pp+0x48f88] AnonymousClosure: (0x987b44), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::_onBoard (0x987b7c)
     //     0x9879e0: ldr             x1, [x1, #0xf88]
     // 0x9879e4: r0 = AllocateClosure()
     //     0x9879e4: bl              #0xe553e0  ; AllocateClosureStub
@@ -3318,7 +3318,7 @@ class _LeaderboardPreviewCardState extends State<dynamic> {
     // 0x987a3c: r4 = const [0, 0x3, 0, 0x3, null]
     //     0x987a3c: ldr             x4, [PP, #0x8a0]  ; [pp+0x8a0] List(5) [0, 0x3, 0, 0x3, Null]
     // 0x987a40: r0 = listen()
-    //     0x987a40: bl              #0x9011ec  ; [package:ballai/automatic/app/dependencies/handlers/my_player/overall_leaderboard.dart] OverallLeaderboardBoard::listen
+    //     0x987a40: bl              #0x9011ec  ; [package:kourtai/automatic/app/dependencies/handlers/my_player/overall_leaderboard.dart] OverallLeaderboardBoard::listen
     // 0x987a44: r0 = Null
     //     0x987a44: mov             x0, NULL
     // 0x987a48: LeaveFrame
@@ -3353,7 +3353,7 @@ class _LeaderboardPreviewCardState extends State<dynamic> {
     //     0x987b5c: cmp             SP, x16
     //     0x987b60: b.ls            #0x987b74
     // 0x987b64: r0 = _onBoard()
-    //     0x987b64: bl              #0x987b7c  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::_onBoard
+    //     0x987b64: bl              #0x987b7c  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::_onBoard
     // 0x987b68: LeaveFrame
     //     0x987b68: mov             SP, fp
     //     0x987b6c: ldp             fp, lr, [SP], #0x10
@@ -3437,11 +3437,11 @@ class _LeaderboardPreviewCardState extends State<dynamic> {
     //     0xa9dccc: add             x1, PP, #0x48, lsl #12  ; [pp+0x48f50] "Global leaderboard"
     //     0xa9dcd0: ldr             x1, [x1, #0xf50]
     // 0xa9dcd4: r0 = L()
-    //     0xa9dcd4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa9dcd4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa9dcd8: ldur            x1, [fp, #-0x10]
     // 0xa9dcdc: stur            x0, [fp, #-0x20]
-    // 0xa9dce0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa9dce0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa9dce0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa9dce0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa9dce4: stur            x0, [fp, #-0x28]
     // 0xa9dce8: r0 = TextStyle()
     //     0xa9dce8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -3503,8 +3503,8 @@ class _LeaderboardPreviewCardState extends State<dynamic> {
     // 0xa9dd78: StoreField: r2->field_b = r0
     //     0xa9dd78: stur            w0, [x2, #0xb]
     // 0xa9dd7c: ldur            x1, [fp, #-0x10]
-    // 0xa9dd80: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa9dd80: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa9dd80: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa9dd80: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa9dd84: r16 = 0.450000
     //     0xa9dd84: add             x16, PP, #0x20, lsl #12  ; [pp+0x20e20] 0.45
     //     0xa9dd88: ldr             x16, [x16, #0xe20]
@@ -3605,11 +3605,11 @@ class _LeaderboardPreviewCardState extends State<dynamic> {
     //     0xa9de78: stur            w1, [x2, #0xb]
     // 0xa9de7c: ldur            x1, [fp, #-8]
     // 0xa9de80: r0 = _podiumEntries()
-    //     0xa9de80: bl              #0xa9e35c  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::_podiumEntries
+    //     0xa9de80: bl              #0xa9e35c  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::_podiumEntries
     // 0xa9de84: ldur            x1, [fp, #-8]
     // 0xa9de88: stur            x0, [fp, #-0x20]
     // 0xa9de8c: r0 = _viewer()
-    //     0xa9de8c: bl              #0xa9e0b8  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::_viewer
+    //     0xa9de8c: bl              #0xa9e0b8  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::_viewer
     // 0xa9de90: ldur            x1, [fp, #-8]
     // 0xa9de94: stur            x0, [fp, #-0x28]
     // 0xa9de98: LoadField: r2 = r1->field_b
@@ -3630,7 +3630,7 @@ class _LeaderboardPreviewCardState extends State<dynamic> {
     //     0xa9debc: add             x3, x3, HEAP, lsl #32
     // 0xa9dec0: tbnz            w3, #4, #0xa9def0
     // 0xa9dec4: r0 = _board()
-    //     0xa9dec4: bl              #0x9011b0  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::_board
+    //     0xa9dec4: bl              #0x9011b0  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::_board
     // 0xa9dec8: LoadField: r1 = r0->field_27
     //     0xa9dec8: ldur            w1, [x0, #0x27]
     // 0xa9decc: DecompressPointer r1
@@ -3761,7 +3761,7 @@ class _LeaderboardPreviewCardState extends State<dynamic> {
     //     0xa9e00c: stur            w0, [x3, #0xb]
     // 0xa9e010: ldur            x2, [fp, #-0x18]
     // 0xa9e014: r1 = Function '<anonymous closure>':.
-    //     0xa9e014: add             x1, PP, #0x48, lsl #12  ; [pp+0x48f60] AnonymousClosure: (0xa9e5e4), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::build (0xa9dc84)
+    //     0xa9e014: add             x1, PP, #0x48, lsl #12  ; [pp+0x48f60] AnonymousClosure: (0xa9e5e4), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::build (0xa9dc84)
     //     0xa9e018: ldr             x1, [x1, #0xf60]
     // 0xa9e01c: r0 = AllocateClosure()
     //     0xa9e01c: bl              #0xe553e0  ; AllocateClosureStub
@@ -3788,8 +3788,8 @@ class _LeaderboardPreviewCardState extends State<dynamic> {
     //     0xa9e04c: stur            w1, [x0, #0x83]
     // 0xa9e050: StoreField: r0->field_7b = r2
     //     0xa9e050: stur            w2, [x0, #0x7b]
-    // 0xa9e054: r0 = BallAiLiquidGlassCard()
-    //     0xa9e054: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xa9e054: r0 = KourtAiLiquidGlassCard()
+    //     0xa9e054: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xa9e058: mov             x1, x0
     // 0xa9e05c: ldur            x0, [fp, #-0x10]
     // 0xa9e060: stur            x1, [fp, #-8]
@@ -3887,7 +3887,7 @@ class _LeaderboardPreviewCardState extends State<dynamic> {
     // 0xa9e13c: mov             x1, x0
     // 0xa9e140: stur            x5, [fp, #-8]
     // 0xa9e144: r0 = _viewerOverall()
-    //     0xa9e144: bl              #0xa9e1c8  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::_viewerOverall
+    //     0xa9e144: bl              #0xa9e1c8  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::_viewerOverall
     // 0xa9e148: mov             x2, x0
     // 0xa9e14c: r0 = BoxInt64Instr(r2)
     //     0xa9e14c: sbfiz           x0, x2, #1, #0x1f
@@ -3901,7 +3901,7 @@ class _LeaderboardPreviewCardState extends State<dynamic> {
     // 0xa9e168: ldur            x1, [fp, #-0x20]
     // 0xa9e16c: stur            x0, [fp, #-0x20]
     // 0xa9e170: r0 = _viewerOverall()
-    //     0xa9e170: bl              #0xa9e1c8  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::_viewerOverall
+    //     0xa9e170: bl              #0xa9e1c8  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::_viewerOverall
     // 0xa9e174: stur            x0, [fp, #-0x28]
     // 0xa9e178: r0 = LeaderboardPodiumEntry()
     //     0xa9e178: bl              #0x5f06d4  ; AllocateLeaderboardPodiumEntryStub -> LeaderboardPodiumEntry (size=0x28)
@@ -4060,7 +4060,7 @@ class _LeaderboardPreviewCardState extends State<dynamic> {
     // 0xa9e314: cmp             w1, NULL
     // 0xa9e318: b.eq            #0xa9e32c
     // 0xa9e31c: r0 = displayed()
-    //     0xa9e31c: bl              #0x902614  ; [package:ballai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::displayed
+    //     0xa9e31c: bl              #0x902614  ; [package:kourtai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::displayed
     // 0xa9e320: LeaveFrame
     //     0xa9e320: mov             SP, fp
     //     0xa9e324: ldp             fp, lr, [SP], #0x10
@@ -4341,7 +4341,7 @@ class _LeaderboardPreviewCardState extends State<dynamic> {
     //     0xa9e610: add             x2, x2, HEAP, lsl #32
     // 0xa9e614: mov             x1, x0
     // 0xa9e618: r0 = _openBoard()
-    //     0xa9e618: bl              #0xa9e634  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::_openBoard
+    //     0xa9e618: bl              #0xa9e634  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::_openBoard
     // 0xa9e61c: r0 = Null
     //     0xa9e61c: mov             x0, NULL
     // 0xa9e620: LeaveFrame
@@ -4380,7 +4380,7 @@ class _LeaderboardPreviewCardState extends State<dynamic> {
     //     0xa9e66c: stur            w0, [x1, #0x13]
     // 0xa9e670: mov             x2, x1
     // 0xa9e674: r1 = Function '<anonymous closure>':.
-    //     0xa9e674: add             x1, PP, #0x48, lsl #12  ; [pp+0x48f70] AnonymousClosure: (0xa9e6a8), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::_openBoard (0xa9e634)
+    //     0xa9e674: add             x1, PP, #0x48, lsl #12  ; [pp+0x48f70] AnonymousClosure: (0xa9e6a8), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::_openBoard (0xa9e634)
     //     0xa9e678: ldr             x1, [x1, #0xf70]
     // 0xa9e67c: r0 = AllocateClosure()
     //     0xa9e67c: bl              #0xe553e0  ; AllocateClosureStub
@@ -4390,7 +4390,7 @@ class _LeaderboardPreviewCardState extends State<dynamic> {
     // 0xa9e688: r4 = const [0x1, 0x1, 0x1, 0x1, null]
     //     0xa9e688: ldr             x4, [PP, #0x1048]  ; [pp+0x1048] List(5) [0x1, 0x1, 0x1, 0x1, Null]
     // 0xa9e68c: r0 = withHidden()
-    //     0xa9e68c: bl              #0x8e7e18  ; [package:ballai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::withHidden
+    //     0xa9e68c: bl              #0x8e7e18  ; [package:kourtai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::withHidden
     // 0xa9e690: r0 = Null
     //     0xa9e690: mov             x0, NULL
     // 0xa9e694: LeaveFrame
@@ -4436,7 +4436,7 @@ class _LeaderboardPreviewCardState extends State<dynamic> {
     //     0xa9e6f4: bl              #0xd9bb78  ; [dart:ui] Color::withValues
     // 0xa9e6f8: ldur            x2, [fp, #-0x10]
     // 0xa9e6fc: r1 = Function '<anonymous closure>':.
-    //     0xa9e6fc: add             x1, PP, #0x48, lsl #12  ; [pp+0x48f78] AnonymousClosure: (0xa9e758), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::_openBoard (0xa9e634)
+    //     0xa9e6fc: add             x1, PP, #0x48, lsl #12  ; [pp+0x48f78] AnonymousClosure: (0xa9e758), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::_openBoard (0xa9e634)
     //     0xa9e700: ldr             x1, [x1, #0xf78]
     // 0xa9e704: stur            x0, [fp, #-0x10]
     // 0xa9e708: r0 = AllocateClosure()
@@ -4528,7 +4528,7 @@ class _LeaderboardPreviewCardState extends State<dynamic> {
     //     0xb5c118: mov             fp, SP
     // 0xb5c11c: ldr             x2, [fp, #0x10]
     // 0xb5c120: r1 = Function 'dispose':.
-    //     0xb5c120: add             x1, PP, #0x48, lsl #12  ; [pp+0x48f48] AnonymousClosure: (0xb5c138), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::dispose (0xb633d8)
+    //     0xb5c120: add             x1, PP, #0x48, lsl #12  ; [pp+0x48f48] AnonymousClosure: (0xb5c138), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::dispose (0xb633d8)
     //     0xb5c124: ldr             x1, [x1, #0xf48]
     // 0xb5c128: r0 = AllocateClosure()
     //     0xb5c128: bl              #0xe553e0  ; AllocateClosureStub
@@ -4553,7 +4553,7 @@ class _LeaderboardPreviewCardState extends State<dynamic> {
     //     0xb5c150: cmp             SP, x16
     //     0xb5c154: b.ls            #0xb5c168
     // 0xb5c158: r0 = dispose()
-    //     0xb5c158: bl              #0xb633d8  ; [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::dispose
+    //     0xb5c158: bl              #0xb633d8  ; [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::dispose
     // 0xb5c15c: LeaveFrame
     //     0xb5c15c: mov             SP, fp
     //     0xb5c160: ldp             fp, lr, [SP], #0x10
@@ -4592,7 +4592,7 @@ class _LeaderboardPreviewCardState extends State<dynamic> {
     // 0xb63418: b.eq            #0xb6346c
     // 0xb6341c: mov             x2, x0
     // 0xb63420: r1 = Function '_onBoard@1276402775':.
-    //     0xb63420: add             x1, PP, #0x48, lsl #12  ; [pp+0x48f88] AnonymousClosure: (0x987b44), in [package:ballai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::_onBoard (0x987b7c)
+    //     0xb63420: add             x1, PP, #0x48, lsl #12  ; [pp+0x48f88] AnonymousClosure: (0x987b44), in [package:kourtai/automatic/views/home/tab/tabs/you/my_player/leaderboard_preview_card.dart] _LeaderboardPreviewCardState::_onBoard (0x987b7c)
     //     0xb63424: ldr             x1, [x1, #0xf88]
     // 0xb63428: r0 = AllocateClosure()
     //     0xb63428: bl              #0xe553e0  ; AllocateClosureStub
@@ -4608,7 +4608,7 @@ class _LeaderboardPreviewCardState extends State<dynamic> {
     // 0xb63444: cmp             w1, NULL
     // 0xb63448: b.eq            #0xb63450
     // 0xb6344c: r0 = dispose()
-    //     0xb6344c: bl              #0x9ba888  ; [package:ballai/automatic/app/dependencies/handlers/my_player/overall_leaderboard.dart] OverallLeaderboardBoard::dispose
+    //     0xb6344c: bl              #0x9ba888  ; [package:kourtai/automatic/app/dependencies/handlers/my_player/overall_leaderboard.dart] OverallLeaderboardBoard::dispose
     // 0xb63450: r0 = Null
     //     0xb63450: mov             x0, NULL
     // 0xb63454: LeaveFrame
@@ -4714,14 +4714,14 @@ class _Header extends StatelessWidget {
     //     0xc18910: add             x1, PP, #0x53, lsl #12  ; [pp+0x53538] "My Archetype"
     //     0xc18914: ldr             x1, [x1, #0x538]
     // 0xc18918: r0 = L()
-    //     0xc18918: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc18918: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc1891c: mov             x2, x0
     // 0xc18920: b               #0xc18934
     // 0xc18924: r1 = "All Archetypes"
     //     0xc18924: add             x1, PP, #0x53, lsl #12  ; [pp+0x53540] "All Archetypes"
     //     0xc18928: ldr             x1, [x1, #0x540]
     // 0xc1892c: r0 = L()
-    //     0xc1892c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1892c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc18930: mov             x2, x0
     // 0xc18934: ldur            x0, [fp, #-8]
     // 0xc18938: stur            x2, [fp, #-0x20]
@@ -4731,8 +4731,8 @@ class _Header extends StatelessWidget {
     //     0xc18940: add             x3, x3, HEAP, lsl #32
     // 0xc18944: ldur            x1, [fp, #-0x10]
     // 0xc18948: stur            x3, [fp, #-0x18]
-    // 0xc1894c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc1894c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc1894c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc1894c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc18950: stur            x0, [fp, #-0x28]
     // 0xc18954: r0 = TextStyle()
     //     0xc18954: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -4770,8 +4770,8 @@ class _Header extends StatelessWidget {
     // 0xc189a8: StoreField: r2->field_37 = r0
     //     0xc189a8: stur            w0, [x2, #0x37]
     // 0xc189ac: ldur            x1, [fp, #-0x10]
-    // 0xc189b0: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc189b0: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc189b0: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc189b0: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc189b4: stur            x0, [fp, #-0x20]
     // 0xc189b8: r0 = Icon()
     //     0xc189b8: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -4834,8 +4834,8 @@ class _Header extends StatelessWidget {
     //     0xc18a48: add             x1, x1, HEAP, lsl #32
     // 0xc18a4c: tbnz            w1, #4, #0xc18b84
     // 0xc18a50: ldur            x1, [fp, #-0x10]
-    // 0xc18a54: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc18a54: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc18a54: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc18a54: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc18a58: r16 = 0.080000
     //     0xc18a58: add             x16, PP, #0x24, lsl #12  ; [pp+0x24f28] 0.08
     //     0xc18a5c: ldr             x16, [x16, #0xf28]
@@ -4983,11 +4983,11 @@ class _Header extends StatelessWidget {
     //     0xc18be4: add             x1, PP, #0x34, lsl #12  ; [pp+0x34d80] "%@ players"
     //     0xc18be8: ldr             x1, [x1, #0xd80]
     // 0xc18bec: r0 = LF()
-    //     0xc18bec: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xc18bec: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xc18bf0: ldur            x1, [fp, #-0x10]
     // 0xc18bf4: stur            x0, [fp, #-8]
-    // 0xc18bf8: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc18bf8: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc18bf8: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc18bf8: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc18bfc: stur            x0, [fp, #-0x10]
     // 0xc18c00: r0 = TextStyle()
     //     0xc18c00: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)

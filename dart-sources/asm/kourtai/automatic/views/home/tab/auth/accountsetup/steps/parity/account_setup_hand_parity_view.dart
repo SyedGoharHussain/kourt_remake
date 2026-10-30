@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_hand_parity_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_hand_parity_view.dart
 
 // class id: 1048842, size: 0x8
 class :: {
@@ -25,8 +25,8 @@ class _HandTile extends StatelessWidget {
     //     0xbcbab8: cmp             SP, x16
     //     0xbcbabc: b.ls            #0xbcc364
     // 0xbcbac0: mov             x1, x0
-    // 0xbcbac4: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbcbac4: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbcbac4: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbcbac4: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbcbac8: mov             x2, x0
     // 0xbcbacc: ldur            x0, [fp, #-8]
     // 0xbcbad0: stur            x2, [fp, #-0x20]
@@ -39,8 +39,8 @@ class _HandTile extends StatelessWidget {
     // 0xbcbae4: mov             x1, x3
     // 0xbcbae8: b               #0xbcbb1c
     // 0xbcbaec: ldur            x1, [fp, #-0x10]
-    // 0xbcbaf0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbcbaf0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbcbaf0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbcbaf0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbcbaf4: r16 = 0.720000
     //     0xbcbaf4: add             x16, PP, #0x2c, lsl #12  ; [pp+0x2cb08] 0.72
     //     0xbcbaf8: ldr             x16, [x16, #0xb08]
@@ -370,8 +370,8 @@ class _HandTile extends StatelessWidget {
     // 0xbcbe68: mov             x0, x6
     // 0xbcbe6c: b               #0xbcbe80
     // 0xbcbe70: ldur            x1, [fp, #-0x10]
-    // 0xbcbe74: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbcbe74: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbcbe74: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbcbe74: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbcbe78: mov             x1, x0
     // 0xbcbe7c: ldur            x0, [fp, #-0x18]
     // 0xbcbe80: stur            x1, [fp, #-0x10]
@@ -508,8 +508,8 @@ class _HandTile extends StatelessWidget {
     // 0xbcbfd8: ldur            x0, [fp, #-8]
     // 0xbcbfdc: StoreField: r1->field_b = r0
     //     0xbcbfdc: stur            w0, [x1, #0xb]
-    // 0xbcbfe0: r0 = BallAiLiquidGlassCard()
-    //     0xbcbfe0: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xbcbfe0: r0 = KourtAiLiquidGlassCard()
+    //     0xbcbfe0: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xbcbfe4: mov             x1, x0
     // 0xbcbfe8: ldur            x0, [fp, #-0x10]
     // 0xbcbfec: stur            x1, [fp, #-8]
@@ -893,7 +893,7 @@ class AccountSetupHandParityView extends StatelessWidget {
     //     0xbcb5b0: stur            w0, [x1, #0xf]
     // 0xbcb5b4: mov             x2, x1
     // 0xbcb5b8: r1 = Function '<anonymous closure>':.
-    //     0xbcb5b8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a8c8] AnonymousClosure: (0xbcb5f0), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_hand_parity_view.dart] AccountSetupHandParityView::build (0xbcb570)
+    //     0xbcb5b8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a8c8] AnonymousClosure: (0xbcb5f0), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_hand_parity_view.dart] AccountSetupHandParityView::build (0xbcb570)
     //     0xbcb5bc: ldr             x1, [x1, #0x8c8]
     // 0xbcb5c0: r0 = AllocateClosure()
     //     0xbcb5c0: bl              #0xe553e0  ; AllocateClosureStub
@@ -982,7 +982,7 @@ class AccountSetupHandParityView extends StatelessWidget {
     //     0xbcb6a8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a8f0] "Left"
     //     0xbcb6ac: ldr             x1, [x1, #0x8f0]
     // 0xbcb6b0: r0 = L()
-    //     0xbcb6b0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbcb6b0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbcb6b4: mov             x1, x0
     // 0xbcb6b8: ldur            x2, [fp, #-8]
     // 0xbcb6bc: stur            x1, [fp, #-0x18]
@@ -1023,7 +1023,7 @@ class AccountSetupHandParityView extends StatelessWidget {
     //     0xbcb71c: stur            w0, [x3, #0x13]
     // 0xbcb720: ldur            x2, [fp, #-8]
     // 0xbcb724: r1 = Function '<anonymous closure>':.
-    //     0xbcb724: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a8f8] AnonymousClosure: (0xbcba3c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_hand_parity_view.dart] AccountSetupHandParityView::build (0xbcb570)
+    //     0xbcb724: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a8f8] AnonymousClosure: (0xbcba3c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_hand_parity_view.dart] AccountSetupHandParityView::build (0xbcb570)
     //     0xbcb728: ldr             x1, [x1, #0x8f8]
     // 0xbcb72c: r0 = AllocateClosure()
     //     0xbcb72c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1063,7 +1063,7 @@ class AccountSetupHandParityView extends StatelessWidget {
     //     0xbcb784: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a900] "Right"
     //     0xbcb788: ldr             x1, [x1, #0x900]
     // 0xbcb78c: r0 = L()
-    //     0xbcb78c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbcb78c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbcb790: mov             x1, x0
     // 0xbcb794: ldur            x0, [fp, #-0x10]
     // 0xbcb798: stur            x1, [fp, #-0x28]
@@ -1098,7 +1098,7 @@ class AccountSetupHandParityView extends StatelessWidget {
     //     0xbcb7e8: stur            w0, [x3, #0x13]
     // 0xbcb7ec: ldur            x2, [fp, #-8]
     // 0xbcb7f0: r1 = Function '<anonymous closure>':.
-    //     0xbcb7f0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a908] AnonymousClosure: (0xbcb978), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_hand_parity_view.dart] AccountSetupHandParityView::build (0xbcb570)
+    //     0xbcb7f0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a908] AnonymousClosure: (0xbcb978), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_hand_parity_view.dart] AccountSetupHandParityView::build (0xbcb570)
     //     0xbcb7f4: ldr             x1, [x1, #0x908]
     // 0xbcb7f8: r0 = AllocateClosure()
     //     0xbcb7f8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1274,7 +1274,7 @@ class AccountSetupHandParityView extends StatelessWidget {
     //     0xbcb9b0: add             x2, PP, #0x1a, lsl #12  ; [pp+0x1a930] "R"
     //     0xbcb9b4: ldr             x2, [x2, #0x930]
     // 0xbcb9b8: r0 = setShootingHand()
-    //     0xbcb9b8: bl              #0xbcb9d4  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setShootingHand
+    //     0xbcb9b8: bl              #0xbcb9d4  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setShootingHand
     // 0xbcb9bc: r0 = Null
     //     0xbcb9bc: mov             x0, NULL
     // 0xbcb9c0: LeaveFrame
@@ -1313,7 +1313,7 @@ class AccountSetupHandParityView extends StatelessWidget {
     //     0xbcba74: add             x2, PP, #0x1a, lsl #12  ; [pp+0x1a928] "L"
     //     0xbcba78: ldr             x2, [x2, #0x928]
     // 0xbcba7c: r0 = setShootingHand()
-    //     0xbcba7c: bl              #0xbcb9d4  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setShootingHand
+    //     0xbcba7c: bl              #0xbcb9d4  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setShootingHand
     // 0xbcba80: r0 = Null
     //     0xbcba80: mov             x0, NULL
     // 0xbcba84: LeaveFrame

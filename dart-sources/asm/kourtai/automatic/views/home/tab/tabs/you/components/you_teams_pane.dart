@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart
 
 // class id: 1049014, size: 0x8
 class :: {
@@ -16,7 +16,7 @@ abstract class __HiddenIslandRouteState&State&HomeIslandHiddenRoute extends Stat
     //     0xb5bdf8: mov             fp, SP
     // 0xb5bdfc: ldr             x2, [fp, #0x10]
     // 0xb5be00: r1 = Function 'dispose':.
-    //     0xb5be00: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d210] AnonymousClosure: (0xb5be18), in [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose (0xb63788)
+    //     0xb5be00: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d210] AnonymousClosure: (0xb5be18), in [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose (0xb63788)
     //     0xb5be04: ldr             x1, [x1, #0x210]
     // 0xb5be08: r0 = AllocateClosure()
     //     0xb5be08: bl              #0xe553e0  ; AllocateClosureStub
@@ -41,7 +41,7 @@ abstract class __HiddenIslandRouteState&State&HomeIslandHiddenRoute extends Stat
     //     0xb5be30: cmp             SP, x16
     //     0xb5be34: b.ls            #0xb5be48
     // 0xb5be38: r0 = dispose()
-    //     0xb5be38: bl              #0xb63788  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
+    //     0xb5be38: bl              #0xb63788  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
     // 0xb5be3c: LeaveFrame
     //     0xb5be3c: mov             SP, fp
     //     0xb5be40: ldp             fp, lr, [SP], #0x10
@@ -156,7 +156,7 @@ class _OtherUserTeamsPaneState extends State<dynamic> {
     // 0x900234: tbz             w0, #4, #0x900240
     // 0x900238: ldur            x1, [fp, #-8]
     // 0x90023c: r0 = _load()
-    //     0x90023c: bl              #0x90025c  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _OtherUserTeamsPaneState::_load
+    //     0x90023c: bl              #0x90025c  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _OtherUserTeamsPaneState::_load
     // 0x900240: r0 = Null
     //     0x900240: mov             x0, NULL
     // 0x900244: LeaveFrame
@@ -198,7 +198,7 @@ class _OtherUserTeamsPaneState extends State<dynamic> {
     //     0x900298: bl              #0x60afc8  ; InitAsyncStub
     // 0x90029c: ldur            x2, [fp, #-0x18]
     // 0x9002a0: r1 = Function '<anonymous closure>':.
-    //     0x9002a0: add             x1, PP, #0x42, lsl #12  ; [pp+0x42df0] AnonymousClosure: (0x900cc0), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
+    //     0x9002a0: add             x1, PP, #0x42, lsl #12  ; [pp+0x42df0] AnonymousClosure: (0x900cc0), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
     //     0x9002a4: ldr             x1, [x1, #0xdf0]
     // 0x9002a8: r0 = AllocateClosure()
     //     0x9002a8: bl              #0xe553e0  ; AllocateClosureStub
@@ -243,7 +243,7 @@ class _OtherUserTeamsPaneState extends State<dynamic> {
     //     0x900310: ldr             x2, [PP, #0x7118]  ; [pp+0x7118] List<String>(0)
     // 0x900314: ldur            x3, [fp, #-0x18]
     // 0x900318: r0 = fetchDiscoverableTeams()
-    //     0x900318: bl              #0x900398  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::fetchDiscoverableTeams
+    //     0x900318: bl              #0x900398  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::fetchDiscoverableTeams
     // 0x90031c: mov             x1, x0
     // 0x900320: stur            x1, [fp, #-0x20]
     // 0x900324: r0 = Await()
@@ -270,7 +270,7 @@ class _OtherUserTeamsPaneState extends State<dynamic> {
     // 0x900364: r0 = ReturnAsyncNotFuture()
     //     0x900364: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x900368: r1 = Function '<anonymous closure>':.
-    //     0x900368: add             x1, PP, #0x42, lsl #12  ; [pp+0x42df8] AnonymousClosure: (0x90075c), in [package:ballai/automatic/views/home/tab/tabs/you/root/workout_notification_detail_view.dart] _WorkoutNotificationDetailViewState::_load (0x9007ac)
+    //     0x900368: add             x1, PP, #0x42, lsl #12  ; [pp+0x42df8] AnonymousClosure: (0x90075c), in [package:kourtai/automatic/views/home/tab/tabs/you/root/workout_notification_detail_view.dart] _WorkoutNotificationDetailViewState::_load (0x9007ac)
     //     0x90036c: ldr             x1, [x1, #0xdf8]
     // 0x900370: r0 = AllocateClosure()
     //     0x900370: bl              #0xe553e0  ; AllocateClosureStub
@@ -300,7 +300,7 @@ class _OtherUserTeamsPaneState extends State<dynamic> {
     //     0x980254: cmp             SP, x16
     //     0x980258: b.ls            #0x980270
     // 0x98025c: r0 = _load()
-    //     0x98025c: bl              #0x90025c  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _OtherUserTeamsPaneState::_load
+    //     0x98025c: bl              #0x90025c  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _OtherUserTeamsPaneState::_load
     // 0x980260: r0 = Null
     //     0x980260: mov             x0, NULL
     // 0x980264: LeaveFrame
@@ -367,21 +367,21 @@ class _OtherUserTeamsPaneState extends State<dynamic> {
     //     0xa8ee9c: add             x1, PP, #0x26, lsl #12  ; [pp+0x26970] "Teams"
     //     0xa8eea0: ldr             x1, [x1, #0x970]
     // 0xa8eea4: r0 = L()
-    //     0xa8eea4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8eea4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8eea8: stur            x0, [fp, #-0x20]
     // 0xa8eeac: r16 = Instance_FontWeight
     //     0xa8eeac: add             x16, PP, #0x15, lsl #12  ; [pp+0x151f0] Obj!FontWeight@d28001
     //     0xa8eeb0: ldr             x16, [x16, #0x1f0]
     // 0xa8eeb4: str             x16, [SP]
     // 0xa8eeb8: ldur            x1, [fp, #-0x10]
-    // 0xa8eebc: r2 = Instance_BallAiTextScale
-    //     0xa8eebc: add             x2, PP, #0x37, lsl #12  ; [pp+0x37890] Obj!BallAiTextScale@d3b021
+    // 0xa8eebc: r2 = Instance_KourtAiTextScale
+    //     0xa8eebc: add             x2, PP, #0x37, lsl #12  ; [pp+0x37890] Obj!KourtAiTextScale@d3b021
     //     0xa8eec0: ldr             x2, [x2, #0x890]
     // 0xa8eec4: r4 = const [0, 0x3, 0x1, 0x2, weight, 0x2, null]
     //     0xa8eec4: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf00] List(7) [0, 0x3, 0x1, 0x2, "weight", 0x2, Null]
     //     0xa8eec8: ldr             x4, [x4, #0xf00]
-    // 0xa8eecc: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xa8eecc: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xa8eecc: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xa8eecc: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xa8eed0: stur            x0, [fp, #-0x28]
     // 0xa8eed4: r0 = Text()
     //     0xa8eed4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -471,21 +471,21 @@ class _OtherUserTeamsPaneState extends State<dynamic> {
     //     0xa8efac: add             x1, PP, #0x42, lsl #12  ; [pp+0x42d98] "No teams yet"
     //     0xa8efb0: ldr             x1, [x1, #0xd98]
     // 0xa8efb4: r0 = L()
-    //     0xa8efb4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8efb4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8efb8: stur            x0, [fp, #-0x20]
     // 0xa8efbc: r16 = Instance_FontWeight
     //     0xa8efbc: add             x16, PP, #0x15, lsl #12  ; [pp+0x151f8] Obj!FontWeight@d28021
     //     0xa8efc0: ldr             x16, [x16, #0x1f8]
     // 0xa8efc4: str             x16, [SP]
     // 0xa8efc8: ldur            x1, [fp, #-0x10]
-    // 0xa8efcc: r2 = Instance_BallAiTextScale
-    //     0xa8efcc: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bef8] Obj!BallAiTextScale@d3afc1
+    // 0xa8efcc: r2 = Instance_KourtAiTextScale
+    //     0xa8efcc: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bef8] Obj!KourtAiTextScale@d3afc1
     //     0xa8efd0: ldr             x2, [x2, #0xef8]
     // 0xa8efd4: r4 = const [0, 0x3, 0x1, 0x2, weight, 0x2, null]
     //     0xa8efd4: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf00] List(7) [0, 0x3, 0x1, 0x2, "weight", 0x2, Null]
     //     0xa8efd8: ldr             x4, [x4, #0xf00]
-    // 0xa8efdc: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xa8efdc: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xa8efdc: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xa8efdc: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xa8efe0: stur            x0, [fp, #-0x10]
     // 0xa8efe4: r0 = Text()
     //     0xa8efe4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -588,7 +588,7 @@ class _OtherUserTeamsPaneState extends State<dynamic> {
     //     0xa8f100: ldur            x3, [x0, #7]
     // 0xa8f104: stur            x3, [fp, #-0x38]
     // 0xa8f108: r1 = Function '<anonymous closure>':.
-    //     0xa8f108: add             x1, PP, #0x42, lsl #12  ; [pp+0x42da8] AnonymousClosure: (0xa8ebf8), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _OtherUserTeamsPaneState::build (0xa8ee24)
+    //     0xa8f108: add             x1, PP, #0x42, lsl #12  ; [pp+0x42da8] AnonymousClosure: (0xa8ebf8), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _OtherUserTeamsPaneState::build (0xa8ee24)
     //     0xa8f10c: ldr             x1, [x1, #0xda8]
     // 0xa8f110: r2 = Null
     //     0xa8f110: mov             x2, NULL
@@ -596,7 +596,7 @@ class _OtherUserTeamsPaneState extends State<dynamic> {
     //     0xa8f114: bl              #0xe553e0  ; AllocateClosureStub
     // 0xa8f118: ldur            x2, [fp, #-0x18]
     // 0xa8f11c: r1 = Function '<anonymous closure>':.
-    //     0xa8f11c: add             x1, PP, #0x42, lsl #12  ; [pp+0x42db0] AnonymousClosure: (0xa8f38c), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _OtherUserTeamsPaneState::build (0xa8ee24)
+    //     0xa8f11c: add             x1, PP, #0x42, lsl #12  ; [pp+0x42db0] AnonymousClosure: (0xa8f38c), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _OtherUserTeamsPaneState::build (0xa8ee24)
     //     0xa8f120: ldr             x1, [x1, #0xdb0]
     // 0xa8f124: stur            x0, [fp, #-0x10]
     // 0xa8f128: r0 = AllocateClosure()
@@ -925,12 +925,12 @@ class _OtherUserTeamsPaneState extends State<dynamic> {
     // 0xa8f4b4: ldur            x2, [fp, #-0x28]
     // 0xa8f4b8: stur            x4, [fp, #-0x30]
     // 0xa8f4bc: r0 = teamLogoUrl()
-    //     0xa8f4bc: bl              #0xa56dec  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::teamLogoUrl
+    //     0xa8f4bc: bl              #0xa56dec  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::teamLogoUrl
     // 0xa8f4c0: ldur            x1, [fp, #-0x18]
     // 0xa8f4c4: ldur            x2, [fp, #-0x28]
     // 0xa8f4c8: stur            x0, [fp, #-0x38]
     // 0xa8f4cc: r0 = teamBannerUrl()
-    //     0xa8f4cc: bl              #0xa56ecc  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::teamBannerUrl
+    //     0xa8f4cc: bl              #0xa56ecc  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::teamBannerUrl
     // 0xa8f4d0: mov             x4, x0
     // 0xa8f4d4: ldur            x0, [fp, #-8]
     // 0xa8f4d8: stur            x4, [fp, #-0x40]
@@ -955,7 +955,7 @@ class _OtherUserTeamsPaneState extends State<dynamic> {
     // 0xa8f504: ldur            x1, [fp, #-0x18]
     // 0xa8f508: ldur            x2, [fp, #-0x28]
     // 0xa8f50c: r0 = currentUserRole()
-    //     0xa8f50c: bl              #0xa6438c  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentUserRole
+    //     0xa8f50c: bl              #0xa6438c  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentUserRole
     // 0xa8f510: stur            x0, [fp, #-8]
     // 0xa8f514: r0 = YouTeamCarouselCard()
     //     0xa8f514: bl              #0xa8ea84  ; AllocateYouTeamCarouselCardStub -> YouTeamCarouselCard (size=0x24)
@@ -978,7 +978,7 @@ class _OtherUserTeamsPaneState extends State<dynamic> {
     //     0xa8f544: stur            w0, [x3, #0x1b]
     // 0xa8f548: ldur            x2, [fp, #-0x10]
     // 0xa8f54c: r1 = Function '<anonymous closure>':.
-    //     0xa8f54c: add             x1, PP, #0x42, lsl #12  ; [pp+0x42db8] AnonymousClosure: (0xa8f57c), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _OtherUserTeamsPaneState::build (0xa8ee24)
+    //     0xa8f54c: add             x1, PP, #0x42, lsl #12  ; [pp+0x42db8] AnonymousClosure: (0xa8f57c), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _OtherUserTeamsPaneState::build (0xa8ee24)
     //     0xa8f550: ldr             x1, [x1, #0xdb8]
     // 0xa8f554: r0 = AllocateClosure()
     //     0xa8f554: bl              #0xe553e0  ; AllocateClosureStub
@@ -1023,7 +1023,7 @@ class _OtherUserTeamsPaneState extends State<dynamic> {
     //     0xa8f5b0: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa8f5b4: ldur            x2, [fp, #-8]
     // 0xa8f5b8: r1 = Function '<anonymous closure>':.
-    //     0xa8f5b8: add             x1, PP, #0x42, lsl #12  ; [pp+0x42dc0] AnonymousClosure: (0xa8f61c), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _OtherUserTeamsPaneState::build (0xa8ee24)
+    //     0xa8f5b8: add             x1, PP, #0x42, lsl #12  ; [pp+0x42dc0] AnonymousClosure: (0xa8f61c), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _OtherUserTeamsPaneState::build (0xa8ee24)
     //     0xa8f5bc: ldr             x1, [x1, #0xdc0]
     // 0xa8f5c0: stur            x0, [fp, #-8]
     // 0xa8f5c4: r0 = AllocateClosure()
@@ -1138,7 +1138,7 @@ class _YouTeamsPaneState extends State<dynamic> {
     // 0x980060: mov             x2, x1
     // 0x980064: stur            x0, [fp, #-8]
     // 0x980068: r1 = Function '<anonymous closure>':.
-    //     0x980068: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e98] AnonymousClosure: (0x98015c), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::initState (0x98000c)
+    //     0x980068: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e98] AnonymousClosure: (0x98015c), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::initState (0x98000c)
     //     0x98006c: ldr             x1, [x1, #0xe98]
     // 0x980070: r0 = AllocateClosure()
     //     0x980070: bl              #0xe553e0  ; AllocateClosureStub
@@ -1295,7 +1295,7 @@ class _YouTeamsPaneState extends State<dynamic> {
     // 0x980220: mov             x1, x0
     // 0x980224: ldur            x2, [fp, #-0x10]
     // 0x980228: r0 = startCurrentUserMembershipListener()
-    //     0x980228: bl              #0x938904  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::startCurrentUserMembershipListener
+    //     0x980228: bl              #0x938904  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::startCurrentUserMembershipListener
     // 0x98022c: r0 = Null
     //     0x98022c: mov             x0, NULL
     // 0x980230: LeaveFrame
@@ -1389,7 +1389,7 @@ class _YouTeamsPaneState extends State<dynamic> {
     //     0xa8dc74: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xa8dc78: ldur            x1, [fp, #-0x10]
     // 0xa8dc7c: r0 = currentTeams()
-    //     0xa8dc7c: bl              #0x651818  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeams
+    //     0xa8dc7c: bl              #0x651818  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeams
     // 0xa8dc80: mov             x2, x0
     // 0xa8dc84: r1 = <TeamModel>
     //     0xa8dc84: add             x1, PP, #0x13, lsl #12  ; [pp+0x13b18] TypeArguments: <TeamModel>
@@ -1400,7 +1400,7 @@ class _YouTeamsPaneState extends State<dynamic> {
     //     0xa8dc90: bl              #0x5f9020  ; [dart:core] List::List.from
     // 0xa8dc94: ldur            x2, [fp, #-0x18]
     // 0xa8dc98: r1 = Function '<anonymous closure>':.
-    //     0xa8dc98: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e28] AnonymousClosure: (0xa8ec04), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::build (0xa8dba4)
+    //     0xa8dc98: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e28] AnonymousClosure: (0xa8ec04), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::build (0xa8dba4)
     //     0xa8dc9c: ldr             x1, [x1, #0xe28]
     // 0xa8dca0: stur            x0, [fp, #-0x10]
     // 0xa8dca4: r0 = AllocateClosure()
@@ -1425,7 +1425,7 @@ class _YouTeamsPaneState extends State<dynamic> {
     //     0xa8dcdc: add             x1, PP, #0x26, lsl #12  ; [pp+0x26970] "Teams"
     //     0xa8dce0: ldr             x1, [x1, #0x970]
     // 0xa8dce4: r0 = L()
-    //     0xa8dce4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8dce4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8dce8: mov             x3, x0
     // 0xa8dcec: ldur            x0, [fp, #-0x18]
     // 0xa8dcf0: stur            x3, [fp, #-0x20]
@@ -1437,14 +1437,14 @@ class _YouTeamsPaneState extends State<dynamic> {
     //     0xa8dcfc: add             x16, PP, #0x15, lsl #12  ; [pp+0x151f0] Obj!FontWeight@d28001
     //     0xa8dd00: ldr             x16, [x16, #0x1f0]
     // 0xa8dd04: str             x16, [SP]
-    // 0xa8dd08: r2 = Instance_BallAiTextScale
-    //     0xa8dd08: add             x2, PP, #0x37, lsl #12  ; [pp+0x37890] Obj!BallAiTextScale@d3b021
+    // 0xa8dd08: r2 = Instance_KourtAiTextScale
+    //     0xa8dd08: add             x2, PP, #0x37, lsl #12  ; [pp+0x37890] Obj!KourtAiTextScale@d3b021
     //     0xa8dd0c: ldr             x2, [x2, #0x890]
     // 0xa8dd10: r4 = const [0, 0x3, 0x1, 0x2, weight, 0x2, null]
     //     0xa8dd10: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf00] List(7) [0, 0x3, 0x1, 0x2, "weight", 0x2, Null]
     //     0xa8dd14: ldr             x4, [x4, #0xf00]
-    // 0xa8dd18: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xa8dd18: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xa8dd18: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xa8dd18: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xa8dd1c: stur            x0, [fp, #-0x28]
     // 0xa8dd20: r0 = Text()
     //     0xa8dd20: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1503,7 +1503,7 @@ class _YouTeamsPaneState extends State<dynamic> {
     //     0xa8dda8: add             x2, x2, HEAP, lsl #32
     // 0xa8ddac: ldur            x1, [fp, #-8]
     // 0xa8ddb0: r0 = _emptySelf()
-    //     0xa8ddb0: bl              #0xa8e45c  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::_emptySelf
+    //     0xa8ddb0: bl              #0xa8e45c  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::_emptySelf
     // 0xa8ddb4: mov             x2, x0
     // 0xa8ddb8: ldur            x0, [fp, #-0x28]
     // 0xa8ddbc: stur            x2, [fp, #-0x10]
@@ -1553,7 +1553,7 @@ class _YouTeamsPaneState extends State<dynamic> {
     // 0xa8de40: mov             x0, x5
     // 0xa8de44: b               #0xa8df40
     // 0xa8de48: r1 = Function '<anonymous closure>':.
-    //     0xa8de48: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e30] AnonymousClosure: (0xa8ebf8), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _OtherUserTeamsPaneState::build (0xa8ee24)
+    //     0xa8de48: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e30] AnonymousClosure: (0xa8ebf8), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _OtherUserTeamsPaneState::build (0xa8ee24)
     //     0xa8de4c: ldr             x1, [x1, #0xe30]
     // 0xa8de50: r2 = Null
     //     0xa8de50: mov             x2, NULL
@@ -1561,7 +1561,7 @@ class _YouTeamsPaneState extends State<dynamic> {
     //     0xa8de54: bl              #0xe553e0  ; AllocateClosureStub
     // 0xa8de58: ldur            x2, [fp, #-0x18]
     // 0xa8de5c: r1 = Function '<anonymous closure>':.
-    //     0xa8de5c: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e38] AnonymousClosure: (0xa8e8c4), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::build (0xa8dba4)
+    //     0xa8de5c: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e38] AnonymousClosure: (0xa8e8c4), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::build (0xa8dba4)
     //     0xa8de60: ldr             x1, [x1, #0xe38]
     // 0xa8de64: stur            x0, [fp, #-0x10]
     // 0xa8de68: r0 = AllocateClosure()
@@ -1672,8 +1672,8 @@ class _YouTeamsPaneState extends State<dynamic> {
     //     0xa8df98: ldur            w1, [x4, #0x13]
     // 0xa8df9c: DecompressPointer r1
     //     0xa8df9c: add             x1, x1, HEAP, lsl #32
-    // 0xa8dfa0: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa8dfa0: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa8dfa0: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa8dfa0: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa8dfa4: r16 = Instance_Color
     //     0xa8dfa4: ldr             x16, [PP, #0x5178]  ; [pp+0x5178] Obj!Color@d2a0a1
     // 0xa8dfa8: stp             x16, x0, [SP, #0x10]
@@ -1694,7 +1694,7 @@ class _YouTeamsPaneState extends State<dynamic> {
     //     0xa8dfd0: ldr             x1, [x1, #0x1d8]
     // 0xa8dfd4: stur            x0, [fp, #-0x10]
     // 0xa8dfd8: r0 = L()
-    //     0xa8dfd8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8dfd8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8dfdc: stur            x0, [fp, #-0x20]
     // 0xa8dfe0: r0 = Text()
     //     0xa8dfe0: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1714,7 +1714,7 @@ class _YouTeamsPaneState extends State<dynamic> {
     //     0xa8e008: stur            w0, [x3, #0x3b]
     // 0xa8e00c: ldur            x2, [fp, #-0x18]
     // 0xa8e010: r1 = Function '<anonymous closure>':.
-    //     0xa8e010: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e48] AnonymousClosure: (0xa8e818), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::build (0xa8dba4)
+    //     0xa8e010: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e48] AnonymousClosure: (0xa8e818), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::build (0xa8dba4)
     //     0xa8e014: ldr             x1, [x1, #0xe48]
     // 0xa8e018: r0 = AllocateClosure()
     //     0xa8e018: bl              #0xe553e0  ; AllocateClosureStub
@@ -1765,8 +1765,8 @@ class _YouTeamsPaneState extends State<dynamic> {
     //     0xa8e088: ldur            w1, [x4, #0x13]
     // 0xa8e08c: DecompressPointer r1
     //     0xa8e08c: add             x1, x1, HEAP, lsl #32
-    // 0xa8e090: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa8e090: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa8e090: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa8e090: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa8e094: r1 = LoadClassIdInstr(r0)
     //     0xa8e094: ldur            x1, [x0, #-1]
     //     0xa8e098: ubfx            x1, x1, #0xc, #0x14
@@ -1790,8 +1790,8 @@ class _YouTeamsPaneState extends State<dynamic> {
     //     0xa8e0d0: ldur            w1, [x2, #0x13]
     // 0xa8e0d4: DecompressPointer r1
     //     0xa8e0d4: add             x1, x1, HEAP, lsl #32
-    // 0xa8e0d8: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa8e0d8: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa8e0d8: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa8e0d8: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa8e0dc: ldur            x16, [fp, #-0x20]
     // 0xa8e0e0: stp             x0, x16, [SP, #0x18]
     // 0xa8e0e4: r16 = Instance_Size
@@ -1814,7 +1814,7 @@ class _YouTeamsPaneState extends State<dynamic> {
     //     0xa8e110: ldr             x1, [x1, #0x9d8]
     // 0xa8e114: stur            x0, [fp, #-0x20]
     // 0xa8e118: r0 = L()
-    //     0xa8e118: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8e118: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8e11c: stur            x0, [fp, #-0x30]
     // 0xa8e120: r0 = Text()
     //     0xa8e120: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1834,7 +1834,7 @@ class _YouTeamsPaneState extends State<dynamic> {
     //     0xa8e148: stur            w0, [x3, #0x3b]
     // 0xa8e14c: ldur            x2, [fp, #-0x18]
     // 0xa8e150: r1 = Function '<anonymous closure>':.
-    //     0xa8e150: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e58] AnonymousClosure: (0xa8e650), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::build (0xa8dba4)
+    //     0xa8e150: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e58] AnonymousClosure: (0xa8e650), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::build (0xa8dba4)
     //     0xa8e154: ldr             x1, [x1, #0xe58]
     // 0xa8e158: r0 = AllocateClosure()
     //     0xa8e158: bl              #0xe553e0  ; AllocateClosureStub
@@ -2140,8 +2140,8 @@ class _YouTeamsPaneState extends State<dynamic> {
     //     0xa8e474: cmp             SP, x16
     //     0xa8e478: b.ls            #0xa8e648
     // 0xa8e47c: mov             x1, x0
-    // 0xa8e480: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa8e480: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa8e480: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa8e480: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa8e484: stur            x0, [fp, #-0x10]
     // 0xa8e488: r0 = Icon()
     //     0xa8e488: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -2164,21 +2164,21 @@ class _YouTeamsPaneState extends State<dynamic> {
     //     0xa8e4b4: add             x1, PP, #0x42, lsl #12  ; [pp+0x42d98] "No teams yet"
     //     0xa8e4b8: ldr             x1, [x1, #0xd98]
     // 0xa8e4bc: r0 = L()
-    //     0xa8e4bc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8e4bc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8e4c0: stur            x0, [fp, #-0x10]
     // 0xa8e4c4: r16 = Instance_FontWeight
     //     0xa8e4c4: add             x16, PP, #0x15, lsl #12  ; [pp+0x151f8] Obj!FontWeight@d28021
     //     0xa8e4c8: ldr             x16, [x16, #0x1f8]
     // 0xa8e4cc: str             x16, [SP]
     // 0xa8e4d0: ldur            x1, [fp, #-8]
-    // 0xa8e4d4: r2 = Instance_BallAiTextScale
-    //     0xa8e4d4: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bef8] Obj!BallAiTextScale@d3afc1
+    // 0xa8e4d4: r2 = Instance_KourtAiTextScale
+    //     0xa8e4d4: add             x2, PP, #0x2b, lsl #12  ; [pp+0x2bef8] Obj!KourtAiTextScale@d3afc1
     //     0xa8e4d8: ldr             x2, [x2, #0xef8]
     // 0xa8e4dc: r4 = const [0, 0x3, 0x1, 0x2, weight, 0x2, null]
     //     0xa8e4dc: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf00] List(7) [0, 0x3, 0x1, 0x2, "weight", 0x2, Null]
     //     0xa8e4e0: ldr             x4, [x4, #0xf00]
-    // 0xa8e4e4: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xa8e4e4: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xa8e4e4: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xa8e4e4: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xa8e4e8: stur            x0, [fp, #-0x20]
     // 0xa8e4ec: r0 = Text()
     //     0xa8e4ec: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2194,21 +2194,21 @@ class _YouTeamsPaneState extends State<dynamic> {
     //     0xa8e508: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e90] "Join or create a team to train with your squad."
     //     0xa8e50c: ldr             x1, [x1, #0xe90]
     // 0xa8e510: r0 = L()
-    //     0xa8e510: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8e510: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8e514: ldur            x1, [fp, #-8]
     // 0xa8e518: stur            x0, [fp, #-0x10]
-    // 0xa8e51c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa8e51c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa8e51c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa8e51c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa8e520: str             x0, [SP]
     // 0xa8e524: ldur            x1, [fp, #-8]
-    // 0xa8e528: r2 = Instance_BallAiTextScale
-    //     0xa8e528: add             x2, PP, #0x2f, lsl #12  ; [pp+0x2fde8] Obj!BallAiTextScale@d3b001
+    // 0xa8e528: r2 = Instance_KourtAiTextScale
+    //     0xa8e528: add             x2, PP, #0x2f, lsl #12  ; [pp+0x2fde8] Obj!KourtAiTextScale@d3b001
     //     0xa8e52c: ldr             x2, [x2, #0xde8]
     // 0xa8e530: r4 = const [0, 0x3, 0x1, 0x2, color, 0x2, null]
     //     0xa8e530: add             x4, PP, #0x2b, lsl #12  ; [pp+0x2bf60] List(7) [0, 0x3, 0x1, 0x2, "color", 0x2, Null]
     //     0xa8e534: ldr             x4, [x4, #0xf60]
-    // 0xa8e538: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xa8e538: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xa8e538: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xa8e538: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xa8e53c: stur            x0, [fp, #-8]
     // 0xa8e540: r0 = Text()
     //     0xa8e540: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2347,7 +2347,7 @@ class _YouTeamsPaneState extends State<dynamic> {
     //     0xa8e684: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa8e688: ldur            x2, [fp, #-8]
     // 0xa8e68c: r1 = Function '<anonymous closure>':.
-    //     0xa8e68c: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e60] AnonymousClosure: (0xa8e6f0), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::build (0xa8dba4)
+    //     0xa8e68c: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e60] AnonymousClosure: (0xa8e6f0), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::build (0xa8dba4)
     //     0xa8e690: ldr             x1, [x1, #0xe60]
     // 0xa8e694: stur            x0, [fp, #-8]
     // 0xa8e698: r0 = AllocateClosure()
@@ -2397,7 +2397,7 @@ class _YouTeamsPaneState extends State<dynamic> {
     //     0xa8e700: ldur            w2, [x0, #0x17]
     //     0xa8e704: add             x2, x2, HEAP, lsl #32
     // 0xa8e708: r1 = Function '<anonymous closure>':.
-    //     0xa8e708: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e68] AnonymousClosure: (0xa8e770), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::build (0xa8dba4)
+    //     0xa8e708: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e68] AnonymousClosure: (0xa8e770), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::build (0xa8dba4)
     //     0xa8e70c: ldr             x1, [x1, #0xe68]
     // 0xa8e710: r0 = AllocateClosure()
     //     0xa8e710: bl              #0xe553e0  ; AllocateClosureStub
@@ -2511,7 +2511,7 @@ class _YouTeamsPaneState extends State<dynamic> {
     // 0xa8e84c: r0 = of()
     //     0xa8e84c: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa8e850: r1 = Function '<anonymous closure>':.
-    //     0xa8e850: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e70] AnonymousClosure: (0xa8e8b8), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::build (0xa8dba4)
+    //     0xa8e850: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e70] AnonymousClosure: (0xa8e8b8), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::build (0xa8dba4)
     //     0xa8e854: ldr             x1, [x1, #0xe70]
     // 0xa8e858: r2 = Null
     //     0xa8e858: mov             x2, NULL
@@ -2666,12 +2666,12 @@ class _YouTeamsPaneState extends State<dynamic> {
     // 0xa8e9dc: ldur            x2, [fp, #-0x28]
     // 0xa8e9e0: stur            x4, [fp, #-0x30]
     // 0xa8e9e4: r0 = teamLogoUrl()
-    //     0xa8e9e4: bl              #0xa56dec  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::teamLogoUrl
+    //     0xa8e9e4: bl              #0xa56dec  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::teamLogoUrl
     // 0xa8e9e8: ldur            x1, [fp, #-0x10]
     // 0xa8e9ec: ldur            x2, [fp, #-0x28]
     // 0xa8e9f0: stur            x0, [fp, #-0x38]
     // 0xa8e9f4: r0 = teamBannerUrl()
-    //     0xa8e9f4: bl              #0xa56ecc  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::teamBannerUrl
+    //     0xa8e9f4: bl              #0xa56ecc  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::teamBannerUrl
     // 0xa8e9f8: mov             x4, x0
     // 0xa8e9fc: ldur            x0, [fp, #-8]
     // 0xa8ea00: stur            x4, [fp, #-0x40]
@@ -2682,7 +2682,7 @@ class _YouTeamsPaneState extends State<dynamic> {
     // 0xa8ea0c: ldur            x1, [fp, #-0x10]
     // 0xa8ea10: ldur            x2, [fp, #-0x28]
     // 0xa8ea14: r0 = currentUserRole()
-    //     0xa8ea14: bl              #0xa6438c  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentUserRole
+    //     0xa8ea14: bl              #0xa6438c  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentUserRole
     // 0xa8ea18: stur            x0, [fp, #-8]
     // 0xa8ea1c: r0 = YouTeamCarouselCard()
     //     0xa8ea1c: bl              #0xa8ea84  ; AllocateYouTeamCarouselCardStub -> YouTeamCarouselCard (size=0x24)
@@ -2705,7 +2705,7 @@ class _YouTeamsPaneState extends State<dynamic> {
     //     0xa8ea4c: stur            w0, [x3, #0x1b]
     // 0xa8ea50: ldur            x2, [fp, #-0x20]
     // 0xa8ea54: r1 = Function '<anonymous closure>':.
-    //     0xa8ea54: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e80] AnonymousClosure: (0xa8ea90), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::build (0xa8dba4)
+    //     0xa8ea54: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e80] AnonymousClosure: (0xa8ea90), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::build (0xa8dba4)
     //     0xa8ea58: ldr             x1, [x1, #0xe80]
     // 0xa8ea5c: r0 = AllocateClosure()
     //     0xa8ea5c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2757,7 +2757,7 @@ class _YouTeamsPaneState extends State<dynamic> {
     // 0xa8ead0: mov             x1, x2
     // 0xa8ead4: mov             x2, x0
     // 0xa8ead8: r0 = _pushTeam()
-    //     0xa8ead8: bl              #0xa8eaf4  ; [package:ballai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::_pushTeam
+    //     0xa8ead8: bl              #0xa8eaf4  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::_pushTeam
     // 0xa8eadc: r0 = Null
     //     0xa8eadc: mov             x0, NULL
     // 0xa8eae0: LeaveFrame
@@ -2801,7 +2801,7 @@ class _YouTeamsPaneState extends State<dynamic> {
     //     0xa8eb3c: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa8eb40: ldur            x2, [fp, #-0x18]
     // 0xa8eb44: r1 = Function '<anonymous closure>':.
-    //     0xa8eb44: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e88] AnonymousClosure: (0xa8eba8), in [package:ballai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::_pushTeam (0xa8eaf4)
+    //     0xa8eb44: add             x1, PP, #0x42, lsl #12  ; [pp+0x42e88] AnonymousClosure: (0xa8eba8), in [package:kourtai/automatic/views/home/tab/tabs/you/components/you_teams_pane.dart] _YouTeamsPaneState::_pushTeam (0xa8eaf4)
     //     0xa8eb48: ldr             x1, [x1, #0xe88]
     // 0xa8eb4c: stur            x0, [fp, #-8]
     // 0xa8eb50: r0 = AllocateClosure()
@@ -3193,7 +3193,7 @@ class YouTeamCarouselCard extends StatelessWidget {
     // 0xc15ae8: mov             x1, x3
     // 0xc15aec: stur            x3, [fp, #-8]
     // 0xc15af0: r0 = isCoachRole()
-    //     0xc15af0: bl              #0x974be4  ; [package:ballai/automatic/models/core/team/team_model.dart] TeamModel::isCoachRole
+    //     0xc15af0: bl              #0x974be4  ; [package:kourtai/automatic/models/core/team/team_model.dart] TeamModel::isCoachRole
     // 0xc15af4: mov             x2, x0
     // 0xc15af8: ldur            x0, [fp, #-8]
     // 0xc15afc: stur            x2, [fp, #-0x20]
@@ -3207,13 +3207,13 @@ class YouTeamCarouselCard extends StatelessWidget {
     //     0xc15b14: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a5d0] "Coach"
     //     0xc15b18: ldr             x1, [x1, #0x5d0]
     // 0xc15b1c: r0 = L()
-    //     0xc15b1c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc15b1c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc15b20: b               #0xc15b30
     // 0xc15b24: r1 = "Member"
     //     0xc15b24: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c658] "Member"
     //     0xc15b28: ldr             x1, [x1, #0x658]
     // 0xc15b2c: r0 = L()
-    //     0xc15b2c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc15b2c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc15b30: mov             x2, x0
     // 0xc15b34: ldur            x0, [fp, #-0x10]
     // 0xc15b38: stur            x2, [fp, #-0x28]
@@ -3223,8 +3223,8 @@ class YouTeamCarouselCard extends StatelessWidget {
     //     0xc15b40: add             x3, x3, HEAP, lsl #32
     // 0xc15b44: ldur            x1, [fp, #-0x18]
     // 0xc15b48: stur            x3, [fp, #-8]
-    // 0xc15b4c: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xc15b4c: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xc15b4c: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xc15b4c: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xc15b50: stur            x0, [fp, #-0x30]
     // 0xc15b54: r0 = Radius()
     //     0xc15b54: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -3429,8 +3429,8 @@ class YouTeamCarouselCard extends StatelessWidget {
     // 0xc15d4c: ldur            x3, [fp, #-0x20]
     // 0xc15d50: tbnz            w3, #4, #0xc15d98
     // 0xc15d54: ldur            x1, [fp, #-0x18]
-    // 0xc15d58: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc15d58: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc15d58: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc15d58: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc15d5c: r1 = LoadClassIdInstr(r0)
     //     0xc15d5c: ldur            x1, [x0, #-1]
     //     0xc15d60: ubfx            x1, x1, #0xc, #0x14
@@ -3451,8 +3451,8 @@ class YouTeamCarouselCard extends StatelessWidget {
     // 0xc15d90: mov             x1, x0
     // 0xc15d94: b               #0xc15da4
     // 0xc15d98: ldur            x1, [fp, #-0x18]
-    // 0xc15d9c: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xc15d9c: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xc15d9c: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xc15d9c: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xc15da0: mov             x1, x0
     // 0xc15da4: ldur            x0, [fp, #-0x20]
     // 0xc15da8: stur            x1, [fp, #-0x50]
@@ -3497,13 +3497,13 @@ class YouTeamCarouselCard extends StatelessWidget {
     // 0xc15e0c: ldur            x0, [fp, #-0x20]
     // 0xc15e10: tbnz            w0, #4, #0xc15e24
     // 0xc15e14: ldur            x1, [fp, #-0x18]
-    // 0xc15e18: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc15e18: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc15e18: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc15e18: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc15e1c: mov             x2, x0
     // 0xc15e20: b               #0xc15e30
     // 0xc15e24: ldur            x1, [fp, #-0x18]
-    // 0xc15e28: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc15e28: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc15e28: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc15e28: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc15e2c: mov             x2, x0
     // 0xc15e30: ldur            x0, [fp, #-0x28]
     // 0xc15e34: ldur            x1, [fp, #-0x40]
@@ -3608,11 +3608,11 @@ class YouTeamCarouselCard extends StatelessWidget {
     //     0xc15f4c: ldur            x0, [x1, #7]
     // 0xc15f50: mov             x1, x0
     // 0xc15f54: r0 = localizedMemberCount()
-    //     0xc15f54: bl              #0xa66c60  ; [package:ballai/automatic/models/core/team/team_model.dart] TeamModel::localizedMemberCount
+    //     0xc15f54: bl              #0xa66c60  ; [package:kourtai/automatic/models/core/team/team_model.dart] TeamModel::localizedMemberCount
     // 0xc15f58: ldur            x1, [fp, #-0x18]
     // 0xc15f5c: stur            x0, [fp, #-0x10]
-    // 0xc15f60: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc15f60: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc15f60: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc15f60: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc15f64: stur            x0, [fp, #-0x18]
     // 0xc15f68: r0 = TextStyle()
     //     0xc15f68: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)

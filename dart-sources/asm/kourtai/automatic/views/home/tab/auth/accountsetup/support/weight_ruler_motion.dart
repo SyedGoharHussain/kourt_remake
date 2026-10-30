@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/support/weight_ruler_motion.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/support/weight_ruler_motion.dart
 
 // class id: 1048864, size: 0x8
 class :: {
@@ -82,7 +82,7 @@ abstract class WeightRulerMotion extends Object {
     //     0x9f381c: cmp             SP, x16
     //     0x9f3820: b.ls            #0x9f3844
     // 0x9f3824: r0 = poundsForOffset()
-    //     0x9f3824: bl              #0x94ae20  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/weight_ruler_motion.dart] WeightRulerMotion::poundsForOffset
+    //     0x9f3824: bl              #0x94ae20  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/weight_ruler_motion.dart] WeightRulerMotion::poundsForOffset
     // 0x9f3828: sub             x1, x0, #0x32
     // 0x9f382c: scvtf           d1, x1
     // 0x9f3830: d2 = 10.000000

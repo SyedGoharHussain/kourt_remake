@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart
+// lib: , url: package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart
 
 // class id: 1049058, size: 0x8
 class :: {
@@ -33,19 +33,19 @@ class _PostSetupPermissionSocialSharingViewState extends State<dynamic> {
     //     0xab09a0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad58] "Share your highlights"
     //     0xab09a4: ldr             x1, [x1, #0xd58]
     // 0xab09a8: r0 = L()
-    //     0xab09a8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
-    // 0xab09ac: r1 = "Allow Ball AI to share your best moments on social and feature you in the community."
-    //     0xab09ac: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad60] "Allow Ball AI to share your best moments on social and feature you in the community."
+    //     0xab09a8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
+    // 0xab09ac: r1 = "Allow Kourt AI to share your best moments on social and feature you in the community."
+    //     0xab09ac: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad60] "Allow Kourt AI to share your best moments on social and feature you in the community."
     //     0xab09b0: ldr             x1, [x1, #0xd60]
     // 0xab09b4: stur            x0, [fp, #-0x18]
     // 0xab09b8: r0 = L()
-    //     0xab09b8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xab09b8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xab09bc: r1 = "Allow sharing"
     //     0xab09bc: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad68] "Allow sharing"
     //     0xab09c0: ldr             x1, [x1, #0xd68]
     // 0xab09c4: stur            x0, [fp, #-0x20]
     // 0xab09c8: r0 = L()
-    //     0xab09c8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xab09c8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xab09cc: mov             x2, x0
     // 0xab09d0: ldur            x0, [fp, #-8]
     // 0xab09d4: stur            x2, [fp, #-0x30]
@@ -69,7 +69,7 @@ class _PostSetupPermissionSocialSharingViewState extends State<dynamic> {
     //     0xab0a00: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad70] "Maybe later"
     //     0xab0a04: ldr             x1, [x1, #0xd70]
     // 0xab0a08: r0 = L()
-    //     0xab0a08: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xab0a08: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xab0a0c: stur            x0, [fp, #-0x38]
     // 0xab0a10: r0 = _PostSetupPermissionStepScaffold()
     //     0xab0a10: bl              #0xab03f0  ; Allocate_PostSetupPermissionStepScaffoldStub -> _PostSetupPermissionStepScaffold (size=0x30)
@@ -94,7 +94,7 @@ class _PostSetupPermissionSocialSharingViewState extends State<dynamic> {
     //     0xab0a44: stur            w0, [x3, #0x1b]
     // 0xab0a48: ldur            x2, [fp, #-0x10]
     // 0xab0a4c: r1 = Function '<anonymous closure>':.
-    //     0xab0a4c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad78] AnonymousClosure: (0xab0d34), in [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionSocialSharingViewState::build (0xab096c)
+    //     0xab0a4c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad78] AnonymousClosure: (0xab0d34), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionSocialSharingViewState::build (0xab096c)
     //     0xab0a50: ldr             x1, [x1, #0xd78]
     // 0xab0a54: r0 = AllocateClosure()
     //     0xab0a54: bl              #0xe553e0  ; AllocateClosureStub
@@ -110,7 +110,7 @@ class _PostSetupPermissionSocialSharingViewState extends State<dynamic> {
     //     0xab0a70: stur            w1, [x0, #0x27]
     // 0xab0a74: ldur            x2, [fp, #-0x10]
     // 0xab0a78: r1 = Function '<anonymous closure>':.
-    //     0xab0a78: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad80] AnonymousClosure: (0xab0aa8), in [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionSocialSharingViewState::build (0xab096c)
+    //     0xab0a78: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad80] AnonymousClosure: (0xab0aa8), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionSocialSharingViewState::build (0xab096c)
     //     0xab0a7c: ldr             x1, [x1, #0xd80]
     // 0xab0a80: r0 = AllocateClosure()
     //     0xab0a80: bl              #0xe553e0  ; AllocateClosureStub
@@ -151,7 +151,7 @@ class _PostSetupPermissionSocialSharingViewState extends State<dynamic> {
     // 0xab0ad4: r2 = false
     //     0xab0ad4: add             x2, NULL, #0x30  ; false
     // 0xab0ad8: r0 = _persistConsent()
-    //     0xab0ad8: bl              #0xab0af4  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionSocialSharingViewState::_persistConsent
+    //     0xab0ad8: bl              #0xab0af4  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionSocialSharingViewState::_persistConsent
     // 0xab0adc: r0 = Null
     //     0xab0adc: mov             x0, NULL
     // 0xab0ae0: LeaveFrame
@@ -192,7 +192,7 @@ class _PostSetupPermissionSocialSharingViewState extends State<dynamic> {
     //     0xab0b34: bl              #0x60afc8  ; InitAsyncStub
     // 0xab0b38: ldur            x2, [fp, #-0x90]
     // 0xab0b3c: r1 = Function '<anonymous closure>':.
-    //     0xab0b3c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad88] AnonymousClosure: (0x98f834), in [package:ballai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::initState (0x98f684)
+    //     0xab0b3c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad88] AnonymousClosure: (0x98f834), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::initState (0x98f684)
     //     0xab0b40: ldr             x1, [x1, #0xd88]
     // 0xab0b44: r0 = AllocateClosure()
     //     0xab0b44: bl              #0xe553e0  ; AllocateClosureStub
@@ -231,7 +231,7 @@ class _PostSetupPermissionSocialSharingViewState extends State<dynamic> {
     // 0xab0ba0: b.eq            #0xab0bc0
     // 0xab0ba4: ldur            x2, [fp, #-0x90]
     // 0xab0ba8: r1 = Function '<anonymous closure>':.
-    //     0xab0ba8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad90] AnonymousClosure: (0x9ecde0), in [package:ballai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
+    //     0xab0ba8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ad90] AnonymousClosure: (0x9ecde0), in [package:kourtai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
     //     0xab0bac: ldr             x1, [x1, #0xd90]
     // 0xab0bb0: r0 = AllocateClosure()
     //     0xab0bb0: bl              #0xe553e0  ; AllocateClosureStub
@@ -267,7 +267,7 @@ class _PostSetupPermissionSocialSharingViewState extends State<dynamic> {
     //     0xab0c04: add             x4, PP, #0x2a, lsl #12  ; [pp+0x2ad98] List(7) [0, 0x2, 0x1, 0x1, "hasConsentedToSocials", 0x1, Null]
     //     0xab0c08: ldr             x4, [x4, #0xd98]
     // 0xab0c0c: r0 = copyWith()
-    //     0xab0c0c: bl              #0x663774  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::copyWith
+    //     0xab0c0c: bl              #0x663774  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::copyWith
     // 0xab0c10: mov             x4, x0
     // 0xab0c14: ldur            x3, [fp, #-0x98]
     // 0xab0c18: stur            x4, [fp, #-0x88]
@@ -284,7 +284,7 @@ class _PostSetupPermissionSocialSharingViewState extends State<dynamic> {
     // 0xab0c40: r4 = const [0, 0x2, 0, 0x2, null]
     //     0xab0c40: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0xab0c44: r0 = updateUser()
-    //     0xab0c44: bl              #0x6618fc  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::updateUser
+    //     0xab0c44: bl              #0x6618fc  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::updateUser
     // 0xab0c48: mov             x1, x0
     // 0xab0c4c: stur            x1, [fp, #-0xa0]
     // 0xab0c50: r0 = Await()
@@ -336,7 +336,7 @@ class _PostSetupPermissionSocialSharingViewState extends State<dynamic> {
     //     0xab0ccc: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xab0cd0: ldur            x2, [fp, #-0x90]
     // 0xab0cd4: r1 = Function '<anonymous closure>':.
-    //     0xab0cd4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ada8] AnonymousClosure: (0x9ecde0), in [package:ballai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
+    //     0xab0cd4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ada8] AnonymousClosure: (0x9ecde0), in [package:kourtai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
     //     0xab0cd8: ldr             x1, [x1, #0xda8]
     // 0xab0cdc: r0 = AllocateClosure()
     //     0xab0cdc: bl              #0xe553e0  ; AllocateClosureStub
@@ -396,7 +396,7 @@ class _PostSetupPermissionSocialSharingViewState extends State<dynamic> {
     // 0xab0d60: r2 = true
     //     0xab0d60: add             x2, NULL, #0x20  ; true
     // 0xab0d64: r0 = _persistConsent()
-    //     0xab0d64: bl              #0xab0af4  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionSocialSharingViewState::_persistConsent
+    //     0xab0d64: bl              #0xab0af4  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionSocialSharingViewState::_persistConsent
     // 0xab0d68: r0 = Null
     //     0xab0d68: mov             x0, NULL
     // 0xab0d6c: LeaveFrame
@@ -439,19 +439,19 @@ class _PostSetupPermissionLocationViewState extends State<dynamic> {
     //     0xab065c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2adb0] "Find nearby players"
     //     0xab0660: ldr             x1, [x1, #0xdb0]
     // 0xab0664: r0 = L()
-    //     0xab0664: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
-    // 0xab0668: r1 = "Discover other Ball AI users training near you and join local teams."
-    //     0xab0668: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2adb8] "Discover other Ball AI users training near you and join local teams."
+    //     0xab0664: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
+    // 0xab0668: r1 = "Discover other Kourt AI users training near you and join local teams."
+    //     0xab0668: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2adb8] "Discover other Kourt AI users training near you and join local teams."
     //     0xab066c: ldr             x1, [x1, #0xdb8]
     // 0xab0670: stur            x0, [fp, #-0x18]
     // 0xab0674: r0 = L()
-    //     0xab0674: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xab0674: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xab0678: r1 = "Continue"
     //     0xab0678: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2adc0] "Continue"
     //     0xab067c: ldr             x1, [x1, #0xdc0]
     // 0xab0680: stur            x0, [fp, #-0x20]
     // 0xab0684: r0 = L()
-    //     0xab0684: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xab0684: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xab0688: mov             x1, x0
     // 0xab068c: ldur            x0, [fp, #-8]
     // 0xab0690: stur            x1, [fp, #-0x30]
@@ -494,7 +494,7 @@ class _PostSetupPermissionLocationViewState extends State<dynamic> {
     //     0xab06f0: stur            w0, [x3, #0x1b]
     // 0xab06f4: ldur            x2, [fp, #-0x10]
     // 0xab06f8: r1 = Function '<anonymous closure>':.
-    //     0xab06f8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2add0] AnonymousClosure: (0xab0730), in [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionLocationViewState::build (0xab0628)
+    //     0xab06f8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2add0] AnonymousClosure: (0xab0730), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionLocationViewState::build (0xab0628)
     //     0xab06fc: ldr             x1, [x1, #0xdd0]
     // 0xab0700: r0 = AllocateClosure()
     //     0xab0700: bl              #0xe553e0  ; AllocateClosureStub
@@ -536,7 +536,7 @@ class _PostSetupPermissionLocationViewState extends State<dynamic> {
     //     0xab0754: add             x0, x0, HEAP, lsl #32
     // 0xab0758: mov             x1, x0
     // 0xab075c: r0 = _continue()
-    //     0xab075c: bl              #0xab0778  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionLocationViewState::_continue
+    //     0xab075c: bl              #0xab0778  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionLocationViewState::_continue
     // 0xab0760: r0 = Null
     //     0xab0760: mov             x0, NULL
     // 0xab0764: LeaveFrame
@@ -576,7 +576,7 @@ class _PostSetupPermissionLocationViewState extends State<dynamic> {
     //     0xab07b4: bl              #0x60afc8  ; InitAsyncStub
     // 0xab07b8: ldur            x2, [fp, #-0x18]
     // 0xab07bc: r1 = Function '<anonymous closure>':.
-    //     0xab07bc: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2add8] AnonymousClosure: (0x98f834), in [package:ballai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::initState (0x98f684)
+    //     0xab07bc: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2add8] AnonymousClosure: (0x98f834), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::initState (0x98f684)
     //     0xab07c0: ldr             x1, [x1, #0xdd8]
     // 0xab07c4: r0 = AllocateClosure()
     //     0xab07c4: bl              #0xe553e0  ; AllocateClosureStub
@@ -615,7 +615,7 @@ class _PostSetupPermissionLocationViewState extends State<dynamic> {
     // 0xab081c: mov             x1, x0
     // 0xab0820: ldur            x0, [fp, #-0x10]
     // 0xab0824: r0 = acknowledgeLocationStep()
-    //     0xab0824: bl              #0xab08b0  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::acknowledgeLocationStep
+    //     0xab0824: bl              #0xab08b0  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::acknowledgeLocationStep
     // 0xab0828: mov             x1, x0
     // 0xab082c: stur            x1, [fp, #-0x20]
     // 0xab0830: r0 = Await()
@@ -633,7 +633,7 @@ class _PostSetupPermissionLocationViewState extends State<dynamic> {
     //     0xab084c: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xab0850: ldur            x2, [fp, #-0x18]
     // 0xab0854: r1 = Function '<anonymous closure>':.
-    //     0xab0854: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ade0] AnonymousClosure: (0x9ecde0), in [package:ballai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
+    //     0xab0854: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ade0] AnonymousClosure: (0x9ecde0), in [package:kourtai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
     //     0xab0858: ldr             x1, [x1, #0xde0]
     // 0xab085c: r0 = AllocateClosure()
     //     0xab085c: bl              #0xe553e0  ; AllocateClosureStub
@@ -700,19 +700,19 @@ class _PostSetupPermissionCameraViewState extends State<dynamic> {
     //     0xab031c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ade8] "See your shots"
     //     0xab0320: ldr             x1, [x1, #0xde8]
     // 0xab0324: r0 = L()
-    //     0xab0324: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
-    // 0xab0328: r1 = "Ball AI uses your camera to track shots and create highlight clips."
-    //     0xab0328: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2adf0] "Ball AI uses your camera to track shots and create highlight clips."
+    //     0xab0324: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
+    // 0xab0328: r1 = "Kourt AI uses your camera to track shots and create highlight clips."
+    //     0xab0328: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2adf0] "Kourt AI uses your camera to track shots and create highlight clips."
     //     0xab032c: ldr             x1, [x1, #0xdf0]
     // 0xab0330: stur            x0, [fp, #-0x18]
     // 0xab0334: r0 = L()
-    //     0xab0334: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xab0334: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xab0338: r1 = "Continue"
     //     0xab0338: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2adc0] "Continue"
     //     0xab033c: ldr             x1, [x1, #0xdc0]
     // 0xab0340: stur            x0, [fp, #-0x20]
     // 0xab0344: r0 = L()
-    //     0xab0344: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xab0344: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xab0348: mov             x1, x0
     // 0xab034c: ldur            x0, [fp, #-8]
     // 0xab0350: stur            x1, [fp, #-0x30]
@@ -755,7 +755,7 @@ class _PostSetupPermissionCameraViewState extends State<dynamic> {
     //     0xab03b0: stur            w0, [x3, #0x1b]
     // 0xab03b4: ldur            x2, [fp, #-0x10]
     // 0xab03b8: r1 = Function '<anonymous closure>':.
-    //     0xab03b8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ae00] AnonymousClosure: (0xab03fc), in [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionCameraViewState::build (0xab02e8)
+    //     0xab03b8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ae00] AnonymousClosure: (0xab03fc), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionCameraViewState::build (0xab02e8)
     //     0xab03bc: ldr             x1, [x1, #0xe00]
     // 0xab03c0: r0 = AllocateClosure()
     //     0xab03c0: bl              #0xe553e0  ; AllocateClosureStub
@@ -797,7 +797,7 @@ class _PostSetupPermissionCameraViewState extends State<dynamic> {
     //     0xab0420: add             x0, x0, HEAP, lsl #32
     // 0xab0424: mov             x1, x0
     // 0xab0428: r0 = _continue()
-    //     0xab0428: bl              #0xab0444  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionCameraViewState::_continue
+    //     0xab0428: bl              #0xab0444  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionCameraViewState::_continue
     // 0xab042c: r0 = Null
     //     0xab042c: mov             x0, NULL
     // 0xab0430: LeaveFrame
@@ -837,7 +837,7 @@ class _PostSetupPermissionCameraViewState extends State<dynamic> {
     //     0xab0480: bl              #0x60afc8  ; InitAsyncStub
     // 0xab0484: ldur            x2, [fp, #-0x18]
     // 0xab0488: r1 = Function '<anonymous closure>':.
-    //     0xab0488: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ae08] AnonymousClosure: (0x98f834), in [package:ballai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::initState (0x98f684)
+    //     0xab0488: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ae08] AnonymousClosure: (0x98f834), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::initState (0x98f684)
     //     0xab048c: ldr             x1, [x1, #0xe08]
     // 0xab0490: r0 = AllocateClosure()
     //     0xab0490: bl              #0xe553e0  ; AllocateClosureStub
@@ -876,7 +876,7 @@ class _PostSetupPermissionCameraViewState extends State<dynamic> {
     // 0xab04e8: mov             x1, x0
     // 0xab04ec: ldur            x0, [fp, #-0x10]
     // 0xab04f0: r0 = acknowledgeCameraStep()
-    //     0xab04f0: bl              #0xab057c  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::acknowledgeCameraStep
+    //     0xab04f0: bl              #0xab057c  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::acknowledgeCameraStep
     // 0xab04f4: mov             x1, x0
     // 0xab04f8: stur            x1, [fp, #-0x20]
     // 0xab04fc: r0 = Await()
@@ -894,7 +894,7 @@ class _PostSetupPermissionCameraViewState extends State<dynamic> {
     //     0xab0518: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xab051c: ldur            x2, [fp, #-0x18]
     // 0xab0520: r1 = Function '<anonymous closure>':.
-    //     0xab0520: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ae10] AnonymousClosure: (0x9ecde0), in [package:ballai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
+    //     0xab0520: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2ae10] AnonymousClosure: (0x9ecde0), in [package:kourtai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
     //     0xab0524: ldr             x1, [x1, #0xe10]
     // 0xab0528: r0 = AllocateClosure()
     //     0xab0528: bl              #0xe553e0  ; AllocateClosureStub
@@ -996,7 +996,7 @@ class _PostSetupPermissionsCoordinatorViewState extends State<dynamic> {
     //     0x98dd8c: bl              #0x60afc8  ; InitAsyncStub
     // 0x98dd90: ldur            x1, [fp, #-0x10]
     // 0x98dd94: r0 = _evaluateMissingSteps()
-    //     0x98dd94: bl              #0x98e00c  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_evaluateMissingSteps
+    //     0x98dd94: bl              #0x98e00c  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_evaluateMissingSteps
     // 0x98dd98: mov             x1, x0
     // 0x98dd9c: stur            x1, [fp, #-0x28]
     // 0x98dda0: r0 = Await()
@@ -1015,7 +1015,7 @@ class _PostSetupPermissionsCoordinatorViewState extends State<dynamic> {
     //     0x98ddcc: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x98ddd0: ldur            x1, [fp, #-0x18]
     // 0x98ddd4: r0 = stepIndex()
-    //     0x98ddd4: bl              #0x98dfa4  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::stepIndex
+    //     0x98ddd4: bl              #0x98dfa4  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::stepIndex
     // 0x98ddd8: mov             x3, x0
     // 0x98dddc: ldur            x2, [fp, #-0x20]
     // 0x98dde0: stur            x3, [fp, #-0x30]
@@ -1116,7 +1116,7 @@ class _PostSetupPermissionsCoordinatorViewState extends State<dynamic> {
     // 0x98df08: b.eq            #0x98df2c
     // 0x98df0c: mov             x2, x3
     // 0x98df10: r1 = Function '<anonymous closure>':.
-    //     0x98df10: add             x1, PP, #0x20, lsl #12  ; [pp+0x20080] AnonymousClosure: (0x98e6ac), in [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_advance (0x98dd44)
+    //     0x98df10: add             x1, PP, #0x20, lsl #12  ; [pp+0x20080] AnonymousClosure: (0x98e6ac), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_advance (0x98dd44)
     //     0x98df14: ldr             x1, [x1, #0x80]
     // 0x98df18: r0 = AllocateClosure()
     //     0x98df18: bl              #0xe553e0  ; AllocateClosureStub
@@ -1127,7 +1127,7 @@ class _PostSetupPermissionsCoordinatorViewState extends State<dynamic> {
     // 0x98df28: b               #0x98df80
     // 0x98df2c: mov             x2, x3
     // 0x98df30: r1 = Function '<anonymous closure>':.
-    //     0x98df30: add             x1, PP, #0x20, lsl #12  ; [pp+0x20088] AnonymousClosure: (0x98dcf8), in [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_advance (0x98dd44)
+    //     0x98df30: add             x1, PP, #0x20, lsl #12  ; [pp+0x20088] AnonymousClosure: (0x98dcf8), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_advance (0x98dd44)
     //     0x98df34: ldr             x1, [x1, #0x88]
     // 0x98df38: r0 = AllocateClosure()
     //     0x98df38: bl              #0xe553e0  ; AllocateClosureStub
@@ -1227,7 +1227,7 @@ class _PostSetupPermissionsCoordinatorViewState extends State<dynamic> {
     // 0x98e090: mov             x1, x2
     // 0x98e094: mov             x2, x0
     // 0x98e098: r0 = evaluateMissingSteps()
-    //     0x98e098: bl              #0x98e0b4  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::evaluateMissingSteps
+    //     0x98e098: bl              #0x98e0b4  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::evaluateMissingSteps
     // 0x98e09c: LeaveFrame
     //     0x98e09c: mov             SP, fp
     //     0x98e0a0: ldp             fp, lr, [SP], #0x10
@@ -1295,7 +1295,7 @@ class _PostSetupPermissionsCoordinatorViewState extends State<dynamic> {
     //     0x98f860: cmp             SP, x16
     //     0x98f864: b.ls            #0x98f87c
     // 0x98f868: r0 = _routeToFirstMissingStep()
-    //     0x98f868: bl              #0x98f884  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_routeToFirstMissingStep
+    //     0x98f868: bl              #0x98f884  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_routeToFirstMissingStep
     // 0x98f86c: r0 = Null
     //     0x98f86c: mov             x0, NULL
     // 0x98f870: LeaveFrame
@@ -1335,7 +1335,7 @@ class _PostSetupPermissionsCoordinatorViewState extends State<dynamic> {
     //     0x98f8c0: bl              #0x60afc8  ; InitAsyncStub
     // 0x98f8c4: ldur            x1, [fp, #-0x10]
     // 0x98f8c8: r0 = _evaluateMissingSteps()
-    //     0x98f8c8: bl              #0x98e00c  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_evaluateMissingSteps
+    //     0x98f8c8: bl              #0x98e00c  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_evaluateMissingSteps
     // 0x98f8cc: mov             x1, x0
     // 0x98f8d0: stur            x1, [fp, #-0x20]
     // 0x98f8d4: r0 = Await()
@@ -1398,7 +1398,7 @@ class _PostSetupPermissionsCoordinatorViewState extends State<dynamic> {
     // 0x98f978: ldur            x0, [fp, #-0x10]
     // 0x98f97c: ldur            x2, [fp, #-0x18]
     // 0x98f980: r1 = Function '<anonymous closure>':.
-    //     0x98f980: add             x1, PP, #0x20, lsl #12  ; [pp+0x200e8] AnonymousClosure: (0x98f9ac), in [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_routeToFirstMissingStep (0x98f884)
+    //     0x98f980: add             x1, PP, #0x20, lsl #12  ; [pp+0x200e8] AnonymousClosure: (0x98f9ac), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_routeToFirstMissingStep (0x98f884)
     //     0x98f984: ldr             x1, [x1, #0xe8]
     // 0x98f988: r0 = AllocateClosure()
     //     0x98f988: bl              #0xe553e0  ; AllocateClosureStub
@@ -1538,10 +1538,10 @@ class _PostSetupPermissionsCoordinatorViewState extends State<dynamic> {
     //     0xaafad0: add             x2, PP, #0x20, lsl #12  ; [pp+0x20000] Obj!PostSetupPermissionStep@d399c1
     //     0xaafad4: ldr             x2, [x2]
     // 0xaafad8: r0 = _toolbarOnBack()
-    //     0xaafad8: bl              #0xaafce8  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_toolbarOnBack
+    //     0xaafad8: bl              #0xaafce8  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_toolbarOnBack
     // 0xaafadc: ldur            x2, [fp, #-0x20]
     // 0xaafae0: r1 = Function '<anonymous closure>':.
-    //     0xaafae0: add             x1, PP, #0x20, lsl #12  ; [pp+0x20008] AnonymousClosure: (0xab0298), in [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::build (0xaafa38)
+    //     0xaafae0: add             x1, PP, #0x20, lsl #12  ; [pp+0x20008] AnonymousClosure: (0xab0298), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::build (0xaafa38)
     //     0xaafae4: ldr             x1, [x1, #8]
     // 0xaafae8: stur            x0, [fp, #-0x18]
     // 0xaafaec: r0 = AllocateClosure()
@@ -1568,10 +1568,10 @@ class _PostSetupPermissionsCoordinatorViewState extends State<dynamic> {
     //     0xaafb24: add             x2, PP, #0x20, lsl #12  ; [pp+0x20018] Obj!PostSetupPermissionStep@d399a1
     //     0xaafb28: ldr             x2, [x2, #0x18]
     // 0xaafb2c: r0 = _toolbarOnBack()
-    //     0xaafb2c: bl              #0xaafce8  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_toolbarOnBack
+    //     0xaafb2c: bl              #0xaafce8  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_toolbarOnBack
     // 0xaafb30: ldur            x2, [fp, #-0x20]
     // 0xaafb34: r1 = Function '<anonymous closure>':.
-    //     0xaafb34: add             x1, PP, #0x20, lsl #12  ; [pp+0x20020] AnonymousClosure: (0xab0248), in [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::build (0xaafa38)
+    //     0xaafb34: add             x1, PP, #0x20, lsl #12  ; [pp+0x20020] AnonymousClosure: (0xab0248), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::build (0xaafa38)
     //     0xaafb38: ldr             x1, [x1, #0x20]
     // 0xaafb3c: stur            x0, [fp, #-0x18]
     // 0xaafb40: r0 = AllocateClosure()
@@ -1598,10 +1598,10 @@ class _PostSetupPermissionsCoordinatorViewState extends State<dynamic> {
     //     0xaafb78: add             x2, PP, #0x20, lsl #12  ; [pp+0x20030] Obj!PostSetupPermissionStep@d39981
     //     0xaafb7c: ldr             x2, [x2, #0x30]
     // 0xaafb80: r0 = _toolbarOnBack()
-    //     0xaafb80: bl              #0xaafce8  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_toolbarOnBack
+    //     0xaafb80: bl              #0xaafce8  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_toolbarOnBack
     // 0xaafb84: ldur            x2, [fp, #-0x20]
     // 0xaafb88: r1 = Function '<anonymous closure>':.
-    //     0xaafb88: add             x1, PP, #0x20, lsl #12  ; [pp+0x20038] AnonymousClosure: (0xab01f8), in [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::build (0xaafa38)
+    //     0xaafb88: add             x1, PP, #0x20, lsl #12  ; [pp+0x20038] AnonymousClosure: (0xab01f8), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::build (0xaafa38)
     //     0xaafb8c: ldr             x1, [x1, #0x38]
     // 0xaafb90: stur            x0, [fp, #-8]
     // 0xaafb94: r0 = AllocateClosure()
@@ -1723,7 +1723,7 @@ class _PostSetupPermissionsCoordinatorViewState extends State<dynamic> {
     // 0xaafd38: cmp             w3, NULL
     // 0xaafd3c: b.eq            #0xaafe00
     // 0xaafd40: r0 = stepIndex()
-    //     0xaafd40: bl              #0x98dfa4  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::stepIndex
+    //     0xaafd40: bl              #0x98dfa4  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::stepIndex
     // 0xaafd44: mov             x2, x0
     // 0xaafd48: r0 = BoxInt64Instr(r2)
     //     0xaafd48: sbfiz           x0, x2, #1, #0x1f
@@ -1749,7 +1749,7 @@ class _PostSetupPermissionsCoordinatorViewState extends State<dynamic> {
     // 0xaafd8c: mov             x2, x3
     // 0xaafd90: stur            x4, [fp, #-0x10]
     // 0xaafd94: r1 = Function '<anonymous closure>':.
-    //     0xaafd94: add             x1, PP, #0x20, lsl #12  ; [pp+0x200b8] AnonymousClosure: (0xab0188), in [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_toolbarOnBack (0xaafce8)
+    //     0xaafd94: add             x1, PP, #0x20, lsl #12  ; [pp+0x200b8] AnonymousClosure: (0xab0188), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_toolbarOnBack (0xaafce8)
     //     0xaafd98: ldr             x1, [x1, #0xb8]
     // 0xaafd9c: r0 = AllocateClosure()
     //     0xaafd9c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1775,7 +1775,7 @@ class _PostSetupPermissionsCoordinatorViewState extends State<dynamic> {
     //     0xaafdd8: ret             
     // 0xaafddc: ldur            x2, [fp, #-0x18]
     // 0xaafde0: r1 = Function '<anonymous closure>':.
-    //     0xaafde0: add             x1, PP, #0x20, lsl #12  ; [pp+0x200c0] AnonymousClosure: (0xaafe04), in [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_toolbarOnBack (0xaafce8)
+    //     0xaafde0: add             x1, PP, #0x20, lsl #12  ; [pp+0x200c0] AnonymousClosure: (0xaafe04), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_toolbarOnBack (0xaafce8)
     //     0xaafde4: ldr             x1, [x1, #0xc0]
     // 0xaafde8: r0 = AllocateClosure()
     //     0xaafde8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1814,7 +1814,7 @@ class _PostSetupPermissionsCoordinatorViewState extends State<dynamic> {
     //     0xaafe30: add             x2, x2, HEAP, lsl #32
     // 0xaafe34: mov             x1, x0
     // 0xaafe38: r0 = _navigateBack()
-    //     0xaafe38: bl              #0xaafe54  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_navigateBack
+    //     0xaafe38: bl              #0xaafe54  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_navigateBack
     // 0xaafe3c: r0 = Null
     //     0xaafe3c: mov             x0, NULL
     // 0xaafe40: LeaveFrame
@@ -1857,7 +1857,7 @@ class _PostSetupPermissionsCoordinatorViewState extends State<dynamic> {
     //     0xaafe9c: bl              #0x60afc8  ; InitAsyncStub
     // 0xaafea0: ldur            x1, [fp, #-0x10]
     // 0xaafea4: r0 = _evaluateMissingSteps()
-    //     0xaafea4: bl              #0x98e00c  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_evaluateMissingSteps
+    //     0xaafea4: bl              #0x98e00c  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_evaluateMissingSteps
     // 0xaafea8: mov             x1, x0
     // 0xaafeac: stur            x1, [fp, #-0x28]
     // 0xaafeb0: r0 = Await()
@@ -1876,7 +1876,7 @@ class _PostSetupPermissionsCoordinatorViewState extends State<dynamic> {
     //     0xaafedc: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xaafee0: ldur            x1, [fp, #-0x18]
     // 0xaafee4: r0 = stepIndex()
-    //     0xaafee4: bl              #0x98dfa4  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::stepIndex
+    //     0xaafee4: bl              #0x98dfa4  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::stepIndex
     // 0xaafee8: mov             x3, x0
     // 0xaafeec: ldur            x2, [fp, #-0x20]
     // 0xaafef0: stur            x3, [fp, #-0x30]
@@ -2050,7 +2050,7 @@ class _PostSetupPermissionsCoordinatorViewState extends State<dynamic> {
     // 0xab00f4: cmp             w1, NULL
     // 0xab00f8: b.eq            #0xab0118
     // 0xab00fc: r1 = Function '<anonymous closure>':.
-    //     0xab00fc: add             x1, PP, #0x20, lsl #12  ; [pp+0x200d8] AnonymousClosure: (0x98e6ac), in [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_advance (0x98dd44)
+    //     0xab00fc: add             x1, PP, #0x20, lsl #12  ; [pp+0x200d8] AnonymousClosure: (0x98e6ac), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_advance (0x98dd44)
     //     0xab0100: ldr             x1, [x1, #0xd8]
     // 0xab0104: r0 = AllocateClosure()
     //     0xab0104: bl              #0xe553e0  ; AllocateClosureStub
@@ -2060,7 +2060,7 @@ class _PostSetupPermissionsCoordinatorViewState extends State<dynamic> {
     //     0xab0110: bl              #0x6005d4  ; [package:flutter/src/widgets/framework.dart] State::setState
     // 0xab0114: b               #0xab0144
     // 0xab0118: r1 = Function '<anonymous closure>':.
-    //     0xab0118: add             x1, PP, #0x20, lsl #12  ; [pp+0x200e0] AnonymousClosure: (0x98dcf8), in [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_advance (0x98dd44)
+    //     0xab0118: add             x1, PP, #0x20, lsl #12  ; [pp+0x200e0] AnonymousClosure: (0x98dcf8), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_advance (0x98dd44)
     //     0xab011c: ldr             x1, [x1, #0xe0]
     // 0xab0120: r0 = AllocateClosure()
     //     0xab0120: bl              #0xe553e0  ; AllocateClosureStub
@@ -2120,7 +2120,7 @@ class _PostSetupPermissionsCoordinatorViewState extends State<dynamic> {
     //     0xab01ac: b.ls            #0xab01f0
     // 0xab01b0: ldr             x1, [fp, #0x10]
     // 0xab01b4: r0 = stepIndex()
-    //     0xab01b4: bl              #0x98dfa4  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::stepIndex
+    //     0xab01b4: bl              #0x98dfa4  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permission_service.dart] PostSetupPermissionService::stepIndex
     // 0xab01b8: ldur            x1, [fp, #-8]
     // 0xab01bc: ArrayLoad: r2 = r1[0]  ; List_4
     //     0xab01bc: ldur            w2, [x1, #0x17]
@@ -2169,7 +2169,7 @@ class _PostSetupPermissionsCoordinatorViewState extends State<dynamic> {
     //     0xab0224: add             x2, PP, #0x20, lsl #12  ; [pp+0x20030] Obj!PostSetupPermissionStep@d39981
     //     0xab0228: ldr             x2, [x2, #0x30]
     // 0xab022c: r0 = _advance()
-    //     0xab022c: bl              #0x98dd44  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_advance
+    //     0xab022c: bl              #0x98dd44  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_advance
     // 0xab0230: r0 = Null
     //     0xab0230: mov             x0, NULL
     // 0xab0234: LeaveFrame
@@ -2204,7 +2204,7 @@ class _PostSetupPermissionsCoordinatorViewState extends State<dynamic> {
     //     0xab0274: add             x2, PP, #0x20, lsl #12  ; [pp+0x20018] Obj!PostSetupPermissionStep@d399a1
     //     0xab0278: ldr             x2, [x2, #0x18]
     // 0xab027c: r0 = _advance()
-    //     0xab027c: bl              #0x98dd44  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_advance
+    //     0xab027c: bl              #0x98dd44  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_advance
     // 0xab0280: r0 = Null
     //     0xab0280: mov             x0, NULL
     // 0xab0284: LeaveFrame
@@ -2239,7 +2239,7 @@ class _PostSetupPermissionsCoordinatorViewState extends State<dynamic> {
     //     0xab02c4: add             x2, PP, #0x20, lsl #12  ; [pp+0x20000] Obj!PostSetupPermissionStep@d399c1
     //     0xab02c8: ldr             x2, [x2]
     // 0xab02cc: r0 = _advance()
-    //     0xab02cc: bl              #0x98dd44  ; [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_advance
+    //     0xab02cc: bl              #0x98dd44  ; [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_advance
     // 0xab02d0: r0 = Null
     //     0xab02d0: mov             x0, NULL
     // 0xab02d4: LeaveFrame
@@ -2421,8 +2421,8 @@ class _PostSetupPermissionStepScaffold extends StatelessWidget {
     // 0xc27668: cmp             w1, NULL
     // 0xc2766c: b.eq            #0xc27790
     // 0xc27670: ldur            x1, [fp, #-0x10]
-    // 0xc27674: r0 = BallAiThemeContext.ballAiBackButtonFill()
-    //     0xc27674: bl              #0x9d6208  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiBackButtonFill
+    // 0xc27674: r0 = KourtAiThemeContext.kourtAiBackButtonFill()
+    //     0xc27674: bl              #0x9d6208  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiBackButtonFill
     // 0xc27678: r16 = Instance_Size
     //     0xc27678: add             x16, PP, #0x24, lsl #12  ; [pp+0x24dd8] Obj!Size@d2e1b1
     //     0xc2767c: ldr             x16, [x16, #0xdd8]
@@ -2434,7 +2434,7 @@ class _PostSetupPermissionStepScaffold extends StatelessWidget {
     //     0xc2768c: bl              #0xa0ee74  ; [package:flutter/src/material/icon_button.dart] IconButton::styleFrom
     // 0xc27690: ldur            x2, [fp, #-0x18]
     // 0xc27694: r1 = Function '<anonymous closure>':.
-    //     0xc27694: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e5e0] AnonymousClosure: (0xc27ec0), in [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionStepScaffold::build (0xc27608)
+    //     0xc27694: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e5e0] AnonymousClosure: (0xc27ec0), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionStepScaffold::build (0xc27608)
     //     0xc27698: ldr             x1, [x1, #0x5e0]
     // 0xc2769c: stur            x0, [fp, #-0x28]
     // 0xc276a0: r0 = AllocateClosure()
@@ -2555,8 +2555,8 @@ class _PostSetupPermissionStepScaffold extends StatelessWidget {
     //     0xc277d4: add             x3, x3, HEAP, lsl #32
     // 0xc277d8: ldur            x1, [fp, #-0x10]
     // 0xc277dc: stur            x3, [fp, #-0x28]
-    // 0xc277e0: r0 = BallAiThemeContext.ballAiScreenTitleStyle()
-    //     0xc277e0: bl              #0x9efba4  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiScreenTitleStyle
+    // 0xc277e0: r0 = KourtAiThemeContext.kourtAiScreenTitleStyle()
+    //     0xc277e0: bl              #0x9efba4  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiScreenTitleStyle
     // 0xc277e4: r16 = 24.000000
     //     0xc277e4: add             x16, PP, #0xd, lsl #12  ; [pp+0xd100] 24
     //     0xc277e8: ldr             x16, [x16, #0x100]
@@ -2589,8 +2589,8 @@ class _PostSetupPermissionStepScaffold extends StatelessWidget {
     //     0xc27830: add             x4, x4, HEAP, lsl #32
     // 0xc27834: ldur            x1, [fp, #-0x10]
     // 0xc27838: stur            x4, [fp, #-0x28]
-    // 0xc2783c: r0 = BallAiThemeContext.ballAiScreenSubtitleStyle()
-    //     0xc2783c: bl              #0x9eda00  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiScreenSubtitleStyle
+    // 0xc2783c: r0 = KourtAiThemeContext.kourtAiScreenSubtitleStyle()
+    //     0xc2783c: bl              #0x9eda00  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiScreenSubtitleStyle
     // 0xc27840: stur            x0, [fp, #-0x38]
     // 0xc27844: r0 = Text()
     //     0xc27844: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2631,7 +2631,7 @@ class _PostSetupPermissionStepScaffold extends StatelessWidget {
     // 0xc278a4: b               #0xc278c0
     // 0xc278a8: ldur            x2, [fp, #-0x18]
     // 0xc278ac: r1 = Function '<anonymous closure>':.
-    //     0xc278ac: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e5f8] AnonymousClosure: (0xc27e58), in [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionStepScaffold::build (0xc27608)
+    //     0xc278ac: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e5f8] AnonymousClosure: (0xc27e58), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionStepScaffold::build (0xc27608)
     //     0xc278b0: ldr             x1, [x1, #0x5f8]
     // 0xc278b4: r0 = AllocateClosure()
     //     0xc278b4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2833,7 +2833,7 @@ class _PostSetupPermissionStepScaffold extends StatelessWidget {
     // 0xc27ac8: b               #0xc27ae4
     // 0xc27acc: ldur            x2, [fp, #-0x18]
     // 0xc27ad0: r1 = Function '<anonymous closure>':.
-    //     0xc27ad0: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e610] AnonymousClosure: (0xc27de4), in [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionStepScaffold::build (0xc27608)
+    //     0xc27ad0: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e610] AnonymousClosure: (0xc27de4), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionStepScaffold::build (0xc27608)
     //     0xc27ad4: ldr             x1, [x1, #0x610]
     // 0xc27ad8: r0 = AllocateClosure()
     //     0xc27ad8: bl              #0xe553e0  ; AllocateClosureStub
@@ -2841,8 +2841,8 @@ class _PostSetupPermissionStepScaffold extends StatelessWidget {
     // 0xc27ae0: ldur            x0, [fp, #-0x30]
     // 0xc27ae4: ldur            x1, [fp, #-0x10]
     // 0xc27ae8: stur            x2, [fp, #-8]
-    // 0xc27aec: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc27aec: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc27aec: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc27aec: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc27af0: stur            x0, [fp, #-0x10]
     // 0xc27af4: r0 = TextStyle()
     //     0xc27af4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)

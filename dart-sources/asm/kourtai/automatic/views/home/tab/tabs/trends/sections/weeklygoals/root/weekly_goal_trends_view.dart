@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/weeklygoals/root/weekly_goal_trends_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/weeklygoals/root/weekly_goal_trends_view.dart
 
 // class id: 1048983, size: 0x8
 class :: {
@@ -104,7 +104,7 @@ class WeeklyGoalTrendsView extends StatelessWidget {
     //     0xc0808c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49218] "Activity rings"
     //     0xc08090: ldr             x1, [x1, #0x218]
     // 0xc08094: r0 = L()
-    //     0xc08094: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc08094: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc08098: stur            x0, [fp, #-0x30]
     // 0xc0809c: r0 = ActivityRingTrendsChartView()
     //     0xc0809c: bl              #0xc081b4  ; AllocateActivityRingTrendsChartViewStub -> ActivityRingTrendsChartView (size=0x14)
@@ -116,8 +116,8 @@ class WeeklyGoalTrendsView extends StatelessWidget {
     // 0xc080b0: ldur            x0, [fp, #-0x10]
     // 0xc080b4: StoreField: r1->field_f = r0
     //     0xc080b4: stur            w0, [x1, #0xf]
-    // 0xc080b8: r0 = BallAiAnalyticsCard()
-    //     0xc080b8: bl              #0xa63928  ; AllocateBallAiAnalyticsCardStub -> BallAiAnalyticsCard (size=0x20)
+    // 0xc080b8: r0 = KourtAiAnalyticsCard()
+    //     0xc080b8: bl              #0xa63928  ; AllocateKourtAiAnalyticsCardStub -> KourtAiAnalyticsCard (size=0x20)
     // 0xc080bc: mov             x3, x0
     // 0xc080c0: ldur            x0, [fp, #-0x30]
     // 0xc080c4: stur            x3, [fp, #-0x10]
@@ -128,7 +128,7 @@ class WeeklyGoalTrendsView extends StatelessWidget {
     //     0xc080d0: stur            w0, [x3, #0xf]
     // 0xc080d4: ldur            x2, [fp, #-0x20]
     // 0xc080d8: r1 = Function '<anonymous closure>':.
-    //     0xc080d8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49220] AnonymousClosure: (0xc081c0), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/weeklygoals/root/weekly_goal_trends_view.dart] WeeklyGoalTrendsView::build (0xc07f98)
+    //     0xc080d8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49220] AnonymousClosure: (0xc081c0), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/weeklygoals/root/weekly_goal_trends_view.dart] WeeklyGoalTrendsView::build (0xc07f98)
     //     0xc080dc: ldr             x1, [x1, #0x220]
     // 0xc080e0: r0 = AllocateClosure()
     //     0xc080e0: bl              #0xe553e0  ; AllocateClosureStub
@@ -243,7 +243,7 @@ class WeeklyGoalTrendsView extends StatelessWidget {
     //     0xc081f4: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xc081f8: ldur            x2, [fp, #-8]
     // 0xc081fc: r1 = Function '<anonymous closure>':.
-    //     0xc081fc: add             x1, PP, #0x49, lsl #12  ; [pp+0x49228] AnonymousClosure: (0xc0825c), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/weeklygoals/root/weekly_goal_trends_view.dart] WeeklyGoalTrendsView::build (0xc07f98)
+    //     0xc081fc: add             x1, PP, #0x49, lsl #12  ; [pp+0x49228] AnonymousClosure: (0xc0825c), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/weeklygoals/root/weekly_goal_trends_view.dart] WeeklyGoalTrendsView::build (0xc07f98)
     //     0xc08200: ldr             x1, [x1, #0x228]
     // 0xc08204: stur            x0, [fp, #-8]
     // 0xc08208: r0 = AllocateClosure()

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/managers/core/comment_like_manager.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/managers/core/comment_like_manager.dart
 
 // class id: 1048645, size: 0x8
 class :: {
@@ -14,7 +14,7 @@ class CommentLikeManager extends ChangeNotifier {
     //     0x9b573c: mov             fp, SP
     // 0x9b5740: ldr             x2, [fp, #0x10]
     // 0x9b5744: r1 = Function 'dispose':.
-    //     0x9b5744: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d5b8] AnonymousClosure: (0x9b5780), in [package:ballai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::dispose (0x9babbc)
+    //     0x9b5744: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d5b8] AnonymousClosure: (0x9b5780), in [package:kourtai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::dispose (0x9babbc)
     //     0x9b5748: ldr             x1, [x1, #0x5b8]
     // 0x9b574c: r0 = AllocateClosure()
     //     0x9b574c: bl              #0xe553e0  ; AllocateClosureStub
@@ -39,7 +39,7 @@ class CommentLikeManager extends ChangeNotifier {
     //     0x9b5798: cmp             SP, x16
     //     0x9b579c: b.ls            #0x9b57b0
     // 0x9b57a0: r0 = dispose()
-    //     0x9b57a0: bl              #0x9babbc  ; [package:ballai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::dispose
+    //     0x9b57a0: bl              #0x9babbc  ; [package:kourtai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::dispose
     // 0x9b57a4: LeaveFrame
     //     0x9b57a4: mov             SP, fp
     //     0x9b57a8: ldp             fp, lr, [SP], #0x10
@@ -70,7 +70,7 @@ class CommentLikeManager extends ChangeNotifier {
     // 0x9babe4: mov             x2, x0
     // 0x9babe8: stur            x3, [fp, #-8]
     // 0x9babec: r1 = Function '_onUserChanged@705079909':.
-    //     0x9babec: add             x1, PP, #0x11, lsl #12  ; [pp+0x114b8] AnonymousClosure: (0x9bac3c), in [package:ballai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::_onUserChanged (0x9bac74)
+    //     0x9babec: add             x1, PP, #0x11, lsl #12  ; [pp+0x114b8] AnonymousClosure: (0x9bac3c), in [package:kourtai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::_onUserChanged (0x9bac74)
     //     0x9babf0: ldr             x1, [x1, #0x4b8]
     // 0x9babf4: r0 = AllocateClosure()
     //     0x9babf4: bl              #0xe553e0  ; AllocateClosureStub
@@ -116,7 +116,7 @@ class CommentLikeManager extends ChangeNotifier {
     //     0x9bac54: cmp             SP, x16
     //     0x9bac58: b.ls            #0x9bac6c
     // 0x9bac5c: r0 = _onUserChanged()
-    //     0x9bac5c: bl              #0x9bac74  ; [package:ballai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::_onUserChanged
+    //     0x9bac5c: bl              #0x9bac74  ; [package:kourtai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::_onUserChanged
     // 0x9bac60: LeaveFrame
     //     0x9bac60: mov             SP, fp
     //     0x9bac64: ldp             fp, lr, [SP], #0x10
@@ -282,13 +282,13 @@ class CommentLikeManager extends ChangeNotifier {
     //     0x9bae10: bl              #0x938d20  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQuery::snapshots
     // 0x9bae14: ldur            x2, [fp, #-0x18]
     // 0x9bae18: r1 = Function '<anonymous closure>':.
-    //     0x9bae18: add             x1, PP, #0x11, lsl #12  ; [pp+0x114d8] AnonymousClosure: (0x9baf10), in [package:ballai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::_onUserChanged (0x9bac74)
+    //     0x9bae18: add             x1, PP, #0x11, lsl #12  ; [pp+0x114d8] AnonymousClosure: (0x9baf10), in [package:kourtai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::_onUserChanged (0x9bac74)
     //     0x9bae1c: ldr             x1, [x1, #0x4d8]
     // 0x9bae20: stur            x0, [fp, #-0x10]
     // 0x9bae24: r0 = AllocateClosure()
     //     0x9bae24: bl              #0xe553e0  ; AllocateClosureStub
     // 0x9bae28: r1 = Function '<anonymous closure>':.
-    //     0x9bae28: add             x1, PP, #0x11, lsl #12  ; [pp+0x114e0] AnonymousClosure: (0x9bae8c), in [package:ballai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::_onUserChanged (0x9bac74)
+    //     0x9bae28: add             x1, PP, #0x11, lsl #12  ; [pp+0x114e0] AnonymousClosure: (0x9bae8c), in [package:kourtai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::_onUserChanged (0x9bac74)
     //     0x9bae2c: ldr             x1, [x1, #0x4e0]
     // 0x9bae30: r2 = Null
     //     0x9bae30: mov             x2, NULL
@@ -450,7 +450,7 @@ class CommentLikeManager extends ChangeNotifier {
     // 0x9bafc4: r1 = Null
     //     0x9bafc4: mov             x1, NULL
     // 0x9bafc8: r0 = CommentLikeModel.fromFirestore()
-    //     0x9bafc8: bl              #0x9bb078  ; [package:ballai/automatic/models/core/comment/comment_like_model.dart] CommentLikeModel::CommentLikeModel.fromFirestore
+    //     0x9bafc8: bl              #0x9bb078  ; [package:kourtai/automatic/models/core/comment/comment_like_model.dart] CommentLikeModel::CommentLikeModel.fromFirestore
     // 0x9bafcc: LoadField: r3 = r0->field_f
     //     0x9bafcc: ldur            w3, [x0, #0xf]
     // 0x9bafd0: DecompressPointer r3
@@ -588,7 +588,7 @@ class CommentLikeManager extends ChangeNotifier {
     //     0x9df914: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x9df918: ldur            x1, [fp, #-0x18]
     // 0x9df91c: r0 = documentId()
-    //     0x9df91c: bl              #0x931558  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::documentId
+    //     0x9df91c: bl              #0x931558  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::documentId
     // 0x9df920: mov             x3, x0
     // 0x9df924: ldur            x0, [fp, #-0x10]
     // 0x9df928: stur            x3, [fp, #-0x18]
@@ -685,7 +685,7 @@ class CommentLikeManager extends ChangeNotifier {
     // 0x9dfa20: mov             x1, x7
     // 0x9dfa24: mov             x2, x3
     // 0x9dfa28: r0 = documentId()
-    //     0x9dfa28: bl              #0x931558  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::documentId
+    //     0x9dfa28: bl              #0x931558  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::documentId
     // 0x9dfa2c: stur            x0, [fp, #-0x48]
     // 0x9dfa30: r0 = CommentLikeModel()
     //     0x9dfa30: bl              #0x9bb550  ; AllocateCommentLikeModelStub -> CommentLikeModel (size=0x24)
@@ -733,7 +733,7 @@ class CommentLikeManager extends ChangeNotifier {
     // 0x9dfaa4: ldur            x1, [fp, #-0x50]
     // 0x9dfaa8: stur            x0, [fp, #-0x10]
     // 0x9dfaac: r0 = toFirestore()
-    //     0x9dfaac: bl              #0x9dfadc  ; [package:ballai/automatic/models/core/comment/comment_like_model.dart] CommentLikeModel::toFirestore
+    //     0x9dfaac: bl              #0x9dfadc  ; [package:kourtai/automatic/models/core/comment/comment_like_model.dart] CommentLikeModel::toFirestore
     // 0x9dfab0: ldur            x1, [fp, #-0x10]
     // 0x9dfab4: mov             x2, x0
     // 0x9dfab8: r4 = const [0, 0x2, 0, 0x2, null]
@@ -848,7 +848,7 @@ class CommentLikeManager extends ChangeNotifier {
     //     0xc2ad60: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0xc2ad64: mov             x2, x3
     // 0xc2ad68: r1 = Function '_onUserChanged@705079909':.
-    //     0xc2ad68: add             x1, PP, #0x11, lsl #12  ; [pp+0x114b8] AnonymousClosure: (0x9bac3c), in [package:ballai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::_onUserChanged (0x9bac74)
+    //     0xc2ad68: add             x1, PP, #0x11, lsl #12  ; [pp+0x114b8] AnonymousClosure: (0x9bac3c), in [package:kourtai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::_onUserChanged (0x9bac74)
     //     0xc2ad6c: ldr             x1, [x1, #0x4b8]
     // 0xc2ad70: r0 = AllocateClosure()
     //     0xc2ad70: bl              #0xe553e0  ; AllocateClosureStub
@@ -858,7 +858,7 @@ class CommentLikeManager extends ChangeNotifier {
     //     0xc2ad7c: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0xc2ad80: ldur            x1, [fp, #-8]
     // 0xc2ad84: r0 = _onUserChanged()
-    //     0xc2ad84: bl              #0x9bac74  ; [package:ballai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::_onUserChanged
+    //     0xc2ad84: bl              #0x9bac74  ; [package:kourtai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::_onUserChanged
     // 0xc2ad88: r0 = Null
     //     0xc2ad88: mov             x0, NULL
     // 0xc2ad8c: LeaveFrame

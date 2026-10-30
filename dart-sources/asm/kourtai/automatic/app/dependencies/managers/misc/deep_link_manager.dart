@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart
 
 // class id: 1048656, size: 0x8
 class :: {
@@ -28,11 +28,11 @@ class DeepLinkManager extends ChangeNotifier {
     //     0x65dfa4: cmp             SP, x16
     //     0x65dfa8: b.ls            #0x65e630
     // 0x65dfac: r0 = _normalizedPushData()
-    //     0x65dfac: bl              #0x65f700  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizedPushData
+    //     0x65dfac: bl              #0x65f700  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizedPushData
     // 0x65dfb0: mov             x1, x0
     // 0x65dfb4: stur            x0, [fp, #-0x10]
     // 0x65dfb8: r0 = _pushType()
-    //     0x65dfb8: bl              #0x65f6b4  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_pushType
+    //     0x65dfb8: bl              #0x65f6b4  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_pushType
     // 0x65dfbc: stur            x0, [fp, #-0x18]
     // 0x65dfc0: cmp             w0, NULL
     // 0x65dfc4: b.eq            #0x65dfd0
@@ -136,7 +136,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e0e4: r4 = const [0, 0x3, 0x1, 0x3, null]
     //     0x65e0e4: ldr             x4, [PP, #0xd90]  ; [pp+0xd90] List(5) [0, 0x3, 0x1, 0x3, Null]
     // 0x65e0e8: r0 = _string()
-    //     0x65e0e8: bl              #0x65f28c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
+    //     0x65e0e8: bl              #0x65f28c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
     // 0x65e0ec: cmp             w0, NULL
     // 0x65e0f0: b.ne            #0x65e11c
     // 0x65e0f4: r16 = "deep_link"
@@ -150,10 +150,10 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e10c: r4 = const [0, 0x3, 0x1, 0x3, null]
     //     0x65e10c: ldr             x4, [PP, #0xd90]  ; [pp+0xd90] List(5) [0, 0x3, 0x1, 0x3, Null]
     // 0x65e110: r0 = _string()
-    //     0x65e110: bl              #0x65f28c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
+    //     0x65e110: bl              #0x65f28c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
     // 0x65e114: mov             x1, x0
     // 0x65e118: r0 = _workoutIdFromDeepLink()
-    //     0x65e118: bl              #0x65f1e4  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_workoutIdFromDeepLink
+    //     0x65e118: bl              #0x65f1e4  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_workoutIdFromDeepLink
     // 0x65e11c: stur            x0, [fp, #-0x20]
     // 0x65e120: r16 = "exportVariant"
     //     0x65e120: add             x16, PP, #0x13, lsl #12  ; [pp+0x13438] "exportVariant"
@@ -169,10 +169,10 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e140: r4 = const [0, 0x4, 0x2, 0x4, null]
     //     0x65e140: ldr             x4, [PP, #0x1450]  ; [pp+0x1450] List(5) [0, 0x4, 0x2, 0x4, Null]
     // 0x65e144: r0 = _string()
-    //     0x65e144: bl              #0x65f28c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
+    //     0x65e144: bl              #0x65f28c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
     // 0x65e148: mov             x1, x0
     // 0x65e14c: r0 = _normalizedOverlayExportVariant()
-    //     0x65e14c: bl              #0x65f154  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizedOverlayExportVariant
+    //     0x65e14c: bl              #0x65f154  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizedOverlayExportVariant
     // 0x65e150: stur            x0, [fp, #-0x28]
     // 0x65e154: r0 = DeepLinkNavigationRequest()
     //     0x65e154: bl              #0x65f148  ; AllocateDeepLinkNavigationRequestStub -> DeepLinkNavigationRequest (size=0x3c)
@@ -201,7 +201,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e18c: mov             x2, x1
     // 0x65e190: ldur            x1, [fp, #-8]
     // 0x65e194: r0 = _stagePending()
-    //     0x65e194: bl              #0x65f0a0  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_stagePending
+    //     0x65e194: bl              #0x65f0a0  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_stagePending
     // 0x65e198: r0 = Null
     //     0x65e198: mov             x0, NULL
     // 0x65e19c: LeaveFrame
@@ -236,7 +236,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e1f0: r4 = const [0, 0x3, 0x1, 0x3, null]
     //     0x65e1f0: ldr             x4, [PP, #0xd90]  ; [pp+0xd90] List(5) [0, 0x3, 0x1, 0x3, Null]
     // 0x65e1f4: r0 = _string()
-    //     0x65e1f4: bl              #0x65f28c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
+    //     0x65e1f4: bl              #0x65f28c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
     // 0x65e1f8: cmp             w0, NULL
     // 0x65e1fc: b.ne            #0x65e228
     // 0x65e200: r16 = "deep_link"
@@ -250,10 +250,10 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e218: r4 = const [0, 0x3, 0x1, 0x3, null]
     //     0x65e218: ldr             x4, [PP, #0xd90]  ; [pp+0xd90] List(5) [0, 0x3, 0x1, 0x3, Null]
     // 0x65e21c: r0 = _string()
-    //     0x65e21c: bl              #0x65f28c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
+    //     0x65e21c: bl              #0x65f28c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
     // 0x65e220: mov             x1, x0
     // 0x65e224: r0 = _workoutIdFromDeepLink()
-    //     0x65e224: bl              #0x65f1e4  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_workoutIdFromDeepLink
+    //     0x65e224: bl              #0x65f1e4  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_workoutIdFromDeepLink
     // 0x65e228: stur            x0, [fp, #-0x20]
     // 0x65e22c: r0 = DeepLinkNavigationRequest()
     //     0x65e22c: bl              #0x65f148  ; AllocateDeepLinkNavigationRequestStub -> DeepLinkNavigationRequest (size=0x3c)
@@ -279,7 +279,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e25c: mov             x2, x1
     // 0x65e260: ldur            x1, [fp, #-8]
     // 0x65e264: r0 = _stagePending()
-    //     0x65e264: bl              #0x65f0a0  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_stagePending
+    //     0x65e264: bl              #0x65f0a0  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_stagePending
     // 0x65e268: r0 = Null
     //     0x65e268: mov             x0, NULL
     // 0x65e26c: LeaveFrame
@@ -308,7 +308,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e2b0: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x65e2b0: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x65e2b4: r0 = _string()
-    //     0x65e2b4: bl              #0x65f28c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
+    //     0x65e2b4: bl              #0x65f28c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
     // 0x65e2b8: ldur            x1, [fp, #-0x10]
     // 0x65e2bc: r2 = "funnel"
     //     0x65e2bc: add             x2, PP, #0x13, lsl #12  ; [pp+0x13468] "funnel"
@@ -317,12 +317,12 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e2c8: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x65e2c8: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x65e2cc: r0 = _string()
-    //     0x65e2cc: bl              #0x65f28c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
+    //     0x65e2cc: bl              #0x65f28c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
     // 0x65e2d0: ldur            x1, [fp, #-8]
     // 0x65e2d4: ldur            x2, [fp, #-0x20]
     // 0x65e2d8: mov             x3, x0
     // 0x65e2dc: r0 = receiveNotificationFunnelTap()
-    //     0x65e2dc: bl              #0x65eca8  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::receiveNotificationFunnelTap
+    //     0x65e2dc: bl              #0x65eca8  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::receiveNotificationFunnelTap
     // 0x65e2e0: r0 = Null
     //     0x65e2e0: mov             x0, NULL
     // 0x65e2e4: LeaveFrame
@@ -332,7 +332,7 @@ class DeepLinkManager extends ChangeNotifier {
     //     0x65e2ec: ret             
     // 0x65e2f0: ldur            x1, [fp, #-0x18]
     // 0x65e2f4: r0 = _isRedeemNavType()
-    //     0x65e2f4: bl              #0x65ec3c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_isRedeemNavType
+    //     0x65e2f4: bl              #0x65ec3c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_isRedeemNavType
     // 0x65e2f8: tbnz            w0, #4, #0x65e334
     // 0x65e2fc: r16 = "value"
     //     0x65e2fc: ldr             x16, [PP, #0x4c50]  ; [pp+0x4c50] "value"
@@ -343,12 +343,12 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e30c: r4 = const [0, 0x3, 0x1, 0x3, null]
     //     0x65e30c: ldr             x4, [PP, #0xd90]  ; [pp+0xd90] List(5) [0, 0x3, 0x1, 0x3, Null]
     // 0x65e310: r0 = _string()
-    //     0x65e310: bl              #0x65f28c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
+    //     0x65e310: bl              #0x65f28c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
     // 0x65e314: ldur            x1, [fp, #-8]
     // 0x65e318: ldur            x2, [fp, #-0x18]
     // 0x65e31c: mov             x3, x0
     // 0x65e320: r0 = _stageRedeemDeepLink()
-    //     0x65e320: bl              #0x65e988  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_stageRedeemDeepLink
+    //     0x65e320: bl              #0x65e988  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_stageRedeemDeepLink
     // 0x65e324: r0 = Null
     //     0x65e324: mov             x0, NULL
     // 0x65e328: LeaveFrame
@@ -406,7 +406,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e3cc: r4 = const [0, 0x4, 0x2, 0x4, null]
     //     0x65e3cc: ldr             x4, [PP, #0x1450]  ; [pp+0x1450] List(5) [0, 0x4, 0x2, 0x4, Null]
     // 0x65e3d0: r0 = _string()
-    //     0x65e3d0: bl              #0x65f28c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
+    //     0x65e3d0: bl              #0x65f28c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
     // 0x65e3d4: ldur            x3, [fp, #-8]
     // 0x65e3d8: StoreField: r3->field_27 = r0
     //     0x65e3d8: stur            w0, [x3, #0x27]
@@ -427,7 +427,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e40c: r4 = const [0, 0x3, 0x1, 0x3, null]
     //     0x65e40c: ldr             x4, [PP, #0xd90]  ; [pp+0xd90] List(5) [0, 0x3, 0x1, 0x3, Null]
     // 0x65e410: r0 = _string()
-    //     0x65e410: bl              #0x65f28c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
+    //     0x65e410: bl              #0x65f28c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
     // 0x65e414: stur            x0, [fp, #-0x20]
     // 0x65e418: r16 = "team_membership_id"
     //     0x65e418: add             x16, PP, #0x13, lsl #12  ; [pp+0x134a0] "team_membership_id"
@@ -440,7 +440,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e430: r4 = const [0, 0x3, 0x1, 0x3, null]
     //     0x65e430: ldr             x4, [PP, #0xd90]  ; [pp+0xd90] List(5) [0, 0x3, 0x1, 0x3, Null]
     // 0x65e434: r0 = _string()
-    //     0x65e434: bl              #0x65f28c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
+    //     0x65e434: bl              #0x65f28c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
     // 0x65e438: stur            x0, [fp, #-0x28]
     // 0x65e43c: r0 = DeepLinkNavigationRequest()
     //     0x65e43c: bl              #0x65f148  ; AllocateDeepLinkNavigationRequestStub -> DeepLinkNavigationRequest (size=0x3c)
@@ -467,7 +467,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e470: mov             x2, x1
     // 0x65e474: ldur            x1, [fp, #-8]
     // 0x65e478: r0 = _stagePending()
-    //     0x65e478: bl              #0x65f0a0  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_stagePending
+    //     0x65e478: bl              #0x65f0a0  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_stagePending
     // 0x65e47c: r0 = Null
     //     0x65e47c: mov             x0, NULL
     // 0x65e480: LeaveFrame
@@ -489,12 +489,12 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e4ac: r4 = const [0, 0x3, 0x1, 0x3, null]
     //     0x65e4ac: ldr             x4, [PP, #0xd90]  ; [pp+0xd90] List(5) [0, 0x3, 0x1, 0x3, Null]
     // 0x65e4b0: r0 = _string()
-    //     0x65e4b0: bl              #0x65f28c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
+    //     0x65e4b0: bl              #0x65f28c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
     // 0x65e4b4: ldur            x1, [fp, #-0x18]
     // 0x65e4b8: ldur            x2, [fp, #-0x10]
     // 0x65e4bc: stur            x0, [fp, #-0x20]
     // 0x65e4c0: r0 = _userIdForType()
-    //     0x65e4c0: bl              #0x65e880  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_userIdForType
+    //     0x65e4c0: bl              #0x65e880  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_userIdForType
     // 0x65e4c4: stur            x0, [fp, #-0x28]
     // 0x65e4c8: r16 = "team_id"
     //     0x65e4c8: add             x16, PP, #0x13, lsl #12  ; [pp+0x13498] "team_id"
@@ -507,7 +507,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e4e0: r4 = const [0, 0x3, 0x1, 0x3, null]
     //     0x65e4e0: ldr             x4, [PP, #0xd90]  ; [pp+0xd90] List(5) [0, 0x3, 0x1, 0x3, Null]
     // 0x65e4e4: r0 = _string()
-    //     0x65e4e4: bl              #0x65f28c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
+    //     0x65e4e4: bl              #0x65f28c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
     // 0x65e4e8: stur            x0, [fp, #-0x30]
     // 0x65e4ec: r16 = "team_membership_id"
     //     0x65e4ec: add             x16, PP, #0x13, lsl #12  ; [pp+0x134a0] "team_membership_id"
@@ -520,7 +520,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e504: r4 = const [0, 0x3, 0x1, 0x3, null]
     //     0x65e504: ldr             x4, [PP, #0xd90]  ; [pp+0xd90] List(5) [0, 0x3, 0x1, 0x3, Null]
     // 0x65e508: r0 = _string()
-    //     0x65e508: bl              #0x65f28c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
+    //     0x65e508: bl              #0x65f28c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
     // 0x65e50c: stur            x0, [fp, #-0x38]
     // 0x65e510: r16 = "conversation_id"
     //     0x65e510: add             x16, PP, #0x13, lsl #12  ; [pp+0x134b0] "conversation_id"
@@ -533,7 +533,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e528: r4 = const [0, 0x3, 0x1, 0x3, null]
     //     0x65e528: ldr             x4, [PP, #0xd90]  ; [pp+0xd90] List(5) [0, 0x3, 0x1, 0x3, Null]
     // 0x65e52c: r0 = _string()
-    //     0x65e52c: bl              #0x65f28c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
+    //     0x65e52c: bl              #0x65f28c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
     // 0x65e530: stur            x0, [fp, #-0x40]
     // 0x65e534: r16 = "sender_id"
     //     0x65e534: add             x16, PP, #0x13, lsl #12  ; [pp+0x134c0] "sender_id"
@@ -553,7 +553,7 @@ class DeepLinkManager extends ChangeNotifier {
     //     0x65e55c: add             x4, PP, #0xc, lsl #12  ; [pp+0xc620] List(5) [0, 0x5, 0x3, 0x5, Null]
     //     0x65e560: ldr             x4, [x4, #0x620]
     // 0x65e564: r0 = _string()
-    //     0x65e564: bl              #0x65f28c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
+    //     0x65e564: bl              #0x65f28c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
     // 0x65e568: stur            x0, [fp, #-0x48]
     // 0x65e56c: r16 = "message_id"
     //     0x65e56c: add             x16, PP, #0x13, lsl #12  ; [pp+0x134d8] "message_id"
@@ -565,10 +565,10 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e580: r4 = const [0, 0x3, 0x1, 0x3, null]
     //     0x65e580: ldr             x4, [PP, #0xd90]  ; [pp+0xd90] List(5) [0, 0x3, 0x1, 0x3, Null]
     // 0x65e584: r0 = _string()
-    //     0x65e584: bl              #0x65f28c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
+    //     0x65e584: bl              #0x65f28c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
     // 0x65e588: ldur            x1, [fp, #-0x10]
     // 0x65e58c: r0 = _bool()
-    //     0x65e58c: bl              #0x65e638  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_bool
+    //     0x65e58c: bl              #0x65e638  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_bool
     // 0x65e590: stur            x0, [fp, #-0x50]
     // 0x65e594: r16 = "deep_link_sub1"
     //     0x65e594: add             x16, PP, #0x13, lsl #12  ; [pp+0x134e0] "deep_link_sub1"
@@ -581,7 +581,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e5ac: r4 = const [0, 0x3, 0x1, 0x3, null]
     //     0x65e5ac: ldr             x4, [PP, #0xd90]  ; [pp+0xd90] List(5) [0, 0x3, 0x1, 0x3, Null]
     // 0x65e5b0: r0 = _string()
-    //     0x65e5b0: bl              #0x65f28c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
+    //     0x65e5b0: bl              #0x65f28c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
     // 0x65e5b4: stur            x0, [fp, #-0x10]
     // 0x65e5b8: r0 = DeepLinkNavigationRequest()
     //     0x65e5b8: bl              #0x65f148  ; AllocateDeepLinkNavigationRequestStub -> DeepLinkNavigationRequest (size=0x3c)
@@ -622,7 +622,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e614: mov             x2, x1
     // 0x65e618: ldur            x1, [fp, #-8]
     // 0x65e61c: r0 = _stagePending()
-    //     0x65e61c: bl              #0x65f0a0  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_stagePending
+    //     0x65e61c: bl              #0x65f0a0  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_stagePending
     // 0x65e620: r0 = Null
     //     0x65e620: mov             x0, NULL
     // 0x65e624: LeaveFrame
@@ -882,7 +882,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e8dc: r4 = const [0, 0x4, 0x2, 0x4, null]
     //     0x65e8dc: ldr             x4, [PP, #0x1450]  ; [pp+0x1450] List(5) [0, 0x4, 0x2, 0x4, Null]
     // 0x65e8e0: r0 = _string()
-    //     0x65e8e0: bl              #0x65f28c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
+    //     0x65e8e0: bl              #0x65f28c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
     // 0x65e8e4: LeaveFrame
     //     0x65e8e4: mov             SP, fp
     //     0x65e8e8: ldp             fp, lr, [SP], #0x10
@@ -910,7 +910,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e928: r4 = const [0, 0x4, 0x2, 0x4, null]
     //     0x65e928: ldr             x4, [PP, #0x1450]  ; [pp+0x1450] List(5) [0, 0x4, 0x2, 0x4, Null]
     // 0x65e92c: r0 = _string()
-    //     0x65e92c: bl              #0x65f28c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
+    //     0x65e92c: bl              #0x65f28c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
     // 0x65e930: LeaveFrame
     //     0x65e930: mov             SP, fp
     //     0x65e934: ldp             fp, lr, [SP], #0x10
@@ -935,7 +935,7 @@ class DeepLinkManager extends ChangeNotifier {
     //     0x65e968: add             x4, PP, #0xc, lsl #12  ; [pp+0xc620] List(5) [0, 0x5, 0x3, 0x5, Null]
     //     0x65e96c: ldr             x4, [x4, #0x620]
     // 0x65e970: r0 = _string()
-    //     0x65e970: bl              #0x65f28c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
+    //     0x65e970: bl              #0x65f28c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
     // 0x65e974: LeaveFrame
     //     0x65e974: mov             SP, fp
     //     0x65e978: ldp             fp, lr, [SP], #0x10
@@ -962,12 +962,12 @@ class DeepLinkManager extends ChangeNotifier {
     //     0x65e9a8: cmp             SP, x16
     //     0x65e9ac: b.ls            #0x65ea58
     // 0x65e9b0: r0 = _redeemCode()
-    //     0x65e9b0: bl              #0x65eadc  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_redeemCode
+    //     0x65e9b0: bl              #0x65eadc  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_redeemCode
     // 0x65e9b4: stur            x0, [fp, #-0x10]
     // 0x65e9b8: cmp             w0, NULL
     // 0x65e9bc: b.ne            #0x65e9e8
-    // 0x65e9c0: r1 = Instance_BallAiLogCategory
-    //     0x65e9c0: add             x1, PP, #0x12, lsl #12  ; [pp+0x12d08] Obj!BallAiLogCategory@d3bc21
+    // 0x65e9c0: r1 = Instance_KourtAiLogCategory
+    //     0x65e9c0: add             x1, PP, #0x12, lsl #12  ; [pp+0x12d08] Obj!KourtAiLogCategory@d3bc21
     //     0x65e9c4: ldr             x1, [x1, #0xd08]
     // 0x65e9c8: r2 = "destination_discarded=invalid_redeem"
     //     0x65e9c8: add             x2, PP, #0x13, lsl #12  ; [pp+0x13550] "destination_discarded=invalid_redeem"
@@ -975,7 +975,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65e9d0: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x65e9d0: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x65e9d4: r0 = warn()
-    //     0x65e9d4: bl              #0x65ea60  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::warn
+    //     0x65e9d4: bl              #0x65ea60  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::warn
     // 0x65e9d8: r0 = Null
     //     0x65e9d8: mov             x0, NULL
     // 0x65e9dc: LeaveFrame
@@ -1021,7 +1021,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65ea3c: mov             x2, x1
     // 0x65ea40: ldur            x1, [fp, #-8]
     // 0x65ea44: r0 = _stagePending()
-    //     0x65ea44: bl              #0x65f0a0  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_stagePending
+    //     0x65ea44: bl              #0x65f0a0  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_stagePending
     // 0x65ea48: r0 = Null
     //     0x65ea48: mov             x0, NULL
     // 0x65ea4c: LeaveFrame
@@ -1051,11 +1051,11 @@ class DeepLinkManager extends ChangeNotifier {
     //     0x65eb00: b.ls            #0x65eb84
     // 0x65eb04: mov             x1, x2
     // 0x65eb08: r0 = _isRedeemCodeType()
-    //     0x65eb08: bl              #0x65ebe8  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_isRedeemCodeType
+    //     0x65eb08: bl              #0x65ebe8  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_isRedeemCodeType
     // 0x65eb0c: tbnz            w0, #4, #0x65eb24
     // 0x65eb10: ldur            x1, [fp, #-0x10]
     // 0x65eb14: r0 = _normalizeRedeemCode()
-    //     0x65eb14: bl              #0x65eb8c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
+    //     0x65eb14: bl              #0x65eb8c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
     // 0x65eb18: LeaveFrame
     //     0x65eb18: mov             SP, fp
     //     0x65eb1c: ldp             fp, lr, [SP], #0x10
@@ -1091,7 +1091,7 @@ class DeepLinkManager extends ChangeNotifier {
     //     0x65eb6c: bl              #0x5cfc10  ; [dart:core] _StringBase::substring
     // 0x65eb70: mov             x1, x0
     // 0x65eb74: r0 = _normalizeRedeemCode()
-    //     0x65eb74: bl              #0x65eb8c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
+    //     0x65eb74: bl              #0x65eb8c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizeRedeemCode
     // 0x65eb78: LeaveFrame
     //     0x65eb78: mov             SP, fp
     //     0x65eb7c: ldp             fp, lr, [SP], #0x10
@@ -1205,7 +1205,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65ec88: b               #0x65ec94
     // 0x65ec8c: ldur            x1, [fp, #-8]
     // 0x65ec90: r0 = _isRedeemCodeType()
-    //     0x65ec90: bl              #0x65ebe8  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_isRedeemCodeType
+    //     0x65ec90: bl              #0x65ebe8  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_isRedeemCodeType
     // 0x65ec94: LeaveFrame
     //     0x65ec94: mov             SP, fp
     //     0x65ec98: ldp             fp, lr, [SP], #0x10
@@ -1236,7 +1236,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65ecd8: mov             x1, x3
     // 0x65ecdc: mov             x2, x0
     // 0x65ece0: r0 = _resolveNotificationFunnelDestination()
-    //     0x65ece0: bl              #0x65ee8c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_resolveNotificationFunnelDestination
+    //     0x65ece0: bl              #0x65ee8c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_resolveNotificationFunnelDestination
     // 0x65ece4: stur            x0, [fp, #-0x20]
     // 0x65ece8: cmp             w0, NULL
     // 0x65ecec: b.ne            #0x65ed80
@@ -1283,10 +1283,10 @@ class DeepLinkManager extends ChangeNotifier {
     //     0x65ed5c: bl              #0x5c96fc  ; [package:flutter/src/foundation/print.dart] ::debugPrintThrottled
     // 0x65ed60: ldur            x1, [fp, #-8]
     // 0x65ed64: r0 = clearNotificationFunnelDestination()
-    //     0x65ed64: bl              #0x65ee58  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::clearNotificationFunnelDestination
+    //     0x65ed64: bl              #0x65ee58  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::clearNotificationFunnelDestination
     // 0x65ed68: ldur            x1, [fp, #-8]
     // 0x65ed6c: r0 = dismissCurrentNavigation()
-    //     0x65ed6c: bl              #0x65ee24  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::dismissCurrentNavigation
+    //     0x65ed6c: bl              #0x65ee24  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::dismissCurrentNavigation
     // 0x65ed70: r0 = Null
     //     0x65ed70: mov             x0, NULL
     // 0x65ed74: LeaveFrame
@@ -1338,7 +1338,7 @@ class DeepLinkManager extends ChangeNotifier {
     //     0x65edf8: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x65edfc: mov             x1, x2
     // 0x65ee00: r0 = dismissCurrentNavigation()
-    //     0x65ee00: bl              #0x65ee24  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::dismissCurrentNavigation
+    //     0x65ee00: bl              #0x65ee24  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::dismissCurrentNavigation
     // 0x65ee04: ldur            x1, [fp, #-8]
     // 0x65ee08: r0 = notifyListeners()
     //     0x65ee08: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -1639,11 +1639,11 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65f114: r0 = _interpolate()
     //     0x65f114: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0x65f118: mov             x2, x0
-    // 0x65f11c: r1 = Instance_BallAiLogCategory
-    //     0x65f11c: add             x1, PP, #0x12, lsl #12  ; [pp+0x12d08] Obj!BallAiLogCategory@d3bc21
+    // 0x65f11c: r1 = Instance_KourtAiLogCategory
+    //     0x65f11c: add             x1, PP, #0x12, lsl #12  ; [pp+0x12d08] Obj!KourtAiLogCategory@d3bc21
     //     0x65f120: ldr             x1, [x1, #0xd08]
     // 0x65f124: r0 = info()
-    //     0x65f124: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
+    //     0x65f124: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
     // 0x65f128: ldur            x1, [fp, #-8]
     // 0x65f12c: r0 = notifyListeners()
     //     0x65f12c: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -2148,7 +2148,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x65f6e4: r4 = const [0, 0x4, 0x2, 0x4, null]
     //     0x65f6e4: ldr             x4, [PP, #0x1450]  ; [pp+0x1450] List(5) [0, 0x4, 0x2, 0x4, Null]
     // 0x65f6e8: r0 = _string()
-    //     0x65f6e8: bl              #0x65f28c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
+    //     0x65f6e8: bl              #0x65f28c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_string
     // 0x65f6ec: LeaveFrame
     //     0x65f6ec: mov             SP, fp
     //     0x65f6f0: ldp             fp, lr, [SP], #0x10
@@ -2188,7 +2188,7 @@ class DeepLinkManager extends ChangeNotifier {
     //     0x65f740: stur            w0, [x1, #0xf]
     // 0x65f744: mov             x2, x1
     // 0x65f748: r1 = Function '<anonymous closure>': static.
-    //     0x65f748: add             x1, PP, #0x13, lsl #12  ; [pp+0x13640] AnonymousClosure: static (0x65f778), in [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizedPushData (0x65f700)
+    //     0x65f748: add             x1, PP, #0x13, lsl #12  ; [pp+0x13640] AnonymousClosure: static (0x65f778), in [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_normalizedPushData (0x65f700)
     //     0x65f74c: ldr             x1, [x1, #0x640]
     // 0x65f750: r0 = AllocateClosure()
     //     0x65f750: bl              #0xe553e0  ; AllocateClosureStub
@@ -2325,7 +2325,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x9383ac: cbz             w1, #0x9383cc
     // 0x9383b0: ldur            x1, [fp, #-0x90]
     // 0x9383b4: r0 = clearPendingSourceAttribution()
-    //     0x9383b4: bl              #0x938538  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::clearPendingSourceAttribution
+    //     0x9383b4: bl              #0x938538  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::clearPendingSourceAttribution
     // 0x9383b8: mov             x1, x0
     // 0x9383bc: stur            x1, [fp, #-0xb8]
     // 0x9383c0: r0 = Await()
@@ -2341,21 +2341,21 @@ class DeepLinkManager extends ChangeNotifier {
     //     0x9383d8: add             x4, PP, #0x1d, lsl #12  ; [pp+0x1d100] List(7) [0, 0x2, 0x1, 0x1, "source", 0x1, Null]
     //     0x9383dc: ldr             x4, [x4, #0x100]
     // 0x9383e0: r0 = copyWith()
-    //     0x9383e0: bl              #0x663774  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::copyWith
+    //     0x9383e0: bl              #0x663774  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::copyWith
     // 0x9383e4: ldur            x1, [fp, #-0xa0]
     // 0x9383e8: mov             x2, x0
     // 0x9383ec: stur            x0, [fp, #-0xb8]
     // 0x9383f0: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x9383f0: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x9383f4: r0 = updateUser()
-    //     0x9383f4: bl              #0x6618fc  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::updateUser
+    //     0x9383f4: bl              #0x6618fc  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::updateUser
     // 0x9383f8: mov             x1, x0
     // 0x9383fc: stur            x1, [fp, #-0xc0]
     // 0x938400: r0 = Await()
     //     0x938400: bl              #0x60ad4c  ; AwaitStub
     // 0x938404: ldur            x1, [fp, #-0x90]
     // 0x938408: r0 = clearPendingSourceAttribution()
-    //     0x938408: bl              #0x938538  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::clearPendingSourceAttribution
+    //     0x938408: bl              #0x938538  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::clearPendingSourceAttribution
     // 0x93840c: mov             x1, x0
     // 0x938410: stur            x1, [fp, #-0xc0]
     // 0x938414: r0 = Await()
@@ -2426,7 +2426,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x9384c0: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x9384c0: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x9384c4: r0 = syncSubscriberAttributes()
-    //     0x9384c4: bl              #0x65a918  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::syncSubscriberAttributes
+    //     0x9384c4: bl              #0x65a918  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::syncSubscriberAttributes
     // 0x9384c8: b               #0x938528
     // 0x9384cc: sub             SP, fp, #0xd0
     // 0x9384d0: stur            x0, [fp, #-0x90]
@@ -2627,7 +2627,7 @@ class DeepLinkManager extends ChangeNotifier {
     //     0x9b5a68: mov             fp, SP
     // 0x9b5a6c: ldr             x2, [fp, #0x10]
     // 0x9b5a70: r1 = Function 'dispose':.
-    //     0x9b5a70: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d5d8] AnonymousClosure: (0x9b5a88), in [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::dispose (0x9bddf0)
+    //     0x9b5a70: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d5d8] AnonymousClosure: (0x9b5a88), in [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::dispose (0x9bddf0)
     //     0x9b5a74: ldr             x1, [x1, #0x5d8]
     // 0x9b5a78: r0 = AllocateClosure()
     //     0x9b5a78: bl              #0xe553e0  ; AllocateClosureStub
@@ -2652,7 +2652,7 @@ class DeepLinkManager extends ChangeNotifier {
     //     0x9b5aa0: cmp             SP, x16
     //     0x9b5aa4: b.ls            #0x9b5ab8
     // 0x9b5aa8: r0 = dispose()
-    //     0x9b5aa8: bl              #0x9bddf0  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::dispose
+    //     0x9b5aa8: bl              #0x9bddf0  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::dispose
     // 0x9b5aac: LeaveFrame
     //     0x9b5aac: mov             SP, fp
     //     0x9b5ab0: ldp             fp, lr, [SP], #0x10
@@ -2757,14 +2757,14 @@ class DeepLinkManager extends ChangeNotifier {
     // 0x9cc470: StoreField: r0->field_33 = rNULL
     //     0x9cc470: stur            NULL, [x0, #0x33]
     // 0x9cc474: tbnz            w1, #4, #0x9cc494
-    // 0x9cc478: r1 = Instance_BallAiLogCategory
-    //     0x9cc478: add             x1, PP, #0x12, lsl #12  ; [pp+0x12d08] Obj!BallAiLogCategory@d3bc21
+    // 0x9cc478: r1 = Instance_KourtAiLogCategory
+    //     0x9cc478: add             x1, PP, #0x12, lsl #12  ; [pp+0x12d08] Obj!KourtAiLogCategory@d3bc21
     //     0x9cc47c: ldr             x1, [x1, #0xd08]
     // 0x9cc480: r2 = "destination_cleared=sign_out"
     //     0x9cc480: add             x2, PP, #0x12, lsl #12  ; [pp+0x12d10] "destination_cleared=sign_out"
     //     0x9cc484: ldr             x2, [x2, #0xd10]
     // 0x9cc488: r0 = info()
-    //     0x9cc488: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
+    //     0x9cc488: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
     // 0x9cc48c: ldur            x1, [fp, #-8]
     // 0x9cc490: r0 = notifyListeners()
     //     0x9cc490: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -2879,7 +2879,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0xc2c5ac: ldur            x1, [fp, #-0x68]
     // 0xc2c5b0: ldur            x2, [fp, #-0x80]
     // 0xc2c5b4: r0 = handleDeepLinkUri()
-    //     0xc2c5b4: bl              #0xc2cf68  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::handleDeepLinkUri
+    //     0xc2c5b4: bl              #0xc2cf68  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::handleDeepLinkUri
     // 0xc2c5b8: b               #0xc2c618
     // 0xc2c5bc: sub             SP, fp, #0x98
     // 0xc2c5c0: stur            x0, [fp, #-0x80]
@@ -2920,13 +2920,13 @@ class DeepLinkManager extends ChangeNotifier {
     //     0xc2c620: bl              #0xc2c694  ; [package:app_links/src/app_links.dart] AppLinks::uriLinkStream
     // 0xc2c624: ldur            x2, [fp, #-0x70]
     // 0xc2c628: r1 = Function '<anonymous closure>':.
-    //     0xc2c628: add             x1, PP, #0x13, lsl #12  ; [pp+0x13958] AnonymousClosure: (0xc2e478), in [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::attachAppLinks (0xc2c4a0)
+    //     0xc2c628: add             x1, PP, #0x13, lsl #12  ; [pp+0x13958] AnonymousClosure: (0xc2e478), in [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::attachAppLinks (0xc2c4a0)
     //     0xc2c62c: ldr             x1, [x1, #0x958]
     // 0xc2c630: stur            x0, [fp, #-0x70]
     // 0xc2c634: r0 = AllocateClosure()
     //     0xc2c634: bl              #0xe553e0  ; AllocateClosureStub
     // 0xc2c638: r1 = Function '<anonymous closure>':.
-    //     0xc2c638: add             x1, PP, #0x13, lsl #12  ; [pp+0x13960] AnonymousClosure: (0xc2e3f4), in [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::attachAppLinks (0xc2c4a0)
+    //     0xc2c638: add             x1, PP, #0x13, lsl #12  ; [pp+0x13960] AnonymousClosure: (0xc2e3f4), in [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::attachAppLinks (0xc2c4a0)
     //     0xc2c63c: ldr             x1, [x1, #0x960]
     // 0xc2c640: r2 = Null
     //     0xc2c640: mov             x2, NULL
@@ -2976,7 +2976,7 @@ class DeepLinkManager extends ChangeNotifier {
     //     0xc2cf8c: b.ls            #0xc2d698
     // 0xc2cf90: mov             x1, x0
     // 0xc2cf94: r0 = extract()
-    //     0xc2cf94: bl              #0xc2de3c  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::extract
+    //     0xc2cf94: bl              #0xc2de3c  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::extract
     // 0xc2cf98: mov             x2, x0
     // 0xc2cf9c: stur            x2, [fp, #-0x18]
     // 0xc2cfa0: cmp             w2, NULL
@@ -3014,8 +3014,8 @@ class DeepLinkManager extends ChangeNotifier {
     // 0xc2d000: r1 = LoadClassIdInstr(r0)
     //     0xc2d000: ldur            x1, [x0, #-1]
     //     0xc2d004: ubfx            x1, x1, #0xc, #0x14
-    // 0xc2d008: r16 = "ballai.app"
-    //     0xc2d008: add             x16, PP, #0x13, lsl #12  ; [pp+0x13a60] "ballai.app"
+    // 0xc2d008: r16 = "kourtai.app"
+    //     0xc2d008: add             x16, PP, #0x13, lsl #12  ; [pp+0x13a60] "kourtai.app"
     //     0xc2d00c: ldr             x16, [x16, #0xa60]
     // 0xc2d010: stp             x16, x0, [SP]
     // 0xc2d014: mov             x0, x1
@@ -3035,8 +3035,8 @@ class DeepLinkManager extends ChangeNotifier {
     // 0xc2d044: r1 = LoadClassIdInstr(r0)
     //     0xc2d044: ldur            x1, [x0, #-1]
     //     0xc2d048: ubfx            x1, x1, #0xc, #0x14
-    // 0xc2d04c: r16 = "www.ballai.app"
-    //     0xc2d04c: add             x16, PP, #0x13, lsl #12  ; [pp+0x13a68] "www.ballai.app"
+    // 0xc2d04c: r16 = "www.kourtai.app"
+    //     0xc2d04c: add             x16, PP, #0x13, lsl #12  ; [pp+0x13a68] "www.kourtai.app"
     //     0xc2d050: ldr             x16, [x16, #0xa68]
     // 0xc2d054: stp             x16, x0, [SP]
     // 0xc2d058: mov             x0, x1
@@ -3088,7 +3088,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0xc2d0ec: ldur            x1, [fp, #-8]
     // 0xc2d0f0: mov             x2, x0
     // 0xc2d0f4: r0 = _captureCampaignAttribution()
-    //     0xc2d0f4: bl              #0xc2dca4  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_captureCampaignAttribution
+    //     0xc2d0f4: bl              #0xc2dca4  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_captureCampaignAttribution
     // 0xc2d0f8: ldur            x0, [fp, #-0x30]
     // 0xc2d0fc: cmp             w0, NULL
     // 0xc2d100: b.eq            #0xc2d184
@@ -3097,13 +3097,13 @@ class DeepLinkManager extends ChangeNotifier {
     // 0xc2d108: cbz             w1, #0xc2d184
     // 0xc2d10c: mov             x1, x0
     // 0xc2d110: r0 = _isRedeemCodeType()
-    //     0xc2d110: bl              #0x65ebe8  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_isRedeemCodeType
+    //     0xc2d110: bl              #0x65ebe8  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_isRedeemCodeType
     // 0xc2d114: tbnz            w0, #4, #0xc2d138
     // 0xc2d118: ldur            x1, [fp, #-8]
     // 0xc2d11c: ldur            x2, [fp, #-0x30]
     // 0xc2d120: ldur            x3, [fp, #-0x28]
     // 0xc2d124: r0 = _stageRedeemDeepLink()
-    //     0xc2d124: bl              #0x65e988  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_stageRedeemDeepLink
+    //     0xc2d124: bl              #0x65e988  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_stageRedeemDeepLink
     // 0xc2d128: r0 = Null
     //     0xc2d128: mov             x0, NULL
     // 0xc2d12c: LeaveFrame
@@ -3130,7 +3130,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0xc2d168: ldur            x2, [fp, #-0x30]
     // 0xc2d16c: ldur            x3, [fp, #-0x28]
     // 0xc2d170: r0 = _stageRedeemDeepLink()
-    //     0xc2d170: bl              #0x65e988  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_stageRedeemDeepLink
+    //     0xc2d170: bl              #0x65e988  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_stageRedeemDeepLink
     // 0xc2d174: r0 = Null
     //     0xc2d174: mov             x0, NULL
     // 0xc2d178: LeaveFrame
@@ -3208,7 +3208,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0xc2d244: r3 = Null
     //     0xc2d244: mov             x3, NULL
     // 0xc2d248: r0 = _stageRedeemDeepLink()
-    //     0xc2d248: bl              #0x65e988  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_stageRedeemDeepLink
+    //     0xc2d248: bl              #0x65e988  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_stageRedeemDeepLink
     // 0xc2d24c: r0 = Null
     //     0xc2d24c: mov             x0, NULL
     // 0xc2d250: LeaveFrame
@@ -3222,8 +3222,8 @@ class DeepLinkManager extends ChangeNotifier {
     // 0xc2d268: LoadField: r0 = r3->field_7
     //     0xc2d268: ldur            w0, [x3, #7]
     // 0xc2d26c: cbnz            w0, #0xc2d298
-    // 0xc2d270: r1 = Instance_BallAiLogCategory
-    //     0xc2d270: add             x1, PP, #0x12, lsl #12  ; [pp+0x12d08] Obj!BallAiLogCategory@d3bc21
+    // 0xc2d270: r1 = Instance_KourtAiLogCategory
+    //     0xc2d270: add             x1, PP, #0x12, lsl #12  ; [pp+0x12d08] Obj!KourtAiLogCategory@d3bc21
     //     0xc2d274: ldr             x1, [x1, #0xd08]
     // 0xc2d278: r2 = "destination_discarded=unparsed"
     //     0xc2d278: add             x2, PP, #0x13, lsl #12  ; [pp+0x13a78] "destination_discarded=unparsed"
@@ -3231,7 +3231,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0xc2d280: r4 = const [0, 0x2, 0, 0x2, null]
     //     0xc2d280: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0xc2d284: r0 = warn()
-    //     0xc2d284: bl              #0x65ea60  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::warn
+    //     0xc2d284: bl              #0x65ea60  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::warn
     // 0xc2d288: r0 = Null
     //     0xc2d288: mov             x0, NULL
     // 0xc2d28c: LeaveFrame
@@ -3295,7 +3295,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0xc2d34c: b               #0xc2d358
     // 0xc2d350: mov             x1, x2
     // 0xc2d354: r0 = campaignTag()
-    //     0xc2d354: bl              #0xc2d7f0  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::campaignTag
+    //     0xc2d354: bl              #0xc2d7f0  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::campaignTag
     // 0xc2d358: stur            x0, [fp, #-0x10]
     // 0xc2d35c: r0 = DeepLinkNavigationRequest()
     //     0xc2d35c: bl              #0x65f148  ; AllocateDeepLinkNavigationRequestStub -> DeepLinkNavigationRequest (size=0x3c)
@@ -3319,7 +3319,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0xc2d388: mov             x2, x1
     // 0xc2d38c: ldur            x1, [fp, #-8]
     // 0xc2d390: r0 = _stagePending()
-    //     0xc2d390: bl              #0x65f0a0  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_stagePending
+    //     0xc2d390: bl              #0x65f0a0  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_stagePending
     // 0xc2d394: r0 = Null
     //     0xc2d394: mov             x0, NULL
     // 0xc2d398: LeaveFrame
@@ -3380,7 +3380,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0xc2d43c: ldur            x1, [fp, #-8]
     // 0xc2d440: ldur            x2, [fp, #-0x10]
     // 0xc2d444: r0 = handleRemoteMessage()
-    //     0xc2d444: bl              #0x65df88  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::handleRemoteMessage
+    //     0xc2d444: bl              #0x65df88  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::handleRemoteMessage
     // 0xc2d448: r0 = Null
     //     0xc2d448: mov             x0, NULL
     // 0xc2d44c: LeaveFrame
@@ -3432,7 +3432,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0xc2d4c8: ldur            x1, [fp, #-8]
     // 0xc2d4cc: mov             x2, x0
     // 0xc2d4d0: r0 = handleRemoteMessage()
-    //     0xc2d4d0: bl              #0x65df88  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::handleRemoteMessage
+    //     0xc2d4d0: bl              #0x65df88  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::handleRemoteMessage
     // 0xc2d4d4: r0 = Null
     //     0xc2d4d4: mov             x0, NULL
     // 0xc2d4d8: LeaveFrame
@@ -3473,7 +3473,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0xc2d540: b               #0xc2d554
     // 0xc2d544: mov             x1, x0
     // 0xc2d548: r0 = campaignTag()
-    //     0xc2d548: bl              #0xc2d7f0  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::campaignTag
+    //     0xc2d548: bl              #0xc2d7f0  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::campaignTag
     // 0xc2d54c: mov             x1, x0
     // 0xc2d550: ldur            x0, [fp, #-0x10]
     // 0xc2d554: ldur            x3, [fp, #-0x30]
@@ -3500,7 +3500,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0xc2d588: ldur            x1, [fp, #-8]
     // 0xc2d58c: mov             x2, x0
     // 0xc2d590: r0 = _stagePending()
-    //     0xc2d590: bl              #0x65f0a0  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_stagePending
+    //     0xc2d590: bl              #0x65f0a0  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_stagePending
     // 0xc2d594: r0 = Null
     //     0xc2d594: mov             x0, NULL
     // 0xc2d598: LeaveFrame
@@ -3521,7 +3521,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0xc2d5c8: b               #0xc2d5d4
     // 0xc2d5cc: mov             x1, x0
     // 0xc2d5d0: r0 = sub1IsTypedValue()
-    //     0xc2d5d0: bl              #0xc2d6a0  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::sub1IsTypedValue
+    //     0xc2d5d0: bl              #0xc2d6a0  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::sub1IsTypedValue
     // 0xc2d5d4: stur            x0, [fp, #-0x10]
     // 0xc2d5d8: r16 = <String, dynamic>
     //     0xc2d5d8: ldr             x16, [PP, #0x21d0]  ; [pp+0x21d0] TypeArguments: <String, dynamic>
@@ -3564,12 +3564,12 @@ class DeepLinkManager extends ChangeNotifier {
     // 0xc2d64c: b.eq            #0xc2d67c
     // 0xc2d650: mov             x1, x0
     // 0xc2d654: r0 = campaignTag()
-    //     0xc2d654: bl              #0xc2d7f0  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::campaignTag
+    //     0xc2d654: bl              #0xc2d7f0  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::campaignTag
     // 0xc2d658: cmp             w0, NULL
     // 0xc2d65c: b.eq            #0xc2d67c
     // 0xc2d660: ldur            x1, [fp, #-0x18]
     // 0xc2d664: r0 = campaignTag()
-    //     0xc2d664: bl              #0xc2d7f0  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::campaignTag
+    //     0xc2d664: bl              #0xc2d7f0  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::campaignTag
     // 0xc2d668: ldur            x1, [fp, #-0x30]
     // 0xc2d66c: mov             x3, x0
     // 0xc2d670: r2 = "campaignTag"
@@ -3580,7 +3580,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0xc2d67c: ldur            x1, [fp, #-8]
     // 0xc2d680: ldur            x2, [fp, #-0x30]
     // 0xc2d684: r0 = handleRemoteMessage()
-    //     0xc2d684: bl              #0x65df88  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::handleRemoteMessage
+    //     0xc2d684: bl              #0x65df88  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::handleRemoteMessage
     // 0xc2d688: r0 = Null
     //     0xc2d688: mov             x0, NULL
     // 0xc2d68c: LeaveFrame
@@ -3608,7 +3608,7 @@ class DeepLinkManager extends ChangeNotifier {
     //     0xc2dcc0: cmp             SP, x16
     //     0xc2dcc4: b.ls            #0xc2dd08
     // 0xc2dcc8: r0 = campaignTag()
-    //     0xc2dcc8: bl              #0xc2d7f0  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::campaignTag
+    //     0xc2dcc8: bl              #0xc2d7f0  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_params.dart] DeepLinkParams::campaignTag
     // 0xc2dccc: cmp             w0, NULL
     // 0xc2dcd0: b.eq            #0xc2dcdc
     // 0xc2dcd4: LoadField: r1 = r0->field_7
@@ -3624,7 +3624,7 @@ class DeepLinkManager extends ChangeNotifier {
     // 0xc2dcec: ldur            x1, [fp, #-8]
     // 0xc2dcf0: mov             x2, x0
     // 0xc2dcf4: r0 = setPendingSourceFromDeepLink()
-    //     0xc2dcf4: bl              #0xc2dd10  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::setPendingSourceFromDeepLink
+    //     0xc2dcf4: bl              #0xc2dd10  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::setPendingSourceFromDeepLink
     // 0xc2dcf8: r0 = Null
     //     0xc2dcf8: mov             x0, NULL
     // 0xc2dcfc: LeaveFrame
@@ -3854,7 +3854,7 @@ class DeepLinkManager extends ChangeNotifier {
     //     0xc2e4fc: add             x1, x1, HEAP, lsl #32
     // 0xc2e500: ldr             x2, [fp, #0x10]
     // 0xc2e504: r0 = handleDeepLinkUri()
-    //     0xc2e504: bl              #0xc2cf68  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::handleDeepLinkUri
+    //     0xc2e504: bl              #0xc2cf68  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::handleDeepLinkUri
     // 0xc2e508: r0 = Null
     //     0xc2e508: mov             x0, NULL
     // 0xc2e50c: LeaveFrame
@@ -3906,7 +3906,7 @@ class DeepLinkManager extends ChangeNotifier {
     //     0xc2e620: b.eq            #0xc2e628
     //     0xc2e624: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0xc2e628: r0 = _restorePendingSource()
-    //     0xc2e628: bl              #0xc2e644  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_restorePendingSource
+    //     0xc2e628: bl              #0xc2e644  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::_restorePendingSource
     // 0xc2e62c: r0 = Null
     //     0xc2e62c: mov             x0, NULL
     // 0xc2e630: LeaveFrame

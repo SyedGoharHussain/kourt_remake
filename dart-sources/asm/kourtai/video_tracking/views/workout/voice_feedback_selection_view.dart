@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/voice_feedback_selection_view.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/voice_feedback_selection_view.dart
 
 // class id: 1049269, size: 0x8
 class :: {
@@ -27,7 +27,7 @@ class _VoiceFeedbackSelectionViewState extends State<dynamic> {
     //     0x9a1270: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x9a1274: ldr             x0, [x0, #0x1880]
     // 0x9a1278: tbnz            w0, #4, #0x9a12a0
-    // 0x9a127c: r0 = InitLateStaticField(0xc3c) // [package:ballai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::_cached
+    // 0x9a127c: r0 = InitLateStaticField(0xc3c) // [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::_cached
     //     0x9a127c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x9a1280: ldr             x0, [x0, #0x1878]
     //     0x9a1284: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -50,7 +50,7 @@ class _VoiceFeedbackSelectionViewState extends State<dynamic> {
     //     0x9a12c0: b.eq            #0x9a12c8
     //     0x9a12c4: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0x9a12c8: r0 = _randomExampleAmongFixedModes()
-    //     0x9a12c8: bl              #0x9a1324  ; [package:ballai/video_tracking/views/workout/voice_feedback_selection_view.dart] _VoiceFeedbackSelectionViewState::_randomExampleAmongFixedModes
+    //     0x9a12c8: bl              #0x9a1324  ; [package:kourtai/video_tracking/views/workout/voice_feedback_selection_view.dart] _VoiceFeedbackSelectionViewState::_randomExampleAmongFixedModes
     // 0x9a12cc: ldur            x1, [fp, #-8]
     // 0x9a12d0: ArrayStore: r1[0] = r0  ; List_4
     //     0x9a12d0: stur            w0, [x1, #0x17]
@@ -106,7 +106,7 @@ class _VoiceFeedbackSelectionViewState extends State<dynamic> {
     // 0x9a1374: DecompressPointer r1
     //     0x9a1374: add             x1, x1, HEAP, lsl #32
     // 0x9a1378: r0 = example()
-    //     0x9a1378: bl              #0x94cd84  ; [package:ballai/video_tracking/models/workout_setup/video_workout_callout_type.dart] VideoWorkoutCalloutType::example
+    //     0x9a1378: bl              #0x94cd84  ; [package:kourtai/video_tracking/models/workout_setup/video_workout_callout_type.dart] VideoWorkoutCalloutType::example
     // 0x9a137c: LeaveFrame
     //     0x9a137c: mov             SP, fp
     //     0x9a1380: ldp             fp, lr, [SP], #0x10
@@ -344,7 +344,7 @@ class _VoiceFeedbackSelectionViewState extends State<dynamic> {
     //     0xadfa8c: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cee0] "Choose audio mode"
     //     0xadfa90: ldr             x1, [x1, #0xee0]
     // 0xadfa94: r0 = L()
-    //     0xadfa94: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xadfa94: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xadfa98: mov             x1, x0
     // 0xadfa9c: ldur            x0, [fp, #-0x28]
     // 0xadfaa0: stur            x1, [fp, #-0x38]
@@ -493,13 +493,13 @@ class _VoiceFeedbackSelectionViewState extends State<dynamic> {
     //     0xadfc28: stur            w0, [x3, #0x13]
     // 0xadfc2c: ldur            x2, [fp, #-0x18]
     // 0xadfc30: r1 = Function '<anonymous closure>':.
-    //     0xadfc30: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cee8] AnonymousClosure: (0xae06b4), in [package:ballai/video_tracking/views/workout/voice_feedback_selection_view.dart] _VoiceFeedbackSelectionViewState::build (0xadf810)
+    //     0xadfc30: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cee8] AnonymousClosure: (0xae06b4), in [package:kourtai/video_tracking/views/workout/voice_feedback_selection_view.dart] _VoiceFeedbackSelectionViewState::build (0xadf810)
     //     0xadfc34: ldr             x1, [x1, #0xee8]
     // 0xadfc38: r0 = AllocateClosure()
     //     0xadfc38: bl              #0xe553e0  ; AllocateClosureStub
     // 0xadfc3c: ldur            x2, [fp, #-0x18]
     // 0xadfc40: r1 = Function '<anonymous closure>':.
-    //     0xadfc40: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cef0] AnonymousClosure: (0xae03c8), in [package:ballai/video_tracking/views/workout/voice_feedback_selection_view.dart] _VoiceFeedbackSelectionViewState::build (0xadf810)
+    //     0xadfc40: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cef0] AnonymousClosure: (0xae03c8), in [package:kourtai/video_tracking/views/workout/voice_feedback_selection_view.dart] _VoiceFeedbackSelectionViewState::build (0xadf810)
     //     0xadfc44: ldr             x1, [x1, #0xef0]
     // 0xadfc48: stur            x0, [fp, #-0x30]
     // 0xadfc4c: r0 = AllocateClosure()
@@ -572,7 +572,7 @@ class _VoiceFeedbackSelectionViewState extends State<dynamic> {
     // 0xadfd10: cmp             w1, w16
     // 0xadfd14: b.eq            #0xae01a4
     // 0xadfd18: r0 = funnelBody()
-    //     0xadfd18: bl              #0xae01b0  ; [package:ballai/video_tracking/models/workout_setup/video_workout_callout_type.dart] VideoWorkoutCalloutType::funnelBody
+    //     0xadfd18: bl              #0xae01b0  ; [package:kourtai/video_tracking/models/workout_setup/video_workout_callout_type.dart] VideoWorkoutCalloutType::funnelBody
     // 0xadfd1c: mov             x2, x0
     // 0xadfd20: ldur            x0, [fp, #-8]
     // 0xadfd24: stur            x2, [fp, #-0x48]
@@ -775,7 +775,7 @@ class _VoiceFeedbackSelectionViewState extends State<dynamic> {
     //     0xadff10: ldr             x1, [x1, #0x5c0]
     // 0xadff14: stur            x0, [fp, #-0x20]
     // 0xadff18: r0 = L()
-    //     0xadff18: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xadff18: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xadff1c: stur            x0, [fp, #-0x28]
     // 0xadff20: r0 = Text()
     //     0xadff20: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -800,7 +800,7 @@ class _VoiceFeedbackSelectionViewState extends State<dynamic> {
     //     0xadff54: stur            w0, [x3, #0x3b]
     // 0xadff58: ldur            x2, [fp, #-0x18]
     // 0xadff5c: r1 = Function '<anonymous closure>':.
-    //     0xadff5c: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cf00] AnonymousClosure: (0xae02c8), in [package:ballai/video_tracking/views/workout/voice_feedback_selection_view.dart] _VoiceFeedbackSelectionViewState::build (0xadf810)
+    //     0xadff5c: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cf00] AnonymousClosure: (0xae02c8), in [package:kourtai/video_tracking/views/workout/voice_feedback_selection_view.dart] _VoiceFeedbackSelectionViewState::build (0xadf810)
     //     0xadff60: ldr             x1, [x1, #0xf00]
     // 0xadff64: r0 = AllocateClosure()
     //     0xadff64: bl              #0xe553e0  ; AllocateClosureStub
@@ -1054,7 +1054,7 @@ class _VoiceFeedbackSelectionViewState extends State<dynamic> {
     //     0xae02ec: add             x0, x0, HEAP, lsl #32
     // 0xae02f0: mov             x1, x0
     // 0xae02f4: r0 = _onNext()
-    //     0xae02f4: bl              #0xae0310  ; [package:ballai/video_tracking/views/workout/voice_feedback_selection_view.dart] _VoiceFeedbackSelectionViewState::_onNext
+    //     0xae02f4: bl              #0xae0310  ; [package:kourtai/video_tracking/views/workout/voice_feedback_selection_view.dart] _VoiceFeedbackSelectionViewState::_onNext
     // 0xae02f8: r0 = Null
     //     0xae02f8: mov             x0, NULL
     // 0xae02fc: LeaveFrame
@@ -1095,7 +1095,7 @@ class _VoiceFeedbackSelectionViewState extends State<dynamic> {
     // 0xae034c: cmp             w1, w16
     // 0xae0350: b.eq            #0xae03b8
     // 0xae0354: r0 = set()
-    //     0xae0354: bl              #0x94cfd0  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::set
+    //     0xae0354: bl              #0x94cfd0  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_callout_type.dart] DefaultsVideoWorkoutCalloutType::set
     // 0xae0358: mov             x1, x0
     // 0xae035c: stur            x1, [fp, #-0x18]
     // 0xae0360: r0 = Await()
@@ -1232,7 +1232,7 @@ class _VoiceFeedbackSelectionViewState extends State<dynamic> {
     //     0xae04ac: stur            w0, [x3, #0x1b]
     // 0xae04b0: ldur            x2, [fp, #-0x30]
     // 0xae04b4: r1 = Function '<anonymous closure>':.
-    //     0xae04b4: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cf10] AnonymousClosure: (0xae04f4), in [package:ballai/video_tracking/views/workout/voice_feedback_selection_view.dart] _VoiceFeedbackSelectionViewState::build (0xadf810)
+    //     0xae04b4: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cf10] AnonymousClosure: (0xae04f4), in [package:kourtai/video_tracking/views/workout/voice_feedback_selection_view.dart] _VoiceFeedbackSelectionViewState::build (0xadf810)
     //     0xae04b8: ldr             x1, [x1, #0xf10]
     // 0xae04bc: r0 = AllocateClosure()
     //     0xae04bc: bl              #0xe553e0  ; AllocateClosureStub
@@ -1282,7 +1282,7 @@ class _VoiceFeedbackSelectionViewState extends State<dynamic> {
     // 0xae052c: mov             x1, x2
     // 0xae0530: mov             x2, x0
     // 0xae0534: r0 = _select()
-    //     0xae0534: bl              #0xae0550  ; [package:ballai/video_tracking/views/workout/voice_feedback_selection_view.dart] _VoiceFeedbackSelectionViewState::_select
+    //     0xae0534: bl              #0xae0550  ; [package:kourtai/video_tracking/views/workout/voice_feedback_selection_view.dart] _VoiceFeedbackSelectionViewState::_select
     // 0xae0538: r0 = Null
     //     0xae0538: mov             x0, NULL
     // 0xae053c: LeaveFrame
@@ -1328,7 +1328,7 @@ class _VoiceFeedbackSelectionViewState extends State<dynamic> {
     //     0xae059c: bl              #0x600ca8  ; [package:flutter/src/services/haptic_feedback.dart] HapticFeedback::lightImpact
     // 0xae05a0: ldur            x2, [fp, #-0x20]
     // 0xae05a4: r1 = Function '<anonymous closure>':.
-    //     0xae05a4: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cf18] AnonymousClosure: (0x8e5cc8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
+    //     0xae05a4: add             x1, PP, #0x4c, lsl #12  ; [pp+0x4cf18] AnonymousClosure: (0x8e5cc8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
     //     0xae05a8: ldr             x1, [x1, #0xf18]
     // 0xae05ac: r0 = AllocateClosure()
     //     0xae05ac: bl              #0xe553e0  ; AllocateClosureStub
@@ -1343,7 +1343,7 @@ class _VoiceFeedbackSelectionViewState extends State<dynamic> {
     //     0xae05c4: add             x2, x2, HEAP, lsl #32
     // 0xae05c8: ldur            x1, [fp, #-0x10]
     // 0xae05cc: r0 = _previewExample()
-    //     0xae05cc: bl              #0xae0640  ; [package:ballai/video_tracking/views/workout/voice_feedback_selection_view.dart] _VoiceFeedbackSelectionViewState::_previewExample
+    //     0xae05cc: bl              #0xae0640  ; [package:kourtai/video_tracking/views/workout/voice_feedback_selection_view.dart] _VoiceFeedbackSelectionViewState::_previewExample
     // 0xae05d0: stur            x0, [fp, #-0x10]
     // 0xae05d4: LoadField: r1 = r0->field_7
     //     0xae05d4: ldur            w1, [x0, #7]
@@ -1352,7 +1352,7 @@ class _VoiceFeedbackSelectionViewState extends State<dynamic> {
     //     0xae05dc: mov             x0, NULL
     // 0xae05e0: r0 = ReturnAsyncNotFuture()
     //     0xae05e0: b               #0x60af9c  ; ReturnAsyncNotFutureStub
-    // 0xae05e4: r0 = InitLateStaticField(0xeec) // [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
+    // 0xae05e4: r0 = InitLateStaticField(0xeec) // [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
     //     0xae05e4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xae05e8: ldr             x0, [x0, #0x1dd8]
     //     0xae05ec: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1364,7 +1364,7 @@ class _VoiceFeedbackSelectionViewState extends State<dynamic> {
     // 0xae0604: mov             x1, x0
     // 0xae0608: stur            x0, [fp, #-0x18]
     // 0xae060c: r0 = stopSpeakingImmediate()
-    //     0xae060c: bl              #0x6d4278  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::stopSpeakingImmediate
+    //     0xae060c: bl              #0x6d4278  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::stopSpeakingImmediate
     // 0xae0610: r16 = true
     //     0xae0610: add             x16, NULL, #0x20  ; true
     // 0xae0614: r30 = false
@@ -1376,7 +1376,7 @@ class _VoiceFeedbackSelectionViewState extends State<dynamic> {
     //     0xae0624: add             x4, PP, #0x2d, lsl #12  ; [pp+0x2d400] List(9) [0, 0x4, 0x2, 0x2, "showText", 0x3, "subException", 0x2, Null]
     //     0xae0628: ldr             x4, [x4, #0x400]
     // 0xae062c: r0 = speak()
-    //     0xae062c: bl              #0x6d2cd4  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
+    //     0xae062c: bl              #0x6d2cd4  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
     // 0xae0630: r0 = Null
     //     0xae0630: mov             x0, NULL
     // 0xae0634: r0 = ReturnAsyncNotFuture()
@@ -1416,7 +1416,7 @@ class _VoiceFeedbackSelectionViewState extends State<dynamic> {
     // 0xae068c: ret
     //     0xae068c: ret             
     // 0xae0690: r0 = example()
-    //     0xae0690: bl              #0x94cd84  ; [package:ballai/video_tracking/models/workout_setup/video_workout_callout_type.dart] VideoWorkoutCalloutType::example
+    //     0xae0690: bl              #0x94cd84  ; [package:kourtai/video_tracking/models/workout_setup/video_workout_callout_type.dart] VideoWorkoutCalloutType::example
     // 0xae0694: LeaveFrame
     //     0xae0694: mov             SP, fp
     //     0xae0698: ldp             fp, lr, [SP], #0x10
@@ -1749,7 +1749,7 @@ class _AudioModeCard extends StatelessWidget {
     //     0xc44d28: stur            w0, [x2, #0x13]
     // 0xc44d2c: ldur            x1, [fp, #-0x30]
     // 0xc44d30: r0 = funnelHeadline()
-    //     0xc44d30: bl              #0xc45054  ; [package:ballai/video_tracking/models/workout_setup/video_workout_callout_type.dart] VideoWorkoutCalloutType::funnelHeadline
+    //     0xc44d30: bl              #0xc45054  ; [package:kourtai/video_tracking/models/workout_setup/video_workout_callout_type.dart] VideoWorkoutCalloutType::funnelHeadline
     // 0xc44d34: stur            x0, [fp, #-8]
     // 0xc44d38: r0 = Text()
     //     0xc44d38: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)

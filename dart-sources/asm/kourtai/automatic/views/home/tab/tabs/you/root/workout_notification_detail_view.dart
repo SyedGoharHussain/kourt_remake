@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/root/workout_notification_detail_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/root/workout_notification_detail_view.dart
 
 // class id: 1049032, size: 0x8
 class :: {
@@ -69,7 +69,7 @@ class _WorkoutNotificationDetailViewState extends State<dynamic> {
     //     0x9007e8: bl              #0x60afc8  ; InitAsyncStub
     // 0x9007ec: ldur            x2, [fp, #-0x78]
     // 0x9007f0: r1 = Function '<anonymous closure>':.
-    //     0x9007f0: add             x1, PP, #0x26, lsl #12  ; [pp+0x26c50] AnonymousClosure: (0x900c78), in [package:ballai/automatic/views/home/tab/tabs/you/root/workout_notification_detail_view.dart] _WorkoutNotificationDetailViewState::_load (0x9007ac)
+    //     0x9007f0: add             x1, PP, #0x26, lsl #12  ; [pp+0x26c50] AnonymousClosure: (0x900c78), in [package:kourtai/automatic/views/home/tab/tabs/you/root/workout_notification_detail_view.dart] _WorkoutNotificationDetailViewState::_load (0x9007ac)
     //     0x9007f4: ldr             x1, [x1, #0xc50]
     // 0x9007f8: r0 = AllocateClosure()
     //     0x9007f8: bl              #0xe553e0  ; AllocateClosureStub
@@ -97,7 +97,7 @@ class _WorkoutNotificationDetailViewState extends State<dynamic> {
     //     0x900834: bl              #0x5ff5d4  ; [package:provider/src/provider.dart] ::ReadContext.read
     // 0x900838: mov             x1, x0
     // 0x90083c: r0 = currentWorkouts()
-    //     0x90083c: bl              #0x900b60  ; [package:ballai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::currentWorkouts
+    //     0x90083c: bl              #0x900b60  ; [package:kourtai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::currentWorkouts
     // 0x900840: stur            x0, [fp, #-0x88]
     // 0x900844: LoadField: r2 = r0->field_7
     //     0x900844: ldur            w2, [x0, #7]
@@ -213,7 +213,7 @@ class _WorkoutNotificationDetailViewState extends State<dynamic> {
     //     0x90098c: add             x2, x2, HEAP, lsl #32
     // 0x900990: mov             x1, x0
     // 0x900994: r0 = _fetchWorkout()
-    //     0x900994: bl              #0x900a68  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/social_workout_detail_view.dart] _SocialWorkoutDetailViewState::_fetchWorkout
+    //     0x900994: bl              #0x900a68  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/social_workout_detail_view.dart] _SocialWorkoutDetailViewState::_fetchWorkout
     // 0x900998: mov             x1, x0
     // 0x90099c: stur            x1, [fp, #-0x80]
     // 0x9009a0: r0 = Await()
@@ -241,7 +241,7 @@ class _WorkoutNotificationDetailViewState extends State<dynamic> {
     //     0x9009e0: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x9009e4: mov             x2, x3
     // 0x9009e8: r1 = Function '<anonymous closure>':.
-    //     0x9009e8: add             x1, PP, #0x26, lsl #12  ; [pp+0x26c58] AnonymousClosure: (0x90075c), in [package:ballai/automatic/views/home/tab/tabs/you/root/workout_notification_detail_view.dart] _WorkoutNotificationDetailViewState::_load (0x9007ac)
+    //     0x9009e8: add             x1, PP, #0x26, lsl #12  ; [pp+0x26c58] AnonymousClosure: (0x90075c), in [package:kourtai/automatic/views/home/tab/tabs/you/root/workout_notification_detail_view.dart] _WorkoutNotificationDetailViewState::_load (0x9007ac)
     //     0x9009ec: ldr             x1, [x1, #0xc58]
     // 0x9009f0: r0 = AllocateClosure()
     //     0x9009f0: bl              #0xe553e0  ; AllocateClosureStub
@@ -264,7 +264,7 @@ class _WorkoutNotificationDetailViewState extends State<dynamic> {
     //     0x900a20: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x900a24: ldur            x2, [fp, #-0x78]
     // 0x900a28: r1 = Function '<anonymous closure>':.
-    //     0x900a28: add             x1, PP, #0x26, lsl #12  ; [pp+0x26c60] AnonymousClosure: (0x900be8), in [package:ballai/automatic/views/home/tab/tabs/you/root/workout_notification_detail_view.dart] _WorkoutNotificationDetailViewState::_load (0x9007ac)
+    //     0x900a28: add             x1, PP, #0x26, lsl #12  ; [pp+0x26c60] AnonymousClosure: (0x900be8), in [package:kourtai/automatic/views/home/tab/tabs/you/root/workout_notification_detail_view.dart] _WorkoutNotificationDetailViewState::_load (0x9007ac)
     //     0x900a2c: ldr             x1, [x1, #0xc60]
     // 0x900a30: r0 = AllocateClosure()
     //     0x900a30: bl              #0xe553e0  ; AllocateClosureStub
@@ -318,7 +318,7 @@ class _WorkoutNotificationDetailViewState extends State<dynamic> {
     //     0x900c20: add             x1, PP, #0x26, lsl #12  ; [pp+0x26c20] "Could not load this workout."
     //     0x900c24: ldr             x1, [x1, #0xc20]
     // 0x900c28: r0 = L()
-    //     0x900c28: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x900c28: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x900c2c: ldur            x1, [fp, #-8]
     // 0x900c30: StoreField: r1->field_1b = r0
     //     0x900c30: stur            w0, [x1, #0x1b]
@@ -408,7 +408,7 @@ class _WorkoutNotificationDetailViewState extends State<dynamic> {
     // 0x989724: mov             x2, x1
     // 0x989728: stur            x0, [fp, #-8]
     // 0x98972c: r1 = Function '<anonymous closure>':.
-    //     0x98972c: add             x1, PP, #0x26, lsl #12  ; [pp+0x26c38] AnonymousClosure: (0x989800), in [package:ballai/automatic/views/home/tab/tabs/you/root/workout_notification_detail_view.dart] _WorkoutNotificationDetailViewState::initState (0x9896d0)
+    //     0x98972c: add             x1, PP, #0x26, lsl #12  ; [pp+0x26c38] AnonymousClosure: (0x989800), in [package:kourtai/automatic/views/home/tab/tabs/you/root/workout_notification_detail_view.dart] _WorkoutNotificationDetailViewState::initState (0x9896d0)
     //     0x989730: ldr             x1, [x1, #0xc38]
     // 0x989734: r0 = AllocateClosure()
     //     0x989734: bl              #0xe553e0  ; AllocateClosureStub
@@ -505,7 +505,7 @@ class _WorkoutNotificationDetailViewState extends State<dynamic> {
     //     0x989824: add             x0, x0, HEAP, lsl #32
     // 0x989828: mov             x1, x0
     // 0x98982c: r0 = _load()
-    //     0x98982c: bl              #0x9007ac  ; [package:ballai/automatic/views/home/tab/tabs/you/root/workout_notification_detail_view.dart] _WorkoutNotificationDetailViewState::_load
+    //     0x98982c: bl              #0x9007ac  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/workout_notification_detail_view.dart] _WorkoutNotificationDetailViewState::_load
     // 0x989830: LeaveFrame
     //     0x989830: mov             SP, fp
     //     0x989834: ldp             fp, lr, [SP], #0x10
@@ -551,8 +551,8 @@ class _WorkoutNotificationDetailViewState extends State<dynamic> {
     //     0xaa66a4: add             x3, x3, HEAP, lsl #32
     // 0xaa66a8: cmp             w3, NULL
     // 0xaa66ac: b.ne            #0xaa6704
-    // 0xaa66b0: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xaa66b0: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xaa66b0: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xaa66b0: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xaa66b4: stur            x0, [fp, #-0x18]
     // 0xaa66b8: r0 = Scaffold()
     //     0xaa66b8: bl              #0x9cbb08  ; AllocateScaffoldStub -> Scaffold (size=0x50)
@@ -654,16 +654,16 @@ class _WorkoutNotificationDetailViewState extends State<dynamic> {
     //     0xaa67a8: ldp             fp, lr, [SP], #0x10
     // 0xaa67ac: ret
     //     0xaa67ac: ret             
-    // 0xaa67b0: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xaa67b0: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xaa67b0: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xaa67b0: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xaa67b4: ldur            x2, [fp, #-0x38]
     // 0xaa67b8: stur            x0, [fp, #-0x10]
     // 0xaa67bc: LoadField: r1 = r2->field_f
     //     0xaa67bc: ldur            w1, [x2, #0xf]
     // 0xaa67c0: DecompressPointer r1
     //     0xaa67c0: add             x1, x1, HEAP, lsl #32
-    // 0xaa67c4: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xaa67c4: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xaa67c4: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xaa67c4: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xaa67c8: stur            x0, [fp, #-0x18]
     // 0xaa67cc: r0 = AppBar()
     //     0xaa67cc: bl              #0xa14de0  ; AllocateAppBarStub -> AppBar (size=0x94)
@@ -699,7 +699,7 @@ class _WorkoutNotificationDetailViewState extends State<dynamic> {
     //     0xaa6820: add             x1, PP, #0x26, lsl #12  ; [pp+0x26c20] "Could not load this workout."
     //     0xaa6824: ldr             x1, [x1, #0xc20]
     // 0xaa6828: r0 = L()
-    //     0xaa6828: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa6828: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa682c: mov             x4, x0
     // 0xaa6830: b               #0xaa6838
     // 0xaa6834: mov             x4, x1
@@ -711,8 +711,8 @@ class _WorkoutNotificationDetailViewState extends State<dynamic> {
     //     0xaa6848: ldur            w1, [x2, #0xf]
     // 0xaa684c: DecompressPointer r1
     //     0xaa684c: add             x1, x1, HEAP, lsl #32
-    // 0xaa6850: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xaa6850: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xaa6850: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xaa6850: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xaa6854: stur            x0, [fp, #-0x18]
     // 0xaa6858: r0 = TextStyle()
     //     0xaa6858: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -757,7 +757,7 @@ class _WorkoutNotificationDetailViewState extends State<dynamic> {
     //     0xaa68bc: add             x1, PP, #0x26, lsl #12  ; [pp+0x26c28] "Go back"
     //     0xaa68c0: ldr             x1, [x1, #0xc28]
     // 0xaa68c4: r0 = L()
-    //     0xaa68c4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa68c4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa68c8: stur            x0, [fp, #-0x28]
     // 0xaa68cc: r0 = Text()
     //     0xaa68cc: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -768,7 +768,7 @@ class _WorkoutNotificationDetailViewState extends State<dynamic> {
     //     0xaa68dc: stur            w0, [x3, #0xb]
     // 0xaa68e0: ldur            x2, [fp, #-0x38]
     // 0xaa68e4: r1 = Function '<anonymous closure>':.
-    //     0xaa68e4: add             x1, PP, #0x26, lsl #12  ; [pp+0x26c30] AnonymousClosure: (0x953eb0), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
+    //     0xaa68e4: add             x1, PP, #0x26, lsl #12  ; [pp+0x26c30] AnonymousClosure: (0x953eb0), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
     //     0xaa68e8: ldr             x1, [x1, #0xc30]
     // 0xaa68ec: r0 = AllocateClosure()
     //     0xaa68ec: bl              #0xe553e0  ; AllocateClosureStub

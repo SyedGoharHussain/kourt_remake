@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_app_help_section_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_app_help_section_view.dart
 
 // class id: 1048876, size: 0x8
 class :: {
@@ -34,10 +34,10 @@ class AccountAppHelpSectionView extends StatelessWidget {
     //     0xbd863c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49fa8] "Our policies"
     //     0xbd8640: ldr             x1, [x1, #0xfa8]
     // 0xbd8644: r0 = L()
-    //     0xbd8644: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd8644: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd8648: stur            x0, [fp, #-8]
-    // 0xbd864c: r0 = BallAiSettingsNavigationRow()
-    //     0xbd864c: bl              #0xbd8000  ; AllocateBallAiSettingsNavigationRowStub -> BallAiSettingsNavigationRow (size=0x20)
+    // 0xbd864c: r0 = KourtAiSettingsNavigationRow()
+    //     0xbd864c: bl              #0xbd8000  ; AllocateKourtAiSettingsNavigationRowStub -> KourtAiSettingsNavigationRow (size=0x20)
     // 0xbd8650: mov             x3, x0
     // 0xbd8654: ldur            x0, [fp, #-8]
     // 0xbd8658: stur            x3, [fp, #-0x18]
@@ -45,7 +45,7 @@ class AccountAppHelpSectionView extends StatelessWidget {
     //     0xbd865c: stur            w0, [x3, #0xb]
     // 0xbd8660: ldur            x2, [fp, #-0x10]
     // 0xbd8664: r1 = Function '<anonymous closure>':.
-    //     0xbd8664: add             x1, PP, #0x49, lsl #12  ; [pp+0x49fb0] AnonymousClosure: (0xbd887c), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_app_help_section_view.dart] AccountAppHelpSectionView::build (0xbd8608)
+    //     0xbd8664: add             x1, PP, #0x49, lsl #12  ; [pp+0x49fb0] AnonymousClosure: (0xbd887c), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_app_help_section_view.dart] AccountAppHelpSectionView::build (0xbd8608)
     //     0xbd8668: ldr             x1, [x1, #0xfb0]
     // 0xbd866c: r0 = AllocateClosure()
     //     0xbd866c: bl              #0xe553e0  ; AllocateClosureStub
@@ -65,10 +65,10 @@ class AccountAppHelpSectionView extends StatelessWidget {
     //     0xbd868c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49fb8] "Contact support"
     //     0xbd8690: ldr             x1, [x1, #0xfb8]
     // 0xbd8694: r0 = L()
-    //     0xbd8694: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd8694: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd8698: stur            x0, [fp, #-8]
-    // 0xbd869c: r0 = BallAiSettingsNavigationRow()
-    //     0xbd869c: bl              #0xbd8000  ; AllocateBallAiSettingsNavigationRowStub -> BallAiSettingsNavigationRow (size=0x20)
+    // 0xbd869c: r0 = KourtAiSettingsNavigationRow()
+    //     0xbd869c: bl              #0xbd8000  ; AllocateKourtAiSettingsNavigationRowStub -> KourtAiSettingsNavigationRow (size=0x20)
     // 0xbd86a0: mov             x3, x0
     // 0xbd86a4: ldur            x0, [fp, #-8]
     // 0xbd86a8: stur            x3, [fp, #-0x20]
@@ -76,7 +76,7 @@ class AccountAppHelpSectionView extends StatelessWidget {
     //     0xbd86ac: stur            w0, [x3, #0xb]
     // 0xbd86b0: ldur            x2, [fp, #-0x10]
     // 0xbd86b4: r1 = Function '<anonymous closure>':.
-    //     0xbd86b4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49fc0] AnonymousClosure: (0xbd874c), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_app_help_section_view.dart] AccountAppHelpSectionView::build (0xbd8608)
+    //     0xbd86b4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49fc0] AnonymousClosure: (0xbd874c), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_app_help_section_view.dart] AccountAppHelpSectionView::build (0xbd8608)
     //     0xbd86b8: ldr             x1, [x1, #0xfc0]
     // 0xbd86bc: r0 = AllocateClosure()
     //     0xbd86bc: bl              #0xe553e0  ; AllocateClosureStub
@@ -103,8 +103,8 @@ class AccountAppHelpSectionView extends StatelessWidget {
     // 0xbd86f0: stur            x2, [fp, #-8]
     // 0xbd86f4: StoreField: r2->field_f = r0
     //     0xbd86f4: stur            w0, [x2, #0xf]
-    // 0xbd86f8: r16 = Instance_BallAiSettingsDivider
-    //     0xbd86f8: add             x16, PP, #0x44, lsl #12  ; [pp+0x44ea8] Obj!BallAiSettingsDivider@d25ae1
+    // 0xbd86f8: r16 = Instance_KourtAiSettingsDivider
+    //     0xbd86f8: add             x16, PP, #0x44, lsl #12  ; [pp+0x44ea8] Obj!KourtAiSettingsDivider@d25ae1
     //     0xbd86fc: ldr             x16, [x16, #0xea8]
     // 0xbd8700: StoreField: r2->field_13 = r16
     //     0xbd8700: stur            w16, [x2, #0x13]
@@ -124,8 +124,8 @@ class AccountAppHelpSectionView extends StatelessWidget {
     //     0xbd8724: mov             x0, #6
     // 0xbd8728: StoreField: r1->field_b = r0
     //     0xbd8728: stur            w0, [x1, #0xb]
-    // 0xbd872c: r0 = BallAiSettingsSection()
-    //     0xbd872c: bl              #0xbd7ff4  ; AllocateBallAiSettingsSectionStub -> BallAiSettingsSection (size=0x10)
+    // 0xbd872c: r0 = KourtAiSettingsSection()
+    //     0xbd872c: bl              #0xbd7ff4  ; AllocateKourtAiSettingsSectionStub -> KourtAiSettingsSection (size=0x10)
     // 0xbd8730: ldur            x1, [fp, #-0x10]
     // 0xbd8734: StoreField: r0->field_b = r1
     //     0xbd8734: stur            w1, [x0, #0xb]
@@ -158,7 +158,7 @@ class AccountAppHelpSectionView extends StatelessWidget {
     //     0xbd8770: add             x0, x0, HEAP, lsl #32
     // 0xbd8774: mov             x1, x0
     // 0xbd8778: r0 = show()
-    //     0xbd8778: bl              #0xbd8790  ; [package:ballai/automatic/views/misc/beta_welcome_overlay.dart] BetaWelcomeOverlay::show
+    //     0xbd8778: bl              #0xbd8790  ; [package:kourtai/automatic/views/misc/beta_welcome_overlay.dart] BetaWelcomeOverlay::show
     // 0xbd877c: LeaveFrame
     //     0xbd877c: mov             SP, fp
     //     0xbd8780: ldp             fp, lr, [SP], #0x10
@@ -193,7 +193,7 @@ class AccountAppHelpSectionView extends StatelessWidget {
     // 0xbd88b0: r0 = of()
     //     0xbd88b0: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xbd88b4: r1 = Function '<anonymous closure>':.
-    //     0xbd88b4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49fd8] AnonymousClosure: (0xbd891c), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_app_help_section_view.dart] AccountAppHelpSectionView::build (0xbd8608)
+    //     0xbd88b4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49fd8] AnonymousClosure: (0xbd891c), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_app_help_section_view.dart] AccountAppHelpSectionView::build (0xbd8608)
     //     0xbd88b8: ldr             x1, [x1, #0xfd8]
     // 0xbd88bc: r2 = Null
     //     0xbd88bc: mov             x2, NULL

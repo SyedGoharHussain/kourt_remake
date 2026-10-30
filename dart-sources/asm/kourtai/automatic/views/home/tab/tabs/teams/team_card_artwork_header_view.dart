@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/team_card_artwork_header_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/team_card_artwork_header_view.dart
 
 // class id: 1048958, size: 0x8
 class :: {

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart
 
 // class id: 1048920, size: 0x8
 class :: {
@@ -514,7 +514,7 @@ class _BrandMark extends StatelessWidget {
     //     0xbf7e34: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d1c0] "Powered by"
     //     0xbf7e38: ldr             x1, [x1, #0x1c0]
     // 0xbf7e3c: r0 = L()
-    //     0xbf7e3c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf7e3c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf7e40: stur            x0, [fp, #-0x10]
     // 0xbf7e44: r16 = 0.650000
     //     0xbf7e44: add             x16, PP, #0x44, lsl #12  ; [pp+0x44ca8] 0.65
@@ -558,11 +558,11 @@ class _BrandMark extends StatelessWidget {
     // 0xbf7ea8: ldur            x0, [fp, #-0x28]
     // 0xbf7eac: StoreField: r2->field_13 = r0
     //     0xbf7eac: stur            w0, [x2, #0x13]
-    // 0xbf7eb0: r1 = "BALL AI"
-    //     0xbf7eb0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d1c8] "BALL AI"
+    // 0xbf7eb0: r1 = "KOURT AI"
+    //     0xbf7eb0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d1c8] "KOURT AI"
     //     0xbf7eb4: ldr             x1, [x1, #0x1c8]
     // 0xbf7eb8: r0 = L()
-    //     0xbf7eb8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf7eb8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf7ebc: stur            x0, [fp, #-0x10]
     // 0xbf7ec0: r0 = TextStyle()
     //     0xbf7ec0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1359,7 +1359,7 @@ class _HandleRatingPanel extends StatelessWidget {
     //     0xbf74e0: stur            w0, [x1, #0x13]
     // 0xbf74e4: ldur            d0, [fp, #-0x38]
     // 0xbf74e8: r0 = _formatHandleScore()
-    //     0xbf74e8: bl              #0xbf773c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ::_formatHandleScore
+    //     0xbf74e8: bl              #0xbf773c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ::_formatHandleScore
     // 0xbf74ec: stur            x0, [fp, #-0x18]
     // 0xbf74f0: r0 = TextStyle()
     //     0xbf74f0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1759,7 +1759,7 @@ class _BallyPanel extends StatelessWidget {
     //     0xbf6e64: add             x1, PP, #0x53, lsl #12  ; [pp+0x537f8] "BALLY\'S BREAKDOWN"
     //     0xbf6e68: ldr             x1, [x1, #0x7f8]
     // 0xbf6e6c: r0 = L()
-    //     0xbf6e6c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf6e6c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf6e70: stur            x0, [fp, #-0x30]
     // 0xbf6e74: r16 = 0.620000
     //     0xbf6e74: add             x16, PP, #0x47, lsl #12  ; [pp+0x47bf8] 0.62
@@ -1976,14 +1976,14 @@ class _BallyPanel extends StatelessWidget {
     //     0xbf7088: add             x2, PP, #0x44, lsl #12  ; [pp+0x44220] Obj!ShareWorkoutCardMetricKind@d39ee1
     //     0xbf708c: ldr             x2, [x2, #0x220]
     // 0xbf7090: r0 = metricValue()
-    //     0xbf7090: bl              #0xbf5a20  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::metricValue
+    //     0xbf7090: bl              #0xbf5a20  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::metricValue
     // 0xbf7094: ldur            x1, [fp, #-0x18]
     // 0xbf7098: r2 = Instance_ShareWorkoutCardMetricKind
     //     0xbf7098: add             x2, PP, #0x44, lsl #12  ; [pp+0x44278] Obj!ShareWorkoutCardMetricKind@d39e61
     //     0xbf709c: ldr             x2, [x2, #0x278]
     // 0xbf70a0: stur            x0, [fp, #-0x50]
     // 0xbf70a4: r0 = metricValue()
-    //     0xbf70a4: bl              #0xbf5a20  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::metricValue
+    //     0xbf70a4: bl              #0xbf5a20  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::metricValue
     // 0xbf70a8: ldur            x2, [fp, #-0x40]
     // 0xbf70ac: ldur            x3, [fp, #-0x20]
     // 0xbf70b0: stur            x0, [fp, #-0x20]
@@ -2049,14 +2049,14 @@ class _BallyPanel extends StatelessWidget {
     //     0xbf7150: add             x2, PP, #0x44, lsl #12  ; [pp+0x442b0] Obj!ShareWorkoutCardMetricKind@d39e01
     //     0xbf7154: ldr             x2, [x2, #0x2b0]
     // 0xbf7158: r0 = metricValue()
-    //     0xbf7158: bl              #0xbf5a20  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::metricValue
+    //     0xbf7158: bl              #0xbf5a20  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::metricValue
     // 0xbf715c: ldur            x1, [fp, #-0x18]
     // 0xbf7160: r2 = Instance_ShareWorkoutCardMetricKind
     //     0xbf7160: add             x2, PP, #0x44, lsl #12  ; [pp+0x442c0] Obj!ShareWorkoutCardMetricKind@d39de1
     //     0xbf7164: ldr             x2, [x2, #0x2c0]
     // 0xbf7168: stur            x0, [fp, #-0x18]
     // 0xbf716c: r0 = metricValue()
-    //     0xbf716c: bl              #0xbf5a20  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::metricValue
+    //     0xbf716c: bl              #0xbf5a20  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::metricValue
     // 0xbf7170: ldur            x3, [fp, #-0x20]
     // 0xbf7174: r2 = "FG%"
     //     0xbf7174: add             x2, PP, #0x44, lsl #12  ; [pp+0x442a8] "FG%"
@@ -2639,7 +2639,7 @@ class _CourtPanel extends StatelessWidget {
     // 0xbf61f8: ldur            x1, [fp, #-0x20]
     // 0xbf61fc: ldur            x2, [fp, #-0x10]
     // 0xbf6200: r0 = _hotColdLine()
-    //     0xbf6200: bl              #0xbf658c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] _CourtPanel::_hotColdLine
+    //     0xbf6200: bl              #0xbf658c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] _CourtPanel::_hotColdLine
     // 0xbf6204: stur            x0, [fp, #-0x18]
     // 0xbf6208: cmp             w0, NULL
     // 0xbf620c: b.eq            #0xbf62d4
@@ -4036,7 +4036,7 @@ class _AnalyticsPanel extends StatelessWidget {
     //     0xbf5508: add             x1, PP, #0x53, lsl #12  ; [pp+0x537e0] "Avg. Release Angle"
     //     0xbf550c: ldr             x1, [x1, #0x7e0]
     // 0xbf5510: r0 = L()
-    //     0xbf5510: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf5510: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf5514: stur            x0, [fp, #-0x30]
     // 0xbf5518: r0 = _AnalyticsTile()
     //     0xbf5518: bl              #0xbf5aa8  ; Allocate_AnalyticsTileStub -> _AnalyticsTile (size=0x20)
@@ -4116,7 +4116,7 @@ class _AnalyticsPanel extends StatelessWidget {
     //     0xbf55ec: add             x1, PP, #0x53, lsl #12  ; [pp+0x537e8] "Avg. Release Time"
     //     0xbf55f0: ldr             x1, [x1, #0x7e8]
     // 0xbf55f4: r0 = L()
-    //     0xbf55f4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf55f4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf55f8: stur            x0, [fp, #-0x20]
     // 0xbf55fc: r0 = _AnalyticsTile()
     //     0xbf55fc: bl              #0xbf5aa8  ; Allocate_AnalyticsTileStub -> _AnalyticsTile (size=0x20)
@@ -4192,7 +4192,7 @@ class _AnalyticsPanel extends StatelessWidget {
     //     0xbf56c4: add             x1, PP, #0x53, lsl #12  ; [pp+0x537f0] "Avg. Shot Force"
     //     0xbf56c8: ldr             x1, [x1, #0x7f0]
     // 0xbf56cc: r0 = L()
-    //     0xbf56cc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf56cc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf56d0: stur            x0, [fp, #-0x20]
     // 0xbf56d4: r0 = _AnalyticsTile()
     //     0xbf56d4: bl              #0xbf5aa8  ; Allocate_AnalyticsTileStub -> _AnalyticsTile (size=0x20)
@@ -4329,7 +4329,7 @@ class _AnalyticsPanel extends StatelessWidget {
     //     0xbf585c: ldr             x2, [x2, #0x250]
     // 0xbf5860: stur            x0, [fp, #-0x10]
     // 0xbf5864: r0 = metricValue()
-    //     0xbf5864: bl              #0xbf5a20  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::metricValue
+    //     0xbf5864: bl              #0xbf5a20  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::metricValue
     // 0xbf5868: ldur            x3, [fp, #-8]
     // 0xbf586c: r2 = "FG%"
     //     0xbf586c: add             x2, PP, #0x44, lsl #12  ; [pp+0x442a8] "FG%"
@@ -6006,7 +6006,7 @@ class _DateFooter extends StatelessWidget {
     //     0xbf42e8: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4de10] "SESSION"
     //     0xbf42ec: ldr             x1, [x1, #0xe10]
     // 0xbf42f0: r0 = L()
-    //     0xbf42f0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf42f0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf42f4: stur            x0, [fp, #-0x10]
     // 0xbf42f8: r16 = 0.420000
     //     0xbf42f8: add             x16, PP, #0x2c, lsl #12  ; [pp+0x2ca48] 0.42
@@ -7275,7 +7275,7 @@ class ShareWorkoutCardData extends Object {
     //     0x96aed4: b.ls            #0x96b7b4
     // 0x96aed8: mov             x1, x0
     // 0x96aedc: r0 = isDribblingWorkout()
-    //     0x96aedc: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0x96aedc: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0x96aee0: ldur            x1, [fp, #-0x10]
     // 0x96aee4: stur            x0, [fp, #-0x18]
     // 0x96aee8: LoadField: d1 = r1->field_27
@@ -7283,24 +7283,24 @@ class ShareWorkoutCardData extends Object {
     // 0x96aeec: mov             v0.16b, v1.16b
     // 0x96aef0: stur            d1, [fp, #-0xb0]
     // 0x96aef4: r0 = _formatDuration()
-    //     0x96aef4: bl              #0x96e628  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ::_formatDuration
+    //     0x96aef4: bl              #0x96e628  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ::_formatDuration
     // 0x96aef8: ldur            x1, [fp, #-0x10]
     // 0x96aefc: stur            x0, [fp, #-0x20]
     // 0x96af00: r0 = _ballyCardData()
-    //     0x96af00: bl              #0x96e2c8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_ballyCardData
+    //     0x96af00: bl              #0x96e2c8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_ballyCardData
     // 0x96af04: ldur            x1, [fp, #-0x10]
     // 0x96af08: stur            x0, [fp, #-0x28]
     // 0x96af0c: r0 = _hasBallyBreakdownReport()
-    //     0x96af0c: bl              #0x96e20c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_hasBallyBreakdownReport
+    //     0x96af0c: bl              #0x96e20c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_hasBallyBreakdownReport
     // 0x96af10: ldur            x1, [fp, #-0x10]
     // 0x96af14: mov             x2, x0
     // 0x96af18: stur            x0, [fp, #-0x30]
     // 0x96af1c: r0 = _handleRatingData()
-    //     0x96af1c: bl              #0x96e0e8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_handleRatingData
+    //     0x96af1c: bl              #0x96e0e8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_handleRatingData
     // 0x96af20: ldur            x1, [fp, #-0x10]
     // 0x96af24: stur            x0, [fp, #-0x38]
     // 0x96af28: r0 = _goalCardData()
-    //     0x96af28: bl              #0x96d3f8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_goalCardData
+    //     0x96af28: bl              #0x96d3f8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_goalCardData
     // 0x96af2c: mov             x2, x0
     // 0x96af30: ldur            x0, [fp, #-0x18]
     // 0x96af34: stur            x2, [fp, #-0x50]
@@ -7393,23 +7393,23 @@ class ShareWorkoutCardData extends Object {
     // 0x96b03c: DecompressPointer r1
     //     0x96b03c: add             x1, x1, HEAP, lsl #32
     // 0x96b040: r0 = _dayMonth()
-    //     0x96b040: bl              #0x96cdb0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_dayMonth
+    //     0x96b040: bl              #0x96cdb0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_dayMonth
     // 0x96b044: ldur            x1, [fp, #-0x10]
     // 0x96b048: stur            x0, [fp, #-0x58]
     // 0x96b04c: r0 = _dribbleScoreDisplay()
-    //     0x96b04c: bl              #0x96cbf4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_dribbleScoreDisplay
+    //     0x96b04c: bl              #0x96cbf4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_dribbleScoreDisplay
     // 0x96b050: r1 = "SCORE"
     //     0x96b050: add             x1, PP, #0x44, lsl #12  ; [pp+0x44218] "SCORE"
     //     0x96b054: ldr             x1, [x1, #0x218]
     // 0x96b058: stur            x0, [fp, #-0x60]
     // 0x96b05c: r0 = L()
-    //     0x96b05c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96b05c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96b060: r1 = "Total dribbles"
     //     0x96b060: add             x1, PP, #0x41, lsl #12  ; [pp+0x41560] "Total dribbles"
     //     0x96b064: ldr             x1, [x1, #0x560]
     // 0x96b068: stur            x0, [fp, #-0x68]
     // 0x96b06c: r0 = L()
-    //     0x96b06c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96b06c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96b070: stur            x0, [fp, #-0x70]
     // 0x96b074: ldur            x16, [fp, #-0x40]
     // 0x96b078: str             x16, [SP]
@@ -7435,7 +7435,7 @@ class ShareWorkoutCardData extends Object {
     //     0x96b0ac: add             x1, PP, #0x44, lsl #12  ; [pp+0x44228] "Right hand"
     //     0x96b0b0: ldr             x1, [x1, #0x228]
     // 0x96b0b4: r0 = L()
-    //     0x96b0b4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96b0b4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96b0b8: stur            x0, [fp, #-0x40]
     // 0x96b0bc: r0 = ShareWorkoutCardMetric()
     //     0x96b0bc: bl              #0x96cbc4  ; AllocateShareWorkoutCardMetricStub -> ShareWorkoutCardMetric (size=0x14)
@@ -7458,7 +7458,7 @@ class ShareWorkoutCardData extends Object {
     //     0x96b0e8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44238] "Left hand"
     //     0x96b0ec: ldr             x1, [x1, #0x238]
     // 0x96b0f0: r0 = L()
-    //     0x96b0f0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96b0f0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96b0f4: stur            x0, [fp, #-0x40]
     // 0x96b0f8: r0 = ShareWorkoutCardMetric()
     //     0x96b0f8: bl              #0x96cbc4  ; AllocateShareWorkoutCardMetricStub -> ShareWorkoutCardMetric (size=0x14)
@@ -7481,7 +7481,7 @@ class ShareWorkoutCardData extends Object {
     //     0x96b124: add             x1, PP, #0x44, lsl #12  ; [pp+0x44248] "Duration"
     //     0x96b128: ldr             x1, [x1, #0x248]
     // 0x96b12c: r0 = L()
-    //     0x96b12c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96b12c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96b130: stur            x0, [fp, #-0x40]
     // 0x96b134: r0 = ShareWorkoutCardMetric()
     //     0x96b134: bl              #0x96cbc4  ; AllocateShareWorkoutCardMetricStub -> ShareWorkoutCardMetric (size=0x14)
@@ -7502,7 +7502,7 @@ class ShareWorkoutCardData extends Object {
     //     0x96b15c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44258] "Ball control"
     //     0x96b160: ldr             x1, [x1, #0x258]
     // 0x96b164: r0 = L()
-    //     0x96b164: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96b164: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96b168: mov             x1, x0
     // 0x96b16c: ldur            x0, [fp, #-0x48]
     // 0x96b170: stur            x1, [fp, #-0x90]
@@ -7564,7 +7564,7 @@ class ShareWorkoutCardData extends Object {
     //     0x96b220: add             x1, PP, #0x44, lsl #12  ; [pp+0x44280] "Avg height"
     //     0x96b224: ldr             x1, [x1, #0x280]
     // 0x96b228: r0 = L()
-    //     0x96b228: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96b228: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96b22c: stur            x0, [fp, #-0x40]
     // 0x96b230: r0 = ShareWorkoutCardMetric()
     //     0x96b230: bl              #0x96cbc4  ; AllocateShareWorkoutCardMetricStub -> ShareWorkoutCardMetric (size=0x14)
@@ -7587,7 +7587,7 @@ class ShareWorkoutCardData extends Object {
     //     0x96b25c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44290] "Avg speed"
     //     0x96b260: ldr             x1, [x1, #0x290]
     // 0x96b264: r0 = L()
-    //     0x96b264: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96b264: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96b268: stur            x0, [fp, #-0x40]
     // 0x96b26c: r0 = ShareWorkoutCardMetric()
     //     0x96b26c: bl              #0x96cbc4  ; AllocateShareWorkoutCardMetricStub -> ShareWorkoutCardMetric (size=0x14)
@@ -7860,28 +7860,28 @@ class ShareWorkoutCardData extends Object {
     // 0x96b578: DecompressPointer r1
     //     0x96b578: add             x1, x1, HEAP, lsl #32
     // 0x96b57c: r0 = _dayMonth()
-    //     0x96b57c: bl              #0x96cdb0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_dayMonth
+    //     0x96b57c: bl              #0x96cdb0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_dayMonth
     // 0x96b580: r1 = "FG%"
     //     0x96b580: add             x1, PP, #0x44, lsl #12  ; [pp+0x442a8] "FG%"
     //     0x96b584: ldr             x1, [x1, #0x2a8]
     // 0x96b588: stur            x0, [fp, #-0x60]
     // 0x96b58c: r0 = L()
-    //     0x96b58c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96b58c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96b590: ldur            x1, [fp, #-8]
     // 0x96b594: stur            x0, [fp, #-0x68]
     // 0x96b598: r0 = _analyticsData()
-    //     0x96b598: bl              #0x96c5ac  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_analyticsData
+    //     0x96b598: bl              #0x96c5ac  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_analyticsData
     // 0x96b59c: ldur            x1, [fp, #-0x10]
     // 0x96b5a0: ldur            x2, [fp, #-8]
     // 0x96b5a4: stur            x0, [fp, #-8]
     // 0x96b5a8: r0 = _courtData()
-    //     0x96b5a8: bl              #0x96b7f4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_courtData
+    //     0x96b5a8: bl              #0x96b7f4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_courtData
     // 0x96b5ac: r1 = "Makes"
     //     0x96b5ac: add             x1, PP, #0x29, lsl #12  ; [pp+0x29418] "Makes"
     //     0x96b5b0: ldr             x1, [x1, #0x418]
     // 0x96b5b4: stur            x0, [fp, #-0x10]
     // 0x96b5b8: r0 = L()
-    //     0x96b5b8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96b5b8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96b5bc: mov             x3, x0
     // 0x96b5c0: ldur            x2, [fp, #-0x48]
     // 0x96b5c4: stur            x3, [fp, #-0x70]
@@ -7914,7 +7914,7 @@ class ShareWorkoutCardData extends Object {
     //     0x96b610: add             x1, PP, #0x44, lsl #12  ; [pp+0x442b8] "Attempts"
     //     0x96b614: ldr             x1, [x1, #0x2b8]
     // 0x96b618: r0 = L()
-    //     0x96b618: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96b618: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96b61c: mov             x3, x0
     // 0x96b620: ldur            x2, [fp, #-0xa8]
     // 0x96b624: stur            x3, [fp, #-0x70]
@@ -7947,7 +7947,7 @@ class ShareWorkoutCardData extends Object {
     //     0x96b670: add             x1, PP, #0x44, lsl #12  ; [pp+0x44248] "Duration"
     //     0x96b674: ldr             x1, [x1, #0x248]
     // 0x96b678: r0 = L()
-    //     0x96b678: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96b678: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96b67c: stur            x0, [fp, #-0x70]
     // 0x96b680: r0 = ShareWorkoutCardMetric()
     //     0x96b680: bl              #0x96cbc4  ; AllocateShareWorkoutCardMetricStub -> ShareWorkoutCardMetric (size=0x14)
@@ -7968,7 +7968,7 @@ class ShareWorkoutCardData extends Object {
     //     0x96b6a8: add             x1, PP, #0x44, lsl #12  ; [pp+0x442c8] "Shots/Min"
     //     0x96b6ac: ldr             x1, [x1, #0x2c8]
     // 0x96b6b0: r0 = L()
-    //     0x96b6b0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x96b6b0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x96b6b4: stur            x0, [fp, #-0x20]
     // 0x96b6b8: r0 = ShareWorkoutCardMetric()
     //     0x96b6b8: bl              #0x96cbc4  ; AllocateShareWorkoutCardMetricStub -> ShareWorkoutCardMetric (size=0x14)
@@ -8163,7 +8163,7 @@ class ShareWorkoutCardData extends Object {
     // 0x96b8b8: LoadField: d1 = r1->field_f
     //     0x96b8b8: ldur            d1, [x1, #0xf]
     // 0x96b8bc: r0 = classifyXY()
-    //     0x96b8bc: bl              #0x96bf64  ; [package:ballai/automatic/utility/court_zone_classifier.dart] CourtZoneClassifier::classifyXY
+    //     0x96b8bc: bl              #0x96bf64  ; [package:kourtai/automatic/utility/court_zone_classifier.dart] CourtZoneClassifier::classifyXY
     // 0x96b8c0: mov             x3, x0
     // 0x96b8c4: b               #0x96b900
     // 0x96b8c8: LoadField: r1 = r0->field_3f
@@ -8183,7 +8183,7 @@ class ShareWorkoutCardData extends Object {
     // 0x96b8ec: LoadField: d1 = r2->field_7
     //     0x96b8ec: ldur            d1, [x2, #7]
     // 0x96b8f0: r0 = classifyXY()
-    //     0x96b8f0: bl              #0x96bf64  ; [package:ballai/automatic/utility/court_zone_classifier.dart] CourtZoneClassifier::classifyXY
+    //     0x96b8f0: bl              #0x96bf64  ; [package:kourtai/automatic/utility/court_zone_classifier.dart] CourtZoneClassifier::classifyXY
     // 0x96b8f4: mov             x3, x0
     // 0x96b8f8: b               #0x96b900
     // 0x96b8fc: r3 = Null
@@ -8524,7 +8524,7 @@ class ShareWorkoutCardData extends Object {
     // 0x96bcd0: b               #0x96bbb4
     // 0x96bcd4: mov             x3, x0
     // 0x96bcd8: r1 = Function '<anonymous closure>': static.
-    //     0x96bcd8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44308] AnonymousClosure: static (0x96c520), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_courtData (0x96b7f4)
+    //     0x96bcd8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44308] AnonymousClosure: static (0x96c520), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_courtData (0x96b7f4)
     //     0x96bcdc: ldr             x1, [x1, #0x308]
     // 0x96bce0: r2 = Null
     //     0x96bce0: mov             x2, NULL
@@ -8546,7 +8546,7 @@ class ShareWorkoutCardData extends Object {
     //     0x96bd08: ldur            w1, [x0, #0xb]
     // 0x96bd0c: cbz             w1, #0x96bd64
     // 0x96bd10: r1 = Function '<anonymous closure>': static.
-    //     0x96bd10: add             x1, PP, #0x44, lsl #12  ; [pp+0x44310] AnonymousClosure: static (0x96c408), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_courtData (0x96b7f4)
+    //     0x96bd10: add             x1, PP, #0x44, lsl #12  ; [pp+0x44310] AnonymousClosure: static (0x96c408), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_courtData (0x96b7f4)
     //     0x96bd14: ldr             x1, [x1, #0x310]
     // 0x96bd18: r2 = Null
     //     0x96bd18: mov             x2, NULL
@@ -8594,7 +8594,7 @@ class ShareWorkoutCardData extends Object {
     //     0x96bd90: bl              #0x5ed854  ; [dart:core] _StringBase::trim
     // 0x96bd94: stur            x0, [fp, #-8]
     // 0x96bd98: r1 = Function '<anonymous closure>': static.
-    //     0x96bd98: add             x1, PP, #0x44, lsl #12  ; [pp+0x44318] AnonymousClosure: static (0x8472cc), in [package:ballai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance (0x847318)
+    //     0x96bd98: add             x1, PP, #0x44, lsl #12  ; [pp+0x44318] AnonymousClosure: static (0x8472cc), in [package:kourtai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance (0x847318)
     //     0x96bd9c: ldr             x1, [x1, #0x318]
     // 0x96bda0: r2 = Null
     //     0x96bda0: mov             x2, NULL
@@ -8605,7 +8605,7 @@ class ShareWorkoutCardData extends Object {
     // 0x96bdb0: r0 = reduce()
     //     0x96bdb0: bl              #0x716abc  ; [dart:collection] ListBase::reduce
     // 0x96bdb4: r1 = Function '<anonymous closure>': static.
-    //     0x96bdb4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44320] AnonymousClosure: static (0x8472cc), in [package:ballai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance (0x847318)
+    //     0x96bdb4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44320] AnonymousClosure: static (0x8472cc), in [package:kourtai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance (0x847318)
     //     0x96bdb8: ldr             x1, [x1, #0x320]
     // 0x96bdbc: r2 = Null
     //     0x96bdbc: mov             x2, NULL
@@ -8813,7 +8813,7 @@ class ShareWorkoutCardData extends Object {
     //     0x96c5c4: cmp             SP, x16
     //     0x96c5c8: b.ls            #0x96ca84
     // 0x96c5cc: r1 = Function '<anonymous closure>': static.
-    //     0x96c5cc: add             x1, PP, #0x44, lsl #12  ; [pp+0x443b0] AnonymousClosure: static (0x96cb98), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_analyticsData (0x96c5ac)
+    //     0x96c5cc: add             x1, PP, #0x44, lsl #12  ; [pp+0x443b0] AnonymousClosure: static (0x96cb98), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_analyticsData (0x96c5ac)
     //     0x96c5d0: ldr             x1, [x1, #0x3b0]
     // 0x96c5d4: r2 = Null
     //     0x96c5d4: mov             x2, NULL
@@ -8831,7 +8831,7 @@ class ShareWorkoutCardData extends Object {
     // 0x96c5f4: r0 = _GrowableList.of()
     //     0x96c5f4: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x96c5f8: r1 = Function '<anonymous closure>': static.
-    //     0x96c5f8: add             x1, PP, #0x44, lsl #12  ; [pp+0x443b8] AnonymousClosure: static (0x96cb78), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_analyticsData (0x96c5ac)
+    //     0x96c5f8: add             x1, PP, #0x44, lsl #12  ; [pp+0x443b8] AnonymousClosure: static (0x96cb78), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_analyticsData (0x96c5ac)
     //     0x96c5fc: ldr             x1, [x1, #0x3b8]
     // 0x96c600: r2 = Null
     //     0x96c600: mov             x2, NULL
@@ -8850,7 +8850,7 @@ class ShareWorkoutCardData extends Object {
     // 0x96c624: r0 = _GrowableList.of()
     //     0x96c624: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x96c628: r1 = Function '<anonymous closure>': static.
-    //     0x96c628: add             x1, PP, #0x44, lsl #12  ; [pp+0x443c0] AnonymousClosure: static (0x96cb58), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_analyticsData (0x96c5ac)
+    //     0x96c628: add             x1, PP, #0x44, lsl #12  ; [pp+0x443c0] AnonymousClosure: static (0x96cb58), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_analyticsData (0x96c5ac)
     //     0x96c62c: ldr             x1, [x1, #0x3c0]
     // 0x96c630: r2 = Null
     //     0x96c630: mov             x2, NULL
@@ -8893,7 +8893,7 @@ class ShareWorkoutCardData extends Object {
     // 0x96c694: ldur            x4, [fp, #-0x18]
     // 0x96c698: cbz             x2, #0x96c7dc
     // 0x96c69c: r1 = Function '<anonymous closure>': static.
-    //     0x96c69c: add             x1, PP, #0x44, lsl #12  ; [pp+0x443c8] AnonymousClosure: static (0x96cb34), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_analyticsData (0x96c5ac)
+    //     0x96c69c: add             x1, PP, #0x44, lsl #12  ; [pp+0x443c8] AnonymousClosure: static (0x96cb34), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_analyticsData (0x96c5ac)
     //     0x96c6a0: ldr             x1, [x1, #0x3c8]
     // 0x96c6a4: r2 = Null
     //     0x96c6a4: mov             x2, NULL
@@ -8909,7 +8909,7 @@ class ShareWorkoutCardData extends Object {
     // 0x96c6c0: r0 = map()
     //     0x96c6c0: bl              #0x8e024c  ; [dart:collection] ListBase::map
     // 0x96c6c4: r1 = Function '<anonymous closure>': static.
-    //     0x96c6c4: add             x1, PP, #0x44, lsl #12  ; [pp+0x443d0] AnonymousClosure: static (0x8472cc), in [package:ballai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance (0x847318)
+    //     0x96c6c4: add             x1, PP, #0x44, lsl #12  ; [pp+0x443d0] AnonymousClosure: static (0x8472cc), in [package:kourtai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance (0x847318)
     //     0x96c6c8: ldr             x1, [x1, #0x3d0]
     // 0x96c6cc: r2 = Null
     //     0x96c6cc: mov             x2, NULL
@@ -9010,7 +9010,7 @@ class ShareWorkoutCardData extends Object {
     //     0x96c7e8: ldur            w1, [x0, #0xb]
     // 0x96c7ec: cbz             w1, #0x96c8d0
     // 0x96c7f0: r1 = Function '<anonymous closure>': static.
-    //     0x96c7f0: add             x1, PP, #0x44, lsl #12  ; [pp+0x443d8] AnonymousClosure: static (0x96cb10), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_analyticsData (0x96c5ac)
+    //     0x96c7f0: add             x1, PP, #0x44, lsl #12  ; [pp+0x443d8] AnonymousClosure: static (0x96cb10), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_analyticsData (0x96c5ac)
     //     0x96c7f4: ldr             x1, [x1, #0x3d8]
     // 0x96c7f8: r2 = Null
     //     0x96c7f8: mov             x2, NULL
@@ -9026,7 +9026,7 @@ class ShareWorkoutCardData extends Object {
     // 0x96c814: r0 = map()
     //     0x96c814: bl              #0x8e024c  ; [dart:collection] ListBase::map
     // 0x96c818: r1 = Function '<anonymous closure>': static.
-    //     0x96c818: add             x1, PP, #0x44, lsl #12  ; [pp+0x443e0] AnonymousClosure: static (0x713694), in [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
+    //     0x96c818: add             x1, PP, #0x44, lsl #12  ; [pp+0x443e0] AnonymousClosure: static (0x713694), in [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
     //     0x96c81c: ldr             x1, [x1, #0x3e0]
     // 0x96c820: r2 = Null
     //     0x96c820: mov             x2, NULL
@@ -9099,7 +9099,7 @@ class ShareWorkoutCardData extends Object {
     //     0x96c8dc: ldur            w1, [x0, #0xb]
     // 0x96c8e0: cbz             w1, #0x96ca18
     // 0x96c8e4: r1 = Function '<anonymous closure>': static.
-    //     0x96c8e4: add             x1, PP, #0x44, lsl #12  ; [pp+0x443e8] AnonymousClosure: static (0x96caec), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_analyticsData (0x96c5ac)
+    //     0x96c8e4: add             x1, PP, #0x44, lsl #12  ; [pp+0x443e8] AnonymousClosure: static (0x96caec), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_analyticsData (0x96c5ac)
     //     0x96c8e8: ldr             x1, [x1, #0x3e8]
     // 0x96c8ec: r2 = Null
     //     0x96c8ec: mov             x2, NULL
@@ -9115,7 +9115,7 @@ class ShareWorkoutCardData extends Object {
     // 0x96c908: r0 = map()
     //     0x96c908: bl              #0x8e024c  ; [dart:collection] ListBase::map
     // 0x96c90c: r1 = Function '<anonymous closure>': static.
-    //     0x96c90c: add             x1, PP, #0x44, lsl #12  ; [pp+0x443f0] AnonymousClosure: static (0x713694), in [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
+    //     0x96c90c: add             x1, PP, #0x44, lsl #12  ; [pp+0x443f0] AnonymousClosure: static (0x713694), in [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
     //     0x96c910: ldr             x1, [x1, #0x3f0]
     // 0x96c914: r2 = Null
     //     0x96c914: mov             x2, NULL
@@ -9569,7 +9569,7 @@ class ShareWorkoutCardData extends Object {
     //     0x96d450: ret             
     // 0x96d454: ldur            x1, [fp, #-0x10]
     // 0x96d458: r0 = targetTotal()
-    //     0x96d458: bl              #0x96df94  ; [package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::targetTotal
+    //     0x96d458: bl              #0x96df94  ; [package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::targetTotal
     // 0x96d45c: cmp             x0, #0
     // 0x96d460: b.gt            #0x96d474
     // 0x96d464: r0 = Null
@@ -9582,11 +9582,11 @@ class ShareWorkoutCardData extends Object {
     // 0x96d474: ldur            x0, [fp, #-0x10]
     // 0x96d478: mov             x1, x0
     // 0x96d47c: r0 = trailingUnit()
-    //     0x96d47c: bl              #0x96de58  ; [package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::trailingUnit
+    //     0x96d47c: bl              #0x96de58  ; [package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::trailingUnit
     // 0x96d480: ldur            x1, [fp, #-0x10]
     // 0x96d484: stur            x0, [fp, #-0x18]
     // 0x96d488: r0 = goalDisplayText()
-    //     0x96d488: bl              #0x96dd74  ; [package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::goalDisplayText
+    //     0x96d488: bl              #0x96dd74  ; [package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::goalDisplayText
     // 0x96d48c: mov             x3, x0
     // 0x96d490: ldur            x0, [fp, #-0x10]
     // 0x96d494: stur            x3, [fp, #-0x28]
@@ -9662,7 +9662,7 @@ class ShareWorkoutCardData extends Object {
     // 0x96d548: ldur            x1, [fp, #-0x10]
     // 0x96d54c: stur            x0, [fp, #-0x20]
     // 0x96d550: r0 = goalPercentage()
-    //     0x96d550: bl              #0x96dcf8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::goalPercentage
+    //     0x96d550: bl              #0x96dcf8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::goalPercentage
     // 0x96d554: r1 = inline_Allocate_Double()
     //     0x96d554: ldp             x1, x0, [THR, #0x50]  ; THR::top
     //     0x96d558: add             x1, x1, #0x10
@@ -9685,11 +9685,11 @@ class ShareWorkoutCardData extends Object {
     // 0x96d58c: ldur            x1, [fp, #-0x10]
     // 0x96d590: stur            x0, [fp, #-0x10]
     // 0x96d594: r0 = currentDisplayText()
-    //     0x96d594: bl              #0x96d7e4  ; [package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::currentDisplayText
+    //     0x96d594: bl              #0x96d7e4  ; [package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::currentDisplayText
     // 0x96d598: ldur            x1, [fp, #-8]
     // 0x96d59c: stur            x0, [fp, #-0x28]
     // 0x96d5a0: r0 = colorForWorkoutGoalType()
-    //     0x96d5a0: bl              #0x96d6a4  ; [package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] ::colorForWorkoutGoalType
+    //     0x96d5a0: bl              #0x96d6a4  ; [package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] ::colorForWorkoutGoalType
     // 0x96d5a4: stur            x0, [fp, #-0x30]
     // 0x96d5a8: r16 = "Time"
     //     0x96d5a8: add             x16, PP, #0x29, lsl #12  ; [pp+0x29408] "Time"
@@ -9899,7 +9899,7 @@ class ShareWorkoutCardData extends Object {
     //     0x96e228: b.ls            #0x96e2c0
     // 0x96e22c: mov             x1, x0
     // 0x96e230: r0 = isDribblingWorkout()
-    //     0x96e230: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0x96e230: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0x96e234: tbz             w0, #4, #0x96e248
     // 0x96e238: r0 = false
     //     0x96e238: add             x0, NULL, #0x30  ; false
@@ -9969,7 +9969,7 @@ class ShareWorkoutCardData extends Object {
     //     0x96e2d8: cmp             SP, x16
     //     0x96e2dc: b.ls            #0x96e330
     // 0x96e2e0: r0 = latestSessionSummaryText()
-    //     0x96e2e0: bl              #0x96e344  ; [package:ballai/automatic/models/core/stats/workouts/workout_session_summary_util.dart] ::latestSessionSummaryText
+    //     0x96e2e0: bl              #0x96e344  ; [package:kourtai/automatic/models/core/stats/workouts/workout_session_summary_util.dart] ::latestSessionSummaryText
     // 0x96e2e4: cmp             w0, NULL
     // 0x96e2e8: b.ne            #0x96e2f4
     // 0x96e2ec: r1 = ""

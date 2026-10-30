@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart
+// lib: , url: package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart
 
 // class id: 1048806, size: 0x8
 class :: {
@@ -105,7 +105,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9d75e0: stur            w1, [x0, #0x37]
     // 0x9d75e4: ldur            x2, [fp, #-0x18]
     // 0x9d75e8: r1 = Function '<anonymous closure>':.
-    //     0x9d75e8: add             x1, PP, #0x57, lsl #12  ; [pp+0x57710] AnonymousClosure: (0x9d769c), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::build (0x9d74dc)
+    //     0x9d75e8: add             x1, PP, #0x57, lsl #12  ; [pp+0x57710] AnonymousClosure: (0x9d769c), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::build (0x9d74dc)
     //     0x9d75ec: ldr             x1, [x1, #0x710]
     // 0x9d75f0: r0 = AllocateClosure()
     //     0x9d75f0: bl              #0xe553e0  ; AllocateClosureStub
@@ -151,7 +151,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9d76c8: add             x1, x1, HEAP, lsl #32
     // 0x9d76cc: ldr             x2, [fp, #0x18]
     // 0x9d76d0: r0 = _buildHeader()
-    //     0x9d76d0: bl              #0x9e187c  ; [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildHeader
+    //     0x9d76d0: bl              #0x9e187c  ; [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildHeader
     // 0x9d76d4: mov             x4, x0
     // 0x9d76d8: ldur            x0, [fp, #-8]
     // 0x9d76dc: stur            x4, [fp, #-0x18]
@@ -168,7 +168,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     // 0x9d76f8: ldr             x5, [fp, #0x10]
     // 0x9d76fc: stur            x6, [fp, #-0x10]
     // 0x9d7700: r0 = _buildBody()
-    //     0x9d7700: bl              #0x9d8d74  ; [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildBody
+    //     0x9d7700: bl              #0x9d8d74  ; [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildBody
     // 0x9d7704: r1 = <FlexParentData>
     //     0x9d7704: add             x1, PP, #0x18, lsl #12  ; [pp+0x183e0] TypeArguments: <FlexParentData>
     //     0x9d7708: ldr             x1, [x1, #0x3e0]
@@ -218,7 +218,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     // 0x9d7778: ldr             x2, [fp, #0x18]
     // 0x9d777c: ldur            x3, [fp, #-0x10]
     // 0x9d7780: r0 = _buildComposer()
-    //     0x9d7780: bl              #0x9d7858  ; [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildComposer
+    //     0x9d7780: bl              #0x9d7858  ; [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildComposer
     // 0x9d7784: stur            x0, [fp, #-8]
     // 0x9d7788: r0 = Padding()
     //     0x9d7788: bl              #0x5eee94  ; AllocatePaddingStub -> Padding (size=0x14)
@@ -338,12 +338,12 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     // 0x9d78a4: cmp             w1, NULL
     // 0x9d78a8: b.eq            #0x9d7e20
     // 0x9d78ac: ldur            x1, [fp, #-0x10]
-    // 0x9d78b0: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0x9d78b0: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0x9d78b0: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0x9d78b0: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0x9d78b4: ldur            x1, [fp, #-0x10]
     // 0x9d78b8: stur            x0, [fp, #-0x28]
-    // 0x9d78bc: r0 = BallAiThemeContext.ballAi()
-    //     0x9d78bc: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0x9d78bc: r0 = KourtAiThemeContext.kourtAi()
+    //     0x9d78bc: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0x9d78c0: LoadField: r1 = r0->field_1f
     //     0x9d78c0: ldur            w1, [x0, #0x1f]
     // 0x9d78c4: DecompressPointer r1
@@ -425,8 +425,8 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     // 0x9d7984: eor             x6, x1, #0x10
     // 0x9d7988: ldur            x1, [fp, #-0x10]
     // 0x9d798c: stur            x6, [fp, #-0x28]
-    // 0x9d7990: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0x9d7990: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0x9d7990: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0x9d7990: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0x9d7994: stur            x0, [fp, #-0x48]
     // 0x9d7998: r0 = Radius()
     //     0x9d7998: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -557,7 +557,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9d7abc: stur            w4, [x3, #0x67]
     // 0x9d7ac0: ldur            x2, [fp, #-0x20]
     // 0x9d7ac4: r1 = Function '<anonymous closure>':.
-    //     0x9d7ac4: add             x1, PP, #0x57, lsl #12  ; [pp+0x57720] AnonymousClosure: (0x9d8d10), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildComposer (0x9d7858)
+    //     0x9d7ac4: add             x1, PP, #0x57, lsl #12  ; [pp+0x57720] AnonymousClosure: (0x9d8d10), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildComposer (0x9d7858)
     //     0x9d7ac8: ldr             x1, [x1, #0x720]
     // 0x9d7acc: r0 = AllocateClosure()
     //     0x9d7acc: bl              #0xe553e0  ; AllocateClosureStub
@@ -567,7 +567,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9d7ad8: stur            w1, [x0, #0x7f]
     // 0x9d7adc: ldur            x2, [fp, #-0x20]
     // 0x9d7ae0: r1 = Function '<anonymous closure>':.
-    //     0x9d7ae0: add             x1, PP, #0x57, lsl #12  ; [pp+0x57728] AnonymousClosure: (0x9d8ccc), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildComposer (0x9d7858)
+    //     0x9d7ae0: add             x1, PP, #0x57, lsl #12  ; [pp+0x57728] AnonymousClosure: (0x9d8ccc), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildComposer (0x9d7858)
     //     0x9d7ae4: ldr             x1, [x1, #0x728]
     // 0x9d7ae8: r0 = AllocateClosure()
     //     0x9d7ae8: bl              #0xe553e0  ; AllocateClosureStub
@@ -696,7 +696,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     // 0x9d7c18: cbz             w1, #0x9d7c34
     // 0x9d7c1c: ldur            x2, [fp, #-8]
     // 0x9d7c20: r1 = Function '_submitRoot@1014023049':.
-    //     0x9d7c20: add             x1, PP, #0x57, lsl #12  ; [pp+0x57738] AnonymousClosure: (0x9d7e68), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_submitRoot (0x9d7ea0)
+    //     0x9d7c20: add             x1, PP, #0x57, lsl #12  ; [pp+0x57738] AnonymousClosure: (0x9d7e68), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_submitRoot (0x9d7ea0)
     //     0x9d7c24: ldr             x1, [x1, #0x738]
     // 0x9d7c28: r0 = AllocateClosure()
     //     0x9d7c28: bl              #0xe553e0  ; AllocateClosureStub
@@ -728,13 +728,13 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9d7c6c: ldur            w1, [x0, #7]
     // 0x9d7c70: cbz             w1, #0x9d7c84
     // 0x9d7c74: ldur            x1, [fp, #-0x10]
-    // 0x9d7c78: r0 = BallAiThemeContext.ballAiAccent()
-    //     0x9d7c78: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0x9d7c78: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0x9d7c78: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0x9d7c7c: mov             x1, x0
     // 0x9d7c80: b               #0x9d7c90
     // 0x9d7c84: ldur            x1, [fp, #-0x10]
-    // 0x9d7c88: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9d7c88: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9d7c88: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9d7c88: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9d7c8c: mov             x1, x0
     // 0x9d7c90: ldur            x0, [fp, #-0x18]
     // 0x9d7c94: stur            x1, [fp, #-8]
@@ -916,7 +916,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9d7e80: cmp             SP, x16
     //     0x9d7e84: b.ls            #0x9d7e98
     // 0x9d7e88: r0 = _submitRoot()
-    //     0x9d7e88: bl              #0x9d7ea0  ; [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_submitRoot
+    //     0x9d7e88: bl              #0x9d7ea0  ; [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_submitRoot
     // 0x9d7e8c: LeaveFrame
     //     0x9d7e8c: mov             SP, fp
     //     0x9d7e90: ldp             fp, lr, [SP], #0x10
@@ -989,11 +989,11 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9d7f30: bl              #0x600ca8  ; [package:flutter/src/services/haptic_feedback.dart] HapticFeedback::lightImpact
     // 0x9d7f34: ldur            x1, [fp, #-0x10]
     // 0x9d7f38: r0 = _vm()
-    //     0x9d7f38: bl              #0x9d8c40  ; [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_vm
+    //     0x9d7f38: bl              #0x9d8c40  ; [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_vm
     // 0x9d7f3c: mov             x1, x0
     // 0x9d7f40: ldur            x2, [fp, #-0x20]
     // 0x9d7f44: r0 = submitRootComment()
-    //     0x9d7f44: bl              #0x9d7f68  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::submitRootComment
+    //     0x9d7f44: bl              #0x9d7f68  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::submitRootComment
     // 0x9d7f48: mov             x1, x0
     // 0x9d7f4c: stur            x1, [fp, #-0x10]
     // 0x9d7f50: r0 = Await()
@@ -1064,7 +1064,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9d8cf0: add             x0, x0, HEAP, lsl #32
     // 0x9d8cf4: mov             x1, x0
     // 0x9d8cf8: r0 = _submitRoot()
-    //     0x9d8cf8: bl              #0x9d7ea0  ; [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_submitRoot
+    //     0x9d8cf8: bl              #0x9d7ea0  ; [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_submitRoot
     // 0x9d8cfc: LeaveFrame
     //     0x9d8cfc: mov             SP, fp
     //     0x9d8d00: ldp             fp, lr, [SP], #0x10
@@ -1217,8 +1217,8 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9d8e68: ldur            w1, [x0, #0xb]
     // 0x9d8e6c: cbnz            w1, #0x9d90b0
     // 0x9d8e70: ldur            x1, [fp, #-0x10]
-    // 0x9d8e74: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9d8e74: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9d8e74: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9d8e74: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9d8e78: stur            x0, [fp, #-8]
     // 0x9d8e7c: r0 = Icon()
     //     0x9d8e7c: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -1250,11 +1250,11 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9d8ec0: add             x1, PP, #0x57, lsl #12  ; [pp+0x577a0] "No comments yet"
     //     0x9d8ec4: ldr             x1, [x1, #0x7a0]
     // 0x9d8ec8: r0 = L()
-    //     0x9d8ec8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9d8ec8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9d8ecc: ldur            x1, [fp, #-0x10]
     // 0x9d8ed0: stur            x0, [fp, #-0x30]
-    // 0x9d8ed4: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0x9d8ed4: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0x9d8ed4: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0x9d8ed4: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0x9d8ed8: stur            x0, [fp, #-0x38]
     // 0x9d8edc: r0 = TextStyle()
     //     0x9d8edc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1300,11 +1300,11 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9d8f44: add             x1, PP, #0x57, lsl #12  ; [pp+0x577a8] "Start the conversation on this workout."
     //     0x9d8f48: ldr             x1, [x1, #0x7a8]
     // 0x9d8f4c: r0 = L()
-    //     0x9d8f4c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9d8f4c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9d8f50: ldur            x1, [fp, #-0x10]
     // 0x9d8f54: stur            x0, [fp, #-0x10]
-    // 0x9d8f58: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9d8f58: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9d8f58: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9d8f58: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9d8f5c: stur            x0, [fp, #-0x40]
     // 0x9d8f60: r0 = TextStyle()
     //     0x9d8f60: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1445,7 +1445,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     // 0x9d90b8: DecompressPointer r1
     //     0x9d90b8: add             x1, x1, HEAP, lsl #32
     // 0x9d90bc: r0 = comments()
-    //     0x9d90bc: bl              #0x9d9680  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::comments
+    //     0x9d90bc: bl              #0x9d9680  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::comments
     // 0x9d90c0: LoadField: r1 = r0->field_b
     //     0x9d90c0: ldur            w1, [x0, #0xb]
     // 0x9d90c4: ldur            x0, [fp, #-0x28]
@@ -1467,7 +1467,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     // 0x9d90ec: add             x4, x3, x1
     // 0x9d90f0: stur            x4, [fp, #-0x50]
     // 0x9d90f4: r1 = Function '<anonymous closure>':.
-    //     0x9d90f4: add             x1, PP, #0x57, lsl #12  ; [pp+0x577b0] AnonymousClosure: (0x9e1870), in [package:ballai/video_tracking/views/drills/primary_category_drill_list_screen.dart] _PrimaryCategoryDrillListScreenState::build (0xac46a4)
+    //     0x9d90f4: add             x1, PP, #0x57, lsl #12  ; [pp+0x577b0] AnonymousClosure: (0x9e1870), in [package:kourtai/video_tracking/views/drills/primary_category_drill_list_screen.dart] _PrimaryCategoryDrillListScreenState::build (0xac46a4)
     //     0x9d90f8: ldr             x1, [x1, #0x7b0]
     // 0x9d90fc: r2 = Null
     //     0x9d90fc: mov             x2, NULL
@@ -1475,7 +1475,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9d9100: bl              #0xe553e0  ; AllocateClosureStub
     // 0x9d9104: ldur            x2, [fp, #-0x28]
     // 0x9d9108: r1 = Function '<anonymous closure>':.
-    //     0x9d9108: add             x1, PP, #0x57, lsl #12  ; [pp+0x577b8] AnonymousClosure: (0x9daae0), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildBody (0x9d8d74)
+    //     0x9d9108: add             x1, PP, #0x57, lsl #12  ; [pp+0x577b8] AnonymousClosure: (0x9daae0), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildBody (0x9d8d74)
     //     0x9d910c: ldr             x1, [x1, #0x7b8]
     // 0x9d9110: stur            x0, [fp, #-8]
     // 0x9d9114: r0 = AllocateClosure()
@@ -1500,7 +1500,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9d914c: bl              #0x9d9194  ; [package:flutter/src/widgets/scroll_view.dart] ListView::ListView.separated
     // 0x9d9150: ldur            x2, [fp, #-0x28]
     // 0x9d9154: r1 = Function '<anonymous closure>':.
-    //     0x9d9154: add             x1, PP, #0x57, lsl #12  ; [pp+0x577c8] AnonymousClosure: (0x9d96e4), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildBody (0x9d8d74)
+    //     0x9d9154: add             x1, PP, #0x57, lsl #12  ; [pp+0x577c8] AnonymousClosure: (0x9d96e4), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildBody (0x9d8d74)
     //     0x9d9158: ldr             x1, [x1, #0x7c8]
     // 0x9d915c: r0 = AllocateClosure()
     //     0x9d915c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1573,7 +1573,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     // 0x9d9758: DecompressPointer r1
     //     0x9d9758: add             x1, x1, HEAP, lsl #32
     // 0x9d975c: r0 = canLoadMoreComments()
-    //     0x9d975c: bl              #0x9daa9c  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::canLoadMoreComments
+    //     0x9d975c: bl              #0x9daa9c  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::canLoadMoreComments
     // 0x9d9760: tbnz            w0, #4, #0x9d9774
     // 0x9d9764: ldur            x0, [fp, #-8]
     // 0x9d9768: LoadField: r1 = r0->field_13
@@ -1581,7 +1581,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     // 0x9d976c: DecompressPointer r1
     //     0x9d976c: add             x1, x1, HEAP, lsl #32
     // 0x9d9770: r0 = loadMoreComments()
-    //     0x9d9770: bl              #0x9d9794  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::loadMoreComments
+    //     0x9d9770: bl              #0x9d9794  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::loadMoreComments
     // 0x9d9774: r0 = false
     //     0x9d9774: add             x0, NULL, #0x30  ; false
     // 0x9d9778: LeaveFrame
@@ -1713,7 +1713,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     // 0x9dac04: ldr             x2, [fp, #0x18]
     // 0x9dac08: ldur            x3, [fp, #-0x10]
     // 0x9dac0c: r0 = _buildRootComment()
-    //     0x9dac0c: bl              #0x9dac28  ; [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment
+    //     0x9dac0c: bl              #0x9dac28  ; [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment
     // 0x9dac10: LeaveFrame
     //     0x9dac10: mov             SP, fp
     //     0x9dac14: ldp             fp, lr, [SP], #0x10
@@ -1765,7 +1765,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9dac88: add             x4, x4, HEAP, lsl #32
     // 0x9dac8c: mov             x2, x4
     // 0x9dac90: r0 = replies()
-    //     0x9dac90: bl              #0x9dcc10  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::replies
+    //     0x9dac90: bl              #0x9dcc10  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::replies
     // 0x9dac94: mov             x3, x0
     // 0x9dac98: ldur            x2, [fp, #-0x28]
     // 0x9dac9c: stur            x3, [fp, #-0x18]
@@ -1833,7 +1833,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9dad4c: add             x4, x4, HEAP, lsl #32
     // 0x9dad50: mov             x2, x4
     // 0x9dad54: r0 = isExpanded()
-    //     0x9dad54: bl              #0x9dcbd8  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::isExpanded
+    //     0x9dad54: bl              #0x9dcbd8  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::isExpanded
     // 0x9dad58: mov             x3, x0
     // 0x9dad5c: ldur            x0, [fp, #-0x28]
     // 0x9dad60: stur            x3, [fp, #-0x38]
@@ -1851,7 +1851,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9dad78: add             x4, x4, HEAP, lsl #32
     // 0x9dad7c: mov             x2, x4
     // 0x9dad80: r0 = user()
-    //     0x9dad80: bl              #0x9dcb80  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::user
+    //     0x9dad80: bl              #0x9dcb80  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::user
     // 0x9dad84: cmp             w0, NULL
     // 0x9dad88: b.ne            #0x9dad94
     // 0x9dad8c: r0 = Null
@@ -1870,8 +1870,8 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     // 0x9dadb0: ldur            x2, [fp, #-0x28]
     // 0x9dadb4: ldur            x1, [fp, #-0x10]
     // 0x9dadb8: stur            x0, [fp, #-0x40]
-    // 0x9dadbc: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0x9dadbc: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0x9dadbc: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0x9dadbc: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0x9dadc0: stur            x0, [fp, #-0x48]
     // 0x9dadc4: r0 = Radius()
     //     0x9dadc4: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -1985,7 +1985,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     // 0x9daee0: mov             x1, x2
     // 0x9daee4: mov             x2, x5
     // 0x9daee8: r0 = isCurrentUserAuthor()
-    //     0x9daee8: bl              #0x9dcb10  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::isCurrentUserAuthor
+    //     0x9daee8: bl              #0x9dcb10  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::isCurrentUserAuthor
     // 0x9daeec: mov             x3, x0
     // 0x9daef0: ldur            x0, [fp, #-0x28]
     // 0x9daef4: stur            x3, [fp, #-0x68]
@@ -2003,7 +2003,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9daf0c: add             x4, x4, HEAP, lsl #32
     // 0x9daf10: mov             x2, x4
     // 0x9daf14: r0 = canCurrentUserDelete()
-    //     0x9daf14: bl              #0x9dca4c  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::canCurrentUserDelete
+    //     0x9daf14: bl              #0x9dca4c  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::canCurrentUserDelete
     // 0x9daf18: mov             x3, x0
     // 0x9daf1c: ldur            x0, [fp, #-0x28]
     // 0x9daf20: stur            x3, [fp, #-0x70]
@@ -2021,7 +2021,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9daf38: add             x4, x4, HEAP, lsl #32
     // 0x9daf3c: mov             x2, x4
     // 0x9daf40: r0 = isCommentLiked()
-    //     0x9daf40: bl              #0x9dc9b8  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::isCommentLiked
+    //     0x9daf40: bl              #0x9dc9b8  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::isCommentLiked
     // 0x9daf44: mov             x3, x0
     // 0x9daf48: ldur            x0, [fp, #-0x28]
     // 0x9daf4c: stur            x3, [fp, #-0x78]
@@ -2034,7 +2034,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     // 0x9daf5c: DecompressPointer r2
     //     0x9daf5c: add             x2, x2, HEAP, lsl #32
     // 0x9daf60: r0 = effectiveLikeCountForComment()
-    //     0x9daf60: bl              #0x9dc8d8  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::effectiveLikeCountForComment
+    //     0x9daf60: bl              #0x9dc8d8  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::effectiveLikeCountForComment
     // 0x9daf64: mov             x1, x0
     // 0x9daf68: ldur            x2, [fp, #-0x28]
     // 0x9daf6c: stur            x1, [fp, #-0x88]
@@ -2125,7 +2125,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9db060: stur            w0, [x3, #0x37]
     // 0x9db064: ldur            x2, [fp, #-0x28]
     // 0x9db068: r1 = Function '<anonymous closure>':.
-    //     0x9db068: add             x1, PP, #0x57, lsl #12  ; [pp+0x577f8] AnonymousClosure: (0x9e17a0), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
+    //     0x9db068: add             x1, PP, #0x57, lsl #12  ; [pp+0x577f8] AnonymousClosure: (0x9e17a0), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
     //     0x9db06c: ldr             x1, [x1, #0x7f8]
     // 0x9db070: r0 = AllocateClosure()
     //     0x9db070: bl              #0xe553e0  ; AllocateClosureStub
@@ -2135,7 +2135,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9db07c: stur            w1, [x0, #0x3b]
     // 0x9db080: ldur            x2, [fp, #-0x28]
     // 0x9db084: r1 = Function '<anonymous closure>':.
-    //     0x9db084: add             x1, PP, #0x57, lsl #12  ; [pp+0x57800] AnonymousClosure: (0x9e1664), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
+    //     0x9db084: add             x1, PP, #0x57, lsl #12  ; [pp+0x57800] AnonymousClosure: (0x9e1664), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
     //     0x9db088: ldr             x1, [x1, #0x800]
     // 0x9db08c: r0 = AllocateClosure()
     //     0x9db08c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2145,7 +2145,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9db098: stur            w1, [x0, #0x3f]
     // 0x9db09c: ldur            x2, [fp, #-0x28]
     // 0x9db0a0: r1 = Function '<anonymous closure>':.
-    //     0x9db0a0: add             x1, PP, #0x57, lsl #12  ; [pp+0x57808] AnonymousClosure: (0x9e1600), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
+    //     0x9db0a0: add             x1, PP, #0x57, lsl #12  ; [pp+0x57808] AnonymousClosure: (0x9e1600), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
     //     0x9db0a4: ldr             x1, [x1, #0x808]
     // 0x9db0a8: r0 = AllocateClosure()
     //     0x9db0a8: bl              #0xe553e0  ; AllocateClosureStub
@@ -2155,7 +2155,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9db0b4: stur            w1, [x0, #0x43]
     // 0x9db0b8: ldur            x2, [fp, #-0x28]
     // 0x9db0bc: r1 = Function '<anonymous closure>':.
-    //     0x9db0bc: add             x1, PP, #0x57, lsl #12  ; [pp+0x57810] AnonymousClosure: (0x9e0f24), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
+    //     0x9db0bc: add             x1, PP, #0x57, lsl #12  ; [pp+0x57810] AnonymousClosure: (0x9e0f24), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
     //     0x9db0c0: ldr             x1, [x1, #0x810]
     // 0x9db0c4: r0 = AllocateClosure()
     //     0x9db0c4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2165,7 +2165,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9db0d0: stur            w1, [x0, #0x47]
     // 0x9db0d4: ldur            x2, [fp, #-0x28]
     // 0x9db0d8: r1 = Function '<anonymous closure>':.
-    //     0x9db0d8: add             x1, PP, #0x57, lsl #12  ; [pp+0x57818] AnonymousClosure: (0x9e0b58), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
+    //     0x9db0d8: add             x1, PP, #0x57, lsl #12  ; [pp+0x57818] AnonymousClosure: (0x9e0b58), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
     //     0x9db0dc: ldr             x1, [x1, #0x818]
     // 0x9db0e0: r0 = AllocateClosure()
     //     0x9db0e0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2175,7 +2175,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9db0ec: stur            w1, [x0, #0x4b]
     // 0x9db0f0: ldur            x2, [fp, #-0x28]
     // 0x9db0f4: r1 = Function '<anonymous closure>':.
-    //     0x9db0f4: add             x1, PP, #0x57, lsl #12  ; [pp+0x57820] AnonymousClosure: (0x9e0ad8), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
+    //     0x9db0f4: add             x1, PP, #0x57, lsl #12  ; [pp+0x57820] AnonymousClosure: (0x9e0ad8), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
     //     0x9db0f8: ldr             x1, [x1, #0x820]
     // 0x9db0fc: r0 = AllocateClosure()
     //     0x9db0fc: bl              #0xe553e0  ; AllocateClosureStub
@@ -2220,8 +2220,8 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9db168: ldr             x3, [x3, #0x828]
     // 0x9db16c: ldur            x1, [fp, #-0x10]
     // 0x9db170: stur            x3, [fp, #-0x20]
-    // 0x9db174: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9db174: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9db174: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9db174: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9db178: stur            x0, [fp, #-0x40]
     // 0x9db17c: r0 = Icon()
     //     0x9db17c: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -2286,8 +2286,8 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     // 0x9db228: ldur            x2, [fp, #-0x48]
     // 0x9db22c: ldur            x1, [fp, #-0x10]
     // 0x9db230: stur            x3, [fp, #-0x20]
-    // 0x9db234: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9db234: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9db234: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9db234: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9db238: stur            x0, [fp, #-0x10]
     // 0x9db23c: r0 = TextStyle()
     //     0x9db23c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2394,7 +2394,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9db338: bl              #0x9dc8b8  ; AllocateGestureDetectorStub -> GestureDetector (size=0x10c)
     // 0x9db33c: ldur            x2, [fp, #-0x28]
     // 0x9db340: r1 = Function '<anonymous closure>':.
-    //     0x9db340: add             x1, PP, #0x57, lsl #12  ; [pp+0x57850] AnonymousClosure: (0x9dfc74), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
+    //     0x9db340: add             x1, PP, #0x57, lsl #12  ; [pp+0x57850] AnonymousClosure: (0x9dfc74), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
     //     0x9db344: ldr             x1, [x1, #0x850]
     // 0x9db348: stur            x0, [fp, #-0x10]
     // 0x9db34c: r0 = AllocateClosure()
@@ -2483,7 +2483,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9db434: add             x5, x5, HEAP, lsl #32
     // 0x9db438: mov             x2, x5
     // 0x9db43c: r0 = isLoadingReplies()
-    //     0x9db43c: bl              #0x9dbebc  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::isLoadingReplies
+    //     0x9db43c: bl              #0x9dbebc  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::isLoadingReplies
     // 0x9db440: tbnz            w0, #4, #0x9db4d0
     // 0x9db444: ldur            x2, [fp, #-0x18]
     // 0x9db448: r0 = LoadClassIdInstr(r2)
@@ -2854,7 +2854,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9db880: add             x1, x1, HEAP, lsl #32
     // 0x9db884: ldur            x2, [fp, #-0x78]
     // 0x9db888: r0 = isLiked()
-    //     0x9db888: bl              #0x9dbe84  ; [package:ballai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::isLiked
+    //     0x9db888: bl              #0x9dbe84  ; [package:kourtai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::isLiked
     // 0x9db88c: mov             x3, x0
     // 0x9db890: b               #0x9db898
     // 0x9db894: mov             x3, x0
@@ -2986,7 +2986,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9dba0c: stur            w4, [x3, #0x37]
     // 0x9dba10: ldur            x2, [fp, #-0x20]
     // 0x9dba14: r1 = Function '<anonymous closure>':.
-    //     0x9dba14: add             x1, PP, #0x57, lsl #12  ; [pp+0x57868] AnonymousClosure: (0x9df1e4), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
+    //     0x9dba14: add             x1, PP, #0x57, lsl #12  ; [pp+0x57868] AnonymousClosure: (0x9df1e4), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
     //     0x9dba18: ldr             x1, [x1, #0x868]
     // 0x9dba1c: r0 = AllocateClosure()
     //     0x9dba1c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2996,7 +2996,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9dba28: stur            w1, [x0, #0x3b]
     // 0x9dba2c: ldur            x2, [fp, #-0x20]
     // 0x9dba30: r1 = Function '<anonymous closure>':.
-    //     0x9dba30: add             x1, PP, #0x57, lsl #12  ; [pp+0x57870] AnonymousClosure: (0x9df064), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
+    //     0x9dba30: add             x1, PP, #0x57, lsl #12  ; [pp+0x57870] AnonymousClosure: (0x9df064), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
     //     0x9dba34: ldr             x1, [x1, #0x870]
     // 0x9dba38: r0 = AllocateClosure()
     //     0x9dba38: bl              #0xe553e0  ; AllocateClosureStub
@@ -3006,7 +3006,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9dba44: stur            w1, [x0, #0x43]
     // 0x9dba48: ldur            x2, [fp, #-0x20]
     // 0x9dba4c: r1 = Function '<anonymous closure>':.
-    //     0x9dba4c: add             x1, PP, #0x57, lsl #12  ; [pp+0x57878] AnonymousClosure: (0x9de46c), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
+    //     0x9dba4c: add             x1, PP, #0x57, lsl #12  ; [pp+0x57878] AnonymousClosure: (0x9de46c), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
     //     0x9dba50: ldr             x1, [x1, #0x878]
     // 0x9dba54: r0 = AllocateClosure()
     //     0x9dba54: bl              #0xe553e0  ; AllocateClosureStub
@@ -3016,7 +3016,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9dba60: stur            w1, [x0, #0x47]
     // 0x9dba64: ldur            x2, [fp, #-0x20]
     // 0x9dba68: r1 = Function '<anonymous closure>':.
-    //     0x9dba68: add             x1, PP, #0x57, lsl #12  ; [pp+0x57880] AnonymousClosure: (0x9de074), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
+    //     0x9dba68: add             x1, PP, #0x57, lsl #12  ; [pp+0x57880] AnonymousClosure: (0x9de074), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
     //     0x9dba6c: ldr             x1, [x1, #0x880]
     // 0x9dba70: r0 = AllocateClosure()
     //     0x9dba70: bl              #0xe553e0  ; AllocateClosureStub
@@ -3026,7 +3026,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9dba7c: stur            w1, [x0, #0x4b]
     // 0x9dba80: ldur            x2, [fp, #-0x20]
     // 0x9dba84: r1 = Function '<anonymous closure>':.
-    //     0x9dba84: add             x1, PP, #0x57, lsl #12  ; [pp+0x57888] AnonymousClosure: (0x9ddfe4), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
+    //     0x9dba84: add             x1, PP, #0x57, lsl #12  ; [pp+0x57888] AnonymousClosure: (0x9ddfe4), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
     //     0x9dba88: ldr             x1, [x1, #0x888]
     // 0x9dba8c: r0 = AllocateClosure()
     //     0x9dba8c: bl              #0xe553e0  ; AllocateClosureStub
@@ -3219,7 +3219,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9dbc98: add             x1, PP, #0x57, lsl #12  ; [pp+0x57898] "Write a reply..."
     //     0x9dbc9c: ldr             x1, [x1, #0x898]
     // 0x9dbca0: r0 = L()
-    //     0x9dbca0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9dbca0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9dbca4: mov             x1, x0
     // 0x9dbca8: ldur            x0, [fp, #-8]
     // 0x9dbcac: stur            x1, [fp, #-0x18]
@@ -3250,7 +3250,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9dbcec: stur            w0, [x3, #0x17]
     // 0x9dbcf0: ldur            x2, [fp, #-0x28]
     // 0x9dbcf4: r1 = Function '<anonymous closure>':.
-    //     0x9dbcf4: add             x1, PP, #0x57, lsl #12  ; [pp+0x578a8] AnonymousClosure: (0x9dcd2c), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
+    //     0x9dbcf4: add             x1, PP, #0x57, lsl #12  ; [pp+0x578a8] AnonymousClosure: (0x9dcd2c), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
     //     0x9dbcf8: ldr             x1, [x1, #0x8a8]
     // 0x9dbcfc: r0 = AllocateClosure()
     //     0x9dbcfc: bl              #0xe553e0  ; AllocateClosureStub
@@ -3260,7 +3260,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9dbd08: stur            w1, [x0, #0x1b]
     // 0x9dbd0c: ldur            x2, [fp, #-0x28]
     // 0x9dbd10: r1 = Function '<anonymous closure>':.
-    //     0x9dbd10: add             x1, PP, #0x57, lsl #12  ; [pp+0x578b0] AnonymousClosure: (0x9dccac), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
+    //     0x9dbd10: add             x1, PP, #0x57, lsl #12  ; [pp+0x578b0] AnonymousClosure: (0x9dccac), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
     //     0x9dbd14: ldr             x1, [x1, #0x8b0]
     // 0x9dbd18: r0 = AllocateClosure()
     //     0x9dbd18: bl              #0xe553e0  ; AllocateClosureStub
@@ -3413,7 +3413,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9dccd4: add             x0, x0, HEAP, lsl #32
     // 0x9dccd8: stur            x0, [fp, #-8]
     // 0x9dccdc: r1 = Function '<anonymous closure>':.
-    //     0x9dccdc: add             x1, PP, #0x57, lsl #12  ; [pp+0x578b8] AnonymousClosure: (0x9dcd0c), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
+    //     0x9dccdc: add             x1, PP, #0x57, lsl #12  ; [pp+0x578b8] AnonymousClosure: (0x9dcd0c), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
     //     0x9dcce0: ldr             x1, [x1, #0x8b8]
     // 0x9dcce4: r0 = AllocateClosure()
     //     0x9dcce4: bl              #0xe553e0  ; AllocateClosureStub
@@ -3474,7 +3474,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9dcd58: add             x2, x2, HEAP, lsl #32
     // 0x9dcd5c: mov             x1, x0
     // 0x9dcd60: r0 = _submitReply()
-    //     0x9dcd60: bl              #0x9dcd78  ; [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_submitReply
+    //     0x9dcd60: bl              #0x9dcd78  ; [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_submitReply
     // 0x9dcd64: LeaveFrame
     //     0x9dcd64: mov             SP, fp
     //     0x9dcd68: ldp             fp, lr, [SP], #0x10
@@ -3542,7 +3542,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9dce00: bl              #0x9d8c94  ; [package:flutter/src/widgets/editable_text.dart] TextEditingController::clear
     // 0x9dce04: ldur            x2, [fp, #-0x20]
     // 0x9dce08: r1 = Function '<anonymous closure>':.
-    //     0x9dce08: add             x1, PP, #0x57, lsl #12  ; [pp+0x578c0] AnonymousClosure: (0x9dcd0c), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
+    //     0x9dce08: add             x1, PP, #0x57, lsl #12  ; [pp+0x578c0] AnonymousClosure: (0x9dcd0c), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
     //     0x9dce0c: ldr             x1, [x1, #0x8c0]
     // 0x9dce10: r0 = AllocateClosure()
     //     0x9dce10: bl              #0xe553e0  ; AllocateClosureStub
@@ -3571,7 +3571,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     // 0x9dce50: ldur            x2, [fp, #-0x18]
     // 0x9dce54: ldur            x3, [fp, #-0x30]
     // 0x9dce58: r0 = submitReply()
-    //     0x9dce58: bl              #0x9dce7c  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::submitReply
+    //     0x9dce58: bl              #0x9dce7c  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::submitReply
     // 0x9dce5c: mov             x1, x0
     // 0x9dce60: stur            x1, [fp, #-0x10]
     // 0x9dce64: r0 = Await()
@@ -3611,7 +3611,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9de014: add             x3, x3, HEAP, lsl #32
     // 0x9de018: stur            x3, [fp, #-8]
     // 0x9de01c: r1 = Function '<anonymous closure>':.
-    //     0x9de01c: add             x1, PP, #0x57, lsl #12  ; [pp+0x57918] AnonymousClosure: (0x9de04c), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
+    //     0x9de01c: add             x1, PP, #0x57, lsl #12  ; [pp+0x57918] AnonymousClosure: (0x9de04c), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
     //     0x9de020: ldr             x1, [x1, #0x918]
     // 0x9de024: r0 = AllocateClosure()
     //     0x9de024: bl              #0xe553e0  ; AllocateClosureStub
@@ -3699,7 +3699,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9de0d4: add             x5, x5, HEAP, lsl #32
     // 0x9de0d8: mov             x3, x5
     // 0x9de0dc: r0 = saveReplyEdit()
-    //     0x9de0dc: bl              #0x9de124  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::saveReplyEdit
+    //     0x9de0dc: bl              #0x9de124  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::saveReplyEdit
     // 0x9de0e0: ldur            x0, [fp, #-8]
     // 0x9de0e4: LoadField: r3 = r0->field_f
     //     0x9de0e4: ldur            w3, [x0, #0xf]
@@ -3708,7 +3708,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     // 0x9de0ec: ldur            x2, [fp, #-0x10]
     // 0x9de0f0: stur            x3, [fp, #-0x18]
     // 0x9de0f4: r1 = Function '<anonymous closure>':.
-    //     0x9de0f4: add             x1, PP, #0x57, lsl #12  ; [pp+0x57920] AnonymousClosure: (0x9de04c), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
+    //     0x9de0f4: add             x1, PP, #0x57, lsl #12  ; [pp+0x57920] AnonymousClosure: (0x9de04c), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
     //     0x9de0f8: ldr             x1, [x1, #0x920]
     // 0x9de0fc: r0 = AllocateClosure()
     //     0x9de0fc: bl              #0xe553e0  ; AllocateClosureStub
@@ -3756,7 +3756,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     // 0x9de4a4: mov             x1, x2
     // 0x9de4a8: mov             x2, x0
     // 0x9de4ac: r0 = deleteReply()
-    //     0x9de4ac: bl              #0x9de4c4  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::deleteReply
+    //     0x9de4ac: bl              #0x9de4c4  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::deleteReply
     // 0x9de4b0: LeaveFrame
     //     0x9de4b0: mov             SP, fp
     //     0x9de4b4: ldp             fp, lr, [SP], #0x10
@@ -3804,7 +3804,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     // 0x9df0b0: mov             x1, x2
     // 0x9df0b4: mov             x2, x16
     // 0x9df0b8: r0 = _beginEdit()
-    //     0x9df0b8: bl              #0x9df0d4  ; [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_beginEdit
+    //     0x9df0b8: bl              #0x9df0d4  ; [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_beginEdit
     // 0x9df0bc: r0 = Null
     //     0x9df0bc: mov             x0, NULL
     // 0x9df0c0: LeaveFrame
@@ -3847,7 +3847,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9df118: stur            w2, [x1, #0x17]
     // 0x9df11c: mov             x2, x1
     // 0x9df120: r1 = Function '<anonymous closure>':.
-    //     0x9df120: add             x1, PP, #0x57, lsl #12  ; [pp+0x57968] AnonymousClosure: (0x9df150), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_beginEdit (0x9df0d4)
+    //     0x9df120: add             x1, PP, #0x57, lsl #12  ; [pp+0x57968] AnonymousClosure: (0x9df150), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_beginEdit (0x9df0d4)
     //     0x9df124: ldr             x1, [x1, #0x968]
     // 0x9df128: r0 = AllocateClosure()
     //     0x9df128: bl              #0xe553e0  ; AllocateClosureStub
@@ -3956,7 +3956,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     // 0x9df21c: mov             x1, x2
     // 0x9df220: mov             x2, x0
     // 0x9df224: r0 = toggleLikeForReply()
-    //     0x9df224: bl              #0x9df23c  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::toggleLikeForReply
+    //     0x9df224: bl              #0x9df23c  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::toggleLikeForReply
     // 0x9df228: LeaveFrame
     //     0x9df228: mov             SP, fp
     //     0x9df22c: ldp             fp, lr, [SP], #0x10
@@ -3990,7 +3990,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9dfca0: add             x2, x2, HEAP, lsl #32
     // 0x9dfca4: mov             x1, x0
     // 0x9dfca8: r0 = toggleReplies()
-    //     0x9dfca8: bl              #0x9dfcc0  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::toggleReplies
+    //     0x9dfca8: bl              #0x9dfcc0  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::toggleReplies
     // 0x9dfcac: LeaveFrame
     //     0x9dfcac: mov             SP, fp
     //     0x9dfcb0: ldp             fp, lr, [SP], #0x10
@@ -4021,7 +4021,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9e0b00: add             x0, x0, HEAP, lsl #32
     // 0x9e0b04: stur            x0, [fp, #-8]
     // 0x9e0b08: r1 = Function '<anonymous closure>':.
-    //     0x9e0b08: add             x1, PP, #0x57, lsl #12  ; [pp+0x57a58] AnonymousClosure: (0x9e0b38), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
+    //     0x9e0b08: add             x1, PP, #0x57, lsl #12  ; [pp+0x57a58] AnonymousClosure: (0x9e0b38), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
     //     0x9e0b0c: ldr             x1, [x1, #0xa58]
     // 0x9e0b10: r0 = AllocateClosure()
     //     0x9e0b10: bl              #0xe553e0  ; AllocateClosureStub
@@ -4099,7 +4099,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     // 0x9e0bac: DecompressPointer r3
     //     0x9e0bac: add             x3, x3, HEAP, lsl #32
     // 0x9e0bb0: r0 = saveCommentEdit()
-    //     0x9e0bb0: bl              #0x9e0bf4  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::saveCommentEdit
+    //     0x9e0bb0: bl              #0x9e0bf4  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::saveCommentEdit
     // 0x9e0bb4: ldur            x2, [fp, #-8]
     // 0x9e0bb8: LoadField: r0 = r2->field_f
     //     0x9e0bb8: ldur            w0, [x2, #0xf]
@@ -4107,7 +4107,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9e0bbc: add             x0, x0, HEAP, lsl #32
     // 0x9e0bc0: stur            x0, [fp, #-0x10]
     // 0x9e0bc4: r1 = Function '<anonymous closure>':.
-    //     0x9e0bc4: add             x1, PP, #0x57, lsl #12  ; [pp+0x57a60] AnonymousClosure: (0x9e0b38), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
+    //     0x9e0bc4: add             x1, PP, #0x57, lsl #12  ; [pp+0x57a60] AnonymousClosure: (0x9e0b38), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
     //     0x9e0bc8: ldr             x1, [x1, #0xa60]
     // 0x9e0bcc: r0 = AllocateClosure()
     //     0x9e0bcc: bl              #0xe553e0  ; AllocateClosureStub
@@ -4150,7 +4150,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9e0f50: add             x2, x2, HEAP, lsl #32
     // 0x9e0f54: mov             x1, x0
     // 0x9e0f58: r0 = deleteComment()
-    //     0x9e0f58: bl              #0x9e0f70  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::deleteComment
+    //     0x9e0f58: bl              #0x9e0f70  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::deleteComment
     // 0x9e0f5c: LeaveFrame
     //     0x9e0f5c: mov             SP, fp
     //     0x9e0f60: ldp             fp, lr, [SP], #0x10
@@ -4193,7 +4193,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     // 0x9e1640: mov             x2, x1
     // 0x9e1644: mov             x1, x0
     // 0x9e1648: r0 = _beginEdit()
-    //     0x9e1648: bl              #0x9df0d4  ; [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_beginEdit
+    //     0x9e1648: bl              #0x9df0d4  ; [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_beginEdit
     // 0x9e164c: r0 = Null
     //     0x9e164c: mov             x0, NULL
     // 0x9e1650: LeaveFrame
@@ -4226,7 +4226,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9e168c: add             x0, x0, HEAP, lsl #32
     // 0x9e1690: stur            x0, [fp, #-8]
     // 0x9e1694: r1 = Function '<anonymous closure>':.
-    //     0x9e1694: add             x1, PP, #0x57, lsl #12  ; [pp+0x57a98] AnonymousClosure: (0x9e16c4), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
+    //     0x9e1694: add             x1, PP, #0x57, lsl #12  ; [pp+0x57a98] AnonymousClosure: (0x9e16c4), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_buildRootComment (0x9dac28)
     //     0x9e1698: ldr             x1, [x1, #0xa98]
     // 0x9e169c: r0 = AllocateClosure()
     //     0x9e169c: bl              #0xe553e0  ; AllocateClosureStub
@@ -4355,7 +4355,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9e17cc: add             x2, x2, HEAP, lsl #32
     // 0x9e17d0: mov             x1, x0
     // 0x9e17d4: r0 = toggleLikeForComment()
-    //     0x9e17d4: bl              #0x9e17ec  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::toggleLikeForComment
+    //     0x9e17d4: bl              #0x9e17ec  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::toggleLikeForComment
     // 0x9e17d8: LeaveFrame
     //     0x9e17d8: mov             SP, fp
     //     0x9e17dc: ldp             fp, lr, [SP], #0x10
@@ -4388,8 +4388,8 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     // 0x9e18ac: stur            x0, [fp, #-0x10]
     // 0x9e18b0: StoreField: r0->field_f = r1
     //     0x9e18b0: stur            w1, [x0, #0xf]
-    // 0x9e18b4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9e18b4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9e18b4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9e18b4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9e18b8: r16 = 0.400000
     //     0x9e18b8: add             x16, PP, #0x1f, lsl #12  ; [pp+0x1f420] 0.4
     //     0x9e18bc: ldr             x16, [x16, #0x420]
@@ -4480,15 +4480,15 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9e199c: add             x1, PP, #0x57, lsl #12  ; [pp+0x57aa8] "Comments"
     //     0x9e19a0: ldr             x1, [x1, #0xaa8]
     // 0x9e19a4: r0 = L()
-    //     0x9e19a4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9e19a4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9e19a8: ldur            x2, [fp, #-0x10]
     // 0x9e19ac: stur            x0, [fp, #-0x20]
     // 0x9e19b0: LoadField: r1 = r2->field_f
     //     0x9e19b0: ldur            w1, [x2, #0xf]
     // 0x9e19b4: DecompressPointer r1
     //     0x9e19b4: add             x1, x1, HEAP, lsl #32
-    // 0x9e19b8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0x9e19b8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0x9e19b8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0x9e19b8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0x9e19bc: stur            x0, [fp, #-0x28]
     // 0x9e19c0: r0 = TextStyle()
     //     0x9e19c0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -4548,15 +4548,15 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9e1a48: add             x1, PP, #0x26, lsl #12  ; [pp+0x266c8] "Done"
     //     0x9e1a4c: ldr             x1, [x1, #0x6c8]
     // 0x9e1a50: r0 = L()
-    //     0x9e1a50: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9e1a50: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9e1a54: ldur            x2, [fp, #-0x10]
     // 0x9e1a58: stur            x0, [fp, #-0x28]
     // 0x9e1a5c: LoadField: r1 = r2->field_f
     //     0x9e1a5c: ldur            w1, [x2, #0xf]
     // 0x9e1a60: DecompressPointer r1
     //     0x9e1a60: add             x1, x1, HEAP, lsl #32
-    // 0x9e1a64: r0 = BallAiThemeContext.ballAiAccent()
-    //     0x9e1a64: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0x9e1a64: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0x9e1a64: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0x9e1a68: stur            x0, [fp, #-0x30]
     // 0x9e1a6c: r0 = TextStyle()
     //     0x9e1a6c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -4591,7 +4591,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0x9e1ab8: stur            w0, [x3, #0x13]
     // 0x9e1abc: ldur            x2, [fp, #-0x10]
     // 0x9e1ac0: r1 = Function '<anonymous closure>':.
-    //     0x9e1ac0: add             x1, PP, #0x57, lsl #12  ; [pp+0x57ab0] AnonymousClosure: (0x953eb0), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
+    //     0x9e1ac0: add             x1, PP, #0x57, lsl #12  ; [pp+0x57ab0] AnonymousClosure: (0x953eb0), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
     //     0x9e1ac4: ldr             x1, [x1, #0xab0]
     // 0x9e1ac8: r0 = AllocateClosure()
     //     0x9e1ac8: bl              #0xe553e0  ; AllocateClosureStub
@@ -4777,7 +4777,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0xb5a508: mov             fp, SP
     // 0xb5a50c: ldr             x2, [fp, #0x10]
     // 0xb5a510: r1 = Function 'dispose':.
-    //     0xb5a510: add             x1, PP, #0x57, lsl #12  ; [pp+0x57708] AnonymousClosure: (0xb5a528), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::dispose (0xb5fffc)
+    //     0xb5a510: add             x1, PP, #0x57, lsl #12  ; [pp+0x57708] AnonymousClosure: (0xb5a528), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::dispose (0xb5fffc)
     //     0xb5a514: ldr             x1, [x1, #0x708]
     // 0xb5a518: r0 = AllocateClosure()
     //     0xb5a518: bl              #0xe553e0  ; AllocateClosureStub
@@ -4802,7 +4802,7 @@ class _WorkoutCommentsSheetBodyState extends State<dynamic> {
     //     0xb5a540: cmp             SP, x16
     //     0xb5a544: b.ls            #0xb5a558
     // 0xb5a548: r0 = dispose()
-    //     0xb5a548: bl              #0xb5fffc  ; [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::dispose
+    //     0xb5a548: bl              #0xb5fffc  ; [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::dispose
     // 0xb5a54c: LeaveFrame
     //     0xb5a54c: mov             SP, fp
     //     0xb5a550: ldp             fp, lr, [SP], #0x10
@@ -4992,7 +4992,7 @@ class _WorkoutCommentsSheetBody extends StatefulWidget {
     // 0xb71d74: mov             x1, x0
     // 0xb71d78: stur            x0, [fp, #-8]
     // 0xb71d7c: r0 = _WorkoutCommentsSheetBodyState()
-    //     0xb71d7c: bl              #0xb71d98  ; [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_WorkoutCommentsSheetBodyState
+    //     0xb71d7c: bl              #0xb71d98  ; [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _WorkoutCommentsSheetBodyState::_WorkoutCommentsSheetBodyState
     // 0xb71d80: ldur            x0, [fp, #-8]
     // 0xb71d84: LeaveFrame
     //     0xb71d84: mov             SP, fp
@@ -5036,8 +5036,8 @@ class _InlineComposer extends StatelessWidget {
     //     0xbb8514: add             x4, x4, HEAP, lsl #32
     // 0xbb8518: mov             x1, x0
     // 0xbb851c: stur            x4, [fp, #-8]
-    // 0xbb8520: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xbb8520: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xbb8520: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xbb8520: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xbb8524: stur            x0, [fp, #-0x28]
     // 0xbb8528: r0 = Radius()
     //     0xbb8528: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -5236,11 +5236,11 @@ class _InlineComposer extends StatelessWidget {
     //     0xbb86f0: add             x1, PP, #0x27, lsl #12  ; [pp+0x27668] "Cancel"
     //     0xbb86f4: ldr             x1, [x1, #0x668]
     // 0xbb86f8: r0 = L()
-    //     0xbb86f8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb86f8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb86fc: ldur            x1, [fp, #-0x20]
     // 0xbb8700: stur            x0, [fp, #-0x30]
-    // 0xbb8704: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb8704: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb8704: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb8704: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb8708: stur            x0, [fp, #-0x38]
     // 0xbb870c: r0 = TextStyle()
     //     0xbb870c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -5287,8 +5287,8 @@ class _InlineComposer extends StatelessWidget {
     //     0xbb877c: add             x2, x2, HEAP, lsl #32
     // 0xbb8780: ldur            x1, [fp, #-0x20]
     // 0xbb8784: stur            x2, [fp, #-0x10]
-    // 0xbb8788: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbb8788: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbb8788: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbb8788: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbb878c: stur            x0, [fp, #-0x18]
     // 0xbb8790: r0 = TextStyle()
     //     0xbb8790: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -5508,8 +5508,8 @@ class _EditField extends StatelessWidget {
     //     0xbb8074: add             x3, x3, HEAP, lsl #32
     // 0xbb8078: mov             x1, x0
     // 0xbb807c: stur            x3, [fp, #-8]
-    // 0xbb8080: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xbb8080: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xbb8080: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xbb8080: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xbb8084: stur            x0, [fp, #-0x20]
     // 0xbb8088: r0 = Radius()
     //     0xbb8088: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -5703,11 +5703,11 @@ class _EditField extends StatelessWidget {
     //     0xbb8244: add             x1, PP, #0x37, lsl #12  ; [pp+0x37450] "Save"
     //     0xbb8248: ldr             x1, [x1, #0x450]
     // 0xbb824c: r0 = L()
-    //     0xbb824c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb824c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb8250: ldur            x1, [fp, #-0x18]
     // 0xbb8254: stur            x0, [fp, #-0x30]
-    // 0xbb8258: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbb8258: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbb8258: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbb8258: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbb825c: stur            x0, [fp, #-0x38]
     // 0xbb8260: r0 = TextStyle()
     //     0xbb8260: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -5771,11 +5771,11 @@ class _EditField extends StatelessWidget {
     //     0xbb82fc: add             x1, PP, #0x27, lsl #12  ; [pp+0x27668] "Cancel"
     //     0xbb8300: ldr             x1, [x1, #0x668]
     // 0xbb8304: r0 = L()
-    //     0xbb8304: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb8304: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb8308: ldur            x1, [fp, #-0x18]
     // 0xbb830c: stur            x0, [fp, #-0x10]
-    // 0xbb8310: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb8310: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb8310: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb8310: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb8314: stur            x0, [fp, #-0x18]
     // 0xbb8318: r0 = TextStyle()
     //     0xbb8318: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -5993,11 +5993,11 @@ class _CommentMenu extends StatelessWidget {
     //     0xbb7bdc: add             x1, PP, #0x47, lsl #12  ; [pp+0x47ee8] "More"
     //     0xbb7be0: ldr             x1, [x1, #0xee8]
     // 0xbb7be4: r0 = L()
-    //     0xbb7be4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb7be4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb7be8: ldur            x1, [fp, #-0x10]
     // 0xbb7bec: stur            x0, [fp, #-8]
-    // 0xbb7bf0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb7bf0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb7bf0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb7bf0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb7bf4: stur            x0, [fp, #-0x10]
     // 0xbb7bf8: r0 = Icon()
     //     0xbb7bf8: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -6052,7 +6052,7 @@ class _CommentMenu extends StatelessWidget {
     //     0xbb7c74: stur            w0, [x3, #7]
     // 0xbb7c78: ldur            x2, [fp, #-0x18]
     // 0xbb7c7c: r1 = Function '<anonymous closure>':.
-    //     0xbb7c7c: add             x1, PP, #0x5a, lsl #12  ; [pp+0x5a238] AnonymousClosure: (0xbb7df8), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _CommentMenu::build (0xbb7b9c)
+    //     0xbb7c7c: add             x1, PP, #0x5a, lsl #12  ; [pp+0x5a238] AnonymousClosure: (0xbb7df8), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _CommentMenu::build (0xbb7b9c)
     //     0xbb7c80: ldr             x1, [x1, #0x238]
     // 0xbb7c84: r0 = AllocateClosure()
     //     0xbb7c84: bl              #0xe553e0  ; AllocateClosureStub
@@ -6068,7 +6068,7 @@ class _CommentMenu extends StatelessWidget {
     //     0xbb7ca0: stur            w0, [x3, #0xf]
     // 0xbb7ca4: ldur            x2, [fp, #-0x18]
     // 0xbb7ca8: r1 = Function '<anonymous closure>':.
-    //     0xbb7ca8: add             x1, PP, #0x5a, lsl #12  ; [pp+0x5a240] AnonymousClosure: (0xbb7d18), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _CommentMenu::build (0xbb7b9c)
+    //     0xbb7ca8: add             x1, PP, #0x5a, lsl #12  ; [pp+0x5a240] AnonymousClosure: (0xbb7d18), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _CommentMenu::build (0xbb7b9c)
     //     0xbb7cac: ldr             x1, [x1, #0x240]
     // 0xbb7cb0: r0 = AllocateClosure()
     //     0xbb7cb0: bl              #0xe553e0  ; AllocateClosureStub
@@ -6235,7 +6235,7 @@ class _CommentMenu extends StatelessWidget {
     //     0xbb7e50: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3ba98] "Edit"
     //     0xbb7e54: ldr             x1, [x1, #0xa98]
     // 0xbb7e58: r0 = L()
-    //     0xbb7e58: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb7e58: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb7e5c: stur            x0, [fp, #-8]
     // 0xbb7e60: r0 = Text()
     //     0xbb7e60: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -6311,7 +6311,7 @@ class _CommentMenu extends StatelessWidget {
     //     0xbb7f20: add             x1, PP, #0x36, lsl #12  ; [pp+0x364b0] "Delete"
     //     0xbb7f24: ldr             x1, [x1, #0x4b0]
     // 0xbb7f28: r0 = L()
-    //     0xbb7f28: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb7f28: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb7f2c: ldr             x1, [fp, #0x10]
     // 0xbb7f30: stur            x0, [fp, #-8]
     // 0xbb7f34: r0 = of()
@@ -6485,8 +6485,8 @@ class _CommentRow extends StatelessWidget {
     // 0xbb6cd8: ldur            x0, [fp, #-0x10]
     // 0xbb6cdc: ldur            x1, [fp, #-0x18]
     // 0xbb6ce0: stur            x2, [fp, #-8]
-    // 0xbb6ce4: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbb6ce4: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbb6ce4: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbb6ce4: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbb6ce8: r1 = LoadClassIdInstr(r0)
     //     0xbb6ce8: ldur            x1, [x0, #-1]
     //     0xbb6cec: ubfx            x1, x1, #0xc, #0x14
@@ -6515,11 +6515,11 @@ class _CommentRow extends StatelessWidget {
     // 0xbb6d34: mov             x2, x4
     // 0xbb6d38: stur            x4, [fp, #-0x20]
     // 0xbb6d3c: r0 = _initials()
-    //     0xbb6d3c: bl              #0xbb7a50  ; [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _CommentRow::_initials
+    //     0xbb6d3c: bl              #0xbb7a50  ; [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _CommentRow::_initials
     // 0xbb6d40: ldur            x1, [fp, #-0x18]
     // 0xbb6d44: stur            x0, [fp, #-0x30]
-    // 0xbb6d48: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbb6d48: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbb6d48: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbb6d48: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbb6d4c: stur            x0, [fp, #-0x38]
     // 0xbb6d50: r0 = TextStyle()
     //     0xbb6d50: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -6567,8 +6567,8 @@ class _CommentRow extends StatelessWidget {
     // 0xbb6dc0: StoreField: r2->field_23 = d0
     //     0xbb6dc0: stur            d0, [x2, #0x23]
     // 0xbb6dc4: ldur            x1, [fp, #-0x18]
-    // 0xbb6dc8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbb6dc8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbb6dc8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbb6dc8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbb6dcc: stur            x0, [fp, #-0x28]
     // 0xbb6dd0: r0 = TextStyle()
     //     0xbb6dd0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -6636,11 +6636,11 @@ class _CommentRow extends StatelessWidget {
     //     0xbb6e6c: add             x2, x2, HEAP, lsl #32
     // 0xbb6e70: mov             x1, x4
     // 0xbb6e74: r0 = _relative()
-    //     0xbb6e74: bl              #0xbb78a8  ; [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _CommentRow::_relative
+    //     0xbb6e74: bl              #0xbb78a8  ; [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] _CommentRow::_relative
     // 0xbb6e78: ldur            x1, [fp, #-0x18]
     // 0xbb6e7c: stur            x0, [fp, #-0x28]
-    // 0xbb6e80: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb6e80: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb6e80: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb6e80: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb6e84: stur            x0, [fp, #-0x38]
     // 0xbb6e88: r0 = TextStyle()
     //     0xbb6e88: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -7001,13 +7001,13 @@ class _CommentRow extends StatelessWidget {
     // 0xbb7224: stur            x5, [fp, #-0x20]
     // 0xbb7228: tbnz            w1, #4, #0xbb723c
     // 0xbb722c: ldur            x1, [fp, #-0x18]
-    // 0xbb7230: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb7230: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb7230: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb7230: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb7234: mov             x3, x0
     // 0xbb7238: b               #0xbb7248
     // 0xbb723c: ldur            x1, [fp, #-0x18]
-    // 0xbb7240: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbb7240: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbb7240: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbb7240: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbb7244: mov             x3, x0
     // 0xbb7248: ldur            x0, [fp, #-0x28]
     // 0xbb724c: ldur            x2, [fp, #-0x20]
@@ -7127,8 +7127,8 @@ class _CommentRow extends StatelessWidget {
     //     0xbb7390: ldr             x2, [x2, #0x1c8]
     // 0xbb7394: b               #0xbb73ac
     // 0xbb7398: ldur            x1, [fp, #-0x18]
-    // 0xbb739c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb739c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb739c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb739c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb73a0: mov             x2, x0
     // 0xbb73a4: ldur            x0, [fp, #-0x28]
     // 0xbb73a8: ldur            x1, [fp, #-0x20]
@@ -7156,8 +7156,8 @@ class _CommentRow extends StatelessWidget {
     //     0xbb73e8: ldr             x3, [x3, #0x1c8]
     // 0xbb73ec: b               #0xbb7400
     // 0xbb73f0: ldur            x1, [fp, #-0x18]
-    // 0xbb73f4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb73f4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb73f4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb73f4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb73f8: mov             x3, x0
     // 0xbb73fc: ldur            x0, [fp, #-0x50]
     // 0xbb7400: ldur            x1, [fp, #-0x10]
@@ -7330,11 +7330,11 @@ class _CommentRow extends StatelessWidget {
     //     0xbb75b0: add             x1, PP, #0x57, lsl #12  ; [pp+0x578a0] "Reply"
     //     0xbb75b4: ldr             x1, [x1, #0x8a0]
     // 0xbb75b8: r0 = L()
-    //     0xbb75b8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb75b8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb75bc: ldur            x1, [fp, #-0x18]
     // 0xbb75c0: stur            x0, [fp, #-0x18]
-    // 0xbb75c4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb75c4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb75c4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb75c4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb75c8: stur            x0, [fp, #-0x28]
     // 0xbb75cc: r0 = TextStyle()
     //     0xbb75cc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -7944,7 +7944,7 @@ class WorkoutCommentsSheetView extends StatelessWidget {
     // 0xa69be4: ldur            x2, [fp, #-0x20]
     // 0xa69be8: stur            x3, [fp, #-0x10]
     // 0xa69bec: r1 = Function '<anonymous closure>': static.
-    //     0xa69bec: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d8b0] AnonymousClosure: static (0xa69c3c), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] WorkoutCommentsSheetView::show (0xa69b90)
+    //     0xa69bec: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d8b0] AnonymousClosure: static (0xa69c3c), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] WorkoutCommentsSheetView::show (0xa69b90)
     //     0xa69bf0: ldr             x1, [x1, #0x8b0]
     // 0xa69bf4: r0 = AllocateClosure()
     //     0xa69bf4: bl              #0xe553e0  ; AllocateClosureStub
@@ -8049,7 +8049,7 @@ class WorkoutCommentsSheetView extends StatelessWidget {
     //     0xbb6448: stur            w0, [x3, #0xb]
     // 0xbb644c: ldur            x2, [fp, #-0x18]
     // 0xbb6450: r1 = Function '<anonymous closure>':.
-    //     0xbb6450: add             x1, PP, #0x53, lsl #12  ; [pp+0x53d60] AnonymousClosure: (0xbb64e4), in [package:ballai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] WorkoutCommentsSheetView::build (0xbb63f8)
+    //     0xbb6450: add             x1, PP, #0x53, lsl #12  ; [pp+0x53d60] AnonymousClosure: (0xbb64e4), in [package:kourtai/automatic/views/components/home/comments/workout_comments_sheet_view.dart] WorkoutCommentsSheetView::build (0xbb63f8)
     //     0xbb6454: ldr             x1, [x1, #0xd60]
     // 0xbb6458: r0 = AllocateClosure()
     //     0xbb6458: bl              #0xe553e0  ; AllocateClosureStub
@@ -8183,10 +8183,10 @@ class WorkoutCommentsSheetView extends StatelessWidget {
     // 0xbb65b4: ldur            x7, [fp, #-8]
     // 0xbb65b8: stur            x0, [fp, #-8]
     // 0xbb65bc: r0 = WorkoutCommentsSheetViewModel()
-    //     0xbb65bc: bl              #0xbb6864  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::WorkoutCommentsSheetViewModel
+    //     0xbb65bc: bl              #0xbb6864  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::WorkoutCommentsSheetViewModel
     // 0xbb65c0: ldur            x1, [fp, #-8]
     // 0xbb65c4: r0 = ensureInitialLoad()
-    //     0xbb65c4: bl              #0xbb65e0  ; [package:ballai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::ensureInitialLoad
+    //     0xbb65c4: bl              #0xbb65e0  ; [package:kourtai/automatic/viewmodels/home/root/workout_comments_sheet_view_model.dart] WorkoutCommentsSheetViewModel::ensureInitialLoad
     // 0xbb65c8: ldur            x0, [fp, #-8]
     // 0xbb65cc: LeaveFrame
     //     0xbb65cc: mov             SP, fp

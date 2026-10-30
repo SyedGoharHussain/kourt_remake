@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/components/profile_picture_sheet.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/components/profile_picture_sheet.dart
 
 // class id: 1049001, size: 0x8
 class :: {
@@ -46,12 +46,12 @@ class _CircleActionButton extends StatelessWidget {
     // 0xc103e8: DecompressPointer r0
     //     0xc103e8: add             x0, x0, HEAP, lsl #32
     // 0xc103ec: tbnz            w0, #4, #0xc103fc
-    // 0xc103f0: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc103f0: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc103f0: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc103f0: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc103f4: mov             x2, x0
     // 0xc103f8: b               #0xc10404
-    // 0xc103fc: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xc103fc: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xc103fc: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xc103fc: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xc10400: mov             x2, x0
     // 0xc10404: ldur            x0, [fp, #-0x18]
     // 0xc10408: stur            x2, [fp, #-8]
@@ -68,8 +68,8 @@ class _CircleActionButton extends StatelessWidget {
     //     0xc10424: ldur            w1, [x3, #0x13]
     // 0xc10428: DecompressPointer r1
     //     0xc10428: add             x1, x1, HEAP, lsl #32
-    // 0xc1042c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc1042c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc1042c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc1042c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc10430: mov             x3, x0
     // 0xc10434: ldur            x0, [fp, #-0x18]
     // 0xc10438: stur            x3, [fp, #-0x28]
@@ -91,7 +91,7 @@ class _CircleActionButton extends StatelessWidget {
     // 0xc10464: b               #0xc10480
     // 0xc10468: ldur            x2, [fp, #-0x20]
     // 0xc1046c: r1 = Function '<anonymous closure>':.
-    //     0xc1046c: add             x1, PP, #0x49, lsl #12  ; [pp+0x491f0] AnonymousClosure: (0xc10794), in [package:ballai/automatic/views/home/tab/tabs/you/components/profile_picture_sheet.dart] _CircleActionButton::build (0xc10390)
+    //     0xc1046c: add             x1, PP, #0x49, lsl #12  ; [pp+0x491f0] AnonymousClosure: (0xc10794), in [package:kourtai/automatic/views/home/tab/tabs/you/components/profile_picture_sheet.dart] _CircleActionButton::build (0xc10390)
     //     0xc10470: ldr             x1, [x1, #0x1f0]
     // 0xc10474: r0 = AllocateClosure()
     //     0xc10474: bl              #0xe553e0  ; AllocateClosureStub
@@ -273,8 +273,8 @@ class _CircleActionButton extends StatelessWidget {
     // 0xc10640: DecompressPointer r4
     //     0xc10640: add             x4, x4, HEAP, lsl #32
     // 0xc10644: mov             x1, x4
-    // 0xc10648: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc10648: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc10648: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc10648: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc1064c: stur            x0, [fp, #-0x10]
     // 0xc10650: r0 = TextStyle()
     //     0xc10650: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -861,8 +861,8 @@ class _ProfileHero extends StatelessWidget {
     // 0xc0ff94: tbnz            w0, #4, #0xc10080
     // 0xc0ff98: tbz             w4, #4, #0xc10080
     // 0xc0ff9c: ldur            x1, [fp, #-0x10]
-    // 0xc0ffa0: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xc0ffa0: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xc0ffa0: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xc0ffa0: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xc0ffa4: stur            x0, [fp, #-8]
     // 0xc0ffa8: r16 = 0.080000
     //     0xc0ffa8: add             x16, PP, #0x24, lsl #12  ; [pp+0x24f28] 0.08
@@ -899,8 +899,8 @@ class _ProfileHero extends StatelessWidget {
     // 0xc0fffc: StoreField: r2->field_23 = r0
     //     0xc0fffc: stur            w0, [x2, #0x23]
     // 0xc10000: ldur            x1, [fp, #-0x10]
-    // 0xc10004: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc10004: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc10004: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc10004: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc10008: stur            x0, [fp, #-8]
     // 0xc1000c: r0 = Icon()
     //     0xc1000c: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -1019,8 +1019,8 @@ class _CloseButton extends StatelessWidget {
     //     0xc0fcf0: cmp             SP, x16
     //     0xc0fcf4: b.ls            #0xc0fe28
     // 0xc0fcf8: mov             x1, x0
-    // 0xc0fcfc: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xc0fcfc: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xc0fcfc: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xc0fcfc: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xc0fd00: mov             x2, x0
     // 0xc0fd04: ldur            x0, [fp, #-8]
     // 0xc0fd08: stur            x2, [fp, #-0x20]
@@ -1030,8 +1030,8 @@ class _CloseButton extends StatelessWidget {
     //     0xc0fd10: add             x3, x3, HEAP, lsl #32
     // 0xc0fd14: ldur            x1, [fp, #-0x10]
     // 0xc0fd18: stur            x3, [fp, #-0x18]
-    // 0xc0fd1c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc0fd1c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc0fd1c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc0fd1c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc0fd20: stur            x0, [fp, #-8]
     // 0xc0fd24: r0 = Icon()
     //     0xc0fd24: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -1178,7 +1178,7 @@ class _Header extends StatelessWidget {
     //     0xc0f95c: stur            w0, [x3, #0xf]
     // 0xc0f960: mov             x2, x3
     // 0xc0f964: r1 = Function '<anonymous closure>':.
-    //     0xc0f964: add             x1, PP, #0x42, lsl #12  ; [pp+0x42ef8] AnonymousClosure: (0x953eb0), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
+    //     0xc0f964: add             x1, PP, #0x42, lsl #12  ; [pp+0x42ef8] AnonymousClosure: (0x953eb0), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
     //     0xc0f968: ldr             x1, [x1, #0xef8]
     // 0xc0f96c: r0 = AllocateClosure()
     //     0xc0f96c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1201,8 +1201,8 @@ class _Header extends StatelessWidget {
     //     0xc0f998: add             x3, x3, HEAP, lsl #32
     // 0xc0f99c: ldur            x1, [fp, #-0x10]
     // 0xc0f9a0: stur            x3, [fp, #-0x20]
-    // 0xc0f9a4: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc0f9a4: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc0f9a4: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc0f9a4: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc0f9a8: stur            x0, [fp, #-0x10]
     // 0xc0f9ac: r0 = TextStyle()
     //     0xc0f9ac: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1294,8 +1294,8 @@ class _Header extends StatelessWidget {
     //     0xc0fa88: ldur            w1, [x0, #0xf]
     // 0xc0fa8c: DecompressPointer r1
     //     0xc0fa8c: add             x1, x1, HEAP, lsl #32
-    // 0xc0fa90: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc0fa90: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc0fa90: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc0fa90: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc0fa94: stur            x0, [fp, #-0x18]
     // 0xc0fa98: r0 = TextStyle()
     //     0xc0fa98: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1782,7 +1782,7 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xa8d7a8: stur            w0, [x1, #0x3b]
     // 0xa8d7ac: mov             x2, x1
     // 0xa8d7b0: r1 = Function '<anonymous closure>': static.
-    //     0xa8d7b0: add             x1, PP, #0x37, lsl #12  ; [pp+0x37020] AnonymousClosure: static (0xa8d7e0), in [package:ballai/automatic/views/home/tab/tabs/you/components/profile_picture_sheet.dart] ProfilePictureSheet::present (0xa8d3e8)
+    //     0xa8d7b0: add             x1, PP, #0x37, lsl #12  ; [pp+0x37020] AnonymousClosure: static (0xa8d7e0), in [package:kourtai/automatic/views/home/tab/tabs/you/components/profile_picture_sheet.dart] ProfilePictureSheet::present (0xa8d3e8)
     //     0xa8d7b4: ldr             x1, [x1, #0x20]
     // 0xa8d7b8: r0 = AllocateClosure()
     //     0xa8d7b8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1792,7 +1792,7 @@ class ProfilePictureSheet extends StatelessWidget {
     // 0xa8d7c4: r4 = const [0x1, 0x1, 0x1, 0x1, null]
     //     0xa8d7c4: ldr             x4, [PP, #0x1048]  ; [pp+0x1048] List(5) [0x1, 0x1, 0x1, 0x1, Null]
     // 0xa8d7c8: r0 = withHidden()
-    //     0xa8d7c8: bl              #0x8e7e18  ; [package:ballai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::withHidden
+    //     0xa8d7c8: bl              #0x8e7e18  ; [package:kourtai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::withHidden
     // 0xa8d7cc: LeaveFrame
     //     0xa8d7cc: mov             SP, fp
     //     0xa8d7d0: ldp             fp, lr, [SP], #0x10
@@ -1824,8 +1824,8 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xa8d80c: add             x0, x0, HEAP, lsl #32
     // 0xa8d810: mov             x1, x0
     // 0xa8d814: stur            x0, [fp, #-8]
-    // 0xa8d818: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xa8d818: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xa8d818: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xa8d818: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xa8d81c: stur            x0, [fp, #-0x18]
     // 0xa8d820: r16 = 0.450000
     //     0xa8d820: add             x16, PP, #0x20, lsl #12  ; [pp+0x20e20] 0.45
@@ -1840,7 +1840,7 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xa8d838: bl              #0xd9bb78  ; [dart:ui] Color::withValues
     // 0xa8d83c: ldur            x2, [fp, #-0x10]
     // 0xa8d840: r1 = Function '<anonymous closure>': static.
-    //     0xa8d840: add             x1, PP, #0x37, lsl #12  ; [pp+0x37028] AnonymousClosure: static (0xa8d8a0), in [package:ballai/automatic/views/home/tab/tabs/you/components/profile_picture_sheet.dart] ProfilePictureSheet::present (0xa8d3e8)
+    //     0xa8d840: add             x1, PP, #0x37, lsl #12  ; [pp+0x37028] AnonymousClosure: static (0xa8d8a0), in [package:kourtai/automatic/views/home/tab/tabs/you/components/profile_picture_sheet.dart] ProfilePictureSheet::present (0xa8d3e8)
     //     0xa8d844: ldr             x1, [x1, #0x28]
     // 0xa8d848: stur            x0, [fp, #-0x10]
     // 0xa8d84c: r0 = AllocateClosure()
@@ -2057,8 +2057,8 @@ class ProfilePictureSheet extends StatelessWidget {
     // 0xc0e878: StoreField: r0->field_1f = d0
     //     0xc0e878: stur            d0, [x0, #0x1f]
     // 0xc0e87c: ldur            x1, [fp, #-0x18]
-    // 0xc0e880: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc0e880: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc0e880: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc0e880: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc0e884: r16 = 0.350000
     //     0xc0e884: add             x16, PP, #0x15, lsl #12  ; [pp+0x151b0] 0.35
     //     0xc0e888: ldr             x16, [x16, #0x1b0]
@@ -2195,18 +2195,18 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xc0e9e4: stur            w0, [x2, #0xb]
     // 0xc0e9e8: ldur            x1, [fp, #-0x10]
     // 0xc0e9ec: r0 = _joinedText()
-    //     0xc0e9ec: bl              #0xc0f350  ; [package:ballai/automatic/views/home/tab/tabs/you/components/profile_picture_sheet.dart] ProfilePictureSheet::_joinedText
+    //     0xc0e9ec: bl              #0xc0f350  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/profile_picture_sheet.dart] ProfilePictureSheet::_joinedText
     // 0xc0e9f0: cmp             w0, NULL
     // 0xc0e9f4: b.eq            #0xc0eabc
     // 0xc0e9f8: ldur            x1, [fp, #-0x10]
     // 0xc0e9fc: r0 = _joinedText()
-    //     0xc0e9fc: bl              #0xc0f350  ; [package:ballai/automatic/views/home/tab/tabs/you/components/profile_picture_sheet.dart] ProfilePictureSheet::_joinedText
+    //     0xc0e9fc: bl              #0xc0f350  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/profile_picture_sheet.dart] ProfilePictureSheet::_joinedText
     // 0xc0ea00: stur            x0, [fp, #-8]
     // 0xc0ea04: cmp             w0, NULL
     // 0xc0ea08: b.eq            #0xc0f240
     // 0xc0ea0c: ldur            x1, [fp, #-0x18]
-    // 0xc0ea10: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc0ea10: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc0ea10: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc0ea10: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc0ea14: stur            x0, [fp, #-0x18]
     // 0xc0ea18: r0 = TextStyle()
     //     0xc0ea18: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2316,7 +2316,7 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xc0eb24: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b998] "Edit profile"
     //     0xc0eb28: ldr             x1, [x1, #0x998]
     // 0xc0eb2c: r0 = L()
-    //     0xc0eb2c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0eb2c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0eb30: ldur            x1, [fp, #-0x10]
     // 0xc0eb34: stur            x0, [fp, #-0x18]
     // 0xc0eb38: LoadField: r2 = r1->field_2f
@@ -2351,7 +2351,7 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xc0eb7c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b9a8] "Share profile"
     //     0xc0eb80: ldr             x1, [x1, #0x9a8]
     // 0xc0eb84: r0 = L()
-    //     0xc0eb84: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0eb84: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0eb88: mov             x1, x0
     // 0xc0eb8c: ldur            x0, [fp, #-0x10]
     // 0xc0eb90: stur            x1, [fp, #-0x18]
@@ -2509,7 +2509,7 @@ class ProfilePictureSheet extends StatelessWidget {
     // 0xc0ed30: mov             x1, x0
     // 0xc0ed34: stur            x5, [fp, #-8]
     // 0xc0ed38: r0 = _followButtonTitle()
-    //     0xc0ed38: bl              #0xc0f244  ; [package:ballai/automatic/views/home/tab/tabs/you/components/profile_picture_sheet.dart] ProfilePictureSheet::_followButtonTitle
+    //     0xc0ed38: bl              #0xc0f244  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/profile_picture_sheet.dart] ProfilePictureSheet::_followButtonTitle
     // 0xc0ed3c: mov             x1, x0
     // 0xc0ed40: ldur            x0, [fp, #-0x10]
     // 0xc0ed44: stur            x1, [fp, #-0x48]
@@ -2621,7 +2621,7 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xc0ee60: add             x1, PP, #0x27, lsl #12  ; [pp+0x27030] "Message"
     //     0xc0ee64: ldr             x1, [x1, #0x30]
     // 0xc0ee68: r0 = L()
-    //     0xc0ee68: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0ee68: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0ee6c: stur            x0, [fp, #-0x20]
     // 0xc0ee70: r0 = _SheetAction()
     //     0xc0ee70: bl              #0xc0f320  ; Allocate_SheetActionStub -> _SheetAction (size=0x20)
@@ -2692,7 +2692,7 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xc0ef24: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b9b8] "Profile"
     //     0xc0ef28: ldr             x1, [x1, #0x9b8]
     // 0xc0ef2c: r0 = L()
-    //     0xc0ef2c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0ef2c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0ef30: mov             x1, x0
     // 0xc0ef34: ldur            x0, [fp, #-0x10]
     // 0xc0ef38: stur            x1, [fp, #-0x20]
@@ -2770,7 +2770,7 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xc0effc: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b9a8] "Share profile"
     //     0xc0f000: ldr             x1, [x1, #0x9a8]
     // 0xc0f004: r0 = L()
-    //     0xc0f004: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f004: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f008: mov             x1, x0
     // 0xc0f00c: ldur            x0, [fp, #-0x10]
     // 0xc0f010: stur            x1, [fp, #-0x20]
@@ -3005,7 +3005,7 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xc0f264: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b9c8] "Accept"
     //     0xc0f268: ldr             x1, [x1, #0x9c8]
     // 0xc0f26c: r0 = L()
-    //     0xc0f26c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f26c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f270: LeaveFrame
     //     0xc0f270: mov             SP, fp
     //     0xc0f274: ldp             fp, lr, [SP], #0x10
@@ -3020,7 +3020,7 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xc0f288: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b940] "Requested"
     //     0xc0f28c: ldr             x1, [x1, #0x940]
     // 0xc0f290: r0 = L()
-    //     0xc0f290: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f290: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f294: LeaveFrame
     //     0xc0f294: mov             SP, fp
     //     0xc0f298: ldp             fp, lr, [SP], #0x10
@@ -3044,7 +3044,7 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xc0f2c4: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b950] "Following"
     //     0xc0f2c8: ldr             x1, [x1, #0x950]
     // 0xc0f2cc: r0 = L()
-    //     0xc0f2cc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f2cc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f2d0: LeaveFrame
     //     0xc0f2d0: mov             SP, fp
     //     0xc0f2d4: ldp             fp, lr, [SP], #0x10
@@ -3063,7 +3063,7 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xc0f2f4: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b960] "Follow"
     //     0xc0f2f8: ldr             x1, [x1, #0x960]
     // 0xc0f2fc: r0 = L()
-    //     0xc0f2fc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f2fc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f300: LeaveFrame
     //     0xc0f300: mov             SP, fp
     //     0xc0f304: ldp             fp, lr, [SP], #0x10
@@ -3102,7 +3102,7 @@ class ProfilePictureSheet extends StatelessWidget {
     // 0xc0f38c: ret
     //     0xc0f38c: ret             
     // 0xc0f390: r0 = _dayMonthYear()
-    //     0xc0f390: bl              #0xc0f3f4  ; [package:ballai/automatic/views/home/tab/tabs/you/components/profile_picture_sheet.dart] ProfilePictureSheet::_dayMonthYear
+    //     0xc0f390: bl              #0xc0f3f4  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/profile_picture_sheet.dart] ProfilePictureSheet::_dayMonthYear
     // 0xc0f394: r1 = Null
     //     0xc0f394: mov             x1, NULL
     // 0xc0f398: r2 = 2
@@ -3128,11 +3128,11 @@ class ProfilePictureSheet extends StatelessWidget {
     // 0xc0f3cc: StoreField: r1->field_b = r0
     //     0xc0f3cc: stur            w0, [x1, #0xb]
     // 0xc0f3d0: mov             x2, x1
-    // 0xc0f3d4: r1 = "Joined Ball AI on %@"
-    //     0xc0f3d4: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b9d8] "Joined Ball AI on %@"
+    // 0xc0f3d4: r1 = "Joined Kourt AI on %@"
+    //     0xc0f3d4: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b9d8] "Joined Kourt AI on %@"
     //     0xc0f3d8: ldr             x1, [x1, #0x9d8]
     // 0xc0f3dc: r0 = LF()
-    //     0xc0f3dc: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xc0f3dc: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xc0f3e0: LeaveFrame
     //     0xc0f3e0: mov             SP, fp
     //     0xc0f3e4: ldp             fp, lr, [SP], #0x10
@@ -3160,43 +3160,43 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xc0f414: add             x1, PP, #0x37, lsl #12  ; [pp+0x375e8] "Mon"
     //     0xc0f418: ldr             x1, [x1, #0x5e8]
     // 0xc0f41c: r0 = L()
-    //     0xc0f41c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f41c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f420: r1 = "Tue"
     //     0xc0f420: add             x1, PP, #0x37, lsl #12  ; [pp+0x375f0] "Tue"
     //     0xc0f424: ldr             x1, [x1, #0x5f0]
     // 0xc0f428: stur            x0, [fp, #-0x10]
     // 0xc0f42c: r0 = L()
-    //     0xc0f42c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f42c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f430: r1 = "Wed"
     //     0xc0f430: add             x1, PP, #0x37, lsl #12  ; [pp+0x375f8] "Wed"
     //     0xc0f434: ldr             x1, [x1, #0x5f8]
     // 0xc0f438: stur            x0, [fp, #-0x18]
     // 0xc0f43c: r0 = L()
-    //     0xc0f43c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f43c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f440: r1 = "Thu"
     //     0xc0f440: add             x1, PP, #0x37, lsl #12  ; [pp+0x37600] "Thu"
     //     0xc0f444: ldr             x1, [x1, #0x600]
     // 0xc0f448: stur            x0, [fp, #-0x20]
     // 0xc0f44c: r0 = L()
-    //     0xc0f44c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f44c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f450: r1 = "Fri"
     //     0xc0f450: add             x1, PP, #0x37, lsl #12  ; [pp+0x37608] "Fri"
     //     0xc0f454: ldr             x1, [x1, #0x608]
     // 0xc0f458: stur            x0, [fp, #-0x28]
     // 0xc0f45c: r0 = L()
-    //     0xc0f45c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f45c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f460: r1 = "Sat"
     //     0xc0f460: add             x1, PP, #0x37, lsl #12  ; [pp+0x37610] "Sat"
     //     0xc0f464: ldr             x1, [x1, #0x610]
     // 0xc0f468: stur            x0, [fp, #-0x30]
     // 0xc0f46c: r0 = L()
-    //     0xc0f46c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f46c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f470: r1 = "Sun"
     //     0xc0f470: add             x1, PP, #0x37, lsl #12  ; [pp+0x37618] "Sun"
     //     0xc0f474: ldr             x1, [x1, #0x618]
     // 0xc0f478: stur            x0, [fp, #-0x38]
     // 0xc0f47c: r0 = L()
-    //     0xc0f47c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f47c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f480: r1 = Null
     //     0xc0f480: mov             x1, NULL
     // 0xc0f484: r2 = 14
@@ -3231,7 +3231,7 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xc0f4d0: add             x1, PP, #0x27, lsl #12  ; [pp+0x27338] "Jan"
     //     0xc0f4d4: ldr             x1, [x1, #0x338]
     // 0xc0f4d8: r0 = L()
-    //     0xc0f4d8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f4d8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f4dc: r1 = <String>
     //     0xc0f4dc: ldr             x1, [PP, #0x850]  ; [pp+0x850] TypeArguments: <String>
     // 0xc0f4e0: r2 = 24
@@ -3248,7 +3248,7 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xc0f4fc: add             x1, PP, #0x27, lsl #12  ; [pp+0x27340] "Feb"
     //     0xc0f500: ldr             x1, [x1, #0x340]
     // 0xc0f504: r0 = L()
-    //     0xc0f504: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f504: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f508: ldur            x1, [fp, #-0x18]
     // 0xc0f50c: ArrayStore: r1[1] = r0  ; List_4
     //     0xc0f50c: add             x25, x1, #0x13
@@ -3264,7 +3264,7 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xc0f530: add             x1, PP, #0x27, lsl #12  ; [pp+0x27348] "Mar"
     //     0xc0f534: ldr             x1, [x1, #0x348]
     // 0xc0f538: r0 = L()
-    //     0xc0f538: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f538: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f53c: ldur            x1, [fp, #-0x18]
     // 0xc0f540: ArrayStore: r1[2] = r0  ; List_4
     //     0xc0f540: add             x25, x1, #0x17
@@ -3280,7 +3280,7 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xc0f564: add             x1, PP, #0x27, lsl #12  ; [pp+0x27350] "Apr"
     //     0xc0f568: ldr             x1, [x1, #0x350]
     // 0xc0f56c: r0 = L()
-    //     0xc0f56c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f56c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f570: ldur            x1, [fp, #-0x18]
     // 0xc0f574: ArrayStore: r1[3] = r0  ; List_4
     //     0xc0f574: add             x25, x1, #0x1b
@@ -3296,7 +3296,7 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xc0f598: add             x1, PP, #0x27, lsl #12  ; [pp+0x27358] "May"
     //     0xc0f59c: ldr             x1, [x1, #0x358]
     // 0xc0f5a0: r0 = L()
-    //     0xc0f5a0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f5a0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f5a4: ldur            x1, [fp, #-0x18]
     // 0xc0f5a8: ArrayStore: r1[4] = r0  ; List_4
     //     0xc0f5a8: add             x25, x1, #0x1f
@@ -3312,7 +3312,7 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xc0f5cc: add             x1, PP, #0x27, lsl #12  ; [pp+0x27360] "Jun"
     //     0xc0f5d0: ldr             x1, [x1, #0x360]
     // 0xc0f5d4: r0 = L()
-    //     0xc0f5d4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f5d4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f5d8: ldur            x1, [fp, #-0x18]
     // 0xc0f5dc: ArrayStore: r1[5] = r0  ; List_4
     //     0xc0f5dc: add             x25, x1, #0x23
@@ -3328,7 +3328,7 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xc0f600: add             x1, PP, #0x27, lsl #12  ; [pp+0x27368] "Jul"
     //     0xc0f604: ldr             x1, [x1, #0x368]
     // 0xc0f608: r0 = L()
-    //     0xc0f608: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f608: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f60c: ldur            x1, [fp, #-0x18]
     // 0xc0f610: ArrayStore: r1[6] = r0  ; List_4
     //     0xc0f610: add             x25, x1, #0x27
@@ -3344,7 +3344,7 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xc0f634: add             x1, PP, #0x27, lsl #12  ; [pp+0x27370] "Aug"
     //     0xc0f638: ldr             x1, [x1, #0x370]
     // 0xc0f63c: r0 = L()
-    //     0xc0f63c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f63c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f640: ldur            x1, [fp, #-0x18]
     // 0xc0f644: ArrayStore: r1[7] = r0  ; List_4
     //     0xc0f644: add             x25, x1, #0x2b
@@ -3360,7 +3360,7 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xc0f668: add             x1, PP, #0x27, lsl #12  ; [pp+0x27378] "Sep"
     //     0xc0f66c: ldr             x1, [x1, #0x378]
     // 0xc0f670: r0 = L()
-    //     0xc0f670: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f670: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f674: ldur            x1, [fp, #-0x18]
     // 0xc0f678: ArrayStore: r1[8] = r0  ; List_4
     //     0xc0f678: add             x25, x1, #0x2f
@@ -3376,7 +3376,7 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xc0f69c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27380] "Oct"
     //     0xc0f6a0: ldr             x1, [x1, #0x380]
     // 0xc0f6a4: r0 = L()
-    //     0xc0f6a4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f6a4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f6a8: ldur            x1, [fp, #-0x18]
     // 0xc0f6ac: ArrayStore: r1[9] = r0  ; List_4
     //     0xc0f6ac: add             x25, x1, #0x33
@@ -3392,7 +3392,7 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xc0f6d0: add             x1, PP, #0x27, lsl #12  ; [pp+0x27388] "Nov"
     //     0xc0f6d4: ldr             x1, [x1, #0x388]
     // 0xc0f6d8: r0 = L()
-    //     0xc0f6d8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f6d8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f6dc: ldur            x1, [fp, #-0x18]
     // 0xc0f6e0: ArrayStore: r1[10] = r0  ; List_4
     //     0xc0f6e0: add             x25, x1, #0x37
@@ -3408,7 +3408,7 @@ class ProfilePictureSheet extends StatelessWidget {
     //     0xc0f704: add             x1, PP, #0x27, lsl #12  ; [pp+0x27390] "Dec"
     //     0xc0f708: ldr             x1, [x1, #0x390]
     // 0xc0f70c: r0 = L()
-    //     0xc0f70c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0f70c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0f710: ldur            x1, [fp, #-0x18]
     // 0xc0f714: ArrayStore: r1[11] = r0  ; List_4
     //     0xc0f714: add             x25, x1, #0x3b

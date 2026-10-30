@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/storage/local_app_data_cleaner.dart
+// lib: , url: package:kourtai/automatic/utility/storage/local_app_data_cleaner.dart
 
 // class id: 1048742, size: 0x8
 class :: {

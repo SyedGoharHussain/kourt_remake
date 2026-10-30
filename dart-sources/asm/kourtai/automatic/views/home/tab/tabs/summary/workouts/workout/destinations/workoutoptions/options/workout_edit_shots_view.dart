@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart
 
 // class id: 1048893, size: 0x8
 class :: {
@@ -29,10 +29,10 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0x95b5ac: b.ls            #0x95b5d0
     // 0x95b5b0: mov             x1, x0
     // 0x95b5b4: r0 = initState()
-    //     0x95b5b4: bl              #0x989844  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::initState
+    //     0x95b5b4: bl              #0x989844  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::initState
     // 0x95b5b8: ldur            x1, [fp, #-8]
     // 0x95b5bc: r0 = _attachShotsListener()
-    //     0x95b5bc: bl              #0x95b5f8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_attachShotsListener
+    //     0x95b5bc: bl              #0x95b5f8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_attachShotsListener
     // 0x95b5c0: r0 = Null
     //     0x95b5c0: mov             x0, NULL
     // 0x95b5c4: LeaveFrame
@@ -147,7 +147,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0x95b6f4: bl              #0x938d20  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQuery::snapshots
     // 0x95b6f8: ldur            x2, [fp, #-0x10]
     // 0x95b6fc: r1 = Function '<anonymous closure>':.
-    //     0x95b6fc: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e598] AnonymousClosure: (0x95b75c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_attachShotsListener (0x95b5f8)
+    //     0x95b6fc: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e598] AnonymousClosure: (0x95b75c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_attachShotsListener (0x95b5f8)
     //     0x95b700: ldr             x1, [x1, #0x598]
     // 0x95b704: stur            x0, [fp, #-0x10]
     // 0x95b708: r0 = AllocateClosure()
@@ -303,7 +303,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0x95b898: r1 = Null
     //     0x95b898: mov             x1, NULL
     // 0x95b89c: r0 = ShotModel.fromMap()
-    //     0x95b89c: bl              #0x95ba60  ; [package:ballai/shared/models/core/shot_model.dart] ShotModel::ShotModel.fromMap
+    //     0x95b89c: bl              #0x95ba60  ; [package:kourtai/shared/models/core/shot_model.dart] ShotModel::ShotModel.fromMap
     // 0x95b8a0: mov             x2, x0
     // 0x95b8a4: ldur            x0, [fp, #-0x18]
     // 0x95b8a8: stur            x2, [fp, #-0x28]
@@ -360,7 +360,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0x95b940: ldur            x2, [fp, #-0x10]
     // 0x95b944: stur            x3, [fp, #-0x18]
     // 0x95b948: r1 = Function '<anonymous closure>':.
-    //     0x95b948: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e5a0] AnonymousClosure: (0x95ce88), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_attachShotsListener (0x95b5f8)
+    //     0x95b948: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e5a0] AnonymousClosure: (0x95ce88), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_attachShotsListener (0x95b5f8)
     //     0x95b94c: ldr             x1, [x1, #0x5a0]
     // 0x95b950: r0 = AllocateClosure()
     //     0x95b950: bl              #0xe553e0  ; AllocateClosureStub
@@ -453,7 +453,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa36e70: stur            w0, [x2, #0xf]
     // 0xa36e74: mov             x1, x0
     // 0xa36e78: r0 = _sortedShots()
-    //     0xa36e78: bl              #0xa37f44  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_sortedShots
+    //     0xa36e78: bl              #0xa37f44  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_sortedShots
     // 0xa36e7c: mov             x2, x0
     // 0xa36e80: ldur            x1, [fp, #-8]
     // 0xa36e84: stur            x2, [fp, #-0x38]
@@ -546,11 +546,11 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa36f78: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e448] "Fix your shots"
     //     0xa36f7c: ldr             x1, [x1, #0x448]
     // 0xa36f80: r0 = L()
-    //     0xa36f80: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa36f80: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa36f84: ldur            x1, [fp, #-0x10]
     // 0xa36f88: stur            x0, [fp, #-0x50]
-    // 0xa36f8c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa36f8c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa36f8c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa36f8c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa36f90: stur            x0, [fp, #-0x58]
     // 0xa36f94: r0 = TextStyle()
     //     0xa36f94: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -639,11 +639,11 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa3706c: stur            d1, [x0, #0x1f]
     // 0xa37070: ldur            x1, [fp, #-8]
     // 0xa37074: r0 = _headerCopy()
-    //     0xa37074: bl              #0xa37ef8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_headerCopy
+    //     0xa37074: bl              #0xa37ef8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_headerCopy
     // 0xa37078: ldur            x1, [fp, #-0x10]
     // 0xa3707c: stur            x0, [fp, #-0x10]
-    // 0xa37080: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa37080: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa37080: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa37080: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa37084: stur            x0, [fp, #-0x58]
     // 0xa37088: r0 = TextStyle()
     //     0xa37088: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -716,7 +716,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa37130: mov             x1, x3
     // 0xa37134: stur            x4, [fp, #-0x10]
     // 0xa37138: r0 = isLive()
-    //     0xa37138: bl              #0x8ec3f8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isLive
+    //     0xa37138: bl              #0x8ec3f8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isLive
     // 0xa3713c: ldur            x2, [fp, #-8]
     // 0xa37140: stur            x0, [fp, #-0x70]
     // 0xa37144: LoadField: r1 = r2->field_b
@@ -770,7 +770,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa371b4: stur            d0, [x3, #0x2f]
     // 0xa371b8: ldur            x2, [fp, #-8]
     // 0xa371bc: r1 = Function '_onPlayerReady@1151152154':.
-    //     0xa371bc: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e458] AnonymousClosure: (0xa3a010), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_onPlayerReady (0xa3a04c)
+    //     0xa371bc: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e458] AnonymousClosure: (0xa3a010), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_onPlayerReady (0xa3a04c)
     //     0xa371c0: ldr             x1, [x1, #0x458]
     // 0xa371c4: r0 = AllocateClosure()
     //     0xa371c4: bl              #0xe553e0  ; AllocateClosureStub
@@ -849,7 +849,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa37280: stur            w0, [x2, #0xb]
     // 0xa37284: ldur            x1, [fp, #-8]
     // 0xa37288: r0 = _canEdit()
-    //     0xa37288: bl              #0xa37e08  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_canEdit
+    //     0xa37288: bl              #0xa37e08  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_canEdit
     // 0xa3728c: tbnz            w0, #4, #0xa37328
     // 0xa37290: ldur            x0, [fp, #-8]
     // 0xa37294: LoadField: r2 = r0->field_23
@@ -858,7 +858,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa37298: add             x2, x2, HEAP, lsl #32
     // 0xa3729c: mov             x1, x0
     // 0xa372a0: r0 = _formatPlayhead()
-    //     0xa372a0: bl              #0xa37cf8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_formatPlayhead
+    //     0xa372a0: bl              #0xa37cf8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_formatPlayhead
     // 0xa372a4: stur            x0, [fp, #-0x10]
     // 0xa372a8: r0 = _AddShotPill()
     //     0xa372a8: bl              #0xa37cec  ; Allocate_AddShotPillStub -> _AddShotPill (size=0x14)
@@ -869,7 +869,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa372b8: stur            w0, [x3, #0xb]
     // 0xa372bc: ldur            x2, [fp, #-8]
     // 0xa372c0: r1 = Function '_addShotAtPlayhead@1151152154':.
-    //     0xa372c0: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e460] AnonymousClosure: (0xa397b8), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_addShotAtPlayhead (0xa397f0)
+    //     0xa372c0: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e460] AnonymousClosure: (0xa397b8), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_addShotAtPlayhead (0xa397f0)
     //     0xa372c4: ldr             x1, [x1, #0x460]
     // 0xa372c8: r0 = AllocateClosure()
     //     0xa372c8: bl              #0xe553e0  ; AllocateClosureStub
@@ -956,7 +956,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa373a4: mov             x2, x0
     // 0xa373a8: mov             x3, x5
     // 0xa373ac: r0 = _shotStripSection()
-    //     0xa373ac: bl              #0xa37960  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_shotStripSection
+    //     0xa373ac: bl              #0xa37960  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_shotStripSection
     // 0xa373b0: r1 = Null
     //     0xa373b0: mov             x1, NULL
     // 0xa373b4: r2 = 4
@@ -1009,7 +1009,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa37434: ldur            x2, [fp, #-0x28]
     // 0xa37438: stur            x3, [fp, #-0x20]
     // 0xa3743c: r0 = _timestampOf()
-    //     0xa3743c: bl              #0xa378d4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_timestampOf
+    //     0xa3743c: bl              #0xa378d4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_timestampOf
     // 0xa37440: mov             x3, x0
     // 0xa37444: ldur            x0, [fp, #-8]
     // 0xa37448: stur            x3, [fp, #-0x70]
@@ -1026,11 +1026,11 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa37464: ldur            x2, [fp, #-0x28]
     // 0xa37468: stur            x5, [fp, #-0x60]
     // 0xa3746c: r0 = _shotCourtPixel()
-    //     0xa3746c: bl              #0xa37828  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_shotCourtPixel
+    //     0xa3746c: bl              #0xa37828  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_shotCourtPixel
     // 0xa37470: ldur            x1, [fp, #-8]
     // 0xa37474: stur            x0, [fp, #-0x78]
     // 0xa37478: r0 = _canEdit()
-    //     0xa37478: bl              #0xa37e08  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_canEdit
+    //     0xa37478: bl              #0xa37e08  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_canEdit
     // 0xa3747c: mov             x2, x0
     // 0xa37480: ldur            x0, [fp, #-8]
     // 0xa37484: stur            x2, [fp, #-0x88]
@@ -1041,7 +1041,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa37490: mov             x1, x0
     // 0xa37494: stur            x3, [fp, #-0x80]
     // 0xa37498: r0 = _isOwnerSubscriber()
-    //     0xa37498: bl              #0xa377ec  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_isOwnerSubscriber
+    //     0xa37498: bl              #0xa377ec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_isOwnerSubscriber
     // 0xa3749c: tbnz            w0, #4, #0xa374f8
     // 0xa374a0: ldur            x0, [fp, #-0x28]
     // 0xa374a4: LoadField: r1 = r0->field_37
@@ -1117,7 +1117,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa3756c: stur            w0, [x3, #0x2b]
     // 0xa37570: ldur            x2, [fp, #-0x18]
     // 0xa37574: r1 = Function '<anonymous closure>':.
-    //     0xa37574: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e470] AnonymousClosure: (0xa396e0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::build (0xa36e34)
+    //     0xa37574: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e470] AnonymousClosure: (0xa396e0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::build (0xa36e34)
     //     0xa37578: ldr             x1, [x1, #0x470]
     // 0xa3757c: r0 = AllocateClosure()
     //     0xa3757c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1127,7 +1127,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa37588: stur            w1, [x0, #0x2f]
     // 0xa3758c: ldur            x2, [fp, #-0x18]
     // 0xa37590: r1 = Function '<anonymous closure>':.
-    //     0xa37590: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e478] AnonymousClosure: (0xa39544), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::build (0xa36e34)
+    //     0xa37590: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e478] AnonymousClosure: (0xa39544), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::build (0xa36e34)
     //     0xa37594: ldr             x1, [x1, #0x478]
     // 0xa37598: r0 = AllocateClosure()
     //     0xa37598: bl              #0xe553e0  ; AllocateClosureStub
@@ -1137,7 +1137,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa375a4: stur            w1, [x0, #0x33]
     // 0xa375a8: ldur            x2, [fp, #-8]
     // 0xa375ac: r1 = Function '_saveFocusedShot@1151152154':.
-    //     0xa375ac: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e480] AnonymousClosure: (0xa389f0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_saveFocusedShot (0xa38a28)
+    //     0xa375ac: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e480] AnonymousClosure: (0xa389f0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_saveFocusedShot (0xa38a28)
     //     0xa375b0: ldr             x1, [x1, #0x480]
     // 0xa375b4: r0 = AllocateClosure()
     //     0xa375b4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1147,7 +1147,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa375c0: stur            w1, [x0, #0x37]
     // 0xa375c4: ldur            x2, [fp, #-8]
     // 0xa375c8: r1 = Function '_deleteFocusedShot@1151152154':.
-    //     0xa375c8: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e488] AnonymousClosure: (0xa37fac), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_deleteFocusedShot (0xa37fe4)
+    //     0xa375c8: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e488] AnonymousClosure: (0xa37fac), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_deleteFocusedShot (0xa37fe4)
     //     0xa375cc: ldr             x1, [x1, #0x488]
     // 0xa375d0: r0 = AllocateClosure()
     //     0xa375d0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1362,7 +1362,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa377f8: cmp             SP, x16
     //     0xa377fc: b.ls            #0xa37820
     // 0xa37800: r0 = _canEdit()
-    //     0xa37800: bl              #0xa37e08  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_canEdit
+    //     0xa37800: bl              #0xa37e08  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_canEdit
     // 0xa37804: tbnz            w0, #4, #0xa37810
     // 0xa37808: r0 = true
     //     0xa37808: add             x0, NULL, #0x20  ; true
@@ -1494,7 +1494,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa3793c: ldur            x1, [fp, #-8]
     // 0xa37940: mov             x2, x0
     // 0xa37944: r0 = _formatPlayhead()
-    //     0xa37944: bl              #0xa37cf8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_formatPlayhead
+    //     0xa37944: bl              #0xa37cf8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_formatPlayhead
     // 0xa37948: LeaveFrame
     //     0xa37948: mov             SP, fp
     //     0xa3794c: ldp             fp, lr, [SP], #0x10
@@ -1560,7 +1560,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa379e4: stur            w1, [x3, #0x13]
     // 0xa379e8: ldur            x2, [fp, #-0x20]
     // 0xa379ec: r1 = Function '_onShotSelectionChanged@1151152154':.
-    //     0xa379ec: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e568] AnonymousClosure: (0xa37bd4), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_onShotSelectionChanged (0xa37c10)
+    //     0xa379ec: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e568] AnonymousClosure: (0xa37bd4), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_onShotSelectionChanged (0xa37c10)
     //     0xa379f0: ldr             x1, [x1, #0x568]
     // 0xa379f4: r0 = AllocateClosure()
     //     0xa379f4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1580,7 +1580,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa37a18: StoreField: r0->field_27 = r1
     //     0xa37a18: stur            w1, [x0, #0x27]
     // 0xa37a1c: r1 = Function '<anonymous closure>':.
-    //     0xa37a1c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e570] AnonymousClosure: (0xa37b80), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shotmap/workout_shot_map_section_view.dart] WorkoutShotMapSectionView::build (0xbeb780)
+    //     0xa37a1c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e570] AnonymousClosure: (0xa37b80), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shotmap/workout_shot_map_section_view.dart] WorkoutShotMapSectionView::build (0xbeb780)
     //     0xa37a20: ldr             x1, [x1, #0x570]
     // 0xa37a24: r2 = Null
     //     0xa37a24: mov             x2, NULL
@@ -1728,7 +1728,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa37bf0: b.ls            #0xa37c08
     // 0xa37bf4: ldr             x2, [fp, #0x10]
     // 0xa37bf8: r0 = _onShotSelectionChanged()
-    //     0xa37bf8: bl              #0xa37c10  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_onShotSelectionChanged
+    //     0xa37bf8: bl              #0xa37c10  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_onShotSelectionChanged
     // 0xa37bfc: LeaveFrame
     //     0xa37bfc: mov             SP, fp
     //     0xa37c00: ldp             fp, lr, [SP], #0x10
@@ -1765,7 +1765,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa37c48: stur            w2, [x1, #0x13]
     // 0xa37c4c: mov             x2, x1
     // 0xa37c50: r1 = Function '<anonymous closure>':.
-    //     0xa37c50: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e578] AnonymousClosure: (0xa37c80), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_onShotSelectionChanged (0xa37c10)
+    //     0xa37c50: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e578] AnonymousClosure: (0xa37c80), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_onShotSelectionChanged (0xa37c10)
     //     0xa37c54: ldr             x1, [x1, #0x578]
     // 0xa37c58: r0 = AllocateClosure()
     //     0xa37c58: bl              #0xe553e0  ; AllocateClosureStub
@@ -2022,7 +2022,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa37f04: cmp             SP, x16
     //     0xa37f08: b.ls            #0xa37f3c
     // 0xa37f0c: r0 = _canEdit()
-    //     0xa37f0c: bl              #0xa37e08  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_canEdit
+    //     0xa37f0c: bl              #0xa37e08  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_canEdit
     // 0xa37f10: tbz             w0, #4, #0xa37f28
     // 0xa37f14: r0 = "You can review the video and shot list. Only the person who recorded this workout can change makes, misses, or shots."
     //     0xa37f14: add             x0, PP, #0x4e, lsl #12  ; [pp+0x4e580] "You can review the video and shot list. Only the person who recorded this workout can change makes, misses, or shots."
@@ -2065,7 +2065,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa37f6c: r0 = _GrowableList.of()
     //     0xa37f6c: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0xa37f70: r1 = Function '<anonymous closure>':.
-    //     0xa37f70: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e590] AnonymousClosure: (0x8f6a60), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
+    //     0xa37f70: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e590] AnonymousClosure: (0x8f6a60), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
     //     0xa37f74: ldr             x1, [x1, #0x590]
     // 0xa37f78: r2 = Null
     //     0xa37f78: mov             x2, NULL
@@ -2103,7 +2103,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa37fc4: cmp             SP, x16
     //     0xa37fc8: b.ls            #0xa37fdc
     // 0xa37fcc: r0 = _deleteFocusedShot()
-    //     0xa37fcc: bl              #0xa37fe4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_deleteFocusedShot
+    //     0xa37fcc: bl              #0xa37fe4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_deleteFocusedShot
     // 0xa37fd0: LeaveFrame
     //     0xa37fd0: mov             SP, fp
     //     0xa37fd4: ldp             fp, lr, [SP], #0x10
@@ -2167,13 +2167,13 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa3806c: mov             x2, x4
     // 0xa38070: stur            x0, [fp, #-0x88]
     // 0xa38074: r1 = Function '<anonymous closure>':.
-    //     0xa38074: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e498] AnonymousClosure: (0xa38988), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_deleteFocusedShot (0xa37fe4)
+    //     0xa38074: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e498] AnonymousClosure: (0xa38988), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_deleteFocusedShot (0xa37fe4)
     //     0xa38078: ldr             x1, [x1, #0x498]
     // 0xa3807c: r0 = AllocateClosure()
     //     0xa3807c: bl              #0xe553e0  ; AllocateClosureStub
     // 0xa38080: ldur            x2, [fp, #-0x80]
     // 0xa38084: r1 = Function '<anonymous closure>':.
-    //     0xa38084: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e4a0] AnonymousClosure: (0xa3892c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_deleteFocusedShot (0xa37fe4)
+    //     0xa38084: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e4a0] AnonymousClosure: (0xa3892c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_deleteFocusedShot (0xa37fe4)
     //     0xa38088: ldr             x1, [x1, #0x4a0]
     // 0xa3808c: stur            x0, [fp, #-0x90]
     // 0xa38090: r0 = AllocateClosure()
@@ -2197,7 +2197,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa380c4: cmp             w4, NULL
     // 0xa380c8: b.eq            #0xa381dc
     // 0xa380cc: r1 = Function '<anonymous closure>':.
-    //     0xa380cc: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e4a8] AnonymousClosure: (0xa38734), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_deleteFocusedShot (0xa37fe4)
+    //     0xa380cc: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e4a8] AnonymousClosure: (0xa38734), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_deleteFocusedShot (0xa37fe4)
     //     0xa380d0: ldr             x1, [x1, #0x4a8]
     // 0xa380d4: r2 = Null
     //     0xa380d4: mov             x2, NULL
@@ -2252,14 +2252,14 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa38158: mov             x2, x3
     // 0xa3815c: stur            x3, [fp, #-0x88]
     // 0xa38160: r0 = deleteShot()
-    //     0xa38160: bl              #0xa38280  ; [package:ballai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::deleteShot
+    //     0xa38160: bl              #0xa38280  ; [package:kourtai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::deleteShot
     // 0xa38164: mov             x1, x0
     // 0xa38168: stur            x1, [fp, #-0x98]
     // 0xa3816c: r0 = Await()
     //     0xa3816c: bl              #0x60ad4c  ; AwaitStub
     // 0xa38170: ldur            x2, [fp, #-0x80]
     // 0xa38174: r1 = Function '<anonymous closure>':.
-    //     0xa38174: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e4b0] AnonymousClosure: (0xa38710), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_deleteFocusedShot (0xa37fe4)
+    //     0xa38174: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e4b0] AnonymousClosure: (0xa38710), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_deleteFocusedShot (0xa37fe4)
     //     0xa38178: ldr             x1, [x1, #0x4b0]
     // 0xa3817c: r0 = AllocateClosure()
     //     0xa3817c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2290,7 +2290,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa381c0: ldur            x1, [fp, #-0x78]
     // 0xa381c4: mov             x2, x0
     // 0xa381c8: r0 = _toast()
-    //     0xa381c8: bl              #0xa381e4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_toast
+    //     0xa381c8: bl              #0xa381e4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_toast
     // 0xa381cc: r0 = Null
     //     0xa381cc: mov             x0, NULL
     // 0xa381d0: r0 = ReturnAsyncNotFuture()
@@ -2418,7 +2418,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa3877c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e4c0] "Take this shot off\?"
     //     0xa38780: ldr             x1, [x1, #0x4c0]
     // 0xa38784: r0 = L()
-    //     0xa38784: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa38784: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa38788: stur            x0, [fp, #-8]
     // 0xa3878c: r0 = Text()
     //     0xa3878c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2431,7 +2431,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa387a0: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e4c8] "Your makes and misses will update."
     //     0xa387a4: ldr             x1, [x1, #0x4c8]
     // 0xa387a8: r0 = L()
-    //     0xa387a8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa387a8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa387ac: stur            x0, [fp, #-8]
     // 0xa387b0: r0 = Text()
     //     0xa387b0: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2444,7 +2444,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa387c4: add             x1, PP, #0x27, lsl #12  ; [pp+0x27668] "Cancel"
     //     0xa387c8: ldr             x1, [x1, #0x668]
     // 0xa387cc: r0 = L()
-    //     0xa387cc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa387cc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa387d0: stur            x0, [fp, #-8]
     // 0xa387d4: r0 = Text()
     //     0xa387d4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2455,7 +2455,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa387e4: stur            w0, [x3, #0xb]
     // 0xa387e8: ldur            x2, [fp, #-0x10]
     // 0xa387ec: r1 = Function '<anonymous closure>':.
-    //     0xa387ec: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e4d0] AnonymousClosure: static (0x796f4c), in [package:ballai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::presentDeniedDialog (0x796a3c)
+    //     0xa387ec: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e4d0] AnonymousClosure: static (0x796f4c), in [package:kourtai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::presentDeniedDialog (0x796a3c)
     //     0xa387f0: ldr             x1, [x1, #0x4d0]
     // 0xa387f4: r0 = AllocateClosure()
     //     0xa387f4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2492,7 +2492,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa38844: ldr             x1, [x1, #0xec8]
     // 0xa38848: stur            x0, [fp, #-8]
     // 0xa3884c: r0 = L()
-    //     0xa3884c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3884c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa38850: stur            x0, [fp, #-0x28]
     // 0xa38854: r0 = Text()
     //     0xa38854: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2503,7 +2503,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa38864: stur            w0, [x3, #0xb]
     // 0xa38868: ldur            x2, [fp, #-0x10]
     // 0xa3886c: r1 = Function '<anonymous closure>':.
-    //     0xa3886c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e4d8] AnonymousClosure: static (0x796ee4), in [package:ballai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::presentDeniedDialog (0x796a3c)
+    //     0xa3886c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e4d8] AnonymousClosure: static (0x796ee4), in [package:kourtai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::presentDeniedDialog (0x796a3c)
     //     0xa38870: ldr             x1, [x1, #0x4d8]
     // 0xa38874: r0 = AllocateClosure()
     //     0xa38874: bl              #0xe553e0  ; AllocateClosureStub
@@ -2675,7 +2675,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa38a08: cmp             SP, x16
     //     0xa38a0c: b.ls            #0xa38a20
     // 0xa38a10: r0 = _saveFocusedShot()
-    //     0xa38a10: bl              #0xa38a28  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_saveFocusedShot
+    //     0xa38a10: bl              #0xa38a28  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_saveFocusedShot
     // 0xa38a14: LeaveFrame
     //     0xa38a14: mov             SP, fp
     //     0xa38a18: ldp             fp, lr, [SP], #0x10
@@ -2739,13 +2739,13 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa38ab0: mov             x2, x4
     // 0xa38ab4: stur            x0, [fp, #-0xc8]
     // 0xa38ab8: r1 = Function '<anonymous closure>':.
-    //     0xa38ab8: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e4f0] AnonymousClosure: (0xa38988), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_deleteFocusedShot (0xa37fe4)
+    //     0xa38ab8: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e4f0] AnonymousClosure: (0xa38988), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_deleteFocusedShot (0xa37fe4)
     //     0xa38abc: ldr             x1, [x1, #0x4f0]
     // 0xa38ac0: r0 = AllocateClosure()
     //     0xa38ac0: bl              #0xe553e0  ; AllocateClosureStub
     // 0xa38ac4: ldur            x2, [fp, #-0xc0]
     // 0xa38ac8: r1 = Function '<anonymous closure>':.
-    //     0xa38ac8: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e4f8] AnonymousClosure: (0xa39440), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_saveFocusedShot (0xa38a28)
+    //     0xa38ac8: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e4f8] AnonymousClosure: (0xa39440), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_saveFocusedShot (0xa38a28)
     //     0xa38acc: ldr             x1, [x1, #0x4f8]
     // 0xa38ad0: stur            x0, [fp, #-0xd0]
     // 0xa38ad4: r0 = AllocateClosure()
@@ -2807,12 +2807,12 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa38b6c: mov             x1, x3
     // 0xa38b70: mov             x2, x0
     // 0xa38b74: r0 = _shotCourtPixel()
-    //     0xa38b74: bl              #0xa37828  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_shotCourtPixel
+    //     0xa38b74: bl              #0xa37828  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_shotCourtPixel
     // 0xa38b78: ldur            x1, [fp, #-0xb8]
     // 0xa38b7c: ldur            x2, [fp, #-0xd8]
     // 0xa38b80: mov             x3, x0
     // 0xa38b84: r0 = _courtPixelsEqual()
-    //     0xa38b84: bl              #0xa39164  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_courtPixelsEqual
+    //     0xa38b84: bl              #0xa39164  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_courtPixelsEqual
     // 0xa38b88: eor             x1, x0, #0x10
     // 0xa38b8c: mov             x3, x1
     // 0xa38b90: b               #0xa38b98
@@ -2828,7 +2828,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa38bac: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xa38bb0: ldur            x2, [fp, #-0xc0]
     // 0xa38bb4: r1 = Function '<anonymous closure>':.
-    //     0xa38bb4: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e500] AnonymousClosure: (0xa39224), in [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_dismissSetupTutorial (0xa39244)
+    //     0xa38bb4: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e500] AnonymousClosure: (0xa39224), in [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_dismissSetupTutorial (0xa39244)
     //     0xa38bb8: ldr             x1, [x1, #0x500]
     // 0xa38bbc: r0 = AllocateClosure()
     //     0xa38bbc: bl              #0xe553e0  ; AllocateClosureStub
@@ -2957,7 +2957,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa38d20: mov             x3, x5
     // 0xa38d24: stur            x5, [fp, #-0xd8]
     // 0xa38d28: r0 = updateShotFields()
-    //     0xa38d28: bl              #0xa38f9c  ; [package:ballai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::updateShotFields
+    //     0xa38d28: bl              #0xa38f9c  ; [package:kourtai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::updateShotFields
     // 0xa38d2c: mov             x1, x0
     // 0xa38d30: stur            x1, [fp, #-0xf0]
     // 0xa38d34: r0 = Await()
@@ -3034,7 +3034,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa38e00: ldur            x2, [fp, #-0xc8]
     // 0xa38e04: stur            x0, [fp, #-0xd0]
     // 0xa38e08: r0 = updateWorkoutFields()
-    //     0xa38e08: bl              #0xa38524  ; [package:ballai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::updateWorkoutFields
+    //     0xa38e08: bl              #0xa38524  ; [package:kourtai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::updateWorkoutFields
     // 0xa38e0c: mov             x1, x0
     // 0xa38e10: stur            x1, [fp, #-0xd8]
     // 0xa38e14: r0 = Await()
@@ -3042,7 +3042,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa38e18: ldur            x0, [fp, #-0xb8]
     // 0xa38e1c: ldur            x2, [fp, #-0xc0]
     // 0xa38e20: r1 = Function '<anonymous closure>':.
-    //     0xa38e20: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e508] AnonymousClosure: (0xa39200), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_saveFocusedShot (0xa38a28)
+    //     0xa38e20: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e508] AnonymousClosure: (0xa39200), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_saveFocusedShot (0xa38a28)
     //     0xa38e24: ldr             x1, [x1, #0x508]
     // 0xa38e28: r0 = AllocateClosure()
     //     0xa38e28: bl              #0xe553e0  ; AllocateClosureStub
@@ -3063,7 +3063,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa38e54: b               #0xa38e64
     // 0xa38e58: mov             x1, x2
     // 0xa38e5c: r0 = play()
-    //     0xa38e5c: bl              #0x8ecaf8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::play
+    //     0xa38e5c: bl              #0x8ecaf8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::play
     // 0xa38e60: mov             x1, x0
     // 0xa38e64: mov             x0, x1
     // 0xa38e68: stur            x1, [fp, #-0xc8]
@@ -3095,7 +3095,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa38eb0: ldur            x1, [fp, #-0xb8]
     // 0xa38eb4: mov             x2, x0
     // 0xa38eb8: r0 = _toast()
-    //     0xa38eb8: bl              #0xa381e4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_toast
+    //     0xa38eb8: bl              #0xa381e4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_toast
     // 0xa38ebc: ldur            x0, [fp, #-0xb8]
     // 0xa38ec0: LoadField: r1 = r0->field_f
     //     0xa38ec0: ldur            w1, [x0, #0xf]
@@ -3105,7 +3105,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa38ecc: b.eq            #0xa38eec
     // 0xa38ed0: ldur            x2, [fp, #-0xc0]
     // 0xa38ed4: r1 = Function '<anonymous closure>':.
-    //     0xa38ed4: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e510] AnonymousClosure: (0xa391e0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_saveFocusedShot (0xa38a28)
+    //     0xa38ed4: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e510] AnonymousClosure: (0xa391e0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_saveFocusedShot (0xa38a28)
     //     0xa38ed8: ldr             x1, [x1, #0x510]
     // 0xa38edc: r0 = AllocateClosure()
     //     0xa38edc: bl              #0xe553e0  ; AllocateClosureStub
@@ -3131,7 +3131,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa38f18: b.eq            #0xa38f38
     // 0xa38f1c: ldur            x2, [fp, #-0xc0]
     // 0xa38f20: r1 = Function '<anonymous closure>':.
-    //     0xa38f20: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e510] AnonymousClosure: (0xa391e0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_saveFocusedShot (0xa38a28)
+    //     0xa38f20: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e510] AnonymousClosure: (0xa391e0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_saveFocusedShot (0xa38a28)
     //     0xa38f24: ldr             x1, [x1, #0x510]
     // 0xa38f28: r0 = AllocateClosure()
     //     0xa38f28: bl              #0xe553e0  ; AllocateClosureStub
@@ -3407,7 +3407,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa395a0: b.eq            #0xa395b0
     // 0xa395a4: mov             x1, x3
     // 0xa395a8: r0 = pause()
-    //     0xa395a8: bl              #0x8eca90  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::pause
+    //     0xa395a8: bl              #0x8eca90  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::pause
     // 0xa395ac: ldur            x0, [fp, #-8]
     // 0xa395b0: LoadField: r3 = r0->field_f
     //     0xa395b0: ldur            w3, [x0, #0xf]
@@ -3416,7 +3416,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa395b8: ldur            x2, [fp, #-0x10]
     // 0xa395bc: stur            x3, [fp, #-0x18]
     // 0xa395c0: r1 = Function '<anonymous closure>':.
-    //     0xa395c0: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e528] AnonymousClosure: (0xa395f0), in [package:ballai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
+    //     0xa395c0: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e528] AnonymousClosure: (0xa395f0), in [package:kourtai/automatic/views/home/tab/tabs/teams/edit_team_sheet_view.dart] _EditTeamSheetViewState::build (0xa546ec)
     //     0xa395c4: ldr             x1, [x1, #0x528]
     // 0xa395c8: r0 = AllocateClosure()
     //     0xa395c8: bl              #0xe553e0  ; AllocateClosureStub
@@ -3475,7 +3475,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa3973c: b.eq            #0xa3974c
     // 0xa39740: mov             x1, x3
     // 0xa39744: r0 = pause()
-    //     0xa39744: bl              #0x8eca90  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::pause
+    //     0xa39744: bl              #0x8eca90  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::pause
     // 0xa39748: ldur            x0, [fp, #-8]
     // 0xa3974c: LoadField: r3 = r0->field_f
     //     0xa3974c: ldur            w3, [x0, #0xf]
@@ -3484,7 +3484,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa39754: ldur            x2, [fp, #-0x10]
     // 0xa39758: stur            x3, [fp, #-0x18]
     // 0xa3975c: r1 = Function '<anonymous closure>':.
-    //     0xa3975c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e530] AnonymousClosure: (0xa3978c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::build (0xa36e34)
+    //     0xa3975c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e530] AnonymousClosure: (0xa3978c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::build (0xa36e34)
     //     0xa39760: ldr             x1, [x1, #0x530]
     // 0xa39764: r0 = AllocateClosure()
     //     0xa39764: bl              #0xe553e0  ; AllocateClosureStub
@@ -3542,7 +3542,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa397d0: cmp             SP, x16
     //     0xa397d4: b.ls            #0xa397e8
     // 0xa397d8: r0 = _addShotAtPlayhead()
-    //     0xa397d8: bl              #0xa397f0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_addShotAtPlayhead
+    //     0xa397d8: bl              #0xa397f0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_addShotAtPlayhead
     // 0xa397dc: LeaveFrame
     //     0xa397dc: mov             SP, fp
     //     0xa397e0: ldp             fp, lr, [SP], #0x10
@@ -3580,7 +3580,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa3982c: bl              #0x60afc8  ; InitAsyncStub
     // 0xa39830: ldur            x1, [fp, #-0x80]
     // 0xa39834: r0 = _canEdit()
-    //     0xa39834: bl              #0xa37e08  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_canEdit
+    //     0xa39834: bl              #0xa37e08  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_canEdit
     // 0xa39838: tbz             w0, #4, #0xa39844
     // 0xa3983c: r0 = Null
     //     0xa3983c: mov             x0, NULL
@@ -3604,7 +3604,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa3986c: ldur            x3, [fp, #-0x88]
     // 0xa39870: mov             x1, x2
     // 0xa39874: r0 = pause()
-    //     0xa39874: bl              #0x8eca90  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::pause
+    //     0xa39874: bl              #0x8eca90  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/components/workout_video_controller.dart] WorkoutVideoController::pause
     // 0xa39878: mov             x1, x0
     // 0xa3987c: stur            x1, [fp, #-0x98]
     // 0xa39880: r0 = Await()
@@ -3761,14 +3761,14 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa39a10: mov             x2, x4
     // 0xa39a14: stur            x4, [fp, #-0x90]
     // 0xa39a18: r0 = addManualShot()
-    //     0xa39a18: bl              #0xa39b10  ; [package:ballai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::addManualShot
+    //     0xa39a18: bl              #0xa39b10  ; [package:kourtai/automatic/app/dependencies/handlers/core/workout/workout_firestore_handler.dart] WorkoutFirestoreHandler::addManualShot
     // 0xa39a1c: mov             x1, x0
     // 0xa39a20: stur            x1, [fp, #-0x98]
     // 0xa39a24: r0 = Await()
     //     0xa39a24: bl              #0x60ad4c  ; AwaitStub
     // 0xa39a28: ldur            x2, [fp, #-0x88]
     // 0xa39a2c: r1 = Function '<anonymous closure>':.
-    //     0xa39a2c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e538] AnonymousClosure: (0xa39f68), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_addShotAtPlayhead (0xa397f0)
+    //     0xa39a2c: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e538] AnonymousClosure: (0xa39f68), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_addShotAtPlayhead (0xa397f0)
     //     0xa39a30: ldr             x1, [x1, #0x538]
     // 0xa39a34: r0 = AllocateClosure()
     //     0xa39a34: bl              #0xe553e0  ; AllocateClosureStub
@@ -3799,7 +3799,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa39a78: ldur            x1, [fp, #-0x80]
     // 0xa39a7c: mov             x2, x0
     // 0xa39a80: r0 = _toast()
-    //     0xa39a80: bl              #0xa381e4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_toast
+    //     0xa39a80: bl              #0xa381e4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_toast
     // 0xa39a84: r0 = Null
     //     0xa39a84: mov             x0, NULL
     // 0xa39a88: r0 = ReturnAsyncNotFuture()
@@ -3892,7 +3892,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa3a02c: b.ls            #0xa3a044
     // 0xa3a030: ldr             x2, [fp, #0x10]
     // 0xa3a034: r0 = _onPlayerReady()
-    //     0xa3a034: bl              #0xa3a04c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_onPlayerReady
+    //     0xa3a034: bl              #0xa3a04c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_onPlayerReady
     // 0xa3a038: LeaveFrame
     //     0xa3a038: mov             SP, fp
     //     0xa3a03c: ldp             fp, lr, [SP], #0x10
@@ -3940,7 +3940,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa3a0a8: b               #0xa3a0cc
     // 0xa3a0ac: mov             x2, x0
     // 0xa3a0b0: r1 = Function '_syncPlayhead@1151152154':.
-    //     0xa3a0b0: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e550] AnonymousClosure: (0xa3a2b0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_syncPlayhead (0xa3a13c)
+    //     0xa3a0b0: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e550] AnonymousClosure: (0xa3a2b0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_syncPlayhead (0xa3a13c)
     //     0xa3a0b4: ldr             x1, [x1, #0x550]
     // 0xa3a0b8: r0 = AllocateClosure()
     //     0xa3a0b8: bl              #0xe553e0  ; AllocateClosureStub
@@ -3951,7 +3951,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa3a0c8: ldur            x0, [fp, #-0x18]
     // 0xa3a0cc: mov             x2, x0
     // 0xa3a0d0: r1 = Function '<anonymous closure>':.
-    //     0xa3a0d0: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e558] AnonymousClosure: (0x8e5cc8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
+    //     0xa3a0d0: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e558] AnonymousClosure: (0x8e5cc8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
     //     0xa3a0d4: ldr             x1, [x1, #0x558]
     // 0xa3a0d8: r0 = AllocateClosure()
     //     0xa3a0d8: bl              #0xe553e0  ; AllocateClosureStub
@@ -3969,7 +3969,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xa3a0fc: b.eq            #0xa3a11c
     // 0xa3a100: ldur            x2, [fp, #-8]
     // 0xa3a104: r1 = Function '_syncPlayhead@1151152154':.
-    //     0xa3a104: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e550] AnonymousClosure: (0xa3a2b0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_syncPlayhead (0xa3a13c)
+    //     0xa3a104: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e550] AnonymousClosure: (0xa3a2b0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_syncPlayhead (0xa3a13c)
     //     0xa3a108: ldr             x1, [x1, #0x550]
     // 0xa3a10c: r0 = AllocateClosure()
     //     0xa3a10c: bl              #0xe553e0  ; AllocateClosureStub
@@ -3979,7 +3979,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa3a118: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0xa3a11c: ldur            x1, [fp, #-8]
     // 0xa3a120: r0 = _syncPlayhead()
-    //     0xa3a120: bl              #0xa3a13c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_syncPlayhead
+    //     0xa3a120: bl              #0xa3a13c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_syncPlayhead
     // 0xa3a124: r0 = Null
     //     0xa3a124: mov             x0, NULL
     // 0xa3a128: LeaveFrame
@@ -4093,7 +4093,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa3a22c: ret             
     // 0xa3a230: ldur            x2, [fp, #-0x10]
     // 0xa3a234: r1 = Function '<anonymous closure>':.
-    //     0xa3a234: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e560] AnonymousClosure: (0xa3a264), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_syncPlayhead (0xa3a13c)
+    //     0xa3a234: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e560] AnonymousClosure: (0xa3a264), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_syncPlayhead (0xa3a13c)
     //     0xa3a238: ldr             x1, [x1, #0x560]
     // 0xa3a23c: r0 = AllocateClosure()
     //     0xa3a23c: bl              #0xe553e0  ; AllocateClosureStub
@@ -4157,7 +4157,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xa3a2c8: cmp             SP, x16
     //     0xa3a2cc: b.ls            #0xa3a2e0
     // 0xa3a2d0: r0 = _syncPlayhead()
-    //     0xa3a2d0: bl              #0xa3a13c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_syncPlayhead
+    //     0xa3a2d0: bl              #0xa3a13c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_syncPlayhead
     // 0xa3a2d4: LeaveFrame
     //     0xa3a2d4: mov             SP, fp
     //     0xa3a2d8: ldp             fp, lr, [SP], #0x10
@@ -4174,7 +4174,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xb5b140: mov             fp, SP
     // 0xb5b144: ldr             x2, [fp, #0x10]
     // 0xb5b148: r1 = Function 'dispose':.
-    //     0xb5b148: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e440] AnonymousClosure: (0xb5b160), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::dispose (0xb61f70)
+    //     0xb5b148: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e440] AnonymousClosure: (0xb5b160), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::dispose (0xb61f70)
     //     0xb5b14c: ldr             x1, [x1, #0x440]
     // 0xb5b150: r0 = AllocateClosure()
     //     0xb5b150: bl              #0xe553e0  ; AllocateClosureStub
@@ -4199,7 +4199,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xb5b178: cmp             SP, x16
     //     0xb5b17c: b.ls            #0xb5b190
     // 0xb5b180: r0 = dispose()
-    //     0xb5b180: bl              #0xb61f70  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::dispose
+    //     0xb5b180: bl              #0xb61f70  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::dispose
     // 0xb5b184: LeaveFrame
     //     0xb5b184: mov             SP, fp
     //     0xb5b188: ldp             fp, lr, [SP], #0x10
@@ -4232,7 +4232,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     // 0xb61fa0: b.eq            #0xb61fc4
     // 0xb61fa4: mov             x2, x0
     // 0xb61fa8: r1 = Function '_syncPlayhead@1151152154':.
-    //     0xb61fa8: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e550] AnonymousClosure: (0xa3a2b0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_syncPlayhead (0xa3a13c)
+    //     0xb61fa8: add             x1, PP, #0x4e, lsl #12  ; [pp+0x4e550] AnonymousClosure: (0xa3a2b0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _WorkoutEditShotsViewState::_syncPlayhead (0xa3a13c)
     //     0xb61fac: ldr             x1, [x1, #0x550]
     // 0xb61fb0: r0 = AllocateClosure()
     //     0xb61fb0: bl              #0xe553e0  ; AllocateClosureStub
@@ -4251,7 +4251,7 @@ class _WorkoutEditShotsViewState extends __WorkoutEditShotsViewState&State&HomeI
     //     0xb61fd4: bl              #0xd64964  ; [dart:async] _BufferingStreamSubscription::cancel
     // 0xb61fd8: ldur            x1, [fp, #-0x10]
     // 0xb61fdc: r0 = dispose()
-    //     0xb61fdc: bl              #0xb63788  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
+    //     0xb61fdc: bl              #0xb63788  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
     // 0xb61fe0: r0 = Null
     //     0xb61fe0: mov             x0, NULL
     // 0xb61fe4: LeaveFrame
@@ -4322,8 +4322,8 @@ class _EmptyShotsCard extends StatelessWidget {
     //     0xbe4a6c: cmp             SP, x16
     //     0xbe4a70: b.ls            #0xbe4cbc
     // 0xbe4a74: mov             x1, x0
-    // 0xbe4a78: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xbe4a78: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xbe4a78: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xbe4a78: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xbe4a7c: stur            x0, [fp, #-0x10]
     // 0xbe4a80: r0 = Radius()
     //     0xbe4a80: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -4366,11 +4366,11 @@ class _EmptyShotsCard extends StatelessWidget {
     //     0xbe4adc: add             x1, PP, #0x53, lsl #12  ; [pp+0x53980] "No shots yet"
     //     0xbe4ae0: ldr             x1, [x1, #0x980]
     // 0xbe4ae4: r0 = L()
-    //     0xbe4ae4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe4ae4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe4ae8: ldur            x1, [fp, #-8]
     // 0xbe4aec: stur            x0, [fp, #-0x10]
-    // 0xbe4af0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbe4af0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbe4af0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbe4af0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbe4af4: stur            x0, [fp, #-0x20]
     // 0xbe4af8: r0 = TextStyle()
     //     0xbe4af8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -4416,11 +4416,11 @@ class _EmptyShotsCard extends StatelessWidget {
     //     0xbe4b60: add             x1, PP, #0x53, lsl #12  ; [pp+0x53988] "Go to when you shot the ball, then tap Add shot here."
     //     0xbe4b64: ldr             x1, [x1, #0x988]
     // 0xbe4b68: r0 = L()
-    //     0xbe4b68: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe4b68: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe4b6c: ldur            x1, [fp, #-8]
     // 0xbe4b70: stur            x0, [fp, #-8]
-    // 0xbe4b74: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbe4b74: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbe4b74: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbe4b74: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbe4b78: stur            x0, [fp, #-0x28]
     // 0xbe4b7c: r0 = TextStyle()
     //     0xbe4b7c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -4571,8 +4571,8 @@ class _HintCard extends StatelessWidget {
     //     0xbe480c: cmp             SP, x16
     //     0xbe4810: b.ls            #0xbe4a4c
     // 0xbe4814: mov             x1, x0
-    // 0xbe4818: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xbe4818: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xbe4818: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xbe4818: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xbe481c: stur            x0, [fp, #-0x10]
     // 0xbe4820: r0 = Radius()
     //     0xbe4820: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -4612,8 +4612,8 @@ class _HintCard extends StatelessWidget {
     // 0xbe4878: StoreField: r2->field_23 = r0
     //     0xbe4878: stur            w0, [x2, #0x23]
     // 0xbe487c: ldur            x1, [fp, #-8]
-    // 0xbe4880: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbe4880: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbe4880: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbe4880: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbe4884: stur            x0, [fp, #-0x10]
     // 0xbe4888: r0 = Icon()
     //     0xbe4888: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -4644,11 +4644,11 @@ class _HintCard extends StatelessWidget {
     //     0xbe48c8: add             x1, PP, #0x53, lsl #12  ; [pp+0x53998] "Tap a shot above, or slide the video to find one."
     //     0xbe48cc: ldr             x1, [x1, #0x998]
     // 0xbe48d0: r0 = L()
-    //     0xbe48d0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe48d0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe48d4: ldur            x1, [fp, #-8]
     // 0xbe48d8: stur            x0, [fp, #-8]
-    // 0xbe48dc: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbe48dc: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbe48dc: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbe48dc: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbe48e0: stur            x0, [fp, #-0x28]
     // 0xbe48e4: r0 = TextStyle()
     //     0xbe48e4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -4864,8 +4864,8 @@ class _ShotEditorCard extends StatelessWidget {
     //     0xbe339c: add             x0, x0, HEAP, lsl #32
     // 0xbe33a0: ldur            x1, [fp, #-0x10]
     // 0xbe33a4: stur            x0, [fp, #-0x30]
-    // 0xbe33a8: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xbe33a8: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xbe33a8: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xbe33a8: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xbe33ac: stur            x0, [fp, #-0x38]
     // 0xbe33b0: r0 = Radius()
     //     0xbe33b0: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -4963,11 +4963,11 @@ class _ShotEditorCard extends StatelessWidget {
     //     0xbe34a0: add             x1, PP, #0x53, lsl #12  ; [pp+0x539c0] "Edit Shot %lld"
     //     0xbe34a4: ldr             x1, [x1, #0x9c0]
     // 0xbe34a8: r0 = LF()
-    //     0xbe34a8: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xbe34a8: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xbe34ac: ldur            x1, [fp, #-0x10]
     // 0xbe34b0: stur            x0, [fp, #-0x38]
-    // 0xbe34b4: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbe34b4: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbe34b4: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbe34b4: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbe34b8: stur            x0, [fp, #-0x40]
     // 0xbe34bc: r0 = TextStyle()
     //     0xbe34bc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -5020,8 +5020,8 @@ class _ShotEditorCard extends StatelessWidget {
     // 0xbe3538: StoreField: r2->field_b = r0
     //     0xbe3538: stur            w0, [x2, #0xb]
     // 0xbe353c: ldur            x1, [fp, #-0x10]
-    // 0xbe3540: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbe3540: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbe3540: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbe3540: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbe3544: stur            x0, [fp, #-0x40]
     // 0xbe3548: r0 = Icon()
     //     0xbe3548: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -5047,8 +5047,8 @@ class _ShotEditorCard extends StatelessWidget {
     //     0xbe357c: add             x4, x4, HEAP, lsl #32
     // 0xbe3580: ldur            x1, [fp, #-0x10]
     // 0xbe3584: stur            x4, [fp, #-0x40]
-    // 0xbe3588: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbe3588: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbe3588: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbe3588: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbe358c: stur            x0, [fp, #-0x58]
     // 0xbe3590: r0 = TextStyle()
     //     0xbe3590: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -5277,8 +5277,8 @@ class _ShotEditorCard extends StatelessWidget {
     // 0xbe37e8: stur            x3, [fp, #-0x18]
     // 0xbe37ec: tbnz            w3, #4, #0xbe38fc
     // 0xbe37f0: ldur            x1, [fp, #-0x10]
-    // 0xbe37f4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbe37f4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbe37f4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbe37f4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbe37f8: stur            x0, [fp, #-0x40]
     // 0xbe37fc: r0 = Icon()
     //     0xbe37fc: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -5535,7 +5535,7 @@ class _ShotEditorCard extends StatelessWidget {
     //     0xbe3a94: add             x1, PP, #0x53, lsl #12  ; [pp+0x539d0] "You added this"
     //     0xbe3a98: ldr             x1, [x1, #0x9d0]
     // 0xbe3a9c: r0 = L()
-    //     0xbe3a9c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe3a9c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe3aa0: stur            x0, [fp, #-0x68]
     // 0xbe3aa4: r0 = TextStyle()
     //     0xbe3aa4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -5720,8 +5720,8 @@ class _ShotEditorCard extends StatelessWidget {
     // 0xbe3c74: StoreField: r4->field_f = r16
     //     0xbe3c74: stur            w16, [x4, #0xf]
     // 0xbe3c78: ldur            x1, [fp, #-0x10]
-    // 0xbe3c7c: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xbe3c7c: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xbe3c7c: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xbe3c7c: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xbe3c80: stur            x0, [fp, #-0x30]
     // 0xbe3c84: r0 = Radius()
     //     0xbe3c84: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -5764,7 +5764,7 @@ class _ShotEditorCard extends StatelessWidget {
     //     0xbe3ce0: add             x1, PP, #0x29, lsl #12  ; [pp+0x29420] "Make"
     //     0xbe3ce4: ldr             x1, [x1, #0x420]
     // 0xbe3ce8: r0 = L()
-    //     0xbe3ce8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe3ce8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe3cec: mov             x3, x0
     // 0xbe3cf0: ldur            x0, [fp, #-0x20]
     // 0xbe3cf4: stur            x3, [fp, #-0x58]
@@ -5790,7 +5790,7 @@ class _ShotEditorCard extends StatelessWidget {
     // 0xbe3d34: tbz             w1, #4, #0xbe3d50
     // 0xbe3d38: ldur            x2, [fp, #-0x28]
     // 0xbe3d3c: r1 = Function '<anonymous closure>':.
-    //     0xbe3d3c: add             x1, PP, #0x53, lsl #12  ; [pp+0x539d8] AnonymousClosure: (0xbe4790), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _ShotEditorCard::build (0xbe3300)
+    //     0xbe3d3c: add             x1, PP, #0x53, lsl #12  ; [pp+0x539d8] AnonymousClosure: (0xbe4790), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _ShotEditorCard::build (0xbe3300)
     //     0xbe3d40: ldr             x1, [x1, #0x9d8]
     // 0xbe3d44: r0 = AllocateClosure()
     //     0xbe3d44: bl              #0xe553e0  ; AllocateClosureStub
@@ -5807,13 +5807,13 @@ class _ShotEditorCard extends StatelessWidget {
     //     0xbe3d68: add             x3, PP, #0x43, lsl #12  ; [pp+0x432a8] Obj!Color@d2a311
     //     0xbe3d6c: ldr             x3, [x3, #0x2a8]
     // 0xbe3d70: r0 = _segment()
-    //     0xbe3d70: bl              #0xbe44a4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _ShotEditorCard::_segment
+    //     0xbe3d70: bl              #0xbe44a4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _ShotEditorCard::_segment
     // 0xbe3d74: r1 = "Miss"
     //     0xbe3d74: add             x1, PP, #0x31, lsl #12  ; [pp+0x31ed8] "Miss"
     //     0xbe3d78: ldr             x1, [x1, #0xed8]
     // 0xbe3d7c: stur            x0, [fp, #-0x30]
     // 0xbe3d80: r0 = L()
-    //     0xbe3d80: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe3d80: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe3d84: mov             x3, x0
     // 0xbe3d88: ldur            x0, [fp, #-0x20]
     // 0xbe3d8c: stur            x3, [fp, #-0x60]
@@ -5844,7 +5844,7 @@ class _ShotEditorCard extends StatelessWidget {
     // 0xbe3dd8: tbz             w1, #4, #0xbe3df4
     // 0xbe3ddc: ldur            x2, [fp, #-0x28]
     // 0xbe3de0: r1 = Function '<anonymous closure>':.
-    //     0xbe3de0: add             x1, PP, #0x53, lsl #12  ; [pp+0x539e0] AnonymousClosure: (0xbe472c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _ShotEditorCard::build (0xbe3300)
+    //     0xbe3de0: add             x1, PP, #0x53, lsl #12  ; [pp+0x539e0] AnonymousClosure: (0xbe472c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _ShotEditorCard::build (0xbe3300)
     //     0xbe3de4: ldr             x1, [x1, #0x9e0]
     // 0xbe3de8: r0 = AllocateClosure()
     //     0xbe3de8: bl              #0xe553e0  ; AllocateClosureStub
@@ -5862,7 +5862,7 @@ class _ShotEditorCard extends StatelessWidget {
     //     0xbe3e10: add             x3, PP, #0x15, lsl #12  ; [pp+0x151c8] Obj!Color@d2a221
     //     0xbe3e14: ldr             x3, [x3, #0x1c8]
     // 0xbe3e18: r0 = _segment()
-    //     0xbe3e18: bl              #0xbe44a4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _ShotEditorCard::_segment
+    //     0xbe3e18: bl              #0xbe44a4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _ShotEditorCard::_segment
     // 0xbe3e1c: r1 = Null
     //     0xbe3e1c: mov             x1, NULL
     // 0xbe3e20: r2 = 4
@@ -6099,7 +6099,7 @@ class _ShotEditorCard extends StatelessWidget {
     // 0xbe409c: tbnz            w0, #4, #0xbe42ec
     // 0xbe40a0: ldur            x1, [fp, #-8]
     // 0xbe40a4: r0 = _isDirty()
-    //     0xbe40a4: bl              #0xbe43a4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _ShotEditorCard::_isDirty
+    //     0xbe40a4: bl              #0xbe43a4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/destinations/workoutoptions/options/workout_edit_shots_view.dart] _ShotEditorCard::_isDirty
     // 0xbe40a8: tbnz            w0, #4, #0xbe42ec
     // 0xbe40ac: ldur            x0, [fp, #-8]
     // 0xbe40b0: ldur            x1, [fp, #-0x10]
@@ -6215,7 +6215,7 @@ class _ShotEditorCard extends StatelessWidget {
     //     0xbe41c8: add             x1, PP, #0x53, lsl #12  ; [pp+0x539f8] "Save changes"
     //     0xbe41cc: ldr             x1, [x1, #0x9f8]
     // 0xbe41d0: r0 = L()
-    //     0xbe41d0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe41d0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe41d4: stur            x0, [fp, #-0x18]
     // 0xbe41d8: r0 = TextStyle()
     //     0xbe41d8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -6509,8 +6509,8 @@ class _ShotEditorCard extends StatelessWidget {
     //     0xbe44d0: b.ls            #0xbe4724
     // 0xbe44d4: tbnz            w7, #4, #0xbe44e8
     // 0xbe44d8: mov             x1, x0
-    // 0xbe44dc: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xbe44dc: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xbe44dc: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xbe44dc: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xbe44e0: mov             x1, x0
     // 0xbe44e4: b               #0xbe44f0
     // 0xbe44e8: r1 = Instance_Color
@@ -6630,8 +6630,8 @@ class _ShotEditorCard extends StatelessWidget {
     // 0xbe4614: ldur            x1, [fp, #-0x10]
     // 0xbe4618: b               #0xbe4628
     // 0xbe461c: ldur            x1, [fp, #-8]
-    // 0xbe4620: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbe4620: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbe4620: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbe4620: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbe4624: mov             x1, x0
     // 0xbe4628: ldur            x0, [fp, #-0x18]
     // 0xbe462c: stur            x1, [fp, #-8]
@@ -6908,7 +6908,7 @@ class _AddShotPill extends StatelessWidget {
     //     0xbe2f34: add             x1, PP, #0x53, lsl #12  ; [pp+0x539a0] "Add shot here"
     //     0xbe2f38: ldr             x1, [x1, #0x9a0]
     // 0xbe2f3c: r0 = L()
-    //     0xbe2f3c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbe2f3c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbe2f40: stur            x0, [fp, #-0x38]
     // 0xbe2f44: r0 = TextStyle()
     //     0xbe2f44: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -6976,7 +6976,7 @@ class _AddShotPill extends StatelessWidget {
     //     0xbe2fe0: add             x1, PP, #0x53, lsl #12  ; [pp+0x539a8] "at %@"
     //     0xbe2fe4: ldr             x1, [x1, #0x9a8]
     // 0xbe2fe8: r0 = LF()
-    //     0xbe2fe8: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xbe2fe8: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xbe2fec: stur            x0, [fp, #-8]
     // 0xbe2ff0: r16 = 0.850000
     //     0xbe2ff0: add             x16, PP, #0x1f, lsl #12  ; [pp+0x1f4c8] 0.85

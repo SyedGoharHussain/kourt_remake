@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/onboarding/permissions/basketball_planet_background.dart
+// lib: , url: package:kourtai/automatic/views/onboarding/permissions/basketball_planet_background.dart
 
 // class id: 1049055, size: 0x8
 class :: {
@@ -45,7 +45,7 @@ abstract class __BasketballPlanetBackgroundState&State&SingleTickerProviderState
     //     0x7b9454: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x7b9458: mov             x1, x2
     // 0x7b945c: r0 = _updateTickerModeNotifier()
-    //     0x7b945c: bl              #0x7b94b4  ; [package:ballai/automatic/views/onboarding/permissions/basketball_planet_background.dart] __BasketballPlanetBackgroundState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x7b945c: bl              #0x7b94b4  ; [package:kourtai/automatic/views/onboarding/permissions/basketball_planet_background.dart] __BasketballPlanetBackgroundState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x7b9460: ldur            x1, [fp, #-8]
     // 0x7b9464: r0 = _updateTicker()
     //     0x7b9464: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -210,7 +210,7 @@ abstract class __BasketballPlanetBackgroundState&State&SingleTickerProviderState
     //     0x8e44a8: b.ls            #0x8e44cc
     // 0x8e44ac: mov             x1, x0
     // 0x8e44b0: r0 = _updateTickerModeNotifier()
-    //     0x8e44b0: bl              #0x7b94b4  ; [package:ballai/automatic/views/onboarding/permissions/basketball_planet_background.dart] __BasketballPlanetBackgroundState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
+    //     0x8e44b0: bl              #0x7b94b4  ; [package:kourtai/automatic/views/onboarding/permissions/basketball_planet_background.dart] __BasketballPlanetBackgroundState&State&SingleTickerProviderStateMixin::_updateTickerModeNotifier
     // 0x8e44b4: ldur            x1, [fp, #-8]
     // 0x8e44b8: r0 = _updateTicker()
     //     0x8e44b8: bl              #0x7b6eb4  ; [package:flutter/src/material/calendar_date_picker.dart] __DatePickerModeToggleButtonState&State&SingleTickerProviderStateMixin::_updateTicker
@@ -295,7 +295,7 @@ abstract class __BasketballPlanetBackgroundState&State&SingleTickerProviderState
     //     0xb63b18: cmp             SP, x16
     //     0xb63b1c: b.ls            #0xb63b30
     // 0xb63b20: r0 = dispose()
-    //     0xb63b20: bl              #0xb63a6c  ; [package:ballai/automatic/views/onboarding/permissions/basketball_planet_background.dart] __BasketballPlanetBackgroundState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb63b20: bl              #0xb63a6c  ; [package:kourtai/automatic/views/onboarding/permissions/basketball_planet_background.dart] __BasketballPlanetBackgroundState&State&SingleTickerProviderStateMixin::dispose
     // 0xb63b24: LeaveFrame
     //     0xb63b24: mov             SP, fp
     //     0xb63b28: ldp             fp, lr, [SP], #0x10
@@ -461,7 +461,7 @@ class _BasketballPlanetBackgroundState extends __BasketballPlanetBackgroundState
     //     0x9c5ecc: cmp             SP, x16
     //     0x9c5ed0: b.ls            #0x9c5ee8
     // 0x9c5ed4: r0 = _syncTicker()
-    //     0x9c5ed4: bl              #0x9c5ef0  ; [package:ballai/automatic/views/onboarding/permissions/basketball_planet_background.dart] _BasketballPlanetBackgroundState::_syncTicker
+    //     0x9c5ed4: bl              #0x9c5ef0  ; [package:kourtai/automatic/views/onboarding/permissions/basketball_planet_background.dart] _BasketballPlanetBackgroundState::_syncTicker
     // 0x9c5ed8: r0 = Null
     //     0x9c5ed8: mov             x0, NULL
     // 0x9c5edc: LeaveFrame
@@ -520,14 +520,14 @@ class _BasketballPlanetBackgroundState extends __BasketballPlanetBackgroundState
     // 0x9c5f60: b.ne            #0x9c5fa8
     // 0x9c5f64: ldur            x2, [fp, #-0x10]
     // 0x9c5f68: r1 = Function '<anonymous closure>':.
-    //     0x9c5f68: add             x1, PP, #0x26, lsl #12  ; [pp+0x26698] AnonymousClosure: (0x9c6000), in [package:ballai/automatic/views/onboarding/permissions/basketball_planet_background.dart] _BasketballPlanetBackgroundState::_syncTicker (0x9c5ef0)
+    //     0x9c5f68: add             x1, PP, #0x26, lsl #12  ; [pp+0x26698] AnonymousClosure: (0x9c6000), in [package:kourtai/automatic/views/onboarding/permissions/basketball_planet_background.dart] _BasketballPlanetBackgroundState::_syncTicker (0x9c5ef0)
     //     0x9c5f6c: ldr             x1, [x1, #0x698]
     // 0x9c5f70: r0 = AllocateClosure()
     //     0x9c5f70: bl              #0xe553e0  ; AllocateClosureStub
     // 0x9c5f74: ldur            x1, [fp, #-8]
     // 0x9c5f78: mov             x2, x0
     // 0x9c5f7c: r0 = createTicker()
-    //     0x9c5f7c: bl              #0x7b93fc  ; [package:ballai/automatic/views/onboarding/permissions/basketball_planet_background.dart] __BasketballPlanetBackgroundState&State&SingleTickerProviderStateMixin::createTicker
+    //     0x9c5f7c: bl              #0x7b93fc  ; [package:kourtai/automatic/views/onboarding/permissions/basketball_planet_background.dart] __BasketballPlanetBackgroundState&State&SingleTickerProviderStateMixin::createTicker
     // 0x9c5f80: mov             x2, x0
     // 0x9c5f84: ldur            x1, [fp, #-8]
     // 0x9c5f88: StoreField: r1->field_1f = r0
@@ -691,7 +691,7 @@ class _BasketballPlanetBackgroundState extends __BasketballPlanetBackgroundState
     // 0xaaea7c: ArrayStore: r2[0] = r0  ; List_4
     //     0xaaea7c: stur            w0, [x2, #0x17]
     // 0xaaea80: r1 = Function '<anonymous closure>':.
-    //     0xaaea80: add             x1, PP, #0x26, lsl #12  ; [pp+0x26638] AnonymousClosure: (0xaaeabc), in [package:ballai/automatic/views/onboarding/permissions/basketball_planet_background.dart] _BasketballPlanetBackgroundState::build (0xaae9d4)
+    //     0xaaea80: add             x1, PP, #0x26, lsl #12  ; [pp+0x26638] AnonymousClosure: (0xaaeabc), in [package:kourtai/automatic/views/onboarding/permissions/basketball_planet_background.dart] _BasketballPlanetBackgroundState::build (0xaae9d4)
     //     0xaaea84: ldr             x1, [x1, #0x638]
     // 0xaaea88: r0 = AllocateClosure()
     //     0xaaea88: bl              #0xe553e0  ; AllocateClosureStub
@@ -871,7 +871,7 @@ class _BasketballPlanetBackgroundState extends __BasketballPlanetBackgroundState
     //     0xaaec40: add             x3, x3, HEAP, lsl #32
     // 0xaaec44: tbnz            w3, #4, #0xaaec50
     // 0xaaec48: r0 = _rotationDegrees()
-    //     0xaaec48: bl              #0xaaedcc  ; [package:ballai/automatic/views/onboarding/permissions/basketball_planet_background.dart] _BasketballPlanetBackgroundState::_rotationDegrees
+    //     0xaaec48: bl              #0xaaedcc  ; [package:kourtai/automatic/views/onboarding/permissions/basketball_planet_background.dart] _BasketballPlanetBackgroundState::_rotationDegrees
     // 0xaaec4c: b               #0xaaec54
     // 0xaaec50: d0 = 0.000000
     //     0xaaec50: eor             v0.16b, v0.16b, v0.16b
@@ -1104,7 +1104,7 @@ class _BasketballPlanetBackgroundState extends __BasketballPlanetBackgroundState
     //     0xb5c5c4: mov             fp, SP
     // 0xb5c5c8: ldr             x2, [fp, #0x10]
     // 0xb5c5cc: r1 = Function 'dispose':.
-    //     0xb5c5cc: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b808] AnonymousClosure: (0xb5c5e4), in [package:ballai/automatic/views/onboarding/permissions/basketball_planet_background.dart] _BasketballPlanetBackgroundState::dispose (0xb63a18)
+    //     0xb5c5cc: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b808] AnonymousClosure: (0xb5c5e4), in [package:kourtai/automatic/views/onboarding/permissions/basketball_planet_background.dart] _BasketballPlanetBackgroundState::dispose (0xb63a18)
     //     0xb5c5d0: ldr             x1, [x1, #0x808]
     // 0xb5c5d4: r0 = AllocateClosure()
     //     0xb5c5d4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1129,7 +1129,7 @@ class _BasketballPlanetBackgroundState extends __BasketballPlanetBackgroundState
     //     0xb5c5fc: cmp             SP, x16
     //     0xb5c600: b.ls            #0xb5c614
     // 0xb5c604: r0 = dispose()
-    //     0xb5c604: bl              #0xb63a18  ; [package:ballai/automatic/views/onboarding/permissions/basketball_planet_background.dart] _BasketballPlanetBackgroundState::dispose
+    //     0xb5c604: bl              #0xb63a18  ; [package:kourtai/automatic/views/onboarding/permissions/basketball_planet_background.dart] _BasketballPlanetBackgroundState::dispose
     // 0xb5c608: LeaveFrame
     //     0xb5c608: mov             SP, fp
     //     0xb5c60c: ldp             fp, lr, [SP], #0x10
@@ -1163,7 +1163,7 @@ class _BasketballPlanetBackgroundState extends __BasketballPlanetBackgroundState
     //     0xb63a48: bl              #0xddce88  ; [package:flutter/src/scheduler/ticker.dart] Ticker::dispose
     // 0xb63a4c: ldur            x1, [fp, #-8]
     // 0xb63a50: r0 = dispose()
-    //     0xb63a50: bl              #0xb63a6c  ; [package:ballai/automatic/views/onboarding/permissions/basketball_planet_background.dart] __BasketballPlanetBackgroundState&State&SingleTickerProviderStateMixin::dispose
+    //     0xb63a50: bl              #0xb63a6c  ; [package:kourtai/automatic/views/onboarding/permissions/basketball_planet_background.dart] __BasketballPlanetBackgroundState&State&SingleTickerProviderStateMixin::dispose
     // 0xb63a54: r0 = Null
     //     0xb63a54: mov             x0, NULL
     // 0xb63a58: LeaveFrame

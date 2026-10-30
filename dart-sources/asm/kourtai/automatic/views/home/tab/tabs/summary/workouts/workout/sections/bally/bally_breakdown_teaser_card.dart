@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart
 
 // class id: 1048898, size: 0x8
 class :: {
@@ -23,7 +23,7 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3df1c: b.ls            #0xa3e1a0
     // 0xa3df20: mov             x1, x0
     // 0xa3df24: r0 = _trimmedSummary()
-    //     0xa3df24: bl              #0xa401f8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_trimmedSummary
+    //     0xa3df24: bl              #0xa401f8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_trimmedSummary
     // 0xa3df28: r1 = <Widget>
     //     0xa3df28: ldr             x1, [PP, #0x4f10]  ; [pp+0x4f10] TypeArguments: <Widget>
     // 0xa3df2c: r2 = 0
@@ -45,7 +45,7 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3df54: add             x3, x3, HEAP, lsl #32
     // 0xa3df58: tbnz            w3, #4, #0xa3dfe8
     // 0xa3df5c: r0 = _analyzingCard()
-    //     0xa3df5c: bl              #0xa3fdfc  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_analyzingCard
+    //     0xa3df5c: bl              #0xa3fdfc  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_analyzingCard
     // 0xa3df60: mov             x2, x0
     // 0xa3df64: ldur            x0, [fp, #-0x18]
     // 0xa3df68: stur            x2, [fp, #-0x28]
@@ -97,7 +97,7 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     // 0xa3dff4: b.eq            #0xa3e088
     // 0xa3dff8: mov             x2, x0
     // 0xa3dffc: r0 = _summaryCard()
-    //     0xa3dffc: bl              #0xa3f024  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_summaryCard
+    //     0xa3dffc: bl              #0xa3f024  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_summaryCard
     // 0xa3e000: mov             x2, x0
     // 0xa3e004: ldur            x0, [fp, #-0x18]
     // 0xa3e008: stur            x2, [fp, #-0x10]
@@ -149,7 +149,7 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3e08c: add             x0, x0, HEAP, lsl #32
     // 0xa3e090: tbnz            w0, #4, #0xa3e11c
     // 0xa3e094: r0 = _generateCard()
-    //     0xa3e094: bl              #0xa3e1ac  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_generateCard
+    //     0xa3e094: bl              #0xa3e1ac  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_generateCard
     // 0xa3e098: mov             x2, x0
     // 0xa3e09c: ldur            x0, [fp, #-0x18]
     // 0xa3e0a0: stur            x2, [fp, #-8]
@@ -304,7 +304,7 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     // 0xa3e21c: r4 = const [0, 0x1, 0, 0x1, null]
     //     0xa3e21c: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0xa3e220: r0 = _titleRow()
-    //     0xa3e220: bl              #0xa3e628  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_titleRow
+    //     0xa3e220: bl              #0xa3e628  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_titleRow
     // 0xa3e224: mov             x2, x0
     // 0xa3e228: ldur            x0, [fp, #-0x10]
     // 0xa3e22c: stur            x2, [fp, #-0x18]
@@ -314,8 +314,8 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3e234: add             x1, x1, HEAP, lsl #32
     // 0xa3e238: cmp             w1, NULL
     // 0xa3e23c: b.eq            #0xa3e620
-    // 0xa3e240: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa3e240: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa3e240: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa3e240: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa3e244: stur            x0, [fp, #-0x28]
     // 0xa3e248: r0 = TextStyle()
     //     0xa3e248: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -371,8 +371,8 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3e2c8: add             x1, x1, HEAP, lsl #32
     // 0xa3e2cc: cmp             w1, NULL
     // 0xa3e2d0: b.eq            #0xa3e624
-    // 0xa3e2d4: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa3e2d4: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa3e2d4: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa3e2d4: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa3e2d8: stur            x0, [fp, #-0x10]
     // 0xa3e2dc: r0 = Radius()
     //     0xa3e2dc: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -653,8 +653,8 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     // 0xa3e58c: ldur            x0, [fp, #-0x18]
     // 0xa3e590: StoreField: r1->field_b = r0
     //     0xa3e590: stur            w0, [x1, #0xb]
-    // 0xa3e594: r0 = BallAiLiquidGlassCard()
-    //     0xa3e594: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xa3e594: r0 = KourtAiLiquidGlassCard()
+    //     0xa3e594: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xa3e598: mov             x1, x0
     // 0xa3e59c: ldur            x0, [fp, #-0x10]
     // 0xa3e5a0: stur            x1, [fp, #-0x18]
@@ -816,7 +816,7 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3e728: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d568] "Bally\'s breakdown"
     //     0xa3e72c: ldr             x1, [x1, #0x568]
     // 0xa3e730: r0 = L()
-    //     0xa3e730: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3e730: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa3e734: mov             x2, x0
     // 0xa3e738: ldur            x0, [fp, #-0x20]
     // 0xa3e73c: stur            x2, [fp, #-0x28]
@@ -826,8 +826,8 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3e744: add             x1, x1, HEAP, lsl #32
     // 0xa3e748: cmp             w1, NULL
     // 0xa3e74c: b.eq            #0xa3ed70
-    // 0xa3e750: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa3e750: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa3e750: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa3e750: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa3e754: stur            x0, [fp, #-0x38]
     // 0xa3e758: r0 = TextStyle()
     //     0xa3e758: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -992,8 +992,8 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3e8f8: add             x1, x1, HEAP, lsl #32
     // 0xa3e8fc: cmp             w1, NULL
     // 0xa3e900: b.eq            #0xa3ed78
-    // 0xa3e904: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa3e904: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa3e904: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa3e904: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa3e908: mov             x1, x0
     // 0xa3e90c: ldur            x0, [fp, #-0x20]
     // 0xa3e910: r16 = 0.140000
@@ -1184,8 +1184,8 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3eb1c: add             x1, x1, HEAP, lsl #32
     // 0xa3eb20: cmp             w1, NULL
     // 0xa3eb24: b.eq            #0xa3ed88
-    // 0xa3eb28: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa3eb28: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa3eb28: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa3eb28: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa3eb2c: mov             x2, x0
     // 0xa3eb30: ldur            x1, [fp, #-0x20]
     // 0xa3eb34: ldur            x0, [fp, #-8]
@@ -1245,8 +1245,8 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     // 0xa3ebc8: cmp             w0, NULL
     // 0xa3ebcc: b.eq            #0xa3ed8c
     // 0xa3ebd0: mov             x1, x0
-    // 0xa3ebd4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa3ebd4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa3ebd4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa3ebd4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa3ebd8: stur            x0, [fp, #-0x10]
     // 0xa3ebdc: r0 = Icon()
     //     0xa3ebdc: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -1307,7 +1307,7 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     // 0xa3ec70: tbnz            w0, #4, #0xa3ed00
     // 0xa3ec74: ldur            x0, [fp, #-0x28]
     // 0xa3ec78: r0 = _viewFullReportCapsule()
-    //     0xa3ec78: bl              #0xa3ed90  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_viewFullReportCapsule
+    //     0xa3ec78: bl              #0xa3ed90  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_viewFullReportCapsule
     // 0xa3ec7c: mov             x2, x0
     // 0xa3ec80: ldur            x0, [fp, #-0x28]
     // 0xa3ec84: stur            x2, [fp, #-8]
@@ -1436,8 +1436,8 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3edb4: add             x1, x1, HEAP, lsl #32
     // 0xa3edb8: cmp             w1, NULL
     // 0xa3edbc: b.eq            #0xa3f018
-    // 0xa3edc0: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa3edc0: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa3edc0: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa3edc0: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa3edc4: r1 = LoadClassIdInstr(r0)
     //     0xa3edc4: ldur            x1, [x0, #-1]
     //     0xa3edc8: ubfx            x1, x1, #0xc, #0x14
@@ -1498,7 +1498,7 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3ee5c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44bd8] "View full report"
     //     0xa3ee60: ldr             x1, [x1, #0xbd8]
     // 0xa3ee64: r0 = L()
-    //     0xa3ee64: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3ee64: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa3ee68: mov             x2, x0
     // 0xa3ee6c: ldur            x0, [fp, #-8]
     // 0xa3ee70: stur            x2, [fp, #-0x10]
@@ -1508,8 +1508,8 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3ee78: add             x1, x1, HEAP, lsl #32
     // 0xa3ee7c: cmp             w1, NULL
     // 0xa3ee80: b.eq            #0xa3f01c
-    // 0xa3ee84: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa3ee84: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa3ee84: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa3ee84: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa3ee88: stur            x0, [fp, #-0x20]
     // 0xa3ee8c: r0 = TextStyle()
     //     0xa3ee8c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1549,8 +1549,8 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3eee4: add             x1, x1, HEAP, lsl #32
     // 0xa3eee8: cmp             w1, NULL
     // 0xa3eeec: b.eq            #0xa3f020
-    // 0xa3eef0: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa3eef0: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa3eef0: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa3eef0: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa3eef4: stur            x0, [fp, #-8]
     // 0xa3eef8: r0 = Icon()
     //     0xa3eef8: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -1711,7 +1711,7 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     // 0xa3f080: mov             x1, x0
     // 0xa3f084: ldur            x2, [fp, #-0x10]
     // 0xa3f088: r0 = _previewAndRest()
-    //     0xa3f088: bl              #0xa3f930  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_previewAndRest
+    //     0xa3f088: bl              #0xa3f930  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_previewAndRest
     // 0xa3f08c: mov             x2, x0
     // 0xa3f090: stur            x2, [fp, #-0x38]
     // 0xa3f094: mov             x3, x1
@@ -1763,7 +1763,7 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3f114: add             x4, PP, #0x44, lsl #12  ; [pp+0x44be0] List(7) [0, 0x2, 0x1, 0x1, "showViewFullReport", 0x1, Null]
     //     0xa3f118: ldr             x4, [x4, #0xbe0]
     // 0xa3f11c: r0 = _titleRow()
-    //     0xa3f11c: bl              #0xa3e628  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_titleRow
+    //     0xa3f11c: bl              #0xa3e628  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_titleRow
     // 0xa3f120: r1 = Null
     //     0xa3f120: mov             x1, NULL
     // 0xa3f124: r2 = 4
@@ -1816,8 +1816,8 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3f1a0: add             x1, x1, HEAP, lsl #32
     // 0xa3f1a4: cmp             w1, NULL
     // 0xa3f1a8: b.eq            #0xa3f904
-    // 0xa3f1ac: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa3f1ac: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa3f1ac: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa3f1ac: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa3f1b0: stur            x0, [fp, #-0x48]
     // 0xa3f1b4: r0 = TextStyle()
     //     0xa3f1b4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1916,8 +1916,8 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3f2b4: add             x1, x1, HEAP, lsl #32
     // 0xa3f2b8: cmp             w1, NULL
     // 0xa3f2bc: b.eq            #0xa3f908
-    // 0xa3f2c0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa3f2c0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa3f2c0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa3f2c0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa3f2c4: stur            x0, [fp, #-0x38]
     // 0xa3f2c8: r0 = TextStyle()
     //     0xa3f2c8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1991,8 +1991,8 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3f374: add             x1, x1, HEAP, lsl #32
     // 0xa3f378: cmp             w1, NULL
     // 0xa3f37c: b.eq            #0xa3f910
-    // 0xa3f380: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa3f380: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa3f380: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa3f380: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa3f384: r1 = LoadClassIdInstr(r0)
     //     0xa3f384: ldur            x1, [x0, #-1]
     //     0xa3f388: ubfx            x1, x1, #0xc, #0x14
@@ -2041,8 +2041,8 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3f3fc: add             x1, x1, HEAP, lsl #32
     // 0xa3f400: cmp             w1, NULL
     // 0xa3f404: b.eq            #0xa3f914
-    // 0xa3f408: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa3f408: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa3f408: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa3f408: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa3f40c: r16 = 0.080000
     //     0xa3f40c: add             x16, PP, #0x24, lsl #12  ; [pp+0x24f28] 0.08
     //     0xa3f410: ldr             x16, [x16, #0xf28]
@@ -2086,8 +2086,8 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3f474: add             x1, x1, HEAP, lsl #32
     // 0xa3f478: cmp             w1, NULL
     // 0xa3f47c: b.eq            #0xa3f918
-    // 0xa3f480: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa3f480: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa3f480: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa3f480: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa3f484: stur            x0, [fp, #-0x38]
     // 0xa3f488: r0 = Icon()
     //     0xa3f488: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -2110,7 +2110,7 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3f4b4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44be8] "Unlock Pro for full breakdown"
     //     0xa3f4b8: ldr             x1, [x1, #0xbe8]
     // 0xa3f4bc: r0 = L()
-    //     0xa3f4bc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3f4bc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa3f4c0: ldur            x1, [fp, #-8]
     // 0xa3f4c4: stur            x0, [fp, #-0x38]
     // 0xa3f4c8: LoadField: r2 = r1->field_f
@@ -2120,8 +2120,8 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     // 0xa3f4d0: cmp             w2, NULL
     // 0xa3f4d4: b.eq            #0xa3f91c
     // 0xa3f4d8: mov             x1, x2
-    // 0xa3f4dc: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa3f4dc: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa3f4dc: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa3f4dc: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa3f4e0: stur            x0, [fp, #-0x50]
     // 0xa3f4e4: r0 = TextStyle()
     //     0xa3f4e4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2318,8 +2318,8 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     // 0xa3f6d8: cmp             w7, NULL
     // 0xa3f6dc: b.eq            #0xa3f920
     // 0xa3f6e0: mov             x1, x7
-    // 0xa3f6e4: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa3f6e4: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa3f6e4: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa3f6e4: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa3f6e8: stur            x0, [fp, #-8]
     // 0xa3f6ec: r0 = TextStyle()
     //     0xa3f6ec: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2462,8 +2462,8 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3f850: stur            w0, [x1, #0xf]
     // 0xa3f854: StoreField: r1->field_13 = r0
     //     0xa3f854: stur            w0, [x1, #0x13]
-    // 0xa3f858: r0 = BallAiLiquidGlassCard()
-    //     0xa3f858: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xa3f858: r0 = KourtAiLiquidGlassCard()
+    //     0xa3f858: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xa3f85c: mov             x1, x0
     // 0xa3f860: ldur            x0, [fp, #-8]
     // 0xa3f864: stur            x1, [fp, #-0x10]
@@ -2491,7 +2491,7 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3f898: stur            w0, [x3, #0xb]
     // 0xa3f89c: ldur            x2, [fp, #-0x20]
     // 0xa3f8a0: r1 = Function '<anonymous closure>':.
-    //     0xa3f8a0: add             x1, PP, #0x44, lsl #12  ; [pp+0x44bf0] AnonymousClosure: (0xa3fb3c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_summaryCard (0xa3f024)
+    //     0xa3f8a0: add             x1, PP, #0x44, lsl #12  ; [pp+0x44bf0] AnonymousClosure: (0xa3fb3c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_summaryCard (0xa3f024)
     //     0xa3f8a4: ldr             x1, [x1, #0xbf0]
     // 0xa3f8a8: r0 = AllocateClosure()
     //     0xa3f8a8: bl              #0xe553e0  ; AllocateClosureStub
@@ -2799,7 +2799,7 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     // 0xa3fbd8: DecompressPointer r1
     //     0xa3fbd8: add             x1, x1, HEAP, lsl #32
     // 0xa3fbdc: r0 = _openReport()
-    //     0xa3fbdc: bl              #0xa3fbfc  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_openReport
+    //     0xa3fbdc: bl              #0xa3fbfc  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_openReport
     // 0xa3fbe0: r0 = Null
     //     0xa3fbe0: mov             x0, NULL
     // 0xa3fbe4: LeaveFrame
@@ -2838,7 +2838,7 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3fc2c: bl              #0x8e6990  ; [package:flutter/src/services/haptic_feedback.dart] HapticFeedback::mediumImpact
     // 0xa3fc30: ldur            x1, [fp, #-8]
     // 0xa3fc34: r0 = _trimmedSummary()
-    //     0xa3fc34: bl              #0xa401f8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_trimmedSummary
+    //     0xa3fc34: bl              #0xa401f8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_trimmedSummary
     // 0xa3fc38: mov             x1, x0
     // 0xa3fc3c: ldur            x2, [fp, #-0x10]
     // 0xa3fc40: StoreField: r2->field_13 = r0
@@ -2887,7 +2887,7 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3fcb8: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa3fcbc: ldur            x2, [fp, #-0x10]
     // 0xa3fcc0: r1 = Function '<anonymous closure>':.
-    //     0xa3fcc0: add             x1, PP, #0x44, lsl #12  ; [pp+0x44bf8] AnonymousClosure: (0xa3fd64), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_openReport (0xa3fbfc)
+    //     0xa3fcc0: add             x1, PP, #0x44, lsl #12  ; [pp+0x44bf8] AnonymousClosure: (0xa3fd64), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_openReport (0xa3fbfc)
     //     0xa3fcc4: ldr             x1, [x1, #0xbf8]
     // 0xa3fcc8: stur            x0, [fp, #-8]
     // 0xa3fccc: r0 = AllocateClosure()
@@ -2944,7 +2944,7 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3fd44: cmp             SP, x16
     //     0xa3fd48: b.ls            #0xa3fd5c
     // 0xa3fd4c: r0 = _openReport()
-    //     0xa3fd4c: bl              #0xa3fbfc  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_openReport
+    //     0xa3fd4c: bl              #0xa3fbfc  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_openReport
     // 0xa3fd50: LeaveFrame
     //     0xa3fd50: mov             SP, fp
     //     0xa3fd54: ldp             fp, lr, [SP], #0x10
@@ -3055,12 +3055,12 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     // 0xa3fe48: mov             x1, x2
     // 0xa3fe4c: stur            x4, [fp, #-8]
     // 0xa3fe50: r0 = isDribblingWorkout()
-    //     0xa3fe50: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0xa3fe50: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0xa3fe54: ldur            x1, [fp, #-8]
     // 0xa3fe58: ldur            x2, [fp, #-0x10]
     // 0xa3fe5c: mov             x3, x0
     // 0xa3fe60: r0 = resolve()
-    //     0xa3fe60: bl              #0x73a164  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyBreakdownKind::resolve
+    //     0xa3fe60: bl              #0x73a164  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyBreakdownKind::resolve
     // 0xa3fe64: stur            x0, [fp, #-8]
     // 0xa3fe68: r0 = Radius()
     //     0xa3fe68: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -3088,11 +3088,11 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     // 0xa3fea0: r4 = const [0, 0x1, 0, 0x1, null]
     //     0xa3fea0: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0xa3fea4: r0 = _titleRow()
-    //     0xa3fea4: bl              #0xa3e628  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_titleRow
+    //     0xa3fea4: bl              #0xa3e628  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_titleRow
     // 0xa3fea8: ldur            x1, [fp, #-8]
     // 0xa3feac: stur            x0, [fp, #-8]
     // 0xa3feb0: r0 = analyzingLabel()
-    //     0xa3feb0: bl              #0xa3dd38  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyBreakdownKind::analyzingLabel
+    //     0xa3feb0: bl              #0xa3dd38  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_models.dart] BallyBreakdownKind::analyzingLabel
     // 0xa3feb4: ldur            x2, [fp, #-0x18]
     // 0xa3feb8: stur            x0, [fp, #-0x10]
     // 0xa3febc: LoadField: r1 = r2->field_f
@@ -3101,8 +3101,8 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3fec0: add             x1, x1, HEAP, lsl #32
     // 0xa3fec4: cmp             w1, NULL
     // 0xa3fec8: b.eq            #0xa401f0
-    // 0xa3fecc: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa3fecc: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa3fecc: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa3fecc: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa3fed0: stur            x0, [fp, #-0x28]
     // 0xa3fed4: r0 = TextStyle()
     //     0xa3fed4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -3220,7 +3220,7 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa3ffec: add             x1, PP, #0x44, lsl #12  ; [pp+0x44c08] "Tap to watch progress >"
     //     0xa3fff0: ldr             x1, [x1, #0xc08]
     // 0xa3fff4: r0 = L()
-    //     0xa3fff4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa3fff4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa3fff8: ldur            x2, [fp, #-0x18]
     // 0xa3fffc: stur            x0, [fp, #-0x10]
     // 0xa40000: LoadField: r1 = r2->field_f
@@ -3229,8 +3229,8 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa40004: add             x1, x1, HEAP, lsl #32
     // 0xa40008: cmp             w1, NULL
     // 0xa4000c: b.eq            #0xa401f4
-    // 0xa40010: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa40010: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa40010: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa40010: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa40014: stur            x0, [fp, #-0x30]
     // 0xa40018: r0 = TextStyle()
     //     0xa40018: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -3353,8 +3353,8 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     // 0xa40140: ldur            x0, [fp, #-8]
     // 0xa40144: StoreField: r1->field_b = r0
     //     0xa40144: stur            w0, [x1, #0xb]
-    // 0xa40148: r0 = BallAiLiquidGlassCard()
-    //     0xa40148: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xa40148: r0 = KourtAiLiquidGlassCard()
+    //     0xa40148: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xa4014c: mov             x1, x0
     // 0xa40150: ldur            x0, [fp, #-0x10]
     // 0xa40154: stur            x1, [fp, #-8]
@@ -3382,7 +3382,7 @@ class _BallyBreakdownTeaserCardState extends State<dynamic> {
     //     0xa40188: stur            w0, [x3, #0xb]
     // 0xa4018c: ldur            x2, [fp, #-0x18]
     // 0xa40190: r1 = Function '_openReport@1161029556':.
-    //     0xa40190: add             x1, PP, #0x44, lsl #12  ; [pp+0x44c10] AnonymousClosure: (0xa3fd2c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_openReport (0xa3fbfc)
+    //     0xa40190: add             x1, PP, #0x44, lsl #12  ; [pp+0x44c10] AnonymousClosure: (0xa3fd2c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/bally/bally_breakdown_teaser_card.dart] _BallyBreakdownTeaserCardState::_openReport (0xa3fbfc)
     //     0xa40194: ldr             x1, [x1, #0xc10]
     // 0xa40198: r0 = AllocateClosure()
     //     0xa40198: bl              #0xe553e0  ; AllocateClosureStub

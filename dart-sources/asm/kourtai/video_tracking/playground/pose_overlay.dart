@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/playground/pose_overlay.dart
+// lib: , url: package:kourtai/video_tracking/playground/pose_overlay.dart
 
 // class id: 1049160, size: 0x8
 class :: {
@@ -266,7 +266,7 @@ class PoseOverlayPainter extends CustomPainter {
     // 0x84a5f4: ldur            x3, [fp, #-0x30]
     // 0x84a5f8: ldur            x5, [fp, #-8]
     // 0x84a5fc: r0 = _translate()
-    //     0x84a5fc: bl              #0x84a7a4  ; [package:ballai/video_tracking/playground/pose_overlay.dart] PoseOverlayPainter::_translate
+    //     0x84a5fc: bl              #0x84a7a4  ; [package:kourtai/video_tracking/playground/pose_overlay.dart] PoseOverlayPainter::_translate
     // 0x84a600: mov             x4, x0
     // 0x84a604: ldur            x0, [fp, #-0x10]
     // 0x84a608: stur            x4, [fp, #-0x60]
@@ -279,7 +279,7 @@ class PoseOverlayPainter extends CustomPainter {
     // 0x84a61c: ldur            x3, [fp, #-0x30]
     // 0x84a620: ldur            x5, [fp, #-8]
     // 0x84a624: r0 = _translate()
-    //     0x84a624: bl              #0x84a7a4  ; [package:ballai/video_tracking/playground/pose_overlay.dart] PoseOverlayPainter::_translate
+    //     0x84a624: bl              #0x84a7a4  ; [package:kourtai/video_tracking/playground/pose_overlay.dart] PoseOverlayPainter::_translate
     // 0x84a628: ldur            x1, [fp, #-0x20]
     // 0x84a62c: ldur            x2, [fp, #-0x60]
     // 0x84a630: mov             x3, x0
@@ -384,7 +384,7 @@ class PoseOverlayPainter extends CustomPainter {
     // 0x84a744: ldur            x3, [fp, #-0x30]
     // 0x84a748: ldur            x5, [fp, #-8]
     // 0x84a74c: r0 = _translate()
-    //     0x84a74c: bl              #0x84a7a4  ; [package:ballai/video_tracking/playground/pose_overlay.dart] PoseOverlayPainter::_translate
+    //     0x84a74c: bl              #0x84a7a4  ; [package:kourtai/video_tracking/playground/pose_overlay.dart] PoseOverlayPainter::_translate
     // 0x84a750: ldur            x1, [fp, #-0x20]
     // 0x84a754: mov             x2, x0
     // 0x84a758: ldur            d0, [fp, #-0x68]

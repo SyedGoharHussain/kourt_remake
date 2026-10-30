@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/home/account/profile/lazy_profile_image_view.dart
+// lib: , url: package:kourtai/automatic/views/components/home/account/profile/lazy_profile_image_view.dart
 
 // class id: 1048795, size: 0x8
 class :: {
@@ -96,7 +96,7 @@ class _LazyProfileImageViewState extends State<dynamic> {
     // 0x8e5b30: StoreField: r1->field_13 = rNULL
     //     0x8e5b30: stur            NULL, [x1, #0x13]
     // 0x8e5b34: r0 = _loadImage()
-    //     0x8e5b34: bl              #0x8e5b54  ; [package:ballai/automatic/views/components/home/account/profile/lazy_profile_image_view.dart] _LazyProfileImageViewState::_loadImage
+    //     0x8e5b34: bl              #0x8e5b54  ; [package:kourtai/automatic/views/components/home/account/profile/lazy_profile_image_view.dart] _LazyProfileImageViewState::_loadImage
     // 0x8e5b38: r0 = Null
     //     0x8e5b38: mov             x0, NULL
     // 0x8e5b3c: LeaveFrame
@@ -168,7 +168,7 @@ class _LazyProfileImageViewState extends State<dynamic> {
     // 0x8e5be4: ldur            x0, [fp, #-0x10]
     // 0x8e5be8: ldur            x2, [fp, #-0x18]
     // 0x8e5bec: r0 = fetchProfileImageUrl()
-    //     0x8e5bec: bl              #0x8e5c68  ; [package:ballai/shared/app/firebase/cloudstorage/cloud_storage.dart] CloudStorage::fetchProfileImageUrl
+    //     0x8e5bec: bl              #0x8e5c68  ; [package:kourtai/shared/app/firebase/cloudstorage/cloud_storage.dart] CloudStorage::fetchProfileImageUrl
     // 0x8e5bf0: mov             x1, x0
     // 0x8e5bf4: stur            x1, [fp, #-0x20]
     // 0x8e5bf8: r0 = Await()
@@ -195,7 +195,7 @@ class _LazyProfileImageViewState extends State<dynamic> {
     // 0x8e5c38: r0 = ReturnAsyncNotFuture()
     //     0x8e5c38: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x8e5c3c: r1 = Function '<anonymous closure>':.
-    //     0x8e5c3c: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a4e8] AnonymousClosure: (0x8e5cc8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
+    //     0x8e5c3c: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a4e8] AnonymousClosure: (0x8e5cc8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
     //     0x8e5c40: ldr             x1, [x1, #0x4e8]
     // 0x8e5c44: r0 = AllocateClosure()
     //     0x8e5c44: bl              #0xe553e0  ; AllocateClosureStub
@@ -223,7 +223,7 @@ class _LazyProfileImageViewState extends State<dynamic> {
     //     0x94121c: cmp             SP, x16
     //     0x941220: b.ls            #0x941238
     // 0x941224: r0 = _loadImage()
-    //     0x941224: bl              #0x8e5b54  ; [package:ballai/automatic/views/components/home/account/profile/lazy_profile_image_view.dart] _LazyProfileImageViewState::_loadImage
+    //     0x941224: bl              #0x8e5b54  ; [package:kourtai/automatic/views/components/home/account/profile/lazy_profile_image_view.dart] _LazyProfileImageViewState::_loadImage
     // 0x941228: r0 = Null
     //     0x941228: mov             x0, NULL
     // 0x94122c: LeaveFrame
@@ -461,7 +461,7 @@ class _LazyProfileImageViewState extends State<dynamic> {
     // 0x9d2ba0: ldur            x2, [fp, #-0x20]
     // 0x9d2ba4: stur            x0, [fp, #-8]
     // 0x9d2ba8: r1 = Function '<anonymous closure>':.
-    //     0x9d2ba8: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a4b0] AnonymousClosure: (0x9d2fb8), in [package:ballai/automatic/views/components/home/account/profile/lazy_profile_image_view.dart] _LazyProfileImageViewState::build (0x9d2928)
+    //     0x9d2ba8: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a4b0] AnonymousClosure: (0x9d2fb8), in [package:kourtai/automatic/views/components/home/account/profile/lazy_profile_image_view.dart] _LazyProfileImageViewState::build (0x9d2928)
     //     0x9d2bac: ldr             x1, [x1, #0x4b0]
     // 0x9d2bb0: r0 = AllocateClosure()
     //     0x9d2bb0: bl              #0xe553e0  ; AllocateClosureStub

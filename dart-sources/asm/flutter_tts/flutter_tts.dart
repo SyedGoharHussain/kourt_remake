@@ -462,7 +462,7 @@ class FlutterTts extends Object {
     //     0x6d4528: add             x0, x0, HEAP, lsl #32
     // 0x6d452c: mov             x1, x0
     // 0x6d4530: r0 = _onUtteranceFinished()
-    //     0x6d4530: bl              #0x6d3f20  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_onUtteranceFinished
+    //     0x6d4530: bl              #0x6d3f20  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_onUtteranceFinished
     // 0x6d4534: b               #0x6d46e8
     // 0x6d4538: ldur            x0, [fp, #-0x10]
     // 0x6d453c: r16 = "synth.onComplete"
@@ -486,7 +486,7 @@ class FlutterTts extends Object {
     //     0x6d456c: add             x0, x0, HEAP, lsl #32
     // 0x6d4570: mov             x1, x0
     // 0x6d4574: r0 = _onUtteranceFinished()
-    //     0x6d4574: bl              #0x6d3f20  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_onUtteranceFinished
+    //     0x6d4574: bl              #0x6d3f20  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_onUtteranceFinished
     // 0x6d4578: b               #0x6d46e8
     // 0x6d457c: ldur            x0, [fp, #-0x10]
     // 0x6d4580: r16 = "speak.onPause"
@@ -526,7 +526,7 @@ class FlutterTts extends Object {
     //     0x6d45e0: add             x0, x0, HEAP, lsl #32
     // 0x6d45e4: mov             x1, x0
     // 0x6d45e8: r0 = _onUtteranceFinished()
-    //     0x6d45e8: bl              #0x6d3f20  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_onUtteranceFinished
+    //     0x6d45e8: bl              #0x6d3f20  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_onUtteranceFinished
     // 0x6d45ec: b               #0x6d46e8
     // 0x6d45f0: ldur            x0, [fp, #-0x10]
     // 0x6d45f4: r16 = "speak.onError"

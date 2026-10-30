@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart
+// lib: , url: package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart
 
 // class id: 1048760, size: 0x8
 class :: {
@@ -51,7 +51,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x92fa5c: r0 = ReturnAsyncNotFuture()
     //     0x92fa5c: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x92fa60: r0 = load()
-    //     0x92fa60: bl              #0x747768  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::load
+    //     0x92fa60: bl              #0x747768  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::load
     // 0x92fa64: mov             x1, x0
     // 0x92fa68: stur            x1, [fp, #-0xa0]
     // 0x92fa6c: r0 = Await()
@@ -61,7 +61,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x92fa78: b.eq            #0x92fa88
     // 0x92fa7c: mov             x1, x0
     // 0x92fa80: r0 = isComplete()
-    //     0x92fa80: bl              #0x932104  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::isComplete
+    //     0x92fa80: bl              #0x932104  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::isComplete
     // 0x92fa84: tbz             w0, #4, #0x92fa90
     // 0x92fa88: r0 = false
     //     0x92fa88: add             x0, NULL, #0x30  ; false
@@ -95,7 +95,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x92fad0: DecompressPointer r1
     //     0x92fad0: add             x1, x1, HEAP, lsl #32
     // 0x92fad4: r0 = recommended()
-    //     0x92fad4: bl              #0x931bec  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::recommended
+    //     0x92fad4: bl              #0x931bec  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::recommended
     // 0x92fad8: LoadField: r1 = r0->field_7
     //     0x92fad8: ldur            x1, [x0, #7]
     // 0x92fadc: b               #0x92faf0
@@ -106,7 +106,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x92faec: mov             x1, x0
     // 0x92faf0: ldur            x0, [fp, #-0xa0]
     // 0x92faf4: r0 = clampShots()
-    //     0x92faf4: bl              #0x931bc0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampShots
+    //     0x92faf4: bl              #0x931bc0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampShots
     // 0x92faf8: mov             x3, x0
     // 0x92fafc: ldur            x0, [fp, #-0xa0]
     // 0x92fb00: stur            x3, [fp, #-0xb0]
@@ -125,7 +125,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x92fb20: DecompressPointer r1
     //     0x92fb20: add             x1, x1, HEAP, lsl #32
     // 0x92fb24: r0 = recommended()
-    //     0x92fb24: bl              #0x931bec  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::recommended
+    //     0x92fb24: bl              #0x931bec  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::recommended
     // 0x92fb28: LoadField: r1 = r0->field_f
     //     0x92fb28: ldur            x1, [x0, #0xf]
     // 0x92fb2c: b               #0x92fb40
@@ -137,7 +137,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x92fb40: ldur            x0, [fp, #-0xa0]
     // 0x92fb44: ldur            x2, [fp, #-0xb0]
     // 0x92fb48: r0 = clampMakes()
-    //     0x92fb48: bl              #0x931b3c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampMakes
+    //     0x92fb48: bl              #0x931b3c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampMakes
     // 0x92fb4c: mov             x3, x0
     // 0x92fb50: ldur            x0, [fp, #-0xa0]
     // 0x92fb54: stur            x3, [fp, #-0xb8]
@@ -156,7 +156,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x92fb74: DecompressPointer r1
     //     0x92fb74: add             x1, x1, HEAP, lsl #32
     // 0x92fb78: r0 = recommended()
-    //     0x92fb78: bl              #0x931bec  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::recommended
+    //     0x92fb78: bl              #0x931bec  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::recommended
     // 0x92fb7c: ArrayLoad: r1 = r0[0]  ; List_8
     //     0x92fb7c: ldur            x1, [x0, #0x17]
     // 0x92fb80: b               #0x92fb94
@@ -167,7 +167,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x92fb90: mov             x1, x0
     // 0x92fb94: ldur            x0, [fp, #-0xa0]
     // 0x92fb98: r0 = clampTime()
-    //     0x92fb98: bl              #0x931ae8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampTime
+    //     0x92fb98: bl              #0x931ae8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampTime
     // 0x92fb9c: mov             x2, x0
     // 0x92fba0: ldur            x0, [fp, #-0xa0]
     // 0x92fba4: stur            x2, [fp, #-0xc0]
@@ -488,7 +488,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x92fef0: add             x4, PP, #0x1c, lsl #12  ; [pp+0x1cfb0] List(45) [0, 0x15, 0x14, 0x1, "acquisitionSource", 0xe, "birthDate", 0x2, "gender", 0x3, "height", 0x4, "levelOfPlay", 0xc, "mainFocus", 0x8, "mainFocusAttributes", 0x9, "makeActivityGoal", 0x13, "name", 0x1, "position", 0x6, "profileVisibility", 0x11, "secondaryFocus", 0xa, "secondaryFocusAttributes", 0xb, "shootingHand", 0x7, "shotActivityGoal", 0x12, "timeActivityGoal", 0x14, "trainingFrequency", 0xd, "triedOtherTrainingApps", 0xf, "weight", 0x5, "worksWithBasketballTrainer", 0x10, Null]
     //     0x92fef4: ldr             x4, [x4, #0xfb0]
     // 0x92fef8: r0 = copyWith()
-    //     0x92fef8: bl              #0x663774  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::copyWith
+    //     0x92fef8: bl              #0x663774  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::copyWith
     // 0x92fefc: stur            x0, [fp, #-0xa0]
     // 0x92ff00: ldur            x3, [fp, #-0x98]
     // 0x92ff04: mov             x1, x3
@@ -496,7 +496,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x92ff0c: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x92ff0c: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x92ff10: r0 = updateUser()
-    //     0x92ff10: bl              #0x6618fc  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::updateUser
+    //     0x92ff10: bl              #0x6618fc  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::updateUser
     // 0x92ff14: mov             x1, x0
     // 0x92ff18: stur            x1, [fp, #-0xa8]
     // 0x92ff1c: r0 = Await()
@@ -512,23 +512,23 @@ class AccountSetupController extends ChangeNotifier {
     // 0x92ff38: mov             x5, x4
     // 0x92ff3c: stur            x4, [fp, #-0xa8]
     // 0x92ff40: r0 = upsertCurrentWeekGoal()
-    //     0x92ff40: bl              #0x9308dc  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::upsertCurrentWeekGoal
+    //     0x92ff40: bl              #0x9308dc  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::upsertCurrentWeekGoal
     // 0x92ff44: mov             x1, x0
     // 0x92ff48: stur            x1, [fp, #-0xc8]
     // 0x92ff4c: r0 = Await()
     //     0x92ff4c: bl              #0x60ad4c  ; AwaitStub
     // 0x92ff50: ldur            x1, [fp, #-0x98]
     // 0x92ff54: r0 = markAccountSetupComplete()
-    //     0x92ff54: bl              #0x9308a4  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::markAccountSetupComplete
+    //     0x92ff54: bl              #0x9308a4  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::markAccountSetupComplete
     // 0x92ff58: ldur            x1, [fp, #-0x98]
     // 0x92ff5c: r0 = refreshPostSetupPermissionsFlag()
-    //     0x92ff5c: bl              #0x9306c0  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::refreshPostSetupPermissionsFlag
+    //     0x92ff5c: bl              #0x9306c0  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::refreshPostSetupPermissionsFlag
     // 0x92ff60: mov             x1, x0
     // 0x92ff64: stur            x1, [fp, #-0xc8]
     // 0x92ff68: r0 = Await()
     //     0x92ff68: bl              #0x60ad4c  ; AwaitStub
     // 0x92ff6c: r0 = clear()
-    //     0x92ff6c: bl              #0x930660  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::clear
+    //     0x92ff6c: bl              #0x930660  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::clear
     // 0x92ff70: mov             x1, x0
     // 0x92ff74: stur            x1, [fp, #-0xc8]
     // 0x92ff78: r0 = Await()
@@ -550,13 +550,13 @@ class AccountSetupController extends ChangeNotifier {
     // 0x92ffa0: mov             x1, x2
     // 0x92ffa4: stur            x2, [fp, #-0xa8]
     // 0x92ffa8: r0 = clear()
-    //     0x92ffa8: bl              #0x9302c4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/post_auth_account_setup_step_store.dart] PostAuthAccountSetupStepStore::clear
+    //     0x92ffa8: bl              #0x9302c4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/post_auth_account_setup_step_store.dart] PostAuthAccountSetupStepStore::clear
     // 0x92ffac: mov             x1, x0
     // 0x92ffb0: stur            x1, [fp, #-0xc8]
     // 0x92ffb4: r0 = Await()
     //     0x92ffb4: bl              #0x60ad4c  ; AwaitStub
     // 0x92ffb8: r0 = cancelAccountSetupIncompleteFunnel()
-    //     0x92ffb8: bl              #0x930278  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelAccountSetupIncompleteFunnel
+    //     0x92ffb8: bl              #0x930278  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelAccountSetupIncompleteFunnel
     // 0x92ffbc: mov             x1, x0
     // 0x92ffc0: stur            x1, [fp, #-0xc8]
     // 0x92ffc4: r0 = Await()
@@ -570,7 +570,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x92ffdc: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x92ffdc: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x92ffe0: r0 = syncFirstWorkoutIncompleteFunnel()
-    //     0x92ffe0: bl              #0x930030  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::syncFirstWorkoutIncompleteFunnel
+    //     0x92ffe0: bl              #0x930030  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::syncFirstWorkoutIncompleteFunnel
     // 0x92ffe4: mov             x1, x0
     // 0x92ffe8: stur            x1, [fp, #-0xc8]
     // 0x92ffec: r0 = Await()
@@ -612,14 +612,14 @@ class AccountSetupController extends ChangeNotifier {
     //     0x932858: add             x0, x0, HEAP, lsl #32
     // 0x93285c: tbnz            w0, #4, #0x932874
     // 0x932860: r0 = _hydrateFromDraft()
-    //     0x932860: bl              #0x9376d8  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_hydrateFromDraft
+    //     0x932860: bl              #0x9376d8  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_hydrateFromDraft
     // 0x932864: mov             x1, x0
     // 0x932868: stur            x1, [fp, #-0x18]
     // 0x93286c: r0 = Await()
     //     0x93286c: bl              #0x60ad4c  ; AwaitStub
     // 0x932870: b               #0x932884
     // 0x932874: r0 = _hydrateFromCurrentUser()
-    //     0x932874: bl              #0x932894  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_hydrateFromCurrentUser
+    //     0x932874: bl              #0x932894  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_hydrateFromCurrentUser
     // 0x932878: mov             x1, x0
     // 0x93287c: stur            x1, [fp, #-0x10]
     // 0x932880: r0 = Await()
@@ -660,7 +660,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9328cc: add             x2, x2, HEAP, lsl #32
     // 0x9328d0: stur            x2, [fp, #-0x18]
     // 0x9328d4: r0 = load()
-    //     0x9328d4: bl              #0x747768  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::load
+    //     0x9328d4: bl              #0x747768  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::load
     // 0x9328d8: mov             x1, x0
     // 0x9328dc: stur            x1, [fp, #-0x20]
     // 0x9328e0: r0 = Await()
@@ -1079,7 +1079,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x932dc0: r1 = ""
     //     0x932dc0: ldr             x1, [PP, #0x880]  ; [pp+0x880] ""
     // 0x932dc4: r0 = canonicalLevelKey()
-    //     0x932dc4: bl              #0x931f74  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::canonicalLevelKey
+    //     0x932dc4: bl              #0x931f74  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::canonicalLevelKey
     // 0x932dc8: mov             x2, x0
     // 0x932dcc: ldur            x3, [fp, #-0x10]
     // 0x932dd0: StoreField: r3->field_5b = r0
@@ -1239,7 +1239,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x932f9c: mov             x1, x2
     // 0x932fa0: mov             x2, x6
     // 0x932fa4: r0 = recommended()
-    //     0x932fa4: bl              #0x931bec  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::recommended
+    //     0x932fa4: bl              #0x931bec  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::recommended
     // 0x932fa8: LoadField: r1 = r0->field_7
     //     0x932fa8: ldur            x1, [x0, #7]
     // 0x932fac: b               #0x932fbc
@@ -1250,7 +1250,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x932fbc: ldur            x0, [fp, #-0x10]
     // 0x932fc0: ldur            x2, [fp, #-0x18]
     // 0x932fc4: r0 = clampShots()
-    //     0x932fc4: bl              #0x931bc0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampShots
+    //     0x932fc4: bl              #0x931bc0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampShots
     // 0x932fc8: ldur            x3, [fp, #-0x10]
     // 0x932fcc: StoreField: r3->field_77 = r0
     //     0x932fcc: stur            x0, [x3, #0x77]
@@ -1293,7 +1293,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x93303c: DecompressPointer r1
     //     0x93303c: add             x1, x1, HEAP, lsl #32
     // 0x933040: r0 = recommended()
-    //     0x933040: bl              #0x931bec  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::recommended
+    //     0x933040: bl              #0x931bec  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::recommended
     // 0x933044: LoadField: r1 = r0->field_f
     //     0x933044: ldur            x1, [x0, #0xf]
     // 0x933048: b               #0x933058
@@ -1306,7 +1306,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x933060: LoadField: r2 = r0->field_77
     //     0x933060: ldur            x2, [x0, #0x77]
     // 0x933064: r0 = clampMakes()
-    //     0x933064: bl              #0x931b3c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampMakes
+    //     0x933064: bl              #0x931b3c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampMakes
     // 0x933068: ldur            x3, [fp, #-0x10]
     // 0x93306c: StoreField: r3->field_7f = r0
     //     0x93306c: stur            x0, [x3, #0x7f]
@@ -1348,7 +1348,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9330d8: DecompressPointer r1
     //     0x9330d8: add             x1, x1, HEAP, lsl #32
     // 0x9330dc: r0 = recommended()
-    //     0x9330dc: bl              #0x931bec  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::recommended
+    //     0x9330dc: bl              #0x931bec  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::recommended
     // 0x9330e0: ArrayLoad: r1 = r0[0]  ; List_8
     //     0x9330e0: ldur            x1, [x0, #0x17]
     // 0x9330e4: b               #0x9330f4
@@ -1358,17 +1358,17 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9330f0: ldur            x1, [x0, #7]
     // 0x9330f4: ldur            x0, [fp, #-0x10]
     // 0x9330f8: r0 = clampTime()
-    //     0x9330f8: bl              #0x931ae8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampTime
+    //     0x9330f8: bl              #0x931ae8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampTime
     // 0x9330fc: mov             x1, x0
     // 0x933100: ldur            x0, [fp, #-0x10]
     // 0x933104: StoreField: r0->field_87 = r1
     //     0x933104: stur            x1, [x0, #0x87]
     // 0x933108: mov             x1, x0
     // 0x93310c: r0 = refreshRecommendedGoals()
-    //     0x93310c: bl              #0x937670  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::refreshRecommendedGoals
+    //     0x93310c: bl              #0x937670  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::refreshRecommendedGoals
     // 0x933110: ldur            x1, [fp, #-0x10]
     // 0x933114: r0 = _bootstrapSteps()
-    //     0x933114: bl              #0x933134  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_bootstrapSteps
+    //     0x933114: bl              #0x933134  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_bootstrapSteps
     // 0x933118: mov             x1, x0
     // 0x93311c: stur            x1, [fp, #-0x10]
     // 0x933120: r0 = Await()
@@ -1399,7 +1399,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x933154: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x933158: bl              #0x60afc8  ; InitAsyncStub
     // 0x93315c: r0 = isNotificationPermissionResolved()
-    //     0x93315c: bl              #0x937600  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::isNotificationPermissionResolved
+    //     0x93315c: bl              #0x937600  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::isNotificationPermissionResolved
     // 0x933160: mov             x1, x0
     // 0x933164: stur            x1, [fp, #-0x18]
     // 0x933168: r0 = Await()
@@ -1426,7 +1426,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x93319c: DecompressPointer r1
     //     0x93319c: add             x1, x1, HEAP, lsl #32
     // 0x9331a0: r0 = load()
-    //     0x9331a0: bl              #0x937560  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/post_auth_account_setup_step_store.dart] PostAuthAccountSetupStepStore::load
+    //     0x9331a0: bl              #0x937560  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/post_auth_account_setup_step_store.dart] PostAuthAccountSetupStepStore::load
     // 0x9331a4: mov             x1, x0
     // 0x9331a8: stur            x1, [fp, #-0x18]
     // 0x9331ac: r0 = Await()
@@ -1437,7 +1437,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9331bc: ldur            x2, [fp, #-0x10]
     // 0x9331c0: mov             x1, x2
     // 0x9331c4: r0 = totalSteps()
-    //     0x9331c4: bl              #0x937518  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::totalSteps
+    //     0x9331c4: bl              #0x937518  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::totalSteps
     // 0x9331c8: lsl             x3, x0, #1
     // 0x9331cc: ldur            x1, [fp, #-0x18]
     // 0x9331d0: r2 = 2
@@ -1457,7 +1457,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9331f0: stur            w2, [x0, #0xd3]
     // 0x9331f4: mov             x1, x0
     // 0x9331f8: r0 = currentStepKey()
-    //     0x9331f8: bl              #0x93742c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
+    //     0x9331f8: bl              #0x93742c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
     // 0x9331fc: r1 = LoadClassIdInstr(r0)
     //     0x9331fc: ldur            x1, [x0, #-1]
     //     0x933200: ubfx            x1, x1, #0xc, #0x14
@@ -1472,7 +1472,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x933220: tbz             w0, #4, #0x933254
     // 0x933224: ldur            x1, [fp, #-0x10]
     // 0x933228: r0 = currentStepKey()
-    //     0x933228: bl              #0x93742c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
+    //     0x933228: bl              #0x93742c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
     // 0x93322c: r1 = LoadClassIdInstr(r0)
     //     0x93322c: ldur            x1, [x0, #-1]
     //     0x933230: ubfx            x1, x1, #0xc, #0x14
@@ -1500,7 +1500,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x933274: add             x2, NULL, #0x20  ; true
     // 0x933278: mov             x1, x0
     // 0x93327c: r0 = currentStepKey()
-    //     0x93327c: bl              #0x93742c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
+    //     0x93327c: bl              #0x93742c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
     // 0x933280: r1 = LoadClassIdInstr(r0)
     //     0x933280: ldur            x1, [x0, #-1]
     //     0x933284: ubfx            x1, x1, #0xc, #0x14
@@ -1541,7 +1541,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9332e8: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a618] Obj!ShotEventSoundKind@d38c01
     //     0x9332ec: ldr             x1, [x1, #0x618]
     // 0x9332f0: r0 = soundIdSync()
-    //     0x9332f0: bl              #0x72ffd8  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::soundIdSync
+    //     0x9332f0: bl              #0x72ffd8  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::soundIdSync
     // 0x9332f4: ldur            x2, [fp, #-0x10]
     // 0x9332f8: StoreField: r2->field_6f = r0
     //     0x9332f8: stur            w0, [x2, #0x6f]
@@ -1553,10 +1553,10 @@ class AccountSetupController extends ChangeNotifier {
     //     0x933310: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x933314: mov             x1, x2
     // 0x933318: r0 = _markPriorStepsSeen()
-    //     0x933318: bl              #0x937308  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_markPriorStepsSeen
+    //     0x933318: bl              #0x937308  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_markPriorStepsSeen
     // 0x93331c: ldur            x1, [fp, #-0x10]
     // 0x933320: r0 = refreshActiveCoachLine()
-    //     0x933320: bl              #0x93333c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::refreshActiveCoachLine
+    //     0x933320: bl              #0x93333c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::refreshActiveCoachLine
     // 0x933324: ldur            x1, [fp, #-0x10]
     // 0x933328: r0 = notifyListeners()
     //     0x933328: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -1584,11 +1584,11 @@ class AccountSetupController extends ChangeNotifier {
     //     0x933358: b.ls            #0x933414
     // 0x93335c: mov             x1, x0
     // 0x933360: r0 = currentStepKey()
-    //     0x933360: bl              #0x93742c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
+    //     0x933360: bl              #0x93742c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
     // 0x933364: mov             x1, x0
     // 0x933368: stur            x0, [fp, #-0x10]
     // 0x93336c: r0 = coachPromptFor()
-    //     0x93336c: bl              #0x936eec  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::coachPromptFor
+    //     0x93336c: bl              #0x936eec  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::coachPromptFor
     // 0x933370: cmp             w0, NULL
     // 0x933374: b.ne            #0x93339c
     // 0x933378: ldur            x4, [fp, #-8]
@@ -1612,7 +1612,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9333a4: mov             x2, x0
     // 0x9333a8: ldur            x3, [fp, #-0x10]
     // 0x9333ac: r0 = coachLine()
-    //     0x9333ac: bl              #0x93341c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::coachLine
+    //     0x9333ac: bl              #0x93341c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::coachLine
     // 0x9333b0: ldur            x3, [fp, #-8]
     // 0x9333b4: StoreField: r3->field_cf = r0
     //     0x9333b4: stur            w0, [x3, #0xcf]
@@ -1702,20 +1702,20 @@ class AccountSetupController extends ChangeNotifier {
     // 0x93349c: ldur            x2, [fp, #-0x20]
     // 0x9334a0: mov             x1, x3
     // 0x9334a4: r0 = stepKeys()
-    //     0x9334a4: bl              #0x936d20  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::stepKeys
+    //     0x9334a4: bl              #0x936d20  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::stepKeys
     // 0x9334a8: ldur            x1, [fp, #-0x10]
     // 0x9334ac: stur            x0, [fp, #-0x28]
     // 0x9334b0: r0 = _fullBuild()
-    //     0x9334b0: bl              #0x936c20  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_fullBuild
+    //     0x9334b0: bl              #0x936c20  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_fullBuild
     // 0x9334b4: mov             x1, x0
     // 0x9334b8: ldur            x2, [fp, #-0x20]
     // 0x9334bc: ldur            x3, [fp, #-0x28]
     // 0x9334c0: r0 = visible()
-    //     0x9334c0: bl              #0x936948  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyBuild::visible
+    //     0x9334c0: bl              #0x936948  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyBuild::visible
     // 0x9334c4: ldur            x1, [fp, #-0x10]
     // 0x9334c8: stur            x0, [fp, #-0x28]
     // 0x9334cc: r0 = coachFirstName()
-    //     0x9334cc: bl              #0x936898  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::coachFirstName
+    //     0x9334cc: bl              #0x936898  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::coachFirstName
     // 0x9334d0: mov             x2, x0
     // 0x9334d4: ldur            x1, [fp, #-0x10]
     // 0x9334d8: stur            x2, [fp, #-0x38]
@@ -1759,7 +1759,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x933548: ldur            x6, [fp, #-0x20]
     // 0x93354c: ldur            x7, [fp, #-0x30]
     // 0x933550: r0 = line()
-    //     0x933550: bl              #0x933580  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::line
+    //     0x933550: bl              #0x933580  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/bally_director.dart] BallyDirector::line
     // 0x933554: ldur            x1, [fp, #-8]
     // 0x933558: ldur            x2, [fp, #-0x20]
     // 0x93355c: mov             x3, x0
@@ -1895,7 +1895,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x936c8c: DecompressPointer r1
     //     0x936c8c: add             x1, x1, HEAP, lsl #32
     // 0x936c90: r0 = canonicalLevelKey()
-    //     0x936c90: bl              #0x931f74  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::canonicalLevelKey
+    //     0x936c90: bl              #0x931f74  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::canonicalLevelKey
     // 0x936c94: mov             x1, x0
     // 0x936c98: ldur            x0, [fp, #-0x38]
     // 0x936c9c: stur            x1, [fp, #-0x50]
@@ -1970,7 +1970,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x936d40: add             x2, x2, HEAP, lsl #32
     // 0x936d44: mov             x1, x0
     // 0x936d48: r0 = keys()
-    //     0x936d48: bl              #0x936d60  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
+    //     0x936d48: bl              #0x936d60  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
     // 0x936d4c: LeaveFrame
     //     0x936d4c: mov             SP, fp
     //     0x936d50: ldp             fp, lr, [SP], #0x10
@@ -2022,7 +2022,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x937368: add             x1, x1, HEAP, lsl #32
     // 0x93736c: mov             x2, x3
     // 0x937370: r0 = keys()
-    //     0x937370: bl              #0x936d60  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
+    //     0x937370: bl              #0x936d60  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
     // 0x937374: LoadField: r1 = r0->field_b
     //     0x937374: ldur            w1, [x0, #0xb]
     // 0x937378: r0 = LoadInt32Instr(r1)
@@ -2037,7 +2037,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x937390: add             x1, x1, HEAP, lsl #32
     // 0x937394: ldur            x2, [fp, #-0x18]
     // 0x937398: r0 = keys()
-    //     0x937398: bl              #0x936d60  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
+    //     0x937398: bl              #0x936d60  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
     // 0x93739c: mov             x2, x0
     // 0x9373a0: LoadField: r0 = r2->field_b
     //     0x9373a0: ldur            w0, [x2, #0xb]
@@ -2118,7 +2118,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x937468: mov             x2, x4
     // 0x93746c: stur            x4, [fp, #-8]
     // 0x937470: r0 = keys()
-    //     0x937470: bl              #0x936d60  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
+    //     0x937470: bl              #0x936d60  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
     // 0x937474: LoadField: r1 = r0->field_b
     //     0x937474: ldur            w1, [x0, #0xb]
     // 0x937478: r0 = LoadInt32Instr(r1)
@@ -2146,7 +2146,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9374b8: add             x1, x1, HEAP, lsl #32
     // 0x9374bc: ldur            x2, [fp, #-8]
     // 0x9374c0: r0 = keys()
-    //     0x9374c0: bl              #0x936d60  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
+    //     0x9374c0: bl              #0x936d60  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
     // 0x9374c4: mov             x2, x0
     // 0x9374c8: LoadField: r3 = r2->field_b
     //     0x9374c8: ldur            w3, [x2, #0xb]
@@ -2199,7 +2199,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x937538: add             x2, x2, HEAP, lsl #32
     // 0x93753c: mov             x1, x0
     // 0x937540: r0 = keys()
-    //     0x937540: bl              #0x936d60  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
+    //     0x937540: bl              #0x936d60  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
     // 0x937544: LoadField: r1 = r0->field_b
     //     0x937544: ldur            w1, [x0, #0xb]
     // 0x937548: r0 = LoadInt32Instr(r1)
@@ -2236,7 +2236,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x93769c: DecompressPointer r1
     //     0x93769c: add             x1, x1, HEAP, lsl #32
     // 0x9376a0: r0 = recommended()
-    //     0x9376a0: bl              #0x931bec  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::recommended
+    //     0x9376a0: bl              #0x931bec  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::recommended
     // 0x9376a4: LoadField: r1 = r0->field_7
     //     0x9376a4: ldur            x1, [x0, #7]
     // 0x9376a8: ldur            x2, [fp, #-8]
@@ -2279,7 +2279,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9376f8: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x9376fc: bl              #0x60afc8  ; InitAsyncStub
     // 0x937700: r0 = load()
-    //     0x937700: bl              #0x747768  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::load
+    //     0x937700: bl              #0x747768  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::load
     // 0x937704: mov             x1, x0
     // 0x937708: stur            x1, [fp, #-0x18]
     // 0x93770c: r0 = Await()
@@ -2293,7 +2293,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x937724: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x937724: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x937728: r0 = OnboardingDraft()
-    //     0x937728: bl              #0x7489e0  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::OnboardingDraft
+    //     0x937728: bl              #0x7489e0  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::OnboardingDraft
     // 0x93772c: ldur            x3, [fp, #-0x18]
     // 0x937730: b               #0x937738
     // 0x937734: mov             x3, x0
@@ -2302,9 +2302,9 @@ class AccountSetupController extends ChangeNotifier {
     // 0x937740: mov             x2, x3
     // 0x937744: stur            x3, [fp, #-0x18]
     // 0x937748: r0 = _applyDraftFields()
-    //     0x937748: bl              #0x937914  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_applyDraftFields
+    //     0x937748: bl              #0x937914  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_applyDraftFields
     // 0x93774c: r0 = isNotificationPermissionResolved()
-    //     0x93774c: bl              #0x937600  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::isNotificationPermissionResolved
+    //     0x93774c: bl              #0x937600  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::isNotificationPermissionResolved
     // 0x937750: mov             x1, x0
     // 0x937754: stur            x1, [fp, #-0x20]
     // 0x937758: r0 = Await()
@@ -2324,7 +2324,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x93777c: mov             x2, x5
     // 0x937780: stur            x5, [fp, #-0x20]
     // 0x937784: r0 = keys()
-    //     0x937784: bl              #0x936d60  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
+    //     0x937784: bl              #0x936d60  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
     // 0x937788: LoadField: r3 = r0->field_b
     //     0x937788: ldur            w3, [x0, #0xb]
     // 0x93778c: ldur            x2, [fp, #-0x28]
@@ -2356,7 +2356,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9377d4: add             x1, x1, HEAP, lsl #32
     // 0x9377d8: ldur            x2, [fp, #-0x20]
     // 0x9377dc: r0 = keys()
-    //     0x9377dc: bl              #0x936d60  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
+    //     0x9377dc: bl              #0x936d60  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
     // 0x9377e0: mov             x1, x0
     // 0x9377e4: r2 = "mainFocus"
     //     0x9377e4: add             x2, PP, #0x14, lsl #12  ; [pp+0x142a0] "mainFocus"
@@ -2410,7 +2410,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x937878: stur            w2, [x0, #0xd3]
     // 0x93787c: mov             x1, x0
     // 0x937880: r0 = currentStepKey()
-    //     0x937880: bl              #0x93742c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
+    //     0x937880: bl              #0x93742c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
     // 0x937884: r1 = LoadClassIdInstr(r0)
     //     0x937884: ldur            x1, [x0, #-1]
     //     0x937888: ubfx            x1, x1, #0xc, #0x14
@@ -2449,10 +2449,10 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9378e8: ldur            x0, [fp, #-0x10]
     // 0x9378ec: mov             x1, x0
     // 0x9378f0: r0 = _markPriorStepsSeen()
-    //     0x9378f0: bl              #0x937308  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_markPriorStepsSeen
+    //     0x9378f0: bl              #0x937308  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_markPriorStepsSeen
     // 0x9378f4: ldur            x1, [fp, #-0x10]
     // 0x9378f8: r0 = refreshActiveCoachLine()
-    //     0x9378f8: bl              #0x93333c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::refreshActiveCoachLine
+    //     0x9378f8: bl              #0x93333c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::refreshActiveCoachLine
     // 0x9378fc: ldur            x1, [fp, #-0x10]
     // 0x937900: r0 = notifyListeners()
     //     0x937900: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -2637,7 +2637,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x937b04: DecompressPointer r1
     //     0x937b04: add             x1, x1, HEAP, lsl #32
     // 0x937b08: r0 = canonicalLevelKey()
-    //     0x937b08: bl              #0x931f74  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::canonicalLevelKey
+    //     0x937b08: bl              #0x931f74  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::canonicalLevelKey
     // 0x937b0c: ldur            x2, [fp, #-8]
     // 0x937b10: StoreField: r2->field_5b = r0
     //     0x937b10: stur            w0, [x2, #0x5b]
@@ -2707,7 +2707,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x937bc4: tbz             w0, #0, #0x937bcc
     //     0x937bc8: ldur            x1, [x0, #7]
     // 0x937bcc: r0 = clampShots()
-    //     0x937bcc: bl              #0x931bc0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampShots
+    //     0x937bcc: bl              #0x931bc0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampShots
     // 0x937bd0: mov             x1, x0
     // 0x937bd4: ldur            x0, [fp, #-8]
     // 0x937bd8: StoreField: r0->field_77 = r1
@@ -2726,7 +2726,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x937bfc: mov             x2, x1
     // 0x937c00: mov             x1, x4
     // 0x937c04: r0 = clampMakes()
-    //     0x937c04: bl              #0x931b3c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampMakes
+    //     0x937c04: bl              #0x931b3c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampMakes
     // 0x937c08: mov             x1, x0
     // 0x937c0c: ldur            x0, [fp, #-8]
     // 0x937c10: StoreField: r0->field_7f = r1
@@ -2743,7 +2743,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x937c2c: tbz             w2, #0, #0x937c34
     //     0x937c30: ldur            x1, [x2, #7]
     // 0x937c34: r0 = clampTime()
-    //     0x937c34: bl              #0x931ae8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampTime
+    //     0x937c34: bl              #0x931ae8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampTime
     // 0x937c38: mov             x1, x0
     // 0x937c3c: ldur            x0, [fp, #-8]
     // 0x937c40: StoreField: r0->field_87 = r1
@@ -2756,13 +2756,13 @@ class AccountSetupController extends ChangeNotifier {
     // 0x937c58: mov             x0, x2
     // 0x937c5c: mov             x1, x0
     // 0x937c60: r0 = refreshRecommendedGoals()
-    //     0x937c60: bl              #0x937670  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::refreshRecommendedGoals
+    //     0x937c60: bl              #0x937670  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::refreshRecommendedGoals
     // 0x937c64: ldur            x0, [fp, #-8]
     // 0x937c68: r1 = Instance_ShotEventSoundKind
     //     0x937c68: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a618] Obj!ShotEventSoundKind@d38c01
     //     0x937c6c: ldr             x1, [x1, #0x618]
     // 0x937c70: r0 = soundIdSync()
-    //     0x937c70: bl              #0x72ffd8  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::soundIdSync
+    //     0x937c70: bl              #0x72ffd8  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::soundIdSync
     // 0x937c74: ldur            x1, [fp, #-8]
     // 0x937c78: StoreField: r1->field_6f = r0
     //     0x937c78: stur            w0, [x1, #0x6f]
@@ -3155,7 +3155,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x943b28: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x943b2c: mov             x1, x2
     // 0x943b30: r0 = _touchDraft()
-    //     0x943b30: bl              #0x943b54  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
+    //     0x943b30: bl              #0x943b54  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
     // 0x943b34: ldur            x1, [fp, #-8]
     // 0x943b38: r0 = notifyListeners()
     //     0x943b38: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -3185,7 +3185,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x943b6c: add             x0, x0, HEAP, lsl #32
     // 0x943b70: tbnz            w0, #4, #0x943b78
     // 0x943b74: r0 = _persistDraftIfPreAuth()
-    //     0x943b74: bl              #0x943b90  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_persistDraftIfPreAuth
+    //     0x943b74: bl              #0x943b90  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_persistDraftIfPreAuth
     // 0x943b78: r0 = Null
     //     0x943b78: mov             x0, NULL
     // 0x943b7c: LeaveFrame
@@ -3236,7 +3236,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x943be4: mov             x1, x0
     // 0x943be8: stur            x2, [fp, #-0x18]
     // 0x943bec: r0 = _hasValidBirthDate()
-    //     0x943bec: bl              #0x943e14  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_hasValidBirthDate
+    //     0x943bec: bl              #0x943e14  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_hasValidBirthDate
     // 0x943bf0: tbnz            w0, #4, #0x943c08
     // 0x943bf4: ldur            x0, [fp, #-0x10]
     // 0x943bf8: LoadField: r1 = r0->field_33
@@ -3412,10 +3412,10 @@ class AccountSetupController extends ChangeNotifier {
     //     0x943de4: add             x4, PP, #0x14, lsl #12  ; [pp+0x14a50] List(45) [0, 0x15, 0x14, 0x1, "acquisitionSource", 0xe, "birthDate", 0x2, "currentStep", 0x14, "gender", 0x6, "height", 0x3, "levelOfPlay", 0xc, "mainFocus", 0x8, "mainFocusAttributes", 0x9, "name", 0x1, "position", 0x5, "recommendedMakesGoal", 0x12, "recommendedShotsGoal", 0x11, "recommendedTimeGoalSeconds", 0x13, "secondaryFocus", 0xa, "secondaryFocusAttributes", 0xb, "shootingHand", 0x7, "trainingFrequency", 0xd, "triedOtherTrainingApps", 0xf, "weight", 0x4, "worksWithBasketballTrainer", 0x10, Null]
     //     0x943de8: ldr             x4, [x4, #0xa50]
     // 0x943dec: r0 = OnboardingDraft()
-    //     0x943dec: bl              #0x7489e0  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::OnboardingDraft
+    //     0x943dec: bl              #0x7489e0  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::OnboardingDraft
     // 0x943df0: ldur            x1, [fp, #-0xb0]
     // 0x943df4: r0 = save()
-    //     0x943df4: bl              #0x94008c  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::save
+    //     0x943df4: bl              #0x94008c  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::save
     // 0x943df8: mov             x1, x0
     // 0x943dfc: stur            x1, [fp, #-0x10]
     // 0x943e00: r0 = Await()
@@ -3555,7 +3555,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x944f90: stur            w0, [x1, #0xf]
     // 0x944f94: mov             x2, x1
     // 0x944f98: r1 = Function '<anonymous closure>':.
-    //     0x944f98: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e6f8] AnonymousClosure: (0x944fcc), in [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::prepareNotificationsStep (0x944f64)
+    //     0x944f98: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e6f8] AnonymousClosure: (0x944fcc), in [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::prepareNotificationsStep (0x944f64)
     //     0x944f9c: ldr             x1, [x1, #0x6f8]
     // 0x944fa0: r0 = AllocateClosure()
     //     0x944fa0: bl              #0xe553e0  ; AllocateClosureStub
@@ -3598,13 +3598,13 @@ class AccountSetupController extends ChangeNotifier {
     //     0x945000: ldr             x0, [PP, #0x78]  ; [pp+0x78] TypeArguments: <Null?>
     //     0x945004: bl              #0x60afc8  ; InitAsyncStub
     // 0x945008: r0 = refreshPermissionCache()
-    //     0x945008: bl              #0x6be308  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::refreshPermissionCache
+    //     0x945008: bl              #0x6be308  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::refreshPermissionCache
     // 0x94500c: mov             x1, x0
     // 0x945010: stur            x1, [fp, #-0x18]
     // 0x945014: r0 = Await()
     //     0x945014: bl              #0x60ad4c  ; AwaitStub
     // 0x945018: r0 = isNotificationPermissionResolved()
-    //     0x945018: bl              #0x937600  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::isNotificationPermissionResolved
+    //     0x945018: bl              #0x937600  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::isNotificationPermissionResolved
     // 0x94501c: mov             x1, x0
     // 0x945020: stur            x1, [fp, #-0x18]
     // 0x945024: r0 = Await()
@@ -3664,7 +3664,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x94a2a8: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x94a2ac: mov             x1, x3
     // 0x94a2b0: r0 = _touchDraft()
-    //     0x94a2b0: bl              #0x943b54  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
+    //     0x94a2b0: bl              #0x943b54  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
     // 0x94a2b4: ldur            x1, [fp, #-8]
     // 0x94a2b8: r0 = notifyListeners()
     //     0x94a2b8: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -3751,7 +3751,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x94a758: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x94a75c: mov             x1, x3
     // 0x94a760: r0 = _touchDraft()
-    //     0x94a760: bl              #0x943b54  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
+    //     0x94a760: bl              #0x943b54  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
     // 0x94a764: ldur            x1, [fp, #-8]
     // 0x94a768: r0 = notifyListeners()
     //     0x94a768: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -3792,7 +3792,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x94b958: DecompressPointer r2
     //     0x94b958: add             x2, x2, HEAP, lsl #32
     // 0x94b95c: r0 = keys()
-    //     0x94b95c: bl              #0x936d60  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
+    //     0x94b95c: bl              #0x936d60  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
     // 0x94b960: mov             x1, x0
     // 0x94b964: r2 = "recap"
     //     0x94b964: add             x2, PP, #0x1a, lsl #12  ; [pp+0x1a608] "recap"
@@ -3808,10 +3808,10 @@ class AccountSetupController extends ChangeNotifier {
     //     0x94b980: stur            x1, [x2, #0x8f]
     // 0x94b984: mov             x1, x2
     // 0x94b988: r0 = refreshActiveCoachLine()
-    //     0x94b988: bl              #0x93333c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::refreshActiveCoachLine
+    //     0x94b988: bl              #0x93333c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::refreshActiveCoachLine
     // 0x94b98c: ldur            x1, [fp, #-8]
     // 0x94b990: r0 = _persistStep()
-    //     0x94b990: bl              #0x94b9b4  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_persistStep
+    //     0x94b990: bl              #0x94b9b4  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_persistStep
     // 0x94b994: ldur            x1, [fp, #-8]
     // 0x94b998: r0 = notifyListeners()
     //     0x94b998: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -3850,7 +3850,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x94b9e4: add             x0, x0, HEAP, lsl #32
     // 0x94b9e8: tbnz            w0, #4, #0x94ba04
     // 0x94b9ec: r0 = _persistDraftIfPreAuth()
-    //     0x94b9ec: bl              #0x943b90  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_persistDraftIfPreAuth
+    //     0x94b9ec: bl              #0x943b90  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_persistDraftIfPreAuth
     // 0x94b9f0: mov             x1, x0
     // 0x94b9f4: stur            x1, [fp, #-0x18]
     // 0x94b9f8: r0 = Await()
@@ -3880,7 +3880,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x94ba2c: add             x2, x2, HEAP, lsl #32
     // 0x94ba30: mov             x1, x0
     // 0x94ba34: r0 = save()
-    //     0x94ba34: bl              #0x94ba54  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/post_auth_account_setup_step_store.dart] PostAuthAccountSetupStepStore::save
+    //     0x94ba34: bl              #0x94ba54  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/post_auth_account_setup_step_store.dart] PostAuthAccountSetupStepStore::save
     // 0x94ba38: mov             x1, x0
     // 0x94ba3c: stur            x1, [fp, #-0x10]
     // 0x94ba40: r0 = Await()
@@ -4039,7 +4039,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9cb750: cmp             SP, x16
     //     0x9cb754: b.ls            #0x9cb76c
     // 0x9cb758: r0 = bootstrap()
-    //     0x9cb758: bl              #0x932828  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::bootstrap
+    //     0x9cb758: bl              #0x932828  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::bootstrap
     // 0x9cb75c: r0 = Null
     //     0x9cb75c: mov             x0, NULL
     // 0x9cb760: LeaveFrame
@@ -4067,7 +4067,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9e5b30: b.ls            #0x9e60d0
     // 0x9e5b34: mov             x1, x0
     // 0x9e5b38: r0 = currentStepKey()
-    //     0x9e5b38: bl              #0x93742c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
+    //     0x9e5b38: bl              #0x93742c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
     // 0x9e5b3c: stur            x0, [fp, #-0x10]
     // 0x9e5b40: r16 = "enterBally"
     //     0x9e5b40: add             x16, PP, #0x21, lsl #12  ; [pp+0x215c8] "enterBally"
@@ -4108,7 +4108,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9e5ba0: tbnz            w0, #4, #0x9e5bb8
     // 0x9e5ba4: ldur            x1, [fp, #-8]
     // 0x9e5ba8: r0 = _hasValidBirthDate()
-    //     0x9e5ba8: bl              #0x943e14  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_hasValidBirthDate
+    //     0x9e5ba8: bl              #0x943e14  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_hasValidBirthDate
     // 0x9e5bac: LeaveFrame
     //     0x9e5bac: mov             SP, fp
     //     0x9e5bb0: ldp             fp, lr, [SP], #0x10
@@ -4292,7 +4292,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9e5d98: DecompressPointer r1
     //     0x9e5d98: add             x1, x1, HEAP, lsl #32
     // 0x9e5d9c: r0 = isValid()
-    //     0x9e5d9c: bl              #0x93247c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::isValid
+    //     0x9e5d9c: bl              #0x93247c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::isValid
     // 0x9e5da0: LeaveFrame
     //     0x9e5da0: mov             SP, fp
     //     0x9e5da4: ldp             fp, lr, [SP], #0x10
@@ -4325,7 +4325,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9e5de8: DecompressPointer r3
     //     0x9e5de8: add             x3, x3, HEAP, lsl #32
     // 0x9e5dec: r0 = isValidSecondary()
-    //     0x9e5dec: bl              #0x93228c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::isValidSecondary
+    //     0x9e5dec: bl              #0x93228c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::isValidSecondary
     // 0x9e5df0: LeaveFrame
     //     0x9e5df0: mov             SP, fp
     //     0x9e5df4: ldp             fp, lr, [SP], #0x10
@@ -4616,7 +4616,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9e62e4: b.ls            #0x9e6338
     // 0x9e62e8: mov             x1, x0
     // 0x9e62ec: r0 = currentStepKey()
-    //     0x9e62ec: bl              #0x93742c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
+    //     0x9e62ec: bl              #0x93742c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
     // 0x9e62f0: mov             x3, x0
     // 0x9e62f4: ldur            x0, [fp, #-8]
     // 0x9e62f8: stur            x3, [fp, #-0x10]
@@ -4629,16 +4629,16 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9e6308: DecompressPointer r2
     //     0x9e6308: add             x2, x2, HEAP, lsl #32
     // 0x9e630c: r0 = keys()
-    //     0x9e630c: bl              #0x936d60  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
+    //     0x9e630c: bl              #0x936d60  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
     // 0x9e6310: ldur            x1, [fp, #-8]
     // 0x9e6314: stur            x0, [fp, #-8]
     // 0x9e6318: r0 = _fullBuild()
-    //     0x9e6318: bl              #0x936c20  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_fullBuild
+    //     0x9e6318: bl              #0x936c20  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_fullBuild
     // 0x9e631c: mov             x1, x0
     // 0x9e6320: ldur            x2, [fp, #-0x10]
     // 0x9e6324: ldur            x3, [fp, #-8]
     // 0x9e6328: r0 = visible()
-    //     0x9e6328: bl              #0x936948  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyBuild::visible
+    //     0x9e6328: bl              #0x936948  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyBuild::visible
     // 0x9e632c: LeaveFrame
     //     0x9e632c: mov             SP, fp
     //     0x9e6330: ldp             fp, lr, [SP], #0x10
@@ -4658,7 +4658,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9e634c: cmp             SP, x16
     //     0x9e6350: b.ls            #0x9e6374
     // 0x9e6354: r0 = visibleBallyBuild()
-    //     0x9e6354: bl              #0x9e62c8  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::visibleBallyBuild
+    //     0x9e6354: bl              #0x9e62c8  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::visibleBallyBuild
     // 0x9e6358: ArrayLoad: r2 = r0[0]  ; List_4
     //     0x9e6358: ldur            w2, [x0, #0x17]
     // 0x9e635c: DecompressPointer r2
@@ -4666,7 +4666,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9e6360: r1 = ""
     //     0x9e6360: ldr             x1, [PP, #0x880]  ; [pp+0x880] ""
     // 0x9e6364: r0 = fullBodyPose()
-    //     0x9e6364: bl              #0x9e60fc  ; [package:ballai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::fullBodyPose
+    //     0x9e6364: bl              #0x9e60fc  ; [package:kourtai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::fullBodyPose
     // 0x9e6368: LeaveFrame
     //     0x9e6368: mov             SP, fp
     //     0x9e636c: ldp             fp, lr, [SP], #0x10
@@ -4701,14 +4701,14 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9e63b8: add             x2, x2, HEAP, lsl #32
     // 0x9e63bc: mov             x1, x0
     // 0x9e63c0: r0 = keys()
-    //     0x9e63c0: bl              #0x936d60  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
+    //     0x9e63c0: bl              #0x936d60  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
     // 0x9e63c4: LoadField: r1 = r0->field_b
     //     0x9e63c4: ldur            w1, [x0, #0xb]
     // 0x9e63c8: r2 = LoadInt32Instr(r1)
     //     0x9e63c8: sbfx            x2, x1, #1, #0x1f
     // 0x9e63cc: ldur            x1, [fp, #-8]
     // 0x9e63d0: r0 = progressForIndex()
-    //     0x9e63d0: bl              #0x9e63e8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::progressForIndex
+    //     0x9e63d0: bl              #0x9e63e8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::progressForIndex
     // 0x9e63d4: LeaveFrame
     //     0x9e63d4: mov             SP, fp
     //     0x9e63d8: ldp             fp, lr, [SP], #0x10
@@ -4737,7 +4737,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9e66a4: bl              #0x60afc8  ; InitAsyncStub
     // 0x9e66a8: ldur            x1, [fp, #-0x10]
     // 0x9e66ac: r0 = getCanContinue()
-    //     0x9e66ac: bl              #0x9e5b14  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::getCanContinue
+    //     0x9e66ac: bl              #0x9e5b14  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::getCanContinue
     // 0x9e66b0: tbz             w0, #4, #0x9e66bc
     // 0x9e66b4: r0 = Null
     //     0x9e66b4: mov             x0, NULL
@@ -4745,7 +4745,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9e66b8: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x9e66bc: ldur            x1, [fp, #-0x10]
     // 0x9e66c0: r0 = currentStepKey()
-    //     0x9e66c0: bl              #0x93742c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
+    //     0x9e66c0: bl              #0x93742c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
     // 0x9e66c4: r1 = LoadClassIdInstr(r0)
     //     0x9e66c4: ldur            x1, [x0, #-1]
     //     0x9e66c8: ubfx            x1, x1, #0xc, #0x14
@@ -4764,7 +4764,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9e66f4: DecompressPointer r1
     //     0x9e66f4: add             x1, x1, HEAP, lsl #32
     // 0x9e66f8: r0 = meetsMinimum()
-    //     0x9e66f8: bl              #0x9e6904  ; [package:ballai/automatic/utility/extensions/date/minimum_age_requirement.dart] MinimumAgeRequirement::meetsMinimum
+    //     0x9e66f8: bl              #0x9e6904  ; [package:kourtai/automatic/utility/extensions/date/minimum_age_requirement.dart] MinimumAgeRequirement::meetsMinimum
     // 0x9e66fc: tbz             w0, #4, #0x9e6708
     // 0x9e6700: r0 = Null
     //     0x9e6700: mov             x0, NULL
@@ -4773,11 +4773,11 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9e6708: ldur            x0, [fp, #-0x10]
     // 0x9e670c: mov             x1, x0
     // 0x9e6710: r0 = currentStepKey()
-    //     0x9e6710: bl              #0x93742c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
+    //     0x9e6710: bl              #0x93742c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
     // 0x9e6714: ldur            x1, [fp, #-0x10]
     // 0x9e6718: mov             x2, x0
     // 0x9e671c: r0 = markStepSeen()
-    //     0x9e671c: bl              #0x9e68b0  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::markStepSeen
+    //     0x9e671c: bl              #0x9e68b0  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::markStepSeen
     // 0x9e6720: ldur            x0, [fp, #-0x10]
     // 0x9e6724: LoadField: r3 = r0->field_8f
     //     0x9e6724: ldur            x3, [x0, #0x8f]
@@ -4793,7 +4793,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9e673c: mov             x2, x4
     // 0x9e6740: stur            x4, [fp, #-0x18]
     // 0x9e6744: r0 = keys()
-    //     0x9e6744: bl              #0x936d60  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
+    //     0x9e6744: bl              #0x936d60  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
     // 0x9e6748: LoadField: r1 = r0->field_b
     //     0x9e6748: ldur            w1, [x0, #0xb]
     // 0x9e674c: r0 = LoadInt32Instr(r1)
@@ -4805,7 +4805,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9e6760: tbz             w0, #4, #0x9e6778
     // 0x9e6764: ldur            x1, [fp, #-0x10]
     // 0x9e6768: r0 = finalizeProfile()
-    //     0x9e6768: bl              #0x9e6ce4  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::finalizeProfile
+    //     0x9e6768: bl              #0x9e6ce4  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::finalizeProfile
     // 0x9e676c: mov             x1, x0
     // 0x9e6770: stur            x1, [fp, #-0x18]
     // 0x9e6774: r0 = Await()
@@ -4822,7 +4822,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9e678c: stur            x2, [x0, #0x8f]
     // 0x9e6790: mov             x1, x0
     // 0x9e6794: r0 = currentStepKey()
-    //     0x9e6794: bl              #0x93742c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
+    //     0x9e6794: bl              #0x93742c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
     // 0x9e6798: r1 = LoadClassIdInstr(r0)
     //     0x9e6798: ldur            x1, [x0, #-1]
     //     0x9e679c: ubfx            x1, x1, #0xc, #0x14
@@ -4849,7 +4849,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9e67dc: ldur            x0, [fp, #-0x10]
     // 0x9e67e0: mov             x1, x0
     // 0x9e67e4: r0 = currentStepKey()
-    //     0x9e67e4: bl              #0x93742c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
+    //     0x9e67e4: bl              #0x93742c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
     // 0x9e67e8: r1 = LoadClassIdInstr(r0)
     //     0x9e67e8: ldur            x1, [x0, #-1]
     //     0x9e67ec: ubfx            x1, x1, #0xc, #0x14
@@ -4877,7 +4877,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9e6830: ldur            x0, [fp, #-0x10]
     // 0x9e6834: mov             x1, x0
     // 0x9e6838: r0 = currentStepKey()
-    //     0x9e6838: bl              #0x93742c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
+    //     0x9e6838: bl              #0x93742c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
     // 0x9e683c: r1 = LoadClassIdInstr(r0)
     //     0x9e683c: ldur            x1, [x0, #-1]
     //     0x9e6840: ubfx            x1, x1, #0xc, #0x14
@@ -4900,10 +4900,10 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9e6878: ldur            x0, [fp, #-0x10]
     // 0x9e687c: mov             x1, x0
     // 0x9e6880: r0 = refreshActiveCoachLine()
-    //     0x9e6880: bl              #0x93333c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::refreshActiveCoachLine
+    //     0x9e6880: bl              #0x93333c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::refreshActiveCoachLine
     // 0x9e6884: ldur            x1, [fp, #-0x10]
     // 0x9e6888: r0 = _persistStep()
-    //     0x9e6888: bl              #0x94b9b4  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_persistStep
+    //     0x9e6888: bl              #0x94b9b4  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_persistStep
     // 0x9e688c: mov             x1, x0
     // 0x9e6890: stur            x1, [fp, #-0x18]
     // 0x9e6894: r0 = Await()
@@ -5011,14 +5011,14 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9e6d64: ldur            x1, [fp, #-0xa0]
     // 0x9e6d68: ldur            x2, [fp, #-0xa8]
     // 0x9e6d6c: r0 = _mergedUser()
-    //     0x9e6d6c: bl              #0x9e70ac  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_mergedUser
+    //     0x9e6d6c: bl              #0x9e70ac  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_mergedUser
     // 0x9e6d70: ldur            x1, [fp, #-0xb0]
     // 0x9e6d74: mov             x2, x0
     // 0x9e6d78: stur            x0, [fp, #-0xb8]
     // 0x9e6d7c: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x9e6d7c: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x9e6d80: r0 = updateUser()
-    //     0x9e6d80: bl              #0x6618fc  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::updateUser
+    //     0x9e6d80: bl              #0x6618fc  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::updateUser
     // 0x9e6d84: mov             x1, x0
     // 0x9e6d88: stur            x1, [fp, #-0xc0]
     // 0x9e6d8c: r0 = Await()
@@ -5043,17 +5043,17 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9e6dc0: mov             x5, x4
     // 0x9e6dc4: stur            x8, [fp, #-0xc8]
     // 0x9e6dc8: r0 = upsertCurrentWeekGoal()
-    //     0x9e6dc8: bl              #0x9308dc  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::upsertCurrentWeekGoal
+    //     0x9e6dc8: bl              #0x9308dc  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::upsertCurrentWeekGoal
     // 0x9e6dcc: mov             x1, x0
     // 0x9e6dd0: stur            x1, [fp, #-0xe0]
     // 0x9e6dd4: r0 = Await()
     //     0x9e6dd4: bl              #0x60ad4c  ; AwaitStub
     // 0x9e6dd8: ldur            x1, [fp, #-0xb0]
     // 0x9e6ddc: r0 = markAccountSetupComplete()
-    //     0x9e6ddc: bl              #0x9308a4  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::markAccountSetupComplete
+    //     0x9e6ddc: bl              #0x9308a4  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::markAccountSetupComplete
     // 0x9e6de0: ldur            x1, [fp, #-0xb0]
     // 0x9e6de4: r0 = refreshPostSetupPermissionsFlag()
-    //     0x9e6de4: bl              #0x9306c0  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::refreshPostSetupPermissionsFlag
+    //     0x9e6de4: bl              #0x9306c0  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::refreshPostSetupPermissionsFlag
     // 0x9e6de8: mov             x1, x0
     // 0x9e6dec: stur            x1, [fp, #-0xe0]
     // 0x9e6df0: r0 = Await()
@@ -5077,19 +5077,19 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9e6e20: mov             x1, x3
     // 0x9e6e24: stur            x3, [fp, #-0xc0]
     // 0x9e6e28: r0 = clear()
-    //     0x9e6e28: bl              #0x9302c4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/post_auth_account_setup_step_store.dart] PostAuthAccountSetupStepStore::clear
+    //     0x9e6e28: bl              #0x9302c4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/post_auth_account_setup_step_store.dart] PostAuthAccountSetupStepStore::clear
     // 0x9e6e2c: mov             x1, x0
     // 0x9e6e30: stur            x1, [fp, #-0xe0]
     // 0x9e6e34: r0 = Await()
     //     0x9e6e34: bl              #0x60ad4c  ; AwaitStub
     // 0x9e6e38: r0 = clear()
-    //     0x9e6e38: bl              #0x930660  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::clear
+    //     0x9e6e38: bl              #0x930660  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::clear
     // 0x9e6e3c: mov             x1, x0
     // 0x9e6e40: stur            x1, [fp, #-0xe0]
     // 0x9e6e44: r0 = Await()
     //     0x9e6e44: bl              #0x60ad4c  ; AwaitStub
     // 0x9e6e48: r0 = cancelAccountSetupIncompleteFunnel()
-    //     0x9e6e48: bl              #0x930278  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelAccountSetupIncompleteFunnel
+    //     0x9e6e48: bl              #0x930278  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelAccountSetupIncompleteFunnel
     // 0x9e6e4c: mov             x1, x0
     // 0x9e6e50: stur            x1, [fp, #-0xe0]
     // 0x9e6e54: r0 = Await()
@@ -5103,7 +5103,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9e6e6c: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x9e6e6c: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x9e6e70: r0 = syncFirstWorkoutIncompleteFunnel()
-    //     0x9e6e70: bl              #0x930030  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::syncFirstWorkoutIncompleteFunnel
+    //     0x9e6e70: bl              #0x930030  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::syncFirstWorkoutIncompleteFunnel
     // 0x9e6e74: mov             x1, x0
     // 0x9e6e78: stur            x1, [fp, #-0xb0]
     // 0x9e6e7c: r0 = Await()
@@ -5130,7 +5130,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9e6eb8: ldur            w0, [x3, #7]
     // 0x9e6ebc: cbz             w0, #0x9e6f0c
     // 0x9e6ec0: ldur            x0, [fp, #-0xb8]
-    // 0x9e6ec4: r0 = InitLateStaticField(0xcb8) // [package:ballai/automatic/lib/aws/email_service.dart] EmailService::shared
+    // 0x9e6ec4: r0 = InitLateStaticField(0xcb8) // [package:kourtai/automatic/lib/aws/email_service.dart] EmailService::shared
     //     0x9e6ec4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x9e6ec8: ldr             x0, [x0, #0x1970]
     //     0x9e6ecc: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -5151,7 +5151,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9e6f00: ldur            x3, [fp, #-0xa8]
     // 0x9e6f04: stur            x5, [fp, #-0xb0]
     // 0x9e6f08: r0 = sendWelcomeEmail()
-    //     0x9e6f08: bl              #0x9e6fc8  ; [package:ballai/automatic/lib/aws/email_service.dart] EmailService::sendWelcomeEmail
+    //     0x9e6f08: bl              #0x9e6fc8  ; [package:kourtai/automatic/lib/aws/email_service.dart] EmailService::sendWelcomeEmail
     // 0x9e6f0c: ldur            x2, [fp, #-0xa0]
     // 0x9e6f10: b               #0x9e6f70
     // 0x9e6f14: sub             SP, fp, #0xf0
@@ -5235,7 +5235,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9e70d4: LoadField: r1 = r2->field_77
     //     0x9e70d4: ldur            x1, [x2, #0x77]
     // 0x9e70d8: r0 = clampShots()
-    //     0x9e70d8: bl              #0x931bc0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampShots
+    //     0x9e70d8: bl              #0x931bc0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampShots
     // 0x9e70dc: mov             x3, x0
     // 0x9e70e0: ldur            x0, [fp, #-8]
     // 0x9e70e4: stur            x3, [fp, #-0x18]
@@ -5243,14 +5243,14 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9e70e8: ldur            x1, [x0, #0x7f]
     // 0x9e70ec: mov             x2, x3
     // 0x9e70f0: r0 = clampMakes()
-    //     0x9e70f0: bl              #0x931b3c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampMakes
+    //     0x9e70f0: bl              #0x931b3c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampMakes
     // 0x9e70f4: mov             x2, x0
     // 0x9e70f8: ldur            x0, [fp, #-8]
     // 0x9e70fc: stur            x2, [fp, #-0x20]
     // 0x9e7100: LoadField: r1 = r0->field_87
     //     0x9e7100: ldur            x1, [x0, #0x87]
     // 0x9e7104: r0 = clampTime()
-    //     0x9e7104: bl              #0x931ae8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampTime
+    //     0x9e7104: bl              #0x931ae8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampTime
     // 0x9e7108: mov             x2, x0
     // 0x9e710c: ldur            x0, [fp, #-8]
     // 0x9e7110: stur            x2, [fp, #-0x28]
@@ -5551,7 +5551,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9e7434: add             x4, PP, #0x1c, lsl #12  ; [pp+0x1cfb0] List(45) [0, 0x15, 0x14, 0x1, "acquisitionSource", 0xe, "birthDate", 0x2, "gender", 0x3, "height", 0x4, "levelOfPlay", 0xc, "mainFocus", 0x8, "mainFocusAttributes", 0x9, "makeActivityGoal", 0x13, "name", 0x1, "position", 0x6, "profileVisibility", 0x11, "secondaryFocus", 0xa, "secondaryFocusAttributes", 0xb, "shootingHand", 0x7, "shotActivityGoal", 0x12, "timeActivityGoal", 0x14, "trainingFrequency", 0xd, "triedOtherTrainingApps", 0xf, "weight", 0x5, "worksWithBasketballTrainer", 0x10, Null]
     //     0x9e7438: ldr             x4, [x4, #0xfb0]
     // 0x9e743c: r0 = copyWith()
-    //     0x9e743c: bl              #0x663774  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::copyWith
+    //     0x9e743c: bl              #0x663774  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::copyWith
     // 0x9e7440: LeaveFrame
     //     0x9e7440: mov             SP, fp
     //     0x9e7444: ldp             fp, lr, [SP], #0x10
@@ -5594,7 +5594,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9e7940: tbnz            w1, #4, #0x9e7958
     // 0x9e7944: mov             x1, x0
     // 0x9e7948: r0 = exitPreAuthFunnelToTitle()
-    //     0x9e7948: bl              #0x9e7bc8  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::exitPreAuthFunnelToTitle
+    //     0x9e7948: bl              #0x9e7bc8  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::exitPreAuthFunnelToTitle
     // 0x9e794c: mov             x1, x0
     // 0x9e7950: stur            x1, [fp, #-0x20]
     // 0x9e7954: r0 = Await()
@@ -5612,7 +5612,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9e7974: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x9e7978: mov             x1, x0
     // 0x9e797c: r0 = _previousNavigableStep()
-    //     0x9e797c: bl              #0x9e7a5c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_previousNavigableStep
+    //     0x9e797c: bl              #0x9e7a5c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_previousNavigableStep
     // 0x9e7980: cmp             w0, NULL
     // 0x9e7984: b.ne            #0x9e79cc
     // 0x9e7988: ldur            x2, [fp, #-0x10]
@@ -5623,7 +5623,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9e7994: tbnz            w0, #4, #0x9e79ac
     // 0x9e7998: mov             x1, x2
     // 0x9e799c: r0 = exitPreAuthFunnelToTitle()
-    //     0x9e799c: bl              #0x9e7bc8  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::exitPreAuthFunnelToTitle
+    //     0x9e799c: bl              #0x9e7bc8  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::exitPreAuthFunnelToTitle
     // 0x9e79a0: mov             x1, x0
     // 0x9e79a4: stur            x1, [fp, #-0x20]
     // 0x9e79a8: r0 = Await()
@@ -5648,7 +5648,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9e79dc: stur            x1, [x2, #0x8f]
     // 0x9e79e0: mov             x1, x2
     // 0x9e79e4: r0 = currentStepKey()
-    //     0x9e79e4: bl              #0x93742c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
+    //     0x9e79e4: bl              #0x93742c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
     // 0x9e79e8: r1 = LoadClassIdInstr(r0)
     //     0x9e79e8: ldur            x1, [x0, #-1]
     //     0x9e79ec: ubfx            x1, x1, #0xc, #0x14
@@ -5671,10 +5671,10 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9e7a24: ldur            x0, [fp, #-0x10]
     // 0x9e7a28: mov             x1, x0
     // 0x9e7a2c: r0 = refreshActiveCoachLine()
-    //     0x9e7a2c: bl              #0x93333c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::refreshActiveCoachLine
+    //     0x9e7a2c: bl              #0x93333c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::refreshActiveCoachLine
     // 0x9e7a30: ldur            x1, [fp, #-0x10]
     // 0x9e7a34: r0 = _persistStep()
-    //     0x9e7a34: bl              #0x94b9b4  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_persistStep
+    //     0x9e7a34: bl              #0x94b9b4  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_persistStep
     // 0x9e7a38: mov             x1, x0
     // 0x9e7a3c: stur            x1, [fp, #-0x18]
     // 0x9e7a40: r0 = Await()
@@ -5727,7 +5727,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9e7ab8: add             x1, x1, HEAP, lsl #32
     // 0x9e7abc: mov             x2, x3
     // 0x9e7ac0: r0 = keys()
-    //     0x9e7ac0: bl              #0x936d60  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
+    //     0x9e7ac0: bl              #0x936d60  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
     // 0x9e7ac4: LoadField: r1 = r0->field_b
     //     0x9e7ac4: ldur            w1, [x0, #0xb]
     // 0x9e7ac8: r0 = LoadInt32Instr(r1)
@@ -5742,7 +5742,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9e7ae0: add             x1, x1, HEAP, lsl #32
     // 0x9e7ae4: ldur            x2, [fp, #-0x18]
     // 0x9e7ae8: r0 = keys()
-    //     0x9e7ae8: bl              #0x936d60  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
+    //     0x9e7ae8: bl              #0x936d60  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/account_setup_steps.dart] AccountSetupSteps::keys
     // 0x9e7aec: mov             x2, x0
     // 0x9e7af0: LoadField: r0 = r2->field_b
     //     0x9e7af0: ldur            w0, [x2, #0xb]
@@ -5844,7 +5844,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9e7bf8: StoreField: r1->field_2b = r0
     //     0x9e7bf8: stur            w0, [x1, #0x2b]
     // 0x9e7bfc: r0 = clear()
-    //     0x9e7bfc: bl              #0x930660  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::clear
+    //     0x9e7bfc: bl              #0x930660  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::clear
     // 0x9e7c00: mov             x1, x0
     // 0x9e7c04: stur            x1, [fp, #-0x10]
     // 0x9e7c08: r0 = Await()
@@ -5873,7 +5873,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9e98ec: b.ls            #0x9e9904
     // 0x9e98f0: ldr             x2, [fp, #0x10]
     // 0x9e98f4: r0 = setBirthDate()
-    //     0x9e98f4: bl              #0x9e990c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setBirthDate
+    //     0x9e98f4: bl              #0x9e990c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setBirthDate
     // 0x9e98f8: LeaveFrame
     //     0x9e98f8: mov             SP, fp
     //     0x9e98fc: ldp             fp, lr, [SP], #0x10
@@ -5908,7 +5908,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9e9948: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x9e994c: mov             x1, x2
     // 0x9e9950: r0 = _touchDraft()
-    //     0x9e9950: bl              #0x943b54  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
+    //     0x9e9950: bl              #0x943b54  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
     // 0x9e9954: ldur            x1, [fp, #-8]
     // 0x9e9958: r0 = notifyListeners()
     //     0x9e9958: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -5942,7 +5942,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9ea560: bl              #0x60afc8  ; InitAsyncStub
     // 0x9ea564: ldur            x1, [fp, #-0x10]
     // 0x9ea568: r0 = currentStepKey()
-    //     0x9ea568: bl              #0x93742c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
+    //     0x9ea568: bl              #0x93742c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
     // 0x9ea56c: r1 = LoadClassIdInstr(r0)
     //     0x9ea56c: ldur            x1, [x0, #-1]
     //     0x9ea570: ubfx            x1, x1, #0xc, #0x14
@@ -5982,7 +5982,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9ea5cc: DecompressPointer r1
     //     0x9ea5cc: add             x1, x1, HEAP, lsl #32
     // 0x9ea5d0: r0 = requestNotificationPermissionIfNeeded()
-    //     0x9ea5d0: bl              #0x6600ec  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::requestNotificationPermissionIfNeeded
+    //     0x9ea5d0: bl              #0x6600ec  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::requestNotificationPermissionIfNeeded
     // 0x9ea5d4: mov             x1, x0
     // 0x9ea5d8: stur            x1, [fp, #-0x18]
     // 0x9ea5dc: r0 = Await()
@@ -5997,7 +5997,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9ea5f0: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
     // 0x9ea5f4: ldur            x1, [fp, #-0x10]
     // 0x9ea5f8: r0 = goNext()
-    //     0x9ea5f8: bl              #0x9e6680  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::goNext
+    //     0x9ea5f8: bl              #0x9e6680  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::goNext
     // 0x9ea5fc: mov             x1, x0
     // 0x9ea600: stur            x1, [fp, #-0x10]
     // 0x9ea604: r0 = Await()
@@ -6029,7 +6029,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9ea690: bl              #0x60afc8  ; InitAsyncStub
     // 0x9ea694: ldur            x1, [fp, #-0x10]
     // 0x9ea698: r0 = currentStepKey()
-    //     0x9ea698: bl              #0x93742c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
+    //     0x9ea698: bl              #0x93742c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
     // 0x9ea69c: r1 = LoadClassIdInstr(r0)
     //     0x9ea69c: ldur            x1, [x0, #-1]
     //     0x9ea6a0: ubfx            x1, x1, #0xc, #0x14
@@ -6063,7 +6063,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9ea6ec: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
     // 0x9ea6f0: ldur            x1, [fp, #-0x10]
     // 0x9ea6f4: r0 = goNext()
-    //     0x9ea6f4: bl              #0x9e6680  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::goNext
+    //     0x9ea6f4: bl              #0x9e6680  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::goNext
     // 0x9ea6f8: mov             x1, x0
     // 0x9ea6fc: stur            x1, [fp, #-0x10]
     // 0x9ea700: r0 = Await()
@@ -6086,7 +6086,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0x9fa4d4: cmp             SP, x16
     //     0x9fa4d8: b.ls            #0x9fa4fc
     // 0x9fa4dc: r0 = visibleBallyBuild()
-    //     0x9fa4dc: bl              #0x9e62c8  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::visibleBallyBuild
+    //     0x9fa4dc: bl              #0x9e62c8  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::visibleBallyBuild
     // 0x9fa4e0: ArrayLoad: r2 = r0[0]  ; List_4
     //     0x9fa4e0: ldur            w2, [x0, #0x17]
     // 0x9fa4e4: DecompressPointer r2
@@ -6094,7 +6094,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0x9fa4e8: r1 = ""
     //     0x9fa4e8: ldr             x1, [PP, #0x880]  ; [pp+0x880] ""
     // 0x9fa4ec: r0 = headPose()
-    //     0x9fa4ec: bl              #0x9fa504  ; [package:ballai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::headPose
+    //     0x9fa4ec: bl              #0x9fa504  ; [package:kourtai/automatic/utility/bally/bally_pose_resolver.dart] BallyPoseResolver::headPose
     // 0x9fa4f0: LeaveFrame
     //     0x9fa4f0: mov             SP, fp
     //     0x9fa4f4: ldp             fp, lr, [SP], #0x10
@@ -6124,7 +6124,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0xa0b4ec: cmp             SP, x16
     //     0xa0b4f0: b.ls            #0xa0b5b8
     // 0xa0b4f4: r0 = clampShots()
-    //     0xa0b4f4: bl              #0x931bc0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampShots
+    //     0xa0b4f4: bl              #0x931bc0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampShots
     // 0xa0b4f8: mov             x1, x0
     // 0xa0b4fc: ldur            x0, [fp, #-8]
     // 0xa0b500: StoreField: r0->field_77 = r1
@@ -6132,21 +6132,21 @@ class AccountSetupController extends ChangeNotifier {
     // 0xa0b504: mov             x2, x1
     // 0xa0b508: ldur            x1, [fp, #-0x10]
     // 0xa0b50c: r0 = clampMakes()
-    //     0xa0b50c: bl              #0x931b3c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampMakes
+    //     0xa0b50c: bl              #0x931b3c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampMakes
     // 0xa0b510: mov             x1, x0
     // 0xa0b514: ldur            x0, [fp, #-8]
     // 0xa0b518: StoreField: r0->field_7f = r1
     //     0xa0b518: stur            x1, [x0, #0x7f]
     // 0xa0b51c: ldur            x1, [fp, #-0x18]
     // 0xa0b520: r0 = clampTime()
-    //     0xa0b520: bl              #0x931ae8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampTime
+    //     0xa0b520: bl              #0x931ae8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampTime
     // 0xa0b524: mov             x1, x0
     // 0xa0b528: ldur            x0, [fp, #-8]
     // 0xa0b52c: StoreField: r0->field_87 = r1
     //     0xa0b52c: stur            x1, [x0, #0x87]
     // 0xa0b530: mov             x1, x0
     // 0xa0b534: r0 = _touchDraft()
-    //     0xa0b534: bl              #0x943b54  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
+    //     0xa0b534: bl              #0x943b54  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
     // 0xa0b538: ldur            x1, [fp, #-8]
     // 0xa0b53c: r0 = notifyListeners()
     //     0xa0b53c: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -6192,7 +6192,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0xa0b59c: ldur            x6, [x1, #0x87]
     // 0xa0b5a0: ldur            x7, [fp, #-0x20]
     // 0xa0b5a4: r0 = _publishRecommendedGoals()
-    //     0xa0b5a4: bl              #0xa0b5c0  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_publishRecommendedGoals
+    //     0xa0b5a4: bl              #0xa0b5c0  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_publishRecommendedGoals
     // 0xa0b5a8: r0 = Null
     //     0xa0b5a8: mov             x0, NULL
     // 0xa0b5ac: LeaveFrame
@@ -6254,7 +6254,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0xa0b64c: mov             x5, x7
     // 0xa0b650: stur            x7, [fp, #-0xc8]
     // 0xa0b654: r0 = upsertCurrentWeekGoal()
-    //     0xa0b654: bl              #0x9308dc  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::upsertCurrentWeekGoal
+    //     0xa0b654: bl              #0x9308dc  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::upsertCurrentWeekGoal
     // 0xa0b658: mov             x1, x0
     // 0xa0b65c: stur            x1, [fp, #-0xd0]
     // 0xa0b660: r0 = Await()
@@ -6342,13 +6342,13 @@ class AccountSetupController extends ChangeNotifier {
     //     0xa0b754: add             x4, PP, #0x26, lsl #12  ; [pp+0x26900] List(11) [0, 0x4, 0x3, 0x1, "makeActivityGoal", 0x2, "shotActivityGoal", 0x1, "timeActivityGoal", 0x3, Null]
     //     0xa0b758: ldr             x4, [x4, #0x900]
     // 0xa0b75c: r0 = copyWith()
-    //     0xa0b75c: bl              #0x663774  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::copyWith
+    //     0xa0b75c: bl              #0x663774  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::copyWith
     // 0xa0b760: ldur            x1, [fp, #-0xc8]
     // 0xa0b764: mov             x2, x0
     // 0xa0b768: r4 = const [0, 0x2, 0, 0x2, null]
     //     0xa0b768: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0xa0b76c: r0 = updateUser()
-    //     0xa0b76c: bl              #0x6618fc  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::updateUser
+    //     0xa0b76c: bl              #0x6618fc  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::updateUser
     // 0xa0b770: mov             x1, x0
     // 0xa0b774: stur            x1, [fp, #-0xc8]
     // 0xa0b778: r0 = Await()
@@ -6420,7 +6420,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0xbc4da4: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xbc4da8: mov             x1, x2
     // 0xbc4dac: r0 = _touchDraft()
-    //     0xbc4dac: bl              #0x943b54  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
+    //     0xbc4dac: bl              #0x943b54  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
     // 0xbc4db0: ldur            x1, [fp, #-8]
     // 0xbc4db4: r0 = notifyListeners()
     //     0xbc4db4: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -6488,7 +6488,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0xbc582c: add             x0, x0, HEAP, lsl #32
     // 0xbc5830: stur            x0, [fp, #-0x10]
     // 0xbc5834: r1 = Function '<anonymous closure>':.
-    //     0xbc5834: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2aff0] AnonymousClosure: (0xbc5920), in [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::updateAcquisitionSource (0xbc57a0)
+    //     0xbc5834: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2aff0] AnonymousClosure: (0xbc5920), in [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::updateAcquisitionSource (0xbc57a0)
     //     0xbc5838: ldr             x1, [x1, #0xff0]
     // 0xbc583c: r2 = Null
     //     0xbc583c: mov             x2, NULL
@@ -6503,10 +6503,10 @@ class AccountSetupController extends ChangeNotifier {
     //     0xbc5854: add             x2, PP, #0xb, lsl #12  ; [pp+0xb2b0] "level"
     //     0xbc5858: ldr             x2, [x2, #0x2b0]
     // 0xbc585c: r0 = invalidateBallyCoachLine()
-    //     0xbc585c: bl              #0xbc5888  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::invalidateBallyCoachLine
+    //     0xbc585c: bl              #0xbc5888  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::invalidateBallyCoachLine
     // 0xbc5860: ldur            x1, [fp, #-8]
     // 0xbc5864: r0 = _touchDraft()
-    //     0xbc5864: bl              #0x943b54  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
+    //     0xbc5864: bl              #0x943b54  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
     // 0xbc5868: ldur            x1, [fp, #-8]
     // 0xbc586c: r0 = notifyListeners()
     //     0xbc586c: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -6554,7 +6554,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0xbc58d0: bl              #0xdb63d0  ; [dart:_compact_hash] __Set&_HashVMBase&SetMixin&_HashBase&_OperatorEqualsAndHashCode&_LinkedHashSetMixin::remove
     // 0xbc58d4: ldur            x1, [fp, #-8]
     // 0xbc58d8: r0 = currentStepKey()
-    //     0xbc58d8: bl              #0x93742c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
+    //     0xbc58d8: bl              #0x93742c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::currentStepKey
     // 0xbc58dc: r1 = LoadClassIdInstr(r0)
     //     0xbc58dc: ldur            x1, [x0, #-1]
     //     0xbc58e0: ubfx            x1, x1, #0xc, #0x14
@@ -6567,7 +6567,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0xbc58fc: tbnz            w0, #4, #0xbc5908
     // 0xbc5900: ldur            x1, [fp, #-8]
     // 0xbc5904: r0 = refreshActiveCoachLine()
-    //     0xbc5904: bl              #0x93333c  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::refreshActiveCoachLine
+    //     0xbc5904: bl              #0x93333c  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::refreshActiveCoachLine
     // 0xbc5908: r0 = Null
     //     0xbc5908: mov             x0, NULL
     // 0xbc590c: LeaveFrame
@@ -6623,7 +6623,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0xbc6044: stur            w2, [x0, #0x6b]
     // 0xbc6048: mov             x1, x0
     // 0xbc604c: r0 = _touchDraft()
-    //     0xbc604c: bl              #0x943b54  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
+    //     0xbc604c: bl              #0x943b54  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
     // 0xbc6050: ldur            x1, [fp, #-8]
     // 0xbc6054: r0 = notifyListeners()
     //     0xbc6054: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -6656,7 +6656,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0xbc6090: stur            w2, [x0, #0x67]
     // 0xbc6094: mov             x1, x0
     // 0xbc6098: r0 = _touchDraft()
-    //     0xbc6098: bl              #0x943b54  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
+    //     0xbc6098: bl              #0x943b54  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
     // 0xbc609c: ldur            x1, [fp, #-8]
     // 0xbc60a0: r0 = notifyListeners()
     //     0xbc60a0: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -6687,7 +6687,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0xbc6e44: cmp             SP, x16
     //     0xbc6e48: b.ls            #0xbc6e98
     // 0xbc6e4c: r0 = canonicalLevelKey()
-    //     0xbc6e4c: bl              #0x931f74  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::canonicalLevelKey
+    //     0xbc6e4c: bl              #0x931f74  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_profile_fields_support.dart] AccountSetupProfileFieldsSupport::canonicalLevelKey
     // 0xbc6e50: ldur            x2, [fp, #-8]
     // 0xbc6e54: StoreField: r2->field_5b = r0
     //     0xbc6e54: stur            w0, [x2, #0x5b]
@@ -6699,10 +6699,10 @@ class AccountSetupController extends ChangeNotifier {
     //     0xbc6e6c: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xbc6e70: mov             x1, x2
     // 0xbc6e74: r0 = refreshRecommendedGoals()
-    //     0xbc6e74: bl              #0x937670  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::refreshRecommendedGoals
+    //     0xbc6e74: bl              #0x937670  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::refreshRecommendedGoals
     // 0xbc6e78: ldur            x1, [fp, #-8]
     // 0xbc6e7c: r0 = _touchDraft()
-    //     0xbc6e7c: bl              #0x943b54  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
+    //     0xbc6e7c: bl              #0x943b54  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
     // 0xbc6e80: ldur            x1, [fp, #-8]
     // 0xbc6e84: r0 = notifyListeners()
     //     0xbc6e84: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -6766,7 +6766,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0xbc7c2c: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xbc7c30: mov             x1, x2
     // 0xbc7c34: r0 = refreshRecommendedGoals()
-    //     0xbc7c34: bl              #0x937670  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::refreshRecommendedGoals
+    //     0xbc7c34: bl              #0x937670  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::refreshRecommendedGoals
     // 0xbc7c38: ldur            x0, [fp, #-8]
     // 0xbc7c3c: LoadField: r3 = r0->field_c3
     //     0xbc7c3c: ldur            w3, [x0, #0xc3]
@@ -6774,7 +6774,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0xbc7c40: add             x3, x3, HEAP, lsl #32
     // 0xbc7c44: stur            x3, [fp, #-0x10]
     // 0xbc7c48: r1 = Function '<anonymous closure>':.
-    //     0xbc7c48: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2b098] AnonymousClosure: (0xbc7c9c), in [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setTrainingFrequency (0xbc7ba8)
+    //     0xbc7c48: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2b098] AnonymousClosure: (0xbc7c9c), in [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setTrainingFrequency (0xbc7ba8)
     //     0xbc7c4c: ldr             x1, [x1, #0x98]
     // 0xbc7c50: r2 = Null
     //     0xbc7c50: mov             x2, NULL
@@ -6789,10 +6789,10 @@ class AccountSetupController extends ChangeNotifier {
     //     0xbc7c68: add             x2, PP, #0x1a, lsl #12  ; [pp+0x1a628] "everySession"
     //     0xbc7c6c: ldr             x2, [x2, #0x628]
     // 0xbc7c70: r0 = invalidateBallyCoachLine()
-    //     0xbc7c70: bl              #0xbc5888  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::invalidateBallyCoachLine
+    //     0xbc7c70: bl              #0xbc5888  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::invalidateBallyCoachLine
     // 0xbc7c74: ldur            x1, [fp, #-8]
     // 0xbc7c78: r0 = _touchDraft()
-    //     0xbc7c78: bl              #0x943b54  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
+    //     0xbc7c78: bl              #0x943b54  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
     // 0xbc7c7c: ldur            x1, [fp, #-8]
     // 0xbc7c80: r0 = notifyListeners()
     //     0xbc7c80: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -6866,7 +6866,7 @@ class AccountSetupController extends ChangeNotifier {
     // 0xbc95b8: mov             x1, x4
     // 0xbc95bc: mov             x2, x0
     // 0xbc95c0: r0 = secondaryAfterMainChange()
-    //     0xbc95c0: bl              #0xbc96c0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::secondaryAfterMainChange
+    //     0xbc95c0: bl              #0xbc96c0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::secondaryAfterMainChange
     // 0xbc95c4: mov             x3, x0
     // 0xbc95c8: stur            x3, [fp, #-0x28]
     // 0xbc95cc: mov             x4, x1
@@ -6935,7 +6935,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0xbc9694: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xbc9698: mov             x1, x2
     // 0xbc969c: r0 = _touchDraft()
-    //     0xbc969c: bl              #0x943b54  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
+    //     0xbc969c: bl              #0x943b54  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
     // 0xbc96a0: ldur            x1, [fp, #-8]
     // 0xbc96a4: r0 = notifyListeners()
     //     0xbc96a4: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -6981,7 +6981,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0xbc9834: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xbc9838: mov             x1, x2
     // 0xbc983c: r0 = _touchDraft()
-    //     0xbc983c: bl              #0x943b54  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
+    //     0xbc983c: bl              #0x943b54  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
     // 0xbc9840: ldur            x1, [fp, #-8]
     // 0xbc9844: r0 = notifyListeners()
     //     0xbc9844: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -7036,7 +7036,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0xbc98c8: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xbc98cc: mov             x1, x2
     // 0xbc98d0: r0 = _touchDraft()
-    //     0xbc98d0: bl              #0x943b54  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
+    //     0xbc98d0: bl              #0x943b54  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
     // 0xbc98d4: ldur            x1, [fp, #-8]
     // 0xbc98d8: r0 = notifyListeners()
     //     0xbc98d8: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -7076,7 +7076,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0xbcba10: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xbcba14: mov             x1, x2
     // 0xbcba18: r0 = _touchDraft()
-    //     0xbcba18: bl              #0x943b54  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
+    //     0xbcba18: bl              #0x943b54  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
     // 0xbcba1c: ldur            x1, [fp, #-8]
     // 0xbcba20: r0 = notifyListeners()
     //     0xbcba20: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -7116,7 +7116,7 @@ class AccountSetupController extends ChangeNotifier {
     //     0xbcd28c: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xbcd290: mov             x1, x2
     // 0xbcd294: r0 = _touchDraft()
-    //     0xbcd294: bl              #0x943b54  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
+    //     0xbcd294: bl              #0x943b54  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::_touchDraft
     // 0xbcd298: ldur            x1, [fp, #-8]
     // 0xbcd29c: r0 = notifyListeners()
     //     0xbcd29c: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners

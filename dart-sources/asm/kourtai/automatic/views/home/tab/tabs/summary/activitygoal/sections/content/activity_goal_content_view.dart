@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/sections/content/activity_goal_content_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/sections/content/activity_goal_content_view.dart
 
 // class id: 1048886, size: 0x8
 class :: {
@@ -25,8 +25,8 @@ class _HeroStatTile extends StatelessWidget {
     //     0xbdf548: cmp             SP, x16
     //     0xbdf54c: b.ls            #0xbdf834
     // 0xbdf550: mov             x1, x0
-    // 0xbdf554: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbdf554: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbdf554: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbdf554: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbdf558: r16 = 0.040000
     //     0xbdf558: add             x16, PP, #0x4e, lsl #12  ; [pp+0x4e850] 0.04
     //     0xbdf55c: ldr             x16, [x16, #0x850]
@@ -61,8 +61,8 @@ class _HeroStatTile extends StatelessWidget {
     // 0xbdf5a8: StoreField: r2->field_13 = r0
     //     0xbdf5a8: stur            w0, [x2, #0x13]
     // 0xbdf5ac: ldur            x1, [fp, #-0x10]
-    // 0xbdf5b0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbdf5b0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbdf5b0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbdf5b0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbdf5b4: r16 = 0.060000
     //     0xbdf5b4: add             x16, PP, #0x2b, lsl #12  ; [pp+0x2bfc0] 0.06
     //     0xbdf5b8: ldr             x16, [x16, #0xfc0]
@@ -119,8 +119,8 @@ class _HeroStatTile extends StatelessWidget {
     //     0xbdf644: blr             lr
     // 0xbdf648: ldur            x1, [fp, #-0x10]
     // 0xbdf64c: stur            x0, [fp, #-0x18]
-    // 0xbdf650: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbdf650: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbdf650: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbdf650: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbdf654: stur            x0, [fp, #-0x20]
     // 0xbdf658: r0 = TextStyle()
     //     0xbdf658: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -165,8 +165,8 @@ class _HeroStatTile extends StatelessWidget {
     //     0xbdf6bc: add             x3, x3, HEAP, lsl #32
     // 0xbdf6c0: ldur            x1, [fp, #-0x10]
     // 0xbdf6c4: stur            x3, [fp, #-0x18]
-    // 0xbdf6c8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbdf6c8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbdf6c8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbdf6c8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbdf6cc: stur            x0, [fp, #-8]
     // 0xbdf6d0: r0 = TextStyle()
     //     0xbdf6d0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -333,8 +333,8 @@ class _RingHeroCard extends StatelessWidget {
     //     0xbdf198: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xbdf19c: cmp             SP, x16
     //     0xbdf1a0: b.ls            #0xbdf508
-    // 0xbdf1a4: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xbdf1a4: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xbdf1a4: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xbdf1a4: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xbdf1a8: stur            x0, [fp, #-0x10]
     // 0xbdf1ac: r0 = Radius()
     //     0xbdf1ac: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -412,7 +412,7 @@ class _RingHeroCard extends StatelessWidget {
     //     0xbdf260: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c708] "Make %"
     //     0xbdf264: ldr             x1, [x1, #0x708]
     // 0xbdf268: r0 = L()
-    //     0xbdf268: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdf268: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdf26c: mov             x1, x0
     // 0xbdf270: ldur            x0, [fp, #-8]
     // 0xbdf274: stur            x1, [fp, #-0x30]
@@ -463,7 +463,7 @@ class _RingHeroCard extends StatelessWidget {
     //     0xbdf2e8: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c710] "Workouts"
     //     0xbdf2ec: ldr             x1, [x1, #0x710]
     // 0xbdf2f0: r0 = L()
-    //     0xbdf2f0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdf2f0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdf2f4: mov             x2, x0
     // 0xbdf2f8: ldur            x0, [fp, #-8]
     // 0xbdf2fc: stur            x2, [fp, #-0x38]
@@ -721,7 +721,7 @@ class ActivityGoalContentView extends StatelessWidget {
     //     0xbddfd0: add             x2, x2, HEAP, lsl #32
     // 0xbddfd4: mov             x1, x4
     // 0xbddfd8: r0 = resolvedGoal()
-    //     0xbddfd8: bl              #0xa321dc  ; [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::resolvedGoal
+    //     0xbddfd8: bl              #0xa321dc  ; [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::resolvedGoal
     // 0xbddfdc: mov             x1, x0
     // 0xbddfe0: ldur            x0, [fp, #-0x10]
     // 0xbddfe4: stur            x1, [fp, #-0x20]
@@ -755,7 +755,7 @@ class ActivityGoalContentView extends StatelessWidget {
     //     0xbde030: stur            x1, [x0, #0xb]
     // 0xbde034: mov             x1, x0
     // 0xbde038: r0 = WeeklyDateKey.generateWeeklyDateKey()
-    //     0xbde038: bl              #0x9315c4  ; [package:ballai/automatic/utility/extensions/date/weekly_date_key.dart] ::WeeklyDateKey.generateWeeklyDateKey
+    //     0xbde038: bl              #0x9315c4  ; [package:kourtai/automatic/utility/extensions/date/weekly_date_key.dart] ::WeeklyDateKey.generateWeeklyDateKey
     // 0xbde03c: mov             x1, x0
     // 0xbde040: ldur            x0, [fp, #-0x10]
     // 0xbde044: r2 = LoadClassIdInstr(r0)
@@ -776,7 +776,7 @@ class ActivityGoalContentView extends StatelessWidget {
     // 0xbde078: b               #0xbde084
     // 0xbde07c: mov             x1, x0
     // 0xbde080: r0 = formattedMakePercentage()
-    //     0xbde080: bl              #0xbdd784  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::formattedMakePercentage
+    //     0xbde080: bl              #0xbdd784  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::formattedMakePercentage
     // 0xbde084: cmp             w0, NULL
     // 0xbde088: b.ne            #0xbde098
     // 0xbde08c: r2 = "--%"
@@ -846,11 +846,11 @@ class ActivityGoalContentView extends StatelessWidget {
     //     0xbde13c: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c6a8] "Time (H)"
     //     0xbde140: ldr             x1, [x1, #0x6a8]
     // 0xbde144: r0 = L()
-    //     0xbde144: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbde144: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbde148: ldur            x1, [fp, #-0x20]
     // 0xbde14c: stur            x0, [fp, #-0x38]
     // 0xbde150: r0 = formattedTimeProgress()
-    //     0xbde150: bl              #0xbdda8c  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::formattedTimeProgress
+    //     0xbde150: bl              #0xbdda8c  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::formattedTimeProgress
     // 0xbde154: mov             x3, x0
     // 0xbde158: ldur            x0, [fp, #-8]
     // 0xbde15c: stur            x3, [fp, #-0x48]
@@ -862,7 +862,7 @@ class ActivityGoalContentView extends StatelessWidget {
     // 0xbde16c: mov             x2, x4
     // 0xbde170: stur            x4, [fp, #-0x40]
     // 0xbde174: r0 = forTime()
-    //     0xbde174: bl              #0xbdf018  ; [package:ballai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::forTime
+    //     0xbde174: bl              #0xbdf018  ; [package:kourtai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::forTime
     // 0xbde178: stur            x0, [fp, #-0x50]
     // 0xbde17c: r0 = ActivityGoalDailyChartView()
     //     0xbde17c: bl              #0xbdf00c  ; AllocateActivityGoalDailyChartViewStub -> ActivityGoalDailyChartView (size=0x20)
@@ -898,16 +898,16 @@ class ActivityGoalContentView extends StatelessWidget {
     //     0xbde1cc: add             x1, PP, #0x11, lsl #12  ; [pp+0x11e80] "Shots"
     //     0xbde1d0: ldr             x1, [x1, #0xe80]
     // 0xbde1d4: r0 = L()
-    //     0xbde1d4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbde1d4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbde1d8: ldur            x1, [fp, #-0x20]
     // 0xbde1dc: stur            x0, [fp, #-0x48]
     // 0xbde1e0: r0 = formattedShotsProgress()
-    //     0xbde1e0: bl              #0xbdd9a0  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::formattedShotsProgress
+    //     0xbde1e0: bl              #0xbdd9a0  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::formattedShotsProgress
     // 0xbde1e4: ldur            x1, [fp, #-0x20]
     // 0xbde1e8: ldur            x2, [fp, #-0x40]
     // 0xbde1ec: stur            x0, [fp, #-0x50]
     // 0xbde1f0: r0 = forShots()
-    //     0xbde1f0: bl              #0xbdef60  ; [package:ballai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::forShots
+    //     0xbde1f0: bl              #0xbdef60  ; [package:kourtai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::forShots
     // 0xbde1f4: stur            x0, [fp, #-0x60]
     // 0xbde1f8: r0 = ActivityGoalDailyChartView()
     //     0xbde1f8: bl              #0xbdf00c  ; AllocateActivityGoalDailyChartViewStub -> ActivityGoalDailyChartView (size=0x20)
@@ -943,16 +943,16 @@ class ActivityGoalContentView extends StatelessWidget {
     //     0xbde248: add             x1, PP, #0x29, lsl #12  ; [pp+0x29418] "Makes"
     //     0xbde24c: ldr             x1, [x1, #0x418]
     // 0xbde250: r0 = L()
-    //     0xbde250: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbde250: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbde254: ldur            x1, [fp, #-0x20]
     // 0xbde258: stur            x0, [fp, #-0x50]
     // 0xbde25c: r0 = formattedMakesProgress()
-    //     0xbde25c: bl              #0xbdd8c0  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::formattedMakesProgress
+    //     0xbde25c: bl              #0xbdd8c0  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::formattedMakesProgress
     // 0xbde260: ldur            x1, [fp, #-0x20]
     // 0xbde264: ldur            x2, [fp, #-0x40]
     // 0xbde268: stur            x0, [fp, #-0x20]
     // 0xbde26c: r0 = forMakes()
-    //     0xbde26c: bl              #0xbde5c4  ; [package:ballai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::forMakes
+    //     0xbde26c: bl              #0xbde5c4  ; [package:kourtai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::forMakes
     // 0xbde270: stur            x0, [fp, #-0x60]
     // 0xbde274: r0 = ActivityGoalDailyChartView()
     //     0xbde274: bl              #0xbdf00c  ; AllocateActivityGoalDailyChartViewStub -> ActivityGoalDailyChartView (size=0x20)
@@ -1021,8 +1021,8 @@ class ActivityGoalContentView extends StatelessWidget {
     //     0xbde31c: ldur            w1, [x2, #0xf]
     // 0xbde320: DecompressPointer r1
     //     0xbde320: add             x1, x1, HEAP, lsl #32
-    // 0xbde324: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbde324: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbde324: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbde324: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbde328: stur            x0, [fp, #-0x10]
     // 0xbde32c: r0 = Radius()
     //     0xbde32c: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -1075,7 +1075,7 @@ class ActivityGoalContentView extends StatelessWidget {
     //     0xbde3a4: ldr             x1, [x1, #0x748]
     // 0xbde3a8: stur            x0, [fp, #-0x10]
     // 0xbde3ac: r0 = L()
-    //     0xbde3ac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbde3ac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbde3b0: stur            x0, [fp, #-0x20]
     // 0xbde3b4: r0 = TextStyle()
     //     0xbde3b4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1107,7 +1107,7 @@ class ActivityGoalContentView extends StatelessWidget {
     //     0xbde3f8: stur            w0, [x3, #0x13]
     // 0xbde3fc: ldur            x2, [fp, #-0x18]
     // 0xbde400: r1 = Function '<anonymous closure>':.
-    //     0xbde400: add             x1, PP, #0x44, lsl #12  ; [pp+0x44e10] AnonymousClosure: (0xbdf0e0), in [package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/sections/content/activity_goal_content_view.dart] ActivityGoalContentView::build (0xbddf70)
+    //     0xbde400: add             x1, PP, #0x44, lsl #12  ; [pp+0x44e10] AnonymousClosure: (0xbdf0e0), in [package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/sections/content/activity_goal_content_view.dart] ActivityGoalContentView::build (0xbddf70)
     //     0xbde404: ldr             x1, [x1, #0xe10]
     // 0xbde408: r0 = AllocateClosure()
     //     0xbde408: bl              #0xe553e0  ; AllocateClosureStub
@@ -1306,7 +1306,7 @@ class ActivityGoalContentView extends StatelessWidget {
     // 0xbdf114: r0 = of()
     //     0xbdf114: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xbdf118: r1 = Function '<anonymous closure>':.
-    //     0xbdf118: add             x1, PP, #0x44, lsl #12  ; [pp+0x44e18] AnonymousClosure: (0xbd8330), in [package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/sections/activity_goal_summary_view.dart] ActivityGoalSummaryView::build (0xbdc8bc)
+    //     0xbdf118: add             x1, PP, #0x44, lsl #12  ; [pp+0x44e18] AnonymousClosure: (0xbd8330), in [package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/sections/activity_goal_summary_view.dart] ActivityGoalSummaryView::build (0xbdc8bc)
     //     0xbdf11c: ldr             x1, [x1, #0xe18]
     // 0xbdf120: r2 = Null
     //     0xbdf120: mov             x2, NULL

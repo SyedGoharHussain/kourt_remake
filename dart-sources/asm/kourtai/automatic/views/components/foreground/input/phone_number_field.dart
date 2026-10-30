@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/foreground/input/phone_number_field.dart
+// lib: , url: package:kourtai/automatic/views/components/foreground/input/phone_number_field.dart
 
 // class id: 1048792, size: 0x8
 class :: {
@@ -67,7 +67,7 @@ class _PhoneCountryPickerSheetState extends State<dynamic> {
     // 0x9cdc50: b               #0x9cdc8c
     // 0x9cdc54: mov             x2, x3
     // 0x9cdc58: r1 = Function '<anonymous closure>':.
-    //     0x9cdc58: add             x1, PP, #0x53, lsl #12  ; [pp+0x53ed8] AnonymousClosure: (0x9cea3c), in [package:ballai/automatic/views/components/foreground/input/phone_number_field.dart] _PhoneCountryPickerSheetState::build (0x9cdbb0)
+    //     0x9cdc58: add             x1, PP, #0x53, lsl #12  ; [pp+0x53ed8] AnonymousClosure: (0x9cea3c), in [package:kourtai/automatic/views/components/foreground/input/phone_number_field.dart] _PhoneCountryPickerSheetState::build (0x9cdbb0)
     //     0x9cdc5c: ldr             x1, [x1, #0xed8]
     // 0x9cdc60: r0 = AllocateClosure()
     //     0x9cdc60: bl              #0xe553e0  ; AllocateClosureStub
@@ -108,8 +108,8 @@ class _PhoneCountryPickerSheetState extends State<dynamic> {
     // 0x9cdcc8: fmul            d2, d0, d1
     // 0x9cdccc: ldur            x1, [fp, #-0x10]
     // 0x9cdcd0: stur            d2, [fp, #-0x40]
-    // 0x9cdcd4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9cdcd4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9cdcd4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9cdcd4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9cdcd8: r16 = 0.350000
     //     0x9cdcd8: add             x16, PP, #0x15, lsl #12  ; [pp+0x151b0] 0.35
     //     0x9cdcdc: ldr             x16, [x16, #0x1b0]
@@ -180,7 +180,7 @@ class _PhoneCountryPickerSheetState extends State<dynamic> {
     //     0x9cdd88: add             x1, PP, #0x53, lsl #12  ; [pp+0x53ee0] "Search country"
     //     0x9cdd8c: ldr             x1, [x1, #0xee0]
     // 0x9cdd90: r0 = L()
-    //     0x9cdd90: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9cdd90: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9cdd94: stur            x0, [fp, #-0x20]
     // 0x9cdd98: r0 = Radius()
     //     0x9cdd98: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -290,7 +290,7 @@ class _PhoneCountryPickerSheetState extends State<dynamic> {
     //     0x9cde8c: stur            w0, [x3, #0x67]
     // 0x9cde90: ldur            x2, [fp, #-0x18]
     // 0x9cde94: r1 = Function '<anonymous closure>':.
-    //     0x9cde94: add             x1, PP, #0x53, lsl #12  ; [pp+0x53ee8] AnonymousClosure: (0x9ce9b8), in [package:ballai/automatic/views/components/foreground/input/phone_number_field.dart] _PhoneCountryPickerSheetState::build (0x9cdbb0)
+    //     0x9cde94: add             x1, PP, #0x53, lsl #12  ; [pp+0x53ee8] AnonymousClosure: (0x9ce9b8), in [package:kourtai/automatic/views/components/foreground/input/phone_number_field.dart] _PhoneCountryPickerSheetState::build (0x9cdbb0)
     //     0x9cde98: ldr             x1, [x1, #0xee8]
     // 0x9cde9c: r0 = AllocateClosure()
     //     0x9cde9c: bl              #0xe553e0  ; AllocateClosureStub
@@ -388,7 +388,7 @@ class _PhoneCountryPickerSheetState extends State<dynamic> {
     // 0x9cdf84: ldur            x2, [fp, #-0x18]
     // 0x9cdf88: stur            x3, [fp, #-0x38]
     // 0x9cdf8c: r1 = Function '<anonymous closure>':.
-    //     0x9cdf8c: add             x1, PP, #0x53, lsl #12  ; [pp+0x53ef0] AnonymousClosure: (0x9ce528), in [package:ballai/automatic/views/components/foreground/input/phone_number_field.dart] _PhoneCountryPickerSheetState::build (0x9cdbb0)
+    //     0x9cdf8c: add             x1, PP, #0x53, lsl #12  ; [pp+0x53ef0] AnonymousClosure: (0x9ce528), in [package:kourtai/automatic/views/components/foreground/input/phone_number_field.dart] _PhoneCountryPickerSheetState::build (0x9cdbb0)
     //     0x9cdf90: ldr             x1, [x1, #0xef0]
     // 0x9cdf94: r0 = AllocateClosure()
     //     0x9cdf94: bl              #0xe553e0  ; AllocateClosureStub
@@ -677,7 +677,7 @@ class _PhoneCountryPickerSheetState extends State<dynamic> {
     // 0x9ce654: mov             x1, x0
     // 0x9ce658: stur            x2, [fp, #-8]
     // 0x9ce65c: r0 = flagEmoji()
-    //     0x9ce65c: bl              #0x9ce7f8  ; [package:ballai/automatic/utility/phone/phone_country_codes.dart] PhoneCountry::flagEmoji
+    //     0x9ce65c: bl              #0x9ce7f8  ; [package:kourtai/automatic/utility/phone/phone_country_codes.dart] PhoneCountry::flagEmoji
     // 0x9ce660: stur            x0, [fp, #-0x20]
     // 0x9ce664: r0 = Text()
     //     0x9ce664: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -713,13 +713,13 @@ class _PhoneCountryPickerSheetState extends State<dynamic> {
     // 0x9ce6b8: stur            x3, [fp, #-0x20]
     // 0x9ce6bc: tbnz            w0, #4, #0x9ce6d0
     // 0x9ce6c0: ldr             x1, [fp, #0x18]
-    // 0x9ce6c4: r0 = BallAiThemeContext.ballAiAccent()
-    //     0x9ce6c4: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0x9ce6c4: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0x9ce6c4: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0x9ce6c8: mov             x4, x0
     // 0x9ce6cc: b               #0x9ce6dc
     // 0x9ce6d0: ldr             x1, [fp, #0x18]
-    // 0x9ce6d4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9ce6d4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9ce6d4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9ce6d4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9ce6d8: mov             x4, x0
     // 0x9ce6dc: ldur            x2, [fp, #-8]
     // 0x9ce6e0: ldur            x3, [fp, #-0x28]
@@ -771,7 +771,7 @@ class _PhoneCountryPickerSheetState extends State<dynamic> {
     //     0x9ce75c: stur            w0, [x3, #0x4b]
     // 0x9ce760: ldur            x2, [fp, #-0x10]
     // 0x9ce764: r1 = Function '<anonymous closure>':.
-    //     0x9ce764: add             x1, PP, #0x53, lsl #12  ; [pp+0x53f00] AnonymousClosure: (0x9ce940), in [package:ballai/automatic/views/components/foreground/input/phone_number_field.dart] _PhoneCountryPickerSheetState::build (0x9cdbb0)
+    //     0x9ce764: add             x1, PP, #0x53, lsl #12  ; [pp+0x53f00] AnonymousClosure: (0x9ce940), in [package:kourtai/automatic/views/components/foreground/input/phone_number_field.dart] _PhoneCountryPickerSheetState::build (0x9cdbb0)
     //     0x9ce768: ldr             x1, [x1, #0xf00]
     // 0x9ce76c: r0 = AllocateClosure()
     //     0x9ce76c: bl              #0xe553e0  ; AllocateClosureStub
@@ -887,7 +887,7 @@ class _PhoneCountryPickerSheetState extends State<dynamic> {
     // 0x9cea04: mov             x2, x1
     // 0x9cea08: stur            x3, [fp, #-0x10]
     // 0x9cea0c: r1 = Function '<anonymous closure>':.
-    //     0x9cea0c: add             x1, PP, #0x53, lsl #12  ; [pp+0x53f08] AnonymousClosure: (0x990690), in [package:ballai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
+    //     0x9cea0c: add             x1, PP, #0x53, lsl #12  ; [pp+0x53f08] AnonymousClosure: (0x990690), in [package:kourtai/automatic/views/home/tab/tabs/summary/root/summary_view.dart] _SummaryViewState::_openWeekPicker (0x990f80)
     //     0x9cea10: ldr             x1, [x1, #0xf08]
     // 0x9cea14: r0 = AllocateClosure()
     //     0x9cea14: bl              #0xe553e0  ; AllocateClosureStub
@@ -1264,7 +1264,7 @@ class PhoneNumberField extends StatelessWidget {
     // 0xbafb5c: mov             x1, x3
     // 0xbafb60: stur            x3, [fp, #-0x20]
     // 0xbafb64: r0 = flagEmoji()
-    //     0xbafb64: bl              #0x9ce7f8  ; [package:ballai/automatic/utility/phone/phone_country_codes.dart] PhoneCountry::flagEmoji
+    //     0xbafb64: bl              #0x9ce7f8  ; [package:kourtai/automatic/utility/phone/phone_country_codes.dart] PhoneCountry::flagEmoji
     // 0xbafb68: stur            x0, [fp, #-0x30]
     // 0xbafb6c: r0 = Text()
     //     0xbafb6c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1283,8 +1283,8 @@ class PhoneNumberField extends StatelessWidget {
     //     0xbafb90: ldur            w1, [x0, #0x13]
     // 0xbafb94: DecompressPointer r1
     //     0xbafb94: add             x1, x1, HEAP, lsl #32
-    // 0xbafb98: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbafb98: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbafb98: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbafb98: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbafb9c: stur            x0, [fp, #-0x30]
     // 0xbafba0: r0 = Icon()
     //     0xbafba0: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -1394,7 +1394,7 @@ class PhoneNumberField extends StatelessWidget {
     //     0xbafca8: stur            w0, [x3, #0xb]
     // 0xbafcac: ldur            x2, [fp, #-0x18]
     // 0xbafcb0: r1 = Function '<anonymous closure>':.
-    //     0xbafcb0: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a500] AnonymousClosure: (0xbb0154), in [package:ballai/automatic/views/components/foreground/input/phone_number_field.dart] PhoneNumberField::build (0xbafabc)
+    //     0xbafcb0: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a500] AnonymousClosure: (0xbb0154), in [package:kourtai/automatic/views/components/foreground/input/phone_number_field.dart] PhoneNumberField::build (0xbafabc)
     //     0xbafcb4: ldr             x1, [x1, #0x500]
     // 0xbafcb8: r0 = AllocateClosure()
     //     0xbafcb8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1435,8 +1435,8 @@ class PhoneNumberField extends StatelessWidget {
     //     0xbafd0c: ldur            w1, [x5, #0x13]
     // 0xbafd10: DecompressPointer r1
     //     0xbafd10: add             x1, x1, HEAP, lsl #32
-    // 0xbafd14: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbafd14: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbafd14: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbafd14: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbafd18: stur            x0, [fp, #-0x20]
     // 0xbafd1c: r0 = TextStyle()
     //     0xbafd1c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1544,8 +1544,8 @@ class PhoneNumberField extends StatelessWidget {
     //     0xbafe20: ldur            w1, [x3, #0x13]
     // 0xbafe24: DecompressPointer r1
     //     0xbafe24: add             x1, x1, HEAP, lsl #32
-    // 0xbafe28: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbafe28: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbafe28: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbafe28: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbafe2c: stur            x0, [fp, #-8]
     // 0xbafe30: r0 = TextStyle()
     //     0xbafe30: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1572,7 +1572,7 @@ class PhoneNumberField extends StatelessWidget {
     //     0xbafe64: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a518] "Phone number"
     //     0xbafe68: ldr             x1, [x1, #0x518]
     // 0xbafe6c: r0 = L()
-    //     0xbafe6c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbafe6c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbafe70: mov             x2, x0
     // 0xbafe74: ldur            x0, [fp, #-0x18]
     // 0xbafe78: stur            x2, [fp, #-8]
@@ -1580,8 +1580,8 @@ class PhoneNumberField extends StatelessWidget {
     //     0xbafe7c: ldur            w1, [x0, #0x13]
     // 0xbafe80: DecompressPointer r1
     //     0xbafe80: add             x1, x1, HEAP, lsl #32
-    // 0xbafe84: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbafe84: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbafe84: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbafe84: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbafe88: stur            x0, [fp, #-0x18]
     // 0xbafe8c: r0 = TextStyle()
     //     0xbafe8c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1903,7 +1903,7 @@ class PhoneNumberField extends StatelessWidget {
     //     0xbb0180: add             x2, x2, HEAP, lsl #32
     // 0xbb0184: mov             x1, x0
     // 0xbb0188: r0 = _openCountryPicker()
-    //     0xbb0188: bl              #0xbb01a0  ; [package:ballai/automatic/views/components/foreground/input/phone_number_field.dart] PhoneNumberField::_openCountryPicker
+    //     0xbb0188: bl              #0xbb01a0  ; [package:kourtai/automatic/views/components/foreground/input/phone_number_field.dart] PhoneNumberField::_openCountryPicker
     // 0xbb018c: LeaveFrame
     //     0xbb018c: mov             SP, fp
     //     0xbb0190: ldp             fp, lr, [SP], #0x10
@@ -1942,7 +1942,7 @@ class PhoneNumberField extends StatelessWidget {
     //     0xbb01e0: bl              #0x60afc8  ; InitAsyncStub
     // 0xbb01e4: ldur            x2, [fp, #-0x20]
     // 0xbb01e8: r1 = Function '<anonymous closure>':.
-    //     0xbb01e8: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a530] AnonymousClosure: (0xbb0258), in [package:ballai/automatic/views/components/foreground/input/phone_number_field.dart] PhoneNumberField::_openCountryPicker (0xbb01a0)
+    //     0xbb01e8: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a530] AnonymousClosure: (0xbb0258), in [package:kourtai/automatic/views/components/foreground/input/phone_number_field.dart] PhoneNumberField::_openCountryPicker (0xbb01a0)
     //     0xbb01ec: ldr             x1, [x1, #0x530]
     // 0xbb01f0: r0 = AllocateClosure()
     //     0xbb01f0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1976,7 +1976,7 @@ class PhoneNumberField extends StatelessWidget {
     //     0xbb023c: add             x1, x1, HEAP, lsl #32
     // 0xbb0240: mov             x2, x0
     // 0xbb0244: r0 = setPhoneCountry()
-    //     0xbb0244: bl              #0xa2b480  ; [package:ballai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setPhoneCountry
+    //     0xbb0244: bl              #0xa2b480  ; [package:kourtai/automatic/viewmodels/home/account/destinations/profile_view_model.dart] ProfileViewModel::setPhoneCountry
     // 0xbb0248: r0 = Null
     //     0xbb0248: mov             x0, NULL
     // 0xbb024c: r0 = ReturnAsyncNotFuture()

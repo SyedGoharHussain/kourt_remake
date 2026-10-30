@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/my_player/my_player_ratings.dart
+// lib: , url: package:kourtai/automatic/models/core/my_player/my_player_ratings.dart
 
 // class id: 1048691, size: 0x8
 class :: {
@@ -28,7 +28,7 @@ abstract class MyPlayerRatings extends Object {
     // 0xbd3a70: r1 = ""
     //     0xbd3a70: ldr             x1, [PP, #0x880]  ; [pp+0x880] ""
     // 0xbd3a74: r0 = fromRaw()
-    //     0xbd3a74: bl              #0x90005c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
+    //     0xbd3a74: bl              #0x90005c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
     // 0xbd3a78: cmp             w0, NULL
     // 0xbd3a7c: b.ne            #0xbd3a8c
     // 0xbd3a80: r2 = Instance_AccountSetupFocus
@@ -45,7 +45,7 @@ abstract class MyPlayerRatings extends Object {
     // 0xbd3aa4: b               #0xbd3aac
     // 0xbd3aa8: mov             x1, x0
     // 0xbd3aac: r0 = fromRaw()
-    //     0xbd3aac: bl              #0x90005c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
+    //     0xbd3aac: bl              #0x90005c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::fromRaw
     // 0xbd3ab0: cmp             w0, NULL
     // 0xbd3ab4: b.ne            #0xbd3ac0
     // 0xbd3ab8: ldur            x5, [fp, #-0x28]
@@ -58,7 +58,7 @@ abstract class MyPlayerRatings extends Object {
     // 0xbd3ad4: mov             x2, x5
     // 0xbd3ad8: stur            x5, [fp, #-0x18]
     // 0xbd3adc: r0 = caps()
-    //     0xbd3adc: bl              #0xbd4524  ; [package:ballai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::caps
+    //     0xbd3adc: bl              #0xbd4524  ; [package:kourtai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::caps
     // 0xbd3ae0: mov             x1, x0
     // 0xbd3ae4: ldur            x0, [fp, #-8]
     // 0xbd3ae8: stur            x1, [fp, #-0x30]
@@ -136,7 +136,7 @@ abstract class MyPlayerRatings extends Object {
     // 0xbd3bb0: ldur            x1, [fp, #-0x28]
     // 0xbd3bb4: stur            x0, [fp, #-0x20]
     // 0xbd3bb8: r0 = attributes()
-    //     0xbd3bb8: bl              #0x8fff1c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::attributes
+    //     0xbd3bb8: bl              #0x8fff1c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::attributes
     // 0xbd3bbc: mov             x1, x0
     // 0xbd3bc0: r2 = 2
     //     0xbd3bc0: mov             x2, #2
@@ -165,7 +165,7 @@ abstract class MyPlayerRatings extends Object {
     // 0xbd3c08: ldur            x3, [fp, #-0x10]
     // 0xbd3c0c: ldur            x6, [fp, #-0x20]
     // 0xbd3c10: r0 = adjustedCaps()
-    //     0xbd3c10: bl              #0xbd3c28  ; [package:ballai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::adjustedCaps
+    //     0xbd3c10: bl              #0xbd3c28  ; [package:kourtai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::adjustedCaps
     // 0xbd3c14: LeaveFrame
     //     0xbd3c14: mov             SP, fp
     //     0xbd3c18: ldp             fp, lr, [SP], #0x10
@@ -293,7 +293,7 @@ abstract class MyPlayerEngine extends Object {
     //     0x847378: stur            w0, [x3, #0x1b]
     // 0x84737c: mov             x2, x3
     // 0x847380: r1 = Function '<anonymous closure>': static.
-    //     0x847380: add             x1, PP, #0x37, lsl #12  ; [pp+0x37df8] AnonymousClosure: static (0x847a4c), in [package:ballai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance (0x847318)
+    //     0x847380: add             x1, PP, #0x37, lsl #12  ; [pp+0x37df8] AnonymousClosure: static (0x847a4c), in [package:kourtai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance (0x847318)
     //     0x847384: ldr             x1, [x1, #0xdf8]
     // 0x847388: r0 = AllocateClosure()
     //     0x847388: bl              #0xe553e0  ; AllocateClosureStub
@@ -312,7 +312,7 @@ abstract class MyPlayerEngine extends Object {
     //     0x8473a8: bl              #0x5e71ec  ; [dart:core] _List::_List.of
     // 0x8473ac: ldur            x2, [fp, #-0x30]
     // 0x8473b0: r1 = Function '<anonymous closure>': static.
-    //     0x8473b0: add             x1, PP, #0x37, lsl #12  ; [pp+0x37e00] AnonymousClosure: static (0x84795c), in [package:ballai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance (0x847318)
+    //     0x8473b0: add             x1, PP, #0x37, lsl #12  ; [pp+0x37e00] AnonymousClosure: static (0x84795c), in [package:kourtai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance (0x847318)
     //     0x8473b4: ldr             x1, [x1, #0xe00]
     // 0x8473b8: stur            x0, [fp, #-8]
     // 0x8473bc: r0 = AllocateClosure()
@@ -345,7 +345,7 @@ abstract class MyPlayerEngine extends Object {
     //     0x847408: b.eq            #0x847410
     //     0x84740c: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x847410: r1 = Function '<anonymous closure>': static.
-    //     0x847410: add             x1, PP, #0x37, lsl #12  ; [pp+0x37e08] AnonymousClosure: static (0x8472cc), in [package:ballai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance (0x847318)
+    //     0x847410: add             x1, PP, #0x37, lsl #12  ; [pp+0x37e08] AnonymousClosure: static (0x8472cc), in [package:kourtai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance (0x847318)
     //     0x847414: ldr             x1, [x1, #0xe08]
     // 0x847418: r2 = Null
     //     0x847418: mov             x2, NULL
@@ -482,7 +482,7 @@ abstract class MyPlayerEngine extends Object {
     // 0x8475b8: mov             x10, x0
     // 0x8475bc: b               #0x84752c
     // 0x8475c0: r1 = Function '<anonymous closure>': static.
-    //     0x8475c0: add             x1, PP, #0x37, lsl #12  ; [pp+0x37e10] AnonymousClosure: static (0x8472cc), in [package:ballai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance (0x847318)
+    //     0x8475c0: add             x1, PP, #0x37, lsl #12  ; [pp+0x37e10] AnonymousClosure: static (0x8472cc), in [package:kourtai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance (0x847318)
     //     0x8475c4: ldr             x1, [x1, #0xe10]
     // 0x8475c8: r2 = Null
     //     0x8475c8: mov             x2, NULL
@@ -1029,7 +1029,7 @@ abstract class MyPlayerEngine extends Object {
     // 0xbd3cd8: ldur            x4, [fp, #-0x10]
     // 0xbd3cdc: mov             x1, x3
     // 0xbd3ce0: r0 = attributes()
-    //     0xbd3ce0: bl              #0x8fff1c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::attributes
+    //     0xbd3ce0: bl              #0x8fff1c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::attributes
     // 0xbd3ce4: ldur            x1, [fp, #-0x40]
     // 0xbd3ce8: mov             x2, x0
     // 0xbd3cec: r0 = addAll()
@@ -1334,7 +1334,7 @@ abstract class MyPlayerEngine extends Object {
     // 0xbd4080: b               #0xbd3d98
     // 0xbd4084: ldur            x2, [fp, #-0x38]
     // 0xbd4088: r1 = Function 'applyFloor': static.
-    //     0xbd4088: add             x1, PP, #0x37, lsl #12  ; [pp+0x37dc0] AnonymousClosure: static (0xbd42b8), in [package:ballai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::adjustedCaps (0xbd3c28)
+    //     0xbd4088: add             x1, PP, #0x37, lsl #12  ; [pp+0x37dc0] AnonymousClosure: static (0xbd42b8), in [package:kourtai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::adjustedCaps (0xbd3c28)
     //     0xbd408c: ldr             x1, [x1, #0xdc0]
     // 0xbd4090: r0 = AllocateClosure()
     //     0xbd4090: bl              #0xe553e0  ; AllocateClosureStub
@@ -1379,7 +1379,7 @@ abstract class MyPlayerEngine extends Object {
     // 0xbd410c: r5 = true
     //     0xbd410c: add             x5, NULL, #0x20  ; true
     // 0xbd4110: r0 = _rebalance()
-    //     0xbd4110: bl              #0x847318  ; [package:ballai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance
+    //     0xbd4110: bl              #0x847318  ; [package:kourtai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance
     // 0xbd4114: cmp             x0, #0
     // 0xbd4118: b.le            #0xbd417c
     // 0xbd411c: ldur            x1, [fp, #-0x30]
@@ -1390,7 +1390,7 @@ abstract class MyPlayerEngine extends Object {
     // 0xbd412c: r5 = true
     //     0xbd412c: add             x5, NULL, #0x20  ; true
     // 0xbd4130: r0 = _rebalance()
-    //     0xbd4130: bl              #0x847318  ; [package:ballai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance
+    //     0xbd4130: bl              #0x847318  ; [package:kourtai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance
     // 0xbd4134: b               #0xbd417c
     // 0xbd4138: tbz             x2, #0x3f, #0xbd417c
     // 0xbd413c: neg             x0, x2
@@ -1414,7 +1414,7 @@ abstract class MyPlayerEngine extends Object {
     // 0xbd4174: r5 = false
     //     0xbd4174: add             x5, NULL, #0x30  ; false
     // 0xbd4178: r0 = _rebalance()
-    //     0xbd4178: bl              #0x847318  ; [package:ballai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance
+    //     0xbd4178: bl              #0x847318  ; [package:kourtai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerEngine::_rebalance
     // 0xbd417c: ldur            x0, [fp, #-0x30]
     // 0xbd4180: r16 = <AccountSetupFocusAttribute, int>
     //     0xbd4180: add             x16, PP, #0x37, lsl #12  ; [pp+0x37d78] TypeArguments: <AccountSetupFocusAttribute, int>

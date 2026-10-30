@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/home/activity/ring/charts/activity_ring_chart_view.dart
+// lib: , url: package:kourtai/automatic/views/components/home/activity/ring/charts/activity_ring_chart_view.dart
 
 // class id: 1048801, size: 0x8
 class :: {
@@ -49,10 +49,10 @@ class ActivityRingChartView extends StatelessWidget {
     //     0xbb523c: add             x1, PP, #0x53, lsl #12  ; [pp+0x53e90] "No weekly goals in this period yet."
     //     0xbb5240: ldr             x1, [x1, #0xe90]
     // 0xbb5244: r0 = L()
-    //     0xbb5244: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb5244: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb5248: stur            x0, [fp, #-8]
-    // 0xbb524c: r0 = BallAiEmptyState()
-    //     0xbb524c: bl              #0xa63934  ; AllocateBallAiEmptyStateStub -> BallAiEmptyState (size=0x14)
+    // 0xbb524c: r0 = KourtAiEmptyState()
+    //     0xbb524c: bl              #0xa63934  ; AllocateKourtAiEmptyStateStub -> KourtAiEmptyState (size=0x14)
     // 0xbb5250: mov             x1, x0
     // 0xbb5254: ldur            x0, [fp, #-8]
     // 0xbb5258: StoreField: r1->field_b = r0
@@ -76,7 +76,7 @@ class ActivityRingChartView extends StatelessWidget {
     // 0xbb5288: r0 = _GrowableList.of()
     //     0xbb5288: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0xbb528c: r1 = Function '<anonymous closure>':.
-    //     0xbb528c: add             x1, PP, #0x53, lsl #12  ; [pp+0x53e98] AnonymousClosure: (0x8f7e2c), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
+    //     0xbb528c: add             x1, PP, #0x53, lsl #12  ; [pp+0x53e98] AnonymousClosure: (0x8f7e2c), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
     //     0xbb5290: ldr             x1, [x1, #0xe98]
     // 0xbb5294: r2 = Null
     //     0xbb5294: mov             x2, NULL
@@ -91,7 +91,7 @@ class ActivityRingChartView extends StatelessWidget {
     //     0xbb52ac: bl              #0x7ac5ec  ; [dart:collection] ListBase::sort
     // 0xbb52b0: ldur            x2, [fp, #-0x18]
     // 0xbb52b4: r1 = Function '<anonymous closure>':.
-    //     0xbb52b4: add             x1, PP, #0x53, lsl #12  ; [pp+0x53ea0] AnonymousClosure: (0xbb546c), in [package:ballai/automatic/views/components/home/activity/ring/charts/activity_ring_chart_view.dart] ActivityRingChartView::build (0xbb51dc)
+    //     0xbb52b4: add             x1, PP, #0x53, lsl #12  ; [pp+0x53ea0] AnonymousClosure: (0xbb546c), in [package:kourtai/automatic/views/components/home/activity/ring/charts/activity_ring_chart_view.dart] ActivityRingChartView::build (0xbb51dc)
     //     0xbb52b8: ldr             x1, [x1, #0xea0]
     // 0xbb52bc: r0 = AllocateClosure()
     //     0xbb52bc: bl              #0xe553e0  ; AllocateClosureStub
@@ -128,7 +128,7 @@ class ActivityRingChartView extends StatelessWidget {
     //     0xbb5314: sbfx            x4, x0, #1, #0x1f
     // 0xbb5318: stur            x4, [fp, #-0x20]
     // 0xbb531c: r1 = Function '<anonymous closure>':.
-    //     0xbb531c: add             x1, PP, #0x53, lsl #12  ; [pp+0x53ea8] AnonymousClosure: (0xbb5460), in [package:ballai/automatic/views/components/home/activity/ring/charts/activity_ring_chart_view.dart] ActivityRingChartView::build (0xbb51dc)
+    //     0xbb531c: add             x1, PP, #0x53, lsl #12  ; [pp+0x53ea8] AnonymousClosure: (0xbb5460), in [package:kourtai/automatic/views/components/home/activity/ring/charts/activity_ring_chart_view.dart] ActivityRingChartView::build (0xbb51dc)
     //     0xbb5320: ldr             x1, [x1, #0xea8]
     // 0xbb5324: r2 = Null
     //     0xbb5324: mov             x2, NULL
@@ -136,7 +136,7 @@ class ActivityRingChartView extends StatelessWidget {
     //     0xbb5328: bl              #0xe553e0  ; AllocateClosureStub
     // 0xbb532c: ldur            x2, [fp, #-0x18]
     // 0xbb5330: r1 = Function '<anonymous closure>':.
-    //     0xbb5330: add             x1, PP, #0x53, lsl #12  ; [pp+0x53eb0] AnonymousClosure: (0xbb539c), in [package:ballai/automatic/views/components/home/activity/ring/charts/activity_ring_chart_view.dart] ActivityRingChartView::build (0xbb51dc)
+    //     0xbb5330: add             x1, PP, #0x53, lsl #12  ; [pp+0x53eb0] AnonymousClosure: (0xbb539c), in [package:kourtai/automatic/views/components/home/activity/ring/charts/activity_ring_chart_view.dart] ActivityRingChartView::build (0xbb51dc)
     //     0xbb5334: ldr             x1, [x1, #0xeb0]
     // 0xbb5338: stur            x0, [fp, #-8]
     // 0xbb533c: r0 = AllocateClosure()
@@ -221,7 +221,7 @@ class ActivityRingChartView extends StatelessWidget {
     // 0xbb5408: r4 = const [0, 0x1, 0, 0x1, null]
     //     0xbb5408: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0xbb540c: r0 = DateTimeWeekRange.formattedWeekRange()
-    //     0xbb540c: bl              #0xa2d990  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.formattedWeekRange
+    //     0xbb540c: bl              #0xa2d990  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.formattedWeekRange
     // 0xbb5410: stur            x0, [fp, #-0x10]
     // 0xbb5414: r0 = CustomTrendsActivityRingView()
     //     0xbb5414: bl              #0xbb5454  ; AllocateCustomTrendsActivityRingViewStub -> CustomTrendsActivityRingView (size=0x24)
@@ -283,7 +283,7 @@ class ActivityRingChartView extends StatelessWidget {
     //     0xbb5498: add             x2, x2, HEAP, lsl #32
     // 0xbb549c: ldr             x1, [fp, #0x10]
     // 0xbb54a0: r0 = resolvedGoal()
-    //     0xbb54a0: bl              #0xa321dc  ; [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::resolvedGoal
+    //     0xbb54a0: bl              #0xa321dc  ; [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::resolvedGoal
     // 0xbb54a4: LeaveFrame
     //     0xbb54a4: mov             SP, fp
     //     0xbb54a8: ldp             fp, lr, [SP], #0x10

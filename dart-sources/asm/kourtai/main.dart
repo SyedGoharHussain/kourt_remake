@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/main.dart
+// lib: , url: package:kourtai/main.dart
 
 // class id: 1049059, size: 0x8
 class :: {
@@ -20,7 +20,7 @@ class :: {
     //     0xc28d98: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0xc28d9c: bl              #0x60afc8  ; InitAsyncStub
     // 0xc28da0: r0 = run()
-    //     0xc28da0: bl              #0xc2987c  ; [package:ballai/automatic/app/boot/ball_ai_boot.dart] BallAiBoot::run
+    //     0xc28da0: bl              #0xc2987c  ; [package:kourtai/automatic/app/boot/kourt_ai_boot.dart] KourtAiBoot::run
     // 0xc28da4: mov             x1, x0
     // 0xc28da8: stur            x1, [fp, #-0x10]
     // 0xc28dac: r0 = Await()
@@ -36,8 +36,8 @@ class :: {
     // 0xc28dc4: DecompressPointer r2
     //     0xc28dc4: add             x2, x2, HEAP, lsl #32
     // 0xc28dc8: stur            x2, [fp, #-0x10]
-    // 0xc28dcc: r0 = BallAiApp()
-    //     0xc28dcc: bl              #0xc29870  ; AllocateBallAiAppStub -> BallAiApp (size=0x1c)
+    // 0xc28dcc: r0 = KourtAiApp()
+    //     0xc28dcc: bl              #0xc29870  ; AllocateKourtAiAppStub -> KourtAiApp (size=0x1c)
     // 0xc28dd0: mov             x1, x0
     // 0xc28dd4: ldur            x0, [fp, #-0x18]
     // 0xc28dd8: StoreField: r1->field_f = r0
@@ -58,7 +58,7 @@ class :: {
     //     0xc28df8: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0xc28dfc: b               #0xc28d98
   }
-  static _ createBallAiProviders(/* No info */) {
+  static _ createKourtAiProviders(/* No info */) {
     // ** addr: 0xc2854c, size: 0x830
     // 0xc2854c: EnterFrame
     //     0xc2854c: stp             fp, lr, [SP, #-0x10]!
@@ -123,7 +123,7 @@ class :: {
     //     0xc285f8: b.eq            #0xc28600
     //     0xc285fc: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xc28600: r1 = Function '<anonymous closure>': static.
-    //     0xc28600: add             x1, PP, #0x11, lsl #12  ; [pp+0x112b0] AnonymousClosure: static (0xc2edb8), in [package:ballai/main.dart] ::createBallAiProviders (0xc2854c)
+    //     0xc28600: add             x1, PP, #0x11, lsl #12  ; [pp+0x112b0] AnonymousClosure: static (0xc2edb8), in [package:kourtai/main.dart] ::createKourtAiProviders (0xc2854c)
     //     0xc28604: ldr             x1, [x1, #0x2b0]
     // 0xc28608: r2 = Null
     //     0xc28608: mov             x2, NULL
@@ -176,7 +176,7 @@ class :: {
     //     0xc28690: b.eq            #0xc28698
     //     0xc28694: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xc28698: r1 = Function '<anonymous closure>': static.
-    //     0xc28698: add             x1, PP, #0x11, lsl #12  ; [pp+0x112d0] AnonymousClosure: static (0xc2e758), in [package:ballai/main.dart] ::createBallAiProviders (0xc2854c)
+    //     0xc28698: add             x1, PP, #0x11, lsl #12  ; [pp+0x112d0] AnonymousClosure: static (0xc2e758), in [package:kourtai/main.dart] ::createKourtAiProviders (0xc2854c)
     //     0xc2869c: ldr             x1, [x1, #0x2d0]
     // 0xc286a0: r2 = Null
     //     0xc286a0: mov             x2, NULL
@@ -229,7 +229,7 @@ class :: {
     //     0xc28728: b.eq            #0xc28730
     //     0xc2872c: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xc28730: r1 = Function '<anonymous closure>': static.
-    //     0xc28730: add             x1, PP, #0x11, lsl #12  ; [pp+0x112e0] AnonymousClosure: static (0xc2be78), in [package:ballai/main.dart] ::createBallAiProviders (0xc2854c)
+    //     0xc28730: add             x1, PP, #0x11, lsl #12  ; [pp+0x112e0] AnonymousClosure: static (0xc2be78), in [package:kourtai/main.dart] ::createKourtAiProviders (0xc2854c)
     //     0xc28734: ldr             x1, [x1, #0x2e0]
     // 0xc28738: r2 = Null
     //     0xc28738: mov             x2, NULL
@@ -282,7 +282,7 @@ class :: {
     //     0xc287c0: b.eq            #0xc287c8
     //     0xc287c4: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xc287c8: r1 = Function '<anonymous closure>': static.
-    //     0xc287c8: add             x1, PP, #0x11, lsl #12  ; [pp+0x112f0] AnonymousClosure: static (0xc2be28), in [package:ballai/main.dart] ::createBallAiProviders (0xc2854c)
+    //     0xc287c8: add             x1, PP, #0x11, lsl #12  ; [pp+0x112f0] AnonymousClosure: static (0xc2be28), in [package:kourtai/main.dart] ::createKourtAiProviders (0xc2854c)
     //     0xc287cc: ldr             x1, [x1, #0x2f0]
     // 0xc287d0: r2 = Null
     //     0xc287d0: mov             x2, NULL
@@ -321,7 +321,7 @@ class :: {
     //     0xc28834: b.eq            #0xc2883c
     //     0xc28838: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xc2883c: r1 = Function '<anonymous closure>': static.
-    //     0xc2883c: add             x1, PP, #0x11, lsl #12  ; [pp+0x11300] AnonymousClosure: static (0xc2b6ec), in [package:ballai/main.dart] ::createBallAiProviders (0xc2854c)
+    //     0xc2883c: add             x1, PP, #0x11, lsl #12  ; [pp+0x11300] AnonymousClosure: static (0xc2b6ec), in [package:kourtai/main.dart] ::createKourtAiProviders (0xc2854c)
     //     0xc28840: ldr             x1, [x1, #0x300]
     // 0xc28844: r2 = Null
     //     0xc28844: mov             x2, NULL
@@ -374,7 +374,7 @@ class :: {
     //     0xc288cc: b.eq            #0xc288d4
     //     0xc288d0: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xc288d4: r1 = Function '<anonymous closure>': static.
-    //     0xc288d4: add             x1, PP, #0x11, lsl #12  ; [pp+0x11310] AnonymousClosure: static (0xc2b458), in [package:ballai/main.dart] ::createBallAiProviders (0xc2854c)
+    //     0xc288d4: add             x1, PP, #0x11, lsl #12  ; [pp+0x11310] AnonymousClosure: static (0xc2b458), in [package:kourtai/main.dart] ::createKourtAiProviders (0xc2854c)
     //     0xc288d8: ldr             x1, [x1, #0x310]
     // 0xc288dc: r2 = Null
     //     0xc288dc: mov             x2, NULL
@@ -427,7 +427,7 @@ class :: {
     //     0xc28964: b.eq            #0xc2896c
     //     0xc28968: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xc2896c: r1 = Function '<anonymous closure>': static.
-    //     0xc2896c: add             x1, PP, #0x11, lsl #12  ; [pp+0x11320] AnonymousClosure: static (0xc2b314), in [package:ballai/main.dart] ::createBallAiProviders (0xc2854c)
+    //     0xc2896c: add             x1, PP, #0x11, lsl #12  ; [pp+0x11320] AnonymousClosure: static (0xc2b314), in [package:kourtai/main.dart] ::createKourtAiProviders (0xc2854c)
     //     0xc28970: ldr             x1, [x1, #0x320]
     // 0xc28974: r2 = Null
     //     0xc28974: mov             x2, NULL
@@ -480,7 +480,7 @@ class :: {
     //     0xc289fc: b.eq            #0xc28a04
     //     0xc28a00: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xc28a04: r1 = Function '<anonymous closure>': static.
-    //     0xc28a04: add             x1, PP, #0x11, lsl #12  ; [pp+0x11330] AnonymousClosure: static (0xc2b1d8), in [package:ballai/main.dart] ::createBallAiProviders (0xc2854c)
+    //     0xc28a04: add             x1, PP, #0x11, lsl #12  ; [pp+0x11330] AnonymousClosure: static (0xc2b1d8), in [package:kourtai/main.dart] ::createKourtAiProviders (0xc2854c)
     //     0xc28a08: ldr             x1, [x1, #0x330]
     // 0xc28a0c: r2 = Null
     //     0xc28a0c: mov             x2, NULL
@@ -533,7 +533,7 @@ class :: {
     //     0xc28a94: b.eq            #0xc28a9c
     //     0xc28a98: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xc28a9c: r1 = Function '<anonymous closure>': static.
-    //     0xc28a9c: add             x1, PP, #0x11, lsl #12  ; [pp+0x11340] AnonymousClosure: static (0xc2b154), in [package:ballai/main.dart] ::createBallAiProviders (0xc2854c)
+    //     0xc28a9c: add             x1, PP, #0x11, lsl #12  ; [pp+0x11340] AnonymousClosure: static (0xc2b154), in [package:kourtai/main.dart] ::createKourtAiProviders (0xc2854c)
     //     0xc28aa0: ldr             x1, [x1, #0x340]
     // 0xc28aa4: r2 = Null
     //     0xc28aa4: mov             x2, NULL
@@ -572,7 +572,7 @@ class :: {
     //     0xc28b08: b.eq            #0xc28b10
     //     0xc28b0c: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xc28b10: r1 = Function '<anonymous closure>': static.
-    //     0xc28b10: add             x1, PP, #0x11, lsl #12  ; [pp+0x11350] AnonymousClosure: static (0xc2af64), in [package:ballai/main.dart] ::createBallAiProviders (0xc2854c)
+    //     0xc28b10: add             x1, PP, #0x11, lsl #12  ; [pp+0x11350] AnonymousClosure: static (0xc2af64), in [package:kourtai/main.dart] ::createKourtAiProviders (0xc2854c)
     //     0xc28b14: ldr             x1, [x1, #0x350]
     // 0xc28b18: r2 = Null
     //     0xc28b18: mov             x2, NULL
@@ -625,7 +625,7 @@ class :: {
     //     0xc28ba0: b.eq            #0xc28ba8
     //     0xc28ba4: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xc28ba8: r1 = Function '<anonymous closure>': static.
-    //     0xc28ba8: add             x1, PP, #0x11, lsl #12  ; [pp+0x11360] AnonymousClosure: static (0xc2adac), in [package:ballai/main.dart] ::createBallAiProviders (0xc2854c)
+    //     0xc28ba8: add             x1, PP, #0x11, lsl #12  ; [pp+0x11360] AnonymousClosure: static (0xc2adac), in [package:kourtai/main.dart] ::createKourtAiProviders (0xc2854c)
     //     0xc28bac: ldr             x1, [x1, #0x360]
     // 0xc28bb0: r2 = Null
     //     0xc28bb0: mov             x2, NULL
@@ -678,7 +678,7 @@ class :: {
     //     0xc28c38: b.eq            #0xc28c40
     //     0xc28c3c: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xc28c40: r1 = Function '<anonymous closure>': static.
-    //     0xc28c40: add             x1, PP, #0x11, lsl #12  ; [pp+0x11370] AnonymousClosure: static (0xc2abf4), in [package:ballai/main.dart] ::createBallAiProviders (0xc2854c)
+    //     0xc28c40: add             x1, PP, #0x11, lsl #12  ; [pp+0x11370] AnonymousClosure: static (0xc2abf4), in [package:kourtai/main.dart] ::createKourtAiProviders (0xc2854c)
     //     0xc28c44: ldr             x1, [x1, #0x370]
     // 0xc28c48: r2 = Null
     //     0xc28c48: mov             x2, NULL
@@ -731,7 +731,7 @@ class :: {
     //     0xc28cd0: b.eq            #0xc28cd8
     //     0xc28cd4: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xc28cd8: r1 = Function '<anonymous closure>': static.
-    //     0xc28cd8: add             x1, PP, #0x11, lsl #12  ; [pp+0x11380] AnonymousClosure: static (0xc2ab74), in [package:ballai/main.dart] ::createBallAiProviders (0xc2854c)
+    //     0xc28cd8: add             x1, PP, #0x11, lsl #12  ; [pp+0x11380] AnonymousClosure: static (0xc2ab74), in [package:kourtai/main.dart] ::createKourtAiProviders (0xc2854c)
     //     0xc28cdc: ldr             x1, [x1, #0x380]
     // 0xc28ce0: r2 = Null
     //     0xc28ce0: mov             x2, NULL
@@ -800,7 +800,7 @@ class :: {
     //     0xc2ab48: cmp             SP, x16
     //     0xc2ab4c: b.ls            #0xc2ab60
     // 0xc2ab50: r0 = main()
-    //     0xc2ab50: bl              #0xc28d7c  ; [package:ballai/main.dart] ::main
+    //     0xc2ab50: bl              #0xc28d7c  ; [package:kourtai/main.dart] ::main
     // 0xc2ab54: LeaveFrame
     //     0xc2ab54: mov             SP, fp
     //     0xc2ab58: ldp             fp, lr, [SP], #0x10
@@ -884,7 +884,7 @@ class :: {
     // 0xc2ac30: ldur            x2, [fp, #-8]
     // 0xc2ac34: stur            x0, [fp, #-8]
     // 0xc2ac38: r0 = CommentLikeManager()
-    //     0xc2ac38: bl              #0xc2ac54  ; [package:ballai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::CommentLikeManager
+    //     0xc2ac38: bl              #0xc2ac54  ; [package:kourtai/automatic/app/dependencies/managers/core/comment_like_manager.dart] CommentLikeManager::CommentLikeManager
     // 0xc2ac3c: ldur            x0, [fp, #-8]
     // 0xc2ac40: LeaveFrame
     //     0xc2ac40: mov             SP, fp
@@ -922,7 +922,7 @@ class :: {
     // 0xc2ade8: ldur            x2, [fp, #-8]
     // 0xc2adec: stur            x0, [fp, #-8]
     // 0xc2adf0: r0 = WorkoutLikeManager()
-    //     0xc2adf0: bl              #0xc2ae0c  ; [package:ballai/automatic/app/dependencies/managers/core/workout_like_manager.dart] WorkoutLikeManager::WorkoutLikeManager
+    //     0xc2adf0: bl              #0xc2ae0c  ; [package:kourtai/automatic/app/dependencies/managers/core/workout_like_manager.dart] WorkoutLikeManager::WorkoutLikeManager
     // 0xc2adf4: ldur            x0, [fp, #-8]
     // 0xc2adf8: LeaveFrame
     //     0xc2adf8: mov             SP, fp
@@ -971,7 +971,7 @@ class :: {
     // 0xc2afc0: ldur            x3, [fp, #-0x10]
     // 0xc2afc4: stur            x0, [fp, #-8]
     // 0xc2afc8: r0 = DirectMessageManager()
-    //     0xc2afc8: bl              #0xc2afe4  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::DirectMessageManager
+    //     0xc2afc8: bl              #0xc2afe4  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::DirectMessageManager
     // 0xc2afcc: ldur            x0, [fp, #-8]
     // 0xc2afd0: LeaveFrame
     //     0xc2afd0: mov             SP, fp
@@ -1057,7 +1057,7 @@ class :: {
     // 0xc2b214: ldur            x2, [fp, #-8]
     // 0xc2b218: stur            x0, [fp, #-8]
     // 0xc2b21c: r0 = WorkoutManager()
-    //     0xc2b21c: bl              #0xc2b238  ; [package:ballai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::WorkoutManager
+    //     0xc2b21c: bl              #0xc2b238  ; [package:kourtai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::WorkoutManager
     // 0xc2b220: ldur            x0, [fp, #-8]
     // 0xc2b224: LeaveFrame
     //     0xc2b224: mov             SP, fp
@@ -1095,7 +1095,7 @@ class :: {
     // 0xc2b350: ldur            x2, [fp, #-8]
     // 0xc2b354: stur            x0, [fp, #-8]
     // 0xc2b358: r0 = ActivityGoalManager()
-    //     0xc2b358: bl              #0xc2b374  ; [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::ActivityGoalManager
+    //     0xc2b358: bl              #0xc2b374  ; [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::ActivityGoalManager
     // 0xc2b35c: ldur            x0, [fp, #-8]
     // 0xc2b360: LeaveFrame
     //     0xc2b360: mov             SP, fp
@@ -1133,7 +1133,7 @@ class :: {
     // 0xc2b494: ldur            x2, [fp, #-8]
     // 0xc2b498: stur            x0, [fp, #-8]
     // 0xc2b49c: r0 = FollowManager()
-    //     0xc2b49c: bl              #0xc2b4b8  ; [package:ballai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::FollowManager
+    //     0xc2b49c: bl              #0xc2b4b8  ; [package:kourtai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::FollowManager
     // 0xc2b4a0: ldur            x0, [fp, #-8]
     // 0xc2b4a4: LeaveFrame
     //     0xc2b4a4: mov             SP, fp
@@ -1182,7 +1182,7 @@ class :: {
     // 0xc2b748: ldur            x3, [fp, #-0x10]
     // 0xc2b74c: stur            x0, [fp, #-8]
     // 0xc2b750: r0 = AuthManager()
-    //     0xc2b750: bl              #0xc2b76c  ; [package:ballai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::AuthManager
+    //     0xc2b750: bl              #0xc2b76c  ; [package:kourtai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::AuthManager
     // 0xc2b754: ldur            x0, [fp, #-8]
     // 0xc2b758: LeaveFrame
     //     0xc2b758: mov             SP, fp
@@ -1243,13 +1243,13 @@ class :: {
     // 0xc2be94: mov             x1, x0
     // 0xc2be98: stur            x0, [fp, #-8]
     // 0xc2be9c: r0 = DeepLinkManager()
-    //     0xc2be9c: bl              #0xc2e5bc  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::DeepLinkManager
+    //     0xc2be9c: bl              #0xc2e5bc  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::DeepLinkManager
     // 0xc2bea0: ldur            x1, [fp, #-8]
     // 0xc2bea4: r0 = attachAppLinks()
-    //     0xc2bea4: bl              #0xc2c4a0  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::attachAppLinks
+    //     0xc2bea4: bl              #0xc2c4a0  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::attachAppLinks
     // 0xc2bea8: ldur            x1, [fp, #-8]
     // 0xc2beac: r0 = _startLocalNotifications()
-    //     0xc2beac: bl              #0xc2bec8  ; [package:ballai/main.dart] ::_startLocalNotifications
+    //     0xc2beac: bl              #0xc2bec8  ; [package:kourtai/main.dart] ::_startLocalNotifications
     // 0xc2beb0: ldur            x0, [fp, #-8]
     // 0xc2beb4: LeaveFrame
     //     0xc2beb4: mov             SP, fp
@@ -1283,13 +1283,13 @@ class :: {
     //     0xc2bef8: add             x4, PP, #0x13, lsl #12  ; [pp+0x133c8] List(7) [0, 0x1, 0x1, 0, "deepLinks", 0, Null]
     //     0xc2befc: ldr             x4, [x4, #0x3c8]
     // 0xc2bf00: r0 = ensureInitialized()
-    //     0xc2bf00: bl              #0x65d554  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::ensureInitialized
+    //     0xc2bf00: bl              #0x65d554  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::ensureInitialized
     // 0xc2bf04: mov             x1, x0
     // 0xc2bf08: stur            x1, [fp, #-0x58]
     // 0xc2bf0c: r0 = Await()
     //     0xc2bf0c: bl              #0x60ad4c  ; AwaitStub
     // 0xc2bf10: r0 = consumeLaunchDetails()
-    //     0xc2bf10: bl              #0xc2bf58  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::consumeLaunchDetails
+    //     0xc2bf10: bl              #0xc2bf58  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::consumeLaunchDetails
     // 0xc2bf14: mov             x1, x0
     // 0xc2bf18: stur            x1, [fp, #-0x58]
     // 0xc2bf1c: r0 = Await()
@@ -1297,8 +1297,8 @@ class :: {
     // 0xc2bf20: b               #0xc2bf48
     // 0xc2bf24: sub             SP, fp, #0x60
     // 0xc2bf28: str             x0, [SP]
-    // 0xc2bf2c: r1 = Instance_BallAiLogCategory
-    //     0xc2bf2c: add             x1, PP, #0x13, lsl #12  ; [pp+0x133d0] Obj!BallAiLogCategory@d3bce1
+    // 0xc2bf2c: r1 = Instance_KourtAiLogCategory
+    //     0xc2bf2c: add             x1, PP, #0x13, lsl #12  ; [pp+0x133d0] Obj!KourtAiLogCategory@d3bce1
     //     0xc2bf30: ldr             x1, [x1, #0x3d0]
     // 0xc2bf34: r2 = "local scheduler init failed; app continues"
     //     0xc2bf34: add             x2, PP, #0x13, lsl #12  ; [pp+0x133d8] "local scheduler init failed; app continues"
@@ -1307,7 +1307,7 @@ class :: {
     //     0xc2bf3c: add             x4, PP, #9, lsl #12  ; [pp+0x99d8] List(7) [0, 0x3, 0x1, 0x2, "error", 0x2, Null]
     //     0xc2bf40: ldr             x4, [x4, #0x9d8]
     // 0xc2bf44: r0 = warn()
-    //     0xc2bf44: bl              #0x65ea60  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::warn
+    //     0xc2bf44: bl              #0x65ea60  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::warn
     // 0xc2bf48: r0 = Null
     //     0xc2bf48: mov             x0, NULL
     // 0xc2bf4c: r0 = ReturnAsyncNotFuture()
@@ -1343,7 +1343,7 @@ class :: {
     // 0xc2e794: ldur            x2, [fp, #-8]
     // 0xc2e798: stur            x0, [fp, #-8]
     // 0xc2e79c: r0 = TeamManager()
-    //     0xc2e79c: bl              #0xc2e808  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::TeamManager
+    //     0xc2e79c: bl              #0xc2e808  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::TeamManager
     // 0xc2e7a0: r16 = <UserManager>
     //     0xc2e7a0: add             x16, PP, #0x11, lsl #12  ; [pp+0x112b8] TypeArguments: <UserManager>
     //     0xc2e7a4: ldr             x16, [x16, #0x2b8]
@@ -1399,7 +1399,7 @@ class :: {
     // 0xc2edd4: mov             x1, x0
     // 0xc2edd8: stur            x0, [fp, #-8]
     // 0xc2eddc: r0 = UserManager()
-    //     0xc2eddc: bl              #0xc2ee24  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::UserManager
+    //     0xc2eddc: bl              #0xc2ee24  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::UserManager
     // 0xc2ede0: r16 = <RevenueCatManager>
     //     0xc2ede0: add             x16, PP, #0x11, lsl #12  ; [pp+0x112a0] TypeArguments: <RevenueCatManager>
     //     0xc2ede4: ldr             x16, [x16, #0x2a0]
@@ -1412,7 +1412,7 @@ class :: {
     // 0xc2edf8: ldur            x1, [fp, #-8]
     // 0xc2edfc: mov             x2, x0
     // 0xc2ee00: r0 = configureRevenueCatBridge()
-    //     0xc2ee00: bl              #0x93c9f0  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::configureRevenueCatBridge
+    //     0xc2ee00: bl              #0x93c9f0  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::configureRevenueCatBridge
     // 0xc2ee04: ldur            x1, [fp, #-8]
     // 0xc2ee08: r0 = activate()
     //     0xc2ee08: bl              #0xddd790  ; [package:flutter/src/services/mouse_cursor.dart] _NoopMouseCursorSession::activate
@@ -1442,16 +1442,16 @@ class :: {
     // 0xc2f03c: InitAsync() -> Future<void?>
     //     0xc2f03c: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0xc2f040: bl              #0x60afc8  ; InitAsyncStub
-    // 0xc2f044: r1 = Instance_BallAiLogCategory
-    //     0xc2f044: add             x1, PP, #9, lsl #12  ; [pp+0x99b8] Obj!BallAiLogCategory@d3bcc1
+    // 0xc2f044: r1 = Instance_KourtAiLogCategory
+    //     0xc2f044: add             x1, PP, #9, lsl #12  ; [pp+0x99b8] Obj!KourtAiLogCategory@d3bcc1
     //     0xc2f048: ldr             x1, [x1, #0x9b8]
     // 0xc2f04c: r2 = "retry boot"
     //     0xc2f04c: add             x2, PP, #0x11, lsl #12  ; [pp+0x11270] "retry boot"
     //     0xc2f050: ldr             x2, [x2, #0x270]
     // 0xc2f054: r0 = info()
-    //     0xc2f054: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
+    //     0xc2f054: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
     // 0xc2f058: r0 = run()
-    //     0xc2f058: bl              #0xc2987c  ; [package:ballai/automatic/app/boot/ball_ai_boot.dart] BallAiBoot::run
+    //     0xc2f058: bl              #0xc2987c  ; [package:kourtai/automatic/app/boot/kourt_ai_boot.dart] KourtAiBoot::run
     // 0xc2f05c: mov             x1, x0
     // 0xc2f060: stur            x1, [fp, #-0x10]
     // 0xc2f064: r0 = Await()
@@ -1467,8 +1467,8 @@ class :: {
     // 0xc2f07c: DecompressPointer r2
     //     0xc2f07c: add             x2, x2, HEAP, lsl #32
     // 0xc2f080: stur            x2, [fp, #-0x10]
-    // 0xc2f084: r0 = BallAiApp()
-    //     0xc2f084: bl              #0xc29870  ; AllocateBallAiAppStub -> BallAiApp (size=0x1c)
+    // 0xc2f084: r0 = KourtAiApp()
+    //     0xc2f084: bl              #0xc29870  ; AllocateKourtAiAppStub -> KourtAiApp (size=0x1c)
     // 0xc2f088: mov             x1, x0
     // 0xc2f08c: ldur            x0, [fp, #-0x18]
     // 0xc2f090: StoreField: r1->field_f = r0
@@ -1492,7 +1492,7 @@ class :: {
 }
 
 // class id: 2831, size: 0x18, field offset: 0x14
-class _BallAiAppRootState extends State<dynamic> {
+class _KourtAiAppRootState extends State<dynamic> {
 
   [closure] void _onAppResumed(dynamic) {
     // ** addr: 0x60b368, size: 0x38
@@ -1509,7 +1509,7 @@ class _BallAiAppRootState extends State<dynamic> {
     //     0x60b380: cmp             SP, x16
     //     0x60b384: b.ls            #0x60b398
     // 0x60b388: r0 = _onAppResumed()
-    //     0x60b388: bl              #0x60b3c0  ; [package:ballai/main.dart] _BallAiAppRootState::_onAppResumed
+    //     0x60b388: bl              #0x60b3c0  ; [package:kourtai/main.dart] _KourtAiAppRootState::_onAppResumed
     // 0x60b38c: LeaveFrame
     //     0x60b38c: mov             SP, fp
     //     0x60b390: ldp             fp, lr, [SP], #0x10
@@ -1542,7 +1542,7 @@ class _BallAiAppRootState extends State<dynamic> {
     //     0x60b3ec: ldr             x16, [x16, #0x738]
     // 0x60b3f0: StoreField: r0->field_f = r16
     //     0x60b3f0: stur            w16, [x0, #0xf]
-    // 0x60b3f4: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0x60b3f4: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0x60b3f4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x60b3f8: ldr             x0, [x0, #0x1cf0]
     //     0x60b3fc: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1562,11 +1562,11 @@ class _BallAiAppRootState extends State<dynamic> {
     // 0x60b428: r0 = _interpolate()
     //     0x60b428: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0x60b42c: mov             x2, x0
-    // 0x60b430: r1 = Instance_BallAiLogCategory
-    //     0x60b430: add             x1, PP, #0x12, lsl #12  ; [pp+0x12d08] Obj!BallAiLogCategory@d3bc21
+    // 0x60b430: r1 = Instance_KourtAiLogCategory
+    //     0x60b430: add             x1, PP, #0x12, lsl #12  ; [pp+0x12d08] Obj!KourtAiLogCategory@d3bc21
     //     0x60b434: ldr             x1, [x1, #0xd08]
     // 0x60b438: r0 = info()
-    //     0x60b438: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
+    //     0x60b438: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
     // 0x60b43c: r0 = Null
     //     0x60b43c: mov             x0, NULL
     // 0x60b440: LeaveFrame
@@ -1585,7 +1585,7 @@ class _BallAiAppRootState extends State<dynamic> {
     //     0x98fa5c: mov             fp, SP
     // 0x98fa60: AllocStack(0x20)
     //     0x98fa60: sub             SP, SP, #0x20
-    // 0x98fa64: SetupParameters(_BallAiAppRootState this /* r1 => r2, fp-0x8 */)
+    // 0x98fa64: SetupParameters(_KourtAiAppRootState this /* r1 => r2, fp-0x8 */)
     //     0x98fa64: mov             x2, x1
     //     0x98fa68: stur            x1, [fp, #-8]
     // 0x98fa6c: CheckStackOverflow
@@ -1606,7 +1606,7 @@ class _BallAiAppRootState extends State<dynamic> {
     //     0x98fa90: add             x3, x3, HEAP, lsl #32
     // 0x98fa94: stur            x3, [fp, #-0x10]
     // 0x98fa98: r1 = Function '_onAppResumed@1297277716':.
-    //     0x98fa98: add             x1, PP, #0x17, lsl #12  ; [pp+0x17680] AnonymousClosure: (0x60b368), in [package:ballai/main.dart] _BallAiAppRootState::_onAppResumed (0x60b3c0)
+    //     0x98fa98: add             x1, PP, #0x17, lsl #12  ; [pp+0x17680] AnonymousClosure: (0x60b368), in [package:kourtai/main.dart] _KourtAiAppRootState::_onAppResumed (0x60b3c0)
     //     0x98fa9c: ldr             x1, [x1, #0x680]
     // 0x98faa0: r0 = AllocateClosure()
     //     0x98faa0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1620,7 +1620,7 @@ class _BallAiAppRootState extends State<dynamic> {
     //     0x98fabc: b.eq            #0x98fac4
     //     0x98fac0: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0x98fac4: r0 = attach()
-    //     0x98fac4: bl              #0x98fbc8  ; [package:ballai/automatic/app/lifecycle/ball_ai_app_lifecycle.dart] BallAiAppLifecycle::attach
+    //     0x98fac4: bl              #0x98fbc8  ; [package:kourtai/automatic/app/lifecycle/kourt_ai_app_lifecycle.dart] KourtAiAppLifecycle::attach
     // 0x98fac8: r0 = LoadStaticField(0x8b4)
     //     0x98fac8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x98facc: ldr             x0, [x0, #0x1168]
@@ -1638,7 +1638,7 @@ class _BallAiAppRootState extends State<dynamic> {
     // 0x98faec: ldur            x2, [fp, #-0x18]
     // 0x98faf0: stur            x0, [fp, #-8]
     // 0x98faf4: r1 = Function '<anonymous closure>':.
-    //     0x98faf4: add             x1, PP, #0x17, lsl #12  ; [pp+0x17688] AnonymousClosure: (0x98fccc), in [package:ballai/main.dart] _BallAiAppRootState::initState (0x98fa58)
+    //     0x98faf4: add             x1, PP, #0x17, lsl #12  ; [pp+0x17688] AnonymousClosure: (0x98fccc), in [package:kourtai/main.dart] _KourtAiAppRootState::initState (0x98fa58)
     //     0x98faf8: ldr             x1, [x1, #0x688]
     // 0x98fafc: r0 = AllocateClosure()
     //     0x98fafc: bl              #0xe553e0  ; AllocateClosureStub
@@ -1758,7 +1758,7 @@ class _BallAiAppRootState extends State<dynamic> {
     //     0x98fd2c: bl              #0x5ff5d4  ; [package:provider/src/provider.dart] ::ReadContext.read
     // 0x98fd30: ldur            x2, [fp, #-8]
     // 0x98fd34: r1 = Function '<anonymous closure>':.
-    //     0x98fd34: add             x1, PP, #0x17, lsl #12  ; [pp+0x176a0] AnonymousClosure: (0x98fd7c), in [package:ballai/main.dart] _BallAiAppRootState::initState (0x98fa58)
+    //     0x98fd34: add             x1, PP, #0x17, lsl #12  ; [pp+0x176a0] AnonymousClosure: (0x98fd7c), in [package:kourtai/main.dart] _KourtAiAppRootState::initState (0x98fa58)
     //     0x98fd38: ldr             x1, [x1, #0x6a0]
     // 0x98fd3c: stur            x0, [fp, #-8]
     // 0x98fd40: r0 = AllocateClosure()
@@ -1783,7 +1783,7 @@ class _BallAiAppRootState extends State<dynamic> {
     //     0x98fd74: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x98fd78: b               #0x98fcf4
   }
-  [closure] void <anonymous closure>(dynamic, BallAiProWelcomeEvent) {
+  [closure] void <anonymous closure>(dynamic, KourtAiProWelcomeEvent) {
     // ** addr: 0x98fd7c, size: 0xe8
     // 0x98fd7c: EnterFrame
     //     0x98fd7c: stp             fp, lr, [SP, #-0x10]!
@@ -1859,7 +1859,7 @@ class _BallAiAppRootState extends State<dynamic> {
     // 0x98fe38: mov             x2, x0
     // 0x98fe3c: ldur            x1, [fp, #-0x10]
     // 0x98fe40: r0 = refreshWorkoutCount()
-    //     0x98fe40: bl              #0x93cb2c  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::refreshWorkoutCount
+    //     0x98fe40: bl              #0x93cb2c  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::refreshWorkoutCount
     // 0x98fe44: r0 = Null
     //     0x98fe44: mov             x0, NULL
     // 0x98fe48: LeaveFrame
@@ -1882,7 +1882,7 @@ class _BallAiAppRootState extends State<dynamic> {
     //     0xab0d84: mov             fp, SP
     // 0xab0d88: AllocStack(0x60)
     //     0xab0d88: sub             SP, SP, #0x60
-    // 0xab0d8c: SetupParameters(_BallAiAppRootState this /* r1 => r1, fp-0x8 */)
+    // 0xab0d8c: SetupParameters(_KourtAiAppRootState this /* r1 => r1, fp-0x8 */)
     //     0xab0d8c: stur            x1, [fp, #-8]
     // 0xab0d90: CheckStackOverflow
     //     0xab0d90: ldr             x16, [THR, #0x38]  ; THR::stack_limit
@@ -1920,7 +1920,7 @@ class _BallAiAppRootState extends State<dynamic> {
     //     0xab0de4: stur            w16, [x0, #0xf]
     // 0xab0de8: ldur            x1, [fp, #-0x10]
     // 0xab0dec: r0 = effectiveLanguageCode()
-    //     0xab0dec: bl              #0x5ede90  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
+    //     0xab0dec: bl              #0x5ede90  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
     // 0xab0df0: ldur            x1, [fp, #-0x20]
     // 0xab0df4: ArrayStore: r1[1] = r0  ; List_4
     //     0xab0df4: add             x25, x1, #0x13
@@ -1946,45 +1946,45 @@ class _BallAiAppRootState extends State<dynamic> {
     // 0xab0e38: stur            x1, [fp, #-0x28]
     // 0xab0e3c: StoreField: r1->field_b = r0
     //     0xab0e3c: stur            w0, [x1, #0xb]
-    // 0xab0e40: r0 = InitLateStaticField(0xbf0) // [package:ballai/automatic/app/app_nav.dart] ::ballAiRootNavigatorKey
+    // 0xab0e40: r0 = InitLateStaticField(0xbf0) // [package:kourtai/automatic/app/app_nav.dart] ::kourtAiRootNavigatorKey
     //     0xab0e40: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xab0e44: ldr             x0, [x0, #0x17e0]
     //     0xab0e48: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
     //     0xab0e4c: cmp             w0, w16
     //     0xab0e50: b.ne            #0xab0e60
-    //     0xab0e54: add             x2, PP, #0x12, lsl #12  ; [pp+0x12440] Field <::.ballAiRootNavigatorKey>: static late final (offset: 0xbf0)
+    //     0xab0e54: add             x2, PP, #0x12, lsl #12  ; [pp+0x12440] Field <::.kourtAiRootNavigatorKey>: static late final (offset: 0xbf0)
     //     0xab0e58: ldr             x2, [x2, #0x440]
     //     0xab0e5c: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0xab0e60: stur            x0, [fp, #-0x20]
-    // 0xab0e64: r0 = InitLateStaticField(0xbf4) // [package:ballai/automatic/app/app_nav.dart] ::ballAiRootScaffoldMessengerKey
+    // 0xab0e64: r0 = InitLateStaticField(0xbf4) // [package:kourtai/automatic/app/app_nav.dart] ::kourtAiRootScaffoldMessengerKey
     //     0xab0e64: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xab0e68: ldr             x0, [x0, #0x17e8]
     //     0xab0e6c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
     //     0xab0e70: cmp             w0, w16
     //     0xab0e74: b.ne            #0xab0e84
-    //     0xab0e78: add             x2, PP, #0x17, lsl #12  ; [pp+0x17620] Field <::.ballAiRootScaffoldMessengerKey>: static late final (offset: 0xbf4)
+    //     0xab0e78: add             x2, PP, #0x17, lsl #12  ; [pp+0x17620] Field <::.kourtAiRootScaffoldMessengerKey>: static late final (offset: 0xbf4)
     //     0xab0e7c: ldr             x2, [x2, #0x620]
     //     0xab0e80: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0xab0e84: r1 = Instance_Brightness
     //     0xab0e84: ldr             x1, [PP, #0x5170]  ; [pp+0x5170] Obj!Brightness@d3be61
-    // 0xab0e88: r2 = Instance_BallAiThemeExtension
-    //     0xab0e88: add             x2, PP, #0x15, lsl #12  ; [pp+0x15280] Obj!BallAiThemeExtension@d26b31
+    // 0xab0e88: r2 = Instance_KourtAiThemeExtension
+    //     0xab0e88: add             x2, PP, #0x15, lsl #12  ; [pp+0x15280] Obj!KourtAiThemeExtension@d26b31
     //     0xab0e8c: ldr             x2, [x2, #0x280]
     // 0xab0e90: stur            x0, [fp, #-0x30]
-    // 0xab0e94: r0 = _buildBallAiTheme()
-    //     0xab0e94: bl              #0xab11c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::_buildBallAiTheme
+    // 0xab0e94: r0 = _buildKourtAiTheme()
+    //     0xab0e94: bl              #0xab11c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::_buildKourtAiTheme
     // 0xab0e98: r1 = Instance_Brightness
     //     0xab0e98: ldr             x1, [PP, #0x5410]  ; [pp+0x5410] Obj!Brightness@d3be81
-    // 0xab0e9c: r2 = Instance_BallAiThemeExtension
-    //     0xab0e9c: add             x2, PP, #0x15, lsl #12  ; [pp+0x151a8] Obj!BallAiThemeExtension@d26b01
+    // 0xab0e9c: r2 = Instance_KourtAiThemeExtension
+    //     0xab0e9c: add             x2, PP, #0x15, lsl #12  ; [pp+0x151a8] Obj!KourtAiThemeExtension@d26b01
     //     0xab0ea0: ldr             x2, [x2, #0x1a8]
     // 0xab0ea4: stur            x0, [fp, #-0x38]
-    // 0xab0ea8: r0 = _buildBallAiTheme()
-    //     0xab0ea8: bl              #0xab11c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::_buildBallAiTheme
+    // 0xab0ea8: r0 = _buildKourtAiTheme()
+    //     0xab0ea8: bl              #0xab11c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::_buildKourtAiTheme
     // 0xab0eac: ldur            x1, [fp, #-0x10]
     // 0xab0eb0: stur            x0, [fp, #-0x10]
     // 0xab0eb4: r0 = effectiveLocale()
-    //     0xab0eb4: bl              #0xab1070  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLocale
+    //     0xab0eb4: bl              #0xab1070  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLocale
     // 0xab0eb8: stur            x0, [fp, #-0x40]
     // 0xab0ebc: r16 = <Locale>
     //     0xab0ebc: add             x16, PP, #8, lsl #12  ; [pp+0x8eb8] TypeArguments: <Locale>
@@ -2044,7 +2044,7 @@ class _BallAiAppRootState extends State<dynamic> {
     //     0xab0f4c: stur            w0, [x3, #0x2f]
     // 0xab0f50: ldur            x2, [fp, #-0x18]
     // 0xab0f54: r1 = Function '<anonymous closure>':.
-    //     0xab0f54: add             x1, PP, #0x17, lsl #12  ; [pp+0x17638] AnonymousClosure: (0xab19ac), in [package:ballai/main.dart] _BallAiAppRootState::build (0xab0d80)
+    //     0xab0f54: add             x1, PP, #0x17, lsl #12  ; [pp+0x17638] AnonymousClosure: (0xab19ac), in [package:kourtai/main.dart] _KourtAiAppRootState::build (0xab0d80)
     //     0xab0f58: ldr             x1, [x1, #0x638]
     // 0xab0f5c: r0 = AllocateClosure()
     //     0xab0f5c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2052,8 +2052,8 @@ class _BallAiAppRootState extends State<dynamic> {
     // 0xab0f64: ldur            x0, [fp, #-8]
     // 0xab0f68: StoreField: r0->field_3b = r1
     //     0xab0f68: stur            w1, [x0, #0x3b]
-    // 0xab0f6c: r1 = "Ball AI"
-    //     0xab0f6c: add             x1, PP, #0x11, lsl #12  ; [pp+0x11250] "Ball AI"
+    // 0xab0f6c: r1 = "Kourt AI"
+    //     0xab0f6c: add             x1, PP, #0x11, lsl #12  ; [pp+0x11250] "Kourt AI"
     //     0xab0f70: ldr             x1, [x1, #0x250]
     // 0xab0f74: StoreField: r0->field_3f = r1
     //     0xab0f74: stur            w1, [x0, #0x3f]
@@ -2131,7 +2131,7 @@ class _BallAiAppRootState extends State<dynamic> {
     //     0xab19d4: add             x0, x0, HEAP, lsl #32
     // 0xab19d8: mov             x1, x0
     // 0xab19dc: r0 = isRightToLeft()
-    //     0xab19dc: bl              #0xab1a90  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::isRightToLeft
+    //     0xab19dc: bl              #0xab1a90  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::isRightToLeft
     // 0xab19e0: tbnz            w0, #4, #0xab19ec
     // 0xab19e4: r2 = Instance_TextDirection
     //     0xab19e4: ldr             x2, [PP, #0x2430]  ; [pp+0x2430] Obj!TextDirection@d3c021
@@ -2152,8 +2152,8 @@ class _BallAiAppRootState extends State<dynamic> {
     // 0xab1a0c: DecompressPointer r0
     //     0xab1a0c: add             x0, x0, HEAP, lsl #32
     // 0xab1a10: mov             x1, x0
-    // 0xab1a14: r0 = ballAiSystemOverlayStyle()
-    //     0xab1a14: bl              #0xab181c  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::ballAiSystemOverlayStyle
+    // 0xab1a14: r0 = kourtAiSystemOverlayStyle()
+    //     0xab1a14: bl              #0xab181c  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::kourtAiSystemOverlayStyle
     // 0xab1a18: mov             x1, x0
     // 0xab1a1c: ldr             x0, [fp, #0x10]
     // 0xab1a20: stur            x1, [fp, #-0x18]
@@ -2205,7 +2205,7 @@ class _BallAiAppRootState extends State<dynamic> {
     //     0xb5c620: mov             fp, SP
     // 0xb5c624: ldr             x2, [fp, #0x10]
     // 0xb5c628: r1 = Function 'dispose':.
-    //     0xb5c628: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b7f8] AnonymousClosure: (0xb5c640), in [package:ballai/main.dart] _BallAiAppRootState::dispose (0xb63b38)
+    //     0xb5c628: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b7f8] AnonymousClosure: (0xb5c640), in [package:kourtai/main.dart] _KourtAiAppRootState::dispose (0xb63b38)
     //     0xb5c62c: ldr             x1, [x1, #0x7f8]
     // 0xb5c630: r0 = AllocateClosure()
     //     0xb5c630: bl              #0xe553e0  ; AllocateClosureStub
@@ -2230,7 +2230,7 @@ class _BallAiAppRootState extends State<dynamic> {
     //     0xb5c658: cmp             SP, x16
     //     0xb5c65c: b.ls            #0xb5c670
     // 0xb5c660: r0 = dispose()
-    //     0xb5c660: bl              #0xb63b38  ; [package:ballai/main.dart] _BallAiAppRootState::dispose
+    //     0xb5c660: bl              #0xb63b38  ; [package:kourtai/main.dart] _KourtAiAppRootState::dispose
     // 0xb5c664: LeaveFrame
     //     0xb5c664: mov             SP, fp
     //     0xb5c668: ldp             fp, lr, [SP], #0x10
@@ -2271,7 +2271,7 @@ class _BallAiAppRootState extends State<dynamic> {
 
 // class id: 3538, size: 0x10, field offset: 0xc
 //   const constructor, 
-class _BallAiAppRoot extends StatefulWidget {
+class _KourtAiAppRoot extends StatefulWidget {
 
   _ createState(/* No info */) {
     // ** addr: 0xb75ee4, size: 0x3c
@@ -2280,16 +2280,16 @@ class _BallAiAppRoot extends StatefulWidget {
     //     0xb75ee8: mov             fp, SP
     // 0xb75eec: AllocStack(0x8)
     //     0xb75eec: sub             SP, SP, #8
-    // 0xb75ef0: SetupParameters(_BallAiAppRoot this /* r1 => r0 */)
+    // 0xb75ef0: SetupParameters(_KourtAiAppRoot this /* r1 => r0 */)
     //     0xb75ef0: mov             x0, x1
-    // 0xb75ef4: r1 = <_BallAiAppRoot>
-    //     0xb75ef4: add             x1, PP, #0x16, lsl #12  ; [pp+0x16a88] TypeArguments: <_BallAiAppRoot>
+    // 0xb75ef4: r1 = <_KourtAiAppRoot>
+    //     0xb75ef4: add             x1, PP, #0x16, lsl #12  ; [pp+0x16a88] TypeArguments: <_KourtAiAppRoot>
     //     0xb75ef8: ldr             x1, [x1, #0xa88]
-    // 0xb75efc: r0 = _BallAiAppRootState()
-    //     0xb75efc: bl              #0xb75f2c  ; Allocate_BallAiAppRootStateStub -> _BallAiAppRootState (size=0x18)
+    // 0xb75efc: r0 = _KourtAiAppRootState()
+    //     0xb75efc: bl              #0xb75f2c  ; Allocate_KourtAiAppRootStateStub -> _KourtAiAppRootState (size=0x18)
     // 0xb75f00: stur            x0, [fp, #-8]
-    // 0xb75f04: r0 = BallAiAppLifecycle()
-    //     0xb75f04: bl              #0xb75f20  ; AllocateBallAiAppLifecycleStub -> BallAiAppLifecycle (size=0xc)
+    // 0xb75f04: r0 = KourtAiAppLifecycle()
+    //     0xb75f04: bl              #0xb75f20  ; AllocateKourtAiAppLifecycleStub -> KourtAiAppLifecycle (size=0xc)
     // 0xb75f08: mov             x1, x0
     // 0xb75f0c: ldur            x0, [fp, #-8]
     // 0xb75f10: StoreField: r0->field_13 = r1
@@ -2304,7 +2304,7 @@ class _BallAiAppRoot extends StatefulWidget {
 
 // class id: 3884, size: 0x1c, field offset: 0xc
 //   const constructor, 
-class BallAiApp extends StatelessWidget {
+class KourtAiApp extends StatelessWidget {
 
   _ build(/* No info */) {
     // ** addr: 0xc27f34, size: 0x1b8
@@ -2313,7 +2313,7 @@ class BallAiApp extends StatelessWidget {
     //     0xc27f38: mov             fp, SP
     // 0xc27f3c: AllocStack(0x20)
     //     0xc27f3c: sub             SP, SP, #0x20
-    // 0xc27f40: SetupParameters(BallAiApp this /* r1 => r1, fp-0x20 */)
+    // 0xc27f40: SetupParameters(KourtAiApp this /* r1 => r1, fp-0x20 */)
     //     0xc27f40: stur            x1, [fp, #-0x20]
     // 0xc27f44: CheckStackOverflow
     //     0xc27f44: ldr             x16, [THR, #0x38]  ; THR::stack_limit
@@ -2327,33 +2327,33 @@ class BallAiApp extends StatelessWidget {
     //     0xc27f58: ldur            w2, [x0, #7]
     // 0xc27f5c: DecompressPointer r2
     //     0xc27f5c: add             x2, x2, HEAP, lsl #32
-    // 0xc27f60: r16 = Instance_BallAiBootState
-    //     0xc27f60: add             x16, PP, #9, lsl #12  ; [pp+0x99e8] Obj!BallAiBootState@d3bde1
+    // 0xc27f60: r16 = Instance_KourtAiBootState
+    //     0xc27f60: add             x16, PP, #9, lsl #12  ; [pp+0x99e8] Obj!KourtAiBootState@d3bde1
     //     0xc27f64: ldr             x16, [x16, #0x9e8]
     // 0xc27f68: cmp             w2, w16
     // 0xc27f6c: b.eq            #0xc28054
-    // 0xc27f70: r16 = Instance_BallAiBootState
-    //     0xc27f70: add             x16, PP, #0x11, lsl #12  ; [pp+0x11230] Obj!BallAiBootState@d3be21
+    // 0xc27f70: r16 = Instance_KourtAiBootState
+    //     0xc27f70: add             x16, PP, #0x11, lsl #12  ; [pp+0x11230] Obj!KourtAiBootState@d3be21
     //     0xc27f74: ldr             x16, [x16, #0x230]
     // 0xc27f78: cmp             w2, w16
     // 0xc27f7c: b.eq            #0xc28054
-    // 0xc27f80: r0 = ballAiLightTheme()
-    //     0xc27f80: bl              #0xab102c  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::ballAiLightTheme
+    // 0xc27f80: r0 = kourtAiLightTheme()
+    //     0xc27f80: bl              #0xab102c  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::kourtAiLightTheme
     // 0xc27f84: stur            x0, [fp, #-8]
-    // 0xc27f88: r0 = ballAiDarkTheme()
-    //     0xc27f88: bl              #0xab0ff4  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::ballAiDarkTheme
+    // 0xc27f88: r0 = kourtAiDarkTheme()
+    //     0xc27f88: bl              #0xab0ff4  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::kourtAiDarkTheme
     // 0xc27f8c: stur            x0, [fp, #-0x10]
-    // 0xc27f90: r0 = BallAiBootFailedView()
-    //     0xc27f90: bl              #0xc2efe4  ; AllocateBallAiBootFailedViewStub -> BallAiBootFailedView (size=0x14)
+    // 0xc27f90: r0 = KourtAiBootFailedView()
+    //     0xc27f90: bl              #0xc2efe4  ; AllocateKourtAiBootFailedViewStub -> KourtAiBootFailedView (size=0x14)
     // 0xc27f94: mov             x3, x0
-    // 0xc27f98: r0 = "Could not start Ball AI. Check your connection and try again."
-    //     0xc27f98: add             x0, PP, #9, lsl #12  ; [pp+0x9a08] "Could not start Ball AI. Check your connection and try again."
+    // 0xc27f98: r0 = "Could not start Kourt AI. Check your connection and try again."
+    //     0xc27f98: add             x0, PP, #9, lsl #12  ; [pp+0x9a08] "Could not start Kourt AI. Check your connection and try again."
     //     0xc27f9c: ldr             x0, [x0, #0xa08]
     // 0xc27fa0: stur            x3, [fp, #-0x18]
     // 0xc27fa4: StoreField: r3->field_b = r0
     //     0xc27fa4: stur            w0, [x3, #0xb]
     // 0xc27fa8: r1 = Function '<anonymous closure>':.
-    //     0xc27fa8: add             x1, PP, #0x11, lsl #12  ; [pp+0x11238] AnonymousClosure: (0xc2eff0), in [package:ballai/main.dart] BallAiApp::build (0xc27f34)
+    //     0xc27fa8: add             x1, PP, #0x11, lsl #12  ; [pp+0x11238] AnonymousClosure: (0xc2eff0), in [package:kourtai/main.dart] KourtAiApp::build (0xc27f34)
     //     0xc27fac: ldr             x1, [x1, #0x238]
     // 0xc27fb0: r2 = Null
     //     0xc27fb0: mov             x2, NULL
@@ -2379,8 +2379,8 @@ class BallAiApp extends StatelessWidget {
     //     0xc27fe4: ldr             x0, [x0, #0x248]
     // 0xc27fe8: StoreField: r1->field_2f = r0
     //     0xc27fe8: stur            w0, [x1, #0x2f]
-    // 0xc27fec: r0 = "Ball AI"
-    //     0xc27fec: add             x0, PP, #0x11, lsl #12  ; [pp+0x11250] "Ball AI"
+    // 0xc27fec: r0 = "Kourt AI"
+    //     0xc27fec: add             x0, PP, #0x11, lsl #12  ; [pp+0x11250] "Kourt AI"
     //     0xc27ff0: ldr             x0, [x0, #0x250]
     // 0xc27ff4: StoreField: r1->field_3f = r0
     //     0xc27ff4: stur            w0, [x1, #0x3f]
@@ -2434,7 +2434,7 @@ class BallAiApp extends StatelessWidget {
     // 0xc28068: mov             x1, x0
     // 0xc2806c: stur            x0, [fp, #-8]
     // 0xc28070: r0 = RevenueCatManager()
-    //     0xc28070: bl              #0xc2ef10  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::RevenueCatManager
+    //     0xc28070: bl              #0xc2ef10  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::RevenueCatManager
     // 0xc28074: ldur            x2, [fp, #-8]
     // 0xc28078: b               #0xc28080
     // 0xc2807c: mov             x2, x0
@@ -2447,11 +2447,11 @@ class BallAiApp extends StatelessWidget {
     // 0xc28090: cmp             w1, NULL
     // 0xc28094: b.ne            #0xc280a0
     // 0xc28098: r0 = instance()
-    //     0xc28098: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0xc28098: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0xc2809c: mov             x1, x0
     // 0xc280a0: ldur            x2, [fp, #-8]
-    // 0xc280a4: r0 = createBallAiProviders()
-    //     0xc280a4: bl              #0xc2854c  ; [package:ballai/main.dart] ::createBallAiProviders
+    // 0xc280a4: r0 = createKourtAiProviders()
+    //     0xc280a4: bl              #0xc2854c  ; [package:kourtai/main.dart] ::createKourtAiProviders
     // 0xc280a8: mov             x1, x0
     // 0xc280ac: r0 = _collapseProviders()
     //     0xc280ac: bl              #0xc28104  ; [package:provider/src/provider.dart] MultiProvider::_collapseProviders
@@ -2463,8 +2463,8 @@ class BallAiApp extends StatelessWidget {
     // 0xc280c0: stur            x1, [fp, #-0x10]
     // 0xc280c4: StoreField: r1->field_b = r0
     //     0xc280c4: stur            w0, [x1, #0xb]
-    // 0xc280c8: r0 = _BallAiAppRoot()
-    //     0xc280c8: bl              #0xc280ec  ; Allocate_BallAiAppRootStub -> _BallAiAppRoot (size=0x10)
+    // 0xc280c8: r0 = _KourtAiAppRoot()
+    //     0xc280c8: bl              #0xc280ec  ; Allocate_KourtAiAppRootStub -> _KourtAiAppRoot (size=0x10)
     // 0xc280cc: mov             x1, x0
     // 0xc280d0: ldur            x0, [fp, #-0x10]
     // 0xc280d4: StoreField: r0->field_f = r1
@@ -2488,7 +2488,7 @@ class BallAiApp extends StatelessWidget {
     //     0xc2effc: cmp             SP, x16
     //     0xc2f000: b.ls            #0xc2f018
     // 0xc2f004: r0 = _retryBoot()
-    //     0xc2f004: bl              #0xc2f020  ; [package:ballai/main.dart] ::_retryBoot
+    //     0xc2f004: bl              #0xc2f020  ; [package:kourtai/main.dart] ::_retryBoot
     // 0xc2f008: r0 = Null
     //     0xc2f008: mov             x0, NULL
     // 0xc2f00c: LeaveFrame

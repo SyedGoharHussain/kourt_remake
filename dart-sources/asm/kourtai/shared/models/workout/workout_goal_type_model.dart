@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/shared/models/workout/workout_goal_type_model.dart
+// lib: , url: package:kourtai/shared/models/workout/workout_goal_type_model.dart
 
 // class id: 1049064, size: 0x8
 class :: {
@@ -668,14 +668,14 @@ class WorkoutGoalTypeModel extends Object {
     //     0x998750: add             x0, x0, HEAP, lsl #32
     // 0x998754: tbz             w0, #4, #0x998768
     // 0x998758: r0 = spokenFormattedValue()
-    //     0x998758: bl              #0x9987b0  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::spokenFormattedValue
+    //     0x998758: bl              #0x9987b0  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::spokenFormattedValue
     // 0x99875c: LeaveFrame
     //     0x99875c: mov             SP, fp
     //     0x998760: ldp             fp, lr, [SP], #0x10
     // 0x998764: ret
     //     0x998764: ret             
     // 0x998768: r0 = spokenFormattedValue()
-    //     0x998768: bl              #0x9987b0  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::spokenFormattedValue
+    //     0x998768: bl              #0x9987b0  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::spokenFormattedValue
     // 0x99876c: r1 = Null
     //     0x99876c: mov             x1, NULL
     // 0x998770: r2 = 4
@@ -735,7 +735,7 @@ class WorkoutGoalTypeModel extends Object {
     // 0x9987f8: tbnz            w0, #4, #0x998828
     // 0x9987fc: ldur            x1, [fp, #-8]
     // 0x998800: r0 = resolvedTimeTargetSeconds()
-    //     0x998800: bl              #0x99916c  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::resolvedTimeTargetSeconds
+    //     0x998800: bl              #0x99916c  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::resolvedTimeTargetSeconds
     // 0x998804: cmp             w0, NULL
     // 0x998808: b.eq            #0x998828
     // 0x99880c: r1 = LoadInt32Instr(r0)
@@ -743,7 +743,7 @@ class WorkoutGoalTypeModel extends Object {
     //     0x998810: tbz             w0, #0, #0x998818
     //     0x998814: ldur            x1, [x0, #7]
     // 0x998818: r0 = _formatSecondsForSpeech()
-    //     0x998818: bl              #0x998d94  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::_formatSecondsForSpeech
+    //     0x998818: bl              #0x998d94  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::_formatSecondsForSpeech
     // 0x99881c: LeaveFrame
     //     0x99881c: mov             SP, fp
     //     0x998820: ldp             fp, lr, [SP], #0x10
@@ -751,7 +751,7 @@ class WorkoutGoalTypeModel extends Object {
     //     0x998824: ret             
     // 0x998828: ldur            x1, [fp, #-8]
     // 0x99882c: r0 = formattedValue()
-    //     0x99882c: bl              #0x998844  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::formattedValue
+    //     0x99882c: bl              #0x998844  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::formattedValue
     // 0x998830: LeaveFrame
     //     0x998830: mov             SP, fp
     //     0x998834: ldp             fp, lr, [SP], #0x10
@@ -792,7 +792,7 @@ class WorkoutGoalTypeModel extends Object {
     // 0x99888c: tbnz            w0, #4, #0x998928
     // 0x998890: ldur            x1, [fp, #-0x10]
     // 0x998894: r0 = resolvedTimeTargetSeconds()
-    //     0x998894: bl              #0x99916c  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::resolvedTimeTargetSeconds
+    //     0x998894: bl              #0x99916c  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::resolvedTimeTargetSeconds
     // 0x998898: cmp             w0, NULL
     // 0x99889c: b.eq            #0x998928
     // 0x9988a0: d0 = 60.000000
@@ -830,7 +830,7 @@ class WorkoutGoalTypeModel extends Object {
     //     0x998910: tbz             w0, #0, #0x998918
     //     0x998914: ldur            x1, [x0, #7]
     // 0x998918: r0 = formatMinutes()
-    //     0x998918: bl              #0x998c38  ; [package:ballai/automatic/utility/statics/formatters/time_formatter.dart] TimeFormatter::formatMinutes
+    //     0x998918: bl              #0x998c38  ; [package:kourtai/automatic/utility/statics/formatters/time_formatter.dart] TimeFormatter::formatMinutes
     // 0x99891c: LeaveFrame
     //     0x99891c: mov             SP, fp
     //     0x998920: ldp             fp, lr, [SP], #0x10
@@ -844,7 +844,7 @@ class WorkoutGoalTypeModel extends Object {
     // 0x998934: cmp             w0, NULL
     // 0x998938: b.ne            #0x998948
     // 0x99893c: r0 = resolvedDisplayPreferenceValue()
-    //     0x99893c: bl              #0x998ab0  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::resolvedDisplayPreferenceValue
+    //     0x99893c: bl              #0x998ab0  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::resolvedDisplayPreferenceValue
     // 0x998940: mov             x1, x0
     // 0x998944: b               #0x99894c
     // 0x998948: mov             x1, x0
@@ -878,7 +878,7 @@ class WorkoutGoalTypeModel extends Object {
     //     0x9989a0: ldur            x0, [x1, #7]
     // 0x9989a4: mov             x1, x0
     // 0x9989a8: r0 = formatMinutes()
-    //     0x9989a8: bl              #0x998c38  ; [package:ballai/automatic/utility/statics/formatters/time_formatter.dart] TimeFormatter::formatMinutes
+    //     0x9989a8: bl              #0x998c38  ; [package:kourtai/automatic/utility/statics/formatters/time_formatter.dart] TimeFormatter::formatMinutes
     // 0x9989ac: LeaveFrame
     //     0x9989ac: mov             SP, fp
     //     0x9989b0: ldp             fp, lr, [SP], #0x10
@@ -903,7 +903,7 @@ class WorkoutGoalTypeModel extends Object {
     //     0x9989ec: tbz             w0, #0, #0x9989f4
     //     0x9989f0: ldur            x1, [x0, #7]
     // 0x9989f4: r0 = recordFormatGoalNumber()
-    //     0x9989f4: bl              #0x992b34  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordFormatGoalNumber
+    //     0x9989f4: bl              #0x992b34  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordFormatGoalNumber
     // 0x9989f8: r1 = Null
     //     0x9989f8: mov             x1, NULL
     // 0x9989fc: r2 = 4
@@ -935,7 +935,7 @@ class WorkoutGoalTypeModel extends Object {
     //     0x998a40: tbz             w0, #0, #0x998a48
     //     0x998a44: ldur            x1, [x0, #7]
     // 0x998a48: r0 = recordFormatGoalNumber()
-    //     0x998a48: bl              #0x992b34  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordFormatGoalNumber
+    //     0x998a48: bl              #0x992b34  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordFormatGoalNumber
     // 0x998a4c: r1 = Null
     //     0x998a4c: mov             x1, NULL
     // 0x998a50: r2 = 6
@@ -1499,7 +1499,7 @@ class WorkoutGoalTypeModel extends Object {
     //     0x9991c4: ret             
     // 0x9991c8: ldur            x1, [fp, #-8]
     // 0x9991cc: r0 = resolvedDisplayPreferenceValue()
-    //     0x9991cc: bl              #0x998ab0  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::resolvedDisplayPreferenceValue
+    //     0x9991cc: bl              #0x998ab0  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::resolvedDisplayPreferenceValue
     // 0x9991d0: cmp             w0, NULL
     // 0x9991d4: b.eq            #0x9991ec
     // 0x9991d8: r2 = LoadInt32Instr(r0)
@@ -1577,7 +1577,7 @@ class WorkoutGoalTypeModel extends Object {
     //     0xabae14: add             x0, x0, HEAP, lsl #32
     // 0xabae18: tbnz            w0, #4, #0xabae54
     // 0xabae1c: r0 = formattedGoalCellSummary()
-    //     0xabae1c: bl              #0xabae98  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::formattedGoalCellSummary
+    //     0xabae1c: bl              #0xabae98  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::formattedGoalCellSummary
     // 0xabae20: r1 = Null
     //     0xabae20: mov             x1, NULL
     // 0xabae24: r2 = 4
@@ -1599,7 +1599,7 @@ class WorkoutGoalTypeModel extends Object {
     //     0xabae4c: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0xabae50: b               #0xabae58
     // 0xabae54: r0 = formattedGoalCellSummary()
-    //     0xabae54: bl              #0xabae98  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::formattedGoalCellSummary
+    //     0xabae54: bl              #0xabae98  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::formattedGoalCellSummary
     // 0xabae58: stur            x0, [fp, #-8]
     // 0xabae5c: r1 = Null
     //     0xabae5c: mov             x1, NULL
@@ -1643,7 +1643,7 @@ class WorkoutGoalTypeModel extends Object {
     //     0xabaeb4: b.ls            #0xabb03c
     // 0xabaeb8: mov             x1, x0
     // 0xabaebc: r0 = resolvedDisplayPreferenceValue()
-    //     0xabaebc: bl              #0x998ab0  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::resolvedDisplayPreferenceValue
+    //     0xabaebc: bl              #0x998ab0  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::resolvedDisplayPreferenceValue
     // 0xabaec0: mov             x1, x0
     // 0xabaec4: stur            x1, [fp, #-0x18]
     // 0xabaec8: cmp             w1, NULL
@@ -1675,7 +1675,7 @@ class WorkoutGoalTypeModel extends Object {
     // 0xabaf14: tbnz            w0, #4, #0xabaf68
     // 0xabaf18: ldur            x1, [fp, #-8]
     // 0xabaf1c: r0 = resolvedTimeTargetSeconds()
-    //     0xabaf1c: bl              #0x99916c  ; [package:ballai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::resolvedTimeTargetSeconds
+    //     0xabaf1c: bl              #0x99916c  ; [package:kourtai/shared/models/workout/workout_goal_type_model.dart] WorkoutGoalTypeModel::resolvedTimeTargetSeconds
     // 0xabaf20: cmp             w0, NULL
     // 0xabaf24: b.eq            #0xabaf44
     // 0xabaf28: r1 = LoadInt32Instr(r0)
@@ -1683,7 +1683,7 @@ class WorkoutGoalTypeModel extends Object {
     //     0xabaf2c: tbz             w0, #0, #0xabaf34
     //     0xabaf30: ldur            x1, [x0, #7]
     // 0xabaf34: r0 = formatSeconds()
-    //     0xabaf34: bl              #0xabb044  ; [package:ballai/automatic/utility/statics/formatters/time_formatter.dart] TimeFormatter::formatSeconds
+    //     0xabaf34: bl              #0xabb044  ; [package:kourtai/automatic/utility/statics/formatters/time_formatter.dart] TimeFormatter::formatSeconds
     // 0xabaf38: LeaveFrame
     //     0xabaf38: mov             SP, fp
     //     0xabaf3c: ldp             fp, lr, [SP], #0x10
@@ -1696,7 +1696,7 @@ class WorkoutGoalTypeModel extends Object {
     //     0xabaf50: ldur            x0, [x1, #7]
     // 0xabaf54: mov             x1, x0
     // 0xabaf58: r0 = formatMinutes()
-    //     0xabaf58: bl              #0x998c38  ; [package:ballai/automatic/utility/statics/formatters/time_formatter.dart] TimeFormatter::formatMinutes
+    //     0xabaf58: bl              #0x998c38  ; [package:kourtai/automatic/utility/statics/formatters/time_formatter.dart] TimeFormatter::formatMinutes
     // 0xabaf5c: LeaveFrame
     //     0xabaf5c: mov             SP, fp
     //     0xabaf60: ldp             fp, lr, [SP], #0x10
@@ -1721,7 +1721,7 @@ class WorkoutGoalTypeModel extends Object {
     //     0xabaf9c: tbz             w0, #0, #0xabafa4
     //     0xabafa0: ldur            x1, [x0, #7]
     // 0xabafa4: r0 = recordFormatGoalNumber()
-    //     0xabafa4: bl              #0x992b34  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordFormatGoalNumber
+    //     0xabafa4: bl              #0x992b34  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordFormatGoalNumber
     // 0xabafa8: r1 = Null
     //     0xabafa8: mov             x1, NULL
     // 0xabafac: r2 = 4
@@ -1753,7 +1753,7 @@ class WorkoutGoalTypeModel extends Object {
     //     0xabaff0: tbz             w0, #0, #0xabaff8
     //     0xabaff4: ldur            x1, [x0, #7]
     // 0xabaff8: r0 = recordFormatGoalNumber()
-    //     0xabaff8: bl              #0x992b34  ; [package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordFormatGoalNumber
+    //     0xabaff8: bl              #0x992b34  ; [package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart] ::recordFormatGoalNumber
     // 0xabaffc: r1 = Null
     //     0xabaffc: mov             x1, NULL
     // 0xabb000: r2 = 6

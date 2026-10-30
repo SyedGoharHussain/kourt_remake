@@ -429,7 +429,7 @@ class _CupertinoTextSelectionToolbarButtonState extends State<dynamic> {
     //     0xaf58c4: stur            w0, [x1, #0xf]
     // 0xaf58c8: mov             x2, x1
     // 0xaf58cc: r1 = Function '<anonymous closure>':.
-    //     0xaf58cc: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d6b0] AnonymousClosure: (0x9ecde0), in [package:ballai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
+    //     0xaf58cc: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d6b0] AnonymousClosure: (0x9ecde0), in [package:kourtai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
     //     0xaf58d0: ldr             x1, [x1, #0x6b0]
     // 0xaf58d4: r0 = AllocateClosure()
     //     0xaf58d4: bl              #0xe553e0  ; AllocateClosureStub
@@ -497,7 +497,7 @@ class _CupertinoTextSelectionToolbarButtonState extends State<dynamic> {
     //     0xaf5964: stur            w0, [x1, #0xf]
     // 0xaf5968: mov             x2, x1
     // 0xaf596c: r1 = Function '<anonymous closure>':.
-    //     0xaf596c: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d6b8] AnonymousClosure: (0x9ecde0), in [package:ballai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
+    //     0xaf596c: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d6b8] AnonymousClosure: (0x9ecde0), in [package:kourtai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
     //     0xaf5970: ldr             x1, [x1, #0x6b8]
     // 0xaf5974: r0 = AllocateClosure()
     //     0xaf5974: bl              #0xe553e0  ; AllocateClosureStub
@@ -587,7 +587,7 @@ class _CupertinoTextSelectionToolbarButtonState extends State<dynamic> {
     //     0xaf5a40: stur            w0, [x1, #0xf]
     // 0xaf5a44: mov             x2, x1
     // 0xaf5a48: r1 = Function '<anonymous closure>':.
-    //     0xaf5a48: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d6c0] AnonymousClosure: (0x98f834), in [package:ballai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::initState (0x98f684)
+    //     0xaf5a48: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d6c0] AnonymousClosure: (0x98f834), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::initState (0x98f684)
     //     0xaf5a4c: ldr             x1, [x1, #0x6c0]
     // 0xaf5a50: r0 = AllocateClosure()
     //     0xaf5a50: bl              #0xe553e0  ; AllocateClosureStub

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart
+// lib: , url: package:kourtai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart
 
 // class id: 1048761, size: 0x8
 class :: {
@@ -127,7 +127,7 @@ class ActivityChangeGoalsViewModel extends ChangeNotifier {
     //     0x957908: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x95790c: mov             x1, x2
     // 0x957910: r0 = _seedMetrics()
-    //     0x957910: bl              #0x95792c  ; [package:ballai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::_seedMetrics
+    //     0x957910: bl              #0x95792c  ; [package:kourtai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::_seedMetrics
     // 0x957914: r0 = Null
     //     0x957914: mov             x0, NULL
     // 0x957918: LeaveFrame
@@ -165,7 +165,7 @@ class ActivityChangeGoalsViewModel extends ChangeNotifier {
     //     0x957960: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c2a8] "How long do you want to workout for this week\?"
     //     0x957964: ldr             x1, [x1, #0x2a8]
     // 0x957968: r0 = L()
-    //     0x957968: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x957968: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x95796c: stur            x0, [fp, #-0x18]
     // 0x957970: r0 = ActivityGoalMetricModel()
     //     0x957970: bl              #0x957b50  ; AllocateActivityGoalMetricModelStub -> ActivityGoalMetricModel (size=0x34)
@@ -207,7 +207,7 @@ class ActivityChangeGoalsViewModel extends ChangeNotifier {
     //     0x9579c8: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c2c0] "How many shots are we getting up this week\?"
     //     0x9579cc: ldr             x1, [x1, #0x2c0]
     // 0x9579d0: r0 = L()
-    //     0x9579d0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9579d0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9579d4: stur            x0, [fp, #-0x18]
     // 0x9579d8: r0 = ActivityGoalMetricModel()
     //     0x9579d8: bl              #0x957b50  ; AllocateActivityGoalMetricModelStub -> ActivityGoalMetricModel (size=0x34)
@@ -245,7 +245,7 @@ class ActivityChangeGoalsViewModel extends ChangeNotifier {
     //     0x957a24: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c2c8] "How many shots are we making this week\?"
     //     0x957a28: ldr             x1, [x1, #0x2c8]
     // 0x957a2c: r0 = L()
-    //     0x957a2c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x957a2c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x957a30: mov             x1, x0
     // 0x957a34: ldur            x0, [fp, #-0x10]
     // 0x957a38: stur            x1, [fp, #-0x18]
@@ -372,7 +372,7 @@ class ActivityChangeGoalsViewModel extends ChangeNotifier {
     //     0xa2eabc: b.ls            #0xa2eb54
     // 0xa2eac0: mov             x1, x0
     // 0xa2eac4: r0 = selectedMetricValue()
-    //     0xa2eac4: bl              #0xa2eb60  ; [package:ballai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::selectedMetricValue
+    //     0xa2eac4: bl              #0xa2eb60  ; [package:kourtai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::selectedMetricValue
     // 0xa2eac8: mov             x2, x0
     // 0xa2eacc: r0 = BoxInt64Instr(r2)
     //     0xa2eacc: sbfiz           x0, x2, #1, #0x1f
@@ -597,7 +597,7 @@ class ActivityChangeGoalsViewModel extends ChangeNotifier {
     //     0xa2ecfc: b.ls            #0xa2ed94
     // 0xa2ed00: mov             x1, x0
     // 0xa2ed04: r0 = selectedMetricValue()
-    //     0xa2ed04: bl              #0xa2eb60  ; [package:ballai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::selectedMetricValue
+    //     0xa2ed04: bl              #0xa2eb60  ; [package:kourtai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::selectedMetricValue
     // 0xa2ed08: mov             x2, x0
     // 0xa2ed0c: r0 = BoxInt64Instr(r2)
     //     0xa2ed0c: sbfiz           x0, x2, #1, #0x1f
@@ -696,7 +696,7 @@ class ActivityChangeGoalsViewModel extends ChangeNotifier {
     // 0xa2edf4: mov             x1, x2
     // 0xa2edf8: stur            x3, [fp, #-8]
     // 0xa2edfc: r0 = selectedMetricValue()
-    //     0xa2edfc: bl              #0xa2eb60  ; [package:ballai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::selectedMetricValue
+    //     0xa2edfc: bl              #0xa2eb60  ; [package:kourtai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::selectedMetricValue
     // 0xa2ee00: mov             x1, x0
     // 0xa2ee04: ldur            x0, [fp, #-8]
     // 0xa2ee08: stur            x1, [fp, #-0x10]
@@ -748,7 +748,7 @@ class ActivityChangeGoalsViewModel extends ChangeNotifier {
     //     0xa2f034: b.ls            #0xa2f09c
     // 0xa2f038: mov             x1, x2
     // 0xa2f03c: r0 = _syncMakesRangeFromShots()
-    //     0xa2f03c: bl              #0xa2f0a4  ; [package:ballai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::_syncMakesRangeFromShots
+    //     0xa2f03c: bl              #0xa2f0a4  ; [package:kourtai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::_syncMakesRangeFromShots
     // 0xa2f040: ldur            x1, [fp, #-8]
     // 0xa2f044: LoadField: r0 = r1->field_27
     //     0xa2f044: ldur            x0, [x1, #0x27]
@@ -807,7 +807,7 @@ class ActivityChangeGoalsViewModel extends ChangeNotifier {
     //     0xa2f0c8: add             x3, x3, HEAP, lsl #32
     // 0xa2f0cc: stur            x3, [fp, #-8]
     // 0xa2f0d0: r1 = Function '<anonymous closure>':.
-    //     0xa2f0d0: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c258] AnonymousClosure: (0xa2f1d8), in [package:ballai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::_syncMakesRangeFromShots (0xa2f0a4)
+    //     0xa2f0d0: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c258] AnonymousClosure: (0xa2f1d8), in [package:kourtai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::_syncMakesRangeFromShots (0xa2f0a4)
     //     0xa2f0d4: ldr             x1, [x1, #0x258]
     // 0xa2f0d8: r2 = Null
     //     0xa2f0d8: mov             x2, NULL
@@ -950,7 +950,7 @@ class ActivityChangeGoalsViewModel extends ChangeNotifier {
     //     0xa2f328: b.ls            #0xa2f44c
     // 0xa2f32c: mov             x1, x0
     // 0xa2f330: r0 = selectedMetricValue()
-    //     0xa2f330: bl              #0xa2eb60  ; [package:ballai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::selectedMetricValue
+    //     0xa2f330: bl              #0xa2eb60  ; [package:kourtai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::selectedMetricValue
     // 0xa2f334: mov             x2, x0
     // 0xa2f338: r0 = BoxInt64Instr(r2)
     //     0xa2f338: sbfiz           x0, x2, #1, #0x1f
@@ -1040,7 +1040,7 @@ class ActivityChangeGoalsViewModel extends ChangeNotifier {
     //     0xa2f430: ldur            d0, [x0, #7]
     // 0xa2f434: ldur            x1, [fp, #-8]
     // 0xa2f438: r0 = setSelectedMetricValue()
-    //     0xa2f438: bl              #0xa2f4bc  ; [package:ballai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::setSelectedMetricValue
+    //     0xa2f438: bl              #0xa2f4bc  ; [package:kourtai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::setSelectedMetricValue
     // 0xa2f43c: r0 = Null
     //     0xa2f43c: mov             x0, NULL
     // 0xa2f440: LeaveFrame
@@ -1195,7 +1195,7 @@ class ActivityChangeGoalsViewModel extends ChangeNotifier {
     //     0xa2f5f4: b.eq            #0xa2f5fc
     //     0xa2f5f8: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0xa2f5fc: r1 = Function '<anonymous closure>':.
-    //     0xa2f5fc: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c288] AnonymousClosure: (0xa2f1d8), in [package:ballai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::_syncMakesRangeFromShots (0xa2f0a4)
+    //     0xa2f5fc: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c288] AnonymousClosure: (0xa2f1d8), in [package:kourtai/automatic/viewmodels/components/home/activity/activity_change_goals_view_model.dart] ActivityChangeGoalsViewModel::_syncMakesRangeFromShots (0xa2f0a4)
     //     0xa2f600: ldr             x1, [x1, #0x288]
     // 0xa2f604: r2 = Null
     //     0xa2f604: mov             x2, NULL

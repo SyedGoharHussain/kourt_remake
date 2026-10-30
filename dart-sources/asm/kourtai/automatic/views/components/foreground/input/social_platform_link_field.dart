@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/foreground/input/social_platform_link_field.dart
+// lib: , url: package:kourtai/automatic/views/components/foreground/input/social_platform_link_field.dart
 
 // class id: 1048793, size: 0x8
 class :: {
@@ -89,7 +89,7 @@ class _SocialPlatformLinkFieldState extends State<dynamic> {
     // 0x8e57b8: b.eq            #0x8e5804
     // 0x8e57bc: mov             x2, x0
     // 0x8e57c0: r1 = Function '_onText@998083871':.
-    //     0x8e57c0: add             x1, PP, #0x45, lsl #12  ; [pp+0x45f78] AnonymousClosure: (0x8e5844), in [package:ballai/automatic/views/components/foreground/input/social_platform_link_field.dart] _SocialPlatformLinkFieldState::_onText (0x8e587c)
+    //     0x8e57c0: add             x1, PP, #0x45, lsl #12  ; [pp+0x45f78] AnonymousClosure: (0x8e5844), in [package:kourtai/automatic/views/components/foreground/input/social_platform_link_field.dart] _SocialPlatformLinkFieldState::_onText (0x8e587c)
     //     0x8e57c4: ldr             x1, [x1, #0xf78]
     // 0x8e57c8: r0 = AllocateClosure()
     //     0x8e57c8: bl              #0xe553e0  ; AllocateClosureStub
@@ -143,7 +143,7 @@ class _SocialPlatformLinkFieldState extends State<dynamic> {
     //     0x8e585c: cmp             SP, x16
     //     0x8e5860: b.ls            #0x8e5874
     // 0x8e5864: r0 = _onText()
-    //     0x8e5864: bl              #0x8e587c  ; [package:ballai/automatic/views/components/foreground/input/social_platform_link_field.dart] _SocialPlatformLinkFieldState::_onText
+    //     0x8e5864: bl              #0x8e587c  ; [package:kourtai/automatic/views/components/foreground/input/social_platform_link_field.dart] _SocialPlatformLinkFieldState::_onText
     // 0x8e5868: LeaveFrame
     //     0x8e5868: mov             SP, fp
     //     0x8e586c: ldp             fp, lr, [SP], #0x10
@@ -187,7 +187,7 @@ class _SocialPlatformLinkFieldState extends State<dynamic> {
     //     0x8e58c0: add             x2, x2, HEAP, lsl #32
     // 0x8e58c4: mov             x1, x2
     // 0x8e58c8: r0 = clampedInput()
-    //     0x8e58c8: bl              #0x8e59e8  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::clampedInput
+    //     0x8e58c8: bl              #0x8e59e8  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::clampedInput
     // 0x8e58cc: mov             x2, x0
     // 0x8e58d0: ldur            x1, [fp, #-8]
     // 0x8e58d4: stur            x2, [fp, #-0x10]
@@ -326,7 +326,7 @@ class _SocialPlatformLinkFieldState extends State<dynamic> {
     //     0x941100: add             x3, x3, HEAP, lsl #32
     // 0x941104: stur            x3, [fp, #-8]
     // 0x941108: r1 = Function '_onText@998083871':.
-    //     0x941108: add             x1, PP, #0x45, lsl #12  ; [pp+0x45f78] AnonymousClosure: (0x8e5844), in [package:ballai/automatic/views/components/foreground/input/social_platform_link_field.dart] _SocialPlatformLinkFieldState::_onText (0x8e587c)
+    //     0x941108: add             x1, PP, #0x45, lsl #12  ; [pp+0x45f78] AnonymousClosure: (0x8e5844), in [package:kourtai/automatic/views/components/foreground/input/social_platform_link_field.dart] _SocialPlatformLinkFieldState::_onText (0x8e587c)
     //     0x94110c: ldr             x1, [x1, #0xf78]
     // 0x941110: r0 = AllocateClosure()
     //     0x941110: bl              #0xe553e0  ; AllocateClosureStub
@@ -374,7 +374,7 @@ class _SocialPlatformLinkFieldState extends State<dynamic> {
     //     0x9d121c: stur            w0, [x2, #0xf]
     // 0x9d1220: mov             x1, x0
     // 0x9d1224: r0 = _assetPath()
-    //     0x9d1224: bl              #0x9d2270  ; [package:ballai/automatic/views/components/foreground/input/social_platform_link_field.dart] _SocialPlatformLinkFieldState::_assetPath
+    //     0x9d1224: bl              #0x9d2270  ; [package:kourtai/automatic/views/components/foreground/input/social_platform_link_field.dart] _SocialPlatformLinkFieldState::_assetPath
     // 0x9d1228: stur            x0, [fp, #-0x20]
     // 0x9d122c: r0 = Radius()
     //     0x9d122c: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -435,11 +435,11 @@ class _SocialPlatformLinkFieldState extends State<dynamic> {
     //     0x9d12b4: stur            w0, [x2, #0x13]
     // 0x9d12b8: ldur            x1, [fp, #-8]
     // 0x9d12bc: r0 = _isValid()
-    //     0x9d12bc: bl              #0x9d21a4  ; [package:ballai/automatic/views/components/foreground/input/social_platform_link_field.dart] _SocialPlatformLinkFieldState::_isValid
+    //     0x9d12bc: bl              #0x9d21a4  ; [package:kourtai/automatic/views/components/foreground/input/social_platform_link_field.dart] _SocialPlatformLinkFieldState::_isValid
     // 0x9d12c0: tbnz            w0, #4, #0x9d12dc
     // 0x9d12c4: ldur            x1, [fp, #-0x10]
-    // 0x9d12c8: r0 = BallAiThemeContext.ballAi()
-    //     0x9d12c8: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0x9d12c8: r0 = KourtAiThemeContext.kourtAi()
+    //     0x9d12c8: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0x9d12cc: LoadField: r1 = r0->field_1f
     //     0x9d12cc: ldur            w1, [x0, #0x1f]
     // 0x9d12d0: DecompressPointer r1
@@ -488,8 +488,8 @@ class _SocialPlatformLinkFieldState extends State<dynamic> {
     // 0x9d1348: StoreField: r2->field_23 = r0
     //     0x9d1348: stur            w0, [x2, #0x23]
     // 0x9d134c: ldur            x1, [fp, #-0x10]
-    // 0x9d1350: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0x9d1350: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0x9d1350: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0x9d1350: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0x9d1354: stur            x0, [fp, #-0x28]
     // 0x9d1358: r0 = Radius()
     //     0x9d1358: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -554,8 +554,8 @@ class _SocialPlatformLinkFieldState extends State<dynamic> {
     // 0x9d13f8: ldur            x1, [fp, #-0x28]
     // 0x9d13fc: b               #0x9d1434
     // 0x9d1400: ldur            x1, [fp, #-0x10]
-    // 0x9d1404: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0x9d1404: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0x9d1404: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0x9d1404: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0x9d1408: stur            x0, [fp, #-0x20]
     // 0x9d140c: r0 = Icon()
     //     0x9d140c: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -663,8 +663,8 @@ class _SocialPlatformLinkFieldState extends State<dynamic> {
     //     0x9d1540: ldr             x2, [x2, #0xbd8]
     // 0x9d1544: ldur            x1, [fp, #-0x10]
     // 0x9d1548: stur            x2, [fp, #-0x20]
-    // 0x9d154c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0x9d154c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0x9d154c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0x9d154c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0x9d1550: stur            x0, [fp, #-0x38]
     // 0x9d1554: r0 = TextStyle()
     //     0x9d1554: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -710,11 +710,11 @@ class _SocialPlatformLinkFieldState extends State<dynamic> {
     //     0x9d15bc: add             x3, x3, HEAP, lsl #32
     // 0x9d15c0: mov             x1, x3
     // 0x9d15c4: r0 = inputCaption()
-    //     0x9d15c4: bl              #0x9d1bc4  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialPlatform::inputCaption
+    //     0x9d15c4: bl              #0x9d1bc4  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialPlatform::inputCaption
     // 0x9d15c8: ldur            x1, [fp, #-0x10]
     // 0x9d15cc: stur            x0, [fp, #-0x20]
-    // 0x9d15d0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9d15d0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9d15d0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9d15d0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9d15d4: stur            x0, [fp, #-0x40]
     // 0x9d15d8: r0 = TextStyle()
     //     0x9d15d8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -788,8 +788,8 @@ class _SocialPlatformLinkFieldState extends State<dynamic> {
     //     0x9d169c: ldr             x5, [x5, #0xef8]
     // 0x9d16a0: ldur            x1, [fp, #-0x10]
     // 0x9d16a4: stur            x5, [fp, #-0x20]
-    // 0x9d16a8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0x9d16a8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0x9d16a8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0x9d16a8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0x9d16ac: stur            x0, [fp, #-0x60]
     // 0x9d16b0: r0 = TextStyle()
     //     0x9d16b0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -880,8 +880,8 @@ class _SocialPlatformLinkFieldState extends State<dynamic> {
     // 0x9d17b8: ldur            x6, [fp, #-0x20]
     // 0x9d17bc: ldur            x1, [fp, #-0x10]
     // 0x9d17c0: stur            x10, [fp, #-8]
-    // 0x9d17c4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9d17c4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9d17c4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9d17c4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9d17c8: stur            x0, [fp, #-0x10]
     // 0x9d17cc: r0 = TextStyle()
     //     0x9d17cc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1216,7 +1216,7 @@ class _SocialPlatformLinkFieldState extends State<dynamic> {
     //     0x9d1af4: stur            w0, [x3, #0xb]
     // 0x9d1af8: ldur            x2, [fp, #-0x18]
     // 0x9d1afc: r1 = Function '<anonymous closure>':.
-    //     0x9d1afc: add             x1, PP, #0x45, lsl #12  ; [pp+0x45f40] AnonymousClosure: (0x9d2340), in [package:ballai/automatic/views/components/foreground/input/social_platform_link_field.dart] _SocialPlatformLinkFieldState::build (0x9d11e0)
+    //     0x9d1afc: add             x1, PP, #0x45, lsl #12  ; [pp+0x45f40] AnonymousClosure: (0x9d2340), in [package:kourtai/automatic/views/components/foreground/input/social_platform_link_field.dart] _SocialPlatformLinkFieldState::build (0x9d11e0)
     //     0x9d1b00: ldr             x1, [x1, #0xf40]
     // 0x9d1b04: r0 = AllocateClosure()
     //     0x9d1b04: bl              #0xe553e0  ; AllocateClosureStub
@@ -1330,7 +1330,7 @@ class _SocialPlatformLinkFieldState extends State<dynamic> {
     // 0x9d21e4: DecompressPointer r2
     //     0x9d21e4: add             x2, x2, HEAP, lsl #32
     // 0x9d21e8: r0 = isValid()
-    //     0x9d21e8: bl              #0x9d2204  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::isValid
+    //     0x9d21e8: bl              #0x9d2204  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::isValid
     // 0x9d21ec: LeaveFrame
     //     0x9d21ec: mov             SP, fp
     //     0x9d21f0: ldp             fp, lr, [SP], #0x10
@@ -1466,7 +1466,7 @@ class _SocialPlatformLinkFieldState extends State<dynamic> {
     //     0xb5a3f4: mov             fp, SP
     // 0xb5a3f8: ldr             x2, [fp, #0x10]
     // 0xb5a3fc: r1 = Function 'dispose':.
-    //     0xb5a3fc: add             x1, PP, #0x45, lsl #12  ; [pp+0x45ee0] AnonymousClosure: (0xb5a414), in [package:ballai/automatic/views/components/foreground/input/social_platform_link_field.dart] _SocialPlatformLinkFieldState::dispose (0xb5fea0)
+    //     0xb5a3fc: add             x1, PP, #0x45, lsl #12  ; [pp+0x45ee0] AnonymousClosure: (0xb5a414), in [package:kourtai/automatic/views/components/foreground/input/social_platform_link_field.dart] _SocialPlatformLinkFieldState::dispose (0xb5fea0)
     //     0xb5a400: ldr             x1, [x1, #0xee0]
     // 0xb5a404: r0 = AllocateClosure()
     //     0xb5a404: bl              #0xe553e0  ; AllocateClosureStub
@@ -1491,7 +1491,7 @@ class _SocialPlatformLinkFieldState extends State<dynamic> {
     //     0xb5a42c: cmp             SP, x16
     //     0xb5a430: b.ls            #0xb5a444
     // 0xb5a434: r0 = dispose()
-    //     0xb5a434: bl              #0xb5fea0  ; [package:ballai/automatic/views/components/foreground/input/social_platform_link_field.dart] _SocialPlatformLinkFieldState::dispose
+    //     0xb5a434: bl              #0xb5fea0  ; [package:kourtai/automatic/views/components/foreground/input/social_platform_link_field.dart] _SocialPlatformLinkFieldState::dispose
     // 0xb5a438: LeaveFrame
     //     0xb5a438: mov             SP, fp
     //     0xb5a43c: ldp             fp, lr, [SP], #0x10
@@ -1528,7 +1528,7 @@ class _SocialPlatformLinkFieldState extends State<dynamic> {
     // 0xb5fed8: mov             x2, x0
     // 0xb5fedc: stur            x3, [fp, #-8]
     // 0xb5fee0: r1 = Function '_onText@998083871':.
-    //     0xb5fee0: add             x1, PP, #0x45, lsl #12  ; [pp+0x45f78] AnonymousClosure: (0x8e5844), in [package:ballai/automatic/views/components/foreground/input/social_platform_link_field.dart] _SocialPlatformLinkFieldState::_onText (0x8e587c)
+    //     0xb5fee0: add             x1, PP, #0x45, lsl #12  ; [pp+0x45f78] AnonymousClosure: (0x8e5844), in [package:kourtai/automatic/views/components/foreground/input/social_platform_link_field.dart] _SocialPlatformLinkFieldState::_onText (0x8e587c)
     //     0xb5fee4: ldr             x1, [x1, #0xf78]
     // 0xb5fee8: r0 = AllocateClosure()
     //     0xb5fee8: bl              #0xe553e0  ; AllocateClosureStub

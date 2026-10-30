@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/home/workouts/charts/metric_bar_chart_view.dart
+// lib: , url: package:kourtai/automatic/views/components/home/workouts/charts/metric_bar_chart_view.dart
 
 // class id: 1048807, size: 0x8
 class :: {
@@ -31,7 +31,7 @@ class MetricBarChartView extends StatelessWidget {
     // 0xbb8998: mov             x2, x3
     // 0xbb899c: stur            x4, [fp, #-8]
     // 0xbb89a0: r1 = Function '_value@1015077149':.
-    //     0xbb89a0: add             x1, PP, #0x55, lsl #12  ; [pp+0x556f8] AnonymousClosure: (0xbb9760), of [package:ballai/automatic/views/components/home/workouts/charts/metric_bar_chart_view.dart] MetricBarChartView
+    //     0xbb89a0: add             x1, PP, #0x55, lsl #12  ; [pp+0x556f8] AnonymousClosure: (0xbb9760), of [package:kourtai/automatic/views/components/home/workouts/charts/metric_bar_chart_view.dart] MetricBarChartView
     //     0xbb89a4: ldr             x1, [x1, #0x6f8]
     // 0xbb89a8: r0 = AllocateClosure()
     //     0xbb89a8: bl              #0xe553e0  ; AllocateClosureStub
@@ -200,8 +200,8 @@ class MetricBarChartView extends StatelessWidget {
     // 0xbb8b90: r0 = _interpolate()
     //     0xbb8b90: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0xbb8b94: stur            x0, [fp, #-8]
-    // 0xbb8b98: r0 = BallAiEmptyState()
-    //     0xbb8b98: bl              #0xa63934  ; AllocateBallAiEmptyStateStub -> BallAiEmptyState (size=0x14)
+    // 0xbb8b98: r0 = KourtAiEmptyState()
+    //     0xbb8b98: bl              #0xa63934  ; AllocateKourtAiEmptyStateStub -> KourtAiEmptyState (size=0x14)
     // 0xbb8b9c: mov             x1, x0
     // 0xbb8ba0: ldur            x0, [fp, #-8]
     // 0xbb8ba4: StoreField: r1->field_b = r0
@@ -226,7 +226,7 @@ class MetricBarChartView extends StatelessWidget {
     // 0xbb8bd4: mov             x3, x4
     // 0xbb8bd8: stur            x4, [fp, #-8]
     // 0xbb8bdc: r0 = _buildBars()
-    //     0xbb8bdc: bl              #0xbb8e30  ; [package:ballai/automatic/views/components/home/workouts/charts/metric_bar_chart_view.dart] MetricBarChartView::_buildBars
+    //     0xbb8bdc: bl              #0xbb8e30  ; [package:kourtai/automatic/views/components/home/workouts/charts/metric_bar_chart_view.dart] MetricBarChartView::_buildBars
     // 0xbb8be0: mov             x3, x0
     // 0xbb8be4: ldur            x0, [fp, #-8]
     // 0xbb8be8: stur            x3, [fp, #-0x10]
@@ -268,8 +268,8 @@ class MetricBarChartView extends StatelessWidget {
     //     0xbb8c4c: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0xbb8c50: ldur            x1, [fp, #-0x18]
     // 0xbb8c54: stur            x0, [fp, #-8]
-    // 0xbb8c58: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb8c58: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb8c58: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb8c58: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb8c5c: stur            x0, [fp, #-0x30]
     // 0xbb8c60: r0 = TextStyle()
     //     0xbb8c60: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -315,12 +315,12 @@ class MetricBarChartView extends StatelessWidget {
     // 0xbb8cc8: StoreField: r0->field_f = d0
     //     0xbb8cc8: stur            d0, [x0, #0xf]
     // 0xbb8ccc: ldur            x1, [fp, #-0x18]
-    // 0xbb8cd0: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbb8cd0: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbb8cd0: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbb8cd0: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbb8cd4: ldur            x1, [fp, #-0x18]
     // 0xbb8cd8: stur            x0, [fp, #-0x18]
-    // 0xbb8cdc: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb8cdc: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb8cdc: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb8cdc: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb8ce0: stur            x0, [fp, #-0x38]
     // 0xbb8ce4: r0 = _MetricBarPainter()
     //     0xbb8ce4: bl              #0xbb8e24  ; Allocate_MetricBarPainterStub -> _MetricBarPainter (size=0x18)
@@ -691,7 +691,7 @@ class MetricBarChartView extends StatelessWidget {
     //     0xbb9100: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0xbb9104: mov             x2, x3
     // 0xbb9108: r1 = Function '<anonymous closure>':.
-    //     0xbb9108: add             x1, PP, #0x55, lsl #12  ; [pp+0x55710] AnonymousClosure: (0xbb9294), in [package:ballai/automatic/views/components/home/workouts/charts/metric_bar_chart_view.dart] MetricBarChartView::_buildBars (0xbb8e30)
+    //     0xbb9108: add             x1, PP, #0x55, lsl #12  ; [pp+0x55710] AnonymousClosure: (0xbb9294), in [package:kourtai/automatic/views/components/home/workouts/charts/metric_bar_chart_view.dart] MetricBarChartView::_buildBars (0xbb8e30)
     //     0xbb910c: ldr             x1, [x1, #0x710]
     // 0xbb9110: r0 = AllocateClosure()
     //     0xbb9110: bl              #0xe553e0  ; AllocateClosureStub
@@ -1183,7 +1183,7 @@ class _MetricBarPainter extends CustomPainter {
     // 0x8335fc: fdiv            d1, d2, d0
     // 0x833600: stur            d1, [fp, #-0x58]
     // 0x833604: r1 = Function '<anonymous closure>':.
-    //     0x833604: add             x1, PP, #0x57, lsl #12  ; [pp+0x57700] AnonymousClosure: (0x833f3c), in [package:ballai/automatic/views/components/home/workouts/charts/metric_bar_chart_view.dart] _MetricBarPainter::paint (0x833578)
+    //     0x833604: add             x1, PP, #0x57, lsl #12  ; [pp+0x57700] AnonymousClosure: (0x833f3c), in [package:kourtai/automatic/views/components/home/workouts/charts/metric_bar_chart_view.dart] _MetricBarPainter::paint (0x833578)
     //     0x833608: ldr             x1, [x1, #0x700]
     // 0x83360c: r2 = Null
     //     0x83360c: mov             x2, NULL

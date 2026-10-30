@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/validation/password_match.dart
+// lib: , url: package:kourtai/automatic/utility/validation/password_match.dart
 
 // class id: 1048755, size: 0x8
 class :: {

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart
 
 // class id: 1048938, size: 0x8
 class :: {
@@ -75,7 +75,7 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     //     0xa588b0: stur            w2, [x3, #0x13]
     // 0xa588b4: mov             x1, x0
     // 0xa588b8: r0 = _canManage()
-    //     0xa588b8: bl              #0xa59a40  ; [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::_canManage
+    //     0xa588b8: bl              #0xa59a40  ; [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::_canManage
     // 0xa588bc: ldur            x2, [fp, #-0x18]
     // 0xa588c0: stur            x0, [fp, #-0x10]
     // 0xa588c4: LoadField: r1 = r2->field_13
@@ -110,7 +110,7 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     //     0xa58908: add             x1, PP, #0x26, lsl #12  ; [pp+0x266b0] "Add players"
     //     0xa5890c: ldr             x1, [x1, #0x6b0]
     // 0xa58910: r0 = L()
-    //     0xa58910: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa58910: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa58914: stur            x0, [fp, #-0x28]
     // 0xa58918: r0 = Text()
     //     0xa58918: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -160,15 +160,15 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     //     0xa58990: add             x1, PP, #0x26, lsl #12  ; [pp+0x266b0] "Add players"
     //     0xa58994: ldr             x1, [x1, #0x6b0]
     // 0xa58998: r0 = L()
-    //     0xa58998: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa58998: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa5899c: ldur            x2, [fp, #-0x18]
     // 0xa589a0: stur            x0, [fp, #-0x28]
     // 0xa589a4: LoadField: r1 = r2->field_13
     //     0xa589a4: ldur            w1, [x2, #0x13]
     // 0xa589a8: DecompressPointer r1
     //     0xa589a8: add             x1, x1, HEAP, lsl #32
-    // 0xa589ac: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa589ac: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa589ac: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa589ac: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa589b0: stur            x0, [fp, #-0x30]
     // 0xa589b4: r0 = TextStyle()
     //     0xa589b4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -221,7 +221,7 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     //     0xa58a28: add             x1, PP, #0x26, lsl #12  ; [pp+0x266c8] "Done"
     //     0xa58a2c: ldr             x1, [x1, #0x6c8]
     // 0xa58a30: r0 = L()
-    //     0xa58a30: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa58a30: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa58a34: stur            x0, [fp, #-0x38]
     // 0xa58a38: r0 = TextStyle()
     //     0xa58a38: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -253,7 +253,7 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     //     0xa58a7c: stur            w0, [x3, #0x13]
     // 0xa58a80: ldur            x2, [fp, #-0x18]
     // 0xa58a84: r1 = Function '<anonymous closure>':.
-    //     0xa58a84: add             x1, PP, #0x26, lsl #12  ; [pp+0x266d0] AnonymousClosure: (0x9d7480), in [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
+    //     0xa58a84: add             x1, PP, #0x26, lsl #12  ; [pp+0x266d0] AnonymousClosure: (0x9d7480), in [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
     //     0xa58a88: ldr             x1, [x1, #0x6d0]
     // 0xa58a8c: r0 = AllocateClosure()
     //     0xa58a8c: bl              #0xe553e0  ; AllocateClosureStub
@@ -327,7 +327,7 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     //     0xa58b44: add             x1, PP, #0x26, lsl #12  ; [pp+0x266e0] "Share this with your players – they’ll join with the link or code."
     //     0xa58b48: ldr             x1, [x1, #0x6e0]
     // 0xa58b4c: r0 = L()
-    //     0xa58b4c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa58b4c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa58b50: r1 = Instance_MaterialColor
     //     0xa58b50: add             x1, PP, #0xc, lsl #12  ; [pp+0xcb80] Obj!MaterialColor@d2da81
     //     0xa58b54: ldr             x1, [x1, #0xb80]
@@ -383,7 +383,7 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     //     0xa58bd4: add             x1, PP, #0x26, lsl #12  ; [pp+0x266f0] "Invite code"
     //     0xa58bd8: ldr             x1, [x1, #0x6f0]
     // 0xa58bdc: r0 = L()
-    //     0xa58bdc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa58bdc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa58be0: mov             x2, x0
     // 0xa58be4: ldur            x0, [fp, #-8]
     // 0xa58be8: stur            x2, [fp, #-0x50]
@@ -412,15 +412,15 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     // 0xa58c2c: mov             x1, x0
     // 0xa58c30: stur            x5, [fp, #-0x40]
     // 0xa58c34: r0 = _inviteCode()
-    //     0xa58c34: bl              #0xa599b4  ; [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::_inviteCode
+    //     0xa58c34: bl              #0xa599b4  ; [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::_inviteCode
     // 0xa58c38: ldur            x2, [fp, #-0x18]
     // 0xa58c3c: stur            x0, [fp, #-0x58]
     // 0xa58c40: LoadField: r1 = r2->field_13
     //     0xa58c40: ldur            w1, [x2, #0x13]
     // 0xa58c44: DecompressPointer r1
     //     0xa58c44: add             x1, x1, HEAP, lsl #32
-    // 0xa58c48: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa58c48: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa58c48: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa58c48: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa58c4c: stur            x0, [fp, #-0x60]
     // 0xa58c50: r0 = TextStyle()
     //     0xa58c50: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -482,7 +482,7 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     //     0xa58ce0: stur            w0, [x3, #0x13]
     // 0xa58ce4: ldur            x2, [fp, #-0x18]
     // 0xa58ce8: r1 = Function '<anonymous closure>':.
-    //     0xa58ce8: add             x1, PP, #0x26, lsl #12  ; [pp+0x26720] AnonymousClosure: (0xa5a024), in [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
+    //     0xa58ce8: add             x1, PP, #0x26, lsl #12  ; [pp+0x26720] AnonymousClosure: (0xa5a024), in [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
     //     0xa58cec: ldr             x1, [x1, #0x720]
     // 0xa58cf0: r0 = AllocateClosure()
     //     0xa58cf0: bl              #0xe553e0  ; AllocateClosureStub
@@ -506,7 +506,7 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     //     0xa58d20: add             x1, PP, #0x26, lsl #12  ; [pp+0x26728] "Invite link"
     //     0xa58d24: ldr             x1, [x1, #0x728]
     // 0xa58d28: r0 = L()
-    //     0xa58d28: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa58d28: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa58d2c: mov             x2, x0
     // 0xa58d30: ldur            x0, [fp, #-8]
     // 0xa58d34: stur            x2, [fp, #-0x60]
@@ -540,15 +540,15 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     // 0xa58d8c: mov             x1, x0
     // 0xa58d90: stur            x10, [fp, #-0x48]
     // 0xa58d94: r0 = _inviteLink()
-    //     0xa58d94: bl              #0xa59914  ; [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::_inviteLink
+    //     0xa58d94: bl              #0xa59914  ; [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::_inviteLink
     // 0xa58d98: ldur            x2, [fp, #-0x18]
     // 0xa58d9c: stur            x0, [fp, #-0x68]
     // 0xa58da0: LoadField: r1 = r2->field_13
     //     0xa58da0: ldur            w1, [x2, #0x13]
     // 0xa58da4: DecompressPointer r1
     //     0xa58da4: add             x1, x1, HEAP, lsl #32
-    // 0xa58da8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa58da8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa58da8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa58da8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa58dac: stur            x0, [fp, #-0x70]
     // 0xa58db0: r0 = TextStyle()
     //     0xa58db0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -609,7 +609,7 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     //     0xa58e3c: stur            w0, [x3, #0x13]
     // 0xa58e40: ldur            x2, [fp, #-0x18]
     // 0xa58e44: r1 = Function '<anonymous closure>':.
-    //     0xa58e44: add             x1, PP, #0x26, lsl #12  ; [pp+0x26748] AnonymousClosure: (0xa59e18), in [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
+    //     0xa58e44: add             x1, PP, #0x26, lsl #12  ; [pp+0x26748] AnonymousClosure: (0xa59e18), in [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
     //     0xa58e48: ldr             x1, [x1, #0x748]
     // 0xa58e4c: r0 = AllocateClosure()
     //     0xa58e4c: bl              #0xe553e0  ; AllocateClosureStub
@@ -748,15 +748,15 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     //     0xa58fa0: add             x1, PP, #0x26, lsl #12  ; [pp+0x26768] "Manually add a player"
     //     0xa58fa4: ldr             x1, [x1, #0x768]
     // 0xa58fa8: r0 = L()
-    //     0xa58fa8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa58fa8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa58fac: ldur            x2, [fp, #-0x18]
     // 0xa58fb0: stur            x0, [fp, #-0x58]
     // 0xa58fb4: LoadField: r1 = r2->field_13
     //     0xa58fb4: ldur            w1, [x2, #0x13]
     // 0xa58fb8: DecompressPointer r1
     //     0xa58fb8: add             x1, x1, HEAP, lsl #32
-    // 0xa58fbc: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa58fbc: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa58fbc: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa58fbc: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa58fc0: stur            x0, [fp, #-0x60]
     // 0xa58fc4: r0 = TextStyle()
     //     0xa58fc4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -789,11 +789,11 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     // 0xa5900c: ldur            x0, [fp, #-0x68]
     // 0xa59010: StoreField: r2->field_13 = r0
     //     0xa59010: stur            w0, [x2, #0x13]
-    // 0xa59014: r1 = "Use this if they are not on Ball AI yet."
-    //     0xa59014: add             x1, PP, #0x26, lsl #12  ; [pp+0x26770] "Use this if they are not on Ball AI yet."
+    // 0xa59014: r1 = "Use this if they are not on Kourt AI yet."
+    //     0xa59014: add             x1, PP, #0x26, lsl #12  ; [pp+0x26770] "Use this if they are not on Kourt AI yet."
     //     0xa59018: ldr             x1, [x1, #0x770]
     // 0xa5901c: r0 = L()
-    //     0xa5901c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa5901c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa59020: r1 = Instance_MaterialColor
     //     0xa59020: add             x1, PP, #0xc, lsl #12  ; [pp+0xcb80] Obj!MaterialColor@d2da81
     //     0xa59024: ldr             x1, [x1, #0xb80]
@@ -1026,7 +1026,7 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     //     0xa59264: stur            w0, [x3, #0xb]
     // 0xa59268: ldur            x2, [fp, #-0x18]
     // 0xa5926c: r1 = Function '<anonymous closure>':.
-    //     0xa5926c: add             x1, PP, #0x26, lsl #12  ; [pp+0x26788] AnonymousClosure: (0xa59d20), in [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
+    //     0xa5926c: add             x1, PP, #0x26, lsl #12  ; [pp+0x26788] AnonymousClosure: (0xa59d20), in [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
     //     0xa59270: ldr             x1, [x1, #0x788]
     // 0xa59274: r0 = AllocateClosure()
     //     0xa59274: bl              #0xe553e0  ; AllocateClosureStub
@@ -1108,11 +1108,11 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     //     0xa5932c: ldr             x0, [x0, #0xad8]
     // 0xa59330: StoreField: r2->field_f = r0
     //     0xa59330: stur            w0, [x2, #0xf]
-    // 0xa59334: r1 = "Invite Ball AI users"
-    //     0xa59334: add             x1, PP, #0x26, lsl #12  ; [pp+0x26798] "Invite Ball AI users"
+    // 0xa59334: r1 = "Invite Kourt AI users"
+    //     0xa59334: add             x1, PP, #0x26, lsl #12  ; [pp+0x26798] "Invite Kourt AI users"
     //     0xa59338: ldr             x1, [x1, #0x798]
     // 0xa5933c: r0 = L()
-    //     0xa5933c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa5933c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa59340: stur            x0, [fp, #-0x40]
     // 0xa59344: r0 = TextStyle()
     //     0xa59344: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1194,7 +1194,7 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     //     0xa59404: bl              #0x9eeb6c  ; [package:flutter/src/material/elevated_button.dart] ElevatedButton::styleFrom
     // 0xa59408: ldur            x2, [fp, #-0x18]
     // 0xa5940c: r1 = Function '<anonymous closure>':.
-    //     0xa5940c: add             x1, PP, #0x26, lsl #12  ; [pp+0x267b0] AnonymousClosure: (0xa59c1c), in [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
+    //     0xa5940c: add             x1, PP, #0x26, lsl #12  ; [pp+0x267b0] AnonymousClosure: (0xa59c1c), in [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
     //     0xa59410: ldr             x1, [x1, #0x7b0]
     // 0xa59414: stur            x0, [fp, #-0x40]
     // 0xa59418: r0 = AllocateClosure()
@@ -1296,7 +1296,7 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     //     0xa59510: stur            w16, [x3, #0xf]
     // 0xa59514: ldur            x1, [fp, #-8]
     // 0xa59518: r0 = _inviteLink()
-    //     0xa59518: bl              #0xa59914  ; [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::_inviteLink
+    //     0xa59518: bl              #0xa59914  ; [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::_inviteLink
     // 0xa5951c: LoadField: r1 = r0->field_7
     //     0xa5951c: ldur            w1, [x0, #7]
     // 0xa59520: cbnz            w1, #0xa5952c
@@ -1305,7 +1305,7 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     // 0xa59528: b               #0xa59540
     // 0xa5952c: ldur            x2, [fp, #-0x18]
     // 0xa59530: r1 = Function '<anonymous closure>':.
-    //     0xa59530: add             x1, PP, #0x26, lsl #12  ; [pp+0x267b8] AnonymousClosure: (0xa59b18), in [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
+    //     0xa59530: add             x1, PP, #0x26, lsl #12  ; [pp+0x267b8] AnonymousClosure: (0xa59b18), in [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
     //     0xa59534: ldr             x1, [x1, #0x7b8]
     // 0xa59538: r0 = AllocateClosure()
     //     0xa59538: bl              #0xe553e0  ; AllocateClosureStub
@@ -1330,7 +1330,7 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     //     0xa5956c: add             x1, PP, #0x26, lsl #12  ; [pp+0x267c8] "Share link"
     //     0xa59570: ldr             x1, [x1, #0x7c8]
     // 0xa59574: r0 = L()
-    //     0xa59574: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa59574: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa59578: stur            x0, [fp, #-0x18]
     // 0xa5957c: r0 = TextStyle()
     //     0xa5957c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1565,8 +1565,8 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     // 0xa5996c: stur            x0, [fp, #-8]
     // 0xa59970: r0 = AllocateArray()
     //     0xa59970: bl              #0xe560ac  ; AllocateArrayStub
-    // 0xa59974: r16 = "https://ballai.onelink.me/7vMa/iy7umjyf\?deep_link_value=team-invite&deep_link_sub1="
-    //     0xa59974: add             x16, PP, #0x26, lsl #12  ; [pp+0x26878] "https://ballai.onelink.me/7vMa/iy7umjyf\?deep_link_value=team-invite&deep_link_sub1="
+    // 0xa59974: r16 = "https://kourtai.onelink.me/7vMa/iy7umjyf\?deep_link_value=team-invite&deep_link_sub1="
+    //     0xa59974: add             x16, PP, #0x26, lsl #12  ; [pp+0x26878] "https://kourtai.onelink.me/7vMa/iy7umjyf\?deep_link_value=team-invite&deep_link_sub1="
     //     0xa59978: ldr             x16, [x16, #0x878]
     // 0xa5997c: StoreField: r0->field_f = r16
     //     0xa5997c: stur            w16, [x0, #0xf]
@@ -1691,7 +1691,7 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     //     0xa59af4: add             x2, x2, HEAP, lsl #32
     // 0xa59af8: ldur            x3, [fp, #-0x18]
     // 0xa59afc: r0 = canManageTeam()
-    //     0xa59afc: bl              #0x97d580  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::canManageTeam
+    //     0xa59afc: bl              #0x97d580  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::canManageTeam
     // 0xa59b00: LeaveFrame
     //     0xa59b00: mov             SP, fp
     //     0xa59b04: ldp             fp, lr, [SP], #0x10
@@ -1724,9 +1724,9 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     //     0xa59b40: add             x0, x0, HEAP, lsl #32
     // 0xa59b44: mov             x1, x0
     // 0xa59b48: r0 = _shareMessage()
-    //     0xa59b48: bl              #0xa59b7c  ; [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::_shareMessage
-    // 0xa59b4c: r16 = "Join my team on Ball AI"
-    //     0xa59b4c: add             x16, PP, #0x26, lsl #12  ; [pp+0x267d0] "Join my team on Ball AI"
+    //     0xa59b48: bl              #0xa59b7c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::_shareMessage
+    // 0xa59b4c: r16 = "Join my team on Kourt AI"
+    //     0xa59b4c: add             x16, PP, #0x26, lsl #12  ; [pp+0x267d0] "Join my team on Kourt AI"
     //     0xa59b50: ldr             x16, [x16, #0x7d0]
     // 0xa59b54: str             x16, [SP]
     // 0xa59b58: mov             x1, x0
@@ -1764,8 +1764,8 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     //     0xa59ba0: mov             x2, #6
     // 0xa59ba4: r0 = AllocateArray()
     //     0xa59ba4: bl              #0xe560ac  ; AllocateArrayStub
-    // 0xa59ba8: r16 = "Join my team on Ball AI – use this link or enter code "
-    //     0xa59ba8: add             x16, PP, #0x26, lsl #12  ; [pp+0x26830] "Join my team on Ball AI – use this link or enter code "
+    // 0xa59ba8: r16 = "Join my team on Kourt AI – use this link or enter code "
+    //     0xa59ba8: add             x16, PP, #0x26, lsl #12  ; [pp+0x26830] "Join my team on Kourt AI – use this link or enter code "
     //     0xa59bac: ldr             x16, [x16, #0x830]
     // 0xa59bb0: StoreField: r0->field_f = r16
     //     0xa59bb0: stur            w16, [x0, #0xf]
@@ -1837,7 +1837,7 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     //     0xa59c50: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa59c54: ldur            x2, [fp, #-8]
     // 0xa59c58: r1 = Function '<anonymous closure>':.
-    //     0xa59c58: add             x1, PP, #0x26, lsl #12  ; [pp+0x26840] AnonymousClosure: (0xa59cbc), in [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
+    //     0xa59c58: add             x1, PP, #0x26, lsl #12  ; [pp+0x26840] AnonymousClosure: (0xa59cbc), in [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
     //     0xa59c5c: ldr             x1, [x1, #0x840]
     // 0xa59c60: stur            x0, [fp, #-8]
     // 0xa59c64: r0 = AllocateClosure()
@@ -1940,7 +1940,7 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     //     0xa59d54: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa59d58: ldur            x2, [fp, #-8]
     // 0xa59d5c: r1 = Function '<anonymous closure>':.
-    //     0xa59d5c: add             x1, PP, #0x26, lsl #12  ; [pp+0x26848] AnonymousClosure: (0xa59dc0), in [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
+    //     0xa59d5c: add             x1, PP, #0x26, lsl #12  ; [pp+0x26848] AnonymousClosure: (0xa59dc0), in [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
     //     0xa59d60: ldr             x1, [x1, #0x848]
     // 0xa59d64: stur            x0, [fp, #-8]
     // 0xa59d68: r0 = AllocateClosure()
@@ -2035,13 +2035,13 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     // 0xa59e44: mov             x1, x0
     // 0xa59e48: stur            x0, [fp, #-8]
     // 0xa59e4c: r0 = _inviteLink()
-    //     0xa59e4c: bl              #0xa59914  ; [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::_inviteLink
+    //     0xa59e4c: bl              #0xa59914  ; [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::_inviteLink
     // 0xa59e50: ldur            x1, [fp, #-8]
     // 0xa59e54: mov             x2, x0
     // 0xa59e58: r3 = false
     //     0xa59e58: add             x3, NULL, #0x30  ; false
     // 0xa59e5c: r0 = _copy()
-    //     0xa59e5c: bl              #0xa59e74  ; [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::_copy
+    //     0xa59e5c: bl              #0xa59e74  ; [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::_copy
     // 0xa59e60: LeaveFrame
     //     0xa59e60: mov             SP, fp
     //     0xa59e64: ldp             fp, lr, [SP], #0x10
@@ -2096,7 +2096,7 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     //     0xa59ee0: bl              #0x60ad4c  ; AwaitStub
     // 0xa59ee4: ldur            x2, [fp, #-0x28]
     // 0xa59ee8: r1 = Function '<anonymous closure>':.
-    //     0xa59ee8: add             x1, PP, #0x26, lsl #12  ; [pp+0x26858] AnonymousClosure: (0xa59fe0), in [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::_copy (0xa59e74)
+    //     0xa59ee8: add             x1, PP, #0x26, lsl #12  ; [pp+0x26858] AnonymousClosure: (0xa59fe0), in [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::_copy (0xa59e74)
     //     0xa59eec: ldr             x1, [x1, #0x858]
     // 0xa59ef0: r0 = AllocateClosure()
     //     0xa59ef0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2106,7 +2106,7 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     //     0xa59efc: bl              #0x6005d4  ; [package:flutter/src/widgets/framework.dart] State::setState
     // 0xa59f00: ldur            x2, [fp, #-0x28]
     // 0xa59f04: r1 = Function '<anonymous closure>':.
-    //     0xa59f04: add             x1, PP, #0x26, lsl #12  ; [pp+0x26860] AnonymousClosure: (0xa59f38), in [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::_copy (0xa59e74)
+    //     0xa59f04: add             x1, PP, #0x26, lsl #12  ; [pp+0x26860] AnonymousClosure: (0xa59f38), in [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::_copy (0xa59e74)
     //     0xa59f08: ldr             x1, [x1, #0x860]
     // 0xa59f0c: r0 = AllocateClosure()
     //     0xa59f0c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2162,7 +2162,7 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     // 0xa59f84: ret
     //     0xa59f84: ret             
     // 0xa59f88: r1 = Function '<anonymous closure>':.
-    //     0xa59f88: add             x1, PP, #0x26, lsl #12  ; [pp+0x26868] AnonymousClosure: (0xa59fb8), in [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::_copy (0xa59e74)
+    //     0xa59f88: add             x1, PP, #0x26, lsl #12  ; [pp+0x26868] AnonymousClosure: (0xa59fb8), in [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::_copy (0xa59e74)
     //     0xa59f8c: ldr             x1, [x1, #0x868]
     // 0xa59f90: r0 = AllocateClosure()
     //     0xa59f90: bl              #0xe553e0  ; AllocateClosureStub
@@ -2279,7 +2279,7 @@ class _InvitePlayersSheetViewState extends State<dynamic> {
     // 0xa5a084: r3 = true
     //     0xa5a084: add             x3, NULL, #0x20  ; true
     // 0xa5a088: r0 = _copy()
-    //     0xa5a088: bl              #0xa59e74  ; [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::_copy
+    //     0xa5a088: bl              #0xa59e74  ; [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::_copy
     // 0xa5a08c: LeaveFrame
     //     0xa5a08c: mov             SP, fp
     //     0xa5a090: ldp             fp, lr, [SP], #0x10

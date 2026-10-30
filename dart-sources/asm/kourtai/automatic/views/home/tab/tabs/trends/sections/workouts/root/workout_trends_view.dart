@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/workouts/root/workout_trends_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/workouts/root/workout_trends_view.dart
 
 // class id: 1048988, size: 0x8
 class :: {
@@ -59,7 +59,7 @@ class WorkoutTrendsView extends StatelessWidget {
     //     0xc09244: add             x1, PP, #0x49, lsl #12  ; [pp+0x491f8] "Workout frequency"
     //     0xc09248: ldr             x1, [x1, #0x1f8]
     // 0xc0924c: r0 = L()
-    //     0xc0924c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0924c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc09250: stur            x0, [fp, #-0x28]
     // 0xc09254: r0 = WorkoutTrendsLineChartView()
     //     0xc09254: bl              #0xc093f0  ; AllocateWorkoutTrendsLineChartViewStub -> WorkoutTrendsLineChartView (size=0x18)
@@ -72,8 +72,8 @@ class WorkoutTrendsView extends StatelessWidget {
     //     0xc09268: ldr             d0, [PP, #0x5a70]  ; [pp+0x5a70] IMM: double(180) from 0x4066800000000000
     // 0xc0926c: StoreField: r1->field_f = d0
     //     0xc0926c: stur            d0, [x1, #0xf]
-    // 0xc09270: r0 = BallAiAnalyticsCard()
-    //     0xc09270: bl              #0xa63928  ; AllocateBallAiAnalyticsCardStub -> BallAiAnalyticsCard (size=0x20)
+    // 0xc09270: r0 = KourtAiAnalyticsCard()
+    //     0xc09270: bl              #0xa63928  ; AllocateKourtAiAnalyticsCardStub -> KourtAiAnalyticsCard (size=0x20)
     // 0xc09274: mov             x1, x0
     // 0xc09278: ldur            x0, [fp, #-0x28]
     // 0xc0927c: stur            x1, [fp, #-0x38]
@@ -100,7 +100,7 @@ class WorkoutTrendsView extends StatelessWidget {
     //     0xc092b0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49200] "Goal completion"
     //     0xc092b4: ldr             x1, [x1, #0x200]
     // 0xc092b8: r0 = L()
-    //     0xc092b8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc092b8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc092bc: stur            x0, [fp, #-0x30]
     // 0xc092c0: r0 = WorkoutTrendsGoalChartView()
     //     0xc092c0: bl              #0xc093e4  ; AllocateWorkoutTrendsGoalChartViewStub -> WorkoutTrendsGoalChartView (size=0x18)
@@ -113,8 +113,8 @@ class WorkoutTrendsView extends StatelessWidget {
     //     0xc092d4: ldr             d0, [PP, #0x5a70]  ; [pp+0x5a70] IMM: double(180) from 0x4066800000000000
     // 0xc092d8: StoreField: r1->field_f = d0
     //     0xc092d8: stur            d0, [x1, #0xf]
-    // 0xc092dc: r0 = BallAiAnalyticsCard()
-    //     0xc092dc: bl              #0xa63928  ; AllocateBallAiAnalyticsCardStub -> BallAiAnalyticsCard (size=0x20)
+    // 0xc092dc: r0 = KourtAiAnalyticsCard()
+    //     0xc092dc: bl              #0xa63928  ; AllocateKourtAiAnalyticsCardStub -> KourtAiAnalyticsCard (size=0x20)
     // 0xc092e0: mov             x3, x0
     // 0xc092e4: ldur            x0, [fp, #-0x30]
     // 0xc092e8: stur            x3, [fp, #-0x10]
@@ -125,7 +125,7 @@ class WorkoutTrendsView extends StatelessWidget {
     //     0xc092f4: stur            w0, [x3, #0xf]
     // 0xc092f8: ldur            x2, [fp, #-0x18]
     // 0xc092fc: r1 = Function '<anonymous closure>':.
-    //     0xc092fc: add             x1, PP, #0x49, lsl #12  ; [pp+0x49208] AnonymousClosure: (0xc09408), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/workouts/root/workout_trends_view.dart] WorkoutTrendsView::build (0xc091cc)
+    //     0xc092fc: add             x1, PP, #0x49, lsl #12  ; [pp+0x49208] AnonymousClosure: (0xc09408), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/workouts/root/workout_trends_view.dart] WorkoutTrendsView::build (0xc091cc)
     //     0xc09300: ldr             x1, [x1, #0x208]
     // 0xc09304: r0 = AllocateClosure()
     //     0xc09304: bl              #0xe553e0  ; AllocateClosureStub
@@ -245,7 +245,7 @@ class WorkoutTrendsView extends StatelessWidget {
     //     0xc0943c: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xc09440: ldur            x2, [fp, #-8]
     // 0xc09444: r1 = Function '<anonymous closure>':.
-    //     0xc09444: add             x1, PP, #0x49, lsl #12  ; [pp+0x49210] AnonymousClosure: (0xc094a4), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/workouts/root/workout_trends_view.dart] WorkoutTrendsView::build (0xc091cc)
+    //     0xc09444: add             x1, PP, #0x49, lsl #12  ; [pp+0x49210] AnonymousClosure: (0xc094a4), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/workouts/root/workout_trends_view.dart] WorkoutTrendsView::build (0xc091cc)
     //     0xc09448: ldr             x1, [x1, #0x210]
     // 0xc0944c: stur            x0, [fp, #-8]
     // 0xc09450: r0 = AllocateClosure()

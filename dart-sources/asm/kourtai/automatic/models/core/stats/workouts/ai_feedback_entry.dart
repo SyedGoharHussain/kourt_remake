@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/stats/workouts/ai_feedback_entry.dart
+// lib: , url: package:kourtai/automatic/models/core/stats/workouts/ai_feedback_entry.dart
 
 // class id: 1048695, size: 0x8
 class :: {

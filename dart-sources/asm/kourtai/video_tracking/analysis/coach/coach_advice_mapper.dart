@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/analysis/coach/coach_advice_mapper.dart
+// lib: , url: package:kourtai/video_tracking/analysis/coach/coach_advice_mapper.dart
 
 // class id: 1049075, size: 0x8
 class :: {

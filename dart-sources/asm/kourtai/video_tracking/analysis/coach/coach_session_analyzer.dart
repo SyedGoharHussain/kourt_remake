@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart
+// lib: , url: package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart
 
 // class id: 1049081, size: 0x8
 class :: {
@@ -67,7 +67,7 @@ abstract class CoachSessionAnalyzer extends Object {
     // 0x736f80: ldur            x1, [fp, #-8]
     // 0x736f84: stur            x0, [fp, #-0x20]
     // 0x736f88: r0 = _highestStreak()
-    //     0x736f88: bl              #0x738414  ; [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_highestStreak
+    //     0x736f88: bl              #0x738414  ; [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_highestStreak
     // 0x736f8c: mov             x4, x0
     // 0x736f90: ldur            x3, [fp, #-0x18]
     // 0x736f94: stur            x4, [fp, #-0x30]
@@ -117,7 +117,7 @@ abstract class CoachSessionAnalyzer extends Object {
     //     0x73701c: ldr             lr, [x21, lr, lsl #3]
     //     0x737020: blr             lr
     // 0x737024: r1 = Function '<anonymous closure>': static.
-    //     0x737024: add             x1, PP, #0x28, lsl #12  ; [pp+0x28618] AnonymousClosure: static (0x73850c), in [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::generateSummaryPayloadFromShots (0x736ee4)
+    //     0x737024: add             x1, PP, #0x28, lsl #12  ; [pp+0x28618] AnonymousClosure: static (0x73850c), in [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::generateSummaryPayloadFromShots (0x736ee4)
     //     0x737028: ldr             x1, [x1, #0x618]
     // 0x73702c: r2 = Null
     //     0x73702c: mov             x2, NULL
@@ -245,7 +245,7 @@ abstract class CoachSessionAnalyzer extends Object {
     //     0x737198: stur            w16, [x0, #0x27]
     // 0x73719c: ldur            x1, [fp, #-0x38]
     // 0x7371a0: r0 = _analyzePerformance()
-    //     0x7371a0: bl              #0x738330  ; [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_analyzePerformance
+    //     0x7371a0: bl              #0x738330  ; [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_analyzePerformance
     // 0x7371a4: ldur            x1, [fp, #-0x50]
     // 0x7371a8: ArrayStore: r1[7] = r0  ; List_4
     //     0x7371a8: add             x25, x1, #0x2b
@@ -265,7 +265,7 @@ abstract class CoachSessionAnalyzer extends Object {
     //     0x7371d8: stur            w16, [x0, #0x2f]
     // 0x7371dc: ldur            x1, [fp, #-0x40]
     // 0x7371e0: r0 = _analyzePerformance()
-    //     0x7371e0: bl              #0x738330  ; [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_analyzePerformance
+    //     0x7371e0: bl              #0x738330  ; [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_analyzePerformance
     // 0x7371e4: ldur            x1, [fp, #-0x50]
     // 0x7371e8: ArrayStore: r1[9] = r0  ; List_4
     //     0x7371e8: add             x25, x1, #0x33
@@ -287,7 +287,7 @@ abstract class CoachSessionAnalyzer extends Object {
     // 0x737220: ldur            x2, [fp, #-0x38]
     // 0x737224: ldur            x3, [fp, #-0x40]
     // 0x737228: r0 = _analyzeErrorsAndImprovements()
-    //     0x737228: bl              #0x738224  ; [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_analyzeErrorsAndImprovements
+    //     0x737228: bl              #0x738224  ; [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_analyzeErrorsAndImprovements
     // 0x73722c: mov             x2, x0
     // 0x737230: ldur            x1, [fp, #-0x50]
     // 0x737234: mov             x0, x2
@@ -311,7 +311,7 @@ abstract class CoachSessionAnalyzer extends Object {
     // 0x737270: ldur            x2, [fp, #-0x38]
     // 0x737274: ldur            x3, [fp, #-0x40]
     // 0x737278: r0 = _analyzeErrorsAndImprovements()
-    //     0x737278: bl              #0x738224  ; [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_analyzeErrorsAndImprovements
+    //     0x737278: bl              #0x738224  ; [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_analyzeErrorsAndImprovements
     // 0x73727c: mov             x2, x1
     // 0x737280: ldur            x1, [fp, #-0x50]
     // 0x737284: mov             x0, x2
@@ -334,7 +334,7 @@ abstract class CoachSessionAnalyzer extends Object {
     // 0x7372bc: ldur            x1, [fp, #-0x38]
     // 0x7372c0: ldur            x2, [fp, #-0x40]
     // 0x7372c4: r0 = _analyzeArcTrend()
-    //     0x7372c4: bl              #0x73804c  ; [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_analyzeArcTrend
+    //     0x7372c4: bl              #0x73804c  ; [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_analyzeArcTrend
     // 0x7372c8: ldur            x1, [fp, #-0x50]
     // 0x7372cc: ArrayStore: r1[15] = r0  ; List_4
     //     0x7372cc: add             x25, x1, #0x4b
@@ -355,7 +355,7 @@ abstract class CoachSessionAnalyzer extends Object {
     // 0x737300: ldur            x1, [fp, #-0x38]
     // 0x737304: ldur            x2, [fp, #-0x40]
     // 0x737308: r0 = _analyzeTimingTrend()
-    //     0x737308: bl              #0x737ec8  ; [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_analyzeTimingTrend
+    //     0x737308: bl              #0x737ec8  ; [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_analyzeTimingTrend
     // 0x73730c: ldur            x1, [fp, #-0x50]
     // 0x737310: ArrayStore: r1[17] = r0  ; List_4
     //     0x737310: add             x25, x1, #0x53
@@ -385,7 +385,7 @@ abstract class CoachSessionAnalyzer extends Object {
     //     0x737358: stur            w16, [x0, #0x5f]
     // 0x73735c: ldur            x1, [fp, #-8]
     // 0x737360: r0 = _analyzeCourtLocationSummary()
-    //     0x737360: bl              #0x737670  ; [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_analyzeCourtLocationSummary
+    //     0x737360: bl              #0x737670  ; [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_analyzeCourtLocationSummary
     // 0x737364: ldur            x1, [fp, #-0x50]
     // 0x737368: ArrayStore: r1[21] = r0  ; List_4
     //     0x737368: add             x25, x1, #0x63
@@ -404,7 +404,7 @@ abstract class CoachSessionAnalyzer extends Object {
     // 0x737398: StoreField: r1->field_67 = r16
     //     0x737398: stur            w16, [x1, #0x67]
     // 0x73739c: r0 = _buildHealthContextSummary()
-    //     0x73739c: bl              #0x737610  ; [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_buildHealthContextSummary
+    //     0x73739c: bl              #0x737610  ; [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_buildHealthContextSummary
     // 0x7373a0: ldur            x1, [fp, #-0x50]
     // 0x7373a4: ArrayStore: r1[23] = r0  ; List_4
     //     0x7373a4: add             x25, x1, #0x6b
@@ -424,7 +424,7 @@ abstract class CoachSessionAnalyzer extends Object {
     //     0x7373d4: stur            w16, [x0, #0x6f]
     // 0x7373d8: ldur            x1, [fp, #-0x10]
     // 0x7373dc: r0 = _buildRecentAIFeedbackContext()
-    //     0x7373dc: bl              #0x73746c  ; [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_buildRecentAIFeedbackContext
+    //     0x7373dc: bl              #0x73746c  ; [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_buildRecentAIFeedbackContext
     // 0x7373e0: ldur            x1, [fp, #-0x50]
     // 0x7373e4: ArrayStore: r1[25] = r0  ; List_4
     //     0x7373e4: add             x25, x1, #0x73
@@ -443,7 +443,7 @@ abstract class CoachSessionAnalyzer extends Object {
     // 0x737414: StoreField: r1->field_77 = r16
     //     0x737414: stur            w16, [x1, #0x77]
     // 0x737418: r0 = responseLanguageInstruction()
-    //     0x737418: bl              #0x6ff8d0  ; [package:ballai/video_tracking/analysis/coach/coach_template_language.dart] CoachTemplateLanguage::responseLanguageInstruction
+    //     0x737418: bl              #0x6ff8d0  ; [package:kourtai/video_tracking/analysis/coach/coach_template_language.dart] CoachTemplateLanguage::responseLanguageInstruction
     // 0x73741c: ldur            x1, [fp, #-0x50]
     // 0x737420: ArrayStore: r1[27] = r0  ; List_4
     //     0x737420: add             x25, x1, #0x7b
@@ -547,7 +547,7 @@ abstract class CoachSessionAnalyzer extends Object {
     // 0x737540: r0 = skip()
     //     0x737540: bl              #0x8bc094  ; [dart:collection] ListBase::skip
     // 0x737544: r1 = Function '<anonymous closure>': static.
-    //     0x737544: add             x1, PP, #0x28, lsl #12  ; [pp+0x286a0] AnonymousClosure: static (0x73759c), in [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_buildRecentAIFeedbackContext (0x73746c)
+    //     0x737544: add             x1, PP, #0x28, lsl #12  ; [pp+0x286a0] AnonymousClosure: static (0x73759c), in [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_buildRecentAIFeedbackContext (0x73746c)
     //     0x737548: ldr             x1, [x1, #0x6a0]
     // 0x73754c: r2 = Null
     //     0x73754c: mov             x2, NULL
@@ -746,7 +746,7 @@ abstract class CoachSessionAnalyzer extends Object {
     // 0x737740: mov             x1, x0
     // 0x737744: stur            x0, [fp, #-0x28]
     // 0x737748: r0 = _zoneLabel()
-    //     0x737748: bl              #0x737ccc  ; [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_zoneLabel
+    //     0x737748: bl              #0x737ccc  ; [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_zoneLabel
     // 0x73774c: mov             x3, x0
     // 0x737750: stur            x3, [fp, #-0x30]
     // 0x737754: cmp             w3, NULL
@@ -922,7 +922,7 @@ abstract class CoachSessionAnalyzer extends Object {
     // 0x73797c: ret
     //     0x73797c: ret             
     // 0x737980: r0 = _maxKey()
-    //     0x737980: bl              #0x737a4c  ; [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_maxKey
+    //     0x737980: bl              #0x737a4c  ; [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_maxKey
     // 0x737984: cmp             w0, NULL
     // 0x737988: b.ne            #0x737994
     // 0x73798c: r0 = "unknown area"
@@ -931,7 +931,7 @@ abstract class CoachSessionAnalyzer extends Object {
     // 0x737994: ldur            x1, [fp, #-0x18]
     // 0x737998: stur            x0, [fp, #-8]
     // 0x73799c: r0 = _maxKey()
-    //     0x73799c: bl              #0x737a4c  ; [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_maxKey
+    //     0x73799c: bl              #0x737a4c  ; [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_maxKey
     // 0x7379a0: cmp             w0, NULL
     // 0x7379a4: b.ne            #0x7379b0
     // 0x7379a8: r0 = "no clear make zone"
@@ -940,7 +940,7 @@ abstract class CoachSessionAnalyzer extends Object {
     // 0x7379b0: ldur            x1, [fp, #-0x20]
     // 0x7379b4: stur            x0, [fp, #-0x10]
     // 0x7379b8: r0 = _maxKey()
-    //     0x7379b8: bl              #0x737a4c  ; [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_maxKey
+    //     0x7379b8: bl              #0x737a4c  ; [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_maxKey
     // 0x7379bc: cmp             w0, NULL
     // 0x7379c0: b.ne            #0x7379d0
     // 0x7379c4: r4 = "no clear miss cluster"
@@ -1050,7 +1050,7 @@ abstract class CoachSessionAnalyzer extends Object {
     // 0x737ac8: StoreField: r3->field_b = r0
     //     0x737ac8: stur            w0, [x3, #0xb]
     // 0x737acc: r1 = Function '<anonymous closure>': static.
-    //     0x737acc: add             x1, PP, #0x28, lsl #12  ; [pp+0x286f0] AnonymousClosure: static (0x737c54), in [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_maxKey (0x737a4c)
+    //     0x737acc: add             x1, PP, #0x28, lsl #12  ; [pp+0x286f0] AnonymousClosure: static (0x737c54), in [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_maxKey (0x737a4c)
     //     0x737ad0: ldr             x1, [x1, #0x6f0]
     // 0x737ad4: r2 = Null
     //     0x737ad4: mov             x2, NULL
@@ -1317,11 +1317,11 @@ abstract class CoachSessionAnalyzer extends Object {
     //     0x737ee0: cmp             SP, x16
     //     0x737ee4: b.ls            #0x737f70
     // 0x737ee8: r0 = _averageTime()
-    //     0x737ee8: bl              #0x737f78  ; [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_averageTime
+    //     0x737ee8: bl              #0x737f78  ; [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_averageTime
     // 0x737eec: ldur            x1, [fp, #-8]
     // 0x737ef0: stur            d0, [fp, #-0x10]
     // 0x737ef4: r0 = _averageTime()
-    //     0x737ef4: bl              #0x737f78  ; [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_averageTime
+    //     0x737ef4: bl              #0x737f78  ; [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_averageTime
     // 0x737ef8: mov             v2.16b, v0.16b
     // 0x737efc: ldur            d0, [fp, #-0x10]
     // 0x737f00: d1 = 0.750000
@@ -1425,7 +1425,7 @@ abstract class CoachSessionAnalyzer extends Object {
     // 0x737ffc: ret
     //     0x737ffc: ret             
     // 0x738000: r1 = Function '<anonymous closure>': static.
-    //     0x738000: add             x1, PP, #0x28, lsl #12  ; [pp+0x28780] AnonymousClosure: static (0x713694), in [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
+    //     0x738000: add             x1, PP, #0x28, lsl #12  ; [pp+0x28780] AnonymousClosure: static (0x713694), in [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
     //     0x738004: ldr             x1, [x1, #0x780]
     // 0x738008: r2 = Null
     //     0x738008: mov             x2, NULL
@@ -1469,11 +1469,11 @@ abstract class CoachSessionAnalyzer extends Object {
     //     0x738064: cmp             SP, x16
     //     0x738068: b.ls            #0x73811c
     // 0x73806c: r0 = _averageAngle()
-    //     0x73806c: bl              #0x738124  ; [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_averageAngle
+    //     0x73806c: bl              #0x738124  ; [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_averageAngle
     // 0x738070: ldur            x1, [fp, #-8]
     // 0x738074: stur            d0, [fp, #-0x10]
     // 0x738078: r0 = _averageAngle()
-    //     0x738078: bl              #0x738124  ; [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_averageAngle
+    //     0x738078: bl              #0x738124  ; [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_averageAngle
     // 0x73807c: mov             v2.16b, v0.16b
     // 0x738080: ldur            d0, [fp, #-0x10]
     // 0x738084: d1 = 41.000000
@@ -1571,7 +1571,7 @@ abstract class CoachSessionAnalyzer extends Object {
     // 0x738178: r0 = whereType()
     //     0x738178: bl              #0x8d7274  ; [dart:_compact_hash] __Set&_HashVMBase&SetMixin::whereType
     // 0x73817c: r1 = Function '<anonymous closure>': static.
-    //     0x73817c: add             x1, PP, #0x28, lsl #12  ; [pp+0x287d0] AnonymousClosure: static (0xe50e90), in [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_averageAngle (0x738124)
+    //     0x73817c: add             x1, PP, #0x28, lsl #12  ; [pp+0x287d0] AnonymousClosure: static (0xe50e90), in [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_averageAngle (0x738124)
     //     0x738180: ldr             x1, [x1, #0x7d0]
     // 0x738184: r2 = Null
     //     0x738184: mov             x2, NULL
@@ -1607,7 +1607,7 @@ abstract class CoachSessionAnalyzer extends Object {
     // 0x7381d4: ret
     //     0x7381d4: ret             
     // 0x7381d8: r1 = Function '<anonymous closure>': static.
-    //     0x7381d8: add             x1, PP, #0x28, lsl #12  ; [pp+0x287e0] AnonymousClosure: static (0x713694), in [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
+    //     0x7381d8: add             x1, PP, #0x28, lsl #12  ; [pp+0x287e0] AnonymousClosure: static (0x713694), in [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
     //     0x7381dc: ldr             x1, [x1, #0x7e0]
     // 0x7381e0: r2 = Null
     //     0x7381e0: mov             x2, NULL
@@ -1652,7 +1652,7 @@ abstract class CoachSessionAnalyzer extends Object {
     //     0x738240: cmp             SP, x16
     //     0x738244: b.ls            #0x738328
     // 0x738248: r0 = _averageAngle()
-    //     0x738248: bl              #0x738124  ; [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_averageAngle
+    //     0x738248: bl              #0x738124  ; [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::_averageAngle
     // 0x73824c: mov             v1.16b, v0.16b
     // 0x738250: d0 = 41.000000
     //     0x738250: add             x17, PP, #0x28, lsl #12  ; [pp+0x28798] IMM: double(41) from 0x4044800000000000

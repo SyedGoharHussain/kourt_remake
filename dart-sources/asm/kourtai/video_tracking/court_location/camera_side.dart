@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/court_location/camera_side.dart
+// lib: , url: package:kourtai/video_tracking/court_location/camera_side.dart
 
 // class id: 1049122, size: 0x8
 class :: {

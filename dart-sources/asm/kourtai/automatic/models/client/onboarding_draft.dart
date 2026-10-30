@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/client/onboarding_draft.dart
+// lib: , url: package:kourtai/automatic/models/client/onboarding_draft.dart
 
 // class id: 1048678, size: 0x8
 class :: {
@@ -155,7 +155,7 @@ abstract class OnboardingDraftStore extends Object {
     //     0x7478f4: add             x0, NULL, #0x20  ; true
     // 0x7478f8: tbnz            w0, #4, #0x747934
     // 0x7478fc: r1 = Function '<anonymous closure>': static.
-    //     0x7478fc: add             x1, PP, #0x14, lsl #12  ; [pp+0x14918] AnonymousClosure: static (0x749af0), in [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::load (0x747768)
+    //     0x7478fc: add             x1, PP, #0x14, lsl #12  ; [pp+0x14918] AnonymousClosure: static (0x749af0), in [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::load (0x747768)
     //     0x747900: ldr             x1, [x1, #0x918]
     // 0x747904: r2 = Null
     //     0x747904: mov             x2, NULL
@@ -174,7 +174,7 @@ abstract class OnboardingDraftStore extends Object {
     // 0x747928: r1 = Null
     //     0x747928: mov             x1, NULL
     // 0x74792c: r0 = OnboardingDraft.fromJson()
-    //     0x74792c: bl              #0x747960  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::OnboardingDraft.fromJson
+    //     0x74792c: bl              #0x747960  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::OnboardingDraft.fromJson
     // 0x747930: r0 = ReturnAsyncNotFuture()
     //     0x747930: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x747934: r0 = Null
@@ -185,7 +185,7 @@ abstract class OnboardingDraftStore extends Object {
     // 0x747940: r1 = Null
     //     0x747940: mov             x1, NULL
     // 0x747944: r0 = OnboardingDraft.fromJson()
-    //     0x747944: bl              #0x747960  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::OnboardingDraft.fromJson
+    //     0x747944: bl              #0x747960  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::OnboardingDraft.fromJson
     // 0x747948: r0 = ReturnAsyncNotFuture()
     //     0x747948: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x74794c: sub             SP, fp, #0x80
@@ -350,7 +350,7 @@ abstract class OnboardingDraftStore extends Object {
     //     0x94002c: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x940030: bl              #0x60afc8  ; InitAsyncStub
     // 0x940034: r0 = load()
-    //     0x940034: bl              #0x747768  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::load
+    //     0x940034: bl              #0x747768  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::load
     // 0x940038: mov             x1, x0
     // 0x94003c: stur            x1, [fp, #-0x10]
     // 0x940040: r0 = Await()
@@ -364,12 +364,12 @@ abstract class OnboardingDraftStore extends Object {
     // 0x940058: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x940058: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x94005c: r0 = OnboardingDraft()
-    //     0x94005c: bl              #0x7489e0  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::OnboardingDraft
+    //     0x94005c: bl              #0x7489e0  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::OnboardingDraft
     // 0x940060: ldur            x1, [fp, #-0x10]
     // 0x940064: b               #0x94006c
     // 0x940068: mov             x1, x0
     // 0x94006c: r0 = save()
-    //     0x94006c: bl              #0x94008c  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::save
+    //     0x94006c: bl              #0x94008c  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::save
     // 0x940070: mov             x1, x0
     // 0x940074: stur            x1, [fp, #-0x10]
     // 0x940078: r0 = Await()
@@ -408,7 +408,7 @@ abstract class OnboardingDraftStore extends Object {
     // 0x9400c4: ldur            x1, [fp, #-0x10]
     // 0x9400c8: stur            x0, [fp, #-0x10]
     // 0x9400cc: r0 = toJson()
-    //     0x9400cc: bl              #0x748510  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::toJson
+    //     0x9400cc: bl              #0x748510  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::toJson
     // 0x9400d0: mov             x1, x0
     // 0x9400d4: r0 = jsonEncode()
     //     0x9400d4: bl              #0x65d378  ; [dart:convert] ::jsonEncode
@@ -515,7 +515,7 @@ class OnboardingDraft extends Object {
     // 0x747a30: r1 = Null
     //     0x747a30: mov             x1, NULL
     // 0x747a34: r0 = _parseDate()
-    //     0x747a34: bl              #0x749534  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::_parseDate
+    //     0x747a34: bl              #0x749534  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::_parseDate
     // 0x747a38: ldur            x1, [fp, #-8]
     // 0x747a3c: r2 = "height"
     //     0x747a3c: ldr             x2, [PP, #0x4620]  ; [pp+0x4620] "height"
@@ -851,7 +851,7 @@ class OnboardingDraft extends Object {
     // 0x747df0: r1 = Null
     //     0x747df0: mov             x1, NULL
     // 0x747df4: r0 = _stringList()
-    //     0x747df4: bl              #0x7493b4  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::_stringList
+    //     0x747df4: bl              #0x7493b4  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::_stringList
     // 0x747df8: ldur            x1, [fp, #-8]
     // 0x747dfc: r2 = "secondaryFocus"
     //     0x747dfc: add             x2, PP, #0x14, lsl #12  ; [pp+0x142f0] "secondaryFocus"
@@ -919,7 +919,7 @@ class OnboardingDraft extends Object {
     // 0x747eb0: r1 = Null
     //     0x747eb0: mov             x1, NULL
     // 0x747eb4: r0 = _stringList()
-    //     0x747eb4: bl              #0x7493b4  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::_stringList
+    //     0x747eb4: bl              #0x7493b4  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::_stringList
     // 0x747eb8: ldur            x1, [fp, #-8]
     // 0x747ebc: r2 = "levelOfPlay"
     //     0x747ebc: add             x2, PP, #0x14, lsl #12  ; [pp+0x14270] "levelOfPlay"
@@ -1443,7 +1443,7 @@ class OnboardingDraft extends Object {
     //     0x7484a4: add             x4, PP, #0x14, lsl #12  ; [pp+0x14a50] List(45) [0, 0x15, 0x14, 0x1, "acquisitionSource", 0xe, "birthDate", 0x2, "currentStep", 0x14, "gender", 0x6, "height", 0x3, "levelOfPlay", 0xc, "mainFocus", 0x8, "mainFocusAttributes", 0x9, "name", 0x1, "position", 0x5, "recommendedMakesGoal", 0x12, "recommendedShotsGoal", 0x11, "recommendedTimeGoalSeconds", 0x13, "secondaryFocus", 0xa, "secondaryFocusAttributes", 0xb, "shootingHand", 0x7, "trainingFrequency", 0xd, "triedOtherTrainingApps", 0xf, "weight", 0x4, "worksWithBasketballTrainer", 0x10, Null]
     //     0x7484a8: ldr             x4, [x4, #0xa50]
     // 0x7484ac: r0 = OnboardingDraft()
-    //     0x7484ac: bl              #0x7489e0  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::OnboardingDraft
+    //     0x7484ac: bl              #0x7489e0  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::OnboardingDraft
     // 0x7484b0: ldur            x0, [fp, #-0xa8]
     // 0x7484b4: LeaveFrame
     //     0x7484b4: mov             SP, fp
@@ -1465,7 +1465,7 @@ class OnboardingDraft extends Object {
     //     0x7484f0: b.ls            #0x748508
     // 0x7484f4: ldr             x1, [fp, #0x10]
     // 0x7484f8: r0 = toJson()
-    //     0x7484f8: bl              #0x748510  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::toJson
+    //     0x7484f8: bl              #0x748510  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraft::toJson
     // 0x7484fc: LeaveFrame
     //     0x7484fc: mov             SP, fp
     //     0x748500: ldp             fp, lr, [SP], #0x10
@@ -2825,7 +2825,7 @@ class OnboardingDraft extends Object {
     // 0x9321c0: DecompressPointer r1
     //     0x9321c0: add             x1, x1, HEAP, lsl #32
     // 0x9321c4: r0 = isValid()
-    //     0x9321c4: bl              #0x93247c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::isValid
+    //     0x9321c4: bl              #0x93247c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::isValid
     // 0x9321c8: tbnz            w0, #4, #0x932274
     // 0x9321cc: ldur            x0, [fp, #-8]
     // 0x9321d0: LoadField: r2 = r0->field_23
@@ -2845,7 +2845,7 @@ class OnboardingDraft extends Object {
     // 0x9321ec: DecompressPointer r3
     //     0x9321ec: add             x3, x3, HEAP, lsl #32
     // 0x9321f0: r0 = isValidSecondary()
-    //     0x9321f0: bl              #0x93228c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::isValidSecondary
+    //     0x9321f0: bl              #0x93228c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusSupport::isValidSecondary
     // 0x9321f4: tbnz            w0, #4, #0x932274
     // 0x9321f8: ldur            x0, [fp, #-8]
     // 0x9321fc: LoadField: r1 = r0->field_33

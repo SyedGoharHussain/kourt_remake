@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/analysis/coach/coach_session_summary_persistence.dart
+// lib: , url: package:kourtai/video_tracking/analysis/coach/coach_session_summary_persistence.dart
 
 // class id: 1049083, size: 0x8
 class :: {
@@ -35,7 +35,7 @@ abstract class CoachSessionSummaryPersistence extends Object {
     // 0x95e96c: ldur            x1, [fp, #-0x10]
     // 0x95e970: ldur            x2, [fp, #-0x20]
     // 0x95e974: r0 = generateBallyBreakdown()
-    //     0x95e974: bl              #0x960150  ; [package:ballai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::generateBallyBreakdown
+    //     0x95e974: bl              #0x960150  ; [package:kourtai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::generateBallyBreakdown
     // 0x95e978: mov             x1, x0
     // 0x95e97c: stur            x1, [fp, #-0x30]
     // 0x95e980: r0 = Await()
@@ -44,7 +44,7 @@ abstract class CoachSessionSummaryPersistence extends Object {
     // 0x95e988: b.eq            #0x95e998
     // 0x95e98c: mov             x1, x0
     // 0x95e990: r0 = toPersistedSummaryText()
-    //     0x95e990: bl              #0x95fdc0  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::toPersistedSummaryText
+    //     0x95e990: bl              #0x95fdc0  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_parser.dart] BallyBreakdownParser::toPersistedSummaryText
     // 0x95e994: b               #0x95e99c
     // 0x95e998: r0 = Null
     //     0x95e998: mov             x0, NULL
@@ -75,11 +75,11 @@ abstract class CoachSessionSummaryPersistence extends Object {
     //     0x95e9e4: bl              #0x5c96fc  ; [package:flutter/src/foundation/print.dart] ::debugPrintThrottled
     // 0x95e9e8: ldur            x1, [fp, #-0x20]
     // 0x95e9ec: r0 = _legacySessionSummaryPayload()
-    //     0x95e9ec: bl              #0x95fcc0  ; [package:ballai/video_tracking/analysis/coach/coach_session_summary_persistence.dart] CoachSessionSummaryPersistence::_legacySessionSummaryPayload
+    //     0x95e9ec: bl              #0x95fcc0  ; [package:kourtai/video_tracking/analysis/coach/coach_session_summary_persistence.dart] CoachSessionSummaryPersistence::_legacySessionSummaryPayload
     // 0x95e9f0: ldur            x1, [fp, #-0x10]
     // 0x95e9f4: mov             x2, x0
     // 0x95e9f8: r0 = generateSessionReport()
-    //     0x95e9f8: bl              #0x95f374  ; [package:ballai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::generateSessionReport
+    //     0x95e9f8: bl              #0x95f374  ; [package:kourtai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::generateSessionReport
     // 0x95e9fc: mov             x1, x0
     // 0x95ea00: stur            x1, [fp, #-0x10]
     // 0x95ea04: r0 = Await()
@@ -104,7 +104,7 @@ abstract class CoachSessionSummaryPersistence extends Object {
     //     0x95ea3c: add             x1, PP, #0x37, lsl #12  ; [pp+0x374f8] "coach-session-summary-v1"
     //     0x95ea40: ldr             x1, [x1, #0x4f8]
     // 0x95ea44: r0 = persisted()
-    //     0x95ea44: bl              #0x95f254  ; [package:ballai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::persisted
+    //     0x95ea44: bl              #0x95f254  ; [package:kourtai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::persisted
     // 0x95ea48: ldur            x2, [fp, #-0x10]
     // 0x95ea4c: b               #0x95ea68
     // 0x95ea50: ldur            x2, [fp, #-0x30]
@@ -113,7 +113,7 @@ abstract class CoachSessionSummaryPersistence extends Object {
     //     0x95ea58: add             x1, PP, #0x37, lsl #12  ; [pp+0x37500] "bally-breakdown-v1"
     //     0x95ea5c: ldr             x1, [x1, #0x500]
     // 0x95ea60: r0 = persisted()
-    //     0x95ea60: bl              #0x95f254  ; [package:ballai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::persisted
+    //     0x95ea60: bl              #0x95f254  ; [package:kourtai/video_tracking/analysis/coach/coach_feedback_log.dart] CoachFeedbackLog::persisted
     // 0x95ea64: ldur            x2, [fp, #-0x30]
     // 0x95ea68: cmp             w2, NULL
     // 0x95ea6c: b.eq            #0x95ea78
@@ -143,7 +143,7 @@ abstract class CoachSessionSummaryPersistence extends Object {
     // 0x95eab0: ldur            x1, [fp, #-0x18]
     // 0x95eab4: ldur            x3, [fp, #-0x28]
     // 0x95eab8: r0 = _saveReportText()
-    //     0x95eab8: bl              #0x95eac8  ; [package:ballai/video_tracking/analysis/coach/coach_session_summary_persistence.dart] CoachSessionSummaryPersistence::_saveReportText
+    //     0x95eab8: bl              #0x95eac8  ; [package:kourtai/video_tracking/analysis/coach/coach_session_summary_persistence.dart] CoachSessionSummaryPersistence::_saveReportText
     // 0x95eabc: r0 = ReturnAsync()
     //     0x95eabc: b               #0x5f1e3c  ; ReturnAsyncStub
     // 0x95eac0: r0 = StackOverflowSharedWithoutFPURegs()
@@ -219,11 +219,11 @@ abstract class CoachSessionSummaryPersistence extends Object {
     // 0x95eb84: r1 = Null
     //     0x95eb84: mov             x1, NULL
     // 0x95eb88: r0 = WorkoutModel.fromFirestore()
-    //     0x95eb88: bl              #0x7417a0  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::WorkoutModel.fromFirestore
+    //     0x95eb88: bl              #0x7417a0  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::WorkoutModel.fromFirestore
     // 0x95eb8c: mov             x1, x0
     // 0x95eb90: stur            x0, [fp, #-0x90]
     // 0x95eb94: r0 = hasLikelySessionSummary()
-    //     0x95eb94: bl              #0x95efc0  ; [package:ballai/video_tracking/analysis/coach/coach_session_summary_persistence.dart] CoachSessionSummaryPersistence::hasLikelySessionSummary
+    //     0x95eb94: bl              #0x95efc0  ; [package:kourtai/video_tracking/analysis/coach/coach_session_summary_persistence.dart] CoachSessionSummaryPersistence::hasLikelySessionSummary
     // 0x95eb98: tbnz            w0, #4, #0x95eba4
     // 0x95eb9c: ldur            x0, [fp, #-0x90]
     // 0x95eba0: r0 = ReturnAsyncNotFuture()
@@ -348,7 +348,7 @@ abstract class CoachSessionSummaryPersistence extends Object {
     //     0x95ecf0: add             x4, PP, #0x37, lsl #12  ; [pp+0x37510] List(9) [0, 0x3, 0x2, 0x1, "aiFeedback", 0x1, "updateDate", 0x2, Null]
     //     0x95ecf4: ldr             x4, [x4, #0x510]
     // 0x95ecf8: r0 = copyWith()
-    //     0x95ecf8: bl              #0x74c780  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::copyWith
+    //     0x95ecf8: bl              #0x74c780  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::copyWith
     // 0x95ecfc: ldur            x1, [fp, #-0x98]
     // 0x95ed00: stur            x0, [fp, #-0xc0]
     // 0x95ed04: r0 = trim()
@@ -357,7 +357,7 @@ abstract class CoachSessionSummaryPersistence extends Object {
     // 0x95ed0c: ldur            x2, [fp, #-0x90]
     // 0x95ed10: stur            x0, [fp, #-0xc8]
     // 0x95ed14: r0 = appendAIFeedback()
-    //     0x95ed14: bl              #0x95ed98  ; [package:ballai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::appendAIFeedback
+    //     0x95ed14: bl              #0x95ed98  ; [package:kourtai/video_tracking/session/firestore/video_workout_firestore_handler.dart] VideoWorkoutFirestoreHandler::appendAIFeedback
     // 0x95ed18: mov             x1, x0
     // 0x95ed1c: stur            x1, [fp, #-0xd0]
     // 0x95ed20: r0 = Await()
@@ -446,7 +446,7 @@ abstract class CoachSessionSummaryPersistence extends Object {
     //     0x95f018: ret             
     // 0x95f01c: mov             x2, x1
     // 0x95f020: r1 = Function '<anonymous closure>': static.
-    //     0x95f020: add             x1, PP, #0x37, lsl #12  ; [pp+0x37538] AnonymousClosure: static (0x95f04c), in [package:ballai/video_tracking/analysis/coach/coach_session_summary_persistence.dart] CoachSessionSummaryPersistence::hasLikelySessionSummary (0x95efc0)
+    //     0x95f020: add             x1, PP, #0x37, lsl #12  ; [pp+0x37538] AnonymousClosure: static (0x95f04c), in [package:kourtai/video_tracking/analysis/coach/coach_session_summary_persistence.dart] CoachSessionSummaryPersistence::hasLikelySessionSummary (0x95efc0)
     //     0x95f024: ldr             x1, [x1, #0x538]
     // 0x95f028: r0 = AllocateClosure()
     //     0x95f028: bl              #0xe553e0  ; AllocateClosureStub
@@ -483,7 +483,7 @@ abstract class CoachSessionSummaryPersistence extends Object {
     //     0x95f070: add             x2, x2, HEAP, lsl #32
     // 0x95f074: ldr             x1, [fp, #0x10]
     // 0x95f078: r0 = isLikelySessionSummary()
-    //     0x95f078: bl              #0x95f090  ; [package:ballai/automatic/models/core/stats/workouts/workout_session_summary_util.dart] ::isLikelySessionSummary
+    //     0x95f078: bl              #0x95f090  ; [package:kourtai/automatic/models/core/stats/workouts/workout_session_summary_util.dart] ::isLikelySessionSummary
     // 0x95f07c: LeaveFrame
     //     0x95f07c: mov             SP, fp
     //     0x95f080: ldp             fp, lr, [SP], #0x10
@@ -512,7 +512,7 @@ abstract class CoachSessionSummaryPersistence extends Object {
     //     0x95fce4: ldr             lr, [x21, lr, lsl #3]
     //     0x95fce8: blr             lr
     // 0x95fcec: r1 = Function '<anonymous closure>': static.
-    //     0x95fcec: add             x1, PP, #0x37, lsl #12  ; [pp+0x37580] AnonymousClosure: static (0x95fd80), in [package:ballai/video_tracking/analysis/coach/coach_session_summary_persistence.dart] CoachSessionSummaryPersistence::_legacySessionSummaryPayload (0x95fcc0)
+    //     0x95fcec: add             x1, PP, #0x37, lsl #12  ; [pp+0x37580] AnonymousClosure: static (0x95fd80), in [package:kourtai/video_tracking/analysis/coach/coach_session_summary_persistence.dart] CoachSessionSummaryPersistence::_legacySessionSummaryPayload (0x95fcc0)
     //     0x95fcf0: ldr             x1, [x1, #0x580]
     // 0x95fcf4: r2 = Null
     //     0x95fcf4: mov             x2, NULL

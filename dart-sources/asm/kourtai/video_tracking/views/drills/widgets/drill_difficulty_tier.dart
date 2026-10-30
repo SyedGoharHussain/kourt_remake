@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/drills/widgets/drill_difficulty_tier.dart
+// lib: , url: package:kourtai/video_tracking/views/drills/widgets/drill_difficulty_tier.dart
 
 // class id: 1049218, size: 0x8
 class :: {

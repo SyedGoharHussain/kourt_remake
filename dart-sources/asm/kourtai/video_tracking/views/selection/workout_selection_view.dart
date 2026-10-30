@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/selection/workout_selection_view.dart
+// lib: , url: package:kourtai/video_tracking/views/selection/workout_selection_view.dart
 
 // class id: 1049234, size: 0x8
 class :: {
@@ -22,7 +22,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0x993b84: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x993b88: cmp             SP, x16
     //     0x993b8c: b.ls            #0x993bd0
-    // 0x993b90: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0x993b90: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0x993b90: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x993b94: ldr             x0, [x0, #0x1cf0]
     //     0x993b98: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -36,7 +36,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0x993bb4: bl              #0xe4f314  ; [dart:ui] _NativeScene::_NativeScene._
     // 0x993bb8: ldur            x1, [fp, #-8]
     // 0x993bbc: r0 = _loadDrillCatalog()
-    //     0x993bbc: bl              #0x993bd8  ; [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_loadDrillCatalog
+    //     0x993bbc: bl              #0x993bd8  ; [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_loadDrillCatalog
     // 0x993bc0: r0 = Null
     //     0x993bc0: mov             x0, NULL
     // 0x993bc4: LeaveFrame
@@ -76,7 +76,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0x993c14: bl              #0x60afc8  ; InitAsyncStub
     // 0x993c18: ldur            x2, [fp, #-0x68]
     // 0x993c1c: r1 = Function '<anonymous closure>':.
-    //     0x993c1c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27d58] AnonymousClosure: (0x993e98), in [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_loadDrillCatalog (0x993bd8)
+    //     0x993c1c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27d58] AnonymousClosure: (0x993e98), in [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_loadDrillCatalog (0x993bd8)
     //     0x993c20: ldr             x1, [x1, #0xd58]
     // 0x993c24: r0 = AllocateClosure()
     //     0x993c24: bl              #0xe553e0  ; AllocateClosureStub
@@ -87,7 +87,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     // 0x993c34: ldur            x1, [fp, #-0x60]
     // 0x993c38: ldur            x2, [fp, #-0x68]
     // 0x993c3c: r0 = fetchPublishedDrills()
-    //     0x993c3c: bl              #0x94c2ac  ; [package:ballai/video_tracking/views/drills/data/drill_catalog_repository.dart] DrillCatalogRepository::fetchPublishedDrills
+    //     0x993c3c: bl              #0x94c2ac  ; [package:kourtai/video_tracking/views/drills/data/drill_catalog_repository.dart] DrillCatalogRepository::fetchPublishedDrills
     // 0x993c40: mov             x1, x0
     // 0x993c44: stur            x1, [fp, #-0x70]
     // 0x993c48: r0 = Await()
@@ -104,7 +104,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0x993c6c: b.eq            #0x993c74
     //     0x993c70: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x993c74: r0 = letsHoopSpotlightDrills()
-    //     0x993c74: bl              #0x91f1c8  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::letsHoopSpotlightDrills
+    //     0x993c74: bl              #0x91f1c8  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::letsHoopSpotlightDrills
     // 0x993c78: ldur            x3, [fp, #-0x68]
     // 0x993c7c: StoreField: r3->field_1b = r0
     //     0x993c7c: stur            w0, [x3, #0x1b]
@@ -127,7 +127,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0x993cb0: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x993cb4: mov             x2, x3
     // 0x993cb8: r1 = Function '<anonymous closure>':.
-    //     0x993cb8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27d60] AnonymousClosure: (0x993e1c), in [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_loadDrillCatalog (0x993bd8)
+    //     0x993cb8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27d60] AnonymousClosure: (0x993e1c), in [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_loadDrillCatalog (0x993bd8)
     //     0x993cbc: ldr             x1, [x1, #0xd60]
     // 0x993cc0: r0 = AllocateClosure()
     //     0x993cc0: bl              #0xe553e0  ; AllocateClosureStub
@@ -202,7 +202,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0x993d88: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x993d8c: ldur            x2, [fp, #-0x68]
     // 0x993d90: r1 = Function '<anonymous closure>':.
-    //     0x993d90: add             x1, PP, #0x27, lsl #12  ; [pp+0x27d70] AnonymousClosure: (0x993db8), in [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_loadDrillCatalog (0x993bd8)
+    //     0x993d90: add             x1, PP, #0x27, lsl #12  ; [pp+0x27d70] AnonymousClosure: (0x993db8), in [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_loadDrillCatalog (0x993bd8)
     //     0x993d94: ldr             x1, [x1, #0xd70]
     // 0x993d98: r0 = AllocateClosure()
     //     0x993d98: bl              #0xe553e0  ; AllocateClosureStub
@@ -343,7 +343,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xa02ccc: b.ls            #0xa02ce4
     // 0xa02cd0: ldr             x1, [fp, #0x10]
     // 0xa02cd4: r0 = isPublishedInLibrary()
-    //     0xa02cd4: bl              #0x91f4c4  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isPublishedInLibrary
+    //     0xa02cd4: bl              #0x91f4c4  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isPublishedInLibrary
     // 0xa02cd8: LeaveFrame
     //     0xa02cd8: mov             SP, fp
     //     0xa02cdc: ldp             fp, lr, [SP], #0x10
@@ -410,7 +410,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xa39294: stur            w3, [x0, #0x47]
     // 0xa39298: mov             x2, x1
     // 0xa3929c: r1 = Function '<anonymous closure>':.
-    //     0xa3929c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27d08] AnonymousClosure: (0xa39224), in [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_dismissSetupTutorial (0xa39244)
+    //     0xa3929c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27d08] AnonymousClosure: (0xa39224), in [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_dismissSetupTutorial (0xa39244)
     //     0xa392a0: ldr             x1, [x1, #0xd08]
     // 0xa392a4: r0 = AllocateClosure()
     //     0xa392a4: bl              #0xe553e0  ; AllocateClosureStub
@@ -458,9 +458,9 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     // 0xa39318: StoreField: r0->field_3f = r2
     //     0xa39318: stur            w2, [x0, #0x3f]
     // 0xa3931c: r0 = setHasOpenedSetupTutorialStrip()
-    //     0xa3931c: bl              #0xa393b0  ; [package:ballai/video_tracking/utility/defaults/defaults_lets_hoop_setup_tutorial_strip.dart] DefaultsLetsHoopSetupTutorialStrip::setHasOpenedSetupTutorialStrip
+    //     0xa3931c: bl              #0xa393b0  ; [package:kourtai/video_tracking/utility/defaults/defaults_lets_hoop_setup_tutorial_strip.dart] DefaultsLetsHoopSetupTutorialStrip::setHasOpenedSetupTutorialStrip
     // 0xa39320: r0 = setWatched()
-    //     0xa39320: bl              #0xa39340  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_setup_tutorial.dart] DefaultsVideoWorkoutSetupTutorial::setWatched
+    //     0xa39320: bl              #0xa39340  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_setup_tutorial.dart] DefaultsVideoWorkoutSetupTutorial::setWatched
     // 0xa39324: r0 = Null
     //     0xa39324: mov             x0, NULL
     // 0xa39328: LeaveFrame
@@ -537,7 +537,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xab5dd4: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xab5dd8: ldur            x2, [fp, #-0x18]
     // 0xab5ddc: r1 = Function '<anonymous closure>':.
-    //     0xab5ddc: add             x1, PP, #0x27, lsl #12  ; [pp+0x27ce8] AnonymousClosure: (0xab5d48), in [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_openDrillDetail (0xab5d84)
+    //     0xab5ddc: add             x1, PP, #0x27, lsl #12  ; [pp+0x27ce8] AnonymousClosure: (0xab5d48), in [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_openDrillDetail (0xab5d84)
     //     0xab5de0: ldr             x1, [x1, #0xce8]
     // 0xab5de4: stur            x0, [fp, #-8]
     // 0xab5de8: r0 = AllocateClosure()
@@ -649,7 +649,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac6b84: add             x7, x7, HEAP, lsl #32
     // 0xac6b88: stur            x7, [fp, #-0x10]
     // 0xac6b8c: r1 = Function '<anonymous closure>':.
-    //     0xac6b8c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27c48] AnonymousClosure: (0xa02cbc), in [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::build (0xac6ad0)
+    //     0xac6b8c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27c48] AnonymousClosure: (0xa02cbc), in [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::build (0xac6ad0)
     //     0xac6b90: ldr             x1, [x1, #0xc48]
     // 0xac6b94: r2 = Null
     //     0xac6b94: mov             x2, NULL
@@ -690,18 +690,18 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     // 0xac6bf4: ldur            x2, [fp, #-0x30]
     // 0xac6bf8: stur            x0, [fp, #-0x38]
     // 0xac6bfc: r0 = _prepareBallyGreetingIfNeeded()
-    //     0xac6bfc: bl              #0xac8b74  ; [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_prepareBallyGreetingIfNeeded
+    //     0xac6bfc: bl              #0xac8b74  ; [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_prepareBallyGreetingIfNeeded
     // 0xac6c00: ldur            x1, [fp, #-8]
     // 0xac6c04: ldur            x2, [fp, #-0x30]
     // 0xac6c08: r0 = _loadStarterStripPrefsIfNeeded()
-    //     0xac6c08: bl              #0xac882c  ; [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_loadStarterStripPrefsIfNeeded
+    //     0xac6c08: bl              #0xac882c  ; [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_loadStarterStripPrefsIfNeeded
     // 0xac6c0c: ldur            x2, [fp, #-0x18]
     // 0xac6c10: LoadField: r1 = r2->field_13
     //     0xac6c10: ldur            w1, [x2, #0x13]
     // 0xac6c14: DecompressPointer r1
     //     0xac6c14: add             x1, x1, HEAP, lsl #32
-    // 0xac6c18: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xac6c18: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xac6c18: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xac6c18: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xac6c1c: mov             x2, x0
     // 0xac6c20: ldur            x0, [fp, #-0x38]
     // 0xac6c24: stur            x2, [fp, #-0x40]
@@ -714,8 +714,8 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac6c38: ldur            w1, [x0, #0x13]
     // 0xac6c3c: DecompressPointer r1
     //     0xac6c3c: add             x1, x1, HEAP, lsl #32
-    // 0xac6c40: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xac6c40: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xac6c40: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xac6c40: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xac6c44: mov             x3, x0
     // 0xac6c48: b               #0xac6c54
     // 0xac6c4c: r3 = Instance_Color
@@ -736,7 +736,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac6c78: stur            w0, [x3, #0xb]
     // 0xac6c7c: ldur            x2, [fp, #-0x18]
     // 0xac6c80: r1 = Function '<anonymous closure>':.
-    //     0xac6c80: add             x1, PP, #0x27, lsl #12  ; [pp+0x27c60] AnonymousClosure: (0x9d7480), in [package:ballai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
+    //     0xac6c80: add             x1, PP, #0x27, lsl #12  ; [pp+0x27c60] AnonymousClosure: (0x9d7480), in [package:kourtai/automatic/views/home/tab/tabs/teams/invite_players_sheet_view.dart] _InvitePlayersSheetViewState::build (0xa58874)
     //     0xac6c84: ldr             x1, [x1, #0xc60]
     // 0xac6c88: r0 = AllocateClosure()
     //     0xac6c88: bl              #0xe553e0  ; AllocateClosureStub
@@ -812,7 +812,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac6d2c: add             x1, PP, #0x20, lsl #12  ; [pp+0x209b8] "Let\'s hoop!"
     //     0xac6d30: ldr             x1, [x1, #0x9b8]
     // 0xac6d34: r0 = L()
-    //     0xac6d34: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xac6d34: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xac6d38: mov             x2, x0
     // 0xac6d3c: ldur            x0, [fp, #-0x18]
     // 0xac6d40: stur            x2, [fp, #-0x38]
@@ -820,8 +820,8 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac6d44: ldur            w1, [x0, #0x13]
     // 0xac6d48: DecompressPointer r1
     //     0xac6d48: add             x1, x1, HEAP, lsl #32
-    // 0xac6d4c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xac6d4c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xac6d4c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xac6d4c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xac6d50: stur            x0, [fp, #-0x18]
     // 0xac6d54: r0 = TextStyle()
     //     0xac6d54: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1039,7 +1039,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     // 0xac6f68: mov             x1, x4
     // 0xac6f6c: ldur            x2, [fp, #-0x30]
     // 0xac6f70: r0 = _ballyGreetingText()
-    //     0xac6f70: bl              #0xac86f0  ; [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_ballyGreetingText
+    //     0xac6f70: bl              #0xac86f0  ; [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_ballyGreetingText
     // 0xac6f74: b               #0xac6f7c
     // 0xac6f78: r0 = " "
     //     0xac6f78: ldr             x0, [PP, #0x878]  ; [pp+0x878] " "
@@ -1077,7 +1077,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac6fd0: stur            w0, [x3, #0xf]
     // 0xac6fd4: ldur            x2, [fp, #-8]
     // 0xac6fd8: r1 = Function '_markBallyGreetingStreamFinished@1102148939':.
-    //     0xac6fd8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27c70] AnonymousClosure: (0xac8e30), in [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_markBallyGreetingStreamFinished (0xac8e68)
+    //     0xac6fd8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27c70] AnonymousClosure: (0xac8e30), in [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_markBallyGreetingStreamFinished (0xac8e68)
     //     0xac6fdc: ldr             x1, [x1, #0xc70]
     // 0xac6fe0: r0 = AllocateClosure()
     //     0xac6fe0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1166,7 +1166,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     // 0xac70cc: ldur            x2, [fp, #-0x20]
     // 0xac70d0: ldur            x5, [fp, #-0x30]
     // 0xac70d4: r0 = _letsHoopSections()
-    //     0xac70d4: bl              #0xac72d4  ; [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_letsHoopSections
+    //     0xac70d4: bl              #0xac72d4  ; [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_letsHoopSections
     // 0xac70d8: stur            x0, [fp, #-8]
     // 0xac70dc: r0 = ListView()
     //     0xac70dc: bl              #0x5eee7c  ; AllocateListViewStub -> ListView (size=0x68)
@@ -1393,7 +1393,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     // 0xac7320: mov             x1, x0
     // 0xac7324: ldur            x2, [fp, #-0x20]
     // 0xac7328: r0 = _starterStripKind()
-    //     0xac7328: bl              #0xac80ec  ; [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_starterStripKind
+    //     0xac7328: bl              #0xac80ec  ; [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_starterStripKind
     // 0xac732c: r16 = Instance_LetsHoopStarterStripKind
     //     0xac732c: add             x16, PP, #0x27, lsl #12  ; [pp+0x27c98] Obj!LetsHoopStarterStripKind@d38a01
     //     0xac7330: ldr             x16, [x16, #0xc98]
@@ -1401,7 +1401,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     // 0xac7338: b.ne            #0xac7368
     // 0xac733c: ldur            x2, [fp, #-0x28]
     // 0xac7340: r1 = Function '<anonymous closure>':.
-    //     0xac7340: add             x1, PP, #0x27, lsl #12  ; [pp+0x27ca0] AnonymousClosure: (0xac8560), in [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_letsHoopSections (0xac72d4)
+    //     0xac7340: add             x1, PP, #0x27, lsl #12  ; [pp+0x27ca0] AnonymousClosure: (0xac8560), in [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_letsHoopSections (0xac72d4)
     //     0xac7344: ldr             x1, [x1, #0xca0]
     // 0xac7348: r0 = AllocateClosure()
     //     0xac7348: bl              #0xe553e0  ; AllocateClosureStub
@@ -1436,7 +1436,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac73a0: stur            w0, [x3, #0xb]
     // 0xac73a4: ldur            x2, [fp, #-0x28]
     // 0xac73a8: r1 = Function '<anonymous closure>':.
-    //     0xac73a8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27cb0] AnonymousClosure: (0xac8324), in [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_letsHoopSections (0xac72d4)
+    //     0xac73a8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27cb0] AnonymousClosure: (0xac8324), in [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_letsHoopSections (0xac72d4)
     //     0xac73ac: ldr             x1, [x1, #0xcb0]
     // 0xac73b0: r0 = AllocateClosure()
     //     0xac73b0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1481,7 +1481,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     // 0xac7424: tbnz            w0, #4, #0xac743c
     // 0xac7428: ldur            x1, [fp, #-8]
     // 0xac742c: r0 = _drillLibraryErrorBanner()
-    //     0xac742c: bl              #0xac7cfc  ; [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_drillLibraryErrorBanner
+    //     0xac742c: bl              #0xac7cfc  ; [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_drillLibraryErrorBanner
     // 0xac7430: r1 = const []
     //     0xac7430: add             x1, PP, #0x25, lsl #12  ; [pp+0x25828] List<Widget>(0)
     //     0xac7434: ldr             x1, [x1, #0x828]
@@ -1562,7 +1562,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac7520: stur            w0, [x3, #0xb]
     // 0xac7524: ldur            x2, [fp, #-0x38]
     // 0xac7528: r1 = Function '<anonymous closure>':.
-    //     0xac7528: add             x1, PP, #0x27, lsl #12  ; [pp+0x27cc0] AnonymousClosure: (0xac82c8), in [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_letsHoopSections (0xac72d4)
+    //     0xac7528: add             x1, PP, #0x27, lsl #12  ; [pp+0x27cc0] AnonymousClosure: (0xac82c8), in [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_letsHoopSections (0xac72d4)
     //     0xac752c: ldr             x1, [x1, #0xcc0]
     // 0xac7530: r0 = AllocateClosure()
     //     0xac7530: bl              #0xe553e0  ; AllocateClosureStub
@@ -1651,7 +1651,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac7620: stur            w0, [x3, #0xb]
     // 0xac7624: ldur            x2, [fp, #-8]
     // 0xac7628: r1 = Function '_openDrillLibrary@1102148939':.
-    //     0xac7628: add             x1, PP, #0x27, lsl #12  ; [pp+0x27cd0] AnonymousClosure: (0xac81e4), in [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_openDrillLibrary (0xac821c)
+    //     0xac7628: add             x1, PP, #0x27, lsl #12  ; [pp+0x27cd0] AnonymousClosure: (0xac81e4), in [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_openDrillLibrary (0xac821c)
     //     0xac762c: ldr             x1, [x1, #0xcd0]
     // 0xac7630: r0 = AllocateClosure()
     //     0xac7630: bl              #0xe553e0  ; AllocateClosureStub
@@ -1669,7 +1669,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     // 0xac7654: ldur            x3, [fp, #-0x20]
     // 0xac7658: ldur            x5, [fp, #-0x28]
     // 0xac765c: r0 = assembleLetsHoopSections()
-    //     0xac765c: bl              #0xac768c  ; [package:ballai/video_tracking/views/selection/lets_hoop_layout.dart] ::assembleLetsHoopSections
+    //     0xac765c: bl              #0xac768c  ; [package:kourtai/video_tracking/views/selection/lets_hoop_layout.dart] ::assembleLetsHoopSections
     // 0xac7660: ldur            x1, [fp, #-0x38]
     // 0xac7664: mov             x2, x0
     // 0xac7668: r0 = addAll()
@@ -1777,7 +1777,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac7dd4: add             x1, PP, #0x27, lsl #12  ; [pp+0x27d38] "Unable to load drills"
     //     0xac7dd8: ldr             x1, [x1, #0xd38]
     // 0xac7ddc: r0 = L()
-    //     0xac7ddc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xac7ddc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xac7de0: mov             x2, x0
     // 0xac7de4: ldur            x0, [fp, #-8]
     // 0xac7de8: stur            x2, [fp, #-0x18]
@@ -1787,8 +1787,8 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac7df0: add             x1, x1, HEAP, lsl #32
     // 0xac7df4: cmp             w1, NULL
     // 0xac7df8: b.eq            #0xac8078
-    // 0xac7dfc: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xac7dfc: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xac7dfc: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xac7dfc: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xac7e00: stur            x0, [fp, #-0x28]
     // 0xac7e04: r0 = TextStyle()
     //     0xac7e04: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1825,7 +1825,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac7e54: add             x1, PP, #0x27, lsl #12  ; [pp+0x27d40] "Check your connection and try again."
     //     0xac7e58: ldr             x1, [x1, #0xd40]
     // 0xac7e5c: r0 = L()
-    //     0xac7e5c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xac7e5c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xac7e60: mov             x2, x0
     // 0xac7e64: ldur            x0, [fp, #-8]
     // 0xac7e68: stur            x2, [fp, #-0x18]
@@ -1835,8 +1835,8 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac7e70: add             x1, x1, HEAP, lsl #32
     // 0xac7e74: cmp             w1, NULL
     // 0xac7e78: b.eq            #0xac807c
-    // 0xac7e7c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xac7e7c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xac7e7c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xac7e7c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xac7e80: stur            x0, [fp, #-8]
     // 0xac7e84: r0 = TextStyle()
     //     0xac7e84: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1868,7 +1868,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac7ec8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27d48] "Retry"
     //     0xac7ecc: ldr             x1, [x1, #0xd48]
     // 0xac7ed0: r0 = L()
-    //     0xac7ed0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xac7ed0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xac7ed4: stur            x0, [fp, #-0x18]
     // 0xac7ed8: r0 = Text()
     //     0xac7ed8: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1888,7 +1888,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac7f00: stur            w0, [x3, #0x3b]
     // 0xac7f04: ldur            x2, [fp, #-0x10]
     // 0xac7f08: r1 = Function '<anonymous closure>':.
-    //     0xac7f08: add             x1, PP, #0x27, lsl #12  ; [pp+0x27d50] AnonymousClosure: (0xac8080), in [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_drillLibraryErrorBanner (0xac7cfc)
+    //     0xac7f08: add             x1, PP, #0x27, lsl #12  ; [pp+0x27d50] AnonymousClosure: (0xac8080), in [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_drillLibraryErrorBanner (0xac7cfc)
     //     0xac7f0c: ldr             x1, [x1, #0xd50]
     // 0xac7f10: r0 = AllocateClosure()
     //     0xac7f10: bl              #0xe553e0  ; AllocateClosureStub
@@ -2061,7 +2061,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     // 0xac80b4: DecompressPointer r1
     //     0xac80b4: add             x1, x1, HEAP, lsl #32
     // 0xac80b8: r0 = _loadDrillCatalog()
-    //     0xac80b8: bl              #0x993bd8  ; [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_loadDrillCatalog
+    //     0xac80b8: bl              #0x993bd8  ; [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_loadDrillCatalog
     // 0xac80bc: r0 = Null
     //     0xac80bc: mov             x0, NULL
     // 0xac80c0: LeaveFrame
@@ -2182,7 +2182,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac81fc: cmp             SP, x16
     //     0xac8200: b.ls            #0xac8214
     // 0xac8204: r0 = _openDrillLibrary()
-    //     0xac8204: bl              #0xac821c  ; [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_openDrillLibrary
+    //     0xac8204: bl              #0xac821c  ; [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_openDrillLibrary
     // 0xac8208: LeaveFrame
     //     0xac8208: mov             SP, fp
     //     0xac820c: ldp             fp, lr, [SP], #0x10
@@ -2215,7 +2215,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     // 0xac824c: r0 = of()
     //     0xac824c: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xac8250: r1 = Function '<anonymous closure>':.
-    //     0xac8250: add             x1, PP, #0x27, lsl #12  ; [pp+0x27cd8] AnonymousClosure: (0xac82bc), in [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_openDrillLibrary (0xac821c)
+    //     0xac8250: add             x1, PP, #0x27, lsl #12  ; [pp+0x27cd8] AnonymousClosure: (0xac82bc), in [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_openDrillLibrary (0xac821c)
     //     0xac8254: ldr             x1, [x1, #0xcd8]
     // 0xac8258: r2 = Null
     //     0xac8258: mov             x2, NULL
@@ -2294,7 +2294,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     // 0xac8300: mov             x1, x2
     // 0xac8304: mov             x2, x0
     // 0xac8308: r0 = _openDrillDetail()
-    //     0xac8308: bl              #0xab5d84  ; [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_openDrillDetail
+    //     0xac8308: bl              #0xab5d84  ; [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_openDrillDetail
     // 0xac830c: r0 = Null
     //     0xac830c: mov             x0, NULL
     // 0xac8310: LeaveFrame
@@ -2326,7 +2326,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac8348: add             x0, x0, HEAP, lsl #32
     // 0xac834c: mov             x1, x0
     // 0xac8350: r0 = _presentReviewPlan()
-    //     0xac8350: bl              #0xac836c  ; [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_presentReviewPlan
+    //     0xac8350: bl              #0xac836c  ; [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_presentReviewPlan
     // 0xac8354: r0 = Null
     //     0xac8354: mov             x0, NULL
     // 0xac8358: LeaveFrame
@@ -2367,14 +2367,14 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     // 0xac83ac: r4 = const [0, 0x1, 0, 0x1, null]
     //     0xac83ac: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0xac83b0: r0 = present()
-    //     0xac83b0: bl              #0x8e7d50  ; [package:ballai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] ReviewMyPlanSheet::present
+    //     0xac83b0: bl              #0x8e7d50  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] ReviewMyPlanSheet::present
     // 0xac83b4: mov             x1, x0
     // 0xac83b8: stur            x1, [fp, #-0x18]
     // 0xac83bc: r0 = Await()
     //     0xac83bc: bl              #0x60ad4c  ; AwaitStub
     // 0xac83c0: ldur            x1, [fp, #-0x10]
     // 0xac83c4: r0 = _dismissReviewPlan()
-    //     0xac83c4: bl              #0xac83dc  ; [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_dismissReviewPlan
+    //     0xac83c4: bl              #0xac83dc  ; [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_dismissReviewPlan
     // 0xac83c8: r0 = Null
     //     0xac83c8: mov             x0, NULL
     // 0xac83cc: r0 = ReturnAsyncNotFuture()
@@ -2408,7 +2408,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac8408: stur            w0, [x1, #0xf]
     // 0xac840c: mov             x2, x1
     // 0xac8410: r1 = Function '<anonymous closure>':.
-    //     0xac8410: add             x1, PP, #0x27, lsl #12  ; [pp+0x27cf0] AnonymousClosure: (0xac8540), in [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_dismissReviewPlan (0xac83dc)
+    //     0xac8410: add             x1, PP, #0x27, lsl #12  ; [pp+0x27cf0] AnonymousClosure: (0xac8540), in [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_dismissReviewPlan (0xac83dc)
     //     0xac8414: ldr             x1, [x1, #0xcf0]
     // 0xac8418: r0 = AllocateClosure()
     //     0xac8418: bl              #0xe553e0  ; AllocateClosureStub
@@ -2456,7 +2456,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     // 0xac848c: StoreField: r0->field_43 = r2
     //     0xac848c: stur            w2, [x0, #0x43]
     // 0xac8490: r0 = setHasOpenedReviewPlanStrip()
-    //     0xac8490: bl              #0xac84b0  ; [package:ballai/video_tracking/utility/defaults/defaults_lets_hoop_setup_tutorial_strip.dart] DefaultsLetsHoopSetupTutorialStrip::setHasOpenedReviewPlanStrip
+    //     0xac8490: bl              #0xac84b0  ; [package:kourtai/video_tracking/utility/defaults/defaults_lets_hoop_setup_tutorial_strip.dart] DefaultsLetsHoopSetupTutorialStrip::setHasOpenedReviewPlanStrip
     // 0xac8494: r0 = Null
     //     0xac8494: mov             x0, NULL
     // 0xac8498: LeaveFrame
@@ -2508,7 +2508,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac8584: add             x0, x0, HEAP, lsl #32
     // 0xac8588: mov             x1, x0
     // 0xac858c: r0 = _presentSetupTutorial()
-    //     0xac858c: bl              #0xac85a8  ; [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_presentSetupTutorial
+    //     0xac858c: bl              #0xac85a8  ; [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_presentSetupTutorial
     // 0xac8590: r0 = Null
     //     0xac8590: mov             x0, NULL
     // 0xac8594: LeaveFrame
@@ -2548,7 +2548,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac85e0: add             x4, PP, #0xc, lsl #12  ; [pp+0xc818] List(5) [0, 0, 0, 0, Null]
     //     0xac85e4: ldr             x4, [x4, #0x818]
     // 0xac85e8: r0 = resolve()
-    //     0xac85e8: bl              #0x90a314  ; [package:ballai/video_tracking/views/setup_tips/setup_tips_tutorial_media.dart] SetupTipsTutorialMediaResolver::resolve
+    //     0xac85e8: bl              #0x90a314  ; [package:kourtai/video_tracking/views/setup_tips/setup_tips_tutorial_media.dart] SetupTipsTutorialMediaResolver::resolve
     // 0xac85ec: stur            x0, [fp, #-0x18]
     // 0xac85f0: r1 = 1
     //     0xac85f0: mov             x1, #1
@@ -2572,7 +2572,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac8620: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xac8624: ldur            x2, [fp, #-0x20]
     // 0xac8628: r1 = Function '<anonymous closure>':.
-    //     0xac8628: add             x1, PP, #0x27, lsl #12  ; [pp+0x27d00] AnonymousClosure: (0xac86a8), in [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_presentSetupTutorial (0xac85a8)
+    //     0xac8628: add             x1, PP, #0x27, lsl #12  ; [pp+0x27d00] AnonymousClosure: (0xac86a8), in [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_presentSetupTutorial (0xac85a8)
     //     0xac862c: ldr             x1, [x1, #0xd00]
     // 0xac8630: stur            x0, [fp, #-0x18]
     // 0xac8634: r0 = AllocateClosure()
@@ -2609,7 +2609,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac8688: bl              #0x60ad4c  ; AwaitStub
     // 0xac868c: ldur            x1, [fp, #-0x10]
     // 0xac8690: r0 = _dismissSetupTutorial()
-    //     0xac8690: bl              #0xa39244  ; [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_dismissSetupTutorial
+    //     0xac8690: bl              #0xa39244  ; [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_dismissSetupTutorial
     // 0xac8694: r0 = Null
     //     0xac8694: mov             x0, NULL
     // 0xac8698: r0 = ReturnAsyncNotFuture()
@@ -2671,7 +2671,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac8720: mov             x0, NULL
     // 0xac8724: b               #0xac8734
     // 0xac8728: r0 = firstName()
-    //     0xac8728: bl              #0x749b68  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::firstName
+    //     0xac8728: bl              #0x749b68  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::firstName
     // 0xac872c: mov             x1, x0
     // 0xac8730: r0 = trim()
     //     0xac8730: bl              #0x5ed854  ; [dart:core] _StringBase::trim
@@ -2684,7 +2684,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac8744: add             x1, PP, #0x27, lsl #12  ; [pp+0x27e00] "Hooper"
     //     0xac8748: ldr             x1, [x1, #0xe00]
     // 0xac874c: r0 = L()
-    //     0xac874c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xac874c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xac8750: mov             x3, x0
     // 0xac8754: b               #0xac875c
     // 0xac8758: mov             x3, x0
@@ -2720,11 +2720,11 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     // 0xac87a8: StoreField: r1->field_b = r3
     //     0xac87a8: stur            w3, [x1, #0xb]
     // 0xac87ac: mov             x2, x1
-    // 0xac87b0: r1 = "Welcome to Ball AI! %@, I\'m officially your new AI coach. Ready to start grinding\?"
-    //     0xac87b0: add             x1, PP, #0x27, lsl #12  ; [pp+0x27e08] "Welcome to Ball AI! %@, I\'m officially your new AI coach. Ready to start grinding\?"
+    // 0xac87b0: r1 = "Welcome to Kourt AI! %@, I\'m officially your new AI coach. Ready to start grinding\?"
+    //     0xac87b0: add             x1, PP, #0x27, lsl #12  ; [pp+0x27e08] "Welcome to Kourt AI! %@, I\'m officially your new AI coach. Ready to start grinding\?"
     //     0xac87b4: ldr             x1, [x1, #0xe08]
     // 0xac87b8: r0 = LF()
-    //     0xac87b8: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xac87b8: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xac87bc: LeaveFrame
     //     0xac87bc: mov             SP, fp
     //     0xac87c0: ldp             fp, lr, [SP], #0x10
@@ -2760,7 +2760,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac880c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27e10] "Welcome back, %@ — what are we working on today\?"
     //     0xac8810: ldr             x1, [x1, #0xe10]
     // 0xac8814: r0 = LF()
-    //     0xac8814: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xac8814: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xac8818: LeaveFrame
     //     0xac8818: mov             SP, fp
     //     0xac881c: ldp             fp, lr, [SP], #0x10
@@ -2857,7 +2857,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac8918: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xac891c: ldur            x1, [fp, #-0x28]
     // 0xac8920: r0 = hasOpenedSetupTutorialStrip()
-    //     0xac8920: bl              #0xac8aac  ; [package:ballai/video_tracking/utility/defaults/defaults_lets_hoop_setup_tutorial_strip.dart] DefaultsLetsHoopSetupTutorialStrip::hasOpenedSetupTutorialStrip
+    //     0xac8920: bl              #0xac8aac  ; [package:kourtai/video_tracking/utility/defaults/defaults_lets_hoop_setup_tutorial_strip.dart] DefaultsLetsHoopSetupTutorialStrip::hasOpenedSetupTutorialStrip
     // 0xac8924: mov             x1, x0
     // 0xac8928: stur            x1, [fp, #-0x30]
     // 0xac892c: r0 = Await()
@@ -2874,7 +2874,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac8950: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xac8954: ldur            x1, [fp, #-0x28]
     // 0xac8958: r0 = hasOpenedReviewPlanStrip()
-    //     0xac8958: bl              #0xac8a24  ; [package:ballai/video_tracking/utility/defaults/defaults_lets_hoop_setup_tutorial_strip.dart] DefaultsLetsHoopSetupTutorialStrip::hasOpenedReviewPlanStrip
+    //     0xac8958: bl              #0xac8a24  ; [package:kourtai/video_tracking/utility/defaults/defaults_lets_hoop_setup_tutorial_strip.dart] DefaultsLetsHoopSetupTutorialStrip::hasOpenedReviewPlanStrip
     // 0xac895c: mov             x1, x0
     // 0xac8960: stur            x1, [fp, #-0x30]
     // 0xac8964: r0 = Await()
@@ -2930,7 +2930,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac89f4: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xac89f8: ldur            x2, [fp, #-0x20]
     // 0xac89fc: r1 = Function '<anonymous closure>':.
-    //     0xac89fc: add             x1, PP, #0x27, lsl #12  ; [pp+0x27e18] AnonymousClosure: (0xac8b34), in [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_loadStarterStripPrefsIfNeeded (0xac882c)
+    //     0xac89fc: add             x1, PP, #0x27, lsl #12  ; [pp+0x27e18] AnonymousClosure: (0xac8b34), in [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_loadStarterStripPrefsIfNeeded (0xac882c)
     //     0xac8a00: ldr             x1, [x1, #0xe18]
     // 0xac8a04: r0 = AllocateClosure()
     //     0xac8a04: bl              #0xe553e0  ; AllocateClosureStub
@@ -3083,7 +3083,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     // 0xac8c84: stur            x3, [fp, #-0x38]
     // 0xac8c88: ArrayStore: r2[0] = r3  ; List_4
     //     0xac8c88: stur            w3, [x2, #0x17]
-    // 0xac8c8c: r0 = InitLateStaticField(0xf00) // [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_usersWhoFinishedBallyGreetingStreamThisSession
+    // 0xac8c8c: r0 = InitLateStaticField(0xf00) // [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_usersWhoFinishedBallyGreetingStreamThisSession
     //     0xac8c8c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xac8c90: ldr             x0, [x0, #0x1e00]
     //     0xac8c94: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3114,7 +3114,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     // 0xac8ce0: ldur            x4, [fp, #-0x38]
     // 0xac8ce4: mov             x2, x0
     // 0xac8ce8: r1 = Function '<anonymous closure>':.
-    //     0xac8ce8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27e28] AnonymousClosure: (0xac8d34), in [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_prepareBallyGreetingIfNeeded (0xac8b74)
+    //     0xac8ce8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27e28] AnonymousClosure: (0xac8d34), in [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_prepareBallyGreetingIfNeeded (0xac8b74)
     //     0xac8cec: ldr             x1, [x1, #0xe28]
     // 0xac8cf0: r0 = AllocateClosure()
     //     0xac8cf0: bl              #0xe553e0  ; AllocateClosureStub
@@ -3196,7 +3196,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac8db0: stur            w0, [x1, #0x2b]
     // 0xac8db4: StoreField: r1->field_2f = r0
     //     0xac8db4: stur            w0, [x1, #0x2f]
-    // 0xac8db8: r0 = InitLateStaticField(0xf00) // [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_usersWhoFinishedBallyGreetingStreamThisSession
+    // 0xac8db8: r0 = InitLateStaticField(0xf00) // [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_usersWhoFinishedBallyGreetingStreamThisSession
     //     0xac8db8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xac8dbc: ldr             x0, [x0, #0x1e00]
     //     0xac8dc0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3257,7 +3257,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac8e48: cmp             SP, x16
     //     0xac8e4c: b.ls            #0xac8e60
     // 0xac8e50: r0 = _markBallyGreetingStreamFinished()
-    //     0xac8e50: bl              #0xac8e68  ; [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_markBallyGreetingStreamFinished
+    //     0xac8e50: bl              #0xac8e68  ; [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_markBallyGreetingStreamFinished
     // 0xac8e54: LeaveFrame
     //     0xac8e54: mov             SP, fp
     //     0xac8e58: ldp             fp, lr, [SP], #0x10
@@ -3302,7 +3302,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     //     0xac8eb0: ret             
     // 0xac8eb4: mov             x2, x1
     // 0xac8eb8: r1 = Function '<anonymous closure>':.
-    //     0xac8eb8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27c88] AnonymousClosure: (0xac8f70), in [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_markBallyGreetingStreamFinished (0xac8e68)
+    //     0xac8eb8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27c88] AnonymousClosure: (0xac8f70), in [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_markBallyGreetingStreamFinished (0xac8e68)
     //     0xac8ebc: ldr             x1, [x1, #0xc88]
     // 0xac8ec0: r0 = AllocateClosure()
     //     0xac8ec0: bl              #0xe553e0  ; AllocateClosureStub
@@ -3342,7 +3342,7 @@ class _WorkoutSelectionViewState extends State<dynamic> {
     // 0xac8f1c: stur            x2, [fp, #-8]
     // 0xac8f20: cmp             w2, NULL
     // 0xac8f24: b.eq            #0xac8f54
-    // 0xac8f28: r0 = InitLateStaticField(0xf00) // [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_usersWhoFinishedBallyGreetingStreamThisSession
+    // 0xac8f28: r0 = InitLateStaticField(0xf00) // [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_usersWhoFinishedBallyGreetingStreamThisSession
     //     0xac8f28: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xac8f2c: ldr             x0, [x0, #0x1e00]
     //     0xac8f30: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3455,7 +3455,7 @@ class WorkoutSelectionView extends StatefulWidget {
     // 0xb769d4: mov             x1, x0
     // 0xb769d8: stur            x0, [fp, #-8]
     // 0xb769dc: r0 = _WorkoutSelectionViewState()
-    //     0xb769dc: bl              #0xb769f8  ; [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_WorkoutSelectionViewState
+    //     0xb769dc: bl              #0xb769f8  ; [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_WorkoutSelectionViewState
     // 0xb769e0: ldur            x0, [fp, #-8]
     // 0xb769e4: LeaveFrame
     //     0xb769e4: mov             SP, fp

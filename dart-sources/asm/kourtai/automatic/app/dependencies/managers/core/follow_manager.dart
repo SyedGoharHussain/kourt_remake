@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/managers/core/follow_manager.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/managers/core/follow_manager.dart
 
 // class id: 1048648, size: 0x8
 class :: {
@@ -14,7 +14,7 @@ class FollowManager extends ChangeNotifier {
     //     0x9b5818: mov             fp, SP
     // 0x9b581c: ldr             x2, [fp, #0x10]
     // 0x9b5820: r1 = Function 'dispose':.
-    //     0x9b5820: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d5a8] AnonymousClosure: (0x9b5838), in [package:ballai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::dispose (0x9bc658)
+    //     0x9b5820: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d5a8] AnonymousClosure: (0x9b5838), in [package:kourtai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::dispose (0x9bc658)
     //     0x9b5824: ldr             x1, [x1, #0x5a8]
     // 0x9b5828: r0 = AllocateClosure()
     //     0x9b5828: bl              #0xe553e0  ; AllocateClosureStub
@@ -39,7 +39,7 @@ class FollowManager extends ChangeNotifier {
     //     0x9b5850: cmp             SP, x16
     //     0x9b5854: b.ls            #0x9b5868
     // 0x9b5858: r0 = dispose()
-    //     0x9b5858: bl              #0x9bc658  ; [package:ballai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::dispose
+    //     0x9b5858: bl              #0x9bc658  ; [package:kourtai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::dispose
     // 0x9b585c: LeaveFrame
     //     0x9b585c: mov             SP, fp
     //     0x9b5860: ldp             fp, lr, [SP], #0x10
@@ -70,7 +70,7 @@ class FollowManager extends ChangeNotifier {
     // 0x9bc680: mov             x2, x0
     // 0x9bc684: stur            x3, [fp, #-8]
     // 0x9bc688: r1 = Function '_onUserChanged@712427399':.
-    //     0x9bc688: add             x1, PP, #0x12, lsl #12  ; [pp+0x12358] AnonymousClosure: (0x9bc6f0), in [package:ballai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::_onUserChanged (0x9bc728)
+    //     0x9bc688: add             x1, PP, #0x12, lsl #12  ; [pp+0x12358] AnonymousClosure: (0x9bc6f0), in [package:kourtai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::_onUserChanged (0x9bc728)
     //     0x9bc68c: ldr             x1, [x1, #0x358]
     // 0x9bc690: r0 = AllocateClosure()
     //     0x9bc690: bl              #0xe553e0  ; AllocateClosureStub
@@ -125,7 +125,7 @@ class FollowManager extends ChangeNotifier {
     //     0x9bc708: cmp             SP, x16
     //     0x9bc70c: b.ls            #0x9bc720
     // 0x9bc710: r0 = _onUserChanged()
-    //     0x9bc710: bl              #0x9bc728  ; [package:ballai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::_onUserChanged
+    //     0x9bc710: bl              #0x9bc728  ; [package:kourtai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::_onUserChanged
     // 0x9bc714: LeaveFrame
     //     0x9bc714: mov             SP, fp
     //     0x9bc718: ldp             fp, lr, [SP], #0x10
@@ -391,13 +391,13 @@ class FollowManager extends ChangeNotifier {
     //     0x9bc9c0: bl              #0x938d20  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQuery::snapshots
     // 0x9bc9c4: ldur            x2, [fp, #-0x18]
     // 0x9bc9c8: r1 = Function '<anonymous closure>':.
-    //     0x9bc9c8: add             x1, PP, #0x12, lsl #12  ; [pp+0x12370] AnonymousClosure: (0x9bcdd0), in [package:ballai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::_onUserChanged (0x9bc728)
+    //     0x9bc9c8: add             x1, PP, #0x12, lsl #12  ; [pp+0x12370] AnonymousClosure: (0x9bcdd0), in [package:kourtai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::_onUserChanged (0x9bc728)
     //     0x9bc9cc: ldr             x1, [x1, #0x370]
     // 0x9bc9d0: stur            x0, [fp, #-0x28]
     // 0x9bc9d4: r0 = AllocateClosure()
     //     0x9bc9d4: bl              #0xe553e0  ; AllocateClosureStub
     // 0x9bc9d8: r1 = Function '<anonymous closure>':.
-    //     0x9bc9d8: add             x1, PP, #0x12, lsl #12  ; [pp+0x12378] AnonymousClosure: (0x9bcd4c), in [package:ballai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::_onUserChanged (0x9bc728)
+    //     0x9bc9d8: add             x1, PP, #0x12, lsl #12  ; [pp+0x12378] AnonymousClosure: (0x9bcd4c), in [package:kourtai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::_onUserChanged (0x9bc728)
     //     0x9bc9dc: ldr             x1, [x1, #0x378]
     // 0x9bc9e0: r2 = Null
     //     0x9bc9e0: mov             x2, NULL
@@ -443,13 +443,13 @@ class FollowManager extends ChangeNotifier {
     //     0x9bca58: bl              #0x938d20  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQuery::snapshots
     // 0x9bca5c: ldur            x2, [fp, #-0x18]
     // 0x9bca60: r1 = Function '<anonymous closure>':.
-    //     0x9bca60: add             x1, PP, #0x12, lsl #12  ; [pp+0x12388] AnonymousClosure: (0x9bcb58), in [package:ballai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::_onUserChanged (0x9bc728)
+    //     0x9bca60: add             x1, PP, #0x12, lsl #12  ; [pp+0x12388] AnonymousClosure: (0x9bcb58), in [package:kourtai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::_onUserChanged (0x9bc728)
     //     0x9bca64: ldr             x1, [x1, #0x388]
     // 0x9bca68: stur            x0, [fp, #-0x10]
     // 0x9bca6c: r0 = AllocateClosure()
     //     0x9bca6c: bl              #0xe553e0  ; AllocateClosureStub
     // 0x9bca70: r1 = Function '<anonymous closure>':.
-    //     0x9bca70: add             x1, PP, #0x12, lsl #12  ; [pp+0x12390] AnonymousClosure: (0x9bcad4), in [package:ballai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::_onUserChanged (0x9bc728)
+    //     0x9bca70: add             x1, PP, #0x12, lsl #12  ; [pp+0x12390] AnonymousClosure: (0x9bcad4), in [package:kourtai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::_onUserChanged (0x9bc728)
     //     0x9bca74: ldr             x1, [x1, #0x390]
     // 0x9bca78: r2 = Null
     //     0x9bca78: mov             x2, NULL
@@ -631,7 +631,7 @@ class FollowManager extends ChangeNotifier {
     // 0x9bcc38: r1 = Null
     //     0x9bcc38: mov             x1, NULL
     // 0x9bcc3c: r0 = FollowModel.fromFirestore()
-    //     0x9bcc3c: bl              #0x8fd630  ; [package:ballai/automatic/models/core/follow/follow_model.dart] FollowModel::FollowModel.fromFirestore
+    //     0x9bcc3c: bl              #0x8fd630  ; [package:kourtai/automatic/models/core/follow/follow_model.dart] FollowModel::FollowModel.fromFirestore
     // 0x9bcc40: LoadField: r3 = r0->field_7
     //     0x9bcc40: ldur            w3, [x0, #7]
     // 0x9bcc44: DecompressPointer r3
@@ -872,7 +872,7 @@ class FollowManager extends ChangeNotifier {
     // 0x9bceb0: r1 = Null
     //     0x9bceb0: mov             x1, NULL
     // 0x9bceb4: r0 = FollowModel.fromFirestore()
-    //     0x9bceb4: bl              #0x8fd630  ; [package:ballai/automatic/models/core/follow/follow_model.dart] FollowModel::FollowModel.fromFirestore
+    //     0x9bceb4: bl              #0x8fd630  ; [package:kourtai/automatic/models/core/follow/follow_model.dart] FollowModel::FollowModel.fromFirestore
     // 0x9bceb8: LoadField: r3 = r0->field_b
     //     0x9bceb8: ldur            w3, [x0, #0xb]
     // 0x9bcebc: DecompressPointer r3
@@ -1155,7 +1155,7 @@ class FollowManager extends ChangeNotifier {
     // 0xa96bc8: mov             x2, x4
     // 0xa96bcc: stur            x5, [fp, #-0xb8]
     // 0xa96bd0: r0 = documentId()
-    //     0xa96bd0: bl              #0xa6a1d4  ; [package:ballai/automatic/models/core/follow/follow_model.dart] FollowModel::documentId
+    //     0xa96bd0: bl              #0xa6a1d4  ; [package:kourtai/automatic/models/core/follow/follow_model.dart] FollowModel::documentId
     // 0xa96bd4: mov             x3, x0
     // 0xa96bd8: ldur            x0, [fp, #-0xa0]
     // 0xa96bdc: stur            x3, [fp, #-0xc0]
@@ -1326,7 +1326,7 @@ class FollowManager extends ChangeNotifier {
     // 0xa96ed8: ldur            x1, [fp, #-0x20]
     // 0xa96edc: ldur            x2, [fp, #-0x18]
     // 0xa96ee0: r0 = documentId()
-    //     0xa96ee0: bl              #0xa6a1d4  ; [package:ballai/automatic/models/core/follow/follow_model.dart] FollowModel::documentId
+    //     0xa96ee0: bl              #0xa6a1d4  ; [package:kourtai/automatic/models/core/follow/follow_model.dart] FollowModel::documentId
     // 0xa96ee4: mov             x3, x0
     // 0xa96ee8: ldur            x0, [fp, #-0x10]
     // 0xa96eec: stur            x3, [fp, #-0x18]
@@ -1424,7 +1424,7 @@ class FollowManager extends ChangeNotifier {
     // 0xa99e7c: ldur            x1, [fp, #-0x18]
     // 0xa99e80: ldur            x2, [fp, #-0x20]
     // 0xa99e84: r0 = documentId()
-    //     0xa99e84: bl              #0xa6a1d4  ; [package:ballai/automatic/models/core/follow/follow_model.dart] FollowModel::documentId
+    //     0xa99e84: bl              #0xa6a1d4  ; [package:kourtai/automatic/models/core/follow/follow_model.dart] FollowModel::documentId
     // 0xa99e88: mov             x3, x0
     // 0xa99e8c: ldur            x0, [fp, #-0x10]
     // 0xa99e90: stur            x3, [fp, #-0x18]
@@ -1522,7 +1522,7 @@ class FollowManager extends ChangeNotifier {
     // 0xa9a428: ldur            x1, [fp, #-0x18]
     // 0xa9a42c: ldur            x2, [fp, #-0x20]
     // 0xa9a430: r0 = documentId()
-    //     0xa9a430: bl              #0xa6a1d4  ; [package:ballai/automatic/models/core/follow/follow_model.dart] FollowModel::documentId
+    //     0xa9a430: bl              #0xa6a1d4  ; [package:kourtai/automatic/models/core/follow/follow_model.dart] FollowModel::documentId
     // 0xa9a434: mov             x3, x0
     // 0xa9a438: ldur            x0, [fp, #-0x10]
     // 0xa9a43c: stur            x3, [fp, #-0x20]
@@ -1581,7 +1581,7 @@ class FollowManager extends ChangeNotifier {
     // 0xa9a4d8: r1 = Null
     //     0xa9a4d8: mov             x1, NULL
     // 0xa9a4dc: r0 = FollowModel.fromFirestore()
-    //     0xa9a4dc: bl              #0x8fd630  ; [package:ballai/automatic/models/core/follow/follow_model.dart] FollowModel::FollowModel.fromFirestore
+    //     0xa9a4dc: bl              #0x8fd630  ; [package:kourtai/automatic/models/core/follow/follow_model.dart] FollowModel::FollowModel.fromFirestore
     // 0xa9a4e0: LoadField: r1 = r0->field_f
     //     0xa9a4e0: ldur            w1, [x0, #0xf]
     // 0xa9a4e4: DecompressPointer r1
@@ -1829,7 +1829,7 @@ class FollowManager extends ChangeNotifier {
     //     0xc2b6a0: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0xc2b6a4: mov             x2, x3
     // 0xc2b6a8: r1 = Function '_onUserChanged@712427399':.
-    //     0xc2b6a8: add             x1, PP, #0x12, lsl #12  ; [pp+0x12358] AnonymousClosure: (0x9bc6f0), in [package:ballai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::_onUserChanged (0x9bc728)
+    //     0xc2b6a8: add             x1, PP, #0x12, lsl #12  ; [pp+0x12358] AnonymousClosure: (0x9bc6f0), in [package:kourtai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::_onUserChanged (0x9bc728)
     //     0xc2b6ac: ldr             x1, [x1, #0x358]
     // 0xc2b6b0: r0 = AllocateClosure()
     //     0xc2b6b0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1839,7 +1839,7 @@ class FollowManager extends ChangeNotifier {
     //     0xc2b6bc: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0xc2b6c0: ldur            x1, [fp, #-8]
     // 0xc2b6c4: r0 = _onUserChanged()
-    //     0xc2b6c4: bl              #0x9bc728  ; [package:ballai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::_onUserChanged
+    //     0xc2b6c4: bl              #0x9bc728  ; [package:kourtai/automatic/app/dependencies/managers/core/follow_manager.dart] FollowManager::_onUserChanged
     // 0xc2b6c8: r0 = Null
     //     0xc2b6c8: mov             x0, NULL
     // 0xc2b6cc: LeaveFrame

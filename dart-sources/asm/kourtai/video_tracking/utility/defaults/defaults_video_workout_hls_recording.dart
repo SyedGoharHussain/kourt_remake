@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/utility/defaults/defaults_video_workout_hls_recording.dart
+// lib: , url: package:kourtai/video_tracking/utility/defaults/defaults_video_workout_hls_recording.dart
 
 // class id: 1049198, size: 0x8
 class :: {
@@ -24,7 +24,7 @@ abstract class DefaultsVideoWorkoutHlsRecording extends Object {
     //     0xabc3b8: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0xabc3bc: bl              #0x60afc8  ; InitAsyncStub
     // 0xabc3c0: r0 = getEnabled()
-    //     0xabc3c0: bl              #0x99ad6c  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_ai_coach.dart] DefaultsVideoWorkoutAICoach::getEnabled
+    //     0xabc3c0: bl              #0x99ad6c  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_ai_coach.dart] DefaultsVideoWorkoutAICoach::getEnabled
     // 0xabc3c4: mov             x1, x0
     // 0xabc3c8: stur            x1, [fp, #-0x10]
     // 0xabc3cc: r0 = Await()

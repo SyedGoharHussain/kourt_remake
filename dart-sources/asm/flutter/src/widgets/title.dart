@@ -36,8 +36,8 @@ class Title extends StatelessWidget {
     // 0xc5a71c: r0 = ApplicationSwitcherDescription()
     //     0xc5a71c: bl              #0xc5a81c  ; AllocateApplicationSwitcherDescriptionStub -> ApplicationSwitcherDescription (size=0x14)
     // 0xc5a720: mov             x1, x0
-    // 0xc5a724: r0 = "Ball AI"
-    //     0xc5a724: add             x0, PP, #0x11, lsl #12  ; [pp+0x11250] "Ball AI"
+    // 0xc5a724: r0 = "Kourt AI"
+    //     0xc5a724: add             x0, PP, #0x11, lsl #12  ; [pp+0x11250] "Kourt AI"
     //     0xc5a728: ldr             x0, [x0, #0x250]
     // 0xc5a72c: StoreField: r1->field_7 = r0
     //     0xc5a72c: stur            w0, [x1, #7]

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/team/team_feed_workout_item.dart
+// lib: , url: package:kourtai/automatic/models/core/team/team_feed_workout_item.dart
 
 // class id: 1048706, size: 0x8
 class :: {

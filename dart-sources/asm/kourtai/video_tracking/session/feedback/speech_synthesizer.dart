@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/session/feedback/speech_synthesizer.dart
+// lib: , url: package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart
 
 // class id: 1049169, size: 0x8
 class :: {
@@ -211,7 +211,7 @@ class SpeechSynthesizer extends Object {
     // 0x6d2fb0: ldur            x1, [fp, #-0x40]
     // 0x6d2fb4: ldur            x2, [fp, #-0x10]
     // 0x6d2fb8: r0 = _shouldEnqueue()
-    //     0x6d2fb8: bl              #0x6d41fc  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_shouldEnqueue
+    //     0x6d2fb8: bl              #0x6d41fc  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_shouldEnqueue
     // 0x6d2fbc: tbz             w0, #4, #0x6d2fec
     // 0x6d2fc0: ldur            x0, [fp, #-0x30]
     // 0x6d2fc4: cmp             w0, NULL
@@ -275,7 +275,7 @@ class SpeechSynthesizer extends Object {
     //     0x6d3068: bl              #0x5e773c  ; [dart:collection] ListQueue::_add
     // 0x6d306c: ldur            x1, [fp, #-0x40]
     // 0x6d3070: r0 = _processQueue()
-    //     0x6d3070: bl              #0x6d308c  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_processQueue
+    //     0x6d3070: bl              #0x6d308c  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_processQueue
     // 0x6d3074: r0 = Null
     //     0x6d3074: mov             x0, NULL
     // 0x6d3078: LeaveFrame
@@ -325,7 +325,7 @@ class SpeechSynthesizer extends Object {
     //     0x6d30dc: stur            w2, [x0, #0x13]
     // 0x6d30e0: mov             x1, x0
     // 0x6d30e4: r0 = _ensureInitialized()
-    //     0x6d30e4: bl              #0x6d3bc8  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_ensureInitialized
+    //     0x6d30e4: bl              #0x6d3bc8  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_ensureInitialized
     // 0x6d30e8: mov             x1, x0
     // 0x6d30ec: stur            x1, [fp, #-0x90]
     // 0x6d30f0: r0 = Await()
@@ -338,7 +338,7 @@ class SpeechSynthesizer extends Object {
     // 0x6d3100: tbnz            w1, #4, #0x6d3140
     // 0x6d3104: mov             x1, x0
     // 0x6d3108: r0 = _drainQueueCallbacks()
-    //     0x6d3108: bl              #0x6d3b34  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_drainQueueCallbacks
+    //     0x6d3108: bl              #0x6d3b34  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_drainQueueCallbacks
     // 0x6d310c: ldur            x0, [fp, #-0x88]
     // 0x6d3110: r2 = false
     //     0x6d3110: add             x2, NULL, #0x30  ; false
@@ -356,7 +356,7 @@ class SpeechSynthesizer extends Object {
     // 0x6d312c: b.eq            #0x6d3138
     // 0x6d3130: mov             x1, x0
     // 0x6d3134: r0 = _processQueue()
-    //     0x6d3134: bl              #0x6d308c  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_processQueue
+    //     0x6d3134: bl              #0x6d308c  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_processQueue
     // 0x6d3138: r0 = Null
     //     0x6d3138: mov             x0, NULL
     // 0x6d313c: r0 = ReturnAsyncNotFuture()
@@ -418,7 +418,7 @@ class SpeechSynthesizer extends Object {
     //     0x6d31d0: tst             x16, HEAP, lsr #32
     //     0x6d31d4: b.eq            #0x6d31dc
     //     0x6d31d8: bl              #0xe547dc  ; WriteBarrierWrappersStub
-    // 0x6d31dc: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0x6d31dc: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0x6d31dc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x6d31e0: ldr             x0, [x0, #0x1cf0]
     //     0x6d31e4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -722,7 +722,7 @@ class SpeechSynthesizer extends Object {
     // 0x6d3578: tbnz            w0, #4, #0x6d3584
     // 0x6d357c: ldur            x1, [fp, #-0x88]
     // 0x6d3580: r0 = _clearOverlay()
-    //     0x6d3580: bl              #0x6d37dc  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_clearOverlay
+    //     0x6d3580: bl              #0x6d37dc  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_clearOverlay
     // 0x6d3584: ldur            x1, [fp, #-0x88]
     // 0x6d3588: StoreField: r1->field_1b = rNULL
     //     0x6d3588: stur            NULL, [x1, #0x1b]
@@ -770,10 +770,10 @@ class SpeechSynthesizer extends Object {
     //     0x6d360c: stur            w1, [x3, #0x17]
     // 0x6d3610: mov             x1, x3
     // 0x6d3614: r0 = _drainQueueCallbacks()
-    //     0x6d3614: bl              #0x6d3b34  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_drainQueueCallbacks
+    //     0x6d3614: bl              #0x6d3b34  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_drainQueueCallbacks
     // 0x6d3618: ldur            x1, [fp, #-0x88]
     // 0x6d361c: r0 = _clearOverlay()
-    //     0x6d361c: bl              #0x6d37dc  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_clearOverlay
+    //     0x6d361c: bl              #0x6d37dc  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_clearOverlay
     // 0x6d3620: ldur            x0, [fp, #-0x88]
     // 0x6d3624: r2 = false
     //     0x6d3624: add             x2, NULL, #0x30  ; false
@@ -791,7 +791,7 @@ class SpeechSynthesizer extends Object {
     // 0x6d3640: b.eq            #0x6d364c
     // 0x6d3644: mov             x1, x0
     // 0x6d3648: r0 = _processQueue()
-    //     0x6d3648: bl              #0x6d308c  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_processQueue
+    //     0x6d3648: bl              #0x6d308c  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_processQueue
     // 0x6d364c: r0 = Null
     //     0x6d364c: mov             x0, NULL
     // 0x6d3650: r0 = ReturnAsyncNotFuture()
@@ -880,7 +880,7 @@ class SpeechSynthesizer extends Object {
     // 0x6d3724: b.eq            #0x6d3730
     // 0x6d3728: mov             x1, x3
     // 0x6d372c: r0 = _processQueue()
-    //     0x6d372c: bl              #0x6d308c  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_processQueue
+    //     0x6d372c: bl              #0x6d308c  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_processQueue
     // 0x6d3730: ldur            x0, [fp, #-0x90]
     // 0x6d3734: ldur            x1, [fp, #-0x98]
     // 0x6d3738: r0 = ReThrow()
@@ -907,7 +907,7 @@ class SpeechSynthesizer extends Object {
     //     0x6d3764: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x6d3768: cmp             SP, x16
     //     0x6d376c: b.ls            #0x6d37d4
-    // 0x6d3770: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0x6d3770: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0x6d3770: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x6d3774: ldr             x0, [x0, #0x1cf0]
     //     0x6d3778: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -932,7 +932,7 @@ class SpeechSynthesizer extends Object {
     // 0x6d37b8: tbnz            w0, #4, #0x6d37c4
     // 0x6d37bc: ldur            x1, [fp, #-8]
     // 0x6d37c0: r0 = _clearOverlay()
-    //     0x6d37c0: bl              #0x6d37dc  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_clearOverlay
+    //     0x6d37c0: bl              #0x6d37dc  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_clearOverlay
     // 0x6d37c4: r0 = Null
     //     0x6d37c4: mov             x0, NULL
     // 0x6d37c8: LeaveFrame
@@ -953,7 +953,7 @@ class SpeechSynthesizer extends Object {
     //     0x6d37e4: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x6d37e8: cmp             SP, x16
     //     0x6d37ec: b.ls            #0x6d3848
-    // 0x6d37f0: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0x6d37f0: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0x6d37f0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x6d37f4: ldr             x0, [x0, #0x1cf0]
     //     0x6d37f8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1176,7 +1176,7 @@ class SpeechSynthesizer extends Object {
     //     0x6d3d18: bl              #0x60ad4c  ; AwaitStub
     // 0x6d3d1c: ldur            x2, [fp, #-0x68]
     // 0x6d3d20: r1 = Function '_onUtteranceFinished@1087345836':.
-    //     0x6d3d20: add             x1, PP, #0x29, lsl #12  ; [pp+0x292e8] AnonymousClosure: (0x6d3ee8), in [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_onUtteranceFinished (0x6d3f20)
+    //     0x6d3d20: add             x1, PP, #0x29, lsl #12  ; [pp+0x292e8] AnonymousClosure: (0x6d3ee8), in [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_onUtteranceFinished (0x6d3f20)
     //     0x6d3d24: ldr             x1, [x1, #0x2e8]
     // 0x6d3d28: r0 = AllocateClosure()
     //     0x6d3d28: bl              #0xe553e0  ; AllocateClosureStub
@@ -1200,7 +1200,7 @@ class SpeechSynthesizer extends Object {
     //     0x6d3d68: b.eq            #0x6d3d70
     //     0x6d3d6c: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x6d3d70: r1 = Function '<anonymous closure>':.
-    //     0x6d3d70: add             x1, PP, #0x29, lsl #12  ; [pp+0x292f0] AnonymousClosure: (0x6d3e64), in [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_ensureInitialized (0x6d3bc8)
+    //     0x6d3d70: add             x1, PP, #0x29, lsl #12  ; [pp+0x292f0] AnonymousClosure: (0x6d3e64), in [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_ensureInitialized (0x6d3bc8)
     //     0x6d3d74: ldr             x1, [x1, #0x2f0]
     // 0x6d3d78: r2 = Null
     //     0x6d3d78: mov             x2, NULL
@@ -1321,7 +1321,7 @@ class SpeechSynthesizer extends Object {
     //     0x6d3f00: cmp             SP, x16
     //     0x6d3f04: b.ls            #0x6d3f18
     // 0x6d3f08: r0 = _onUtteranceFinished()
-    //     0x6d3f08: bl              #0x6d3f20  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_onUtteranceFinished
+    //     0x6d3f08: bl              #0x6d3f20  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_onUtteranceFinished
     // 0x6d3f0c: LeaveFrame
     //     0x6d3f0c: mov             SP, fp
     //     0x6d3f10: ldp             fp, lr, [SP], #0x10
@@ -1358,7 +1358,7 @@ class SpeechSynthesizer extends Object {
     // 0x6d3f58: b.eq            #0x6d3f6c
     // 0x6d3f5c: mov             x1, x0
     // 0x6d3f60: r0 = _clearOverlayIfMatching()
-    //     0x6d3f60: bl              #0x6d3750  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_clearOverlayIfMatching
+    //     0x6d3f60: bl              #0x6d3750  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_clearOverlayIfMatching
     // 0x6d3f64: ldur            x1, [fp, #-8]
     // 0x6d3f68: StoreField: r1->field_1b = rNULL
     //     0x6d3f68: stur            NULL, [x1, #0x1b]
@@ -1386,7 +1386,7 @@ class SpeechSynthesizer extends Object {
     //     0x6d420c: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x6d4210: cmp             SP, x16
     //     0x6d4214: b.ls            #0x6d4270
-    // 0x6d4218: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0x6d4218: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0x6d4218: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x6d421c: ldr             x0, [x0, #0x1cf0]
     //     0x6d4220: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1452,7 +1452,7 @@ class SpeechSynthesizer extends Object {
     //     0x6d42b4: bl              #0x6d42d8  ; [package:flutter_tts/flutter_tts.dart] FlutterTts::stop
     // 0x6d42b8: ldur            x1, [fp, #-8]
     // 0x6d42bc: r0 = _clearOverlay()
-    //     0x6d42bc: bl              #0x6d37dc  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_clearOverlay
+    //     0x6d42bc: bl              #0x6d37dc  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::_clearOverlay
     // 0x6d42c0: r0 = Null
     //     0x6d42c0: mov             x0, NULL
     // 0x6d42c4: LeaveFrame
@@ -1480,7 +1480,7 @@ class SpeechSynthesizer extends Object {
     // 0x6d4354: mov             x1, x0
     // 0x6d4358: stur            x0, [fp, #-8]
     // 0x6d435c: r0 = SpeechSynthesizer._()
-    //     0x6d435c: bl              #0x6d4378  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::SpeechSynthesizer._
+    //     0x6d435c: bl              #0x6d4378  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::SpeechSynthesizer._
     // 0x6d4360: ldur            x0, [fp, #-8]
     // 0x6d4364: LeaveFrame
     //     0x6d4364: mov             SP, fp
@@ -1589,7 +1589,7 @@ class SpeechSynthesizer extends Object {
     //     0x741144: add             x4, PP, #0x29, lsl #12  ; [pp+0x29278] List(7) [0, 0x3, 0x1, 0x2, "subException", 0x2, Null]
     //     0x741148: ldr             x4, [x4, #0x278]
     // 0x74114c: r0 = speak()
-    //     0x74114c: bl              #0x6d2cd4  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
+    //     0x74114c: bl              #0x6d2cd4  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
     // 0x741150: r0 = Null
     //     0x741150: mov             x0, NULL
     // 0x741154: LeaveFrame

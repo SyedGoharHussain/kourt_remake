@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart
 
 // class id: 1048635, size: 0x8
 class :: {
@@ -49,7 +49,7 @@ class DrillLeaderboardLiveBoard extends ChangeNotifier {
     //     0x5f0cc8: stur            w3, [x4, #0x1b]
     // 0x5f0ccc: ldur            x2, [fp, #-0x20]
     // 0x5f0cd0: r0 = boardDocId()
-    //     0x5f0cd0: bl              #0x5f9da4  ; [package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardService::boardDocId
+    //     0x5f0cd0: bl              #0x5f9da4  ; [package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardService::boardDocId
     // 0x5f0cd4: mov             x3, x0
     // 0x5f0cd8: ldur            x0, [fp, #-0x30]
     // 0x5f0cdc: stur            x3, [fp, #-0x18]
@@ -169,20 +169,20 @@ class DrillLeaderboardLiveBoard extends ChangeNotifier {
     //     0x5f0e20: add             x3, x3, HEAP, lsl #32
     // 0x5f0e24: ldur            x2, [fp, #-0x20]
     // 0x5f0e28: r0 = boardDocument()
-    //     0x5f0e28: bl              #0x5f7b54  ; [package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardService::boardDocument
+    //     0x5f0e28: bl              #0x5f7b54  ; [package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardService::boardDocument
     // 0x5f0e2c: mov             x1, x0
     // 0x5f0e30: r0 = snapshots()
     //     0x5f0e30: bl              #0x5f43f0  ; [package:cloud_firestore/cloud_firestore.dart] _JsonDocumentReference::snapshots
     // 0x5f0e34: ldur            x2, [fp, #-0x30]
     // 0x5f0e38: r1 = Function '<anonymous closure>':.
-    //     0x5f0e38: add             x1, PP, #0x34, lsl #12  ; [pp+0x34e88] AnonymousClosure: (0x5febd0), in [package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::listen (0x5f0c5c)
+    //     0x5f0e38: add             x1, PP, #0x34, lsl #12  ; [pp+0x34e88] AnonymousClosure: (0x5febd0), in [package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::listen (0x5f0c5c)
     //     0x5f0e3c: ldr             x1, [x1, #0xe88]
     // 0x5f0e40: stur            x0, [fp, #-0x18]
     // 0x5f0e44: r0 = AllocateClosure()
     //     0x5f0e44: bl              #0xe553e0  ; AllocateClosureStub
     // 0x5f0e48: ldur            x2, [fp, #-0x30]
     // 0x5f0e4c: r1 = Function '<anonymous closure>':.
-    //     0x5f0e4c: add             x1, PP, #0x34, lsl #12  ; [pp+0x34e90] AnonymousClosure: (0x5feb14), in [package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::listen (0x5f0c5c)
+    //     0x5f0e4c: add             x1, PP, #0x34, lsl #12  ; [pp+0x34e90] AnonymousClosure: (0x5feb14), in [package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::listen (0x5f0c5c)
     //     0x5f0e50: ldr             x1, [x1, #0xe90]
     // 0x5f0e54: stur            x0, [fp, #-0x20]
     // 0x5f0e58: r0 = AllocateClosure()
@@ -242,7 +242,7 @@ class DrillLeaderboardLiveBoard extends ChangeNotifier {
     // 0x5f0efc: ldur            x6, [fp, #-0x20]
     // 0x5f0f00: ldur            x7, [fp, #-0x10]
     // 0x5f0f04: r0 = _refreshStandingIfNeeded()
-    //     0x5f0f04: bl              #0x5f0f20  ; [package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::_refreshStandingIfNeeded
+    //     0x5f0f04: bl              #0x5f0f20  ; [package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::_refreshStandingIfNeeded
     // 0x5f0f08: r0 = Null
     //     0x5f0f08: mov             x0, NULL
     // 0x5f0f0c: LeaveFrame
@@ -300,7 +300,7 @@ class DrillLeaderboardLiveBoard extends ChangeNotifier {
     // 0x5f0f94: mov             x2, x3
     // 0x5f0f98: stur            x4, [fp, #-0x10]
     // 0x5f0f9c: r1 = Function '<anonymous closure>':.
-    //     0x5f0f9c: add             x1, PP, #0x34, lsl #12  ; [pp+0x34f30] AnonymousClosure: (0x5f4364), in [package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::_refreshStandingIfNeeded (0x5f0f20)
+    //     0x5f0f9c: add             x1, PP, #0x34, lsl #12  ; [pp+0x34f30] AnonymousClosure: (0x5f4364), in [package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::_refreshStandingIfNeeded (0x5f0f20)
     //     0x5f0fa0: ldr             x1, [x1, #0xf30]
     // 0x5f0fa4: r0 = AllocateClosure()
     //     0x5f0fa4: bl              #0xe553e0  ; AllocateClosureStub
@@ -407,7 +407,7 @@ class DrillLeaderboardLiveBoard extends ChangeNotifier {
     //     0x5f10cc: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
     // 0x5f10d0: ldur            x2, [fp, #-0x38]
     // 0x5f10d4: r1 = Function '<anonymous closure>':.
-    //     0x5f10d4: add             x1, PP, #0x34, lsl #12  ; [pp+0x34f38] AnonymousClosure: (0x5f1108), in [package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::_refreshStandingIfNeeded (0x5f0f20)
+    //     0x5f10d4: add             x1, PP, #0x34, lsl #12  ; [pp+0x34f38] AnonymousClosure: (0x5f1108), in [package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::_refreshStandingIfNeeded (0x5f0f20)
     //     0x5f10d8: ldr             x1, [x1, #0xf38]
     // 0x5f10dc: r0 = AllocateClosure()
     //     0x5f10dc: bl              #0xe553e0  ; AllocateClosureStub
@@ -459,7 +459,7 @@ class DrillLeaderboardLiveBoard extends ChangeNotifier {
     // 0x5f1154: DecompressPointer r2
     //     0x5f1154: add             x2, x2, HEAP, lsl #32
     // 0x5f1158: r0 = myStanding()
-    //     0x5f1158: bl              #0x5f12a0  ; [package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardService::myStanding
+    //     0x5f1158: bl              #0x5f12a0  ; [package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardService::myStanding
     // 0x5f115c: mov             x1, x0
     // 0x5f1160: stur            x1, [fp, #-0x68]
     // 0x5f1164: r0 = Await()
@@ -721,7 +721,7 @@ class DrillLeaderboardLiveBoard extends ChangeNotifier {
     //     0x5febfc: add             x2, x2, HEAP, lsl #32
     // 0x5fec00: ldr             x1, [fp, #0x10]
     // 0x5fec04: r0 = parseBoardSnapshot()
-    //     0x5fec04: bl              #0x5feca4  ; [package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardService::parseBoardSnapshot
+    //     0x5fec04: bl              #0x5feca4  ; [package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardService::parseBoardSnapshot
     // 0x5fec08: mov             x2, x0
     // 0x5fec0c: mov             x3, x1
     // 0x5fec10: ldur            x4, [fp, #-8]
@@ -774,7 +774,7 @@ class DrillLeaderboardLiveBoard extends ChangeNotifier {
     // 0x5fec84: r5 = false
     //     0x5fec84: add             x5, NULL, #0x30  ; false
     // 0x5fec88: r0 = _refreshStandingIfNeeded()
-    //     0x5fec88: bl              #0x5f0f20  ; [package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::_refreshStandingIfNeeded
+    //     0x5fec88: bl              #0x5f0f20  ; [package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::_refreshStandingIfNeeded
     // 0x5fec8c: r0 = Null
     //     0x5fec8c: mov             x0, NULL
     // 0x5fec90: LeaveFrame
@@ -861,7 +861,7 @@ class DrillLeaderboardLiveBoard extends ChangeNotifier {
     //     0x9b5514: mov             fp, SP
     // 0x9b5518: ldr             x2, [fp, #0x10]
     // 0x9b551c: r1 = Function 'dispose':.
-    //     0x9b551c: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d5f0] AnonymousClosure: (0x9b5534), in [package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::dispose (0x9ba7b4)
+    //     0x9b551c: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d5f0] AnonymousClosure: (0x9b5534), in [package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::dispose (0x9ba7b4)
     //     0x9b5520: ldr             x1, [x1, #0x5f0]
     // 0x9b5524: r0 = AllocateClosure()
     //     0x9b5524: bl              #0xe553e0  ; AllocateClosureStub
@@ -886,7 +886,7 @@ class DrillLeaderboardLiveBoard extends ChangeNotifier {
     //     0x9b554c: cmp             SP, x16
     //     0x9b5550: b.ls            #0x9b5564
     // 0x9b5554: r0 = dispose()
-    //     0x9b5554: bl              #0x9ba7b4  ; [package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::dispose
+    //     0x9b5554: bl              #0x9ba7b4  ; [package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::dispose
     // 0x9b5558: LeaveFrame
     //     0x9b5558: mov             SP, fp
     //     0x9b555c: ldp             fp, lr, [SP], #0x10
@@ -912,7 +912,7 @@ class DrillLeaderboardLiveBoard extends ChangeNotifier {
     //     0x9ba7d0: b.ls            #0x9ba7f4
     // 0x9ba7d4: mov             x1, x0
     // 0x9ba7d8: r0 = stop()
-    //     0x9ba7d8: bl              #0x9ba7fc  ; [package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::stop
+    //     0x9ba7d8: bl              #0x9ba7fc  ; [package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardLiveBoard::stop
     // 0x9ba7dc: ldur            x1, [fp, #-8]
     // 0x9ba7e0: r0 = dispose()
     //     0x9ba7e0: bl              #0xb7893c  ; [package:flutter/src/widgets/shortcuts.dart] _ShortcutManager&Object&Diagnosticable&ChangeNotifier::dispose
@@ -1057,7 +1057,7 @@ abstract class DrillLeaderboardService extends Object {
     //     0x5f07a4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d410] "%lld%%"
     //     0x5f07a8: ldr             x1, [x1, #0x410]
     // 0x5f07ac: r0 = LF()
-    //     0x5f07ac: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x5f07ac: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x5f07b0: LeaveFrame
     //     0x5f07b0: mov             SP, fp
     //     0x5f07b4: ldp             fp, lr, [SP], #0x10
@@ -1145,7 +1145,7 @@ abstract class DrillLeaderboardService extends Object {
     //     0x5f08b4: add             x1, PP, #0x34, lsl #12  ; [pp+0x34e20] "%1$lldh %2$lldm"
     //     0x5f08b8: ldr             x1, [x1, #0xe20]
     // 0x5f08bc: r0 = LF()
-    //     0x5f08bc: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x5f08bc: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x5f08c0: LeaveFrame
     //     0x5f08c0: mov             SP, fp
     //     0x5f08c4: ldp             fp, lr, [SP], #0x10
@@ -1183,7 +1183,7 @@ abstract class DrillLeaderboardService extends Object {
     //     0x5f0918: add             x1, PP, #0x34, lsl #12  ; [pp+0x34e28] "%lldm"
     //     0x5f091c: ldr             x1, [x1, #0xe28]
     // 0x5f0920: r0 = LF()
-    //     0x5f0920: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0x5f0920: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0x5f0924: LeaveFrame
     //     0x5f0924: mov             SP, fp
     //     0x5f0928: ldp             fp, lr, [SP], #0x10
@@ -1299,7 +1299,7 @@ abstract class DrillLeaderboardService extends Object {
     //     0x5f12d8: add             x2, x2, HEAP, lsl #32
     // 0x5f12dc: ldur            x1, [fp, #-0x10]
     // 0x5f12e0: r0 = getMyDrillStanding()
-    //     0x5f12e0: bl              #0x5f1a58  ; [package:ballai/automatic/lib/firebase/functions/root/firebase_functions.dart] BallAiFirebaseFunctions::getMyDrillStanding
+    //     0x5f12e0: bl              #0x5f1a58  ; [package:kourtai/automatic/lib/firebase/functions/root/firebase_functions.dart] KourtAiFirebaseFunctions::getMyDrillStanding
     // 0x5f12e4: mov             x1, x0
     // 0x5f12e8: stur            x1, [fp, #-0x18]
     // 0x5f12ec: r0 = Await()
@@ -1737,7 +1737,7 @@ abstract class DrillLeaderboardService extends Object {
     // 0x5f7ba4: ldur            x3, [fp, #-0x18]
     // 0x5f7ba8: stur            x0, [fp, #-8]
     // 0x5f7bac: r0 = boardDocId()
-    //     0x5f7bac: bl              #0x5f9da4  ; [package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardService::boardDocId
+    //     0x5f7bac: bl              #0x5f9da4  ; [package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardService::boardDocId
     // 0x5f7bb0: str             x0, [SP]
     // 0x5f7bb4: ldur            x1, [fp, #-8]
     // 0x5f7bb8: r4 = const [0, 0x2, 0x1, 0x2, null]
@@ -1772,7 +1772,7 @@ abstract class DrillLeaderboardService extends Object {
     //     0x5f9dcc: b.ls            #0x5f9e48
     // 0x5f9dd0: mov             x1, x0
     // 0x5f9dd4: r0 = key()
-    //     0x5f9dd4: bl              #0x5f9e50  ; [package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_period_key.dart] DrillLeaderboardPeriodKey::key
+    //     0x5f9dd4: bl              #0x5f9e50  ; [package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_period_key.dart] DrillLeaderboardPeriodKey::key
     // 0x5f9dd8: r1 = Null
     //     0x5f9dd8: mov             x1, NULL
     // 0x5f9ddc: r2 = 14
@@ -2329,7 +2329,7 @@ abstract class DrillLeaderboardService extends Object {
     // 0x5ff23c: r0 = take()
     //     0x5ff23c: bl              #0x83030c  ; [dart:core] Iterable::take
     // 0x5ff240: r1 = Function '<anonymous closure>': static.
-    //     0x5ff240: add             x1, PP, #0x34, lsl #12  ; [pp+0x34f18] AnonymousClosure: static (0x5ff580), of [package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardService
+    //     0x5ff240: add             x1, PP, #0x34, lsl #12  ; [pp+0x34f18] AnonymousClosure: static (0x5ff580), of [package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardService
     //     0x5ff244: ldr             x1, [x1, #0xf18]
     // 0x5ff248: r2 = Null
     //     0x5ff248: mov             x2, NULL
@@ -2416,7 +2416,7 @@ abstract class DrillLeaderboardService extends Object {
     // 0x5ff330: ldur            x3, [fp, #-0x38]
     // 0x5ff334: ldur            x1, [fp, #-8]
     // 0x5ff338: r0 = format()
-    //     0x5ff338: bl              #0x5f06e0  ; [package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardService::format
+    //     0x5ff338: bl              #0x5f06e0  ; [package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardService::format
     // 0x5ff33c: stur            x0, [fp, #-0x28]
     // 0x5ff340: r0 = DrillLeaderboardEntry()
     //     0x5ff340: bl              #0x5ff574  ; AllocateDrillLeaderboardEntryStub -> DrillLeaderboardEntry (size=0x24)
@@ -2510,7 +2510,7 @@ abstract class DrillLeaderboardService extends Object {
     //     0x5ff43c: add             x4, PP, #0x34, lsl #12  ; [pp+0x34f28] List(7) [0, 0x2, 0x1, 0x1, "fallback", 0x1, Null]
     //     0x5ff440: ldr             x4, [x4, #0xf28]
     // 0x5ff444: r0 = _asInt()
-    //     0x5ff444: bl              #0x5ff484  ; [package:ballai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardService::_asInt
+    //     0x5ff444: bl              #0x5ff484  ; [package:kourtai/automatic/app/dependencies/handlers/drill/drill_leaderboard_service.dart] DrillLeaderboardService::_asInt
     // 0x5ff448: mov             x2, x0
     // 0x5ff44c: r0 = BoxInt64Instr(r2)
     //     0x5ff44c: sbfiz           x0, x2, #1, #0x1f

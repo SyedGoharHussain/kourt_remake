@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/lifecycle/ball_ai_app_lifecycle.dart
+// lib: , url: package:kourtai/automatic/app/lifecycle/kourt_ai_app_lifecycle.dart
 
 // class id: 1048658, size: 0x8
 class :: {
@@ -6,12 +6,12 @@ class :: {
 
 // class id: 5149, size: 0x8, field offset: 0x8
 //   const constructor, transformed mixin,
-abstract class _BallAiAppLifecycle&Object&WidgetsBindingObserver extends Object
+abstract class _KourtAiAppLifecycle&Object&WidgetsBindingObserver extends Object
      with WidgetsBindingObserver {
 }
 
 // class id: 5153, size: 0xc, field offset: 0x8
-class BallAiAppLifecycle extends _BallAiAppLifecycle&Object&WidgetsBindingObserver {
+class KourtAiAppLifecycle extends _KourtAiAppLifecycle&Object&WidgetsBindingObserver {
 
   _ didChangeAppLifecycleState(/* No info */) {
     // ** addr: 0x60b314, size: 0x54
@@ -37,7 +37,7 @@ class BallAiAppLifecycle extends _BallAiAppLifecycle&Object&WidgetsBindingObserv
     // 0x60b348: DecompressPointer r1
     //     0x60b348: add             x1, x1, HEAP, lsl #32
     // 0x60b34c: r0 = _onAppResumed()
-    //     0x60b34c: bl              #0x60b3c0  ; [package:ballai/main.dart] _BallAiAppRootState::_onAppResumed
+    //     0x60b34c: bl              #0x60b3c0  ; [package:kourtai/main.dart] _KourtAiAppRootState::_onAppResumed
     // 0x60b350: r0 = Null
     //     0x60b350: mov             x0, NULL
     // 0x60b354: LeaveFrame
@@ -56,7 +56,7 @@ class BallAiAppLifecycle extends _BallAiAppLifecycle&Object&WidgetsBindingObserv
     //     0x98fbcc: mov             fp, SP
     // 0x98fbd0: AllocStack(0x18)
     //     0x98fbd0: sub             SP, SP, #0x18
-    // 0x98fbd4: SetupParameters(BallAiAppLifecycle this /* r1 => r3, fp-0x10 */)
+    // 0x98fbd4: SetupParameters(KourtAiAppLifecycle this /* r1 => r3, fp-0x10 */)
     //     0x98fbd4: mov             x3, x1
     //     0x98fbd8: stur            x1, [fp, #-0x10]
     // 0x98fbdc: CheckStackOverflow

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/workouts/sections/workout_breakdown_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/workouts/sections/workout_breakdown_view.dart
 
 // class id: 1048992, size: 0x8
 class :: {

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/video/bundled_loop_video_loader.dart
+// lib: , url: package:kourtai/automatic/utility/video/bundled_loop_video_loader.dart
 
 // class id: 1048756, size: 0x8
 class :: {

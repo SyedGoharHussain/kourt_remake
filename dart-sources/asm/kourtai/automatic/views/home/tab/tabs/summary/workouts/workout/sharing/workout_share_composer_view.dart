@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart
 
 // class id: 1048922, size: 0x8
 class :: {
@@ -108,7 +108,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0x969450: r0 = ReturnAsyncNotFuture()
     //     0x969450: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x969454: r1 = Function '<anonymous closure>':.
-    //     0x969454: add             x1, PP, #0x44, lsl #12  ; [pp+0x44188] AnonymousClosure: (0x969364), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onChooseBackground (0x9693b0)
+    //     0x969454: add             x1, PP, #0x44, lsl #12  ; [pp+0x44188] AnonymousClosure: (0x969364), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onChooseBackground (0x9693b0)
     //     0x969458: ldr             x1, [x1, #0x188]
     // 0x96945c: r0 = AllocateClosure()
     //     0x96945c: bl              #0xe553e0  ; AllocateClosureStub
@@ -121,7 +121,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0x969470: add             x2, PP, #0x44, lsl #12  ; [pp+0x44190] "Background updated."
     //     0x969474: ldr             x2, [x2, #0x190]
     // 0x969478: r0 = _showStatus()
-    //     0x969478: bl              #0x96948c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_showStatus
+    //     0x969478: bl              #0x96948c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_showStatus
     // 0x96947c: r0 = Null
     //     0x96947c: mov             x0, NULL
     // 0x969480: r0 = ReturnAsyncNotFuture()
@@ -158,7 +158,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0x9694c8: stur            w1, [x3, #0x13]
     // 0x9694cc: mov             x2, x3
     // 0x9694d0: r1 = Function '<anonymous closure>':.
-    //     0x9694d0: add             x1, PP, #0x44, lsl #12  ; [pp+0x440e0] AnonymousClosure: (0x961a28), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_autoGenerateSessionSummaryIfNeeded (0x95e420)
+    //     0x9694d0: add             x1, PP, #0x44, lsl #12  ; [pp+0x440e0] AnonymousClosure: (0x961a28), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/root/workout_view.dart] _WorkoutViewState::_autoGenerateSessionSummaryIfNeeded (0x95e420)
     //     0x9694d4: ldr             x1, [x1, #0xe0]
     // 0x9694d8: r0 = AllocateClosure()
     //     0x9694d8: bl              #0xe553e0  ; AllocateClosureStub
@@ -238,7 +238,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0x96a208: cmp             SP, x16
     //     0x96a20c: b.ls            #0x96a220
     // 0x96a210: r0 = _onChooseBackground()
-    //     0x96a210: bl              #0x9693b0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onChooseBackground
+    //     0x96a210: bl              #0x9693b0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onChooseBackground
     // 0x96a214: LeaveFrame
     //     0x96a214: mov             SP, fp
     //     0x96a218: ldp             fp, lr, [SP], #0x10
@@ -264,7 +264,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0x96a340: b.ls            #0x96a55c
     // 0x96a344: mov             x1, x0
     // 0x96a348: r0 = initState()
-    //     0x96a348: bl              #0x989844  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::initState
+    //     0x96a348: bl              #0x989844  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::initState
     // 0x96a34c: r0 = WorkoutShareState()
     //     0x96a34c: bl              #0x96e928  ; AllocateWorkoutShareStateStub -> WorkoutShareState (size=0x34)
     // 0x96a350: mov             x1, x0
@@ -293,7 +293,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0x96a390: stur            w1, [x0, #0xf]
     // 0x96a394: ldur            x2, [fp, #-8]
     // 0x96a398: r1 = Function '_onShareChanged@1168140465':.
-    //     0x96a398: add             x1, PP, #0x44, lsl #12  ; [pp+0x441f8] AnonymousClosure: (0x96ebc0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onShareChanged (0x96ebf8)
+    //     0x96a398: add             x1, PP, #0x44, lsl #12  ; [pp+0x441f8] AnonymousClosure: (0x96ebc0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onShareChanged (0x96ebf8)
     //     0x96a39c: ldr             x1, [x1, #0x1f8]
     // 0x96a3a0: r0 = AllocateClosure()
     //     0x96a3a0: bl              #0xe553e0  ; AllocateClosureStub
@@ -336,10 +336,10 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0x96a40c: ldur            x2, [fp, #-0x10]
     // 0x96a410: stur            x0, [fp, #-0x10]
     // 0x96a414: r0 = WorkoutDetailDataViewModel()
-    //     0x96a414: bl              #0x95dda0  ; [package:ballai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::WorkoutDetailDataViewModel
+    //     0x96a414: bl              #0x95dda0  ; [package:kourtai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::WorkoutDetailDataViewModel
     // 0x96a418: ldur            x2, [fp, #-8]
     // 0x96a41c: r1 = Function '_rebuildCardData@1168140465':.
-    //     0x96a41c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44200] AnonymousClosure: (0x96e934), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_rebuildCardData (0x96e96c)
+    //     0x96a41c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44200] AnonymousClosure: (0x96e934), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_rebuildCardData (0x96e96c)
     //     0x96a420: ldr             x1, [x1, #0x200]
     // 0x96a424: r0 = AllocateClosure()
     //     0x96a424: bl              #0xe553e0  ; AllocateClosureStub
@@ -379,7 +379,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0x96a484: add             x1, PP, #0x28, lsl #12  ; [pp+0x28d18] List<ShotModel>(0)
     //     0x96a488: ldr             x1, [x1, #0xd18]
     // 0x96a48c: r0 = _build()
-    //     0x96a48c: bl              #0x96aeb0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_build
+    //     0x96a48c: bl              #0x96aeb0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_build
     // 0x96a490: ldur            x2, [fp, #-8]
     // 0x96a494: StoreField: r2->field_1b = r0
     //     0x96a494: stur            w0, [x2, #0x1b]
@@ -394,7 +394,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0x96a4b4: DecompressPointer r1
     //     0x96a4b4: add             x1, x1, HEAP, lsl #32
     // 0x96a4b8: r0 = start()
-    //     0x96a4b8: bl              #0x95d408  ; [package:ballai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::start
+    //     0x96a4b8: bl              #0x95d408  ; [package:kourtai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::start
     // 0x96a4bc: ldur            x0, [fp, #-8]
     // 0x96a4c0: LoadField: r1 = r0->field_13
     //     0x96a4c0: ldur            w1, [x0, #0x13]
@@ -412,14 +412,14 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0x96a4dc: add             x3, x3, HEAP, lsl #32
     // 0x96a4e0: mov             x2, x3
     // 0x96a4e4: r0 = loadIfNeeded()
-    //     0x96a4e4: bl              #0x96a924  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/workout_share_state.dart] WorkoutShareState::loadIfNeeded
+    //     0x96a4e4: bl              #0x96a924  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/workout_share_state.dart] WorkoutShareState::loadIfNeeded
     // 0x96a4e8: r0 = userHasActiveSubscription()
-    //     0x96a4e8: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0x96a4e8: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0x96a4ec: tbz             w0, #4, #0x96a524
     // 0x96a4f0: ldur            x0, [fp, #-8]
     // 0x96a4f4: mov             x1, x0
     // 0x96a4f8: r0 = _availableStyles()
-    //     0x96a4f8: bl              #0x96a570  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_availableStyles
+    //     0x96a4f8: bl              #0x96a570  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_availableStyles
     // 0x96a4fc: mov             x1, x0
     // 0x96a500: r2 = Instance_ShareWorkoutCardStyle
     //     0x96a500: add             x2, PP, #0x44, lsl #12  ; [pp+0x441d0] Obj!ShareWorkoutCardStyle@d39fa1
@@ -489,7 +489,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0x96a59c: cmp             w1, w16
     // 0x96a5a0: b.eq            #0x96a5e0
     // 0x96a5a4: r0 = availableStyles()
-    //     0x96a5a4: bl              #0x96a5ec  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::availableStyles
+    //     0x96a5a4: bl              #0x96a5ec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::availableStyles
     // 0x96a5a8: LoadField: r1 = r0->field_b
     //     0x96a5a8: ldur            w1, [x0, #0xb]
     // 0x96a5ac: cbnz            w1, #0x96a5bc
@@ -503,7 +503,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0x96a5c4: DecompressPointer r1
     //     0x96a5c4: add             x1, x1, HEAP, lsl #32
     // 0x96a5c8: r0 = availableStyles()
-    //     0x96a5c8: bl              #0x96a5ec  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::availableStyles
+    //     0x96a5c8: bl              #0x96a5ec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::availableStyles
     // 0x96a5cc: LeaveFrame
     //     0x96a5cc: mov             SP, fp
     //     0x96a5d0: ldp             fp, lr, [SP], #0x10
@@ -533,7 +533,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0x96e94c: cmp             SP, x16
     //     0x96e950: b.ls            #0x96e964
     // 0x96e954: r0 = _rebuildCardData()
-    //     0x96e954: bl              #0x96e96c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_rebuildCardData
+    //     0x96e954: bl              #0x96e96c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_rebuildCardData
     // 0x96e958: LeaveFrame
     //     0x96e958: mov             SP, fp
     //     0x96e95c: ldp             fp, lr, [SP], #0x10
@@ -580,7 +580,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0x96e9bc: ret             
     // 0x96e9c0: mov             x1, x0
     // 0x96e9c4: r0 = _selectedStyle()
-    //     0x96e9c4: bl              #0x96ea18  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_selectedStyle
+    //     0x96e9c4: bl              #0x96ea18  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_selectedStyle
     // 0x96e9c8: ldur            x2, [fp, #-0x10]
     // 0x96e9cc: StoreField: r2->field_13 = r0
     //     0x96e9cc: stur            w0, [x2, #0x13]
@@ -591,7 +591,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0x96e9e0: b.eq            #0x96e9e8
     //     0x96e9e4: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x96e9e8: r1 = Function '<anonymous closure>':.
-    //     0x96e9e8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44210] AnonymousClosure: (0x96ea94), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_rebuildCardData (0x96e96c)
+    //     0x96e9e8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44210] AnonymousClosure: (0x96ea94), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_rebuildCardData (0x96e96c)
     //     0x96e9ec: ldr             x1, [x1, #0x210]
     // 0x96e9f0: r0 = AllocateClosure()
     //     0x96e9f0: bl              #0xe553e0  ; AllocateClosureStub
@@ -626,7 +626,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0x96ea34: b.ls            #0x96ea8c
     // 0x96ea38: mov             x1, x0
     // 0x96ea3c: r0 = _availableStyles()
-    //     0x96ea3c: bl              #0x96a570  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_availableStyles
+    //     0x96ea3c: bl              #0x96a570  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_availableStyles
     // 0x96ea40: mov             x2, x0
     // 0x96ea44: ldur            x0, [fp, #-8]
     // 0x96ea48: LoadField: r3 = r0->field_33
@@ -695,7 +695,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0x96eae8: add             x4, x4, HEAP, lsl #32
     // 0x96eaec: mov             x1, x4
     // 0x96eaf0: r0 = _build()
-    //     0x96eaf0: bl              #0x96aeb0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_build
+    //     0x96eaf0: bl              #0x96aeb0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::_build
     // 0x96eaf4: ldur            x1, [fp, #-8]
     // 0x96eaf8: StoreField: r1->field_1b = r0
     //     0x96eaf8: stur            w0, [x1, #0x1b]
@@ -711,7 +711,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0x96eb1c: DecompressPointer r1
     //     0x96eb1c: add             x1, x1, HEAP, lsl #32
     // 0x96eb20: r0 = _availableStyles()
-    //     0x96eb20: bl              #0x96a570  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_availableStyles
+    //     0x96eb20: bl              #0x96a570  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_availableStyles
     // 0x96eb24: mov             x3, x0
     // 0x96eb28: ldur            x0, [fp, #-0x10]
     // 0x96eb2c: stur            x3, [fp, #-8]
@@ -726,7 +726,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0x96eb40: bl              #0x622938  ; [dart:collection] ListBase::indexOf
     // 0x96eb44: tbz             x0, #0x3f, #0x96eb78
     // 0x96eb48: r0 = userHasActiveSubscription()
-    //     0x96eb48: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0x96eb48: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0x96eb4c: tbz             w0, #4, #0x96eb6c
     // 0x96eb50: ldur            x1, [fp, #-8]
     // 0x96eb54: r2 = Instance_ShareWorkoutCardStyle
@@ -786,7 +786,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0x96ebd8: cmp             SP, x16
     //     0x96ebdc: b.ls            #0x96ebf0
     // 0x96ebe0: r0 = _onShareChanged()
-    //     0x96ebe0: bl              #0x96ebf8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onShareChanged
+    //     0x96ebe0: bl              #0x96ebf8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onShareChanged
     // 0x96ebe4: LeaveFrame
     //     0x96ebe4: mov             SP, fp
     //     0x96ebe8: ldp             fp, lr, [SP], #0x10
@@ -926,7 +926,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4d5b8: mov             x2, x5
     // 0xa4d5bc: stur            x0, [fp, #-0x10]
     // 0xa4d5c0: r1 = Function '<anonymous closure>':.
-    //     0xa4d5c0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43fb0] AnonymousClosure: (0xa50c50), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::build (0xa4d4e8)
+    //     0xa4d5c0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43fb0] AnonymousClosure: (0xa50c50), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::build (0xa4d4e8)
     //     0xa4d5c4: ldr             x1, [x1, #0xfb0]
     // 0xa4d5c8: r0 = AllocateClosure()
     //     0xa4d5c8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1020,22 +1020,22 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4d6b8: ldur            w1, [x0, #0x13]
     // 0xa4d6bc: DecompressPointer r1
     //     0xa4d6bc: add             x1, x1, HEAP, lsl #32
-    // 0xa4d6c0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa4d6c0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa4d6c0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa4d6c0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa4d6c4: r1 = "Share workout"
     //     0xa4d6c4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43fc8] "Share workout"
     //     0xa4d6c8: ldr             x1, [x1, #0xfc8]
     // 0xa4d6cc: stur            x0, [fp, #-0x38]
     // 0xa4d6d0: r0 = L()
-    //     0xa4d6d0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa4d6d0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa4d6d4: ldur            x2, [fp, #-0x18]
     // 0xa4d6d8: stur            x0, [fp, #-0x40]
     // 0xa4d6dc: LoadField: r1 = r2->field_13
     //     0xa4d6dc: ldur            w1, [x2, #0x13]
     // 0xa4d6e0: DecompressPointer r1
     //     0xa4d6e0: add             x1, x1, HEAP, lsl #32
-    // 0xa4d6e4: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa4d6e4: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa4d6e4: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa4d6e4: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa4d6e8: stur            x0, [fp, #-0x48]
     // 0xa4d6ec: r0 = TextStyle()
     //     0xa4d6ec: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1104,7 +1104,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4d798: mov             x1, x0
     // 0xa4d79c: stur            x2, [fp, #-0x20]
     // 0xa4d7a0: r0 = _availableStyles()
-    //     0xa4d7a0: bl              #0x96a570  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_availableStyles
+    //     0xa4d7a0: bl              #0x96a570  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_availableStyles
     // 0xa4d7a4: r1 = LoadClassIdInstr(r0)
     //     0xa4d7a4: ldur            x1, [x0, #-1]
     //     0xa4d7a8: ubfx            x1, x1, #0xc, #0x14
@@ -1120,13 +1120,13 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4d7c8: ldur            x2, [fp, #-8]
     // 0xa4d7cc: stur            x5, [fp, #-0x30]
     // 0xa4d7d0: r1 = Function '_onStylePageChanged@1168140465':.
-    //     0xa4d7d0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43fd8] AnonymousClosure: (0xa50b74), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onStylePageChanged (0xa50bb0)
+    //     0xa4d7d0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43fd8] AnonymousClosure: (0xa50b74), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onStylePageChanged (0xa50bb0)
     //     0xa4d7d4: ldr             x1, [x1, #0xfd8]
     // 0xa4d7d8: r0 = AllocateClosure()
     //     0xa4d7d8: bl              #0xe553e0  ; AllocateClosureStub
     // 0xa4d7dc: ldur            x2, [fp, #-0x18]
     // 0xa4d7e0: r1 = Function '<anonymous closure>':.
-    //     0xa4d7e0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43fe0] AnonymousClosure: (0xa503a4), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::build (0xa4d4e8)
+    //     0xa4d7e0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43fe0] AnonymousClosure: (0xa503a4), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::build (0xa4d4e8)
     //     0xa4d7e4: ldr             x1, [x1, #0xfe0]
     // 0xa4d7e8: stur            x0, [fp, #-0x38]
     // 0xa4d7ec: r0 = AllocateClosure()
@@ -1170,7 +1170,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4d850: stur            w0, [x2, #0xb]
     // 0xa4d854: ldur            x1, [fp, #-8]
     // 0xa4d858: r0 = _availableStyles()
-    //     0xa4d858: bl              #0x96a570  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_availableStyles
+    //     0xa4d858: bl              #0x96a570  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_availableStyles
     // 0xa4d85c: mov             x3, x0
     // 0xa4d860: ldur            x2, [fp, #-8]
     // 0xa4d864: LoadField: r4 = r2->field_33
@@ -1194,7 +1194,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4d89c: ldur            x1, [fp, #-8]
     // 0xa4d8a0: mov             x2, x0
     // 0xa4d8a4: r0 = _isStyleLocked()
-    //     0xa4d8a4: bl              #0xa4e898  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_isStyleLocked
+    //     0xa4d8a4: bl              #0xa4e898  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_isStyleLocked
     // 0xa4d8a8: tbnz            w0, #4, #0xa4dba4
     // 0xa4d8ac: ldur            x1, [fp, #-0x20]
     // 0xa4d8b0: r0 = Radius()
@@ -1284,11 +1284,11 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4d988: stur            x2, [fp, #-0x38]
     // 0xa4d98c: StoreField: r2->field_13 = r0
     //     0xa4d98c: stur            w0, [x2, #0x13]
-    // 0xa4d990: r1 = "Ball AI Pro"
-    //     0xa4d990: add             x1, PP, #0x43, lsl #12  ; [pp+0x43fe8] "Ball AI Pro"
+    // 0xa4d990: r1 = "Kourt AI Pro"
+    //     0xa4d990: add             x1, PP, #0x43, lsl #12  ; [pp+0x43fe8] "Kourt AI Pro"
     //     0xa4d994: ldr             x1, [x1, #0xfe8]
     // 0xa4d998: r0 = L()
-    //     0xa4d998: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa4d998: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa4d99c: stur            x0, [fp, #-0x58]
     // 0xa4d9a0: r16 = 0.920000
     //     0xa4d9a0: add             x16, PP, #0x41, lsl #12  ; [pp+0x412d8] 0.92
@@ -1749,7 +1749,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4de50: stur            w0, [x2, #0xb]
     // 0xa4de54: ldur            x1, [fp, #-8]
     // 0xa4de58: r0 = _availableStyles()
-    //     0xa4de58: bl              #0x96a570  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_availableStyles
+    //     0xa4de58: bl              #0x96a570  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_availableStyles
     // 0xa4de5c: r1 = LoadClassIdInstr(r0)
     //     0xa4de5c: ldur            x1, [x0, #-1]
     //     0xa4de60: ubfx            x1, x1, #0xc, #0x14
@@ -1767,7 +1767,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4de88: ldur            x0, [fp, #-8]
     // 0xa4de8c: mov             x1, x0
     // 0xa4de90: r0 = _availableStyles()
-    //     0xa4de90: bl              #0x96a570  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_availableStyles
+    //     0xa4de90: bl              #0x96a570  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_availableStyles
     // 0xa4de94: r1 = LoadClassIdInstr(r0)
     //     0xa4de94: ldur            x1, [x0, #-1]
     //     0xa4de98: ubfx            x1, x1, #0xc, #0x14
@@ -1821,7 +1821,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4df18: cmp             w1, w16
     // 0xa4df1c: b.eq            #0xa4e69c
     // 0xa4df20: r0 = availableStyles()
-    //     0xa4df20: bl              #0x96a5ec  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::availableStyles
+    //     0xa4df20: bl              #0x96a5ec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::availableStyles
     // 0xa4df24: LoadField: r1 = r0->field_b
     //     0xa4df24: ldur            w1, [x0, #0xb]
     // 0xa4df28: cbnz            w1, #0xa4df38
@@ -1835,7 +1835,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4df40: DecompressPointer r1
     //     0xa4df40: add             x1, x1, HEAP, lsl #32
     // 0xa4df44: r0 = availableStyles()
-    //     0xa4df44: bl              #0x96a5ec  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::availableStyles
+    //     0xa4df44: bl              #0x96a5ec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::availableStyles
     // 0xa4df48: ldur            x1, [fp, #-0x70]
     // 0xa4df4c: r2 = LoadClassIdInstr(r0)
     //     0xa4df4c: ldur            x2, [x0, #-1]
@@ -1858,7 +1858,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4df84: DecompressPointer r1
     //     0xa4df84: add             x1, x1, HEAP, lsl #32
     // 0xa4df88: r0 = availableStyles()
-    //     0xa4df88: bl              #0x96a5ec  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::availableStyles
+    //     0xa4df88: bl              #0x96a5ec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::availableStyles
     // 0xa4df8c: LoadField: r1 = r0->field_b
     //     0xa4df8c: ldur            w1, [x0, #0xb]
     // 0xa4df90: cbnz            w1, #0xa4dfa0
@@ -1872,7 +1872,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4dfa8: DecompressPointer r1
     //     0xa4dfa8: add             x1, x1, HEAP, lsl #32
     // 0xa4dfac: r0 = availableStyles()
-    //     0xa4dfac: bl              #0x96a5ec  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::availableStyles
+    //     0xa4dfac: bl              #0x96a5ec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/share_workout_card_view.dart] ShareWorkoutCardData::availableStyles
     // 0xa4dfb0: mov             x3, x0
     // 0xa4dfb4: ldur            x2, [fp, #-0x70]
     // 0xa4dfb8: r0 = BoxInt64Instr(r2)
@@ -1894,7 +1894,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4dfec: blr             lr
     // 0xa4dff0: stur            x0, [fp, #-0x58]
     // 0xa4dff4: r0 = userHasActiveSubscription()
-    //     0xa4dff4: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0xa4dff4: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0xa4dff8: tbz             w0, #4, #0xa4e02c
     // 0xa4dffc: ldur            x0, [fp, #-0x58]
     // 0xa4e000: r16 = Instance_ShareWorkoutCardStyle
@@ -2006,11 +2006,11 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4e124: stur            w16, [x3, #0xf]
     // 0xa4e128: ldur            x1, [fp, #-8]
     // 0xa4e12c: r0 = _isCurrentStyleLocked()
-    //     0xa4e12c: bl              #0xa4e838  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_isCurrentStyleLocked
+    //     0xa4e12c: bl              #0xa4e838  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_isCurrentStyleLocked
     // 0xa4e130: tbnz            w0, #4, #0xa4e31c
     // 0xa4e134: ldur            x1, [fp, #-8]
     // 0xa4e138: r0 = _selectedStyle()
-    //     0xa4e138: bl              #0x96ea18  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_selectedStyle
+    //     0xa4e138: bl              #0x96ea18  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_selectedStyle
     // 0xa4e13c: LoadField: r1 = r0->field_7
     //     0xa4e13c: ldur            x1, [x0, #7]
     // 0xa4e140: cmp             x1, #3
@@ -2078,11 +2078,11 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4e1fc: StoreField: r1->field_b = r0
     //     0xa4e1fc: stur            w0, [x1, #0xb]
     // 0xa4e200: mov             x2, x1
-    // 0xa4e204: r1 = "Unlock Ball AI Pro to use %@ share card."
-    //     0xa4e204: add             x1, PP, #0x44, lsl #12  ; [pp+0x44048] "Unlock Ball AI Pro to use %@ share card."
+    // 0xa4e204: r1 = "Unlock Kourt AI Pro to use %@ share card."
+    //     0xa4e204: add             x1, PP, #0x44, lsl #12  ; [pp+0x44048] "Unlock Kourt AI Pro to use %@ share card."
     //     0xa4e208: ldr             x1, [x1, #0x48]
     // 0xa4e20c: r0 = LF()
-    //     0xa4e20c: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xa4e20c: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xa4e210: stur            x0, [fp, #-0x38]
     // 0xa4e214: r0 = Text()
     //     0xa4e214: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2100,11 +2100,11 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4e234: ldr             x0, [PP, #0x47a8]  ; [pp+0x47a8] Obj!TextAlign@d3c101
     // 0xa4e238: StoreField: r2->field_1b = r0
     //     0xa4e238: stur            w0, [x2, #0x1b]
-    // 0xa4e23c: r1 = "Unlock Ball AI Pro"
-    //     0xa4e23c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cd10] "Unlock Ball AI Pro"
+    // 0xa4e23c: r1 = "Unlock Kourt AI Pro"
+    //     0xa4e23c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cd10] "Unlock Kourt AI Pro"
     //     0xa4e240: ldr             x1, [x1, #0xd10]
     // 0xa4e244: r0 = L()
-    //     0xa4e244: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa4e244: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa4e248: stur            x0, [fp, #-0x38]
     // 0xa4e24c: r0 = Text()
     //     0xa4e24c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2128,7 +2128,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4e280: bl              #0x657de4  ; [package:flutter/src/material/filled_button.dart] FilledButton::styleFrom
     // 0xa4e284: ldur            x2, [fp, #-0x18]
     // 0xa4e288: r1 = Function '<anonymous closure>':.
-    //     0xa4e288: add             x1, PP, #0x44, lsl #12  ; [pp+0x44058] AnonymousClosure: (0xa502f8), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::build (0xa4d4e8)
+    //     0xa4e288: add             x1, PP, #0x44, lsl #12  ; [pp+0x44058] AnonymousClosure: (0xa502f8), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::build (0xa4d4e8)
     //     0xa4e28c: ldr             x1, [x1, #0x58]
     // 0xa4e290: stur            x0, [fp, #-0x28]
     // 0xa4e294: r0 = AllocateClosure()
@@ -2185,7 +2185,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4e31c: ldur            x0, [fp, #-8]
     // 0xa4e320: mov             x2, x0
     // 0xa4e324: r1 = Function '_onChooseBackground@1168140465':.
-    //     0xa4e324: add             x1, PP, #0x44, lsl #12  ; [pp+0x44068] AnonymousClosure: (0x96a1f0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onChooseBackground (0x9693b0)
+    //     0xa4e324: add             x1, PP, #0x44, lsl #12  ; [pp+0x44068] AnonymousClosure: (0x96a1f0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onChooseBackground (0x9693b0)
     //     0xa4e328: ldr             x1, [x1, #0x68]
     // 0xa4e32c: r0 = AllocateClosure()
     //     0xa4e32c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2199,7 +2199,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4e344: stur            w0, [x3, #0xb]
     // 0xa4e348: ldur            x2, [fp, #-0x18]
     // 0xa4e34c: r1 = Function '<anonymous closure>':.
-    //     0xa4e34c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44070] AnonymousClosure: (0xa4fe94), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::build (0xa4d4e8)
+    //     0xa4e34c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44070] AnonymousClosure: (0xa4fe94), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::build (0xa4d4e8)
     //     0xa4e350: ldr             x1, [x1, #0x70]
     // 0xa4e354: r0 = AllocateClosure()
     //     0xa4e354: bl              #0xe553e0  ; AllocateClosureStub
@@ -2245,7 +2245,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4e3c0: stur            w0, [x3, #0xb]
     // 0xa4e3c4: ldur            x2, [fp, #-8]
     // 0xa4e3c8: r1 = Function '_onSavePressed@1168140465':.
-    //     0xa4e3c8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44078] AnonymousClosure: (0xa4f5a0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onSavePressed (0xa4f5d8)
+    //     0xa4e3c8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44078] AnonymousClosure: (0xa4f5a0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onSavePressed (0xa4f5d8)
     //     0xa4e3cc: ldr             x1, [x1, #0x78]
     // 0xa4e3d0: r0 = AllocateClosure()
     //     0xa4e3d0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2255,7 +2255,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4e3dc: stur            w1, [x0, #0xf]
     // 0xa4e3e0: ldur            x2, [fp, #-8]
     // 0xa4e3e4: r1 = Function '_onVideoLinkPressed@1168140465':.
-    //     0xa4e3e4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44080] AnonymousClosure: (0xa4f46c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onVideoLinkPressed (0xa4f4a4)
+    //     0xa4e3e4: add             x1, PP, #0x44, lsl #12  ; [pp+0x44080] AnonymousClosure: (0xa4f46c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onVideoLinkPressed (0xa4f4a4)
     //     0xa4e3e8: ldr             x1, [x1, #0x80]
     // 0xa4e3ec: r0 = AllocateClosure()
     //     0xa4e3ec: bl              #0xe553e0  ; AllocateClosureStub
@@ -2265,7 +2265,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4e3f8: stur            w1, [x0, #0x13]
     // 0xa4e3fc: ldur            x2, [fp, #-8]
     // 0xa4e400: r1 = Function '_onSharePressed@1168140465':.
-    //     0xa4e400: add             x1, PP, #0x44, lsl #12  ; [pp+0x44088] AnonymousClosure: (0xa4e8f8), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onSharePressed (0xa4e930)
+    //     0xa4e400: add             x1, PP, #0x44, lsl #12  ; [pp+0x44088] AnonymousClosure: (0xa4e8f8), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onSharePressed (0xa4e930)
     //     0xa4e404: ldr             x1, [x1, #0x88]
     // 0xa4e408: r0 = AllocateClosure()
     //     0xa4e408: bl              #0xe553e0  ; AllocateClosureStub
@@ -2561,11 +2561,11 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4e854: b.ls            #0xa4e878
     // 0xa4e858: mov             x1, x0
     // 0xa4e85c: r0 = _selectedStyle()
-    //     0xa4e85c: bl              #0x96ea18  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_selectedStyle
+    //     0xa4e85c: bl              #0x96ea18  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_selectedStyle
     // 0xa4e860: ldur            x1, [fp, #-8]
     // 0xa4e864: mov             x2, x0
     // 0xa4e868: r0 = _isStyleLocked()
-    //     0xa4e868: bl              #0xa4e898  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_isStyleLocked
+    //     0xa4e868: bl              #0xa4e898  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_isStyleLocked
     // 0xa4e86c: LeaveFrame
     //     0xa4e86c: mov             SP, fp
     //     0xa4e870: ldp             fp, lr, [SP], #0x10
@@ -2589,7 +2589,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4e8ac: cmp             SP, x16
     //     0xa4e8b0: b.ls            #0xa4e8f0
     // 0xa4e8b4: r0 = userHasActiveSubscription()
-    //     0xa4e8b4: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0xa4e8b4: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0xa4e8b8: tbz             w0, #4, #0xa4e8e0
     // 0xa4e8bc: ldur            x1, [fp, #-8]
     // 0xa4e8c0: r16 = Instance_ShareWorkoutCardStyle
@@ -2629,7 +2629,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4e910: cmp             SP, x16
     //     0xa4e914: b.ls            #0xa4e928
     // 0xa4e918: r0 = _onSharePressed()
-    //     0xa4e918: bl              #0xa4e930  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onSharePressed
+    //     0xa4e918: bl              #0xa4e930  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onSharePressed
     // 0xa4e91c: LeaveFrame
     //     0xa4e91c: mov             SP, fp
     //     0xa4e920: ldp             fp, lr, [SP], #0x10
@@ -2667,7 +2667,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4e96c: bl              #0x60afc8  ; InitAsyncStub
     // 0xa4e970: ldur            x1, [fp, #-0x88]
     // 0xa4e974: r0 = _availableStyles()
-    //     0xa4e974: bl              #0x96a570  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_availableStyles
+    //     0xa4e974: bl              #0x96a570  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_availableStyles
     // 0xa4e978: mov             x3, x0
     // 0xa4e97c: ldur            x2, [fp, #-0x88]
     // 0xa4e980: LoadField: r4 = r2->field_33
@@ -2691,7 +2691,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4e9b8: ldur            x1, [fp, #-0x88]
     // 0xa4e9bc: mov             x2, x0
     // 0xa4e9c0: r0 = _isStyleLocked()
-    //     0xa4e9c0: bl              #0xa4e898  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_isStyleLocked
+    //     0xa4e9c0: bl              #0xa4e898  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_isStyleLocked
     // 0xa4e9c4: tbnz            w0, #4, #0xa4e9d0
     // 0xa4e9c8: r0 = Null
     //     0xa4e9c8: mov             x0, NULL
@@ -2701,7 +2701,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4e9d0: bl              #0x600ca8  ; [package:flutter/src/services/haptic_feedback.dart] HapticFeedback::lightImpact
     // 0xa4e9d4: ldur            x2, [fp, #-0x90]
     // 0xa4e9d8: r1 = Function '<anonymous closure>':.
-    //     0xa4e9d8: add             x1, PP, #0x44, lsl #12  ; [pp+0x440b0] AnonymousClosure: (0x65964c), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
+    //     0xa4e9d8: add             x1, PP, #0x44, lsl #12  ; [pp+0x440b0] AnonymousClosure: (0x65964c), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
     //     0xa4e9dc: ldr             x1, [x1, #0xb0]
     // 0xa4e9e0: r0 = AllocateClosure()
     //     0xa4e9e0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2711,7 +2711,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4e9ec: bl              #0x6005d4  ; [package:flutter/src/widgets/framework.dart] State::setState
     // 0xa4e9f0: ldur            x1, [fp, #-0x88]
     // 0xa4e9f4: r0 = _renderCardBytes()
-    //     0xa4e9f4: bl              #0xa4f344  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_renderCardBytes
+    //     0xa4e9f4: bl              #0xa4f344  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_renderCardBytes
     // 0xa4e9f8: mov             x1, x0
     // 0xa4e9fc: stur            x1, [fp, #-0x98]
     // 0xa4ea00: r0 = Await()
@@ -2726,8 +2726,8 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4ea18: mov             x2, #6
     // 0xa4ea1c: r0 = AllocateArray()
     //     0xa4ea1c: bl              #0xe560ac  ; AllocateArrayStub
-    // 0xa4ea20: r16 = "ball_ai_workout_"
-    //     0xa4ea20: add             x16, PP, #0x44, lsl #12  ; [pp+0x440b8] "ball_ai_workout_"
+    // 0xa4ea20: r16 = "kourt_ai_workout_"
+    //     0xa4ea20: add             x16, PP, #0x44, lsl #12  ; [pp+0x440b8] "kourt_ai_workout_"
     //     0xa4ea24: ldr             x16, [x16, #0xb8]
     // 0xa4ea28: StoreField: r0->field_f = r16
     //     0xa4ea28: stur            w16, [x0, #0xf]
@@ -2844,7 +2844,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4eb68: r4 = const [0, 0x1, 0, 0x1, null]
     //     0xa4eb68: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0xa4eb6c: r0 = _composedMessage()
-    //     0xa4eb6c: bl              #0xa4eef4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_composedMessage
+    //     0xa4eb6c: bl              #0xa4eef4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_composedMessage
     // 0xa4eb70: mov             x1, x0
     // 0xa4eb74: ldur            x0, [fp, #-0x88]
     // 0xa4eb78: LoadField: r2 = r0->field_b
@@ -2886,14 +2886,14 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4ebd4: add             x2, PP, #0x44, lsl #12  ; [pp+0x440c8] "Shared."
     //     0xa4ebd8: ldr             x2, [x2, #0xc8]
     // 0xa4ebdc: r0 = _showStatus()
-    //     0xa4ebdc: bl              #0x96948c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_showStatus
+    //     0xa4ebdc: bl              #0x96948c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_showStatus
     // 0xa4ebe0: b               #0xa4ec84
     // 0xa4ebe4: ldur            x0, [fp, #-0x88]
     // 0xa4ebe8: mov             x1, x0
     // 0xa4ebec: r4 = const [0, 0x1, 0, 0x1, null]
     //     0xa4ebec: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0xa4ebf0: r0 = _composedMessage()
-    //     0xa4ebf0: bl              #0xa4eef4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_composedMessage
+    //     0xa4ebf0: bl              #0xa4eef4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_composedMessage
     // 0xa4ebf4: mov             x1, x0
     // 0xa4ebf8: ldur            x0, [fp, #-0x88]
     // 0xa4ebfc: LoadField: r2 = r0->field_b
@@ -2946,7 +2946,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4ec78: ldur            x1, [fp, #-0x88]
     // 0xa4ec7c: mov             x2, x0
     // 0xa4ec80: r0 = _showStatus()
-    //     0xa4ec80: bl              #0x96948c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_showStatus
+    //     0xa4ec80: bl              #0x96948c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_showStatus
     // 0xa4ec84: ldur            x0, [fp, #-0x88]
     // 0xa4ec88: LoadField: r1 = r0->field_f
     //     0xa4ec88: ldur            w1, [x0, #0xf]
@@ -2956,7 +2956,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4ec94: b.eq            #0xa4ecb4
     // 0xa4ec98: ldur            x2, [fp, #-0x90]
     // 0xa4ec9c: r1 = Function '<anonymous closure>':.
-    //     0xa4ec9c: add             x1, PP, #0x44, lsl #12  ; [pp+0x440d8] AnonymousClosure: (0x659600), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
+    //     0xa4ec9c: add             x1, PP, #0x44, lsl #12  ; [pp+0x440d8] AnonymousClosure: (0x659600), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
     //     0xa4eca0: ldr             x1, [x1, #0xd8]
     // 0xa4eca4: r0 = AllocateClosure()
     //     0xa4eca4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2982,7 +2982,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4ece0: b.eq            #0xa4ed00
     // 0xa4ece4: ldur            x2, [fp, #-0x90]
     // 0xa4ece8: r1 = Function '<anonymous closure>':.
-    //     0xa4ece8: add             x1, PP, #0x44, lsl #12  ; [pp+0x440d8] AnonymousClosure: (0x659600), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
+    //     0xa4ece8: add             x1, PP, #0x44, lsl #12  ; [pp+0x440d8] AnonymousClosure: (0x659600), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
     //     0xa4ecec: ldr             x1, [x1, #0xd8]
     // 0xa4ecf0: r0 = AllocateClosure()
     //     0xa4ecf0: bl              #0xe553e0  ; AllocateClosureStub
@@ -3505,7 +3505,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4f484: cmp             SP, x16
     //     0xa4f488: b.ls            #0xa4f49c
     // 0xa4f48c: r0 = _onVideoLinkPressed()
-    //     0xa4f48c: bl              #0xa4f4a4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onVideoLinkPressed
+    //     0xa4f48c: bl              #0xa4f4a4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onVideoLinkPressed
     // 0xa4f490: LeaveFrame
     //     0xa4f490: mov             SP, fp
     //     0xa4f494: ldp             fp, lr, [SP], #0x10
@@ -3570,7 +3570,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4f528: add             x2, PP, #0x44, lsl #12  ; [pp+0x44118] "Video link copied."
     //     0xa4f52c: ldr             x2, [x2, #0x118]
     // 0xa4f530: r0 = _showStatus()
-    //     0xa4f530: bl              #0x96948c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_showStatus
+    //     0xa4f530: bl              #0x96948c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_showStatus
     // 0xa4f534: b               #0xa4f584
     // 0xa4f538: r16 = false
     //     0xa4f538: add             x16, NULL, #0x30  ; false
@@ -3580,7 +3580,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4f544: add             x4, PP, #0x44, lsl #12  ; [pp+0x44120] List(7) [0, 0x2, 0x1, 0x1, "includeUrl", 0x1, Null]
     //     0xa4f548: ldr             x4, [x4, #0x120]
     // 0xa4f54c: r0 = _composedMessage()
-    //     0xa4f54c: bl              #0xa4eef4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_composedMessage
+    //     0xa4f54c: bl              #0xa4eef4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_composedMessage
     // 0xa4f550: stur            x0, [fp, #-0x18]
     // 0xa4f554: r0 = ClipboardData()
     //     0xa4f554: bl              #0x8c0098  ; AllocateClipboardDataStub -> ClipboardData (size=0xc)
@@ -3599,7 +3599,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4f578: add             x2, PP, #0x44, lsl #12  ; [pp+0x44128] "Share text copied."
     //     0xa4f57c: ldr             x2, [x2, #0x128]
     // 0xa4f580: r0 = _showStatus()
-    //     0xa4f580: bl              #0x96948c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_showStatus
+    //     0xa4f580: bl              #0x96948c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_showStatus
     // 0xa4f584: r0 = Null
     //     0xa4f584: mov             x0, NULL
     // 0xa4f588: r0 = ReturnAsyncNotFuture()
@@ -3628,7 +3628,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4f5b8: cmp             SP, x16
     //     0xa4f5bc: b.ls            #0xa4f5d0
     // 0xa4f5c0: r0 = _onSavePressed()
-    //     0xa4f5c0: bl              #0xa4f5d8  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onSavePressed
+    //     0xa4f5c0: bl              #0xa4f5d8  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onSavePressed
     // 0xa4f5c4: LeaveFrame
     //     0xa4f5c4: mov             SP, fp
     //     0xa4f5c8: ldp             fp, lr, [SP], #0x10
@@ -3666,7 +3666,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4f614: bl              #0x60afc8  ; InitAsyncStub
     // 0xa4f618: ldur            x1, [fp, #-0x88]
     // 0xa4f61c: r0 = _availableStyles()
-    //     0xa4f61c: bl              #0x96a570  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_availableStyles
+    //     0xa4f61c: bl              #0x96a570  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_availableStyles
     // 0xa4f620: mov             x3, x0
     // 0xa4f624: ldur            x2, [fp, #-0x88]
     // 0xa4f628: LoadField: r4 = r2->field_33
@@ -3690,7 +3690,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4f660: ldur            x1, [fp, #-0x88]
     // 0xa4f664: mov             x2, x0
     // 0xa4f668: r0 = _isStyleLocked()
-    //     0xa4f668: bl              #0xa4e898  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_isStyleLocked
+    //     0xa4f668: bl              #0xa4e898  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_isStyleLocked
     // 0xa4f66c: tbnz            w0, #4, #0xa4f678
     // 0xa4f670: r0 = Null
     //     0xa4f670: mov             x0, NULL
@@ -3700,7 +3700,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4f678: bl              #0x600ca8  ; [package:flutter/src/services/haptic_feedback.dart] HapticFeedback::lightImpact
     // 0xa4f67c: ldur            x2, [fp, #-0x90]
     // 0xa4f680: r1 = Function '<anonymous closure>':.
-    //     0xa4f680: add             x1, PP, #0x44, lsl #12  ; [pp+0x44130] AnonymousClosure: (0x65964c), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
+    //     0xa4f680: add             x1, PP, #0x44, lsl #12  ; [pp+0x44130] AnonymousClosure: (0x65964c), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
     //     0xa4f684: ldr             x1, [x1, #0x130]
     // 0xa4f688: r0 = AllocateClosure()
     //     0xa4f688: bl              #0xe553e0  ; AllocateClosureStub
@@ -3710,7 +3710,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4f694: bl              #0x6005d4  ; [package:flutter/src/widgets/framework.dart] State::setState
     // 0xa4f698: ldur            x1, [fp, #-0x88]
     // 0xa4f69c: r0 = _renderCardBytes()
-    //     0xa4f69c: bl              #0xa4f344  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_renderCardBytes
+    //     0xa4f69c: bl              #0xa4f344  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_renderCardBytes
     // 0xa4f6a0: mov             x1, x0
     // 0xa4f6a4: stur            x1, [fp, #-0x98]
     // 0xa4f6a8: r0 = Await()
@@ -3723,7 +3723,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4f6bc: add             x2, PP, #0x44, lsl #12  ; [pp+0x44138] "Could not render card."
     //     0xa4f6c0: ldr             x2, [x2, #0x138]
     // 0xa4f6c4: r0 = _showStatus()
-    //     0xa4f6c4: bl              #0x96948c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_showStatus
+    //     0xa4f6c4: bl              #0x96948c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_showStatus
     // 0xa4f6c8: ldur            x0, [fp, #-0x88]
     // 0xa4f6cc: LoadField: r1 = r0->field_f
     //     0xa4f6cc: ldur            w1, [x0, #0xf]
@@ -3733,7 +3733,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4f6d8: b.eq            #0xa4f6f8
     // 0xa4f6dc: ldur            x2, [fp, #-0x90]
     // 0xa4f6e0: r1 = Function '<anonymous closure>':.
-    //     0xa4f6e0: add             x1, PP, #0x44, lsl #12  ; [pp+0x44140] AnonymousClosure: (0x659600), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
+    //     0xa4f6e0: add             x1, PP, #0x44, lsl #12  ; [pp+0x44140] AnonymousClosure: (0x659600), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
     //     0xa4f6e4: ldr             x1, [x1, #0x140]
     // 0xa4f6e8: r0 = AllocateClosure()
     //     0xa4f6e8: bl              #0xe553e0  ; AllocateClosureStub
@@ -3770,7 +3770,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4f73c: add             x2, PP, #0x44, lsl #12  ; [pp+0x44148] "Photo permission denied."
     //     0xa4f740: ldr             x2, [x2, #0x148]
     // 0xa4f744: r0 = _showStatus()
-    //     0xa4f744: bl              #0x96948c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_showStatus
+    //     0xa4f744: bl              #0x96948c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_showStatus
     // 0xa4f748: ldur            x0, [fp, #-0x88]
     // 0xa4f74c: LoadField: r1 = r0->field_f
     //     0xa4f74c: ldur            w1, [x0, #0xf]
@@ -3780,7 +3780,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4f758: b.eq            #0xa4f778
     // 0xa4f75c: ldur            x2, [fp, #-0x90]
     // 0xa4f760: r1 = Function '<anonymous closure>':.
-    //     0xa4f760: add             x1, PP, #0x44, lsl #12  ; [pp+0x44140] AnonymousClosure: (0x659600), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
+    //     0xa4f760: add             x1, PP, #0x44, lsl #12  ; [pp+0x44140] AnonymousClosure: (0x659600), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
     //     0xa4f764: ldr             x1, [x1, #0x140]
     // 0xa4f768: r0 = AllocateClosure()
     //     0xa4f768: bl              #0xe553e0  ; AllocateClosureStub
@@ -3799,8 +3799,8 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4f788: mov             x2, #4
     // 0xa4f78c: r0 = AllocateArray()
     //     0xa4f78c: bl              #0xe560ac  ; AllocateArrayStub
-    // 0xa4f790: r16 = "ball_ai_workout_"
-    //     0xa4f790: add             x16, PP, #0x44, lsl #12  ; [pp+0x440b8] "ball_ai_workout_"
+    // 0xa4f790: r16 = "kourt_ai_workout_"
+    //     0xa4f790: add             x16, PP, #0x44, lsl #12  ; [pp+0x440b8] "kourt_ai_workout_"
     //     0xa4f794: ldr             x16, [x16, #0xb8]
     // 0xa4f798: StoreField: r0->field_f = r16
     //     0xa4f798: stur            w16, [x0, #0xf]
@@ -3838,7 +3838,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4f7ec: add             x2, PP, #0x42, lsl #12  ; [pp+0x42b58] "Card saved to Photos."
     //     0xa4f7f0: ldr             x2, [x2, #0xb58]
     // 0xa4f7f4: r0 = _showStatus()
-    //     0xa4f7f4: bl              #0x96948c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_showStatus
+    //     0xa4f7f4: bl              #0x96948c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_showStatus
     // 0xa4f7f8: b               #0xa4f844
     // 0xa4f7fc: sub             SP, fp, #0xb8
     // 0xa4f800: mov             x3, x0
@@ -3865,7 +3865,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4f838: ldur            x1, [fp, #-0x88]
     // 0xa4f83c: mov             x2, x0
     // 0xa4f840: r0 = _showStatus()
-    //     0xa4f840: bl              #0x96948c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_showStatus
+    //     0xa4f840: bl              #0x96948c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_showStatus
     // 0xa4f844: ldur            x0, [fp, #-0x88]
     // 0xa4f848: LoadField: r1 = r0->field_f
     //     0xa4f848: ldur            w1, [x0, #0xf]
@@ -3875,7 +3875,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4f854: b.eq            #0xa4f874
     // 0xa4f858: ldur            x2, [fp, #-0x90]
     // 0xa4f85c: r1 = Function '<anonymous closure>':.
-    //     0xa4f85c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44140] AnonymousClosure: (0x659600), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
+    //     0xa4f85c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44140] AnonymousClosure: (0x659600), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
     //     0xa4f860: ldr             x1, [x1, #0x140]
     // 0xa4f864: r0 = AllocateClosure()
     //     0xa4f864: bl              #0xe553e0  ; AllocateClosureStub
@@ -3901,7 +3901,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4f8a0: b.eq            #0xa4f8c0
     // 0xa4f8a4: ldur            x2, [fp, #-0x90]
     // 0xa4f8a8: r1 = Function '<anonymous closure>':.
-    //     0xa4f8a8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44140] AnonymousClosure: (0x659600), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
+    //     0xa4f8a8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44140] AnonymousClosure: (0x659600), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
     //     0xa4f8ac: ldr             x1, [x1, #0x140]
     // 0xa4f8b0: r0 = AllocateClosure()
     //     0xa4f8b0: bl              #0xe553e0  ; AllocateClosureStub
@@ -3941,7 +3941,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4febc: mov             x1, x0
     // 0xa4fec0: ldr             x2, [fp, #0x10]
     // 0xa4fec4: r0 = _shareToSocial()
-    //     0xa4fec4: bl              #0xa4fedc  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_shareToSocial
+    //     0xa4fec4: bl              #0xa4fedc  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_shareToSocial
     // 0xa4fec8: LeaveFrame
     //     0xa4fec8: mov             SP, fp
     //     0xa4fecc: ldp             fp, lr, [SP], #0x10
@@ -3980,7 +3980,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4ff1c: bl              #0x60afc8  ; InitAsyncStub
     // 0xa4ff20: ldur            x1, [fp, #-0xa0]
     // 0xa4ff24: r0 = _availableStyles()
-    //     0xa4ff24: bl              #0x96a570  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_availableStyles
+    //     0xa4ff24: bl              #0x96a570  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_availableStyles
     // 0xa4ff28: mov             x3, x0
     // 0xa4ff2c: ldur            x2, [fp, #-0xa0]
     // 0xa4ff30: LoadField: r4 = r2->field_33
@@ -4004,7 +4004,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4ff68: ldur            x1, [fp, #-0xa0]
     // 0xa4ff6c: mov             x2, x0
     // 0xa4ff70: r0 = _isStyleLocked()
-    //     0xa4ff70: bl              #0xa4e898  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_isStyleLocked
+    //     0xa4ff70: bl              #0xa4e898  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_isStyleLocked
     // 0xa4ff74: tbnz            w0, #4, #0xa4ff80
     // 0xa4ff78: r0 = Null
     //     0xa4ff78: mov             x0, NULL
@@ -4014,7 +4014,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4ff80: bl              #0x600ca8  ; [package:flutter/src/services/haptic_feedback.dart] HapticFeedback::lightImpact
     // 0xa4ff84: ldur            x2, [fp, #-0xb0]
     // 0xa4ff88: r1 = Function '<anonymous closure>':.
-    //     0xa4ff88: add             x1, PP, #0x44, lsl #12  ; [pp+0x44158] AnonymousClosure: (0x65964c), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
+    //     0xa4ff88: add             x1, PP, #0x44, lsl #12  ; [pp+0x44158] AnonymousClosure: (0x65964c), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
     //     0xa4ff8c: ldr             x1, [x1, #0x158]
     // 0xa4ff90: r0 = AllocateClosure()
     //     0xa4ff90: bl              #0xe553e0  ; AllocateClosureStub
@@ -4024,7 +4024,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa4ff9c: bl              #0x6005d4  ; [package:flutter/src/widgets/framework.dart] State::setState
     // 0xa4ffa0: ldur            x1, [fp, #-0xa0]
     // 0xa4ffa4: r0 = _renderCardBytes()
-    //     0xa4ffa4: bl              #0xa4f344  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_renderCardBytes
+    //     0xa4ffa4: bl              #0xa4f344  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_renderCardBytes
     // 0xa4ffa8: mov             x1, x0
     // 0xa4ffac: stur            x1, [fp, #-0xb8]
     // 0xa4ffb0: r0 = Await()
@@ -4034,7 +4034,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa4ffbc: r4 = const [0, 0x1, 0, 0x1, null]
     //     0xa4ffbc: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0xa4ffc0: r0 = _composedMessage()
-    //     0xa4ffc0: bl              #0xa4eef4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_composedMessage
+    //     0xa4ffc0: bl              #0xa4eef4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_composedMessage
     // 0xa4ffc4: stur            x0, [fp, #-0xc0]
     // 0xa4ffc8: r16 = "instagram"
     //     0xa4ffc8: add             x16, PP, #0x1a, lsl #12  ; [pp+0x1a840] "instagram"
@@ -4266,7 +4266,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa50258: ldur            x1, [fp, #-0xa0]
     // 0xa5025c: mov             x2, x0
     // 0xa50260: r0 = _showStatus()
-    //     0xa50260: bl              #0x96948c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_showStatus
+    //     0xa50260: bl              #0x96948c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_showStatus
     // 0xa50264: ldur            x0, [fp, #-0xa0]
     // 0xa50268: LoadField: r1 = r0->field_f
     //     0xa50268: ldur            w1, [x0, #0xf]
@@ -4276,7 +4276,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa50274: b.eq            #0xa50294
     // 0xa50278: ldur            x2, [fp, #-0xb0]
     // 0xa5027c: r1 = Function '<anonymous closure>':.
-    //     0xa5027c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44180] AnonymousClosure: (0x659600), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
+    //     0xa5027c: add             x1, PP, #0x44, lsl #12  ; [pp+0x44180] AnonymousClosure: (0x659600), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
     //     0xa50280: ldr             x1, [x1, #0x180]
     // 0xa50284: r0 = AllocateClosure()
     //     0xa50284: bl              #0xe553e0  ; AllocateClosureStub
@@ -4302,7 +4302,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa502c0: b.eq            #0xa502e0
     // 0xa502c4: ldur            x2, [fp, #-0xb0]
     // 0xa502c8: r1 = Function '<anonymous closure>':.
-    //     0xa502c8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44180] AnonymousClosure: (0x659600), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
+    //     0xa502c8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44180] AnonymousClosure: (0x659600), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
     //     0xa502cc: ldr             x1, [x1, #0x180]
     // 0xa502d0: r0 = AllocateClosure()
     //     0xa502d0: bl              #0xe553e0  ; AllocateClosureStub
@@ -4344,7 +4344,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa5032c: r0 = of()
     //     0xa5032c: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa50330: r1 = Function '<anonymous closure>':.
-    //     0xa50330: add             x1, PP, #0x44, lsl #12  ; [pp+0x44198] AnonymousClosure: (0xa50398), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::build (0xa4d4e8)
+    //     0xa50330: add             x1, PP, #0x44, lsl #12  ; [pp+0x44198] AnonymousClosure: (0xa50398), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::build (0xa4d4e8)
     //     0xa50334: ldr             x1, [x1, #0x198]
     // 0xa50338: r2 = Null
     //     0xa50338: mov             x2, NULL
@@ -4413,7 +4413,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa503d0: DecompressPointer r1
     //     0xa503d0: add             x1, x1, HEAP, lsl #32
     // 0xa503d4: r0 = _availableStyles()
-    //     0xa503d4: bl              #0x96a570  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_availableStyles
+    //     0xa503d4: bl              #0x96a570  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_availableStyles
     // 0xa503d8: r1 = LoadClassIdInstr(r0)
     //     0xa503d8: ldur            x1, [x0, #-1]
     //     0xa503dc: ubfx            x1, x1, #0xc, #0x14
@@ -4694,7 +4694,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa506b8: r0 = Image()
     //     0xa506b8: bl              #0x9d20b4  ; AllocateImageStub -> Image (size=0x58)
     // 0xa506bc: r1 = Function '<anonymous closure>':.
-    //     0xa506bc: add             x1, PP, #0x44, lsl #12  ; [pp+0x441b0] AnonymousClosure: (0xdba9c4), in [package:ballai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _RewardCard::build (0xbe169c)
+    //     0xa506bc: add             x1, PP, #0x44, lsl #12  ; [pp+0x441b0] AnonymousClosure: (0xdba9c4), in [package:kourtai/automatic/views/home/tab/tabs/summary/streak/streak_journey_view.dart] _RewardCard::build (0xbe169c)
     //     0xa506c0: ldr             x1, [x1, #0x1b0]
     // 0xa506c4: r2 = Null
     //     0xa506c4: mov             x2, NULL
@@ -4941,7 +4941,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa50b90: b.ls            #0xa50ba8
     // 0xa50b94: ldr             x2, [fp, #0x10]
     // 0xa50b98: r0 = _onStylePageChanged()
-    //     0xa50b98: bl              #0xa50bb0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onStylePageChanged
+    //     0xa50b98: bl              #0xa50bb0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onStylePageChanged
     // 0xa50b9c: LeaveFrame
     //     0xa50b9c: mov             SP, fp
     //     0xa50ba0: ldp             fp, lr, [SP], #0x10
@@ -4978,7 +4978,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xa50be8: stur            w2, [x1, #0x13]
     // 0xa50bec: mov             x2, x1
     // 0xa50bf0: r1 = Function '<anonymous closure>':.
-    //     0xa50bf0: add             x1, PP, #0x44, lsl #12  ; [pp+0x441c0] AnonymousClosure: (0xa50c20), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onStylePageChanged (0xa50bb0)
+    //     0xa50bf0: add             x1, PP, #0x44, lsl #12  ; [pp+0x441c0] AnonymousClosure: (0xa50c20), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onStylePageChanged (0xa50bb0)
     //     0xa50bf4: ldr             x1, [x1, #0x1c0]
     // 0xa50bf8: r0 = AllocateClosure()
     //     0xa50bf8: bl              #0xe553e0  ; AllocateClosureStub
@@ -5110,7 +5110,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xa50d28: b.eq            #0xa50d4c
     // 0xa50d2c: mov             x1, x0
     // 0xa50d30: r0 = clearError()
-    //     0xa50d30: bl              #0xa50d58  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/workout_share_state.dart] WorkoutShareState::clearError
+    //     0xa50d30: bl              #0xa50d58  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/workout_share_state.dart] WorkoutShareState::clearError
     // 0xa50d34: r0 = Null
     //     0xa50d34: mov             x0, NULL
     // 0xa50d38: LeaveFrame
@@ -5134,7 +5134,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xb5b590: mov             fp, SP
     // 0xb5b594: ldr             x2, [fp, #0x10]
     // 0xb5b598: r1 = Function 'dispose':.
-    //     0xb5b598: add             x1, PP, #0x43, lsl #12  ; [pp+0x43fa8] AnonymousClosure: (0xb5b5b0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::dispose (0xb624f4)
+    //     0xb5b598: add             x1, PP, #0x43, lsl #12  ; [pp+0x43fa8] AnonymousClosure: (0xb5b5b0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::dispose (0xb624f4)
     //     0xb5b59c: ldr             x1, [x1, #0xfa8]
     // 0xb5b5a0: r0 = AllocateClosure()
     //     0xb5b5a0: bl              #0xe553e0  ; AllocateClosureStub
@@ -5159,7 +5159,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xb5b5c8: cmp             SP, x16
     //     0xb5b5cc: b.ls            #0xb5b5e0
     // 0xb5b5d0: r0 = dispose()
-    //     0xb5b5d0: bl              #0xb624f4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::dispose
+    //     0xb5b5d0: bl              #0xb624f4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::dispose
     // 0xb5b5d4: LeaveFrame
     //     0xb5b5d4: mov             SP, fp
     //     0xb5b5d8: ldp             fp, lr, [SP], #0x10
@@ -5194,7 +5194,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xb62528: mov             x2, x0
     // 0xb6252c: stur            x3, [fp, #-8]
     // 0xb62530: r1 = Function '_onShareChanged@1168140465':.
-    //     0xb62530: add             x1, PP, #0x44, lsl #12  ; [pp+0x441f8] AnonymousClosure: (0x96ebc0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onShareChanged (0x96ebf8)
+    //     0xb62530: add             x1, PP, #0x44, lsl #12  ; [pp+0x441f8] AnonymousClosure: (0x96ebc0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_onShareChanged (0x96ebf8)
     //     0xb62534: ldr             x1, [x1, #0x1f8]
     // 0xb62538: r0 = AllocateClosure()
     //     0xb62538: bl              #0xe553e0  ; AllocateClosureStub
@@ -5221,7 +5221,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xb62570: mov             x2, x0
     // 0xb62574: stur            x3, [fp, #-8]
     // 0xb62578: r1 = Function '_rebuildCardData@1168140465':.
-    //     0xb62578: add             x1, PP, #0x44, lsl #12  ; [pp+0x44200] AnonymousClosure: (0x96e934), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_rebuildCardData (0x96e96c)
+    //     0xb62578: add             x1, PP, #0x44, lsl #12  ; [pp+0x44200] AnonymousClosure: (0x96e934), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_rebuildCardData (0x96e96c)
     //     0xb6257c: ldr             x1, [x1, #0x200]
     // 0xb62580: r0 = AllocateClosure()
     //     0xb62580: bl              #0xe553e0  ; AllocateClosureStub
@@ -5235,7 +5235,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     // 0xb62598: DecompressPointer r1
     //     0xb62598: add             x1, x1, HEAP, lsl #32
     // 0xb6259c: r0 = dispose()
-    //     0xb6259c: bl              #0x9be57c  ; [package:ballai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::dispose
+    //     0xb6259c: bl              #0x9be57c  ; [package:kourtai/automatic/viewmodels/home/workout/workout_detail_data_view_model.dart] WorkoutDetailDataViewModel::dispose
     // 0xb625a0: ldur            x0, [fp, #-0x10]
     // 0xb625a4: LoadField: r1 = r0->field_23
     //     0xb625a4: ldur            w1, [x0, #0x23]
@@ -5245,7 +5245,7 @@ class _WorkoutShareComposerViewState extends __WorkoutShareComposerViewState&Sta
     //     0xb625ac: bl              #0x9bf870  ; [package:flutter/src/widgets/scroll_controller.dart] ScrollController::dispose
     // 0xb625b0: ldur            x1, [fp, #-0x10]
     // 0xb625b4: r0 = dispose()
-    //     0xb625b4: bl              #0xb63788  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
+    //     0xb625b4: bl              #0xb63788  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
     // 0xb625b8: r0 = Null
     //     0xb625b8: mov             x0, NULL
     // 0xb625bc: LeaveFrame
@@ -5371,7 +5371,7 @@ class WorkoutShareComposerView extends StatefulWidget {
     // 0xb73c4c: mov             x1, x0
     // 0xb73c50: stur            x0, [fp, #-8]
     // 0xb73c54: r0 = _WorkoutShareComposerViewState()
-    //     0xb73c54: bl              #0xb73c70  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_WorkoutShareComposerViewState
+    //     0xb73c54: bl              #0xb73c70  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _WorkoutShareComposerViewState::_WorkoutShareComposerViewState
     // 0xb73c58: ldur            x0, [fp, #-8]
     // 0xb73c5c: LeaveFrame
     //     0xb73c5c: mov             SP, fp
@@ -5407,7 +5407,7 @@ class _ActionTrio extends StatelessWidget {
     //     0xbf917c: add             x1, PP, #0x37, lsl #12  ; [pp+0x37450] "Save"
     //     0xbf9180: ldr             x1, [x1, #0x450]
     // 0xbf9184: r0 = L()
-    //     0xbf9184: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf9184: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf9188: mov             x1, x0
     // 0xbf918c: ldur            x0, [fp, #-8]
     // 0xbf9190: LoadField: r6 = r0->field_f
@@ -5421,7 +5421,7 @@ class _ActionTrio extends StatelessWidget {
     //     0xbf91a4: add             x3, PP, #0x49, lsl #12  ; [pp+0x49b58] Obj!IconData@d0e3c1
     //     0xbf91a8: ldr             x3, [x3, #0xb58]
     // 0xbf91ac: r0 = _btn()
-    //     0xbf91ac: bl              #0xbf9308  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _ActionTrio::_btn
+    //     0xbf91ac: bl              #0xbf9308  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _ActionTrio::_btn
     // 0xbf91b0: stur            x0, [fp, #-0x18]
     // 0xbf91b4: r0 = SizedBox()
     //     0xbf91b4: bl              #0x95e3c8  ; AllocateSizedBoxStub -> SizedBox (size=0x18)
@@ -5455,13 +5455,13 @@ class _ActionTrio extends StatelessWidget {
     //     0xbf9200: add             x3, PP, #0x42, lsl #12  ; [pp+0x428c8] Obj!IconData@d0dbe1
     //     0xbf9204: ldr             x3, [x3, #0x8c8]
     // 0xbf9208: r0 = _btn()
-    //     0xbf9208: bl              #0xbf9308  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _ActionTrio::_btn
+    //     0xbf9208: bl              #0xbf9308  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _ActionTrio::_btn
     // 0xbf920c: r1 = "Share"
     //     0xbf920c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27eb0] "Share"
     //     0xbf9210: ldr             x1, [x1, #0xeb0]
     // 0xbf9214: stur            x0, [fp, #-0x28]
     // 0xbf9218: r0 = L()
-    //     0xbf9218: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf9218: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf921c: ldur            x1, [fp, #-8]
     // 0xbf9220: ArrayLoad: r6 = r1[0]  ; List_4
     //     0xbf9220: ldur            w6, [x1, #0x17]
@@ -5473,7 +5473,7 @@ class _ActionTrio extends StatelessWidget {
     //     0xbf9230: add             x3, PP, #0x27, lsl #12  ; [pp+0x27eb8] Obj!IconData@d0db01
     //     0xbf9234: ldr             x3, [x3, #0xeb8]
     // 0xbf9238: r0 = _btn()
-    //     0xbf9238: bl              #0xbf9308  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _ActionTrio::_btn
+    //     0xbf9238: bl              #0xbf9308  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _ActionTrio::_btn
     // 0xbf923c: r1 = Null
     //     0xbf923c: mov             x1, NULL
     // 0xbf9240: r2 = 10
@@ -5578,8 +5578,8 @@ class _ActionTrio extends StatelessWidget {
     //     0xbf9334: cmp             SP, x16
     //     0xbf9338: b.ls            #0xbf9614
     // 0xbf933c: mov             x1, x0
-    // 0xbf9340: r0 = BallAiThemeContext.ballAiSelectionCardFill()
-    //     0xbf9340: bl              #0x9d464c  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSelectionCardFill
+    // 0xbf9340: r0 = KourtAiThemeContext.kourtAiSelectionCardFill()
+    //     0xbf9340: bl              #0x9d464c  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSelectionCardFill
     // 0xbf9344: stur            x0, [fp, #-0x30]
     // 0xbf9348: r0 = Radius()
     //     0xbf9348: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -5640,8 +5640,8 @@ class _ActionTrio extends StatelessWidget {
     // 0xbf93d8: StoreField: r2->field_13 = r0
     //     0xbf93d8: stur            w0, [x2, #0x13]
     // 0xbf93dc: ldur            x1, [fp, #-0x10]
-    // 0xbf93e0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbf93e0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbf93e0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbf93e0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbf93e4: stur            x0, [fp, #-0x28]
     // 0xbf93e8: r0 = Icon()
     //     0xbf93e8: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -5659,8 +5659,8 @@ class _ActionTrio extends StatelessWidget {
     // 0xbf940c: StoreField: r2->field_23 = r0
     //     0xbf940c: stur            w0, [x2, #0x23]
     // 0xbf9410: ldur            x1, [fp, #-0x10]
-    // 0xbf9414: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbf9414: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbf9414: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbf9414: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbf9418: stur            x0, [fp, #-0x10]
     // 0xbf941c: r0 = TextStyle()
     //     0xbf941c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -5901,7 +5901,7 @@ class _SocialRow extends StatelessWidget {
     // 0xbf8764: StoreField: r3->field_f = r0
     //     0xbf8764: stur            w0, [x3, #0xf]
     // 0xbf8768: r1 = Function 'brandedIcon':.
-    //     0xbf8768: add             x1, PP, #0x49, lsl #12  ; [pp+0x49b70] AnonymousClosure: (0xbf8f58), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _SocialRow::build (0xbf8730)
+    //     0xbf8768: add             x1, PP, #0x49, lsl #12  ; [pp+0x49b70] AnonymousClosure: (0xbf8f58), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _SocialRow::build (0xbf8730)
     //     0xbf876c: ldr             x1, [x1, #0xb70]
     // 0xbf8770: r2 = Null
     //     0xbf8770: mov             x2, NULL
@@ -6000,10 +6000,10 @@ class _SocialRow extends StatelessWidget {
     //     0xbf8860: add             x1, PP, #0x42, lsl #12  ; [pp+0x42868] "IG Story"
     //     0xbf8864: ldr             x1, [x1, #0x868]
     // 0xbf8868: r0 = L()
-    //     0xbf8868: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf8868: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf886c: ldur            x2, [fp, #-0x18]
     // 0xbf8870: r1 = Function '<anonymous closure>':.
-    //     0xbf8870: add             x1, PP, #0x49, lsl #12  ; [pp+0x49b88] AnonymousClosure: (0xbf8ef4), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _SocialRow::build (0xbf8730)
+    //     0xbf8870: add             x1, PP, #0x49, lsl #12  ; [pp+0x49b88] AnonymousClosure: (0xbf8ef4), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _SocialRow::build (0xbf8730)
     //     0xbf8874: ldr             x1, [x1, #0xb88]
     // 0xbf8878: stur            x0, [fp, #-0x28]
     // 0xbf887c: r0 = AllocateClosure()
@@ -6014,7 +6014,7 @@ class _SocialRow extends StatelessWidget {
     // 0xbf888c: ldur            x5, [fp, #-0x20]
     // 0xbf8890: ldur            x6, [fp, #-0x28]
     // 0xbf8894: r0 = _column()
-    //     0xbf8894: bl              #0xbf8c04  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _SocialRow::_column
+    //     0xbf8894: bl              #0xbf8c04  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _SocialRow::_column
     // 0xbf8898: stur            x0, [fp, #-0x20]
     // 0xbf889c: r0 = LinearGradient()
     //     0xbf889c: bl              #0x827e74  ; AllocateLinearGradientStub -> LinearGradient (size=0x20)
@@ -6106,10 +6106,10 @@ class _SocialRow extends StatelessWidget {
     //     0xbf897c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27ba8] "TikTok"
     //     0xbf8980: ldr             x1, [x1, #0xba8]
     // 0xbf8984: r0 = L()
-    //     0xbf8984: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf8984: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf8988: ldur            x2, [fp, #-0x18]
     // 0xbf898c: r1 = Function '<anonymous closure>':.
-    //     0xbf898c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49ba0] AnonymousClosure: (0xbf8e90), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _SocialRow::build (0xbf8730)
+    //     0xbf898c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49ba0] AnonymousClosure: (0xbf8e90), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _SocialRow::build (0xbf8730)
     //     0xbf8990: ldr             x1, [x1, #0xba0]
     // 0xbf8994: stur            x0, [fp, #-0x30]
     // 0xbf8998: r0 = AllocateClosure()
@@ -6120,7 +6120,7 @@ class _SocialRow extends StatelessWidget {
     // 0xbf89a8: ldur            x5, [fp, #-0x28]
     // 0xbf89ac: ldur            x6, [fp, #-0x30]
     // 0xbf89b0: r0 = _column()
-    //     0xbf89b0: bl              #0xbf8c04  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _SocialRow::_column
+    //     0xbf89b0: bl              #0xbf8c04  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _SocialRow::_column
     // 0xbf89b4: stur            x0, [fp, #-0x28]
     // 0xbf89b8: r0 = LinearGradient()
     //     0xbf89b8: bl              #0x827e74  ; AllocateLinearGradientStub -> LinearGradient (size=0x20)
@@ -6202,10 +6202,10 @@ class _SocialRow extends StatelessWidget {
     //     0xbf8a84: add             x1, PP, #0x27, lsl #12  ; [pp+0x27bc8] "Snapchat"
     //     0xbf8a88: ldr             x1, [x1, #0xbc8]
     // 0xbf8a8c: r0 = L()
-    //     0xbf8a8c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf8a8c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf8a90: ldur            x2, [fp, #-0x18]
     // 0xbf8a94: r1 = Function '<anonymous closure>':.
-    //     0xbf8a94: add             x1, PP, #0x49, lsl #12  ; [pp+0x49bb8] AnonymousClosure: (0xbf8e2c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _SocialRow::build (0xbf8730)
+    //     0xbf8a94: add             x1, PP, #0x49, lsl #12  ; [pp+0x49bb8] AnonymousClosure: (0xbf8e2c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _SocialRow::build (0xbf8730)
     //     0xbf8a98: ldr             x1, [x1, #0xbb8]
     // 0xbf8a9c: stur            x0, [fp, #-0x30]
     // 0xbf8aa0: r0 = AllocateClosure()
@@ -6216,7 +6216,7 @@ class _SocialRow extends StatelessWidget {
     // 0xbf8ab0: ldur            x5, [fp, #-0x38]
     // 0xbf8ab4: ldur            x6, [fp, #-0x30]
     // 0xbf8ab8: r0 = _column()
-    //     0xbf8ab8: bl              #0xbf8c04  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _SocialRow::_column
+    //     0xbf8ab8: bl              #0xbf8c04  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _SocialRow::_column
     // 0xbf8abc: stur            x0, [fp, #-0x30]
     // 0xbf8ac0: r0 = Container()
     //     0xbf8ac0: bl              #0x5ef73c  ; AllocateContainerStub -> Container (size=0x38)
@@ -6249,10 +6249,10 @@ class _SocialRow extends StatelessWidget {
     //     0xbf8b0c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27bc0] "Facebook"
     //     0xbf8b10: ldr             x1, [x1, #0xbc0]
     // 0xbf8b14: r0 = L()
-    //     0xbf8b14: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf8b14: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf8b18: ldur            x2, [fp, #-0x18]
     // 0xbf8b1c: r1 = Function '<anonymous closure>':.
-    //     0xbf8b1c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49bd0] AnonymousClosure: (0xbf8dc8), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _SocialRow::build (0xbf8730)
+    //     0xbf8b1c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49bd0] AnonymousClosure: (0xbf8dc8), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _SocialRow::build (0xbf8730)
     //     0xbf8b20: ldr             x1, [x1, #0xbd0]
     // 0xbf8b24: stur            x0, [fp, #-0x18]
     // 0xbf8b28: r0 = AllocateClosure()
@@ -6263,7 +6263,7 @@ class _SocialRow extends StatelessWidget {
     // 0xbf8b38: ldur            x5, [fp, #-0x38]
     // 0xbf8b3c: ldur            x6, [fp, #-0x18]
     // 0xbf8b40: r0 = _column()
-    //     0xbf8b40: bl              #0xbf8c04  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _SocialRow::_column
+    //     0xbf8b40: bl              #0xbf8c04  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _SocialRow::_column
     // 0xbf8b44: r1 = Null
     //     0xbf8b44: mov             x1, NULL
     // 0xbf8b48: r2 = 8
@@ -6376,8 +6376,8 @@ class _SocialRow extends StatelessWidget {
     // 0xbf8c54: StoreField: r2->field_b = r0
     //     0xbf8c54: stur            w0, [x2, #0xb]
     // 0xbf8c58: ldur            x1, [fp, #-8]
-    // 0xbf8c5c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbf8c5c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbf8c5c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbf8c5c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbf8c60: stur            x0, [fp, #-8]
     // 0xbf8c64: r0 = TextStyle()
     //     0xbf8c64: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -6982,7 +6982,7 @@ class _ChooseBackgroundPill extends StatelessWidget {
     //     0xbf8554: add             x1, PP, #0x42, lsl #12  ; [pp+0x42860] "Choose background"
     //     0xbf8558: ldr             x1, [x1, #0x860]
     // 0xbf855c: r0 = L()
-    //     0xbf855c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf855c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf8560: stur            x0, [fp, #-0x40]
     // 0xbf8564: r0 = TextStyle()
     //     0xbf8564: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -7204,7 +7204,7 @@ class _PageDots extends StatelessWidget {
     // 0xbf8128: mov             x2, x1
     // 0xbf812c: stur            x3, [fp, #-0x10]
     // 0xbf8130: r1 = Function '<anonymous closure>':.
-    //     0xbf8130: add             x1, PP, #0x49, lsl #12  ; [pp+0x49b40] AnonymousClosure: (0xbf82a0), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _PageDots::build (0xbf80f4)
+    //     0xbf8130: add             x1, PP, #0x49, lsl #12  ; [pp+0x49b40] AnonymousClosure: (0xbf82a0), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sharing/workout_share_composer_view.dart] _PageDots::build (0xbf80f4)
     //     0xbf8134: ldr             x1, [x1, #0xb40]
     // 0xbf8138: r0 = AllocateClosure()
     //     0xbf8138: bl              #0xe553e0  ; AllocateClosureStub

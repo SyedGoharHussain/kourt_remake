@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/workouts/sections/workoutdistribution/sections/workout_trends_line_chart_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/workouts/sections/workoutdistribution/sections/workout_trends_line_chart_view.dart
 
 // class id: 1048993, size: 0x8
 class :: {
@@ -40,10 +40,10 @@ class WorkoutTrendsLineChartView extends StatelessWidget {
     //     0xc0a074: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d500] "No workouts in this period yet."
     //     0xc0a078: ldr             x1, [x1, #0x500]
     // 0xc0a07c: r0 = L()
-    //     0xc0a07c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc0a07c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0a080: stur            x0, [fp, #-0x18]
-    // 0xc0a084: r0 = BallAiEmptyState()
-    //     0xc0a084: bl              #0xa63934  ; AllocateBallAiEmptyStateStub -> BallAiEmptyState (size=0x14)
+    // 0xc0a084: r0 = KourtAiEmptyState()
+    //     0xc0a084: bl              #0xa63934  ; AllocateKourtAiEmptyStateStub -> KourtAiEmptyState (size=0x14)
     // 0xc0a088: mov             x1, x0
     // 0xc0a08c: ldur            x0, [fp, #-0x18]
     // 0xc0a090: StoreField: r1->field_b = r0
@@ -234,7 +234,7 @@ class WorkoutTrendsLineChartView extends StatelessWidget {
     //     0xc0a2bc: bl              #0x7ac5ec  ; [dart:collection] ListBase::sort
     // 0xc0a2c0: ldur            x2, [fp, #-0x20]
     // 0xc0a2c4: r1 = Function '<anonymous closure>':.
-    //     0xc0a2c4: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d518] AnonymousClosure: (0xc0a3e8), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/workouts/sections/workoutdistribution/sections/workout_trends_line_chart_view.dart] WorkoutTrendsLineChartView::build (0xc0a02c)
+    //     0xc0a2c4: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d518] AnonymousClosure: (0xc0a3e8), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/workouts/sections/workoutdistribution/sections/workout_trends_line_chart_view.dart] WorkoutTrendsLineChartView::build (0xc0a02c)
     //     0xc0a2c8: ldr             x1, [x1, #0x518]
     // 0xc0a2cc: r0 = AllocateClosure()
     //     0xc0a2cc: bl              #0xe553e0  ; AllocateClosureStub
@@ -267,12 +267,12 @@ class WorkoutTrendsLineChartView extends StatelessWidget {
     // 0xc0a310: StoreField: r0->field_f = d0
     //     0xc0a310: stur            d0, [x0, #0xf]
     // 0xc0a314: ldur            x1, [fp, #-0x10]
-    // 0xc0a318: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc0a318: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc0a318: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc0a318: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc0a31c: ldur            x1, [fp, #-0x10]
     // 0xc0a320: stur            x0, [fp, #-0x20]
-    // 0xc0a324: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc0a324: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc0a324: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc0a324: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc0a328: r16 = 0.180000
     //     0xc0a328: add             x16, PP, #0x2d, lsl #12  ; [pp+0x2dde0] 0.18
     //     0xc0a32c: ldr             x16, [x16, #0xde0]
@@ -285,8 +285,8 @@ class WorkoutTrendsLineChartView extends StatelessWidget {
     //     0xc0a340: bl              #0xd9bb78  ; [dart:ui] Color::withValues
     // 0xc0a344: ldur            x1, [fp, #-0x10]
     // 0xc0a348: stur            x0, [fp, #-0x10]
-    // 0xc0a34c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc0a34c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc0a34c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc0a34c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc0a350: stur            x0, [fp, #-0x28]
     // 0xc0a354: r0 = _WorkoutLinePainter()
     //     0xc0a354: bl              #0xc0a3dc  ; Allocate_WorkoutLinePainterStub -> _WorkoutLinePainter (size=0x1c)
@@ -429,7 +429,7 @@ class _WorkoutLinePainter extends CustomPainter {
     //     0x8438dc: add             x5, x5, HEAP, lsl #32
     // 0x8438e0: stur            x5, [fp, #-8]
     // 0x8438e4: r1 = Function '<anonymous closure>':.
-    //     0x8438e4: add             x1, PP, #0x53, lsl #12  ; [pp+0x535f0] AnonymousClosure: (0x8428f0), in [package:ballai/automatic/views/home/tab/tabs/you/components/analytics_sections.dart] _AnalyticsWeeklyGoalsSectionState::build (0xa80718)
+    //     0x8438e4: add             x1, PP, #0x53, lsl #12  ; [pp+0x535f0] AnonymousClosure: (0x8428f0), in [package:kourtai/automatic/views/home/tab/tabs/you/components/analytics_sections.dart] _AnalyticsWeeklyGoalsSectionState::build (0xa80718)
     //     0x8438e8: ldr             x1, [x1, #0x5f0]
     // 0x8438ec: r2 = Null
     //     0x8438ec: mov             x2, NULL

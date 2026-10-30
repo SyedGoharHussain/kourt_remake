@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart
 
 // class id: 1048851, size: 0x8
 class :: {
@@ -30,7 +30,7 @@ class :: {
     //     0xa040e4: add             x0, x0, HEAP, lsl #32
     // 0xa040e8: stur            x0, [fp, #-0x10]
     // 0xa040ec: r1 = Function '<anonymous closure>': static.
-    //     0xa040ec: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dbc8] AnonymousClosure: static (0xa04140), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] ::showAccountSetupWeeklyGoalsEditor (0xa040b0)
+    //     0xa040ec: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dbc8] AnonymousClosure: static (0xa04140), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] ::showAccountSetupWeeklyGoalsEditor (0xa040b0)
     //     0xa040f0: ldr             x1, [x1, #0xbc8]
     // 0xa040f4: r2 = Null
     //     0xa040f4: mov             x2, NULL
@@ -255,7 +255,7 @@ class :: {
     // 0xa0a5a4: DecompressPointer r1
     //     0xa0a5a4: add             x1, x1, HEAP, lsl #32
     // 0xa0a5a8: r0 = L()
-    //     0xa0a5a8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa0a5a8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa0a5ac: r1 = Null
     //     0xa0a5ac: mov             x1, NULL
     // 0xa0a5b0: r2 = 6
@@ -456,7 +456,7 @@ class :: {
     // 0xa0a7d0: DecompressPointer r1
     //     0xa0a7d0: add             x1, x1, HEAP, lsl #32
     // 0xa0a7d4: r0 = L()
-    //     0xa0a7d4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa0a7d4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa0a7d8: ldur            x1, [fp, #-0x18]
     // 0xa0a7dc: ArrayStore: r1[2] = r0  ; List_4
     //     0xa0a7dc: add             x25, x1, #0x17
@@ -660,21 +660,21 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     //     0xa0966c: add             x1, PP, #0x29, lsl #12  ; [pp+0x29408] "Time"
     //     0xa09670: ldr             x1, [x1, #0x408]
     // 0xa09674: r0 = L()
-    //     0xa09674: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa09674: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa09678: mov             x4, x0
     // 0xa0967c: b               #0xa096a4
     // 0xa09680: r1 = "Shots"
     //     0xa09680: add             x1, PP, #0x11, lsl #12  ; [pp+0x11e80] "Shots"
     //     0xa09684: ldr             x1, [x1, #0xe80]
     // 0xa09688: r0 = L()
-    //     0xa09688: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa09688: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa0968c: mov             x4, x0
     // 0xa09690: b               #0xa096a4
     // 0xa09694: r1 = "Makes"
     //     0xa09694: add             x1, PP, #0x29, lsl #12  ; [pp+0x29418] "Makes"
     //     0xa09698: ldr             x1, [x1, #0x418]
     // 0xa0969c: r0 = L()
-    //     0xa0969c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa0969c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa096a0: mov             x4, x0
     // 0xa096a4: ldur            x2, [fp, #-8]
     // 0xa096a8: r3 = const [Instance of '_GoalMetric', Instance of '_GoalMetric', Instance of '_GoalMetric']
@@ -703,21 +703,21 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     //     0xa096e8: add             x1, PP, #0x35, lsl #12  ; [pp+0x351d0] "Hours"
     //     0xa096ec: ldr             x1, [x1, #0x1d0]
     // 0xa096f0: r0 = L()
-    //     0xa096f0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa096f0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa096f4: mov             x4, x0
     // 0xa096f8: b               #0xa09720
     // 0xa096fc: r1 = "Shots"
     //     0xa096fc: add             x1, PP, #0x11, lsl #12  ; [pp+0x11e80] "Shots"
     //     0xa09700: ldr             x1, [x1, #0xe80]
     // 0xa09704: r0 = L()
-    //     0xa09704: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa09704: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa09708: mov             x4, x0
     // 0xa0970c: b               #0xa09720
     // 0xa09710: r1 = "Makes"
     //     0xa09710: add             x1, PP, #0x29, lsl #12  ; [pp+0x29418] "Makes"
     //     0xa09714: ldr             x1, [x1, #0x418]
     // 0xa09718: r0 = L()
-    //     0xa09718: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa09718: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa0971c: mov             x4, x0
     // 0xa09720: ldur            x2, [fp, #-8]
     // 0xa09724: r3 = const [Instance of '_GoalMetric', Instance of '_GoalMetric', Instance of '_GoalMetric']
@@ -746,21 +746,21 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     //     0xa09764: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c2a8] "How long do you want to workout for this week\?"
     //     0xa09768: ldr             x1, [x1, #0x2a8]
     // 0xa0976c: r0 = L()
-    //     0xa0976c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa0976c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa09770: mov             x4, x0
     // 0xa09774: b               #0xa0979c
     // 0xa09778: r1 = "How many shots are we getting up this week\?"
     //     0xa09778: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c2c0] "How many shots are we getting up this week\?"
     //     0xa0977c: ldr             x1, [x1, #0x2c0]
     // 0xa09780: r0 = L()
-    //     0xa09780: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa09780: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa09784: mov             x4, x0
     // 0xa09788: b               #0xa0979c
     // 0xa0978c: r1 = "How many shots are we making this week\?"
     //     0xa0978c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c2c8] "How many shots are we making this week\?"
     //     0xa09790: ldr             x1, [x1, #0x2c8]
     // 0xa09794: r0 = L()
-    //     0xa09794: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa09794: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa09798: mov             x4, x0
     // 0xa0979c: ldur            x2, [fp, #-8]
     // 0xa097a0: r3 = const [Instance of '_GoalMetric', Instance of '_GoalMetric', Instance of '_GoalMetric']
@@ -953,8 +953,8 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     //     0xa099e4: ldur            w1, [x6, #0x13]
     // 0xa099e8: DecompressPointer r1
     //     0xa099e8: add             x1, x1, HEAP, lsl #32
-    // 0xa099ec: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa099ec: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa099ec: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa099ec: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa099f0: stur            x0, [fp, #-0x10]
     // 0xa099f4: r0 = Icon()
     //     0xa099f4: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -970,7 +970,7 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     //     0xa09a10: stur            w0, [x3, #0x23]
     // 0xa09a14: ldur            x2, [fp, #-0x18]
     // 0xa09a18: r1 = Function '<anonymous closure>':.
-    //     0xa09a18: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c3c8] AnonymousClosure: (0x9d4f50), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] _AccountSetupWeeklyGoalsEditorState::build (0xa095b0)
+    //     0xa09a18: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c3c8] AnonymousClosure: (0x9d4f50), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] _AccountSetupWeeklyGoalsEditorState::build (0xa095b0)
     //     0xa09a1c: ldr             x1, [x1, #0x3c8]
     // 0xa09a20: r0 = AllocateClosure()
     //     0xa09a20: bl              #0xe553e0  ; AllocateClosureStub
@@ -1072,15 +1072,15 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     // 0xa09b10: StoreField: r1->field_f = r0
     //     0xa09b10: stur            w0, [x1, #0xf]
     // 0xa09b14: r0 = _weekRangeLabel()
-    //     0xa09b14: bl              #0xa0a3b0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] ::_weekRangeLabel
+    //     0xa09b14: bl              #0xa0a3b0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] ::_weekRangeLabel
     // 0xa09b18: ldur            x2, [fp, #-0x18]
     // 0xa09b1c: stur            x0, [fp, #-0x10]
     // 0xa09b20: LoadField: r1 = r2->field_13
     //     0xa09b20: ldur            w1, [x2, #0x13]
     // 0xa09b24: DecompressPointer r1
     //     0xa09b24: add             x1, x1, HEAP, lsl #32
-    // 0xa09b28: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa09b28: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa09b28: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa09b28: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa09b2c: stur            x0, [fp, #-0x68]
     // 0xa09b30: r0 = TextStyle()
     //     0xa09b30: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1131,13 +1131,13 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     // 0xa09bb4: ArrayStore: r1[0] = r16  ; List_4
     //     0xa09bb4: stur            w16, [x1, #0x17]
     // 0xa09bb8: r0 = instance()
-    //     0xa09bb8: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0xa09bb8: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0xa09bbc: r1 = "Your weekly %@ goal"
     //     0xa09bbc: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c1f8] "Your weekly %@ goal"
     //     0xa09bc0: ldr             x1, [x1, #0x1f8]
     // 0xa09bc4: stur            x0, [fp, #-0x10]
     // 0xa09bc8: r0 = L()
-    //     0xa09bc8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa09bc8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa09bcc: r1 = Null
     //     0xa09bcc: mov             x1, NULL
     // 0xa09bd0: r2 = 2
@@ -1166,15 +1166,15 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     // 0xa09c0c: ldur            x1, [fp, #-0x10]
     // 0xa09c10: ldur            x2, [fp, #-0x68]
     // 0xa09c14: r0 = localizedFormat()
-    //     0xa09c14: bl              #0x5ef9e0  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedFormat
+    //     0xa09c14: bl              #0x5ef9e0  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedFormat
     // 0xa09c18: ldur            x2, [fp, #-0x18]
     // 0xa09c1c: stur            x0, [fp, #-0x10]
     // 0xa09c20: LoadField: r1 = r2->field_13
     //     0xa09c20: ldur            w1, [x2, #0x13]
     // 0xa09c24: DecompressPointer r1
     //     0xa09c24: add             x1, x1, HEAP, lsl #32
-    // 0xa09c28: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa09c28: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa09c28: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa09c28: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa09c2c: stur            x0, [fp, #-0x68]
     // 0xa09c30: r0 = TextStyle()
     //     0xa09c30: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1233,8 +1233,8 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     //     0xa09cc4: ldur            w1, [x3, #0x13]
     // 0xa09cc8: DecompressPointer r1
     //     0xa09cc8: add             x1, x1, HEAP, lsl #32
-    // 0xa09ccc: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa09ccc: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa09ccc: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa09ccc: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa09cd0: stur            x0, [fp, #-0x10]
     // 0xa09cd4: r0 = TextStyle()
     //     0xa09cd4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1300,8 +1300,8 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     //     0xa09d7c: ldur            w1, [x2, #0x13]
     // 0xa09d80: DecompressPointer r1
     //     0xa09d80: add             x1, x1, HEAP, lsl #32
-    // 0xa09d84: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa09d84: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa09d84: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa09d84: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa09d88: stur            x0, [fp, #-0x10]
     // 0xa09d8c: r0 = TextStyle()
     //     0xa09d8c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1351,13 +1351,13 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     //     0xa09e08: b.eq            #0xa09e10
     //     0xa09e0c: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0xa09e10: r0 = instance()
-    //     0xa09e10: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0xa09e10: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0xa09e14: r1 = "%@/Week"
     //     0xa09e14: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c3d0] "%@/Week"
     //     0xa09e18: ldr             x1, [x1, #0x3d0]
     // 0xa09e1c: stur            x0, [fp, #-0x10]
     // 0xa09e20: r0 = L()
-    //     0xa09e20: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa09e20: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa09e24: r1 = Null
     //     0xa09e24: mov             x1, NULL
     // 0xa09e28: r2 = 2
@@ -1386,15 +1386,15 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     // 0xa09e64: ldur            x1, [fp, #-0x10]
     // 0xa09e68: ldur            x2, [fp, #-0x38]
     // 0xa09e6c: r0 = localizedFormat()
-    //     0xa09e6c: bl              #0x5ef9e0  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedFormat
+    //     0xa09e6c: bl              #0x5ef9e0  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedFormat
     // 0xa09e70: ldur            x2, [fp, #-0x18]
     // 0xa09e74: stur            x0, [fp, #-0x10]
     // 0xa09e78: LoadField: r1 = r2->field_13
     //     0xa09e78: ldur            w1, [x2, #0x13]
     // 0xa09e7c: DecompressPointer r1
     //     0xa09e7c: add             x1, x1, HEAP, lsl #32
-    // 0xa09e80: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa09e80: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa09e80: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa09e80: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa09e84: stur            x0, [fp, #-0x28]
     // 0xa09e88: r0 = TextStyle()
     //     0xa09e88: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1454,7 +1454,7 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     // 0xa09f28: b               #0xa09f44
     // 0xa09f2c: ldur            x2, [fp, #-0x18]
     // 0xa09f30: r1 = Function '<anonymous closure>':.
-    //     0xa09f30: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c3d8] AnonymousClosure: (0xa0b7ec), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] _AccountSetupWeeklyGoalsEditorState::build (0xa095b0)
+    //     0xa09f30: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c3d8] AnonymousClosure: (0xa0b7ec), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] _AccountSetupWeeklyGoalsEditorState::build (0xa095b0)
     //     0xa09f34: ldr             x1, [x1, #0x3d8]
     // 0xa09f38: r0 = AllocateClosure()
     //     0xa09f38: bl              #0xe553e0  ; AllocateClosureStub
@@ -1484,7 +1484,7 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     // 0xa09f84: b               #0xa09fa0
     // 0xa09f88: ldur            x2, [fp, #-0x18]
     // 0xa09f8c: r1 = Function '<anonymous closure>':.
-    //     0xa09f8c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c3e8] AnonymousClosure: (0xa0a9e4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] _AccountSetupWeeklyGoalsEditorState::build (0xa095b0)
+    //     0xa09f8c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c3e8] AnonymousClosure: (0xa0a9e4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] _AccountSetupWeeklyGoalsEditorState::build (0xa095b0)
     //     0xa09f90: ldr             x1, [x1, #0x3e8]
     // 0xa09f94: r0 = AllocateClosure()
     //     0xa09f94: bl              #0xe553e0  ; AllocateClosureStub
@@ -1611,13 +1611,13 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     //     0xa0a0dc: bl              #0x657de4  ; [package:flutter/src/material/filled_button.dart] FilledButton::styleFrom
     // 0xa0a0e0: stur            x0, [fp, #-0x10]
     // 0xa0a0e4: r0 = instance()
-    //     0xa0a0e4: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0xa0a0e4: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0xa0a0e8: r1 = "Change %@ goal"
     //     0xa0a0e8: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c220] "Change %@ goal"
     //     0xa0a0ec: ldr             x1, [x1, #0x220]
     // 0xa0a0f0: stur            x0, [fp, #-0x28]
     // 0xa0a0f4: r0 = L()
-    //     0xa0a0f4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa0a0f4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa0a0f8: r1 = Null
     //     0xa0a0f8: mov             x1, NULL
     // 0xa0a0fc: r2 = 2
@@ -1646,7 +1646,7 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     // 0xa0a138: ldur            x1, [fp, #-0x28]
     // 0xa0a13c: ldur            x2, [fp, #-0x30]
     // 0xa0a140: r0 = localizedFormat()
-    //     0xa0a140: bl              #0x5ef9e0  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedFormat
+    //     0xa0a140: bl              #0x5ef9e0  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::localizedFormat
     // 0xa0a144: stur            x0, [fp, #-0x20]
     // 0xa0a148: r0 = Text()
     //     0xa0a148: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1666,7 +1666,7 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     //     0xa0a170: stur            w0, [x3, #0x3b]
     // 0xa0a174: ldur            x2, [fp, #-8]
     // 0xa0a178: r1 = Function '_advance@1082017135':.
-    //     0xa0a178: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c408] AnonymousClosure: (0xa0a8bc), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] _AccountSetupWeeklyGoalsEditorState::_advance (0xa0a8f4)
+    //     0xa0a178: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c408] AnonymousClosure: (0xa0a8bc), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] _AccountSetupWeeklyGoalsEditorState::_advance (0xa0a8f4)
     //     0xa0a17c: ldr             x1, [x1, #0x408]
     // 0xa0a180: r0 = AllocateClosure()
     //     0xa0a180: bl              #0xe553e0  ; AllocateClosureStub
@@ -1726,7 +1726,7 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     //     0xa0a214: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c410] "You can fine-tune these anytime from your weekly goal."
     //     0xa0a218: ldr             x1, [x1, #0x410]
     // 0xa0a21c: r0 = L()
-    //     0xa0a21c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa0a21c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa0a220: mov             x2, x0
     // 0xa0a224: ldur            x0, [fp, #-0x18]
     // 0xa0a228: stur            x2, [fp, #-8]
@@ -1734,8 +1734,8 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     //     0xa0a22c: ldur            w1, [x0, #0x13]
     // 0xa0a230: DecompressPointer r1
     //     0xa0a230: add             x1, x1, HEAP, lsl #32
-    // 0xa0a234: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa0a234: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa0a234: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa0a234: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa0a238: stur            x0, [fp, #-0x10]
     // 0xa0a23c: r0 = TextStyle()
     //     0xa0a23c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1898,7 +1898,7 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     //     0xa0a8d4: cmp             SP, x16
     //     0xa0a8d8: b.ls            #0xa0a8ec
     // 0xa0a8dc: r0 = _advance()
-    //     0xa0a8dc: bl              #0xa0a8f4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] _AccountSetupWeeklyGoalsEditorState::_advance
+    //     0xa0a8dc: bl              #0xa0a8f4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] _AccountSetupWeeklyGoalsEditorState::_advance
     // 0xa0a8e0: LeaveFrame
     //     0xa0a8e0: mov             SP, fp
     //     0xa0a8e4: ldp             fp, lr, [SP], #0x10
@@ -1938,7 +1938,7 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     // 0xa0a934: b.ge            #0xa0a958
     // 0xa0a938: ldur            x2, [fp, #-0x10]
     // 0xa0a93c: r1 = Function '<anonymous closure>':.
-    //     0xa0a93c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c418] AnonymousClosure: (0xa0a99c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] _AccountSetupWeeklyGoalsEditorState::_advance (0xa0a8f4)
+    //     0xa0a93c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c418] AnonymousClosure: (0xa0a99c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] _AccountSetupWeeklyGoalsEditorState::_advance (0xa0a8f4)
     //     0xa0a940: ldr             x1, [x1, #0x418]
     // 0xa0a944: r0 = AllocateClosure()
     //     0xa0a944: bl              #0xe553e0  ; AllocateClosureStub
@@ -2044,7 +2044,7 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     // 0xa0aa34: mov             x1, x0
     // 0xa0aa38: mov             x3, x4
     // 0xa0aa3c: r0 = _commit()
-    //     0xa0aa3c: bl              #0xa0aa58  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] _AccountSetupWeeklyGoalsEditorState::_commit
+    //     0xa0aa3c: bl              #0xa0aa58  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] _AccountSetupWeeklyGoalsEditorState::_commit
     // 0xa0aa40: r0 = Null
     //     0xa0aa40: mov             x0, NULL
     // 0xa0aa44: LeaveFrame
@@ -2107,18 +2107,18 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     // 0xa0aadc: ldur            x1, [fp, #-0x18]
     // 0xa0aae0: stur            x4, [fp, #-0x20]
     // 0xa0aae4: r0 = clampTime()
-    //     0xa0aae4: bl              #0x931ae8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampTime
+    //     0xa0aae4: bl              #0x931ae8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampTime
     // 0xa0aae8: ldur            x1, [fp, #-0x10]
     // 0xa0aaec: ldur            x2, [fp, #-0x20]
     // 0xa0aaf0: ldur            x3, [fp, #-0x28]
     // 0xa0aaf4: mov             x5, x0
     // 0xa0aaf8: r0 = setRecommendedGoals()
-    //     0xa0aaf8: bl              #0xa0b4c0  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setRecommendedGoals
+    //     0xa0aaf8: bl              #0xa0b4c0  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setRecommendedGoals
     // 0xa0aafc: b               #0xa0ab78
     // 0xa0ab00: ldur            x0, [fp, #-0x10]
     // 0xa0ab04: ldur            x1, [fp, #-0x18]
     // 0xa0ab08: r0 = clampShots()
-    //     0xa0ab08: bl              #0x931bc0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampShots
+    //     0xa0ab08: bl              #0x931bc0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampShots
     // 0xa0ab0c: mov             x3, x0
     // 0xa0ab10: ldur            x0, [fp, #-0x10]
     // 0xa0ab14: stur            x3, [fp, #-0x20]
@@ -2126,7 +2126,7 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     //     0xa0ab18: ldur            x1, [x0, #0x7f]
     // 0xa0ab1c: mov             x2, x3
     // 0xa0ab20: r0 = clampMakes()
-    //     0xa0ab20: bl              #0x931b3c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampMakes
+    //     0xa0ab20: bl              #0x931b3c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampMakes
     // 0xa0ab24: mov             x1, x0
     // 0xa0ab28: ldur            x0, [fp, #-0x10]
     // 0xa0ab2c: LoadField: r5 = r0->field_87
@@ -2135,7 +2135,7 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     // 0xa0ab34: mov             x1, x0
     // 0xa0ab38: ldur            x3, [fp, #-0x20]
     // 0xa0ab3c: r0 = setRecommendedGoals()
-    //     0xa0ab3c: bl              #0xa0b4c0  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setRecommendedGoals
+    //     0xa0ab3c: bl              #0xa0b4c0  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setRecommendedGoals
     // 0xa0ab40: b               #0xa0ab78
     // 0xa0ab44: ldur            x0, [fp, #-0x10]
     // 0xa0ab48: LoadField: r3 = r0->field_77
@@ -2144,7 +2144,7 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     // 0xa0ab50: mov             x2, x3
     // 0xa0ab54: stur            x3, [fp, #-0x20]
     // 0xa0ab58: r0 = clampMakes()
-    //     0xa0ab58: bl              #0x931b3c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampMakes
+    //     0xa0ab58: bl              #0x931b3c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampMakes
     // 0xa0ab5c: mov             x1, x0
     // 0xa0ab60: ldur            x0, [fp, #-0x10]
     // 0xa0ab64: LoadField: r5 = r0->field_87
@@ -2153,11 +2153,11 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     // 0xa0ab6c: mov             x1, x0
     // 0xa0ab70: ldur            x3, [fp, #-0x20]
     // 0xa0ab74: r0 = setRecommendedGoals()
-    //     0xa0ab74: bl              #0xa0b4c0  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setRecommendedGoals
+    //     0xa0ab74: bl              #0xa0b4c0  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setRecommendedGoals
     // 0xa0ab78: ldur            x1, [fp, #-8]
     // 0xa0ab7c: ldur            x2, [fp, #-0x10]
     // 0xa0ab80: r0 = _publishLiveWeekGoal()
-    //     0xa0ab80: bl              #0xa0aba0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] _AccountSetupWeeklyGoalsEditorState::_publishLiveWeekGoal
+    //     0xa0ab80: bl              #0xa0aba0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] _AccountSetupWeeklyGoalsEditorState::_publishLiveWeekGoal
     // 0xa0ab84: r0 = Null
     //     0xa0ab84: mov             x0, NULL
     // 0xa0ab88: LeaveFrame
@@ -2216,7 +2216,7 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     // 0xa0ac10: mov             x5, x8
     // 0xa0ac14: stur            x8, [fp, #-0x78]
     // 0xa0ac18: r0 = applyCurrentWeekTotals()
-    //     0xa0ac18: bl              #0xa0ac98  ; [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::applyCurrentWeekTotals
+    //     0xa0ac18: bl              #0xa0ac98  ; [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::applyCurrentWeekTotals
     // 0xa0ac1c: b               #0xa0ac7c
     // 0xa0ac20: sub             SP, fp, #0xa0
     // 0xa0ac24: stur            x0, [fp, #-0x68]
@@ -2302,7 +2302,7 @@ class _AccountSetupWeeklyGoalsEditorState extends State<dynamic> {
     // 0xa0b83c: mov             x1, x0
     // 0xa0b840: mov             x3, x4
     // 0xa0b844: r0 = _commit()
-    //     0xa0b844: bl              #0xa0aa58  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] _AccountSetupWeeklyGoalsEditorState::_commit
+    //     0xa0b844: bl              #0xa0aa58  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_weekly_goals_editor.dart] _AccountSetupWeeklyGoalsEditorState::_commit
     // 0xa0b848: r0 = Null
     //     0xa0b848: mov             x0, NULL
     // 0xa0b84c: LeaveFrame

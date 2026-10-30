@@ -36,9 +36,9 @@
 10-28 09:13:19.865 D/BluetoothManagerService( 1043): onAirplaneModeChanged delay MS : 400
 10-28 09:13:19.903 D/nativeloader( 3683): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
 10-28 09:13:19.904 D/AndroidRuntime( 3683): Calling main entry com.android.commands.monkey.Monkey
-10-28 09:13:19.907 D/Monkey  ( 3683): args: [-p, ballai.app, -c, android.intent.category.LAUNCHER, 1]
+10-28 09:13:19.907 D/Monkey  ( 3683): args: [-p, kourtai.app, -c, android.intent.category.LAUNCHER, 1]
 --------- beginning of system
-10-28 09:13:19.974 E/UnisocWatchdog( 1043): WDT_Monitor_wpp collect3rdApps: get a 3rd :ballai.app,pid:0,appPersistent:false,545832516
+10-28 09:13:19.974 E/UnisocWatchdog( 1043): WDT_Monitor_wpp collect3rdApps: get a 3rd :kourtai.app,pid:0,appPersistent:false,545832516
 10-28 09:13:19.974 E/UnisocWatchdog( 1043): WDT_Monitor_wpp collect3rdApps: get a 3rd :com.google.android.youtube,pid:0,appPersistent:false,551272133
 10-28 09:13:19.974 E/UnisocWatchdog( 1043): WDT_Monitor_wpp collect3rdApps: get a 3rd :com.fiverr.fiverr,pid:0,appPersistent:false,547896900
 10-28 09:13:19.975 E/UnisocWatchdog( 1043): WDT_Monitor_wpp collect3rdApps: get a 3rd :com.transsion.plat.appupdate,pid:0,appPersistent:false,684244677
@@ -1154,11 +1154,11 @@
 10-28 09:14:02.028 D/BluetoothManagerService( 1043): onAirplaneModeChanged delay MS : 400
 10-28 09:14:02.103 D/os.WindowManagerServiceLice( 1043): onStartActivityAsUser, isPreloadIntent =  false
 10-28 09:14:02.104 D/CompatibilityChangeReporter( 1043): Compat change id reported: 161252188; UID 10196; state: DISABLED
-10-28 09:14:02.105 I/ActivityTaskManager( 1043): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=ballai.app/ball_ai.android.MainActivity} from uid 2000, pid 3683
+10-28 09:14:02.105 I/ActivityTaskManager( 1043): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=kourtai.app/kourt_ai.android.MainActivity} from uid 2000, pid 3683
 10-28 09:14:02.142 D/CompatibilityChangeReporter( 1043): Compat change id reported: 194480991; UID 10196; state: ENABLED
-10-28 09:14:02.174 D/PerformanceDatabaseControl( 1043): querymem pkgName = ballai.app
+10-28 09:14:02.174 D/PerformanceDatabaseControl( 1043): querymem pkgName = kourtai.app
 10-28 09:14:02.175 D/DynamicFrameRateController( 1043): onUpdateSleep before:false, after:false
-10-28 09:14:02.176 D/AppStartScene( 1043): doFastKillForAppStart:ballai.app,memAvail:195
+10-28 09:14:02.176 D/AppStartScene( 1043): doFastKillForAppStart:kourtai.app,memAvail:195
 10-28 09:14:02.177 I/lowmemorykiller(  363): memfree is 53MB now,fastkill required 195MB and adjust fastkill memory to 250MB
 10-28 09:14:02.178 I/DPUModule(  628): dpur2p0 prepare: count(4)
 10-28 09:14:02.179 I/DPUModule(  628): dpur2p0 checkBlendMode: BlendMode(0x100), PlaneAlpha(0xff)
@@ -1189,10 +1189,10 @@
 10-28 09:14:02.181 D/CompatibilityChangeReporter( 1043): Compat change id reported: 174042936; UID 10196; state: DISABLED
 10-28 09:14:02.185 D/SharedPreferencesPolicy( 1559): checkFinishers msg.what :159,msg.obj:android.app.servertransaction.ClientTransaction@8cbb3338
 10-28 09:14:02.186 D/CompatibilityChangeReporter( 1043): Compat change id reported: 205907456; UID 10196; state: ENABLED
-10-28 09:14:02.190 I/ActivityTaskManager( 1043): ->startActivity for ActivityRecord{f04a79d u0 ballai.app/ball_ai.android.MainActivity} t178 d0} result:START_SUCCESS
+10-28 09:14:02.190 I/ActivityTaskManager( 1043): ->startActivity for ActivityRecord{f04a79d u0 kourtai.app/kourt_ai.android.MainActivity} t178 d0} result:START_SUCCESS
 10-28 09:14:02.192 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=com.transsion.itel.launcher refreshMode=0
 10-28 09:14:02.194 D/CompatibilityChangeReporter( 1043): Compat change id reported: 194833441; UID 10196; state: ENABLED
-10-28 09:14:02.195 I/ActivityTaskManager( 1043): Add pending draw ActivityRecord{f04a79d u0 ballai.app/ball_ai.android.MainActivity} t178 d0}
+10-28 09:14:02.195 I/ActivityTaskManager( 1043): Add pending draw ActivityRecord{f04a79d u0 kourtai.app/kourt_ai.android.MainActivity} t178 d0}
 10-28 09:14:02.197 I/DPUModule(  628): dpur2p0 prepare: count(4)
 10-28 09:14:02.197 I/DPUModule(  628): dpur2p0 checkBlendMode: BlendMode(0x100), PlaneAlpha(0xff)
 10-28 09:14:02.197 I/DPUModule(  628): dpur2p0 checkScaleSize: Transform(0), SRCRect(720,1612), FBRect(720,1612)
@@ -1242,12 +1242,12 @@
 10-28 09:14:02.213 I/DPUModule(  628): dpur2p0 checkTransform: Transform(0), SRCRect(0,0)
 10-28 09:14:02.213 D/DPUModule(  628): [] support: 0
 10-28 09:14:02.218 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=com.transsion.itel.launcher refreshMode=0
-10-28 09:14:02.221 D/os.fingerprint( 1043): onActivityResume next:ActivityRecord{f04a79d u0 ballai.app/ball_ai.android.MainActivity} t178 d0}
-10-28 09:14:02.221 D/os.fingerprint( 1043): activityComponent = ComponentInfo{ballai.app/ball_ai.android.MainActivity} inMultiWindow = false
+10-28 09:14:02.221 D/os.fingerprint( 1043): onActivityResume next:ActivityRecord{f04a79d u0 kourtai.app/kourt_ai.android.MainActivity} t178 d0}
+10-28 09:14:02.221 D/os.fingerprint( 1043): activityComponent = ComponentInfo{kourtai.app/kourt_ai.android.MainActivity} inMultiWindow = false
 10-28 09:14:02.222 D/SmartBandWith_Controller2( 1043): onTaskStackChanged()
 10-28 09:14:02.224 D/WindowManager( 1043): Focus not requested, because it has no surface or is not focusable, request window=Window{72a1aa8 u0 com.transsion.itel.launcher/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher}-[Surface(name=*Title#18003)/@0x32aa9cc], mCurrentFocusWindow= 72a1aa8 com.transsion.itel.launcher/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher
 10-28 09:14:02.229 D/SensorManager( 1043): registerListenerImpl sensor = {Sensor name="Accelerometer Sensor", vendor="Sprd Group Ltd.", version=1, type=1, maxRange=78.4532, resolution=0.0023942017, power=0.17, minDelay=5000}, delayUs = 66667, latencyUs = 100000, listener = com.android.server.wm.WindowOrientationListener$AccelSensorJudge@3a44c36
-10-28 09:14:02.229 D/ActivityManager( 1043): PROFILE_FROM_SHELL is disabled for ProcessRecord{e9d900c 0:ballai.app/u0a196}
+10-28 09:14:02.229 D/ActivityManager( 1043): PROFILE_FROM_SHELL is disabled for ProcessRecord{e9d900c 0:kourtai.app/u0a196}
 10-28 09:14:02.229 D/CompatibilityChangeReporter( 1043): Compat change id reported: 135634846; UID 10196; state: DISABLED
 10-28 09:14:02.229 D/CompatibilityChangeReporter( 1043): Compat change id reported: 177438394; UID 10196; state: DISABLED
 10-28 09:14:02.229 D/CompatibilityChangeReporter( 1043): Compat change id reported: 135772972; UID 10196; state: DISABLED
@@ -1275,7 +1275,7 @@
 10-28 09:14:02.230 I/DPUModule(  628): dpur2p0 checkAFBCBlockSize: compressed(0),format(1), pitch(720), vstride(96)
 10-28 09:14:02.230 I/DPUModule(  628): dpur2p0 checkTransform: Transform(0), SRCRect(0,0)
 10-28 09:14:02.230 D/DPUModule(  628): [] support: 0
-10-28 09:14:02.234 D/ActivityManager( 1043): asking zygote to start proc:ProcessRecord{e9d900c 0:ballai.app/u0a196}
+10-28 09:14:02.234 D/ActivityManager( 1043): asking zygote to start proc:ProcessRecord{e9d900c 0:kourtai.app/u0a196}
 10-28 09:14:02.234 D/CompatibilityChangeReporter( 1043): Compat change id reported: 143937733; UID 10196; state: ENABLED
 10-28 09:14:02.235 D/Prefork ( 1043): startResult is empty and running normal execution.
 10-28 09:14:02.236 E/ActivityThread( 3286): Failed to find provider info for com.transsion.phonemaster.provider.Network
@@ -1306,9 +1306,9 @@
 10-28 09:14:02.246 I/DPUModule(  628): dpur2p0 checkTransform: Transform(0), SRCRect(0,0)
 10-28 09:14:02.246 D/DPUModule(  628): [] support: 0
 10-28 09:14:02.247 D/Zygote  (  614): Forked child process 3741
-10-28 09:14:02.285 I/ballai.app( 3741): Using generational CollectorTypeCMC GC.
+10-28 09:14:02.285 I/kourtai.app( 3741): Using generational CollectorTypeCMC GC.
 10-28 09:14:02.294 D/nativeloader( 3741): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
-10-28 09:14:02.323 E/ballai.app( 3741): Could not write anonymous vdex /system_ext/framework/oat/arm64/unisoc-framework.vdex: Could not open /system_ext/framework/oat/arm64/unisoc-framework.vdex for writing
+10-28 09:14:02.323 E/kourtai.app( 3741): Could not write anonymous vdex /system_ext/framework/oat/arm64/unisoc-framework.vdex: Could not open /system_ext/framework/oat/arm64/unisoc-framework.vdex for writing
 10-28 09:14:02.323 D/PowerController.RecogA( 1043): packageName:com.google.android.gms mFgEvent:SYSTEM_INTERACTION mLastTimeFgEventChanged:140991621 mLastLaunchTime:0 mProcState:PROCESS_STATE_CACHED_EMPTY mLastTimeProcStateChanged:0 mNotificationState:0 mLastTimeNotificationStateChanged:0 mAudioState:0 mLastTimeAudioStateChanged:0 mRequestGps:true mAvoidConstraintGps:false mBehaviorType:0 mScreenOn:true mLastTimeScreenStateChanged:139828037 mLastBgTime:0 mFgDuration:0 mAudioDuration:0 mBgAudioDuration:0 mHasNoClearNotificationWhenNavi:false
 10-28 09:14:02.324 W/ProcessStats( 1043): Tracking association SourceState{8fddef9 com.transsion.phonemanager/1000 BTopFgs #455920} whose proc state 2 is better than process ProcessState{2e5084b com.transsion.phonemaster/10166 pkg=com.transsion.phonemaster} proc state 3 (9 skipped)
 10-28 09:14:02.325 W/ContentProviderHelper( 1043): Slow operation: 89ms so far, now at getContentProviderImpl: after updateOomAdj
@@ -1316,8 +1316,8 @@
 10-28 09:14:02.326 D/ActivityManagerConstants( 1043): updateMaxCachedProcesses--before, updated CUR_MAX_CACHED_PROCESSES: 40
 10-28 09:14:02.326 D/ActivityManagerConstants( 1043): updateMaxCachedProcesses, updated CUR_MAX_CACHED_PROCESSES: 40
 10-28 09:14:02.326 D/ActivityManagerConstants( 1043): updateMaxCachedProcesses--After, updated CUR_MAX_CACHED_PROCESSES: 40
-10-28 09:14:02.329 D/SSense.SRecogCollector( 1043):  getStartUpComponent  sizeof resolves : 1  for pkg name:ballai.app
-10-28 09:14:02.329 D/SSense.SRecogCollector( 1043):  getStartUpComponent  screenOrientation : -1  for pkg name:ballai.app
+10-28 09:14:02.329 D/SSense.SRecogCollector( 1043):  getStartUpComponent  sizeof resolves : 1  for pkg name:kourtai.app
+10-28 09:14:02.329 D/SSense.SRecogCollector( 1043):  getStartUpComponent  screenOrientation : -1  for pkg name:kourtai.app
 10-28 09:14:02.331 I/ActivityManager( 1043): Killing 32381:com.android.vending:background/u0a113 (adj 999): empty #21
 10-28 09:14:02.335 I/lowmemorykiller(  363): Using psi monitors for memory pressure detection
 10-28 09:14:02.335 I/ActivityManager( 1043): Killing 32277:com.transsion.ossettingsext/1000 (adj 999): empty #22
@@ -1326,16 +1326,16 @@
 10-28 09:14:02.336 D/phonemaster_log( 5381): HiManager_NetworkProvider:  call: hm_page providerHandle = false
 10-28 09:14:02.337 E/lowmemorykiller(  363): Attempt to wait for a kill while another wait is in progress
 10-28 09:14:02.338 I/lowmemorykiller(  363): Kill 'com.transsion.ossettingsext' (32277), uid 1000, oom_score_adj 975 to free 60360kB rss, 37336kB swap; reason: <do fast kill>
-10-28 09:14:02.339 D/phonemaster_log( 5381): HiManager_ShopOcrHandler: handleEcommercePage: ballai.app / ball_ai.android.MainActivity / 1
+10-28 09:14:02.339 D/phonemaster_log( 5381): HiManager_ShopOcrHandler: handleEcommercePage: kourtai.app / kourt_ai.android.MainActivity / 1
 10-28 09:14:02.339 E/lowmemorykiller(  363): Attempt to wait for a kill while another wait is in progress
-10-28 09:14:02.340 D/phonemaster_log( 5381): HiManager_ShopInteractionUtil: isWatchedActivity: pkg=ballai.app, activity=ball_ai.android.MainActivity, result=false
+10-28 09:14:02.340 D/phonemaster_log( 5381): HiManager_ShopInteractionUtil: isWatchedActivity: pkg=kourtai.app, activity=kourt_ai.android.MainActivity, result=false
 10-28 09:14:02.340 I/lowmemorykiller(  363): Kill 'com.android.vending' (32342), uid 10113, oom_score_adj 965 to free 220564kB rss, 20100kB swap; reason: <do fast kill>
 10-28 09:14:02.340 I/lowmemorykiller(  363): fast kill reclaim 303748KB, required memory 256000KB, last killed process's adj 965
 10-28 09:14:02.340 D/phonemaster_log( 5381): HiManager_ShopInteractionUtil: isFavoritesRemoteSwitch: false
 10-28 09:14:02.341 D/phonemaster_log( 5381): HiManager_ShopOcrHandler: handleEcommercePage: skip, no business ocr or sample
 10-28 09:14:02.342 W/ActivityManager( 1043): Slow operation: 116ms so far, now at startProcess: done updating battery stats
 10-28 09:14:02.343 W/ActivityManager( 1043): Slow operation: 117ms so far, now at startProcess: building log message
-10-28 09:14:02.343 I/ActivityManager( 1043): Start proc 3741:ballai.app/u0a196 for next-top-activity {ballai.app/ball_ai.android.MainActivity}
+10-28 09:14:02.343 I/ActivityManager( 1043): Start proc 3741:kourtai.app/u0a196 for next-top-activity {kourtai.app/kourt_ai.android.MainActivity}
 10-28 09:14:02.344 W/ActivityManager( 1043): Slow operation: 118ms so far, now at startProcess: starting to update pids map
 10-28 09:14:02.344 W/ActivityManager( 1043): Slow operation: 118ms so far, now at startProcess: done updating pids map
 10-28 09:14:02.345 I/app_process( 3683): System.exit called, status: 0
@@ -1363,21 +1363,21 @@
 10-28 09:14:02.347 I/DPUModule(  628): dpur2p0 checkAFBCBlockSize: compressed(0),format(1), pitch(720), vstride(96)
 10-28 09:14:02.347 I/DPUModule(  628): dpur2p0 checkTransform: Transform(0), SRCRect(0,0)
 10-28 09:14:02.347 D/DPUModule(  628): [] support: 0
-10-28 09:14:02.348 D/os.ActivityManagerServiceLice( 1043): make process active ballai.app(3741)
+10-28 09:14:02.348 D/os.ActivityManagerServiceLice( 1043): make process active kourtai.app(3741)
 10-28 09:14:02.357 D/phonemaster_log( 5381): HiManager_NetworkProvider:  call: hm_page providerHandle = false
-10-28 09:14:02.358 D/phonemaster_log( 5381): HiManager_ShopOcrHandler: handleEcommercePage: ballai.app / ball_ai.android.MainActivity / 2
-10-28 09:14:02.358 D/os.fingerprint( 1043): onRealStartActivityLocked next:ActivityRecord{f04a79d u0 ballai.app/ball_ai.android.MainActivity} t178 d0} isKeyguardShowing:false
-10-28 09:14:02.358 D/os.fingerprint( 1043): activityComponent = ComponentInfo{ballai.app/ball_ai.android.MainActivity} inMultiWindow = false
-10-28 09:14:02.358 D/phonemaster_log( 5381): HiManager_ShopInteractionUtil: isWatchedActivity: pkg=ballai.app, activity=ball_ai.android.MainActivity, result=false
-10-28 09:14:02.358 D/JupiterDelegator( 1043): handleStartActivity: ComponentInfo{ballai.app/ball_ai.android.MainActivity}
-10-28 09:14:02.359 D/os.fingerprint( 1043): onUpdateFocusedApp oldPackageName:com.transsion.itel.launcher oldComponent:ComponentInfo{com.transsion.itel.launcher/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher} newPackageName:ballai.app newComponent:ComponentInfo{ballai.app/ball_ai.android.MainActivity} mFm :android.hardware.fingerprint.FingerprintManager@5bd4378
+10-28 09:14:02.358 D/phonemaster_log( 5381): HiManager_ShopOcrHandler: handleEcommercePage: kourtai.app / kourt_ai.android.MainActivity / 2
+10-28 09:14:02.358 D/os.fingerprint( 1043): onRealStartActivityLocked next:ActivityRecord{f04a79d u0 kourtai.app/kourt_ai.android.MainActivity} t178 d0} isKeyguardShowing:false
+10-28 09:14:02.358 D/os.fingerprint( 1043): activityComponent = ComponentInfo{kourtai.app/kourt_ai.android.MainActivity} inMultiWindow = false
+10-28 09:14:02.358 D/phonemaster_log( 5381): HiManager_ShopInteractionUtil: isWatchedActivity: pkg=kourtai.app, activity=kourt_ai.android.MainActivity, result=false
+10-28 09:14:02.358 D/JupiterDelegator( 1043): handleStartActivity: ComponentInfo{kourtai.app/kourt_ai.android.MainActivity}
+10-28 09:14:02.359 D/os.fingerprint( 1043): onUpdateFocusedApp oldPackageName:com.transsion.itel.launcher oldComponent:ComponentInfo{com.transsion.itel.launcher/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher} newPackageName:kourtai.app newComponent:ComponentInfo{kourtai.app/kourt_ai.android.MainActivity} mFm :android.hardware.fingerprint.FingerprintManager@5bd4378
 10-28 09:14:02.359 D/phonemaster_log( 5381): HiManager_ShopInteractionUtil: isFavoritesRemoteSwitch: false
 10-28 09:14:02.360 D/phonemaster_log( 5381): HiManager_ShopOcrHandler: handleEcommercePage: skip, no business ocr or sample
-10-28 09:14:02.364 D/WindowManager( 1043): setFocusedApp mFocusedApp = ActivityRecord{f04a79d u0 ballai.app/ball_ai.android.MainActivity} t178 d0}displayId = 0Callers = com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:5069 com.android.server.wm.TaskFragment.onActivityStateChanged:772 com.android.server.wm.ActivityRecord.setState:5710 com.android.server.wm.Task.minimalResumeActivityLocked:4841 
+10-28 09:14:02.364 D/WindowManager( 1043): setFocusedApp mFocusedApp = ActivityRecord{f04a79d u0 kourtai.app/kourt_ai.android.MainActivity} t178 d0}displayId = 0Callers = com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:5069 com.android.server.wm.TaskFragment.onActivityStateChanged:772 com.android.server.wm.ActivityRecord.setState:5710 com.android.server.wm.Task.minimalResumeActivityLocked:4841 
 10-28 09:14:02.368 I/WindowManager( 1043): Input focus has changed to null from 72a1aa8 com.transsion.itel.launcher/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher mDisplayId 0 updateInputWindows true, callers=com.android.server.wm.DisplayContent.updateFocusedWindowLocked:3778 com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:493 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6403 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:5071 com.android.server.wm.TaskFragment.onActivityStateChanged:772 
 10-28 09:14:02.370 D/Griffin/Hooker( 1043): PreviousApp = com.android.settings/com.transsion.usbdialog.UsbMTPChooserActivity
-10-28 09:14:02.370 D/os.fingerprint( 1043): onActivityResume next:ActivityRecord{f04a79d u0 ballai.app/ball_ai.android.MainActivity} t178 d0}
-10-28 09:14:02.370 D/os.fingerprint( 1043): activityComponent = ComponentInfo{ballai.app/ball_ai.android.MainActivity} inMultiWindow = false
+10-28 09:14:02.370 D/os.fingerprint( 1043): onActivityResume next:ActivityRecord{f04a79d u0 kourtai.app/kourt_ai.android.MainActivity} t178 d0}
+10-28 09:14:02.370 D/os.fingerprint( 1043): activityComponent = ComponentInfo{kourtai.app/kourt_ai.android.MainActivity} inMultiWindow = false
 10-28 09:14:02.372 W/libc    ( 1043): Access denied finding property "ro.vendor.pnpmgr.game.record"
 10-28 09:14:02.372 W/libc    ( 1043): Access denied finding property "ro.vendor.pnpmgr.touch.ctl"
 10-28 09:14:02.369 W/com.transsion.a( 1043): type=1400 audit(0.0:102178): avc: denied { read } for name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=18919 scontext=u:r:system_server:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
@@ -1385,7 +1385,7 @@
 10-28 09:14:02.372 D/CompatibilityChangeReporter( 3741): Compat change id reported: 171979766; UID 10196; state: ENABLED
 10-28 09:14:02.374 E/ActivityThread( 3286): Failed to find provider info for com.transsion.phonemaster.provider.Network
 10-28 09:14:02.376 D/UnisocOomAdjuster( 1043): Skipped update freeze state for 26994
-10-28 09:14:02.377 D/AlarmManager( 1043): Package ballai.app for user 0 now in bucket 10
+10-28 09:14:02.377 D/AlarmManager( 1043): Package kourtai.app for user 0 now in bucket 10
 10-28 09:14:02.380 D/TranClassInfo( 3741): instance successfully. com.transsion.hubcore.graphics.TranGraphicImpl@4954b3a from com.transsion.hubcore.graphics.ITranGraphic
 10-28 09:14:02.380 D/MultiLinkController( 1298): onTaskStackChanged 
 10-28 09:14:02.380 I/DPUModule(  628): dpur2p0 prepare: count(4)
@@ -1528,17 +1528,17 @@
 10-28 09:14:02.655 I/KeyboardDefCache( 2156): MemoryFileCache$1.onTrimMemory():124 clearMemory() for trim memory: 5
 10-28 09:14:02.657 I/KeyboardDefCache( 2156): MemoryFileCache.clearMemory():408 evictAll()
 10-28 09:14:02.658 I/GoogleInputMethodService( 2156): GoogleInputMethodService.onTrimMemory():3174 onTrimMemory(): 5
-10-28 09:14:02.712 W/ballai.app( 3741): Failed to find entry 'classes.dex': Entry not found
-10-28 09:14:02.715 W/ballai.app( 3741): Failed to find entry 'classes.dex': Entry not found
-10-28 09:14:02.717 W/ballai.app( 3741): Failed to find entry 'classes.dex': Entry not found
-10-28 09:14:02.719 D/nativeloader( 3741): Configuring clns-4 for other apk /data/app/~~Gk3MX00kgcxnB8M3khS92w==/ballai.app-R6yhqvvjObxlsI2CQEFwbQ==/base.apk:/data/app/~~Gk3MX00kgcxnB8M3khS92w==/ballai.app-R6yhqvvjObxlsI2CQEFwbQ==/split_config.arm64_v8a.apk:/data/app/~~Gk3MX00kgcxnB8M3khS92w==/ballai.app-R6yhqvvjObxlsI2CQEFwbQ==/split_config.en.apk:/data/app/~~Gk3MX00kgcxnB8M3khS92w==/ballai.app-R6yhqvvjObxlsI2CQEFwbQ==/split_config.xhdpi.apk. target_sdk_version=36, uses_libraries=libOpenCL.so:libOpenCL.so, library_path=/data/app/~~Gk3MX00kgcxnB8M3khS92w==/ballai.app-R6yhqvvjObxlsI2CQEFwbQ==/lib/arm64:/data/app/~~Gk3MX00kgcxnB8M3khS92w==/ballai.app-R6yhqvvjObxlsI2CQEFwbQ==/base.apk!/lib/arm64-v8a:/data/app/~~Gk3MX00kgcxnB8M3khS92w==/ballai.app-R6yhqvvjObxlsI2CQEFwbQ==/split_config.arm64_v8a.apk!/lib/arm64-v8a:/data/app/~~Gk3MX00kgcxnB8M3khS92w==/ballai.app-R6yhqvvjObxlsI2CQEFwbQ==/split_config.en.apk!/lib/arm64-v8a:/data/app/~~Gk3MX00kgcxnB8M3khS92w==/ballai.app-R6yhqvvjObxlsI2CQEFwbQ==/split_config.xhdpi.apk!/lib/arm64-v8a, permitted_path=/data:/mnt
+10-28 09:14:02.712 W/kourtai.app( 3741): Failed to find entry 'classes.dex': Entry not found
+10-28 09:14:02.715 W/kourtai.app( 3741): Failed to find entry 'classes.dex': Entry not found
+10-28 09:14:02.717 W/kourtai.app( 3741): Failed to find entry 'classes.dex': Entry not found
+10-28 09:14:02.719 D/nativeloader( 3741): Configuring clns-4 for other apk /data/app/~~Gk3MX00kgcxnB8M3khS92w==/kourtai.app-R6yhqvvjObxlsI2CQEFwbQ==/base.apk:/data/app/~~Gk3MX00kgcxnB8M3khS92w==/kourtai.app-R6yhqvvjObxlsI2CQEFwbQ==/split_config.arm64_v8a.apk:/data/app/~~Gk3MX00kgcxnB8M3khS92w==/kourtai.app-R6yhqvvjObxlsI2CQEFwbQ==/split_config.en.apk:/data/app/~~Gk3MX00kgcxnB8M3khS92w==/kourtai.app-R6yhqvvjObxlsI2CQEFwbQ==/split_config.xhdpi.apk. target_sdk_version=36, uses_libraries=libOpenCL.so:libOpenCL.so, library_path=/data/app/~~Gk3MX00kgcxnB8M3khS92w==/kourtai.app-R6yhqvvjObxlsI2CQEFwbQ==/lib/arm64:/data/app/~~Gk3MX00kgcxnB8M3khS92w==/kourtai.app-R6yhqvvjObxlsI2CQEFwbQ==/base.apk!/lib/arm64-v8a:/data/app/~~Gk3MX00kgcxnB8M3khS92w==/kourtai.app-R6yhqvvjObxlsI2CQEFwbQ==/split_config.arm64_v8a.apk!/lib/arm64-v8a:/data/app/~~Gk3MX00kgcxnB8M3khS92w==/kourtai.app-R6yhqvvjObxlsI2CQEFwbQ==/split_config.en.apk!/lib/arm64-v8a:/data/app/~~Gk3MX00kgcxnB8M3khS92w==/kourtai.app-R6yhqvvjObxlsI2CQEFwbQ==/split_config.xhdpi.apk!/lib/arm64-v8a, permitted_path=/data:/mnt
 10-28 09:14:02.723 D/SmartBandWith_Controller2( 1043): [handleMessage] what: 1009
 10-28 09:14:02.724 D/SmartBandWith_Controller2( 1043): [onTaskStackChanged] topPackage = com.transsion.itel.launcher, mForegroundPackage = com.transsion.itel.launcher
 10-28 09:14:02.724 D/SmartBandWith_Controller2( 1043): [onTaskStackChanged] mBackgroundUids size = 0
 10-28 09:14:02.724 D/SmartBandWith_Controller2( 1043): Ignore the app stack change
 10-28 09:14:02.789 D/nativeloader( 3741): Load libframework-connectivity-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
-10-28 09:14:02.794 V/GraphicsEnvironment( 3741): ANGLE Developer option for 'ballai.app' set to: 'default'
-10-28 09:14:02.794 V/GraphicsEnvironment( 3741): ANGLE GameManagerService for ballai.app: false
+10-28 09:14:02.794 V/GraphicsEnvironment( 3741): ANGLE Developer option for 'kourtai.app' set to: 'default'
+10-28 09:14:02.794 V/GraphicsEnvironment( 3741): ANGLE GameManagerService for kourtai.app: false
 10-28 09:14:02.794 V/GraphicsEnvironment( 3741): Neither updatable production driver nor prerelease driver is supported.
 10-28 09:14:02.803 I/LoadedApk( 3741): No resource references to update in package com.transsion.theme.icon
 10-28 09:14:02.803 D/NetworkSecurityConfig( 3741): No Network Security Config specified, using platform default
@@ -1548,12 +1548,12 @@
 10-28 09:14:02.827 I/FirebaseInitProvider( 3741): FirebaseApp initialization successful
 10-28 09:14:02.827 D/FLTFireContextHolder( 3741): received application context.
 10-28 09:14:02.832 D/WM-WrkMgrInitializer( 3741): Initializing WorkManager with default configuration.
-10-28 09:14:02.834 D/PackageManager( 1043): Considering set ballai.app/androidx.work.impl.background.systemjob.SystemJobService's state as 1 with userId = 0, callingPackage = null
+10-28 09:14:02.834 D/PackageManager( 1043): Considering set kourtai.app/androidx.work.impl.background.systemjob.SystemJobService's state as 1 with userId = 0, callingPackage = null
 10-28 09:14:02.836 D/BluetoothManagerService( 1043): onAirplaneModeChanged state : BLE_ON, isAirplaneModeOn() : false
 10-28 09:14:02.837 D/BluetoothManagerService( 1043): Bluetooth persisted state: 1
 10-28 09:14:02.837 D/BluetoothManagerService( 1043): onAirplaneModeChanged delay MS : 400
 10-28 09:14:02.841 D/PowerController.RecogA( 1043): packageName:com.google.android.gms mFgEvent:APP_COMPONENT_USED mLastTimeFgEventChanged:140992139 mLastLaunchTime:0 mProcState:PROCESS_STATE_CACHED_EMPTY mLastTimeProcStateChanged:0 mNotificationState:0 mLastTimeNotificationStateChanged:0 mAudioState:0 mLastTimeAudioStateChanged:0 mRequestGps:true mAvoidConstraintGps:false mBehaviorType:0 mScreenOn:true mLastTimeScreenStateChanged:139828037 mLastBgTime:0 mFgDuration:0 mAudioDuration:0 mBgAudioDuration:0 mHasNoClearNotificationWhenNavi:false
-10-28 09:14:02.861 W/ballai.app( 3741): ClassLoaderContext classpath size mismatch. expected=1, found=0 (DLC[];PCL[base.apk*116406634]{PCL[/system/framework/org.apache.http.legacy.jar*1657016269]#PCL[/system/framework/com.android.location.provider.jar*105517020]#PCL[/system/framework/com.android.media.remotedisplay.jar*1751230919]} | DLC[];PCL[])
+10-28 09:14:02.861 W/kourtai.app( 3741): ClassLoaderContext classpath size mismatch. expected=1, found=0 (DLC[];PCL[base.apk*116406634]{PCL[/system/framework/org.apache.http.legacy.jar*1657016269]#PCL[/system/framework/com.android.location.provider.jar*105517020]#PCL[/system/framework/com.android.media.remotedisplay.jar*1751230919]} | DLC[];PCL[])
 10-28 09:14:02.863 D/BoundBrokerSvc(31300): onRebind: Intent { act=com.google.android.gms.cloudmessaging.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
 10-28 09:14:02.876 W/TranInstanceHelper( 3741): Failed to instance com.transsion.hubcore.appturbo.implement.TranViewAppturboImpl, java.lang.ClassNotFoundException: com.transsion.hubcore.appturbo.implement.TranViewAppturboImpl
 10-28 09:14:02.877 D/TranClassInfo( 3741): instance successfully. com.transsion.hubcore.view.TranViewImpl@ac126d6 from com.transsion.hubcore.view.ITranView
@@ -1591,9 +1591,9 @@
 10-28 09:14:02.989 I/Hoffnung( 2686): Universal onReceive: Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }
 10-28 09:14:02.990 D/TranBatteryServiceImpl( 1043): shutdownBatteryLowLocked emergenceyStatus=true mLowBatteryNotifyEnable=true mBatteryManagerInternal.getBatteryLevel()=96 isCharging=true getLowBatteryNotifySetting=1
 10-28 09:14:02.992 I/Hoffnung( 2686): LocalBroadcastManager onReceive Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }
-10-28 09:14:02.992 D/nativeloader( 3741): Load /data/app/~~Gk3MX00kgcxnB8M3khS92w==/ballai.app-R6yhqvvjObxlsI2CQEFwbQ==/split_config.arm64_v8a.apk!/lib/arm64-v8a/libflutter.so using class loader ns clns-4 (caller=/data/app/~~Gk3MX00kgcxnB8M3khS92w==/ballai.app-R6yhqvvjObxlsI2CQEFwbQ==/base.apk!classes4.dex): ok
+10-28 09:14:02.992 D/nativeloader( 3741): Load /data/app/~~Gk3MX00kgcxnB8M3khS92w==/kourtai.app-R6yhqvvjObxlsI2CQEFwbQ==/split_config.arm64_v8a.apk!/lib/arm64-v8a/libflutter.so using class loader ns clns-4 (caller=/data/app/~~Gk3MX00kgcxnB8M3khS92w==/kourtai.app-R6yhqvvjObxlsI2CQEFwbQ==/base.apk!classes4.dex): ok
 10-28 09:14:02.992 D/EmergencyMsgController( 1298):  powerPluggedIn: true level: 96 LowBatteryMode: false
-10-28 09:14:02.994 W/ballai.app( 3741): ClassLoaderContext classpath element checksum mismatch. expected=116406634, found=83125647 (DLC[];PCL[base.apk*116406634]{PCL[/system/framework/org.apache.http.legacy.jar*1657016269]#PCL[/system/framework/com.android.location.provider.jar*105517020]#PCL[/system/framework/com.android.media.remotedisplay.jar*1751230919]} | DLC[];PCL[/data/app/~~Gk3MX00kgcxnB8M3khS92w==/ballai.app-R6yhqvvjObxlsI2CQEFwbQ==/base.apk*83125647])
+10-28 09:14:02.994 W/kourtai.app( 3741): ClassLoaderContext classpath element checksum mismatch. expected=116406634, found=83125647 (DLC[];PCL[base.apk*116406634]{PCL[/system/framework/org.apache.http.legacy.jar*1657016269]#PCL[/system/framework/com.android.location.provider.jar*105517020]#PCL[/system/framework/com.android.media.remotedisplay.jar*1751230919]} | DLC[];PCL[/data/app/~~Gk3MX00kgcxnB8M3khS92w==/kourtai.app-R6yhqvvjObxlsI2CQEFwbQ==/base.apk*83125647])
 10-28 09:14:03.012 I/DPUModule(  628): dpur2p0 prepare: count(4)
 10-28 09:14:03.013 I/DPUModule(  628): dpur2p0 checkBlendMode: BlendMode(0x100), PlaneAlpha(0xff)
 10-28 09:14:03.013 I/DPUModule(  628): dpur2p0 checkScaleSize: Transform(0), SRCRect(720,1612), FBRect(720,1612)
@@ -1616,21 +1616,21 @@
 10-28 09:14:03.013 I/DPUModule(  628): dpur2p0 checkAFBCBlockSize: compressed(0),format(1), pitch(720), vstride(96)
 10-28 09:14:03.013 I/DPUModule(  628): dpur2p0 checkTransform: Transform(0), SRCRect(0,0)
 10-28 09:14:03.013 D/DPUModule(  628): [] support: 0
-10-28 09:14:03.058 I/PhenotypeResourceReader(31300): unable to find any Phenotype resource metadata for ballai.app
-10-28 09:14:03.069 W/ballai.app( 3741): type=1400 audit(0.0:102180): avc: denied { read } for name="max_map_count" dev="proc" ino=9359055 scontext=u:r:untrusted_app:s0:c196,c256,c512,c768 tcontext=u:object_r:proc_max_map_count:s0 tclass=file permissive=0 app=ballai.app
-10-28 09:14:03.085 E/ballai.app( 3741): No package ID 74 found for ID 0x740b0013.
+10-28 09:14:03.058 I/PhenotypeResourceReader(31300): unable to find any Phenotype resource metadata for kourtai.app
+10-28 09:14:03.069 W/kourtai.app( 3741): type=1400 audit(0.0:102180): avc: denied { read } for name="max_map_count" dev="proc" ino=9359055 scontext=u:r:untrusted_app:s0:c196,c256,c512,c768 tcontext=u:object_r:proc_max_map_count:s0 tclass=file permissive=0 app=kourtai.app
+10-28 09:14:03.085 E/kourtai.app( 3741): No package ID 74 found for ID 0x740b0013.
 10-28 09:14:03.086 I/FA      ( 3741): App measurement initialized, version: 193007
 10-28 09:14:03.086 I/FA      ( 3741): To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
 10-28 09:14:03.087 I/FA      ( 3741): To enable faster debug mode event logging run:
-10-28 09:14:03.087 I/FA      ( 3741):   adb shell setprop debug.firebase.analytics.app ballai.app
+10-28 09:14:03.087 I/FA      ( 3741):   adb shell setprop debug.firebase.analytics.app kourtai.app
 10-28 09:14:03.173 D/BoundBrokerSvc(31300): onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
 10-28 09:14:03.173 D/BoundBrokerSvc(31300): Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
 10-28 09:14:03.184 I/FA      ( 3741): Tag Manager is not found and thus will not be used
-10-28 09:14:03.192 D/vulkan  ( 3741): searching for layers in '/data/app/~~Gk3MX00kgcxnB8M3khS92w==/ballai.app-R6yhqvvjObxlsI2CQEFwbQ==/lib/arm64'
-10-28 09:14:03.193 D/vulkan  ( 3741): searching for layers in '/data/app/~~Gk3MX00kgcxnB8M3khS92w==/ballai.app-R6yhqvvjObxlsI2CQEFwbQ==/base.apk!/lib/arm64-v8a'
-10-28 09:14:03.193 D/vulkan  ( 3741): searching for layers in '/data/app/~~Gk3MX00kgcxnB8M3khS92w==/ballai.app-R6yhqvvjObxlsI2CQEFwbQ==/split_config.arm64_v8a.apk!/lib/arm64-v8a'
-10-28 09:14:03.214 D/vulkan  ( 3741): searching for layers in '/data/app/~~Gk3MX00kgcxnB8M3khS92w==/ballai.app-R6yhqvvjObxlsI2CQEFwbQ==/split_config.en.apk!/lib/arm64-v8a'
-10-28 09:14:03.214 D/vulkan  ( 3741): searching for layers in '/data/app/~~Gk3MX00kgcxnB8M3khS92w==/ballai.app-R6yhqvvjObxlsI2CQEFwbQ==/split_config.xhdpi.apk!/lib/arm64-v8a'
+10-28 09:14:03.192 D/vulkan  ( 3741): searching for layers in '/data/app/~~Gk3MX00kgcxnB8M3khS92w==/kourtai.app-R6yhqvvjObxlsI2CQEFwbQ==/lib/arm64'
+10-28 09:14:03.193 D/vulkan  ( 3741): searching for layers in '/data/app/~~Gk3MX00kgcxnB8M3khS92w==/kourtai.app-R6yhqvvjObxlsI2CQEFwbQ==/base.apk!/lib/arm64-v8a'
+10-28 09:14:03.193 D/vulkan  ( 3741): searching for layers in '/data/app/~~Gk3MX00kgcxnB8M3khS92w==/kourtai.app-R6yhqvvjObxlsI2CQEFwbQ==/split_config.arm64_v8a.apk!/lib/arm64-v8a'
+10-28 09:14:03.214 D/vulkan  ( 3741): searching for layers in '/data/app/~~Gk3MX00kgcxnB8M3khS92w==/kourtai.app-R6yhqvvjObxlsI2CQEFwbQ==/split_config.en.apk!/lib/arm64-v8a'
+10-28 09:14:03.214 D/vulkan  ( 3741): searching for layers in '/data/app/~~Gk3MX00kgcxnB8M3khS92w==/kourtai.app-R6yhqvvjObxlsI2CQEFwbQ==/split_config.xhdpi.apk!/lib/arm64-v8a'
 10-28 09:14:03.240 D/BluetoothManagerService( 1043): onAirplaneModeChanged state : BLE_ON, isAirplaneModeOn() : false
 10-28 09:14:03.241 D/BluetoothManagerService( 1043): Bluetooth persisted state: 1
 10-28 09:14:03.242 D/BluetoothManagerService( 1043): onAirplaneModeChanged delay MS : 400
@@ -1670,7 +1670,7 @@
 10-28 09:14:03.973 I/TranVersion( 3815): ro.build.version.sdk = 33
 10-28 09:14:03.974 I/TranVerifyKeyManager( 3815): TranThubVerifyKeyManager
 10-28 09:14:03.980 W/TranThubVerifyKeyManager( 3815): AppKey is null
-10-28 09:14:03.981 D/com.llfbandit.app_links( 3741): Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=ballai.app/ball_ai.android.MainActivity }
+10-28 09:14:03.981 D/com.llfbandit.app_links( 3741): Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=kourtai.app/kourt_ai.android.MainActivity }
 10-28 09:14:03.982 D/TranVerify( 1043): Verify success, sharesystemuid com.transsion.tranengine
 10-28 09:14:03.986 W/TranVersion( 3815): THUBCore No support Call!!! method version = 33181, >>> ThubCore vserion = 33121
 10-28 09:14:03.986 W/TranVersion( 3815):  mthod version must <= ThubCore version.
@@ -1739,7 +1739,7 @@
 10-28 09:14:04.080 D/AppResolutionTuner( 3741): dom2xml: App{packageName='com.rovio.angrybirdsseasons', scale='1.6', filteredWindows= []', scalingFlow= surfaceview'}
 10-28 09:14:04.081 D/AppResolutionTuner( 3741): dom2xml: App{packageName='com.kiloo.subwaysurf', scale='1.6', filteredWindows= []', scalingFlow= surfaceview'}
 10-28 09:14:04.081 D/AppResolutionTuner( 3741): loadTunerAppList - 
-10-28 09:14:04.081 D/SurfaceExt( 3741): initResolutionTunner, mPackageName:ballai.app,mContainPackageName:falsemXScaleValue:1.0,mYScaleValue:1.0
+10-28 09:14:04.081 D/SurfaceExt( 3741): initResolutionTunner, mPackageName:kourtai.app,mContainPackageName:falsemXScaleValue:1.0,mYScaleValue:1.0
 10-28 09:14:04.081 I/gle.android.tts( 3833): Using generational CollectorTypeCMC GC.
 10-28 09:14:04.089 I/adbd    (27701): jdwp connection from 3833
 10-28 09:14:04.093 D/nativeloader( 3833): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
@@ -1753,14 +1753,14 @@
 10-28 09:14:04.131 D/os.LiceInfo( 3833): instance successfully. com.transsion.graphics.GraphicLice@30cd548 from android.graphics.IGraphicLice
 10-28 09:14:04.134 E/SELinux (  364): avc:  denied  { find } for pid=3741 uid=10196 name=tran_pwhub scontext=u:r:untrusted_app:s0:c196,c256,c512,c768 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
 10-28 09:14:04.134 W/SystemServiceRegistry( 3741): No service published for: tran_pwhub
-10-28 09:14:04.140 D/vendor.unisoc.hardware.power-service(  642): Enter getSceneIdByName: sceneName:ballai.app
-10-28 09:14:04.153 V/WindowState( 1043): toString mSurfaceNameCache= mLastTitle=null title=ballai.app/ball_ai.android.MainActivity
-10-28 09:14:04.154 D/CoreBackPreview( 1043): Window{95f8db5 u0 ballai.app/ball_ai.android.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@dd617bb, mPriority=0}
-10-28 09:14:04.155 D/DynamicFrameRateController( 1043): onAfterActivityResumed packageName: ballai.app, activityName: ComponentInfo{ballai.app/ball_ai.android.MainActivity}
-10-28 09:14:04.155 I/ActivityTaskManager( 1043): LUCID activityResumed package name: ballai.app
-10-28 09:14:04.156 I/LightsService( 1043): LUCID hook setLucidFgApp  ballai.app 
+10-28 09:14:04.140 D/vendor.unisoc.hardware.power-service(  642): Enter getSceneIdByName: sceneName:kourtai.app
+10-28 09:14:04.153 V/WindowState( 1043): toString mSurfaceNameCache= mLastTitle=null title=kourtai.app/kourt_ai.android.MainActivity
+10-28 09:14:04.154 D/CoreBackPreview( 1043): Window{95f8db5 u0 kourtai.app/kourt_ai.android.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@dd617bb, mPriority=0}
+10-28 09:14:04.155 D/DynamicFrameRateController( 1043): onAfterActivityResumed packageName: kourtai.app, activityName: ComponentInfo{kourtai.app/kourt_ai.android.MainActivity}
+10-28 09:14:04.155 I/ActivityTaskManager( 1043): LUCID activityResumed package name: kourtai.app
+10-28 09:14:04.156 I/LightsService( 1043): LUCID hook setLucidFgApp  kourtai.app 
 10-28 09:14:04.156 E/system_server( 1043): LucidSystemServerApi::onSetLucidFgApp
-10-28 09:14:04.157 D/DynamicFrameRateController( 1043): setDFPSInternal name = ComponentInfo{ballai.app/ComponentInfo{ballai.app/ball_ai.android.MainActivity}} level = 0 mode = DFRC_MODE_BALANCE
+10-28 09:14:04.157 D/DynamicFrameRateController( 1043): setDFPSInternal name = ComponentInfo{kourtai.app/ComponentInfo{kourtai.app/kourt_ai.android.MainActivity}} level = 0 mode = DFRC_MODE_BALANCE
 10-28 09:14:04.157 D/DynamicFrameRateController( 1043): set fps : 0
 10-28 09:14:04.162 I/DPUModule(  628): dpur2p0 prepare: count(4)
 10-28 09:14:04.163 I/DPUModule(  628): dpur2p0 checkBlendMode: BlendMode(0x100), PlaneAlpha(0xff)
@@ -1810,13 +1810,13 @@
 10-28 09:14:04.183 W/gle.android.tts( 3833): Failed to find entry 'classes.dex': Entry not found
 10-28 09:14:04.184 W/gle.android.tts( 3833): Failed to find entry 'classes.dex': Entry not found
 10-28 09:14:04.186 D/nativeloader( 3833): Configuring clns-4 for other apk /data/app/~~uqmv_d8HxhKZRSmoxqOYcA==/com.google.android.tts-F5DbSxgC8tixX524BL8gvQ==/base.apk:/data/app/~~uqmv_d8HxhKZRSmoxqOYcA==/com.google.android.tts-F5DbSxgC8tixX524BL8gvQ==/split_config.arm64_v8a.apk:/data/app/~~uqmv_d8HxhKZRSmoxqOYcA==/com.google.android.tts-F5DbSxgC8tixX524BL8gvQ==/split_config.en.apk:/data/app/~~uqmv_d8HxhKZRSmoxqOYcA==/com.google.android.tts-F5DbSxgC8tixX524BL8gvQ==/split_config.xhdpi.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~uqmv_d8HxhKZRSmoxqOYcA==/com.google.android.tts-F5DbSxgC8tixX524BL8gvQ==/lib/arm64:/data/app/~~uqmv_d8HxhKZRSmoxqOYcA==/com.google.android.tts-F5DbSxgC8tixX524BL8gvQ==/base.apk!/lib/arm64-v8a:/data/app/~~uqmv_d8HxhKZRSmoxqOYcA==/com.google.android.tts-F5DbSxgC8tixX524BL8gvQ==/split_config.arm64_v8a.apk!/lib/arm64-v8a:/data/app/~~uqmv_d8HxhKZRSmoxqOYcA==/com.google.android.tts-F5DbSxgC8tixX524BL8gvQ==/split_config.en.apk!/lib/arm64-v8a:/data/app/~~uqmv_d8HxhKZRSmoxqOYcA==/com.google.android.tts-F5DbSx
-10-28 09:14:04.240 I/flutter ( 3741): [I][BallAI.BOOT] class A: system + persistence
+10-28 09:14:04.240 I/flutter ( 3741): [I][KourtAI.BOOT] class A: system + persistence
 10-28 09:14:04.249 I/Choreographer( 3741): Skipped 84 frames!  The application may be doing too much work on its main thread.
 10-28 09:14:04.273 W/binder:1043_F( 1043): type=1400 audit(0.0:102181): avc: denied { read } for name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=18919 scontext=u:r:system_server:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
 10-28 09:14:04.280 W/libc    ( 1043): Access denied finding property "persist.vendor.dbg.disable.art"
-10-28 09:14:04.287 I/hugh-tag( 1043): PhoneWindowManager onDefaultDisplayFocusChangedLw mCurrentFocus=Window{95f8db5 u0 ballai.app/ball_ai.android.MainActivity}-[Surface(name=*Title#18074)/@0xf1f4316]
+10-28 09:14:04.287 I/hugh-tag( 1043): PhoneWindowManager onDefaultDisplayFocusChangedLw mCurrentFocus=Window{95f8db5 u0 kourtai.app/kourt_ai.android.MainActivity}-[Surface(name=*Title#18074)/@0xf1f4316]
 10-28 09:14:04.292 D/nativeloader( 3833): Load libframework-connectivity-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
-10-28 09:14:04.293 I/WindowManager( 1043): Input focus has changed to Window{95f8db5 u0 ballai.app/ball_ai.android.MainActivity}-[Surface(name=*Title#18074)/@0xf1f4316] from 72a1aa8 com.transsion.itel.launcher/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher mDisplayId 0 updateInputWindows true, callers=com.android.server.wm.DisplayContent.updateFocusedWindowLocked:3778 com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:493 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6403 com.android.server.wm.WindowManagerService.relayoutWindow:2698 com.android.server.wm.Session.relayout:266 
+10-28 09:14:04.293 I/WindowManager( 1043): Input focus has changed to Window{95f8db5 u0 kourtai.app/kourt_ai.android.MainActivity}-[Surface(name=*Title#18074)/@0xf1f4316] from 72a1aa8 com.transsion.itel.launcher/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher mDisplayId 0 updateInputWindows true, callers=com.android.server.wm.DisplayContent.updateFocusedWindowLocked:3778 com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:493 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6403 com.android.server.wm.WindowManagerService.relayoutWindow:2698 com.android.server.wm.Session.relayout:266 
 10-28 09:14:04.296 D/VRI[MainActivity]( 3741): performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=0 ,relayoutResult=3
 10-28 09:14:04.297 I/DPUModule(  628): dpur2p0 prepare: count(4)
 10-28 09:14:04.297 I/DPUModule(  628): dpur2p0 checkBlendMode: BlendMode(0x100), PlaneAlpha(0xff)
@@ -1897,7 +1897,7 @@
 10-28 09:14:04.345 E/batterywarning( 1964): -------Aron------245---cp=========[SUBSYSTEM=backlight], ret==[36]
 10-28 09:14:04.345 E/batterywarning( 1964): -------Aron------245---cp=========[SOURCE=sysfs], ret==[36]
 10-28 09:14:04.345 E/batterywarning( 1964): -------Aron------245---cp=========[SEQNUM=111498], ret==[72]
-10-28 09:14:04.345 D/IMGGralloc(  627): Gralloc Alloc end  w:720, h:1612, f:0x101, usage:0xb00,iprivUsage:0x0,handle:0xf1e30540, ui64Stamp:366380, sSize:4657152, BufferName: SurfaceView[ballai.app/ball_ai.android.MainActivity]#1(BLAST Co, line = 2131
+10-28 09:14:04.345 D/IMGGralloc(  627): Gralloc Alloc end  w:720, h:1612, f:0x101, usage:0xb00,iprivUsage:0x0,handle:0xf1e30540, ui64Stamp:366380, sSize:4657152, BufferName: SurfaceView[kourtai.app/kourt_ai.android.MainActivity]#1(BLAST Co, line = 2131
 10-28 09:14:04.346 D/IMGGralloc(  627): Gralloc Free  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:366380 line = 2599
 10-28 09:14:04.346 D/IMGGralloc( 3741): Gralloc Register  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:366380, sSize:4657152, line = 2444
 10-28 09:14:04.347 I/DPUModule(  628): dpur2p0 prepare: count(4)
@@ -1952,11 +1952,11 @@
 10-28 09:14:04.513 D/refnotify(  893): status : refnotify_sleep=0 
 10-28 09:14:04.513 D/refnotify(  893): refnotify_parse_event: SOURCE = sysfs!
 10-28 09:14:04.538 I/NativeLibraryLoader( 3833): Beginning load of google_speech_sbg_tts_jni...
-10-28 09:14:04.544 D/WindowManager( 1043): after addSurfaceViewPkg packageName = ballai.app count:1
+10-28 09:14:04.544 D/WindowManager( 1043): after addSurfaceViewPkg packageName = kourtai.app count:1
 10-28 09:14:04.548 D/IMGGralloc( 3741): Gralloc Free  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:366380 line = 2599
 10-28 09:14:04.550 D/IMGGralloc(  627): GBuffer--------------(*format)=1
 10-28 09:14:04.550 D/IMGGralloc(  627): Gralloc alloc start  w:720, h:1612, f:0x1, usage:0xb00, privUsage:0x0, line = 1672
-10-28 09:14:04.553 D/IMGGralloc(  627): Gralloc Alloc end  w:720, h:1612, f:0x101, usage:0xb00,iprivUsage:0x0,handle:0xf1e30540, ui64Stamp:366394, sSize:4657152, BufferName: SurfaceView[ballai.app/ball_ai.android.MainActivity]#1(BLAST Co, line = 2131
+10-28 09:14:04.553 D/IMGGralloc(  627): Gralloc Alloc end  w:720, h:1612, f:0x101, usage:0xb00,iprivUsage:0x0,handle:0xf1e30540, ui64Stamp:366394, sSize:4657152, BufferName: SurfaceView[kourtai.app/kourt_ai.android.MainActivity]#1(BLAST Co, line = 2131
 10-28 09:14:04.553 D/CompatibilityChangeReporter( 1043): Compat change id reported: 161145287; UID 10121; state: DISABLED
 10-28 09:14:04.554 D/IMGGralloc(  627): Gralloc Free  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:366394 line = 2599
 10-28 09:14:04.554 D/IMGGralloc( 3741): Gralloc Register  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:366394, sSize:4657152, line = 2444
@@ -1973,7 +1973,7 @@
 10-28 09:14:04.591 D/CompatibilityChangeReporter( 1043): Compat change id reported: 143937733; UID 10113; state: ENABLED
 10-28 09:14:04.592 D/Prefork ( 1043): startResult is empty and running normal execution.
 10-28 09:14:04.604 D/FlutterGeolocator( 3741): Flutter engine connected. Connected engine count 1
-10-28 09:14:04.609 I/flutter ( 3741): [I][BallAI.BOOT] class A: Firebase
+10-28 09:14:04.609 I/flutter ( 3741): [I][KourtAI.BOOT] class A: Firebase
 10-28 09:14:04.612 D/Zygote  (  614): Forked child process 3865
 10-28 09:14:04.614 I/ActivityManager( 1043): Start proc 3865:com.android.vending:background/u0a113 for service {com.android.vending/com.google.android.finsky.licensingservice.background.BackgroundLicensingService}
 10-28 09:14:04.613 W/binder:1043_F( 1043): type=1400 audit(0.0:102182): avc: denied { read } for name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=18919 scontext=u:r:system_server:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
@@ -2158,7 +2158,7 @@
 10-28 09:14:05.470 I/VoiceDataDownloader( 3833): getAvailableVoicesInfo ur-in
 10-28 09:14:05.472 I/VoiceGenerator( 3833): Cache cleared
 10-28 09:14:05.472 I/VoiceDataManager( 3833): Calling onVoicesDataChange: updated voices
-10-28 09:14:05.486 I/flutter ( 3741): [I][BallAI.BOOT] ready for first frame
+10-28 09:14:05.486 I/flutter ( 3741): [I][KourtAI.BOOT] ready for first frame
 10-28 09:14:05.535 D/nativeloader( 3833): Load /data/app/~~uqmv_d8HxhKZRSmoxqOYcA==/com.google.android.tts-F5DbSxgC8tixX524BL8gvQ==/lib/arm64/libgoogle_speech_sbg_tts_jni.so using class loader ns clns-4 (caller=/data/app/~~uqmv_d8HxhKZRSmoxqOYcA==/com.google.android.tts-F5DbSxgC8tixX524BL8gvQ==/base.apk!classes2.dex): ok
 10-28 09:14:05.535 D/LIGHTS  (  647): func:write_int, path=/sys/class/backlight/sprd_backlight/brightness, value=1328
 10-28 09:14:05.536 D/batterywarning( 1964):  ---Aron---- buffer = 
@@ -2185,8 +2185,8 @@
 10-28 09:14:05.589 I/Finsky:background( 3865): [2] [BGP] Initializing flags...
 10-28 09:14:05.599 D/CompatibilityChangeReporter( 1043): Compat change id reported: 161145287; UID 10113; state: DISABLED
 10-28 09:14:05.615 I/Finsky:background( 3865): [2] Finished reading experiment flags from file [0tGUNCGIkbk4o6-fQ335kUYSKwVj4lusnHT-A5Dsy08] numFlags=2797.
-10-28 09:14:05.645 I/flutter ( 3741): [I][BallAI.NAV] root_state=authenticatedUnknown pending=none workout_active=false funnel=false
-10-28 09:14:05.650 I/flutter ( 3741): [I][BallAI.AUTH] session=signedOut
+10-28 09:14:05.645 I/flutter ( 3741): [I][KourtAI.NAV] root_state=authenticatedUnknown pending=none workout_active=false funnel=false
+10-28 09:14:05.650 I/flutter ( 3741): [I][KourtAI.AUTH] session=signedOut
 10-28 09:14:05.656 D/nativeloader( 3865): Load /data/app/~~LGryZsI31yMICjiVRbsX0A==/com.android.vending-isu7Ux_f6xSZBOk8J8_POA==/split_config.arm64_v8a.apk!/lib/arm64-v8a/libmappedcountercacheversionjni.so using class loader ns clns-5 (caller=/data/app/~~LGryZsI31yMICjiVRbsX0A==/com.android.vending-isu7Ux_f6xSZBOk8J8_POA==/base.apk): ok
 10-28 09:14:05.666 D/BluetoothManagerService( 1043): onAirplaneModeChanged state : BLE_ON, isAirplaneModeOn() : false
 10-28 09:14:05.668 D/BluetoothManagerService( 1043): Bluetooth persisted state: 1
@@ -2205,8 +2205,8 @@
 10-28 09:14:05.705 E/batterywarning( 1964): -------Aron------245---cp=========[SEQNUM=111506], ret==[72]
 10-28 09:14:05.706 D/refnotify(  893): refnotify_parse_event: SOURCE = sysfs!
 10-28 09:14:05.706 D/refnotify(  893): status : refnotify_sleep=0 
-10-28 09:14:05.710 I/flutter ( 3741): [I][BallAI.NAV] root_state=signedOut pending=none workout_active=false funnel=true
-10-28 09:14:05.710 I/flutter ( 3741): [I][BallAI.NAV] gate=authenticatedUnknown->signedOut
+10-28 09:14:05.710 I/flutter ( 3741): [I][KourtAI.NAV] root_state=signedOut pending=none workout_active=false funnel=true
+10-28 09:14:05.710 I/flutter ( 3741): [I][KourtAI.NAV] gate=authenticatedUnknown->signedOut
 10-28 09:14:05.712 D/IMGGralloc(  627): GBuffer--------------(*format)=1
 10-28 09:14:05.712 D/IMGGralloc(  627): Gralloc alloc start  w:720, h:1612, f:0x1, usage:0xb00, privUsage:0x0, line = 1672
 10-28 09:14:05.715 I/DPUModule(  628): dpur2p0 prepare: count(4)
@@ -2231,7 +2231,7 @@
 10-28 09:14:05.715 I/DPUModule(  628): dpur2p0 checkAFBCBlockSize: compressed(0),format(1), pitch(720), vstride(96)
 10-28 09:14:05.715 I/DPUModule(  628): dpur2p0 checkTransform: Transform(0), SRCRect(0,0)
 10-28 09:14:05.715 D/DPUModule(  628): [] support: 0
-10-28 09:14:05.716 D/IMGGralloc(  627): Gralloc Alloc end  w:720, h:1612, f:0x101, usage:0xb00,iprivUsage:0x0,handle:0xf1e30540, ui64Stamp:366483, sSize:4657152, BufferName: SurfaceView[ballai.app/ball_ai.android.MainActivity]#1(BLAST Co, line = 2131
+10-28 09:14:05.716 D/IMGGralloc(  627): Gralloc Alloc end  w:720, h:1612, f:0x101, usage:0xb00,iprivUsage:0x0,handle:0xf1e30540, ui64Stamp:366483, sSize:4657152, BufferName: SurfaceView[kourtai.app/kourt_ai.android.MainActivity]#1(BLAST Co, line = 2131
 10-28 09:14:05.716 D/IMGGralloc(  627): Gralloc Free  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:366483 line = 2599
 10-28 09:14:05.717 D/IMGGralloc( 3741): Gralloc Register  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:366483, sSize:4657152, line = 2444
 10-28 09:14:05.719 D/IMGGralloc(  682): Gralloc Register  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:366483, sSize:4657152, line = 2444
@@ -2316,7 +2316,7 @@
 10-28 09:14:06.042 D/BoundBrokerSvc(31300): Loading bound service for intent: Intent { act=com.google.android.gms.auth.blockstore.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
 10-28 09:14:06.042 D/refnotify(  893): status : refnotify_sleep=0 
 10-28 09:14:06.046 I/ExoPlayerImpl( 3833): Init bb2218a [AndroidXMedia3/1.11.1] [itel-A665L, itel A665L, ITEL, 33] [Canary:ON]
-10-28 09:14:06.056 I/flutter ( 3741): [RevenueCat] Configured (entitlement=ball-ai-pro)
+10-28 09:14:06.056 I/flutter ( 3741): [RevenueCat] Configured (entitlement=kourt-ai-pro)
 10-28 09:14:06.060 D/BroadcastQueue( 1043): Add broadcast <BroadcastRecord{d751fbe u-1 android.net.conn.CONNECTIVITY_CHANGE}> into [parallel | background], pending size 0
 10-28 09:14:06.064 D/BroadcastQueue( 1043): Done with parallel broadcast [background] [BroadcastRecord{d751fbe u-1 android.net.conn.CONNECTIVITY_CHANGE}]
 10-28 09:14:06.070 I/LocalSynthesizer( 3833): Voice en-us-x-iog-seanet-embedded is not supported by any existing synthesizers.
@@ -2391,7 +2391,7 @@
 10-28 09:14:06.183 D/IMGGralloc(  682): GBuffer--------------(*format)=1
 10-28 09:14:06.185 D/ConnectivityService( 1043): requestNetwork for uid/pid:1000/1043 asUid: 10196 activeRequest: null callbackRequest: 12565 [NetworkRequest [ REQUEST id=12566, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10196 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
 10-28 09:14:06.188 W/Parcel  ( 3741): Expecting binder but got null!
-10-28 09:14:06.189 D/WindowManager( 1043): finishDrawing: syncSeqId=0, postDrawTransaction=android.view.SurfaceControl$Transaction@8e36896, mSyncState=0, mDrawState=1, hasSyncHandlers=false, mClientWasDrawingForSync=false, win=Window{95f8db5 u0 ballai.app/ball_ai.android.MainActivity}-[Surface(name=*Title#18074)/@0xf1f4316]
+10-28 09:14:06.189 D/WindowManager( 1043): finishDrawing: syncSeqId=0, postDrawTransaction=android.view.SurfaceControl$Transaction@8e36896, mSyncState=0, mDrawState=1, hasSyncHandlers=false, mClientWasDrawingForSync=false, win=Window{95f8db5 u0 kourtai.app/kourt_ai.android.MainActivity}-[Surface(name=*Title#18074)/@0xf1f4316]
 10-28 09:14:06.192 D/UntrustedWifiNetworkFactory( 1043): got request NetworkRequest [ REQUEST id=12566, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10196 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]
 10-28 09:14:06.196 D/nativeloader( 3978): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
 10-28 09:14:06.197 D/ConnectivityService( 1043): NetReassign [12566 : null → 301] [c 0] [a 2] [i 9]
@@ -2475,8 +2475,8 @@
 10-28 09:14:06.271 I/native  ( 3833): I0000 00:00:1793160846.271379    3860 android_resource_loader.cc:116] Loaded resource:lettuce_model_scorer
 10-28 09:14:06.271 I/native  ( 3833): I0000 00:00:1793160846.271815    3860 data_source.cc:95] Opening data source "/data/user_de/0/com.google.android.tts/files/superpacks/en-us/en-us-x-multi-seanet-r84/../en-us-x-multi-r84/lettuce_classify_embedded_us_generated_android.far" (as: FILE) ...
 10-28 09:14:06.273 I/native  ( 3833): I0000 00:00:1793160846.273252    3860 data_source.cc:99] ... Opened data source "/data/user_de/0/com.google.android.tts/files/superpacks/en-us/en-us-x-multi-seanet-r84/../en-us-x-multi-r84/lettuce_classify_embedded_us_generated_android.far" of size 4621001
-10-28 09:14:06.279 I/Layer   (  682): fillInputInfo layer:ballai.app/ball_ai.android.MainActivity#18074, visible=1 (hasInputInfo:1, isHidden:0, alpha:0.120300, mActiveBuffer:2), parent:95f8db5 ballai.app/ball_ai.android.MainActivity#18073, parenthidden:0
-10-28 09:14:06.280 I/Layer   (  682): fillInputInfo layer:SurfaceView[ballai.app/ball_ai.android.MainActivity](BLAST)#18079, visible=1 (hasInputInfo:1, isHidden:0, alpha:0.120300, mActiveBuffer:2), parent:SurfaceView[ballai.app/ball_ai.android.MainActivity]#18078, parenthidden:0
+10-28 09:14:06.279 I/Layer   (  682): fillInputInfo layer:kourtai.app/kourt_ai.android.MainActivity#18074, visible=1 (hasInputInfo:1, isHidden:0, alpha:0.120300, mActiveBuffer:2), parent:95f8db5 kourtai.app/kourt_ai.android.MainActivity#18073, parenthidden:0
+10-28 09:14:06.280 I/Layer   (  682): fillInputInfo layer:SurfaceView[kourtai.app/kourt_ai.android.MainActivity](BLAST)#18079, visible=1 (hasInputInfo:1, isHidden:0, alpha:0.120300, mActiveBuffer:2), parent:SurfaceView[kourtai.app/kourt_ai.android.MainActivity]#18078, parenthidden:0
 10-28 09:14:06.281 D/LicenseClient( 3741): Connected to the licensing service.
 10-28 09:14:06.282 D/LicenseClient( 3741): Sending request to license reporting service...
 10-28 09:14:06.286 D/CompatibilityChangeReporter( 3978): Compat change id reported: 171979766; UID 10113; state: ENABLED
@@ -2487,7 +2487,7 @@
 10-28 09:14:06.311 D/IMGGralloc(  628): Gralloc Register  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:366394, sSize:4657152, line = 2444
 10-28 09:14:06.312 D/IMGGralloc(  628): Gralloc Register  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:366487, sSize:4657152, line = 2444
 10-28 09:14:06.312 W/DPUModule(  628): Warning: Dispc cannot support 7 layer blending(0)
-10-28 09:14:06.328 I/ActivityTaskManager( 1043): Displayed ballai.app/ball_ai.android.MainActivity: +4s142ms
+10-28 09:14:06.328 I/ActivityTaskManager( 1043): Displayed kourtai.app/kourt_ai.android.MainActivity: +4s142ms
 10-28 09:14:06.336 D/nativeloader( 3978): Configuring clns-4 for other apk /system/framework/org.apache.http.legacy.jar. target_sdk_version=37, uses_libraries=ALL, library_path=/data/app/~~LGryZsI31yMICjiVRbsX0A==/com.android.vending-isu7Ux_f6xSZBOk8J8_POA==/lib/arm64:/data/app/~~LGryZsI31yMICjiVRbsX0A==/com.android.vending-isu7Ux_f6xSZBOk8J8_POA==/base.apk!/lib/arm64-v8a:/data/app/~~LGryZsI31yMICjiVRbsX0A==/com.android.vending-isu7Ux_f6xSZBOk8J8_POA==/split_config.arm64_v8a.apk!/lib/arm64-v8a:/data/app/~~LGryZsI31yMICjiVRbsX0A==/com.android.vending-isu7Ux_f6xSZBOk8J8_POA==/split_config.en.apk!/lib/arm64-v8a:/data/app/~~LGryZsI31yMICjiVRbsX0A==/com.android.vending-isu7Ux_f6xSZBOk8J8_POA==/split_phonesky_data_loader.apk!/lib/arm64-v8a:/data/app/~~LGryZsI31yMICjiVRbsX0A==/com.android.vending-isu7Ux_f6xSZBOk8J8_POA==/split_phonesky_data_loader.config.arm64_v8a.apk!/lib/arm64-v8a:/data/app/~~LGryZsI31yMICjiVRbsX0A==/com.android.vending-isu7Ux_f6xSZBOk8J8_POA==/split_phonesky_webrtc_native_lib.apk!/lib/arm64-v8a:/data/app/~~LGryZsI31yMICjiVRbsX0A==/com.a
 10-28 09:14:06.338 D/BroadcastQueue( 1043): Add broadcast <BroadcastRecord{217a52a u-1 android.net.conn.CONNECTIVITY_CHANGE}> into [parallel | background], pending size 0
 10-28 09:14:06.341 D/BroadcastQueue( 1043): Done with parallel broadcast [background] [BroadcastRecord{217a52a u-1 android.net.conn.CONNECTIVITY_CHANGE}]
@@ -2500,10 +2500,10 @@
 10-28 09:14:06.369 D/IMGGralloc( 3741): Gralloc Register  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:366505, sSize:4657152, line = 2444
 10-28 09:14:06.372 D/IMGGralloc(  682): Gralloc Register  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:366505, sSize:4657152, line = 2444
 10-28 09:14:06.372 D/IMGGralloc(  682): GBuffer--------------(*format)=1
-10-28 09:14:06.369 W/ballai.app( 3741): type=1400 audit(0.0:102183): avc: denied { read } for name="u:object_r:unipnp_prop:s0" dev="tmpfs" ino=18899 scontext=u:r:untrusted_app:s0:c196,c256,c512,c768 tcontext=u:object_r:unipnp_prop:s0 tclass=file permissive=0 app=ballai.app
+10-28 09:14:06.369 W/kourtai.app( 3741): type=1400 audit(0.0:102183): avc: denied { read } for name="u:object_r:unipnp_prop:s0" dev="tmpfs" ino=18899 scontext=u:r:untrusted_app:s0:c196,c256,c512,c768 tcontext=u:object_r:unipnp_prop:s0 tclass=file permissive=0 app=kourtai.app
 10-28 09:14:06.373 W/libc    ( 3741): Access denied finding property "persist.unipnp.debug"
 10-28 09:14:06.373 W/libc    ( 3741): Access denied finding property "persist.unipnp.debug"
-10-28 09:14:06.369 W/ballai.app( 3741): type=1400 audit(0.0:102184): avc: denied { read } for name="u:object_r:unipnp_prop:s0" dev="tmpfs" ino=18899 scontext=u:r:untrusted_app:s0:c196,c256,c512,c768 tcontext=u:object_r:unipnp_prop:s0 tclass=file permissive=0 app=ballai.app
+10-28 09:14:06.369 W/kourtai.app( 3741): type=1400 audit(0.0:102184): avc: denied { read } for name="u:object_r:unipnp_prop:s0" dev="tmpfs" ino=18899 scontext=u:r:untrusted_app:s0:c196,c256,c512,c768 tcontext=u:object_r:unipnp_prop:s0 tclass=file permissive=0 app=kourtai.app
 10-28 09:14:06.381 D/IMGGralloc(  628): Gralloc Register  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:366505, sSize:4657152, line = 2444
 10-28 09:14:06.382 W/DPUModule(  628): Warning: Dispc cannot support 7 layer blending(0)
 10-28 09:14:06.388 D/CompatibilityChangeReporter( 1043): Compat change id reported: 214016041; UID 10196; state: ENABLED
@@ -2531,10 +2531,10 @@
 10-28 09:14:06.479 D/BluetoothManagerService( 1043): Bluetooth persisted state: 1
 10-28 09:14:06.479 D/BluetoothManagerService( 1043): onAirplaneModeChanged delay MS : 400
 10-28 09:14:06.484 I/DPUModule(  628): dpur2p0 prepare: count(6)
-10-28 09:14:06.487 I/ballai.app( 3741): Background young concurrent mark compact GC freed 4004KB AllocSpace bytes, 8(1260KB) LOS objects, 23% free, 9859KB/12MB, paused 2.087ms,4.813ms total 111.634ms
+10-28 09:14:06.487 I/kourtai.app( 3741): Background young concurrent mark compact GC freed 4004KB AllocSpace bytes, 8(1260KB) LOS objects, 23% free, 9859KB/12MB, paused 2.087ms,4.813ms total 111.634ms
 10-28 09:14:06.500 I/DPUModule(  628): dpur2p0 prepare: count(6)
 10-28 09:14:06.516 I/DPUModule(  628): dpur2p0 prepare: count(6)
-10-28 09:14:06.526 I/input_debug( 1043): package: ballai.app isPassWordInput: false inputType: 0 mMethodMap: false isKeyguardShowing: false enable: 0 isSplitScreen: false
+10-28 09:14:06.526 I/input_debug( 1043): package: kourtai.app isPassWordInput: false inputType: 0 mMethodMap: false isKeyguardShowing: false enable: 0 isSplitScreen: false
 10-28 09:14:06.531 D/IMGGralloc(  628): Gralloc Free  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:365570 line = 2599
 10-28 09:14:06.531 D/IMGGralloc(  628): Gralloc Free  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:365508 line = 2599
 10-28 09:14:06.531 D/IMGGralloc(  628): Gralloc Free  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:365478 line = 2599
@@ -2561,24 +2561,24 @@
 10-28 09:14:06.533 I/DPUModule(  628): dpur2p0 checkAFBCBlockSize: compressed(0),format(1), pitch(720), vstride(96)
 10-28 09:14:06.533 I/DPUModule(  628): dpur2p0 checkTransform: Transform(0), SRCRect(0,0)
 10-28 09:14:06.533 D/DPUModule(  628): [] support: 0
-10-28 09:14:06.534 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
-10-28 09:14:06.539 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:06.534 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
+10-28 09:14:06.539 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:06.543 I/native  ( 3833): I0000 00:00:1793160846.543648    3860 android_resource_loader.cc:100] Built resource lettuce_node_generator_grm
 10-28 09:14:06.543 I/native  ( 3833): I0000 00:00:1793160846.543823    3860 android_resource_loader.cc:116] Loaded resource:lettuce_node_generator_grm
 10-28 09:14:06.543 I/native  ( 3833): I0000 00:00:1793160846.543897    3860 data_source.cc:95] Opening data source "/data/user_de/0/com.google.android.tts/files/superpacks/en-us/en-us-x-multi-seanet-r84/../en-us-x-multi-r84/lucid_collection_android.far" (as: FILE) ...
 10-28 09:14:06.545 I/native  ( 3833): I0000 00:00:1793160846.545659    3860 data_source.cc:99] ... Opened data source "/data/user_de/0/com.google.android.tts/files/superpacks/en-us/en-us-x-multi-seanet-r84/../en-us-x-multi-r84/lucid_collection_android.far" of size 307960
-10-28 09:14:06.546 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
-10-28 09:14:06.549 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:06.546 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
+10-28 09:14:06.549 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:06.551 I/GoogleInputMethodService( 2156): GoogleInputMethodService.onFinishInput():2404 
 10-28 09:14:06.555 I/Module  ( 2156): DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatusInternal():119 repeatCheckTimes = 0, locked = false
-10-28 09:14:06.557 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:06.557 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:06.558 I/native  ( 3833): I0000 00:00:1793160846.558764    3860 android_resource_loader.cc:100] Built resource lucid_parser_grm_fst
 10-28 09:14:06.558 I/native  ( 3833): I0000 00:00:1793160846.558933    3860 android_resource_loader.cc:116] Loaded resource:lucid_parser_grm_fst
 10-28 09:14:06.559 I/native  ( 3833): I0000 00:00:1793160846.559033    3860 data_source.cc:95] Opening data source "/data/user_de/0/com.google.android.tts/files/superpacks/en-us/en-us-x-multi-seanet-r84/../en-us-x-multi-r84/markup_triggers.pb" (as: FILE) ...
 10-28 09:14:06.560 I/native  ( 3833): I0000 00:00:1793160846.560095    3860 data_source.cc:99] ... Opened data source "/data/user_de/0/com.google.android.tts/files/superpacks/en-us/en-us-x-multi-seanet-r84/../en-us-x-multi-r84/markup_triggers.pb" of size 930
 10-28 09:14:06.561 D/SurfaceFlinger(  682): unisoc-graphics, commit has frameMissed:1, vysncId:18554197
 10-28 09:14:06.561 D/IMGGralloc( 1559): Gralloc Free  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:365478 line = 2599
-10-28 09:14:06.562 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:06.562 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:06.563 D/IMGGralloc( 1559): Gralloc Free  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:365508 line = 2599
 10-28 09:14:06.564 I/Layer   (  682): fillInputInfo layer:com.transsion.itel.launcher/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher#18003, visible=0 (hasInputInfo:1, isHidden:1, alpha:1.000000, mActiveBuffer:2), parent:72a1aa8 com.transsion.itel.launcher/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher#56, parenthidden:1
 10-28 09:14:06.564 I/Layer   (  682): fillInputInfo layer:Wallpaper BBQ wrapper#66, visible=0 (hasInputInfo:1, isHidden:1, alpha:1.000000, mActiveBuffer:2), parent:com.android.systemui.ImageWallpaper#65, parenthidden:1
@@ -2607,11 +2607,11 @@
 10-28 09:14:06.566 D/DPUModule(  628): [] support: 0
 10-28 09:14:06.565 W/binder:1043_11( 1043): type=1400 audit(0.0:102185): avc: denied { read } for name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=18919 scontext=u:r:system_server:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
 10-28 09:14:06.568 W/libc    ( 1043): Access denied finding property "persist.vendor.dbg.disable.art"
-10-28 09:14:06.569 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:06.569 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:06.572 D/VRI[QuickstepLauncher]( 1559): performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=0 ,relayoutResult=2
-10-28 09:14:06.579 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:06.579 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:06.583 D/IMGGralloc(  682): Gralloc Free  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:365478 line = 2599
-10-28 09:14:06.585 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:06.585 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:06.586 I/DPUModule(  628): dpur2p0 prepare: count(4)
 10-28 09:14:06.586 I/DPUModule(  628): dpur2p0 checkBlendMode: BlendMode(0x100), PlaneAlpha(0xff)
 10-28 09:14:06.586 I/DPUModule(  628): dpur2p0 checkScaleSize: Transform(0), SRCRect(720,1612), FBRect(720,1612)
@@ -2646,7 +2646,7 @@
 10-28 09:14:06.591 E/batterywarning( 1964): -------Aron------245---cp=========[SEQNUM=111511], ret==[72]
 10-28 09:14:06.592 D/refnotify(  893): refnotify_parse_event: SOURCE = sysfs!
 10-28 09:14:06.592 D/refnotify(  893): status : refnotify_sleep=0 
-10-28 09:14:06.596 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:06.596 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:06.602 I/flutter ( 3741): [LocalNotification] cancelled id=96088 tag=notificationFunnel.subscriptionAtRisk.2h
 10-28 09:14:06.609 D/IMGGralloc( 1559): Gralloc Free  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:365570 line = 2599
 10-28 09:14:06.613 D/IMGGralloc(  628): Gralloc Register  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:366483, sSize:4657152, line = 2444
@@ -2676,7 +2676,7 @@
 10-28 09:14:06.617 D/SharedPreferencesPolicy( 1559): checkFinishers msg.what :159,msg.obj:android.app.servertransaction.ClientTransaction@8bc5bad4
 10-28 09:14:06.620 I/native  ( 3833): I0000 00:00:1793160846.616148    3860 android_resource_loader.cc:116] Loaded resource:markup_triggers
 10-28 09:14:06.620 I/native  ( 3833): I0000 00:00:1793160846.620217    3860 data_source.cc:95] Opening data source "/data/user_de/0/com.google.android.tts/files/superpacks/en-us/en-us-x-multi-seanet-r84/../en-us-x-multi-r84/morphosyntactic_mapping.pb" (as: FILE) ...
-10-28 09:14:06.622 I/GoogleInputMethodService( 2156): GoogleInputMethodService.onStartInput():1552 onStartInput(EditorInfo{EditorInfo{packageName=ballai.app, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+10-28 09:14:06.622 I/GoogleInputMethodService( 2156): GoogleInputMethodService.onStartInput():1552 onStartInput(EditorInfo{EditorInfo{packageName=kourtai.app, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
 10-28 09:14:06.622 I/native  ( 3833): I0000 00:00:1793160846.622455    3860 data_source.cc:99] ... Opened data source "/data/user_de/0/com.google.android.tts/files/superpacks/en-us/en-us-x-multi-seanet-r84/../en-us-x-multi-r84/morphosyntactic_mapping.pb" of size 6
 10-28 09:14:06.626 I/native  ( 3833): I0000 00:00:1793160846.626505    3860 android_resource_loader.cc:100] Built resource morph_analyzer_attribute_map
 10-28 09:14:06.626 I/LatinInputMethodServiceBase( 2156): LatinInputMethodServiceBase.updateInputViewCoverNavigation():360 Update input view padding, isNavbarOverInputWindow=false, bottom inset=96
@@ -2896,12 +2896,12 @@
 10-28 09:14:06.891 I/Finsky  ( 3978): [4419] Finished reading experiment flags from file [5aDO6QbckMj8ZLefM9W3ZPNS2G0GLnhRh8ufZ0HyPl0] numFlags=2166.
 10-28 09:14:06.894 D/BluetoothManagerService( 1043): onAirplaneModeChanged state : BLE_ON, isAirplaneModeOn() : false
 10-28 09:14:06.894 I/flutter ( 3741): [LocalNotification] cancelled id=98294 tag=notificationFunnel.trialExpired.1d
-10-28 09:14:06.895 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:06.895 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:06.897 I/Finsky  ( 3978): [4421] Finished reading experiment flags from file [Se-xCc4LzNyh3UrKMIU2sUf-PUKz4oQEbpKZDMuaFno] numFlags=2157.
 10-28 09:14:06.897 D/BluetoothManagerService( 1043): Bluetooth persisted state: 1
 10-28 09:14:06.897 D/BluetoothManagerService( 1043): onAirplaneModeChanged delay MS : 400
 10-28 09:14:06.898 D/IMGGralloc(  682): Gralloc Free  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:365508 line = 2599
-10-28 09:14:06.898 D/TPMS    ( 2217): getTopPackageName pkgName: ballai.app
+10-28 09:14:06.898 D/TPMS    ( 2217): getTopPackageName pkgName: kourtai.app
 10-28 09:14:06.899 I/flutter ( 3741): [LocalNotification] cancelled id=93575 tag=notificationFunnel.trialExpired.3d
 10-28 09:14:06.900 D/os.permission.PermissionInfo( 1043): checkPermission 10156:android.permission.PACKAGE_USAGE_STATS:false
 10-28 09:14:06.900 I/DPUModule(  628): dpur2p0 prepare: count(4)
@@ -3592,12 +3592,12 @@
 10-28 09:14:07.316 V/C2UnisocAvcDec(  630): fetchGraphicBlock, stride: 1088, sliceHeight: 1920, mDecoderSwFlag: 0
 10-28 09:14:07.317 D/IMGGralloc( 3741): InsertBlankEntry: SPRD_DATA_SPACE ui64Stamp:366531,eYUVColorSpace:4, yuv_info:4
 10-28 09:14:07.318 D/IMGGralloc( 3741): Gralloc Register  w:1280, h:2288, f:0x106, usage:0x30000166, ui64Stamp:366531, sSize:4395008, line = 2444
-10-28 09:14:07.318 I/Finsky  ( 3978): [4434] ballai.app: Account determined from installer data - [fA6p0UUZAJZOP967TYDXcFTxUT9jkZbZPmHce_smsnA]
+10-28 09:14:07.318 I/Finsky  ( 3978): [4434] kourtai.app: Account determined from installer data - [fA6p0UUZAJZOP967TYDXcFTxUT9jkZbZPmHce_smsnA]
 10-28 09:14:07.318 I/flutter ( 3741): [LocalNotification] cancelled id=97900 tag=notificationFunnel.trialNotStarted.6d
 10-28 09:14:07.319 D/BufferPoolAccessor2.0(  904): bufferpool2 0xb400007c6308c628 : 0(0 size) total buffers - 0(0 size) used buffers - 0/0 (recycle/alloc) - 0/0 (fetch/transfer)
 10-28 09:14:07.320 D/BufferPoolAccessor2.0(  904): bufferpool2 0xb400007c6308ca28 : 0(0 size) total buffers - 0(0 size) used buffers - 26/30 (recycle/alloc) - 4/29 (fetch/transfer)
 10-28 09:14:07.322 I/CCodec  ( 3741): Created component [c2.android.aac.decoder]
-10-28 09:14:07.324 I/Finsky  ( 3978): [4434] Billing preferred account via installer for ballai.app: [fA6p0UUZAJZOP967TYDXcFTxUT9jkZbZPmHce_smsnA]
+10-28 09:14:07.324 I/Finsky  ( 3978): [4434] Billing preferred account via installer for kourtai.app: [fA6p0UUZAJZOP967TYDXcFTxUT9jkZbZPmHce_smsnA]
 10-28 09:14:07.327 D/IMGGralloc(  627): GBuffer--------------(*format)=262
 10-28 09:14:07.327 D/IMGGralloc(  627): Gralloc alloc start  w:1088, h:1920, f:0x106, usage:0x166, privUsage:0x0, line = 1672
 10-28 09:14:07.329 D/CCodecConfig( 3741): read media type: audio/mp4a-latm
@@ -3900,7 +3900,7 @@
 10-28 09:14:07.457 I/VSP     (  630): H264Dec_decode_one_slice_data, 955, VSP_MODE_OFF
 10-28 09:14:07.459 I/C2SoftAacDec(  904): Reconfiguring decoder: 0->48000 Hz, 0->2 channels
 10-28 09:14:07.460 I/flutter ( 3741): [LocalNotification] cancelled id=95103 tag=notificationFunnel.trialNotStarted.30d
-10-28 09:14:07.464 I/Finsky  ( 3978): [4434] ballai.app: Account determined from installer data - [fA6p0UUZAJZOP967TYDXcFTxUT9jkZbZPmHce_smsnA]
+10-28 09:14:07.464 I/Finsky  ( 3978): [4434] kourtai.app: Account determined from installer data - [fA6p0UUZAJZOP967TYDXcFTxUT9jkZbZPmHce_smsnA]
 10-28 09:14:07.465 I/flutter ( 3741): [NotificationHandler] funnel cancelled: notificationFunnel.trialNotStarted.2h, notificationFunnel.trialNotStarted.1d, notificationFunnel.trialNotStarted.2d, notificationFunnel.trialNotStarted.3d, notificationFunnel.trialNotStarted.4d, notificationFunnel.trialNotStarted.5d, notificationFunnel.trialNotStarted.6d, notificationFunnel.trialNotStarted.7d, notificationFunnel.trialNotStarted.14d, notificationFunnel.trialNotStarted.30d
 10-28 09:14:07.467 I/VSP     (  630): H264Dec_store_picture_in_dpb, 1193, 0 used vs total 19
 10-28 09:14:07.467 I/VSP     (  630): H264Dec_store_picture_in_dpb, 1201, 0 used vs total 19
@@ -3920,7 +3920,7 @@
 10-28 09:14:07.470 I/C2UnisocAvcDec(  630): pmem 0x20581000 - 0xf165b000 - 655360
 10-28 09:14:07.470 I/VSP     (  630): H264Dec_decode_one_slice_data, 796, slice_type: P
 10-28 09:14:07.470 I/VSP     (  630): H264Dec_decode_one_slice_data, 955, VSP_MODE_OFF
-10-28 09:14:07.470 I/Finsky  ( 3978): [4433] Billing preferred account via installer for ballai.app: [fA6p0UUZAJZOP967TYDXcFTxUT9jkZbZPmHce_smsnA]
+10-28 09:14:07.470 I/Finsky  ( 3978): [4433] Billing preferred account via installer for kourtai.app: [fA6p0UUZAJZOP967TYDXcFTxUT9jkZbZPmHce_smsnA]
 10-28 09:14:07.476 D/CCodecConfig( 3741): c2 config diff is   c2::u32 raw.channel-mask.value = 12
 10-28 09:14:07.477 D/CCodecBuffers( 3741): [c2.android.aac.decoder#905:Output[N]] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
 10-28 09:14:07.477 D/CCodecBuffers( 3741):   int32_t aac-drc-album-mode = 0
@@ -4180,7 +4180,7 @@
 10-28 09:14:07.628 I/VSP     (  630): H264Dec_decode_one_slice_data, 796, slice_type: P
 10-28 09:14:07.628 I/VSP     (  630): H264Dec_decode_one_slice_data, 955, VSP_MODE_OFF
 10-28 09:14:07.631 I/flutter ( 3741): [BrandVideo.splash] loaded assets/videos/splash_dark.mp4
-10-28 09:14:07.631 I/ballai.app( 3741): Background concurrent mark compact GC freed 5199KB AllocSpace bytes, 11(7136KB) LOS objects, 49% free, 13MB/26MB, paused 2.807ms,3.108ms total 121.179ms
+10-28 09:14:07.631 I/kourtai.app( 3741): Background concurrent mark compact GC freed 5199KB AllocSpace bytes, 11(7136KB) LOS objects, 49% free, 13MB/26MB, paused 2.807ms,3.108ms total 121.179ms
 10-28 09:14:07.633 D/IMGGralloc( 3741): Gralloc Register  w:1088, h:1920, f:0x106, usage:0x166, ui64Stamp:366529, sSize addr:0xf643b598, line = 2450
 10-28 09:14:07.633 D/IMGGralloc( 3741): GBuffer--------------(*format)=262
 10-28 09:14:07.634 I/cn_CronetLibraryLoader( 3978): Cronet version: 156.0.8078.39, arch: aarch64, source: Statically Linked
@@ -4223,7 +4223,7 @@
 10-28 09:14:07.646 D/IMGGralloc(  630): GBuffer--------------(*format)=262
 10-28 09:14:07.646 D/IMGGralloc( 3741): Gralloc Register  w:1088, h:1920, f:0x106, usage:0x166, ui64Stamp:366561, sSize addr:0xf643c0d8, line = 2450
 10-28 09:14:07.646 D/IMGGralloc( 3741): GBuffer--------------(*format)=262
-10-28 09:14:07.646 D/Griffin/DeviceState( 1043): update playerItem, pid = 3741, uid = 10196, package = ballai.app, playerId = 13063, playerState = 2
+10-28 09:14:07.646 D/Griffin/DeviceState( 1043): update playerItem, pid = 3741, uid = 10196, package = kourtai.app, playerId = 13063, playerState = 2
 10-28 09:14:07.648 I/APM_AudioPolicyManager(  656): startOutput portId 1560
 10-28 09:14:07.648 I/APM_AudioPolicyManager(  656): startOutput() output 13, stream 3, session 13105
 10-28 09:14:07.648 I/AudioPolicyManagerCustomBase(  656): startOutputSetInt portId=1560 mOutputs.size=2
@@ -4470,7 +4470,7 @@
 10-28 09:14:07.718 D/ConnectivityService( 1043): NetReassign [no changes] [c 1] [a 6] [i 11]
 10-28 09:14:07.720 D/IMGGralloc(  627): GBuffer--------------(*format)=262
 10-28 09:14:07.721 D/IMGGralloc(  627): Gralloc alloc start  w:1088, h:1920, f:0x106, usage:0x166, privUsage:0x0, line = 1672
-10-28 09:14:07.724 D/Griffin/DeviceState( 1043): update playerItem, pid = 3741, uid = 10196, package = ballai.app, playerId = 13063, playerState = 2
+10-28 09:14:07.724 D/Griffin/DeviceState( 1043): update playerItem, pid = 3741, uid = 10196, package = kourtai.app, playerId = 13063, playerState = 2
 10-28 09:14:07.725 D/IMGGralloc(  627): InsertBlankEntry: SPRD_DATA_SPACE ui64Stamp:366590,eYUVColorSpace:1, yuv_info:1
 10-28 09:14:07.726 D/IMGGralloc(  627): Gralloc Alloc end  w:1088, h:1920, f:0x106, usage:0x166,iprivUsage:0x0,handle:0xf1e30540, ui64Stamp:366590, sSize:3133440, BufferName: ImageReader-1x1f22m6-3741-0, line = 2131
 10-28 09:14:07.726 D/IMGGralloc(  627): Gralloc Free  w:1088, h:1920, f:0x106, usage:0x166, ui64Stamp:366590 line = 2599
@@ -5051,7 +5051,7 @@
 10-28 09:14:08.017 I/C2UnisocAvcDec(  630): pmem 0x2159d000 - 0xf0476000 - 655360
 10-28 09:14:08.017 I/VSP     (  630): H264Dec_decode_one_slice_data, 796, slice_type: I
 10-28 09:14:08.017 I/VSP     (  630): H264Dec_decode_one_slice_data, 955, VSP_MODE_OFF
-10-28 09:14:08.020 D/IMGGralloc(  627): Gralloc Alloc end  w:720, h:1612, f:0x101, usage:0xb00,iprivUsage:0x0,handle:0xf1e30540, ui64Stamp:366621, sSize:4657152, BufferName: SurfaceView[ballai.app/ball_ai.android.MainActivity]#1(BLAST Co, line = 2131
+10-28 09:14:08.020 D/IMGGralloc(  627): Gralloc Alloc end  w:720, h:1612, f:0x101, usage:0xb00,iprivUsage:0x0,handle:0xf1e30540, ui64Stamp:366621, sSize:4657152, BufferName: SurfaceView[kourtai.app/kourt_ai.android.MainActivity]#1(BLAST Co, line = 2131
 10-28 09:14:08.020 D/IMGGralloc(  627): Gralloc Free  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:366621 line = 2599
 10-28 09:14:08.021 D/IMGGralloc(  627): GBuffer--------------(*format)=262
 10-28 09:14:08.021 D/IMGGralloc(  627): Gralloc alloc start  w:1088, h:1920, f:0x106, usage:0x166, privUsage:0x0, line = 1672
@@ -6254,7 +6254,7 @@
 10-28 09:14:08.459 D/IMGGralloc( 3741): Buffer: ui64Stamp: 366598, size: 3133440
 10-28 09:14:08.460 D/IMGGralloc( 3741): Buffer: ui64Stamp: 366594, size: 3133440
 10-28 09:14:08.460 D/IMGGralloc( 3741): Buffer: ui64Stamp: 366590, size: 3133440
-10-28 09:14:08.461 D/Griffin/DeviceState( 1043): update playerItem, pid = 3741, uid = 10196, package = ballai.app, playerId = 13063, playerState = 3
+10-28 09:14:08.461 D/Griffin/DeviceState( 1043): update playerItem, pid = 3741, uid = 10196, package = kourtai.app, playerId = 13063, playerState = 3
 10-28 09:14:08.462 D/IMGGralloc( 3741): Buffer: ui64Stamp: 366586, size: 3133440
 10-28 09:14:08.462 D/IMGGralloc( 3741): Buffer: ui64Stamp: 366582, size: 3133440
 10-28 09:14:08.462 D/IMGGralloc( 3741): Buffer: ui64Stamp: 366578, size: 3133440
@@ -6589,7 +6589,7 @@
 10-28 09:14:08.513 I/C2UnisocAvcDec(  630): pmem 0x2177d000 - 0xefd36000 - 917504
 10-28 09:14:08.513 I/VSP     (  630): H264Dec_decode_one_slice_data, 796, slice_type: P
 10-28 09:14:08.513 I/VSP     (  630): H264Dec_decode_one_slice_data, 955, VSP_MODE_OFF
-10-28 09:14:08.517 I/ballai.app( 3741): Background young concurrent mark compact GC freed 1969KB AllocSpace bytes, 36(1696KB) LOS objects, 11% free, 23MB/26MB, paused 3.053ms,5.695ms total 88.036ms
+10-28 09:14:08.517 I/kourtai.app( 3741): Background young concurrent mark compact GC freed 1969KB AllocSpace bytes, 36(1696KB) LOS objects, 11% free, 23MB/26MB, paused 3.053ms,5.695ms total 88.036ms
 10-28 09:14:08.518 D/IMGGralloc(  627): InsertBlankEntry: SPRD_DATA_SPACE ui64Stamp:366662,eYUVColorSpace:4, yuv_info:4
 10-28 09:14:08.519 D/IMGGralloc(  627): Gralloc Alloc end  w:1280, h:2288, f:0x106, usage:0x30000166,iprivUsage:0x0,handle:0xf1e30540, ui64Stamp:366662, sSize:4395008, BufferName: ImageReader-1x1f22m6-3741-1, line = 2131
 10-28 09:14:08.520 D/IMGGralloc(  627): Gralloc Free  w:1280, h:2288, f:0x106, usage:0x30000166, ui64Stamp:366662 line = 2599
@@ -8130,7 +8130,7 @@
 10-28 09:14:09.515 D/C2UnisocVideoDecoderComponent(  630): fetch one queue free block:0xf6161ac0,iRefCount:0
 10-28 09:14:09.515 I/VSP     (  630): H264Dec_SetCurRecPic, 220, pFrameY 0x0, pFrameY_phy 0x239bb000 pBufferHeader 0xf6161780
 10-28 09:14:09.515 I/C2UnisocAvcDec(  630): setDecodeArgs, pBufCtrl: 0xf645b9e0, pBufCtrl->phyAddr: 0x239bb000, frameIndex: 44, timeStamp: 1000000700000, inFlags: 0, inSize: 1234, inOffset: 0
-10-28 09:14:09.515 I/ballai.app( 3741): Background concurrent mark compact GC freed 784KB AllocSpace bytes, 6(248KB) LOS objects, 47% free, 27MB/51MB, paused 2.938ms,4.301ms total 110.688ms
+10-28 09:14:09.515 I/kourtai.app( 3741): Background concurrent mark compact GC freed 784KB AllocSpace bytes, 6(248KB) LOS objects, 47% free, 27MB/51MB, paused 2.938ms,4.301ms total 110.688ms
 10-28 09:14:09.516 I/VSP     (  630): H264Dec_remove_unused_frame_from_dpb, 120,no 0, is_reference 0  pBufferHeader 0x0
 10-28 09:14:09.516 I/VSP     (  630): H264Dec_init_picture,742, has pic 1
 10-28 09:14:09.516 V/C2UnisocAvcDec(  630): VSP_bind_cb, phyAddr: 0x239bb000, pHeader: 0xf6161780, pBufCtrl: 0xf645b9e0; iRefCount=0
@@ -8423,7 +8423,7 @@
 10-28 09:14:09.733 D/BluetoothManagerService( 1043): onAirplaneModeChanged state : BLE_ON, isAirplaneModeOn() : false
 10-28 09:14:09.733 D/BluetoothManagerService( 1043): Bluetooth persisted state: 1
 10-28 09:14:09.733 D/BluetoothManagerService( 1043): onAirplaneModeChanged delay MS : 400
-10-28 09:14:09.752 D/ProfileInstaller( 3741): Skipping profile installation for ballai.app
+10-28 09:14:09.752 D/ProfileInstaller( 3741): Skipping profile installation for kourtai.app
 10-28 09:14:09.755 E/WifiHAL (22501): get_wifi_interface_info: QCA_WLAN_VENDOR_ATTR_LL_STATS_IFACE_INFO_TIME_CYCLE_PERCENT not found
 10-28 09:14:09.775 D/BoundBrokerSvc(31300): onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
 10-28 09:14:09.792 D/ExpandableNotifRow( 1344): setHideSensitive: updateChildrenVisibility
@@ -8509,11 +8509,11 @@
 10-28 09:14:10.180 I/native  ( 3833): I0000 00:00:1793160850.180888    3860 android_resource_loader.cc:100] Built resource lettuce_node_generator
 10-28 09:14:10.181 I/native  ( 3833): I0000 00:00:1793160850.181011    3860 android_resource_loader.cc:116] Loaded resource:lettuce_node_generator
 10-28 09:14:10.181 I/native  ( 3833): I0000 00:00:1793160850.181101    3860 data_source.cc:95] Opening data source "/data/user_de/0/com.google.android.tts/files/superpacks/en-us/en-us-x-multi-seanet-r84/../en-us-x-multi-r84/burdock_model.params.pb" (as: FILE) ...
-10-28 09:14:10.182 I/input_debug( 1043): package: ballai.app isPassWordInput: false inputType: 40961 mMethodMap: false isKeyguardShowing: false enable: 0 isSplitScreen: false
+10-28 09:14:10.182 I/input_debug( 1043): package: kourtai.app isPassWordInput: false inputType: 40961 mMethodMap: false isKeyguardShowing: false enable: 0 isSplitScreen: false
 10-28 09:14:10.185 D/InputMethodManager( 3741): showSoftInput() view=ib.t{e67dea VFE...... .F....ID 0,0-720,1612 #2 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
 10-28 09:14:10.185 I/GoogleInputMethodService( 2156): GoogleInputMethodService.onFinishInput():2404 
 10-28 09:14:10.188 I/Module  ( 2156): DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatusInternal():119 repeatCheckTimes = 0, locked = false
-10-28 09:14:10.192 I/GoogleInputMethodService( 2156): GoogleInputMethodService.onStartInput():1552 onStartInput(EditorInfo{EditorInfo{packageName=ballai.app, inputType=a001, inputTypeString=Normal[CapWords|AutoCorrect], enableLearning=false, autoCorrection=true, autoComplete=true, imeOptions=2000006, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=2, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+10-28 09:14:10.192 I/GoogleInputMethodService( 2156): GoogleInputMethodService.onStartInput():1552 onStartInput(EditorInfo{EditorInfo{packageName=kourtai.app, inputType=a001, inputTypeString=Normal[CapWords|AutoCorrect], enableLearning=false, autoCorrection=true, autoComplete=true, imeOptions=2000006, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=2, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
 10-28 09:14:10.192 I/LatinInputMethodServiceBase( 2156): LatinInputMethodServiceBase.updateInputViewCoverNavigation():360 Update input view padding, isNavbarOverInputWindow=false, bottom inset=96
 10-28 09:14:10.194 I/Module  ( 2156): DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatusInternal():119 repeatCheckTimes = 1, locked = false
 10-28 09:14:10.199 I/native  ( 3833): I0000 00:00:1793160850.199207    3860 data_source.cc:99] ... Opened data source "/data/user_de/0/com.google.android.tts/files/superpacks/en-us/en-us-x-multi-seanet-r84/../en-us-x-multi-r84/burdock_model.params.pb" of size 8875
@@ -8559,7 +8559,7 @@
 10-28 09:14:10.243 V/C2UnisocAvcDec(  630): fetchGraphicBlock, stride: 1088, sliceHeight: 1920, mDecoderSwFlag: 0
 10-28 09:14:10.244 D/IMGGralloc(  627): GBuffer--------------(*format)=262
 10-28 09:14:10.244 D/IMGGralloc(  627): Gralloc alloc start  w:1088, h:1920, f:0x106, usage:0x166, privUsage:0x0, line = 1672
-10-28 09:14:10.249 I/GoogleInputMethodService( 2156): GoogleInputMethodService.onStartInputView():1638 onStartInputView(EditorInfo{EditorInfo{packageName=ballai.app, inputType=a001, inputTypeString=Normal[CapWords|AutoCorrect], enableLearning=false, autoCorrection=true, autoComplete=true, imeOptions=2000006, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=2, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+10-28 09:14:10.249 I/GoogleInputMethodService( 2156): GoogleInputMethodService.onStartInputView():1638 onStartInputView(EditorInfo{EditorInfo{packageName=kourtai.app, inputType=a001, inputTypeString=Normal[CapWords|AutoCorrect], enableLearning=false, autoCorrection=true, autoComplete=true, imeOptions=2000006, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=2, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
 10-28 09:14:10.251 D/IMGGralloc(  627): InsertBlankEntry: SPRD_DATA_SPACE ui64Stamp:366743,eYUVColorSpace:1, yuv_info:1
 10-28 09:14:10.251 D/IMGGralloc(  627): Gralloc Alloc end  w:1088, h:1920, f:0x106, usage:0x166,iprivUsage:0x0,handle:0xf1e30540, ui64Stamp:366743, sSize:3133440, BufferName: ImageReader-1x1f22m6-3741-2, line = 2131
 10-28 09:14:10.252 W/ModuleManager( 2156): ModuleManager.loadModule():641 Module mia is not available
@@ -9162,7 +9162,7 @@
 10-28 09:14:10.333 I/InputBundleManager( 2156): InputBundleManager.loadActiveInputBundleId():552 loadActiveInputBundleId: en-US, ime_english_united_states
 10-28 09:14:10.333 E/JobScheduler.Concurrency( 1043): Had fewer than 16 in existence
 10-28 09:14:10.334 I/InputBundle( 2156): InputBundle.activateIme():599 activateIme: INACTIVE, keyboardType=prime
-10-28 09:14:10.335 I/AbstractIme( 2156): AbstractIme.onActivate():111 LatinIme.onActivate() : EditorInfo = EditorInfo{packageName=ballai.app, inputType=a001, inputTypeString=Normal[CapWords|AutoCorrect], enableLearning=false, autoCorrection=true, autoComplete=true, imeOptions=2000006, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=2, fieldName=null, extras=null, hintText=null, hintLocales=[]}, IncognitoMode = false, DeviceLocked = false
+10-28 09:14:10.335 I/AbstractIme( 2156): AbstractIme.onActivate():111 LatinIme.onActivate() : EditorInfo = EditorInfo{packageName=kourtai.app, inputType=a001, inputTypeString=Normal[CapWords|AutoCorrect], enableLearning=false, autoCorrection=true, autoComplete=true, imeOptions=2000006, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=2, fieldName=null, extras=null, hintText=null, hintLocales=[]}, IncognitoMode = false, DeviceLocked = false
 10-28 09:14:10.336 E/JobScheduler.Concurrency( 1043): Had fewer than 16 in existence
 10-28 09:14:10.338 E/JobScheduler.Concurrency( 1043): Had fewer than 16 in existence
 10-28 09:14:10.339 E/JobScheduler.Concurrency( 1043): Had fewer than 16 in existence
@@ -10095,8 +10095,8 @@
 10-28 09:14:10.581 I/Module  ( 2156): DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatusInternal():119 repeatCheckTimes = 1, locked = false
 10-28 09:14:10.588 W/OnBackInvokedCallback( 3741): OnBackInvokedCallback is not enabled for the application.
 10-28 09:14:10.588 W/OnBackInvokedCallback( 3741): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
-10-28 09:14:10.591 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
-10-28 09:14:10.620 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:10.591 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
+10-28 09:14:10.620 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:10.702 I/KeyboardViewHelper( 2156): KeyboardViewHelper.getView():188 Get view with height ratio:1.000000
 10-28 09:14:10.788 E/native  ( 3833): E0000 00:00:1793160850.788023    3860 re2.cc:275] Error parsing '^|[^\p{Letter}\\]': invalid character class range: \p{Letter}
 10-28 09:14:10.789 E/native  ( 3833): E0000 00:00:1793160850.788592    3860 replacement_rule.cc:35] INVALID_ARGUMENT: Invalid left_context regexp: invalid character class range: \p{Letter}
@@ -10154,9 +10154,9 @@
 10-28 09:14:10.901 W/System  ( 1043): A resource failed to call close. 
 10-28 09:14:10.901 W/System  ( 1043): A resource failed to call CursorWindow.close. 
 10-28 09:14:10.901 W/System  ( 1043): A resource failed to call close. 
-10-28 09:14:10.906 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:10.906 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:10.911 D/VRI[InputMethod]( 2156): performTraversals relayoutWindow: maybeSyncSeqId=-1 ,mSyncSeqId=0 ,relayoutResult=3
-10-28 09:14:10.912 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:10.912 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:10.915 I/DPUModule(  628): dpur2p0 prepare: count(4)
 10-28 09:14:10.915 I/DPUModule(  628): dpur2p0 checkBlendMode: BlendMode(0x100), PlaneAlpha(0xff)
 10-28 09:14:10.915 I/DPUModule(  628): dpur2p0 checkScaleSize: Transform(0), SRCRect(720,1612), FBRect(720,1612)
@@ -10186,14 +10186,14 @@
 10-28 09:14:10.917 I/WindowMetricsNotification( 2156): WindowMetricsNotification.notify():169 nys[bounds=Rect(0, 72 - 720, 1612), insets=Rect(0, 0 - 0, 96), decorBounds=Rect(0, 72 - 720, 1612), densityDpi=320, smallestScreenWidthDp=360, displayWidth=720, displayHeight=1612, xdpi=268.941, ydpi=269.373, isTrustable=true, displayId=0]; DisplayMetrics{density=2.0, width=720, height=1612, scaledDensity=2.0, xdpi=268.941, ydpi=269.373}
 10-28 09:14:10.919 D/IMGGralloc(  627): GBuffer--------------(*format)=1
 10-28 09:14:10.919 D/IMGGralloc(  627): Gralloc alloc start  w:720, h:1540, f:0x1, usage:0x900, privUsage:0x0, line = 1672
-10-28 09:14:10.925 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:10.925 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:10.926 D/IMGGralloc(  627): Gralloc Alloc end  w:720, h:1540, f:0x101, usage:0x900,iprivUsage:0x0,handle:0xf1e30540, ui64Stamp:366791, sSize:4472832, BufferName: VRI[InputMethod]#142(BLAST Consumer)142, line = 2131
 10-28 09:14:10.926 D/IMGGralloc(  627): Gralloc Free  w:720, h:1540, f:0x101, usage:0x900, ui64Stamp:366791 line = 2599
 10-28 09:14:10.927 D/IMGGralloc( 2156): Gralloc Register  w:720, h:1540, f:0x101, usage:0x900, ui64Stamp:366791, sSize:4472832, line = 2444
 10-28 09:14:10.928 D/IMGGralloc( 2156): Gralloc Free  w:720, h:1540, f:0x101, usage:0x900, ui64Stamp:366791 line = 2599
 10-28 09:14:10.928 D/IMGGralloc(  627): GBuffer--------------(*format)=1
 10-28 09:14:10.928 D/IMGGralloc(  627): Gralloc alloc start  w:720, h:1540, f:0x1, usage:0xb00, privUsage:0x0, line = 1672
-10-28 09:14:10.929 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:10.929 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:10.933 I/DPUModule(  628): dpur2p0 prepare: count(4)
 10-28 09:14:10.933 I/DPUModule(  628): dpur2p0 checkBlendMode: BlendMode(0x100), PlaneAlpha(0xff)
 10-28 09:14:10.933 I/DPUModule(  628): dpur2p0 checkScaleSize: Transform(0), SRCRect(720,1612), FBRect(720,1612)
@@ -10237,7 +10237,7 @@
 10-28 09:14:10.961 D/WindowManager( 1043): finishDrawing: syncSeqId=0, postDrawTransaction=android.view.SurfaceControl$Transaction@75fdd8, mSyncState=0, mDrawState=1, hasSyncHandlers=false, mClientWasDrawingForSync=false, win=Window{91e0e3e u0 InputMethod}-[Surface(name=*Title#18085)/@0xc2214bb]
 10-28 09:14:10.962 W/AccessPointsManager( 2156): AccessPointsManager.removeAccessPoint():1154 The holder controller #0x7f0b2861 is not registered
 10-28 09:14:10.963 I/GoogleInputMethodService( 2156): GoogleInputMethodService.onWindowShown():2556 
-10-28 09:14:10.963 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:10.963 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:10.964 D/InsetsController( 3741): show(ime(), fromIme=true)
 10-28 09:14:10.965 I/DPUModule(  628): dpur2p0 prepare: count(4)
 10-28 09:14:10.965 I/DPUModule(  628): dpur2p0 checkBlendMode: BlendMode(0x100), PlaneAlpha(0xff)
@@ -10268,16 +10268,16 @@
 10-28 09:14:10.978 I/native  ( 3833): I0000 00:00:1793160850.978733    3860 android_resource_loader.cc:100] Built resource seanet_enhancer
 10-28 09:14:10.978 I/native  ( 3833): I0000 00:00:1793160850.978913    3860 android_resource_loader.cc:116] Loaded resource:seanet_enhancer
 10-28 09:14:10.979 I/native  ( 3833): I0000 00:00:1793160850.979053    3860 data_source.cc:95] Opening data source "/data/user_de/0/com.google.android.tts/files/superpacks/en-us/en-us-x-multi-seanet-r84/sb_model.bin" (as: MEMORY) ...
-10-28 09:14:10.980 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:10.980 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:10.985 I/native  ( 3833): I0000 00:00:1793160850.985212    3860 data_source.cc:99] ... Opened data source "/data/user_de/0/com.google.android.tts/files/superpacks/en-us/en-us-x-multi-seanet-r84/sb_model.bin" of size 48432
-10-28 09:14:10.985 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:10.985 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:10.990 I/native  ( 3833): I0000 00:00:1793160850.990136    3860 android_resource_loader.cc:100] Built resource sentence_boundary_model_resource
 10-28 09:14:10.990 I/native  ( 3833): I0000 00:00:1793160850.990507    3860 android_resource_loader.cc:116] Loaded resource:sentence_boundary_model_resource
 10-28 09:14:10.990 I/native  ( 3833): I0000 00:00:1793160850.990703    3860 data_source.cc:95] Opening data source "/data/user_de/0/com.google.android.tts/files/superpacks/en-us/en-us-x-multi-seanet-r84/../en-us-x-multi-r84/en_verbalize_spec.pb" (as: FILE) ...
-10-28 09:14:10.991 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
-10-28 09:14:10.994 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:10.991 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
+10-28 09:14:10.994 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:10.997 I/native  ( 3833): I0000 00:00:1793160850.996426    3860 data_source.cc:99] ... Opened data source "/data/user_de/0/com.google.android.tts/files/superpacks/en-us/en-us-x-multi-seanet-r84/../en-us-x-multi-r84/en_verbalize_spec.pb" of size 3984
-10-28 09:14:10.999 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:10.999 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:10.999 I/DPUModule(  628): dpur2p0 prepare: count(4)
 10-28 09:14:10.999 I/DPUModule(  628): dpur2p0 checkBlendMode: BlendMode(0x100), PlaneAlpha(0xff)
 10-28 09:14:10.999 I/DPUModule(  628): dpur2p0 checkScaleSize: Transform(0), SRCRect(720,1612), FBRect(720,1612)
@@ -10300,8 +10300,8 @@
 10-28 09:14:11.000 I/DPUModule(  628): dpur2p0 checkAFBCBlockSize: compressed(0),format(1), pitch(720), vstride(96)
 10-28 09:14:11.000 I/DPUModule(  628): dpur2p0 checkTransform: Transform(0), SRCRect(0,0)
 10-28 09:14:11.000 D/DPUModule(  628): [] support: 0
-10-28 09:14:11.002 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
-10-28 09:14:11.004 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:11.002 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
+10-28 09:14:11.004 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:11.005 D/IMGGralloc(  627): GBuffer--------------(*format)=1
 10-28 09:14:11.005 D/IMGGralloc(  627): Gralloc alloc start  w:720, h:1612, f:0x1, usage:0xb00, privUsage:0x0, line = 1672
 10-28 09:14:11.005 D/BoundBrokerSvc(31300): onBind: Intent { act=com.google.firebase.dynamiclinks.service.START pkg=com.google.android.gms }
@@ -10395,7 +10395,7 @@
 10-28 09:14:11.016 D/IMGGralloc( 3741): Buffer: ui64Stamp: 366487, size: 4657152
 10-28 09:14:11.016 D/IMGGralloc( 3741): Buffer: ui64Stamp: 366483, size: 4657152
 10-28 09:14:11.016 D/IMGGralloc( 3741): Buffer: ui64Stamp: 366394, size: 4657152
-10-28 09:14:11.020 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:11.020 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:11.020 D/IMGGralloc(  682): Gralloc Register  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:366801, sSize:4657152, line = 2444
 10-28 09:14:11.020 D/IMGGralloc(  682): GBuffer--------------(*format)=1
 10-28 09:14:11.031 I/DPUModule(  628): dpur2p0 prepare: count(4)
@@ -11055,11 +11055,11 @@
 10-28 09:14:11.347 I/DPUModule(  628): dpur2p0 checkAFBCBlockSize: compressed(0),format(1), pitch(720), vstride(96)
 10-28 09:14:11.347 I/DPUModule(  628): dpur2p0 checkTransform: Transform(0), SRCRect(0,0)
 10-28 09:14:11.347 D/DPUModule(  628): [] support: 0
-10-28 09:14:11.347 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:11.347 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:11.360 D/BluetoothManagerService( 1043): onAirplaneModeChanged state : BLE_ON, isAirplaneModeOn() : false
 10-28 09:14:11.360 D/BluetoothManagerService( 1043): Bluetooth persisted state: 1
 10-28 09:14:11.360 D/BluetoothManagerService( 1043): onAirplaneModeChanged delay MS : 400
-10-28 09:14:11.362 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:11.362 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:11.365 D/IMGGralloc( 2156): Gralloc Free  w:720, h:1540, f:0x101, usage:0x900, ui64Stamp:366799 line = 2599
 10-28 09:14:11.366 D/IMGGralloc(  627): GBuffer--------------(*format)=1
 10-28 09:14:11.366 D/IMGGralloc(  627): Gralloc alloc start  w:720, h:1540, f:0x1, usage:0xb00, privUsage:0x0, line = 1672
@@ -11373,8 +11373,8 @@
 10-28 09:14:12.486 D/CompatibilityChangeReporter( 1043): Compat change id reported: 168419799; UID 1000; state: DISABLED
 10-28 09:14:12.489 V/WindowState( 1043): toString mSurfaceNameCache= mLastTitle=null title=Autofill UI
 10-28 09:14:12.489 I/hugh-tag( 1043): PhoneWindowManager onDefaultDisplayFocusChangedLw mCurrentFocus=Window{3f7c39d u0 Autofill UI}, [type=1005]
-10-28 09:14:12.492 I/WindowManager( 1043): Input focus has changed to Window{3f7c39d u0 Autofill UI}, [type=1005] from 95f8db5 ballai.app/ball_ai.android.MainActivity mDisplayId 0 updateInputWindows false, callers=com.android.server.wm.WindowManagerService.addWindow:2039 com.android.server.wm.Session.addToDisplayAsUser:214 android.view.ViewRootImpl.setView:1307 android.view.WindowManagerGlobal.addView:403 android.view.WindowManagerImpl.addView:148 
-10-28 09:14:12.493 D/WindowManager( 1043): Focus not requested, because it has no surface or is not focusable, request window=Window{3f7c39d u0 Autofill UI}, [type=1005], mCurrentFocusWindow= 95f8db5 ballai.app/ball_ai.android.MainActivity
+10-28 09:14:12.492 I/WindowManager( 1043): Input focus has changed to Window{3f7c39d u0 Autofill UI}, [type=1005] from 95f8db5 kourtai.app/kourt_ai.android.MainActivity mDisplayId 0 updateInputWindows false, callers=com.android.server.wm.WindowManagerService.addWindow:2039 com.android.server.wm.Session.addToDisplayAsUser:214 android.view.ViewRootImpl.setView:1307 android.view.WindowManagerGlobal.addView:403 android.view.WindowManagerImpl.addView:148 
+10-28 09:14:12.493 D/WindowManager( 1043): Focus not requested, because it has no surface or is not focusable, request window=Window{3f7c39d u0 Autofill UI}, [type=1005], mCurrentFocusWindow= 95f8db5 kourtai.app/kourt_ai.android.MainActivity
 10-28 09:14:12.493 D/CoreBackPreview( 1043): Window{3f7c39d u0 Autofill UI}, [type=1005]: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.WindowOnBackInvokedDispatcher$OnBackInvokedCallbackWrapper@3755b5e, mPriority=0}
 10-28 09:14:12.497 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=android refreshMode=0
 10-28 09:14:12.498 I/DPUModule(  628): dpur2p0 prepare: count(5)
@@ -12054,7 +12054,7 @@
 10-28 09:14:14.252 D/MediaCodecInfo( 3741): NoSupport [sizeAndRate.support, 1080x1920@60.0] [c2.android.avc.decoder, video/avc] [itel-A665L, itel A665L, ITEL, 33]
 10-28 09:14:14.373 I/GoogleTTSServiceImpl( 3833): currentLocale = en-US
 --------- beginning of system
-10-28 09:13:19.974 E/UnisocWatchdog( 1043): WDT_Monitor_wpp collect3rdApps: get a 3rd :ballai.app,pid:0,appPersistent:false,545832516
+10-28 09:13:19.974 E/UnisocWatchdog( 1043): WDT_Monitor_wpp collect3rdApps: get a 3rd :kourtai.app,pid:0,appPersistent:false,545832516
 10-28 09:13:19.974 E/UnisocWatchdog( 1043): WDT_Monitor_wpp collect3rdApps: get a 3rd :com.google.android.youtube,pid:0,appPersistent:false,551272133
 10-28 09:13:19.974 E/UnisocWatchdog( 1043): WDT_Monitor_wpp collect3rdApps: get a 3rd :com.fiverr.fiverr,pid:0,appPersistent:false,547896900
 10-28 09:13:19.975 E/UnisocWatchdog( 1043): WDT_Monitor_wpp collect3rdApps: get a 3rd :com.transsion.plat.appupdate,pid:0,appPersistent:false,684244677
@@ -12170,28 +12170,28 @@
 10-28 09:14:00.004 D/AlarmManager( 1043): sending alarm.type = 3, action = null, alarm = Alarm{fb365b4 type 3 origWhen 140989298 whenElapsed 140989298 android}, cn = null, operation = null, listener=com.android.server.alarm.AlarmManagerService$3@d932f63, listenerTag=TIME_TICK, workSource=null
 10-28 09:14:02.103 D/os.WindowManagerServiceLice( 1043): onStartActivityAsUser, isPreloadIntent =  false
 10-28 09:14:02.104 D/CompatibilityChangeReporter( 1043): Compat change id reported: 161252188; UID 10196; state: DISABLED
-10-28 09:14:02.105 I/ActivityTaskManager( 1043): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=ballai.app/ball_ai.android.MainActivity} from uid 2000, pid 3683
+10-28 09:14:02.105 I/ActivityTaskManager( 1043): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=kourtai.app/kourt_ai.android.MainActivity} from uid 2000, pid 3683
 10-28 09:14:02.142 D/CompatibilityChangeReporter( 1043): Compat change id reported: 194480991; UID 10196; state: ENABLED
-10-28 09:14:02.174 D/PerformanceDatabaseControl( 1043): querymem pkgName = ballai.app
-10-28 09:14:02.176 D/AppStartScene( 1043): doFastKillForAppStart:ballai.app,memAvail:195
+10-28 09:14:02.174 D/PerformanceDatabaseControl( 1043): querymem pkgName = kourtai.app
+10-28 09:14:02.176 D/AppStartScene( 1043): doFastKillForAppStart:kourtai.app,memAvail:195
 10-28 09:14:02.179 D/CompatibilityChangeReporter( 1043): Compat change id reported: 174042980; UID 10196; state: DISABLED
 10-28 09:14:02.180 D/CompatibilityChangeReporter( 1043): Compat change id reported: 184838306; UID 10196; state: DISABLED
 10-28 09:14:02.180 D/CompatibilityChangeReporter( 1043): Compat change id reported: 185004937; UID 10196; state: DISABLED
 10-28 09:14:02.181 D/CompatibilityChangeReporter( 1043): Compat change id reported: 181136395; UID 10196; state: DISABLED
 10-28 09:14:02.181 D/CompatibilityChangeReporter( 1043): Compat change id reported: 174042936; UID 10196; state: DISABLED
 10-28 09:14:02.186 D/CompatibilityChangeReporter( 1043): Compat change id reported: 205907456; UID 10196; state: ENABLED
-10-28 09:14:02.190 I/ActivityTaskManager( 1043): ->startActivity for ActivityRecord{f04a79d u0 ballai.app/ball_ai.android.MainActivity} t178 d0} result:START_SUCCESS
+10-28 09:14:02.190 I/ActivityTaskManager( 1043): ->startActivity for ActivityRecord{f04a79d u0 kourtai.app/kourt_ai.android.MainActivity} t178 d0} result:START_SUCCESS
 10-28 09:14:02.194 D/CompatibilityChangeReporter( 1043): Compat change id reported: 194833441; UID 10196; state: ENABLED
-10-28 09:14:02.195 I/ActivityTaskManager( 1043): Add pending draw ActivityRecord{f04a79d u0 ballai.app/ball_ai.android.MainActivity} t178 d0}
-10-28 09:14:02.221 D/os.fingerprint( 1043): onActivityResume next:ActivityRecord{f04a79d u0 ballai.app/ball_ai.android.MainActivity} t178 d0}
-10-28 09:14:02.221 D/os.fingerprint( 1043): activityComponent = ComponentInfo{ballai.app/ball_ai.android.MainActivity} inMultiWindow = false
+10-28 09:14:02.195 I/ActivityTaskManager( 1043): Add pending draw ActivityRecord{f04a79d u0 kourtai.app/kourt_ai.android.MainActivity} t178 d0}
+10-28 09:14:02.221 D/os.fingerprint( 1043): onActivityResume next:ActivityRecord{f04a79d u0 kourtai.app/kourt_ai.android.MainActivity} t178 d0}
+10-28 09:14:02.221 D/os.fingerprint( 1043): activityComponent = ComponentInfo{kourtai.app/kourt_ai.android.MainActivity} inMultiWindow = false
 10-28 09:14:02.224 D/WindowManager( 1043): Focus not requested, because it has no surface or is not focusable, request window=Window{72a1aa8 u0 com.transsion.itel.launcher/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher}-[Surface(name=*Title#18003)/@0x32aa9cc], mCurrentFocusWindow= 72a1aa8 com.transsion.itel.launcher/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher
-10-28 09:14:02.229 D/ActivityManager( 1043): PROFILE_FROM_SHELL is disabled for ProcessRecord{e9d900c 0:ballai.app/u0a196}
+10-28 09:14:02.229 D/ActivityManager( 1043): PROFILE_FROM_SHELL is disabled for ProcessRecord{e9d900c 0:kourtai.app/u0a196}
 10-28 09:14:02.229 D/CompatibilityChangeReporter( 1043): Compat change id reported: 135634846; UID 10196; state: DISABLED
 10-28 09:14:02.229 D/CompatibilityChangeReporter( 1043): Compat change id reported: 177438394; UID 10196; state: DISABLED
 10-28 09:14:02.229 D/CompatibilityChangeReporter( 1043): Compat change id reported: 135772972; UID 10196; state: DISABLED
 10-28 09:14:02.229 D/CompatibilityChangeReporter( 1043): Compat change id reported: 135754954; UID 10196; state: ENABLED
-10-28 09:14:02.234 D/ActivityManager( 1043): asking zygote to start proc:ProcessRecord{e9d900c 0:ballai.app/u0a196}
+10-28 09:14:02.234 D/ActivityManager( 1043): asking zygote to start proc:ProcessRecord{e9d900c 0:kourtai.app/u0a196}
 10-28 09:14:02.234 D/CompatibilityChangeReporter( 1043): Compat change id reported: 143937733; UID 10196; state: ENABLED
 10-28 09:14:02.235 D/Prefork ( 1043): startResult is empty and running normal execution.
 10-28 09:14:02.236 E/ActivityThread( 3286): Failed to find provider info for com.transsion.phonemaster.provider.Network
@@ -12204,30 +12204,30 @@
 10-28 09:14:02.326 D/ActivityManagerConstants( 1043): updateMaxCachedProcesses--before, updated CUR_MAX_CACHED_PROCESSES: 40
 10-28 09:14:02.326 D/ActivityManagerConstants( 1043): updateMaxCachedProcesses, updated CUR_MAX_CACHED_PROCESSES: 40
 10-28 09:14:02.326 D/ActivityManagerConstants( 1043): updateMaxCachedProcesses--After, updated CUR_MAX_CACHED_PROCESSES: 40
-10-28 09:14:02.329 D/SSense.SRecogCollector( 1043):  getStartUpComponent  sizeof resolves : 1  for pkg name:ballai.app
-10-28 09:14:02.329 D/SSense.SRecogCollector( 1043):  getStartUpComponent  screenOrientation : -1  for pkg name:ballai.app
+10-28 09:14:02.329 D/SSense.SRecogCollector( 1043):  getStartUpComponent  sizeof resolves : 1  for pkg name:kourtai.app
+10-28 09:14:02.329 D/SSense.SRecogCollector( 1043):  getStartUpComponent  screenOrientation : -1  for pkg name:kourtai.app
 10-28 09:14:02.331 I/ActivityManager( 1043): Killing 32381:com.android.vending:background/u0a113 (adj 999): empty #21
 10-28 09:14:02.335 I/ActivityManager( 1043): Killing 32277:com.transsion.ossettingsext/1000 (adj 999): empty #22
 10-28 09:14:02.337 D/UnisocOomAdjuster( 1043): Skipped update freeze state for 26994
 10-28 09:14:02.342 W/ActivityManager( 1043): Slow operation: 116ms so far, now at startProcess: done updating battery stats
 10-28 09:14:02.343 W/ActivityManager( 1043): Slow operation: 117ms so far, now at startProcess: building log message
-10-28 09:14:02.343 I/ActivityManager( 1043): Start proc 3741:ballai.app/u0a196 for next-top-activity {ballai.app/ball_ai.android.MainActivity}
+10-28 09:14:02.343 I/ActivityManager( 1043): Start proc 3741:kourtai.app/u0a196 for next-top-activity {kourtai.app/kourt_ai.android.MainActivity}
 10-28 09:14:02.344 W/ActivityManager( 1043): Slow operation: 118ms so far, now at startProcess: starting to update pids map
 10-28 09:14:02.344 W/ActivityManager( 1043): Slow operation: 118ms so far, now at startProcess: done updating pids map
 10-28 09:14:02.346 D/CompatibilityChangeReporter( 1043): Compat change id reported: 168419799; UID 10196; state: DISABLED
-10-28 09:14:02.348 D/os.ActivityManagerServiceLice( 1043): make process active ballai.app(3741)
-10-28 09:14:02.358 D/os.fingerprint( 1043): onRealStartActivityLocked next:ActivityRecord{f04a79d u0 ballai.app/ball_ai.android.MainActivity} t178 d0} isKeyguardShowing:false
-10-28 09:14:02.358 D/os.fingerprint( 1043): activityComponent = ComponentInfo{ballai.app/ball_ai.android.MainActivity} inMultiWindow = false
-10-28 09:14:02.358 D/JupiterDelegator( 1043): handleStartActivity: ComponentInfo{ballai.app/ball_ai.android.MainActivity}
-10-28 09:14:02.359 D/os.fingerprint( 1043): onUpdateFocusedApp oldPackageName:com.transsion.itel.launcher oldComponent:ComponentInfo{com.transsion.itel.launcher/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher} newPackageName:ballai.app newComponent:ComponentInfo{ballai.app/ball_ai.android.MainActivity} mFm :android.hardware.fingerprint.FingerprintManager@5bd4378
-10-28 09:14:02.364 D/WindowManager( 1043): setFocusedApp mFocusedApp = ActivityRecord{f04a79d u0 ballai.app/ball_ai.android.MainActivity} t178 d0}displayId = 0Callers = com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:5069 com.android.server.wm.TaskFragment.onActivityStateChanged:772 com.android.server.wm.ActivityRecord.setState:5710 com.android.server.wm.Task.minimalResumeActivityLocked:4841 
+10-28 09:14:02.348 D/os.ActivityManagerServiceLice( 1043): make process active kourtai.app(3741)
+10-28 09:14:02.358 D/os.fingerprint( 1043): onRealStartActivityLocked next:ActivityRecord{f04a79d u0 kourtai.app/kourt_ai.android.MainActivity} t178 d0} isKeyguardShowing:false
+10-28 09:14:02.358 D/os.fingerprint( 1043): activityComponent = ComponentInfo{kourtai.app/kourt_ai.android.MainActivity} inMultiWindow = false
+10-28 09:14:02.358 D/JupiterDelegator( 1043): handleStartActivity: ComponentInfo{kourtai.app/kourt_ai.android.MainActivity}
+10-28 09:14:02.359 D/os.fingerprint( 1043): onUpdateFocusedApp oldPackageName:com.transsion.itel.launcher oldComponent:ComponentInfo{com.transsion.itel.launcher/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher} newPackageName:kourtai.app newComponent:ComponentInfo{kourtai.app/kourt_ai.android.MainActivity} mFm :android.hardware.fingerprint.FingerprintManager@5bd4378
+10-28 09:14:02.364 D/WindowManager( 1043): setFocusedApp mFocusedApp = ActivityRecord{f04a79d u0 kourtai.app/kourt_ai.android.MainActivity} t178 d0}displayId = 0Callers = com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:5069 com.android.server.wm.TaskFragment.onActivityStateChanged:772 com.android.server.wm.ActivityRecord.setState:5710 com.android.server.wm.Task.minimalResumeActivityLocked:4841 
 10-28 09:14:02.368 I/WindowManager( 1043): Input focus has changed to null from 72a1aa8 com.transsion.itel.launcher/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher mDisplayId 0 updateInputWindows true, callers=com.android.server.wm.DisplayContent.updateFocusedWindowLocked:3778 com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:493 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6403 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:5071 com.android.server.wm.TaskFragment.onActivityStateChanged:772 
 10-28 09:14:02.370 D/Griffin/Hooker( 1043): PreviousApp = com.android.settings/com.transsion.usbdialog.UsbMTPChooserActivity
-10-28 09:14:02.370 D/os.fingerprint( 1043): onActivityResume next:ActivityRecord{f04a79d u0 ballai.app/ball_ai.android.MainActivity} t178 d0}
-10-28 09:14:02.370 D/os.fingerprint( 1043): activityComponent = ComponentInfo{ballai.app/ball_ai.android.MainActivity} inMultiWindow = false
+10-28 09:14:02.370 D/os.fingerprint( 1043): onActivityResume next:ActivityRecord{f04a79d u0 kourtai.app/kourt_ai.android.MainActivity} t178 d0}
+10-28 09:14:02.370 D/os.fingerprint( 1043): activityComponent = ComponentInfo{kourtai.app/kourt_ai.android.MainActivity} inMultiWindow = false
 10-28 09:14:02.374 E/ActivityThread( 3286): Failed to find provider info for com.transsion.phonemaster.provider.Network
 10-28 09:14:02.376 D/UnisocOomAdjuster( 1043): Skipped update freeze state for 26994
-10-28 09:14:02.377 D/AlarmManager( 1043): Package ballai.app for user 0 now in bucket 10
+10-28 09:14:02.377 D/AlarmManager( 1043): Package kourtai.app for user 0 now in bucket 10
 10-28 09:14:02.380 D/TranClassInfo( 3741): instance successfully. com.transsion.hubcore.graphics.TranGraphicImpl@4954b3a from com.transsion.hubcore.graphics.ITranGraphic
 10-28 09:14:02.387 D/os.permission.PermissionInfo( 1043): checkPermission 10162:android.permission.INTERACT_ACROSS_USERS:true
 10-28 09:14:02.387 I/os.permission( 1043): Grant permission: android.permission.INTERACT_ACROSS_USERS to uid: 10162
@@ -12321,7 +12321,7 @@
 10-28 09:14:02.583 D/ActivityManager( 1043): isGriffinSupport  bringUpServiceLocked and unbindServiceLockedIntent { cmp=com.spotify.music/androidx.work.impl.background.systemjob.SystemJobService }
 10-28 09:14:02.583 W/ActivityManager( 1043): Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@dd505b8
 10-28 09:14:02.584 E/JobScheduler.Concurrency( 1043): Error executing JobStatus{fb29ab0 #u0a204/544 com.spotify.music/androidx.work.impl.background.systemjob.SystemJobService u=0 s=10204 TIME=-16h1m38s891ms:none NET BATNOTLOW READY}
-10-28 09:14:02.834 D/PackageManager( 1043): Considering set ballai.app/androidx.work.impl.background.systemjob.SystemJobService's state as 1 with userId = 0, callingPackage = null
+10-28 09:14:02.834 D/PackageManager( 1043): Considering set kourtai.app/androidx.work.impl.background.systemjob.SystemJobService's state as 1 with userId = 0, callingPackage = null
 10-28 09:14:02.841 D/PowerController.RecogA( 1043): packageName:com.google.android.gms mFgEvent:APP_COMPONENT_USED mLastTimeFgEventChanged:140992139 mLastLaunchTime:0 mProcState:PROCESS_STATE_CACHED_EMPTY mLastTimeProcStateChanged:0 mNotificationState:0 mLastTimeNotificationStateChanged:0 mAudioState:0 mLastTimeAudioStateChanged:0 mRequestGps:true mAvoidConstraintGps:false mBehaviorType:0 mScreenOn:true mLastTimeScreenStateChanged:139828037 mLastBgTime:0 mFgDuration:0 mAudioDuration:0 mBgAudioDuration:0 mHasNoClearNotificationWhenNavi:false
 10-28 09:14:02.877 D/TranClassInfo( 3741): instance successfully. com.transsion.hubcore.view.TranViewImpl@ac126d6 from com.transsion.hubcore.view.ITranView
 10-28 09:14:02.893 D/TranClassInfo( 3741): instance successfully. com.transsion.hubcore.internal.TranInternalViewImpl@f3307f3 from com.transsion.hubcore.internal.ITranInternalView
@@ -12390,14 +12390,14 @@
 10-28 09:14:04.112 D/CompatibilityChangeReporter( 1043): Compat change id reported: 168419799; UID 10121; state: DISABLED
 10-28 09:14:04.115 D/os.ActivityManagerServiceLice( 1043): make process active com.google.android.tts(3833)
 10-28 09:14:04.129 D/TranClassInfo( 3833): instance successfully. com.transsion.hubcore.graphics.TranGraphicImpl@4954b3a from com.transsion.hubcore.graphics.ITranGraphic
-10-28 09:14:04.153 V/WindowState( 1043): toString mSurfaceNameCache= mLastTitle=null title=ballai.app/ball_ai.android.MainActivity
-10-28 09:14:04.154 D/CoreBackPreview( 1043): Window{95f8db5 u0 ballai.app/ball_ai.android.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@dd617bb, mPriority=0}
-10-28 09:14:04.155 I/ActivityTaskManager( 1043): LUCID activityResumed package name: ballai.app
-10-28 09:14:04.293 I/WindowManager( 1043): Input focus has changed to Window{95f8db5 u0 ballai.app/ball_ai.android.MainActivity}-[Surface(name=*Title#18074)/@0xf1f4316] from 72a1aa8 com.transsion.itel.launcher/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher mDisplayId 0 updateInputWindows true, callers=com.android.server.wm.DisplayContent.updateFocusedWindowLocked:3778 com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:493 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6403 com.android.server.wm.WindowManagerService.relayoutWindow:2698 com.android.server.wm.Session.relayout:266 
+10-28 09:14:04.153 V/WindowState( 1043): toString mSurfaceNameCache= mLastTitle=null title=kourtai.app/kourt_ai.android.MainActivity
+10-28 09:14:04.154 D/CoreBackPreview( 1043): Window{95f8db5 u0 kourtai.app/kourt_ai.android.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@dd617bb, mPriority=0}
+10-28 09:14:04.155 I/ActivityTaskManager( 1043): LUCID activityResumed package name: kourtai.app
+10-28 09:14:04.293 I/WindowManager( 1043): Input focus has changed to Window{95f8db5 u0 kourtai.app/kourt_ai.android.MainActivity}-[Surface(name=*Title#18074)/@0xf1f4316] from 72a1aa8 com.transsion.itel.launcher/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher mDisplayId 0 updateInputWindows true, callers=com.android.server.wm.DisplayContent.updateFocusedWindowLocked:3778 com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:493 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6403 com.android.server.wm.WindowManagerService.relayoutWindow:2698 com.android.server.wm.Session.relayout:266 
 10-28 09:14:04.371 D/Griffin/CleanManager( 1043): dispatch clean index=12
 10-28 09:14:04.373 D/ActivityTaskManager( 1043): getRecentTasksImpl call by 1000 flags = 2, 1 task(s):
 10-28 09:14:04.373 D/ActivityTaskManager( 1043): Recent Task 0: taskId = 178, comp = null
-10-28 09:14:04.544 D/WindowManager( 1043): after addSurfaceViewPkg packageName = ballai.app count:1
+10-28 09:14:04.544 D/WindowManager( 1043): after addSurfaceViewPkg packageName = kourtai.app count:1
 10-28 09:14:04.553 D/CompatibilityChangeReporter( 1043): Compat change id reported: 161145287; UID 10121; state: DISABLED
 10-28 09:14:04.583 I/ActivityManager( 1043): com.android.vending is exempt from freezer
 10-28 09:14:04.583 D/ActivityManager( 1043): PROFILE_FROM_SHELL is disabled for ProcessRecord{1ea0a95 0:com.android.vending:background/u0a113}
@@ -12458,14 +12458,14 @@
 10-28 09:14:06.153 W/ActivityManager( 1043): Slow operation: 61ms so far, now at startProcess: starting to update pids map
 10-28 09:14:06.154 W/ActivityManager( 1043): Slow operation: 62ms so far, now at startProcess: done updating pids map
 10-28 09:14:06.182 D/CompatibilityChangeReporter( 1043): Compat change id reported: 194532703; UID 10196; state: ENABLED
-10-28 09:14:06.189 D/WindowManager( 1043): finishDrawing: syncSeqId=0, postDrawTransaction=android.view.SurfaceControl$Transaction@8e36896, mSyncState=0, mDrawState=1, hasSyncHandlers=false, mClientWasDrawingForSync=false, win=Window{95f8db5 u0 ballai.app/ball_ai.android.MainActivity}-[Surface(name=*Title#18074)/@0xf1f4316]
+10-28 09:14:06.189 D/WindowManager( 1043): finishDrawing: syncSeqId=0, postDrawTransaction=android.view.SurfaceControl$Transaction@8e36896, mSyncState=0, mDrawState=1, hasSyncHandlers=false, mClientWasDrawingForSync=false, win=Window{95f8db5 u0 kourtai.app/kourt_ai.android.MainActivity}-[Surface(name=*Title#18074)/@0xf1f4316]
 10-28 09:14:06.261 D/os.ActivityManagerServiceLice( 1043): make process active com.android.vending(3978)
 10-28 09:14:06.294 D/TranClassInfo( 3978): instance successfully. com.transsion.hubcore.graphics.TranGraphicImpl@4954b3a from com.transsion.hubcore.graphics.ITranGraphic
 10-28 09:14:06.338 D/BroadcastQueue( 1043): Add broadcast <BroadcastRecord{217a52a u-1 android.net.conn.CONNECTIVITY_CHANGE}> into [parallel | background], pending size 0
 10-28 09:14:06.341 D/BroadcastQueue( 1043): Done with parallel broadcast [background] [BroadcastRecord{217a52a u-1 android.net.conn.CONNECTIVITY_CHANGE}]
 10-28 09:14:06.388 D/CompatibilityChangeReporter( 1043): Compat change id reported: 214016041; UID 10196; state: ENABLED
 10-28 09:14:06.388 D/TranWindowManagerService( 1043): hookIMEVisibleChanged(), show:false
-10-28 09:14:06.526 I/input_debug( 1043): package: ballai.app isPassWordInput: false inputType: 0 mMethodMap: false isKeyguardShowing: false enable: 0 isSplitScreen: false
+10-28 09:14:06.526 I/input_debug( 1043): package: kourtai.app isPassWordInput: false inputType: 0 mMethodMap: false isKeyguardShowing: false enable: 0 isSplitScreen: false
 10-28 09:14:06.654 D/Griffin/ComponentManager( 1043): Limit start proc:com.huawei.hwid.container1 for 3rd-normal-service caller=system/1043,Intent { cmp=com.huawei.hwid/com.huawei.hms.runtimekit.stub.HMSKitC1NEStubJobService6 }
 10-28 09:14:06.654 W/ActivityManager( 1043): Unable to launch app com.huawei.hwid/10239 for service Intent { cmp=com.huawei.hwid/com.huawei.hms.runtimekit.stub.HMSKitC1NEStubJobService6 }: AutoStart Limit
 10-28 09:14:06.655 D/ActivityManager( 1043): isGriffinSupport  bringUpServiceLocked and unbindServiceLockedIntent { cmp=com.huawei.hwid/com.huawei.hms.runtimekit.stub.HMSKitC1NEStubJobService6 }
@@ -12511,10 +12511,10 @@
 10-28 09:14:07.557 D/PackageManager( 1043): Considering set com.android.vending/com.google.android.finsky.activities.DebugActivity's state as 2 with userId = 0, callingPackage = null
 10-28 09:14:07.558 D/BroadcastQueue( 1043): Add broadcast <BroadcastRecord{3371afe u0 com.google.android.finsky.action.UPDATE_SETTINGS_ACTION}> into [ordered | background], pending size 0
 10-28 09:14:07.582 D/BroadcastQueue( 1043): Finished with ordered broadcast BroadcastRecord{3371afe u0 com.google.android.finsky.action.UPDATE_SETTINGS_ACTION} receivers:([ResolveInfo{c6ef4ac com.android.vending/com.google.android.finsky.verifier.impl.settings.SingleUserSettingsBackgroundReceiver m=0x0}]) take 23ms in [background], remains -1
-10-28 09:14:07.646 D/Griffin/DeviceState( 1043): update playerItem, pid = 3741, uid = 10196, package = ballai.app, playerId = 13063, playerState = 2
+10-28 09:14:07.646 D/Griffin/DeviceState( 1043): update playerItem, pid = 3741, uid = 10196, package = kourtai.app, playerId = 13063, playerState = 2
 10-28 09:14:07.654 D/Griffin/DeviceState( 1043): Caller from 2, create the new playerItem: 
 10-28 09:14:07.654 D/Griffin/DeviceState( 1043): AudioPlayerItem{playerId=13063, playerState=2, lastUpdateTime=140996952, currentTime= 140996952}
-10-28 09:14:07.724 D/Griffin/DeviceState( 1043): update playerItem, pid = 3741, uid = 10196, package = ballai.app, playerId = 13063, playerState = 2
+10-28 09:14:07.724 D/Griffin/DeviceState( 1043): update playerItem, pid = 3741, uid = 10196, package = kourtai.app, playerId = 13063, playerState = 2
 10-28 09:14:07.755 D/BroadcastQueue( 1043): Add broadcast <BroadcastRecord{a346f74 u-1 android.intent.action.PROXY_CHANGE}> into [parallel | background], pending size 0
 10-28 09:14:07.756 D/BroadcastQueue( 1043): Done with parallel broadcast [background] [BroadcastRecord{a346f74 u-1 android.intent.action.PROXY_CHANGE}]
 10-28 09:14:07.768 D/os.permission.PermissionInfo( 1043): checkPermission 10162:android.permission.ACCESS_SHORTCUTS:false
@@ -12523,11 +12523,11 @@
 10-28 09:14:08.068 D/PackageManager( 1043): Considering set com.android.vending/com.google.android.finsky.verifier.impl.scan.adi.AdiWarnModeTrampolineActivity's state as 1 with userId = 0, callingPackage = null
 10-28 09:14:08.070 D/PackageManager( 1043): Considering set com.android.vending/com.google.android.finsky.verifier.impl.scan.adi.ColorOsAdiWarnModeTrampolineActivity's state as 0 with userId = 0, callingPackage = null
 10-28 09:14:08.071 D/PackageManager( 1043): Considering set com.android.vending/com.google.android.finsky.verifier.impl.scan.adi.OplusAdiWarnModeTrampolineActivity's state as 0 with userId = 0, callingPackage = null
-10-28 09:14:08.461 D/Griffin/DeviceState( 1043): update playerItem, pid = 3741, uid = 10196, package = ballai.app, playerId = 13063, playerState = 3
+10-28 09:14:08.461 D/Griffin/DeviceState( 1043): update playerItem, pid = 3741, uid = 10196, package = kourtai.app, playerId = 13063, playerState = 3
 10-28 09:14:10.012 D/NetworkStatusMonitor( 1043): getAllInterfaceNames network type is wifi
 10-28 09:14:10.012 D/NetworkStatusMonitor( 1043): getAllInterfaceNames network type is wifi_vpn
 10-28 09:14:10.012 D/NetworkStatusMonitor( 1043): onNetworkTypeChanged wifi => wifi
-10-28 09:14:10.182 I/input_debug( 1043): package: ballai.app isPassWordInput: false inputType: 40961 mMethodMap: false isKeyguardShowing: false enable: 0 isSplitScreen: false
+10-28 09:14:10.182 I/input_debug( 1043): package: kourtai.app isPassWordInput: false inputType: 40961 mMethodMap: false isKeyguardShowing: false enable: 0 isSplitScreen: false
 10-28 09:14:10.207 D/TranWindowManagerService( 1043): hookIMEVisibleChanged(), show:true
 10-28 09:14:10.208 E/JobScheduler.Concurrency( 1043): Had fewer than 16 in existence
 10-28 09:14:10.210 E/JobScheduler.Concurrency( 1043): Had fewer than 16 in existence
@@ -12633,7 +12633,7 @@
 10-28 09:14:10.441 W/Looper  ( 1043): Slow dispatch took 111ms main h=com.android.server.job.JobSchedulerService$JobHandler c=null m=1
 10-28 09:14:10.961 D/WindowManager( 1043): finishDrawing: syncSeqId=0, postDrawTransaction=android.view.SurfaceControl$Transaction@75fdd8, mSyncState=0, mDrawState=1, hasSyncHandlers=false, mClientWasDrawingForSync=false, win=Window{91e0e3e u0 InputMethod}-[Surface(name=*Title#18085)/@0xc2214bb]
 --------- beginning of main
-10-28 09:14:11.004 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:11.004 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:11.005 D/IMGGralloc(  627): GBuffer--------------(*format)=1
 10-28 09:14:11.005 D/IMGGralloc(  627): Gralloc alloc start  w:720, h:1612, f:0x1, usage:0xb00, privUsage:0x0, line = 1672
 10-28 09:14:11.005 D/BoundBrokerSvc(31300): onBind: Intent { act=com.google.firebase.dynamiclinks.service.START pkg=com.google.android.gms }
@@ -12727,7 +12727,7 @@
 10-28 09:14:11.016 D/IMGGralloc( 3741): Buffer: ui64Stamp: 366487, size: 4657152
 10-28 09:14:11.016 D/IMGGralloc( 3741): Buffer: ui64Stamp: 366483, size: 4657152
 10-28 09:14:11.016 D/IMGGralloc( 3741): Buffer: ui64Stamp: 366394, size: 4657152
-10-28 09:14:11.020 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:11.020 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:11.020 D/IMGGralloc(  682): Gralloc Register  w:720, h:1612, f:0x101, usage:0xb00, ui64Stamp:366801, sSize:4657152, line = 2444
 10-28 09:14:11.020 D/IMGGralloc(  682): GBuffer--------------(*format)=1
 10-28 09:14:11.031 I/DPUModule(  628): dpur2p0 prepare: count(4)
@@ -13387,11 +13387,11 @@
 10-28 09:14:11.347 I/DPUModule(  628): dpur2p0 checkAFBCBlockSize: compressed(0),format(1), pitch(720), vstride(96)
 10-28 09:14:11.347 I/DPUModule(  628): dpur2p0 checkTransform: Transform(0), SRCRect(0,0)
 10-28 09:14:11.347 D/DPUModule(  628): [] support: 0
-10-28 09:14:11.347 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:11.347 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:11.360 D/BluetoothManagerService( 1043): onAirplaneModeChanged state : BLE_ON, isAirplaneModeOn() : false
 10-28 09:14:11.360 D/BluetoothManagerService( 1043): Bluetooth persisted state: 1
 10-28 09:14:11.360 D/BluetoothManagerService( 1043): onAirplaneModeChanged delay MS : 400
-10-28 09:14:11.362 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=ballai.app refreshMode=0
+10-28 09:14:11.362 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=kourtai.app refreshMode=0
 10-28 09:14:11.365 D/IMGGralloc( 2156): Gralloc Free  w:720, h:1540, f:0x101, usage:0x900, ui64Stamp:366799 line = 2599
 10-28 09:14:11.366 D/IMGGralloc(  627): GBuffer--------------(*format)=1
 10-28 09:14:11.366 D/IMGGralloc(  627): Gralloc alloc start  w:720, h:1540, f:0x1, usage:0xb00, privUsage:0x0, line = 1672
@@ -13705,8 +13705,8 @@
 10-28 09:14:12.486 D/CompatibilityChangeReporter( 1043): Compat change id reported: 168419799; UID 1000; state: DISABLED
 10-28 09:14:12.489 V/WindowState( 1043): toString mSurfaceNameCache= mLastTitle=null title=Autofill UI
 10-28 09:14:12.489 I/hugh-tag( 1043): PhoneWindowManager onDefaultDisplayFocusChangedLw mCurrentFocus=Window{3f7c39d u0 Autofill UI}, [type=1005]
-10-28 09:14:12.492 I/WindowManager( 1043): Input focus has changed to Window{3f7c39d u0 Autofill UI}, [type=1005] from 95f8db5 ballai.app/ball_ai.android.MainActivity mDisplayId 0 updateInputWindows false, callers=com.android.server.wm.WindowManagerService.addWindow:2039 com.android.server.wm.Session.addToDisplayAsUser:214 android.view.ViewRootImpl.setView:1307 android.view.WindowManagerGlobal.addView:403 android.view.WindowManagerImpl.addView:148 
-10-28 09:14:12.493 D/WindowManager( 1043): Focus not requested, because it has no surface or is not focusable, request window=Window{3f7c39d u0 Autofill UI}, [type=1005], mCurrentFocusWindow= 95f8db5 ballai.app/ball_ai.android.MainActivity
+10-28 09:14:12.492 I/WindowManager( 1043): Input focus has changed to Window{3f7c39d u0 Autofill UI}, [type=1005] from 95f8db5 kourtai.app/kourt_ai.android.MainActivity mDisplayId 0 updateInputWindows false, callers=com.android.server.wm.WindowManagerService.addWindow:2039 com.android.server.wm.Session.addToDisplayAsUser:214 android.view.ViewRootImpl.setView:1307 android.view.WindowManagerGlobal.addView:403 android.view.WindowManagerImpl.addView:148 
+10-28 09:14:12.493 D/WindowManager( 1043): Focus not requested, because it has no surface or is not focusable, request window=Window{3f7c39d u0 Autofill UI}, [type=1005], mCurrentFocusWindow= 95f8db5 kourtai.app/kourt_ai.android.MainActivity
 10-28 09:14:12.493 D/CoreBackPreview( 1043): Window{3f7c39d u0 Autofill UI}, [type=1005]: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.WindowOnBackInvokedDispatcher$OnBackInvokedCallbackWrapper@3755b5e, mPriority=0}
 10-28 09:14:12.497 E/HighRefreshRateBlacklist( 1043): isWhiteListed packageName=android refreshMode=0
 10-28 09:14:12.498 I/DPUModule(  628): dpur2p0 prepare: count(5)
@@ -14974,7 +14974,7 @@
 10-28 09:14:29.397 D/AlarmManager( 1043): sending alarm.type = 3, action = null, alarm = Alarm{70e16f9 type 3 origWhen 141008307 whenElapsed 141008307 android}, cn = null, operation = null, listener=android.app.AlarmManager$ListenerWrapper@7e1ddf9, listenerTag=*job.delay*, workSource=WorkSource{10110 com.google.android.apps.messaging}
 10-28 09:14:29.398 D/AlarmManagerService( 1043): set alarm to kernel: 141134.269000000, type=2 
 10-28 09:14:29.398 D/AlarmManagerService( 1043): set alarm to kernel: 141049.298000000, type=3 
-10-28 09:14:29.402 V/AlarmManager( 1043): set(null) : type=3 listener=android.app.AlarmManager$ListenerWrapper@7e1ddf9 listenerTag=*job.delay* workSource=WorkSource{10196 ballai.app} callingPackage=android callingUid=1000 triggerAtTime=141048693 win=22494 tElapsed=141048693 maxElapsed=141071187 interval=0 flags=0x0
+10-28 09:14:29.402 V/AlarmManager( 1043): set(null) : type=3 listener=android.app.AlarmManager$ListenerWrapper@7e1ddf9 listenerTag=*job.delay* workSource=WorkSource{10196 kourtai.app} callingPackage=android callingUid=1000 triggerAtTime=141048693 win=22494 tElapsed=141048693 maxElapsed=141071187 interval=0 flags=0x0
 10-28 09:14:29.402 D/AlarmManager( 1043): Add alarm packageName=android, type=3, when=141048693, tag=*job.delay*, callingUid=1000, callingPackage=android
 10-28 09:14:29.403 D/AlarmManagerService( 1043): set alarm to kernel: 141134.269000000, type=2 
 10-28 09:14:29.403 D/AlarmManagerService( 1043): set alarm to kernel: 141049.298000000, type=3 

@@ -1,5 +1,5 @@
 version: 3.0.3
-apkFileName: ballai.app.apk
+apkFileName: kourtai.app.apk
 usesFramework:
   ids:
   - 1

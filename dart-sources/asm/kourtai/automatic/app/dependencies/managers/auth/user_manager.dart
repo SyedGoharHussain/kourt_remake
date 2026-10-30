@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart
 
 // class id: 1048643, size: 0x8
 class :: {
@@ -37,7 +37,7 @@ class UserManager extends ChangeNotifier {
     //     0x651330: b.ls            #0x651378
     // 0x651334: mov             x1, x0
     // 0x651338: r0 = isPaywallExemptUser()
-    //     0x651338: bl              #0x651a14  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPaywallExemptUser
+    //     0x651338: bl              #0x651a14  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPaywallExemptUser
     // 0x65133c: tbnz            w0, #4, #0x651350
     // 0x651340: r0 = true
     //     0x651340: add             x0, NULL, #0x20  ; true
@@ -56,7 +56,7 @@ class UserManager extends ChangeNotifier {
     //     0x651360: add             x0, NULL, #0x20  ; true
     // 0x651364: b               #0x65136c
     // 0x651368: r0 = hasGrantedProAccess()
-    //     0x651368: bl              #0x651380  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::hasGrantedProAccess
+    //     0x651368: bl              #0x651380  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::hasGrantedProAccess
     // 0x65136c: LeaveFrame
     //     0x65136c: mov             SP, fp
     //     0x651370: ldp             fp, lr, [SP], #0x10
@@ -82,7 +82,7 @@ class UserManager extends ChangeNotifier {
     //     0x65139c: b.ls            #0x651434
     // 0x6513a0: mov             x1, x0
     // 0x6513a4: r0 = isOnPayingTeam()
-    //     0x6513a4: bl              #0x651798  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isOnPayingTeam
+    //     0x6513a4: bl              #0x651798  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isOnPayingTeam
     // 0x6513a8: tbz             w0, #4, #0x651410
     // 0x6513ac: ldur            x0, [fp, #-8]
     // 0x6513b0: LoadField: r1 = r0->field_27
@@ -100,7 +100,7 @@ class UserManager extends ChangeNotifier {
     //     0x6513cc: add             x2, x2, HEAP, lsl #32
     // 0x6513d0: mov             x1, x2
     // 0x6513d4: r0 = isUTrainEmail()
-    //     0x6513d4: bl              #0x651710  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::isUTrainEmail
+    //     0x6513d4: bl              #0x651710  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::isUTrainEmail
     // 0x6513d8: tbz             w0, #4, #0x651410
     // 0x6513dc: ldur            x0, [fp, #-8]
     // 0x6513e0: LoadField: r1 = r0->field_27
@@ -109,16 +109,16 @@ class UserManager extends ChangeNotifier {
     //     0x6513e4: add             x1, x1, HEAP, lsl #32
     // 0x6513e8: cmp             w1, NULL
     // 0x6513ec: b.eq            #0x6513f8
-    // 0x6513f0: r0 = isBallAIOrgMember()
-    //     0x6513f0: bl              #0x651600  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::isBallAIOrgMember
+    // 0x6513f0: r0 = isKourtAIOrgMember()
+    //     0x6513f0: bl              #0x651600  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::isKourtAIOrgMember
     // 0x6513f4: tbz             w0, #4, #0x651410
     // 0x6513f8: ldur            x1, [fp, #-8]
     // 0x6513fc: r0 = isPaywallExemptUser()
-    //     0x6513fc: bl              #0x651a14  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPaywallExemptUser
+    //     0x6513fc: bl              #0x651a14  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPaywallExemptUser
     // 0x651400: tbz             w0, #4, #0x651410
     // 0x651404: ldur            x1, [fp, #-8]
     // 0x651408: r0 = hasManualProAccess()
-    //     0x651408: bl              #0x6514e8  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::hasManualProAccess
+    //     0x651408: bl              #0x6514e8  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::hasManualProAccess
     // 0x65140c: tbnz            w0, #4, #0x651418
     // 0x651410: r0 = true
     //     0x651410: add             x0, NULL, #0x20  ; true
@@ -138,7 +138,7 @@ class UserManager extends ChangeNotifier {
     //     0x651434: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x651438: b               #0x6513a0
   }
-  get _ isBallAIStaffMember(/* No info */) {
+  get _ isKourtAIStaffMember(/* No info */) {
     // ** addr: 0x65143c, size: 0x60
     // 0x65143c: EnterFrame
     //     0x65143c: stp             fp, lr, [SP, #-0x10]!
@@ -157,8 +157,8 @@ class UserManager extends ChangeNotifier {
     //     0x651460: mov             x1, NULL
     // 0x651464: b               #0x651474
     // 0x651468: mov             x1, x0
-    // 0x65146c: r0 = isBallAIOrgMember()
-    //     0x65146c: bl              #0x651600  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::isBallAIOrgMember
+    // 0x65146c: r0 = isKourtAIOrgMember()
+    //     0x65146c: bl              #0x651600  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::isKourtAIOrgMember
     // 0x651470: mov             x1, x0
     // 0x651474: r16 = true
     //     0x651474: add             x16, NULL, #0x20  ; true
@@ -200,7 +200,7 @@ class UserManager extends ChangeNotifier {
     // 0x6514cc: DecompressPointer r1
     //     0x6514cc: add             x1, x1, HEAP, lsl #32
     // 0x6514d0: r0 = isUTrainEmail()
-    //     0x6514d0: bl              #0x651710  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::isUTrainEmail
+    //     0x6514d0: bl              #0x651710  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::isUTrainEmail
     // 0x6514d4: LeaveFrame
     //     0x6514d4: mov             SP, fp
     //     0x6514d8: ldp             fp, lr, [SP], #0x10
@@ -230,7 +230,7 @@ class UserManager extends ChangeNotifier {
     // 0x651510: b               #0x651520
     // 0x651514: mov             x1, x0
     // 0x651518: r0 = hasActiveManualProAccess()
-    //     0x651518: bl              #0x651548  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::hasActiveManualProAccess
+    //     0x651518: bl              #0x651548  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::hasActiveManualProAccess
     // 0x65151c: mov             x1, x0
     // 0x651520: r16 = true
     //     0x651520: add             x16, NULL, #0x20  ; true
@@ -269,7 +269,7 @@ class UserManager extends ChangeNotifier {
     //     0x6517c0: mov             x0, NULL
     // 0x6517c4: b               #0x6517cc
     // 0x6517c8: r0 = currentTeams()
-    //     0x6517c8: bl              #0x651818  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeams
+    //     0x6517c8: bl              #0x651818  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeams
     // 0x6517cc: cmp             w0, NULL
     // 0x6517d0: b.ne            #0x6517e4
     // 0x6517d4: r1 = <TeamModel>
@@ -281,7 +281,7 @@ class UserManager extends ChangeNotifier {
     //     0x6517e0: bl              #0x5c7588  ; [dart:core] _GrowableList::_GrowableList
     // 0x6517e4: stur            x0, [fp, #-8]
     // 0x6517e8: r1 = Function '<anonymous closure>':.
-    //     0x6517e8: add             x1, PP, #0x14, lsl #12  ; [pp+0x14520] AnonymousClosure: (0x6518a0), in [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isOnPayingTeam (0x651798)
+    //     0x6517e8: add             x1, PP, #0x14, lsl #12  ; [pp+0x14520] AnonymousClosure: (0x6518a0), in [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isOnPayingTeam (0x651798)
     //     0x6517ec: ldr             x1, [x1, #0x520]
     // 0x6517f0: r2 = Null
     //     0x6517f0: mov             x2, NULL
@@ -311,7 +311,7 @@ class UserManager extends ChangeNotifier {
     //     0x6518b0: b.ls            #0x6518c8
     // 0x6518b4: ldr             x1, [fp, #0x10]
     // 0x6518b8: r0 = isSubscriptionActivePaying()
-    //     0x6518b8: bl              #0x6518d0  ; [package:ballai/automatic/models/core/team/team_model.dart] TeamModel::isSubscriptionActivePaying
+    //     0x6518b8: bl              #0x6518d0  ; [package:kourtai/automatic/models/core/team/team_model.dart] TeamModel::isSubscriptionActivePaying
     // 0x6518bc: LeaveFrame
     //     0x6518bc: mov             SP, fp
     //     0x6518c0: ldp             fp, lr, [SP], #0x10
@@ -344,7 +344,7 @@ class UserManager extends ChangeNotifier {
     // 0x651a44: DecompressPointer r1
     //     0x651a44: add             x1, x1, HEAP, lsl #32
     // 0x651a48: r0 = isPaywallExemptEmail()
-    //     0x651a48: bl              #0x657094  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::isPaywallExemptEmail
+    //     0x651a48: bl              #0x657094  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::isPaywallExemptEmail
     // 0x651a4c: tbnz            w0, #4, #0x651a60
     // 0x651a50: r0 = true
     //     0x651a50: add             x0, NULL, #0x20  ; true
@@ -376,7 +376,7 @@ class UserManager extends ChangeNotifier {
     //     0x651a94: bl              #0x651ad8  ; [package:firebase_auth/firebase_auth.dart] User::email
     // 0x651a98: mov             x1, x0
     // 0x651a9c: r0 = isPaywallExemptEmail()
-    //     0x651a9c: bl              #0x657094  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::isPaywallExemptEmail
+    //     0x651a9c: bl              #0x657094  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::isPaywallExemptEmail
     // 0x651aa0: LeaveFrame
     //     0x651aa0: mov             SP, fp
     //     0x651aa4: ldp             fp, lr, [SP], #0x10
@@ -429,8 +429,8 @@ class UserManager extends ChangeNotifier {
     //     0x659c34: mov             x1, NULL
     // 0x659c38: b               #0x659c48
     // 0x659c3c: mov             x1, x0
-    // 0x659c40: r0 = hasLapsedBallAiProTrialOrIntroEntitlement()
-    //     0x659c40: bl              #0x659c70  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasLapsedBallAiProTrialOrIntroEntitlement
+    // 0x659c40: r0 = hasLapsedKourtAiProTrialOrIntroEntitlement()
+    //     0x659c40: bl              #0x659c70  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasLapsedKourtAiProTrialOrIntroEntitlement
     // 0x659c44: mov             x1, x0
     // 0x659c48: r16 = true
     //     0x659c48: add             x16, NULL, #0x20  ; true
@@ -495,7 +495,7 @@ class UserManager extends ChangeNotifier {
     //     0x661970: bl              #0x60afc8  ; InitAsyncStub
     // 0x661974: ldur            x1, [fp, #-0x20]
     // 0x661978: r0 = toFirestoreUpdateMap()
-    //     0x661978: bl              #0x662298  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::toFirestoreUpdateMap
+    //     0x661978: bl              #0x662298  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::toFirestoreUpdateMap
     // 0x66197c: mov             x2, x0
     // 0x661980: ldur            x1, [fp, #-0x10]
     // 0x661984: stur            x2, [fp, #-0x28]
@@ -655,13 +655,13 @@ class UserManager extends ChangeNotifier {
     //     0x744810: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x744814: bl              #0x60afc8  ; InitAsyncStub
     // 0x744818: r0 = scheduleWorkoutReturnFunnel()
-    //     0x744818: bl              #0x746978  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleWorkoutReturnFunnel
+    //     0x744818: bl              #0x746978  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleWorkoutReturnFunnel
     // 0x74481c: mov             x1, x0
     // 0x744820: stur            x1, [fp, #-0x18]
     // 0x744824: r0 = Await()
     //     0x744824: bl              #0x60ad4c  ; AwaitStub
     // 0x744828: r0 = syncFreeUserWorkoutMilestoneFunnel()
-    //     0x744828: bl              #0x744848  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::syncFreeUserWorkoutMilestoneFunnel
+    //     0x744828: bl              #0x744848  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::syncFreeUserWorkoutMilestoneFunnel
     // 0x74482c: mov             x1, x0
     // 0x744830: stur            x1, [fp, #-0x18]
     // 0x744834: r0 = Await()
@@ -708,7 +708,7 @@ class UserManager extends ChangeNotifier {
     //     0x900dec: add             x2, x2, HEAP, lsl #32
     // 0x900df0: mov             x1, x2
     // 0x900df4: r0 = setCompletedFor()
-    //     0x900df4: bl              #0x900e24  ; [package:ballai/automatic/utility/defaults/defaultsstorage/defaults_post_setup_permissions.dart] DefaultsPostSetupPermissions::setCompletedFor
+    //     0x900df4: bl              #0x900e24  ; [package:kourtai/automatic/utility/defaults/defaultsstorage/defaults_post_setup_permissions.dart] DefaultsPostSetupPermissions::setCompletedFor
     // 0x900df8: mov             x1, x0
     // 0x900dfc: stur            x1, [fp, #-0x18]
     // 0x900e00: r0 = Await()
@@ -781,7 +781,7 @@ class UserManager extends ChangeNotifier {
     // 0x930738: mov             x1, x2
     // 0x93073c: mov             x2, x16
     // 0x930740: r0 = completedStateFor()
-    //     0x930740: bl              #0x93076c  ; [package:ballai/automatic/utility/defaults/defaultsstorage/defaults_post_setup_permissions.dart] DefaultsPostSetupPermissions::completedStateFor
+    //     0x930740: bl              #0x93076c  ; [package:kourtai/automatic/utility/defaults/defaultsstorage/defaults_post_setup_permissions.dart] DefaultsPostSetupPermissions::completedStateFor
     // 0x930744: mov             x1, x0
     // 0x930748: stur            x1, [fp, #-0x18]
     // 0x93074c: r0 = Await()
@@ -883,7 +883,7 @@ class UserManager extends ChangeNotifier {
     //     0x939e38: add             x2, x2, HEAP, lsl #32
     // 0x939e3c: ldur            x1, [fp, #-0x98]
     // 0x939e40: r0 = _ensureExistingUserInAndroidDatabase()
-    //     0x939e40: bl              #0x93e548  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::_ensureExistingUserInAndroidDatabase
+    //     0x939e40: bl              #0x93e548  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::_ensureExistingUserInAndroidDatabase
     // 0x939e44: mov             x1, x0
     // 0x939e48: stur            x1, [fp, #-0xa8]
     // 0x939e4c: r0 = Await()
@@ -895,7 +895,7 @@ class UserManager extends ChangeNotifier {
     // 0x939e5c: ldur            x1, [fp, #-0x98]
     // 0x939e60: ldur            x2, [fp, #-0xa0]
     // 0x939e64: r0 = createUserModel()
-    //     0x939e64: bl              #0x93df64  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::createUserModel
+    //     0x939e64: bl              #0x93df64  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::createUserModel
     // 0x939e68: mov             x1, x0
     // 0x939e6c: stur            x1, [fp, #-0xa8]
     // 0x939e70: r0 = Await()
@@ -946,10 +946,10 @@ class UserManager extends ChangeNotifier {
     //     0x939edc: add             x2, x2, HEAP, lsl #32
     // 0x939ee0: mov             x1, x0
     // 0x939ee4: r0 = startListeningToUser()
-    //     0x939ee4: bl              #0x93dc98  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::startListeningToUser
+    //     0x939ee4: bl              #0x93dc98  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::startListeningToUser
     // 0x939ee8: ldur            x1, [fp, #-0x98]
     // 0x939eec: r0 = fetchProfileImageForCurrentUser()
-    //     0x939eec: bl              #0x93d6fc  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::fetchProfileImageForCurrentUser
+    //     0x939eec: bl              #0x93d6fc  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::fetchProfileImageForCurrentUser
     // 0x939ef0: ldur            x0, [fp, #-0x98]
     // 0x939ef4: LoadField: r1 = r0->field_27
     //     0x939ef4: ldur            w1, [x0, #0x27]
@@ -995,7 +995,7 @@ class UserManager extends ChangeNotifier {
     // 0x939f5c: mov             x3, x4
     // 0x939f60: stur            x7, [fp, #-0xa8]
     // 0x939f64: r0 = hydrateCancelWinbackRedeemedFlag()
-    //     0x939f64: bl              #0x93d5f0  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hydrateCancelWinbackRedeemedFlag
+    //     0x939f64: bl              #0x93d5f0  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hydrateCancelWinbackRedeemedFlag
     // 0x939f68: ldur            x0, [fp, #-0x98]
     // 0x939f6c: ldur            x3, [fp, #-0xa0]
     // 0x939f70: LoadField: r1 = r3->field_7
@@ -1016,16 +1016,16 @@ class UserManager extends ChangeNotifier {
     //     0x939f8c: add             x2, x2, HEAP, lsl #32
     // 0x939f90: mov             x1, x0
     // 0x939f94: r0 = refreshWorkoutCount()
-    //     0x939f94: bl              #0x93cb2c  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::refreshWorkoutCount
+    //     0x939f94: bl              #0x93cb2c  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::refreshWorkoutCount
     // 0x939f98: ldur            x1, [fp, #-0x98]
     // 0x939f9c: stur            x0, [fp, #-0xa8]
     // 0x939fa0: r0 = refreshPostSetupPermissionsFlag()
-    //     0x939fa0: bl              #0x9306c0  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::refreshPostSetupPermissionsFlag
+    //     0x939fa0: bl              #0x9306c0  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::refreshPostSetupPermissionsFlag
     // 0x939fa4: ldur            x1, [fp, #-0x98]
     // 0x939fa8: ldur            x2, [fp, #-0xa0]
     // 0x939fac: stur            x0, [fp, #-0xb0]
     // 0x939fb0: r0 = _syncRevenueCatAfterBootstrap()
-    //     0x939fb0: bl              #0x93b0dc  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::_syncRevenueCatAfterBootstrap
+    //     0x939fb0: bl              #0x93b0dc  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::_syncRevenueCatAfterBootstrap
     // 0x939fb4: r1 = Null
     //     0x939fb4: mov             x1, NULL
     // 0x939fb8: r2 = 6
@@ -1069,14 +1069,14 @@ class UserManager extends ChangeNotifier {
     //     0x93a018: bl              #0x60ad4c  ; AwaitStub
     // 0x93a01c: ldur            x1, [fp, #-0x98]
     // 0x93a020: r0 = syncAppVersionToProfile()
-    //     0x93a020: bl              #0x93a770  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::syncAppVersionToProfile
+    //     0x93a020: bl              #0x93a770  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::syncAppVersionToProfile
     // 0x93a024: mov             x1, x0
     // 0x93a028: stur            x1, [fp, #-0xa8]
     // 0x93a02c: r0 = Await()
     //     0x93a02c: bl              #0x60ad4c  ; AwaitStub
     // 0x93a030: ldur            x1, [fp, #-0x98]
     // 0x93a034: r0 = syncAppSourceToProfile()
-    //     0x93a034: bl              #0x93a560  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::syncAppSourceToProfile
+    //     0x93a034: bl              #0x93a560  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::syncAppSourceToProfile
     // 0x93a038: mov             x1, x0
     // 0x93a03c: stur            x1, [fp, #-0xa8]
     // 0x93a040: r0 = Await()
@@ -1098,7 +1098,7 @@ class UserManager extends ChangeNotifier {
     // 0x93a06c: mov             x3, x0
     // 0x93a070: stur            x5, [fp, #-0xa0]
     // 0x93a074: r0 = checkStreak()
-    //     0x93a074: bl              #0x93e99c  ; [package:ballai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::checkStreak
+    //     0x93a074: bl              #0x93e99c  ; [package:kourtai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::checkStreak
     // 0x93a078: b               #0x93a100
     // 0x93a07c: sub             SP, fp, #0xd0
     // 0x93a080: ldur            x3, [fp, #-0x98]
@@ -1112,7 +1112,7 @@ class UserManager extends ChangeNotifier {
     //     0x93a09c: add             x2, PP, #0x1a, lsl #12  ; [pp+0x1acd0] "Couldn\'t load your profile. Please try again."
     //     0x93a0a0: ldr             x2, [x2, #0xcd0]
     // 0x93a0a4: r0 = userFacingError()
-    //     0x93a0a4: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0x93a0a4: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0x93a0a8: ldur            x3, [fp, #-0x98]
     // 0x93a0ac: StoreField: r3->field_33 = r0
     //     0x93a0ac: stur            w0, [x3, #0x33]
@@ -1140,11 +1140,11 @@ class UserManager extends ChangeNotifier {
     // 0x93a0ec: r0 = _interpolate()
     //     0x93a0ec: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0x93a0f0: mov             x2, x0
-    // 0x93a0f4: r1 = Instance_BallAiLogCategory
-    //     0x93a0f4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1add8] Obj!BallAiLogCategory@d3bc41
+    // 0x93a0f4: r1 = Instance_KourtAiLogCategory
+    //     0x93a0f4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1add8] Obj!KourtAiLogCategory@d3bc41
     //     0x93a0f8: ldr             x1, [x1, #0xdd8]
     // 0x93a0fc: r0 = info()
-    //     0x93a0fc: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
+    //     0x93a0fc: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
     // 0x93a100: ldur            x0, [fp, #-0x98]
     // 0x93a104: r2 = true
     //     0x93a104: add             x2, NULL, #0x20  ; true
@@ -1307,14 +1307,14 @@ class UserManager extends ChangeNotifier {
     // 0x93a29c: r0 = _interpolate()
     //     0x93a29c: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0x93a2a0: mov             x2, x0
-    // 0x93a2a4: r1 = Instance_BallAiLogCategory
-    //     0x93a2a4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1add8] Obj!BallAiLogCategory@d3bc41
+    // 0x93a2a4: r1 = Instance_KourtAiLogCategory
+    //     0x93a2a4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1add8] Obj!KourtAiLogCategory@d3bc41
     //     0x93a2a8: ldr             x1, [x1, #0xdd8]
     // 0x93a2ac: r0 = info()
-    //     0x93a2ac: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
+    //     0x93a2ac: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
     // 0x93a2b0: ldur            x1, [fp, #-0xa8]
     // 0x93a2b4: r0 = setLastAuthenticatedUid()
-    //     0x93a2b4: bl              #0x93e930  ; [package:ballai/automatic/app/session_persistence.dart] SessionPersistence::setLastAuthenticatedUid
+    //     0x93a2b4: bl              #0x93e930  ; [package:kourtai/automatic/app/session_persistence.dart] SessionPersistence::setLastAuthenticatedUid
     // 0x93a2b8: b               #0x93a30c
     // 0x93a2bc: r1 = Null
     //     0x93a2bc: mov             x1, NULL
@@ -1343,11 +1343,11 @@ class UserManager extends ChangeNotifier {
     // 0x93a2f8: r0 = _interpolate()
     //     0x93a2f8: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0x93a2fc: mov             x2, x0
-    // 0x93a300: r1 = Instance_BallAiLogCategory
-    //     0x93a300: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1add8] Obj!BallAiLogCategory@d3bc41
+    // 0x93a300: r1 = Instance_KourtAiLogCategory
+    //     0x93a300: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1add8] Obj!KourtAiLogCategory@d3bc41
     //     0x93a304: ldr             x1, [x1, #0xdd8]
     // 0x93a308: r0 = info()
-    //     0x93a308: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
+    //     0x93a308: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
     // 0x93a30c: ldur            x1, [fp, #-0x98]
     // 0x93a310: r0 = notifyListeners()
     //     0x93a310: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -1522,14 +1522,14 @@ class UserManager extends ChangeNotifier {
     // 0x93a4cc: r0 = _interpolate()
     //     0x93a4cc: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0x93a4d0: mov             x2, x0
-    // 0x93a4d4: r1 = Instance_BallAiLogCategory
-    //     0x93a4d4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1add8] Obj!BallAiLogCategory@d3bc41
+    // 0x93a4d4: r1 = Instance_KourtAiLogCategory
+    //     0x93a4d4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1add8] Obj!KourtAiLogCategory@d3bc41
     //     0x93a4d8: ldr             x1, [x1, #0xdd8]
     // 0x93a4dc: r0 = info()
-    //     0x93a4dc: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
+    //     0x93a4dc: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
     // 0x93a4e0: ldur            x1, [fp, #-0xb8]
     // 0x93a4e4: r0 = setLastAuthenticatedUid()
-    //     0x93a4e4: bl              #0x93e930  ; [package:ballai/automatic/app/session_persistence.dart] SessionPersistence::setLastAuthenticatedUid
+    //     0x93a4e4: bl              #0x93e930  ; [package:kourtai/automatic/app/session_persistence.dart] SessionPersistence::setLastAuthenticatedUid
     // 0x93a4e8: b               #0x93a540
     // 0x93a4ec: mov             x0, x4
     // 0x93a4f0: r1 = Null
@@ -1559,11 +1559,11 @@ class UserManager extends ChangeNotifier {
     // 0x93a52c: r0 = _interpolate()
     //     0x93a52c: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0x93a530: mov             x2, x0
-    // 0x93a534: r1 = Instance_BallAiLogCategory
-    //     0x93a534: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1add8] Obj!BallAiLogCategory@d3bc41
+    // 0x93a534: r1 = Instance_KourtAiLogCategory
+    //     0x93a534: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1add8] Obj!KourtAiLogCategory@d3bc41
     //     0x93a538: ldr             x1, [x1, #0xdd8]
     // 0x93a53c: r0 = info()
-    //     0x93a53c: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
+    //     0x93a53c: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
     // 0x93a540: ldur            x1, [fp, #-0x98]
     // 0x93a544: r0 = notifyListeners()
     //     0x93a544: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -1631,7 +1631,7 @@ class UserManager extends ChangeNotifier {
     //     0x93a5ec: add             x4, PP, #0x1b, lsl #12  ; [pp+0x1b038] List(7) [0, 0x2, 0x1, 0x1, "appSource", 0x1, Null]
     //     0x93a5f0: ldr             x4, [x4, #0x38]
     // 0x93a5f4: r0 = copyWith()
-    //     0x93a5f4: bl              #0x663774  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::copyWith
+    //     0x93a5f4: bl              #0x663774  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::copyWith
     // 0x93a5f8: ldur            x2, [fp, #-0x70]
     // 0x93a5fc: StoreField: r2->field_27 = r0
     //     0x93a5fc: stur            w0, [x2, #0x27]
@@ -1841,7 +1841,7 @@ class UserManager extends ChangeNotifier {
     //     0x93a828: add             x4, PP, #0x1b, lsl #12  ; [pp+0x1b048] List(7) [0, 0x2, 0x1, 0x1, "appVersion", 0x1, Null]
     //     0x93a82c: ldr             x4, [x4, #0x48]
     // 0x93a830: r0 = copyWith()
-    //     0x93a830: bl              #0x663774  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::copyWith
+    //     0x93a830: bl              #0x663774  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::copyWith
     // 0x93a834: ldur            x2, [fp, #-0x80]
     // 0x93a838: StoreField: r2->field_27 = r0
     //     0x93a838: stur            w0, [x2, #0x27]
@@ -2032,7 +2032,7 @@ class UserManager extends ChangeNotifier {
     // 0x93b15c: mov             x1, x0
     // 0x93b160: mov             x2, x3
     // 0x93b164: r0 = configureRevenueCatBridge()
-    //     0x93b164: bl              #0x93c9f0  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::configureRevenueCatBridge
+    //     0x93b164: bl              #0x93c9f0  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::configureRevenueCatBridge
     // 0x93b168: ldur            x0, [fp, #-0x18]
     // 0x93b16c: LoadField: r1 = r0->field_7
     //     0x93b16c: ldur            w1, [x0, #7]
@@ -2052,7 +2052,7 @@ class UserManager extends ChangeNotifier {
     //     0x93b188: add             x2, x2, HEAP, lsl #32
     // 0x93b18c: ldur            x1, [fp, #-0x28]
     // 0x93b190: r0 = identify()
-    //     0x93b190: bl              #0x93c53c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::identify
+    //     0x93b190: bl              #0x93c53c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::identify
     // 0x93b194: mov             x1, x0
     // 0x93b198: stur            x1, [fp, #-0x30]
     // 0x93b19c: r0 = Await()
@@ -2137,7 +2137,7 @@ class UserManager extends ChangeNotifier {
     //     0x93b25c: add             x2, x2, HEAP, lsl #32
     // 0x93b260: ldur            x1, [fp, #-0x28]
     // 0x93b264: r0 = identify()
-    //     0x93b264: bl              #0x93c53c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::identify
+    //     0x93b264: bl              #0x93c53c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::identify
     // 0x93b268: mov             x1, x0
     // 0x93b26c: stur            x1, [fp, #-0x30]
     // 0x93b270: r0 = Await()
@@ -2211,7 +2211,7 @@ class UserManager extends ChangeNotifier {
     //     0x93b31c: bl              #0x5c96fc  ; [package:flutter/src/foundation/print.dart] ::debugPrintThrottled
     // 0x93b320: ldur            x1, [fp, #-0x28]
     // 0x93b324: r0 = refreshCustomerInfo()
-    //     0x93b324: bl              #0x65b240  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshCustomerInfo
+    //     0x93b324: bl              #0x65b240  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshCustomerInfo
     // 0x93b328: mov             x1, x0
     // 0x93b32c: stur            x1, [fp, #-0x38]
     // 0x93b330: r0 = Await()
@@ -2220,7 +2220,7 @@ class UserManager extends ChangeNotifier {
     // 0x93b338: ldur            x0, [fp, #-0x30]
     // 0x93b33c: ldur            x1, [fp, #-0x28]
     // 0x93b340: r0 = refreshOfferings()
-    //     0x93b340: bl              #0x648724  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshOfferings
+    //     0x93b340: bl              #0x648724  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshOfferings
     // 0x93b344: mov             x1, x0
     // 0x93b348: stur            x1, [fp, #-0x38]
     // 0x93b34c: r0 = Await()
@@ -2228,7 +2228,7 @@ class UserManager extends ChangeNotifier {
     // 0x93b350: ldur            x1, [fp, #-0x10]
     // 0x93b354: ldur            x2, [fp, #-0x28]
     // 0x93b358: r0 = _syncRevenueCatMirrorFlags()
-    //     0x93b358: bl              #0x93b538  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::_syncRevenueCatMirrorFlags
+    //     0x93b358: bl              #0x93b538  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::_syncRevenueCatMirrorFlags
     // 0x93b35c: ldur            x0, [fp, #-0x10]
     // 0x93b360: r3 = true
     //     0x93b360: add             x3, NULL, #0x20  ; true
@@ -2242,7 +2242,7 @@ class UserManager extends ChangeNotifier {
     // 0x93b378: mov             x1, x0
     // 0x93b37c: ldur            x2, [fp, #-0x18]
     // 0x93b380: r0 = _retryRevenueCatIdentify()
-    //     0x93b380: bl              #0x93b3c4  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::_retryRevenueCatIdentify
+    //     0x93b380: bl              #0x93b3c4  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::_retryRevenueCatIdentify
     // 0x93b384: ldur            x2, [fp, #-0x20]
     // 0x93b388: LoadField: r0 = r2->field_1f
     //     0x93b388: ldur            w0, [x2, #0x1f]
@@ -2254,13 +2254,13 @@ class UserManager extends ChangeNotifier {
     //     0x93b398: add             x4, PP, #0x1b, lsl #12  ; [pp+0x1b150] List(7) [0, 0x3, 0x1, 0x2, "fcmToken", 0x2, Null]
     //     0x93b39c: ldr             x4, [x4, #0x150]
     // 0x93b3a0: r0 = syncSubscriberAttributes()
-    //     0x93b3a0: bl              #0x65a918  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::syncSubscriberAttributes
+    //     0x93b3a0: bl              #0x65a918  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::syncSubscriberAttributes
     // 0x93b3a4: ldur            x1, [fp, #-0x28]
     // 0x93b3a8: ldur            x3, [fp, #-0x10]
     // 0x93b3ac: r2 = true
     //     0x93b3ac: add             x2, NULL, #0x20  ; true
     // 0x93b3b0: r0 = syncEngagementAttributes()
-    //     0x93b3b0: bl              #0x65a2f4  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::syncEngagementAttributes
+    //     0x93b3b0: bl              #0x65a2f4  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::syncEngagementAttributes
     // 0x93b3b4: r0 = Null
     //     0x93b3b4: mov             x0, NULL
     // 0x93b3b8: r0 = ReturnAsyncNotFuture()
@@ -2376,7 +2376,7 @@ class UserManager extends ChangeNotifier {
     //     0x93b4c4: add             x2, x2, HEAP, lsl #32
     // 0x93b4c8: ldur            x1, [fp, #-0x20]
     // 0x93b4cc: r0 = identify()
-    //     0x93b4cc: bl              #0x93c53c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::identify
+    //     0x93b4cc: bl              #0x93c53c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::identify
     // 0x93b4d0: mov             x1, x0
     // 0x93b4d4: stur            x1, [fp, #-0x18]
     // 0x93b4d8: r0 = Await()
@@ -2387,7 +2387,7 @@ class UserManager extends ChangeNotifier {
     // 0x93b4e4: b.eq            #0x93b4fc
     // 0x93b4e8: ldur            x1, [fp, #-0x20]
     // 0x93b4ec: r0 = refreshCustomerInfo()
-    //     0x93b4ec: bl              #0x65b240  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshCustomerInfo
+    //     0x93b4ec: bl              #0x65b240  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshCustomerInfo
     // 0x93b4f0: mov             x1, x0
     // 0x93b4f4: stur            x1, [fp, #-0x18]
     // 0x93b4f8: r0 = Await()
@@ -2396,7 +2396,7 @@ class UserManager extends ChangeNotifier {
     // 0x93b500: mov             x1, x0
     // 0x93b504: ldur            x2, [fp, #-0x20]
     // 0x93b508: r0 = _syncRevenueCatMirrorFlags()
-    //     0x93b508: bl              #0x93b538  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::_syncRevenueCatMirrorFlags
+    //     0x93b508: bl              #0x93b538  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::_syncRevenueCatMirrorFlags
     // 0x93b50c: ldur            x1, [fp, #-0x10]
     // 0x93b510: LoadField: r0 = r1->field_67
     //     0x93b510: ldur            w0, [x1, #0x67]
@@ -2434,20 +2434,20 @@ class UserManager extends ChangeNotifier {
     //     0x93b558: cmp             SP, x16
     //     0x93b55c: b.ls            #0x93b6a8
     // 0x93b560: mov             x1, x0
-    // 0x93b564: r0 = hasBallAiProEntitlement()
-    //     0x93b564: bl              #0x65933c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasBallAiProEntitlement
+    // 0x93b564: r0 = hasKourtAiProEntitlement()
+    //     0x93b564: bl              #0x65933c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasKourtAiProEntitlement
     // 0x93b568: ldur            x1, [fp, #-0x10]
     // 0x93b56c: stur            x0, [fp, #-0x18]
     // 0x93b570: r0 = hasBallPartnerEntitlement()
-    //     0x93b570: bl              #0x93c484  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasBallPartnerEntitlement
+    //     0x93b570: bl              #0x93c484  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasBallPartnerEntitlement
     // 0x93b574: ldur            x1, [fp, #-0x10]
     // 0x93b578: stur            x0, [fp, #-0x20]
-    // 0x93b57c: r0 = hasActiveRenewingBallAiProEntitlement()
-    //     0x93b57c: bl              #0x659d58  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveRenewingBallAiProEntitlement
+    // 0x93b57c: r0 = hasActiveRenewingKourtAiProEntitlement()
+    //     0x93b57c: bl              #0x659d58  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveRenewingKourtAiProEntitlement
     // 0x93b580: ldur            x1, [fp, #-0x10]
     // 0x93b584: stur            x0, [fp, #-0x28]
-    // 0x93b588: r0 = hasActiveCancelledTrialOrIntroBallAiPro()
-    //     0x93b588: bl              #0x93c37c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveCancelledTrialOrIntroBallAiPro
+    // 0x93b588: r0 = hasActiveCancelledTrialOrIntroKourtAiPro()
+    //     0x93b588: bl              #0x93c37c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveCancelledTrialOrIntroKourtAiPro
     // 0x93b58c: mov             x3, x0
     // 0x93b590: ldur            x0, [fp, #-8]
     // 0x93b594: stur            x3, [fp, #-0x30]
@@ -2470,7 +2470,7 @@ class UserManager extends ChangeNotifier {
     // 0x93b5c8: mov             x1, x0
     // 0x93b5cc: ldur            x2, [fp, #-0x10]
     // 0x93b5d0: r0 = _sendMembershipStartedEmailIfNeeded()
-    //     0x93b5d0: bl              #0x93bff0  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::_sendMembershipStartedEmailIfNeeded
+    //     0x93b5d0: bl              #0x93bff0  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::_sendMembershipStartedEmailIfNeeded
     // 0x93b5d4: ldur            x2, [fp, #-8]
     // 0x93b5d8: LoadField: r0 = r2->field_27
     //     0x93b5d8: ldur            w0, [x2, #0x27]
@@ -2491,7 +2491,7 @@ class UserManager extends ChangeNotifier {
     //     0x93b600: add             x4, PP, #0x14, lsl #12  ; [pp+0x14510] List(7) [0, 0x1, 0x1, 0, "userId", 0, Null]
     //     0x93b604: ldr             x4, [x4, #0x510]
     // 0x93b608: r0 = cancelTrialExitOneTimeOffer()
-    //     0x93b608: bl              #0x6beca4  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialExitOneTimeOffer
+    //     0x93b608: bl              #0x6beca4  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialExitOneTimeOffer
     // 0x93b60c: r2 = true
     //     0x93b60c: add             x2, NULL, #0x20  ; true
     // 0x93b610: b               #0x93b618
@@ -2537,7 +2537,7 @@ class UserManager extends ChangeNotifier {
     // 0x93b67c: mov             x2, x0
     // 0x93b680: stur            x3, [fp, #-0x18]
     // 0x93b684: r0 = syncMonetizationFunnels()
-    //     0x93b684: bl              #0x93b6b0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::syncMonetizationFunnels
+    //     0x93b684: bl              #0x93b6b0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::syncMonetizationFunnels
     // 0x93b688: ldur            x0, [fp, #-0x18]
     // 0x93b68c: tbnz            w0, #4, #0x93b698
     // 0x93b690: ldur            x1, [fp, #-8]
@@ -2613,8 +2613,8 @@ class UserManager extends ChangeNotifier {
     // 0x93c090: r0 = ReturnAsyncNotFuture()
     //     0x93c090: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x93c094: ldur            x1, [fp, #-0xa8]
-    // 0x93c098: r0 = ballAiProEntitlement()
-    //     0x93c098: bl              #0x659dac  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::ballAiProEntitlement
+    // 0x93c098: r0 = kourtAiProEntitlement()
+    //     0x93c098: bl              #0x659dac  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::kourtAiProEntitlement
     // 0x93c09c: cmp             w0, NULL
     // 0x93c0a0: b.ne            #0x93c0ac
     // 0x93c0a4: r1 = Null
@@ -2723,7 +2723,7 @@ class UserManager extends ChangeNotifier {
     // 0x93c1b0: r0 = Await()
     //     0x93c1b0: bl              #0x60ad4c  ; AwaitStub
     // 0x93c1b4: ldur            x0, [fp, #-0xb0]
-    // 0x93c1b8: r0 = InitLateStaticField(0xcb8) // [package:ballai/automatic/lib/aws/email_service.dart] EmailService::shared
+    // 0x93c1b8: r0 = InitLateStaticField(0xcb8) // [package:kourtai/automatic/lib/aws/email_service.dart] EmailService::shared
     //     0x93c1b8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x93c1bc: ldr             x0, [x0, #0x1970]
     //     0x93c1c0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2744,7 +2744,7 @@ class UserManager extends ChangeNotifier {
     // 0x93c1f4: ldur            x3, [fp, #-0xa0]
     // 0x93c1f8: stur            x5, [fp, #-0xc0]
     // 0x93c1fc: r0 = sendMembershipStartedEmail()
-    //     0x93c1fc: bl              #0x93c298  ; [package:ballai/automatic/lib/aws/email_service.dart] EmailService::sendMembershipStartedEmail
+    //     0x93c1fc: bl              #0x93c298  ; [package:kourtai/automatic/lib/aws/email_service.dart] EmailService::sendMembershipStartedEmail
     // 0x93c200: mov             x1, x0
     // 0x93c204: stur            x1, [fp, #-0xd0]
     // 0x93c208: r0 = Await()
@@ -2853,10 +2853,10 @@ class UserManager extends ChangeNotifier {
     //     0x93ca74: add             x2, x2, HEAP, lsl #32
     // 0x93ca78: mov             x1, x0
     // 0x93ca7c: r0 = _syncRevenueCatMirrorFlags()
-    //     0x93ca7c: bl              #0x93b538  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::_syncRevenueCatMirrorFlags
+    //     0x93ca7c: bl              #0x93b538  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::_syncRevenueCatMirrorFlags
     // 0x93ca80: ldur            x2, [fp, #-0x18]
     // 0x93ca84: r1 = Function '<anonymous closure>':.
-    //     0x93ca84: add             x1, PP, #0x14, lsl #12  ; [pp+0x14508] AnonymousClosure: (0x93cadc), in [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::configureRevenueCatBridge (0x93c9f0)
+    //     0x93ca84: add             x1, PP, #0x14, lsl #12  ; [pp+0x14508] AnonymousClosure: (0x93cadc), in [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::configureRevenueCatBridge (0x93c9f0)
     //     0x93ca88: ldr             x1, [x1, #0x508]
     // 0x93ca8c: r0 = AllocateClosure()
     //     0x93ca8c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2912,7 +2912,7 @@ class UserManager extends ChangeNotifier {
     //     0x93cb08: add             x2, x2, HEAP, lsl #32
     // 0x93cb0c: mov             x1, x0
     // 0x93cb10: r0 = _syncRevenueCatMirrorFlags()
-    //     0x93cb10: bl              #0x93b538  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::_syncRevenueCatMirrorFlags
+    //     0x93cb10: bl              #0x93b538  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::_syncRevenueCatMirrorFlags
     // 0x93cb14: r0 = Null
     //     0x93cb14: mov             x0, NULL
     // 0x93cb18: LeaveFrame
@@ -2991,7 +2991,7 @@ class UserManager extends ChangeNotifier {
     // 0x93cbdc: mov             x2, x0
     // 0x93cbe0: stur            x0, [fp, #-0xa0]
     // 0x93cbe4: r0 = setCurrentUserWorkoutCount()
-    //     0x93cbe4: bl              #0x93cc0c  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::setCurrentUserWorkoutCount
+    //     0x93cbe4: bl              #0x93cc0c  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::setCurrentUserWorkoutCount
     // 0x93cbe8: mov             x1, x0
     // 0x93cbec: stur            x1, [fp, #-0x90]
     // 0x93cbf0: r0 = Await()
@@ -3037,19 +3037,19 @@ class UserManager extends ChangeNotifier {
     //     0x93cc50: add             x4, PP, #0x14, lsl #12  ; [pp+0x14518] List(7) [0, 0x3, 0x1, 0x2, "userManager", 0x2, Null]
     //     0x93cc54: ldr             x4, [x4, #0x518]
     // 0x93cc58: r0 = syncFirstWorkoutIncompleteFunnel()
-    //     0x93cc58: bl              #0x930030  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::syncFirstWorkoutIncompleteFunnel
+    //     0x93cc58: bl              #0x930030  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::syncFirstWorkoutIncompleteFunnel
     // 0x93cc5c: mov             x1, x0
     // 0x93cc60: stur            x1, [fp, #-0x20]
     // 0x93cc64: r0 = Await()
     //     0x93cc64: bl              #0x60ad4c  ; AwaitStub
     // 0x93cc68: r0 = syncFreeUserWorkoutMilestoneFunnel()
-    //     0x93cc68: bl              #0x744848  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::syncFreeUserWorkoutMilestoneFunnel
+    //     0x93cc68: bl              #0x744848  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::syncFreeUserWorkoutMilestoneFunnel
     // 0x93cc6c: mov             x1, x0
     // 0x93cc70: stur            x1, [fp, #-0x20]
     // 0x93cc74: r0 = Await()
     //     0x93cc74: bl              #0x60ad4c  ; AwaitStub
     // 0x93cc78: r0 = syncFreeUserWorkoutMilestoneFunnel()
-    //     0x93cc78: bl              #0x744848  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::syncFreeUserWorkoutMilestoneFunnel
+    //     0x93cc78: bl              #0x744848  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::syncFreeUserWorkoutMilestoneFunnel
     // 0x93cc7c: ldur            x1, [fp, #-0x10]
     // 0x93cc80: r0 = notifyListeners()
     //     0x93cc80: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -3102,7 +3102,7 @@ class UserManager extends ChangeNotifier {
     // 0x93d75c: r0 = ReturnAsyncNotFuture()
     //     0x93d75c: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x93d760: r0 = fetchProfileImage()
-    //     0x93d760: bl              #0x93d780  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::fetchProfileImage
+    //     0x93d760: bl              #0x93d780  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::fetchProfileImage
     // 0x93d764: mov             x1, x0
     // 0x93d768: stur            x1, [fp, #-0x10]
     // 0x93d76c: r0 = Await()
@@ -3147,7 +3147,7 @@ class UserManager extends ChangeNotifier {
     // 0x93d7cc: ldur            x2, [fp, #-0x70]
     // 0x93d7d0: mov             x1, x0
     // 0x93d7d4: r0 = fetchProfileImageBytes()
-    //     0x93d7d4: bl              #0x93d8f4  ; [package:ballai/shared/app/firebase/cloudstorage/cloud_storage.dart] CloudStorage::fetchProfileImageBytes
+    //     0x93d7d4: bl              #0x93d8f4  ; [package:kourtai/shared/app/firebase/cloudstorage/cloud_storage.dart] CloudStorage::fetchProfileImageBytes
     // 0x93d7d8: mov             x1, x0
     // 0x93d7dc: stur            x1, [fp, #-0x80]
     // 0x93d7e0: r0 = Await()
@@ -3300,14 +3300,14 @@ class UserManager extends ChangeNotifier {
     //     0x93dd14: bl              #0x5f43f0  ; [package:cloud_firestore/cloud_firestore.dart] _JsonDocumentReference::snapshots
     // 0x93dd18: ldur            x2, [fp, #-0x18]
     // 0x93dd1c: r1 = Function '<anonymous closure>':.
-    //     0x93dd1c: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cd90] AnonymousClosure: (0x93de1c), in [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::startListeningToUser (0x93dc98)
+    //     0x93dd1c: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cd90] AnonymousClosure: (0x93de1c), in [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::startListeningToUser (0x93dc98)
     //     0x93dd20: ldr             x1, [x1, #0xd90]
     // 0x93dd24: stur            x0, [fp, #-0x10]
     // 0x93dd28: r0 = AllocateClosure()
     //     0x93dd28: bl              #0xe553e0  ; AllocateClosureStub
     // 0x93dd2c: ldur            x2, [fp, #-0x18]
     // 0x93dd30: r1 = Function '<anonymous closure>':.
-    //     0x93dd30: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cd98] AnonymousClosure: (0x93dd90), in [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::startListeningToUser (0x93dc98)
+    //     0x93dd30: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cd98] AnonymousClosure: (0x93dd90), in [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::startListeningToUser (0x93dc98)
     //     0x93dd34: ldr             x1, [x1, #0xd98]
     // 0x93dd38: stur            x0, [fp, #-0x18]
     // 0x93dd3c: r0 = AllocateClosure()
@@ -3366,7 +3366,7 @@ class UserManager extends ChangeNotifier {
     //     0x93ddc8: add             x2, PP, #0x1a, lsl #12  ; [pp+0x1acd0] "Couldn\'t load your profile. Please try again."
     //     0x93ddcc: ldr             x2, [x2, #0xcd0]
     // 0x93ddd0: r0 = userFacingError()
-    //     0x93ddd0: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0x93ddd0: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0x93ddd4: ldur            x1, [fp, #-8]
     // 0x93ddd8: StoreField: r1->field_33 = r0
     //     0x93ddd8: stur            w0, [x1, #0x33]
@@ -3473,7 +3473,7 @@ class UserManager extends ChangeNotifier {
     // 0x93deec: r1 = Null
     //     0x93deec: mov             x1, NULL
     // 0x93def0: r0 = UserModel.fromFirestore()
-    //     0x93def0: bl              #0x8fe49c  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
+    //     0x93def0: bl              #0x8fe49c  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
     // 0x93def4: ldur            x1, [fp, #-0x10]
     // 0x93def8: StoreField: r1->field_27 = r0
     //     0x93def8: stur            w0, [x1, #0x27]
@@ -3655,13 +3655,13 @@ class UserManager extends ChangeNotifier {
     // 0x93e0cc: r1 = Null
     //     0x93e0cc: mov             x1, NULL
     // 0x93e0d0: r0 = UserModel.fromAuthUser()
-    //     0x93e0d0: bl              #0x93e4d8  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromAuthUser
+    //     0x93e0d0: bl              #0x93e4d8  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromAuthUser
     // 0x93e0d4: stur            x0, [fp, #-0x20]
     // 0x93e0d8: r0 = instance()
-    //     0x93e0d8: bl              #0x5ee6ec  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
+    //     0x93e0d8: bl              #0x5ee6ec  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::instance
     // 0x93e0dc: mov             x1, x0
     // 0x93e0e0: r0 = effectiveLanguageCode()
-    //     0x93e0e0: bl              #0x5ede90  ; [package:ballai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
+    //     0x93e0e0: bl              #0x5ede90  ; [package:kourtai/automatic/localization/app_language_preference.dart] AppLanguagePreference::effectiveLanguageCode
     // 0x93e0e4: mov             x1, x0
     // 0x93e0e8: ldur            x0, [fp, #-0x28]
     // 0x93e0ec: LoadField: r2 = r0->field_f
@@ -3678,7 +3678,7 @@ class UserManager extends ChangeNotifier {
     //     0x93e108: add             x4, PP, #0x1c, lsl #12  ; [pp+0x1cda0] List(11) [0, 0x4, 0x3, 0x1, "appLanguageCode", 0x1, "appSource", 0x3, "appVersion", 0x2, Null]
     //     0x93e10c: ldr             x4, [x4, #0xda0]
     // 0x93e110: r0 = copyWith()
-    //     0x93e110: bl              #0x663774  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::copyWith
+    //     0x93e110: bl              #0x663774  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::copyWith
     // 0x93e114: mov             x3, x0
     // 0x93e118: ldur            x0, [fp, #-0x10]
     // 0x93e11c: stur            x3, [fp, #-0x20]
@@ -3717,7 +3717,7 @@ class UserManager extends ChangeNotifier {
     // 0x93e168: ldur            x1, [fp, #-0x20]
     // 0x93e16c: stur            x0, [fp, #-0x18]
     // 0x93e170: r0 = toFirestoreCreateMap()
-    //     0x93e170: bl              #0x93e2fc  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::toFirestoreCreateMap
+    //     0x93e170: bl              #0x93e2fc  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::toFirestoreCreateMap
     // 0x93e174: ldur            x1, [fp, #-0x18]
     // 0x93e178: mov             x2, x0
     // 0x93e17c: r4 = const [0, 0x2, 0, 0x2, null]
@@ -3742,7 +3742,7 @@ class UserManager extends ChangeNotifier {
     //     0x93e1b4: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
     // 0x93e1b8: ldur            x1, [fp, #-0x20]
     // 0x93e1bc: r0 = scheduleUserSetup()
-    //     0x93e1bc: bl              #0x93e1dc  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleUserSetup
+    //     0x93e1bc: bl              #0x93e1dc  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleUserSetup
     // 0x93e1c0: mov             x1, x0
     // 0x93e1c4: stur            x1, [fp, #-0x10]
     // 0x93e1c8: r0 = Await()
@@ -3851,11 +3851,11 @@ class UserManager extends ChangeNotifier {
     // 0x93e640: r0 = _interpolate()
     //     0x93e640: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0x93e644: mov             x2, x0
-    // 0x93e648: r1 = Instance_BallAiLogCategory
-    //     0x93e648: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1add8] Obj!BallAiLogCategory@d3bc41
+    // 0x93e648: r1 = Instance_KourtAiLogCategory
+    //     0x93e648: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1add8] Obj!KourtAiLogCategory@d3bc41
     //     0x93e64c: ldr             x1, [x1, #0xdd8]
     // 0x93e650: r0 = info()
-    //     0x93e650: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
+    //     0x93e650: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
     // 0x93e654: ldur            x1, [fp, #-0x20]
     // 0x93e658: r0 = get()
     //     0x93e658: bl              #0x721368  ; [package:cloud_firestore/cloud_firestore.dart] _JsonDocumentReference::get
@@ -4065,16 +4065,16 @@ class UserManager extends ChangeNotifier {
     // 0x93e8ac: r0 = _interpolate()
     //     0x93e8ac: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0x93e8b0: mov             x2, x0
-    // 0x93e8b4: r1 = Instance_BallAiLogCategory
-    //     0x93e8b4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1add8] Obj!BallAiLogCategory@d3bc41
+    // 0x93e8b4: r1 = Instance_KourtAiLogCategory
+    //     0x93e8b4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1add8] Obj!KourtAiLogCategory@d3bc41
     //     0x93e8b8: ldr             x1, [x1, #0xdd8]
     // 0x93e8bc: r0 = info()
-    //     0x93e8bc: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
+    //     0x93e8bc: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
     // 0x93e8c0: ldur            x2, [fp, #-0x18]
     // 0x93e8c4: r1 = Null
     //     0x93e8c4: mov             x1, NULL
     // 0x93e8c8: r0 = UserModel.fromFirestore()
-    //     0x93e8c8: bl              #0x8fe49c  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
+    //     0x93e8c8: bl              #0x8fe49c  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
     // 0x93e8cc: mov             x2, x0
     // 0x93e8d0: ldur            x1, [fp, #-0x10]
     // 0x93e8d4: StoreField: r1->field_27 = r0
@@ -4207,8 +4207,8 @@ class UserManager extends ChangeNotifier {
     //     0x999f38: mov             x1, NULL
     // 0x999f3c: b               #0x999f4c
     // 0x999f40: mov             x1, x0
-    // 0x999f44: r0 = isBallAIOrgMember()
-    //     0x999f44: bl              #0x651600  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::isBallAIOrgMember
+    // 0x999f44: r0 = isKourtAIOrgMember()
+    //     0x999f44: bl              #0x651600  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::isKourtAIOrgMember
     // 0x999f48: mov             x1, x0
     // 0x999f4c: r16 = true
     //     0x999f4c: add             x16, NULL, #0x20  ; true
@@ -4235,7 +4235,7 @@ class UserManager extends ChangeNotifier {
     //     0x9b5684: mov             fp, SP
     // 0x9b5688: ldr             x2, [fp, #0x10]
     // 0x9b568c: r1 = Function 'dispose':.
-    //     0x9b568c: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d5f8] AnonymousClosure: (0x9b56a4), in [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::dispose (0x9ba988)
+    //     0x9b568c: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d5f8] AnonymousClosure: (0x9b56a4), in [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::dispose (0x9ba988)
     //     0x9b5690: ldr             x1, [x1, #0x5f8]
     // 0x9b5694: r0 = AllocateClosure()
     //     0x9b5694: bl              #0xe553e0  ; AllocateClosureStub
@@ -4260,7 +4260,7 @@ class UserManager extends ChangeNotifier {
     //     0x9b56bc: cmp             SP, x16
     //     0x9b56c0: b.ls            #0x9b56d4
     // 0x9b56c4: r0 = dispose()
-    //     0x9b56c4: bl              #0x9ba988  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::dispose
+    //     0x9b56c4: bl              #0x9ba988  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::dispose
     // 0x9b56c8: LeaveFrame
     //     0x9b56c8: mov             SP, fp
     //     0x9b56cc: ldp             fp, lr, [SP], #0x10
@@ -4378,7 +4378,7 @@ class UserManager extends ChangeNotifier {
     // 0x9cc37c: StoreField: r1->field_4f = r0
     //     0x9cc37c: stur            w0, [x1, #0x4f]
     // 0x9cc380: r0 = clearLastAuthenticatedUid()
-    //     0x9cc380: bl              #0x9cc3a4  ; [package:ballai/automatic/app/session_persistence.dart] SessionPersistence::clearLastAuthenticatedUid
+    //     0x9cc380: bl              #0x9cc3a4  ; [package:kourtai/automatic/app/session_persistence.dart] SessionPersistence::clearLastAuthenticatedUid
     // 0x9cc384: ldur            x1, [fp, #-8]
     // 0x9cc388: r0 = notifyListeners()
     //     0x9cc388: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -4650,7 +4650,7 @@ class UserManager extends ChangeNotifier {
     // 0xaa74f8: r1 = Null
     //     0xaa74f8: mov             x1, NULL
     // 0xaa74fc: r0 = UserModel.fromFirestore()
-    //     0xaa74fc: bl              #0x8fe49c  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
+    //     0xaa74fc: bl              #0x8fe49c  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
     // 0xaa7500: ldur            x3, [fp, #-0x68]
     // 0xaa7504: StoreField: r3->field_27 = r0
     //     0xaa7504: stur            w0, [x3, #0x27]
@@ -4667,7 +4667,7 @@ class UserManager extends ChangeNotifier {
     // 0xaa7530: mov             x1, x3
     // 0xaa7534: ldur            x2, [fp, #-0x70]
     // 0xaa7538: r0 = refreshWorkoutCount()
-    //     0xaa7538: bl              #0x93cb2c  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::refreshWorkoutCount
+    //     0xaa7538: bl              #0x93cb2c  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::refreshWorkoutCount
     // 0xaa753c: mov             x1, x0
     // 0xaa7540: stur            x1, [fp, #-0x78]
     // 0xaa7544: r0 = Await()
@@ -4759,13 +4759,13 @@ class UserManager extends ChangeNotifier {
     //     0xbd9fd8: add             x4, PP, #0x4e, lsl #12  ; [pp+0x4ecb0] List(7) [0, 0x2, 0x1, 0x1, "appLanguageCode", 0x1, Null]
     //     0xbd9fdc: ldr             x4, [x4, #0xcb0]
     // 0xbd9fe0: r0 = copyWith()
-    //     0xbd9fe0: bl              #0x663774  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::copyWith
+    //     0xbd9fe0: bl              #0x663774  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::copyWith
     // 0xbd9fe4: ldur            x1, [fp, #-0x10]
     // 0xbd9fe8: mov             x2, x0
     // 0xbd9fec: r4 = const [0, 0x2, 0, 0x2, null]
     //     0xbd9fec: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0xbd9ff0: r0 = updateUser()
-    //     0xbd9ff0: bl              #0x6618fc  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::updateUser
+    //     0xbd9ff0: bl              #0x6618fc  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::updateUser
     // 0xbd9ff4: mov             x1, x0
     // 0xbd9ff8: stur            x1, [fp, #-0x10]
     // 0xbd9ffc: r0 = Await()

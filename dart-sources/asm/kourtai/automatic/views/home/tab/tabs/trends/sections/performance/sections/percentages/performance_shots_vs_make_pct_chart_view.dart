@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/performance/sections/percentages/performance_shots_vs_make_pct_chart_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/performance/sections/percentages/performance_shots_vs_make_pct_chart_view.dart
 
 // class id: 1048977, size: 0x8
 class :: {
@@ -28,7 +28,7 @@ class PerformanceShotsVsMakePctChartView extends StatelessWidget {
     //     0xc0661c: add             x3, x3, HEAP, lsl #32
     // 0xc06620: stur            x3, [fp, #-8]
     // 0xc06624: r1 = Function '<anonymous closure>':.
-    //     0xc06624: add             x1, PP, #0x53, lsl #12  ; [pp+0x53690] AnonymousClosure: (0xc05afc), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/performance/sections/percentages/performance_percentage_summary_view.dart] PerformancePercentageSummaryView::build (0xc05e6c)
+    //     0xc06624: add             x1, PP, #0x53, lsl #12  ; [pp+0x53690] AnonymousClosure: (0xc05afc), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/performance/sections/percentages/performance_percentage_summary_view.dart] PerformancePercentageSummaryView::build (0xc05e6c)
     //     0xc06628: ldr             x1, [x1, #0x690]
     // 0xc0662c: r2 = Null
     //     0xc0662c: mov             x2, NULL
@@ -53,10 +53,10 @@ class PerformanceShotsVsMakePctChartView extends StatelessWidget {
     //     0xc0665c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d608] "No shooting workouts in this period."
     //     0xc06660: ldr             x1, [x1, #0x608]
     // 0xc06664: r0 = L()
-    //     0xc06664: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc06664: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc06668: stur            x0, [fp, #-8]
-    // 0xc0666c: r0 = BallAiEmptyState()
-    //     0xc0666c: bl              #0xa63934  ; AllocateBallAiEmptyStateStub -> BallAiEmptyState (size=0x14)
+    // 0xc0666c: r0 = KourtAiEmptyState()
+    //     0xc0666c: bl              #0xa63934  ; AllocateKourtAiEmptyStateStub -> KourtAiEmptyState (size=0x14)
     // 0xc06670: mov             x1, x0
     // 0xc06674: ldur            x0, [fp, #-8]
     // 0xc06678: StoreField: r1->field_b = r0
@@ -73,7 +73,7 @@ class PerformanceShotsVsMakePctChartView extends StatelessWidget {
     // 0xc06694: ret
     //     0xc06694: ret             
     // 0xc06698: r1 = Function '<anonymous closure>':.
-    //     0xc06698: add             x1, PP, #0x53, lsl #12  ; [pp+0x53698] AnonymousClosure: (0xc068e8), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/performance/sections/percentages/performance_shots_vs_make_pct_chart_view.dart] PerformanceShotsVsMakePctChartView::build (0xc065f8)
+    //     0xc06698: add             x1, PP, #0x53, lsl #12  ; [pp+0x53698] AnonymousClosure: (0xc068e8), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/performance/sections/percentages/performance_shots_vs_make_pct_chart_view.dart] PerformanceShotsVsMakePctChartView::build (0xc065f8)
     //     0xc0669c: ldr             x1, [x1, #0x698]
     // 0xc066a0: r2 = Null
     //     0xc066a0: mov             x2, NULL
@@ -101,11 +101,11 @@ class PerformanceShotsVsMakePctChartView extends StatelessWidget {
     //     0xc066d8: ldr             x1, [x1, #0x6a0]
     // 0xc066dc: stur            x0, [fp, #-8]
     // 0xc066e0: r0 = L()
-    //     0xc066e0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc066e0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc066e4: ldur            x1, [fp, #-0x10]
     // 0xc066e8: stur            x0, [fp, #-0x18]
-    // 0xc066ec: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc066ec: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc066ec: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc066ec: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc066f0: stur            x0, [fp, #-0x20]
     // 0xc066f4: r0 = TextStyle()
     //     0xc066f4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -151,12 +151,12 @@ class PerformanceShotsVsMakePctChartView extends StatelessWidget {
     // 0xc0675c: StoreField: r0->field_f = d0
     //     0xc0675c: stur            d0, [x0, #0xf]
     // 0xc06760: ldur            x1, [fp, #-0x10]
-    // 0xc06764: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc06764: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc06764: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc06764: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc06768: ldur            x1, [fp, #-0x10]
     // 0xc0676c: stur            x0, [fp, #-0x28]
-    // 0xc06770: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc06770: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc06770: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc06770: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc06774: r16 = 0.180000
     //     0xc06774: add             x16, PP, #0x2d, lsl #12  ; [pp+0x2dde0] 0.18
     //     0xc06778: ldr             x16, [x16, #0xde0]
@@ -169,8 +169,8 @@ class PerformanceShotsVsMakePctChartView extends StatelessWidget {
     //     0xc0678c: bl              #0xd9bb78  ; [dart:ui] Color::withValues
     // 0xc06790: ldur            x1, [fp, #-0x10]
     // 0xc06794: stur            x0, [fp, #-0x10]
-    // 0xc06798: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc06798: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc06798: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc06798: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc0679c: stur            x0, [fp, #-0x30]
     // 0xc067a0: r0 = _XYScatterPainter()
     //     0xc067a0: bl              #0xc068dc  ; Allocate_XYScatterPainterStub -> _XYScatterPainter (size=0x28)
@@ -409,7 +409,7 @@ class _XYScatterPainter extends CustomPainter {
     // 0x8415cc: fsub            d1, d2, d0
     // 0x8415d0: stur            d1, [fp, #-0x70]
     // 0x8415d4: r1 = Function '<anonymous closure>':.
-    //     0x8415d4: add             x1, PP, #0x55, lsl #12  ; [pp+0x55268] AnonymousClosure: (0x770fa0), in [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::_medianFromHistory (0x770898)
+    //     0x8415d4: add             x1, PP, #0x55, lsl #12  ; [pp+0x55268] AnonymousClosure: (0x770fa0), in [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::_medianFromHistory (0x770898)
     //     0x8415d8: ldr             x1, [x1, #0x268]
     // 0x8415dc: r2 = Null
     //     0x8415dc: mov             x2, NULL
@@ -425,7 +425,7 @@ class _XYScatterPainter extends CustomPainter {
     // 0x8415f8: r0 = map()
     //     0x8415f8: bl              #0x8e024c  ; [dart:collection] ListBase::map
     // 0x8415fc: r1 = Function '<anonymous closure>':.
-    //     0x8415fc: add             x1, PP, #0x55, lsl #12  ; [pp+0x55270] AnonymousClosure: (0x74b9d8), in [package:ballai/video_tracking/analysis/dribble/dribble_models.dart] DribbleTimelineBuffer::pendingChunks (0x74b5c8)
+    //     0x8415fc: add             x1, PP, #0x55, lsl #12  ; [pp+0x55270] AnonymousClosure: (0x74b9d8), in [package:kourtai/video_tracking/analysis/dribble/dribble_models.dart] DribbleTimelineBuffer::pendingChunks (0x74b5c8)
     //     0x841600: ldr             x1, [x1, #0x270]
     // 0x841604: r2 = Null
     //     0x841604: mov             x2, NULL

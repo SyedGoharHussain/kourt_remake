@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/auth/auth_shell.dart
+// lib: , url: package:kourtai/automatic/views/auth/auth_shell.dart
 
 // class id: 1048786, size: 0x8
 class :: {
@@ -51,7 +51,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x8ef50c: add             x1, x1, HEAP, lsl #32
     // 0x8ef510: tbnz            w1, #4, #0x8ef52c
     // 0x8ef514: r1 = Function '<anonymous closure>':.
-    //     0x8ef514: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a598] AnonymousClosure: (0x8ef4b8), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
+    //     0x8ef514: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a598] AnonymousClosure: (0x8ef4b8), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
     //     0x8ef518: ldr             x1, [x1, #0x598]
     // 0x8ef51c: r0 = AllocateClosure()
     //     0x8ef51c: bl              #0xe553e0  ; AllocateClosureStub
@@ -102,7 +102,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x8ef588: stur            w0, [x3, #0xb]
     // 0x8ef58c: ldur            x2, [fp, #-0x18]
     // 0x8ef590: r1 = Function '<anonymous closure>':.
-    //     0x8ef590: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a590] AnonymousClosure: (0x8ef4d8), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
+    //     0x8ef590: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a590] AnonymousClosure: (0x8ef4d8), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
     //     0x8ef594: ldr             x1, [x1, #0x590]
     // 0x8ef598: r0 = AllocateClosure()
     //     0x8ef598: bl              #0xe553e0  ; AllocateClosureStub
@@ -161,7 +161,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x8fbcbc: cmp             w1, NULL
     // 0x8fbcc0: b.eq            #0x8fbcdc
     // 0x8fbcc4: r1 = Function '<anonymous closure>':.
-    //     0x8fbcc4: add             x1, PP, #0x1d, lsl #12  ; [pp+0x1d178] AnonymousClosure: (0x8fbc64), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
+    //     0x8fbcc4: add             x1, PP, #0x1d, lsl #12  ; [pp+0x1d178] AnonymousClosure: (0x8fbc64), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
     //     0x8fbcc8: ldr             x1, [x1, #0x178]
     // 0x8fbccc: r0 = AllocateClosure()
     //     0x8fbccc: bl              #0xe553e0  ; AllocateClosureStub
@@ -219,7 +219,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x900d0c: DecompressPointer r1
     //     0x900d0c: add             x1, x1, HEAP, lsl #32
     // 0x900d10: r0 = markPostSetupPermissionsComplete()
-    //     0x900d10: bl              #0x900da4  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::markPostSetupPermissionsComplete
+    //     0x900d10: bl              #0x900da4  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::markPostSetupPermissionsComplete
     // 0x900d14: ldur            x2, [fp, #-8]
     // 0x900d18: LoadField: r0 = r2->field_f
     //     0x900d18: ldur            w0, [x2, #0xf]
@@ -230,7 +230,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x900d24: DecompressPointer r1
     //     0x900d24: add             x1, x1, HEAP, lsl #32
     // 0x900d28: r0 = endTeamPrompt()
-    //     0x900d28: bl              #0x900d6c  ; [package:ballai/automatic/views/launch/view_determiner_onboarding_coordinator.dart] ViewDeterminerOnboardingCoordinator::endTeamPrompt
+    //     0x900d28: bl              #0x900d6c  ; [package:kourtai/automatic/views/launch/view_determiner_onboarding_coordinator.dart] ViewDeterminerOnboardingCoordinator::endTeamPrompt
     // 0x900d2c: ldur            x2, [fp, #-8]
     // 0x900d30: LoadField: r0 = r2->field_f
     //     0x900d30: ldur            w0, [x2, #0xf]
@@ -238,7 +238,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x900d34: add             x0, x0, HEAP, lsl #32
     // 0x900d38: stur            x0, [fp, #-0x10]
     // 0x900d3c: r1 = Function '<anonymous closure>':.
-    //     0x900d3c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a5b8] AnonymousClosure: (0x900cc0), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
+    //     0x900d3c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a5b8] AnonymousClosure: (0x900cc0), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
     //     0x900d40: ldr             x1, [x1, #0x5b8]
     // 0x900d44: r0 = AllocateClosure()
     //     0x900d44: bl              #0xe553e0  ; AllocateClosureStub
@@ -295,7 +295,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x900f48: stur            w0, [x3, #0xb]
     // 0x900f4c: ldur            x2, [fp, #-0x18]
     // 0x900f50: r1 = Function '<anonymous closure>':.
-    //     0x900f50: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a5a0] AnonymousClosure: (0x900ce0), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
+    //     0x900f50: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a5a0] AnonymousClosure: (0x900ce0), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
     //     0x900f54: ldr             x1, [x1, #0x5a0]
     // 0x900f58: r0 = AllocateClosure()
     //     0x900f58: bl              #0xe553e0  ; AllocateClosureStub
@@ -305,7 +305,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x900f64: stur            w1, [x0, #0xf]
     // 0x900f68: ldur            x2, [fp, #-0x18]
     // 0x900f6c: r1 = Function '<anonymous closure>':.
-    //     0x900f6c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a5a8] AnonymousClosure: (0x900fc0), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
+    //     0x900f6c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a5a8] AnonymousClosure: (0x900fc0), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
     //     0x900f70: ldr             x1, [x1, #0x5a8]
     // 0x900f74: r0 = AllocateClosure()
     //     0x900f74: bl              #0xe553e0  ; AllocateClosureStub
@@ -342,7 +342,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x900fec: DecompressPointer r1
     //     0x900fec: add             x1, x1, HEAP, lsl #32
     // 0x900ff0: r0 = markPostSetupPermissionsComplete()
-    //     0x900ff0: bl              #0x900da4  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::markPostSetupPermissionsComplete
+    //     0x900ff0: bl              #0x900da4  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::markPostSetupPermissionsComplete
     // 0x900ff4: ldur            x0, [fp, #-8]
     // 0x900ff8: LoadField: r1 = r0->field_f
     //     0x900ff8: ldur            w1, [x0, #0xf]
@@ -354,7 +354,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x901004: add             x0, x0, HEAP, lsl #32
     // 0x901008: mov             x1, x0
     // 0x90100c: r0 = endTeamPrompt()
-    //     0x90100c: bl              #0x900d6c  ; [package:ballai/automatic/views/launch/view_determiner_onboarding_coordinator.dart] ViewDeterminerOnboardingCoordinator::endTeamPrompt
+    //     0x90100c: bl              #0x900d6c  ; [package:kourtai/automatic/views/launch/view_determiner_onboarding_coordinator.dart] ViewDeterminerOnboardingCoordinator::endTeamPrompt
     // 0x901010: r0 = Null
     //     0x901010: mov             x0, NULL
     // 0x901014: LeaveFrame
@@ -394,7 +394,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x92f208: add             x3, x3, HEAP, lsl #32
     // 0x92f20c: stur            x3, [fp, #-0x10]
     // 0x92f210: r1 = Function '_onOnboardingChanged@981124517':.
-    //     0x92f210: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cf98] AnonymousClosure: (0x940ee8), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onOnboardingChanged (0x940f20)
+    //     0x92f210: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cf98] AnonymousClosure: (0x940ee8), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onOnboardingChanged (0x940f20)
     //     0x92f214: ldr             x1, [x1, #0xf98]
     // 0x92f218: r0 = AllocateClosure()
     //     0x92f218: bl              #0xe553e0  ; AllocateClosureStub
@@ -404,7 +404,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x92f224: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0x92f228: ldur            x2, [fp, #-0x18]
     // 0x92f22c: r1 = Function '<anonymous closure>':.
-    //     0x92f22c: add             x1, PP, #0x1d, lsl #12  ; [pp+0x1d148] AnonymousClosure: (0x8fbc84), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
+    //     0x92f22c: add             x1, PP, #0x1d, lsl #12  ; [pp+0x1d148] AnonymousClosure: (0x8fbc84), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
     //     0x92f230: ldr             x1, [x1, #0x148]
     // 0x92f234: r0 = AllocateClosure()
     //     0x92f234: bl              #0xe553e0  ; AllocateClosureStub
@@ -435,7 +435,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x92f274: ldur            x2, [fp, #-0x18]
     // 0x92f278: stur            x0, [fp, #-8]
     // 0x92f27c: r1 = Function '<anonymous closure>':.
-    //     0x92f27c: add             x1, PP, #0x1d, lsl #12  ; [pp+0x1d158] AnonymousClosure: (0x92f350), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
+    //     0x92f27c: add             x1, PP, #0x1d, lsl #12  ; [pp+0x1d158] AnonymousClosure: (0x92f350), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
     //     0x92f280: ldr             x1, [x1, #0x158]
     // 0x92f284: r0 = AllocateClosure()
     //     0x92f284: bl              #0xe553e0  ; AllocateClosureStub
@@ -533,21 +533,21 @@ class _AuthShellState extends State<dynamic> {
     // 0x92f37c: DecompressPointer r1
     //     0x92f37c: add             x1, x1, HEAP, lsl #32
     // 0x92f380: r0 = _restoreSession()
-    //     0x92f380: bl              #0x939c08  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_restoreSession
+    //     0x92f380: bl              #0x939c08  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_restoreSession
     // 0x92f384: ldur            x0, [fp, #-8]
     // 0x92f388: LoadField: r1 = r0->field_f
     //     0x92f388: ldur            w1, [x0, #0xf]
     // 0x92f38c: DecompressPointer r1
     //     0x92f38c: add             x1, x1, HEAP, lsl #32
     // 0x92f390: r0 = _attachUserListener()
-    //     0x92f390: bl              #0x92f5b4  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_attachUserListener
+    //     0x92f390: bl              #0x92f5b4  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_attachUserListener
     // 0x92f394: ldur            x0, [fp, #-8]
     // 0x92f398: LoadField: r1 = r0->field_f
     //     0x92f398: ldur            w1, [x0, #0xf]
     // 0x92f39c: DecompressPointer r1
     //     0x92f39c: add             x1, x1, HEAP, lsl #32
     // 0x92f3a0: r0 = _checkPreAuthResume()
-    //     0x92f3a0: bl              #0x92f450  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_checkPreAuthResume
+    //     0x92f3a0: bl              #0x92f450  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_checkPreAuthResume
     // 0x92f3a4: ldur            x0, [fp, #-8]
     // 0x92f3a8: LoadField: r1 = r0->field_f
     //     0x92f3a8: ldur            w1, [x0, #0xf]
@@ -590,7 +590,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x92f410: cmp             w0, NULL
     // 0x92f414: b.eq            #0x92f44c
     // 0x92f418: r1 = Function '_onDeepLinkChanged@981124517':.
-    //     0x92f418: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cf88] AnonymousClosure: (0x93fe18), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onDeepLinkChanged (0x93fe50)
+    //     0x92f418: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cf88] AnonymousClosure: (0x93fe18), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onDeepLinkChanged (0x93fe50)
     //     0x92f41c: ldr             x1, [x1, #0xf88]
     // 0x92f420: r0 = AllocateClosure()
     //     0x92f420: bl              #0xe553e0  ; AllocateClosureStub
@@ -640,7 +640,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x92f488: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x92f48c: bl              #0x60afc8  ; InitAsyncStub
     // 0x92f490: r0 = hasDraft()
-    //     0x92f490: bl              #0x92f508  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::hasDraft
+    //     0x92f490: bl              #0x92f508  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::hasDraft
     // 0x92f494: mov             x1, x0
     // 0x92f498: stur            x1, [fp, #-0x20]
     // 0x92f49c: r0 = Await()
@@ -667,7 +667,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x92f4dc: r0 = ReturnAsyncNotFuture()
     //     0x92f4dc: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x92f4e0: r1 = Function '<anonymous closure>':.
-    //     0x92f4e0: add             x1, PP, #0x1d, lsl #12  ; [pp+0x1d170] AnonymousClosure: (0x92f580), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_checkPreAuthResume (0x92f450)
+    //     0x92f4e0: add             x1, PP, #0x1d, lsl #12  ; [pp+0x1d170] AnonymousClosure: (0x92f580), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_checkPreAuthResume (0x92f450)
     //     0x92f4e4: ldr             x1, [x1, #0x170]
     // 0x92f4e8: r0 = AllocateClosure()
     //     0x92f4e8: bl              #0xe553e0  ; AllocateClosureStub
@@ -748,7 +748,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x92f60c: b               #0x92f630
     // 0x92f610: mov             x2, x0
     // 0x92f614: r1 = Function '_onUserManagerChanged@981124517':.
-    //     0x92f614: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cf90] AnonymousClosure: (0x939ba0), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onUserManagerChanged (0x939bd8)
+    //     0x92f614: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cf90] AnonymousClosure: (0x939ba0), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onUserManagerChanged (0x939bd8)
     //     0x92f618: ldr             x1, [x1, #0xf90]
     // 0x92f61c: r0 = AllocateClosure()
     //     0x92f61c: bl              #0xe553e0  ; AllocateClosureStub
@@ -784,7 +784,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x92f678: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x92f67c: mov             x2, x3
     // 0x92f680: r1 = Function '_onUserManagerChanged@981124517':.
-    //     0x92f680: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cf90] AnonymousClosure: (0x939ba0), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onUserManagerChanged (0x939bd8)
+    //     0x92f680: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cf90] AnonymousClosure: (0x939ba0), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onUserManagerChanged (0x939bd8)
     //     0x92f684: ldr             x1, [x1, #0xf90]
     // 0x92f688: r0 = AllocateClosure()
     //     0x92f688: bl              #0xe553e0  ; AllocateClosureStub
@@ -794,7 +794,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x92f694: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0x92f698: ldur            x1, [fp, #-0x10]
     // 0x92f69c: r0 = _refreshGateFromUserChange()
-    //     0x92f69c: bl              #0x92f6bc  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_refreshGateFromUserChange
+    //     0x92f69c: bl              #0x92f6bc  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_refreshGateFromUserChange
     // 0x92f6a0: r0 = Null
     //     0x92f6a0: mov             x0, NULL
     // 0x92f6a4: LeaveFrame
@@ -891,7 +891,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x92f79c: DecompressPointer r1
     //     0x92f79c: add             x1, x1, HEAP, lsl #32
     // 0x92f7a0: r0 = endTeamPrompt()
-    //     0x92f7a0: bl              #0x900d6c  ; [package:ballai/automatic/views/launch/view_determiner_onboarding_coordinator.dart] ViewDeterminerOnboardingCoordinator::endTeamPrompt
+    //     0x92f7a0: bl              #0x900d6c  ; [package:kourtai/automatic/views/launch/view_determiner_onboarding_coordinator.dart] ViewDeterminerOnboardingCoordinator::endTeamPrompt
     // 0x92f7a4: ldur            x2, [fp, #-0x18]
     // 0x92f7a8: cmp             w2, NULL
     // 0x92f7ac: b.eq            #0x92f7e4
@@ -913,14 +913,14 @@ class _AuthShellState extends State<dynamic> {
     // 0x92f7d8: mov             x1, x0
     // 0x92f7dc: ldur            x2, [fp, #-0x18]
     // 0x92f7e0: r0 = startCurrentUserMembershipListener()
-    //     0x92f7e0: bl              #0x938904  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::startCurrentUserMembershipListener
+    //     0x92f7e0: bl              #0x938904  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::startCurrentUserMembershipListener
     // 0x92f7e4: r0 = userHasClearedHardPaywallGate()
-    //     0x92f7e4: bl              #0x93889c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasClearedHardPaywallGate
+    //     0x92f7e4: bl              #0x93889c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasClearedHardPaywallGate
     // 0x92f7e8: tbnz            w0, #4, #0x92f804
     // 0x92f7ec: ldur            x1, [fp, #-0x10]
     // 0x92f7f0: ldur            x2, [fp, #-0x20]
     // 0x92f7f4: r0 = _offerCoachTeamPromptIfNeeded()
-    //     0x92f7f4: bl              #0x9385a4  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_offerCoachTeamPromptIfNeeded
+    //     0x92f7f4: bl              #0x9385a4  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_offerCoachTeamPromptIfNeeded
     // 0x92f7f8: mov             x1, x0
     // 0x92f7fc: stur            x1, [fp, #-0x28]
     // 0x92f800: r0 = Await()
@@ -969,7 +969,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x92f878: mov             x2, x0
     // 0x92f87c: ldur            x3, [fp, #-0x20]
     // 0x92f880: r0 = persistPendingSourceToCurrentUserIfNeeded()
-    //     0x92f880: bl              #0x9382e8  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::persistPendingSourceToCurrentUserIfNeeded
+    //     0x92f880: bl              #0x9382e8  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::persistPendingSourceToCurrentUserIfNeeded
     // 0x92f884: ldur            x0, [fp, #-0x18]
     // 0x92f888: cmp             w0, NULL
     // 0x92f88c: b.eq            #0x92f8ec
@@ -1002,7 +1002,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x92f8d4: b.ne            #0x92f8ec
     // 0x92f8d8: ldur            x1, [fp, #-0x10]
     // 0x92f8dc: r0 = _finalizeOnboardingDraftIfNeeded()
-    //     0x92f8dc: bl              #0x92f904  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_finalizeOnboardingDraftIfNeeded
+    //     0x92f8dc: bl              #0x92f904  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_finalizeOnboardingDraftIfNeeded
     // 0x92f8e0: mov             x1, x0
     // 0x92f8e4: stur            x1, [fp, #-0x10]
     // 0x92f8e8: r0 = Await()
@@ -1064,7 +1064,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x92f96c: stur            w1, [x0, #0x2f]
     // 0x92f970: ldur            x1, [fp, #-0x78]
     // 0x92f974: r0 = finalizeOnboardingDraftIfNeeded()
-    //     0x92f974: bl              #0x92f9f4  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::finalizeOnboardingDraftIfNeeded
+    //     0x92f974: bl              #0x92f9f4  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::finalizeOnboardingDraftIfNeeded
     // 0x92f978: mov             x1, x0
     // 0x92f97c: stur            x1, [fp, #-0x88]
     // 0x92f980: r0 = Await()
@@ -1082,7 +1082,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x92f9a0: b.eq            #0x92f9c0
     // 0x92f9a4: ldur            x2, [fp, #-0x80]
     // 0x92f9a8: r1 = Function '<anonymous closure>':.
-    //     0x92f9a8: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cfa8] AnonymousClosure: (0x932570), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_buildPreAuthFunnel (0x9325f0)
+    //     0x92f9a8: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cfa8] AnonymousClosure: (0x932570), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_buildPreAuthFunnel (0x9325f0)
     //     0x92f9ac: ldr             x1, [x1, #0xfa8]
     // 0x92f9b0: r0 = AllocateClosure()
     //     0x92f9b0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1151,7 +1151,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x9325b8: add             x0, x0, HEAP, lsl #32
     // 0x9325bc: stur            x0, [fp, #-8]
     // 0x9325c0: r1 = Function '<anonymous closure>':.
-    //     0x9325c0: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1ce80] AnonymousClosure: (0x932570), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_buildPreAuthFunnel (0x9325f0)
+    //     0x9325c0: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1ce80] AnonymousClosure: (0x932570), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_buildPreAuthFunnel (0x9325f0)
     //     0x9325c4: ldr             x1, [x1, #0xe80]
     // 0x9325c8: r0 = AllocateClosure()
     //     0x9325c8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1206,7 +1206,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x932640: stur            w0, [x3, #0xb]
     // 0x932644: ldur            x2, [fp, #-0x18]
     // 0x932648: r1 = Function '<anonymous closure>':.
-    //     0x932648: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1ce68] AnonymousClosure: (0x932590), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_buildPreAuthFunnel (0x9325f0)
+    //     0x932648: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1ce68] AnonymousClosure: (0x932590), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_buildPreAuthFunnel (0x9325f0)
     //     0x93264c: ldr             x1, [x1, #0xe68]
     // 0x932650: r0 = AllocateClosure()
     //     0x932650: bl              #0xe553e0  ; AllocateClosureStub
@@ -1216,7 +1216,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x93265c: stur            w1, [x0, #0xf]
     // 0x932660: ldur            x2, [fp, #-0x18]
     // 0x932664: r1 = Function '<anonymous closure>':.
-    //     0x932664: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1ce70] AnonymousClosure: (0x9327b4), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_buildPreAuthFunnel (0x9325f0)
+    //     0x932664: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1ce70] AnonymousClosure: (0x9327b4), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_buildPreAuthFunnel (0x9325f0)
     //     0x932668: ldr             x1, [x1, #0xe70]
     // 0x93266c: r0 = AllocateClosure()
     //     0x93266c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1299,10 +1299,10 @@ class _AuthShellState extends State<dynamic> {
     //     0x9327fc: add             x4, PP, #0x1c, lsl #12  ; [pp+0x1ce78] List(7) [0, 0x3, 0x1, 0x2, "isPreAuth", 0x2, Null]
     //     0x932800: ldr             x4, [x4, #0xe78]
     // 0x932804: r0 = AccountSetupController()
-    //     0x932804: bl              #0x937cb4  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::AccountSetupController
+    //     0x932804: bl              #0x937cb4  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::AccountSetupController
     // 0x932808: ldur            x1, [fp, #-0x10]
     // 0x93280c: r0 = bootstrap()
-    //     0x93280c: bl              #0x932828  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::bootstrap
+    //     0x93280c: bl              #0x932828  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::bootstrap
     // 0x932810: ldur            x0, [fp, #-0x10]
     // 0x932814: LeaveFrame
     //     0x932814: mov             SP, fp
@@ -1393,7 +1393,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x938664: mov             x1, x0
     // 0x938668: ldur            x2, [fp, #-0x18]
     // 0x93866c: r0 = shouldOfferTeamPrompt()
-    //     0x93866c: bl              #0x938704  ; [package:ballai/automatic/views/launch/view_determiner_onboarding_coordinator.dart] ViewDeterminerOnboardingCoordinator::shouldOfferTeamPrompt
+    //     0x93866c: bl              #0x938704  ; [package:kourtai/automatic/views/launch/view_determiner_onboarding_coordinator.dart] ViewDeterminerOnboardingCoordinator::shouldOfferTeamPrompt
     // 0x938670: tbnz            w0, #4, #0x938698
     // 0x938674: ldur            x1, [fp, #-0x18]
     // 0x938678: LoadField: r0 = r1->field_4b
@@ -1405,7 +1405,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x938688: r2 = true
     //     0x938688: add             x2, NULL, #0x20  ; true
     // 0x93868c: r0 = finishPostSetupPermissionsFlow()
-    //     0x93868c: bl              #0x9386c8  ; [package:ballai/automatic/views/launch/view_determiner_onboarding_coordinator.dart] ViewDeterminerOnboardingCoordinator::finishPostSetupPermissionsFlow
+    //     0x93868c: bl              #0x9386c8  ; [package:kourtai/automatic/views/launch/view_determiner_onboarding_coordinator.dart] ViewDeterminerOnboardingCoordinator::finishPostSetupPermissionsFlow
     // 0x938690: r0 = Null
     //     0x938690: mov             x0, NULL
     // 0x938694: r0 = ReturnAsyncNotFuture()
@@ -1417,7 +1417,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x9386a0: add             x0, x0, HEAP, lsl #32
     // 0x9386a4: tbz             w0, #4, #0x9386b8
     // 0x9386a8: r0 = markPostSetupPermissionsComplete()
-    //     0x9386a8: bl              #0x900da4  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::markPostSetupPermissionsComplete
+    //     0x9386a8: bl              #0x900da4  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::markPostSetupPermissionsComplete
     // 0x9386ac: mov             x1, x0
     // 0x9386b0: stur            x1, [fp, #-0x10]
     // 0x9386b4: r0 = Await()
@@ -1445,7 +1445,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x939bb8: cmp             SP, x16
     //     0x939bbc: b.ls            #0x939bd0
     // 0x939bc0: r0 = _onUserManagerChanged()
-    //     0x939bc0: bl              #0x939bd8  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onUserManagerChanged
+    //     0x939bc0: bl              #0x939bd8  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onUserManagerChanged
     // 0x939bc4: LeaveFrame
     //     0x939bc4: mov             SP, fp
     //     0x939bc8: ldp             fp, lr, [SP], #0x10
@@ -1465,7 +1465,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x939be4: cmp             SP, x16
     //     0x939be8: b.ls            #0x939c00
     // 0x939bec: r0 = _refreshGateFromUserChange()
-    //     0x939bec: bl              #0x92f6bc  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_refreshGateFromUserChange
+    //     0x939bec: bl              #0x92f6bc  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_refreshGateFromUserChange
     // 0x939bf0: r0 = Null
     //     0x939bf0: mov             x0, NULL
     // 0x939bf4: LeaveFrame
@@ -1565,12 +1565,12 @@ class _AuthShellState extends State<dynamic> {
     //     0x939cd8: add             x2, x2, HEAP, lsl #32
     // 0x939cdc: mov             x1, x3
     // 0x939ce0: r0 = isHydratedFor()
-    //     0x939ce0: bl              #0x93fd90  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isHydratedFor
+    //     0x939ce0: bl              #0x93fd90  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isHydratedFor
     // 0x939ce4: tbnz            w0, #4, #0x939d74
     // 0x939ce8: ldur            x0, [fp, #-0x20]
     // 0x939cec: mov             x1, x0
     // 0x939cf0: r0 = markConcurrentFetcherCompleted()
-    //     0x939cf0: bl              #0x93fd58  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::markConcurrentFetcherCompleted
+    //     0x939cf0: bl              #0x93fd58  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::markConcurrentFetcherCompleted
     // 0x939cf4: ldur            x3, [fp, #-0x20]
     // 0x939cf8: LoadField: r2 = r3->field_27
     //     0x939cf8: ldur            w2, [x3, #0x27]
@@ -1598,7 +1598,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x939d38: ldur            x2, [fp, #-0x28]
     // 0x939d3c: ldur            x3, [fp, #-0x20]
     // 0x939d40: r0 = checkStreak()
-    //     0x939d40: bl              #0x93e99c  ; [package:ballai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::checkStreak
+    //     0x939d40: bl              #0x93e99c  ; [package:kourtai/automatic/app/dependencies/handlers/core/daily_activity_streak_handler.dart] DailyActivityStreakHandler::checkStreak
     // 0x939d44: ldur            x2, [fp, #-0x18]
     // 0x939d48: LoadField: r0 = r2->field_7
     //     0x939d48: ldur            w0, [x2, #7]
@@ -1617,7 +1617,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x939d64: DecompressPointer r1
     //     0x939d64: add             x1, x1, HEAP, lsl #32
     // 0x939d68: r0 = setLastAuthenticatedUid()
-    //     0x939d68: bl              #0x93e930  ; [package:ballai/automatic/app/session_persistence.dart] SessionPersistence::setLastAuthenticatedUid
+    //     0x939d68: bl              #0x93e930  ; [package:kourtai/automatic/app/session_persistence.dart] SessionPersistence::setLastAuthenticatedUid
     // 0x939d6c: r0 = Null
     //     0x939d6c: mov             x0, NULL
     // 0x939d70: r0 = ReturnAsyncNotFuture()
@@ -1634,7 +1634,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x939d8c: r0 = ReturnAsyncNotFuture()
     //     0x939d8c: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x939d90: r0 = bootstrap()
-    //     0x939d90: bl              #0x939db8  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::bootstrap
+    //     0x939d90: bl              #0x939db8  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::bootstrap
     // 0x939d94: mov             x1, x0
     // 0x939d98: stur            x1, [fp, #-0x10]
     // 0x939d9c: r0 = Await()
@@ -1666,7 +1666,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x93fe30: cmp             SP, x16
     //     0x93fe34: b.ls            #0x93fe48
     // 0x93fe38: r0 = _onDeepLinkChanged()
-    //     0x93fe38: bl              #0x93fe50  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onDeepLinkChanged
+    //     0x93fe38: bl              #0x93fe50  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onDeepLinkChanged
     // 0x93fe3c: LeaveFrame
     //     0x93fe3c: mov             SP, fp
     //     0x93fe40: ldp             fp, lr, [SP], #0x10
@@ -1699,7 +1699,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x93fe80: ret
     //     0x93fe80: ret             
     // 0x93fe84: r0 = _handleNotificationFunnelDestinationIfNeeded()
-    //     0x93fe84: bl              #0x93fea0  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_handleNotificationFunnelDestinationIfNeeded
+    //     0x93fe84: bl              #0x93fea0  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_handleNotificationFunnelDestinationIfNeeded
     // 0x93fe88: r0 = Null
     //     0x93fe88: mov             x0, NULL
     // 0x93fe8c: LeaveFrame
@@ -1786,7 +1786,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x93ff54: add             x4, PP, #0x1d, lsl #12  ; [pp+0x1d120] List(7) [0, 0x2, 0x1, 0x1, "notificationFunnelDestination", 0x1, Null]
     //     0x93ff58: ldr             x4, [x4, #0x120]
     // 0x93ff5c: r0 = canResolve()
-    //     0x93ff5c: bl              #0x940180  ; [package:ballai/automatic/app/navigation/pending_destination_gate.dart] PendingDestinationGate::canResolve
+    //     0x93ff5c: bl              #0x940180  ; [package:kourtai/automatic/app/navigation/pending_destination_gate.dart] PendingDestinationGate::canResolve
     // 0x93ff60: tbz             w0, #4, #0x93ff74
     // 0x93ff64: r0 = Null
     //     0x93ff64: mov             x0, NULL
@@ -1800,14 +1800,14 @@ class _AuthShellState extends State<dynamic> {
     //     0x93ff78: add             x2, PP, #0x13, lsl #12  ; [pp+0x13598] "account_creation"
     //     0x93ff7c: ldr             x2, [x2, #0x598]
     // 0x93ff80: r0 = consumeNotificationFunnelDestination()
-    //     0x93ff80: bl              #0x940108  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
+    //     0x93ff80: bl              #0x940108  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
     // 0x93ff84: tbz             w0, #4, #0x93ff9c
     // 0x93ff88: ldur            x1, [fp, #-0x18]
     // 0x93ff8c: r2 = "account_setup"
     //     0x93ff8c: add             x2, PP, #0x13, lsl #12  ; [pp+0x135a8] "account_setup"
     //     0x93ff90: ldr             x2, [x2, #0x5a8]
     // 0x93ff94: r0 = consumeNotificationFunnelDestination()
-    //     0x93ff94: bl              #0x940108  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
+    //     0x93ff94: bl              #0x940108  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
     // 0x93ff98: tbnz            w0, #4, #0x93ffb0
     // 0x93ff9c: ldur            x1, [fp, #-8]
     // 0x93ffa0: LoadField: r0 = r1->field_f
@@ -1824,10 +1824,10 @@ class _AuthShellState extends State<dynamic> {
     // 0x93ffbc: ret
     //     0x93ffbc: ret             
     // 0x93ffc0: r0 = markFunnelStarted()
-    //     0x93ffc0: bl              #0x940010  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::markFunnelStarted
+    //     0x93ffc0: bl              #0x940010  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::markFunnelStarted
     // 0x93ffc4: ldur            x2, [fp, #-0x10]
     // 0x93ffc8: r1 = Function '<anonymous closure>':.
-    //     0x93ffc8: add             x1, PP, #0x1d, lsl #12  ; [pp+0x1d128] AnonymousClosure: (0x9404a0), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_signedOutSurface (0x94052c)
+    //     0x93ffc8: add             x1, PP, #0x1d, lsl #12  ; [pp+0x1d128] AnonymousClosure: (0x9404a0), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_signedOutSurface (0x94052c)
     //     0x93ffcc: ldr             x1, [x1, #0x128]
     // 0x93ffd0: r0 = AllocateClosure()
     //     0x93ffd0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1892,7 +1892,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x9404e0: cmp             SP, x16
     //     0x9404e4: b.ls            #0x940524
     // 0x9404e8: r0 = markFunnelStarted()
-    //     0x9404e8: bl              #0x940010  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::markFunnelStarted
+    //     0x9404e8: bl              #0x940010  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::markFunnelStarted
     // 0x9404ec: ldur            x2, [fp, #-8]
     // 0x9404f0: LoadField: r0 = r2->field_f
     //     0x9404f0: ldur            w0, [x2, #0xf]
@@ -1900,7 +1900,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x9404f4: add             x0, x0, HEAP, lsl #32
     // 0x9404f8: stur            x0, [fp, #-0x10]
     // 0x9404fc: r1 = Function '<anonymous closure>':.
-    //     0x9404fc: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1ce18] AnonymousClosure: (0x9404a0), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_signedOutSurface (0x94052c)
+    //     0x9404fc: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1ce18] AnonymousClosure: (0x9404a0), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_signedOutSurface (0x94052c)
     //     0x940500: ldr             x1, [x1, #0xe18]
     // 0x940504: r0 = AllocateClosure()
     //     0x940504: bl              #0xe553e0  ; AllocateClosureStub
@@ -1954,9 +1954,9 @@ class _AuthShellState extends State<dynamic> {
     //     0x940580: stur            w4, [x0, #0x27]
     // 0x940584: mov             x1, x0
     // 0x940588: r0 = _popStackedAuthRoutes()
-    //     0x940588: bl              #0x940744  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_popStackedAuthRoutes
+    //     0x940588: bl              #0x940744  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_popStackedAuthRoutes
     // 0x94058c: r0 = clear()
-    //     0x94058c: bl              #0x930660  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::clear
+    //     0x94058c: bl              #0x930660  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::clear
     // 0x940590: ldur            x0, [fp, #-0x10]
     // 0x940594: r16 = Instance_RootSessionPhase
     //     0x940594: add             x16, PP, #0x1a, lsl #12  ; [pp+0x1a578] Obj!RootSessionPhase@d3b941
@@ -1979,7 +1979,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x9405c4: add             x0, x0, HEAP, lsl #32
     // 0x9405c8: stur            x0, [fp, #-0x10]
     // 0x9405cc: r1 = Function '<anonymous closure>':.
-    //     0x9405cc: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cdf0] AnonymousClosure: (0x940c4c), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_signedOutSurface (0x94052c)
+    //     0x9405cc: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cdf0] AnonymousClosure: (0x940c4c), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_signedOutSurface (0x94052c)
     //     0x9405d0: ldr             x1, [x1, #0xdf0]
     // 0x9405d4: r2 = Null
     //     0x9405d4: mov             x2, NULL
@@ -2059,7 +2059,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x9406a4: tbnz            w0, #4, #0x9406bc
     // 0x9406a8: ldur            x2, [fp, #-0x20]
     // 0x9406ac: r0 = _buildPreAuthFunnel()
-    //     0x9406ac: bl              #0x9325f0  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_buildPreAuthFunnel
+    //     0x9406ac: bl              #0x9325f0  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_buildPreAuthFunnel
     // 0x9406b0: LeaveFrame
     //     0x9406b0: mov             SP, fp
     //     0x9406b4: ldp             fp, lr, [SP], #0x10
@@ -2067,7 +2067,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x9406b8: ret             
     // 0x9406bc: ldur            x2, [fp, #-0x28]
     // 0x9406c0: r1 = Function '<anonymous closure>':.
-    //     0x9406c0: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1ce08] AnonymousClosure: (0x940be0), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_signedOutSurface (0x94052c)
+    //     0x9406c0: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1ce08] AnonymousClosure: (0x940be0), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_signedOutSurface (0x94052c)
     //     0x9406c4: ldr             x1, [x1, #0xe08]
     // 0x9406c8: r0 = AllocateClosure()
     //     0x9406c8: bl              #0xe553e0  ; AllocateClosureStub
@@ -2081,7 +2081,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x9406e0: stur            w0, [x3, #0xb]
     // 0x9406e4: ldur            x2, [fp, #-0x28]
     // 0x9406e8: r1 = Function '<anonymous closure>':.
-    //     0x9406e8: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1ce10] AnonymousClosure: (0x9404c0), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_signedOutSurface (0x94052c)
+    //     0x9406e8: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1ce10] AnonymousClosure: (0x9404c0), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_signedOutSurface (0x94052c)
     //     0x9406ec: ldr             x1, [x1, #0xe10]
     // 0x9406f0: r0 = AllocateClosure()
     //     0x9406f0: bl              #0xe553e0  ; AllocateClosureStub
@@ -2127,7 +2127,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x94077c: add             x0, x0, HEAP, lsl #32
     // 0x940780: stur            x0, [fp, #-8]
     // 0x940784: r1 = Function '<anonymous closure>':.
-    //     0x940784: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1ce88] AnonymousClosure: (0x94085c), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_popStackedAuthRoutes (0x940744)
+    //     0x940784: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1ce88] AnonymousClosure: (0x94085c), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_popStackedAuthRoutes (0x940744)
     //     0x940788: ldr             x1, [x1, #0xe88]
     // 0x94078c: r2 = Null
     //     0x94078c: mov             x2, NULL
@@ -2217,13 +2217,13 @@ class _AuthShellState extends State<dynamic> {
     //     0x940868: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x94086c: cmp             SP, x16
     //     0x940870: b.ls            #0x9408f0
-    // 0x940874: r0 = InitLateStaticField(0xbf0) // [package:ballai/automatic/app/app_nav.dart] ::ballAiRootNavigatorKey
+    // 0x940874: r0 = InitLateStaticField(0xbf0) // [package:kourtai/automatic/app/app_nav.dart] ::kourtAiRootNavigatorKey
     //     0x940874: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x940878: ldr             x0, [x0, #0x17e0]
     //     0x94087c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
     //     0x940880: cmp             w0, w16
     //     0x940884: b.ne            #0x940894
-    //     0x940888: add             x2, PP, #0x12, lsl #12  ; [pp+0x12440] Field <::.ballAiRootNavigatorKey>: static late final (offset: 0xbf0)
+    //     0x940888: add             x2, PP, #0x12, lsl #12  ; [pp+0x12440] Field <::.kourtAiRootNavigatorKey>: static late final (offset: 0xbf0)
     //     0x94088c: ldr             x2, [x2, #0x440]
     //     0x940890: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x940894: mov             x1, x0
@@ -2244,7 +2244,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x9408c0: ret
     //     0x9408c0: ret             
     // 0x9408c4: r1 = Function '<anonymous closure>':.
-    //     0x9408c4: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cea0] AnonymousClosure: static (0x940b24), in [package:ballai/automatic/app/app_nav.dart] ::popAuthFunnelToRoot (0x940b54)
+    //     0x9408c4: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cea0] AnonymousClosure: static (0x940b24), in [package:kourtai/automatic/app/app_nav.dart] ::popAuthFunnelToRoot (0x940b54)
     //     0x9408c8: ldr             x1, [x1, #0xea0]
     // 0x9408cc: r2 = Null
     //     0x9408cc: mov             x2, NULL
@@ -2282,7 +2282,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x940c00: cmp             SP, x16
     //     0x940c04: b.ls            #0x940c44
     // 0x940c08: r0 = markFunnelStarted()
-    //     0x940c08: bl              #0x940010  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::markFunnelStarted
+    //     0x940c08: bl              #0x940010  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::markFunnelStarted
     // 0x940c0c: ldur            x2, [fp, #-8]
     // 0x940c10: LoadField: r0 = r2->field_f
     //     0x940c10: ldur            w0, [x2, #0xf]
@@ -2290,7 +2290,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x940c14: add             x0, x0, HEAP, lsl #32
     // 0x940c18: stur            x0, [fp, #-0x10]
     // 0x940c1c: r1 = Function '<anonymous closure>':.
-    //     0x940c1c: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1ce20] AnonymousClosure: (0x9404a0), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_signedOutSurface (0x94052c)
+    //     0x940c1c: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1ce20] AnonymousClosure: (0x9404a0), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_signedOutSurface (0x94052c)
     //     0x940c20: ldr             x1, [x1, #0xe20]
     // 0x940c24: r0 = AllocateClosure()
     //     0x940c24: bl              #0xe553e0  ; AllocateClosureStub
@@ -2319,7 +2319,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x940c58: cmp             SP, x16
     //     0x940c5c: b.ls            #0x940c74
     // 0x940c60: r0 = resetForSignedOutUser()
-    //     0x940c60: bl              #0x940c7c  ; [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::resetForSignedOutUser
+    //     0x940c60: bl              #0x940c7c  ; [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::resetForSignedOutUser
     // 0x940c64: r0 = Null
     //     0x940c64: mov             x0, NULL
     // 0x940c68: LeaveFrame
@@ -2346,7 +2346,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x940f00: cmp             SP, x16
     //     0x940f04: b.ls            #0x940f18
     // 0x940f08: r0 = _onOnboardingChanged()
-    //     0x940f08: bl              #0x940f20  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onOnboardingChanged
+    //     0x940f08: bl              #0x940f20  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onOnboardingChanged
     // 0x940f0c: LeaveFrame
     //     0x940f0c: mov             SP, fp
     //     0x940f10: ldp             fp, lr, [SP], #0x10
@@ -2465,7 +2465,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x9caf20: ldur            x3, [fp, #-0x30]
     // 0x9caf24: ldur            x5, [fp, #-0x20]
     // 0x9caf28: r0 = _resolveSession()
-    //     0x9caf28: bl              #0x9cd2e4  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_resolveSession
+    //     0x9caf28: bl              #0x9cd2e4  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_resolveSession
     // 0x9caf2c: mov             x3, x0
     // 0x9caf30: ldur            x0, [fp, #-8]
     // 0x9caf34: stur            x3, [fp, #-0x10]
@@ -2475,7 +2475,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x9caf3c: add             x2, x2, HEAP, lsl #32
     // 0x9caf40: mov             x1, x3
     // 0x9caf44: r0 = logRootSessionTransition()
-    //     0x9caf44: bl              #0x9cd15c  ; [package:ballai/automatic/app/session/root_session_state.dart] ::logRootSessionTransition
+    //     0x9caf44: bl              #0x9cd15c  ; [package:kourtai/automatic/app/session/root_session_state.dart] ::logRootSessionTransition
     // 0x9caf48: ldur            x1, [fp, #-8]
     // 0x9caf4c: LoadField: r0 = r1->field_3b
     //     0x9caf4c: ldur            w0, [x1, #0x3b]
@@ -2609,11 +2609,11 @@ class _AuthShellState extends State<dynamic> {
     // 0x9cb0b0: r0 = _interpolate()
     //     0x9cb0b0: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0x9cb0b4: mov             x2, x0
-    // 0x9cb0b8: r1 = Instance_BallAiLogCategory
-    //     0x9cb0b8: add             x1, PP, #0x12, lsl #12  ; [pp+0x12d08] Obj!BallAiLogCategory@d3bc21
+    // 0x9cb0b8: r1 = Instance_KourtAiLogCategory
+    //     0x9cb0b8: add             x1, PP, #0x12, lsl #12  ; [pp+0x12d08] Obj!KourtAiLogCategory@d3bc21
     //     0x9cb0bc: ldr             x1, [x1, #0xd08]
     // 0x9cb0c0: r0 = info()
-    //     0x9cb0c0: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
+    //     0x9cb0c0: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
     // 0x9cb0c4: ldur            x2, [fp, #-0x18]
     // 0x9cb0c8: LoadField: r1 = r2->field_37
     //     0x9cb0c8: ldur            w1, [x2, #0x37]
@@ -2709,13 +2709,13 @@ class _AuthShellState extends State<dynamic> {
     // 0x9cb1d0: b.eq            #0x9cb1dc
     // 0x9cb1d4: mov             x1, x4
     // 0x9cb1d8: r0 = _onBecameSignedIn()
-    //     0x9cb1d8: bl              #0x9ccfb4  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onBecameSignedIn
+    //     0x9cb1d8: bl              #0x9ccfb4  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onBecameSignedIn
     // 0x9cb1dc: ldur            x1, [fp, #-8]
     // 0x9cb1e0: ldur            x2, [fp, #-0x10]
     // 0x9cb1e4: r0 = _scheduleLaunchSplashEvaluation()
-    //     0x9cb1e4: bl              #0x9ccae4  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_scheduleLaunchSplashEvaluation
-    // 0x9cb1e8: r0 = Instance_BallAiSplashView
-    //     0x9cb1e8: add             x0, PP, #0x1a, lsl #12  ; [pp+0x1a570] Obj!BallAiSplashView@d231d1
+    //     0x9cb1e4: bl              #0x9ccae4  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_scheduleLaunchSplashEvaluation
+    // 0x9cb1e8: r0 = Instance_KourtAiSplashView
+    //     0x9cb1e8: add             x0, PP, #0x1a, lsl #12  ; [pp+0x1a570] Obj!KourtAiSplashView@d231d1
     //     0x9cb1ec: ldr             x0, [x0, #0x570]
     // 0x9cb1f0: LeaveFrame
     //     0x9cb1f0: mov             SP, fp
@@ -2735,7 +2735,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x9cb218: r3 = false
     //     0x9cb218: add             x3, NULL, #0x30  ; false
     // 0x9cb21c: r0 = _signedOutSurface()
-    //     0x9cb21c: bl              #0x94052c  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_signedOutSurface
+    //     0x9cb21c: bl              #0x94052c  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_signedOutSurface
     // 0x9cb220: LeaveFrame
     //     0x9cb220: mov             SP, fp
     //     0x9cb224: ldp             fp, lr, [SP], #0x10
@@ -2779,7 +2779,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x9cb294: ldur            x6, [fp, #-0x28]
     // 0x9cb298: ldur            x7, [fp, #-0x20]
     // 0x9cb29c: r0 = _phaseChild()
-    //     0x9cb29c: bl              #0x9cb2f0  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_phaseChild
+    //     0x9cb29c: bl              #0x9cb2f0  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_phaseChild
     // 0x9cb2a0: LeaveFrame
     //     0x9cb2a0: mov             SP, fp
     //     0x9cb2a4: ldp             fp, lr, [SP], #0x10
@@ -2799,7 +2799,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x9cb2d0: ldur            x6, [fp, #-0x28]
     // 0x9cb2d4: ldur            x7, [fp, #-0x20]
     // 0x9cb2d8: r0 = _phaseChild()
-    //     0x9cb2d8: bl              #0x9cb2f0  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_phaseChild
+    //     0x9cb2d8: bl              #0x9cb2f0  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_phaseChild
     // 0x9cb2dc: LeaveFrame
     //     0x9cb2dc: mov             SP, fp
     //     0x9cb2e0: ldp             fp, lr, [SP], #0x10
@@ -2849,7 +2849,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x9cb360: add             x3, x3, HEAP, lsl #32
     // 0x9cb364: mov             x1, x6
     // 0x9cb368: r0 = _signedOutSurface()
-    //     0x9cb368: bl              #0x94052c  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_signedOutSurface
+    //     0x9cb368: bl              #0x94052c  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_signedOutSurface
     // 0x9cb36c: LeaveFrame
     //     0x9cb36c: mov             SP, fp
     //     0x9cb370: ldp             fp, lr, [SP], #0x10
@@ -2859,12 +2859,12 @@ class _AuthShellState extends State<dynamic> {
     // 0x9cb37c: b               #0x9cb3e0
     // 0x9cb380: mov             x1, x6
     // 0x9cb384: r0 = _onBecameSignedIn()
-    //     0x9cb384: bl              #0x9ccfb4  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onBecameSignedIn
+    //     0x9cb384: bl              #0x9ccfb4  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onBecameSignedIn
     // 0x9cb388: ldur            x1, [fp, #-8]
     // 0x9cb38c: ldur            x2, [fp, #-0x10]
     // 0x9cb390: ldur            x3, [fp, #-0x18]
     // 0x9cb394: r0 = _bootstrapFailedView()
-    //     0x9cb394: bl              #0x9cb7f0  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_bootstrapFailedView
+    //     0x9cb394: bl              #0x9cb7f0  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_bootstrapFailedView
     // 0x9cb398: LeaveFrame
     //     0x9cb398: mov             SP, fp
     //     0x9cb39c: ldp             fp, lr, [SP], #0x10
@@ -2878,11 +2878,11 @@ class _AuthShellState extends State<dynamic> {
     // 0x9cb3b8: b.gt            #0x9cb3dc
     // 0x9cb3bc: ldur            x1, [fp, #-8]
     // 0x9cb3c0: r0 = _onBecameSignedIn()
-    //     0x9cb3c0: bl              #0x9ccfb4  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onBecameSignedIn
+    //     0x9cb3c0: bl              #0x9ccfb4  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onBecameSignedIn
     // 0x9cb3c4: ldur            x1, [fp, #-8]
     // 0x9cb3c8: ldur            x2, [fp, #-0x18]
     // 0x9cb3cc: r0 = _postAuthAccountSetup()
-    //     0x9cb3cc: bl              #0x9cb5e0  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_postAuthAccountSetup
+    //     0x9cb3cc: bl              #0x9cb5e0  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_postAuthAccountSetup
     // 0x9cb3d0: LeaveFrame
     //     0x9cb3d0: mov             SP, fp
     //     0x9cb3d4: ldp             fp, lr, [SP], #0x10
@@ -2909,7 +2909,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x9cb40c: ldur            x0, [fp, #-8]
     // 0x9cb410: mov             x1, x0
     // 0x9cb414: r0 = _onBecameSignedIn()
-    //     0x9cb414: bl              #0x9ccfb4  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onBecameSignedIn
+    //     0x9cb414: bl              #0x9ccfb4  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onBecameSignedIn
     // 0x9cb418: r0 = Instance_SessionRestoringView
     //     0x9cb418: add             x0, PP, #0x1a, lsl #12  ; [pp+0x1a580] Obj!SessionRestoringView@d25661
     //     0x9cb41c: ldr             x0, [x0, #0x580]
@@ -2921,7 +2921,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x9cb42c: ldur            x0, [fp, #-8]
     // 0x9cb430: mov             x1, x0
     // 0x9cb434: r0 = _onBecameSignedIn()
-    //     0x9cb434: bl              #0x9ccfb4  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onBecameSignedIn
+    //     0x9cb434: bl              #0x9ccfb4  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onBecameSignedIn
     // 0x9cb438: r0 = Instance_FreeTrialWarmupGateView
     //     0x9cb438: add             x0, PP, #0x1a, lsl #12  ; [pp+0x1a588] Obj!FreeTrialWarmupGateView@d231c1
     //     0x9cb43c: ldr             x0, [x0, #0x588]
@@ -2937,12 +2937,12 @@ class _AuthShellState extends State<dynamic> {
     // 0x9cb45c: b.gt            #0x9cb484
     // 0x9cb460: mov             x1, x0
     // 0x9cb464: r0 = _onBecameSignedIn()
-    //     0x9cb464: bl              #0x9ccfb4  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onBecameSignedIn
+    //     0x9cb464: bl              #0x9ccfb4  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onBecameSignedIn
     // 0x9cb468: ldur            x1, [fp, #-8]
     // 0x9cb46c: ldur            x2, [fp, #-0x18]
     // 0x9cb470: ldur            x3, [fp, #-0x20]
     // 0x9cb474: r0 = _permissionsGate()
-    //     0x9cb474: bl              #0x9cb4c8  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_permissionsGate
+    //     0x9cb474: bl              #0x9cb4c8  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_permissionsGate
     // 0x9cb478: LeaveFrame
     //     0x9cb478: mov             SP, fp
     //     0x9cb47c: ldp             fp, lr, [SP], #0x10
@@ -2950,11 +2950,11 @@ class _AuthShellState extends State<dynamic> {
     //     0x9cb480: ret             
     // 0x9cb484: ldur            x1, [fp, #-8]
     // 0x9cb488: r0 = _onBecameSignedIn()
-    //     0x9cb488: bl              #0x9ccfb4  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onBecameSignedIn
+    //     0x9cb488: bl              #0x9ccfb4  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onBecameSignedIn
     // 0x9cb48c: ldur            x1, [fp, #-8]
     // 0x9cb490: ldur            x2, [fp, #-0x18]
     // 0x9cb494: r0 = _coachTeamPrompt()
-    //     0x9cb494: bl              #0x900ef0  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt
+    //     0x9cb494: bl              #0x900ef0  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt
     // 0x9cb498: LeaveFrame
     //     0x9cb498: mov             SP, fp
     //     0x9cb49c: ldp             fp, lr, [SP], #0x10
@@ -2962,10 +2962,10 @@ class _AuthShellState extends State<dynamic> {
     //     0x9cb4a0: ret             
     // 0x9cb4a4: ldur            x1, [fp, #-8]
     // 0x9cb4a8: r0 = _onBecameSignedIn()
-    //     0x9cb4a8: bl              #0x9ccfb4  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onBecameSignedIn
+    //     0x9cb4a8: bl              #0x9ccfb4  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onBecameSignedIn
     // 0x9cb4ac: ldur            x1, [fp, #-8]
     // 0x9cb4b0: r0 = _home()
-    //     0x9cb4b0: bl              #0x8ef544  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home
+    //     0x9cb4b0: bl              #0x8ef544  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home
     // 0x9cb4b4: LeaveFrame
     //     0x9cb4b4: mov             SP, fp
     //     0x9cb4b8: ldp             fp, lr, [SP], #0x10
@@ -3002,7 +3002,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x9cb500: stur            w0, [x1, #0x17]
     // 0x9cb504: mov             x2, x1
     // 0x9cb508: r1 = Function '<anonymous closure>':.
-    //     0x9cb508: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a5c0] AnonymousClosure: (0x9cb53c), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_permissionsGate (0x9cb4c8)
+    //     0x9cb508: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a5c0] AnonymousClosure: (0x9cb53c), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_permissionsGate (0x9cb4c8)
     //     0x9cb50c: ldr             x1, [x1, #0x5c0]
     // 0x9cb510: r0 = AllocateClosure()
     //     0x9cb510: bl              #0xe553e0  ; AllocateClosureStub
@@ -3046,7 +3046,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x9cb580: DecompressPointer r1
     //     0x9cb580: add             x1, x1, HEAP, lsl #32
     // 0x9cb584: r0 = markPostSetupPermissionsComplete()
-    //     0x9cb584: bl              #0x900da4  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::markPostSetupPermissionsComplete
+    //     0x9cb584: bl              #0x900da4  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::markPostSetupPermissionsComplete
     // 0x9cb588: mov             x1, x0
     // 0x9cb58c: stur            x1, [fp, #-0x18]
     // 0x9cb590: r0 = Await()
@@ -3061,7 +3061,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x9cb5a4: DecompressPointer r2
     //     0x9cb5a4: add             x2, x2, HEAP, lsl #32
     // 0x9cb5a8: r0 = shouldOfferTeamPrompt()
-    //     0x9cb5a8: bl              #0x938704  ; [package:ballai/automatic/views/launch/view_determiner_onboarding_coordinator.dart] ViewDeterminerOnboardingCoordinator::shouldOfferTeamPrompt
+    //     0x9cb5a8: bl              #0x938704  ; [package:kourtai/automatic/views/launch/view_determiner_onboarding_coordinator.dart] ViewDeterminerOnboardingCoordinator::shouldOfferTeamPrompt
     // 0x9cb5ac: mov             x1, x0
     // 0x9cb5b0: ldur            x0, [fp, #-0x10]
     // 0x9cb5b4: LoadField: r2 = r0->field_f
@@ -3075,7 +3075,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x9cb5c4: mov             x2, x1
     // 0x9cb5c8: mov             x1, x0
     // 0x9cb5cc: r0 = finishPostSetupPermissionsFlow()
-    //     0x9cb5cc: bl              #0x9386c8  ; [package:ballai/automatic/views/launch/view_determiner_onboarding_coordinator.dart] ViewDeterminerOnboardingCoordinator::finishPostSetupPermissionsFlow
+    //     0x9cb5cc: bl              #0x9386c8  ; [package:kourtai/automatic/views/launch/view_determiner_onboarding_coordinator.dart] ViewDeterminerOnboardingCoordinator::finishPostSetupPermissionsFlow
     // 0x9cb5d0: r0 = Null
     //     0x9cb5d0: mov             x0, NULL
     // 0x9cb5d4: r0 = ReturnAsyncNotFuture()
@@ -3120,7 +3120,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x9cb630: stur            w0, [x3, #0xb]
     // 0x9cb634: ldur            x2, [fp, #-0x18]
     // 0x9cb638: r1 = Function '<anonymous closure>':.
-    //     0x9cb638: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a5e0] AnonymousClosure: (0x9cb774), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_postAuthAccountSetup (0x9cb5e0)
+    //     0x9cb638: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a5e0] AnonymousClosure: (0x9cb774), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_postAuthAccountSetup (0x9cb5e0)
     //     0x9cb63c: ldr             x1, [x1, #0x5e0]
     // 0x9cb640: r0 = AllocateClosure()
     //     0x9cb640: bl              #0xe553e0  ; AllocateClosureStub
@@ -3130,7 +3130,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x9cb64c: stur            w1, [x0, #0x13]
     // 0x9cb650: ldur            x2, [fp, #-0x18]
     // 0x9cb654: r1 = Function '<anonymous closure>':.
-    //     0x9cb654: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a5e8] AnonymousClosure: (0x9cb6dc), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_postAuthAccountSetup (0x9cb5e0)
+    //     0x9cb654: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a5e8] AnonymousClosure: (0x9cb6dc), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_postAuthAccountSetup (0x9cb5e0)
     //     0x9cb658: ldr             x1, [x1, #0x5e8]
     // 0x9cb65c: r0 = AllocateClosure()
     //     0x9cb65c: bl              #0xe553e0  ; AllocateClosureStub
@@ -3209,10 +3209,10 @@ class _AuthShellState extends State<dynamic> {
     // 0x9cb71c: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x9cb71c: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x9cb720: r0 = AccountSetupController()
-    //     0x9cb720: bl              #0x937cb4  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::AccountSetupController
+    //     0x9cb720: bl              #0x937cb4  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::AccountSetupController
     // 0x9cb724: ldur            x1, [fp, #-8]
     // 0x9cb728: r0 = hydrateFromCurrentUser()
-    //     0x9cb728: bl              #0x9cb744  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::hydrateFromCurrentUser
+    //     0x9cb728: bl              #0x9cb744  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::hydrateFromCurrentUser
     // 0x9cb72c: ldur            x0, [fp, #-8]
     // 0x9cb730: LeaveFrame
     //     0x9cb730: mov             SP, fp
@@ -3261,7 +3261,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x9cb7c8: add             x2, PP, #0x13, lsl #12  ; [pp+0x135a8] "account_setup"
     //     0x9cb7cc: ldr             x2, [x2, #0x5a8]
     // 0x9cb7d0: r0 = consumeNotificationFunnelDestination()
-    //     0x9cb7d0: bl              #0x940108  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
+    //     0x9cb7d0: bl              #0x940108  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
     // 0x9cb7d4: r0 = Null
     //     0x9cb7d4: mov             x0, NULL
     // 0x9cb7d8: LeaveFrame
@@ -3305,7 +3305,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x9cb830: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1acc0] "Could not load your profile"
     //     0x9cb834: ldr             x1, [x1, #0xcc0]
     // 0x9cb838: r0 = L()
-    //     0x9cb838: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9cb838: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9cb83c: stur            x0, [fp, #-8]
     // 0x9cb840: r0 = Text()
     //     0x9cb840: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -3334,7 +3334,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x9cb87c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1acd0] "Couldn\'t load your profile. Please try again."
     //     0x9cb880: ldr             x1, [x1, #0xcd0]
     // 0x9cb884: r0 = L()
-    //     0x9cb884: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9cb884: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9cb888: mov             x1, x0
     // 0x9cb88c: b               #0x9cb894
     // 0x9cb890: mov             x1, x3
@@ -3356,7 +3356,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x9cb8bc: add             x1, PP, #0x16, lsl #12  ; [pp+0x16aa0] "Try again"
     //     0x9cb8c0: ldr             x1, [x1, #0xaa0]
     // 0x9cb8c4: r0 = L()
-    //     0x9cb8c4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9cb8c4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9cb8c8: stur            x0, [fp, #-8]
     // 0x9cb8cc: r0 = Text()
     //     0x9cb8cc: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -3376,7 +3376,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x9cb8f4: stur            w0, [x3, #0x3b]
     // 0x9cb8f8: ldur            x2, [fp, #-0x18]
     // 0x9cb8fc: r1 = Function '<anonymous closure>':.
-    //     0x9cb8fc: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ace0] AnonymousClosure: (0x9cc904), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_bootstrapFailedView (0x9cb7f0)
+    //     0x9cb8fc: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ace0] AnonymousClosure: (0x9cc904), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_bootstrapFailedView (0x9cb7f0)
     //     0x9cb900: ldr             x1, [x1, #0xce0]
     // 0x9cb904: r0 = AllocateClosure()
     //     0x9cb904: bl              #0xe553e0  ; AllocateClosureStub
@@ -3404,7 +3404,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x9cb938: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1ace8] "Sign out"
     //     0x9cb93c: ldr             x1, [x1, #0xce8]
     // 0x9cb940: r0 = L()
-    //     0x9cb940: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9cb940: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9cb944: stur            x0, [fp, #-0x28]
     // 0x9cb948: r0 = Text()
     //     0x9cb948: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -3415,7 +3415,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x9cb958: stur            w0, [x3, #0xb]
     // 0x9cb95c: ldur            x2, [fp, #-0x18]
     // 0x9cb960: r1 = Function '<anonymous closure>':.
-    //     0x9cb960: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1acf0] AnonymousClosure: (0x9cbb14), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_bootstrapFailedView (0x9cb7f0)
+    //     0x9cb960: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1acf0] AnonymousClosure: (0x9cbb14), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_bootstrapFailedView (0x9cb7f0)
     //     0x9cb964: ldr             x1, [x1, #0xcf0]
     // 0x9cb968: r0 = AllocateClosure()
     //     0x9cb968: bl              #0xe553e0  ; AllocateClosureStub
@@ -3610,7 +3610,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x9cbb38: add             x0, x0, HEAP, lsl #32
     // 0x9cbb3c: mov             x1, x0
     // 0x9cbb40: r0 = signOut()
-    //     0x9cbb40: bl              #0x9cbb58  ; [package:ballai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::signOut
+    //     0x9cbb40: bl              #0x9cbb58  ; [package:kourtai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::signOut
     // 0x9cbb44: LeaveFrame
     //     0x9cbb44: mov             SP, fp
     //     0x9cbb48: ldp             fp, lr, [SP], #0x10
@@ -3662,7 +3662,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x9cc968: DecompressPointer r1
     //     0x9cc968: add             x1, x1, HEAP, lsl #32
     // 0x9cc96c: r0 = bootstrap()
-    //     0x9cc96c: bl              #0x939db8  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::bootstrap
+    //     0x9cc96c: bl              #0x939db8  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::bootstrap
     // 0x9cc970: mov             x1, x0
     // 0x9cc974: stur            x1, [fp, #-0x18]
     // 0x9cc978: r0 = Await()
@@ -3738,7 +3738,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x9ccb74: mov             x2, x1
     // 0x9ccb78: stur            x0, [fp, #-8]
     // 0x9ccb7c: r1 = Function '<anonymous closure>':.
-    //     0x9ccb7c: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cea8] AnonymousClosure: (0x9ccc50), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_scheduleLaunchSplashEvaluation (0x9ccae4)
+    //     0x9ccb7c: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cea8] AnonymousClosure: (0x9ccc50), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_scheduleLaunchSplashEvaluation (0x9ccae4)
     //     0x9ccb80: ldr             x1, [x1, #0xea8]
     // 0x9ccb84: r0 = AllocateClosure()
     //     0x9ccb84: bl              #0xe553e0  ; AllocateClosureStub
@@ -3843,7 +3843,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x9ccc84: add             x0, x0, HEAP, lsl #32
     // 0x9ccc88: mov             x2, x0
     // 0x9ccc8c: r0 = _tryEndLaunchSplash()
-    //     0x9ccc8c: bl              #0x9ccca8  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_tryEndLaunchSplash
+    //     0x9ccc8c: bl              #0x9ccca8  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_tryEndLaunchSplash
     // 0x9ccc90: r0 = Null
     //     0x9ccc90: mov             x0, NULL
     // 0x9ccc94: LeaveFrame
@@ -3990,7 +3990,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x9cce14: b.ne            #0x9cce58
     // 0x9cce18: ldur            x2, [fp, #-0x18]
     // 0x9cce1c: r1 = Function '<anonymous closure>':.
-    //     0x9cce1c: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cef0] AnonymousClosure: (0x9ccf28), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_tryEndLaunchSplash (0x9ccca8)
+    //     0x9cce1c: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cef0] AnonymousClosure: (0x9ccf28), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_tryEndLaunchSplash (0x9ccca8)
     //     0x9cce20: ldr             x1, [x1, #0xef0]
     // 0x9cce24: r0 = AllocateClosure()
     //     0x9cce24: bl              #0xe553e0  ; AllocateClosureStub
@@ -4021,7 +4021,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x9cce70: mov             x3, x1
     // 0x9cce74: ldur            x2, [fp, #-0x18]
     // 0x9cce78: r1 = Function '<anonymous closure>':.
-    //     0x9cce78: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cef8] AnonymousClosure: (0x9ccf08), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_tryEndLaunchSplash (0x9ccca8)
+    //     0x9cce78: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cef8] AnonymousClosure: (0x9ccf08), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_tryEndLaunchSplash (0x9ccca8)
     //     0x9cce7c: ldr             x1, [x1, #0xef8]
     // 0x9cce80: r0 = AllocateClosure()
     //     0x9cce80: bl              #0xe553e0  ; AllocateClosureStub
@@ -4129,7 +4129,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x9ccf80: ret
     //     0x9ccf80: ret             
     // 0x9ccf84: r1 = Function '<anonymous closure>':.
-    //     0x9ccf84: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cf00] AnonymousClosure: (0x9ccf08), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_tryEndLaunchSplash (0x9ccca8)
+    //     0x9ccf84: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cf00] AnonymousClosure: (0x9ccf08), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_tryEndLaunchSplash (0x9ccca8)
     //     0x9ccf88: ldr             x1, [x1, #0xf00]
     // 0x9ccf8c: r0 = AllocateClosure()
     //     0x9ccf8c: bl              #0xe553e0  ; AllocateClosureStub
@@ -4190,7 +4190,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x9cd00c: StoreField: r1->field_33 = r2
     //     0x9cd00c: stur            w2, [x1, #0x33]
     // 0x9cd010: r0 = _popStackedAuthRoutes()
-    //     0x9cd010: bl              #0x940744  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_popStackedAuthRoutes
+    //     0x9cd010: bl              #0x940744  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_popStackedAuthRoutes
     // 0x9cd014: r0 = LoadStaticField(0x8b4)
     //     0x9cd014: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x9cd018: ldr             x0, [x0, #0x1168]
@@ -4208,7 +4208,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x9cd038: ldur            x2, [fp, #-0x10]
     // 0x9cd03c: stur            x0, [fp, #-8]
     // 0x9cd040: r1 = Function '<anonymous closure>':.
-    //     0x9cd040: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cf08] AnonymousClosure: (0x9cd114), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onBecameSignedIn (0x9ccfb4)
+    //     0x9cd040: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cf08] AnonymousClosure: (0x9cd114), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onBecameSignedIn (0x9ccfb4)
     //     0x9cd044: ldr             x1, [x1, #0xf08]
     // 0x9cd048: r0 = AllocateClosure()
     //     0x9cd048: bl              #0xe553e0  ; AllocateClosureStub
@@ -4305,7 +4305,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x9cd138: add             x0, x0, HEAP, lsl #32
     // 0x9cd13c: mov             x1, x0
     // 0x9cd140: r0 = _restoreSession()
-    //     0x9cd140: bl              #0x939c08  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_restoreSession
+    //     0x9cd140: bl              #0x939c08  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_restoreSession
     // 0x9cd144: r0 = Null
     //     0x9cd144: mov             x0, NULL
     // 0x9cd148: LeaveFrame
@@ -4450,7 +4450,7 @@ class _AuthShellState extends State<dynamic> {
     //     0x9cd440: add             x10, x10, HEAP, lsl #32
     // 0x9cd444: stur            x10, [fp, #-8]
     // 0x9cd448: r0 = isPayingSubscriber()
-    //     0x9cd448: bl              #0x651314  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
+    //     0x9cd448: bl              #0x651314  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
     // 0x9cd44c: mov             x1, x0
     // 0x9cd450: ldur            x0, [fp, #-0x48]
     // 0x9cd454: stur            x1, [fp, #-0x58]
@@ -4463,7 +4463,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x9cd464: DecompressPointer r0
     //     0x9cd464: add             x0, x0, HEAP, lsl #32
     // 0x9cd468: stur            x0, [fp, #-0x48]
-    // 0x9cd46c: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0x9cd46c: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0x9cd46c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x9cd470: ldr             x0, [x0, #0x1cf0]
     //     0x9cd474: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -4511,8 +4511,8 @@ class _AuthShellState extends State<dynamic> {
     // 0x9cd4f8: r0 = RootSessionInputs()
     //     0x9cd4f8: bl              #0x9cd7f8  ; AllocateRootSessionInputsStub -> RootSessionInputs (size=0x44)
     // 0x9cd4fc: mov             x1, x0
-    // 0x9cd500: r0 = Instance_BallAiBootState
-    //     0x9cd500: add             x0, PP, #9, lsl #12  ; [pp+0x99e8] Obj!BallAiBootState@d3bde1
+    // 0x9cd500: r0 = Instance_KourtAiBootState
+    //     0x9cd500: add             x0, PP, #9, lsl #12  ; [pp+0x99e8] Obj!KourtAiBootState@d3bde1
     //     0x9cd504: ldr             x0, [x0, #0x9e8]
     // 0x9cd508: StoreField: r1->field_7 = r0
     //     0x9cd508: stur            w0, [x1, #7]
@@ -4560,7 +4560,7 @@ class _AuthShellState extends State<dynamic> {
     // 0x9cd578: StoreField: r1->field_3f = r0
     //     0x9cd578: stur            w0, [x1, #0x3f]
     // 0x9cd57c: r0 = resolve()
-    //     0x9cd57c: bl              #0x9cd594  ; [package:ballai/automatic/app/session/root_session_resolver.dart] RootSessionResolver::resolve
+    //     0x9cd57c: bl              #0x9cd594  ; [package:kourtai/automatic/app/session/root_session_resolver.dart] RootSessionResolver::resolve
     // 0x9cd580: LeaveFrame
     //     0x9cd580: mov             SP, fp
     //     0x9cd584: ldp             fp, lr, [SP], #0x10
@@ -4577,7 +4577,7 @@ class _AuthShellState extends State<dynamic> {
     //     0xb5a33c: mov             fp, SP
     // 0xb5a340: ldr             x2, [fp, #0x10]
     // 0xb5a344: r1 = Function 'dispose':.
-    //     0xb5a344: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cda0] AnonymousClosure: (0xb5a35c), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::dispose (0xb5fd60)
+    //     0xb5a344: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cda0] AnonymousClosure: (0xb5a35c), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::dispose (0xb5fd60)
     //     0xb5a348: ldr             x1, [x1, #0xda0]
     // 0xb5a34c: r0 = AllocateClosure()
     //     0xb5a34c: bl              #0xe553e0  ; AllocateClosureStub
@@ -4602,7 +4602,7 @@ class _AuthShellState extends State<dynamic> {
     //     0xb5a374: cmp             SP, x16
     //     0xb5a378: b.ls            #0xb5a38c
     // 0xb5a37c: r0 = dispose()
-    //     0xb5a37c: bl              #0xb5fd60  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::dispose
+    //     0xb5a37c: bl              #0xb5fd60  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::dispose
     // 0xb5a380: LeaveFrame
     //     0xb5a380: mov             SP, fp
     //     0xb5a384: ldp             fp, lr, [SP], #0x10
@@ -4646,7 +4646,7 @@ class _AuthShellState extends State<dynamic> {
     // 0xb5fdb0: b.eq            #0xb5fdd4
     // 0xb5fdb4: mov             x2, x0
     // 0xb5fdb8: r1 = Function '_onDeepLinkChanged@981124517':.
-    //     0xb5fdb8: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cf88] AnonymousClosure: (0x93fe18), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onDeepLinkChanged (0x93fe50)
+    //     0xb5fdb8: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cf88] AnonymousClosure: (0x93fe18), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onDeepLinkChanged (0x93fe50)
     //     0xb5fdbc: ldr             x1, [x1, #0xf88]
     // 0xb5fdc0: r0 = AllocateClosure()
     //     0xb5fdc0: bl              #0xe553e0  ; AllocateClosureStub
@@ -4666,7 +4666,7 @@ class _AuthShellState extends State<dynamic> {
     // 0xb5fdec: b               #0xb5fe10
     // 0xb5fdf0: mov             x2, x0
     // 0xb5fdf4: r1 = Function '_onUserManagerChanged@981124517':.
-    //     0xb5fdf4: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cf90] AnonymousClosure: (0x939ba0), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onUserManagerChanged (0x939bd8)
+    //     0xb5fdf4: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cf90] AnonymousClosure: (0x939ba0), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onUserManagerChanged (0x939bd8)
     //     0xb5fdf8: ldr             x1, [x1, #0xf90]
     // 0xb5fdfc: r0 = AllocateClosure()
     //     0xb5fdfc: bl              #0xe553e0  ; AllocateClosureStub
@@ -4681,7 +4681,7 @@ class _AuthShellState extends State<dynamic> {
     //     0xb5fe14: add             x0, x0, HEAP, lsl #32
     // 0xb5fe18: stur            x0, [fp, #-0x10]
     // 0xb5fe1c: r1 = Function '_onOnboardingChanged@981124517':.
-    //     0xb5fe1c: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cf98] AnonymousClosure: (0x940ee8), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onOnboardingChanged (0x940f20)
+    //     0xb5fe1c: add             x1, PP, #0x1c, lsl #12  ; [pp+0x1cf98] AnonymousClosure: (0x940ee8), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_onOnboardingChanged (0x940f20)
     //     0xb5fe20: ldr             x1, [x1, #0xf98]
     // 0xb5fe24: r0 = AllocateClosure()
     //     0xb5fe24: bl              #0xe553e0  ; AllocateClosureStub
@@ -4831,7 +4831,7 @@ class AuthShell extends StatefulWidget {
     // 0xb719f8: mov             x1, x0
     // 0xb719fc: stur            x0, [fp, #-8]
     // 0xb71a00: r0 = _AuthShellState()
-    //     0xb71a00: bl              #0xb71a1c  ; [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_AuthShellState
+    //     0xb71a00: bl              #0xb71a1c  ; [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_AuthShellState
     // 0xb71a04: ldur            x0, [fp, #-8]
     // 0xb71a08: LeaveFrame
     //     0xb71a08: mov             SP, fp

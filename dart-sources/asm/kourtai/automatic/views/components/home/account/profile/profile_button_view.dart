@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/home/account/profile/profile_button_view.dart
+// lib: , url: package:kourtai/automatic/views/components/home/account/profile/profile_button_view.dart
 
 // class id: 1048796, size: 0x8
 class :: {
@@ -110,7 +110,7 @@ class ProfileButtonView extends StatelessWidget {
     //     0x9c4444: ldr             lr, [x21, lr, lsl #3]
     //     0x9c4448: blr             lr
     // 0x9c444c: r1 = Function '<anonymous closure>': static.
-    //     0x9c444c: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e5a8] AnonymousClosure: static (0x9c4344), in [package:ballai/automatic/views/components/home/account/profile/profile_button_view.dart] ProfileButtonView::abbreviation (0x9c43a8)
+    //     0x9c444c: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e5a8] AnonymousClosure: static (0x9c4344), in [package:kourtai/automatic/views/components/home/account/profile/profile_button_view.dart] ProfileButtonView::abbreviation (0x9c43a8)
     //     0x9c4450: ldr             x1, [x1, #0x5a8]
     // 0x9c4454: r2 = Null
     //     0x9c4454: mov             x2, NULL
@@ -396,7 +396,7 @@ class ProfileButtonView extends StatelessWidget {
     // 0xbb0bc0: DecompressPointer r1
     //     0xbb0bc0: add             x1, x1, HEAP, lsl #32
     // 0xbb0bc4: r0 = abbreviation()
-    //     0xbb0bc4: bl              #0x9c43a8  ; [package:ballai/automatic/views/components/home/account/profile/profile_button_view.dart] ProfileButtonView::abbreviation
+    //     0xbb0bc4: bl              #0x9c43a8  ; [package:kourtai/automatic/views/components/home/account/profile/profile_button_view.dart] ProfileButtonView::abbreviation
     // 0xbb0bc8: ldur            d0, [fp, #-0x30]
     // 0xbb0bcc: d1 = 100.000000
     //     0xbb0bcc: ldr             d1, [PP, #0x5948]  ; [pp+0x5948] IMM: double(100) from 0x4059000000000000

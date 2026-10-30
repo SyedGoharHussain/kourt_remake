@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/misc/bally_feature_sheet_view.dart
+// lib: , url: package:kourtai/automatic/views/misc/bally_feature_sheet_view.dart
 
 // class id: 1049047, size: 0x8
 class :: {
@@ -25,8 +25,8 @@ class _LeadingIcon extends StatelessWidget {
     //     0xc21748: cmp             SP, x16
     //     0xc2174c: b.ls            #0xc21880
     // 0xc21750: mov             x1, x0
-    // 0xc21754: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc21754: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc21754: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc21754: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc21758: r1 = LoadClassIdInstr(r0)
     //     0xc21758: ldur            x1, [x0, #-1]
     //     0xc2175c: ubfx            x1, x1, #0xc, #0x14
@@ -93,8 +93,8 @@ class _LeadingIcon extends StatelessWidget {
     //     0xc217fc: add             x0, x0, HEAP, lsl #32
     // 0xc21800: ldur            x1, [fp, #-0x10]
     // 0xc21804: stur            x0, [fp, #-8]
-    // 0xc21808: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc21808: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc21808: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc21808: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc2180c: stur            x0, [fp, #-0x10]
     // 0xc21810: r0 = Icon()
     //     0xc21810: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -196,8 +196,8 @@ class _FeatureRow extends StatelessWidget {
     //     0xc21280: add             x4, x4, HEAP, lsl #32
     // 0xc21284: ldur            x1, [fp, #-0x20]
     // 0xc21288: stur            x4, [fp, #-0x28]
-    // 0xc2128c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc2128c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc2128c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc2128c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc21290: stur            x0, [fp, #-0x38]
     // 0xc21294: r0 = TextStyle()
     //     0xc21294: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -318,8 +318,8 @@ class _FeatureRow extends StatelessWidget {
     //     0xc213b4: add             x8, x8, HEAP, lsl #32
     // 0xc213b8: ldur            x1, [fp, #-0x20]
     // 0xc213bc: stur            x8, [fp, #-0x28]
-    // 0xc213c0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc213c0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc213c0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc213c0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc213c4: stur            x0, [fp, #-8]
     // 0xc213c8: r0 = TextStyle()
     //     0xc213c8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -395,8 +395,8 @@ class _FeatureRow extends StatelessWidget {
     //     0xc21480: add             x4, x4, HEAP, lsl #32
     // 0xc21484: ldur            x1, [fp, #-0x20]
     // 0xc21488: stur            x4, [fp, #-8]
-    // 0xc2148c: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc2148c: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc2148c: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc2148c: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc21490: r16 = Instance_Color
     //     0xc21490: ldr             x16, [PP, #0x5178]  ; [pp+0x5178] Obj!Color@d2a0a1
     // 0xc21494: stp             x16, x0, [SP, #0x10]
@@ -630,8 +630,8 @@ class _FeatureRow extends StatelessWidget {
     // 0xc216d4: ldur            x0, [fp, #-0x10]
     // 0xc216d8: StoreField: r1->field_b = r0
     //     0xc216d8: stur            w0, [x1, #0xb]
-    // 0xc216dc: r0 = BallAiLiquidGlassCard()
-    //     0xc216dc: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xc216dc: r0 = KourtAiLiquidGlassCard()
+    //     0xc216dc: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xc216e0: ldur            x1, [fp, #-8]
     // 0xc216e4: StoreField: r0->field_b = r1
     //     0xc216e4: stur            w1, [x0, #0xb]
@@ -705,8 +705,8 @@ class _Header extends StatelessWidget {
     // 0xc2111c: StoreField: r2->field_2b = r0
     //     0xc2111c: stur            w0, [x2, #0x2b]
     // 0xc21120: ldur            x1, [fp, #-8]
-    // 0xc21124: r0 = BallAiThemeContext.ballAiScreenSubtitleStyle()
-    //     0xc21124: bl              #0x9eda00  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiScreenSubtitleStyle
+    // 0xc21124: r0 = KourtAiThemeContext.kourtAiScreenSubtitleStyle()
+    //     0xc21124: bl              #0x9eda00  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiScreenSubtitleStyle
     // 0xc21128: stur            x0, [fp, #-8]
     // 0xc2112c: r0 = Text()
     //     0xc2112c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -831,8 +831,8 @@ class BallyFeatureSheetView extends StatelessWidget {
     // 0xc20c14: stur            x0, [fp, #-0x18]
     // 0xc20c18: StoreField: r0->field_f = r1
     //     0xc20c18: stur            w1, [x0, #0xf]
-    // 0xc20c1c: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xc20c1c: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xc20c1c: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xc20c1c: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xc20c20: mov             x1, x0
     // 0xc20c24: ldur            x0, [fp, #-8]
     // 0xc20c28: stur            x1, [fp, #-0x20]
@@ -858,7 +858,7 @@ class BallyFeatureSheetView extends StatelessWidget {
     //     0xc20c5c: add             x1, PP, #0x20, lsl #12  ; [pp+0x206c0] "Close"
     //     0xc20c60: ldr             x1, [x1, #0x6c0]
     // 0xc20c64: r0 = L()
-    //     0xc20c64: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc20c64: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc20c68: stur            x0, [fp, #-0x30]
     // 0xc20c6c: r0 = IconButton()
     //     0xc20c6c: bl              #0x9d5dc4  ; AllocateIconButtonStub -> IconButton (size=0x70)
@@ -994,7 +994,7 @@ class BallyFeatureSheetView extends StatelessWidget {
     //     0xc20dc4: add             x1, x1, HEAP, lsl #32
     // 0xc20dc8: mov             x2, x7
     // 0xc20dcc: r0 = _whatsNewRowCta()
-    //     0xc20dcc: bl              #0xa134dc  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_whatsNewRowCta
+    //     0xc20dcc: bl              #0xa134dc  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_whatsNewRowCta
     // 0xc20dd0: stur            x0, [fp, #-0x50]
     // 0xc20dd4: r0 = _FeatureRow()
     //     0xc20dd4: bl              #0xc20ffc  ; Allocate_FeatureRowStub -> _FeatureRow (size=0x24)
@@ -1018,7 +1018,7 @@ class BallyFeatureSheetView extends StatelessWidget {
     //     0xc20e00: stur            w4, [x3, #0x1b]
     // 0xc20e04: ldur            x2, [fp, #-0x18]
     // 0xc20e08: r1 = Function '<anonymous closure>':.
-    //     0xc20e08: add             x1, PP, #0x24, lsl #12  ; [pp+0x24cc8] AnonymousClosure: (0xc21014), in [package:ballai/automatic/views/misc/bally_feature_sheet_view.dart] BallyFeatureSheetView::build (0xc20be0)
+    //     0xc20e08: add             x1, PP, #0x24, lsl #12  ; [pp+0x24cc8] AnonymousClosure: (0xc21014), in [package:kourtai/automatic/views/misc/bally_feature_sheet_view.dart] BallyFeatureSheetView::build (0xc20be0)
     //     0xc20e0c: ldr             x1, [x1, #0xcc8]
     // 0xc20e10: r0 = AllocateClosure()
     //     0xc20e10: bl              #0xe553e0  ; AllocateClosureStub
@@ -1078,8 +1078,8 @@ class BallyFeatureSheetView extends StatelessWidget {
     //     0xc20ea4: add             x2, x2, HEAP, lsl #32
     // 0xc20ea8: mov             x1, x2
     // 0xc20eac: mov             x2, x0
-    // 0xc20eb0: r0 = BallAiThemeContext.ballAiFilledButtonStyle()
-    //     0xc20eb0: bl              #0xa0ebdc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiFilledButtonStyle
+    // 0xc20eb0: r0 = KourtAiThemeContext.kourtAiFilledButtonStyle()
+    //     0xc20eb0: bl              #0xa0ebdc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiFilledButtonStyle
     // 0xc20eb4: mov             x1, x0
     // 0xc20eb8: ldur            x0, [fp, #-8]
     // 0xc20ebc: stur            x1, [fp, #-0x28]
@@ -1236,7 +1236,7 @@ class BallyFeatureSheetView extends StatelessWidget {
     // 0xc21048: r0 = of()
     //     0xc21048: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xc2104c: r1 = Function '<anonymous closure>':.
-    //     0xc2104c: add             x1, PP, #0x24, lsl #12  ; [pp+0x24ce0] AnonymousClosure: (0xc210b4), in [package:ballai/automatic/views/misc/bally_feature_sheet_view.dart] BallyFeatureSheetView::build (0xc20be0)
+    //     0xc2104c: add             x1, PP, #0x24, lsl #12  ; [pp+0x24ce0] AnonymousClosure: (0xc210b4), in [package:kourtai/automatic/views/misc/bally_feature_sheet_view.dart] BallyFeatureSheetView::build (0xc20be0)
     //     0xc21050: ldr             x1, [x1, #0xce0]
     // 0xc21054: r2 = Null
     //     0xc21054: mov             x2, NULL

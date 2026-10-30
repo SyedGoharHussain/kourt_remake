@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart
+// lib: , url: package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart
 
 // class id: 1048697, size: 0x8
 class :: {
@@ -159,10 +159,10 @@ abstract class WorkoutGoalProgressLabelText extends Object {
     // 0x96d82c: tbnz            w0, #4, #0x96d84c
     // 0x96d830: ldur            x1, [fp, #-8]
     // 0x96d834: r0 = currentNumerator()
-    //     0x96d834: bl              #0x96dad4  ; [package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::currentNumerator
+    //     0x96d834: bl              #0x96dad4  ; [package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::currentNumerator
     // 0x96d838: mov             x1, x0
     // 0x96d83c: r0 = formatClock()
-    //     0x96d83c: bl              #0x96d888  ; [package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::formatClock
+    //     0x96d83c: bl              #0x96d888  ; [package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::formatClock
     // 0x96d840: LeaveFrame
     //     0x96d840: mov             SP, fp
     //     0x96d844: ldp             fp, lr, [SP], #0x10
@@ -170,7 +170,7 @@ abstract class WorkoutGoalProgressLabelText extends Object {
     //     0x96d848: ret             
     // 0x96d84c: ldur            x1, [fp, #-8]
     // 0x96d850: r0 = currentNumerator()
-    //     0x96d850: bl              #0x96dad4  ; [package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::currentNumerator
+    //     0x96d850: bl              #0x96dad4  ; [package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::currentNumerator
     // 0x96d854: mov             x2, x0
     // 0x96d858: r0 = BoxInt64Instr(r2)
     //     0x96d858: sbfiz           x0, x2, #1, #0x1f
@@ -600,7 +600,7 @@ abstract class WorkoutGoalProgressLabelText extends Object {
     //     0x96dd90: b.ls            #0x96de50
     // 0x96dd94: mov             x1, x0
     // 0x96dd98: r0 = targetTotal()
-    //     0x96dd98: bl              #0x96df94  ; [package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::targetTotal
+    //     0x96dd98: bl              #0x96df94  ; [package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::targetTotal
     // 0x96dd9c: mov             x1, x0
     // 0x96dda0: ldur            x0, [fp, #-8]
     // 0x96dda4: stur            x1, [fp, #-0x10]
@@ -642,7 +642,7 @@ abstract class WorkoutGoalProgressLabelText extends Object {
     //     0x96de0c: tbz             w0, #0, #0x96de14
     //     0x96de10: ldur            x1, [x0, #7]
     // 0x96de14: r0 = formatClock()
-    //     0x96de14: bl              #0x96d888  ; [package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::formatClock
+    //     0x96de14: bl              #0x96d888  ; [package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::formatClock
     // 0x96de18: LeaveFrame
     //     0x96de18: mov             SP, fp
     //     0x96de1c: ldp             fp, lr, [SP], #0x10
@@ -956,15 +956,15 @@ abstract class WorkoutGoalProgressLabelText extends Object {
     //     0xa47f90: ret             
     // 0xa47f94: ldur            x1, [fp, #-8]
     // 0xa47f98: r0 = currentDisplayText()
-    //     0xa47f98: bl              #0x96d7e4  ; [package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::currentDisplayText
+    //     0xa47f98: bl              #0x96d7e4  ; [package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::currentDisplayText
     // 0xa47f9c: ldur            x1, [fp, #-8]
     // 0xa47fa0: stur            x0, [fp, #-0x10]
     // 0xa47fa4: r0 = goalDisplayText()
-    //     0xa47fa4: bl              #0x96dd74  ; [package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::goalDisplayText
+    //     0xa47fa4: bl              #0x96dd74  ; [package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::goalDisplayText
     // 0xa47fa8: ldur            x1, [fp, #-8]
     // 0xa47fac: stur            x0, [fp, #-8]
     // 0xa47fb0: r0 = trailingUnit()
-    //     0xa47fb0: bl              #0x96de58  ; [package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::trailingUnit
+    //     0xa47fb0: bl              #0x96de58  ; [package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::trailingUnit
     // 0xa47fb4: stur            x0, [fp, #-0x18]
     // 0xa47fb8: LoadField: r1 = r0->field_7
     //     0xa47fb8: ldur            w1, [x0, #7]
@@ -1071,7 +1071,7 @@ abstract class WorkoutGoalProgressLabelText extends Object {
     //     0xa4c468: ret             
     // 0xa4c46c: ldur            x1, [fp, #-0x10]
     // 0xa4c470: r0 = targetTotal()
-    //     0xa4c470: bl              #0x96df94  ; [package:ballai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::targetTotal
+    //     0xa4c470: bl              #0x96df94  ; [package:kourtai/automatic/models/core/stats/workouts/workout_goal_progress_label_text.dart] WorkoutGoalProgressLabelText::targetTotal
     // 0xa4c474: stur            x0, [fp, #-0x18]
     // 0xa4c478: cmp             x0, #0
     // 0xa4c47c: b.gt            #0xa4c490

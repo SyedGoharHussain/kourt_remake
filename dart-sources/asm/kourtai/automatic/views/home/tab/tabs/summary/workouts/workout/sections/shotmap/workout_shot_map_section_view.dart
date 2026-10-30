@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shotmap/workout_shot_map_section_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shotmap/workout_shot_map_section_view.dart
 
 // class id: 1048905, size: 0x8
 class :: {
@@ -63,7 +63,7 @@ class WorkoutShotMapSectionView extends StatelessWidget {
     //     0xbeb7a4: add             x3, x3, HEAP, lsl #32
     // 0xbeb7a8: stur            x3, [fp, #-8]
     // 0xbeb7ac: r1 = Function '<anonymous closure>':.
-    //     0xbeb7ac: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bca0] AnonymousClosure: (0xa37b80), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shotmap/workout_shot_map_section_view.dart] WorkoutShotMapSectionView::build (0xbeb780)
+    //     0xbeb7ac: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bca0] AnonymousClosure: (0xa37b80), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/shotmap/workout_shot_map_section_view.dart] WorkoutShotMapSectionView::build (0xbeb780)
     //     0xbeb7b0: ldr             x1, [x1, #0xca0]
     // 0xbeb7b4: r2 = Null
     //     0xbeb7b4: mov             x2, NULL
@@ -86,11 +86,11 @@ class WorkoutShotMapSectionView extends StatelessWidget {
     //     0xbeb7e0: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bca8] "Shot map (BETA)"
     //     0xbeb7e4: ldr             x1, [x1, #0xca8]
     // 0xbeb7e8: r0 = L()
-    //     0xbeb7e8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbeb7e8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbeb7ec: ldur            x1, [fp, #-0x10]
     // 0xbeb7f0: stur            x0, [fp, #-0x18]
-    // 0xbeb7f4: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbeb7f4: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbeb7f4: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbeb7f4: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbeb7f8: stur            x0, [fp, #-0x20]
     // 0xbeb7fc: r0 = TextStyle()
     //     0xbeb7fc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -124,8 +124,8 @@ class WorkoutShotMapSectionView extends StatelessWidget {
     // 0xbeb848: StoreField: r2->field_13 = r0
     //     0xbeb848: stur            w0, [x2, #0x13]
     // 0xbeb84c: ldur            x1, [fp, #-0x10]
-    // 0xbeb850: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xbeb850: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xbeb850: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xbeb850: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xbeb854: stur            x0, [fp, #-0x10]
     // 0xbeb858: r0 = Radius()
     //     0xbeb858: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)

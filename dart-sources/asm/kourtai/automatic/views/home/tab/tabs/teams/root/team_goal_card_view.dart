@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/root/team_goal_card_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/root/team_goal_card_view.dart
 
 // class id: 1048950, size: 0x8
 class :: {
@@ -28,8 +28,8 @@ class _MetricPill extends StatelessWidget {
     // 0xc00130: DecompressPointer r2
     //     0xc00130: add             x2, x2, HEAP, lsl #32
     // 0xc00134: stur            x2, [fp, #-8]
-    // 0xc00138: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc00138: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc00138: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc00138: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc0013c: stur            x0, [fp, #-0x18]
     // 0xc00140: r0 = TextStyle()
     //     0xc00140: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -202,7 +202,7 @@ class TeamGoalCardView extends StatelessWidget {
     // 0xbff820: DecompressPointer r1
     //     0xbff820: add             x1, x1, HEAP, lsl #32
     // 0xbff824: r0 = combinedProgress()
-    //     0xbff824: bl              #0xa6cc28  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgress
+    //     0xbff824: bl              #0xa6cc28  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgress
     // 0xbff828: r1 = inline_Allocate_Double()
     //     0xbff828: ldp             x1, x0, [THR, #0x50]  ; THR::top
     //     0xbff82c: add             x1, x1, #0x10
@@ -251,8 +251,8 @@ class TeamGoalCardView extends StatelessWidget {
     // 0xbff8bc: lsl             x0, x0, #1
     // 0xbff8c0: ldur            x1, [fp, #-0x18]
     // 0xbff8c4: stur            x0, [fp, #-0x28]
-    // 0xbff8c8: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xbff8c8: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xbff8c8: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xbff8c8: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xbff8cc: stur            x0, [fp, #-0x30]
     // 0xbff8d0: r0 = Radius()
     //     0xbff8d0: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -292,8 +292,8 @@ class TeamGoalCardView extends StatelessWidget {
     // 0xbff928: StoreField: r2->field_23 = r0
     //     0xbff928: stur            w0, [x2, #0x23]
     // 0xbff92c: ldur            x1, [fp, #-0x18]
-    // 0xbff930: r0 = BallAiThemeContext.ballAiProgressTrackFill()
-    //     0xbff930: bl              #0xbc3c40  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiProgressTrackFill
+    // 0xbff930: r0 = KourtAiThemeContext.kourtAiProgressTrackFill()
+    //     0xbff930: bl              #0xbc3c40  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiProgressTrackFill
     // 0xbff934: stur            x0, [fp, #-0x30]
     // 0xbff938: r0 = CircularProgressIndicator()
     //     0xbff938: bl              #0xa15a28  ; AllocateCircularProgressIndicatorStub -> CircularProgressIndicator (size=0x44)
@@ -339,8 +339,8 @@ class TeamGoalCardView extends StatelessWidget {
     //     0xbff99c: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0xbff9a0: ldur            x1, [fp, #-0x18]
     // 0xbff9a4: stur            x0, [fp, #-0x20]
-    // 0xbff9a8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbff9a8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbff9a8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbff9a8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbff9ac: stur            x0, [fp, #-0x28]
     // 0xbff9b0: r0 = TextStyle()
     //     0xbff9b0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -463,8 +463,8 @@ class TeamGoalCardView extends StatelessWidget {
     // 0xbffadc: StoreField: r2->field_1b = r1
     //     0xbffadc: stur            w1, [x2, #0x1b]
     // 0xbffae0: ldur            x1, [fp, #-0x18]
-    // 0xbffae4: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbffae4: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbffae4: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbffae4: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbffae8: stur            x0, [fp, #-0x40]
     // 0xbffaec: r0 = TextStyle()
     //     0xbffaec: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -564,8 +564,8 @@ class TeamGoalCardView extends StatelessWidget {
     //     0xbffbd8: add             x3, x3, HEAP, lsl #32
     // 0xbffbdc: tbnz            w3, #4, #0xbffc90
     // 0xbffbe0: ldur            x1, [fp, #-0x18]
-    // 0xbffbe4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbffbe4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbffbe4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbffbe4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbffbe8: stur            x0, [fp, #-0x10]
     // 0xbffbec: r0 = Icon()
     //     0xbffbec: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -678,7 +678,7 @@ class TeamGoalCardView extends StatelessWidget {
     //     0xbffd0c: add             x1, PP, #0x29, lsl #12  ; [pp+0x29408] "Time"
     //     0xbffd10: ldr             x1, [x1, #0x408]
     // 0xbffd14: r0 = L()
-    //     0xbffd14: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbffd14: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbffd18: mov             x2, x0
     // 0xbffd1c: ldur            x0, [fp, #-8]
     // 0xbffd20: stur            x2, [fp, #-0x20]
@@ -687,7 +687,7 @@ class TeamGoalCardView extends StatelessWidget {
     // 0xbffd28: DecompressPointer r1
     //     0xbffd28: add             x1, x1, HEAP, lsl #32
     // 0xbffd2c: r0 = formattedTimeProgress()
-    //     0xbffd2c: bl              #0xbdda8c  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::formattedTimeProgress
+    //     0xbffd2c: bl              #0xbdda8c  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::formattedTimeProgress
     // 0xbffd30: r1 = _ConstMap len:10
     //     0xbffd30: add             x1, PP, #0x49, lsl #12  ; [pp+0x49388] Map<int, Color>(10)
     //     0xbffd34: ldr             x1, [x1, #0x388]
@@ -725,7 +725,7 @@ class TeamGoalCardView extends StatelessWidget {
     //     0xbffd8c: add             x1, PP, #0x11, lsl #12  ; [pp+0x11e80] "Shots"
     //     0xbffd90: ldr             x1, [x1, #0xe80]
     // 0xbffd94: r0 = L()
-    //     0xbffd94: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbffd94: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbffd98: mov             x2, x0
     // 0xbffd9c: ldur            x0, [fp, #-8]
     // 0xbffda0: stur            x2, [fp, #-0x30]
@@ -734,7 +734,7 @@ class TeamGoalCardView extends StatelessWidget {
     // 0xbffda8: DecompressPointer r1
     //     0xbffda8: add             x1, x1, HEAP, lsl #32
     // 0xbffdac: r0 = formattedShotsProgress()
-    //     0xbffdac: bl              #0xbdd9a0  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::formattedShotsProgress
+    //     0xbffdac: bl              #0xbdd9a0  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::formattedShotsProgress
     // 0xbffdb0: stur            x0, [fp, #-0x40]
     // 0xbffdb4: r0 = _MetricPill()
     //     0xbffdb4: bl              #0xc000fc  ; Allocate_MetricPillStub -> _MetricPill (size=0x18)
@@ -764,7 +764,7 @@ class TeamGoalCardView extends StatelessWidget {
     //     0xbffdf4: add             x1, PP, #0x29, lsl #12  ; [pp+0x29418] "Makes"
     //     0xbffdf8: ldr             x1, [x1, #0x418]
     // 0xbffdfc: r0 = L()
-    //     0xbffdfc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbffdfc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbffe00: mov             x2, x0
     // 0xbffe04: ldur            x0, [fp, #-8]
     // 0xbffe08: stur            x2, [fp, #-0x40]
@@ -773,7 +773,7 @@ class TeamGoalCardView extends StatelessWidget {
     // 0xbffe10: DecompressPointer r1
     //     0xbffe10: add             x1, x1, HEAP, lsl #32
     // 0xbffe14: r0 = formattedMakesProgress()
-    //     0xbffe14: bl              #0xbdd8c0  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::formattedMakesProgress
+    //     0xbffe14: bl              #0xbdd8c0  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::formattedMakesProgress
     // 0xbffe18: stur            x0, [fp, #-8]
     // 0xbffe1c: r0 = _MetricPill()
     //     0xbffe1c: bl              #0xc000fc  ; Allocate_MetricPillStub -> _MetricPill (size=0x18)

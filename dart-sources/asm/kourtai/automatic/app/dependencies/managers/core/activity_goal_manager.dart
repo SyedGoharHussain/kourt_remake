@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart
 
 // class id: 1048644, size: 0x8
 class :: {
@@ -25,7 +25,7 @@ class ActivityGoalManager extends ChangeNotifier {
     //     0x958cc0: cmp             SP, x16
     //     0x958cc4: b.ls            #0x958e70
     // 0x958cc8: r0 = DateTimeWeekRange.getWeekStartAndEnd()
-    //     0x958cc8: bl              #0x5fb6d0  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
+    //     0x958cc8: bl              #0x5fb6d0  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
     // 0x958ccc: mov             x2, x0
     // 0x958cd0: stur            x2, [fp, #-0x18]
     // 0x958cd4: r0 = LoadClassIdInstr(r2)
@@ -88,7 +88,7 @@ class ActivityGoalManager extends ChangeNotifier {
     //     0x958d8c: bl              #0x5fac30  ; [dart:core] DateTime::DateTime
     // 0x958d90: ldur            x1, [fp, #-0x38]
     // 0x958d94: r0 = WeeklyDateKey.generateWeeklyDateKey()
-    //     0x958d94: bl              #0x9315c4  ; [package:ballai/automatic/utility/extensions/date/weekly_date_key.dart] ::WeeklyDateKey.generateWeeklyDateKey
+    //     0x958d94: bl              #0x9315c4  ; [package:kourtai/automatic/utility/extensions/date/weekly_date_key.dart] ::WeeklyDateKey.generateWeeklyDateKey
     // 0x958d98: ldur            x6, [fp, #-0x10]
     // 0x958d9c: stur            x0, [fp, #-0x18]
     // 0x958da0: LoadField: r2 = r6->field_7
@@ -97,7 +97,7 @@ class ActivityGoalManager extends ChangeNotifier {
     //     0x958da4: add             x2, x2, HEAP, lsl #32
     // 0x958da8: mov             x1, x0
     // 0x958dac: r0 = documentId()
-    //     0x958dac: bl              #0x931558  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::documentId
+    //     0x958dac: bl              #0x931558  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::documentId
     // 0x958db0: mov             x2, x0
     // 0x958db4: ldur            x1, [fp, #-8]
     // 0x958db8: stur            x2, [fp, #-0x30]
@@ -156,7 +156,7 @@ class ActivityGoalManager extends ChangeNotifier {
     // 0x958e58: r2 = true
     //     0x958e58: add             x2, NULL, #0x20  ; true
     // 0x958e5c: r0 = _attachDocument()
-    //     0x958e5c: bl              #0x958e78  ; [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_attachDocument
+    //     0x958e5c: bl              #0x958e78  ; [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_attachDocument
     // 0x958e60: r0 = Null
     //     0x958e60: mov             x0, NULL
     // 0x958e64: LeaveFrame
@@ -264,14 +264,14 @@ class ActivityGoalManager extends ChangeNotifier {
     //     0x958f74: bl              #0x5f43f0  ; [package:cloud_firestore/cloud_firestore.dart] _JsonDocumentReference::snapshots
     // 0x958f78: ldur            x2, [fp, #-0x38]
     // 0x958f7c: r1 = Function '<anonymous closure>':.
-    //     0x958f7c: add             x1, PP, #0x12, lsl #12  ; [pp+0x121d8] AnonymousClosure: (0x959464), in [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_attachDocument (0x958e78)
+    //     0x958f7c: add             x1, PP, #0x12, lsl #12  ; [pp+0x121d8] AnonymousClosure: (0x959464), in [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_attachDocument (0x958e78)
     //     0x958f80: ldr             x1, [x1, #0x1d8]
     // 0x958f84: stur            x0, [fp, #-0x10]
     // 0x958f88: r0 = AllocateClosure()
     //     0x958f88: bl              #0xe553e0  ; AllocateClosureStub
     // 0x958f8c: ldur            x2, [fp, #-0x38]
     // 0x958f90: r1 = Function '<anonymous closure>':.
-    //     0x958f90: add             x1, PP, #0x12, lsl #12  ; [pp+0x121e0] AnonymousClosure: (0x958ff0), in [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_attachDocument (0x958e78)
+    //     0x958f90: add             x1, PP, #0x12, lsl #12  ; [pp+0x121e0] AnonymousClosure: (0x958ff0), in [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_attachDocument (0x958e78)
     //     0x958f94: ldr             x1, [x1, #0x1e0]
     // 0x958f98: stur            x0, [fp, #-0x18]
     // 0x958f9c: r0 = AllocateClosure()
@@ -388,13 +388,13 @@ class ActivityGoalManager extends ChangeNotifier {
     //     0x9590b8: add             x5, x5, HEAP, lsl #32
     // 0x9590bc: mov             x1, x4
     // 0x9590c0: r0 = _defaultGoal()
-    //     0x9590c0: bl              #0x9592e4  ; [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_defaultGoal
+    //     0x9590c0: bl              #0x9592e4  ; [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_defaultGoal
     // 0x9590c4: mov             x2, x0
     // 0x9590c8: b               #0x9590d0
     // 0x9590cc: mov             x2, x1
     // 0x9590d0: ldur            x1, [fp, #-0x10]
     // 0x9590d4: r0 = _publishSnapshot()
-    //     0x9590d4: bl              #0x9590f0  ; [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_publishSnapshot
+    //     0x9590d4: bl              #0x9590f0  ; [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_publishSnapshot
     // 0x9590d8: r0 = Null
     //     0x9590d8: mov             x0, NULL
     // 0x9590dc: LeaveFrame
@@ -655,7 +655,7 @@ class ActivityGoalManager extends ChangeNotifier {
     // 0x9593a8: mov             x5, x0
     // 0x9593ac: mov             x2, x4
     // 0x9593b0: r0 = defaultForUser()
-    //     0x9593b0: bl              #0x9593c8  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::defaultForUser
+    //     0x9593b0: bl              #0x9593c8  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::defaultForUser
     // 0x9593b4: LeaveFrame
     //     0x9593b4: mov             SP, fp
     //     0x9593b8: ldp             fp, lr, [SP], #0x10
@@ -683,7 +683,7 @@ class ActivityGoalManager extends ChangeNotifier {
     //     0x959488: b.ls            #0x9596b8
     // 0x95948c: ldr             x1, [fp, #0x10]
     // 0x959490: r0 = fromFirestore()
-    //     0x959490: bl              #0x959c98  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::fromFirestore
+    //     0x959490: bl              #0x959c98  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::fromFirestore
     // 0x959494: mov             x4, x0
     // 0x959498: ldur            x0, [fp, #-8]
     // 0x95949c: stur            x4, [fp, #-0x10]
@@ -770,7 +770,7 @@ class ActivityGoalManager extends ChangeNotifier {
     //     0x959570: add             x7, x7, HEAP, lsl #32
     // 0x959574: mov             x3, x4
     // 0x959578: r0 = _fallbackToLegacyWeek()
-    //     0x959578: bl              #0x9596c0  ; [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_fallbackToLegacyWeek
+    //     0x959578: bl              #0x9596c0  ; [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_fallbackToLegacyWeek
     // 0x95957c: ldur            x0, [fp, #-0x10]
     // 0x959580: cmp             w0, NULL
     // 0x959584: b.eq            #0x959630
@@ -868,13 +868,13 @@ class ActivityGoalManager extends ChangeNotifier {
     //     0x959688: add             x5, x5, HEAP, lsl #32
     // 0x95968c: mov             x1, x4
     // 0x959690: r0 = _defaultGoal()
-    //     0x959690: bl              #0x9592e4  ; [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_defaultGoal
+    //     0x959690: bl              #0x9592e4  ; [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_defaultGoal
     // 0x959694: mov             x2, x0
     // 0x959698: b               #0x9596a0
     // 0x95969c: mov             x2, x0
     // 0x9596a0: ldur            x1, [fp, #-0x18]
     // 0x9596a4: r0 = _publishSnapshot()
-    //     0x9596a4: bl              #0x9590f0  ; [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_publishSnapshot
+    //     0x9596a4: bl              #0x9590f0  ; [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_publishSnapshot
     // 0x9596a8: r0 = Null
     //     0x9596a8: mov             x0, NULL
     // 0x9596ac: LeaveFrame
@@ -964,7 +964,7 @@ class ActivityGoalManager extends ChangeNotifier {
     // 0x959794: ldur            x1, [fp, #-0xc0]
     // 0x959798: stur            x0, [fp, #-0xe8]
     // 0x95979c: r0 = dateKeyVariants()
-    //     0x95979c: bl              #0x9310b8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::dateKeyVariants
+    //     0x95979c: bl              #0x9310b8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::dateKeyVariants
     // 0x9597a0: str             x0, [SP]
     // 0x9597a4: ldur            x1, [fp, #-0xe8]
     // 0x9597a8: r2 = "dateKey"
@@ -1114,7 +1114,7 @@ class ActivityGoalManager extends ChangeNotifier {
     //     0x959944: stur            x0, [x3, #0x17]
     // 0x959948: mov             x1, x8
     // 0x95994c: r0 = fromFirestore()
-    //     0x95994c: bl              #0x959c98  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::fromFirestore
+    //     0x95994c: bl              #0x959c98  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::fromFirestore
     // 0x959950: cmp             w0, NULL
     // 0x959954: b.ne            #0x959964
     // 0x959958: ldur            x6, [fp, #-0xf8]
@@ -1290,7 +1290,7 @@ class ActivityGoalManager extends ChangeNotifier {
     // 0x959b54: r2 = false
     //     0x959b54: add             x2, NULL, #0x30  ; false
     // 0x959b58: r0 = _attachDocument()
-    //     0x959b58: bl              #0x958e78  ; [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_attachDocument
+    //     0x959b58: bl              #0x958e78  ; [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_attachDocument
     // 0x959b5c: r0 = Null
     //     0x959b5c: mov             x0, NULL
     // 0x959b60: r0 = ReturnAsyncNotFuture()
@@ -1365,13 +1365,13 @@ class ActivityGoalManager extends ChangeNotifier {
     // 0x959c2c: ldur            x3, [fp, #-0xd8]
     // 0x959c30: ldur            x5, [fp, #-0xe0]
     // 0x959c34: r0 = _defaultGoal()
-    //     0x959c34: bl              #0x9592e4  ; [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_defaultGoal
+    //     0x959c34: bl              #0x9592e4  ; [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_defaultGoal
     // 0x959c38: mov             x2, x0
     // 0x959c3c: b               #0x959c44
     // 0x959c40: mov             x2, x1
     // 0x959c44: ldur            x1, [fp, #-0xb8]
     // 0x959c48: r0 = _publishSnapshot()
-    //     0x959c48: bl              #0x9590f0  ; [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_publishSnapshot
+    //     0x959c48: bl              #0x9590f0  ; [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_publishSnapshot
     // 0x959c4c: r0 = Null
     //     0x959c4c: mov             x0, NULL
     // 0x959c50: r0 = ReturnAsyncNotFuture()
@@ -1407,7 +1407,7 @@ class ActivityGoalManager extends ChangeNotifier {
     //     0x9b56e0: mov             fp, SP
     // 0x9b56e4: ldr             x2, [fp, #0x10]
     // 0x9b56e8: r1 = Function 'dispose':.
-    //     0x9b56e8: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d5c0] AnonymousClosure: (0x9b5700), in [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::dispose (0x9baa04)
+    //     0x9b56e8: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d5c0] AnonymousClosure: (0x9b5700), in [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::dispose (0x9baa04)
     //     0x9b56ec: ldr             x1, [x1, #0x5c0]
     // 0x9b56f0: r0 = AllocateClosure()
     //     0x9b56f0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1432,7 +1432,7 @@ class ActivityGoalManager extends ChangeNotifier {
     //     0x9b5718: cmp             SP, x16
     //     0x9b571c: b.ls            #0x9b5730
     // 0x9b5720: r0 = dispose()
-    //     0x9b5720: bl              #0x9baa04  ; [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::dispose
+    //     0x9b5720: bl              #0x9baa04  ; [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::dispose
     // 0x9b5724: LeaveFrame
     //     0x9b5724: mov             SP, fp
     //     0x9b5728: ldp             fp, lr, [SP], #0x10
@@ -1463,7 +1463,7 @@ class ActivityGoalManager extends ChangeNotifier {
     // 0x9baa2c: mov             x2, x0
     // 0x9baa30: stur            x3, [fp, #-8]
     // 0x9baa34: r1 = Function '_onUserManagerChanged@700288151':.
-    //     0x9baa34: add             x1, PP, #0x12, lsl #12  ; [pp+0x121c8] AnonymousClosure: (0x9baa84), in [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_onUserManagerChanged (0x9baabc)
+    //     0x9baa34: add             x1, PP, #0x12, lsl #12  ; [pp+0x121c8] AnonymousClosure: (0x9baa84), in [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_onUserManagerChanged (0x9baabc)
     //     0x9baa38: ldr             x1, [x1, #0x1c8]
     // 0x9baa3c: r0 = AllocateClosure()
     //     0x9baa3c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1509,7 +1509,7 @@ class ActivityGoalManager extends ChangeNotifier {
     //     0x9baa9c: cmp             SP, x16
     //     0x9baaa0: b.ls            #0x9baab4
     // 0x9baaa4: r0 = _onUserManagerChanged()
-    //     0x9baaa4: bl              #0x9baabc  ; [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_onUserManagerChanged
+    //     0x9baaa4: bl              #0x9baabc  ; [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_onUserManagerChanged
     // 0x9baaa8: LeaveFrame
     //     0x9baaa8: mov             SP, fp
     //     0x9baaac: ldp             fp, lr, [SP], #0x10
@@ -1612,7 +1612,7 @@ class ActivityGoalManager extends ChangeNotifier {
     // 0x9bab98: ldur            x1, [fp, #-8]
     // 0x9bab9c: ldur            x3, [fp, #-0x10]
     // 0x9baba0: r0 = startListener()
-    //     0x9baba0: bl              #0x958c9c  ; [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::startListener
+    //     0x9baba0: bl              #0x958c9c  ; [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::startListener
     // 0x9baba4: r0 = Null
     //     0x9baba4: mov             x0, NULL
     // 0x9baba8: LeaveFrame
@@ -1682,16 +1682,16 @@ class ActivityGoalManager extends ChangeNotifier {
     // 0xa0ad2c: ldur            x0, [fp, #-0xd8]
     // 0xa0ad30: ldur            x1, [fp, #-0xe8]
     // 0xa0ad34: r0 = clampShots()
-    //     0xa0ad34: bl              #0x931bc0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampShots
+    //     0xa0ad34: bl              #0x931bc0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampShots
     // 0xa0ad38: ldur            x1, [fp, #-0xe0]
     // 0xa0ad3c: mov             x2, x0
     // 0xa0ad40: stur            x0, [fp, #-0xe0]
     // 0xa0ad44: r0 = clampMakes()
-    //     0xa0ad44: bl              #0x931b3c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampMakes
+    //     0xa0ad44: bl              #0x931b3c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampMakes
     // 0xa0ad48: ldur            x1, [fp, #-0xf0]
     // 0xa0ad4c: stur            x0, [fp, #-0xe8]
     // 0xa0ad50: r0 = clampTime()
-    //     0xa0ad50: bl              #0x931ae8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampTime
+    //     0xa0ad50: bl              #0x931ae8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::clampTime
     // 0xa0ad54: mov             x2, x0
     // 0xa0ad58: ldur            x5, [fp, #-0xe0]
     // 0xa0ad5c: stur            x2, [fp, #-0xf0]
@@ -1777,7 +1777,7 @@ class ActivityGoalManager extends ChangeNotifier {
     //     0xa0ae58: stur            x1, [x0, #0xb]
     // 0xa0ae5c: mov             x1, x0
     // 0xa0ae60: r0 = DateTimeWeekRange.getWeekStartAndEnd()
-    //     0xa0ae60: bl              #0x5fb6d0  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
+    //     0xa0ae60: bl              #0x5fb6d0  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
     // 0xa0ae64: mov             x2, x0
     // 0xa0ae68: r17 = -296
     //     0xa0ae68: mov             x17, #-0x128
@@ -1866,7 +1866,7 @@ class ActivityGoalManager extends ChangeNotifier {
     //     0xa0af58: mov             x17, #-0x148
     // 0xa0af5c: ldr             x1, [fp, x17]
     // 0xa0af60: r0 = WeeklyDateKey.generateWeeklyDateKey()
-    //     0xa0af60: bl              #0x9315c4  ; [package:ballai/automatic/utility/extensions/date/weekly_date_key.dart] ::WeeklyDateKey.generateWeeklyDateKey
+    //     0xa0af60: bl              #0x9315c4  ; [package:kourtai/automatic/utility/extensions/date/weekly_date_key.dart] ::WeeklyDateKey.generateWeeklyDateKey
     // 0xa0af64: r17 = -296
     //     0xa0af64: mov             x17, #-0x128
     // 0xa0af68: str             x0, [fp, x17]
@@ -1881,7 +1881,7 @@ class ActivityGoalManager extends ChangeNotifier {
     // 0xa0af88: ldur            x6, [fp, #-0xf0]
     // 0xa0af8c: ldur            x7, [fp, #-0x100]
     // 0xa0af90: r0 = _goalForWrite()
-    //     0xa0af90: bl              #0xa0b2d0  ; [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_goalForWrite
+    //     0xa0af90: bl              #0xa0b2d0  ; [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_goalForWrite
     // 0xa0af94: mov             x3, x0
     // 0xa0af98: ldur            x2, [fp, #-0xd8]
     // 0xa0af9c: r17 = -320
@@ -1916,7 +1916,7 @@ class ActivityGoalManager extends ChangeNotifier {
     // 0xa0aff0: ldur            x1, [fp, #-0xd8]
     // 0xa0aff4: mov             x2, x0
     // 0xa0aff8: r0 = _writeTotals()
-    //     0xa0aff8: bl              #0xa0b224  ; [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_writeTotals
+    //     0xa0aff8: bl              #0xa0b224  ; [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_writeTotals
     // 0xa0affc: mov             x1, x0
     // 0xa0b000: r17 = -328
     //     0xa0b000: mov             x17, #-0x148
@@ -1928,7 +1928,7 @@ class ActivityGoalManager extends ChangeNotifier {
     // 0xa0b014: ldur            x3, [fp, #-0xf0]
     // 0xa0b018: ldur            x5, [fp, #-0xf8]
     // 0xa0b01c: r0 = upsertCurrentWeekGoal()
-    //     0xa0b01c: bl              #0x9308dc  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::upsertCurrentWeekGoal
+    //     0xa0b01c: bl              #0x9308dc  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::upsertCurrentWeekGoal
     // 0xa0b020: mov             x1, x0
     // 0xa0b024: r17 = -328
     //     0xa0b024: mov             x17, #-0x148
@@ -2079,7 +2079,7 @@ class ActivityGoalManager extends ChangeNotifier {
     //     0xa0b1a0: add             x4, PP, #0x26, lsl #12  ; [pp+0x26900] List(11) [0, 0x4, 0x3, 0x1, "makeActivityGoal", 0x2, "shotActivityGoal", 0x1, "timeActivityGoal", 0x3, Null]
     //     0xa0b1a4: ldr             x4, [x4, #0x900]
     // 0xa0b1a8: r0 = copyWith()
-    //     0xa0b1a8: bl              #0x663774  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::copyWith
+    //     0xa0b1a8: bl              #0x663774  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::copyWith
     // 0xa0b1ac: r17 = -264
     //     0xa0b1ac: mov             x17, #-0x108
     // 0xa0b1b0: ldr             x1, [fp, x17]
@@ -2087,7 +2087,7 @@ class ActivityGoalManager extends ChangeNotifier {
     // 0xa0b1b8: r4 = const [0, 0x2, 0, 0x2, null]
     //     0xa0b1b8: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0xa0b1bc: r0 = updateUser()
-    //     0xa0b1bc: bl              #0x6618fc  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::updateUser
+    //     0xa0b1bc: bl              #0x6618fc  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::updateUser
     // 0xa0b1c0: mov             x1, x0
     // 0xa0b1c4: r17 = -264
     //     0xa0b1c4: mov             x17, #-0x108
@@ -2171,7 +2171,7 @@ class ActivityGoalManager extends ChangeNotifier {
     // 0xa0b288: ldur            x1, [fp, #-8]
     // 0xa0b28c: stur            x0, [fp, #-8]
     // 0xa0b290: r0 = toFirestoreMap()
-    //     0xa0b290: bl              #0x931358  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::toFirestoreMap
+    //     0xa0b290: bl              #0x931358  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::toFirestoreMap
     // 0xa0b294: stur            x0, [fp, #-0x10]
     // 0xa0b298: r0 = SetOptions()
     //     0xa0b298: bl              #0x662250  ; AllocateSetOptionsStub -> SetOptions (size=0x10)
@@ -2243,7 +2243,7 @@ class ActivityGoalManager extends ChangeNotifier {
     // 0xa0b348: DecompressPointer r1
     //     0xa0b348: add             x1, x1, HEAP, lsl #32
     // 0xa0b34c: r0 = dateKeyVariants()
-    //     0xa0b34c: bl              #0x9310b8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::dateKeyVariants
+    //     0xa0b34c: bl              #0x9310b8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::dateKeyVariants
     // 0xa0b350: mov             x1, x0
     // 0xa0b354: ldur            x2, [fp, #-0x10]
     // 0xa0b358: r0 = contains()
@@ -2287,7 +2287,7 @@ class ActivityGoalManager extends ChangeNotifier {
     // 0xa0b3d0: mov             x2, x6
     // 0xa0b3d4: stur            x6, [fp, #-0x38]
     // 0xa0b3d8: r0 = documentId()
-    //     0xa0b3d8: bl              #0x931558  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::documentId
+    //     0xa0b3d8: bl              #0x931558  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::documentId
     // 0xa0b3dc: mov             x1, x0
     // 0xa0b3e0: ldur            x0, [fp, #-8]
     // 0xa0b3e4: stur            x1, [fp, #-0x48]
@@ -2423,7 +2423,7 @@ class ActivityGoalManager extends ChangeNotifier {
     //     0xc2b40c: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0xc2b410: mov             x2, x3
     // 0xc2b414: r1 = Function '_onUserManagerChanged@700288151':.
-    //     0xc2b414: add             x1, PP, #0x12, lsl #12  ; [pp+0x121c8] AnonymousClosure: (0x9baa84), in [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_onUserManagerChanged (0x9baabc)
+    //     0xc2b414: add             x1, PP, #0x12, lsl #12  ; [pp+0x121c8] AnonymousClosure: (0x9baa84), in [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_onUserManagerChanged (0x9baabc)
     //     0xc2b418: ldr             x1, [x1, #0x1c8]
     // 0xc2b41c: r0 = AllocateClosure()
     //     0xc2b41c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2433,7 +2433,7 @@ class ActivityGoalManager extends ChangeNotifier {
     //     0xc2b428: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0xc2b42c: ldur            x1, [fp, #-8]
     // 0xc2b430: r0 = _onUserManagerChanged()
-    //     0xc2b430: bl              #0x9baabc  ; [package:ballai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_onUserManagerChanged
+    //     0xc2b430: bl              #0x9baabc  ; [package:kourtai/automatic/app/dependencies/managers/core/activity_goal_manager.dart] ActivityGoalManager::_onUserManagerChanged
     // 0xc2b434: r0 = Null
     //     0xc2b434: mov             x0, NULL
     // 0xc2b438: LeaveFrame

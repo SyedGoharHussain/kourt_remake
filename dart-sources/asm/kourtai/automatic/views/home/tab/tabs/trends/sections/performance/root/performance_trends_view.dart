@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/performance/root/performance_trends_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/performance/root/performance_trends_view.dart
 
 // class id: 1048970, size: 0x8
 class :: {
@@ -38,7 +38,7 @@ class PerformanceTrendsView extends StatelessWidget {
     //     0xc04808: add             x1, PP, #0x44, lsl #12  ; [pp+0x444c8] "Performance"
     //     0xc0480c: ldr             x1, [x1, #0x4c8]
     // 0xc04810: r0 = L()
-    //     0xc04810: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc04810: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc04814: mov             x1, x0
     // 0xc04818: ldur            x0, [fp, #-8]
     // 0xc0481c: stur            x1, [fp, #-0x28]
@@ -62,8 +62,8 @@ class PerformanceTrendsView extends StatelessWidget {
     // 0xc0484c: ldur            x2, [fp, #-0x10]
     // 0xc04850: StoreField: r1->field_f = r2
     //     0xc04850: stur            w2, [x1, #0xf]
-    // 0xc04854: r0 = BallAiAnalyticsCard()
-    //     0xc04854: bl              #0xa63928  ; AllocateBallAiAnalyticsCardStub -> BallAiAnalyticsCard (size=0x20)
+    // 0xc04854: r0 = KourtAiAnalyticsCard()
+    //     0xc04854: bl              #0xa63928  ; AllocateKourtAiAnalyticsCardStub -> KourtAiAnalyticsCard (size=0x20)
     // 0xc04858: mov             x3, x0
     // 0xc0485c: ldur            x0, [fp, #-0x28]
     // 0xc04860: stur            x3, [fp, #-0x30]
@@ -74,7 +74,7 @@ class PerformanceTrendsView extends StatelessWidget {
     //     0xc0486c: stur            w0, [x3, #0xf]
     // 0xc04870: ldur            x2, [fp, #-0x18]
     // 0xc04874: r1 = Function '<anonymous closure>':.
-    //     0xc04874: add             x1, PP, #0x49, lsl #12  ; [pp+0x49230] AnonymousClosure: (0xc04c58), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/performance/root/performance_trends_view.dart] PerformanceTrendsView::build (0xc047c8)
+    //     0xc04874: add             x1, PP, #0x49, lsl #12  ; [pp+0x49230] AnonymousClosure: (0xc04c58), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/performance/root/performance_trends_view.dart] PerformanceTrendsView::build (0xc047c8)
     //     0xc04878: ldr             x1, [x1, #0x230]
     // 0xc0487c: r0 = AllocateClosure()
     //     0xc0487c: bl              #0xe553e0  ; AllocateClosureStub
@@ -100,7 +100,7 @@ class PerformanceTrendsView extends StatelessWidget {
     //     0xc048b0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49238] "Make Percentage"
     //     0xc048b4: ldr             x1, [x1, #0x238]
     // 0xc048b8: r0 = L()
-    //     0xc048b8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc048b8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc048bc: stur            x0, [fp, #-0x28]
     // 0xc048c0: r0 = PerformancePercentageSummaryView()
     //     0xc048c0: bl              #0xc04a68  ; AllocatePerformancePercentageSummaryViewStub -> PerformancePercentageSummaryView (size=0x10)
@@ -109,8 +109,8 @@ class PerformanceTrendsView extends StatelessWidget {
     // 0xc048cc: stur            x1, [fp, #-0x38]
     // 0xc048d0: StoreField: r1->field_b = r0
     //     0xc048d0: stur            w0, [x1, #0xb]
-    // 0xc048d4: r0 = BallAiAnalyticsCard()
-    //     0xc048d4: bl              #0xa63928  ; AllocateBallAiAnalyticsCardStub -> BallAiAnalyticsCard (size=0x20)
+    // 0xc048d4: r0 = KourtAiAnalyticsCard()
+    //     0xc048d4: bl              #0xa63928  ; AllocateKourtAiAnalyticsCardStub -> KourtAiAnalyticsCard (size=0x20)
     // 0xc048d8: mov             x3, x0
     // 0xc048dc: ldur            x0, [fp, #-0x28]
     // 0xc048e0: stur            x3, [fp, #-0x20]
@@ -121,7 +121,7 @@ class PerformanceTrendsView extends StatelessWidget {
     //     0xc048ec: stur            w0, [x3, #0xf]
     // 0xc048f0: ldur            x2, [fp, #-0x18]
     // 0xc048f4: r1 = Function '<anonymous closure>':.
-    //     0xc048f4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49240] AnonymousClosure: (0xc04b6c), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/performance/root/performance_trends_view.dart] PerformanceTrendsView::build (0xc047c8)
+    //     0xc048f4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49240] AnonymousClosure: (0xc04b6c), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/performance/root/performance_trends_view.dart] PerformanceTrendsView::build (0xc047c8)
     //     0xc048f8: ldr             x1, [x1, #0x240]
     // 0xc048fc: r0 = AllocateClosure()
     //     0xc048fc: bl              #0xe553e0  ; AllocateClosureStub
@@ -147,7 +147,7 @@ class PerformanceTrendsView extends StatelessWidget {
     //     0xc04930: add             x1, PP, #0x49, lsl #12  ; [pp+0x49248] "Streaks"
     //     0xc04934: ldr             x1, [x1, #0x248]
     // 0xc04938: r0 = L()
-    //     0xc04938: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc04938: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0493c: stur            x0, [fp, #-0x38]
     // 0xc04940: r0 = PerformanceStreaksSummaryView()
     //     0xc04940: bl              #0xc04a5c  ; AllocatePerformanceStreaksSummaryViewStub -> PerformanceStreaksSummaryView (size=0x10)
@@ -156,8 +156,8 @@ class PerformanceTrendsView extends StatelessWidget {
     // 0xc0494c: stur            x1, [fp, #-0x40]
     // 0xc04950: StoreField: r1->field_b = r0
     //     0xc04950: stur            w0, [x1, #0xb]
-    // 0xc04954: r0 = BallAiAnalyticsCard()
-    //     0xc04954: bl              #0xa63928  ; AllocateBallAiAnalyticsCardStub -> BallAiAnalyticsCard (size=0x20)
+    // 0xc04954: r0 = KourtAiAnalyticsCard()
+    //     0xc04954: bl              #0xa63928  ; AllocateKourtAiAnalyticsCardStub -> KourtAiAnalyticsCard (size=0x20)
     // 0xc04958: mov             x3, x0
     // 0xc0495c: ldur            x0, [fp, #-0x38]
     // 0xc04960: stur            x3, [fp, #-0x10]
@@ -168,7 +168,7 @@ class PerformanceTrendsView extends StatelessWidget {
     //     0xc0496c: stur            w0, [x3, #0xf]
     // 0xc04970: ldur            x2, [fp, #-0x18]
     // 0xc04974: r1 = Function '<anonymous closure>':.
-    //     0xc04974: add             x1, PP, #0x49, lsl #12  ; [pp+0x49250] AnonymousClosure: (0xc04a80), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/performance/root/performance_trends_view.dart] PerformanceTrendsView::build (0xc047c8)
+    //     0xc04974: add             x1, PP, #0x49, lsl #12  ; [pp+0x49250] AnonymousClosure: (0xc04a80), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/performance/root/performance_trends_view.dart] PerformanceTrendsView::build (0xc047c8)
     //     0xc04978: ldr             x1, [x1, #0x250]
     // 0xc0497c: r0 = AllocateClosure()
     //     0xc0497c: bl              #0xe553e0  ; AllocateClosureStub
@@ -288,7 +288,7 @@ class PerformanceTrendsView extends StatelessWidget {
     //     0xc04ab4: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xc04ab8: ldur            x2, [fp, #-8]
     // 0xc04abc: r1 = Function '<anonymous closure>':.
-    //     0xc04abc: add             x1, PP, #0x49, lsl #12  ; [pp+0x49258] AnonymousClosure: (0xc04b1c), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/performance/root/performance_trends_view.dart] PerformanceTrendsView::build (0xc047c8)
+    //     0xc04abc: add             x1, PP, #0x49, lsl #12  ; [pp+0x49258] AnonymousClosure: (0xc04b1c), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/performance/root/performance_trends_view.dart] PerformanceTrendsView::build (0xc047c8)
     //     0xc04ac0: ldr             x1, [x1, #0x258]
     // 0xc04ac4: stur            x0, [fp, #-8]
     // 0xc04ac8: r0 = AllocateClosure()
@@ -381,7 +381,7 @@ class PerformanceTrendsView extends StatelessWidget {
     //     0xc04ba0: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xc04ba4: ldur            x2, [fp, #-8]
     // 0xc04ba8: r1 = Function '<anonymous closure>':.
-    //     0xc04ba8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49260] AnonymousClosure: (0xc04c08), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/performance/root/performance_trends_view.dart] PerformanceTrendsView::build (0xc047c8)
+    //     0xc04ba8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49260] AnonymousClosure: (0xc04c08), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/performance/root/performance_trends_view.dart] PerformanceTrendsView::build (0xc047c8)
     //     0xc04bac: ldr             x1, [x1, #0x260]
     // 0xc04bb0: stur            x0, [fp, #-8]
     // 0xc04bb4: r0 = AllocateClosure()
@@ -474,7 +474,7 @@ class PerformanceTrendsView extends StatelessWidget {
     //     0xc04c8c: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xc04c90: ldur            x2, [fp, #-8]
     // 0xc04c94: r1 = Function '<anonymous closure>':.
-    //     0xc04c94: add             x1, PP, #0x49, lsl #12  ; [pp+0x49268] AnonymousClosure: (0xc04cf4), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/performance/root/performance_trends_view.dart] PerformanceTrendsView::build (0xc047c8)
+    //     0xc04c94: add             x1, PP, #0x49, lsl #12  ; [pp+0x49268] AnonymousClosure: (0xc04cf4), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/performance/root/performance_trends_view.dart] PerformanceTrendsView::build (0xc047c8)
     //     0xc04c98: ldr             x1, [x1, #0x268]
     // 0xc04c9c: stur            x0, [fp, #-8]
     // 0xc04ca0: r0 = AllocateClosure()

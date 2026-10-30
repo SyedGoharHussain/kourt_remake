@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_option_row.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/account_setup_option_row.dart
 
 // class id: 1048836, size: 0x8
 class :: {
@@ -229,8 +229,8 @@ class AccountSetupOptionRow extends StatelessWidget {
     // 0xbc7ef8: StoreField: r2->field_f = r0
     //     0xbc7ef8: stur            w0, [x2, #0xf]
     // 0xbc7efc: ldur            x1, [fp, #-0x10]
-    // 0xbc7f00: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbc7f00: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbc7f00: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbc7f00: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbc7f04: mov             x1, x0
     // 0xbc7f08: ldur            x0, [fp, #-8]
     // 0xbc7f0c: stur            x1, [fp, #-0x28]
@@ -349,8 +349,8 @@ class AccountSetupOptionRow extends StatelessWidget {
     // 0xbc8038: ldur            x0, [fp, #-0x20]
     // 0xbc803c: tbnz            w0, #4, #0xbc8050
     // 0xbc8040: ldur            x1, [fp, #-0x10]
-    // 0xbc8044: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbc8044: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbc8044: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbc8044: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbc8048: mov             x2, x0
     // 0xbc804c: b               #0xbc8058
     // 0xbc8050: r2 = Instance_Color
@@ -536,8 +536,8 @@ class AccountSetupOptionRow extends StatelessWidget {
     //     0xbc8230: ldur            w1, [x4, #7]
     // 0xbc8234: cbz             w1, #0xbc8300
     // 0xbc8238: ldur            x1, [fp, #-0x10]
-    // 0xbc823c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbc823c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbc823c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbc823c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbc8240: stur            x0, [fp, #-0x58]
     // 0xbc8244: r0 = TextStyle()
     //     0xbc8244: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -727,13 +727,13 @@ class AccountSetupOptionRow extends StatelessWidget {
     // 0xbc8428: stur            x0, [fp, #-0x30]
     // 0xbc842c: tbnz            w4, #4, #0xbc8440
     // 0xbc8430: ldur            x1, [fp, #-0x10]
-    // 0xbc8434: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbc8434: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbc8434: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbc8434: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbc8438: mov             x2, x0
     // 0xbc843c: b               #0xbc8468
     // 0xbc8440: ldur            x1, [fp, #-0x10]
-    // 0xbc8444: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbc8444: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbc8444: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbc8444: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbc8448: r16 = 0.850000
     //     0xbc8448: add             x16, PP, #0x1f, lsl #12  ; [pp+0x1f4c8] 0.85
     //     0xbc844c: ldr             x16, [x16, #0x4c8]
@@ -1126,8 +1126,8 @@ class AccountSetupOptionRow extends StatelessWidget {
     //     0xbc8848: ldr             x4, [x4, #0x1e0]
     // 0xbc884c: r0 = Container()
     //     0xbc884c: bl              #0x5eeec4  ; [package:flutter/src/widgets/container.dart] Container::Container
-    // 0xbc8850: r0 = BallAiLiquidGlassCard()
-    //     0xbc8850: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xbc8850: r0 = KourtAiLiquidGlassCard()
+    //     0xbc8850: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xbc8854: mov             x1, x0
     // 0xbc8858: ldur            x0, [fp, #-0x10]
     // 0xbc885c: stur            x1, [fp, #-8]
@@ -1179,7 +1179,7 @@ class AccountSetupOptionRow extends StatelessWidget {
     //     0xbc88cc: stur            w0, [x3, #0xb]
     // 0xbc88d0: ldur            x2, [fp, #-0x18]
     // 0xbc88d4: r1 = Function '<anonymous closure>':.
-    //     0xbc88d4: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e2f0] AnonymousClosure: (0xbc5228), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _WarmupBottom::build (0xc23674)
+    //     0xbc88d4: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e2f0] AnonymousClosure: (0xbc5228), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _WarmupBottom::build (0xc23674)
     //     0xbc88d8: ldr             x1, [x1, #0x2f0]
     // 0xbc88dc: r0 = AllocateClosure()
     //     0xbc88dc: bl              #0xe553e0  ; AllocateClosureStub

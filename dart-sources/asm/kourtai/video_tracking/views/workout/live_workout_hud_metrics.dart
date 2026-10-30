@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/live_workout_hud_metrics.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/live_workout_hud_metrics.dart
 
 // class id: 1049243, size: 0x8
 class :: {
@@ -180,14 +180,14 @@ abstract class LiveWorkoutFittingText extends Object {
     // 0xad561c: mov             x2, x0
     // 0xad5620: mov             v3.16b, v4.16b
     // 0xad5624: r0 = fittedFontSize()
-    //     0xad5624: bl              #0xad58e4  ; [package:ballai/video_tracking/views/workout/live_workout_hud_metrics.dart] LiveWorkoutFittingText::fittedFontSize
+    //     0xad5624: bl              #0xad58e4  ; [package:kourtai/video_tracking/views/workout/live_workout_hud_metrics.dart] LiveWorkoutFittingText::fittedFontSize
     // 0xad5628: ldur            x1, [fp, #-8]
     // 0xad562c: ldur            x2, [fp, #-0x10]
     // 0xad5630: ldur            d1, [fp, #-0x18]
     // 0xad5634: mov             v2.16b, v0.16b
     // 0xad5638: stur            d2, [fp, #-0x18]
     // 0xad563c: r0 = measuredHeight()
-    //     0xad563c: bl              #0xad56d8  ; [package:ballai/video_tracking/views/workout/live_workout_hud_metrics.dart] LiveWorkoutFittingText::measuredHeight
+    //     0xad563c: bl              #0xad56d8  ; [package:kourtai/video_tracking/views/workout/live_workout_hud_metrics.dart] LiveWorkoutFittingText::measuredHeight
     // 0xad5640: mov             v1.16b, v0.16b
     // 0xad5644: ldur            d0, [fp, #-0x18]
     // 0xad5648: r0 = inline_Allocate_Double()
@@ -256,7 +256,7 @@ abstract class LiveWorkoutFittingText extends Object {
     //     0xad56f4: cmp             SP, x16
     //     0xad56f8: b.ls            #0xad579c
     // 0xad56fc: r0 = _layout()
-    //     0xad56fc: bl              #0xad57a4  ; [package:ballai/video_tracking/views/workout/live_workout_hud_metrics.dart] LiveWorkoutFittingText::_layout
+    //     0xad56fc: bl              #0xad57a4  ; [package:kourtai/video_tracking/views/workout/live_workout_hud_metrics.dart] LiveWorkoutFittingText::_layout
     // 0xad5700: mov             x1, x0
     // 0xad5704: stur            x0, [fp, #-8]
     // 0xad5708: r0 = preferredLineHeight()
@@ -507,7 +507,7 @@ abstract class LiveWorkoutFittingText extends Object {
     //     0xad59dc: ret             
     // 0xad59e0: mov             x2, x1
     // 0xad59e4: r1 = Function 'fits': static.
-    //     0xad59e4: add             x1, PP, #0x41, lsl #12  ; [pp+0x411b8] AnonymousClosure: static (0xad5ba8), in [package:ballai/video_tracking/views/workout/live_workout_hud_metrics.dart] LiveWorkoutFittingText::fittedFontSize (0xad58e4)
+    //     0xad59e4: add             x1, PP, #0x41, lsl #12  ; [pp+0x411b8] AnonymousClosure: static (0xad5ba8), in [package:kourtai/video_tracking/views/workout/live_workout_hud_metrics.dart] LiveWorkoutFittingText::fittedFontSize (0xad58e4)
     //     0xad59e8: ldr             x1, [x1, #0x1b8]
     // 0xad59ec: r0 = AllocateClosure()
     //     0xad59ec: bl              #0xe553e0  ; AllocateClosureStub
@@ -687,7 +687,7 @@ abstract class LiveWorkoutFittingText extends Object {
     // 0xad5bf0: LoadField: d1 = r0->field_7
     //     0xad5bf0: ldur            d1, [x0, #7]
     // 0xad5bf4: r0 = _layout()
-    //     0xad5bf4: bl              #0xad57a4  ; [package:ballai/video_tracking/views/workout/live_workout_hud_metrics.dart] LiveWorkoutFittingText::_layout
+    //     0xad5bf4: bl              #0xad57a4  ; [package:kourtai/video_tracking/views/workout/live_workout_hud_metrics.dart] LiveWorkoutFittingText::_layout
     // 0xad5bf8: mov             x1, x0
     // 0xad5bfc: stur            x0, [fp, #-0x10]
     // 0xad5c00: r0 = preferredLineHeight()

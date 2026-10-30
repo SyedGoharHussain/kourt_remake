@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/home/workouts/charts/metric_line_chart_view.dart
+// lib: , url: package:kourtai/automatic/views/components/home/workouts/charts/metric_line_chart_view.dart
 
 // class id: 1048808, size: 0x8
 class :: {
@@ -206,7 +206,7 @@ class MetricLineChartView extends StatelessWidget {
     // 0xbb9840: r0 = _GrowableList._ofGrowableList()
     //     0xbb9840: bl              #0x5c79a0  ; [dart:core] _GrowableList::_GrowableList._ofGrowableList
     // 0xbb9844: r1 = Function '<anonymous closure>':.
-    //     0xbb9844: add             x1, PP, #0x53, lsl #12  ; [pp+0x53d00] AnonymousClosure: (0x8f6a60), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
+    //     0xbb9844: add             x1, PP, #0x53, lsl #12  ; [pp+0x53d00] AnonymousClosure: (0x8f6a60), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
     //     0xbb9848: ldr             x1, [x1, #0xd00]
     // 0xbb984c: r2 = Null
     //     0xbb984c: mov             x2, NULL
@@ -219,7 +219,7 @@ class MetricLineChartView extends StatelessWidget {
     //     0xbb9860: ldr             x4, [PP, #0xde8]  ; [pp+0xde8] List(5) [0, 0x2, 0x1, 0x2, Null]
     // 0xbb9864: r0 = sort()
     //     0xbb9864: bl              #0x7ac5ec  ; [dart:collection] ListBase::sort
-    // 0xbb9868: r0 = InitLateStaticField(0xe88) // [package:ballai/automatic/views/components/home/workouts/charts/metric_line_chart_view.dart] MetricLineChartView::_viewModel
+    // 0xbb9868: r0 = InitLateStaticField(0xe88) // [package:kourtai/automatic/views/components/home/workouts/charts/metric_line_chart_view.dart] MetricLineChartView::_viewModel
     //     0xbb9868: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xbb986c: ldr             x0, [x0, #0x1d10]
     //     0xbb9870: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -238,7 +238,7 @@ class MetricLineChartView extends StatelessWidget {
     // 0xbb989c: ldur            x3, [fp, #-0x18]
     // 0xbb98a0: stur            x4, [fp, #-0x20]
     // 0xbb98a4: r0 = averageMetricData()
-    //     0xbb98a4: bl              #0xbba028  ; [package:ballai/automatic/viewmodels/components/home/workout/charts/metrics/metric_line_chart_view_model.dart] MetricLineChartViewModel::averageMetricData
+    //     0xbb98a4: bl              #0xbba028  ; [package:kourtai/automatic/viewmodels/components/home/workout/charts/metrics/metric_line_chart_view_model.dart] MetricLineChartViewModel::averageMetricData
     // 0xbb98a8: stur            x0, [fp, #-0x18]
     // 0xbb98ac: LoadField: r1 = r0->field_b
     //     0xbb98ac: ldur            w1, [x0, #0xb]
@@ -289,7 +289,7 @@ class MetricLineChartView extends StatelessWidget {
     // 0xbb9924: r0 = reduce()
     //     0xbb9924: bl              #0x716abc  ; [dart:collection] ListBase::reduce
     // 0xbb9928: r1 = Function '<anonymous closure>':.
-    //     0xbb9928: add             x1, PP, #0x53, lsl #12  ; [pp+0x53d18] AnonymousClosure: static (0x713694), in [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
+    //     0xbb9928: add             x1, PP, #0x53, lsl #12  ; [pp+0x53d18] AnonymousClosure: static (0x713694), in [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
     //     0xbb992c: ldr             x1, [x1, #0xd18]
     // 0xbb9930: r2 = Null
     //     0xbb9930: mov             x2, NULL
@@ -372,8 +372,8 @@ class MetricLineChartView extends StatelessWidget {
     //     0xbb9a0c: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0xbb9a10: ldur            x1, [fp, #-0x10]
     // 0xbb9a14: stur            x0, [fp, #-0x28]
-    // 0xbb9a18: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb9a18: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb9a18: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb9a18: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb9a1c: stur            x0, [fp, #-0x30]
     // 0xbb9a20: r0 = TextStyle()
     //     0xbb9a20: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -442,12 +442,12 @@ class MetricLineChartView extends StatelessWidget {
     // 0xbb9ad4: ldur            x3, [fp, #-0x18]
     // 0xbb9ad8: ldur            x1, [fp, #-0x10]
     // 0xbb9adc: stur            x4, [fp, #-0x28]
-    // 0xbb9ae0: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbb9ae0: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbb9ae0: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbb9ae0: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbb9ae4: ldur            x1, [fp, #-0x10]
     // 0xbb9ae8: stur            x0, [fp, #-0x48]
-    // 0xbb9aec: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb9aec: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb9aec: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb9aec: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb9af0: stur            x0, [fp, #-0x50]
     // 0xbb9af4: r0 = _MetricLineChartPainter()
     //     0xbb9af4: bl              #0xbba01c  ; Allocate_MetricLineChartPainterStub -> _MetricLineChartPainter (size=0x34)
@@ -526,21 +526,21 @@ class MetricLineChartView extends StatelessWidget {
     //     0xbb9bc0: add             x1, PP, #0x30, lsl #12  ; [pp+0x307f8] "HIGH"
     //     0xbb9bc4: ldr             x1, [x1, #0x7f8]
     // 0xbb9bc8: r0 = L()
-    //     0xbb9bc8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb9bc8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb9bcc: ldur            x1, [fp, #-8]
     // 0xbb9bd0: ldur            d0, [fp, #-0x78]
     // 0xbb9bd4: ldur            x2, [fp, #-0x20]
     // 0xbb9bd8: stur            x0, [fp, #-0x28]
     // 0xbb9bdc: r0 = _formatValue()
-    //     0xbb9bdc: bl              #0xbb9e8c  ; [package:ballai/automatic/views/components/home/workouts/charts/metric_line_chart_view.dart] MetricLineChartView::_formatValue
+    //     0xbb9bdc: bl              #0xbb9e8c  ; [package:kourtai/automatic/views/components/home/workouts/charts/metric_line_chart_view.dart] MetricLineChartView::_formatValue
     // 0xbb9be0: ldur            x1, [fp, #-0x10]
     // 0xbb9be4: stur            x0, [fp, #-0x48]
-    // 0xbb9be8: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb9be8: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb9be8: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb9be8: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb9bec: ldur            x1, [fp, #-0x10]
     // 0xbb9bf0: stur            x0, [fp, #-0x50]
-    // 0xbb9bf4: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbb9bf4: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbb9bf4: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbb9bf4: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbb9bf8: stur            x0, [fp, #-0x58]
     // 0xbb9bfc: r0 = _StatChip()
     //     0xbb9bfc: bl              #0xbb9e80  ; Allocate_StatChipStub -> _StatChip (size=0x1c)
@@ -562,15 +562,15 @@ class MetricLineChartView extends StatelessWidget {
     // 0xbb9c2c: ldur            d0, [fp, #-0x70]
     // 0xbb9c30: ldur            x2, [fp, #-0x20]
     // 0xbb9c34: r0 = _formatValue()
-    //     0xbb9c34: bl              #0xbb9e8c  ; [package:ballai/automatic/views/components/home/workouts/charts/metric_line_chart_view.dart] MetricLineChartView::_formatValue
+    //     0xbb9c34: bl              #0xbb9e8c  ; [package:kourtai/automatic/views/components/home/workouts/charts/metric_line_chart_view.dart] MetricLineChartView::_formatValue
     // 0xbb9c38: ldur            x1, [fp, #-0x10]
     // 0xbb9c3c: stur            x0, [fp, #-0x28]
-    // 0xbb9c40: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb9c40: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb9c40: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb9c40: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb9c44: ldur            x1, [fp, #-0x10]
     // 0xbb9c48: stur            x0, [fp, #-0x48]
-    // 0xbb9c4c: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbb9c4c: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbb9c4c: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbb9c4c: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbb9c50: stur            x0, [fp, #-0x50]
     // 0xbb9c54: r0 = _StatChip()
     //     0xbb9c54: bl              #0xbb9e80  ; Allocate_StatChipStub -> _StatChip (size=0x1c)
@@ -594,15 +594,15 @@ class MetricLineChartView extends StatelessWidget {
     // 0xbb9c88: ldur            d0, [fp, #-0x80]
     // 0xbb9c8c: ldur            x2, [fp, #-0x20]
     // 0xbb9c90: r0 = _formatValue()
-    //     0xbb9c90: bl              #0xbb9e8c  ; [package:ballai/automatic/views/components/home/workouts/charts/metric_line_chart_view.dart] MetricLineChartView::_formatValue
+    //     0xbb9c90: bl              #0xbb9e8c  ; [package:kourtai/automatic/views/components/home/workouts/charts/metric_line_chart_view.dart] MetricLineChartView::_formatValue
     // 0xbb9c94: ldur            x1, [fp, #-0x10]
     // 0xbb9c98: stur            x0, [fp, #-8]
-    // 0xbb9c9c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb9c9c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb9c9c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb9c9c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb9ca0: ldur            x1, [fp, #-0x10]
     // 0xbb9ca4: stur            x0, [fp, #-0x10]
-    // 0xbb9ca8: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbb9ca8: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbb9ca8: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbb9ca8: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbb9cac: stur            x0, [fp, #-0x20]
     // 0xbb9cb0: r0 = _StatChip()
     //     0xbb9cb0: bl              #0xbb9e80  ; Allocate_StatChipStub -> _StatChip (size=0x1c)
@@ -1921,7 +1921,7 @@ class _MetricLineChartPainter extends CustomPainter {
     //     0x834a90: fmov            d2, #12.00000000
     // 0x834a94: ldur            x1, [fp, #-8]
     // 0x834a98: r0 = _catmullRomPath()
-    //     0x834a98: bl              #0x835608  ; [package:ballai/automatic/views/components/home/workouts/charts/metric_line_chart_view.dart] _MetricLineChartPainter::_catmullRomPath
+    //     0x834a98: bl              #0x835608  ; [package:kourtai/automatic/views/components/home/workouts/charts/metric_line_chart_view.dart] _MetricLineChartPainter::_catmullRomPath
     // 0x834a9c: mov             x2, x0
     // 0x834aa0: r1 = Null
     //     0x834aa0: mov             x1, NULL
@@ -2212,7 +2212,7 @@ class _MetricLineChartPainter extends CustomPainter {
     // 0x834dc4: b               #0x834d20
     // 0x834dc8: ldur            x2, [fp, #-0x20]
     // 0x834dcc: r1 = Function 'yFor':.
-    //     0x834dcc: add             x1, PP, #0x55, lsl #12  ; [pp+0x556d8] AnonymousClosure: (0x835b10), in [package:ballai/automatic/views/components/home/workouts/charts/metric_line_chart_view.dart] _MetricLineChartPainter::paint (0x833fb4)
+    //     0x834dcc: add             x1, PP, #0x55, lsl #12  ; [pp+0x556d8] AnonymousClosure: (0x835b10), in [package:kourtai/automatic/views/components/home/workouts/charts/metric_line_chart_view.dart] _MetricLineChartPainter::paint (0x833fb4)
     //     0x834dd0: ldr             x1, [x1, #0x6d8]
     // 0x834dd4: r0 = AllocateClosure()
     //     0x834dd4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2221,7 +2221,7 @@ class _MetricLineChartPainter extends CustomPainter {
     // 0x834de0: ldur            x3, [fp, #-0x18]
     // 0x834de4: mov             x5, x0
     // 0x834de8: r0 = _drawYLabels()
-    //     0x834de8: bl              #0x834fbc  ; [package:ballai/automatic/views/components/home/workouts/charts/metric_line_chart_view.dart] _MetricLineChartPainter::_drawYLabels
+    //     0x834de8: bl              #0x834fbc  ; [package:kourtai/automatic/views/components/home/workouts/charts/metric_line_chart_view.dart] _MetricLineChartPainter::_drawYLabels
     // 0x834dec: r0 = Null
     //     0x834dec: mov             x0, NULL
     // 0x834df0: LeaveFrame

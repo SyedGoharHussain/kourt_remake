@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart
 
 // class id: 1048853, size: 0x8
 class :: {
@@ -459,7 +459,7 @@ class MyPlayerDetailList extends StatelessWidget {
     //     0xbd48a8: add             x2, PP, #0x1d, lsl #12  ; [pp+0x1d050] Obj!AccountSetupFocus@d3a281
     //     0xbd48ac: ldr             x2, [x2, #0x50]
     // 0xbd48b0: r0 = _focusCell()
-    //     0xbd48b0: bl              #0xbd55c0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart] MyPlayerDetailList::_focusCell
+    //     0xbd48b0: bl              #0xbd55c0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart] MyPlayerDetailList::_focusCell
     // 0xbd48b4: r1 = <FlexParentData>
     //     0xbd48b4: add             x1, PP, #0x18, lsl #12  ; [pp+0x183e0] TypeArguments: <FlexParentData>
     //     0xbd48b8: ldr             x1, [x1, #0x3e0]
@@ -485,7 +485,7 @@ class MyPlayerDetailList extends StatelessWidget {
     //     0xbd48ec: add             x2, PP, #0x1d, lsl #12  ; [pp+0x1d058] Obj!AccountSetupFocus@d3a261
     //     0xbd48f0: ldr             x2, [x2, #0x58]
     // 0xbd48f4: r0 = _focusCell()
-    //     0xbd48f4: bl              #0xbd55c0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart] MyPlayerDetailList::_focusCell
+    //     0xbd48f4: bl              #0xbd55c0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart] MyPlayerDetailList::_focusCell
     // 0xbd48f8: r1 = <FlexParentData>
     //     0xbd48f8: add             x1, PP, #0x18, lsl #12  ; [pp+0x183e0] TypeArguments: <FlexParentData>
     //     0xbd48fc: ldr             x1, [x1, #0x3e0]
@@ -600,7 +600,7 @@ class MyPlayerDetailList extends StatelessWidget {
     //     0xbd4a0c: add             x2, PP, #0x1d, lsl #12  ; [pp+0x1d060] Obj!AccountSetupFocus@d3a241
     //     0xbd4a10: ldr             x2, [x2, #0x60]
     // 0xbd4a14: r0 = _focusCell()
-    //     0xbd4a14: bl              #0xbd55c0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart] MyPlayerDetailList::_focusCell
+    //     0xbd4a14: bl              #0xbd55c0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart] MyPlayerDetailList::_focusCell
     // 0xbd4a18: r1 = <FlexParentData>
     //     0xbd4a18: add             x1, PP, #0x18, lsl #12  ; [pp+0x183e0] TypeArguments: <FlexParentData>
     //     0xbd4a1c: ldr             x1, [x1, #0x3e0]
@@ -626,7 +626,7 @@ class MyPlayerDetailList extends StatelessWidget {
     //     0xbd4a50: add             x2, PP, #0x1d, lsl #12  ; [pp+0x1d068] Obj!AccountSetupFocus@d3a221
     //     0xbd4a54: ldr             x2, [x2, #0x68]
     // 0xbd4a58: r0 = _focusCell()
-    //     0xbd4a58: bl              #0xbd55c0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart] MyPlayerDetailList::_focusCell
+    //     0xbd4a58: bl              #0xbd55c0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart] MyPlayerDetailList::_focusCell
     // 0xbd4a5c: r1 = <FlexParentData>
     //     0xbd4a5c: add             x1, PP, #0x18, lsl #12  ; [pp+0x183e0] TypeArguments: <FlexParentData>
     //     0xbd4a60: ldr             x1, [x1, #0x3e0]
@@ -738,7 +738,7 @@ class MyPlayerDetailList extends StatelessWidget {
     //     0xbd4b68: stur            w0, [x2, #0xb]
     // 0xbd4b6c: ldur            x1, [fp, #-8]
     // 0xbd4b70: r0 = _athleticismCell()
-    //     0xbd4b70: bl              #0xbd4c78  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart] MyPlayerDetailList::_athleticismCell
+    //     0xbd4b70: bl              #0xbd4c78  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart] MyPlayerDetailList::_athleticismCell
     // 0xbd4b74: r1 = Null
     //     0xbd4b74: mov             x1, NULL
     // 0xbd4b78: r2 = 14
@@ -861,7 +861,7 @@ class MyPlayerDetailList extends StatelessWidget {
     //     0xbd4c94: b.ls            #0xbd50e4
     // 0xbd4c98: mov             x1, x0
     // 0xbd4c9c: r0 = _panelFill()
-    //     0xbd4c9c: bl              #0xbd554c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart] MyPlayerDetailList::_panelFill
+    //     0xbd4c9c: bl              #0xbd554c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart] MyPlayerDetailList::_panelFill
     // 0xbd4ca0: stur            x0, [fp, #-0x10]
     // 0xbd4ca4: r0 = Radius()
     //     0xbd4ca4: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -907,7 +907,7 @@ class MyPlayerDetailList extends StatelessWidget {
     // 0xbd4d08: ldur            x1, [fp, #-8]
     // 0xbd4d0c: stur            x0, [fp, #-0x18]
     // 0xbd4d10: r0 = _panelShadow()
-    //     0xbd4d10: bl              #0xbd54d4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart] MyPlayerDetailList::_panelShadow
+    //     0xbd4d10: bl              #0xbd54d4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart] MyPlayerDetailList::_panelShadow
     // 0xbd4d14: stur            x0, [fp, #-0x28]
     // 0xbd4d18: r0 = BoxShadow()
     //     0xbd4d18: bl              #0x897514  ; AllocateBoxShadowStub -> BoxShadow (size=0x24)
@@ -981,7 +981,7 @@ class MyPlayerDetailList extends StatelessWidget {
     //     0xbd4dc4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d6e0] "Athleticism"
     //     0xbd4dc8: ldr             x1, [x1, #0x6e0]
     // 0xbd4dcc: r0 = L()
-    //     0xbd4dcc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd4dcc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd4dd0: r1 = LoadClassIdInstr(r0)
     //     0xbd4dd0: ldur            x1, [x0, #-1]
     //     0xbd4dd4: ubfx            x1, x1, #0xc, #0x14
@@ -1062,7 +1062,7 @@ class MyPlayerDetailList extends StatelessWidget {
     //     0xbd4e94: add             x1, PP, #0x1d, lsl #12  ; [pp+0x1d070] Obj!AccountSetupFocus@d3a201
     //     0xbd4e98: ldr             x1, [x1, #0x70]
     // 0xbd4e9c: r0 = attributes()
-    //     0xbd4e9c: bl              #0x8fff1c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::attributes
+    //     0xbd4e9c: bl              #0x8fff1c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::attributes
     // 0xbd4ea0: stur            x0, [fp, #-0x20]
     // 0xbd4ea4: LoadField: r1 = r0->field_b
     //     0xbd4ea4: ldur            w1, [x0, #0xb]
@@ -1088,7 +1088,7 @@ class MyPlayerDetailList extends StatelessWidget {
     // 0xbd4ee0: mov             x2, x4
     // 0xbd4ee4: stur            x5, [fp, #-0x38]
     // 0xbd4ee8: r0 = _horizontalAttributeRow()
-    //     0xbd4ee8: bl              #0xbd50f8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart] MyPlayerDetailList::_horizontalAttributeRow
+    //     0xbd4ee8: bl              #0xbd50f8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart] MyPlayerDetailList::_horizontalAttributeRow
     // 0xbd4eec: r1 = Null
     //     0xbd4eec: mov             x1, NULL
     // 0xbd4ef0: r2 = 2
@@ -1126,7 +1126,7 @@ class MyPlayerDetailList extends StatelessWidget {
     //     0xbd4f40: stur            w0, [x1, #0xf]
     // 0xbd4f44: mov             x2, x1
     // 0xbd4f48: r1 = Function '<anonymous closure>':.
-    //     0xbd4f48: add             x1, PP, #0x1d, lsl #12  ; [pp+0x1d040] AnonymousClosure: (0x8fffb4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::attributes (0x8fff1c)
+    //     0xbd4f48: add             x1, PP, #0x1d, lsl #12  ; [pp+0x1d040] AnonymousClosure: (0x8fffb4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::attributes (0x8fff1c)
     //     0xbd4f4c: ldr             x1, [x1, #0x40]
     // 0xbd4f50: r0 = AllocateClosure()
     //     0xbd4f50: bl              #0xe553e0  ; AllocateClosureStub
@@ -1307,11 +1307,11 @@ class MyPlayerDetailList extends StatelessWidget {
     //     0xbd5124: add             x2, x2, HEAP, lsl #32
     // 0xbd5128: mov             x1, x0
     // 0xbd512c: r0 = cap()
-    //     0xbd512c: bl              #0xbd5454  ; [package:ballai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerRatings::cap
+    //     0xbd512c: bl              #0xbd5454  ; [package:kourtai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerRatings::cap
     // 0xbd5130: ldur            x1, [fp, #-0x10]
     // 0xbd5134: stur            x0, [fp, #-0x18]
     // 0xbd5138: r0 = displayTitle()
-    //     0xbd5138: bl              #0x9ef9ac  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::displayTitle
+    //     0xbd5138: bl              #0x9ef9ac  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::displayTitle
     // 0xbd513c: stur            x0, [fp, #-0x20]
     // 0xbd5140: r0 = TextStyle()
     //     0xbd5140: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1729,7 +1729,7 @@ class MyPlayerDetailList extends StatelessWidget {
     //     0xbd55e4: b.ls            #0xbd5af8
     // 0xbd55e8: mov             x1, x2
     // 0xbd55ec: r0 = _panelFill()
-    //     0xbd55ec: bl              #0xbd554c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart] MyPlayerDetailList::_panelFill
+    //     0xbd55ec: bl              #0xbd554c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart] MyPlayerDetailList::_panelFill
     // 0xbd55f0: stur            x0, [fp, #-0x18]
     // 0xbd55f4: r0 = Radius()
     //     0xbd55f4: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -1804,7 +1804,7 @@ class MyPlayerDetailList extends StatelessWidget {
     // 0xbd56b8: ldur            x1, [fp, #-8]
     // 0xbd56bc: stur            x0, [fp, #-0x20]
     // 0xbd56c0: r0 = _panelShadow()
-    //     0xbd56c0: bl              #0xbd54d4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart] MyPlayerDetailList::_panelShadow
+    //     0xbd56c0: bl              #0xbd54d4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart] MyPlayerDetailList::_panelShadow
     // 0xbd56c4: stur            x0, [fp, #-0x38]
     // 0xbd56c8: r0 = BoxShadow()
     //     0xbd56c8: bl              #0x897514  ; AllocateBoxShadowStub -> BoxShadow (size=0x24)
@@ -1876,7 +1876,7 @@ class MyPlayerDetailList extends StatelessWidget {
     //     0xbd5770: stur            w0, [x2, #0x23]
     // 0xbd5774: ldur            x1, [fp, #-0x10]
     // 0xbd5778: r0 = displayTitle()
-    //     0xbd5778: bl              #0x9efc10  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::displayTitle
+    //     0xbd5778: bl              #0x9efc10  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::displayTitle
     // 0xbd577c: r1 = LoadClassIdInstr(r0)
     //     0xbd577c: ldur            x1, [x0, #-1]
     //     0xbd5780: ubfx            x1, x1, #0xc, #0x14
@@ -1960,7 +1960,7 @@ class MyPlayerDetailList extends StatelessWidget {
     // 0xbd5860: ldur            x1, [fp, #-0x10]
     // 0xbd5864: stur            x0, [fp, #-0x20]
     // 0xbd5868: r0 = attributes()
-    //     0xbd5868: bl              #0x8fff1c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::attributes
+    //     0xbd5868: bl              #0x8fff1c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocus::attributes
     // 0xbd586c: stur            x0, [fp, #-0x30]
     // 0xbd5870: LoadField: r1 = r0->field_b
     //     0xbd5870: ldur            w1, [x0, #0xb]
@@ -1986,7 +1986,7 @@ class MyPlayerDetailList extends StatelessWidget {
     // 0xbd58ac: ldur            x3, [fp, #-0x10]
     // 0xbd58b0: stur            x6, [fp, #-0x28]
     // 0xbd58b4: r0 = _verticalAttributeColumn()
-    //     0xbd58b4: bl              #0xbd5b08  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart] MyPlayerDetailList::_verticalAttributeColumn
+    //     0xbd58b4: bl              #0xbd5b08  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/my_player_attribute_chart.dart] MyPlayerDetailList::_verticalAttributeColumn
     // 0xbd58b8: r1 = <FlexParentData>
     //     0xbd58b8: add             x1, PP, #0x18, lsl #12  ; [pp+0x183e0] TypeArguments: <FlexParentData>
     //     0xbd58bc: ldr             x1, [x1, #0x3e0]
@@ -2234,7 +2234,7 @@ class MyPlayerDetailList extends StatelessWidget {
     //     0xbd5b38: add             x2, x2, HEAP, lsl #32
     // 0xbd5b3c: mov             x1, x0
     // 0xbd5b40: r0 = cap()
-    //     0xbd5b40: bl              #0xbd5454  ; [package:ballai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerRatings::cap
+    //     0xbd5b40: bl              #0xbd5454  ; [package:kourtai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerRatings::cap
     // 0xbd5b44: mov             x2, x0
     // 0xbd5b48: stur            x2, [fp, #-0x20]
     // 0xbd5b4c: r0 = BoxInt64Instr(r2)
@@ -2877,7 +2877,7 @@ class MyPlayerAttributeChart extends StatelessWidget {
     // 0xbd331c: DecompressPointer r6
     //     0xbd331c: add             x6, x6, HEAP, lsl #32
     // 0xbd3320: r0 = resolvedCaps()
-    //     0xbd3320: bl              #0xbd3a40  ; [package:ballai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerRatings::resolvedCaps
+    //     0xbd3320: bl              #0xbd3a40  ; [package:kourtai/automatic/models/core/my_player/my_player_ratings.dart] MyPlayerRatings::resolvedCaps
     // 0xbd3324: mov             x1, x0
     // 0xbd3328: ldur            x0, [fp, #-8]
     // 0xbd332c: stur            x1, [fp, #-0x20]

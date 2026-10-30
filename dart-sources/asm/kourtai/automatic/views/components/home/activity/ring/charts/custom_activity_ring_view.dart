@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/home/activity/ring/charts/custom_activity_ring_view.dart
+// lib: , url: package:kourtai/automatic/views/components/home/activity/ring/charts/custom_activity_ring_view.dart
 
 // class id: 1048802, size: 0x8
 class :: {

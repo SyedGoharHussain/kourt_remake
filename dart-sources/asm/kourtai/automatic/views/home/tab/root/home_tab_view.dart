@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/root/home_tab_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/root/home_tab_view.dart
 
 // class id: 1048869, size: 0x8
 class :: {
@@ -84,13 +84,13 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x614880: mov             x2, x1
     // 0x614884: mov             x1, x0
     // 0x614888: r0 = refreshForForegroundIfNeeded()
-    //     0x614888: bl              #0x65a15c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshForForegroundIfNeeded
+    //     0x614888: bl              #0x65a15c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshForForegroundIfNeeded
     // 0x61488c: ldur            x1, [fp, #-8]
     // 0x614890: r0 = _evaluateExpiredTrialAlert()
-    //     0x614890: bl              #0x6590e4  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_evaluateExpiredTrialAlert
+    //     0x614890: bl              #0x6590e4  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_evaluateExpiredTrialAlert
     // 0x614894: ldur            x1, [fp, #-8]
     // 0x614898: r0 = _presentTrialExitReturnOfferAlertIfEligible()
-    //     0x614898: bl              #0x6148dc  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentTrialExitReturnOfferAlertIfEligible
+    //     0x614898: bl              #0x6148dc  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentTrialExitReturnOfferAlertIfEligible
     // 0x61489c: r0 = Null
     //     0x61489c: mov             x0, NULL
     // 0x6148a0: LeaveFrame
@@ -141,7 +141,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x61492c: mov             x1, x0
     // 0x614930: stur            x0, [fp, #-0x18]
     // 0x614934: r0 = consumeTrialExitReturnOfferIfEligible()
-    //     0x614934: bl              #0x657108  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::consumeTrialExitReturnOfferIfEligible
+    //     0x614934: bl              #0x657108  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::consumeTrialExitReturnOfferIfEligible
     // 0x614938: stur            x0, [fp, #-0x20]
     // 0x61493c: r1 = 1
     //     0x61493c: mov             x1, #1
@@ -169,7 +169,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x614978: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x61497c: ldur            x1, [fp, #-0x18]
     // 0x614980: r0 = isPayingSubscriber()
-    //     0x614980: bl              #0x651314  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
+    //     0x614980: bl              #0x651314  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
     // 0x614984: tbnz            w0, #4, #0x614990
     // 0x614988: r0 = Null
     //     0x614988: mov             x0, NULL
@@ -193,7 +193,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x6149b8: bl              #0x5ff5d4  ; [package:provider/src/provider.dart] ::ReadContext.read
     // 0x6149bc: mov             x1, x0
     // 0x6149c0: r0 = discountRequestOfferFacts()
-    //     0x6149c0: bl              #0x64735c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::discountRequestOfferFacts
+    //     0x6149c0: bl              #0x64735c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::discountRequestOfferFacts
     // 0x6149c4: mov             x1, x0
     // 0x6149c8: stur            x1, [fp, #-0x18]
     // 0x6149cc: r0 = Await()
@@ -222,7 +222,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x614a10: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x614a14: mov             x2, x3
     // 0x614a18: r1 = Function '<anonymous closure>':.
-    //     0x614a18: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f70] AnonymousClosure: (0x657b74), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentTrialExitReturnOfferAlertIfEligible (0x6148dc)
+    //     0x614a18: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f70] AnonymousClosure: (0x657b74), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentTrialExitReturnOfferAlertIfEligible (0x6148dc)
     //     0x614a1c: ldr             x1, [x1, #0xf70]
     // 0x614a20: r0 = AllocateClosure()
     //     0x614a20: bl              #0xe553e0  ; AllocateClosureStub
@@ -277,7 +277,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x614aa8: r0 = of()
     //     0x614aa8: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0x614aac: r1 = Function '<anonymous closure>':.
-    //     0x614aac: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f78] AnonymousClosure: (0x657a38), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openDiscountRequestPaywall (0x657a44)
+    //     0x614aac: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f78] AnonymousClosure: (0x657a38), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openDiscountRequestPaywall (0x657a44)
     //     0x614ab0: ldr             x1, [x1, #0xf78]
     // 0x614ab4: r2 = Null
     //     0x614ab4: mov             x2, NULL
@@ -354,7 +354,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x657bbc: add             x1, PP, #0x20, lsl #12  ; [pp+0x20610] "{discount_percent}% off your first year"
     //     0x657bc0: ldr             x1, [x1, #0x610]
     // 0x657bc4: r0 = L()
-    //     0x657bc4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x657bc4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x657bc8: mov             x1, x0
     // 0x657bcc: ldur            x0, [fp, #-8]
     // 0x657bd0: LoadField: r2 = r0->field_f
@@ -382,7 +382,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x657c04: add             x1, PP, #0x14, lsl #12  ; [pp+0x14d98] "Tap to redeem this one-time offer"
     //     0x657c08: ldr             x1, [x1, #0xd98]
     // 0x657c0c: r0 = L()
-    //     0x657c0c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x657c0c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x657c10: stur            x0, [fp, #-8]
     // 0x657c14: r0 = Text()
     //     0x657c14: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -395,7 +395,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x657c28: add             x1, PP, #0x20, lsl #12  ; [pp+0x20620] "Not now"
     //     0x657c2c: ldr             x1, [x1, #0x620]
     // 0x657c30: r0 = L()
-    //     0x657c30: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x657c30: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x657c34: stur            x0, [fp, #-8]
     // 0x657c38: r0 = Text()
     //     0x657c38: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -406,7 +406,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x657c48: stur            w0, [x3, #0xb]
     // 0x657c4c: ldur            x2, [fp, #-0x10]
     // 0x657c50: r1 = Function '<anonymous closure>':.
-    //     0x657c50: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f80] AnonymousClosure: (0x658b4c), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible (0x658ea8)
+    //     0x657c50: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f80] AnonymousClosure: (0x658b4c), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible (0x658ea8)
     //     0x657c54: ldr             x1, [x1, #0xf80]
     // 0x657c58: r0 = AllocateClosure()
     //     0x657c58: bl              #0xe553e0  ; AllocateClosureStub
@@ -443,7 +443,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x657ca8: ldr             x1, [x1, #0x638]
     // 0x657cac: stur            x0, [fp, #-8]
     // 0x657cb0: r0 = L()
-    //     0x657cb0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x657cb0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x657cb4: stur            x0, [fp, #-0x28]
     // 0x657cb8: r0 = Text()
     //     0x657cb8: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -463,7 +463,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x657ce0: stur            w0, [x3, #0x3b]
     // 0x657ce4: ldur            x2, [fp, #-0x10]
     // 0x657ce8: r1 = Function '<anonymous closure>':.
-    //     0x657ce8: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f88] AnonymousClosure: (0x6587e8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentTrialExitReturnOfferAlertIfEligible (0x6148dc)
+    //     0x657ce8: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f88] AnonymousClosure: (0x6587e8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentTrialExitReturnOfferAlertIfEligible (0x6148dc)
     //     0x657cec: ldr             x1, [x1, #0xf88]
     // 0x657cf0: r0 = AllocateClosure()
     //     0x657cf0: bl              #0xe553e0  ; AllocateClosureStub
@@ -608,7 +608,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x65911c: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x659120: bl              #0x60afc8  ; InitAsyncStub
     // 0x659124: r0 = userRequiresMandatoryPaywall()
-    //     0x659124: bl              #0x659f08  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userRequiresMandatoryPaywall
+    //     0x659124: bl              #0x659f08  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userRequiresMandatoryPaywall
     // 0x659128: tbnz            w0, #4, #0x659160
     // 0x65912c: ldur            x0, [fp, #-0x10]
     // 0x659130: LoadField: r1 = r0->field_2b
@@ -618,7 +618,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x659138: tbnz            w1, #4, #0x659158
     // 0x65913c: ldur            x2, [fp, #-0x18]
     // 0x659140: r1 = Function '<anonymous closure>':.
-    //     0x659140: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f90] AnonymousClosure: (0x65a054), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
+    //     0x659140: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f90] AnonymousClosure: (0x65a054), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
     //     0x659144: ldr             x1, [x1, #0xf90]
     // 0x659148: r0 = AllocateClosure()
     //     0x659148: bl              #0xe553e0  ; AllocateClosureStub
@@ -667,12 +667,12 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x6591bc: DecompressPointer r2
     //     0x6591bc: add             x2, x2, HEAP, lsl #32
     // 0x6591c0: mov             x1, x0
-    // 0x6591c4: r0 = _hasBallAiProAccess()
-    //     0x6591c4: bl              #0x659e38  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_hasBallAiProAccess
+    // 0x6591c4: r0 = _hasKourtAiProAccess()
+    //     0x6591c4: bl              #0x659e38  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_hasKourtAiProAccess
     // 0x6591c8: tbz             w0, #4, #0x6591d8
     // 0x6591cc: ldur            x1, [fp, #-0x28]
-    // 0x6591d0: r0 = hasActiveRenewingBallAiProEntitlement()
-    //     0x6591d0: bl              #0x659d58  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveRenewingBallAiProEntitlement
+    // 0x6591d0: r0 = hasActiveRenewingKourtAiProEntitlement()
+    //     0x6591d0: bl              #0x659d58  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveRenewingKourtAiProEntitlement
     // 0x6591d4: tbnz            w0, #4, #0x65920c
     // 0x6591d8: ldur            x0, [fp, #-0x10]
     // 0x6591dc: LoadField: r1 = r0->field_2b
@@ -682,7 +682,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x6591e4: tbnz            w1, #4, #0x659204
     // 0x6591e8: ldur            x2, [fp, #-0x18]
     // 0x6591ec: r1 = Function '<anonymous closure>':.
-    //     0x6591ec: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f98] AnonymousClosure: (0x65a054), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
+    //     0x6591ec: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f98] AnonymousClosure: (0x65a054), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
     //     0x6591f0: ldr             x1, [x1, #0xf98]
     // 0x6591f4: r0 = AllocateClosure()
     //     0x6591f4: bl              #0xe553e0  ; AllocateClosureStub
@@ -696,7 +696,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x659208: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x65920c: ldur            x1, [fp, #-0x20]
     // 0x659210: r0 = isExpiredAppStoreFreeTrial()
-    //     0x659210: bl              #0x659bd8  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isExpiredAppStoreFreeTrial
+    //     0x659210: bl              #0x659bd8  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isExpiredAppStoreFreeTrial
     // 0x659214: tbnz            w0, #4, #0x659260
     // 0x659218: ldur            x0, [fp, #-0x20]
     // 0x65921c: LoadField: r1 = r0->field_27
@@ -714,15 +714,15 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x659238: add             x2, x2, HEAP, lsl #32
     // 0x65923c: mov             x1, x2
     // 0x659240: r0 = isUTrainEmail()
-    //     0x659240: bl              #0x651710  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::isUTrainEmail
+    //     0x659240: bl              #0x651710  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::isUTrainEmail
     // 0x659244: tbz             w0, #4, #0x659260
     // 0x659248: ldur            x1, [fp, #-0x20]
     // 0x65924c: r0 = isOnPayingTeam()
-    //     0x65924c: bl              #0x651798  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isOnPayingTeam
+    //     0x65924c: bl              #0x651798  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isOnPayingTeam
     // 0x659250: tbz             w0, #4, #0x659260
     // 0x659254: ldur            x1, [fp, #-0x20]
     // 0x659258: r0 = isPaywallExemptUser()
-    //     0x659258: bl              #0x651a14  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPaywallExemptUser
+    //     0x659258: bl              #0x651a14  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPaywallExemptUser
     // 0x65925c: tbnz            w0, #4, #0x659268
     // 0x659260: r0 = Null
     //     0x659260: mov             x0, NULL
@@ -752,7 +752,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x6592a0: ldur            x1, [fp, #-0x28]
     // 0x6592a4: mov             x2, x0
     // 0x6592a8: r0 = hasShownExpiredTrialAlertLocally()
-    //     0x6592a8: bl              #0x659abc  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasShownExpiredTrialAlertLocally
+    //     0x6592a8: bl              #0x659abc  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasShownExpiredTrialAlertLocally
     // 0x6592ac: mov             x1, x0
     // 0x6592b0: stur            x1, [fp, #-0x30]
     // 0x6592b4: r0 = Await()
@@ -778,7 +778,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x6592e4: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x6592e8: ldur            x2, [fp, #-0x18]
     // 0x6592ec: r1 = Function '<anonymous closure>':.
-    //     0x6592ec: add             x1, PP, #0x20, lsl #12  ; [pp+0x20fa0] AnonymousClosure: (0x65a034), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_evaluateExpiredTrialAlert (0x6590e4)
+    //     0x6592ec: add             x1, PP, #0x20, lsl #12  ; [pp+0x20fa0] AnonymousClosure: (0x65a034), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_evaluateExpiredTrialAlert (0x6590e4)
     //     0x6592f0: ldr             x1, [x1, #0xfa0]
     // 0x6592f4: r0 = AllocateClosure()
     //     0x6592f4: bl              #0xe553e0  ; AllocateClosureStub
@@ -789,14 +789,14 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x659304: ldur            x1, [fp, #-0x28]
     // 0x659308: ldur            x2, [fp, #-0x20]
     // 0x65930c: r0 = markExpiredTrialAlertShown()
-    //     0x65930c: bl              #0x65975c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::markExpiredTrialAlertShown
+    //     0x65930c: bl              #0x65975c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::markExpiredTrialAlertShown
     // 0x659310: mov             x1, x0
     // 0x659314: stur            x1, [fp, #-0x20]
     // 0x659318: r0 = Await()
     //     0x659318: bl              #0x60ad4c  ; AwaitStub
     // 0x65931c: ldur            x1, [fp, #-0x10]
     // 0x659320: r0 = _maybePresentInitialRecordFlow()
-    //     0x659320: bl              #0x659370  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_maybePresentInitialRecordFlow
+    //     0x659320: bl              #0x659370  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_maybePresentInitialRecordFlow
     // 0x659324: r0 = Null
     //     0x659324: mov             x0, NULL
     // 0x659328: r0 = ReturnAsyncNotFuture()
@@ -843,7 +843,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x6593b8: ret             
     // 0x6593bc: mov             x1, x0
     // 0x6593c0: r0 = _shouldBlockRecordAutoOpen()
-    //     0x6593c0: bl              #0x65966c  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_shouldBlockRecordAutoOpen
+    //     0x6593c0: bl              #0x65966c  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_shouldBlockRecordAutoOpen
     // 0x6593c4: tbnz            w0, #4, #0x6593d8
     // 0x6593c8: r0 = Null
     //     0x6593c8: mov             x0, NULL
@@ -858,7 +858,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x6593e0: StoreField: r1->field_37 = r0
     //     0x6593e0: stur            w0, [x1, #0x37]
     // 0x6593e4: r0 = _presentRecordFlow()
-    //     0x6593e4: bl              #0x659400  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow
+    //     0x6593e4: bl              #0x659400  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow
     // 0x6593e8: r0 = Null
     //     0x6593e8: mov             x0, NULL
     // 0x6593ec: LeaveFrame
@@ -912,7 +912,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x65945c: ret             
     // 0x659460: mov             x2, x3
     // 0x659464: r1 = Function '<anonymous closure>':.
-    //     0x659464: add             x1, PP, #0x20, lsl #12  ; [pp+0x20dc8] AnonymousClosure: (0x65964c), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
+    //     0x659464: add             x1, PP, #0x20, lsl #12  ; [pp+0x20dc8] AnonymousClosure: (0x65964c), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
     //     0x659468: ldr             x1, [x1, #0xdc8]
     // 0x65946c: r0 = AllocateClosure()
     //     0x65946c: bl              #0xe553e0  ; AllocateClosureStub
@@ -936,7 +936,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x6594a0: r0 = of()
     //     0x6594a0: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0x6594a4: r1 = Function '<anonymous closure>':.
-    //     0x6594a4: add             x1, PP, #0x20, lsl #12  ; [pp+0x20dd0] AnonymousClosure: (0x659620), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
+    //     0x6594a4: add             x1, PP, #0x20, lsl #12  ; [pp+0x20dd0] AnonymousClosure: (0x659620), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
     //     0x6594a8: ldr             x1, [x1, #0xdd0]
     // 0x6594ac: r2 = Null
     //     0x6594ac: mov             x2, NULL
@@ -971,7 +971,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x6594fc: bl              #0x614b20  ; [package:flutter/src/widgets/navigator.dart] NavigatorState::push
     // 0x659500: ldur            x2, [fp, #-0x10]
     // 0x659504: r1 = Function '<anonymous closure>':.
-    //     0x659504: add             x1, PP, #0x20, lsl #12  ; [pp+0x20dd8] AnonymousClosure: (0x659580), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
+    //     0x659504: add             x1, PP, #0x20, lsl #12  ; [pp+0x20dd8] AnonymousClosure: (0x659580), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
     //     0x659508: ldr             x1, [x1, #0xdd8]
     // 0x65950c: stur            x0, [fp, #-8]
     // 0x659510: r0 = AllocateClosure()
@@ -1013,7 +1013,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x659560: cmp             SP, x16
     //     0x659564: b.ls            #0x659578
     // 0x659568: r0 = _presentRecordFlow()
-    //     0x659568: bl              #0x659400  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow
+    //     0x659568: bl              #0x659400  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow
     // 0x65956c: LeaveFrame
     //     0x65956c: mov             SP, fp
     //     0x659570: ldp             fp, lr, [SP], #0x10
@@ -1057,7 +1057,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x6595cc: ret
     //     0x6595cc: ret             
     // 0x6595d0: r1 = Function '<anonymous closure>':.
-    //     0x6595d0: add             x1, PP, #0x20, lsl #12  ; [pp+0x20de0] AnonymousClosure: (0x659600), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
+    //     0x6595d0: add             x1, PP, #0x20, lsl #12  ; [pp+0x20de0] AnonymousClosure: (0x659600), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
     //     0x6595d4: ldr             x1, [x1, #0xde0]
     // 0x6595d8: r0 = AllocateClosure()
     //     0x6595d8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1144,7 +1144,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x659698: add             x0, x0, HEAP, lsl #32
     // 0x65969c: tbz             w0, #4, #0x6596a8
     // 0x6596a0: r0 = userRequiresMandatoryPaywall()
-    //     0x6596a0: bl              #0x659f08  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userRequiresMandatoryPaywall
+    //     0x6596a0: bl              #0x659f08  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userRequiresMandatoryPaywall
     // 0x6596a4: tbnz            w0, #4, #0x6596b0
     // 0x6596a8: r0 = true
     //     0x6596a8: add             x0, NULL, #0x20  ; true
@@ -1261,7 +1261,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x65a0a4: mov             x2, x3
     // 0x65a0a8: stur            x0, [fp, #-8]
     // 0x65a0ac: r1 = Function '<anonymous closure>':.
-    //     0x65a0ac: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f18] AnonymousClosure: (0x65a054), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
+    //     0x65a0ac: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f18] AnonymousClosure: (0x65a054), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
     //     0x65a0b0: ldr             x1, [x1, #0xf18]
     // 0x65a0b4: r0 = AllocateClosure()
     //     0x65a0b4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1279,7 +1279,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x65a0d4: r0 = of()
     //     0x65a0d4: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0x65a0d8: r1 = Function '<anonymous closure>':.
-    //     0x65a0d8: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f20] AnonymousClosure: (0x65a150), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
+    //     0x65a0d8: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f20] AnonymousClosure: (0x65a150), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
     //     0x65a0dc: ldr             x1, [x1, #0xf20]
     // 0x65a0e0: r2 = Null
     //     0x65a0e0: mov             x2, NULL
@@ -1314,7 +1314,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x65a130: DecompressPointer r1
     //     0x65a130: add             x1, x1, HEAP, lsl #32
     // 0x65a134: r0 = _maybePresentInitialRecordFlow()
-    //     0x65a134: bl              #0x659370  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_maybePresentInitialRecordFlow
+    //     0x65a134: bl              #0x659370  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_maybePresentInitialRecordFlow
     // 0x65a138: r0 = Null
     //     0x65a138: mov             x0, NULL
     // 0x65a13c: LeaveFrame
@@ -1388,7 +1388,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x8e5d44: stur            w0, [x2, #0xf]
     // 0x8e5d48: mov             x1, x0
     // 0x8e5d4c: r0 = _fallbackContentTab()
-    //     0x8e5d4c: bl              #0x8e5e14  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_fallbackContentTab
+    //     0x8e5d4c: bl              #0x8e5e14  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_fallbackContentTab
     // 0x8e5d50: mov             x1, x0
     // 0x8e5d54: ldur            x2, [fp, #-0x10]
     // 0x8e5d58: stur            x1, [fp, #-0x18]
@@ -1400,7 +1400,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x8e5d6c: tst             x16, HEAP, lsr #32
     //     0x8e5d70: b.eq            #0x8e5d78
     //     0x8e5d74: bl              #0xe547bc  ; WriteBarrierWrappersStub
-    // 0x8e5d78: r0 = InitLateStaticField(0xe20) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
+    // 0x8e5d78: r0 = InitLateStaticField(0xe20) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
     //     0x8e5d78: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x8e5d7c: ldr             x0, [x0, #0x1c40]
     //     0x8e5d80: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1436,7 +1436,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x8e5ddc: b.eq            #0x8e5dfc
     // 0x8e5de0: ldur            x2, [fp, #-0x10]
     // 0x8e5de4: r1 = Function '<anonymous closure>':.
-    //     0x8e5de4: add             x1, PP, #0x21, lsl #12  ; [pp+0x21280] AnonymousClosure: (0x8e5cc8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
+    //     0x8e5de4: add             x1, PP, #0x21, lsl #12  ; [pp+0x21280] AnonymousClosure: (0x8e5cc8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
     //     0x8e5de8: ldr             x1, [x1, #0x280]
     // 0x8e5dec: r0 = AllocateClosure()
     //     0x8e5dec: bl              #0xe553e0  ; AllocateClosureStub
@@ -1474,7 +1474,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x8e5e38: DecompressPointer r1
     //     0x8e5e38: add             x1, x1, HEAP, lsl #32
     // 0x8e5e3c: r0 = isContentTab()
-    //     0x8e5e3c: bl              #0x8e5e74  ; [package:ballai/automatic/app/navigation/ball_ai_primary_destination.dart] BallAiPrimaryDestination::isContentTab
+    //     0x8e5e3c: bl              #0x8e5e74  ; [package:kourtai/automatic/app/navigation/kourt_ai_primary_destination.dart] KourtAiPrimaryDestination::isContentTab
     // 0x8e5e40: tbnz            w0, #4, #0x8e5e58
     // 0x8e5e44: ldur            x1, [fp, #-8]
     // 0x8e5e48: LoadField: r2 = r1->field_13
@@ -1483,8 +1483,8 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x8e5e4c: add             x2, x2, HEAP, lsl #32
     // 0x8e5e50: mov             x0, x2
     // 0x8e5e54: b               #0x8e5e60
-    // 0x8e5e58: r0 = Instance_BallAiPrimaryDestination
-    //     0x8e5e58: add             x0, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!BallAiPrimaryDestination@d3baa1
+    // 0x8e5e58: r0 = Instance_KourtAiPrimaryDestination
+    //     0x8e5e58: add             x0, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!KourtAiPrimaryDestination@d3baa1
     //     0x8e5e5c: ldr             x0, [x0, #0xe30]
     // 0x8e5e60: LeaveFrame
     //     0x8e5e60: mov             SP, fp
@@ -1540,7 +1540,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x8e7748: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x8e774c: bl              #0x60afc8  ; InitAsyncStub
     // 0x8e7750: r0 = markShown()
-    //     0x8e7750: bl              #0x8e90e4  ; [package:ballai/automatic/models/client/whats_new/whats_new_content.dart] WhatsNewPolicy::markShown
+    //     0x8e7750: bl              #0x8e90e4  ; [package:kourtai/automatic/models/client/whats_new/whats_new_content.dart] WhatsNewPolicy::markShown
     // 0x8e7754: mov             x1, x0
     // 0x8e7758: stur            x1, [fp, #-0x20]
     // 0x8e775c: r0 = Await()
@@ -1558,7 +1558,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x8e7778: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x8e777c: ldur            x2, [fp, #-0x18]
     // 0x8e7780: r1 = Function '<anonymous closure>':.
-    //     0x8e7780: add             x1, PP, #0x20, lsl #12  ; [pp+0x20dc0] AnonymousClosure: (0x8e76f0), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_dismissWhatsNewSheet (0x8e7710)
+    //     0x8e7780: add             x1, PP, #0x20, lsl #12  ; [pp+0x20dc0] AnonymousClosure: (0x8e76f0), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_dismissWhatsNewSheet (0x8e7710)
     //     0x8e7784: ldr             x1, [x1, #0xdc0]
     // 0x8e7788: r0 = AllocateClosure()
     //     0x8e7788: bl              #0xe553e0  ; AllocateClosureStub
@@ -1568,7 +1568,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x8e7794: bl              #0x6005d4  ; [package:flutter/src/widgets/framework.dart] State::setState
     // 0x8e7798: ldur            x1, [fp, #-0x10]
     // 0x8e779c: r0 = _advanceLaunchOverlayQueue()
-    //     0x8e779c: bl              #0x8e77bc  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_advanceLaunchOverlayQueue
+    //     0x8e779c: bl              #0x8e77bc  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_advanceLaunchOverlayQueue
     // 0x8e77a0: mov             x1, x0
     // 0x8e77a4: stur            x1, [fp, #-0x10]
     // 0x8e77a8: r0 = Await()
@@ -1620,7 +1620,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x8e7810: stur            w1, [x0, #0x33]
     // 0x8e7814: mov             x1, x0
     // 0x8e7818: r0 = _presentSubscriptionAtRiskPlanSheetIfEligible()
-    //     0x8e7818: bl              #0x8e7900  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentSubscriptionAtRiskPlanSheetIfEligible
+    //     0x8e7818: bl              #0x8e7900  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentSubscriptionAtRiskPlanSheetIfEligible
     // 0x8e781c: mov             x1, x0
     // 0x8e7820: stur            x1, [fp, #-0x68]
     // 0x8e7824: r0 = Await()
@@ -1643,7 +1643,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x8e784c: add             x2, NULL, #0x30  ; false
     // 0x8e7850: mov             x1, x0
     // 0x8e7854: r0 = _presentProWelcomeChecklistIfEligible()
-    //     0x8e7854: bl              #0x8e78c8  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentProWelcomeChecklistIfEligible
+    //     0x8e7854: bl              #0x8e78c8  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentProWelcomeChecklistIfEligible
     // 0x8e7858: mov             x1, x0
     // 0x8e785c: stur            x1, [fp, #-0x68]
     // 0x8e7860: r0 = Await()
@@ -1666,7 +1666,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x8e7888: add             x2, NULL, #0x30  ; false
     // 0x8e788c: mov             x1, x0
     // 0x8e7890: r0 = _maybePresentInitialRecordFlow()
-    //     0x8e7890: bl              #0x659370  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_maybePresentInitialRecordFlow
+    //     0x8e7890: bl              #0x659370  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_maybePresentInitialRecordFlow
     // 0x8e7894: ldur            x2, [fp, #-0x60]
     // 0x8e7898: r3 = false
     //     0x8e7898: add             x3, NULL, #0x30  ; false
@@ -1809,18 +1809,18 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x8e79f4: mov             x0, x1
     // 0x8e79f8: mov             x1, x2
     // 0x8e79fc: stur            x0, [fp, #-0x18]
-    // 0x8e7a00: r0 = hasActiveBallAiProBillingIssue()
-    //     0x8e7a00: bl              #0x8e9064  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveBallAiProBillingIssue
+    // 0x8e7a00: r0 = hasActiveKourtAiProBillingIssue()
+    //     0x8e7a00: bl              #0x8e9064  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveKourtAiProBillingIssue
     // 0x8e7a04: ldur            x1, [fp, #-0x28]
     // 0x8e7a08: stur            x0, [fp, #-0x28]
-    // 0x8e7a0c: r0 = hasActiveCancelledRenewalBallAiPro()
-    //     0x8e7a0c: bl              #0x8e8f74  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveCancelledRenewalBallAiPro
+    // 0x8e7a0c: r0 = hasActiveCancelledRenewalKourtAiPro()
+    //     0x8e7a0c: bl              #0x8e8f74  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveCancelledRenewalKourtAiPro
     // 0x8e7a10: ldur            x1, [fp, #-0x28]
     // 0x8e7a14: mov             x2, x0
     // 0x8e7a18: ldur            x3, [fp, #-0x20]
     // 0x8e7a1c: stur            x0, [fp, #-0x30]
     // 0x8e7a20: r0 = clearIfResolved()
-    //     0x8e7a20: bl              #0x8e8e90  ; [package:ballai/automatic/utility/subscription/subscription_at_risk_plan_sheet_policy.dart] SubscriptionAtRiskPlanSheetPolicy::clearIfResolved
+    //     0x8e7a20: bl              #0x8e8e90  ; [package:kourtai/automatic/utility/subscription/subscription_at_risk_plan_sheet_policy.dart] SubscriptionAtRiskPlanSheetPolicy::clearIfResolved
     // 0x8e7a24: mov             x1, x0
     // 0x8e7a28: stur            x1, [fp, #-0x38]
     // 0x8e7a2c: r0 = Await()
@@ -1851,7 +1851,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x8e7a78: mov             x1, x0
     // 0x8e7a7c: ldur            x2, [fp, #-0x20]
     // 0x8e7a80: r0 = shouldShow()
-    //     0x8e7a80: bl              #0x8e8bec  ; [package:ballai/automatic/utility/subscription/subscription_at_risk_plan_sheet_policy.dart] SubscriptionAtRiskPlanSheetPolicy::shouldShow
+    //     0x8e7a80: bl              #0x8e8bec  ; [package:kourtai/automatic/utility/subscription/subscription_at_risk_plan_sheet_policy.dart] SubscriptionAtRiskPlanSheetPolicy::shouldShow
     // 0x8e7a84: mov             x1, x0
     // 0x8e7a88: stur            x1, [fp, #-0x28]
     // 0x8e7a8c: r0 = Await()
@@ -1881,7 +1881,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x8e7ac8: add             x4, PP, #0x20, lsl #12  ; [pp+0x20e00] List(7) [0, 0x2, 0x1, 0x1, "atRiskKind", 0x1, Null]
     //     0x8e7acc: ldr             x4, [x4, #0xe00]
     // 0x8e7ad0: r0 = present()
-    //     0x8e7ad0: bl              #0x8e7d50  ; [package:ballai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] ReviewMyPlanSheet::present
+    //     0x8e7ad0: bl              #0x8e7d50  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] ReviewMyPlanSheet::present
     // 0x8e7ad4: mov             x1, x0
     // 0x8e7ad8: stur            x1, [fp, #-0x10]
     // 0x8e7adc: r0 = Await()
@@ -1889,7 +1889,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x8e7ae0: ldur            x1, [fp, #-0x18]
     // 0x8e7ae4: ldur            x2, [fp, #-0x20]
     // 0x8e7ae8: r0 = markShown()
-    //     0x8e7ae8: bl              #0x8e7b10  ; [package:ballai/automatic/utility/subscription/subscription_at_risk_plan_sheet_policy.dart] SubscriptionAtRiskPlanSheetPolicy::markShown
+    //     0x8e7ae8: bl              #0x8e7b10  ; [package:kourtai/automatic/utility/subscription/subscription_at_risk_plan_sheet_policy.dart] SubscriptionAtRiskPlanSheetPolicy::markShown
     // 0x8e7aec: mov             x1, x0
     // 0x8e7af0: stur            x1, [fp, #-0x10]
     // 0x8e7af4: r0 = Await()
@@ -1928,7 +1928,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x94fae4: stur            x0, [fp, #-0x10]
     // 0x94fae8: StoreField: r0->field_f = r2
     //     0x94fae8: stur            w2, [x0, #0xf]
-    // 0x94faec: r0 = InitLateStaticField(0xe20) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
+    // 0x94faec: r0 = InitLateStaticField(0xe20) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
     //     0x94faec: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x94faf0: ldr             x0, [x0, #0x1c40]
     //     0x94faf4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1949,7 +1949,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x94fb24: bl              #0x60ac68  ; [package:flutter/src/foundation/change_notifier.dart] ValueNotifier::value=
     // 0x94fb28: ldur            x2, [fp, #-8]
     // 0x94fb2c: r1 = Function '_onHomeTabSelectionChanged@983119976':.
-    //     0x94fb2c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20fd0] AnonymousClosure: (0x954b80), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onHomeTabSelectionChanged (0x954bb8)
+    //     0x94fb2c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20fd0] AnonymousClosure: (0x954b80), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onHomeTabSelectionChanged (0x954bb8)
     //     0x94fb30: ldr             x1, [x1, #0xfd0]
     // 0x94fb34: r0 = AllocateClosure()
     //     0x94fb34: bl              #0xe553e0  ; AllocateClosureStub
@@ -1957,7 +1957,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x94fb3c: mov             x2, x0
     // 0x94fb40: r0 = addListener()
     //     0x94fb40: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
-    // 0x94fb44: r0 = InitLateStaticField(0xe34) // [package:ballai/automatic/utility/ui/whats_new_presentation.dart] WhatsNewPresentation::requestToken
+    // 0x94fb44: r0 = InitLateStaticField(0xe34) // [package:kourtai/automatic/utility/ui/whats_new_presentation.dart] WhatsNewPresentation::requestToken
     //     0x94fb44: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x94fb48: ldr             x0, [x0, #0x1c68]
     //     0x94fb4c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1968,7 +1968,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x94fb60: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x94fb64: ldur            x2, [fp, #-8]
     // 0x94fb68: r1 = Function '_onWhatsNewRequested@983119976':.
-    //     0x94fb68: add             x1, PP, #0x20, lsl #12  ; [pp+0x20fc8] AnonymousClosure: (0x954aa4), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onWhatsNewRequested (0x954adc)
+    //     0x94fb68: add             x1, PP, #0x20, lsl #12  ; [pp+0x20fc8] AnonymousClosure: (0x954aa4), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onWhatsNewRequested (0x954adc)
     //     0x94fb6c: ldr             x1, [x1, #0xfc8]
     // 0x94fb70: stur            x0, [fp, #-0x18]
     // 0x94fb74: r0 = AllocateClosure()
@@ -2066,7 +2066,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x94fc70: ldur            x2, [fp, #-0x10]
     // 0x94fc74: stur            x0, [fp, #-8]
     // 0x94fc78: r1 = Function '<anonymous closure>':.
-    //     0x94fc78: add             x1, PP, #0x21, lsl #12  ; [pp+0x212e0] AnonymousClosure: (0x94fd50), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::initState (0x94fab8)
+    //     0x94fc78: add             x1, PP, #0x21, lsl #12  ; [pp+0x212e0] AnonymousClosure: (0x94fd50), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::initState (0x94fab8)
     //     0x94fc7c: ldr             x1, [x1, #0x2e0]
     // 0x94fc80: r0 = AllocateClosure()
     //     0x94fc80: bl              #0xe553e0  ; AllocateClosureStub
@@ -2162,14 +2162,14 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x94fd70: cmp             SP, x16
     //     0x94fd74: b.ls            #0x94fd9c
     // 0x94fd78: r0 = pauseAll()
-    //     0x94fd78: bl              #0x954958  ; [package:ballai/automatic/views/components/splash_brand_looping_video_view.dart] BrandVideoCache::pauseAll
+    //     0x94fd78: bl              #0x954958  ; [package:kourtai/automatic/views/components/splash_brand_looping_video_view.dart] BrandVideoCache::pauseAll
     // 0x94fd7c: ldur            x0, [fp, #-8]
     // 0x94fd80: LoadField: r1 = r0->field_f
     //     0x94fd80: ldur            w1, [x0, #0xf]
     // 0x94fd84: DecompressPointer r1
     //     0x94fd84: add             x1, x1, HEAP, lsl #32
     // 0x94fd88: r0 = _bootstrapHomeShell()
-    //     0x94fd88: bl              #0x94fda4  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_bootstrapHomeShell
+    //     0x94fd88: bl              #0x94fda4  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_bootstrapHomeShell
     // 0x94fd8c: r0 = Null
     //     0x94fd8c: mov             x0, NULL
     // 0x94fd90: LeaveFrame
@@ -2209,7 +2209,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x94fde0: bl              #0x60afc8  ; InitAsyncStub
     // 0x94fde4: ldur            x1, [fp, #-0x10]
     // 0x94fde8: r0 = _advanceLaunchOverlayQueue()
-    //     0x94fde8: bl              #0x8e77bc  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_advanceLaunchOverlayQueue
+    //     0x94fde8: bl              #0x8e77bc  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_advanceLaunchOverlayQueue
     // 0x94fdec: mov             x1, x0
     // 0x94fdf0: stur            x1, [fp, #-0x20]
     // 0x94fdf4: r0 = Await()
@@ -2227,7 +2227,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x94fe10: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x94fe14: mov             x1, x0
     // 0x94fe18: r0 = _evaluateExpiredTrialAlert()
-    //     0x94fe18: bl              #0x6590e4  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_evaluateExpiredTrialAlert
+    //     0x94fe18: bl              #0x6590e4  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_evaluateExpiredTrialAlert
     // 0x94fe1c: ldur            x1, [fp, #-0x10]
     // 0x94fe20: LoadField: r0 = r1->field_f
     //     0x94fe20: ldur            w0, [x1, #0xf]
@@ -2261,7 +2261,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x94fe6c: bl              #0x5ff5d4  ; [package:provider/src/provider.dart] ::ReadContext.read
     // 0x94fe70: ldur            x2, [fp, #-0x18]
     // 0x94fe74: r1 = Function '<anonymous closure>':.
-    //     0x94fe74: add             x1, PP, #0x21, lsl #12  ; [pp+0x212f8] AnonymousClosure: (0x954870), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_bootstrapHomeShell (0x94fda4)
+    //     0x94fe74: add             x1, PP, #0x21, lsl #12  ; [pp+0x212f8] AnonymousClosure: (0x954870), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_bootstrapHomeShell (0x94fda4)
     //     0x94fe78: ldr             x1, [x1, #0x2f8]
     // 0x94fe7c: stur            x0, [fp, #-0x28]
     // 0x94fe80: r0 = AllocateClosure()
@@ -2293,10 +2293,10 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x94fecc: ldur            x1, [fp, #-0x20]
     // 0x94fed0: mov             x2, x0
     // 0x94fed4: r0 = ensureStarted()
-    //     0x94fed4: bl              #0x950230  ; [package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart] BallAiFirebaseMessaging::ensureStarted
+    //     0x94fed4: bl              #0x950230  ; [package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart] KourtAiFirebaseMessaging::ensureStarted
     // 0x94fed8: ldur            x1, [fp, #-0x20]
     // 0x94fedc: r0 = requestNotificationPermissionIfNeeded()
-    //     0x94fedc: bl              #0x6600ec  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::requestNotificationPermissionIfNeeded
+    //     0x94fedc: bl              #0x6600ec  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::requestNotificationPermissionIfNeeded
     // 0x94fee0: ldur            x5, [fp, #-0x20]
     // 0x94fee4: LoadField: r0 = r5->field_27
     //     0x94fee4: ldur            w0, [x5, #0x27]
@@ -2333,7 +2333,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x94ff3c: mov             x1, x0
     // 0x94ff40: ldur            x2, [fp, #-0x30]
     // 0x94ff44: r0 = startCurrentUserMembershipListener()
-    //     0x94ff44: bl              #0x938904  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::startCurrentUserMembershipListener
+    //     0x94ff44: bl              #0x938904  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::startCurrentUserMembershipListener
     // 0x94ff48: ldur            x5, [fp, #-0x20]
     // 0x94ff4c: LoadField: r3 = r5->field_27
     //     0x94ff4c: ldur            w3, [x5, #0x27]
@@ -2352,7 +2352,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x94ff70: ldur            x0, [fp, #-0x10]
     // 0x94ff74: ldur            x1, [fp, #-0x28]
     // 0x94ff78: r0 = refreshForForegroundIfNeeded()
-    //     0x94ff78: bl              #0x65a15c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshForForegroundIfNeeded
+    //     0x94ff78: bl              #0x65a15c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshForForegroundIfNeeded
     // 0x94ff7c: ldur            x1, [fp, #-0x10]
     // 0x94ff80: LoadField: r0 = r1->field_b
     //     0x94ff80: ldur            w0, [x1, #0xb]
@@ -2394,7 +2394,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x94ffe4: ldur            x2, [fp, #-0x18]
     // 0x94ffe8: stur            x0, [fp, #-0x20]
     // 0x94ffec: r1 = Function '<anonymous closure>':.
-    //     0x94ffec: add             x1, PP, #0x21, lsl #12  ; [pp+0x21300] AnonymousClosure: (0x9547b8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_bootstrapHomeShell (0x94fda4)
+    //     0x94ffec: add             x1, PP, #0x21, lsl #12  ; [pp+0x21300] AnonymousClosure: (0x9547b8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_bootstrapHomeShell (0x94fda4)
     //     0x94fff0: ldr             x1, [x1, #0x300]
     // 0x94fff4: r0 = AllocateClosure()
     //     0x94fff4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2461,7 +2461,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x9500a4: ldur            x0, [fp, #-0x10]
     // 0x9500a8: mov             x1, x0
     // 0x9500ac: r0 = _maybePresentInitialRecordFlow()
-    //     0x9500ac: bl              #0x659370  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_maybePresentInitialRecordFlow
+    //     0x9500ac: bl              #0x659370  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_maybePresentInitialRecordFlow
     // 0x9500b0: ldur            x2, [fp, #-0x10]
     // 0x9500b4: LoadField: r0 = r2->field_f
     //     0x9500b4: ldur            w0, [x2, #0xf]
@@ -2489,7 +2489,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x9500f8: b.eq            #0x950100
     //     0x9500fc: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x950100: r1 = Function '_onDeepLinkChanged@983119976':.
-    //     0x950100: add             x1, PP, #0x20, lsl #12  ; [pp+0x20fd8] AnonymousClosure: (0x9548b8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onDeepLinkChanged (0x9548f0)
+    //     0x950100: add             x1, PP, #0x20, lsl #12  ; [pp+0x20fd8] AnonymousClosure: (0x9548b8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onDeepLinkChanged (0x9548f0)
     //     0x950104: ldr             x1, [x1, #0xfd8]
     // 0x950108: r0 = AllocateClosure()
     //     0x950108: bl              #0xe553e0  ; AllocateClosureStub
@@ -2514,7 +2514,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x95013c: ldur            x2, [fp, #-0x18]
     // 0x950140: stur            x0, [fp, #-0x10]
     // 0x950144: r1 = Function '<anonymous closure>':.
-    //     0x950144: add             x1, PP, #0x21, lsl #12  ; [pp+0x21318] AnonymousClosure: (0x95197c), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_bootstrapHomeShell (0x94fda4)
+    //     0x950144: add             x1, PP, #0x21, lsl #12  ; [pp+0x21318] AnonymousClosure: (0x95197c), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_bootstrapHomeShell (0x94fda4)
     //     0x950148: ldr             x1, [x1, #0x318]
     // 0x95014c: r0 = AllocateClosure()
     //     0x95014c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2625,14 +2625,14 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x9519a8: DecompressPointer r1
     //     0x9519a8: add             x1, x1, HEAP, lsl #32
     // 0x9519ac: r0 = _presentDeepLinkIfNeeded()
-    //     0x9519ac: bl              #0x9525ac  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentDeepLinkIfNeeded
+    //     0x9519ac: bl              #0x9525ac  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentDeepLinkIfNeeded
     // 0x9519b0: ldur            x0, [fp, #-8]
     // 0x9519b4: LoadField: r1 = r0->field_f
     //     0x9519b4: ldur            w1, [x0, #0xf]
     // 0x9519b8: DecompressPointer r1
     //     0x9519b8: add             x1, x1, HEAP, lsl #32
     // 0x9519bc: r0 = _presentNotificationFunnelDestinationIfNeeded()
-    //     0x9519bc: bl              #0x9519d8  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentNotificationFunnelDestinationIfNeeded
+    //     0x9519bc: bl              #0x9519d8  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentNotificationFunnelDestinationIfNeeded
     // 0x9519c0: r0 = Null
     //     0x9519c0: mov             x0, NULL
     // 0x9519c4: LeaveFrame
@@ -2747,7 +2747,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x951adc: add             x2, PP, #0x13, lsl #12  ; [pp+0x135c8] "start_workout"
     //     0x951ae0: ldr             x2, [x2, #0x5c8]
     // 0x951ae4: r0 = consumeNotificationFunnelDestination()
-    //     0x951ae4: bl              #0x940108  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
+    //     0x951ae4: bl              #0x940108  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
     // 0x951ae8: tbz             w0, #4, #0x951af4
     // 0x951aec: r0 = Null
     //     0x951aec: mov             x0, NULL
@@ -2759,7 +2759,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x951afc: StoreField: r1->field_37 = r0
     //     0x951afc: stur            w0, [x1, #0x37]
     // 0x951b00: r0 = _presentRecordFlow()
-    //     0x951b00: bl              #0x659400  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow
+    //     0x951b00: bl              #0x659400  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow
     // 0x951b04: b               #0x951ec4
     // 0x951b08: ldur            x1, [fp, #-0x10]
     // 0x951b0c: r16 = "pro_subscription"
@@ -2775,7 +2775,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x951b28: add             x2, PP, #0x13, lsl #12  ; [pp+0x135e8] "pro_subscription"
     //     0x951b2c: ldr             x2, [x2, #0x5e8]
     // 0x951b30: r0 = consumeNotificationFunnelDestination()
-    //     0x951b30: bl              #0x940108  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
+    //     0x951b30: bl              #0x940108  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
     // 0x951b34: tbz             w0, #4, #0x951b40
     // 0x951b38: r0 = Null
     //     0x951b38: mov             x0, NULL
@@ -2784,7 +2784,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x951b40: ldur            x1, [fp, #-0x10]
     // 0x951b44: ldur            x2, [fp, #-0x28]
     // 0x951b48: r0 = _shouldOpenFreeUserProSubscriptionFunnel()
-    //     0x951b48: bl              #0x952464  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_shouldOpenFreeUserProSubscriptionFunnel
+    //     0x951b48: bl              #0x952464  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_shouldOpenFreeUserProSubscriptionFunnel
     // 0x951b4c: tbz             w0, #4, #0x951b58
     // 0x951b50: r0 = Null
     //     0x951b50: mov             x0, NULL
@@ -2806,7 +2806,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x951b7c: r0 = of()
     //     0x951b7c: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0x951b80: r1 = Function '<anonymous closure>':.
-    //     0x951b80: add             x1, PP, #0x20, lsl #12  ; [pp+0x20fe0] AnonymousClosure: (0x9525a0), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentNotificationFunnelDestinationIfNeeded (0x9519d8)
+    //     0x951b80: add             x1, PP, #0x20, lsl #12  ; [pp+0x20fe0] AnonymousClosure: (0x9525a0), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentNotificationFunnelDestinationIfNeeded (0x9519d8)
     //     0x951b84: ldr             x1, [x1, #0xfe0]
     // 0x951b88: r2 = Null
     //     0x951b88: mov             x2, NULL
@@ -2854,7 +2854,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x951c00: add             x2, PP, #0x14, lsl #12  ; [pp+0x14c68] "cancel_winback"
     //     0x951c04: ldr             x2, [x2, #0xc68]
     // 0x951c08: r0 = consumeNotificationFunnelDestination()
-    //     0x951c08: bl              #0x940108  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
+    //     0x951c08: bl              #0x940108  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
     // 0x951c0c: tbz             w0, #4, #0x951c18
     // 0x951c10: r0 = Null
     //     0x951c10: mov             x0, NULL
@@ -2877,7 +2877,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x951c3c: bl              #0x5ff5d4  ; [package:provider/src/provider.dart] ::ReadContext.read
     // 0x951c40: mov             x1, x0
     // 0x951c44: r0 = resolveCancelWinbackOffering()
-    //     0x951c44: bl              #0x903110  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::resolveCancelWinbackOffering
+    //     0x951c44: bl              #0x903110  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::resolveCancelWinbackOffering
     // 0x951c48: stur            x0, [fp, #-0x28]
     // 0x951c4c: r1 = 1
     //     0x951c4c: mov             x1, #1
@@ -2923,7 +2923,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x951cc4: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0x951cc8: ldur            x2, [fp, #-0x30]
     // 0x951ccc: r1 = Function '<anonymous closure>':.
-    //     0x951ccc: add             x1, PP, #0x20, lsl #12  ; [pp+0x20fe8] AnonymousClosure: (0x952518), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentNotificationFunnelDestinationIfNeeded (0x9519d8)
+    //     0x951ccc: add             x1, PP, #0x20, lsl #12  ; [pp+0x20fe8] AnonymousClosure: (0x952518), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentNotificationFunnelDestinationIfNeeded (0x9519d8)
     //     0x951cd0: ldr             x1, [x1, #0xfe8]
     // 0x951cd4: stur            x0, [fp, #-0x28]
     // 0x951cd8: r0 = AllocateClosure()
@@ -2972,7 +2972,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x951d4c: add             x2, PP, #0x13, lsl #12  ; [pp+0x13588] "discount_request"
     //     0x951d50: ldr             x2, [x2, #0x588]
     // 0x951d54: r0 = consumeNotificationFunnelDestination()
-    //     0x951d54: bl              #0x940108  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
+    //     0x951d54: bl              #0x940108  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
     // 0x951d58: tbz             w0, #4, #0x951d64
     // 0x951d5c: r0 = Null
     //     0x951d5c: mov             x0, NULL
@@ -2994,7 +2994,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x951d88: r0 = of()
     //     0x951d88: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0x951d8c: r1 = Function '<anonymous closure>':.
-    //     0x951d8c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20ff0] AnonymousClosure: (0x657a38), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openDiscountRequestPaywall (0x657a44)
+    //     0x951d8c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20ff0] AnonymousClosure: (0x657a38), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openDiscountRequestPaywall (0x657a44)
     //     0x951d90: ldr             x1, [x1, #0xff0]
     // 0x951d94: r2 = Null
     //     0x951d94: mov             x2, NULL
@@ -3045,7 +3045,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x951e10: add             x2, PP, #0x14, lsl #12  ; [pp+0x14838] "manage_payments"
     //     0x951e14: ldr             x2, [x2, #0x838]
     // 0x951e18: r0 = consumeNotificationFunnelDestination()
-    //     0x951e18: bl              #0x940108  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
+    //     0x951e18: bl              #0x940108  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
     // 0x951e1c: tbz             w0, #4, #0x951e28
     // 0x951e20: r0 = Null
     //     0x951e20: mov             x0, NULL
@@ -3085,7 +3085,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x951e74: add             x0, x0, HEAP, lsl #32
     // 0x951e78: mov             x1, x0
     // 0x951e7c: r0 = openManageSubscriptions()
-    //     0x951e7c: bl              #0x951ee8  ; [package:ballai/automatic/app/dependencies/handlers/core/play_billing_handler.dart] PlayBillingHandler::openManageSubscriptions
+    //     0x951e7c: bl              #0x951ee8  ; [package:kourtai/automatic/app/dependencies/handlers/core/play_billing_handler.dart] PlayBillingHandler::openManageSubscriptions
     // 0x951e80: mov             x1, x0
     // 0x951e84: stur            x1, [fp, #-0x10]
     // 0x951e88: r0 = Await()
@@ -3107,7 +3107,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x951eb0: add             x2, PP, #0x13, lsl #12  ; [pp+0x13600] "open_app"
     //     0x951eb4: ldr             x2, [x2, #0x600]
     // 0x951eb8: r0 = consumeNotificationFunnelDestination()
-    //     0x951eb8: bl              #0x940108  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
+    //     0x951eb8: bl              #0x940108  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::consumeNotificationFunnelDestination
     // 0x951ebc: r0 = Null
     //     0x951ebc: mov             x0, NULL
     // 0x951ec0: r0 = ReturnAsyncNotFuture()
@@ -3174,8 +3174,8 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x9524c0: add             x1, x1, HEAP, lsl #32
     // 0x9524c4: cmp             w1, NULL
     // 0x9524c8: b.eq            #0x9524e4
-    // 0x9524cc: r0 = isBallAIOrgMember()
-    //     0x9524cc: bl              #0x651600  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::isBallAIOrgMember
+    // 0x9524cc: r0 = isKourtAIOrgMember()
+    //     0x9524cc: bl              #0x651600  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::isKourtAIOrgMember
     // 0x9524d0: tbnz            w0, #4, #0x9524e4
     // 0x9524d4: r0 = false
     //     0x9524d4: add             x0, NULL, #0x30  ; false
@@ -3186,7 +3186,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x9524e0: ret             
     // 0x9524e4: ldur            x1, [fp, #-8]
     // 0x9524e8: r0 = isOnPayingTeam()
-    //     0x9524e8: bl              #0x651798  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isOnPayingTeam
+    //     0x9524e8: bl              #0x651798  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isOnPayingTeam
     // 0x9524ec: tbnz            w0, #4, #0x952500
     // 0x9524f0: r0 = false
     //     0x9524f0: add             x0, NULL, #0x30  ; false
@@ -3393,11 +3393,11 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x9526e0: r0 = _interpolate()
     //     0x9526e0: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0x9526e4: mov             x2, x0
-    // 0x9526e8: r1 = Instance_BallAiLogCategory
-    //     0x9526e8: add             x1, PP, #0x12, lsl #12  ; [pp+0x12d08] Obj!BallAiLogCategory@d3bc21
+    // 0x9526e8: r1 = Instance_KourtAiLogCategory
+    //     0x9526e8: add             x1, PP, #0x12, lsl #12  ; [pp+0x12d08] Obj!KourtAiLogCategory@d3bc21
     //     0x9526ec: ldr             x1, [x1, #0xd08]
     // 0x9526f0: r0 = info()
-    //     0x9526f0: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
+    //     0x9526f0: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
     // 0x9526f4: r0 = Null
     //     0x9526f4: mov             x0, NULL
     // 0x9526f8: r0 = ReturnAsyncNotFuture()
@@ -3408,7 +3408,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x952704: DecompressPointer r2
     //     0x952704: add             x2, x2, HEAP, lsl #32
     // 0x952708: stur            x2, [fp, #-0x30]
-    // 0x95270c: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0x95270c: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0x95270c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x952710: ldr             x0, [x0, #0x1cf0]
     //     0x952714: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3430,7 +3430,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x952744: add             x4, PP, #0x21, lsl #12  ; [pp+0x21040] List(9) [0, 0x3, 0x2, 0x1, "isWorkoutSessionActive", 0x2, "pendingNavType", 0x1, Null]
     //     0x952748: ldr             x4, [x4, #0x40]
     // 0x95274c: r0 = canResolve()
-    //     0x95274c: bl              #0x940180  ; [package:ballai/automatic/app/navigation/pending_destination_gate.dart] PendingDestinationGate::canResolve
+    //     0x95274c: bl              #0x940180  ; [package:kourtai/automatic/app/navigation/pending_destination_gate.dart] PendingDestinationGate::canResolve
     // 0x952750: tbz             w0, #4, #0x9527a4
     // 0x952754: ldur            x0, [fp, #-0x30]
     // 0x952758: r1 = Null
@@ -3456,11 +3456,11 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x952788: r0 = _interpolate()
     //     0x952788: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0x95278c: mov             x2, x0
-    // 0x952790: r1 = Instance_BallAiLogCategory
-    //     0x952790: add             x1, PP, #0x12, lsl #12  ; [pp+0x12d08] Obj!BallAiLogCategory@d3bc21
+    // 0x952790: r1 = Instance_KourtAiLogCategory
+    //     0x952790: add             x1, PP, #0x12, lsl #12  ; [pp+0x12d08] Obj!KourtAiLogCategory@d3bc21
     //     0x952794: ldr             x1, [x1, #0xd08]
     // 0x952798: r0 = info()
-    //     0x952798: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
+    //     0x952798: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
     // 0x95279c: r0 = Null
     //     0x95279c: mov             x0, NULL
     // 0x9527a0: r0 = ReturnAsyncNotFuture()
@@ -3486,14 +3486,14 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x9527d4: r0 = _interpolate()
     //     0x9527d4: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0x9527d8: mov             x2, x0
-    // 0x9527dc: r1 = Instance_BallAiLogCategory
-    //     0x9527dc: add             x1, PP, #0x12, lsl #12  ; [pp+0x12d08] Obj!BallAiLogCategory@d3bc21
+    // 0x9527dc: r1 = Instance_KourtAiLogCategory
+    //     0x9527dc: add             x1, PP, #0x12, lsl #12  ; [pp+0x12d08] Obj!KourtAiLogCategory@d3bc21
     //     0x9527e0: ldr             x1, [x1, #0xd08]
     // 0x9527e4: r0 = info()
-    //     0x9527e4: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
+    //     0x9527e4: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
     // 0x9527e8: ldur            x1, [fp, #-0x20]
     // 0x9527ec: r0 = dismissCurrentNavigation()
-    //     0x9527ec: bl              #0x65ee24  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::dismissCurrentNavigation
+    //     0x9527ec: bl              #0x65ee24  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::dismissCurrentNavigation
     // 0x9527f0: ldur            x0, [fp, #-0x10]
     // 0x9527f4: LoadField: r1 = r0->field_f
     //     0x9527f4: ldur            w1, [x0, #0xf]
@@ -3529,7 +3529,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x952848: mov             x2, x0
     // 0x95284c: ldur            x3, [fp, #-0x38]
     // 0x952850: r0 = persistPendingSourceToCurrentUserIfNeeded()
-    //     0x952850: bl              #0x9382e8  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::persistPendingSourceToCurrentUserIfNeeded
+    //     0x952850: bl              #0x9382e8  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::persistPendingSourceToCurrentUserIfNeeded
     // 0x952854: ldur            x0, [fp, #-0x18]
     // 0x952858: LoadField: r1 = r0->field_37
     //     0x952858: ldur            w1, [x0, #0x37]
@@ -3622,7 +3622,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x952950: r0 = of()
     //     0x952950: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0x952954: r1 = Function '<anonymous closure>':.
-    //     0x952954: add             x1, PP, #0x21, lsl #12  ; [pp+0x21068] AnonymousClosure: (0x657a38), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openDiscountRequestPaywall (0x657a44)
+    //     0x952954: add             x1, PP, #0x21, lsl #12  ; [pp+0x21068] AnonymousClosure: (0x657a38), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_openDiscountRequestPaywall (0x657a44)
     //     0x952958: ldr             x1, [x1, #0x68]
     // 0x95295c: r2 = Null
     //     0x95295c: mov             x2, NULL
@@ -3691,14 +3691,14 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x952a10: mov             x1, x0
     // 0x952a14: stur            x0, [fp, #-0x20]
     // 0x952a18: r0 = cancelWinbackOfferingIdentifierIfEligible()
-    //     0x952a18: bl              #0x954164  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::cancelWinbackOfferingIdentifierIfEligible
+    //     0x952a18: bl              #0x954164  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::cancelWinbackOfferingIdentifierIfEligible
     // 0x952a1c: cmp             w0, NULL
     // 0x952a20: b.eq            #0x953494
     // 0x952a24: ldur            x0, [fp, #-0x10]
     // 0x952a28: ldur            x2, [fp, #-0x28]
     // 0x952a2c: ldur            x1, [fp, #-0x20]
     // 0x952a30: r0 = resolveCancelWinbackOffering()
-    //     0x952a30: bl              #0x903110  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::resolveCancelWinbackOffering
+    //     0x952a30: bl              #0x903110  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::resolveCancelWinbackOffering
     // 0x952a34: mov             x1, x0
     // 0x952a38: stur            x1, [fp, #-0x20]
     // 0x952a3c: r0 = Await()
@@ -3734,7 +3734,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x952a98: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0x952a9c: ldur            x2, [fp, #-0x28]
     // 0x952aa0: r1 = Function '<anonymous closure>':.
-    //     0x952aa0: add             x1, PP, #0x21, lsl #12  ; [pp+0x21070] AnonymousClosure: (0x9546cc), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentDeepLinkIfNeeded (0x9525ac)
+    //     0x952aa0: add             x1, PP, #0x21, lsl #12  ; [pp+0x21070] AnonymousClosure: (0x9546cc), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentDeepLinkIfNeeded (0x9525ac)
     //     0x952aa4: ldr             x1, [x1, #0x70]
     // 0x952aa8: stur            x0, [fp, #-0x20]
     // 0x952aac: r0 = AllocateClosure()
@@ -3809,7 +3809,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x952b64: add             x0, x0, HEAP, lsl #32
     // 0x952b68: mov             x1, x0
     // 0x952b6c: r0 = openManageSubscriptions()
-    //     0x952b6c: bl              #0x951ee8  ; [package:ballai/automatic/app/dependencies/handlers/core/play_billing_handler.dart] PlayBillingHandler::openManageSubscriptions
+    //     0x952b6c: bl              #0x951ee8  ; [package:kourtai/automatic/app/dependencies/handlers/core/play_billing_handler.dart] PlayBillingHandler::openManageSubscriptions
     // 0x952b70: mov             x1, x0
     // 0x952b74: stur            x1, [fp, #-0x20]
     // 0x952b78: r0 = Await()
@@ -3850,10 +3850,10 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x952bdc: ldur            x1, [fp, #-0x10]
     // 0x952be0: mov             x2, x0
     // 0x952be4: r0 = _shouldOpenFreeUserProSubscriptionFunnel()
-    //     0x952be4: bl              #0x952464  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_shouldOpenFreeUserProSubscriptionFunnel
+    //     0x952be4: bl              #0x952464  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_shouldOpenFreeUserProSubscriptionFunnel
     // 0x952be8: tbnz            w0, #4, #0x953494
     // 0x952bec: r1 = Function '<anonymous closure>':.
-    //     0x952bec: add             x1, PP, #0x21, lsl #12  ; [pp+0x21080] AnonymousClosure: (0x9525a0), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentNotificationFunnelDestinationIfNeeded (0x9519d8)
+    //     0x952bec: add             x1, PP, #0x21, lsl #12  ; [pp+0x21080] AnonymousClosure: (0x9525a0), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentNotificationFunnelDestinationIfNeeded (0x9519d8)
     //     0x952bf0: ldr             x1, [x1, #0x80]
     // 0x952bf4: r2 = Null
     //     0x952bf4: mov             x2, NULL
@@ -3914,7 +3914,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x952c8c: mov             x2, x1
     // 0x952c90: ldur            x1, [fp, #-0x10]
     // 0x952c94: r0 = _openPlayRedeem()
-    //     0x952c94: bl              #0x954018  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_openPlayRedeem
+    //     0x952c94: bl              #0x954018  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_openPlayRedeem
     // 0x952c98: mov             x1, x0
     // 0x952c9c: stur            x1, [fp, #-0x20]
     // 0x952ca0: r0 = Await()
@@ -3955,7 +3955,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x952d08: tbnz            w0, #4, #0x952d18
     // 0x952d0c: ldur            x1, [fp, #-0x10]
     // 0x952d10: r0 = _presentRecordFlow()
-    //     0x952d10: bl              #0x659400  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow
+    //     0x952d10: bl              #0x659400  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow
     // 0x952d14: b               #0x953494
     // 0x952d18: r16 = "screen_activity"
     //     0x952d18: add             x16, PP, #0x21, lsl #12  ; [pp+0x210a0] "screen_activity"
@@ -3982,11 +3982,11 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x952d58: bl              #0xdab674  ; [dart:core] _OneByteString::==
     // 0x952d5c: tbnz            w0, #4, #0x952d74
     // 0x952d60: ldur            x1, [fp, #-0x10]
-    // 0x952d64: r2 = Instance_BallAiPrimaryDestination
-    //     0x952d64: add             x2, PP, #0x21, lsl #12  ; [pp+0x210b8] Obj!BallAiPrimaryDestination@d3bac1
+    // 0x952d64: r2 = Instance_KourtAiPrimaryDestination
+    //     0x952d64: add             x2, PP, #0x21, lsl #12  ; [pp+0x210b8] Obj!KourtAiPrimaryDestination@d3bac1
     //     0x952d68: ldr             x2, [x2, #0xb8]
     // 0x952d6c: r0 = _selectContentTab()
-    //     0x952d6c: bl              #0x953f0c  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
+    //     0x952d6c: bl              #0x953f0c  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
     // 0x952d70: b               #0x953494
     // 0x952d74: r16 = "screen_drills"
     //     0x952d74: add             x16, PP, #0x21, lsl #12  ; [pp+0x210c0] "screen_drills"
@@ -4013,11 +4013,11 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x952db4: bl              #0xdab674  ; [dart:core] _OneByteString::==
     // 0x952db8: tbnz            w0, #4, #0x952dd0
     // 0x952dbc: ldur            x1, [fp, #-0x10]
-    // 0x952dc0: r2 = Instance_BallAiPrimaryDestination
-    //     0x952dc0: add             x2, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!BallAiPrimaryDestination@d3baa1
+    // 0x952dc0: r2 = Instance_KourtAiPrimaryDestination
+    //     0x952dc0: add             x2, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!KourtAiPrimaryDestination@d3baa1
     //     0x952dc4: ldr             x2, [x2, #0xe30]
     // 0x952dc8: r0 = _selectContentTab()
-    //     0x952dc8: bl              #0x953f0c  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
+    //     0x952dc8: bl              #0x953f0c  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
     // 0x952dcc: b               #0x953494
     // 0x952dd0: r16 = "follow_request"
     //     0x952dd0: add             x16, PP, #0x13, lsl #12  ; [pp+0x13518] "follow_request"
@@ -4035,14 +4035,14 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x952df4: cmp             w1, NULL
     // 0x952df8: b.eq            #0x953494
     // 0x952dfc: ldur            x1, [fp, #-0x10]
-    // 0x952e00: r2 = Instance_BallAiPrimaryDestination
-    //     0x952e00: add             x2, PP, #0x20, lsl #12  ; [pp+0x209f0] Obj!BallAiPrimaryDestination@d3bae1
+    // 0x952e00: r2 = Instance_KourtAiPrimaryDestination
+    //     0x952e00: add             x2, PP, #0x20, lsl #12  ; [pp+0x209f0] Obj!KourtAiPrimaryDestination@d3bae1
     //     0x952e04: ldr             x2, [x2, #0x9f0]
     // 0x952e08: r0 = _selectContentTab()
-    //     0x952e08: bl              #0x953f0c  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
+    //     0x952e08: bl              #0x953f0c  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
     // 0x952e0c: ldur            x2, [fp, #-0x28]
     // 0x952e10: r1 = Function '<anonymous closure>':.
-    //     0x952e10: add             x1, PP, #0x21, lsl #12  ; [pp+0x210d0] AnonymousClosure: (0x954668), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentDeepLinkIfNeeded (0x9525ac)
+    //     0x952e10: add             x1, PP, #0x21, lsl #12  ; [pp+0x210d0] AnonymousClosure: (0x954668), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentDeepLinkIfNeeded (0x9525ac)
     //     0x952e14: ldr             x1, [x1, #0xd0]
     // 0x952e18: r0 = AllocateClosure()
     //     0x952e18: bl              #0xe553e0  ; AllocateClosureStub
@@ -4090,14 +4090,14 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x952e90: cmp             w1, NULL
     // 0x952e94: b.eq            #0x953494
     // 0x952e98: ldur            x1, [fp, #-0x10]
-    // 0x952e9c: r2 = Instance_BallAiPrimaryDestination
-    //     0x952e9c: add             x2, PP, #0x20, lsl #12  ; [pp+0x209f0] Obj!BallAiPrimaryDestination@d3bae1
+    // 0x952e9c: r2 = Instance_KourtAiPrimaryDestination
+    //     0x952e9c: add             x2, PP, #0x20, lsl #12  ; [pp+0x209f0] Obj!KourtAiPrimaryDestination@d3bae1
     //     0x952ea0: ldr             x2, [x2, #0x9f0]
     // 0x952ea4: r0 = _selectContentTab()
-    //     0x952ea4: bl              #0x953f0c  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
+    //     0x952ea4: bl              #0x953f0c  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
     // 0x952ea8: ldur            x2, [fp, #-0x28]
     // 0x952eac: r1 = Function '<anonymous closure>':.
-    //     0x952eac: add             x1, PP, #0x21, lsl #12  ; [pp+0x210d8] AnonymousClosure: (0x9545d8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentDeepLinkIfNeeded (0x9525ac)
+    //     0x952eac: add             x1, PP, #0x21, lsl #12  ; [pp+0x210d8] AnonymousClosure: (0x9545d8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentDeepLinkIfNeeded (0x9525ac)
     //     0x952eb0: ldr             x1, [x1, #0xd8]
     // 0x952eb4: r0 = AllocateClosure()
     //     0x952eb4: bl              #0xe553e0  ; AllocateClosureStub
@@ -4148,10 +4148,10 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x952f38: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x952f38: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x952f3c: r0 = _showTeamsCoverIfNeeded()
-    //     0x952f3c: bl              #0x953888  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded
+    //     0x952f3c: bl              #0x953888  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded
     // 0x952f40: ldur            x2, [fp, #-0x28]
     // 0x952f44: r1 = Function '<anonymous closure>':.
-    //     0x952f44: add             x1, PP, #0x21, lsl #12  ; [pp+0x210e8] AnonymousClosure: (0x954570), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentDeepLinkIfNeeded (0x9525ac)
+    //     0x952f44: add             x1, PP, #0x21, lsl #12  ; [pp+0x210e8] AnonymousClosure: (0x954570), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentDeepLinkIfNeeded (0x9525ac)
     //     0x952f48: ldr             x1, [x1, #0xe8]
     // 0x952f4c: r0 = AllocateClosure()
     //     0x952f4c: bl              #0xe553e0  ; AllocateClosureStub
@@ -4209,11 +4209,11 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x952fe4: tbnz            w0, #4, #0x953084
     // 0x952fe8: ldur            x0, [fp, #-0x10]
     // 0x952fec: mov             x1, x0
-    // 0x952ff0: r2 = Instance_BallAiPrimaryDestination
-    //     0x952ff0: add             x2, PP, #0x20, lsl #12  ; [pp+0x209f0] Obj!BallAiPrimaryDestination@d3bae1
+    // 0x952ff0: r2 = Instance_KourtAiPrimaryDestination
+    //     0x952ff0: add             x2, PP, #0x20, lsl #12  ; [pp+0x209f0] Obj!KourtAiPrimaryDestination@d3bae1
     //     0x952ff4: ldr             x2, [x2, #0x9f0]
     // 0x952ff8: r0 = _selectContentTab()
-    //     0x952ff8: bl              #0x953f0c  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
+    //     0x952ff8: bl              #0x953f0c  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
     // 0x952ffc: ldur            x1, [fp, #-0x10]
     // 0x953000: LoadField: r0 = r1->field_3b
     //     0x953000: ldur            w0, [x1, #0x3b]
@@ -4230,7 +4230,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x953020: b               #0x953074
     // 0x953024: ldur            x2, [fp, #-0x28]
     // 0x953028: r1 = Function '<anonymous closure>':.
-    //     0x953028: add             x1, PP, #0x21, lsl #12  ; [pp+0x21108] AnonymousClosure: (0x9543d8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentDeepLinkIfNeeded (0x9525ac)
+    //     0x953028: add             x1, PP, #0x21, lsl #12  ; [pp+0x21108] AnonymousClosure: (0x9543d8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentDeepLinkIfNeeded (0x9525ac)
     //     0x95302c: ldr             x1, [x1, #0x108]
     // 0x953030: r0 = AllocateClosure()
     //     0x953030: bl              #0xe553e0  ; AllocateClosureStub
@@ -4293,14 +4293,14 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x9530d4: cmp             w1, NULL
     // 0x9530d8: b.eq            #0x953494
     // 0x9530dc: ldur            x1, [fp, #-0x10]
-    // 0x9530e0: r2 = Instance_BallAiPrimaryDestination
-    //     0x9530e0: add             x2, PP, #0x20, lsl #12  ; [pp+0x209f0] Obj!BallAiPrimaryDestination@d3bae1
+    // 0x9530e0: r2 = Instance_KourtAiPrimaryDestination
+    //     0x9530e0: add             x2, PP, #0x20, lsl #12  ; [pp+0x209f0] Obj!KourtAiPrimaryDestination@d3bae1
     //     0x9530e4: ldr             x2, [x2, #0x9f0]
     // 0x9530e8: r0 = _selectContentTab()
-    //     0x9530e8: bl              #0x953f0c  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
+    //     0x9530e8: bl              #0x953f0c  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
     // 0x9530ec: ldur            x2, [fp, #-0x28]
     // 0x9530f0: r1 = Function '<anonymous closure>':.
-    //     0x9530f0: add             x1, PP, #0x21, lsl #12  ; [pp+0x21110] AnonymousClosure: (0x954330), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentDeepLinkIfNeeded (0x9525ac)
+    //     0x9530f0: add             x1, PP, #0x21, lsl #12  ; [pp+0x21110] AnonymousClosure: (0x954330), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentDeepLinkIfNeeded (0x9525ac)
     //     0x9530f4: ldr             x1, [x1, #0x110]
     // 0x9530f8: r0 = AllocateClosure()
     //     0x9530f8: bl              #0xe553e0  ; AllocateClosureStub
@@ -4399,10 +4399,10 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x95320c: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x95320c: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x953210: r0 = _showTeamsCoverIfNeeded()
-    //     0x953210: bl              #0x953888  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded
+    //     0x953210: bl              #0x953888  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded
     // 0x953214: ldur            x2, [fp, #-0x28]
     // 0x953218: r1 = Function '<anonymous closure>':.
-    //     0x953218: add             x1, PP, #0x21, lsl #12  ; [pp+0x21150] AnonymousClosure: (0x9542a0), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentDeepLinkIfNeeded (0x9525ac)
+    //     0x953218: add             x1, PP, #0x21, lsl #12  ; [pp+0x21150] AnonymousClosure: (0x9542a0), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentDeepLinkIfNeeded (0x9525ac)
     //     0x95321c: ldr             x1, [x1, #0x150]
     // 0x953220: r0 = AllocateClosure()
     //     0x953220: bl              #0xe553e0  ; AllocateClosureStub
@@ -4466,14 +4466,14 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x9532c8: cmp             w1, NULL
     // 0x9532cc: b.eq            #0x953494
     // 0x9532d0: ldur            x1, [fp, #-0x10]
-    // 0x9532d4: r2 = Instance_BallAiPrimaryDestination
-    //     0x9532d4: add             x2, PP, #0x21, lsl #12  ; [pp+0x210b8] Obj!BallAiPrimaryDestination@d3bac1
+    // 0x9532d4: r2 = Instance_KourtAiPrimaryDestination
+    //     0x9532d4: add             x2, PP, #0x21, lsl #12  ; [pp+0x210b8] Obj!KourtAiPrimaryDestination@d3bac1
     //     0x9532d8: ldr             x2, [x2, #0xb8]
     // 0x9532dc: r0 = _selectContentTab()
-    //     0x9532dc: bl              #0x953f0c  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
+    //     0x9532dc: bl              #0x953f0c  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
     // 0x9532e0: ldur            x2, [fp, #-0x28]
     // 0x9532e4: r1 = Function '<anonymous closure>':.
-    //     0x9532e4: add             x1, PP, #0x21, lsl #12  ; [pp+0x21160] AnonymousClosure: (0x954200), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentDeepLinkIfNeeded (0x9525ac)
+    //     0x9532e4: add             x1, PP, #0x21, lsl #12  ; [pp+0x21160] AnonymousClosure: (0x954200), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentDeepLinkIfNeeded (0x9525ac)
     //     0x9532e8: ldr             x1, [x1, #0x160]
     // 0x9532ec: r0 = AllocateClosure()
     //     0x9532ec: bl              #0xe553e0  ; AllocateClosureStub
@@ -4522,14 +4522,14 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x953364: cmp             w1, NULL
     // 0x953368: b.eq            #0x9533d8
     // 0x95336c: ldur            x1, [fp, #-0x10]
-    // 0x953370: r2 = Instance_BallAiPrimaryDestination
-    //     0x953370: add             x2, PP, #0x21, lsl #12  ; [pp+0x210b8] Obj!BallAiPrimaryDestination@d3bac1
+    // 0x953370: r2 = Instance_KourtAiPrimaryDestination
+    //     0x953370: add             x2, PP, #0x21, lsl #12  ; [pp+0x210b8] Obj!KourtAiPrimaryDestination@d3bac1
     //     0x953374: ldr             x2, [x2, #0xb8]
     // 0x953378: r0 = _selectContentTab()
-    //     0x953378: bl              #0x953f0c  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
+    //     0x953378: bl              #0x953f0c  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
     // 0x95337c: ldur            x2, [fp, #-0x28]
     // 0x953380: r1 = Function '<anonymous closure>':.
-    //     0x953380: add             x1, PP, #0x21, lsl #12  ; [pp+0x21168] AnonymousClosure: (0x954184), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentDeepLinkIfNeeded (0x9525ac)
+    //     0x953380: add             x1, PP, #0x21, lsl #12  ; [pp+0x21168] AnonymousClosure: (0x954184), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentDeepLinkIfNeeded (0x9525ac)
     //     0x953384: ldr             x1, [x1, #0x168]
     // 0x953388: r0 = AllocateClosure()
     //     0x953388: bl              #0xe553e0  ; AllocateClosureStub
@@ -4571,42 +4571,42 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x9533ec: tbnz            w0, #4, #0x953494
     // 0x9533f0: ldur            x1, [fp, #-0x30]
     // 0x9533f4: r0 = forNavType()
-    //     0x9533f4: bl              #0x95359c  ; [package:ballai/automatic/app/navigation/ball_ai_destination_contract.dart] BallAiDestinationContract::forNavType
-    // 0x9533f8: r16 = Instance_BallAiDestinationContract
-    //     0x9533f8: add             x16, PP, #0x21, lsl #12  ; [pp+0x21178] Obj!BallAiDestinationContract@d27df1
+    //     0x9533f4: bl              #0x95359c  ; [package:kourtai/automatic/app/navigation/kourt_ai_destination_contract.dart] KourtAiDestinationContract::forNavType
+    // 0x9533f8: r16 = Instance_KourtAiDestinationContract
+    //     0x9533f8: add             x16, PP, #0x21, lsl #12  ; [pp+0x21178] Obj!KourtAiDestinationContract@d27df1
     //     0x9533fc: ldr             x16, [x16, #0x178]
     // 0x953400: cmp             w0, w16
     // 0x953404: b.ne            #0x953414
     // 0x953408: ldur            x1, [fp, #-0x10]
     // 0x95340c: r0 = _presentRecordFlow()
-    //     0x95340c: bl              #0x659400  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow
+    //     0x95340c: bl              #0x659400  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow
     // 0x953410: b               #0x953494
-    // 0x953414: r16 = Instance_BallAiDestinationContract
-    //     0x953414: add             x16, PP, #0x21, lsl #12  ; [pp+0x21180] Obj!BallAiDestinationContract@d27dc1
+    // 0x953414: r16 = Instance_KourtAiDestinationContract
+    //     0x953414: add             x16, PP, #0x21, lsl #12  ; [pp+0x21180] Obj!KourtAiDestinationContract@d27dc1
     //     0x953418: ldr             x16, [x16, #0x180]
     // 0x95341c: cmp             w0, w16
     // 0x953420: b.ne            #0x953438
     // 0x953424: ldur            x1, [fp, #-0x10]
-    // 0x953428: r2 = Instance_BallAiPrimaryDestination
-    //     0x953428: add             x2, PP, #0x21, lsl #12  ; [pp+0x210b8] Obj!BallAiPrimaryDestination@d3bac1
+    // 0x953428: r2 = Instance_KourtAiPrimaryDestination
+    //     0x953428: add             x2, PP, #0x21, lsl #12  ; [pp+0x210b8] Obj!KourtAiPrimaryDestination@d3bac1
     //     0x95342c: ldr             x2, [x2, #0xb8]
     // 0x953430: r0 = _selectContentTab()
-    //     0x953430: bl              #0x953f0c  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
+    //     0x953430: bl              #0x953f0c  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
     // 0x953434: b               #0x953494
-    // 0x953438: r16 = Instance_BallAiDestinationContract
-    //     0x953438: add             x16, PP, #0x21, lsl #12  ; [pp+0x21188] Obj!BallAiDestinationContract@d27d91
+    // 0x953438: r16 = Instance_KourtAiDestinationContract
+    //     0x953438: add             x16, PP, #0x21, lsl #12  ; [pp+0x21188] Obj!KourtAiDestinationContract@d27d91
     //     0x95343c: ldr             x16, [x16, #0x188]
     // 0x953440: cmp             w0, w16
     // 0x953444: b.ne            #0x95345c
     // 0x953448: ldur            x1, [fp, #-0x10]
-    // 0x95344c: r2 = Instance_BallAiPrimaryDestination
-    //     0x95344c: add             x2, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!BallAiPrimaryDestination@d3baa1
+    // 0x95344c: r2 = Instance_KourtAiPrimaryDestination
+    //     0x95344c: add             x2, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!KourtAiPrimaryDestination@d3baa1
     //     0x953450: ldr             x2, [x2, #0xe30]
     // 0x953454: r0 = _selectContentTab()
-    //     0x953454: bl              #0x953f0c  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
+    //     0x953454: bl              #0x953f0c  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
     // 0x953458: b               #0x953494
-    // 0x95345c: r16 = Instance_BallAiDestinationContract
-    //     0x95345c: add             x16, PP, #0x21, lsl #12  ; [pp+0x21190] Obj!BallAiDestinationContract@d27d61
+    // 0x95345c: r16 = Instance_KourtAiDestinationContract
+    //     0x95345c: add             x16, PP, #0x21, lsl #12  ; [pp+0x21190] Obj!KourtAiDestinationContract@d27d61
     //     0x953460: ldr             x16, [x16, #0x190]
     // 0x953464: cmp             w0, w16
     // 0x953468: b.ne            #0x95347c
@@ -4614,16 +4614,16 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x953470: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x953470: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x953474: r0 = _showTeamsCoverIfNeeded()
-    //     0x953474: bl              #0x953888  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded
+    //     0x953474: bl              #0x953888  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded
     // 0x953478: b               #0x953494
-    // 0x95347c: r16 = Instance_BallAiDestinationContract
-    //     0x95347c: add             x16, PP, #0x21, lsl #12  ; [pp+0x21198] Obj!BallAiDestinationContract@d27d31
+    // 0x95347c: r16 = Instance_KourtAiDestinationContract
+    //     0x95347c: add             x16, PP, #0x21, lsl #12  ; [pp+0x21198] Obj!KourtAiDestinationContract@d27d31
     //     0x953480: ldr             x16, [x16, #0x198]
     // 0x953484: cmp             w0, w16
     // 0x953488: b.ne            #0x953494
     // 0x95348c: ldur            x1, [fp, #-0x10]
     // 0x953490: r0 = _openYouTab()
-    //     0x953490: bl              #0x9534c0  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_openYouTab
+    //     0x953490: bl              #0x9534c0  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_openYouTab
     // 0x953494: r0 = Null
     //     0x953494: mov             x0, NULL
     // 0x953498: r0 = ReturnAsyncNotFuture()
@@ -4669,7 +4669,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x9534ec: stur            w0, [x1, #0xf]
     // 0x9534f0: mov             x2, x1
     // 0x9534f4: r1 = Function '<anonymous closure>':.
-    //     0x9534f4: add             x1, PP, #0x21, lsl #12  ; [pp+0x211d0] AnonymousClosure: (0x95356c), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_openYouTab (0x9534c0)
+    //     0x9534f4: add             x1, PP, #0x21, lsl #12  ; [pp+0x211d0] AnonymousClosure: (0x95356c), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_openYouTab (0x9534c0)
     //     0x9534f8: ldr             x1, [x1, #0x1d0]
     // 0x9534fc: r0 = AllocateClosure()
     //     0x9534fc: bl              #0xe553e0  ; AllocateClosureStub
@@ -4677,7 +4677,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x953504: mov             x2, x0
     // 0x953508: r0 = setState()
     //     0x953508: bl              #0x6005d4  ; [package:flutter/src/widgets/framework.dart] State::setState
-    // 0x95350c: r0 = InitLateStaticField(0xe20) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
+    // 0x95350c: r0 = InitLateStaticField(0xe20) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
     //     0x95350c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x953510: ldr             x0, [x0, #0x1c40]
     //     0x953514: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -4690,14 +4690,14 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x95352c: ldur            w1, [x0, #0x27]
     // 0x953530: DecompressPointer r1
     //     0x953530: add             x1, x1, HEAP, lsl #32
-    // 0x953534: r16 = Instance_BallAiPrimaryDestination
-    //     0x953534: add             x16, PP, #0x20, lsl #12  ; [pp+0x209f0] Obj!BallAiPrimaryDestination@d3bae1
+    // 0x953534: r16 = Instance_KourtAiPrimaryDestination
+    //     0x953534: add             x16, PP, #0x20, lsl #12  ; [pp+0x209f0] Obj!KourtAiPrimaryDestination@d3bae1
     //     0x953538: ldr             x16, [x16, #0x9f0]
     // 0x95353c: cmp             w1, w16
     // 0x953540: b.eq            #0x953554
     // 0x953544: mov             x1, x0
-    // 0x953548: r2 = Instance_BallAiPrimaryDestination
-    //     0x953548: add             x2, PP, #0x20, lsl #12  ; [pp+0x209f0] Obj!BallAiPrimaryDestination@d3bae1
+    // 0x953548: r2 = Instance_KourtAiPrimaryDestination
+    //     0x953548: add             x2, PP, #0x20, lsl #12  ; [pp+0x209f0] Obj!KourtAiPrimaryDestination@d3bae1
     //     0x95354c: ldr             x2, [x2, #0x9f0]
     // 0x953550: r0 = value=()
     //     0x953550: bl              #0x60ac68  ; [package:flutter/src/foundation/change_notifier.dart] ValueNotifier::value=
@@ -4714,8 +4714,8 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
   }
   [closure] void <anonymous closure>(dynamic) {
     // ** addr: 0x95356c, size: 0x30
-    // 0x95356c: r2 = Instance_BallAiPrimaryDestination
-    //     0x95356c: add             x2, PP, #0x20, lsl #12  ; [pp+0x209f0] Obj!BallAiPrimaryDestination@d3bae1
+    // 0x95356c: r2 = Instance_KourtAiPrimaryDestination
+    //     0x95356c: add             x2, PP, #0x20, lsl #12  ; [pp+0x209f0] Obj!KourtAiPrimaryDestination@d3bae1
     //     0x953570: ldr             x2, [x2, #0x9f0]
     // 0x953574: r1 = false
     //     0x953574: add             x1, NULL, #0x30  ; false
@@ -4776,7 +4776,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x9538f4: stur            w0, [x2, #0xf]
     // 0x9538f8: mov             x1, x0
     // 0x9538fc: r0 = _restoreContentTabAfterAction()
-    //     0x9538fc: bl              #0x8e5d14  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction
+    //     0x9538fc: bl              #0x8e5d14  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction
     // 0x953900: ldur            x0, [fp, #-0x10]
     // 0x953904: ArrayLoad: r1 = r0[0]  ; List_4
     //     0x953904: ldur            w1, [x0, #0x17]
@@ -4792,7 +4792,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x953920: cmp             w1, NULL
     // 0x953924: b.eq            #0x95392c
     // 0x953928: r0 = openTeamCreationFlow()
-    //     0x953928: bl              #0x953b34  ; [package:ballai/automatic/views/home/tab/tabs/teams/createteam/root/team_creation_view.dart] ::openTeamCreationFlow
+    //     0x953928: bl              #0x953b34  ; [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/root/team_creation_view.dart] ::openTeamCreationFlow
     // 0x95392c: r0 = Null
     //     0x95392c: mov             x0, NULL
     // 0x953930: LeaveFrame
@@ -4805,7 +4805,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x953940: add             x2, NULL, #0x20  ; true
     // 0x953944: ArrayStore: r0[0] = r2  ; List_4
     //     0x953944: stur            w2, [x0, #0x17]
-    // 0x953948: r0 = InitLateStaticField(0xe28) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::teamsCoverVisible
+    // 0x953948: r0 = InitLateStaticField(0xe28) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::teamsCoverVisible
     //     0x953948: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x95394c: ldr             x0, [x0, #0x1c50]
     //     0x953950: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -4835,7 +4835,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x953998: r0 = of()
     //     0x953998: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0x95399c: r1 = Function '<anonymous closure>':.
-    //     0x95399c: add             x1, PP, #0x21, lsl #12  ; [pp+0x21238] AnonymousClosure: (0x953e20), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
+    //     0x95399c: add             x1, PP, #0x21, lsl #12  ; [pp+0x21238] AnonymousClosure: (0x953e20), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
     //     0x9539a0: ldr             x1, [x1, #0x238]
     // 0x9539a4: r2 = Null
     //     0x9539a4: mov             x2, NULL
@@ -4889,7 +4889,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x953a2c: ldur            x2, [fp, #-0x18]
     // 0x953a30: stur            x0, [fp, #-8]
     // 0x953a34: r1 = Function '<anonymous closure>':.
-    //     0x953a34: add             x1, PP, #0x21, lsl #12  ; [pp+0x21240] AnonymousClosure: (0x953dcc), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
+    //     0x953a34: add             x1, PP, #0x21, lsl #12  ; [pp+0x21240] AnonymousClosure: (0x953dcc), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
     //     0x953a38: ldr             x1, [x1, #0x240]
     // 0x953a3c: r0 = AllocateClosure()
     //     0x953a3c: bl              #0xe553e0  ; AllocateClosureStub
@@ -4955,7 +4955,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x953ae8: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0x953aec: ldur            x2, [fp, #-0x18]
     // 0x953af0: r1 = Function '<anonymous closure>':.
-    //     0x953af0: add             x1, PP, #0x21, lsl #12  ; [pp+0x21258] AnonymousClosure: (0x953d58), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
+    //     0x953af0: add             x1, PP, #0x21, lsl #12  ; [pp+0x21258] AnonymousClosure: (0x953d58), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
     //     0x953af4: ldr             x1, [x1, #0x258]
     // 0x953af8: r0 = AllocateClosure()
     //     0x953af8: bl              #0xe553e0  ; AllocateClosureStub
@@ -5005,7 +5005,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x953d80: add             x0, x0, HEAP, lsl #32
     // 0x953d84: ArrayStore: r0[0] = r2  ; List_4
     //     0x953d84: stur            w2, [x0, #0x17]
-    // 0x953d88: r0 = InitLateStaticField(0xe28) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::teamsCoverVisible
+    // 0x953d88: r0 = InitLateStaticField(0xe28) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::teamsCoverVisible
     //     0x953d88: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x953d8c: ldr             x0, [x0, #0x1c50]
     //     0x953d90: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -5055,7 +5055,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x953dfc: cmp             w1, NULL
     // 0x953e00: b.eq            #0x953e08
     // 0x953e04: r0 = openTeamCreationFlow()
-    //     0x953e04: bl              #0x953b34  ; [package:ballai/automatic/views/home/tab/tabs/teams/createteam/root/team_creation_view.dart] ::openTeamCreationFlow
+    //     0x953e04: bl              #0x953b34  ; [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/root/team_creation_view.dart] ::openTeamCreationFlow
     // 0x953e08: r0 = Null
     //     0x953e08: mov             x0, NULL
     // 0x953e0c: LeaveFrame
@@ -5092,7 +5092,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x953e54: stur            w0, [x1, #0xf]
     // 0x953e58: mov             x2, x1
     // 0x953e5c: r1 = Function '<anonymous closure>':.
-    //     0x953e5c: add             x1, PP, #0x21, lsl #12  ; [pp+0x21260] AnonymousClosure: (0x953eb0), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
+    //     0x953e5c: add             x1, PP, #0x21, lsl #12  ; [pp+0x21260] AnonymousClosure: (0x953eb0), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
     //     0x953e60: ldr             x1, [x1, #0x260]
     // 0x953e64: r0 = AllocateClosure()
     //     0x953e64: bl              #0xe553e0  ; AllocateClosureStub
@@ -5176,7 +5176,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x953f48: stur            w1, [x3, #0x13]
     // 0x953f4c: mov             x2, x3
     // 0x953f50: r1 = Function '<anonymous closure>':.
-    //     0x953f50: add             x1, PP, #0x20, lsl #12  ; [pp+0x209f8] AnonymousClosure: (0x953fc8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab (0x953f0c)
+    //     0x953f50: add             x1, PP, #0x20, lsl #12  ; [pp+0x209f8] AnonymousClosure: (0x953fc8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab (0x953f0c)
     //     0x953f54: ldr             x1, [x1, #0x9f8]
     // 0x953f58: r0 = AllocateClosure()
     //     0x953f58: bl              #0xe553e0  ; AllocateClosureStub
@@ -5184,7 +5184,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x953f60: mov             x2, x0
     // 0x953f64: r0 = setState()
     //     0x953f64: bl              #0x6005d4  ; [package:flutter/src/widgets/framework.dart] State::setState
-    // 0x953f68: r0 = InitLateStaticField(0xe20) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
+    // 0x953f68: r0 = InitLateStaticField(0xe20) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
     //     0x953f68: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x953f6c: ldr             x0, [x0, #0x1c40]
     //     0x953f70: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -5276,7 +5276,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x95404c: bl              #0x60afc8  ; InitAsyncStub
     // 0x954050: ldur            x1, [fp, #-0x18]
     // 0x954054: r0 = playStoreRedeemUrl()
-    //     0x954054: bl              #0x9540cc  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::playStoreRedeemUrl
+    //     0x954054: bl              #0x9540cc  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::playStoreRedeemUrl
     // 0x954058: r16 = Instance_LaunchMode
     //     0x954058: add             x16, PP, #0x21, lsl #12  ; [pp+0x21000] Obj!LaunchMode@d2fba1
     //     0x95405c: ldr             x16, [x16]
@@ -5587,7 +5587,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x95446c: r4 = const [0, 0x3, 0, 0x3, null]
     //     0x95446c: ldr             x4, [PP, #0x8a0]  ; [pp+0x8a0] List(5) [0, 0x3, 0, 0x3, Null]
     // 0x954470: r0 = DirectMessageThreadView.team()
-    //     0x954470: bl              #0x9544ec  ; [package:ballai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] DirectMessageThreadView::DirectMessageThreadView.team
+    //     0x954470: bl              #0x9544ec  ; [package:kourtai/automatic/views/home/tab/tabs/you/directmessages/direct_message_thread_view.dart] DirectMessageThreadView::DirectMessageThreadView.team
     // 0x954474: b               #0x9544a8
     // 0x954478: ldur            x0, [fp, #-8]
     // 0x95447c: LoadField: r1 = r0->field_1f
@@ -5871,7 +5871,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x9547fc: ret             
     // 0x954800: mov             x1, x0
     // 0x954804: r0 = _presentTeamsCover()
-    //     0x954804: bl              #0x954820  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentTeamsCover
+    //     0x954804: bl              #0x954820  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentTeamsCover
     // 0x954808: r0 = Null
     //     0x954808: mov             x0, NULL
     // 0x95480c: LeaveFrame
@@ -5908,7 +5908,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x954854: add             x4, PP, #0x21, lsl #12  ; [pp+0x21330] List(7) [0, 0x2, 0x1, 0x1, "thenCreateTeam", 0x1, Null]
     //     0x954858: ldr             x4, [x4, #0x330]
     // 0x95485c: r0 = _showTeamsCoverIfNeeded()
-    //     0x95485c: bl              #0x953888  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded
+    //     0x95485c: bl              #0x953888  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded
     // 0x954860: r0 = Null
     //     0x954860: mov             x0, NULL
     // 0x954864: r0 = ReturnAsyncNotFuture()
@@ -5917,7 +5917,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x954868: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x95486c: b               #0x954840
   }
-  [closure] void <anonymous closure>(dynamic, BallAiProWelcomeEvent) {
+  [closure] void <anonymous closure>(dynamic, KourtAiProWelcomeEvent) {
     // ** addr: 0x954870, size: 0x48
     // 0x954870: EnterFrame
     //     0x954870: stp             fp, lr, [SP, #-0x10]!
@@ -5937,7 +5937,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x954894: add             x0, x0, HEAP, lsl #32
     // 0x954898: mov             x1, x0
     // 0x95489c: r0 = _advanceLaunchOverlayQueue()
-    //     0x95489c: bl              #0x8e77bc  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_advanceLaunchOverlayQueue
+    //     0x95489c: bl              #0x8e77bc  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_advanceLaunchOverlayQueue
     // 0x9548a0: r0 = Null
     //     0x9548a0: mov             x0, NULL
     // 0x9548a4: LeaveFrame
@@ -5964,7 +5964,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x9548d0: cmp             SP, x16
     //     0x9548d4: b.ls            #0x9548e8
     // 0x9548d8: r0 = _onDeepLinkChanged()
-    //     0x9548d8: bl              #0x9548f0  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onDeepLinkChanged
+    //     0x9548d8: bl              #0x9548f0  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onDeepLinkChanged
     // 0x9548dc: LeaveFrame
     //     0x9548dc: mov             SP, fp
     //     0x9548e0: ldp             fp, lr, [SP], #0x10
@@ -6003,10 +6003,10 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x95492c: ret             
     // 0x954930: mov             x1, x0
     // 0x954934: r0 = _presentDeepLinkIfNeeded()
-    //     0x954934: bl              #0x9525ac  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentDeepLinkIfNeeded
+    //     0x954934: bl              #0x9525ac  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentDeepLinkIfNeeded
     // 0x954938: ldur            x1, [fp, #-8]
     // 0x95493c: r0 = _presentNotificationFunnelDestinationIfNeeded()
-    //     0x95493c: bl              #0x9519d8  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentNotificationFunnelDestinationIfNeeded
+    //     0x95493c: bl              #0x9519d8  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentNotificationFunnelDestinationIfNeeded
     // 0x954940: r0 = Null
     //     0x954940: mov             x0, NULL
     // 0x954944: LeaveFrame
@@ -6033,7 +6033,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x954abc: cmp             SP, x16
     //     0x954ac0: b.ls            #0x954ad4
     // 0x954ac4: r0 = _onWhatsNewRequested()
-    //     0x954ac4: bl              #0x954adc  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onWhatsNewRequested
+    //     0x954ac4: bl              #0x954adc  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onWhatsNewRequested
     // 0x954ac8: LeaveFrame
     //     0x954ac8: mov             SP, fp
     //     0x954acc: ldp             fp, lr, [SP], #0x10
@@ -6079,7 +6079,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x954b28: ret             
     // 0x954b2c: mov             x2, x1
     // 0x954b30: r1 = Function '<anonymous closure>':.
-    //     0x954b30: add             x1, PP, #0x21, lsl #12  ; [pp+0x212c8] AnonymousClosure: (0x954b60), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onWhatsNewRequested (0x954adc)
+    //     0x954b30: add             x1, PP, #0x21, lsl #12  ; [pp+0x212c8] AnonymousClosure: (0x954b60), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onWhatsNewRequested (0x954adc)
     //     0x954b34: ldr             x1, [x1, #0x2c8]
     // 0x954b38: r0 = AllocateClosure()
     //     0x954b38: bl              #0xe553e0  ; AllocateClosureStub
@@ -6131,7 +6131,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x954b98: cmp             SP, x16
     //     0x954b9c: b.ls            #0x954bb0
     // 0x954ba0: r0 = _onHomeTabSelectionChanged()
-    //     0x954ba0: bl              #0x954bb8  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onHomeTabSelectionChanged
+    //     0x954ba0: bl              #0x954bb8  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onHomeTabSelectionChanged
     // 0x954ba4: LeaveFrame
     //     0x954ba4: mov             SP, fp
     //     0x954ba8: ldp             fp, lr, [SP], #0x10
@@ -6175,7 +6175,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x954c00: ldp             fp, lr, [SP], #0x10
     // 0x954c04: ret
     //     0x954c04: ret             
-    // 0x954c08: r0 = InitLateStaticField(0xe20) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
+    // 0x954c08: r0 = InitLateStaticField(0xe20) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
     //     0x954c08: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x954c0c: ldr             x0, [x0, #0x1c40]
     //     0x954c10: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -6192,8 +6192,8 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x954c34: stur            x2, [fp, #-0x18]
     // 0x954c38: StoreField: r0->field_13 = r2
     //     0x954c38: stur            w2, [x0, #0x13]
-    // 0x954c3c: r16 = Instance_BallAiPrimaryDestination
-    //     0x954c3c: add             x16, PP, #0x21, lsl #12  ; [pp+0x212b0] Obj!BallAiPrimaryDestination@d3bb21
+    // 0x954c3c: r16 = Instance_KourtAiPrimaryDestination
+    //     0x954c3c: add             x16, PP, #0x21, lsl #12  ; [pp+0x212b0] Obj!KourtAiPrimaryDestination@d3bb21
     //     0x954c40: ldr             x16, [x16, #0x2b0]
     // 0x954c44: cmp             w2, w16
     // 0x954c48: b.ne            #0x954c68
@@ -6201,7 +6201,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0x954c50: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x954c50: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x954c54: r0 = _showTeamsCoverIfNeeded()
-    //     0x954c54: bl              #0x953888  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded
+    //     0x954c54: bl              #0x953888  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded
     // 0x954c58: r0 = Null
     //     0x954c58: mov             x0, NULL
     // 0x954c5c: LeaveFrame
@@ -6209,17 +6209,17 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x954c60: ldp             fp, lr, [SP], #0x10
     // 0x954c64: ret
     //     0x954c64: ret             
-    // 0x954c68: r16 = Instance_BallAiPrimaryDestination
-    //     0x954c68: add             x16, PP, #0x21, lsl #12  ; [pp+0x212b8] Obj!BallAiPrimaryDestination@d3bb01
+    // 0x954c68: r16 = Instance_KourtAiPrimaryDestination
+    //     0x954c68: add             x16, PP, #0x21, lsl #12  ; [pp+0x212b8] Obj!KourtAiPrimaryDestination@d3bb01
     //     0x954c6c: ldr             x16, [x16, #0x2b8]
     // 0x954c70: cmp             w2, w16
     // 0x954c74: b.ne            #0x954c98
     // 0x954c78: ldur            x1, [fp, #-8]
     // 0x954c7c: r0 = _restoreContentTabAfterAction()
-    //     0x954c7c: bl              #0x8e5d14  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction
+    //     0x954c7c: bl              #0x8e5d14  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction
     // 0x954c80: ldur            x1, [fp, #-8]
     // 0x954c84: r0 = _presentRecordFlow()
-    //     0x954c84: bl              #0x659400  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow
+    //     0x954c84: bl              #0x659400  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow
     // 0x954c88: r0 = Null
     //     0x954c88: mov             x0, NULL
     // 0x954c8c: LeaveFrame
@@ -6229,7 +6229,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x954c94: ret             
     // 0x954c98: mov             x1, x2
     // 0x954c9c: r0 = isContentTab()
-    //     0x954c9c: bl              #0x8e5e74  ; [package:ballai/automatic/app/navigation/ball_ai_primary_destination.dart] BallAiPrimaryDestination::isContentTab
+    //     0x954c9c: bl              #0x8e5e74  ; [package:kourtai/automatic/app/navigation/kourt_ai_primary_destination.dart] KourtAiPrimaryDestination::isContentTab
     // 0x954ca0: tbnz            w0, #4, #0x954cbc
     // 0x954ca4: ldur            x3, [fp, #-8]
     // 0x954ca8: ldur            x0, [fp, #-0x18]
@@ -6248,7 +6248,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0x954cc8: ret             
     // 0x954ccc: ldur            x2, [fp, #-0x10]
     // 0x954cd0: r1 = Function '<anonymous closure>':.
-    //     0x954cd0: add             x1, PP, #0x21, lsl #12  ; [pp+0x212c0] AnonymousClosure: (0x953fc8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab (0x953f0c)
+    //     0x954cd0: add             x1, PP, #0x21, lsl #12  ; [pp+0x212c0] AnonymousClosure: (0x953fc8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab (0x953f0c)
     //     0x954cd4: ldr             x1, [x1, #0x2c0]
     // 0x954cd8: r0 = AllocateClosure()
     //     0x954cd8: bl              #0xe553e0  ; AllocateClosureStub
@@ -6294,7 +6294,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0xa128a4: StoreField: r3->field_13 = r4
     //     0xa128a4: stur            w4, [x3, #0x13]
     // 0xa128a8: r1 = Function '<anonymous closure>':.
-    //     0xa128a8: add             x1, PP, #0x20, lsl #12  ; [pp+0x20948] AnonymousClosure: (0xa14068), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
+    //     0xa128a8: add             x1, PP, #0x20, lsl #12  ; [pp+0x20948] AnonymousClosure: (0xa14068), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
     //     0xa128ac: ldr             x1, [x1, #0x948]
     // 0xa128b0: r2 = Null
     //     0xa128b0: mov             x2, NULL
@@ -6338,11 +6338,11 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0xa12914: r0 = of()
     //     0xa12914: bl              #0x5ff63c  ; [package:provider/src/provider.dart] Provider::of
     // 0xa12918: r0 = userRequiresMandatoryPaywall()
-    //     0xa12918: bl              #0x659f08  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userRequiresMandatoryPaywall
+    //     0xa12918: bl              #0x659f08  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userRequiresMandatoryPaywall
     // 0xa1291c: ldur            x1, [fp, #-8]
     // 0xa12920: stur            x0, [fp, #-0x20]
     // 0xa12924: r0 = _shouldInterceptSystemBack()
-    //     0xa12924: bl              #0xa13184  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_shouldInterceptSystemBack
+    //     0xa12924: bl              #0xa13184  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_shouldInterceptSystemBack
     // 0xa12928: eor             x1, x0, #0x10
     // 0xa1292c: ldur            x2, [fp, #-8]
     // 0xa12930: stur            x1, [fp, #-0x38]
@@ -6393,7 +6393,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0xa129b0: StoreField: r3->field_37 = r4
     //     0xa129b0: stur            w4, [x3, #0x37]
     // 0xa129b4: r1 = Function '<anonymous closure>':.
-    //     0xa129b4: add             x1, PP, #0x20, lsl #12  ; [pp+0x20958] AnonymousClosure: (0xa13ff0), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
+    //     0xa129b4: add             x1, PP, #0x20, lsl #12  ; [pp+0x20958] AnonymousClosure: (0xa13ff0), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
     //     0xa129b8: ldr             x1, [x1, #0x958]
     // 0xa129bc: r2 = Null
     //     0xa129bc: mov             x2, NULL
@@ -6440,7 +6440,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa12a1c: stur            w1, [x0, #7]
     // 0xa12a20: ldur            x2, [fp, #-8]
     // 0xa12a24: r1 = Function '_openStreakJourney@983119976':.
-    //     0xa12a24: add             x1, PP, #0x20, lsl #12  ; [pp+0x20960] AnonymousClosure: (0xa13fb8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_openStreakJourney (0xa13b30)
+    //     0xa12a24: add             x1, PP, #0x20, lsl #12  ; [pp+0x20960] AnonymousClosure: (0xa13fb8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_openStreakJourney (0xa13b30)
     //     0xa12a28: ldr             x1, [x1, #0x960]
     // 0xa12a2c: r0 = AllocateClosure()
     //     0xa12a2c: bl              #0xe553e0  ; AllocateClosureStub
@@ -6474,7 +6474,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa12a78: stur            w0, [x3, #0x37]
     // 0xa12a7c: ldur            x2, [fp, #-0x18]
     // 0xa12a80: r1 = Function '<anonymous closure>':.
-    //     0xa12a80: add             x1, PP, #0x20, lsl #12  ; [pp+0x20968] AnonymousClosure: (0xa13f18), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
+    //     0xa12a80: add             x1, PP, #0x20, lsl #12  ; [pp+0x20968] AnonymousClosure: (0xa13f18), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
     //     0xa12a84: ldr             x1, [x1, #0x968]
     // 0xa12a88: r0 = AllocateClosure()
     //     0xa12a88: bl              #0xe553e0  ; AllocateClosureStub
@@ -6573,7 +6573,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0xa12b70: ldur            x4, [fp, #-0x40]
     // 0xa12b74: StoreField: r1->field_1f = r4
     //     0xa12b74: stur            w4, [x1, #0x1f]
-    // 0xa12b78: r0 = InitLateStaticField(0xe1c) // [package:ballai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::hideCount
+    // 0xa12b78: r0 = InitLateStaticField(0xe1c) // [package:kourtai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::hideCount
     //     0xa12b78: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xa12b7c: ldr             x0, [x0, #0x1c38]
     //     0xa12b80: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -6594,8 +6594,8 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0xa12bb0: DecompressPointer r3
     //     0xa12bb0: add             x3, x3, HEAP, lsl #32
     // 0xa12bb4: stur            x3, [fp, #-0x40]
-    // 0xa12bb8: r0 = BallAiBottomNavigation()
-    //     0xa12bb8: bl              #0xa13160  ; AllocateBallAiBottomNavigationStub -> BallAiBottomNavigation (size=0x28)
+    // 0xa12bb8: r0 = KourtAiBottomNavigation()
+    //     0xa12bb8: bl              #0xa13160  ; AllocateKourtAiBottomNavigationStub -> KourtAiBottomNavigation (size=0x28)
     // 0xa12bbc: mov             x3, x0
     // 0xa12bc0: ldur            x0, [fp, #-0x48]
     // 0xa12bc4: stur            x3, [fp, #-0x58]
@@ -6603,7 +6603,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa12bc8: stur            w0, [x3, #0xb]
     // 0xa12bcc: ldur            x2, [fp, #-8]
     // 0xa12bd0: r1 = Function '_onPrimaryTabSelected@983119976':.
-    //     0xa12bd0: add             x1, PP, #0x20, lsl #12  ; [pp+0x20978] AnonymousClosure: (0xa13ed8), of [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState
+    //     0xa12bd0: add             x1, PP, #0x20, lsl #12  ; [pp+0x20978] AnonymousClosure: (0xa13ed8), of [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState
     //     0xa12bd4: ldr             x1, [x1, #0x978]
     // 0xa12bd8: r0 = AllocateClosure()
     //     0xa12bd8: bl              #0xe553e0  ; AllocateClosureStub
@@ -6613,7 +6613,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa12be4: stur            w1, [x0, #0xf]
     // 0xa12be8: ldur            x2, [fp, #-8]
     // 0xa12bec: r1 = Function '_presentRecordFlow@983119976':.
-    //     0xa12bec: add             x1, PP, #0x20, lsl #12  ; [pp+0x20980] AnonymousClosure: (0x659548), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
+    //     0xa12bec: add             x1, PP, #0x20, lsl #12  ; [pp+0x20980] AnonymousClosure: (0x659548), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
     //     0xa12bf0: ldr             x1, [x1, #0x980]
     // 0xa12bf4: r0 = AllocateClosure()
     //     0xa12bf4: bl              #0xe553e0  ; AllocateClosureStub
@@ -6639,7 +6639,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0xa12c2c: StoreField: r3->field_f = r0
     //     0xa12c2c: stur            w0, [x3, #0xf]
     // 0xa12c30: r1 = Function '<anonymous closure>':.
-    //     0xa12c30: add             x1, PP, #0x20, lsl #12  ; [pp+0x20988] AnonymousClosure: (0xa13d6c), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
+    //     0xa12c30: add             x1, PP, #0x20, lsl #12  ; [pp+0x20988] AnonymousClosure: (0xa13d6c), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
     //     0xa12c34: ldr             x1, [x1, #0x988]
     // 0xa12c38: r2 = Null
     //     0xa12c38: mov             x2, NULL
@@ -6743,7 +6743,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa12d2c: stur            w0, [x3, #0xb]
     // 0xa12d30: ldur            x2, [fp, #-0x18]
     // 0xa12d34: r1 = Function '<anonymous closure>':.
-    //     0xa12d34: add             x1, PP, #0x20, lsl #12  ; [pp+0x20998] AnonymousClosure: (0xa13cf4), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
+    //     0xa12d34: add             x1, PP, #0x20, lsl #12  ; [pp+0x20998] AnonymousClosure: (0xa13cf4), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
     //     0xa12d38: ldr             x1, [x1, #0x998]
     // 0xa12d3c: r0 = AllocateClosure()
     //     0xa12d3c: bl              #0xe553e0  ; AllocateClosureStub
@@ -6753,7 +6753,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa12d48: stur            w1, [x0, #0xf]
     // 0xa12d4c: ldur            x2, [fp, #-0x18]
     // 0xa12d50: r1 = Function '<anonymous closure>':.
-    //     0xa12d50: add             x1, PP, #0x20, lsl #12  ; [pp+0x209a0] AnonymousClosure: (0x65a074), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
+    //     0xa12d50: add             x1, PP, #0x20, lsl #12  ; [pp+0x209a0] AnonymousClosure: (0x65a074), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
     //     0xa12d54: ldr             x1, [x1, #0x9a0]
     // 0xa12d58: r0 = AllocateClosure()
     //     0xa12d58: bl              #0xe553e0  ; AllocateClosureStub
@@ -6763,7 +6763,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa12d64: stur            w1, [x0, #0x13]
     // 0xa12d68: ldur            x2, [fp, #-8]
     // 0xa12d6c: r1 = Function '_setupVipSupport@983119976':.
-    //     0xa12d6c: add             x1, PP, #0x20, lsl #12  ; [pp+0x209a8] AnonymousClosure: (0xa13c3c), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_setupVipSupport (0xa13c74)
+    //     0xa12d6c: add             x1, PP, #0x20, lsl #12  ; [pp+0x209a8] AnonymousClosure: (0xa13c3c), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_setupVipSupport (0xa13c74)
     //     0xa12d70: ldr             x1, [x1, #0x9a8]
     // 0xa12d74: r0 = AllocateClosure()
     //     0xa12d74: bl              #0xe553e0  ; AllocateClosureStub
@@ -6824,16 +6824,16 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa12e10: ldr             x1, [x1, #0x9b0]
     // 0xa12e14: stur            x0, [fp, #-0x28]
     // 0xa12e18: r0 = L()
-    //     0xa12e18: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa12e18: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa12e1c: r1 = "Let\'s hoop!"
     //     0xa12e1c: add             x1, PP, #0x20, lsl #12  ; [pp+0x209b8] "Let\'s hoop!"
     //     0xa12e20: ldr             x1, [x1, #0x9b8]
     // 0xa12e24: stur            x0, [fp, #-0x40]
     // 0xa12e28: r0 = L()
-    //     0xa12e28: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa12e28: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa12e2c: stur            x0, [fp, #-0x48]
     // 0xa12e30: r0 = userHasActiveSubscription()
-    //     0xa12e30: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0xa12e30: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0xa12e34: stur            x0, [fp, #-0x50]
     // 0xa12e38: r0 = BallyFeatureSheetView()
     //     0xa12e38: bl              #0xa13148  ; AllocateBallyFeatureSheetViewStub -> BallyFeatureSheetView (size=0x34)
@@ -6854,7 +6854,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa12e60: stur            w0, [x3, #0x13]
     // 0xa12e64: ldur            x2, [fp, #-0x18]
     // 0xa12e68: r1 = Function '<anonymous closure>':.
-    //     0xa12e68: add             x1, PP, #0x20, lsl #12  ; [pp+0x209d0] AnonymousClosure: (0xa13bf4), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
+    //     0xa12e68: add             x1, PP, #0x20, lsl #12  ; [pp+0x209d0] AnonymousClosure: (0xa13bf4), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
     //     0xa12e6c: ldr             x1, [x1, #0x9d0]
     // 0xa12e70: r0 = AllocateClosure()
     //     0xa12e70: bl              #0xe553e0  ; AllocateClosureStub
@@ -6867,7 +6867,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa12e84: stur            w1, [x0, #0x1b]
     // 0xa12e88: ldur            x2, [fp, #-8]
     // 0xa12e8c: r1 = Function '_whatsNewRowCta@983119976':.
-    //     0xa12e8c: add             x1, PP, #0x20, lsl #12  ; [pp+0x209d8] AnonymousClosure: (0xa134a0), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_whatsNewRowCta (0xa134dc)
+    //     0xa12e8c: add             x1, PP, #0x20, lsl #12  ; [pp+0x209d8] AnonymousClosure: (0xa134a0), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_whatsNewRowCta (0xa134dc)
     //     0xa12e90: ldr             x1, [x1, #0x9d8]
     // 0xa12e94: r0 = AllocateClosure()
     //     0xa12e94: bl              #0xe553e0  ; AllocateClosureStub
@@ -7102,7 +7102,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa13104: stur            w0, [x3, #0x17]
     // 0xa13108: ldur            x2, [fp, #-0x18]
     // 0xa1310c: r1 = Function '<anonymous closure>':.
-    //     0xa1310c: add             x1, PP, #0x20, lsl #12  ; [pp+0x209e8] AnonymousClosure: (0xa13318), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
+    //     0xa1310c: add             x1, PP, #0x20, lsl #12  ; [pp+0x209e8] AnonymousClosure: (0xa13318), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
     //     0xa13110: ldr             x1, [x1, #0x9e8]
     // 0xa13114: r0 = AllocateClosure()
     //     0xa13114: bl              #0xe553e0  ; AllocateClosureStub
@@ -7139,14 +7139,14 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa131a4: ldur            w1, [x0, #0x13]
     // 0xa131a8: DecompressPointer r1
     //     0xa131a8: add             x1, x1, HEAP, lsl #32
-    // 0xa131ac: r16 = Instance_BallAiPrimaryDestination
-    //     0xa131ac: add             x16, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!BallAiPrimaryDestination@d3baa1
+    // 0xa131ac: r16 = Instance_KourtAiPrimaryDestination
+    //     0xa131ac: add             x16, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!KourtAiPrimaryDestination@d3baa1
     //     0xa131b0: ldr             x16, [x16, #0xe30]
     // 0xa131b4: cmp             w1, w16
     // 0xa131b8: b.ne            #0xa131d8
     // 0xa131bc: mov             x1, x0
     // 0xa131c0: r0 = _canPopDrillsTabRoute()
-    //     0xa131c0: bl              #0xa132b0  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_canPopDrillsTabRoute
+    //     0xa131c0: bl              #0xa132b0  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_canPopDrillsTabRoute
     // 0xa131c4: tbnz            w0, #4, #0xa131d8
     // 0xa131c8: r0 = true
     //     0xa131c8: add             x0, NULL, #0x20  ; true
@@ -7160,14 +7160,14 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa131dc: ldur            w1, [x0, #0x13]
     // 0xa131e0: DecompressPointer r1
     //     0xa131e0: add             x1, x1, HEAP, lsl #32
-    // 0xa131e4: r16 = Instance_BallAiPrimaryDestination
-    //     0xa131e4: add             x16, PP, #0x20, lsl #12  ; [pp+0x209f0] Obj!BallAiPrimaryDestination@d3bae1
+    // 0xa131e4: r16 = Instance_KourtAiPrimaryDestination
+    //     0xa131e4: add             x16, PP, #0x20, lsl #12  ; [pp+0x209f0] Obj!KourtAiPrimaryDestination@d3bae1
     //     0xa131e8: ldr             x16, [x16, #0x9f0]
     // 0xa131ec: cmp             w1, w16
     // 0xa131f0: b.ne            #0xa13210
     // 0xa131f4: mov             x1, x0
     // 0xa131f8: r0 = _canPopYouTabRoute()
-    //     0xa131f8: bl              #0xa13248  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_canPopYouTabRoute
+    //     0xa131f8: bl              #0xa13248  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_canPopYouTabRoute
     // 0xa131fc: tbnz            w0, #4, #0xa13210
     // 0xa13200: r0 = true
     //     0xa13200: add             x0, NULL, #0x20  ; true
@@ -7181,8 +7181,8 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa13214: ldur            w2, [x1, #0x13]
     // 0xa13218: DecompressPointer r2
     //     0xa13218: add             x2, x2, HEAP, lsl #32
-    // 0xa1321c: r16 = Instance_BallAiPrimaryDestination
-    //     0xa1321c: add             x16, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!BallAiPrimaryDestination@d3baa1
+    // 0xa1321c: r16 = Instance_KourtAiPrimaryDestination
+    //     0xa1321c: add             x16, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!KourtAiPrimaryDestination@d3baa1
     //     0xa13220: ldr             x16, [x16, #0xe30]
     // 0xa13224: cmp             w2, w16
     // 0xa13228: r16 = true
@@ -7308,7 +7308,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa13354: add             x0, x0, HEAP, lsl #32
     // 0xa13358: mov             x1, x0
     // 0xa1335c: r0 = _handleSystemBack()
-    //     0xa1335c: bl              #0xa13378  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_handleSystemBack
+    //     0xa1335c: bl              #0xa13378  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_handleSystemBack
     // 0xa13360: r0 = Null
     //     0xa13360: mov             x0, NULL
     // 0xa13364: LeaveFrame
@@ -7338,14 +7338,14 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa13398: ldur            w1, [x0, #0x13]
     // 0xa1339c: DecompressPointer r1
     //     0xa1339c: add             x1, x1, HEAP, lsl #32
-    // 0xa133a0: r16 = Instance_BallAiPrimaryDestination
-    //     0xa133a0: add             x16, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!BallAiPrimaryDestination@d3baa1
+    // 0xa133a0: r16 = Instance_KourtAiPrimaryDestination
+    //     0xa133a0: add             x16, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!KourtAiPrimaryDestination@d3baa1
     //     0xa133a4: ldr             x16, [x16, #0xe30]
     // 0xa133a8: cmp             w1, w16
     // 0xa133ac: b.ne            #0xa133f8
     // 0xa133b0: mov             x1, x0
     // 0xa133b4: r0 = _canPopDrillsTabRoute()
-    //     0xa133b4: bl              #0xa132b0  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_canPopDrillsTabRoute
+    //     0xa133b4: bl              #0xa132b0  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_canPopDrillsTabRoute
     // 0xa133b8: tbnz            w0, #4, #0xa133f4
     // 0xa133bc: ldur            x0, [fp, #-8]
     // 0xa133c0: LoadField: r1 = r0->field_3f
@@ -7375,14 +7375,14 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa133f8: ldur            w1, [x0, #0x13]
     // 0xa133fc: DecompressPointer r1
     //     0xa133fc: add             x1, x1, HEAP, lsl #32
-    // 0xa13400: r16 = Instance_BallAiPrimaryDestination
-    //     0xa13400: add             x16, PP, #0x20, lsl #12  ; [pp+0x209f0] Obj!BallAiPrimaryDestination@d3bae1
+    // 0xa13400: r16 = Instance_KourtAiPrimaryDestination
+    //     0xa13400: add             x16, PP, #0x20, lsl #12  ; [pp+0x209f0] Obj!KourtAiPrimaryDestination@d3bae1
     //     0xa13404: ldr             x16, [x16, #0x9f0]
     // 0xa13408: cmp             w1, w16
     // 0xa1340c: b.ne            #0xa13460
     // 0xa13410: mov             x1, x0
     // 0xa13414: r0 = _canPopYouTabRoute()
-    //     0xa13414: bl              #0xa13248  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_canPopYouTabRoute
+    //     0xa13414: bl              #0xa13248  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_canPopYouTabRoute
     // 0xa13418: tbnz            w0, #4, #0xa13458
     // 0xa1341c: ldur            x1, [fp, #-8]
     // 0xa13420: LoadField: r0 = r1->field_3b
@@ -7415,16 +7415,16 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa13464: ldur            w0, [x1, #0x13]
     // 0xa13468: DecompressPointer r0
     //     0xa13468: add             x0, x0, HEAP, lsl #32
-    // 0xa1346c: r16 = Instance_BallAiPrimaryDestination
-    //     0xa1346c: add             x16, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!BallAiPrimaryDestination@d3baa1
+    // 0xa1346c: r16 = Instance_KourtAiPrimaryDestination
+    //     0xa1346c: add             x16, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!KourtAiPrimaryDestination@d3baa1
     //     0xa13470: ldr             x16, [x16, #0xe30]
     // 0xa13474: cmp             w0, w16
     // 0xa13478: b.eq            #0xa13488
-    // 0xa1347c: r2 = Instance_BallAiPrimaryDestination
-    //     0xa1347c: add             x2, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!BallAiPrimaryDestination@d3baa1
+    // 0xa1347c: r2 = Instance_KourtAiPrimaryDestination
+    //     0xa1347c: add             x2, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!KourtAiPrimaryDestination@d3baa1
     //     0xa13480: ldr             x2, [x2, #0xe30]
     // 0xa13484: r0 = _selectContentTab()
-    //     0xa13484: bl              #0x953f0c  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
+    //     0xa13484: bl              #0x953f0c  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
     // 0xa13488: r0 = Null
     //     0xa13488: mov             x0, NULL
     // 0xa1348c: LeaveFrame
@@ -7452,7 +7452,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa134bc: b.ls            #0xa134d4
     // 0xa134c0: ldr             x2, [fp, #0x10]
     // 0xa134c4: r0 = _whatsNewRowCta()
-    //     0xa134c4: bl              #0xa134dc  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_whatsNewRowCta
+    //     0xa134c4: bl              #0xa134dc  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_whatsNewRowCta
     // 0xa134c8: LeaveFrame
     //     0xa134c8: mov             SP, fp
     //     0xa134cc: ldp             fp, lr, [SP], #0x10
@@ -7516,7 +7516,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0xa13560: tbnz            w0, #4, #0xa13594
     // 0xa13564: ldur            x2, [fp, #-0x20]
     // 0xa13568: r1 = Function '<anonymous closure>':.
-    //     0xa13568: add             x1, PP, #0x20, lsl #12  ; [pp+0x20a08] AnonymousClosure: (0xa13ad4), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_whatsNewRowCta (0xa134dc)
+    //     0xa13568: add             x1, PP, #0x20, lsl #12  ; [pp+0x20a08] AnonymousClosure: (0xa13ad4), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_whatsNewRowCta (0xa134dc)
     //     0xa1356c: ldr             x1, [x1, #0xa08]
     // 0xa13570: r0 = AllocateClosure()
     //     0xa13570: bl              #0xe553e0  ; AllocateClosureStub
@@ -7579,7 +7579,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0xa1361c: cmp             w1, NULL
     // 0xa13620: b.eq            #0xa13650
     // 0xa13624: r1 = Function '<anonymous closure>':.
-    //     0xa13624: add             x1, PP, #0x20, lsl #12  ; [pp+0x20a38] AnonymousClosure: (0xa13668), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_whatsNewRowCta (0xa134dc)
+    //     0xa13624: add             x1, PP, #0x20, lsl #12  ; [pp+0x20a38] AnonymousClosure: (0xa13668), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_whatsNewRowCta (0xa134dc)
     //     0xa13628: ldr             x1, [x1, #0xa38]
     // 0xa1362c: r0 = AllocateClosure()
     //     0xa1362c: bl              #0xe553e0  ; AllocateClosureStub
@@ -7627,7 +7627,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0xa13694: DecompressPointer r1
     //     0xa13694: add             x1, x1, HEAP, lsl #32
     // 0xa13698: r0 = _dismissWhatsNewSheet()
-    //     0xa13698: bl              #0x8e7710  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_dismissWhatsNewSheet
+    //     0xa13698: bl              #0x8e7710  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_dismissWhatsNewSheet
     // 0xa1369c: ldur            x0, [fp, #-8]
     // 0xa136a0: LoadField: r1 = r0->field_f
     //     0xa136a0: ldur            w1, [x0, #0xf]
@@ -7638,7 +7638,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0xa136ac: DecompressPointer r2
     //     0xa136ac: add             x2, x2, HEAP, lsl #32
     // 0xa136b0: r0 = _openDrillDetailById()
-    //     0xa136b0: bl              #0xa136cc  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_openDrillDetailById
+    //     0xa136b0: bl              #0xa136cc  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_openDrillDetailById
     // 0xa136b4: r0 = Null
     //     0xa136b4: mov             x0, NULL
     // 0xa136b8: LeaveFrame
@@ -7675,7 +7675,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa13700: bl              #0xe5501c  ; AllocateContextStub
     // 0xa13704: stur            x0, [fp, #-0x90]
     // 0xa13708: r0 = fetchPublishedDrills()
-    //     0xa13708: bl              #0x94c2ac  ; [package:ballai/video_tracking/views/drills/data/drill_catalog_repository.dart] DrillCatalogRepository::fetchPublishedDrills
+    //     0xa13708: bl              #0x94c2ac  ; [package:kourtai/video_tracking/views/drills/data/drill_catalog_repository.dart] DrillCatalogRepository::fetchPublishedDrills
     // 0xa1370c: mov             x1, x0
     // 0xa13710: stur            x1, [fp, #-0x98]
     // 0xa13714: r0 = Await()
@@ -7875,7 +7875,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa13978: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa1397c: ldur            x2, [fp, #-0x90]
     // 0xa13980: r1 = Function '<anonymous closure>':.
-    //     0xa13980: add             x1, PP, #0x20, lsl #12  ; [pp+0x20a40] AnonymousClosure: (0xa13a80), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_openDrillDetailById (0xa136cc)
+    //     0xa13980: add             x1, PP, #0x20, lsl #12  ; [pp+0x20a40] AnonymousClosure: (0xa13a80), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_openDrillDetailById (0xa136cc)
     //     0xa13984: ldr             x1, [x1, #0xa40]
     // 0xa13988: stur            x0, [fp, #-0x98]
     // 0xa1398c: r0 = AllocateClosure()
@@ -8022,14 +8022,14 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0xa13b00: DecompressPointer r1
     //     0xa13b00: add             x1, x1, HEAP, lsl #32
     // 0xa13b04: r0 = _dismissWhatsNewSheet()
-    //     0xa13b04: bl              #0x8e7710  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_dismissWhatsNewSheet
+    //     0xa13b04: bl              #0x8e7710  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_dismissWhatsNewSheet
     // 0xa13b08: ldur            x0, [fp, #-8]
     // 0xa13b0c: LoadField: r1 = r0->field_f
     //     0xa13b0c: ldur            w1, [x0, #0xf]
     // 0xa13b10: DecompressPointer r1
     //     0xa13b10: add             x1, x1, HEAP, lsl #32
     // 0xa13b14: r0 = _openStreakJourney()
-    //     0xa13b14: bl              #0xa13b30  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_openStreakJourney
+    //     0xa13b14: bl              #0xa13b30  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_openStreakJourney
     // 0xa13b18: r0 = Null
     //     0xa13b18: mov             x0, NULL
     // 0xa13b1c: LeaveFrame
@@ -8068,7 +8068,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0xa13b6c: r0 = of()
     //     0xa13b6c: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa13b70: r1 = Function '<anonymous closure>':.
-    //     0xa13b70: add             x1, PP, #0x20, lsl #12  ; [pp+0x20e90] AnonymousClosure: (0xa13be8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_openStreakJourney (0xa13b30)
+    //     0xa13b70: add             x1, PP, #0x20, lsl #12  ; [pp+0x20e90] AnonymousClosure: (0xa13be8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_openStreakJourney (0xa13b30)
     //     0xa13b74: ldr             x1, [x1, #0xe90]
     // 0xa13b78: r2 = Null
     //     0xa13b78: mov             x2, NULL
@@ -8142,7 +8142,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa13c18: add             x0, x0, HEAP, lsl #32
     // 0xa13c1c: mov             x1, x0
     // 0xa13c20: r0 = _dismissWhatsNewSheet()
-    //     0xa13c20: bl              #0x8e7710  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_dismissWhatsNewSheet
+    //     0xa13c20: bl              #0x8e7710  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_dismissWhatsNewSheet
     // 0xa13c24: r0 = Null
     //     0xa13c24: mov             x0, NULL
     // 0xa13c28: LeaveFrame
@@ -8169,7 +8169,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa13c54: cmp             SP, x16
     //     0xa13c58: b.ls            #0xa13c6c
     // 0xa13c5c: r0 = _setupVipSupport()
-    //     0xa13c5c: bl              #0xa13c74  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_setupVipSupport
+    //     0xa13c5c: bl              #0xa13c74  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_setupVipSupport
     // 0xa13c60: LeaveFrame
     //     0xa13c60: mov             SP, fp
     //     0xa13c64: ldp             fp, lr, [SP], #0x10
@@ -8254,7 +8254,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0xa13d24: mov             x2, x3
     // 0xa13d28: stur            x0, [fp, #-8]
     // 0xa13d2c: r1 = Function '<anonymous closure>':.
-    //     0xa13d2c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f30] AnonymousClosure: (0x65a054), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
+    //     0xa13d2c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f30] AnonymousClosure: (0x65a054), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
     //     0xa13d30: ldr             x1, [x1, #0xf30]
     // 0xa13d34: r0 = AllocateClosure()
     //     0xa13d34: bl              #0xe553e0  ; AllocateClosureStub
@@ -8268,7 +8268,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0xa13d4c: DecompressPointer r1
     //     0xa13d4c: add             x1, x1, HEAP, lsl #32
     // 0xa13d50: r0 = _maybePresentInitialRecordFlow()
-    //     0xa13d50: bl              #0x659370  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_maybePresentInitialRecordFlow
+    //     0xa13d50: bl              #0x659370  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_maybePresentInitialRecordFlow
     // 0xa13d54: r0 = Null
     //     0xa13d54: mov             x0, NULL
     // 0xa13d58: LeaveFrame
@@ -8337,7 +8337,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0xa13e00: StoreField: r3->field_1b = r0
     //     0xa13e00: stur            w0, [x3, #0x1b]
     // 0xa13e04: r1 = Function '<anonymous closure>':.
-    //     0xa13e04: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f48] AnonymousClosure: (0xa13e3c), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
+    //     0xa13e04: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f48] AnonymousClosure: (0xa13e3c), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
     //     0xa13e08: ldr             x1, [x1, #0xf48]
     // 0xa13e0c: r2 = Null
     //     0xa13e0c: mov             x2, NULL
@@ -8425,7 +8425,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa13ed0: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0xa13ed4: b               #0xa13e54
   }
-  [closure] void _onPrimaryTabSelected(dynamic, BallAiPrimaryDestination) {
+  [closure] void _onPrimaryTabSelected(dynamic, KourtAiPrimaryDestination) {
     // ** addr: 0xa13ed8, size: 0x40
     // 0xa13ed8: EnterFrame
     //     0xa13ed8: stp             fp, lr, [SP, #-0x10]!
@@ -8441,7 +8441,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa13ef4: b.ls            #0xa13f10
     // 0xa13ef8: ldr             x2, [fp, #0x10]
     // 0xa13efc: r0 = _selectContentTab()
-    //     0xa13efc: bl              #0x953f0c  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
+    //     0xa13efc: bl              #0x953f0c  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_selectContentTab
     // 0xa13f00: r0 = Null
     //     0xa13f00: mov             x0, NULL
     // 0xa13f04: LeaveFrame
@@ -8469,7 +8469,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa13f34: cmp             SP, x16
     //     0xa13f38: b.ls            #0xa13f84
     // 0xa13f3c: r1 = Function '<anonymous closure>':.
-    //     0xa13f3c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f58] AnonymousClosure: (0xa13f8c), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
+    //     0xa13f3c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f58] AnonymousClosure: (0xa13f8c), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
     //     0xa13f40: ldr             x1, [x1, #0xf58]
     // 0xa13f44: r0 = AllocateClosure()
     //     0xa13f44: bl              #0xe553e0  ; AllocateClosureStub
@@ -8530,7 +8530,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa13fd0: cmp             SP, x16
     //     0xa13fd4: b.ls            #0xa13fe8
     // 0xa13fd8: r0 = _openStreakJourney()
-    //     0xa13fd8: bl              #0xa13b30  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_openStreakJourney
+    //     0xa13fd8: bl              #0xa13b30  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_openStreakJourney
     // 0xa13fdc: LeaveFrame
     //     0xa13fdc: mov             SP, fp
     //     0xa13fe0: ldp             fp, lr, [SP], #0x10
@@ -8552,7 +8552,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa14000: cmp             SP, x16
     //     0xa14004: b.ls            #0xa14054
     // 0xa14008: r1 = Function '<anonymous closure>':.
-    //     0xa14008: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f60] AnonymousClosure: (0xa1405c), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
+    //     0xa14008: add             x1, PP, #0x20, lsl #12  ; [pp+0x20f60] AnonymousClosure: (0xa1405c), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::build (0xa12868)
     //     0xa1400c: ldr             x1, [x1, #0xf60]
     // 0xa14010: r2 = Null
     //     0xa14010: mov             x2, NULL
@@ -8616,7 +8616,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xa1409c: add             x0, x0, HEAP, lsl #32
     // 0xa140a0: mov             x1, x0
     // 0xa140a4: r0 = isUTrainEmail()
-    //     0xa140a4: bl              #0x651710  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::isUTrainEmail
+    //     0xa140a4: bl              #0x651710  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::isUTrainEmail
     // 0xa140a8: LeaveFrame
     //     0xa140a8: mov             SP, fp
     //     0xa140ac: ldp             fp, lr, [SP], #0x10
@@ -8633,7 +8633,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xb5ada8: mov             fp, SP
     // 0xb5adac: ldr             x2, [fp, #0x10]
     // 0xb5adb0: r1 = Function 'dispose':.
-    //     0xb5adb0: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cd78] AnonymousClosure: (0xb5adc8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::dispose (0xb61b5c)
+    //     0xb5adb0: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cd78] AnonymousClosure: (0xb5adc8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::dispose (0xb61b5c)
     //     0xb5adb4: ldr             x1, [x1, #0xd78]
     // 0xb5adb8: r0 = AllocateClosure()
     //     0xb5adb8: bl              #0xe553e0  ; AllocateClosureStub
@@ -8658,7 +8658,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xb5ade0: cmp             SP, x16
     //     0xb5ade4: b.ls            #0xb5adf8
     // 0xb5ade8: r0 = dispose()
-    //     0xb5ade8: bl              #0xb61b5c  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::dispose
+    //     0xb5ade8: bl              #0xb61b5c  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::dispose
     // 0xb5adec: LeaveFrame
     //     0xb5adec: mov             SP, fp
     //     0xb5adf0: ldp             fp, lr, [SP], #0x10
@@ -8682,7 +8682,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xb61b70: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xb61b74: cmp             SP, x16
     //     0xb61b78: b.ls            #0xb61c58
-    // 0xb61b7c: r0 = InitLateStaticField(0xe34) // [package:ballai/automatic/utility/ui/whats_new_presentation.dart] WhatsNewPresentation::requestToken
+    // 0xb61b7c: r0 = InitLateStaticField(0xe34) // [package:kourtai/automatic/utility/ui/whats_new_presentation.dart] WhatsNewPresentation::requestToken
     //     0xb61b7c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb61b80: ldr             x0, [x0, #0x1c68]
     //     0xb61b84: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -8693,7 +8693,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xb61b98: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0xb61b9c: ldur            x2, [fp, #-8]
     // 0xb61ba0: r1 = Function '_onWhatsNewRequested@983119976':.
-    //     0xb61ba0: add             x1, PP, #0x20, lsl #12  ; [pp+0x20fc8] AnonymousClosure: (0x954aa4), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onWhatsNewRequested (0x954adc)
+    //     0xb61ba0: add             x1, PP, #0x20, lsl #12  ; [pp+0x20fc8] AnonymousClosure: (0x954aa4), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onWhatsNewRequested (0x954adc)
     //     0xb61ba4: ldr             x1, [x1, #0xfc8]
     // 0xb61ba8: stur            x0, [fp, #-0x10]
     // 0xb61bac: r0 = AllocateClosure()
@@ -8702,7 +8702,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0xb61bb4: mov             x2, x0
     // 0xb61bb8: r0 = removeListener()
     //     0xb61bb8: bl              #0x8d74f0  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::removeListener
-    // 0xb61bbc: r0 = InitLateStaticField(0xe20) // [package:ballai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
+    // 0xb61bbc: r0 = InitLateStaticField(0xe20) // [package:kourtai/automatic/utility/ui/home_tab_selection.dart] HomeTabSelection::selected
     //     0xb61bbc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb61bc0: ldr             x0, [x0, #0x1c40]
     //     0xb61bc4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -8713,7 +8713,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xb61bd8: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0xb61bdc: ldur            x2, [fp, #-8]
     // 0xb61be0: r1 = Function '_onHomeTabSelectionChanged@983119976':.
-    //     0xb61be0: add             x1, PP, #0x20, lsl #12  ; [pp+0x20fd0] AnonymousClosure: (0x954b80), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onHomeTabSelectionChanged (0x954bb8)
+    //     0xb61be0: add             x1, PP, #0x20, lsl #12  ; [pp+0x20fd0] AnonymousClosure: (0x954b80), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onHomeTabSelectionChanged (0x954bb8)
     //     0xb61be4: ldr             x1, [x1, #0xfd0]
     // 0xb61be8: stur            x0, [fp, #-0x10]
     // 0xb61bec: r0 = AllocateClosure()
@@ -8732,7 +8732,7 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     // 0xb61c10: b.eq            #0xb61c30
     // 0xb61c14: mov             x2, x0
     // 0xb61c18: r1 = Function '_onDeepLinkChanged@983119976':.
-    //     0xb61c18: add             x1, PP, #0x20, lsl #12  ; [pp+0x20fd8] AnonymousClosure: (0x9548b8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onDeepLinkChanged (0x9548f0)
+    //     0xb61c18: add             x1, PP, #0x20, lsl #12  ; [pp+0x20fd8] AnonymousClosure: (0x9548b8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_onDeepLinkChanged (0x9548f0)
     //     0xb61c1c: ldr             x1, [x1, #0xfd8]
     // 0xb61c20: r0 = AllocateClosure()
     //     0xb61c20: bl              #0xe553e0  ; AllocateClosureStub
@@ -8768,8 +8768,8 @@ class _HomeTabViewState extends __HomeTabViewState&State&WidgetsBindingObserver 
     //     0xb72f80: mov             fp, SP
     // 0xb72f84: AllocStack(0x8)
     //     0xb72f84: sub             SP, SP, #8
-    // 0xb72f88: r2 = Instance_BallAiPrimaryDestination
-    //     0xb72f88: add             x2, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!BallAiPrimaryDestination@d3baa1
+    // 0xb72f88: r2 = Instance_KourtAiPrimaryDestination
+    //     0xb72f88: add             x2, PP, #0x1c, lsl #12  ; [pp+0x1ce30] Obj!KourtAiPrimaryDestination@d3baa1
     //     0xb72f8c: ldr             x2, [x2, #0xe30]
     // 0xb72f90: r0 = false
     //     0xb72f90: add             x0, NULL, #0x30  ; false
@@ -8893,7 +8893,7 @@ class HomeTabView extends StatefulWidget {
     // 0xb72f58: mov             x1, x0
     // 0xb72f5c: stur            x0, [fp, #-8]
     // 0xb72f60: r0 = _HomeTabViewState()
-    //     0xb72f60: bl              #0xb72f7c  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_HomeTabViewState
+    //     0xb72f60: bl              #0xb72f7c  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_HomeTabViewState
     // 0xb72f64: ldur            x0, [fp, #-8]
     // 0xb72f68: LeaveFrame
     //     0xb72f68: mov             SP, fp

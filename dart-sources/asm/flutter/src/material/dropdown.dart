@@ -99,7 +99,7 @@ class _DropdownRoute<C1X0> extends PopupRoute<C1X0> {
     //     0x9aad28: ldur            w0, [x1, #0xb]
     // 0x9aad2c: cbz             w0, #0x9aad60
     // 0x9aad30: r1 = Function '<anonymous closure>':.
-    //     0x9aad30: add             x1, PP, #0x57, lsl #12  ; [pp+0x57fb0] AnonymousClosure: static (0x713694), in [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
+    //     0x9aad30: add             x1, PP, #0x57, lsl #12  ; [pp+0x57fb0] AnonymousClosure: static (0x713694), in [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
     //     0x9aad34: ldr             x1, [x1, #0xfb0]
     // 0x9aad38: r2 = Null
     //     0x9aad38: mov             x2, NULL
@@ -248,7 +248,7 @@ class _DropdownRoute<C1X0> extends PopupRoute<C1X0> {
     // 0x9aaf00: r0 = sublist()
     //     0x9aaf00: bl              #0x7b3ce4  ; [dart:core] _List::sublist
     // 0x9aaf04: r1 = Function '<anonymous closure>':.
-    //     0x9aaf04: add             x1, PP, #0x57, lsl #12  ; [pp+0x57fb8] AnonymousClosure: static (0x713694), in [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
+    //     0x9aaf04: add             x1, PP, #0x57, lsl #12  ; [pp+0x57fb8] AnonymousClosure: static (0x713694), in [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
     //     0x9aaf08: ldr             x1, [x1, #0xfb8]
     // 0x9aaf0c: r2 = Null
     //     0x9aaf0c: mov             x2, NULL

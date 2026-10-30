@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart
 
 // class id: 1049033, size: 0x8
 class :: {
@@ -19,7 +19,7 @@ abstract class __YouSettingsRouteState&State&HomeIslandHiddenRoute extends State
     //     0x989850: cmp             SP, x16
     //     0x989854: b.ls            #0x98986c
     // 0x989858: r0 = requestHide()
-    //     0x989858: bl              #0x8e8320  ; [package:ballai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::requestHide
+    //     0x989858: bl              #0x8e8320  ; [package:kourtai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::requestHide
     // 0x98985c: r0 = Null
     //     0x98985c: mov             x0, NULL
     // 0x989860: LeaveFrame
@@ -38,7 +38,7 @@ abstract class __YouSettingsRouteState&State&HomeIslandHiddenRoute extends State
     //     0xb5c3f8: mov             fp, SP
     // 0xb5c3fc: ldr             x2, [fp, #0x10]
     // 0xb5c400: r1 = Function 'dispose':.
-    //     0xb5c400: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c160] AnonymousClosure: (0xb5c418), in [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose (0xb63788)
+    //     0xb5c400: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c160] AnonymousClosure: (0xb5c418), in [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose (0xb63788)
     //     0xb5c404: ldr             x1, [x1, #0x160]
     // 0xb5c408: r0 = AllocateClosure()
     //     0xb5c408: bl              #0xe553e0  ; AllocateClosureStub
@@ -63,7 +63,7 @@ abstract class __YouSettingsRouteState&State&HomeIslandHiddenRoute extends State
     //     0xb5c430: cmp             SP, x16
     //     0xb5c434: b.ls            #0xb5c448
     // 0xb5c438: r0 = dispose()
-    //     0xb5c438: bl              #0xb63788  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
+    //     0xb5c438: bl              #0xb63788  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] __YouSettingsRouteState&State&HomeIslandHiddenRoute::dispose
     // 0xb5c43c: LeaveFrame
     //     0xb5c43c: mov             SP, fp
     //     0xb5c440: ldp             fp, lr, [SP], #0x10
@@ -83,7 +83,7 @@ abstract class __YouSettingsRouteState&State&HomeIslandHiddenRoute extends State
     //     0xb63794: cmp             SP, x16
     //     0xb63798: b.ls            #0xb637b0
     // 0xb6379c: r0 = releaseHide()
-    //     0xb6379c: bl              #0x8e7ecc  ; [package:ballai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::releaseHide
+    //     0xb6379c: bl              #0x8e7ecc  ; [package:kourtai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::releaseHide
     // 0xb637a0: r0 = Null
     //     0xb637a0: mov             x0, NULL
     // 0xb637a4: LeaveFrame
@@ -251,12 +251,12 @@ class _YouViewBodyState extends State<dynamic> {
     // 0xaa6ae8: ldur            x0, [fp, #-8]
     // 0xaa6aec: mov             x1, x0
     // 0xaa6af0: r0 = _profileWorkouts()
-    //     0xaa6af0: bl              #0xaa71c0  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_profileWorkouts
+    //     0xaa6af0: bl              #0xaa71c0  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_profileWorkouts
     // 0xaa6af4: mov             x1, x0
     // 0xaa6af8: r4 = const [0, 0x1, 0, 0x1, null]
     //     0xaa6af8: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0xaa6afc: r0 = stop()
-    //     0xaa6afc: bl              #0x97f128  ; [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::stop
+    //     0xaa6afc: bl              #0x97f128  ; [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::stop
     // 0xaa6b00: ldur            x0, [fp, #-8]
     // 0xaa6b04: LoadField: r1 = r0->field_b
     //     0xaa6b04: ldur            w1, [x0, #0xb]
@@ -272,7 +272,7 @@ class _YouViewBodyState extends State<dynamic> {
     // 0xaa6b20: ldur            x2, [fp, #-0x10]
     // 0xaa6b24: stur            x3, [fp, #-0x20]
     // 0xaa6b28: r0 = _youAppBar()
-    //     0xaa6b28: bl              #0xaa6f14  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_youAppBar
+    //     0xaa6b28: bl              #0xaa6f14  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_youAppBar
     // 0xaa6b2c: stur            x0, [fp, #-0x28]
     // 0xaa6b30: r0 = Scaffold()
     //     0xaa6b30: bl              #0x9cbb08  ; AllocateScaffoldStub -> Scaffold (size=0x50)
@@ -359,7 +359,7 @@ class _YouViewBodyState extends State<dynamic> {
     // 0xaa6c10: tbnz            w0, #4, #0xaa6c68
     // 0xaa6c14: ldur            x1, [fp, #-0x30]
     // 0xaa6c18: r0 = resolvedTextForUserAvatar()
-    //     0xaa6c18: bl              #0xa995c4  ; [package:ballai/automatic/utility/user/user_avatar_text.dart] ::resolvedTextForUserAvatar
+    //     0xaa6c18: bl              #0xa995c4  ; [package:kourtai/automatic/utility/user/user_avatar_text.dart] ::resolvedTextForUserAvatar
     // 0xaa6c1c: mov             x1, x0
     // 0xaa6c20: r0 = trim()
     //     0xaa6c20: bl              #0x5ed854  ; [dart:core] _StringBase::trim
@@ -400,7 +400,7 @@ class _YouViewBodyState extends State<dynamic> {
     // 0xaa6c90: ldur            x0, [fp, #-0x30]
     // 0xaa6c94: mov             x1, x0
     // 0xaa6c98: r0 = displayBallTag()
-    //     0xaa6c98: bl              #0xaa5dc0  ; [package:ballai/automatic/models/core/user/user_model.dart] ::displayBallTag
+    //     0xaa6c98: bl              #0xaa5dc0  ; [package:kourtai/automatic/models/core/user/user_model.dart] ::displayBallTag
     // 0xaa6c9c: ldur            x3, [fp, #-0x18]
     // 0xaa6ca0: StoreField: r3->field_1b = r0
     //     0xaa6ca0: stur            w0, [x3, #0x1b]
@@ -413,7 +413,7 @@ class _YouViewBodyState extends State<dynamic> {
     // 0xaa6cbc: ldur            x1, [fp, #-0x38]
     // 0xaa6cc0: ldur            x2, [fp, #-0x30]
     // 0xaa6cc4: r0 = resolveCurrentUserFollowerCount()
-    //     0xaa6cc4: bl              #0xa8a3a4  ; [package:ballai/automatic/utility/social/profile_follow_counts.dart] ::resolveCurrentUserFollowerCount
+    //     0xaa6cc4: bl              #0xa8a3a4  ; [package:kourtai/automatic/utility/social/profile_follow_counts.dart] ::resolveCurrentUserFollowerCount
     // 0xaa6cc8: mov             x2, x0
     // 0xaa6ccc: r0 = BoxInt64Instr(r2)
     //     0xaa6ccc: sbfiz           x0, x2, #1, #0x1f
@@ -434,7 +434,7 @@ class _YouViewBodyState extends State<dynamic> {
     // 0xaa6d04: ldur            x1, [fp, #-0x38]
     // 0xaa6d08: ldur            x2, [fp, #-0x30]
     // 0xaa6d0c: r0 = resolveCurrentUserFollowingCount()
-    //     0xaa6d0c: bl              #0xa8a340  ; [package:ballai/automatic/utility/social/profile_follow_counts.dart] ::resolveCurrentUserFollowingCount
+    //     0xaa6d0c: bl              #0xa8a340  ; [package:kourtai/automatic/utility/social/profile_follow_counts.dart] ::resolveCurrentUserFollowingCount
     // 0xaa6d10: mov             x2, x0
     // 0xaa6d14: r0 = BoxInt64Instr(r2)
     //     0xaa6d14: sbfiz           x0, x2, #1, #0x1f
@@ -454,7 +454,7 @@ class _YouViewBodyState extends State<dynamic> {
     //     0xaa6d48: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xaa6d4c: ldur            x1, [fp, #-8]
     // 0xaa6d50: r0 = _profileWorkouts()
-    //     0xaa6d50: bl              #0xaa71c0  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_profileWorkouts
+    //     0xaa6d50: bl              #0xaa71c0  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_profileWorkouts
     // 0xaa6d54: mov             x1, x0
     // 0xaa6d58: ldur            x0, [fp, #-0x30]
     // 0xaa6d5c: LoadField: r2 = r0->field_7
@@ -462,7 +462,7 @@ class _YouViewBodyState extends State<dynamic> {
     // 0xaa6d60: DecompressPointer r2
     //     0xaa6d60: add             x2, x2, HEAP, lsl #32
     // 0xaa6d64: r0 = start()
-    //     0xaa6d64: bl              #0x97ed0c  ; [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::start
+    //     0xaa6d64: bl              #0x97ed0c  ; [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::start
     // 0xaa6d68: ldur            x0, [fp, #-8]
     // 0xaa6d6c: LoadField: r1 = r0->field_b
     //     0xaa6d6c: ldur            w1, [x0, #0xb]
@@ -478,7 +478,7 @@ class _YouViewBodyState extends State<dynamic> {
     // 0xaa6d88: ldur            x2, [fp, #-0x10]
     // 0xaa6d8c: stur            x3, [fp, #-0x20]
     // 0xaa6d90: r0 = _youAppBar()
-    //     0xaa6d90: bl              #0xaa6f14  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_youAppBar
+    //     0xaa6d90: bl              #0xaa6f14  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_youAppBar
     // 0xaa6d94: mov             x2, x0
     // 0xaa6d98: ldur            x0, [fp, #-8]
     // 0xaa6d9c: stur            x2, [fp, #-0x28]
@@ -489,10 +489,10 @@ class _YouViewBodyState extends State<dynamic> {
     // 0xaa6da8: mov             x1, x0
     // 0xaa6dac: stur            x3, [fp, #-0x10]
     // 0xaa6db0: r0 = _profileWorkouts()
-    //     0xaa6db0: bl              #0xaa71c0  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_profileWorkouts
+    //     0xaa6db0: bl              #0xaa71c0  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_profileWorkouts
     // 0xaa6db4: ldur            x2, [fp, #-0x18]
     // 0xaa6db8: r1 = Function '<anonymous closure>':.
-    //     0xaa6db8: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c930] AnonymousClosure: (0xaa7560), in [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::build (0xaa6a3c)
+    //     0xaa6db8: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c930] AnonymousClosure: (0xaa7560), in [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::build (0xaa6a3c)
     //     0xaa6dbc: ldr             x1, [x1, #0x930]
     // 0xaa6dc0: stur            x0, [fp, #-0x18]
     // 0xaa6dc4: r0 = AllocateClosure()
@@ -565,7 +565,7 @@ class _YouViewBodyState extends State<dynamic> {
     //     0xaa6e68: stur            xzr, [x3, #0x17]
     // 0xaa6e6c: ldur            x2, [fp, #-8]
     // 0xaa6e70: r1 = Function '_onPullRefresh@1111300275':.
-    //     0xaa6e70: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c938] AnonymousClosure: (0xaa7350), in [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_onPullRefresh (0xaa7388)
+    //     0xaa6e70: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c938] AnonymousClosure: (0xaa7350), in [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_onPullRefresh (0xaa7388)
     //     0xaa6e74: ldr             x1, [x1, #0x938]
     // 0xaa6e78: r0 = AllocateClosure()
     //     0xaa6e78: bl              #0xe553e0  ; AllocateClosureStub
@@ -666,17 +666,17 @@ class _YouViewBodyState extends State<dynamic> {
     //     0xaa6f58: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c968] "Settings"
     //     0xaa6f5c: ldr             x1, [x1, #0x968]
     // 0xaa6f60: r0 = L()
-    //     0xaa6f60: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa6f60: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa6f64: r1 = "Settings"
     //     0xaa6f64: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c968] "Settings"
     //     0xaa6f68: ldr             x1, [x1, #0x968]
     // 0xaa6f6c: stur            x0, [fp, #-0x20]
     // 0xaa6f70: r0 = L()
-    //     0xaa6f70: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xaa6f70: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xaa6f74: ldur            x1, [fp, #-0x18]
     // 0xaa6f78: stur            x0, [fp, #-0x18]
-    // 0xaa6f7c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xaa6f7c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xaa6f7c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xaa6f7c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xaa6f80: stur            x0, [fp, #-0x28]
     // 0xaa6f84: r0 = Icon()
     //     0xaa6f84: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -701,7 +701,7 @@ class _YouViewBodyState extends State<dynamic> {
     //     0xaa6fb8: stur            w0, [x3, #0xb]
     // 0xaa6fbc: ldur            x2, [fp, #-0x10]
     // 0xaa6fc0: r1 = Function '_openSettings@1111300275':.
-    //     0xaa6fc0: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c978] AnonymousClosure: (0xaa70dc), in [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_openSettings (0xaa7114)
+    //     0xaa6fc0: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c978] AnonymousClosure: (0xaa70dc), in [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_openSettings (0xaa7114)
     //     0xaa6fc4: ldr             x1, [x1, #0x978]
     // 0xaa6fc8: r0 = AllocateClosure()
     //     0xaa6fc8: bl              #0xe553e0  ; AllocateClosureStub
@@ -826,7 +826,7 @@ class _YouViewBodyState extends State<dynamic> {
     //     0xaa70f4: cmp             SP, x16
     //     0xaa70f8: b.ls            #0xaa710c
     // 0xaa70fc: r0 = _openSettings()
-    //     0xaa70fc: bl              #0xaa7114  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_openSettings
+    //     0xaa70fc: bl              #0xaa7114  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_openSettings
     // 0xaa7100: LeaveFrame
     //     0xaa7100: mov             SP, fp
     //     0xaa7104: ldp             fp, lr, [SP], #0x10
@@ -859,7 +859,7 @@ class _YouViewBodyState extends State<dynamic> {
     // 0xaa7144: r0 = of()
     //     0xaa7144: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xaa7148: r1 = Function '<anonymous closure>':.
-    //     0xaa7148: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c998] AnonymousClosure: (0xaa71b4), in [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_openSettings (0xaa7114)
+    //     0xaa7148: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c998] AnonymousClosure: (0xaa71b4), in [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_openSettings (0xaa7114)
     //     0xaa714c: ldr             x1, [x1, #0x998]
     // 0xaa7150: r2 = Null
     //     0xaa7150: mov             x2, NULL
@@ -939,7 +939,7 @@ class _YouViewBodyState extends State<dynamic> {
     // 0xaa7200: mov             x1, x0
     // 0xaa7204: stur            x0, [fp, #-0x10]
     // 0xaa7208: r0 = ProfileWorkoutHistoryNotifier()
-    //     0xaa7208: bl              #0xaa724c  ; [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::ProfileWorkoutHistoryNotifier
+    //     0xaa7208: bl              #0xaa724c  ; [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::ProfileWorkoutHistoryNotifier
     // 0xaa720c: ldur            x0, [fp, #-0x10]
     // 0xaa7210: ldur            x1, [fp, #-8]
     // 0xaa7214: StoreField: r1->field_1b = r0
@@ -977,7 +977,7 @@ class _YouViewBodyState extends State<dynamic> {
     //     0xaa7368: cmp             SP, x16
     //     0xaa736c: b.ls            #0xaa7380
     // 0xaa7370: r0 = _onPullRefresh()
-    //     0xaa7370: bl              #0xaa7388  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_onPullRefresh
+    //     0xaa7370: bl              #0xaa7388  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_onPullRefresh
     // 0xaa7374: LeaveFrame
     //     0xaa7374: mov             SP, fp
     //     0xaa7378: ldp             fp, lr, [SP], #0x10
@@ -1021,7 +1021,7 @@ class _YouViewBodyState extends State<dynamic> {
     //     0xaa73d4: bl              #0x5ff5d4  ; [package:provider/src/provider.dart] ::ReadContext.read
     // 0xaa73d8: mov             x1, x0
     // 0xaa73dc: r0 = refreshCurrentUserProfile()
-    //     0xaa73dc: bl              #0xaa7400  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::refreshCurrentUserProfile
+    //     0xaa73dc: bl              #0xaa7400  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::refreshCurrentUserProfile
     // 0xaa73e0: mov             x1, x0
     // 0xaa73e4: stur            x1, [fp, #-0x10]
     // 0xaa73e8: r0 = Await()
@@ -1076,14 +1076,14 @@ class _YouViewBodyState extends State<dynamic> {
     // 0xaa75bc: mov             x1, x4
     // 0xaa75c0: stur            x4, [fp, #-0x10]
     // 0xaa75c4: r0 = activityToolbarAvatarAbbreviation()
-    //     0xaa75c4: bl              #0xa98fdc  ; [package:ballai/automatic/utility/user/user_avatar_text.dart] ::activityToolbarAvatarAbbreviation
+    //     0xaa75c4: bl              #0xa98fdc  ; [package:kourtai/automatic/utility/user/user_avatar_text.dart] ::activityToolbarAvatarAbbreviation
     // 0xaa75c8: ldur            x0, [fp, #-8]
     // 0xaa75cc: LoadField: r1 = r0->field_f
     //     0xaa75cc: ldur            w1, [x0, #0xf]
     // 0xaa75d0: DecompressPointer r1
     //     0xaa75d0: add             x1, x1, HEAP, lsl #32
     // 0xaa75d4: r0 = _profileWorkouts()
-    //     0xaa75d4: bl              #0xaa71c0  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_profileWorkouts
+    //     0xaa75d4: bl              #0xaa71c0  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_profileWorkouts
     // 0xaa75d8: LoadField: r2 = r0->field_23
     //     0xaa75d8: ldur            w2, [x0, #0x23]
     // 0xaa75dc: DecompressPointer r2
@@ -1095,7 +1095,7 @@ class _YouViewBodyState extends State<dynamic> {
     // 0xaa75ec: DecompressPointer r1
     //     0xaa75ec: add             x1, x1, HEAP, lsl #32
     // 0xaa75f0: r0 = _profileWorkouts()
-    //     0xaa75f0: bl              #0xaa71c0  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_profileWorkouts
+    //     0xaa75f0: bl              #0xaa71c0  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::_profileWorkouts
     // 0xaa75f4: LoadField: r1 = r0->field_27
     //     0xaa75f4: ldur            w1, [x0, #0x27]
     // 0xaa75f8: DecompressPointer r1
@@ -1164,7 +1164,7 @@ class _YouViewBodyState extends State<dynamic> {
     //     0xaa769c: stur            w0, [x3, #0x2f]
     // 0xaa76a0: ldur            x2, [fp, #-0x20]
     // 0xaa76a4: r1 = Function '<anonymous closure>':.
-    //     0xaa76a4: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c940] AnonymousClosure: (0xaa76f4), in [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::build (0xaa6a3c)
+    //     0xaa76a4: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c940] AnonymousClosure: (0xaa76f4), in [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::build (0xaa6a3c)
     //     0xaa76a8: ldr             x1, [x1, #0x940]
     // 0xaa76ac: r0 = AllocateClosure()
     //     0xaa76ac: bl              #0xe553e0  ; AllocateClosureStub
@@ -1216,7 +1216,7 @@ class _YouViewBodyState extends State<dynamic> {
     //     0xaa7714: cmp             SP, x16
     //     0xaa7718: b.ls            #0xaa780c
     // 0xaa771c: r0 = userHasActiveSubscription()
-    //     0xaa771c: bl              #0x72604c  ; [package:ballai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
+    //     0xaa771c: bl              #0x72604c  ; [package:kourtai/automatic/utility/subscription/subscription_gate.dart] ::userHasActiveSubscription
     // 0xaa7720: tbz             w0, #4, #0xaa7798
     // 0xaa7724: ldur            x0, [fp, #-8]
     // 0xaa7728: LoadField: r1 = r0->field_f
@@ -1228,7 +1228,7 @@ class _YouViewBodyState extends State<dynamic> {
     // 0xaa7734: r0 = of()
     //     0xaa7734: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xaa7738: r1 = Function '<anonymous closure>':.
-    //     0xaa7738: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c948] AnonymousClosure: (0xaa7820), in [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::build (0xaa6a3c)
+    //     0xaa7738: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c948] AnonymousClosure: (0xaa7820), in [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::build (0xaa6a3c)
     //     0xaa773c: ldr             x1, [x1, #0x948]
     // 0xaa7740: r2 = Null
     //     0xaa7740: mov             x2, NULL
@@ -1274,7 +1274,7 @@ class _YouViewBodyState extends State<dynamic> {
     // 0xaa77a8: r0 = of()
     //     0xaa77a8: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xaa77ac: r1 = Function '<anonymous closure>':.
-    //     0xaa77ac: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c950] AnonymousClosure: (0xaa7814), in [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::build (0xaa6a3c)
+    //     0xaa77ac: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c950] AnonymousClosure: (0xaa7814), in [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::build (0xaa6a3c)
     //     0xaa77b0: ldr             x1, [x1, #0x950]
     // 0xaa77b4: r2 = Null
     //     0xaa77b4: mov             x2, NULL
@@ -1337,7 +1337,7 @@ class _YouViewBodyState extends State<dynamic> {
     //     0xb5c39c: mov             fp, SP
     // 0xb5c3a0: ldr             x2, [fp, #0x10]
     // 0xb5c3a4: r1 = Function 'dispose':.
-    //     0xb5c3a4: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c158] AnonymousClosure: (0xb5c3bc), in [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::dispose (0xb6372c)
+    //     0xb5c3a4: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c158] AnonymousClosure: (0xb5c3bc), in [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::dispose (0xb6372c)
     //     0xb5c3a8: ldr             x1, [x1, #0x158]
     // 0xb5c3ac: r0 = AllocateClosure()
     //     0xb5c3ac: bl              #0xe553e0  ; AllocateClosureStub
@@ -1362,7 +1362,7 @@ class _YouViewBodyState extends State<dynamic> {
     //     0xb5c3d4: cmp             SP, x16
     //     0xb5c3d8: b.ls            #0xb5c3ec
     // 0xb5c3dc: r0 = dispose()
-    //     0xb5c3dc: bl              #0xb6372c  ; [package:ballai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::dispose
+    //     0xb5c3dc: bl              #0xb6372c  ; [package:kourtai/automatic/views/home/tab/tabs/you/root/you_view.dart] _YouViewBodyState::dispose
     // 0xb5c3e0: LeaveFrame
     //     0xb5c3e0: mov             SP, fp
     //     0xb5c3e4: ldp             fp, lr, [SP], #0x10
@@ -1393,7 +1393,7 @@ class _YouViewBodyState extends State<dynamic> {
     // 0xb63754: cmp             w1, NULL
     // 0xb63758: b.eq            #0xb63764
     // 0xb6375c: r0 = dispose()
-    //     0xb6375c: bl              #0x9be778  ; [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::dispose
+    //     0xb6375c: bl              #0x9be778  ; [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::dispose
     // 0xb63760: ldur            x0, [fp, #-8]
     // 0xb63764: LoadField: r1 = r0->field_13
     //     0xb63764: ldur            w1, [x0, #0x13]
@@ -1507,8 +1507,8 @@ class YouView extends StatelessWidget {
     //     0xc1c8f8: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xc1c8fc: cmp             SP, x16
     //     0xc1c900: b.ls            #0xc1c92c
-    // 0xc1c904: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xc1c904: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xc1c904: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xc1c904: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xc1c908: stur            x0, [fp, #-8]
     // 0xc1c90c: r0 = _YouViewBody()
     //     0xc1c90c: bl              #0xc1c934  ; Allocate_YouViewBodyStub -> _YouViewBody (size=0x18)

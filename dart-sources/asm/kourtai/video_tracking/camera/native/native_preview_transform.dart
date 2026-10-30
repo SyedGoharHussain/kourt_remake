@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/camera/native/native_preview_transform.dart
+// lib: , url: package:kourtai/video_tracking/camera/native/native_preview_transform.dart
 
 // class id: 1049118, size: 0x8
 class :: {
@@ -129,7 +129,7 @@ class NativePreviewTransform extends Object {
     // 0x791624: r1 = Null
     //     0x791624: mov             x1, NULL
     // 0x791628: r0 = NativePreviewTransform.resolve()
-    //     0x791628: bl              #0x791640  ; [package:ballai/video_tracking/camera/native/native_preview_transform.dart] NativePreviewTransform::NativePreviewTransform.resolve
+    //     0x791628: bl              #0x791640  ; [package:kourtai/video_tracking/camera/native/native_preview_transform.dart] NativePreviewTransform::NativePreviewTransform.resolve
     // 0x79162c: LeaveFrame
     //     0x79162c: mov             SP, fp
     //     0x791630: ldp             fp, lr, [SP], #0x10

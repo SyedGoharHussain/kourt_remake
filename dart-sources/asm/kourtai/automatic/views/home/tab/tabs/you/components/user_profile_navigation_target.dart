@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/components/user_profile_navigation_target.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/components/user_profile_navigation_target.dart
 
 // class id: 1049008, size: 0x8
 class :: {

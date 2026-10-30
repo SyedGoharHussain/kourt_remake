@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/session/root_session_state.dart
+// lib: , url: package:kourtai/automatic/app/session/root_session_state.dart
 
 // class id: 1048664, size: 0x8
 class :: {
@@ -99,11 +99,11 @@ class :: {
     // 0x9cd23c: r0 = _interpolate()
     //     0x9cd23c: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0x9cd240: mov             x2, x0
-    // 0x9cd244: r1 = Instance_BallAiLogCategory
-    //     0x9cd244: add             x1, PP, #0x12, lsl #12  ; [pp+0x12d08] Obj!BallAiLogCategory@d3bc21
+    // 0x9cd244: r1 = Instance_KourtAiLogCategory
+    //     0x9cd244: add             x1, PP, #0x12, lsl #12  ; [pp+0x12d08] Obj!KourtAiLogCategory@d3bc21
     //     0x9cd248: ldr             x1, [x1, #0xd08]
     // 0x9cd24c: r0 = info()
-    //     0x9cd24c: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
+    //     0x9cd24c: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
     // 0x9cd250: ldur            x0, [fp, #-0x10]
     // 0x9cd254: cmp             w0, NULL
     // 0x9cd258: b.eq            #0x9cd2cc
@@ -146,11 +146,11 @@ class :: {
     // 0x9cd2b8: r0 = _interpolate()
     //     0x9cd2b8: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0x9cd2bc: mov             x2, x0
-    // 0x9cd2c0: r1 = Instance_BallAiLogCategory
-    //     0x9cd2c0: add             x1, PP, #0x12, lsl #12  ; [pp+0x12d08] Obj!BallAiLogCategory@d3bc21
+    // 0x9cd2c0: r1 = Instance_KourtAiLogCategory
+    //     0x9cd2c0: add             x1, PP, #0x12, lsl #12  ; [pp+0x12d08] Obj!KourtAiLogCategory@d3bc21
     //     0x9cd2c4: ldr             x1, [x1, #0xd08]
     // 0x9cd2c8: r0 = info()
-    //     0x9cd2c8: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
+    //     0x9cd2c8: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
     // 0x9cd2cc: r0 = Null
     //     0x9cd2cc: mov             x0, NULL
     // 0x9cd2d0: LeaveFrame

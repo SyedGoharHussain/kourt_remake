@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/root/browse_teams_preview_section_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/root/browse_teams_preview_section_view.dart
 
 // class id: 1048941, size: 0x8
 class :: {
@@ -17,7 +17,7 @@ class _BrowseTeamsPreviewSectionViewState extends State<dynamic> {
     //     0x9c5390: cmp             SP, x16
     //     0x9c5394: b.ls            #0x9c53ac
     // 0x9c5398: r0 = _reloadIfExclusionsChanged()
-    //     0x9c5398: bl              #0x9c53d4  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/browse_teams_preview_section_view.dart] _BrowseTeamsPreviewSectionViewState::_reloadIfExclusionsChanged
+    //     0x9c5398: bl              #0x9c53d4  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/browse_teams_preview_section_view.dart] _BrowseTeamsPreviewSectionViewState::_reloadIfExclusionsChanged
     // 0x9c539c: r0 = Null
     //     0x9c539c: mov             x0, NULL
     // 0x9c53a0: LeaveFrame
@@ -58,7 +58,7 @@ class _BrowseTeamsPreviewSectionViewState extends State<dynamic> {
     //     0x9c5410: bl              #0x5ff5d4  ; [package:provider/src/provider.dart] ::ReadContext.read
     // 0x9c5414: mov             x1, x0
     // 0x9c5418: r0 = currentTeamIds()
-    //     0x9c5418: bl              #0x938788  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeamIds
+    //     0x9c5418: bl              #0x938788  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeamIds
     // 0x9c541c: mov             x1, x0
     // 0x9c5420: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x9c5420: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
@@ -113,7 +113,7 @@ class _BrowseTeamsPreviewSectionViewState extends State<dynamic> {
     //     0x9c54b0: b.eq            #0x9c54b8
     //     0x9c54b4: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0x9c54b8: r0 = _loadPreview()
-    //     0x9c54b8: bl              #0x9c54d8  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/browse_teams_preview_section_view.dart] _BrowseTeamsPreviewSectionViewState::_loadPreview
+    //     0x9c54b8: bl              #0x9c54d8  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/browse_teams_preview_section_view.dart] _BrowseTeamsPreviewSectionViewState::_loadPreview
     // 0x9c54bc: r0 = Null
     //     0x9c54bc: mov             x0, NULL
     // 0x9c54c0: LeaveFrame
@@ -166,7 +166,7 @@ class _BrowseTeamsPreviewSectionViewState extends State<dynamic> {
     //     0x9c5530: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x9c5534: ldur            x2, [fp, #-0xb0]
     // 0x9c5538: r1 = Function '<anonymous closure>':.
-    //     0x9c5538: add             x1, PP, #0x43, lsl #12  ; [pp+0x43e38] AnonymousClosure: (0x900cc0), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
+    //     0x9c5538: add             x1, PP, #0x43, lsl #12  ; [pp+0x43e38] AnonymousClosure: (0x900cc0), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
     //     0x9c553c: ldr             x1, [x1, #0xe38]
     // 0x9c5540: r0 = AllocateClosure()
     //     0x9c5540: bl              #0xe553e0  ; AllocateClosureStub
@@ -208,7 +208,7 @@ class _BrowseTeamsPreviewSectionViewState extends State<dynamic> {
     // 0x9c55a4: ldur            x1, [fp, #-0xb8]
     // 0x9c55a8: stur            x0, [fp, #-0xc0]
     // 0x9c55ac: r0 = currentTeamIds()
-    //     0x9c55ac: bl              #0x938788  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeamIds
+    //     0x9c55ac: bl              #0x938788  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeamIds
     // 0x9c55b0: mov             x1, x0
     // 0x9c55b4: r0 = toSet()
     //     0x9c55b4: bl              #0x8b263c  ; [dart:core] _GrowableList::toSet
@@ -223,7 +223,7 @@ class _BrowseTeamsPreviewSectionViewState extends State<dynamic> {
     // 0x9c55d0: r4 = const [0, 0x3, 0, 0x3, null]
     //     0x9c55d0: ldr             x4, [PP, #0x8a0]  ; [pp+0x8a0] List(5) [0, 0x3, 0, 0x3, Null]
     // 0x9c55d4: r0 = fetchSuggestedTeams()
-    //     0x9c55d4: bl              #0x970e80  ; [package:ballai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::fetchSuggestedTeams
+    //     0x9c55d4: bl              #0x970e80  ; [package:kourtai/automatic/app/dependencies/managers/core/user_discovery_manager.dart] UserDiscoveryManager::fetchSuggestedTeams
     // 0x9c55d8: mov             x1, x0
     // 0x9c55dc: stur            x1, [fp, #-0xd0]
     // 0x9c55e0: r0 = Await()
@@ -497,7 +497,7 @@ class _BrowseTeamsPreviewSectionViewState extends State<dynamic> {
     //     0x9c58cc: stur            NULL, [x0, #0x1f]
     // 0x9c58d0: ldur            x2, [fp, #-0xb0]
     // 0x9c58d4: r1 = Function '<anonymous closure>':.
-    //     0x9c58d4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43e40] AnonymousClosure: (0x8e5cc8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
+    //     0x9c58d4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43e40] AnonymousClosure: (0x8e5cc8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
     //     0x9c58d8: ldr             x1, [x1, #0xe40]
     // 0x9c58dc: r0 = AllocateClosure()
     //     0x9c58dc: bl              #0xe553e0  ; AllocateClosureStub
@@ -570,7 +570,7 @@ class _BrowseTeamsPreviewSectionViewState extends State<dynamic> {
     //     0x9c5998: add             x2, x2, HEAP, lsl #32
     // 0x9c599c: ldur            x1, [fp, #-0xb8]
     // 0x9c59a0: r0 = ensureDiscoverableAssetsLoaded()
-    //     0x9c59a0: bl              #0x768dcc  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::ensureDiscoverableAssetsLoaded
+    //     0x9c59a0: bl              #0x768dcc  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::ensureDiscoverableAssetsLoaded
     // 0x9c59a4: ldur            x3, [fp, #-0xe0]
     // 0x9c59a8: ldur            x4, [fp, #-0xd0]
     // 0x9c59ac: ldur            x5, [fp, #-0xf0]
@@ -597,7 +597,7 @@ class _BrowseTeamsPreviewSectionViewState extends State<dynamic> {
     //     0x9c59ec: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x9c59f0: ldur            x2, [fp, #-0xb0]
     // 0x9c59f4: r1 = Function '<anonymous closure>':.
-    //     0x9c59f4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43e48] AnonymousClosure: (0x9c5b10), in [package:ballai/automatic/views/home/tab/tabs/teams/root/browse_teams_preview_section_view.dart] _BrowseTeamsPreviewSectionViewState::_loadPreview (0x9c54d8)
+    //     0x9c59f4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43e48] AnonymousClosure: (0x9c5b10), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/browse_teams_preview_section_view.dart] _BrowseTeamsPreviewSectionViewState::_loadPreview (0x9c54d8)
     //     0x9c59f8: ldr             x1, [x1, #0xe48]
     // 0x9c59fc: r0 = AllocateClosure()
     //     0x9c59fc: bl              #0xe553e0  ; AllocateClosureStub
@@ -614,7 +614,7 @@ class _BrowseTeamsPreviewSectionViewState extends State<dynamic> {
     // 0x9c5a1c: b.eq            #0x9c5a3c
     // 0x9c5a20: ldur            x2, [fp, #-0xb0]
     // 0x9c5a24: r1 = Function '<anonymous closure>':.
-    //     0x9c5a24: add             x1, PP, #0x43, lsl #12  ; [pp+0x43e50] AnonymousClosure: (0x8ef4b8), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
+    //     0x9c5a24: add             x1, PP, #0x43, lsl #12  ; [pp+0x43e50] AnonymousClosure: (0x8ef4b8), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
     //     0x9c5a28: ldr             x1, [x1, #0xe50]
     // 0x9c5a2c: r0 = AllocateClosure()
     //     0x9c5a2c: bl              #0xe553e0  ; AllocateClosureStub
@@ -666,7 +666,7 @@ class _BrowseTeamsPreviewSectionViewState extends State<dynamic> {
     // 0x9c5ab8: b.eq            #0x9c5ad8
     // 0x9c5abc: ldur            x2, [fp, #-0xb0]
     // 0x9c5ac0: r1 = Function '<anonymous closure>':.
-    //     0x9c5ac0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43e50] AnonymousClosure: (0x8ef4b8), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
+    //     0x9c5ac0: add             x1, PP, #0x43, lsl #12  ; [pp+0x43e50] AnonymousClosure: (0x8ef4b8), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_home (0x8ef544)
     //     0x9c5ac4: ldr             x1, [x1, #0xe50]
     // 0x9c5ac8: r0 = AllocateClosure()
     //     0x9c5ac8: bl              #0xe553e0  ; AllocateClosureStub
@@ -770,8 +770,8 @@ class _BrowseTeamsPreviewSectionViewState extends State<dynamic> {
     // 0xa5dd1c: StoreField: r2->field_f = r0
     //     0xa5dd1c: stur            w0, [x2, #0xf]
     // 0xa5dd20: ldur            x1, [fp, #-0x10]
-    // 0xa5dd24: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa5dd24: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa5dd24: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa5dd24: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa5dd28: stur            x0, [fp, #-0x20]
     // 0xa5dd2c: r16 = <TeamManager>
     //     0xa5dd2c: add             x16, PP, #0x11, lsl #12  ; [pp+0x112d8] TypeArguments: <TeamManager>
@@ -784,16 +784,16 @@ class _BrowseTeamsPreviewSectionViewState extends State<dynamic> {
     //     0xa5dd40: bl              #0x5ff63c  ; [package:provider/src/provider.dart] Provider::of
     // 0xa5dd44: ldur            x1, [fp, #-8]
     // 0xa5dd48: r0 = _reloadIfExclusionsChanged()
-    //     0xa5dd48: bl              #0x9c53d4  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/browse_teams_preview_section_view.dart] _BrowseTeamsPreviewSectionViewState::_reloadIfExclusionsChanged
+    //     0xa5dd48: bl              #0x9c53d4  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/browse_teams_preview_section_view.dart] _BrowseTeamsPreviewSectionViewState::_reloadIfExclusionsChanged
     // 0xa5dd4c: r1 = "Browse teams"
     //     0xa5dd4c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43e00] "Browse teams"
     //     0xa5dd50: ldr             x1, [x1, #0xe00]
     // 0xa5dd54: r0 = L()
-    //     0xa5dd54: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa5dd54: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa5dd58: ldur            x1, [fp, #-0x10]
     // 0xa5dd5c: stur            x0, [fp, #-0x28]
-    // 0xa5dd60: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa5dd60: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa5dd60: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa5dd60: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa5dd64: stur            x0, [fp, #-0x30]
     // 0xa5dd68: r0 = TextStyle()
     //     0xa5dd68: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -877,7 +877,7 @@ class _BrowseTeamsPreviewSectionViewState extends State<dynamic> {
     //     0xa5de30: ldr             x1, [x1, #0xe10]
     // 0xa5de34: stur            x0, [fp, #-0x20]
     // 0xa5de38: r0 = L()
-    //     0xa5de38: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa5de38: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa5de3c: stur            x0, [fp, #-0x28]
     // 0xa5de40: r0 = TextStyle()
     //     0xa5de40: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -909,7 +909,7 @@ class _BrowseTeamsPreviewSectionViewState extends State<dynamic> {
     //     0xa5de84: stur            w0, [x3, #0x13]
     // 0xa5de88: ldur            x2, [fp, #-8]
     // 0xa5de8c: r1 = Function '_openBrowseList@1211317321':.
-    //     0xa5de8c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43e18] AnonymousClosure: (0xa5e4e4), in [package:ballai/automatic/views/home/tab/tabs/teams/root/browse_teams_preview_section_view.dart] _BrowseTeamsPreviewSectionViewState::_openBrowseList (0xa5e51c)
+    //     0xa5de8c: add             x1, PP, #0x43, lsl #12  ; [pp+0x43e18] AnonymousClosure: (0xa5e4e4), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/browse_teams_preview_section_view.dart] _BrowseTeamsPreviewSectionViewState::_openBrowseList (0xa5e51c)
     //     0xa5de90: ldr             x1, [x1, #0xe18]
     // 0xa5de94: r0 = AllocateClosure()
     //     0xa5de94: bl              #0xe553e0  ; AllocateClosureStub
@@ -1146,11 +1146,11 @@ class _BrowseTeamsPreviewSectionViewState extends State<dynamic> {
     //     0xa5e0fc: add             x1, PP, #0x43, lsl #12  ; [pp+0x43e20] "No teams to browse right now."
     //     0xa5e100: ldr             x1, [x1, #0xe20]
     // 0xa5e104: r0 = L()
-    //     0xa5e104: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa5e104: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa5e108: ldur            x1, [fp, #-0x10]
     // 0xa5e10c: stur            x0, [fp, #-0x10]
-    // 0xa5e110: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa5e110: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa5e110: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa5e110: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa5e114: stur            x0, [fp, #-0x28]
     // 0xa5e118: r0 = TextStyle()
     //     0xa5e118: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1312,7 +1312,7 @@ class _BrowseTeamsPreviewSectionViewState extends State<dynamic> {
     //     0xa5e2cc: stur            w0, [x3, #0xf]
     // 0xa5e2d0: ldur            x2, [fp, #-0x28]
     // 0xa5e2d4: r1 = Function '<anonymous closure>':.
-    //     0xa5e2d4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43e28] AnonymousClosure: (0xa5e3f8), in [package:ballai/automatic/views/home/tab/tabs/teams/root/browse_teams_preview_section_view.dart] _BrowseTeamsPreviewSectionViewState::build (0xa5dce0)
+    //     0xa5e2d4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43e28] AnonymousClosure: (0xa5e3f8), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/browse_teams_preview_section_view.dart] _BrowseTeamsPreviewSectionViewState::build (0xa5dce0)
     //     0xa5e2d8: ldr             x1, [x1, #0xe28]
     // 0xa5e2dc: r0 = AllocateClosure()
     //     0xa5e2dc: bl              #0xe553e0  ; AllocateClosureStub
@@ -1450,7 +1450,7 @@ class _BrowseTeamsPreviewSectionViewState extends State<dynamic> {
     // 0xa5e430: DecompressPointer r1
     //     0xa5e430: add             x1, x1, HEAP, lsl #32
     // 0xa5e434: r0 = fromString()
-    //     0xa5e434: bl              #0x768108  ; [package:ballai/automatic/models/core/team/team_visibility.dart] TeamVisibility::fromString
+    //     0xa5e434: bl              #0x768108  ; [package:kourtai/automatic/models/core/team/team_visibility.dart] TeamVisibility::fromString
     // 0xa5e438: r16 = Instance_TeamVisibility
     //     0xa5e438: add             x16, PP, #0x13, lsl #12  ; [pp+0x13f70] Obj!TeamVisibility@d3b261
     //     0xa5e43c: ldr             x16, [x16, #0xf70]
@@ -1481,7 +1481,7 @@ class _BrowseTeamsPreviewSectionViewState extends State<dynamic> {
     //     0xa5e478: add             x1, x1, HEAP, lsl #32
     // 0xa5e47c: ldur            x2, [fp, #-8]
     // 0xa5e480: r0 = _joinPublicFromBrowse()
-    //     0xa5e480: bl              #0x813f90  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/teams_view.dart] _JoinTeamHubViewState::_joinPublicFromBrowse
+    //     0xa5e480: bl              #0x813f90  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/teams_view.dart] _JoinTeamHubViewState::_joinPublicFromBrowse
     // 0xa5e484: b               #0xa5e4c4
     // 0xa5e488: ldur            x0, [fp, #-0x10]
     // 0xa5e48c: LoadField: r1 = r0->field_b
@@ -1508,7 +1508,7 @@ class _BrowseTeamsPreviewSectionViewState extends State<dynamic> {
     //     0xa5e4b8: add             x1, x1, HEAP, lsl #32
     // 0xa5e4bc: ldur            x2, [fp, #-8]
     // 0xa5e4c0: r0 = _showEnterCodeDialog()
-    //     0xa5e4c0: bl              #0xa5c4d4  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/teams_view.dart] _JoinTeamHubViewState::_showEnterCodeDialog
+    //     0xa5e4c0: bl              #0xa5c4d4  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/teams_view.dart] _JoinTeamHubViewState::_showEnterCodeDialog
     // 0xa5e4c4: r0 = Null
     //     0xa5e4c4: mov             x0, NULL
     // 0xa5e4c8: LeaveFrame
@@ -1539,7 +1539,7 @@ class _BrowseTeamsPreviewSectionViewState extends State<dynamic> {
     //     0xa5e4fc: cmp             SP, x16
     //     0xa5e500: b.ls            #0xa5e514
     // 0xa5e504: r0 = _openBrowseList()
-    //     0xa5e504: bl              #0xa5e51c  ; [package:ballai/automatic/views/home/tab/tabs/teams/root/browse_teams_preview_section_view.dart] _BrowseTeamsPreviewSectionViewState::_openBrowseList
+    //     0xa5e504: bl              #0xa5e51c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/root/browse_teams_preview_section_view.dart] _BrowseTeamsPreviewSectionViewState::_openBrowseList
     // 0xa5e508: LeaveFrame
     //     0xa5e508: mov             SP, fp
     //     0xa5e50c: ldp             fp, lr, [SP], #0x10
@@ -1607,7 +1607,7 @@ class _BrowseTeamsPreviewSectionViewState extends State<dynamic> {
     //     0xa5e5ac: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa5e5b0: ldur            x2, [fp, #-0x10]
     // 0xa5e5b4: r1 = Function '<anonymous closure>':.
-    //     0xa5e5b4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43e30] AnonymousClosure: (0xa5e620), in [package:ballai/automatic/views/home/tab/tabs/teams/root/browse_teams_preview_section_view.dart] _BrowseTeamsPreviewSectionViewState::_openBrowseList (0xa5e51c)
+    //     0xa5e5b4: add             x1, PP, #0x43, lsl #12  ; [pp+0x43e30] AnonymousClosure: (0xa5e620), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/browse_teams_preview_section_view.dart] _BrowseTeamsPreviewSectionViewState::_openBrowseList (0xa5e51c)
     //     0xa5e5b8: ldr             x1, [x1, #0xe30]
     // 0xa5e5bc: stur            x0, [fp, #-8]
     // 0xa5e5c0: r0 = AllocateClosure()
@@ -1670,7 +1670,7 @@ class _BrowseTeamsPreviewSectionViewState extends State<dynamic> {
     // 0xa5e64c: DecompressPointer r1
     //     0xa5e64c: add             x1, x1, HEAP, lsl #32
     // 0xa5e650: r0 = currentTeamIds()
-    //     0xa5e650: bl              #0x938788  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeamIds
+    //     0xa5e650: bl              #0x938788  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeamIds
     // 0xa5e654: mov             x1, x0
     // 0xa5e658: ldur            x0, [fp, #-8]
     // 0xa5e65c: stur            x1, [fp, #-0x20]

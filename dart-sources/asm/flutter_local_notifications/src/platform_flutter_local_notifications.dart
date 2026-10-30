@@ -920,7 +920,7 @@ class AndroidFlutterLocalNotificationsPlugin extends MethodChannelFlutterLocalNo
     // 0x65dd1c: StoreField: r1->field_7 = r0
     //     0x65dd1c: stur            w0, [x1, #7]
     // 0x65dd20: r0 = _onTap()
-    //     0x65dd20: bl              #0x65de34  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_onTap
+    //     0x65dd20: bl              #0x65de34  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::_onTap
     // 0x65dd24: r0 = Null
     //     0x65dd24: mov             x0, NULL
     // 0x65dd28: r0 = ReturnAsyncNotFuture()

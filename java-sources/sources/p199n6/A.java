@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.res.AssetFileDescriptor;
 import android.os.SystemClock;
 import android.util.Log;
-import ball_ai.android.camera.YoloNative;
+import kourt_ai.android.camera.YoloNative;
 import com.amazon.a.a.o.b.f;
 import java.io.FileInputStream;
 import java.io.IOException;

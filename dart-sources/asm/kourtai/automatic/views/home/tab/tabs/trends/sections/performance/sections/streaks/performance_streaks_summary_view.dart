@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/performance/sections/streaks/performance_streaks_summary_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/performance/sections/streaks/performance_streaks_summary_view.dart
 
 // class id: 1048981, size: 0x8
 class :: {
@@ -22,7 +22,7 @@ class :: {
     // 0xc073b8: r0 = _GrowableList.of()
     //     0xc073b8: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0xc073bc: r1 = Function '<anonymous closure>': static.
-    //     0xc073bc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d5c8] AnonymousClosure: (0x8f6a60), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
+    //     0xc073bc: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d5c8] AnonymousClosure: (0x8f6a60), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
     //     0xc073c0: ldr             x1, [x1, #0x5c8]
     // 0xc073c4: r2 = Null
     //     0xc073c4: mov             x2, NULL
@@ -285,8 +285,8 @@ class _Stat extends StatelessWidget {
     //     0xc07690: add             x3, x3, HEAP, lsl #32
     // 0xc07694: ldur            x1, [fp, #-0x20]
     // 0xc07698: stur            x3, [fp, #-8]
-    // 0xc0769c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc0769c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc0769c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc0769c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc076a0: stur            x0, [fp, #-0x10]
     // 0xc076a4: r0 = TextStyle()
     //     0xc076a4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -457,10 +457,10 @@ class PerformanceStreaksSummaryView extends StatelessWidget {
     //     0xc07148: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d5a0] "No shots tracked in this period yet."
     //     0xc0714c: ldr             x1, [x1, #0x5a0]
     // 0xc07150: r0 = L()
-    //     0xc07150: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc07150: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc07154: stur            x0, [fp, #-0x18]
-    // 0xc07158: r0 = BallAiEmptyState()
-    //     0xc07158: bl              #0xa63934  ; AllocateBallAiEmptyStateStub -> BallAiEmptyState (size=0x14)
+    // 0xc07158: r0 = KourtAiEmptyState()
+    //     0xc07158: bl              #0xa63934  ; AllocateKourtAiEmptyStateStub -> KourtAiEmptyState (size=0x14)
     // 0xc0715c: mov             x1, x0
     // 0xc07160: ldur            x0, [fp, #-0x18]
     // 0xc07164: StoreField: r1->field_b = r0
@@ -478,7 +478,7 @@ class PerformanceStreaksSummaryView extends StatelessWidget {
     //     0xc07180: ret             
     // 0xc07184: ldur            x1, [fp, #-8]
     // 0xc07188: r0 = computeStreaks()
-    //     0xc07188: bl              #0xc07394  ; [package:ballai/automatic/views/home/tab/tabs/trends/sections/performance/sections/streaks/performance_streaks_summary_view.dart] ::computeStreaks
+    //     0xc07188: bl              #0xc07394  ; [package:kourtai/automatic/views/home/tab/tabs/trends/sections/performance/sections/streaks/performance_streaks_summary_view.dart] ::computeStreaks
     // 0xc0718c: stur            x0, [fp, #-8]
     // 0xc07190: ArrayLoad: r1 = r0[0]  ; List_4
     //     0xc07190: ldur            w1, [x0, #0x17]
@@ -492,7 +492,7 @@ class PerformanceStreaksSummaryView extends StatelessWidget {
     //     0xc071a4: ldr             x1, [x1, #0x5a8]
     // 0xc071a8: stur            x0, [fp, #-0x18]
     // 0xc071ac: r0 = L()
-    //     0xc071ac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc071ac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc071b0: stur            x0, [fp, #-0x20]
     // 0xc071b4: r0 = _Stat()
     //     0xc071b4: bl              #0xc07388  ; Allocate_StatStub -> _Stat (size=0x18)
@@ -522,7 +522,7 @@ class PerformanceStreaksSummaryView extends StatelessWidget {
     //     0xc071f4: ldr             x1, [x1, #0x5b0]
     // 0xc071f8: stur            x0, [fp, #-0x18]
     // 0xc071fc: r0 = L()
-    //     0xc071fc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc071fc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc07200: stur            x0, [fp, #-0x20]
     // 0xc07204: r0 = _Stat()
     //     0xc07204: bl              #0xc07388  ; Allocate_StatStub -> _Stat (size=0x18)
@@ -566,8 +566,8 @@ class PerformanceStreaksSummaryView extends StatelessWidget {
     // 0xc07270: ldur            x0, [fp, #-0x30]
     // 0xc07274: ldur            x1, [fp, #-0x10]
     // 0xc07278: stur            x4, [fp, #-8]
-    // 0xc0727c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc0727c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc0727c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc0727c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc07280: stur            x0, [fp, #-0x10]
     // 0xc07284: r0 = _Stat()
     //     0xc07284: bl              #0xc07388  ; Allocate_StatStub -> _Stat (size=0x18)

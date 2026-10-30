@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/drills/data/drill_template.dart
+// lib: , url: package:kourtai/video_tracking/views/drills/data/drill_template.dart
 
 // class id: 1049207, size: 0x8
 class :: {
@@ -150,7 +150,7 @@ class :: {
     //     0x5edb0c: cmp             SP, x16
     //     0x5edb10: b.ls            #0x5edb68
     // 0x5edb14: r0 = normalizeDrillLaneKey()
-    //     0x5edb14: bl              #0x5ed8fc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
+    //     0x5edb14: bl              #0x5ed8fc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
     // 0x5edb18: mov             x1, x0
     // 0x5edb1c: stur            x1, [fp, #-8]
     // 0x5edb20: r0 = LoadClassIdInstr(r1)
@@ -432,7 +432,7 @@ class :: {
     //     0x755ec4: blr             lr
     // 0x755ec8: mov             x1, x0
     // 0x755ecc: r0 = fromRaw()
-    //     0x755ecc: bl              #0x755fc0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::fromRaw
+    //     0x755ecc: bl              #0x755fc0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::fromRaw
     // 0x755ed0: cmp             w0, NULL
     // 0x755ed4: b.ne            #0x755ee0
     // 0x755ed8: ldur            x2, [fp, #-0x18]
@@ -1252,7 +1252,7 @@ class :: {
     //     0x756bf0: blr             lr
     // 0x756bf4: mov             x1, x0
     // 0x756bf8: r0 = _intFromDynamic()
-    //     0x756bf8: bl              #0x755c18  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::_intFromDynamic
+    //     0x756bf8: bl              #0x755c18  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::_intFromDynamic
     // 0x756bfc: mov             x4, x0
     // 0x756c00: ldur            x3, [fp, #-8]
     // 0x756c04: stur            x4, [fp, #-0x18]
@@ -1269,7 +1269,7 @@ class :: {
     //     0x756c24: blr             lr
     // 0x756c28: mov             x1, x0
     // 0x756c2c: r0 = _intFromDynamic()
-    //     0x756c2c: bl              #0x755c18  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::_intFromDynamic
+    //     0x756c2c: bl              #0x755c18  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::_intFromDynamic
     // 0x756c30: mov             x3, x0
     // 0x756c34: ldur            x1, [fp, #-8]
     // 0x756c38: stur            x3, [fp, #-0x20]
@@ -1829,12 +1829,12 @@ class :: {
     // 0x757290: mov             x2, x1
     // 0x757294: ldur            x1, [fp, #-8]
     // 0x757298: r0 = _firstTrimmedStringField()
-    //     0x757298: bl              #0x7570b4  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::_firstTrimmedStringField
+    //     0x757298: bl              #0x7570b4  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::_firstTrimmedStringField
     // 0x75729c: cmp             w0, NULL
     // 0x7572a0: b.eq            #0x757324
     // 0x7572a4: mov             x1, x0
     // 0x7572a8: r0 = normalizeDrillLaneKey()
-    //     0x7572a8: bl              #0x5ed8fc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
+    //     0x7572a8: bl              #0x5ed8fc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
     // 0x7572ac: mov             x1, x0
     // 0x7572b0: stur            x1, [fp, #-0x10]
     // 0x7572b4: r0 = LoadClassIdInstr(r1)
@@ -1911,12 +1911,12 @@ class :: {
     // 0x757374: mov             x2, x1
     // 0x757378: ldur            x1, [fp, #-8]
     // 0x75737c: r0 = _firstTrimmedStringField()
-    //     0x75737c: bl              #0x7570b4  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::_firstTrimmedStringField
+    //     0x75737c: bl              #0x7570b4  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::_firstTrimmedStringField
     // 0x757380: cmp             w0, NULL
     // 0x757384: b.eq            #0x757408
     // 0x757388: mov             x1, x0
     // 0x75738c: r0 = normalizeDrillLaneKey()
-    //     0x75738c: bl              #0x5ed8fc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
+    //     0x75738c: bl              #0x5ed8fc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
     // 0x757390: mov             x1, x0
     // 0x757394: stur            x1, [fp, #-8]
     // 0x757398: r0 = LoadClassIdInstr(r1)
@@ -2061,7 +2061,7 @@ class :: {
     //     0x91f2a0: blr             lr
     // 0x91f2a4: ldur            x2, [fp, #-0x20]
     // 0x91f2a8: r1 = Function '<anonymous closure>': static.
-    //     0x91f2a8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27d78] AnonymousClosure: static (0x91f1b0), in [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::letsHoopSpotlightDrills (0x91f1c8)
+    //     0x91f2a8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27d78] AnonymousClosure: static (0x91f1b0), in [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::letsHoopSpotlightDrills (0x91f1c8)
     //     0x91f2ac: ldr             x1, [x1, #0xd78]
     // 0x91f2b0: stur            x0, [fp, #-0x18]
     // 0x91f2b4: r0 = AllocateClosure()
@@ -2130,12 +2130,12 @@ class :: {
     // 0x91f370: b.eq            #0x91f414
     // 0x91f374: mov             x1, x2
     // 0x91f378: r0 = isPublishedInLibrary()
-    //     0x91f378: bl              #0x91f4c4  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isPublishedInLibrary
+    //     0x91f378: bl              #0x91f4c4  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isPublishedInLibrary
     // 0x91f37c: tbnz            w0, #4, #0x91f408
     // 0x91f380: ldur            x0, [fp, #-8]
     // 0x91f384: ldur            x1, [fp, #-0x18]
     // 0x91f388: r0 = belongsToDribblingProductSurface()
-    //     0x91f388: bl              #0x5edb70  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
+    //     0x91f388: bl              #0x5edb70  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
     // 0x91f38c: ldur            x0, [fp, #-8]
     // 0x91f390: LoadField: r1 = r0->field_b
     //     0x91f390: ldur            w1, [x0, #0xb]
@@ -2181,7 +2181,7 @@ class :: {
     // 0x91f408: ldur            x2, [fp, #-8]
     // 0x91f40c: ldur            x1, [fp, #-0x18]
     // 0x91f410: r0 = isDraftInLibrary()
-    //     0x91f410: bl              #0x91f448  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isDraftInLibrary
+    //     0x91f410: bl              #0x91f448  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isDraftInLibrary
     // 0x91f414: ldur            x0, [fp, #-0x28]
     // 0x91f418: ldur            x1, [fp, #-8]
     // 0x91f41c: b               #0x91f2ec
@@ -2213,7 +2213,7 @@ class :: {
     // 0x94c7d8: ldr             x1, [fp, #0x18]
     // 0x94c7dc: ldr             x2, [fp, #0x10]
     // 0x94c7e0: r0 = orderCompareDrills()
-    //     0x94c7e0: bl              #0x94c810  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::orderCompareDrills
+    //     0x94c7e0: bl              #0x94c810  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::orderCompareDrills
     // 0x94c7e4: mov             x2, x0
     // 0x94c7e8: r0 = BoxInt64Instr(r2)
     //     0x94c7e8: sbfiz           x0, x2, #1, #0x1f
@@ -2355,7 +2355,7 @@ class :: {
     // 0xa030e4: mov             x1, x0
     // 0xa030e8: stur            x0, [fp, #-8]
     // 0xa030ec: r0 = fromRaw()
-    //     0xa030ec: bl              #0x755fc0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::fromRaw
+    //     0xa030ec: bl              #0x755fc0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::fromRaw
     // 0xa030f0: cmp             w0, NULL
     // 0xa030f4: b.eq            #0xa03110
     // 0xa030f8: LoadField: r1 = r0->field_f
@@ -2370,7 +2370,7 @@ class :: {
     //     0xa0310c: ret             
     // 0xa03110: ldur            x1, [fp, #-8]
     // 0xa03114: r0 = normalizeDrillLaneKey()
-    //     0xa03114: bl              #0x5ed8fc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
+    //     0xa03114: bl              #0x5ed8fc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
     // 0xa03118: stur            x0, [fp, #-0x10]
     // 0xa0311c: r16 = "three_pointers"
     //     0xa0311c: add             x16, PP, #0x2a, lsl #12  ; [pp+0x2a0b8] "three_pointers"
@@ -2566,7 +2566,7 @@ class :: {
     // 0xab51fc: mov             x1, x2
     // 0xab5200: stur            x2, [fp, #-0x20]
     // 0xab5204: r0 = isAnalyzerDrillId()
-    //     0xab5204: bl              #0x744734  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isAnalyzerDrillId
+    //     0xab5204: bl              #0x744734  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isAnalyzerDrillId
     // 0xab5208: tbz             w0, #4, #0xab5224
     // 0xab520c: ldur            x0, [fp, #-0x28]
     // 0xab5210: LoadField: r1 = r0->field_4b
@@ -2581,7 +2581,7 @@ class :: {
     // 0xab522c: ldur            x2, [fp, #-0x20]
     // 0xab5230: mov             x1, x0
     // 0xab5234: r0 = belongsToDribblingProductSurface()
-    //     0xab5234: bl              #0x5edb70  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
+    //     0xab5234: bl              #0x5edb70  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
     // 0xab5238: ldur            x0, [fp, #-0x20]
     // 0xab523c: r1 = LoadClassIdInstr(r0)
     //     0xab523c: ldur            x1, [x0, #-1]
@@ -2665,7 +2665,7 @@ class :: {
     // 0xab5330: b               #0xab51a8
     // 0xab5334: ldur            x3, [fp, #-0x18]
     // 0xab5338: r1 = Function '<anonymous closure>': static.
-    //     0xab5338: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fe58] AnonymousClosure: static (0xab5804), in [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::catalogBallyShapeDrills (0xab511c)
+    //     0xab5338: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fe58] AnonymousClosure: static (0xab5804), in [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::catalogBallyShapeDrills (0xab511c)
     //     0xab533c: ldr             x1, [x1, #0xe58]
     // 0xab5340: r2 = Null
     //     0xab5340: mov             x2, NULL
@@ -2693,7 +2693,7 @@ class :: {
     // 0xab537c: r0 = sort()
     //     0xab537c: bl              #0x7ac5ec  ; [dart:collection] ListBase::sort
     // 0xab5380: r1 = Function '<anonymous closure>': static.
-    //     0xab5380: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fe68] AnonymousClosure: static (0xab5408), in [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::catalogBallyShapeDrills (0xab511c)
+    //     0xab5380: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fe68] AnonymousClosure: static (0xab5408), in [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::catalogBallyShapeDrills (0xab511c)
     //     0xab5384: ldr             x1, [x1, #0xe68]
     // 0xab5388: r2 = Null
     //     0xab5388: mov             x2, NULL
@@ -2759,7 +2759,7 @@ class :: {
     // 0xab5424: DecompressPointer r1
     //     0xab5424: add             x1, x1, HEAP, lsl #32
     // 0xab5428: r0 = isAnalyzerDrillId()
-    //     0xab5428: bl              #0x744734  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isAnalyzerDrillId
+    //     0xab5428: bl              #0x744734  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isAnalyzerDrillId
     // 0xab542c: tbnz            w0, #4, #0xab5448
     // 0xab5430: ldr             x1, [fp, #0x10]
     // 0xab5434: LoadField: r2 = r1->field_4b
@@ -2818,7 +2818,7 @@ class :: {
     //     0xab54d0: add             x4, PP, #0x2f, lsl #12  ; [pp+0x2fe78] List(7) [0, 0x3, 0x1, 0x2, "pinSetupTutorialFirst", 0x2, Null]
     //     0xab54d4: ldr             x4, [x4, #0xe78]
     // 0xab54d8: r0 = compareForLibraryDisplay()
-    //     0xab54d8: bl              #0xab5508  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::compareForLibraryDisplay
+    //     0xab54d8: bl              #0xab5508  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::compareForLibraryDisplay
     // 0xab54dc: mov             x2, x0
     // 0xab54e0: r0 = BoxInt64Instr(r2)
     //     0xab54e0: sbfiz           x0, x2, #1, #0x1f
@@ -2868,18 +2868,18 @@ class :: {
     // 0xab5568: tbnz            w1, #4, #0xab55b4
     // 0xab556c: mov             x1, x2
     // 0xab5570: r0 = isSetupTutorialDrill()
-    //     0xab5570: bl              #0xab5628  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isSetupTutorialDrill
+    //     0xab5570: bl              #0xab5628  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isSetupTutorialDrill
     // 0xab5574: ldur            x1, [fp, #-0x10]
     // 0xab5578: stur            x0, [fp, #-0x18]
     // 0xab557c: r0 = isSetupTutorialDrill()
-    //     0xab557c: bl              #0xab5628  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isSetupTutorialDrill
+    //     0xab557c: bl              #0xab5628  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isSetupTutorialDrill
     // 0xab5580: mov             x1, x0
     // 0xab5584: ldur            x0, [fp, #-0x18]
     // 0xab5588: cmp             w0, w1
     // 0xab558c: b.eq            #0xab55b4
     // 0xab5590: ldur            x1, [fp, #-8]
     // 0xab5594: r0 = isSetupTutorialDrill()
-    //     0xab5594: bl              #0xab5628  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isSetupTutorialDrill
+    //     0xab5594: bl              #0xab5628  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isSetupTutorialDrill
     // 0xab5598: tbnz            w0, #4, #0xab55a4
     // 0xab559c: r0 = -1
     //     0xab559c: mov             x0, #-1
@@ -2965,7 +2965,7 @@ class DrillTemplate extends Object {
     //     0x5ed5ac: b.ls            #0x5ed628
     // 0x5ed5b0: mov             x1, x0
     // 0x5ed5b4: r0 = primaryCategoryKey()
-    //     0x5ed5b4: bl              #0x5ed968  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::primaryCategoryKey
+    //     0x5ed5b4: bl              #0x5ed968  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::primaryCategoryKey
     // 0x5ed5b8: r1 = LoadClassIdInstr(r0)
     //     0x5ed5b8: ldur            x1, [x0, #-1]
     //     0x5ed5bc: ubfx            x1, x1, #0xc, #0x14
@@ -2987,7 +2987,7 @@ class DrillTemplate extends Object {
     //     0x5ed5ec: ret             
     // 0x5ed5f0: ldur            x1, [fp, #-8]
     // 0x5ed5f4: r0 = canonicalSubCategoryGroupKey()
-    //     0x5ed5f4: bl              #0x5ed630  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::canonicalSubCategoryGroupKey
+    //     0x5ed5f4: bl              #0x5ed630  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::canonicalSubCategoryGroupKey
     // 0x5ed5f8: r1 = LoadClassIdInstr(r0)
     //     0x5ed5f8: ldur            x1, [x0, #-1]
     //     0x5ed5fc: ubfx            x1, x1, #0xc, #0x14
@@ -3025,7 +3025,7 @@ class DrillTemplate extends Object {
     //     0x5ed64c: add             x0, x0, HEAP, lsl #32
     // 0x5ed650: mov             x1, x0
     // 0x5ed654: r0 = normalizeDrillLaneKey()
-    //     0x5ed654: bl              #0x5ed8fc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
+    //     0x5ed654: bl              #0x5ed8fc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
     // 0x5ed658: mov             x2, x0
     // 0x5ed65c: r1 = _ConstSet len:8
     //     0x5ed65c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27db0] Set<String>(8)
@@ -3107,7 +3107,7 @@ class DrillTemplate extends Object {
     //     0x5ed740: ret             
     // 0x5ed744: ldur            x1, [fp, #-8]
     // 0x5ed748: r0 = _inferredLaneKeyForPrimaryCategory()
-    //     0x5ed748: bl              #0x5ed760  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::_inferredLaneKeyForPrimaryCategory
+    //     0x5ed748: bl              #0x5ed760  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::_inferredLaneKeyForPrimaryCategory
     // 0x5ed74c: LeaveFrame
     //     0x5ed74c: mov             SP, fp
     //     0x5ed750: ldp             fp, lr, [SP], #0x10
@@ -3149,7 +3149,7 @@ class DrillTemplate extends Object {
     //     0x5ed9b0: ldur            w0, [x1, #7]
     // 0x5ed9b4: cbz             w0, #0x5ed9e4
     // 0x5ed9b8: r0 = canonicalDrillPrimaryKey()
-    //     0x5ed9b8: bl              #0x5edafc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::canonicalDrillPrimaryKey
+    //     0x5ed9b8: bl              #0x5edafc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::canonicalDrillPrimaryKey
     // 0x5ed9bc: mov             x2, x0
     // 0x5ed9c0: r1 = _ConstSet len:5
     //     0x5ed9c0: add             x1, PP, #0x27, lsl #12  ; [pp+0x27d90] Set<String>(5)
@@ -3170,7 +3170,7 @@ class DrillTemplate extends Object {
     // 0x5ed9ec: DecompressPointer r1
     //     0x5ed9ec: add             x1, x1, HEAP, lsl #32
     // 0x5ed9f0: r0 = canonicalDrillPrimaryKey()
-    //     0x5ed9f0: bl              #0x5edafc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::canonicalDrillPrimaryKey
+    //     0x5ed9f0: bl              #0x5edafc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::canonicalDrillPrimaryKey
     // 0x5ed9f4: mov             x2, x0
     // 0x5ed9f8: r1 = _ConstSet len:5
     //     0x5ed9f8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27d90] Set<String>(5)
@@ -3187,7 +3187,7 @@ class DrillTemplate extends Object {
     //     0x5eda18: ret             
     // 0x5eda1c: ldur            x1, [fp, #-8]
     // 0x5eda20: r0 = canonicalSubCategoryGroupKey()
-    //     0x5eda20: bl              #0x5ed630  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::canonicalSubCategoryGroupKey
+    //     0x5eda20: bl              #0x5ed630  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::canonicalSubCategoryGroupKey
     // 0x5eda24: mov             x1, x0
     // 0x5eda28: stur            x1, [fp, #-8]
     // 0x5eda2c: r0 = LoadClassIdInstr(r1)
@@ -3278,7 +3278,7 @@ class DrillTemplate extends Object {
     //     0x5edb8c: b.ls            #0x5edc70
     // 0x5edb90: mov             x1, x0
     // 0x5edb94: r0 = primaryCategoryKey()
-    //     0x5edb94: bl              #0x5ed968  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::primaryCategoryKey
+    //     0x5edb94: bl              #0x5ed968  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::primaryCategoryKey
     // 0x5edb98: r1 = LoadClassIdInstr(r0)
     //     0x5edb98: ldur            x1, [x0, #-1]
     //     0x5edb9c: ubfx            x1, x1, #0xc, #0x14
@@ -3304,7 +3304,7 @@ class DrillTemplate extends Object {
     // 0x5edbd8: DecompressPointer r1
     //     0x5edbd8: add             x1, x1, HEAP, lsl #32
     // 0x5edbdc: r0 = normalizeDrillLaneKey()
-    //     0x5edbdc: bl              #0x5ed8fc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
+    //     0x5edbdc: bl              #0x5ed8fc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
     // 0x5edbe0: mov             x1, x0
     // 0x5edbe4: stur            x1, [fp, #-8]
     // 0x5edbe8: r0 = LoadClassIdInstr(r1)
@@ -3485,7 +3485,7 @@ class DrillTemplate extends Object {
     //     0x744714: add             x0, x0, HEAP, lsl #32
     // 0x744718: mov             x1, x0
     // 0x74471c: r0 = isAnalyzerDrillId()
-    //     0x74471c: bl              #0x744734  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isAnalyzerDrillId
+    //     0x74471c: bl              #0x744734  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isAnalyzerDrillId
     // 0x744720: LeaveFrame
     //     0x744720: mov             SP, fp
     //     0x744724: ldp             fp, lr, [SP], #0x10
@@ -3509,7 +3509,7 @@ class DrillTemplate extends Object {
     //     0x744748: cmp             SP, x16
     //     0x74474c: b.ls            #0x744794
     // 0x744750: r0 = analyzerDrillIds()
-    //     0x744750: bl              #0x74479c  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::analyzerDrillIds
+    //     0x744750: bl              #0x74479c  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::analyzerDrillIds
     // 0x744754: ldur            x1, [fp, #-8]
     // 0x744758: stur            x0, [fp, #-8]
     // 0x74475c: r0 = trim()
@@ -3583,7 +3583,7 @@ class DrillTemplate extends Object {
     //     0x74a8cc: cmp             SP, x16
     //     0x74a8d0: b.ls            #0x74a908
     // 0x74a8d4: r0 = primaryCategoryKey()
-    //     0x74a8d4: bl              #0x5ed968  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::primaryCategoryKey
+    //     0x74a8d4: bl              #0x5ed968  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::primaryCategoryKey
     // 0x74a8d8: r1 = LoadClassIdInstr(r0)
     //     0x74a8d8: ldur            x1, [x0, #-1]
     //     0x74a8dc: ubfx            x1, x1, #0xc, #0x14
@@ -3774,7 +3774,7 @@ class DrillTemplate extends Object {
     // 0x75486c: mov             x1, x0
     // 0x754870: stur            x2, [fp, #-8]
     // 0x754874: r0 = resolveDrillGroupingCategory()
-    //     0x754874: bl              #0x7571ec  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::resolveDrillGroupingCategory
+    //     0x754874: bl              #0x7571ec  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::resolveDrillGroupingCategory
     // 0x754878: ldur            x1, [fp, #-0x10]
     // 0x75487c: r2 = "order"
     //     0x75487c: add             x2, PP, #0x20, lsl #12  ; [pp+0x20ab8] "order"
@@ -3934,7 +3934,7 @@ class DrillTemplate extends Object {
     //     0x754a3c: add             x2, PP, #0x20, lsl #12  ; [pp+0x20ae8] List<String>(5)
     //     0x754a40: ldr             x2, [x2, #0xae8]
     // 0x754a44: r0 = _firstTrimmedStringField()
-    //     0x754a44: bl              #0x7570b4  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::_firstTrimmedStringField
+    //     0x754a44: bl              #0x7570b4  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::_firstTrimmedStringField
     // 0x754a48: cmp             w0, NULL
     // 0x754a4c: b.ne            #0x754a58
     // 0x754a50: r3 = ""
@@ -4012,7 +4012,7 @@ class DrillTemplate extends Object {
     //     0x754b1c: mov             x1, NULL
     // 0x754b20: ldur            x2, [fp, #-0x40]
     // 0x754b24: r0 = _normalizedVideoList()
-    //     0x754b24: bl              #0x756cf8  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::_normalizedVideoList
+    //     0x754b24: bl              #0x756cf8  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::_normalizedVideoList
     // 0x754b28: stur            x0, [fp, #-0x48]
     // 0x754b2c: LoadField: r1 = r0->field_b
     //     0x754b2c: ldur            w1, [x0, #0xb]
@@ -4290,7 +4290,7 @@ class DrillTemplate extends Object {
     // 0x754e48: tbnz            w0, #4, #0x754ee8
     // 0x754e4c: ldur            x0, [fp, #-0x60]
     // 0x754e50: r1 = Function '<anonymous closure>': static.
-    //     0x754e50: add             x1, PP, #0x20, lsl #12  ; [pp+0x20b60] AnonymousClosure: static (0x7546a4), in [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::DrillTemplate.fromFirestore (0x754708)
+    //     0x754e50: add             x1, PP, #0x20, lsl #12  ; [pp+0x20b60] AnonymousClosure: static (0x7546a4), in [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::DrillTemplate.fromFirestore (0x754708)
     //     0x754e54: ldr             x1, [x1, #0xb60]
     // 0x754e58: r2 = Null
     //     0x754e58: mov             x2, NULL
@@ -4992,13 +4992,13 @@ class DrillTemplate extends Object {
     // 0x755634: r1 = Null
     //     0x755634: mov             x1, NULL
     // 0x755638: r0 = _parseDefaultGoal()
-    //     0x755638: bl              #0x756a50  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::_parseDefaultGoal
+    //     0x755638: bl              #0x756a50  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::_parseDefaultGoal
     // 0x75563c: cmp             w0, NULL
     // 0x755640: b.ne            #0x755658
     // 0x755644: ldur            x1, [fp, #-0x80]
     // 0x755648: ldur            x2, [fp, #-0x78]
     // 0x75564c: r0 = _defaultGoalFromLegacy()
-    //     0x75564c: bl              #0x756780  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::_defaultGoalFromLegacy
+    //     0x75564c: bl              #0x756780  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::_defaultGoalFromLegacy
     // 0x755650: mov             x3, x0
     // 0x755654: b               #0x75565c
     // 0x755658: mov             x3, x0
@@ -5314,7 +5314,7 @@ class DrillTemplate extends Object {
     // 0x7559b4: mov             x2, x1
     // 0x7559b8: ldur            x1, [fp, #-0x10]
     // 0x7559bc: r0 = _firstTrimmedStringField()
-    //     0x7559bc: bl              #0x7570b4  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::_firstTrimmedStringField
+    //     0x7559bc: bl              #0x7570b4  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::_firstTrimmedStringField
     // 0x7559c0: r1 = Null
     //     0x7559c0: mov             x1, NULL
     // 0x7559c4: r2 = 4
@@ -5348,7 +5348,7 @@ class DrillTemplate extends Object {
     // 0x755a08: mov             x2, x1
     // 0x755a0c: ldur            x1, [fp, #-0x10]
     // 0x755a10: r0 = _firstTrimmedStringField()
-    //     0x755a10: bl              #0x7570b4  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::_firstTrimmedStringField
+    //     0x755a10: bl              #0x7570b4  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::_firstTrimmedStringField
     // 0x755a14: ldur            x1, [fp, #-0x10]
     // 0x755a18: r2 = "attributeWeights"
     //     0x755a18: add             x2, PP, #0x20, lsl #12  ; [pp+0x20cd0] "attributeWeights"
@@ -5367,7 +5367,7 @@ class DrillTemplate extends Object {
     // 0x755a40: r1 = Null
     //     0x755a40: mov             x1, NULL
     // 0x755a44: r0 = _parseAttributeWeights()
-    //     0x755a44: bl              #0x7563c0  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::_parseAttributeWeights
+    //     0x755a44: bl              #0x7563c0  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::_parseAttributeWeights
     // 0x755a48: ldur            x1, [fp, #-0x10]
     // 0x755a4c: r2 = "attributes"
     //     0x755a4c: add             x2, PP, #0xb, lsl #12  ; [pp+0xb130] "attributes"
@@ -5387,7 +5387,7 @@ class DrillTemplate extends Object {
     //     0x755a74: mov             x1, NULL
     // 0x755a78: ldur            x0, [fp, #-0x48]
     // 0x755a7c: r0 = _normalizedAttributes()
-    //     0x755a7c: bl              #0x755cf8  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::_normalizedAttributes
+    //     0x755a7c: bl              #0x755cf8  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::_normalizedAttributes
     // 0x755a80: mov             x1, x0
     // 0x755a84: ldur            x0, [fp, #-0x48]
     // 0x755a88: stur            x1, [fp, #-0xc8]
@@ -5690,7 +5690,7 @@ class DrillTemplate extends Object {
     //     0x906ef8: b.ls            #0x906fdc
     // 0x906efc: mov             x1, x0
     // 0x906f00: r0 = belongsToDribblingProductSurface()
-    //     0x906f00: bl              #0x5edb70  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
+    //     0x906f00: bl              #0x5edb70  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
     // 0x906f04: tbz             w0, #4, #0x906f18
     // 0x906f08: r0 = false
     //     0x906f08: add             x0, NULL, #0x30  ; false
@@ -6073,14 +6073,14 @@ class DrillTemplate extends Object {
     //     0x999c90: ret             
     // 0x999c94: mov             x1, x0
     // 0x999c98: r0 = belongsToDribblingProductSurface()
-    //     0x999c98: bl              #0x5edb70  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
+    //     0x999c98: bl              #0x5edb70  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
     // 0x999c9c: tbnz            w0, #4, #0x999ca8
     // 0x999ca0: r0 = true
     //     0x999ca0: add             x0, NULL, #0x20  ; true
     // 0x999ca4: b               #0x999cb0
     // 0x999ca8: ldur            x1, [fp, #-8]
     // 0x999cac: r0 = belongsToFinishingProductSurface()
-    //     0x999cac: bl              #0x5ed590  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToFinishingProductSurface
+    //     0x999cac: bl              #0x5ed590  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToFinishingProductSurface
     // 0x999cb0: LeaveFrame
     //     0x999cb0: mov             SP, fp
     //     0x999cb4: ldp             fp, lr, [SP], #0x10
@@ -6131,7 +6131,7 @@ class DrillTemplate extends Object {
     // 0xa02458: DecompressPointer r1
     //     0xa02458: add             x1, x1, HEAP, lsl #32
     // 0xa0245c: r0 = attributeKeysFromWeights()
-    //     0xa0245c: bl              #0xa02624  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::attributeKeysFromWeights
+    //     0xa0245c: bl              #0xa02624  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::attributeKeysFromWeights
     // 0xa02460: mov             x2, x0
     // 0xa02464: stur            x2, [fp, #-8]
     // 0xa02468: r0 = LoadClassIdInstr(r2)
@@ -6152,10 +6152,10 @@ class DrillTemplate extends Object {
     //     0xa02494: ret             
     // 0xa02498: ldur            x1, [fp, #-0x10]
     // 0xa0249c: r0 = canonicalSubCategoryGroupKey()
-    //     0xa0249c: bl              #0x5ed630  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::canonicalSubCategoryGroupKey
+    //     0xa0249c: bl              #0x5ed630  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::canonicalSubCategoryGroupKey
     // 0xa024a0: mov             x1, x0
     // 0xa024a4: r0 = inferredAttributes()
-    //     0xa024a4: bl              #0xa024bc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::inferredAttributes
+    //     0xa024a4: bl              #0xa024bc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::inferredAttributes
     // 0xa024a8: LeaveFrame
     //     0xa024a8: mov             SP, fp
     //     0xa024ac: ldp             fp, lr, [SP], #0x10
@@ -6177,7 +6177,7 @@ class DrillTemplate extends Object {
     //     0xa024cc: cmp             SP, x16
     //     0xa024d0: b.ls            #0xa0261c
     // 0xa024d4: r0 = normalizeDrillLaneKey()
-    //     0xa024d4: bl              #0x5ed8fc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
+    //     0xa024d4: bl              #0x5ed8fc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
     // 0xa024d8: stur            x0, [fp, #-8]
     // 0xa024dc: r16 = "three_pointers"
     //     0xa024dc: add             x16, PP, #0x2a, lsl #12  ; [pp+0x2a0b8] "three_pointers"
@@ -6411,7 +6411,7 @@ class DrillTemplate extends Object {
     // 0xa02740: DecompressPointer r1
     //     0xa02740: add             x1, x1, HEAP, lsl #32
     // 0xa02744: r0 = fromRaw()
-    //     0xa02744: bl              #0x755fc0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::fromRaw
+    //     0xa02744: bl              #0x755fc0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::fromRaw
     // 0xa02748: cmp             w0, NULL
     // 0xa0274c: b.ne            #0xa02758
     // 0xa02750: ldur            x3, [fp, #-0x10]
@@ -6484,7 +6484,7 @@ class DrillTemplate extends Object {
     // 0xa02810: b               #0xa026d0
     // 0xa02814: ldur            x3, [fp, #-0x10]
     // 0xa02818: r1 = Function '<anonymous closure>': static.
-    //     0xa02818: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a118] AnonymousClosure: static (0xa02980), in [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::attributeKeysFromWeights (0xa02624)
+    //     0xa02818: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a118] AnonymousClosure: static (0xa02980), in [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::attributeKeysFromWeights (0xa02624)
     //     0xa0281c: ldr             x1, [x1, #0x118]
     // 0xa02820: r2 = Null
     //     0xa02820: mov             x2, NULL
@@ -6701,7 +6701,7 @@ class DrillTemplate extends Object {
     //     0xa02a54: b.ls            #0xa02b38
     // 0xa02a58: mov             x1, x2
     // 0xa02a5c: r0 = isPublishedInLibrary()
-    //     0xa02a5c: bl              #0x91f4c4  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isPublishedInLibrary
+    //     0xa02a5c: bl              #0x91f4c4  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isPublishedInLibrary
     // 0xa02a60: tbz             w0, #4, #0xa02a74
     // 0xa02a64: r0 = false
     //     0xa02a64: add             x0, NULL, #0x30  ; false
@@ -6712,14 +6712,14 @@ class DrillTemplate extends Object {
     //     0xa02a70: ret             
     // 0xa02a74: ldur            x1, [fp, #-0x10]
     // 0xa02a78: r0 = canonicalDrillPrimaryKey()
-    //     0xa02a78: bl              #0x5edafc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::canonicalDrillPrimaryKey
+    //     0xa02a78: bl              #0x5edafc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::canonicalDrillPrimaryKey
     // 0xa02a7c: ldur            x1, [fp, #-8]
     // 0xa02a80: stur            x0, [fp, #-0x10]
     // 0xa02a84: r0 = primaryCategoryKey()
-    //     0xa02a84: bl              #0x5ed968  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::primaryCategoryKey
+    //     0xa02a84: bl              #0x5ed968  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::primaryCategoryKey
     // 0xa02a88: mov             x1, x0
     // 0xa02a8c: r0 = canonicalDrillPrimaryKey()
-    //     0xa02a8c: bl              #0x5edafc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::canonicalDrillPrimaryKey
+    //     0xa02a8c: bl              #0x5edafc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::canonicalDrillPrimaryKey
     // 0xa02a90: r1 = LoadClassIdInstr(r0)
     //     0xa02a90: ldur            x1, [x0, #-1]
     //     0xa02a94: ubfx            x1, x1, #0xc, #0x14
@@ -6756,7 +6756,7 @@ class DrillTemplate extends Object {
     //     0xa02af0: ldur            w0, [x1, #7]
     // 0xa02af4: cbz             w0, #0xa02b28
     // 0xa02af8: r0 = canonicalDrillPrimaryKey()
-    //     0xa02af8: bl              #0x5edafc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::canonicalDrillPrimaryKey
+    //     0xa02af8: bl              #0x5edafc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::canonicalDrillPrimaryKey
     // 0xa02afc: r1 = LoadClassIdInstr(r0)
     //     0xa02afc: ldur            x1, [x0, #-1]
     //     0xa02b00: ubfx            x1, x1, #0xc, #0x14
@@ -6798,7 +6798,7 @@ class DrillTemplate extends Object {
     //     0xa02d54: b.ls            #0xa02de8
     // 0xa02d58: mov             x1, x0
     // 0xa02d5c: r0 = isPublishedInLibrary()
-    //     0xa02d5c: bl              #0x91f4c4  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isPublishedInLibrary
+    //     0xa02d5c: bl              #0x91f4c4  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isPublishedInLibrary
     // 0xa02d60: tbz             w0, #4, #0xa02d74
     // 0xa02d64: r0 = false
     //     0xa02d64: add             x0, NULL, #0x30  ; false
@@ -6811,14 +6811,14 @@ class DrillTemplate extends Object {
     //     0xa02d74: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a020] "starter"
     //     0xa02d78: ldr             x1, [x1, #0x20]
     // 0xa02d7c: r0 = normalizeDrillLaneKey()
-    //     0xa02d7c: bl              #0x5ed8fc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
+    //     0xa02d7c: bl              #0x5ed8fc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
     // 0xa02d80: ldur            x1, [fp, #-8]
     // 0xa02d84: stur            x0, [fp, #-0x10]
     // 0xa02d88: r0 = canonicalSubCategoryGroupKey()
-    //     0xa02d88: bl              #0x5ed630  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::canonicalSubCategoryGroupKey
+    //     0xa02d88: bl              #0x5ed630  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::canonicalSubCategoryGroupKey
     // 0xa02d8c: mov             x1, x0
     // 0xa02d90: r0 = normalizeDrillLaneKey()
-    //     0xa02d90: bl              #0x5ed8fc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
+    //     0xa02d90: bl              #0x5ed8fc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
     // 0xa02d94: r1 = LoadClassIdInstr(r0)
     //     0xa02d94: ldur            x1, [x0, #-1]
     //     0xa02d98: ubfx            x1, x1, #0xc, #0x14
@@ -6843,7 +6843,7 @@ class DrillTemplate extends Object {
     // 0xa02dd4: r4 = const [0, 0x2, 0, 0x2, null]
     //     0xa02dd4: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0xa02dd8: r0 = belongsToLibraryLane()
-    //     0xa02dd8: bl              #0xa02df0  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToLibraryLane
+    //     0xa02dd8: bl              #0xa02df0  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToLibraryLane
     // 0xa02ddc: LeaveFrame
     //     0xa02ddc: mov             SP, fp
     //     0xa02de0: ldp             fp, lr, [SP], #0x10
@@ -6895,7 +6895,7 @@ class DrillTemplate extends Object {
     //     0xa02e68: stur            w0, [x2, #0xf]
     // 0xa02e6c: mov             x1, x0
     // 0xa02e70: r0 = isPublishedInLibrary()
-    //     0xa02e70: bl              #0x91f4c4  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isPublishedInLibrary
+    //     0xa02e70: bl              #0x91f4c4  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isPublishedInLibrary
     // 0xa02e74: tbz             w0, #4, #0xa02e88
     // 0xa02e78: r0 = false
     //     0xa02e78: add             x0, NULL, #0x30  ; false
@@ -6906,14 +6906,14 @@ class DrillTemplate extends Object {
     //     0xa02e84: ret             
     // 0xa02e88: ldur            x1, [fp, #-0x18]
     // 0xa02e8c: r0 = normalizeDrillLaneKey()
-    //     0xa02e8c: bl              #0x5ed8fc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
+    //     0xa02e8c: bl              #0x5ed8fc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
     // 0xa02e90: ldur            x1, [fp, #-0x10]
     // 0xa02e94: stur            x0, [fp, #-0x28]
     // 0xa02e98: r0 = canonicalSubCategoryGroupKey()
-    //     0xa02e98: bl              #0x5ed630  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::canonicalSubCategoryGroupKey
+    //     0xa02e98: bl              #0x5ed630  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::canonicalSubCategoryGroupKey
     // 0xa02e9c: mov             x1, x0
     // 0xa02ea0: r0 = normalizeDrillLaneKey()
-    //     0xa02ea0: bl              #0x5ed8fc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
+    //     0xa02ea0: bl              #0x5ed8fc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::normalizeDrillLaneKey
     // 0xa02ea4: r1 = LoadClassIdInstr(r0)
     //     0xa02ea4: ldur            x1, [x0, #-1]
     //     0xa02ea8: ubfx            x1, x1, #0xc, #0x14
@@ -6929,7 +6929,7 @@ class DrillTemplate extends Object {
     // 0xa02ed0: b.eq            #0xa02ee8
     // 0xa02ed4: ldur            x1, [fp, #-0x10]
     // 0xa02ed8: r0 = belongsToPrimaryCategory()
-    //     0xa02ed8: bl              #0xa02a30  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToPrimaryCategory
+    //     0xa02ed8: bl              #0xa02a30  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToPrimaryCategory
     // 0xa02edc: LeaveFrame
     //     0xa02edc: mov             SP, fp
     //     0xa02ee0: ldp             fp, lr, [SP], #0x10
@@ -6946,7 +6946,7 @@ class DrillTemplate extends Object {
     // 0xa02efc: ldur            x0, [fp, #-0x20]
     // 0xa02f00: ldur            x1, [fp, #-0x18]
     // 0xa02f04: r0 = _attributeKeyFromLaneOrAttribute()
-    //     0xa02f04: bl              #0xa030c8  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::_attributeKeyFromLaneOrAttribute
+    //     0xa02f04: bl              #0xa030c8  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::_attributeKeyFromLaneOrAttribute
     // 0xa02f08: ldur            x2, [fp, #-0x20]
     // 0xa02f0c: StoreField: r2->field_13 = r0
     //     0xa02f0c: stur            w0, [x2, #0x13]
@@ -6960,7 +6960,7 @@ class DrillTemplate extends Object {
     // 0xa02f2c: cmp             w1, NULL
     // 0xa02f30: b.eq            #0xa02f7c
     // 0xa02f34: r0 = canonicalDrillPrimaryKey()
-    //     0xa02f34: bl              #0x5edafc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::canonicalDrillPrimaryKey
+    //     0xa02f34: bl              #0x5edafc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::canonicalDrillPrimaryKey
     // 0xa02f38: r1 = Null
     //     0xa02f38: mov             x1, NULL
     // 0xa02f3c: r2 = 2
@@ -6992,10 +6992,10 @@ class DrillTemplate extends Object {
     //     0xa02f80: mov             x2, #2
     // 0xa02f84: mov             x1, x0
     // 0xa02f88: r0 = primaryCategoryKey()
-    //     0xa02f88: bl              #0x5ed968  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::primaryCategoryKey
+    //     0xa02f88: bl              #0x5ed968  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::primaryCategoryKey
     // 0xa02f8c: mov             x1, x0
     // 0xa02f90: r0 = canonicalDrillPrimaryKey()
-    //     0xa02f90: bl              #0x5edafc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::canonicalDrillPrimaryKey
+    //     0xa02f90: bl              #0x5edafc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::canonicalDrillPrimaryKey
     // 0xa02f94: r1 = Null
     //     0xa02f94: mov             x1, NULL
     // 0xa02f98: r2 = 2
@@ -7038,7 +7038,7 @@ class DrillTemplate extends Object {
     // 0xa02ffc: ldur            x0, [fp, #-0x28]
     // 0xa03000: ldur            x1, [fp, #-8]
     // 0xa03004: r0 = canonicalDrillPrimaryKey()
-    //     0xa03004: bl              #0x5edafc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::canonicalDrillPrimaryKey
+    //     0xa03004: bl              #0x5edafc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::canonicalDrillPrimaryKey
     // 0xa03008: mov             x2, x0
     // 0xa0300c: ldur            x0, [fp, #-0x28]
     // 0xa03010: stur            x2, [fp, #-8]
@@ -7088,7 +7088,7 @@ class DrillTemplate extends Object {
     // 0xa03094: ldur            x2, [fp, #-0x20]
     // 0xa03098: stur            x0, [fp, #-8]
     // 0xa0309c: r1 = Function '<anonymous closure>':.
-    //     0xa0309c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2db70] AnonymousClosure: (0xa0320c), in [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToLibraryLane (0xa02df0)
+    //     0xa0309c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2db70] AnonymousClosure: (0xa0320c), in [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToLibraryLane (0xa02df0)
     //     0xa030a0: ldr             x1, [x1, #0xb70]
     // 0xa030a4: r0 = AllocateClosure()
     //     0xa030a4: bl              #0xe553e0  ; AllocateClosureStub
@@ -7127,7 +7127,7 @@ class DrillTemplate extends Object {
     //     0xa03238: add             x1, x1, HEAP, lsl #32
     // 0xa0323c: ldr             x2, [fp, #0x10]
     // 0xa03240: r0 = libraryAttributeKeys()
-    //     0xa03240: bl              #0xa0326c  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::libraryAttributeKeys
+    //     0xa03240: bl              #0xa0326c  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::libraryAttributeKeys
     // 0xa03244: mov             x1, x0
     // 0xa03248: ldur            x0, [fp, #-8]
     // 0xa0324c: LoadField: r2 = r0->field_13
@@ -7161,7 +7161,7 @@ class DrillTemplate extends Object {
     //     0xa03288: cmp             SP, x16
     //     0xa0328c: b.ls            #0xa0330c
     // 0xa03290: r0 = canonicalDrillPrimaryKey()
-    //     0xa03290: bl              #0x5edafc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::canonicalDrillPrimaryKey
+    //     0xa03290: bl              #0x5edafc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::canonicalDrillPrimaryKey
     // 0xa03294: stur            x0, [fp, #-0x10]
     // 0xa03298: r1 = 1
     //     0xa03298: mov             x1, #1
@@ -7173,7 +7173,7 @@ class DrillTemplate extends Object {
     //     0xa032a8: stur            w2, [x0, #0xf]
     // 0xa032ac: ldur            x1, [fp, #-8]
     // 0xa032b0: r0 = belongsToPrimaryCategory()
-    //     0xa032b0: bl              #0xa02a30  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToPrimaryCategory
+    //     0xa032b0: bl              #0xa02a30  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToPrimaryCategory
     // 0xa032b4: tbz             w0, #4, #0xa032c8
     // 0xa032b8: r0 = const []
     //     0xa032b8: ldr             x0, [PP, #0x7118]  ; [pp+0x7118] List<String>(0)
@@ -7184,10 +7184,10 @@ class DrillTemplate extends Object {
     //     0xa032c4: ret             
     // 0xa032c8: ldur            x1, [fp, #-8]
     // 0xa032cc: r0 = libraryFilterAttributes()
-    //     0xa032cc: bl              #0xa03314  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::libraryFilterAttributes
+    //     0xa032cc: bl              #0xa03314  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::libraryFilterAttributes
     // 0xa032d0: ldur            x2, [fp, #-0x18]
     // 0xa032d4: r1 = Function '<anonymous closure>':.
-    //     0xa032d4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2db78] AnonymousClosure: (0xa0369c), in [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::libraryAttributeKeys (0xa0326c)
+    //     0xa032d4: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2db78] AnonymousClosure: (0xa0369c), in [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::libraryAttributeKeys (0xa0326c)
     //     0xa032d8: ldr             x1, [x1, #0xb78]
     // 0xa032dc: stur            x0, [fp, #-8]
     // 0xa032e0: r0 = AllocateClosure()
@@ -7260,7 +7260,7 @@ class DrillTemplate extends Object {
     // 0xa0337c: DecompressPointer r1
     //     0xa0337c: add             x1, x1, HEAP, lsl #32
     // 0xa03380: r0 = attributeKeysFromWeights()
-    //     0xa03380: bl              #0xa02624  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::attributeKeysFromWeights
+    //     0xa03380: bl              #0xa02624  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::attributeKeysFromWeights
     // 0xa03384: mov             x3, x0
     // 0xa03388: ldur            x0, [fp, #-8]
     // 0xa0338c: stur            x3, [fp, #-0x20]
@@ -7338,7 +7338,7 @@ class DrillTemplate extends Object {
     // 0xa03450: blr             x9
     // 0xa03454: ldur            x1, [fp, #-0x30]
     // 0xa03458: r0 = fromRaw()
-    //     0xa03458: bl              #0x755fc0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::fromRaw
+    //     0xa03458: bl              #0x755fc0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::fromRaw
     // 0xa0345c: cmp             w0, NULL
     // 0xa03460: b.ne            #0xa0346c
     // 0xa03464: ldur            x2, [fp, #-0x18]
@@ -7412,10 +7412,10 @@ class DrillTemplate extends Object {
     // 0xa03534: ldur            x2, [fp, #-0x18]
     // 0xa03538: ldur            x1, [fp, #-8]
     // 0xa0353c: r0 = canonicalSubCategoryGroupKey()
-    //     0xa0353c: bl              #0x5ed630  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::canonicalSubCategoryGroupKey
+    //     0xa0353c: bl              #0x5ed630  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::canonicalSubCategoryGroupKey
     // 0xa03540: mov             x1, x0
     // 0xa03544: r0 = inferredAttributes()
-    //     0xa03544: bl              #0xa024bc  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::inferredAttributes
+    //     0xa03544: bl              #0xa024bc  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::inferredAttributes
     // 0xa03548: stur            x0, [fp, #-8]
     // 0xa0354c: LoadField: r1 = r0->field_b
     //     0xa0354c: ldur            w1, [x0, #0xb]
@@ -7440,7 +7440,7 @@ class DrillTemplate extends Object {
     // 0xa03584: mov             x1, x4
     // 0xa03588: stur            x5, [fp, #-0x28]
     // 0xa0358c: r0 = fromRaw()
-    //     0xa0358c: bl              #0x755fc0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::fromRaw
+    //     0xa0358c: bl              #0x755fc0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::fromRaw
     // 0xa03590: cmp             w0, NULL
     // 0xa03594: b.ne            #0xa035a0
     // 0xa03598: ldur            x2, [fp, #-0x18]
@@ -7549,7 +7549,7 @@ class DrillTemplate extends Object {
     //     0xa036c0: b.ls            #0xa0378c
     // 0xa036c4: ldr             x1, [fp, #0x10]
     // 0xa036c8: r0 = fromRaw()
-    //     0xa036c8: bl              #0x755fc0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::fromRaw
+    //     0xa036c8: bl              #0x755fc0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::fromRaw
     // 0xa036cc: cmp             w0, NULL
     // 0xa036d0: b.ne            #0xa036e4
     // 0xa036d4: r0 = false
@@ -7598,7 +7598,7 @@ class DrillTemplate extends Object {
     //     0xa0375c: ldr             x1, [x1, #0x70]
     // 0xa03760: ldur            x0, [fp, #-8]
     // 0xa03764: r0 = storedPrimaryForFocus()
-    //     0xa03764: bl              #0xa03794  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] ::storedPrimaryForFocus
+    //     0xa03764: bl              #0xa03794  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] ::storedPrimaryForFocus
     // 0xa03768: mov             x1, x0
     // 0xa0376c: ldur            x0, [fp, #-8]
     // 0xa03770: LoadField: r2 = r0->field_f
@@ -7924,7 +7924,7 @@ class DrillTemplate extends Object {
     // 0xabaa4c: ldur            x1, [fp, #-8]
     // 0xabaa50: stur            x0, [fp, #-8]
     // 0xabaa54: r0 = resolvedAttributes()
-    //     0xabaa54: bl              #0xa023f4  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::resolvedAttributes
+    //     0xabaa54: bl              #0xa023f4  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::resolvedAttributes
     // 0xabaa58: r1 = LoadClassIdInstr(r0)
     //     0xabaa58: ldur            x1, [x0, #-1]
     //     0xabaa5c: ubfx            x1, x1, #0xc, #0x14
@@ -7963,7 +7963,7 @@ class DrillTemplate extends Object {
     //     0xabaac8: blr             lr
     // 0xabaacc: mov             x1, x0
     // 0xabaad0: r0 = fromRaw()
-    //     0xabaad0: bl              #0x755fc0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::fromRaw
+    //     0xabaad0: bl              #0x755fc0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::fromRaw
     // 0xabaad4: cmp             w0, NULL
     // 0xabaad8: b.ne            #0xabaae4
     // 0xabaadc: ldur            x2, [fp, #-8]
@@ -7971,7 +7971,7 @@ class DrillTemplate extends Object {
     // 0xabaae4: ldur            x2, [fp, #-8]
     // 0xabaae8: mov             x1, x0
     // 0xabaaec: r0 = displayTitle()
-    //     0xabaaec: bl              #0x9ef9ac  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::displayTitle
+    //     0xabaaec: bl              #0x9ef9ac  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_support.dart] AccountSetupFocusAttribute::displayTitle
     // 0xabaaf0: mov             x2, x0
     // 0xabaaf4: ldur            x0, [fp, #-8]
     // 0xabaaf8: stur            x2, [fp, #-0x20]

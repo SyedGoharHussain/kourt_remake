@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/home/teams/team_type_option.dart
+// lib: , url: package:kourtai/automatic/viewmodels/home/teams/team_type_option.dart
 
 // class id: 1048773, size: 0x8
 class :: {

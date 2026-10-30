@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/createteam/components/team_creation_choice_tile.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/createteam/components/team_creation_choice_tile.dart
 
 // class id: 1048927, size: 0x8
 class :: {
@@ -55,8 +55,8 @@ class TeamCreationChoiceTile extends StatelessWidget {
     // 0xbfac48: stur            x2, [fp, #-0x20]
     // 0xbfac4c: tbnz            w2, #4, #0xbfac60
     // 0xbfac50: ldur            x1, [fp, #-0x10]
-    // 0xbfac54: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xbfac54: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xbfac54: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xbfac54: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xbfac58: mov             x2, x0
     // 0xbfac5c: b               #0xbfac64
     // 0xbfac60: r2 = Instance_Color
@@ -65,8 +65,8 @@ class TeamCreationChoiceTile extends StatelessWidget {
     // 0xbfac68: stur            x2, [fp, #-0x28]
     // 0xbfac6c: tbnz            w0, #4, #0xbfac80
     // 0xbfac70: ldur            x1, [fp, #-0x10]
-    // 0xbfac74: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbfac74: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbfac74: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbfac74: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbfac78: mov             x1, x0
     // 0xbfac7c: b               #0xbfac84
     // 0xbfac80: r1 = Instance_Color
@@ -110,8 +110,8 @@ class TeamCreationChoiceTile extends StatelessWidget {
     //     0xbface0: add             x1, x1, HEAP, lsl #32
     // 0xbface4: tbnz            w1, #4, #0xbfacf8
     // 0xbface8: ldur            x1, [fp, #-0x10]
-    // 0xbfacec: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xbfacec: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xbfacec: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xbfacec: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xbfacf0: mov             x4, x0
     // 0xbfacf4: b               #0xbfacfc
     // 0xbfacf8: ldur            x4, [fp, #-0x20]
@@ -340,7 +340,7 @@ class TeamCreationChoiceTile extends StatelessWidget {
     //     0xbfaf34: stur            w0, [x3, #0xb]
     // 0xbfaf38: ldur            x2, [fp, #-0x18]
     // 0xbfaf3c: r1 = Function '<anonymous closure>':.
-    //     0xbfaf3c: add             x1, PP, #0x37, lsl #12  ; [pp+0x373f0] AnonymousClosure: (0xbfb00c), in [package:ballai/automatic/views/home/tab/tabs/teams/createteam/components/team_creation_choice_tile.dart] TeamCreationChoiceTile::build (0xbfabdc)
+    //     0xbfaf3c: add             x1, PP, #0x37, lsl #12  ; [pp+0x373f0] AnonymousClosure: (0xbfb00c), in [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/components/team_creation_choice_tile.dart] TeamCreationChoiceTile::build (0xbfabdc)
     //     0xbfaf40: ldr             x1, [x1, #0x3f0]
     // 0xbfaf44: r0 = AllocateClosure()
     //     0xbfaf44: bl              #0xe553e0  ; AllocateClosureStub

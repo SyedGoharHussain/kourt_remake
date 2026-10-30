@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/metrics/root/shot_metrics_trends_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/metrics/root/shot_metrics_trends_view.dart
 
 // class id: 1048968, size: 0x8
 class :: {
@@ -72,7 +72,7 @@ class ShotMetricsTrendsView extends StatelessWidget {
     //     0xc040d8: stur            w0, [x3, #0xb]
     // 0xc040dc: ldur            x2, [fp, #-0x18]
     // 0xc040e0: r1 = Function '<anonymous closure>':.
-    //     0xc040e0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49270] AnonymousClosure: (0xc041e4), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/metrics/root/shot_metrics_trends_view.dart] ShotMetricsTrendsView::build (0xc04040)
+    //     0xc040e0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49270] AnonymousClosure: (0xc041e4), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/metrics/root/shot_metrics_trends_view.dart] ShotMetricsTrendsView::build (0xc04040)
     //     0xc040e4: ldr             x1, [x1, #0x270]
     // 0xc040e8: r0 = AllocateClosure()
     //     0xc040e8: bl              #0xe553e0  ; AllocateClosureStub
@@ -203,7 +203,7 @@ class ShotMetricsTrendsView extends StatelessWidget {
     //     0xc04218: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xc0421c: ldur            x2, [fp, #-8]
     // 0xc04220: r1 = Function '<anonymous closure>':.
-    //     0xc04220: add             x1, PP, #0x49, lsl #12  ; [pp+0x49278] AnonymousClosure: (0xc04280), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/metrics/root/shot_metrics_trends_view.dart] ShotMetricsTrendsView::build (0xc04040)
+    //     0xc04220: add             x1, PP, #0x49, lsl #12  ; [pp+0x49278] AnonymousClosure: (0xc04280), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/metrics/root/shot_metrics_trends_view.dart] ShotMetricsTrendsView::build (0xc04040)
     //     0xc04224: ldr             x1, [x1, #0x278]
     // 0xc04228: stur            x0, [fp, #-8]
     // 0xc0422c: r0 = AllocateClosure()

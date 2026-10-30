@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/team_settings_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/team_settings_view.dart
 
 // class id: 1048961, size: 0x8
 class :: {
@@ -36,7 +36,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc022fc: stur            w2, [x3, #0x13]
     // 0xc02300: mov             x1, x0
     // 0xc02304: r0 = _resolvedTeam()
-    //     0xc02304: bl              #0xc02864  ; [package:ballai/automatic/views/home/tab/tabs/teams/team_settings_view.dart] TeamSettingsView::_resolvedTeam
+    //     0xc02304: bl              #0xc02864  ; [package:kourtai/automatic/views/home/tab/tabs/teams/team_settings_view.dart] TeamSettingsView::_resolvedTeam
     // 0xc02308: ldur            x3, [fp, #-0x18]
     // 0xc0230c: ArrayStore: r3[0] = r0  ; List_4
     //     0xc0230c: stur            w0, [x3, #0x17]
@@ -52,7 +52,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc0232c: add             x2, x2, HEAP, lsl #32
     // 0xc02330: ldur            x1, [fp, #-8]
     // 0xc02334: r0 = _canManage()
-    //     0xc02334: bl              #0xc027b4  ; [package:ballai/automatic/views/home/tab/tabs/teams/team_settings_view.dart] TeamSettingsView::_canManage
+    //     0xc02334: bl              #0xc027b4  ; [package:kourtai/automatic/views/home/tab/tabs/teams/team_settings_view.dart] TeamSettingsView::_canManage
     // 0xc02338: ldur            x2, [fp, #-0x18]
     // 0xc0233c: stur            x0, [fp, #-8]
     // 0xc02340: LoadField: r1 = r2->field_13
@@ -70,7 +70,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc02358: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c968] "Settings"
     //     0xc0235c: ldr             x1, [x1, #0x968]
     // 0xc02360: r0 = L()
-    //     0xc02360: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc02360: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc02364: stur            x0, [fp, #-0x20]
     // 0xc02368: r0 = Text()
     //     0xc02368: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -121,7 +121,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc023e4: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3ba98] "Edit"
     //     0xc023e8: ldr             x1, [x1, #0xa98]
     // 0xc023ec: r0 = L()
-    //     0xc023ec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc023ec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc023f0: stur            x0, [fp, #-8]
     // 0xc023f4: r0 = Text()
     //     0xc023f4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -148,7 +148,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc0242c: stur            w0, [x3, #0x4b]
     // 0xc02430: ldur            x2, [fp, #-0x18]
     // 0xc02434: r1 = Function '<anonymous closure>':.
-    //     0xc02434: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3baa8] AnonymousClosure: (0xc03168), in [package:ballai/automatic/views/home/tab/tabs/teams/team_settings_view.dart] TeamSettingsView::build (0xc022c0)
+    //     0xc02434: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3baa8] AnonymousClosure: (0xc03168), in [package:kourtai/automatic/views/home/tab/tabs/teams/team_settings_view.dart] TeamSettingsView::build (0xc022c0)
     //     0xc02438: ldr             x1, [x1, #0xaa8]
     // 0xc0243c: r0 = AllocateClosure()
     //     0xc0243c: bl              #0xe553e0  ; AllocateClosureStub
@@ -211,7 +211,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc024d8: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bab0] "Notifications"
     //     0xc024dc: ldr             x1, [x1, #0xab0]
     // 0xc024e0: r0 = L()
-    //     0xc024e0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc024e0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc024e4: stur            x0, [fp, #-8]
     // 0xc024e8: r0 = Text()
     //     0xc024e8: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -243,7 +243,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc0252c: stur            w0, [x3, #0x4b]
     // 0xc02530: ldur            x2, [fp, #-0x18]
     // 0xc02534: r1 = Function '<anonymous closure>':.
-    //     0xc02534: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bac8] AnonymousClosure: (0xc03080), in [package:ballai/automatic/views/home/tab/tabs/teams/team_settings_view.dart] TeamSettingsView::build (0xc022c0)
+    //     0xc02534: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bac8] AnonymousClosure: (0xc03080), in [package:kourtai/automatic/views/home/tab/tabs/teams/team_settings_view.dart] TeamSettingsView::build (0xc022c0)
     //     0xc02538: ldr             x1, [x1, #0xac8]
     // 0xc0253c: r0 = AllocateClosure()
     //     0xc0253c: bl              #0xe553e0  ; AllocateClosureStub
@@ -327,7 +327,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc02610: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bad8] "Leave"
     //     0xc02614: ldr             x1, [x1, #0xad8]
     // 0xc02618: r0 = L()
-    //     0xc02618: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc02618: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0261c: r1 = _ConstMap len:10
     //     0xc0261c: ldr             x1, [PP, #0x5468]  ; [pp+0x5468] Map<int, Color>(10)
     // 0xc02620: r2 = 800
@@ -375,7 +375,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc02690: stur            w0, [x3, #0x4b]
     // 0xc02694: ldur            x2, [fp, #-0x18]
     // 0xc02698: r1 = Function '<anonymous closure>':.
-    //     0xc02698: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bae0] AnonymousClosure: (0xc0296c), in [package:ballai/automatic/views/home/tab/tabs/teams/team_settings_view.dart] TeamSettingsView::build (0xc022c0)
+    //     0xc02698: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bae0] AnonymousClosure: (0xc0296c), in [package:kourtai/automatic/views/home/tab/tabs/teams/team_settings_view.dart] TeamSettingsView::build (0xc022c0)
     //     0xc0269c: ldr             x1, [x1, #0xae0]
     // 0xc026a0: r0 = AllocateClosure()
     //     0xc026a0: bl              #0xe553e0  ; AllocateClosureStub
@@ -544,7 +544,7 @@ class TeamSettingsView extends StatelessWidget {
     // 0xc02844: mov             x2, x0
     // 0xc02848: ldur            x3, [fp, #-0x18]
     // 0xc0284c: r0 = canManageTeam()
-    //     0xc0284c: bl              #0x97d580  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::canManageTeam
+    //     0xc0284c: bl              #0x97d580  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::canManageTeam
     // 0xc02850: LeaveFrame
     //     0xc02850: mov             SP, fp
     //     0xc02854: ldp             fp, lr, [SP], #0x10
@@ -577,7 +577,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc02890: bl              #0x5ff5d4  ; [package:provider/src/provider.dart] ::ReadContext.read
     // 0xc02894: mov             x1, x0
     // 0xc02898: r0 = currentTeams()
-    //     0xc02898: bl              #0x651818  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeams
+    //     0xc02898: bl              #0x651818  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::currentTeams
     // 0xc0289c: mov             x1, x0
     // 0xc028a0: stur            x1, [fp, #-0x30]
     // 0xc028a4: LoadField: r0 = r1->field_b
@@ -678,7 +678,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc029a0: add             x3, x3, HEAP, lsl #32
     // 0xc029a4: mov             x1, x0
     // 0xc029a8: r0 = _confirmLeave()
-    //     0xc029a8: bl              #0xc029c0  ; [package:ballai/automatic/views/home/tab/tabs/teams/team_settings_view.dart] TeamSettingsView::_confirmLeave
+    //     0xc029a8: bl              #0xc029c0  ; [package:kourtai/automatic/views/home/tab/tabs/teams/team_settings_view.dart] TeamSettingsView::_confirmLeave
     // 0xc029ac: LeaveFrame
     //     0xc029ac: mov             SP, fp
     //     0xc029b0: ldp             fp, lr, [SP], #0x10
@@ -723,7 +723,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc02a14: bl              #0x60afc8  ; InitAsyncStub
     // 0xc02a18: ldur            x2, [fp, #-0xc0]
     // 0xc02a1c: r1 = Function '<anonymous closure>':.
-    //     0xc02a1c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bae8] AnonymousClosure: (0xc02da8), in [package:ballai/automatic/views/home/tab/tabs/teams/team_settings_view.dart] TeamSettingsView::_confirmLeave (0xc029c0)
+    //     0xc02a1c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bae8] AnonymousClosure: (0xc02da8), in [package:kourtai/automatic/views/home/tab/tabs/teams/team_settings_view.dart] TeamSettingsView::_confirmLeave (0xc029c0)
     //     0xc02a20: ldr             x1, [x1, #0xae8]
     // 0xc02a24: r0 = AllocateClosure()
     //     0xc02a24: bl              #0xe553e0  ; AllocateClosureStub
@@ -829,7 +829,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc02b30: add             x1, PP, #0x21, lsl #12  ; [pp+0x21200] "you"
     //     0xc02b34: ldr             x1, [x1, #0x200]
     // 0xc02b38: r0 = L()
-    //     0xc02b38: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc02b38: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc02b3c: stur            x0, [fp, #-0xc8]
     // 0xc02b40: ldur            x1, [fp, #-0xb0]
     // 0xc02b44: ldur            x2, [fp, #-0xc0]
@@ -857,7 +857,7 @@ class TeamSettingsView extends StatelessWidget {
     // 0xc02b80: ldur            x3, [fp, #-0xa8]
     // 0xc02b84: stur            x5, [fp, #-0xd0]
     // 0xc02b88: r0 = removeMember()
-    //     0xc02b88: bl              #0xc02cc0  ; [package:ballai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::removeMember
+    //     0xc02b88: bl              #0xc02cc0  ; [package:kourtai/automatic/app/dependencies/managers/core/team_manager.dart] TeamManager::removeMember
     // 0xc02b8c: mov             x1, x0
     // 0xc02b90: stur            x1, [fp, #-0xe0]
     // 0xc02b94: r0 = Await()
@@ -939,7 +939,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc02c58: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3baf0] "Could not remove %@ from the team. Please try again later."
     //     0xc02c5c: ldr             x1, [x1, #0xaf0]
     // 0xc02c60: r0 = LF()
-    //     0xc02c60: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xc02c60: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xc02c64: stur            x0, [fp, #-0xb0]
     // 0xc02c68: r0 = Text()
     //     0xc02c68: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1041,7 +1041,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc02e40: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3baf8] "Leave %@\?"
     //     0xc02e44: ldr             x1, [x1, #0xaf8]
     // 0xc02e48: r0 = LF()
-    //     0xc02e48: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xc02e48: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xc02e4c: stur            x0, [fp, #-0x10]
     // 0xc02e50: r0 = Text()
     //     0xc02e50: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1060,7 +1060,7 @@ class TeamSettingsView extends StatelessWidget {
     // 0xc02e74: DecompressPointer r2
     //     0xc02e74: add             x2, x2, HEAP, lsl #32
     // 0xc02e78: r0 = _leaveTeamMessage()
-    //     0xc02e78: bl              #0xc02ffc  ; [package:ballai/automatic/views/home/tab/tabs/teams/team_settings_view.dart] TeamSettingsView::_leaveTeamMessage
+    //     0xc02e78: bl              #0xc02ffc  ; [package:kourtai/automatic/views/home/tab/tabs/teams/team_settings_view.dart] TeamSettingsView::_leaveTeamMessage
     // 0xc02e7c: stur            x0, [fp, #-8]
     // 0xc02e80: r0 = Text()
     //     0xc02e80: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1073,7 +1073,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc02e94: add             x1, PP, #0x27, lsl #12  ; [pp+0x27668] "Cancel"
     //     0xc02e98: ldr             x1, [x1, #0x668]
     // 0xc02e9c: r0 = L()
-    //     0xc02e9c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc02e9c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc02ea0: stur            x0, [fp, #-8]
     // 0xc02ea4: r0 = Text()
     //     0xc02ea4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1084,7 +1084,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc02eb4: stur            w0, [x3, #0xb]
     // 0xc02eb8: ldur            x2, [fp, #-0x18]
     // 0xc02ebc: r1 = Function '<anonymous closure>':.
-    //     0xc02ebc: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bb00] AnonymousClosure: static (0x796f4c), in [package:ballai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::presentDeniedDialog (0x796a3c)
+    //     0xc02ebc: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bb00] AnonymousClosure: static (0x796f4c), in [package:kourtai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::presentDeniedDialog (0x796a3c)
     //     0xc02ec0: ldr             x1, [x1, #0xb00]
     // 0xc02ec4: r0 = AllocateClosure()
     //     0xc02ec4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1121,7 +1121,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc02f14: ldr             x1, [x1, #0xb08]
     // 0xc02f18: stur            x0, [fp, #-8]
     // 0xc02f1c: r0 = L()
-    //     0xc02f1c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc02f1c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc02f20: stur            x0, [fp, #-0x28]
     // 0xc02f24: r0 = Text()
     //     0xc02f24: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1132,7 +1132,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc02f34: stur            w0, [x3, #0xb]
     // 0xc02f38: ldur            x2, [fp, #-0x18]
     // 0xc02f3c: r1 = Function '<anonymous closure>':.
-    //     0xc02f3c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bb10] AnonymousClosure: static (0x796ee4), in [package:ballai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::presentDeniedDialog (0x796a3c)
+    //     0xc02f3c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bb10] AnonymousClosure: static (0x796ee4), in [package:kourtai/video_tracking/session/mediums/workout_camera_permission.dart] WorkoutCameraPermission::presentDeniedDialog (0x796a3c)
     //     0xc02f40: ldr             x1, [x1, #0xb10]
     // 0xc02f44: r0 = AllocateClosure()
     //     0xc02f44: bl              #0xe553e0  ; AllocateClosureStub
@@ -1223,7 +1223,7 @@ class TeamSettingsView extends StatelessWidget {
     // 0xc03014: DecompressPointer r1
     //     0xc03014: add             x1, x1, HEAP, lsl #32
     // 0xc03018: r0 = fromString()
-    //     0xc03018: bl              #0x768108  ; [package:ballai/automatic/models/core/team/team_visibility.dart] TeamVisibility::fromString
+    //     0xc03018: bl              #0x768108  ; [package:kourtai/automatic/models/core/team/team_visibility.dart] TeamVisibility::fromString
     // 0xc0301c: LoadField: r1 = r0->field_7
     //     0xc0301c: ldur            x1, [x0, #7]
     // 0xc03020: cmp             x1, #1
@@ -1234,7 +1234,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc03030: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bb18] "You can rejoin anytime from the Teams tab."
     //     0xc03034: ldr             x1, [x1, #0xb18]
     // 0xc03038: r0 = L()
-    //     0xc03038: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc03038: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0303c: LeaveFrame
     //     0xc0303c: mov             SP, fp
     //     0xc03040: ldp             fp, lr, [SP], #0x10
@@ -1244,7 +1244,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc03048: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bb20] "This team is private. You\'ll need an invite code or link to rejoin."
     //     0xc0304c: ldr             x1, [x1, #0xb20]
     // 0xc03050: r0 = L()
-    //     0xc03050: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc03050: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc03054: LeaveFrame
     //     0xc03054: mov             SP, fp
     //     0xc03058: ldp             fp, lr, [SP], #0x10
@@ -1254,7 +1254,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc03060: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bb28] "You\'ll need an invite code or link to rejoin this team."
     //     0xc03064: ldr             x1, [x1, #0xb28]
     // 0xc03068: r0 = L()
-    //     0xc03068: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc03068: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc0306c: LeaveFrame
     //     0xc0306c: mov             SP, fp
     //     0xc03070: ldp             fp, lr, [SP], #0x10
@@ -1290,7 +1290,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc030b4: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xc030b8: ldur            x2, [fp, #-8]
     // 0xc030bc: r1 = Function '<anonymous closure>':.
-    //     0xc030bc: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bb30] AnonymousClosure: (0xc03120), in [package:ballai/automatic/views/home/tab/tabs/teams/team_settings_view.dart] TeamSettingsView::build (0xc022c0)
+    //     0xc030bc: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bb30] AnonymousClosure: (0xc03120), in [package:kourtai/automatic/views/home/tab/tabs/teams/team_settings_view.dart] TeamSettingsView::build (0xc022c0)
     //     0xc030c0: ldr             x1, [x1, #0xb30]
     // 0xc030c4: stur            x0, [fp, #-8]
     // 0xc030c8: r0 = AllocateClosure()
@@ -1381,7 +1381,7 @@ class TeamSettingsView extends StatelessWidget {
     //     0xc0319c: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xc031a0: ldur            x2, [fp, #-8]
     // 0xc031a4: r1 = Function '<anonymous closure>':.
-    //     0xc031a4: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bb38] AnonymousClosure: (0xc03208), in [package:ballai/automatic/views/home/tab/tabs/teams/team_settings_view.dart] TeamSettingsView::build (0xc022c0)
+    //     0xc031a4: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bb38] AnonymousClosure: (0xc03208), in [package:kourtai/automatic/views/home/tab/tabs/teams/team_settings_view.dart] TeamSettingsView::build (0xc022c0)
     //     0xc031a8: ldr             x1, [x1, #0xb38]
     // 0xc031ac: stur            x0, [fp, #-8]
     // 0xc031b0: r0 = AllocateClosure()

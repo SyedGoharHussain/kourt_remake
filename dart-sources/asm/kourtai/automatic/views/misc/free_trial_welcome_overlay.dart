@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/misc/free_trial_welcome_overlay.dart
+// lib: , url: package:kourtai/automatic/views/misc/free_trial_welcome_overlay.dart
 
 // class id: 1049050, size: 0x8
 class :: {
@@ -175,7 +175,7 @@ class FreeTrialWelcomeOverlay extends StatelessWidget {
     //     0xc2445c: b.ls            #0xc24864
     // 0xc24460: mov             x1, x2
     // 0xc24464: r0 = _buttons()
-    //     0xc24464: bl              #0xc24880  ; [package:ballai/automatic/views/misc/free_trial_welcome_overlay.dart] FreeTrialWelcomeOverlay::_buttons
+    //     0xc24464: bl              #0xc24880  ; [package:kourtai/automatic/views/misc/free_trial_welcome_overlay.dart] FreeTrialWelcomeOverlay::_buttons
     // 0xc24468: stur            x0, [fp, #-0x18]
     // 0xc2446c: r16 = 0.350000
     //     0xc2446c: add             x16, PP, #0x15, lsl #12  ; [pp+0x151b0] 0.35
@@ -190,8 +190,8 @@ class FreeTrialWelcomeOverlay extends StatelessWidget {
     //     0xc24484: bl              #0xd9bb78  ; [dart:ui] Color::withValues
     // 0xc24488: ldur            x1, [fp, #-0x10]
     // 0xc2448c: stur            x0, [fp, #-0x20]
-    // 0xc24490: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xc24490: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xc24490: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xc24490: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xc24494: stur            x0, [fp, #-0x28]
     // 0xc24498: r0 = Radius()
     //     0xc24498: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -244,13 +244,13 @@ class FreeTrialWelcomeOverlay extends StatelessWidget {
     //     0xc24510: add             x3, PP, #0x24, lsl #12  ; [pp+0x24b80] "Your free trial has expired"
     //     0xc24514: ldr             x3, [x3, #0xb80]
     // 0xc24518: b               #0xc24524
-    // 0xc2451c: r3 = "Welcome to Ball AI Pro"
-    //     0xc2451c: add             x3, PP, #0x24, lsl #12  ; [pp+0x24b88] "Welcome to Ball AI Pro"
+    // 0xc2451c: r3 = "Welcome to Kourt AI Pro"
+    //     0xc2451c: add             x3, PP, #0x24, lsl #12  ; [pp+0x24b88] "Welcome to Kourt AI Pro"
     //     0xc24520: ldr             x3, [x3, #0xb88]
     // 0xc24524: ldur            x1, [fp, #-0x10]
     // 0xc24528: stur            x3, [fp, #-8]
-    // 0xc2452c: r0 = BallAiThemeContext.ballAiScreenTitleStyle()
-    //     0xc2452c: bl              #0x9efba4  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiScreenTitleStyle
+    // 0xc2452c: r0 = KourtAiThemeContext.kourtAiScreenTitleStyle()
+    //     0xc2452c: bl              #0x9efba4  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiScreenTitleStyle
     // 0xc24530: r16 = 16.000000
     //     0xc24530: add             x16, PP, #0x20, lsl #12  ; [pp+0x201e0] 16
     //     0xc24534: ldr             x16, [x16, #0x1e0]
@@ -279,18 +279,18 @@ class FreeTrialWelcomeOverlay extends StatelessWidget {
     // 0xc24574: ldur            x1, [fp, #-0x40]
     // 0xc24578: cmp             x1, #0
     // 0xc2457c: b.gt            #0xc2458c
-    // 0xc24580: r4 = "Your App Store free trial has ended. Upgrade now to keep Ball AI Pro features like Bally (our AI coach), workout summaries, audio feedback, Apple Watch sync, and advanced workout insights."
-    //     0xc24580: add             x4, PP, #0x24, lsl #12  ; [pp+0x24b90] "Your App Store free trial has ended. Upgrade now to keep Ball AI Pro features like Bally (our AI coach), workout summaries, audio feedback, Apple Watch sync, and advanced workout insights."
+    // 0xc24580: r4 = "Your App Store free trial has ended. Upgrade now to keep Kourt AI Pro features like Bally (our AI coach), workout summaries, audio feedback, Apple Watch sync, and advanced workout insights."
+    //     0xc24580: add             x4, PP, #0x24, lsl #12  ; [pp+0x24b90] "Your App Store free trial has ended. Upgrade now to keep Kourt AI Pro features like Bally (our AI coach), workout summaries, audio feedback, Apple Watch sync, and advanced workout insights."
     //     0xc24584: ldr             x4, [x4, #0xb90]
     // 0xc24588: b               #0xc24594
-    // 0xc2458c: r4 = "You have full access to Ball AI Pro. Enjoy advanced insights, Bally (our AI coach) and workout summaries, audio feedback, Apple Watch sync, and more."
-    //     0xc2458c: add             x4, PP, #0x24, lsl #12  ; [pp+0x24b98] "You have full access to Ball AI Pro. Enjoy advanced insights, Bally (our AI coach) and workout summaries, audio feedback, Apple Watch sync, and more."
+    // 0xc2458c: r4 = "You have full access to Kourt AI Pro. Enjoy advanced insights, Bally (our AI coach) and workout summaries, audio feedback, Apple Watch sync, and more."
+    //     0xc2458c: add             x4, PP, #0x24, lsl #12  ; [pp+0x24b98] "You have full access to Kourt AI Pro. Enjoy advanced insights, Bally (our AI coach) and workout summaries, audio feedback, Apple Watch sync, and more."
     //     0xc24590: ldr             x4, [x4, #0xb98]
     // 0xc24594: ldur            x3, [fp, #-0x18]
     // 0xc24598: ldur            x1, [fp, #-0x10]
     // 0xc2459c: stur            x4, [fp, #-8]
-    // 0xc245a0: r0 = BallAiThemeContext.ballAiScreenSubtitleStyle()
-    //     0xc245a0: bl              #0x9eda00  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiScreenSubtitleStyle
+    // 0xc245a0: r0 = KourtAiThemeContext.kourtAiScreenSubtitleStyle()
+    //     0xc245a0: bl              #0x9eda00  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiScreenSubtitleStyle
     // 0xc245a4: stur            x0, [fp, #-0x10]
     // 0xc245a8: r0 = Text()
     //     0xc245a8: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -600,10 +600,10 @@ class FreeTrialWelcomeOverlay extends StatelessWidget {
     //     0xc248c8: add             x1, PP, #0x24, lsl #12  ; [pp+0x24bc0] "Upgrade now"
     //     0xc248cc: ldr             x1, [x1, #0xbc0]
     // 0xc248d0: r0 = L()
-    //     0xc248d0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc248d0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc248d4: ldur            x2, [fp, #-0x10]
     // 0xc248d8: r1 = Function '<anonymous closure>':.
-    //     0xc248d8: add             x1, PP, #0x24, lsl #12  ; [pp+0x24bc8] AnonymousClosure: (0xc24af4), in [package:ballai/automatic/views/misc/free_trial_welcome_overlay.dart] FreeTrialWelcomeOverlay::_buttons (0xc24880)
+    //     0xc248d8: add             x1, PP, #0x24, lsl #12  ; [pp+0x24bc8] AnonymousClosure: (0xc24af4), in [package:kourtai/automatic/views/misc/free_trial_welcome_overlay.dart] FreeTrialWelcomeOverlay::_buttons (0xc24880)
     //     0xc248dc: ldr             x1, [x1, #0xbc8]
     // 0xc248e0: stur            x0, [fp, #-0x18]
     // 0xc248e4: r0 = AllocateClosure()
@@ -613,7 +613,7 @@ class FreeTrialWelcomeOverlay extends StatelessWidget {
     //     0xc248ec: ldr             x1, [x1, #0xbd0]
     // 0xc248f0: stur            x0, [fp, #-0x20]
     // 0xc248f4: r0 = L()
-    //     0xc248f4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc248f4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc248f8: mov             x1, x0
     // 0xc248fc: ldur            x0, [fp, #-8]
     // 0xc24900: stur            x1, [fp, #-0x30]
@@ -677,10 +677,10 @@ class FreeTrialWelcomeOverlay extends StatelessWidget {
     //     0xc24998: add             x1, PP, #0x24, lsl #12  ; [pp+0x24be0] "Setup VIP support"
     //     0xc2499c: ldr             x1, [x1, #0xbe0]
     // 0xc249a0: r0 = L()
-    //     0xc249a0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc249a0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc249a4: ldur            x2, [fp, #-0x10]
     // 0xc249a8: r1 = Function '<anonymous closure>':.
-    //     0xc249a8: add             x1, PP, #0x24, lsl #12  ; [pp+0x24be8] AnonymousClosure: (0xc24a64), in [package:ballai/automatic/views/misc/free_trial_welcome_overlay.dart] FreeTrialWelcomeOverlay::_buttons (0xc24880)
+    //     0xc249a8: add             x1, PP, #0x24, lsl #12  ; [pp+0x24be8] AnonymousClosure: (0xc24a64), in [package:kourtai/automatic/views/misc/free_trial_welcome_overlay.dart] FreeTrialWelcomeOverlay::_buttons (0xc24880)
     //     0xc249ac: ldr             x1, [x1, #0xbe8]
     // 0xc249b0: stur            x0, [fp, #-0x10]
     // 0xc249b4: r0 = AllocateClosure()
@@ -690,7 +690,7 @@ class FreeTrialWelcomeOverlay extends StatelessWidget {
     //     0xc249bc: ldr             x1, [x1, #0x5b0]
     // 0xc249c0: stur            x0, [fp, #-0x18]
     // 0xc249c4: r0 = L()
-    //     0xc249c4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc249c4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc249c8: mov             x1, x0
     // 0xc249cc: ldur            x0, [fp, #-8]
     // 0xc249d0: stur            x1, [fp, #-0x28]
@@ -782,7 +782,7 @@ class FreeTrialWelcomeOverlay extends StatelessWidget {
     //     0xc24aa8: add             x0, x0, HEAP, lsl #32
     // 0xc24aac: mov             x1, x0
     // 0xc24ab0: r0 = _setupVipSupport()
-    //     0xc24ab0: bl              #0xa13c74  ; [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_setupVipSupport
+    //     0xc24ab0: bl              #0xa13c74  ; [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_setupVipSupport
     // 0xc24ab4: ldur            x0, [fp, #-8]
     // 0xc24ab8: LoadField: r1 = r0->field_f
     //     0xc24ab8: ldur            w1, [x0, #0xf]

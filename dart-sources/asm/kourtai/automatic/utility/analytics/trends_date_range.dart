@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/analytics/trends_date_range.dart
+// lib: , url: package:kourtai/automatic/utility/analytics/trends_date_range.dart
 
 // class id: 1048718, size: 0x8
 class :: {
@@ -48,7 +48,7 @@ enum TrendsDateRangeType extends _Enum {
     // 0x8f73a0: ldur            x1, [fp, #-0x18]
     // 0x8f73a4: ldur            x2, [fp, #-8]
     // 0x8f73a8: r0 = _normalizedAnchor()
-    //     0x8f73a8: bl              #0x8f7cbc  ; [package:ballai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::_normalizedAnchor
+    //     0x8f73a8: bl              #0x8f7cbc  ; [package:kourtai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::_normalizedAnchor
     // 0x8f73ac: mov             x2, x0
     // 0x8f73b0: ldur            x0, [fp, #-0x18]
     // 0x8f73b4: stur            x2, [fp, #-8]
@@ -115,7 +115,7 @@ enum TrendsDateRangeType extends _Enum {
     //     0x8f7460: bl              #0x5fac30  ; [dart:core] DateTime::DateTime
     // 0x8f7464: ldur            x1, [fp, #-8]
     // 0x8f7468: r0 = lastDayOfMonth()
-    //     0x8f7468: bl              #0x8f7b20  ; [package:ballai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::lastDayOfMonth
+    //     0x8f7468: bl              #0x8f7b20  ; [package:kourtai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::lastDayOfMonth
     // 0x8f746c: r1 = <DateTime>
     //     0x8f746c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a368] TypeArguments: <DateTime>
     //     0x8f7470: ldr             x1, [x1, #0x368]
@@ -205,7 +205,7 @@ enum TrendsDateRangeType extends _Enum {
     //     0x8f7560: bl              #0x5fac30  ; [dart:core] DateTime::DateTime
     // 0x8f7564: ldur            x1, [fp, #-8]
     // 0x8f7568: r0 = lastDayOfMonth()
-    //     0x8f7568: bl              #0x8f7b20  ; [package:ballai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::lastDayOfMonth
+    //     0x8f7568: bl              #0x8f7b20  ; [package:kourtai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::lastDayOfMonth
     // 0x8f756c: r1 = <DateTime>
     //     0x8f756c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a368] TypeArguments: <DateTime>
     //     0x8f7570: ldr             x1, [x1, #0x368]
@@ -293,7 +293,7 @@ enum TrendsDateRangeType extends _Enum {
     //     0x8f7658: bl              #0x5fac30  ; [dart:core] DateTime::DateTime
     // 0x8f765c: ldur            x1, [fp, #-8]
     // 0x8f7660: r0 = lastDayOfMonth()
-    //     0x8f7660: bl              #0x8f7b20  ; [package:ballai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::lastDayOfMonth
+    //     0x8f7660: bl              #0x8f7b20  ; [package:kourtai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::lastDayOfMonth
     // 0x8f7664: r1 = <DateTime>
     //     0x8f7664: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a368] TypeArguments: <DateTime>
     //     0x8f7668: ldr             x1, [x1, #0x368]
@@ -391,7 +391,7 @@ enum TrendsDateRangeType extends _Enum {
     //     0x8f7764: bl              #0x5fac30  ; [dart:core] DateTime::DateTime
     // 0x8f7768: ldur            x1, [fp, #-0x30]
     // 0x8f776c: r0 = endOfDay()
-    //     0x8f776c: bl              #0x8f7a04  ; [package:ballai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::endOfDay
+    //     0x8f776c: bl              #0x8f7a04  ; [package:kourtai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::endOfDay
     // 0x8f7770: r1 = <DateTime>
     //     0x8f7770: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a368] TypeArguments: <DateTime>
     //     0x8f7774: ldr             x1, [x1, #0x368]
@@ -464,7 +464,7 @@ enum TrendsDateRangeType extends _Enum {
     //     0x8f7828: bl              #0x5fac30  ; [dart:core] DateTime::DateTime
     // 0x8f782c: ldur            x1, [fp, #-0x18]
     // 0x8f7830: r0 = endOfDay()
-    //     0x8f7830: bl              #0x8f7a04  ; [package:ballai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::endOfDay
+    //     0x8f7830: bl              #0x8f7a04  ; [package:kourtai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::endOfDay
     // 0x8f7834: r1 = <DateTime>
     //     0x8f7834: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a368] TypeArguments: <DateTime>
     //     0x8f7838: ldr             x1, [x1, #0x368]
@@ -588,7 +588,7 @@ enum TrendsDateRangeType extends _Enum {
     //     0x8f79a0: bl              #0x5fac30  ; [dart:core] DateTime::DateTime
     // 0x8f79a4: ldur            x1, [fp, #-0x18]
     // 0x8f79a8: r0 = endOfDay()
-    //     0x8f79a8: bl              #0x8f7a04  ; [package:ballai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::endOfDay
+    //     0x8f79a8: bl              #0x8f7a04  ; [package:kourtai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::endOfDay
     // 0x8f79ac: r1 = <DateTime>
     //     0x8f79ac: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a368] TypeArguments: <DateTime>
     //     0x8f79b0: ldr             x1, [x1, #0x368]
@@ -856,7 +856,7 @@ enum TrendsDateRangeType extends _Enum {
     //     0x8f7c8c: bl              #0x5fac30  ; [dart:core] DateTime::DateTime
     // 0x8f7c90: ldur            x1, [fp, #-0x10]
     // 0x8f7c94: r0 = endOfDay()
-    //     0x8f7c94: bl              #0x8f7a04  ; [package:ballai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::endOfDay
+    //     0x8f7c94: bl              #0x8f7a04  ; [package:kourtai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::endOfDay
     // 0x8f7c98: LeaveFrame
     //     0x8f7c98: mov             SP, fp
     //     0x8f7c9c: ldp             fp, lr, [SP], #0x10
@@ -1052,18 +1052,18 @@ enum TrendsDateRangeType extends _Enum {
     //     0xa6f42c: stur            x1, [x2, #0xb]
     // 0xa6f430: ldur            x1, [fp, #-8]
     // 0xa6f434: r0 = _normalizedAnchor()
-    //     0xa6f434: bl              #0x8f7cbc  ; [package:ballai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::_normalizedAnchor
+    //     0xa6f434: bl              #0x8f7cbc  ; [package:kourtai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::_normalizedAnchor
     // 0xa6f438: ldur            x1, [fp, #-8]
     // 0xa6f43c: ldur            x2, [fp, #-0x10]
     // 0xa6f440: r3 = 1
     //     0xa6f440: mov             x3, #1
     // 0xa6f444: stur            x0, [fp, #-0x10]
     // 0xa6f448: r0 = stepAnchor()
-    //     0xa6f448: bl              #0xa6f490  ; [package:ballai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::stepAnchor
+    //     0xa6f448: bl              #0xa6f490  ; [package:kourtai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::stepAnchor
     // 0xa6f44c: ldur            x1, [fp, #-8]
     // 0xa6f450: mov             x2, x0
     // 0xa6f454: r0 = _normalizedAnchor()
-    //     0xa6f454: bl              #0x8f7cbc  ; [package:ballai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::_normalizedAnchor
+    //     0xa6f454: bl              #0x8f7cbc  ; [package:kourtai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::_normalizedAnchor
     // 0xa6f458: mov             x1, x0
     // 0xa6f45c: ldur            x2, [fp, #-0x10]
     // 0xa6f460: r0 = isAfter()
@@ -1103,7 +1103,7 @@ enum TrendsDateRangeType extends _Enum {
     //     0xa6f4b0: b.ls            #0xa6f804
     // 0xa6f4b4: mov             x1, x0
     // 0xa6f4b8: r0 = _normalizedAnchor()
-    //     0xa6f4b8: bl              #0x8f7cbc  ; [package:ballai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::_normalizedAnchor
+    //     0xa6f4b8: bl              #0x8f7cbc  ; [package:kourtai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::_normalizedAnchor
     // 0xa6f4bc: mov             x2, x0
     // 0xa6f4c0: ldur            x0, [fp, #-8]
     // 0xa6f4c4: stur            x2, [fp, #-0x18]
@@ -1430,7 +1430,7 @@ enum TrendsDateRangeType extends _Enum {
     //     0xa6faf8: b.ls            #0xa704c8
     // 0xa6fafc: mov             x1, x0
     // 0xa6fb00: r0 = _normalizedAnchor()
-    //     0xa6fb00: bl              #0x8f7cbc  ; [package:ballai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::_normalizedAnchor
+    //     0xa6fb00: bl              #0x8f7cbc  ; [package:kourtai/automatic/utility/analytics/trends_date_range.dart] TrendsDateRangeType::_normalizedAnchor
     // 0xa6fb04: mov             x2, x0
     // 0xa6fb08: ldur            x0, [fp, #-8]
     // 0xa6fb0c: stur            x2, [fp, #-0x10]

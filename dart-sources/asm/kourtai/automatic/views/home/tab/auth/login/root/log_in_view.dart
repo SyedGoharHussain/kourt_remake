@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/login/root/log_in_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/login/root/log_in_view.dart
 
 // class id: 1048866, size: 0x8
 class :: {
@@ -36,7 +36,7 @@ class _LogInViewState extends State<dynamic> {
     //     0x9ecc10: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a5d0] "An error occurred."
     //     0x9ecc14: ldr             x1, [x1, #0x5d0]
     // 0x9ecc18: r0 = L()
-    //     0x9ecc18: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9ecc18: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9ecc1c: mov             x1, x0
     // 0x9ecc20: ldur            x0, [fp, #-0x10]
     // 0x9ecc24: LoadField: r2 = r0->field_13
@@ -47,7 +47,7 @@ class _LogInViewState extends State<dynamic> {
     // 0x9ecc30: mov             x1, x2
     // 0x9ecc34: mov             x2, x16
     // 0x9ecc38: r0 = userFacingError()
-    //     0x9ecc38: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0x9ecc38: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0x9ecc3c: ldur            x1, [fp, #-8]
     // 0x9ecc40: ArrayStore: r1[0] = r0  ; List_4
     //     0x9ecc40: stur            w0, [x1, #0x17]
@@ -106,7 +106,7 @@ class _LogInViewState extends State<dynamic> {
     //     0x9eccc8: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x9ecccc: ldur            x2, [fp, #-0x68]
     // 0x9eccd0: r1 = Function '<anonymous closure>':.
-    //     0x9eccd0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a5b8] AnonymousClosure: (0x9ece00), in [package:ballai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
+    //     0x9eccd0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a5b8] AnonymousClosure: (0x9ece00), in [package:kourtai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
     //     0x9eccd4: ldr             x1, [x1, #0x5b8]
     // 0x9eccd8: r0 = AllocateClosure()
     //     0x9eccd8: bl              #0xe553e0  ; AllocateClosureStub
@@ -131,7 +131,7 @@ class _LogInViewState extends State<dynamic> {
     //     0x9ecd0c: bl              #0x5ff5d4  ; [package:provider/src/provider.dart] ::ReadContext.read
     // 0x9ecd10: mov             x1, x0
     // 0x9ecd14: r0 = signInWithGoogle()
-    //     0x9ecd14: bl              #0x9ec148  ; [package:ballai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::signInWithGoogle
+    //     0x9ecd14: bl              #0x9ec148  ; [package:kourtai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::signInWithGoogle
     // 0x9ecd18: mov             x1, x0
     // 0x9ecd1c: stur            x1, [fp, #-0x70]
     // 0x9ecd20: r0 = Await()
@@ -154,7 +154,7 @@ class _LogInViewState extends State<dynamic> {
     // 0x9ecd4c: b.eq            #0x9ecdcc
     // 0x9ecd50: ldur            x2, [fp, #-0x68]
     // 0x9ecd54: r1 = Function '<anonymous closure>':.
-    //     0x9ecd54: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a5c0] AnonymousClosure: (0x9ecde0), in [package:ballai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
+    //     0x9ecd54: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a5c0] AnonymousClosure: (0x9ecde0), in [package:kourtai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
     //     0x9ecd58: ldr             x1, [x1, #0x5c0]
     // 0x9ecd5c: r0 = AllocateClosure()
     //     0x9ecd5c: bl              #0xe553e0  ; AllocateClosureStub
@@ -186,7 +186,7 @@ class _LogInViewState extends State<dynamic> {
     // 0x9ecdb0: r0 = ReturnAsyncNotFuture()
     //     0x9ecdb0: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x9ecdb4: r1 = Function '<anonymous closure>':.
-    //     0x9ecdb4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a5c8] AnonymousClosure: (0x9ecbd4), in [package:ballai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
+    //     0x9ecdb4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a5c8] AnonymousClosure: (0x9ecbd4), in [package:kourtai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
     //     0x9ecdb8: ldr             x1, [x1, #0x5c8]
     // 0x9ecdbc: r0 = AllocateClosure()
     //     0x9ecdbc: bl              #0xe553e0  ; AllocateClosureStub
@@ -259,7 +259,7 @@ class _LogInViewState extends State<dynamic> {
     //     0x9ece40: cmp             SP, x16
     //     0x9ece44: b.ls            #0x9ece58
     // 0x9ece48: r0 = _signInWithGoogle()
-    //     0x9ece48: bl              #0x9ecc74  ; [package:ballai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle
+    //     0x9ece48: bl              #0x9ecc74  ; [package:kourtai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle
     // 0x9ece4c: LeaveFrame
     //     0x9ece4c: mov             SP, fp
     //     0x9ece50: ldp             fp, lr, [SP], #0x10
@@ -294,8 +294,8 @@ class _LogInViewState extends State<dynamic> {
     // 0xa103a0: stur            x0, [fp, #-0x18]
     // 0xa103a4: StoreField: r0->field_f = r1
     //     0xa103a4: stur            w1, [x0, #0xf]
-    // 0xa103a8: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xa103a8: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xa103a8: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xa103a8: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xa103ac: r1 = <Widget>
     //     0xa103ac: ldr             x1, [PP, #0x4f10]  ; [pp+0x4f10] TypeArguments: <Widget>
     // 0xa103b0: r2 = 24
@@ -321,7 +321,7 @@ class _LogInViewState extends State<dynamic> {
     // 0xa103e4: b               #0xa10400
     // 0xa103e8: ldur            x2, [fp, #-0x18]
     // 0xa103ec: r1 = Function '<anonymous closure>':.
-    //     0xa103ec: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a528] AnonymousClosure: (0x9e764c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/root/account_setup_view.dart] _AccountSetupViewState::_onNext (0x9e64c4)
+    //     0xa103ec: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a528] AnonymousClosure: (0x9e764c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/root/account_setup_view.dart] _AccountSetupViewState::_onNext (0x9e64c4)
     //     0xa103f0: ldr             x1, [x1, #0x528]
     // 0xa103f4: r0 = AllocateClosure()
     //     0xa103f4: bl              #0xe553e0  ; AllocateClosureStub
@@ -333,8 +333,8 @@ class _LogInViewState extends State<dynamic> {
     //     0xa10408: ldur            w1, [x0, #0xf]
     // 0xa1040c: DecompressPointer r1
     //     0xa1040c: add             x1, x1, HEAP, lsl #32
-    // 0xa10410: r0 = BallAiThemeContext.ballAiBackButtonFill()
-    //     0xa10410: bl              #0x9d6208  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiBackButtonFill
+    // 0xa10410: r0 = KourtAiThemeContext.kourtAiBackButtonFill()
+    //     0xa10410: bl              #0x9d6208  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiBackButtonFill
     // 0xa10414: r16 = Instance_Size
     //     0xa10414: add             x16, PP, #0x24, lsl #12  ; [pp+0x24dd8] Obj!Size@d2e1b1
     //     0xa10418: ldr             x16, [x16, #0xdd8]
@@ -447,15 +447,15 @@ class _LogInViewState extends State<dynamic> {
     //     0xa10550: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a530] "Back in the game\?"
     //     0xa10554: ldr             x1, [x1, #0x530]
     // 0xa10558: r0 = L()
-    //     0xa10558: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa10558: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa1055c: ldur            x2, [fp, #-0x18]
     // 0xa10560: stur            x0, [fp, #-0x28]
     // 0xa10564: LoadField: r1 = r2->field_f
     //     0xa10564: ldur            w1, [x2, #0xf]
     // 0xa10568: DecompressPointer r1
     //     0xa10568: add             x1, x1, HEAP, lsl #32
-    // 0xa1056c: r0 = BallAiThemeContext.ballAiScreenTitleStyle()
-    //     0xa1056c: bl              #0x9efba4  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiScreenTitleStyle
+    // 0xa1056c: r0 = KourtAiThemeContext.kourtAiScreenTitleStyle()
+    //     0xa1056c: bl              #0x9efba4  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiScreenTitleStyle
     // 0xa10570: r16 = 30.000000
     //     0xa10570: add             x16, PP, #0x20, lsl #12  ; [pp+0x20210] 30
     //     0xa10574: ldr             x16, [x16, #0x210]
@@ -515,7 +515,7 @@ class _LogInViewState extends State<dynamic> {
     //     0xa1061c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a548] "Continue with Google"
     //     0xa10620: ldr             x1, [x1, #0x548]
     // 0xa10624: r0 = L()
-    //     0xa10624: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa10624: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa10628: ldur            x2, [fp, #-8]
     // 0xa1062c: stur            x0, [fp, #-0x30]
     // 0xa10630: LoadField: r1 = r2->field_13
@@ -557,7 +557,7 @@ class _LogInViewState extends State<dynamic> {
     //     0xa10690: stur            w0, [x3, #0xf]
     // 0xa10694: ldur            x2, [fp, #-8]
     // 0xa10698: r1 = Function '_signInWithGoogle@1094227046':.
-    //     0xa10698: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a560] AnonymousClosure: (0x9ece28), in [package:ballai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
+    //     0xa10698: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a560] AnonymousClosure: (0x9ece28), in [package:kourtai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::_signInWithGoogle (0x9ecc74)
     //     0xa1069c: ldr             x1, [x1, #0x560]
     // 0xa106a0: r0 = AllocateClosure()
     //     0xa106a0: bl              #0xe553e0  ; AllocateClosureStub
@@ -635,7 +635,7 @@ class _LogInViewState extends State<dynamic> {
     //     0xa1077c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a568] "Continue with email"
     //     0xa10780: ldr             x1, [x1, #0x568]
     // 0xa10784: r0 = L()
-    //     0xa10784: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa10784: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa10788: mov             x3, x0
     // 0xa1078c: ldur            x0, [fp, #-8]
     // 0xa10790: stur            x3, [fp, #-0x30]
@@ -652,7 +652,7 @@ class _LogInViewState extends State<dynamic> {
     // 0xa107b0: b               #0xa107d0
     // 0xa107b4: ldur            x2, [fp, #-0x18]
     // 0xa107b8: r1 = Function '<anonymous closure>':.
-    //     0xa107b8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a570] AnonymousClosure: (0xa10be4), in [package:ballai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::build (0xa10368)
+    //     0xa107b8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a570] AnonymousClosure: (0xa10be4), in [package:kourtai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::build (0xa10368)
     //     0xa107bc: ldr             x1, [x1, #0x570]
     // 0xa107c0: r0 = AllocateClosure()
     //     0xa107c0: bl              #0xe553e0  ; AllocateClosureStub
@@ -725,7 +725,7 @@ class _LogInViewState extends State<dynamic> {
     // 0xa10888: b               #0xa108a0
     // 0xa1088c: ldur            x2, [fp, #-0x18]
     // 0xa10890: r1 = Function '<anonymous closure>':.
-    //     0xa10890: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a580] AnonymousClosure: (0xa10b74), in [package:ballai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::build (0xa10368)
+    //     0xa10890: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a580] AnonymousClosure: (0xa10b74), in [package:kourtai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::build (0xa10368)
     //     0xa10894: ldr             x1, [x1, #0x580]
     // 0xa10898: r0 = AllocateClosure()
     //     0xa10898: bl              #0xe553e0  ; AllocateClosureStub
@@ -738,7 +738,7 @@ class _LogInViewState extends State<dynamic> {
     //     0xa108b0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a588] "Don\'t have an account\?"
     //     0xa108b4: ldr             x1, [x1, #0x588]
     // 0xa108b8: r0 = L()
-    //     0xa108b8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa108b8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa108bc: mov             x2, x0
     // 0xa108c0: ldur            x0, [fp, #-0x18]
     // 0xa108c4: stur            x2, [fp, #-0x28]
@@ -746,8 +746,8 @@ class _LogInViewState extends State<dynamic> {
     //     0xa108c8: ldur            w1, [x0, #0xf]
     // 0xa108cc: DecompressPointer r1
     //     0xa108cc: add             x1, x1, HEAP, lsl #32
-    // 0xa108d0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa108d0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa108d0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa108d0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa108d4: stur            x0, [fp, #-0x18]
     // 0xa108d8: r0 = TextStyle()
     //     0xa108d8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -774,7 +774,7 @@ class _LogInViewState extends State<dynamic> {
     //     0xa1090c: add             x1, PP, #0x20, lsl #12  ; [pp+0x20880] "Get Started"
     //     0xa10910: ldr             x1, [x1, #0x880]
     // 0xa10914: r0 = L()
-    //     0xa10914: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa10914: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa10918: stur            x0, [fp, #-0x18]
     // 0xa1091c: r0 = TextSpan()
     //     0xa1091c: bl              #0x81b6a8  ; AllocateTextSpanStub -> TextSpan (size=0x34)
@@ -1089,7 +1089,7 @@ class _LogInViewState extends State<dynamic> {
     // 0xa10c18: r0 = of()
     //     0xa10c18: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa10c1c: r1 = Function '<anonymous closure>':.
-    //     0xa10c1c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a5a8] AnonymousClosure: (0xa10c84), in [package:ballai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::build (0xa10368)
+    //     0xa10c1c: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a5a8] AnonymousClosure: (0xa10c84), in [package:kourtai/automatic/views/home/tab/auth/login/root/log_in_view.dart] _LogInViewState::build (0xa10368)
     //     0xa10c20: ldr             x1, [x1, #0x5a8]
     // 0xa10c24: r2 = Null
     //     0xa10c24: mov             x2, NULL

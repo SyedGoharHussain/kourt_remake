@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/performance/sections/basicstats/performance_basic_stats_card_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/performance/sections/basicstats/performance_basic_stats_card_view.dart
 
 // class id: 1048971, size: 0x8
 class :: {
@@ -30,7 +30,7 @@ class PerformanceBasicStatsCardView extends StatelessWidget {
     //     0xc04d84: add             x4, x4, HEAP, lsl #32
     // 0xc04d88: stur            x4, [fp, #-8]
     // 0xc04d8c: r1 = Function '<anonymous closure>':.
-    //     0xc04d8c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d668] AnonymousClosure: static (0x98c270), in [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
+    //     0xc04d8c: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d668] AnonymousClosure: static (0x98c270), in [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
     //     0xc04d90: ldr             x1, [x1, #0x668]
     // 0xc04d94: r2 = Null
     //     0xc04d94: mov             x2, NULL
@@ -46,7 +46,7 @@ class PerformanceBasicStatsCardView extends StatelessWidget {
     // 0xc04db0: r0 = fold()
     //     0xc04db0: bl              #0x8b192c  ; [dart:collection] ListBase::fold
     // 0xc04db4: r1 = Function '<anonymous closure>':.
-    //     0xc04db4: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d670] AnonymousClosure: static (0x98c22c), in [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
+    //     0xc04db4: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d670] AnonymousClosure: static (0x98c22c), in [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
     //     0xc04db8: ldr             x1, [x1, #0x670]
     // 0xc04dbc: r2 = Null
     //     0xc04dbc: mov             x2, NULL
@@ -63,7 +63,7 @@ class PerformanceBasicStatsCardView extends StatelessWidget {
     // 0xc04ddc: r0 = fold()
     //     0xc04ddc: bl              #0x8b192c  ; [dart:collection] ListBase::fold
     // 0xc04de0: r1 = Function '<anonymous closure>':.
-    //     0xc04de0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d678] AnonymousClosure: static (0x98bf84), in [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
+    //     0xc04de0: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d678] AnonymousClosure: static (0x98bf84), in [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
     //     0xc04de4: ldr             x1, [x1, #0x678]
     // 0xc04de8: r2 = Null
     //     0xc04de8: mov             x2, NULL
@@ -127,7 +127,7 @@ class PerformanceBasicStatsCardView extends StatelessWidget {
     //     0xc04e9c: ldr             x1, [x1, #0x710]
     // 0xc04ea0: stur            x0, [fp, #-8]
     // 0xc04ea4: r0 = L()
-    //     0xc04ea4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc04ea4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc04ea8: stur            x0, [fp, #-0x38]
     // 0xc04eac: ldur            x16, [fp, #-0x20]
     // 0xc04eb0: str             x16, [SP]
@@ -138,7 +138,7 @@ class PerformanceBasicStatsCardView extends StatelessWidget {
     //     0xc04ebc: ldr             x1, [x1, #0xe80]
     // 0xc04ec0: stur            x0, [fp, #-0x20]
     // 0xc04ec4: r0 = L()
-    //     0xc04ec4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc04ec4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc04ec8: stur            x0, [fp, #-0x40]
     // 0xc04ecc: ldur            x16, [fp, #-0x28]
     // 0xc04ed0: str             x16, [SP]
@@ -149,7 +149,7 @@ class PerformanceBasicStatsCardView extends StatelessWidget {
     //     0xc04edc: ldr             x1, [x1, #0x418]
     // 0xc04ee0: stur            x0, [fp, #-0x28]
     // 0xc04ee4: r0 = L()
-    //     0xc04ee4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc04ee4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc04ee8: ldur            d0, [fp, #-0x80]
     // 0xc04eec: stur            x0, [fp, #-0x48]
     // 0xc04ef0: stp             fp, lr, [SP, #-0x10]!
@@ -196,7 +196,7 @@ class PerformanceBasicStatsCardView extends StatelessWidget {
     //     0xc04f70: ldr             x1, [x1, #0x708]
     // 0xc04f74: stur            x0, [fp, #-0x50]
     // 0xc04f78: r0 = L()
-    //     0xc04f78: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc04f78: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc04f7c: mov             x2, x0
     // 0xc04f80: ldur            x0, [fp, #-0x30]
     // 0xc04f84: stur            x2, [fp, #-0x58]
@@ -204,13 +204,13 @@ class PerformanceBasicStatsCardView extends StatelessWidget {
     //     0xc04f88: ldur            d0, [x0, #7]
     // 0xc04f8c: ldur            x1, [fp, #-0x10]
     // 0xc04f90: r0 = _formatDuration()
-    //     0xc04f90: bl              #0xc054b4  ; [package:ballai/automatic/views/home/tab/tabs/trends/sections/performance/sections/basicstats/performance_basic_stats_card_view.dart] PerformanceBasicStatsCardView::_formatDuration
+    //     0xc04f90: bl              #0xc054b4  ; [package:kourtai/automatic/views/home/tab/tabs/trends/sections/performance/sections/basicstats/performance_basic_stats_card_view.dart] PerformanceBasicStatsCardView::_formatDuration
     // 0xc04f94: r1 = "Total time"
     //     0xc04f94: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d680] "Total time"
     //     0xc04f98: ldr             x1, [x1, #0x680]
     // 0xc04f9c: stur            x0, [fp, #-0x30]
     // 0xc04fa0: r0 = L()
-    //     0xc04fa0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc04fa0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc04fa4: mov             x1, x0
     // 0xc04fa8: ldur            x0, [fp, #-0x10]
     // 0xc04fac: stur            x1, [fp, #-0x60]
@@ -235,7 +235,7 @@ class PerformanceBasicStatsCardView extends StatelessWidget {
     //     0xc04fe0: ldr             x1, [x1, #0x688]
     // 0xc04fe4: stur            x0, [fp, #-0x10]
     // 0xc04fe8: r0 = L()
-    //     0xc04fe8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc04fe8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc04fec: ldur            x2, [fp, #-0x38]
     // 0xc04ff0: ldur            x3, [fp, #-8]
     // 0xc04ff4: stur            x0, [fp, #-8]
@@ -354,8 +354,8 @@ class PerformanceBasicStatsCardView extends StatelessWidget {
     // 0xc05134: ldur            x0, [fp, #-0x10]
     // 0xc05138: ldur            x2, [fp, #-8]
     // 0xc0513c: ldur            x1, [fp, #-0x18]
-    // 0xc05140: r0 = BallAiThemeContext.ballAi()
-    //     0xc05140: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xc05140: r0 = KourtAiThemeContext.kourtAi()
+    //     0xc05140: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xc05144: LoadField: r1 = r0->field_13
     //     0xc05144: ldur            w1, [x0, #0x13]
     // 0xc05148: DecompressPointer r1
@@ -405,8 +405,8 @@ class PerformanceBasicStatsCardView extends StatelessWidget {
     //     0xc051b4: add             x4, x4, HEAP, lsl #32
     // 0xc051b8: ldur            x1, [fp, #-0x18]
     // 0xc051bc: stur            x4, [fp, #-0x20]
-    // 0xc051c0: r0 = BallAiThemeContext.ballAi()
-    //     0xc051c0: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xc051c0: r0 = KourtAiThemeContext.kourtAi()
+    //     0xc051c0: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xc051c4: ArrayLoad: r1 = r0[0]  ; List_4
     //     0xc051c4: ldur            w1, [x0, #0x17]
     // 0xc051c8: DecompressPointer r1
@@ -472,8 +472,8 @@ class PerformanceBasicStatsCardView extends StatelessWidget {
     //     0xc05260: add             x5, x5, HEAP, lsl #32
     // 0xc05264: ldur            x1, [fp, #-0x18]
     // 0xc05268: stur            x5, [fp, #-0x20]
-    // 0xc0526c: r0 = BallAiThemeContext.ballAi()
-    //     0xc0526c: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xc0526c: r0 = KourtAiThemeContext.kourtAi()
+    //     0xc0526c: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xc05270: LoadField: r1 = r0->field_1b
     //     0xc05270: ldur            w1, [x0, #0x1b]
     // 0xc05274: DecompressPointer r1

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_performance_charts.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_performance_charts.dart
 
 // class id: 1048918, size: 0x8
 class :: {
@@ -200,8 +200,8 @@ class _HighLowChip extends StatelessWidget {
     // 0xbf30e4: DecompressPointer r2
     //     0xbf30e4: add             x2, x2, HEAP, lsl #32
     // 0xbf30e8: stur            x2, [fp, #-8]
-    // 0xbf30ec: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbf30ec: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbf30ec: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbf30ec: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbf30f0: r16 = 0.700000
     //     0xbf30f0: add             x16, PP, #0x2d, lsl #12  ; [pp+0x2d4e0] 0.7
     //     0xbf30f4: ldr             x16, [x16, #0x4e0]
@@ -400,7 +400,7 @@ class MakePercentageOverTimeChart extends StatelessWidget {
     // 0xbf2a08: ret
     //     0xbf2a08: ret             
     // 0xbf2a0c: r0 = _percentages()
-    //     0xbf2a0c: bl              #0xbf2f18  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_performance_charts.dart] MakePercentageOverTimeChart::_percentages
+    //     0xbf2a0c: bl              #0xbf2f18  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_performance_charts.dart] MakePercentageOverTimeChart::_percentages
     // 0xbf2a10: mov             x1, x0
     // 0xbf2a14: r2 = Closure: (double, double) => double from Function 'min': static.
     //     0xbf2a14: add             x2, PP, #0x53, lsl #12  ; [pp+0x53818] Closure: (double, double) => double from Function 'min': static. (0x106e9d528)
@@ -456,7 +456,7 @@ class MakePercentageOverTimeChart extends StatelessWidget {
     // 0xbf2aa8: mov             x1, x3
     // 0xbf2aac: stur            x4, [fp, #-0x28]
     // 0xbf2ab0: r0 = L()
-    //     0xbf2ab0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf2ab0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf2ab4: stur            x0, [fp, #-0x30]
     // 0xbf2ab8: r0 = WorkoutStatLabel()
     //     0xbf2ab8: bl              #0x9e2038  ; AllocateWorkoutStatLabelStub -> WorkoutStatLabel (size=0x1c)
@@ -484,7 +484,7 @@ class MakePercentageOverTimeChart extends StatelessWidget {
     // 0xbf2af4: r0 = List.from()
     //     0xbf2af4: bl              #0x5f9020  ; [dart:core] List::List.from
     // 0xbf2af8: r1 = Function '<anonymous closure>':.
-    //     0xbf2af8: add             x1, PP, #0x53, lsl #12  ; [pp+0x53830] AnonymousClosure: (0x8f6a60), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
+    //     0xbf2af8: add             x1, PP, #0x53, lsl #12  ; [pp+0x53830] AnonymousClosure: (0x8f6a60), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
     //     0xbf2afc: ldr             x1, [x1, #0x830]
     // 0xbf2b00: r2 = Null
     //     0xbf2b00: mov             x2, NULL
@@ -498,12 +498,12 @@ class MakePercentageOverTimeChart extends StatelessWidget {
     // 0xbf2b18: r0 = sort()
     //     0xbf2b18: bl              #0x7ac5ec  ; [dart:collection] ListBase::sort
     // 0xbf2b1c: ldur            x1, [fp, #-0x10]
-    // 0xbf2b20: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbf2b20: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbf2b20: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbf2b20: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbf2b24: ldur            x1, [fp, #-0x10]
     // 0xbf2b28: stur            x0, [fp, #-0x10]
-    // 0xbf2b2c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbf2b2c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbf2b2c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbf2b2c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbf2b30: r16 = 0.150000
     //     0xbf2b30: add             x16, PP, #0x20, lsl #12  ; [pp+0x200f0] 0.15
     //     0xbf2b34: ldr             x16, [x16, #0xf0]
@@ -576,7 +576,7 @@ class MakePercentageOverTimeChart extends StatelessWidget {
     //     0xbf2be4: add             x1, PP, #0x30, lsl #12  ; [pp+0x307f8] "HIGH"
     //     0xbf2be8: ldr             x1, [x1, #0x7f8]
     // 0xbf2bec: r0 = L()
-    //     0xbf2bec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf2bec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf2bf0: mov             x1, x0
     // 0xbf2bf4: ldur            x0, [fp, #-0x18]
     // 0xbf2bf8: stur            x1, [fp, #-0x30]
@@ -893,7 +893,7 @@ class MakePercentageOverTimeChart extends StatelessWidget {
     // 0xbf2f44: r0 = List.from()
     //     0xbf2f44: bl              #0x5f9020  ; [dart:core] List::List.from
     // 0xbf2f48: r1 = Function '<anonymous closure>':.
-    //     0xbf2f48: add             x1, PP, #0x53, lsl #12  ; [pp+0x53848] AnonymousClosure: (0x8f6a60), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
+    //     0xbf2f48: add             x1, PP, #0x53, lsl #12  ; [pp+0x53848] AnonymousClosure: (0x8f6a60), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
     //     0xbf2f4c: ldr             x1, [x1, #0x848]
     // 0xbf2f50: r2 = Null
     //     0xbf2f50: mov             x2, NULL
@@ -1062,7 +1062,7 @@ class ShotsOverTimeChart extends StatelessWidget {
     // 0xbf266c: r0 = List.from()
     //     0xbf266c: bl              #0x5f9020  ; [dart:core] List::List.from
     // 0xbf2670: r1 = Function '<anonymous closure>':.
-    //     0xbf2670: add             x1, PP, #0x53, lsl #12  ; [pp+0x53800] AnonymousClosure: (0x8f6a60), in [package:ballai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
+    //     0xbf2670: add             x1, PP, #0x53, lsl #12  ; [pp+0x53800] AnonymousClosure: (0x8f6a60), in [package:kourtai/automatic/app/dependencies/managers/core/trends_manager.dart] TrendsManager::_applyDisplayFilter (0x8f6ad4)
     //     0xbf2674: ldr             x1, [x1, #0x800]
     // 0xbf2678: r2 = Null
     //     0xbf2678: mov             x2, NULL
@@ -1079,7 +1079,7 @@ class ShotsOverTimeChart extends StatelessWidget {
     //     0xbf2694: add             x1, PP, #0x53, lsl #12  ; [pp+0x53808] "Shots & Makes Over Time"
     //     0xbf2698: ldr             x1, [x1, #0x808]
     // 0xbf269c: r0 = L()
-    //     0xbf269c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf269c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf26a0: stur            x0, [fp, #-0x18]
     // 0xbf26a4: r0 = WorkoutStatLabel()
     //     0xbf26a4: bl              #0x9e2038  ; AllocateWorkoutStatLabelStub -> WorkoutStatLabel (size=0x1c)
@@ -1099,12 +1099,12 @@ class ShotsOverTimeChart extends StatelessWidget {
     // 0xbf26cc: StoreField: r2->field_13 = r0
     //     0xbf26cc: stur            w0, [x2, #0x13]
     // 0xbf26d0: ldur            x1, [fp, #-8]
-    // 0xbf26d4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbf26d4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbf26d4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbf26d4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbf26d8: ldur            x1, [fp, #-8]
     // 0xbf26dc: stur            x0, [fp, #-0x18]
-    // 0xbf26e0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbf26e0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbf26e0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbf26e0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbf26e4: r16 = 0.150000
     //     0xbf26e4: add             x16, PP, #0x20, lsl #12  ; [pp+0x200f0] 0.15
     //     0xbf26e8: ldr             x16, [x16, #0xf0]
@@ -1177,11 +1177,11 @@ class ShotsOverTimeChart extends StatelessWidget {
     //     0xbf2798: add             x1, PP, #0x11, lsl #12  ; [pp+0x11e80] "Shots"
     //     0xbf279c: ldr             x1, [x1, #0xe80]
     // 0xbf27a0: r0 = L()
-    //     0xbf27a0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf27a0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf27a4: ldur            x1, [fp, #-8]
     // 0xbf27a8: stur            x0, [fp, #-0x28]
-    // 0xbf27ac: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbf27ac: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbf27ac: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbf27ac: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbf27b0: stur            x0, [fp, #-0x30]
     // 0xbf27b4: r0 = _LegendDot()
     //     0xbf27b4: bl              #0xbf29a8  ; Allocate_LegendDotStub -> _LegendDot (size=0x18)
@@ -1211,11 +1211,11 @@ class ShotsOverTimeChart extends StatelessWidget {
     //     0xbf27f4: add             x1, PP, #0x29, lsl #12  ; [pp+0x29418] "Makes"
     //     0xbf27f8: ldr             x1, [x1, #0x418]
     // 0xbf27fc: r0 = L()
-    //     0xbf27fc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbf27fc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbf2800: ldur            x1, [fp, #-8]
     // 0xbf2804: stur            x0, [fp, #-8]
-    // 0xbf2808: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbf2808: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbf2808: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbf2808: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbf280c: stur            x0, [fp, #-0x30]
     // 0xbf2810: r0 = _LegendDot()
     //     0xbf2810: bl              #0xbf29a8  ; Allocate_LegendDotStub -> _LegendDot (size=0x18)
@@ -1786,7 +1786,7 @@ class _MakePercentOverTimePainter extends CustomPainter {
     // 0x83f7e0: mov             x5, x0
     // 0x83f7e4: ldur            d0, [fp, #-0x98]
     // 0x83f7e8: r0 = _drawRightLabel()
-    //     0x83f7e8: bl              #0x840254  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_performance_charts.dart] _MakePercentOverTimePainter::_drawRightLabel
+    //     0x83f7e8: bl              #0x840254  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_performance_charts.dart] _MakePercentOverTimePainter::_drawRightLabel
     // 0x83f7ec: ldur            x0, [fp, #-0x48]
     // 0x83f7f0: ldur            d1, [fp, #-0x78]
     // 0x83f7f4: ldur            x3, [fp, #-0x50]
@@ -1821,7 +1821,7 @@ class _MakePercentOverTimePainter extends CustomPainter {
     //     0x83f844: bl              #0x827474  ; [dart:ui] _NativeCanvas::drawLine
     // 0x83f848: ldur            x1, [fp, #-0x28]
     // 0x83f84c: r0 = _ampm()
-    //     0x83f84c: bl              #0x83f224  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_ampm
+    //     0x83f84c: bl              #0x83f224  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_ampm
     // 0x83f850: ldur            x1, [fp, #-0x10]
     // 0x83f854: ldur            x2, [fp, #-0x18]
     // 0x83f858: mov             x3, x0
@@ -1829,17 +1829,17 @@ class _MakePercentOverTimePainter extends CustomPainter {
     // 0x83f860: d0 = 4.000000
     //     0x83f860: fmov            d0, #4.00000000
     // 0x83f864: r0 = _drawBottomLabel()
-    //     0x83f864: bl              #0x83f0ec  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_performance_charts.dart] _MakePercentOverTimePainter::_drawBottomLabel
+    //     0x83f864: bl              #0x83f0ec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_performance_charts.dart] _MakePercentOverTimePainter::_drawBottomLabel
     // 0x83f868: ldur            x1, [fp, #-0x30]
     // 0x83f86c: r0 = _ampm()
-    //     0x83f86c: bl              #0x83f224  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_ampm
+    //     0x83f86c: bl              #0x83f224  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_ampm
     // 0x83f870: ldur            x1, [fp, #-0x10]
     // 0x83f874: ldur            x2, [fp, #-0x18]
     // 0x83f878: mov             x3, x0
     // 0x83f87c: ldur            d0, [fp, #-0x80]
     // 0x83f880: ldur            d1, [fp, #-0x78]
     // 0x83f884: r0 = _drawBottomLabel()
-    //     0x83f884: bl              #0x83f0ec  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_performance_charts.dart] _MakePercentOverTimePainter::_drawBottomLabel
+    //     0x83f884: bl              #0x83f0ec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_performance_charts.dart] _MakePercentOverTimePainter::_drawBottomLabel
     // 0x83f888: r1 = <Offset>
     //     0x83f888: add             x1, PP, #0x19, lsl #12  ; [pp+0x19e38] TypeArguments: <Offset>
     //     0x83f88c: ldr             x1, [x1, #0xe38]
@@ -3208,7 +3208,7 @@ class _ShotsOverTimePainter extends CustomPainter {
     // 0x83e564: mov             x5, x0
     // 0x83e568: ldur            d0, [fp, #-0x98]
     // 0x83e56c: r0 = _drawRightLabel()
-    //     0x83e56c: bl              #0x83f3c4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_performance_charts.dart] _ShotsOverTimePainter::_drawRightLabel
+    //     0x83e56c: bl              #0x83f3c4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_performance_charts.dart] _ShotsOverTimePainter::_drawRightLabel
     // 0x83e570: ldur            x0, [fp, #-0x50]
     // 0x83e574: ldur            d1, [fp, #-0x70]
     // 0x83e578: ldur            x3, [fp, #-0x58]
@@ -3244,7 +3244,7 @@ class _ShotsOverTimePainter extends CustomPainter {
     //     0x83e5cc: bl              #0x827474  ; [dart:ui] _NativeCanvas::drawLine
     // 0x83e5d0: ldur            x1, [fp, #-0x28]
     // 0x83e5d4: r0 = _ampm()
-    //     0x83e5d4: bl              #0x83f224  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_ampm
+    //     0x83e5d4: bl              #0x83f224  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_ampm
     // 0x83e5d8: ldur            x1, [fp, #-0x10]
     // 0x83e5dc: ldur            x2, [fp, #-0x18]
     // 0x83e5e0: mov             x3, x0
@@ -3252,7 +3252,7 @@ class _ShotsOverTimePainter extends CustomPainter {
     // 0x83e5e8: d0 = 4.000000
     //     0x83e5e8: fmov            d0, #4.00000000
     // 0x83e5ec: r0 = _drawBottomLabel()
-    //     0x83e5ec: bl              #0x83f0ec  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_performance_charts.dart] _MakePercentOverTimePainter::_drawBottomLabel
+    //     0x83e5ec: bl              #0x83f0ec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_performance_charts.dart] _MakePercentOverTimePainter::_drawBottomLabel
     // 0x83e5f0: ldur            d0, [fp, #-0x80]
     // 0x83e5f4: d1 = 0.000000
     //     0x83e5f4: eor             v1.16b, v1.16b, v1.16b
@@ -3260,14 +3260,14 @@ class _ShotsOverTimePainter extends CustomPainter {
     // 0x83e5fc: b.le            #0x83e620
     // 0x83e600: ldur            x1, [fp, #-0x30]
     // 0x83e604: r0 = _ampm()
-    //     0x83e604: bl              #0x83f224  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_ampm
+    //     0x83e604: bl              #0x83f224  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_ampm
     // 0x83e608: ldur            x1, [fp, #-0x10]
     // 0x83e60c: ldur            x2, [fp, #-0x18]
     // 0x83e610: mov             x3, x0
     // 0x83e614: ldur            d0, [fp, #-0x78]
     // 0x83e618: ldur            d1, [fp, #-0x70]
     // 0x83e61c: r0 = _drawBottomLabel()
-    //     0x83e61c: bl              #0x83f0ec  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_performance_charts.dart] _MakePercentOverTimePainter::_drawBottomLabel
+    //     0x83e61c: bl              #0x83f0ec  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_performance_charts.dart] _MakePercentOverTimePainter::_drawBottomLabel
     // 0x83e620: ldur            d0, [fp, #-0x78]
     // 0x83e624: ldur            d1, [fp, #-0x70]
     // 0x83e628: r1 = <Offset>
@@ -3897,7 +3897,7 @@ class _ShotsOverTimePainter extends CustomPainter {
     //     0x83ed44: add             x5, PP, #0x44, lsl #12  ; [pp+0x44410] Obj!Color@d2a341
     //     0x83ed48: ldr             x5, [x5, #0x410]
     // 0x83ed4c: r0 = _drawLine()
-    //     0x83ed4c: bl              #0x83eec0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_performance_charts.dart] _ShotsOverTimePainter::_drawLine
+    //     0x83ed4c: bl              #0x83eec0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_performance_charts.dart] _ShotsOverTimePainter::_drawLine
     // 0x83ed50: ldur            x3, [fp, #-0x38]
     // 0x83ed54: LoadField: r0 = r3->field_b
     //     0x83ed54: ldur            w0, [x3, #0xb]
@@ -3911,7 +3911,7 @@ class _ShotsOverTimePainter extends CustomPainter {
     //     0x83ed6c: add             x5, PP, #0x43, lsl #12  ; [pp+0x432a8] Obj!Color@d2a311
     //     0x83ed70: ldr             x5, [x5, #0x2a8]
     // 0x83ed74: r0 = _drawLine()
-    //     0x83ed74: bl              #0x83eec0  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_performance_charts.dart] _ShotsOverTimePainter::_drawLine
+    //     0x83ed74: bl              #0x83eec0  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_performance_charts.dart] _ShotsOverTimePainter::_drawLine
     // 0x83ed78: b               #0x83edd8
     // 0x83ed7c: cmp             x1, #1
     // 0x83ed80: b.ne            #0x83edd8

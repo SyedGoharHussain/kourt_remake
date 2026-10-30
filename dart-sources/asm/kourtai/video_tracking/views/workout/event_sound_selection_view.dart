@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/event_sound_selection_view.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart
 
 // class id: 1049241, size: 0x8
 class :: {
@@ -21,7 +21,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0x9945a8: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x9945ac: cmp             SP, x16
     //     0x9945b0: b.ls            #0x994614
-    // 0x9945b4: r0 = InitLateStaticField(0xee0) // [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
+    // 0x9945b4: r0 = InitLateStaticField(0xee0) // [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
     //     0x9945b4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x9945b8: ldr             x0, [x0, #0x1dc0]
     //     0x9945bc: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -32,7 +32,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0x9945d0: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x9945d4: ldur            x2, [fp, #-8]
     // 0x9945d8: r1 = Function '_onCatalog@1103252219':.
-    //     0x9945d8: add             x1, PP, #0x57, lsl #12  ; [pp+0x57678] AnonymousClosure: (0x994714), in [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_onCatalog (0x99474c)
+    //     0x9945d8: add             x1, PP, #0x57, lsl #12  ; [pp+0x57678] AnonymousClosure: (0x994714), in [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_onCatalog (0x99474c)
     //     0x9945dc: ldr             x1, [x1, #0x678]
     // 0x9945e0: stur            x0, [fp, #-0x10]
     // 0x9945e4: r0 = AllocateClosure()
@@ -43,10 +43,10 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0x9945f0: bl              #0x8d6c10  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::addListener
     // 0x9945f4: ldur            x1, [fp, #-8]
     // 0x9945f8: r0 = _load()
-    //     0x9945f8: bl              #0x99463c  ; [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_load
+    //     0x9945f8: bl              #0x99463c  ; [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_load
     // 0x9945fc: ldur            x1, [fp, #-0x10]
     // 0x994600: r0 = refresh()
-    //     0x994600: bl              #0x947b4c  ; [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::refresh
+    //     0x994600: bl              #0x947b4c  ; [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::refresh
     // 0x994604: r0 = Null
     //     0x994604: mov             x0, NULL
     // 0x994608: LeaveFrame
@@ -95,7 +95,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0x994690: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a618] Obj!ShotEventSoundKind@d38c01
     //     0x994694: ldr             x1, [x1, #0x618]
     // 0x994698: r0 = getSoundId()
-    //     0x994698: bl              #0x72fda0  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::getSoundId
+    //     0x994698: bl              #0x72fda0  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::getSoundId
     // 0x99469c: mov             x1, x0
     // 0x9946a0: stur            x1, [fp, #-0x20]
     // 0x9946a4: r0 = Await()
@@ -122,7 +122,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     // 0x9946e4: r0 = ReturnAsyncNotFuture()
     //     0x9946e4: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x9946e8: r1 = Function '<anonymous closure>':.
-    //     0x9946e8: add             x1, PP, #0x57, lsl #12  ; [pp+0x57688] AnonymousClosure: (0x903cd8), in [package:ballai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::_startPlayback (0x903d28)
+    //     0x9946e8: add             x1, PP, #0x57, lsl #12  ; [pp+0x57688] AnonymousClosure: (0x903cd8), in [package:kourtai/video_tracking/views/setup_tips/setup_tips_tutorial_player_view.dart] _SetupTipsTutorialPlayerViewState::_startPlayback (0x903d28)
     //     0x9946ec: ldr             x1, [x1, #0x688]
     // 0x9946f0: r0 = AllocateClosure()
     //     0x9946f0: bl              #0xe553e0  ; AllocateClosureStub
@@ -155,7 +155,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0x99472c: cmp             SP, x16
     //     0x994730: b.ls            #0x994744
     // 0x994734: r0 = _onCatalog()
-    //     0x994734: bl              #0x99474c  ; [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_onCatalog
+    //     0x994734: bl              #0x99474c  ; [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_onCatalog
     // 0x994738: LeaveFrame
     //     0x994738: mov             SP, fp
     //     0x99473c: ldp             fp, lr, [SP], #0x10
@@ -256,35 +256,35 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     // 0xacea54: ldur            x1, [fp, #-8]
     // 0xacea58: stur            x2, [fp, #-0x10]
     // 0xacea5c: r0 = _controlOptions()
-    //     0xacea5c: bl              #0xacf864  ; [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_controlOptions
+    //     0xacea5c: bl              #0xacf864  ; [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_controlOptions
     // 0xacea60: ldur            x1, [fp, #-8]
     // 0xacea64: mov             x2, x0
     // 0xacea68: r0 = _filter()
-    //     0xacea68: bl              #0xacf720  ; [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_filter
+    //     0xacea68: bl              #0xacf720  ; [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_filter
     // 0xacea6c: ldur            x1, [fp, #-8]
     // 0xacea70: stur            x0, [fp, #-0x20]
     // 0xacea74: r0 = _myOptions()
-    //     0xacea74: bl              #0xacf4f8  ; [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_myOptions
+    //     0xacea74: bl              #0xacf4f8  ; [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_myOptions
     // 0xacea78: ldur            x1, [fp, #-8]
     // 0xacea7c: mov             x2, x0
     // 0xacea80: r0 = _filter()
-    //     0xacea80: bl              #0xacf720  ; [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_filter
+    //     0xacea80: bl              #0xacf720  ; [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_filter
     // 0xacea84: ldur            x1, [fp, #-8]
     // 0xacea88: stur            x0, [fp, #-0x28]
     // 0xacea8c: r0 = _basicOptions()
-    //     0xacea8c: bl              #0xacf46c  ; [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_basicOptions
+    //     0xacea8c: bl              #0xacf46c  ; [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_basicOptions
     // 0xacea90: ldur            x1, [fp, #-8]
     // 0xacea94: mov             x2, x0
     // 0xacea98: r0 = _filter()
-    //     0xacea98: bl              #0xacf720  ; [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_filter
+    //     0xacea98: bl              #0xacf720  ; [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_filter
     // 0xacea9c: ldur            x1, [fp, #-8]
     // 0xaceaa0: stur            x0, [fp, #-0x30]
     // 0xaceaa4: r0 = _bonusOptions()
-    //     0xaceaa4: bl              #0xacf314  ; [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_bonusOptions
+    //     0xaceaa4: bl              #0xacf314  ; [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_bonusOptions
     // 0xaceaa8: ldur            x1, [fp, #-8]
     // 0xaceaac: mov             x2, x0
     // 0xaceab0: r0 = _filter()
-    //     0xaceab0: bl              #0xacf720  ; [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_filter
+    //     0xaceab0: bl              #0xacf720  ; [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_filter
     // 0xaceab4: ldur            x2, [fp, #-8]
     // 0xaceab8: stur            x0, [fp, #-0x38]
     // 0xaceabc: LoadField: r1 = r2->field_1b
@@ -392,7 +392,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0xacebdc: stur            w0, [x3, #0xb]
     // 0xacebe0: ldur            x2, [fp, #-0x18]
     // 0xacebe4: r1 = Function '<anonymous closure>':.
-    //     0xacebe4: add             x1, PP, #0x57, lsl #12  ; [pp+0x57520] AnonymousClosure: (0xad0d40), in [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::build (0xace9f0)
+    //     0xacebe4: add             x1, PP, #0x57, lsl #12  ; [pp+0x57520] AnonymousClosure: (0xad0d40), in [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::build (0xace9f0)
     //     0xacebe8: ldr             x1, [x1, #0x520]
     // 0xacebec: r0 = AllocateClosure()
     //     0xacebec: bl              #0xe553e0  ; AllocateClosureStub
@@ -441,8 +441,8 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     // 0xacec60: DecompressPointer r0
     //     0xacec60: add             x0, x0, HEAP, lsl #32
     // 0xacec64: mov             x1, x0
-    // 0xacec68: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xacec68: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xacec68: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xacec68: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xacec6c: stur            x0, [fp, #-0x40]
     // 0xacec70: r0 = TextStyle()
     //     0xacec70: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -543,7 +543,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0xaced80: stur            w0, [x3, #0xf]
     // 0xaced84: ldur            x2, [fp, #-8]
     // 0xaced88: r1 = Function '_selectOption@1103252219':.
-    //     0xaced88: add             x1, PP, #0x57, lsl #12  ; [pp+0x57530] AnonymousClosure: (0xad0984), in [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_selectOption (0xad09c0)
+    //     0xaced88: add             x1, PP, #0x57, lsl #12  ; [pp+0x57530] AnonymousClosure: (0xad0984), in [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_selectOption (0xad09c0)
     //     0xaced8c: ldr             x1, [x1, #0x530]
     // 0xaced90: r0 = AllocateClosure()
     //     0xaced90: bl              #0xe553e0  ; AllocateClosureStub
@@ -584,8 +584,8 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0xacedec: ldur            w1, [x0, #0x13]
     // 0xacedf0: DecompressPointer r1
     //     0xacedf0: add             x1, x1, HEAP, lsl #32
-    // 0xacedf4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xacedf4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xacedf4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xacedf4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xacedf8: stur            x0, [fp, #-0x40]
     // 0xacedfc: r0 = TextStyle()
     //     0xacedfc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -696,7 +696,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0xacef14: stur            w4, [x3, #0x1b]
     // 0xacef18: ldur            x2, [fp, #-8]
     // 0xacef1c: r1 = Function '_manageUserSound@1103252219':.
-    //     0xacef1c: add             x1, PP, #0x57, lsl #12  ; [pp+0x57540] AnonymousClosure: (0xacfa00), in [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_manageUserSound (0xacfa3c)
+    //     0xacef1c: add             x1, PP, #0x57, lsl #12  ; [pp+0x57540] AnonymousClosure: (0xacfa00), in [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_manageUserSound (0xacfa3c)
     //     0xacef20: ldr             x1, [x1, #0x540]
     // 0xacef24: r0 = AllocateClosure()
     //     0xacef24: bl              #0xe553e0  ; AllocateClosureStub
@@ -739,7 +739,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     // 0xacef84: ldur            x0, [fp, #-0x40]
     // 0xacef88: ldur            x2, [fp, #-0x18]
     // 0xacef8c: r1 = Function '<anonymous closure>':.
-    //     0xacef8c: add             x1, PP, #0x57, lsl #12  ; [pp+0x57548] AnonymousClosure: (0xacf908), in [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::build (0xace9f0)
+    //     0xacef8c: add             x1, PP, #0x57, lsl #12  ; [pp+0x57548] AnonymousClosure: (0xacf908), in [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::build (0xace9f0)
     //     0xacef90: ldr             x1, [x1, #0x548]
     // 0xacef94: r0 = AllocateClosure()
     //     0xacef94: bl              #0xe553e0  ; AllocateClosureStub
@@ -808,8 +808,8 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0xacf050: ldur            w1, [x5, #0x13]
     // 0xacf054: DecompressPointer r1
     //     0xacf054: add             x1, x1, HEAP, lsl #32
-    // 0xacf058: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xacf058: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xacf058: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xacf058: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xacf05c: stur            x0, [fp, #-0x28]
     // 0xacf060: r0 = TextStyle()
     //     0xacf060: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -931,8 +931,8 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     // 0xacf198: DecompressPointer r5
     //     0xacf198: add             x5, x5, HEAP, lsl #32
     // 0xacf19c: mov             x1, x5
-    // 0xacf1a0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xacf1a0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xacf1a0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xacf1a0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xacf1a4: stur            x0, [fp, #-0x18]
     // 0xacf1a8: r0 = TextStyle()
     //     0xacf1a8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1078,7 +1078,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0xacf330: add             x0, x0, HEAP, lsl #32
     // 0xacf334: cmp             w0, NULL
     // 0xacf338: b.eq            #0xacf3c0
-    // 0xacf33c: r0 = InitLateStaticField(0xee0) // [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
+    // 0xacf33c: r0 = InitLateStaticField(0xee0) // [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
     //     0xacf33c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xacf340: ldr             x0, [x0, #0x1dc0]
     //     0xacf344: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1089,12 +1089,12 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0xacf358: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0xacf35c: mov             x1, x0
     // 0xacf360: r0 = marketingSounds()
-    //     0xacf360: bl              #0x72fd0c  ; [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::marketingSounds
+    //     0xacf360: bl              #0x72fd0c  ; [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::marketingSounds
     // 0xacf364: mov             x1, x0
     // 0xacf368: r0 = orderedMarketing()
-    //     0xacf368: bl              #0x72f268  ; [package:ballai/video_tracking/session/feedback/event_sound.dart] EventSoundCatalog::orderedMarketing
+    //     0xacf368: bl              #0x72f268  ; [package:kourtai/video_tracking/session/feedback/event_sound.dart] EventSoundCatalog::orderedMarketing
     // 0xacf36c: r1 = Function '<anonymous closure>':.
-    //     0xacf36c: add             x1, PP, #0x57, lsl #12  ; [pp+0x57648] AnonymousClosure: (0xacf3e8), in [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_bonusOptions (0xacf314)
+    //     0xacf36c: add             x1, PP, #0x57, lsl #12  ; [pp+0x57648] AnonymousClosure: (0xacf3e8), in [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_bonusOptions (0xacf314)
     //     0xacf370: ldr             x1, [x1, #0x648]
     // 0xacf374: r2 = Null
     //     0xacf374: mov             x2, NULL
@@ -1147,7 +1147,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0xacf408: add             x0, x0, HEAP, lsl #32
     // 0xacf40c: stur            x0, [fp, #-8]
     // 0xacf410: r0 = title()
-    //     0xacf410: bl              #0x72f6e0  ; [package:ballai/video_tracking/session/feedback/event_sound.dart] EventSound::title
+    //     0xacf410: bl              #0x72f6e0  ; [package:kourtai/video_tracking/session/feedback/event_sound.dart] EventSound::title
     // 0xacf414: r1 = LoadClassIdInstr(r0)
     //     0xacf414: ldur            x1, [x0, #-1]
     //     0xacf418: ubfx            x1, x1, #0xc, #0x14
@@ -1198,9 +1198,9 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0xacf494: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a618] Obj!ShotEventSoundKind@d38c01
     //     0xacf498: ldr             x1, [x1, #0x618]
     // 0xacf49c: r0 = availableSounds()
-    //     0xacf49c: bl              #0x72ecd8  ; [package:ballai/video_tracking/session/feedback/event_sound.dart] EventSoundCatalog::availableSounds
+    //     0xacf49c: bl              #0x72ecd8  ; [package:kourtai/video_tracking/session/feedback/event_sound.dart] EventSoundCatalog::availableSounds
     // 0xacf4a0: r1 = Function '<anonymous closure>':.
-    //     0xacf4a0: add             x1, PP, #0x57, lsl #12  ; [pp+0x57658] AnonymousClosure: (0xacf3e8), in [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_bonusOptions (0xacf314)
+    //     0xacf4a0: add             x1, PP, #0x57, lsl #12  ; [pp+0x57658] AnonymousClosure: (0xacf3e8), in [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_bonusOptions (0xacf314)
     //     0xacf4a4: ldr             x1, [x1, #0x658]
     // 0xacf4a8: r2 = Null
     //     0xacf4a8: mov             x2, NULL
@@ -1260,7 +1260,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     // 0xacf52c: r0 = _GrowableList()
     //     0xacf52c: bl              #0x5c7588  ; [dart:core] _GrowableList::_GrowableList
     // 0xacf530: stur            x0, [fp, #-8]
-    // 0xacf534: r0 = InitLateStaticField(0xee0) // [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
+    // 0xacf534: r0 = InitLateStaticField(0xee0) // [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
     //     0xacf534: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xacf538: ldr             x0, [x0, #0x1dc0]
     //     0xacf53c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1327,7 +1327,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     // 0xacf5f4: mov             x3, x4
     // 0xacf5f8: stur            x6, [fp, #-0x18]
     // 0xacf5fc: r0 = storedId()
-    //     0xacf5fc: bl              #0x72fc38  ; [package:ballai/video_tracking/session/feedback/green_sound_library.dart] GreenSoundLibrary::storedId
+    //     0xacf5fc: bl              #0x72fc38  ; [package:kourtai/video_tracking/session/feedback/green_sound_library.dart] GreenSoundLibrary::storedId
     // 0xacf600: mov             x2, x0
     // 0xacf604: ldur            x1, [fp, #-0x30]
     // 0xacf608: stur            x2, [fp, #-0x38]
@@ -1349,7 +1349,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     // 0xacf638: ldur            x3, [fp, #-0x28]
     // 0xacf63c: stur            x0, [fp, #-0x18]
     // 0xacf640: r0 = storedId()
-    //     0xacf640: bl              #0x72fc38  ; [package:ballai/video_tracking/session/feedback/green_sound_library.dart] GreenSoundLibrary::storedId
+    //     0xacf640: bl              #0x72fc38  ; [package:kourtai/video_tracking/session/feedback/green_sound_library.dart] GreenSoundLibrary::storedId
     // 0xacf644: stur            x0, [fp, #-0x20]
     // 0xacf648: r0 = _SoundOption()
     //     0xacf648: bl              #0xacf460  ; Allocate_SoundOptionStub -> _SoundOption (size=0x18)
@@ -1477,7 +1477,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0xacf798: ret             
     // 0xacf79c: mov             x2, x1
     // 0xacf7a0: r1 = Function '<anonymous closure>':.
-    //     0xacf7a0: add             x1, PP, #0x57, lsl #12  ; [pp+0x57660] AnonymousClosure: (0xacf7dc), in [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_filter (0xacf720)
+    //     0xacf7a0: add             x1, PP, #0x57, lsl #12  ; [pp+0x57660] AnonymousClosure: (0xacf7dc), in [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_filter (0xacf720)
     //     0xacf7a4: ldr             x1, [x1, #0x660]
     // 0xacf7a8: r0 = AllocateClosure()
     //     0xacf7a8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1647,7 +1647,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     // 0xacf93c: DecompressPointer r1
     //     0xacf93c: add             x1, x1, HEAP, lsl #32
     // 0xacf940: r0 = showCustomGreenSoundRecorderSheet()
-    //     0xacf940: bl              #0xacf95c  ; [package:ballai/video_tracking/views/workout/custom_green_sound_recorder_sheet.dart] ::showCustomGreenSoundRecorderSheet
+    //     0xacf940: bl              #0xacf95c  ; [package:kourtai/video_tracking/views/workout/custom_green_sound_recorder_sheet.dart] ::showCustomGreenSoundRecorderSheet
     // 0xacf944: r0 = Null
     //     0xacf944: mov             x0, NULL
     // 0xacf948: LeaveFrame
@@ -1675,7 +1675,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0xacfa1c: b.ls            #0xacfa34
     // 0xacfa20: ldr             x2, [fp, #0x10]
     // 0xacfa24: r0 = _manageUserSound()
-    //     0xacfa24: bl              #0xacfa3c  ; [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_manageUserSound
+    //     0xacfa24: bl              #0xacfa3c  ; [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_manageUserSound
     // 0xacfa28: LeaveFrame
     //     0xacfa28: mov             SP, fp
     //     0xacfa2c: ldp             fp, lr, [SP], #0x10
@@ -1720,7 +1720,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     // 0xacfa8c: DecompressPointer r3
     //     0xacfa8c: add             x3, x3, HEAP, lsl #32
     // 0xacfa90: stur            x3, [fp, #-0x98]
-    // 0xacfa94: r0 = InitLateStaticField(0xee0) // [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
+    // 0xacfa94: r0 = InitLateStaticField(0xee0) // [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
     //     0xacfa94: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xacfa98: ldr             x0, [x0, #0x1dc0]
     //     0xacfa9c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1732,7 +1732,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     // 0xacfab4: mov             x1, x0
     // 0xacfab8: stur            x0, [fp, #-0xa8]
     // 0xacfabc: r0 = currentUid()
-    //     0xacfabc: bl              #0x72baf4  ; [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::currentUid
+    //     0xacfabc: bl              #0x72baf4  ; [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::currentUid
     // 0xacfac0: mov             x1, x0
     // 0xacfac4: ldur            x0, [fp, #-0xa0]
     // 0xacfac8: ArrayLoad: r2 = r0[0]  ; List_4
@@ -1745,7 +1745,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0xacfad4: add             x5, x5, HEAP, lsl #32
     // 0xacfad8: ldur            x3, [fp, #-0x98]
     // 0xacfadc: r0 = canMutate()
-    //     0xacfadc: bl              #0xacc008  ; [package:ballai/video_tracking/session/feedback/green_sound_library.dart] GreenSoundLibrary::canMutate
+    //     0xacfadc: bl              #0xacc008  ; [package:kourtai/video_tracking/session/feedback/green_sound_library.dart] GreenSoundLibrary::canMutate
     // 0xacfae0: tbz             w0, #4, #0xacfaec
     // 0xacfae4: r0 = Null
     //     0xacfae4: mov             x0, NULL
@@ -1760,7 +1760,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     // 0xacfafc: cmp             w3, NULL
     // 0xacfb00: b.eq            #0xacfd08
     // 0xacfb04: r1 = Function '<anonymous closure>':.
-    //     0xacfb04: add             x1, PP, #0x57, lsl #12  ; [pp+0x57560] AnonymousClosure: (0xad070c), in [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_manageUserSound (0xacfa3c)
+    //     0xacfb04: add             x1, PP, #0x57, lsl #12  ; [pp+0x57560] AnonymousClosure: (0xad070c), in [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_manageUserSound (0xacfa3c)
     //     0xacfb08: ldr             x1, [x1, #0x560]
     // 0xacfb0c: r2 = Null
     //     0xacfb0c: mov             x2, NULL
@@ -1843,7 +1843,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     // 0xacfbe8: b.eq            #0xacfd0c
     // 0xacfbec: mov             x2, x3
     // 0xacfbf0: r1 = Function '<anonymous closure>':.
-    //     0xacfbf0: add             x1, PP, #0x57, lsl #12  ; [pp+0x57570] AnonymousClosure: (0xad04d0), in [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_manageUserSound (0xacfa3c)
+    //     0xacfbf0: add             x1, PP, #0x57, lsl #12  ; [pp+0x57570] AnonymousClosure: (0xad04d0), in [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_manageUserSound (0xacfa3c)
     //     0xacfbf4: ldr             x1, [x1, #0x570]
     // 0xacfbf8: r0 = AllocateClosure()
     //     0xacfbf8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1878,7 +1878,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     // 0xacfc4c: ldur            x2, [fp, #-0xa0]
     // 0xacfc50: mov             x3, x0
     // 0xacfc54: r0 = rename()
-    //     0xacfc54: bl              #0xad0060  ; [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::rename
+    //     0xacfc54: bl              #0xad0060  ; [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::rename
     // 0xacfc58: mov             x1, x0
     // 0xacfc5c: stur            x1, [fp, #-0xb0]
     // 0xacfc60: r0 = Await()
@@ -1912,7 +1912,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     // 0xacfca8: ldur            x1, [fp, #-0xa8]
     // 0xacfcac: ldur            x2, [fp, #-0xa0]
     // 0xacfcb0: r0 = delete()
-    //     0xacfcb0: bl              #0xacfd10  ; [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::delete
+    //     0xacfcb0: bl              #0xacfd10  ; [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::delete
     // 0xacfcb4: mov             x1, x0
     // 0xacfcb8: stur            x1, [fp, #-0x98]
     // 0xacfcbc: r0 = Await()
@@ -2087,7 +2087,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0xad0608: stur            w4, [x3, #0xc7]
     // 0xad060c: ldur            x2, [fp, #-0x18]
     // 0xad0610: r1 = Function '<anonymous closure>':.
-    //     0xad0610: add             x1, PP, #0x57, lsl #12  ; [pp+0x57590] AnonymousClosure: (0x986ed0), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
+    //     0xad0610: add             x1, PP, #0x57, lsl #12  ; [pp+0x57590] AnonymousClosure: (0x986ed0), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
     //     0xad0614: ldr             x1, [x1, #0x590]
     // 0xad0618: r0 = AllocateClosure()
     //     0xad0618: bl              #0xe553e0  ; AllocateClosureStub
@@ -2114,7 +2114,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0xad064c: stur            w1, [x3, #0x37]
     // 0xad0650: ldur            x2, [fp, #-0x18]
     // 0xad0654: r1 = Function '<anonymous closure>':.
-    //     0xad0654: add             x1, PP, #0x57, lsl #12  ; [pp+0x57598] AnonymousClosure: (0xaae594), in [package:ballai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_presentRedeemCode (0xaae164)
+    //     0xad0654: add             x1, PP, #0x57, lsl #12  ; [pp+0x57598] AnonymousClosure: (0xaae594), in [package:kourtai/automatic/views/misc/subscription/subscription_purchase_view.dart] _SubscriptionPurchaseViewState::_presentRedeemCode (0xaae164)
     //     0xad0658: ldr             x1, [x1, #0x598]
     // 0xad065c: r0 = AllocateClosure()
     //     0xad065c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2228,7 +2228,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0xad0764: stur            w0, [x3, #0x4b]
     // 0xad0768: ldur            x2, [fp, #-0x10]
     // 0xad076c: r1 = Function '<anonymous closure>':.
-    //     0xad076c: add             x1, PP, #0x57, lsl #12  ; [pp+0x575b8] AnonymousClosure: (0xad0924), in [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_manageUserSound (0xacfa3c)
+    //     0xad076c: add             x1, PP, #0x57, lsl #12  ; [pp+0x575b8] AnonymousClosure: (0xad0924), in [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_manageUserSound (0xacfa3c)
     //     0xad0770: ldr             x1, [x1, #0x5b8]
     // 0xad0774: r0 = AllocateClosure()
     //     0xad0774: bl              #0xe553e0  ; AllocateClosureStub
@@ -2261,7 +2261,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0xad07b4: stur            w0, [x3, #0x4b]
     // 0xad07b8: ldur            x2, [fp, #-0x10]
     // 0xad07bc: r1 = Function '<anonymous closure>':.
-    //     0xad07bc: add             x1, PP, #0x57, lsl #12  ; [pp+0x575c8] AnonymousClosure: (0xad08c4), in [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_manageUserSound (0xacfa3c)
+    //     0xad07bc: add             x1, PP, #0x57, lsl #12  ; [pp+0x575c8] AnonymousClosure: (0xad08c4), in [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_manageUserSound (0xacfa3c)
     //     0xad07c0: ldr             x1, [x1, #0x5c8]
     // 0xad07c4: r0 = AllocateClosure()
     //     0xad07c4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2471,7 +2471,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0xad09a0: b.ls            #0xad09b8
     // 0xad09a4: ldr             x2, [fp, #0x10]
     // 0xad09a8: r0 = _selectOption()
-    //     0xad09a8: bl              #0xad09c0  ; [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_selectOption
+    //     0xad09a8: bl              #0xad09c0  ; [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_selectOption
     // 0xad09ac: LeaveFrame
     //     0xad09ac: mov             SP, fp
     //     0xad09b0: ldp             fp, lr, [SP], #0x10
@@ -2510,7 +2510,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     // 0xad0a00: mov             x2, x3
     // 0xad0a04: stur            x3, [fp, #-0x20]
     // 0xad0a08: r0 = _applySelection()
-    //     0xad0a08: bl              #0xad0c94  ; [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_applySelection
+    //     0xad0a08: bl              #0xad0c94  ; [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_applySelection
     // 0xad0a0c: mov             x1, x0
     // 0xad0a10: stur            x1, [fp, #-0x28]
     // 0xad0a14: r0 = Await()
@@ -2541,7 +2541,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     // 0xad0a5c: blr             lr
     // 0xad0a60: tbnz            w0, #4, #0xad0aa8
     // 0xad0a64: ldur            x0, [fp, #-0x10]
-    // 0xad0a68: r0 = InitLateStaticField(0xed4) // [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
+    // 0xad0a68: r0 = InitLateStaticField(0xed4) // [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
     //     0xad0a68: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xad0a6c: ldr             x0, [x0, #0x1da8]
     //     0xad0a70: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2559,10 +2559,10 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     // 0xad0a98: cmp             w2, NULL
     // 0xad0a9c: b.eq            #0xad0afc
     // 0xad0aa0: r0 = previewRandom()
-    //     0xad0aa0: bl              #0xad0bdc  ; [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::previewRandom
+    //     0xad0aa0: bl              #0xad0bdc  ; [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::previewRandom
     // 0xad0aa4: b               #0xad0aec
     // 0xad0aa8: ldur            x0, [fp, #-0x10]
-    // 0xad0aac: r0 = InitLateStaticField(0xed4) // [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
+    // 0xad0aac: r0 = InitLateStaticField(0xed4) // [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
     //     0xad0aac: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xad0ab0: ldr             x0, [x0, #0x1da8]
     //     0xad0ab4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2581,7 +2581,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     // 0xad0ae0: b.eq            #0xad0b00
     // 0xad0ae4: ldur            x2, [fp, #-0x28]
     // 0xad0ae8: r0 = preview()
-    //     0xad0ae8: bl              #0xad0b04  ; [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::preview
+    //     0xad0ae8: bl              #0xad0b04  ; [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::preview
     // 0xad0aec: r0 = Null
     //     0xad0aec: mov             x0, NULL
     // 0xad0af0: r0 = ReturnAsyncNotFuture()
@@ -2626,7 +2626,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0xad0cdc: bl              #0x60afc8  ; InitAsyncStub
     // 0xad0ce0: ldur            x2, [fp, #-0x20]
     // 0xad0ce4: r1 = Function '<anonymous closure>':.
-    //     0xad0ce4: add             x1, PP, #0x57, lsl #12  ; [pp+0x57638] AnonymousClosure: (0x8e5cc8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
+    //     0xad0ce4: add             x1, PP, #0x57, lsl #12  ; [pp+0x57638] AnonymousClosure: (0x8e5cc8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_restoreContentTabAfterAction (0x8e5d14)
     //     0xad0ce8: ldr             x1, [x1, #0x638]
     // 0xad0cec: r0 = AllocateClosure()
     //     0xad0cec: bl              #0xe553e0  ; AllocateClosureStub
@@ -2647,7 +2647,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     // 0xad0d14: cmp             w3, NULL
     // 0xad0d18: b.eq            #0xad0d3c
     // 0xad0d1c: r0 = setSoundId()
-    //     0xad0d1c: bl              #0x9f1208  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::setSoundId
+    //     0xad0d1c: bl              #0x9f1208  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_event_sound.dart] DefaultsVideoWorkoutEventSound::setSoundId
     // 0xad0d20: mov             x1, x0
     // 0xad0d24: stur            x1, [fp, #-0x10]
     // 0xad0d28: r0 = Await()
@@ -2696,7 +2696,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     // 0xad0d8c: mov             x2, x1
     // 0xad0d90: stur            x3, [fp, #-0x10]
     // 0xad0d94: r1 = Function '<anonymous closure>':.
-    //     0xad0d94: add             x1, PP, #0x57, lsl #12  ; [pp+0x57640] AnonymousClosure: (0xa36cd4), in [package:ballai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::build (0xab7290)
+    //     0xad0d94: add             x1, PP, #0x57, lsl #12  ; [pp+0x57640] AnonymousClosure: (0xa36cd4), in [package:kourtai/video_tracking/views/drills/coach_session_player_picker.dart] _CoachSessionPlayerPickerViewState::build (0xab7290)
     //     0xad0d98: ldr             x1, [x1, #0x640]
     // 0xad0d9c: r0 = AllocateClosure()
     //     0xad0d9c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2722,7 +2722,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0xb5ccf4: mov             fp, SP
     // 0xb5ccf8: ldr             x2, [fp, #0x10]
     // 0xb5ccfc: r1 = Function 'dispose':.
-    //     0xb5ccfc: add             x1, PP, #0x57, lsl #12  ; [pp+0x57518] AnonymousClosure: (0xb5cd14), in [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::dispose (0xb647f4)
+    //     0xb5ccfc: add             x1, PP, #0x57, lsl #12  ; [pp+0x57518] AnonymousClosure: (0xb5cd14), in [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::dispose (0xb647f4)
     //     0xb5cd00: ldr             x1, [x1, #0x518]
     // 0xb5cd04: r0 = AllocateClosure()
     //     0xb5cd04: bl              #0xe553e0  ; AllocateClosureStub
@@ -2747,7 +2747,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0xb5cd2c: cmp             SP, x16
     //     0xb5cd30: b.ls            #0xb5cd44
     // 0xb5cd34: r0 = dispose()
-    //     0xb5cd34: bl              #0xb647f4  ; [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::dispose
+    //     0xb5cd34: bl              #0xb647f4  ; [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::dispose
     // 0xb5cd38: LeaveFrame
     //     0xb5cd38: mov             SP, fp
     //     0xb5cd3c: ldp             fp, lr, [SP], #0x10
@@ -2771,7 +2771,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0xb64808: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xb6480c: cmp             SP, x16
     //     0xb64810: b.ls            #0xb64874
-    // 0xb64814: r0 = InitLateStaticField(0xee0) // [package:ballai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
+    // 0xb64814: r0 = InitLateStaticField(0xee0) // [package:kourtai/video_tracking/session/feedback/custom_green_sound_store.dart] CustomGreenSoundStore::instance
     //     0xb64814: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb64818: ldr             x0, [x0, #0x1dc0]
     //     0xb6481c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2782,7 +2782,7 @@ class _EventSoundSelectionViewState extends State<dynamic> {
     //     0xb64830: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0xb64834: ldur            x2, [fp, #-8]
     // 0xb64838: r1 = Function '_onCatalog@1103252219':.
-    //     0xb64838: add             x1, PP, #0x57, lsl #12  ; [pp+0x57678] AnonymousClosure: (0x994714), in [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_onCatalog (0x99474c)
+    //     0xb64838: add             x1, PP, #0x57, lsl #12  ; [pp+0x57678] AnonymousClosure: (0x994714), in [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_onCatalog (0x99474c)
     //     0xb6483c: ldr             x1, [x1, #0x678]
     // 0xb64840: stur            x0, [fp, #-0x10]
     // 0xb64844: r0 = AllocateClosure()
@@ -2891,7 +2891,7 @@ class EventSoundSelectionView extends StatefulWidget {
     // 0xb7716c: mov             x1, x0
     // 0xb77170: stur            x0, [fp, #-8]
     // 0xb77174: r0 = _EventSoundSelectionViewState()
-    //     0xb77174: bl              #0xb77190  ; [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_EventSoundSelectionViewState
+    //     0xb77174: bl              #0xb77190  ; [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_EventSoundSelectionViewState
     // 0xb77178: ldur            x0, [fp, #-8]
     // 0xb7717c: LeaveFrame
     //     0xb7717c: mov             SP, fp
@@ -2971,8 +2971,8 @@ class _OptionCard extends StatelessWidget {
     // 0xc3d6a8: blr             lr
     // 0xc3d6ac: tbnz            w0, #4, #0xc3d6c0
     // 0xc3d6b0: ldur            x1, [fp, #-0x20]
-    // 0xc3d6b4: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc3d6b4: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc3d6b4: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc3d6b4: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc3d6b8: mov             x2, x0
     // 0xc3d6bc: b               #0xc3d6c8
     // 0xc3d6c0: r2 = Instance_Color
@@ -2981,8 +2981,8 @@ class _OptionCard extends StatelessWidget {
     // 0xc3d6c8: ldur            x0, [fp, #-0x18]
     // 0xc3d6cc: ldur            x1, [fp, #-0x20]
     // 0xc3d6d0: stur            x2, [fp, #-0x28]
-    // 0xc3d6d4: r0 = BallAiThemeContext.ballAiSelectionCardFill()
-    //     0xc3d6d4: bl              #0x9d464c  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSelectionCardFill
+    // 0xc3d6d4: r0 = KourtAiThemeContext.kourtAiSelectionCardFill()
+    //     0xc3d6d4: bl              #0x9d464c  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSelectionCardFill
     // 0xc3d6d8: stur            x0, [fp, #-0x20]
     // 0xc3d6dc: r0 = Radius()
     //     0xc3d6dc: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -3389,7 +3389,7 @@ class _OptionGrid extends StatelessWidget {
     //     0xc3d178: stur            w0, [x1, #0xf]
     // 0xc3d17c: mov             x2, x1
     // 0xc3d180: r1 = Function '<anonymous closure>':.
-    //     0xc3d180: add             x1, PP, #0x58, lsl #12  ; [pp+0x58770] AnonymousClosure: (0xc3d1b0), in [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _OptionGrid::build (0xc3d158)
+    //     0xc3d180: add             x1, PP, #0x58, lsl #12  ; [pp+0x58770] AnonymousClosure: (0xc3d1b0), in [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _OptionGrid::build (0xc3d158)
     //     0xc3d184: ldr             x1, [x1, #0x770]
     // 0xc3d188: r0 = AllocateClosure()
     //     0xc3d188: bl              #0xe553e0  ; AllocateClosureStub
@@ -3567,7 +3567,7 @@ class _OptionGrid extends StatelessWidget {
     // 0xc3d374: b               #0xc3d394
     // 0xc3d378: ldur            x2, [fp, #-0x28]
     // 0xc3d37c: r1 = Function '<anonymous closure>':.
-    //     0xc3d37c: add             x1, PP, #0x58, lsl #12  ; [pp+0x58778] AnonymousClosure: (0xc3d58c), in [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _OptionGrid::build (0xc3d158)
+    //     0xc3d37c: add             x1, PP, #0x58, lsl #12  ; [pp+0x58778] AnonymousClosure: (0xc3d58c), in [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _OptionGrid::build (0xc3d158)
     //     0xc3d380: ldr             x1, [x1, #0x778]
     // 0xc3d384: r0 = AllocateClosure()
     //     0xc3d384: bl              #0xe553e0  ; AllocateClosureStub
@@ -3593,7 +3593,7 @@ class _OptionGrid extends StatelessWidget {
     //     0xc3d3c4: stur            w0, [x3, #0x13]
     // 0xc3d3c8: ldur            x2, [fp, #-0x28]
     // 0xc3d3cc: r1 = Function '<anonymous closure>':.
-    //     0xc3d3cc: add             x1, PP, #0x58, lsl #12  ; [pp+0x58780] AnonymousClosure: (0xc3d52c), in [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _OptionGrid::build (0xc3d158)
+    //     0xc3d3cc: add             x1, PP, #0x58, lsl #12  ; [pp+0x58780] AnonymousClosure: (0xc3d52c), in [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _OptionGrid::build (0xc3d158)
     //     0xc3d3d0: ldr             x1, [x1, #0x780]
     // 0xc3d3d4: r0 = AllocateClosure()
     //     0xc3d3d4: bl              #0xe553e0  ; AllocateClosureStub
@@ -3756,7 +3756,7 @@ class _OptionGrid extends StatelessWidget {
     // 0xc3d570: DecompressPointer r1
     //     0xc3d570: add             x1, x1, HEAP, lsl #32
     // 0xc3d574: r0 = _selectOption()
-    //     0xc3d574: bl              #0xad09c0  ; [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_selectOption
+    //     0xc3d574: bl              #0xad09c0  ; [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_selectOption
     // 0xc3d578: LeaveFrame
     //     0xc3d578: mov             SP, fp
     //     0xc3d57c: ldp             fp, lr, [SP], #0x10
@@ -3803,7 +3803,7 @@ class _OptionGrid extends StatelessWidget {
     // 0xc3d5d8: DecompressPointer r1
     //     0xc3d5d8: add             x1, x1, HEAP, lsl #32
     // 0xc3d5dc: r0 = _manageUserSound()
-    //     0xc3d5dc: bl              #0xacfa3c  ; [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_manageUserSound
+    //     0xc3d5dc: bl              #0xacfa3c  ; [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] _EventSoundSelectionViewState::_manageUserSound
     // 0xc3d5e0: LeaveFrame
     //     0xc3d5e0: mov             SP, fp
     //     0xc3d5e4: ldp             fp, lr, [SP], #0x10
@@ -4034,8 +4034,8 @@ class _SearchField extends StatelessWidget {
     //     0xc3cd28: add             x3, x3, HEAP, lsl #32
     // 0xc3cd2c: mov             x1, x0
     // 0xc3cd30: stur            x3, [fp, #-8]
-    // 0xc3cd34: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc3cd34: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc3cd34: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc3cd34: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc3cd38: stur            x0, [fp, #-0x20]
     // 0xc3cd3c: r0 = TextStyle()
     //     0xc3cd3c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -4054,8 +4054,8 @@ class _SearchField extends StatelessWidget {
     // 0xc3cd60: StoreField: r2->field_1f = r1
     //     0xc3cd60: stur            w1, [x2, #0x1f]
     // 0xc3cd64: ldur            x1, [fp, #-0x18]
-    // 0xc3cd68: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc3cd68: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc3cd68: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc3cd68: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc3cd6c: stur            x0, [fp, #-0x20]
     // 0xc3cd70: r0 = TextStyle()
     //     0xc3cd70: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -4069,8 +4069,8 @@ class _SearchField extends StatelessWidget {
     // 0xc3cd88: StoreField: r2->field_b = r1
     //     0xc3cd88: stur            w1, [x2, #0xb]
     // 0xc3cd8c: ldur            x1, [fp, #-0x18]
-    // 0xc3cd90: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc3cd90: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc3cd90: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc3cd90: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc3cd94: stur            x0, [fp, #-0x20]
     // 0xc3cd98: r0 = Icon()
     //     0xc3cd98: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -4085,8 +4085,8 @@ class _SearchField extends StatelessWidget {
     // 0xc3cdb4: StoreField: r2->field_23 = r0
     //     0xc3cdb4: stur            w0, [x2, #0x23]
     // 0xc3cdb8: ldur            x1, [fp, #-0x18]
-    // 0xc3cdbc: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xc3cdbc: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xc3cdbc: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xc3cdbc: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xc3cdc0: stur            x0, [fp, #-0x18]
     // 0xc3cdc4: r0 = Radius()
     //     0xc3cdc4: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -4331,16 +4331,16 @@ class EventSoundSelectionPage extends StatelessWidget {
     //     0xc3c84c: ldur            w1, [x2, #0xf]
     // 0xc3c850: DecompressPointer r1
     //     0xc3c850: add             x1, x1, HEAP, lsl #32
-    // 0xc3c854: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xc3c854: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xc3c854: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xc3c854: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xc3c858: ldur            x2, [fp, #-0x10]
     // 0xc3c85c: stur            x0, [fp, #-0x18]
     // 0xc3c860: LoadField: r1 = r2->field_f
     //     0xc3c860: ldur            w1, [x2, #0xf]
     // 0xc3c864: DecompressPointer r1
     //     0xc3c864: add             x1, x1, HEAP, lsl #32
-    // 0xc3c868: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xc3c868: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xc3c868: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xc3c868: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xc3c86c: mov             x2, x0
     // 0xc3c870: ldur            x0, [fp, #-8]
     // 0xc3c874: stur            x2, [fp, #-0x20]
@@ -4361,8 +4361,8 @@ class EventSoundSelectionPage extends StatelessWidget {
     //     0xc3c8a0: ldur            w1, [x0, #0xf]
     // 0xc3c8a4: DecompressPointer r1
     //     0xc3c8a4: add             x1, x1, HEAP, lsl #32
-    // 0xc3c8a8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc3c8a8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc3c8a8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc3c8a8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc3c8ac: stur            x0, [fp, #-0x28]
     // 0xc3c8b0: r0 = Icon()
     //     0xc3c8b0: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -4404,7 +4404,7 @@ class EventSoundSelectionPage extends StatelessWidget {
     //     0xc3c910: stur            w0, [x3, #0xb]
     // 0xc3c914: ldur            x2, [fp, #-0x10]
     // 0xc3c918: r1 = Function '<anonymous closure>':.
-    //     0xc3c918: add             x1, PP, #0x53, lsl #12  ; [pp+0x53b90] AnonymousClosure: (0x953eb0), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
+    //     0xc3c918: add             x1, PP, #0x53, lsl #12  ; [pp+0x53b90] AnonymousClosure: (0x953eb0), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_showTeamsCoverIfNeeded (0x953888)
     //     0xc3c91c: ldr             x1, [x1, #0xb90]
     // 0xc3c920: r0 = AllocateClosure()
     //     0xc3c920: bl              #0xe553e0  ; AllocateClosureStub
@@ -4505,8 +4505,8 @@ class EventSoundSelectionPage extends StatelessWidget {
     //     0xc3ca08: ldur            w1, [x0, #0xf]
     // 0xc3ca0c: DecompressPointer r1
     //     0xc3ca0c: add             x1, x1, HEAP, lsl #32
-    // 0xc3ca10: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc3ca10: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc3ca10: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc3ca10: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc3ca14: stur            x0, [fp, #-8]
     // 0xc3ca18: r0 = TextStyle()
     //     0xc3ca18: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -4559,7 +4559,7 @@ class EventSoundSelectionPage extends StatelessWidget {
     //     0xc3ca90: stur            w0, [x3, #0xb]
     // 0xc3ca94: ldur            x2, [fp, #-0x10]
     // 0xc3ca98: r1 = Function '<anonymous closure>':.
-    //     0xc3ca98: add             x1, PP, #0x53, lsl #12  ; [pp+0x53ba0] AnonymousClosure: (0xc3cca4), in [package:ballai/video_tracking/views/workout/event_sound_selection_view.dart] EventSoundSelectionPage::build (0xc3c7f8)
+    //     0xc3ca98: add             x1, PP, #0x53, lsl #12  ; [pp+0x53ba0] AnonymousClosure: (0xc3cca4), in [package:kourtai/video_tracking/views/workout/event_sound_selection_view.dart] EventSoundSelectionPage::build (0xc3c7f8)
     //     0xc3ca9c: ldr             x1, [x1, #0xba0]
     // 0xc3caa0: r0 = AllocateClosure()
     //     0xc3caa0: bl              #0xe553e0  ; AllocateClosureStub
@@ -4781,7 +4781,7 @@ class EventSoundSelectionPage extends StatelessWidget {
     // 0xc3ccd8: DecompressPointer r1
     //     0xc3ccd8: add             x1, x1, HEAP, lsl #32
     // 0xc3ccdc: r0 = showCustomGreenSoundRecorderSheet()
-    //     0xc3ccdc: bl              #0xacf95c  ; [package:ballai/video_tracking/views/workout/custom_green_sound_recorder_sheet.dart] ::showCustomGreenSoundRecorderSheet
+    //     0xc3ccdc: bl              #0xacf95c  ; [package:kourtai/video_tracking/views/workout/custom_green_sound_recorder_sheet.dart] ::showCustomGreenSoundRecorderSheet
     // 0xc3cce0: r0 = Null
     //     0xc3cce0: mov             x0, NULL
     // 0xc3cce4: LeaveFrame

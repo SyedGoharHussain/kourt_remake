@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_location_step_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_location_step_view.dart
 
 // class id: 1048931, size: 0x8
 class :: {
@@ -79,7 +79,7 @@ class _TeamLocationStepViewState extends State<dynamic> {
     //     0x96f2dc: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0x96f2e0: ldur            x2, [fp, #-0x18]
     // 0x96f2e4: r1 = Function '<anonymous closure>':.
-    //     0x96f2e4: add             x1, PP, #0x37, lsl #12  ; [pp+0x373b8] AnonymousClosure: (0x96f34c), in [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_location_step_view.dart] _TeamLocationStepViewState::initState (0x96f22c)
+    //     0x96f2e4: add             x1, PP, #0x37, lsl #12  ; [pp+0x373b8] AnonymousClosure: (0x96f34c), in [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_location_step_view.dart] _TeamLocationStepViewState::initState (0x96f22c)
     //     0x96f2e8: ldr             x1, [x1, #0x3b8]
     // 0x96f2ec: r0 = AllocateClosure()
     //     0x96f2ec: bl              #0xe553e0  ; AllocateClosureStub
@@ -155,7 +155,7 @@ class _TeamLocationStepViewState extends State<dynamic> {
     // 0x96f3b4: mov             x1, x2
     // 0x96f3b8: mov             x2, x16
     // 0x96f3bc: r0 = applyTeamLocation()
-    //     0x96f3bc: bl              #0x96f3e8  ; [package:ballai/automatic/viewmodels/home/teams/create_team_view_model.dart] CreateTeamViewModel::applyTeamLocation
+    //     0x96f3bc: bl              #0x96f3e8  ; [package:kourtai/automatic/viewmodels/home/teams/create_team_view_model.dart] CreateTeamViewModel::applyTeamLocation
     // 0x96f3c0: r0 = Null
     //     0x96f3c0: mov             x0, NULL
     // 0x96f3c4: LeaveFrame
@@ -204,15 +204,15 @@ class _TeamLocationStepViewState extends State<dynamic> {
     //     0xa53674: add             x1, PP, #0x37, lsl #12  ; [pp+0x37338] "Location"
     //     0xa53678: ldr             x1, [x1, #0x338]
     // 0xa5367c: r0 = L()
-    //     0xa5367c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa5367c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa53680: ldur            x2, [fp, #-0x18]
     // 0xa53684: stur            x0, [fp, #-0x10]
     // 0xa53688: LoadField: r1 = r2->field_13
     //     0xa53688: ldur            w1, [x2, #0x13]
     // 0xa5368c: DecompressPointer r1
     //     0xa5368c: add             x1, x1, HEAP, lsl #32
-    // 0xa53690: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa53690: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa53690: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa53690: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa53694: stur            x0, [fp, #-0x20]
     // 0xa53698: r0 = TextStyle()
     //     0xa53698: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -263,7 +263,7 @@ class _TeamLocationStepViewState extends State<dynamic> {
     //     0xa53710: add             x1, PP, #0x37, lsl #12  ; [pp+0x37340] "City, state, country"
     //     0xa53714: ldr             x1, [x1, #0x340]
     // 0xa53718: r0 = L()
-    //     0xa53718: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa53718: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa5371c: stur            x0, [fp, #-0x30]
     // 0xa53720: r0 = UnderlineInputBorder()
     //     0xa53720: bl              #0x9e8950  ; AllocateUnderlineInputBorderStub -> UnderlineInputBorder (size=0x10)
@@ -284,8 +284,8 @@ class _TeamLocationStepViewState extends State<dynamic> {
     //     0xa53748: ldur            w1, [x3, #0x13]
     // 0xa5374c: DecompressPointer r1
     //     0xa5374c: add             x1, x1, HEAP, lsl #32
-    // 0xa53750: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa53750: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa53750: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa53750: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa53754: stur            x0, [fp, #-0x40]
     // 0xa53758: r0 = BorderSide()
     //     0xa53758: bl              #0x829108  ; AllocateBorderSideStub -> BorderSide (size=0x20)
@@ -455,7 +455,7 @@ class _TeamLocationStepViewState extends State<dynamic> {
     //     0xa538e0: stur            w0, [x2, #0x13]
     // 0xa538e4: ldur            x1, [fp, #-8]
     // 0xa538e8: r0 = _outlinedButtonStyle()
-    //     0xa538e8: bl              #0xa53c1c  ; [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_location_step_view.dart] _TeamLocationStepViewState::_outlinedButtonStyle
+    //     0xa538e8: bl              #0xa53c1c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_location_step_view.dart] _TeamLocationStepViewState::_outlinedButtonStyle
     // 0xa538ec: stur            x0, [fp, #-0x38]
     // 0xa538f0: r0 = Icon()
     //     0xa538f0: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -480,7 +480,7 @@ class _TeamLocationStepViewState extends State<dynamic> {
     //     0xa53920: add             x1, PP, #0x37, lsl #12  ; [pp+0x37350] "Current location"
     //     0xa53924: ldr             x1, [x1, #0x350]
     // 0xa53928: r0 = L()
-    //     0xa53928: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa53928: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa5392c: stur            x0, [fp, #-0x48]
     // 0xa53930: r0 = Text()
     //     0xa53930: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -491,7 +491,7 @@ class _TeamLocationStepViewState extends State<dynamic> {
     //     0xa53940: stur            w0, [x3, #0xb]
     // 0xa53944: ldur            x2, [fp, #-0x18]
     // 0xa53948: r1 = Function '<anonymous closure>':.
-    //     0xa53948: add             x1, PP, #0x37, lsl #12  ; [pp+0x37358] AnonymousClosure: (0xa53fc4), in [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_location_step_view.dart] _TeamLocationStepViewState::build (0xa53634)
+    //     0xa53948: add             x1, PP, #0x37, lsl #12  ; [pp+0x37358] AnonymousClosure: (0xa53fc4), in [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_location_step_view.dart] _TeamLocationStepViewState::build (0xa53634)
     //     0xa5394c: ldr             x1, [x1, #0x358]
     // 0xa53950: r0 = AllocateClosure()
     //     0xa53950: bl              #0xe553e0  ; AllocateClosureStub
@@ -510,7 +510,7 @@ class _TeamLocationStepViewState extends State<dynamic> {
     // 0xa53978: ldur            x1, [fp, #-8]
     // 0xa5397c: stur            x0, [fp, #-8]
     // 0xa53980: r0 = _outlinedButtonStyle()
-    //     0xa53980: bl              #0xa53c1c  ; [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_location_step_view.dart] _TeamLocationStepViewState::_outlinedButtonStyle
+    //     0xa53980: bl              #0xa53c1c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_location_step_view.dart] _TeamLocationStepViewState::_outlinedButtonStyle
     // 0xa53984: stur            x0, [fp, #-0x38]
     // 0xa53988: r0 = Icon()
     //     0xa53988: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -535,7 +535,7 @@ class _TeamLocationStepViewState extends State<dynamic> {
     //     0xa539b8: add             x1, PP, #0x37, lsl #12  ; [pp+0x37370] "Search"
     //     0xa539bc: ldr             x1, [x1, #0x370]
     // 0xa539c0: r0 = L()
-    //     0xa539c0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa539c0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa539c4: stur            x0, [fp, #-0x48]
     // 0xa539c8: r0 = Text()
     //     0xa539c8: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -546,7 +546,7 @@ class _TeamLocationStepViewState extends State<dynamic> {
     //     0xa539d8: stur            w0, [x3, #0xb]
     // 0xa539dc: ldur            x2, [fp, #-0x18]
     // 0xa539e0: r1 = Function '<anonymous closure>':.
-    //     0xa539e0: add             x1, PP, #0x37, lsl #12  ; [pp+0x37378] AnonymousClosure: (0xa53d74), in [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_location_step_view.dart] _TeamLocationStepViewState::build (0xa53634)
+    //     0xa539e0: add             x1, PP, #0x37, lsl #12  ; [pp+0x37378] AnonymousClosure: (0xa53d74), in [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_location_step_view.dart] _TeamLocationStepViewState::build (0xa53634)
     //     0xa539e4: ldr             x1, [x1, #0x378]
     // 0xa539e8: r0 = AllocateClosure()
     //     0xa539e8: bl              #0xe553e0  ; AllocateClosureStub
@@ -644,7 +644,7 @@ class _TeamLocationStepViewState extends State<dynamic> {
     //     0xa53ad0: add             x1, PP, #0x37, lsl #12  ; [pp+0x37380] "Helps players find teams near them. Optional."
     //     0xa53ad4: ldr             x1, [x1, #0x380]
     // 0xa53ad8: r0 = L()
-    //     0xa53ad8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa53ad8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa53adc: mov             x2, x0
     // 0xa53ae0: ldur            x0, [fp, #-0x18]
     // 0xa53ae4: stur            x2, [fp, #-0x40]
@@ -652,8 +652,8 @@ class _TeamLocationStepViewState extends State<dynamic> {
     //     0xa53ae8: ldur            w1, [x0, #0x13]
     // 0xa53aec: DecompressPointer r1
     //     0xa53aec: add             x1, x1, HEAP, lsl #32
-    // 0xa53af0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa53af0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa53af0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa53af0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa53af4: stur            x0, [fp, #-0x18]
     // 0xa53af8: r0 = TextStyle()
     //     0xa53af8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -902,7 +902,7 @@ class _TeamLocationStepViewState extends State<dynamic> {
     //     0xa53d9c: add             x0, x0, HEAP, lsl #32
     // 0xa53da0: stur            x0, [fp, #-8]
     // 0xa53da4: r1 = Function '<anonymous closure>':.
-    //     0xa53da4: add             x1, PP, #0x37, lsl #12  ; [pp+0x37390] AnonymousClosure: (0xa53de8), in [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_location_step_view.dart] _TeamLocationStepViewState::build (0xa53634)
+    //     0xa53da4: add             x1, PP, #0x37, lsl #12  ; [pp+0x37390] AnonymousClosure: (0xa53de8), in [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_location_step_view.dart] _TeamLocationStepViewState::build (0xa53634)
     //     0xa53da8: ldr             x1, [x1, #0x390]
     // 0xa53dac: r0 = AllocateClosure()
     //     0xa53dac: bl              #0xe553e0  ; AllocateClosureStub
@@ -998,7 +998,7 @@ class _TeamLocationStepViewState extends State<dynamic> {
     // 0xa53e88: ldur            x2, [fp, #-0x10]
     // 0xa53e8c: stur            x3, [fp, #-8]
     // 0xa53e90: r1 = Function '<anonymous closure>':.
-    //     0xa53e90: add             x1, PP, #0x37, lsl #12  ; [pp+0x373a0] AnonymousClosure: (0xa53ef0), in [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_location_step_view.dart] _TeamLocationStepViewState::build (0xa53634)
+    //     0xa53e90: add             x1, PP, #0x37, lsl #12  ; [pp+0x373a0] AnonymousClosure: (0xa53ef0), in [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_location_step_view.dart] _TeamLocationStepViewState::build (0xa53634)
     //     0xa53e94: ldr             x1, [x1, #0x3a0]
     // 0xa53e98: r0 = AllocateClosure()
     //     0xa53e98: bl              #0xe553e0  ; AllocateClosureStub
@@ -1089,7 +1089,7 @@ class _TeamLocationStepViewState extends State<dynamic> {
     //     0xa53f6c: add             x1, x1, HEAP, lsl #32
     // 0xa53f70: ldr             x2, [fp, #0x10]
     // 0xa53f74: r0 = applyTeamLocation()
-    //     0xa53f74: bl              #0x96f3e8  ; [package:ballai/automatic/viewmodels/home/teams/create_team_view_model.dart] CreateTeamViewModel::applyTeamLocation
+    //     0xa53f74: bl              #0x96f3e8  ; [package:kourtai/automatic/viewmodels/home/teams/create_team_view_model.dart] CreateTeamViewModel::applyTeamLocation
     // 0xa53f78: ldur            x0, [fp, #-0x10]
     // 0xa53f7c: LoadField: r1 = r0->field_f
     //     0xa53f7c: ldur            w1, [x0, #0xf]
@@ -1151,7 +1151,7 @@ class _TeamLocationStepViewState extends State<dynamic> {
     //     0xa53ffc: ldr             x1, [x1, #0x3a8]
     // 0xa54000: stur            x0, [fp, #-8]
     // 0xa54004: r0 = L()
-    //     0xa54004: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa54004: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa54008: stur            x0, [fp, #-0x10]
     // 0xa5400c: r0 = Text()
     //     0xa5400c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1198,7 +1198,7 @@ class _TeamLocationStepViewState extends State<dynamic> {
     //     0xb5b700: mov             fp, SP
     // 0xb5b704: ldr             x2, [fp, #0x10]
     // 0xb5b708: r1 = Function 'dispose':.
-    //     0xb5b708: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bbe0] AnonymousClosure: (0xb5b720), in [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_location_step_view.dart] _TeamLocationStepViewState::dispose (0xb626c4)
+    //     0xb5b708: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bbe0] AnonymousClosure: (0xb5b720), in [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_location_step_view.dart] _TeamLocationStepViewState::dispose (0xb626c4)
     //     0xb5b70c: ldr             x1, [x1, #0xbe0]
     // 0xb5b710: r0 = AllocateClosure()
     //     0xb5b710: bl              #0xe553e0  ; AllocateClosureStub
@@ -1223,7 +1223,7 @@ class _TeamLocationStepViewState extends State<dynamic> {
     //     0xb5b738: cmp             SP, x16
     //     0xb5b73c: b.ls            #0xb5b750
     // 0xb5b740: r0 = dispose()
-    //     0xb5b740: bl              #0xb626c4  ; [package:ballai/automatic/views/home/tab/tabs/teams/createteam/steps/team_location_step_view.dart] _TeamLocationStepViewState::dispose
+    //     0xb5b740: bl              #0xb626c4  ; [package:kourtai/automatic/views/home/tab/tabs/teams/createteam/steps/team_location_step_view.dart] _TeamLocationStepViewState::dispose
     // 0xb5b744: LeaveFrame
     //     0xb5b744: mov             SP, fp
     //     0xb5b748: ldp             fp, lr, [SP], #0x10

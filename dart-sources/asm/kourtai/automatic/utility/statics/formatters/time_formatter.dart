@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/statics/formatters/time_formatter.dart
+// lib: , url: package:kourtai/automatic/utility/statics/formatters/time_formatter.dart
 
 // class id: 1048741, size: 0x8
 class :: {

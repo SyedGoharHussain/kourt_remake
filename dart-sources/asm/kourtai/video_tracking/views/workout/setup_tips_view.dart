@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/setup_tips_view.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/setup_tips_view.dart
 
 // class id: 1049264, size: 0x8
 class :: {
@@ -756,7 +756,7 @@ class SetupTipsView extends StatelessWidget {
     // 0xc42618: stur            x1, [fp, #-0x18]
     // 0xc4261c: StoreField: r1->field_f = r0
     //     0xc4261c: stur            w0, [x1, #0xf]
-    // 0xc42620: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0xc42620: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0xc42620: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xc42624: ldr             x0, [x0, #0x1cf0]
     //     0xc42628: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -770,7 +770,7 @@ class SetupTipsView extends StatelessWidget {
     //     0xc42644: stur            w0, [x2, #0x13]
     // 0xc42648: mov             x1, x0
     // 0xc4264c: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0xc4264c: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0xc4264c: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0xc42650: mov             x1, x0
     // 0xc42654: tbnz            w1, #4, #0xc42664
     // 0xc42658: r0 = const [Record (body: Set your phone facing you to start. You can flip to the back camera anytime with the rotate button., headline: Start on the front camera, icon: Instance of 'IconData'), Record (body: Stand close enough that your hands, waist, feet, and the ball stay visible., headline: Frame your body and ball, icon: Instance of 'IconData'), Record (body: Face the light when possible and keep other players out of frame., headline: Use clear lighting, icon: Instance of 'IconData'), Record (body: Made dribbles build your score and streak. Misses reset the multiplier., headline: Control the bounce, icon: Instance of 'IconData')]
@@ -1089,7 +1089,7 @@ class SetupTipsView extends StatelessWidget {
     //     0xc429c4: stur            w0, [x3, #0x13]
     // 0xc429c8: ldur            x2, [fp, #-0x18]
     // 0xc429cc: r1 = Function '<anonymous closure>':.
-    //     0xc429cc: add             x1, PP, #0x47, lsl #12  ; [pp+0x47b70] AnonymousClosure: (0xc42eec), in [package:ballai/video_tracking/views/workout/setup_tips_view.dart] SetupTipsView::build (0xc425e0)
+    //     0xc429cc: add             x1, PP, #0x47, lsl #12  ; [pp+0x47b70] AnonymousClosure: (0xc42eec), in [package:kourtai/video_tracking/views/workout/setup_tips_view.dart] SetupTipsView::build (0xc425e0)
     //     0xc429d0: ldr             x1, [x1, #0xb70]
     // 0xc429d4: r0 = AllocateClosure()
     //     0xc429d4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1277,7 +1277,7 @@ class SetupTipsView extends StatelessWidget {
     //     0xc42bd4: stur            w0, [x3, #0x3b]
     // 0xc42bd8: ldur            x2, [fp, #-0x18]
     // 0xc42bdc: r1 = Function '<anonymous closure>':.
-    //     0xc42bdc: add             x1, PP, #0x47, lsl #12  ; [pp+0x47b80] AnonymousClosure: (0xc42e30), in [package:ballai/video_tracking/views/workout/setup_tips_view.dart] SetupTipsView::build (0xc425e0)
+    //     0xc42bdc: add             x1, PP, #0x47, lsl #12  ; [pp+0x47b80] AnonymousClosure: (0xc42e30), in [package:kourtai/video_tracking/views/workout/setup_tips_view.dart] SetupTipsView::build (0xc425e0)
     //     0xc42be0: ldr             x1, [x1, #0xb80]
     // 0xc42be4: r0 = AllocateClosure()
     //     0xc42be4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1553,7 +1553,7 @@ class SetupTipsView extends StatelessWidget {
     // 0xc42e94: DecompressPointer r1
     //     0xc42e94: add             x1, x1, HEAP, lsl #32
     // 0xc42e98: r0 = completeSetupTips()
-    //     0xc42e98: bl              #0xc42eb4  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::completeSetupTips
+    //     0xc42e98: bl              #0xc42eb4  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::completeSetupTips
     // 0xc42e9c: r0 = Null
     //     0xc42e9c: mov             x0, NULL
     // 0xc42ea0: LeaveFrame

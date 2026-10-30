@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_category_icon.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_category_icon.dart
 
 // class id: 1048856, size: 0x8
 class :: {
@@ -77,7 +77,7 @@ class AccountSetupFocusCategoryIcon extends StatelessWidget {
     // 0xbd6870: StoreField: r2->field_13 = r3
     //     0xbd6870: stur            w3, [x2, #0x13]
     // 0xbd6874: r0 = bundledIconAsset()
-    //     0xbd6874: bl              #0xbd6bb4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_category_icon.dart] AccountSetupFocusCategoryIcon::bundledIconAsset
+    //     0xbd6874: bl              #0xbd6bb4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_category_icon.dart] AccountSetupFocusCategoryIcon::bundledIconAsset
     // 0xbd6878: ldur            x1, [fp, #-8]
     // 0xbd687c: stur            x0, [fp, #-0x28]
     // 0xbd6880: LoadField: d0 = r1->field_f
@@ -102,7 +102,7 @@ class AccountSetupFocusCategoryIcon extends StatelessWidget {
     //     0xbd68bc: bl              #0x9d20b4  ; AllocateImageStub -> Image (size=0x58)
     // 0xbd68c0: ldur            x2, [fp, #-0x18]
     // 0xbd68c4: r1 = Function '<anonymous closure>':.
-    //     0xbd68c4: add             x1, PP, #0x37, lsl #12  ; [pp+0x37e38] AnonymousClosure: (0xbd6c58), in [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_category_icon.dart] AccountSetupFocusCategoryIcon::build (0xbd67b4)
+    //     0xbd68c4: add             x1, PP, #0x37, lsl #12  ; [pp+0x37e38] AnonymousClosure: (0xbd6c58), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_category_icon.dart] AccountSetupFocusCategoryIcon::build (0xbd67b4)
     //     0xbd68c8: ldr             x1, [x1, #0xe38]
     // 0xbd68cc: stur            x0, [fp, #-0x18]
     // 0xbd68d0: r0 = AllocateClosure()
@@ -128,7 +128,7 @@ class AccountSetupFocusCategoryIcon extends StatelessWidget {
     // 0xbd690c: b               #0xbd6918
     // 0xbd6910: ldur            x2, [fp, #-0x10]
     // 0xbd6914: r0 = _fallback()
-    //     0xbd6914: bl              #0xbd69b0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_category_icon.dart] AccountSetupFocusCategoryIcon::_fallback
+    //     0xbd6914: bl              #0xbd69b0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_category_icon.dart] AccountSetupFocusCategoryIcon::_fallback
     // 0xbd6918: ldur            d0, [fp, #-0x30]
     // 0xbd691c: stur            x0, [fp, #-0x10]
     // 0xbd6920: r1 = inline_Allocate_Double()
@@ -458,7 +458,7 @@ class AccountSetupFocusCategoryIcon extends StatelessWidget {
     //     0xbd6c84: add             x2, x2, HEAP, lsl #32
     // 0xbd6c88: mov             x1, x0
     // 0xbd6c8c: r0 = _fallback()
-    //     0xbd6c8c: bl              #0xbd69b0  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_category_icon.dart] AccountSetupFocusCategoryIcon::_fallback
+    //     0xbd6c8c: bl              #0xbd69b0  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_focus_category_icon.dart] AccountSetupFocusCategoryIcon::_fallback
     // 0xbd6c90: LeaveFrame
     //     0xbd6c90: mov             SP, fp
     //     0xbd6c94: ldp             fp, lr, [SP], #0x10

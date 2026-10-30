@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/session/browsing/workout_derived_playlist_service.dart
+// lib: , url: package:kourtai/video_tracking/session/browsing/workout_derived_playlist_service.dart
 
 // class id: 1049163, size: 0x8
 class :: {
@@ -38,7 +38,7 @@ abstract class WorkoutDerivedPlaylistService extends Object {
     //     0x734f4c: bl              #0x60afc8  ; InitAsyncStub
     // 0x734f50: ldur            x1, [fp, #-0x88]
     // 0x734f54: r0 = loadManifest()
-    //     0x734f54: bl              #0x7357f4  ; [package:ballai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistService::loadManifest
+    //     0x734f54: bl              #0x7357f4  ; [package:kourtai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistService::loadManifest
     // 0x734f58: mov             x1, x0
     // 0x734f5c: stur            x1, [fp, #-0x88]
     // 0x734f60: r0 = Await()
@@ -51,13 +51,13 @@ abstract class WorkoutDerivedPlaylistService extends Object {
     // 0x734f74: mov             x1, x0
     // 0x734f78: ldur            x2, [fp, #-0x80]
     // 0x734f7c: r0 = artifactFor()
-    //     0x734f7c: bl              #0x735790  ; [package:ballai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistManifest::artifactFor
+    //     0x734f7c: bl              #0x735790  ; [package:kourtai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistManifest::artifactFor
     // 0x734f80: stur            x0, [fp, #-0x80]
     // 0x734f84: cmp             w0, NULL
     // 0x734f88: b.eq            #0x734f98
     // 0x734f8c: mov             x1, x0
     // 0x734f90: r0 = isReady()
-    //     0x734f90: bl              #0x7356d8  ; [package:ballai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedVariantArtifact::isReady
+    //     0x734f90: bl              #0x7356d8  ; [package:kourtai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedVariantArtifact::isReady
     // 0x734f94: tbz             w0, #4, #0x734fa0
     // 0x734f98: r0 = Null
     //     0x734f98: mov             x0, NULL
@@ -65,7 +65,7 @@ abstract class WorkoutDerivedPlaylistService extends Object {
     //     0x734f9c: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x734fa0: ldur            x0, [fp, #-0x80]
     // 0x734fa4: r0 = _storageBuckets()
-    //     0x734fa4: bl              #0x735538  ; [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_storageBuckets
+    //     0x734fa4: bl              #0x735538  ; [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_storageBuckets
     // 0x734fa8: mov             x1, x0
     // 0x734fac: r0 = iterator()
     //     0x734fac: bl              #0x85e7e4  ; [dart:async] _SyncStarIterable::iterator
@@ -221,7 +221,7 @@ abstract class WorkoutDerivedPlaylistService extends Object {
     //     0x735830: mov             x0, NULL
     // 0x735834: r0 = ReturnAsyncNotFuture()
     //     0x735834: b               #0x60af9c  ; ReturnAsyncNotFutureStub
-    // 0x735838: r0 = InitLateStaticField(0xf30) // [package:ballai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistService::_manifestCache
+    // 0x735838: r0 = InitLateStaticField(0xf30) // [package:kourtai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistService::_manifestCache
     //     0x735838: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x73583c: ldr             x0, [x0, #0x1e60]
     //     0x735840: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -253,7 +253,7 @@ abstract class WorkoutDerivedPlaylistService extends Object {
     // 0x735894: r0 = ReturnAsync()
     //     0x735894: b               #0x5f1e3c  ; ReturnAsyncStub
     // 0x735898: ldur            x1, [fp, #-0x70]
-    // 0x73589c: r0 = InitLateStaticField(0xf34) // [package:ballai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistService::_inFlight
+    // 0x73589c: r0 = InitLateStaticField(0xf34) // [package:kourtai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistService::_inFlight
     //     0x73589c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x7358a0: ldr             x0, [x0, #0x1e68]
     //     0x7358a4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -284,7 +284,7 @@ abstract class WorkoutDerivedPlaylistService extends Object {
     //     0x7358f4: b               #0x5f1e3c  ; ReturnAsyncStub
     // 0x7358f8: ldur            x1, [fp, #-0x68]
     // 0x7358fc: r0 = _loadManifestUncached()
-    //     0x7358fc: bl              #0x73597c  ; [package:ballai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistService::_loadManifestUncached
+    //     0x7358fc: bl              #0x73597c  ; [package:kourtai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistService::_loadManifestUncached
     // 0x735900: ldur            x1, [fp, #-0x78]
     // 0x735904: ldur            x2, [fp, #-0x68]
     // 0x735908: mov             x3, x0
@@ -344,7 +344,7 @@ abstract class WorkoutDerivedPlaylistService extends Object {
     //     0x7359a0: ldr             x0, [x0, #0x550]
     //     0x7359a4: bl              #0x60afc8  ; InitAsyncStub
     // 0x7359a8: r0 = _storageBuckets()
-    //     0x7359a8: bl              #0x735538  ; [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_storageBuckets
+    //     0x7359a8: bl              #0x735538  ; [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::_storageBuckets
     // 0x7359ac: mov             x1, x0
     // 0x7359b0: r0 = iterator()
     //     0x7359b0: bl              #0x85e7e4  ; [dart:async] _SyncStarIterable::iterator
@@ -662,7 +662,7 @@ abstract class WorkoutDerivedPlaylistService extends Object {
     //     0x735d3c: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x735d40: mov             x2, x3
     // 0x735d44: r1 = Function '<anonymous closure>': static.
-    //     0x735d44: add             x1, PP, #0x28, lsl #12  ; [pp+0x285b0] AnonymousClosure: static (0x7360cc), in [package:ballai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistService::_loadManifestUncached (0x73597c)
+    //     0x735d44: add             x1, PP, #0x28, lsl #12  ; [pp+0x285b0] AnonymousClosure: static (0x7360cc), in [package:kourtai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistService::_loadManifestUncached (0x73597c)
     //     0x735d48: ldr             x1, [x1, #0x5b0]
     // 0x735d4c: r0 = AllocateClosure()
     //     0x735d4c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1026,7 +1026,7 @@ abstract class WorkoutDerivedPlaylistService extends Object {
     //     0x968ed0: stur            w0, [x1, #0xf]
     // 0x968ed4: mov             x2, x1
     // 0x968ed8: r1 = Function '<anonymous closure>': static.
-    //     0x968ed8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44950] AnonymousClosure: static (0x968f28), in [package:ballai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistService::mixOptionsFromManifest (0x968ea4)
+    //     0x968ed8: add             x1, PP, #0x44, lsl #12  ; [pp+0x44950] AnonymousClosure: static (0x968f28), in [package:kourtai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistService::mixOptionsFromManifest (0x968ea4)
     //     0x968edc: ldr             x1, [x1, #0x950]
     // 0x968ee0: r0 = AllocateClosure()
     //     0x968ee0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1085,7 +1085,7 @@ abstract class WorkoutDerivedPlaylistService extends Object {
     // 0x968f64: mov             x1, x0
     // 0x968f68: ldr             x2, [fp, #0x10]
     // 0x968f6c: r0 = isReady()
-    //     0x968f6c: bl              #0x9690dc  ; [package:ballai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistManifest::isReady
+    //     0x968f6c: bl              #0x9690dc  ; [package:kourtai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistManifest::isReady
     // 0x968f70: cmp             w0, NULL
     // 0x968f74: b.ne            #0x968f9c
     // 0x968f78: ldr             x2, [fp, #0x10]
@@ -1258,7 +1258,7 @@ class WorkoutDerivedPlaylistManifest extends Object {
     //     0x9690e8: cmp             SP, x16
     //     0x9690ec: b.ls            #0x969130
     // 0x9690f0: r0 = artifactFor()
-    //     0x9690f0: bl              #0x735790  ; [package:ballai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistManifest::artifactFor
+    //     0x9690f0: bl              #0x735790  ; [package:kourtai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedPlaylistManifest::artifactFor
     // 0x9690f4: cmp             w0, NULL
     // 0x9690f8: b.ne            #0x969104
     // 0x9690fc: r1 = Null
@@ -1266,7 +1266,7 @@ class WorkoutDerivedPlaylistManifest extends Object {
     // 0x969100: b               #0x969110
     // 0x969104: mov             x1, x0
     // 0x969108: r0 = isReady()
-    //     0x969108: bl              #0x7356d8  ; [package:ballai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedVariantArtifact::isReady
+    //     0x969108: bl              #0x7356d8  ; [package:kourtai/video_tracking/session/browsing/workout_derived_playlist_service.dart] WorkoutDerivedVariantArtifact::isReady
     // 0x96910c: mov             x1, x0
     // 0x969110: cmp             w1, NULL
     // 0x969114: b.ne            #0x969120

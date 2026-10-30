@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart
+// lib: , url: package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart
 
 // class id: 1048776, size: 0x8
 class :: {
@@ -109,7 +109,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0x71e458: mov             x1, x0
     // 0x71e45c: stur            x2, [fp, #-0xc8]
     // 0x71e460: r0 = conversationId()
-    //     0x71e460: bl              #0x725ca4  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationId
+    //     0x71e460: bl              #0x725ca4  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationId
     // 0x71e464: mov             x1, x0
     // 0x71e468: ldur            x0, [fp, #-0xc8]
     // 0x71e46c: cmp             w0, NULL
@@ -153,11 +153,11 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0x71e4d0: ldur            x2, [fp, #-0xb8]
     // 0x71e4d4: stur            x5, [fp, #-0xd0]
     // 0x71e4d8: r0 = normalizedMessageText()
-    //     0x71e4d8: bl              #0x725c14  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::normalizedMessageText
+    //     0x71e4d8: bl              #0x725c14  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::normalizedMessageText
     // 0x71e4dc: stur            x0, [fp, #-0xd8]
     // 0x71e4e0: ldur            x2, [fp, #-0xc0]
     // 0x71e4e4: r0 = makeId()
-    //     0x71e4e4: bl              #0x725b08  ; [package:ballai/automatic/models/core/message/direct_message_model.dart] DirectMessageModel::makeId
+    //     0x71e4e4: bl              #0x725b08  ; [package:kourtai/automatic/models/core/message/direct_message_model.dart] DirectMessageModel::makeId
     // 0x71e4e8: mov             x3, x0
     // 0x71e4ec: ldur            x2, [fp, #-0xc0]
     // 0x71e4f0: stur            x3, [fp, #-0xe0]
@@ -171,7 +171,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0x71e50c: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x71e510: ldur            x1, [fp, #-0xb0]
     // 0x71e514: r0 = conversationType()
-    //     0x71e514: bl              #0x7259c0  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationType
+    //     0x71e514: bl              #0x7259c0  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationType
     // 0x71e518: r16 = Instance_ConversationType
     //     0x71e518: add             x16, PP, #0x11, lsl #12  ; [pp+0x11b20] Obj!ConversationType@d3b721
     //     0x71e51c: ldr             x16, [x16, #0xb20]
@@ -311,7 +311,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0x71e690: bl              #0xdb26c4  ; [dart:_compact_hash] __Set&_HashVMBase&SetMixin&_HashBase&_OperatorEqualsAndHashCode&_LinkedHashSetMixin::add
     // 0x71e694: ldur            x1, [fp, #-0xb0]
     // 0x71e698: r0 = _rebuildDisplayedMessages()
-    //     0x71e698: bl              #0x725518  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_rebuildDisplayedMessages
+    //     0x71e698: bl              #0x725518  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_rebuildDisplayedMessages
     // 0x71e69c: ldur            x0, [fp, #-0xb0]
     // 0x71e6a0: r1 = ""
     //     0x71e6a0: ldr             x1, [PP, #0x880]  ; [pp+0x880] ""
@@ -328,7 +328,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0x71e6b8: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
     // 0x71e6bc: ldur            x1, [fp, #-0xb0]
     // 0x71e6c0: r0 = isTeamThread()
-    //     0x71e6c0: bl              #0x7254d0  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::isTeamThread
+    //     0x71e6c0: bl              #0x7254d0  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::isTeamThread
     // 0x71e6c4: tbnz            w0, #4, #0x71e714
     // 0x71e6c8: ldur            x0, [fp, #-0xb0]
     // 0x71e6cc: LoadField: r4 = r0->field_2f
@@ -349,7 +349,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0x71e6f8: ldur            x6, [fp, #-0xb8]
     // 0x71e6fc: stur            x7, [fp, #-0xe8]
     // 0x71e700: r0 = sendTeamMessage()
-    //     0x71e700: bl              #0x722e00  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::sendTeamMessage
+    //     0x71e700: bl              #0x722e00  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::sendTeamMessage
     // 0x71e704: mov             x1, x0
     // 0x71e708: stur            x1, [fp, #-0x100]
     // 0x71e70c: r0 = Await()
@@ -368,7 +368,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0x71e734: mov             x3, x4
     // 0x71e738: ldur            x5, [fp, #-0xb8]
     // 0x71e73c: r0 = sendMessage()
-    //     0x71e73c: bl              #0x71ec78  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::sendMessage
+    //     0x71e73c: bl              #0x71ec78  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::sendMessage
     // 0x71e740: mov             x1, x0
     // 0x71e744: stur            x1, [fp, #-0xd0]
     // 0x71e748: r0 = Await()
@@ -391,7 +391,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0x71e780: bl              #0xdb63d0  ; [dart:_compact_hash] __Set&_HashVMBase&SetMixin&_HashBase&_OperatorEqualsAndHashCode&_LinkedHashSetMixin::remove
     // 0x71e784: ldur            x2, [fp, #-0xc0]
     // 0x71e788: r1 = Function '<anonymous closure>':.
-    //     0x71e788: add             x1, PP, #0x26, lsl #12  ; [pp+0x26cd8] AnonymousClosure: (0x71e360), in [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage (0x71e3c8)
+    //     0x71e788: add             x1, PP, #0x26, lsl #12  ; [pp+0x26cd8] AnonymousClosure: (0x71e360), in [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage (0x71e3c8)
     //     0x71e78c: ldr             x1, [x1, #0xcd8]
     // 0x71e790: r0 = AllocateClosure()
     //     0x71e790: bl              #0xe553e0  ; AllocateClosureStub
@@ -433,7 +433,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0x71e7fc: add             x2, PP, #0x26, lsl #12  ; [pp+0x26ce0] "Couldn\'t send your message. Please try again."
     //     0x71e800: ldr             x2, [x2, #0xce0]
     // 0x71e804: r0 = userFacingError()
-    //     0x71e804: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0x71e804: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0x71e808: ldur            x2, [fp, #-0xb0]
     // 0x71e80c: StoreField: r2->field_5f = r0
     //     0x71e80c: stur            w0, [x2, #0x5f]
@@ -449,7 +449,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0x71e82c: stur            w0, [x2, #0x57]
     // 0x71e830: mov             x1, x2
     // 0x71e834: r0 = _rebuildDisplayedMessages()
-    //     0x71e834: bl              #0x725518  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_rebuildDisplayedMessages
+    //     0x71e834: bl              #0x725518  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_rebuildDisplayedMessages
     // 0x71e838: ldur            x1, [fp, #-0xb0]
     // 0x71e83c: r0 = notifyListeners()
     //     0x71e83c: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -532,7 +532,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0x71e910: stur            w2, [x3, #0x57]
     // 0x71e914: mov             x1, x3
     // 0x71e918: r0 = _rebuildDisplayedMessages()
-    //     0x71e918: bl              #0x725518  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_rebuildDisplayedMessages
+    //     0x71e918: bl              #0x725518  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_rebuildDisplayedMessages
     // 0x71e91c: ldur            x1, [fp, #-0xb0]
     // 0x71e920: r0 = notifyListeners()
     //     0x71e920: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
@@ -558,7 +558,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0x7254dc: cmp             SP, x16
     //     0x7254e0: b.ls            #0x725510
     // 0x7254e4: r0 = conversationType()
-    //     0x7254e4: bl              #0x7259c0  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationType
+    //     0x7254e4: bl              #0x7259c0  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationType
     // 0x7254e8: r16 = Instance_ConversationType
     //     0x7254e8: add             x16, PP, #0x11, lsl #12  ; [pp+0x11b20] Obj!ConversationType@d3b721
     //     0x7254ec: ldr             x16, [x16, #0xb20]
@@ -633,7 +633,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0x725598: mov             x2, x1
     // 0x72559c: stur            x4, [fp, #-0x18]
     // 0x7255a0: r1 = Function '<anonymous closure>':.
-    //     0x7255a0: add             x1, PP, #0x27, lsl #12  ; [pp+0x27000] AnonymousClosure: (0x725964), in [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_rebuildDisplayedMessages (0x725518)
+    //     0x7255a0: add             x1, PP, #0x27, lsl #12  ; [pp+0x27000] AnonymousClosure: (0x725964), in [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_rebuildDisplayedMessages (0x725518)
     //     0x7255a4: ldr             x1, [x1]
     // 0x7255a8: r0 = AllocateClosure()
     //     0x7255a8: bl              #0xe553e0  ; AllocateClosureStub
@@ -713,7 +713,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0x725808: ldr             x1, [fp, #0x18]
     // 0x72580c: ldr             x2, [fp, #0x10]
     // 0x725810: r0 = _messageSort()
-    //     0x725810: bl              #0x725840  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_messageSort
+    //     0x725810: bl              #0x725840  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_messageSort
     // 0x725814: mov             x2, x0
     // 0x725818: r0 = BoxInt64Instr(r2)
     //     0x725818: sbfiz           x0, x2, #1, #0x1f
@@ -884,7 +884,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0x7259e4: DecompressPointer r1
     //     0x7259e4: add             x1, x1, HEAP, lsl #32
     // 0x7259e8: r0 = fromRaw()
-    //     0x7259e8: bl              #0x725a4c  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationType::fromRaw
+    //     0x7259e8: bl              #0x725a4c  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationType::fromRaw
     // 0x7259ec: cmp             w0, NULL
     // 0x7259f0: b.eq            #0x725a00
     // 0x7259f4: LeaveFrame
@@ -959,7 +959,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0x725cf8: ret             
     // 0x725cfc: ldur            x1, [fp, #-8]
     // 0x725d00: r0 = conversationType()
-    //     0x725d00: bl              #0x7259c0  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationType
+    //     0x725d00: bl              #0x7259c0  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationType
     // 0x725d04: LoadField: r1 = r0->field_7
     //     0x725d04: ldur            x1, [x0, #7]
     // 0x725d08: cmp             x1, #0
@@ -1001,7 +1001,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0x725d68: ret
     //     0x725d68: ret             
     // 0x725d6c: r0 = documentId()
-    //     0x725d6c: bl              #0x721744  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::documentId
+    //     0x725d6c: bl              #0x721744  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::documentId
     // 0x725d70: LeaveFrame
     //     0x725d70: mov             SP, fp
     //     0x725d74: ldp             fp, lr, [SP], #0x10
@@ -1025,7 +1025,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0x725da4: ret
     //     0x725da4: ret             
     // 0x725da8: r0 = teamDocumentId()
-    //     0x725da8: bl              #0x723144  ; [package:ballai/automatic/models/core/message/conversation_model.dart] ConversationModel::teamDocumentId
+    //     0x725da8: bl              #0x723144  ; [package:kourtai/automatic/models/core/message/conversation_model.dart] ConversationModel::teamDocumentId
     // 0x725dac: LeaveFrame
     //     0x725dac: mov             SP, fp
     //     0x725db0: ldp             fp, lr, [SP], #0x10
@@ -1072,7 +1072,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0x980460: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
     // 0x980464: ldur            x1, [fp, #-8]
     // 0x980468: r0 = _bootstrap()
-    //     0x980468: bl              #0x980484  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_bootstrap
+    //     0x980468: bl              #0x980484  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_bootstrap
     // 0x98046c: r0 = Null
     //     0x98046c: mov             x0, NULL
     // 0x980470: LeaveFrame
@@ -1103,7 +1103,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0x9804a8: bl              #0x60afc8  ; InitAsyncStub
     // 0x9804ac: ldur            x1, [fp, #-0x10]
     // 0x9804b0: r0 = conversationType()
-    //     0x9804b0: bl              #0x7259c0  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationType
+    //     0x9804b0: bl              #0x7259c0  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationType
     // 0x9804b4: r16 = Instance_ConversationType
     //     0x9804b4: add             x16, PP, #0x11, lsl #12  ; [pp+0x11b20] Obj!ConversationType@d3b721
     //     0x9804b8: ldr             x16, [x16, #0xb20]
@@ -1111,7 +1111,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0x9804c0: b.ne            #0x9804dc
     // 0x9804c4: ldur            x1, [fp, #-0x10]
     // 0x9804c8: r0 = _bootstrapTeam()
-    //     0x9804c8: bl              #0x982ce0  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_bootstrapTeam
+    //     0x9804c8: bl              #0x982ce0  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_bootstrapTeam
     // 0x9804cc: mov             x1, x0
     // 0x9804d0: stur            x1, [fp, #-0x18]
     // 0x9804d4: r0 = Await()
@@ -1119,14 +1119,14 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0x9804d8: b               #0x980504
     // 0x9804dc: ldur            x1, [fp, #-0x10]
     // 0x9804e0: r0 = _loadOtherUser()
-    //     0x9804e0: bl              #0x982b54  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_loadOtherUser
+    //     0x9804e0: bl              #0x982b54  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_loadOtherUser
     // 0x9804e4: mov             x1, x0
     // 0x9804e8: stur            x1, [fp, #-0x18]
     // 0x9804ec: r0 = Await()
     //     0x9804ec: bl              #0x60ad4c  ; AwaitStub
     // 0x9804f0: ldur            x1, [fp, #-0x10]
     // 0x9804f4: r0 = _refreshAvailability()
-    //     0x9804f4: bl              #0x98290c  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_refreshAvailability
+    //     0x9804f4: bl              #0x98290c  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_refreshAvailability
     // 0x9804f8: mov             x1, x0
     // 0x9804fc: stur            x1, [fp, #-0x18]
     // 0x980500: r0 = Await()
@@ -1134,14 +1134,14 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0x980504: ldur            x0, [fp, #-0x10]
     // 0x980508: mov             x1, x0
     // 0x98050c: r0 = _loadInitialMessages()
-    //     0x98050c: bl              #0x982798  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_loadInitialMessages
+    //     0x98050c: bl              #0x982798  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_loadInitialMessages
     // 0x980510: mov             x1, x0
     // 0x980514: stur            x1, [fp, #-0x18]
     // 0x980518: r0 = Await()
     //     0x980518: bl              #0x60ad4c  ; AwaitStub
     // 0x98051c: ldur            x1, [fp, #-0x10]
     // 0x980520: r0 = _startMessagesListener()
-    //     0x980520: bl              #0x981828  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_startMessagesListener
+    //     0x980520: bl              #0x981828  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_startMessagesListener
     // 0x980524: ldur            x0, [fp, #-0x10]
     // 0x980528: LoadField: r1 = r0->field_4b
     //     0x980528: ldur            w1, [x0, #0x4b]
@@ -1152,7 +1152,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0x980534: cbz             w2, #0x98054c
     // 0x980538: mov             x1, x0
     // 0x98053c: r0 = _markAsRead()
-    //     0x98053c: bl              #0x98056c  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_markAsRead
+    //     0x98053c: bl              #0x98056c  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_markAsRead
     // 0x980540: mov             x1, x0
     // 0x980544: stur            x1, [fp, #-0x18]
     // 0x980548: r0 = Await()
@@ -1191,7 +1191,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0x980590: bl              #0x60afc8  ; InitAsyncStub
     // 0x980594: ldur            x1, [fp, #-0x10]
     // 0x980598: r0 = conversationId()
-    //     0x980598: bl              #0x725ca4  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationId
+    //     0x980598: bl              #0x725ca4  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationId
     // 0x98059c: cmp             w0, NULL
     // 0x9805a0: b.ne            #0x9805ac
     // 0x9805a4: r0 = Null
@@ -1206,7 +1206,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0x9805b8: mov             x1, x2
     // 0x9805bc: mov             x2, x0
     // 0x9805c0: r0 = markConversationRead()
-    //     0x9805c0: bl              #0x9805e0  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::markConversationRead
+    //     0x9805c0: bl              #0x9805e0  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::markConversationRead
     // 0x9805c4: mov             x1, x0
     // 0x9805c8: stur            x1, [fp, #-0x10]
     // 0x9805cc: r0 = Await()
@@ -1243,7 +1243,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0x981858: stur            w0, [x2, #0xf]
     // 0x98185c: mov             x1, x0
     // 0x981860: r0 = conversationId()
-    //     0x981860: bl              #0x725ca4  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationId
+    //     0x981860: bl              #0x725ca4  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationId
     // 0x981864: stur            x0, [fp, #-0x18]
     // 0x981868: cmp             w0, NULL
     // 0x98186c: b.ne            #0x981880
@@ -1269,20 +1269,20 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0x9818a4: mov             x1, x0
     // 0x9818a8: ldur            x2, [fp, #-0x18]
     // 0x9818ac: r0 = _messagesQuery()
-    //     0x9818ac: bl              #0x981930  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_messagesQuery
+    //     0x9818ac: bl              #0x981930  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_messagesQuery
     // 0x9818b0: mov             x1, x0
     // 0x9818b4: r0 = snapshots()
     //     0x9818b4: bl              #0x938d20  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQuery::snapshots
     // 0x9818b8: ldur            x2, [fp, #-0x10]
     // 0x9818bc: r1 = Function '<anonymous closure>':.
-    //     0x9818bc: add             x1, PP, #0x27, lsl #12  ; [pp+0x274f0] AnonymousClosure: (0x981a68), in [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_startMessagesListener (0x981828)
+    //     0x9818bc: add             x1, PP, #0x27, lsl #12  ; [pp+0x274f0] AnonymousClosure: (0x981a68), in [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_startMessagesListener (0x981828)
     //     0x9818c0: ldr             x1, [x1, #0x4f0]
     // 0x9818c4: stur            x0, [fp, #-0x18]
     // 0x9818c8: r0 = AllocateClosure()
     //     0x9818c8: bl              #0xe553e0  ; AllocateClosureStub
     // 0x9818cc: ldur            x2, [fp, #-0x10]
     // 0x9818d0: r1 = Function '<anonymous closure>':.
-    //     0x9818d0: add             x1, PP, #0x27, lsl #12  ; [pp+0x274f8] AnonymousClosure: (0x9819d4), in [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_startMessagesListener (0x981828)
+    //     0x9818d0: add             x1, PP, #0x27, lsl #12  ; [pp+0x274f8] AnonymousClosure: (0x9819d4), in [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_startMessagesListener (0x981828)
     //     0x9818d4: ldr             x1, [x1, #0x4f8]
     // 0x9818d8: stur            x0, [fp, #-0x10]
     // 0x9818dc: r0 = AllocateClosure()
@@ -1406,11 +1406,11 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0x981a08: add             x1, PP, #0x27, lsl #12  ; [pp+0x27500] "Couldn\'t load this conversation. Please try again."
     //     0x981a0c: ldr             x1, [x1, #0x500]
     // 0x981a10: r0 = L()
-    //     0x981a10: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x981a10: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x981a14: ldr             x1, [fp, #0x10]
     // 0x981a18: mov             x2, x0
     // 0x981a1c: r0 = userFacingError()
-    //     0x981a1c: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0x981a1c: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0x981a20: ldur            x1, [fp, #-8]
     // 0x981a24: StoreField: r1->field_5f = r0
     //     0x981a24: stur            w0, [x1, #0x5f]
@@ -1501,14 +1501,14 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0x981b00: add             x1, x1, HEAP, lsl #32
     // 0x981b04: ldur            x2, [fp, #-0x10]
     // 0x981b08: r0 = _applyFirestoreMessages()
-    //     0x981b08: bl              #0x981f24  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_applyFirestoreMessages
+    //     0x981b08: bl              #0x981f24  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_applyFirestoreMessages
     // 0x981b0c: ldur            x0, [fp, #-8]
     // 0x981b10: LoadField: r1 = r0->field_f
     //     0x981b10: ldur            w1, [x0, #0xf]
     // 0x981b14: DecompressPointer r1
     //     0x981b14: add             x1, x1, HEAP, lsl #32
     // 0x981b18: r0 = conversationType()
-    //     0x981b18: bl              #0x7259c0  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationType
+    //     0x981b18: bl              #0x7259c0  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationType
     // 0x981b1c: r16 = Instance_ConversationType
     //     0x981b1c: add             x16, PP, #0x11, lsl #12  ; [pp+0x11b20] Obj!ConversationType@d3b721
     //     0x981b20: ldr             x16, [x16, #0xb20]
@@ -1521,7 +1521,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0x981b34: add             x1, x1, HEAP, lsl #32
     // 0x981b38: ldur            x2, [fp, #-0x10]
     // 0x981b3c: r0 = _loadSenderUsers()
-    //     0x981b3c: bl              #0x981b84  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_loadSenderUsers
+    //     0x981b3c: bl              #0x981b84  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_loadSenderUsers
     // 0x981b40: ldur            x0, [fp, #-0x10]
     // 0x981b44: LoadField: r1 = r0->field_b
     //     0x981b44: ldur            w1, [x0, #0xb]
@@ -1532,7 +1532,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0x981b54: DecompressPointer r1
     //     0x981b54: add             x1, x1, HEAP, lsl #32
     // 0x981b58: r0 = _markAsRead()
-    //     0x981b58: bl              #0x98056c  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_markAsRead
+    //     0x981b58: bl              #0x98056c  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_markAsRead
     // 0x981b5c: ldur            x0, [fp, #-8]
     // 0x981b60: LoadField: r1 = r0->field_f
     //     0x981b60: ldur            w1, [x0, #0xf]
@@ -1828,7 +1828,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0x981e7c: r1 = Null
     //     0x981e7c: mov             x1, NULL
     // 0x981e80: r0 = UserModel.fromFirestore()
-    //     0x981e80: bl              #0x8fe49c  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
+    //     0x981e80: bl              #0x8fe49c  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
     // 0x981e84: ldur            x1, [fp, #-0x98]
     // 0x981e88: ldur            x2, [fp, #-0xb0]
     // 0x981e8c: stur            x0, [fp, #-0xc8]
@@ -1901,7 +1901,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0x981f50: b.eq            #0x981f58
     //     0x981f54: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0x981f58: r0 = _rebuildDisplayedMessages()
-    //     0x981f58: bl              #0x725518  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_rebuildDisplayedMessages
+    //     0x981f58: bl              #0x725518  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_rebuildDisplayedMessages
     // 0x981f5c: r0 = Null
     //     0x981f5c: mov             x0, NULL
     // 0x981f60: LeaveFrame
@@ -1932,7 +1932,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0x9827bc: bl              #0x60afc8  ; InitAsyncStub
     // 0x9827c0: ldur            x1, [fp, #-0x70]
     // 0x9827c4: r0 = conversationId()
-    //     0x9827c4: bl              #0x725ca4  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationId
+    //     0x9827c4: bl              #0x725ca4  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationId
     // 0x9827c8: stur            x0, [fp, #-0x78]
     // 0x9827cc: cmp             w0, NULL
     // 0x9827d0: b.ne            #0x9827dc
@@ -1943,7 +1943,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0x9827dc: ldur            x1, [fp, #-0x70]
     // 0x9827e0: mov             x2, x0
     // 0x9827e4: r0 = _messagesQuery()
-    //     0x9827e4: bl              #0x981930  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_messagesQuery
+    //     0x9827e4: bl              #0x981930  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_messagesQuery
     // 0x9827e8: mov             x1, x0
     // 0x9827ec: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x9827ec: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
@@ -2000,10 +2000,10 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0x982878: ldur            x1, [fp, #-0x70]
     // 0x98287c: ldur            x2, [fp, #-0x88]
     // 0x982880: r0 = _applyFirestoreMessages()
-    //     0x982880: bl              #0x981f24  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_applyFirestoreMessages
+    //     0x982880: bl              #0x981f24  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_applyFirestoreMessages
     // 0x982884: ldur            x1, [fp, #-0x70]
     // 0x982888: r0 = conversationType()
-    //     0x982888: bl              #0x7259c0  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationType
+    //     0x982888: bl              #0x7259c0  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationType
     // 0x98288c: r16 = Instance_ConversationType
     //     0x98288c: add             x16, PP, #0x11, lsl #12  ; [pp+0x11b20] Obj!ConversationType@d3b721
     //     0x982890: ldr             x16, [x16, #0xb20]
@@ -2012,7 +2012,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0x98289c: ldur            x1, [fp, #-0x70]
     // 0x9828a0: ldur            x2, [fp, #-0x88]
     // 0x9828a4: r0 = _loadSenderUsers()
-    //     0x9828a4: bl              #0x981b84  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_loadSenderUsers
+    //     0x9828a4: bl              #0x981b84  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::_loadSenderUsers
     // 0x9828a8: mov             x1, x0
     // 0x9828ac: stur            x1, [fp, #-0x78]
     // 0x9828b0: r0 = Await()
@@ -2025,11 +2025,11 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0x9828c4: add             x1, PP, #0x27, lsl #12  ; [pp+0x27500] "Couldn\'t load this conversation. Please try again."
     //     0x9828c8: ldr             x1, [x1, #0x500]
     // 0x9828cc: r0 = L()
-    //     0x9828cc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9828cc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9828d0: ldur            x1, [fp, #-0x78]
     // 0x9828d4: mov             x2, x0
     // 0x9828d8: r0 = userFacingError()
-    //     0x9828d8: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0x9828d8: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0x9828dc: ldur            x1, [fp, #-0x70]
     // 0x9828e0: StoreField: r1->field_5f = r0
     //     0x9828e0: stur            w0, [x1, #0x5f]
@@ -2088,7 +2088,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0x982964: add             x1, x1, HEAP, lsl #32
     // 0x982968: mov             x2, x3
     // 0x98296c: r0 = availabilityForRecipient()
-    //     0x98296c: bl              #0x982a84  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::availabilityForRecipient
+    //     0x98296c: bl              #0x982a84  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::availabilityForRecipient
     // 0x982970: mov             x1, x0
     // 0x982974: stur            x1, [fp, #-0x78]
     // 0x982978: r0 = Await()
@@ -2160,11 +2160,11 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0x982a3c: add             x1, PP, #0x27, lsl #12  ; [pp+0x27500] "Couldn\'t load this conversation. Please try again."
     //     0x982a40: ldr             x1, [x1, #0x500]
     // 0x982a44: r0 = L()
-    //     0x982a44: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x982a44: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x982a48: ldur            x1, [fp, #-0x70]
     // 0x982a4c: mov             x2, x0
     // 0x982a50: r0 = userFacingError()
-    //     0x982a50: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0x982a50: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0x982a54: ldur            x1, [fp, #-0x68]
     // 0x982a58: StoreField: r1->field_5f = r0
     //     0x982a58: stur            w0, [x1, #0x5f]
@@ -2285,7 +2285,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0x982c58: r1 = Null
     //     0x982c58: mov             x1, NULL
     // 0x982c5c: r0 = UserModel.fromFirestore()
-    //     0x982c5c: bl              #0x8fe49c  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
+    //     0x982c5c: bl              #0x8fe49c  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::UserModel.fromFirestore
     // 0x982c60: ldur            x2, [fp, #-0x70]
     // 0x982c64: StoreField: r2->field_43 = r0
     //     0x982c64: stur            w0, [x2, #0x43]
@@ -2303,11 +2303,11 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0x982c90: add             x1, PP, #0x27, lsl #12  ; [pp+0x27500] "Couldn\'t load this conversation. Please try again."
     //     0x982c94: ldr             x1, [x1, #0x500]
     // 0x982c98: r0 = L()
-    //     0x982c98: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x982c98: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x982c9c: ldur            x1, [fp, #-0x78]
     // 0x982ca0: mov             x2, x0
     // 0x982ca4: r0 = userFacingError()
-    //     0x982ca4: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0x982ca4: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0x982ca8: ldur            x1, [fp, #-0x70]
     // 0x982cac: StoreField: r1->field_5f = r0
     //     0x982cac: stur            w0, [x1, #0x5f]
@@ -2386,7 +2386,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0x982d64: mov             x3, x7
     // 0x982d68: stur            x7, [fp, #-0x78]
     // 0x982d6c: r0 = ensureTeamConversation()
-    //     0x982d6c: bl              #0x982ec4  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::ensureTeamConversation
+    //     0x982d6c: bl              #0x982ec4  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::ensureTeamConversation
     // 0x982d70: mov             x1, x0
     // 0x982d74: stur            x1, [fp, #-0x90]
     // 0x982d78: r0 = Await()
@@ -2394,7 +2394,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0x982d7c: ldur            x1, [fp, #-0x80]
     // 0x982d80: ldur            x2, [fp, #-0x88]
     // 0x982d84: r0 = canCurrentUserSendTeamMessages()
-    //     0x982d84: bl              #0x982e10  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::canCurrentUserSendTeamMessages
+    //     0x982d84: bl              #0x982e10  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::canCurrentUserSendTeamMessages
     // 0x982d88: mov             x1, x0
     // 0x982d8c: stur            x1, [fp, #-0x90]
     // 0x982d90: r0 = Await()
@@ -2422,11 +2422,11 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0x982dc8: add             x1, PP, #0x27, lsl #12  ; [pp+0x27500] "Couldn\'t load this conversation. Please try again."
     //     0x982dcc: ldr             x1, [x1, #0x500]
     // 0x982dd0: r0 = L()
-    //     0x982dd0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x982dd0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x982dd4: ldur            x1, [fp, #-0x78]
     // 0x982dd8: mov             x2, x0
     // 0x982ddc: r0 = userFacingError()
-    //     0x982ddc: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0x982ddc: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0x982de0: ldur            x1, [fp, #-0x70]
     // 0x982de4: StoreField: r1->field_5f = r0
     //     0x982de4: stur            w0, [x1, #0x5f]
@@ -2783,7 +2783,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0xa90184: b.ls            #0xa9019c
     // 0xa90188: ldr             x2, [fp, #0x10]
     // 0xa9018c: r0 = setComposerText()
-    //     0xa9018c: bl              #0xa901a4  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::setComposerText
+    //     0xa9018c: bl              #0xa901a4  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::setComposerText
     // 0xa90190: LeaveFrame
     //     0xa90190: mov             SP, fp
     //     0xa90194: ldp             fp, lr, [SP], #0x10
@@ -2839,7 +2839,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0xa90a1c: add             x0, x0, HEAP, lsl #32
     // 0xa90a20: tbnz            w0, #4, #0xa90a54
     // 0xa90a24: r0 = conversationType()
-    //     0xa90a24: bl              #0x7259c0  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationType
+    //     0xa90a24: bl              #0x7259c0  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationType
     // 0xa90a28: r16 = Instance_ConversationType
     //     0xa90a28: add             x16, PP, #0x11, lsl #12  ; [pp+0x11b20] Obj!ConversationType@d3b721
     //     0xa90a2c: ldr             x16, [x16, #0xb20]
@@ -3033,7 +3033,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0xa92588: mov             x2, x1
     // 0xa9258c: ldur            x1, [fp, #-0x18]
     // 0xa92590: r0 = isLikedBy()
-    //     0xa92590: bl              #0xa925a8  ; [package:ballai/automatic/models/core/message/direct_message_model.dart] DirectMessageModel::isLikedBy
+    //     0xa92590: bl              #0xa925a8  ; [package:kourtai/automatic/models/core/message/direct_message_model.dart] DirectMessageModel::isLikedBy
     // 0xa92594: LeaveFrame
     //     0xa92594: mov             SP, fp
     //     0xa92598: ldp             fp, lr, [SP], #0x10
@@ -3195,7 +3195,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0xa92848: ldur            x1, [fp, #-0xa0]
     // 0xa9284c: ldur            x2, [fp, #-0xa8]
     // 0xa92850: r0 = isPendingOutgoing()
-    //     0xa92850: bl              #0xa9264c  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::isPendingOutgoing
+    //     0xa92850: bl              #0xa9264c  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::isPendingOutgoing
     // 0xa92854: tbnz            w0, #4, #0xa92860
     // 0xa92858: r0 = Null
     //     0xa92858: mov             x0, NULL
@@ -3203,7 +3203,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0xa9285c: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xa92860: ldur            x1, [fp, #-0xa0]
     // 0xa92864: r0 = conversationId()
-    //     0xa92864: bl              #0x725ca4  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationId
+    //     0xa92864: bl              #0x725ca4  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationId
     // 0xa92868: stur            x0, [fp, #-0xc0]
     // 0xa9286c: cmp             w0, NULL
     // 0xa92870: b.eq            #0xa92890
@@ -3245,12 +3245,12 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0xa928cc: ldur            x1, [fp, #-0xa0]
     // 0xa928d0: ldur            x2, [fp, #-0xa8]
     // 0xa928d4: r0 = isMessageLiked()
-    //     0xa928d4: bl              #0xa924e0  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::isMessageLiked
+    //     0xa928d4: bl              #0xa924e0  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::isMessageLiked
     // 0xa928d8: ldur            x1, [fp, #-0xa0]
     // 0xa928dc: ldur            x2, [fp, #-0xa8]
     // 0xa928e0: stur            x0, [fp, #-0xc8]
     // 0xa928e4: r0 = effectiveLikeCount()
-    //     0xa928e4: bl              #0xa92428  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::effectiveLikeCount
+    //     0xa928e4: bl              #0xa92428  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::effectiveLikeCount
     // 0xa928e8: mov             x1, x0
     // 0xa928ec: ldur            x0, [fp, #-0xc8]
     // 0xa928f0: eor             x3, x0, #0x10
@@ -3319,7 +3319,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     // 0xa929ac: ldur            x3, [fp, #-0xb0]
     // 0xa929b0: stur            x4, [fp, #-0xe0]
     // 0xa929b4: r0 = toggleMessageLike()
-    //     0xa929b4: bl              #0xa92acc  ; [package:ballai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::toggleMessageLike
+    //     0xa929b4: bl              #0xa92acc  ; [package:kourtai/automatic/app/dependencies/managers/core/direct_message_manager.dart] DirectMessageManager::toggleMessageLike
     // 0xa929b8: mov             x1, x0
     // 0xa929bc: stur            x1, [fp, #-0xe8]
     // 0xa929c0: r0 = Await()
@@ -3370,7 +3370,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0xa92a44: add             x2, PP, #0x27, lsl #12  ; [pp+0x27298] "Couldn\'t update this message. Please try again."
     //     0xa92a48: ldr             x2, [x2, #0x298]
     // 0xa92a4c: r0 = userFacingError()
-    //     0xa92a4c: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0xa92a4c: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0xa92a50: ldur            x3, [fp, #-0xa0]
     // 0xa92a54: StoreField: r3->field_5f = r0
     //     0xa92a54: stur            w0, [x3, #0x5f]
@@ -3428,7 +3428,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     //     0xa93308: b.ls            #0xa93424
     // 0xa9330c: mov             x1, x0
     // 0xa93310: r0 = conversationType()
-    //     0xa93310: bl              #0x7259c0  ; [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationType
+    //     0xa93310: bl              #0x7259c0  ; [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::conversationType
     // 0xa93314: r16 = Instance_ConversationType
     //     0xa93314: add             x16, PP, #0x11, lsl #12  ; [pp+0x11b20] Obj!ConversationType@d3b721
     //     0xa93318: ldr             x16, [x16, #0xb20]

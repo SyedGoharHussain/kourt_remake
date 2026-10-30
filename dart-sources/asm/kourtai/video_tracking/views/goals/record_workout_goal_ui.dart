@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/goals/record_workout_goal_ui.dart
+// lib: , url: package:kourtai/video_tracking/views/goals/record_workout_goal_ui.dart
 
 // class id: 1049230, size: 0x8
 class :: {

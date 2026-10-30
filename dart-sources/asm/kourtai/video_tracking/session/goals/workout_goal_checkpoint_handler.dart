@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/session/goals/workout_goal_checkpoint_handler.dart
+// lib: , url: package:kourtai/video_tracking/session/goals/workout_goal_checkpoint_handler.dart
 
 // class id: 1049174, size: 0x8
 class :: {
@@ -61,7 +61,7 @@ abstract class WorkoutGoalCheckpointHandler extends Object {
     // 0x730d40: ldur            d0, [fp, #-0x18]
     // 0x730d44: ldur            x1, [fp, #-8]
     // 0x730d48: r0 = _markGoalAsComplete()
-    //     0x730d48: bl              #0x731614  ; [package:ballai/video_tracking/session/goals/workout_goal_checkpoint_handler.dart] WorkoutGoalCheckpointHandler::_markGoalAsComplete
+    //     0x730d48: bl              #0x731614  ; [package:kourtai/video_tracking/session/goals/workout_goal_checkpoint_handler.dart] WorkoutGoalCheckpointHandler::_markGoalAsComplete
     // 0x730d4c: b               #0x730d84
     // 0x730d50: d1 = 0.500000
     //     0x730d50: fmov            d1, #0.50000000
@@ -79,7 +79,7 @@ abstract class WorkoutGoalCheckpointHandler extends Object {
     // 0x730d78: ldur            d0, [fp, #-0x18]
     // 0x730d7c: ldur            x1, [fp, #-8]
     // 0x730d80: r0 = _markHalfwayPoint()
-    //     0x730d80: bl              #0x730d9c  ; [package:ballai/video_tracking/session/goals/workout_goal_checkpoint_handler.dart] WorkoutGoalCheckpointHandler::_markHalfwayPoint
+    //     0x730d80: bl              #0x730d9c  ; [package:kourtai/video_tracking/session/goals/workout_goal_checkpoint_handler.dart] WorkoutGoalCheckpointHandler::_markHalfwayPoint
     // 0x730d84: r0 = Null
     //     0x730d84: mov             x0, NULL
     // 0x730d88: LeaveFrame
@@ -128,7 +128,7 @@ abstract class WorkoutGoalCheckpointHandler extends Object {
     // 0x730df4: d0 = 0.500000
     //     0x730df4: fmov            d0, #0.50000000
     // 0x730df8: r0 = _formatCheckpoint()
-    //     0x730df8: bl              #0x730eb8  ; [package:ballai/video_tracking/session/goals/workout_goal_checkpoint_handler.dart] WorkoutGoalCheckpointHandler::_formatCheckpoint
+    //     0x730df8: bl              #0x730eb8  ; [package:kourtai/video_tracking/session/goals/workout_goal_checkpoint_handler.dart] WorkoutGoalCheckpointHandler::_formatCheckpoint
     // 0x730dfc: ldur            x1, [fp, #-0x10]
     // 0x730e00: ArrayStore: r1[1] = r0  ; List_4
     //     0x730e00: add             x25, x1, #0x13
@@ -145,7 +145,7 @@ abstract class WorkoutGoalCheckpointHandler extends Object {
     // 0x730e2c: r0 = _interpolate()
     //     0x730e2c: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0x730e30: stur            x0, [fp, #-8]
-    // 0x730e34: r0 = InitLateStaticField(0xeec) // [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
+    // 0x730e34: r0 = InitLateStaticField(0xeec) // [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
     //     0x730e34: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x730e38: ldr             x0, [x0, #0x1dd8]
     //     0x730e3c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -163,7 +163,7 @@ abstract class WorkoutGoalCheckpointHandler extends Object {
     //     0x730e64: add             x4, PP, #0x29, lsl #12  ; [pp+0x29278] List(7) [0, 0x3, 0x1, 0x2, "subException", 0x2, Null]
     //     0x730e68: ldr             x4, [x4, #0x278]
     // 0x730e6c: r0 = speak()
-    //     0x730e6c: bl              #0x6d2cd4  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
+    //     0x730e6c: bl              #0x6d2cd4  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
     // 0x730e70: r0 = InitLateStaticField(0x62c) // [package:flutter/src/foundation/print.dart] ::debugPrint
     //     0x730e70: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x730e74: ldr             x0, [x0, #0xc58]
@@ -222,7 +222,7 @@ abstract class WorkoutGoalCheckpointHandler extends Object {
     // 0x730f00: fmul            d2, d0, d1
     // 0x730f04: mov             v0.16b, v2.16b
     // 0x730f08: r0 = _formatTimeCheckpoint()
-    //     0x730f08: bl              #0x731254  ; [package:ballai/video_tracking/session/goals/workout_goal_checkpoint_handler.dart] WorkoutGoalCheckpointHandler::_formatTimeCheckpoint
+    //     0x730f08: bl              #0x731254  ; [package:kourtai/video_tracking/session/goals/workout_goal_checkpoint_handler.dart] WorkoutGoalCheckpointHandler::_formatTimeCheckpoint
     // 0x730f0c: LeaveFrame
     //     0x730f0c: mov             SP, fp
     //     0x730f10: ldp             fp, lr, [SP], #0x10
@@ -267,7 +267,7 @@ abstract class WorkoutGoalCheckpointHandler extends Object {
     //     0x730f94: add             x1, PP, #0x29, lsl #12  ; [pp+0x29410] "Shot"
     //     0x730f98: ldr             x1, [x1, #0x410]
     // 0x730f9c: r0 = _formatSingularOrPlural()
-    //     0x730f9c: bl              #0x7310d0  ; [package:ballai/video_tracking/session/goals/workout_goal_checkpoint_handler.dart] WorkoutGoalCheckpointHandler::_formatSingularOrPlural
+    //     0x730f9c: bl              #0x7310d0  ; [package:kourtai/video_tracking/session/goals/workout_goal_checkpoint_handler.dart] WorkoutGoalCheckpointHandler::_formatSingularOrPlural
     // 0x730fa0: LeaveFrame
     //     0x730fa0: mov             SP, fp
     //     0x730fa4: ldp             fp, lr, [SP], #0x10
@@ -311,7 +311,7 @@ abstract class WorkoutGoalCheckpointHandler extends Object {
     //     0x731024: add             x1, PP, #0x29, lsl #12  ; [pp+0x29420] "Make"
     //     0x731028: ldr             x1, [x1, #0x420]
     // 0x73102c: r0 = _formatSingularOrPlural()
-    //     0x73102c: bl              #0x7310d0  ; [package:ballai/video_tracking/session/goals/workout_goal_checkpoint_handler.dart] WorkoutGoalCheckpointHandler::_formatSingularOrPlural
+    //     0x73102c: bl              #0x7310d0  ; [package:kourtai/video_tracking/session/goals/workout_goal_checkpoint_handler.dart] WorkoutGoalCheckpointHandler::_formatSingularOrPlural
     // 0x731030: LeaveFrame
     //     0x731030: mov             SP, fp
     //     0x731034: ldp             fp, lr, [SP], #0x10
@@ -877,7 +877,7 @@ abstract class WorkoutGoalCheckpointHandler extends Object {
     // 0x73166c: d0 = 1.000000
     //     0x73166c: fmov            d0, #1.00000000
     // 0x731670: r0 = _formatCheckpoint()
-    //     0x731670: bl              #0x730eb8  ; [package:ballai/video_tracking/session/goals/workout_goal_checkpoint_handler.dart] WorkoutGoalCheckpointHandler::_formatCheckpoint
+    //     0x731670: bl              #0x730eb8  ; [package:kourtai/video_tracking/session/goals/workout_goal_checkpoint_handler.dart] WorkoutGoalCheckpointHandler::_formatCheckpoint
     // 0x731674: ldur            x1, [fp, #-0x10]
     // 0x731678: ArrayStore: r1[1] = r0  ; List_4
     //     0x731678: add             x25, x1, #0x13
@@ -894,7 +894,7 @@ abstract class WorkoutGoalCheckpointHandler extends Object {
     // 0x7316a4: r0 = _interpolate()
     //     0x7316a4: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0x7316a8: stur            x0, [fp, #-0x10]
-    // 0x7316ac: r0 = InitLateStaticField(0xeec) // [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
+    // 0x7316ac: r0 = InitLateStaticField(0xeec) // [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
     //     0x7316ac: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x7316b0: ldr             x0, [x0, #0x1dd8]
     //     0x7316b4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -912,7 +912,7 @@ abstract class WorkoutGoalCheckpointHandler extends Object {
     //     0x7316dc: add             x4, PP, #0x29, lsl #12  ; [pp+0x29278] List(7) [0, 0x3, 0x1, 0x2, "subException", 0x2, Null]
     //     0x7316e0: ldr             x4, [x4, #0x278]
     // 0x7316e4: r0 = speak()
-    //     0x7316e4: bl              #0x6d2cd4  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
+    //     0x7316e4: bl              #0x6d2cd4  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
     // 0x7316e8: r0 = InitLateStaticField(0x62c) // [package:flutter/src/foundation/print.dart] ::debugPrint
     //     0x7316e8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x7316ec: ldr             x0, [x0, #0xc58]
@@ -935,7 +935,7 @@ abstract class WorkoutGoalCheckpointHandler extends Object {
     // 0x731720: DecompressPointer r1
     //     0x731720: add             x1, x1, HEAP, lsl #32
     // 0x731724: tbnz            w1, #4, #0x731754
-    // 0x731728: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0x731728: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0x731728: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x73172c: ldr             x0, [x0, #0x1cf0]
     //     0x731730: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -948,7 +948,7 @@ abstract class WorkoutGoalCheckpointHandler extends Object {
     // 0x73174c: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x73174c: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x731750: r0 = VideoWorkoutManagerSession.deinitializeSession()
-    //     0x731750: bl              #0x73176c  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.deinitializeSession
+    //     0x731750: bl              #0x73176c  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerSession.deinitializeSession
     // 0x731754: r0 = Null
     //     0x731754: mov             x0, NULL
     // 0x731758: LeaveFrame

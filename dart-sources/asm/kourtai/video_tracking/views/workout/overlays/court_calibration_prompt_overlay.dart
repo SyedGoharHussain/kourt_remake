@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/overlays/court_calibration_prompt_overlay.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/overlays/court_calibration_prompt_overlay.dart
 
 // class id: 1049248, size: 0x8
 class :: {
@@ -102,7 +102,7 @@ class CourtCalibrationPromptOverlay extends StatelessWidget {
     //     0xc3f89c: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a8c8] "Set up your court lines\?"
     //     0xc3f8a0: ldr             x1, [x1, #0x8c8]
     // 0xc3f8a4: r0 = L()
-    //     0xc3f8a4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc3f8a4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3f8a8: stur            x0, [fp, #-0x28]
     // 0xc3f8ac: r0 = Text()
     //     0xc3f8ac: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -141,7 +141,7 @@ class CourtCalibrationPromptOverlay extends StatelessWidget {
     //     0xc3f90c: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a8d8] "Tap your court lines so the map matches your gym floor. That way your shots show in the right spots! You can start your workout anytime."
     //     0xc3f910: ldr             x1, [x1, #0x8d8]
     // 0xc3f914: r0 = L()
-    //     0xc3f914: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc3f914: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3f918: stur            x0, [fp, #-0x28]
     // 0xc3f91c: r16 = 0.720000
     //     0xc3f91c: add             x16, PP, #0x2c, lsl #12  ; [pp+0x2cb08] 0.72
@@ -257,7 +257,7 @@ class CourtCalibrationPromptOverlay extends StatelessWidget {
     //     0xc3fa40: ldr             x1, [x1, #0x8e8]
     // 0xc3fa44: stur            x0, [fp, #-0x28]
     // 0xc3fa48: r0 = L()
-    //     0xc3fa48: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc3fa48: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3fa4c: stur            x0, [fp, #-0x30]
     // 0xc3fa50: r0 = Text()
     //     0xc3fa50: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -282,7 +282,7 @@ class CourtCalibrationPromptOverlay extends StatelessWidget {
     //     0xc3fa84: stur            w0, [x3, #0x3b]
     // 0xc3fa88: ldur            x2, [fp, #-0x10]
     // 0xc3fa8c: r1 = Function '<anonymous closure>':.
-    //     0xc3fa8c: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a8f0] AnonymousClosure: (0xc3fe58), in [package:ballai/video_tracking/views/workout/overlays/court_calibration_prompt_overlay.dart] CourtCalibrationPromptOverlay::build (0xc3f7c0)
+    //     0xc3fa8c: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a8f0] AnonymousClosure: (0xc3fe58), in [package:kourtai/video_tracking/views/workout/overlays/court_calibration_prompt_overlay.dart] CourtCalibrationPromptOverlay::build (0xc3f7c0)
     //     0xc3fa90: ldr             x1, [x1, #0x8f0]
     // 0xc3fa94: r0 = AllocateClosure()
     //     0xc3fa94: bl              #0xe553e0  ; AllocateClosureStub
@@ -345,7 +345,7 @@ class CourtCalibrationPromptOverlay extends StatelessWidget {
     //     0xc3fb2c: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a8f8] "Start workout"
     //     0xc3fb30: ldr             x1, [x1, #0x8f8]
     // 0xc3fb34: r0 = L()
-    //     0xc3fb34: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc3fb34: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3fb38: stur            x0, [fp, #-0x28]
     // 0xc3fb3c: r0 = Text()
     //     0xc3fb3c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -361,7 +361,7 @@ class CourtCalibrationPromptOverlay extends StatelessWidget {
     //     0xc3fb58: stur            w0, [x3, #0x13]
     // 0xc3fb5c: ldur            x2, [fp, #-0x10]
     // 0xc3fb60: r1 = Function '<anonymous closure>':.
-    //     0xc3fb60: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a908] AnonymousClosure: (0xc3fd74), in [package:ballai/video_tracking/views/workout/overlays/court_calibration_prompt_overlay.dart] CourtCalibrationPromptOverlay::build (0xc3f7c0)
+    //     0xc3fb60: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a908] AnonymousClosure: (0xc3fd74), in [package:kourtai/video_tracking/views/workout/overlays/court_calibration_prompt_overlay.dart] CourtCalibrationPromptOverlay::build (0xc3f7c0)
     //     0xc3fb64: ldr             x1, [x1, #0x908]
     // 0xc3fb68: r0 = AllocateClosure()
     //     0xc3fb68: bl              #0xe553e0  ; AllocateClosureStub
@@ -592,7 +592,7 @@ class CourtCalibrationPromptOverlay extends StatelessWidget {
     // 0xc3fda8: DecompressPointer r1
     //     0xc3fda8: add             x1, x1, HEAP, lsl #32
     // 0xc3fdac: r0 = _choose()
-    //     0xc3fdac: bl              #0xc3fdc8  ; [package:ballai/video_tracking/views/workout/overlays/court_calibration_prompt_overlay.dart] CourtCalibrationPromptOverlay::_choose
+    //     0xc3fdac: bl              #0xc3fdc8  ; [package:kourtai/video_tracking/views/workout/overlays/court_calibration_prompt_overlay.dart] CourtCalibrationPromptOverlay::_choose
     // 0xc3fdb0: r0 = Null
     //     0xc3fdb0: mov             x0, NULL
     // 0xc3fdb4: LeaveFrame
@@ -613,7 +613,7 @@ class CourtCalibrationPromptOverlay extends StatelessWidget {
     //     0xc3fdd0: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xc3fdd4: cmp             SP, x16
     //     0xc3fdd8: b.ls            #0xc3fe14
-    // 0xc3fddc: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0xc3fddc: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0xc3fddc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xc3fde0: ldr             x0, [x0, #0x1cf0]
     //     0xc3fde4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -624,7 +624,7 @@ class CourtCalibrationPromptOverlay extends StatelessWidget {
     //     0xc3fdf8: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0xc3fdfc: mov             x1, x0
     // 0xc3fe00: r0 = setTripodCourtCalibrationDecision()
-    //     0xc3fe00: bl              #0xc3fe1c  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::setTripodCourtCalibrationDecision
+    //     0xc3fe00: bl              #0xc3fe1c  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::setTripodCourtCalibrationDecision
     // 0xc3fe04: r0 = Null
     //     0xc3fe04: mov             x0, NULL
     // 0xc3fe08: LeaveFrame
@@ -660,7 +660,7 @@ class CourtCalibrationPromptOverlay extends StatelessWidget {
     // 0xc3fe8c: DecompressPointer r1
     //     0xc3fe8c: add             x1, x1, HEAP, lsl #32
     // 0xc3fe90: r0 = _choose()
-    //     0xc3fe90: bl              #0xc3fdc8  ; [package:ballai/video_tracking/views/workout/overlays/court_calibration_prompt_overlay.dart] CourtCalibrationPromptOverlay::_choose
+    //     0xc3fe90: bl              #0xc3fdc8  ; [package:kourtai/video_tracking/views/workout/overlays/court_calibration_prompt_overlay.dart] CourtCalibrationPromptOverlay::_choose
     // 0xc3fe94: r0 = Null
     //     0xc3fe94: mov             x0, NULL
     // 0xc3fe98: LeaveFrame

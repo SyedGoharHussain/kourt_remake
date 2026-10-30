@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/session/mediums/video_capture_layout_option.dart
+// lib: , url: package:kourtai/video_tracking/session/mediums/video_capture_layout_option.dart
 
 // class id: 1049183, size: 0x8
 class :: {

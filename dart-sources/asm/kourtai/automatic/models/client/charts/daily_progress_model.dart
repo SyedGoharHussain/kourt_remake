@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/client/charts/daily_progress_model.dart
+// lib: , url: package:kourtai/automatic/models/client/charts/daily_progress_model.dart
 
 // class id: 1048674, size: 0x8
 class :: {
@@ -23,7 +23,7 @@ class DailyProgressEntry extends Object {
     //     0xbb3420: cmp             SP, x16
     //     0xbb3424: b.ls            #0xbb34dc
     // 0xbb3428: r1 = Function '<anonymous closure>': static.
-    //     0xbb3428: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a480] AnonymousClosure: static (0xbb34e8), in [package:ballai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::daysCountForAverage (0xbb3408)
+    //     0xbb3428: add             x1, PP, #0x4a, lsl #12  ; [pp+0x4a480] AnonymousClosure: static (0xbb34e8), in [package:kourtai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::daysCountForAverage (0xbb3408)
     //     0xbb342c: ldr             x1, [x1, #0x480]
     // 0xbb3430: r2 = Null
     //     0xbb3430: mov             x2, NULL
@@ -113,7 +113,7 @@ class DailyProgressEntry extends Object {
     // 0xbb3508: DecompressPointer r1
     //     0xbb3508: add             x1, x1, HEAP, lsl #32
     // 0xbb350c: r0 = WeeklyDateKey.generateWeeklyDateKey()
-    //     0xbb350c: bl              #0x9315c4  ; [package:ballai/automatic/utility/extensions/date/weekly_date_key.dart] ::WeeklyDateKey.generateWeeklyDateKey
+    //     0xbb350c: bl              #0x9315c4  ; [package:kourtai/automatic/utility/extensions/date/weekly_date_key.dart] ::WeeklyDateKey.generateWeeklyDateKey
     // 0xbb3510: stur            x0, [fp, #-8]
     // 0xbb3514: r0 = DateTime()
     //     0xbb3514: bl              #0x5feb08  ; AllocateDateTimeStub -> DateTime (size=0x18)
@@ -134,7 +134,7 @@ class DailyProgressEntry extends Object {
     //     0xbb353c: stur            x1, [x0, #0xb]
     // 0xbb3540: mov             x1, x0
     // 0xbb3544: r0 = WeeklyDateKey.generateWeeklyDateKey()
-    //     0xbb3544: bl              #0x9315c4  ; [package:ballai/automatic/utility/extensions/date/weekly_date_key.dart] ::WeeklyDateKey.generateWeeklyDateKey
+    //     0xbb3544: bl              #0x9315c4  ; [package:kourtai/automatic/utility/extensions/date/weekly_date_key.dart] ::WeeklyDateKey.generateWeeklyDateKey
     // 0xbb3548: mov             x1, x0
     // 0xbb354c: ldur            x0, [fp, #-8]
     // 0xbb3550: r2 = LoadClassIdInstr(r0)
@@ -316,7 +316,7 @@ class DailyProgressEntry extends Object {
     //     0xbde5e4: cmp             SP, x16
     //     0xbde5e8: b.ls            #0xbde618
     // 0xbde5ec: r1 = Function '<anonymous closure>': static.
-    //     0xbde5ec: add             x1, PP, #0x44, lsl #12  ; [pp+0x44e20] AnonymousClosure: static (0xbdef10), in [package:ballai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::forMakes (0xbde5c4)
+    //     0xbde5ec: add             x1, PP, #0x44, lsl #12  ; [pp+0x44e20] AnonymousClosure: static (0xbdef10), in [package:kourtai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::forMakes (0xbde5c4)
     //     0xbde5f0: ldr             x1, [x1, #0xe20]
     // 0xbde5f4: r2 = Null
     //     0xbde5f4: mov             x2, NULL
@@ -326,7 +326,7 @@ class DailyProgressEntry extends Object {
     // 0xbde600: mov             x2, x0
     // 0xbde604: ldur            x3, [fp, #-0x10]
     // 0xbde608: r0 = calculateDailyProgress()
-    //     0xbde608: bl              #0xbde620  ; [package:ballai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::calculateDailyProgress
+    //     0xbde608: bl              #0xbde620  ; [package:kourtai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::calculateDailyProgress
     // 0xbde60c: LeaveFrame
     //     0xbde60c: mov             SP, fp
     //     0xbde610: ldp             fp, lr, [SP], #0x10
@@ -352,7 +352,7 @@ class DailyProgressEntry extends Object {
     //     0xbde63c: cmp             SP, x16
     //     0xbde640: b.ls            #0xbdebfc
     // 0xbde644: r0 = combinedProgress()
-    //     0xbde644: bl              #0xa6cc28  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgress
+    //     0xbde644: bl              #0xa6cc28  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgress
     // 0xbde648: mov             v1.16b, v0.16b
     // 0xbde64c: d0 = 0.000000
     //     0xbde64c: eor             v0.16b, v0.16b, v0.16b
@@ -370,43 +370,43 @@ class DailyProgressEntry extends Object {
     //     0xbde66c: add             x1, PP, #0x37, lsl #12  ; [pp+0x37618] "Sun"
     //     0xbde670: ldr             x1, [x1, #0x618]
     // 0xbde674: r0 = L()
-    //     0xbde674: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbde674: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbde678: r1 = "Mon"
     //     0xbde678: add             x1, PP, #0x37, lsl #12  ; [pp+0x375e8] "Mon"
     //     0xbde67c: ldr             x1, [x1, #0x5e8]
     // 0xbde680: stur            x0, [fp, #-0x18]
     // 0xbde684: r0 = L()
-    //     0xbde684: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbde684: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbde688: r1 = "Tue"
     //     0xbde688: add             x1, PP, #0x37, lsl #12  ; [pp+0x375f0] "Tue"
     //     0xbde68c: ldr             x1, [x1, #0x5f0]
     // 0xbde690: stur            x0, [fp, #-0x20]
     // 0xbde694: r0 = L()
-    //     0xbde694: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbde694: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbde698: r1 = "Wed"
     //     0xbde698: add             x1, PP, #0x37, lsl #12  ; [pp+0x375f8] "Wed"
     //     0xbde69c: ldr             x1, [x1, #0x5f8]
     // 0xbde6a0: stur            x0, [fp, #-0x28]
     // 0xbde6a4: r0 = L()
-    //     0xbde6a4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbde6a4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbde6a8: r1 = "Thu"
     //     0xbde6a8: add             x1, PP, #0x37, lsl #12  ; [pp+0x37600] "Thu"
     //     0xbde6ac: ldr             x1, [x1, #0x600]
     // 0xbde6b0: stur            x0, [fp, #-0x30]
     // 0xbde6b4: r0 = L()
-    //     0xbde6b4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbde6b4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbde6b8: r1 = "Fri"
     //     0xbde6b8: add             x1, PP, #0x37, lsl #12  ; [pp+0x37608] "Fri"
     //     0xbde6bc: ldr             x1, [x1, #0x608]
     // 0xbde6c0: stur            x0, [fp, #-0x38]
     // 0xbde6c4: r0 = L()
-    //     0xbde6c4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbde6c4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbde6c8: r1 = "Sat"
     //     0xbde6c8: add             x1, PP, #0x37, lsl #12  ; [pp+0x37610] "Sat"
     //     0xbde6cc: ldr             x1, [x1, #0x610]
     // 0xbde6d0: stur            x0, [fp, #-0x40]
     // 0xbde6d4: r0 = L()
-    //     0xbde6d4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbde6d4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbde6d8: r1 = Null
     //     0xbde6d8: mov             x1, NULL
     // 0xbde6dc: r2 = 14
@@ -675,7 +675,7 @@ class DailyProgressEntry extends Object {
     // 0xbde9d4: DecompressPointer r1
     //     0xbde9d4: add             x1, x1, HEAP, lsl #32
     // 0xbde9d8: r0 = _shortWeekday()
-    //     0xbde9d8: bl              #0xbdec54  ; [package:ballai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::_shortWeekday
+    //     0xbde9d8: bl              #0xbdec54  ; [package:kourtai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::_shortWeekday
     // 0xbde9dc: ldur            x1, [fp, #-0x28]
     // 0xbde9e0: mov             x2, x0
     // 0xbde9e4: stur            x0, [fp, #-0x40]
@@ -805,7 +805,7 @@ class DailyProgressEntry extends Object {
     // 0xbdeb70: b               #0xbde99c
     // 0xbdeb74: ldur            x2, [fp, #-0x20]
     // 0xbdeb78: r1 = Function '<anonymous closure>': static.
-    //     0xbdeb78: add             x1, PP, #0x44, lsl #12  ; [pp+0x44e50] AnonymousClosure: static (0xbded84), in [package:ballai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::calculateDailyProgress (0xbde620)
+    //     0xbdeb78: add             x1, PP, #0x44, lsl #12  ; [pp+0x44e50] AnonymousClosure: static (0xbded84), in [package:kourtai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::calculateDailyProgress (0xbde620)
     //     0xbdeb7c: ldr             x1, [x1, #0xe50]
     // 0xbdeb80: r0 = AllocateClosure()
     //     0xbdeb80: bl              #0xe553e0  ; AllocateClosureStub
@@ -908,43 +908,43 @@ class DailyProgressEntry extends Object {
     //     0xbdec74: add             x1, PP, #0x37, lsl #12  ; [pp+0x375e8] "Mon"
     //     0xbdec78: ldr             x1, [x1, #0x5e8]
     // 0xbdec7c: r0 = L()
-    //     0xbdec7c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdec7c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdec80: r1 = "Tue"
     //     0xbdec80: add             x1, PP, #0x37, lsl #12  ; [pp+0x375f0] "Tue"
     //     0xbdec84: ldr             x1, [x1, #0x5f0]
     // 0xbdec88: stur            x0, [fp, #-0x10]
     // 0xbdec8c: r0 = L()
-    //     0xbdec8c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdec8c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdec90: r1 = "Wed"
     //     0xbdec90: add             x1, PP, #0x37, lsl #12  ; [pp+0x375f8] "Wed"
     //     0xbdec94: ldr             x1, [x1, #0x5f8]
     // 0xbdec98: stur            x0, [fp, #-0x18]
     // 0xbdec9c: r0 = L()
-    //     0xbdec9c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdec9c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdeca0: r1 = "Thu"
     //     0xbdeca0: add             x1, PP, #0x37, lsl #12  ; [pp+0x37600] "Thu"
     //     0xbdeca4: ldr             x1, [x1, #0x600]
     // 0xbdeca8: stur            x0, [fp, #-0x20]
     // 0xbdecac: r0 = L()
-    //     0xbdecac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdecac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdecb0: r1 = "Fri"
     //     0xbdecb0: add             x1, PP, #0x37, lsl #12  ; [pp+0x37608] "Fri"
     //     0xbdecb4: ldr             x1, [x1, #0x608]
     // 0xbdecb8: stur            x0, [fp, #-0x28]
     // 0xbdecbc: r0 = L()
-    //     0xbdecbc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdecbc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdecc0: r1 = "Sat"
     //     0xbdecc0: add             x1, PP, #0x37, lsl #12  ; [pp+0x37610] "Sat"
     //     0xbdecc4: ldr             x1, [x1, #0x610]
     // 0xbdecc8: stur            x0, [fp, #-0x30]
     // 0xbdeccc: r0 = L()
-    //     0xbdeccc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdeccc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdecd0: r1 = "Sun"
     //     0xbdecd0: add             x1, PP, #0x37, lsl #12  ; [pp+0x37618] "Sun"
     //     0xbdecd4: ldr             x1, [x1, #0x618]
     // 0xbdecd8: stur            x0, [fp, #-0x38]
     // 0xbdecdc: r0 = L()
-    //     0xbdecdc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdecdc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdece0: r1 = Null
     //     0xbdece0: mov             x1, NULL
     // 0xbdece4: r2 = 14
@@ -1052,7 +1052,7 @@ class DailyProgressEntry extends Object {
     //     0xbdedf8: ldur            d0, [x0, #7]
     // 0xbdedfc: ldur            x0, [fp, #-0x10]
     // 0xbdee00: r0 = _roundToTwoDecimalsIfNeeded()
-    //     0xbdee00: bl              #0xbdee6c  ; [package:ballai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::_roundToTwoDecimalsIfNeeded
+    //     0xbdee00: bl              #0xbdee6c  ; [package:kourtai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::_roundToTwoDecimalsIfNeeded
     // 0xbdee04: ldur            x0, [fp, #-0x10]
     // 0xbdee08: stur            d0, [fp, #-0x18]
     // 0xbdee0c: LoadField: r3 = r0->field_13
@@ -1196,7 +1196,7 @@ class DailyProgressEntry extends Object {
     //     0xbdef80: cmp             SP, x16
     //     0xbdef84: b.ls            #0xbdefb4
     // 0xbdef88: r1 = Function '<anonymous closure>': static.
-    //     0xbdef88: add             x1, PP, #0x44, lsl #12  ; [pp+0x44e60] AnonymousClosure: static (0xbdefbc), in [package:ballai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::forShots (0xbdef60)
+    //     0xbdef88: add             x1, PP, #0x44, lsl #12  ; [pp+0x44e60] AnonymousClosure: static (0xbdefbc), in [package:kourtai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::forShots (0xbdef60)
     //     0xbdef8c: ldr             x1, [x1, #0xe60]
     // 0xbdef90: r2 = Null
     //     0xbdef90: mov             x2, NULL
@@ -1206,7 +1206,7 @@ class DailyProgressEntry extends Object {
     // 0xbdef9c: mov             x2, x0
     // 0xbdefa0: ldur            x3, [fp, #-0x10]
     // 0xbdefa4: r0 = calculateDailyProgress()
-    //     0xbdefa4: bl              #0xbde620  ; [package:ballai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::calculateDailyProgress
+    //     0xbdefa4: bl              #0xbde620  ; [package:kourtai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::calculateDailyProgress
     // 0xbdefa8: LeaveFrame
     //     0xbdefa8: mov             SP, fp
     //     0xbdefac: ldp             fp, lr, [SP], #0x10
@@ -1265,7 +1265,7 @@ class DailyProgressEntry extends Object {
     //     0xbdf038: cmp             SP, x16
     //     0xbdf03c: b.ls            #0xbdf06c
     // 0xbdf040: r1 = Function '<anonymous closure>': static.
-    //     0xbdf040: add             x1, PP, #0x44, lsl #12  ; [pp+0x44e68] AnonymousClosure: static (0xbdf074), in [package:ballai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::forTime (0xbdf018)
+    //     0xbdf040: add             x1, PP, #0x44, lsl #12  ; [pp+0x44e68] AnonymousClosure: static (0xbdf074), in [package:kourtai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::forTime (0xbdf018)
     //     0xbdf044: ldr             x1, [x1, #0xe68]
     // 0xbdf048: r2 = Null
     //     0xbdf048: mov             x2, NULL
@@ -1275,7 +1275,7 @@ class DailyProgressEntry extends Object {
     // 0xbdf054: mov             x2, x0
     // 0xbdf058: ldur            x3, [fp, #-0x10]
     // 0xbdf05c: r0 = calculateDailyProgress()
-    //     0xbdf05c: bl              #0xbde620  ; [package:ballai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::calculateDailyProgress
+    //     0xbdf05c: bl              #0xbde620  ; [package:kourtai/automatic/models/client/charts/daily_progress_model.dart] DailyProgressEntry::calculateDailyProgress
     // 0xbdf060: LeaveFrame
     //     0xbdf060: mov             SP, fp
     //     0xbdf064: ldp             fp, lr, [SP], #0x10

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart
+// lib: , url: package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart
 
 // class id: 1048716, size: 0x8
 class :: {
@@ -78,7 +78,7 @@ class ActivityGoalWeekProgress extends Object {
     //     0x98c02c: ldur            w3, [x1, #7]
     // 0x98c030: cbz             w3, #0x98c050
     // 0x98c034: r1 = Function '<anonymous closure>': static.
-    //     0x98c034: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a498] AnonymousClosure: static (0x98c358), in [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
+    //     0x98c034: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a498] AnonymousClosure: static (0x98c358), in [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
     //     0x98c038: ldr             x1, [x1, #0x498]
     // 0x98c03c: r0 = AllocateClosure()
     //     0x98c03c: bl              #0xe553e0  ; AllocateClosureStub
@@ -96,7 +96,7 @@ class ActivityGoalWeekProgress extends Object {
     // 0x98c05c: DecompressPointer r1
     //     0x98c05c: add             x1, x1, HEAP, lsl #32
     // 0x98c060: r0 = DateTimeWeekRange.getWeekStartAndEnd()
-    //     0x98c060: bl              #0x5fb6d0  ; [package:ballai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
+    //     0x98c060: bl              #0x5fb6d0  ; [package:kourtai/automatic/utility/extensions/date/week_range.dart] ::DateTimeWeekRange.getWeekStartAndEnd
     // 0x98c064: mov             x2, x0
     // 0x98c068: mov             x3, x1
     // 0x98c06c: mov             x0, x2
@@ -119,7 +119,7 @@ class ActivityGoalWeekProgress extends Object {
     //     0x98c0a8: b.eq            #0x98c0b0
     //     0x98c0ac: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x98c0b0: r1 = Function '<anonymous closure>': static.
-    //     0x98c0b0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a4a0] AnonymousClosure: static (0x98c2b4), in [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
+    //     0x98c0b0: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a4a0] AnonymousClosure: static (0x98c2b4), in [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
     //     0x98c0b4: ldr             x1, [x1, #0x4a0]
     // 0x98c0b8: r0 = AllocateClosure()
     //     0x98c0b8: bl              #0xe553e0  ; AllocateClosureStub
@@ -129,7 +129,7 @@ class ActivityGoalWeekProgress extends Object {
     //     0x98c0c4: bl              #0x8c5098  ; [dart:_compact_hash] __Set&_HashVMBase&SetMixin::where
     // 0x98c0c8: stur            x0, [fp, #-8]
     // 0x98c0cc: r1 = Function '<anonymous closure>': static.
-    //     0x98c0cc: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a4a8] AnonymousClosure: static (0x98c270), in [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
+    //     0x98c0cc: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a4a8] AnonymousClosure: static (0x98c270), in [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
     //     0x98c0d0: ldr             x1, [x1, #0x4a8]
     // 0x98c0d4: r2 = Null
     //     0x98c0d4: mov             x2, NULL
@@ -145,7 +145,7 @@ class ActivityGoalWeekProgress extends Object {
     // 0x98c0f0: r0 = fold()
     //     0x98c0f0: bl              #0x852c70  ; [dart:core] Iterable::fold
     // 0x98c0f4: r1 = Function '<anonymous closure>': static.
-    //     0x98c0f4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a4b0] AnonymousClosure: static (0x98c22c), in [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
+    //     0x98c0f4: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a4b0] AnonymousClosure: static (0x98c22c), in [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
     //     0x98c0f8: ldr             x1, [x1, #0x4b0]
     // 0x98c0fc: r2 = Null
     //     0x98c0fc: mov             x2, NULL
@@ -162,7 +162,7 @@ class ActivityGoalWeekProgress extends Object {
     // 0x98c11c: r0 = fold()
     //     0x98c11c: bl              #0x852c70  ; [dart:core] Iterable::fold
     // 0x98c120: r1 = Function '<anonymous closure>': static.
-    //     0x98c120: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a4b8] AnonymousClosure: static (0x98bf84), in [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
+    //     0x98c120: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a4b8] AnonymousClosure: static (0x98bf84), in [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts (0x98bfe4)
     //     0x98c124: ldr             x1, [x1, #0x4b8]
     // 0x98c128: r2 = Null
     //     0x98c128: mov             x2, NULL
@@ -382,7 +382,7 @@ class ActivityGoalWeekProgress extends Object {
     // 0x98c388: DecompressPointer r1
     //     0x98c388: add             x1, x1, HEAP, lsl #32
     // 0x98c38c: r0 = WeeklyDateKey.generateWeeklyDateKey()
-    //     0x98c38c: bl              #0x9315c4  ; [package:ballai/automatic/utility/extensions/date/weekly_date_key.dart] ::WeeklyDateKey.generateWeeklyDateKey
+    //     0x98c38c: bl              #0x9315c4  ; [package:kourtai/automatic/utility/extensions/date/weekly_date_key.dart] ::WeeklyDateKey.generateWeeklyDateKey
     // 0x98c390: mov             x1, x0
     // 0x98c394: ldur            x0, [fp, #-8]
     // 0x98c398: LoadField: r2 = r0->field_f
@@ -426,7 +426,7 @@ class ActivityGoalWeekProgress extends Object {
     //     0xa321f8: b.ls            #0xa32410
     // 0xa321fc: mov             x1, x0
     // 0xa32200: r0 = fromWorkouts()
-    //     0xa32200: bl              #0x98bfe4  ; [package:ballai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts
+    //     0xa32200: bl              #0x98bfe4  ; [package:kourtai/automatic/utility/analytics/activity_goal_week_progress.dart] ActivityGoalWeekProgress::fromWorkouts
     // 0xa32204: mov             x3, x0
     // 0xa32208: ldur            x2, [fp, #-8]
     // 0xa3220c: LoadField: r4 = r2->field_7

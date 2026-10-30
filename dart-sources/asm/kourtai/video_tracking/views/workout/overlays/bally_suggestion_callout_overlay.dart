@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/workout/overlays/bally_suggestion_callout_overlay.dart
+// lib: , url: package:kourtai/video_tracking/views/workout/overlays/bally_suggestion_callout_overlay.dart
 
 // class id: 1049245, size: 0x8
 class :: {
@@ -367,7 +367,7 @@ class _PhaseCard extends StatelessWidget {
     // 0xc3dfd8: DecompressPointer r1
     //     0xc3dfd8: add             x1, x1, HEAP, lsl #32
     // 0xc3dfdc: r0 = progressFraction()
-    //     0xc3dfdc: bl              #0xc3e938  ; [package:ballai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::progressFraction
+    //     0xc3dfdc: bl              #0xc3e938  ; [package:kourtai/video_tracking/analysis/coach/suggestions/bally_suggestion_engine.dart] BallySuggestionEngine::progressFraction
     // 0xc3dfe0: r1 = <double>
     //     0xc3dfe0: ldr             x1, [PP, #0x3fa8]  ; [pp+0x3fa8] TypeArguments: <double>
     // 0xc3dfe4: stur            d0, [fp, #-0x40]
@@ -404,7 +404,7 @@ class _PhaseCard extends StatelessWidget {
     // 0xc3e040: StoreField: r3->field_1b = r0
     //     0xc3e040: stur            w0, [x3, #0x1b]
     // 0xc3e044: r1 = Function '<anonymous closure>':.
-    //     0xc3e044: add             x1, PP, #0x41, lsl #12  ; [pp+0x41408] AnonymousClosure: (0xc3ea28), in [package:ballai/video_tracking/views/workout/overlays/bally_suggestion_callout_overlay.dart] _PhaseCard::build (0xc3de54)
+    //     0xc3e044: add             x1, PP, #0x41, lsl #12  ; [pp+0x41408] AnonymousClosure: (0xc3ea28), in [package:kourtai/video_tracking/views/workout/overlays/bally_suggestion_callout_overlay.dart] _PhaseCard::build (0xc3de54)
     //     0xc3e048: ldr             x1, [x1, #0x408]
     // 0xc3e04c: r2 = Null
     //     0xc3e04c: mov             x2, NULL
@@ -440,7 +440,7 @@ class _PhaseCard extends StatelessWidget {
     //     0xc3e098: stur            w1, [x2, #0xb]
     // 0xc3e09c: ldur            x1, [fp, #-8]
     // 0xc3e0a0: r0 = _progressText()
-    //     0xc3e0a0: bl              #0xc3e75c  ; [package:ballai/video_tracking/views/workout/overlays/bally_suggestion_callout_overlay.dart] _PhaseCard::_progressText
+    //     0xc3e0a0: bl              #0xc3e75c  ; [package:kourtai/video_tracking/views/workout/overlays/bally_suggestion_callout_overlay.dart] _PhaseCard::_progressText
     // 0xc3e0a4: stur            x0, [fp, #-0x20]
     // 0xc3e0a8: r0 = Text()
     //     0xc3e0a8: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -456,7 +456,7 @@ class _PhaseCard extends StatelessWidget {
     //     0xc3e0c4: stur            w0, [x2, #0x13]
     // 0xc3e0c8: ldur            x1, [fp, #-8]
     // 0xc3e0cc: r0 = _metricLabel()
-    //     0xc3e0cc: bl              #0xc3e604  ; [package:ballai/video_tracking/views/workout/overlays/bally_suggestion_callout_overlay.dart] _PhaseCard::_metricLabel
+    //     0xc3e0cc: bl              #0xc3e604  ; [package:kourtai/video_tracking/views/workout/overlays/bally_suggestion_callout_overlay.dart] _PhaseCard::_metricLabel
     // 0xc3e0d0: stur            x0, [fp, #-0x20]
     // 0xc3e0d4: r16 = 0.850000
     //     0xc3e0d4: add             x16, PP, #0x1f, lsl #12  ; [pp+0x1f4c8] 0.85
@@ -685,7 +685,7 @@ class _PhaseCard extends StatelessWidget {
     //     0xc3e308: stur            w0, [x2, #0x23]
     // 0xc3e30c: ldur            x1, [fp, #-8]
     // 0xc3e310: r0 = _bottomText()
-    //     0xc3e310: bl              #0xc3e490  ; [package:ballai/video_tracking/views/workout/overlays/bally_suggestion_callout_overlay.dart] _PhaseCard::_bottomText
+    //     0xc3e310: bl              #0xc3e490  ; [package:kourtai/video_tracking/views/workout/overlays/bally_suggestion_callout_overlay.dart] _PhaseCard::_bottomText
     // 0xc3e314: stur            x0, [fp, #-8]
     // 0xc3e318: r0 = Text()
     //     0xc3e318: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1004,7 +1004,7 @@ class _PhaseCard extends StatelessWidget {
     //     0xc3e648: add             x1, PP, #0x29, lsl #12  ; [pp+0x29e98] "dribbles"
     //     0xc3e64c: ldr             x1, [x1, #0xe98]
     // 0xc3e650: r0 = L()
-    //     0xc3e650: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc3e650: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3e654: r1 = LoadClassIdInstr(r0)
     //     0xc3e654: ldur            x1, [x0, #-1]
     //     0xc3e658: ubfx            x1, x1, #0xc, #0x14
@@ -1023,7 +1023,7 @@ class _PhaseCard extends StatelessWidget {
     //     0xc3e67c: add             x1, PP, #0x29, lsl #12  ; [pp+0x29e88] "reps"
     //     0xc3e680: ldr             x1, [x1, #0xe88]
     // 0xc3e684: r0 = L()
-    //     0xc3e684: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc3e684: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3e688: r1 = LoadClassIdInstr(r0)
     //     0xc3e688: ldur            x1, [x0, #-1]
     //     0xc3e68c: ubfx            x1, x1, #0xc, #0x14
@@ -1042,7 +1042,7 @@ class _PhaseCard extends StatelessWidget {
     //     0xc3e6b0: add             x1, PP, #0x28, lsl #12  ; [pp+0x28628] "makes"
     //     0xc3e6b4: ldr             x1, [x1, #0x628]
     // 0xc3e6b8: r0 = L()
-    //     0xc3e6b8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc3e6b8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3e6bc: r1 = LoadClassIdInstr(r0)
     //     0xc3e6bc: ldur            x1, [x0, #-1]
     //     0xc3e6c0: ubfx            x1, x1, #0xc, #0x14
@@ -1063,7 +1063,7 @@ class _PhaseCard extends StatelessWidget {
     //     0xc3e6ec: add             x1, PP, #0x28, lsl #12  ; [pp+0x28d10] "shots"
     //     0xc3e6f0: ldr             x1, [x1, #0xd10]
     // 0xc3e6f4: r0 = L()
-    //     0xc3e6f4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc3e6f4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3e6f8: r1 = LoadClassIdInstr(r0)
     //     0xc3e6f8: ldur            x1, [x0, #-1]
     //     0xc3e6fc: ubfx            x1, x1, #0xc, #0x14
@@ -1082,7 +1082,7 @@ class _PhaseCard extends StatelessWidget {
     //     0xc3e720: add             x1, PP, #0x41, lsl #12  ; [pp+0x41440] "seconds left"
     //     0xc3e724: ldr             x1, [x1, #0x440]
     // 0xc3e728: r0 = L()
-    //     0xc3e728: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc3e728: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3e72c: r1 = LoadClassIdInstr(r0)
     //     0xc3e72c: ldur            x1, [x0, #-1]
     //     0xc3e730: ubfx            x1, x1, #0xc, #0x14
@@ -1378,7 +1378,7 @@ class _LoadingCard extends StatelessWidget {
     //     0xc3dce4: add             x1, PP, #0x41, lsl #12  ; [pp+0x413e8] "Loading next move..."
     //     0xc3dce8: ldr             x1, [x1, #0x3e8]
     // 0xc3dcec: r0 = L()
-    //     0xc3dcec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc3dcec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3dcf0: stur            x0, [fp, #-0x10]
     // 0xc3dcf4: r0 = Text()
     //     0xc3dcf4: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -1549,7 +1549,7 @@ class BallySuggestionCalloutOverlay extends StatelessWidget {
     // 0xc3daf0: mov             x2, x1
     // 0xc3daf4: stur            x3, [fp, #-0x10]
     // 0xc3daf8: r1 = Function '<anonymous closure>':.
-    //     0xc3daf8: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a930] AnonymousClosure: (0xc3db28), in [package:ballai/video_tracking/views/workout/overlays/bally_suggestion_callout_overlay.dart] BallySuggestionCalloutOverlay::build (0xc3dac4)
+    //     0xc3daf8: add             x1, PP, #0x3a, lsl #12  ; [pp+0x3a930] AnonymousClosure: (0xc3db28), in [package:kourtai/video_tracking/views/workout/overlays/bally_suggestion_callout_overlay.dart] BallySuggestionCalloutOverlay::build (0xc3dac4)
     //     0xc3dafc: ldr             x1, [x1, #0x930]
     // 0xc3db00: r0 = AllocateClosure()
     //     0xc3db00: bl              #0xe553e0  ; AllocateClosureStub

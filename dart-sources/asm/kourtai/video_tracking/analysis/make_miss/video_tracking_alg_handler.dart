@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart
+// lib: , url: package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart
 
 // class id: 1049111, size: 0x8
 class :: {
@@ -26,7 +26,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x703354: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x703358: cmp             SP, x16
     //     0x70335c: b.ls            #0x703720
-    // 0x703360: r0 = InitLateStaticField(0x1044) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_poseByFrame
+    // 0x703360: r0 = InitLateStaticField(0x1044) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_poseByFrame
     //     0x703360: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x703364: ldr             x0, [x0, #0x2088]
     //     0x703368: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -386,7 +386,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x714d90: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x714d94: cmp             SP, x16
     //     0x714d98: b.ls            #0x714dc8
-    // 0x714d9c: r0 = InitLateStaticField(0xe78) // [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
+    // 0x714d9c: r0 = InitLateStaticField(0xe78) // [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::instance
     //     0x714d9c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x714da0: ldr             x0, [x0, #0x1cf0]
     //     0x714da4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -470,11 +470,11 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x716fe4: mov             x2, x0
     // 0x716fe8: stur            x0, [fp, #-0x20]
     // 0x716fec: r0 = bestWristPoint()
-    //     0x716fec: bl              #0x7178a4  ; [package:ballai/video_tracking/analysis/form/release_angle_analyzer.dart] ReleaseAngleAnalyzer::bestWristPoint
+    //     0x716fec: bl              #0x7178a4  ; [package:kourtai/video_tracking/analysis/form/release_angle_analyzer.dart] ReleaseAngleAnalyzer::bestWristPoint
     // 0x716ff0: stur            x0, [fp, #-0x28]
     // 0x716ff4: cmp             w0, NULL
     // 0x716ff8: b.eq            #0x7170f0
-    // 0x716ffc: r0 = InitLateStaticField(0x103c) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_wristSamples
+    // 0x716ffc: r0 = InitLateStaticField(0x103c) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_wristSamples
     //     0x716ffc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x717000: ldr             x0, [x0, #0x2078]
     //     0x717004: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -561,11 +561,11 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x7170f0: ldur            x1, [fp, #-8]
     // 0x7170f4: ldur            x2, [fp, #-0x20]
     // 0x7170f8: r0 = bestElbowPoint()
-    //     0x7170f8: bl              #0x7176f0  ; [package:ballai/video_tracking/analysis/form/release_angle_analyzer.dart] ReleaseAngleAnalyzer::bestElbowPoint
+    //     0x7170f8: bl              #0x7176f0  ; [package:kourtai/video_tracking/analysis/form/release_angle_analyzer.dart] ReleaseAngleAnalyzer::bestElbowPoint
     // 0x7170fc: stur            x0, [fp, #-0x20]
     // 0x717100: cmp             w0, NULL
     // 0x717104: b.eq            #0x7171fc
-    // 0x717108: r0 = InitLateStaticField(0x1040) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_elbowSamples
+    // 0x717108: r0 = InitLateStaticField(0x1040) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_elbowSamples
     //     0x717108: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71710c: ldr             x0, [x0, #0x2080]
     //     0x717110: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -651,7 +651,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x7171f8: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0x7171fc: ldur            x2, [fp, #-0x18]
     // 0x717200: b               #0x716f9c
-    // 0x717204: r0 = InitLateStaticField(0x103c) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_wristSamples
+    // 0x717204: r0 = InitLateStaticField(0x103c) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_wristSamples
     //     0x717204: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x717208: ldr             x0, [x0, #0x2078]
     //     0x71720c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -672,7 +672,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x71723c: mov             x2, #0
     // 0x717240: r0 = removeRange()
     //     0x717240: bl              #0x717414  ; [dart:core] _GrowableList::removeRange
-    // 0x717244: r0 = InitLateStaticField(0x1040) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_elbowSamples
+    // 0x717244: r0 = InitLateStaticField(0x1040) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_elbowSamples
     //     0x717244: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x717248: ldr             x0, [x0, #0x2080]
     //     0x71724c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -694,7 +694,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x717280: r0 = removeRange()
     //     0x717280: bl              #0x717414  ; [dart:core] _GrowableList::removeRange
     // 0x717284: ldur            x1, [fp, #-0x10]
-    // 0x717288: r0 = InitLateStaticField(0x1044) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_poseByFrame
+    // 0x717288: r0 = InitLateStaticField(0x1044) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_poseByFrame
     //     0x717288: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71728c: ldr             x0, [x0, #0x2088]
     //     0x717290: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -900,12 +900,12 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x71aeb0: b.ls            #0x71b118
     // 0x71aeb4: mov             x1, x4
     // 0x71aeb8: r0 = scorePythonExact()
-    //     0x71aeb8: bl              #0x75c5c8  ; [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::scorePythonExact
+    //     0x71aeb8: bl              #0x75c5c8  ; [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::scorePythonExact
     // 0x71aebc: mov             x2, x0
     // 0x71aec0: stur            x2, [fp, #-0x20]
     // 0x71aec4: mov             x3, x1
     // 0x71aec8: stur            x3, [fp, #-0x18]
-    // 0x71aecc: r0 = InitLateStaticField(0x1038) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_frameSize
+    // 0x71aecc: r0 = InitLateStaticField(0x1038) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_frameSize
     //     0x71aecc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71aed0: ldr             x0, [x0, #0x2070]
     //     0x71aed4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -915,7 +915,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x71aee4: ldr             x2, [x2, #0xeb0]
     //     0x71aee8: bl              #0xe5425c  ; InitLateStaticFieldStub
     // 0x71aeec: stur            x0, [fp, #-0x28]
-    // 0x71aef0: r0 = InitLateStaticField(0x103c) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_wristSamples
+    // 0x71aef0: r0 = InitLateStaticField(0x103c) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_wristSamples
     //     0x71aef0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71aef4: ldr             x0, [x0, #0x2078]
     //     0x71aef8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -933,7 +933,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x71af20: r0 = List.from()
     //     0x71af20: bl              #0x5f9020  ; [dart:core] List::List.from
     // 0x71af24: stur            x0, [fp, #-0x30]
-    // 0x71af28: r0 = InitLateStaticField(0x1040) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_elbowSamples
+    // 0x71af28: r0 = InitLateStaticField(0x1040) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_elbowSamples
     //     0x71af28: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71af2c: ldr             x0, [x0, #0x2080]
     //     0x71af30: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -955,7 +955,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x71af64: ldur            x3, [fp, #-0x28]
     // 0x71af68: ldur            x5, [fp, #-0x30]
     // 0x71af6c: r0 = calculateReleaseTimeSeconds()
-    //     0x71af6c: bl              #0x7593e8  ; [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::calculateReleaseTimeSeconds
+    //     0x71af6c: bl              #0x7593e8  ; [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::calculateReleaseTimeSeconds
     // 0x71af70: stur            x0, [fp, #-0x28]
     // 0x71af74: cmp             w0, NULL
     // 0x71af78: b.eq            #0x71b014
@@ -1040,7 +1040,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x71b064: ldr             lr, [x21, lr, lsl #3]
     // 0x71b068: blr             lr
     // 0x71b06c: tbnz            w0, #4, #0x71b0b0
-    // 0x71b070: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x71b070: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x71b070: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71b074: ldr             x0, [x0, #0x20e0]
     //     0x71b078: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1075,7 +1075,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x71b0d0: StoreStaticField(0x104c, r0)
     //     0x71b0d0: ldr             x1, [THR, #0x68]  ; THR::field_table_values
     //     0x71b0d4: str             x0, [x1, #0x2098]
-    // 0x71b0d8: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x71b0d8: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x71b0d8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71b0dc: ldr             x0, [x0, #0x20e0]
     //     0x71b0e0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1088,7 +1088,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x71b0fc: ldur            x2, [fp, #-0x20]
     // 0x71b100: ldur            x3, [fp, #-0x28]
     // 0x71b104: r0 = _recordShot()
-    //     0x71b104: bl              #0x71b120  ; [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_recordShot
+    //     0x71b104: bl              #0x71b120  ; [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_recordShot
     // 0x71b108: r0 = true
     //     0x71b108: add             x0, NULL, #0x20  ; true
     // 0x71b10c: LeaveFrame
@@ -1115,7 +1115,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x71b138: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x71b13c: cmp             SP, x16
     //     0x71b140: b.ls            #0x71b704
-    // 0x71b144: r0 = InitLateStaticField(0x1030) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_manager
+    // 0x71b144: r0 = InitLateStaticField(0x1030) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_manager
     //     0x71b144: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71b148: ldr             x0, [x0, #0x2060]
     //     0x71b14c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1162,7 +1162,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x71b1d0: ldr             x4, [PP, #0x830]  ; [pp+0x830] List(7) [0, 0x2, 0x1, 0x1, "wrapWidth", 0x1, Null]
     // 0x71b1d4: r0 = debugPrintThrottled()
     //     0x71b1d4: bl              #0x5c96fc  ; [package:flutter/src/foundation/print.dart] ::debugPrintThrottled
-    // 0x71b1d8: r0 = InitLateStaticField(0xeec) // [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
+    // 0x71b1d8: r0 = InitLateStaticField(0xeec) // [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
     //     0x71b1d8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71b1dc: ldr             x0, [x0, #0x1dd8]
     //     0x71b1e0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1184,7 +1184,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x71b218: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x71b218: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x71b21c: r0 = speak()
-    //     0x71b21c: bl              #0x6d2cd4  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
+    //     0x71b21c: bl              #0x6d2cd4  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
     // 0x71b220: r0 = Null
     //     0x71b220: mov             x0, NULL
     // 0x71b224: LeaveFrame
@@ -1278,7 +1278,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x71b30c: StoreField: r0->field_b = r1
     //     0x71b30c: stur            x1, [x0, #0xb]
     // 0x71b310: r0 = randomPlaceholderPoint()
-    //     0x71b310: bl              #0x7591d8  ; [package:ballai/video_tracking/court_location/court_location_shot_capture.dart] CourtLocationShotCapture::randomPlaceholderPoint
+    //     0x71b310: bl              #0x7591d8  ; [package:kourtai/video_tracking/court_location/court_location_shot_capture.dart] CourtLocationShotCapture::randomPlaceholderPoint
     // 0x71b314: mov             x3, x0
     // 0x71b318: ldur            x0, [fp, #-0x40]
     // 0x71b31c: stur            x3, [fp, #-0x60]
@@ -1475,13 +1475,13 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x71b544: mov             x1, x4
     // 0x71b548: ldur            x2, [fp, #-0x70]
     // 0x71b54c: r0 = VideoWorkoutManagerWorkout.createShot()
-    //     0x71b54c: bl              #0x74e04c  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createShot
+    //     0x71b54c: bl              #0x74e04c  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.createShot
     // 0x71b550: ldur            x1, [fp, #-0x40]
     // 0x71b554: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x71b554: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x71b558: r0 = VideoWorkoutManagerWorkout.updateWorkoutSummary()
-    //     0x71b558: bl              #0x730074  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.updateWorkoutSummary
-    // 0x71b55c: r0 = InitLateStaticField(0xed4) // [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
+    //     0x71b558: bl              #0x730074  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.updateWorkoutSummary
+    // 0x71b55c: r0 = InitLateStaticField(0xed4) // [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::instance
     //     0x71b55c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71b560: ldr             x0, [x0, #0x1da8]
     //     0x71b564: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1503,7 +1503,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x71b59c: ldur            x4, [fp, #-8]
     // 0x71b5a0: ldur            x3, [fp, #-0x38]
     // 0x71b5a4: r0 = play()
-    //     0x71b5a4: bl              #0x7268c4  ; [package:ballai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::play
+    //     0x71b5a4: bl              #0x7268c4  ; [package:kourtai/video_tracking/session/feedback/event_sound_player.dart] EventSoundPlayer::play
     // 0x71b5a8: ldur            x0, [fp, #-0x38]
     // 0x71b5ac: LoadField: r1 = r0->field_13
     //     0x71b5ac: ldur            w1, [x0, #0x13]
@@ -1535,11 +1535,11 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x71b5f4: mov             x3, x4
     // 0x71b5f8: stur            x4, [fp, #-0x78]
     // 0x71b5fc: r0 = playCalloutForShot()
-    //     0x71b5fc: bl              #0x726098  ; [package:ballai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::playCalloutForShot
+    //     0x71b5fc: bl              #0x726098  ; [package:kourtai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::playCalloutForShot
     // 0x71b600: ldur            x1, [fp, #-0x40]
     // 0x71b604: ldur            x2, [fp, #-0x78]
     // 0x71b608: r0 = VideoWorkoutManagerSecondWorkoutUpsell.maybeSpeakSecondWorkoutJumperProUpsellTease()
-    //     0x71b608: bl              #0x725ec8  ; [package:ballai/video_tracking/manager/video_workout_manager_second_workout_upsell.dart] ::VideoWorkoutManagerSecondWorkoutUpsell.maybeSpeakSecondWorkoutJumperProUpsellTease
+    //     0x71b608: bl              #0x725ec8  ; [package:kourtai/video_tracking/manager/video_workout_manager_second_workout_upsell.dart] ::VideoWorkoutManagerSecondWorkoutUpsell.maybeSpeakSecondWorkoutJumperProUpsellTease
     // 0x71b60c: ldur            x2, [fp, #-8]
     // 0x71b610: LoadField: r0 = r2->field_b
     //     0x71b610: ldur            w0, [x2, #0xb]
@@ -1617,11 +1617,11 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x71b6dc: mov             x2, x1
     // 0x71b6e0: ldur            x1, [fp, #-0x18]
     // 0x71b6e4: r0 = setPendingCoachShot()
-    //     0x71b6e4: bl              #0x725e40  ; [package:ballai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::setPendingCoachShot
+    //     0x71b6e4: bl              #0x725e40  ; [package:kourtai/video_tracking/analysis/coach/video_coach_bridge.dart] VideoCoachBridge::setPendingCoachShot
     // 0x71b6e8: ldur            x1, [fp, #-0x60]
     // 0x71b6ec: ldur            x2, [fp, #-0x48]
     // 0x71b6f0: r0 = _enqueueCourtLocationGeminiRefinement()
-    //     0x71b6f0: bl              #0x71b750  ; [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_enqueueCourtLocationGeminiRefinement
+    //     0x71b6f0: bl              #0x71b750  ; [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_enqueueCourtLocationGeminiRefinement
     // 0x71b6f4: r0 = Null
     //     0x71b6f4: mov             x0, NULL
     // 0x71b6f8: LeaveFrame
@@ -1685,7 +1685,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x71b784: stur            x1, [fp, #-0x18]
     // 0x71b788: StoreField: r1->field_f = r0
     //     0x71b788: stur            w0, [x1, #0xf]
-    // 0x71b78c: r0 = InitLateStaticField(0x1030) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_manager
+    // 0x71b78c: r0 = InitLateStaticField(0x1030) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_manager
     //     0x71b78c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71b790: ldr             x0, [x0, #0x2060]
     //     0x71b794: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1700,7 +1700,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x71b7b4: DecompressPointer r1
     //     0x71b7b4: add             x1, x1, HEAP, lsl #32
     // 0x71b7b8: r0 = encodeJpegForGemini()
-    //     0x71b7b8: bl              #0x71cc3c  ; [package:ballai/video_tracking/court_location/court_location_shot_capture.dart] CourtLocationShotCapture::encodeJpegForGemini
+    //     0x71b7b8: bl              #0x71cc3c  ; [package:kourtai/video_tracking/court_location/court_location_shot_capture.dart] CourtLocationShotCapture::encodeJpegForGemini
     // 0x71b7bc: stur            x0, [fp, #-8]
     // 0x71b7c0: cmp             w0, NULL
     // 0x71b7c4: b.ne            #0x71b808
@@ -1760,7 +1760,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x71b85c: ldr             x4, [PP, #0x830]  ; [pp+0x830] List(7) [0, 0x2, 0x1, 0x1, "wrapWidth", 0x1, Null]
     // 0x71b860: r0 = debugPrintThrottled()
     //     0x71b860: bl              #0x5c96fc  ; [package:flutter/src/foundation/print.dart] ::debugPrintThrottled
-    // 0x71b864: r0 = InitLateStaticField(0x10a8) // [package:ballai/video_tracking/court_location/court_location_gemini_refinement_queue.dart] CourtLocationGeminiRefinementQueue::instance
+    // 0x71b864: r0 = InitLateStaticField(0x10a8) // [package:kourtai/video_tracking/court_location/court_location_gemini_refinement_queue.dart] CourtLocationGeminiRefinementQueue::instance
     //     0x71b864: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71b868: ldr             x0, [x0, #0x2150]
     //     0x71b86c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1777,7 +1777,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x71b890: add             x5, x5, HEAP, lsl #32
     // 0x71b894: stur            x5, [fp, #-0x20]
     // 0x71b898: r1 = Function '<anonymous closure>': static.
-    //     0x71b898: add             x1, PP, #0x31, lsl #12  ; [pp+0x31f10] AnonymousClosure: static (0x71ccfc), in [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_enqueueCourtLocationGeminiRefinement (0x71b750)
+    //     0x71b898: add             x1, PP, #0x31, lsl #12  ; [pp+0x31f10] AnonymousClosure: static (0x71ccfc), in [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_enqueueCourtLocationGeminiRefinement (0x71b750)
     //     0x71b89c: ldr             x1, [x1, #0xf10]
     // 0x71b8a0: r0 = AllocateClosure()
     //     0x71b8a0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1787,7 +1787,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x71b8b0: ldur            x5, [fp, #-0x20]
     // 0x71b8b4: ldur            x6, [fp, #-0x10]
     // 0x71b8b8: r0 = enqueue()
-    //     0x71b8b8: bl              #0x71b8d4  ; [package:ballai/video_tracking/court_location/court_location_gemini_refinement_queue.dart] CourtLocationGeminiRefinementQueue::enqueue
+    //     0x71b8b8: bl              #0x71b8d4  ; [package:kourtai/video_tracking/court_location/court_location_gemini_refinement_queue.dart] CourtLocationGeminiRefinementQueue::enqueue
     // 0x71b8bc: r0 = Null
     //     0x71b8bc: mov             x0, NULL
     // 0x71b8c0: LeaveFrame
@@ -1839,7 +1839,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x71cd68: InitAsync() -> Future<void?>
     //     0x71cd68: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x71cd6c: bl              #0x60afc8  ; InitAsyncStub
-    // 0x71cd70: r0 = InitLateStaticField(0x1030) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_manager
+    // 0x71cd70: r0 = InitLateStaticField(0x1030) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_manager
     //     0x71cd70: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x71cd74: ldr             x0, [x0, #0x2060]
     //     0x71cd78: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1904,7 +1904,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x71ce28: r2 = true
     //     0x71ce28: add             x2, NULL, #0x20  ; true
     // 0x71ce2c: r0 = _logGeminiOutcome()
-    //     0x71ce2c: bl              #0x71db8c  ; [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_logGeminiOutcome
+    //     0x71ce2c: bl              #0x71db8c  ; [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_logGeminiOutcome
     // 0x71ce30: r0 = Null
     //     0x71ce30: mov             x0, NULL
     // 0x71ce34: r0 = ReturnAsyncNotFuture()
@@ -1918,7 +1918,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x71ce48: mov             x2, x4
     // 0x71ce4c: stur            x6, [fp, #-0x30]
     // 0x71ce50: r1 = Function '<anonymous closure>': static.
-    //     0x71ce50: add             x1, PP, #0x31, lsl #12  ; [pp+0x31f18] AnonymousClosure: (0x71e360), in [package:ballai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage (0x71e3c8)
+    //     0x71ce50: add             x1, PP, #0x31, lsl #12  ; [pp+0x31f18] AnonymousClosure: (0x71e360), in [package:kourtai/automatic/viewmodels/home/you/direct_message_thread_view_model.dart] DirectMessageThreadViewModel::sendMessage (0x71e3c8)
     //     0x71ce54: ldr             x1, [x1, #0xf18]
     // 0x71ce58: r0 = AllocateClosure()
     //     0x71ce58: bl              #0xe553e0  ; AllocateClosureStub
@@ -1944,7 +1944,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x71ce90: r2 = true
     //     0x71ce90: add             x2, NULL, #0x20  ; true
     // 0x71ce94: r0 = _logGeminiOutcome()
-    //     0x71ce94: bl              #0x71db8c  ; [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_logGeminiOutcome
+    //     0x71ce94: bl              #0x71db8c  ; [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_logGeminiOutcome
     // 0x71ce98: r0 = Null
     //     0x71ce98: mov             x0, NULL
     // 0x71ce9c: r0 = ReturnAsyncNotFuture()
@@ -2199,7 +2199,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x71d144: add             x4, PP, #0x31, lsl #12  ; [pp+0x31f20] List(7) [0, 0x2, 0x1, 0x1, "shotList", 0x1, Null]
     //     0x71d148: ldr             x4, [x4, #0xf20]
     // 0x71d14c: r0 = copyWith()
-    //     0x71d14c: bl              #0x71d984  ; [package:ballai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::copyWith
+    //     0x71d14c: bl              #0x71d984  ; [package:kourtai/shared/models/workout/workout_summary_model.dart] WorkoutSummaryModel::copyWith
     // 0x71d150: ldur            x2, [fp, #-0x20]
     // 0x71d154: r17 = 331
     //     0x71d154: mov             x17, #0x14b
@@ -2233,7 +2233,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x71d1a8: mov             x1, x2
     // 0x71d1ac: mov             x2, x3
     // 0x71d1b0: r0 = VideoWorkoutManagerWorkout.updateShot()
-    //     0x71d1b0: bl              #0x71d230  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.updateShot
+    //     0x71d1b0: bl              #0x71d230  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.updateShot
     // 0x71d1b4: mov             x1, x0
     // 0x71d1b8: stur            x1, [fp, #-0x20]
     // 0x71d1bc: r0 = Await()
@@ -2252,7 +2252,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x71d1dc: r2 = false
     //     0x71d1dc: add             x2, NULL, #0x30  ; false
     // 0x71d1e0: r0 = _logGeminiOutcome()
-    //     0x71d1e0: bl              #0x71db8c  ; [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_logGeminiOutcome
+    //     0x71d1e0: bl              #0x71db8c  ; [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_logGeminiOutcome
     // 0x71d1e4: r0 = Null
     //     0x71d1e4: mov             x0, NULL
     // 0x71d1e8: r0 = ReturnAsyncNotFuture()
@@ -2983,7 +2983,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x732118: StoreStaticField(0x1038, r0)
     //     0x732118: ldr             x1, [THR, #0x68]  ; THR::field_table_values
     //     0x73211c: str             x0, [x1, #0x2070]
-    // 0x732120: r0 = InitLateStaticField(0x103c) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_wristSamples
+    // 0x732120: r0 = InitLateStaticField(0x103c) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_wristSamples
     //     0x732120: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x732124: ldr             x0, [x0, #0x2078]
     //     0x732128: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -2995,7 +2995,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x732140: mov             x1, x0
     // 0x732144: r0 = clear()
     //     0x732144: bl              #0x6103e0  ; [dart:core] _GrowableList::clear
-    // 0x732148: r0 = InitLateStaticField(0x1040) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_elbowSamples
+    // 0x732148: r0 = InitLateStaticField(0x1040) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_elbowSamples
     //     0x732148: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x73214c: ldr             x0, [x0, #0x2080]
     //     0x732150: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3007,7 +3007,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x732168: mov             x1, x0
     // 0x73216c: r0 = clear()
     //     0x73216c: bl              #0x6103e0  ; [dart:core] _GrowableList::clear
-    // 0x732170: r0 = InitLateStaticField(0x1044) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_poseByFrame
+    // 0x732170: r0 = InitLateStaticField(0x1044) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_poseByFrame
     //     0x732170: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x732174: ldr             x0, [x0, #0x2088]
     //     0x732178: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3032,7 +3032,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x7321b0: StoreStaticField(0x1054, r0)
     //     0x7321b0: ldr             x1, [THR, #0x68]  ; THR::field_table_values
     //     0x7321b4: str             x0, [x1, #0x20a8]
-    // 0x7321b8: r0 = InitLateStaticField(0x10a8) // [package:ballai/video_tracking/court_location/court_location_gemini_refinement_queue.dart] CourtLocationGeminiRefinementQueue::instance
+    // 0x7321b8: r0 = InitLateStaticField(0x10a8) // [package:kourtai/video_tracking/court_location/court_location_gemini_refinement_queue.dart] CourtLocationGeminiRefinementQueue::instance
     //     0x7321b8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x7321bc: ldr             x0, [x0, #0x2150]
     //     0x7321c0: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3043,11 +3043,11 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x7321d4: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x7321d8: mov             x1, x0
     // 0x7321dc: r0 = reset()
-    //     0x7321dc: bl              #0x732270  ; [package:ballai/video_tracking/court_location/court_location_gemini_refinement_queue.dart] CourtLocationGeminiRefinementQueue::reset
+    //     0x7321dc: bl              #0x732270  ; [package:kourtai/video_tracking/court_location/court_location_gemini_refinement_queue.dart] CourtLocationGeminiRefinementQueue::reset
     // 0x7321e0: r0 = reset()
-    //     0x7321e0: bl              #0x731e1c  ; [package:ballai/video_tracking/court_location/court_location_analyzer.dart] CourtLocationAnalyzer::reset
+    //     0x7321e0: bl              #0x731e1c  ; [package:kourtai/video_tracking/court_location/court_location_analyzer.dart] CourtLocationAnalyzer::reset
     // 0x7321e4: r0 = reset()
-    //     0x7321e4: bl              #0x731fc0  ; [package:ballai/video_tracking/analysis/make_miss/rim_net_motion_tracker.dart] RimNetMotionTracker::reset
+    //     0x7321e4: bl              #0x731fc0  ; [package:kourtai/video_tracking/analysis/make_miss/rim_net_motion_tracker.dart] RimNetMotionTracker::reset
     // 0x7321e8: r0 = InitLateStaticField(0x62c) // [package:flutter/src/foundation/print.dart] ::debugPrint
     //     0x7321e8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x7321ec: ldr             x0, [x0, #0xc58]
@@ -3064,7 +3064,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x732210: ldr             x4, [PP, #0x830]  ; [pp+0x830] List(7) [0, 0x2, 0x1, 0x1, "wrapWidth", 0x1, Null]
     // 0x732214: r0 = debugPrintThrottled()
     //     0x732214: bl              #0x5c96fc  ; [package:flutter/src/foundation/print.dart] ::debugPrintThrottled
-    // 0x732218: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x732218: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x732218: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x73221c: ldr             x0, [x0, #0x20e0]
     //     0x732220: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3073,7 +3073,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x73222c: add             x2, PP, #0x28, lsl #12  ; [pp+0x28030] Field <::.shotAnalyzerLoggingEnabled>: static late (offset: 0x1070)
     //     0x732230: ldr             x2, [x2, #0x30]
     //     0x732234: bl              #0xe5425c  ; InitLateStaticFieldStub
-    // 0x732238: r0 = InitLateStaticField(0x1030) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_manager
+    // 0x732238: r0 = InitLateStaticField(0x1030) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_manager
     //     0x732238: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x73223c: ldr             x0, [x0, #0x2060]
     //     0x732240: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3114,7 +3114,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x75c5f8: LoadField: r2 = r0->field_b
     //     0x75c5f8: ldur            w2, [x0, #0xb]
     // 0x75c5fc: cbnz            w2, #0x75c638
-    // 0x75c600: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x75c600: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x75c600: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x75c604: ldr             x0, [x0, #0x20e0]
     //     0x75c608: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3133,7 +3133,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x75c630: ldp             fp, lr, [SP], #0x10
     // 0x75c634: ret
     //     0x75c634: ret             
-    // 0x75c638: r0 = InitLateStaticField(0x1030) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_manager
+    // 0x75c638: r0 = InitLateStaticField(0x1030) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_manager
     //     0x75c638: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x75c63c: ldr             x0, [x0, #0x2060]
     //     0x75c640: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3144,7 +3144,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x75c654: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x75c658: mov             x1, x0
     // 0x75c65c: r0 = effectiveSelectedHoop()
-    //     0x75c65c: bl              #0x779264  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
+    //     0x75c65c: bl              #0x779264  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::effectiveSelectedHoop
     // 0x75c660: cmp             w0, NULL
     // 0x75c664: b.ne            #0x75c6a8
     // 0x75c668: ldur            x1, [fp, #-0x10]
@@ -3153,7 +3153,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x75c674: r0 = Null
     //     0x75c674: mov             x0, NULL
     // 0x75c678: b               #0x75c6a8
-    // 0x75c67c: r0 = InitLateStaticField(0x1038) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_frameSize
+    // 0x75c67c: r0 = InitLateStaticField(0x1038) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_frameSize
     //     0x75c67c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x75c680: ldr             x0, [x0, #0x2070]
     //     0x75c684: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3165,10 +3165,10 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x75c69c: ldur            x1, [fp, #-0x10]
     // 0x75c6a0: mov             x2, x0
     // 0x75c6a4: r0 = asObjectDetection()
-    //     0x75c6a4: bl              #0x715018  ; [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopGeometry::asObjectDetection
+    //     0x75c6a4: bl              #0x715018  ; [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopGeometry::asObjectDetection
     // 0x75c6a8: cmp             w0, NULL
     // 0x75c6ac: b.ne            #0x75c718
-    // 0x75c6b0: r0 = InitLateStaticField(0x1078) // [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::instance
+    // 0x75c6b0: r0 = InitLateStaticField(0x1078) // [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopTracker::instance
     //     0x75c6b0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x75c6b4: ldr             x0, [x0, #0x20f0]
     //     0x75c6b8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3187,7 +3187,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x75c6e4: r0 = Null
     //     0x75c6e4: mov             x0, NULL
     // 0x75c6e8: b               #0x75c718
-    // 0x75c6ec: r0 = InitLateStaticField(0x1038) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_frameSize
+    // 0x75c6ec: r0 = InitLateStaticField(0x1038) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_frameSize
     //     0x75c6ec: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x75c6f0: ldr             x0, [x0, #0x2070]
     //     0x75c6f4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3199,18 +3199,18 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x75c70c: ldur            x1, [fp, #-0x28]
     // 0x75c710: mov             x2, x0
     // 0x75c714: r0 = asObjectDetection()
-    //     0x75c714: bl              #0x715018  ; [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopGeometry::asObjectDetection
+    //     0x75c714: bl              #0x715018  ; [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopGeometry::asObjectDetection
     // 0x75c718: cmp             w0, NULL
     // 0x75c71c: b.ne            #0x75c76c
     // 0x75c720: r0 = _stableFromSelectedHoop()
-    //     0x75c720: bl              #0x75dad4  ; [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_stableFromSelectedHoop
+    //     0x75c720: bl              #0x75dad4  ; [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_stableFromSelectedHoop
     // 0x75c724: stur            x0, [fp, #-0x28]
     // 0x75c728: cmp             w0, NULL
     // 0x75c72c: b.ne            #0x75c738
     // 0x75c730: r0 = Null
     //     0x75c730: mov             x0, NULL
     // 0x75c734: b               #0x75c764
-    // 0x75c738: r0 = InitLateStaticField(0x1038) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_frameSize
+    // 0x75c738: r0 = InitLateStaticField(0x1038) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_frameSize
     //     0x75c738: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x75c73c: ldr             x0, [x0, #0x2070]
     //     0x75c740: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3222,14 +3222,14 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x75c758: ldur            x1, [fp, #-0x28]
     // 0x75c75c: mov             x2, x0
     // 0x75c760: r0 = asObjectDetection()
-    //     0x75c760: bl              #0x715018  ; [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopGeometry::asObjectDetection
+    //     0x75c760: bl              #0x715018  ; [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopGeometry::asObjectDetection
     // 0x75c764: mov             x1, x0
     // 0x75c768: b               #0x75c770
     // 0x75c76c: mov             x1, x0
     // 0x75c770: stur            x1, [fp, #-0x28]
     // 0x75c774: cmp             w1, NULL
     // 0x75c778: b.ne            #0x75c7b4
-    // 0x75c77c: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x75c77c: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x75c77c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x75c780: ldr             x0, [x0, #0x20e0]
     //     0x75c784: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3248,7 +3248,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x75c7ac: ldp             fp, lr, [SP], #0x10
     // 0x75c7b0: ret
     //     0x75c7b0: ret             
-    // 0x75c7b4: r0 = InitLateStaticField(0x1038) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_frameSize
+    // 0x75c7b4: r0 = InitLateStaticField(0x1038) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_frameSize
     //     0x75c7b4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x75c7b8: ldr             x0, [x0, #0x2070]
     //     0x75c7bc: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3260,7 +3260,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x75c7d4: ldur            x1, [fp, #-0x28]
     // 0x75c7d8: mov             x2, x0
     // 0x75c7dc: r0 = pixelBoundingBox()
-    //     0x75c7dc: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x75c7dc: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x75c7e0: stur            x0, [fp, #-0x30]
     // 0x75c7e4: r2 = LoadStaticField(0x1038)
     //     0x75c7e4: ldr             x2, [THR, #0x68]  ; THR::field_table_values
@@ -3268,7 +3268,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x75c7ec: ldur            x1, [fp, #-8]
     // 0x75c7f0: ldur            x3, [fp, #-0x28]
     // 0x75c7f4: r0 = ballClosestToRimTopAbove()
-    //     0x75c7f4: bl              #0x75d4f0  ; [package:ballai/video_tracking/analysis/make_miss/size_gate_debug.dart] SizeGateDebug::ballClosestToRimTopAbove
+    //     0x75c7f4: bl              #0x75d4f0  ; [package:kourtai/video_tracking/analysis/make_miss/size_gate_debug.dart] SizeGateDebug::ballClosestToRimTopAbove
     // 0x75c7f8: cmp             w0, NULL
     // 0x75c7fc: b.ne            #0x75c810
     // 0x75c800: ldur            x1, [fp, #-8]
@@ -3282,7 +3282,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x75c818: ldr             x2, [THR, #0x68]  ; THR::field_table_values
     //     0x75c81c: ldr             x2, [x2, #0x2070]
     // 0x75c820: r0 = pixelSize()
-    //     0x75c820: bl              #0x75d48c  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelSize
+    //     0x75c820: bl              #0x75d48c  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelSize
     // 0x75c824: mov             x1, x0
     // 0x75c828: ldur            x0, [fp, #-0x18]
     // 0x75c82c: cmp             w0, NULL
@@ -3499,14 +3499,14 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x75cab0: ldr             x2, [x2, #0x2070]
     // 0x75cab4: ldur            x1, [fp, #-8]
     // 0x75cab8: r0 = positionsAfterLastUpwardMove()
-    //     0x75cab8: bl              #0x75d318  ; [package:ballai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::positionsAfterLastUpwardMove
+    //     0x75cab8: bl              #0x75d318  ; [package:kourtai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::positionsAfterLastUpwardMove
     // 0x75cabc: stur            x0, [fp, #-0x18]
     // 0x75cac0: r2 = LoadStaticField(0x1038)
     //     0x75cac0: ldr             x2, [THR, #0x68]  ; THR::field_table_values
     //     0x75cac4: ldr             x2, [x2, #0x2070]
     // 0x75cac8: ldur            x1, [fp, #-8]
     // 0x75cacc: r0 = lastMoveWasUpward()
-    //     0x75cacc: bl              #0x75d1e0  ; [package:ballai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::lastMoveWasUpward
+    //     0x75cacc: bl              #0x75d1e0  ; [package:kourtai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::lastMoveWasUpward
     // 0x75cad0: mov             x3, x0
     // 0x75cad4: ldur            x2, [fp, #-0x18]
     // 0x75cad8: stur            x3, [fp, #-0x30]
@@ -3537,7 +3537,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x75cb2c: ldr             x2, [x2, #0x2070]
     // 0x75cb30: mov             x1, x3
     // 0x75cb34: r0 = lastMoveWasUpward()
-    //     0x75cb34: bl              #0x75d1e0  ; [package:ballai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::lastMoveWasUpward
+    //     0x75cb34: bl              #0x75d1e0  ; [package:kourtai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::lastMoveWasUpward
     // 0x75cb38: eor             x3, x0, #0x10
     // 0x75cb3c: ldur            x1, [fp, #-0x10]
     // 0x75cb40: stur            x3, [fp, #-0x18]
@@ -3550,7 +3550,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x75cb54: ldr             x2, [THR, #0x68]  ; THR::field_table_values
     //     0x75cb58: ldr             x2, [x2, #0x2070]
     // 0x75cb5c: r0 = asObjectDetection()
-    //     0x75cb5c: bl              #0x715018  ; [package:ballai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopGeometry::asObjectDetection
+    //     0x75cb5c: bl              #0x715018  ; [package:kourtai/video_tracking/analysis/make_miss/stable_hoop_geometry.dart] StableHoopGeometry::asObjectDetection
     // 0x75cb60: mov             x3, x0
     // 0x75cb64: ldur            x2, [fp, #-8]
     // 0x75cb68: stur            x3, [fp, #-0x10]
@@ -3575,7 +3575,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x75cba4: add             x4, PP, #0x32, lsl #12  ; [pp+0x32ba8] List(7) [0, 0x4, 0x1, 0x3, "allowPathCross", 0x3, Null]
     //     0x75cba8: ldr             x4, [x4, #0xba8]
     // 0x75cbac: r0 = ballOccupiedRimBox()
-    //     0x75cbac: bl              #0x75cd68  ; [package:ballai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::ballOccupiedRimBox
+    //     0x75cbac: bl              #0x75cd68  ; [package:kourtai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::ballOccupiedRimBox
     // 0x75cbb0: tbz             w0, #4, #0x75cbe4
     // 0x75cbb4: ldur            x3, [fp, #-0x10]
     // 0x75cbb8: cmp             w3, NULL
@@ -3590,9 +3590,9 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x75cbd4: add             x4, PP, #0x32, lsl #12  ; [pp+0x32ba8] List(7) [0, 0x4, 0x1, 0x3, "allowPathCross", 0x3, Null]
     //     0x75cbd8: ldr             x4, [x4, #0xba8]
     // 0x75cbdc: r0 = ballOccupiedRimBox()
-    //     0x75cbdc: bl              #0x75cd68  ; [package:ballai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::ballOccupiedRimBox
+    //     0x75cbdc: bl              #0x75cd68  ; [package:kourtai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::ballOccupiedRimBox
     // 0x75cbe0: tbnz            w0, #4, #0x75cc1c
-    // 0x75cbe4: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x75cbe4: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x75cbe4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x75cbe8: ldr             x0, [x0, #0x20e0]
     //     0x75cbec: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3602,7 +3602,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x75cbfc: ldr             x2, [x2, #0x30]
     //     0x75cc00: bl              #0xe5425c  ; InitLateStaticFieldStub
     // 0x75cc04: r0 = pulseHighlight()
-    //     0x75cc04: bl              #0x75ccf8  ; [package:ballai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::pulseHighlight
+    //     0x75cc04: bl              #0x75ccf8  ; [package:kourtai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::pulseHighlight
     // 0x75cc08: r0 = true
     //     0x75cc08: add             x0, NULL, #0x20  ; true
     // 0x75cc0c: r1 = Null
@@ -3613,7 +3613,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x75cc18: ret
     //     0x75cc18: ret             
     // 0x75cc1c: ldur            x0, [fp, #-0x20]
-    // 0x75cc20: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x75cc20: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x75cc20: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x75cc24: ldr             x0, [x0, #0x20e0]
     //     0x75cc28: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3705,7 +3705,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x75dae0: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x75dae4: cmp             SP, x16
     //     0x75dae8: b.ls            #0x75dc2c
-    // 0x75daec: r0 = InitLateStaticField(0x1030) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_manager
+    // 0x75daec: r0 = InitLateStaticField(0x1030) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_manager
     //     0x75daec: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x75daf0: ldr             x0, [x0, #0x2060]
     //     0x75daf4: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3716,11 +3716,11 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x75db08: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x75db0c: mov             x1, x0
     // 0x75db10: r0 = selectedHoop()
-    //     0x75db10: bl              #0x716014  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::selectedHoop
+    //     0x75db10: bl              #0x716014  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::selectedHoop
     // 0x75db14: stur            x0, [fp, #-8]
     // 0x75db18: cmp             w0, NULL
     // 0x75db1c: b.eq            #0x75db5c
-    // 0x75db20: r0 = InitLateStaticField(0x1038) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_frameSize
+    // 0x75db20: r0 = InitLateStaticField(0x1038) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_frameSize
     //     0x75db20: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x75db24: ldr             x0, [x0, #0x2070]
     //     0x75db28: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3749,14 +3749,14 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x75db6c: ldur            x1, [fp, #-8]
     // 0x75db70: mov             x2, x0
     // 0x75db74: r0 = pixelCenter()
-    //     0x75db74: bl              #0x7157cc  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
+    //     0x75db74: bl              #0x7157cc  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelCenter
     // 0x75db78: stur            x0, [fp, #-0x10]
     // 0x75db7c: r2 = LoadStaticField(0x1038)
     //     0x75db7c: ldr             x2, [THR, #0x68]  ; THR::field_table_values
     //     0x75db80: ldr             x2, [x2, #0x2070]
     // 0x75db84: ldur            x1, [fp, #-8]
     // 0x75db88: r0 = pixelSize()
-    //     0x75db88: bl              #0x75d48c  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelSize
+    //     0x75db88: bl              #0x75d48c  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelSize
     // 0x75db8c: LoadField: d0 = r0->field_7
     //     0x75db8c: ldur            d0, [x0, #7]
     // 0x75db90: stur            d0, [fp, #-0x38]
@@ -3857,7 +3857,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x766afc: StoreStaticField(0x1048, r1)
     //     0x766afc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x766b00: str             x1, [x0, #0x2090]
-    // 0x766b04: r0 = InitLateStaticField(0x1070) // [package:ballai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
+    // 0x766b04: r0 = InitLateStaticField(0x1070) // [package:kourtai/video_tracking/analysis/make_miss/shot_analyzer_log.dart] ::shotAnalyzerLoggingEnabled
     //     0x766b04: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x766b08: ldr             x0, [x0, #0x20e0]
     //     0x766b0c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3866,7 +3866,7 @@ abstract class VideoTrackingAlgHandler extends Object {
     //     0x766b18: add             x2, PP, #0x28, lsl #12  ; [pp+0x28030] Field <::.shotAnalyzerLoggingEnabled>: static late (offset: 0x1070)
     //     0x766b1c: ldr             x2, [x2, #0x30]
     //     0x766b20: bl              #0xe5425c  ; InitLateStaticFieldStub
-    // 0x766b24: r0 = InitLateStaticField(0x1030) // [package:ballai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_manager
+    // 0x766b24: r0 = InitLateStaticField(0x1030) // [package:kourtai/video_tracking/analysis/make_miss/video_tracking_alg_handler.dart] VideoTrackingAlgHandler::_manager
     //     0x766b24: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x766b28: ldr             x0, [x0, #0x2060]
     //     0x766b2c: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3908,8 +3908,8 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x766b94: tbz             w1, #4, #0x766ba0
     // 0x766b98: ldur            x1, [fp, #-8]
     // 0x766b9c: r0 = VideoWorkoutManagerWorkout.flipLastShotResult()
-    //     0x766b9c: bl              #0x766bf0  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.flipLastShotResult
-    // 0x766ba0: r0 = InitLateStaticField(0xeec) // [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
+    //     0x766b9c: bl              #0x766bf0  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerWorkout.flipLastShotResult
+    // 0x766ba0: r0 = InitLateStaticField(0xeec) // [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
     //     0x766ba0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x766ba4: ldr             x0, [x0, #0x1dd8]
     //     0x766ba8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -3925,9 +3925,9 @@ abstract class VideoTrackingAlgHandler extends Object {
     // 0x766bcc: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x766bcc: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x766bd0: r0 = speak()
-    //     0x766bd0: bl              #0x6d2cd4  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
+    //     0x766bd0: bl              #0x6d2cd4  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
     // 0x766bd4: r0 = pulseHighlight()
-    //     0x766bd4: bl              #0x75ccf8  ; [package:ballai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::pulseHighlight
+    //     0x766bd4: bl              #0x75ccf8  ; [package:kourtai/video_tracking/analysis/make_miss/rim_box_make_rule.dart] RimBoxMakeRule::pulseHighlight
     // 0x766bd8: r0 = true
     //     0x766bd8: add             x0, NULL, #0x20  ; true
     // 0x766bdc: LeaveFrame

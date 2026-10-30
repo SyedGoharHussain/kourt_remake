@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/findfriends/find_friends_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/findfriends/find_friends_view.dart
 
 // class id: 1049018, size: 0x8
 class :: {
@@ -61,7 +61,7 @@ class _FindFriendsViewState extends State<dynamic> {
     // 0x984a98: ldur            x3, [fp, #-0x18]
     // 0x984a9c: stur            x0, [fp, #-0x10]
     // 0x984aa0: r0 = FindFriendsViewModel()
-    //     0x984aa0: bl              #0x985310  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::FindFriendsViewModel
+    //     0x984aa0: bl              #0x985310  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::FindFriendsViewModel
     // 0x984aa4: ldur            x3, [fp, #-8]
     // 0x984aa8: LoadField: r0 = r3->field_13
     //     0x984aa8: ldur            w0, [x3, #0x13]
@@ -82,7 +82,7 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0x984ad8: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x984adc: mov             x2, x3
     // 0x984ae0: r1 = Function '_onVm@1264383712':.
-    //     0x984ae0: add             x1, PP, #0x55, lsl #12  ; [pp+0x551b8] AnonymousClosure: (0x985cb8), in [package:ballai/automatic/views/home/tab/tabs/you/findfriends/find_friends_view.dart] _FindFriendsViewState::_onVm (0x985cf0)
+    //     0x984ae0: add             x1, PP, #0x55, lsl #12  ; [pp+0x551b8] AnonymousClosure: (0x985cb8), in [package:kourtai/automatic/views/home/tab/tabs/you/findfriends/find_friends_view.dart] _FindFriendsViewState::_onVm (0x985cf0)
     //     0x984ae4: ldr             x1, [x1, #0x1b8]
     // 0x984ae8: r0 = AllocateClosure()
     //     0x984ae8: bl              #0xe553e0  ; AllocateClosureStub
@@ -96,7 +96,7 @@ class _FindFriendsViewState extends State<dynamic> {
     // 0x984b00: DecompressPointer r1
     //     0x984b00: add             x1, x1, HEAP, lsl #32
     // 0x984b04: r0 = loadSuggestedUsers()
-    //     0x984b04: bl              #0x984b5c  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::loadSuggestedUsers
+    //     0x984b04: bl              #0x984b5c  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::loadSuggestedUsers
     // 0x984b08: r0 = Null
     //     0x984b08: mov             x0, NULL
     // 0x984b0c: LeaveFrame
@@ -134,7 +134,7 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0x985cd0: cmp             SP, x16
     //     0x985cd4: b.ls            #0x985ce8
     // 0x985cd8: r0 = _onVm()
-    //     0x985cd8: bl              #0x985cf0  ; [package:ballai/automatic/views/home/tab/tabs/you/findfriends/find_friends_view.dart] _FindFriendsViewState::_onVm
+    //     0x985cd8: bl              #0x985cf0  ; [package:kourtai/automatic/views/home/tab/tabs/you/findfriends/find_friends_view.dart] _FindFriendsViewState::_onVm
     // 0x985cdc: LeaveFrame
     //     0x985cdc: mov             SP, fp
     //     0x985ce0: ldp             fp, lr, [SP], #0x10
@@ -222,7 +222,7 @@ class _FindFriendsViewState extends State<dynamic> {
     // 0x985db0: DecompressPointer r1
     //     0x985db0: add             x1, x1, HEAP, lsl #32
     // 0x985db4: r0 = clearError()
-    //     0x985db4: bl              #0x985df8  ; [package:ballai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::clearError
+    //     0x985db4: bl              #0x985df8  ; [package:kourtai/automatic/viewmodels/home/teams/browse_teams_list_view_model.dart] BrowseTeamsListViewModel::clearError
     // 0x985db8: r1 = Function '<anonymous closure>':.
     //     0x985db8: add             x1, PP, #0x55, lsl #12  ; [pp+0x551c0] Function: [dart:ui] _NativeScene::_NativeScene._ (0xe4f314)
     //     0x985dbc: ldr             x1, [x1, #0x1c0]
@@ -305,7 +305,7 @@ class _FindFriendsViewState extends State<dynamic> {
     // 0xa94cbc: cmp             w1, w16
     // 0xa94cc0: b.eq            #0xa959f4
     // 0xa94cc4: r0 = visibleSearchResults()
-    //     0xa94cc4: bl              #0xa95f74  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::visibleSearchResults
+    //     0xa94cc4: bl              #0xa95f74  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::visibleSearchResults
     // 0xa94cc8: mov             x2, x0
     // 0xa94ccc: b               #0xa94cf0
     // 0xa94cd0: ldur            x0, [fp, #-8]
@@ -318,7 +318,7 @@ class _FindFriendsViewState extends State<dynamic> {
     // 0xa94ce0: cmp             w1, w16
     // 0xa94ce4: b.eq            #0xa95a00
     // 0xa94ce8: r0 = suggestedUsersToShow()
-    //     0xa94ce8: bl              #0xa95e80  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::suggestedUsersToShow
+    //     0xa94ce8: bl              #0xa95e80  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::suggestedUsersToShow
     // 0xa94cec: mov             x2, x0
     // 0xa94cf0: ldur            x0, [fp, #-0x10]
     // 0xa94cf4: stur            x2, [fp, #-0x20]
@@ -364,30 +364,30 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0xa94d58: ldur            w1, [x3, #0x13]
     // 0xa94d5c: DecompressPointer r1
     //     0xa94d5c: add             x1, x1, HEAP, lsl #32
-    // 0xa94d60: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xa94d60: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xa94d60: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xa94d60: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xa94d64: ldur            x2, [fp, #-0x18]
     // 0xa94d68: stur            x0, [fp, #-0x30]
     // 0xa94d6c: LoadField: r1 = r2->field_13
     //     0xa94d6c: ldur            w1, [x2, #0x13]
     // 0xa94d70: DecompressPointer r1
     //     0xa94d70: add             x1, x1, HEAP, lsl #32
-    // 0xa94d74: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0xa94d74: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0xa94d74: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0xa94d74: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0xa94d78: r1 = "Find Ballers"
     //     0xa94d78: add             x1, PP, #0x4d, lsl #12  ; [pp+0x4d330] "Find Ballers"
     //     0xa94d7c: ldr             x1, [x1, #0x330]
     // 0xa94d80: stur            x0, [fp, #-0x38]
     // 0xa94d84: r0 = L()
-    //     0xa94d84: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa94d84: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa94d88: ldur            x2, [fp, #-0x18]
     // 0xa94d8c: stur            x0, [fp, #-0x40]
     // 0xa94d90: LoadField: r1 = r2->field_13
     //     0xa94d90: ldur            w1, [x2, #0x13]
     // 0xa94d94: DecompressPointer r1
     //     0xa94d94: add             x1, x1, HEAP, lsl #32
-    // 0xa94d98: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa94d98: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa94d98: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa94d98: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa94d9c: stur            x0, [fp, #-0x48]
     // 0xa94da0: r0 = TextStyle()
     //     0xa94da0: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -458,8 +458,8 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0xa94e50: ldur            w1, [x3, #0x13]
     // 0xa94e54: DecompressPointer r1
     //     0xa94e54: add             x1, x1, HEAP, lsl #32
-    // 0xa94e58: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa94e58: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa94e58: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa94e58: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa94e5c: stur            x0, [fp, #-0x48]
     // 0xa94e60: r0 = TextStyle()
     //     0xa94e60: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -486,15 +486,15 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0xa94e94: add             x1, PP, #0x54, lsl #12  ; [pp+0x54fb0] "Name or ball tag"
     //     0xa94e98: ldr             x1, [x1, #0xfb0]
     // 0xa94e9c: r0 = L()
-    //     0xa94e9c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa94e9c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa94ea0: ldur            x2, [fp, #-0x18]
     // 0xa94ea4: stur            x0, [fp, #-0x48]
     // 0xa94ea8: LoadField: r1 = r2->field_13
     //     0xa94ea8: ldur            w1, [x2, #0x13]
     // 0xa94eac: DecompressPointer r1
     //     0xa94eac: add             x1, x1, HEAP, lsl #32
-    // 0xa94eb0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa94eb0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa94eb0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa94eb0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa94eb4: stur            x0, [fp, #-0x58]
     // 0xa94eb8: r0 = TextStyle()
     //     0xa94eb8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -522,8 +522,8 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0xa94ef0: ldur            w1, [x4, #0x13]
     // 0xa94ef4: DecompressPointer r1
     //     0xa94ef4: add             x1, x1, HEAP, lsl #32
-    // 0xa94ef8: r0 = BallAiThemeContext.ballAiElevatedCardBackground()
-    //     0xa94ef8: bl              #0x9d7e30  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiElevatedCardBackground
+    // 0xa94ef8: r0 = KourtAiThemeContext.kourtAiElevatedCardBackground()
+    //     0xa94ef8: bl              #0x9d7e30  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiElevatedCardBackground
     // 0xa94efc: stur            x0, [fp, #-0x58]
     // 0xa94f00: r0 = Radius()
     //     0xa94f00: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -569,8 +569,8 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0xa94f64: ldur            w1, [x0, #0x13]
     // 0xa94f68: DecompressPointer r1
     //     0xa94f68: add             x1, x1, HEAP, lsl #32
-    // 0xa94f6c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa94f6c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa94f6c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa94f6c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa94f70: stur            x0, [fp, #-0x70]
     // 0xa94f74: r0 = Icon()
     //     0xa94f74: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -604,8 +604,8 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0xa94fbc: ldur            w1, [x2, #0x13]
     // 0xa94fc0: DecompressPointer r1
     //     0xa94fc0: add             x1, x1, HEAP, lsl #32
-    // 0xa94fc4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa94fc4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa94fc4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa94fc4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa94fc8: stur            x0, [fp, #-0x70]
     // 0xa94fcc: r0 = IconButton()
     //     0xa94fcc: bl              #0x9d5dc4  ; AllocateIconButtonStub -> IconButton (size=0x70)
@@ -616,7 +616,7 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0xa94fdc: stur            w0, [x3, #0x2b]
     // 0xa94fe0: ldur            x2, [fp, #-0x18]
     // 0xa94fe4: r1 = Function '<anonymous closure>':.
-    //     0xa94fe4: add             x1, PP, #0x54, lsl #12  ; [pp+0x54fb8] AnonymousClosure: (0xa98b8c), in [package:ballai/automatic/views/home/tab/tabs/you/findfriends/find_friends_view.dart] _FindFriendsViewState::build (0xa94c40)
+    //     0xa94fe4: add             x1, PP, #0x54, lsl #12  ; [pp+0x54fb8] AnonymousClosure: (0xa98b8c), in [package:kourtai/automatic/views/home/tab/tabs/you/findfriends/find_friends_view.dart] _FindFriendsViewState::build (0xa94c40)
     //     0xa94fe8: ldr             x1, [x1, #0xfb8]
     // 0xa94fec: r0 = AllocateClosure()
     //     0xa94fec: bl              #0xe553e0  ; AllocateClosureStub
@@ -741,7 +741,7 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0xa95118: stur            w4, [x3, #0x67]
     // 0xa9511c: ldur            x2, [fp, #-0x38]
     // 0xa95120: r1 = Function 'setSearchText':.
-    //     0xa95120: add             x1, PP, #0x54, lsl #12  ; [pp+0x54fc0] AnonymousClosure: (0xa96f3c), in [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::setSearchText (0xa96f78)
+    //     0xa95120: add             x1, PP, #0x54, lsl #12  ; [pp+0x54fc0] AnonymousClosure: (0xa96f3c), in [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::setSearchText (0xa96f78)
     //     0xa95124: ldr             x1, [x1, #0xfc0]
     // 0xa95128: r0 = AllocateClosure()
     //     0xa95128: bl              #0xe553e0  ; AllocateClosureStub
@@ -847,14 +847,14 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0xa95218: add             x1, PP, #0x54, lsl #12  ; [pp+0x54fc8] "SEARCH RESULTS"
     //     0xa9521c: ldr             x1, [x1, #0xfc8]
     // 0xa95220: r0 = L()
-    //     0xa95220: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa95220: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa95224: mov             x3, x0
     // 0xa95228: b               #0xa9523c
     // 0xa9522c: r1 = "SUGGESTED USERS"
     //     0xa9522c: add             x1, PP, #0x54, lsl #12  ; [pp+0x54fd0] "SUGGESTED USERS"
     //     0xa95230: ldr             x1, [x1, #0xfd0]
     // 0xa95234: r0 = L()
-    //     0xa95234: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa95234: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa95238: mov             x3, x0
     // 0xa9523c: ldur            x0, [fp, #-0x18]
     // 0xa95240: ldur            x2, [fp, #-0x28]
@@ -863,8 +863,8 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0xa95248: ldur            w1, [x0, #0x13]
     // 0xa9524c: DecompressPointer r1
     //     0xa9524c: add             x1, x1, HEAP, lsl #32
-    // 0xa95250: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa95250: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa95250: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa95250: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa95254: stur            x0, [fp, #-0x48]
     // 0xa95258: r0 = TextStyle()
     //     0xa95258: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -994,7 +994,7 @@ class _FindFriendsViewState extends State<dynamic> {
     // 0xa953ac: tbnz            w0, #4, #0xa95500
     // 0xa953b0: ldur            x1, [fp, #-8]
     // 0xa953b4: r0 = _isSearching()
-    //     0xa953b4: bl              #0xa95e24  ; [package:ballai/automatic/views/home/tab/tabs/you/findfriends/find_friends_view.dart] _FindFriendsViewState::_isSearching
+    //     0xa953b4: bl              #0xa95e24  ; [package:kourtai/automatic/views/home/tab/tabs/you/findfriends/find_friends_view.dart] _FindFriendsViewState::_isSearching
     // 0xa953b8: tbnz            w0, #4, #0xa953e8
     // 0xa953bc: ldur            x2, [fp, #-8]
     // 0xa953c0: LoadField: r0 = r2->field_13
@@ -1010,14 +1010,14 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0xa953d4: add             x1, PP, #0x54, lsl #12  ; [pp+0x54fd8] "No users found."
     //     0xa953d8: ldr             x1, [x1, #0xfd8]
     // 0xa953dc: r0 = L()
-    //     0xa953dc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa953dc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa953e0: mov             x2, x0
     // 0xa953e4: b               #0xa953f8
     // 0xa953e8: r1 = "No suggestions yet."
     //     0xa953e8: add             x1, PP, #0x54, lsl #12  ; [pp+0x54fe0] "No suggestions yet."
     //     0xa953ec: ldr             x1, [x1, #0xfe0]
     // 0xa953f0: r0 = L()
-    //     0xa953f0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa953f0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa953f4: mov             x2, x0
     // 0xa953f8: ldur            x3, [fp, #-0x18]
     // 0xa953fc: ldur            x0, [fp, #-0x48]
@@ -1026,8 +1026,8 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0xa95404: ldur            w1, [x3, #0x13]
     // 0xa95408: DecompressPointer r1
     //     0xa95408: add             x1, x1, HEAP, lsl #32
-    // 0xa9540c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa9540c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa9540c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa9540c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa95410: stur            x0, [fp, #-0x28]
     // 0xa95414: r0 = TextStyle()
     //     0xa95414: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1219,7 +1219,7 @@ class _FindFriendsViewState extends State<dynamic> {
     // 0xa95630: ldur            x1, [fp, #-0x58]
     // 0xa95634: stur            x2, [fp, #-0x28]
     // 0xa95638: r0 = displayNameAbbreviationIosParity()
-    //     0xa95638: bl              #0xa95bec  ; [package:ballai/automatic/utility/user/user_avatar_text.dart] ::displayNameAbbreviationIosParity
+    //     0xa95638: bl              #0xa95bec  ; [package:kourtai/automatic/utility/user/user_avatar_text.dart] ::displayNameAbbreviationIosParity
     // 0xa9563c: mov             x3, x0
     // 0xa95640: ldur            x0, [fp, #-8]
     // 0xa95644: stur            x3, [fp, #-0x70]
@@ -1281,7 +1281,7 @@ class _FindFriendsViewState extends State<dynamic> {
     // 0xa956d4: DecompressPointer r1
     //     0xa956d4: add             x1, x1, HEAP, lsl #32
     // 0xa956d8: r0 = followerUserIds()
-    //     0xa956d8: bl              #0xa95b90  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::followerUserIds
+    //     0xa956d8: bl              #0xa95b90  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::followerUserIds
     // 0xa956dc: mov             x1, x0
     // 0xa956e0: ldur            x2, [fp, #-0x60]
     // 0xa956e4: r0 = contains()
@@ -1291,14 +1291,14 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0xa956ec: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b958] "Follow back"
     //     0xa956f0: ldr             x1, [x1, #0x958]
     // 0xa956f4: r0 = L()
-    //     0xa956f4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa956f4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa956f8: mov             x8, x0
     // 0xa956fc: b               #0xa95710
     // 0xa95700: r1 = "Follow"
     //     0xa95700: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b960] "Follow"
     //     0xa95704: ldr             x1, [x1, #0x960]
     // 0xa95708: r0 = L()
-    //     0xa95708: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa95708: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa9570c: mov             x8, x0
     // 0xa95710: ldur            x6, [fp, #-0x60]
     // 0xa95714: ldur            x7, [fp, #-0x58]
@@ -1310,7 +1310,7 @@ class _FindFriendsViewState extends State<dynamic> {
     // 0xa9572c: ldur            x2, [fp, #-0x68]
     // 0xa95730: stur            x8, [fp, #-0x90]
     // 0xa95734: r0 = _followingTitle()
-    //     0xa95734: bl              #0xa95a9c  ; [package:ballai/automatic/views/home/tab/tabs/you/findfriends/find_friends_view.dart] _FindFriendsViewState::_followingTitle
+    //     0xa95734: bl              #0xa95a9c  ; [package:kourtai/automatic/views/home/tab/tabs/you/findfriends/find_friends_view.dart] _FindFriendsViewState::_followingTitle
     // 0xa95738: stur            x0, [fp, #-0x68]
     // 0xa9573c: r0 = SocialUserCellView()
     //     0xa9573c: bl              #0xa95a90  ; AllocateSocialUserCellViewStub -> SocialUserCellView (size=0x48)
@@ -1350,7 +1350,7 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0xa95794: stur            w4, [x3, #0x3f]
     // 0xa95798: ldur            x2, [fp, #-0x20]
     // 0xa9579c: r1 = Function '<anonymous closure>':.
-    //     0xa9579c: add             x1, PP, #0x54, lsl #12  ; [pp+0x54ff0] AnonymousClosure: (0xa96754), in [package:ballai/automatic/views/home/tab/tabs/you/findfriends/find_friends_view.dart] _FindFriendsViewState::build (0xa94c40)
+    //     0xa9579c: add             x1, PP, #0x54, lsl #12  ; [pp+0x54ff0] AnonymousClosure: (0xa96754), in [package:kourtai/automatic/views/home/tab/tabs/you/findfriends/find_friends_view.dart] _FindFriendsViewState::build (0xa94c40)
     //     0xa957a0: ldr             x1, [x1, #0xff0]
     // 0xa957a4: r0 = AllocateClosure()
     //     0xa957a4: bl              #0xe553e0  ; AllocateClosureStub
@@ -1360,7 +1360,7 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0xa957b0: stur            w1, [x0, #0x2f]
     // 0xa957b4: ldur            x2, [fp, #-0x20]
     // 0xa957b8: r1 = Function '<anonymous closure>':.
-    //     0xa957b8: add             x1, PP, #0x54, lsl #12  ; [pp+0x54ff8] AnonymousClosure: (0xa966ac), in [package:ballai/automatic/views/home/tab/tabs/you/findfriends/find_friends_view.dart] _FindFriendsViewState::build (0xa94c40)
+    //     0xa957b8: add             x1, PP, #0x54, lsl #12  ; [pp+0x54ff8] AnonymousClosure: (0xa966ac), in [package:kourtai/automatic/views/home/tab/tabs/you/findfriends/find_friends_view.dart] _FindFriendsViewState::build (0xa94c40)
     //     0xa957bc: ldr             x1, [x1, #0xff8]
     // 0xa957c0: r0 = AllocateClosure()
     //     0xa957c0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1437,7 +1437,7 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0xa95880: stur            xzr, [x3, #0x17]
     // 0xa95884: ldur            x2, [fp, #-0x38]
     // 0xa95888: r1 = Function 'refresh':.
-    //     0xa95888: add             x1, PP, #0x55, lsl #12  ; [pp+0x55010] AnonymousClosure: (0xa965c8), in [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::refresh (0xa96600)
+    //     0xa95888: add             x1, PP, #0x55, lsl #12  ; [pp+0x55010] AnonymousClosure: (0xa965c8), in [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::refresh (0xa96600)
     //     0xa9588c: ldr             x1, [x1, #0x10]
     // 0xa95890: r0 = AllocateClosure()
     //     0xa95890: bl              #0xe553e0  ; AllocateClosureStub
@@ -1624,7 +1624,7 @@ class _FindFriendsViewState extends State<dynamic> {
     // 0xa95acc: cmp             w1, w16
     // 0xa95ad0: b.eq            #0xa95b70
     // 0xa95ad4: r0 = pendingFollowingUserIds()
-    //     0xa95ad4: bl              #0xa95b7c  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::pendingFollowingUserIds
+    //     0xa95ad4: bl              #0xa95b7c  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::pendingFollowingUserIds
     // 0xa95ad8: mov             x1, x0
     // 0xa95adc: ldur            x0, [fp, #-0x10]
     // 0xa95ae0: LoadField: r3 = r0->field_7
@@ -1640,7 +1640,7 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0xa95af8: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b940] "Requested"
     //     0xa95afc: ldr             x1, [x1, #0x940]
     // 0xa95b00: r0 = L()
-    //     0xa95b00: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa95b00: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa95b04: LeaveFrame
     //     0xa95b04: mov             SP, fp
     //     0xa95b08: ldp             fp, lr, [SP], #0x10
@@ -1667,7 +1667,7 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0xa95b38: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b948] "Friend"
     //     0xa95b3c: ldr             x1, [x1, #0x948]
     // 0xa95b40: r0 = L()
-    //     0xa95b40: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa95b40: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa95b44: LeaveFrame
     //     0xa95b44: mov             SP, fp
     //     0xa95b48: ldp             fp, lr, [SP], #0x10
@@ -1677,7 +1677,7 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0xa95b50: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3b950] "Following"
     //     0xa95b54: ldr             x1, [x1, #0x950]
     // 0xa95b58: r0 = L()
-    //     0xa95b58: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa95b58: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa95b5c: LeaveFrame
     //     0xa95b5c: mov             SP, fp
     //     0xa95b60: ldp             fp, lr, [SP], #0x10
@@ -1763,7 +1763,7 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0xa966e8: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa966ec: ldur            x2, [fp, #-8]
     // 0xa966f0: r1 = Function '<anonymous closure>':.
-    //     0xa966f0: add             x1, PP, #0x55, lsl #12  ; [pp+0x550e0] AnonymousClosure: (0xa70a94), in [package:ballai/automatic/views/home/tab/tabs/teams/root/team_leaderboard_view.dart] _TeamLeaderboardViewState::build (0xa6e6b8)
+    //     0xa966f0: add             x1, PP, #0x55, lsl #12  ; [pp+0x550e0] AnonymousClosure: (0xa70a94), in [package:kourtai/automatic/views/home/tab/tabs/teams/root/team_leaderboard_view.dart] _TeamLeaderboardViewState::build (0xa6e6b8)
     //     0xa966f4: ldr             x1, [x1, #0xe0]
     // 0xa966f8: stur            x0, [fp, #-8]
     // 0xa966fc: r0 = AllocateClosure()
@@ -1839,7 +1839,7 @@ class _FindFriendsViewState extends State<dynamic> {
     // 0xa967a8: b.eq            #0xa96850
     // 0xa967ac: mov             x1, x3
     // 0xa967b0: r0 = followingUserIds()
-    //     0xa967b0: bl              #0xa95a4c  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::followingUserIds
+    //     0xa967b0: bl              #0xa95a4c  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::followingUserIds
     // 0xa967b4: mov             x1, x0
     // 0xa967b8: ldur            x0, [fp, #-8]
     // 0xa967bc: LoadField: r2 = r0->field_f
@@ -1871,7 +1871,7 @@ class _FindFriendsViewState extends State<dynamic> {
     // 0xa967fc: mov             x1, x0
     // 0xa96800: ldur            x2, [fp, #-8]
     // 0xa96804: r0 = unfollowUser()
-    //     0xa96804: bl              #0xa96d04  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::unfollowUser
+    //     0xa96804: bl              #0xa96d04  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::unfollowUser
     // 0xa96808: b               #0xa96838
     // 0xa9680c: ldur            x0, [fp, #-0x10]
     // 0xa96810: LoadField: r1 = r0->field_f
@@ -1889,7 +1889,7 @@ class _FindFriendsViewState extends State<dynamic> {
     // 0xa9682c: mov             x1, x0
     // 0xa96830: ldur            x2, [fp, #-8]
     // 0xa96834: r0 = followUser()
-    //     0xa96834: bl              #0xa96874  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::followUser
+    //     0xa96834: bl              #0xa96874  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::followUser
     // 0xa96838: r0 = Null
     //     0xa96838: mov             x0, NULL
     // 0xa9683c: LeaveFrame
@@ -1959,7 +1959,7 @@ class _FindFriendsViewState extends State<dynamic> {
     // 0xa98bec: r2 = ""
     //     0xa98bec: ldr             x2, [PP, #0x880]  ; [pp+0x880] ""
     // 0xa98bf0: r0 = setSearchText()
-    //     0xa98bf0: bl              #0xa96f78  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::setSearchText
+    //     0xa98bf0: bl              #0xa96f78  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::setSearchText
     // 0xa98bf4: r0 = Null
     //     0xa98bf4: mov             x0, NULL
     // 0xa98bf8: LeaveFrame
@@ -1983,7 +1983,7 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0xb5bfa8: mov             fp, SP
     // 0xb5bfac: ldr             x2, [fp, #0x10]
     // 0xb5bfb0: r1 = Function 'dispose':.
-    //     0xb5bfb0: add             x1, PP, #0x54, lsl #12  ; [pp+0x54fa8] AnonymousClosure: (0xb5bfc8), in [package:ballai/automatic/views/home/tab/tabs/you/findfriends/find_friends_view.dart] _FindFriendsViewState::dispose (0xb63168)
+    //     0xb5bfb0: add             x1, PP, #0x54, lsl #12  ; [pp+0x54fa8] AnonymousClosure: (0xb5bfc8), in [package:kourtai/automatic/views/home/tab/tabs/you/findfriends/find_friends_view.dart] _FindFriendsViewState::dispose (0xb63168)
     //     0xb5bfb4: ldr             x1, [x1, #0xfa8]
     // 0xb5bfb8: r0 = AllocateClosure()
     //     0xb5bfb8: bl              #0xe553e0  ; AllocateClosureStub
@@ -2008,7 +2008,7 @@ class _FindFriendsViewState extends State<dynamic> {
     //     0xb5bfe0: cmp             SP, x16
     //     0xb5bfe4: b.ls            #0xb5bff8
     // 0xb5bfe8: r0 = dispose()
-    //     0xb5bfe8: bl              #0xb63168  ; [package:ballai/automatic/views/home/tab/tabs/you/findfriends/find_friends_view.dart] _FindFriendsViewState::dispose
+    //     0xb5bfe8: bl              #0xb63168  ; [package:kourtai/automatic/views/home/tab/tabs/you/findfriends/find_friends_view.dart] _FindFriendsViewState::dispose
     // 0xb5bfec: LeaveFrame
     //     0xb5bfec: mov             SP, fp
     //     0xb5bff0: ldp             fp, lr, [SP], #0x10
@@ -2043,7 +2043,7 @@ class _FindFriendsViewState extends State<dynamic> {
     // 0xb6319c: mov             x2, x0
     // 0xb631a0: stur            x3, [fp, #-8]
     // 0xb631a4: r1 = Function '_onVm@1264383712':.
-    //     0xb631a4: add             x1, PP, #0x55, lsl #12  ; [pp+0x551b8] AnonymousClosure: (0x985cb8), in [package:ballai/automatic/views/home/tab/tabs/you/findfriends/find_friends_view.dart] _FindFriendsViewState::_onVm (0x985cf0)
+    //     0xb631a4: add             x1, PP, #0x55, lsl #12  ; [pp+0x551b8] AnonymousClosure: (0x985cb8), in [package:kourtai/automatic/views/home/tab/tabs/you/findfriends/find_friends_view.dart] _FindFriendsViewState::_onVm (0x985cf0)
     //     0xb631a8: ldr             x1, [x1, #0x1b8]
     // 0xb631ac: r0 = AllocateClosure()
     //     0xb631ac: bl              #0xe553e0  ; AllocateClosureStub
@@ -2057,7 +2057,7 @@ class _FindFriendsViewState extends State<dynamic> {
     // 0xb631c4: DecompressPointer r1
     //     0xb631c4: add             x1, x1, HEAP, lsl #32
     // 0xb631c8: r0 = dispose()
-    //     0xb631c8: bl              #0x9be6f0  ; [package:ballai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::dispose
+    //     0xb631c8: bl              #0x9be6f0  ; [package:kourtai/automatic/viewmodels/home/you/find_friends_view_model.dart] FindFriendsViewModel::dispose
     // 0xb631cc: ldur            x0, [fp, #-0x10]
     // 0xb631d0: ArrayLoad: r1 = r0[0]  ; List_4
     //     0xb631d0: ldur            w1, [x0, #0x17]

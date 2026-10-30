@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart
 
 // class id: 1048843, size: 0x8
 class :: {
@@ -45,7 +45,7 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     // 0x94a328: mov             x2, x1
     // 0x94a32c: stur            x0, [fp, #-8]
     // 0x94a330: r1 = Function '<anonymous closure>':.
-    //     0x94a330: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e008] AnonymousClosure: (0x94a424), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::initState (0x94a2d4)
+    //     0x94a330: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e008] AnonymousClosure: (0x94a424), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::initState (0x94a2d4)
     //     0x94a334: ldr             x1, [x1, #8]
     // 0x94a338: r0 = AllocateClosure()
     //     0x94a338: bl              #0xe553e0  ; AllocateClosureStub
@@ -191,7 +191,7 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     // 0x94a4d4: b.eq            #0x94a4e0
     // 0x94a4d8: mov             x2, x0
     // 0x94a4dc: r0 = setWeight()
-    //     0x94a4dc: bl              #0x94a694  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setWeight
+    //     0x94a4dc: bl              #0x94a694  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setWeight
     // 0x94a4e0: ldur            x3, [fp, #-0x10]
     // 0x94a4e4: ldur            x4, [fp, #-8]
     // 0x94a4e8: LoadField: r0 = r3->field_f
@@ -291,7 +291,7 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     // 0x94a608: DecompressPointer r2
     //     0x94a608: add             x2, x2, HEAP, lsl #32
     // 0x94a60c: r1 = Function '_onScroll@1063164289':.
-    //     0x94a60c: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e000] AnonymousClosure: (0x94a9f8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_onScroll (0x94aa30)
+    //     0x94a60c: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e000] AnonymousClosure: (0x94a9f8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_onScroll (0x94aa30)
     //     0x94a610: ldr             x1, [x1]
     // 0x94a614: r0 = AllocateClosure()
     //     0x94a614: bl              #0xe553e0  ; AllocateClosureStub
@@ -315,7 +315,7 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     //     0x94a64c: b.eq            #0x94a654
     //     0x94a650: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x94a654: r1 = Function '<anonymous closure>':.
-    //     0x94a654: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e028] AnonymousClosure: (0x94a784), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded (0x94a7a4)
+    //     0x94a654: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e028] AnonymousClosure: (0x94a784), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_animateGoalBarsIfNeeded (0x94a7a4)
     //     0x94a658: ldr             x1, [x1, #0x28]
     // 0x94a65c: r0 = AllocateClosure()
     //     0x94a65c: bl              #0xe553e0  ; AllocateClosureStub
@@ -356,7 +356,7 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     //     0x94aa10: cmp             SP, x16
     //     0x94aa14: b.ls            #0x94aa28
     // 0x94aa18: r0 = _onScroll()
-    //     0x94aa18: bl              #0x94aa30  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_onScroll
+    //     0x94aa18: bl              #0x94aa30  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_onScroll
     // 0x94aa1c: LeaveFrame
     //     0x94aa1c: mov             SP, fp
     //     0x94aa20: ldp             fp, lr, [SP], #0x10
@@ -408,13 +408,13 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     // 0x94aa8c: r0 = offset()
     //     0x94aa8c: bl              #0x6893d8  ; [package:flutter/src/widgets/scroll_controller.dart] ScrollController::offset
     // 0x94aa90: r0 = poundsForOffset()
-    //     0x94aa90: bl              #0x94ae20  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/weight_ruler_motion.dart] WeightRulerMotion::poundsForOffset
+    //     0x94aa90: bl              #0x94ae20  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/weight_ruler_motion.dart] WeightRulerMotion::poundsForOffset
     // 0x94aa94: ldur            x1, [fp, #-8]
     // 0x94aa98: mov             x2, x0
     // 0x94aa9c: r3 = true
     //     0x94aa9c: add             x3, NULL, #0x20  ; true
     // 0x94aaa0: r0 = _publish()
-    //     0x94aaa0: bl              #0x94aabc  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_publish
+    //     0x94aaa0: bl              #0x94aabc  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_publish
     // 0x94aaa4: r0 = Null
     //     0x94aaa4: mov             x0, NULL
     // 0x94aaa8: LeaveFrame
@@ -540,7 +540,7 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     //     0x94abfc: b.eq            #0x94ac04
     //     0x94ac00: bl              #0xe5479c  ; WriteBarrierWrappersStub
     // 0x94ac04: r0 = _scheduleSave()
-    //     0x94ac04: bl              #0x94ac20  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_scheduleSave
+    //     0x94ac04: bl              #0x94ac20  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_scheduleSave
     // 0x94ac08: r0 = Null
     //     0x94ac08: mov             x0, NULL
     // 0x94ac0c: LeaveFrame
@@ -579,7 +579,7 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     // 0x94ac5c: ldur            x0, [fp, #-8]
     // 0x94ac60: mov             x2, x0
     // 0x94ac64: r1 = Function '_commit@1063164289':.
-    //     0x94ac64: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dfd8] AnonymousClosure: (0x94acbc), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_commit (0x94acf4)
+    //     0x94ac64: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dfd8] AnonymousClosure: (0x94acbc), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_commit (0x94acf4)
     //     0x94ac68: ldr             x1, [x1, #0xfd8]
     // 0x94ac6c: r0 = AllocateClosure()
     //     0x94ac6c: bl              #0xe553e0  ; AllocateClosureStub
@@ -626,7 +626,7 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     //     0x94acd4: cmp             SP, x16
     //     0x94acd8: b.ls            #0x94acec
     // 0x94acdc: r0 = _commit()
-    //     0x94acdc: bl              #0x94acf4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_commit
+    //     0x94acdc: bl              #0x94acf4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_commit
     // 0x94ace0: LeaveFrame
     //     0x94ace0: mov             SP, fp
     //     0x94ace4: ldp             fp, lr, [SP], #0x10
@@ -738,7 +738,7 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     // 0x94adfc: mov             x2, x1
     // 0x94ae00: mov             x1, x0
     // 0x94ae04: r0 = setWeight()
-    //     0x94ae04: bl              #0x94a694  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setWeight
+    //     0x94ae04: bl              #0x94a694  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setWeight
     // 0x94ae08: r0 = Null
     //     0x94ae08: mov             x0, NULL
     // 0x94ae0c: LeaveFrame
@@ -773,7 +773,7 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     //     0x9f2f10: stur            w0, [x1, #0x13]
     // 0x9f2f14: mov             x2, x1
     // 0x9f2f18: r1 = Function '<anonymous closure>':.
-    //     0x9f2f18: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df90] AnonymousClosure: (0x9f2f48), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::build (0x9f2ee8)
+    //     0x9f2f18: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2df90] AnonymousClosure: (0x9f2f48), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::build (0x9f2ee8)
     //     0x9f2f1c: ldr             x1, [x1, #0xf90]
     // 0x9f2f20: r0 = AllocateClosure()
     //     0x9f2f20: bl              #0xe553e0  ; AllocateClosureStub
@@ -931,7 +931,7 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     // 0x9f30dc: StoreField: r3->field_f = r0
     //     0x9f30dc: stur            w0, [x3, #0xf]
     // 0x9f30e0: r1 = Function '<anonymous closure>':.
-    //     0x9f30e0: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dfa0] AnonymousClosure: (0x9f3d08), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::build (0x9f2ee8)
+    //     0x9f30e0: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dfa0] AnonymousClosure: (0x9f3d08), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::build (0x9f2ee8)
     //     0x9f30e4: ldr             x1, [x1, #0xfa0]
     // 0x9f30e8: r2 = Null
     //     0x9f30e8: mov             x2, NULL
@@ -984,7 +984,7 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     // 0x9f3160: b.eq            #0x9f31d4
     // 0x9f3164: ldur            x2, [fp, #-0x10]
     // 0x9f3168: r1 = Function '<anonymous closure>':.
-    //     0x9f3168: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dfa8] AnonymousClosure: (0x9f32d0), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::build (0x9f2ee8)
+    //     0x9f3168: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dfa8] AnonymousClosure: (0x9f32d0), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::build (0x9f2ee8)
     //     0x9f316c: ldr             x1, [x1, #0xfa8]
     // 0x9f3170: r0 = AllocateClosure()
     //     0x9f3170: bl              #0xe553e0  ; AllocateClosureStub
@@ -1154,7 +1154,7 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     // 0x9f332c: mov             x2, x1
     // 0x9f3330: stur            x3, [fp, #-0x10]
     // 0x9f3334: r1 = Function '<anonymous closure>':.
-    //     0x9f3334: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dfb0] AnonymousClosure: (0x9f3384), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::build (0x9f2ee8)
+    //     0x9f3334: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dfb0] AnonymousClosure: (0x9f3384), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::build (0x9f2ee8)
     //     0x9f3338: ldr             x1, [x1, #0xfb0]
     // 0x9f333c: r0 = AllocateClosure()
     //     0x9f333c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1246,7 +1246,7 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     // 0x9f3414: mov             x2, x3
     // 0x9f3418: stur            x6, [fp, #-0x10]
     // 0x9f341c: r1 = Function '<anonymous closure>':.
-    //     0x9f341c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dfb8] AnonymousClosure: (0x9f38bc), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::build (0x9f2ee8)
+    //     0x9f341c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dfb8] AnonymousClosure: (0x9f38bc), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::build (0x9f2ee8)
     //     0x9f3420: ldr             x1, [x1, #0xfb8]
     // 0x9f3424: r0 = AllocateClosure()
     //     0x9f3424: bl              #0xe553e0  ; AllocateClosureStub
@@ -1273,7 +1273,7 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     //     0x9f3464: bl              #0x9ce160  ; [package:flutter/src/widgets/scroll_view.dart] ListView::ListView.builder
     // 0x9f3468: ldur            x2, [fp, #-8]
     // 0x9f346c: r1 = Function '<anonymous closure>':.
-    //     0x9f346c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dfc8] AnonymousClosure: (0x9f35d0), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::build (0x9f2ee8)
+    //     0x9f346c: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dfc8] AnonymousClosure: (0x9f35d0), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::build (0x9f2ee8)
     //     0x9f3470: ldr             x1, [x1, #0xfc8]
     // 0x9f3474: r0 = AllocateClosure()
     //     0x9f3474: bl              #0xe553e0  ; AllocateClosureStub
@@ -1298,8 +1298,8 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     //     0x9f34a8: add             x3, x3, HEAP, lsl #32
     // 0x9f34ac: ldr             x1, [fp, #0x18]
     // 0x9f34b0: stur            x3, [fp, #-8]
-    // 0x9f34b4: r0 = BallAiThemeContext.ballAiAccent()
-    //     0x9f34b4: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0x9f34b4: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0x9f34b4: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0x9f34b8: stur            x0, [fp, #-0x20]
     // 0x9f34bc: r0 = Radius()
     //     0x9f34bc: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -1474,7 +1474,7 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     //     0x9f3660: add             x2, x2, HEAP, lsl #32
     // 0x9f3664: mov             x1, x2
     // 0x9f3668: r0 = _onScrollEnd()
-    //     0x9f3668: bl              #0x9f3684  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_onScrollEnd
+    //     0x9f3668: bl              #0x9f3684  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_onScrollEnd
     // 0x9f366c: r0 = false
     //     0x9f366c: add             x0, NULL, #0x30  ; false
     // 0x9f3670: LeaveFrame
@@ -1545,13 +1545,13 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     // 0x9f370c: r0 = offset()
     //     0x9f370c: bl              #0x6893d8  ; [package:flutter/src/widgets/scroll_controller.dart] ScrollController::offset
     // 0x9f3710: r0 = poundsForOffset()
-    //     0x9f3710: bl              #0x94ae20  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/weight_ruler_motion.dart] WeightRulerMotion::poundsForOffset
+    //     0x9f3710: bl              #0x94ae20  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/weight_ruler_motion.dart] WeightRulerMotion::poundsForOffset
     // 0x9f3714: ldur            x1, [fp, #-0x10]
     // 0x9f3718: stur            x0, [fp, #-0x20]
     // 0x9f371c: r0 = offset()
     //     0x9f371c: bl              #0x6893d8  ; [package:flutter/src/widgets/scroll_controller.dart] ScrollController::offset
     // 0x9f3720: r0 = snapOffsetFor()
-    //     0x9f3720: bl              #0x9f3810  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/weight_ruler_motion.dart] WeightRulerMotion::snapOffsetFor
+    //     0x9f3720: bl              #0x9f3810  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/weight_ruler_motion.dart] WeightRulerMotion::snapOffsetFor
     // 0x9f3724: ldur            x1, [fp, #-0x10]
     // 0x9f3728: stur            d0, [fp, #-0x28]
     // 0x9f372c: r0 = offset()
@@ -1583,10 +1583,10 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     // 0x9f3784: r3 = false
     //     0x9f3784: add             x3, NULL, #0x30  ; false
     // 0x9f3788: r0 = _publish()
-    //     0x9f3788: bl              #0x94aabc  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_publish
+    //     0x9f3788: bl              #0x94aabc  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_publish
     // 0x9f378c: ldur            x1, [fp, #-8]
     // 0x9f3790: r0 = _commit()
-    //     0x9f3790: bl              #0x94acf4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_commit
+    //     0x9f3790: bl              #0x94acf4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_commit
     // 0x9f3794: r0 = false
     //     0x9f3794: add             x0, NULL, #0x30  ; false
     // 0x9f3798: LeaveFrame
@@ -1603,7 +1603,7 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     // 0x9f37b4: r3 = false
     //     0x9f37b4: add             x3, NULL, #0x30  ; false
     // 0x9f37b8: r0 = _publish()
-    //     0x9f37b8: bl              #0x94aabc  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_publish
+    //     0x9f37b8: bl              #0x94aabc  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_publish
     // 0x9f37bc: ldur            x1, [fp, #-0x10]
     // 0x9f37c0: ldur            d0, [fp, #-0x28]
     // 0x9f37c4: r2 = Instance_Cubic
@@ -1616,7 +1616,7 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     //     0x9f37d4: bl              #0x68b664  ; [package:flutter/src/widgets/scroll_controller.dart] ScrollController::animateTo
     // 0x9f37d8: ldur            x2, [fp, #-0x18]
     // 0x9f37dc: r1 = Function '<anonymous closure>':.
-    //     0x9f37dc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dfd0] AnonymousClosure: (0x9f384c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_onScrollEnd (0x9f3684)
+    //     0x9f37dc: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2dfd0] AnonymousClosure: (0x9f384c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_onScrollEnd (0x9f3684)
     //     0x9f37e0: ldr             x1, [x1, #0xfd0]
     // 0x9f37e4: stur            x0, [fp, #-8]
     // 0x9f37e8: r0 = AllocateClosure()
@@ -1673,7 +1673,7 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     //     0x9f3898: stur            w1, [x0, #0x27]
     // 0x9f389c: mov             x1, x0
     // 0x9f38a0: r0 = _commit()
-    //     0x9f38a0: bl              #0x94acf4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_commit
+    //     0x9f38a0: bl              #0x94acf4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_commit
     // 0x9f38a4: r0 = Null
     //     0x9f38a4: mov             x0, NULL
     // 0x9f38a8: LeaveFrame
@@ -1754,13 +1754,13 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     // 0x9f3974: stur            d1, [fp, #-0x40]
     // 0x9f3978: tbnz            w0, #4, #0x9f398c
     // 0x9f397c: ldr             x1, [fp, #0x18]
-    // 0x9f3980: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0x9f3980: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0x9f3980: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0x9f3980: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0x9f3984: mov             x1, x0
     // 0x9f3988: b               #0x9f39b4
     // 0x9f398c: ldr             x1, [fp, #0x18]
-    // 0x9f3990: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9f3990: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9f3990: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9f3990: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9f3994: r16 = 0.450000
     //     0x9f3994: add             x16, PP, #0x20, lsl #12  ; [pp+0x20e20] 0.45
     //     0x9f3998: ldr             x16, [x16, #0xe20]
@@ -1876,8 +1876,8 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     //     0x9f3ae4: bl              #0x607410  ; [dart:core] _StringBase::_interpolateSingle
     // 0x9f3ae8: ldr             x1, [fp, #0x18]
     // 0x9f3aec: stur            x0, [fp, #-0x10]
-    // 0x9f3af0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9f3af0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9f3af0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9f3af0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9f3af4: stur            x0, [fp, #-0x28]
     // 0x9f3af8: r0 = TextStyle()
     //     0x9f3af8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2092,8 +2092,8 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     //     0x9f3d28: bl              #0x607410  ; [dart:core] _StringBase::_interpolateSingle
     // 0x9f3d2c: ldr             x1, [fp, #0x20]
     // 0x9f3d30: stur            x0, [fp, #-8]
-    // 0x9f3d34: r0 = BallAiThemeContext.ballAiAccent()
-    //     0x9f3d34: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0x9f3d34: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0x9f3d34: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0x9f3d38: stur            x0, [fp, #-0x10]
     // 0x9f3d3c: r0 = TextStyle()
     //     0x9f3d3c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2136,8 +2136,8 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     // 0x9f3d9c: StoreField: r2->field_7 = r1
     //     0x9f3d9c: stur            w1, [x2, #7]
     // 0x9f3da0: ldr             x1, [fp, #0x20]
-    // 0x9f3da4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9f3da4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9f3da4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9f3da4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9f3da8: stur            x0, [fp, #-8]
     // 0x9f3dac: r0 = TextStyle()
     //     0x9f3dac: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2245,7 +2245,7 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     //     0xb5a9b4: mov             fp, SP
     // 0xb5a9b8: ldr             x2, [fp, #0x10]
     // 0xb5a9bc: r1 = Function 'dispose':.
-    //     0xb5a9bc: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c7b8] AnonymousClosure: (0xb5a9d4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::dispose (0xb60cb8)
+    //     0xb5a9bc: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c7b8] AnonymousClosure: (0xb5a9d4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::dispose (0xb60cb8)
     //     0xb5a9c0: ldr             x1, [x1, #0x7b8]
     // 0xb5a9c4: r0 = AllocateClosure()
     //     0xb5a9c4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2270,7 +2270,7 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     //     0xb5a9ec: cmp             SP, x16
     //     0xb5a9f0: b.ls            #0xb5aa04
     // 0xb5a9f4: r0 = dispose()
-    //     0xb5a9f4: bl              #0xb60cb8  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::dispose
+    //     0xb5a9f4: bl              #0xb60cb8  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::dispose
     // 0xb5a9f8: LeaveFrame
     //     0xb5a9f8: mov             SP, fp
     //     0xb5a9fc: ldp             fp, lr, [SP], #0x10
@@ -2355,7 +2355,7 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     //     0xb60d74: ldur            x3, [x2, #7]
     // 0xb60d78: mov             x2, x3
     // 0xb60d7c: r0 = setWeight()
-    //     0xb60d7c: bl              #0x94a694  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setWeight
+    //     0xb60d7c: bl              #0x94a694  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setWeight
     // 0xb60d80: ldur            x0, [fp, #-8]
     // 0xb60d84: ArrayLoad: r3 = r0[0]  ; List_4
     //     0xb60d84: ldur            w3, [x0, #0x17]
@@ -2366,7 +2366,7 @@ class _AccountSetupWeightParityViewState extends State<dynamic> {
     // 0xb60d94: b.eq            #0xb60db8
     // 0xb60d98: mov             x2, x0
     // 0xb60d9c: r1 = Function '_onScroll@1063164289':.
-    //     0xb60d9c: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e000] AnonymousClosure: (0x94a9f8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_onScroll (0x94aa30)
+    //     0xb60d9c: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e000] AnonymousClosure: (0x94a9f8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_onScroll (0x94aa30)
     //     0xb60da0: ldr             x1, [x1]
     // 0xb60da4: r0 = AllocateClosure()
     //     0xb60da4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2516,7 +2516,7 @@ class _AccountSetupHeightParityViewState extends State<dynamic> {
     // 0x949f64: mov             x2, x1
     // 0x949f68: stur            x0, [fp, #-8]
     // 0x949f6c: r1 = Function '<anonymous closure>':.
-    //     0x949f6c: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e160] AnonymousClosure: (0x94a060), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupHeightParityViewState::initState (0x949f10)
+    //     0x949f6c: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e160] AnonymousClosure: (0x94a060), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupHeightParityViewState::initState (0x949f10)
     //     0x949f70: ldr             x1, [x1, #0x160]
     // 0x949f74: r0 = AllocateClosure()
     //     0x949f74: bl              #0xe553e0  ; AllocateClosureStub
@@ -2654,7 +2654,7 @@ class _AccountSetupHeightParityViewState extends State<dynamic> {
     // 0x94a0f8: mov             x1, x0
     // 0x94a0fc: mov             x2, x3
     // 0x94a100: r0 = setHeight()
-    //     0x94a100: bl              #0x94a258  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setHeight
+    //     0x94a100: bl              #0x94a258  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setHeight
     // 0x94a104: ldur            x0, [fp, #-0x10]
     // 0x94a108: r1 = 12
     //     0x94a108: mov             x1, #0xc
@@ -2748,7 +2748,7 @@ class _AccountSetupHeightParityViewState extends State<dynamic> {
     //     0x94a218: add             x0, x0, HEAP, lsl #32
     // 0x94a21c: stur            x0, [fp, #-0x18]
     // 0x94a220: r1 = Function '<anonymous closure>':.
-    //     0x94a220: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e178] AnonymousClosure: (0x8fbc64), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
+    //     0x94a220: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e178] AnonymousClosure: (0x8fbc64), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
     //     0x94a224: ldr             x1, [x1, #0x178]
     // 0x94a228: r0 = AllocateClosure()
     //     0x94a228: bl              #0xe553e0  ; AllocateClosureStub
@@ -2842,7 +2842,7 @@ class _AccountSetupHeightParityViewState extends State<dynamic> {
     // 0x9f1724: ArrayStore: r2[0] = r1  ; List_4
     //     0x9f1724: stur            w1, [x2, #0x17]
     // 0x9f1728: r1 = Function '<anonymous closure>':.
-    //     0x9f1728: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e030] AnonymousClosure: (0x9f1768), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupHeightParityViewState::build (0x9f1658)
+    //     0x9f1728: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e030] AnonymousClosure: (0x9f1768), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupHeightParityViewState::build (0x9f1658)
     //     0x9f172c: ldr             x1, [x1, #0x30]
     // 0x9f1730: r0 = AllocateClosure()
     //     0x9f1730: bl              #0xe553e0  ; AllocateClosureStub
@@ -2937,8 +2937,8 @@ class _AccountSetupHeightParityViewState extends State<dynamic> {
     //     0x9f1828: bl              #0x607410  ; [dart:core] _StringBase::_interpolateSingle
     // 0x9f182c: ldr             x1, [fp, #0x18]
     // 0x9f1830: stur            x0, [fp, #-0x10]
-    // 0x9f1834: r0 = BallAiThemeContext.ballAiAccent()
-    //     0x9f1834: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0x9f1834: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0x9f1834: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0x9f1838: stur            x0, [fp, #-0x18]
     // 0x9f183c: r0 = TextStyle()
     //     0x9f183c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2981,8 +2981,8 @@ class _AccountSetupHeightParityViewState extends State<dynamic> {
     // 0x9f189c: StoreField: r2->field_7 = r1
     //     0x9f189c: stur            w1, [x2, #7]
     // 0x9f18a0: ldr             x1, [fp, #0x18]
-    // 0x9f18a4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9f18a4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9f18a4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9f18a4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9f18a8: stur            x0, [fp, #-0x10]
     // 0x9f18ac: r0 = TextStyle()
     //     0x9f18ac: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -3031,8 +3031,8 @@ class _AccountSetupHeightParityViewState extends State<dynamic> {
     //     0x9f1918: bl              #0x607410  ; [dart:core] _StringBase::_interpolateSingle
     // 0x9f191c: ldr             x1, [fp, #0x18]
     // 0x9f1920: stur            x0, [fp, #-0x20]
-    // 0x9f1924: r0 = BallAiThemeContext.ballAiAccent()
-    //     0x9f1924: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0x9f1924: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0x9f1924: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0x9f1928: stur            x0, [fp, #-0x28]
     // 0x9f192c: r0 = TextStyle()
     //     0x9f192c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -3075,8 +3075,8 @@ class _AccountSetupHeightParityViewState extends State<dynamic> {
     // 0x9f198c: StoreField: r2->field_7 = r1
     //     0x9f198c: stur            w1, [x2, #7]
     // 0x9f1990: ldr             x1, [fp, #0x18]
-    // 0x9f1994: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0x9f1994: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0x9f1994: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0x9f1994: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0x9f1998: stur            x0, [fp, #-0x20]
     // 0x9f199c: r0 = TextStyle()
     //     0x9f199c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -3267,8 +3267,8 @@ class _AccountSetupHeightParityViewState extends State<dynamic> {
     //     0x9f1b78: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0x9f1b7c: ldr             x1, [fp, #0x18]
     // 0x9f1b80: stur            x0, [fp, #-0x18]
-    // 0x9f1b84: r0 = BallAiThemeContext.ballAi()
-    //     0x9f1b84: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0x9f1b84: r0 = KourtAiThemeContext.kourtAi()
+    //     0x9f1b84: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0x9f1b88: ArrayLoad: r1 = r0[0]  ; List_4
     //     0x9f1b88: ldur            w1, [x0, #0x17]
     // 0x9f1b8c: DecompressPointer r1
@@ -3365,7 +3365,7 @@ class _AccountSetupHeightParityViewState extends State<dynamic> {
     // 0x9f1c8c: ldur            x0, [fp, #-8]
     // 0x9f1c90: mov             x2, x0
     // 0x9f1c94: r1 = Function '<anonymous closure>':.
-    //     0x9f1c94: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e060] AnonymousClosure: (0x9f2e30), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupHeightParityViewState::build (0x9f1658)
+    //     0x9f1c94: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e060] AnonymousClosure: (0x9f2e30), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupHeightParityViewState::build (0x9f1658)
     //     0x9f1c98: ldr             x1, [x1, #0x60]
     // 0x9f1c9c: r0 = AllocateClosure()
     //     0x9f1c9c: bl              #0xe553e0  ; AllocateClosureStub
@@ -3465,8 +3465,8 @@ class _AccountSetupHeightParityViewState extends State<dynamic> {
     //     0x9f1d94: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0x9f1d98: ldr             x1, [fp, #0x18]
     // 0x9f1d9c: stur            x0, [fp, #-0x28]
-    // 0x9f1da0: r0 = BallAiThemeContext.ballAi()
-    //     0x9f1da0: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0x9f1da0: r0 = KourtAiThemeContext.kourtAi()
+    //     0x9f1da0: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0x9f1da4: ArrayLoad: r1 = r0[0]  ; List_4
     //     0x9f1da4: ldur            w1, [x0, #0x17]
     // 0x9f1da8: DecompressPointer r1
@@ -3565,7 +3565,7 @@ class _AccountSetupHeightParityViewState extends State<dynamic> {
     // 0x9f1eb0: ldur            x4, [fp, #-0x20]
     // 0x9f1eb4: ldur            x2, [fp, #-8]
     // 0x9f1eb8: r1 = Function '<anonymous closure>':.
-    //     0x9f1eb8: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e078] AnonymousClosure: (0x9f2bd4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupHeightParityViewState::build (0x9f1658)
+    //     0x9f1eb8: add             x1, PP, #0x2e, lsl #12  ; [pp+0x2e078] AnonymousClosure: (0x9f2bd4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupHeightParityViewState::build (0x9f1658)
     //     0x9f1ebc: ldr             x1, [x1, #0x78]
     // 0x9f1ec0: r0 = AllocateClosure()
     //     0x9f1ec0: bl              #0xe553e0  ; AllocateClosureStub
@@ -3882,7 +3882,7 @@ class _AccountSetupHeightParityViewState extends State<dynamic> {
     // 0x9f2c60: mov             x1, x2
     // 0x9f2c64: mov             x2, x0
     // 0x9f2c68: r0 = _commit()
-    //     0x9f2c68: bl              #0x9f2c88  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupHeightParityViewState::_commit
+    //     0x9f2c68: bl              #0x9f2c88  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupHeightParityViewState::_commit
     // 0x9f2c6c: r0 = Null
     //     0x9f2c6c: mov             x0, NULL
     // 0x9f2c70: LeaveFrame
@@ -3940,7 +3940,7 @@ class _AccountSetupHeightParityViewState extends State<dynamic> {
     // 0x9f2cf4: mov             x1, x0
     // 0x9f2cf8: ldur            x2, [fp, #-8]
     // 0x9f2cfc: r0 = setHeight()
-    //     0x9f2cfc: bl              #0x94a258  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setHeight
+    //     0x9f2cfc: bl              #0x94a258  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::setHeight
     // 0x9f2d00: ldur            x1, [fp, #-8]
     // 0x9f2d04: r0 = 12
     //     0x9f2d04: mov             x0, #0xc
@@ -4111,7 +4111,7 @@ class _AccountSetupHeightParityViewState extends State<dynamic> {
     // 0x9f2ec0: mov             x1, x3
     // 0x9f2ec4: mov             x3, x16
     // 0x9f2ec8: r0 = _commit()
-    //     0x9f2ec8: bl              #0x9f2c88  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupHeightParityViewState::_commit
+    //     0x9f2ec8: bl              #0x9f2c88  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupHeightParityViewState::_commit
     // 0x9f2ecc: r0 = Null
     //     0x9f2ecc: mov             x0, NULL
     // 0x9f2ed0: LeaveFrame
@@ -4132,7 +4132,7 @@ class _AccountSetupHeightParityViewState extends State<dynamic> {
     //     0xb5a958: mov             fp, SP
     // 0xb5a95c: ldr             x2, [fp, #0x10]
     // 0xb5a960: r1 = Function 'dispose':.
-    //     0xb5a960: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c7c0] AnonymousClosure: (0xb5a978), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupHeightParityViewState::dispose (0xb60c28)
+    //     0xb5a960: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c7c0] AnonymousClosure: (0xb5a978), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupHeightParityViewState::dispose (0xb60c28)
     //     0xb5a964: ldr             x1, [x1, #0x7c0]
     // 0xb5a968: r0 = AllocateClosure()
     //     0xb5a968: bl              #0xe553e0  ; AllocateClosureStub
@@ -4157,7 +4157,7 @@ class _AccountSetupHeightParityViewState extends State<dynamic> {
     //     0xb5a990: cmp             SP, x16
     //     0xb5a994: b.ls            #0xb5a9a8
     // 0xb5a998: r0 = dispose()
-    //     0xb5a998: bl              #0xb60c28  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupHeightParityViewState::dispose
+    //     0xb5a998: bl              #0xb60c28  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupHeightParityViewState::dispose
     // 0xb5a99c: LeaveFrame
     //     0xb5a99c: mov             SP, fp
     //     0xb5a9a0: ldp             fp, lr, [SP], #0x10
@@ -4253,7 +4253,7 @@ class AccountSetupWeightParityView extends StatefulWidget {
     // 0xb724fc: mov             x1, x0
     // 0xb72500: stur            x0, [fp, #-8]
     // 0xb72504: r0 = _AccountSetupWeightParityViewState()
-    //     0xb72504: bl              #0xb72520  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_AccountSetupWeightParityViewState
+    //     0xb72504: bl              #0xb72520  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_height_weight_views.dart] _AccountSetupWeightParityViewState::_AccountSetupWeightParityViewState
     // 0xb72508: ldur            x0, [fp, #-8]
     // 0xb7250c: LeaveFrame
     //     0xb7250c: mov             SP, fp

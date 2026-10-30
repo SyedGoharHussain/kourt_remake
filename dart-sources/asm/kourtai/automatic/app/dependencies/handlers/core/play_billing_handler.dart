@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/handlers/core/play_billing_handler.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/handlers/core/play_billing_handler.dart
 
 // class id: 1048632, size: 0x8
 class :: {
@@ -70,7 +70,7 @@ abstract class PlayBillingHandler extends Object {
     //     0x951f90: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x951f94: ldur            x1, [fp, #-0x18]
     // 0x951f98: r0 = _manageSubscriptionsUri()
-    //     0x951f98: bl              #0x952010  ; [package:ballai/automatic/app/dependencies/handlers/core/play_billing_handler.dart] PlayBillingHandler::_manageSubscriptionsUri
+    //     0x951f98: bl              #0x952010  ; [package:kourtai/automatic/app/dependencies/handlers/core/play_billing_handler.dart] PlayBillingHandler::_manageSubscriptionsUri
     // 0x951f9c: r16 = Instance_LaunchMode
     //     0x951f9c: add             x16, PP, #0x21, lsl #12  ; [pp+0x21000] Obj!LaunchMode@d2fba1
     //     0x951fa0: ldr             x16, [x16]
@@ -153,8 +153,8 @@ abstract class PlayBillingHandler extends Object {
     //     0x95206c: ldr             x16, [x16, #0x20]
     // 0x952070: StoreField: r0->field_13 = r16
     //     0x952070: stur            w16, [x0, #0x13]
-    // 0x952074: r16 = "ballai.app"
-    //     0x952074: add             x16, PP, #0x13, lsl #12  ; [pp+0x13a60] "ballai.app"
+    // 0x952074: r16 = "kourtai.app"
+    //     0x952074: add             x16, PP, #0x13, lsl #12  ; [pp+0x13a60] "kourtai.app"
     //     0x952078: ldr             x16, [x16, #0xa60]
     // 0x95207c: ArrayStore: r0[0] = r16  ; List_4
     //     0x95207c: stur            w16, [x0, #0x17]
@@ -179,8 +179,8 @@ abstract class PlayBillingHandler extends Object {
     //     0x9520ac: ldp             fp, lr, [SP], #0x10
     // 0x9520b0: ret
     //     0x9520b0: ret             
-    // 0x9520b4: r1 = "https://play.google.com/store/account/subscriptions\?package=ballai.app"
-    //     0x9520b4: add             x1, PP, #0x21, lsl #12  ; [pp+0x21030] "https://play.google.com/store/account/subscriptions\?package=ballai.app"
+    // 0x9520b4: r1 = "https://play.google.com/store/account/subscriptions\?package=kourtai.app"
+    //     0x9520b4: add             x1, PP, #0x21, lsl #12  ; [pp+0x21030] "https://play.google.com/store/account/subscriptions\?package=kourtai.app"
     //     0x9520b8: ldr             x1, [x1, #0x30]
     // 0x9520bc: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x9520bc: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]

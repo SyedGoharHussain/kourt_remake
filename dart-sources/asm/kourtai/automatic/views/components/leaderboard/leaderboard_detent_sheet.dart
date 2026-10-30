@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/leaderboard/leaderboard_detent_sheet.dart
+// lib: , url: package:kourtai/automatic/views/components/leaderboard/leaderboard_detent_sheet.dart
 
 // class id: 1048815, size: 0x8
 class :: {
@@ -147,7 +147,7 @@ class _LeaderboardDetentSheetState extends State<dynamic> {
     //     0x9e2bf4: stur            w1, [x0, #0x37]
     // 0x9e2bf8: ldur            x2, [fp, #-0x18]
     // 0x9e2bfc: r1 = Function '<anonymous closure>':.
-    //     0x9e2bfc: add             x1, PP, #0x45, lsl #12  ; [pp+0x45d90] AnonymousClosure: (0x9e2c48), in [package:ballai/automatic/views/components/leaderboard/leaderboard_detent_sheet.dart] _LeaderboardDetentSheetState::build (0x9e2a88)
+    //     0x9e2bfc: add             x1, PP, #0x45, lsl #12  ; [pp+0x45d90] AnonymousClosure: (0x9e2c48), in [package:kourtai/automatic/views/components/leaderboard/leaderboard_detent_sheet.dart] _LeaderboardDetentSheetState::build (0x9e2a88)
     //     0x9e2c00: ldr             x1, [x1, #0xd90]
     // 0x9e2c04: r0 = AllocateClosure()
     //     0x9e2c04: bl              #0xe553e0  ; AllocateClosureStub
@@ -257,8 +257,8 @@ class _LeaderboardDetentSheetState extends State<dynamic> {
     // 0x9e2d28: StoreField: r2->field_23 = r0
     //     0x9e2d28: stur            w0, [x2, #0x23]
     // 0x9e2d2c: ldr             x1, [fp, #0x18]
-    // 0x9e2d30: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0x9e2d30: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0x9e2d30: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0x9e2d30: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0x9e2d34: r16 = 0.220000
     //     0x9e2d34: add             x16, PP, #0x24, lsl #12  ; [pp+0x24ec0] 0.22
     //     0x9e2d38: ldr             x16, [x16, #0xec0]
@@ -342,7 +342,7 @@ class _LeaderboardDetentSheetState extends State<dynamic> {
     //     0x9e2e04: add             x3, x3, HEAP, lsl #32
     // 0x9e2e08: stur            x3, [fp, #-0x18]
     // 0x9e2e0c: r1 = Function '_openProfile@1026411843':.
-    //     0x9e2e0c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45d98] AnonymousClosure: (0x9e3824), in [package:ballai/automatic/views/components/leaderboard/leaderboard_detent_sheet.dart] _LeaderboardDetentSheetState::_openProfile (0x9e3860)
+    //     0x9e2e0c: add             x1, PP, #0x45, lsl #12  ; [pp+0x45d98] AnonymousClosure: (0x9e3824), in [package:kourtai/automatic/views/components/leaderboard/leaderboard_detent_sheet.dart] _LeaderboardDetentSheetState::_openProfile (0x9e3860)
     //     0x9e2e10: ldr             x1, [x1, #0xd98]
     // 0x9e2e14: r0 = AllocateClosure()
     //     0x9e2e14: bl              #0xe553e0  ; AllocateClosureStub
@@ -569,7 +569,7 @@ class _LeaderboardDetentSheetState extends State<dynamic> {
     //     0x9e304c: stur            w1, [x3, #0x33]
     // 0x9e3050: ldur            x2, [fp, #-8]
     // 0x9e3054: r1 = Function '<anonymous closure>':.
-    //     0x9e3054: add             x1, PP, #0x45, lsl #12  ; [pp+0x45da8] AnonymousClosure: (0x9e3210), in [package:ballai/automatic/views/components/leaderboard/leaderboard_detent_sheet.dart] _LeaderboardDetentSheetState::build (0x9e2a88)
+    //     0x9e3054: add             x1, PP, #0x45, lsl #12  ; [pp+0x45da8] AnonymousClosure: (0x9e3210), in [package:kourtai/automatic/views/components/leaderboard/leaderboard_detent_sheet.dart] _LeaderboardDetentSheetState::build (0x9e2a88)
     //     0x9e3058: ldr             x1, [x1, #0xda8]
     // 0x9e305c: r0 = AllocateClosure()
     //     0x9e305c: bl              #0xe553e0  ; AllocateClosureStub
@@ -765,7 +765,7 @@ class _LeaderboardDetentSheetState extends State<dynamic> {
     //     0x9e3260: ret             
     // 0x9e3264: mov             x2, x3
     // 0x9e3268: r1 = Function '<anonymous closure>':.
-    //     0x9e3268: add             x1, PP, #0x45, lsl #12  ; [pp+0x45db8] AnonymousClosure: (0x8f4154), in [package:ballai/video_tracking/views/drills/primary_category_drill_list_screen.dart] _PrimaryCategoryDrillListScreenState::build (0xac46a4)
+    //     0x9e3268: add             x1, PP, #0x45, lsl #12  ; [pp+0x45db8] AnonymousClosure: (0x8f4154), in [package:kourtai/video_tracking/views/drills/primary_category_drill_list_screen.dart] _PrimaryCategoryDrillListScreenState::build (0xac46a4)
     //     0x9e326c: ldr             x1, [x1, #0xdb8]
     // 0x9e3270: r0 = AllocateClosure()
     //     0x9e3270: bl              #0xe553e0  ; AllocateClosureStub
@@ -782,7 +782,7 @@ class _LeaderboardDetentSheetState extends State<dynamic> {
     //     0x9e328c: add             x17, PP, #0x45, lsl #12  ; [pp+0x45d88] IMM: double(0.67) from 0x3fe570a3d70a3d71
     //     0x9e3290: ldr             d0, [x17, #0xd88]
     // 0x9e3294: r0 = _animateTo()
-    //     0x9e3294: bl              #0x9e32b0  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_detent_sheet.dart] _LeaderboardDetentSheetState::_animateTo
+    //     0x9e3294: bl              #0x9e32b0  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_detent_sheet.dart] _LeaderboardDetentSheetState::_animateTo
     // 0x9e3298: r0 = Null
     //     0x9e3298: mov             x0, NULL
     // 0x9e329c: LeaveFrame
@@ -858,7 +858,7 @@ class _LeaderboardDetentSheetState extends State<dynamic> {
     //     0x9e3840: b.ls            #0x9e3858
     // 0x9e3844: ldr             x2, [fp, #0x10]
     // 0x9e3848: r0 = _openProfile()
-    //     0x9e3848: bl              #0x9e3860  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_detent_sheet.dart] _LeaderboardDetentSheetState::_openProfile
+    //     0x9e3848: bl              #0x9e3860  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_detent_sheet.dart] _LeaderboardDetentSheetState::_openProfile
     // 0x9e384c: LeaveFrame
     //     0x9e384c: mov             SP, fp
     //     0x9e3850: ldp             fp, lr, [SP], #0x10
@@ -895,7 +895,7 @@ class _LeaderboardDetentSheetState extends State<dynamic> {
     //     0x9e3898: stur            w2, [x1, #0x13]
     // 0x9e389c: mov             x2, x1
     // 0x9e38a0: r1 = Function '<anonymous closure>':.
-    //     0x9e38a0: add             x1, PP, #0x45, lsl #12  ; [pp+0x45e00] AnonymousClosure: (0x98dcf8), in [package:ballai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_advance (0x98dd44)
+    //     0x9e38a0: add             x1, PP, #0x45, lsl #12  ; [pp+0x45e00] AnonymousClosure: (0x98dcf8), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_permissions_flow.dart] _PostSetupPermissionsCoordinatorViewState::_advance (0x98dd44)
     //     0x9e38a4: ldr             x1, [x1, #0xe00]
     // 0x9e38a8: r0 = AllocateClosure()
     //     0x9e38a8: bl              #0xe553e0  ; AllocateClosureStub
@@ -907,7 +907,7 @@ class _LeaderboardDetentSheetState extends State<dynamic> {
     // 0x9e38bc: d0 = 1.000000
     //     0x9e38bc: fmov            d0, #1.00000000
     // 0x9e38c0: r0 = _animateTo()
-    //     0x9e38c0: bl              #0x9e32b0  ; [package:ballai/automatic/views/components/leaderboard/leaderboard_detent_sheet.dart] _LeaderboardDetentSheetState::_animateTo
+    //     0x9e38c0: bl              #0x9e32b0  ; [package:kourtai/automatic/views/components/leaderboard/leaderboard_detent_sheet.dart] _LeaderboardDetentSheetState::_animateTo
     // 0x9e38c4: r0 = Null
     //     0x9e38c4: mov             x0, NULL
     // 0x9e38c8: LeaveFrame

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/components/streak_calendar_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/components/streak_calendar_view.dart
 
 // class id: 1049007, size: 0x8
 class :: {
@@ -27,8 +27,8 @@ class _WeekdayLabel extends StatelessWidget {
     // 0xc14154: DecompressPointer r2
     //     0xc14154: add             x2, x2, HEAP, lsl #32
     // 0xc14158: stur            x2, [fp, #-8]
-    // 0xc1415c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc1415c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc1415c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc1415c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc14160: stur            x0, [fp, #-0x10]
     // 0xc14164: r0 = TextStyle()
     //     0xc14164: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -127,8 +127,8 @@ class _StreakStat extends StatelessWidget {
     //     0xc13fa8: add             x3, x3, HEAP, lsl #32
     // 0xc13fac: mov             x1, x0
     // 0xc13fb0: stur            x3, [fp, #-8]
-    // 0xc13fb4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc13fb4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc13fb4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc13fb4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc13fb8: stur            x0, [fp, #-0x20]
     // 0xc13fbc: r0 = TextStyle()
     //     0xc13fbc: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -168,8 +168,8 @@ class _StreakStat extends StatelessWidget {
     //     0xc14014: add             x3, x3, HEAP, lsl #32
     // 0xc14018: ldur            x1, [fp, #-0x18]
     // 0xc1401c: stur            x3, [fp, #-8]
-    // 0xc14020: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc14020: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc14020: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc14020: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc14024: stur            x0, [fp, #-0x10]
     // 0xc14028: r0 = TextStyle()
     //     0xc14028: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -311,8 +311,8 @@ class StreakCalendarView extends StatelessWidget {
     // 0xc12b78: StoreField: r2->field_f = r0
     //     0xc12b78: stur            w0, [x2, #0xf]
     // 0xc12b7c: ldur            x1, [fp, #-0x10]
-    // 0xc12b80: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc12b80: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc12b80: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc12b80: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc12b84: ldur            x2, [fp, #-0x18]
     // 0xc12b88: StoreField: r2->field_13 = r0
     //     0xc12b88: stur            w0, [x2, #0x13]
@@ -323,8 +323,8 @@ class StreakCalendarView extends StatelessWidget {
     //     0xc12b9c: b.eq            #0xc12ba4
     //     0xc12ba0: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xc12ba4: ldur            x1, [fp, #-0x10]
-    // 0xc12ba8: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc12ba8: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc12ba8: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc12ba8: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc12bac: ldur            x1, [fp, #-0x10]
     // 0xc12bb0: stur            x0, [fp, #-0x20]
     // 0xc12bb4: r0 = of()
@@ -344,8 +344,8 @@ class StreakCalendarView extends StatelessWidget {
     //     0xc12bdc: b.eq            #0xc12be4
     //     0xc12be0: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xc12be4: ldur            x1, [fp, #-0x10]
-    // 0xc12be8: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xc12be8: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xc12be8: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xc12be8: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xc12bec: mov             x3, x0
     // 0xc12bf0: ldur            x2, [fp, #-0x18]
     // 0xc12bf4: stur            x3, [fp, #-0x28]
@@ -358,8 +358,8 @@ class StreakCalendarView extends StatelessWidget {
     //     0xc12c0c: b.eq            #0xc12c14
     //     0xc12c10: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xc12c14: ldur            x1, [fp, #-0x10]
-    // 0xc12c18: r0 = BallAiThemeContext.ballAi()
-    //     0xc12c18: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xc12c18: r0 = KourtAiThemeContext.kourtAi()
+    //     0xc12c18: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xc12c1c: LoadField: r2 = r0->field_23
     //     0xc12c1c: ldur            w2, [x0, #0x23]
     // 0xc12c20: DecompressPointer r2
@@ -367,8 +367,8 @@ class StreakCalendarView extends StatelessWidget {
     // 0xc12c24: stur            x2, [fp, #-0x30]
     // 0xc12c28: tbnz            w2, #4, #0xc12c38
     // 0xc12c2c: ldur            x1, [fp, #-0x10]
-    // 0xc12c30: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc12c30: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc12c30: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc12c30: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc12c34: b               #0xc12c40
     // 0xc12c38: r0 = Instance_Color
     //     0xc12c38: add             x0, PP, #0x42, lsl #12  ; [pp+0x42f08] Obj!Color@d2a1c1
@@ -722,7 +722,7 @@ class StreakCalendarView extends StatelessWidget {
     //     0xc13034: add             x1, PP, #0x42, lsl #12  ; [pp+0x42f18] "Daily Streak"
     //     0xc13038: ldr             x1, [x1, #0xf18]
     // 0xc1303c: r0 = L()
-    //     0xc1303c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1303c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc13040: mov             x1, x0
     // 0xc13044: ldur            x0, [fp, #-8]
     // 0xc13048: stur            x1, [fp, #-0x40]
@@ -764,7 +764,7 @@ class StreakCalendarView extends StatelessWidget {
     //     0xc130a4: add             x1, PP, #0x42, lsl #12  ; [pp+0x42f20] "Weekly Streak"
     //     0xc130a8: ldr             x1, [x1, #0xf20]
     // 0xc130ac: r0 = L()
-    //     0xc130ac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc130ac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc130b0: mov             x1, x0
     // 0xc130b4: ldur            x0, [fp, #-8]
     // 0xc130b8: stur            x1, [fp, #-0x50]
@@ -806,7 +806,7 @@ class StreakCalendarView extends StatelessWidget {
     //     0xc13114: add             x1, PP, #0x42, lsl #12  ; [pp+0x42f28] "Activities"
     //     0xc13118: ldr             x1, [x1, #0xf28]
     // 0xc1311c: r0 = L()
-    //     0xc1311c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc1311c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc13120: mov             x2, x0
     // 0xc13124: ldur            x0, [fp, #-8]
     // 0xc13128: stur            x2, [fp, #-0x50]
@@ -1139,7 +1139,7 @@ class StreakCalendarView extends StatelessWidget {
     //     0xc13474: stur            w2, [x1, #0xf]
     // 0xc13478: mov             x2, x1
     // 0xc1347c: r1 = Function '<anonymous closure>':.
-    //     0xc1347c: add             x1, PP, #0x42, lsl #12  ; [pp+0x42f38] AnonymousClosure: (0xc13784), of [package:ballai/automatic/views/home/tab/tabs/you/components/streak_calendar_view.dart] StreakCalendarView
+    //     0xc1347c: add             x1, PP, #0x42, lsl #12  ; [pp+0x42f38] AnonymousClosure: (0xc13784), of [package:kourtai/automatic/views/home/tab/tabs/you/components/streak_calendar_view.dart] StreakCalendarView
     //     0xc13480: ldr             x1, [x1, #0xf38]
     // 0xc13484: r0 = AllocateClosure()
     //     0xc13484: bl              #0xe553e0  ; AllocateClosureStub

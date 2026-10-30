@@ -288,47 +288,47 @@ public abstract class g {
     public static int f61324z0 = 2;
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
-    public static int[] f61268a = {R.attr.selectableItemBackground, ballai.app.R.attr.selectableItemBackground};
+    public static int[] f61268a = {R.attr.selectableItemBackground, kourtai.app.R.attr.selectableItemBackground};
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */
-    public static int[] f61271b = {R.attr.summaryOn, R.attr.summaryOff, R.attr.disableDependentsState, ballai.app.R.attr.disableDependentsState, ballai.app.R.attr.summaryOff, ballai.app.R.attr.summaryOn};
+    public static int[] f61271b = {R.attr.summaryOn, R.attr.summaryOff, R.attr.disableDependentsState, kourtai.app.R.attr.disableDependentsState, kourtai.app.R.attr.summaryOff, kourtai.app.R.attr.summaryOn};
 
     /* JADX INFO: renamed from: i, reason: collision with root package name */
-    public static int[] f61289i = {R.attr.dialogTitle, R.attr.dialogMessage, R.attr.dialogIcon, R.attr.positiveButtonText, R.attr.negativeButtonText, R.attr.dialogLayout, ballai.app.R.attr.dialogIcon, ballai.app.R.attr.dialogLayout, ballai.app.R.attr.dialogMessage, ballai.app.R.attr.dialogTitle, ballai.app.R.attr.negativeButtonText, ballai.app.R.attr.positiveButtonText};
+    public static int[] f61289i = {R.attr.dialogTitle, R.attr.dialogMessage, R.attr.dialogIcon, R.attr.positiveButtonText, R.attr.negativeButtonText, R.attr.dialogLayout, kourtai.app.R.attr.dialogIcon, kourtai.app.R.attr.dialogLayout, kourtai.app.R.attr.dialogMessage, kourtai.app.R.attr.dialogTitle, kourtai.app.R.attr.negativeButtonText, kourtai.app.R.attr.positiveButtonText};
 
     /* JADX INFO: renamed from: v, reason: collision with root package name */
-    public static int[] f61315v = {ballai.app.R.attr.useSimpleSummaryProvider};
+    public static int[] f61315v = {kourtai.app.R.attr.useSimpleSummaryProvider};
 
     /* JADX INFO: renamed from: x, reason: collision with root package name */
-    public static int[] f61319x = {R.attr.entries, R.attr.entryValues, ballai.app.R.attr.entries, ballai.app.R.attr.entryValues, ballai.app.R.attr.useSimpleSummaryProvider};
+    public static int[] f61319x = {R.attr.entries, R.attr.entryValues, kourtai.app.R.attr.entries, kourtai.app.R.attr.entryValues, kourtai.app.R.attr.useSimpleSummaryProvider};
 
     /* JADX INFO: renamed from: D, reason: collision with root package name */
-    public static int[] f61222D = {R.attr.entries, R.attr.entryValues, ballai.app.R.attr.entries, ballai.app.R.attr.entryValues};
+    public static int[] f61222D = {R.attr.entries, R.attr.entryValues, kourtai.app.R.attr.entries, kourtai.app.R.attr.entryValues};
 
     /* JADX INFO: renamed from: I, reason: collision with root package name */
-    public static int[] f61232I = {R.attr.icon, R.attr.persistent, R.attr.enabled, R.attr.layout, R.attr.title, R.attr.selectable, R.attr.key, R.attr.summary, R.attr.order, R.attr.widgetLayout, R.attr.dependency, R.attr.defaultValue, R.attr.shouldDisableView, R.attr.fragment, R.attr.singleLineTitle, R.attr.iconSpaceReserved, ballai.app.R.attr.allowDividerAbove, ballai.app.R.attr.allowDividerBelow, ballai.app.R.attr.defaultValue, ballai.app.R.attr.dependency, ballai.app.R.attr.enableCopying, ballai.app.R.attr.enabled, ballai.app.R.attr.fragment, ballai.app.R.attr.icon, ballai.app.R.attr.iconSpaceReserved, ballai.app.R.attr.isPreferenceVisible, ballai.app.R.attr.key, ballai.app.R.attr.layout, ballai.app.R.attr.order, ballai.app.R.attr.persistent, ballai.app.R.attr.selectable, ballai.app.R.attr.shouldDisableView, ballai.app.R.attr.singleLineTitle, ballai.app.R.attr.summary, ballai.app.R.attr.title, ballai.app.R.attr.widgetLayout};
+    public static int[] f61232I = {R.attr.icon, R.attr.persistent, R.attr.enabled, R.attr.layout, R.attr.title, R.attr.selectable, R.attr.key, R.attr.summary, R.attr.order, R.attr.widgetLayout, R.attr.dependency, R.attr.defaultValue, R.attr.shouldDisableView, R.attr.fragment, R.attr.singleLineTitle, R.attr.iconSpaceReserved, kourtai.app.R.attr.allowDividerAbove, kourtai.app.R.attr.allowDividerBelow, kourtai.app.R.attr.defaultValue, kourtai.app.R.attr.dependency, kourtai.app.R.attr.enableCopying, kourtai.app.R.attr.enabled, kourtai.app.R.attr.fragment, kourtai.app.R.attr.icon, kourtai.app.R.attr.iconSpaceReserved, kourtai.app.R.attr.isPreferenceVisible, kourtai.app.R.attr.key, kourtai.app.R.attr.layout, kourtai.app.R.attr.order, kourtai.app.R.attr.persistent, kourtai.app.R.attr.selectable, kourtai.app.R.attr.shouldDisableView, kourtai.app.R.attr.singleLineTitle, kourtai.app.R.attr.summary, kourtai.app.R.attr.title, kourtai.app.R.attr.widgetLayout};
 
     /* JADX INFO: renamed from: t0, reason: collision with root package name */
-    public static int[] f61312t0 = {R.attr.layout, R.attr.divider, R.attr.dividerHeight, ballai.app.R.attr.allowDividerAfterLastItem};
+    public static int[] f61312t0 = {R.attr.layout, R.attr.divider, R.attr.dividerHeight, kourtai.app.R.attr.allowDividerAfterLastItem};
 
     /* JADX INFO: renamed from: u0, reason: collision with root package name */
-    public static int[] f61314u0 = {R.attr.layout, R.attr.divider, R.attr.dividerHeight, ballai.app.R.attr.allowDividerAfterLastItem};
+    public static int[] f61314u0 = {R.attr.layout, R.attr.divider, R.attr.dividerHeight, kourtai.app.R.attr.allowDividerAfterLastItem};
 
     /* JADX INFO: renamed from: v0, reason: collision with root package name */
-    public static int[] f61316v0 = {R.attr.orderingFromXml, ballai.app.R.attr.initialExpandedChildrenCount, ballai.app.R.attr.orderingFromXml};
+    public static int[] f61316v0 = {R.attr.orderingFromXml, kourtai.app.R.attr.initialExpandedChildrenCount, kourtai.app.R.attr.orderingFromXml};
 
     /* JADX INFO: renamed from: y0, reason: collision with root package name */
-    public static int[] f61322y0 = {R.attr.maxWidth, R.attr.maxHeight, ballai.app.R.attr.maxHeight, ballai.app.R.attr.maxWidth};
+    public static int[] f61322y0 = {R.attr.maxWidth, R.attr.maxHeight, kourtai.app.R.attr.maxHeight, kourtai.app.R.attr.maxWidth};
 
     /* JADX INFO: renamed from: B0, reason: collision with root package name */
-    public static int[] f61219B0 = {ballai.app.R.attr.checkBoxPreferenceStyle, ballai.app.R.attr.dialogPreferenceStyle, ballai.app.R.attr.dropdownPreferenceStyle, ballai.app.R.attr.editTextPreferenceStyle, ballai.app.R.attr.preferenceCategoryStyle, ballai.app.R.attr.preferenceCategoryTitleTextAppearance, ballai.app.R.attr.preferenceCategoryTitleTextColor, ballai.app.R.attr.preferenceFragmentCompatStyle, ballai.app.R.attr.preferenceFragmentListStyle, ballai.app.R.attr.preferenceFragmentStyle, ballai.app.R.attr.preferenceInformationStyle, ballai.app.R.attr.preferenceScreenStyle, ballai.app.R.attr.preferenceStyle, ballai.app.R.attr.preferenceTheme, ballai.app.R.attr.seekBarPreferenceStyle, ballai.app.R.attr.switchPreferenceCompatStyle, ballai.app.R.attr.switchPreferenceStyle};
+    public static int[] f61219B0 = {kourtai.app.R.attr.checkBoxPreferenceStyle, kourtai.app.R.attr.dialogPreferenceStyle, kourtai.app.R.attr.dropdownPreferenceStyle, kourtai.app.R.attr.editTextPreferenceStyle, kourtai.app.R.attr.preferenceCategoryStyle, kourtai.app.R.attr.preferenceCategoryTitleTextAppearance, kourtai.app.R.attr.preferenceCategoryTitleTextColor, kourtai.app.R.attr.preferenceFragmentCompatStyle, kourtai.app.R.attr.preferenceFragmentListStyle, kourtai.app.R.attr.preferenceFragmentStyle, kourtai.app.R.attr.preferenceInformationStyle, kourtai.app.R.attr.preferenceScreenStyle, kourtai.app.R.attr.preferenceStyle, kourtai.app.R.attr.preferenceTheme, kourtai.app.R.attr.seekBarPreferenceStyle, kourtai.app.R.attr.switchPreferenceCompatStyle, kourtai.app.R.attr.switchPreferenceStyle};
 
     /* JADX INFO: renamed from: C0, reason: collision with root package name */
-    public static int[] f61221C0 = {R.attr.layout, R.attr.max, ballai.app.R.attr.adjustable, ballai.app.R.attr.min, ballai.app.R.attr.seekBarIncrement, ballai.app.R.attr.showSeekBarValue, ballai.app.R.attr.updatesContinuously};
+    public static int[] f61221C0 = {R.attr.layout, R.attr.max, kourtai.app.R.attr.adjustable, kourtai.app.R.attr.min, kourtai.app.R.attr.seekBarIncrement, kourtai.app.R.attr.showSeekBarValue, kourtai.app.R.attr.updatesContinuously};
 
     /* JADX INFO: renamed from: J0, reason: collision with root package name */
-    public static int[] f61235J0 = {R.attr.summaryOn, R.attr.summaryOff, R.attr.disableDependentsState, R.attr.switchTextOn, R.attr.switchTextOff, ballai.app.R.attr.disableDependentsState, ballai.app.R.attr.summaryOff, ballai.app.R.attr.summaryOn, ballai.app.R.attr.switchTextOff, ballai.app.R.attr.switchTextOn};
+    public static int[] f61235J0 = {R.attr.summaryOn, R.attr.summaryOff, R.attr.disableDependentsState, R.attr.switchTextOn, R.attr.switchTextOff, kourtai.app.R.attr.disableDependentsState, kourtai.app.R.attr.summaryOff, kourtai.app.R.attr.summaryOn, kourtai.app.R.attr.switchTextOff, kourtai.app.R.attr.switchTextOn};
 
     /* JADX INFO: renamed from: U0, reason: collision with root package name */
-    public static int[] f61257U0 = {R.attr.summaryOn, R.attr.summaryOff, R.attr.disableDependentsState, R.attr.switchTextOn, R.attr.switchTextOff, ballai.app.R.attr.disableDependentsState, ballai.app.R.attr.summaryOff, ballai.app.R.attr.summaryOn, ballai.app.R.attr.switchTextOff, ballai.app.R.attr.switchTextOn};
+    public static int[] f61257U0 = {R.attr.summaryOn, R.attr.summaryOff, R.attr.disableDependentsState, R.attr.switchTextOn, R.attr.switchTextOff, kourtai.app.R.attr.disableDependentsState, kourtai.app.R.attr.summaryOff, kourtai.app.R.attr.summaryOn, kourtai.app.R.attr.switchTextOff, kourtai.app.R.attr.switchTextOn};
 }

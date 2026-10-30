@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/managers/auth/auth_manager.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/managers/auth/auth_manager.dart
 
 // class id: 1048642, size: 0x8
 class :: {
@@ -14,7 +14,7 @@ class AuthManager extends ChangeNotifier {
     //     0x9b5628: mov             fp, SP
     // 0x9b562c: ldr             x2, [fp, #0x10]
     // 0x9b5630: r1 = Function 'dispose':.
-    //     0x9b5630: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d5c8] AnonymousClosure: (0x9b5648), in [package:ballai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::dispose (0x9ba924)
+    //     0x9b5630: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d5c8] AnonymousClosure: (0x9b5648), in [package:kourtai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::dispose (0x9ba924)
     //     0x9b5634: ldr             x1, [x1, #0x5c8]
     // 0x9b5638: r0 = AllocateClosure()
     //     0x9b5638: bl              #0xe553e0  ; AllocateClosureStub
@@ -39,7 +39,7 @@ class AuthManager extends ChangeNotifier {
     //     0x9b5660: cmp             SP, x16
     //     0x9b5664: b.ls            #0x9b5678
     // 0x9b5668: r0 = dispose()
-    //     0x9b5668: bl              #0x9ba924  ; [package:ballai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::dispose
+    //     0x9b5668: bl              #0x9ba924  ; [package:kourtai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::dispose
     // 0x9b566c: LeaveFrame
     //     0x9b566c: mov             SP, fp
     //     0x9b5670: ldp             fp, lr, [SP], #0x10
@@ -117,14 +117,14 @@ class AuthManager extends ChangeNotifier {
     //     0x9cbb90: mov             x0, NULL
     // 0x9cbb94: r0 = ReturnAsyncNotFuture()
     //     0x9cbb94: b               #0x60af9c  ; ReturnAsyncNotFutureStub
-    // 0x9cbb98: r1 = Instance_BallAiLogCategory
-    //     0x9cbb98: add             x1, PP, #0x12, lsl #12  ; [pp+0x12438] Obj!BallAiLogCategory@d3bc61
+    // 0x9cbb98: r1 = Instance_KourtAiLogCategory
+    //     0x9cbb98: add             x1, PP, #0x12, lsl #12  ; [pp+0x12438] Obj!KourtAiLogCategory@d3bc61
     //     0x9cbb9c: ldr             x1, [x1, #0x438]
     // 0x9cbba0: r2 = "signOut"
     //     0x9cbba0: add             x2, PP, #0x1a, lsl #12  ; [pp+0x1acf8] "signOut"
     //     0x9cbba4: ldr             x2, [x2, #0xcf8]
     // 0x9cbba8: r0 = info()
-    //     0x9cbba8: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
+    //     0x9cbba8: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
     // 0x9cbbac: ldur            x0, [fp, #-0x68]
     // 0x9cbbb0: r1 = true
     //     0x9cbbb0: add             x1, NULL, #0x20  ; true
@@ -134,7 +134,7 @@ class AuthManager extends ChangeNotifier {
     // 0x9cbbbc: r0 = notifyListeners()
     //     0x9cbbbc: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
     // 0x9cbbc0: r0 = signOutCancellations()
-    //     0x9cbbc0: bl              #0x9cc788  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::signOutCancellations
+    //     0x9cbbc0: bl              #0x9cc788  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::signOutCancellations
     // 0x9cbbc4: mov             x1, x0
     // 0x9cbbc8: stur            x1, [fp, #-0x70]
     // 0x9cbbcc: r0 = Await()
@@ -150,7 +150,7 @@ class AuthManager extends ChangeNotifier {
     // 0x9cbbe8: b               #0x9cbbf8
     // 0x9cbbec: mov             x1, x0
     // 0x9cbbf0: r0 = logOut()
-    //     0x9cbbf0: bl              #0x9cc4ac  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::logOut
+    //     0x9cbbf0: bl              #0x9cc4ac  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::logOut
     // 0x9cbbf4: mov             x2, x0
     // 0x9cbbf8: ldur            x1, [fp, #-0x68]
     // 0x9cbbfc: mov             x0, x2
@@ -167,16 +167,16 @@ class AuthManager extends ChangeNotifier {
     // 0x9cbc1c: b.eq            #0x9cbc2c
     // 0x9cbc20: mov             x1, x2
     // 0x9cbc24: r0 = resetForSignedOutUser()
-    //     0x9cbc24: bl              #0x9cc404  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::resetForSignedOutUser
+    //     0x9cbc24: bl              #0x9cc404  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::resetForSignedOutUser
     // 0x9cbc28: ldur            x0, [fp, #-0x68]
     // 0x9cbc2c: LoadField: r1 = r0->field_23
     //     0x9cbc2c: ldur            w1, [x0, #0x23]
     // 0x9cbc30: DecompressPointer r1
     //     0x9cbc30: add             x1, x1, HEAP, lsl #32
     // 0x9cbc34: r0 = clearLocalUserState()
-    //     0x9cbc34: bl              #0x9cc300  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::clearLocalUserState
+    //     0x9cbc34: bl              #0x9cc300  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::clearLocalUserState
     // 0x9cbc38: r0 = clear()
-    //     0x9cbc38: bl              #0x930660  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::clear
+    //     0x9cbc38: bl              #0x930660  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::clear
     // 0x9cbc3c: mov             x1, x0
     // 0x9cbc40: stur            x1, [fp, #-0x70]
     // 0x9cbc44: r0 = Await()
@@ -225,14 +225,14 @@ class AuthManager extends ChangeNotifier {
     // 0x9cbcc4: stur            x1, [fp, #-0x80]
     // 0x9cbcc8: r0 = Await()
     //     0x9cbcc8: bl              #0x60ad4c  ; AwaitStub
-    // 0x9cbccc: r1 = Instance_BallAiLogCategory
-    //     0x9cbccc: add             x1, PP, #0x12, lsl #12  ; [pp+0x12438] Obj!BallAiLogCategory@d3bc61
+    // 0x9cbccc: r1 = Instance_KourtAiLogCategory
+    //     0x9cbccc: add             x1, PP, #0x12, lsl #12  ; [pp+0x12438] Obj!KourtAiLogCategory@d3bc61
     //     0x9cbcd0: ldr             x1, [x1, #0x438]
     // 0x9cbcd4: r2 = "signOut complete"
     //     0x9cbcd4: add             x2, PP, #0x1a, lsl #12  ; [pp+0x1ad00] "signOut complete"
     //     0x9cbcd8: ldr             x2, [x2, #0xd00]
     // 0x9cbcdc: r0 = info()
-    //     0x9cbcdc: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
+    //     0x9cbcdc: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
     // 0x9cbce0: ldur            x2, [fp, #-0x68]
     // 0x9cbce4: r3 = false
     //     0x9cbce4: add             x3, NULL, #0x30  ; false
@@ -300,7 +300,7 @@ class AuthManager extends ChangeNotifier {
     // 0x9eaef8: mov             x1, x0
     // 0x9eaefc: stur            x0, [fp, #-0xb0]
     // 0x9eaf00: r0 = isValid()
-    //     0x9eaf00: bl              #0x9ebecc  ; [package:ballai/automatic/utility/validation/email_address.dart] EmailAddress::isValid
+    //     0x9eaf00: bl              #0x9ebecc  ; [package:kourtai/automatic/utility/validation/email_address.dart] EmailAddress::isValid
     // 0x9eaf04: tbnz            w0, #4, #0x9eb09c
     // 0x9eaf08: ldur            x0, [fp, #-0xa8]
     // 0x9eaf0c: r2 = true
@@ -346,7 +346,7 @@ class AuthManager extends ChangeNotifier {
     // 0x9eaf7c: ldur            x1, [fp, #-0xc0]
     // 0x9eaf80: mov             x2, x0
     // 0x9eaf84: r0 = bootstrap()
-    //     0x9eaf84: bl              #0x939db8  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::bootstrap
+    //     0x9eaf84: bl              #0x939db8  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::bootstrap
     // 0x9eaf88: mov             x1, x0
     // 0x9eaf8c: stur            x1, [fp, #-0xc0]
     // 0x9eaf90: r0 = Await()
@@ -424,7 +424,7 @@ class AuthManager extends ChangeNotifier {
     // 0x9eb060: ldur            x1, [fp, #-0xd0]
     // 0x9eb064: mov             x2, x0
     // 0x9eb068: r0 = bootstrap()
-    //     0x9eb068: bl              #0x939db8  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::bootstrap
+    //     0x9eb068: bl              #0x939db8  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::bootstrap
     // 0x9eb06c: mov             x1, x0
     // 0x9eb070: stur            x1, [fp, #-0xd0]
     // 0x9eb074: r0 = Await()
@@ -439,7 +439,7 @@ class AuthManager extends ChangeNotifier {
     //     0x9eb088: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
     // 0x9eb08c: ldur            x1, [fp, #-0xa8]
     // 0x9eb090: r0 = _revealPostAuthDestination()
-    //     0x9eb090: bl              #0x9eb188  ; [package:ballai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::_revealPostAuthDestination
+    //     0x9eb090: bl              #0x9eb188  ; [package:kourtai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::_revealPostAuthDestination
     // 0x9eb094: r0 = Null
     //     0x9eb094: mov             x0, NULL
     // 0x9eb098: r0 = ReturnAsyncNotFuture()
@@ -512,7 +512,7 @@ class AuthManager extends ChangeNotifier {
     // 0x9eb15c: b.ne            #0x9eb168
     // 0x9eb160: ldur            x1, [fp, #-0xa8]
     // 0x9eb164: r0 = _revealPostAuthDestination()
-    //     0x9eb164: bl              #0x9eb188  ; [package:ballai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::_revealPostAuthDestination
+    //     0x9eb164: bl              #0x9eb188  ; [package:kourtai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::_revealPostAuthDestination
     // 0x9eb168: ldur            x0, [fp, #-0xb0]
     // 0x9eb16c: ldur            x1, [fp, #-0xb8]
     // 0x9eb170: r0 = ReThrow()
@@ -553,7 +553,7 @@ class AuthManager extends ChangeNotifier {
     //     0x9eb1c0: add             x0, x0, HEAP, lsl #32
     // 0x9eb1c4: stur            x0, [fp, #-8]
     // 0x9eb1c8: r1 = Function '<anonymous closure>':.
-    //     0x9eb1c8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a5f0] AnonymousClosure: (0x9eb2a0), in [package:ballai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::_revealPostAuthDestination (0x9eb188)
+    //     0x9eb1c8: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a5f0] AnonymousClosure: (0x9eb2a0), in [package:kourtai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::_revealPostAuthDestination (0x9eb188)
     //     0x9eb1cc: ldr             x1, [x1, #0x5f0]
     // 0x9eb1d0: r2 = Null
     //     0x9eb1d0: mov             x2, NULL
@@ -642,7 +642,7 @@ class AuthManager extends ChangeNotifier {
     //     0x9eb2ac: cmp             SP, x16
     //     0x9eb2b0: b.ls            #0x9eb2c8
     // 0x9eb2b4: r0 = popAuthFunnelToRoot()
-    //     0x9eb2b4: bl              #0x940b54  ; [package:ballai/automatic/app/app_nav.dart] ::popAuthFunnelToRoot
+    //     0x9eb2b4: bl              #0x940b54  ; [package:kourtai/automatic/app/app_nav.dart] ::popAuthFunnelToRoot
     // 0x9eb2b8: r0 = Null
     //     0x9eb2b8: mov             x0, NULL
     // 0x9eb2bc: LeaveFrame
@@ -771,14 +771,14 @@ class AuthManager extends ChangeNotifier {
     // 0x9ec280: ldur            x1, [fp, #-0xb0]
     // 0x9ec284: mov             x2, x0
     // 0x9ec288: r0 = bootstrap()
-    //     0x9ec288: bl              #0x939db8  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::bootstrap
+    //     0x9ec288: bl              #0x939db8  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::bootstrap
     // 0x9ec28c: mov             x1, x0
     // 0x9ec290: stur            x1, [fp, #-0xb0]
     // 0x9ec294: r0 = Await()
     //     0x9ec294: bl              #0x60ad4c  ; AwaitStub
     // 0x9ec298: ldur            x1, [fp, #-0xa8]
     // 0x9ec29c: r0 = _revealPostAuthDestination()
-    //     0x9ec29c: bl              #0x9eb188  ; [package:ballai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::_revealPostAuthDestination
+    //     0x9ec29c: bl              #0x9eb188  ; [package:kourtai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::_revealPostAuthDestination
     // 0x9ec2a0: ldur            x2, [fp, #-0xa8]
     // 0x9ec2a4: r3 = false
     //     0x9ec2a4: add             x3, NULL, #0x30  ; false
@@ -972,7 +972,7 @@ class AuthManager extends ChangeNotifier {
     // 0xa0fbd8: mov             x1, x0
     // 0xa0fbdc: stur            x0, [fp, #-0x90]
     // 0xa0fbe0: r0 = isValid()
-    //     0xa0fbe0: bl              #0x9ebecc  ; [package:ballai/automatic/utility/validation/email_address.dart] EmailAddress::isValid
+    //     0xa0fbe0: bl              #0x9ebecc  ; [package:kourtai/automatic/utility/validation/email_address.dart] EmailAddress::isValid
     // 0xa0fbe4: tbnz            w0, #4, #0xa0fc98
     // 0xa0fbe8: ldur            x0, [fp, #-0x88]
     // 0xa0fbec: r1 = true
@@ -1018,7 +1018,7 @@ class AuthManager extends ChangeNotifier {
     // 0xa0fc5c: ldur            x1, [fp, #-0xa0]
     // 0xa0fc60: mov             x2, x0
     // 0xa0fc64: r0 = bootstrap()
-    //     0xa0fc64: bl              #0x939db8  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::bootstrap
+    //     0xa0fc64: bl              #0x939db8  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::bootstrap
     // 0xa0fc68: mov             x1, x0
     // 0xa0fc6c: stur            x1, [fp, #-0xa0]
     // 0xa0fc70: r0 = Await()
@@ -1033,7 +1033,7 @@ class AuthManager extends ChangeNotifier {
     //     0xa0fc84: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners
     // 0xa0fc88: ldur            x1, [fp, #-0x88]
     // 0xa0fc8c: r0 = _revealPostAuthDestination()
-    //     0xa0fc8c: bl              #0x9eb188  ; [package:ballai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::_revealPostAuthDestination
+    //     0xa0fc8c: bl              #0x9eb188  ; [package:kourtai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::_revealPostAuthDestination
     // 0xa0fc90: r0 = Null
     //     0xa0fc90: mov             x0, NULL
     // 0xa0fc94: r0 = ReturnAsyncNotFuture()
@@ -1122,7 +1122,7 @@ class AuthManager extends ChangeNotifier {
     // 0xa0fd88: b.ne            #0xa0fd94
     // 0xa0fd8c: ldur            x1, [fp, #-0x88]
     // 0xa0fd90: r0 = _revealPostAuthDestination()
-    //     0xa0fd90: bl              #0x9eb188  ; [package:ballai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::_revealPostAuthDestination
+    //     0xa0fd90: bl              #0x9eb188  ; [package:kourtai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::_revealPostAuthDestination
     // 0xa0fd94: ldur            x0, [fp, #-0x90]
     // 0xa0fd98: ldur            x1, [fp, #-0x98]
     // 0xa0fd9c: r0 = ReThrow()
@@ -1202,14 +1202,14 @@ class AuthManager extends ChangeNotifier {
     // 0xbdaed4: InitAsync() -> Future<bool>
     //     0xbdaed4: ldr             x0, [PP, #0x19b0]  ; [pp+0x19b0] TypeArguments: <bool>
     //     0xbdaed8: bl              #0x60afc8  ; InitAsyncStub
-    // 0xbdaedc: r1 = Instance_BallAiLogCategory
-    //     0xbdaedc: add             x1, PP, #0x12, lsl #12  ; [pp+0x12438] Obj!BallAiLogCategory@d3bc61
+    // 0xbdaedc: r1 = Instance_KourtAiLogCategory
+    //     0xbdaedc: add             x1, PP, #0x12, lsl #12  ; [pp+0x12438] Obj!KourtAiLogCategory@d3bc61
     //     0xbdaee0: ldr             x1, [x1, #0x438]
     // 0xbdaee4: r2 = "deleteAccount"
     //     0xbdaee4: add             x2, PP, #0x49, lsl #12  ; [pp+0x49e00] "deleteAccount"
     //     0xbdaee8: ldr             x2, [x2, #0xe00]
     // 0xbdaeec: r0 = info()
-    //     0xbdaeec: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
+    //     0xbdaeec: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
     // 0xbdaef0: ldur            x1, [fp, #-0x80]
     // 0xbdaef4: LoadField: r0 = r1->field_2f
     //     0xbdaef4: ldur            w0, [x1, #0x2f]
@@ -1269,7 +1269,7 @@ class AuthManager extends ChangeNotifier {
     //     0xbdaf78: add             x4, x4, HEAP, lsl #32
     // 0xbdaf7c: mov             x2, x4
     // 0xbdaf80: r0 = deleteCurrentUserDocument()
-    //     0xbdaf80: bl              #0xbdb31c  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::deleteCurrentUserDocument
+    //     0xbdaf80: bl              #0xbdb31c  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::deleteCurrentUserDocument
     // 0xbdaf84: mov             x1, x0
     // 0xbdaf88: stur            x1, [fp, #-0x90]
     // 0xbdaf8c: r0 = Await()
@@ -1293,7 +1293,7 @@ class AuthManager extends ChangeNotifier {
     //     0xbdafc0: bl              #0x60ad4c  ; AwaitStub
     // 0xbdafc4: ldur            x1, [fp, #-0x80]
     // 0xbdafc8: r0 = signOut()
-    //     0xbdafc8: bl              #0x9cbb58  ; [package:ballai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::signOut
+    //     0xbdafc8: bl              #0x9cbb58  ; [package:kourtai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::signOut
     // 0xbdafcc: mov             x1, x0
     // 0xbdafd0: stur            x1, [fp, #-0xa0]
     // 0xbdafd4: r0 = Await()
@@ -1353,13 +1353,13 @@ class AuthManager extends ChangeNotifier {
     // 0xbdb060: r0 = _interpolate()
     //     0xbdb060: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0xbdb064: mov             x2, x0
-    // 0xbdb068: r1 = Instance_BallAiLogCategory
-    //     0xbdb068: add             x1, PP, #0x12, lsl #12  ; [pp+0x12438] Obj!BallAiLogCategory@d3bc61
+    // 0xbdb068: r1 = Instance_KourtAiLogCategory
+    //     0xbdb068: add             x1, PP, #0x12, lsl #12  ; [pp+0x12438] Obj!KourtAiLogCategory@d3bc61
     //     0xbdb06c: ldr             x1, [x1, #0x438]
     // 0xbdb070: r4 = const [0, 0x2, 0, 0x2, null]
     //     0xbdb070: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0xbdb074: r0 = warn()
-    //     0xbdb074: bl              #0x65ea60  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::warn
+    //     0xbdb074: bl              #0x65ea60  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::warn
     // 0xbdb078: ldur            x0, [fp, #-0x98]
     // 0xbdb07c: r1 = LoadClassIdInstr(r0)
     //     0xbdb07c: ldur            x1, [x0, #-1]
@@ -1502,7 +1502,7 @@ class AuthManager extends ChangeNotifier {
     //     0xc2b850: bl              #0xc2b8b0  ; [package:firebase_auth/firebase_auth.dart] FirebaseAuth::authStateChanges
     // 0xc2b854: ldur            x2, [fp, #-8]
     // 0xc2b858: r1 = Function '_onAuthState@682304613':.
-    //     0xc2b858: add             x1, PP, #0x12, lsl #12  ; [pp+0x12410] AnonymousClosure: (0xc2bc1c), in [package:ballai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::_onAuthState (0xc2bc58)
+    //     0xc2b858: add             x1, PP, #0x12, lsl #12  ; [pp+0x12410] AnonymousClosure: (0xc2bc1c), in [package:kourtai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::_onAuthState (0xc2bc58)
     //     0xc2b85c: ldr             x1, [x1, #0x410]
     // 0xc2b860: stur            x0, [fp, #-0x10]
     // 0xc2b864: r0 = AllocateClosure()
@@ -1549,7 +1549,7 @@ class AuthManager extends ChangeNotifier {
     //     0xc2bc38: b.ls            #0xc2bc50
     // 0xc2bc3c: ldr             x2, [fp, #0x10]
     // 0xc2bc40: r0 = _onAuthState()
-    //     0xc2bc40: bl              #0xc2bc58  ; [package:ballai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::_onAuthState
+    //     0xc2bc40: bl              #0xc2bc58  ; [package:kourtai/automatic/app/dependencies/managers/auth/auth_manager.dart] AuthManager::_onAuthState
     // 0xc2bc44: LeaveFrame
     //     0xc2bc44: mov             SP, fp
     //     0xc2bc48: ldp             fp, lr, [SP], #0x10
@@ -1620,7 +1620,7 @@ class AuthManager extends ChangeNotifier {
     // 0xc2bcfc: DecompressPointer r1
     //     0xc2bcfc: add             x1, x1, HEAP, lsl #32
     // 0xc2bd00: r0 = clearLocalUserState()
-    //     0xc2bd00: bl              #0x9cc300  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::clearLocalUserState
+    //     0xc2bd00: bl              #0x9cc300  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::clearLocalUserState
     // 0xc2bd04: ldur            x0, [fp, #-0x18]
     // 0xc2bd08: LoadField: r1 = r0->field_27
     //     0xc2bd08: ldur            w1, [x0, #0x27]
@@ -1629,9 +1629,9 @@ class AuthManager extends ChangeNotifier {
     // 0xc2bd10: cmp             w1, NULL
     // 0xc2bd14: b.eq            #0xc2bd1c
     // 0xc2bd18: r0 = resetForSignedOutUser()
-    //     0xc2bd18: bl              #0x9cc404  ; [package:ballai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::resetForSignedOutUser
+    //     0xc2bd18: bl              #0x9cc404  ; [package:kourtai/automatic/app/dependencies/managers/misc/deep_link_manager.dart] DeepLinkManager::resetForSignedOutUser
     // 0xc2bd1c: r0 = popAuthFunnelToRoot()
-    //     0xc2bd1c: bl              #0x940b54  ; [package:ballai/automatic/app/app_nav.dart] ::popAuthFunnelToRoot
+    //     0xc2bd1c: bl              #0x940b54  ; [package:kourtai/automatic/app/app_nav.dart] ::popAuthFunnelToRoot
     // 0xc2bd20: ldur            x0, [fp, #-0x10]
     // 0xc2bd24: tbz             w0, #4, #0xc2bd30
     // 0xc2bd28: ldur            x0, [fp, #-0x18]
@@ -1707,11 +1707,11 @@ class AuthManager extends ChangeNotifier {
     // 0xc2bde8: r0 = _interpolate()
     //     0xc2bde8: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0xc2bdec: mov             x2, x0
-    // 0xc2bdf0: r1 = Instance_BallAiLogCategory
-    //     0xc2bdf0: add             x1, PP, #0x12, lsl #12  ; [pp+0x12438] Obj!BallAiLogCategory@d3bc61
+    // 0xc2bdf0: r1 = Instance_KourtAiLogCategory
+    //     0xc2bdf0: add             x1, PP, #0x12, lsl #12  ; [pp+0x12438] Obj!KourtAiLogCategory@d3bc61
     //     0xc2bdf4: ldr             x1, [x1, #0x438]
     // 0xc2bdf8: r0 = info()
-    //     0xc2bdf8: bl              #0x60b454  ; [package:ballai/automatic/app/logging/ball_ai_logger.dart] BallAiLogger::info
+    //     0xc2bdf8: bl              #0x60b454  ; [package:kourtai/automatic/app/logging/kourt_ai_logger.dart] KourtAiLogger::info
     // 0xc2bdfc: ldur            x1, [fp, #-0x18]
     // 0xc2be00: r0 = notifyListeners()
     //     0xc2be00: bl              #0x5f9850  ; [package:flutter/src/foundation/change_notifier.dart] ChangeNotifier::notifyListeners

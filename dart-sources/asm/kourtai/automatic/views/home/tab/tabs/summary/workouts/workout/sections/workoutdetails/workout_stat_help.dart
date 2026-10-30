@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_stat_help.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_stat_help.dart
 
 // class id: 1048919, size: 0x8
 class :: {
@@ -46,8 +46,8 @@ class WorkoutStatLabel extends StatelessWidget {
     // 0xbf3470: DecompressPointer r4
     //     0xbf3470: add             x4, x4, HEAP, lsl #32
     // 0xbf3474: stur            x4, [fp, #-0x18]
-    // 0xbf3478: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbf3478: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbf3478: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbf3478: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbf347c: stur            x0, [fp, #-8]
     // 0xbf3480: r0 = TextStyle()
     //     0xbf3480: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -137,8 +137,8 @@ class WorkoutStatLabel extends StatelessWidget {
     //     0xbf3554: ldur            w1, [x0, #0x13]
     // 0xbf3558: DecompressPointer r1
     //     0xbf3558: add             x1, x1, HEAP, lsl #32
-    // 0xbf355c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbf355c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbf355c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbf355c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbf3560: r16 = 0.700000
     //     0xbf3560: add             x16, PP, #0x2d, lsl #12  ; [pp+0x2d4e0] 0.7
     //     0xbf3564: ldr             x16, [x16, #0x4e0]
@@ -171,7 +171,7 @@ class WorkoutStatLabel extends StatelessWidget {
     //     0xbf35ac: bl              #0x9dc8b8  ; AllocateGestureDetectorStub -> GestureDetector (size=0x10c)
     // 0xbf35b0: ldur            x2, [fp, #-0x28]
     // 0xbf35b4: r1 = Function '<anonymous closure>':.
-    //     0xbf35b4: add             x1, PP, #0x55, lsl #12  ; [pp+0x555d8] AnonymousClosure: (0xbf393c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_stat_help.dart] WorkoutStatLabel::build (0xbf3418)
+    //     0xbf35b4: add             x1, PP, #0x55, lsl #12  ; [pp+0x555d8] AnonymousClosure: (0xbf393c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_stat_help.dart] WorkoutStatLabel::build (0xbf3418)
     //     0xbf35b8: ldr             x1, [x1, #0x5d8]
     // 0xbf35bc: stur            x0, [fp, #-8]
     // 0xbf35c0: r0 = AllocateClosure()
@@ -272,7 +272,7 @@ class WorkoutStatLabel extends StatelessWidget {
     // 0xbf36bc: ret
     //     0xbf36bc: ret             
     // 0xbf36c0: r1 = Function '<anonymous closure>':.
-    //     0xbf36c0: add             x1, PP, #0x55, lsl #12  ; [pp+0x555e0] AnonymousClosure: (0xbf36f8), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_stat_help.dart] WorkoutStatLabel::build (0xbf3418)
+    //     0xbf36c0: add             x1, PP, #0x55, lsl #12  ; [pp+0x555e0] AnonymousClosure: (0xbf36f8), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/sections/workoutdetails/workout_stat_help.dart] WorkoutStatLabel::build (0xbf3418)
     //     0xbf36c4: ldr             x1, [x1, #0x5e0]
     // 0xbf36c8: r0 = AllocateClosure()
     //     0xbf36c8: bl              #0xe553e0  ; AllocateClosureStub
@@ -567,7 +567,7 @@ class WorkoutStatLabel extends StatelessWidget {
     //     0xbf3988: add             x0, x0, HEAP, lsl #32
     // 0xbf398c: mov             x2, x0
     // 0xbf3990: r0 = show()
-    //     0xbf3990: bl              #0xbf39ac  ; [package:ballai/automatic/views/misc/help_view.dart] HelpView::show
+    //     0xbf3990: bl              #0xbf39ac  ; [package:kourtai/automatic/views/misc/help_view.dart] HelpView::show
     // 0xbf3994: r0 = Null
     //     0xbf3994: mov             x0, NULL
     // 0xbf3998: LeaveFrame

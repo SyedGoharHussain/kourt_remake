@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/utility/location/workout_location_resolver.dart
+// lib: , url: package:kourtai/automatic/utility/location/workout_location_resolver.dart
 
 // class id: 1048733, size: 0x8
 class :: {
@@ -64,7 +64,7 @@ class WorkoutLocationResolver extends Object {
     // 0x8f3f64: r0 = _interpolate()
     //     0x8f3f64: bl              #0x6089b0  ; [dart:core] _StringBase::_interpolate
     // 0x8f3f68: stur            x0, [fp, #-0xc0]
-    // 0x8f3f6c: r0 = InitLateStaticField(0xe14) // [package:ballai/automatic/utility/location/workout_location_resolver.dart] WorkoutLocationResolver::_cache
+    // 0x8f3f6c: r0 = InitLateStaticField(0xe14) // [package:kourtai/automatic/utility/location/workout_location_resolver.dart] WorkoutLocationResolver::_cache
     //     0x8f3f6c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x8f3f70: ldr             x0, [x0, #0x1c28]
     //     0x8f3f74: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -166,7 +166,7 @@ class WorkoutLocationResolver extends Object {
     // 0x8f4094: mov             x3, x4
     // 0x8f4098: stur            x6, [fp, #-0xb0]
     // 0x8f409c: r0 = cityStateCountry()
-    //     0x8f409c: bl              #0x79596c  ; [package:ballai/automatic/utility/location/location_text_formatter.dart] LocationTextFormatter::cityStateCountry
+    //     0x8f409c: bl              #0x79596c  ; [package:kourtai/automatic/utility/location/location_text_formatter.dart] LocationTextFormatter::cityStateCountry
     // 0x8f40a0: stur            x0, [fp, #-0xb0]
     // 0x8f40a4: cmp             w0, NULL
     // 0x8f40a8: b.eq            #0x8f40bc

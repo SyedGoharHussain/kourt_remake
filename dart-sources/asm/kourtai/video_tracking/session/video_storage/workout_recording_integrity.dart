@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/session/video_storage/workout_recording_integrity.dart
+// lib: , url: package:kourtai/video_tracking/session/video_storage/workout_recording_integrity.dart
 
 // class id: 1049188, size: 0x8
 class :: {
@@ -58,7 +58,7 @@ class WorkoutRecordingSnapshot extends Object {
     //     0x73f20c: add             x6, x6, HEAP, lsl #32
     // 0x73f210: mov             x1, x0
     // 0x73f214: r0 = isComplete()
-    //     0x73f214: bl              #0x73f22c  ; [package:ballai/video_tracking/session/video_storage/workout_recording_integrity.dart] WorkoutRecordingIntegrity::isComplete
+    //     0x73f214: bl              #0x73f22c  ; [package:kourtai/video_tracking/session/video_storage/workout_recording_integrity.dart] WorkoutRecordingIntegrity::isComplete
     // 0x73f218: LeaveFrame
     //     0x73f218: mov             SP, fp
     //     0x73f21c: ldp             fp, lr, [SP], #0x10

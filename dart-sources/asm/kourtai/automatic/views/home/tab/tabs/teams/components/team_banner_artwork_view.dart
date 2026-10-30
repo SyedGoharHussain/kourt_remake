@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/teams/components/team_banner_artwork_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/teams/components/team_banner_artwork_view.dart
 
 // class id: 1048926, size: 0x8
 class :: {
@@ -147,14 +147,14 @@ class TeamBannerArtworkView extends StatelessWidget {
     //     0xbfa64c: bl              #0x5ed854  ; [dart:core] _StringBase::trim
     // 0xbfa650: ldur            x2, [fp, #-0x10]
     // 0xbfa654: r1 = Function '<anonymous closure>':.
-    //     0xbfa654: add             x1, PP, #0x37, lsl #12  ; [pp+0x373f8] AnonymousClosure: (0xbfab98), in [package:ballai/automatic/views/home/tab/tabs/teams/components/team_banner_artwork_view.dart] TeamBannerArtworkView::build (0xbfa4dc)
+    //     0xbfa654: add             x1, PP, #0x37, lsl #12  ; [pp+0x373f8] AnonymousClosure: (0xbfab98), in [package:kourtai/automatic/views/home/tab/tabs/teams/components/team_banner_artwork_view.dart] TeamBannerArtworkView::build (0xbfa4dc)
     //     0xbfa658: ldr             x1, [x1, #0x3f8]
     // 0xbfa65c: stur            x0, [fp, #-0x18]
     // 0xbfa660: r0 = AllocateClosure()
     //     0xbfa660: bl              #0xe553e0  ; AllocateClosureStub
     // 0xbfa664: ldur            x2, [fp, #-0x10]
     // 0xbfa668: r1 = Function '<anonymous closure>':.
-    //     0xbfa668: add             x1, PP, #0x37, lsl #12  ; [pp+0x37400] AnonymousClosure: (0xbfab38), in [package:ballai/automatic/views/home/tab/tabs/teams/components/team_banner_artwork_view.dart] TeamBannerArtworkView::build (0xbfa4dc)
+    //     0xbfa668: add             x1, PP, #0x37, lsl #12  ; [pp+0x37400] AnonymousClosure: (0xbfab38), in [package:kourtai/automatic/views/home/tab/tabs/teams/components/team_banner_artwork_view.dart] TeamBannerArtworkView::build (0xbfa4dc)
     //     0xbfa66c: ldr             x1, [x1, #0x400]
     // 0xbfa670: stur            x0, [fp, #-0x10]
     // 0xbfa674: r0 = AllocateClosure()
@@ -218,7 +218,7 @@ class TeamBannerArtworkView extends StatelessWidget {
     // 0xbfa720: ldur            x2, [fp, #-0x28]
     // 0xbfa724: ldur            x1, [fp, #-8]
     // 0xbfa728: r0 = _gradientFallback()
-    //     0xbfa728: bl              #0xbfaa0c  ; [package:ballai/automatic/views/home/tab/tabs/teams/components/team_banner_artwork_view.dart] TeamBannerArtworkView::_gradientFallback
+    //     0xbfa728: bl              #0xbfaa0c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/components/team_banner_artwork_view.dart] TeamBannerArtworkView::_gradientFallback
     // 0xbfa72c: mov             x2, x0
     // 0xbfa730: ldur            x0, [fp, #-0x28]
     // 0xbfa734: stur            x2, [fp, #-8]
@@ -637,7 +637,7 @@ class TeamBannerArtworkView extends StatelessWidget {
     //     0xbfab78: add             x0, x0, HEAP, lsl #32
     // 0xbfab7c: mov             x1, x0
     // 0xbfab80: r0 = _gradientFallback()
-    //     0xbfab80: bl              #0xbfaa0c  ; [package:ballai/automatic/views/home/tab/tabs/teams/components/team_banner_artwork_view.dart] TeamBannerArtworkView::_gradientFallback
+    //     0xbfab80: bl              #0xbfaa0c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/components/team_banner_artwork_view.dart] TeamBannerArtworkView::_gradientFallback
     // 0xbfab84: LeaveFrame
     //     0xbfab84: mov             SP, fp
     //     0xbfab88: ldp             fp, lr, [SP], #0x10
@@ -667,7 +667,7 @@ class TeamBannerArtworkView extends StatelessWidget {
     //     0xbfabbc: add             x0, x0, HEAP, lsl #32
     // 0xbfabc0: mov             x1, x0
     // 0xbfabc4: r0 = _gradientFallback()
-    //     0xbfabc4: bl              #0xbfaa0c  ; [package:ballai/automatic/views/home/tab/tabs/teams/components/team_banner_artwork_view.dart] TeamBannerArtworkView::_gradientFallback
+    //     0xbfabc4: bl              #0xbfaa0c  ; [package:kourtai/automatic/views/home/tab/tabs/teams/components/team_banner_artwork_view.dart] TeamBannerArtworkView::_gradientFallback
     // 0xbfabc8: LeaveFrame
     //     0xbfabc8: mov             SP, fp
     //     0xbfabcc: ldp             fp, lr, [SP], #0x10

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/lib/revenuecat/revenue_cat_secrets.dart
+// lib: , url: package:kourtai/automatic/lib/revenuecat/revenue_cat_secrets.dart
 
 // class id: 1048672, size: 0x8
 class :: {

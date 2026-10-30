@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/launch/ball_ai_boot_failed_view.dart
+// lib: , url: package:kourtai/automatic/views/launch/kourt_ai_boot_failed_view.dart
 
 // class id: 1049042, size: 0x8
 class :: {
@@ -6,7 +6,7 @@ class :: {
 
 // class id: 3908, size: 0x14, field offset: 0xc
 //   const constructor, 
-class BallAiBootFailedView extends StatelessWidget {
+class KourtAiBootFailedView extends StatelessWidget {
 
   _ build(/* No info */) {
     // ** addr: 0xc20814, size: 0x240
@@ -15,18 +15,18 @@ class BallAiBootFailedView extends StatelessWidget {
     //     0xc20818: mov             fp, SP
     // 0xc2081c: AllocStack(0x28)
     //     0xc2081c: sub             SP, SP, #0x28
-    // 0xc20820: SetupParameters(BallAiBootFailedView this /* r1 => r0, fp-0x8 */)
+    // 0xc20820: SetupParameters(KourtAiBootFailedView this /* r1 => r0, fp-0x8 */)
     //     0xc20820: mov             x0, x1
     //     0xc20824: stur            x1, [fp, #-8]
     // 0xc20828: CheckStackOverflow
     //     0xc20828: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xc2082c: cmp             SP, x16
     //     0xc20830: b.ls            #0xc20a4c
-    // 0xc20834: r1 = "Could not start Ball AI"
-    //     0xc20834: add             x1, PP, #0x16, lsl #12  ; [pp+0x16a90] "Could not start Ball AI"
+    // 0xc20834: r1 = "Could not start Kourt AI"
+    //     0xc20834: add             x1, PP, #0x16, lsl #12  ; [pp+0x16a90] "Could not start Kourt AI"
     //     0xc20838: ldr             x1, [x1, #0xa90]
     // 0xc2083c: r0 = L()
-    //     0xc2083c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc2083c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc20840: stur            x0, [fp, #-0x10]
     // 0xc20844: r0 = Text()
     //     0xc20844: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -43,8 +43,8 @@ class BallAiBootFailedView extends StatelessWidget {
     // 0xc20864: r0 = Text()
     //     0xc20864: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
     // 0xc20868: mov             x2, x0
-    // 0xc2086c: r0 = "Could not start Ball AI. Check your connection and try again."
-    //     0xc2086c: add             x0, PP, #9, lsl #12  ; [pp+0x9a08] "Could not start Ball AI. Check your connection and try again."
+    // 0xc2086c: r0 = "Could not start Kourt AI. Check your connection and try again."
+    //     0xc2086c: add             x0, PP, #9, lsl #12  ; [pp+0x9a08] "Could not start Kourt AI. Check your connection and try again."
     //     0xc20870: ldr             x0, [x0, #0xa08]
     // 0xc20874: stur            x2, [fp, #-0x20]
     // 0xc20878: StoreField: r2->field_b = r0
@@ -59,7 +59,7 @@ class BallAiBootFailedView extends StatelessWidget {
     //     0xc2088c: add             x1, PP, #0x16, lsl #12  ; [pp+0x16aa0] "Try again"
     //     0xc20890: ldr             x1, [x1, #0xaa0]
     // 0xc20894: r0 = L()
-    //     0xc20894: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc20894: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc20898: stur            x0, [fp, #-8]
     // 0xc2089c: r0 = Text()
     //     0xc2089c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)

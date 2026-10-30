@@ -6,7 +6,7 @@ class :: {
 
 // class id: 5151, size: 0x8, field offset: 0x8
 //   const constructor, transformed mixin,
-abstract class _AppLifecycleListener&Object&WidgetsBindingObserver&Diagnosticable extends _BallAiAppLifecycle&Object&WidgetsBindingObserver
+abstract class _AppLifecycleListener&Object&WidgetsBindingObserver&Diagnosticable extends _KourtAiAppLifecycle&Object&WidgetsBindingObserver
      with Diagnosticable {
 }
 

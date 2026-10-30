@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_cache_actions_section_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_cache_actions_section_view.dart
 
 // class id: 1048877, size: 0x8
 class :: {
@@ -38,10 +38,10 @@ class AccountCacheActionsSectionView extends StatelessWidget {
     //     0xbd8968: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f18] "Clear cache"
     //     0xbd896c: ldr             x1, [x1, #0xf18]
     // 0xbd8970: r0 = L()
-    //     0xbd8970: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd8970: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd8974: stur            x0, [fp, #-8]
-    // 0xbd8978: r0 = BallAiSettingsActionRow()
-    //     0xbd8978: bl              #0xbd8a0c  ; AllocateBallAiSettingsActionRowStub -> BallAiSettingsActionRow (size=0x18)
+    // 0xbd8978: r0 = KourtAiSettingsActionRow()
+    //     0xbd8978: bl              #0xbd8a0c  ; AllocateKourtAiSettingsActionRowStub -> KourtAiSettingsActionRow (size=0x18)
     // 0xbd897c: mov             x3, x0
     // 0xbd8980: ldur            x0, [fp, #-8]
     // 0xbd8984: stur            x3, [fp, #-0x10]
@@ -49,7 +49,7 @@ class AccountCacheActionsSectionView extends StatelessWidget {
     //     0xbd8988: stur            w0, [x3, #0xb]
     // 0xbd898c: ldur            x2, [fp, #-0x18]
     // 0xbd8990: r1 = Function '<anonymous closure>':.
-    //     0xbd8990: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f20] AnonymousClosure: (0xbd8a18), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_cache_actions_section_view.dart] AccountCacheActionsSectionView::build (0xbd8928)
+    //     0xbd8990: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f20] AnonymousClosure: (0xbd8a18), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_cache_actions_section_view.dart] AccountCacheActionsSectionView::build (0xbd8928)
     //     0xbd8994: ldr             x1, [x1, #0xf20]
     // 0xbd8998: r0 = AllocateClosure()
     //     0xbd8998: bl              #0xe553e0  ; AllocateClosureStub
@@ -85,8 +85,8 @@ class AccountCacheActionsSectionView extends StatelessWidget {
     //     0xbd89e4: mov             x0, #2
     // 0xbd89e8: StoreField: r1->field_b = r0
     //     0xbd89e8: stur            w0, [x1, #0xb]
-    // 0xbd89ec: r0 = BallAiSettingsSection()
-    //     0xbd89ec: bl              #0xbd7ff4  ; AllocateBallAiSettingsSectionStub -> BallAiSettingsSection (size=0x10)
+    // 0xbd89ec: r0 = KourtAiSettingsSection()
+    //     0xbd89ec: bl              #0xbd7ff4  ; AllocateKourtAiSettingsSectionStub -> KourtAiSettingsSection (size=0x10)
     // 0xbd89f0: ldur            x1, [fp, #-0x10]
     // 0xbd89f4: StoreField: r0->field_b = r1
     //     0xbd89f4: stur            w1, [x0, #0xb]
@@ -123,7 +123,7 @@ class AccountCacheActionsSectionView extends StatelessWidget {
     //     0xbd8a44: add             x2, x2, HEAP, lsl #32
     // 0xbd8a48: mov             x1, x0
     // 0xbd8a4c: r0 = _confirmClearCache()
-    //     0xbd8a4c: bl              #0xbd8a64  ; [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_cache_actions_section_view.dart] AccountCacheActionsSectionView::_confirmClearCache
+    //     0xbd8a4c: bl              #0xbd8a64  ; [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_cache_actions_section_view.dart] AccountCacheActionsSectionView::_confirmClearCache
     // 0xbd8a50: LeaveFrame
     //     0xbd8a50: mov             SP, fp
     //     0xbd8a54: ldp             fp, lr, [SP], #0x10
@@ -152,7 +152,7 @@ class AccountCacheActionsSectionView extends StatelessWidget {
     //     0xbd8a88: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0xbd8a8c: bl              #0x60afc8  ; InitAsyncStub
     // 0xbd8a90: r1 = Function '<anonymous closure>':.
-    //     0xbd8a90: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f28] AnonymousClosure: (0xbd923c), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_cache_actions_section_view.dart] AccountCacheActionsSectionView::_confirmClearCache (0xbd8a64)
+    //     0xbd8a90: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f28] AnonymousClosure: (0xbd923c), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_cache_actions_section_view.dart] AccountCacheActionsSectionView::_confirmClearCache (0xbd8a64)
     //     0xbd8a94: ldr             x1, [x1, #0xf28]
     // 0xbd8a98: r2 = Null
     //     0xbd8a98: mov             x2, NULL
@@ -201,7 +201,7 @@ class AccountCacheActionsSectionView extends StatelessWidget {
     //     0xbd8b0c: bl              #0x8e6990  ; [package:flutter/src/services/haptic_feedback.dart] HapticFeedback::mediumImpact
     // 0xbd8b10: ldur            x0, [fp, #-0x80]
     // 0xbd8b14: r0 = clear()
-    //     0xbd8b14: bl              #0xbd8c00  ; [package:ballai/automatic/utility/storage/local_app_data_cleaner.dart] LocalAppDataCleaner::clear
+    //     0xbd8b14: bl              #0xbd8c00  ; [package:kourtai/automatic/utility/storage/local_app_data_cleaner.dart] LocalAppDataCleaner::clear
     // 0xbd8b18: mov             x1, x0
     // 0xbd8b1c: stur            x1, [fp, #-0x78]
     // 0xbd8b20: r0 = Await()
@@ -218,7 +218,7 @@ class AccountCacheActionsSectionView extends StatelessWidget {
     // 0xbd8b3c: r0 = ReturnAsyncNotFuture()
     //     0xbd8b3c: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xbd8b40: r1 = Function '<anonymous closure>':.
-    //     0xbd8b40: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f30] AnonymousClosure: (0xbd90d4), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_cache_actions_section_view.dart] AccountCacheActionsSectionView::_confirmClearCache (0xbd8a64)
+    //     0xbd8b40: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f30] AnonymousClosure: (0xbd90d4), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_cache_actions_section_view.dart] AccountCacheActionsSectionView::_confirmClearCache (0xbd8a64)
     //     0xbd8b44: ldr             x1, [x1, #0xf30]
     // 0xbd8b48: r2 = Null
     //     0xbd8b48: mov             x2, NULL
@@ -264,7 +264,7 @@ class AccountCacheActionsSectionView extends StatelessWidget {
     //     0xbd8bb8: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xbd8bbc: mov             x2, x3
     // 0xbd8bc0: r1 = Function '<anonymous closure>':.
-    //     0xbd8bc0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f38] AnonymousClosure: (0xbd8f60), in [package:ballai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_cache_actions_section_view.dart] AccountCacheActionsSectionView::_confirmClearCache (0xbd8a64)
+    //     0xbd8bc0: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f38] AnonymousClosure: (0xbd8f60), in [package:kourtai/automatic/views/home/tab/tabs/profile/sections/account/sections/account_cache_actions_section_view.dart] AccountCacheActionsSectionView::_confirmClearCache (0xbd8a64)
     //     0xbd8bc4: ldr             x1, [x1, #0xf38]
     // 0xbd8bc8: r0 = AllocateClosure()
     //     0xbd8bc8: bl              #0xe553e0  ; AllocateClosureStub
@@ -321,7 +321,7 @@ class AccountCacheActionsSectionView extends StatelessWidget {
     //     0xbd8fa8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f40] "Clear cache failed"
     //     0xbd8fac: ldr             x1, [x1, #0xf40]
     // 0xbd8fb0: r0 = L()
-    //     0xbd8fb0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd8fb0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd8fb4: stur            x0, [fp, #-0x18]
     // 0xbd8fb8: r0 = Text()
     //     0xbd8fb8: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -339,7 +339,7 @@ class AccountCacheActionsSectionView extends StatelessWidget {
     //     0xbd8fd8: add             x2, PP, #0x49, lsl #12  ; [pp+0x49f48] "Couldn\'t clear cache. Please try again."
     //     0xbd8fdc: ldr             x2, [x2, #0xf48]
     // 0xbd8fe0: r0 = userFacingError()
-    //     0xbd8fe0: bl              #0x71e950  ; [package:ballai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
+    //     0xbd8fe0: bl              #0x71e950  ; [package:kourtai/automatic/utility/errors/user_facing_error.dart] ::userFacingError
     // 0xbd8fe4: stur            x0, [fp, #-8]
     // 0xbd8fe8: r0 = Text()
     //     0xbd8fe8: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -352,7 +352,7 @@ class AccountCacheActionsSectionView extends StatelessWidget {
     //     0xbd8ffc: add             x1, PP, #0x20, lsl #12  ; [pp+0x20360] "OK"
     //     0xbd9000: ldr             x1, [x1, #0x360]
     // 0xbd9004: r0 = L()
-    //     0xbd9004: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd9004: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd9008: stur            x0, [fp, #-8]
     // 0xbd900c: r0 = Text()
     //     0xbd900c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -363,7 +363,7 @@ class AccountCacheActionsSectionView extends StatelessWidget {
     //     0xbd901c: stur            w0, [x3, #0xb]
     // 0xbd9020: ldur            x2, [fp, #-0x10]
     // 0xbd9024: r1 = Function '<anonymous closure>':.
-    //     0xbd9024: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f50] AnonymousClosure: (0x986ed0), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
+    //     0xbd9024: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f50] AnonymousClosure: (0x986ed0), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
     //     0xbd9028: ldr             x1, [x1, #0xf50]
     // 0xbd902c: r0 = AllocateClosure()
     //     0xbd902c: bl              #0xe553e0  ; AllocateClosureStub
@@ -466,7 +466,7 @@ class AccountCacheActionsSectionView extends StatelessWidget {
     //     0xbd911c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f58] "Cache cleared"
     //     0xbd9120: ldr             x1, [x1, #0xf58]
     // 0xbd9124: r0 = L()
-    //     0xbd9124: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd9124: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd9128: stur            x0, [fp, #-8]
     // 0xbd912c: r0 = Text()
     //     0xbd912c: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -479,7 +479,7 @@ class AccountCacheActionsSectionView extends StatelessWidget {
     //     0xbd9140: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f60] "Preferences on this device were reset."
     //     0xbd9144: ldr             x1, [x1, #0xf60]
     // 0xbd9148: r0 = L()
-    //     0xbd9148: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd9148: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd914c: stur            x0, [fp, #-8]
     // 0xbd9150: r0 = Text()
     //     0xbd9150: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -492,7 +492,7 @@ class AccountCacheActionsSectionView extends StatelessWidget {
     //     0xbd9164: add             x1, PP, #0x20, lsl #12  ; [pp+0x20360] "OK"
     //     0xbd9168: ldr             x1, [x1, #0x360]
     // 0xbd916c: r0 = L()
-    //     0xbd916c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd916c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd9170: stur            x0, [fp, #-8]
     // 0xbd9174: r0 = Text()
     //     0xbd9174: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -503,7 +503,7 @@ class AccountCacheActionsSectionView extends StatelessWidget {
     //     0xbd9184: stur            w0, [x3, #0xb]
     // 0xbd9188: ldur            x2, [fp, #-0x10]
     // 0xbd918c: r1 = Function '<anonymous closure>':.
-    //     0xbd918c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f68] AnonymousClosure: (0x986ed0), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
+    //     0xbd918c: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f68] AnonymousClosure: (0x986ed0), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_restore (0x986930)
     //     0xbd9190: ldr             x1, [x1, #0xf68]
     // 0xbd9194: r0 = AllocateClosure()
     //     0xbd9194: bl              #0xe553e0  ; AllocateClosureStub
@@ -606,7 +606,7 @@ class AccountCacheActionsSectionView extends StatelessWidget {
     //     0xbd9284: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f70] "Clear cache\?"
     //     0xbd9288: ldr             x1, [x1, #0xf70]
     // 0xbd928c: r0 = L()
-    //     0xbd928c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd928c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd9290: stur            x0, [fp, #-8]
     // 0xbd9294: r0 = Text()
     //     0xbd9294: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -619,7 +619,7 @@ class AccountCacheActionsSectionView extends StatelessWidget {
     //     0xbd92a8: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f78] "This resets preferences stored on this device. Your account and cloud data will not be deleted."
     //     0xbd92ac: ldr             x1, [x1, #0xf78]
     // 0xbd92b0: r0 = L()
-    //     0xbd92b0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd92b0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd92b4: stur            x0, [fp, #-8]
     // 0xbd92b8: r0 = Text()
     //     0xbd92b8: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -632,7 +632,7 @@ class AccountCacheActionsSectionView extends StatelessWidget {
     //     0xbd92cc: add             x1, PP, #0x27, lsl #12  ; [pp+0x27668] "Cancel"
     //     0xbd92d0: ldr             x1, [x1, #0x668]
     // 0xbd92d4: r0 = L()
-    //     0xbd92d4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd92d4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd92d8: stur            x0, [fp, #-8]
     // 0xbd92dc: r0 = Text()
     //     0xbd92dc: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -643,7 +643,7 @@ class AccountCacheActionsSectionView extends StatelessWidget {
     //     0xbd92ec: stur            w0, [x3, #0xb]
     // 0xbd92f0: ldur            x2, [fp, #-0x10]
     // 0xbd92f4: r1 = Function '<anonymous closure>':.
-    //     0xbd92f4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f80] AnonymousClosure: (0x658b4c), in [package:ballai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible (0x658ea8)
+    //     0xbd92f4: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f80] AnonymousClosure: (0x658b4c), in [package:kourtai/automatic/views/misc/free_trial_warmup/free_trial_warmup_gate_view.dart] _FreeTrialWarmupGateViewState::_presentTrialExitReturnOfferAlertIfEligible (0x658ea8)
     //     0xbd92f8: ldr             x1, [x1, #0xf80]
     // 0xbd92fc: r0 = AllocateClosure()
     //     0xbd92fc: bl              #0xe553e0  ; AllocateClosureStub
@@ -682,7 +682,7 @@ class AccountCacheActionsSectionView extends StatelessWidget {
     //     0xbd9350: ldr             x1, [x1, #0xf18]
     // 0xbd9354: stur            x0, [fp, #-8]
     // 0xbd9358: r0 = L()
-    //     0xbd9358: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbd9358: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbd935c: stur            x0, [fp, #-0x28]
     // 0xbd9360: r0 = Text()
     //     0xbd9360: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -702,7 +702,7 @@ class AccountCacheActionsSectionView extends StatelessWidget {
     //     0xbd9388: stur            w0, [x3, #0x3b]
     // 0xbd938c: ldur            x2, [fp, #-0x10]
     // 0xbd9390: r1 = Function '<anonymous closure>':.
-    //     0xbd9390: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f90] AnonymousClosure: (0x6587e8), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentTrialExitReturnOfferAlertIfEligible (0x6148dc)
+    //     0xbd9390: add             x1, PP, #0x49, lsl #12  ; [pp+0x49f90] AnonymousClosure: (0x6587e8), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentTrialExitReturnOfferAlertIfEligible (0x6148dc)
     //     0xbd9394: ldr             x1, [x1, #0xf90]
     // 0xbd9398: r0 = AllocateClosure()
     //     0xbd9398: bl              #0xe553e0  ; AllocateClosureStub

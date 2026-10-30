@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/analysis/form/release_time_analyzer.dart
+// lib: , url: package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart
 
 // class id: 1049099, size: 0x8
 class :: {
@@ -66,7 +66,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     // 0x75946c: cmp             x4, #4
     // 0x759470: b.lt            #0x759480
     // 0x759474: r0 = _buildSmoothedBallSeries()
-    //     0x759474: bl              #0x75b2dc  ; [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_buildSmoothedBallSeries
+    //     0x759474: bl              #0x75b2dc  ; [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_buildSmoothedBallSeries
     // 0x759478: mov             x4, x0
     // 0x75947c: b               #0x759494
     // 0x759480: r1 = <_FramePoint>
@@ -90,7 +90,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     //     0x7594b8: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x7594bc: mov             x2, x3
     // 0x7594c0: r1 = Function '<anonymous closure>': static.
-    //     0x7594c0: add             x1, PP, #0x32, lsl #12  ; [pp+0x32a78] AnonymousClosure: static (0x75b4d4), in [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::calculateReleaseTimeSeconds (0x7593e8)
+    //     0x7594c0: add             x1, PP, #0x32, lsl #12  ; [pp+0x32a78] AnonymousClosure: static (0x75b4d4), in [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::calculateReleaseTimeSeconds (0x7593e8)
     //     0x7594c4: ldr             x1, [x1, #0xa78]
     // 0x7594c8: r0 = AllocateClosure()
     //     0x7594c8: bl              #0xe553e0  ; AllocateClosureStub
@@ -134,7 +134,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     //     0x759534: add             x5, x5, HEAP, lsl #32
     // 0x759538: mov             x3, x6
     // 0x75953c: r0 = _detectShotStartFrameFromPoseDipToRise()
-    //     0x75953c: bl              #0x75b0c0  ; [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectShotStartFrameFromPoseDipToRise
+    //     0x75953c: bl              #0x75b0c0  ; [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectShotStartFrameFromPoseDipToRise
     // 0x759540: cmp             w0, NULL
     // 0x759544: b.ne            #0x759570
     // 0x759548: ldur            x1, [fp, #-8]
@@ -151,7 +151,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     //     0x759564: add             x2, x2, HEAP, lsl #32
     // 0x759568: ldur            x3, [fp, #-0x10]
     // 0x75956c: r0 = _detectShotStartFrameFromBallDipToRise()
-    //     0x75956c: bl              #0x7596b0  ; [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectShotStartFrameFromBallDipToRise
+    //     0x75956c: bl              #0x7596b0  ; [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectShotStartFrameFromBallDipToRise
     // 0x759570: cmp             w0, NULL
     // 0x759574: b.eq            #0x75959c
     // 0x759578: ldur            x1, [fp, #-0x10]
@@ -354,7 +354,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     //     0x7597cc: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x7597d0: mov             x2, x3
     // 0x7597d4: r1 = Function '<anonymous closure>': static.
-    //     0x7597d4: add             x1, PP, #0x32, lsl #12  ; [pp+0x32b48] AnonymousClosure: static (0x759cdc), in [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose (0x759d40)
+    //     0x7597d4: add             x1, PP, #0x32, lsl #12  ; [pp+0x32b48] AnonymousClosure: static (0x759cdc), in [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose (0x759d40)
     //     0x7597d8: ldr             x1, [x1, #0xb48]
     // 0x7597dc: r0 = AllocateClosure()
     //     0x7597dc: bl              #0xe553e0  ; AllocateClosureStub
@@ -395,7 +395,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     // 0x759838: mov             x2, x0
     // 0x75983c: ldur            x5, [fp, #-0x28]
     // 0x759840: r0 = _velocityFlipStartFrame()
-    //     0x759840: bl              #0x759874  ; [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_velocityFlipStartFrame
+    //     0x759840: bl              #0x759874  ; [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_velocityFlipStartFrame
     // 0x759844: LeaveFrame
     //     0x759844: mov             SP, fp
     //     0x759848: ldp             fp, lr, [SP], #0x10
@@ -460,7 +460,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     //     0x7598e4: stur            w0, [x3, #0x13]
     // 0x7598e8: mov             x2, x3
     // 0x7598ec: r1 = Function '<anonymous closure>': static.
-    //     0x7598ec: add             x1, PP, #0x32, lsl #12  ; [pp+0x32b50] AnonymousClosure: static (0x759cdc), in [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose (0x759d40)
+    //     0x7598ec: add             x1, PP, #0x32, lsl #12  ; [pp+0x32b50] AnonymousClosure: static (0x759cdc), in [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose (0x759d40)
     //     0x7598f0: ldr             x1, [x1, #0xb50]
     // 0x7598f4: r0 = AllocateClosure()
     //     0x7598f4: bl              #0xe553e0  ; AllocateClosureStub
@@ -861,7 +861,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     //     0x759d64: cmp             SP, x16
     //     0x759d68: b.ls            #0x75a5c0
     // 0x759d6c: r1 = Function '<anonymous closure>': static.
-    //     0x759d6c: add             x1, PP, #0x32, lsl #12  ; [pp+0x32a80] AnonymousClosure: static (0x75b08c), in [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose (0x759d40)
+    //     0x759d6c: add             x1, PP, #0x32, lsl #12  ; [pp+0x32a80] AnonymousClosure: static (0x75b08c), in [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose (0x759d40)
     //     0x759d70: ldr             x1, [x1, #0xa80]
     // 0x759d74: r2 = Null
     //     0x759d74: mov             x2, NULL
@@ -886,7 +886,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     //     0x759da4: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x759da8: mov             x1, x0
     // 0x759dac: r0 = _buildSmoothedPoseSeries()
-    //     0x759dac: bl              #0x75aaa0  ; [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_buildSmoothedPoseSeries
+    //     0x759dac: bl              #0x75aaa0  ; [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_buildSmoothedPoseSeries
     // 0x759db0: stur            x0, [fp, #-0x18]
     // 0x759db4: LoadField: r1 = r0->field_b
     //     0x759db4: ldur            w1, [x0, #0xb]
@@ -902,7 +902,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     // 0x759dd0: ret
     //     0x759dd0: ret             
     // 0x759dd4: r1 = Function '<anonymous closure>': static.
-    //     0x759dd4: add             x1, PP, #0x32, lsl #12  ; [pp+0x32a90] AnonymousClosure: static (0x75b058), in [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose (0x759d40)
+    //     0x759dd4: add             x1, PP, #0x32, lsl #12  ; [pp+0x32a90] AnonymousClosure: static (0x75b058), in [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose (0x759d40)
     //     0x759dd8: ldr             x1, [x1, #0xa90]
     // 0x759ddc: r2 = Null
     //     0x759ddc: mov             x2, NULL
@@ -927,7 +927,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     //     0x759e0c: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x759e10: mov             x1, x0
     // 0x759e14: r0 = _buildSmoothedPoseSeries()
-    //     0x759e14: bl              #0x75aaa0  ; [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_buildSmoothedPoseSeries
+    //     0x759e14: bl              #0x75aaa0  ; [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_buildSmoothedPoseSeries
     // 0x759e18: d0 = 36.000000
     //     0x759e18: ldr             d0, [PP, #0x54a0]  ; [pp+0x54a0] IMM: double(36) from 0x4042000000000000
     // 0x759e1c: stur            x0, [fp, #-8]
@@ -1054,7 +1054,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     // 0x759fb4: ldur            x3, [fp, #-0x30]
     // 0x759fb8: ldur            x6, [fp, #-0x20]
     // 0x759fbc: r0 = _alignSeries()
-    //     0x759fbc: bl              #0x75a658  ; [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_alignSeries
+    //     0x759fbc: bl              #0x75a658  ; [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_alignSeries
     // 0x759fc0: mov             x2, x0
     // 0x759fc4: stur            x2, [fp, #-0x58]
     // 0x759fc8: LoadField: r0 = r2->field_b
@@ -1391,7 +1391,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     // 0x75a38c: b               #0x75a00c
     // 0x75a390: ldur            x2, [fp, #-0x38]
     // 0x75a394: r1 = Function '<anonymous closure>': static.
-    //     0x75a394: add             x1, PP, #0x32, lsl #12  ; [pp+0x32aa0] AnonymousClosure: static (0x759cdc), in [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose (0x759d40)
+    //     0x75a394: add             x1, PP, #0x32, lsl #12  ; [pp+0x32aa0] AnonymousClosure: static (0x759cdc), in [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose (0x759d40)
     //     0x75a398: ldr             x1, [x1, #0xaa0]
     // 0x75a39c: r0 = AllocateClosure()
     //     0x75a39c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1691,7 +1691,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     // 0x75a6c8: StoreField: r2->field_13 = r0
     //     0x75a6c8: stur            w0, [x2, #0x13]
     // 0x75a6cc: r1 = Function '<anonymous closure>': static.
-    //     0x75a6cc: add             x1, PP, #0x32, lsl #12  ; [pp+0x32aa8] AnonymousClosure: static (0x759cdc), in [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose (0x759d40)
+    //     0x75a6cc: add             x1, PP, #0x32, lsl #12  ; [pp+0x32aa8] AnonymousClosure: static (0x759cdc), in [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose (0x759d40)
     //     0x75a6d0: ldr             x1, [x1, #0xaa8]
     // 0x75a6d4: r0 = AllocateClosure()
     //     0x75a6d4: bl              #0xe553e0  ; AllocateClosureStub
@@ -2006,7 +2006,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     // 0x75aae0: ret
     //     0x75aae0: ret             
     // 0x75aae4: r1 = Function '<anonymous closure>': static.
-    //     0x75aae4: add             x1, PP, #0x32, lsl #12  ; [pp+0x32ae0] AnonymousClosure: static (0x75b004), in [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_buildSmoothedPoseSeries (0x75aaa0)
+    //     0x75aae4: add             x1, PP, #0x32, lsl #12  ; [pp+0x32ae0] AnonymousClosure: static (0x75b004), in [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_buildSmoothedPoseSeries (0x75aaa0)
     //     0x75aae8: ldr             x1, [x1, #0xae0]
     // 0x75aaec: r2 = Null
     //     0x75aaec: mov             x2, NULL
@@ -2030,7 +2030,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     // 0x75ab1c: r0 = _GrowableList.of()
     //     0x75ab1c: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x75ab20: r1 = Function '<anonymous closure>': static.
-    //     0x75ab20: add             x1, PP, #0x32, lsl #12  ; [pp+0x32ae8] AnonymousClosure: static (0x600fbc), in [package:ballai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetchEvents (0x601034)
+    //     0x75ab20: add             x1, PP, #0x32, lsl #12  ; [pp+0x32ae8] AnonymousClosure: static (0x600fbc), in [package:kourtai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetchEvents (0x601034)
     //     0x75ab24: ldr             x1, [x1, #0xae8]
     // 0x75ab28: r2 = Null
     //     0x75ab28: mov             x2, NULL
@@ -2045,12 +2045,12 @@ abstract class ReleaseTimeAnalyzer extends Object {
     //     0x75ab40: bl              #0x7ac5ec  ; [dart:collection] ListBase::sort
     // 0x75ab44: ldur            x1, [fp, #-8]
     // 0x75ab48: r0 = _dedupeByFrameKeepLast()
-    //     0x75ab48: bl              #0x75ae70  ; [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_dedupeByFrameKeepLast
+    //     0x75ab48: bl              #0x75ae70  ; [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_dedupeByFrameKeepLast
     // 0x75ab4c: mov             x1, x0
     // 0x75ab50: d0 = 0.600000
     //     0x75ab50: ldr             d0, [PP, #0x5488]  ; [pp+0x5488] IMM: double(0.6) from 0x3fe3333333333333
     // 0x75ab54: r0 = _emaSmooth()
-    //     0x75ab54: bl              #0x75ab6c  ; [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_emaSmooth
+    //     0x75ab54: bl              #0x75ab6c  ; [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_emaSmooth
     // 0x75ab58: LeaveFrame
     //     0x75ab58: mov             SP, fp
     //     0x75ab5c: ldp             fp, lr, [SP], #0x10
@@ -2622,7 +2622,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     // 0x75b184: csel            x5, x0, x1, lt
     // 0x75b188: stur            x5, [fp, #-0x28]
     // 0x75b18c: r1 = Function '<anonymous closure>': static.
-    //     0x75b18c: add             x1, PP, #0x32, lsl #12  ; [pp+0x32b60] AnonymousClosure: static (0x75b08c), in [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose (0x759d40)
+    //     0x75b18c: add             x1, PP, #0x32, lsl #12  ; [pp+0x32b60] AnonymousClosure: static (0x75b08c), in [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose (0x759d40)
     //     0x75b190: ldr             x1, [x1, #0xb60]
     // 0x75b194: r2 = Null
     //     0x75b194: mov             x2, NULL
@@ -2647,9 +2647,9 @@ abstract class ReleaseTimeAnalyzer extends Object {
     //     0x75b1c4: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x75b1c8: mov             x1, x0
     // 0x75b1cc: r0 = _buildSmoothedPoseSeries()
-    //     0x75b1cc: bl              #0x75aaa0  ; [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_buildSmoothedPoseSeries
+    //     0x75b1cc: bl              #0x75aaa0  ; [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_buildSmoothedPoseSeries
     // 0x75b1d0: r1 = Function '<anonymous closure>': static.
-    //     0x75b1d0: add             x1, PP, #0x32, lsl #12  ; [pp+0x32b68] AnonymousClosure: static (0x75b058), in [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose (0x759d40)
+    //     0x75b1d0: add             x1, PP, #0x32, lsl #12  ; [pp+0x32b68] AnonymousClosure: static (0x75b058), in [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose (0x759d40)
     //     0x75b1d4: ldr             x1, [x1, #0xb68]
     // 0x75b1d8: r2 = Null
     //     0x75b1d8: mov             x2, NULL
@@ -2675,21 +2675,21 @@ abstract class ReleaseTimeAnalyzer extends Object {
     //     0x75b20c: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x75b210: mov             x1, x0
     // 0x75b214: r0 = _buildSmoothedPoseSeries()
-    //     0x75b214: bl              #0x75aaa0  ; [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_buildSmoothedPoseSeries
+    //     0x75b214: bl              #0x75aaa0  ; [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_buildSmoothedPoseSeries
     // 0x75b218: ldur            x1, [fp, #-0x10]
     // 0x75b21c: ldur            x2, [fp, #-0x18]
     // 0x75b220: ldur            x3, [fp, #-0x30]
     // 0x75b224: ldur            x5, [fp, #-0x28]
     // 0x75b228: stur            x0, [fp, #-8]
     // 0x75b22c: r0 = _velocityFlipStartFrame()
-    //     0x75b22c: bl              #0x759874  ; [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_velocityFlipStartFrame
+    //     0x75b22c: bl              #0x759874  ; [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_velocityFlipStartFrame
     // 0x75b230: ldur            x1, [fp, #-0x10]
     // 0x75b234: ldur            x2, [fp, #-8]
     // 0x75b238: ldur            x3, [fp, #-0x30]
     // 0x75b23c: ldur            x5, [fp, #-0x28]
     // 0x75b240: stur            x0, [fp, #-8]
     // 0x75b244: r0 = _velocityFlipStartFrame()
-    //     0x75b244: bl              #0x759874  ; [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_velocityFlipStartFrame
+    //     0x75b244: bl              #0x759874  ; [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_velocityFlipStartFrame
     // 0x75b248: ldur            x2, [fp, #-8]
     // 0x75b24c: cmp             w2, NULL
     // 0x75b250: b.eq            #0x75b29c
@@ -2811,7 +2811,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     // 0x75b390: ldur            x2, [fp, #-0x10]
     // 0x75b394: stur            x6, [fp, #-0x18]
     // 0x75b398: r0 = pixelBoundingBox()
-    //     0x75b398: bl              #0x715834  ; [package:ballai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
+    //     0x75b398: bl              #0x715834  ; [package:kourtai/video_tracking/models/object_detection.dart] ObjectDetection::pixelBoundingBox
     // 0x75b39c: mov             x1, x0
     // 0x75b3a0: stur            x0, [fp, #-0x30]
     // 0x75b3a4: r0 = center()
@@ -2893,7 +2893,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     // 0x75b480: b               #0x75b320
     // 0x75b484: mov             x3, x0
     // 0x75b488: r1 = Function '<anonymous closure>': static.
-    //     0x75b488: add             x1, PP, #0x32, lsl #12  ; [pp+0x32b70] AnonymousClosure: static (0x600fbc), in [package:ballai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetchEvents (0x601034)
+    //     0x75b488: add             x1, PP, #0x32, lsl #12  ; [pp+0x32b70] AnonymousClosure: static (0x600fbc), in [package:kourtai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetchEvents (0x601034)
     //     0x75b48c: ldr             x1, [x1, #0xb70]
     // 0x75b490: r2 = Null
     //     0x75b490: mov             x2, NULL
@@ -2910,7 +2910,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     //     0x75b4ac: add             x17, PP, #0x28, lsl #12  ; [pp+0x28838] IMM: double(0.55) from 0x3fe199999999999a
     //     0x75b4b0: ldr             d0, [x17, #0x838]
     // 0x75b4b4: r0 = _emaSmooth()
-    //     0x75b4b4: bl              #0x75ab6c  ; [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_emaSmooth
+    //     0x75b4b4: bl              #0x75ab6c  ; [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_emaSmooth
     // 0x75b4b8: LeaveFrame
     //     0x75b4b8: mov             SP, fp
     //     0x75b4bc: ldp             fp, lr, [SP], #0x10
@@ -2960,7 +2960,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     //     0x75b524: add             x2, x2, HEAP, lsl #32
     // 0x75b528: mov             x1, x0
     // 0x75b52c: r0 = _detectReleaseFrameFromWristDecoupling()
-    //     0x75b52c: bl              #0x75bbdc  ; [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromWristDecoupling
+    //     0x75b52c: bl              #0x75bbdc  ; [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromWristDecoupling
     // 0x75b530: cmp             w0, NULL
     // 0x75b534: b.eq            #0x75b544
     // 0x75b538: LeaveFrame
@@ -2978,7 +2978,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     // 0x75b558: DecompressPointer r2
     //     0x75b558: add             x2, x2, HEAP, lsl #32
     // 0x75b55c: r0 = _detectReleaseFrameFromTrajectory()
-    //     0x75b55c: bl              #0x75b5a8  ; [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromTrajectory
+    //     0x75b55c: bl              #0x75b5a8  ; [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromTrajectory
     // 0x75b560: cmp             w0, NULL
     // 0x75b564: b.eq            #0x75b574
     // 0x75b568: LeaveFrame
@@ -3000,7 +3000,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     // 0x75b58c: DecompressPointer r3
     //     0x75b58c: add             x3, x3, HEAP, lsl #32
     // 0x75b590: r0 = _detectReleaseFrameFromArmPose()
-    //     0x75b590: bl              #0x759d40  ; [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose
+    //     0x75b590: bl              #0x759d40  ; [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose
     // 0x75b594: LeaveFrame
     //     0x75b594: mov             SP, fp
     //     0x75b598: ldp             fp, lr, [SP], #0x10
@@ -3118,7 +3118,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     //     0x75b6e8: b.eq            #0x75b6f0
     //     0x75b6ec: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x75b6f0: r1 = Function '<anonymous closure>': static.
-    //     0x75b6f0: add             x1, PP, #0x32, lsl #12  ; [pp+0x32af0] AnonymousClosure: static (0x759cdc), in [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose (0x759d40)
+    //     0x75b6f0: add             x1, PP, #0x32, lsl #12  ; [pp+0x32af0] AnonymousClosure: static (0x759cdc), in [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose (0x759d40)
     //     0x75b6f4: ldr             x1, [x1, #0xaf0]
     // 0x75b6f8: r0 = AllocateClosure()
     //     0x75b6f8: bl              #0xe553e0  ; AllocateClosureStub
@@ -3584,7 +3584,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     // 0x75bc2c: ret
     //     0x75bc2c: ret             
     // 0x75bc30: r1 = Function '<anonymous closure>': static.
-    //     0x75bc30: add             x1, PP, #0x32, lsl #12  ; [pp+0x32b00] AnonymousClosure: static (0x75b08c), in [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose (0x759d40)
+    //     0x75bc30: add             x1, PP, #0x32, lsl #12  ; [pp+0x32b00] AnonymousClosure: static (0x75b08c), in [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose (0x759d40)
     //     0x75bc34: ldr             x1, [x1, #0xb00]
     // 0x75bc38: r2 = Null
     //     0x75bc38: mov             x2, NULL
@@ -3609,7 +3609,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     //     0x75bc68: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0x75bc6c: mov             x1, x0
     // 0x75bc70: r0 = _buildSmoothedPoseSeries()
-    //     0x75bc70: bl              #0x75aaa0  ; [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_buildSmoothedPoseSeries
+    //     0x75bc70: bl              #0x75aaa0  ; [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_buildSmoothedPoseSeries
     // 0x75bc74: stur            x0, [fp, #-0x18]
     // 0x75bc78: LoadField: r1 = r0->field_b
     //     0x75bc78: ldur            w1, [x0, #0xb]
@@ -3710,7 +3710,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     // 0x75bdb4: ldur            x5, [fp, #-0x18]
     // 0x75bdb8: ldur            x6, [fp, #-0x20]
     // 0x75bdbc: r0 = _alignBallToPose()
-    //     0x75bdbc: bl              #0x75c1a4  ; [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_alignBallToPose
+    //     0x75bdbc: bl              #0x75c1a4  ; [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_alignBallToPose
     // 0x75bdc0: mov             x2, x0
     // 0x75bdc4: stur            x2, [fp, #-0x30]
     // 0x75bdc8: LoadField: r0 = r2->field_b
@@ -4106,7 +4106,7 @@ abstract class ReleaseTimeAnalyzer extends Object {
     // 0x75c214: StoreField: r2->field_13 = r0
     //     0x75c214: stur            w0, [x2, #0x13]
     // 0x75c218: r1 = Function '<anonymous closure>': static.
-    //     0x75c218: add             x1, PP, #0x32, lsl #12  ; [pp+0x32b10] AnonymousClosure: static (0x759cdc), in [package:ballai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose (0x759d40)
+    //     0x75c218: add             x1, PP, #0x32, lsl #12  ; [pp+0x32b10] AnonymousClosure: static (0x759cdc), in [package:kourtai/video_tracking/analysis/form/release_time_analyzer.dart] ReleaseTimeAnalyzer::_detectReleaseFrameFromArmPose (0x759d40)
     //     0x75c21c: ldr             x1, [x1, #0xb10]
     // 0x75c220: r0 = AllocateClosure()
     //     0x75c220: bl              #0xe553e0  ; AllocateClosureStub

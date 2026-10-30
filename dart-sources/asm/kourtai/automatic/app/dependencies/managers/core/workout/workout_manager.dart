@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/managers/core/workout/workout_manager.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/managers/core/workout/workout_manager.dart
 
 // class id: 1048653, size: 0x8
 class :: {
@@ -576,14 +576,14 @@ class WorkoutManager extends ChangeNotifier {
     //     0x958974: bl              #0x938d20  ; [package:cloud_firestore/cloud_firestore.dart] _JsonQuery::snapshots
     // 0x958978: ldur            x2, [fp, #-0x28]
     // 0x95897c: r1 = Function '<anonymous closure>':.
-    //     0x95897c: add             x1, PP, #0x11, lsl #12  ; [pp+0x11e60] AnonymousClosure: (0x958a40), in [package:ballai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::startListener (0x9582ec)
+    //     0x95897c: add             x1, PP, #0x11, lsl #12  ; [pp+0x11e60] AnonymousClosure: (0x958a40), in [package:kourtai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::startListener (0x9582ec)
     //     0x958980: ldr             x1, [x1, #0xe60]
     // 0x958984: stur            x0, [fp, #-0x10]
     // 0x958988: r0 = AllocateClosure()
     //     0x958988: bl              #0xe553e0  ; AllocateClosureStub
     // 0x95898c: ldur            x2, [fp, #-0x28]
     // 0x958990: r1 = Function '<anonymous closure>':.
-    //     0x958990: add             x1, PP, #0x11, lsl #12  ; [pp+0x11e68] AnonymousClosure: (0x9589f0), in [package:ballai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::startListener (0x9582ec)
+    //     0x958990: add             x1, PP, #0x11, lsl #12  ; [pp+0x11e68] AnonymousClosure: (0x9589f0), in [package:kourtai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::startListener (0x9582ec)
     //     0x958994: ldr             x1, [x1, #0xe68]
     // 0x958998: stur            x0, [fp, #-0x18]
     // 0x95899c: r0 = AllocateClosure()
@@ -766,7 +766,7 @@ class WorkoutManager extends ChangeNotifier {
     // 0x958b6c: r1 = Null
     //     0x958b6c: mov             x1, NULL
     // 0x958b70: r0 = WorkoutModel.fromMap()
-    //     0x958b70: bl              #0x74186c  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::WorkoutModel.fromMap
+    //     0x958b70: bl              #0x74186c  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::WorkoutModel.fromMap
     // 0x958b74: mov             x2, x0
     // 0x958b78: ldur            x0, [fp, #-0x68]
     // 0x958b7c: stur            x2, [fp, #-0xa0]
@@ -874,7 +874,7 @@ class WorkoutManager extends ChangeNotifier {
     //     0x9b598c: mov             fp, SP
     // 0x9b5990: ldr             x2, [fp, #0x10]
     // 0x9b5994: r1 = Function 'dispose':.
-    //     0x9b5994: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d598] AnonymousClosure: (0x9b59ac), in [package:ballai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::dispose (0x9bd3dc)
+    //     0x9b5994: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d598] AnonymousClosure: (0x9b59ac), in [package:kourtai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::dispose (0x9bd3dc)
     //     0x9b5998: ldr             x1, [x1, #0x598]
     // 0x9b599c: r0 = AllocateClosure()
     //     0x9b599c: bl              #0xe553e0  ; AllocateClosureStub
@@ -899,7 +899,7 @@ class WorkoutManager extends ChangeNotifier {
     //     0x9b59c4: cmp             SP, x16
     //     0x9b59c8: b.ls            #0x9b59dc
     // 0x9b59cc: r0 = dispose()
-    //     0x9b59cc: bl              #0x9bd3dc  ; [package:ballai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::dispose
+    //     0x9b59cc: bl              #0x9bd3dc  ; [package:kourtai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::dispose
     // 0x9b59d0: LeaveFrame
     //     0x9b59d0: mov             SP, fp
     //     0x9b59d4: ldp             fp, lr, [SP], #0x10
@@ -930,7 +930,7 @@ class WorkoutManager extends ChangeNotifier {
     // 0x9bd404: mov             x2, x0
     // 0x9bd408: stur            x3, [fp, #-8]
     // 0x9bd40c: r1 = Function '_onUserChanged@727056843':.
-    //     0x9bd40c: add             x1, PP, #0x11, lsl #12  ; [pp+0x11e38] AnonymousClosure: (0x9bd45c), in [package:ballai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::_onUserChanged (0x9bd494)
+    //     0x9bd40c: add             x1, PP, #0x11, lsl #12  ; [pp+0x11e38] AnonymousClosure: (0x9bd45c), in [package:kourtai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::_onUserChanged (0x9bd494)
     //     0x9bd410: ldr             x1, [x1, #0xe38]
     // 0x9bd414: r0 = AllocateClosure()
     //     0x9bd414: bl              #0xe553e0  ; AllocateClosureStub
@@ -976,7 +976,7 @@ class WorkoutManager extends ChangeNotifier {
     //     0x9bd474: cmp             SP, x16
     //     0x9bd478: b.ls            #0x9bd48c
     // 0x9bd47c: r0 = _onUserChanged()
-    //     0x9bd47c: bl              #0x9bd494  ; [package:ballai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::_onUserChanged
+    //     0x9bd47c: bl              #0x9bd494  ; [package:kourtai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::_onUserChanged
     // 0x9bd480: LeaveFrame
     //     0x9bd480: mov             SP, fp
     //     0x9bd484: ldp             fp, lr, [SP], #0x10
@@ -1055,7 +1055,7 @@ class WorkoutManager extends ChangeNotifier {
     // 0x9bd534: cmp             w3, NULL
     // 0x9bd538: b.eq            #0x9bd540
     // 0x9bd53c: r0 = startListener()
-    //     0x9bd53c: bl              #0x9582ec  ; [package:ballai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::startListener
+    //     0x9bd53c: bl              #0x9582ec  ; [package:kourtai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::startListener
     // 0x9bd540: r0 = Null
     //     0x9bd540: mov             x0, NULL
     // 0x9bd544: LeaveFrame
@@ -1121,7 +1121,7 @@ class WorkoutManager extends ChangeNotifier {
     //     0xc2b2d0: b.eq            #0xc2b2d8
     //     0xc2b2d4: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xc2b2d8: r1 = Function '_onUserChanged@727056843':.
-    //     0xc2b2d8: add             x1, PP, #0x11, lsl #12  ; [pp+0x11e38] AnonymousClosure: (0x9bd45c), in [package:ballai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::_onUserChanged (0x9bd494)
+    //     0xc2b2d8: add             x1, PP, #0x11, lsl #12  ; [pp+0x11e38] AnonymousClosure: (0x9bd45c), in [package:kourtai/automatic/app/dependencies/managers/core/workout/workout_manager.dart] WorkoutManager::_onUserChanged (0x9bd494)
     //     0xc2b2dc: ldr             x1, [x1, #0xe38]
     // 0xc2b2e0: r0 = AllocateClosure()
     //     0xc2b2e0: bl              #0xe553e0  ; AllocateClosureStub

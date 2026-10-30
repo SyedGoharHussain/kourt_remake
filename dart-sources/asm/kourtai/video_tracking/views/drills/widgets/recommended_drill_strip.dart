@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/drills/widgets/recommended_drill_strip.dart
+// lib: , url: package:kourtai/video_tracking/views/drills/widgets/recommended_drill_strip.dart
 
 // class id: 1049229, size: 0x8
 class :: {
@@ -480,7 +480,7 @@ class RecommendedDrillStrip extends StatelessWidget {
     //     0xc3a04c: stur            w1, [x0, #0xf]
     // 0xc3a050: ldur            x2, [fp, #-0x10]
     // 0xc3a054: r0 = _drills()
-    //     0xc3a054: bl              #0xc3a370  ; [package:ballai/video_tracking/views/drills/widgets/recommended_drill_strip.dart] RecommendedDrillStrip::_drills
+    //     0xc3a054: bl              #0xc3a370  ; [package:kourtai/video_tracking/views/drills/widgets/recommended_drill_strip.dart] RecommendedDrillStrip::_drills
     // 0xc3a058: mov             x1, x0
     // 0xc3a05c: ldur            x2, [fp, #-0x18]
     // 0xc3a060: stur            x1, [fp, #-8]
@@ -551,7 +551,7 @@ class RecommendedDrillStrip extends StatelessWidget {
     //     0xc3a124: add             x1, PP, #0x2d, lsl #12  ; [pp+0x2d7e8] "Personalized drills for you"
     //     0xc3a128: ldr             x1, [x1, #0x7e8]
     // 0xc3a12c: r0 = L()
-    //     0xc3a12c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc3a12c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc3a130: r1 = LoadClassIdInstr(r0)
     //     0xc3a130: ldur            x1, [x0, #-1]
     //     0xc3a134: ubfx            x1, x1, #0xc, #0x14
@@ -573,21 +573,21 @@ class RecommendedDrillStrip extends StatelessWidget {
     //     0xc3a16c: b.eq            #0xc3a174
     //     0xc3a170: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0xc3a174: ldur            x1, [fp, #-0x10]
-    // 0xc3a178: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc3a178: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc3a178: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc3a178: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc3a17c: r16 = Instance_FontWeight
     //     0xc3a17c: add             x16, PP, #0x15, lsl #12  ; [pp+0x151f0] Obj!FontWeight@d28001
     //     0xc3a180: ldr             x16, [x16, #0x1f0]
     // 0xc3a184: stp             x0, x16, [SP]
     // 0xc3a188: ldur            x1, [fp, #-0x10]
-    // 0xc3a18c: r2 = Instance_BallAiTextScale
-    //     0xc3a18c: add             x2, PP, #0x2f, lsl #12  ; [pp+0x2fd78] Obj!BallAiTextScale@d3afe1
+    // 0xc3a18c: r2 = Instance_KourtAiTextScale
+    //     0xc3a18c: add             x2, PP, #0x2f, lsl #12  ; [pp+0x2fd78] Obj!KourtAiTextScale@d3afe1
     //     0xc3a190: ldr             x2, [x2, #0xd78]
     // 0xc3a194: r4 = const [0, 0x4, 0x2, 0x2, color, 0x3, weight, 0x2, null]
     //     0xc3a194: add             x4, PP, #0x2a, lsl #12  ; [pp+0x2aaa8] List(9) [0, 0x4, 0x2, 0x2, "color", 0x3, "weight", 0x2, Null]
     //     0xc3a198: ldr             x4, [x4, #0xaa8]
-    // 0xc3a19c: r0 = BallAiTextStyleContext.ballAiTextStyle()
-    //     0xc3a19c: bl              #0xa8a184  ; [package:ballai/automatic/theme/ball_ai_text_styles.dart] ::BallAiTextStyleContext.ballAiTextStyle
+    // 0xc3a19c: r0 = KourtAiTextStyleContext.kourtAiTextStyle()
+    //     0xc3a19c: bl              #0xa8a184  ; [package:kourtai/automatic/theme/kourt_ai_text_styles.dart] ::KourtAiTextStyleContext.kourtAiTextStyle
     // 0xc3a1a0: r16 = 1.200000
     //     0xc3a1a0: add             x16, PP, #0x2b, lsl #12  ; [pp+0x2bea0] 1.2
     //     0xc3a1a4: ldr             x16, [x16, #0xea0]
@@ -628,7 +628,7 @@ class RecommendedDrillStrip extends StatelessWidget {
     //     0xc3a204: sbfx            x0, x1, #1, #0x1f
     // 0xc3a208: stur            x0, [fp, #-0x30]
     // 0xc3a20c: r1 = Function '<anonymous closure>':.
-    //     0xc3a20c: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fd88] AnonymousClosure: (0x9f92b4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStatCallouts (0x9f8a28)
+    //     0xc3a20c: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fd88] AnonymousClosure: (0x9f92b4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/steps/parity/account_setup_recap_parity_view.dart] _AccountSetupRecapParityViewState::_buildStatCallouts (0x9f8a28)
     //     0xc3a210: ldr             x1, [x1, #0xd88]
     // 0xc3a214: r2 = Null
     //     0xc3a214: mov             x2, NULL
@@ -636,7 +636,7 @@ class RecommendedDrillStrip extends StatelessWidget {
     //     0xc3a218: bl              #0xe553e0  ; AllocateClosureStub
     // 0xc3a21c: ldur            x2, [fp, #-0x18]
     // 0xc3a220: r1 = Function '<anonymous closure>':.
-    //     0xc3a220: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fd90] AnonymousClosure: (0xc3a3e4), in [package:ballai/video_tracking/views/drills/widgets/recommended_drill_strip.dart] RecommendedDrillStrip::build (0xc3a01c)
+    //     0xc3a220: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fd90] AnonymousClosure: (0xc3a3e4), in [package:kourtai/video_tracking/views/drills/widgets/recommended_drill_strip.dart] RecommendedDrillStrip::build (0xc3a01c)
     //     0xc3a224: ldr             x1, [x1, #0xd90]
     // 0xc3a228: stur            x0, [fp, #-8]
     // 0xc3a22c: r0 = AllocateClosure()
@@ -742,8 +742,8 @@ class RecommendedDrillStrip extends StatelessWidget {
     // 0xc3a32c: ldur            x0, [fp, #-8]
     // 0xc3a330: StoreField: r1->field_b = r0
     //     0xc3a330: stur            w0, [x1, #0xb]
-    // 0xc3a334: r0 = BallAiLiquidGlassCard()
-    //     0xc3a334: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xc3a334: r0 = KourtAiLiquidGlassCard()
+    //     0xc3a334: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xc3a338: ldur            x1, [fp, #-0x10]
     // 0xc3a33c: StoreField: r0->field_b = r1
     //     0xc3a33c: stur            w1, [x0, #0xb]
@@ -803,13 +803,13 @@ class RecommendedDrillStrip extends StatelessWidget {
     // 0xc3a3b8: r1 = Null
     //     0xc3a3b8: mov             x1, NULL
     // 0xc3a3bc: r0 = AccountSetupFunnelDrillProfile.fromUser()
-    //     0xc3a3bc: bl              #0xab69ac  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrillProfile::AccountSetupFunnelDrillProfile.fromUser
+    //     0xc3a3bc: bl              #0xab69ac  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrillProfile::AccountSetupFunnelDrillProfile.fromUser
     // 0xc3a3c0: ldur            x1, [fp, #-0x10]
     // 0xc3a3c4: mov             x2, x0
     // 0xc3a3c8: r4 = const [0, 0x2, 0, 0x2, null]
     //     0xc3a3c8: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0xc3a3cc: r0 = recommendedLibraryDrills()
-    //     0xc3a3cc: bl              #0xa011b4  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::recommendedLibraryDrills
+    //     0xc3a3cc: bl              #0xa011b4  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_funnel_drills.dart] AccountSetupFunnelDrills::recommendedLibraryDrills
     // 0xc3a3d0: LeaveFrame
     //     0xc3a3d0: mov             SP, fp
     //     0xc3a3d4: ldp             fp, lr, [SP], #0x10
@@ -909,7 +909,7 @@ class RecommendedDrillStrip extends StatelessWidget {
     //     0xc3a4c4: stur            w0, [x3, #0xb]
     // 0xc3a4c8: ldur            x2, [fp, #-0x20]
     // 0xc3a4cc: r1 = Function '<anonymous closure>':.
-    //     0xc3a4cc: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fda0] AnonymousClosure: (0xc3a544), in [package:ballai/video_tracking/views/drills/widgets/recommended_drill_strip.dart] RecommendedDrillStrip::build (0xc3a01c)
+    //     0xc3a4cc: add             x1, PP, #0x2f, lsl #12  ; [pp+0x2fda0] AnonymousClosure: (0xc3a544), in [package:kourtai/video_tracking/views/drills/widgets/recommended_drill_strip.dart] RecommendedDrillStrip::build (0xc3a01c)
     //     0xc3a4d0: ldr             x1, [x1, #0xda0]
     // 0xc3a4d4: r0 = AllocateClosure()
     //     0xc3a4d4: bl              #0xe553e0  ; AllocateClosureStub
@@ -992,7 +992,7 @@ class RecommendedDrillStrip extends StatelessWidget {
     //     0xc3a598: add             x0, x0, HEAP, lsl #32
     // 0xc3a59c: mov             x1, x0
     // 0xc3a5a0: r0 = _openDrill()
-    //     0xc3a5a0: bl              #0xac2ec4  ; [package:ballai/video_tracking/views/drills/drill_library_view.dart] _DrillLibraryViewState::_openDrill
+    //     0xc3a5a0: bl              #0xac2ec4  ; [package:kourtai/video_tracking/views/drills/drill_library_view.dart] _DrillLibraryViewState::_openDrill
     // 0xc3a5a4: r0 = Null
     //     0xc3a5a4: mov             x0, NULL
     // 0xc3a5a8: LeaveFrame

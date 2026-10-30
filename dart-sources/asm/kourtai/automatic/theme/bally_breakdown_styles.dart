@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/theme/bally_breakdown_styles.dart
+// lib: , url: package:kourtai/automatic/theme/bally_breakdown_styles.dart
 
 // class id: 1048715, size: 0x8
 class :: {

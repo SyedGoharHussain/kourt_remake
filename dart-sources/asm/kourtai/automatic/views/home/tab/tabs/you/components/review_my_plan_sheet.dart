@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart
 
 // class id: 1049005, size: 0x8
 class :: {
@@ -45,7 +45,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     // 0x97f9f0: mov             x2, x1
     // 0x97f9f4: stur            x0, [fp, #-8]
     // 0x97f9f8: r1 = Function '<anonymous closure>':.
-    //     0x97f9f8: add             x1, PP, #0x26, lsl #12  ; [pp+0x26920] AnonymousClosure: (0x97facc), in [package:ballai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::initState (0x97f99c)
+    //     0x97f9f8: add             x1, PP, #0x26, lsl #12  ; [pp+0x26920] AnonymousClosure: (0x97facc), in [package:kourtai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::initState (0x97f99c)
     //     0x97f9fc: ldr             x1, [x1, #0x920]
     // 0x97fa00: r0 = AllocateClosure()
     //     0x97fa00: bl              #0xe553e0  ; AllocateClosureStub
@@ -142,7 +142,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     //     0x97faf0: add             x0, x0, HEAP, lsl #32
     // 0x97faf4: mov             x1, x0
     // 0x97faf8: r0 = _bootstrap()
-    //     0x97faf8: bl              #0x97fb14  ; [package:ballai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::_bootstrap
+    //     0x97faf8: bl              #0x97fb14  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::_bootstrap
     // 0x97fafc: r0 = Null
     //     0x97fafc: mov             x0, NULL
     // 0x97fb00: LeaveFrame
@@ -205,7 +205,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     // 0x97fb94: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x97fb94: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x97fb98: r0 = AccountSetupController()
-    //     0x97fb98: bl              #0x937cb4  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::AccountSetupController
+    //     0x97fb98: bl              #0x937cb4  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::AccountSetupController
     // 0x97fb9c: ldur            x0, [fp, #-0x78]
     // 0x97fba0: ldur            x2, [fp, #-0x68]
     // 0x97fba4: ArrayStore: r2[0] = r0  ; List_4
@@ -218,7 +218,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     //     0x97fbbc: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x97fbc0: ldur            x1, [fp, #-0x78]
     // 0x97fbc4: r0 = bootstrap()
-    //     0x97fbc4: bl              #0x932828  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::bootstrap
+    //     0x97fbc4: bl              #0x932828  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::bootstrap
     // 0x97fbc8: mov             x1, x0
     // 0x97fbcc: stur            x1, [fp, #-0x80]
     // 0x97fbd0: r0 = Await()
@@ -233,7 +233,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     //     0x97fbe4: add             x2, PP, #0x1a, lsl #12  ; [pp+0x1a608] "recap"
     //     0x97fbe8: ldr             x2, [x2, #0x608]
     // 0x97fbec: r0 = markCoachLineStreamed()
-    //     0x97fbec: bl              #0x94d2b0  ; [package:ballai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::markCoachLineStreamed
+    //     0x97fbec: bl              #0x94d2b0  ; [package:kourtai/automatic/viewmodels/auth/accountsetup/account_setup_controller.dart] AccountSetupController::markCoachLineStreamed
     // 0x97fbf0: ldur            x0, [fp, #-0x60]
     // 0x97fbf4: LoadField: r1 = r0->field_f
     //     0x97fbf4: ldur            w1, [x0, #0xf]
@@ -250,7 +250,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     //     0x97fc10: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x97fc14: ldur            x2, [fp, #-0x68]
     // 0x97fc18: r1 = Function '<anonymous closure>':.
-    //     0x97fc18: add             x1, PP, #0x26, lsl #12  ; [pp+0x26938] AnonymousClosure: (0x97fd48), in [package:ballai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::_bootstrap (0x97fb14)
+    //     0x97fc18: add             x1, PP, #0x26, lsl #12  ; [pp+0x26938] AnonymousClosure: (0x97fd48), in [package:kourtai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::_bootstrap (0x97fb14)
     //     0x97fc1c: ldr             x1, [x1, #0x938]
     // 0x97fc20: r0 = AllocateClosure()
     //     0x97fc20: bl              #0xe553e0  ; AllocateClosureStub
@@ -282,7 +282,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     // 0x97fc74: r0 = ReturnAsyncNotFuture()
     //     0x97fc74: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x97fc78: r1 = Function '<anonymous closure>':.
-    //     0x97fc78: add             x1, PP, #0x26, lsl #12  ; [pp+0x26940] AnonymousClosure: (0x97fca4), in [package:ballai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::_bootstrap (0x97fb14)
+    //     0x97fc78: add             x1, PP, #0x26, lsl #12  ; [pp+0x26940] AnonymousClosure: (0x97fca4), in [package:kourtai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::_bootstrap (0x97fb14)
     //     0x97fc7c: ldr             x1, [x1, #0x940]
     // 0x97fc80: r0 = AllocateClosure()
     //     0x97fc80: bl              #0xe553e0  ; AllocateClosureStub
@@ -480,17 +480,17 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     //     0xa87cf8: add             x1, PP, #0x26, lsl #12  ; [pp+0x268a0] "Keep your plan"
     //     0xa87cfc: ldr             x1, [x1, #0x8a0]
     // 0xa87d00: r0 = L()
-    //     0xa87d00: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa87d00: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa87d04: b               #0xa87d14
     // 0xa87d08: r1 = "My plan"
     //     0xa87d08: add             x1, PP, #0x26, lsl #12  ; [pp+0x268a8] "My plan"
     //     0xa87d0c: ldr             x1, [x1, #0x8a8]
     // 0xa87d10: r0 = L()
-    //     0xa87d10: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa87d10: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa87d14: ldur            x1, [fp, #-0x10]
     // 0xa87d18: stur            x0, [fp, #-0x28]
-    // 0xa87d1c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa87d1c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa87d1c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa87d1c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa87d20: stur            x0, [fp, #-0x30]
     // 0xa87d24: r0 = TextStyle()
     //     0xa87d24: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -527,15 +527,15 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     //     0xa87d74: add             x1, PP, #0x20, lsl #12  ; [pp+0x206c0] "Close"
     //     0xa87d78: ldr             x1, [x1, #0x6c0]
     // 0xa87d7c: r0 = L()
-    //     0xa87d7c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa87d7c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa87d80: ldur            x1, [fp, #-0x10]
     // 0xa87d84: stur            x0, [fp, #-0x28]
-    // 0xa87d88: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xa87d88: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xa87d88: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xa87d88: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xa87d8c: ldur            x1, [fp, #-0x10]
     // 0xa87d90: stur            x0, [fp, #-0x38]
-    // 0xa87d94: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa87d94: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa87d94: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa87d94: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa87d98: stur            x0, [fp, #-0x40]
     // 0xa87d9c: r0 = Icon()
     //     0xa87d9c: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -575,7 +575,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     //     0xa87df8: stur            w0, [x3, #0xb]
     // 0xa87dfc: ldur            x2, [fp, #-0x18]
     // 0xa87e00: r1 = Function '<anonymous closure>':.
-    //     0xa87e00: add             x1, PP, #0x26, lsl #12  ; [pp+0x268b8] AnonymousClosure: (0xa888ec), in [package:ballai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::build (0xa87c30)
+    //     0xa87e00: add             x1, PP, #0x26, lsl #12  ; [pp+0x268b8] AnonymousClosure: (0xa888ec), in [package:kourtai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::build (0xa87c30)
     //     0xa87e04: ldr             x1, [x1, #0x8b8]
     // 0xa87e08: r0 = AllocateClosure()
     //     0xa87e08: bl              #0xe553e0  ; AllocateClosureStub
@@ -748,7 +748,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     //     0xa87fac: stur            w0, [x2, #0xb]
     // 0xa87fb0: ldur            x1, [fp, #-8]
     // 0xa87fb4: r0 = _buildBody()
-    //     0xa87fb4: bl              #0xa882ec  ; [package:ballai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::_buildBody
+    //     0xa87fb4: bl              #0xa882ec  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::_buildBody
     // 0xa87fb8: r1 = <FlexParentData>
     //     0xa87fb8: add             x1, PP, #0x18, lsl #12  ; [pp+0x183e0] TypeArguments: <FlexParentData>
     //     0xa87fbc: ldr             x1, [x1, #0x3e0]
@@ -798,12 +798,12 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     //     0xa8802c: stur            w0, [x2, #0xb]
     // 0xa88030: ldur            x1, [fp, #-8]
     // 0xa88034: r0 = _isSubscriptionAtRisk()
-    //     0xa88034: bl              #0xa882b4  ; [package:ballai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::_isSubscriptionAtRisk
+    //     0xa88034: bl              #0xa882b4  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::_isSubscriptionAtRisk
     // 0xa88038: tbnz            w0, #4, #0xa881bc
     // 0xa8803c: ldur            x0, [fp, #-0x30]
     // 0xa88040: ldur            x1, [fp, #-0x10]
-    // 0xa88044: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xa88044: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xa88044: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xa88044: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xa88048: r16 = Instance_Size
     //     0xa88048: add             x16, PP, #0x26, lsl #12  ; [pp+0x268d0] Obj!Size@d2e171
     //     0xa8804c: ldr             x16, [x16, #0x8d0]
@@ -818,7 +818,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     //     0xa88064: ldr             x1, [x1, #0x8d8]
     // 0xa88068: stur            x0, [fp, #-8]
     // 0xa8806c: r0 = L()
-    //     0xa8806c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa8806c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa88070: stur            x0, [fp, #-0x10]
     // 0xa88074: r0 = Text()
     //     0xa88074: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -838,7 +838,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     //     0xa8809c: stur            w0, [x3, #0x3b]
     // 0xa880a0: ldur            x2, [fp, #-0x18]
     // 0xa880a4: r1 = Function '<anonymous closure>':.
-    //     0xa880a4: add             x1, PP, #0x26, lsl #12  ; [pp+0x268e0] AnonymousClosure: (0xa886f4), in [package:ballai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::build (0xa87c30)
+    //     0xa880a4: add             x1, PP, #0x26, lsl #12  ; [pp+0x268e0] AnonymousClosure: (0xa886f4), in [package:kourtai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::build (0xa87c30)
     //     0xa880a8: ldr             x1, [x1, #0x8e0]
     // 0xa880ac: r0 = AllocateClosure()
     //     0xa880ac: bl              #0xe553e0  ; AllocateClosureStub
@@ -1109,7 +1109,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     //     0xa88350: add             x1, PP, #0x26, lsl #12  ; [pp+0x26908] "Couldn\'t load your plan. Please try again."
     //     0xa88354: ldr             x1, [x1, #0x908]
     // 0xa88358: r0 = L()
-    //     0xa88358: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa88358: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8835c: ldur            x1, [fp, #-8]
     // 0xa88360: stur            x0, [fp, #-0x10]
     // 0xa88364: LoadField: r2 = r1->field_f
@@ -1119,8 +1119,8 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     // 0xa8836c: cmp             w2, NULL
     // 0xa88370: b.eq            #0xa88498
     // 0xa88374: mov             x1, x2
-    // 0xa88378: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa88378: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa88378: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa88378: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa8837c: stur            x0, [fp, #-0x18]
     // 0xa88380: r0 = TextStyle()
     //     0xa88380: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1178,7 +1178,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     //     0xa88408: ret             
     // 0xa8840c: mov             x1, x0
     // 0xa88410: r0 = _atRiskCoachLine()
-    //     0xa88410: bl              #0xa88544  ; [package:ballai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::_atRiskCoachLine
+    //     0xa88410: bl              #0xa88544  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::_atRiskCoachLine
     // 0xa88414: stur            x0, [fp, #-8]
     // 0xa88418: r0 = AccountSetupRecapParityView()
     //     0xa88418: bl              #0xa88538  ; AllocateAccountSetupRecapParityViewStub -> AccountSetupRecapParityView (size=0x10)
@@ -1342,7 +1342,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     //     0xa88660: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a630] "hooper"
     //     0xa88664: ldr             x1, [x1, #0x630]
     // 0xa88668: r0 = L()
-    //     0xa88668: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa88668: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa8866c: mov             x3, x0
     // 0xa88670: b               #0xa88678
     // 0xa88674: mov             x3, x0
@@ -1356,7 +1356,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     //     0xa8868c: add             x1, PP, #0x26, lsl #12  ; [pp+0x26910] "{name}, your credit card air balled — here\'s everything you\'ll lose soon if you don\'t renew."
     //     0xa88690: ldr             x1, [x1, #0x910]
     // 0xa88694: r0 = L()
-    //     0xa88694: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa88694: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa88698: mov             x1, x0
     // 0xa8869c: ldur            x3, [fp, #-0x10]
     // 0xa886a0: r2 = "{name}"
@@ -1373,7 +1373,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     //     0xa886b8: add             x1, PP, #0x26, lsl #12  ; [pp+0x26918] "{name}, why\'d you cancel me\? Here\'s everything you\'ll lose soon if you don\'t renew."
     //     0xa886bc: ldr             x1, [x1, #0x918]
     // 0xa886c0: r0 = L()
-    //     0xa886c0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa886c0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa886c4: mov             x1, x0
     // 0xa886c8: ldur            x3, [fp, #-0x10]
     // 0xa886cc: r2 = "{name}"
@@ -1414,7 +1414,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     //     0xa88718: add             x0, x0, HEAP, lsl #32
     // 0xa8871c: mov             x1, x0
     // 0xa88720: r0 = _onRenewPlan()
-    //     0xa88720: bl              #0xa8873c  ; [package:ballai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::_onRenewPlan
+    //     0xa88720: bl              #0xa8873c  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::_onRenewPlan
     // 0xa88724: r0 = Null
     //     0xa88724: mov             x0, NULL
     // 0xa88728: LeaveFrame
@@ -1519,7 +1519,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     //     0xa8881c: add             x0, x0, HEAP, lsl #32
     // 0xa88820: mov             x1, x0
     // 0xa88824: r0 = openManageSubscriptions()
-    //     0xa88824: bl              #0x951ee8  ; [package:ballai/automatic/app/dependencies/handlers/core/play_billing_handler.dart] PlayBillingHandler::openManageSubscriptions
+    //     0xa88824: bl              #0x951ee8  ; [package:kourtai/automatic/app/dependencies/handlers/core/play_billing_handler.dart] PlayBillingHandler::openManageSubscriptions
     // 0xa88828: mov             x1, x0
     // 0xa8882c: stur            x1, [fp, #-0x18]
     // 0xa88830: r0 = Await()
@@ -1548,7 +1548,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     // 0xa88868: r0 = of()
     //     0xa88868: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xa8886c: r1 = Function '<anonymous closure>':.
-    //     0xa8886c: add             x1, PP, #0x26, lsl #12  ; [pp+0x268f0] AnonymousClosure: (0xa888e0), in [package:ballai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::_onRenewPlan (0xa8873c)
+    //     0xa8886c: add             x1, PP, #0x26, lsl #12  ; [pp+0x268f0] AnonymousClosure: (0xa888e0), in [package:kourtai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::_onRenewPlan (0xa8873c)
     //     0xa88870: ldr             x1, [x1, #0x8f0]
     // 0xa88874: r2 = Null
     //     0xa88874: mov             x2, NULL
@@ -1621,7 +1621,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     //     0xa88910: add             x0, x0, HEAP, lsl #32
     // 0xa88914: mov             x1, x0
     // 0xa88918: r0 = _onDone()
-    //     0xa88918: bl              #0xa88934  ; [package:ballai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::_onDone
+    //     0xa88918: bl              #0xa88934  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::_onDone
     // 0xa8891c: r0 = Null
     //     0xa8891c: mov             x0, NULL
     // 0xa88920: LeaveFrame
@@ -1661,7 +1661,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     // 0xa88970: b.eq            #0xa88988
     // 0xa88974: mov             x1, x0
     // 0xa88978: r0 = _persistGoalsIfNeeded()
-    //     0xa88978: bl              #0xa889cc  ; [package:ballai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::_persistGoalsIfNeeded
+    //     0xa88978: bl              #0xa889cc  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::_persistGoalsIfNeeded
     // 0xa8897c: mov             x1, x0
     // 0xa88980: stur            x1, [fp, #-0x18]
     // 0xa88984: r0 = Await()
@@ -1796,13 +1796,13 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     //     0xa88ad8: add             x4, PP, #0x26, lsl #12  ; [pp+0x26900] List(11) [0, 0x4, 0x3, 0x1, "makeActivityGoal", 0x2, "shotActivityGoal", 0x1, "timeActivityGoal", 0x3, Null]
     //     0xa88adc: ldr             x4, [x4, #0x900]
     // 0xa88ae0: r0 = copyWith()
-    //     0xa88ae0: bl              #0x663774  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::copyWith
+    //     0xa88ae0: bl              #0x663774  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::copyWith
     // 0xa88ae4: ldur            x1, [fp, #-0x20]
     // 0xa88ae8: mov             x2, x0
     // 0xa88aec: r4 = const [0, 0x2, 0, 0x2, null]
     //     0xa88aec: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0xa88af0: r0 = updateUser()
-    //     0xa88af0: bl              #0x6618fc  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::updateUser
+    //     0xa88af0: bl              #0x6618fc  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::updateUser
     // 0xa88af4: mov             x1, x0
     // 0xa88af8: stur            x1, [fp, #-0x20]
     // 0xa88afc: r0 = Await()
@@ -1820,7 +1820,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     // 0xa88b18: LoadField: r3 = r0->field_87
     //     0xa88b18: ldur            x3, [x0, #0x87]
     // 0xa88b1c: r0 = upsertCurrentWeekGoal()
-    //     0xa88b1c: bl              #0x9308dc  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::upsertCurrentWeekGoal
+    //     0xa88b1c: bl              #0x9308dc  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/support/account_setup_recommended_goals.dart] AccountSetupRecommendedGoals::upsertCurrentWeekGoal
     // 0xa88b20: mov             x1, x0
     // 0xa88b24: stur            x1, [fp, #-0x10]
     // 0xa88b28: r0 = Await()
@@ -1842,7 +1842,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     //     0xb5bc88: mov             fp, SP
     // 0xb5bc8c: ldr             x2, [fp, #0x10]
     // 0xb5bc90: r1 = Function 'dispose':.
-    //     0xb5bc90: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c150] AnonymousClosure: (0xb5bca8), in [package:ballai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::dispose (0xb62f18)
+    //     0xb5bc90: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3c150] AnonymousClosure: (0xb5bca8), in [package:kourtai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::dispose (0xb62f18)
     //     0xb5bc94: ldr             x1, [x1, #0x150]
     // 0xb5bc98: r0 = AllocateClosure()
     //     0xb5bc98: bl              #0xe553e0  ; AllocateClosureStub
@@ -1867,7 +1867,7 @@ class _ReviewMyPlanSheetState extends State<dynamic> {
     //     0xb5bcc0: cmp             SP, x16
     //     0xb5bcc4: b.ls            #0xb5bcd8
     // 0xb5bcc8: r0 = dispose()
-    //     0xb5bcc8: bl              #0xb62f18  ; [package:ballai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::dispose
+    //     0xb5bcc8: bl              #0xb62f18  ; [package:kourtai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] _ReviewMyPlanSheetState::dispose
     // 0xb5bccc: LeaveFrame
     //     0xb5bccc: mov             SP, fp
     //     0xb5bcd0: ldp             fp, lr, [SP], #0x10
@@ -1953,7 +1953,7 @@ class ReviewMyPlanSheet extends StatefulWidget {
     //     0x8e7dc0: stur            w0, [x1, #0x13]
     // 0x8e7dc4: mov             x2, x1
     // 0x8e7dc8: r1 = Function '<anonymous closure>': static.
-    //     0x8e7dc8: add             x1, PP, #0x20, lsl #12  ; [pp+0x20e18] AnonymousClosure: static (0x8e8354), in [package:ballai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] ReviewMyPlanSheet::present (0x8e7d50)
+    //     0x8e7dc8: add             x1, PP, #0x20, lsl #12  ; [pp+0x20e18] AnonymousClosure: static (0x8e8354), in [package:kourtai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] ReviewMyPlanSheet::present (0x8e7d50)
     //     0x8e7dcc: ldr             x1, [x1, #0xe18]
     // 0x8e7dd0: r0 = AllocateClosure()
     //     0x8e7dd0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1963,7 +1963,7 @@ class ReviewMyPlanSheet extends StatefulWidget {
     // 0x8e7ddc: r4 = const [0x1, 0x1, 0x1, 0x1, null]
     //     0x8e7ddc: ldr             x4, [PP, #0x1048]  ; [pp+0x1048] List(5) [0x1, 0x1, 0x1, 0x1, Null]
     // 0x8e7de0: r0 = withHidden()
-    //     0x8e7de0: bl              #0x8e7e18  ; [package:ballai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::withHidden
+    //     0x8e7de0: bl              #0x8e7e18  ; [package:kourtai/automatic/utility/ui/home_island_visibility.dart] HomeIslandVisibility::withHidden
     // 0x8e7de4: LeaveFrame
     //     0x8e7de4: mov             SP, fp
     //     0x8e7de8: ldp             fp, lr, [SP], #0x10
@@ -1995,8 +1995,8 @@ class ReviewMyPlanSheet extends StatefulWidget {
     //     0x8e8380: add             x0, x0, HEAP, lsl #32
     // 0x8e8384: mov             x1, x0
     // 0x8e8388: stur            x0, [fp, #-8]
-    // 0x8e838c: r0 = BallAiThemeContext.ballAiPageBackground()
-    //     0x8e838c: bl              #0x8e8a38  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPageBackground
+    // 0x8e838c: r0 = KourtAiThemeContext.kourtAiPageBackground()
+    //     0x8e838c: bl              #0x8e8a38  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPageBackground
     // 0x8e8390: stur            x0, [fp, #-0x18]
     // 0x8e8394: r16 = 0.450000
     //     0x8e8394: add             x16, PP, #0x20, lsl #12  ; [pp+0x20e20] 0.45
@@ -2011,7 +2011,7 @@ class ReviewMyPlanSheet extends StatefulWidget {
     //     0x8e83ac: bl              #0xd9bb78  ; [dart:ui] Color::withValues
     // 0x8e83b0: ldur            x2, [fp, #-0x10]
     // 0x8e83b4: r1 = Function '<anonymous closure>': static.
-    //     0x8e83b4: add             x1, PP, #0x20, lsl #12  ; [pp+0x20e28] AnonymousClosure: static (0x8e8ba4), in [package:ballai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] ReviewMyPlanSheet::present (0x8e7d50)
+    //     0x8e83b4: add             x1, PP, #0x20, lsl #12  ; [pp+0x20e28] AnonymousClosure: static (0x8e8ba4), in [package:kourtai/automatic/views/home/tab/tabs/you/components/review_my_plan_sheet.dart] ReviewMyPlanSheet::present (0x8e7d50)
     //     0x8e83b8: ldr             x1, [x1, #0xe28]
     // 0x8e83bc: stur            x0, [fp, #-0x10]
     // 0x8e83c0: r0 = AllocateClosure()

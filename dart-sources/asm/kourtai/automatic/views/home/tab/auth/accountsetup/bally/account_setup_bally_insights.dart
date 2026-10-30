@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart
 
 // class id: 1048831, size: 0x8
 class :: {
@@ -19,7 +19,7 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x9342f4: cmp             SP, x16
     //     0x9342f8: b.ls            #0x934384
     // 0x9342fc: r0 = _physical()
-    //     0x9342fc: bl              #0x935f2c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_physical
+    //     0x9342fc: bl              #0x935f2c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_physical
     // 0x934300: mov             x2, x0
     // 0x934304: r1 = <BallyInsight>
     //     0x934304: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a690] TypeArguments: <BallyInsight>
@@ -28,37 +28,37 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x93430c: bl              #0x5c79a0  ; [dart:core] _GrowableList::_GrowableList._ofGrowableList
     // 0x934310: stur            x0, [fp, #-8]
     // 0x934314: r0 = _position()
-    //     0x934314: bl              #0x935994  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_position
+    //     0x934314: bl              #0x935994  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_position
     // 0x934318: ldur            x1, [fp, #-8]
     // 0x93431c: mov             x2, x0
     // 0x934320: r0 = addAll()
     //     0x934320: bl              #0x5c8034  ; [dart:core] _GrowableList::addAll
     // 0x934324: r0 = _gender()
-    //     0x934324: bl              #0x935720  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_gender
+    //     0x934324: bl              #0x935720  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_gender
     // 0x934328: ldur            x1, [fp, #-8]
     // 0x93432c: mov             x2, x0
     // 0x934330: r0 = addAll()
     //     0x934330: bl              #0x5c8034  ; [dart:core] _GrowableList::addAll
     // 0x934334: r0 = _hand()
-    //     0x934334: bl              #0x9354ac  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_hand
+    //     0x934334: bl              #0x9354ac  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_hand
     // 0x934338: ldur            x1, [fp, #-8]
     // 0x93433c: mov             x2, x0
     // 0x934340: r0 = addAll()
     //     0x934340: bl              #0x5c8034  ; [dart:core] _GrowableList::addAll
     // 0x934344: r0 = _level()
-    //     0x934344: bl              #0x935020  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_level
+    //     0x934344: bl              #0x935020  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_level
     // 0x934348: ldur            x1, [fp, #-8]
     // 0x93434c: mov             x2, x0
     // 0x934350: r0 = addAll()
     //     0x934350: bl              #0x5c8034  ; [dart:core] _GrowableList::addAll
     // 0x934354: r0 = _acquisition()
-    //     0x934354: bl              #0x934824  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_acquisition
+    //     0x934354: bl              #0x934824  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_acquisition
     // 0x934358: ldur            x1, [fp, #-8]
     // 0x93435c: mov             x2, x0
     // 0x934360: r0 = addAll()
     //     0x934360: bl              #0x5c8034  ; [dart:core] _GrowableList::addAll
     // 0x934364: r0 = _frequency()
-    //     0x934364: bl              #0x93438c  ; [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_frequency
+    //     0x934364: bl              #0x93438c  ; [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_frequency
     // 0x934368: ldur            x1, [fp, #-8]
     // 0x93436c: mov             x2, x0
     // 0x934370: r0 = addAll()
@@ -88,13 +88,13 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x9343a4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a698] "A couple days a week — then every rep has to count."
     //     0x9343a8: ldr             x1, [x1, #0x698]
     // 0x9343ac: r0 = L()
-    //     0x9343ac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9343ac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9343b0: r1 = "Limited time, {name}\? The right work beats more work."
     //     0x9343b0: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a6a0] "Limited time, {name}\? The right work beats more work."
     //     0x9343b4: ldr             x1, [x1, #0x6a0]
     // 0x9343b8: stur            x0, [fp, #-8]
     // 0x9343bc: r0 = L()
-    //     0x9343bc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9343bc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9343c0: r1 = Null
     //     0x9343c0: mov             x1, NULL
     // 0x9343c4: r2 = 4
@@ -133,7 +133,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x93441c: StoreField: r3->field_7 = r0
     //     0x93441c: stur            w0, [x3, #7]
     // 0x934420: r1 = Function '<anonymous closure>': static.
-    //     0x934420: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a6b0] AnonymousClosure: static (0x9347cc), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_frequency (0x93438c)
+    //     0x934420: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a6b0] AnonymousClosure: static (0x9347cc), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_frequency (0x93438c)
     //     0x934424: ldr             x1, [x1, #0x6b0]
     // 0x934428: r2 = Null
     //     0x934428: mov             x2, NULL
@@ -155,13 +155,13 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x934450: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a6c0] "Three, four days a week is a real routine, {name}."
     //     0x934454: ldr             x1, [x1, #0x6c0]
     // 0x934458: r0 = L()
-    //     0x934458: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x934458: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x93445c: r1 = "That\'s a sustainable rhythm. Stack the weeks and the jump is real."
     //     0x93445c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a6c8] "That\'s a sustainable rhythm. Stack the weeks and the jump is real."
     //     0x934460: ldr             x1, [x1, #0x6c8]
     // 0x934464: stur            x0, [fp, #-8]
     // 0x934468: r0 = L()
-    //     0x934468: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x934468: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x93446c: r1 = Null
     //     0x93446c: mov             x1, NULL
     // 0x934470: r2 = 4
@@ -200,7 +200,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x9344c8: StoreField: r3->field_7 = r0
     //     0x9344c8: stur            w0, [x3, #7]
     // 0x9344cc: r1 = Function '<anonymous closure>': static.
-    //     0x9344cc: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a6d8] AnonymousClosure: static (0x934774), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_frequency (0x93438c)
+    //     0x9344cc: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a6d8] AnonymousClosure: static (0x934774), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_frequency (0x93438c)
     //     0x9344d0: ldr             x1, [x1, #0x6d8]
     // 0x9344d4: r2 = Null
     //     0x9344d4: mov             x2, NULL
@@ -222,13 +222,13 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x9344fc: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a6e0] "Five, six days a week — most guys talk it, you\'re about it."
     //     0x934500: ldr             x1, [x1, #0x6e0]
     // 0x934504: r0 = L()
-    //     0x934504: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x934504: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x934508: r1 = "That work compounds fast, {name}."
     //     0x934508: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a6e8] "That work compounds fast, {name}."
     //     0x93450c: ldr             x1, [x1, #0x6e8]
     // 0x934510: stur            x0, [fp, #-8]
     // 0x934514: r0 = L()
-    //     0x934514: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x934514: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x934518: r1 = Null
     //     0x934518: mov             x1, NULL
     // 0x93451c: r2 = 4
@@ -267,7 +267,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x934574: StoreField: r3->field_7 = r0
     //     0x934574: stur            w0, [x3, #7]
     // 0x934578: r1 = Function '<anonymous closure>': static.
-    //     0x934578: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a6f8] AnonymousClosure: static (0x93471c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_frequency (0x93438c)
+    //     0x934578: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a6f8] AnonymousClosure: static (0x93471c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_frequency (0x93438c)
     //     0x93457c: ldr             x1, [x1, #0x6f8]
     // 0x934580: r2 = Null
     //     0x934580: mov             x2, NULL
@@ -289,13 +289,13 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x9345a8: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a700] "Every single day\? That\'s obsession, {name} — and obsession wins."
     //     0x9345ac: ldr             x1, [x1, #0x700]
     // 0x9345b0: r0 = L()
-    //     0x9345b0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9345b0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9345b4: r1 = "Daily reps will have you unrecognizable in a season."
     //     0x9345b4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a708] "Daily reps will have you unrecognizable in a season."
     //     0x9345b8: ldr             x1, [x1, #0x708]
     // 0x9345bc: stur            x0, [fp, #-8]
     // 0x9345c0: r0 = L()
-    //     0x9345c0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9345c0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9345c4: r1 = Null
     //     0x9345c4: mov             x1, NULL
     // 0x9345c8: r2 = 4
@@ -334,7 +334,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x934620: StoreField: r3->field_7 = r0
     //     0x934620: stur            w0, [x3, #7]
     // 0x934624: r1 = Function '<anonymous closure>': static.
-    //     0x934624: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a718] AnonymousClosure: static (0x9346c4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_frequency (0x93438c)
+    //     0x934624: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a718] AnonymousClosure: static (0x9346c4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_frequency (0x93438c)
     //     0x934628: ldr             x1, [x1, #0x718]
     // 0x93462c: r2 = Null
     //     0x93462c: mov             x2, NULL
@@ -548,7 +548,7 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x93483c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a740] "Shoutout Instagram."
     //     0x934840: ldr             x1, [x1, #0x740]
     // 0x934844: r0 = L()
-    //     0x934844: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x934844: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x934848: r1 = Null
     //     0x934848: mov             x1, NULL
     // 0x93484c: r2 = 2
@@ -584,7 +584,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x93489c: StoreField: r3->field_7 = r0
     //     0x93489c: stur            w0, [x3, #7]
     // 0x9348a0: r1 = Function '<anonymous closure>': static.
-    //     0x9348a0: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a750] AnonymousClosure: static (0x934fc8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_acquisition (0x934824)
+    //     0x9348a0: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a750] AnonymousClosure: static (0x934fc8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_acquisition (0x934824)
     //     0x9348a4: ldr             x1, [x1, #0x750]
     // 0x9348a8: r2 = Null
     //     0x9348a8: mov             x2, NULL
@@ -606,7 +606,7 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x9348d0: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a760] "Shoutout TikTok."
     //     0x9348d4: ldr             x1, [x1, #0x760]
     // 0x9348d8: r0 = L()
-    //     0x9348d8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9348d8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9348dc: r1 = Null
     //     0x9348dc: mov             x1, NULL
     // 0x9348e0: r2 = 2
@@ -642,7 +642,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x934930: StoreField: r3->field_7 = r0
     //     0x934930: stur            w0, [x3, #7]
     // 0x934934: r1 = Function '<anonymous closure>': static.
-    //     0x934934: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a770] AnonymousClosure: static (0x934f70), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_acquisition (0x934824)
+    //     0x934934: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a770] AnonymousClosure: static (0x934f70), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_acquisition (0x934824)
     //     0x934938: ldr             x1, [x1, #0x770]
     // 0x93493c: r2 = Null
     //     0x93493c: mov             x2, NULL
@@ -664,7 +664,7 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x934964: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a778] "Shoutout Snapchat."
     //     0x934968: ldr             x1, [x1, #0x778]
     // 0x93496c: r0 = L()
-    //     0x93496c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x93496c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x934970: r1 = Null
     //     0x934970: mov             x1, NULL
     // 0x934974: r2 = 2
@@ -700,7 +700,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x9349c4: StoreField: r3->field_7 = r0
     //     0x9349c4: stur            w0, [x3, #7]
     // 0x9349c8: r1 = Function '<anonymous closure>': static.
-    //     0x9349c8: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a788] AnonymousClosure: static (0x934f18), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_acquisition (0x934824)
+    //     0x9349c8: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a788] AnonymousClosure: static (0x934f18), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_acquisition (0x934824)
     //     0x9349cc: ldr             x1, [x1, #0x788]
     // 0x9349d0: r2 = Null
     //     0x9349d0: mov             x2, NULL
@@ -722,7 +722,7 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x9349f8: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a790] "Shoutout App Store."
     //     0x9349fc: ldr             x1, [x1, #0x790]
     // 0x934a00: r0 = L()
-    //     0x934a00: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x934a00: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x934a04: r1 = Null
     //     0x934a04: mov             x1, NULL
     // 0x934a08: r2 = 2
@@ -758,7 +758,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x934a58: StoreField: r3->field_7 = r0
     //     0x934a58: stur            w0, [x3, #7]
     // 0x934a5c: r1 = Function '<anonymous closure>': static.
-    //     0x934a5c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a7a0] AnonymousClosure: static (0x934ec0), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_acquisition (0x934824)
+    //     0x934a5c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a7a0] AnonymousClosure: static (0x934ec0), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_acquisition (0x934824)
     //     0x934a60: ldr             x1, [x1, #0x7a0]
     // 0x934a64: r2 = Null
     //     0x934a64: mov             x2, NULL
@@ -780,7 +780,7 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x934a8c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a7a8] "Shoutout friends and family."
     //     0x934a90: ldr             x1, [x1, #0x7a8]
     // 0x934a94: r0 = L()
-    //     0x934a94: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x934a94: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x934a98: r1 = Null
     //     0x934a98: mov             x1, NULL
     // 0x934a9c: r2 = 2
@@ -816,7 +816,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x934aec: StoreField: r3->field_7 = r0
     //     0x934aec: stur            w0, [x3, #7]
     // 0x934af0: r1 = Function '<anonymous closure>': static.
-    //     0x934af0: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a7b8] AnonymousClosure: static (0x934e68), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_acquisition (0x934824)
+    //     0x934af0: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a7b8] AnonymousClosure: static (0x934e68), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_acquisition (0x934824)
     //     0x934af4: ldr             x1, [x1, #0x7b8]
     // 0x934af8: r2 = Null
     //     0x934af8: mov             x2, NULL
@@ -838,7 +838,7 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x934b20: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a7c0] "Shoutout YouTube."
     //     0x934b24: ldr             x1, [x1, #0x7c0]
     // 0x934b28: r0 = L()
-    //     0x934b28: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x934b28: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x934b2c: r1 = Null
     //     0x934b2c: mov             x1, NULL
     // 0x934b30: r2 = 2
@@ -874,7 +874,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x934b80: StoreField: r3->field_7 = r0
     //     0x934b80: stur            w0, [x3, #7]
     // 0x934b84: r1 = Function '<anonymous closure>': static.
-    //     0x934b84: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a7d0] AnonymousClosure: static (0x934e10), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_acquisition (0x934824)
+    //     0x934b84: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a7d0] AnonymousClosure: static (0x934e10), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_acquisition (0x934824)
     //     0x934b88: ldr             x1, [x1, #0x7d0]
     // 0x934b8c: r2 = Null
     //     0x934b8c: mov             x2, NULL
@@ -896,7 +896,7 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x934bb4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a7d8] "Shoutout Google."
     //     0x934bb8: ldr             x1, [x1, #0x7d8]
     // 0x934bbc: r0 = L()
-    //     0x934bbc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x934bbc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x934bc0: r1 = Null
     //     0x934bc0: mov             x1, NULL
     // 0x934bc4: r2 = 2
@@ -932,7 +932,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x934c14: StoreField: r3->field_7 = r0
     //     0x934c14: stur            w0, [x3, #7]
     // 0x934c18: r1 = Function '<anonymous closure>': static.
-    //     0x934c18: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a7e8] AnonymousClosure: static (0x934db8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_acquisition (0x934824)
+    //     0x934c18: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a7e8] AnonymousClosure: static (0x934db8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_acquisition (0x934824)
     //     0x934c1c: ldr             x1, [x1, #0x7e8]
     // 0x934c20: r2 = Null
     //     0x934c20: mov             x2, NULL
@@ -954,7 +954,7 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x934c48: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a7f0] "Shoutout — glad you\'re here."
     //     0x934c4c: ldr             x1, [x1, #0x7f0]
     // 0x934c50: r0 = L()
-    //     0x934c50: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x934c50: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x934c54: r1 = Null
     //     0x934c54: mov             x1, NULL
     // 0x934c58: r2 = 2
@@ -990,7 +990,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x934ca8: StoreField: r3->field_7 = r0
     //     0x934ca8: stur            w0, [x3, #7]
     // 0x934cac: r1 = Function '<anonymous closure>': static.
-    //     0x934cac: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a800] AnonymousClosure: static (0x934d60), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_acquisition (0x934824)
+    //     0x934cac: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a800] AnonymousClosure: static (0x934d60), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_acquisition (0x934824)
     //     0x934cb0: ldr             x1, [x1, #0x800]
     // 0x934cb4: r2 = Null
     //     0x934cb4: mov             x2, NULL
@@ -1356,13 +1356,13 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x935038: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a848] "Casual or youth ball — perfect time to stack fundamentals."
     //     0x93503c: ldr             x1, [x1, #0x848]
     // 0x935040: r0 = L()
-    //     0x935040: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x935040: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x935044: r1 = "Early in the journey, {name}. Every rep counts double right now."
     //     0x935044: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a850] "Early in the journey, {name}. Every rep counts double right now."
     //     0x935048: ldr             x1, [x1, #0x850]
     // 0x93504c: stur            x0, [fp, #-8]
     // 0x935050: r0 = L()
-    //     0x935050: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x935050: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x935054: r1 = Null
     //     0x935054: mov             x1, NULL
     // 0x935058: r2 = 4
@@ -1401,7 +1401,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x9350b0: StoreField: r3->field_7 = r0
     //     0x9350b0: stur            w0, [x3, #7]
     // 0x9350b4: r1 = Function '<anonymous closure>': static.
-    //     0x9350b4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a860] AnonymousClosure: static (0x935454), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_level (0x935020)
+    //     0x9350b4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a860] AnonymousClosure: static (0x935454), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_level (0x935020)
     //     0x9350b8: ldr             x1, [x1, #0x860]
     // 0x9350bc: r2 = Null
     //     0x9350bc: mov             x2, NULL
@@ -1423,13 +1423,13 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x9350e4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a868] "Middle school, JV or AAU — you\'re building the foundation now."
     //     0x9350e8: ldr             x1, [x1, #0x868]
     // 0x9350ec: r0 = L()
-    //     0x9350ec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9350ec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9350f0: r1 = "Real reps under you, {name}. Let\'s make the good habits automatic."
     //     0x9350f0: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a870] "Real reps under you, {name}. Let\'s make the good habits automatic."
     //     0x9350f4: ldr             x1, [x1, #0x870]
     // 0x9350f8: stur            x0, [fp, #-8]
     // 0x9350fc: r0 = L()
-    //     0x9350fc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9350fc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x935100: r1 = Null
     //     0x935100: mov             x1, NULL
     // 0x935104: r2 = 4
@@ -1468,7 +1468,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x93515c: StoreField: r3->field_7 = r0
     //     0x93515c: stur            w0, [x3, #7]
     // 0x935160: r1 = Function '<anonymous closure>': static.
-    //     0x935160: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a880] AnonymousClosure: static (0x9353fc), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_level (0x935020)
+    //     0x935160: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a880] AnonymousClosure: static (0x9353fc), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_level (0x935020)
     //     0x935164: ldr             x1, [x1, #0x880]
     // 0x935168: r2 = Null
     //     0x935168: mov             x2, NULL
@@ -1490,13 +1490,13 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x935190: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a888] "High school varsity — you know the game. Now we sharpen it."
     //     0x935194: ldr             x1, [x1, #0x888]
     // 0x935198: r0 = L()
-    //     0x935198: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x935198: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x93519c: r1 = "Competitive level, {name}. Let\'s turn solid into a weapon."
     //     0x93519c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a890] "Competitive level, {name}. Let\'s turn solid into a weapon."
     //     0x9351a0: ldr             x1, [x1, #0x890]
     // 0x9351a4: stur            x0, [fp, #-8]
     // 0x9351a8: r0 = L()
-    //     0x9351a8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9351a8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9351ac: r1 = Null
     //     0x9351ac: mov             x1, NULL
     // 0x9351b0: r2 = 4
@@ -1535,7 +1535,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x935208: StoreField: r3->field_7 = r0
     //     0x935208: stur            w0, [x3, #7]
     // 0x93520c: r1 = Function '<anonymous closure>': static.
-    //     0x93520c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a8a0] AnonymousClosure: static (0x9353a4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_level (0x935020)
+    //     0x93520c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a8a0] AnonymousClosure: static (0x9353a4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_level (0x935020)
     //     0x935210: ldr             x1, [x1, #0x8a0]
     // 0x935214: r2 = Null
     //     0x935214: mov             x2, NULL
@@ -1557,13 +1557,13 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x93523c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a8a8] "College recruit or hooper — from here it\'s polish and margins."
     //     0x935240: ldr             x1, [x1, #0x8a8]
     // 0x935244: r0 = L()
-    //     0x935244: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x935244: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x935248: r1 = "At your level it\'s all fine-tuning, {name}."
     //     0x935248: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a8b0] "At your level it\'s all fine-tuning, {name}."
     //     0x93524c: ldr             x1, [x1, #0x8b0]
     // 0x935250: stur            x0, [fp, #-8]
     // 0x935254: r0 = L()
-    //     0x935254: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x935254: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x935258: r1 = Null
     //     0x935258: mov             x1, NULL
     // 0x93525c: r2 = 4
@@ -1602,7 +1602,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x9352b4: StoreField: r3->field_7 = r0
     //     0x9352b4: stur            w0, [x3, #7]
     // 0x9352b8: r1 = Function '<anonymous closure>': static.
-    //     0x9352b8: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a8c0] AnonymousClosure: static (0x93534c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_level (0x935020)
+    //     0x9352b8: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a8c0] AnonymousClosure: static (0x93534c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_level (0x935020)
     //     0x9352bc: ldr             x1, [x1, #0x8c0]
     // 0x9352c0: r2 = Null
     //     0x9352c0: mov             x2, NULL
@@ -1816,13 +1816,13 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x9354c4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a8e8] "Righty — clean and natural. We\'ll sharpen that off-hand."
     //     0x9354c8: ldr             x1, [x1, #0x8e8]
     // 0x9354cc: r0 = L()
-    //     0x9354cc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9354cc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9354d0: r1 = "Right-handed, {name} — solid base to build on."
     //     0x9354d0: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a8f0] "Right-handed, {name} — solid base to build on."
     //     0x9354d4: ldr             x1, [x1, #0x8f0]
     // 0x9354d8: stur            x0, [fp, #-8]
     // 0x9354dc: r0 = L()
-    //     0x9354dc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9354dc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9354e0: r1 = Null
     //     0x9354e0: mov             x1, NULL
     // 0x9354e4: r2 = 4
@@ -1861,7 +1861,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x93553c: StoreField: r3->field_7 = r0
     //     0x93553c: stur            w0, [x3, #7]
     // 0x935540: r1 = Function '<anonymous closure>': static.
-    //     0x935540: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a900] AnonymousClosure: static (0x9356c8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_hand (0x9354ac)
+    //     0x935540: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a900] AnonymousClosure: static (0x9356c8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_hand (0x9354ac)
     //     0x935544: ldr             x1, [x1, #0x900]
     // 0x935548: r2 = Null
     //     0x935548: mov             x2, NULL
@@ -1883,13 +1883,13 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x935570: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a908] "A lefty — every angle you attack feels awkward to guard."
     //     0x935574: ldr             x1, [x1, #0x908]
     // 0x935578: r0 = L()
-    //     0x935578: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x935578: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x93557c: r1 = "Left-handed — that throws off timing for everyone on you."
     //     0x93557c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a910] "Left-handed — that throws off timing for everyone on you."
     //     0x935580: ldr             x1, [x1, #0x910]
     // 0x935584: stur            x0, [fp, #-8]
     // 0x935588: r0 = L()
-    //     0x935588: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x935588: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x93558c: r1 = Null
     //     0x93558c: mov             x1, NULL
     // 0x935590: r2 = 4
@@ -1928,7 +1928,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x9355e8: StoreField: r3->field_7 = r0
     //     0x9355e8: stur            w0, [x3, #7]
     // 0x9355ec: r1 = Function '<anonymous closure>': static.
-    //     0x9355ec: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a920] AnonymousClosure: static (0x935670), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_hand (0x9354ac)
+    //     0x9355ec: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a920] AnonymousClosure: static (0x935670), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_hand (0x9354ac)
     //     0x9355f0: ldr             x1, [x1, #0x920]
     // 0x9355f4: r2 = Null
     //     0x9355f4: mov             x2, NULL
@@ -2066,13 +2066,13 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x935738: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a938] "Got it, {name}."
     //     0x93573c: ldr             x1, [x1, #0x938]
     // 0x935740: r0 = L()
-    //     0x935740: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x935740: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x935744: r1 = "Noted — let\'s keep building your profile."
     //     0x935744: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a940] "Noted — let\'s keep building your profile."
     //     0x935748: ldr             x1, [x1, #0x940]
     // 0x93574c: stur            x0, [fp, #-8]
     // 0x935750: r0 = L()
-    //     0x935750: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x935750: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x935754: r1 = Null
     //     0x935754: mov             x1, NULL
     // 0x935758: r2 = 4
@@ -2111,7 +2111,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x9357b0: StoreField: r3->field_7 = r0
     //     0x9357b0: stur            w0, [x3, #7]
     // 0x9357b4: r1 = Function '<anonymous closure>': static.
-    //     0x9357b4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a950] AnonymousClosure: static (0x93593c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_gender (0x935720)
+    //     0x9357b4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a950] AnonymousClosure: static (0x93593c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_gender (0x935720)
     //     0x9357b8: ldr             x1, [x1, #0x950]
     // 0x9357bc: r2 = Null
     //     0x9357bc: mov             x2, NULL
@@ -2133,13 +2133,13 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x9357e4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a938] "Got it, {name}."
     //     0x9357e8: ldr             x1, [x1, #0x938]
     // 0x9357ec: r0 = L()
-    //     0x9357ec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9357ec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9357f0: r1 = "Noted — let\'s keep building your profile."
     //     0x9357f0: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a940] "Noted — let\'s keep building your profile."
     //     0x9357f4: ldr             x1, [x1, #0x940]
     // 0x9357f8: stur            x0, [fp, #-8]
     // 0x9357fc: r0 = L()
-    //     0x9357fc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9357fc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x935800: r1 = Null
     //     0x935800: mov             x1, NULL
     // 0x935804: r2 = 4
@@ -2178,7 +2178,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x93585c: StoreField: r3->field_7 = r0
     //     0x93585c: stur            w0, [x3, #7]
     // 0x935860: r1 = Function '<anonymous closure>': static.
-    //     0x935860: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a960] AnonymousClosure: static (0x9358e4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_gender (0x935720)
+    //     0x935860: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a960] AnonymousClosure: static (0x9358e4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_gender (0x935720)
     //     0x935864: ldr             x1, [x1, #0x960]
     // 0x935868: r2 = Null
     //     0x935868: mov             x2, NULL
@@ -2316,13 +2316,13 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x9359ac: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a978] "A point guard — you set the table for everybody."
     //     0x9359b0: ldr             x1, [x1, #0x978]
     // 0x9359b4: r0 = L()
-    //     0x9359b4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9359b4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9359b8: r1 = "Running the point, {name}. You control the game\'s tempo."
     //     0x9359b8: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a980] "Running the point, {name}. You control the game\'s tempo."
     //     0x9359bc: ldr             x1, [x1, #0x980]
     // 0x9359c0: stur            x0, [fp, #-8]
     // 0x9359c4: r0 = L()
-    //     0x9359c4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9359c4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9359c8: r1 = Null
     //     0x9359c8: mov             x1, NULL
     // 0x9359cc: r2 = 4
@@ -2361,7 +2361,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x935a24: StoreField: r3->field_7 = r0
     //     0x935a24: stur            w0, [x3, #7]
     // 0x935a28: r1 = Function '<anonymous closure>': static.
-    //     0x935a28: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a990] AnonymousClosure: static (0x935ed4), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_position (0x935994)
+    //     0x935a28: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a990] AnonymousClosure: static (0x935ed4), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_position (0x935994)
     //     0x935a2c: ldr             x1, [x1, #0x990]
     // 0x935a30: r2 = Null
     //     0x935a30: mov             x2, NULL
@@ -2383,13 +2383,13 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x935a58: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a998] "A two guard — you punish any sliver of space."
     //     0x935a5c: ldr             x1, [x1, #0x998]
     // 0x935a60: r0 = L()
-    //     0x935a60: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x935a60: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x935a64: r1 = "Shooting guard, {name}. Your gravity off the ball moves defenses."
     //     0x935a64: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a9a0] "Shooting guard, {name}. Your gravity off the ball moves defenses."
     //     0x935a68: ldr             x1, [x1, #0x9a0]
     // 0x935a6c: stur            x0, [fp, #-8]
     // 0x935a70: r0 = L()
-    //     0x935a70: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x935a70: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x935a74: r1 = Null
     //     0x935a74: mov             x1, NULL
     // 0x935a78: r2 = 4
@@ -2428,7 +2428,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x935ad0: StoreField: r3->field_7 = r0
     //     0x935ad0: stur            w0, [x3, #7]
     // 0x935ad4: r1 = Function '<anonymous closure>': static.
-    //     0x935ad4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a9b0] AnonymousClosure: static (0x935e7c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_position (0x935994)
+    //     0x935ad4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a9b0] AnonymousClosure: static (0x935e7c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_position (0x935994)
     //     0x935ad8: ldr             x1, [x1, #0x9b0]
     // 0x935adc: r2 = Null
     //     0x935adc: mov             x2, NULL
@@ -2450,13 +2450,13 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x935b04: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a9b8] "A wing — the do-everything spot."
     //     0x935b08: ldr             x1, [x1, #0x9b8]
     // 0x935b0c: r0 = L()
-    //     0x935b0c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x935b0c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x935b10: r1 = "Small forward, {name} — too quick for bigs, too big for guards."
     //     0x935b10: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a9c0] "Small forward, {name} — too quick for bigs, too big for guards."
     //     0x935b14: ldr             x1, [x1, #0x9c0]
     // 0x935b18: stur            x0, [fp, #-8]
     // 0x935b1c: r0 = L()
-    //     0x935b1c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x935b1c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x935b20: r1 = Null
     //     0x935b20: mov             x1, NULL
     // 0x935b24: r2 = 4
@@ -2495,7 +2495,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x935b7c: StoreField: r3->field_7 = r0
     //     0x935b7c: stur            w0, [x3, #7]
     // 0x935b80: r1 = Function '<anonymous closure>': static.
-    //     0x935b80: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a9d0] AnonymousClosure: static (0x935e24), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_position (0x935994)
+    //     0x935b80: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a9d0] AnonymousClosure: static (0x935e24), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_position (0x935994)
     //     0x935b84: ldr             x1, [x1, #0x9d0]
     // 0x935b88: r2 = Null
     //     0x935b88: mov             x2, NULL
@@ -2517,13 +2517,13 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x935bb0: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a9d8] "A four — you live in the mismatch."
     //     0x935bb4: ldr             x1, [x1, #0x9d8]
     // 0x935bb8: r0 = L()
-    //     0x935bb8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x935bb8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x935bbc: r1 = "Power forward, {name}. You set the tone inside."
     //     0x935bbc: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a9e0] "Power forward, {name}. You set the tone inside."
     //     0x935bc0: ldr             x1, [x1, #0x9e0]
     // 0x935bc4: stur            x0, [fp, #-8]
     // 0x935bc8: r0 = L()
-    //     0x935bc8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x935bc8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x935bcc: r1 = Null
     //     0x935bcc: mov             x1, NULL
     // 0x935bd0: r2 = 4
@@ -2562,7 +2562,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x935c28: StoreField: r3->field_7 = r0
     //     0x935c28: stur            w0, [x3, #7]
     // 0x935c2c: r1 = Function '<anonymous closure>': static.
-    //     0x935c2c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a9f0] AnonymousClosure: static (0x935dcc), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_position (0x935994)
+    //     0x935c2c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a9f0] AnonymousClosure: static (0x935dcc), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_position (0x935994)
     //     0x935c30: ldr             x1, [x1, #0x9f0]
     // 0x935c34: r2 = Null
     //     0x935c34: mov             x2, NULL
@@ -2584,13 +2584,13 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x935c5c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1a9f8] "A center — the game bends around you on both ends."
     //     0x935c60: ldr             x1, [x1, #0x9f8]
     // 0x935c64: r0 = L()
-    //     0x935c64: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x935c64: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x935c68: r1 = "Anchoring the middle, {name}. Boards and rim protection start with you."
     //     0x935c68: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aa00] "Anchoring the middle, {name}. Boards and rim protection start with you."
     //     0x935c6c: ldr             x1, [x1, #0xa00]
     // 0x935c70: stur            x0, [fp, #-8]
     // 0x935c74: r0 = L()
-    //     0x935c74: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x935c74: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x935c78: r1 = Null
     //     0x935c78: mov             x1, NULL
     // 0x935c7c: r2 = 4
@@ -2629,7 +2629,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x935cd4: StoreField: r3->field_7 = r0
     //     0x935cd4: stur            w0, [x3, #7]
     // 0x935cd8: r1 = Function '<anonymous closure>': static.
-    //     0x935cd8: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aa10] AnonymousClosure: static (0x935d74), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_position (0x935994)
+    //     0x935cd8: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aa10] AnonymousClosure: static (0x935d74), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_position (0x935994)
     //     0x935cdc: ldr             x1, [x1, #0xa10]
     // 0x935ce0: r2 = Null
     //     0x935ce0: mov             x2, NULL
@@ -2881,13 +2881,13 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x935f44: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aa40] "That size changes the math — you alter shots just standing there, {name}."
     //     0x935f48: ldr             x1, [x1, #0xa40]
     // 0x935f4c: r0 = L()
-    //     0x935f4c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x935f4c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x935f50: r1 = "Length like that, the paint is yours to own."
     //     0x935f50: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aa48] "Length like that, the paint is yours to own."
     //     0x935f54: ldr             x1, [x1, #0xa48]
     // 0x935f58: stur            x0, [fp, #-8]
     // 0x935f5c: r0 = L()
-    //     0x935f5c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x935f5c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x935f60: r1 = Null
     //     0x935f60: mov             x1, NULL
     // 0x935f64: r2 = 4
@@ -2926,7 +2926,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x935fbc: StoreField: r3->field_7 = r0
     //     0x935fbc: stur            w0, [x3, #7]
     // 0x935fc0: r1 = Function '<anonymous closure>': static.
-    //     0x935fc0: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aa58] AnonymousClosure: static (0x936438), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_physical (0x935f2c)
+    //     0x935fc0: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aa58] AnonymousClosure: static (0x936438), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_physical (0x935f2c)
     //     0x935fc4: ldr             x1, [x1, #0xa58]
     // 0x935fc8: r2 = Null
     //     0x935fc8: mov             x2, NULL
@@ -2948,13 +2948,13 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x935ff0: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aa60] "Good length — big enough to see over the D and finish through contact."
     //     0x935ff4: ldr             x1, [x1, #0xa60]
     // 0x935ff8: r0 = L()
-    //     0x935ff8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x935ff8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x935ffc: r1 = "That size plays, {name}. Guard up, shoot over smaller defenders."
     //     0x935ffc: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aa68] "That size plays, {name}. Guard up, shoot over smaller defenders."
     //     0x936000: ldr             x1, [x1, #0xa68]
     // 0x936004: stur            x0, [fp, #-8]
     // 0x936008: r0 = L()
-    //     0x936008: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x936008: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x93600c: r1 = Null
     //     0x93600c: mov             x1, NULL
     // 0x936010: r2 = 4
@@ -2993,7 +2993,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x936068: StoreField: r3->field_7 = r0
     //     0x936068: stur            w0, [x3, #7]
     // 0x93606c: r1 = Function '<anonymous closure>': static.
-    //     0x93606c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aa78] AnonymousClosure: static (0x9363e8), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_physical (0x935f2c)
+    //     0x93606c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aa78] AnonymousClosure: static (0x9363e8), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_physical (0x935f2c)
     //     0x936070: ldr             x1, [x1, #0xa78]
     // 0x936074: r2 = Null
     //     0x936074: mov             x2, NULL
@@ -3015,13 +3015,13 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x93609c: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aa80] "Solid guard size — enough to get your shot off clean and still move quick."
     //     0x9360a0: ldr             x1, [x1, #0xa80]
     // 0x9360a4: r0 = L()
-    //     0x9360a4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9360a4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9360a8: r1 = "Right in the sweet spot, {name} — quick to create, big enough to finish."
     //     0x9360a8: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aa88] "Right in the sweet spot, {name} — quick to create, big enough to finish."
     //     0x9360ac: ldr             x1, [x1, #0xa88]
     // 0x9360b0: stur            x0, [fp, #-8]
     // 0x9360b4: r0 = L()
-    //     0x9360b4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9360b4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x9360b8: r1 = Null
     //     0x9360b8: mov             x1, NULL
     // 0x9360bc: r2 = 4
@@ -3060,7 +3060,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x936114: StoreField: r3->field_7 = r0
     //     0x936114: stur            w0, [x3, #7]
     // 0x936118: r1 = Function '<anonymous closure>': static.
-    //     0x936118: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aa98] AnonymousClosure: static (0x936398), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_physical (0x935f2c)
+    //     0x936118: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aa98] AnonymousClosure: static (0x936398), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_physical (0x935f2c)
     //     0x93611c: ldr             x1, [x1, #0xa98]
     // 0x936120: r2 = Null
     //     0x936120: mov             x2, NULL
@@ -3082,13 +3082,13 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x936148: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aaa0] "Smaller frame means you win with speed — nobody guards what they can\'t catch."
     //     0x93614c: ldr             x1, [x1, #0xaa0]
     // 0x936150: r0 = L()
-    //     0x936150: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x936150: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x936154: r1 = "You\'ll play below the rim, {name}, so the handle and the brain carry you."
     //     0x936154: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aaa8] "You\'ll play below the rim, {name}, so the handle and the brain carry you."
     //     0x936158: ldr             x1, [x1, #0xaa8]
     // 0x93615c: stur            x0, [fp, #-8]
     // 0x936160: r0 = L()
-    //     0x936160: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x936160: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x936164: r1 = Null
     //     0x936164: mov             x1, NULL
     // 0x936168: r2 = 4
@@ -3127,7 +3127,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x9361c0: StoreField: r3->field_7 = r0
     //     0x9361c0: stur            w0, [x3, #7]
     // 0x9361c4: r1 = Function '<anonymous closure>': static.
-    //     0x9361c4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aab8] AnonymousClosure: static (0x936348), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_physical (0x935f2c)
+    //     0x9361c4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aab8] AnonymousClosure: static (0x936348), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_physical (0x935f2c)
     //     0x9361c8: ldr             x1, [x1, #0xab8]
     // 0x9361cc: r2 = Null
     //     0x9361cc: mov             x2, NULL
@@ -3149,13 +3149,13 @@ abstract class AccountSetupBallyInsights extends Object {
     //     0x9361f4: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aac0] "Got your measurables locked, {name}."
     //     0x9361f8: ldr             x1, [x1, #0xac0]
     // 0x9361fc: r0 = L()
-    //     0x9361fc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x9361fc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x936200: r1 = "Size is on the board — now we build around it."
     //     0x936200: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aac8] "Size is on the board — now we build around it."
     //     0x936204: ldr             x1, [x1, #0xac8]
     // 0x936208: stur            x0, [fp, #-8]
     // 0x93620c: r0 = L()
-    //     0x93620c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x93620c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x936210: r1 = Null
     //     0x936210: mov             x1, NULL
     // 0x936214: r2 = 4
@@ -3194,7 +3194,7 @@ abstract class AccountSetupBallyInsights extends Object {
     // 0x93626c: StoreField: r3->field_7 = r0
     //     0x93626c: stur            w0, [x3, #7]
     // 0x936270: r1 = Function '<anonymous closure>': static.
-    //     0x936270: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aad8] AnonymousClosure: static (0x93630c), in [package:ballai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_physical (0x935f2c)
+    //     0x936270: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1aad8] AnonymousClosure: static (0x93630c), in [package:kourtai/automatic/views/home/tab/auth/accountsetup/bally/account_setup_bally_insights.dart] AccountSetupBallyInsights::_physical (0x935f2c)
     //     0x936274: ldr             x1, [x1, #0xad8]
     // 0x936278: r2 = Null
     //     0x936278: mov             x2, NULL

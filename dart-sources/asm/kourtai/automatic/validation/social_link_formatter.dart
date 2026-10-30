@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/validation/social_link_formatter.dart
+// lib: , url: package:kourtai/automatic/validation/social_link_formatter.dart
 
 // class id: 1048759, size: 0x8
 class :: {
@@ -106,7 +106,7 @@ abstract class SocialLinkFormatter extends Object {
     // 0x9c1aa4: mov             x1, x0
     // 0x9c1aa8: mov             x2, x3
     // 0x9c1aac: r0 = displayHandle()
-    //     0x9c1aac: bl              #0x9c2dc0  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::displayHandle
+    //     0x9c1aac: bl              #0x9c2dc0  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::displayHandle
     // 0x9c1ab0: cmp             w0, NULL
     // 0x9c1ab4: b.eq            #0x9c1acc
     // 0x9c1ab8: LoadField: r1 = r0->field_7
@@ -120,7 +120,7 @@ abstract class SocialLinkFormatter extends Object {
     // 0x9c1acc: ldur            x1, [fp, #-0x18]
     // 0x9c1ad0: ldur            x2, [fp, #-8]
     // 0x9c1ad4: r0 = normalizedLink()
-    //     0x9c1ad4: bl              #0x9c1ca4  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
+    //     0x9c1ad4: bl              #0x9c1ca4  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
     // 0x9c1ad8: cmp             w0, NULL
     // 0x9c1adc: b.eq            #0x9c1aec
     // 0x9c1ae0: LeaveFrame
@@ -374,13 +374,13 @@ abstract class SocialLinkFormatter extends Object {
     // 0x9c1d74: ldur            x1, [fp, #-0x10]
     // 0x9c1d78: ldur            x2, [fp, #-8]
     // 0x9c1d7c: r0 = _normalizedHandle()
-    //     0x9c1d7c: bl              #0x9c2b34  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::_normalizedHandle
+    //     0x9c1d7c: bl              #0x9c2b34  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::_normalizedHandle
     // 0x9c1d80: cmp             w0, NULL
     // 0x9c1d84: b.eq            #0x9c1da0
     // 0x9c1d88: mov             x1, x0
     // 0x9c1d8c: ldur            x2, [fp, #-8]
     // 0x9c1d90: r0 = _urlFromHandle()
-    //     0x9c1d90: bl              #0x9c2950  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::_urlFromHandle
+    //     0x9c1d90: bl              #0x9c2950  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::_urlFromHandle
     // 0x9c1d94: LeaveFrame
     //     0x9c1d94: mov             SP, fp
     //     0x9c1d98: ldp             fp, lr, [SP], #0x10
@@ -514,13 +514,13 @@ abstract class SocialLinkFormatter extends Object {
     //     0x9c1f0c: ret             
     // 0x9c1f10: ldur            x1, [fp, #-8]
     // 0x9c1f14: r0 = _allowedHosts()
-    //     0x9c1f14: bl              #0x9c24b8  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialPlatform::_allowedHosts
+    //     0x9c1f14: bl              #0x9c24b8  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialPlatform::_allowedHosts
     // 0x9c1f18: cmp             w0, NULL
     // 0x9c1f1c: b.eq            #0x9c1f40
     // 0x9c1f20: ldur            x1, [fp, #-0x18]
     // 0x9c1f24: mov             x2, x0
     // 0x9c1f28: r0 = _hostAllowed()
-    //     0x9c1f28: bl              #0x9c21fc  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::_hostAllowed
+    //     0x9c1f28: bl              #0x9c21fc  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::_hostAllowed
     // 0x9c1f2c: tbz             w0, #4, #0x9c1f40
     // 0x9c1f30: r0 = Null
     //     0x9c1f30: mov             x0, NULL
@@ -584,7 +584,7 @@ abstract class SocialLinkFormatter extends Object {
     // 0x9c1fd0: mov             x1, x0
     // 0x9c1fd4: ldur            x2, [fp, #-8]
     // 0x9c1fd8: r0 = _sanitizePath()
-    //     0x9c1fd8: bl              #0x9c2074  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::_sanitizePath
+    //     0x9c1fd8: bl              #0x9c2074  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::_sanitizePath
     // 0x9c1fdc: LoadField: r1 = r0->field_7
     //     0x9c1fdc: ldur            w1, [x0, #7]
     // 0x9c1fe0: cbnz            w1, #0x9c1fe8
@@ -1492,13 +1492,13 @@ abstract class SocialLinkFormatter extends Object {
     // 0x9c2dfc: mov             x1, x0
     // 0x9c2e00: ldur            x2, [fp, #-8]
     // 0x9c2e04: r0 = _urlForDisplayParsing()
-    //     0x9c2e04: bl              #0x9c3ccc  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::_urlForDisplayParsing
+    //     0x9c2e04: bl              #0x9c3ccc  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::_urlForDisplayParsing
     // 0x9c2e08: cmp             w0, NULL
     // 0x9c2e0c: b.eq            #0x9c2e38
     // 0x9c2e10: mov             x1, x0
     // 0x9c2e14: ldur            x2, [fp, #-8]
     // 0x9c2e18: r0 = _displayHandleFromUrl()
-    //     0x9c2e18: bl              #0x9c2e94  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::_displayHandleFromUrl
+    //     0x9c2e18: bl              #0x9c2e94  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::_displayHandleFromUrl
     // 0x9c2e1c: cmp             w0, NULL
     // 0x9c2e20: b.eq            #0x9c2e38
     // 0x9c2e24: LoadField: r1 = r0->field_7
@@ -2887,7 +2887,7 @@ abstract class SocialLinkFormatter extends Object {
     // 0x9c3cf4: mov             x1, x3
     // 0x9c3cf8: mov             x2, x0
     // 0x9c3cfc: r0 = normalizedLink()
-    //     0x9c3cfc: bl              #0x9c1ca4  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
+    //     0x9c3cfc: bl              #0x9c1ca4  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
     // 0x9c3d00: cmp             w0, NULL
     // 0x9c3d04: b.eq            #0x9c3d1c
     // 0x9c3d08: mov             x1, x0
@@ -2901,7 +2901,7 @@ abstract class SocialLinkFormatter extends Object {
     // 0x9c3d1c: ldur            x1, [fp, #-8]
     // 0x9c3d20: ldur            x2, [fp, #-0x10]
     // 0x9c3d24: r0 = editingText()
-    //     0x9c3d24: bl              #0x9c1a08  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::editingText
+    //     0x9c3d24: bl              #0x9c1a08  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::editingText
     // 0x9c3d28: mov             x1, x0
     // 0x9c3d2c: r0 = tryParse()
     //     0x9c3d2c: bl              #0x8f3714  ; [dart:core] Uri::tryParse
@@ -2987,7 +2987,7 @@ abstract class SocialLinkFormatter extends Object {
     // 0x9d223c: mov             x1, x0
     // 0x9d2240: ldur            x2, [fp, #-8]
     // 0x9d2244: r0 = normalizedLink()
-    //     0x9d2244: bl              #0x9c1ca4  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
+    //     0x9d2244: bl              #0x9c1ca4  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
     // 0x9d2248: cmp             w0, NULL
     // 0x9d224c: r16 = true
     //     0x9d224c: add             x16, NULL, #0x20  ; true
@@ -3131,7 +3131,7 @@ abstract class SocialLinkFormatter extends Object {
     // 0xa520c4: mov             x1, x0
     // 0xa520c8: ldur            x2, [fp, #-0x10]
     // 0xa520cc: r0 = normalizedLink()
-    //     0xa520cc: bl              #0x9c1ca4  ; [package:ballai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
+    //     0xa520cc: bl              #0x9c1ca4  ; [package:kourtai/automatic/validation/social_link_formatter.dart] SocialLinkFormatter::normalizedLink
     // 0xa520d0: cmp             w0, NULL
     // 0xa520d4: b.eq            #0xa520e4
     // 0xa520d8: ldur            x0, [fp, #-0x38]

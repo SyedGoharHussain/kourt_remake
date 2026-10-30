@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/utility/defaults/defaults_video_workout_capture_quality.dart
+// lib: , url: package:kourtai/video_tracking/utility/defaults/defaults_video_workout_capture_quality.dart
 
 // class id: 1049195, size: 0x8
 class :: {
@@ -34,7 +34,7 @@ abstract class DefaultsVideoWorkoutCaptureQuality extends Object {
     //     0xabbf20: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0xabbf24: bl              #0x60afc8  ; InitAsyncStub
     // 0xabbf28: r0 = get()
-    //     0xabbf28: bl              #0xabbf50  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_capture_quality.dart] DefaultsVideoWorkoutCaptureQuality::get
+    //     0xabbf28: bl              #0xabbf50  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_capture_quality.dart] DefaultsVideoWorkoutCaptureQuality::get
     // 0xabbf2c: mov             x1, x0
     // 0xabbf30: stur            x1, [fp, #-0x10]
     // 0xabbf34: r0 = Await()
@@ -76,7 +76,7 @@ abstract class DefaultsVideoWorkoutCaptureQuality extends Object {
     // 0xabbf88: mov             x1, x0
     // 0xabbf8c: stur            x0, [fp, #-0x10]
     // 0xabbf90: r0 = _migrateDefaultToHighIfNeeded()
-    //     0xabbf90: bl              #0xabc110  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_capture_quality.dart] DefaultsVideoWorkoutCaptureQuality::_migrateDefaultToHighIfNeeded
+    //     0xabbf90: bl              #0xabc110  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_capture_quality.dart] DefaultsVideoWorkoutCaptureQuality::_migrateDefaultToHighIfNeeded
     // 0xabbf94: mov             x1, x0
     // 0xabbf98: stur            x1, [fp, #-0x18]
     // 0xabbf9c: r0 = Await()
@@ -89,7 +89,7 @@ abstract class DefaultsVideoWorkoutCaptureQuality extends Object {
     //     0xabbfac: bl              #0x72fe6c  ; [package:shared_preferences/src/shared_preferences_legacy.dart] SharedPreferences::getString
     // 0xabbfb0: mov             x1, x0
     // 0xabbfb4: r0 = fromRaw()
-    //     0xabbfb4: bl              #0xabbfcc  ; [package:ballai/video_tracking/utility/defaults/defaults_video_workout_capture_quality.dart] CaptureQualityPreset::fromRaw
+    //     0xabbfb4: bl              #0xabbfcc  ; [package:kourtai/video_tracking/utility/defaults/defaults_video_workout_capture_quality.dart] CaptureQualityPreset::fromRaw
     // 0xabbfb8: StoreStaticField(0xc58, r0)
     //     0xabbfb8: ldr             x1, [THR, #0x68]  ; THR::field_table_values
     //     0xabbfbc: str             x0, [x1, #0x18b0]

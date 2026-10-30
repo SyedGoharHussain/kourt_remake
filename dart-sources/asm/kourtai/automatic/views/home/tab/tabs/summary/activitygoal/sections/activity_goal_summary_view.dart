@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/sections/activity_goal_summary_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/sections/activity_goal_summary_view.dart
 
 // class id: 1048885, size: 0x8
 class :: {
@@ -28,8 +28,8 @@ class _GoalRow extends StatelessWidget {
     // 0xbdddf8: DecompressPointer r2
     //     0xbdddf8: add             x2, x2, HEAP, lsl #32
     // 0xbdddfc: stur            x2, [fp, #-8]
-    // 0xbdde00: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbdde00: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbdde00: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbdde00: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbdde04: stur            x0, [fp, #-0x18]
     // 0xbdde08: r0 = TextStyle()
     //     0xbdde08: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -231,7 +231,7 @@ class ActivityGoalSummaryView extends StatelessWidget {
     // 0xbd8398: r0 = of()
     //     0xbd8398: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xbd839c: r1 = Function '<anonymous closure>':.
-    //     0xbd839c: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c760] AnonymousClosure: (0x659620), in [package:ballai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
+    //     0xbd839c: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c760] AnonymousClosure: (0x659620), in [package:kourtai/automatic/views/home/tab/root/home_tab_view.dart] _HomeTabViewState::_presentRecordFlow (0x659400)
     //     0xbd83a0: ldr             x1, [x1, #0x760]
     // 0xbd83a4: r2 = Null
     //     0xbd83a4: mov             x2, NULL
@@ -281,7 +281,7 @@ class ActivityGoalSummaryView extends StatelessWidget {
     // 0xbd8418: r0 = of()
     //     0xbd8418: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xbd841c: r1 = Function '<anonymous closure>':.
-    //     0xbd841c: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c768] AnonymousClosure: (0xbd8330), in [package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/sections/activity_goal_summary_view.dart] ActivityGoalSummaryView::build (0xbdc8bc)
+    //     0xbd841c: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c768] AnonymousClosure: (0xbd8330), in [package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/sections/activity_goal_summary_view.dart] ActivityGoalSummaryView::build (0xbdc8bc)
     //     0xbd8420: ldr             x1, [x1, #0x768]
     // 0xbd8424: r2 = Null
     //     0xbd8424: mov             x2, NULL
@@ -354,16 +354,16 @@ class ActivityGoalSummaryView extends StatelessWidget {
     // 0xbdc908: DecompressPointer r3
     //     0xbdc908: add             x3, x3, HEAP, lsl #32
     // 0xbdc90c: stur            x3, [fp, #-0x18]
-    // 0xbdc910: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xbdc910: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xbdc910: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xbdc910: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xbdc914: ldur            x2, [fp, #-0x20]
     // 0xbdc918: stur            x0, [fp, #-0x10]
     // 0xbdc91c: LoadField: r1 = r2->field_13
     //     0xbdc91c: ldur            w1, [x2, #0x13]
     // 0xbdc920: DecompressPointer r1
     //     0xbdc920: add             x1, x1, HEAP, lsl #32
-    // 0xbdc924: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbdc924: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbdc924: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbdc924: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbdc928: stur            x0, [fp, #-0x28]
     // 0xbdc92c: r0 = Radius()
     //     0xbdc92c: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -447,7 +447,7 @@ class ActivityGoalSummaryView extends StatelessWidget {
     //     0xbdc9e8: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c6a8] "Time (H)"
     //     0xbdc9ec: ldr             x1, [x1, #0x6a8]
     // 0xbdc9f0: r0 = L()
-    //     0xbdc9f0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdc9f0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdc9f4: mov             x2, x0
     // 0xbdc9f8: ldur            x0, [fp, #-0x18]
     // 0xbdc9fc: stur            x2, [fp, #-0x40]
@@ -458,7 +458,7 @@ class ActivityGoalSummaryView extends StatelessWidget {
     // 0xbdca0c: b               #0xbdca18
     // 0xbdca10: mov             x1, x0
     // 0xbdca14: r0 = formattedTimeProgress()
-    //     0xbdca14: bl              #0xbdda8c  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::formattedTimeProgress
+    //     0xbdca14: bl              #0xbdda8c  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::formattedTimeProgress
     // 0xbdca18: cmp             w0, NULL
     // 0xbdca1c: b.ne            #0xbdca2c
     // 0xbdca20: r2 = "--/1"
@@ -500,7 +500,7 @@ class ActivityGoalSummaryView extends StatelessWidget {
     //     0xbdca80: add             x1, PP, #0x11, lsl #12  ; [pp+0x11e80] "Shots"
     //     0xbdca84: ldr             x1, [x1, #0xe80]
     // 0xbdca88: r0 = L()
-    //     0xbdca88: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdca88: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdca8c: mov             x2, x0
     // 0xbdca90: ldur            x0, [fp, #-0x18]
     // 0xbdca94: stur            x2, [fp, #-0x50]
@@ -511,7 +511,7 @@ class ActivityGoalSummaryView extends StatelessWidget {
     // 0xbdcaa4: b               #0xbdcab0
     // 0xbdcaa8: mov             x1, x0
     // 0xbdcaac: r0 = formattedShotsProgress()
-    //     0xbdcaac: bl              #0xbdd9a0  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::formattedShotsProgress
+    //     0xbdcaac: bl              #0xbdd9a0  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::formattedShotsProgress
     // 0xbdcab0: cmp             w0, NULL
     // 0xbdcab4: b.ne            #0xbdcac4
     // 0xbdcab8: r2 = "--/500"
@@ -553,7 +553,7 @@ class ActivityGoalSummaryView extends StatelessWidget {
     //     0xbdcb18: add             x1, PP, #0x29, lsl #12  ; [pp+0x29418] "Makes"
     //     0xbdcb1c: ldr             x1, [x1, #0x418]
     // 0xbdcb20: r0 = L()
-    //     0xbdcb20: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdcb20: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdcb24: mov             x2, x0
     // 0xbdcb28: ldur            x0, [fp, #-0x18]
     // 0xbdcb2c: stur            x2, [fp, #-0x60]
@@ -564,7 +564,7 @@ class ActivityGoalSummaryView extends StatelessWidget {
     // 0xbdcb3c: b               #0xbdcb48
     // 0xbdcb40: mov             x1, x0
     // 0xbdcb44: r0 = formattedMakesProgress()
-    //     0xbdcb44: bl              #0xbdd8c0  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::formattedMakesProgress
+    //     0xbdcb44: bl              #0xbdd8c0  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::formattedMakesProgress
     // 0xbdcb48: cmp             w0, NULL
     // 0xbdcb4c: b.ne            #0xbdcb5c
     // 0xbdcb50: r6 = "--/250"
@@ -858,7 +858,7 @@ class ActivityGoalSummaryView extends StatelessWidget {
     // 0xbdce7c: b               #0xbdce88
     // 0xbdce80: mov             x1, x2
     // 0xbdce84: r0 = combinedProgressFormatted()
-    //     0xbdce84: bl              #0xbb5bd0  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgressFormatted
+    //     0xbdce84: bl              #0xbb5bd0  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::combinedProgressFormatted
     // 0xbdce88: cmp             w0, NULL
     // 0xbdce8c: b.ne            #0xbdce9c
     // 0xbdce90: r5 = "--%"
@@ -1080,7 +1080,7 @@ class ActivityGoalSummaryView extends StatelessWidget {
     //     0xbdd0bc: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c708] "Make %"
     //     0xbdd0c0: ldr             x1, [x1, #0x708]
     // 0xbdd0c4: r0 = L()
-    //     0xbdd0c4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdd0c4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdd0c8: ldur            x1, [fp, #-0x18]
     // 0xbdd0cc: stur            x0, [fp, #-0x58]
     // 0xbdd0d0: cmp             w1, NULL
@@ -1089,7 +1089,7 @@ class ActivityGoalSummaryView extends StatelessWidget {
     //     0xbdd0d8: mov             x0, NULL
     // 0xbdd0dc: b               #0xbdd0e4
     // 0xbdd0e0: r0 = formattedMakePercentage()
-    //     0xbdd0e0: bl              #0xbdd784  ; [package:ballai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::formattedMakePercentage
+    //     0xbdd0e0: bl              #0xbdd784  ; [package:kourtai/automatic/models/core/stats/activity_goal_model.dart] ActivityGoalModel::formattedMakePercentage
     // 0xbdd0e4: cmp             w0, NULL
     // 0xbdd0e8: b.ne            #0xbdd0f8
     // 0xbdd0ec: r7 = "--%"
@@ -1126,7 +1126,7 @@ class ActivityGoalSummaryView extends StatelessWidget {
     //     0xbdd148: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c710] "Workouts"
     //     0xbdd14c: ldr             x1, [x1, #0x710]
     // 0xbdd150: r0 = L()
-    //     0xbdd150: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdd150: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdd154: mov             x3, x0
     // 0xbdd158: ldur            x2, [fp, #-8]
     // 0xbdd15c: stur            x3, [fp, #-0x18]
@@ -1320,7 +1320,7 @@ class ActivityGoalSummaryView extends StatelessWidget {
     //     0xbdd338: stur            w0, [x3, #0xb]
     // 0xbdd33c: ldur            x2, [fp, #-0x20]
     // 0xbdd340: r1 = Function '<anonymous closure>':.
-    //     0xbdd340: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c728] AnonymousClosure: (0xbddd28), in [package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/sections/activity_goal_summary_view.dart] ActivityGoalSummaryView::build (0xbdc8bc)
+    //     0xbdd340: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c728] AnonymousClosure: (0xbddd28), in [package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/sections/activity_goal_summary_view.dart] ActivityGoalSummaryView::build (0xbdc8bc)
     //     0xbdd344: ldr             x1, [x1, #0x728]
     // 0xbdd348: r0 = AllocateClosure()
     //     0xbdd348: bl              #0xe553e0  ; AllocateClosureStub
@@ -1418,14 +1418,14 @@ class ActivityGoalSummaryView extends StatelessWidget {
     //     0xbdd430: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c740] "Start hooping"
     //     0xbdd434: ldr             x1, [x1, #0x740]
     // 0xbdd438: r0 = L()
-    //     0xbdd438: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdd438: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdd43c: mov             x2, x0
     // 0xbdd440: b               #0xbdd454
     // 0xbdd444: r1 = "Change goals"
     //     0xbdd444: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c748] "Change goals"
     //     0xbdd448: ldr             x1, [x1, #0x748]
     // 0xbdd44c: r0 = L()
-    //     0xbdd44c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbdd44c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbdd450: mov             x2, x0
     // 0xbdd454: ldur            x1, [fp, #-0x28]
     // 0xbdd458: ldur            x0, [fp, #-8]
@@ -1505,7 +1505,7 @@ class ActivityGoalSummaryView extends StatelessWidget {
     //     0xbdd51c: stur            w0, [x3, #0xb]
     // 0xbdd520: ldur            x2, [fp, #-0x20]
     // 0xbdd524: r1 = Function '<anonymous closure>':.
-    //     0xbdd524: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c750] AnonymousClosure: (0xbd833c), in [package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/sections/activity_goal_summary_view.dart] ActivityGoalSummaryView::build (0xbdc8bc)
+    //     0xbdd524: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c750] AnonymousClosure: (0xbd833c), in [package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/sections/activity_goal_summary_view.dart] ActivityGoalSummaryView::build (0xbdc8bc)
     //     0xbdd528: ldr             x1, [x1, #0x750]
     // 0xbdd52c: r0 = AllocateClosure()
     //     0xbdd52c: bl              #0xe553e0  ; AllocateClosureStub
@@ -1774,7 +1774,7 @@ class ActivityGoalSummaryView extends StatelessWidget {
     // 0xbddd5c: r0 = of()
     //     0xbddd5c: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xbddd60: r1 = Function '<anonymous closure>':.
-    //     0xbddd60: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c778] AnonymousClosure: (0xbdddc4), in [package:ballai/automatic/views/home/tab/tabs/summary/activitygoal/sections/activity_goal_summary_view.dart] ActivityGoalSummaryView::build (0xbdc8bc)
+    //     0xbddd60: add             x1, PP, #0x2c, lsl #12  ; [pp+0x2c778] AnonymousClosure: (0xbdddc4), in [package:kourtai/automatic/views/home/tab/tabs/summary/activitygoal/sections/activity_goal_summary_view.dart] ActivityGoalSummaryView::build (0xbdc8bc)
     //     0xbddd64: ldr             x1, [x1, #0x778]
     // 0xbddd68: r2 = Null
     //     0xbddd68: mov             x2, NULL

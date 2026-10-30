@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/trends/sections/workouts/sections/goals/workout_trends_goal_completion_pct_over_time_chart_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/trends/sections/workouts/sections/goals/workout_trends_goal_completion_pct_over_time_chart_view.dart
 
 // class id: 1048990, size: 0x8
 class :: {
@@ -28,7 +28,7 @@ class WorkoutTrendsGoalCompletionPctOverTimeChartView extends StatelessWidget {
     //     0xc09be0: add             x3, x3, HEAP, lsl #32
     // 0xc09be4: stur            x3, [fp, #-8]
     // 0xc09be8: r1 = Function '<anonymous closure>':.
-    //     0xc09be8: add             x1, PP, #0x53, lsl #12  ; [pp+0x535b8] AnonymousClosure: (0xc09b34), in [package:ballai/automatic/views/home/tab/tabs/you/components/analytics_sections.dart] AnalyticsWorkoutBreakdownSection::build (0xc0ab78)
+    //     0xc09be8: add             x1, PP, #0x53, lsl #12  ; [pp+0x535b8] AnonymousClosure: (0xc09b34), in [package:kourtai/automatic/views/home/tab/tabs/you/components/analytics_sections.dart] AnalyticsWorkoutBreakdownSection::build (0xc0ab78)
     //     0xc09bec: ldr             x1, [x1, #0x5b8]
     // 0xc09bf0: r2 = Null
     //     0xc09bf0: mov             x2, NULL
@@ -46,7 +46,7 @@ class WorkoutTrendsGoalCompletionPctOverTimeChartView extends StatelessWidget {
     // 0xc09c10: r0 = _GrowableList.of()
     //     0xc09c10: bl              #0x5c7058  ; [dart:core] _GrowableList::_GrowableList.of
     // 0xc09c14: r1 = Function '<anonymous closure>':.
-    //     0xc09c14: add             x1, PP, #0x53, lsl #12  ; [pp+0x535c0] AnonymousClosure: (0x8f80fc), in [package:ballai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::_recomputeMerged (0x8f8170)
+    //     0xc09c14: add             x1, PP, #0x53, lsl #12  ; [pp+0x535c0] AnonymousClosure: (0x8f80fc), in [package:kourtai/automatic/viewmodels/home/you/profile_workout_history_notifier.dart] ProfileWorkoutHistoryNotifier::_recomputeMerged (0x8f8170)
     //     0xc09c18: ldr             x1, [x1, #0x5c0]
     // 0xc09c1c: r2 = Null
     //     0xc09c1c: mov             x2, NULL
@@ -67,10 +67,10 @@ class WorkoutTrendsGoalCompletionPctOverTimeChartView extends StatelessWidget {
     //     0xc09c44: add             x1, PP, #0x53, lsl #12  ; [pp+0x535c8] "Goal completion will appear once goal-based workouts are logged."
     //     0xc09c48: ldr             x1, [x1, #0x5c8]
     // 0xc09c4c: r0 = L()
-    //     0xc09c4c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc09c4c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc09c50: stur            x0, [fp, #-0x18]
-    // 0xc09c54: r0 = BallAiEmptyState()
-    //     0xc09c54: bl              #0xa63934  ; AllocateBallAiEmptyStateStub -> BallAiEmptyState (size=0x14)
+    // 0xc09c54: r0 = KourtAiEmptyState()
+    //     0xc09c54: bl              #0xa63934  ; AllocateKourtAiEmptyStateStub -> KourtAiEmptyState (size=0x14)
     // 0xc09c58: mov             x1, x0
     // 0xc09c5c: ldur            x0, [fp, #-0x18]
     // 0xc09c60: StoreField: r1->field_b = r0
@@ -87,7 +87,7 @@ class WorkoutTrendsGoalCompletionPctOverTimeChartView extends StatelessWidget {
     // 0xc09c7c: ret
     //     0xc09c7c: ret             
     // 0xc09c80: r1 = Function '<anonymous closure>':.
-    //     0xc09c80: add             x1, PP, #0x53, lsl #12  ; [pp+0x535d0] AnonymousClosure: (0xc09da0), in [package:ballai/automatic/views/home/tab/tabs/trends/sections/workouts/sections/goals/workout_trends_goal_completion_pct_over_time_chart_view.dart] WorkoutTrendsGoalCompletionPctOverTimeChartView::build (0xc09bbc)
+    //     0xc09c80: add             x1, PP, #0x53, lsl #12  ; [pp+0x535d0] AnonymousClosure: (0xc09da0), in [package:kourtai/automatic/views/home/tab/tabs/trends/sections/workouts/sections/goals/workout_trends_goal_completion_pct_over_time_chart_view.dart] WorkoutTrendsGoalCompletionPctOverTimeChartView::build (0xc09bbc)
     //     0xc09c84: ldr             x1, [x1, #0x5d0]
     // 0xc09c88: r2 = Null
     //     0xc09c88: mov             x2, NULL
@@ -122,12 +122,12 @@ class WorkoutTrendsGoalCompletionPctOverTimeChartView extends StatelessWidget {
     // 0xc09cd0: StoreField: r0->field_f = d0
     //     0xc09cd0: stur            d0, [x0, #0xf]
     // 0xc09cd4: ldur            x1, [fp, #-0x10]
-    // 0xc09cd8: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc09cd8: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc09cd8: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc09cd8: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc09cdc: ldur            x1, [fp, #-0x10]
     // 0xc09ce0: stur            x0, [fp, #-0x20]
-    // 0xc09ce4: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc09ce4: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc09ce4: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc09ce4: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc09ce8: r16 = 0.180000
     //     0xc09ce8: add             x16, PP, #0x2d, lsl #12  ; [pp+0x2dde0] 0.18
     //     0xc09cec: ldr             x16, [x16, #0xde0]
@@ -140,8 +140,8 @@ class WorkoutTrendsGoalCompletionPctOverTimeChartView extends StatelessWidget {
     //     0xc09d00: bl              #0xd9bb78  ; [dart:ui] Color::withValues
     // 0xc09d04: ldur            x1, [fp, #-0x10]
     // 0xc09d08: stur            x0, [fp, #-0x10]
-    // 0xc09d0c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc09d0c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc09d0c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc09d0c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc09d10: stur            x0, [fp, #-0x28]
     // 0xc09d14: r0 = _GoalCompletionLinePainter()
     //     0xc09d14: bl              #0xc09d94  ; Allocate_GoalCompletionLinePainterStub -> _GoalCompletionLinePainter (size=0x1c)
@@ -205,7 +205,7 @@ class WorkoutTrendsGoalCompletionPctOverTimeChartView extends StatelessWidget {
     //     0xc09db0: b.ls            #0xc09e00
     // 0xc09db4: ldr             x1, [fp, #0x10]
     // 0xc09db8: r0 = goalPercentage()
-    //     0xc09db8: bl              #0x96dcf8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::goalPercentage
+    //     0xc09db8: bl              #0x96dcf8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::goalPercentage
     // 0xc09dbc: r1 = inline_Allocate_Double()
     //     0xc09dbc: ldp             x1, x0, [THR, #0x50]  ; THR::top
     //     0xc09dc0: add             x1, x1, #0x10
@@ -277,7 +277,7 @@ class _GoalCompletionLinePainter extends CustomPainter {
     //     0x843190: add             x5, x5, HEAP, lsl #32
     // 0x843194: stur            x5, [fp, #-8]
     // 0x843198: r1 = Function '<anonymous closure>':.
-    //     0x843198: add             x1, PP, #0x55, lsl #12  ; [pp+0x551f8] AnonymousClosure: (0x8428f0), in [package:ballai/automatic/views/home/tab/tabs/you/components/analytics_sections.dart] _AnalyticsWeeklyGoalsSectionState::build (0xa80718)
+    //     0x843198: add             x1, PP, #0x55, lsl #12  ; [pp+0x551f8] AnonymousClosure: (0x8428f0), in [package:kourtai/automatic/views/home/tab/tabs/you/components/analytics_sections.dart] _AnalyticsWeeklyGoalsSectionState::build (0xa80718)
     //     0x84319c: ldr             x1, [x1, #0x1f8]
     // 0x8431a0: r2 = Null
     //     0x8431a0: mov             x2, NULL

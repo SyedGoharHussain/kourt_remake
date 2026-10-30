@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart
 
 // class id: 1048638, size: 0x8
 class :: {
@@ -83,7 +83,7 @@ abstract class NotificationHandler extends Object {
     //     0x65712c: bl              #0x60afc8  ; InitAsyncStub
     // 0x657130: ldur            x1, [fp, #-0x10]
     // 0x657134: r0 = _shouldScheduleFreeUserProFunnel()
-    //     0x657134: bl              #0x657928  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_shouldScheduleFreeUserProFunnel
+    //     0x657134: bl              #0x657928  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_shouldScheduleFreeUserProFunnel
     // 0x657138: tbz             w0, #4, #0x65717c
     // 0x65713c: ldur            x0, [fp, #-0x10]
     // 0x657140: LoadField: r1 = r0->field_27
@@ -101,7 +101,7 @@ abstract class NotificationHandler extends Object {
     //     0x65715c: add             x0, x0, HEAP, lsl #32
     // 0x657160: mov             x1, x0
     // 0x657164: r0 = clearTrialExitReturnOfferWindow()
-    //     0x657164: bl              #0x657868  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::clearTrialExitReturnOfferWindow
+    //     0x657164: bl              #0x657868  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::clearTrialExitReturnOfferWindow
     // 0x657168: mov             x1, x0
     // 0x65716c: stur            x1, [fp, #-0x18]
     // 0x657170: r0 = Await()
@@ -360,7 +360,7 @@ abstract class NotificationHandler extends Object {
     //     0x657964: ret             
     // 0x657968: mov             x1, x0
     // 0x65796c: r0 = isPayingSubscriber()
-    //     0x65796c: bl              #0x651314  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
+    //     0x65796c: bl              #0x651314  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
     // 0x657970: tbnz            w0, #4, #0x657984
     // 0x657974: r0 = false
     //     0x657974: add             x0, NULL, #0x30  ; false
@@ -371,7 +371,7 @@ abstract class NotificationHandler extends Object {
     //     0x657980: ret             
     // 0x657984: ldur            x1, [fp, #-8]
     // 0x657988: r0 = isPaywallExemptUser()
-    //     0x657988: bl              #0x651a14  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPaywallExemptUser
+    //     0x657988: bl              #0x651a14  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPaywallExemptUser
     // 0x65798c: tbnz            w0, #4, #0x6579a0
     // 0x657990: r0 = false
     //     0x657990: add             x0, NULL, #0x30  ; false
@@ -382,11 +382,11 @@ abstract class NotificationHandler extends Object {
     //     0x65799c: ret             
     // 0x6579a0: ldur            x1, [fp, #-8]
     // 0x6579a4: r0 = isUTrainUser()
-    //     0x6579a4: bl              #0x65149c  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isUTrainUser
+    //     0x6579a4: bl              #0x65149c  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isUTrainUser
     // 0x6579a8: tbz             w0, #4, #0x6579b8
     // 0x6579ac: ldur            x1, [fp, #-8]
-    // 0x6579b0: r0 = isBallAIStaffMember()
-    //     0x6579b0: bl              #0x65143c  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isBallAIStaffMember
+    // 0x6579b0: r0 = isKourtAIStaffMember()
+    //     0x6579b0: bl              #0x65143c  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isKourtAIStaffMember
     // 0x6579b4: tbnz            w0, #4, #0x6579c8
     // 0x6579b8: r0 = false
     //     0x6579b8: add             x0, NULL, #0x30  ; false
@@ -397,7 +397,7 @@ abstract class NotificationHandler extends Object {
     //     0x6579c4: ret             
     // 0x6579c8: ldur            x1, [fp, #-8]
     // 0x6579cc: r0 = isOnPayingTeam()
-    //     0x6579cc: bl              #0x651798  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isOnPayingTeam
+    //     0x6579cc: bl              #0x651798  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isOnPayingTeam
     // 0x6579d0: tbnz            w0, #4, #0x6579e4
     // 0x6579d4: r0 = false
     //     0x6579d4: add             x0, NULL, #0x30  ; false
@@ -491,7 +491,7 @@ abstract class NotificationHandler extends Object {
     //     0x65b9c4: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x65b9c8: mov             x1, x0
     // 0x65b9cc: r0 = _shouldScheduleFreeUserProFunnel()
-    //     0x65b9cc: bl              #0x657928  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_shouldScheduleFreeUserProFunnel
+    //     0x65b9cc: bl              #0x657928  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_shouldScheduleFreeUserProFunnel
     // 0x65b9d0: tbz             w0, #4, #0x65ba20
     // 0x65b9d4: r0 = InitLateStaticField(0x62c) // [package:flutter/src/foundation/print.dart] ::debugPrint
     //     0x65b9d4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
@@ -511,7 +511,7 @@ abstract class NotificationHandler extends Object {
     //     0x65ba00: bl              #0x5c96fc  ; [package:flutter/src/foundation/print.dart] ::debugPrintThrottled
     // 0x65ba04: ldur            x1, [fp, #-0xa8]
     // 0x65ba08: r0 = clearTrialExitReturnOfferWindow()
-    //     0x65ba08: bl              #0x657868  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::clearTrialExitReturnOfferWindow
+    //     0x65ba08: bl              #0x657868  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::clearTrialExitReturnOfferWindow
     // 0x65ba0c: mov             x1, x0
     // 0x65ba10: stur            x1, [fp, #-0xb0]
     // 0x65ba14: r0 = Await()
@@ -522,7 +522,7 @@ abstract class NotificationHandler extends Object {
     //     0x65ba1c: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x65ba20: ldur            x1, [fp, #-0xa8]
     // 0x65ba24: r0 = hasFiredTrialExitOffer()
-    //     0x65ba24: bl              #0x6beb0c  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::hasFiredTrialExitOffer
+    //     0x65ba24: bl              #0x6beb0c  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::hasFiredTrialExitOffer
     // 0x65ba28: mov             x1, x0
     // 0x65ba2c: stur            x1, [fp, #-0xb0]
     // 0x65ba30: r0 = Await()
@@ -590,7 +590,7 @@ abstract class NotificationHandler extends Object {
     //     0x65badc: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x65bae0: ldur            x1, [fp, #-0xa8]
     // 0x65bae4: r0 = _armTrialExitReturnOfferWindow()
-    //     0x65bae4: bl              #0x6be9c0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_armTrialExitReturnOfferWindow
+    //     0x65bae4: bl              #0x6be9c0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_armTrialExitReturnOfferWindow
     // 0x65bae8: mov             x1, x0
     // 0x65baec: stur            x1, [fp, #-0xb8]
     // 0x65baf0: r0 = Await()
@@ -613,7 +613,7 @@ abstract class NotificationHandler extends Object {
     //     0x65bb20: bl              #0x5c96fc  ; [package:flutter/src/foundation/print.dart] ::debugPrintThrottled
     // 0x65bb24: ldur            x1, [fp, #-0x98]
     // 0x65bb28: r0 = discountRequestOfferFacts()
-    //     0x65bb28: bl              #0x64735c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::discountRequestOfferFacts
+    //     0x65bb28: bl              #0x64735c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::discountRequestOfferFacts
     // 0x65bb2c: mov             x1, x0
     // 0x65bb30: stur            x1, [fp, #-0xb8]
     // 0x65bb34: r0 = Await()
@@ -651,20 +651,20 @@ abstract class NotificationHandler extends Object {
     // 0x65bb88: ldur            x2, [fp, #-0xa0]
     // 0x65bb8c: stur            x0, [fp, #-0x98]
     // 0x65bb90: r0 = _sendTrialExitEmailIfNeeded()
-    //     0x65bb90: bl              #0x6be3bc  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_sendTrialExitEmailIfNeeded
+    //     0x65bb90: bl              #0x6be3bc  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_sendTrialExitEmailIfNeeded
     // 0x65bb94: mov             x1, x0
     // 0x65bb98: stur            x1, [fp, #-0xb8]
     // 0x65bb9c: r0 = Await()
     //     0x65bb9c: bl              #0x60ad4c  ; AwaitStub
     // 0x65bba0: ldur            x1, [fp, #-0xa0]
     // 0x65bba4: r0 = requestNotificationPermissionIfNeeded()
-    //     0x65bba4: bl              #0x6600ec  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::requestNotificationPermissionIfNeeded
+    //     0x65bba4: bl              #0x6600ec  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::requestNotificationPermissionIfNeeded
     // 0x65bba8: mov             x1, x0
     // 0x65bbac: stur            x1, [fp, #-0xa0]
     // 0x65bbb0: r0 = Await()
     //     0x65bbb0: bl              #0x60ad4c  ; AwaitStub
     // 0x65bbb4: r0 = canDeliverNotifications()
-    //     0x65bbb4: bl              #0x660060  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::canDeliverNotifications
+    //     0x65bbb4: bl              #0x660060  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::canDeliverNotifications
     // 0x65bbb8: mov             x1, x0
     // 0x65bbbc: stur            x1, [fp, #-0xa0]
     // 0x65bbc0: r0 = Await()
@@ -689,7 +689,7 @@ abstract class NotificationHandler extends Object {
     // 0x65bbf0: ldur            x0, [fp, #-0x98]
     // 0x65bbf4: mov             x1, x2
     // 0x65bbf8: r0 = _markTrialExitOfferFired()
-    //     0x65bbf8: bl              #0x65ff8c  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_markTrialExitOfferFired
+    //     0x65bbf8: bl              #0x65ff8c  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_markTrialExitOfferFired
     // 0x65bbfc: mov             x1, x0
     // 0x65bc00: stur            x1, [fp, #-0xa0]
     // 0x65bc04: r0 = Await()
@@ -772,7 +772,7 @@ abstract class NotificationHandler extends Object {
     // 0x65bcbc: mov             x1, x0
     // 0x65bcc0: ldur            x2, [fp, #-0x98]
     // 0x65bcc4: r0 = scheduleOnce()
-    //     0x65bcc4: bl              #0x65bd3c  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::scheduleOnce
+    //     0x65bcc4: bl              #0x65bd3c  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::scheduleOnce
     // 0x65bcc8: mov             x1, x0
     // 0x65bccc: stur            x1, [fp, #-0x98]
     // 0x65bcd0: r0 = Await()
@@ -1003,7 +1003,7 @@ abstract class NotificationHandler extends Object {
     // 0x660158: b.ne            #0x6601f8
     // 0x66015c: ldur            x1, [fp, #-0x60]
     // 0x660160: r0 = refreshPermissionCache()
-    //     0x660160: bl              #0x6be308  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::refreshPermissionCache
+    //     0x660160: bl              #0x6be308  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::refreshPermissionCache
     // 0x660164: mov             x1, x0
     // 0x660168: stur            x1, [fp, #-0x68]
     // 0x66016c: r0 = Await()
@@ -1013,7 +1013,7 @@ abstract class NotificationHandler extends Object {
     // 0x660178: b.eq            #0x6601f0
     // 0x66017c: mov             x1, x0
     // 0x660180: r0 = syncTokenForUser()
-    //     0x660180: bl              #0x660320  ; [package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart] BallAiFirebaseMessaging::syncTokenForUser
+    //     0x660180: bl              #0x660320  ; [package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart] KourtAiFirebaseMessaging::syncTokenForUser
     // 0x660184: mov             x1, x0
     // 0x660188: stur            x1, [fp, #-0x68]
     // 0x66018c: r0 = Await()
@@ -1067,7 +1067,7 @@ abstract class NotificationHandler extends Object {
     // 0x660210: cmp             w0, w16
     // 0x660214: b.ne            #0x660230
     // 0x660218: r0 = refreshPermissionCache()
-    //     0x660218: bl              #0x6be308  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::refreshPermissionCache
+    //     0x660218: bl              #0x6be308  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::refreshPermissionCache
     // 0x66021c: mov             x1, x0
     // 0x660220: stur            x1, [fp, #-0x68]
     // 0x660224: r0 = Await()
@@ -1087,7 +1087,7 @@ abstract class NotificationHandler extends Object {
     //     0x660244: bl              #0x60ad4c  ; AwaitStub
     // 0x660248: stur            x0, [fp, #-0x68]
     // 0x66024c: r0 = refreshPermissionCache()
-    //     0x66024c: bl              #0x6be308  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::refreshPermissionCache
+    //     0x66024c: bl              #0x6be308  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::refreshPermissionCache
     // 0x660250: mov             x1, x0
     // 0x660254: stur            x1, [fp, #-0x70]
     // 0x660258: r0 = Await()
@@ -1113,7 +1113,7 @@ abstract class NotificationHandler extends Object {
     // 0x660298: b.eq            #0x660310
     // 0x66029c: mov             x1, x0
     // 0x6602a0: r0 = syncTokenForUser()
-    //     0x6602a0: bl              #0x660320  ; [package:ballai/automatic/lib/firebase/messaging/ball_ai_firebase_messaging.dart] BallAiFirebaseMessaging::syncTokenForUser
+    //     0x6602a0: bl              #0x660320  ; [package:kourtai/automatic/lib/firebase/messaging/kourt_ai_firebase_messaging.dart] KourtAiFirebaseMessaging::syncTokenForUser
     // 0x6602a4: mov             x1, x0
     // 0x6602a8: stur            x1, [fp, #-0x68]
     // 0x6602ac: r0 = Await()
@@ -1344,7 +1344,7 @@ abstract class NotificationHandler extends Object {
     //     0x6be4f0: bl              #0x60ad4c  ; AwaitStub
     // 0x6be4f4: ldur            x1, [fp, #-0xa8]
     // 0x6be4f8: ldur            x0, [fp, #-0xb8]
-    // 0x6be4fc: r0 = InitLateStaticField(0xcb8) // [package:ballai/automatic/lib/aws/email_service.dart] EmailService::shared
+    // 0x6be4fc: r0 = InitLateStaticField(0xcb8) // [package:kourtai/automatic/lib/aws/email_service.dart] EmailService::shared
     //     0x6be4fc: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x6be500: ldr             x0, [x0, #0x1970]
     //     0x6be504: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -1384,7 +1384,7 @@ abstract class NotificationHandler extends Object {
     // 0x6be56c: ldur            x7, [fp, #-0xc0]
     // 0x6be570: stur            x12, [fp, #-0xd0]
     // 0x6be574: r0 = sendTrialExitOneTimeOfferEmail()
-    //     0x6be574: bl              #0x6be610  ; [package:ballai/automatic/lib/aws/email_service.dart] EmailService::sendTrialExitOneTimeOfferEmail
+    //     0x6be574: bl              #0x6be610  ; [package:kourtai/automatic/lib/aws/email_service.dart] EmailService::sendTrialExitOneTimeOfferEmail
     // 0x6be578: mov             x1, x0
     // 0x6be57c: stur            x1, [fp, #-0xf8]
     // 0x6be580: r0 = Await()
@@ -1717,7 +1717,7 @@ abstract class NotificationHandler extends Object {
     //     0x6beda0: mov             x2, #0x6379
     //     0x6beda4: movk            x2, #1, lsl #16
     // 0x6beda8: r0 = cancel()
-    //     0x6beda8: bl              #0x6befc4  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::cancel
+    //     0x6beda8: bl              #0x6befc4  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::cancel
     // 0x6bedac: mov             x1, x0
     // 0x6bedb0: stur            x1, [fp, #-0x28]
     // 0x6bedb4: r0 = Await()
@@ -2384,7 +2384,7 @@ abstract class NotificationHandler extends Object {
     // 0x713bd8: r0 = map()
     //     0x713bd8: bl              #0x8e024c  ; [dart:collection] ListBase::map
     // 0x713bdc: r1 = Function '<anonymous closure>': static.
-    //     0x713bdc: add             x1, PP, #0x1b, lsl #12  ; [pp+0x1b000] AnonymousClosure: static (0x713694), in [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
+    //     0x713bdc: add             x1, PP, #0x1b, lsl #12  ; [pp+0x1b000] AnonymousClosure: static (0x713694), in [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
     //     0x713be0: ldr             x1, [x1]
     // 0x713be4: r2 = Null
     //     0x713be4: mov             x2, NULL
@@ -2418,7 +2418,7 @@ abstract class NotificationHandler extends Object {
     // 0x713c34: r0 = map()
     //     0x713c34: bl              #0x8e024c  ; [dart:collection] ListBase::map
     // 0x713c38: r1 = Function '<anonymous closure>': static.
-    //     0x713c38: add             x1, PP, #0x1b, lsl #12  ; [pp+0x1b010] AnonymousClosure: static (0x713694), in [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
+    //     0x713c38: add             x1, PP, #0x1b, lsl #12  ; [pp+0x1b010] AnonymousClosure: static (0x713694), in [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight (0x7136f4)
     //     0x713c3c: ldr             x1, [x1, #0x10]
     // 0x713c40: r2 = Null
     //     0x713c40: mov             x2, NULL
@@ -2629,7 +2629,7 @@ abstract class NotificationHandler extends Object {
     //     0x744864: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x744868: bl              #0x60afc8  ; InitAsyncStub
     // 0x74486c: r0 = cancelFreeUserProFunnelNotifications()
-    //     0x74486c: bl              #0x74488c  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelFreeUserProFunnelNotifications
+    //     0x74486c: bl              #0x74488c  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelFreeUserProFunnelNotifications
     // 0x744870: mov             x1, x0
     // 0x744874: stur            x1, [fp, #-0x10]
     // 0x744878: r0 = Await()
@@ -2662,7 +2662,7 @@ abstract class NotificationHandler extends Object {
     //     0x7448b0: add             x1, PP, #0x13, lsl #12  ; [pp+0x135d0] "freeWorkoutMilestone"
     //     0x7448b4: ldr             x1, [x1, #0x5d0]
     // 0x7448b8: r0 = cancelNotificationFunnel()
-    //     0x7448b8: bl              #0x7448f0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelNotificationFunnel
+    //     0x7448b8: bl              #0x7448f0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelNotificationFunnel
     // 0x7448bc: mov             x1, x0
     // 0x7448c0: stur            x1, [fp, #-0x10]
     // 0x7448c4: r0 = Await()
@@ -2671,7 +2671,7 @@ abstract class NotificationHandler extends Object {
     //     0x7448c8: add             x1, PP, #0x13, lsl #12  ; [pp+0x135d8] "freeShotMilestone"
     //     0x7448cc: ldr             x1, [x1, #0x5d8]
     // 0x7448d0: r0 = cancelNotificationFunnel()
-    //     0x7448d0: bl              #0x7448f0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelNotificationFunnel
+    //     0x7448d0: bl              #0x7448f0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelNotificationFunnel
     // 0x7448d4: mov             x1, x0
     // 0x7448d8: stur            x1, [fp, #-0x10]
     // 0x7448dc: r0 = Await()
@@ -2703,18 +2703,18 @@ abstract class NotificationHandler extends Object {
     //     0x744914: bl              #0x60afc8  ; InitAsyncStub
     // 0x744918: ldur            x1, [fp, #-0x10]
     // 0x74491c: r0 = _notificationFunnelIdentifiers()
-    //     0x74491c: bl              #0x744be0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_notificationFunnelIdentifiers
+    //     0x74491c: bl              #0x744be0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_notificationFunnelIdentifiers
     // 0x744920: mov             x1, x0
     // 0x744924: stur            x0, [fp, #-0x18]
     // 0x744928: r0 = cancelIdentifiers()
-    //     0x744928: bl              #0x744a78  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::cancelIdentifiers
+    //     0x744928: bl              #0x744a78  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::cancelIdentifiers
     // 0x74492c: mov             x1, x0
     // 0x744930: stur            x1, [fp, #-0x20]
     // 0x744934: r0 = Await()
     //     0x744934: bl              #0x60ad4c  ; AwaitStub
     // 0x744938: ldur            x1, [fp, #-0x10]
     // 0x74493c: r0 = _clearNotificationFunnelActive()
-    //     0x74493c: bl              #0x7449ec  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_clearNotificationFunnelActive
+    //     0x74493c: bl              #0x7449ec  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_clearNotificationFunnelActive
     // 0x744940: mov             x1, x0
     // 0x744944: stur            x1, [fp, #-0x10]
     // 0x744948: r0 = Await()
@@ -2866,13 +2866,13 @@ abstract class NotificationHandler extends Object {
     //     0x744c28: add             x1, PP, #0x14, lsl #12  ; [pp+0x14898] "billingIssue"
     //     0x744c2c: ldr             x1, [x1, #0x898]
     // 0x744c30: r0 = _subscriptionAtRiskStepsForBucket()
-    //     0x744c30: bl              #0x7464e0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_subscriptionAtRiskStepsForBucket
+    //     0x744c30: bl              #0x7464e0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_subscriptionAtRiskStepsForBucket
     // 0x744c34: r1 = "cancelledRenewal"
     //     0x744c34: add             x1, PP, #0x14, lsl #12  ; [pp+0x148a0] "cancelledRenewal"
     //     0x744c38: ldr             x1, [x1, #0x8a0]
     // 0x744c3c: stur            x0, [fp, #-8]
     // 0x744c40: r0 = _subscriptionAtRiskStepsForBucket()
-    //     0x744c40: bl              #0x7464e0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_subscriptionAtRiskStepsForBucket
+    //     0x744c40: bl              #0x7464e0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_subscriptionAtRiskStepsForBucket
     // 0x744c44: r1 = <String>
     //     0x744c44: ldr             x1, [PP, #0x850]  ; [pp+0x850] TypeArguments: <String>
     // 0x744c48: stur            x0, [fp, #-0x18]
@@ -3177,7 +3177,7 @@ abstract class NotificationHandler extends Object {
     // 0x744f78: blr             x9
     // 0x744f7c: ldur            x1, [fp, #-0x18]
     // 0x744f80: r0 = _workoutReturnStepsForBucket()
-    //     0x744f80: bl              #0x746000  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_workoutReturnStepsForBucket
+    //     0x744f80: bl              #0x746000  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_workoutReturnStepsForBucket
     // 0x744f84: stur            x0, [fp, #-0x58]
     // 0x744f88: LoadField: r1 = r0->field_b
     //     0x744f88: ldur            w1, [x0, #0xb]
@@ -3279,10 +3279,10 @@ abstract class NotificationHandler extends Object {
     // 0x745090: DecompressPointer r1
     //     0x745090: add             x1, x1, HEAP, lsl #32
     // 0x745094: r0 = _notificationFunnelSteps()
-    //     0x745094: bl              #0x7451b4  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_notificationFunnelSteps
+    //     0x745094: bl              #0x7451b4  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_notificationFunnelSteps
     // 0x745098: ldur            x2, [fp, #-0x10]
     // 0x74509c: r1 = Function '<anonymous closure>': static.
-    //     0x74509c: add             x1, PP, #0x14, lsl #12  ; [pp+0x148c8] AnonymousClosure: static (0x746928), in [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_notificationFunnelIdentifiers (0x744be0)
+    //     0x74509c: add             x1, PP, #0x14, lsl #12  ; [pp+0x148c8] AnonymousClosure: static (0x746928), in [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_notificationFunnelIdentifiers (0x744be0)
     //     0x7450a0: ldr             x1, [x1, #0x8c8]
     // 0x7450a4: stur            x0, [fp, #-8]
     // 0x7450a8: r0 = AllocateClosure()
@@ -3838,7 +3838,7 @@ abstract class NotificationHandler extends Object {
     //     0x745618: bl              #0xdab674  ; [dart:core] _OneByteString::==
     // 0x74561c: tbnz            w0, #4, #0x745630
     // 0x745620: r0 = _trialNotStartedSteps()
-    //     0x745620: bl              #0x745ba4  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_trialNotStartedSteps
+    //     0x745620: bl              #0x745ba4  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_trialNotStartedSteps
     // 0x745624: LeaveFrame
     //     0x745624: mov             SP, fp
     //     0x745628: ldp             fp, lr, [SP], #0x10
@@ -3853,7 +3853,7 @@ abstract class NotificationHandler extends Object {
     //     0x745640: bl              #0xdab674  ; [dart:core] _OneByteString::==
     // 0x745644: tbnz            w0, #4, #0x745658
     // 0x745648: r0 = _trialExpiredSteps()
-    //     0x745648: bl              #0x745968  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_trialExpiredSteps
+    //     0x745648: bl              #0x745968  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_trialExpiredSteps
     // 0x74564c: LeaveFrame
     //     0x74564c: mov             SP, fp
     //     0x745650: ldp             fp, lr, [SP], #0x10
@@ -3886,8 +3886,8 @@ abstract class NotificationHandler extends Object {
     //     0x745698: ldr             x0, [x0, #0xd30]
     // 0x74569c: StoreField: r1->field_13 = r0
     //     0x74569c: stur            w0, [x1, #0x13]
-    // 0x7456a0: r0 = "You usually get work in around this time. Open Ball AI and keep it alive."
-    //     0x7456a0: add             x0, PP, #0x14, lsl #12  ; [pp+0x14d38] "You usually get work in around this time. Open Ball AI and keep it alive."
+    // 0x7456a0: r0 = "You usually get work in around this time. Open Kourt AI and keep it alive."
+    //     0x7456a0: add             x0, PP, #0x14, lsl #12  ; [pp+0x14d38] "You usually get work in around this time. Open Kourt AI and keep it alive."
     //     0x7456a4: ldr             x0, [x0, #0xd38]
     // 0x7456a8: ArrayStore: r1[0] = r0  ; List_4
     //     0x7456a8: stur            w0, [x1, #0x17]
@@ -4217,8 +4217,8 @@ abstract class NotificationHandler extends Object {
     //     0x7459d8: ldr             x0, [x0, #0xdb0]
     // 0x7459dc: StoreField: r1->field_13 = r0
     //     0x7459dc: stur            w0, [x1, #0x13]
-    // 0x7459e0: r0 = "Open Ball AI before your competition pulls further ahead."
-    //     0x7459e0: add             x0, PP, #0x14, lsl #12  ; [pp+0x14db8] "Open Ball AI before your competition pulls further ahead."
+    // 0x7459e0: r0 = "Open Kourt AI before your competition pulls further ahead."
+    //     0x7459e0: add             x0, PP, #0x14, lsl #12  ; [pp+0x14db8] "Open Kourt AI before your competition pulls further ahead."
     //     0x7459e4: ldr             x0, [x0, #0xdb8]
     // 0x7459e8: ArrayStore: r1[0] = r0  ; List_4
     //     0x7459e8: stur            w0, [x1, #0x17]
@@ -4425,8 +4425,8 @@ abstract class NotificationHandler extends Object {
     //     0x745bd8: ldr             x0, [x0, #0xe08]
     // 0x745bdc: StoreField: r3->field_13 = r0
     //     0x745bdc: stur            w0, [x3, #0x13]
-    // 0x745be0: r0 = "Your free trial is sitting there. Open Ball AI and start grinding."
-    //     0x745be0: add             x0, PP, #0x14, lsl #12  ; [pp+0x14e10] "Your free trial is sitting there. Open Ball AI and start grinding."
+    // 0x745be0: r0 = "Your free trial is sitting there. Open Kourt AI and start grinding."
+    //     0x745be0: add             x0, PP, #0x14, lsl #12  ; [pp+0x14e10] "Your free trial is sitting there. Open Kourt AI and start grinding."
     //     0x745be4: ldr             x0, [x0, #0xe10]
     // 0x745be8: ArrayStore: r3[0] = r0  ; List_4
     //     0x745be8: stur            w0, [x3, #0x17]
@@ -5321,8 +5321,8 @@ abstract class NotificationHandler extends Object {
     //     0x746538: ldr             x0, [x0, #0xc08]
     // 0x74653c: StoreField: r1->field_13 = r0
     //     0x74653c: stur            w0, [x1, #0x13]
-    // 0x746540: r0 = "Fix billing now before Ball AI locks you out."
-    //     0x746540: add             x0, PP, #0x14, lsl #12  ; [pp+0x14c10] "Fix billing now before Ball AI locks you out."
+    // 0x746540: r0 = "Fix billing now before Kourt AI locks you out."
+    //     0x746540: add             x0, PP, #0x14, lsl #12  ; [pp+0x14c10] "Fix billing now before Kourt AI locks you out."
     //     0x746544: ldr             x0, [x0, #0xc10]
     // 0x746548: ArrayStore: r1[0] = r0  ; List_4
     //     0x746548: stur            w0, [x1, #0x17]
@@ -5747,7 +5747,7 @@ abstract class NotificationHandler extends Object {
     //     0x746958: add             x2, x2, HEAP, lsl #32
     // 0x74695c: mov             x1, x0
     // 0x746960: r0 = _notificationFunnelIdentifier()
-    //     0x746960: bl              #0x745140  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_notificationFunnelIdentifier
+    //     0x746960: bl              #0x745140  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_notificationFunnelIdentifier
     // 0x746964: LeaveFrame
     //     0x746964: mov             SP, fp
     //     0x746968: ldp             fp, lr, [SP], #0x10
@@ -5781,7 +5781,7 @@ abstract class NotificationHandler extends Object {
     // 0x7469a8: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x7469a8: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x7469ac: r0 = refreshWorkoutReturnFunnel()
-    //     0x7469ac: bl              #0x7469cc  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::refreshWorkoutReturnFunnel
+    //     0x7469ac: bl              #0x7469cc  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::refreshWorkoutReturnFunnel
     // 0x7469b0: mov             x1, x0
     // 0x7469b4: stur            x1, [fp, #-0x10]
     // 0x7469b8: r0 = Await()
@@ -5834,10 +5834,10 @@ abstract class NotificationHandler extends Object {
     // 0x746a44: b.eq            #0x746a6c
     // 0x746a48: mov             x1, x0
     // 0x746a4c: r0 = isPayingSubscriber()
-    //     0x746a4c: bl              #0x651314  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
+    //     0x746a4c: bl              #0x651314  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
     // 0x746a50: tbz             w0, #4, #0x746a6c
     // 0x746a54: r0 = cancelWorkoutReturnFunnel()
-    //     0x746a54: bl              #0x74a15c  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelWorkoutReturnFunnel
+    //     0x746a54: bl              #0x74a15c  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelWorkoutReturnFunnel
     // 0x746a58: mov             x1, x0
     // 0x746a5c: stur            x1, [fp, #-0x28]
     // 0x746a60: r0 = Await()
@@ -5876,7 +5876,7 @@ abstract class NotificationHandler extends Object {
     //     0x746ac0: add             x1, PP, #0x13, lsl #12  ; [pp+0x135b8] "workoutReturn"
     //     0x746ac4: ldr             x1, [x1, #0x5b8]
     // 0x746ac8: r0 = _isNotificationFunnelActive()
-    //     0x746ac8: bl              #0x74a0d4  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_isNotificationFunnelActive
+    //     0x746ac8: bl              #0x74a0d4  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_isNotificationFunnelActive
     // 0x746acc: mov             x1, x0
     // 0x746ad0: stur            x1, [fp, #-0x20]
     // 0x746ad4: r0 = Await()
@@ -5947,7 +5947,7 @@ abstract class NotificationHandler extends Object {
     //     0x746b88: add             x4, PP, #0x14, lsl #12  ; [pp+0x14518] List(7) [0, 0x3, 0x1, 0x2, "userManager", 0x2, Null]
     //     0x746b8c: ldr             x4, [x4, #0x518]
     // 0x746b90: r0 = scheduleNotificationFunnel()
-    //     0x746b90: bl              #0x746bb0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleNotificationFunnel
+    //     0x746b90: bl              #0x746bb0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleNotificationFunnel
     // 0x746b94: mov             x1, x0
     // 0x746b98: stur            x1, [fp, #-0x10]
     // 0x746b9c: r0 = Await()
@@ -5998,7 +5998,7 @@ abstract class NotificationHandler extends Object {
     // 0x746c20: tbz             w0, #4, #0x746cb8
     // 0x746c24: ldur            x1, [fp, #-0x18]
     // 0x746c28: r0 = _isNotificationFunnelActive()
-    //     0x746c28: bl              #0x74a0d4  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_isNotificationFunnelActive
+    //     0x746c28: bl              #0x74a0d4  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_isNotificationFunnelActive
     // 0x746c2c: mov             x1, x0
     // 0x746c30: stur            x1, [fp, #-0x20]
     // 0x746c34: r0 = Await()
@@ -6111,7 +6111,7 @@ abstract class NotificationHandler extends Object {
     // 0x746d5c: ldur            x2, [fp, #-0x18]
     // 0x746d60: mov             x1, x2
     // 0x746d64: r0 = _notificationFunnelSteps()
-    //     0x746d64: bl              #0x7451b4  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_notificationFunnelSteps
+    //     0x746d64: bl              #0x7451b4  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_notificationFunnelSteps
     // 0x746d68: stur            x0, [fp, #-0x20]
     // 0x746d6c: ldur            x16, [fp, #-0x18]
     // 0x746d70: r30 = "subscriptionAtRisk"
@@ -6122,14 +6122,14 @@ abstract class NotificationHandler extends Object {
     //     0x746d7c: bl              #0xdab674  ; [dart:core] _OneByteString::==
     // 0x746d80: tbnz            w0, #4, #0x746da0
     // 0x746d84: r0 = _loadedSubscriptionAtRiskBucketForSteps()
-    //     0x746d84: bl              #0x749fe4  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_loadedSubscriptionAtRiskBucketForSteps
+    //     0x746d84: bl              #0x749fe4  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_loadedSubscriptionAtRiskBucketForSteps
     // 0x746d88: mov             x1, x0
     // 0x746d8c: stur            x1, [fp, #-0x28]
     // 0x746d90: r0 = Await()
     //     0x746d90: bl              #0x60ad4c  ; AwaitStub
     // 0x746d94: mov             x1, x0
     // 0x746d98: r0 = _subscriptionAtRiskStepsForBucket()
-    //     0x746d98: bl              #0x7464e0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_subscriptionAtRiskStepsForBucket
+    //     0x746d98: bl              #0x7464e0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_subscriptionAtRiskStepsForBucket
     // 0x746d9c: b               #0x746dd8
     // 0x746da0: ldur            x16, [fp, #-0x18]
     // 0x746da4: r30 = "workoutReturn"
@@ -6140,14 +6140,14 @@ abstract class NotificationHandler extends Object {
     //     0x746db0: bl              #0xdab674  ; [dart:core] _OneByteString::==
     // 0x746db4: tbnz            w0, #4, #0x746dd4
     // 0x746db8: r0 = _loadedWorkoutReturnBucketForSteps()
-    //     0x746db8: bl              #0x749f30  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_loadedWorkoutReturnBucketForSteps
+    //     0x746db8: bl              #0x749f30  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_loadedWorkoutReturnBucketForSteps
     // 0x746dbc: mov             x1, x0
     // 0x746dc0: stur            x1, [fp, #-0x28]
     // 0x746dc4: r0 = Await()
     //     0x746dc4: bl              #0x60ad4c  ; AwaitStub
     // 0x746dc8: mov             x1, x0
     // 0x746dcc: r0 = _workoutReturnStepsForBucket()
-    //     0x746dcc: bl              #0x746000  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_workoutReturnStepsForBucket
+    //     0x746dcc: bl              #0x746000  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_workoutReturnStepsForBucket
     // 0x746dd0: b               #0x746dd8
     // 0x746dd4: ldur            x0, [fp, #-0x20]
     // 0x746dd8: ldur            x1, [fp, #-0x10]
@@ -6155,7 +6155,7 @@ abstract class NotificationHandler extends Object {
     // 0x746de0: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x746de0: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x746de4: r0 = _notificationFunnelTemplateContext()
-    //     0x746de4: bl              #0x749c10  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_notificationFunnelTemplateContext
+    //     0x746de4: bl              #0x749c10  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_notificationFunnelTemplateContext
     // 0x746de8: stur            x0, [fp, #-0x28]
     // 0x746dec: LoadField: r1 = r0->field_7
     //     0x746dec: ldur            w1, [x0, #7]
@@ -6168,7 +6168,7 @@ abstract class NotificationHandler extends Object {
     // 0x746e00: cmp             w1, NULL
     // 0x746e04: b.eq            #0x746e2c
     // 0x746e08: r0 = resolvedFirstNameAsync()
-    //     0x746e08: bl              #0x747648  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::resolvedFirstNameAsync
+    //     0x746e08: bl              #0x747648  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::resolvedFirstNameAsync
     // 0x746e0c: mov             x1, x0
     // 0x746e10: stur            x1, [fp, #-0x10]
     // 0x746e14: r0 = Await()
@@ -6176,7 +6176,7 @@ abstract class NotificationHandler extends Object {
     // 0x746e18: ldur            x1, [fp, #-0x28]
     // 0x746e1c: mov             x2, x0
     // 0x746e20: r0 = copyWith()
-    //     0x746e20: bl              #0x7475e0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] _NotificationFunnelTemplateContext::copyWith
+    //     0x746e20: bl              #0x7475e0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] _NotificationFunnelTemplateContext::copyWith
     // 0x746e24: mov             x2, x0
     // 0x746e28: b               #0x746e30
     // 0x746e2c: ldur            x2, [fp, #-0x28]
@@ -6188,14 +6188,14 @@ abstract class NotificationHandler extends Object {
     //     0x746e3c: bl              #0x60ad4c  ; AwaitStub
     // 0x746e40: ldur            x1, [fp, #-0x18]
     // 0x746e44: r0 = cancelNotificationFunnel()
-    //     0x746e44: bl              #0x7448f0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelNotificationFunnel
+    //     0x746e44: bl              #0x7448f0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelNotificationFunnel
     // 0x746e48: mov             x1, x0
     // 0x746e4c: stur            x1, [fp, #-0x28]
     // 0x746e50: r0 = Await()
     //     0x746e50: bl              #0x60ad4c  ; AwaitStub
     // 0x746e54: ldur            x1, [fp, #-0x18]
     // 0x746e58: r0 = _markNotificationFunnelActive()
-    //     0x746e58: bl              #0x747550  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_markNotificationFunnelActive
+    //     0x746e58: bl              #0x747550  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_markNotificationFunnelActive
     // 0x746e5c: mov             x1, x0
     // 0x746e60: stur            x1, [fp, #-0x28]
     // 0x746e64: r0 = Await()
@@ -6274,7 +6274,7 @@ abstract class NotificationHandler extends Object {
     //     0x746f30: add             x1, x1, HEAP, lsl #32
     // 0x746f34: ldur            x2, [fp, #-0x10]
     // 0x746f38: r0 = _renderNotificationTemplate()
-    //     0x746f38: bl              #0x747398  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_renderNotificationTemplate
+    //     0x746f38: bl              #0x747398  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_renderNotificationTemplate
     // 0x746f3c: mov             x3, x0
     // 0x746f40: ldur            x0, [fp, #-0x30]
     // 0x746f44: stur            x3, [fp, #-0x40]
@@ -6284,7 +6284,7 @@ abstract class NotificationHandler extends Object {
     //     0x746f4c: add             x1, x1, HEAP, lsl #32
     // 0x746f50: ldur            x2, [fp, #-0x10]
     // 0x746f54: r0 = _renderNotificationTemplate()
-    //     0x746f54: bl              #0x747398  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_renderNotificationTemplate
+    //     0x746f54: bl              #0x747398  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_renderNotificationTemplate
     // 0x746f58: r1 = Null
     //     0x746f58: mov             x1, NULL
     // 0x746f5c: r2 = 16
@@ -6332,7 +6332,7 @@ abstract class NotificationHandler extends Object {
     // 0x746fc4: b.ne            #0x746fd4
     // 0x746fc8: mov             x1, x2
     // 0x746fcc: r0 = _notificationFunnelDestination()
-    //     0x746fcc: bl              #0x7471d0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_notificationFunnelDestination
+    //     0x746fcc: bl              #0x7471d0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_notificationFunnelDestination
     // 0x746fd0: b               #0x746fd8
     // 0x746fd4: mov             x0, x1
     // 0x746fd8: ldur            x3, [fp, #-0x38]
@@ -6432,7 +6432,7 @@ abstract class NotificationHandler extends Object {
     // 0x747118: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x747118: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x74711c: r0 = scheduleDelayed()
-    //     0x74711c: bl              #0x65bdc4  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::scheduleDelayed
+    //     0x74711c: bl              #0x65bdc4  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::scheduleDelayed
     // 0x747120: mov             x1, x0
     // 0x747124: stur            x1, [fp, #-0x28]
     // 0x747128: r0 = Await()
@@ -6731,7 +6731,7 @@ abstract class NotificationHandler extends Object {
     //     0x747438: bl              #0x5ed854  ; [dart:core] _StringBase::trim
     // 0x74743c: mov             x1, x0
     // 0x747440: r0 = _capitalizeNotificationFunnelCopy()
-    //     0x747440: bl              #0x7474c4  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_capitalizeNotificationFunnelCopy
+    //     0x747440: bl              #0x7474c4  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_capitalizeNotificationFunnelCopy
     // 0x747444: mov             x1, x0
     // 0x747448: b               #0x74745c
     // 0x74744c: r2 = "{first_name}"
@@ -6924,7 +6924,7 @@ abstract class NotificationHandler extends Object {
     //     0x747684: mov             x0, NULL
     // 0x747688: b               #0x747698
     // 0x74768c: r0 = firstName()
-    //     0x74768c: bl              #0x749b68  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::firstName
+    //     0x74768c: bl              #0x749b68  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::firstName
     // 0x747690: mov             x1, x0
     // 0x747694: r0 = trim()
     //     0x747694: bl              #0x5ed854  ; [dart:core] _StringBase::trim
@@ -6938,7 +6938,7 @@ abstract class NotificationHandler extends Object {
     // 0x7476ac: r0 = ReturnAsyncNotFuture()
     //     0x7476ac: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x7476b0: r0 = load()
-    //     0x7476b0: bl              #0x747768  ; [package:ballai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::load
+    //     0x7476b0: bl              #0x747768  ; [package:kourtai/automatic/models/client/onboarding_draft.dart] OnboardingDraftStore::load
     // 0x7476b4: mov             x1, x0
     // 0x7476b8: stur            x1, [fp, #-0x10]
     // 0x7476bc: r0 = Await()
@@ -7098,11 +7098,11 @@ abstract class NotificationHandler extends Object {
     //     0x749d1c: bl              #0x607410  ; [dart:core] _StringBase::_interpolateSingle
     // 0x749d20: stur            x0, [fp, #-8]
     // 0x749d24: r0 = _formatShotMilestone()
-    //     0x749d24: bl              #0x749e04  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_formatShotMilestone
+    //     0x749d24: bl              #0x749e04  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_formatShotMilestone
     // 0x749d28: ldur            x1, [fp, #-0x10]
     // 0x749d2c: stur            x0, [fp, #-0x10]
     // 0x749d30: r0 = _resolvedNotificationFunnelFirstName()
-    //     0x749d30: bl              #0x749d74  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_resolvedNotificationFunnelFirstName
+    //     0x749d30: bl              #0x749d74  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_resolvedNotificationFunnelFirstName
     // 0x749d34: stur            x0, [fp, #-0x18]
     // 0x749d38: r0 = _NotificationFunnelTemplateContext()
     //     0x749d38: bl              #0x74763c  ; Allocate_NotificationFunnelTemplateContextStub -> _NotificationFunnelTemplateContext (size=0x18)
@@ -7154,7 +7154,7 @@ abstract class NotificationHandler extends Object {
     // 0x749dac: b               #0x749dc4
     // 0x749db0: mov             x1, x0
     // 0x749db4: r0 = firstName()
-    //     0x749db4: bl              #0x749b68  ; [package:ballai/automatic/models/core/user/user_model.dart] UserModel::firstName
+    //     0x749db4: bl              #0x749b68  ; [package:kourtai/automatic/models/core/user/user_model.dart] UserModel::firstName
     // 0x749db8: mov             x1, x0
     // 0x749dbc: r0 = trim()
     //     0x749dbc: bl              #0x5ed854  ; [dart:core] _StringBase::trim
@@ -7493,7 +7493,7 @@ abstract class NotificationHandler extends Object {
     //     0x74a180: add             x1, PP, #0x13, lsl #12  ; [pp+0x135b8] "workoutReturn"
     //     0x74a184: ldr             x1, [x1, #0x5b8]
     // 0x74a188: r0 = cancelNotificationFunnel()
-    //     0x74a188: bl              #0x7448f0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelNotificationFunnel
+    //     0x74a188: bl              #0x7448f0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelNotificationFunnel
     // 0x74a18c: mov             x1, x0
     // 0x74a190: stur            x1, [fp, #-0x10]
     // 0x74a194: r0 = Await()
@@ -7561,7 +7561,7 @@ abstract class NotificationHandler extends Object {
     // 0x9300a4: ldur            x2, [fp, #-0x10]
     // 0x9300a8: ldur            x3, [fp, #-0x20]
     // 0x9300ac: r0 = syncWorkoutReturnFunnel()
-    //     0x9300ac: bl              #0x9300cc  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::syncWorkoutReturnFunnel
+    //     0x9300ac: bl              #0x9300cc  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::syncWorkoutReturnFunnel
     // 0x9300b0: mov             x1, x0
     // 0x9300b4: stur            x1, [fp, #-0x10]
     // 0x9300b8: r0 = Await()
@@ -7635,7 +7635,7 @@ abstract class NotificationHandler extends Object {
     // 0x930170: r0 = debugPrintThrottled()
     //     0x930170: bl              #0x5c96fc  ; [package:flutter/src/foundation/print.dart] ::debugPrintThrottled
     // 0x930174: r0 = cancelFirstWorkoutIncompleteFunnel()
-    //     0x930174: bl              #0x93022c  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelFirstWorkoutIncompleteFunnel
+    //     0x930174: bl              #0x93022c  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelFirstWorkoutIncompleteFunnel
     // 0x930178: mov             x1, x0
     // 0x93017c: stur            x1, [fp, #-0x28]
     // 0x930180: r0 = Await()
@@ -7654,10 +7654,10 @@ abstract class NotificationHandler extends Object {
     // 0x9301a8: b.eq            #0x9301b8
     // 0x9301ac: mov             x1, x0
     // 0x9301b0: r0 = isPayingSubscriber()
-    //     0x9301b0: bl              #0x651314  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
+    //     0x9301b0: bl              #0x651314  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
     // 0x9301b4: tbz             w0, #4, #0x9301d0
     // 0x9301b8: r0 = cancelWorkoutReturnFunnel()
-    //     0x9301b8: bl              #0x74a15c  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelWorkoutReturnFunnel
+    //     0x9301b8: bl              #0x74a15c  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelWorkoutReturnFunnel
     // 0x9301bc: mov             x1, x0
     // 0x9301c0: stur            x1, [fp, #-0x10]
     // 0x9301c4: r0 = Await()
@@ -7680,7 +7680,7 @@ abstract class NotificationHandler extends Object {
     //     0x9301f0: add             x4, PP, #0x14, lsl #12  ; [pp+0x14518] List(7) [0, 0x3, 0x1, 0x2, "userManager", 0x2, Null]
     //     0x9301f4: ldr             x4, [x4, #0x518]
     // 0x9301f8: r0 = refreshWorkoutReturnFunnel()
-    //     0x9301f8: bl              #0x7469cc  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::refreshWorkoutReturnFunnel
+    //     0x9301f8: bl              #0x7469cc  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::refreshWorkoutReturnFunnel
     // 0x9301fc: mov             x1, x0
     // 0x930200: stur            x1, [fp, #-0x10]
     // 0x930204: r0 = Await()
@@ -7721,7 +7721,7 @@ abstract class NotificationHandler extends Object {
     //     0x930250: add             x1, PP, #0x13, lsl #12  ; [pp+0x135b0] "firstWorkoutIncomplete"
     //     0x930254: ldr             x1, [x1, #0x5b0]
     // 0x930258: r0 = cancelNotificationFunnel()
-    //     0x930258: bl              #0x7448f0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelNotificationFunnel
+    //     0x930258: bl              #0x7448f0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelNotificationFunnel
     // 0x93025c: mov             x1, x0
     // 0x930260: stur            x1, [fp, #-0x10]
     // 0x930264: r0 = Await()
@@ -7754,7 +7754,7 @@ abstract class NotificationHandler extends Object {
     //     0x93029c: add             x1, PP, #0x13, lsl #12  ; [pp+0x135a0] "accountSetupIncomplete"
     //     0x9302a0: ldr             x1, [x1, #0x5a0]
     // 0x9302a4: r0 = cancelNotificationFunnel()
-    //     0x9302a4: bl              #0x7448f0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelNotificationFunnel
+    //     0x9302a4: bl              #0x7448f0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelNotificationFunnel
     // 0x9302a8: mov             x1, x0
     // 0x9302ac: stur            x1, [fp, #-0x10]
     // 0x9302b0: r0 = Await()
@@ -7791,7 +7791,7 @@ abstract class NotificationHandler extends Object {
     // 0x937634: r0 = ReturnAsyncNotFuture()
     //     0x937634: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x937638: r0 = refreshPermissionCache()
-    //     0x937638: bl              #0x6be308  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::refreshPermissionCache
+    //     0x937638: bl              #0x6be308  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::refreshPermissionCache
     // 0x93763c: mov             x1, x0
     // 0x937640: stur            x1, [fp, #-0x10]
     // 0x937644: r0 = Await()
@@ -7832,18 +7832,18 @@ abstract class NotificationHandler extends Object {
     // 0x93b6dc: ldur            x1, [fp, #-0x10]
     // 0x93b6e0: ldur            x2, [fp, #-0x18]
     // 0x93b6e4: r0 = _currentSubscriptionAtRiskBucket()
-    //     0x93b6e4: bl              #0x93bf1c  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_currentSubscriptionAtRiskBucket
+    //     0x93b6e4: bl              #0x93bf1c  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_currentSubscriptionAtRiskBucket
     // 0x93b6e8: stur            x0, [fp, #-0x20]
     // 0x93b6ec: cmp             w0, NULL
     // 0x93b6f0: b.eq            #0x93b734
     // 0x93b6f4: r0 = cancelTrialNotStartedFunnel()
-    //     0x93b6f4: bl              #0x93bed0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialNotStartedFunnel
+    //     0x93b6f4: bl              #0x93bed0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialNotStartedFunnel
     // 0x93b6f8: mov             x1, x0
     // 0x93b6fc: stur            x1, [fp, #-0x28]
     // 0x93b700: r0 = Await()
     //     0x93b700: bl              #0x60ad4c  ; AwaitStub
     // 0x93b704: r0 = cancelTrialExpiredFunnel()
-    //     0x93b704: bl              #0x93be84  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialExpiredFunnel
+    //     0x93b704: bl              #0x93be84  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialExpiredFunnel
     // 0x93b708: mov             x1, x0
     // 0x93b70c: stur            x1, [fp, #-0x28]
     // 0x93b710: r0 = Await()
@@ -7851,7 +7851,7 @@ abstract class NotificationHandler extends Object {
     // 0x93b714: ldur            x1, [fp, #-0x20]
     // 0x93b718: ldur            x2, [fp, #-0x18]
     // 0x93b71c: r0 = refreshSubscriptionAtRiskFunnel()
-    //     0x93b71c: bl              #0x93bcf4  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::refreshSubscriptionAtRiskFunnel
+    //     0x93b71c: bl              #0x93bcf4  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::refreshSubscriptionAtRiskFunnel
     // 0x93b720: mov             x1, x0
     // 0x93b724: stur            x1, [fp, #-0x20]
     // 0x93b728: r0 = Await()
@@ -7861,7 +7861,7 @@ abstract class NotificationHandler extends Object {
     // 0x93b730: r0 = ReturnAsyncNotFuture()
     //     0x93b730: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x93b734: r0 = cancelSubscriptionAtRiskFunnel()
-    //     0x93b734: bl              #0x93bc7c  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelSubscriptionAtRiskFunnel
+    //     0x93b734: bl              #0x93bc7c  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelSubscriptionAtRiskFunnel
     // 0x93b738: mov             x1, x0
     // 0x93b73c: stur            x1, [fp, #-0x20]
     // 0x93b740: r0 = Await()
@@ -7869,10 +7869,10 @@ abstract class NotificationHandler extends Object {
     // 0x93b744: ldur            x1, [fp, #-0x10]
     // 0x93b748: ldur            x2, [fp, #-0x18]
     // 0x93b74c: r0 = _shouldScheduleTrialExpiredFunnel()
-    //     0x93b74c: bl              #0x93bbac  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_shouldScheduleTrialExpiredFunnel
+    //     0x93b74c: bl              #0x93bbac  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_shouldScheduleTrialExpiredFunnel
     // 0x93b750: tbnz            w0, #4, #0x93b798
     // 0x93b754: r0 = cancelTrialNotStartedFunnel()
-    //     0x93b754: bl              #0x93bed0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialNotStartedFunnel
+    //     0x93b754: bl              #0x93bed0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialNotStartedFunnel
     // 0x93b758: mov             x1, x0
     // 0x93b75c: stur            x1, [fp, #-0x20]
     // 0x93b760: r0 = Await()
@@ -7888,7 +7888,7 @@ abstract class NotificationHandler extends Object {
     //     0x93b778: add             x4, PP, #0x14, lsl #12  ; [pp+0x14518] List(7) [0, 0x3, 0x1, 0x2, "userManager", 0x2, Null]
     //     0x93b77c: ldr             x4, [x4, #0x518]
     // 0x93b780: r0 = scheduleNotificationFunnel()
-    //     0x93b780: bl              #0x746bb0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleNotificationFunnel
+    //     0x93b780: bl              #0x746bb0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleNotificationFunnel
     // 0x93b784: mov             x1, x0
     // 0x93b788: stur            x1, [fp, #-0x20]
     // 0x93b78c: r0 = Await()
@@ -7898,7 +7898,7 @@ abstract class NotificationHandler extends Object {
     // 0x93b794: r0 = ReturnAsyncNotFuture()
     //     0x93b794: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x93b798: r0 = cancelTrialExpiredFunnel()
-    //     0x93b798: bl              #0x93be84  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialExpiredFunnel
+    //     0x93b798: bl              #0x93be84  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialExpiredFunnel
     // 0x93b79c: mov             x1, x0
     // 0x93b7a0: stur            x1, [fp, #-0x20]
     // 0x93b7a4: r0 = Await()
@@ -7906,7 +7906,7 @@ abstract class NotificationHandler extends Object {
     // 0x93b7a8: ldur            x1, [fp, #-0x10]
     // 0x93b7ac: ldur            x2, [fp, #-0x18]
     // 0x93b7b0: r0 = _shouldScheduleTrialNotStartedFunnel()
-    //     0x93b7b0: bl              #0x93b80c  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_shouldScheduleTrialNotStartedFunnel
+    //     0x93b7b0: bl              #0x93b80c  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_shouldScheduleTrialNotStartedFunnel
     // 0x93b7b4: tbnz            w0, #4, #0x93b7ec
     // 0x93b7b8: ldur            x16, [fp, #-0x18]
     // 0x93b7bc: str             x16, [SP]
@@ -7919,7 +7919,7 @@ abstract class NotificationHandler extends Object {
     //     0x93b7cc: add             x4, PP, #0x14, lsl #12  ; [pp+0x14518] List(7) [0, 0x3, 0x1, 0x2, "userManager", 0x2, Null]
     //     0x93b7d0: ldr             x4, [x4, #0x518]
     // 0x93b7d4: r0 = scheduleNotificationFunnel()
-    //     0x93b7d4: bl              #0x746bb0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleNotificationFunnel
+    //     0x93b7d4: bl              #0x746bb0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleNotificationFunnel
     // 0x93b7d8: mov             x1, x0
     // 0x93b7dc: stur            x1, [fp, #-0x10]
     // 0x93b7e0: r0 = Await()
@@ -7929,7 +7929,7 @@ abstract class NotificationHandler extends Object {
     // 0x93b7e8: r0 = ReturnAsyncNotFuture()
     //     0x93b7e8: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x93b7ec: r0 = cancelTrialNotStartedFunnel()
-    //     0x93b7ec: bl              #0x93bed0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialNotStartedFunnel
+    //     0x93b7ec: bl              #0x93bed0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialNotStartedFunnel
     // 0x93b7f0: mov             x1, x0
     // 0x93b7f4: stur            x1, [fp, #-0x10]
     // 0x93b7f8: r0 = Await()
@@ -7985,7 +7985,7 @@ abstract class NotificationHandler extends Object {
     // 0x93b870: ret
     //     0x93b870: ret             
     // 0x93b874: r0 = hasEligibleIntroOffer()
-    //     0x93b874: bl              #0x93b8c4  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasEligibleIntroOffer
+    //     0x93b874: bl              #0x93b8c4  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasEligibleIntroOffer
     // 0x93b878: tbz             w0, #4, #0x93b88c
     // 0x93b87c: r0 = false
     //     0x93b87c: add             x0, NULL, #0x30  ; false
@@ -7996,7 +7996,7 @@ abstract class NotificationHandler extends Object {
     //     0x93b888: ret             
     // 0x93b88c: ldur            x1, [fp, #-8]
     // 0x93b890: r0 = isExpiredAppStoreFreeTrial()
-    //     0x93b890: bl              #0x659bd8  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isExpiredAppStoreFreeTrial
+    //     0x93b890: bl              #0x659bd8  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isExpiredAppStoreFreeTrial
     // 0x93b894: tbnz            w0, #4, #0x93b8a8
     // 0x93b898: r0 = false
     //     0x93b898: add             x0, NULL, #0x30  ; false
@@ -8007,7 +8007,7 @@ abstract class NotificationHandler extends Object {
     //     0x93b8a4: ret             
     // 0x93b8a8: ldur            x1, [fp, #-8]
     // 0x93b8ac: r0 = _shouldScheduleFreeUserProFunnel()
-    //     0x93b8ac: bl              #0x657928  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_shouldScheduleFreeUserProFunnel
+    //     0x93b8ac: bl              #0x657928  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_shouldScheduleFreeUserProFunnel
     // 0x93b8b0: LeaveFrame
     //     0x93b8b0: mov             SP, fp
     //     0x93b8b4: ldp             fp, lr, [SP], #0x10
@@ -8035,7 +8035,7 @@ abstract class NotificationHandler extends Object {
     //     0x93bbd0: b.ls            #0x93bc74
     // 0x93bbd4: mov             x1, x0
     // 0x93bbd8: r0 = isExpiredAppStoreFreeTrial()
-    //     0x93bbd8: bl              #0x659bd8  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isExpiredAppStoreFreeTrial
+    //     0x93bbd8: bl              #0x659bd8  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isExpiredAppStoreFreeTrial
     // 0x93bbdc: tbz             w0, #4, #0x93bbf0
     // 0x93bbe0: r0 = false
     //     0x93bbe0: add             x0, NULL, #0x30  ; false
@@ -8046,7 +8046,7 @@ abstract class NotificationHandler extends Object {
     //     0x93bbec: ret             
     // 0x93bbf0: ldur            x1, [fp, #-0x10]
     // 0x93bbf4: r0 = isPayingSubscriber()
-    //     0x93bbf4: bl              #0x651314  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
+    //     0x93bbf4: bl              #0x651314  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
     // 0x93bbf8: tbnz            w0, #4, #0x93bc0c
     // 0x93bbfc: r0 = false
     //     0x93bbfc: add             x0, NULL, #0x30  ; false
@@ -8121,7 +8121,7 @@ abstract class NotificationHandler extends Object {
     //     0x93bca0: add             x1, PP, #0x14, lsl #12  ; [pp+0x145b0] "subscriptionAtRisk"
     //     0x93bca4: ldr             x1, [x1, #0x5b0]
     // 0x93bca8: r0 = cancelNotificationFunnel()
-    //     0x93bca8: bl              #0x7448f0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelNotificationFunnel
+    //     0x93bca8: bl              #0x7448f0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelNotificationFunnel
     // 0x93bcac: mov             x1, x0
     // 0x93bcb0: stur            x1, [fp, #-0x10]
     // 0x93bcb4: r0 = Await()
@@ -8196,7 +8196,7 @@ abstract class NotificationHandler extends Object {
     //     0x93bd6c: add             x1, PP, #0x14, lsl #12  ; [pp+0x145b0] "subscriptionAtRisk"
     //     0x93bd70: ldr             x1, [x1, #0x5b0]
     // 0x93bd74: r0 = _isNotificationFunnelActive()
-    //     0x93bd74: bl              #0x74a0d4  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_isNotificationFunnelActive
+    //     0x93bd74: bl              #0x74a0d4  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_isNotificationFunnelActive
     // 0x93bd78: mov             x1, x0
     // 0x93bd7c: stur            x1, [fp, #-0x28]
     // 0x93bd80: r0 = Await()
@@ -8250,13 +8250,13 @@ abstract class NotificationHandler extends Object {
     // 0x93be00: b               #0x93be08
     // 0x93be04: ldur            x3, [fp, #-0x10]
     // 0x93be08: r0 = cancelTrialNotStartedFunnel()
-    //     0x93be08: bl              #0x93bed0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialNotStartedFunnel
+    //     0x93be08: bl              #0x93bed0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialNotStartedFunnel
     // 0x93be0c: mov             x1, x0
     // 0x93be10: stur            x1, [fp, #-0x28]
     // 0x93be14: r0 = Await()
     //     0x93be14: bl              #0x60ad4c  ; AwaitStub
     // 0x93be18: r0 = cancelTrialExpiredFunnel()
-    //     0x93be18: bl              #0x93be84  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialExpiredFunnel
+    //     0x93be18: bl              #0x93be84  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialExpiredFunnel
     // 0x93be1c: mov             x1, x0
     // 0x93be20: stur            x1, [fp, #-0x28]
     // 0x93be24: r0 = Await()
@@ -8283,7 +8283,7 @@ abstract class NotificationHandler extends Object {
     //     0x93be5c: add             x4, PP, #0x14, lsl #12  ; [pp+0x14518] List(7) [0, 0x3, 0x1, 0x2, "userManager", 0x2, Null]
     //     0x93be60: ldr             x4, [x4, #0x518]
     // 0x93be64: r0 = scheduleNotificationFunnel()
-    //     0x93be64: bl              #0x746bb0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleNotificationFunnel
+    //     0x93be64: bl              #0x746bb0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleNotificationFunnel
     // 0x93be68: mov             x1, x0
     // 0x93be6c: stur            x1, [fp, #-0x10]
     // 0x93be70: r0 = Await()
@@ -8316,7 +8316,7 @@ abstract class NotificationHandler extends Object {
     //     0x93bea8: add             x1, PP, #0x13, lsl #12  ; [pp+0x135f8] "trialExpired"
     //     0x93beac: ldr             x1, [x1, #0x5f8]
     // 0x93beb0: r0 = cancelNotificationFunnel()
-    //     0x93beb0: bl              #0x7448f0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelNotificationFunnel
+    //     0x93beb0: bl              #0x7448f0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelNotificationFunnel
     // 0x93beb4: mov             x1, x0
     // 0x93beb8: stur            x1, [fp, #-0x10]
     // 0x93bebc: r0 = Await()
@@ -8349,7 +8349,7 @@ abstract class NotificationHandler extends Object {
     //     0x93bef4: add             x1, PP, #0x13, lsl #12  ; [pp+0x135f0] "trialNotStarted"
     //     0x93bef8: ldr             x1, [x1, #0x5f0]
     // 0x93befc: r0 = cancelNotificationFunnel()
-    //     0x93befc: bl              #0x7448f0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelNotificationFunnel
+    //     0x93befc: bl              #0x7448f0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelNotificationFunnel
     // 0x93bf00: mov             x1, x0
     // 0x93bf04: stur            x1, [fp, #-0x10]
     // 0x93bf08: r0 = Await()
@@ -8378,8 +8378,8 @@ abstract class NotificationHandler extends Object {
     //     0x93bf38: cmp             SP, x16
     //     0x93bf3c: b.ls            #0x93bfe8
     // 0x93bf40: mov             x1, x0
-    // 0x93bf44: r0 = hasActiveBallAiProBillingIssue()
-    //     0x93bf44: bl              #0x8e9064  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveBallAiProBillingIssue
+    // 0x93bf44: r0 = hasActiveKourtAiProBillingIssue()
+    //     0x93bf44: bl              #0x8e9064  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveKourtAiProBillingIssue
     // 0x93bf48: tbnz            w0, #4, #0x93bf60
     // 0x93bf4c: r0 = "billingIssue"
     //     0x93bf4c: add             x0, PP, #0x14, lsl #12  ; [pp+0x14898] "billingIssue"
@@ -8390,8 +8390,8 @@ abstract class NotificationHandler extends Object {
     // 0x93bf5c: ret
     //     0x93bf5c: ret             
     // 0x93bf60: ldur            x1, [fp, #-8]
-    // 0x93bf64: r0 = hasActiveCancelledRenewalBallAiPro()
-    //     0x93bf64: bl              #0x8e8f74  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveCancelledRenewalBallAiPro
+    // 0x93bf64: r0 = hasActiveCancelledRenewalKourtAiPro()
+    //     0x93bf64: bl              #0x8e8f74  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveCancelledRenewalKourtAiPro
     // 0x93bf68: tbnz            w0, #4, #0x93bfd8
     // 0x93bf6c: ldur            x1, [fp, #-0x10]
     // 0x93bf70: LoadField: r2 = r1->field_27
@@ -8465,7 +8465,7 @@ abstract class NotificationHandler extends Object {
     //     0x93e1fc: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x93e200: bl              #0x60afc8  ; InitAsyncStub
     // 0x93e204: r0 = cancelAccountNotCreatedFunnel()
-    //     0x93e204: bl              #0x93e2b0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelAccountNotCreatedFunnel
+    //     0x93e204: bl              #0x93e2b0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelAccountNotCreatedFunnel
     // 0x93e208: mov             x1, x0
     // 0x93e20c: stur            x1, [fp, #-0x18]
     // 0x93e210: r0 = Await()
@@ -8478,14 +8478,14 @@ abstract class NotificationHandler extends Object {
     // 0x93e220: cmp             w1, NULL
     // 0x93e224: b.ne            #0x93e23c
     // 0x93e228: r0 = scheduleAccountSetupIncompleteFunnel()
-    //     0x93e228: bl              #0x93e25c  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleAccountSetupIncompleteFunnel
+    //     0x93e228: bl              #0x93e25c  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleAccountSetupIncompleteFunnel
     // 0x93e22c: mov             x1, x0
     // 0x93e230: stur            x1, [fp, #-0x10]
     // 0x93e234: r0 = Await()
     //     0x93e234: bl              #0x60ad4c  ; AwaitStub
     // 0x93e238: b               #0x93e24c
     // 0x93e23c: r0 = cancelAccountSetupIncompleteFunnel()
-    //     0x93e23c: bl              #0x930278  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelAccountSetupIncompleteFunnel
+    //     0x93e23c: bl              #0x930278  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelAccountSetupIncompleteFunnel
     // 0x93e240: mov             x1, x0
     // 0x93e244: stur            x1, [fp, #-0x10]
     // 0x93e248: r0 = Await()
@@ -8522,7 +8522,7 @@ abstract class NotificationHandler extends Object {
     // 0x93e28c: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x93e28c: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x93e290: r0 = scheduleNotificationFunnel()
-    //     0x93e290: bl              #0x746bb0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleNotificationFunnel
+    //     0x93e290: bl              #0x746bb0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleNotificationFunnel
     // 0x93e294: mov             x1, x0
     // 0x93e298: stur            x1, [fp, #-0x10]
     // 0x93e29c: r0 = Await()
@@ -8555,7 +8555,7 @@ abstract class NotificationHandler extends Object {
     //     0x93e2d4: add             x1, PP, #0x13, lsl #12  ; [pp+0x13590] "accountNotCreated"
     //     0x93e2d8: ldr             x1, [x1, #0x590]
     // 0x93e2dc: r0 = cancelNotificationFunnel()
-    //     0x93e2dc: bl              #0x7448f0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelNotificationFunnel
+    //     0x93e2dc: bl              #0x7448f0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelNotificationFunnel
     // 0x93e2e0: mov             x1, x0
     // 0x93e2e4: stur            x1, [fp, #-0x10]
     // 0x93e2e8: r0 = Await()
@@ -8650,7 +8650,7 @@ abstract class NotificationHandler extends Object {
     // 0x93ef7c: r0 = debugPrintThrottled()
     //     0x93ef7c: bl              #0x5c96fc  ; [package:flutter/src/foundation/print.dart] ::debugPrintThrottled
     // 0x93ef80: r0 = cancelStreakExpiringFunnel()
-    //     0x93ef80: bl              #0x93fc24  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelStreakExpiringFunnel
+    //     0x93ef80: bl              #0x93fc24  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelStreakExpiringFunnel
     // 0x93ef84: mov             x1, x0
     // 0x93ef88: stur            x1, [fp, #-0x90]
     // 0x93ef8c: r0 = Await()
@@ -8661,7 +8661,7 @@ abstract class NotificationHandler extends Object {
     //     0x93ef94: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x93ef98: ldur            x1, [fp, #-0x78]
     // 0x93ef9c: r0 = _streakExpirationDate()
-    //     0x93ef9c: bl              #0x93fac0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_streakExpirationDate
+    //     0x93ef9c: bl              #0x93fac0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_streakExpirationDate
     // 0x93efa0: r1 = Null
     //     0x93efa0: mov             x1, NULL
     // 0x93efa4: r2 = 4
@@ -8720,7 +8720,7 @@ abstract class NotificationHandler extends Object {
     // 0x93f030: ldur            x1, [fp, #-0x78]
     // 0x93f034: ldur            x2, [fp, #-0x88]
     // 0x93f038: r0 = _streakExpiringReminders()
-    //     0x93f038: bl              #0x93f694  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_streakExpiringReminders
+    //     0x93f038: bl              #0x93f694  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_streakExpiringReminders
     // 0x93f03c: mov             x1, x0
     // 0x93f040: stur            x1, [fp, #-0x90]
     // 0x93f044: r0 = Await()
@@ -8731,7 +8731,7 @@ abstract class NotificationHandler extends Object {
     // 0x93f054: ldur            x5, [fp, #-0x88]
     // 0x93f058: stur            x0, [fp, #-0x90]
     // 0x93f05c: r0 = _scheduleStreakExpiringReminders()
-    //     0x93f05c: bl              #0x93f0c0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_scheduleStreakExpiringReminders
+    //     0x93f05c: bl              #0x93f0c0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_scheduleStreakExpiringReminders
     // 0x93f060: mov             x1, x0
     // 0x93f064: stur            x1, [fp, #-0x98]
     // 0x93f068: r0 = Await()
@@ -8806,7 +8806,7 @@ abstract class NotificationHandler extends Object {
     //     0x93f11c: add             x4, PP, #0x1a, lsl #12  ; [pp+0x1af80] List(7) [0, 0x2, 0x1, 0x1, "currentStreak", 0x1, Null]
     //     0x93f120: ldr             x4, [x4, #0xf80]
     // 0x93f124: r0 = _notificationFunnelTemplateContext()
-    //     0x93f124: bl              #0x749c10  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_notificationFunnelTemplateContext
+    //     0x93f124: bl              #0x749c10  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_notificationFunnelTemplateContext
     // 0x93f128: stur            x0, [fp, #-0x20]
     // 0x93f12c: LoadField: r1 = r0->field_7
     //     0x93f12c: ldur            w1, [x0, #7]
@@ -8817,7 +8817,7 @@ abstract class NotificationHandler extends Object {
     // 0x93f138: cbnz            w2, #0x93f164
     // 0x93f13c: ldur            x1, [fp, #-0x28]
     // 0x93f140: r0 = resolvedFirstNameAsync()
-    //     0x93f140: bl              #0x747648  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::resolvedFirstNameAsync
+    //     0x93f140: bl              #0x747648  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::resolvedFirstNameAsync
     // 0x93f144: mov             x1, x0
     // 0x93f148: stur            x1, [fp, #-0x28]
     // 0x93f14c: r0 = Await()
@@ -8825,7 +8825,7 @@ abstract class NotificationHandler extends Object {
     // 0x93f150: ldur            x1, [fp, #-0x20]
     // 0x93f154: mov             x2, x0
     // 0x93f158: r0 = copyWith()
-    //     0x93f158: bl              #0x7475e0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] _NotificationFunnelTemplateContext::copyWith
+    //     0x93f158: bl              #0x7475e0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] _NotificationFunnelTemplateContext::copyWith
     // 0x93f15c: mov             x2, x0
     // 0x93f160: b               #0x93f168
     // 0x93f164: ldur            x2, [fp, #-0x20]
@@ -8833,7 +8833,7 @@ abstract class NotificationHandler extends Object {
     // 0x93f16c: ldur            x1, [fp, #-0x18]
     // 0x93f170: stur            x2, [fp, #-0x20]
     // 0x93f174: r0 = cancelStreakExpiringFunnel()
-    //     0x93f174: bl              #0x93fc24  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelStreakExpiringFunnel
+    //     0x93f174: bl              #0x93fc24  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelStreakExpiringFunnel
     // 0x93f178: mov             x1, x0
     // 0x93f17c: stur            x1, [fp, #-0x28]
     // 0x93f180: r0 = Await()
@@ -9199,7 +9199,7 @@ abstract class NotificationHandler extends Object {
     //     0x93f570: add             x1, x1, HEAP, lsl #32
     // 0x93f574: ldur            x2, [fp, #-0x20]
     // 0x93f578: r0 = _renderNotificationTemplate()
-    //     0x93f578: bl              #0x747398  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_renderNotificationTemplate
+    //     0x93f578: bl              #0x747398  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_renderNotificationTemplate
     // 0x93f57c: mov             x3, x0
     // 0x93f580: ldur            x0, [fp, #-0x58]
     // 0x93f584: stur            x3, [fp, #-0x78]
@@ -9209,7 +9209,7 @@ abstract class NotificationHandler extends Object {
     //     0x93f58c: add             x1, x1, HEAP, lsl #32
     // 0x93f590: ldur            x2, [fp, #-0x20]
     // 0x93f594: r0 = _renderNotificationTemplate()
-    //     0x93f594: bl              #0x747398  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_renderNotificationTemplate
+    //     0x93f594: bl              #0x747398  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_renderNotificationTemplate
     // 0x93f598: mov             x1, x0
     // 0x93f59c: ldur            x2, [fp, #-0x60]
     // 0x93f5a0: ldur            x3, [fp, #-0x50]
@@ -9219,7 +9219,7 @@ abstract class NotificationHandler extends Object {
     // 0x93f5b0: r4 = const [0, 0x6, 0, 0x6, null]
     //     0x93f5b0: ldr             x4, [PP, #0x7400]  ; [pp+0x7400] List(5) [0, 0x6, 0, 0x6, Null]
     // 0x93f5b4: r0 = scheduleDelayed()
-    //     0x93f5b4: bl              #0x65bdc4  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::scheduleDelayed
+    //     0x93f5b4: bl              #0x65bdc4  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::scheduleDelayed
     // 0x93f5b8: mov             x1, x0
     // 0x93f5bc: stur            x1, [fp, #-0x58]
     // 0x93f5c0: r0 = Await()
@@ -9350,11 +9350,11 @@ abstract class NotificationHandler extends Object {
     //     0x93f714: add             x1, PP, #0x13, lsl #12  ; [pp+0x135c0] "streakExpiring"
     //     0x93f718: ldr             x1, [x1, #0x5c0]
     // 0x93f71c: r0 = _notificationFunnelSteps()
-    //     0x93f71c: bl              #0x7451b4  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_notificationFunnelSteps
+    //     0x93f71c: bl              #0x7451b4  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_notificationFunnelSteps
     // 0x93f720: ldur            x1, [fp, #-0x18]
     // 0x93f724: stur            x0, [fp, #-0x18]
     // 0x93f728: r0 = _recentAverageWorkoutStartSecondsFromMidnight()
-    //     0x93f728: bl              #0x7136f4  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight
+    //     0x93f728: bl              #0x7136f4  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_recentAverageWorkoutStartSecondsFromMidnight
     // 0x93f72c: mov             x1, x0
     // 0x93f730: stur            x1, [fp, #-0x20]
     // 0x93f734: r0 = Await()
@@ -9535,7 +9535,7 @@ abstract class NotificationHandler extends Object {
     //     0x93f938: bl              #0x5c96fc  ; [package:flutter/src/foundation/print.dart] ::debugPrintThrottled
     // 0x93f93c: ldur            x2, [fp, #-0x28]
     // 0x93f940: r1 = Function '<anonymous closure>': static.
-    //     0x93f940: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1afe0] AnonymousClosure: static (0x93f9ac), in [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_streakExpiringReminders (0x93f694)
+    //     0x93f940: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1afe0] AnonymousClosure: static (0x93f9ac), in [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_streakExpiringReminders (0x93f694)
     //     0x93f944: ldr             x1, [x1, #0xfe0]
     // 0x93f948: r0 = AllocateClosure()
     //     0x93f948: bl              #0xe553e0  ; AllocateClosureStub
@@ -9796,16 +9796,16 @@ abstract class NotificationHandler extends Object {
     //     0x93fc78: add             x1, PP, #0x13, lsl #12  ; [pp+0x135c0] "streakExpiring"
     //     0x93fc7c: ldr             x1, [x1, #0x5c0]
     // 0x93fc80: r0 = cancelNotificationFunnel()
-    //     0x93fc80: bl              #0x7448f0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelNotificationFunnel
+    //     0x93fc80: bl              #0x7448f0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelNotificationFunnel
     // 0x93fc84: mov             x1, x0
     // 0x93fc88: stur            x1, [fp, #-0x10]
     // 0x93fc8c: r0 = Await()
     //     0x93fc8c: bl              #0x60ad4c  ; AwaitStub
     // 0x93fc90: r0 = _legacyStreakExpiringIdentifiers()
-    //     0x93fc90: bl              #0x93fcb8  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_legacyStreakExpiringIdentifiers
+    //     0x93fc90: bl              #0x93fcb8  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_legacyStreakExpiringIdentifiers
     // 0x93fc94: mov             x1, x0
     // 0x93fc98: r0 = cancelIdentifiers()
-    //     0x93fc98: bl              #0x744a78  ; [package:ballai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::cancelIdentifiers
+    //     0x93fc98: bl              #0x744a78  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/local_notification_scheduler.dart] LocalNotificationScheduler::cancelIdentifiers
     // 0x93fc9c: mov             x1, x0
     // 0x93fca0: stur            x1, [fp, #-0x10]
     // 0x93fca4: r0 = Await()
@@ -9830,7 +9830,7 @@ abstract class NotificationHandler extends Object {
     //     0x93fcc8: cmp             SP, x16
     //     0x93fccc: b.ls            #0x93fd18
     // 0x93fcd0: r1 = Function '<anonymous closure>': static.
-    //     0x93fcd0: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1adc0] AnonymousClosure: static (0x93fd20), in [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_legacyStreakExpiringIdentifiers (0x93fcb8)
+    //     0x93fcd0: add             x1, PP, #0x1a, lsl #12  ; [pp+0x1adc0] AnonymousClosure: static (0x93fd20), in [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_legacyStreakExpiringIdentifiers (0x93fcb8)
     //     0x93fcd4: ldr             x1, [x1, #0xdc0]
     // 0x93fcd8: r2 = Null
     //     0x93fcd8: mov             x2, NULL
@@ -9877,7 +9877,7 @@ abstract class NotificationHandler extends Object {
     //     0x93fd38: add             x1, PP, #0x13, lsl #12  ; [pp+0x135c0] "streakExpiring"
     //     0x93fd3c: ldr             x1, [x1, #0x5c0]
     // 0x93fd40: r0 = _notificationFunnelIdentifier()
-    //     0x93fd40: bl              #0x745140  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_notificationFunnelIdentifier
+    //     0x93fd40: bl              #0x745140  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::_notificationFunnelIdentifier
     // 0x93fd44: LeaveFrame
     //     0x93fd44: mov             SP, fp
     //     0x93fd48: ldp             fp, lr, [SP], #0x10
@@ -9911,7 +9911,7 @@ abstract class NotificationHandler extends Object {
     // 0x98cd5c: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x98cd5c: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x98cd60: r0 = scheduleNotificationFunnel()
-    //     0x98cd60: bl              #0x746bb0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleNotificationFunnel
+    //     0x98cd60: bl              #0x746bb0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::scheduleNotificationFunnel
     // 0x98cd64: mov             x1, x0
     // 0x98cd68: stur            x1, [fp, #-0x10]
     // 0x98cd6c: r0 = Await()
@@ -9941,31 +9941,31 @@ abstract class NotificationHandler extends Object {
     //     0x9cc7a4: ldr             x0, [PP, #0x240]  ; [pp+0x240] TypeArguments: <void?>
     //     0x9cc7a8: bl              #0x60afc8  ; InitAsyncStub
     // 0x9cc7ac: r0 = cancelAccountSetupIncompleteFunnel()
-    //     0x9cc7ac: bl              #0x930278  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelAccountSetupIncompleteFunnel
+    //     0x9cc7ac: bl              #0x930278  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelAccountSetupIncompleteFunnel
     // 0x9cc7b0: mov             x1, x0
     // 0x9cc7b4: stur            x1, [fp, #-0x10]
     // 0x9cc7b8: r0 = Await()
     //     0x9cc7b8: bl              #0x60ad4c  ; AwaitStub
     // 0x9cc7bc: r0 = cancelFirstWorkoutIncompleteFunnel()
-    //     0x9cc7bc: bl              #0x93022c  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelFirstWorkoutIncompleteFunnel
+    //     0x9cc7bc: bl              #0x93022c  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelFirstWorkoutIncompleteFunnel
     // 0x9cc7c0: mov             x1, x0
     // 0x9cc7c4: stur            x1, [fp, #-0x10]
     // 0x9cc7c8: r0 = Await()
     //     0x9cc7c8: bl              #0x60ad4c  ; AwaitStub
     // 0x9cc7cc: r0 = cancelWorkoutReturnFunnel()
-    //     0x9cc7cc: bl              #0x74a15c  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelWorkoutReturnFunnel
+    //     0x9cc7cc: bl              #0x74a15c  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelWorkoutReturnFunnel
     // 0x9cc7d0: mov             x1, x0
     // 0x9cc7d4: stur            x1, [fp, #-0x10]
     // 0x9cc7d8: r0 = Await()
     //     0x9cc7d8: bl              #0x60ad4c  ; AwaitStub
     // 0x9cc7dc: r0 = cancelStreakExpiringFunnel()
-    //     0x9cc7dc: bl              #0x93fc24  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelStreakExpiringFunnel
+    //     0x9cc7dc: bl              #0x93fc24  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelStreakExpiringFunnel
     // 0x9cc7e0: mov             x1, x0
     // 0x9cc7e4: stur            x1, [fp, #-0x10]
     // 0x9cc7e8: r0 = Await()
     //     0x9cc7e8: bl              #0x60ad4c  ; AwaitStub
     // 0x9cc7ec: r0 = cancelFreeUserProFunnelNotifications()
-    //     0x9cc7ec: bl              #0x74488c  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelFreeUserProFunnelNotifications
+    //     0x9cc7ec: bl              #0x74488c  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelFreeUserProFunnelNotifications
     // 0x9cc7f0: mov             x1, x0
     // 0x9cc7f4: stur            x1, [fp, #-0x10]
     // 0x9cc7f8: r0 = Await()
@@ -9974,25 +9974,25 @@ abstract class NotificationHandler extends Object {
     //     0x9cc7fc: add             x4, PP, #0xc, lsl #12  ; [pp+0xc818] List(5) [0, 0, 0, 0, Null]
     //     0x9cc800: ldr             x4, [x4, #0x818]
     // 0x9cc804: r0 = cancelTrialExitOneTimeOffer()
-    //     0x9cc804: bl              #0x6beca4  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialExitOneTimeOffer
+    //     0x9cc804: bl              #0x6beca4  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialExitOneTimeOffer
     // 0x9cc808: mov             x1, x0
     // 0x9cc80c: stur            x1, [fp, #-0x10]
     // 0x9cc810: r0 = Await()
     //     0x9cc810: bl              #0x60ad4c  ; AwaitStub
     // 0x9cc814: r0 = cancelSubscriptionAtRiskFunnel()
-    //     0x9cc814: bl              #0x93bc7c  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelSubscriptionAtRiskFunnel
+    //     0x9cc814: bl              #0x93bc7c  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelSubscriptionAtRiskFunnel
     // 0x9cc818: mov             x1, x0
     // 0x9cc81c: stur            x1, [fp, #-0x10]
     // 0x9cc820: r0 = Await()
     //     0x9cc820: bl              #0x60ad4c  ; AwaitStub
     // 0x9cc824: r0 = cancelTrialNotStartedFunnel()
-    //     0x9cc824: bl              #0x93bed0  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialNotStartedFunnel
+    //     0x9cc824: bl              #0x93bed0  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialNotStartedFunnel
     // 0x9cc828: mov             x1, x0
     // 0x9cc82c: stur            x1, [fp, #-0x10]
     // 0x9cc830: r0 = Await()
     //     0x9cc830: bl              #0x60ad4c  ; AwaitStub
     // 0x9cc834: r0 = cancelTrialExpiredFunnel()
-    //     0x9cc834: bl              #0x93be84  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialExpiredFunnel
+    //     0x9cc834: bl              #0x93be84  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialExpiredFunnel
     // 0x9cc838: mov             x1, x0
     // 0x9cc83c: stur            x1, [fp, #-0x10]
     // 0x9cc840: r0 = Await()
@@ -10251,7 +10251,7 @@ abstract class NotificationHandler extends Object {
     //     0xaac85c: add             x4, PP, #0x14, lsl #12  ; [pp+0x14510] List(7) [0, 0x1, 0x1, 0, "userId", 0, Null]
     //     0xaac860: ldr             x4, [x4, #0x510]
     // 0xaac864: r0 = cancelTrialExitOneTimeOffer()
-    //     0xaac864: bl              #0x6beca4  ; [package:ballai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialExitOneTimeOffer
+    //     0xaac864: bl              #0x6beca4  ; [package:kourtai/automatic/app/dependencies/handlers/notifications/notification_handler.dart] NotificationHandler::cancelTrialExitOneTimeOffer
     // 0xaac868: mov             x1, x0
     // 0xaac86c: stur            x1, [fp, #-0x10]
     // 0xaac870: r0 = Await()

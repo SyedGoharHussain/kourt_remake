@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/shared/app/firebase/firebase_config.dart
+// lib: , url: package:kourtai/shared/app/firebase/firebase_config.dart
 
 // class id: 1049061, size: 0x8
 class :: {

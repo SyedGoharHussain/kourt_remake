@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/drills/leaderboard/drill_leaderboard_models.dart
+// lib: , url: package:kourtai/video_tracking/views/drills/leaderboard/drill_leaderboard_models.dart
 
 // class id: 1049213, size: 0x8
 class :: {
@@ -34,7 +34,7 @@ enum DrillLeaderboardWindow extends _Enum {
     //     0x5ef7c4: add             x1, PP, #0x27, lsl #12  ; [pp+0x272f0] "Today"
     //     0x5ef7c8: ldr             x1, [x1, #0x2f0]
     // 0x5ef7cc: r0 = L()
-    //     0x5ef7cc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x5ef7cc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x5ef7d0: LeaveFrame
     //     0x5ef7d0: mov             SP, fp
     //     0x5ef7d4: ldp             fp, lr, [SP], #0x10
@@ -44,7 +44,7 @@ enum DrillLeaderboardWindow extends _Enum {
     //     0x5ef7dc: add             x1, PP, #0x2a, lsl #12  ; [pp+0x2a448] "This week"
     //     0x5ef7e0: ldr             x1, [x1, #0x448]
     // 0x5ef7e4: r0 = L()
-    //     0x5ef7e4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x5ef7e4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x5ef7e8: LeaveFrame
     //     0x5ef7e8: mov             SP, fp
     //     0x5ef7ec: ldp             fp, lr, [SP], #0x10
@@ -56,7 +56,7 @@ enum DrillLeaderboardWindow extends _Enum {
     //     0x5ef7fc: add             x1, PP, #0x41, lsl #12  ; [pp+0x41528] "This month"
     //     0x5ef800: ldr             x1, [x1, #0x528]
     // 0x5ef804: r0 = L()
-    //     0x5ef804: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x5ef804: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x5ef808: LeaveFrame
     //     0x5ef808: mov             SP, fp
     //     0x5ef80c: ldp             fp, lr, [SP], #0x10
@@ -66,7 +66,7 @@ enum DrillLeaderboardWindow extends _Enum {
     //     0x5ef814: add             x1, PP, #0x41, lsl #12  ; [pp+0x41530] "All-time"
     //     0x5ef818: ldr             x1, [x1, #0x530]
     // 0x5ef81c: r0 = L()
-    //     0x5ef81c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x5ef81c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x5ef820: LeaveFrame
     //     0x5ef820: mov             SP, fp
     //     0x5ef824: ldp             fp, lr, [SP], #0x10
@@ -144,7 +144,7 @@ enum DrillLeaderboardMetric extends _Enum {
     //     0x5ed4e8: b.ls            #0x5ed540
     // 0x5ed4ec: mov             x1, x0
     // 0x5ed4f0: r0 = belongsToDribblingProductSurface()
-    //     0x5ed4f0: bl              #0x5edb70  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
+    //     0x5ed4f0: bl              #0x5edb70  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToDribblingProductSurface
     // 0x5ed4f4: tbnz            w0, #4, #0x5ed50c
     // 0x5ed4f8: r0 = const [Instance of 'DrillLeaderboardMetric', Instance of 'DrillLeaderboardMetric', Instance of 'DrillLeaderboardMetric', Instance of 'DrillLeaderboardMetric']
     //     0x5ed4f8: add             x0, PP, #0x34, lsl #12  ; [pp+0x34e40] List<DrillLeaderboardMetric>(4)
@@ -156,7 +156,7 @@ enum DrillLeaderboardMetric extends _Enum {
     //     0x5ed508: ret             
     // 0x5ed50c: ldur            x1, [fp, #-8]
     // 0x5ed510: r0 = belongsToFinishingProductSurface()
-    //     0x5ed510: bl              #0x5ed590  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToFinishingProductSurface
+    //     0x5ed510: bl              #0x5ed590  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToFinishingProductSurface
     // 0x5ed514: tbnz            w0, #4, #0x5ed52c
     // 0x5ed518: r0 = const [Instance of 'DrillLeaderboardMetric', Instance of 'DrillLeaderboardMetric', Instance of 'DrillLeaderboardMetric', Instance of 'DrillLeaderboardMetric', Instance of 'DrillLeaderboardMetric', Instance of 'DrillLeaderboardMetric']
     //     0x5ed518: add             x0, PP, #0x34, lsl #12  ; [pp+0x34e48] List<DrillLeaderboardMetric>(6)
@@ -201,7 +201,7 @@ enum DrillLeaderboardMetric extends _Enum {
     //     0x5ef878: add             x1, PP, #0x41, lsl #12  ; [pp+0x41538] "Total makes"
     //     0x5ef87c: ldr             x1, [x1, #0x538]
     // 0x5ef880: r0 = L()
-    //     0x5ef880: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x5ef880: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x5ef884: LeaveFrame
     //     0x5ef884: mov             SP, fp
     //     0x5ef888: ldp             fp, lr, [SP], #0x10
@@ -211,7 +211,7 @@ enum DrillLeaderboardMetric extends _Enum {
     //     0x5ef890: add             x1, PP, #0x41, lsl #12  ; [pp+0x41540] "Total shots"
     //     0x5ef894: ldr             x1, [x1, #0x540]
     // 0x5ef898: r0 = L()
-    //     0x5ef898: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x5ef898: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x5ef89c: LeaveFrame
     //     0x5ef89c: mov             SP, fp
     //     0x5ef8a0: ldp             fp, lr, [SP], #0x10
@@ -221,7 +221,7 @@ enum DrillLeaderboardMetric extends _Enum {
     //     0x5ef8a8: add             x1, PP, #0x41, lsl #12  ; [pp+0x41548] "Make percentage"
     //     0x5ef8ac: ldr             x1, [x1, #0x548]
     // 0x5ef8b0: r0 = L()
-    //     0x5ef8b0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x5ef8b0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x5ef8b4: LeaveFrame
     //     0x5ef8b4: mov             SP, fp
     //     0x5ef8b8: ldp             fp, lr, [SP], #0x10
@@ -233,7 +233,7 @@ enum DrillLeaderboardMetric extends _Enum {
     //     0x5ef8c8: add             x1, PP, #0x41, lsl #12  ; [pp+0x41550] "Time played"
     //     0x5ef8cc: ldr             x1, [x1, #0x550]
     // 0x5ef8d0: r0 = L()
-    //     0x5ef8d0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x5ef8d0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x5ef8d4: LeaveFrame
     //     0x5ef8d4: mov             SP, fp
     //     0x5ef8d8: ldp             fp, lr, [SP], #0x10
@@ -243,7 +243,7 @@ enum DrillLeaderboardMetric extends _Enum {
     //     0x5ef8e0: add             x1, PP, #0x41, lsl #12  ; [pp+0x41558] "Total workouts"
     //     0x5ef8e4: ldr             x1, [x1, #0x558]
     // 0x5ef8e8: r0 = L()
-    //     0x5ef8e8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x5ef8e8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x5ef8ec: LeaveFrame
     //     0x5ef8ec: mov             SP, fp
     //     0x5ef8f0: ldp             fp, lr, [SP], #0x10
@@ -257,7 +257,7 @@ enum DrillLeaderboardMetric extends _Enum {
     //     0x5ef908: add             x1, PP, #0x28, lsl #12  ; [pp+0x28d00] "Score"
     //     0x5ef90c: ldr             x1, [x1, #0xd00]
     // 0x5ef910: r0 = L()
-    //     0x5ef910: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x5ef910: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x5ef914: LeaveFrame
     //     0x5ef914: mov             SP, fp
     //     0x5ef918: ldp             fp, lr, [SP], #0x10
@@ -267,7 +267,7 @@ enum DrillLeaderboardMetric extends _Enum {
     //     0x5ef920: add             x1, PP, #0x41, lsl #12  ; [pp+0x41560] "Total dribbles"
     //     0x5ef924: ldr             x1, [x1, #0x560]
     // 0x5ef928: r0 = L()
-    //     0x5ef928: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0x5ef928: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0x5ef92c: LeaveFrame
     //     0x5ef92c: mov             SP, fp
     //     0x5ef930: ldp             fp, lr, [SP], #0x10

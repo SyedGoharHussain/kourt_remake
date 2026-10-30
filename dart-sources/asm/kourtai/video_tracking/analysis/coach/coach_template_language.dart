@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/analysis/coach/coach_template_language.dart
+// lib: , url: package:kourtai/video_tracking/analysis/coach/coach_template_language.dart
 
 // class id: 1049085, size: 0x8
 class :: {
@@ -19,7 +19,7 @@ abstract class CoachTemplateLanguage extends Object {
     //     0x6ff8e0: cmp             SP, x16
     //     0x6ff8e4: b.ls            #0x6ffa30
     // 0x6ff8e8: r0 = _effectiveLanguageCode()
-    //     0x6ff8e8: bl              #0x6ffa38  ; [package:ballai/video_tracking/analysis/coach/coach_template_language.dart] CoachTemplateLanguage::_effectiveLanguageCode
+    //     0x6ff8e8: bl              #0x6ffa38  ; [package:kourtai/video_tracking/analysis/coach/coach_template_language.dart] CoachTemplateLanguage::_effectiveLanguageCode
     // 0x6ff8ec: r1 = LoadClassIdInstr(r0)
     //     0x6ff8ec: ldur            x1, [x0, #-1]
     //     0x6ff8f0: ubfx            x1, x1, #0xc, #0x14

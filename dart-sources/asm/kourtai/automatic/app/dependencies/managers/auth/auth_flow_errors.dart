@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/managers/auth/auth_flow_errors.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/managers/auth/auth_flow_errors.dart
 
 // class id: 1048641, size: 0x8
 class :: {

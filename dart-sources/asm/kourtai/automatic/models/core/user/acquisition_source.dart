@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/user/acquisition_source.dart
+// lib: , url: package:kourtai/automatic/models/core/user/acquisition_source.dart
 
 // class id: 1048710, size: 0x8
 class :: {

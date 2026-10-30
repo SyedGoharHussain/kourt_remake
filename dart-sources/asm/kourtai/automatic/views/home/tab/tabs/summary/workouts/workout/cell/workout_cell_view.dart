@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart
+// lib: , url: package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart
 
 // class id: 1048890, size: 0x8
 class :: {
@@ -240,7 +240,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     // 0x8ec2e8: tbz             w0, #4, #0x8ec3d0
     // 0x8ec2ec: ldur            x1, [fp, #-0x18]
     // 0x8ec2f0: r0 = isAnalyzerWorkout()
-    //     0x8ec2f0: bl              #0x73e3e8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
+    //     0x8ec2f0: bl              #0x73e3e8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
     // 0x8ec2f4: tbnz            w0, #4, #0x8ec330
     // 0x8ec2f8: ldur            x0, [fp, #-8]
     // 0x8ec2fc: LoadField: r3 = r0->field_13
@@ -250,7 +250,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     // 0x8ec304: mov             x2, x0
     // 0x8ec308: stur            x3, [fp, #-0x18]
     // 0x8ec30c: r1 = Function '_onStore@1144256502':.
-    //     0x8ec30c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bda8] AnonymousClosure: (0x8ec730), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_onStore (0x8ec768)
+    //     0x8ec30c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bda8] AnonymousClosure: (0x8ec730), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_onStore (0x8ec768)
     //     0x8ec310: ldr             x1, [x1, #0xda8]
     // 0x8ec314: r0 = AllocateClosure()
     //     0x8ec314: bl              #0xe553e0  ; AllocateClosureStub
@@ -261,7 +261,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     // 0x8ec324: ldur            x1, [fp, #-0x18]
     // 0x8ec328: ldur            x2, [fp, #-0x10]
     // 0x8ec32c: r0 = stopListening()
-    //     0x8ec32c: bl              #0x8ec590  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::stopListening
+    //     0x8ec32c: bl              #0x8ec590  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::stopListening
     // 0x8ec330: ldur            x2, [fp, #-8]
     // 0x8ec334: LoadField: r0 = r2->field_b
     //     0x8ec334: ldur            w0, [x2, #0xb]
@@ -274,7 +274,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     // 0x8ec348: DecompressPointer r1
     //     0x8ec348: add             x1, x1, HEAP, lsl #32
     // 0x8ec34c: r0 = isAnalyzerWorkout()
-    //     0x8ec34c: bl              #0x73e3e8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
+    //     0x8ec34c: bl              #0x73e3e8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
     // 0x8ec350: tbnz            w0, #4, #0x8ec3d0
     // 0x8ec354: ldur            x2, [fp, #-8]
     // 0x8ec358: LoadField: r0 = r2->field_b
@@ -288,7 +288,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     // 0x8ec36c: DecompressPointer r1
     //     0x8ec36c: add             x1, x1, HEAP, lsl #32
     // 0x8ec370: r0 = isLive()
-    //     0x8ec370: bl              #0x8ec3f8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isLive
+    //     0x8ec370: bl              #0x8ec3f8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isLive
     // 0x8ec374: tbz             w0, #4, #0x8ec3d0
     // 0x8ec378: ldur            x0, [fp, #-8]
     // 0x8ec37c: LoadField: r3 = r0->field_13
@@ -298,7 +298,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     // 0x8ec384: mov             x2, x0
     // 0x8ec388: stur            x3, [fp, #-0x10]
     // 0x8ec38c: r1 = Function '_onStore@1144256502':.
-    //     0x8ec38c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bda8] AnonymousClosure: (0x8ec730), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_onStore (0x8ec768)
+    //     0x8ec38c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bda8] AnonymousClosure: (0x8ec730), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_onStore (0x8ec768)
     //     0x8ec390: ldr             x1, [x1, #0xda8]
     // 0x8ec394: r0 = AllocateClosure()
     //     0x8ec394: bl              #0xe553e0  ; AllocateClosureStub
@@ -323,7 +323,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     //     0x8ec3c4: add             x2, x2, HEAP, lsl #32
     // 0x8ec3c8: ldur            x1, [fp, #-0x10]
     // 0x8ec3cc: r0 = startListening()
-    //     0x8ec3cc: bl              #0x73b164  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::startListening
+    //     0x8ec3cc: bl              #0x73b164  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::startListening
     // 0x8ec3d0: r0 = Null
     //     0x8ec3d0: mov             x0, NULL
     // 0x8ec3d4: LeaveFrame
@@ -358,7 +358,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     //     0x8ec748: cmp             SP, x16
     //     0x8ec74c: b.ls            #0x8ec760
     // 0x8ec750: r0 = _onStore()
-    //     0x8ec750: bl              #0x8ec768  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_onStore
+    //     0x8ec750: bl              #0x8ec768  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_onStore
     // 0x8ec754: LeaveFrame
     //     0x8ec754: mov             SP, fp
     //     0x8ec758: ldp             fp, lr, [SP], #0x10
@@ -435,7 +435,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     // 0x95b428: DecompressPointer r1
     //     0x95b428: add             x1, x1, HEAP, lsl #32
     // 0x95b42c: r0 = isAnalyzerWorkout()
-    //     0x95b42c: bl              #0x73e3e8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
+    //     0x95b42c: bl              #0x73e3e8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
     // 0x95b430: tbnz            w0, #4, #0x95b4b0
     // 0x95b434: ldur            x2, [fp, #-8]
     // 0x95b438: LoadField: r0 = r2->field_b
@@ -449,7 +449,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     // 0x95b44c: DecompressPointer r1
     //     0x95b44c: add             x1, x1, HEAP, lsl #32
     // 0x95b450: r0 = isLive()
-    //     0x95b450: bl              #0x8ec3f8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isLive
+    //     0x95b450: bl              #0x8ec3f8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isLive
     // 0x95b454: tbz             w0, #4, #0x95b4b0
     // 0x95b458: ldur            x0, [fp, #-8]
     // 0x95b45c: LoadField: r3 = r0->field_13
@@ -459,7 +459,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     // 0x95b464: mov             x2, x0
     // 0x95b468: stur            x3, [fp, #-0x10]
     // 0x95b46c: r1 = Function '_onStore@1144256502':.
-    //     0x95b46c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bda8] AnonymousClosure: (0x8ec730), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_onStore (0x8ec768)
+    //     0x95b46c: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bda8] AnonymousClosure: (0x8ec730), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_onStore (0x8ec768)
     //     0x95b470: ldr             x1, [x1, #0xda8]
     // 0x95b474: r0 = AllocateClosure()
     //     0x95b474: bl              #0xe553e0  ; AllocateClosureStub
@@ -484,7 +484,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     //     0x95b4a4: add             x2, x2, HEAP, lsl #32
     // 0x95b4a8: ldur            x1, [fp, #-0x10]
     // 0x95b4ac: r0 = startListening()
-    //     0x95b4ac: bl              #0x73b164  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::startListening
+    //     0x95b4ac: bl              #0x73b164  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::startListening
     // 0x95b4b0: r0 = Null
     //     0x95b4b0: mov             x0, NULL
     // 0x95b4b4: LeaveFrame
@@ -519,12 +519,12 @@ class _WorkoutCellViewState extends State<dynamic> {
     //     0xa32c60: cmp             SP, x16
     //     0xa32c64: b.ls            #0xa33704
     // 0xa32c68: mov             x1, x0
-    // 0xa32c6c: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xa32c6c: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xa32c6c: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xa32c6c: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xa32c70: ldur            x1, [fp, #-8]
     // 0xa32c74: stur            x0, [fp, #-0x18]
     // 0xa32c78: r0 = _progressSubtitle()
-    //     0xa32c78: bl              #0xa33d54  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_progressSubtitle
+    //     0xa32c78: bl              #0xa33d54  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_progressSubtitle
     // 0xa32c7c: ldur            x1, [fp, #-8]
     // 0xa32c80: stur            x0, [fp, #-0x30]
     // 0xa32c84: LoadField: r2 = r1->field_b
@@ -568,8 +568,8 @@ class _WorkoutCellViewState extends State<dynamic> {
     //     0xa32ce4: add             x3, x3, HEAP, lsl #32
     // 0xa32ce8: ldur            x1, [fp, #-0x10]
     // 0xa32cec: stur            x3, [fp, #-0x38]
-    // 0xa32cf0: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa32cf0: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa32cf0: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa32cf0: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa32cf4: stur            x0, [fp, #-0x28]
     // 0xa32cf8: r0 = TextStyle()
     //     0xa32cf8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -631,7 +631,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     // 0xa32d8c: b.eq            #0xa32e38
     // 0xa32d90: ldur            x1, [fp, #-8]
     // 0xa32d94: r0 = _subtitleColor()
-    //     0xa32d94: bl              #0xa33be4  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_subtitleColor
+    //     0xa32d94: bl              #0xa33be4  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_subtitleColor
     // 0xa32d98: stur            x0, [fp, #-0x38]
     // 0xa32d9c: r0 = TextStyle()
     //     0xa32d9c: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -793,8 +793,8 @@ class _WorkoutCellViewState extends State<dynamic> {
     //     0xa32f24: bl              #0x5cfc10  ; [dart:core] _StringBase::substring
     // 0xa32f28: ldur            x1, [fp, #-0x10]
     // 0xa32f2c: stur            x0, [fp, #-0x10]
-    // 0xa32f30: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xa32f30: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xa32f30: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xa32f30: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xa32f34: stur            x0, [fp, #-0x38]
     // 0xa32f38: r0 = TextStyle()
     //     0xa32f38: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -982,7 +982,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     // 0xa33128: DecompressPointer r1
     //     0xa33128: add             x1, x1, HEAP, lsl #32
     // 0xa3312c: r0 = _ampm()
-    //     0xa3312c: bl              #0x83f224  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_ampm
+    //     0xa3312c: bl              #0x83f224  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_ampm
     // 0xa33130: stur            x0, [fp, #-0x30]
     // 0xa33134: r0 = TextStyle()
     //     0xa33134: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1026,7 +1026,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     // 0xa33198: DecompressPointer r1
     //     0xa33198: add             x1, x1, HEAP, lsl #32
     // 0xa3319c: r0 = _dateLabel()
-    //     0xa3319c: bl              #0xa33720  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_dateLabel
+    //     0xa3319c: bl              #0xa33720  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_dateLabel
     // 0xa331a0: stur            x0, [fp, #-0x30]
     // 0xa331a4: r0 = TextStyle()
     //     0xa331a4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1193,8 +1193,8 @@ class _WorkoutCellViewState extends State<dynamic> {
     // 0xa33338: ldur            x5, [fp, #-0x18]
     // 0xa3333c: StoreField: r1->field_b = r5
     //     0xa3333c: stur            w5, [x1, #0xb]
-    // 0xa33340: r0 = BallAiLiquidGlassCard()
-    //     0xa33340: bl              #0x9e4b64  ; AllocateBallAiLiquidGlassCardStub -> BallAiLiquidGlassCard (size=0x24)
+    // 0xa33340: r0 = KourtAiLiquidGlassCard()
+    //     0xa33340: bl              #0x9e4b64  ; AllocateKourtAiLiquidGlassCardStub -> KourtAiLiquidGlassCard (size=0x24)
     // 0xa33344: mov             x3, x0
     // 0xa33348: ldur            x0, [fp, #-0x10]
     // 0xa3334c: stur            x3, [fp, #-0x18]
@@ -1250,7 +1250,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     //     0xa333c4: add             x0, x0, HEAP, lsl #32
     // 0xa333c8: mov             x1, x0
     // 0xa333cc: r0 = isLive()
-    //     0xa333cc: bl              #0x8ec3f8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isLive
+    //     0xa333cc: bl              #0x8ec3f8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isLive
     // 0xa333d0: tbnz            w0, #4, #0xa336c4
     // 0xa333d4: ldur            x0, [fp, #-0x18]
     // 0xa333d8: r16 = 0.900000
@@ -1356,7 +1356,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     //     0xa334d8: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bd68] "LIVE"
     //     0xa334dc: ldr             x1, [x1, #0xd68]
     // 0xa334e0: r0 = L()
-    //     0xa334e0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xa334e0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xa334e4: stur            x0, [fp, #-0x28]
     // 0xa334e8: r0 = TextStyle()
     //     0xa334e8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -2025,10 +2025,10 @@ class _WorkoutCellViewState extends State<dynamic> {
     // 0xa33c0c: DecompressPointer r1
     //     0xa33c0c: add             x1, x1, HEAP, lsl #32
     // 0xa33c10: r0 = workoutPrimaryCategoryKey()
-    //     0xa33c10: bl              #0xa33ca0  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::workoutPrimaryCategoryKey
+    //     0xa33c10: bl              #0xa33ca0  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::workoutPrimaryCategoryKey
     // 0xa33c14: mov             x1, x0
     // 0xa33c18: r0 = accentColor()
-    //     0xa33c18: bl              #0xa33c34  ; [package:ballai/video_tracking/views/drills/widgets/drill_library_category_item.dart] DrillPrimaryCategory::accentColor
+    //     0xa33c18: bl              #0xa33c34  ; [package:kourtai/video_tracking/views/drills/widgets/drill_library_category_item.dart] DrillPrimaryCategory::accentColor
     // 0xa33c1c: LeaveFrame
     //     0xa33c1c: mov             SP, fp
     //     0xa33c20: ldp             fp, lr, [SP], #0x10
@@ -2066,7 +2066,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     //     0xa33d88: add             x2, x2, HEAP, lsl #32
     // 0xa33d8c: mov             x1, x2
     // 0xa33d90: r0 = isAnalyzerWorkout()
-    //     0xa33d90: bl              #0x73e3e8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
+    //     0xa33d90: bl              #0x73e3e8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
     // 0xa33d94: tbnz            w0, #4, #0xa33e34
     // 0xa33d98: ldur            x0, [fp, #-8]
     // 0xa33d9c: LoadField: r1 = r0->field_13
@@ -2088,7 +2088,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     // 0xa33dc0: DecompressPointer r2
     //     0xa33dc0: add             x2, x2, HEAP, lsl #32
     // 0xa33dc4: r0 = stateFor()
-    //     0xa33dc4: bl              #0x9606cc  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::stateFor
+    //     0xa33dc4: bl              #0x9606cc  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::stateFor
     // 0xa33dc8: r1 = LoadClassIdInstr(r0)
     //     0xa33dc8: ldur            x1, [x0, #-1]
     //     0xa33dcc: ubfx            x1, x1, #0xc, #0x14
@@ -2119,7 +2119,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     //     0xa33e0c: add             x1, x1, HEAP, lsl #32
     // 0xa33e10: mov             v0.16b, v1.16b
     // 0xa33e14: r0 = formattedAnalyzerCellScore()
-    //     0xa33e14: bl              #0xa346cc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::formattedAnalyzerCellScore
+    //     0xa33e14: bl              #0xa346cc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::formattedAnalyzerCellScore
     // 0xa33e18: LeaveFrame
     //     0xa33e18: mov             SP, fp
     //     0xa33e1c: ldp             fp, lr, [SP], #0x10
@@ -2131,7 +2131,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     // 0xa33e30: b               #0xa33e38
     // 0xa33e34: ldur            x1, [fp, #-8]
     // 0xa33e38: r0 = _legacyProgressSubtitle()
-    //     0xa33e38: bl              #0xa33e5c  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_legacyProgressSubtitle
+    //     0xa33e38: bl              #0xa33e5c  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_legacyProgressSubtitle
     // 0xa33e3c: LeaveFrame
     //     0xa33e3c: mov             SP, fp
     //     0xa33e40: ldp             fp, lr, [SP], #0x10
@@ -2173,7 +2173,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     //     0xa33e90: add             x2, x2, HEAP, lsl #32
     // 0xa33e94: mov             x1, x2
     // 0xa33e98: r0 = isDribblingWorkout()
-    //     0xa33e98: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0xa33e98: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0xa33e9c: tbnz            w0, #4, #0xa33ed0
     // 0xa33ea0: ldur            x0, [fp, #-8]
     // 0xa33ea4: LoadField: r1 = r0->field_b
@@ -2188,7 +2188,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     //     0xa33eb8: add             x0, x0, HEAP, lsl #32
     // 0xa33ebc: mov             x1, x0
     // 0xa33ec0: r0 = formattedDribbleCellProgress()
-    //     0xa33ec0: bl              #0xa3460c  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::formattedDribbleCellProgress
+    //     0xa33ec0: bl              #0xa3460c  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::formattedDribbleCellProgress
     // 0xa33ec4: LeaveFrame
     //     0xa33ec4: mov             SP, fp
     //     0xa33ec8: ldp             fp, lr, [SP], #0x10
@@ -2221,7 +2221,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     //     0xa33f08: ret             
     // 0xa33f0c: mov             x1, x0
     // 0xa33f10: r0 = formattedProgressSubtitle()
-    //     0xa33f10: bl              #0xa33f34  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::formattedProgressSubtitle
+    //     0xa33f10: bl              #0xa33f34  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::formattedProgressSubtitle
     // 0xa33f14: LeaveFrame
     //     0xa33f14: mov             SP, fp
     //     0xa33f18: ldp             fp, lr, [SP], #0x10
@@ -2244,7 +2244,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     //     0xb5b02c: mov             fp, SP
     // 0xb5b030: ldr             x2, [fp, #0x10]
     // 0xb5b034: r1 = Function 'dispose':.
-    //     0xb5b034: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bd48] AnonymousClosure: (0xb5b04c), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::dispose (0xb61dfc)
+    //     0xb5b034: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bd48] AnonymousClosure: (0xb5b04c), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::dispose (0xb61dfc)
     //     0xb5b038: ldr             x1, [x1, #0xd48]
     // 0xb5b03c: r0 = AllocateClosure()
     //     0xb5b03c: bl              #0xe553e0  ; AllocateClosureStub
@@ -2269,7 +2269,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     //     0xb5b064: cmp             SP, x16
     //     0xb5b068: b.ls            #0xb5b07c
     // 0xb5b06c: r0 = dispose()
-    //     0xb5b06c: bl              #0xb61dfc  ; [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::dispose
+    //     0xb5b06c: bl              #0xb61dfc  ; [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::dispose
     // 0xb5b070: LeaveFrame
     //     0xb5b070: mov             SP, fp
     //     0xb5b074: ldp             fp, lr, [SP], #0x10
@@ -2304,7 +2304,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     // 0xb61e30: DecompressPointer r1
     //     0xb61e30: add             x1, x1, HEAP, lsl #32
     // 0xb61e34: r0 = isAnalyzerWorkout()
-    //     0xb61e34: bl              #0x73e3e8  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
+    //     0xb61e34: bl              #0x73e3e8  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isAnalyzerWorkout
     // 0xb61e38: tbnz            w0, #4, #0xb61e94
     // 0xb61e3c: ldur            x0, [fp, #-8]
     // 0xb61e40: LoadField: r3 = r0->field_13
@@ -2314,7 +2314,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     // 0xb61e48: mov             x2, x0
     // 0xb61e4c: stur            x3, [fp, #-0x10]
     // 0xb61e50: r1 = Function '_onStore@1144256502':.
-    //     0xb61e50: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bda8] AnonymousClosure: (0x8ec730), in [package:ballai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_onStore (0x8ec768)
+    //     0xb61e50: add             x1, PP, #0x3b, lsl #12  ; [pp+0x3bda8] AnonymousClosure: (0x8ec730), in [package:kourtai/automatic/views/home/tab/tabs/summary/workouts/workout/cell/workout_cell_view.dart] _WorkoutCellViewState::_onStore (0x8ec768)
     //     0xb61e54: ldr             x1, [x1, #0xda8]
     // 0xb61e58: r0 = AllocateClosure()
     //     0xb61e58: bl              #0xe553e0  ; AllocateClosureStub
@@ -2339,7 +2339,7 @@ class _WorkoutCellViewState extends State<dynamic> {
     //     0xb61e88: add             x2, x2, HEAP, lsl #32
     // 0xb61e8c: ldur            x1, [fp, #-0x10]
     // 0xb61e90: r0 = stopListening()
-    //     0xb61e90: bl              #0x8ec590  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::stopListening
+    //     0xb61e90: bl              #0x8ec590  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::stopListening
     // 0xb61e94: r0 = Null
     //     0xb61e94: mov             x0, NULL
     // 0xb61e98: LeaveFrame
@@ -2372,7 +2372,7 @@ class WorkoutCellView extends StatefulWidget {
     //     0xb733e8: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0xb733ec: cmp             SP, x16
     //     0xb733f0: b.ls            #0xb73438
-    // 0xb733f4: r0 = InitLateStaticField(0xf2c) // [package:ballai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::instance
+    // 0xb733f4: r0 = InitLateStaticField(0xf2c) // [package:kourtai/video_tracking/analysis/coach/bally_breakdown_store.dart] BallyBreakdownStore::instance
     //     0xb733f4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0xb733f8: ldr             x0, [x0, #0x1e58]
     //     0xb733fc: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel

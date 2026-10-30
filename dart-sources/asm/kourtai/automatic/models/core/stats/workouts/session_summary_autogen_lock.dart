@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/models/core/stats/workouts/session_summary_autogen_lock.dart
+// lib: , url: package:kourtai/automatic/models/core/stats/workouts/session_summary_autogen_lock.dart
 
 // class id: 1048696, size: 0x8
 class :: {

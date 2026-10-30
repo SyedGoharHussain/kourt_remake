@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/models/shooting_phase.dart
+// lib: , url: package:kourtai/video_tracking/models/shooting_phase.dart
 
 // class id: 1049148, size: 0x8
 class :: {

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/views/components/home/account/subscription_banner.dart
+// lib: , url: package:kourtai/automatic/views/components/home/account/subscription_banner.dart
 
 // class id: 1048797, size: 0x8
 class :: {
@@ -34,7 +34,7 @@ class :: {
     //     0x9d3444: ret             
     // 0x9d3448: mov             x1, x0
     // 0x9d344c: r0 = hasGrantedProAccess()
-    //     0x9d344c: bl              #0x651380  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::hasGrantedProAccess
+    //     0x9d344c: bl              #0x651380  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::hasGrantedProAccess
     // 0x9d3450: tbnz            w0, #4, #0x9d3464
     // 0x9d3454: r0 = Null
     //     0x9d3454: mov             x0, NULL
@@ -44,12 +44,12 @@ class :: {
     // 0x9d3460: ret
     //     0x9d3460: ret             
     // 0x9d3464: ldur            x1, [fp, #-8]
-    // 0x9d3468: r0 = hasActiveRenewingBallAiProEntitlement()
-    //     0x9d3468: bl              #0x659d58  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveRenewingBallAiProEntitlement
+    // 0x9d3468: r0 = hasActiveRenewingKourtAiProEntitlement()
+    //     0x9d3468: bl              #0x659d58  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveRenewingKourtAiProEntitlement
     // 0x9d346c: tbnz            w0, #4, #0x9d3490
     // 0x9d3470: ldur            x1, [fp, #-8]
-    // 0x9d3474: r0 = isOnActiveMonthlyBallAiProProduct()
-    //     0x9d3474: bl              #0x9d351c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isOnActiveMonthlyBallAiProProduct
+    // 0x9d3474: r0 = isOnActiveMonthlyKourtAiProProduct()
+    //     0x9d3474: bl              #0x9d351c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isOnActiveMonthlyKourtAiProProduct
     // 0x9d3478: tbnz            w0, #4, #0x9d3490
     // 0x9d347c: r0 = Instance_SubscriptionBannerState
     //     0x9d347c: add             x0, PP, #0x38, lsl #12  ; [pp+0x38578] Obj!SubscriptionBannerState@d3a6c1
@@ -60,8 +60,8 @@ class :: {
     // 0x9d348c: ret
     //     0x9d348c: ret             
     // 0x9d3490: ldur            x1, [fp, #-8]
-    // 0x9d3494: r0 = hasActiveRenewingBallAiProEntitlement()
-    //     0x9d3494: bl              #0x659d58  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveRenewingBallAiProEntitlement
+    // 0x9d3494: r0 = hasActiveRenewingKourtAiProEntitlement()
+    //     0x9d3494: bl              #0x659d58  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveRenewingKourtAiProEntitlement
     // 0x9d3498: tbnz            w0, #4, #0x9d34ac
     // 0x9d349c: r0 = Null
     //     0x9d349c: mov             x0, NULL
@@ -72,7 +72,7 @@ class :: {
     //     0x9d34a8: ret             
     // 0x9d34ac: ldur            x1, [fp, #-0x10]
     // 0x9d34b0: r0 = isPayingSubscriber()
-    //     0x9d34b0: bl              #0x651314  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
+    //     0x9d34b0: bl              #0x651314  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isPayingSubscriber
     // 0x9d34b4: tbnz            w0, #4, #0x9d34c8
     // 0x9d34b8: r0 = Null
     //     0x9d34b8: mov             x0, NULL
@@ -83,7 +83,7 @@ class :: {
     //     0x9d34c4: ret             
     // 0x9d34c8: ldur            x1, [fp, #-8]
     // 0x9d34cc: r0 = hasEligibleIntroOffer()
-    //     0x9d34cc: bl              #0x93b8c4  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasEligibleIntroOffer
+    //     0x9d34cc: bl              #0x93b8c4  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasEligibleIntroOffer
     // 0x9d34d0: tbnz            w0, #4, #0x9d34e8
     // 0x9d34d4: r0 = Instance_SubscriptionBannerState
     //     0x9d34d4: add             x0, PP, #0x38, lsl #12  ; [pp+0x38580] Obj!SubscriptionBannerState@d3a6a1
@@ -95,7 +95,7 @@ class :: {
     //     0x9d34e4: ret             
     // 0x9d34e8: ldur            x1, [fp, #-0x10]
     // 0x9d34ec: r0 = isExpiredAppStoreFreeTrial()
-    //     0x9d34ec: bl              #0x659bd8  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isExpiredAppStoreFreeTrial
+    //     0x9d34ec: bl              #0x659bd8  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::isExpiredAppStoreFreeTrial
     // 0x9d34f0: tbnz            w0, #4, #0x9d3500
     // 0x9d34f4: r0 = Instance_SubscriptionBannerState
     //     0x9d34f4: add             x0, PP, #0x38, lsl #12  ; [pp+0x38588] Obj!SubscriptionBannerState@d3a681
@@ -148,8 +148,8 @@ class :: {
     // 0x9d361c: ret
     //     0x9d361c: ret             
     // 0x9d3620: mov             x1, x2
-    // 0x9d3624: r0 = hasActiveBallAiProBillingIssue()
-    //     0x9d3624: bl              #0x8e9064  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveBallAiProBillingIssue
+    // 0x9d3624: r0 = hasActiveKourtAiProBillingIssue()
+    //     0x9d3624: bl              #0x8e9064  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveKourtAiProBillingIssue
     // 0x9d3628: tbnz            w0, #4, #0x9d3640
     // 0x9d362c: r0 = Instance_SubscriptionBannerState
     //     0x9d362c: add             x0, PP, #0x38, lsl #12  ; [pp+0x38598] Obj!SubscriptionBannerState@d3a721
@@ -160,8 +160,8 @@ class :: {
     // 0x9d363c: ret
     //     0x9d363c: ret             
     // 0x9d3640: ldur            x1, [fp, #-0x20]
-    // 0x9d3644: r0 = hasActiveCancelledRenewalBallAiPro()
-    //     0x9d3644: bl              #0x8e8f74  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveCancelledRenewalBallAiPro
+    // 0x9d3644: r0 = hasActiveCancelledRenewalKourtAiPro()
+    //     0x9d3644: bl              #0x8e8f74  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveCancelledRenewalKourtAiPro
     // 0x9d3648: tbnz            w0, #4, #0x9d36e8
     // 0x9d364c: ldur            x0, [fp, #-0x20]
     // 0x9d3650: LoadField: r1 = r0->field_4f
@@ -225,7 +225,7 @@ class :: {
     // 0x9d36e8: ldur            x0, [fp, #-0x20]
     // 0x9d36ec: ldur            x1, [fp, #-0x28]
     // 0x9d36f0: r0 = hasGrantedProAccess()
-    //     0x9d36f0: bl              #0x651380  ; [package:ballai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::hasGrantedProAccess
+    //     0x9d36f0: bl              #0x651380  ; [package:kourtai/automatic/app/dependencies/managers/auth/user_manager.dart] UserManager::hasGrantedProAccess
     // 0x9d36f4: tbnz            w0, #4, #0x9d3708
     // 0x9d36f8: r0 = Null
     //     0x9d36f8: mov             x0, NULL
@@ -235,12 +235,12 @@ class :: {
     // 0x9d3704: ret
     //     0x9d3704: ret             
     // 0x9d3708: ldur            x1, [fp, #-0x20]
-    // 0x9d370c: r0 = hasActiveRenewingBallAiProEntitlement()
-    //     0x9d370c: bl              #0x659d58  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveRenewingBallAiProEntitlement
+    // 0x9d370c: r0 = hasActiveRenewingKourtAiProEntitlement()
+    //     0x9d370c: bl              #0x659d58  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveRenewingKourtAiProEntitlement
     // 0x9d3710: tbnz            w0, #4, #0x9d373c
     // 0x9d3714: ldur            x1, [fp, #-0x20]
-    // 0x9d3718: r0 = isOnActiveMonthlyBallAiProProduct()
-    //     0x9d3718: bl              #0x9d351c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isOnActiveMonthlyBallAiProProduct
+    // 0x9d3718: r0 = isOnActiveMonthlyKourtAiProProduct()
+    //     0x9d3718: bl              #0x9d351c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isOnActiveMonthlyKourtAiProProduct
     // 0x9d371c: tbnz            w0, #4, #0x9d373c
     // 0x9d3720: ldur            x1, [fp, #-0x18]
     // 0x9d3724: tbz             w1, #4, #0x9d373c
@@ -306,7 +306,7 @@ class _SubscriptionBannerSlotState extends State<dynamic> {
     // 0x941294: mov             x2, x1
     // 0x941298: stur            x0, [fp, #-8]
     // 0x94129c: r1 = Function '<anonymous closure>':.
-    //     0x94129c: add             x1, PP, #0x38, lsl #12  ; [pp+0x385b0] AnonymousClosure: (0x941390), in [package:ballai/automatic/views/components/home/account/subscription_banner.dart] _SubscriptionBannerSlotState::initState (0x941240)
+    //     0x94129c: add             x1, PP, #0x38, lsl #12  ; [pp+0x385b0] AnonymousClosure: (0x941390), in [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] _SubscriptionBannerSlotState::initState (0x941240)
     //     0x9412a0: ldr             x1, [x1, #0x5b0]
     // 0x9412a4: r0 = AllocateClosure()
     //     0x9412a4: bl              #0xe553e0  ; AllocateClosureStub
@@ -403,7 +403,7 @@ class _SubscriptionBannerSlotState extends State<dynamic> {
     //     0x9413b4: add             x0, x0, HEAP, lsl #32
     // 0x9413b8: mov             x1, x0
     // 0x9413bc: r0 = _refreshDismissFlags()
-    //     0x9413bc: bl              #0x9413d8  ; [package:ballai/automatic/views/components/home/account/subscription_banner.dart] _SubscriptionBannerSlotState::_refreshDismissFlags
+    //     0x9413bc: bl              #0x9413d8  ; [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] _SubscriptionBannerSlotState::_refreshDismissFlags
     // 0x9413c0: r0 = Null
     //     0x9413c0: mov             x0, NULL
     // 0x9413c4: LeaveFrame
@@ -484,7 +484,7 @@ class _SubscriptionBannerSlotState extends State<dynamic> {
     // 0x941484: b.eq            #0x9414a4
     // 0x941488: ldur            x2, [fp, #-0x18]
     // 0x94148c: r1 = Function '<anonymous closure>':.
-    //     0x94148c: add             x1, PP, #0x38, lsl #12  ; [pp+0x385c8] AnonymousClosure: (0x941918), in [package:ballai/automatic/views/components/home/account/subscription_banner.dart] _SubscriptionBannerSlotState::_refreshDismissFlags (0x9413d8)
+    //     0x94148c: add             x1, PP, #0x38, lsl #12  ; [pp+0x385c8] AnonymousClosure: (0x941918), in [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] _SubscriptionBannerSlotState::_refreshDismissFlags (0x9413d8)
     //     0x941490: ldr             x1, [x1, #0x5c8]
     // 0x941494: r0 = AllocateClosure()
     //     0x941494: bl              #0xe553e0  ; AllocateClosureStub
@@ -511,7 +511,7 @@ class _SubscriptionBannerSlotState extends State<dynamic> {
     // 0x9414cc: mov             x1, x2
     // 0x9414d0: mov             x2, x0
     // 0x9414d4: r0 = isYearlyUpsellDismissed()
-    //     0x9414d4: bl              #0x9417e4  ; [package:ballai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::isYearlyUpsellDismissed
+    //     0x9414d4: bl              #0x9417e4  ; [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::isYearlyUpsellDismissed
     // 0x9414d8: mov             x1, x0
     // 0x9414dc: stur            x1, [fp, #-0x28]
     // 0x9414e0: r0 = Await()
@@ -540,7 +540,7 @@ class _SubscriptionBannerSlotState extends State<dynamic> {
     // 0x941524: mov             x1, x2
     // 0x941528: ldur            x2, [fp, #-0x20]
     // 0x94152c: r0 = isCancelledTrialWinBackDismissed()
-    //     0x94152c: bl              #0x9416f8  ; [package:ballai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::isCancelledTrialWinBackDismissed
+    //     0x94152c: bl              #0x9416f8  ; [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::isCancelledTrialWinBackDismissed
     // 0x941530: mov             x1, x0
     // 0x941534: stur            x1, [fp, #-0x28]
     // 0x941538: r0 = Await()
@@ -569,7 +569,7 @@ class _SubscriptionBannerSlotState extends State<dynamic> {
     // 0x94157c: mov             x1, x2
     // 0x941580: ldur            x2, [fp, #-0x20]
     // 0x941584: r0 = isCancelledRenewalDismissed()
-    //     0x941584: bl              #0x94160c  ; [package:ballai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::isCancelledRenewalDismissed
+    //     0x941584: bl              #0x94160c  ; [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::isCancelledRenewalDismissed
     // 0x941588: mov             x1, x0
     // 0x94158c: stur            x1, [fp, #-0x20]
     // 0x941590: r0 = Await()
@@ -596,7 +596,7 @@ class _SubscriptionBannerSlotState extends State<dynamic> {
     // 0x9415d0: r0 = ReturnAsyncNotFuture()
     //     0x9415d0: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x9415d4: r1 = Function '<anonymous closure>':.
-    //     0x9415d4: add             x1, PP, #0x38, lsl #12  ; [pp+0x385d0] AnonymousClosure: (0x9418d0), in [package:ballai/automatic/views/components/home/account/subscription_banner.dart] _SubscriptionBannerSlotState::_refreshDismissFlags (0x9413d8)
+    //     0x9415d4: add             x1, PP, #0x38, lsl #12  ; [pp+0x385d0] AnonymousClosure: (0x9418d0), in [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] _SubscriptionBannerSlotState::_refreshDismissFlags (0x9413d8)
     //     0x9415d8: ldr             x1, [x1, #0x5d0]
     // 0x9415dc: r0 = AllocateClosure()
     //     0x9415dc: bl              #0xe553e0  ; AllocateClosureStub
@@ -758,7 +758,7 @@ class _SubscriptionBannerSlotState extends State<dynamic> {
     // 0x9d30e4: mov             x5, x4
     // 0x9d30e8: ldur            x6, [fp, #-0x20]
     // 0x9d30ec: r0 = resolveSubscriptionBannerState()
-    //     0x9d30ec: bl              #0x9d35c4  ; [package:ballai/automatic/views/components/home/account/subscription_banner.dart] ::resolveSubscriptionBannerState
+    //     0x9d30ec: bl              #0x9d35c4  ; [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] ::resolveSubscriptionBannerState
     // 0x9d30f0: mov             x1, x0
     // 0x9d30f4: ldur            x3, [fp, #-0x18]
     // 0x9d30f8: StoreField: r3->field_13 = r0
@@ -786,7 +786,7 @@ class _SubscriptionBannerSlotState extends State<dynamic> {
     // 0x9d313c: ldur            x1, [fp, #-0x10]
     // 0x9d3140: ldur            x2, [fp, #-0x20]
     // 0x9d3144: r0 = resolveLegacySummaryUpsellBannerState()
-    //     0x9d3144: bl              #0x9d3400  ; [package:ballai/automatic/views/components/home/account/subscription_banner.dart] ::resolveLegacySummaryUpsellBannerState
+    //     0x9d3144: bl              #0x9d3400  ; [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] ::resolveLegacySummaryUpsellBannerState
     // 0x9d3148: mov             x1, x0
     // 0x9d314c: ldur            x2, [fp, #-0x18]
     // 0x9d3150: StoreField: r2->field_13 = r0
@@ -815,7 +815,7 @@ class _SubscriptionBannerSlotState extends State<dynamic> {
     //     0x9d319c: ret             
     // 0x9d31a0: ldur            x1, [fp, #-0x10]
     // 0x9d31a4: r0 = yearlySavingsPercentVsPayingMonthly12x()
-    //     0x9d31a4: bl              #0x9d32e8  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::yearlySavingsPercentVsPayingMonthly12x
+    //     0x9d31a4: bl              #0x9d32e8  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::yearlySavingsPercentVsPayingMonthly12x
     // 0x9d31a8: mov             x3, x0
     // 0x9d31ac: ldur            x2, [fp, #-0x18]
     // 0x9d31b0: stur            x3, [fp, #-0x10]
@@ -847,7 +847,7 @@ class _SubscriptionBannerSlotState extends State<dynamic> {
     // 0x9d3204: cmp             w0, #6
     // 0x9d3208: b.ne            #0x9d3220
     // 0x9d320c: r1 = Function '<anonymous closure>':.
-    //     0x9d320c: add             x1, PP, #0x38, lsl #12  ; [pp+0x38540] AnonymousClosure: (0x9d3754), in [package:ballai/automatic/views/components/home/account/subscription_banner.dart] _SubscriptionBannerSlotState::build (0x9d3038)
+    //     0x9d320c: add             x1, PP, #0x38, lsl #12  ; [pp+0x38540] AnonymousClosure: (0x9d3754), in [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] _SubscriptionBannerSlotState::build (0x9d3038)
     //     0x9d3210: ldr             x1, [x1, #0x540]
     // 0x9d3214: r0 = AllocateClosure()
     //     0x9d3214: bl              #0xe553e0  ; AllocateClosureStub
@@ -951,7 +951,7 @@ class _SubscriptionBannerSlotState extends State<dynamic> {
     // 0x9d3788: b.eq            #0x9d37ac
     // 0x9d378c: mov             x1, x0
     // 0x9d3790: r0 = _dismiss()
-    //     0x9d3790: bl              #0x9d37b0  ; [package:ballai/automatic/views/components/home/account/subscription_banner.dart] _SubscriptionBannerSlotState::_dismiss
+    //     0x9d3790: bl              #0x9d37b0  ; [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] _SubscriptionBannerSlotState::_dismiss
     // 0x9d3794: r0 = Null
     //     0x9d3794: mov             x0, NULL
     // 0x9d3798: LeaveFrame
@@ -1058,7 +1058,7 @@ class _SubscriptionBannerSlotState extends State<dynamic> {
     //     0x9d38a4: add             x3, x3, HEAP, lsl #32
     // 0x9d38a8: mov             x1, x3
     // 0x9d38ac: r0 = setCancelledTrialWinBackDismissed()
-    //     0x9d38ac: bl              #0x9d3ae0  ; [package:ballai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::setCancelledTrialWinBackDismissed
+    //     0x9d38ac: bl              #0x9d3ae0  ; [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::setCancelledTrialWinBackDismissed
     // 0x9d38b0: mov             x1, x0
     // 0x9d38b4: stur            x1, [fp, #-0x18]
     // 0x9d38b8: r0 = Await()
@@ -1072,7 +1072,7 @@ class _SubscriptionBannerSlotState extends State<dynamic> {
     // 0x9d38cc: b.eq            #0x9d39d0
     // 0x9d38d0: ldur            x2, [fp, #-0x20]
     // 0x9d38d4: r1 = Function '<anonymous closure>':.
-    //     0x9d38d4: add             x1, PP, #0x38, lsl #12  ; [pp+0x38548] AnonymousClosure: (0x900cc0), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
+    //     0x9d38d4: add             x1, PP, #0x38, lsl #12  ; [pp+0x38548] AnonymousClosure: (0x900cc0), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::_coachTeamPrompt (0x900ef0)
     //     0x9d38d8: ldr             x1, [x1, #0x548]
     // 0x9d38dc: r0 = AllocateClosure()
     //     0x9d38dc: bl              #0xe553e0  ; AllocateClosureStub
@@ -1094,7 +1094,7 @@ class _SubscriptionBannerSlotState extends State<dynamic> {
     //     0x9d3908: add             x3, x3, HEAP, lsl #32
     // 0x9d390c: mov             x1, x3
     // 0x9d3910: r0 = setCancelledRenewalDismissed()
-    //     0x9d3910: bl              #0x9d3a68  ; [package:ballai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::setCancelledRenewalDismissed
+    //     0x9d3910: bl              #0x9d3a68  ; [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::setCancelledRenewalDismissed
     // 0x9d3914: mov             x1, x0
     // 0x9d3918: stur            x1, [fp, #-0x18]
     // 0x9d391c: r0 = Await()
@@ -1108,7 +1108,7 @@ class _SubscriptionBannerSlotState extends State<dynamic> {
     // 0x9d3930: b.eq            #0x9d39d0
     // 0x9d3934: ldur            x2, [fp, #-0x20]
     // 0x9d3938: r1 = Function '<anonymous closure>':.
-    //     0x9d3938: add             x1, PP, #0x38, lsl #12  ; [pp+0x38550] AnonymousClosure: (0x8fbc64), in [package:ballai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
+    //     0x9d3938: add             x1, PP, #0x38, lsl #12  ; [pp+0x38550] AnonymousClosure: (0x8fbc64), in [package:kourtai/automatic/views/auth/auth_shell.dart] _AuthShellState::initState (0x92f1d0)
     //     0x9d393c: ldr             x1, [x1, #0x550]
     // 0x9d3940: r0 = AllocateClosure()
     //     0x9d3940: bl              #0xe553e0  ; AllocateClosureStub
@@ -1138,7 +1138,7 @@ class _SubscriptionBannerSlotState extends State<dynamic> {
     //     0x9d3988: add             x3, x3, HEAP, lsl #32
     // 0x9d398c: mov             x1, x3
     // 0x9d3990: r0 = setYearlyUpsellDismissed()
-    //     0x9d3990: bl              #0x9d39f0  ; [package:ballai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::setYearlyUpsellDismissed
+    //     0x9d3990: bl              #0x9d39f0  ; [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::setYearlyUpsellDismissed
     // 0x9d3994: mov             x1, x0
     // 0x9d3998: stur            x1, [fp, #-0x18]
     // 0x9d399c: r0 = Await()
@@ -1152,7 +1152,7 @@ class _SubscriptionBannerSlotState extends State<dynamic> {
     // 0x9d39b0: b.eq            #0x9d39d0
     // 0x9d39b4: ldur            x2, [fp, #-0x20]
     // 0x9d39b8: r1 = Function '<anonymous closure>':.
-    //     0x9d39b8: add             x1, PP, #0x38, lsl #12  ; [pp+0x38558] AnonymousClosure: (0x98f834), in [package:ballai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::initState (0x98f684)
+    //     0x9d39b8: add             x1, PP, #0x38, lsl #12  ; [pp+0x38558] AnonymousClosure: (0x98f834), in [package:kourtai/automatic/views/onboarding/permissions/post_setup_create_team_prompt_view.dart] _PostSetupCreateTeamPromptViewState::initState (0x98f684)
     //     0x9d39bc: ldr             x1, [x1, #0x558]
     // 0x9d39c0: r0 = AllocateClosure()
     //     0x9d39c0: bl              #0xe553e0  ; AllocateClosureStub
@@ -1259,14 +1259,14 @@ class SubscriptionBanner extends StatelessWidget {
     // 0xbb0e84: b.ne            #0xbb0e9c
     // 0xbb0e88: mov             x2, x3
     // 0xbb0e8c: r1 = Function '<anonymous closure>':.
-    //     0xbb0e8c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cbf0] AnonymousClosure: (0xbb1e70), in [package:ballai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBanner::build (0xbb0e24)
+    //     0xbb0e8c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cbf0] AnonymousClosure: (0xbb1e70), in [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBanner::build (0xbb0e24)
     //     0xbb0e90: ldr             x1, [x1, #0xbf0]
     // 0xbb0e94: r0 = AllocateClosure()
     //     0xbb0e94: bl              #0xe553e0  ; AllocateClosureStub
     // 0xbb0e98: b               #0xbb0eac
     // 0xbb0e9c: ldur            x2, [fp, #-0x20]
     // 0xbb0ea0: r1 = Function '<anonymous closure>':.
-    //     0xbb0ea0: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cbf8] AnonymousClosure: (0xbb1c98), in [package:ballai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBanner::build (0xbb0e24)
+    //     0xbb0ea0: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cbf8] AnonymousClosure: (0xbb1c98), in [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBanner::build (0xbb0e24)
     //     0xbb0ea4: ldr             x1, [x1, #0xbf8]
     // 0xbb0ea8: r0 = AllocateClosure()
     //     0xbb0ea8: bl              #0xe553e0  ; AllocateClosureStub
@@ -1330,8 +1330,8 @@ class SubscriptionBanner extends StatelessWidget {
     // 0xbb0f40: StoreField: r0->field_1f = d0
     //     0xbb0f40: stur            d0, [x0, #0x1f]
     // 0xbb0f44: ldur            x1, [fp, #-0x10]
-    // 0xbb0f48: r0 = BallAiThemeContext.ballAiCardBackground()
-    //     0xbb0f48: bl              #0x9d20c0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiCardBackground
+    // 0xbb0f48: r0 = KourtAiThemeContext.kourtAiCardBackground()
+    //     0xbb0f48: bl              #0x9d20c0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiCardBackground
     // 0xbb0f4c: stur            x0, [fp, #-0x10]
     // 0xbb0f50: r0 = Radius()
     //     0xbb0f50: bl              #0x5ef784  ; AllocateRadiusStub -> Radius (size=0x18)
@@ -1360,8 +1360,8 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb0f88: ldur            w1, [x0, #0x13]
     // 0xbb0f8c: DecompressPointer r1
     //     0xbb0f8c: add             x1, x1, HEAP, lsl #32
-    // 0xbb0f90: r0 = BallAiThemeContext.ballAi()
-    //     0xbb0f90: bl              #0x8e8a70  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAi
+    // 0xbb0f90: r0 = KourtAiThemeContext.kourtAi()
+    //     0xbb0f90: bl              #0x8e8a70  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAi
     // 0xbb0f94: LoadField: r2 = r0->field_1f
     //     0xbb0f94: ldur            w2, [x0, #0x1f]
     // 0xbb0f98: DecompressPointer r2
@@ -1433,8 +1433,8 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb1054: ldur            w1, [x0, #0x13]
     // 0xbb1058: DecompressPointer r1
     //     0xbb1058: add             x1, x1, HEAP, lsl #32
-    // 0xbb105c: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbb105c: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbb105c: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbb105c: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbb1060: stur            x0, [fp, #-0x50]
     // 0xbb1064: r0 = Icon()
     //     0xbb1064: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -1550,7 +1550,7 @@ class SubscriptionBanner extends StatelessWidget {
     // 0xbb11ac: ldur            x2, [fp, #-0x20]
     // 0xbb11b0: ldur            x1, [fp, #-8]
     // 0xbb11b4: r0 = _title()
-    //     0xbb11b4: bl              #0xbb1b30  ; [package:ballai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBanner::_title
+    //     0xbb11b4: bl              #0xbb1b30  ; [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBanner::_title
     // 0xbb11b8: mov             x2, x0
     // 0xbb11bc: ldur            x0, [fp, #-0x20]
     // 0xbb11c0: stur            x2, [fp, #-0x10]
@@ -1558,8 +1558,8 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb11c4: ldur            w1, [x0, #0x13]
     // 0xbb11c8: DecompressPointer r1
     //     0xbb11c8: add             x1, x1, HEAP, lsl #32
-    // 0xbb11cc: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xbb11cc: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xbb11cc: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xbb11cc: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xbb11d0: stur            x0, [fp, #-0x50]
     // 0xbb11d4: r0 = TextStyle()
     //     0xbb11d4: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1594,7 +1594,7 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb1220: stur            w0, [x2, #0x13]
     // 0xbb1224: ldur            x1, [fp, #-8]
     // 0xbb1228: r0 = _subtitle()
-    //     0xbb1228: bl              #0xbb1a30  ; [package:ballai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBanner::_subtitle
+    //     0xbb1228: bl              #0xbb1a30  ; [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBanner::_subtitle
     // 0xbb122c: mov             x2, x0
     // 0xbb1230: ldur            x0, [fp, #-0x20]
     // 0xbb1234: stur            x2, [fp, #-0x10]
@@ -1602,8 +1602,8 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb1238: ldur            w1, [x0, #0x13]
     // 0xbb123c: DecompressPointer r1
     //     0xbb123c: add             x1, x1, HEAP, lsl #32
-    // 0xbb1240: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb1240: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb1240: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb1240: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb1244: stur            x0, [fp, #-0x70]
     // 0xbb1248: r0 = TextStyle()
     //     0xbb1248: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -1853,7 +1853,7 @@ class SubscriptionBanner extends StatelessWidget {
     // 0xbb14c8: mov             x0, x2
     // 0xbb14cc: ldur            x1, [fp, #-8]
     // 0xbb14d0: r0 = _action()
-    //     0xbb14d0: bl              #0xbb191c  ; [package:ballai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBanner::_action
+    //     0xbb14d0: bl              #0xbb191c  ; [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBanner::_action
     // 0xbb14d4: stur            x0, [fp, #-8]
     // 0xbb14d8: r0 = Text()
     //     0xbb14d8: bl              #0x5ef940  ; AllocateTextStub -> Text (size=0x50)
@@ -2143,8 +2143,8 @@ class SubscriptionBanner extends StatelessWidget {
     // 0xbb17d4: DecompressPointer r5
     //     0xbb17d4: add             x5, x5, HEAP, lsl #32
     // 0xbb17d8: mov             x1, x5
-    // 0xbb17dc: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xbb17dc: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xbb17dc: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xbb17dc: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xbb17e0: stur            x0, [fp, #-8]
     // 0xbb17e4: r0 = Icon()
     //     0xbb17e4: bl              #0x5ef790  ; AllocateIconStub -> Icon (size=0x40)
@@ -2297,7 +2297,7 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb1954: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cc60] "Fix now"
     //     0xbb1958: ldr             x1, [x1, #0xc60]
     // 0xbb195c: r0 = L()
-    //     0xbb195c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb195c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb1960: LeaveFrame
     //     0xbb1960: mov             SP, fp
     //     0xbb1964: ldp             fp, lr, [SP], #0x10
@@ -2307,7 +2307,7 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb196c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cc68] "Claim gift"
     //     0xbb1970: ldr             x1, [x1, #0xc68]
     // 0xbb1974: r0 = L()
-    //     0xbb1974: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb1974: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb1978: LeaveFrame
     //     0xbb1978: mov             SP, fp
     //     0xbb197c: ldp             fp, lr, [SP], #0x10
@@ -2317,7 +2317,7 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb1984: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cc70] "Renew"
     //     0xbb1988: ldr             x1, [x1, #0xc70]
     // 0xbb198c: r0 = L()
-    //     0xbb198c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb198c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb1990: LeaveFrame
     //     0xbb1990: mov             SP, fp
     //     0xbb1994: ldp             fp, lr, [SP], #0x10
@@ -2331,7 +2331,7 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb19ac: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cc78] "Change plan"
     //     0xbb19b0: ldr             x1, [x1, #0xc78]
     // 0xbb19b4: r0 = L()
-    //     0xbb19b4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb19b4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb19b8: LeaveFrame
     //     0xbb19b8: mov             SP, fp
     //     0xbb19bc: ldp             fp, lr, [SP], #0x10
@@ -2341,7 +2341,7 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb19c4: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cc80] "Start free trial"
     //     0xbb19c8: ldr             x1, [x1, #0xc80]
     // 0xbb19cc: r0 = L()
-    //     0xbb19cc: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb19cc: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb19d0: LeaveFrame
     //     0xbb19d0: mov             SP, fp
     //     0xbb19d4: ldp             fp, lr, [SP], #0x10
@@ -2359,7 +2359,7 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb19f8: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cc88] "View comeback offer"
     //     0xbb19fc: ldr             x1, [x1, #0xc88]
     // 0xbb1a00: r0 = L()
-    //     0xbb1a00: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb1a00: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb1a04: LeaveFrame
     //     0xbb1a04: mov             SP, fp
     //     0xbb1a08: ldp             fp, lr, [SP], #0x10
@@ -2369,7 +2369,7 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb1a10: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cc90] "Upgrade"
     //     0xbb1a14: ldr             x1, [x1, #0xc90]
     // 0xbb1a18: r0 = L()
-    //     0xbb1a18: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb1a18: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb1a1c: LeaveFrame
     //     0xbb1a1c: mov             SP, fp
     //     0xbb1a20: ldp             fp, lr, [SP], #0x10
@@ -2404,7 +2404,7 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb1a68: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cc98] "Update your payment method before your Pro features expire"
     //     0xbb1a6c: ldr             x1, [x1, #0xc98]
     // 0xbb1a70: r0 = L()
-    //     0xbb1a70: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb1a70: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb1a74: LeaveFrame
     //     0xbb1a74: mov             SP, fp
     //     0xbb1a78: ldp             fp, lr, [SP], #0x10
@@ -2414,7 +2414,7 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb1a80: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cca0] "Return to Pro for 80% off the entire year!"
     //     0xbb1a84: ldr             x1, [x1, #0xca0]
     // 0xbb1a88: r0 = L()
-    //     0xbb1a88: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb1a88: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb1a8c: LeaveFrame
     //     0xbb1a8c: mov             SP, fp
     //     0xbb1a90: ldp             fp, lr, [SP], #0x10
@@ -2426,7 +2426,7 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb1aa0: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cca8] "Renew to keep Pro after your current period ends."
     //     0xbb1aa4: ldr             x1, [x1, #0xca8]
     // 0xbb1aa8: r0 = L()
-    //     0xbb1aa8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb1aa8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb1aac: LeaveFrame
     //     0xbb1aac: mov             SP, fp
     //     0xbb1ab0: ldp             fp, lr, [SP], #0x10
@@ -2436,7 +2436,7 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb1ab8: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3ccb0] "Better value than paying every month."
     //     0xbb1abc: ldr             x1, [x1, #0xcb0]
     // 0xbb1ac0: r0 = L()
-    //     0xbb1ac0: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb1ac0: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb1ac4: LeaveFrame
     //     0xbb1ac4: mov             SP, fp
     //     0xbb1ac8: ldp             fp, lr, [SP], #0x10
@@ -2450,17 +2450,17 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb1ae0: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3ccb8] "Access AI coaching, advanced drills & more."
     //     0xbb1ae4: ldr             x1, [x1, #0xcb8]
     // 0xbb1ae8: r0 = L()
-    //     0xbb1ae8: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb1ae8: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb1aec: LeaveFrame
     //     0xbb1aec: mov             SP, fp
     //     0xbb1af0: ldp             fp, lr, [SP], #0x10
     // 0xbb1af4: ret
     //     0xbb1af4: ret             
-    // 0xbb1af8: r1 = "Claim your comeback offer and get Ball AI Pro for less."
-    //     0xbb1af8: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3ccc0] "Claim your comeback offer and get Ball AI Pro for less."
+    // 0xbb1af8: r1 = "Claim your comeback offer and get Kourt AI Pro for less."
+    //     0xbb1af8: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3ccc0] "Claim your comeback offer and get Kourt AI Pro for less."
     //     0xbb1afc: ldr             x1, [x1, #0xcc0]
     // 0xbb1b00: r0 = L()
-    //     0xbb1b00: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb1b00: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb1b04: LeaveFrame
     //     0xbb1b04: mov             SP, fp
     //     0xbb1b08: ldp             fp, lr, [SP], #0x10
@@ -2470,7 +2470,7 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb1b10: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3ccc8] "Get AI coaching, advanced drills & more."
     //     0xbb1b14: ldr             x1, [x1, #0xcc8]
     // 0xbb1b18: r0 = L()
-    //     0xbb1b18: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb1b18: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb1b1c: LeaveFrame
     //     0xbb1b1c: mov             SP, fp
     //     0xbb1b20: ldp             fp, lr, [SP], #0x10
@@ -2507,7 +2507,7 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb1b6c: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3ccd0] "Your credit card air balled"
     //     0xbb1b70: ldr             x1, [x1, #0xcd0]
     // 0xbb1b74: r0 = L()
-    //     0xbb1b74: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb1b74: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb1b78: LeaveFrame
     //     0xbb1b78: mov             SP, fp
     //     0xbb1b7c: ldp             fp, lr, [SP], #0x10
@@ -2517,7 +2517,7 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb1b84: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3ccd8] "Your transformation awaits..."
     //     0xbb1b88: ldr             x1, [x1, #0xcd8]
     // 0xbb1b8c: r0 = L()
-    //     0xbb1b8c: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb1b8c: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb1b90: LeaveFrame
     //     0xbb1b90: mov             SP, fp
     //     0xbb1b94: ldp             fp, lr, [SP], #0x10
@@ -2529,7 +2529,7 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb1ba4: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cce0] "Subscription cancelled"
     //     0xbb1ba8: ldr             x1, [x1, #0xce0]
     // 0xbb1bac: r0 = L()
-    //     0xbb1bac: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb1bac: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb1bb0: LeaveFrame
     //     0xbb1bb0: mov             SP, fp
     //     0xbb1bb4: ldp             fp, lr, [SP], #0x10
@@ -2552,7 +2552,7 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb1be4: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cce8] "Save {percent}% with Yearly"
     //     0xbb1be8: ldr             x1, [x1, #0xce8]
     // 0xbb1bec: r0 = L()
-    //     0xbb1bec: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb1bec: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb1bf0: stur            x0, [fp, #-0x10]
     // 0xbb1bf4: ldur            x16, [fp, #-8]
     // 0xbb1bf8: str             x16, [SP]
@@ -2574,7 +2574,7 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb1c20: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3ccf8] "Switch to Yearly"
     //     0xbb1c24: ldr             x1, [x1, #0xcf8]
     // 0xbb1c28: r0 = L()
-    //     0xbb1c28: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb1c28: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb1c2c: LeaveFrame
     //     0xbb1c2c: mov             SP, fp
     //     0xbb1c30: ldp             fp, lr, [SP], #0x10
@@ -2584,11 +2584,11 @@ class SubscriptionBanner extends StatelessWidget {
     // 0xbb1c3c: b.gt            #0xbb1c78
     // 0xbb1c40: cmp             x2, #4
     // 0xbb1c44: b.gt            #0xbb1c60
-    // 0xbb1c48: r1 = "Try Ball AI Pro free"
-    //     0xbb1c48: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cd00] "Try Ball AI Pro free"
+    // 0xbb1c48: r1 = "Try Kourt AI Pro free"
+    //     0xbb1c48: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cd00] "Try Kourt AI Pro free"
     //     0xbb1c4c: ldr             x1, [x1, #0xd00]
     // 0xbb1c50: r0 = L()
-    //     0xbb1c50: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb1c50: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb1c54: LeaveFrame
     //     0xbb1c54: mov             SP, fp
     //     0xbb1c58: ldp             fp, lr, [SP], #0x10
@@ -2598,17 +2598,17 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb1c60: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cd08] "Your free trial has ended"
     //     0xbb1c64: ldr             x1, [x1, #0xd08]
     // 0xbb1c68: r0 = L()
-    //     0xbb1c68: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb1c68: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb1c6c: LeaveFrame
     //     0xbb1c6c: mov             SP, fp
     //     0xbb1c70: ldp             fp, lr, [SP], #0x10
     // 0xbb1c74: ret
     //     0xbb1c74: ret             
-    // 0xbb1c78: r1 = "Unlock Ball AI Pro"
-    //     0xbb1c78: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cd10] "Unlock Ball AI Pro"
+    // 0xbb1c78: r1 = "Unlock Kourt AI Pro"
+    //     0xbb1c78: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cd10] "Unlock Kourt AI Pro"
     //     0xbb1c7c: ldr             x1, [x1, #0xd10]
     // 0xbb1c80: r0 = L()
-    //     0xbb1c80: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xbb1c80: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xbb1c84: LeaveFrame
     //     0xbb1c84: mov             SP, fp
     //     0xbb1c88: ldp             fp, lr, [SP], #0x10
@@ -2647,7 +2647,7 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb1cd4: bl              #0x62f954  ; [package:flutter/src/widgets/navigator.dart] Navigator::of
     // 0xbb1cd8: ldur            x2, [fp, #-8]
     // 0xbb1cdc: r1 = Function '<anonymous closure>':.
-    //     0xbb1cdc: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cc30] AnonymousClosure: (0xbb1d40), in [package:ballai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBanner::build (0xbb0e24)
+    //     0xbb1cdc: add             x1, PP, #0x3c, lsl #12  ; [pp+0x3cc30] AnonymousClosure: (0xbb1d40), in [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBanner::build (0xbb0e24)
     //     0xbb1ce0: ldr             x1, [x1, #0xc30]
     // 0xbb1ce4: stur            x0, [fp, #-8]
     // 0xbb1ce8: r0 = AllocateClosure()
@@ -2845,7 +2845,7 @@ class SubscriptionBanner extends StatelessWidget {
     //     0xbb1ee0: add             x0, x0, HEAP, lsl #32
     // 0xbb1ee4: mov             x1, x0
     // 0xbb1ee8: r0 = openManageSubscriptions()
-    //     0xbb1ee8: bl              #0x951ee8  ; [package:ballai/automatic/app/dependencies/handlers/core/play_billing_handler.dart] PlayBillingHandler::openManageSubscriptions
+    //     0xbb1ee8: bl              #0x951ee8  ; [package:kourtai/automatic/app/dependencies/handlers/core/play_billing_handler.dart] PlayBillingHandler::openManageSubscriptions
     // 0xbb1eec: r0 = Null
     //     0xbb1eec: mov             x0, NULL
     // 0xbb1ef0: LeaveFrame
@@ -2890,7 +2890,7 @@ abstract class SubscriptionBannerPreferences extends Object {
     // 0x94164c: ldur            x2, [fp, #-0x18]
     // 0x941650: stur            x0, [fp, #-0x10]
     // 0x941654: r0 = _renewalKey()
-    //     0x941654: bl              #0x94167c  ; [package:ballai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::_renewalKey
+    //     0x941654: bl              #0x94167c  ; [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::_renewalKey
     // 0x941658: ldur            x1, [fp, #-0x10]
     // 0x94165c: mov             x2, x0
     // 0x941660: r0 = getBool()
@@ -2986,7 +2986,7 @@ abstract class SubscriptionBannerPreferences extends Object {
     // 0x941738: ldur            x2, [fp, #-0x18]
     // 0x94173c: stur            x0, [fp, #-0x10]
     // 0x941740: r0 = _winbackKey()
-    //     0x941740: bl              #0x941768  ; [package:ballai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::_winbackKey
+    //     0x941740: bl              #0x941768  ; [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::_winbackKey
     // 0x941744: ldur            x1, [fp, #-0x10]
     // 0x941748: mov             x2, x0
     // 0x94174c: r0 = getBool()
@@ -3082,7 +3082,7 @@ abstract class SubscriptionBannerPreferences extends Object {
     // 0x941824: ldur            x2, [fp, #-0x18]
     // 0x941828: stur            x0, [fp, #-0x10]
     // 0x94182c: r0 = _yearlyKey()
-    //     0x94182c: bl              #0x941854  ; [package:ballai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::_yearlyKey
+    //     0x94182c: bl              #0x941854  ; [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::_yearlyKey
     // 0x941830: ldur            x1, [fp, #-0x10]
     // 0x941834: mov             x2, x0
     // 0x941838: r0 = getBool()
@@ -3178,7 +3178,7 @@ abstract class SubscriptionBannerPreferences extends Object {
     // 0x9d3a30: ldur            x2, [fp, #-0x18]
     // 0x9d3a34: stur            x0, [fp, #-0x10]
     // 0x9d3a38: r0 = _yearlyKey()
-    //     0x9d3a38: bl              #0x941854  ; [package:ballai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::_yearlyKey
+    //     0x9d3a38: bl              #0x941854  ; [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::_yearlyKey
     // 0x9d3a3c: ldur            x1, [fp, #-0x10]
     // 0x9d3a40: mov             x2, x0
     // 0x9d3a44: r3 = true
@@ -3225,7 +3225,7 @@ abstract class SubscriptionBannerPreferences extends Object {
     // 0x9d3aa8: ldur            x2, [fp, #-0x18]
     // 0x9d3aac: stur            x0, [fp, #-0x10]
     // 0x9d3ab0: r0 = _renewalKey()
-    //     0x9d3ab0: bl              #0x94167c  ; [package:ballai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::_renewalKey
+    //     0x9d3ab0: bl              #0x94167c  ; [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::_renewalKey
     // 0x9d3ab4: ldur            x1, [fp, #-0x10]
     // 0x9d3ab8: mov             x2, x0
     // 0x9d3abc: r3 = true
@@ -3272,7 +3272,7 @@ abstract class SubscriptionBannerPreferences extends Object {
     // 0x9d3b20: ldur            x2, [fp, #-0x18]
     // 0x9d3b24: stur            x0, [fp, #-0x10]
     // 0x9d3b28: r0 = _winbackKey()
-    //     0x9d3b28: bl              #0x941768  ; [package:ballai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::_winbackKey
+    //     0x9d3b28: bl              #0x941768  ; [package:kourtai/automatic/views/components/home/account/subscription_banner.dart] SubscriptionBannerPreferences::_winbackKey
     // 0x9d3b2c: ldur            x1, [fp, #-0x10]
     // 0x9d3b30: mov             x2, x0
     // 0x9d3b34: r3 = true

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart
+// lib: , url: package:kourtai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart
 
 // class id: 1049068, size: 0x8
 class :: {
@@ -55,13 +55,13 @@ abstract class BallyBreakdownAnalyzer extends Object {
     //     0x733a60: bl              #0x60afc8  ; InitAsyncStub
     // 0x733a64: ldur            x1, [fp, #-0x28]
     // 0x733a68: r0 = isDribblingWorkout()
-    //     0x733a68: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0x733a68: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0x733a6c: tbnz            w0, #4, #0x733a84
     // 0x733a70: ldur            x1, [fp, #-0x10]
     // 0x733a74: ldur            x2, [fp, #-0x18]
     // 0x733a78: ldur            x3, [fp, #-0x28]
     // 0x733a7c: r0 = _generateDribblePayload()
-    //     0x733a7c: bl              #0x738520  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart] BallyBreakdownAnalyzer::_generateDribblePayload
+    //     0x733a7c: bl              #0x738520  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart] BallyBreakdownAnalyzer::_generateDribblePayload
     // 0x733a80: r0 = ReturnAsync()
     //     0x733a80: b               #0x5f1e3c  ; ReturnAsyncStub
     // 0x733a84: ldur            x2, [fp, #-0x20]
@@ -82,7 +82,7 @@ abstract class BallyBreakdownAnalyzer extends Object {
     // 0x733ab0: ldur            x1, [fp, #-0x20]
     // 0x733ab4: ldur            x2, [fp, #-0x28]
     // 0x733ab8: r0 = generateSummaryPayloadFromShots()
-    //     0x733ab8: bl              #0x736ee4  ; [package:ballai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::generateSummaryPayloadFromShots
+    //     0x733ab8: bl              #0x736ee4  ; [package:kourtai/video_tracking/analysis/coach/coach_session_analyzer.dart] CoachSessionAnalyzer::generateSummaryPayloadFromShots
     // 0x733abc: stur            x0, [fp, #-0x30]
     // 0x733ac0: cmp             w0, NULL
     // 0x733ac4: b.ne            #0x733ad0
@@ -104,13 +104,13 @@ abstract class BallyBreakdownAnalyzer extends Object {
     // 0x733aec: DecompressPointer r1
     //     0x733aec: add             x1, x1, HEAP, lsl #32
     // 0x733af0: r0 = isVideoTrackedWorkout()
-    //     0x733af0: bl              #0x736e2c  ; [package:ballai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
+    //     0x733af0: bl              #0x736e2c  ; [package:kourtai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
     // 0x733af4: tbnz            w0, #4, #0x733b14
     // 0x733af8: ldur            x1, [fp, #-0x20]
     // 0x733afc: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x733afc: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x733b00: r0 = resolveVodPlaylistUrl()
-    //     0x733b00: bl              #0x73453c  ; [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::resolveVodPlaylistUrl
+    //     0x733b00: bl              #0x73453c  ; [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::resolveVodPlaylistUrl
     // 0x733b04: mov             x1, x0
     // 0x733b08: stur            x1, [fp, #-0x20]
     // 0x733b0c: r0 = Await()
@@ -135,16 +135,16 @@ abstract class BallyBreakdownAnalyzer extends Object {
     // 0x733b40: ldur            x1, [fp, #-0x10]
     // 0x733b44: stur            x2, [fp, #-0x20]
     // 0x733b48: r0 = _buildDrillContext()
-    //     0x733b48: bl              #0x7341bc  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart] BallyBreakdownAnalyzer::_buildDrillContext
+    //     0x733b48: bl              #0x7341bc  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart] BallyBreakdownAnalyzer::_buildDrillContext
     // 0x733b4c: ldur            x1, [fp, #-0x28]
     // 0x733b50: stur            x0, [fp, #-0x40]
     // 0x733b54: r0 = _buildPlayerContext()
-    //     0x733b54: bl              #0x734070  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart] BallyBreakdownAnalyzer::_buildPlayerContext
+    //     0x733b54: bl              #0x734070  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart] BallyBreakdownAnalyzer::_buildPlayerContext
     // 0x733b58: ldur            x1, [fp, #-0x28]
     // 0x733b5c: ldur            x2, [fp, #-0x10]
     // 0x733b60: stur            x0, [fp, #-0x10]
     // 0x733b64: r0 = _workoutType()
-    //     0x733b64: bl              #0x733e08  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart] BallyBreakdownAnalyzer::_workoutType
+    //     0x733b64: bl              #0x733e08  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart] BallyBreakdownAnalyzer::_workoutType
     // 0x733b68: stur            x0, [fp, #-0x48]
     // 0x733b6c: r16 = "bounce"
     //     0x733b6c: add             x16, PP, #0x28, lsl #12  ; [pp+0x28270] "bounce"
@@ -350,7 +350,7 @@ abstract class BallyBreakdownAnalyzer extends Object {
     // 0x733dc0: r0 = []=()
     //     0x733dc0: bl              #0xda3398  ; [dart:_compact_hash] __Map&_HashVMBase&MapMixin&_HashBase&_OperatorEqualsAndHashCode&_LinkedHashMapMixin::[]=
     // 0x733dc4: r0 = responseLanguageInstruction()
-    //     0x733dc4: bl              #0x6ff8d0  ; [package:ballai/video_tracking/analysis/coach/coach_template_language.dart] CoachTemplateLanguage::responseLanguageInstruction
+    //     0x733dc4: bl              #0x6ff8d0  ; [package:kourtai/video_tracking/analysis/coach/coach_template_language.dart] CoachTemplateLanguage::responseLanguageInstruction
     // 0x733dc8: ldur            x1, [fp, #-0x30]
     // 0x733dcc: mov             x3, x0
     // 0x733dd0: r2 = "response_language"
@@ -411,7 +411,7 @@ abstract class BallyBreakdownAnalyzer extends Object {
     // 0x733e58: cmp             w1, NULL
     // 0x733e5c: b.eq            #0x733e7c
     // 0x733e60: r0 = isBounceAnalyzerDrillId()
-    //     0x733e60: bl              #0x734000  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isBounceAnalyzerDrillId
+    //     0x733e60: bl              #0x734000  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isBounceAnalyzerDrillId
     // 0x733e64: tbnz            w0, #4, #0x733e7c
     // 0x733e68: r0 = "bounce"
     //     0x733e68: add             x0, PP, #0x28, lsl #12  ; [pp+0x28270] "bounce"
@@ -426,7 +426,7 @@ abstract class BallyBreakdownAnalyzer extends Object {
     // 0x733e84: b.eq            #0x733ea8
     // 0x733e88: mov             x1, x0
     // 0x733e8c: r0 = belongsToFinishingProductSurface()
-    //     0x733e8c: bl              #0x5ed590  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToFinishingProductSurface
+    //     0x733e8c: bl              #0x5ed590  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::belongsToFinishingProductSurface
     // 0x733e90: tbnz            w0, #4, #0x733ea8
     // 0x733e94: r0 = "finishing"
     //     0x733e94: add             x0, PP, #0x27, lsl #12  ; [pp+0x27d98] "finishing"
@@ -444,7 +444,7 @@ abstract class BallyBreakdownAnalyzer extends Object {
     // 0x733eb8: DecompressPointer r1
     //     0x733eb8: add             x1, x1, HEAP, lsl #32
     // 0x733ebc: r0 = isDribbleAnalyzerDrillId()
-    //     0x733ebc: bl              #0x733fa4  ; [package:ballai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isDribbleAnalyzerDrillId
+    //     0x733ebc: bl              #0x733fa4  ; [package:kourtai/video_tracking/views/drills/data/drill_template.dart] DrillTemplate::isDribbleAnalyzerDrillId
     // 0x733ec0: tbnz            w0, #4, #0x733ed8
     // 0x733ec4: r0 = "dribbling"
     //     0x733ec4: add             x0, PP, #0x20, lsl #12  ; [pp+0x20db0] "dribbling"
@@ -494,7 +494,7 @@ abstract class BallyBreakdownAnalyzer extends Object {
     //     0x733f3c: ret             
     // 0x733f40: ldur            x1, [fp, #-8]
     // 0x733f44: r0 = isDribblingWorkout()
-    //     0x733f44: bl              #0x73a3bc  ; [package:ballai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
+    //     0x733f44: bl              #0x73a3bc  ; [package:kourtai/automatic/models/core/stats/workouts/workout_model.dart] WorkoutModel::isDribblingWorkout
     // 0x733f48: tbnz            w0, #4, #0x733f60
     // 0x733f4c: r0 = "dribbling"
     //     0x733f4c: add             x0, PP, #0x20, lsl #12  ; [pp+0x20db0] "dribbling"
@@ -510,7 +510,7 @@ abstract class BallyBreakdownAnalyzer extends Object {
     // 0x733f68: DecompressPointer r1
     //     0x733f68: add             x1, x1, HEAP, lsl #32
     // 0x733f6c: r0 = isVideoTrackedWorkout()
-    //     0x733f6c: bl              #0x736e2c  ; [package:ballai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
+    //     0x733f6c: bl              #0x736e2c  ; [package:kourtai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
     // 0x733f70: tbnz            w0, #4, #0x733f88
     // 0x733f74: r0 = "shooting"
     //     0x733f74: add             x0, PP, #0x20, lsl #12  ; [pp+0x20db8] "shooting"
@@ -991,7 +991,7 @@ abstract class BallyBreakdownAnalyzer extends Object {
     //     0x73855c: bl              #0x60afc8  ; InitAsyncStub
     // 0x738560: ldur            x1, [fp, #-0x20]
     // 0x738564: r0 = fetchIfNeeded()
-    //     0x738564: bl              #0x7397e4  ; [package:ballai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetchIfNeeded
+    //     0x738564: bl              #0x7397e4  ; [package:kourtai/video_tracking/analysis/dribble/dribble_timeline_derived_stats_resolver.dart] DribbleTimelineDerivedStatsResolver::fetchIfNeeded
     // 0x738568: mov             x1, x0
     // 0x73856c: stur            x1, [fp, #-0x28]
     // 0x738570: r0 = Await()
@@ -1312,7 +1312,7 @@ abstract class BallyBreakdownAnalyzer extends Object {
     //     0x738940: ldr             x10, [x10, #0x890]
     // 0x738944: stur            x10, [fp, #-0x28]
     // 0x738948: r0 = _analyzeDribbleHeightSummary()
-    //     0x738948: bl              #0x739744  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart] BallyBreakdownAnalyzer::_analyzeDribbleHeightSummary
+    //     0x738948: bl              #0x739744  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart] BallyBreakdownAnalyzer::_analyzeDribbleHeightSummary
     // 0x73894c: mov             x2, x0
     // 0x738950: ldur            x0, [fp, #-0x38]
     // 0x738954: stur            x2, [fp, #-0x78]
@@ -1364,7 +1364,7 @@ abstract class BallyBreakdownAnalyzer extends Object {
     // 0x7389e4: mov             x1, x5
     // 0x7389e8: stur            x6, [fp, #-0x38]
     // 0x7389ec: r0 = _analyzeDribbleSessionDelta()
-    //     0x7389ec: bl              #0x739430  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart] BallyBreakdownAnalyzer::_analyzeDribbleSessionDelta
+    //     0x7389ec: bl              #0x739430  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart] BallyBreakdownAnalyzer::_analyzeDribbleSessionDelta
     // 0x7389f0: mov             x2, x0
     // 0x7389f4: ldur            x0, [fp, #-0x20]
     // 0x7389f8: stur            x2, [fp, #-0x88]
@@ -1402,13 +1402,13 @@ abstract class BallyBreakdownAnalyzer extends Object {
     // 0x738a50: DecompressPointer r1
     //     0x738a50: add             x1, x1, HEAP, lsl #32
     // 0x738a54: r0 = isVideoTrackedWorkout()
-    //     0x738a54: bl              #0x736e2c  ; [package:ballai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
+    //     0x738a54: bl              #0x736e2c  ; [package:kourtai/automatic/utility/workout/tracking_medium.dart] ::isVideoTrackedWorkout
     // 0x738a58: tbnz            w0, #4, #0x738a78
     // 0x738a5c: ldur            x1, [fp, #-0x80]
     // 0x738a60: r4 = const [0, 0x1, 0, 0x1, null]
     //     0x738a60: ldr             x4, [PP, #0xa0]  ; [pp+0xa0] List(5) [0, 0x1, 0, 0x1, Null]
     // 0x738a64: r0 = resolveVodPlaylistUrl()
-    //     0x738a64: bl              #0x73453c  ; [package:ballai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::resolveVodPlaylistUrl
+    //     0x738a64: bl              #0x73453c  ; [package:kourtai/video_tracking/session/browsing/workout_hls_url_resolver.dart] WorkoutHlsUrlResolver::resolveVodPlaylistUrl
     // 0x738a68: mov             x1, x0
     // 0x738a6c: stur            x1, [fp, #-0x80]
     // 0x738a70: r0 = Await()
@@ -1439,11 +1439,11 @@ abstract class BallyBreakdownAnalyzer extends Object {
     // 0x738abc: ldur            x1, [fp, #-0x10]
     // 0x738ac0: stur            x7, [fp, #-0x80]
     // 0x738ac4: r0 = _buildDrillContext()
-    //     0x738ac4: bl              #0x7341bc  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart] BallyBreakdownAnalyzer::_buildDrillContext
+    //     0x738ac4: bl              #0x7341bc  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart] BallyBreakdownAnalyzer::_buildDrillContext
     // 0x738ac8: ldur            x1, [fp, #-0x20]
     // 0x738acc: stur            x0, [fp, #-0x10]
     // 0x738ad0: r0 = _buildPlayerContext()
-    //     0x738ad0: bl              #0x734070  ; [package:ballai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart] BallyBreakdownAnalyzer::_buildPlayerContext
+    //     0x738ad0: bl              #0x734070  ; [package:kourtai/video_tracking/analysis/coach/bally_breakdown_analyzer.dart] BallyBreakdownAnalyzer::_buildPlayerContext
     // 0x738ad4: stur            x0, [fp, #-0xa0]
     // 0x738ad8: r16 = <String, Object?>
     //     0x738ad8: add             x16, PP, #8, lsl #12  ; [pp+0x8940] TypeArguments: <String, Object?>
@@ -2169,7 +2169,7 @@ abstract class BallyBreakdownAnalyzer extends Object {
     //     0x739360: blr             lr
     // 0x739364: ldur            x1, [fp, #-0xa8]
     // 0x739368: r0 = responseLanguageInstruction()
-    //     0x739368: bl              #0x6ff8d0  ; [package:ballai/video_tracking/analysis/coach/coach_template_language.dart] CoachTemplateLanguage::responseLanguageInstruction
+    //     0x739368: bl              #0x6ff8d0  ; [package:kourtai/video_tracking/analysis/coach/coach_template_language.dart] CoachTemplateLanguage::responseLanguageInstruction
     // 0x73936c: ldur            x4, [fp, #-0xa8]
     // 0x739370: r1 = LoadClassIdInstr(r4)
     //     0x739370: ldur            x1, [x4, #-1]

@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart
+// lib: , url: package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart
 
 // class id: 1048649, size: 0x8
 class :: {
@@ -164,7 +164,7 @@ class DiscountRequestOfferFacts extends Object {
 }
 
 // class id: 5165, size: 0x8, field offset: 0x8
-class BallAiProWelcomeEvent extends Object {
+class KourtAiProWelcomeEvent extends Object {
 }
 
 // class id: 5291, size: 0x54, field offset: 0x24
@@ -195,7 +195,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x647394: r4 = const [0, 0x2, 0, 0x2, null]
     //     0x647394: ldr             x4, [PP, #0xd0]  ; [pp+0xd0] List(5) [0, 0x2, 0, 0x2, Null]
     // 0x647398: r0 = resolveOfferingForPaywall()
-    //     0x647398: bl              #0x6483e4  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::resolveOfferingForPaywall
+    //     0x647398: bl              #0x6483e4  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::resolveOfferingForPaywall
     // 0x64739c: mov             x1, x0
     // 0x6473a0: stur            x1, [fp, #-0x18]
     // 0x6473a4: r0 = Await()
@@ -209,7 +209,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x6473b8: add             x2, x2, HEAP, lsl #32
     // 0x6473bc: mov             x1, x3
     // 0x6473c0: r0 = offerFactsFromOffering()
-    //     0x6473c0: bl              #0x647504  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::offerFactsFromOffering
+    //     0x6473c0: bl              #0x647504  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::offerFactsFromOffering
     // 0x6473c4: stur            x0, [fp, #-0x20]
     // 0x6473c8: r0 = InitLateStaticField(0x62c) // [package:flutter/src/foundation/print.dart] ::debugPrint
     //     0x6473c8: ldr             x0, [THR, #0x68]  ; THR::field_table_values
@@ -335,7 +335,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x647528: b.ls            #0x647760
     // 0x64752c: mov             x1, x2
     // 0x647530: r0 = _annualPackage()
-    //     0x647530: bl              #0x648350  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_annualPackage
+    //     0x647530: bl              #0x648350  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_annualPackage
     // 0x647534: stur            x0, [fp, #-0x20]
     // 0x647538: cmp             w0, NULL
     // 0x64753c: b.ne            #0x647548
@@ -387,11 +387,11 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x6475c0: add             x2, PP, #0x20, lsl #12  ; [pp+0x20570] "discount_price"
     //     0x6475c4: ldr             x2, [x2, #0x570]
     // 0x6475c8: r0 = _metadataString()
-    //     0x6475c8: bl              #0x648260  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_metadataString
+    //     0x6475c8: bl              #0x648260  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_metadataString
     // 0x6475cc: mov             x1, x0
     // 0x6475d0: stur            x0, [fp, #-0x28]
     // 0x6475d4: r0 = _decimalDiscountFact()
-    //     0x6475d4: bl              #0x647b20  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_decimalDiscountFact
+    //     0x6475d4: bl              #0x647b20  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_decimalDiscountFact
     // 0x6475d8: mov             x1, x0
     // 0x6475dc: ldur            x0, [fp, #-0x20]
     // 0x6475e0: cmp             w0, NULL
@@ -428,7 +428,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x647644: ldur            x1, [fp, #-0x10]
     // 0x647648: stur            x2, [fp, #-0x20]
     // 0x64764c: r0 = _annualPackage()
-    //     0x64764c: bl              #0x648350  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_annualPackage
+    //     0x64764c: bl              #0x648350  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_annualPackage
     // 0x647650: cmp             w0, NULL
     // 0x647654: b.ne            #0x647660
     // 0x647658: r2 = Null
@@ -456,7 +456,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x647698: ldur            x0, [fp, #-0x18]
     // 0x64769c: ldur            x1, [fp, #-0x20]
     // 0x6476a0: r0 = _derivedDiscountPercent()
-    //     0x6476a0: bl              #0x647a04  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_derivedDiscountPercent
+    //     0x6476a0: bl              #0x647a04  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_derivedDiscountPercent
     // 0x6476a4: mov             x1, x0
     // 0x6476a8: ldur            x0, [fp, #-0x18]
     // 0x6476ac: stur            x1, [fp, #-0x10]
@@ -465,7 +465,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x6476b8: LoadField: d0 = r0->field_7
     //     0x6476b8: ldur            d0, [x0, #7]
     // 0x6476bc: r0 = _priceNumberString()
-    //     0x6476bc: bl              #0x6478d4  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_priceNumberString
+    //     0x6476bc: bl              #0x6478d4  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_priceNumberString
     // 0x6476c0: mov             x3, x0
     // 0x6476c4: b               #0x6476f4
     // 0x6476c8: ldur            x0, [fp, #-0x28]
@@ -477,7 +477,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x6476e0: LoadField: d0 = r0->field_7
     //     0x6476e0: ldur            d0, [x0, #7]
     // 0x6476e4: r0 = _priceNumberString()
-    //     0x6476e4: bl              #0x6478d4  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_priceNumberString
+    //     0x6476e4: bl              #0x6478d4  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_priceNumberString
     // 0x6476e8: b               #0x6476f0
     // 0x6476ec: r0 = Null
     //     0x6476ec: mov             x0, NULL
@@ -491,21 +491,21 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x647708: add             x2, PP, #0x20, lsl #12  ; [pp+0x20578] "discount_percent"
     //     0x64770c: ldr             x2, [x2, #0x578]
     // 0x647710: r0 = _metadataString()
-    //     0x647710: bl              #0x648260  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_metadataString
+    //     0x647710: bl              #0x648260  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_metadataString
     // 0x647714: mov             x1, x0
     // 0x647718: b               #0x647720
     // 0x64771c: mov             x1, x0
     // 0x647720: r2 = "80"
     //     0x647720: ldr             x2, [PP, #0x1130]  ; [pp+0x1130] "80"
     // 0x647724: r0 = _sanitizedDiscountFact()
-    //     0x647724: bl              #0x6477b8  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_sanitizedDiscountFact
+    //     0x647724: bl              #0x6477b8  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_sanitizedDiscountFact
     // 0x647728: ldur            x1, [fp, #-0x18]
     // 0x64772c: r2 = "12"
     //     0x64772c: add             x2, PP, #0x20, lsl #12  ; [pp+0x20580] "12"
     //     0x647730: ldr             x2, [x2, #0x580]
     // 0x647734: stur            x0, [fp, #-8]
     // 0x647738: r0 = _sanitizedDiscountFact()
-    //     0x647738: bl              #0x6477b8  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_sanitizedDiscountFact
+    //     0x647738: bl              #0x6477b8  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_sanitizedDiscountFact
     // 0x64773c: stur            x0, [fp, #-0x10]
     // 0x647740: r0 = DiscountRequestOfferFacts()
     //     0x647740: bl              #0x6477ac  ; AllocateDiscountRequestOfferFactsStub -> DiscountRequestOfferFacts (size=0x10)
@@ -1124,7 +1124,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x6484ac: ldur            x1, [fp, #-0x18]
     // 0x6484b0: mov             x2, x0
     // 0x6484b4: r0 = offering()
-    //     0x6484b4: bl              #0x650f44  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::offering
+    //     0x6484b4: bl              #0x650f44  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::offering
     // 0x6484b8: stur            x0, [fp, #-0x28]
     // 0x6484bc: cmp             w0, NULL
     // 0x6484c0: b.ne            #0x648528
@@ -1170,19 +1170,19 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x64852c: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x648530: ldur            x1, [fp, #-0x20]
     // 0x648534: r0 = isDiscountRequestPaywallSource()
-    //     0x648534: bl              #0x650b58  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isDiscountRequestPaywallSource
+    //     0x648534: bl              #0x650b58  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isDiscountRequestPaywallSource
     // 0x648538: tbnz            w0, #4, #0x648638
     // 0x64853c: ldur            x1, [fp, #-0x18]
     // 0x648540: r2 = "intro-offer-2"
     //     0x648540: add             x2, PP, #0x20, lsl #12  ; [pp+0x205a0] "intro-offer-2"
     //     0x648544: ldr             x2, [x2, #0x5a0]
     // 0x648548: r0 = offering()
-    //     0x648548: bl              #0x650f44  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::offering
+    //     0x648548: bl              #0x650f44  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::offering
     // 0x64854c: cmp             w0, NULL
     // 0x648550: b.ne            #0x648578
     // 0x648554: ldur            x1, [fp, #-0x18]
     // 0x648558: r0 = refreshOfferings()
-    //     0x648558: bl              #0x648724  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshOfferings
+    //     0x648558: bl              #0x648724  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshOfferings
     // 0x64855c: mov             x1, x0
     // 0x648560: stur            x1, [fp, #-0x10]
     // 0x648564: r0 = Await()
@@ -1192,7 +1192,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x64856c: add             x2, PP, #0x20, lsl #12  ; [pp+0x205a0] "intro-offer-2"
     //     0x648570: ldr             x2, [x2, #0x5a0]
     // 0x648574: r0 = offering()
-    //     0x648574: bl              #0x650f44  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::offering
+    //     0x648574: bl              #0x650f44  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::offering
     // 0x648578: stur            x0, [fp, #-0x10]
     // 0x64857c: cmp             w0, NULL
     // 0x648580: b.eq            #0x648600
@@ -1273,7 +1273,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x64864c: b.ne            #0x648664
     // 0x648650: mov             x1, x0
     // 0x648654: r0 = refreshOfferings()
-    //     0x648654: bl              #0x648724  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshOfferings
+    //     0x648654: bl              #0x648724  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshOfferings
     // 0x648658: mov             x1, x0
     // 0x64865c: stur            x1, [fp, #-0x10]
     // 0x648660: r0 = Await()
@@ -1448,7 +1448,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x648824: r4 = const [0x1, 0x1, 0x1, 0x1, null]
     //     0x648824: ldr             x4, [PP, #0x1048]  ; [pp+0x1048] List(5) [0x1, 0x1, 0x1, 0x1, Null]
     // 0x648828: r0 = _extension#0.firstOrNull()
-    //     0x648828: bl              #0x6509fc  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] ::_extension#0.firstOrNull
+    //     0x648828: bl              #0x6509fc  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] ::_extension#0.firstOrNull
     // 0x64882c: ldur            x2, [fp, #-0x78]
     // 0x648830: StoreField: r2->field_2f = r0
     //     0x648830: stur            w0, [x2, #0x2f]
@@ -1460,14 +1460,14 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x648848: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x64884c: mov             x1, x2
     // 0x648850: r0 = refreshIntroEligibilityForAvailablePackages()
-    //     0x648850: bl              #0x6503a4  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshIntroEligibilityForAvailablePackages
+    //     0x648850: bl              #0x6503a4  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshIntroEligibilityForAvailablePackages
     // 0x648854: mov             x1, x0
     // 0x648858: stur            x1, [fp, #-0x80]
     // 0x64885c: r0 = Await()
     //     0x64885c: bl              #0x60ad4c  ; AwaitStub
     // 0x648860: ldur            x1, [fp, #-0x78]
     // 0x648864: r0 = syncPaywallTemplateSubscriberAttributes()
-    //     0x648864: bl              #0x648b0c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::syncPaywallTemplateSubscriberAttributes
+    //     0x648864: bl              #0x648b0c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::syncPaywallTemplateSubscriberAttributes
     // 0x648868: mov             x1, x0
     // 0x64886c: stur            x1, [fp, #-0x80]
     // 0x648870: r0 = Await()
@@ -1497,7 +1497,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x6488b4: mov             x0, x16
     // 0x6488b8: stur            x0, [fp, #-0x88]
     // 0x6488bc: r0 = _offeringsErrorMessage()
-    //     0x6488bc: bl              #0x648988  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_offeringsErrorMessage
+    //     0x6488bc: bl              #0x648988  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_offeringsErrorMessage
     // 0x6488c0: r0 = InitLateStaticField(0x62c) // [package:flutter/src/foundation/print.dart] ::debugPrint
     //     0x6488c0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x6488c4: ldr             x0, [x0, #0xc58]
@@ -1627,7 +1627,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x648a10: StoreField: r0->field_f = r16
     //     0x648a10: stur            w16, [x0, #0xf]
     // 0x648a14: r0 = monthlyStoreProductId()
-    //     0x648a14: bl              #0x648b00  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::monthlyStoreProductId
+    //     0x648a14: bl              #0x648b00  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::monthlyStoreProductId
     // 0x648a18: ldur            x1, [fp, #-0x10]
     // 0x648a1c: ArrayStore: r1[1] = r0  ; List_4
     //     0x648a1c: add             x25, x1, #0x13
@@ -1645,7 +1645,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x648a48: ArrayStore: r1[0] = r16  ; List_4
     //     0x648a48: stur            w16, [x1, #0x17]
     // 0x648a4c: r0 = yearlyStoreProductId()
-    //     0x648a4c: bl              #0x648af4  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::yearlyStoreProductId
+    //     0x648a4c: bl              #0x648af4  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::yearlyStoreProductId
     // 0x648a50: ldur            x1, [fp, #-0x10]
     // 0x648a54: ArrayStore: r1[3] = r0  ; List_4
     //     0x648a54: add             x25, x1, #0x1b
@@ -1658,8 +1658,8 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x648a70: b.eq            #0x648a78
     //     0x648a74: bl              #0xe54358  ; ArrayWriteBarrierStub
     // 0x648a78: ldur            x0, [fp, #-0x10]
-    // 0x648a7c: r16 = " to the ball-ai-pro entitlement and add them to your default offering."
-    //     0x648a7c: add             x16, PP, #0xa, lsl #12  ; [pp+0xa7d8] " to the ball-ai-pro entitlement and add them to your default offering."
+    // 0x648a7c: r16 = " to the kourt-ai-pro entitlement and add them to your default offering."
+    //     0x648a7c: add             x16, PP, #0xa, lsl #12  ; [pp+0xa7d8] " to the kourt-ai-pro entitlement and add them to your default offering."
     //     0x648a80: ldr             x16, [x16, #0x7d8]
     // 0x648a84: StoreField: r0->field_1f = r16
     //     0x648a84: stur            w16, [x0, #0x1f]
@@ -1707,16 +1707,16 @@ class RevenueCatManager extends ChangeNotifier {
   }
   String yearlyStoreProductId() {
     // ** addr: 0x648af4, size: 0xc
-    // 0x648af4: r0 = "ball_ai_pro_yearly:ball-ai-pro-yearly"
-    //     0x648af4: add             x0, PP, #0xa, lsl #12  ; [pp+0xa7f8] "ball_ai_pro_yearly:ball-ai-pro-yearly"
+    // 0x648af4: r0 = "kourt_ai_pro_yearly:kourt-ai-pro-yearly"
+    //     0x648af4: add             x0, PP, #0xa, lsl #12  ; [pp+0xa7f8] "kourt_ai_pro_yearly:kourt-ai-pro-yearly"
     //     0x648af8: ldr             x0, [x0, #0x7f8]
     // 0x648afc: ret
     //     0x648afc: ret             
   }
   String monthlyStoreProductId() {
     // ** addr: 0x648b00, size: 0xc
-    // 0x648b00: r0 = "ball_ai_pro_monthly:ball-ai-pro-monthly"
-    //     0x648b00: add             x0, PP, #0xa, lsl #12  ; [pp+0xa800] "ball_ai_pro_monthly:ball-ai-pro-monthly"
+    // 0x648b00: r0 = "kourt_ai_pro_monthly:kourt-ai-pro-monthly"
+    //     0x648b00: add             x0, PP, #0xa, lsl #12  ; [pp+0xa800] "kourt_ai_pro_monthly:kourt-ai-pro-monthly"
     //     0x648b04: ldr             x0, [x0, #0x800]
     // 0x648b08: ret
     //     0x648b08: ret             
@@ -1750,11 +1750,11 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x648b48: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x648b4c: mov             x1, x0
     // 0x648b50: r0 = monthlyPackage()
-    //     0x648b50: bl              #0x650224  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::monthlyPackage
+    //     0x648b50: bl              #0x650224  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::monthlyPackage
     // 0x648b54: ldur            x1, [fp, #-0xa0]
     // 0x648b58: stur            x0, [fp, #-0xa0]
     // 0x648b5c: r0 = annualPackage()
-    //     0x648b5c: bl              #0x64fcac  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::annualPackage
+    //     0x648b5c: bl              #0x64fcac  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::annualPackage
     // 0x648b60: mov             x1, x0
     // 0x648b64: ldur            x0, [fp, #-0xa0]
     // 0x648b68: cmp             w0, NULL
@@ -1870,7 +1870,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x648c78: mov             x1, x0
     // 0x648c7c: mov             v0.16b, v1.16b
     // 0x648c80: r0 = _formatSavingsAmount()
-    //     0x648c80: bl              #0x64f998  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_formatSavingsAmount
+    //     0x648c80: bl              #0x64f998  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_formatSavingsAmount
     // 0x648c84: ldur            d0, [fp, #-0xc0]
     // 0x648c88: ldur            d1, [fp, #-0xb8]
     // 0x648c8c: stur            x0, [fp, #-0xa0]
@@ -2252,7 +2252,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x64fcc8: b.ls            #0x64fe14
     // 0x64fccc: mov             x1, x0
     // 0x64fcd0: r0 = availablePackages()
-    //     0x64fcd0: bl              #0x65008c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::availablePackages
+    //     0x64fcd0: bl              #0x65008c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::availablePackages
     // 0x64fcd4: stur            x0, [fp, #-0x28]
     // 0x64fcd8: LoadField: r1 = r0->field_b
     //     0x64fcd8: ldur            w1, [x0, #0xb]
@@ -2294,14 +2294,14 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x64fd38: DecompressPointer r2
     //     0x64fd38: add             x2, x2, HEAP, lsl #32
     // 0x64fd3c: mov             x1, x2
-    // 0x64fd40: r2 = "ball-ai-pro-yearly"
-    //     0x64fd40: add             x2, PP, #9, lsl #12  ; [pp+0x9f30] "ball-ai-pro-yearly"
+    // 0x64fd40: r2 = "kourt-ai-pro-yearly"
+    //     0x64fd40: add             x2, PP, #9, lsl #12  ; [pp+0x9f30] "kourt-ai-pro-yearly"
     //     0x64fd44: ldr             x2, [x2, #0xf30]
-    // 0x64fd48: r3 = "ball_ai_pro_yearly"
-    //     0x64fd48: add             x3, PP, #9, lsl #12  ; [pp+0x9f38] "ball_ai_pro_yearly"
+    // 0x64fd48: r3 = "kourt_ai_pro_yearly"
+    //     0x64fd48: add             x3, PP, #9, lsl #12  ; [pp+0x9f38] "kourt_ai_pro_yearly"
     //     0x64fd4c: ldr             x3, [x3, #0xf38]
     // 0x64fd50: r0 = _matchesStoreProduct()
-    //     0x64fd50: bl              #0x64fe68  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_matchesStoreProduct
+    //     0x64fd50: bl              #0x64fe68  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_matchesStoreProduct
     // 0x64fd54: tbz             w0, #4, #0x64fd68
     // 0x64fd58: ldur            x1, [fp, #-0x10]
     // 0x64fd5c: ldur            x0, [fp, #-0x28]
@@ -2315,7 +2315,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x64fd74: ret             
     // 0x64fd78: ldur            x1, [fp, #-8]
     // 0x64fd7c: r0 = availablePackages()
-    //     0x64fd7c: bl              #0x65008c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::availablePackages
+    //     0x64fd7c: bl              #0x65008c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::availablePackages
     // 0x64fd80: LoadField: r1 = r0->field_b
     //     0x64fd80: ldur            w1, [x0, #0xb]
     // 0x64fd84: r2 = LoadInt32Instr(r1)
@@ -2391,14 +2391,14 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x64fe34: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x64fe38: cmp             SP, x16
     //     0x64fe3c: b.ls            #0x64fe60
-    // 0x64fe40: r2 = "ball-ai-pro-yearly"
-    //     0x64fe40: add             x2, PP, #9, lsl #12  ; [pp+0x9f30] "ball-ai-pro-yearly"
+    // 0x64fe40: r2 = "kourt-ai-pro-yearly"
+    //     0x64fe40: add             x2, PP, #9, lsl #12  ; [pp+0x9f30] "kourt-ai-pro-yearly"
     //     0x64fe44: ldr             x2, [x2, #0xf30]
-    // 0x64fe48: r3 = "ball_ai_pro_yearly"
-    //     0x64fe48: add             x3, PP, #9, lsl #12  ; [pp+0x9f38] "ball_ai_pro_yearly"
+    // 0x64fe48: r3 = "kourt_ai_pro_yearly"
+    //     0x64fe48: add             x3, PP, #9, lsl #12  ; [pp+0x9f38] "kourt_ai_pro_yearly"
     //     0x64fe4c: ldr             x3, [x3, #0xf38]
     // 0x64fe50: r0 = _matchesStoreProduct()
-    //     0x64fe50: bl              #0x64fe68  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_matchesStoreProduct
+    //     0x64fe50: bl              #0x64fe68  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_matchesStoreProduct
     // 0x64fe54: LeaveFrame
     //     0x64fe54: mov             SP, fp
     //     0x64fe58: ldp             fp, lr, [SP], #0x10
@@ -2651,7 +2651,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x6500dc: bl              #0x5c7588  ; [dart:core] _GrowableList::_GrowableList
     // 0x6500e0: stur            x0, [fp, #-8]
     // 0x6500e4: r1 = Function '<anonymous closure>':.
-    //     0x6500e4: add             x1, PP, #0xb, lsl #12  ; [pp+0xb148] AnonymousClosure: (0x650124), in [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::availablePackages (0x65008c)
+    //     0x6500e4: add             x1, PP, #0xb, lsl #12  ; [pp+0xb148] AnonymousClosure: (0x650124), in [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::availablePackages (0x65008c)
     //     0x6500e8: ldr             x1, [x1, #0x148]
     // 0x6500ec: r2 = Null
     //     0x6500ec: mov             x2, NULL
@@ -2696,8 +2696,8 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x650148: DecompressPointer r0
     //     0x650148: add             x0, x0, HEAP, lsl #32
     // 0x65014c: mov             x1, x0
-    // 0x650150: r0 = isSupportedBallAiProStoreProduct()
-    //     0x650150: bl              #0x650168  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isSupportedBallAiProStoreProduct
+    // 0x650150: r0 = isSupportedKourtAiProStoreProduct()
+    //     0x650150: bl              #0x650168  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isSupportedKourtAiProStoreProduct
     // 0x650154: LeaveFrame
     //     0x650154: mov             SP, fp
     //     0x650158: ldp             fp, lr, [SP], #0x10
@@ -2707,7 +2707,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x650160: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x650164: b               #0x650138
   }
-  static _ isSupportedBallAiProStoreProduct(/* No info */) {
+  static _ isSupportedKourtAiProStoreProduct(/* No info */) {
     // ** addr: 0x650168, size: 0x50
     // 0x650168: EnterFrame
     //     0x650168: stp             fp, lr, [SP, #-0x10]!
@@ -2723,14 +2723,14 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x650184: b.ls            #0x6501b0
     // 0x650188: mov             x1, x0
     // 0x65018c: r0 = isMonthlyStoreProduct()
-    //     0x65018c: bl              #0x6501e8  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isMonthlyStoreProduct
+    //     0x65018c: bl              #0x6501e8  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isMonthlyStoreProduct
     // 0x650190: tbnz            w0, #4, #0x65019c
     // 0x650194: r0 = true
     //     0x650194: add             x0, NULL, #0x20  ; true
     // 0x650198: b               #0x6501a4
     // 0x65019c: ldur            x1, [fp, #-8]
     // 0x6501a0: r0 = isYearlyStoreProduct()
-    //     0x6501a0: bl              #0x64fe2c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isYearlyStoreProduct
+    //     0x6501a0: bl              #0x64fe2c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isYearlyStoreProduct
     // 0x6501a4: LeaveFrame
     //     0x6501a4: mov             SP, fp
     //     0x6501a8: ldp             fp, lr, [SP], #0x10
@@ -2740,7 +2740,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x6501b0: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x6501b4: b               #0x650188
   }
-  [closure] static bool isSupportedBallAiProStoreProduct(dynamic, String) {
+  [closure] static bool isSupportedKourtAiProStoreProduct(dynamic, String) {
     // ** addr: 0x6501b8, size: 0x30
     // 0x6501b8: EnterFrame
     //     0x6501b8: stp             fp, lr, [SP, #-0x10]!
@@ -2750,8 +2750,8 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x6501c4: cmp             SP, x16
     //     0x6501c8: b.ls            #0x6501e0
     // 0x6501cc: ldr             x1, [fp, #0x10]
-    // 0x6501d0: r0 = isSupportedBallAiProStoreProduct()
-    //     0x6501d0: bl              #0x650168  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isSupportedBallAiProStoreProduct
+    // 0x6501d0: r0 = isSupportedKourtAiProStoreProduct()
+    //     0x6501d0: bl              #0x650168  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isSupportedKourtAiProStoreProduct
     // 0x6501d4: LeaveFrame
     //     0x6501d4: mov             SP, fp
     //     0x6501d8: ldp             fp, lr, [SP], #0x10
@@ -2770,14 +2770,14 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x6501f0: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x6501f4: cmp             SP, x16
     //     0x6501f8: b.ls            #0x65021c
-    // 0x6501fc: r2 = "ball-ai-pro-monthly"
-    //     0x6501fc: add             x2, PP, #9, lsl #12  ; [pp+0x9f40] "ball-ai-pro-monthly"
+    // 0x6501fc: r2 = "kourt-ai-pro-monthly"
+    //     0x6501fc: add             x2, PP, #9, lsl #12  ; [pp+0x9f40] "kourt-ai-pro-monthly"
     //     0x650200: ldr             x2, [x2, #0xf40]
-    // 0x650204: r3 = "ball_ai_pro_monthly"
-    //     0x650204: add             x3, PP, #9, lsl #12  ; [pp+0x9f48] "ball_ai_pro_monthly"
+    // 0x650204: r3 = "kourt_ai_pro_monthly"
+    //     0x650204: add             x3, PP, #9, lsl #12  ; [pp+0x9f48] "kourt_ai_pro_monthly"
     //     0x650208: ldr             x3, [x3, #0xf48]
     // 0x65020c: r0 = _matchesStoreProduct()
-    //     0x65020c: bl              #0x64fe68  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_matchesStoreProduct
+    //     0x65020c: bl              #0x64fe68  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_matchesStoreProduct
     // 0x650210: LeaveFrame
     //     0x650210: mov             SP, fp
     //     0x650214: ldp             fp, lr, [SP], #0x10
@@ -2803,7 +2803,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x650240: b.ls            #0x65038c
     // 0x650244: mov             x1, x0
     // 0x650248: r0 = availablePackages()
-    //     0x650248: bl              #0x65008c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::availablePackages
+    //     0x650248: bl              #0x65008c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::availablePackages
     // 0x65024c: stur            x0, [fp, #-0x28]
     // 0x650250: LoadField: r1 = r0->field_b
     //     0x650250: ldur            w1, [x0, #0xb]
@@ -2845,14 +2845,14 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x6502b0: DecompressPointer r2
     //     0x6502b0: add             x2, x2, HEAP, lsl #32
     // 0x6502b4: mov             x1, x2
-    // 0x6502b8: r2 = "ball-ai-pro-monthly"
-    //     0x6502b8: add             x2, PP, #9, lsl #12  ; [pp+0x9f40] "ball-ai-pro-monthly"
+    // 0x6502b8: r2 = "kourt-ai-pro-monthly"
+    //     0x6502b8: add             x2, PP, #9, lsl #12  ; [pp+0x9f40] "kourt-ai-pro-monthly"
     //     0x6502bc: ldr             x2, [x2, #0xf40]
-    // 0x6502c0: r3 = "ball_ai_pro_monthly"
-    //     0x6502c0: add             x3, PP, #9, lsl #12  ; [pp+0x9f48] "ball_ai_pro_monthly"
+    // 0x6502c0: r3 = "kourt_ai_pro_monthly"
+    //     0x6502c0: add             x3, PP, #9, lsl #12  ; [pp+0x9f48] "kourt_ai_pro_monthly"
     //     0x6502c4: ldr             x3, [x3, #0xf48]
     // 0x6502c8: r0 = _matchesStoreProduct()
-    //     0x6502c8: bl              #0x64fe68  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_matchesStoreProduct
+    //     0x6502c8: bl              #0x64fe68  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_matchesStoreProduct
     // 0x6502cc: tbz             w0, #4, #0x6502e0
     // 0x6502d0: ldur            x1, [fp, #-0x10]
     // 0x6502d4: ldur            x0, [fp, #-0x28]
@@ -2866,7 +2866,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x6502ec: ret             
     // 0x6502f0: ldur            x1, [fp, #-8]
     // 0x6502f4: r0 = availablePackages()
-    //     0x6502f4: bl              #0x65008c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::availablePackages
+    //     0x6502f4: bl              #0x65008c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::availablePackages
     // 0x6502f8: LoadField: r1 = r0->field_b
     //     0x6502f8: ldur            w1, [x0, #0xb]
     // 0x6502fc: r2 = LoadInt32Instr(r1)
@@ -2962,7 +2962,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x6503e0: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x6503e4: mov             x1, x0
     // 0x6503e8: r0 = availablePackages()
-    //     0x6503e8: bl              #0x65008c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::availablePackages
+    //     0x6503e8: bl              #0x65008c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::availablePackages
     // 0x6503ec: mov             x1, x0
     // 0x6503f0: r2 = Closure: (Package) => bool from Function '_packageHasFreeTrial@628194896': static.
     //     0x6503f0: add             x2, PP, #0xb, lsl #12  ; [pp+0xb150] Closure: (Package) => bool from Function '_packageHasFreeTrial@628194896': static. (0x10693487c)
@@ -2970,7 +2970,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x6503f8: r0 = where()
     //     0x6503f8: bl              #0x8c5098  ; [dart:_compact_hash] __Set&_HashVMBase&SetMixin::where
     // 0x6503fc: r1 = Function '<anonymous closure>':.
-    //     0x6503fc: add             x1, PP, #0xb, lsl #12  ; [pp+0xb158] AnonymousClosure: (0x650864), in [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshIntroEligibilityForAvailablePackages (0x6503a4)
+    //     0x6503fc: add             x1, PP, #0xb, lsl #12  ; [pp+0xb158] AnonymousClosure: (0x650864), in [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshIntroEligibilityForAvailablePackages (0x6503a4)
     //     0x650400: ldr             x1, [x1, #0x158]
     // 0x650404: r2 = Null
     //     0x650404: mov             x2, NULL
@@ -3102,7 +3102,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x65088c: b.ls            #0x6508a4
     // 0x650890: ldr             x1, [fp, #0x10]
     // 0x650894: r0 = _packageHasFreeTrial()
-    //     0x650894: bl              #0x6508ac  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_packageHasFreeTrial
+    //     0x650894: bl              #0x6508ac  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_packageHasFreeTrial
     // 0x650898: LeaveFrame
     //     0x650898: mov             SP, fp
     //     0x65089c: ldp             fp, lr, [SP], #0x10
@@ -3252,7 +3252,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x650b64: cmp             SP, x16
     //     0x650b68: b.ls            #0x650b8c
     // 0x650b6c: r0 = paywallPlacementID()
-    //     0x650b6c: bl              #0x650b94  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::paywallPlacementID
+    //     0x650b6c: bl              #0x650b94  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::paywallPlacementID
     // 0x650b70: mov             x2, x0
     // 0x650b74: r1 = _ConstSet len:11
     //     0x650b74: add             x1, PP, #0x20, lsl #12  ; [pp+0x205d0] Set<String>(11)
@@ -3278,7 +3278,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x650ba0: cmp             SP, x16
     //     0x650ba4: b.ls            #0x650bc8
     // 0x650ba8: r0 = _sanitizedRevenueCatPlacementID()
-    //     0x650ba8: bl              #0x650bd0  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_sanitizedRevenueCatPlacementID
+    //     0x650ba8: bl              #0x650bd0  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_sanitizedRevenueCatPlacementID
     // 0x650bac: LoadField: r1 = r0->field_7
     //     0x650bac: ldur            w1, [x0, #7]
     // 0x650bb0: cbnz            w1, #0x650bbc
@@ -3901,7 +3901,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x6512ac: r0 = NullErrorSharedWithoutFPURegs()
     //     0x6512ac: bl              #0xe569ec  ; NullErrorSharedWithoutFPURegsStub
   }
-  get _ hasBallAiProEntitlement(/* No info */) {
+  get _ hasKourtAiProEntitlement(/* No info */) {
     // ** addr: 0x65933c, size: 0x34
     // 0x65933c: EnterFrame
     //     0x65933c: stp             fp, lr, [SP, #-0x10]!
@@ -3914,8 +3914,8 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x659350: ldur            w2, [x1, #0x27]
     // 0x659354: DecompressPointer r2
     //     0x659354: add             x2, x2, HEAP, lsl #32
-    // 0x659358: r0 = _hasBallAiProAccess()
-    //     0x659358: bl              #0x659e38  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_hasBallAiProAccess
+    // 0x659358: r0 = _hasKourtAiProAccess()
+    //     0x659358: bl              #0x659e38  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_hasKourtAiProAccess
     // 0x65935c: LeaveFrame
     //     0x65935c: mov             SP, fp
     //     0x659360: ldp             fp, lr, [SP], #0x10
@@ -4120,7 +4120,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x659b40: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x659b44: b               #0x659ae0
   }
-  get _ hasLapsedBallAiProTrialOrIntroEntitlement(/* No info */) {
+  get _ hasLapsedKourtAiProTrialOrIntroEntitlement(/* No info */) {
     // ** addr: 0x659c70, size: 0xe8
     // 0x659c70: EnterFrame
     //     0x659c70: stp             fp, lr, [SP, #-0x10]!
@@ -4150,8 +4150,8 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x659cac: add             x0, x0, HEAP, lsl #32
     // 0x659cb0: mov             x1, x0
     // 0x659cb4: stur            x0, [fp, #-8]
-    // 0x659cb8: r2 = "ball-ai-pro"
-    //     0x659cb8: add             x2, PP, #9, lsl #12  ; [pp+0x9f28] "ball-ai-pro"
+    // 0x659cb8: r2 = "kourt-ai-pro"
+    //     0x659cb8: add             x2, PP, #9, lsl #12  ; [pp+0x9f28] "kourt-ai-pro"
     //     0x659cbc: ldr             x2, [x2, #0xf28]
     // 0x659cc0: r0 = _getValueOrData()
     //     0x659cc0: bl              #0xe4fc24  ; [dart:_compact_hash] __Map&_HashVMBase&MapMixin&_HashBase&_OperatorEqualsAndHashCode&_LinkedHashMapMixin::_getValueOrData
@@ -4211,7 +4211,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x659d50: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x659d54: b               #0x659c88
   }
-  get _ hasActiveRenewingBallAiProEntitlement(/* No info */) {
+  get _ hasActiveRenewingKourtAiProEntitlement(/* No info */) {
     // ** addr: 0x659d58, size: 0x54
     // 0x659d58: EnterFrame
     //     0x659d58: stp             fp, lr, [SP, #-0x10]!
@@ -4220,8 +4220,8 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x659d60: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x659d64: cmp             SP, x16
     //     0x659d68: b.ls            #0x659da4
-    // 0x659d6c: r0 = ballAiProEntitlement()
-    //     0x659d6c: bl              #0x659dac  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::ballAiProEntitlement
+    // 0x659d6c: r0 = kourtAiProEntitlement()
+    //     0x659d6c: bl              #0x659dac  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::kourtAiProEntitlement
     // 0x659d70: cmp             w0, NULL
     // 0x659d74: b.eq            #0x659d94
     // 0x659d78: LoadField: r1 = r0->field_b
@@ -4246,7 +4246,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x659da4: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x659da8: b               #0x659d6c
   }
-  get _ ballAiProEntitlement(/* No info */) {
+  get _ kourtAiProEntitlement(/* No info */) {
     // ** addr: 0x659dac, size: 0x8c
     // 0x659dac: EnterFrame
     //     0x659dac: stp             fp, lr, [SP, #-0x10]!
@@ -4276,8 +4276,8 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x659de8: add             x0, x0, HEAP, lsl #32
     // 0x659dec: mov             x1, x0
     // 0x659df0: stur            x0, [fp, #-8]
-    // 0x659df4: r2 = "ball-ai-pro"
-    //     0x659df4: add             x2, PP, #9, lsl #12  ; [pp+0x9f28] "ball-ai-pro"
+    // 0x659df4: r2 = "kourt-ai-pro"
+    //     0x659df4: add             x2, PP, #9, lsl #12  ; [pp+0x9f28] "kourt-ai-pro"
     //     0x659df8: ldr             x2, [x2, #0xf28]
     // 0x659dfc: r0 = _getValueOrData()
     //     0x659dfc: bl              #0xe4fc24  ; [dart:_compact_hash] __Map&_HashVMBase&MapMixin&_HashBase&_OperatorEqualsAndHashCode&_LinkedHashMapMixin::_getValueOrData
@@ -4302,7 +4302,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x659e30: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x659e34: b               #0x659dc4
   }
-  _ _hasBallAiProAccess(/* No info */) {
+  _ _hasKourtAiProAccess(/* No info */) {
     // ** addr: 0x659e38, size: 0xd0
     // 0x659e38: EnterFrame
     //     0x659e38: stp             fp, lr, [SP, #-0x10]!
@@ -4335,8 +4335,8 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x659e7c: add             x3, x3, HEAP, lsl #32
     // 0x659e80: mov             x1, x3
     // 0x659e84: stur            x3, [fp, #-8]
-    // 0x659e88: r2 = "ball-ai-pro"
-    //     0x659e88: add             x2, PP, #9, lsl #12  ; [pp+0x9f28] "ball-ai-pro"
+    // 0x659e88: r2 = "kourt-ai-pro"
+    //     0x659e88: add             x2, PP, #9, lsl #12  ; [pp+0x9f28] "kourt-ai-pro"
     //     0x659e8c: ldr             x2, [x2, #0xf28]
     // 0x659e90: r0 = _getValueOrData()
     //     0x659e90: bl              #0xe4fc24  ; [dart:_compact_hash] __Map&_HashVMBase&MapMixin&_HashBase&_OperatorEqualsAndHashCode&_LinkedHashMapMixin::_getValueOrData
@@ -4371,8 +4371,8 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x659ee0: ldur            w1, [x0, #0xf]
     // 0x659ee4: DecompressPointer r1
     //     0x659ee4: add             x1, x1, HEAP, lsl #32
-    // 0x659ee8: r2 = Closure: (String) => bool from Function 'isSupportedBallAiProStoreProduct': static.
-    //     0x659ee8: add             x2, PP, #0x15, lsl #12  ; [pp+0x151a0] Closure: (String) => bool from Function 'isSupportedBallAiProStoreProduct': static. (0x1069341b8)
+    // 0x659ee8: r2 = Closure: (String) => bool from Function 'isSupportedKourtAiProStoreProduct': static.
+    //     0x659ee8: add             x2, PP, #0x15, lsl #12  ; [pp+0x151a0] Closure: (String) => bool from Function 'isSupportedKourtAiProStoreProduct': static. (0x1069341b8)
     //     0x659eec: ldr             x2, [x2, #0x1a0]
     // 0x659ef0: r0 = any()
     //     0x659ef0: bl              #0x8b37d4  ; [dart:collection] ListBase::any
@@ -4469,14 +4469,14 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x65a230: stur            w2, [x0, #0x43]
     // 0x65a234: mov             x1, x0
     // 0x65a238: r0 = refreshCustomerInfo()
-    //     0x65a238: bl              #0x65b240  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshCustomerInfo
+    //     0x65a238: bl              #0x65b240  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshCustomerInfo
     // 0x65a23c: mov             x1, x0
     // 0x65a240: stur            x1, [fp, #-0xa0]
     // 0x65a244: r0 = Await()
     //     0x65a244: bl              #0x60ad4c  ; AwaitStub
     // 0x65a248: ldur            x1, [fp, #-0x78]
     // 0x65a24c: r0 = refreshOfferings()
-    //     0x65a24c: bl              #0x648724  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshOfferings
+    //     0x65a24c: bl              #0x648724  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshOfferings
     // 0x65a250: mov             x1, x0
     // 0x65a254: stur            x1, [fp, #-0xa0]
     // 0x65a258: r0 = Await()
@@ -4489,7 +4489,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x65a26c: add             x4, PP, #0x1b, lsl #12  ; [pp+0x1b150] List(7) [0, 0x3, 0x1, 0x2, "fcmToken", 0x2, Null]
     //     0x65a270: ldr             x4, [x4, #0x150]
     // 0x65a274: r0 = syncSubscriberAttributes()
-    //     0x65a274: bl              #0x65a918  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::syncSubscriberAttributes
+    //     0x65a274: bl              #0x65a918  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::syncSubscriberAttributes
     // 0x65a278: mov             x1, x0
     // 0x65a27c: stur            x1, [fp, #-0xa0]
     // 0x65a280: r0 = Await()
@@ -4499,7 +4499,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x65a28c: r2 = true
     //     0x65a28c: add             x2, NULL, #0x20  ; true
     // 0x65a290: r0 = syncEngagementAttributes()
-    //     0x65a290: bl              #0x65a2f4  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::syncEngagementAttributes
+    //     0x65a290: bl              #0x65a2f4  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::syncEngagementAttributes
     // 0x65a294: mov             x1, x0
     // 0x65a298: stur            x1, [fp, #-0xa0]
     // 0x65a29c: r0 = Await()
@@ -4678,7 +4678,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x65a468: mov             x2, x1
     // 0x65a46c: ldur            x1, [fp, #-0xa8]
     // 0x65a470: r0 = _countBand()
-    //     0x65a470: bl              #0x65a750  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_countBand
+    //     0x65a470: bl              #0x65a750  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_countBand
     // 0x65a474: ldur            x1, [fp, #-0x88]
     // 0x65a478: ArrayStore: r1[3] = r0  ; List_4
     //     0x65a478: add             x25, x1, #0x1b
@@ -4746,7 +4746,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x65a514: r1 = 0
     //     0x65a514: mov             x1, #0
     // 0x65a518: r0 = _countBand()
-    //     0x65a518: bl              #0x65a750  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_countBand
+    //     0x65a518: bl              #0x65a750  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_countBand
     // 0x65a51c: ldur            x1, [fp, #-0x88]
     // 0x65a520: ArrayStore: r1[7] = r0  ; List_4
     //     0x65a520: add             x25, x1, #0x2b
@@ -4831,7 +4831,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x65a5fc: mov             x2, x1
     // 0x65a600: ldur            x1, [fp, #-0xa0]
     // 0x65a604: r0 = _countBand()
-    //     0x65a604: bl              #0x65a750  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_countBand
+    //     0x65a604: bl              #0x65a750  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_countBand
     // 0x65a608: ldur            x1, [fp, #-0x88]
     // 0x65a60c: ArrayStore: r1[11] = r0  ; List_4
     //     0x65a60c: add             x25, x1, #0x3b
@@ -5271,7 +5271,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x65aae0: ldur            x1, [fp, #-0xb8]
     // 0x65aae4: ldur            x2, [fp, #-0xc0]
     // 0x65aae8: r0 = _profileAttributes()
-    //     0x65aae8: bl              #0x65abe0  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_profileAttributes
+    //     0x65aae8: bl              #0x65abe0  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_profileAttributes
     // 0x65aaec: ldur            x1, [fp, #-0xc8]
     // 0x65aaf0: mov             x2, x0
     // 0x65aaf4: r0 = addAll()
@@ -5410,7 +5410,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x65ac50: mov             x1, x3
     // 0x65ac54: stur            x3, [fp, #-0x10]
     // 0x65ac58: r0 = _ageBand()
-    //     0x65ac58: bl              #0x65b0f4  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_ageBand
+    //     0x65ac58: bl              #0x65b0f4  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_ageBand
     // 0x65ac5c: cmp             w0, NULL
     // 0x65ac60: b.ne            #0x65ac68
     // 0x65ac64: r0 = ""
@@ -5438,7 +5438,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x65aca8: DecompressPointer r1
     //     0x65aca8: add             x1, x1, HEAP, lsl #32
     // 0x65acac: r0 = _norm()
-    //     0x65acac: bl              #0x65b038  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_norm
+    //     0x65acac: bl              #0x65b038  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_norm
     // 0x65acb0: ldur            x1, [fp, #-0x18]
     // 0x65acb4: ArrayStore: r1[3] = r0  ; List_4
     //     0x65acb4: add             x25, x1, #0x1b
@@ -5462,7 +5462,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x65acf0: DecompressPointer r1
     //     0x65acf0: add             x1, x1, HEAP, lsl #32
     // 0x65acf4: r0 = _norm()
-    //     0x65acf4: bl              #0x65b038  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_norm
+    //     0x65acf4: bl              #0x65b038  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_norm
     // 0x65acf8: ldur            x1, [fp, #-0x18]
     // 0x65acfc: ArrayStore: r1[5] = r0  ; List_4
     //     0x65acfc: add             x25, x1, #0x23
@@ -5486,7 +5486,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x65ad38: DecompressPointer r1
     //     0x65ad38: add             x1, x1, HEAP, lsl #32
     // 0x65ad3c: r0 = _norm()
-    //     0x65ad3c: bl              #0x65b038  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_norm
+    //     0x65ad3c: bl              #0x65b038  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_norm
     // 0x65ad40: ldur            x1, [fp, #-0x18]
     // 0x65ad44: ArrayStore: r1[7] = r0  ; List_4
     //     0x65ad44: add             x25, x1, #0x2b
@@ -5510,7 +5510,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x65ad80: DecompressPointer r1
     //     0x65ad80: add             x1, x1, HEAP, lsl #32
     // 0x65ad84: r0 = _norm()
-    //     0x65ad84: bl              #0x65b038  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_norm
+    //     0x65ad84: bl              #0x65b038  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_norm
     // 0x65ad88: ldur            x1, [fp, #-0x18]
     // 0x65ad8c: ArrayStore: r1[9] = r0  ; List_4
     //     0x65ad8c: add             x25, x1, #0x33
@@ -5709,7 +5709,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x65afdc: add             x2, x2, HEAP, lsl #32
     // 0x65afe0: mov             x1, x2
     // 0x65afe4: r0 = _norm()
-    //     0x65afe4: bl              #0x65b038  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_norm
+    //     0x65afe4: bl              #0x65b038  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_norm
     // 0x65afe8: ldur            x1, [fp, #-0x18]
     // 0x65afec: ArrayStore: r1[23] = r0  ; List_4
     //     0x65afec: add             x25, x1, #0x6b
@@ -5973,7 +5973,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x65b298: mov             x2, x0
     // 0x65b29c: stur            x0, [fp, #-0x60]
     // 0x65b2a0: r0 = _applyCustomerInfo()
-    //     0x65b2a0: bl              #0x65b318  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_applyCustomerInfo
+    //     0x65b2a0: bl              #0x65b318  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_applyCustomerInfo
     // 0x65b2a4: ldur            x0, [fp, #-0x60]
     // 0x65b2a8: r0 = ReturnAsync()
     //     0x65b2a8: b               #0x5f1e3c  ; ReturnAsyncStub
@@ -6044,8 +6044,8 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x65b358: bl              #0xe547dc  ; WriteBarrierWrappersStub
     // 0x65b35c: mov             x2, x1
     // 0x65b360: mov             x1, x3
-    // 0x65b364: r0 = _activeBallAiProProductId()
-    //     0x65b364: bl              #0x65b3a4  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_activeBallAiProProductId
+    // 0x65b364: r0 = _activeKourtAiProProductId()
+    //     0x65b364: bl              #0x65b3a4  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_activeKourtAiProProductId
     // 0x65b368: ldur            x1, [fp, #-8]
     // 0x65b36c: StoreField: r1->field_3b = r0
     //     0x65b36c: stur            w0, [x1, #0x3b]
@@ -6068,7 +6068,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x65b39c: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x65b3a0: b               #0x65b33c
   }
-  _ _activeBallAiProProductId(/* No info */) {
+  _ _activeKourtAiProProductId(/* No info */) {
     // ** addr: 0x65b3a4, size: 0x170
     // 0x65b3a4: EnterFrame
     //     0x65b3a4: stp             fp, lr, [SP, #-0x10]!
@@ -6092,8 +6092,8 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x65b3d0: add             x3, x3, HEAP, lsl #32
     // 0x65b3d4: mov             x1, x3
     // 0x65b3d8: stur            x3, [fp, #-8]
-    // 0x65b3dc: r2 = "ball-ai-pro"
-    //     0x65b3dc: add             x2, PP, #9, lsl #12  ; [pp+0x9f28] "ball-ai-pro"
+    // 0x65b3dc: r2 = "kourt-ai-pro"
+    //     0x65b3dc: add             x2, PP, #9, lsl #12  ; [pp+0x9f28] "kourt-ai-pro"
     //     0x65b3e0: ldr             x2, [x2, #0xf28]
     // 0x65b3e4: r0 = _getValueOrData()
     //     0x65b3e4: bl              #0xe4fc24  ; [dart:_compact_hash] __Map&_HashVMBase&MapMixin&_HashBase&_OperatorEqualsAndHashCode&_LinkedHashMapMixin::_getValueOrData
@@ -6165,11 +6165,11 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x65b498: mov             x1, x4
     // 0x65b49c: stur            x5, [fp, #-0x18]
     // 0x65b4a0: r0 = isMonthlyStoreProduct()
-    //     0x65b4a0: bl              #0x6501e8  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isMonthlyStoreProduct
+    //     0x65b4a0: bl              #0x6501e8  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isMonthlyStoreProduct
     // 0x65b4a4: tbz             w0, #4, #0x65b4c4
     // 0x65b4a8: ldur            x1, [fp, #-8]
     // 0x65b4ac: r0 = isYearlyStoreProduct()
-    //     0x65b4ac: bl              #0x64fe2c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isYearlyStoreProduct
+    //     0x65b4ac: bl              #0x64fe2c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isYearlyStoreProduct
     // 0x65b4b0: tbz             w0, #4, #0x65b4c4
     // 0x65b4b4: ldur            x0, [fp, #-0x18]
     // 0x65b4b8: ldur            x2, [fp, #-0x28]
@@ -6206,7 +6206,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x65b50c: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x65b510: b               #0x65b464
   }
-  get _ hasActiveCancelledRenewalBallAiPro(/* No info */) {
+  get _ hasActiveCancelledRenewalKourtAiPro(/* No info */) {
     // ** addr: 0x8e8f74, size: 0xa8
     // 0x8e8f74: EnterFrame
     //     0x8e8f74: stp             fp, lr, [SP, #-0x10]!
@@ -6221,8 +6221,8 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x8e8f8c: cmp             SP, x16
     //     0x8e8f90: b.ls            #0x8e9014
     // 0x8e8f94: mov             x1, x0
-    // 0x8e8f98: r0 = ballAiProEntitlement()
-    //     0x8e8f98: bl              #0x659dac  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::ballAiProEntitlement
+    // 0x8e8f98: r0 = kourtAiProEntitlement()
+    //     0x8e8f98: bl              #0x659dac  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::kourtAiProEntitlement
     // 0x8e8f9c: stur            x0, [fp, #-0x10]
     // 0x8e8fa0: cmp             w0, NULL
     // 0x8e8fa4: b.eq            #0x8e8fb4
@@ -6239,8 +6239,8 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x8e8fc0: ret
     //     0x8e8fc0: ret             
     // 0x8e8fc4: ldur            x1, [fp, #-8]
-    // 0x8e8fc8: r0 = hasActiveBallAiProBillingIssue()
-    //     0x8e8fc8: bl              #0x8e9064  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveBallAiProBillingIssue
+    // 0x8e8fc8: r0 = hasActiveKourtAiProBillingIssue()
+    //     0x8e8fc8: bl              #0x8e9064  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveKourtAiProBillingIssue
     // 0x8e8fcc: tbnz            w0, #4, #0x8e8fe0
     // 0x8e8fd0: r0 = false
     //     0x8e8fd0: add             x0, NULL, #0x30  ; false
@@ -6250,8 +6250,8 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x8e8fdc: ret
     //     0x8e8fdc: ret             
     // 0x8e8fe0: ldur            x1, [fp, #-8]
-    // 0x8e8fe4: r0 = hasActiveRenewingBallAiProEntitlement()
-    //     0x8e8fe4: bl              #0x659d58  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveRenewingBallAiProEntitlement
+    // 0x8e8fe4: r0 = hasActiveRenewingKourtAiProEntitlement()
+    //     0x8e8fe4: bl              #0x659d58  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveRenewingKourtAiProEntitlement
     // 0x8e8fe8: tbnz            w0, #4, #0x8e8ffc
     // 0x8e8fec: r0 = false
     //     0x8e8fec: add             x0, NULL, #0x30  ; false
@@ -6263,7 +6263,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x8e8ffc: ldur            x1, [fp, #-8]
     // 0x8e9000: ldur            x2, [fp, #-0x10]
     // 0x8e9004: r0 = _hasConfirmedCancelledRenewal()
-    //     0x8e9004: bl              #0x8e901c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_hasConfirmedCancelledRenewal
+    //     0x8e9004: bl              #0x8e901c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_hasConfirmedCancelledRenewal
     // 0x8e9008: LeaveFrame
     //     0x8e9008: mov             SP, fp
     //     0x8e900c: ldp             fp, lr, [SP], #0x10
@@ -6305,7 +6305,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x8e9060: ret
     //     0x8e9060: ret             
   }
-  get _ hasActiveBallAiProBillingIssue(/* No info */) {
+  get _ hasActiveKourtAiProBillingIssue(/* No info */) {
     // ** addr: 0x8e9064, size: 0x80
     // 0x8e9064: EnterFrame
     //     0x8e9064: stp             fp, lr, [SP, #-0x10]!
@@ -6314,8 +6314,8 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x8e906c: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x8e9070: cmp             SP, x16
     //     0x8e9074: b.ls            #0x8e90dc
-    // 0x8e9078: r0 = ballAiProEntitlement()
-    //     0x8e9078: bl              #0x659dac  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::ballAiProEntitlement
+    // 0x8e9078: r0 = kourtAiProEntitlement()
+    //     0x8e9078: bl              #0x659dac  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::kourtAiProEntitlement
     // 0x8e907c: cmp             w0, NULL
     // 0x8e9080: b.eq            #0x8e9090
     // 0x8e9084: LoadField: r1 = r0->field_b
@@ -6392,7 +6392,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x90315c: tbz             w1, #4, #0x903174
     // 0x903160: mov             x1, x0
     // 0x903164: r0 = configure()
-    //     0x903164: bl              #0x90361c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::configure
+    //     0x903164: bl              #0x90361c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::configure
     // 0x903168: mov             x1, x0
     // 0x90316c: stur            x1, [fp, #-0x88]
     // 0x903170: r0 = Await()
@@ -6449,7 +6449,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x9031f8: bl              #0x5c96fc  ; [package:flutter/src/foundation/print.dart] ::debugPrintThrottled
     // 0x9031fc: ldur            x1, [fp, #-0x80]
     // 0x903200: r0 = refreshOfferings()
-    //     0x903200: bl              #0x648724  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshOfferings
+    //     0x903200: bl              #0x648724  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshOfferings
     // 0x903204: mov             x1, x0
     // 0x903208: stur            x1, [fp, #-0x88]
     // 0x90320c: r0 = Await()
@@ -6459,7 +6459,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x903214: add             x2, PP, #0x20, lsl #12  ; [pp+0x206d8] "cancel-winback"
     //     0x903218: ldr             x2, [x2, #0x6d8]
     // 0x90321c: r0 = offering()
-    //     0x90321c: bl              #0x650f44  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::offering
+    //     0x90321c: bl              #0x650f44  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::offering
     // 0x903220: cmp             w0, NULL
     // 0x903224: b.eq            #0x90322c
     // 0x903228: r0 = ReturnAsyncNotFuture()
@@ -6564,7 +6564,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x903338: ldur            x1, [fp, #-0x80]
     // 0x90333c: mov             x2, x5
     // 0x903340: r0 = offering()
-    //     0x903340: bl              #0x650f44  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::offering
+    //     0x903340: bl              #0x650f44  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::offering
     // 0x903344: stur            x0, [fp, #-0xa8]
     // 0x903348: cmp             w0, NULL
     // 0x90334c: b.ne            #0x903364
@@ -6857,7 +6857,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x903664: StoreField: r2->field_3f = r0
     //     0x903664: stur            w0, [x2, #0x3f]
     // 0x903668: r0 = googleApiKey()
-    //     0x903668: bl              #0x903aa0  ; [package:ballai/automatic/lib/revenuecat/revenue_cat_secrets.dart] RevenueCatSecrets::googleApiKey
+    //     0x903668: bl              #0x903aa0  ; [package:kourtai/automatic/lib/revenuecat/revenue_cat_secrets.dart] RevenueCatSecrets::googleApiKey
     // 0x90366c: stur            x0, [fp, #-0x18]
     // 0x903670: LoadField: r1 = r0->field_7
     //     0x903670: ldur            w1, [x0, #7]
@@ -6920,7 +6920,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x903704: bl              #0x60ad4c  ; AwaitStub
     // 0x903708: ldur            x2, [fp, #-0x10]
     // 0x90370c: r1 = Function '_onCustomerInfoUpdated@628194896':.
-    //     0x90370c: add             x1, PP, #9, lsl #12  ; [pp+0x9f18] AnonymousClosure: (0x903af4), of [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager
+    //     0x90370c: add             x1, PP, #9, lsl #12  ; [pp+0x9f18] AnonymousClosure: (0x903af4), of [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager
     //     0x903710: ldr             x1, [x1, #0xf18]
     // 0x903714: r0 = AllocateClosure()
     //     0x903714: bl              #0xe553e0  ; AllocateClosureStub
@@ -6941,8 +6941,8 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x903740: ldr             x2, [PP, #0x820]  ; [pp+0x820] Field <::.debugPrint>: static late (offset: 0x62c)
     //     0x903744: bl              #0xe5425c  ; InitLateStaticFieldStub
     // 0x903748: str             NULL, [SP]
-    // 0x90374c: r1 = "[RevenueCat] Configured (entitlement=ball-ai-pro)"
-    //     0x90374c: add             x1, PP, #9, lsl #12  ; [pp+0x9f20] "[RevenueCat] Configured (entitlement=ball-ai-pro)"
+    // 0x90374c: r1 = "[RevenueCat] Configured (entitlement=kourt-ai-pro)"
+    //     0x90374c: add             x1, PP, #9, lsl #12  ; [pp+0x9f20] "[RevenueCat] Configured (entitlement=kourt-ai-pro)"
     //     0x903750: ldr             x1, [x1, #0xf20]
     // 0x903754: r4 = const [0, 0x2, 0x1, 0x1, wrapWidth, 0x1, null]
     //     0x903754: ldr             x4, [PP, #0x830]  ; [pp+0x830] List(7) [0, 0x2, 0x1, 0x1, "wrapWidth", 0x1, Null]
@@ -6950,10 +6950,10 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x903758: bl              #0x5c96fc  ; [package:flutter/src/foundation/print.dart] ::debugPrintThrottled
     // 0x90375c: ldur            x1, [fp, #-0x10]
     // 0x903760: r0 = refreshOfferings()
-    //     0x903760: bl              #0x648724  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshOfferings
+    //     0x903760: bl              #0x648724  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshOfferings
     // 0x903764: ldur            x1, [fp, #-0x10]
     // 0x903768: r0 = refreshCustomerInfo()
-    //     0x903768: bl              #0x65b240  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshCustomerInfo
+    //     0x903768: bl              #0x65b240  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshCustomerInfo
     // 0x90376c: r0 = Null
     //     0x90376c: mov             x0, NULL
     // 0x903770: r0 = ReturnAsyncNotFuture()
@@ -6978,7 +6978,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x903b10: b.ls            #0x903b2c
     // 0x903b14: ldr             x2, [fp, #0x10]
     // 0x903b18: r0 = _applyCustomerInfo()
-    //     0x903b18: bl              #0x65b318  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_applyCustomerInfo
+    //     0x903b18: bl              #0x65b318  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_applyCustomerInfo
     // 0x903b1c: r0 = Null
     //     0x903b1c: mov             x0, NULL
     // 0x903b20: LeaveFrame
@@ -7024,7 +7024,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x903b84: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0x903b88: ldur            x1, [fp, #-0x90]
     // 0x903b8c: r0 = _sanitize()
-    //     0x903b8c: bl              #0x903c80  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_sanitize
+    //     0x903b8c: bl              #0x903c80  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_sanitize
     // 0x903b90: stur            x0, [fp, #-0x80]
     // 0x903b94: LoadField: r1 = r0->field_7
     //     0x903b94: ldur            w1, [x0, #7]
@@ -7171,7 +7171,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x93b8e0: b.ls            #0x93b9e8
     // 0x93b8e4: mov             x1, x0
     // 0x93b8e8: r0 = availablePackages()
-    //     0x93b8e8: bl              #0x65008c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::availablePackages
+    //     0x93b8e8: bl              #0x65008c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::availablePackages
     // 0x93b8ec: stur            x0, [fp, #-0x28]
     // 0x93b8f0: LoadField: r1 = r0->field_b
     //     0x93b8f0: ldur            w1, [x0, #0xb]
@@ -7206,7 +7206,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x93b940: mov             x1, x4
     // 0x93b944: stur            x3, [fp, #-0x10]
     // 0x93b948: r0 = _packageHasFreeTrial()
-    //     0x93b948: bl              #0x6508ac  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_packageHasFreeTrial
+    //     0x93b948: bl              #0x6508ac  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_packageHasFreeTrial
     // 0x93b94c: tbnz            w0, #4, #0x93b970
     // 0x93b950: ldur            x0, [fp, #-0x18]
     // 0x93b954: LoadField: r1 = r0->field_f
@@ -7219,7 +7219,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x93b960: add             x2, x2, HEAP, lsl #32
     // 0x93b964: ldur            x1, [fp, #-8]
     // 0x93b968: r0 = isEligibleForIntroOffer()
-    //     0x93b968: bl              #0x93b9f8  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isEligibleForIntroOffer
+    //     0x93b968: bl              #0x93b9f8  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isEligibleForIntroOffer
     // 0x93b96c: tbz             w0, #4, #0x93b980
     // 0x93b970: ldur            x1, [fp, #-0x10]
     // 0x93b974: ldur            x0, [fp, #-0x28]
@@ -7340,10 +7340,10 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x93ba9c: b.ne            #0x93bad4
     // 0x93baa0: ldur            x1, [fp, #-8]
     // 0x93baa4: r0 = availablePackages()
-    //     0x93baa4: bl              #0x65008c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::availablePackages
+    //     0x93baa4: bl              #0x65008c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::availablePackages
     // 0x93baa8: ldur            x2, [fp, #-0x18]
     // 0x93baac: r1 = Function '<anonymous closure>':.
-    //     0x93baac: add             x1, PP, #0x14, lsl #12  ; [pp+0x14568] AnonymousClosure: (0x93bb28), in [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isEligibleForIntroOffer (0x93b9f8)
+    //     0x93baac: add             x1, PP, #0x14, lsl #12  ; [pp+0x14568] AnonymousClosure: (0x93bb28), in [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isEligibleForIntroOffer (0x93b9f8)
     //     0x93bab0: ldr             x1, [x1, #0x568]
     // 0x93bab4: stur            x0, [fp, #-0x10]
     // 0x93bab8: r0 = AllocateClosure()
@@ -7361,10 +7361,10 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x93bad8: b.ne            #0x93bb10
     // 0x93badc: ldur            x1, [fp, #-8]
     // 0x93bae0: r0 = availablePackages()
-    //     0x93bae0: bl              #0x65008c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::availablePackages
+    //     0x93bae0: bl              #0x65008c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::availablePackages
     // 0x93bae4: ldur            x2, [fp, #-0x18]
     // 0x93bae8: r1 = Function '<anonymous closure>':.
-    //     0x93bae8: add             x1, PP, #0x14, lsl #12  ; [pp+0x14570] AnonymousClosure: (0x93bb28), in [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isEligibleForIntroOffer (0x93b9f8)
+    //     0x93bae8: add             x1, PP, #0x14, lsl #12  ; [pp+0x14570] AnonymousClosure: (0x93bb28), in [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isEligibleForIntroOffer (0x93b9f8)
     //     0x93baec: ldr             x1, [x1, #0x570]
     // 0x93baf0: stur            x0, [fp, #-8]
     // 0x93baf4: r0 = AllocateClosure()
@@ -7428,7 +7428,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x93bb84: tbnz            w0, #4, #0x93bb94
     // 0x93bb88: ldr             x1, [fp, #0x10]
     // 0x93bb8c: r0 = _packageHasFreeTrial()
-    //     0x93bb8c: bl              #0x6508ac  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_packageHasFreeTrial
+    //     0x93bb8c: bl              #0x6508ac  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_packageHasFreeTrial
     // 0x93bb90: b               #0x93bb98
     // 0x93bb94: r0 = false
     //     0x93bb94: add             x0, NULL, #0x30  ; false
@@ -7441,7 +7441,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x93bba4: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x93bba8: b               #0x93bb4c
   }
-  get _ hasActiveCancelledTrialOrIntroBallAiPro(/* No info */) {
+  get _ hasActiveCancelledTrialOrIntroKourtAiPro(/* No info */) {
     // ** addr: 0x93c37c, size: 0x108
     // 0x93c37c: EnterFrame
     //     0x93c37c: stp             fp, lr, [SP, #-0x10]!
@@ -7456,8 +7456,8 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x93c394: cmp             SP, x16
     //     0x93c398: b.ls            #0x93c47c
     // 0x93c39c: mov             x1, x0
-    // 0x93c3a0: r0 = ballAiProEntitlement()
-    //     0x93c3a0: bl              #0x659dac  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::ballAiProEntitlement
+    // 0x93c3a0: r0 = kourtAiProEntitlement()
+    //     0x93c3a0: bl              #0x659dac  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::kourtAiProEntitlement
     // 0x93c3a4: stur            x0, [fp, #-0x10]
     // 0x93c3a8: cmp             w0, NULL
     // 0x93c3ac: b.eq            #0x93c3c8
@@ -7479,8 +7479,8 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x93c3d4: ret
     //     0x93c3d4: ret             
     // 0x93c3d8: ldur            x1, [fp, #-8]
-    // 0x93c3dc: r0 = hasActiveBallAiProBillingIssue()
-    //     0x93c3dc: bl              #0x8e9064  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveBallAiProBillingIssue
+    // 0x93c3dc: r0 = hasActiveKourtAiProBillingIssue()
+    //     0x93c3dc: bl              #0x8e9064  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveKourtAiProBillingIssue
     // 0x93c3e0: tbnz            w0, #4, #0x93c3f4
     // 0x93c3e4: r0 = false
     //     0x93c3e4: add             x0, NULL, #0x30  ; false
@@ -7490,8 +7490,8 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x93c3f0: ret
     //     0x93c3f0: ret             
     // 0x93c3f4: ldur            x1, [fp, #-8]
-    // 0x93c3f8: r0 = hasActiveRenewingBallAiProEntitlement()
-    //     0x93c3f8: bl              #0x659d58  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveRenewingBallAiProEntitlement
+    // 0x93c3f8: r0 = hasActiveRenewingKourtAiProEntitlement()
+    //     0x93c3f8: bl              #0x659d58  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::hasActiveRenewingKourtAiProEntitlement
     // 0x93c3fc: tbnz            w0, #4, #0x93c410
     // 0x93c400: r0 = false
     //     0x93c400: add             x0, NULL, #0x30  ; false
@@ -7503,7 +7503,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x93c410: ldur            x1, [fp, #-8]
     // 0x93c414: ldur            x2, [fp, #-0x10]
     // 0x93c418: r0 = _hasConfirmedCancelledRenewal()
-    //     0x93c418: bl              #0x8e901c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_hasConfirmedCancelledRenewal
+    //     0x93c418: bl              #0x8e901c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_hasConfirmedCancelledRenewal
     // 0x93c41c: tbz             w0, #4, #0x93c430
     // 0x93c420: r0 = false
     //     0x93c420: add             x0, NULL, #0x30  ; false
@@ -7646,7 +7646,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x93c580: tbz             w1, #4, #0x93c598
     // 0x93c584: mov             x1, x0
     // 0x93c588: r0 = configure()
-    //     0x93c588: bl              #0x90361c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::configure
+    //     0x93c588: bl              #0x90361c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::configure
     // 0x93c58c: mov             x1, x0
     // 0x93c590: stur            x1, [fp, #-0x80]
     // 0x93c594: r0 = Await()
@@ -7692,14 +7692,14 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x93c604: tbnz            w0, #4, #0x93c638
     // 0x93c608: ldur            x1, [fp, #-0x70]
     // 0x93c60c: r0 = refreshCustomerInfo()
-    //     0x93c60c: bl              #0x65b240  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshCustomerInfo
+    //     0x93c60c: bl              #0x65b240  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshCustomerInfo
     // 0x93c610: mov             x1, x0
     // 0x93c614: stur            x1, [fp, #-0x88]
     // 0x93c618: r0 = Await()
     //     0x93c618: bl              #0x60ad4c  ; AwaitStub
     // 0x93c61c: ldur            x1, [fp, #-0x70]
     // 0x93c620: r0 = refreshIntroEligibilityForAvailablePackages()
-    //     0x93c620: bl              #0x6503a4  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshIntroEligibilityForAvailablePackages
+    //     0x93c620: bl              #0x6503a4  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshIntroEligibilityForAvailablePackages
     // 0x93c624: mov             x1, x0
     // 0x93c628: stur            x1, [fp, #-0x88]
     // 0x93c62c: r0 = Await()
@@ -7723,17 +7723,17 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x93c658: add             x2, x2, HEAP, lsl #32
     // 0x93c65c: ldur            x1, [fp, #-0x70]
     // 0x93c660: r0 = _applyCustomerInfo()
-    //     0x93c660: bl              #0x65b318  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_applyCustomerInfo
+    //     0x93c660: bl              #0x65b318  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_applyCustomerInfo
     // 0x93c664: ldur            x1, [fp, #-0x70]
     // 0x93c668: r0 = refreshCustomerInfo()
-    //     0x93c668: bl              #0x65b240  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshCustomerInfo
+    //     0x93c668: bl              #0x65b240  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshCustomerInfo
     // 0x93c66c: mov             x1, x0
     // 0x93c670: stur            x1, [fp, #-0x90]
     // 0x93c674: r0 = Await()
     //     0x93c674: bl              #0x60ad4c  ; AwaitStub
     // 0x93c678: ldur            x1, [fp, #-0x70]
     // 0x93c67c: r0 = refreshIntroEligibilityForAvailablePackages()
-    //     0x93c67c: bl              #0x6503a4  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshIntroEligibilityForAvailablePackages
+    //     0x93c67c: bl              #0x6503a4  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshIntroEligibilityForAvailablePackages
     // 0x93c680: mov             x1, x0
     // 0x93c684: stur            x1, [fp, #-0x90]
     // 0x93c688: r0 = Await()
@@ -7886,7 +7886,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x93d65c: ldur            x2, [fp, #-0x18]
     // 0x93d660: stur            x0, [fp, #-0x18]
     // 0x93d664: r0 = _cancelWinbackLocalKey()
-    //     0x93d664: bl              #0x93d6a0  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_cancelWinbackLocalKey
+    //     0x93d664: bl              #0x93d6a0  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_cancelWinbackLocalKey
     // 0x93d668: ldur            x1, [fp, #-0x18]
     // 0x93d66c: mov             x2, x0
     // 0x93d670: r0 = getBool()
@@ -7990,7 +7990,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x986b98: tbz             w1, #4, #0x986bb0
     // 0x986b9c: mov             x1, x0
     // 0x986ba0: r0 = configure()
-    //     0x986ba0: bl              #0x90361c  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::configure
+    //     0x986ba0: bl              #0x90361c  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::configure
     // 0x986ba4: mov             x1, x0
     // 0x986ba8: stur            x1, [fp, #-0x60]
     // 0x986bac: r0 = Await()
@@ -8015,10 +8015,10 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x986bdc: mov             x2, x0
     // 0x986be0: stur            x0, [fp, #-0x60]
     // 0x986be4: r0 = _applyCustomerInfo()
-    //     0x986be4: bl              #0x65b318  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_applyCustomerInfo
+    //     0x986be4: bl              #0x65b318  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_applyCustomerInfo
     // 0x986be8: ldur            x1, [fp, #-0x58]
     // 0x986bec: r0 = refreshIntroEligibilityForAvailablePackages()
-    //     0x986bec: bl              #0x6503a4  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshIntroEligibilityForAvailablePackages
+    //     0x986bec: bl              #0x6503a4  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::refreshIntroEligibilityForAvailablePackages
     // 0x986bf0: mov             x1, x0
     // 0x986bf4: stur            x1, [fp, #-0x68]
     // 0x986bf8: r0 = Await()
@@ -8097,7 +8097,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x9b5874: mov             fp, SP
     // 0x9b5878: ldr             x2, [fp, #0x10]
     // 0x9b587c: r1 = Function 'dispose':.
-    //     0x9b587c: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d608] AnonymousClosure: (0x9b5894), in [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::dispose (0x9bcfc4)
+    //     0x9b587c: add             x1, PP, #0x3d, lsl #12  ; [pp+0x3d608] AnonymousClosure: (0x9b5894), in [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::dispose (0x9bcfc4)
     //     0x9b5880: ldr             x1, [x1, #0x608]
     // 0x9b5884: r0 = AllocateClosure()
     //     0x9b5884: bl              #0xe553e0  ; AllocateClosureStub
@@ -8193,7 +8193,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x9cc500: mov             x2, x0
     // 0x9cc504: stur            x0, [fp, #-0x60]
     // 0x9cc508: r0 = _applyCustomerInfo()
-    //     0x9cc508: bl              #0x65b318  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_applyCustomerInfo
+    //     0x9cc508: bl              #0x65b318  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_applyCustomerInfo
     // 0x9cc50c: r16 = <String, IntroEligibility>
     //     0x9cc50c: add             x16, PP, #0xb, lsl #12  ; [pp+0xb160] TypeArguments: <String, IntroEligibility>
     //     0x9cc510: ldr             x16, [x16, #0x160]
@@ -8212,7 +8212,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x9cc53c: bl              #0xe547bc  ; WriteBarrierWrappersStub
     // 0x9cc540: mov             x1, x2
     // 0x9cc544: r0 = _clearSubscriberAttributesForAnonymousCustomer()
-    //     0x9cc544: bl              #0x9cc604  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_clearSubscriberAttributesForAnonymousCustomer
+    //     0x9cc544: bl              #0x9cc604  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_clearSubscriberAttributesForAnonymousCustomer
     // 0x9cc548: mov             x1, x0
     // 0x9cc54c: stur            x1, [fp, #-0x68]
     // 0x9cc550: r0 = Await()
@@ -8387,11 +8387,11 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x9d3304: b.ls            #0x9d33d4
     // 0x9d3308: mov             x1, x0
     // 0x9d330c: r0 = monthlyPackage()
-    //     0x9d330c: bl              #0x650224  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::monthlyPackage
+    //     0x9d330c: bl              #0x650224  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::monthlyPackage
     // 0x9d3310: ldur            x1, [fp, #-8]
     // 0x9d3314: stur            x0, [fp, #-8]
     // 0x9d3318: r0 = annualPackage()
-    //     0x9d3318: bl              #0x64fcac  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::annualPackage
+    //     0x9d3318: bl              #0x64fcac  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::annualPackage
     // 0x9d331c: ldur            x1, [fp, #-8]
     // 0x9d3320: cmp             w1, NULL
     // 0x9d3324: b.eq            #0x9d3330
@@ -8476,7 +8476,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x9d33f8: ldr             q1, [SP], #0x10
     // 0x9d33fc: b               #0x9d33a8
   }
-  get _ isOnActiveMonthlyBallAiProProduct(/* No info */) {
+  get _ isOnActiveMonthlyKourtAiProProduct(/* No info */) {
     // ** addr: 0x9d351c, size: 0xa8
     // 0x9d351c: EnterFrame
     //     0x9d351c: stp             fp, lr, [SP, #-0x10]!
@@ -8491,8 +8491,8 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x9d3534: cmp             SP, x16
     //     0x9d3538: b.ls            #0x9d35bc
     // 0x9d353c: mov             x1, x0
-    // 0x9d3540: r0 = ballAiProEntitlement()
-    //     0x9d3540: bl              #0x659dac  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::ballAiProEntitlement
+    // 0x9d3540: r0 = kourtAiProEntitlement()
+    //     0x9d3540: bl              #0x659dac  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::kourtAiProEntitlement
     // 0x9d3544: cmp             w0, NULL
     // 0x9d3548: b.eq            #0x9d3590
     // 0x9d354c: LoadField: r1 = r0->field_b
@@ -8529,7 +8529,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0x9d359c: cmp             w1, NULL
     // 0x9d35a0: b.eq            #0x9d35ac
     // 0x9d35a4: r0 = isMonthlyStoreProduct()
-    //     0x9d35a4: bl              #0x6501e8  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isMonthlyStoreProduct
+    //     0x9d35a4: bl              #0x6501e8  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isMonthlyStoreProduct
     // 0x9d35a8: b               #0x9d35b0
     // 0x9d35ac: r0 = false
     //     0x9d35ac: add             x0, NULL, #0x30  ; false
@@ -8542,7 +8542,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0x9d35bc: bl              #0xe561b4  ; StackOverflowSharedWithoutFPURegsStub
     // 0x9d35c0: b               #0x9d353c
   }
-  get _ hasPaidMonthlyOrYearlyBallAiPro(/* No info */) {
+  get _ hasPaidMonthlyOrYearlyKourtAiPro(/* No info */) {
     // ** addr: 0xaace64, size: 0x78
     // 0xaace64: EnterFrame
     //     0xaace64: stp             fp, lr, [SP, #-0x10]!
@@ -8561,8 +8561,8 @@ class RevenueCatManager extends ChangeNotifier {
     // 0xaace88: DecompressPointer r2
     //     0xaace88: add             x2, x2, HEAP, lsl #32
     // 0xaace8c: mov             x1, x0
-    // 0xaace90: r0 = _hasBallAiProAccess()
-    //     0xaace90: bl              #0x659e38  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_hasBallAiProAccess
+    // 0xaace90: r0 = _hasKourtAiProAccess()
+    //     0xaace90: bl              #0x659e38  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_hasKourtAiProAccess
     // 0xaace94: tbz             w0, #4, #0xaacea8
     // 0xaace98: r0 = false
     //     0xaace98: add             x0, NULL, #0x30  ; false
@@ -8578,8 +8578,8 @@ class RevenueCatManager extends ChangeNotifier {
     //     0xaaceb0: add             x1, x1, HEAP, lsl #32
     // 0xaaceb4: cmp             w1, NULL
     // 0xaaceb8: b.eq            #0xaacec4
-    // 0xaacebc: r0 = isSupportedBallAiProStoreProduct()
-    //     0xaacebc: bl              #0x650168  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isSupportedBallAiProStoreProduct
+    // 0xaacebc: r0 = isSupportedKourtAiProStoreProduct()
+    //     0xaacebc: bl              #0x650168  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isSupportedKourtAiProStoreProduct
     // 0xaacec0: b               #0xaacec8
     // 0xaacec4: r0 = false
     //     0xaacec4: add             x0, NULL, #0x30  ; false
@@ -8610,15 +8610,15 @@ class RevenueCatManager extends ChangeNotifier {
     //     0xaacf00: b.ls            #0xaacf88
     // 0xaacf04: mov             x1, x3
     // 0xaacf08: r0 = _applyCustomerInfo()
-    //     0xaacf08: bl              #0x65b318  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_applyCustomerInfo
+    //     0xaacf08: bl              #0x65b318  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_applyCustomerInfo
     // 0xaacf0c: ldur            x0, [fp, #-8]
     // 0xaacf10: LoadField: r2 = r0->field_27
     //     0xaacf10: ldur            w2, [x0, #0x27]
     // 0xaacf14: DecompressPointer r2
     //     0xaacf14: add             x2, x2, HEAP, lsl #32
     // 0xaacf18: mov             x1, x0
-    // 0xaacf1c: r0 = _hasBallAiProAccess()
-    //     0xaacf1c: bl              #0x659e38  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_hasBallAiProAccess
+    // 0xaacf1c: r0 = _hasKourtAiProAccess()
+    //     0xaacf1c: bl              #0x659e38  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_hasKourtAiProAccess
     // 0xaacf20: tbnz            w0, #4, #0xaacf58
     // 0xaacf24: ldur            x1, [fp, #-8]
     // 0xaacf28: LoadField: r0 = r1->field_4b
@@ -8628,8 +8628,8 @@ class RevenueCatManager extends ChangeNotifier {
     // 0xaacf30: stur            x0, [fp, #-0x18]
     // 0xaacf34: cmp             w0, NULL
     // 0xaacf38: b.eq            #0xaacf58
-    // 0xaacf3c: r0 = BallAiProWelcomeEvent()
-    //     0xaacf3c: bl              #0xaad51c  ; AllocateBallAiProWelcomeEventStub -> BallAiProWelcomeEvent (size=0x8)
+    // 0xaacf3c: r0 = KourtAiProWelcomeEvent()
+    //     0xaacf3c: bl              #0xaad51c  ; AllocateKourtAiProWelcomeEventStub -> KourtAiProWelcomeEvent (size=0x8)
     // 0xaacf40: ldur            x16, [fp, #-0x18]
     // 0xaacf44: stp             x0, x16, [SP]
     // 0xaacf48: ldur            x0, [fp, #-0x18]
@@ -8640,14 +8640,14 @@ class RevenueCatManager extends ChangeNotifier {
     // 0xaacf58: ldur            x1, [fp, #-8]
     // 0xaacf5c: ldur            x2, [fp, #-0x10]
     // 0xaacf60: r0 = syncPurchaseSourceAttribute()
-    //     0xaacf60: bl              #0xaad3bc  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::syncPurchaseSourceAttribute
+    //     0xaacf60: bl              #0xaad3bc  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::syncPurchaseSourceAttribute
     // 0xaacf64: ldur            x1, [fp, #-0x10]
     // 0xaacf68: r0 = shouldMarkCancelWinbackRedeemedForPaywallSource()
-    //     0xaacf68: bl              #0xaad264  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::shouldMarkCancelWinbackRedeemedForPaywallSource
+    //     0xaacf68: bl              #0xaad264  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::shouldMarkCancelWinbackRedeemedForPaywallSource
     // 0xaacf6c: tbnz            w0, #4, #0xaacf78
     // 0xaacf70: ldur            x1, [fp, #-8]
     // 0xaacf74: r0 = markCancelWinbackPromoRedeemed()
-    //     0xaacf74: bl              #0xaacf90  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::markCancelWinbackPromoRedeemed
+    //     0xaacf74: bl              #0xaacf90  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::markCancelWinbackPromoRedeemed
     // 0xaacf78: r0 = Null
     //     0xaacf78: mov             x0, NULL
     // 0xaacf7c: LeaveFrame
@@ -8700,7 +8700,7 @@ class RevenueCatManager extends ChangeNotifier {
     // 0xaacff0: ldur            x2, [fp, #-0x70]
     // 0xaacff4: stur            x0, [fp, #-0x78]
     // 0xaacff8: r0 = _cancelWinbackLocalKey()
-    //     0xaacff8: bl              #0x93d6a0  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_cancelWinbackLocalKey
+    //     0xaacff8: bl              #0x93d6a0  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_cancelWinbackLocalKey
     // 0xaacffc: ldur            x1, [fp, #-0x78]
     // 0xaad000: mov             x2, x0
     // 0xaad004: r3 = true
@@ -8948,7 +8948,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0xaad280: b.ls            #0xaad2b4
     // 0xaad284: mov             x1, x0
     // 0xaad288: r0 = isDiscountRequestPaywallSource()
-    //     0xaad288: bl              #0x650b58  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isDiscountRequestPaywallSource
+    //     0xaad288: bl              #0x650b58  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::isDiscountRequestPaywallSource
     // 0xaad28c: tbnz            w0, #4, #0xaad2a0
     // 0xaad290: r0 = true
     //     0xaad290: add             x0, NULL, #0x20  ; true
@@ -8959,7 +8959,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0xaad29c: ret             
     // 0xaad2a0: ldur            x1, [fp, #-8]
     // 0xaad2a4: r0 = _sourceLooksLikeCancelWinback()
-    //     0xaad2a4: bl              #0xaad2bc  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_sourceLooksLikeCancelWinback
+    //     0xaad2a4: bl              #0xaad2bc  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_sourceLooksLikeCancelWinback
     // 0xaad2a8: LeaveFrame
     //     0xaad2a8: mov             SP, fp
     //     0xaad2ac: ldp             fp, lr, [SP], #0x10
@@ -9095,7 +9095,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0xaad408: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xaad40c: ldur            x1, [fp, #-0x78]
     // 0xaad410: r0 = _sanitize()
-    //     0xaad410: bl              #0x903c80  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_sanitize
+    //     0xaad410: bl              #0x903c80  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::_sanitize
     // 0xaad414: stur            x0, [fp, #-0x70]
     // 0xaad418: LoadField: r1 = r0->field_7
     //     0xaad418: ldur            w1, [x0, #7]
@@ -9106,7 +9106,7 @@ class RevenueCatManager extends ChangeNotifier {
     //     0xaad424: b               #0x60af9c  ; ReturnAsyncNotFutureStub
     // 0xaad428: ldur            x1, [fp, #-0x78]
     // 0xaad42c: r0 = paywallPlacementID()
-    //     0xaad42c: bl              #0x650b94  ; [package:ballai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::paywallPlacementID
+    //     0xaad42c: bl              #0x650b94  ; [package:kourtai/automatic/app/dependencies/managers/core/revenue_cat_manager.dart] RevenueCatManager::paywallPlacementID
     // 0xaad430: r1 = Null
     //     0xaad430: mov             x1, NULL
     // 0xaad434: r2 = 12

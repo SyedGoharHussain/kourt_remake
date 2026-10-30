@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/session/guards/ankle_visibility_guard_handler.dart
+// lib: , url: package:kourtai/video_tracking/session/guards/ankle_visibility_guard_handler.dart
 
 // class id: 1049175, size: 0x8
 class :: {
@@ -42,7 +42,7 @@ abstract class AnkleVisibilityGuardHandler extends Object {
     //     0x74d8ac: ldr             x2, [THR, #0x68]  ; THR::field_table_values
     //     0x74d8b0: str             x0, [x2, #0x2178]
     // 0x74d8b4: r0 = _clearOwnedGuardWarning()
-    //     0x74d8b4: bl              #0x74d8d0  ; [package:ballai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::_clearOwnedGuardWarning
+    //     0x74d8b4: bl              #0x74d8d0  ; [package:kourtai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::_clearOwnedGuardWarning
     // 0x74d8b8: r0 = Null
     //     0x74d8b8: mov             x0, NULL
     // 0x74d8bc: LeaveFrame
@@ -79,7 +79,7 @@ abstract class AnkleVisibilityGuardHandler extends Object {
     // 0x74d904: StoreStaticField(0x10c0, r0)
     //     0x74d904: ldr             x1, [THR, #0x68]  ; THR::field_table_values
     //     0x74d908: str             x0, [x1, #0x2180]
-    // 0x74d90c: r0 = InitLateStaticField(0x10b0) // [package:ballai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::_manager
+    // 0x74d90c: r0 = InitLateStaticField(0x10b0) // [package:kourtai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::_manager
     //     0x74d90c: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x74d910: ldr             x0, [x0, #0x2160]
     //     0x74d914: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -90,7 +90,7 @@ abstract class AnkleVisibilityGuardHandler extends Object {
     //     0x74d928: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x74d92c: mov             x1, x0
     // 0x74d930: r0 = clearGuardWarning()
-    //     0x74d930: bl              #0x714d10  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::clearGuardWarning
+    //     0x74d930: bl              #0x714d10  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::clearGuardWarning
     // 0x74d934: r0 = Null
     //     0x74d934: mov             x0, NULL
     // 0x74d938: LeaveFrame
@@ -113,7 +113,7 @@ abstract class AnkleVisibilityGuardHandler extends Object {
     //     0x774ac4: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x774ac8: cmp             SP, x16
     //     0x774acc: b.ls            #0x774b84
-    // 0x774ad0: r0 = InitLateStaticField(0x10b0) // [package:ballai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::_manager
+    // 0x774ad0: r0 = InitLateStaticField(0x10b0) // [package:kourtai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::_manager
     //     0x774ad0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x774ad4: ldr             x0, [x0, #0x2160]
     //     0x774ad8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -130,7 +130,7 @@ abstract class AnkleVisibilityGuardHandler extends Object {
     // 0x774afc: tbnz            w1, #4, #0x774b1c
     // 0x774b00: mov             x1, x0
     // 0x774b04: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x774b04: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x774b04: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x774b08: tbnz            w0, #4, #0x774b1c
     // 0x774b0c: ldur            x0, [fp, #-8]
     // 0x774b10: LoadField: r1 = r0->field_2b
@@ -171,7 +171,7 @@ abstract class AnkleVisibilityGuardHandler extends Object {
     //     0x774b68: ldr             x1, [THR, #0x68]  ; THR::field_table_values
     //     0x774b6c: str             x0, [x1, #0x2168]
     // 0x774b70: r0 = _check()
-    //     0x774b70: bl              #0x774b8c  ; [package:ballai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::_check
+    //     0x774b70: bl              #0x774b8c  ; [package:kourtai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::_check
     // 0x774b74: r0 = Null
     //     0x774b74: mov             x0, NULL
     // 0x774b78: LeaveFrame
@@ -194,7 +194,7 @@ abstract class AnkleVisibilityGuardHandler extends Object {
     //     0x774b98: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x774b9c: cmp             SP, x16
     //     0x774ba0: b.ls            #0x774d3c
-    // 0x774ba4: r0 = InitLateStaticField(0x10b0) // [package:ballai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::_manager
+    // 0x774ba4: r0 = InitLateStaticField(0x10b0) // [package:kourtai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::_manager
     //     0x774ba4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x774ba8: ldr             x0, [x0, #0x2160]
     //     0x774bac: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -211,7 +211,7 @@ abstract class AnkleVisibilityGuardHandler extends Object {
     // 0x774bd0: tbnz            w1, #4, #0x774c0c
     // 0x774bd4: mov             x1, x0
     // 0x774bd8: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x774bd8: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x774bd8: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x774bdc: tbnz            w0, #4, #0x774c0c
     // 0x774be0: ldur            x1, [fp, #-8]
     // 0x774be4: LoadField: r0 = r1->field_2b
@@ -280,7 +280,7 @@ abstract class AnkleVisibilityGuardHandler extends Object {
     //     0x774c88: ldr             x1, [THR, #0x68]  ; THR::field_table_values
     //     0x774c8c: str             x0, [x1, #0x2180]
     // 0x774c90: r1 = Function '<anonymous closure>': static.
-    //     0x774c90: add             x1, PP, #0x33, lsl #12  ; [pp+0x330c0] AnonymousClosure: static (0x774d48), in [package:ballai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::_check (0x774b8c)
+    //     0x774c90: add             x1, PP, #0x33, lsl #12  ; [pp+0x330c0] AnonymousClosure: static (0x774d48), in [package:kourtai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::_check (0x774b8c)
     //     0x774c94: ldr             x1, [x1, #0xc0]
     // 0x774c98: r2 = Null
     //     0x774c98: mov             x2, NULL
@@ -292,8 +292,8 @@ abstract class AnkleVisibilityGuardHandler extends Object {
     //     0x774ca8: add             x2, PP, #0x33, lsl #12  ; [pp+0x330c8] "Fix your camera or step back so I can see both ankles."
     //     0x774cac: ldr             x2, [x2, #0xc8]
     // 0x774cb0: r0 = presentGuardWarning()
-    //     0x774cb0: bl              #0x774974  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::presentGuardWarning
-    // 0x774cb4: r0 = InitLateStaticField(0xeec) // [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
+    //     0x774cb0: bl              #0x774974  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::presentGuardWarning
+    // 0x774cb4: r0 = InitLateStaticField(0xeec) // [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::instance
     //     0x774cb4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x774cb8: ldr             x0, [x0, #0x1dd8]
     //     0x774cbc: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -313,7 +313,7 @@ abstract class AnkleVisibilityGuardHandler extends Object {
     //     0x774ce8: add             x4, PP, #0x32, lsl #12  ; [pp+0x32fb8] List(7) [0, 0x3, 0x1, 0x2, "showText", 0x2, Null]
     //     0x774cec: ldr             x4, [x4, #0xfb8]
     // 0x774cf0: r0 = speak()
-    //     0x774cf0: bl              #0x6d2cd4  ; [package:ballai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
+    //     0x774cf0: bl              #0x6d2cd4  ; [package:kourtai/video_tracking/session/feedback/speech_synthesizer.dart] SpeechSynthesizer::speak
     // 0x774cf4: r0 = LoadStaticField(0x10bc)
     //     0x774cf4: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x774cf8: ldr             x0, [x0, #0x2178]
@@ -323,7 +323,7 @@ abstract class AnkleVisibilityGuardHandler extends Object {
     //     0x774d04: add             x2, PP, #0x33, lsl #12  ; [pp+0x330d0] "The camera lost sight of your ankles for 5 seconds."
     //     0x774d08: ldr             x2, [x2, #0xd0]
     // 0x774d0c: r0 = recordGuardAlert()
-    //     0x774d0c: bl              #0x7746e8  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::recordGuardAlert
+    //     0x774d0c: bl              #0x7746e8  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] VideoWorkoutManager::recordGuardAlert
     // 0x774d10: r1 = true
     //     0x774d10: add             x1, NULL, #0x20  ; true
     // 0x774d14: StoreStaticField(0x10bc, r1)
@@ -419,7 +419,7 @@ abstract class AnkleVisibilityGuardHandler extends Object {
     //     0x774de4: ldr             x2, [THR, #0x68]  ; THR::field_table_values
     //     0x774de8: str             x0, [x2, #0x2170]
     // 0x774dec: r0 = _clearOwnedGuardWarning()
-    //     0x774dec: bl              #0x74d8d0  ; [package:ballai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::_clearOwnedGuardWarning
+    //     0x774dec: bl              #0x74d8d0  ; [package:kourtai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::_clearOwnedGuardWarning
     // 0x774df0: r0 = Null
     //     0x774df0: mov             x0, NULL
     // 0x774df4: LeaveFrame
@@ -440,7 +440,7 @@ abstract class AnkleVisibilityGuardHandler extends Object {
     //     0x99aea4: ldr             x16, [THR, #0x38]  ; THR::stack_limit
     //     0x99aea8: cmp             SP, x16
     //     0x99aeac: b.ls            #0x99af64
-    // 0x99aeb0: r0 = InitLateStaticField(0x10b0) // [package:ballai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::_manager
+    // 0x99aeb0: r0 = InitLateStaticField(0x10b0) // [package:kourtai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::_manager
     //     0x99aeb0: ldr             x0, [THR, #0x68]  ; THR::field_table_values
     //     0x99aeb4: ldr             x0, [x0, #0x2160]
     //     0x99aeb8: ldr             x16, [PP, #0x40]  ; [pp+0x40] Sentinel
@@ -451,10 +451,10 @@ abstract class AnkleVisibilityGuardHandler extends Object {
     //     0x99aecc: bl              #0xe541f4  ; InitLateFinalStaticFieldStub
     // 0x99aed0: mov             x1, x0
     // 0x99aed4: r0 = VideoWorkoutManagerDribble.isDribbleWorkoutSession()
-    //     0x99aed4: bl              #0x6c2268  ; [package:ballai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
+    //     0x99aed4: bl              #0x6c2268  ; [package:kourtai/video_tracking/manager/video_workout_manager.dart] ::VideoWorkoutManagerDribble.isDribbleWorkoutSession
     // 0x99aed8: tbz             w0, #4, #0x99aef0
     // 0x99aedc: r0 = stop()
-    //     0x99aedc: bl              #0x74d864  ; [package:ballai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::stop
+    //     0x99aedc: bl              #0x74d864  ; [package:kourtai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::stop
     // 0x99aee0: r0 = Null
     //     0x99aee0: mov             x0, NULL
     // 0x99aee4: LeaveFrame
@@ -476,7 +476,7 @@ abstract class AnkleVisibilityGuardHandler extends Object {
     //     0x99af08: ldr             x1, [THR, #0x68]  ; THR::field_table_values
     //     0x99af0c: str             x0, [x1, #0x2178]
     // 0x99af10: r0 = _clearOwnedGuardWarning()
-    //     0x99af10: bl              #0x74d8d0  ; [package:ballai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::_clearOwnedGuardWarning
+    //     0x99af10: bl              #0x74d8d0  ; [package:kourtai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::_clearOwnedGuardWarning
     // 0x99af14: r1 = LoadStaticField(0x10c4)
     //     0x99af14: ldr             x1, [THR, #0x68]  ; THR::field_table_values
     //     0x99af18: ldr             x1, [x1, #0x2188]
@@ -485,7 +485,7 @@ abstract class AnkleVisibilityGuardHandler extends Object {
     // 0x99af24: r0 = cancel()
     //     0x99af24: bl              #0x5ce814  ; [dart:isolate] _Timer::cancel
     // 0x99af28: r1 = Function '<anonymous closure>': static.
-    //     0x99af28: add             x1, PP, #0x40, lsl #12  ; [pp+0x40de0] AnonymousClosure: static (0x99af6c), in [package:ballai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::start (0x99ae9c)
+    //     0x99af28: add             x1, PP, #0x40, lsl #12  ; [pp+0x40de0] AnonymousClosure: static (0x99af6c), in [package:kourtai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::start (0x99ae9c)
     //     0x99af2c: ldr             x1, [x1, #0xde0]
     // 0x99af30: r2 = Null
     //     0x99af30: mov             x2, NULL
@@ -523,7 +523,7 @@ abstract class AnkleVisibilityGuardHandler extends Object {
     //     0x99af78: cmp             SP, x16
     //     0x99af7c: b.ls            #0x99af94
     // 0x99af80: r0 = _check()
-    //     0x99af80: bl              #0x774b8c  ; [package:ballai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::_check
+    //     0x99af80: bl              #0x774b8c  ; [package:kourtai/video_tracking/session/guards/ankle_visibility_guard_handler.dart] AnkleVisibilityGuardHandler::_check
     // 0x99af84: r0 = Null
     //     0x99af84: mov             x0, NULL
     // 0x99af88: LeaveFrame

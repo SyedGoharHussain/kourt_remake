@@ -1,4 +1,4 @@
-// lib: , url: package:ballai/video_tracking/views/drills/widgets/drill_library_promo_banner.dart
+// lib: , url: package:kourtai/video_tracking/views/drills/widgets/drill_library_promo_banner.dart
 
 // class id: 1049222, size: 0x8
 class :: {
@@ -94,17 +94,17 @@ class DrillLibraryPromoBanner extends StatelessWidget {
     // 0xc36694: StoreField: r0->field_f = r1
     //     0xc36694: stur            w1, [x0, #0xf]
     // 0xc36698: r0 = _drillCountCaption()
-    //     0xc36698: bl              #0xc36c98  ; [package:ballai/video_tracking/views/drills/widgets/drill_library_promo_banner.dart] DrillLibraryPromoBanner::_drillCountCaption
+    //     0xc36698: bl              #0xc36c98  ; [package:kourtai/video_tracking/views/drills/widgets/drill_library_promo_banner.dart] DrillLibraryPromoBanner::_drillCountCaption
     // 0xc3669c: ldur            x1, [fp, #-0x10]
     // 0xc366a0: stur            x0, [fp, #-8]
-    // 0xc366a4: r0 = BallAiThemeContext.ballAiAccent()
-    //     0xc366a4: bl              #0x9ce7bc  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiAccent
+    // 0xc366a4: r0 = KourtAiThemeContext.kourtAiAccent()
+    //     0xc366a4: bl              #0x9ce7bc  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiAccent
     // 0xc366a8: r1 = "Open the drill library"
     //     0xc366a8: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be90] "Open the drill library"
     //     0xc366ac: ldr             x1, [x1, #0xe90]
     // 0xc366b0: stur            x0, [fp, #-0x20]
     // 0xc366b4: r0 = L()
-    //     0xc366b4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc366b4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc366b8: mov             x3, x0
     // 0xc366bc: ldur            x0, [fp, #-8]
     // 0xc366c0: stur            x3, [fp, #-0x28]
@@ -369,8 +369,8 @@ class DrillLibraryPromoBanner extends StatelessWidget {
     // 0xc36984: mov             x0, x2
     // 0xc36988: ldur            x2, [fp, #-0x28]
     // 0xc3698c: ldur            x1, [fp, #-0x10]
-    // 0xc36990: r0 = BallAiThemeContext.ballAiPrimaryLabel()
-    //     0xc36990: bl              #0x9d1c18  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiPrimaryLabel
+    // 0xc36990: r0 = KourtAiThemeContext.kourtAiPrimaryLabel()
+    //     0xc36990: bl              #0x9d1c18  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiPrimaryLabel
     // 0xc36994: stur            x0, [fp, #-8]
     // 0xc36998: r0 = TextStyle()
     //     0xc36998: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -489,11 +489,11 @@ class DrillLibraryPromoBanner extends StatelessWidget {
     //     0xc36acc: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2be98] "Step-by-step videos from the best trainers."
     //     0xc36ad0: ldr             x1, [x1, #0xe98]
     // 0xc36ad4: r0 = L()
-    //     0xc36ad4: bl              #0x5edcd4  ; [package:ballai/automatic/localization/app_language_preference.dart] ::L
+    //     0xc36ad4: bl              #0x5edcd4  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::L
     // 0xc36ad8: ldur            x1, [fp, #-0x10]
     // 0xc36adc: stur            x0, [fp, #-8]
-    // 0xc36ae0: r0 = BallAiThemeContext.ballAiSecondaryLabel()
-    //     0xc36ae0: bl              #0x9ce4f0  ; [package:ballai/automatic/theme/ball_ai_theme.dart] ::BallAiThemeContext.ballAiSecondaryLabel
+    // 0xc36ae0: r0 = KourtAiThemeContext.kourtAiSecondaryLabel()
+    //     0xc36ae0: bl              #0x9ce4f0  ; [package:kourtai/automatic/theme/kourt_ai_theme.dart] ::KourtAiThemeContext.kourtAiSecondaryLabel
     // 0xc36ae4: stur            x0, [fp, #-0x10]
     // 0xc36ae8: r0 = TextStyle()
     //     0xc36ae8: bl              #0x5ef94c  ; AllocateTextStyleStub -> TextStyle (size=0x70)
@@ -623,7 +623,7 @@ class DrillLibraryPromoBanner extends StatelessWidget {
     //     0xc36c30: stur            w0, [x3, #0xb]
     // 0xc36c34: ldur            x2, [fp, #-0x18]
     // 0xc36c38: r1 = Function '<anonymous closure>':.
-    //     0xc36c38: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bea8] AnonymousClosure: (0xc36d98), in [package:ballai/video_tracking/views/drills/widgets/drill_library_promo_banner.dart] DrillLibraryPromoBanner::build (0xc3665c)
+    //     0xc36c38: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2bea8] AnonymousClosure: (0xc36d98), in [package:kourtai/video_tracking/views/drills/widgets/drill_library_promo_banner.dart] DrillLibraryPromoBanner::build (0xc3665c)
     //     0xc36c3c: ldr             x1, [x1, #0xea8]
     // 0xc36c40: r0 = AllocateClosure()
     //     0xc36c40: bl              #0xe553e0  ; AllocateClosureStub
@@ -736,7 +736,7 @@ class DrillLibraryPromoBanner extends StatelessWidget {
     //     0xc36d78: add             x1, PP, #0x2b, lsl #12  ; [pp+0x2beb0] "%lld+ drills"
     //     0xc36d7c: ldr             x1, [x1, #0xeb0]
     // 0xc36d80: r0 = LF()
-    //     0xc36d80: bl              #0x5ef97c  ; [package:ballai/automatic/localization/app_language_preference.dart] ::LF
+    //     0xc36d80: bl              #0x5ef97c  ; [package:kourtai/automatic/localization/app_language_preference.dart] ::LF
     // 0xc36d84: LeaveFrame
     //     0xc36d84: mov             SP, fp
     //     0xc36d88: ldp             fp, lr, [SP], #0x10
@@ -778,7 +778,7 @@ class DrillLibraryPromoBanner extends StatelessWidget {
     // 0xc36ddc: DecompressPointer r1
     //     0xc36ddc: add             x1, x1, HEAP, lsl #32
     // 0xc36de0: r0 = _openDrillLibrary()
-    //     0xc36de0: bl              #0xac821c  ; [package:ballai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_openDrillLibrary
+    //     0xc36de0: bl              #0xac821c  ; [package:kourtai/video_tracking/views/selection/workout_selection_view.dart] _WorkoutSelectionViewState::_openDrillLibrary
     // 0xc36de4: r0 = Null
     //     0xc36de4: mov             x0, NULL
     // 0xc36de8: LeaveFrame
