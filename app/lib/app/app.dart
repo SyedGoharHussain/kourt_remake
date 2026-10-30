@@ -6,6 +6,8 @@ import '../features/auth/data/auth_manager.dart';
 import '../features/lab/data/drill_catalog_repository.dart';
 import '../features/lab/data/drill_favorites_store.dart';
 import '../features/lab/presentation/lab_view_model.dart';
+import '../features/my_player/data/my_player_store.dart';
+import '../features/my_player/presentation/my_player_view_model.dart';
 import '../features/onboarding/data/onboarding_draft_store.dart';
 import 'router.dart';
 import 'theme/app_theme.dart';
@@ -47,6 +49,9 @@ class _KourtAppState extends State<KourtApp> {
         Provider<OnboardingDraftStore>(
           create: (_) => LocalOnboardingDraftStore(),
         ),
+        Provider<MyPlayerStore>(
+          create: (_) => LocalMyPlayerStore(),
+        ),
         Provider<DrillCatalogRepository>(
           create: (_) => LocalDrillCatalogRepository(),
         ),
@@ -56,6 +61,12 @@ class _KourtAppState extends State<KourtApp> {
         ChangeNotifierProvider<LabViewModel>(
           create: (context) =>
               LabViewModel(context.read<DrillCatalogRepository>()),
+        ),
+        ChangeNotifierProvider<MyPlayerViewModel>(
+          create: (context) => MyPlayerViewModel(
+            context.read<MyPlayerStore>(),
+            context.read<OnboardingDraftStore>(),
+          ),
         ),
       ],
       child: MaterialApp.router(

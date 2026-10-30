@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../../auth/data/auth_manager.dart';
+import '../../my_player/data/my_player_store.dart';
 import '../data/onboarding_draft_store.dart';
 import '../domain/account_setup_step.dart';
 import '../domain/onboarding_enums.dart';
@@ -29,6 +30,7 @@ class _AccountSetupViewState extends State<AccountSetupView> {
     _bootstrap = AccountSetupController.resume(
       store: context.read<OnboardingDraftStore>(),
       auth: context.read<AuthManager>(),
+      myPlayerStore: context.read<MyPlayerStore>(),
     );
   }
 

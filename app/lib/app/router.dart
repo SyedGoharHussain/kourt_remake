@@ -6,6 +6,7 @@ import '../features/auth/data/auth_manager.dart';
 import '../features/home/presentation/home_shell.dart';
 import '../features/home/presentation/placeholder_tab.dart';
 import '../features/lab/presentation/screens/drill_library_view.dart';
+import '../features/my_player/presentation/screens/profile_view.dart';
 import '../features/onboarding/presentation/account_setup_view.dart';
 
 /// Named routes for the 5 tabs plus the onboarding funnel. Deep-link paths for
@@ -105,11 +106,7 @@ GoRouter createAppRouter(AuthManager auth) {
             routes: [
               GoRoute(
                 path: AppRoutes.profile,
-                builder: (context, state) => const PlaceholderTab(
-                  title: 'Profile',
-                  icon: Icons.person,
-                  message: 'Your My Player card, archetype and settings.',
-                ),
+                builder: (context, state) => const ProfileView(),
               ),
             ],
           ),

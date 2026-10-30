@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 
 import '../../auth/data/auth_manager.dart';
+import '../../my_player/data/my_player_store.dart';
 import '../data/onboarding_draft_store.dart';
 import '../domain/account_setup_focus.dart';
 import '../domain/account_setup_step.dart';
@@ -20,12 +21,15 @@ class AccountSetupController extends ChangeNotifier {
     this._store,
     this._auth, {
     OnboardingDraft? initial,
-  }) : _draft = initial ?? const OnboardingDraft() {
+    MyPlayerStore? myPlayerStore,
+  })  : _myPlayerStore = myPlayerStore,
+        _draft = initial ?? const OnboardingDraft() {
     _stepIndex = _draft.currentStep.clamp(0, steps.length - 1);
   }
 
   final OnboardingDraftStore _store;
   final AuthManager _auth;
+  final MyPlayerStore? _myPlayerStore;
 
   OnboardingDraft _draft;
   int _stepIndex = 0;
@@ -51,9 +55,15 @@ class AccountSetupController extends ChangeNotifier {
   static Future<AccountSetupController> resume({
     required OnboardingDraftStore store,
     required AuthManager auth,
+    MyPlayerStore? myPlayerStore,
   }) async {
     final saved = await store.load();
-    return AccountSetupController(store, auth, initial: saved);
+    return AccountSetupController(
+      store,
+      auth,
+      initial: saved,
+      myPlayerStore: myPlayerStore,
+    );
   }
 
   // --- Navigation -----------------------------------------------------------
@@ -197,6 +207,9 @@ class AccountSetupController extends ChangeNotifier {
     if (_finishing) return;
     _finishing = true;
     notifyListeners();
+    // Lock in the My Player snapshot before the in-progress draft is cleared,
+    // so the Profile tab can resolve the card after onboarding completes.
+    await _myPlayerStore?.save(_draft);
     await _auth.completeOnboarding(greenSound: greenSound ?? _greenSound);
     await _store.clear();
   }
