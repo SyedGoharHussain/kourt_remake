@@ -8,6 +8,9 @@ import '../features/home/presentation/placeholder_tab.dart';
 import '../features/lab/presentation/screens/drill_library_view.dart';
 import '../features/my_player/presentation/screens/profile_view.dart';
 import '../features/onboarding/presentation/account_setup_view.dart';
+import '../features/workout/domain/workout_summary.dart';
+import '../features/workout/presentation/screens/workout_summary_view.dart';
+import '../features/workout/presentation/screens/workout_view.dart';
 
 /// Named routes for the 5 tabs plus the onboarding funnel. Deep-link paths for
 /// team-invite / profile / workout / drill can be added here later without
@@ -19,6 +22,10 @@ abstract final class AppRoutes {
   static const lab = '/lab';
   static const trends = '/trends';
   static const profile = '/profile';
+
+  /// Full-screen post-workout summary, pushed above the tab shell with the
+  /// finished [WorkoutSummaryModel] passed as `extra`.
+  static const workoutSummary = '/workout-summary';
 }
 
 /// Builds the app router: a [StatefulShellRoute] with one branch per tab so each
@@ -71,13 +78,7 @@ GoRouter createAppRouter(AuthManager auth) {
             routes: [
               GoRoute(
                 path: AppRoutes.workout,
-                builder: (context, state) => const PlaceholderTab(
-                  title: 'Workout',
-                  icon: Icons.videocam,
-                  message:
-                      'The on-device AI camera: ball + rim tracking, shot scoring, '
-                      'and the Bally voice coach.',
-                ),
+                builder: (context, state) => const WorkoutView(),
               ),
             ],
           ),
@@ -111,6 +112,19 @@ GoRouter createAppRouter(AuthManager auth) {
             ],
           ),
         ],
+      ),
+      // Full-screen summary, above the shell (root navigator).
+      GoRoute(
+        path: AppRoutes.workoutSummary,
+        builder: (context, state) {
+          final summary = state.extra;
+          if (summary is! WorkoutSummaryModel) {
+            return const Scaffold(
+              body: Center(child: Text('No workout to show.')),
+            );
+          }
+          return WorkoutSummaryView(summary: summary);
+        },
       ),
     ],
   );

@@ -9,6 +9,8 @@ import '../features/lab/presentation/lab_view_model.dart';
 import '../features/my_player/data/my_player_store.dart';
 import '../features/my_player/presentation/my_player_view_model.dart';
 import '../features/onboarding/data/onboarding_draft_store.dart';
+import '../features/workout/data/workout_repository.dart';
+import '../features/workout/presentation/workout_view_model.dart';
 import 'router.dart';
 import 'theme/app_theme.dart';
 
@@ -66,6 +68,16 @@ class _KourtAppState extends State<KourtApp> {
           create: (context) => MyPlayerViewModel(
             context.read<MyPlayerStore>(),
             context.read<OnboardingDraftStore>(),
+          ),
+        ),
+        Provider<WorkoutRepository>(
+          create: (_) => LocalWorkoutRepository(),
+        ),
+        // Phase 4/5 — the AI camera + shot analysis. Lazily created when the
+        // Workout tab first builds, so the camera isn't touched until opened.
+        ChangeNotifierProvider<WorkoutViewModel>(
+          create: (context) => WorkoutViewModel(
+            repository: context.read<WorkoutRepository>(),
           ),
         ),
       ],
