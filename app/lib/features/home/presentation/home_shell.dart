@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 /// The 5-tab bottom-nav shell. Hosts the branch navigators from go_router's
-/// [StatefulShellRoute] and renders the [NavigationBar]. Tabs: Feed, Workout,
+/// [StatefulShellRoute] and renders the [NavigationBar]. Tabs: Teams, Workout,
 /// The Lab, Trends, Profile.
 class HomeShell extends StatelessWidget {
   const HomeShell({super.key, required this.navigationShell});
@@ -11,9 +11,9 @@ class HomeShell extends StatelessWidget {
 
   static const _destinations = <NavigationDestination>[
     NavigationDestination(
-      icon: Icon(Icons.home_outlined),
-      selectedIcon: Icon(Icons.home),
-      label: 'Feed',
+      icon: Icon(Icons.groups_outlined),
+      selectedIcon: Icon(Icons.groups),
+      label: 'Teams',
     ),
     NavigationDestination(
       icon: Icon(Icons.videocam_outlined),

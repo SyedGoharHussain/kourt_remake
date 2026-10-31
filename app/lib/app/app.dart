@@ -9,6 +9,17 @@ import '../features/lab/presentation/lab_view_model.dart';
 import '../features/my_player/data/my_player_store.dart';
 import '../features/my_player/presentation/my_player_view_model.dart';
 import '../features/onboarding/data/onboarding_draft_store.dart';
+import '../features/social/data/social_repositories.dart';
+import '../features/social/data/social_store.dart';
+import '../features/social/presentation/managers/comment_like_manager.dart';
+import '../features/social/presentation/managers/direct_message_manager.dart';
+import '../features/social/presentation/managers/follow_manager.dart';
+import '../features/social/presentation/managers/team_manager.dart';
+import '../features/social/presentation/managers/user_discovery_manager.dart';
+import '../features/social/presentation/managers/workout_comment_manager.dart';
+import '../features/social/presentation/managers/workout_like_manager.dart';
+import '../features/social/presentation/social_bootstrapper.dart';
+import '../features/social/presentation/team_feed_view_model.dart';
 import '../features/trends/data/activity_goal_repository.dart';
 import '../features/trends/data/daily_activity_streak_store.dart';
 import '../features/trends/presentation/activity_goal_manager.dart';
@@ -100,6 +111,89 @@ class _KourtAppState extends State<KourtApp> {
         ChangeNotifierProvider<TrendsManager>(
           create: (context) => TrendsManager(context.read<WorkoutRepository>()),
         ),
+        // Phase 7 — teams, follows, DMs, comments and likes on a local mock store.
+        Provider<SocialStore>(create: (_) => SocialStore()),
+        Provider<SocialUserRepository>(
+          create: (context) =>
+              LocalSocialUserRepository(context.read<SocialStore>()),
+        ),
+        Provider<FollowRepository>(
+          create: (context) =>
+              LocalFollowRepository(context.read<SocialStore>()),
+        ),
+        Provider<TeamRepository>(
+          create: (context) => LocalTeamRepository(context.read<SocialStore>()),
+        ),
+        Provider<DirectMessageRepository>(
+          create: (context) =>
+              LocalDirectMessageRepository(context.read<SocialStore>()),
+        ),
+        Provider<WorkoutFeedRepository>(
+          create: (context) => LocalWorkoutFeedRepository(
+            context.read<SocialStore>(),
+            context.read<WorkoutRepository>(),
+          ),
+        ),
+        Provider<WorkoutCommentRepository>(
+          create: (context) =>
+              LocalWorkoutCommentRepository(context.read<SocialStore>()),
+        ),
+        ChangeNotifierProvider<UserDiscoveryManager>(
+          create: (context) => UserDiscoveryManager(
+            context.read<SocialUserRepository>(),
+            context.read<MyPlayerStore>(),
+          ),
+        ),
+        ChangeNotifierProvider<FollowManager>(
+          create: (context) => FollowManager(
+            context.read<FollowRepository>(),
+            context.read<UserDiscoveryManager>(),
+          ),
+        ),
+        ChangeNotifierProvider<TeamManager>(
+          create: (context) => TeamManager(context.read<TeamRepository>()),
+        ),
+        ChangeNotifierProvider<DirectMessageManager>(
+          create: (context) => DirectMessageManager(
+            context.read<DirectMessageRepository>(),
+            context.read<TeamManager>(),
+            context.read<FollowManager>(),
+          ),
+        ),
+        ChangeNotifierProvider<WorkoutLikeManager>(
+          create: (context) =>
+              WorkoutLikeManager(context.read<WorkoutFeedRepository>()),
+        ),
+        ChangeNotifierProvider<CommentLikeManager>(
+          create: (context) =>
+              CommentLikeManager(context.read<WorkoutCommentRepository>()),
+        ),
+        ChangeNotifierProvider<WorkoutCommentManager>(
+          create: (context) => WorkoutCommentManager(
+            context.read<WorkoutCommentRepository>(),
+            context.read<CommentLikeManager>(),
+          ),
+        ),
+        Provider<SocialBootstrapper>(
+          create: (context) => SocialBootstrapper(
+            users: context.read<UserDiscoveryManager>(),
+            follows: context.read<FollowManager>(),
+            teams: context.read<TeamManager>(),
+            messages: context.read<DirectMessageManager>(),
+            workoutLikes: context.read<WorkoutLikeManager>(),
+            commentLikes: context.read<CommentLikeManager>(),
+            comments: context.read<WorkoutCommentManager>(),
+          ),
+        ),
+        // The Teams tab's feed, across all of the user's teams.
+        ChangeNotifierProvider<TeamFeedViewModel>(
+          create: (context) => TeamFeedViewModel(
+            feed: context.read<WorkoutFeedRepository>(),
+            teams: context.read<TeamManager>(),
+            users: context.read<UserDiscoveryManager>(),
+            follows: context.read<FollowManager>(),
+          ),
+        ),
         // Phase 4/5 — the AI camera + shot analysis. Lazily created when the
         // Workout tab first builds, so the camera isn't touched until opened.
         ChangeNotifierProvider<WorkoutViewModel>(
@@ -109,6 +203,7 @@ class _KourtAppState extends State<KourtApp> {
               context.read<DailyActivityStreakManager>().refreshStreak();
               context.read<ActivityGoalManager>().load();
               context.read<TrendsManager>().load();
+              context.read<TeamFeedViewModel>().refreshIfLoaded();
             },
           ),
         ),

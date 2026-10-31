@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
+import '../../../../app/router.dart';
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
 import '../../../../core/widgets/glass_card.dart';
 import '../../../auth/data/auth_manager.dart';
+import '../../../social/presentation/managers/direct_message_manager.dart';
+import '../../../social/presentation/social_bootstrapper.dart';
+import '../../../social/presentation/widgets/social_avatar.dart';
+import '../../../social/presentation/widgets/you_social_sections.dart';
 import '../my_player_view_model.dart';
 import '../widgets/my_player_card.dart';
 import '../widgets/nba_comparison_tile.dart';
@@ -28,6 +34,8 @@ class _ProfileViewState extends State<ProfileView> {
     WidgetsBinding.instance.addPostFrameCallback((_) {
       final vm = context.read<MyPlayerViewModel>();
       if (!vm.loadedOnce && !vm.isLoading) vm.load();
+      // This tab can be the way into People and Messages.
+      context.read<SocialBootstrapper>().ensureLoaded();
     });
   }
 
@@ -35,7 +43,18 @@ class _ProfileViewState extends State<ProfileView> {
   Widget build(BuildContext context) {
     final vm = context.watch<MyPlayerViewModel>();
     return Scaffold(
-      appBar: AppBar(title: const Text('Profile')),
+      appBar: AppBar(
+        title: const Text('Profile'),
+        actions: [
+          BadgedIconButton(
+            icon: Icons.chat_bubble_outline,
+            count: context.watch<DirectMessageManager>().totalUnreadCount,
+            tooltip: 'Messages',
+            onPressed: () => context.push(AppRoutes.messages),
+          ),
+          const SizedBox(width: AppSpacing.xs),
+        ],
+      ),
       body: SafeArea(top: false, child: _body(vm)),
     );
   }
@@ -63,6 +82,10 @@ class _ProfileViewState extends State<ProfileView> {
         ),
         children: [
           MyPlayerCard(profile: profile),
+          const SizedBox(height: AppSpacing.lg),
+          const YouConnectionsSection(),
+          const SizedBox(height: AppSpacing.lg),
+          const YouTeamsPane(),
           const SizedBox(height: AppSpacing.lg),
           _Section(
             title: 'Attribute profile',

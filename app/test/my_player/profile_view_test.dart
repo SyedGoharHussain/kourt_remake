@@ -8,9 +8,14 @@ import 'package:kourt_ai/features/onboarding/data/onboarding_draft_store.dart';
 import 'package:kourt_ai/features/onboarding/domain/onboarding_draft.dart';
 import 'package:provider/provider.dart';
 
+import '../support/social_fixture.dart';
+
+late SocialFixture _social;
+
 Widget _host(MyPlayerStore store) {
   return MultiProvider(
     providers: [
+      ..._social.providers,
       ChangeNotifierProvider<MyPlayerViewModel>(
         create: (_) => MyPlayerViewModel(store, InMemoryOnboardingDraftStore()),
       ),
@@ -23,6 +28,7 @@ void main() {
   testWidgets('renders the My Player card from the saved snapshot', (
     tester,
   ) async {
+    _social = await SocialFixture.create();
     final store = InMemoryMyPlayerStore(
       OnboardingDraft(
         name: 'Umar',
@@ -41,10 +47,25 @@ void main() {
     // The hero card is in the first viewport.
     expect(find.text('MY PLAYER'), findsOneWidget);
     expect(find.text('Shooting Specialist'), findsOneWidget);
-    expect(find.text('Attribute profile'), findsOneWidget);
 
-    // The NBA comparison + details sit lower in the (lazy) scroll view.
+    // The rest sits lower in the (lazy) scroll view.
     final scrollable = find.byType(Scrollable).first;
+    await tester.scrollUntilVisible(
+      find.text('People'),
+      300,
+      scrollable: scrollable,
+    );
+    expect(find.text('4 followers · 3 following'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.text('Westside Hoopers'),
+      300,
+      scrollable: scrollable,
+    );
+    await tester.scrollUntilVisible(
+      find.text('Attribute profile'),
+      300,
+      scrollable: scrollable,
+    );
     await tester.scrollUntilVisible(
       find.text('Stephen Curry'),
       300,
@@ -60,6 +81,7 @@ void main() {
   });
 
   testWidgets('shows the empty state when nothing is saved', (tester) async {
+    _social = await SocialFixture.create();
     await tester.pumpWidget(_host(InMemoryMyPlayerStore()));
     await tester.pump();
     await tester.pump(const Duration(milliseconds: 300));
