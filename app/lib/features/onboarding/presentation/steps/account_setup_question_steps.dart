@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../../app/theme/app_colors.dart';
+import '../../../trends/domain/activity_goal_totals.dart';
 import '../../domain/account_setup_focus.dart';
 import '../../domain/onboarding_enums.dart';
 import '../account_setup_controller.dart';
@@ -340,47 +341,63 @@ class WeeklyGoalsStep extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final draft = controller.draft;
-    final makes = draft.recommendedMakesGoal ?? 150;
-    final shots = draft.recommendedShotsGoal ?? 300;
-    final minutes = (draft.recommendedTimeGoalSeconds ?? 1800) ~/ 60;
-
-    void save({int? m, int? s, int? min}) => controller.setWeeklyGoals(
-      makes: m ?? makes,
-      shots: s ?? shots,
-      timeSeconds: (min ?? minutes) * 60,
+    final recommended = ActivityGoalTotals.recommended(
+      trainingFrequency: draft.trainingFrequency,
+      levelOfPlay: draft.levelOfPlay,
     );
+    final makes = draft.recommendedMakesGoal ?? recommended.makes;
+    final shots = draft.recommendedShotsGoal ?? recommended.shots;
+    final timeSeconds =
+        draft.recommendedTimeGoalSeconds ?? recommended.timeSeconds;
+
+    void save({int? m, int? s, int? seconds}) {
+      final totals = ActivityGoalTotals(
+        shots: s ?? shots,
+        makes: m ?? makes,
+        timeSeconds: seconds ?? timeSeconds,
+      ).clamped();
+      controller.setWeeklyGoals(
+        makes: totals.makes,
+        shots: totals.shots,
+        timeSeconds: totals.timeSeconds,
+      );
+    }
 
     return AccountSetupScaffold(
       progress: controller.progress,
       onBack: controller.back,
       ballyMessage: "Let's set your weekly goals.",
       ballySubtitle: 'You can change these anytime.',
-      onPrimary: controller.next,
+      onPrimary: () {
+        // Lock in what's on screen, even if the recommendations went untouched.
+        save();
+        controller.next();
+      },
       body: Column(
         children: [
           _GoalStepper(
-            label: 'Makes / week',
-            value: makes,
-            step: 25,
-            min: 25,
-            max: 1000,
-            onChanged: (v) => save(m: v),
+            label: 'Hours / week',
+            value: timeSeconds ~/ ActivityGoalTotals.timeStep,
+            step: 1,
+            min: ActivityGoalTotals.minTime ~/ ActivityGoalTotals.timeStep,
+            max: ActivityGoalTotals.maxTime ~/ ActivityGoalTotals.timeStep,
+            onChanged: (v) => save(seconds: v * ActivityGoalTotals.timeStep),
           ),
           _GoalStepper(
             label: 'Shots / week',
             value: shots,
-            step: 25,
-            min: 25,
-            max: 2000,
+            step: ActivityGoalTotals.shotsStep,
+            min: ActivityGoalTotals.minShots,
+            max: ActivityGoalTotals.maxShots,
             onChanged: (v) => save(s: v),
           ),
           _GoalStepper(
-            label: 'Minutes / week',
-            value: minutes,
-            step: 15,
-            min: 15,
-            max: 600,
-            onChanged: (v) => save(min: v),
+            label: 'Makes / week',
+            value: makes,
+            step: ActivityGoalTotals.makesStep,
+            min: ActivityGoalTotals.minMakes,
+            max: shots,
+            onChanged: (v) => save(m: v),
           ),
         ],
       ),

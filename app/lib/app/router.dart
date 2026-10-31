@@ -8,6 +8,9 @@ import '../features/home/presentation/placeholder_tab.dart';
 import '../features/lab/presentation/screens/drill_library_view.dart';
 import '../features/my_player/presentation/screens/profile_view.dart';
 import '../features/onboarding/presentation/account_setup_view.dart';
+import '../features/trends/presentation/screens/activity_change_goals_view.dart';
+import '../features/trends/presentation/screens/streak_journey_view.dart';
+import '../features/trends/presentation/screens/trends_view.dart';
 import '../features/workout/domain/workout_summary.dart';
 import '../features/workout/presentation/screens/workout_summary_view.dart';
 import '../features/workout/presentation/screens/workout_view.dart';
@@ -26,6 +29,12 @@ abstract final class AppRoutes {
   /// Full-screen post-workout summary, pushed above the tab shell with the
   /// finished [WorkoutSummaryModel] passed as `extra`.
   static const workoutSummary = '/workout-summary';
+
+  /// Full-screen weekly-goal editor, pushed above the tab shell.
+  static const activityGoals = '/activity-goals';
+
+  /// The 30 Day Challenge, pushed above the tab shell.
+  static const streakJourney = '/streak-journey';
 }
 
 /// Builds the app router: a [StatefulShellRoute] with one branch per tab so each
@@ -94,12 +103,7 @@ GoRouter createAppRouter(AuthManager auth) {
             routes: [
               GoRoute(
                 path: AppRoutes.trends,
-                builder: (context, state) => const PlaceholderTab(
-                  title: 'Trends',
-                  icon: Icons.insights,
-                  message:
-                      'Streaks, activity rings, milestones and your shooting trends.',
-                ),
+                builder: (context, state) => const TrendsView(),
               ),
             ],
           ),
@@ -125,6 +129,14 @@ GoRouter createAppRouter(AuthManager auth) {
           }
           return WorkoutSummaryView(summary: summary);
         },
+      ),
+      GoRoute(
+        path: AppRoutes.activityGoals,
+        builder: (context, state) => const ActivityChangeGoalsView(),
+      ),
+      GoRoute(
+        path: AppRoutes.streakJourney,
+        builder: (context, state) => const StreakJourneyView(),
       ),
     ],
   );

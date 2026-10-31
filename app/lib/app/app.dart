@@ -9,6 +9,11 @@ import '../features/lab/presentation/lab_view_model.dart';
 import '../features/my_player/data/my_player_store.dart';
 import '../features/my_player/presentation/my_player_view_model.dart';
 import '../features/onboarding/data/onboarding_draft_store.dart';
+import '../features/trends/data/activity_goal_repository.dart';
+import '../features/trends/data/daily_activity_streak_store.dart';
+import '../features/trends/presentation/activity_goal_manager.dart';
+import '../features/trends/presentation/daily_activity_streak_manager.dart';
+import '../features/trends/presentation/trends_manager.dart';
 import '../features/workout/data/workout_repository.dart';
 import '../features/workout/presentation/workout_view_model.dart';
 import 'router.dart';
@@ -73,11 +78,38 @@ class _KourtAppState extends State<KourtApp> {
         Provider<WorkoutRepository>(
           create: (_) => LocalWorkoutRepository(),
         ),
+        // Phase 6 — goals, streaks and trends, all derived from stored workouts.
+        Provider<ActivityGoalRepository>(
+          create: (_) => LocalActivityGoalRepository(),
+        ),
+        Provider<DailyActivityStreakStore>(
+          create: (_) => LocalDailyActivityStreakStore(),
+        ),
+        ChangeNotifierProvider<ActivityGoalManager>(
+          create: (context) => ActivityGoalManager(
+            repository: context.read<ActivityGoalRepository>(),
+            workouts: context.read<WorkoutRepository>(),
+            myPlayerStore: context.read<MyPlayerStore>(),
+          ),
+        ),
+        ChangeNotifierProvider<DailyActivityStreakManager>(
+          create: (context) => DailyActivityStreakManager(
+            context.read<DailyActivityStreakStore>(),
+          )..checkStreak(),
+        ),
+        ChangeNotifierProvider<TrendsManager>(
+          create: (context) => TrendsManager(context.read<WorkoutRepository>()),
+        ),
         // Phase 4/5 — the AI camera + shot analysis. Lazily created when the
         // Workout tab first builds, so the camera isn't touched until opened.
         ChangeNotifierProvider<WorkoutViewModel>(
           create: (context) => WorkoutViewModel(
             repository: context.read<WorkoutRepository>(),
+            onWorkoutSaved: () {
+              context.read<DailyActivityStreakManager>().refreshStreak();
+              context.read<ActivityGoalManager>().load();
+              context.read<TrendsManager>().load();
+            },
           ),
         ),
       ],
