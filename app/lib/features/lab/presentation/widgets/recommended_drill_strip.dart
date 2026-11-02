@@ -37,7 +37,7 @@ class RecommendedDrillStrip extends StatelessWidget {
           ),
         ),
         SizedBox(
-          height: 150,
+          height: 172,
           child: ListView.separated(
             scrollDirection: Axis.horizontal,
             padding: EdgeInsets.zero,
@@ -46,10 +46,10 @@ class RecommendedDrillStrip extends StatelessWidget {
             itemBuilder: (context, index) {
               final drill = drills[index];
               return SizedBox(
-                width: 220,
+                width: 248,
                 child: DrillSpotlightCard(
                   drill: drill,
-                  height: 150,
+                  height: 172,
                   onTap: () => onOpen(drill),
                 ),
               );

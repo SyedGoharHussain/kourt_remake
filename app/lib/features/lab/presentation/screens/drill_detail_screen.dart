@@ -260,7 +260,7 @@ class _VideoPlaceholder extends StatelessWidget {
     return Stack(
       fit: StackFit.expand,
       children: [
-        DrillThumbnailImage(drill: drill, iconSize: 56),
+        DrillThumbnailImage(drill: drill),
         Container(color: Colors.black.withValues(alpha: 0.25)),
         Center(
           child: Column(

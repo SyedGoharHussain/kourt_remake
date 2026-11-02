@@ -96,6 +96,7 @@ flutter:
 
   assets:
     - assets/icon/
+    - assets/images/lab/
     - assets/images/streak/
     - assets/l10n/
     - assets/l10n/app/

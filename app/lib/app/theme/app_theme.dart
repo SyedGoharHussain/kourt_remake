@@ -20,17 +20,16 @@ abstract final class AppSpacing {
   static const double xxl = 28;
 }
 
-/// Builds the app's dark theme, mirroring the original Kourt AI "basketball
-/// aesthetic": pure-black scaffold, iOS-style dark cards, a cyan brand accent,
-/// Material 3, and the platform default font (SF Pro / Roboto).
+/// Builds the app's dark theme: an ink scaffold, dark blue-gray cards, a cyan
+/// brand accent, Material 3, and the platform default font (SF Pro / Roboto).
 abstract final class AppTheme {
   static ThemeData dark() {
     const scheme = ColorScheme(
       brightness: Brightness.dark,
       primary: AppColors.accent,
-      onPrimary: AppColors.textPrimary,
+      onPrimary: AppColors.onAccent,
       secondary: AppColors.accent,
-      onSecondary: AppColors.textPrimary,
+      onSecondary: AppColors.onAccent,
       error: AppColors.miss,
       onError: AppColors.textPrimary,
       surface: AppColors.card,
@@ -109,7 +108,7 @@ abstract final class AppTheme {
       filledButtonTheme: FilledButtonThemeData(
         style: FilledButton.styleFrom(
           backgroundColor: AppColors.accent,
-          foregroundColor: AppColors.textPrimary,
+          foregroundColor: AppColors.onAccent,
           disabledBackgroundColor: AppColors.disabledFill,
           disabledForegroundColor: AppColors.textSecondary,
           minimumSize: const Size(64, 56),

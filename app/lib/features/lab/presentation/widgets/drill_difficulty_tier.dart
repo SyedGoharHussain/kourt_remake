@@ -17,9 +17,9 @@ Color experienceLevelColor(ExperienceLevel level) {
   }
 }
 
-/// A compact badge showing a drill's difficulty tier: a colored dot + label.
-/// Labels are the four recovered tiers (Beginner / Competitive / Advanced /
-/// Elite).
+/// A compact badge showing a drill's difficulty tier: a colored dot + label on
+/// a dark pill, so it stays readable over any photo. Labels are the four
+/// recovered tiers (Beginner / Competitive / Advanced / Elite).
 class DrillDifficultyTierBadge extends StatelessWidget {
   const DrillDifficultyTierBadge({super.key, required this.level});
 
@@ -31,9 +31,9 @@ class DrillDifficultyTierBadge extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
       decoration: BoxDecoration(
-        color: color.withValues(alpha: 0.14),
+        color: AppColors.background.withValues(alpha: 0.72),
         borderRadius: BorderRadius.circular(999),
-        border: Border.all(color: color.withValues(alpha: 0.5)),
+        border: Border.all(color: AppColors.hairline),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
@@ -46,8 +46,8 @@ class DrillDifficultyTierBadge extends StatelessWidget {
           const SizedBox(width: 6),
           Text(
             level.label,
-            style: TextStyle(
-              color: color,
+            style: const TextStyle(
+              color: AppColors.textPrimary,
               fontSize: 12,
               fontWeight: FontWeight.w700,
             ),
