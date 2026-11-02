@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../domain/drill_category.dart';
 import '../../domain/drill_template.dart';
 import '../../domain/experience_level.dart';
@@ -83,7 +84,7 @@ class _CategoryDrillListScreenState extends State<CategoryDrillListScreen> {
               const SizedBox(height: AppSpacing.sm),
               DrillLibrarySearchField(
                 controller: _searchController,
-                hintText: 'Search ${widget.category.label.toLowerCase()}',
+                hintText: LF('Search %@', [widget.category.label.toLowerCase()]),
                 onChanged: (v) => setState(() => _query = v),
               ),
               if (tiers.length > 1) ...[
@@ -138,7 +139,7 @@ class _EmptyState extends StatelessWidget {
           const Icon(Icons.search_off, color: AppColors.textSecondary, size: 44),
           const SizedBox(height: AppSpacing.md),
           Text(
-            filtered ? 'No drills match your search' : 'No drills yet',
+            filtered ? L('No drills match your search') : L('No drills yet'),
             style: const TextStyle(
               color: AppColors.textPrimary,
               fontSize: 17,
@@ -146,9 +147,9 @@ class _EmptyState extends StatelessWidget {
             ),
           ),
           const SizedBox(height: AppSpacing.xs),
-          const Text(
-            'New drills will be added soon.',
-            style: TextStyle(color: AppColors.textSecondary, fontSize: 14),
+          Text(
+            L('New drills will be added soon'),
+            style: const TextStyle(color: AppColors.textSecondary, fontSize: 14),
           ),
         ],
       ),

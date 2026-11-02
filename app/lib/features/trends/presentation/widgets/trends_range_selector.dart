@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../domain/trends_date_range.dart';
 import '../trends_manager.dart';
 
@@ -59,7 +60,7 @@ class TrendsRangeSelector extends StatelessWidget {
       children: [
         if (manager.canStepBack)
           IconButton(
-            tooltip: 'Previous period',
+            tooltip: L('Previous period'),
             icon: const Icon(Icons.chevron_left),
             onPressed: () => manager.stepRange(-1),
           ),
@@ -90,7 +91,7 @@ class TrendsRangeSelector extends StatelessWidget {
         ),
         if (manager.canStepBack)
           IconButton(
-            tooltip: 'Next period',
+            tooltip: L('Next period'),
             icon: const Icon(Icons.chevron_right),
             onPressed: manager.canStepForward ? () => manager.stepRange(1) : null,
           ),

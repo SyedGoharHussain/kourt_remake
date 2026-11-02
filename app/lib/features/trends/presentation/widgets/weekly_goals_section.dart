@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../domain/activity_goal_model.dart';
 import '../../domain/activity_goal_week_progress.dart';
-import '../../domain/trends_date_range.dart';
 import '../../domain/weekly_date_key.dart';
 import 'activity_ring_view.dart';
 import 'trends_section.dart';
@@ -30,7 +30,7 @@ class _WeeklyGoalsSectionState extends State<WeeklyGoalsSection> {
   Widget build(BuildContext context) {
     final weeks = widget.weeks;
     if (weeks.isEmpty) {
-      return const TrendsEmptyNote('No weekly goals in this period.');
+      return TrendsEmptyNote(L('No weekly goals in this period yet.'));
     }
     final summary = WeeklyGoalsSummary.from(weeks);
     final visible =
@@ -41,19 +41,19 @@ class _WeeklyGoalsSectionState extends State<WeeklyGoalsSection> {
           children: [
             Expanded(
               child: TrendsStat(
-                label: 'Avg. completion',
+                label: L('Avg. completion'),
                 value: '${summary.averageCompletion}%',
               ),
             ),
             Expanded(
               child: TrendsStat(
-                label: 'Best week',
+                label: L('Best week'),
                 value: '${summary.bestWeek}%',
               ),
             ),
             Expanded(
               child: TrendsStat(
-                label: 'Goals met',
+                label: L('Goals met'),
                 value: '${summary.goalsMet}',
                 color: AppColors.make,
               ),
@@ -70,7 +70,7 @@ class _WeeklyGoalsSectionState extends State<WeeklyGoalsSection> {
         if (weeks.length > _collapsedCount)
           TextButton(
             onPressed: () => setState(() => _expanded = !_expanded),
-            child: Text(_expanded ? 'Show less' : 'Show all ${weeks.length} weeks'),
+            child: Text(_expanded ? L('Show less') : LF('Show all %lld weeks', [weeks.length])),
           ),
       ],
     );
@@ -87,7 +87,7 @@ class WeeklyGoalCell extends StatelessWidget {
     final start = goal.startDate;
     final end = ActivityWeek.endOf(start);
     String short(DateTime d) =>
-        '${TrendsDateRangeType.monthTitle(d).substring(0, 3)} ${d.day}';
+        AppLanguagePreference.instance.shortMonthDay(d);
     return '${short(start)} – ${short(end)}';
   }
 

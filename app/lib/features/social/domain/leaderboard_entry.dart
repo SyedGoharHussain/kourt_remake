@@ -1,3 +1,4 @@
+import '../../../core/l10n/app_language_preference.dart';
 import '../../workout/domain/workout_model.dart';
 import 'social_user.dart';
 import 'team_model.dart';
@@ -9,9 +10,11 @@ enum LeaderboardMetric {
   time('Time'),
   makePct('Make %');
 
-  const LeaderboardMetric(this.label);
+  const LeaderboardMetric(this.labelKey);
 
-  final String label;
+  final String labelKey;
+
+  String get label => L(labelKey);
 
   /// `1,240` / `1h 23m` / `68%`, the recovered `formatValue`.
   String format(double value) {
@@ -23,7 +26,7 @@ enum LeaderboardMetric {
         final totalMinutes = value ~/ 60;
         final hours = totalMinutes ~/ 60;
         final minutes = totalMinutes % 60;
-        return hours > 0 ? '${hours}h ${minutes}m' : '${minutes}m';
+        return hours > 0 ? LF('%lldh %lldm', [hours, minutes]) : LF('%lldm', [minutes]);
       case LeaderboardMetric.makePct:
         return '${value.round()}%';
     }

@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import '../../../../app/router.dart';
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../domain/direct_message_model.dart';
 import '../direct_message_thread_view_model.dart';
 import '../managers/direct_message_manager.dart';
@@ -114,7 +115,7 @@ class _ThreadBodyState extends State<_ThreadBody> {
       return Center(
         child: SocialEmptyState(
           icon: Icons.waving_hand_outlined,
-          title: 'No messages yet',
+          title: L('No messages yet'),
           message: vm.emptyStateCopy,
         ),
       );
@@ -156,14 +157,14 @@ class _ThreadBodyState extends State<_ThreadBody> {
               maxLines: 5,
               textCapitalization: TextCapitalization.sentences,
               onChanged: vm.setComposerText,
-              decoration: const InputDecoration(
-                hintText: 'Message',
+              decoration: InputDecoration(
+                hintText: L('Message'),
                 isDense: true,
               ),
             ),
           ),
           IconButton(
-            tooltip: 'Send',
+            tooltip: L('Send'),
             onPressed: vm.canSubmit ? () => _send(vm) : null,
             icon: Icon(
               Icons.send,
@@ -196,7 +197,7 @@ class _DirectMessageBubble extends StatelessWidget {
     final bubble = GestureDetector(
       onDoubleTap: () => vm.toggleLike(message),
       child: Semantics(
-        hint: liked ? 'Unlike Message' : 'Like Message',
+        hint: liked ? L('Unlike Message') : L('Like Message'),
         child: Container(
           constraints: BoxConstraints(
             maxWidth: MediaQuery.of(context).size.width * 0.72,

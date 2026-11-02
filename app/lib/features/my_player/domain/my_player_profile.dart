@@ -1,3 +1,4 @@
+import '../../../core/l10n/app_language_preference.dart';
 import '../../onboarding/domain/onboarding_draft.dart';
 import 'nba_comparison.dart';
 import 'overall_tier.dart';
@@ -46,7 +47,7 @@ class MyPlayerProfile {
     );
     final name = draft.name?.trim();
     return MyPlayerProfile(
-      playerName: (name == null || name.isEmpty) ? 'Your Player' : name,
+      playerName: (name == null || name.isEmpty) ? L('Your Player') : name,
       position: draft.position,
       archetype: archetype,
       overall: _overallFor(draft, ratings),

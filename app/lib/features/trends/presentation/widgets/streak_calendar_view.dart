@@ -1,9 +1,12 @@
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
+import '../../../../core/share/share_service.dart';
 import '../../domain/streak_calendar_helper.dart';
 import '../../domain/trends_date_range.dart';
 import 'trends_section.dart';
@@ -29,8 +32,6 @@ class StreakCalendarView extends StatelessWidget {
   final bool canShowNextMonth;
   final ValueChanged<int> onStepMonth;
 
-  static const List<String> _weekdays = ['M', 'T', 'W', 'T', 'F', 'S', 'S'];
-
   @override
   Widget build(BuildContext context) {
     final isCurrentMonth = month.year == now.year && month.month == now.month;
@@ -39,7 +40,7 @@ class StreakCalendarView extends StatelessWidget {
         Row(
           children: [
             IconButton(
-              tooltip: 'Previous month',
+              tooltip: L('Previous month'),
               icon: const Icon(Icons.chevron_left),
               onPressed: () => onStepMonth(-1),
             ),
@@ -54,7 +55,7 @@ class StreakCalendarView extends StatelessWidget {
               ),
             ),
             IconButton(
-              tooltip: 'Next month',
+              tooltip: L('Next month'),
               icon: const Icon(Icons.chevron_right),
               onPressed: canShowNextMonth ? () => onStepMonth(1) : null,
             ),
@@ -65,13 +66,13 @@ class StreakCalendarView extends StatelessWidget {
           children: [
             Expanded(
               child: TrendsStat(
-                label: 'Daily Streak',
+                label: L('Daily Streak'),
                 value: StreakCalendarHelper.dailyStreakLabel(dailyStreak),
               ),
             ),
             Expanded(
               child: TrendsStat(
-                label: 'Weekly Streak',
+                label: L('Weekly Streak'),
                 value: StreakCalendarHelper.weeklyStreakLabel(
                   stats.weeklyStreak,
                 ),
@@ -79,7 +80,7 @@ class StreakCalendarView extends StatelessWidget {
             ),
             Expanded(
               child: TrendsStat(
-                label: 'Activities',
+                label: L('Activities'),
                 value: '${stats.activities}',
               ),
             ),
@@ -93,10 +94,11 @@ class StreakCalendarView extends StatelessWidget {
               children: [
                 Row(
                   children: [
-                    for (final day in _weekdays)
+                    // narrowWeekdays starts on Sunday; this calendar on Monday.
+                    for (final i in [1, 2, 3, 4, 5, 6, 0])
                       Expanded(
                         child: Text(
-                          day,
+                          MaterialLocalizations.of(context).narrowWeekdays[i],
                           textAlign: TextAlign.center,
                           style: const TextStyle(
                             color: AppColors.textSecondary,
@@ -136,6 +138,23 @@ class StreakCalendarView extends StatelessWidget {
             );
           },
         ),
+        Align(
+          alignment: AlignmentDirectional.centerEnd,
+          child: TextButton.icon(
+            onPressed: () => context.read<ShareService>().shareText(
+              LF(
+                r"I'm on a %1$@ workout streak with %2$lld activities this month on Kourt AI!",
+                [
+                  StreakCalendarHelper.dailyStreakLabel(dailyStreak),
+                  stats.activities,
+                ],
+              ),
+              subject: L('Check out my workout streak on Kourt AI!'),
+            ),
+            icon: const Icon(Icons.ios_share, size: 18),
+            label: Text(L('Share')),
+          ),
+        ),
       ],
     );
   }
@@ -164,8 +183,8 @@ class _DayCell extends StatelessWidget {
     return Semantics(
       container: true,
       label: done
-          ? 'Day $day, $count ${count == 1 ? 'workout' : 'workouts'}'
-          : 'Day $day',
+          ? count == 1 ? LF('Day %lld, 1 workout', [day]) : LF('Day %lld, %lld workouts', [day, count])
+          : LF('Day %lld', [day]),
       excludeSemantics: true,
       child: Stack(
         clipBehavior: Clip.none,

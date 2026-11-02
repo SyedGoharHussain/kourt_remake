@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import '../../../../app/router.dart';
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../../../core/widgets/glass_card.dart';
 import '../../domain/team_model.dart';
 import '../managers/direct_message_manager.dart';
@@ -59,7 +60,7 @@ class TeamCellView extends StatelessWidget {
                 ),
                 const SizedBox(height: 2),
                 Text(
-                  '${isCoach ? 'Coach' : 'Member'} · '
+                  '${isCoach ? L('Coach') : L('Member')} · '
                   '${TeamModel.localizedMemberCount(team.memberCount)}',
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
@@ -166,7 +167,7 @@ class BrowseTeamCardView extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10),
                   ),
                 ),
-                child: Text(isPublic ? 'Join team' : 'Enter code'),
+                child: Text(isPublic ? L('Join team') : L('Enter code')),
               ),
             ],
           ),
@@ -215,7 +216,7 @@ Future<void> joinPublicTeamWithFeedback(
   final teams = context.read<TeamManager>();
   try {
     await teams.joinPublicTeam(team.id);
-    if (context.mounted) showSocialSnackBar(context, 'Joined ${team.name}.');
+    if (context.mounted) showSocialSnackBar(context, LF('You joined %@.', [team.name]));
   } on TeamManagerException catch (e) {
     if (context.mounted) await showTeamJoinError(context, e);
   }
@@ -234,7 +235,7 @@ Future<TeamModel?> showEnterInviteCodeDialog(
   if (code == null) return null;
   try {
     final joined = await teams.joinTeamWithCode(code);
-    if (context.mounted) showSocialSnackBar(context, 'Joined ${joined.name}.');
+    if (context.mounted) showSocialSnackBar(context, LF('You joined %@.', [joined.name]));
     return joined;
   } on TeamManagerException catch (e) {
     if (context.mounted) await showTeamJoinError(context, e);
@@ -267,31 +268,31 @@ class _InviteCodeDialogState extends State<_InviteCodeDialog> {
     final team = widget.team;
     return AlertDialog(
       backgroundColor: AppColors.elevatedCard,
-      title: const Text('Enter invite code'),
+      title: Text(L('Enter invite code')),
       content: Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           if (team != null) ...[
-            Text('${team.name} requires an invite code to join.'),
+            Text(LF('%@ requires an invite code to join.', [team.name])),
             const SizedBox(height: AppSpacing.md),
           ],
           TextField(
             controller: _controller,
             autofocus: true,
             textCapitalization: TextCapitalization.characters,
-            decoration: const InputDecoration(hintText: 'Team code'),
+            decoration: InputDecoration(hintText: L('Team code')),
           ),
         ],
       ),
       actions: [
         TextButton(
           onPressed: () => Navigator.of(context).pop(),
-          child: const Text('Cancel'),
+          child: Text(L('Cancel')),
         ),
         TextButton(
           onPressed: () => Navigator.of(context).pop(_controller.text),
-          child: const Text('Join'),
+          child: Text(L('Join')),
         ),
       ],
     );
@@ -304,10 +305,10 @@ Future<void> showTeamJoinError(
   TeamManagerException error,
 ) {
   final title = switch (error.code) {
-    TeamManager.codeInviteRequired => 'Invite code required',
-    TeamManager.codeTeamNotFound => 'Team not found',
-    TeamManager.codeAlreadyMember => 'Already on team',
-    _ => 'Error',
+    TeamManager.codeInviteRequired => L('Invite code required'),
+    TeamManager.codeTeamNotFound => L('Team not found'),
+    TeamManager.codeAlreadyMember => L('Already on team'),
+    _ => L('Error'),
   };
   return showDialog<void>(
     context: context,
@@ -318,7 +319,7 @@ Future<void> showTeamJoinError(
       actions: [
         TextButton(
           onPressed: () => Navigator.of(dialogContext).pop(),
-          child: const Text('OK'),
+          child: Text(L('OK')),
         ),
       ],
     ),

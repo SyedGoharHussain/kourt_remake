@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../domain/social_user.dart';
 import '../../domain/team_model.dart';
 import '../social_formatting.dart';
@@ -267,7 +268,7 @@ Future<bool> confirmSocialAction(
       actions: [
         TextButton(
           onPressed: () => Navigator.of(dialogContext).pop(false),
-          child: const Text('Cancel'),
+          child: Text(L('Cancel')),
         ),
         TextButton(
           onPressed: () => Navigator.of(dialogContext).pop(true),

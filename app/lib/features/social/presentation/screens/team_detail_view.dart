@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import '../../../../app/router.dart';
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../../../core/widgets/glass_card.dart';
 import '../../data/social_repositories.dart';
 import '../../domain/team_model.dart';
@@ -54,10 +55,10 @@ class _TeamDetailBody extends StatelessWidget {
     if (team == null) {
       return Scaffold(
         appBar: AppBar(),
-        body: const Center(
+        body: Center(
           child: SocialEmptyState(
             icon: Icons.group_off_outlined,
-            title: 'Couldn’t open team',
+            title: L('Couldn’t open team'),
           ),
         ),
       );
@@ -74,12 +75,12 @@ class _TeamDetailBody extends StatelessWidget {
             BadgedIconButton(
               icon: Icons.forum_outlined,
               count: chatUnread,
-              tooltip: 'Team chat',
+              tooltip: L('Team chat'),
               onPressed: () => context.push(AppRoutes.teamChat(teamId)),
             ),
             IconButton(
               icon: const Icon(Icons.settings_outlined),
-              tooltip: 'Team settings',
+              tooltip: L('Team settings'),
               onPressed: () => context.push(AppRoutes.teamSettings(teamId)),
             ),
           ],
@@ -110,7 +111,7 @@ class _TeamDetailBody extends StatelessWidget {
                         if (canManage) ...[
                           _QuickAction(
                             icon: Icons.person_add_alt,
-                            label: 'Invite',
+                            label: L('Invite'),
                             onTap: () => InvitePlayersSheetView.show(
                               context,
                               teamId,
@@ -120,20 +121,20 @@ class _TeamDetailBody extends StatelessWidget {
                         ],
                         _QuickAction(
                           icon: Icons.leaderboard_outlined,
-                          label: 'Leaderboard',
+                          label: L('Leaderboard'),
                           onTap: () =>
                               context.push(AppRoutes.teamLeaderboard(teamId)),
                         ),
                         const SizedBox(width: AppSpacing.sm),
                         _QuickAction(
                           icon: Icons.groups_outlined,
-                          label: 'Roster',
+                          label: L('Roster'),
                           onTap: () => RosterSheetView.show(context, teamId),
                         ),
                       ],
                     ),
                     const SizedBox(height: AppSpacing.xl),
-                    const SocialSectionHeader(title: 'Team activity'),
+                    SocialSectionHeader(title: L('Team activity')),
                     const TeamFeedSection(),
                   ],
                 ),
@@ -240,7 +241,7 @@ class _TeamDetailHeaderState extends State<_TeamDetailHeader> {
                     child: Padding(
                       padding: const EdgeInsets.only(top: AppSpacing.xs),
                       child: Text(
-                        _showAll ? 'Show less' : 'Show more',
+                        _showAll ? L('Show less') : L('Show more'),
                         style: const TextStyle(
                           color: AppColors.accent,
                           fontWeight: FontWeight.w600,
@@ -269,16 +270,16 @@ class _JoinPrompt extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          const Text(
-            'Preview this team before joining.',
-            style: TextStyle(color: AppColors.textSecondary),
+          Text(
+            L('Preview this team before joining.'),
+            style: const TextStyle(color: AppColors.textSecondary),
           ),
           const SizedBox(height: AppSpacing.md),
           FilledButton(
             onPressed: () => isPublic
                 ? joinPublicTeamWithFeedback(context, team)
                 : showEnterInviteCodeDialog(context, team: team),
-            child: Text(isPublic ? 'Join team' : 'Enter invite code'),
+            child: Text(isPublic ? L('Join team') : L('Enter invite code')),
           ),
         ],
       ),

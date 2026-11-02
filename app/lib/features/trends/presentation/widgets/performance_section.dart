@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../domain/trends_stats.dart';
 import 'trends_section.dart';
 
@@ -24,16 +25,16 @@ class PerformanceBasicStats extends StatelessWidget {
       shrinkWrap: true,
       physics: const NeverScrollableScrollPhysics(),
       children: [
-        TrendsStat(label: 'Workouts', value: '${stats.workouts}'),
-        TrendsStat(label: 'Shots', value: '${stats.shots}'),
-        TrendsStat(label: 'Makes', value: '${stats.makes}'),
+        TrendsStat(label: L('Workouts'), value: '${stats.workouts}'),
+        TrendsStat(label: L('Shots'), value: '${stats.shots}'),
+        TrendsStat(label: L('Makes'), value: '${stats.makes}'),
         TrendsStat(
-          label: 'Make %',
+          label: L('Make %'),
           value: overall == null ? '--%' : '${overall.round()}%',
           color: AppColors.accent,
         ),
-        TrendsStat(label: 'Total time', value: stats.formattedTotalTime),
-        TrendsStat(label: 'Tracked shots', value: '${stats.trackedShots}'),
+        TrendsStat(label: L('Total time'), value: stats.formattedTotalTime),
+        TrendsStat(label: L('Tracked shots'), value: '${stats.trackedShots}'),
       ],
     );
   }
@@ -52,22 +53,22 @@ class MakePercentageSummary extends StatelessWidget {
     final best = stats.bestMakePercentage;
     final average = stats.averageMakePercentage;
     if (overall == null || best == null || average == null) {
-      return const TrendsEmptyNote('No shooting workouts in this period.');
+      return TrendsEmptyNote(L('No shooting workouts in this period.'));
     }
     return Row(
       children: [
         Expanded(
-          child: TrendsStat(label: 'Overall', value: '${overall.round()}%'),
+          child: TrendsStat(label: L('Overall'), value: '${overall.round()}%'),
         ),
         Expanded(
           child: TrendsStat(
-            label: 'Best',
+            label: L('Best'),
             value: '${best.round()}%',
             color: AppColors.make,
           ),
         ),
         Expanded(
-          child: TrendsStat(label: 'Avg', value: '${average.round()}%'),
+          child: TrendsStat(label: L('Avg'), value: '${average.round()}%'),
         ),
       ],
     );
@@ -85,7 +86,7 @@ class ShotStreaksSummary extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     if (stats.allShots.isEmpty) {
-      return const TrendsEmptyNote('No shots tracked in this period yet.');
+      return TrendsEmptyNote(L('No shots tracked in this period yet.'));
     }
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -94,36 +95,36 @@ class ShotStreaksSummary extends StatelessWidget {
           children: [
             Expanded(
               child: TrendsStat(
-                label: 'Longest makes',
+                label: L('Longest makes'),
                 value: '${stats.longestMakeStreak}',
                 color: AppColors.make,
               ),
             ),
             Expanded(
               child: TrendsStat(
-                label: 'Longest misses',
+                label: L('Longest misses'),
                 value: '${stats.longestMissStreak}',
                 color: AppColors.miss,
               ),
             ),
             Expanded(
               child: TrendsStat(
-                label: 'Current makes',
+                label: L('Current makes'),
                 value: '${stats.currentMakes}',
               ),
             ),
             Expanded(
               child: TrendsStat(
-                label: 'Current misses',
+                label: L('Current misses'),
                 value: '${stats.currentMisses}',
               ),
             ),
           ],
         ),
         const SizedBox(height: AppSpacing.lg),
-        const Text(
-          'Streak distribution',
-          style: TextStyle(
+        Text(
+          L('Streak distribution'),
+          style: const TextStyle(
             color: AppColors.textSecondary,
             fontSize: 13,
             fontWeight: FontWeight.w600,
@@ -223,9 +224,9 @@ class _StreakDistributionChart extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            _legend(AppColors.make, 'Make'),
+            _legend(AppColors.make, L('Make')),
             const SizedBox(width: AppSpacing.lg),
-            _legend(AppColors.miss, 'Miss'),
+            _legend(AppColors.miss, L('Miss')),
           ],
         ),
       ],
@@ -269,31 +270,31 @@ class ShotMetricsSummary extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     if (stats.allShots.isEmpty) {
-      return const TrendsEmptyNote('No shots tracked in this period yet.');
+      return TrendsEmptyNote(L('No shots tracked in this period yet.'));
     }
     return Row(
       children: [
         Expanded(
           child: TrendsStat(
-            label: 'Avg arc, makes',
+            label: L('Avg arc, makes'),
             value: _degrees(stats.averageMakeArc),
           ),
         ),
         Expanded(
           child: TrendsStat(
-            label: 'Avg arc, misses',
+            label: L('Avg arc, misses'),
             value: _degrees(stats.averageMissArc),
           ),
         ),
         Expanded(
           child: TrendsStat(
-            label: 'Release, makes',
+            label: L('Release, makes'),
             value: _seconds(stats.averageMakeRelease),
           ),
         ),
         Expanded(
           child: TrendsStat(
-            label: 'Release, misses',
+            label: L('Release, misses'),
             value: _seconds(stats.averageMissRelease),
           ),
         ),

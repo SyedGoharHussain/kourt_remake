@@ -5,7 +5,9 @@ import 'package:provider/provider.dart';
 import '../../../../app/router.dart';
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../../../core/widgets/glass_card.dart';
+import '../../../../core/widgets/staggered_appear.dart';
 import '../../domain/team_membership_model.dart';
 import '../managers/direct_message_manager.dart';
 import '../managers/team_manager.dart';
@@ -49,12 +51,12 @@ class _TeamsViewState extends State<TeamsView> {
     final unread = context.watch<DirectMessageManager>().totalUnreadCount;
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Teams'),
+        title: Text(L('Teams')),
         actions: [
           BadgedIconButton(
             icon: Icons.chat_bubble_outline,
             count: unread,
-            tooltip: 'Messages',
+            tooltip: L('Messages'),
             onPressed: () => context.push(AppRoutes.messages),
           ),
           const SizedBox(width: AppSpacing.xs),
@@ -93,26 +95,26 @@ class _TeamsViewState extends State<TeamsView> {
           const SizedBox(height: AppSpacing.md),
         ],
         if (myTeams.isNotEmpty) ...[
-          const SocialSectionHeader(title: 'My teams'),
+          SocialSectionHeader(title: L('My teams')),
           for (final team in myTeams) ...[
             TeamCellView(team: team),
             const SizedBox(height: AppSpacing.sm),
           ],
           const SizedBox(height: AppSpacing.sm),
         ] else
-          const SocialEmptyState(
+          SocialEmptyState(
             icon: Icons.groups_outlined,
-            title: 'You are not on any teams.',
-            message: 'Join or create a team to train with your squad.',
+            title: L('You are not on any teams.'),
+            message: L('Join or create a team to train with your squad.'),
           ),
-        const _CreateJoinButtons(),
+        const _CreateJoinButtons().staggeredAppear(0),
         const SizedBox(height: AppSpacing.xl),
         if (myTeams.isNotEmpty) ...[
-          const SocialSectionHeader(title: 'Team activity'),
-          const TeamFeedSection(),
+          SocialSectionHeader(title: L('Team activity')),
+          const TeamFeedSection().staggeredAppear(1),
           const SizedBox(height: AppSpacing.lg),
         ],
-        const BrowseTeamsPreviewSection(),
+        const BrowseTeamsPreviewSection().staggeredAppear(2),
       ],
     );
   }
@@ -128,7 +130,7 @@ class _CreateJoinButtons extends StatelessWidget {
         Expanded(
           child: FilledButton(
             onPressed: () => context.push(AppRoutes.teamCreate),
-            child: const FittedBox(child: Text('Create your own team')),
+            child: FittedBox(child: Text(L('Create your own team'))),
           ),
         ),
         const SizedBox(width: AppSpacing.sm),
@@ -136,7 +138,7 @@ class _CreateJoinButtons extends StatelessWidget {
           child: OutlinedButton(
             style: socialOutlinedButtonStyle,
             onPressed: () => context.push(AppRoutes.teamJoin),
-            child: const Text('Join team'),
+            child: Text(L('Join team')),
           ),
         ),
       ],
@@ -161,7 +163,7 @@ class _TeamInviteCard extends StatelessWidget {
 
   Future<void> _decline(BuildContext context) async {
     await context.read<TeamManager>().declinePendingInvite(invite.teamId);
-    if (context.mounted) showSocialSnackBar(context, 'Invite declined.');
+    if (context.mounted) showSocialSnackBar(context, L('Invite declined.'));
   }
 
   @override
@@ -184,8 +186,8 @@ class _TeamInviteCard extends StatelessWidget {
               Expanded(
                 child: Text(
                   inviter == null
-                      ? 'You were invited to join ${team.name}.'
-                      : '${inviter.name} invited you to join ${team.name}.',
+                      ? LF('You were invited to join %@.', [team.name])
+                      : LF('%@ invited you to join %@.', [inviter.name, team.name]),
                   style: const TextStyle(
                     color: AppColors.textPrimary,
                     fontWeight: FontWeight.w600,
@@ -201,14 +203,14 @@ class _TeamInviteCard extends StatelessWidget {
                 child: OutlinedButton(
                   style: socialOutlinedButtonStyle,
                   onPressed: () => _decline(context),
-                  child: const Text('Decline'),
+                  child: Text(L('Decline')),
                 ),
               ),
               const SizedBox(width: AppSpacing.sm),
               Expanded(
                 child: FilledButton(
                   onPressed: () => _accept(context),
-                  child: const Text('Accept invite'),
+                  child: Text(L('Accept invite')),
                 ),
               ),
             ],
@@ -230,20 +232,20 @@ class BrowseTeamsPreviewSection extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         SocialSectionHeader(
-          title: 'Browse teams',
+          title: L('Browse teams'),
           trailing: teams.isEmpty
               ? null
               : TextButton(
                   onPressed: () => context.push(AppRoutes.teamBrowse),
-                  child: const Text('View more'),
+                  child: Text(L('View more')),
                 ),
         ),
         if (teams.isEmpty)
-          const Padding(
-            padding: EdgeInsets.only(left: 4),
+          Padding(
+            padding: const EdgeInsets.only(left: 4),
             child: Text(
-              'No teams to browse right now.',
-              style: TextStyle(color: AppColors.textSecondary),
+              L('No teams to browse right now.'),
+              style: const TextStyle(color: AppColors.textSecondary),
             ),
           ),
         for (final team in teams.take(3)) ...[

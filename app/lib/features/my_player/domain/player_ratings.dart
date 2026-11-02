@@ -1,3 +1,4 @@
+import '../../../core/l10n/app_language_preference.dart';
 import '../../onboarding/domain/account_setup_focus.dart';
 import '../../onboarding/domain/onboarding_draft.dart';
 
@@ -130,33 +131,33 @@ extension AttributeShortLabel on AccountSetupFocusAttribute {
       case AccountSetupFocusAttribute.threePoint:
         return '3PT';
       case AccountSetupFocusAttribute.midRange:
-        return 'Mid';
+        return L('Mid');
       case AccountSetupFocusAttribute.freeThrow:
-        return 'FT';
+        return L('FT');
       case AccountSetupFocusAttribute.dribbling:
-        return 'Dribbles';
+        return L('Dribbles');
       case AccountSetupFocusAttribute.passing:
-        return 'Pass';
+        return L('Pass');
       case AccountSetupFocusAttribute.offensiveIq:
-        return 'Off IQ';
+        return L('Off IQ');
       case AccountSetupFocusAttribute.floater:
-        return 'Floater';
+        return L('Floater');
       case AccountSetupFocusAttribute.layups:
-        return 'Layup';
+        return L('Layup');
       case AccountSetupFocusAttribute.post:
-        return 'Post';
+        return L('Post');
       case AccountSetupFocusAttribute.perimeterD:
-        return 'Perim D';
+        return L('Perim D');
       case AccountSetupFocusAttribute.rebounds:
-        return 'Reb';
+        return L('Reb');
       case AccountSetupFocusAttribute.defensiveIq:
-        return 'Def IQ';
+        return L('Def IQ');
       case AccountSetupFocusAttribute.speed:
-        return 'Speed';
+        return L('Speed');
       case AccountSetupFocusAttribute.strength:
-        return 'Strength';
+        return L('Strength');
       case AccountSetupFocusAttribute.vertical:
-        return 'Vert';
+        return L('Vert');
     }
   }
 }

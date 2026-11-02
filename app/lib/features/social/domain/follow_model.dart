@@ -1,5 +1,7 @@
 import 'package:equatable/equatable.dart';
 
+import '../../../core/l10n/app_language_preference.dart';
+
 /// The recovered `FollowRelationshipStatus`: following a private account stays
 /// [pending] until they accept.
 enum FollowRelationshipStatus {
@@ -70,9 +72,11 @@ enum FollowRelationship {
   following('Following'),
   friend('Friend');
 
-  const FollowRelationship(this.title);
+  const FollowRelationship(this.titleKey);
 
-  final String title;
+  final String titleKey;
+
+  String get title => L(titleKey);
 
   /// True when tapping the button removes a follow or a request.
   bool get isFollowing =>

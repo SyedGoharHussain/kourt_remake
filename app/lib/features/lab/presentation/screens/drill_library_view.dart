@@ -3,6 +3,8 @@ import 'package:provider/provider.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
+import '../../../../core/widgets/staggered_appear.dart';
 import '../../domain/drill_category.dart';
 import '../../domain/drill_template.dart';
 import '../lab_view_model.dart';
@@ -62,7 +64,7 @@ class _DrillLibraryViewState extends State<DrillLibraryView> {
     final vm = context.watch<LabViewModel>();
 
     return Scaffold(
-      appBar: AppBar(title: const Text('The Lab')),
+      appBar: AppBar(title: Text(L('The Lab'))),
       body: SafeArea(
         top: false,
         child: _buildBody(vm),
@@ -107,7 +109,7 @@ class _DrillLibraryViewState extends State<DrillLibraryView> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          '${vm.totalCount} drills to level up your game',
+          LF('%lld drills to level up your game', [vm.totalCount]),
           style: const TextStyle(
             color: AppColors.textSecondary,
             fontSize: 15,
@@ -123,11 +125,14 @@ class _DrillLibraryViewState extends State<DrillLibraryView> {
         if (searching)
           _SearchResults(vm: vm, onOpen: _openDrill)
         else ...[
-          RecommendedDrillStrip(drills: vm.spotlightDrills, onOpen: _openDrill),
+          RecommendedDrillStrip(
+            drills: vm.spotlightDrills,
+            onOpen: _openDrill,
+          ).staggeredAppear(0),
           const SizedBox(height: AppSpacing.xl),
-          const Text(
-            'Browse by category',
-            style: TextStyle(
+          Text(
+            L('Browse by category'),
+            style: const TextStyle(
               color: AppColors.textPrimary,
               fontSize: 20,
               fontWeight: FontWeight.w700,
@@ -158,25 +163,25 @@ class _SearchResults extends StatelessWidget {
   Widget build(BuildContext context) {
     final results = vm.filteredDrills;
     if (results.isEmpty) {
-      return const Padding(
-        padding: EdgeInsets.only(top: AppSpacing.xxl),
+      return Padding(
+        padding: const EdgeInsets.only(top: AppSpacing.xxl),
         child: Center(
           child: Column(
             children: [
-              Icon(Icons.search_off, color: AppColors.textSecondary, size: 44),
-              SizedBox(height: AppSpacing.md),
+              const Icon(Icons.search_off, color: AppColors.textSecondary, size: 44),
+              const SizedBox(height: AppSpacing.md),
               Text(
-                'No drills match your search',
-                style: TextStyle(
+                L('No drills match your search'),
+                style: const TextStyle(
                   color: AppColors.textPrimary,
                   fontSize: 17,
                   fontWeight: FontWeight.w600,
                 ),
               ),
-              SizedBox(height: AppSpacing.xs),
+              const SizedBox(height: AppSpacing.xs),
               Text(
-                'Try a drill name, category, or skill.',
-                style: TextStyle(color: AppColors.textSecondary, fontSize: 14),
+                L('Try a drill name, category, or skill.'),
+                style: const TextStyle(color: AppColors.textSecondary, fontSize: 14),
               ),
             ],
           ),
@@ -188,7 +193,7 @@ class _SearchResults extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          results.length == 1 ? '1 result' : '${results.length} results',
+          results.length == 1 ? L('1 result') : LF('%lld results', [results.length]),
           style: const TextStyle(
             color: AppColors.textSecondary,
             fontSize: 14,
@@ -221,9 +226,9 @@ class _ErrorState extends StatelessWidget {
           children: [
             const Icon(Icons.error_outline, color: AppColors.miss, size: 44),
             const SizedBox(height: AppSpacing.md),
-            const Text(
-              'Unable to load drills',
-              style: TextStyle(
+            Text(
+              L('Unable to load drills'),
+              style: const TextStyle(
                 color: AppColors.textPrimary,
                 fontSize: 17,
                 fontWeight: FontWeight.w600,
@@ -231,7 +236,7 @@ class _ErrorState extends StatelessWidget {
             ),
             const SizedBox(height: AppSpacing.xs),
             Text(
-              message ?? 'Something went wrong. Please try again.',
+              message ?? L('Something went wrong. Please try again.'),
               textAlign: TextAlign.center,
               style: const TextStyle(
                   color: AppColors.textSecondary, fontSize: 14),
@@ -239,7 +244,7 @@ class _ErrorState extends StatelessWidget {
             const SizedBox(height: AppSpacing.lg),
             FilledButton(
               onPressed: onRetry,
-              child: const Text('Retry'),
+              child: Text(L('Retry')),
             ),
           ],
         ),

@@ -101,7 +101,7 @@ class PlayerArchetype {
       case 'sg':
         return ('Sharpshooter', 'Scores from the perimeter and off the ball');
       case 'sf':
-        return ('Two-Way Wing', 'Versatile wing — scores and defends');
+        return ('Two-Way Wing', 'Versatile wing - scores and defends');
       case 'pf':
         return ('The Enforcer', 'Strong forward who plays inside and out');
       case 'c':

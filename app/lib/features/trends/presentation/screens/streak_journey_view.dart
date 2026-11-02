@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../../../core/widgets/glass_card.dart';
 import '../../domain/streak_calendar_helper.dart';
 import '../../domain/streak_milestones.dart';
@@ -43,9 +44,9 @@ class StreakJourneyView extends StatelessWidget {
             AppSpacing.xxl,
           ),
           children: [
-            const Text(
-              '30 Day Challenge',
-              style: TextStyle(fontSize: 34, fontWeight: FontWeight.w800),
+            Text(
+              L('30 Day Challenge'),
+              style: const TextStyle(fontSize: 34, fontWeight: FontWeight.w800),
             ),
             const SizedBox(height: AppSpacing.sm),
             Row(
@@ -59,8 +60,8 @@ class StreakJourneyView extends StatelessWidget {
                 Expanded(
                   child: Text(
                     streak == 0
-                        ? 'Every streak starts with day one.'
-                        : '${StreakCalendarHelper.dailyStreakLabel(streak)} in a row',
+                        ? L('Every streak starts with day one.')
+                        : LF('%lld in a row', [StreakCalendarHelper.dailyStreakLabel(streak)]),
                     style: const TextStyle(
                       color: AppColors.textSecondary,
                       fontSize: 15,
@@ -96,11 +97,11 @@ class StreakJourneyView extends StatelessWidget {
               ),
             ),
             const SizedBox(height: AppSpacing.xl),
-            const Padding(
-              padding: EdgeInsets.only(left: 4, bottom: AppSpacing.sm),
+            Padding(
+              padding: const EdgeInsets.only(left: 4, bottom: AppSpacing.sm),
               child: Text(
-                'Gear unlocks',
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700),
+                L('Gear unlocks'),
+                style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w700),
               ),
             ),
             for (final reward in StreakChallengeReward.all)
@@ -178,7 +179,7 @@ class _MilestoneRow extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'Day ${milestone.day}',
+                    LF('Day %lld', [milestone.day]),
                     style: const TextStyle(
                       color: AppColors.textSecondary,
                       fontSize: 12,
@@ -262,7 +263,7 @@ class _RewardCard extends StatelessWidget {
                     borderRadius: BorderRadius.circular(999),
                   ),
                   child: Text(
-                    unlocked ? 'Unlocked' : 'Unlocks on day ${reward.day}',
+                    unlocked ? L('Unlocked') : LF('Unlocks on day %lld', [reward.day]),
                     style: const TextStyle(
                       fontSize: 12,
                       fontWeight: FontWeight.w700,

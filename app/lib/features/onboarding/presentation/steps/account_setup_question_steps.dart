@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import '../../../../app/theme/app_colors.dart';
+import '../../../../core/l10n/app_language_preference.dart';
+import '../../../settings/presentation/app_settings_manager.dart';
 import '../../../trends/domain/activity_goal_totals.dart';
+import '../../../workout/data/audio/event_sound.dart';
+import '../../../workout/data/audio/event_sound_player.dart';
 import '../../domain/account_setup_focus.dart';
 import '../../domain/onboarding_enums.dart';
 import '../account_setup_controller.dart';
@@ -32,9 +37,9 @@ class FocusStep extends StatelessWidget {
       progress: controller.progress,
       onBack: controller.back,
       ballyMessage: primary
-          ? "What's the biggest part of your game you want to level up?"
-          : 'Now pick a second strength to round out your game.',
-      ballySubtitle: primary ? null : 'Optional — you can skip this one.',
+          ? L("What's the biggest part of your game you want to level up?")
+          : L('Now pick a second strength to round out your game.'),
+      ballySubtitle: primary ? null : L('Optional — you can skip this one.'),
       primaryEnabled: primary ? selectedFocus != null : true,
       onPrimary: controller.next,
       body: Column(
@@ -56,7 +61,7 @@ class FocusStep extends StatelessWidget {
           if (selectedFocus != null) ...[
             const SizedBox(height: 8),
             Text(
-              'Zero in (pick any)',
+              L('Zero in (pick any)'),
               style: Theme.of(context).textTheme.labelLarge?.copyWith(
                 color: AppColors.textSecondary,
                 letterSpacing: 0.4,
@@ -193,13 +198,13 @@ class YesNoStep extends StatelessWidget {
       body: CascadeAppear(
         children: [
           AccountSetupOptionRow(
-            label: 'Yes',
+            label: L('Yes'),
             icon: Icons.check_circle_outline,
             selected: value == true,
             onTap: () => onChanged(true),
           ),
           AccountSetupOptionRow(
-            label: 'No',
+            label: L('No'),
             icon: Icons.highlight_off,
             selected: value == false,
             onTap: () => onChanged(false),
@@ -233,8 +238,8 @@ class PhysicalStep extends StatelessWidget {
     return AccountSetupScaffold(
       progress: controller.progress,
       onBack: controller.back,
-      ballyMessage: isHeight ? "What's your height?" : 'And your weight?',
-      ballySubtitle: 'This tunes your shot analysis later.',
+      ballyMessage: isHeight ? L("What's your height?") : L('And your weight?'),
+      ballySubtitle: L('This tunes your shot analysis later.'),
       onPrimary: controller.next,
       body: Column(
         children: [
@@ -292,8 +297,8 @@ class BirthDateStep extends StatelessWidget {
     return AccountSetupScaffold(
       progress: controller.progress,
       onBack: controller.back,
-      ballyMessage: 'When were you born?',
-      ballySubtitle: 'Sets your age group for fair comparisons.',
+      ballyMessage: L('When were you born?'),
+      ballySubtitle: L('Sets your age group for fair comparisons.'),
       onPrimary: controller.next,
       body: Column(
         children: [
@@ -308,7 +313,7 @@ class BirthDateStep extends StatelessWidget {
             ),
             label: Text(
               date == null
-                  ? 'Pick your birth date'
+                  ? L('Pick your birth date')
                   : '${date.year}-${date.month.toString().padLeft(2, '0')}-${date.day.toString().padLeft(2, '0')}',
               style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
             ),
@@ -366,8 +371,8 @@ class WeeklyGoalsStep extends StatelessWidget {
     return AccountSetupScaffold(
       progress: controller.progress,
       onBack: controller.back,
-      ballyMessage: "Let's set your weekly goals.",
-      ballySubtitle: 'You can change these anytime.',
+      ballyMessage: L("Let's set your weekly goals."),
+      ballySubtitle: L('You can edit these anytime'),
       onPrimary: () {
         // Lock in what's on screen, even if the recommendations went untouched.
         save();
@@ -376,7 +381,7 @@ class WeeklyGoalsStep extends StatelessWidget {
       body: Column(
         children: [
           _GoalStepper(
-            label: 'Hours / week',
+            label: L('Hours / week'),
             value: timeSeconds ~/ ActivityGoalTotals.timeStep,
             step: 1,
             min: ActivityGoalTotals.minTime ~/ ActivityGoalTotals.timeStep,
@@ -384,7 +389,7 @@ class WeeklyGoalsStep extends StatelessWidget {
             onChanged: (v) => save(seconds: v * ActivityGoalTotals.timeStep),
           ),
           _GoalStepper(
-            label: 'Shots / week',
+            label: L('Shots / week'),
             value: shots,
             step: ActivityGoalTotals.shotsStep,
             min: ActivityGoalTotals.minShots,
@@ -392,7 +397,7 @@ class WeeklyGoalsStep extends StatelessWidget {
             onChanged: (v) => save(s: v),
           ),
           _GoalStepper(
-            label: 'Makes / week',
+            label: L('Makes / week'),
             value: makes,
             step: ActivityGoalTotals.makesStep,
             min: ActivityGoalTotals.minMakes,
@@ -494,9 +499,8 @@ class _RoundButton extends StatelessWidget {
   }
 }
 
-/// Green-sound picker. The actual clips ship in a later phase (audio is Phase
-/// 5/8); here the user picks the preference by name.
-class GreenSoundStep extends StatelessWidget {
+/// Green-sound picker. Tapping a sound plays it and selects it.
+class GreenSoundStep extends StatefulWidget {
   const GreenSoundStep({
     super.key,
     required this.controller,
@@ -508,40 +512,68 @@ class GreenSoundStep extends StatelessWidget {
   final String? selected;
   final void Function(String code) onSelect;
 
-  /// The celebration sounds bundled with the original (`green_sounds/`), plus
-  /// None / Random, surfaced as friendly labels.
-  static const List<(String code, String label)> sounds = [
-    ('none', 'None'),
-    ('random', 'Surprise me'),
-    ('swish', 'Swish'),
-    ('cha-ching', 'Cha-Ching'),
-    ('bang-bang', 'Bang Bang'),
-    ('green-light', 'Green Light'),
-    ('boom-goes-the-dynamite', 'Boom Goes the Dynamite'),
-    ('thats-too-easy', "That's Too Easy"),
+  @override
+  State<GreenSoundStep> createState() => _GreenSoundStepState();
+}
+
+class _GreenSoundStepState extends State<GreenSoundStep> {
+  final EventSoundPlayer _player = createEventSoundPlayer();
+
+  static const List<ShotEventSoundKind> _sounds = [
+    ShotEventSoundKind.none,
+    ShotEventSoundKind.random,
+    ShotEventSoundKind.swish,
+    ShotEventSoundKind.chaChing,
+    ShotEventSoundKind.bangBang,
+    ShotEventSoundKind.greenLight,
+    ShotEventSoundKind.boomGoesTheDynamite,
+    ShotEventSoundKind.thatsTooEasy,
+    ShotEventSoundKind.godDid,
+    ShotEventSoundKind.greenFn,
+    ShotEventSoundKind.greenGiant,
+    ShotEventSoundKind.irishSpringGreen,
+    ShotEventSoundKind.chrisSmoove,
+    ShotEventSoundKind.strokeThatThing,
+    ShotEventSoundKind.thatsMyMan,
+    ShotEventSoundKind.goodShotBhaiyaaaa,
+    ShotEventSoundKind.skibidiBopBop,
+    ShotEventSoundKind.fahhh,
+    ShotEventSoundKind.point,
   ];
 
   @override
+  void dispose() {
+    _player.dispose();
+    super.dispose();
+  }
+
+  void _select(ShotEventSoundKind sound) {
+    widget.onSelect(sound.id);
+    context.read<AppSettingsManager?>()?.setGreenSound(sound);
+    _player.play(sound);
+  }
+
+  @override
   Widget build(BuildContext context) {
-    final effective = selected ?? 'random';
+    final effective = widget.selected ?? ShotEventSoundKind.random.id;
     return AccountSetupScaffold(
-      progress: controller.progress,
-      onBack: controller.back,
-      ballyMessage: 'Pick your "green" — the sound that fires on a make.',
-      ballySubtitle: 'Previews land with the AI coach in a later update.',
-      onPrimary: controller.next,
+      progress: widget.controller.progress,
+      onBack: widget.controller.back,
+      ballyMessage: L('Pick your green sound'),
+      ballySubtitle: L('Pick the sound that plays every time you cash a shot.'),
+      onPrimary: widget.controller.next,
       body: CascadeAppear(
         children: [
-          for (final (code, label) in sounds)
+          for (final sound in _sounds)
             AccountSetupOptionRow(
-              label: label,
-              icon: code == 'none'
+              label: sound.displayName,
+              icon: sound == ShotEventSoundKind.none
                   ? Icons.volume_off
-                  : code == 'random'
+                  : sound == ShotEventSoundKind.random
                   ? Icons.shuffle
                   : Icons.graphic_eq,
-              selected: effective == code,
-              onTap: () => onSelect(code),
+              selected: effective == sound.id,
+              onTap: () => _select(sound),
             ),
         ],
       ),

@@ -6,11 +6,13 @@ import 'package:flutter/widgets.dart';
 import 'package:google_mlkit_pose_detection/google_mlkit_pose_detection.dart'
     show InputImage, InputImageMetadata, InputImageFormat, InputImageRotation;
 
+import '../../../core/l10n/app_language_preference.dart';
+import '../../settings/domain/app_settings.dart';
+import '../../settings/presentation/app_settings_manager.dart';
 import '../analysis/biomechanics_analyzer.dart';
 import '../analysis/coach_session_manager.dart';
 import '../analysis/shot_state_machine.dart';
 import '../analysis/workout_session_grade_calculator.dart';
-import '../data/audio/event_sound.dart';
 import '../data/audio/event_sound_player.dart';
 import '../data/audio/speech_synthesizer.dart';
 import '../data/camera/camera_frame_converter.dart';
@@ -40,6 +42,7 @@ class WorkoutViewModel extends ChangeNotifier {
   WorkoutViewModel({
     required WorkoutRepository repository,
     this.onWorkoutSaved,
+    AppSettingsManager? settings,
     PoseDetectionService? poseService,
     ShotStateMachine? stateMachine,
     CoachSessionManager? coach,
@@ -48,6 +51,7 @@ class WorkoutViewModel extends ChangeNotifier {
     CameraFrameConverter converter = const CameraFrameConverter(),
     this.modelSpec = YoloModelSpec.active,
   })  : _repository = repository,
+        _settings = settings,
         _poseService = poseService ?? createPoseDetectionService(),
         shots = stateMachine ?? ShotStateMachine(),
         coach = coach ?? CoachSessionManager(),
@@ -82,11 +86,9 @@ class WorkoutViewModel extends ChangeNotifier {
   /// The deterministic Bally coach gatekeeper.
   final CoachSessionManager coach;
 
-  // --- Audio / coach settings (local; Remote Config in the original). ---
-  ShotEventSoundKind greenSound = ShotEventSoundKind.random;
-  ShotEventSoundKind missSound = ShotEventSoundKind.none;
-  bool coachEnabled = true;
-  bool audioEnabled = true;
+  /// Sounds and coach toggles; Remote Config and defaults in the original.
+  final AppSettingsManager? _settings;
+  AppSettings get _audio => _settings?.settings ?? const AppSettings();
 
   CameraController? _controller;
   CameraController? get controller => _controller;
@@ -168,7 +170,7 @@ class WorkoutViewModel extends ChangeNotifier {
     try {
       final cameras = await availableCameras();
       if (cameras.isEmpty) {
-        _fail('No camera available on this device.');
+        _fail(L('No camera available on this device.'));
         return;
       }
       final camera = cameras.firstWhere(
@@ -208,7 +210,7 @@ class WorkoutViewModel extends ChangeNotifier {
       notifyListeners();
       if (resumeRunning) await start();
     } catch (e) {
-      _fail('Could not start the camera: $e');
+      _fail(LF('Could not start the camera: %@', [e]));
     }
   }
 
@@ -333,7 +335,7 @@ class WorkoutViewModel extends ChangeNotifier {
     if (total > 0) {
       await _repository.save(summary);
       onWorkoutSaved?.call();
-      if (audioEnabled) _speech.speak('Workout ended.');
+      if (_audio.audioFeedback) _speech.speak(L('Workout Ended'));
     }
     _clearCoachLine();
   }
@@ -411,7 +413,7 @@ class WorkoutViewModel extends ChangeNotifier {
     );
     _sessionShots.add(model);
 
-    if (coachEnabled) {
+    if (_audio.coachEnabled) {
       final flaw = BiomechanicsAnalyzer.analyze(
         shot.pose,
         releaseAngleDeg: shot.releaseAngle,
@@ -428,12 +430,12 @@ class WorkoutViewModel extends ChangeNotifier {
           text: decision.line!,
           createdAt: DateTime.now(),
         ));
-        if (audioEnabled) _speech.speak(decision.line!);
+        if (_audio.audioFeedback) _speech.speak(decision.line!);
       }
     }
 
-    if (audioEnabled) {
-      _soundPlayer.play(shot.isMake ? greenSound : missSound);
+    if (_audio.audioFeedback) {
+      _soundPlayer.play(shot.isMake ? _audio.greenSound : _audio.missSound);
     }
   }
 

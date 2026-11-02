@@ -1,3 +1,4 @@
+import '../../../core/l10n/app_language_preference.dart';
 import 'weekly_date_key.dart';
 
 /// One month of the streak calendar.
@@ -28,10 +29,10 @@ class StreakMonthStats {
 /// `utility/analytics/streak_calendar_helper.dart`.
 abstract final class StreakCalendarHelper {
   static String dailyStreakLabel(int days) =>
-      days == 1 ? '1 Day' : '$days Days';
+      days == 1 ? L('1 Day') : LF('%lld Days', [days]);
 
   static String weeklyStreakLabel(int weeks) =>
-      weeks == 1 ? '1 Week' : '$weeks Weeks';
+      weeks == 1 ? L('1 Week') : LF('%lld Weeks', [weeks]);
 
   /// [workoutDates] may span any period; only those in [month]'s month count.
   static StreakMonthStats statsForMonth(

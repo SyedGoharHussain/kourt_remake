@@ -1,9 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
+import 'package:go_router/go_router.dart';
+import 'package:provider/provider.dart';
 
+import '../../../../app/router.dart';
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
+import '../../../../core/widgets/celebration_burst.dart';
 import '../../../../core/widgets/glass_card.dart';
+import '../../../../core/widgets/staggered_appear.dart';
+import '../../../settings/presentation/app_settings_manager.dart';
 import '../../analysis/workout_session_grade_calculator.dart';
+import '../../data/audio/event_sound.dart';
+import '../../data/audio/event_sound_player.dart';
 import '../../domain/workout_grade.dart';
 import '../../domain/workout_summary.dart';
 import '../widgets/half_court_overlay.dart';
@@ -12,61 +22,124 @@ import '../widgets/half_court_overlay.dart';
 /// release form averages, the half-court shot map, the on-device Bally session
 /// breakdown, and the coach notes from the session. Shown full-screen when a
 /// workout is stopped.
-class WorkoutSummaryView extends StatelessWidget {
+class WorkoutSummaryView extends StatefulWidget {
   const WorkoutSummaryView({super.key, required this.summary});
 
   final WorkoutSummaryModel summary;
 
   @override
+  State<WorkoutSummaryView> createState() => _WorkoutSummaryViewState();
+}
+
+class _WorkoutSummaryViewState extends State<WorkoutSummaryView> {
+  final EventSoundPlayer _player = createEventSoundPlayer();
+
+  WorkoutSummaryModel get summary => widget.summary;
+
+  WorkoutSessionLetterGrade get _letter =>
+      WorkoutSessionLetterGrade.fromRawValue(summary.workout.workoutRatingLetter);
+
+  /// An A-range session earns confetti and the player's green sound.
+  bool get _celebrates => _letter.rawValue.startsWith('A');
+
+  @override
+  void initState() {
+    super.initState();
+    if (_celebrates) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        final settings = context.read<AppSettingsManager?>()?.settings;
+        if (settings?.audioFeedback ?? true) {
+          _player.play(settings?.greenSound ?? ShotEventSoundKind.random);
+        }
+      });
+    }
+  }
+
+  @override
+  void dispose() {
+    _player.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     final w = summary.workout;
-    final letter = WorkoutSessionLetterGrade.fromRawValue(w.workoutRatingLetter);
+    final letter = _letter;
     final score = w.workoutRatingScore ?? 0;
 
     return Scaffold(
       backgroundColor: AppColors.background,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
-        title: const Text('Workout summary'),
+        title: Text(L('Workout summary')),
         leading: IconButton(
           icon: const Icon(Icons.close),
           onPressed: () => Navigator.of(context).maybePop(),
         ),
+        actions: [
+          IconButton(
+            tooltip: L('Share workout'),
+            icon: const Icon(Icons.ios_share),
+            onPressed: () =>
+                context.push(AppRoutes.workoutShare, extra: summary),
+          ),
+        ],
       ),
       body: SafeArea(
         top: false,
-        child: ListView(
-          padding: const EdgeInsets.all(AppSpacing.md),
+        child: Stack(
           children: [
-            _GradeCard(letter: letter, score: score),
-            const SizedBox(height: AppSpacing.md),
-            _TalliesCard(summary: summary),
-            const SizedBox(height: AppSpacing.md),
-            _ShotMapCard(summary: summary),
-            if ((w.aiFeedback ?? '').isNotEmpty) ...[
-              const SizedBox(height: AppSpacing.md),
-              _BreakdownCard(text: w.aiFeedback!),
-            ],
-            if (w.coachFeedbacks.isNotEmpty) ...[
-              const SizedBox(height: AppSpacing.md),
-              _CoachNotesCard(summary: summary),
-            ],
-            const SizedBox(height: AppSpacing.lg),
-            SizedBox(
-              width: double.infinity,
-              child: FilledButton(
-                onPressed: () => Navigator.of(context).maybePop(),
-                style: FilledButton.styleFrom(
-                  backgroundColor: AppColors.accent,
-                  foregroundColor: Colors.black,
-                  padding: const EdgeInsets.symmetric(vertical: 14),
+            ListView(
+              padding: const EdgeInsets.all(AppSpacing.md),
+              children: [
+                _GradeCard(letter: letter, score: score).staggeredAppear(0),
+                const SizedBox(height: AppSpacing.md),
+                _TalliesCard(summary: summary).staggeredAppear(1),
+                const SizedBox(height: AppSpacing.md),
+                _ShotMapCard(summary: summary).staggeredAppear(2),
+                if ((w.aiFeedback ?? '').isNotEmpty) ...[
+                  const SizedBox(height: AppSpacing.md),
+                  _BreakdownCard(text: w.aiFeedback!).staggeredAppear(3),
+                ],
+                if (w.coachFeedbacks.isNotEmpty) ...[
+                  const SizedBox(height: AppSpacing.md),
+                  _CoachNotesCard(summary: summary).staggeredAppear(4),
+                ],
+                const SizedBox(height: AppSpacing.lg),
+                SizedBox(
+                  width: double.infinity,
+                  child: OutlinedButton.icon(
+                    onPressed: () =>
+                        context.push(AppRoutes.workoutShare, extra: summary),
+                    style: OutlinedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(vertical: 14),
+                    ),
+                    icon: const Icon(Icons.ios_share, size: 18),
+                    label: Text(L('Share workout')),
+                  ),
                 ),
-                child: const Text(
-                  'Done',
-                  style: TextStyle(fontWeight: FontWeight.w800, fontSize: 16),
+                const SizedBox(height: AppSpacing.sm),
+                SizedBox(
+                  width: double.infinity,
+                  child: FilledButton(
+                    onPressed: () => Navigator.of(context).maybePop(),
+                    style: FilledButton.styleFrom(
+                      backgroundColor: AppColors.accent,
+                      foregroundColor: Colors.black,
+                      padding: const EdgeInsets.symmetric(vertical: 14),
+                    ),
+                    child: Text(
+                      L('Done'),
+                      style: const TextStyle(
+                        fontWeight: FontWeight.w800,
+                        fontSize: 16,
+                      ),
+                    ),
+                  ),
                 ),
-              ),
+              ],
             ),
+            if (_celebrates) const Positioned.fill(child: CelebrationBurst()),
           ],
         ),
       ),
@@ -106,9 +179,9 @@ class _GradeCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text(
-              'SESSION GRADE',
-              style: TextStyle(
+            Text(
+              L('SESSION GRADE'),
+              style: const TextStyle(
                 color: AppColors.textSecondary,
                 fontSize: 11,
                 fontWeight: FontWeight.w700,
@@ -127,35 +200,56 @@ class _GradeCard extends StatelessWidget {
                     fontWeight: FontWeight.w900,
                     height: 1,
                   ),
-                ),
+                )
+                    .animate(delay: 150.ms)
+                    .scale(
+                      begin: const Offset(0.4, 0.4),
+                      end: const Offset(1, 1),
+                      duration: 450.ms,
+                      curve: Curves.easeOutBack,
+                    )
+                    .fadeIn(duration: 200.ms),
                 const SizedBox(width: AppSpacing.md),
                 Expanded(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        '$score / 100',
-                        style: const TextStyle(
-                          color: AppColors.textPrimary,
-                          fontSize: 20,
-                          fontWeight: FontWeight.w800,
+                      TweenAnimationBuilder<double>(
+                        tween: Tween(begin: 0, end: score.toDouble()),
+                        duration: const Duration(milliseconds: 800),
+                        curve: Curves.easeOutCubic,
+                        builder: (context, value, _) => Text(
+                          '${value.round()} / 100',
+                          // Bidi would otherwise show this as 100 / 66 in Arabic.
+                          textDirection: TextDirection.ltr,
+                          style: const TextStyle(
+                            color: AppColors.textPrimary,
+                            fontSize: 20,
+                            fontWeight: FontWeight.w800,
+                          ),
                         ),
                       ),
                       const SizedBox(height: 8),
                       ClipRRect(
                         borderRadius: BorderRadius.circular(999),
-                        child: LinearProgressIndicator(
-                          value: progress,
-                          minHeight: 8,
-                          backgroundColor: AppColors.hairline,
-                          valueColor: AlwaysStoppedAnimation(color),
+                        child: TweenAnimationBuilder<double>(
+                          tween: Tween(begin: 0, end: progress),
+                          duration: const Duration(milliseconds: 800),
+                          curve: Curves.easeOutCubic,
+                          builder: (context, value, _) =>
+                              LinearProgressIndicator(
+                                value: value,
+                                minHeight: 8,
+                                backgroundColor: AppColors.hairline,
+                                valueColor: AlwaysStoppedAnimation(color),
+                              ),
                         ),
                       ),
                       const SizedBox(height: 6),
                       Text(
                         progress >= 1.0
-                            ? 'Top grade — elite session'
-                            : '${(progress * 100).round()}% to the next grade',
+                            ? L('Top grade — elite session')
+                            : LF('%@ to the next grade', ['${(progress * 100).round()}%']),
                         style: const TextStyle(
                           color: AppColors.textSecondary,
                           fontSize: 12,
@@ -192,10 +286,10 @@ class _TalliesCard extends StatelessWidget {
           children: [
             Row(
               children: [
-                _stat('MAKES', '${w.totalMakes}', AppColors.make),
-                _stat('ATTEMPTS', '${w.totalShots}', AppColors.textPrimary),
-                _stat('MAKE %', '$makePct', AppColors.accent),
-                _stat('BEST STREAK', '${w.bestStreak}', AppColors.make),
+                _stat(L('MAKES'), '${w.totalMakes}', AppColors.make),
+                _stat(L('Attempts').toUpperCase(), '${w.totalShots}', AppColors.textPrimary),
+                _stat(L('MAKE %'), '$makePct', AppColors.accent),
+                _stat(L('BEST STREAK'), '${w.bestStreak}', AppColors.make),
               ],
             ),
             const Padding(
@@ -204,18 +298,18 @@ class _TalliesCard extends StatelessWidget {
             ),
             Row(
               children: [
-                _stat('DURATION', _duration(w.elapsedTime), AppColors.textPrimary),
+                _stat(L('Duration').toUpperCase(), _duration(w.elapsedTime), AppColors.textPrimary),
                 _stat(
-                  'AVG ARC',
+                  L('AVG ARC'),
                   arc == null ? '—' : '${arc.round()}°',
                   AppColors.textPrimary,
                 ),
                 _stat(
-                  'AVG RELEASE',
+                  L('AVG RELEASE'),
                   time == null ? '—' : '${time.toStringAsFixed(2)}s',
                   AppColors.textPrimary,
                 ),
-                _stat('SHOTS', '${summary.shots.length}', AppColors.textPrimary),
+                _stat(L('SHOTS'), '${summary.shots.length}', AppColors.textPrimary),
               ],
             ),
           ],
@@ -272,9 +366,9 @@ class _ShotMapCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text(
-              'SHOT MAP',
-              style: TextStyle(
+            Text(
+              L('Shot map').toUpperCase(),
+              style: const TextStyle(
                 color: AppColors.textSecondary,
                 fontSize: 11,
                 fontWeight: FontWeight.w700,
@@ -312,11 +406,11 @@ class _BreakdownCard extends StatelessWidget {
           children: [
             Row(
               children: [
-                Icon(Icons.auto_awesome, size: 16, color: AppColors.accent),
+                const Icon(Icons.auto_awesome, size: 16, color: AppColors.accent),
                 const SizedBox(width: 6),
-                const Text(
-                  "BALLY'S BREAKDOWN",
-                  style: TextStyle(
+                Text(
+                  L("BALLY'S BREAKDOWN"),
+                  style: const TextStyle(
                     color: AppColors.textSecondary,
                     fontSize: 11,
                     fontWeight: FontWeight.w700,
@@ -356,9 +450,9 @@ class _CoachNotesCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text(
-              'COACH NOTES',
-              style: TextStyle(
+            Text(
+              L('COACH NOTES'),
+              style: const TextStyle(
                 color: AppColors.textSecondary,
                 fontSize: 11,
                 fontWeight: FontWeight.w700,

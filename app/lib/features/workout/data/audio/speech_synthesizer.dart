@@ -1,6 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 
+import '../../../../core/l10n/app_language_preference.dart';
+
 /// Speaks the coach's lines, behind a plugin-free interface, ported from the
 /// recovered `speech_synthesizer.dart` (flutter_tts). The original carried a
 /// `isBally` voice-persona flag and a `showText` caption flag; the caption is
@@ -44,17 +46,25 @@ class NoopSpeechSynthesizer implements SpeechSynthesizer {
 class FlutterTtsSpeechSynthesizer implements SpeechSynthesizer {
   FlutterTtsSpeechSynthesizer() {
     // Best-effort setup; TTS availability varies by device/locale.
-    _tts.setLanguage('en-US');
     _tts.setSpeechRate(0.5);
     _tts.setVolume(1.0);
   }
 
   final FlutterTts _tts = FlutterTts();
+  String? _language;
+
+  Future<void> _syncLanguage() async {
+    final tag = AppLanguagePreference.instance.speechLanguageTag;
+    if (tag == _language) return;
+    _language = tag;
+    await _tts.setLanguage(tag);
+  }
 
   @override
   Future<void> speak(String text, {bool isBally = true}) async {
     if (text.trim().isEmpty) return;
     try {
+      await _syncLanguage();
       await _tts.setPitch(isBally ? 1.15 : 1.0);
       await _tts.stop();
       await _tts.speak(text);

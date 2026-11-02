@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../../core/l10n/app_language_preference.dart';
+
 /// The seven-band "Overall Tier" ladder, recovered 1:1 from the original app's
 /// `OverallTier` enum. A player's single 0–99 Overall rating places them into a
 /// tier via [tierFor]; the card's ring fills from empty at 65 to full at 99.
@@ -22,10 +24,12 @@ enum OverallTier {
   hallOfFame('Hall of Fame', 90, [Color(0xFFC77DFF), Color(0xFF7D3CC9)]),
   legend('Legend', 95, [Color(0xFFFF8A3D), Color(0xFFF24D4D)]);
 
-  const OverallTier(this.displayName, this.threshold, this.gradientColors);
+  const OverallTier(this.displayNameKey, this.threshold, this.gradientColors);
 
   /// User-facing tier name.
-  final String displayName;
+  final String displayNameKey;
+
+  String get displayName => L(displayNameKey);
 
   /// Inclusive lower bound on the Overall rating for this tier.
   final int threshold;

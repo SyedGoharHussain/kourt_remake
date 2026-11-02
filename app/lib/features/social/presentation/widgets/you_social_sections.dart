@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import '../../../../app/router.dart';
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../../../core/widgets/glass_card.dart';
 import '../../domain/team_model.dart';
 import '../managers/follow_manager.dart';
@@ -31,14 +32,14 @@ class YouConnectionsSection extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const SocialSectionHeader(title: 'People'),
+        SocialSectionHeader(title: L('People')),
         GlassCard(
           onTap: () => context.push(AppRoutes.people()),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                '${followers.length} followers · ${following.length} following',
+                LF('%lld followers · %lld following', [followers.length, following.length]),
                 style: const TextStyle(
                   color: AppColors.textPrimary,
                   fontSize: 15,
@@ -47,9 +48,9 @@ class YouConnectionsSection extends StatelessWidget {
               ),
               const SizedBox(height: AppSpacing.md),
               if (strip.isEmpty)
-                const Text(
-                  "Find ballers to follow and they'll show up here.",
-                  style: TextStyle(color: AppColors.textSecondary),
+                Text(
+                  L("Find ballers to follow and they'll show up here."),
+                  style: const TextStyle(color: AppColors.textSecondary),
                 )
               else
                 Row(
@@ -69,7 +70,7 @@ class YouConnectionsSection extends StatelessWidget {
                       style: socialOutlinedButtonStyle,
                       onPressed: () => context.push(AppRoutes.findBallers),
                       icon: const Icon(Icons.person_search_outlined, size: 18),
-                      label: const Text('Find Ballers'),
+                      label: Text(L('Find Ballers')),
                     ),
                   ),
                   const SizedBox(width: AppSpacing.sm),
@@ -81,9 +82,9 @@ class YouConnectionsSection extends StatelessWidget {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          const Flexible(
+                          Flexible(
                             child: Text(
-                              'Requests',
+                              L('Requests'),
                               overflow: TextOverflow.ellipsis,
                             ),
                           ),
@@ -133,7 +134,7 @@ class YouTeamsPane extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        SocialSectionHeader(title: 'Teams'),
+        SocialSectionHeader(title: L('Teams')),
         if (teams.isEmpty)
           GlassCard(
             child: SizedBox(
@@ -141,17 +142,17 @@ class YouTeamsPane extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text(
-                    'No teams yet',
-                    style: TextStyle(
+                  Text(
+                    L('No teams yet'),
+                    style: const TextStyle(
                       color: AppColors.textPrimary,
                       fontWeight: FontWeight.w600,
                     ),
                   ),
                   if (isSelf)
-                    const Text(
-                      'Join or create a team to train with your squad.',
-                      style: TextStyle(color: AppColors.textSecondary),
+                    Text(
+                      L('Join or create a team to train with your squad.'),
+                      style: const TextStyle(color: AppColors.textSecondary),
                     ),
                 ],
               ),
@@ -170,7 +171,7 @@ class YouTeamsPane extends StatelessWidget {
                 child: OutlinedButton(
                   style: socialOutlinedButtonStyle,
                   onPressed: () => context.push(AppRoutes.teamCreate),
-                  child: const Text('Create team'),
+                  child: Text(L('Create team')),
                 ),
               ),
               const SizedBox(width: AppSpacing.sm),
@@ -178,7 +179,7 @@ class YouTeamsPane extends StatelessWidget {
                 child: OutlinedButton(
                   style: socialOutlinedButtonStyle,
                   onPressed: () => context.push(AppRoutes.teamJoin),
-                  child: const Text('Join team'),
+                  child: Text(L('Join team')),
                 ),
               ),
             ],

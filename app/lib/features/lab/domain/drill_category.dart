@@ -1,3 +1,5 @@
+import '../../../core/l10n/app_language_preference.dart';
+
 /// The drill categories actually populated by the bundled catalogs.
 ///
 /// The shipped data has exactly three (`dribbling`, `finishing`, `warmups`),
@@ -7,34 +9,38 @@
 enum DrillCategory {
   dribbling(
     raw: 'dribbling',
-    label: 'Dribbling',
-    tagline: 'Handles, combos & ball control',
+    labelKey: 'Dribbling',
+    taglineKey: 'Handles, combos & ball control',
   ),
   finishing(
     raw: 'finishing',
-    label: 'Finishing',
-    tagline: 'Layups, floaters & contact finishes',
+    labelKey: 'Finishing',
+    taglineKey: 'Layups, floaters & contact finishes',
   ),
   warmups(
     raw: 'warmups',
-    label: 'Warm-ups',
-    tagline: 'Stretches & activation before you hoop',
+    labelKey: 'Warm-ups',
+    taglineKey: 'Stretches & activation before you hoop',
   );
 
   const DrillCategory({
     required this.raw,
-    required this.label,
-    required this.tagline,
+    required this.labelKey,
+    required this.taglineKey,
   });
 
   /// The exact `category` string used in the JSON.
   final String raw;
 
   /// Display name for the UI.
-  final String label;
+  final String labelKey;
+
+  String get label => L(labelKey);
 
   /// Short descriptive subtitle shown on the category card.
-  final String tagline;
+  final String taglineKey;
+
+  String get tagline => L(taglineKey);
 
   /// Resolves a raw `category` string to a known [DrillCategory], or null.
   static DrillCategory? fromRaw(String? raw) {

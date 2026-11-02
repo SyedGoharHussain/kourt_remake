@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../data/social_repositories.dart';
 import '../../domain/conversation_model.dart';
 import '../../domain/direct_message_availability.dart';
@@ -149,7 +150,7 @@ class DirectMessageManager extends ChangeNotifier {
   static String normalizedMessageText(String text) {
     final trimmed = text.trim();
     if (trimmed.isEmpty) {
-      throw const DirectMessageException("Message text can't be empty.");
+      throw DirectMessageException(L("Message text can't be empty."));
     }
     return trimmed;
   }
@@ -164,7 +165,7 @@ class DirectMessageManager extends ChangeNotifier {
       throw DirectMessageException(availability.errorMessage!);
     }
     if (_follows.isBlocked(recipient.id)) {
-      throw const DirectMessageException('This conversation is unavailable.');
+      throw DirectMessageException(L('This conversation is unavailable.'));
     }
     final id = ConversationModel.documentId(currentUserId, recipient.id);
     final conversation = _conversations[id] ??
@@ -182,13 +183,13 @@ class DirectMessageManager extends ChangeNotifier {
   }) async {
     final body = normalizedMessageText(text);
     if (!_teams.isMember(teamId)) {
-      throw const DirectMessageException(
-        'You must be a member of this team to message it.',
+      throw DirectMessageException(
+        L('You must be a member of this team to message it.'),
       );
     }
     final conversation = await ensureTeamConversation(teamId);
     if (conversation == null) {
-      throw const DirectMessageException('Team unavailable.');
+      throw DirectMessageException(L('Team unavailable.'));
     }
     return _append(conversation, body);
   }

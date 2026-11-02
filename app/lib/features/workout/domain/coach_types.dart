@@ -1,3 +1,4 @@
+
 /// Why the coach decided to react to a shot, mirroring the recovered
 /// `CoachEventType` / gatekeeper decisions in `coach_session_manager.dart`.
 enum CoachEventType {

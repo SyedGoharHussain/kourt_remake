@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 
 /// The Lab search box: a rounded pill with a leading search icon, the text
 /// field, and a clear button once there's input. Hint text matches the
@@ -11,12 +12,12 @@ class DrillLibrarySearchField extends StatelessWidget {
     super.key,
     required this.controller,
     required this.onChanged,
-    this.hintText = 'What we working on?',
+    this.hintText,
   });
 
   final TextEditingController controller;
   final ValueChanged<String> onChanged;
-  final String hintText;
+  final String? hintText;
 
   @override
   Widget build(BuildContext context) {
@@ -42,7 +43,7 @@ class DrillLibrarySearchField extends StatelessWidget {
               ),
               cursorColor: AppColors.accent,
               decoration: InputDecoration(
-                hintText: hintText,
+                hintText: hintText ?? L('What we working on?'),
                 hintStyle: const TextStyle(
                   color: AppColors.textSecondary,
                   fontSize: 17,
@@ -62,7 +63,7 @@ class DrillLibrarySearchField extends StatelessWidget {
               if (controller.text.isEmpty) return const SizedBox.shrink();
               return IconButton(
                 icon: const Icon(Icons.close, color: AppColors.textSecondary),
-                tooltip: 'Clear',
+                tooltip: L('Clear'),
                 onPressed: () {
                   controller.clear();
                   onChanged('');

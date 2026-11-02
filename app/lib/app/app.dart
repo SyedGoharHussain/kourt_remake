@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
+import '../core/l10n/app_language_preference.dart';
+import '../core/session/app_session.dart';
+import '../core/share/share_service.dart';
 import '../features/auth/data/auth_manager.dart';
 import '../features/lab/data/drill_catalog_repository.dart';
 import '../features/lab/data/drill_favorites_store.dart';
@@ -9,6 +13,9 @@ import '../features/lab/presentation/lab_view_model.dart';
 import '../features/my_player/data/my_player_store.dart';
 import '../features/my_player/presentation/my_player_view_model.dart';
 import '../features/onboarding/data/onboarding_draft_store.dart';
+import '../features/settings/data/app_settings_store.dart';
+import '../features/settings/data/workout_reminder_service.dart';
+import '../features/settings/presentation/app_settings_manager.dart';
 import '../features/social/data/social_repositories.dart';
 import '../features/social/data/social_store.dart';
 import '../features/social/presentation/managers/comment_like_manager.dart';
@@ -45,25 +52,60 @@ class _KourtAppState extends State<KourtApp> {
   /// used as the router's [GoRouter.refreshListenable] so the app unlocks the
   /// moment onboarding completes.
   final AuthManager _auth = AuthManager();
+  final AppLanguagePreference _language = AppLanguagePreference.instance;
   late final GoRouter _router = createAppRouter(_auth);
+
+  /// Bumped to recreate every provider after signing out or deleting the account.
+  int _sessionEpoch = 0;
 
   @override
   void initState() {
     super.initState();
     _auth.init();
+    _language.addListener(_onLanguageChanged);
   }
 
   @override
   void dispose() {
+    _language.removeListener(_onLanguageChanged);
     _auth.dispose();
     super.dispose();
   }
 
+  void _onLanguageChanged() {
+    setState(() {});
+    // `L` reads the language from a global, so no widget depends on it: rebuild
+    // the whole tree, keeping its state, rather than tearing it down.
+    void rebuild(Element element) {
+      element.markNeedsBuild();
+      element.visitChildren(rebuild);
+    }
+
+    (context as Element).visitChildren(rebuild);
+  }
+
+  void _restartSession() => setState(() => _sessionEpoch++);
+
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
+      key: ValueKey(_sessionEpoch),
       providers: [
         ChangeNotifierProvider<AuthManager>.value(value: _auth),
+        ChangeNotifierProvider<AppLanguagePreference>.value(value: _language),
+        Provider<AppSession>(
+          create: (_) => AppSession(restart: _restartSession),
+        ),
+        // Phase 8 — sharing and the user's preferences.
+        Provider<ShareService>(create: (_) => const PluginShareService()),
+        Provider<AppSettingsStore>(create: (_) => LocalAppSettingsStore()),
+        ChangeNotifierProvider<AppSettingsManager>(
+          lazy: false,
+          create: (context) => AppSettingsManager(
+            context.read<AppSettingsStore>(),
+            reminders: createWorkoutReminderService(),
+          )..load(),
+        ),
         Provider<OnboardingDraftStore>(
           create: (_) => LocalOnboardingDraftStore(),
         ),
@@ -199,6 +241,7 @@ class _KourtAppState extends State<KourtApp> {
         ChangeNotifierProvider<WorkoutViewModel>(
           create: (context) => WorkoutViewModel(
             repository: context.read<WorkoutRepository>(),
+            settings: context.read<AppSettingsManager>(),
             onWorkoutSaved: () {
               context.read<DailyActivityStreakManager>().refreshStreak();
               context.read<ActivityGoalManager>().load();
@@ -214,6 +257,9 @@ class _KourtAppState extends State<KourtApp> {
         theme: AppTheme.dark(),
         darkTheme: AppTheme.dark(),
         themeMode: ThemeMode.dark,
+        locale: _language.effectiveLocale,
+        supportedLocales: AppLanguagePreference.supportedLocales,
+        localizationsDelegates: GlobalMaterialLocalizations.delegates,
         routerConfig: _router,
       ),
     );

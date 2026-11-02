@@ -42,13 +42,20 @@ class NoopEventSoundPlayer implements EventSoundPlayer {
 /// a fresh make interrupts the previous clip.
 class AudioPlayersEventSoundPlayer implements EventSoundPlayer {
   AudioPlayersEventSoundPlayer({Random? random})
-      : _random = random ?? Random() {
-    _player.setReleaseMode(ReleaseMode.stop);
-    _player.setPlayerMode(PlayerMode.lowLatency);
-  }
+      : _random = random ?? Random();
 
-  final AudioPlayer _player = AudioPlayer();
+  /// Created on the first play, so screens that may never play stay cheap.
+  AudioPlayer? _player;
   final Random _random;
+
+  Future<AudioPlayer> _ensurePlayer() async {
+    final existing = _player;
+    if (existing != null) return existing;
+    final player = _player = AudioPlayer();
+    await player.setReleaseMode(ReleaseMode.stop);
+    await player.setPlayerMode(PlayerMode.lowLatency);
+    return player;
+  }
 
   @override
   Future<void> play(ShotEventSoundKind kind) async {
@@ -56,8 +63,9 @@ class AudioPlayersEventSoundPlayer implements EventSoundPlayer {
     final file = resolved.soundFile;
     if (file == null) return; // none / unplayable
     try {
-      await _player.stop();
-      await _player.play(AssetSource(file));
+      final player = await _ensurePlayer();
+      await player.stop();
+      await player.play(AssetSource(file));
     } catch (_) {
       // Audio is best-effort; never let a missing clip break the workout.
     }
@@ -69,5 +77,5 @@ class AudioPlayersEventSoundPlayer implements EventSoundPlayer {
   }
 
   @override
-  Future<void> dispose() => _player.dispose();
+  Future<void> dispose() async => _player?.dispose();
 }

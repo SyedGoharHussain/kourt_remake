@@ -1,3 +1,4 @@
+import '../../../core/l10n/app_language_preference.dart';
 import '../../workout/domain/court_geometry.dart';
 import '../../workout/domain/shot_model.dart';
 import '../../workout/domain/workout_summary.dart';
@@ -144,7 +145,7 @@ class TrendsStats {
   /// e.g. `2h 5m`.
   String get formattedTotalTime {
     final minutes = (totalSeconds / 60).round();
-    return '${minutes ~/ 60}h ${minutes % 60}m';
+    return LF('%lldh %lldm', [minutes ~/ 60, minutes % 60]);
   }
 
   /// The run lengths the distribution chart shows, ascending.
@@ -192,9 +193,11 @@ enum TrendsProgressMetric {
   workouts('Workouts'),
   time('Time');
 
-  const TrendsProgressMetric(this.label);
+  const TrendsProgressMetric(this.labelKey);
 
-  final String label;
+  final String labelKey;
+
+  String get label => L(labelKey);
 }
 
 /// One point on the Progress chart.

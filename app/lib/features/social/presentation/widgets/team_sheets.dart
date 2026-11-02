@@ -6,6 +6,8 @@ import 'package:provider/provider.dart';
 import '../../../../app/router.dart';
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
+import '../../../../core/share/share_service.dart';
 import '../../../../core/widgets/glass_card.dart';
 import '../../domain/social_user.dart';
 import '../../domain/team_membership_model.dart';
@@ -21,9 +23,11 @@ enum _RosterFilter {
   players('Players'),
   invited('Invited');
 
-  const _RosterFilter(this.label);
+  const _RosterFilter(this.labelKey);
 
-  final String label;
+  final String labelKey;
+
+  String get label => L(labelKey);
 }
 
 Future<void> _showTeamSheet(BuildContext context, Widget child) {
@@ -69,7 +73,7 @@ class _SheetHeader extends StatelessWidget {
           action ??
               TextButton(
                 onPressed: () => Navigator.of(context).maybePop(),
-                child: const Text('Done'),
+                child: Text(L('Done')),
               ),
         ],
       ),
@@ -110,11 +114,11 @@ class _RosterSheetViewState extends State<RosterSheetView> {
     final teams = context.read<TeamManager>();
     final confirmed = await confirmSocialAction(
       context,
-      title: member.isPendingInvite ? 'Cancel invite' : 'Remove from team?',
+      title: member.isPendingInvite ? L('Cancel invite') : L('Remove from team?'),
       message: member.isPendingInvite
           ? null
-          : 'Are you sure you want to remove ${user.name} from the team?',
-      confirmLabel: member.isPendingInvite ? 'Cancel invite' : 'Remove from team',
+          : LF('Are you sure you want to remove %@ from the team?', [user.name]),
+      confirmLabel: member.isPendingInvite ? L('Cancel invite') : L('Remove from team'),
     );
     if (confirmed) await teams.removeMember(widget.teamId, user.id);
   }
@@ -157,24 +161,24 @@ class _RosterSheetViewState extends State<RosterSheetView> {
     final showAll = _filter == _RosterFilter.all;
     final rows = <Widget>[
       if (showAll || _filter == _RosterFilter.coaches)
-        ...section('Coaches', active.where((m) => m.isManager)),
+        ...section(L('Coaches'), active.where((m) => m.isManager)),
       if (showAll || _filter == _RosterFilter.players)
-        ...section('Players', active.where((m) => !m.isManager)),
+        ...section(L('Players'), active.where((m) => !m.isManager)),
       if (showAll || _filter == _RosterFilter.invited)
-        ...section('Invited', teams.pendingInvitedUsers(widget.teamId)),
+        ...section(L('Invited'), teams.pendingInvitedUsers(widget.teamId)),
     ];
 
     return Column(
       children: [
-        _SheetHeader(title: 'Roster'),
+        _SheetHeader(title: L('Roster')),
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: AppSpacing.xl),
           child: TextField(
             controller: _search,
             onChanged: (_) => setState(() {}),
-            decoration: const InputDecoration(
-              hintText: 'Search by name or ball tag',
-              prefixIcon: Icon(Icons.search),
+            decoration: InputDecoration(
+              hintText: L('Search by name or ball tag'),
+              prefixIcon: const Icon(Icons.search),
               isDense: true,
             ),
           ),
@@ -207,13 +211,13 @@ class _RosterSheetViewState extends State<RosterSheetView> {
                   child: SocialEmptyState(
                     icon: Icons.groups_outlined,
                     title: _search.text.trim().isNotEmpty
-                        ? 'No players match your search'
+                        ? L('No players match your search')
                         : _filter == _RosterFilter.invited
-                            ? 'No pending invites'
-                            : 'No roster members yet.',
+                            ? L('No pending invites')
+                            : L('No roster members yet.'),
                     message: _filter == _RosterFilter.invited
-                        ? "Invite players and they'll appear here until they "
-                            'accept.'
+                        ? L("Invite players and they'll appear here until they "
+                            'accept.')
                         : null,
                   ),
                 ),
@@ -228,7 +232,7 @@ class _RosterSheetViewState extends State<RosterSheetView> {
                 child: FilledButton(
                   onPressed: () =>
                       InvitePlayersSheetView.show(context, widget.teamId),
-                  child: const Text('Invite players'),
+                  child: Text(L('Invite players')),
                 ),
               ),
             ),
@@ -244,10 +248,10 @@ class _RosterSheetViewState extends State<RosterSheetView> {
     TeamManager teams,
   ) {
     final label = member.isPendingInvite
-        ? 'Invited'
+        ? L('Invited')
         : member.isManager
-            ? 'Coach'
-            : 'Player';
+            ? L('Coach')
+            : L('Player');
     final isSelf = user.id == teams.currentUserId;
     return SocialUserCellView(
       user: user,
@@ -259,8 +263,8 @@ class _RosterSheetViewState extends State<RosterSheetView> {
       trailing: canManage && !isSelf
           ? IconButton(
               tooltip: member.isPendingInvite
-                  ? 'Cancel invite'
-                  : 'Remove from team',
+                  ? L('Cancel invite')
+                  : L('Remove from team'),
               icon: const Icon(
                 Icons.remove_circle_outline,
                 color: AppColors.textSecondary,
@@ -303,6 +307,13 @@ class _InvitePlayersSheetViewState extends State<InvitePlayersSheetView> {
     if (mounted) setState(() => _copied = true);
   }
 
+  Future<void> _shareInvite(String code) async {
+    await context.read<ShareService>().shareText(
+      LF('Join my team on Kourt AI – enter code %@ in the app.', [code]),
+      subject: L('Join my team on Kourt AI'),
+    );
+  }
+
   Future<void> _sendInvites() async {
     final teams = context.read<TeamManager>();
     final count = _selected.length;
@@ -311,7 +322,7 @@ class _InvitePlayersSheetViewState extends State<InvitePlayersSheetView> {
     setState(_selected.clear);
     showSocialSnackBar(
       context,
-      count == 1 ? 'Invite sent.' : '$count invites sent.',
+      count == 1 ? L('Invite sent.') : LF('%lld invites sent.', [count]),
     );
   }
 
@@ -334,7 +345,7 @@ class _InvitePlayersSheetViewState extends State<InvitePlayersSheetView> {
 
     return Column(
       children: [
-        const _SheetHeader(title: 'Add players'),
+        _SheetHeader(title: L('Add players')),
         Expanded(
           child: ListView(
             children: [
@@ -343,18 +354,18 @@ class _InvitePlayersSheetViewState extends State<InvitePlayersSheetView> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    const Text(
-                      'Share this with your players – they’ll join with the code.',
-                      style: TextStyle(color: AppColors.textSecondary),
+                    Text(
+                      L('Share this with your players – they’ll join with the code.'),
+                      style: const TextStyle(color: AppColors.textSecondary),
                     ),
                     const SizedBox(height: AppSpacing.md),
                     GlassCard(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          const Text(
-                            'Invite code',
-                            style: TextStyle(
+                          Text(
+                            L('Invite code'),
+                            style: const TextStyle(
                               color: AppColors.textSecondary,
                               fontSize: 13,
                               fontWeight: FontWeight.w600,
@@ -377,35 +388,44 @@ class _InvitePlayersSheetViewState extends State<InvitePlayersSheetView> {
                               ),
                               TextButton(
                                 onPressed: () => _copy(team.inviteCode),
-                                child: Text(_copied ? 'Copied!' : 'Copy code'),
+                                child: Text(_copied ? L('Copied!') : L('Copy code')),
                               ),
                             ],
+                          ),
+                          const SizedBox(height: AppSpacing.sm),
+                          SizedBox(
+                            width: double.infinity,
+                            child: OutlinedButton.icon(
+                              onPressed: () => _shareInvite(team.inviteCode),
+                              icon: const Icon(Icons.ios_share, size: 18),
+                              label: Text(L('Share')),
+                            ),
                           ),
                         ],
                       ),
                     ),
                     const SizedBox(height: AppSpacing.lg),
-                    const Text(
-                      'Invite Kourt AI users',
-                      style: TextStyle(
+                    Text(
+                      L('Invite Kourt AI users'),
+                      style: const TextStyle(
                         color: AppColors.textPrimary,
                         fontSize: 16,
                         fontWeight: FontWeight.w700,
                       ),
                     ),
                     const SizedBox(height: AppSpacing.xs),
-                    const Text(
-                      'Search by name or ball tag, then select one or more users '
-                      'to invite.',
-                      style: TextStyle(color: AppColors.textSecondary),
+                    Text(
+                      L('Search by name or ball tag, then select one or more users '
+                      'to invite.'),
+                      style: const TextStyle(color: AppColors.textSecondary),
                     ),
                     const SizedBox(height: AppSpacing.sm),
                     TextField(
                       controller: _search,
                       onChanged: (_) => setState(() {}),
-                      decoration: const InputDecoration(
-                        hintText: 'Name or ball tag',
-                        prefixIcon: Icon(Icons.search),
+                      decoration: InputDecoration(
+                        hintText: L('Name or ball tag'),
+                        prefixIcon: const Icon(Icons.search),
                         isDense: true,
                       ),
                     ),
@@ -414,9 +434,9 @@ class _InvitePlayersSheetViewState extends State<InvitePlayersSheetView> {
               ),
               const SizedBox(height: AppSpacing.sm),
               if (candidates.isEmpty)
-                const SocialEmptyState(
+                SocialEmptyState(
                   icon: Icons.person_search_outlined,
-                  title: 'No users found.',
+                  title: L('No users found.'),
                 ),
               for (final user in candidates)
                 SocialUserCellView(
@@ -445,7 +465,7 @@ class _InvitePlayersSheetViewState extends State<InvitePlayersSheetView> {
               child: FilledButton(
                 onPressed: _selected.isEmpty ? null : _sendInvites,
                 child: Text(
-                  _selected.isEmpty ? 'Invite' : 'Invite (${_selected.length})',
+                  _selected.isEmpty ? L('Invite') : LF('Invite (%lld)', [_selected.length]),
                 ),
               ),
             ),
@@ -511,7 +531,7 @@ class _EditTeamSheetViewState extends State<EditTeamSheetView> {
       setState(() => _saving = false);
       showSocialSnackBar(
         context,
-        'Could not save team changes. Please try again.',
+        L('Could not save team changes. Please try again.'),
       );
     }
   }
@@ -541,10 +561,10 @@ class _EditTeamSheetViewState extends State<EditTeamSheetView> {
       child: Column(
         children: [
           _SheetHeader(
-            title: 'Edit team',
+            title: L('Edit team'),
             action: TextButton(
               onPressed: _saving || _name.text.trim().isEmpty ? null : _save,
-              child: const Text('Save'),
+              child: Text(L('Save')),
             ),
           ),
           Expanded(
@@ -556,14 +576,14 @@ class _EditTeamSheetViewState extends State<EditTeamSheetView> {
                 AppSpacing.xl,
               ),
               children: [
-                field(_name, 'Team name', onChanged: (_) => setState(() {})),
-                field(_description, 'Description', maxLines: 4),
-                field(_location, 'Location'),
+                field(_name, L('Team name'), onChanged: (_) => setState(() {})),
+                field(_description, L('Description'), maxLines: 4),
+                field(_location, L('Location')),
                 field(_instagram, 'Instagram'),
-                field(_website, 'Website'),
+                field(_website, L('Website')),
                 DropdownButtonFormField<TeamVisibility>(
                   initialValue: _visibility,
-                  decoration: const InputDecoration(labelText: 'Visibility'),
+                  decoration: InputDecoration(labelText: L('Visibility')),
                   dropdownColor: AppColors.elevatedCard,
                   items: [
                     for (final visibility in TeamVisibility.values)

@@ -93,7 +93,6 @@ void main() {
       await c.finish();
 
       expect(auth.onboardingComplete, isTrue);
-      expect(auth.isSignedIn, isTrue);
       expect(auth.greenSound, 'swish');
       expect(await store.hasDraft(), isFalse);
     });

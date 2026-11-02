@@ -3,7 +3,9 @@ import 'package:provider/provider.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../../../core/widgets/glass_card.dart';
+import '../../../../core/widgets/staggered_appear.dart';
 import '../../../workout/presentation/widgets/half_court_overlay.dart';
 import '../../domain/activity_goal_model.dart';
 import '../activity_goal_manager.dart';
@@ -67,7 +69,7 @@ class _TrendsViewState extends State<TrendsView> with WidgetsBindingObserver {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Trends'),
+        title: Text(L('Trends')),
         actions: [
           WorkoutStreakButton(streak: streak),
           const SizedBox(width: AppSpacing.lg),
@@ -107,12 +109,12 @@ class _TrendsViewState extends State<TrendsView> with WidgetsBindingObserver {
       ),
       children: [
         TrendsSection(
-          title: 'This week',
+          title: L('This week'),
           child: ActivityGoalSummaryCard(
             goal: week,
             workouts: weekWorkouts.length,
           ),
-        ),
+        ).staggeredAppear(0),
         const SizedBox(height: AppSpacing.md),
         GlassCard(
           child: ActivityGoalDailyChart(
@@ -120,10 +122,10 @@ class _TrendsViewState extends State<TrendsView> with WidgetsBindingObserver {
             workouts: weekWorkouts,
             daysForAverage: goals.daysForAverage,
           ),
-        ),
+        ).staggeredAppear(1),
         const SizedBox(height: AppSpacing.xl),
         TrendsSection(
-          title: 'Streak',
+          title: L('Streak'),
           child: StreakCalendarView(
             month: trends.calendarMonth,
             stats: trends.calendarStats,
@@ -135,15 +137,15 @@ class _TrendsViewState extends State<TrendsView> with WidgetsBindingObserver {
         ),
         const SizedBox(height: AppSpacing.xl),
         TrendsSection(
-          title: 'Milestones',
+          title: L('Milestones'),
           child: CareerMilestonesCard(tracks: trends.careerMilestones),
         ),
         const SizedBox(height: AppSpacing.xl),
-        const Padding(
-          padding: EdgeInsets.only(left: 4, bottom: AppSpacing.sm),
+        Padding(
+          padding: const EdgeInsets.only(left: 4, bottom: AppSpacing.sm),
           child: Text(
-            'Analytics',
-            style: TextStyle(fontSize: 24, fontWeight: FontWeight.w800),
+            L('Analytics'),
+            style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w800),
           ),
         ),
         GlassCard(
@@ -155,29 +157,29 @@ class _TrendsViewState extends State<TrendsView> with WidgetsBindingObserver {
         ),
         const SizedBox(height: AppSpacing.lg),
         TrendsSection(
-          title: 'Progress',
+          title: L('Progress'),
           child: ProgressChartCard(points: trends.progressPoints),
         ),
         const SizedBox(height: AppSpacing.xl),
         TrendsSection(
-          title: 'Performance',
+          title: L('Performance'),
           child: PerformanceBasicStats(stats: stats),
         ),
         const SizedBox(height: AppSpacing.lg),
         TrendsSection(
-          title: 'Make Percentage',
+          title: L('Make Percentage'),
           child: MakePercentageSummary(stats: stats),
         ),
         const SizedBox(height: AppSpacing.lg),
         TrendsSection(
-          title: 'Streaks',
+          title: L('Streaks'),
           child: ShotStreaksSummary(stats: stats),
         ),
         const SizedBox(height: AppSpacing.xl),
         TrendsSection(
-          title: 'Shot map (BETA)',
+          title: L('Shot map (BETA)'),
           child: stats.allShots.isEmpty
-              ? const TrendsEmptyNote('No shots tracked in this period yet.')
+              ? TrendsEmptyNote(L('No shots tracked in this period yet.'))
               : SizedBox(
                   height: 240,
                   child: HalfCourtOverlay(
@@ -188,12 +190,12 @@ class _TrendsViewState extends State<TrendsView> with WidgetsBindingObserver {
         ),
         const SizedBox(height: AppSpacing.xl),
         TrendsSection(
-          title: 'Shot metrics',
+          title: L('Shot metrics'),
           child: ShotMetricsSummary(stats: stats),
         ),
         const SizedBox(height: AppSpacing.xl),
         TrendsSection(
-          title: 'Weekly Goals',
+          title: L('Weekly Goals'),
           child: WeeklyGoalsSection(weeks: _weeksInRange(trends, goals)),
         ),
       ],

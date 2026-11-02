@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../../../core/widgets/glass_card.dart';
 import '../../domain/drill_category.dart';
 import 'lab_visuals.dart';
@@ -24,7 +25,7 @@ class DrillLibraryCategoryItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final accent = drillCategoryAccent(category);
-    final countLabel = count == 1 ? '1 drill' : '$count drills';
+    final countLabel = count == 1 ? L('1 drill') : LF('%lld drills', [count]);
 
     return GlassCard(
       tint: accent,

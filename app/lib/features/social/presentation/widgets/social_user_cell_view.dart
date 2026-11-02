@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import '../../../../app/router.dart';
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../domain/follow_model.dart';
 import '../../domain/social_user.dart';
 import '../managers/follow_manager.dart';
@@ -98,9 +99,9 @@ class FollowButton extends StatelessWidget {
     final isRequest = relationship == FollowRelationship.requested;
     final confirmed = await confirmSocialAction(
       context,
-      title: isRequest ? 'Cancel request?' : 'Unfollow user?',
+      title: isRequest ? L('Cancel request?') : L('Unfollow user?'),
       message: user.name,
-      confirmLabel: isRequest ? 'Cancel request' : 'Unfollow',
+      confirmLabel: isRequest ? L('Cancel request') : L('Unfollow'),
     );
     if (confirmed) await follows.unfollow(user.id);
   }

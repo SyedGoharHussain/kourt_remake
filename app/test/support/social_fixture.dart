@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:kourt_ai/app/theme/app_theme.dart';
+import 'package:kourt_ai/core/share/share_service.dart';
 import 'package:kourt_ai/features/my_player/data/my_player_store.dart';
 import 'package:kourt_ai/features/social/data/social_repositories.dart';
 import 'package:kourt_ai/features/social/data/social_store.dart';
@@ -17,6 +18,8 @@ import 'package:kourt_ai/features/workout/data/workout_repository.dart';
 import 'package:provider/provider.dart';
 import 'package:provider/single_child_widget.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import 'fake_share_service.dart';
 
 /// The whole social stack over a freshly seeded store, loaded and ready.
 class SocialFixture {
@@ -105,7 +108,10 @@ class SocialFixture {
   late final SocialBootstrapper bootstrapper;
   late final TeamFeedViewModel feed;
 
+  final FakeShareService share = FakeShareService();
+
   List<SingleChildWidget> get providers => [
+        Provider<ShareService>.value(value: share),
         Provider<WorkoutFeedRepository>.value(value: feedRepository),
         Provider<SocialBootstrapper>.value(value: bootstrapper),
         ChangeNotifierProvider.value(value: users),

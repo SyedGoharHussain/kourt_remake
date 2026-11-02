@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../domain/drill_template.dart';
 import 'drill_spotlight_card.dart';
 
@@ -24,11 +25,11 @@ class RecommendedDrillStrip extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Padding(
-          padding: EdgeInsets.only(bottom: AppSpacing.md),
+        Padding(
+          padding: const EdgeInsets.only(bottom: AppSpacing.md),
           child: Text(
-            'Personalized drills for you',
-            style: TextStyle(
+            L('Personalized drills for you'),
+            style: const TextStyle(
               color: AppColors.textPrimary,
               fontSize: 20,
               fontWeight: FontWeight.w700,

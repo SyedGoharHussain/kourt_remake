@@ -1,5 +1,7 @@
 import 'package:equatable/equatable.dart';
 
+import '../../../core/l10n/app_language_preference.dart';
+
 /// Who can find and join a team (recovered `TeamVisibility`, copy included).
 enum TeamVisibility {
   public('public', 'Public', 'Visible in Teams and anyone can join.'),
@@ -10,11 +12,15 @@ enum TeamVisibility {
     'Visible in Teams, but a code or link is still required.',
   );
 
-  const TeamVisibility(this.code, this.label, this.description);
+  const TeamVisibility(this.code, this.labelKey, this.descriptionKey);
 
   final String code;
-  final String label;
-  final String description;
+  final String labelKey;
+
+  String get label => L(labelKey);
+  final String descriptionKey;
+
+  String get description => L(descriptionKey);
 
   static TeamVisibility fromString(String? raw) {
     switch (raw?.trim().toLowerCase()) {
@@ -43,10 +49,12 @@ enum TeamTypeOption {
   recreational('recreational', 'Recreational'),
   professional('professional', 'Professional');
 
-  const TeamTypeOption(this.code, this.label);
+  const TeamTypeOption(this.code, this.labelKey);
 
   final String code;
-  final String label;
+  final String labelKey;
+
+  String get label => L(labelKey);
 }
 
 /// One `teams/{id}` document, using the recovered `TeamModel` keys. Team logos and
@@ -108,7 +116,7 @@ class TeamModel extends Equatable {
     for (final option in TeamTypeOption.values) {
       if (option.code == raw) return option.label;
     }
-    return 'Team';
+    return L('Team');
   }
 
   /// Owners and coaches can manage a team.
@@ -124,7 +132,7 @@ class TeamModel extends Equatable {
 
   /// `1 member`, `1,204 members`.
   static String localizedMemberCount(int count) =>
-      count == 1 ? '1 member' : '${formatWithCommas(count)} members';
+      count == 1 ? L('1 member') : LF('%lld members', [formatWithCommas(count)]);
 
   static String formatWithCommas(int value) => value.toString().replaceAllMapped(
         RegExp(r'\B(?=(\d{3})+(?!\d))'),

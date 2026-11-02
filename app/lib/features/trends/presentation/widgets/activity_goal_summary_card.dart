@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import '../../../../app/router.dart';
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../domain/activity_goal_model.dart';
 import 'activity_ring_view.dart';
 import 'trends_section.dart';
@@ -33,17 +34,17 @@ class ActivityGoalSummaryCard extends StatelessWidget {
         const SizedBox(height: AppSpacing.lg),
         _MetricRow(
           color: ActivityRingColors.time,
-          label: 'Time (H)',
+          label: L('Time (H)'),
           value: goal.formattedTimeProgress,
         ),
         _MetricRow(
           color: ActivityRingColors.shots,
-          label: 'Shots',
+          label: L('Shots'),
           value: goal.formattedShotsProgress,
         ),
         _MetricRow(
           color: ActivityRingColors.makes,
-          label: 'Makes',
+          label: L('Makes'),
           value: goal.formattedMakesProgress,
         ),
         const Padding(
@@ -54,12 +55,12 @@ class ActivityGoalSummaryCard extends StatelessWidget {
           children: [
             Expanded(
               child: TrendsStat(
-                label: 'Make %',
+                label: L('Make %'),
                 value: goal.formattedMakePercentage,
               ),
             ),
             Expanded(
-              child: TrendsStat(label: 'Workouts', value: '$workouts'),
+              child: TrendsStat(label: L('Workouts'), value: '$workouts'),
             ),
           ],
         ),
@@ -69,17 +70,17 @@ class ActivityGoalSummaryCard extends StatelessWidget {
           child: workouts == 0
               ? FilledButton(
                   onPressed: () => context.go(AppRoutes.workout),
-                  child: const Text('Start hooping'),
+                  child: Text(L('Start hooping')),
                 )
               : FilledButton(
                   onPressed: () => context.push(AppRoutes.activityGoals),
-                  child: const Text('Change goals'),
+                  child: Text(L('Change goals')),
                 ),
         ),
         if (workouts == 0)
           TextButton(
             onPressed: () => context.push(AppRoutes.activityGoals),
-            child: const Text('Change goals'),
+            child: Text(L('Change goals')),
           ),
       ],
     );
@@ -120,6 +121,8 @@ class _MetricRow extends StatelessWidget {
           const Spacer(),
           Text(
             value,
+            // A ratio like --/575, which bidi would flip in Arabic.
+            textDirection: TextDirection.ltr,
             style: TextStyle(
               color: color,
               fontSize: 17,

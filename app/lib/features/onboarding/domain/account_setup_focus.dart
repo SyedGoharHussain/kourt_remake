@@ -9,6 +9,8 @@ library;
 
 import 'package:flutter/material.dart';
 
+import '../../../core/l10n/app_language_preference.dart';
+
 enum AccountSetupFocus {
   shooting('shooting', 'Shooting', Icons.sports_basketball),
   defense('defense', 'Defense', Icons.shield_outlined),
@@ -16,10 +18,12 @@ enum AccountSetupFocus {
   playmaking('playmaking', 'Playmaking', Icons.swap_calls),
   athleticism('athleticism', 'Athleticism', Icons.bolt);
 
-  const AccountSetupFocus(this.code, this.label, this.icon);
+  const AccountSetupFocus(this.code, this.labelKey, this.icon);
 
   final String code;
-  final String label;
+  final String labelKey;
+
+  String get label => L(labelKey);
   final IconData icon;
 
   /// The attributes that belong to this focus area, in display order.
@@ -59,11 +63,13 @@ enum AccountSetupFocusAttribute {
   strength(AccountSetupFocus.athleticism, 'strength', 'Strength'),
   vertical(AccountSetupFocus.athleticism, 'vertical', 'Vertical');
 
-  const AccountSetupFocusAttribute(this.focus, this.code, this.label);
+  const AccountSetupFocusAttribute(this.focus, this.code, this.labelKey);
 
   final AccountSetupFocus focus;
   final String code;
-  final String label;
+  final String labelKey;
+
+  String get label => L(labelKey);
 
   static AccountSetupFocusAttribute? fromCode(String? code) {
     if (code == null) return null;

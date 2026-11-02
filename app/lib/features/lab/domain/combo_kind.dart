@@ -1,3 +1,5 @@
+import '../../../core/l10n/app_language_preference.dart';
+
 /// How many moves a drill chains together.
 ///
 /// Mirrors the `comboKind` field in the bundled catalogs. The shipped data uses
@@ -27,17 +29,17 @@ enum ComboKind {
   String get label {
     switch (this) {
       case ComboKind.single:
-        return 'Single move';
+        return L('Single move');
       case ComboKind.double_:
-        return 'Double combo';
+        return L('Double combo');
       case ComboKind.triple:
-        return 'Triple combo';
+        return L('Triple combo');
       case ComboKind.quadruple:
-        return 'Quadruple combo';
+        return L('Quadruple combo');
       case ComboKind.sextuple:
-        return 'Sextuple combo';
+        return L('Sextuple combo');
       case ComboKind.unknown:
-        return 'Combo';
+        return L('Combo');
     }
   }
 

@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 
+import '../../../core/l10n/app_language_preference.dart';
 import '../domain/team_model.dart';
 import 'managers/team_manager.dart';
 
@@ -27,10 +28,14 @@ enum CreateTeamStep {
   location('Where is your team based?', 'Where is {team} based? Optional.'),
   branding('Add your team branding?', 'Last up — pick the colors for {team}.');
 
-  const CreateTeamStep(this.title, this.coachLine);
+  const CreateTeamStep(this.titleKey, this.coachLineKey);
 
-  final String title;
-  final String coachLine;
+  final String titleKey;
+
+  String get title => L(titleKey);
+  final String coachLineKey;
+
+  String get coachLine => L(coachLineKey);
 }
 
 /// State for [TeamCreationView] (recovered `CreateTeamViewModel`). Team logo and
@@ -61,7 +66,7 @@ class CreateTeamViewModel extends ChangeNotifier {
   CreateTeamStep get currentStep => CreateTeamStep.values[_stepIndex];
   bool get isLastStep => _stepIndex == CreateTeamStep.values.length - 1;
   double get progress => (_stepIndex + 1) / CreateTeamStep.values.length;
-  String get primaryButtonTitle => isLastStep ? 'Create team' : 'Next';
+  String get primaryButtonTitle => isLastStep ? L('Create team') : L('Next');
 
   String teamName = '';
   String description = '';
@@ -96,7 +101,7 @@ class CreateTeamViewModel extends ChangeNotifier {
       .replaceAll('{name}', _displayName)
       .replaceAll(
         '{team}',
-        teamName.trim().isEmpty ? 'your team' : teamName.trim(),
+        teamName.trim().isEmpty ? L('your team') : teamName.trim(),
       );
 
   String get _displayName {
@@ -173,8 +178,8 @@ class CreateTeamViewModel extends ChangeNotifier {
         brandColorValue: _brandColor,
       );
     } catch (_) {
-      _errorMessage = "We couldn't create your team. Please check your "
-          'connection and try again.';
+      _errorMessage = L("We couldn't create your team. Please check your "
+          'connection and try again.');
       return null;
     } finally {
       _isSubmitting = false;

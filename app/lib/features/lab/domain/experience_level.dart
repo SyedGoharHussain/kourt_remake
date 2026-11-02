@@ -1,3 +1,5 @@
+import '../../../core/l10n/app_language_preference.dart';
+
 /// Difficulty tier for a drill.
 ///
 /// Mirrors the `experienceLevel` field in the bundled Lab catalogs. The shipped
@@ -9,10 +11,12 @@ enum ExperienceLevel {
   advanced('Advanced'),
   elite('Elite');
 
-  const ExperienceLevel(this.label);
+  const ExperienceLevel(this.labelKey);
 
-  /// The exact string as it appears in the JSON and in the UI.
-  final String label;
+  /// The exact string as it appears in the JSON.
+  final String labelKey;
+
+  String get label => L(labelKey);
 
   /// Relative difficulty rank (1 = easiest). Used for sorting difficulty tiers.
   int get rank => index + 1;
@@ -22,7 +26,7 @@ enum ExperienceLevel {
   static ExperienceLevel fromRaw(String? raw) {
     final value = (raw ?? '').trim().toLowerCase();
     for (final level in ExperienceLevel.values) {
-      if (level.label.toLowerCase() == value) return level;
+      if (level.labelKey.toLowerCase() == value) return level;
     }
     return ExperienceLevel.beginner;
   }

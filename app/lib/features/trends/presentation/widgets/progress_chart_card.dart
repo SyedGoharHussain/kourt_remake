@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
-import '../../domain/trends_date_range.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../domain/trends_stats.dart';
 import 'trends_section.dart';
 
@@ -57,7 +57,7 @@ class _ProgressChartCardState extends State<ProgressChartCard> {
         ),
         const SizedBox(height: AppSpacing.lg),
         if (points.isEmpty)
-          const TrendsEmptyNote('No workouts in this period.')
+          TrendsEmptyNote(L('No shooting workouts in this period.'))
         else
           SizedBox(
             height: 180,
@@ -182,7 +182,7 @@ class _ProgressChartCardState extends State<ProgressChartCard> {
     final point = points[index];
     final date = point.date;
     return point.isMonthly
-        ? TrendsDateRangeType.monthTitle(date).substring(0, 3)
+        ? AppLanguagePreference.instance.shortMonth(date)
         : '${date.month}/${date.day}';
   }
 }

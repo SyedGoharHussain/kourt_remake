@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 
+import '../../../core/l10n/app_language_preference.dart';
 import '../domain/conversation_model.dart';
 import '../domain/direct_message_model.dart';
 import '../domain/social_user.dart';
@@ -72,10 +73,10 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
     if (teamId != null) {
       return _teams.isMember(teamId)
           ? null
-          : 'You must be a member of this team to message it.';
+          : L('You must be a member of this team to message it.');
     }
     final other = _users.user(otherUserId!);
-    if (_follows.isBlocked(other.id)) return 'This conversation is unavailable.';
+    if (_follows.isBlocked(other.id)) return L('This conversation is unavailable.');
     return _manager.availabilityForRecipient(other).errorMessage;
   }
 
@@ -83,15 +84,15 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
 
   String get navigationTitle {
     final teamId = this.teamId;
-    if (teamId != null) return _teams.team(teamId)?.name ?? 'Team Chat';
+    if (teamId != null) return _teams.team(teamId)?.name ?? L('Team Chat');
     return _users.user(otherUserId!).name;
   }
 
   String get emptyStateCopy {
-    if (!canSend) return "You can't send messages in this thread right now.";
+    if (!canSend) return L("You can't send messages in this thread right now.");
     return isTeamThread
-        ? 'Say hey to start the team conversation.'
-        : 'Say hey to start the conversation.';
+        ? L('Say hey to start the team conversation.')
+        : L('Say hey to start the conversation.');
   }
 
   String senderDisplayName(String senderId) => _users.user(senderId).name;
@@ -110,7 +111,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
       _messages = await _manager.fetchMessages(conversationId);
       await _manager.markConversationRead(conversationId);
     } catch (_) {
-      _errorMessage = "Couldn't load this conversation. Please try again.";
+      _errorMessage = L("Couldn't load this conversation. Please try again.");
     }
     _isLoading = false;
     notifyListeners();
@@ -147,7 +148,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
       _errorMessage = e.message;
       return false;
     } catch (_) {
-      _errorMessage = "Couldn't send your message. Please try again.";
+      _errorMessage = L("Couldn't send your message. Please try again.");
       return false;
     } finally {
       _isSending = false;
@@ -162,7 +163,7 @@ class DirectMessageThreadViewModel extends ChangeNotifier {
         for (final m in _messages) m.id == updated.id ? updated : m,
       ];
     } catch (_) {
-      _errorMessage = "Couldn't update this message. Please try again.";
+      _errorMessage = L("Couldn't update this message. Please try again.");
     }
     notifyListeners();
   }

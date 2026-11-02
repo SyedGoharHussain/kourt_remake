@@ -1,3 +1,5 @@
+import '../../../core/l10n/app_language_preference.dart';
+
 /// The Trends tab's date-range choices and navigation, mirroring the recovered
 /// `utility/analytics/trends_date_range.dart`.
 enum TrendsDateRangeType {
@@ -10,9 +12,11 @@ enum TrendsDateRangeType {
   allTime('All Time'),
   custom('Custom Range');
 
-  const TrendsDateRangeType(this.label);
+  const TrendsDateRangeType(this.labelKey);
 
-  final String label;
+  final String labelKey;
+
+  String get label => L(labelKey);
 
   bool get canNavigate =>
       this != TrendsDateRangeType.allTime && this != TrendsDateRangeType.custom;
@@ -73,7 +77,7 @@ enum TrendsDateRangeType {
   String titleFor(DateTime anchor) {
     final a = normalizedAnchor(anchor);
     return switch (this) {
-      thisMonth || lastMonth => '${_monthNames[a.month - 1]} ${a.year}',
+      thisMonth || lastMonth => monthTitle(a),
       last3Months => _spanTitle(DateTime(a.year, a.month - 2), a),
       last6Months => _spanTitle(DateTime(a.year, a.month - 5), a),
       thisYear => '${a.year}',
@@ -83,8 +87,9 @@ enum TrendsDateRangeType {
   }
 
   static String _spanTitle(DateTime from, DateTime to) {
-    final fromMonth = _monthNames[from.month - 1].substring(0, 3);
-    final toMonth = _monthNames[to.month - 1].substring(0, 3);
+    final language = AppLanguagePreference.instance;
+    final fromMonth = language.shortMonth(from);
+    final toMonth = language.shortMonth(to);
     return from.year == to.year
         ? '$fromMonth-$toMonth ${to.year}'
         : '$fromMonth ${from.year}-$toMonth ${to.year}';
@@ -98,23 +103,8 @@ enum TrendsDateRangeType {
   static DateTime _endOfMonth(DateTime month) =>
       DateTime(month.year, month.month + 1, 0, 23, 59, 59, 999);
 
-  static const List<String> _monthNames = [
-    'January',
-    'February',
-    'March',
-    'April',
-    'May',
-    'June',
-    'July',
-    'August',
-    'September',
-    'October',
-    'November',
-    'December',
-  ];
-
   static String monthTitle(DateTime month) =>
-      '${_monthNames[month.month - 1]} ${month.year}';
+      AppLanguagePreference.instance.monthYear(month);
 }
 
 /// An inclusive span of time.

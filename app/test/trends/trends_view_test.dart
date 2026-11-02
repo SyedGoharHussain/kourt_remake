@@ -208,8 +208,7 @@ void main() {
       expect(find.text('Start hooping'), findsOneWidget);
       expect(find.text('--/500'), findsWidgets);
       expect(find.text('October 2026'), findsWidgets);
-      expect(find.text('No workouts in this period.'), findsOneWidget);
-      expect(find.text('No shooting workouts in this period.'), findsOneWidget);
+      expect(find.text('No shooting workouts in this period.'), findsNWidgets(2));
       expect(find.text('No shots tracked in this period yet.'), findsWidgets);
       expect(find.text('Weekly Goals'), findsOneWidget);
       expect(tester.takeException(), isNull);

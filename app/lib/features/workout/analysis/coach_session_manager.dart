@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import '../../../core/l10n/app_language_preference.dart';
 import '../domain/coach_types.dart';
 import '../domain/shot_model.dart';
 import '../domain/workout_summary.dart';
@@ -50,14 +51,14 @@ class CoachSessionManager {
         return CoachDecision(
           type: CoachEventType.breakthrough,
           shouldSpeak: true,
-          line: 'There it is — broke the slump. Keep that rhythm going.',
+          line: L('There it is — broke the slump. Keep that rhythm going.'),
         );
       }
       if (streak >= 3 && streak % 3 == 0) {
         return CoachDecision(
           type: CoachEventType.encouragement,
           shouldSpeak: true,
-          line: '$streak straight! You\'re locked in.',
+          line: LF("%lld straight! You're locked in.", [streak]),
         );
       }
       if (_shotCount - _lastInsightShot >= CoachTuning.insightInterval) {
@@ -85,7 +86,7 @@ class CoachSessionManager {
       return CoachDecision(
         type: CoachEventType.slump,
         shouldSpeak: true,
-        line: 'Three off in a row — reset. ${adviceLine(f)}',
+        line: LF('Three off in a row — reset. %@', [adviceLine(f)]),
         flaw: f,
       );
     }
@@ -104,16 +105,17 @@ class CoachSessionManager {
   /// A spoken visibility warning, from the recovered `video_coach_bridge.dart`
   /// hard-coded lines.
   String visibilityLine() =>
-      _visibilityLines[_random.nextInt(_visibilityLines.length)];
+      L(_visibilityLines[_random.nextInt(_visibilityLines.length)]);
 
   static const List<String> _visibilityLines = [
     'Step into the frame so I can see your shot.',
-    'You\'re out of frame — move in so I can track your form.',
-    'I still can\'t see you — step into the frame.',
+    "You're out of frame—move in so I can track your form.",
+    "I still can't see you—step into the frame.",
     'Get into the frame so I can actually help you.',
   ];
 
-  String _insightLine() => _insightLines[_random.nextInt(_insightLines.length)];
+  String _insightLine() =>
+      L(_insightLines[_random.nextInt(_insightLines.length)]);
 
   static const List<String> _insightLines = [
     'Keep that arc consistent — same shot every time.',
@@ -126,15 +128,15 @@ class CoachSessionManager {
   /// categories: wrist / elbow / arc / balance / …).
   static String adviceLine(FlawMetric flaw) => switch (flaw) {
         FlawMetric.wrist =>
-          'Snap that wrist — finish with your fingers in the cookie jar.',
-        FlawMetric.elbow => 'Tuck your elbow in, keep it under the ball.',
-        FlawMetric.arc => 'Put more arc on it — shoot up, not out.',
+          L('Snap that wrist — finish with your fingers in the cookie jar.'),
+        FlawMetric.elbow => L('Tuck your elbow in, keep it under the ball.'),
+        FlawMetric.arc => L('Put more arc on it — shoot up, not out.'),
         FlawMetric.balance =>
-          'You\'re drifting — stay balanced and land where you jumped.',
-        FlawMetric.shoulder => 'Square your shoulders up to the rim.',
-        FlawMetric.armShort => 'Finish your reach — fully extend on the release.',
-        FlawMetric.kneeStraight => 'Bend those knees — power comes from your legs.',
-        FlawMetric.clean => 'Form looks clean — keep it right there.',
+          L('You\'re drifting — stay balanced and land where you jumped.'),
+        FlawMetric.shoulder => L('Square your shoulders up to the rim.'),
+        FlawMetric.armShort => L('Finish your reach — fully extend on the release.'),
+        FlawMetric.kneeStraight => L('Bend those knees — power comes from your legs.'),
+        FlawMetric.clean => L('Form looks clean — keep it right there.'),
       };
 
   /// Builds the deterministic end-of-session breakdown that fills the workout's
@@ -145,10 +147,10 @@ class CoachSessionManager {
     final shots = summary.shots;
     final makePct = (w.makePercentage * 100).round();
     final lines = <String>[
-      'You went ${w.totalMakes} for ${w.totalShots} ($makePct%).',
+      LF('You went %lld for %lld (%@).', [w.totalMakes, w.totalShots, '$makePct%']),
     ];
     if (w.bestStreak > 1) {
-      lines.add('Best run: ${w.bestStreak} makes in a row.');
+      lines.add(LF('Best run: %lld makes in a row.', [w.bestStreak]));
     }
     final arc = _arcTrend(shots);
     if (arc != null) lines.add(arc);
@@ -168,15 +170,15 @@ class CoachSessionManager {
     final second = _avg(angles.sublist(mid));
     const flat = 25.0;
     if (first < flat && second >= flat) {
-      return 'Started flat, improved your arc later.';
+      return L('Started flat, improved your arc later.');
     }
     if (first >= flat && second < flat) {
-      return 'Good arc early, flattened out as you got tired.';
+      return L('Good arc early, flattened out as you got tired.');
     }
     if (first >= flat && second >= flat) {
-      return 'Maintained a solid arc throughout.';
+      return L('Maintained a solid arc throughout.');
     }
-    return 'Arc stayed flat — needs more leg drive.';
+    return L('Arc stayed flat — needs more leg drive.');
   }
 
   static String? _timingTrend(List<ShotModel> shots) {
@@ -187,12 +189,12 @@ class CoachSessionManager {
     final second = _avg(times.sublist(mid));
     const delta = 0.08;
     if (second < first - delta) {
-      return 'Release was slow early, quickened up mid-session.';
+      return L('Release was slow early, quickened up mid-session.');
     }
     if (second > first + delta) {
-      return 'Quick release early, slowed down late.';
+      return L('Quick release early, slowed down late.');
     }
-    return 'Release timing stayed stable.';
+    return L('Release timing stayed stable.');
   }
 
   static String? _makeZone(List<ShotModel> shots) {
@@ -204,21 +206,21 @@ class CoachSessionManager {
       counts[z] = (counts[z] ?? 0) + 1;
     }
     final best = counts.entries.reduce((a, b) => a.value >= b.value ? a : b);
-    return 'Makes strongest from the ${best.key}.';
+    return LF('Makes strongest from the %@.', [best.key]);
   }
 
   static String _zoneLabel(double x, double y) {
-    if (y < 0.18) return 'inside paint';
-    final side = x < 0.4 ? 'left side' : (x > 0.6 ? 'right side' : 'center lane');
-    if (y > 0.6) return 'deep perimeter';
-    if (y > 0.35) return 'midrange ($side)';
+    if (y < 0.18) return L('inside paint');
+    final side = x < 0.4 ? L('left side') : (x > 0.6 ? L('right side') : L('center lane'));
+    if (y > 0.6) return L('deep perimeter');
+    if (y > 0.35) return LF('midrange (%@)', [side]);
     return side;
   }
 
   static String _overall(int makePct) {
-    if (makePct >= 60) return 'Locked in and found your rhythm.';
-    if (makePct >= 40) return 'Average efficiency, some inconsistency.';
-    return 'Struggled to find consistency — keep grinding.';
+    if (makePct >= 60) return L('Locked in and found your rhythm.');
+    if (makePct >= 40) return L('Average efficiency, some inconsistency.');
+    return L('Struggled to find consistency — keep grinding.');
   }
 
   static double _avg(List<double> v) =>

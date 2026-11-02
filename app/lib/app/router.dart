@@ -2,11 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
+import '../core/l10n/app_language_preference.dart';
 import '../features/auth/data/auth_manager.dart';
 import '../features/home/presentation/home_shell.dart';
 import '../features/lab/presentation/screens/drill_library_view.dart';
+import '../features/my_player/presentation/screens/profile_share_composer_view.dart';
 import '../features/my_player/presentation/screens/profile_view.dart';
 import '../features/onboarding/presentation/account_setup_view.dart';
+import '../features/settings/presentation/screens/account_language_settings_view.dart';
+import '../features/settings/presentation/screens/account_view.dart';
+import '../features/settings/presentation/screens/event_sound_selection_view.dart';
+import '../features/settings/presentation/screens/video_workout_settings_view.dart';
 import '../features/social/presentation/screens/direct_message_thread_view.dart';
 import '../features/social/presentation/screens/direct_messages_inbox_view.dart';
 import '../features/social/presentation/screens/join_team_views.dart';
@@ -21,6 +27,7 @@ import '../features/trends/presentation/screens/activity_change_goals_view.dart'
 import '../features/trends/presentation/screens/streak_journey_view.dart';
 import '../features/trends/presentation/screens/trends_view.dart';
 import '../features/workout/domain/workout_summary.dart';
+import '../features/workout/presentation/screens/workout_share_composer_view.dart';
 import '../features/workout/presentation/screens/workout_summary_view.dart';
 import '../features/workout/presentation/screens/workout_view.dart';
 
@@ -50,6 +57,17 @@ abstract final class AppRoutes {
   static const teamBrowse = '/team-browse';
   static const messages = '/messages';
   static const findBallers = '/find-ballers';
+
+  // Settings, pushed above the tab shell.
+  static const settings = '/settings';
+  static const trackingSettings = '/settings/tracking';
+  static const languageSettings = '/settings/language';
+  static String soundSettings(EventSoundSelectionKind kind) =>
+      '/settings/sound/${kind.name}';
+
+  /// The workout share composer, with the [WorkoutSummaryModel] as `extra`.
+  static const workoutShare = '/workout-share';
+  static const profileShare = '/profile-share';
 
   /// The invite deep link: opens Join Team with the code filled in.
   static String teamInvite(String code) => '/team-invite/$code';
@@ -150,12 +168,50 @@ GoRouter createAppRouter(AuthManager auth) {
         builder: (context, state) {
           final summary = state.extra;
           if (summary is! WorkoutSummaryModel) {
-            return const Scaffold(
-              body: Center(child: Text('No workout to show.')),
+            return Scaffold(
+              body: Center(child: Text(L('No workout to show.'))),
             );
           }
           return WorkoutSummaryView(summary: summary);
         },
+      ),
+      GoRoute(
+        path: AppRoutes.workoutShare,
+        builder: (context, state) {
+          final summary = state.extra;
+          if (summary is! WorkoutSummaryModel) {
+            return Scaffold(
+              body: Center(child: Text(L('No workout to show.'))),
+            );
+          }
+          return WorkoutShareComposerView(summary: summary);
+        },
+      ),
+      GoRoute(
+        path: AppRoutes.profileShare,
+        builder: (context, state) => const ProfileShareComposerView(),
+      ),
+      GoRoute(
+        path: AppRoutes.settings,
+        builder: (context, state) => const AccountView(),
+        routes: [
+          GoRoute(
+            path: 'tracking',
+            builder: (context, state) => const VideoWorkoutSettingsView(),
+          ),
+          GoRoute(
+            path: 'language',
+            builder: (context, state) => const AccountLanguageSettingsView(),
+          ),
+          GoRoute(
+            path: 'sound/:kind',
+            builder: (context, state) => EventSoundSelectionView(
+              kind: EventSoundSelectionKind.fromName(
+                state.pathParameters['kind'],
+              ),
+            ),
+          ),
+        ],
       ),
       GoRoute(
         path: AppRoutes.activityGoals,

@@ -109,7 +109,7 @@ class DrillTemplate extends Equatable {
         'name': name,
         'tips': tips,
         'tags': tags,
-        'experienceLevel': experienceLevel.label,
+        'experienceLevel': experienceLevel.labelKey,
         'comboKind': comboKind.raw,
         'componentMoveIds': componentMoveIds,
         'repDribbles': repDribbles,

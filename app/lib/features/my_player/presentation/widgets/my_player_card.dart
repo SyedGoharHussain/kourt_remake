@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../domain/my_player_profile.dart';
 import '../../domain/overall_tier.dart';
 import '../../domain/player_archetype.dart';
@@ -42,7 +43,7 @@ class MyPlayerCard extends StatelessWidget {
           Row(
             children: [
               Text(
-                'MY PLAYER',
+                L('MY PLAYER'),
                 style: textTheme.labelSmall?.copyWith(
                   color: accent,
                   letterSpacing: 1.4,
@@ -64,19 +65,19 @@ class MyPlayerCard extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      profile.archetype.name,
+                      L(profile.archetype.name),
                       style: textTheme.titleLarge?.copyWith(
                         fontWeight: FontWeight.w800,
                       ),
                     ),
                     const SizedBox(height: 3),
                     Text(
-                      sigName,
+                      L(sigName),
                       style: textTheme.bodyMedium?.copyWith(
                         fontWeight: FontWeight.w600,
                       ),
                     ),
-                    Text(sigSubtitle, style: textTheme.bodySmall),
+                    Text(L(sigSubtitle), style: textTheme.bodySmall),
                   ],
                 ),
               ),

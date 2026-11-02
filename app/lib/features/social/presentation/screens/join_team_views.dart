@@ -5,6 +5,8 @@ import 'package:provider/provider.dart';
 import '../../../../app/router.dart';
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
+import '../../../../core/share/share_service.dart';
 import '../../domain/team_model.dart';
 import '../managers/team_manager.dart';
 import '../social_bootstrapper.dart';
@@ -46,7 +48,7 @@ class _JoinTeamHubViewState extends State<JoinTeamHubView> {
     setState(() => _joining = true);
     try {
       final team = await teams.joinTeamWithCode(_code.text);
-      if (mounted) context.pushReplacement(AppRoutes.teamDetail(team.id));
+      if (mounted) _openJoinedTeam(team.id);
     } on TeamManagerException catch (e) {
       if (mounted) await showTeamJoinError(context, e);
     } finally {
@@ -54,10 +56,44 @@ class _JoinTeamHubViewState extends State<JoinTeamHubView> {
     }
   }
 
+  void _openJoinedTeam(String teamId) {
+    final router = GoRouter.of(context);
+    if (router.canPop()) {
+      router.pushReplacement(AppRoutes.teamDetail(teamId));
+    } else {
+      // Opened from an invite link: put the tabs underneath the team.
+      router.go(AppRoutes.teams);
+      router.push(AppRoutes.teamDetail(teamId));
+    }
+  }
+
+  /// The recovered `_openAskCoachSms`, with the original company's link removed.
+  Future<void> _askCoach() async {
+    final opened = await context.read<ShareService>().composeSms(
+      L(
+        "What's up Coach, I've been using this app to track my shooting workouts "
+        "outside of practice and it's honestly helped a lot. I can see my progress, "
+        'track my percentages, and it keeps me motivated to get better.\n\n'
+        "It has Teams where we could see everyone's stats and leaderboards. I think "
+        'it could really help us stay accountable and improve as a team. You should '
+        'check out Kourt AI.',
+      ),
+    );
+    if (!opened && mounted) {
+      showSocialSnackBar(context, L('Could not open your messaging app.'));
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Join team')),
+      appBar: AppBar(
+        title: Text(L('Join team')),
+        // Opened from an invite link there's nothing to pop back to.
+        leading: context.canPop()
+            ? null
+            : CloseButton(onPressed: () => context.go(AppRoutes.teams)),
+      ),
       body: SafeArea(
         top: false,
         child: ListView(
@@ -66,9 +102,9 @@ class _JoinTeamHubViewState extends State<JoinTeamHubView> {
             TextField(
               controller: _code,
               textCapitalization: TextCapitalization.characters,
-              decoration: const InputDecoration(
-                hintText: 'Enter team invite code...',
-                prefixIcon: Icon(Icons.vpn_key_outlined),
+              decoration: InputDecoration(
+                hintText: L('Enter team invite code...'),
+                prefixIcon: const Icon(Icons.vpn_key_outlined),
               ),
               onSubmitted: (_) => _onJoinWithFieldCode(),
             ),
@@ -77,10 +113,16 @@ class _JoinTeamHubViewState extends State<JoinTeamHubView> {
               height: 48,
               child: FilledButton(
                 onPressed: _joining ? null : _onJoinWithFieldCode,
-                child: const Text('Join team'),
+                child: Text(L('Join team')),
               ),
             ),
-            const SizedBox(height: AppSpacing.xxl),
+            const SizedBox(height: AppSpacing.sm),
+            TextButton.icon(
+              onPressed: _askCoach,
+              icon: const Icon(Icons.sms_outlined, size: 18),
+              label: Text(L('Ask coach to make team')),
+            ),
+            const SizedBox(height: AppSpacing.lg),
             const BrowseTeamsPreviewSection(),
           ],
         ),
@@ -115,15 +157,15 @@ class _BrowseTeamsListViewState extends State<BrowseTeamsListView> {
 
     final String emptyMessage;
     if (query.trim().isNotEmpty) {
-      emptyMessage = 'No matches for your search.';
+      emptyMessage = L('No matches for your search.');
     } else if (_filter != null) {
-      emptyMessage = 'No teams found for this filter.';
+      emptyMessage = L('No teams found for this filter.');
     } else {
-      emptyMessage = 'No teams to browse right now.';
+      emptyMessage = L('No teams to browse right now.');
     }
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Browse teams')),
+      appBar: AppBar(title: Text(L('Browse teams'))),
       body: SafeArea(
         top: false,
         child: Column(
@@ -138,9 +180,9 @@ class _BrowseTeamsListViewState extends State<BrowseTeamsListView> {
               child: TextField(
                 controller: _search,
                 onChanged: (_) => setState(() {}),
-                decoration: const InputDecoration(
-                  hintText: 'Search teams',
-                  prefixIcon: Icon(Icons.search),
+                decoration: InputDecoration(
+                  hintText: L('Search teams'),
+                  prefixIcon: const Icon(Icons.search),
                   isDense: true,
                 ),
               ),
@@ -152,9 +194,9 @@ class _BrowseTeamsListViewState extends State<BrowseTeamsListView> {
               ),
               child: Row(
                 children: [
-                  _capsule('All', null),
-                  _capsule('Public', TeamVisibility.public),
-                  _capsule('Invite only', TeamVisibility.inviteOnly),
+                  _capsule(L('All'), null),
+                  _capsule(L('Public'), TeamVisibility.public),
+                  _capsule(L('Invite only'), TeamVisibility.inviteOnly),
                 ],
               ),
             ),

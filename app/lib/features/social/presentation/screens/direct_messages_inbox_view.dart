@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import '../../../../app/router.dart';
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../domain/conversation_model.dart';
 import '../managers/direct_message_manager.dart';
 import '../managers/team_manager.dart';
@@ -21,13 +22,13 @@ class DirectMessagesInboxView extends StatelessWidget {
     final conversations =
         context.watch<DirectMessageManager>().currentUserConversations;
     return Scaffold(
-      appBar: AppBar(title: const Text('Messages')),
+      appBar: AppBar(title: Text(L('Messages'))),
       body: conversations.isEmpty
-          ? const Center(
+          ? Center(
               child: SocialEmptyState(
                 icon: Icons.chat_bubble_outline,
-                title: 'No messages yet',
-                message: "Start a conversation from someone's profile.",
+                title: L('No messages yet'),
+                message: L("Start a conversation from someone's profile."),
               ),
             )
           : ListView.separated(
@@ -51,10 +52,10 @@ class _InboxCell extends StatelessWidget {
 
   String _previewSubtitle(BuildContext context, String currentUserId) {
     final text = conversation.lastMessageText?.trim() ?? '';
-    if (text.isEmpty) return 'Say hey to start the conversation.';
+    if (text.isEmpty) return L('Say hey to start the conversation.');
     final senderId = conversation.lastSenderId;
     if (senderId == null) return text;
-    if (senderId == currentUserId) return 'You: $text';
+    if (senderId == currentUserId) return LF('You: %@', [text]);
     if (!conversation.isTeamConversation) return text;
     final sender = context.read<UserDiscoveryManager>().user(senderId);
     return '${sender.name.split(' ').first}: $text';
@@ -73,7 +74,7 @@ class _InboxCell extends StatelessWidget {
     final otherId = conversation.otherParticipantId(me);
     final other = !isTeam && otherId != null ? users.user(otherId) : null;
 
-    final title = team?.name ?? other?.name ?? conversation.title ?? 'Team Chat';
+    final title = team?.name ?? other?.name ?? conversation.title ?? L('Team Chat');
     final Widget avatar = team != null
         ? TeamLogoView(team: team, size: 48)
         : other != null

@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../../workout/domain/workout_model.dart';
 import '../../domain/social_user.dart';
 import '../../domain/workout_comment_model.dart';
@@ -49,9 +50,9 @@ class WorkoutCommentsSheetView extends StatelessWidget {
       padding: EdgeInsets.only(
         bottom: MediaQuery.of(context).viewInsets.bottom,
       ),
-      child: FractionallySizedBox(
+      child: const FractionallySizedBox(
         heightFactor: 0.85,
-        child: const _WorkoutCommentsSheetBody(),
+        child: _WorkoutCommentsSheetBody(),
       ),
     );
   }
@@ -121,10 +122,10 @@ class _WorkoutCommentsSheetBodyState extends State<_WorkoutCommentsSheetBody> {
         ),
         child: Row(
           children: [
-            const Expanded(
+            Expanded(
               child: Text(
-                'Comments',
-                style: TextStyle(
+                L('Comments'),
+                style: const TextStyle(
                   color: AppColors.textPrimary,
                   fontSize: 18,
                   fontWeight: FontWeight.w700,
@@ -133,7 +134,7 @@ class _WorkoutCommentsSheetBodyState extends State<_WorkoutCommentsSheetBody> {
             ),
             TextButton(
               onPressed: () => Navigator.of(context).maybePop(),
-              child: const Text('Done'),
+              child: Text(L('Done')),
             ),
           ],
         ),
@@ -147,11 +148,11 @@ class _WorkoutCommentsSheetBodyState extends State<_WorkoutCommentsSheetBody> {
     }
     final comments = vm.comments;
     if (comments.isEmpty) {
-      return const Center(
+      return Center(
         child: SocialEmptyState(
           icon: Icons.mode_comment_outlined,
-          title: 'No comments yet',
-          message: 'Start the conversation on this workout.',
+          title: L('No comments yet'),
+          message: L('Start the conversation on this workout.'),
         ),
       );
     }
@@ -162,7 +163,7 @@ class _WorkoutCommentsSheetBodyState extends State<_WorkoutCommentsSheetBody> {
         if (vm.canLoadMoreComments)
           TextButton(
             onPressed: vm.loadMoreComments,
-            child: const Text('Load more comments'),
+            child: Text(L('Load more comments')),
           ),
       ],
     );
@@ -179,7 +180,7 @@ class _WorkoutCommentsSheetBodyState extends State<_WorkoutCommentsSheetBody> {
       children: [
         _CommentRow(
           author: vm.user(comment.authorUserId),
-          text: comment.isDeleted ? 'This comment was deleted.' : comment.text,
+          text: comment.isDeleted ? L('This comment was deleted.') : comment.text,
           isDeleted: comment.isDeleted,
           createDate: comment.createDate,
           liked: vm.isCommentLiked(comment.id),
@@ -193,8 +194,8 @@ class _WorkoutCommentsSheetBodyState extends State<_WorkoutCommentsSheetBody> {
           onDelete: () async {
             final confirmed = await confirmSocialAction(
               context,
-              title: 'Delete comment?',
-              confirmLabel: 'Delete',
+              title: L('Delete comment?'),
+              confirmLabel: L('Delete'),
             );
             if (confirmed) await vm.deleteComment(comment);
           },
@@ -213,10 +214,10 @@ class _WorkoutCommentsSheetBodyState extends State<_WorkoutCommentsSheetBody> {
               onTap: () => vm.toggleReplies(comment.id),
               child: Text(
                 expanded
-                    ? 'Hide replies'
+                    ? L('Hide replies')
                     : comment.replyCount == 1
-                        ? 'View 1 reply'
-                        : 'View ${comment.replyCount} replies',
+                        ? L('View 1 reply')
+                        : LF('View %lld replies', [comment.replyCount]),
                 style: const TextStyle(
                   color: AppColors.textSecondary,
                   fontSize: 13,
@@ -241,7 +242,7 @@ class _WorkoutCommentsSheetBodyState extends State<_WorkoutCommentsSheetBody> {
               child: _CommentRow(
                 author: vm.user(reply.authorUserId),
                 avatarSize: 28,
-                text: reply.isDeleted ? 'This comment was deleted.' : reply.text,
+                text: reply.isDeleted ? L('This comment was deleted.') : reply.text,
                 isDeleted: reply.isDeleted,
                 createDate: reply.createDate,
                 liked: vm.isCommentLiked(reply.id),
@@ -254,8 +255,8 @@ class _WorkoutCommentsSheetBodyState extends State<_WorkoutCommentsSheetBody> {
                 onDelete: () async {
                   final confirmed = await confirmSocialAction(
                     context,
-                    title: 'Delete comment?',
-                    confirmLabel: 'Delete',
+                    title: L('Delete comment?'),
+                    confirmLabel: L('Delete'),
                   );
                   if (confirmed) await vm.deleteReply(reply, comment);
                 },
@@ -271,8 +272,8 @@ class _WorkoutCommentsSheetBodyState extends State<_WorkoutCommentsSheetBody> {
           Padding(
             padding: const EdgeInsets.only(left: 68, right: AppSpacing.xl),
             child: _InlineComposer(
-              hint: 'Write a reply...',
-              submitLabel: 'Reply',
+              hint: L('Write a reply...'),
+              submitLabel: L('Reply'),
               onCancel: () => setState(() => _replyingTo = null),
               onSubmit: (text) async {
                 if (await vm.submitReply(comment, text)) {
@@ -303,15 +304,15 @@ class _WorkoutCommentsSheetBodyState extends State<_WorkoutCommentsSheetBody> {
                 minLines: 1,
                 maxLines: 4,
                 textCapitalization: TextCapitalization.sentences,
-                decoration: const InputDecoration(
-                  hintText: 'Add a comment...',
+                decoration: InputDecoration(
+                  hintText: L('Add a comment...'),
                   isDense: true,
                 ),
               ),
             ),
             IconButton(
               onPressed: _submitRoot,
-              tooltip: 'Comment',
+              tooltip: L('Comment'),
               icon: const Icon(Icons.send, color: AppColors.accent),
             ),
           ],
@@ -406,8 +407,8 @@ class _CommentRow extends StatelessWidget {
                 if (isEditing)
                   _InlineComposer(
                     initialText: text,
-                    hint: 'Edit comment',
-                    submitLabel: 'Save',
+                    hint: L('Edit comment'),
+                    submitLabel: L('Save'),
                     onCancel: onCancelEdit,
                     onSubmit: onSaveEdit,
                   )
@@ -432,10 +433,10 @@ class _CommentRow extends StatelessWidget {
                         onTap: onLike,
                         child: Text(
                           likeCount == 0
-                              ? 'Like'
+                              ? L('Like')
                               : likeCount == 1
-                                  ? '1 like'
-                                  : '$likeCount likes',
+                                  ? L('1 like')
+                                  : LF('%lld likes', [likeCount]),
                           style: meta.copyWith(
                             color: liked
                                 ? AppColors.miss
@@ -448,7 +449,7 @@ class _CommentRow extends StatelessWidget {
                         GestureDetector(
                           behavior: HitTestBehavior.opaque,
                           onTap: onReply,
-                          child: const Text('Reply', style: meta),
+                          child: Text(L('Reply'), style: meta),
                         ),
                       ],
                     ],
@@ -459,7 +460,7 @@ class _CommentRow extends StatelessWidget {
           ),
           if (!isDeleted && !isEditing && (canEdit || canDelete))
             PopupMenuButton<String>(
-              tooltip: 'More',
+              tooltip: L('More'),
               iconSize: 18,
               padding: EdgeInsets.zero,
               color: AppColors.elevatedCard,
@@ -468,9 +469,9 @@ class _CommentRow extends StatelessWidget {
                   value == 'edit' ? onEdit() : onDelete(),
               itemBuilder: (_) => [
                 if (canEdit)
-                  const PopupMenuItem(value: 'edit', child: Text('Edit')),
+                  PopupMenuItem(value: 'edit', child: Text(L('Edit'))),
                 if (canDelete)
-                  const PopupMenuItem(value: 'delete', child: Text('Delete')),
+                  PopupMenuItem(value: 'delete', child: Text(L('Delete'))),
               ],
             ),
         ],
@@ -526,9 +527,9 @@ class _InlineComposerState extends State<_InlineComposer> {
           children: [
             TextButton(
               onPressed: widget.onCancel,
-              child: const Text(
-                'Cancel',
-                style: TextStyle(color: AppColors.textSecondary),
+              child: Text(
+                L('Cancel'),
+                style: const TextStyle(color: AppColors.textSecondary),
               ),
             ),
             TextButton(

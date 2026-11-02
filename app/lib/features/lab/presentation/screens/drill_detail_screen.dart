@@ -4,6 +4,8 @@ import 'package:video_player/video_player.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
+import '../../../../core/share/share_service.dart';
 import '../../../../core/widgets/glass_card.dart';
 import '../../data/drill_favorites_store.dart';
 import '../../domain/drill_category.dart';
@@ -34,13 +36,20 @@ class DrillDetailScreen extends StatelessWidget {
         title: Text(drill.name, overflow: TextOverflow.ellipsis),
         actions: [
           IconButton(
-            tooltip: isFavorite ? 'Remove from favorites' : 'Add to favorites',
+            tooltip: isFavorite ? L('Remove from favorites') : L('Add to favorites'),
             icon: Icon(
               isFavorite ? Icons.favorite : Icons.favorite_border,
               color: isFavorite ? AppColors.miss : AppColors.textPrimary,
             ),
             onPressed: () =>
                 context.read<DrillFavoritesStore>().toggleFavorite(drill.id),
+          ),
+          IconButton(
+            tooltip: L('Share'),
+            icon: const Icon(Icons.ios_share),
+            onPressed: () => context.read<ShareService>().shareText(
+              LF('Check out %@ on Kourt AI', [drill.name]),
+            ),
           ),
         ],
       ),
@@ -79,13 +88,13 @@ class DrillDetailScreen extends StatelessWidget {
                     _MetaChips(drill: drill, category: category),
                     if (drill.tips.isNotEmpty) ...[
                       const SizedBox(height: AppSpacing.xl),
-                      const _SectionHeader('Coaching tips'),
+                      _SectionHeader(L('Coaching tips')),
                       const SizedBox(height: AppSpacing.md),
                       _TipsList(tips: drill.tips),
                     ],
                     if (components.isNotEmpty) ...[
                       const SizedBox(height: AppSpacing.xl),
-                      _SectionHeader('Combo breakdown · ${drill.comboKind.label}'),
+                      _SectionHeader(LF('Combo breakdown · %@', [drill.comboKind.label])),
                       const SizedBox(height: AppSpacing.md),
                       _ComboList(
                         components: components,
@@ -98,7 +107,7 @@ class DrillDetailScreen extends StatelessWidget {
                     ],
                     if (drill.tags.isNotEmpty) ...[
                       const SizedBox(height: AppSpacing.xl),
-                      const _SectionHeader('Tags'),
+                      _SectionHeader(L('Tags')),
                       const SizedBox(height: AppSpacing.md),
                       Wrap(
                         spacing: AppSpacing.sm,
@@ -115,7 +124,7 @@ class DrillDetailScreen extends StatelessWidget {
                       child: FilledButton.icon(
                         onPressed: () => _showStartDrillNotice(context),
                         icon: const Icon(Icons.play_arrow_rounded),
-                        label: const Text('Start drill'),
+                        label: Text(L('Start drill')),
                       ),
                     ),
                   ],
@@ -132,8 +141,8 @@ class DrillDetailScreen extends StatelessWidget {
     ScaffoldMessenger.of(context)
       ..hideCurrentSnackBar()
       ..showSnackBar(
-        const SnackBar(
-          content: Text('Guided workouts arrive in a later build phase.'),
+        SnackBar(
+          content: Text(L("Guided drill workouts aren't part of this build yet.")),
         ),
       );
   }
@@ -253,15 +262,15 @@ class _VideoPlaceholder extends StatelessWidget {
       children: [
         DrillThumbnailImage(drill: drill, iconSize: 56),
         Container(color: Colors.black.withValues(alpha: 0.25)),
-        const Center(
+        Center(
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Icon(Icons.play_circle_outline, size: 60, color: Colors.white70),
-              SizedBox(height: AppSpacing.sm),
+              const Icon(Icons.play_circle_outline, size: 60, color: Colors.white70),
+              const SizedBox(height: AppSpacing.sm),
               Text(
-                'Video preview coming soon',
-                style: TextStyle(color: Colors.white70, fontSize: 13),
+                L('Video preview coming soon'),
+                style: const TextStyle(color: Colors.white70, fontSize: 13),
               ),
             ],
           ),
@@ -295,13 +304,13 @@ class _MetaChips extends StatelessWidget {
           _MetaChip(
             icon: Icons.sports_basketball,
             label: drill.repDribbles == 1
-                ? '1 rep dribble'
-                : '${drill.repDribbles} rep dribbles',
+                ? L('1 rep dribble')
+                : LF('%lld rep dribbles', [drill.repDribbles]),
           ),
         if (drill.handChangeable)
-          const _MetaChip(icon: Icons.swap_horiz, label: 'Hand-changeable'),
+          _MetaChip(icon: Icons.swap_horiz, label: L('Hand-changeable')),
         if (drill.reversible)
-          const _MetaChip(icon: Icons.repeat, label: 'Reversible'),
+          _MetaChip(icon: Icons.repeat, label: L('Reversible')),
       ],
     );
   }

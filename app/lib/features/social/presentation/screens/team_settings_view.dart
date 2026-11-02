@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import '../../../../app/router.dart';
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../../../core/widgets/glass_card.dart';
 import '../../domain/team_membership_model.dart';
 import '../../domain/team_model.dart';
@@ -21,11 +22,11 @@ class TeamSettingsView extends StatelessWidget {
   /// The recovered `_leaveTeamMessage`: how you'd get back in.
   static String leaveTeamMessage(TeamVisibility visibility) =>
       switch (visibility) {
-        TeamVisibility.public => 'You can rejoin anytime from the Teams tab.',
+        TeamVisibility.public => L('You can rejoin anytime from the Teams tab.'),
         TeamVisibility.private =>
-          "This team is private. You'll need an invite code or link to rejoin.",
+          L("This team is private. You'll need an invite code or link to rejoin."),
         TeamVisibility.inviteOnly =>
-          "You'll need an invite code or link to rejoin this team.",
+          L("You'll need an invite code or link to rejoin this team."),
       };
 
   Future<void> _confirmLeave(BuildContext context, TeamModel team) async {
@@ -33,9 +34,9 @@ class TeamSettingsView extends StatelessWidget {
     final router = GoRouter.of(context);
     final confirmed = await confirmSocialAction(
       context,
-      title: 'Leave ${team.name}?',
+      title: LF('Leave %@?', [team.name]),
       message: leaveTeamMessage(team.visibility),
-      confirmLabel: 'LEAVE',
+      confirmLabel: L('LEAVE'),
     );
     if (!confirmed) return;
     await teams.leaveTeam(team.id);
@@ -48,27 +49,27 @@ class TeamSettingsView extends StatelessWidget {
     final team = teams.team(teamId);
     if (team == null) return const Scaffold();
     return Scaffold(
-      appBar: AppBar(title: const Text('Settings')),
+      appBar: AppBar(title: Text(L('Settings'))),
       body: ListView(
         padding: const EdgeInsets.all(AppSpacing.xl),
         children: [
           if (teams.canManageTeam(teamId)) ...[
             _SettingsRow(
               icon: Icons.edit_outlined,
-              label: 'Edit',
+              label: L('Edit'),
               onTap: () => EditTeamSheetView.show(context, team),
             ),
             const SizedBox(height: AppSpacing.sm),
           ],
           _SettingsRow(
             icon: Icons.notifications_none,
-            label: 'Notifications',
+            label: L('Notifications'),
             onTap: () => context.push(AppRoutes.teamNotifications(teamId)),
           ),
           const SizedBox(height: AppSpacing.sm),
           _SettingsRow(
             icon: Icons.logout,
-            label: 'Leave',
+            label: L('Leave'),
             color: AppColors.miss,
             onTap: () => _confirmLeave(context, team),
           ),
@@ -138,39 +139,39 @@ class TeamNotificationPreferencesView extends StatelessWidget {
         if (context.mounted) {
           showSocialSnackBar(
             context,
-            'Could not save notification preferences.',
+            L('Could not save notification preferences.'),
           );
         }
       }
     }
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Notifications')),
+      appBar: AppBar(title: Text(L('Notifications'))),
       body: ListView(
         padding: const EdgeInsets.all(AppSpacing.xl),
         children: [
-          const SocialSectionHeader(title: 'Team activity'),
+          SocialSectionHeader(title: L('Team activity')),
           _ToggleCard(
-            title: 'Live workouts',
-            subtitle: 'Get notified when a teammate starts a workout on this team.',
+            title: L('Live workouts'),
+            subtitle: L('Get notified when a teammate starts a workout on this team.'),
             value: preferences.workoutComplete,
             onChanged: (value) =>
                 save(preferences.copyWith(workoutComplete: value)),
           ),
           const SizedBox(height: AppSpacing.sm),
           _ToggleCard(
-            title: 'Weekly goal completed',
+            title: L('Weekly goal completed'),
             subtitle:
-                'Get notified every time a teammate completes a weekly goal on '
-                'this team.',
+                L('Get notified every time a teammate completes a weekly goal on '
+                'this team.'),
             value: preferences.goalComplete,
             onChanged: (value) =>
                 save(preferences.copyWith(goalComplete: value)),
           ),
           const SizedBox(height: AppSpacing.sm),
           _ToggleCard(
-            title: 'Someone joins the team',
-            subtitle: 'Get notified every time a new person joins this team.',
+            title: L('Someone joins the team'),
+            subtitle: L('Get notified every time a new person joins this team.'),
             value: preferences.memberJoined,
             onChanged: (value) =>
                 save(preferences.copyWith(memberJoined: value)),

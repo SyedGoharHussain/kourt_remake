@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart' as fb;
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -19,14 +20,15 @@ import '../domain/kourt_user.dart';
 /// The public surface is identical to the old placeholder so [app.dart] and
 /// [router.dart] need zero changes.
 class AuthManager extends ChangeNotifier {
-  AuthManager()
-      : _firebaseAuth = fb.FirebaseAuth.instance,
-        _firestore = FirebaseFirestore.instance,
-        _googleSignIn = GoogleSignIn();
+  AuthManager() : _googleSignIn = GoogleSignIn();
 
-  final fb.FirebaseAuth _firebaseAuth;
-  final FirebaseFirestore _firestore;
+  // Read on use, so this class also works where Firebase is not initialized.
+  fb.FirebaseAuth get _firebaseAuth => fb.FirebaseAuth.instance;
+  FirebaseFirestore get _firestore => FirebaseFirestore.instance;
   final GoogleSignIn _googleSignIn;
+
+  fb.User? get _firebaseUser =>
+      Firebase.apps.isEmpty ? null : _firebaseAuth.currentUser;
 
   static const _onboardingCompleteKey = 'auth.onboardingComplete.v1';
   static const _greenSoundKey = 'greenSound.v1';
@@ -52,7 +54,7 @@ class AuthManager extends ChangeNotifier {
     _onboardingComplete = prefs.getBool(_onboardingCompleteKey) ?? false;
     _greenSound = prefs.getString(_greenSoundKey);
 
-    final fbUser = _firebaseAuth.currentUser;
+    final fbUser = _firebaseUser;
     if (fbUser != null) {
       _user = await _syncFromFirestore(fbUser);
       // If Firestore says onboarding is done, trust it (cross-device).
@@ -159,11 +161,11 @@ class AuthManager extends ChangeNotifier {
     await prefs.setBool(_onboardingCompleteKey, true);
     if (greenSound != null) await prefs.setString(_greenSoundKey, greenSound);
 
-    final uid = _firebaseAuth.currentUser?.uid;
+    final uid = _firebaseUser?.uid;
     if (uid != null) {
       await _firestore.collection('users').doc(uid).set({
         'onboardingComplete': true,
-        if (greenSound != null) 'greenSound': greenSound,
+        'greenSound': ?greenSound,
         'updatedAt': FieldValue.serverTimestamp(),
       }, SetOptions(merge: true));
     }
@@ -172,10 +174,40 @@ class AuthManager extends ChangeNotifier {
 
   // ── Sign-out & Reset ─────────────────────────────────────────────────────
 
+  /// Deletes the signed-in Firebase user, if any, then erases everything on this
+  /// device. Throws [ReauthenticationRequiredException] if Firebase wants a
+  /// fresh sign-in first.
+  Future<void> deleteAccount() async {
+    final fbUser = _firebaseUser;
+    if (fbUser != null) {
+      try {
+        await fbUser.delete();
+      } on fb.FirebaseAuthException catch (e) {
+        if (e.code == 'requires-recent-login') {
+          throw const ReauthenticationRequiredException();
+        }
+        rethrow;
+      }
+      await _firestore.collection('users').doc(fbUser.uid).delete();
+    }
+    final prefs = _prefs ??= await SharedPreferences.getInstance();
+    await prefs.clear();
+    _user = null;
+    _onboardingComplete = false;
+    _greenSound = null;
+    notifyListeners();
+  }
+
   /// Signs the user out of Firebase and Google.
   Future<void> signOut() async {
-    await _googleSignIn.signOut();
-    await _firebaseAuth.signOut();
+    if (Firebase.apps.isNotEmpty) {
+      try {
+        await _googleSignIn.signOut();
+      } catch (_) {
+        // Guests never signed in with Google, and Play services can be missing.
+      }
+      await _firebaseAuth.signOut();
+    }
     _user = null;
     _onboardingComplete = false;
     _greenSound = null;
@@ -226,4 +258,9 @@ class AuthManager extends ChangeNotifier {
 
     return kourtUser;
   }
+}
+
+/// Firebase needs the user to sign in again before deleting the account.
+class ReauthenticationRequiredException implements Exception {
+  const ReauthenticationRequiredException();
 }

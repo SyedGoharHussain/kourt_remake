@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../../workout/domain/workout_model.dart';
 import '../../domain/activity_goal_model.dart';
 import '../../domain/daily_progress_entry.dart';
@@ -14,9 +15,11 @@ enum _GoalMetric {
   shots('Shots', ActivityRingColors.shots),
   makes('Makes', ActivityRingColors.makes);
 
-  const _GoalMetric(this.label, this.color);
+  const _GoalMetric(this.labelKey, this.color);
 
-  final String label;
+  final String labelKey;
+
+  String get label => L(labelKey);
   final Color color;
 }
 
@@ -91,7 +94,7 @@ class _ActivityGoalDailyChartState extends State<ActivityGoalDailyChart> {
           children: [
             Expanded(
               child: Text(
-                'Your weekly ${_metric.name} goal',
+                LF('Your weekly %@ goal', [_metric.label]),
                 style: const TextStyle(
                   color: AppColors.textSecondary,
                   fontSize: 13,
@@ -100,7 +103,7 @@ class _ActivityGoalDailyChartState extends State<ActivityGoalDailyChart> {
               ),
             ),
             Text(
-              '$_goalText/Week',
+              LF('%@/Week', [_goalText]),
               style: TextStyle(
                 color: _metric.color,
                 fontSize: 15,
@@ -143,7 +146,7 @@ class _ActivityGoalDailyChartState extends State<ActivityGoalDailyChart> {
                     getTitlesWidget: (value, meta) => SideTitleWidget(
                       meta: meta,
                       child: Text(
-                        entries[value.toInt()].day,
+                        L(entries[value.toInt()].day),
                         style: const TextStyle(
                           color: AppColors.textSecondary,
                           fontSize: 11,
@@ -180,13 +183,13 @@ class _ActivityGoalDailyChartState extends State<ActivityGoalDailyChart> {
           children: [
             Expanded(
               child: TrendsStat(
-                label: 'DAILY AVG',
+                label: L('DAILY AVG'),
                 value: _average(total, widget.daysForAverage),
               ),
             ),
             Expanded(
               child: TrendsStat(
-                label: 'WORKOUT AVG',
+                label: L('WORKOUT AVG'),
                 value: _average(total, count),
               ),
             ),

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../../app/theme/app_colors.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../../onboarding/domain/account_setup_focus.dart';
 import '../../../onboarding/domain/onboarding_draft.dart';
 import '../../../onboarding/domain/onboarding_enums.dart';
@@ -16,19 +17,19 @@ class ProfileDetailCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final rows = <(String, String)>[
-      ('Position', _label(CourtPosition.values, source.position)),
-      ('Skill level', _label(LevelOfPlay.values, source.levelOfPlay)),
-      ('Dominant hand', _label(ShootingHand.values, source.shootingHand)),
-      ('Training', _label(TrainingFrequency.values, source.trainingFrequency)),
-      ('Main focus', AccountSetupFocus.fromCode(source.mainFocus)?.label ?? '—'),
+      (L('Position'), _label(CourtPosition.values, source.position)),
+      (L('Skill level'), _label(LevelOfPlay.values, source.levelOfPlay)),
+      (L('Dominant hand'), _label(ShootingHand.values, source.shootingHand)),
+      (L('Training'), _label(TrainingFrequency.values, source.trainingFrequency)),
+      (L('Main focus'), AccountSetupFocus.fromCode(source.mainFocus)?.label ?? '—'),
       (
-        'Secondary focus',
+        L('Secondary focus'),
         AccountSetupFocus.fromCode(source.secondaryFocus)?.label ?? '—',
       ),
-      ('Age', _age(source.birthDate)),
-      ('Gender', _label(Gender.values, source.gender)),
-      ('Height', source.height != null ? '${source.height!.round()} cm' : '—'),
-      ('Weight', source.weight != null ? '${source.weight!.round()} kg' : '—'),
+      (L('Age'), _age(source.birthDate)),
+      (L('Gender'), _label(Gender.values, source.gender)),
+      (L('Height'), source.height != null ? LF('%lld cm', [source.height!.round()]) : '—'),
+      (L('Weight'), source.weight != null ? LF('%lld kg', [source.weight!.round()]) : '—'),
     ];
 
     return Column(

@@ -1,3 +1,4 @@
+import '../../../core/l10n/app_language_preference.dart';
 import 'social_user.dart';
 
 /// Whether the current user can message someone (recovered
@@ -11,9 +12,11 @@ enum DirectMessageAvailability {
     'before you can message them.',
   );
 
-  const DirectMessageAvailability(this.errorMessage);
+  const DirectMessageAvailability(this.errorMessageKey);
 
-  final String? errorMessage;
+  final String? errorMessageKey;
+
+  String? get errorMessage => errorMessageKey == null ? null : L(errorMessageKey!);
 }
 
 /// The recovered `DirectMessagePermissionService.availability` rules: an existing

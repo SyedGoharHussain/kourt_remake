@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../domain/career_milestones.dart';
 
 /// Lifetime workout and shot milestones: a badge per target and a bar towards the
@@ -81,8 +82,8 @@ class _Track extends StatelessWidget {
         const SizedBox(height: AppSpacing.xs),
         Text(
           next == null
-              ? "All ${track.unit} milestones hit. That's elite 🏆"
-              : 'Next: ${CareerMilestoneTrack.grouped(next)} ${track.unit}',
+              ? LF("All %@ milestones hit. That's elite 🏆", [track.unit])
+              : LF('Next: %@ %@', [CareerMilestoneTrack.grouped(next), track.unit]),
           style: const TextStyle(color: AppColors.textSecondary, fontSize: 12),
         ),
       ],

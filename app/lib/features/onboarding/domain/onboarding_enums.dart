@@ -8,6 +8,8 @@
 /// to the original app's and tolerant of unknown future values.
 library;
 
+import '../../../core/l10n/app_language_preference.dart';
+
 /// A simple single-select option backed by a stable code.
 abstract interface class OnboardingOption {
   String get code;
@@ -19,11 +21,13 @@ enum ShootingHand implements OnboardingOption {
   left('left', 'Left'),
   both('both', 'Both');
 
-  const ShootingHand(this.code, this.label);
+  const ShootingHand(this.code, this.labelKey);
   @override
   final String code;
+  final String labelKey;
+
   @override
-  final String label;
+  String get label => L(labelKey);
 }
 
 enum Gender implements OnboardingOption {
@@ -32,11 +36,13 @@ enum Gender implements OnboardingOption {
   other('other', 'Other'),
   undisclosed('undisclosed', 'Prefer not to say');
 
-  const Gender(this.code, this.label);
+  const Gender(this.code, this.labelKey);
   @override
   final String code;
+  final String labelKey;
+
   @override
-  final String label;
+  String get label => L(labelKey);
 }
 
 enum CourtPosition implements OnboardingOption {
@@ -46,11 +52,13 @@ enum CourtPosition implements OnboardingOption {
   powerForward('pf', 'Power Forward'),
   center('c', 'Center');
 
-  const CourtPosition(this.code, this.label);
+  const CourtPosition(this.code, this.labelKey);
   @override
   final String code;
+  final String labelKey;
+
   @override
-  final String label;
+  String get label => L(labelKey);
 }
 
 enum LevelOfPlay implements OnboardingOption {
@@ -60,11 +68,13 @@ enum LevelOfPlay implements OnboardingOption {
   college('college', 'College'),
   pro('pro', 'Semi-pro / Pro');
 
-  const LevelOfPlay(this.code, this.label);
+  const LevelOfPlay(this.code, this.labelKey);
   @override
   final String code;
+  final String labelKey;
+
   @override
-  final String label;
+  String get label => L(labelKey);
 }
 
 enum TrainingFrequency implements OnboardingOption {
@@ -73,11 +83,13 @@ enum TrainingFrequency implements OnboardingOption {
   fivePlus('5_plus_week', '5+ per week'),
   daily('daily', 'Every day');
 
-  const TrainingFrequency(this.code, this.label);
+  const TrainingFrequency(this.code, this.labelKey);
   @override
   final String code;
+  final String labelKey;
+
   @override
-  final String label;
+  String get label => L(labelKey);
 }
 
 enum AcquisitionSource implements OnboardingOption {
@@ -88,9 +100,11 @@ enum AcquisitionSource implements OnboardingOption {
   appStore('app_store', 'App Store'),
   other('other', 'Somewhere else');
 
-  const AcquisitionSource(this.code, this.label);
+  const AcquisitionSource(this.code, this.labelKey);
   @override
   final String code;
+  final String labelKey;
+
   @override
-  final String label;
+  String get label => L(labelKey);
 }

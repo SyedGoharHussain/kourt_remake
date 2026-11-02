@@ -5,7 +5,9 @@ import 'package:provider/provider.dart';
 import '../../../../app/router.dart';
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../../../core/widgets/glass_card.dart';
+import '../../../../core/widgets/staggered_appear.dart';
 import '../../../auth/data/auth_manager.dart';
 import '../../../social/presentation/managers/direct_message_manager.dart';
 import '../../../social/presentation/social_bootstrapper.dart';
@@ -44,13 +46,24 @@ class _ProfileViewState extends State<ProfileView> {
     final vm = context.watch<MyPlayerViewModel>();
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Profile'),
+        title: Text(L('Profile')),
         actions: [
+          if (vm.hasProfile)
+            IconButton(
+              tooltip: L('Share profile'),
+              icon: const Icon(Icons.ios_share),
+              onPressed: () => context.push(AppRoutes.profileShare),
+            ),
           BadgedIconButton(
             icon: Icons.chat_bubble_outline,
             count: context.watch<DirectMessageManager>().totalUnreadCount,
-            tooltip: 'Messages',
+            tooltip: L('Messages'),
             onPressed: () => context.push(AppRoutes.messages),
+          ),
+          IconButton(
+            tooltip: L('Settings'),
+            icon: const Icon(Icons.settings_outlined),
+            onPressed: () => context.push(AppRoutes.settings),
           ),
           const SizedBox(width: AppSpacing.xs),
         ],
@@ -81,14 +94,14 @@ class _ProfileViewState extends State<ProfileView> {
           AppSpacing.xxl,
         ),
         children: [
-          MyPlayerCard(profile: profile),
+          MyPlayerCard(profile: profile).staggeredAppear(0),
           const SizedBox(height: AppSpacing.lg),
-          const YouConnectionsSection(),
+          const YouConnectionsSection().staggeredAppear(1),
           const SizedBox(height: AppSpacing.lg),
-          const YouTeamsPane(),
+          const YouTeamsPane().staggeredAppear(2),
           const SizedBox(height: AppSpacing.lg),
           _Section(
-            title: 'Attribute profile',
+            title: L('Attribute profile'),
             child: Column(
               children: [
                 PlayerAttributeRadar(ratings: profile.ratings),
@@ -101,12 +114,12 @@ class _ProfileViewState extends State<ProfileView> {
           ),
           const SizedBox(height: AppSpacing.lg),
           _Section(
-            title: 'NBA comparison',
+            title: L('NBA comparison'),
             child: NbaComparisonTile(comparison: profile.nbaComparison),
           ),
           const SizedBox(height: AppSpacing.lg),
           _Section(
-            title: 'Your details',
+            title: L('Your details'),
             child: ProfileDetailCard(source: profile.source),
           ),
         ],
@@ -151,9 +164,9 @@ class _RadarLegend extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        _dot(AppColors.accent, 'Current'),
+        _dot(AppColors.accent, L('Current')),
         const SizedBox(width: AppSpacing.lg),
-        _dot(AppColors.accent.withValues(alpha: 0.4), 'Potential'),
+        _dot(AppColors.accent.withValues(alpha: 0.4), L('Potential')),
       ],
     );
   }
@@ -198,20 +211,20 @@ class _EmptyState extends StatelessWidget {
             ),
             const SizedBox(height: AppSpacing.lg),
             Text(
-              'No My Player yet',
+              L('No My Player yet'),
               style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w800),
             ),
             const SizedBox(height: AppSpacing.sm),
-            const Text(
-              'Answer a few onboarding questions and Bally will build your '
-              'archetype, Overall rating and NBA comparison.',
+            Text(
+              L('Answer a few onboarding questions and Bally will build your '
+              'archetype, Overall rating and NBA comparison.'),
               textAlign: TextAlign.center,
-              style: TextStyle(color: AppColors.textSecondary),
+              style: const TextStyle(color: AppColors.textSecondary),
             ),
             const SizedBox(height: AppSpacing.xl),
             FilledButton(
               onPressed: () => context.read<AuthManager>().reset(),
-              child: const Text('Set up My Player'),
+              child: Text(L('Set up My Player')),
             ),
           ],
         ),

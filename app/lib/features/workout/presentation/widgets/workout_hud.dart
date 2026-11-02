@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../../app/theme/app_colors.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../domain/shooting_phase.dart';
 import '../../domain/shot_outcome.dart';
 
@@ -59,7 +60,8 @@ class _PhaseChip extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final (color, text) = _style();
-    return Container(
+    return AnimatedContainer(
+      duration: const Duration(milliseconds: 180),
       padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
       decoration: BoxDecoration(
         color: color.withValues(alpha: 0.18),
@@ -91,8 +93,8 @@ class _PhaseChip extends StatelessWidget {
   (Color, String) _style() {
     if (phase == ShootingPhase.outcome && lastOutcome != null) {
       return lastOutcome!.isMake
-          ? (AppColors.make, 'MAKE')
-          : (AppColors.miss, 'MISS');
+          ? (AppColors.make, L('Make').toUpperCase())
+          : (AppColors.miss, L('Miss').toUpperCase());
     }
     if (phase.isTrackingShot) return (const Color(0xFFFAC72E), phase.label);
     return (AppColors.textSecondary, phase.label);
@@ -156,13 +158,13 @@ class _StatsBar extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          _stat('MAKES', '$makes', AppColors.make),
+          _stat(L('MAKES'), '$makes', AppColors.make),
           _divider(),
-          _stat('MISSES', '$misses', AppColors.miss),
+          _stat(L('MISSES'), '$misses', AppColors.miss),
           _divider(),
-          _stat('STREAK', '$streak', AppColors.accent),
+          _stat(L('STREAK'), '$streak', AppColors.accent),
           _divider(),
-          _stat('MAKE %', '${(makePercentage * 100).round()}', Colors.white),
+          _stat(L('MAKE %'), '${(makePercentage * 100).round()}', Colors.white),
         ],
       ),
     );
@@ -175,12 +177,20 @@ class _StatsBar extends StatelessWidget {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Text(
-          value,
-          style: TextStyle(
-            color: color,
-            fontSize: 20,
-            fontWeight: FontWeight.w800,
+        AnimatedSwitcher(
+          duration: const Duration(milliseconds: 260),
+          transitionBuilder: (child, animation) => ScaleTransition(
+            scale: CurvedAnimation(parent: animation, curve: Curves.easeOutBack),
+            child: child,
+          ),
+          child: Text(
+            value,
+            key: ValueKey(value),
+            style: TextStyle(
+              color: color,
+              fontSize: 20,
+              fontWeight: FontWeight.w800,
+            ),
           ),
         ),
         Text(

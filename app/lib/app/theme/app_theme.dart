@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart' show CupertinoPageTransitionsBuilder;
 import 'package:flutter/material.dart';
 
 import 'app_colors.dart';
@@ -50,6 +51,17 @@ abstract final class AppTheme {
 
     return base.copyWith(
       textTheme: textTheme,
+      snackBarTheme: const SnackBarThemeData(
+        backgroundColor: AppColors.elevatedCard,
+        contentTextStyle: TextStyle(color: AppColors.textPrimary, fontSize: 14),
+        behavior: SnackBarBehavior.floating,
+      ),
+      pageTransitionsTheme: const PageTransitionsTheme(
+        builders: {
+          TargetPlatform.android: FadeForwardsPageTransitionsBuilder(),
+          TargetPlatform.iOS: CupertinoPageTransitionsBuilder(),
+        },
+      ),
       appBarTheme: const AppBarTheme(
         backgroundColor: Colors.transparent,
         surfaceTintColor: Colors.transparent,

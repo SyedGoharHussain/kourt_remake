@@ -1,3 +1,5 @@
+import '../../../core/l10n/app_language_preference.dart';
+
 /// Lifetime shot or workout milestones.
 ///
 /// The original only used these thresholds for analytics attributes and nudges
@@ -13,15 +15,15 @@ class CareerMilestoneTrack {
   });
 
   factory CareerMilestoneTrack.workouts(int current) => CareerMilestoneTrack(
-        label: 'Workouts',
+        label: L('Workouts'),
         unit: 'workouts',
         current: current,
         targets: const [3, 10, 25, 100],
       );
 
   factory CareerMilestoneTrack.shots(int current) => CareerMilestoneTrack(
-        label: 'Shots tracked',
-        unit: 'shots tracked',
+        label: L('Tracked shots'),
+        unit: L('shots tracked'),
         current: current,
         targets: const [100, 500, 1000, 5000],
       );

@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 
+import '../../../core/l10n/app_language_preference.dart';
 import '../data/social_repositories.dart';
 import '../domain/team_feed_workout_item.dart';
 import 'managers/follow_manager.dart';
@@ -97,7 +98,7 @@ class TeamFeedViewModel extends ChangeNotifier {
       _visibleCount = pageSize.clamp(0, _all.length);
       _hasLoaded = true;
     } catch (_) {
-      _errorMessage = "Couldn't load the team feed. Please try again.";
+      _errorMessage = L("Couldn't load the team feed. Please try again.");
     } finally {
       _isLoading = false;
       notifyListeners();

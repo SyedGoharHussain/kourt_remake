@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../data/social_repositories.dart';
 import '../../domain/social_user.dart';
 import '../../domain/workout_comment_model.dart';
@@ -62,7 +63,7 @@ class WorkoutCommentManager extends ChangeNotifier {
   static String _normalized(String text) {
     final trimmed = text.trim();
     if (trimmed.isEmpty) {
-      throw const WorkoutCommentException("Comment text can't be empty.");
+      throw WorkoutCommentException(L("Comment text can't be empty."));
     }
     return trimmed;
   }
@@ -185,7 +186,7 @@ class WorkoutCommentManager extends ChangeNotifier {
 
   void _requireCanDelete(String authorId, String workoutOwnerId) {
     if (!canDelete(authorId: authorId, workoutOwnerId: workoutOwnerId)) {
-      throw const WorkoutCommentException("You can't delete this comment.");
+      throw WorkoutCommentException(L("You can't delete this comment."));
     }
   }
 }

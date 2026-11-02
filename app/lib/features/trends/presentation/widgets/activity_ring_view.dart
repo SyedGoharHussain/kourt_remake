@@ -2,6 +2,7 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../domain/activity_goal_model.dart';
 
 /// Colors of the three activity rings, recovered from the original.
@@ -36,7 +37,7 @@ class ActivityRingView extends StatelessWidget {
   Widget build(BuildContext context) {
     final center = centerText;
     return Semantics(
-      label: 'Activity rings: ${goal.combinedProgressFormatted} of weekly goal',
+      label: LF('Activity rings: %@ of weekly goal', [goal.combinedProgressFormatted]),
       child: SizedBox(
         width: size,
         height: size,

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../../app/theme/app_colors.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import 'bally_speech_bubble.dart';
 
 /// Shared chrome for every funnel step: a thin progress bar + back affordance
@@ -14,7 +15,7 @@ class AccountSetupScaffold extends StatelessWidget {
     required this.body,
     this.ballyMessage,
     this.ballySubtitle,
-    this.primaryLabel = 'Continue',
+    this.primaryLabel,
     this.onPrimary,
     this.primaryEnabled = true,
     this.secondary,
@@ -26,7 +27,7 @@ class AccountSetupScaffold extends StatelessWidget {
   final Widget body;
   final String? ballyMessage;
   final String? ballySubtitle;
-  final String primaryLabel;
+  final String? primaryLabel;
   final VoidCallback? onPrimary;
   final bool primaryEnabled;
   final Widget? secondary;
@@ -49,7 +50,7 @@ class AccountSetupScaffold extends StatelessWidget {
                           onPressed: onBack,
                           icon: const Icon(Icons.arrow_back_ios_new, size: 18),
                           color: AppColors.textSecondary,
-                          tooltip: 'Back',
+                          tooltip: L('Back'),
                         )
                       : null,
                 ),
@@ -110,7 +111,7 @@ class AccountSetupScaffold extends StatelessWidget {
                         fontWeight: FontWeight.w700,
                       ),
                     ),
-                    child: Text(primaryLabel),
+                    child: Text(primaryLabel ?? L('Continue')),
                   ),
                 ),
               ],

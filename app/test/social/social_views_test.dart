@@ -146,6 +146,23 @@ void main() {
       );
     });
 
+    _testSocial('Ask coach opens the SMS composer', (tester) async {
+      await show(tester, const JoinTeamHubView());
+      await tester.tap(find.text('Ask coach to make team'));
+      await _settle(tester);
+      expect(f.share.sms.single, contains('Kourt AI'));
+    });
+
+    _testSocial('Ask coach says so when there is no messaging app', (
+      tester,
+    ) async {
+      f.share.smsAvailable = false;
+      await show(tester, const JoinTeamHubView());
+      await tester.tap(find.text('Ask coach to make team'));
+      await _settle(tester);
+      expect(find.text('Could not open your messaging app.'), findsOneWidget);
+    });
+
     _testSocial('the invite deep link fills in the code', (tester) async {
       await show(tester, const JoinTeamHubView(initialCode: 'WSH4PR'));
       expect(find.text('WSH4PR'), findsOneWidget);
@@ -284,6 +301,10 @@ void main() {
       await tester.tap(find.text('Copy code'));
       await _settle(tester);
       expect(find.text('Copied!'), findsOneWidget);
+
+      await tester.tap(find.widgetWithText(OutlinedButton, 'Share'));
+      await _settle(tester);
+      expect(f.share.texts.single, contains('DAWN26'));
 
       await tester.enterText(find.byType(TextField), 'devon');
       await _settle(tester);
@@ -438,7 +459,7 @@ void main() {
     ) async {
       await show(
         tester,
-        const TeamLeaderboardView(teamId: MockSocialSeed.westside),
+        TeamLeaderboardView(teamId: MockSocialSeed.westside, clock: () => f.now),
       );
       expect(find.text('October 2026'), findsOneWidget);
       expect(find.text('Your rank'), findsOneWidget);
@@ -452,7 +473,7 @@ void main() {
     ) async {
       await show(
         tester,
-        const TeamLeaderboardView(teamId: MockSocialSeed.westside),
+        TeamLeaderboardView(teamId: MockSocialSeed.westside, clock: () => f.now),
       );
       await tester.tap(find.text('Make %'));
       await _settle(tester);
@@ -468,7 +489,7 @@ void main() {
     _testSocial('an empty range explains itself', (tester) async {
       await show(
         tester,
-        const TeamLeaderboardView(teamId: MockSocialSeed.westside),
+        TeamLeaderboardView(teamId: MockSocialSeed.westside, clock: () => f.now),
       );
       for (var i = 0; i < 36; i++) {
         await tester.tap(find.byTooltip('Previous'));

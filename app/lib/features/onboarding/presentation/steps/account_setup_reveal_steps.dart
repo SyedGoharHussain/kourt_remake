@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 
 import '../../../../app/theme/app_colors.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../domain/account_setup_focus.dart';
 import '../account_setup_controller.dart';
 import '../widgets/account_setup_scaffold.dart';
@@ -23,7 +24,7 @@ class WhyStep extends StatelessWidget {
       progress: controller.progress,
       onBack: controller.back,
       showBack: false,
-      primaryLabel: "Let's build your game",
+      primaryLabel: L("Let's build your game"),
       onPrimary: controller.next,
       body: Column(
         children: [
@@ -33,14 +34,14 @@ class WhyStep extends StatelessWidget {
               .scale(duration: 500.ms, curve: Curves.easeOutBack),
           const SizedBox(height: 28),
           Text(
-            "Hey, I'm Bally.",
+            L("Hey, I'm Bally."),
             textAlign: TextAlign.center,
             style: textTheme.headlineMedium?.copyWith(fontWeight: FontWeight.w800),
           ).animate().fadeIn(delay: 200.ms),
           const SizedBox(height: 12),
           Text(
-            "Answer a few quick questions and I'll build a training plan around "
-            'your game — your focus, your level, your goals.',
+            L("Answer a few quick questions and I'll build a training plan around "
+            'your game — your focus, your level, your goals.'),
             textAlign: TextAlign.center,
             style: textTheme.bodyLarge?.copyWith(color: AppColors.textSecondary),
           ).animate().fadeIn(delay: 350.ms),
@@ -114,7 +115,7 @@ class _PlanGeneratingStepState extends State<PlanGeneratingStep> {
             AnimatedSwitcher(
               duration: const Duration(milliseconds: 300),
               child: Text(
-                _lines[_line],
+                L(_lines[_line]),
                 key: ValueKey(_line),
                 style: Theme.of(context).textTheme.titleMedium?.copyWith(
                   color: AppColors.textSecondary,
@@ -148,8 +149,8 @@ class RoadmapStep extends StatelessWidget {
     return AccountSetupScaffold(
       progress: controller.progress,
       onBack: controller.back,
-      ballyMessage: 'Here’s your roadmap. Three weeks to a sharper game.',
-      primaryLabel: 'Looks good',
+      ballyMessage: L('Here’s your roadmap. Three weeks to a sharper game.'),
+      primaryLabel: L('Looks good'),
       onPrimary: controller.next,
       body: CascadeAppear(
         children: [
@@ -197,7 +198,7 @@ class _RoadmapCard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Week $week',
+                  LF('Week %lld', [week]),
                   style: Theme.of(context).textTheme.labelMedium?.copyWith(
                     color: AppColors.textSecondary,
                     letterSpacing: 0.5,
@@ -205,7 +206,7 @@ class _RoadmapCard extends StatelessWidget {
                 ),
                 const SizedBox(height: 2),
                 Text(
-                  '${focus.label} progression',
+                  LF('%@ progression', [focus.label]),
                   style: Theme.of(context).textTheme.titleMedium?.copyWith(
                     fontWeight: FontWeight.w700,
                   ),
@@ -234,8 +235,8 @@ class RecapStep extends StatelessWidget {
     return AccountSetupScaffold(
       progress: controller.progress,
       onBack: controller.back,
-      ballyMessage: "You're all set up. Here's the shape of your game.",
-      primaryLabel: 'Next',
+      ballyMessage: L("You're all set up. Here's the shape of your game."),
+      primaryLabel: L('Next'),
       onPrimary: controller.next,
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -258,7 +259,7 @@ class RecapStep extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'MY PLAYER',
+                  L('MY PLAYER'),
                   style: Theme.of(context).textTheme.labelMedium?.copyWith(
                     color: AppColors.accent,
                     letterSpacing: 1.2,
@@ -266,16 +267,16 @@ class RecapStep extends StatelessWidget {
                 ),
                 const SizedBox(height: 8),
                 Text(
-                  'Your full card — archetype, tier and NBA comp — unlocks next.',
+                  L('Your full card — archetype, tier and NBA comp — unlocks next.'),
                   style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                     color: AppColors.textSecondary,
                   ),
                 ),
                 const SizedBox(height: 16),
-                _recapRow('Main focus', main?.label ?? '—'),
-                _recapRow('Level', draft.levelOfPlay ?? '—'),
+                _recapRow(L('Main focus'), main?.label ?? '—'),
+                _recapRow(L('Level'), draft.levelOfPlay ?? '—'),
                 _recapRow(
-                  'Weekly makes',
+                  L('Weekly makes'),
                   draft.recommendedMakesGoal?.toString() ?? '—',
                 ),
               ],
@@ -315,8 +316,8 @@ class ReviewsStep extends StatelessWidget {
     return AccountSetupScaffold(
       progress: controller.progress,
       onBack: controller.back,
-      ballyMessage: "You're in good company.",
-      primaryLabel: 'Continue',
+      ballyMessage: L("You're in good company."),
+      primaryLabel: L('Continue'),
       onPrimary: controller.next,
       body: CascadeAppear(
         children: [
@@ -339,7 +340,7 @@ class ReviewsStep extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(height: 8),
-                  Text(quote),
+                  Text(L(quote)),
                   const SizedBox(height: 8),
                   Text(
                     name,
@@ -370,12 +371,12 @@ class SaveProgressStep extends StatelessWidget {
     return AccountSetupScaffold(
       progress: controller.progress,
       onBack: controller.back,
-      primaryLabel: 'Create a free account',
+      primaryLabel: L('Create a free account'),
       onPrimary: controller.next,
       secondary: TextButton(
         onPressed: controller.next,
         style: TextButton.styleFrom(foregroundColor: AppColors.textSecondary),
-        child: const Text('Maybe later — keep me as a guest'),
+        child: Text(L('Maybe later — keep me as a guest')),
       ),
       body: Column(
         children: [
@@ -383,21 +384,21 @@ class SaveProgressStep extends StatelessWidget {
           const Icon(Icons.lock_outline, size: 44, color: AppColors.accent),
           const SizedBox(height: 20),
           Text(
-            'Save your progress',
+            L('Save your progress'),
             textAlign: TextAlign.center,
             style: textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.w800),
           ),
           const SizedBox(height: 12),
           Text(
-            'Create an account to back up your plan, streaks and workouts. '
+            L('Create an account to back up your plan, streaks and workouts. '
             "Sign-in is a placeholder in this build — you'll continue as a "
-            'local guest either way.',
+            'local guest either way.'),
             textAlign: TextAlign.center,
             style: textTheme.bodyMedium?.copyWith(color: AppColors.textSecondary),
           ),
           const SizedBox(height: 16),
           Text(
-            'By continuing you agree to the Terms & Privacy Policy.',
+            L('By continuing you agree to the Terms & Privacy Policy.'),
             textAlign: TextAlign.center,
             style: textTheme.bodySmall?.copyWith(color: AppColors.textSecondary),
           ),
@@ -408,8 +409,8 @@ class SaveProgressStep extends StatelessWidget {
 }
 
 /// Runtime-permissions primer (camera / mic / notifications) + the finish
-/// action. The actual OS requests are wired with the camera in Phase 4; this
-/// screen explains why, then completes onboarding and unlocks the app.
+/// action. The OS asks when a workout first opens the camera and when the
+/// reminder is turned on; this screen explains why, then completes onboarding.
 class PermissionsStep extends StatelessWidget {
   const PermissionsStep({super.key, required this.controller});
 
@@ -426,9 +427,9 @@ class PermissionsStep extends StatelessWidget {
     return AccountSetupScaffold(
       progress: controller.progress,
       onBack: controller.back,
-      ballyMessage: 'Last thing — a few permissions so the AI can do its job.',
-      ballySubtitle: "We'll only ask when you first start a workout.",
-      primaryLabel: controller.isFinishing ? 'Starting…' : 'Finish & start training',
+      ballyMessage: L('Last thing — a few permissions so the AI can do its job.'),
+      ballySubtitle: L("We'll only ask when you first start a workout."),
+      primaryLabel: controller.isFinishing ? L('Starting…') : L('Finish & start training'),
       primaryEnabled: !controller.isFinishing,
       onPrimary: () => controller.finish(),
       body: CascadeAppear(
@@ -451,13 +452,13 @@ class PermissionsStep extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          title,
+                          L(title),
                           style: Theme.of(context).textTheme.titleMedium
                               ?.copyWith(fontWeight: FontWeight.w700),
                         ),
                         const SizedBox(height: 2),
                         Text(
-                          body,
+                          L(body),
                           style: const TextStyle(color: AppColors.textSecondary),
                         ),
                       ],

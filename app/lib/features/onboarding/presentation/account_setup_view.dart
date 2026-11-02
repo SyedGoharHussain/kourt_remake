@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../../../core/l10n/app_language_preference.dart';
 import '../../auth/data/auth_manager.dart';
 import '../../my_player/data/my_player_store.dart';
 import '../data/onboarding_draft_store.dart';
@@ -96,7 +97,7 @@ class _AccountSetupBody extends StatelessWidget {
       case AccountSetupStep.hand:
         return SingleChoiceStep(
           controller: c,
-          ballyMessage: 'Which hand do you shoot with?',
+          ballyMessage: L('Which hand do you shoot with?'),
           options: ShootingHand.values,
           selectedCode: draft.shootingHand,
           onSelect: c.setShootingHand,
@@ -111,7 +112,7 @@ class _AccountSetupBody extends StatelessWidget {
       case AccountSetupStep.gender:
         return SingleChoiceStep(
           controller: c,
-          ballyMessage: 'How do you identify?',
+          ballyMessage: L('How do you identify?'),
           options: Gender.values,
           selectedCode: draft.gender,
           onSelect: c.setGender,
@@ -119,7 +120,7 @@ class _AccountSetupBody extends StatelessWidget {
       case AccountSetupStep.position:
         return SingleChoiceStep(
           controller: c,
-          ballyMessage: 'What position do you play?',
+          ballyMessage: L('What position do you play?'),
           options: CourtPosition.values,
           selectedCode: draft.position,
           onSelect: c.setPosition,
@@ -128,7 +129,7 @@ class _AccountSetupBody extends StatelessWidget {
       case AccountSetupStep.level:
         return SingleChoiceStep(
           controller: c,
-          ballyMessage: "What level are you playing at?",
+          ballyMessage: L("What level are you playing at?"),
           options: LevelOfPlay.values,
           selectedCode: draft.levelOfPlay,
           onSelect: c.setLevelOfPlay,
@@ -137,7 +138,7 @@ class _AccountSetupBody extends StatelessWidget {
       case AccountSetupStep.frequency:
         return SingleChoiceStep(
           controller: c,
-          ballyMessage: 'How often do you train?',
+          ballyMessage: L('How often do you train?'),
           options: TrainingFrequency.values,
           selectedCode: draft.trainingFrequency,
           onSelect: c.setTrainingFrequency,
@@ -145,21 +146,21 @@ class _AccountSetupBody extends StatelessWidget {
       case AccountSetupStep.otherTrainingApps:
         return YesNoStep(
           controller: c,
-          ballyMessage: 'Have you used other basketball training apps?',
+          ballyMessage: L('Have you tried any other basketball training apps?'),
           value: draft.triedOtherTrainingApps,
           onChanged: c.setTriedOtherTrainingApps,
         );
       case AccountSetupStep.basketballTrainer:
         return YesNoStep(
           controller: c,
-          ballyMessage: 'Do you work with a basketball trainer?',
+          ballyMessage: L('Do you currently work with a basketball trainer?'),
           value: draft.worksWithBasketballTrainer,
           onChanged: c.setWorksWithBasketballTrainer,
         );
       case AccountSetupStep.acquisition:
         return SingleChoiceStep(
           controller: c,
-          ballyMessage: 'How did you hear about Kourt AI?',
+          ballyMessage: L('Where did you hear about Kourt AI?'),
           options: AcquisitionSource.values,
           selectedCode: draft.acquisitionSource,
           onSelect: c.setAcquisitionSource,

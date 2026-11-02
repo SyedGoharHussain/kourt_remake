@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import '../../../../app/router.dart';
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../../../core/widgets/glass_card.dart';
 import '../../../onboarding/domain/onboarding_enums.dart';
 import '../../data/social_repositories.dart';
@@ -53,10 +54,10 @@ class _UserProfileBody extends StatelessWidget {
     }
     final confirmed = await confirmSocialAction(
       context,
-      title: 'Block ${vm.user.name}?',
-      message: "You won't see each other's activity, and any follows between "
-          'you will be removed.',
-      confirmLabel: 'Block',
+      title: LF('Block %@?', [vm.user.name]),
+      message: L("You won't see each other's activity, and any follows between "
+          'you will be removed.'),
+      confirmLabel: L('Block'),
     );
     if (confirmed) await follows.blockUser(vm.userId);
   }
@@ -67,10 +68,10 @@ class _UserProfileBody extends StatelessWidget {
     if (!vm.exists) {
       return Scaffold(
         appBar: AppBar(),
-        body: const Center(
+        body: Center(
           child: SocialEmptyState(
             icon: Icons.person_off_outlined,
-            title: 'Profile unavailable',
+            title: L('Profile unavailable'),
           ),
         ),
       );
@@ -82,13 +83,13 @@ class _UserProfileBody extends StatelessWidget {
         actions: [
           if (!vm.isCurrentUserProfile)
             PopupMenuButton<String>(
-              tooltip: 'More',
+              tooltip: L('More'),
               color: AppColors.elevatedCard,
               onSelected: (_) => _toggleBlock(context, vm),
               itemBuilder: (_) => [
                 PopupMenuItem(
                   value: 'block',
-                  child: Text(vm.isBlocked ? 'Unblock' : 'Block'),
+                  child: Text(vm.isBlocked ? L('Unblock') : L('Block')),
                 ),
               ],
             ),
@@ -115,18 +116,18 @@ class _UserProfileBody extends StatelessWidget {
 
   List<Widget> _content(UserProfileViewModel vm) {
     if (vm.isBlocked) {
-      return const [
+      return [
         SocialEmptyState(
           icon: Icons.block,
-          title: "You've blocked this account.",
+          title: L("You've blocked this account."),
         ),
       ];
     }
     if (vm.isLockedPrivateProfile) {
-      return const [
+      return [
         SocialEmptyState(
           icon: Icons.lock_outline,
-          title: 'This account is private.',
+          title: L('This account is private.'),
         ),
       ];
     }
@@ -138,12 +139,12 @@ class _UserProfileBody extends StatelessWidget {
     return [
       YouTeamsPane(userId: vm.userId),
       const SizedBox(height: AppSpacing.xl),
-      const SocialSectionHeader(title: 'Recent workouts'),
+      SocialSectionHeader(title: L('Recent workouts')),
       if (vm.recentWorkouts.isEmpty)
-        const GlassCard(
+        GlassCard(
           child: Text(
-            'No workouts yet.',
-            style: TextStyle(color: AppColors.textSecondary),
+            L('No workouts yet.'),
+            style: const TextStyle(color: AppColors.textSecondary),
           ),
         ),
       for (final item in vm.recentWorkouts) ...[
@@ -191,11 +192,11 @@ class _Header extends StatelessWidget {
                 children: [
                   _Stat(
                     value: vm.isLoading || locked ? '–' : '${vm.workoutCount}',
-                    label: 'Workouts',
+                    label: L('Workouts'),
                   ),
                   _Stat(
                     value: '${vm.followerCount}',
-                    label: 'Followers',
+                    label: L('Followers'),
                     onTap: locked
                         ? null
                         : () => context.push(
@@ -207,7 +208,7 @@ class _Header extends StatelessWidget {
                   ),
                   _Stat(
                     value: '${vm.followingCount}',
-                    label: 'Following',
+                    label: L('Following'),
                     onTap: locked
                         ? null
                         : () => context.push(
@@ -306,7 +307,7 @@ class _Header extends StatelessWidget {
                         fontWeight: FontWeight.w700,
                       ),
                     ),
-                    child: const Text('Message'),
+                    child: Text(L('Message')),
                   ),
                 ),
               ],

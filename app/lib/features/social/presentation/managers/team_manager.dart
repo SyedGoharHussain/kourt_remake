@@ -2,6 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/foundation.dart';
 
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../data/social_repositories.dart';
 import '../../domain/social_user.dart';
 import '../../domain/team_membership_model.dart';
@@ -193,9 +194,9 @@ class TeamManager extends ChangeNotifier {
       ]);
       if (!taken.contains(code)) return code;
     }
-    throw const TeamManagerException(
+    throw TeamManagerException(
       'invite-code',
-      'Could not generate a team invite code.',
+      L('Could not generate a team invite code.'),
     );
   }
 
@@ -212,12 +213,12 @@ class TeamManager extends ChangeNotifier {
   Future<void> joinPublicTeam(String teamId) async {
     final target = team(teamId);
     if (target == null) {
-      throw const TeamManagerException(codeTeamNotFound, 'Team not found');
+      throw TeamManagerException(codeTeamNotFound, L('Team not found'));
     }
     if (target.visibility != TeamVisibility.public) {
-      throw const TeamManagerException(
+      throw TeamManagerException(
         codeInviteRequired,
-        'This team requires an invite code or link to join.',
+        L('This team requires an invite code or link to join.'),
       );
     }
     await _addCurrentUserToTeam(target);
@@ -227,9 +228,9 @@ class TeamManager extends ChangeNotifier {
   Future<TeamModel> joinTeamWithCode(String rawCode) async {
     final code = TeamModel.formatTeamCode(rawCode);
     if (code.isEmpty) {
-      throw const TeamManagerException(
+      throw TeamManagerException(
         codeInviteRequired,
-        'Enter a team invite code.',
+        L('Enter a team invite code.'),
       );
     }
     for (final target in _teams) {
@@ -238,9 +239,9 @@ class TeamManager extends ChangeNotifier {
         return target;
       }
     }
-    throw const TeamManagerException(
+    throw TeamManagerException(
       codeTeamNotFound,
-      'No team found with that invite code.',
+      L('No team found with that invite code.'),
     );
   }
 
@@ -249,7 +250,7 @@ class TeamManager extends ChangeNotifier {
     if (existing != null && existing.isActive) {
       throw TeamManagerException(
         codeAlreadyMember,
-        'You are already a member of ${target.name}.',
+        LF('You are already a member of %@.', [target.name]),
       );
     }
     if (existing != null) {
@@ -291,9 +292,9 @@ class TeamManager extends ChangeNotifier {
   Future<void> acceptPendingInvite(String teamId) async {
     final invite = membership(teamId, currentUserId);
     if (invite == null || !invite.isPendingInvite) {
-      throw const TeamManagerException(
+      throw TeamManagerException(
         'invite-unavailable',
-        'This invite is no longer available.',
+        L('This invite is no longer available.'),
       );
     }
     await _activatePendingMembership(invite);
@@ -346,9 +347,9 @@ class TeamManager extends ChangeNotifier {
   ) async {
     final current = membership(teamId, currentUserId);
     if (current == null) {
-      throw const TeamManagerException(
+      throw TeamManagerException(
         'membership-not-found',
-        'Membership not found.',
+        L('Membership not found.'),
       );
     }
     final updated = current.copyWith(notificationPreferences: preferences);

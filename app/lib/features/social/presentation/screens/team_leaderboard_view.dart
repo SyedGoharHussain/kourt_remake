@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../../../core/widgets/glass_card.dart';
 import '../../../trends/domain/trends_date_range.dart';
 import '../../data/social_repositories.dart';
@@ -15,9 +16,12 @@ import '../widgets/social_avatar.dart';
 
 /// A team's leaderboard (recovered `TeamLeaderboardView`).
 class TeamLeaderboardView extends StatelessWidget {
-  const TeamLeaderboardView({super.key, required this.teamId});
+  const TeamLeaderboardView({super.key, required this.teamId, this.clock});
 
   final String teamId;
+
+  /// Test seam for the date ranges.
+  final DateTime Function()? clock;
 
   @override
   Widget build(BuildContext context) {
@@ -27,6 +31,7 @@ class TeamLeaderboardView extends StatelessWidget {
         feed: context.read<WorkoutFeedRepository>(),
         teams: context.read<TeamManager>(),
         users: context.read<UserDiscoveryManager>(),
+        clock: clock,
       )..refreshLeaderboard(),
       child: const _TeamLeaderboardBody(),
     );
@@ -40,7 +45,7 @@ class _TeamLeaderboardBody extends StatelessWidget {
   Widget build(BuildContext context) {
     final vm = context.watch<TeamLeaderboardViewModel>();
     return Scaffold(
-      appBar: AppBar(title: const Text('Leaderboard')),
+      appBar: AppBar(title: Text(L('Leaderboard'))),
       body: SafeArea(
         top: false,
         child: ListView(
@@ -64,25 +69,25 @@ class _TeamLeaderboardBody extends StatelessWidget {
 
   List<Widget> _board(TeamLeaderboardViewModel vm) {
     if (vm.isLoading) {
-      return const [
-        SizedBox(height: AppSpacing.xxl),
-        Center(child: CircularProgressIndicator(color: AppColors.accent)),
-        SizedBox(height: AppSpacing.md),
+      return [
+        const SizedBox(height: AppSpacing.xxl),
+        const Center(child: CircularProgressIndicator(color: AppColors.accent)),
+        const SizedBox(height: AppSpacing.md),
         Center(
           child: Text(
-            'Loading leaderboard...',
-            style: TextStyle(color: AppColors.textSecondary),
+            L('Loading leaderboard...'),
+            style: const TextStyle(color: AppColors.textSecondary),
           ),
         ),
       ];
     }
     if (vm.isEmpty) {
-      return const [
+      return [
         GlassCard(
           child: Text(
-            'No workouts in this range yet. Log sessions to climb the board.',
+            L('No workouts in this range yet. Log sessions to climb the board.'),
             textAlign: TextAlign.center,
-            style: TextStyle(color: AppColors.textSecondary),
+            style: const TextStyle(color: AppColors.textSecondary),
           ),
         ),
       ];
@@ -199,7 +204,7 @@ class _LeaderboardRangeControls extends StatelessWidget {
     return Row(
       children: [
         IconButton(
-          tooltip: 'Previous',
+          tooltip: L('Previous'),
           onPressed:
               vm.canNavigateBackward ? () => vm.moveRangeWindow(-1) : null,
           icon: const Icon(Icons.chevron_left),
@@ -207,7 +212,7 @@ class _LeaderboardRangeControls extends StatelessWidget {
         Expanded(
           child: Semantics(
             button: true,
-            hint: 'Shows leaderboard date range options',
+            hint: L('Shows leaderboard date range options'),
             child: InkWell(
               onTap: () => _showRangePicker(context),
               borderRadius: BorderRadius.circular(10),
@@ -238,7 +243,7 @@ class _LeaderboardRangeControls extends StatelessWidget {
           ),
         ),
         IconButton(
-          tooltip: 'Next',
+          tooltip: L('Next'),
           onPressed: vm.canNavigateForward ? () => vm.moveRangeWindow(1) : null,
           icon: const Icon(Icons.chevron_right),
         ),
@@ -266,9 +271,9 @@ class _MyRankCard extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Text(
-                  'Your rank',
-                  style: TextStyle(
+                Text(
+                  L('Your rank'),
+                  style: const TextStyle(
                     color: AppColors.textSecondary,
                     fontSize: 12,
                     fontWeight: FontWeight.w600,

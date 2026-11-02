@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import '../../../../app/router.dart';
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../../onboarding/presentation/widgets/account_setup_option_row.dart';
 import '../../../onboarding/presentation/widgets/account_setup_scaffold.dart';
 import '../../domain/team_model.dart';
@@ -74,14 +75,14 @@ class _TeamCreationBody extends StatelessWidget {
     switch (vm.currentStep) {
       case CreateTeamStep.name:
         return _TextStep(
-          hint: 'Squad name',
+          hint: L('Squad name'),
           initial: vm.teamName,
           onChanged: vm.setTeamName,
           autofocus: true,
         );
       case CreateTeamStep.description:
         return _TextStep(
-          hint: "What's this team about?",
+          hint: L("What's this team about?"),
           initial: vm.description,
           onChanged: (value) => vm.description = value,
           maxLines: 5,
@@ -123,10 +124,10 @@ class _TeamCreationBody extends StatelessWidget {
       case CreateTeamStep.gender:
         return Column(
           children: [
-            for (final (code, label) in const [
-              ('male', 'Male'),
-              ('female', 'Female'),
-              ('PNS', 'Prefer not to say'),
+            for (final (code, label) in [
+              ('male', L('Male')),
+              ('female', L('Female')),
+              ('PNS', L('Prefer not to say')),
             ])
               AccountSetupOptionRow(
                 label: label,
@@ -140,14 +141,14 @@ class _TeamCreationBody extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             _TextStep(
-              hint: 'City, state, country',
+              hint: L('City, state, country'),
               initial: vm.location,
               onChanged: (value) => vm.location = value,
             ),
             const SizedBox(height: AppSpacing.sm),
-            const Text(
-              'Helps players find teams near them. Optional.',
-              style: TextStyle(color: AppColors.textSecondary),
+            Text(
+              L('Helps players find teams near them. Optional.'),
+              style: const TextStyle(color: AppColors.textSecondary),
             ),
           ],
         );
@@ -250,7 +251,7 @@ class _SocialStep extends StatelessWidget {
           (value) => vm.facebookURL = value,
         ),
         field(
-          'Website',
+          L('Website'),
           Icons.language,
           vm.websiteURL,
           (value) => vm.websiteURL = value,
@@ -270,7 +271,7 @@ class _BrandingStep extends StatelessWidget {
     final name = vm.teamName.trim();
     final preview = TeamModel(
       id: 'preview',
-      name: name.isEmpty ? 'Team' : name,
+      name: name.isEmpty ? L('Team') : name,
       inviteCode: '',
       createDate: DateTime.now(),
       brandColorValue: vm.brandColor,
@@ -288,7 +289,7 @@ class _BrandingStep extends StatelessWidget {
               Semantics(
                 button: true,
                 selected: vm.brandColor == value,
-                label: 'Team color',
+                label: L('Team color'),
                 child: GestureDetector(
                   onTap: () => vm.setBrandColor(value),
                   child: Container(

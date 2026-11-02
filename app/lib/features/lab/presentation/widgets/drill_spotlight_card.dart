@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../domain/drill_category.dart';
 import '../../domain/drill_template.dart';
 import 'drill_difficulty_tier.dart';
@@ -31,7 +32,10 @@ class DrillSpotlightCard extends StatelessWidget {
     final meta = [
       if (category != null) category.label,
       if (drill.isCombo) drill.comboKind.label,
-      if (drill.repDribbles > 0) '${drill.repDribbles} reps',
+      if (drill.repDribbles == 1)
+        L('1 rep')
+      else if (drill.repDribbles > 0)
+        LF('%@ reps', [drill.repDribbles]),
     ].join('  ·  ');
 
     return Semantics(

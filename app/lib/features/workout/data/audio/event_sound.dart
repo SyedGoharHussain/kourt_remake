@@ -1,3 +1,5 @@
+import '../../../../core/l10n/app_language_preference.dart';
+
 /// The celebration / event sound catalog, ported from the recovered
 /// `video_tracking/session/feedback/event_sound.dart` (`ShotEventSoundKind`).
 ///
@@ -50,6 +52,30 @@ enum ShotEventSoundKind {
         ShotEventSoundKind.thatsMyMan => 'thats-my-man',
         ShotEventSoundKind.thatsTooEasy => 'thats-too-easy',
         ShotEventSoundKind.ballBounce => 'ball-bounce',
+      };
+
+  /// The recovered display name; proper names aren't translated.
+  String get displayName => switch (this) {
+        ShotEventSoundKind.none => '🔇 ${L('None')}',
+        ShotEventSoundKind.random => '🎲 ${L('Random')}',
+        ShotEventSoundKind.bangBang => '💥 Bang Bang',
+        ShotEventSoundKind.boomGoesTheDynamite => '💣 Boom Goes The Dynamite',
+        ShotEventSoundKind.chaChing => '💰 Cha Ching',
+        ShotEventSoundKind.chrisSmoove => '😎 Chris Smoove',
+        ShotEventSoundKind.fahhh => '😮 Fahhh',
+        ShotEventSoundKind.godDid => '🙏 God Did',
+        ShotEventSoundKind.goodShotBhaiyaaaa => '🙌 Good Shot Bhaiyaaaa',
+        ShotEventSoundKind.greenFn => '🟢 Green Fn',
+        ShotEventSoundKind.greenGiant => '🥬 Green Giant',
+        ShotEventSoundKind.greenLight => '🚦 Green Light',
+        ShotEventSoundKind.irishSpringGreen => '☘️ Irish Spring Green',
+        ShotEventSoundKind.point => 'Point',
+        ShotEventSoundKind.skibidiBopBop => '🕺 Skibidi Bop Bop',
+        ShotEventSoundKind.strokeThatThing => '🔥 Stroke That Thing',
+        ShotEventSoundKind.swish => 'Swish',
+        ShotEventSoundKind.thatsMyMan => '🤝 Thats My Man',
+        ShotEventSoundKind.thatsTooEasy => '😌 Thats Too Easy',
+        ShotEventSoundKind.ballBounce => '🏀 Ball Bounce',
       };
 
   /// Path relative to the `assets/` root (what audioplayers' `AssetSource`

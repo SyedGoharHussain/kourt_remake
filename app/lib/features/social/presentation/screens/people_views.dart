@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../domain/social_user.dart';
 import '../managers/follow_manager.dart';
 import '../managers/user_discovery_manager.dart';
@@ -51,7 +52,7 @@ class FellowBallersView extends StatelessWidget {
         appBar: AppBar(
           title: Text(
             isSelf
-                ? 'People'
+                ? L('People')
                 : context.watch<UserDiscoveryManager>().user(userId!).name,
           ),
           bottom: TabBar(
@@ -63,10 +64,10 @@ class FellowBallersView extends StatelessWidget {
               for (final tab in tabs)
                 Tab(
                   text: switch (tab) {
-                    FellowBallersTab.followers => 'Followers',
-                    FellowBallersTab.following => 'Following',
+                    FellowBallersTab.followers => L('Followers'),
+                    FellowBallersTab.following => L('Following'),
                     FellowBallersTab.requests =>
-                      requests > 0 ? 'Requests ($requests)' : 'Requests',
+                      requests > 0 ? LF('Requests (%lld)', [requests]) : L('Requests'),
                   },
                 ),
             ],
@@ -115,9 +116,9 @@ class _PeopleListState extends State<_PeopleList> {
     final follows = context.read<FollowManager>();
     final confirmed = await confirmSocialAction(
       context,
-      title: 'Remove follower?',
-      message: '${user.name} will no longer follow you.',
-      confirmLabel: 'Remove',
+      title: L('Remove follower?'),
+      message: LF('%@ will no longer follow you.', [user.name]),
+      confirmLabel: L('Remove'),
     );
     if (confirmed) await follows.removeFollower(user.id);
   }
@@ -141,15 +142,15 @@ class _PeopleListState extends State<_PeopleList> {
 
     final String emptyMessage;
     if (ids.isNotEmpty) {
-      emptyMessage = 'No matches for your search.';
+      emptyMessage = L('No matches for your search.');
     } else if (widget.isFollowers) {
       emptyMessage = isSelf
-          ? "You don't have any followers yet."
-          : "This user doesn't have any followers yet.";
+          ? L("You don't have any followers yet.")
+          : L("This user doesn't have any followers yet.");
     } else {
       emptyMessage = isSelf
-          ? "You aren't following anyone yet."
-          : "This user isn't following anyone yet.";
+          ? L("You aren't following anyone yet.")
+          : L("This user isn't following anyone yet.");
     }
 
     return Column(
@@ -164,9 +165,9 @@ class _PeopleListState extends State<_PeopleList> {
           child: TextField(
             controller: _search,
             onChanged: (_) => setState(() {}),
-            decoration: const InputDecoration(
-              hintText: 'Name or ball tag',
-              prefixIcon: Icon(Icons.search),
+            decoration: InputDecoration(
+              hintText: L('Name or ball tag'),
+              prefixIcon: const Icon(Icons.search),
               isDense: true,
             ),
           ),
@@ -199,7 +200,7 @@ class _PeopleListState extends State<_PeopleList> {
                                       foregroundColor: AppColors.textSecondary,
                                       visualDensity: VisualDensity.compact,
                                     ),
-                                    child: const Text('Remove'),
+                                    child: Text(L('Remove')),
                                   ),
                               ],
                             ),
@@ -220,10 +221,10 @@ class FollowRequestsView extends StatelessWidget {
     final follows = context.read<FollowManager>();
     final confirmed = await confirmSocialAction(
       context,
-      title: 'Decline follow request?',
+      title: L('Decline follow request?'),
       message:
-          '${user.name} will not be able to follow you unless they request again.',
-      confirmLabel: 'Decline',
+          LF('%@ will not be able to follow you unless they request again.', [user.name]),
+      confirmLabel: L('Decline'),
     );
     if (confirmed) await follows.declineFollowRequest(user.id);
   }
@@ -234,10 +235,10 @@ class FollowRequestsView extends StatelessWidget {
     final users = context.watch<UserDiscoveryManager>();
     final pending = follows.pendingFollowerIds;
     if (pending.isEmpty) {
-      return const Center(
+      return Center(
         child: SocialEmptyState(
           icon: Icons.person_add_disabled_outlined,
-          title: 'No pending follow requests.',
+          title: L('No pending follow requests.'),
         ),
       );
     }
@@ -263,10 +264,10 @@ class FollowRequestsView extends StatelessWidget {
                     fontWeight: FontWeight.w700,
                   ),
                 ),
-                child: const Text('Accept'),
+                child: Text(L('Accept')),
               ),
               IconButton(
-                tooltip: 'Decline',
+                tooltip: L('Decline'),
                 onPressed: () => _confirmDecline(context, user),
                 icon: const Icon(Icons.close, color: AppColors.textSecondary),
               ),
@@ -312,7 +313,7 @@ class _FindFriendsViewState extends State<FindFriendsView> {
           );
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Find Ballers')),
+      appBar: AppBar(title: Text(L('Find Ballers'))),
       body: SafeArea(
         top: false,
         child: ListView(
@@ -327,9 +328,9 @@ class _FindFriendsViewState extends State<FindFriendsView> {
               child: TextField(
                 controller: _search,
                 onChanged: (_) => setState(() {}),
-                decoration: const InputDecoration(
-                  hintText: 'Name or ball tag',
-                  prefixIcon: Icon(Icons.search),
+                decoration: InputDecoration(
+                  hintText: L('Name or ball tag'),
+                  prefixIcon: const Icon(Icons.search),
                   isDense: true,
                 ),
               ),
@@ -342,7 +343,7 @@ class _FindFriendsViewState extends State<FindFriendsView> {
                 AppSpacing.xs,
               ),
               child: Text(
-                isSearching ? 'SEARCH RESULTS' : 'SUGGESTED USERS',
+                isSearching ? L('Search Results').toUpperCase() : L('Suggested Users').toUpperCase(),
                 style: const TextStyle(
                   color: AppColors.textSecondary,
                   fontSize: 12,
@@ -354,7 +355,7 @@ class _FindFriendsViewState extends State<FindFriendsView> {
             if (results.isEmpty)
               SocialEmptyState(
                 icon: Icons.person_search_outlined,
-                title: isSearching ? 'No users found.' : 'No suggestions yet.',
+                title: isSearching ? L('No users found.') : L('No suggestions yet.'),
               ),
             for (final user in results)
               SocialUserCellView(

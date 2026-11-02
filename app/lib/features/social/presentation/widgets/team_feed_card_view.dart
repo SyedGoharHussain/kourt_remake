@@ -5,6 +5,8 @@ import 'package:provider/provider.dart';
 import '../../../../app/router.dart';
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
+import '../../../../core/share/share_service.dart';
 import '../../../../core/widgets/glass_card.dart';
 import '../../../workout/domain/workout_grade.dart';
 import '../../../workout/presentation/screens/workout_summary_view.dart'
@@ -86,7 +88,7 @@ class TeamFeedCardView extends StatelessWidget {
           ),
           const SizedBox(height: AppSpacing.md),
           Text(
-            workout.name,
+            L(workout.name),
             style: const TextStyle(
               color: AppColors.textPrimary,
               fontSize: 14,
@@ -96,13 +98,13 @@ class TeamFeedCardView extends StatelessWidget {
           const SizedBox(height: AppSpacing.sm),
           Row(
             children: [
-              _StatChip(label: 'Shots', value: '${workout.totalShots}'),
-              _StatChip(label: 'Makes', value: '${workout.totalMakes}'),
+              _StatChip(label: L('Shots'), value: '${workout.totalShots}'),
+              _StatChip(label: L('Makes'), value: '${workout.totalMakes}'),
               _StatChip(
                 label: 'FG',
                 value: '${(workout.makePercentage * 100).round()}%',
               ),
-              _StatChip(label: 'Time', value: formatDuration(workout.elapsedTime)),
+              _StatChip(label: L('Time'), value: formatDuration(workout.elapsedTime)),
             ],
           ),
           const SizedBox(height: AppSpacing.xs),
@@ -117,16 +119,32 @@ class TeamFeedCardView extends StatelessWidget {
                     : AppColors.textSecondary,
                 count: likes.likeCount(workout.id),
                 tooltip: likes.isLiked(workout.id)
-                    ? 'Unlike workout'
-                    : 'Like workout',
+                    ? L('Unlike workout')
+                    : L('Like workout'),
                 onTap: () => likes.toggle(workout),
               ),
               _ActionButton(
                 icon: Icons.mode_comment_outlined,
                 color: AppColors.textSecondary,
                 count: comments.commentCount(workout.id),
-                tooltip: 'Open comments',
+                tooltip: L('Open comments'),
                 onTap: () => WorkoutCommentsSheetView.show(context, workout),
+              ),
+              const Spacer(),
+              IconButton(
+                tooltip: L('Share'),
+                icon: const Icon(
+                  Icons.ios_share,
+                  size: 20,
+                  color: AppColors.textSecondary,
+                ),
+                onPressed: () => context.read<ShareService>().shareText(
+                  LF('Check out this workout on Kourt AI 🏀 %lld/%lld makes (%@).', [
+                    workout.totalMakes,
+                    workout.totalShots,
+                    '${(workout.makePercentage * 100).round()}%',
+                  ]),
+                ),
               ),
             ],
           ),
@@ -265,22 +283,22 @@ class TeamFeedSection extends StatelessWidget {
     if (vm.errorMessage != null && vm.items.isEmpty) {
       return Column(
         children: [
-          const SocialEmptyState(
+          SocialEmptyState(
             icon: Icons.cloud_off_outlined,
-            title: 'Couldn’t load team feed',
+            title: L('Couldn’t load team feed'),
           ),
           TextButton(
             onPressed: vm.loadFirstPage,
-            child: const Text('Try again'),
+            child: Text(L('Try again')),
           ),
         ],
       );
     }
     if (vm.items.isEmpty) {
-      return const SocialEmptyState(
+      return SocialEmptyState(
         icon: Icons.sports_basketball_outlined,
-        title: 'No team workouts yet',
-        message: 'When your team starts logging workouts, they’ll show up here.',
+        title: L('No team workouts yet'),
+        message: L('When your team starts logging workouts, they’ll show up here.'),
       );
     }
     return Column(
@@ -291,7 +309,7 @@ class TeamFeedSection extends StatelessWidget {
           const SizedBox(height: AppSpacing.md),
         ],
         if (vm.canLoadMore)
-          TextButton(onPressed: vm.loadMore, child: const Text('Load more')),
+          TextButton(onPressed: vm.loadMore, child: Text(L('Load more'))),
       ],
     );
   }

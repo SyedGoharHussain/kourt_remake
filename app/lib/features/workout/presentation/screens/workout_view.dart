@@ -6,6 +6,7 @@ import 'package:provider/provider.dart';
 import '../../../../app/router.dart';
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../../../core/widgets/glass_card.dart';
 import '../widgets/detection_overlay.dart';
 import '../widgets/half_court_overlay.dart';
@@ -52,18 +53,18 @@ class _WorkoutViewState extends State<WorkoutView> with WidgetsBindingObserver {
     return Scaffold(
       backgroundColor: Colors.black,
       body: switch (vm.status) {
-        WorkoutStatus.unsupported => const _MessageState(
+        WorkoutStatus.unsupported => _MessageState(
             icon: Icons.desktop_access_disabled,
-            title: 'Camera AI needs a phone',
+            title: L('Camera AI needs a phone'),
             message:
-                'Ball + rim detection and pose tracking run on Android/iOS. '
-                'Open the Workout tab on the Pixel emulator or a device.',
+                L('Ball + rim detection and pose tracking run on Android/iOS. '
+                'Open the Workout tab on the Pixel emulator or a device.'),
           ),
         WorkoutStatus.error => _MessageState(
             icon: Icons.error_outline,
-            title: 'Camera unavailable',
+            title: L('Camera unavailable'),
             message: vm.errorMessage ??
-                'Something went wrong starting the camera.',
+                L('Something went wrong starting the camera.'),
           ),
         WorkoutStatus.idle ||
         WorkoutStatus.initializing =>
@@ -214,9 +215,9 @@ class _CourtCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text(
-              'SHOT MAP',
-              style: TextStyle(
+            Text(
+              L('Shot map').toUpperCase(),
+              style: const TextStyle(
                 color: AppColors.textSecondary,
                 fontSize: 10,
                 fontWeight: FontWeight.w700,
@@ -256,27 +257,27 @@ class _Controls extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             _MiniButton(
-              label: 'Shot',
+              label: L('Shot'),
               icon: Icons.play_arrow,
               onPressed: running ? vm.simulateShot : null,
             ),
             const SizedBox(width: AppSpacing.sm),
             _MiniButton(
-              label: 'Make',
+              label: L('Make'),
               icon: Icons.check,
               color: AppColors.make,
               onPressed: running ? vm.forceMake : null,
             ),
             const SizedBox(width: AppSpacing.sm),
             _MiniButton(
-              label: 'Miss',
+              label: L('Miss'),
               icon: Icons.close,
               color: AppColors.miss,
               onPressed: running ? vm.forceMiss : null,
             ),
             const SizedBox(width: AppSpacing.sm),
             _MiniButton(
-              label: 'Reset',
+              label: L('Reset'),
               icon: Icons.refresh,
               onPressed: vm.resetSession,
             ),
@@ -294,7 +295,7 @@ class _Controls extends StatelessWidget {
             ),
             icon: Icon(running ? Icons.stop : Icons.videocam),
             label: Text(
-              running ? 'Stop workout' : 'Start workout',
+              running ? L('Stop workout') : L('Start workout'),
               style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16),
             ),
           ),
@@ -340,15 +341,15 @@ class _LoadingState extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
+    return Center(
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          CircularProgressIndicator(color: AppColors.accent),
-          SizedBox(height: AppSpacing.lg),
+          const CircularProgressIndicator(color: AppColors.accent),
+          const SizedBox(height: AppSpacing.lg),
           Text(
-            'Starting camera…',
-            style: TextStyle(color: AppColors.textSecondary),
+            L('Starting camera…'),
+            style: const TextStyle(color: AppColors.textSecondary),
           ),
         ],
       ),

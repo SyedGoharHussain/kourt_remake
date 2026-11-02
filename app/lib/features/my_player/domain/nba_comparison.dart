@@ -1,3 +1,5 @@
+import '../../../core/l10n/app_language_preference.dart';
+
 /// An NBA player the user's game is compared to, shown on the card's
 /// "Potential" page. Mirrors the recovered `NbaComparison` /
 /// `NbaComparisonResolver`.
@@ -42,8 +44,10 @@ class NbaComparison {
 
   /// Tagline — "Plays like a modern ..." on a hit; "A modern ..." default.
   String get tagline =>
-      '${isExactMatch ? 'Plays like a modern' : 'A modern'} '
-      '${positionTitle(position)}';
+      LF(
+        isExactMatch ? 'Plays like a modern %@' : 'A modern %@',
+        [positionTitle(position)],
+      );
 
   /// Two-letter initials for the avatar fallback.
   String get initials {
@@ -61,17 +65,17 @@ class NbaComparison {
   static String positionTitle(String pos) {
     switch (pos.trim().toLowerCase()) {
       case 'pg':
-        return 'Point Guard';
+        return L('Point Guard');
       case 'sg':
-        return 'Shooting Guard';
+        return L('Shooting Guard');
       case 'sf':
-        return 'Small Forward';
+        return L('Small Forward');
       case 'pf':
-        return 'Power Forward';
+        return L('Power Forward');
       case 'c':
-        return 'Center';
+        return L('Center');
       default:
-        return 'Hooper';
+        return L('Hooper');
     }
   }
 

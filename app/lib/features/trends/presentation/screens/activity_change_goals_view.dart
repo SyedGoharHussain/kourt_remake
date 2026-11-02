@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_theme.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 import '../../../../core/widgets/glass_card.dart';
 import '../../domain/activity_goal_totals.dart';
 import '../activity_goal_manager.dart';
@@ -66,15 +67,15 @@ class _ActivityChangeGoalsViewState extends State<ActivityChangeGoalsView> {
   Widget build(BuildContext context) {
     final hours = _timeSeconds ~/ ActivityGoalTotals.timeStep;
     return Scaffold(
-      appBar: AppBar(title: const Text('Change goals')),
+      appBar: AppBar(title: Text(L('Change goals'))),
       body: SafeArea(
         top: false,
         child: ListView(
           padding: const EdgeInsets.all(AppSpacing.xl),
           children: [
             _GoalEditor(
-              question: 'How long do you want to workout for this week?',
-              value: '$hours ${hours == 1 ? 'hour' : 'hours'}',
+              question: L('How long do you want to workout for this week?'),
+              value: hours == 1 ? L('1 hour') : LF('%lld hours', [hours]),
               color: _timeColor,
               onDecrease: _timeSeconds > ActivityGoalTotals.minTime
                   ? () => _setTime(_timeSeconds - ActivityGoalTotals.timeStep)
@@ -85,7 +86,7 @@ class _ActivityChangeGoalsViewState extends State<ActivityChangeGoalsView> {
             ),
             const SizedBox(height: AppSpacing.md),
             _GoalEditor(
-              question: 'How many shots are we getting up this week?',
+              question: L('How many shots are we getting up this week?'),
               value: '$_shots',
               color: ActivityRingColors.shots,
               onDecrease: _shots > ActivityGoalTotals.minShots
@@ -97,7 +98,7 @@ class _ActivityChangeGoalsViewState extends State<ActivityChangeGoalsView> {
             ),
             const SizedBox(height: AppSpacing.md),
             _GoalEditor(
-              question: 'How many shots are we making this week?',
+              question: L('How many shots are we making this week?'),
               value: '$_makes',
               color: ActivityRingColors.makes,
               onDecrease: _makes > ActivityGoalTotals.minMakes
@@ -108,15 +109,15 @@ class _ActivityChangeGoalsViewState extends State<ActivityChangeGoalsView> {
                   : null,
             ),
             const SizedBox(height: AppSpacing.lg),
-            const Text(
-              'This will also change your goals in future weeks.',
+            Text(
+              L('This will also change your goals in future weeks.'),
               textAlign: TextAlign.center,
-              style: TextStyle(color: AppColors.textSecondary, fontSize: 13),
+              style: const TextStyle(color: AppColors.textSecondary, fontSize: 13),
             ),
             const SizedBox(height: AppSpacing.lg),
             FilledButton(
               onPressed: _saving ? null : _save,
-              child: const Text('Save'),
+              child: Text(L('Save')),
             ),
           ],
         ),
@@ -154,7 +155,7 @@ class _GoalEditor extends StatelessWidget {
           Row(
             children: [
               IconButton.filledTonal(
-                tooltip: 'Decrease',
+                tooltip: L('Decrease'),
                 onPressed: onDecrease,
                 icon: const Icon(Icons.remove),
               ),
@@ -181,7 +182,7 @@ class _GoalEditor extends StatelessWidget {
                 ),
               ),
               IconButton.filledTonal(
-                tooltip: 'Increase',
+                tooltip: L('Increase'),
                 onPressed: onIncrease,
                 icon: const Icon(Icons.add),
               ),

@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../../../app/router.dart';
 import '../../../../app/theme/app_colors.dart';
+import '../../../../core/l10n/app_language_preference.dart';
 
 /// The flame-and-count pill that opens the 30 Day Challenge. Mirrors the
 /// recovered `WorkoutStreakButton`.
@@ -17,7 +18,7 @@ class WorkoutStreakButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Semantics(
       button: true,
-      label: 'Daily streak: $streak',
+      label: LF('Daily streak: %lld', [streak]),
       excludeSemantics: true,
       child: Material(
         color: AppColors.elevatedCard,
